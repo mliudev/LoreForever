@@ -10,16 +10,16 @@
    "quest:122"
   ]
  },
- "summary": "South of Lake Everstill, Underbelly Whelp Scale trades hands among Redridge craftsmen. Black dragon whelps provide the pliable scales, and local artisans value them when coin is scarce.",
+ "summary": "South of Lake Everstill, Redridge craftsmen trade Underbelly Whelp Scale. Black dragon whelps provide the pliable scales, valued by local artisans when coin runs short.",
  "sections": [
   {
    "title": "A Rare Trade Commodity",
-   "body": "Black dragons bear tough scales, but facing a full-grown one is deadly for ordinary folk. South of Lake Everstill, black dragon whelps nest among the crags. Their back plates can be brittle or coarse, while the softer scales beneath their bellies bend more readily and still offer protection. Those qualities make Underbelly Whelp Scale valuable in local trade. Craftsmen prize it, and creditors can accept it in place of coin.",
+   "body": "Black dragons bear tough scales, but an ordinary person cannot safely face a full-grown one. South of Lake Everstill, black dragon whelps nest among the crags. Their back plates may be brittle or coarse, while the softer scales beneath their bellies bend more readily and still protect. So Underbelly Whelp Scale has value in local trade. Craftsmen prize it, and creditors may accept it in place of coin.",
    "spoiler": 0
   },
   {
    "title": "Verner's Debt",
-   "body": "In Lakeshire, craftsmen sometimes barter when coin runs short or trade routes are strained. Verner Osgood, the local blacksmith, owes a heavy debt to Argus, a blacksmith in Goldshire. The debt began with a shipment of shoes brought in from Goldshire. Argus favors rare trade goods, so Verner depends on travelers to gather underbelly whelp scales. They can help settle what he owes and keep his workshop in good standing.",
+   "body": "When coin runs short or trade routes strain, Lakeshire craftsmen sometimes barter. Verner Osgood, the local blacksmith, owes a heavy debt to Argus, a blacksmith in Goldshire. The debt began with a shipment of shoes brought from Goldshire. Argus favors rare trade goods, so Verner relies on travelers to gather underbelly whelp scales. They can help settle what he owes and keep his workshop in good standing.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "where to get whelp scales",
     "how to find whelp scales"
    ],
-   "answer": "Black dragon whelps provide Underbelly Whelp Scale. They roost in rocky cliffs and hills south of Lakeshire in the Redridge Mountains, and the scales can also be gathered from mature whelps such as Snarlflare."
+   "answer": "Black dragon whelps provide Underbelly Whelp Scale. They roost in rocky cliffs and hills south of Lakeshire in the Redridge Mountains. The scales can also be gathered from mature whelps such as Snarlflare."
   },
   {
    "q": "Why does Verner Osgood want these scales?",
@@ -39,7 +39,7 @@
     "why does verner need scales",
     "verner osgood underbelly scales"
    ],
-   "answer": "Verner Osgood owes Argus, the blacksmith in Goldshire, for a shipment of imported horseshoes. Argus accepts dragon scales as payment, and any extra scales give Verner material for making tough protective gear."
+   "answer": "Verner Osgood owes Argus, the blacksmith in Goldshire, for a shipment of imported horseshoes. Argus accepts dragon scales as payment, and extra scales give Verner material for making tough protective gear."
   },
   {
    "q": "Why are underbelly scales preferred over regular dragon scales?",
@@ -91,5 +91,5 @@
   "Underbelly Whelp Scale",
   "Underbelly Scales"
  ],
- "style": 1
+ "style": 2
 }

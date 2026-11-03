@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Dawning Wood Catacombs"
  },
- "summary": "Undead fill the Dawning Wood Catacombs beneath Raven Hill Cemetery in western Duskwood. Their stone tunnels hold skeletal guards and ravenous ghouls.",
+ "summary": "Beneath Raven Hill Cemetery in western Duskwood, undead fill the Dawning Wood Catacombs. Skeletal guards and ravenous ghouls haunt their stone tunnels.",
  "sections": [
   {
    "title": "Beneath Raven Hill",
-   "body": "The Dawning Wood Catacombs lie beneath the ruined Raven Hill Cemetery. Before the twilight curse came over the forest, the dead of the surrounding woods rested in these stone corridors. Now the catacombs hold some of the region’s deadliest undead, and their depths are dangerous for lone travelers. Two subterranean wings divide the catacombs. Ranks of animated skeletons guard ancestral tombs in the western passages. To the east, the tunnels descend into a foul warren overrun by ravenous, disease-bearing ghouls.",
+   "body": "Beneath the ruined Raven Hill Cemetery, the Dawning Wood Catacombs hold the dead of the surrounding woods. Before twilight cursed the forest, those dead rested in these stone corridors. Now the catacombs shelter some of the region’s deadliest undead, and lone travelers face danger in their depths.\n\nTwo underground wings divide the catacombs. Animated skeletons guard ancestral tombs in the western passages. To the east, tunnels descend into a foul warren overrun by ravenous, disease-bearing ghouls.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is dawning wood catacombs",
     "how to get to catacombs"
    ],
-   "answer": "The catacombs lie beneath Raven Hill Cemetery, on Duskwood’s far western edge. Their entrances descend from among the sprawling grave markers and ruined crypts."
+   "answer": "The Dawning Wood Catacombs lie beneath Raven Hill Cemetery on Duskwood’s far western edge. Their entrances descend among sprawling grave markers and ruined crypts."
   },
   {
    "q": "What lurks inside the catacombs?",
@@ -32,7 +32,7 @@
     "what is in dawning wood catacombs",
     "catacomb monsters"
    ],
-   "answer": "The catacombs hold Duskwood’s most concentrated and ferocious undead. Heavily armed skeletal warriors defend the western wing, while savage, plague-ridden ghouls infest the eastern tunnels."
+   "answer": "Duskwood’s most concentrated and ferocious undead lurk inside. Heavily armed skeletal warriors defend the western wing, while savage, plague-ridden ghouls infest the eastern tunnels."
   },
   {
    "q": "Why were the catacombs built in the first place?",
@@ -56,11 +56,11 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "For a paladin, these catacombs hold the fallen of the kingdom, and their desecrated tombs call for the Light’s holy wrath."
+   "text": "For a paladin, these catacombs hold the kingdom’s fallen, and their desecrated tombs call for the Light’s holy wrath."
   },
   {
    "target": "class:Priest",
-   "text": "For a priest, restless spirits and decaying corpses cry out beneath Raven Hill’s stone vaults for final rest. The catacombs test the faith of those who enter."
+   "text": "For a priest, restless spirits and decaying corpses lie beneath Raven Hill’s stone vaults, denied their final rest. The catacombs test the faith of those who enter."
   }
  ],
  "keywords": [
@@ -81,5 +81,5 @@
  "attribution": [
   "Dawning Wood Catacombs"
  ],
- "style": 1
+ "style": 2
 }

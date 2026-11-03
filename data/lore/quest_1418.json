@@ -24,16 +24,16 @@
   ],
   "category": "Swamp of Sorrows"
  },
- "summary": "Helgrum the Swift sends you from Stonard to the Badlands outpost of Kargath, to speak with its head scout, Neeka Bloodscar. Word between Stonard and Kargath is often cut.",
+ "summary": "In Stonard, Helgrum the Swift sends you to Kargath, where his messages often fail to arrive.",
  "sections": [
   {
    "title": "A Cut Line",
-   "body": "The Badlands are harsh country and lie close to Loch Modan, which the Alliance holds. Because of this, word between Stonard and Kargath is often cut. Helgrum asks you to prove yourself by travelling to the Badlands and speaking with Neeka Bloodscar, who is head scout there. Neeka's report is then to be sent back to Helgrum.",
+   "body": "In the Badlands, harsh country near Alliance-held Loch Modan, messages between Stonard and Kargath often fail. Helgrum asks you to prove yourself by traveling to Kargath and speaking with Neeka Bloodscar, its head scout. Then you carry Neeka's report back to Helgrum.",
    "spoiler": 0
   },
   {
    "title": "Neeka's Answer",
-   "body": "Neeka tells you an outrunner was sent toward Stonard barely three days earlier. If Stonard has nothing from Neeka, that runner must have failed. Neeka hopes the next one has more skill, or more luck.",
+   "body": "Neeka Bloodscar tells you an outrunner left for Stonard barely three days ago. Since no word from Neeka has reached Stonard, the runner must have failed. Neeka hopes the next one has more skill or luck.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "neeka bloodscar location",
     "where is neeka"
    ],
-   "answer": "From Stonard to the outpost of Kargath in the Badlands, to speak with Neeka Bloodscar."
+   "answer": "Helgrum the Swift sends you from Stonard to Kargath, an outpost in the Badlands, to speak with its head scout, Neeka Bloodscar."
   },
   {
    "q": "Why is communication between Stonard and Kargath cut off?",
@@ -54,7 +54,7 @@
     "badlands communication problem",
     "why stonard to kargath"
    ],
-   "answer": "The Badlands are harsh and lie close to Loch Modan, which the Alliance holds, and word between Stonard and Kargath is often cut."
+   "answer": "The Badlands are harsh country near Loch Modan, which the Alliance holds. Messages between Stonard and Kargath often fail."
   },
   {
    "q": "Who is Neeka Bloodscar?",
@@ -63,7 +63,7 @@
     "neeka role",
     "neeka bloodscar lore"
    ],
-   "answer": "Neeka Bloodscar is the head scout of the Kargath outpost in the Badlands."
+   "answer": "Neeka Bloodscar is the head scout at the Kargath outpost in the Badlands."
   },
   {
    "q": "What comes after speaking with Neeka Bloodscar?",
@@ -72,7 +72,7 @@
     "follow up quest",
     "after neeka bloodscar"
    ],
-   "answer": "Report to Helgrum follows."
+   "answer": "After speaking with Neeka Bloodscar, you report back to Helgrum."
   }
  ],
  "angles": [],
@@ -97,5 +97,6 @@
  ],
  "attribution": [
   "Neeka Bloodscar (Classic)"
- ]
+ ],
+ "style": 2
 }

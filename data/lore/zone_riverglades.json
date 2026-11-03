@@ -11,21 +11,21 @@
   "levels": "",
   "aliases": []
  },
- "summary": "The Riverglades is a contested river valley east of the Burning Steppes and Badlands, historically claimed by the Kingdom of Stormwind. Overrun by the Old Horde during the First War and largely abandoned by the crown, the region remains a battleground as local human loyalists clash with modern Horde outposts and local wildlife. It borders Redridge Mountains to the southwest, Swamp of Sorrows to the south, and faces Tanaris across the sea.",
+ "summary": "In Riverglades, human loyalists and Horde outposts still contest a valley east of the Badlands and Burning Steppes. Stormwind once claimed the region, but the Old Horde overran it in the First War. The Redridge Mountains lie southwest, the Swamp of Sorrows south, and Tanaris across the sea.",
  "sections": [
   {
    "title": "A Forgotten Borderland",
-   "body": "Historically part of the Kingdom of Stormwind, the Riverglades fell into ruin during the First War when the Old Horde swept through the region. Its central settlement, Sunnyglade, was sacked by the orcs, who spared its mage tower solely to study human sorcery before enslaving the surviving townsfolk. Though Stormwind soldiers mounted an effort to liberate the captives and rebuild, the kingdom eventually deemed the entire valley lost and diverted resources toward defending the core homelands. For years, the region remained largely cut off from formal crown support.",
+   "body": "Before the First War, Riverglades belonged to the Kingdom of Stormwind. Then the Old Horde swept through. Orcs sacked Sunnyglade but spared its mage tower to study human sorcery. They enslaved the townsfolk who survived. Stormwind soldiers tried to free the captives and rebuild, but the kingdom judged the valley lost and sent its strength to defend the core homelands. For years, the crown gave Riverglades little formal support.",
    "spoiler": 0
   },
   {
    "title": "The Struggle for Farholde",
-   "body": "Despite being left behind by Stormwind's higher leadership, the human defenders never fully surrendered their homeland. Under Knight Commander Demar Brant of the legendary Brotherhood of the Horse, the remaining loyalists hold Farholde Keep as a bastion against the wilderness and hostile invaders. Meanwhile, the modern Horde maintains their own strong presence nearby at outposts like Rog'mar and Bolder'ok, ensuring that the ancient conflict over the glades continues to smolder.",
+   "body": "Stormwind's leaders left Riverglades behind, yet its human defenders never fully surrendered their homeland. Knight Commander Demar Brant leads the remaining loyalists of the legendary brotherhood of the horse. They hold farholde keep against the wilderness and hostile invaders. Nearby, the modern Horde keeps a strong presence at outposts such as rog'mar and bolder'ok. The old struggle over the glades continues.",
    "spoiler": 0
   },
   {
    "title": "Geography and Travel",
-   "body": "Stretching along the coast of the Forbidding Sea, the Riverglades is flanked by mountainous terrain and winding waterways. Travelers on foot can cross west through Blackrock Pass to the Burning Steppes, wind southwest through Redridge Pass toward the Redridge Mountains, navigate south into the Swamp of Sorrows, or trek northwest past Twilight's Shroud into the Badlands. On the coast, Powderfuse Port provides sea passage connecting directly across the ocean to Steamwheedle Port in Tanaris.",
+   "body": "Riverglades follows the coast of the Forbidding Sea, among mountains and winding waterways. You can cross west through Blackrock Pass to the Burning Steppes, or travel southwest through Redridge Pass to the Redridge Mountains. South lies the Swamp of Sorrows. To the northwest, trails pass Twilight's Shroud into the Badlands. At powderfuse port, you can take a boat across the sea to steamwheedle port in Tanaris.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "what is this zone",
     "about riverglades"
    ],
-   "answer": "The Riverglades is a contested region lying east of the Badlands and Burning Steppes, fronting the Forbidding Sea. Once a flourishing territory of Stormwind, it is now an active frontier contested by the Alliance at Farholde Keep and the Horde at Rog'mar."
+   "answer": "Riverglades lies east of the badlands and burning steppes, along the Forbidding Sea. Stormwind once claimed the region. Now the Alliance holds farholde keep while the Horde keeps rog'mar."
   },
   {
    "q": "What happened to Sunnyglade?",
@@ -46,7 +46,7 @@
     "fall of sunnyglade",
     "what happened to the town"
    ],
-   "answer": "Sunnyglade was raided and destroyed by the Old Horde during the First War. The orcs captured the surviving villagers as slaves and kept a local mage tower intact to decipher human magic. Although Stormwind soldiers freed the captives and tried to rebuild, the kingdom ultimately abandoned the area to focus on its western borders."
+   "answer": "The Old Horde raided and destroyed Sunnyglade during the First War. Orcs enslaved the surviving villagers but kept a local mage tower intact to study human magic. Stormwind soldiers tried to free the captives and rebuild, but the kingdom finally abandoned the area to defend its western borders."
   },
   {
    "q": "Who controls Farholde Keep?",
@@ -55,7 +55,7 @@
     "alliance in riverglades",
     "brotherhood of the horse"
    ],
-   "answer": "Farholde Keep is held by Alliance loyalists led by Knight Commander Demar Brant of the Brotherhood of the Horse. His forces have spent years fighting to reclaim the Riverglades after Stormwind originally wrote the territory off as lost."
+   "answer": "Alliance loyalists hold farholde keep under Knight Commander Demar Brant of the brotherhood of the horse. His forces have spent years fighting to reclaim Riverglades after Stormwind gave the territory up as lost."
   },
   {
    "q": "How do you reach Tanaris from the Riverglades?",
@@ -64,7 +64,7 @@
     "powderfuse port boat",
     "how to get to tanaris"
    ],
-   "answer": "A coastal boat runs regularly between Powderfuse Port on the eastern shore of the Riverglades and Steamwheedle Port in Tanaris, offering a direct naval link across the sea."
+   "answer": "From powderfuse port on Riverglades' eastern shore, a coastal boat runs regularly to steamwheedle port in Tanaris, crossing directly over the sea."
   },
   {
    "q": "What passes lead into other zones?",
@@ -73,7 +73,7 @@
     "passes from riverglades",
     "exits from riverglades"
    ],
-   "answer": "You can travel southwest through Redridge Pass to reach the Redridge Mountains, or cross south directly toward the Swamp of Sorrows. To the west, Blackrock Pass leads past the Bristle Hills to the Burning Steppes, while the trails north of Twilight's Shroud run directly into the Badlands."
+   "answer": "You can travel southwest through Redridge Pass to reach the Redridge Mountains, or head south toward the Swamp of Sorrows. Westward, Blackrock Pass leads past the Bristle Hills to the Burning Steppes. Trails north of Twilight's Shroud run directly into the Badlands."
   },
   {
    "q": "What is Krol'dok Stronghold?",
@@ -82,21 +82,21 @@
     "riverglades dungeon",
     "what dungeon is here"
    ],
-   "answer": "Krol'dok Stronghold is a fortified dungeon complex in the Riverglades, representing a major seat of hostile power in the contested territory."
+   "answer": "Krol'dok Stronghold is a fortified dungeon complex in Riverglades and a major seat of hostile power in the contested territory."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Alliance soldiers find old wounds laid bare in the Riverglades, where remnants of the Brotherhood of the Horse continue an unsung crusade to take back land Stormwind abandoned during the First War."
+   "text": "As an Alliance soldier, you find old wounds laid bare in Riverglades. Remnants of the brotherhood of the horse continue their quiet crusade to retake land Stormwind abandoned during the First War."
   },
   {
    "target": "faction:Horde",
-   "text": "For the Horde, establishing outposts like Rog'mar ensures a secure coastal foothold and keeps pressure on old human strongholds lingering east of Redridge."
+   "text": "For the Horde, outposts such as rog'mar secure a coastal foothold and keep pressure on the old human strongholds east of Redridge."
   },
   {
    "target": "race:Human",
-   "text": "Human travelers witness a tragic chapter of their own heritage in Sunnyglade, a reminder of the First War's heavy toll on the eastern frontier of their kingdom."
+   "text": "As a human, you can see a tragic chapter of your heritage in Sunnyglade. It recalls the heavy toll the First War took on your kingdom's eastern frontier."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "Riverglades"
- ]
+ ],
+ "style": 2
 }

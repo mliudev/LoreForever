@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Raynewood Retreat"
  },
- "summary": "Raynewood Retreat watches the northern approaches to Felwood from a great tree in Ashenvale. Dryads and Cenarion protectors guard the outpost, where Keeper Ordanus makes his home.",
+ "summary": "At Raynewood Retreat, Cenarion guards watch Ashenvale’s northern approaches to Felwood. Keeper Ordanus makes his home in the great tree at the heart of the outpost.",
  "sections": [
   {
    "title": "Bastion of the Great Tree",
-   "body": "At Raynewood Retreat, the great tree rises between Shael'dryn's moonwell and the satyr-infested ruins of Night Run. Cenarion Protectors, faerie dragons, and Laughing Sisters guard the outpost. Their watch turns north, toward the taint spreading from Felwood.",
+   "body": "Raynewood Retreat stands between Shael'dryn's moonwell and the satyr-infested ruins of Night Run. Cenarion Protectors, faerie dragons, and Laughing Sisters guard the outpost. Their watch turns north, toward the taint spreading from Felwood.",
    "spoiler": 0
   },
   {
    "title": "The Hunt for Ordanus",
-   "body": "Keeper Ordanus lives high among the great tree's boughs, one of Cenarius's eldest sons. The canopy shelters him, yet it has drawn the attention of dark forces. Agents tied to the Shadow Council's remnants, including Braelyn Firehand, seek his death. Horde mercenaries are sent to storm the heights and claim his head, bringing battle to the forest sanctuary.",
+   "body": "Keeper Ordanus lives high among the great tree's boughs, one of Cenarius's eldest sons. Yet the canopy has drawn the attention of dark forces. Agents tied to the Shadow Council's remnants, including Braelyn Firehand, seek his death. Horde mercenaries are sent to storm the heights and claim his head, bringing battle to the forest sanctuary.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "what is this place",
     "raynewood tree"
    ],
-   "answer": "Raynewood Retreat watches the approaches to Felwood from a night elf and Cenarion settlement around a Great Tree in north-central Ashenvale. The Alliance-aligned outpost guards the northern passes."
+   "answer": "Raynewood Retreat is a night elf and Cenarion settlement around a Great Tree in north-central Ashenvale. The Alliance-aligned outpost watches the northern approaches and guards the passes to Felwood."
   },
   {
    "q": "Who lives at Raynewood Retreat?",
@@ -91,5 +91,5 @@
  "attribution": [
   "Raynewood Retreat"
  ],
- "style": 1
+ "style": 2
 }

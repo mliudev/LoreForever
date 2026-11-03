@@ -17,16 +17,16 @@
   "wiki": "Passage to Booty Bay",
   "chain": []
  },
- "summary": "Wharfmaster Dizzywig’s records send the search for Velinde Starsong from Ratchet to Booty Bay. From there, Alliance travelers seek Ruzzgot, a goblin caravan driver.",
+ "summary": "In Booty Bay, the trail for Velinde Starsong leads from Ratchet to Caravaneer Ruzzgot. Alliance travelers now seek the goblin caravan driver.",
  "sections": [
   {
    "title": "A Trail Across the Sea",
-   "body": "Wharfmaster Dizzywig’s records carry the search for night elf Sentinel Velinde Starsong from Ashenvale to the sea. In Ratchet, the goblin port, Dizzywig finds old shipping manifests showing that Velinde booked passage on the Black Osprey. The vessel was bound for Booty Bay in Stranglethorn Vale.",
+   "body": "Wharfmaster Dizzywig’s records carry the search for Velinde Starsong from Ashenvale to the sea. The night elf Sentinel booked passage on the Black Osprey in Ratchet. Old shipping manifests show the vessel was bound for Booty Bay in Stranglethorn Vale.",
    "spoiler": 0
   },
   {
    "title": "The Road to Booty Bay",
-   "body": "A neutral goblin ferry crosses the Great Sea between Ratchet and the southern tip of the Eastern Kingdoms. In Booty Bay, the trail leads to Caravaneer Ruzzgot, a goblin transport master Dizzywig recommended to Velinde. She had asked about dangerous overland journeys through the southern wilderness.",
+   "body": "A goblin ferry carries travelers across the Great Sea from Ratchet to the southern tip of the Eastern Kingdoms. In Booty Bay, the trail leads to Caravaneer Ruzzgot, the goblin transport master Dizzywig recommended to Velinde. She had asked about dangerous overland journeys through the southern wilderness.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is velinde",
     "velinde starsong lore"
    ],
-   "answer": "Velinde Starsong was a night elf priestess who led efforts to hold back the demonic presence in Felwood. Her efforts faltered, and she disappeared. The Sentinels are tracing her journey across the sea."
+   "answer": "Velinde Starsong was a night elf priestess who led efforts to hold back the demonic presence in Felwood. Her efforts faltered, and she disappeared. The Sentinels now trace her journey across the sea."
   },
   {
    "q": "Why did Velinde travel to Booty Bay?",
@@ -117,5 +117,5 @@
  "attribution": [
   "Passage to Booty Bay"
  ],
- "style": 1
+ "style": 2
 }

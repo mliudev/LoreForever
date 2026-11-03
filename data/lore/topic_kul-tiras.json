@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Kul Tiras"
  },
- "summary": "Kul Tiras is an insular maritime human kingdom situated on an island archipelago in the Great Sea, west of Dun Morogh and Baradin Bay. Renowned for possessing the mightiest navy in Azeroth, it served as a cornerstone of the Alliance of Lordaeron during the Second War under Grand Admiral Daelin Proudmoore. Following the fracturing of the old Alliance and tragic losses in Kalimdor, the island realm has largely receded into isolated waters.",
+ "summary": "Across the Great Sea, Kul Tiras keeps to its island waters west of Dun Morogh and Baradin Bay. Its navy once anchored the Alliance of Lordaeron. Since that alliance fractured and losses came in Kalimdor, the kingdom has drawn back.",
  "sections": [
   {
    "title": "A Nation Born of the Sea",
-   "body": "Kul Tiras blossomed into an unmatched seafaring power, sustained by an industrious merchant marine, rich fishing grounds, and a naval armada without peer in human history.",
+   "body": "Kul Tiras rose to power on the work of its merchant marine and the wealth of its fishing grounds. Its naval armada had no equal in human history.",
    "spoiler": 0
   },
   {
    "title": "The Second War and Isolation",
-   "body": "When the Orcish Horde swept through the Eastern Kingdoms, Kul Tiras answered the call of King Terenas Menethil II and committed its armada to the Alliance of Lordaeron. Lord Admiral Daelin Proudmoore commanded the naval forces of humanity, waging bloody warfare across the open ocean to sever the Horde's sea lanes and protect coastal shores. However, following the war's conclusion and the eventual splintering of the northern kingdoms, Kul Tiras pulled back its fleets, withdrawing into heavy coastal defense and quiet insularity.",
+   "body": "When the Orcish Horde swept through the Eastern Kingdoms, Kul Tiras answered King Terenas Menethil II and joined the Alliance of Lordaeron. Lord Admiral Daelin Proudmoore commanded humanity's naval forces. They fought across the open ocean to cut the Horde's sea lanes and guard the coasts.\n\nAfter the war, the northern kingdoms eventually split. Kul Tiras drew back its fleets, strengthened its coastal defenses, and kept to itself.",
    "spoiler": 0
   },
   {
    "title": "Shadows over the Proudmoores",
-   "body": "Kul Tiras has felt the bitter sting of distant wars across the sea. When Lady Jaina Proudmoore led refugees across the ocean to Kalimdor to build Theramore, her father, Grand Admiral Daelin Proudmoore, sailed to Kalimdor in search of her, then launched a campaign against the Horde. His crusade brought ruin, culminating in his death at Theramore.",
+   "body": "Grand Admiral Daelin Proudmoore sailed to Kalimdor in search of Lady Jaina Proudmoore. She had led refugees across the ocean to build Theramore. Daelin then began a campaign against the Horde. The crusade brought ruin, and Daelin died at Theramore.",
    "spoiler": 1
   }
  ],
@@ -33,7 +33,7 @@
     "kul tiras map",
     "kul tiras location"
    ],
-   "answer": "Kul Tiras is an archipelago situated out in the Great Sea, west of Baradin Bay and the coast of Dun Morogh. It is a rugged, cold, and mountainous cluster of islands fortified by massive seawalls and heavy coastal garrisons."
+   "answer": "Kul Tiras lies in the Great Sea, west of Baradin Bay and the coast of Dun Morogh. Its rugged, cold, mountainous islands are guarded by massive seawalls and heavy coastal garrisons."
   },
   {
    "q": "Is Kul Tiras still part of the Alliance?",
@@ -41,7 +41,7 @@
     "is kul tiras alliance",
     "kul tiras alliance member"
    ],
-   "answer": "Kul Tiras was one of the core founding nations of the original Alliance of Lordaeron. However, since the old Alliance splintered, the island kingdom has largely withdrawn from continental affairs and maintains a posture of stern isolation."
+   "answer": "Kul Tiras helped found the Alliance of Lordaeron. Since the old Alliance splintered, the kingdom has largely withdrawn from continental affairs and keeps itself apart."
   },
   {
    "q": "Who rules Kul Tiras?",
@@ -50,7 +50,7 @@
     "who leads kul tiras",
     "king of kul tiras"
    ],
-   "answer": "Grand Admiral Daelin Proudmoore led the nation for decades until his fateful campaign in Kalimdor ended with his death at Theramore."
+   "answer": "Grand Admiral Daelin Proudmoore led Kul Tiras for decades. His campaign in Kalimdor ended with his death at Theramore."
   },
   {
    "q": "Why is Kul Tiras famous across Azeroth?",
@@ -58,7 +58,7 @@
     "what is kul tiras known for",
     "why is kul tiras famous"
    ],
-   "answer": "Kul Tiras is legendary for having the greatest maritime fleet, shipwrights, and sailors in the known world. Its warships and vast merchant convoys have dominated the sea lanes for centuries, and its navy was essential in holding off the Horde during the Second War."
+   "answer": "Kul Tiras is famed for its maritime fleet, shipwrights, and sailors, the greatest in the known world. Its warships and vast merchant convoys dominated the sea lanes for centuries. Its navy helped hold off the Horde in the Second War."
   },
   {
    "q": "How is Kul Tiras connected to Jaina Proudmoore?",
@@ -66,7 +66,7 @@
     "jaina kul tiras",
     "is jaina from kul tiras"
    ],
-   "answer": "Lady Jaina Proudmoore is a daughter of Kul Tiras, being the child of Grand Admiral Daelin Proudmoore. Although born to her homeland's ruling family, she studied in Dalaran and later established the independent port of Theramore Isle on Kalimdor, distancing her from her homeland's leadership."
+   "answer": "Lady Jaina Proudmoore is Kul Tiran and the daughter of Grand Admiral Daelin Proudmoore. Born to the ruling family, she studied in Dalaran, then established the independent port of Theramore Isle on Kalimdor. In doing so, she distanced herself from her homeland's leadership."
   },
   {
    "q": "What threats face Kul Tiras?",
@@ -74,25 +74,25 @@
     "kul tiras enemies",
     "threats to kul tiras"
    ],
-   "answer": "Beyond their deep-seated enmity for the Horde, the waters around Kul Tiras are continuously plagued by renegade pirate crews and hostile coastal beasts, requiring constant vigilance and fortified seagates to protect shipping lanes."
+   "answer": "Beyond their deep enmity with the Horde, Kul Tiras faces renegade pirate crews and hostile coastal beasts in its waters. Constant watch and fortified seagates protect the shipping lanes."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The Alliance of Lordaeron owed its survival at sea to the Kul Tiran armada, though the island nation currently remains distant and guarded following the losses of the Third War."
+   "text": "At sea, the Alliance of Lordaeron relied on the Kul Tiran armada to survive. After the losses of the Third War, the island nation keeps its distance and remains guarded."
   },
   {
    "target": "faction:Horde",
-   "text": "Kul Tiran sailors under Admiral Proudmoore fought bitterly against the Horde in the Second War and later attacked Thrall's new homeland in Durotar, deepening an enduring blood feud."
+   "text": "Kul Tiran sailors under Admiral Proudmoore fought bitterly against the Horde in the Second War. Later, they attacked Thrall's new homeland in Durotar, deepening an enduring blood feud."
   },
   {
    "target": "race:Human",
-   "text": "Kul Tirans developed a distinct, hardy island culture famed for shipbuilding, trade, and resilience against the open ocean."
+   "text": "As a human, you can trace Kul Tiras's hardy island culture to its shipbuilding, trade, and resilience against the open ocean."
   },
   {
    "target": "profession:Mining",
-   "text": "Kul Tiras's shipyards turn great quantities of metal into the armored warships of the mightiest navy in Azeroth."
+   "text": "As a miner, you know Kul Tiras's shipyards use great quantities of metal to build the armored warships of Azeroth's mightiest navy."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "Kul Tiras"
- ]
+ ],
+ "style": 2
 }

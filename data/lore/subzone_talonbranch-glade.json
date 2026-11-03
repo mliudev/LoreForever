@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Talonbranch Glade"
  },
- "summary": "Talonbranch Glade is a quiet night elf redoubt nestled in the blighted hills of northern Felwood. Located just south of Timbermaw Hold, it provides a rare haven of pristine moonlight, sanctuary, and hippogryph transit in an otherwise corrupted wilderness.",
+ "summary": "Night elves find a rare refuge at Talonbranch Glade in northern Felwood. South of Timbermaw Hold, the glade offers a moonwell, shelter, and hippogryph flights amid the blighted woods.",
  "sections": [
   {
    "title": "A Beacon in the Blight",
-   "body": "Perched on high ground near the tunnel to Timbermaw Hold, Talonbranch Glade serves as the northernmost bastion of the Alliance in Felwood. Centered around a sheltered night elf lodge and a functioning moonwell, the outpost offers a crucial refuge from the demonic corruption that has swallowed the surrounding forest. Alliance scouts, Sentinels, and passing adventurers use the glade to rest, recover, and plan their excursions deeper into the tainted woods or onward toward Winterspring and Moonglade.",
+   "body": "Talonbranch Glade watches over the high ground near the tunnel to Timbermaw Hold. It is the Alliance’s northernmost bastion in Felwood, gathered around a sheltered night elf lodge and a working moonwell. Scouts, Sentinels, and travelers rest here before venturing deeper into the tainted woods or setting out for Winterspring and Moonglade.",
    "spoiler": 0
   },
   {
    "title": "A Crossroads of the North",
-   "body": "Aside from its natural and spiritual defenses, Talonbranch Glade functions as an essential logistics hub. Hippogryphs stationed here connect travelers to Auberdine in Darkshore and Everlook in the snowy expanse beyond Timbermaw Hold. It remains a lonely, vigilant watchpost holding the line against the encroaching shadows of the Shadow Council and feral beast packs roaming the corrupted vales.",
+   "body": "Hippogryphs carry travelers from Talonbranch Glade to Auberdine in Darkshore and Everlook beyond Timbermaw Hold. The outpost keeps watch against the Shadow Council’s encroaching shadows and the feral beast packs roaming the corrupted vales.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "talonbranch purpose",
     "what is this place"
    ],
-   "answer": "It is an Alliance encampment in northern Felwood, serving as a haven, rest stop, and flight hub for Sentinels, druids, and travelers traversing the corrupted forest."
+   "answer": "Talonbranch Glade is an Alliance encampment in northern Felwood. Sentinels, druids, and travelers find refuge and rest there among the corrupted forest."
   },
   {
    "q": "Where does the flight master here fly to?",
@@ -37,7 +37,7 @@
     "flight points",
     "where can i fly"
    ],
-   "answer": "The hippogryph master at Talonbranch connects directly to several Alliance and neutral outposts, including Auberdine, Everlook, and Moonglade."
+   "answer": "The hippogryphs at Talonbranch Glade fly to Auberdine, Everlook, and Moonglade."
   },
   {
    "q": "Is the water in the moonwell safe to drink?",
@@ -46,7 +46,7 @@
     "is the water clean",
     "moonwell corrupted"
    ],
-   "answer": "Yes. Unlike the tainted pools and corrupt springs scattered throughout Felwood, the moonwell at Talonbranch Glade remains blessed by Elune and untainted by demonic filth."
+   "answer": "Yes. Elune still blesses the moonwell at Talonbranch Glade, and demonic corruption has not touched it. Felwood’s pools and springs are tainted."
   },
   {
    "q": "How close is this to Timbermaw Hold?",
@@ -54,17 +54,17 @@
     "where is timbermaw hold",
     "path to winterspring"
    ],
-   "answer": "Talonbranch Glade sits directly south of the entrance to Timbermaw Hold, making it the final resting place before navigating the furbolg tunnels into Winterspring or Moonglade."
+   "answer": "Talonbranch Glade lies directly south of the entrance to Timbermaw Hold. It offers a final resting place before the furbolg tunnels lead into Winterspring or Moonglade."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Talonbranch Glade is your northernmost operational outpost in Felwood, offering vital flight connections, repairs, and sanctuary near Timbermaw Hold."
+   "text": "As an Alliance traveler, you can find your northernmost working outpost in Felwood at Talonbranch Glade. It offers flight connections, repairs, and sanctuary near Timbermaw Hold."
   },
   {
    "target": "race:NightElf",
-   "text": "The glade's untouched moonwell serves as a testament to Elune's enduring grace amid the severe demonic blight choking the ancient forest."
+   "text": "As a night elf, you can find an untouched moonwell at Talonbranch Glade. It is a sign of Elune’s enduring grace amid the demonic blight choking the ancient forest."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Talonbranch Glade"
- ]
+ ],
+ "style": 2
 }

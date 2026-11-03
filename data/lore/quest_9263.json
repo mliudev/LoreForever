@@ -17,16 +17,16 @@
   "wiki": "Investigate the Scourge of Orgrimmar",
   "chain": []
  },
- "summary": "Outside Orgrimmar, the Scourge has raised a camp beneath a floating necropolis. Lieutenant Dagel calls on defenders to repel the undead, recover necrotic stones, and examine runic circles charged with necromantic energy. The attack brings the Lich King's reach to Durotar.",
+ "summary": "Outside Orgrimmar, the Scourge presses its attack beneath a floating necropolis. Lieutenant Dagel calls on defenders to repel the undead, recover necrotic stones, and examine runic circles charged with necromantic energy. The assault brings the Lich King's reach to Durotar.",
  "sections": [
   {
    "title": "Undead at the Gates",
-   "body": "The Scourge now threatens lands far from Lordaeron and the northern ice. Floating necropolises cast their shadows across Azeroth, even over Durotar. Undead forces have gathered at Orgrimmar's threshold, raising camps that threaten the Horde capital. Lieutenant Dagel and the Argent Dawn coordinate the defense, calling on local champions to drive the invaders back before they can secure a siege.",
+   "body": "The Scourge now threatens lands far from Lordaeron and the northern ice. Its floating necropolises cast shadows across Azeroth, even over Durotar. Undead forces have gathered at Orgrimmar's threshold and raised camps that threaten the Horde capital. Lieutenant Dagel and the Argent Dawn coordinate the defense, calling on local champions to drive the invaders back before they can secure a siege.",
    "spoiler": 0
   },
   {
    "title": "Necrotic Relics and Dark Whispers",
-   "body": "The Scourge's camp holds dim necrotic stones and glowing runic circles. The circles ring the camp and carry the same dark power as the necropolis above. Those who step into the runes hear unnatural voices echoing through the ether. The voices suggest some kind of communication, though Dagel does not know whom they reach.",
+   "body": "Dim necrotic stones and glowing runic circles lie within the Scourge's camp. The circles ring the camp and carry the same dark power as the necropolis above. Those who step into the runes hear unnatural voices echoing through the ether. The voices suggest some kind of communication, though Dagel does not know whom they reach.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "undead outside org",
     "lich king attacks orgrimmar"
    ],
-   "answer": "Scourge forces have camped outside Orgrimmar beneath a necropolis. Lieutenant Dagel asks defenders to thin their ranks and investigate the nearby runic circles."
+   "answer": "Scourge forces have camped outside Orgrimmar beneath a necropolis. Lieutenant Dagel calls on defenders to thin their ranks and investigate the nearby runic circles."
   },
   {
    "q": "Who is Lieutenant Dagel?",
@@ -119,5 +119,5 @@
  "attribution": [
   "Investigate the Scourge of Orgrimmar"
  ],
- "style": 1
+ "style": 2
 }

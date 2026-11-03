@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Sorrow Hill"
  },
- "summary": "Sorrow Hill is an expansive graveyard resting south of Andorhal in the Western Plaguelands. Once the final resting place for commoners, soldiers, and nobility alike, it has been corrupted by nearby plague cauldrons into a sprawling haven of restless undead.",
+ "summary": "At Sorrow Hill, the dead rise beneath headstones south of Andorhal. Plague cauldrons have corrupted the old burial ground, and its dead roam again.",
  "sections": [
   {
    "title": "A Burden of Graves",
-   "body": "Before the Third War, Sorrow Hill served as the primary burial ground for the city of Andorhal and its surrounding townships. When the Scourge unleashed the Plague of Undeath, the gravediggers could not keep pace with the dead. Neatly kept crypts were soon surrounded by shallow, poorly marked earthen pits. Eventually, terrified survivors ceased traditional burials entirely, instead resorting to burning the corpses of their loved ones in a mass pyre to the south out of fear they would rise. Before the town fell completely, the remnants of the populace entombed Lord Uther the Lightbringer atop the cemetery's high ground, bestowing upon the hill its tragic name.",
+   "body": "Before the Third War, Sorrow Hill received the dead of Andorhal and the nearby townships. When the Scourge brought the Plague of Undeath, the gravediggers could not keep pace. Shallow, poorly marked pits spread around the cemetery’s neat crypts.\n\nTerrified survivors abandoned the old rites and burned their loved ones on a great pyre to the south. They feared the dead would rise. Before Andorhal fell completely, those who remained entombed Lord Uther the Lightbringer on the hill’s high ground. His burial gave the hill its sorrowful name.",
    "spoiler": 0
   },
   {
    "title": "The Resurrected Dead",
-   "body": "The Scourge's foul plague cauldrons across the region have long since corrupted Sorrow Hill. The interred soldiers and citizens now wander the mist-shrouded headstones as skeletal flayers and ravenous ghouls, while skeletal mages and a local Scourge commander nest in the southeastern crypts. Because the cemetery sits directly along the road between Chillwind Camp and Andorhal, both the Alliance and the Argent Dawn frequently order patrols to culled the ranks of undead here to maintain a vital foothold in the region.",
+   "body": "Plague cauldrons across the region have corrupted Sorrow Hill. Soldiers and citizens buried here now roam among the headstones as skeletal flayers and ravenous ghouls. Skeletal mages and a Scourge commander hold the crypts in the southeast.\n\nThe cemetery lies on the road between Chillwind Camp and Andorhal. The Alliance and the Argent Dawn send patrols to cut down the undead and hold their foothold in the region.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "sorrow hill name meaning",
     "why is it called sorrow hill"
    ],
-   "answer": "It earned the name during the fall of Lordaeron, when the surviving people of Andorhal suffered catastrophic losses to the Scourge. Their final collective act before fleeing was laying their fallen champion, Lord Uther the Lightbringer, to rest in a grand tomb atop the hill."
+   "answer": "Andorhal’s surviving people gave Sorrow Hill its name when they buried Lord Uther the Lightbringer on its high ground. As they fled the Scourge, laying their fallen champion in a grand tomb was their final act together."
   },
   {
    "q": "Why are there so many shallow graves here?",
@@ -35,7 +35,7 @@
     "shallow graves sorrow hill",
     "why are graves poorly marked"
    ],
-   "answer": "When the Plague of Undeath struck Andorhal, deaths mounted so quickly that citizens had no time to construct proper tombs. They dug hasty, poorly marked plots until the onslaught became so overwhelming that they abandoned burial altogether in favor of mass burning."
+   "answer": "The Plague of Undeath killed people in Andorhal faster than they could build proper tombs. Citizens dug hasty, poorly marked graves, then turned to mass burning when the onslaught overwhelmed them."
   },
   {
    "q": "Who is buried in Sorrow Hill?",
@@ -43,7 +43,7 @@
     "famous graves sorrow hill",
     "notable people buried here"
    ],
-   "answer": "Beyond thousands of fallen soldiers and citizens of Andorhal, the cemetery houses the great tomb of Uther the Lightbringer. It also features the resting place of the cannoneer Dargal and a monument honoring Joseph Redpath, whose body was destroyed."
+   "answer": "Thousands of fallen soldiers and citizens of Andorhal lie at Sorrow Hill, along with Lord Uther the Lightbringer in his great tomb. The cemetery also holds cannoneer Dargal’s resting place and a monument to Joseph Redpath, whose body was destroyed."
   },
   {
    "q": "What threat does Sorrow Hill pose today?",
@@ -51,17 +51,17 @@
     "scourge at sorrow hill",
     "who controls sorrow hill"
    ],
-   "answer": "Corrupted by the Lich King's plague cauldrons, the cemetery's dead have risen as skeletal flayers, slavering ghouls, and skeletal mages. Led by a Scourge commander residing within the southeastern crypt, these undead threaten the southern approach to Andorhal."
+   "answer": "The Lich King’s plague cauldrons corrupted Sorrow Hill, and its dead rose as skeletal flayers, ravenous ghouls and skeletal mages. A Scourge commander leads them from the southeastern crypts, threatening the southern approach to Andorhal."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Sorrow Hill is a place of profound mourning and reverence for paladins, who come to pay homage at Uther's Tomb while driving back the undead desecrating the grounds around their mentor."
+   "text": "As a paladin, you find mourning and reverence at Sorrow Hill. Visit Uther’s Tomb and drive back the undead defiling the grounds around your mentor."
   },
   {
    "target": "faction:Alliance",
-   "text": "Positioned just down the road from Chillwind Camp, the cemetery represents both a strategic checkpoint toward Andorhal and the sacred resting place of Lordaeron's fallen defenders."
+   "text": "Just down the road from Chillwind Camp, Sorrow Hill guards the way to Andorhal. It is also the sacred resting place of Lordaeron’s fallen defenders."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Sorrow Hill"
- ]
+ ],
+ "style": 2
 }

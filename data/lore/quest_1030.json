@@ -17,16 +17,16 @@
   "wiki": "Raene's Cleansing (9)",
   "chain": []
  },
- "summary": "In Ashenvale, Raene Wolfrunner seeks a way to speak with an uncorrupted furbolg. Southeast of Mystral Lake, Krolg offers a rare glimpse of the surviving furbolgs’ resentment toward the night elves.",
+ "summary": "In Ashenvale, Raene Wolfrunner seeks a way to speak with an uncorrupted furbolg. Southeast of Mystral Lake, Krolg reveals the resentment some surviving furbolgs hold toward the night elves.",
  "sections": [
   {
    "title": "A Guise of Fur and Claw",
-   "body": "Raene Wolfrunner believes the late night elf meant to use Dartol’s restored Rod of Transformation to approach the furbolgs in disguise. Ashenvale’s woods have grown perilous, and madness spreads through the tribes, leaving no path to direct diplomacy. The rod gives you the shape of a furbolg, so you can try to pass their territorial rage and find someone willing to speak.",
+   "body": "Raene Wolfrunner believes the late night elf meant to approach the furbolgs using Dartol’s restored Rod of Transformation. Ashenvale’s woods have grown perilous, and madness spreads through the tribes. There is no path to direct diplomacy. The rod gives you a furbolg’s shape, so you can try to pass their territorial rage and find someone willing to speak.",
    "spoiler": 0
   },
   {
    "title": "The Exile's Bitterness",
-   "body": "Southeast of Mystral Lake, Krolg lives apart from his kin, untouched by Fel Moss. Believing you are one of his own, he speaks freely of his exile and sorrow. He does not see the night elves as allies or protectors. Instead, he blames their pride and old failures for the demonic taint ravaging his people.",
+   "body": "Southeast of Mystral Lake, Krolg lives apart from his kin and remains untouched by Fel Moss. Believing you are one of his own, he speaks freely of his exile and sorrow. He does not see the night elves as allies or protectors. Instead, he blames their pride and old failures for the demonic taint ravaging his people.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "dartol rod transformation",
     "furbolg disguise rod"
    ],
-   "answer": "Dartol’s Rod of Transformation briefly changes its bearer into a furbolg. The disguise lets you approach uncorrupted furbolgs without provoking an immediate attack."
+   "answer": "Dartol’s Rod of Transformation briefly changes its bearer into a furbolg. The disguise lets you approach uncorrupted furbolgs without drawing an immediate attack."
   },
   {
    "q": "Who is Krolg?",
@@ -47,7 +47,7 @@
     "uncorrupted furbolg mystral lake",
     "furbolg southeast of mystral lake"
    ],
-   "answer": "Krolg is an uncorrupted furbolg living in exile southeast of Mystral Lake. He escaped the Fel Moss that infected his kin and lives alone across a torch-lined stream, mourning his lost tribe and resenting the night elves."
+   "answer": "Krolg is an uncorrupted furbolg living in exile southeast of Mystral Lake. He escaped the Fel Moss that infected his kin and lives alone across a torch-lined stream. There he mourns his lost tribe and resents the night elves."
   },
   {
    "q": "Why will Krolg attack if you don't use the rod?",
@@ -89,15 +89,15 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For a night elf, Krolg’s words show that many of Ashenvale’s native inhabitants see the Kaldorei as reckless bringers of the land’s recurring ruin, not its guardians."
+   "text": "For a night elf, Krolg’s words reveal that many of Ashenvale’s native inhabitants see the Kaldorei as reckless bringers of the land’s recurring ruin, not its guardians."
   },
   {
    "target": "class:Druid",
-   "text": "For a druid, the furbolgs’ plight is a stark sorrow: once close allies of nature, they now suffer terrible madness from lingering demonic taint."
+   "text": "For a druid, the furbolgs’ plight is a deep sorrow. Once close allies of nature, they now suffer terrible madness from lingering demonic taint."
   },
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, Astranaar’s survival depends on uncovering the dangers along the border roads. This secret meeting can help secure eastern Ashenvale."
+   "text": "For the Alliance, Astranaar’s survival depends on uncovering dangers along the border roads. This secret meeting can help secure eastern Ashenvale."
   }
  ],
  "keywords": [
@@ -120,5 +120,5 @@
  "attribution": [
   "Raene's Cleansing (9)"
  ],
- "style": 1
+ "style": 2
 }

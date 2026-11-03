@@ -17,16 +17,16 @@
   "wiki": "Mahren Skyseer (quest)",
   "chain": []
  },
- "summary": "At Camp Taurajo, hunters who have mastered the plains are sent east to Mahren Skyseer. Jorn Skyseer sends them to his sister to learn coastal tracking along the Barrens shore.",
+ "summary": "At Camp Taurajo, proven hunters are sent east to Mahren Skyseer. Jorn Skyseer sends them to his sister to learn how to track along the Barrens shore.",
  "sections": [
   {
    "title": "A Hunt Beyond the Plains",
-   "body": "Jorn Skyseer tests hunters at Camp Taurajo against the dangerous beasts of the southern Barrens. Once they have proved themselves on the red plains, he points them beyond dry earth and open savanna. A tracker must learn to follow prey through swamps, over sheer crags, and beside the crashing waves of the Great Sea.",
+   "body": "At Camp Taurajo, Jorn Skyseer tests hunters against the dangerous beasts of the southern Barrens. Once they prove themselves on the red plains, he sends them beyond dry earth and open savanna. A tracker must learn to follow prey through swamps, over sheer crags, and beside the crashing waves of the Great Sea.",
    "spoiler": 0
   },
   {
    "title": "The Eastern Shore",
-   "body": "Mahren Skyseer keeps a camp far east along the coast. While Jorn studies thunderhawks and plains stalkers, his sister follows creatures that live in the salt spray. Reaching her means crossing dangerous ground. Kul Tiras marines and Theramore expedition forces hold fortified outposts and watchtowers across the coastal lowlands.",
+   "body": "Mahren Skyseer keeps a camp far east along the coast. Jorn studies thunderhawks and plains stalkers, while his sister follows creatures that live in the salt spray. Reaching her means crossing dangerous ground. Kul Tiras marines and Theramore expedition forces hold fortified outposts and watchtowers across the coastal lowlands.",
    "spoiler": 0
   }
  ],
@@ -54,7 +54,7 @@
     "why do i need to find mahren",
     "mahren skyseer objective"
    ],
-   "answer": "You go from Jorn Skyseer's hunting trials at Camp Taurajo to Mahren's coastal hunts for sea creatures."
+   "answer": "You travel from Jorn Skyseer's hunting trials at Camp Taurajo to Mahren's coastal hunts for sea creatures."
   },
   {
    "q": "Why does Jorn send hunters to Mahren?",
@@ -62,7 +62,7 @@
     "why does jorn send me to his sister",
     "lore behind mahren skyseer"
    ],
-   "answer": "Jorn believes a hunter must master every environment, including the sea. His sister Mahren specializes in tracking and confronting aquatic beasts, so she can teach you."
+   "answer": "Jorn believes a hunter must master every environment, including the sea. His sister Mahren tracks and confronts aquatic beasts, and can teach you."
   },
   {
    "q": "What dangers lie along the way to Mahren?",
@@ -84,7 +84,7 @@
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you move from stalking savanna game to pursuing fierce aquatic beasts under the guidance of seasoned tauren stalkers."
+   "text": "As a hunter, you go from stalking savanna game to pursuing fierce aquatic beasts under seasoned tauren stalkers' guidance."
   },
   {
    "target": "race:Tauren",
@@ -113,5 +113,5 @@
  "attribution": [
   "Mahren Skyseer (quest)"
  ],
- "style": 1
+ "style": 2
 }

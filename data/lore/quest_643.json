@@ -27,16 +27,16 @@
    "Broken Sigil"
   ]
  },
- "summary": "Following the Sigil of Thoradin, Zengu tells you the human prince entrusted another sigil to Lieutenant Valorcall, who commands the cavalry. Find him, and bring the sigil back to Zengu in Hammerfall.",
+ "summary": "Zengu sends you from Hammerfall to seek a sigil carried by human cavalry in the Arathi Highlands. Find their leader, Lieutenant Valorcall, and bring the sigil back.",
  "sections": [
   {
    "title": "The Prince's Cavalry",
-   "body": "Zengu scoffs that the humans can scarcely call Stromgarde their own, never mind the whole of the Arathi Highlands, yet their prince keeps the last of his horsemen riding about the countryside. Zengu cannot understand why. More important is that one of the sigils rests with Lieutenant Valorcall, who leads those riders. Zengu wants him found and the sigil brought back to Hammerfall.",
+   "body": "Zengu doubts the humans can claim Stromgarde, much less the whole Arathi Highlands. Yet their prince still sends the last of his horsemen through the countryside. Zengu cannot see why. He knows Lieutenant Valorcall leads those riders and carries one of the sigils. Find Valorcall and bring it back to Hammerfall.",
    "spoiler": 0
   },
   {
    "title": "On Horseback",
-   "body": "Zengu warns that Valorcall is hard to run down, as his horse carries him across the land swiftly. Once he is gone, Zengu expects Stromgarde's defenders to feel a heavy blow, and the Horde will be one sigil from taking Trol'kalar for itself.",
+   "body": "Zengu warns that Valorcall is hard to catch, for his horse bears him swiftly across the land. If Valorcall is gone, Stromgarde's defenders will suffer a heavy blow. Then the Horde will stand one sigil away from claiming Trol'kalar.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "who gives sigil of arathor",
     "where to get sigil of arathor"
    ],
-   "answer": "The order comes from Zengu, who waits at Hammerfall."
+   "answer": "Zengu sends you from Hammerfall to find the Sigil of Arathor."
   },
   {
    "q": "Who holds the Sigil of Arathor?",
@@ -57,7 +57,7 @@
     "where is valorcall",
     "lieutenant valorcall location"
    ],
-   "answer": "Lieutenant Valorcall, the leader of the human cavalry, who has been given the sigil by the human prince. Zengu says he rides on horseback and is hard to track."
+   "answer": "Lieutenant Valorcall leads the human cavalry and holds the Sigil of Arathor. The human prince gave it to him, and Zengu says Valorcall rides on horseback and is hard to track."
   },
   {
    "q": "Why does Lieutenant Valorcall have the sigil?",
@@ -65,7 +65,7 @@
     "why does valorcall have the sigil",
     "who gave valorcall the sigil"
    ],
-   "answer": "Zengu says the human prince gave one of the sigils to him. Zengu does not say why."
+   "answer": "Zengu says the human prince gave one of the sigils to Lieutenant Valorcall, but he does not say why."
   },
   {
    "q": "Where does this fit in the Trol'kalar chain?",
@@ -74,7 +74,7 @@
     "what comes before sigil of arathor",
     "what comes after sigil of arathor"
    ],
-   "answer": "It is the fifth step of the long Trol'kalar chain. It follows the Sigil of Thoradin, and the Sigil of Trollbane comes after."
+   "answer": "The Sigil of Arathor is the fifth step in the Trol'kalar chain. It follows the Sigil of Thoradin, and the Sigil of Trollbane comes next."
   },
   {
    "q": "Where do you bring the sigil once it is found?",
@@ -82,7 +82,7 @@
     "where to turn in sigil of arathor",
     "sigil of arathor turn in"
    ],
-   "answer": "Back to Zengu in Hammerfall."
+   "answer": "Bring the sigil back to Zengu in Hammerfall."
   }
  ],
  "angles": [],
@@ -104,5 +104,6 @@
  ],
  "attribution": [
   "Sigil of Arathor (Classic)"
- ]
+ ],
+ "style": 2
 }

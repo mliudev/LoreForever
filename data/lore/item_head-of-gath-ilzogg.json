@@ -10,11 +10,11 @@
    "quest:169"
   ]
  },
- "summary": "Claiming Gath'Ilzogg's severed head proves the Blackrock warlord has been slain. His fall breaks the leadership behind the siege of Stonewatch Keep and brings desperate relief to Lakeshire.",
+ "summary": "In Redridge, Gath'Ilzogg's fall breaks the Blackrock leadership behind Stonewatch Keep's siege and brings Lakeshire desperate relief.",
  "sections": [
   {
    "title": "A Bountied Warlord",
-   "body": "Gath'Ilzogg led the Blackrock assault that took Stonewatch Keep, drove out its defenders, and left the valley under constant raids. Lakeshire stood near ruin, while Stormwind sent almost no military help. Magistrate Solomon offered a bounty on the warlord. Gath'Ilzogg fell in the keep's fortified upper levels, and claiming his head breaks the local Blackrock leadership. For Lakeshire, it is the first step toward reclaiming the keep for the kingdom.",
+   "body": "Gath'Ilzogg led the Blackrock assault that seized Stonewatch Keep and drove out its defenders. From there, the valley suffered constant raids. Lakeshire stood near ruin, and Stormwind sent almost no military help. So Magistrate Solomon offered a bounty on the warlord.\n\nGath'Ilzogg fell in the keep's fortified upper levels. His death breaks the local Blackrock leadership. For Lakeshire, it is the first step toward reclaiming the keep for the kingdom.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "gathilzogg lore",
     "stonewatch boss"
    ],
-   "answer": "Gath'Ilzogg was a powerful Blackrock orc warlord who led the conquest of Stonewatch Keep and directed raids against settlements in Redridge Mountains, bringing Lakeshire close to collapse."
+   "answer": "Gath'Ilzogg was a powerful Blackrock orc warlord. He led the conquest of Stonewatch Keep and directed raids against Redridge Mountains settlements, bringing Lakeshire close to collapse."
   },
   {
    "q": "Where is the head taken once collected?",
@@ -35,7 +35,7 @@
     "turn in gath'ilzogg head",
     "magistrate solomon bounty"
    ],
-   "answer": "The head goes to Magistrate Solomon at Lakeshire's town hall, as proof that the bounty on the town's wanted board has been fulfilled."
+   "answer": "You take the head to Magistrate Solomon at Lakeshire's town hall. It proves the bounty on the town's wanted board has been fulfilled."
   },
   {
    "q": "What does Gath'Ilzogg's death mean for Lakeshire?",
@@ -51,7 +51,7 @@
     "where is gathilzogg",
     "stonewatch keep location"
    ],
-   "answer": "Gath'Ilzogg occupied the high reaches of Stonewatch Keep, deep within the captured fortification with his personal bodyguards and lieutenants."
+   "answer": "Gath'Ilzogg occupied the high reaches of Stonewatch Keep, deep within the captured fortification. His personal bodyguards and lieutenants were with him."
   }
  ],
  "angles": [
@@ -87,5 +87,5 @@
   "Head of Gath'Ilzogg",
   "Wanted: Gath'Ilzogg (quest)"
  ],
- "style": 1
+ "style": 2
 }

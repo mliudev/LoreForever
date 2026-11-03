@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "First War"
  },
- "summary": "The First War was the devastating five-year conflict in which the Orcish Horde emerged through the Dark Portal and completely destroyed the human Kingdom of Stormwind. Orchestrated behind the scenes by the demon-possessed Guardian Medivh and the warlock Gul'dan, it concluded with the assassination of King Llane Wrynn I and the flight of human survivors north to Lordaeron.",
+ "summary": "The First War drove Stormwind's survivors north after the kingdom fell. The five-year conflict began when the Orcish Horde crossed the Dark Portal and ended with King Llane Wrynn I dead and Stormwind in ruins.",
  "sections": [
   {
    "title": "Opening of the Portal",
-   "body": "Before the war, the Kingdom of Stormwind enjoyed long years of peace following the Gnoll War, guarded by its Knights and the Clerics of Northshire Abbey. That stability shattered when the Guardian Medivh, secretly possessed by the demon lord Sargeras, contacted the orc warlock Gul'dan on Draenor. Together, they forged the Dark Portal in the swampy Black Morass. Driven by demon blood and the slow death of their homeworld, the Orcish Horde crossed into Azeroth in force. Early rumors dismissed the invaders as vengeful spirits or strange offshoots of trolls, but Sir Anduin Lothar's scouting patrols quickly confirmed the arrival of a disciplined, bloodthirsty army.",
+   "body": "For years after the Gnoll War, the Knights of Stormwind and the Clerics of Northshire Abbey guarded a peaceful kingdom. Then Guardian Medivh, secretly possessed by the demon lord Sargeras, contacted the orc warlock Gul'dan on Draenor. Together, they forged the Dark Portal in the Black Morass.\n\nDriven by demon blood and the slow death of their homeworld, the Orcish Horde crossed into Azeroth in force. Some dismissed the first reports as vengeful spirits or strange offshoots of trolls. Sir Anduin Lothar's scouting patrols soon confirmed a disciplined, bloodthirsty army had arrived.",
    "spoiler": 0
   },
   {
    "title": "The War for Stormwind",
-   "body": "Led openly by Warchief Blackhand and manipulated from the shadows by Gul'dan's Shadow Council, the Horde overran the southern reaches of the kingdom. While an attempt by the orcs to push into Stranglethorn Vale against the Gurubashi trolls failed, their campaign across human territory proved catastrophic. The Horde conquered outward until only Elwynn Forest remained under human control. Blackhand launched a first direct assault on Stormwind City, but Sir Anduin Lothar repelled the invasion with a brilliant, surprise flanking counterattack by sea, temporarily saving the capital from annihilation.",
+   "body": "Warchief Blackhand led the Horde openly, while Gul'dan's Shadow Council guided it from the shadows. The Horde overran the kingdom's southern reaches. An attempt to push into Stranglethorn Vale against the Gurubashi trolls failed, yet the campaign across human lands brought ruin.\n\nThe Horde conquered until only Elwynn Forest remained under human control. Blackhand then launched a direct assault on Stormwind City. Sir Anduin Lothar repelled it with a surprise flanking attack by sea, saving the capital from destruction for a time.",
    "spoiler": 0
   },
   {
    "title": "Treachery and the Fall",
-   "body": "The war turned when Lothar and the young mage Khadgar uncovered Medivh's betrayal, invading Karazhan and slaying the Guardian. Medivh's demise cast Gul'dan into a coma, creating an opportunity for Orgrim Doomhammer to challenge and kill Blackhand in a mak'gora duel. Taking absolute command, Doomhammer crushed the Shadow Council and marched on Stormwind for a second siege. During the onslaught, the half-orc assassin Garona murdered King Llane Wrynn I within his keep. Stormwind was sacked and burned to ash, forcing Lothar to gather the surviving populace and flee north across the Great Sea to Lordaeron.",
+   "body": "Sir Anduin Lothar and the young mage Khadgar uncovered Medivh's betrayal. They invaded Karazhan and slew the Guardian. Medivh's death left Gul'dan in a coma, giving Orgrim Doomhammer the chance to challenge and kill Blackhand in a mak'gora duel. Doomhammer took absolute command, crushed the Shadow Council, and began a second siege of Stormwind.\n\nDuring the attack, the half-orc assassin Garona murdered King Llane Wrynn I inside his keep. The Horde sacked and burned Stormwind to ash. Lothar gathered the survivors and fled north across the Great Sea to Lordaeron.",
    "spoiler": 1
   }
  ],
@@ -33,7 +33,7 @@
     "dark portal origin",
     "first war start"
    ],
-   "answer": "The warlock Gul'dan on Draenor and the Guardian Medivh on Azeroth collaborated using dark fel magic to breach the dimensional fabric between worlds, erecting the Dark Portal in the Black Morass."
+   "answer": "The orc warlock Gul'dan on Draenor and Guardian Medivh on Azeroth joined forces to open the Dark Portal in the Black Morass with dark fel magic."
   },
   {
    "q": "Why didn't the other human kingdoms help Stormwind?",
@@ -42,7 +42,7 @@
     "did lordaeron help",
     "reinforcements for stormwind"
    ],
-   "answer": "Stormwind stood alone because the distant northern kingdoms viewed rumors of green-skinned invaders as far-fetched exaggerations or local squabbles. It was only after Stormwind fell and Lothar arrived in Lordaeron with boats full of refugees that the northern kings united."
+   "answer": "Stormwind stood alone because the distant northern kingdoms dismissed reports of green-skinned invaders as wild exaggerations or local disputes. The northern kings united only after Stormwind fell and Lothar reached Lordaeron with boats full of refugees."
   },
   {
    "q": "Who killed King Llane?",
@@ -51,7 +51,7 @@
     "king llane death",
     "garona killed king"
    ],
-   "answer": "King Llane Wrynn I was assassinated inside his own keep by Garona Halforcen, an emissary whom the king had trusted, striking a fatal blow to human morale during the final siege."
+   "answer": "Garona Halforcen, an emissary trusted by King Llane Wrynn I, assassinated him inside his own keep during the final siege, dealing a severe blow to human morale."
   },
   {
    "q": "Did the orcs fight anyone besides humans in the First War?",
@@ -60,7 +60,7 @@
     "gurubashi in first war",
     "other races first war"
    ],
-   "answer": "Yes. Early in the conflict, the Horde pushed southward into Stranglethorn Vale, but they were repelled in a fierce clash with the Gurubashi jungle trolls."
+   "answer": "Yes. The Horde pushed south into Stranglethorn Vale early in the war, but the Gurubashi jungle trolls repelled them in a fierce clash."
   },
   {
    "q": "Who won the First War?",
@@ -69,7 +69,7 @@
     "who won wc1",
     "outcome of first war"
    ],
-   "answer": "The Orcish Horde won a total victory. The Kingdom of Stormwind was razed, King Llane was slain, and the surviving human population was forced into a massive sea evacuation north to Lordaeron."
+   "answer": "The Orcish Horde won the First War. Stormwind was razed, King Llane was slain, and the surviving humans fled by sea to Lordaeron."
   },
   {
    "q": "What happened to Warchief Blackhand?",
@@ -78,29 +78,29 @@
     "orgrim doomhammer challenge",
     "warchief killed"
    ],
-   "answer": "When Gul'dan was incapacitated following Medivh's death, Orgrim Doomhammer challenged Blackhand to mak'gora\u2014a duel of honor\u2014slew him, and seized leadership of the Horde."
+   "answer": "After Medivh's death left Gul'dan incapacitated, Orgrim Doomhammer challenged Blackhand to mak'gora, slew him, and took command of the Horde."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "The First War represents the darkest hour of Stormwind's history, when the kingdom fell, its king was murdered, and its survivors fled across the sea as penniless refugees."
+   "text": "For humans, the First War brought Stormwind to its darkest hour. The kingdom fell, its king was murdered, and its survivors fled across the sea as penniless refugees."
   },
   {
    "target": "race:Orc",
-   "text": "For the orcs, the First War marked their initial bloody conquest on Azeroth, tainted by the blood-curse of Mannoroth and the hidden machinations of Gul'dan's Shadow Council."
+   "text": "For orcs, the First War began their bloody conquest of Azeroth, tainted by Mannoroth's blood-curse and Gul'dan's Shadow Council working in secret."
   },
   {
    "target": "class:Paladin",
-   "text": "The slaughter of the Clerics of Northshire Abbey during this conflict demonstrated that holy faith alone was not enough to survive brutal melee combat, directly inspiring the founding of the Knights of the Silver Hand."
+   "text": "The slaughter of the Clerics of Northshire Abbey showed that holy faith alone could not withstand brutal melee combat. It inspired the founding of the Knights of the Silver Hand."
   },
   {
    "target": "faction:Alliance",
-   "text": "The total annihilation of Stormwind served as the grim warning that convinced the northern nations to abandon their isolation and unite into the Alliance of Lordaeron."
+   "text": "Stormwind's destruction warned the northern nations to abandon their isolation and unite as the Alliance of Lordaeron."
   },
   {
    "target": "class:Warlock",
-   "text": "Gul'dan and his Shadow Council directed the Horde's conquests through fel sorceries, demonstrating the immense, world-breaking devastation demonic pacts can unleash."
+   "text": "Gul'dan and his Shadow Council guided the Horde's conquests with fel sorceries, showing the devastation demonic pacts can unleash upon the world."
   }
  ],
  "keywords": [
@@ -127,5 +127,6 @@
  ],
  "attribution": [
   "First War"
- ]
+ ],
+ "style": 2
 }

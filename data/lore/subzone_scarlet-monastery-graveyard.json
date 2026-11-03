@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Scarlet Monastery Graveyard"
  },
- "summary": "The Scarlet Monastery Graveyard is the burial wing of the grand religious complex in northeastern Tirisfal Glades. Once a serene resting place for Lordaeron's clergy and nobility, it has fallen into chilling neglect, overrun by lingering undead and the corrupted magic of the skeletal Bloodmage Thalnos.",
+ "summary": "Undead haunt Scarlet Monastery Graveyard in northeastern Tirisfal Glades. Lordaeron's clergy and nobility once rested here in peace, but neglect and Bloodmage Thalnos's corrupted magic now trouble the burial wing.",
  "sections": [
   {
    "title": "A Defiled Sanctuary",
-   "body": "Before the Third War, this cloistered cemetery served as the peaceful burial ground for the priesthood of Lordaeron. When the Scarlet Crusade fortified the monastery against the undead, their fanatical vigilance failed to cleanse their own crypts. Today, the Graveyard is neglected and deeply haunted. Lingering spirits, restless corpses, and shambling horrors wander the Chamber of Atonement and the mist-covered Forlorn Cloister. Rather than hallowed rest, the dead have found endless torment beneath the crusade's uncaring gaze.",
+   "body": "Before the Third War, Lordaeron's priests rested in peace in this cloistered cemetery. When the Scarlet Crusade fortified the monastery against the undead, its fanatical watch left the crypts uncleansed. Now the Graveyard lies neglected and haunted. Lingering spirits, restless corpses, and shambling horrors wander the Chamber of Atonement and the mist-covered Forlorn Cloister. Beneath the Crusade's uncaring gaze, the dead suffer endless torment instead of hallowed rest.",
    "spoiler": 0
   },
   {
    "title": "Corruption from Within",
-   "body": "At the rear of the grounds stands Honor's Tomb, where the greatest mockery of the Crusade's dogma festers: Bloodmage Thalnos. No record tells who he was in life, but the plague of undeath claimed him, and he rose as a skeletal horror wielding shadow bolts and fire. The crusaders above preach total extermination of the undead plague, yet they harbor a rotting, fallen sorcerer within their own consecrated soil.",
+   "body": "At the rear of the grounds, Honor's Tomb holds Bloodmage Thalnos, who mocks the Crusade's dogma. No record tells who he was in life. The plague of undeath claimed him, and he rose as a skeletal horror wielding shadow bolts and fire. The crusaders above preach the total extermination of the undead plague. Yet a rotting, fallen sorcerer remains in their consecrated soil.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "undead in scarlet monastery",
     "why are there ghosts here"
    ],
-   "answer": "The Crusade's leadership is consumed with fanaticism, directing their crusaders outward to slaughter living outsiders and wage war in Tirisfal. Consequently, the monastery's crypts and burial plots have been utterly neglected, allowing dormant plague remnants and restless spirits of dead clergy to rise unchecked."
+   "answer": "The Crusade's leadership is consumed by fanaticism. It sends crusaders outward to slaughter living outsiders and wage war in Tirisfal. Meanwhile, the monastery's crypts and burial plots lie utterly neglected, allowing dormant plague remnants and restless spirits of dead clergy to rise unchecked."
   },
   {
    "q": "Who is Bloodmage Thalnos?",
@@ -37,7 +37,7 @@
     "who is bloodmage thalnos",
     "graveyard boss"
    ],
-   "answer": "Who Thalnos was in life is not recorded. The plague of undeath claimed him, and he rose as a skeletal spellcaster who now rules the desecrated crypts of Honor's Tomb."
+   "answer": "No record tells who Thalnos was in life. The plague of undeath claimed him, and he rose as a skeletal spellcaster who rules the desecrated crypts of Honor's Tomb."
   },
   {
    "q": "Where is the Graveyard wing located inside the monastery?",
@@ -46,7 +46,7 @@
     "how to find graveyard wing",
     "which door is graveyard"
    ],
-   "answer": "Upon entering the Grand Vestibule of the Scarlet Monastery, the Graveyard entrance is the leftmost instance portal. It does not require a key to enter, unlike the Armory and Cathedral wings."
+   "answer": "Enter the Grand Vestibule of the Scarlet Monastery and take the leftmost portal to reach the Graveyard. It needs no key, unlike the Armory and Cathedral wings."
   },
   {
    "q": "What is the Forlorn Cloister?",
@@ -54,17 +54,17 @@
     "forlorn cloister",
     "graveyard courtyard"
    ],
-   "answer": "The Forlorn Cloister is the open-air garden and cemetery between the entrance crypts and Honor's Tomb. It is littered with tombstones, roaming ghouls, and damp earth rich in Grave Moss."
+   "answer": "The Forlorn Cloister is an open-air garden and cemetery between the entrance crypts and Honor's Tomb. Tombstones, roaming ghouls, and damp earth rich in Grave Moss fill the grounds."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "The damp, defiled soil of the Forlorn Cloister is one of the most reliable sources in northern Lordaeron for gathering Grave Moss."
+   "text": "The damp, defiled soil of the Forlorn Cloister is one of northern Lordaeron's most reliable places to gather Grave Moss."
   },
   {
    "target": "race:Undead",
-   "text": "Forsaken spellcasters and apothecaries view the Graveyard as grim proof of the Crusade's hypocrisy: zealots who condemn the Forsaken while an undead bloodmage rots in their basement."
+   "text": "As a Forsaken, you may see the Graveyard as grim proof of the Crusade's hypocrisy. Its zealots condemn the Forsaken while an undead bloodmage rots in their basement."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Scarlet Monastery Graveyard"
- ]
+ ],
+ "style": 2
 }

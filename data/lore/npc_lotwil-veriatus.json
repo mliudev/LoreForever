@@ -8,16 +8,16 @@
   "wiki": "Lotwil Veriatus",
   "refs": 2
  },
- "summary": "Lotwil Veriatus is an eccentric gnomish scholar conducting dangerous elemental experiments in the dusty wastes of the Badlands. Stationed east of Kargath with his sarcastic apprentice Lucien Tosselwrench and a mechanical attendant named Servo, he is dedicated to blending arcane theory, alchemy, and engineering into a unified discipline.",
+ "summary": "East of Kargath, Lotwil Veriatus pursues dangerous experiments with the Badlands' elementals. The gnomish scholar works with his sarcastic apprentice Lucien Tosselwrench and mechanical attendant Servo, hoping to unite arcane theory, alchemy, and engineering.",
  "sections": [
   {
    "title": "A Unified Field of Chaos",
-   "body": "Originally from Kharanos in Dun Morogh, Lotwil envisions a grand University for his Enlightened Assembly of Arcanology, Alchemy, and Engineering Sciences. He believes these three disciplines should not be practiced in isolation, but harmonized. In pursuit of this dream, he chose the harsh Badlands as his laboratory to study native rock elementals and construct binding shackles capable of mastering elemental forces. While an accomplished researcher\u2014having studied elemental machines and defeated dark iron constructs in the past\u2014his single-minded focus often blinds him to the explosive hazards of his fieldwork.",
+   "body": "From Kharanos in Dun Morogh, Lotwil dreams of founding a grand University for his Enlightened Assembly of Arcanology, Alchemy, and Engineering Sciences. He believes arcane study, alchemy, and engineering belong together, not in separate pursuits. So he came to the harsh Badlands to study its native rock elementals and make shackles that bind elemental forces.\n\nLotwil has studied elemental machines and defeated dark iron constructs. Yet his mind stays so fixed on the work that he often misses the explosive danger of his experiments.",
    "spoiler": 0
   },
   {
    "title": "The Elemental Shackles",
-   "body": "Lotwil's grand ambition in the Badlands centers on testing his shackles of elemental binding. By tasking adventurers with collecting rock elemental cores, coolant, and gyrochronatoms, he prepares an elaborate ritual intended to subjugate an elemental servant. However, when the binding device is finally activated, the convergence of volatile magic, erratic engineering, and unstable alchemical reagents goes catastrophically awry, conjuring a towering, enraged elemental monstrosity named Fam'retor that turns on its creator.",
+   "body": "In the Badlands, Lotwil puts his shackles of elemental binding to the test. He sends adventurers to gather rock elemental cores, coolant, and gyrochronatoms for a ritual to subdue an elemental servant. When he activates the device, volatile magic, erratic engineering, and unstable alchemical reagents meet in disaster. A towering, enraged elemental monstrosity named Fam'retor appears and turns on its creator.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "lotwil veriatus lore",
     "gnome in badlands"
    ],
-   "answer": "Lotwil Veriatus is a gnomish savant residing in an isolated camp east of Kargath in the Badlands. He is a founding member of the Enlightened Assembly of Arcanology, Alchemy, and Engineering Sciences, seeking to blend all three fields into a single academic discipline."
+   "answer": "Lotwil Veriatus is a gnomish scholar at an isolated camp east of Kargath in the Badlands. A founding member of the Enlightened Assembly of Arcanology, Alchemy, and Engineering Sciences, he seeks to unite all three fields in one discipline."
   },
   {
    "q": "Why is Lotwil out in the Badlands?",
@@ -38,7 +38,7 @@
     "lotwil badlands camp",
     "what is lotwil doing"
    ],
-   "answer": "Lotwil came to the Badlands to study the region's dense concentration of wild rock elementals. The open desert offers both raw elemental material and enough space to conduct volatile binding experiments without endangering major population centers."
+   "answer": "Lotwil came to the Badlands to study its many wild rock elementals. The open desert gives him raw elemental material and room for volatile binding experiments away from major population centers."
   },
   {
    "q": "Who is Lucien Tosselwrench?",
@@ -47,7 +47,7 @@
     "lotwil assistant",
     "lotwil apprentice"
    ],
-   "answer": "Lucien Tosselwrench is Lotwil's long-suffering gnomish assistant. Thoroughly cynical and exhausted by his master's eccentric ramblings, Lucien manages logistics, repairs the mechanical servant Servo, and routinely warns bystanders about Lotwil's dangerous carelessness."
+   "answer": "Lucien Tosselwrench is Lotwil's gnomish assistant. Cynical and weary of his master's eccentric ramblings, he handles logistics, repairs Servo, and warns bystanders about Lotwil's dangerous carelessness."
   },
   {
    "q": "What happens when Lotwil finishes his experiment?",
@@ -56,17 +56,17 @@
     "shackles of elemental binding",
     "fam'retor"
    ],
-   "answer": "Lotwil attempts to use his custom-crafted shackles of elemental binding to enslave an elemental construct. The hybrid technology fails spectacularly, summoning an enormous, enraged rock elemental named Fam'retor that must be slain before it destroys his camp."
+   "answer": "Lotwil tries to enslave an elemental construct with his custom shackles of elemental binding. The device fails spectacularly and summons Fam'retor, an enormous, enraged rock elemental that must be slain before it destroys Lotwil's camp."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Lotwil exemplifies gnomish intellectual ambition taken to reckless extremes, seeking to bridge engineering and the arcane regardless of the catastrophic risks."
+   "text": "As a gnome, you can see intellectual ambition pushed to reckless extremes in Lotwil's attempt to unite engineering and the arcane, whatever the risks."
   },
   {
    "target": "profession:Engineering",
-   "text": "Engineers will recognize Lotwil's ambition to integrate mechanical gyros and gears into arcane containment fields, as well as the classic engineering pitfall of sudden, violent malfunction."
+   "text": "As an engineer, you may recognize Lotwil's effort to join mechanical gyros and gears with arcane containment fields. His work shows how suddenly engineering can fail with violent force."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Lotwil Veriatus"
- ]
+ ],
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:sarkoth"
   ]
  },
- "summary": "Across the southern bluffs of the Valley of Trials, Sarkoth's Mangled Claw bears the mark of a wounded hunter. Hana'zua's crushing blow scarred the scorpid's pincer before its venomous sting struck him down.",
+ "summary": "Across the southern bluffs of the Valley of Trials, Sarkoth's Mangled Claw bears the mark of a wounded hunter. Hana'zua crushed the scorpid's pincer before its venomous sting struck him down.",
  "sections": [
   {
    "title": "A Trophy of Vengeance",
-   "body": "Hana'zua, a young Darkspear troll, met Sarkoth while hunting in the Valley of Trials. The massive scorpid's venomous stinger pierced his chest, leaving him bleeding beneath a nearby tree. Before the blow landed, Hana'zua crushed the beast's pincer. Its severed, battered claw proves Sarkoth has been slain. For the wounded hunter, that scar on the beast is proof his desperate strike left its mark, and a last hold on his warrior's honor as venom courses through his veins.",
+   "body": "Hana'zua, a young Darkspear troll, met Sarkoth while hunting in the Valley of Trials. The massive scorpid pierced his chest with its venomous stinger, leaving him bleeding beneath a nearby tree.\n\nBefore the sting, Hana'zua crushed the beast's pincer. The battered claw proves Sarkoth has been slain. For the wounded hunter, its scar shows that his desperate strike found its mark and preserves his warrior's honor as venom courses through his veins.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who crushed sarkoth claw",
     "mangled claw lore"
    ],
-   "answer": "Sarkoth's pincer was crushed in a desperate duel with Hana'zua, a troll hunter. Though Sarkoth stung Hana'zua in the chest, the troll struck the beast before its claw could close around his leg."
+   "answer": "Sarkoth's pincer was crushed in a desperate duel with Hana'zua, a troll hunter. Sarkoth stung Hana'zua in the chest, but the troll struck before the beast's claw could close around his leg."
   },
   {
    "q": "Who wants Sarkoth's Mangled Claw?",
@@ -35,7 +35,7 @@
     "who turned in to",
     "hanazua claw"
    ],
-   "answer": "Hana'zua asks for the claw. Badly wounded beneath a tree in the Valley of Trials, he fears he will die there. He wants Sarkoth slain so his honor is upheld; seeing the deed done steels him to endure until Gornek sends aid."
+   "answer": "Hana'zua asks for the claw. Badly wounded beneath a tree in the Valley of Trials, he fears he will die there. He wants Sarkoth slain to uphold his honor; seeing the deed done steels him to endure until Gornek sends aid."
   },
   {
    "q": "Where did this claw come from?",
@@ -77,5 +77,5 @@
   "Sarkoth's Mangled Claw",
   "Sarkoth (quest)"
  ],
- "style": 1
+ "style": 2
 }

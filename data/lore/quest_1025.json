@@ -17,16 +17,16 @@
   "wiki": "An Aggressive Defense",
   "chain": []
  },
- "summary": "Raene Wolfrunner sends Alliance defenders against the Foulweald furbolgs in Ashenvale. Corruption has made the tribe dangerous along the road east of Astranaar.",
+ "summary": "In Ashenvale, Raene Wolfrunner sends Alliance defenders against the Foulweald furbolgs. Corruption has made the tribe dangerous along the road east of Astranaar.",
  "sections": [
   {
    "title": "Threat to the Highway",
-   "body": "Furbolgs now attack travelers on the road east from Astranaar toward the Falfarren River. Sentinel Raene Wolfrunner sends capable defenders to strike the Foulweald camps just south of the highway. The attacks have made this vital road through Ashenvale dangerous for anyone who travels it.",
+   "body": "Furbolgs attack travelers on the road east from Astranaar toward the Falfarren River. Sentinel Raene Wolfrunner sends capable defenders to strike the Foulweald camps just south of the highway. Their attacks have made this vital road through Ashenvale dangerous for all who travel it.",
    "spoiler": 0
   },
   {
    "title": "A Bitter History",
-   "body": "The Foulweald were once friends and allies of the night elves. For ages, the kaldorei and furbolgs shared a reverence for nature and the wild gods. The Burning Legion's invasion left a taint that shattered many furbolg minds. Peaceful neighbors became violent reavers, and innocent travelers now face their attacks.",
+   "body": "The Foulweald were once friends and allies of the night elves. For ages, the kaldorei and furbolgs shared reverence for nature and the wild gods. The Burning Legion's invasion left a taint that shattered many furbolg minds. Peaceful neighbors became violent reavers, and innocent travelers now face their attacks.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives an aggressive defense",
     "raene wolfrunner location"
    ],
-   "answer": "Sentinel Raene Wolfrunner offers the defense from Astranaar, the principal night elf settlement in central Ashenvale."
+   "answer": "Sentinel Raene Wolfrunner directs the defense from Astranaar, the principal night elf settlement in central Ashenvale."
   },
   {
    "q": "Why are the furbolgs in Ashenvale hostile?",
@@ -82,7 +82,7 @@
     "who do i kill",
     "foulweald targets"
    ],
-   "answer": "Raene calls for one Foulweald Den Watcher, two Ursas, ten Totemics, and twelve Warriors to be slain, breaking the tribe's command near the road."
+   "answer": "Raene calls for one Foulweald Den Watcher, two Ursas, ten Totemics, and twelve Warriors to be slain. This will break the tribe's command near the road."
   }
  ],
  "angles": [
@@ -121,5 +121,5 @@
  "attribution": [
   "An Aggressive Defense"
  ],
- "style": 1
+ "style": 2
 }

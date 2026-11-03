@@ -8,16 +8,16 @@
   "wiki": "Shael'dryn",
   "refs": 6
  },
- "summary": "Beside the Moonwell of Purity, Shael'dryn watches corruption spread through Ashenvale. East of Iris Lake, she aids night elf scouts and Astranaar's sentinels with relics tainted by demonic and foul influences.",
+ "summary": "At the Moonwell of Purity, Shael'dryn watches corruption spread through Ashenvale. East of Iris Lake, she gives night elf scouts and Astranaar's sentinels relics tainted by demonic and foul influences.",
  "sections": [
   {
    "title": "Guardian of the Moonwell",
-   "body": "Beside the Moonwell of Purity, Shael'dryn watches the forest's eastern approaches with the night elf sentinels. When corruption touches local wildlife or tainted relics threaten the land's harmony, she draws on her deep understanding of nature to guide adventurers in restoring spiritual balance.",
+   "body": "Shael'dryn keeps watch with the night elf sentinels over Ashenvale's eastern approaches. When corruption reaches local wildlife or tainted relics threaten the land's harmony, she draws on her knowledge of nature. Her guidance helps adventurers restore spiritual balance.",
    "spoiler": 0
   },
   {
    "title": "Purification of the Woods",
-   "body": "Shael'dryn works with Raene Wolfrunner in Astranaar. When sentinels recover tainted artifacts, including corrupted glowing gems and lost pieces of Dartol's Rod, she knows the obscure rituals, moonwell waters, and natural tokens needed to purify them. The artifacts become potent cleansing tools for the Alliance.",
+   "body": "Shael'dryn works with Raene Wolfrunner in Astranaar. Sentinels recover tainted artifacts, including corrupted glowing gems and lost pieces of Dartol's Rod. Shael'dryn knows the obscure rituals, moonwell waters, and natural tokens needed to purify them. The artifacts then become potent cleansing tools for the Alliance.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "raenes cleansing dryad",
     "why send me to shaeldryn"
    ],
-   "answer": "Raene Wolfrunner directs adventurers to Shael'dryn for her spiritual knowledge. She helps investigate and cleanse corrupted gems and relics recovered throughout the forest."
+   "answer": "Raene Wolfrunner directs adventurers to Shael'dryn for her spiritual knowledge. Shael'dryn helps investigate and cleanse corrupted gems and relics recovered throughout the forest."
   },
   {
    "q": "What is unique about Shael'dryn's appearance?",
@@ -101,5 +101,5 @@
  "attribution": [
   "Shael'dryn"
  ],
- "style": 1
+ "style": 2
 }

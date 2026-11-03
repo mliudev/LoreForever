@@ -17,16 +17,16 @@
   "wiki": "Shadumbra's Head (Classic)",
   "chain": []
  },
- "summary": "At Splintertree Post, Shadumbra's Head is proof that a feared predator has fallen. Bringing it to Senani Thunderheart completes a trial of the Ashenvale Hunt and helps secure the western roads toward the Zoram Strand.",
+ "summary": "At Splintertree Post, Shadumbra's Head proves a feared predator has fallen. Bringing it to Senani Thunderheart completes a trial of the Ashenvale Hunt and helps secure the western roads toward the Zoram Strand.",
  "sections": [
   {
    "title": "A Menace of the Western Road",
-   "body": "Shadumbra hunted the woods west of Splintertree Post, where Horde scouts and couriers traveled toward the Zoram Strand. Her speed and stealth made those paths perilous, and each westward patrol kept the post's defenders wary.",
+   "body": "Shadumbra hunted the woods west of Splintertree Post. Horde scouts and couriers used those paths to reach the Zoram Strand. Her speed and stealth made each journey perilous, and every westward patrol kept the post's defenders wary.",
    "spoiler": 0
   },
   {
    "title": "Proof of the Hunt",
-   "body": "Senani Thunderheart, a tauren huntress, challenges Horde champions to track and fell Ashenvale's great beasts as part of the Ashenvale Hunt. Shadumbra's head proves the hunter has brought down one of Kalimdor's deadliest native stalkers, and that travelers can use the roads with less danger.",
+   "body": "Senani Thunderheart, a tauren huntress, challenges Horde champions to track and fell Ashenvale's great beasts. Shadumbra's head proves the hunter has slain one of Kalimdor's deadliest native stalkers. Now travelers can use the roads with less danger.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "shadumbra lore",
     "who is the cat"
    ],
-   "answer": "Shadumbra was a savage nightsaber that prowled the forests west of Splintertree Post. She ambushed travelers heading toward the coast and was counted among Ashenvale's most dangerous local beasts."
+   "answer": "Shadumbra was a savage nightsaber who prowled the forests west of Splintertree Post. She ambushed travelers bound for the coast and was counted among Ashenvale's most dangerous local beasts."
   },
   {
    "q": "Why does Senani Thunderheart want the head?",
@@ -47,7 +47,7 @@
     "senani thunderheart trophy",
     "ashenvale hunt proof"
    ],
-   "answer": "Senani Thunderheart oversees the Ashenvale Hunt at Splintertree Post. The head honors a difficult hunt and confirms that westward travelers are no longer threatened by Shadumbra."
+   "answer": "Senani Thunderheart oversees the Ashenvale Hunt at Splintertree Post. Shadumbra's head honors a difficult hunt and confirms that westward travelers no longer face this threat."
   },
   {
    "q": "Where does this fit into the Ashenvale Hunt?",
@@ -56,7 +56,7 @@
     "hunt questline",
     "next hunt quest"
    ],
-   "answer": "Shadumbra's hunt is one of the primary trials of the Ashenvale Hunt. Slaying her alongside other great forest beasts such as Ursangous and Sharptalon leads to final recognition and The Hunt Completed."
+   "answer": "Shadumbra is one of the Ashenvale Hunt's primary trials. Slaying her alongside great forest beasts such as Ursangous and Sharptalon brings final recognition and The Hunt Completed."
   },
   {
    "q": "Why is clearing this beast important to the Horde?",
@@ -65,7 +65,7 @@
     "zoram strand road danger",
     "splintertree post safety"
    ],
-   "answer": "Scouts and runners travel west from Splintertree Post to the Horde encampment at Zoram'gar Outpost on the Zoram Strand. Shadumbra threatened those on foot as they crossed the untamed woods."
+   "answer": "Scouts and runners travel west from Splintertree Post to the Horde encampment at Zoram'gar Outpost on the Zoram Strand. Shadumbra threatened those crossing the untamed woods on foot."
   },
   {
    "q": "Where can Shadumbra be found?",
@@ -74,7 +74,7 @@
     "where is shadumbra",
     "find shadumbra"
    ],
-   "answer": "Shadumbra prowls the woodlands west of Splintertree Post, among the trees between the road and the ancient night elf ruins scattered through central and western Ashenvale."
+   "answer": "Shadumbra prowls the woodlands west of Splintertree Post. She hunts among the trees between the road and the ancient night elf ruins scattered through central and western Ashenvale."
   },
   {
    "q": "Is Shadumbra allied with the night elves?",
@@ -83,7 +83,7 @@
     "sentinel pet",
     "shadumbra night elf"
    ],
-   "answer": "No. Shadumbra is a wild, feral nightsaber that threatens any who cross her territory. Though night elves often tame and revere nightsabers, she acts on predatory instinct."
+   "answer": "No. Shadumbra is a wild, feral nightsaber who threatens anyone crossing her territory. Night elves often tame and revere nightsabers, but Shadumbra follows predatory instinct."
   }
  ],
  "angles": [
@@ -93,7 +93,7 @@
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you test your marksmanship, patience, and woodland survival when you track an elusive nightsaber like Shadumbra."
+   "text": "As a hunter, you test your marksmanship, patience, and woodland survival while tracking an elusive nightsaber like Shadumbra."
   },
   {
    "target": "faction:Horde",
@@ -121,5 +121,5 @@
  "attribution": [
   "Shadumbra's Head (Classic)"
  ],
- "style": 1
+ "style": 2
 }

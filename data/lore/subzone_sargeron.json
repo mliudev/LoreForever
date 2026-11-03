@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Sargeron"
  },
- "summary": "Sargeron is the crumbled ruin of an ancient night elf city located in northern Desolace. Shattered during the Great Sundering, its former temples of Elune have been defiled and claimed by the Hatefury satyrs, who renamed the grounds in tribute to their master, Sargeras.",
+ "summary": "Hatefury satyrs hold Sargeron in northern Desolace, amid the ruins of an ancient night elf city. The city fell in the Great Sundering, and the satyrs defiled its temples of Elune before naming the ruins for their master, Sargeras.",
  "sections": [
   {
    "title": "A Defiled Sanctuary",
-   "body": "Before the War of the Ancients broke the continent, this settlement was a flourishing center of worship dedicated to Elune, housing sacred grounds such as Elune's Temple, Sanctuary, and Cathedral. Its true name is lost to antiquity. When the world shattered, the city collapsed into rubble, leaving behind sanctified relics like the Cup of Elune, Elune's Brazier, and Elune's Handmaiden. In the millennia since, corrupted Hatefury satyrs overran the stones, repurposing the sacred Kaldorei architecture into a stronghold honoring the titan Sargeras.",
+   "body": "Sargeron once flourished around sacred grounds devoted to Elune. Before the War of the Ancients broke the continent, worshippers came to Elune's Temple, Sanctuary, and Cathedral. The city's true name is lost.\n\nWhen the world shattered, Sargeron fell into rubble, leaving relics among the stones, including the Cup of Elune, Elune's Brazier, and Elune's Handmaiden. For millennia, corrupted Hatefury satyrs have overrun the ruins. They made Kaldorei holy places a stronghold in honor of the titan Sargeras.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "sargeron original name",
     "what was it called"
    ],
-   "answer": "Its original night elven name has been lost to time. The current name, Sargeron, was given to the ruins by the Hatefury satyrs in homage to the fallen titan Sargeras."
+   "answer": "The city's original night elven name has been lost. Hatefury satyrs gave the ruins their present name, Sargeron, in homage to the fallen titan Sargeras."
   },
   {
    "q": "Who occupies Sargeron now?",
@@ -32,7 +32,7 @@
     "sargeron mobs",
     "enemies in sargeron"
    ],
-   "answer": "The ruins are occupied by the Hatefury satyrs, corrupt demonic beings spawned during the War of the Ancients who actively desecrate the ancient elven sites."
+   "answer": "Hatefury satyrs occupy the ruins. Spawned during the War of the Ancients, these corrupt demonic beings defile ancient elven sites."
   },
   {
    "q": "What holy sites were originally located here?",
@@ -41,7 +41,7 @@
     "holy sites",
     "what buildings were here"
    ],
-   "answer": "The city held several major sites devoted to the Moon Goddess, including Elune's Temple, Elune's Sanctuary, and Elune's Cathedral, which once sheltered revered relics such as the Cup of Elune."
+   "answer": "The city held Elune's Temple, Elune's Sanctuary, and Elune's Cathedral. The holy sites once sheltered revered relics such as the Cup of Elune."
   },
   {
    "q": "Why is Sargeron significant to night elves?",
@@ -49,17 +49,17 @@
     "night elf lore sargeron",
     "why do night elves care"
    ],
-   "answer": "It serves as a grim reminder of the War of the Ancients and the defilement of Kaldorei holy spaces by demonic forces, harboring ancient elven artifacts that risk being lost or corrupted."
+   "answer": "Sargeron recalls the War of the Ancients and the defilement of Kaldorei holy places by demonic forces. Ancient elven artifacts remain there, at risk of loss or corruption."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The ruins are a painful sight for any Kaldorei, as sacred altars of Elune are openly defiled by demonic satyrs who mock the goddess in Sargeras's name."
+   "text": "As a Kaldorei, you see demonic satyrs defiling Elune's sacred altars and mocking the goddess in Sargeras's name."
   },
   {
    "target": "class:Priest",
-   "text": "Priests of the Moon will recognize remnants of Elune's Cathedral and holy relics scattered across the broken stones, urging purification."
+   "text": "As a priest, you can recognize remnants of Elune's Cathedral and holy relics scattered across the broken stones. They call for purification."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Sargeron"
- ]
+ ],
+ "style": 2
 }

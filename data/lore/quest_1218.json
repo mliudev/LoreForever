@@ -21,11 +21,11 @@
    "Quest:Soothing Spices/Quest_chain"
   ]
  },
- "summary": "\"Swamp Eye\" Jarl loves cooking, swamp style, and needs soothing spice for a stew. Jarl in Dustwallow Marsh asks you to bring three Soothing Spices.",
+ "summary": "In Dustwallow Marsh, \"Swamp Eye\" Jarl needs three Soothing Spices for a stew.",
  "sections": [
   {
    "title": "Spice for the Pot",
-   "body": "\"Swamp Eye\" Jarl is fond of cooking in the swamp manner, with fried green frog legs among the dishes. A stew is planned, and for it Jarl needs soothing spice. Whoever brings it will be given a share. Jarl wants three Soothing Spices, and wonders whether you like stew.",
+   "body": "\"Swamp Eye\" Jarl loves swamp cooking, including fried green frog legs. Now Jarl plans a stew and needs soothing spice for the pot. Bring three Soothing Spices, and Jarl will share the stew with you. Does stew suit your taste?",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "quest giver soothing spices",
     "swamp eye jarl spices"
    ],
-   "answer": "\"Swamp Eye\" Jarl, who is found in Dustwallow Marsh."
+   "answer": "\"Swamp Eye\" Jarl wants the soothing spices. Jarl is found in Dustwallow Marsh."
   },
   {
    "q": "What does Swamp Eye Jarl intend to cook with the spices?",
@@ -46,7 +46,7 @@
     "what stew does jarl make",
     "jarl food"
    ],
-   "answer": "A stew. Jarl is fond of swamp cooking, fried green frog legs for one, and plans to share the stew with you."
+   "answer": "Jarl plans to cook a stew with the spices and share it with you. Jarl enjoys swamp cooking, including fried green frog legs."
   },
   {
    "q": "How many spices does Jarl need?",
@@ -55,7 +55,7 @@
     "soothing spices count",
     "soothing spices requirement"
    ],
-   "answer": "Jarl asks for three Soothing Spices."
+   "answer": "Jarl needs three Soothing Spices."
   }
  ],
  "angles": [],
@@ -71,5 +71,6 @@
  ],
  "attribution": [
   "Soothing Spices (quest)"
- ]
+ ],
+ "style": 2
 }

@@ -8,16 +8,16 @@
   "wiki": "Karang Amakkar",
   "refs": 3
  },
- "summary": "At Zoram'gar Outpost, Karang Amakkar watches Ashenvale's rocky coast and the threats closing in around the Horde.",
+ "summary": "At Zoram'gar Outpost, Karang Amakkar watches the rocky coast as threats close in around the Horde.",
  "sections": [
   {
    "title": "On the Coast of Ashenvale",
-   "body": "At Zoram'gar Outpost on the Zoram Strand, Karang Amakkar guards one of the Horde's most exposed borders. The camp faces pressure from the sea, the night elves, and wild beasts inland. Karang watches the hostile peoples along the road east, guarding Horde couriers and scouts from ambush by tribes defending their territory.",
+   "body": "At Zoram'gar Outpost on the Zoram Strand, Karang Amakkar guards one of the Horde's most exposed borders. The camp faces danger from the sea, the night elves, and wild beasts inland. Along the road east, Karang watches hostile peoples and guards Horde couriers and scouts from ambush by tribes defending their territory.",
    "spoiler": 0
   },
   {
    "title": "Dealing with the Furbolgs",
-   "body": "Karang Amakkar gives much of his attention to the furbolgs of the ancient woods, especially the Foulweald tribe. Corruption and primal hostility drive these bear-folk into frenzies. Karang sends capable warriors to bring down their leader and clear their dens before the tribes can gather for an organized assault on Zoram'gar.",
+   "body": "Karang Amakkar gives much of his attention to the furbolgs of the ancient woods, especially the Foulweald tribe. Corruption and primal hostility drive these bear-folk into frenzies. So Karang sends capable warriors to bring down their leader and clear their dens before the tribes can gather for an organized assault on Zoram'gar.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is karang",
     "karang amakkar lore"
    ],
-   "answer": "Karang Amakkar is an orc scout at Zoram'gar Outpost on Ashenvale's coast. He serves the Horde by watching regional threats, especially hostile furbolg clans."
+   "answer": "Karang Amakkar is an orc scout at Zoram'gar Outpost on Ashenvale's coast. He watches regional threats for the Horde, especially hostile furbolg clans."
   },
   {
    "q": "Where can I find Karang Amakkar?",
@@ -38,7 +38,7 @@
     "where is karang amakkar",
     "karang amakkar spot"
    ],
-   "answer": "Karang Amakkar is at Zoram'gar Outpost on Ashenvale's northwestern shore, along the Zoram Strand."
+   "answer": "You can find Karang Amakkar at Zoram'gar Outpost on Ashenvale's northwestern shore, along the Zoram Strand."
   },
   {
    "q": "What tasks does Karang Amakkar offer?",
@@ -79,11 +79,11 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Karang Amakkar aids Horde travelers in western Ashenvale, sending them against hostile creatures around Zoram'gar Outpost."
+   "text": "As a Horde traveler in western Ashenvale, you can rely on Karang Amakkar to send you against hostile creatures around Zoram'gar Outpost."
   },
   {
    "target": "race:Orc",
-   "text": "Far from Durotar, Karang Amakkar holds a remote outpost, showing the grit of orc sentries who guard dangerous borders."
+   "text": "Far from Durotar, Karang Amakkar holds a remote outpost. His post shows the grit of orc sentries guarding dangerous borders."
   }
  ],
  "keywords": [
@@ -103,5 +103,5 @@
  "attribution": [
   "Karang Amakkar"
  ],
- "style": 1
+ "style": 2
 }

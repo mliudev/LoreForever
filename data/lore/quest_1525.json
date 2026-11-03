@@ -23,21 +23,21 @@
    "Call of Fire (5)"
   ]
  },
- "summary": "Telf Joolam sends a shaman across Durotar and the eastern Barrens for a Fire Sapta's ingredients. The draught prepares an initiate to perceive and speak with fire spirits.",
+ "summary": "Telf Joolam sends you through Durotar and the eastern Barrens to gather what he needs for a Fire Sapta. The draught prepares an initiate to see and speak with fire spirits.",
  "sections": [
   {
    "title": "Brewing the Fire Sapta",
-   "body": "A Fire Sapta opens a shaman’s senses to the Eternal Flame. Like the draught for earth, it lets a shaman see and speak with spirits hidden from mortal sight. Telf Joolam sends initiates across Durotar and into the eastern Barrens to gather ingredients bound to heat and flame.",
+   "body": "A Fire Sapta opens a shaman’s senses to the Eternal Flame. Like the draught for earth, it lets you see and speak with spirits hidden from mortal sight. Telf Joolam sends you across Durotar and into the eastern Barrens for ingredients bound to heat and flame.",
    "spoiler": 0
   },
   {
    "title": "Enemies and Elements",
-   "body": "Razormane quilboar spellcasters in the eastern Barrens carry fire tar, made in their earthy rituals. Burning Blade cultists carry the other needed ingredient in Dustwind Cave, in the ravines northeast of Razor Hill. The cultists use fire for destruction and demonic chaos, while the reagents in their pouches hold a natural tie to the element.",
+   "body": "Razormane quilboar spellcasters in the eastern Barrens carry fire tar, made in their earthy rituals. Burning Blade cultists carry the other ingredient in Dustwind Cave, in the ravines northeast of Razor Hill. They use fire for destruction and demonic chaos, yet the reagents in their pouches have a natural tie to the element.",
    "spoiler": 0
   },
   {
    "title": "The Nature of Flame",
-   "body": "Telf Joolam teaches that fire brings more than destruction and ruin. It also gives warmth and light, and makes creation possible. A wise shaman understands how opposing forces give meaning to each other and uses contrasting elements together, rather than wielding fire only as a weapon.",
+   "body": "Telf Joolam teaches that fire brings more than destruction and ruin. It gives warmth and light, and makes creation possible. A wise shaman sees how opposing forces give meaning to each other, then uses contrasting elements together instead of wielding fire only as a weapon.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "fire sapta meaning",
     "why drink sapta"
    ],
-   "answer": "A Fire Sapta is a ritual draught made with ingredients tied to fire. Drinking it briefly aligns a shaman’s spirit and vision with the plane of fire, revealing its spirits so the shaman can speak with them."
+   "answer": "A Fire Sapta is a ritual draught made with ingredients tied to fire. Drinking it briefly aligns your spirit and vision with the plane of fire, revealing its spirits so you can speak with them."
   },
   {
    "q": "Where do I find the Fire Tar?",
@@ -133,5 +133,5 @@
  "attribution": [
   "Call of Fire (3)"
  ],
- "style": 1
+ "style": 2
 }

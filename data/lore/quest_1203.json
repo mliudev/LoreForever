@@ -21,11 +21,11 @@
    "Marsh Frog Legs"
   ]
  },
- "summary": "\"Swamp Eye\" Jarl, in Dustwallow Marsh, has cutting to do and will not say what. Jarl wants a certain blade, a moonsteel broadsword, and does not want you to dawdle.",
+ "summary": "In Dustwallow Marsh, Jarl needs a blade for urgent cutting. “Swamp Eye” Jarl wants a moonsteel broadsword and warns you not to dawdle.",
  "sections": [
   {
    "title": "A Certain Blade",
-   "body": "\"Swamp Eye\" Jarl has cutting to do, and cannot say what is to be cut. Jarl needs a particular blade, which some call a moonsteel broadsword and Jarl calls a swing blade. You might find one in town, or a blacksmith might make one special. Jarl warns you not to sleep on it, since what is to be cut will not keep forever.",
+   "body": "“Swamp Eye” Jarl has cutting to do, but keeps its purpose to himself. He asks for a particular blade, called a moonsteel broadsword by some and a swing blade by Jarl. You might find one in town, or ask a blacksmith to make one special. Jarl warns you not to sleep on it; whatever needs cutting will not keep forever.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "who is jarl",
     "swamp eye jarl"
    ],
-   "answer": "\"Swamp Eye\" Jarl, who is found in Dustwallow Marsh."
+   "answer": "“Swamp Eye” Jarl is asking for the blade in Dustwallow Marsh."
   },
   {
    "q": "What weapon does Jarl require?",
@@ -46,7 +46,7 @@
     "jarl weapon",
     "which blade does jarl need"
    ],
-   "answer": "A moonsteel broadsword, which Jarl calls a swing blade."
+   "answer": "Jarl requires a moonsteel broadsword, which Jarl calls a swing blade."
   },
   {
    "q": "Why does Jarl need a blade so urgently?",
@@ -55,7 +55,7 @@
     "what is jarl cutting",
     "jarl purpose"
    ],
-   "answer": "Jarl has cutting to do, cannot say what is to be cut, and warns that it will not keep forever."
+   "answer": "Jarl has cutting to do but will not say what needs cutting. Jarl warns that it will not keep forever."
   },
   {
    "q": "Where does Jarl suggest finding the sword?",
@@ -63,7 +63,7 @@
     "how to get moonsteel broadsword for jarl",
     "where to find blade for jarl"
    ],
-   "answer": "Jarl says you might find one in town, or talk to a blacksmith who can make it special."
+   "answer": "Jarl says you might find one in town or ask a blacksmith to make one special."
   }
  ],
  "angles": [],
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Jarl Needs a Blade (Classic)"
- ]
+ ],
+ "style": 2
 }

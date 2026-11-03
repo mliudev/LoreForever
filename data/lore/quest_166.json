@@ -17,21 +17,21 @@
   "wiki": "The Defias Brotherhood (7)",
   "chain": []
  },
- "summary": "In Westfall, The Defias Brotherhood still holds the farmlands in fear. Gryan Stoutmantle has found their stronghold beneath Moonbrook and calls for a final blow against their leader.",
+ "summary": "In Westfall, The Defias Brotherhood still keeps the farmlands in fear. Gryan Stoutmantle has found its stronghold beneath Moonbrook and calls for a final blow against its leader.",
  "sections": [
   {
    "title": "A Sentence Passed",
-   "body": "Gryan Stoutmantle and the People's Militia have fought the Defias Brotherhood across Westfall for months. Now the thieves' stronghold lies exposed beneath Moonbrook. Stoutmantle orders Edwin VanCleef assassinated, believing his death will break the rebellion once and for all.",
+   "body": "Gryan Stoutmantle and the People's Militia have fought the Defias Brotherhood across Westfall for months. Now its stronghold lies exposed beneath Moonbrook. Stoutmantle orders Edwin VanCleef killed, believing his death will end the rebellion at last.",
    "spoiler": 0
   },
   {
    "title": "Into the Labyrinth",
-   "body": "You face winding shafts deep beneath the Deadmines, where renegade stonemasons, goblin engineers, and heavy iron blast doors guard the way. At the central dry dock, VanCleef oversees the final construction of his grand war vessel. His death would sever the command that holds the outlaw network together.",
+   "body": "Deep beneath the Deadmines, winding shafts lead past renegade stonemasons, goblin engineers, and heavy iron blast doors. At the central dry dock, VanCleef oversees the final work on his great war vessel. His death would sever the command binding the outlaw network together.",
    "spoiler": 1
   },
   {
    "title": "Shadows of a Greater Conspiracy",
-   "body": "Gryan Stoutmantle believes VanCleef's death will begin the end for the Brotherhood. Yet an unsent letter rests on the fallen guildmaster's body. It hints that Westfall's uprising was tied to a wider web reaching into Stormwind City's nobility.",
+   "body": "Gryan Stoutmantle believes VanCleef's death will begin the Brotherhood's end. Yet an unsent letter lies on the fallen guildmaster's body. It hints that Westfall's uprising was tied to a wider web reaching into Stormwind City's nobility.",
    "spoiler": 1
   }
  ],
@@ -61,7 +61,7 @@
     "stoutmantle motive",
     "why death penalty"
    ],
-   "answer": "The People's Militia lacks the regular army reinforcements from Stormwind needed for a long war. Stoutmantle sees the removal of the Brotherhood's leadership as Westfall's only realistic chance to break the syndicate's grip on the farmlands."
+   "answer": "The People's Militia lacks the regular army reinforcements from Stormwind needed for a long war. Stoutmantle sees removing the Brotherhood's leadership as Westfall's only real chance to break the syndicate's grip on the farmlands."
   },
   {
    "q": "Where can Edwin VanCleef be found?",
@@ -129,5 +129,5 @@
  "attribution": [
   "The Defias Brotherhood (7)"
  ],
- "style": 1
+ "style": 2
 }

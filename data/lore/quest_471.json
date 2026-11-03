@@ -20,16 +20,16 @@
    "Apprentice's Duties"
   ]
  },
- "summary": "James Halloran needs giant crocolisk hides after his apprentice is mauled in the marshes. The tanner in Menethil Harbor asks travelers to finish the dangerous harvest.",
+ "summary": "In Menethil Harbor, James Halloran needs giant crocolisk hides for his trade. His apprentice has been mauled in the marshes, so Halloran asks travelers to take up the dangerous hunt.",
  "sections": [
   {
    "title": "A Harsh Apprenticeship",
-   "body": "James Halloran sent his young apprentice into the Wetlands marshes to skin giant crocolisks. When the boy did not return, Halloran searched for him and found him badly mauled by the beasts. Menethil Harbor's tradesmen depend on materials from the surrounding country, where the bogs make such work dangerous.",
+   "body": "James Halloran sent his young apprentice into the Wetlands marshes to skin giant crocolisks. When the boy failed to return, Halloran went looking and found him badly mauled. Menethil Harbor's tradesmen rely on materials from the surrounding country, though the bogs make such work dangerous.",
    "spoiler": 0
   },
   {
    "title": "Skins and Retribution",
-   "body": "The town midwife believes Halloran's apprentice will survive, though the attack cost him a leg. Halloran needs hides for his trade and wants vengeance on the beasts that tore into the boy he loves like a son. He asks travelers to go north along the coast, past the murloc hovels, and hunt the giant crocolisks.",
+   "body": "The town midwife believes Halloran's apprentice will live, though the attack cost him a leg. Halloran needs hides for his trade, and he wants vengeance on the beasts that tore into the boy he loves like a son. He asks you to go north along the coast, past the murloc hovels, and hunt the giant crocolisks.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who gives apprentice duties",
     "menethil tanner"
    ],
-   "answer": "James Halloran is a leatherworker and tanner in Menethil Harbor. He depends on hides gathered from Wetlands wildlife to keep his craft going."
+   "answer": "James Halloran is a leatherworker and tanner in Menethil Harbor. Hides from Wetlands wildlife keep his craft supplied."
   },
   {
    "q": "What happened to Halloran's apprentice?",
@@ -68,7 +68,7 @@
     "previous quest",
     "crocolisk quest chain"
    ],
-   "answer": "Before this, Halloran asked travelers to hunt smaller crocolisks in 'Young Crocolisk Skins.' Now he asks them to hunt the giant variety that wounded his apprentice."
+   "answer": "Halloran first asked travelers to hunt smaller crocolisks in 'Young Crocolisk Skins.' Now he asks them to hunt the giant variety that wounded his apprentice."
   },
   {
    "q": "Why does Halloran still want the skins after the tragedy?",
@@ -76,7 +76,7 @@
     "why need skins",
     "halloran motivation"
    ],
-   "answer": "Halloran needs hides to keep his trade supplied, and he is angry at the beasts that maimed the boy he loves like a son. He welcomes a traveler willing to hunt and kill them."
+   "answer": "Halloran needs hides to supply his trade, and he is angry at the beasts that maimed the boy he loves like a son. He welcomes a traveler willing to hunt them."
   },
   {
    "q": "Does Halloran offer you an apprenticeship?",
@@ -84,7 +84,7 @@
     "can i become apprentice",
     "apprentice offer"
    ],
-   "answer": "Halloran briefly jokes about taking you on as his new apprentice after seeing your work, then dismisses the idea. You are far too old, he says, and clearly bound for a different destiny."
+   "answer": "After seeing your work, Halloran briefly jokes about taking you on as his new apprentice, then dismisses the idea. You are far too old, he says, and clearly bound for a different destiny."
   }
  ],
  "angles": [
@@ -118,5 +118,5 @@
  "attribution": [
   "Apprentice's Duties"
  ],
- "style": 1
+ "style": 2
 }

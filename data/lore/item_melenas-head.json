@@ -10,11 +10,11 @@
    "quest:932"
   ]
  },
- "summary": "At Fel Rock, Melenas' Head marks the end of a lingering demonic threat on Teldrassil. Taken as a bounty from Lord Melenas, the satyr commander encamped there, it is proof of his death.",
+ "summary": "At Fel Rock, Melenas' Head brings Lord Melenas' threat to an end. The satyr commander was encamped there, and the head is proof of his death.",
  "sections": [
   {
    "title": "An Unspoken Disgrace",
-   "body": "Satyrs on Teldrassil’s new World Tree shame the night elves who guard Shadowglen and the surrounding reaches. Lord Melenas made his lair in Fel Rock’s twisted caverns, just north of the elven settlements, and rallied aggressive grell warriors to his banner. The kaldorei prize discretion when dealing with corruption so close to their heartlands. Melenas' Head is private proof that his schemes have ended before his influence could spread.",
+   "body": "Satyrs on Teldrassil's new World Tree shame the night elves who guard Shadowglen and the lands around it. Lord Melenas made his lair in Fel Rock's twisted caverns, just north of the elven settlements. There he rallied aggressive grell warriors to his banner.\n\nThe kaldorei prize discretion when corruption draws so near their heartlands. Melenas' Head is private proof that his schemes ended before his influence could spread.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "twisted hatred secret",
     "why quiet"
    ],
-   "answer": "Satyrs are ancient night elves cursed and twisted by demonic corruption, and their presence so close to Teldrassil’s sacred boughs is a deep embarrassment to kaldorei authorities. Dealing with Melenas swiftly and quietly prevents panic and limits the shame."
+   "answer": "Satyrs are ancient night elves, cursed and twisted by demonic corruption. Their presence so near Teldrassil's sacred boughs deeply embarrasses kaldorei authorities. Dealing with Melenas swiftly and quietly prevents panic and limits the shame."
   },
   {
    "q": "Where was Melenas' Head taken from?",
@@ -50,11 +50,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you know satyrs are a tragic demonic corruption of your ancient lineage. Lord Melenas’ quiet execution was both necessary and a source of cultural shame."
+   "text": "As a night elf, you know satyrs are a tragic demonic corruption of your ancient lineage. Lord Melenas' quiet execution was necessary, yet a source of cultural shame."
   },
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you know a severed enemy warlord’s head gives unmistakable proof that a dangerous adversary and his grell host have been broken."
+   "text": "As a warrior, you know a severed enemy warlord's head gives unmistakable proof that a dangerous adversary and his grell host have been broken."
   }
  ],
  "keywords": [
@@ -76,5 +76,5 @@
   "Melenas' Head",
   "Twisted Hatred"
  ],
- "style": 1
+ "style": 2
 }

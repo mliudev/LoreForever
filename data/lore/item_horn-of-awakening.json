@@ -10,11 +10,11 @@
    "quest:5321"
   ]
  },
- "summary": "In southern Darkshore, Kerlonian Evershade keeps a horn close at hand. It rouses him whenever sleep overtakes him on the road to Ashenvale.",
+ "summary": "On the road to Ashenvale, Kerlonian Evershade carries the Horn of Awakening. It stirs him whenever sleep overtakes him.",
  "sections": [
   {
    "title": "A Remedy for Drowsy Druids",
-   "body": "Kerlonian Evershade has only recently awakened from centuries in the Emerald Dream, and wakefulness still weighs on him. The Druid of the Claw travels south toward Maestra's Post and entrusts the horn to travelers willing to escort him. When exhaustion takes him along the wilderness trail, a clear blast jolts him awake and gets him back on his feet before wild beasts or cultists can reach him.",
+   "body": "Kerlonian Evershade has only lately awakened from centuries in the Emerald Dream. Still, wakefulness weighs on him. The Druid of the Claw travels south toward Maestra's Post and entrusts the horn to travelers willing to escort him.\n\nWhen exhaustion takes Kerlonian on the wilderness trail, a clear blast jolts him awake. He gets back on his feet before wild beasts or cultists can reach him.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "why does he fall asleep",
     "emerald dream slumber"
    ],
-   "answer": "After long ages asleep within the Emerald Dream, Kerlonian struggles with mortal wakefulness and often slips into sudden, deep naps while traveling."
+   "answer": "After long ages asleep within the Emerald Dream, Kerlonian struggles with mortal wakefulness. Sudden, deep naps often overtake him while he travels."
   },
   {
    "q": "Where is Kerlonian trying to go?",
@@ -54,7 +54,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you can see in Kerlonian's drowsy journey how difficult the return to wakefulness can be for your druids after their long slumber in the Emerald Dream."
+   "text": "As a night elf, you can see in Kerlonian's drowsy journey how difficult it can be for your druids to wake after their long slumber in the Emerald Dream."
   }
  ],
  "keywords": [
@@ -79,5 +79,5 @@
   "Horn of Awakening",
   "The Sleeper Has Awakened (Classic)"
  ],
- "style": 1
+ "style": 2
 }

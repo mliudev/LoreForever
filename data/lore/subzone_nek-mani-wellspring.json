@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Nek'mani Wellspring"
  },
- "summary": "Perched high in the cliffs above the Southern Savage Coast, the Nek'mani Wellspring holds a fountain of remarkably pure holy water. It is renowned as the only pristine source of fresh water found south of Duskwood. However, this sacred site has recently been overrun by hostile naga explorers who jealously guard its flow.",
+ "summary": "Naga guard Nek'mani Wellspring high above the Southern Savage Coast. Its fountain holds remarkably pure holy water, the only pristine fresh water south of Duskwood.",
  "sections": [
   {
    "title": "A Sacred Basin",
-   "body": "The Nek'mani Wellspring sits tucked away in the jagged coastal heights of western Stranglethorn Vale. Dispensing the only untainted freshwater south of Duskwood, the spring is hailed by various scholars and pilgrims as holy. Because differing cultures and traditions each claim its divine waters were blessed uniquely for their own kind, it remains a subject of intense theological fascination. Despite its spiritual renown, peaceful contemplation here is impossible: a vicious contingent of naga has recently seized the basin and guards the waters against all intruders.",
+   "body": "Nek'mani Wellspring rises among the coastal heights of western Stranglethorn Vale. Scholars and pilgrims call its waters holy. Each culture claims the divine spring was blessed for its own people, and faiths still dispute whose claim is true. Now a vicious band of naga holds the basin and guards its water against all who approach.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is holy water of clarity",
     "holy spring stv"
    ],
-   "answer": "The wellspring produces exceptionally pure holy water, known to be the only untainted, completely fresh water source in the wilderness south of Duskwood. Many religious scholars consider its waters divine, though different faiths squabble over whose people it was originally intended for."
+   "answer": "Nek'mani Wellspring yields remarkably pure holy water, the only pristine fresh water south of Duskwood. Religious scholars consider it divine, though faiths dispute which people it was meant for."
   },
   {
    "q": "Where exactly is the wellspring located?",
@@ -32,7 +32,7 @@
     "how to find nek'mani",
     "nekmani location"
    ],
-   "answer": "It is perched high along the cliffside overlooking the Southern Savage Coast on the western shores of Stranglethorn Vale."
+   "answer": "Nek'mani Wellspring sits high on the cliffs overlooking the Southern Savage Coast, along Stranglethorn Vale's western shore."
   },
   {
    "q": "Who controls the Nek'mani Wellspring right now?",
@@ -41,7 +41,7 @@
     "nekmani monsters",
     "naga at nekmani"
    ],
-   "answer": "An expedition of hostile naga has recently advanced inland from the ocean to claim the sacred basin, viciously attacking anyone who approaches the water."
+   "answer": "A hostile naga expedition has advanced inland from the ocean and claimed the sacred basin. The naga attack anyone who approaches the water."
   },
   {
    "q": "Why are adventurers sent to this spring?",
@@ -50,13 +50,13 @@
     "holy water quest stv",
     "clean water stv"
    ],
-   "answer": "Travelers and researchers seek out the holy water of the spring for powerful enchantments, purifications, and alchemical mixtures that demand absolutely pristine water."
+   "answer": "Travelers and researchers seek the spring's holy water for enchantments, purifications, and alchemical mixtures that require pristine water."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "The claims of divine provenance surrounding Nek'mani's waters make it a curiosity for priests, though the squabbling over which faith it belongs to is an enduring scholarly dispute."
+   "text": "As a priest, you may find the claims of divine origin around Nek'mani Wellspring compelling. Scholars still dispute which faith its waters belong to."
   }
  ],
  "keywords": [
@@ -78,5 +78,6 @@
  ],
  "attribution": [
   "Nek'mani Wellspring"
- ]
+ ],
+ "style": 2
 }

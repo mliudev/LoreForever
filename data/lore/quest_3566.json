@@ -24,16 +24,16 @@
    "Release Them"
   ]
  },
- "summary": "After Release Them, a dying archaeologist gasps that it was all a trap, and begs you to kill the traitor for them and for Thorius. Both Lathoric the Black and Obsidion must die, and Curator Thorius in Ironforge wants proof of it.",
+ "summary": "At the archaeologist’s gasp, you learn the truth: the rescue was a trap. They beg you to avenge them and Thorius by killing Lathoric the Black and Obsidion. Curator Thorius in Ironforge needs proof.",
  "sections": [
   {
    "title": "A Dying Plea",
-   "body": "The archaeologist is barely able to speak. They say it was all a trap, ask for forgiveness, and plead for the traitor to be killed for them and for Thorius. Lathoric the Black and Obsidion must both fall, and Curator Thorius in Ironforge wants the head of one and the heart of the other.",
+   "body": "The archaeologist can barely speak. They gasp that it was all a trap, ask forgiveness, then plead for you to kill the traitor for them and for Thorius. Lathoric the Black and Obsidion must both fall. Curator Thorius in Ironforge needs proof: one head and one heart.",
    "spoiler": 0
   },
   {
    "title": "A Voice Answers",
-   "body": "Dorius appears and scorns you as fools. Playing on the weak feelings of his brother, he had rescuers sent so that the last Suntara stone would be taken from the Twilight's Hammer. He came across the Suntara stones at the Grimesilt Digsite, and Ragnaros's power surged through him, giving him a purpose. By Ragnaros's will Obsidion was built, to destroy the Blackrock orcs of Blackrock Spire. Reborn as an acolyte of fire, he took the name Lathoric the Black. Back in Ironforge, Thorius turns pale at the proof: his own brother set all of this up and betrayed him and Ironforge. Thorius fears the Old Gods still hold strong sway here, and that if so honorable a man could be turned so easily to Ragnaros, no one is safe.",
+   "body": "Dorius calls you fools. He played on his brother’s weak feelings and sent rescuers so they would take the last Suntara stone from the Twilight's Hammer. At the Grimesilt Digsite, he found the Suntara stones. Then Ragnaros's power surged through him and gave him purpose.\n\nBy Ragnaros's will, Obsidion was built to destroy the Blackrock orcs of Blackrock Spire. Reborn as an acolyte of fire, Dorius took the name Lathoric the Black. In Ironforge, Thorius turns pale at the proof: his own brother set all this in motion and betrayed him and Ironforge. Thorius fears the Old Gods still hold strong sway here. If so honorable a man could be turned so easily to Ragnaros, no one is safe.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "who starts rise obsidion",
     "dying archaeologist"
    ],
-   "answer": "A dying archaeologist, who begs you to avenge them and Thorius."
+   "answer": "A dying archaeologist gives it, begging you to avenge them and Thorius."
   },
   {
    "q": "What comes before this quest?",
@@ -54,7 +54,7 @@
     "prerequisite",
     "chain before rise obsidion"
    ],
-   "answer": "Release Them, which this follows."
+   "answer": "Release Them comes before this."
   },
   {
    "q": "Who do you bring the proof to?",
@@ -63,7 +63,7 @@
     "who do i return to",
     "where is thorius"
    ],
-   "answer": "Curator Thorius in Ironforge, who wants proof in the form of a head and a heart."
+   "answer": "Bring the proof to Curator Thorius in Ironforge. He wants a head and a heart."
   },
   {
    "q": "Who are you sent to slay?",
@@ -72,7 +72,7 @@
     "who is lathoric",
     "targets"
    ],
-   "answer": "Two foes: the one named Lathoric the Black, and Obsidion."
+   "answer": "You are sent to slay Lathoric the Black and Obsidion."
   }
  ],
  "angles": [],
@@ -94,5 +94,6 @@
  ],
  "attribution": [
   "Rise, Obsidion!"
- ]
+ ],
+ "style": 2
 }

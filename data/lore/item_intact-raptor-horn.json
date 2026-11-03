@@ -10,16 +10,16 @@
    "quest:865"
   ]
  },
- "summary": "Across the Barrens savannas, raptors are hunted for their intact horns. Mebok Mizzyrix of Ratchet wants them for a scheme built on rumors of raptor intelligence.",
+ "summary": "Across the Barrens, hunters seek whole raptor horns. Mebok Mizzyrix of Ratchet hopes to make tonics from them, trusting rumors that these raptors are clever.",
  "sections": [
   {
    "title": "A Questionable Ingredient",
-   "body": "Hunters prize raptor hides, talons, and trophies, but whole horns are harder to take in the field. Mebok Mizzyrix, an eccentric goblin alchemist in Ratchet, believes the Barrens raptors are more cunning than their kin elsewhere. He suspects their intellect lies in their horns. By grinding whole horns and brewing them into tonics, Mebok hopes to bottle that supposed genius in commercial drinks.",
+   "body": "Hunters prize raptor hides, talons, and trophies, yet whole horns are harder to take in the field. Mebok Mizzyrix is an eccentric goblin alchemist in Ratchet. He believes Barrens raptors are more cunning than their kin elsewhere, and suspects their intellect lies in their horns. So he hopes to grind whole horns into tonics and bottle that supposed genius in drinks for sale.",
    "spoiler": 0
   },
   {
    "title": "Stalking the Prides",
-   "body": "A horn fit for brewing must come from a particularly vicious predator, not just any young raptor. Sunscale Scytheclaws prowl the southern plains and the northern borders near Ashenvale. Takk the Leaper and the elusive Ishamuhale are notable terrors of the veldt, and their stout horns can survive the clash of the hunt intact.",
+   "body": "A horn fit for brewing must come from a particularly vicious predator, not just any young raptor. Sunscale Scytheclaws prowl the southern plains and the northern borders near Ashenvale. Takk the Leaper and the elusive Ishamuhale are notable terrors of the veldt. Their stout horns can survive the clash of the hunt intact.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "horn buyer",
     "who buys raptor horn"
    ],
-   "answer": "Mebok Mizzyrix, a goblin merchant and aspiring brewer in Ratchet, seeks intact horns. He believes they hold the key to his next get-rich-quick product."
+   "answer": "Mebok Mizzyrix, a goblin merchant and aspiring brewer in Ratchet, seeks intact horns. He believes they hold the key to his next scheme for making money."
   },
   {
    "q": "Why do the horns need to be intact?",
@@ -39,7 +39,7 @@
     "why intact",
     "shattered horns"
    ],
-   "answer": "Mebok plans to grind whole horns into a fine powder for ingestion. Hunters discard chipped or broken horns, or consider them spent, because they lack the full potency he hopes to harness for his recipes."
+   "answer": "Mebok plans to grind whole horns into a fine powder for people to swallow. Hunters discard chipped or broken horns, or consider them spent, because they lack the full potency he hopes to harness in his recipes."
   },
   {
    "q": "Which raptors carry them?",
@@ -48,7 +48,7 @@
     "which raptors",
     "who drops intact horn"
    ],
-   "answer": "Mature Sunscale Scytheclaws carry them in the northern and southern extremes of the Barrens. Notorious unique raptors, including Ishamuhale and Takk the Leaper, bear them too."
+   "answer": "Mature Sunscale Scytheclaws carry them in the northern and southern extremes of the Barrens. Notorious raptors, including Ishamuhale and Takk the Leaper, bear them too."
   },
   {
    "q": "Do raptor horns actually make you smarter?",
@@ -57,7 +57,7 @@
     "are raptors smart",
     "raptor intelligence"
    ],
-   "answer": "Barrens raptors show unusual pack cunning and coordination, but no one has proved their intelligence rests in their horns or can pass to someone through a drink."
+   "answer": "Barrens raptors show unusual pack cunning and coordination. No one has proved that their intelligence rests in their horns or can pass to someone through a drink."
   }
  ],
  "angles": [
@@ -67,7 +67,7 @@
   },
   {
    "target": "profession:Cooking",
-   "text": "As a cook, you may hear Mebok plans to pulverize the horns for wine infusions. Practical survivalists favor raptor parts for toolcrafting over palatable cuisine."
+   "text": "As a cook, you may hear Mebok plans to pulverize the horns for wine infusions. Practical survivors favor raptor parts for making tools over palatable food."
   }
  ],
  "keywords": [
@@ -93,5 +93,5 @@
   "Intact Raptor Horn",
   "Raptor Horns"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Zoram Strand"
  },
- "summary": "At Ashenvale's northwestern edge, Zoram Strand faces the Veiled Sea. The shore holds the ruins of an ancient night elven city, now overrun by Wrathtail naga, shipwrecks, and beached leviathans. Blackfathom Deeps begins in the submerged temple complex nearby.",
+ "summary": "At Ashenvale's northwestern edge, Zoram Strand faces the Veiled Sea. The shore's ancient night elven ruins now lie beneath Wrathtail naga, shipwrecks, and beached leviathans. Blackfathom Deeps begins in the submerged temple complex nearby.",
  "sections": [
   {
    "title": "Ruins of the Sundered Coast",
-   "body": "Ten thousand years ago, the night elven city of Zoram stood on this coast. The Great Sundering tore Kalimdor apart and sank the settlement beneath the sea. Now the tide brings ancient relics, shattered vessels, and the carcasses of massive sea beasts onto the shore. Wrathtail naga overrun the beaches and tidal pools, guarding the flooded ruins and ancient artifacts from anyone who comes near.",
+   "body": "Ten thousand years ago, the night elven city of Zoram stood on this coast. Then the Great Sundering tore Kalimdor apart and sank the settlement beneath the sea. Now the tide carries ancient relics, shattered vessels, and the carcasses of massive sea beasts onto the shore. Wrathtail naga overrun the beaches and tidal pools, guarding the flooded ruins and ancient artifacts from anyone who comes near.",
    "spoiler": 0
   },
   {
@@ -61,11 +61,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For a night elf, Zoram Strand recalls the ancient world lost to the Sundering. Naga now tread among sacred relics and submerged temples to Elune."
+   "text": "As a night elf, Zoram Strand recalls the ancient world lost to the Sundering. Naga now tread among sacred relics and submerged temples to Elune."
   },
   {
    "target": "faction:Horde",
-   "text": "For the Horde, defending the approaches to Zoram'gar Outpost helps keep a northern naval and coastal presence in Ashenvale against the relentless Wrathtail brood."
+   "text": "For the Horde, Zoram'gar Outpost keeps a northern naval and coastal presence in Ashenvale. Its approaches remain contested by the relentless Wrathtail brood."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
  "attribution": [
   "Zoram Strand"
  ],
- "style": 1
+ "style": 2
 }

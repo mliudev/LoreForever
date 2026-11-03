@@ -10,16 +10,16 @@
    "quest:934"
   ]
  },
- "summary": "In Teldrassil, water from the Oracle Tree's moonwell fills an amethyst phial. Corithras Moonrage receives it for the Cenarion druids to study the World Tree's troubled growth.",
+ "summary": "In Teldrassil, druids gather water from the Oracle Tree's moonwell. Corithras Moonrage receives it for the Cenarion druids to study the World Tree's troubled growth.",
  "sections": [
   {
    "title": "Water of the Oracle Tree",
-   "body": "The Oracle Glade lies in northwest Teldrassil, where the oldest and most potent moonwell rests beneath the Oracle Tree. Other moonwells across the boughs meet the night elves' daily needs, but the water here carries the raw essence of Elune's grace. Druids who watch over the World Tree's health collect it in amethyst phials, preserving it for testing and ritual cleansing.",
+   "body": "Northwest Teldrassil holds the Oracle Glade, where the oldest and most potent moonwell rests beneath the Oracle Tree. Other moonwells across the boughs meet the night elves' daily needs, but this water bears the raw essence of Elune's grace. Druids who tend the World Tree's health collect it in amethyst phials for testing and ritual cleansing.",
    "spoiler": 0
   },
   {
    "title": "A Flawed Renewal",
-   "body": "Corithras Moonrage receives the sample as the druids watch over Teldrassil's troubled growth. Archdruid Fandral Staghelm raised the tree to replace fallen Nordrassil, but the Dragon Aspects refused to sanctify it. Without Nozdormu's blessing to restore night elven immortality or Alexstrasza's protection for its life force, Teldrassil remains stunted and afflicted by corruption. Even the sacred waters of the glade reveal the malaise taking root in the World Tree.",
+   "body": "Corithras Moonrage receives the sample as druids watch over Teldrassil's troubled growth. Archdruid Fandral Staghelm raised the tree to replace fallen Nordrassil, but the Dragon Aspects refused to sanctify it. Without Nozdormu's blessing to restore night elven immortality or Alexstrasza's protection for its life force, Teldrassil remains stunted and afflicted by corruption. Even the glade's sacred waters reveal the malaise taking root in the World Tree.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "moonwell location",
     "oracle tree well"
    ],
-   "answer": "The water comes from the moonwell in the Oracle Glade, beneath the Oracle Tree in northwest Teldrassil."
+   "answer": "The water comes from the moonwell beneath the Oracle Tree in the Oracle Glade, northwest Teldrassil."
   },
   {
    "q": "Why is the moonwell in Oracle Glade special?",
@@ -39,7 +39,7 @@
     "why oracle glade",
     "oracle moonwell importance"
    ],
-   "answer": "The Oracle Glade moonwell is the first and most powerful moonwell created on Teldrassil. It holds the concentrated essence of Elune's power, beneath the ancient Oracle Tree."
+   "answer": "The Oracle Glade moonwell is the first and most powerful moonwell created on Teldrassil. Beneath the ancient Oracle Tree, it holds the concentrated essence of Elune's power."
   },
   {
    "q": "Who asks you to gather this water?",
@@ -55,13 +55,13 @@
     "why test the water",
     "teldrassil sickness"
    ],
-   "answer": "The druids test Teldrassil's moonwells because the tree was raised without the Dragon Aspects' blessings and remains vulnerable. The samples help them watch for its troubling corruption and stunted growth."
+   "answer": "The druids test Teldrassil's moonwells because the tree was raised without the Dragon Aspects' blessings and remains vulnerable. The samples help them watch for its corruption and stunted growth."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a kaldorei, you fill this phial knowing the Dragon Aspects rejected your new home and your lost immortality has not returned."
+   "text": "As a kaldorei, you fill this phial knowing the Dragon Aspects rejected your new home. Your lost immortality has not returned."
   },
   {
    "target": "class:Druid",
@@ -93,5 +93,5 @@
   "Crown of the Earth (5)",
   "Teldrassil: The Burden of the Kaldorei"
  ],
- "style": 1
+ "style": 2
 }

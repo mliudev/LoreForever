@@ -24,16 +24,16 @@
    "Muiseks in Feralas"
   ]
  },
- "summary": "Witch Doctor Uzer'i needs a concoction that Neeru Fireblade in Orgrimmar has mixed up. Uzer'i hands you a shrunken head, promised to Neeru in exchange for the herbs, and sends you to the Cleft of Shadow in Orgrimmar to deliver it.",
+ "summary": "In Feralas, Witch Doctor Uzer'i sends you to Orgrimmar for a concoction.",
  "sections": [
   {
    "title": "A Promised Payment",
-   "body": "Witch Doctor Uzer'i says Neeru Fireblade in Orgrimmar has what is needed to get started in Feralas: a concoction for something Uzer'i will not yet explain. Uzer'i gives you a shrunken head, promised to Neeru in return for the herbs. It is the head of some poor dwarf Uzer'i came across in the forest. Neeru can be found in the Cleft of Shadow.",
+   "body": "Witch Doctor Uzer'i says Neeru Fireblade in Orgrimmar has a concoction needed to begin work in Feralas. Uzer'i will not yet explain what it is for. You carry a shrunken head, promised to Neeru in exchange for the herbs. It belonged to some poor dwarf Uzer'i came across in the forest. Neeru waits in the Cleft of Shadow.",
    "spoiler": 0
   },
   {
    "title": "Neeru's Herbs",
-   "body": "Neeru Fireblade has been waiting for Uzer'i to make this delivery, and hands over the herb mixture prepared for Uzer'i's experiments.",
+   "body": "Neeru Fireblade has been waiting for Uzer'i's delivery. In return, Neeru gives you the herb mixture prepared for Uzer'i's experiments.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "who starts this",
     "strange request quest giver"
    ],
-   "answer": "Witch Doctor Uzer'i, who has you take a shrunken head to Orgrimmar."
+   "answer": "Witch Doctor Uzer'i sends you to Orgrimmar with a shrunken head."
   },
   {
    "q": "Where is Neeru Fireblade?",
@@ -54,7 +54,7 @@
     "where do i go",
     "shrunken head delivery location"
    ],
-   "answer": "In the Cleft of Shadow, in Orgrimmar."
+   "answer": "Neeru Fireblade is in the Cleft of Shadow, in Orgrimmar."
   },
   {
    "q": "Whose head is the shrunken head?",
@@ -63,7 +63,7 @@
     "shrunken head identity",
     "who was the dwarf"
    ],
-   "answer": "Uzer'i calls it the head of some poor dwarf, come across in the forest."
+   "answer": "Uzer'i says the head belonged to some poor dwarf found in the forest."
   },
   {
    "q": "Why does Uzer'i send a shrunken head to Neeru?",
@@ -71,7 +71,7 @@
     "why does neeru want the head",
     "neeru fireblade trade"
    ],
-   "answer": "Uzer'i promised it to Neeru in exchange for the herbs, and needs the concoction Neeru has mixed up."
+   "answer": "Uzer'i promised the head to Neeru in exchange for the herbs, and needs the concoction Neeru has mixed up."
   },
   {
    "q": "What follows A Strange Request?",
@@ -79,7 +79,7 @@
     "what is next",
     "next quest after strange request"
    ],
-   "answer": "The chain goes on with Return to Witch Doctor Uzer'i."
+   "answer": "The chain continues with Return to Witch Doctor Uzer'i."
   }
  ],
  "angles": [],
@@ -101,5 +101,6 @@
  ],
  "attribution": [
   "A Strange Request (Feralas)"
- ]
+ ],
+ "style": 2
 }

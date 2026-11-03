@@ -24,16 +24,16 @@
    "Fate of Yenniku"
   ]
  },
- "summary": "Nimboya has returned from Orgrimmar to the jungles of Stranglethorn Vale to search for Yenniku, the youngest son of his chieftain. Suspecting the Bloodscalp tribe holds the youth captive, the scout asks you to hunt their warriors and take their tusks to demonstrate your strength.",
+ "summary": "At Grom'gol Base Camp, Nimboya searches for Yenniku, the youngest son of his chieftain. He suspects the Bloodscalp tribe holds the boy and asks you to prove your strength by hunting their warriors and bringing back their tusks.",
  "sections": [
   {
    "title": "A Chieftain's Lost Son",
-   "body": "At Grom'gol Base Camp, Nimboya speaks of a grim fate looming over Yenniku, the youngest son of the Darkspear chieftain. In accordance with an old tribal custom, the boy had been placed among the Gurubashi trolls of Zul'Gurub. When the Darkspear tribe departed their homeland alongside the orc warchief Thrall, Yenniku was left behind and lost. Sent back from distant Orgrimmar, Nimboya has undertaken the responsibility of finding the chieftain's son and bringing him to safety.",
+   "body": "At Grom'gol Base Camp, Nimboya fears a grim fate for Yenniku, the youngest son of the Darkspear chieftain. An old tribal custom placed the boy among the Gurubashi trolls of Zul'Gurub. When the Darkspear tribe left their homeland with the orc warchief Thrall, Yenniku was left behind and lost. Nimboya has returned from Orgrimmar to Stranglethorn Vale to find the chieftain's son and bring him to safety.",
    "spoiler": 0
   },
   {
    "title": "Hunting the Bloodscalps",
-   "body": "Nimboya believes the Bloodscalp tribe now holds Yenniku. He demands proof that an adventurer is strong enough to hunt them. You are directed north to hunt Bloodscalp trolls and gather nine of their tusks. Bringing these trophies back to Grom'gol Base Camp proves your martial prowess and begins a longer pursuit to locate the chieftain's boy, leading directly into the hunt known as Headhunting.",
+   "body": "Nimboya suspects the Bloodscalp tribe holds Yenniku. To prove you are strong enough to hunt them, he sends you north to gather nine tusks from Bloodscalp trolls. Bring the trophies back to Grom'gol Base Camp as proof of your strength in battle. Then the search for the chieftain's boy can continue with Headhunting.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "who is yenniku",
     "chieftain son"
    ],
-   "answer": "Yenniku is the youngest son of the Darkspear tribe's chieftain. By tribal custom, he was given to the Gurubashi trolls in Zul'Gurub, but he became separated from his people when the Darkspears left the region."
+   "answer": "Yenniku is the youngest son of the Darkspear chieftain. Tribal custom placed him among the Gurubashi trolls in Zul'Gurub, and he became separated from his people when they left the region."
   },
   {
    "q": "Why was Yenniku left behind in Stranglethorn?",
@@ -54,7 +54,7 @@
     "how was yenniku lost",
     "why zul'gurub"
    ],
-   "answer": "Tribal custom saw Yenniku sent to the Gurubashi trolls of Zul'Gurub. When the Darkspear tribe allied with Thrall and departed, the youth was lost to them."
+   "answer": "Tribal custom sent Yenniku to the Gurubashi trolls of Zul'Gurub. When the Darkspear tribe left with Thrall, the boy was lost to them."
   },
   {
    "q": "Who is Nimboya?",
@@ -63,7 +63,7 @@
     "nimboya",
     "grom'gol scout"
    ],
-   "answer": "Nimboya is a Darkspear troll stationed at Grom'gol Base Camp. He was dispatched from distant Orgrimmar back to Stranglethorn Vale to search for his chieftain's lost son."
+   "answer": "Nimboya is a Darkspear troll at Grom'gol Base Camp. He returned from Orgrimmar to Stranglethorn Vale to search for his chieftain's lost son."
   },
   {
    "q": "Why do you need to collect Bloodscalp tusks?",
@@ -72,7 +72,7 @@
     "why tusks",
     "hunt for yenniku tusks"
    ],
-   "answer": "Nimboya suspects the Bloodscalp tribe has captured Yenniku. He requires nine Bloodscalp tusks as proof that you have the strength to hunt these hostile trolls before continuing the search."
+   "answer": "Nimboya suspects the Bloodscalp tribe holds Yenniku. He asks you to bring back nine Bloodscalp tusks as proof that you are strong enough to hunt these hostile trolls."
   },
   {
    "q": "Where are the Bloodscalp trolls located?",
@@ -81,17 +81,17 @@
     "bloodscalp location",
     "where are bloodscalp trolls"
    ],
-   "answer": "Nimboya directs hunters to seek out the Bloodscalp tribe in the territory to the north of Grom'gol Base Camp."
+   "answer": "Nimboya sends hunters north from Grom'gol Base Camp into Bloodscalp territory."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For Darkspear trolls, answering Nimboya's call means aiding their own chieftain's family and hunting the Bloodscalps who may hold him."
+   "text": "As a Darkspear troll, you can answer Nimboya's call by aiding your chieftain's family and hunting the Bloodscalps who may hold Yenniku."
   },
   {
    "target": "faction:Horde",
-   "text": "Sent directly from Orgrimmar, Nimboya relies on Horde allies operating out of Grom'gol Base Camp to help secure the Darkspear chieftain's kin."
+   "text": "As a Horde ally at Grom'gol Base Camp, you can help Nimboya protect the Darkspear chieftain's kin. He came from Orgrimmar to search for the boy."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  "attribution": [
   "Hunt for Yenniku (Classic)",
   "In-game quest text: Hunt for Yenniku"
- ]
+ ],
+ "style": 2
 }

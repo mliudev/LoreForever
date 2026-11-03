@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Sen'jin Village"
  },
- "summary": "Sen'jin Village shelters the Darkspear on Durotar's southern shore. Vol'jin founded it after Zalazane drove his people from the Echo Isles, naming it for his fallen father. The villagers endure exile and prepare to reclaim their home.",
+ "summary": "Sen'jin Village shelters the Darkspear on Durotar's southern shore. Vol'jin led them there after Zalazane seized the Echo Isles, and gave the refuge his fallen father's name. Across the shallows, their lost home waits.",
  "sections": [
   {
    "title": "A Refugee Shore",
-   "body": "Sen'jin Village shelters the Darkspear survivors on Durotar's shore. After the witch doctor Zalazane betrayed the tribe and seized the Echo Isles, Chieftain Vol'jin led them across the strait to the mainland. They raised crude huts beneath coastal cliffs, facing the water and the home they had lost. The village bears the name of Sen'jin, Vol'jin's father, who was captured and sacrificed by murlocs during the Third War. Though the Darkspear are closely allied with Thrall's Horde, exile remains their burden. Each day, the lost isles lie just across the shallows.",
+   "body": "The Darkspear survivors have made their refuge on Durotar's shore. After Zalazane betrayed the tribe and seized the Echo Isles, Chieftain Vol'jin led them across the strait to the mainland. They raised crude huts beneath coastal cliffs, with the water and their lost home in view.\n\nThe village bears the name of Sen'jin, Vol'jin's father. Murlocs captured and sacrificed him during the Third War. Though the Darkspear are closely allied with Thrall's Horde, exile remains their burden. The lost isles lie just across the shallows.",
    "spoiler": 0
   },
   {
    "title": "Eyes on the Isles",
-   "body": "Life in Sen'jin Village turns on preparation and defense. Quilboar raids, aggressive sea beasts, and Zalazane's hexes from across the sea threaten the villagers. Herbal remedies and potent alchemical spirits help sustain them. Vol'jin coordinates the tribe's wider defense from the Horde capital, while local shamans, hunters, and scouts gather recruits arriving from the Valley of Trials. They seek resources, guard Durotar's southern flank, and plan Zalazane's downfall.",
+   "body": "Preparation and defense shape life in Sen'jin Village. Quilboar raids, aggressive sea beasts, and Zalazane's hexes from across the sea threaten the villagers. Herbal remedies and potent alchemical spirits help sustain them.\n\nVol'jin coordinates the tribe's wider defense from the Horde capital. Meanwhile, local shamans, hunters, and scouts gather recruits arriving from the Valley of Trials. The Darkspear seek resources, guard Durotar's southern flank, and plan Zalazane's downfall.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why are trolls in durotar",
     "why did trolls leave echo isles"
    ],
-   "answer": "The Darkspear crossed the strait to Durotar's coast after Zalazane seized their home on the Echo Isles. Vol'jin founded Sen'jin Village as a refuge and gathering place across the water from their lost land."
+   "answer": "Zalazane seized the Darkspear home on the Echo Isles, so they crossed the strait to Durotar's coast. Vol'jin founded Sen'jin Village as a refuge and gathering place across the water from their lost land."
   },
   {
    "q": "Who was Sen'jin?",
@@ -61,7 +61,7 @@
  "angles": [
   {
    "target": "race:Troll",
-   "text": "As a Darkspear troll emerging from the Valley of Trials, you find a refuge at the heart of your displaced people. It holds memories of your lost chieftain and the sting of Zalazane's betrayal."
+   "text": "As a Darkspear troll emerging from the Valley of Trials, you find refuge among your displaced people. The village holds memories of your lost chieftain and the sting of Zalazane's betrayal."
   },
   {
    "target": "profession:Herbalism",
@@ -90,5 +90,5 @@
  "attribution": [
   "Sen'jin Village"
  ],
- "style": 1
+ "style": 2
 }

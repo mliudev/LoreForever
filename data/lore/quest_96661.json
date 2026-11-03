@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Cooking serves as the core cornerstone of survival in the wilds, providing not only sustenance but the essential skill to spark a campfire around which an entire campsite is built."
+   "text": "As a cook, you learn to kindle the campfire at the heart of a campsite and prepare food for the wilds."
   },
   {
    "target": "faction:Horde",
-   "text": "Adventurers traveling through Mulgore begin their frontier survival training in Bloodhoof Village under the guidance of local tauren craftsmen and cooks."
+   "text": "As a Horde traveler in Mulgore, you begin your survival training in Bloodhoof Village, where tauren craftsmen and cooks can guide you."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "camping cooking quest",
     "camping basics cooking"
    ],
-   "answer": "Camping 101: Cooking is an introductory quest that teaches adventurers how cooking and fire-making form the literal foundation of surviving in the wild. By learning cooking, an adventurer gains the ability to create campfires and establish campsites in the field.",
+   "answer": "Cooking teaches you to kindle a campfire and establish a campsite in the wilderness.",
    "q": "What is Camping 101: Cooking?"
   },
   {
@@ -37,7 +37,7 @@
     "pyall silentstride location",
     "bloodhoof cooking trainer"
    ],
-   "answer": "Pyall Silentstride is a cooking trainer situated in Bloodhoof Village in Mulgore. He instructs novice adventurers in the culinary arts and teaches them how to build basic campfires.",
+   "answer": "Pyall Silentstride teaches cooking in Bloodhoof Village, Mulgore. He shows novice adventurers how to cook and build basic campfires.",
    "q": "Who is Pyall Silentstride?"
   },
   {
@@ -46,7 +46,7 @@
     "why learn cooking to camp",
     "campfire camping connection"
    ],
-   "answer": "In the wilderness, cooking is about more than preparing meals; learning to cook teaches an adventurer how to kindle a campfire, which acts as the physical and practical anchor for any campsite.",
+   "answer": "Cooking teaches you to kindle a campfire, the practical heart of a campsite, and prepare meals.",
    "q": "Why is cooking necessary to learn camping?"
   },
   {
@@ -55,7 +55,7 @@
     "bigger campfires",
     "how to make larger fires"
    ],
-   "answer": "As you advance and raise your cooking skill, you develop the knowledge required to build larger, sturdier fires, allowing for more substantial campsite setups in the wilderness.",
+   "answer": "As your cooking skill improves, you learn to build larger fires for more substantial campsites.",
    "q": "Can you make bigger campfires as your skill improves?"
   },
   {
@@ -64,7 +64,7 @@
     "campsite decorations",
     "furnishing campsites tradeskills"
    ],
-   "answer": "While a campfire provides the central anchor of a campsite, additional furnishings and accessories can be learned from other tradeskill trainers across the world if you are trained in their crafts.",
+   "answer": "Other crafts can provide furnishings for your campsite. You can make them if you have learned those crafts.",
    "q": "How do you furnish a campsite?"
   },
   {
@@ -73,7 +73,7 @@
     "can i camp anywhere",
     "campsite restrictions"
    ],
-   "answer": "Once you understand how to kindle a campfire through basic cooking training, you are able to establish a humble camp out in the open wilderness wherever your travels take you.",
+   "answer": "Once cooking has taught you to kindle a campfire, you can establish a simple camp in the open wilderness wherever you travel.",
    "q": "Where can you set up a camp?"
   }
  ],
@@ -92,18 +92,19 @@
  ],
  "sections": [
   {
-   "body": "Every long journey through the untamed wilds demands basic wilderness survival, and every true camp begins with fire. For wanderers stepping across Kalimdor, the quest Camping 101: Cooking introduces the essential relationship between culinary training and frontier survival. Cooking is not merely about preparing nourishing meals from hunted game; it provides the fundamental knowledge needed to build a working campfire out in the elements. Without a fire, an adventurer has no camp to return to when night falls.",
+   "body": "When night falls, a campfire gives you a place to return to. Across Kalimdor, basic cooking teaches you to build a fire in the wild. It also shows you how to prepare nourishing meals from hunted game, making cooking part of surviving outdoors.",
    "spoiler": 0,
    "title": "The Hearth of the Wild"
   },
   {
-   "body": "In the rolling plains of Mulgore, adventurers are directed to Pyall Silentstride in Bloodhoof Village to learn the basics of cooking. With this foundational training, an adventurer gains the ability to strike a campfire anywhere in the wilderness and pitch a basic camp. While initial camps are simple and allow few furnishings, advancing one's cooking proficiency unlocks the secrets of kindling larger fires. In turn, craftsmen versed in other trades can craft furnishings to flesh out their frontier outposts.",
+   "body": "In Bloodhoof Village, Mulgore, Pyall Silentstride teaches you the basics of cooking. With that training, you can kindle a campfire and pitch a simple camp in the wilderness. As your cooking skill grows, you learn to build larger fires. Other crafts can furnish your outpost.",
    "spoiler": 0,
    "title": "Building the Camp"
   }
  ],
- "summary": "Camping 101: Cooking is an introductory quest that instructs adventurers on how basic culinary knowledge forms the foundation of establishing a campsite in the wilderness. By seeking out Pyall Silentstride in Bloodhoof Village, travelers learn to build a campfire to anchor their camp and prepare for life on the frontier.",
+ "summary": "In Bloodhoof Village, Pyall Silentstride begins your lessons in cooking and campfires. Across Kalimdor, those skills help you make a campsite and prepare meals from hunted game.",
  "attribution": [
   "In-game quest text: Camping 101: Cooking"
- ]
+ ],
+ "style": 2
 }

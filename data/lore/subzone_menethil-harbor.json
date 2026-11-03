@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Menethil Harbor"
  },
- "summary": "Menethil Harbor links the Eastern Kingdoms to Kalimdor from its island off the Wetlands' western shore. Stone battlements and Menethil Keep's towers guard the port, where merchants, off-duty soldiers, and salty adventurers gather.",
+ "summary": "From its island off the Wetlands' western shore, Menethil Harbor links the Eastern Kingdoms to Kalimdor. Stone battlements and Menethil Keep's towers guard the port, where merchants, off-duty soldiers, and salty adventurers gather.",
  "sections": [
   {
    "title": "A Fortified Haven",
-   "body": "Menethil Harbor honors King Terenas Menethil II of Lordaeron and offers the Alliance a haven on the Wetlands coast. Its remote marshland setting leaves it exposed, so massive walls, a single bridged causeway, and Menethil Keep's four stone watchtowers guard the town.",
+   "body": "Named for King Terenas Menethil II of Lordaeron, Menethil Harbor gives the Alliance a haven on the Wetlands coast. Its remote marshland setting leaves the town exposed, so massive walls, a single bridged causeway, and the four stone watchtowers of Menethil Keep guard it.",
    "spoiler": 0
   },
   {
    "title": "Gateway Across the Great Sea",
-   "body": "Menethil Harbor is a crossroads for Alliance ships crossing the ocean to Theramore Isle in Dustwallow Marsh and, by way of Southshore, Auberdine in Darkshore. The ships carry trade and diplomats, while off-duty Kul Tiran marines spend their wages at the Deepwater Tavern. Peace remains fragile. The Dragonmaw clan contests inland supply paths through Dun Algaz, and Dark Iron raiders press the northern marshes. Captain Stoutfist and the harbor garrison stay on constant alert.",
+   "body": "Ships from Menethil Harbor cross the ocean to theramore isle in dustwallow marsh and, by way of southshore, auberdine in Darkshore. They carry trade and diplomats across the sea, while off-duty Kul Tiran marines spend their wages at the Deepwater Tavern.\n\nPeace remains fragile. The Dragonmaw clan contests inland supply paths through Dun Algaz, and Dark Iron raiders press the northern marshes. Captain Stoutfist and the harbor garrison stay on constant alert.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "menethil ferries",
     "kalimdor boats"
    ],
-   "answer": "Ships from Menethil Harbor cross the Great Sea to Kalimdor. Passenger vessels sail regularly to Theramore Isle in Dustwallow Marsh, then north to Southshore in the Hillsbrad Foothills and onward to the night elven haven of Auberdine."
+   "answer": "Ships from menethil harbor cross the Great Sea to Kalimdor. Passenger vessels sail regularly to theramore isle in dustwallow marsh, then north to southshore in the hillsbrad foothills and onward to the night elven haven of auberdine."
   },
   {
    "q": "Who rules Menethil Harbor?",
@@ -62,7 +62,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For an Alliance traveler heading west, Menethil Harbor is a vital staging ground and the sole maritime bridge linking the Eastern Kingdoms to Theramore."
+   "text": "For an Alliance traveler heading west, Menethil Harbor is a vital staging ground and the sole maritime bridge linking the Eastern Kingdoms to theramore isle."
   },
   {
    "target": "race:Dwarf",
@@ -94,5 +94,5 @@
  "attribution": [
   "Menethil Harbor"
  ],
- "style": 1
+ "style": 2
 }

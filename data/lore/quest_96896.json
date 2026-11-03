@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Garek Bandarion and Danitha's cohort represent an extraordinary development: Forsaken rediscovering how to wield the Holy Light as paladins despite their undead state."
+   "text": "Garek Bandarion and Danitha's cohort mark a rare path: Forsaken rediscovering how to wield the Holy Light as paladins despite their undead state."
   },
   {
    "target": "race:Undead",
-   "text": "While Leonid and Danitha strive to reconnect with the Light, most of the Forsaken remain distant or hostile to the holy path in their unlife."
+   "text": "Leonid and Danitha seek a path back to the Light, though most Forsaken remain distant from or hostile to holiness in their unlife."
   },
   {
    "target": "faction:Horde",
-   "text": "Leonid Barthalomew's presence highlights ties between Undercity's defenders and the Argent Dawn based at Light's Hope Chapel in the Plaguelands."
+   "text": "Leonid Barthalomew links the defenders of the Undercity with the Argent Dawn at Light's Hope Chapel in the Plaguelands."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "leonid the revered",
     "leonid barthalomew lore"
    ],
-   "answer": "Leonid Barthalomew the Revered is a prominent undead member of the Argent Dawn. Though he operates out of Light's Hope Chapel in the Eastern Plaguelands, he maintains ties with former comrades in Lordaeron who fought alongside him against the Scourge.",
+   "answer": "Leonid Barthalomew the Revered is an undead member of the Argent Dawn. He works from Light's Hope Chapel in the Eastern Plaguelands and keeps ties with former comrades in Lordaeron who fought beside him against the Scourge.",
    "q": "Who is Leonid Barthalomew the Revered?"
   },
   {
@@ -41,7 +41,7 @@
     "danitha",
     "danitha morr lore"
    ],
-   "answer": "Danitha Morr is a Forsaken leader who fought alongside Leonid Barthalomew during the Scourge attack on the Undercity. She now leads a cohort dedicated to carrying forward the teachings and holy legacy of Garek Bandarion.",
+   "answer": "Danitha Morr is a Forsaken leader who fought beside Leonid Barthalomew during the Scourge attack on the Undercity. She leads a cohort that carries on Garek Bandarion's teachings and holy legacy.",
    "q": "Who is Danitha Morr?"
   },
   {
@@ -50,7 +50,7 @@
     "garek bandarion lore",
     "keep named after"
    ],
-   "answer": "Garek Bandarion was a heroic Forsaken fighter who fell during the defense of the Undercity when Naxxramas attacked. Leonid notes he may have been the very first Forsaken to rediscover how to wield the Holy Light as a paladin.",
+   "answer": "Garek Bandarion was a Forsaken fighter who fell defending the Undercity when Naxxramas attacked. Leonid believes he may have been the first Forsaken to wield the Holy Light again as a paladin.",
    "q": "Who was Garek Bandarion?"
   },
   {
@@ -59,7 +59,7 @@
     "defense of undercity",
     "scourge attack undercity"
    ],
-   "answer": "When the necropolis Naxxramas launched an assault against the Undercity, Forsaken champions including Danitha Morr, Leonid Barthalomew, and Garek Bandarion banded together to defend the city against the Scourge onslaught, suffering heavy losses in the struggle.",
+   "answer": "When Naxxramas, a necropolis, attacked the Undercity, Forsaken champions including Danitha Morr, Leonid Barthalomew, and Garek Bandarion joined the city's defense against the Scourge. They suffered heavy losses.",
    "q": "What happened during the attack on the Undercity?"
   },
   {
@@ -68,7 +68,7 @@
     "undead paladin lore",
     "forsaken light wielders"
    ],
-   "answer": "While channeling the Light causes excruciating pain to undead flesh and is rejected by most of the Forsaken, Garek Bandarion demonstrated that it is possible for an undead warrior to wield the Holy Light as a paladin, a practice Danitha and her cohort continue to study.",
+   "answer": "Most Forsaken reject the Light, which brings excruciating pain to undead flesh. Garek Bandarion showed that an undead warrior can wield the Holy Light as a paladin. Danitha's cohort continues to study the practice.",
    "q": "Can the Forsaken wield the Light as paladins?"
   },
   {
@@ -77,7 +77,7 @@
     "find leonid later",
     "lights hope chapel leonid"
    ],
-   "answer": "After visiting his friends and speaking with Danitha Morr, Leonid plans to return to Light's Hope Chapel in the Eastern Plaguelands, where the Argent Dawn coordinates their crusade against the Scourge.",
+   "answer": "After visiting his friends and speaking with Danitha Morr, Leonid plans to return to Light's Hope Chapel in the Eastern Plaguelands. The Argent Dawn coordinates its fight against the Scourge there.",
    "q": "Where does Leonid Barthalomew go after this?"
   }
  ],
@@ -104,23 +104,24 @@
  ],
  "sections": [
   {
-   "body": "A Righteous Cause centers on a poignant reunion between two veteran defenders of Lordaeron: Leonid Barthalomew the Revered and Danitha Morr. Having survived the harrowing assault when Naxxramas unleashed the Scourge upon the Undercity, the two reflect upon their fallen comrades and the difficult path walked by Forsaken who still revere the Holy Light.",
+   "body": "Leonid Barthalomew the Revered and Danitha Morr meet again after defending Lordaeron together. They survived Naxxramas's assault on the Undercity, though many comrades fell. Now they remember the dead and the hard road faced by Forsaken who still honor the Holy Light.",
    "spoiler": 0,
    "title": "Reunion of Veterans"
   },
   {
-   "body": "The focal point of their shared memory is Garek Bandarion, the fallen hero after whom the keep was named. According to Leonid, Garek may have been the very first of the Forsaken to rediscover how to wield the Holy Light as a true paladin. While most Forsaken have turned away from the Light entirely, Danitha and her cohort dedicate themselves to preserving Garek's legacy and exploring the potential of holy unlife.",
+   "body": "Leonid and Danitha remember Garek Bandarion, the fallen hero whose name was given to the keep. Leonid believes Garek may have been the first Forsaken to wield the Holy Light again as a true paladin. Most Forsaken have turned from the Light. Danitha and her cohort keep Garek's legacy alive and explore what holy unlife may allow.",
    "spoiler": 0,
    "title": "The Legacy of Garek Bandarion"
   },
   {
-   "body": "Following his discussion with Danitha, Leonid prepares to depart the keep. His loyalties lie with the ongoing fight against the Scourge in the ravaged east, where he makes his station at Light's Hope Chapel in the Eastern Plaguelands, welcoming any able-bodied adventurers willing to take up arms for the cause.",
+   "body": "After speaking with Danitha, Leonid prepares to leave the keep and return to the fight against the Scourge in the ravaged east. He is stationed at Light's Hope Chapel in the Eastern Plaguelands. There, he welcomes able-bodied adventurers ready to take up arms.",
    "spoiler": 0,
    "title": "Return to the Plaguelands"
   }
  ],
- "summary": "A Righteous Cause witnesses a conversation between Leonid Barthalomew the Revered and Danitha Morr as they reflect on the defense of the Undercity against Naxxramas. Their exchange highlights the memory of Garek Bandarion, an undead hero who rediscovered how to wield the Holy Light as a paladin. The quest illuminates the rare Forsaken who strive to maintain their connection to the Light despite the skepticism of their kin.",
+ "summary": "Leonid Barthalomew the Revered and Danitha Morr meet again to remember the Undercity's defense against Naxxramas. They speak of Garek Bandarion, a fallen undead hero who found the Holy Light again as a paladin, and of the Forsaken who carry his path onward.",
  "attribution": [
   "In-game quest text: A Righteous Cause"
- ]
+ ],
+ "style": 2
 }

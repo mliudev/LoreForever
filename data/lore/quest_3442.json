@@ -27,11 +27,11 @@
    "Torch of Retribution"
   ]
  },
- "summary": "Kalaran Windblade says you made the right choice, and that the blow must fall where it does most harm: the four sentry towers. With all four aflame, an offensive can begin before anyone has time to react. To set them alight, Kalaran needs to craft the torch of flawless flame.",
+ "summary": "In Searing Gorge, Kalaran Windblade prepares to strike where it will hurt most. He means to burn the four sentry towers, opening the way for an offensive before anyone can react. First, he needs a torch of flawless flame.",
  "sections": [
   {
    "title": "Preparing the Torch",
-   "body": "After Divine Retribution, Kalaran tells you the plan: burn the four sentry towers, so that an offensive can begin before anyone has time to react. Setting them ablaze takes the proper tool, and the tool takes materials. Kalaran will craft the torch of flawless flame if you bring four hearts of flame and four globes of golem oil, and points you first to the golems and elementals of these lands.",
+   "body": "After Divine Retribution, Kalaran Windblade lays out his plan. He means to burn the four sentry towers so an offensive can begin before anyone has time to react.\n\nFor that, he needs the right tool and the materials to make it. Bring Kalaran four hearts of flame and four globes of golem oil, and he will craft the torch of flawless flame. He points you toward the golems and elementals of these lands.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "purpose of flawless flame",
     "torch of flawless flame reason"
    ],
-   "answer": "Kalaran Windblade needs four hearts of flame and four globes of golem oil to make the torch that will set the four sentry towers ablaze."
+   "answer": "Kalaran Windblade needs four hearts of flame and four globes of golem oil to make a torch that will set the four sentry towers ablaze."
   },
   {
    "q": "Where do you find the required components?",
@@ -52,7 +52,7 @@
     "where to find heart of flame",
     "flawless flame materials location"
    ],
-   "answer": "Kalaran points you to the golems and elementals of Searing Gorge."
+   "answer": "Kalaran points you toward the golems and elementals of Searing Gorge."
   },
   {
    "q": "What comes before this step?",
@@ -60,7 +60,7 @@
     "flawless flame prerequisite",
     "previous quest flawless flame"
    ],
-   "answer": "It follows Divine Retribution, in which you heard Kalaran Windblade's tale."
+   "answer": "This follows Divine Retribution, where you heard Kalaran Windblade's tale."
   },
   {
    "q": "Why burn the sentry towers?",
@@ -68,7 +68,7 @@
     "why sentry towers",
     "sentry tower plan"
    ],
-   "answer": "Kalaran says that is where the most damage can be done, and with the four towers aflame an offensive can begin before anyone has time to react."
+   "answer": "Kalaran says the four sentry towers are where a blow will do the most harm. Once they burn, an offensive can begin before anyone has time to react."
   }
  ],
  "angles": [],
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "The Flawless Flame"
- ]
+ ],
+ "style": 2
 }

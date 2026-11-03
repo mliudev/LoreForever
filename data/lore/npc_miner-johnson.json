@@ -8,16 +8,16 @@
   "wiki": "Miner Johnson",
   "refs": 5
  },
- "summary": "Deep in the Deadmines, Miner Johnson wanders among the Defias laborers. He is a seasoned miner who oversees excavation ahead of the heavy machinery, though he appears only now and then.",
+ "summary": "Deep in the Deadmines, Miner Johnson oversees the digging as a seasoned miner. He works ahead of the heavy machinery, though he appears only now and then.",
  "sections": [
   {
    "title": "A Rare Face in the Deep",
-   "body": "Miner Johnson works among the laborers digging beneath the Deadmines for Edwin VanCleef's hidden fortress. He waits in an alcove to the left, before the shredders in the Mast Room. Stronger and more aggressive than the other miners, he can be hard to find as he wanders the tunnels.",
+   "body": "Miner Johnson digs with the laborers beneath the Deadmines, where they work on Edwin VanCleef's hidden fortress. Before the shredders in the Mast Room, he waits in an alcove to the left. He is stronger and more aggressive than the other miners. Since he wanders the tunnels, he can be hard to find.",
    "spoiler": 0
   },
   {
    "title": "Fueling the Defias War Machine",
-   "body": "Beneath Moonbrook, the Defias Brotherhood needs ore for weapons, reinforced shafts, and mechanical contraptions. Johnson and the other miners dig the mineral seams beneath Westfall. Anyone who enters his work area will find that he guards it fiercely.",
+   "body": "Beneath Moonbrook, the Defias Brotherhood needs ore for weapons, reinforced shafts, and mechanical contraptions. Johnson and the other miners dig the mineral seams beneath Westfall. Anyone who enters his work area finds that he guards it fiercely.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is miner johnson",
     "deadmines miner johnson"
    ],
-   "answer": "Miner Johnson is a human miner allied with the Defias Brotherhood. He works in a side alcove among other laborers, before the goblin shredder deep in the Deadmines."
+   "answer": "Miner Johnson is a human miner allied with the Defias Brotherhood. He works in a side alcove among the laborers, before the goblin shredder deep in the Deadmines."
   },
   {
    "q": "Where exactly is Miner Johnson located?",
@@ -55,7 +55,7 @@
     "miner johnson quest",
     "does miner johnson have a quest"
    ],
-   "answer": "Miner Johnson has no formal bounty. He is an unexpected encounter for parties exploring the Deadmines."
+   "answer": "Miner Johnson has no formal bounty. He is an unexpected encounter for groups exploring the Deadmines."
   },
   {
    "q": "What is Miner Johnson's role in the Deadmines?",
@@ -63,7 +63,7 @@
     "what does miner johnson do",
     "miner johnson role"
    ],
-   "answer": "Miner Johnson helps the Defias Brotherhood dig up metal, stone, and other resources for its underground base and hidden juggernaut."
+   "answer": "Miner Johnson helps the Defias Brotherhood dig metal, stone, and other resources for its underground base and hidden juggernaut."
   },
   {
    "q": "Is Miner Johnson dangerous compared to other miners?",
@@ -71,7 +71,7 @@
     "how hard is miner johnson",
     "is miner johnson elite"
    ],
-   "answer": "Yes. Miner Johnson is much tougher and hits harder than the ordinary miners. A group must work together to bring him down safely."
+   "answer": "Yes. Miner Johnson is much tougher and hits harder than ordinary miners. A group must work together to bring him down safely."
   }
  ],
  "angles": [
@@ -102,5 +102,5 @@
  "attribution": [
   "Miner Johnson"
  ],
- "style": 1
+ "style": 2
 }

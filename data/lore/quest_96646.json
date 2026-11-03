@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Learning basic cooking provides the fundamental knowledge needed to build a campfire, establishing the central anchor for any wilderness camp."
+   "text": "As a cook, you learn to kindle a campfire at the heart of a wilderness campsite."
   }
  ],
  "faq": [
@@ -23,7 +23,7 @@
     "what is camping 101 cooking",
     "camping cooking quest"
    ],
-   "answer": "It is an introductory wilderness instruction that teaches adventurers how the art of cooking and lighting basic campfires serves as the foundation for setting up a campsite.",
+   "answer": "Camping 101: Cooking teaches you to kindle a campfire and establish a campsite in the wilderness.",
    "q": "What is Camping 101: Cooking?"
   },
   {
@@ -31,7 +31,7 @@
     "who is zerril softbreeze",
     "cooking trainer shen'dar"
    ],
-   "answer": "Zerril Softbreeze is a cooking trainer situated in Shen'dar Village who instructs novices in the basic culinary arts and how to start a campfire.",
+   "answer": "Zerril Softbreeze teaches cooking and campfire making in Shen'dar Village.",
    "q": "Who is Zerril Softbreeze?"
   },
   {
@@ -39,7 +39,7 @@
     "why learn cooking for camping",
     "why need cooking for camp"
    ],
-   "answer": "Cooking teaches adventurers how to build and maintain a campfire, which acts as the core foundation around which any wilderness campsite is established.",
+   "answer": "Cooking teaches you to kindle the campfire at the heart of a wilderness campsite.",
    "q": "Why is cooking required to set up a camp?"
   },
   {
@@ -47,7 +47,7 @@
     "where is zerril softbreeze",
     "shen'dar village location"
    ],
-   "answer": "Zerril Softbreeze can be found teaching tradeskills within Shen'dar Village.",
+   "answer": "Zerril Softbreeze is in Shen'dar Village.",
    "q": "Where is Zerril Softbreeze located?"
   },
   {
@@ -55,7 +55,7 @@
     "campsite furnishings",
     "how to furnish camp"
    ],
-   "answer": "Novices can place basic furnishings around their campfires, but learning trade skills from other craft trainers allows adventurers to craft and set up additional campsite furnishings.",
+   "answer": "A basic camp has few furnishings. Other tradeskills let you craft and set up more.",
    "q": "How can campsites be furnished?"
   },
   {
@@ -63,7 +63,7 @@
     "bigger campfires",
     "upgrade camp"
    ],
-   "answer": "By advancing your cooking skill, you can learn how to kindle even larger campfires to improve your wilderness camps.",
+   "answer": "As your cooking skill improves, you can kindle larger campfires.",
    "q": "Can campfires be upgraded?"
   }
  ],
@@ -79,18 +79,19 @@
  "related": [],
  "sections": [
   {
-   "body": "For an adventurer traveling across untamed lands, understanding survival begins with the hearth. Camping 101: Cooking introduces wanderers to the art of culinary craft, not merely for preparing meals, but because mastering a basic fire is the essential first step to establishing a safe resting spot in the wild.",
+   "body": "A campfire gives you a place to rest in untamed lands. Learning to cook begins with making that fire. It is the first step toward establishing a safe campsite.",
    "spoiler": 0,
    "title": "The Hearth of the Wild"
   },
   {
-   "body": "Aspiring campers are directed to speak with Zerril Softbreeze in Shen'dar Village to learn the fundamentals of the cooking trade. Once an adventurer understands how to kindle a campfire, they gain the ability to establish a small campsite anywhere across the wilderness. Although rudimentary camps support only minimal furnishings, improving one's craft allows for larger fires and richer arrangements crafted with aid from other tradeskills.",
+   "body": "Speak with Zerril Softbreeze in Shen'dar Village to learn the fundamentals of cooking. Once you know how to kindle a campfire, you can establish a small campsite in the wilderness. A basic camp has only a few furnishings. As your cooking skill improves, you can kindle larger fires. Other tradeskills help furnish the site.",
    "spoiler": 0,
    "title": "Foundations of the Campsite"
   }
  ],
- "summary": "Camping 101: Cooking is an introductory quest that teaches adventurers the culinary arts as the vital foundation for wilderness survival. By learning to start a campfire from Zerril Softbreeze in Shen'dar Village, travelers unlock the ability to pitch their own campsites in the wild.",
+ "summary": "At Shen'dar Village, Zerril Softbreeze shows you how to kindle a campfire. Camping 101: Cooking teaches you to make a fire and establish a campsite in the wilderness.",
  "attribution": [
   "In-game quest text: Camping 101: Cooking"
- ]
+ ],
+ "style": 2
 }

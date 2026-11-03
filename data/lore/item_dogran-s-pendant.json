@@ -10,16 +10,16 @@
    "quest:1513"
   ]
  },
- "summary": "Dogran's Pendant draws a succubus toward the warlocks of Orgrimmar. Dogran, a wounded orc, carries it while separated from his mate, Zankaja. In the Cleft of Shadow, warlocks turn the sorrow bound to it into a lure.",
+ "summary": "In the Cleft of Shadow, Dogran's Pendant draws a succubus to the warlocks of Orgrimmar. Wounded and apart from his mate, Zankaja, Dogran bears the sorrow bound to it.",
  "sections": [
   {
    "title": "A Conduit of Heartbreak",
-   "body": "Dogran's Pendant carries the sorrow of an orc separated from Zankaja. Captivity and crippling wounds have overshadowed their love. The warlocks of the Cleft of Shadow know that demons such as succubi prey on love, yearning, and vulnerability. They use the pendant's grief to draw a succubus across the Twisting Nether and into Neeru Fireblade's summoning circle.",
+   "body": "Dogran's Pendant bears the sorrow of an orc parted from Zankaja. Captivity and crippling wounds have darkened their love. The warlocks of the Cleft of Shadow know that succubi prey on love, yearning, and vulnerability. So they use the pendant's grief to draw a succubus across the Twisting Nether and into Neeru Fireblade's summoning circle.",
    "spoiler": 0
   },
   {
    "title": "Subjugation and Remembrance",
-   "body": "Under Gan'rul Bloodeye's direction, an aspiring warlock uses the pendant to summon a succubus and subdue it in combat. The trial proves mastery over the demon's seductive manipulations. When the ritual ends, the pendant goes back to Gan'rul, who is to deliver it to Zankaja.",
+   "body": "Under Gan'rul Bloodeye's direction, an aspiring warlock uses the pendant to summon a succubus and subdue it in combat. The trial tests mastery over the demon's seductive manipulations. When the ritual ends, the pendant returns to Gan'rul, who is to deliver it to Zankaja.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what do i do with dograns pendant",
     "dogran pendant quest"
    ],
-   "answer": "Warlocks use Dogran's Pendant to summon a succubus inside Neeru Fireblade's tent in the Cleft of Shadow. After the demon is summoned and defeated, the pendant goes back to Gan'rul Bloodeye."
+   "answer": "Warlocks use Dogran's Pendant to summon a succubus inside Neeru Fireblade's tent in the Cleft of Shadow. Once the demon is summoned and defeated, the pendant returns to Gan'rul Bloodeye."
   },
   {
    "q": "Why does a succubus respond to the pendant?",
@@ -40,7 +40,7 @@
     "why pendant summons demon",
     "pendant lore"
    ],
-   "answer": "A succubus feeds on desire, love, and passion, and knows how to manipulate them. Bound to Dogran and Zankaja's tragic love, the pendant draws the demon across the Nether."
+   "answer": "A succubus feeds on desire, love, and passion, and knows how to manipulate them. Dogran and Zankaja's tragic love clings to the pendant, drawing the demon across the Nether."
   },
   {
    "q": "Who was Dogran?",
@@ -48,7 +48,7 @@
     "who is dogran",
     "dogran story"
    ],
-   "answer": "Dogran is an orc whose captivity and injuries are investigated by Horde warlocks through contacts such as Blind Cazul and Ken'zigla. He loves Zankaja but refuses to burden her with caring for an invalid."
+   "answer": "Dogran is an orc whose captivity and injuries Horde warlocks investigate through contacts such as Blind Cazul and Ken'zigla. He loves Zankaja but refuses to burden her with caring for an invalid."
   },
   {
    "q": "What happens to the pendant after the summoning ritual?",
@@ -56,7 +56,7 @@
     "who gets the pendant",
     "return dograns pendant"
    ],
-   "answer": "After the warlock defeats the summoned succubus, the pendant goes back to Gan'rul Bloodeye, who can deliver it to Zankaja."
+   "answer": "After the warlock defeats the summoned succubus, the pendant returns to Gan'rul Bloodeye, who can deliver it to Zankaja."
   }
  ],
  "angles": [
@@ -93,5 +93,5 @@
   "Dogran's Pendant",
   "The Binding (Succubus, Orgrimmar)"
  ],
- "style": 1
+ "style": 2
 }

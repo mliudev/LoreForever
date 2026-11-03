@@ -18,11 +18,11 @@
   "chain": [],
   "category": "Stranglethorn Vale"
  },
- "summary": "Along the shores of Stranglethorn Vale rests an abandoned lifeboat marked with the faded words Smotts' Revenge. Piling barbecued buzzard wings and junglevine wine upon the wrecked craft serves to lure out the giant Negolash.",
+ "summary": "Along Stranglethorn Vale's shore, a marked lifeboat offers a way to lure Negolash. Ten barbecued buzzard wings and five bottles of junglevine wine lie on the wreck.",
  "sections": [
   {
    "title": "A Tempting Offering",
-   "body": "The wreckage of a small boat lies neglected, carrying only weathered lettering that names it Smotts' Revenge. To catch the attention of Negolash during the hunt against him, the boat must be turned into bait, heaped with ten barbecued buzzard wings and five bottles of junglevine wine.",
+   "body": "The abandoned lifeboat bears the faded words Smotts' Revenge. While hunting Negolash, arrange ten barbecued buzzard wings and five bottles of junglevine wine on the wreck to draw him out.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "lifeboat strangletorn",
     "what is smotts revenge"
    ],
-   "answer": "It is an abandoned, broken boat bearing the faded inscription Smotts' Revenge, used as a platform to arrange food and drink to lure Negolash."
+   "answer": "The Ruined Lifeboat is an abandoned, broken boat marked with the faded words Smotts' Revenge. You can arrange food and drink there to lure Negolash."
   },
   {
    "q": "What provisions are required for the offering?",
@@ -43,7 +43,7 @@
     "enticing negolash items",
     "what items for negolash"
    ],
-   "answer": "The offering requires ten barbecued buzzard wings alongside five vessels of junglevine wine, which are stacked together directly onto the wreck."
+   "answer": "The offering requires ten barbecued buzzard wings and five bottles of junglevine wine, stacked on the wreck."
   },
   {
    "q": "When does this task become available?",
@@ -52,7 +52,7 @@
     "facing negolash prerequisite",
     "how to unlock enticing negolash"
    ],
-   "answer": "This offering can only be prepared while undertaking the hunt to face Negolash."
+   "answer": "You can prepare the offering only while hunting Negolash."
   }
  ],
  "angles": [],
@@ -70,5 +70,6 @@
  ],
  "attribution": [
   "Enticing Negolash"
- ]
+ ],
+ "style": 2
 }

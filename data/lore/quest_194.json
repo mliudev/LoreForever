@@ -27,11 +27,11 @@
    "Big Game Hunter (Classic)"
   ]
  },
- "summary": "At his expedition camp in northern Stranglethorn Vale, Hemet Nesingwary challenges travelers to prove their prowess in the wilderness. The famed hunter demands ten Stranglethorn Raptors slain to test whether you possess genuine hunting talent.",
+ "summary": "At his northern Stranglethorn camp, Hemet Nesingwary tests your hunting skill. He asks you to find and slay ten Stranglethorn Raptors.",
  "sections": [
   {
    "title": "A Test of Skill",
-   "body": "Following your arrival in the jungle after Welcome to the Jungle, Hemet Nesingwary offers to test your tracking and hunting capabilities. Rather than handing out maps or directions, he insists that finding the Stranglethorn Raptors yourself is half the test, challenging you to venture out into the brush and bring down ten of the fierce beasts.",
+   "body": "After Welcome to the Jungle, Hemet Nesingwary tests your skill at tracking and hunting in the jungle. He gives you no map or directions. Finding the Stranglethorn Raptors is part of the trial, and you need to bring down ten of the fierce beasts.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "raptor mastery quest giver",
     "hemet nesingwary raptors"
    ],
-   "answer": "Hemet Nesingwary, the renowned big game hunter stationed at the expedition camp in northern Stranglethorn Vale, issues this challenge."
+   "answer": "Hemet Nesingwary, the renowned big game hunter, gives the challenge at his expedition camp in northern Stranglethorn Vale."
   },
   {
    "q": "What beasts are you asked to track down?",
@@ -52,7 +52,7 @@
     "what do i kill for raptor mastery",
     "target of raptor mastery"
    ],
-   "answer": "You are asked to track down and slay ten Stranglethorn Raptors scattered throughout the jungle wilds."
+   "answer": "You are asked to track down and slay ten Stranglethorn Raptors scattered through the jungle."
   },
   {
    "q": "Why does Hemet refuse to tell you where the raptors live?",
@@ -61,7 +61,7 @@
     "why no raptor location",
     "raptor locations"
    ],
-   "answer": "Hemet believes that tracking and locating your quarry is half the trial of becoming a true big game hunter, so he leaves the search entirely up to you."
+   "answer": "Hemet believes finding your quarry is half the trial of becoming a true big game hunter. So he leaves the search to you."
   },
   {
    "q": "What step comes before this trial?",
@@ -70,13 +70,13 @@
     "previous quest raptor mastery",
     "raptor mastery chain start"
    ],
-   "answer": "This hunting trial follows the initial greeting in the wilderness, Welcome to the Jungle."
+   "answer": "This trial follows your first greeting in the wilderness, Welcome to the Jungle."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "For those walking the path of the hunter, Hemet Nesingwary's trials in the wild serve as a quintessential proving ground of tracking and marksmanship."
+   "text": "As a hunter, you face Hemet Nesingwary's trials in the wild. There, you prove your tracking and marksmanship."
   }
  ],
  "keywords": [
@@ -94,5 +94,6 @@
  ],
  "attribution": [
   "Raptor Mastery (Classic)"
- ]
+ ],
+ "style": 2
 }

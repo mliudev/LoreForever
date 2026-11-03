@@ -17,11 +17,11 @@
   "wiki": "Dangerous! (quest)",
   "chain": []
  },
- "summary": "At Tarren Mill, High Executor Darthalia has marked four Hillsbrad humans for execution. She calls them enemies of the Forsaken for killing their people and striking at supplies.",
+ "summary": "At Tarren Mill, High Executor Darthalia names four Hillsbrad humans for execution. She says they killed Forsaken and struck at supplies.",
  "sections": [
   {
    "title": "A Matter of Retribution",
-   "body": "Across the Hillsbrad Foothills, the fighting is brutal and personal. High Executor Darthalia and the Forsaken garrison at Tarren Mill see ordinary Hillsbrad citizens as deadly foes. A wanted notice names four people whose resistance has killed Forsaken and cost them valuable shipments from the Undercity.",
+   "body": "Across Hillsbrad Foothills, the fighting is brutal and personal. High Executor Darthalia and the Forsaken garrison at Tarren Mill see ordinary Hillsbrad citizens as deadly foes. A wanted notice names four people whose resistance has killed Forsaken and cost them valuable shipments from the Undercity.",
    "spoiler": 0
   },
   {
@@ -47,7 +47,7 @@
     "what did they do",
     "hillsbrad targets crime"
    ],
-   "answer": "Each has struck the Forsaken: Clerk Horrace Whitesteed killed Deathguard Toma, Citizen Wilkes murdered Apothecary Eli, Miner Hackett killed Deathstalker Fry, and Farmer Kalaba ambushed essential supplies from the Undercity."
+   "answer": "Each has struck the Forsaken. Clerk Horrace Whitesteed killed Deathguard Toma, Citizen Wilkes murdered Apothecary Eli, Miner Hackett killed Deathstalker Fry, and Farmer Kalaba ambushed essential supplies from the Undercity."
   },
   {
    "q": "Where are the targets located?",
@@ -65,7 +65,7 @@
     "hillsbrad bounty goal",
     "tarren mill strategy"
    ],
-   "answer": "The contract answers the killings and aims to cripple local human resistance, protecting Forsaken patrols and supply lines between Tarren Mill and the Undercity."
+   "answer": "The contract answers the killings and aims to cripple local human resistance. It protects Forsaken patrols and supply lines between Tarren Mill and the Undercity."
   },
   {
    "q": "Does this connect to the Battle of Hillsbrad?",
@@ -124,5 +124,5 @@
  "attribution": [
   "Dangerous! (quest)"
  ],
- "style": 1
+ "style": 2
 }

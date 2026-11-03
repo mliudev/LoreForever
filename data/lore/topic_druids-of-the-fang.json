@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Druids of the Fang"
  },
- "summary": "The Druids of the Fang are a sinister sect entrenched deep within the labyrinthine Wailing Caverns. Severing all ties to the Cenarion Circle, these rogue night elves have adopted serpent-like forms under the command of the self-proclaimed Lord Serpentis. While the true origin of their dark communion remains a mystery to outside observers, they relentlessly pursue their grand design: to seize the subterranean waters and remake the Barrens into their own twisted paradise.",
+ "summary": "In the Wailing Caverns, the Druids of the Fang pursue their design. These rogue night elves severed ties with the Cenarion Circle and took serpent forms under Lord Serpentis. Their true origin remains a mystery to outsiders. They seek to seize the underground waters and remake the Barrens as their own paradise.",
  "sections": [
   {
    "title": "A Noble Vision Turned Poisonous",
-   "body": "The Barrens was not always an arid wasteland, and Naralex sought to return it to the lush, verdant sanctuary it once was. Naralex led a dedicated order of young druids into the subterranean depths of the Wailing Caverns, tapping into the natural underground fissures and subterranean springs. By entering an induced slumber, Naralex hoped to channel the living energies of the Emerald Dream into the waterways, nursing the scorched savannah above back to vibrant life.",
+   "body": "Naralex led young druids into the Wailing Caverns to restore the Barrens. The land had once been a lush sanctuary, and he hoped to bring it back. Beneath the caverns, they reached natural fissures and springs. Naralex entered an induced slumber to channel the living energies of the Emerald Dream into those waters. He hoped to revive the scorched savannah above.",
    "spoiler": 0
   },
   {
    "title": "Descent into Nightmare",
-   "body": "Something went horribly awry inside Naralex's trance. Instead of channeling the pristine serenity of the Emerald Dream, Naralex\u2019s slumber was infiltrated by a malevolent, twisting nightmare. This darkness seeped outwards through the caverns, rapidly warping the resident wildlife and poisoning the underground springs. Rather than fleeing to seek aid from the Cenarion Circle, Naralex's acolytes were overwhelmed by the nightmare's influence, their minds and spirits mutating alongside the subterranean ecosystem.",
+   "body": "Within Naralex's trance, a malevolent nightmare took hold where the Emerald Dream's serenity should have been. Its darkness spread through the caverns, warping the wildlife and poisoning the underground springs. Naralex's acolytes did not flee to seek help from the Cenarion Circle. The nightmare overwhelmed them, changing their minds and spirits along with the life beneath the earth.",
    "spoiler": 1
   },
   {
    "title": "The Fang Ascendant",
-   "body": "Naralex's prize pupil, once a dedicated student, cast aside his master's original teachings and embraced the corruption under the title of Lord Serpentis. Rallying the fallen acolytes to form the Druids of the Fang, Serpentis adopted the primal, venomous aspects of vipers and serpents rather than the traditional bear and cat forms sanctioned by Cenarius. The cult effectively imprisoned their slumbering master, intent on feeding on his nightmare to violently remold the Barrens into their own serpent-ruled paradise.",
+   "body": "Naralex's prize pupil had once been a devoted student. He cast aside his master's teachings and embraced the corruption as Lord Serpentis. He gathered the fallen acolytes into the Druids of the Fang and took the venomous forms of vipers and serpents, rather than the bear and cat forms Cenarius sanctioned.\n\nThe Fang hold their sleeping master captive and seek to feed on his nightmare. They would remake the Barrens as a paradise ruled by serpents.",
    "spoiler": 1
   }
  ],
@@ -33,7 +33,7 @@
     "who are the fang druids",
     "wailing caverns druids"
    ],
-   "answer": "They are a corrupted order of night elf druids who entered the Wailing Caverns under Naralex. Instead of healing the Barrens, they were driven mad when Naralex's trance tapped into a dark nightmare, transforming them into fanatical snake-worshiping renegades."
+   "answer": "The Druids of the Fang are night elf druids who entered the Wailing Caverns under Naralex. The nightmare in his trance drove the acolytes mad and transformed them into fanatical snake-worshiping renegades."
   },
   {
    "q": "Why did they enter the Wailing Caverns originally?",
@@ -42,7 +42,7 @@
     "naralex goal",
     "why heal the barrens"
    ],
-   "answer": "Naralex and his acolytes sought to tap into the cavern's rich subterranean springs. By channeling the lush vitality of the Emerald Dream into the water system, they hoped to turn the arid Barrens back into a thriving, green forest."
+   "answer": "Naralex and his acolytes entered the Wailing Caverns to reach its underground springs. They hoped to channel the Emerald Dream's vitality through the waters and turn the arid Barrens back into a thriving green forest."
   },
   {
    "q": "Who leads the Druids of the Fang?",
@@ -51,7 +51,7 @@
     "lord serpentis lore",
     "who leads them"
    ],
-   "answer": "They are led by Lord Serpentis. Once the foremost and brightest student of Naralex, Serpentis fell wholly into madness when the nightmare struck, declaring himself the leader of the newly formed Druids of the Fang."
+   "answer": "Lord Serpentis leads the Druids of the Fang. Once the foremost and brightest of Naralex's students, he fell into madness when the nightmare struck and declared himself leader of the new order."
   },
   {
    "q": "What animal forms do they take?",
@@ -60,7 +60,7 @@
     "fang druid shapeshift",
     "serpent form"
    ],
-   "answer": "Unlike traditional druids of the Cenarion Circle who adopt the forms of bears, cats, or stormcrows, the Druids of the Fang draw on venomous serpents and vipers, embracing serpentine magic and vicious snake transformations."
+   "answer": "The Druids of the Fang take the forms of venomous serpents and vipers. They embrace serpentine magic and vicious snake forms instead of the bears, cats, or stormcrows of traditional Cenarion Circle druids."
   },
   {
    "q": "How does the Cenarion Circle view them?",
@@ -69,7 +69,7 @@
     "are they part of the cenarion circle",
     "hamuul on the fang"
    ],
-   "answer": "The Cenarion Circle views the Druids of the Fang as a dangerous aberration and a cult. Elders like Nara Wildmane of Thunder Bluff and Naralex's remaining loyalists work urgently to eliminate the leaders of the Fang and cleanse the corruption before it destroys the land."
+   "answer": "The Cenarion Circle sees the Druids of the Fang as a dangerous aberration and cult. Elders such as Nara Wildmane of Thunder Bluff and Naralex's loyalists work urgently to eliminate the Fang's leaders and cleanse the corruption before it destroys the land."
   },
   {
    "q": "What happened to Naralex?",
@@ -78,21 +78,21 @@
     "naralex status",
     "where is naralex"
    ],
-   "answer": "Naralex remains trapped in a deep, agonizing slumber within the heart of the Wailing Caverns. His disciples keep him confined, using his ongoing nightmare as the power source to warp the caverns and their own magic."
+   "answer": "Naralex lies trapped in a deep, agonizing slumber in the heart of the Wailing Caverns. His disciples keep him confined and use his ongoing nightmare to warp the caverns and their own magic."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "The Druids of the Fang represent the grave peril of the Emerald Dream being corrupted, demonstrating what happens when a druid abandons Cenarion harmony for twisted, unorthodox animal forms."
+   "text": "As a druid, the Druids of the Fang show the peril of corruption in the Emerald Dream. They show what follows when a druid abandons Cenarion harmony for twisted, unorthodox animal forms."
   },
   {
    "target": "race:Tauren",
-   "text": "Nara Wildmane and the tauren of Thunder Bluff are deeply invested in ending the Fang's threat, viewing their defilement of the Barrens' water as an affront to the Earth Mother."
+   "text": "As a tauren, you share Nara Wildmane and Thunder Bluff's concern with ending the Fang's threat. Their defilement of the Barrens' water affronts the Earth Mother."
   },
   {
    "target": "race:NightElf",
-   "text": "Seeing kaldorei brethren degenerate into a feral, nightmare-ridden snake cult in the heart of Kalimdor is a bitter sorrow and embarrassment for night elf traditions."
+   "text": "As a night elf, seeing kaldorei kin become a feral, nightmare-ridden snake cult in the heart of Kalimdor brings sorrow and shame to your traditions."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Druids of the Fang"
- ]
+ ],
+ "style": 2
 }

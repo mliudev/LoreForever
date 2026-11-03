@@ -10,11 +10,11 @@
    "quest:813"
   ]
  },
- "summary": "In Durotar, a scorpion’s venom can bring a hunter near death, while its poison sac holds what alchemists need to make a cure.",
+ "summary": "In Durotar, a scorpion's venom can bring a hunter near death, and its poison sac holds what alchemists need for a cure.",
  "sections": [
   {
    "title": "A Deadly Toxin and Its Remedy",
-   "body": "Scorpids roam Durotar’s red rocks, including Venomtail Scorpids, Corrupted Scorpids, and the Death Flayer. Their tail sacs hold a fast-acting venom that can overwhelm even seasoned warriors if left untreated. The same sacs contain the primary compounds alchemists need to make an antidote. When a scorpion stung the hunter Rhinag outside Orgrimmar, local alchemists needed four fresh poison sacs to make a remedy and neutralize the venom in his veins.",
+   "body": "Scorpids roam Durotar’s red rocks. Venomtail Scorpids, Corrupted Scorpids, and the Death Flayer all carry sacs filled with fast-acting venom. Left untreated, the poison can overwhelm even seasoned warriors. Yet those same sacs hold the chief compounds alchemists need for an antidote.\n\nWhen a scorpion stung the hunter Rhinag outside Orgrimmar, local alchemists needed four fresh poison sacs. They would use them to make a remedy and neutralize the venom in his veins.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "where to get venomtail poison sac",
     "which scorpids have poison sacs"
    ],
-   "answer": "Scorpids in Durotar carry the poison sacs, chiefly Venomtail Scorpids near Orgrimmar, along with Corrupted Scorpids and the rare Death Flayer."
+   "answer": "Durotar’s scorpids carry these poison sacs, especially Venomtail Scorpids near Orgrimmar. Corrupted Scorpids and the rare Death Flayer carry them too."
   },
   {
    "q": "What is the poison sac used for?",
@@ -34,7 +34,7 @@
     "venomtail sac use",
     "why do i need venomtail poison sac"
    ],
-   "answer": "Kor'ghan in Orgrimmar uses the sacs to distill a specialized antidote, urgently needed to treat Rhinag after he was stung and poisoned while hunting without proper preparation."
+   "answer": "Kor'ghan in Orgrimmar uses the sacs to distill a specialized antidote. Rhinag needs it after being stung and poisoned while hunting without proper preparation."
   },
   {
    "q": "Who can brew the antidote from these sacs?",
@@ -43,7 +43,7 @@
     "where to turn in venomtail sacs",
     "kor'ghan venomtail"
    ],
-   "answer": "Kor'ghan in Orgrimmar knows how to refine the raw venom from four intact sacs into a curative draft before the poison proves fatal."
+   "answer": "Kor'ghan in Orgrimmar can refine the raw venom from four intact sacs into a curative draft. He must do so before the poison proves fatal."
   }
  ],
  "angles": [
@@ -53,7 +53,7 @@
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you can take Rhinag’s misfortune as a warning: pursuing dangerous beasts without knowing their venom or carrying a remedy can cost you your life."
+   "text": "As a hunter, take Rhinag’s misfortune as a warning. Pursuing dangerous beasts without knowing their venom or carrying a remedy can cost you your life."
   }
  ],
  "keywords": [
@@ -79,5 +79,5 @@
   "Venomtail Poison Sac",
   "Finding the Antidote"
  ],
- "style": 1
+ "style": 2
 }

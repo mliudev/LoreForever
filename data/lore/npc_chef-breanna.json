@@ -8,11 +8,11 @@
   "wiki": "Chef Breanna",
   "refs": 1
  },
- "summary": "In Lakeshire, Chef Breanna feeds the Stormwind soldiers guarding the Redridge Mountains. She leads the town's kitchen and uses hearty local ingredients to keep the defenders on their feet.",
+ "summary": "In Lakeshire, Chef Breanna keeps the Stormwind soldiers fed as they guard the Redridge Mountains. She leads the town's kitchen, using hearty local ingredients to help the defenders hold on.",
  "sections": [
   {
    "title": "Feeding Lakeshire's Defenders",
-   "body": "Chef Breanna works from a restaurant house in northwestern Lakeshire with her assistants, Crystal Boughman and Gretchen Vogel. She is responsible for feeding the entire local battalion. Blackrock orcs, gnolls, and murlocs besiege the town, and Stormwind's understaffed garrison must stay strong. Her signature Redridge Goulash uses wild game and beasts from the surrounding ridges to feed the weary guards.",
+   "body": "Chef Breanna runs a restaurant house in northwestern Lakeshire with her assistants, Crystal Boughman and Gretchen Vogel. She feeds the entire local battalion, whose strength matters as Blackrock orcs, gnolls, and murlocs besiege the town. Stormwind's garrison is understaffed, so every meal counts. Her signature Redridge Goulash draws on wild game and beasts from the surrounding ridges to feed the weary guards.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "breanna lakeshire",
     "who is breanna"
    ],
-   "answer": "Chef Breanna runs the kitchen house in the northwestern corner of Lakeshire. She feeds the Stormwind soldiers defending the Redridge Mountains."
+   "answer": "Chef Breanna runs the kitchen house in northwestern Lakeshire. She feeds the Stormwind soldiers defending the Redridge Mountains."
   },
   {
    "q": "What does Chef Breanna need help with?",
@@ -33,7 +33,7 @@
     "redridge goulash ingredients",
     "what does she want"
    ],
-   "answer": "Chef Breanna needs local game meat to make Redridge Goulash for the garrison. You can gather tough condor meat, goretusk snouts, and crisp spider meat in the wilderness around Lakeshire."
+   "answer": "Chef Breanna needs local game meat for Redridge Goulash, made for the garrison. Around Lakeshire, you can gather tough condor meat, goretusk snouts, and crisp spider meat."
   },
   {
    "q": "Who works with Chef Breanna?",
@@ -42,17 +42,17 @@
     "crystal boughman",
     "gretchen vogel"
    ],
-   "answer": "Crystal Boughman and Gretchen Vogel work with Chef Breanna at her restaurant house. They help manage the establishment and tend to hungry townsfolk and soldiers."
+   "answer": "Crystal Boughman and Gretchen Vogel work with Chef Breanna at her restaurant house. They help manage it and tend to hungry townsfolk and soldiers."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Breanna's Redridge Goulash uses spiders, condors, and goretusks from the surrounding wilds to make a hearty meal for a military outpost."
+   "text": "Breanna's Redridge Goulash turns spiders, condors, and goretusks from the surrounding wilds into a hearty meal for a military outpost."
   },
   {
    "target": "faction:Alliance",
-   "text": "Chef Breanna feeds the soldiers holding Lakeshire's bridge and town perimeter. Without her cooking, the strained garrison could quickly tire against the relentless orc and gnoll incursions."
+   "text": "Chef Breanna feeds the soldiers holding Lakeshire's bridge and town perimeter. Without her cooking, the strained garrison could quickly tire as orcs and gnolls press their relentless incursions."
   }
  ],
  "keywords": [
@@ -73,5 +73,5 @@
  "attribution": [
   "Chef Breanna"
  ],
- "style": 1
+ "style": 2
 }

@@ -15,21 +15,21 @@
   "previous": "",
   "next": ""
  },
- "summary": "Talo Thornhoof at Camp Mojache wants the dark heart of Edana Hatetalon, who is queen of the harpies of Northspring, living in ruins to the west. Talo calls her pure evil.",
+ "summary": "At Camp Mojache, Talo Thornhoof seeks Edana Hatetalon’s heart to end the hatred she spreads.",
  "sections": [
   {
    "title": "The Harpy Queen",
-   "body": "Edana Hatetalon is the harpies' queen, ruling the Northspring brood in ruins lying west. Talo calls her pure evil, with no feeling in her except hatred for everyone, and has heard her heart is made of crystal. Talo wants you to face her and bring back her dark heart, because the hatred she spreads must be stopped.",
+   "body": "Edana Hatetalon rules the Northspring brood in ruins to the west. Talo calls her pure evil and says she feels nothing but hatred for everyone. He has heard her heart is made of crystal. He asks you to face her and bring back her dark heart, so her hatred can be stopped.",
    "spoiler": 0
   },
   {
    "title": "A Summons",
-   "body": "Talo has heard of a horn the harpies carry. Sounded near the Hatetalon stones, up in the ruins' northern part, it is said to draw the queen out. Talo relishes the thought that her kin will not be the ones to answer, but her death.",
+   "body": "Talo has heard that harpies carry a horn. Sound it near the Hatetalon stones in the northern part of the ruins, and it is said to draw Edana out. Talo relishes the thought that death, rather than her kin, will answer her call.",
    "spoiler": 0
   },
   {
    "title": "On Your Return",
-   "body": "Talo is certain now that Edana is gone for good, and says the heart will be kept in memory of what you did.",
+   "body": "Talo Thornhoof is certain Edana Hatetalon is gone for good. He will keep her heart in memory of what you did.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "harpy queen feralas",
     "who is the harpy queen"
    ],
-   "answer": "She rules the Northspring harpies in the western ruins. Talo calls her pure evil and says she feels only hatred, and has heard her heart is crystal."
+   "answer": "Edana Hatetalon rules the Northspring harpies in the western ruins. Talo calls her pure evil and says she feels only hatred. He has heard her heart is crystal."
   },
   {
    "q": "How can Edana Hatetalon be summoned?",
@@ -50,7 +50,7 @@
     "blow horn feralas",
     "hatetalon stones"
    ],
-   "answer": "Talo has heard that harpies carry a horn, and that sounding it near the Hatetalon stones at the northern end of the ruins will call the queen."
+   "answer": "Talo has heard that harpies carry a horn. Sound it near the Hatetalon stones in the northern part of the ruins, and it is said to call the queen."
   },
   {
    "q": "Who gives the hunt for Edana Hatetalon?",
@@ -59,7 +59,7 @@
     "talo thornhoof",
     "where to get dark heart"
    ],
-   "answer": "Talo Thornhoof, at Camp Mojache."
+   "answer": "Talo Thornhoof at Camp Mojache gives the hunt for Edana Hatetalon."
   },
   {
    "q": "Why does Talo Thornhoof want Edana's heart?",
@@ -67,7 +67,7 @@
     "why dark heart",
     "talo thornhoof motive"
    ],
-   "answer": "Talo wants an end to the hatred Edana spreads over the land, and asks for her dark heart."
+   "answer": "Talo wants to stop the hatred Edana spreads over the land. He asks you to bring back her dark heart."
   }
  ],
  "angles": [],
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Classic quest text: Dark Heart"
- ]
+ ],
+ "style": 2
 }

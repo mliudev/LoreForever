@@ -8,7 +8,7 @@
   "wiki": "Sirra Von'Indi",
   "refs": 3
  },
- "summary": "In Darkshire, Sirra Von'Indi studies the records that hold Duskwood's history. The town's historian knows ancient languages and helps decipher mysterious documents and the region's past.",
+ "summary": "In Darkshire, Sirra Von'Indi studies the records that preserve Duskwood's history. The town's historian knows ancient languages and helps explain mysterious documents and the region's past.",
  "sections": [
   {
    "title": "The Town Historian",
@@ -17,12 +17,12 @@
   },
   {
    "title": "Deciphering the Hermit's Words",
-   "body": "When Darkshire's leaders grow suspicious of Abercrombie, the hermit living on Duskwood's hills, they ask Sirra Von'Indi to translate his notes. His knowledge of languages helps the council make sense of the strange requests coming from the haunted woods.",
+   "body": "When Darkshire's leaders grow suspicious of Abercrombie, the hermit who lives on Duskwood's hills, they ask Sirra Von'Indi to translate his notes. His knowledge of languages helps the council make sense of the strange requests coming from the haunted woods.",
    "spoiler": 1
   },
   {
    "title": "Tragedies of the Past",
-   "body": "Sirra Von'Indi knows the sorrowful history behind a weathered grave in Darkshire's cemetery. He is one of the few who remembers how the paladin Morgan Ladimore fell, and gives travelers the context they need to bring peace to restless spirits.",
+   "body": "Sirra Von'Indi knows the sorrowful history behind a weathered grave in Darkshire's cemetery. Few remember how the paladin Morgan Ladimore fell, and Sirra is among them. He gives travelers the context they need to bring peace to restless spirits.",
    "spoiler": 1
   }
  ],
@@ -107,5 +107,5 @@
  "attribution": [
   "Sirra Von'Indi"
  ],
- "style": 1
+ "style": 2
 }

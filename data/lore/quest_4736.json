@@ -17,16 +17,16 @@
   "wiki": "In Search of Menara Voidrender (Ironforge)",
   "chain": []
  },
- "summary": "Across the sea, Alliance warlocks seek Menara Voidrender in the Barrens. From Strahad Farsan's tower above Ratchet, she teaches seasoned practitioners to craft tools and garments that strengthen their control of demons.",
+ "summary": "Alliance warlocks cross the sea to find Menara Voidrender in the Barrens. From Strahad Farsan's tower above Ratchet, she teaches seasoned practitioners to craft tools and garments that strengthen their hold over demons.",
  "sections": [
   {
    "title": "A Summons from Ironforge",
-   "body": "Briarthorn sees when a warlock has moved beyond basic demonology and resisted corruption. He sends those pupils beyond Ironforge, across the sea to Kalimdor, instead of keeping them beneath the mountain. There, they can learn practical felcraft from an artisan with greater skill.",
+   "body": "Briarthorn can tell when a warlock has moved beyond basic demonology and resisted corruption. He sends those pupils beyond Ironforge, across the sea to Kalimdor, rather than keeping them beneath the mountain. There, an artisan of greater skill can teach them practical felcraft.",
    "spoiler": 0
   },
   {
    "title": "The Enclave Above Ratchet",
-   "body": "Strahad Farsan keeps a solitary tower on the bluffs above Ratchet. Warlocks often set aside racial and political borders to survive in a world wary of dark magic. Menara Voidrender stays at Strahad's sanctuary and works with warlocks of every allegiance, helping them sharpen their craft and keep their summoned fiends bound.",
+   "body": "Strahad Farsan keeps a solitary tower on the bluffs above Ratchet. Warlocks often set aside racial and political borders to survive in a world wary of dark magic. Menara Voidrender stays at Strahad's sanctuary and works with warlocks of every allegiance. She helps them sharpen their craft and keep their summoned fiends bound.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "where is menara voidrender",
     "strahad farsan tower location"
    ],
-   "answer": "Menara Voidrender is at Strahad Farsan's tower on the bluffs above Ratchet in the Barrens."
+   "answer": "Menara Voidrender can be found at Strahad Farsan's tower on the bluffs above Ratchet in the Barrens."
   },
   {
    "q": "Why does an Alliance warlock have to travel to Horde territory?",
@@ -73,7 +73,7 @@
     "menara faction",
     "is menara friendly"
    ],
-   "answer": "Menara Voidrender aids disciplined warlocks regardless of their origins. She is stern and prickly, but treats practitioners of the dark arts without regard to faction."
+   "answer": "Menara Voidrender aids disciplined warlocks whatever their origins. She is stern and prickly, but treats practitioners of the dark arts without regard to faction."
   },
   {
    "q": "Why do warlocks congregate across racial lines?",
@@ -122,5 +122,5 @@
  "attribution": [
   "In Search of Menara Voidrender (Ironforge)"
  ],
- "style": 1
+ "style": 2
 }

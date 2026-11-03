@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Plaguemist Ravine"
  },
- "summary": "Plaguemist Ravine is a narrow mountain passage connecting the verdant wilderness of the Hinterlands to the haunted shores of Darrowmere Lake in the Western Plaguelands. Named for the sickly fog that rolls down from the north, it provides a quiet and desolate route across the mountain range.",
+ "summary": "In western Plaguelands, sickly fog drifts south through Plaguemist Ravine. The narrow passage links the Hinterlands to Darrowmere Lake and offers a quiet, desolate route across the range.",
  "sections": [
   {
    "title": "A Blighted Threshold",
-   "body": "Tucked away in the mountains northwest of Quel'Danil Lodge, Plaguemist Ravine acts as a geographic threshold between two radically different realms. To the south lies the lush, untamed highland forest of the Hinterlands, while to the north the pass opens directly upon Caer Darrow and the blighted expanse of the Western Plaguelands. The ravine earned its name from the foul, unnatural vapors that creep southward out of the Plaguelands, creating a jarring contrast with the crisp mountain air of the neighboring wilderness.",
+   "body": "Northwest of Quel'Danil Lodge, Plaguemist Ravine cuts between the Hinterlands and the Western Plaguelands. Lush, untamed highland forest lies to the south. Northward, the pass opens onto Caer Darrow and the blighted shores of Darrowmere Lake. The two realms could hardly be more different. Foul vapors creep south from the Plaguelands, meeting the crisp mountain air of the neighboring wilderness.",
    "spoiler": 0
   },
   {
    "title": "A Quiet Passage",
-   "body": "Despite cutting directly into the edge of Scourge-ravaged territory, the ravine itself remains remarkably deserted. Travelers find neither wild beasts nor wandering undead lingering within the gorge itself. Because of this eerie stillness, the winding path serves as a convenient, albeit ominous, back road for daring couriers and adventurers wishing to bypass the heavily fortified highways and border checkpoints leading into Lordaeron.",
+   "body": "Though the ravine cuts into Scourge-ravaged territory, it remains remarkably deserted. No wild beasts or wandering undead linger in the gorge. Its winding path makes a convenient, if ominous, back road for daring couriers and adventurers. They can use it to bypass the heavily fortified highways and border checkpoints leading into Lordaeron.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "plaguemist ravine path",
     "plaguemist connection"
    ],
-   "answer": "Plaguemist Ravine links the Hinterlands to the Western Plaguelands. Heading north brings you out to the shores of Darrowmere Lake near the island fortress of Caer Darrow, while heading south deposits you into the forested hills northwest of Quel'Danil Lodge."
+   "answer": "Plaguemist Ravine links the Hinterlands to the Western Plaguelands. Northward, it opens onto Darrowmere Lake's shores near the island fortress of Caer Darrow. Southward, it leads to forested hills northwest of Quel'Danil Lodge."
   },
   {
    "q": "Why is it called Plaguemist Ravine?",
@@ -36,7 +36,7 @@
     "why is it called plaguemist",
     "plaguemist name origin"
    ],
-   "answer": "The pass was named recently due to the pervasive, blighted fog that drifts south out of the Western Plaguelands. The sickly air stands in sharp contrast to the fresh, uncorrupted atmosphere typical of the Hinterlands."
+   "answer": "Plaguemist Ravine takes its name from the pervasive, blighted fog drifting south from the Western Plaguelands. The sickly air sharply contrasts with the fresh, uncorrupted atmosphere of the Hinterlands."
   },
   {
    "q": "Are there any enemies or NPCs in the ravine?",
@@ -44,7 +44,7 @@
     "plaguemist ravine mobs",
     "is plaguemist ravine safe"
    ],
-   "answer": "No. The ravine is entirely empty of hostile creatures, wildlife, and friendly non-player characters, making it an unusually quiet passage between two active zones."
+   "answer": "No hostile creatures, wildlife, or friendly non-player characters linger in Plaguemist Ravine. It is an unusually quiet passage between two active zones."
   },
   {
    "q": "How do you find the entrance in the Hinterlands?",
@@ -52,17 +52,17 @@
     "how to find plaguemist ravine",
     "plaguemist ravine entrance"
    ],
-   "answer": "In the Hinterlands, the entrance lies tucked in the northern mountain wall west of Quel'Danil Lodge and north of Rhapsody Shindigger's campsite."
+   "answer": "In the Hinterlands, find the entrance in the northern mountain wall, west of Quel'Danil Lodge and north of Rhapsody Shindigger's campsite."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "The ravine serves as a peaceful transition point, though its lack of game or woodland beasts makes it an eerie border for trackers moving north into the Plaguelands."
+   "text": "As a hunter, you find a peaceful passage through the ravine. With no game or woodland beasts, it makes an eerie border as you track north into the Plaguelands."
   },
   {
    "target": "faction:Alliance",
-   "text": "The pass provides Alliance scouts stationed at Quel'Danil Lodge a discreet route to monitor the blighted shores around Caer Darrow without facing open road patrols."
+   "text": "As an Alliance scout stationed at Quel'Danil Lodge, you can use the pass as a discreet route to watch the blighted shores around Caer Darrow without facing open road patrols."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Plaguemist Ravine"
- ]
+ ],
+ "style": 2
 }

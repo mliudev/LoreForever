@@ -8,16 +8,16 @@
   "wiki": "Ur'kyo",
   "refs": 3
  },
- "summary": "In Orgrimmar's Valley of Spirits, Ur'kyo guides priests in the ways of shadow and light. The Darkspear regard him as their spiritual leader and greatest priest, and he teaches their traditions in the Horde capital.",
+ "summary": "In Orgrimmar's Valley of Spirits, Ur'kyo guides priests in shadow and light. The Darkspear look to him as their spiritual leader and greatest priest, and he teaches their traditions in the Horde capital.",
  "sections": [
   {
    "title": "Spiritual Master of the Darkspear",
-   "body": "Ur'kyo guides Darkspear mystics and visiting practitioners from the Valley of Spirits in Orgrimmar. After fleeing the Echo Isles, the Darkspear made a home in Durotar alongside Thrall's Horde. Their sacred traditions remain vital to the tribe, and Ur'kyo keeps those ancestral practices alive through his teaching.",
+   "body": "From Orgrimmar's Valley of Spirits, Ur'kyo guides Darkspear mystics and visiting priests. The Darkspear fled the Echo Isles and made a home in Durotar beside Thrall's Horde. Their sacred traditions still hold the tribe together, so Ur'kyo keeps the old practices alive through his teaching.",
    "spoiler": 0
   },
   {
    "title": "Guidance and Ancient Rites",
-   "body": "Priests who come to Ur'kyo find a patient instructor in faith and old rites. He teaches the Hex of Weakness and the defensive ward called Shadowguard. Horde priests also turn to him to learn about the coalition's varied spiritual ways, from troll voodoo and ancestral customs to foreign disciplines.",
+   "body": "Priests who come to Ur'kyo find a patient teacher of faith and old rites. He teaches the Hex of Weakness and the defensive ward called Shadowguard. Horde priests also seek his counsel on the coalition's many spiritual ways, from troll voodoo and ancestral customs to foreign disciplines.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "urkyo map",
     "find urkyo"
    ],
-   "answer": "Ur'kyo is in the Valley of Spirits, the troll district on Orgrimmar's western side. Look for him in the training huts near the water, alongside other spiritual mentors."
+   "answer": "Ur'kyo is in the Valley of Spirits, the troll district on Orgrimmar's western side. Find him in the training huts near the water, alongside other spiritual mentors."
   },
   {
    "q": "What abilities does Ur'kyo teach?",
@@ -55,7 +55,7 @@
     "urkyo orgrimmar lore",
     "why is urkyo in orgrimmar"
    ],
-   "answer": "After Zalazane's betrayal and the loss of the Echo Isles, the Darkspear resettled with the orcs in Durotar. Ur'kyo teaches the tribe's mystical traditions and trains new defenders for the Horde from the Valley of Spirits."
+   "answer": "After Zalazane's betrayal and the loss of the Echo Isles, the Darkspear settled beside the orcs in Durotar. From the Valley of Spirits, Ur'kyo teaches the tribe's mystical traditions and trains new Horde defenders."
   },
   {
    "q": "Does Ur'kyo interact with non-troll priests?",
@@ -63,7 +63,7 @@
     "can undead train at urkyo",
     "urkyo horde trainer"
    ],
-   "answer": "Yes. Ur'kyo teaches visiting Horde priests, sharing Darkspear knowledge with other members of the Horde, including the Forsaken."
+   "answer": "Yes. Ur'kyo teaches visiting Horde priests and shares Darkspear knowledge with other members of the Horde, including the Forsaken."
   },
   {
    "q": "What is Ur'kyo's role among the Darkspear priests?",
@@ -77,7 +77,7 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "As a Horde priest traveling through Durotar, you can learn the ways of faith, shadow rites, and sacred wards from Ur'kyo."
+   "text": "As a Horde priest traveling through Durotar, you can learn faith, shadow rites, and sacred wards from Ur'kyo."
   },
   {
    "target": "race:Troll",
@@ -109,5 +109,5 @@
  "attribution": [
   "Ur'kyo"
  ],
- "style": 1
+ "style": 2
 }

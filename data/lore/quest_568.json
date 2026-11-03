@@ -24,16 +24,16 @@
   ],
   "category": "Stranglethorn Vale"
  },
- "summary": "Commander Aggro'gosh seeks to safeguard the Horde's foothold in Stranglethorn Vale and protect their supply chain to Stonard. To keep that supply chain safe, he directs Horde champions to thin out the Lashtail Raptors outside Grom'gol Base Camp.",
+ "summary": "At Grom'gol, Commander Aggro'gosh guards the Horde's foothold in Stranglethorn Vale. He works to keep supplies moving safely to Stonard by thinning the Lashtail Raptors outside the base camp.",
  "sections": [
   {
    "title": "Securing the Foothold",
-   "body": "At Grom'gol Base Camp, Commander Aggro'gosh carries the duty of protecting every member of the Horde within the jungle. The camp exists to keep supplies flowing safely to Stonard, but some of the local inhabitants are standing in the way.",
+   "body": "Commander Aggro'gosh guards the Horde at Grom'gol Base Camp. The camp is vital to a safe supply line to Stonard, but local inhabitants stand in the way.",
    "spoiler": 0
   },
   {
    "title": "Thinning the Jungle Predators",
-   "body": "The raptors outside Grom'gol are the ones in the way. Aggro'gosh calls upon loyal fighters to thin out the Lashtail Raptors there, then report back to him for reassignment.",
+   "body": "Lashtail Raptors outside Grom'gol threaten the supply line. Aggro'gosh calls on loyal fighters to thin their numbers, then report back for new orders.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "commander aggrogosh",
     "quest giver"
    ],
-   "answer": "Commander Aggro'gosh, the officer placed in charge of the Warchief's stronghold at Grom'gol Base Camp, orders the raptors outside the camp thinned out."
+   "answer": "Commander Aggro'gosh, officer in charge of the Warchief's stronghold at Grom'gol Base Camp, orders the Lashtail Raptors thinned out."
   },
   {
    "q": "Why is Grom'gol Base Camp important to the Horde?",
@@ -54,7 +54,7 @@
     "why gromgol",
     "supply line"
    ],
-   "answer": "The outpost is vital for establishing a secure line of supply to the Horde encampment at Stonard in the Swamp of Sorrows."
+   "answer": "Grom'gol Base Camp is vital to a safe supply line to the Horde encampment at Stonard in the Swamp of Sorrows."
   },
   {
    "q": "What threats are targeting the camp's operations?",
@@ -63,7 +63,7 @@
     "why raptors",
     "what beasts"
    ],
-   "answer": "Some of the local inhabitants are hampering the Horde's supply line to Stonard, and Aggro'gosh wants the Lashtail Raptors outside the camp thinned out."
+   "answer": "Local inhabitants hamper the Horde's supply line to Stonard. Aggro'gosh wants the Lashtail Raptors outside the camp thinned out."
   },
   {
    "q": "What happens after culling the raptors?",
@@ -72,13 +72,13 @@
     "quest continuation",
     "follow up"
    ],
-   "answer": "Reporting your success back to Commander Aggro'gosh brings new orders from him in the next part of The Defense of Grom'gol."
+   "answer": "After thinning out the raptors, you report to Commander Aggro'gosh for new orders."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Grom'gol Base Camp gives the Horde a foothold in the jungle and a safe chain of supply to Stonard."
+   "text": "As a member of the Horde, you hold a foothold in the jungle at Grom'gol Base Camp and keep a safe supply line to Stonard."
   }
  ],
  "keywords": [
@@ -98,5 +98,6 @@
  ],
  "attribution": [
   "The Defense of Grom'gol"
- ]
+ ],
+ "style": 2
 }

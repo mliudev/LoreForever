@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Camp Mojache"
  },
- "summary": "Camp Mojache is the primary Horde outpost in Feralas, established as a fortified tauren settlement along the waters feeding Wildwind Lake. It provides shelter, provisions, and flight connections to travelers contending with the untamed wilderness, aggressive wildlife, and ancient ruins of the deep forest.",
+ "summary": "At Camp Mojache, the Horde holds a foothold in eastern Feralas beside the stream that feeds Wildwind Lake. The tauren outpost offers provisions and flight connections amid dangerous wildlife and ancient ruins.",
  "sections": [
   {
    "title": "A Tauren Bastion in the Rainforest",
-   "body": "Situated in eastern Feralas along a swift-flowing stream that feeds Wildwind Lake, Camp Mojache is a tauren settlement built to secure a foothold in the wild southern forest. While the dense jungle holds perilous threats\u2014from savage wildlife to Gordunni ogres and aggressive Woodpaw gnolls\u2014the camp stands as an island of safety. Equipped with lodging, trade masters, and a wind rider roost, it serves as the vital logistical hub for Horde champions operating in the region.",
+   "body": "In eastern Feralas, Camp Mojache gives Horde travelers shelter beside the stream that feeds Wildwind Lake. Deep forest surrounds the camp, with savage wildlife, Gordunni ogres, and Woodpaw gnolls nearby. Lodging, trade supplies, and a wind rider roost support travelers crossing the region.",
    "spoiler": 0
   },
   {
    "title": "Frontier Outpost",
-   "body": "The camp's hunters and braves are renowned for their courage and thick hides, maintaining constant vigilance against raids from the surrounding wilderness. For the Horde, holding Mojache is essential for projecting influence across Feralas, checking the presence of both the Night Elves from the coast and the dark forces lurking within Dire Maul.",
+   "body": "Tauren hunters and braves watch for attacks from the wilderness. Holding Mojache extends the Horde's reach across Feralas, where Night Elves hold the coast and dark forces lurk within Dire Maul.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is this camp",
     "tauren town feralas"
    ],
-   "answer": "Camp Mojache is the main Horde base of operations in Feralas. Built and maintained predominantly by the tauren, it straddles a stream emptying into Wildwind Lake and offers resting facilities, trade supplies, and flight transport."
+   "answer": "Camp Mojache is the Horde's main base in Feralas. Mostly tauren built and maintain it beside the stream flowing into Wildwind Lake, where it offers lodging, trade supplies, and flight transport."
   },
   {
    "q": "Who leads or defends the camp?",
@@ -37,7 +37,7 @@
     "who defends mojache",
     "who is in charge of camp mojache"
    ],
-   "answer": "The settlement is protected by seasoned tauren braves who guard against incursions from local beast packs, Gordunni ogres, and aggressive Woodpaw gnolls that prowl the hills just to the south."
+   "answer": "Seasoned tauren braves defend Camp Mojache from local beasts, Gordunni ogres, and Woodpaw gnolls that prowl the hills just to the south."
   },
   {
    "q": "Where does the local flight master travel?",
@@ -45,7 +45,7 @@
     "camp mojache flight paths",
     "where can i fly from camp mojache"
    ],
-   "answer": "From the camp's wind rider perch, travelers can reach central hubs such as Thunder Bluff, the Crossroads in the Barrens, Shadowprey Village in Desolace, and neighboring outposts like Gadgetzan in Tanaris."
+   "answer": "From Camp Mojache's wind rider perch, you can fly to Thunder Bluff, the Crossroads in the Barrens, Shadowprey Village in Desolace, and nearby Gadgetzan in Tanaris."
   },
   {
    "q": "What major threats surround Camp Mojache?",
@@ -54,17 +54,17 @@
     "threats near camp mojache",
     "enemies near mojache"
    ],
-   "answer": "The surrounding woods are home to the Woodpaw gnoll clan to the south, territorial Gordunni ogres to the north and south, and Alliance forces operating out of the distant western coast at Feathermoon Stronghold."
+   "answer": "Woodpaw gnolls live in the woods to the south, while Gordunni ogres range to the north and south. Alliance forces operate from Feathermoon Stronghold on the distant western coast."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Camp Mojache represents the farthest southern reach of your people's traditional craftsmanship and settlements in Kalimdor, carving out harmony within the deep rainforest."
+   "text": "As a tauren, you find Camp Mojache at the farthest southern reach of your people's traditional craftsmanship and settlements in Kalimdor. Here, your people carve out harmony within the deep rainforest."
   },
   {
    "target": "faction:Horde",
-   "text": "As the Horde's sole fortified hub in Feralas, Mojache is your only refuge for resting, restocking provisions, and securing swift transport across the deep forest."
+   "text": "As a member of the Horde, you can rely on Mojache as Feralas's sole fortified hub for rest, provisions, and swift travel through the deep forest."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Camp Mojache"
- ]
+ ],
+ "style": 2
 }

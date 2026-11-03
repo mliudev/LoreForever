@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Valor's Rest"
  },
- "summary": "Valor's Rest is a small outpost and cemetery perched at the eastern threshold of Silithus. Guarded by members of the Cenarion Circle, it is the first point of shelter seen by travelers emerging from Un'Goro Crater into the windswept wastes.",
+ "summary": "At Silithus's eastern edge, Valor's Rest gives travelers shelter beside its cemetery.",
  "sections": [
   {
    "title": "Gateway to the Dunes",
-   "body": "Perched on the eastern border of Silithus along the ramp leading down from Un'Goro Crater, Valor's Rest serves as the threshold into this desolate frontier. Maintained as a neutral staging ground by the Cenarion Circle, the camp hosts members of both the Alliance and the Horde who dare to brave the arid wastes. Its prominent graveyard stands as a somber reminder of the danger lurking throughout the desert, where insectoid horrors and ancient threats test even the hardiest expeditions.",
+   "body": "At Silithus's eastern border, Valor's Rest stands beside the ramp down from Un'Goro Crater. The Cenarion Circle keeps the camp neutral. Alliance and Horde travelers gather there before crossing into the arid wastes. Its graveyard marks those lost to the desert, where insectoid horrors and ancient threats endanger even the hardiest travelers.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "how to find valors rest",
     "where is valors rest"
    ],
-   "answer": "Valor's Rest is situated at the eastern entrance of Silithus. It is the very first settlement encountered when following the path ascending from the northwestern corner of Un'Goro Crater into the desert."
+   "answer": "Valor's Rest lies at Silithus's eastern entrance, along the path from Un'Goro Crater's northwestern corner into the desert."
   },
   {
    "q": "Who controls Valor's Rest?",
@@ -32,7 +32,7 @@
     "valors rest faction",
     "cenarion circle camp silithus"
    ],
-   "answer": "The outpost is maintained by the Cenarion Circle. As neutral caretakers studying and guarding the region, they allow both Alliance and Horde travelers to utilize the camp."
+   "answer": "The Cenarion Circle keeps Valor's Rest neutral for Alliance and Horde travelers."
   },
   {
    "q": "What is the notable feature of this camp?",
@@ -40,7 +40,7 @@
     "valors rest graveyard",
     "what is at valors rest"
    ],
-   "answer": "The most prominent feature of Valor's Rest is its graveyard, marking the graves of those claimed by the unforgiving desert and its encroaching insectoid inhabitants."
+   "answer": "Valor's Rest is known for its graveyard, where those claimed by the desert and its insectoid inhabitants are buried."
   },
   {
    "q": "Is Valor's Rest safe from the surrounding wildlife?",
@@ -48,17 +48,17 @@
     "valors rest safe",
     "is valors rest under attack"
    ],
-   "answer": "While it functions as an outpost, the immediate area around the camp suffers from familiar insect infestations, serving as an early forewarning of the swarm lurking deeper within Silithus."
+   "answer": "Insect infestations reach the area around Valor's Rest, warning of the swarm deeper in Silithus."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As an outpost maintained by the Cenarion Circle, Valor's Rest represents your order's vigilant vigil over the sinister stirrings in the southern desert."
+   "text": "As a druid, you see the Cenarion Circle keeping watch at Valor's Rest as troubling stirrings trouble the southern desert."
   },
   {
    "target": "faction:Alliance",
-   "text": "Though small and shared with the Horde under Cenarion neutrality, Valor's Rest offers a welcome first refuge upon emerging from the wilds of Un'Goro."
+   "text": "As an Alliance traveler, you find a small refuge at Valor's Rest after emerging from Un'Goro's wilds. The Horde shares it under Cenarion neutrality."
   }
  ],
  "keywords": [
@@ -78,5 +78,6 @@
  ],
  "attribution": [
   "Valor's Rest"
- ]
+ ],
+ "style": 2
 }

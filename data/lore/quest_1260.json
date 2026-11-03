@@ -25,16 +25,16 @@
   ],
   "category": "Stormwind City"
  },
- "summary": "Angus Stern of the Blue Recluse in Stormwind is putting together a new menu of rural dishes with a bayou theme. Angus has a nephew, Morgan, who was sent to Theramore to gather recipes from the locals, and wants word of what Morgan has found so far.",
+ "summary": "In Theramore, Angus Stern waits for word from Morgan Stern, who is gathering recipes for a new menu.",
  "sections": [
   {
    "title": "A Bayou Menu",
-   "body": "Angus Stern believes the customers of the Blue Recluse will love a menu of rural dishes in the bayou style. To build it, Angus sent nephew Morgan off to Theramore, a city beside Dustwallow Marsh, to gather the locals' recipes. The trip is too long for Angus to make, so a young traveler like you is wanted to go and speak with Morgan.",
+   "body": "Angus Stern wants customers at the Blue Recluse to taste rural dishes in the bayou style. He sent his nephew Morgan to Theramore, the city beside Dustwallow Marsh, to gather recipes from the locals. The journey is too long for Angus, so he asks you, a young traveler, to speak with Morgan.",
    "spoiler": 0
   },
   {
    "title": "What Morgan Has to Say",
-   "body": "When you find Morgan Stern in Theramore, you hear that the recipe research has turned up some leads, but help is needed to follow them. The helper has to be someone willing to get their feet wet.",
+   "body": "In Theramore, Morgan Stern says his search for recipes has brought him a few leads. He needs help following them, and the work calls for someone willing to get their feet wet.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "morgan stern lore",
     "angus stern nephew"
    ],
-   "answer": "Morgan Stern is the nephew of Angus Stern of the Blue Recluse. Morgan was sent to Theramore to gather recipes from the locals."
+   "answer": "Morgan Stern is Angus Stern's nephew. Angus sent him to Theramore to gather recipes from the locals."
   },
   {
    "q": "Why does Angus Stern want to reach Morgan?",
@@ -55,7 +55,7 @@
     "blue recluse menu",
     "angus stern quest"
    ],
-   "answer": "Angus is developing a new menu of rural dishes with a bayou theme for the Blue Recluse, and wants to know what Morgan has found so far."
+   "answer": "Angus is developing a new menu of rural dishes with a bayou theme for the Blue Recluse. He wants to hear what Morgan has found so far."
   },
   {
    "q": "Where can Morgan Stern be found?",
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Morgan Stern (quest)"
- ]
+ ],
+ "style": 2
 }

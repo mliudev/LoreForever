@@ -17,16 +17,16 @@
   "wiki": "Humbert's Sword (quest)",
   "chain": []
  },
- "summary": "Near Dun Garok, Humbert's Sword is missing from its owner's camp. Deathguard Humbert had left to gather firewood while scouting the dwarven stronghold on High Executor Darthalia's orders. Ironforge scouts took his weapon, and he fears Darthalia will learn of his failure.",
+ "summary": "Near Dun Garok, Humbert's Sword is missing from the camp where its owner left it. Deathguard Humbert had gone for firewood while watching the dwarven stronghold on High Executor Darthalia's orders. Ironforge scouts took his weapon, and now he fears Darthalia will learn he failed.",
  "sections": [
   {
    "title": "A Scout's Negligence",
-   "body": "Deathguard Humbert watches Dun Garok for High Executor Darthalia. He keeps a hidden post near the dwarven fortress. One morning, he leaves the camp briefly to gather firewood for boiling water. Ironforge scouts find the camp unguarded and loot it. When Humbert returns, his sword is gone, carried into the heavily defended bunker.",
+   "body": "Deathguard Humbert watches Dun Garok for High Executor Darthalia. His hidden post lies near the dwarven fortress. One morning, he leaves camp to gather firewood for boiling water. Ironforge scouts find the post unguarded and loot it. When Humbert returns, his sword is gone, carried into the heavily defended bunker.",
    "spoiler": 0
   },
   {
    "title": "Fear of the Rafters",
-   "body": "Humbert knows losing his weapon to the enemy he was sent to watch could cost him his life under Forsaken command. If High Executor Darthalia learns what happened, he fears she will hang him from the rafters in Tarren Mill. He cannot storm Dun Garok alone, so he relies on passing Horde adventurers to recover his blade before his commander notices anything amiss.",
+   "body": "Humbert knows losing his weapon to the enemy he was sent to watch could cost him his life under Forsaken command. If High Executor Darthalia learns what happened, he fears she will hang him from the rafters in Tarren Mill. He cannot storm Dun Garok alone. So he turns to passing Horde adventurers to recover his blade before his commander notices anything amiss.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "darthalia punishment",
     "why fear darthalia"
    ],
-   "answer": "Humbert fears High Executor Darthalia will execute him if she learns he lost his equipment to the dwarves he was sent to watch. He expects her to hang him from the rafters in Tarren Mill."
+   "answer": "Humbert fears High Executor Darthalia will execute him for losing his equipment to the dwarves he was sent to watch. He expects her to hang him from the rafters in Tarren Mill."
   },
   {
    "q": "Where is the sword located?",
@@ -83,7 +83,7 @@
     "dun garok lore",
     "dwarves in hillsbrad"
    ],
-   "answer": "Dun Garok is an Ironforge dwarven stronghold in southeastern Hillsbrad Foothills. Its dwarves help protect the humans of Hillsbrad and nearby Azurelode Mine, and its Alliance garrison is in direct conflict with the Forsaken of Tarren Mill."
+   "answer": "Dun Garok is an Ironforge dwarven stronghold in southeastern Hillsbrad Foothills. Its dwarves help protect the humans of Hillsbrad and nearby Azurelode Mine. Its Alliance garrison is in direct conflict with the Forsaken of Tarren Mill."
   }
  ],
  "angles": [
@@ -123,5 +123,5 @@
  "attribution": [
   "Humbert's Sword (quest)"
  ],
- "style": 1
+ "style": 2
 }

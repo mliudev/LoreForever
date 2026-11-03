@@ -23,21 +23,21 @@
    "Bruegal Ironknuckle"
   ]
  },
- "summary": "The Stockade holds dangerous prisoners beneath Stormwind's canal district near the Mage Quarter. Built as a high-security prison for cutthroats, political insurgents, and captured enemies of state, it has fallen into violent anarchy. Warden Thelwater is forced back to the entrance, seeking help to crush the riot before it reaches the capital.",
+ "summary": "Violent rebellion has seized The Stockade beneath Stormwind's canal district near the Mage Quarter. Built as a high-security prison for cutthroats, political insurgents, and captured enemies of state, it now holds dangerous prisoners in anarchy. Warden Thelwater is driven back to the entrance and seeks help before the riot reaches the capital.",
  "sections": [
   {
    "title": "A Prison Under Siege",
-   "body": "Beneath Stormwind's canals, the Stockade has become a war zone. When the regular army marched to distant fronts, the understaffed prison relied on inexperienced youths, including fourteen-year-old recruits, to keep order. They failed. The inmates launched a bloody, coordinated rebellion, tore their wool blankets into gang scarves, and cut down the remaining guards. Warden Thelwater barely holds the entrance, while convicts control the cells, hallways, and holding blocks.",
+   "body": "Beneath Stormwind's canals, the Stockade has become a war zone. When the regular army marched to distant fronts, understaffed prison guards relied on inexperienced youths, including fourteen-year-old recruits. They could not keep order. The inmates launched a bloody, coordinated rebellion, tore their wool blankets into gang scarves, and cut down the remaining guards. Warden Thelwater barely holds the entrance while convicts control the cells, hallways, and holding blocks.",
    "spoiler": 0
   },
   {
    "title": "Nobles and Assassins",
-   "body": "The riot exposed Stormwind's political dealings. Outside territories had grown frustrated with the House of Nobles halting executions for its own leverage. Redridge guard Berton wanted the captured orc Targorr the Dread executed for atrocities, but the nobles froze his sentence. Darkshire councilman Millstipe saw grave robber Dextren Ward spared the gallows despite desecrating graves for the necromancer Morbent Fel. The dwarves of Dun Modr also demanded the death of Dark Iron saboteur Kam Deepfury. With the Stockade in chaos, local authorities quietly hired adventurers to carry out the executions the capital's courts refused to enforce.",
+   "body": "The riot laid bare Stormwind's political dealings. Outlying territories had grown frustrated with the House of Nobles, which halted executions to use the prisoners as its own political leverage. Redridge guard Berton wanted captured orc Targorr the Dread executed for atrocities, but the nobles froze his sentence.\n\nDarkshire councilman Millstipe saw grave robber Dextren Ward spared the gallows despite desecrating graves for the necromancer Morbent Fel. The dwarves of Dun Modr also demanded the death of Dark Iron saboteur Kam Deepfury. With the Stockade in chaos, local authorities quietly hired adventurers to carry out the executions the capital's courts refused to enforce.",
    "spoiler": 1
   },
   {
    "title": "The Mastermind and the Rioters",
-   "body": "Bazil Thredd, a cunning felon tied to the Defias Brotherhood, orchestrated the uprising from his cell. Bruegal Ironknuckle, a dangerous dwarven brawler, is among the rioters. He is one of several hardened convicts adventurers may meet while helping Thelwater reclaim the prison.",
+   "body": "Bazil Thredd, a cunning felon tied to the Defias Brotherhood, orchestrated the uprising from his cell. Bruegal Ironknuckle is among the rioters, a dangerous dwarven brawler. He is one of several hardened convicts adventurers may meet while helping Thelwater reclaim the prison.",
    "spoiler": 1
   }
  ],
@@ -58,7 +58,7 @@
     "who leads the riot",
     "who runs stockades"
    ],
-   "answer": "Bazil Thredd, an influential Defias felon incarcerated in the eastern cellblock, masterminded the revolt. Other dangerous prisoners include Bruegal Ironknuckle, Hamhock, and Kam Deepfury."
+   "answer": "Bazil Thredd, an influential Defias felon in the eastern cellblock, masterminded the revolt. Other dangerous prisoners include Bruegal Ironknuckle, Hamhock, and Kam Deepfury."
   },
   {
    "q": "Why are prisoners like Targorr and Dextren Ward still alive?",
@@ -141,5 +141,5 @@
   "Stormwind Stockade (Classic)",
   "Stormwind Stockade"
  ],
- "style": 1
+ "style": 2
 }

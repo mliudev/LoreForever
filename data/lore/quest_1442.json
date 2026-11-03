@@ -17,21 +17,21 @@
   "wiki": "Seeking the Kor Gem",
   "chain": []
  },
- "summary": "You cross the sea to Darkshore in search of a Kor gem for Jordan Stilwell. Thundris Windweaver sends an Alliance paladin initiate into Blackfathom Deeps, where naga corrupt the potent stone. Jordan needs it for his craft.",
+ "summary": "You cross the sea to Darkshore seeking a Kor gem for Jordan Stilwell. Thundris Windweaver sends an Alliance paladin initiate into Blackfathom Deeps, where naga have corrupted the potent stone. Jordan needs it for his craft.",
  "sections": [
   {
    "title": "A Trusted Alliance",
-   "body": "Paladins in training cross continental borders to Darkshore for materials needed by the human smith Jordan Stilwell. In Auberdine, the night elf Thundris Windweaver remembers the blacksmith with respect. Night elves keep their distance, and some fallen humans have betrayed their trust, yet Thundris still believes paladins can follow a righteous path. He tells them where ancient gems can be found.",
+   "body": "Paladins in training travel across the sea to Darkshore for materials Jordan Stilwell needs. In Auberdine, the night elf Thundris Windweaver remembers the human blacksmith with respect. Night elves keep their distance, and some fallen humans have betrayed their trust. Yet Thundris believes paladins can still follow a righteous path. He tells them where ancient gems may be found.",
    "spoiler": 0
   },
   {
    "title": "Into the Deeps",
-   "body": "Blackfathom Deeps lies beneath the foggy northwestern coast of Ashenvale. Twilight's Hammer cultists and treacherous sea-dwellers inhabit its submerged halls. Naga priestesses there channel foul magic through ancient Kor gems. The gem you seek is deep within the temple complex, amid its dark halls and dangerous inhabitants.",
+   "body": "Blackfathom Deeps lies beneath Ashenvale's foggy northwestern coast. Twilight's Hammer cultists and treacherous sea-dwellers dwell in its submerged halls. Naga priestesses channel foul magic through ancient Kor gems. The gem you seek lies deep within the temple complex, among its dark halls and dangerous inhabitants.",
    "spoiler": 0
   },
   {
    "title": "Cleansing the Stone",
-   "body": "When you return a corrupted Kor gem to Thundris Windweaver, he must remove the darkness before Jordan Stilwell can forge it into a holy weapon. The naga give the gem raw magical potency, but twist its enchantment toward evil. Thundris cleanses that corruption so the gem's power stays pure and stable for the sacred smithing ritual ahead.",
+   "body": "When you bring a corrupted Kor gem back to Thundris Windweaver, he must cleanse it before Jordan Stilwell can forge it into a holy weapon. The naga give the gem raw magical potency, but twist its enchantment toward evil. Thundris removes that corruption so the gem's power stays pure and stable for the sacred smithing ritual ahead.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "who gives seeking the kor gem",
     "thundris windweaver quest"
    ],
-   "answer": "Thundris Windweaver, a night elf in Auberdine's coastal port in Darkshore, sends paladins to find the Kor Gem. He acts on behalf of the weaponsmith Jordan Stilwell."
+   "answer": "Thundris Windweaver sends paladins to find the Kor Gem. He is a night elf in Auberdine's coastal port in Darkshore and acts on behalf of the weaponsmith Jordan Stilwell."
   },
   {
    "q": "Where is the Kor Gem located?",
@@ -52,7 +52,7 @@
     "where to get kor gem",
     "where is corrupted kor gem"
    ],
-   "answer": "The Kor Gem is inside Blackfathom Deeps, an ancient underground temple on Ashenvale's northwestern coast. Naga priestesses living among the ruins carry the gems."
+   "answer": "The Kor Gem lies inside Blackfathom Deeps, an ancient underground temple on Ashenvale's northwestern coast. Naga priestesses among the ruins carry the gems."
   },
   {
    "q": "Why does Jordan Stilwell need a Kor Gem?",
@@ -61,7 +61,7 @@
     "what is kor gem for",
     "stilwell gem"
    ],
-   "answer": "Jordan Stilwell needs the Kor Gem's potent magic as a material for crafting his refined weapon during the paladin trial The Test of Righteousness."
+   "answer": "Jordan Stilwell needs the Kor Gem's potent magic as material for crafting his refined weapon during the paladin trial The Test of Righteousness."
   },
   {
    "q": "Why does Thundris have to purify the gem?",
@@ -70,7 +70,7 @@
     "corrupted kor gem cleansed",
     "cleansing the gem"
    ],
-   "answer": "Naga imbue Kor gems with substantial arcane power, but their foul enchantments taint it. Thundris purifies the gem so its remaining strength can safely serve in a weapon of the Light."
+   "answer": "Naga imbue Kor gems with great arcane power, but their foul enchantments taint it. Thundris purifies the gem so its strength can safely serve in a weapon of the Light."
   },
   {
    "q": "Why does Thundris mention a 'fallen kind'?",
@@ -88,13 +88,13 @@
     "can you solo kor gem",
     "blackfathom deeps group"
    ],
-   "answer": "Thundris warns adventurers not to go alone. Elite naga deep within Blackfathom Deeps carry the gem, so a dedicated adventuring party is strongly advised."
+   "answer": "Thundris warns you not to go alone. Elite naga deep within Blackfathom Deeps carry the gem, so a dedicated adventuring party is strongly advised."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin of the Alliance, you face a trial of character and endurance. It tests your willingness to travel into the hostile depths of Kalimdor to help forge a consecrated arm of the Light."
+   "text": "As a paladin of the Alliance, you face a trial of character and endurance. It tests your willingness to travel into Kalimdor's hostile depths and help forge a consecrated arm of the Light."
   },
   {
    "target": "race:NightElf",
@@ -126,5 +126,5 @@
  "attribution": [
   "Seeking the Kor Gem"
  ],
- "style": 1
+ "style": 2
 }

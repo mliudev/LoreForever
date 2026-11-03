@@ -10,11 +10,11 @@
    "quest:546"
   ]
  },
- "summary": "Across the Hillsbrad Foothills, Forsaken gather the skulls of slain humans. At Tarren Mill, they keep them as grim mementos of the assault on local settlements.",
+ "summary": "In Hillsbrad, Forsaken gather the skulls of slain humans. At Tarren Mill, they keep them as grim reminders of the assault on local settlements.",
  "sections": [
   {
    "title": "Trophies of a Bitter War",
-   "body": "Forsaken forces from Tarren Mill fight the humans of Southshore and nearby settlements. During the Battle of Hillsbrad, Deathstalkers and soldiers carry out the purge Darthalia ordered. Guards left on watch want a share of the slaughter. Deathguard Samsa collects skulls from the fighters on the front lines, taking pleasure in keeping the remains of people the Forsaken once lived among. These trophies are proof of the killing as the conflict rages.",
+   "body": "Forsaken forces from Tarren Mill fight the humans of Southshore and nearby settlements. During the Battle of Hillsbrad, Deathstalkers and soldiers carry out the purge ordered by Darthalia. Guards left on watch want their share of the slaughter.\n\nDeathguard Samsa gathers skulls from fighters on the front lines. He takes pleasure in keeping the remains of people the Forsaken once lived among. The trophies mark the killings as the conflict rages.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who takes human skulls",
     "deathguard samsa skulls"
    ],
-   "answer": "Deathguard Samsa, a Forsaken sentry at Tarren Mill, collects the skulls. Envious of soldiers sent to battle and pillage Hillsbrad while he remains on guard, he asks passing adventurers to bring him thirty for his private collection."
+   "answer": "Deathguard Samsa, a Forsaken sentry at Tarren Mill, gathers the skulls. Envious of soldiers sent to battle and pillage Hillsbrad while he stands guard, he asks passing adventurers to bring him thirty for his private collection."
   },
   {
    "q": "Where are Hillsbrad Human Skulls gathered?",
@@ -35,7 +35,7 @@
     "farm human skulls",
     "who drops human skulls"
    ],
-   "answer": "Forsaken gather the skulls from human combatants and laborers across the Hillsbrad Foothills, especially near the human-held farms, mines, and town fortifications attacked during the Battle of Hillsbrad."
+   "answer": "Forsaken gather skulls from human combatants and laborers across the Hillsbrad Foothills. Many are taken near the human-held farms, mines, and town fortifications attacked during the Battle of Hillsbrad."
   },
   {
    "q": "Why do the Forsaken collect human remains?",
@@ -43,7 +43,7 @@
     "why do forsaken want skulls",
     "forsaken skull collection"
    ],
-   "answer": "Some Forsaken collect human remains out of hatred and dark humor. Soldiers like Samsa treat the skulls as prized curiosities and proof that Hillsbrad is nearing defeat."
+   "answer": "Some Forsaken collect human remains out of hatred and dark humor. Soldiers like Samsa keep the skulls as curiosities and proof that Hillsbrad is nearing defeat."
   }
  ],
  "angles": [
@@ -78,5 +78,5 @@
   "Hillsbrad Human Skull",
   "Souvenirs of Death"
  ],
- "style": 1
+ "style": 2
 }

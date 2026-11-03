@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "The Shattered Hand operates as the covert backbone and intelligence guild of the Horde. Investigating a vanished operative shows just how perilous their field surveillance missions can be."
+   "text": "As a Rogue, you know the Shattered Hand as the Horde's covert backbone and intelligence guild. A vanished operative shows the danger of field surveillance."
   },
   {
    "target": "faction:Horde",
-   "text": "Keeping watch over Kul Tiras remnants at Tiragarde Keep is vital for Durotar's security, and the unexplained loss of a scout signals a potential unseen threat right on Orgrimmar's doorstep."
+   "text": "As a member of the Horde, you know that watching the Kul Tiras remnants at Tiragarde Keep matters to Durotar's security. A scout's unexplained silence signals a possible threat near Orgrimmar."
   },
   {
    "target": "race:Orc",
-   "text": "Durotar is newly secured orcish territory, and having an operative fall silent within sight of the nearby human squatters raises immediate alarm for the safety of the realm."
+   "text": "As an orc, you know Durotar as newly secured orcish territory. A scout going silent within sight of nearby human squatters raises alarm for the realm's safety."
   }
  ],
  "faq": [
@@ -31,7 +31,7 @@
     "what is a missing hand",
     "missing hand quest overview"
    ],
-   "answer": "A Missing Hand is a quest in Durotar where an adventurer is tasked with locating Heglan Shadeeye, a Shattered Hand surveillance operative stationed north of Tiragarde Keep whose regular intelligence reports suddenly ceased.",
+   "answer": "In Durotar, Heglan Shadeeye's sudden silence has prompted an investigation. The Shattered Hand scout's regular reports from her post north of Tiragarde Keep stopped without explanation.",
    "q": "What is the quest A Missing Hand?"
   },
   {
@@ -40,7 +40,7 @@
     "where is heglan shadeeye",
     "missing scout"
    ],
-   "answer": "Heglan Shadeeye is an operative of the Shattered Hand tasked with covertly observing Tiragarde Keep from a nearby vantage point. Her surveillance reports abruptly stopped, prompting an investigation into her whereabouts.",
+   "answer": "Heglan Shadeeye is a Shattered Hand operative who covertly watches Tiragarde Keep from a nearby post. Her reports have stopped, prompting an investigation into her whereabouts.",
    "q": "Who is Heglan Shadeeye?"
   },
   {
@@ -49,7 +49,7 @@
     "is heglan dead",
     "heglan fate"
    ],
-   "answer": "That is what this quest sets out to learn. Her reports from her post north of Tiragarde Keep stopped without warning, and the one who sends you doubts the humans caught her, fearing something more dangerous is at play.",
+   "answer": "Heglan Shadeeye's reports from a post north of Tiragarde Keep stopped without warning. Her superior doubts the humans caught her and fears something more dangerous may have intervened.",
    "q": "What happened to Heglan Shadeeye?"
   },
   {
@@ -57,7 +57,7 @@
     "what is shattered hand",
     "who are the shattered hand"
    ],
-   "answer": "In the modern Horde, the Shattered Hand serves as an organization of subtle operatives, assassins, and spies. They carry out covert surveillance and intelligence operations to protect Horde territories.",
+   "answer": "The Shattered Hand is the Horde's organization of subtle operatives, assassins, and spies. Its members carry out covert surveillance and intelligence work to protect Horde territories.",
    "q": "What is the Shattered Hand?"
   },
   {
@@ -65,7 +65,7 @@
     "did humans kill heglan",
     "did tiragarde soldiers kill her"
    ],
-   "answer": "Her superior doubts it. Although Heglan was monitoring the hostile Kul Tiras humans occupying Tiragarde Keep, the one who sends you does not believe they could have caught her, and fears that something more dangerous is at play.",
+   "answer": "Heglan's superior doubts the humans caught her. She watched the hostile Kul Tiras humans at Tiragarde Keep, but the one who sends you fears something more dangerous may have intervened.",
    "q": "Did the humans at Tiragarde Keep kill Heglan?"
   },
   {
@@ -73,7 +73,7 @@
     "why was heglan watching tiragarde keep",
     "tiragarde keep surveillance"
    ],
-   "answer": "Tiragarde Keep is an outpost held by hostile Kul Tiras sailors and soldiers threatening the coast of Durotar. Heglan was stationed nearby to keep eyes on their activities and relay intelligence back to the Horde.",
+   "answer": "Heglan watched Tiragarde Keep, an outpost of hostile Kul Tiras sailors and soldiers threatening Durotar's coast. She kept watch nearby and relayed intelligence to the Horde.",
    "q": "Why was Tiragarde Keep being watched?"
   }
  ],
@@ -93,18 +93,19 @@
  ],
  "sections": [
   {
-   "body": "A Missing Hand begins with growing concern over Heglan Shadeeye, a scout belonging to the Shattered Hand. Stationed in Durotar to monitor the hostile human garrison occupying Tiragarde Keep from afar, her steady stream of intelligence reports suddenly vanished without explanation. Her superiors doubt the human soldiers managed to detect and capture her, raising fears that an unexpected and more dangerous hazard intervened. Adventurers are dispatched north of the keep to locate her post and determine whether the disruption is merely a delay in communication or something far grimmer.",
+   "body": "Heglan Shadeeye's reports from Tiragarde Keep have stopped. A Shattered Hand scout, she watched the hostile human garrison occupying the keep from a post in Durotar. Her superiors doubt the soldiers detected and captured her. They fear something more dangerous may have intervened, and send you north of the keep to find her post and learn what happened.",
    "spoiler": 0,
    "title": "Silent Reports"
   },
   {
-   "body": "Upon arriving at the designated observation post north of Tiragarde Keep, the search ends in tragedy. Heglan's cold body lies among the splintered wreckage of a ruined hut. The physical evidence left behind indicates that her attacker was not human, leaving open the unsettling question of what creature or entity struck down a trained operative so close to Horde lands. Clues scattered near the wreckage hint at an unfamiliar threat that must now be uncovered.",
+   "body": "At her observation post north of Tiragarde Keep, Heglan Shadeeye lies dead in the wreckage of a ruined hut. The evidence shows her attacker was not human. What creature or force struck down a trained operative so close to Horde lands?",
    "spoiler": 1,
    "title": "The Cold Hut"
   }
  ],
- "summary": "A Missing Hand is a quest in Durotar concerning the sudden disappearance of Heglan Shadeeye, a Shattered Hand scout tasked with keeping watch on Tiragarde Keep. When her regular intelligence dispatches abruptly cease, an investigator is sent to find her post and uncover what silenced her.",
+ "summary": "In Durotar, reports from Tiragarde Keep have fallen silent around Heglan Shadeeye. The Shattered Hand scout watched the human garrison occupying the keep, and now an investigator seeks her post.",
  "attribution": [
   "In-game quest text: A Missing Hand"
- ]
+ ],
+ "style": 2
 }

@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "The quest marks a vital step in learning the nature of water and obtaining a water sapta to commune with the spirits."
+   "text": "As a shaman, you learn water’s nature and seek a water sapta to commune with its spirits."
   },
   {
    "target": "race:Dwarf",
-   "text": "Hervdana recognizes the seeker as kin braving the dangerous marshlands and Dark Iron dwarves lurking nearby."
+   "text": "As a dwarf, Hervdana recognizes you as kin braving the dangerous marshlands, where Dark Iron dwarves lurk nearby."
   },
   {
    "target": "faction:Alliance",
-   "text": "The journey takes travelers deep into the perilous Wetlands, far away from any dwarven or Alliance guard patrols."
+   "text": "As an Alliance traveler, you journey deep into the perilous Wetlands, far from dwarven or Alliance guard patrols."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "hervdana saegrund",
     "where is hervdana"
    ],
-   "answer": "Hervdana Saegrund is a dwarf who lives with her family in a cave beneath the southern falls of the Wetlands. She aids shamans seeking communion with water and the secrets of the water sapta.",
+   "answer": "Hervdana Saegrund is a dwarf who lives with her family in a cave beneath the southern falls of the Wetlands. She helps shamans seeking communion with water and the secrets of the water sapta.",
    "q": "Who is Hervdana Saegrund?"
   },
   {
@@ -41,7 +41,7 @@
     "sapta meaning",
     "why get water sapta"
    ],
-   "answer": "A water sapta is a ceremonial elixir used by shamans to commune with the spirits of water. To acquire one in the eastern realms, seekers are directed to Hervdana Saegrund near the southern falls.",
+   "answer": "A water sapta is a ceremonial elixir shamans use to commune with water spirits. In the eastern realms, seekers are directed to Hervdana Saegrund near the southern falls to obtain one.",
    "q": "What is the water sapta?"
   },
   {
@@ -50,7 +50,7 @@
     "where is the cave",
     "southern falls location"
    ],
-   "answer": "Hervdana and her family dwell secluded inside a cave located directly beneath the southern waterfalls in the Wetlands.",
+   "answer": "Hervdana Saegrund and her family live in a secluded cave directly beneath the southern waterfalls in the Wetlands.",
    "q": "Where can Hervdana Saegrund be found?"
   },
   {
@@ -59,7 +59,7 @@
     "wetlands dangers",
     "dark irons wetlands"
    ],
-   "answer": "Despite the constant danger of Dark Iron dwarves lurking throughout the marshes and the total absence of city guards, Hervdana and her kin have chosen the seclusion of the waterfall cave for their own reasons.",
+   "answer": "Hervdana and her kin have chosen the solitude of the waterfall cave for their own reasons, despite the Dark Iron dwarves in the marshes and the absence of city guards.",
    "q": "Why does Hervdana live in the dangerous Wetlands?"
   },
   {
@@ -68,7 +68,7 @@
     "philosophy of water",
     "water lesson"
    ],
-   "answer": "Water represents rebirth, carving stone, washing away filth, and soothing the weary when pure. However, if corrupted or tainted, it ruins everything it touches.",
+   "answer": "Pure water brings rebirth, carves stone, washes away impurities, and soothes the weary. Corrupted or tainted water threatens ruin.",
    "q": "What is the lesson of water taught here?"
   },
   {
@@ -77,7 +77,7 @@
     "who is this quest for",
     "dwarf shaman quest"
    ],
-   "answer": "Call of Water is a shaman rite of passage guiding initiates to understand the nature of the element and seek out the water sapta from isolated guides.",
+   "answer": "Shamans undertake the Call of Water to learn water’s nature and seek the water sapta from guides who live apart.",
    "q": "What is the purpose of the Call of Water quest?"
   }
  ],
@@ -97,18 +97,19 @@
  ],
  "sections": [
   {
-   "body": "The journey to understand water begins with a simple lesson on its dual nature: water embodies rebirth, carving stone and cleansing impurities when pure, but threatening ruin when tainted. Initiates seeking communion are sent into the wild to obtain a water sapta from those who dwell beside the element.",
+   "body": "Pure water gives life anew, carves stone, and washes away impurities. Tainted water brings the threat of ruin. Those who seek communion with water are sent into the wild to obtain a water sapta from those who dwell beside the element.",
    "spoiler": 0,
    "title": "The Nature of Water"
   },
   {
-   "body": "Deep in the damp marshes of the Wetlands, Hervdana Saegrund and her family make their home in a cave hidden directly beneath the southern waterfalls. Far removed from the protection of Ironforge guards, they endure the threat of Dark Iron dwarves lurking in the surrounding swamps to maintain their isolated life by the rushing falls.",
+   "body": "Hervdana Saegrund and her family make their home in a secluded cave directly beneath the southern waterfalls of the Wetlands. Ironforge guards are far away, and Dark Iron dwarves lurk in the surrounding swamps. Still, Hervdana and her kin keep their isolated home by the falls.",
    "spoiler": 0,
    "title": "Shelter Beneath the Falls"
   }
  ],
- "summary": "Call of Water sends spiritual seekers into the Wetlands to learn the cleansing power of water and seek the water sapta. In a secluded cave beneath the southern falls, the dwarf Hervdana Saegrund greets travelers braving the wilderness.",
+ "summary": "In the Wetlands, seekers learn what pure water can do and search for the water sapta. Beneath the southern falls, Hervdana Saegrund welcomes those who brave the wilderness.",
  "attribution": [
   "In-game quest text: Call of Water"
- ]
+ ],
+ "style": 2
 }

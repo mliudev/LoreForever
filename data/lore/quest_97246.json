@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Life inside the walls of Orgrimmar is not solely about warfare and defense; everyday matters like feeding children running through the Valley of Strength keep the city's community alive."
+   "text": "Orgrimmar's daily life includes concerns beyond warfare and defense. Thatog worries about feeding children like Migi as they run through the Valley of Strength."
   },
   {
    "target": "race:Orc",
-   "text": "Even in the harsh culture of the orcs, parents like Thatog worry about their children neglecting meals for play in the streets of Durotar's capital."
+   "text": "As an orc, you know how parents like Thatog worry when their children neglect meals to play in the streets of Durotar's capital."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "quest giver thatog",
     "thatog orgrimmar"
    ],
-   "answer": "Thatog is a busy orc parent stationed in Orgrimmar whose daily responsibilities prevent him from stepping away to supervise his young son, Migi. Concerned that Migi is skipping his meals while playing with friends, Thatog enlists a willing adventurer to pick up and deliver food for the boy.",
+   "answer": "Thatog is an orc parent in Orgrimmar whose daily duties keep him from watching Migi, his young son. Worried that Migi skips meals to play with friends, he asks you to collect and deliver the boy's lunch.",
    "q": "Who is Thatog?"
   },
   {
@@ -37,7 +37,7 @@
     "migi location",
     "find migi"
    ],
-   "answer": "Migi spends his days playing games with his friends in the capital city. Thatog notes that the children can almost certainly be found roughhousing and playing behind Grommash Hold in Orgrimmar.",
+   "answer": "Migi spends his days playing with friends in Orgrimmar. Thatog says you can find the children behind Grommash Hold.",
    "q": "Where can Migi be found?"
   },
   {
@@ -46,7 +46,7 @@
     "borstans firepit location",
     "borstan lunch"
    ],
-   "answer": "Borstan runs Borstan's Firepit, a local food establishment in Orgrimmar. Thatog asks travelers to stop there first and inform Borstan that they are picking up a pre-arranged lunch to deliver to Migi personally.",
+   "answer": "Borstan's Firepit is a place to get food in Orgrimmar. Thatog asks you to collect Migi's arranged lunch there and deliver it to him.",
    "q": "What is Borstan's Firepit?"
   },
   {
@@ -55,7 +55,7 @@
     "migi starving",
     "why is migi not eating"
    ],
-   "answer": "Like many energetic young orcs, Migi gets so absorbed in playing all day with his friends behind Grommash Hold that he forgets or chooses not to stop by Borstan's Firepit for food, frequently arriving home at the end of the day completely starved.",
+   "answer": "Migi gets so caught up playing with friends behind Grommash Hold that he neglects to eat. He often comes home hungry at day's end.",
    "q": "Why does Migi forget to eat?"
   },
   {
@@ -64,7 +64,7 @@
     "migi orc kid",
     "thatogs son"
    ],
-   "answer": "Migi is the young son of Thatog. He roams Orgrimmar playing games with a group of friends, prioritizing his playtime over returning home or picking up his prepared meals.",
+   "answer": "Migi is Thatog's young son. He spends his time playing with friends in Orgrimmar instead of coming home or collecting his prepared meals.",
    "q": "Who is Migi?"
   },
   {
@@ -73,7 +73,7 @@
     "what to do meal appeal",
     "meal appeal task"
    ],
-   "answer": "The task requires stopping by Borstan's Firepit to let Borstan know Thatog sent you for Migi's lunch, and then delivering the food directly to Migi behind Grommash Hold so the boy does not go hungry during his games.",
+   "answer": "You collect Migi's lunch from Borstan's Firepit and deliver it to him behind Grommash Hold, so he can eat while he plays.",
    "q": "What is the objective of Meal Appeal?"
   }
  ],
@@ -92,18 +92,19 @@
  ],
  "sections": [
   {
-   "body": "In the bustling red-rock avenues of Orgrimmar, everyday domestic life continues alongside the drills of grunt warriors and the machinations of the Horde. Thatog, bound to his daily post by duty, finds himself unable to keep a watchful eye over his energetic young son, Migi. Left to his own devices, Migi spends from morning till dusk racing through the city streets with his friends, consistently neglecting his stomach until returning home famished.",
+   "body": "Thatog's daily duties keep him at his post in Orgrimmar. He has little time to watch Migi, his energetic young son. From morning until dusk, Migi races through the city with his friends. He often ignores his hunger until he comes home famished.",
    "spoiler": 0,
    "title": "A Parent's Duty in Orgrimmar"
   },
   {
-   "body": "Rather than let the boy go hungry yet another afternoon, Thatog arranges for a hot meal at Borstan's Firepit. Because Migi will not bother to stop his games to pick up lunch himself, Thatog asks passing adventurers to act as a personal courier. The errand takes travelers from Borstan's cookfire to the open yard behind Grommash Hold, where Migi and the rest of the neighborhood youths can almost always be found caught up in their childhood games.",
+   "body": "Thatog arranges a hot lunch for Migi at Borstan's Firepit and asks you to carry it. Migi would rather keep playing than stop to eat. So you take the meal to the yard behind Grommash Hold, where Migi and the neighborhood children play.",
    "spoiler": 0,
    "title": "Delivery Behind the Hold"
   }
  ],
- "summary": "Meal Appeal is an Orgrimmar errand given by Thatog, an orc tied down by his daily duties who worries his young son Migi is skipping meals to play. Travelers are asked to pick up a prepared lunch from Borstan's Firepit and track down Migi playing behind Grommash Hold. It offers a grounded look at domestic family life within the Horde's capital.",
+ "summary": "In Orgrimmar, Thatog worries his young son Migi is skipping meals to play. He asks you to fetch lunch from Borstan's Firepit and find Migi behind Grommash Hold.",
  "attribution": [
   "In-game quest text: Meal Appeal"
- ]
+ ],
+ "style": 2
 }

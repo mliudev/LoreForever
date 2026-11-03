@@ -10,16 +10,16 @@
    "quest:1525"
   ]
  },
- "summary": "Burning Blade cultists in Durotar carry reagents for a shaman's first fire sapta. Telf Joolam uses them with fire tar from Razormane quilboar to make the draught that lets a young shaman see the realm of fire.",
+ "summary": "In Durotar, Burning Blade cultists carry reagents for a shaman's first fire sapta. Telf Joolam mixes them with fire tar from Razormane quilboar to make a draught that lets a young shaman see the realm of fire.",
  "sections": [
   {
    "title": "Components of the Flame",
-   "body": "Burning Blade cultists carry reagents for a young shaman's first fire sapta. The hermit Telf Joolam uses the powders and oils in their pouches with fire tar from Razormane quilboar. Together, these components make a draught that grants sight into the realm of fire and attunes the shaman to the spirits of flame.",
+   "body": "Burning Blade cultists carry reagents for a young shaman's first fire sapta. The hermit Telf Joolam mixes the powders and oils from their pouches with fire tar from Razormane quilboar. Together, these ingredients make a draught that grants sight into the realm of fire and attunes the shaman to the spirits of flame.",
    "spoiler": 0
   },
   {
    "title": "Tainted Sources, Pure Vision",
-   "body": "Burning Blade cultists turn flame toward destruction and fel sorcery, yet the elements in their pouches still belong to heat and combustion. Shaman teach that elemental forces exist in tension: fire creates as well as destroys. A shaman can take the cultists' tools and use those elements to awaken true communion with the spirits.",
+   "body": "Burning Blade cultists turn flame toward destruction and fel sorcery. Yet the elements in their pouches still belong to heat and combustion. Shaman teach that elemental forces exist in tension: fire creates as well as destroys. A shaman can use the cultists' tools to awaken true communion with the spirits.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what does reagent pouch do",
     "reagent pouch shaman quest"
    ],
-   "answer": "Telf Joolam uses the reagents to brew a fire sapta. Drinking it grants a shaman visionary sight to seek the elemental spirits and claim the Fire Totem."
+   "answer": "Telf Joolam uses the reagents with fire tar from Razormane quilboar to brew a fire sapta. Drinking it grants a shaman visionary sight to seek the elemental spirits and claim the Fire Totem."
   },
   {
    "q": "Where do I find a reagent pouch?",
@@ -85,5 +85,5 @@
   "Reagent Pouch (shaman)",
   "Call of Fire (3)"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,16 +10,16 @@
    "quest:632"
   ]
  },
- "summary": "Beneath the Thandol Span, Deepfury's Orders lie with the fallen Ol' Rustlocke. The crumpled parchment carries grim instructions from the Dark Iron dwarves who ambushed the scouting defender.",
+ "summary": "Beneath the Thandol Span, Deepfury's Orders lie beside the fallen Ol' Rustlocke. Dark Iron dwarves left the crumpled parchment after ambushing the scouting defender.",
  "sections": [
   {
    "title": "A Grasp Beneath the Span",
-   "body": "Ol' Rustlocke, a dwarven bridge defender, was scouting the foundations of the Thandol Span when Dark Iron dwarves cornered and slew him. Beside his clenched fist lay crumpled orders drafted by their leader, Deepfury. The parchment is direct proof of a coordinated plot against the bridge linking the Wetlands and the Arathi Highlands.",
+   "body": "Ol' Rustlocke was a dwarven defender scouting the foundations of the Thandol Span. Dark Iron dwarves cornered and slew him there. Beside his clenched fist lay crumpled orders written by their leader, Deepfury. The orders show a coordinated plot against the bridge between the Wetlands and the Arathi Highlands.",
    "spoiler": 0
   },
   {
    "title": "Uncovering the Threat",
-   "body": "When the orders reach Rhag Garmason, they confirm the bridge garrison's worst suspicions. The Dark Iron dwarves have planned operations directly beneath the Thandol Span's stonework. Rhag calls for urgent reinforcements from Ironforge and Stormwind.",
+   "body": "When Rhag Garmason receives the orders, they confirm the bridge garrison's worst suspicions. Dark Iron dwarves have planned operations beneath the Thandol Span's stonework. Rhag calls for urgent reinforcements from Ironforge and Stormwind.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what are these orders",
     "deepfury parchment"
    ],
-   "answer": "Deepfury's Orders are written military orders belonging to the Dark Iron commander Deepfury. They were found beside Ol' Rustlocke's corpse beneath the Thandol Span."
+   "answer": "Deepfury's Orders are military instructions written by the Dark Iron commander Deepfury. They were found beside Ol' Rustlocke's body beneath the Thandol Span."
   },
   {
    "q": "Where are the orders found?",
@@ -40,7 +40,7 @@
     "rustlocke location",
     "find deepfury orders"
    ],
-   "answer": "The crumpled parchment was found beside Ol' Rustlocke's clenched fist in the cavernous support structures beneath the Thandol Span in the northern Wetlands."
+   "answer": "The crumpled parchment lay beside Ol' Rustlocke's clenched fist in the cavernous supports beneath the Thandol Span in the northern Wetlands."
   },
   {
    "q": "Who was Ol' Rustlocke?",
@@ -48,7 +48,7 @@
     "who is rustlocke",
     "ol rustlocke lore"
    ],
-   "answer": "Ol' Rustlocke was a dwarven scout stationed at the Thandol Span. He went to investigate strange activity around the bridge supports and was ambushed by Dark Iron dwarves."
+   "answer": "Ol' Rustlocke was a dwarven scout stationed at the Thandol Span. He went to investigate strange activity around the bridge supports, where Dark Iron dwarves ambushed him."
   },
   {
    "q": "Who receives Deepfury's Orders?",
@@ -56,17 +56,17 @@
     "who do i bring orders to",
     "rhag garmason"
    ],
-   "answer": "Deepfury's Orders are brought to Rhag Garmason, the dwarven commander holding out at Dun Modr near the Thandol Span. He reads them to assess the Dark Iron threat."
+   "answer": "Deepfury's Orders are brought to Rhag Garmason, the dwarven commander holding out at Dun Modr near the Thandol Span. He reads them to judge the Dark Iron threat."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you know the discovery of Dark Iron scheming beneath the Thandol Span cuts deep for Ironforge. The span is one of your kingdom's greatest engineering achievements and a vital northern trade link."
+   "text": "As a dwarf, you know Dark Iron scheming beneath the Thandol Span cuts deep for Ironforge. The span is one of your kingdom's greatest engineering achievements and a vital northern trade link."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you see the intercepted orders expose a sabotage attempt against the primary overland artery linking Dun Morogh, the Wetlands, and the northern Alliance outposts."
+   "text": "As an Alliance member, you see the intercepted orders reveal a sabotage attempt against the main overland route linking Dun Morogh, the Wetlands, and the northern Alliance outposts."
   }
  ],
  "keywords": [
@@ -89,5 +89,5 @@
   "Deepfury's Orders",
   "The Thandol Span (2)"
  ],
- "style": 1
+ "style": 2
 }

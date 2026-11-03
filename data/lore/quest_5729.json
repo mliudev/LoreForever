@@ -17,16 +17,16 @@
   "wiki": "Hidden Enemies (4)",
   "chain": []
  },
- "summary": "Thrall's watch on Hidden Enemies reaches into the Cleft of Shadow. After Bazzalan and Jergosh the Invoker are killed beneath the city, Thrall sends you to win Neeru Fireblade's trust.",
+ "summary": "In Orgrimmar, Thrall's watch reaches into the Cleft of Shadow. After Bazzalan and Jergosh the Invoker die beneath the city, Thrall sends you to win Neeru Fireblade's trust.",
  "sections": [
   {
    "title": "Thrall's Gambit",
-   "body": "Thrall sees a chance after Bazzalan and Jergosh the Invoker are killed in Ragefire Chasm. He chooses not to expose Neeru Fireblade. Neeru has lost his underground lieutenants, leaving the local cult without its leaders. Thrall sends you back to the Cleft of Shadow to offer yourself as an ally who can fill that gap.",
+   "body": "Thrall sees a chance after Bazzalan and Jergosh the Invoker are killed in Ragefire Chasm. He chooses to leave Neeru Fireblade in place. Neeru has lost the lieutenants who led the local cult. So Thrall sends you back to the Cleft of Shadow, offering yourself as an ally who can fill that gap.",
    "spoiler": 0
   },
   {
    "title": "The Warlock's Deception",
-   "body": "Neeru Fireblade fumes over the defeat of his conspirators in the Cleft of Shadow. He does not know that you carried out their executions on Thrall's orders, and curses the do-gooders who brought ruin to Ragefire Chasm. Taken by surprise, Neeru begins to lower his guard around you. Thrall can now watch the Shadow Council's influence from within Orgrimmar.",
+   "body": "Neeru Fireblade fumes over the defeat of his conspirators in the Cleft of Shadow. He does not know you carried out their executions on Thrall's orders. Instead, he curses the do-gooders who brought ruin to Ragefire Chasm. Taken by surprise, Neeru begins to lower his guard around you. Thrall can now watch the Shadow Council's influence from within Orgrimmar.",
    "spoiler": 1
   }
  ],
@@ -55,7 +55,7 @@
     "does neeru know",
     "neeru knows who killed them"
    ],
-   "answer": "No. Neeru believes Thrall's agents surprised and killed his lieutenants. He does not know that you carried out the executions while now offering him condolences and aid."
+   "answer": "No. Neeru believes Thrall's agents surprised and killed his lieutenants. He does not know you carried out the executions while now offering him condolences and aid."
   },
   {
    "q": "Where is Neeru Fireblade located?",
@@ -126,5 +126,5 @@
  "attribution": [
   "Hidden Enemies (4)"
  ],
- "style": 1
+ "style": 2
 }

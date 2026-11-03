@@ -10,16 +10,16 @@
    "quest:914"
   ]
  },
- "summary": "The Gem of Serpentis is a dream gem carried by Lord Serpentis, one of the four leaders of the Druids of the Fang in the Wailing Caverns. It acts as a focal conduit for the twisted nightmare reshaping the cave network and threatening the Barrens.",
+ "summary": "Deep in the Wailing Caverns, Lord Serpentis keeps the Gem of Serpentis close. The enchanted dream gem binds his will to the corrupted vision reshaping the caverns and threatening the Barrens.",
  "sections": [
   {
    "title": "Heart of the Serpentine Dream",
-   "body": "When Naralex's slumber inside the Wailing Caverns succumbed to the Emerald Nightmare, his most devoted followers were warped into the fanatical Druids of the Fang. Lord Serpentis is one of the cabal's four leaders. Like the other three, Serpentis carries an enchanted dream gem that anchors their collective will to the corrupted vision. Recovering this gem breaks Serpentis's hold over the cavern's ecosystem, striking directly at the leadership directing the corruption spreading across the Barrens.",
+   "body": "Naralex fell into slumber in the Wailing Caverns, and the Emerald Nightmare reached him there. His most devoted followers became the fanatical Druids of the Fang. Lord Serpentis leads one part of the cabal, with three other leaders beside him. Each carries an enchanted dream gem, binding their shared will to the corrupted vision. Recovering Serpentis's gem breaks his hold over the caverns' life and strikes at the leaders directing corruption across the Barrens.",
    "spoiler": 0
   },
   {
    "title": "Proof for Thunder Bluff",
-   "body": "The tauren druids atop Thunder Bluff's Elder Rise, particularly Nara Wildmane, endure vivid nightmares caused by the corruption lurking beneath the savannah. Recovering the Gem of Serpentis alongside those of Cobrahn, Anacondra, and Pythas provides tangible proof that the rogue order's ringleaders have fallen, easing the nightmare's grasp on the Cenarion Circle in Mulgore.",
+   "body": "The tauren druids on Thunder Bluff's Elder Rise suffer vivid nightmares from corruption beneath the savannah. Nara Wildmane is among those troubled. The gems of Serpentis, Cobrahn, Anacondra, and Pythas prove that the rogue order's leaders have fallen. Recovering them eases the nightmare's hold on the Cenarion Circle in Mulgore.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "where to get serpentis gem",
     "serpentis gem location"
    ],
-   "answer": "The gem is carried by Lord Serpentis, one of the four leaders of the Druids of the Fang, who resides deep inside the winding waterways of the Wailing Caverns."
+   "answer": "Lord Serpentis carries the gem deep in the winding waterways of the Wailing Caverns. He leads one of the four groups of Druids of the Fang."
   },
   {
    "q": "What is the purpose of the gem?",
@@ -39,7 +39,7 @@
     "why do i need gem of serpentis",
     "what is gem of serpentis for"
    ],
-   "answer": "It serves as one of four focus gems used by the leaders of the Druids of the Fang to channel the nightmare warping the subterranean oasis. Nara Wildmane in Thunder Bluff seeks it as proof that Lord Serpentis has been defeated."
+   "answer": "The gem is one of four that the Druids of the Fang's leaders use to channel the nightmare warping the subterranean oasis. Nara Wildmane in Thunder Bluff seeks it as proof that Lord Serpentis has been defeated."
   },
   {
    "q": "Who wants all four dream gems?",
@@ -48,7 +48,7 @@
     "turn in serpentis gem",
     "leaders of the fang turn in"
    ],
-   "answer": "Nara Wildmane, a druid stationed on the Elder Rise in Thunder Bluff, asks adventurers to bring her the gems of Cobrahn, Anacondra, Pythas, and Serpentis to sever the nightmare's hold over the region."
+   "answer": "Nara Wildmane asks you to bring her the gems of Cobrahn, Anacondra, Pythas, and Serpentis. She is a druid on the Elder Rise in Thunder Bluff. Together, the gems can sever the nightmare's hold over the region."
   },
   {
    "q": "Who was Lord Serpentis before carrying this gem?",
@@ -56,17 +56,17 @@
     "lord serpentis lore",
     "who is serpentis"
    ],
-   "answer": "He was originally a disciple of Naralex who entered the caverns intending to restore lush life to the Barrens, but the Emerald Nightmare twisted his noble aspirations into a fanatical desire to remake the world in serpent form."
+   "answer": "Lord Serpentis was once a disciple of Naralex who entered the caverns to restore lush life to the Barrens. The Emerald Nightmare twisted his hopes into a fanatical desire to remake the world in serpent form."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "The dream gems carried by Serpentis and his cabal represent the terrible risk of entering deep trance communion with the Dream without vigilant spiritual discipline."
+   "text": "As a druid, you can see the danger in Serpentis and his cabal's dream gems. Deep communion with the Dream demands vigilant spiritual discipline."
   },
   {
    "target": "race:Tauren",
-   "text": "Severing Serpentis's hold on this gem helps free the shamans and druids of Thunder Bluff from the dark visions disturbing their sleep across Mulgore."
+   "text": "As a tauren, you know that breaking Serpentis's hold on the gem helps free Thunder Bluff's shamans and druids from the dark visions disturbing their sleep across Mulgore."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  "attribution": [
   "Gem of Serpentis",
   "Leaders of the Fang"
- ]
+ ],
+ "style": 2
 }

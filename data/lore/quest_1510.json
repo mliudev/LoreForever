@@ -26,16 +26,16 @@
    "The Binding (Succubus, Orgrimmar)"
   ]
  },
- "summary": "In Stonetalon's foothills, Dogran's life hangs on a healing draught from Malaka'jin. The first runner sent to fetch it never returned, and you travel deep into the foothills to find Ken'zigla, a Darkspear troll.",
+ "summary": "In Stonetalon, News of Dogran sends you into the foothills for a healing draught. The first runner never returned, and Ken'zigla at Malaka'jin may still have the medicine Dogran needs.",
  "sections": [
   {
    "title": "A Plea Across the Frontier",
-   "body": "Dogran, a Horde grunt at Camp Taurajo in the southern Barrens, was badly wounded fighting entrenched quilboar. His fellow grunts brought him back, but his wounds had festered. They feared moving him without first treating him. Taurajo sent word north to the Crossroads for a traditional healing draught made by the jungle trolls of Malaka'jin.",
+   "body": "Dogran lies badly wounded at Camp Taurajo in the southern Barrens. He was hurt fighting quilboar who had dug in, and the grunts who carried him back found his wounds festering. They feared the journey would harm him more before he could be treated. So Taurajo sent word north to the Crossroads for a healing draught made by the jungle trolls of Malaka'jin.",
    "spoiler": 0
   },
   {
    "title": "Bloodshed at Malaka'jin",
-   "body": "At Malaka'jin, you learn the first courier sent for the medicine was killed by goblins before he could bring it back. Ken'zigla still has the draught Dogran needs. Getting it means facing the dangers along the Stonetalon passes.",
+   "body": "At Malaka'jin, you learn goblins killed the first courier sent for the medicine before he could bring it back. Ken'zigla still has the draught Dogran needs. To reach it, you face the dangers along the Stonetalon passes.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "why is dogran hurt",
     "dogran story"
    ],
-   "answer": "Dogran is a Horde grunt at Camp Taurajo. He was badly wounded fighting quilboar in the southern Barrens, and his wounds festered until moving him seemed too dangerous without treatment."
+   "answer": "Dogran is a Horde grunt at Camp Taurajo. He was badly wounded fighting quilboar in the southern Barrens, and his wounds festered until his fellows feared moving him without treatment."
   },
   {
    "q": "Where is Malaka'jin located?",
@@ -74,7 +74,7 @@
     "succubus dogran",
     "why warlocks do this"
    ],
-   "answer": "Warlock initiates receive an errand for Blind Cazul and Gazrog under the guise of helping Dogran. The ordeal leads them to an artifact tied to love and heartbreak, needed to summon and bind a succubus."
+   "answer": "Warlock initiates receive an errand from Blind Cazul and Gazrog under the guise of helping Dogran. The ordeal leads them to an artifact tied to love and heartbreak, needed to summon and bind a succubus."
   },
   {
    "q": "Who is Ken'zigla?",
@@ -102,7 +102,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you see how fragile the supply routes are between Camp Taurajo and the isolated camp at Malaka'jin, with quilboar and goblins threatening the way."
+   "text": "As a member of the Horde, you see how fragile the supply routes are between Camp Taurajo and the isolated camp at Malaka'jin. Quilboar and goblins threaten the way."
   }
  ],
  "keywords": [
@@ -128,5 +128,5 @@
  "attribution": [
   "News of Dogran (2)"
  ],
- "style": 1
+ "style": 2
 }

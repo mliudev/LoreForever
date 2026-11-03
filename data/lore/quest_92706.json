@@ -12,16 +12,16 @@
   "harvested": true,
   "level": "20"
  },
- "summary": "Bruuz threatens the harbor traffic that keeps Ratchet busy. Gazlowe has posted a bounty for the huge shark prowling the docks and disrupting coastal trade.",
+ "summary": "Bruuz threatens the ships that keep Ratchet busy. Gazlowe has posted a bounty for the huge shark prowling the docks and disrupting coastal trade.",
  "sections": [
   {
    "title": "A Terror in the Bay",
-   "body": "Ratchet is the primary neutral gateway between Kalimdor and the Eastern Kingdoms, and its trade depends on merchant ships. Lately, a huge shark called Bruuz has been prowling the bay. Dockworkers gave the shark its name after it began attacking small skiffs, sailors, and cargo being unloaded near the docks. Its presence disrupts the port and puts the ships that keep Ratchet supplied at risk.",
+   "body": "Ratchet is Kalimdor's main neutral gateway to the Eastern Kingdoms. Its trade depends on merchant ships. Lately, a huge shark named Bruuz has prowled the bay. Dockworkers gave it that name after it began attacking small skiffs, sailors, and cargo unloaded near the docks. The shark disrupts the port and puts the ships that supply Ratchet at risk.",
    "spoiler": 0
   },
   {
    "title": "Gazlowe's Bounty",
-   "body": "Gazlowe has posted a public bounty to keep ships from avoiding his port for fear of the shark. The notice calls on anglers and promises a hefty reward. To claim it, you need to slay Bruuz and bring back the shark's dorsal fin as proof.",
+   "body": "Gazlowe has posted a public bounty so ships will not avoid his port for fear of the shark. The notice calls on anglers and promises a hefty reward. To claim it, you need to slay Bruuz and bring back the shark's dorsal fin as proof.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "bruuz shark",
     "who is bruuz the shark"
    ],
-   "answer": "Bruuz is a huge, aggressive shark hunting near Ratchet's shipping docks. Dockworkers gave it that name after attacks on sailors and small vessels."
+   "answer": "Bruuz is a huge, aggressive shark hunting near Ratchet's shipping docks. Dockworkers named it after its attacks on sailors and small vessels."
   },
   {
    "q": "Why did Gazlowe post a bounty on Bruuz?",
@@ -42,7 +42,7 @@
     "gazlowe shark quest",
     "why want bruuz fin"
    ],
-   "answer": "Bruuz disrupts the shipping and trade that fuel Ratchet's economy. Gazlowe offers a cash reward for the shark's carcass to protect business at the docks."
+   "answer": "Bruuz disrupts the shipping and trade that fuel Ratchet's economy. Gazlowe offers cash for the shark's carcass to protect business at the docks."
   },
   {
    "q": "Where is Bruuz usually found?",
@@ -87,7 +87,7 @@
   },
   {
    "target": "profession:Cooking",
-   "text": "As a cook, you could make use of the fresh coastal meat from a shark as large as Bruuz. Gazlowe wants only the dorsal fin as proof of the kill."
+   "text": "As a cook, you could make use of fresh coastal meat from a shark as large as Bruuz. Gazlowe wants only the dorsal fin as proof of the kill."
   }
  ],
  "keywords": [
@@ -107,5 +107,5 @@
  "attribution": [
   "In-game quest text: WANTED: Bruuz"
  ],
- "style": 1
+ "style": 2
 }

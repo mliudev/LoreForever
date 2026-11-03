@@ -20,16 +20,16 @@
    "The Essence of Aku'Mai (Classic)"
   ]
  },
- "summary": "Tsunaman sends Horde travelers from Stonetalon Mountains to aid Je'neu Sancrea on Ashenvale's remote coast. The troll scholar waits at Zoram'gar Outpost, where danger gathers along the shore.",
+ "summary": "From Stonetalon Mountains, Tsunaman sends Horde travelers to aid Je'neu Sancrea on Ashenvale's remote coast. The troll scholar waits at Zoram'gar Outpost, where danger gathers along the shore.",
  "sections": [
   {
    "title": "A Summons to the Coast",
-   "body": "Tsunaman hears troubling reports from the north and calls on Horde travelers to reach Je'neu Sancrea. The troll scholar is at Zoram'gar Outpost, on Ashenvale's far western shore, the Zoram Strand. Je'neu faces mounting danger and needs help from beyond the outpost.",
+   "body": "Tsunaman hears troubling reports from the north and calls Horde travelers to aid Je'neu Sancrea. The troll scholar waits at Zoram'gar Outpost on Ashenvale's far western shore, along the Zoram Strand. Danger is growing there, and Je'neu needs help from beyond the outpost.",
    "spoiler": 0
   },
   {
    "title": "The Road to Zoram Strand",
-   "body": "The road to Ashenvale's western shore is dangerous for Horde travelers. You can pass through Windshear Crag, disturbed by goblins, or travel north from the Barrens. Either way, you enter forest watched by night elf sentinels. Far beneath Ashenvale's dense canopy, Zoram'gar Outpost holds on along the storm-washed Zoram Strand, facing the shadowed waters.",
+   "body": "The road to Ashenvale's western shore is dangerous for Horde travelers. You can pass through Windshear Crag, where goblins have stirred trouble, or travel north from the Barrens. Either way, you enter a forest watched by night elf sentinels.\n\nFar beneath Ashenvale's dense canopy, Zoram'gar Outpost holds on along the storm-washed Zoram Strand. The outpost faces the shadowed waters.",
    "spoiler": 0
   },
   {
@@ -55,7 +55,7 @@
     "jeneu sancrea location",
     "zoram'gar outpost"
    ],
-   "answer": "Je'neu Sancrea is at Zoram'gar Outpost on the Zoram Strand, along Ashenvale's far western coast."
+   "answer": "Je'neu Sancrea waits at Zoram'gar Outpost on the Zoram Strand, along Ashenvale's far western coast."
   },
   {
    "q": "How do you reach Zoram'gar Outpost from Stonetalon?",
@@ -128,5 +128,5 @@
  "attribution": [
   "Trouble in the Deeps"
  ],
- "style": 1
+ "style": 2
 }

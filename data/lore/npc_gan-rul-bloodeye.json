@@ -8,16 +8,16 @@
   "wiki": "Gan'rul Bloodeye",
   "refs": 7
  },
- "summary": "In Orgrimmar, Gan'rul Bloodeye trains warlocks beneath the city. In the Cleft of Shadow, Horde initiates learn darker demonic rites and how to bend voidwalkers and succubi to their will.",
+ "summary": "Beneath Orgrimmar, Gan'rul Bloodeye teaches warlocks the arts of fel magic. In the Cleft of Shadow, Horde initiates learn demonic rites and how to bend voidwalkers and succubi to their will.",
  "sections": [
   {
    "title": "A Master in the Shadows",
-   "body": "Warlocks study out of sight in the Cleft of Shadow beneath Orgrimmar. Warchief Thrall tolerates them in the new Horde, though Durotar's open sunlight is no place for their dark arts. The cavern gives shadow weavers, rogues, and fel casters room to study unmolested. From there, Gan'rul teaches rising practitioners of fel magic.",
+   "body": "Warlocks study out of sight in the Cleft of Shadow beneath Orgrimmar. Warchief Thrall allows them in the new Horde, though Durotar's open sunlight is no place for their dark arts. The cavern gives shadow weavers, rogues, and fel casters room to study undisturbed. There, Gan'rul teaches those rising in the practice of fel magic.",
    "spoiler": 0
   },
   {
    "title": "Binding the Nether",
-   "body": "Ambitious warlocks come to Gan'rul to learn dangerous summoning rites. Those seeking to bind a greater demon, such as a resilient voidwalker or a seductive succubus, must secure ritual components and learn the precise incantations. The summoned creature must be dominated before it consumes its master.",
+   "body": "Ambitious warlocks come to Gan'rul to learn dangerous summoning rites. To bind a greater demon, such as a resilient voidwalker or a seductive succubus, they must gather ritual components and learn the precise incantations. Then the summoned creature must be dominated before it consumes its master.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "ganrul demon quests",
     "voidwalker succubus trainer"
    ],
-   "answer": "Gan'rul guides warlocks in rituals to summon and subjugate voidwalkers and succubi. Completing his tasks proves a summoner has the will to control these fiends."
+   "answer": "Gan'rul guides warlocks in rituals to summon and subjugate voidwalkers and succubi. The rites show whether a summoner has the will to control these fiends."
   },
   {
    "q": "Does Gan'rul have any known family?",
@@ -109,5 +109,5 @@
  "attribution": [
   "Gan'rul Bloodeye"
  ],
- "style": 1
+ "style": 2
 }

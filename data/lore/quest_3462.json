@@ -27,11 +27,11 @@
    "The Torch of Retribution (2)"
   ]
  },
- "summary": "After The Torch of Retribution, Kalaran Windblade sends you on to Squire Maltrake, an envoy of theirs. Maltrake will tell you how the torch is to be used.",
+ "summary": "With the Torch of Retribution in hand, Kalaran Windblade sends you to Squire Maltrake for instructions.",
  "sections": [
   {
    "title": "A Word with the Envoy",
-   "body": "Kalaran Windblade points you toward Squire Maltrake, an envoy. Maltrake is the one who will explain how the Torch of Retribution is to be used.",
+   "body": "Kalaran Windblade sends you to Squire Maltrake. The squire will explain how to use the Torch of Retribution.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "squire maltrake questgiver",
     "who starts squire maltrake"
    ],
-   "answer": "Kalaran Windblade, who calls Maltrake an envoy and tells you to go and hear their instructions."
+   "answer": "Kalaran Windblade sends you to Squire Maltrake and directs you to hear the instructions."
   },
   {
    "q": "What is Squire Maltrake's role?",
@@ -52,7 +52,7 @@
     "who is maltrake",
     "why talk to maltrake"
    ],
-   "answer": "Maltrake is the envoy Kalaran Windblade names, and will instruct you on how the Torch of Retribution is to be used."
+   "answer": "Squire Maltrake will explain how to use the Torch of Retribution."
   },
   {
    "q": "What comes before speaking to Squire Maltrake?",
@@ -61,7 +61,7 @@
     "what quest comes before squire maltrake",
     "previous quest maltrake"
    ],
-   "answer": "The Torch of Retribution, the step before it in the same chain."
+   "answer": "You receive the Torch of Retribution before speaking to Squire Maltrake."
   }
  ],
  "angles": [],
@@ -78,5 +78,6 @@
  ],
  "attribution": [
   "Squire Maltrake (quest)"
- ]
+ ],
+ "style": 2
 }

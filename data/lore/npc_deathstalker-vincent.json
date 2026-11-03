@@ -8,16 +8,16 @@
   "wiki": "Deathstalker Vincent",
   "refs": 1
  },
- "summary": "Inside Shadowfang Keep, Deathstalker Vincent lies slain by Arugal. The Forsaken scout entered the stronghold with Deathstalker Adamant to learn its defenses, but the mission ended before the Forsaken could attack.",
+ "summary": "Inside Shadowfang Keep, Arugal has slain Deathstalker Vincent. The Forsaken scout entered with Deathstalker Adamant to learn the keep’s defenses before the Forsaken could attack.",
  "sections": [
   {
    "title": "A Scout's Fatal End",
-   "body": "The Deathstalkers needed to learn Shadowfang Keep’s layout before the Forsaken could assault it. Vincent and Adamant slipped past the barricades into the fortress. Their mission failed: Adamant was captured and locked in a dungeon cell, while Vincent was brought before the keep’s master. Vincent refused to serve Arugal or yield to him. The mage executed him, leaving his body on the stone floor.",
+   "body": "The Deathstalkers needed to learn Shadowfang Keep’s layout before the Forsaken could assault it. Vincent and Adamant slipped past the barricades and entered the fortress. Their mission failed. Adamant was captured and locked in a dungeon cell, while Vincent was brought before the keep’s master. Vincent refused to serve Arugal or yield to him. The mage executed him, leaving his body on the stone floor.",
    "spoiler": 0
   },
   {
    "title": "Arugal's Defiance",
-   "body": "Arugal used Vincent’s death to defy the intruders in his keep. Facing the captive scout, the mad mage mocked the Forsaken and compared their intrusion with the failed efforts of his former Kirin Tor comrades. Arugal demanded Vincent’s blade and secrets for his own use. When Vincent refused, Arugal struck him down and declared that his remains would warn anyone who trespassed in his domain.",
+   "body": "Arugal used Vincent’s death to defy the intruders in his keep. Facing the captive scout, the mad mage mocked the Forsaken and compared their intrusion with the failed efforts of his former Kirin Tor comrades. Arugal demanded Vincent’s blade and secrets for his own use. Vincent refused. Arugal struck him down and declared that his remains would warn anyone who trespassed in his domain.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "why is vincent dead",
     "who killed vincent"
    ],
-   "answer": "Vincent was captured during his reconnaissance and executed by Arugal after refusing to serve him or give up secrets. Arugal left his body where it fell."
+   "answer": "Arugal captured Vincent during his reconnaissance and executed him after Vincent refused to serve him or give up secrets. Arugal left Vincent’s body where it fell."
   },
   {
    "q": "Where is his partner, Deathstalker Adamant?",
@@ -61,7 +61,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, finding Vincent confirms the Forsaken commanders’ fears in Silverpine: the reconnaissance team failed, and the keep must be cleared by force."
+   "text": "As a member of the Horde, finding Vincent confirms the Forsaken commanders’ fears in Silverpine. The reconnaissance team failed, and the keep must be cleared by force."
   },
   {
    "target": "class:Rogue",
@@ -88,5 +88,5 @@
  "attribution": [
   "Deathstalker Vincent"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Lake Al'Ameth"
  },
- "summary": "South of Dolanaar, Lake Al'Ameth's shores have turned perilous as the local plant life grows violent. Once a quiet haven with little more than a wooden jetty, the lake is one of Teldrassil's largest freshwater bodies.",
+ "summary": "South of Dolanaar, Lake Al'Ameth's shores have grown dangerous as the plants turn violent. Once a quiet haven with little more than a wooden jetty, it is one of Teldrassil's largest freshwater lakes.",
  "sections": [
   {
    "title": "A Troubled Shoreline",
-   "body": "At Lake Al'Ameth, swarms of timberlings and timberling sprouts prowl the water's edge. The lake lies just south of Dolanaar, where its calm waters and sparse settlement offer little sign of the danger ashore. An unnatural sickness spreading through Teldrassil has driven the plant life into a frenzy. Druids and researchers from Dolanaar send travelers to gather seeds and kill the aggressive creatures before the corruption spreads deeper into the forest.",
+   "body": "Timberlings and timberling sprouts prowl the water's edge at Lake Al'Ameth. The lake lies just south of Dolanaar, where calm water and a sparse settlement give little hint of the danger ashore. An unnatural sickness spreading through Teldrassil has driven the plants into a frenzy. So druids and researchers from Dolanaar send travelers to gather seeds and kill the creatures before corruption spreads deeper into the forest.",
    "spoiler": 0
   },
   {
    "title": "The Roots of Wrath",
-   "body": "Oakenscowl, once a noble timberling, spreads corruption from a cave on Lake Al'Ameth's southern bank. A gargantuan tumor has swollen his body, and other timberlings lash out at anyone who approaches. The woodland spirits have lost their balance, and the Cenarion Circle faces an urgent test: can the rot around the lake be diagnosed and treated, and can Teldrassil's unblessed creation be sustained?",
+   "body": "Oakenscowl, once a noble timberling, now spreads corruption from a cave on Lake Al'Ameth's southern bank. A gargantuan tumor has swollen his body, and other timberlings lash out at anyone who comes near. The woodland spirits have lost their balance. Now the Cenarion Circle faces an urgent test: can the rot around the lake be diagnosed and treated, and can Teldrassil's unblessed creation endure?",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "lake alameth enemies",
     "aggressive timberlings"
    ],
-   "answer": "A corrupting sickness afflicts Teldrassil's timberlings and other plant life along the shore, driving previously harmless woodland spriggans and treants into a territorial rage."
+   "answer": "A corrupting sickness afflicts Teldrassil's timberlings and other plant life along the shore. It drives once harmless woodland spriggans and treants into a territorial rage."
   },
   {
    "q": "What structures or landmarks are on the lake?",
@@ -45,7 +45,7 @@
     "lake alameth pier",
     "dock at lake alameth"
    ],
-   "answer": "The lake is largely wild and undeveloped. A simple wooden fishing jetty stands on its northern bank near the path from Dolanaar."
+   "answer": "Lake Al'Ameth is largely wild and undeveloped. A simple wooden fishing jetty stands on its northern bank near the path from Dolanaar."
   },
   {
    "q": "Who is Oakenscowl?",
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a kaldorei of Dolanaar, you see Lake Al'Ameth's sickness as a warning about the troubles facing your newly raised home. Young defenders must protect the surrounding road."
+   "text": "As a kaldorei of Dolanaar, you see Lake Al'Ameth's sickness as a warning of the troubles facing your newly raised home. Young defenders must protect the surrounding road."
   },
   {
    "target": "class:Druid",
@@ -88,5 +88,5 @@
  "attribution": [
   "Lake Al'Ameth"
  ],
- "style": 1
+ "style": 2
 }

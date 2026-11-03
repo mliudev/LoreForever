@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Murloc"
  },
- "summary": "Murlocs are amphibious, bipedal humanoids famous for their gurgling battle cries, territorial coastal villages, and sudden swarming tactics. Though historically dwelling in the deep ocean, they have steadily migrated inland along the shores, lakes, and rivers of Azeroth, acting with far greater coordination and cunning than their primitive appearance suggests.",
+ "summary": "Along Azeroth's shores, lakes, and rivers, Murloc tribes gather and press inland from the deep ocean. Their cries and sudden swarms make them a threat, yet their deeds hint at minds sharper than their looks suggest.",
  "sections": [
   {
    "title": "Creatures of the Shallows",
-   "body": "Murlocs dwell in densely populated settlements along coastlines, riverbanks, and freshwater lakes. Averaging roughly four feet in height, they possess bulbous, slime-coated bodies, wide mouths filled with sharp fangs, and keen vision capable of piercing pitch-black water. While individuals are rarely seen wandering far from their kin, encountering one murloc invariably means a dozen more lurk just beneath the surface. They rely on overwhelming numbers and sharp crude weaponry.",
+   "body": "Murlocs gather along coasts, riverbanks, and freshwater lakes. They stand about four feet tall, with bulbous bodies coated in slime and wide mouths full of sharp fangs. Their keen sight pierces pitch-black water, and few stray far from their kin. Where one appears, a dozen more may wait below the surface. Together, they overwhelm foes with numbers and crude, sharp weapons.",
    "spoiler": 0
   },
   {
    "title": "The Inland March",
-   "body": "Though ancient lineages suggest murlocs have existed beneath the waves since before recorded history, their widespread encroachment onto the landmasses of Lordaeron and Kalimdor is relatively recent. Historians note that this inland migration coincided suspiciously with the reemergence of the serpentine naga from the ocean depths. Some tribes appear to worship deep-sea monstrosities waiting in the oceanic fathoms. Whether fleeing darker terrors or preparing the world for their masters' awakening, their coordinated movement into freshwaters poses a rising threat.",
+   "body": "Ancient lineages say Murlocs lived beneath the waves before recorded history. Their spread onto Lordaeron and Kalimdor is recent, and began suspiciously alongside the naga's return from the ocean depths. Some tribes appear to worship monstrous beings in the deepest reaches. They may be fleeing darker terrors, or preparing the world for their masters' awakening. Their movement into freshwaters grows more coordinated, and more dangerous.",
    "spoiler": 0
   },
   {
    "title": "A Hidden Intellect",
-   "body": "Because their garbled language sounds like nonsensical bubbling to outsiders, many dismiss murlocs as mere feral pests. However, their coordinated ambushes, mastery of earth and water magic, and communal structures hint at a sharper intellect. Renowned explorer Brann Bronzebeard has suggested that murlocs are far smarter than civilized races realize, intentionally concealing their cunning. Their impact on global history is undeniable: it was a murloc raid upon the Darkspear tribe that spurred Thrall to intervene, forging the alliance between the orcs and trolls that built the modern Horde.",
+   "body": "Outsiders hear bubbling Murloc speech and mistake it for nonsense, dismissing them as feral pests. Yet their ambushes are coordinated, and they practice earth and water magic and live in communities. Explorer Brann Bronzebeard has suggested they hide their cunning and are far smarter than civilized races realize.\n\nMurlocs have shaped history, too. Their raid on the Darkspear tribe brought Thrall to intervene. That intervention forged the bond between orcs and trolls that built the modern Horde.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "why do murlocs group up",
     "murloc aggro"
    ],
-   "answer": "Murlocs rarely fight alone. They live in tight-knit, crowded settlements and respond in groups to intruders, swarming enemies with overwhelming numbers."
+   "answer": "Murlocs rarely fight alone. Their crowded settlements answer intruders together, swarming them with overwhelming numbers."
   },
   {
    "q": "Are murlocs actually intelligent?",
@@ -42,7 +42,7 @@
     "murloc intelligence",
     "can murlocs think"
    ],
-   "answer": "Yes, far more than their comical appearance implies. While their guttural, gurgling dialect is incomprehensible to most, murlocs craft weapons, organize strategic ambushes, and wield elemental water and earth magic. Scholars like Brann Bronzebeard believe murlocs intentionally allow outsiders to underestimate their intellect."
+   "answer": "Yes. Murlocs are far more intelligent than their comical appearance suggests. Most outsiders cannot understand their guttural, gurgling speech, but Murlocs make weapons, plan ambushes, and wield water and earth magic. Brann Bronzebeard believes they let others underestimate their minds."
   },
   {
    "q": "Why are murlocs moving inland from the sea?",
@@ -51,7 +51,7 @@
     "murloc migration",
     "why are murlocs everywhere"
    ],
-   "answer": "Originally creatures of the ocean floor, murlocs have steadily advanced into freshwater lakes and riverbeds. Historians suspect this migration was triggered by the resurgence of the naga or by deep-sea entities slumbering in the abyss whose awakening commands murlocs to secure the land."
+   "answer": "Murlocs once lived on the ocean floor and have steadily spread into freshwater lakes and riverbeds. Historians suspect the naga's return or deep-sea beings sleeping in the abyss may have driven them inland. Those entities' awakening commands the Murlocs to secure the land."
   },
   {
    "q": "How did murlocs help form the Horde?",
@@ -60,7 +60,7 @@
     "murlocs and darkspear",
     "thrall murloc island"
    ],
-   "answer": "During the Third War, a tribe of murlocs serving the sea witch Zar'jira ambushed the Darkspear trolls on their island home. Warchief Thrall and his orc warriors fought alongside Sen'jin to defend the trolls. This battle forged the unbreakable bond between orcs and the Darkspear tribe, laying the foundation of the modern Horde."
+   "answer": "During the Third War, Murlocs serving the sea witch Zar'jira ambushed the Darkspear trolls on their island home. Warchief Thrall and his orc warriors joined Sen'jin to defend them. The battle forged a lasting bond between orcs and the Darkspear tribe, laying the foundation of the modern Horde."
   },
   {
    "q": "What are mur'gul?",
@@ -69,7 +69,7 @@
     "warcraft iii murlocs",
     "murgul identity"
    ],
-   "answer": "Mur'gul are murlocs encountered during the Third War. Despite their strange appearance and name, they are living creatures."
+   "answer": "Mur'gul are Murlocs encountered during the Third War. Despite their strange appearance and name, they are living creatures."
   },
   {
    "q": "What is that iconic sound murlocs make?",
@@ -78,25 +78,25 @@
     "murloc battle cry",
     "rwlrwlrwl"
    ],
-   "answer": "When engaging prey or raising the alarm, murlocs let out a loud, wet, undulating gargle (often rendered as 'Aaaaaughibbrgubugbugrguburgle' or 'RwlRwlRwlRwl'). It serves as both an aggressive psychological weapon and an instant call for their pack to converge."
+   "answer": "When hunting or sounding an alarm, Murlocs make a loud, wet, wavering gargle, often rendered as “Aaaaaughibbrgubugbugrguburgle” or “RwlRwlRwlRwl.” The sound can unsettle foes and call their pack to gather."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "The Darkspear tribe shares a bitter history with murlocs, having faced capture and ritual sacrifice by coastal tribes before joining Warchief Thrall."
+   "text": "The Darkspear tribe has a bitter history with Murlocs. Coastal tribes captured Darkspear trolls for ritual sacrifice before the tribe joined Warchief Thrall."
   },
   {
    "target": "race:Orc",
-   "text": "Thrall's warriors fought murlocs while rescuing the Darkspear trolls at sea, learning early on that their goofy demeanor hides savage brutality."
+   "text": "Thrall's warriors fought Murlocs while rescuing the Darkspear trolls at sea. They learned early that a comical appearance can hide savage brutality."
   },
   {
    "target": "faction:Alliance",
-   "text": "Settlers across Westfall, Darkshore, and Lakeshire frequently find their shipping, farms, and docks besieged by encroaching murloc tribes."
+   "text": "Settlers across Westfall, Darkshore, and Lakeshire often find Murloc tribes besieging their shipping, farms, and docks."
   },
   {
    "target": "class:Shaman",
-   "text": "Murloc mystics possess an innate, if crude, connection to water and earth elementals, bending the local spirits to bolster their shoreline villages."
+   "text": "Murloc mystics have a crude, innate bond with water and earth elementals. They bend local spirits to strengthen their shoreline villages."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "Murloc"
- ]
+ ],
+ "style": 2
 }

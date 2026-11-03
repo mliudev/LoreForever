@@ -10,16 +10,16 @@
    "quest:1141"
   ]
  },
- "summary": "Along Darkshore, grouper are a familiar catch, though murloc attacks have driven fishermen from their boats. The fish is prized for food and sport, and a good haul is harder to find.",
+ "summary": "Along Darkshore, Darkshore Grouper are a familiar catch, though murloc attacks have driven fishermen from their boats. The fish are prized for food and sport, and a good haul takes patience.",
  "sections": [
   {
    "title": "A Staple of the Shrouded Coast",
-   "body": "Darkshore Grouper are a welcome catch in the cold waters off Darkshore. Anglers around Auberdine value them for the simple dishes they make, and travelers and residents alike enjoy those meals. A fishing line and basic gear are enough to bring one in. For many fishermen, the pleasure of catching a grouper matches the pleasure of eating it.",
+   "body": "In Darkshore’s cold waters, Darkshore Grouper are a welcome catch. Around Auberdine, anglers value them for the simple dishes they make. Travelers and residents alike enjoy those meals. A fishing line and basic gear are enough to bring one in. For many fishermen, catching a grouper is as pleasing as eating it.",
    "spoiler": 0
   },
   {
    "title": "The Murloc Menace",
-   "body": "Fishermen such as Gubber Blump once took small boats into deeper waters and brought back grouper by the dozen. Coastal murlocs have grown more aggressive, grounding most boats around Auberdine. Anglers now fish from shore and dock, where locals suspect the murlocs are eating the grouper. A good haul takes patience.",
+   "body": "Fishermen such as Gubber Blump once rowed small boats into deeper waters and returned with grouper by the dozen. Now the coastal murlocs are more aggressive, and most boats around Auberdine stay ashore. Anglers fish from shore and dock instead. Locals suspect the murlocs are eating the grouper, so a good haul takes patience.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "darkshore grouper location",
     "how to catch darkshore grouper"
    ],
-   "answer": "Cast a fishing line into Darkshore's saltwater, including the waters around Auberdine, to catch Darkshore Grouper."
+   "answer": "Cast your line into Darkshore’s saltwater, including the waters around Auberdine, to catch Darkshore Grouper."
   },
   {
    "q": "Who wants Darkshore Grouper in Auberdine?",
@@ -40,7 +40,7 @@
     "gubber blump fish",
     "grouper quest giver"
    ],
-   "answer": "Gubber Blump, a dwarven fisherman staying in Auberdine, asks travelers to catch Darkshore Grouper for him. In return, he offers a prized Blump Family Fishing Pole."
+   "answer": "Gubber Blump, a dwarven fisherman staying in Auberdine, asks travelers to catch Darkshore Grouper for him. He offers a prized Blump Family Fishing Pole in return."
   },
   {
    "q": "Why aren't fishermen using boats to catch grouper?",
@@ -49,7 +49,7 @@
     "auberdine fishing boats",
     "murlocs grouper"
    ],
-   "answer": "Aggressive murlocs along Darkshore's coast make boat trips too dangerous for local fishermen."
+   "answer": "Aggressive murlocs along Darkshore’s coast make boat trips too dangerous for local fishermen."
   },
   {
    "q": "Do you need to be on a quest to catch a Darkshore Grouper?",
@@ -57,17 +57,17 @@
     "is grouper a quest item",
     "can i fish grouper anytime"
    ],
-   "answer": "No. Darkshore Grouper are ordinary saltwater fish, and any angler can catch them in Darkshore's waters. Locals such as Gubber Blump may ask you to catch them."
+   "answer": "No. Darkshore Grouper are ordinary saltwater fish, and any angler can catch them in Darkshore’s waters. Locals such as Gubber Blump may ask you to catch them."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Darkshore Grouper make a handy ingredient for simple coastal recipes, giving traveling cooks a way to practice their trade along the shore."
+   "text": "Darkshore Grouper make a handy ingredient for simple coastal recipes. They give traveling cooks a way to practice their trade along the shore."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you may recognize Gubber Blump, whose fishing on Kalimdor's shores carries on his family's proud heritage. He rewards those who match his kin's catching skill."
+   "text": "As a dwarf, you may recognize Gubber Blump. His fishing on Kalimdor’s shores carries on his family’s proud heritage. He rewards those who match his kin’s skill at catching fish."
   }
  ],
  "keywords": [
@@ -93,5 +93,5 @@
   "Darkshore Grouper",
   "The Family and the Fishing Pole"
  ],
- "style": 1
+ "style": 2
 }

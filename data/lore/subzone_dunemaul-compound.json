@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Dunemaul Compound"
  },
- "summary": "Dunemaul Compound serves as the central settlement and ogre mound for the Dunemaul clan in Tanaris. Tucked into the rocky ridges bordering the desert wastes, it houses the clan's brute enforcers and spellcasters.",
+ "summary": "At the western edge of Tanaris, Dunemaul ogres gather around their central settlement. The clan’s mound and cave network lie among rocky ridges.",
  "sections": [
   {
    "title": "A Stronghold in the Sands",
-   "body": "Carved into the rugged desert rock of western Tanaris, the Dunemaul Compound is the primary stronghold of the Dunemaul ogres. These hulking desert dwellers have adapted to the harsh arid climate, scratching out an existence through brute force and opportunism. The compound itself centers on an ogre mound and cave network. Though primitive, the clan fields a dangerous mix of warriors, enforcers, and twisted spellcasters practicing dark warlock and mage magics. For travelers journeying across the dunes, the settlement is a treacherous den of aggressive giants who violently reject uninvited guests.",
+   "body": "In western Tanaris, Dunemaul ogres guard their stronghold from travelers crossing the dunes. The harsh arid climate has taught the clan to survive through brute force and opportunism. Their settlement gathers around an ogre mound and a network of caves. Warriors and enforcers patrol beside twisted spellcasters who wield dark warlock and mage magic. The ogres violently reject uninvited guests.",
    "spoiler": 0
   }
  ],
@@ -22,7 +22,7 @@
     "dunemaul leader",
     "dunemaul boss"
    ],
-   "answer": "Gor'marok the Ravager leads the Dunemaul ogres occupying the compound. Andi Lynn in Gadgetzan fears the strength of this newly arrived band."
+   "answer": "Gor'marok the Ravager leads the Dunemaul ogres at the compound. In Gadgetzan, Andi Lynn fears the strength of this newly arrived band."
   },
   {
    "q": "What kinds of ogres live here?",
@@ -30,14 +30,14 @@
     "dunemaul types",
     "dunemaul mobs"
    ],
-   "answer": "The settlement contains a wide variety of Dunemaul ogres, ranging from common brutes and enforcers to cunning ogre mages and warlocks wielding dark fel and shadow magic."
+   "answer": "Common brutes and enforcers live here, along with cunning ogre mages and warlocks who wield dark fel and shadow magic."
   },
   {
    "q": "Why is the Horde interested in this compound?",
    "aliases": [
     "horde dunemaul"
    ],
-   "answer": "No Horde interest in the compound is recorded. The Dunemaul are an independent band of ogres led by Gor'marok the Ravager, and the call to destroy the compound comes from Andi Lynn in Gadgetzan, who fears that their growing strength will threaten the region."
+   "answer": "The Horde has no recorded interest in the compound. Gor'marok the Ravager leads the independent Dunemaul band. In Gadgetzan, Andi Lynn calls for the compound's destruction because she fears their growing strength will threaten the region."
   },
   {
    "q": "Who is Omgorn the Lost?",
@@ -45,17 +45,17 @@
     "omgorn",
     "rare ogre tanaris"
    ],
-   "answer": "Omgorn the Lost is an elusive, solitary ogre known to occasionally wander the edges of the Dunemaul Compound, distinct from the common sentries patrolling the mound."
+   "answer": "Omgorn the Lost is an elusive, solitary ogre who sometimes wanders the edges of the Dunemaul Compound. He stays apart from the common sentries patrolling the mound."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Though many ogres once marched with the Old Horde, the reclusive Dunemaul answer to no outside power and treat Horde travelers as intruders like any other."
+   "text": "Many ogres once marched with the Old Horde, but the reclusive Dunemaul answer to no outside power. They treat Horde travelers as intruders like any other."
   },
   {
    "target": "class:Warlock",
-   "text": "The presence of Dunemaul warlocks among a seemingly primitive desert clan is a curious sight, showing that shadow and fel traditions have taken root even within isolated ogre mounds."
+   "text": "As a warlock, you may find the Dunemaul warlocks a curious sight among a seemingly primitive desert clan. Their presence shows that shadow and fel traditions have taken root even in isolated ogre mounds."
   }
  ],
  "keywords": [
@@ -72,5 +72,6 @@
  ],
  "attribution": [
   "Dunemaul Compound"
- ]
+ ],
+ "style": 2
 }

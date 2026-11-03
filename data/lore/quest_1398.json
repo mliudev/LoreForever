@@ -27,16 +27,16 @@
    "Help Watcher Biggs"
   ]
  },
- "summary": "After The Lost Caravan, Watcher Biggs still has a wagon to mend before reaching Nethergarde. Biggs needs strong, dry wood, and sends you east to the coast to search for driftwood dried by the sun.",
+ "summary": "Watcher Biggs sends you east to the coast for dry driftwood. He needs it to mend his wagon before he can reach Nethergarde.",
  "sections": [
   {
    "title": "Wood for the Wagon",
-   "body": "Watcher Biggs says you are owed great thanks, and asks for your help once more. If Biggs is ever to reach Nethergarde, the wagon must be fixed, and that takes strong, dry wood. Wood from the swamp's trees is spongy and tangled, and will not do.",
+   "body": "Watcher Biggs thanks you and asks for help again. His wagon needs repairs before he can reach Nethergarde. The swamp's wood is too spongy and tangled to use, so he needs strong, dry wood.",
    "spoiler": 0
   },
   {
    "title": "Driftwood from the Coast",
-   "body": "Biggs sends you east to the coast, to search for driftwood that the sun has dried. Eight pieces are to be brought back to Biggs in the Swamp of Sorrows.",
+   "body": "Watcher Biggs sends you east to the coast for driftwood dried by the sun. Bring eight pieces back to him in the Swamp of Sorrows.",
    "spoiler": 0
   }
  ],
@@ -48,7 +48,7 @@
     "why does biggs need driftwood",
     "why driftwood"
    ],
-   "answer": "The wagon must be fixed if Biggs is ever to reach Nethergarde, and wood from the swamp's trees is too spongy and tangled."
+   "answer": "Biggs needs wood to mend his wagon so he can reach Nethergarde. The swamp's trees are too spongy and tangled."
   },
   {
    "q": "Where does Watcher Biggs send you for the wood?",
@@ -57,7 +57,7 @@
     "where to find driftwood",
     "where is the wood"
    ],
-   "answer": "East to the coast, to search for driftwood that the sun has dried."
+   "answer": "He sends you east to the coast for driftwood dried by the sun."
   },
   {
    "q": "What came before this?",
@@ -66,7 +66,7 @@
     "what leads to driftwood",
     "what quest comes before driftwood"
    ],
-   "answer": "The Lost Caravan comes first, and Biggs then asks for more help."
+   "answer": "The Lost Caravan comes first. Biggs then asks you for more help."
   },
   {
    "q": "How much driftwood is needed?",
@@ -74,7 +74,7 @@
     "driftwood count",
     "how many driftwood"
    ],
-   "answer": "Eight pieces of sundried driftwood."
+   "answer": "Eight pieces of driftwood dried by the sun."
   },
   {
    "q": "What comes after gathering the driftwood?",
@@ -102,5 +102,6 @@
  ],
  "attribution": [
   "Driftwood (quest)"
- ]
+ ],
+ "style": 2
 }

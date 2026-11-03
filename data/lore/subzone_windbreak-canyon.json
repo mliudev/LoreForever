@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Windbreak Canyon"
  },
- "summary": "Windbreak Canyon is a winding gorge along the northern side of Thousand Needles, situated between Freewind Post and the Shimmering Flats. Famous for its harsh drafts and jagged stone, it is heavily infested with nesting wind serpents. Travelers passing along the main road must tread carefully near its mouth to avoid being hunted from above.",
+ "summary": "Wind serpents hunt travelers along the northern road through Windbreak Canyon. The canyon lies between Freewind Post and the Shimmering Flats.",
  "sections": [
   {
    "title": "A Serpent Nest in the Needles",
-   "body": "Carved into the sheer northern walls of the canyon floor, Windbreak Canyon spans a large stretch of territory east of Freewind Post. Rather than offering shelter, the ravine channels whistling winds between the rock spires, creating ideal perches for feral wind serpents. The predators lay their clutches along the stone ledges and strike at unwary travelers drifting off the main road. Those braving the canyon interior will also find the winding trails that climb upward toward the Weathered Nook.",
+   "body": "East of Freewind Post, Windbreak Canyon cuts through the sheer northern walls above the canyon floor. Whistling winds race between the stone spires, leaving little shelter. Wild wind serpents perch among the rocks, lay clutches on the ledges, and strike travelers who stray from the main road. Winding trails climb through the canyon toward the Weathered Nook.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is windbreak canyon",
     "windbreak map"
    ],
-   "answer": "Windbreak Canyon lies on the northern side of Thousand Needles, roughly between Freewind Post and the eastern approach to the Shimmering Flats."
+   "answer": "Windbreak Canyon runs along the northern side of Thousand Needles, between Freewind Post and the eastern approach to the Shimmering Flats."
   },
   {
    "q": "What creatures live in Windbreak Canyon?",
@@ -32,7 +32,7 @@
     "what is in windbreak canyon",
     "windbreak mobs"
    ],
-   "answer": "The canyon is dominated by aggressive wild wind serpents that nest among the crags and defend their clutches from intruders."
+   "answer": "Aggressive wild wind serpents nest among the canyon's crags and defend their clutches from intruders."
   },
   {
    "q": "Where does the trail inside the canyon lead?",
@@ -41,13 +41,13 @@
     "trail in windbreak canyon",
     "where does windbreak go"
    ],
-   "answer": "Following the canyon's rising interior trails leads travelers toward the Weathered Nook nestled in the cliffs above."
+   "answer": "Winding trails climb through the canyon toward the Weathered Nook in the cliffs above."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "The wind serpents nesting throughout the canyon provide wilderness hunters an ideal opportunity to study and tame agile, lightning-spitting beasts."
+   "text": "As a hunter, you can study and tame the agile wind serpents that nest throughout the canyon and spit lightning."
   }
  ],
  "keywords": [
@@ -65,5 +65,6 @@
  ],
  "attribution": [
   "Windbreak Canyon"
- ]
+ ],
+ "style": 2
 }

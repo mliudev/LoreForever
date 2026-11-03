@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Blackwolf River"
  },
- "summary": "Blackwolf River runs from Cragpool Lake through Windshear Crag in the Stonetalon Mountains. The Venture Company's logging and industrial work has fouled its waters.",
+ "summary": "Through Windshear Crag, Blackwolf River carries runoff from the Venture Company's logging and industrial work. Its waters flow down from Cragpool Lake.",
  "sections": [
   {
    "title": "Industrial Runoff",
-   "body": "Blackwolf River runs through Windshear Crag, fed by Cragpool Lake. Venture Company loggers cut the surrounding woods with heavy machinery and buzzsaws. Sludge, oil, and logging waste drain into the current. The river carries the cost of the company's work through the basin.",
+   "body": "Fed by Cragpool Lake, Blackwolf River runs through Windshear Crag. Venture Company loggers cut the surrounding woods with heavy machinery and buzzsaws. Sludge, oil, and logging waste drain into the current, carrying the cost of the company's work through the basin.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is blackwolf river",
     "blackwolf river location"
    ],
-   "answer": "Blackwolf River flows down from Cragpool Lake through the logged basin of Windshear Crag."
+   "answer": "Blackwolf River flows from Cragpool Lake through the logged basin of Windshear Crag."
   },
   {
    "q": "Why is the river water polluted?",
@@ -32,7 +32,7 @@
     "blackwolf river pollution",
     "venture company pollution"
    ],
-   "answer": "The Venture Company logs across Windshear Crag with heavy machinery. Runoff, waste, and clear-cutting drain into the river."
+   "answer": "The Venture Company logs across Windshear Crag with heavy machinery. Runoff, waste, and clear-cutting foul the river."
   },
   {
    "q": "Who is currently operating along the river?",
@@ -47,11 +47,11 @@
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid, you can see how goblin timber work fouls Blackwolf River, an affront to the Cenarion Circle and those who revere Kalimdor's untamed waters."
+   "text": "As a druid, you can see how goblin timber work fouls Blackwolf River. Such work affronts the Cenarion Circle and those who revere Kalimdor's untamed waters."
   },
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you see the earth scarred and the waters fouled by outsiders seeking profit. It strengthens your resolve to cleanse Stonetalon of reckless industrial blight."
+   "text": "As a tauren, you see outsiders scar the earth and foul its waters in search of profit. This strengthens your resolve to cleanse Stonetalon of reckless industrial blight."
   }
  ],
  "keywords": [
@@ -74,5 +74,5 @@
  "attribution": [
   "Blackwolf River"
  ],
- "style": 1
+ "style": 2
 }

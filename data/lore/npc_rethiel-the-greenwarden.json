@@ -8,16 +8,16 @@
   "wiki": "Rethiel the Greenwarden",
   "refs": 6
  },
- "summary": "In the Wetlands, Rethiel the Greenwarden calls travelers to the Green Belt. He seeks help against threats that disturb the marsh's uneasy balance.",
+ "summary": "In the Wetlands, Rethiel the Greenwarden calls travelers to the Green Belt. He seeks help to ease the threats disturbing the marsh’s balance.",
  "sections": [
   {
    "title": "Tending the Wounds",
-   "body": "Rethiel asks sympathetic travelers to ease the Wetlands' suffering. He urges them to hunt the destructive Mosshide gnolls that ravage wildlife and take the crude flints they use to burn the marsh's living trees. He also calls for the diseased fen creepers festering in the marsh waters to be thinned. Rethiel hopes these efforts will bring peace back to the wounded soil.",
+   "body": "Rethiel calls on travelers who pity the Wetlands to help ease its suffering. Mosshide gnolls ravage the wildlife and burn the marsh’s living trees with crude flints. He urges travelers to hunt them and take those flints away.\n\nDiseased fen creepers also fester in the marsh waters. Rethiel asks that they be thinned, in the hope that these efforts will bring peace back to the wounded soil.",
    "spoiler": 0
   },
   {
    "title": "Guardian of the Marsh",
-   "body": "Rethiel watches over the marsh from the damp thickets of the Green Belt. His towering form is made of moss, peat, and primal plant life. Unlike the bog beasts that wander the marsh as aggressive predators, Rethiel is conscious and speaks with sorrow. He feels the Wetlands as a living ecosystem, suffering under foreign predation and corruption.",
+   "body": "From damp thickets in the Green Belt, Rethiel watches over the marsh. His towering form is made of moss, peat, and primal plant life. Unlike the bog beasts that roam as aggressive predators, he is conscious and speaks with sorrow. He feels the Wetlands as a living ecosystem, suffering from foreign predation and corruption.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "rethiel lore",
     "bog beast npc wetlands"
    ],
-   "answer": "Rethiel is a sentient bog beast in the Green Belt of the Wetlands. Unlike the mindless creatures of his kind, he speaks with mortals and protects the marsh."
+   "answer": "Rethiel is a sentient bog beast in the Wetlands’ Green Belt. Unlike the mindless creatures of his kind, he speaks with mortals and protects the marsh."
   },
   {
    "q": "Where can I find Rethiel?",
@@ -37,7 +37,7 @@
     "rethiel location",
     "where is rethiel"
    ],
-   "answer": "Rethiel can be found in the Green Belt within the Wetlands, northeast of Dun Algaz."
+   "answer": "Rethiel can be found in the Green Belt, northeast of Dun Algaz in the Wetlands."
   },
   {
    "q": "Why does Rethiel want travelers to help him?",
@@ -46,7 +46,7 @@
     "rethiel goal",
     "what does rethiel want"
    ],
-   "answer": "Rethiel senses the marsh suffering under invasive threats. He asks travelers to confront destructive Mosshide gnoll bands, take the crude flints they use to set marsh trees ablaze, and thin diseased fen creepers, bringing relief to the land."
+   "answer": "Rethiel senses the marsh suffering under invasive threats. He asks travelers to confront destructive Mosshide gnolls, take the crude flints they use to set marsh trees ablaze, and thin diseased fen creepers to bring relief to the land."
   },
   {
    "q": "Are all bog beasts sentient like Rethiel?",
@@ -64,7 +64,7 @@
     "rethiel enemies",
     "threats to wetlands rethiel"
    ],
-   "answer": "Rethiel focuses on curbing aggressive Mosshide gnolls, taking away their crude flints used to burn living wood, and purging diseased fen creepers festering in the marsh."
+   "answer": "Rethiel seeks to curb aggressive Mosshide gnolls, take away their crude flints used to burn living wood, and thin diseased fen creepers festering in the marsh."
   },
   {
    "q": "Is Rethiel aligned with the Alliance or the Horde?",
@@ -79,11 +79,11 @@
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid, you may recognize Rethiel as an unusual expression of Azeroth's wild balance. He speaks directly for a wounded ecosystem, much like the ancient protectors of Kalimdor."
+   "text": "As a druid, you may recognize Rethiel as an unusual expression of Azeroth’s wild balance. He speaks directly for a wounded ecosystem, much like the ancient protectors of Kalimdor."
   },
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you may sense Rethiel's attunement to the marsh's elemental and physical disharmony. He echoes the distress of the land itself as it groans under contamination and fire."
+   "text": "As a shaman, you may sense Rethiel’s attunement to the marsh’s elemental and physical disharmony. He echoes the distress of the land itself as it groans under contamination and fire."
   }
  ],
  "keywords": [
@@ -104,5 +104,5 @@
  "attribution": [
   "Rethiel the Greenwarden"
  ],
- "style": 1
+ "style": 2
 }

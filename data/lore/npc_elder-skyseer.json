@@ -8,16 +8,16 @@
   "wiki": "Elder Skyseer",
   "refs": 1
  },
- "summary": "Elder Skyseer is the spirit of an ancestral tauren residing atop the towering bluffs of Freewind Post in Thousand Needles. As an honoured elder returned from the spirit world, he observes the ongoing journeys of the Horde and remains deeply tied to the resting grounds of his people.",
+ "summary": "At Freewind Post, Elder Skyseer watches over travelers as an ancestor beyond the mortal world. His spirit remains tied to the resting grounds of his people.",
  "sections": [
   {
    "title": "A Spirit of Freewind Post",
-   "body": "Perched high above the salt canyons of Thousand Needles, Elder Skyseer lingers at the windswept mesa settlement of Freewind Post. While the tauren of Freewind Post bustle around the outpost's perilous bridges and wooden platforms, Skyseer watches over the realm as an ancestor who has crossed beyond the mortal veil. He serves as an ancestral beacon for travelers seeking the wisdom of past generations, offering his blessings to those who honor old traditions.",
+   "body": "High above Thousand Needles, Elder Skyseer watches over Freewind Post from its mesa. Tauren cross perilous bridges and wooden platforms there, while he keeps watch beyond the mortal veil. Travelers who honor old traditions may receive his blessings and seek the wisdom of past generations.",
    "spoiler": 0
   },
   {
    "title": "Ties to the Ancestral Lands",
-   "body": "Though his spirit commonly manifests among the wind-carved needles, Skyseer belongs to the long line of tauren ancestors whose people honor the sacred soil of Mulgore, where the ancestral spirits of Red Rocks watch over the tribes. Spirits like Skyseer reveal how thin the veil between the physical realm and the ancestral spirits remains for the tauren, guiding future generations through remembrance and ritual.",
+   "body": "Elder Skyseer’s spirit often appears among the wind-carved needles. He belongs to the line of tauren ancestors honored on Mulgore’s sacred soil, where the ancestral spirits of Red Rocks watch over the tribes. Through remembrance and ritual, those ancestors guide future generations. His presence shows how thin the veil remains between the living and the dead.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is skyseer",
     "skyseer npc"
    ],
-   "answer": "Elder Skyseer is an ancestral tauren spirit who appears at Freewind Post in Thousand Needles. He is one of the revered elders whose spirits watch over modern travelers, offering ancestral guidance to those who seek him out."
+   "answer": "Elder Skyseer watches over Freewind Post in Thousand Needles as an ancestral tauren spirit. He offers guidance to travelers who seek him."
   },
   {
    "q": "Why is Elder Skyseer a ghost?",
@@ -38,7 +38,7 @@
     "is elder skyseer dead",
     "ghost tauren freewind"
    ],
-   "answer": "He is an ancient ancestor who has passed on from the mortal world. Tauren culture maintains a deep spiritual connection to their forebears, and certain prominent elders linger or return in spirit form to guide the living."
+   "answer": "Elder Skyseer passed from the mortal world and remains as an ancient ancestor. Tauren honor their forebears, and certain elders linger or return in spirit to guide the living."
   },
   {
    "q": "What is his connection to Mulgore?",
@@ -46,7 +46,7 @@
     "skyseer red rocks",
     "skyseer mulgore connection"
    ],
-   "answer": "Like all tauren ancestors, Skyseer is honored by a people whose homeland is Mulgore, where the ancestral spirits of Red Rocks watch over the tribes. His own spirit, however, appears at Freewind Post in Thousand Needles."
+   "answer": "Elder Skyseer belongs to the tauren people, whose homeland is Mulgore. There, the ancestral spirits of Red Rocks watch over the tribes. His spirit appears at Freewind Post in Thousand Needles."
   },
   {
    "q": "Where can I find Elder Skyseer?",
@@ -55,17 +55,17 @@
     "find skyseer",
     "where is skyseer"
    ],
-   "answer": "Elder Skyseer is located at Freewind Post in Thousand Needles, lingering atop the fortified mesa settlement high above the canyon floor."
+   "answer": "Elder Skyseer watches over Freewind Post in Thousand Needles, atop its mesa settlement high above the canyon floor."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For the tauren, encountering Elder Skyseer is a direct communion with an ancestor, embodying the spiritual reverence taught at Red Rocks and across the plains of Mulgore."
+   "text": "As a tauren, meeting Elder Skyseer brings you into communion with an ancestor. His presence reflects the reverence taught at Red Rocks and across Mulgore’s plains."
   },
   {
    "target": "class:Shaman",
-   "text": "As spiritual mediators who speak to the elements and spirits, shamans recognize in Elder Skyseer the enduring wisdom of ancestors who continue to watch over the living."
+   "text": "As a shaman, you speak with the elements and spirits. You recognize the wisdom of ancestors who continue to watch over the living."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Elder Skyseer"
- ]
+ ],
+ "style": 2
 }

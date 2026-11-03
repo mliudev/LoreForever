@@ -24,16 +24,16 @@
   ],
   "category": "Alterac Mountains"
  },
- "summary": "The Syndicate documents hold a list of supplies the Syndicate asked for, wanted in a hurry for what the papers call an important undertaking against Southshore. Magistrate Henry Maleb in Southshore awaits them.",
+ "summary": "The Syndicate's papers call for supplies to reach Southshore soon, where Magistrate Henry Maleb awaits them.",
  "sections": [
   {
    "title": "The Supply List",
-   "body": "The documents include a list of requested supplies. Some are mundane: food, weapons and clothing. Others are more exotic: masks, oil and poison. What stands out most is the urgency, for the papers say the supplies were needed soon, for an important undertaking against Southshore. Magistrate Henry Maleb in Southshore is the one to receive them.",
+   "body": "The Syndicate papers list food, weapons and clothing. They also call for masks, oil and poison. The supplies are needed soon for an important undertaking against Southshore. Magistrate Henry Maleb is to receive them there.",
    "spoiler": 0
   },
   {
    "title": "Maleb's Verdict",
-   "body": "Maleb reads the documents and finds them very troubling. From what they say, and from the Syndicate's past deeds, Maleb concludes that these cutthroats have gone to war against the town.",
+   "body": "Magistrate Henry Maleb finds the documents troubling. Their words and the Syndicate's past deeds lead him to a grim judgment: the cutthroats have gone to war against the town.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "syndicate documents contents",
     "what is in the plans"
    ],
-   "answer": "They list requested supplies: ordinary things like food, weapons and clothing, and stranger ones like masks, oil and poison. The papers stress that these were needed soon for an important operation against Southshore."
+   "answer": "The documents list food, weapons and clothing, along with masks, oil and poison. They say the supplies are needed soon for an important undertaking against Southshore."
   },
   {
    "q": "Who should see these plans?",
@@ -75,5 +75,6 @@
  ],
  "attribution": [
   "Foreboding Plans (quest)"
- ]
+ ],
+ "style": 2
 }

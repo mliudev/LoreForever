@@ -10,11 +10,11 @@
    "quest:4581"
   ]
  },
- "summary": "In Astranaar, Shindrell Swiftfire writes a missive about corruption near the town and along Ashenvale's coast. She sends the intelligence report east through the forest to Kayneth Stillwind.",
+ "summary": "In Astranaar, Shindrell Swiftfire sends word of corruption near town and along Ashenvale's coast. Her report travels east through the forest to Kayneth Stillwind.",
  "sections": [
   {
    "title": "A Missive Across the Woods",
-   "body": "Sentinels and druids coordinate to watch Ashenvale's borders as unrest spreads through the forest. In Astranaar, Sentinel Shindrell Swiftfire writes of troubling disturbances along the western coast and among the central canopies. She addresses her report to Kayneth Stillwind, a druid at the shrine of Forest Song in the Nightsong Woods to the east. Couriers carry Shindrell's firsthand observations to aid Kayneth's investigation of corruption creeping through the sacred groves.",
+   "body": "Sentinels and druids watch Ashenvale's borders together as unrest spreads through the forest. From Astranaar, Sentinel Shindrell Swiftfire reports troubling disturbances along the western coast and among the central canopies.\n\nHer report is addressed to Kayneth Stillwind, a druid at the shrine of Forest Song in the Nightsong Woods to the east. Couriers carry Shindrell's firsthand observations to aid his search for corruption in the sacred groves.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "shindrell note",
     "what does the note say"
    ],
-   "answer": "Sentinel Shindrell Swiftfire's field report describes disturbances and suspected corruption near Astranaar and along the Ashenvale coastline."
+   "answer": "Sentinel Shindrell Swiftfire's field report describes disturbances and suspected corruption near Astranaar and along Ashenvale's coastline."
   },
   {
    "q": "Who is meant to receive the note?",
@@ -44,7 +44,7 @@
     "what corruption is shindrell talking about",
     "purpose of report"
    ],
-   "answer": "Kayneth Stillwind requested reports of unusual occurrences in the western forests because he feared corruption was taking root there. Shindrell gathered her sightings to help him judge the threat."
+   "answer": "Kayneth Stillwind feared corruption was taking root in the western forests and asked for reports of unusual occurrences. Shindrell gathered her sightings to help him judge the threat."
   },
   {
    "q": "Where does Shindrell Swiftfire reside?",
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The missive shows Sentinels defending Ashenvale's settlements working with Cenarion druids who study the forest's sickness."
+   "text": "Sentinels defending Ashenvale's settlements work with Cenarion druids studying the forest's sickness."
   },
   {
    "target": "class:Druid",
@@ -88,5 +88,5 @@
   "Shindrell's Note",
   "Kayneth Stillwind (quest)"
  ],
- "style": 1
+ "style": 2
 }

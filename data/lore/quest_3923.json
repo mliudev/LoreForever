@@ -17,11 +17,11 @@
   "wiki": "Rilli Greasygob (quest)",
   "chain": []
  },
- "summary": "In Orgrimmar, Rilli Greasygob is the specialist Wenikee Boltbucket seeks. She sends you there with a damaged samophlange, hoping his knowledge of its Venture Company origins can explain the device.",
+ "summary": "Wenikee Boltbucket sends a damaged samophlange to Rilli Greasygob in Orgrimmar. She hopes his knowledge of its Venture Company origins will explain the device.",
  "sections": [
   {
    "title": "When Tinkering Fails",
-   "body": "Wenikee Boltbucket examined the samophlange recovered from the Venture Company drilling site in the Barrens. Her extra gauges showed the apparatus nearing collapse. More levers and dials might destroy it, so she stopped and sent the problem to someone with knowledge of its design.",
+   "body": "Wenikee Boltbucket examined the samophlange recovered from the Venture Company drilling site in the Barrens. Her extra gauges showed it was close to collapse. More levers and dials might destroy it, so she stopped and sent the problem to someone who knew its design.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "who is rilli",
     "nogg machine shop rilli"
    ],
-   "answer": "Rilli Greasygob is a goblin engineer at Nogg's Machine Shop in Orgrimmar's Valley of Honor. He once worked for the Venture Company and knows its technology firsthand, including devices like the samophlange."
+   "answer": "At Nogg's Machine Shop in Orgrimmar's Valley of Honor, Rilli Greasygob works as a goblin engineer. He once worked for the Venture Company and knows its technology firsthand, including devices like the samophlange."
   },
   {
    "q": "Why couldn't Wenikee Boltbucket fix the samophlange herself?",
@@ -47,7 +47,7 @@
     "boltbucket failure",
     "wenikee cant fix"
    ],
-   "answer": "Wenikee Boltbucket's extra gauges showed that the samophlange was close to coming apart. She feared further tinkering would ruin it and sought someone with direct experience of Venture Company machinery."
+   "answer": "Wenikee Boltbucket's extra gauges showed that the samophlange was close to coming apart. She feared further tinkering would ruin it, so she sought someone with direct experience of Venture Company machinery."
   },
   {
    "q": "Where is Rilli Greasygob located?",
@@ -81,7 +81,7 @@
     "what is a samophlange",
     "samophlange explained"
    ],
-   "answer": "No one involved seems quite sure what a samophlange is. The Venture Company device is intricate and full of gears; even Wenikee Boltbucket had to ask what it was, and Rilli needs the company's manual to understand it."
+   "answer": "No one involved seems quite sure what a samophlange is. The Venture Company device is intricate and full of gears. Even Wenikee Boltbucket had to ask what it was, and Rilli needs the company's manual to understand it."
   }
  ],
  "angles": [
@@ -116,5 +116,5 @@
  "attribution": [
   "Rilli Greasygob (quest)"
  ],
- "style": 1
+ "style": 2
 }

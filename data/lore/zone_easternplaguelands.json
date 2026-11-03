@@ -12,21 +12,21 @@
   "levels": "",
   "aliases": []
  },
- "summary": "The Eastern Plaguelands represent the devastated heart of the fallen Kingdom of Lordaeron, suffocated under Scourge blight, toxic mists, and corrupted fungal growths. Stratholme looms in the north as the undead power base in the region, while the zealous Scarlet Crusade entrenches in the east. Amid the nightmare, Light's Hope Chapel stands as a resolute, neutral sanctuary for anyone brave enough to fight back.",
+ "summary": "Scourge blight darkens the Eastern Plaguelands. Stratholme remains an undead stronghold, while the Scarlet Crusade fortifies the east. Light's Hope Chapel offers neutral refuge to those who fight back.",
  "sections": [
   {
    "title": "A Land in Ruin",
-   "body": "Once known as the fertile Eastweald, this region was the agricultural spine of northern Lordaeron, anchored by the great metropolis of Stratholme and prosperous towns like Darrowshire and Corin's Crossing. During the Third War, Prince Arthas purged Stratholme after discovering its grain supply had been laced with the Plague of Undeath. Following the kingdom's collapse, the Scourge's dark magic ran unchecked. The soil turned brown and rotten, ordinary flora warped into colossal mushrooms, and an eerie orange mist settled across the valleys.",
+   "body": "Once called the Eastweald, the Eastern Plaguelands were Lordaeron's fertile heartland. Stratholme anchored the region, with prosperous towns like Darrowshire and Corin's Crossing nearby. During the Third War, Prince Arthas purged Stratholme after learning its grain had been laced with the Plague of Undeath.\n\nAfter Lordaeron fell, Scourge magic spread unchecked. The soil turned brown and rotten. Ordinary plants warped into colossal mushrooms, and orange mist settled over the valleys.",
    "spoiler": 0
   },
   {
    "title": "A War on Three Fronts",
-   "body": "Stratholme serves as the southern seat of Scourge authority in Lordaeron, commanded by Baron Rivendare under the direction of the lich Kel'Thuzad. Defying the undead from the southeast is the fanatical Scarlet Crusade, which has fortified the town of Tyr's Hand and assaults Stratholme's scarlet bastions. Their dogmatic hatred extends beyond the dead to any living traveler who crosses their borders. To the north, the Mossflayer forest trolls of Zul'Mashar wage their own isolated, desperate campaigns, caught in the crossfire of the greater conflict.",
+   "body": "Stratholme is the Scourge's southern seat of power in Lordaeron. Baron Rivendare commands it under the direction of the lich Kel'Thuzad. In the southeast, the fanatical Scarlet Crusade has fortified Tyr's Hand and assaults Stratholme's scarlet strongholds.\n\nThe Crusade's hatred reaches beyond the undead to any living traveler who crosses its borders. Farther north, the Mossflayer forest trolls of Zul'Mashar wage isolated, desperate campaigns amid the wider conflict.",
    "spoiler": 0
   },
   {
    "title": "Bastions of the Living",
-   "body": "Survival in the Eastern Plaguelands requires careful footing. The neutral Argent Dawn operates out of Light's Hope Chapel in the far east, offering a safe haven, essential supplies, and flight routes to both Alliance and Horde champions. Beyond the chapel, the ruined watchtowers of Crown Guard, Eastwall, Northpass, and Plaguewood stand as silent reminders of Lordaeron's lost defenses.",
+   "body": "Watch your footing in the Eastern Plaguelands. The neutral Argent Dawn keeps Light's Hope Chapel in the far east, where Alliance and Horde champions can find shelter, supplies, and flight routes. Beyond the chapel, ruined watchtowers mark Lordaeron's lost defenses: Crown Guard, Eastwall, Northpass, and Plaguewood.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why giant mushrooms",
     "eastern plaguelands corruption"
    ],
-   "answer": "The landscape suffers from the concentrated effects of the Cult of the Damned's Plague of Undeath. Left unchecked after the Third War, the foul necromantic magic blighted the earth, mutated local wildlife, choked the atmosphere in an unnatural orange smog, and transformed natural forests into grotesque fungal groves like the Plaguewood."
+   "answer": "The Cult of the Damned's Plague of Undeath left its mark across the land. After the Third War, its necromantic magic blighted the earth, changed local wildlife, and filled the air with unnatural orange smog. Forests twisted into fungal groves such as the Plaguewood."
   },
   {
    "q": "Where can I find a safe haven or flight path here?",
@@ -47,7 +47,7 @@
     "where is flight path epl",
     "friendly town eastern plaguelands"
    ],
-   "answer": "Light's Hope Chapel, located along the eastern edge of the zone, is the main sanctuary. Maintained by the Argent Dawn, it provides flight paths connecting to Undercity, Ironforge, Chillwind Camp, and the Hinterlands, welcoming both Alliance and Horde travelers."
+   "answer": "Light's Hope Chapel, on the zone's eastern edge, is the main sanctuary. The Argent Dawn maintains it and offers flight paths to Undercity, Ironforge, Chillwind Camp, and the Hinterlands for Alliance and Horde travelers."
   },
   {
    "q": "Who controls the city of Stratholme?",
@@ -56,7 +56,7 @@
     "stratholme bosses lore",
     "what is in stratholme"
    ],
-   "answer": "Stratholme is divided by ongoing warfare. The majority of the burning ruins are ruled by the Scourge under Baron Rivendare, serving Kel'Thuzad. However, the Scarlet Crusade maintains an aggressive garrison within the western district, waging a relentless and bloody siege against the undead forces."
+   "answer": "War divides Stratholme. Baron Rivendare rules most of its burning ruins for Kel'Thuzad, while the Scarlet Crusade holds an aggressive garrison in the western district. There, it wages a bloody siege against the undead."
   },
   {
    "q": "Why is the Scarlet Crusade hostile to outside adventurers?",
@@ -65,7 +65,7 @@
     "tyrs hand hostile",
     "scarlet crusade red"
    ],
-   "answer": "Following the fall of Lordaeron and the fracturing of the Silver Hand, the Scarlet Crusade succumbed to rampant zealotry and paranoia. Convinced that all outsiders harbor the taint of the plague or consort with the undead, they attack any non-members who approach their strongholds, such as Tyr's Hand."
+   "answer": "The Scarlet Crusade's zealotry and paranoia grew after Lordaeron fell and the Silver Hand fractured. Its members believe outsiders carry the plague or consort with the undead, so they attack those who approach strongholds such as Tyr's Hand."
   },
   {
    "q": "What happened to the town of Darrowshire?",
@@ -74,29 +74,29 @@
     "fall of darrowshire",
     "who destroyed darrowshire"
    ],
-   "answer": "During the Third War, Scourge forces led by the death knight Marduk the Black and the ghoul Horgus the Ravager assaulted the town. Although paladin Davil Crokford and Captain Joseph Redpath fought valiantly, Redpath's soul was corrupted by necromancy, turning him into an instrument of slaughter against his own people. The town now lies in haunted ruins."
+   "answer": "During the Third War, Scourge forces led by the death knight Marduk the Black and the ghoul Horgus the Ravager attacked Darrowshire. Paladin Davil Crokford and Captain Joseph Redpath fought valiantly, but necromancy corrupted Redpath's soul and made him slaughter his own people. Darrowshire now lies in haunted ruins."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "The fallen realm of Lordaeron holds profound tragedy for the Silver Hand, from the site of Arthas's dark turning in Stratholme to the valiant last stand at Light's Hope Chapel."
+   "text": "Lordaeron's fall weighs heavily on the Silver Hand. Stratholme is where Arthas turned to darkness, and Light's Hope Chapel saw a valiant last stand."
   },
   {
    "target": "race:Undead",
-   "text": "The Eastern Plaguelands represent both the birthplace of the Scourge menace and a vital frontline where the Forsaken strike back against their former masters and the Scarlet zealots."
+   "text": "As an undead, you know the Eastern Plaguelands as the Scourge's birthplace and a frontline where the Forsaken strike against their former masters and the Scarlet zealots."
   },
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, venturing into the Plaguelands is a solemn pilgrimage to reclaim and honor the devastated remnants of their former northern allies."
+   "text": "For the Alliance, you enter the Plaguelands on a solemn pilgrimage to reclaim and honor the devastated remnants of your former northern allies."
   },
   {
    "target": "profession:Herbalism",
-   "text": "This blighted region is one of the exceptionally rare places to gather volatile, high-tier herbs like Arthas' Tears, Plaguebloom, and Black Lotus."
+   "text": "You can gather rare, volatile herbs in this blighted region, including Arthas' Tears, Plaguebloom, and Black Lotus."
   },
   {
    "target": "profession:Mining",
-   "text": "Veins of Truesilver, Mithril, and Rich Thorium are embedded across the corrupted hillsides and dangerous Scourge-infested valleys."
+   "text": "Truesilver, Mithril, and Rich Thorium veins lie across the corrupted hillsides and dangerous valleys infested by the Scourge."
   }
  ],
  "keywords": [
@@ -126,5 +126,6 @@
  "attribution": [
   "Eastern Plaguelands (Classic)",
   "Eastern Plaguelands"
- ]
+ ],
+ "style": 2
 }

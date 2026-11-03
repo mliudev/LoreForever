@@ -17,16 +17,16 @@
   "wiki": "Wanted: Lieutenant Fangore (quest)",
   "chain": []
  },
- "summary": "A bounty in Lakeshire calls for Lieutenant Fangore's death. Magistrate Solomon seeks hunters to stop the Shadowhide gnolls pressing into the Redridge Mountains. Fangore serves the renegade sorcerer Morganth, and his death would strike at Morganth's forces.",
+ "summary": "In Lakeshire, a bounty calls for Lieutenant Fangore's death. Magistrate Solomon seeks hunters to stop the Shadowhide gnolls pressing into the Redridge Mountains. Fangore serves the renegade sorcerer Morganth, and his death would strike at Morganth's forces.",
  "sections": [
   {
    "title": "A Town Under Siege",
-   "body": "Lakeshire faces growing danger. Stormwind's army is stretched thin, and King Varian Wrynn is mysteriously absent. Highlord Bolvar Fordragon has left frontier settlements like Redridge to defend themselves. The Shadowhide clan raids trade routes, burns farmsteads, and presses against the town's perimeter. Magistrate Solomon posts bounties to draw mercenary blades where royal soldiers will not march.",
+   "body": "Lakeshire faces growing danger. Stormwind's army is stretched thin, and King Varian Wrynn is mysteriously absent. Highlord Bolvar Fordragon has left frontier settlements like Redridge to defend themselves.\n\nThe Shadowhide clan raids trade routes, burns farmsteads, and presses against the town's perimeter. Magistrate Solomon posts bounties to draw mercenary blades where royal soldiers will not march.",
    "spoiler": 0
   },
   {
    "title": "Morganth's Lieutenant",
-   "body": "Lieutenant Fangore leads the Shadowhide gnolls as Morganth's enforcer. Morganth is a rogue dark wizard hiding in the Redridge hills. Under Fangore, the gnolls coordinate their attacks instead of fighting as scattered scavengers. Their strikes threaten to sever Lakeshire from Elwynn Forest. Fangore's severed paw would give Magistrate Solomon proof that Morganth's brute vanguard has been broken.",
+   "body": "Lieutenant Fangore leads the Shadowhide gnolls as Morganth's enforcer. Morganth is a rogue dark wizard hiding in the Redridge hills. Under Fangore, the gnolls strike together instead of scattering like scavengers.\n\nTheir attacks threaten to sever Lakeshire from Elwynn Forest. Fangore's severed paw would give Magistrate Solomon proof that Morganth's brute vanguard has been broken.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is fangore",
     "fangore lore"
    ],
-   "answer": "Lieutenant Fangore leads the Shadowhide gnolls in Redridge, coordinating their raids and enforcing the will of Morganth, a dark sorcerer who threatens Lakeshire."
+   "answer": "Lieutenant Fangore leads the Shadowhide gnolls in Redridge. He coordinates their raids and enforces the will of Morganth, a dark sorcerer who threatens Lakeshire."
   },
   {
    "q": "Who posted the bounty for Lieutenant Fangore?",
@@ -47,7 +47,7 @@
     "who wants fangore dead",
     "magistrate solomon fangore"
    ],
-   "answer": "Magistrate Solomon, Lakeshire's town leader, posted the bounty to defend Redridge's perimeter from hostile gnolls and dark spellcasters."
+   "answer": "Magistrate Solomon, Lakeshire's town leader, posted the bounty. He seeks to defend Redridge's perimeter from hostile gnolls and dark spellcasters."
   },
   {
    "q": "Why doesn't Stormwind send soldiers to handle the gnolls?",
@@ -56,7 +56,7 @@
     "where are stormwind soldiers",
     "why isn't the army helping"
    ],
-   "answer": "Stormwind is paralyzed by King Varian Wrynn's sudden disappearance and domestic unrest. Highlord Bolvar Fordragon and the House of Nobles have refused to send regular army detachments to outlying towns like Lakeshire, leaving Magistrate Solomon to hire mercenary adventurers."
+   "answer": "Stormwind is paralyzed by King Varian Wrynn's sudden disappearance and domestic unrest. Highlord Bolvar Fordragon and the House of Nobles have refused to send regular army detachments to outlying towns like Lakeshire. So Magistrate Solomon hires mercenary adventurers."
   },
   {
    "q": "What proof is required to claim the bounty?",
@@ -117,5 +117,5 @@
  "attribution": [
   "Wanted: Lieutenant Fangore (quest)"
  ],
- "style": 1
+ "style": 2
 }

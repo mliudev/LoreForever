@@ -17,21 +17,21 @@
   "wiki": "Escape Through Stealth",
   "chain": []
  },
- "summary": "In Darkshore, Volcor needs help escaping a furbolg den. Guide the trapped night elf scout past hostile beasts, then report to Terenthis in Auberdine.",
+ "summary": "In Darkshore, Volcor needs your help escaping a furbolg den. Guide the trapped night elf scout past hostile beasts, then report to Terenthis in Auberdine.",
  "sections": [
   {
    "title": "The Trapped Scout",
-   "body": "Volcor, a night elf scout sent to investigate Darkshore's mounting threats, is trapped inside a furbolg cave. Cut off from the main roads and outnumbered, he needs an ally to help him escape before the furbolgs discover him.",
+   "body": "Volcor, a night elf scout, was sent to investigate Darkshore's growing threats. Now he is trapped inside a furbolg cave, cut off from the main roads and outnumbered. He needs your help to escape before the furbolgs discover him.",
    "spoiler": 0
   },
   {
    "title": "A Careful Flight",
-   "body": "Volcor chooses a careful path through the cave instead of charging the corrupted denizens. Once outside, he runs ahead on foot and asks you to meet him in Auberdine, where he can travel faster alone.",
+   "body": "Volcor takes a careful path through the cave instead of charging its corrupted denizens. Once outside, he runs ahead on foot. He asks you to meet him in Auberdine, where he can travel faster alone.",
    "spoiler": 0
   },
   {
    "title": "Reporting to Auberdine",
-   "body": "Back in Auberdine, you bring news of Volcor's rescue to Terenthis, a night elf leader working to protect the troubled coast. Volcor's safe return shows that discipline and teamwork can resist the darkness spreading through Darkshore and the wilderness beyond.",
+   "body": "Back in Auberdine, you bring news of Volcor's rescue to Terenthis, a night elf leader who works to protect the troubled coast. Volcor's safe return shows that discipline and teamwork can resist the darkness spreading through Darkshore and the wilderness beyond.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "who is volcor",
     "volcor darkshore"
    ],
-   "answer": "Volcor is a night elf scout sent into Darkshore's wilderness on a mission for his superiors. He became trapped in a furbolg cave until an Alliance adventurer rescued him."
+   "answer": "Volcor is a night elf scout sent by his superiors to investigate Darkshore's wilderness. He became trapped in a furbolg cave until an Alliance adventurer rescued him."
   },
   {
    "q": "Why does Volcor run off alone once outside the cave?",
@@ -51,7 +51,7 @@
     "why does volcor leave",
     "volcor splits up"
    ],
-   "answer": "Volcor says he can travel faster alone once clear of the cave's narrow passages. He asks you to meet him in Auberdine rather than travel together along the open roads."
+   "answer": "Volcor says he can travel faster alone once clear of the cave's narrow passages. He asks you to meet him in Auberdine instead of traveling together along the open roads."
   },
   {
    "q": "Who is Terenthis?",
@@ -59,7 +59,7 @@
     "terenthis auberdine",
     "who is terenthis"
    ],
-   "answer": "Terenthis is a night elf leader stationed in Auberdine. He coordinates local scouting and organizes responses to the corruption and hostile denizens threatening Darkshore."
+   "answer": "Terenthis is a night elf leader in Auberdine. He coordinates local scouting and organizes responses to the corruption and hostile denizens threatening Darkshore."
   },
   {
    "q": "Where does this rescue take place?",
@@ -90,11 +90,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, helping Volcor supports the network of scouts watching Kalimdor's troubled forests as corruption spreads from barrows and dens."
+   "text": "As a night elf, helping Volcor supports the scouts watching Kalimdor's troubled forests as corruption spreads from barrows and dens."
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you can appreciate Volcor's choice to bypass an entrenched enemy rather than risk a reckless frontal fight."
+   "text": "As a rogue, you can appreciate Volcor's choice to bypass an entrenched enemy instead of risking a reckless frontal fight."
   },
   {
    "target": "faction:Alliance",
@@ -122,5 +122,5 @@
  "attribution": [
   "Escape Through Stealth"
  ],
- "style": 1
+ "style": 2
 }

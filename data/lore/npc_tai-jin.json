@@ -8,11 +8,11 @@
   "wiki": "Tai'jin",
   "refs": 1
  },
- "summary": "At the Razor Hill barracks, Tai'jin guides young Darkspear priests in their spiritual traditions. She teaches the balance of light and shadow and rites such as the Hex of Weakness.",
+ "summary": "At the Razor Hill barracks, Tai'jin teaches young Darkspear priests the balance of light and shadow. She passes on troll spiritual traditions and rites such as the Hex of Weakness.",
  "sections": [
   {
    "title": "Priestess of Razor Hill",
-   "body": "Tai'jin guides young priests from the Razor Hill barracks as they set out into Durotar. Orcs here turn chiefly to shamanism or warlock arts, while Darkspear trolls bring their communion with spirits and loas to the Horde. Tai'jin teaches the first principles of priesthood, the balance of light and shadow, and the spiritual heritage of troll culture.",
+   "body": "Tai'jin guides young priests from the Razor Hill barracks as they set out across Durotar. Orcs here chiefly follow shamanism or warlock arts. Darkspear trolls bring their communion with spirits and loas to the Horde. Tai'jin teaches the first principles of priesthood and the balance of light and shadow, rooted in troll heritage.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is tai'jin",
     "taijin razor hill"
    ],
-   "answer": "Tai'jin is inside the Razor Hill Barracks in central Durotar, on the ground floor beside other class trainers."
+   "answer": "Tai'jin can be found on the ground floor of the Razor Hill Barracks in central Durotar, beside the other class trainers."
   },
   {
    "q": "What does Tai'jin teach?",
@@ -33,7 +33,7 @@
     "what does taijin train",
     "priest spells razor hill"
    ],
-   "answer": "Tai'jin teaches new priests spells, ranks, and abilities as they gain experience, including early instruction for troll initiates."
+   "answer": "Tai'jin teaches new priests spells, ranks, and abilities as they gain experience. Her lessons include early instruction for troll initiates."
   },
   {
    "q": "Why is a troll priest stationed in an orc settlement?",
@@ -41,7 +41,7 @@
     "why is taijin in razor hill",
     "trolls in razor hill barracks"
    ],
-   "answer": "Razor Hill trains young Horde adventurers leaving the Valley of Trials and Sen'jin Village. Since orcs do not practice the priestly arts, Tai'jin brings Darkspear spiritual traditions to the settlement."
+   "answer": "Razor Hill trains young Horde adventurers leaving the Valley of Trials and Sen'jin Village. Orcs do not practice priestly arts, so Tai'jin brings Darkspear spiritual traditions to the settlement."
   },
   {
    "q": "What special rites does Tai'jin provide for troll priests?",
@@ -49,7 +49,7 @@
     "hex of weakness quest",
     "taijin quests"
    ],
-   "answer": "Tai'jin guides Darkspear priests through introductory spiritual rites, including the Hex of Weakness, which channels ancestral curses."
+   "answer": "Tai'jin guides Darkspear priests through introductory spiritual rites, including the Hex of Weakness. The rite channels ancestral curses."
   }
  ],
  "angles": [
@@ -81,5 +81,5 @@
  "attribution": [
   "Tai'jin"
  ],
- "style": 1
+ "style": 2
 }

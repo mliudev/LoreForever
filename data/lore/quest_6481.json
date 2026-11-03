@@ -17,16 +17,16 @@
   "wiki": "Earthen Arise",
   "chain": []
  },
- "summary": "In Boulderslide Ravine, Mor'rogal finds Goggeroc asleep inside a Resonite cask. The tauren shaman fears what the ancient Earthen could do to Kalimdor, and sends a champion to break the cask and kill Goggeroc before its strength returns.",
+ "summary": "In Boulderslide Ravine, Mor'rogal finds Goggeroc asleep inside a Resonite cask. The tauren shaman fears the ancient Earthen could threaten all Kalimdor, so he sends a champion to break the cask and slay Goggeroc before its strength returns.",
  "sections": [
   {
    "title": "A Slumber in Stone",
-   "body": "Scouts searching Boulderslide Ravine for vermin found a strange relic among the kobolds: a Resonite cask filled with unearthly force. Mor'rogal, a tauren shaman in the Stonetalon Mountains, recognized it as both prison and sanctuary for Goggeroc, a dormant Earthen. These ancient beings of stone can outmatch mortal warriors, and Goggeroc's freedom could threaten the whole region.",
+   "body": "Scouts searching Boulderslide Ravine for vermin found a strange relic among the kobolds. A Resonite cask held unearthly force. Mor'rogal, a tauren shaman in the Stonetalon Mountains, knew it was both prison and sanctuary for Goggeroc, a dormant Earthen. These ancient beings of stone can outmatch mortal warriors, and Goggeroc's freedom could endanger the whole region.",
    "spoiler": 0
   },
   {
    "title": "The Resonite Crystal",
-   "body": "Mor'rogal fears what Goggeroc could do if awakened at full strength. He alters the mixture of resonite crystals brought to him, infusing them with shamanistic magic. The enchanted crystal can shatter the Resonite cask and shock Goggeroc awake while he is still weak. Horde warriors must then strike down the disoriented titan-forged being before he shakes off centuries of slumber.",
+   "body": "Mor'rogal fears what Goggeroc could do if awakened at full strength. He changes the mixture of resonite crystals brought to him, infusing them with shamanistic magic. The enchanted crystal can break the Resonite cask and rouse Goggeroc while he is still weak. Horde warriors must strike down the disoriented titan-forged being before he shakes off centuries of slumber.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who is questgiver",
     "orc shaman morrogal"
    ],
-   "answer": "Mor'rogal is a tauren shaman stationed in the Stonetalon Mountains. He studies disturbances in the region and uses elemental magic to assess the ancient artifacts and threats uncovered by local vermin."
+   "answer": "Mor'rogal is a tauren shaman stationed in the Stonetalon Mountains. He studies disturbances in the region and uses elemental magic to assess ancient artifacts and threats uncovered by local vermin."
   },
   {
    "q": "What is an Earthen?",
@@ -47,7 +47,7 @@
     "earthen lore",
     "who are earthen"
    ],
-   "answer": "Earthen are ancient beings forged from living stone, left behind by the Titans at the world's dawn. They are bound to the earth and possess immense strength. For millennia, they have slept buried across Kalimdor and the Eastern Kingdoms."
+   "answer": "Earthen are ancient beings forged from living stone, left by the Titans at the world's dawn. Bound to the earth, they possess immense strength. For millennia, they have slept buried across Kalimdor and the Eastern Kingdoms."
   },
   {
    "q": "Why does Mor'rogal want Goggeroc dead?",
@@ -56,7 +56,7 @@
     "is goggeroc evil",
     "why slay earthen"
    ],
-   "answer": "Mor'rogal fears Goggeroc's strength could bring catastrophe to Stonetalon and all of Kalimdor. He believes the only way to protect the land is to destroy Goggeroc while he is weakened by slumber."
+   "answer": "Mor'rogal fears Goggeroc's strength could bring catastrophe to Stonetalon and all of Kalimdor. He believes the land can only be protected by destroying Goggeroc while slumber has left him weak."
   },
   {
    "q": "Where is Goggeroc located?",
@@ -74,7 +74,7 @@
     "use enchanted resonite crystal",
     "open cask"
    ],
-   "answer": "You use Mor'rogal's Enchanted Resonite Crystal on the Resonite cask in the cave. Its magic breaks the container and forces the sleeping Earthen into the open."
+   "answer": "You awaken Goggeroc by using Mor'rogal's Enchanted Resonite Crystal on the Resonite cask in the cave. Its magic breaks the container and forces the sleeping Earthen into the open."
   },
   {
    "q": "What happens after Goggeroc is slain?",
@@ -89,15 +89,15 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you can see Mor'rogal use shamanistic power to alter resonite crystals and disrupt the elemental balance preserving Goggeroc inside the cask."
+   "text": "As a shaman, you see Mor'rogal use shamanistic power to alter resonite crystals and disrupt the elemental balance preserving Goggeroc inside the cask."
   },
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you know Stonetalon as ancestral hunting ground for the tribes of Thunder Bluff. Defeating an ancient destructive being in its peaks protects the land from ruin."
+   "text": "As a tauren, you know Stonetalon as an ancestral hunting ground for the tribes of Thunder Bluff. Defeating an ancient destructive being in its peaks protects the land from ruin."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you help secure the faction's presence in Stonetalon's contested crags by defeating Goggeroc, earning the lasting respect of Thunder Bluff's leaders."
+   "text": "As a member of the Horde, you help secure the faction's presence in Stonetalon's contested crags by defeating Goggeroc. You earn the lasting respect of Thunder Bluff's leaders."
   }
  ],
  "keywords": [
@@ -120,5 +120,5 @@
  "attribution": [
   "Earthen Arise"
  ],
- "style": 1
+ "style": 2
 }

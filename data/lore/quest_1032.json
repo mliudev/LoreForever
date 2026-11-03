@@ -17,16 +17,16 @@
   "wiki": "Satyr Slaying! (Classic)",
   "chain": []
  },
- "summary": "At the Shrine of Aessina, Illiyana asks Alliance champions to strike at the satyrs of Ashenvale. Grieving her sister Anilia, she seeks vengeance and asks you to bring back satyr horns as proof.",
+ "summary": "At the Shrine of Aessina, Illiyana calls Alliance champions against Ashenvale's satyrs. She grieves for her sister Anilia and asks you to bring back satyr horns as proof.",
  "sections": [
   {
    "title": "A Dryad's Grief",
-   "body": "Anilia's death has left Illiyana in grief at the Shrine of Aessina. Dryads are forest spirits bonded to nature, often playful and serene, and elusive to mortals. Anilia's brutal slaying shattered that calm for her sister. Illiyana now turns to Alliance travelers to strike down the demonic beasts responsible.",
+   "body": "Anilia's death has left Illiyana grieving at the Shrine of Aessina. Dryads are forest spirits bound to nature, often playful and serene, yet elusive to mortals. Anilia's brutal slaying shattered that calm. Now Illiyana calls on Alliance travelers to strike down the demonic beasts responsible.",
    "spoiler": 0
   },
   {
    "title": "The Corrupted Kin",
-   "body": "Satyrs were once night elves, but demonic energy corrupted them during the War of the Ancients. They lurk in defiled groves across Ashenvale and prey on the woods' inhabitants as servants of the Burning Legion. Bringing Illiyana their horns gives proof of vengeance and strikes at the fel presence encroaching on eastern Ashenvale.",
+   "body": "Once night elves, the satyrs were corrupted by demonic energy during the War of the Ancients. They lurk in defiled groves across Ashenvale and prey on the woods' inhabitants as servants of the Burning Legion. Their horns prove vengeance to Illiyana and mark a strike against the fel presence encroaching on eastern Ashenvale.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is the quest giver",
     "forest song dryad"
    ],
-   "answer": "Illiyana is a dryad who lives at the Shrine of Aessina in Ashenvale. Gentle by nature, she mourns her sister Anilia, who was slain by local satyrs."
+   "answer": "Illiyana is a dryad who lives at the Shrine of Aessina in Ashenvale. Gentle by nature, she mourns her sister Anilia, slain by local satyrs."
   },
   {
    "q": "Who was Anilia?",
@@ -47,7 +47,7 @@
     "illiyana sister",
     "who died"
    ],
-   "answer": "Anilia was a dryad and Illiyana's beloved sister. They spent ages among Ashenvale's ancient canopies until satyrs ambushed and killed Anilia."
+   "answer": "Anilia was a dryad and Illiyana's beloved sister. They spent ages beneath Ashenvale's ancient canopies until satyrs ambushed and killed Anilia."
   },
   {
    "q": "Why does Illiyana ask for satyr horns?",
@@ -55,7 +55,7 @@
     "why satyr horns",
     "satyr horn proof"
    ],
-   "answer": "Illiyana asks for satyr horns as proof that the creatures who killed Anilia have been slain. She hopes this will bring her sister's spirit peace."
+   "answer": "Illiyana asks for satyr horns as proof that the creatures who killed Anilia have been slain. She hopes the proof will bring her sister's spirit peace."
   },
   {
    "q": "What are satyrs?",
@@ -80,21 +80,21 @@
     "followup quest",
     "repeatable satyr quest"
    ],
-   "answer": "Illiyana continues to accept satyr horns after Anilia is avenged. Ashenvale's defenders are still working to drive the satyrs from the forest."
+   "answer": "Illiyana continues to accept satyr horns after Anilia is avenged. Ashenvale's defenders still work to drive the satyrs from the forest."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid, avenging a fallen dryad and taking the horns of demonic satyrs strikes at the corruption in Cenarius's favored wilderness."
+   "text": "As a druid, you strike at corruption in Cenarius's favored wilderness by avenging a fallen dryad and taking the horns of demonic satyrs."
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you know satyrs as a shameful reminder of the Highborne's ancient fall into fel servitude. Helping Illiyana cleanses the land of this ancestral blight."
+   "text": "As a night elf, you know satyrs as a shameful reminder of the Highborne's ancient fall into fel servitude. You help cleanse the land of this ancestral blight."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance champion, you help thin the satyr ranks and make Ashenvale's forest safer from the wild threats around you."
+   "text": "As an Alliance champion, you thin the satyr ranks and make Ashenvale's forest safer from the wild threats around you."
   }
  ],
  "keywords": [
@@ -115,5 +115,5 @@
  "attribution": [
   "Satyr Slaying! (Classic)"
  ],
- "style": 1
+ "style": 2
 }

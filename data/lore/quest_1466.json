@@ -27,16 +27,16 @@
    "Reagents for Reclaimers Inc."
   ]
  },
- "summary": "Kreldig Ungor has the last of the items Leftwitch wants, and he admits it is not pretty and will take longer than the others. All of it comes from demons: brains, wings and vials of blood.",
+ "summary": "In Desolace, Kreldig Ungor has the last items Leftwitch requested. They all come from demons: brains, wings, and blood.",
  "sections": [
   {
    "title": "The Last of the List",
-   "body": "Kreldig warns that the final set is a grim business, slower to gather than any before it. Leftwitch wants three kinds of parts, ten of each. The brains come from felhounds: mana eaters, mage hunters or ley hunters. The wings come from the nether maidens, sisters or sorceresses. The blood comes from doomwarder captains or lords. Kreldig says he would understand if you passed on this one.",
+   "body": "Kreldig Ungor warns you that the final set is grim and slower to gather than any before. Leftwitch wants ten of each of three kinds of parts. You can take felhound brains from mana eaters, mage hunters, or ley hunters. The wings come from nether maidens, sisters, or sorceresses, while doomwarder captains and lords carry the blood. Kreldig would understand if you passed on this one.",
    "spoiler": 0
   },
   {
    "title": "Demons in Desolace",
-   "body": "Kreldig had not even realized these demons were in Desolace. From his reading, Desolace belonged mostly to the centaur once the night elves departed years ago, and he wonders how and why the demons settled here. They dwell near Mannoroc Coven, in Desolace's south, beyond the Kodo Graveyard.",
+   "body": "Kreldig Ungor had not known these demons lived in Desolace. His reading said the centaur held most of the land after the night elves departed years ago. So he wonders how the demons came here and why they settled. They dwell near Mannoroc Coven in southern Desolace, beyond the Kodo Graveyard.",
    "spoiler": 0
   }
  ],
@@ -48,7 +48,7 @@
     "who wants the demon parts",
     "who is kreldig ungor"
    ],
-   "answer": "Kreldig Ungor passes along Leftwitch's list, and these demon parts are the last items on it."
+   "answer": "Kreldig Ungor passes along Leftwitch's list, and the demon parts are the final items she requested."
   },
   {
    "q": "What creatures hold the required items?",
@@ -57,7 +57,7 @@
     "where to get nether wings",
     "which doomwarders have blood"
    ],
-   "answer": "Felhound brains come from mana eaters, mage hunters and ley hunters. Wings come from the nether maidens, sisters and sorceresses. Blood comes from doomwarder captains and lords."
+   "answer": "Mana eaters, mage hunters, and ley hunters have felhound brains. Nether maidens, sisters, and sorceresses have wings. Doomwarder captains and lords have blood."
   },
   {
    "q": "Where can these demons be found?",
@@ -66,7 +66,7 @@
     "where is mannoroc coven",
     "where do the demons roam"
    ],
-   "answer": "They gather near Mannoroc Coven, at the southern end of Desolace, beyond the Kodo Graveyard."
+   "answer": "The demons gather near Mannoroc Coven in southern Desolace, beyond the Kodo Graveyard."
   },
   {
    "q": "Why does Kreldig find the demons surprising?",
@@ -74,7 +74,7 @@
     "why are demons in desolace",
     "centaur lore desolace"
    ],
-   "answer": "He had read that the centaur held Desolace once the night elves left years ago, so the demons' presence puzzles him."
+   "answer": "Kreldig had read that the centaur held Desolace after the night elves left years ago, so the demons' presence puzzles him."
   }
  ],
  "angles": [],
@@ -98,5 +98,6 @@
  ],
  "attribution": [
   "Reagents for Reclaimers Inc. (3)"
- ]
+ ],
+ "style": 2
 }

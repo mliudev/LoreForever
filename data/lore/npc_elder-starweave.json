@@ -8,11 +8,11 @@
   "wiki": "Elder Starweave",
   "refs": 1
  },
- "summary": "During the Lunar Festival, Elder Starweave rests in Auberdine as a night elf ancestral spirit. She shares ancient wisdom with pilgrims along Darkshore’s coast.",
+ "summary": "During the Lunar Festival, Elder Starweave rests in Auberdine as a night elf ancestral spirit. Along Darkshore’s coast, she shares ancient wisdom with pilgrims.",
  "sections": [
   {
    "title": "A Beacon in Auberdine",
-   "body": "In Auberdine, Elder Starweave appears as an ethereal shade among the coastal dwellings. The Cenarion Circle and the peoples of Kalimdor honor her as an ancestor. Travelers pass through the port on their way inland or across the sea, but those who pause before her receive an ancestral blessing. She speaks of the stars, whose paths in this age differ from those of old, and sees them as beacons of hope and fortitude for generations to come.",
+   "body": "In Auberdine, Elder Starweave appears as an ethereal shade among the coastal dwellings. The Cenarion Circle and the peoples of Kalimdor honor her as an ancestor. Travelers pass through the port on their way inland or across the sea, yet those who pause before her receive an ancestral blessing.\n\nElder Starweave speaks of the stars. Their paths in this age differ from those of old, yet she sees them as beacons of hope and fortitude for generations to come.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "is starweave dead",
     "why ghost"
    ],
-   "answer": "Elder Starweave is an honored ancestor who appears in spiritual form during the Lunar Festival, so the living may pay respects to those who shaped the night elves’ distant past."
+   "answer": "Elder Starweave is an honored ancestor who appears in spiritual form during the Lunar Festival. The living may then pay respects to those who shaped the night elves’ distant past."
   },
   {
    "q": "Can Horde players speak to her?",
@@ -56,7 +56,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf adventurer in Darkshore, you meet Elder Starweave and connect with your long lineage of forebears, who looked to Elune and the stars through ancient cataclysms."
+   "text": "As a night elf adventurer in Darkshore, you meet Elder Starweave and connect with your long lineage of forebears. They looked to Elune and the stars through ancient cataclysms."
   },
   {
    "target": "class:Druid",
@@ -81,5 +81,5 @@
  "attribution": [
   "Elder Starweave"
  ],
- "style": 1
+ "style": 2
 }

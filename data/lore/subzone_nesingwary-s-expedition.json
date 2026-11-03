@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Nesingwary's Expedition"
  },
- "summary": "Nesingwary's Expedition is a rustic hunting encampment situated in northern Stranglethorn Vale, just north of Lake Nazferiti. Established by the famed dwarven marksman Hemet Nesingwary, the outpost serves as a staging ground for hunters seeking to test their mettle against the jungle's fiercest predators.",
+ "summary": "Hunters gather at Nesingwary's Expedition in northern Stranglethorn Vale, north of Lake Nazferiti. Hemet Nesingwary has made this camp a base for hunters who test themselves against the jungle's fiercest predators.",
  "sections": [
   {
    "title": "A Hunters' Outpost in the Jungle",
-   "body": "Tucked alongside the river north of Lake Nazferiti, this remote encampment is a bustling haven for big game hunters, trackers, and marksmen. Hemet Nesingwary established the camp to stalk the legendary beasts of Stranglethorn Vale, surrounded by seasoned peers like Sir S. J. Erlgadin, Ajeck Rouack, and Barnil Stonepot. Guarded by hired marksmen and supplied by neutral vendors, the camp welcomes anyone capable of handling a rifle or bow, regardless of their allegiances, uniting them under the singular pursuit of tracking down the deadliest predators the jungle has to offer.",
+   "body": "Beside the river north of Lake Nazferiti, Nesingwary's Expedition is a hunters' camp founded by Hemet Nesingwary. Sir S. J. Erlgadin, Ajeck Rouack, and Barnil Stonepot are among its seasoned hunters. Hired marksmen guard the camp, while neutral vendors supply it. Skilled riflemen and bowmen of any allegiance are welcome to hunt the jungle's deadliest predators.",
    "spoiler": 0
   },
   {
    "title": "Pages and Predators",
-   "body": "Life in the expedition camp revolves around intense competition and grand tall tales. Hunters are continually challenged to master the tracking and slaying of the jungle's native panthers, raptors, and tigers, culminating in hunts for apex beasts. Aside from the thrill of the chase, the camp contends with its own small logistical disasters, notably the scattering of Nesingwary's sprawling manuscript across the wilds, leaving camp scholars eager to recover every missing chapter.",
+   "body": "At Nesingwary's Expedition, hunters trade competition and tall tales. They learn to track panthers, raptors, and tigers before turning to the jungle's greatest beasts. There is work for scholars, too. Pages from Nesingwary's long manuscript have scattered across the wilds, and the scholars at camp seek every missing chapter.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "nesingwary camp leader",
     "who is in charge here"
    ],
-   "answer": "The camp was founded and is led by the legendary dwarven big game hunter Hemet Nesingwary, alongside a circle of veteran marksmen."
+   "answer": "Hemet Nesingwary, the famed dwarven big game hunter, founded the camp and leads it with a circle of veteran marksmen."
   },
   {
    "q": "Why is the expedition here in Stranglethorn Vale?",
@@ -37,7 +37,7 @@
     "why nesingwary stranglethorn",
     "purpose of camp"
    ],
-   "answer": "The expedition traveled to Stranglethorn to hunt the dense jungle's most dangerous wildlife, including prowling panthers, aggressive raptors, ferocious tigers, and legendary trophy beasts."
+   "answer": "The expedition came to Stranglethorn to hunt its dangerous wildlife, from prowling panthers and aggressive raptors to ferocious tigers and legendary trophy beasts."
   },
   {
    "q": "Is Nesingwary's Expedition friendly to both Alliance and Horde?",
@@ -46,7 +46,7 @@
     "can horde visit nesingwary",
     "can alliance visit nesingwary"
    ],
-   "answer": "Yes. The camp operates as a neutral hunting outfit. Nesingwary's hired guns maintain peace so long as visitors respect the camp, welcoming both Alliance and Horde hunters who wish to prove their tracking skills."
+   "answer": "Yes. Nesingwary's hired guns keep the camp neutral and maintain peace while visitors respect its grounds. Alliance and Horde hunters are welcome to test their tracking skills."
   },
   {
    "q": "What is the story behind the missing manuscript pages?",
@@ -55,17 +55,17 @@
     "why are pages scattered",
     "barnil stonepot book"
    ],
-   "answer": "Hemet Nesingwary authored an extensive hunting memoir titled 'The Green Hills of Stranglethorn.' Unfortunately, the manuscript's loose pages were lost throughout the wilderness, prompting camp archivist Barnil Stonepot to enlist travelers to recover them."
+   "answer": "Hemet Nesingwary wrote an extensive hunting memoir titled 'The Green Hills of Stranglethorn.' Its loose pages were lost in the wilderness, and camp archivist Barnil Stonepot enlisted travelers to recover them."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "For marksmen and beast masters, this camp is a proving ground where you can hone your tracking skills against the deadliest predators of Stranglethorn Vale."
+   "text": "As a hunter, you can hone your tracking skills here against Stranglethorn Vale's deadliest predators."
   },
   {
    "target": "race:Dwarf",
-   "text": "Seeing Hemet Nesingwary and fellow Khaz Modan mountaineers carving out a thriving camp amidst the humid tropical wilds is a familiar sight of dwarven grit and love for the hunt."
+   "text": "As a dwarf, you may recognize Hemet Nesingwary and fellow Khaz Modan mountaineers in this humid tropical wild. Grit and a love of the hunt brought them here."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Nesingwary's Expedition"
- ]
+ ],
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:955"
   ]
  },
- "summary": "In Bashal'Aran, Grell Earring carries traces of the seal binding Asterion.",
+ "summary": "In Bashal'Aran, Grell Earring bears traces of the seal that binds Asterion.",
  "sections": [
   {
    "title": "Traces in the Brass",
-   "body": "Wild Grells and Vile Sprites in Bashal'Aran gather scraps among the ruins and make earrings from them. Most mortals see only worthless trinkets. Asterion, an ancient night elf bound there as a tormented phantom, studies the magic lingering on the earrings. He hopes those traces will lead him to the ancient seal that imprisons him.",
+   "body": "Wild Grells and Vile Sprites gather scraps among Bashal'Aran's ruins and shape them into earrings. Most mortals see only trinkets without worth. But Asterion, an ancient night elf bound there as a tormented phantom, studies the magic they retain. He hopes those traces will lead him to the ancient seal that imprisons him.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "where to get grell earrings",
     "who drops grell earrings"
    ],
-   "answer": "Wild Grells and Vile Sprites in the ruined night elven settlement of Bashal'Aran in Darkshore carry the earrings."
+   "answer": "Wild Grells and Vile Sprites carry the earrings through the ruins of Bashal'Aran, a night elven settlement in Darkshore."
   },
   {
    "q": "Why does Asterion want these earrings?",
@@ -35,7 +35,7 @@
     "why collect grell earrings",
     "grell earring use"
    ],
-   "answer": "Asterion is an ancient spirit held captive in Bashal'Aran by potent magic. He uses the earrings to seek traces of the seal that has bound his soul for centuries."
+   "answer": "Asterion is an ancient spirit held captive in Bashal'Aran by potent magic. He seeks traces of the seal that has bound his soul for centuries."
   },
   {
    "q": "How do the earrings help Asterion search for the seal?",
@@ -51,17 +51,17 @@
     "did the earrings work",
     "asterion seal location"
    ],
-   "answer": "The earrings do not hold the seal. Their traces show that the creatures have recently been near it, guiding Asterion's search deeper into the ruins."
+   "answer": "The earrings do not hold the seal itself. Their traces show that the creatures have recently been near it, guiding Asterion deeper into the ruins."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "As a mage, you can see how metal may retain the ambient magic of ancient warding seals over time."
+   "text": "As a mage, you can see how metal may keep traces of the ambient magic from ancient warding seals over time."
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you see sacred ruins overrun by sprites wearing scavenged brass, a reminder of how far the once-grand estates of ancient Kalimdor have fallen."
+   "text": "As a night elf, you see sacred ruins overrun by sprites wearing scavenged brass. The sight recalls how far the once-grand estates of ancient Kalimdor have fallen."
   }
  ],
  "keywords": [
@@ -82,5 +82,5 @@
   "Grell Earring",
   "Bashal'Aran (2)"
  ],
- "style": 1
+ "style": 2
 }

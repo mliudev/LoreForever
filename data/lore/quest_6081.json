@@ -27,17 +27,17 @@
  "sections": [
   {
    "title": "A Journey Beyond the Wilderness",
-   "body": "In Durotar's arid canyon lands, skill with a bow and survival in the harsh wilds are only part of a hunter's duty. Young hunters first tame the plains beasts: fierce boars, crab scavengers, and armored scorpid stalkers. Once they prove their resilience, Thotar sends them from Razor Hill north through the red clay gulches to Orgrimmar's fortified gates, ready to take responsibility for a companion.",
+   "body": "In Durotar's arid canyons, skill with a bow and survival in the wild are only part of a hunter's duty. Young hunters first tame the plains beasts: fierce boars, crab scavengers, and armored scorpid stalkers. Once they prove their resilience, Thotar sends them from Razor Hill north through the red clay gulches to Orgrimmar's fortified gates. There, they must take responsibility for a companion.",
    "spoiler": 0
   },
   {
    "title": "The Valley of Honor",
-   "body": "Orgrimmar's Valley of Honor is an enclave where veteran stalkers and warriors hone their craft. There, aspiring hunters seek Ormak Grimshot, one of the Horde's revered master hunters. He looks beyond their youth to judge whether they have the patience to command a beast and sustain and nurture it through famine, battle, and loss.",
+   "body": "Orgrimmar's Valley of Honor is where veteran stalkers and warriors hone their craft. There, young hunters seek Ormak Grimshot, one of the Horde's revered master hunters. He looks beyond their youth to judge whether they have the patience to command a beast and care for it through famine, battle, and loss.",
    "spoiler": 0
   },
   {
    "title": "Bonding with the Wild",
-   "body": "A beast won through force remains wild until hunter and companion come to understand one another. Ormak teaches the sacred traditions that keep their bond: which foods nourish each creature's spirit, how discipline teaches a beast lethal techniques, and the spiritual focus needed to revive one that falls in the line of duty.",
+   "body": "A beast won through force remains wild until hunter and companion understand one another. Ormak teaches the traditions that keep their bond: which foods nourish each creature's spirit, how discipline teaches a beast lethal techniques, and the spiritual focus needed to revive one that falls in the line of duty.",
    "spoiler": 0
   }
  ],
@@ -58,7 +58,7 @@
     "find ormak grimshot",
     "where is ormak"
    ],
-   "answer": "Ormak Grimshot is in the Valley of Honor, an eastern district of Orgrimmar, among veteran hunter and warrior mentors."
+   "answer": "Ormak Grimshot is in Orgrimmar's Valley of Honor, an eastern district, among veteran hunter and warrior mentors."
   },
   {
    "q": "What skills does Ormak Grimshot teach you?",
@@ -67,7 +67,7 @@
     "quest reward skills",
     "hunter pet abilities"
    ],
-   "answer": "Ormak teaches you to train your companion with active and passive abilities, feed your pet to keep it loyal and content, and revive it if it dies in combat."
+   "answer": "Ormak teaches you to train your companion with active and passive abilities, feed it to keep it loyal and content, and revive it if it dies in combat."
   },
   {
    "q": "Why do orc and troll hunters have to visit Orgrimmar for this?",
@@ -93,17 +93,17 @@
     "do i need to do this",
     "can i skip training the beast"
    ],
-   "answer": "Without this training, a hunter cannot feed, properly train, or resurrect a companion. A captured beast grows unhappy and weak, and is ultimately prone to abandoning its hunter."
+   "answer": "Without this training, a hunter cannot feed, properly train, or resurrect a companion. A captured beast grows unhappy and weak, and may ultimately abandon its hunter."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "For a hunter, this training makes your pet a permanent, dependable ally rather than a fleeting summon, and teaches you the arts of Feed Pet and Revive Pet."
+   "text": "As a hunter, this training makes your pet a permanent, dependable ally rather than a fleeting summon. You learn the arts of Feed Pet and Revive Pet."
   },
   {
    "target": "race:Orc",
-   "text": "Orcs regard the bond with a hunting companion as a matter of martial honor and duty, tested in battle across Durotar's harsh frontiers."
+   "text": "For an orc, the bond with a hunting companion is a matter of martial honor and duty, tested in battle across Durotar's harsh frontiers."
   },
   {
    "target": "race:Troll",
@@ -137,5 +137,5 @@
  "attribution": [
   "Training the Beast (Orc and Troll)"
  ],
- "style": 1
+ "style": 2
 }

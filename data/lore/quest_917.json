@@ -17,16 +17,16 @@
   "wiki": "Webwood Egg (quest)",
   "chain": []
  },
- "summary": "In Shadowglen, Gilshalan Windwalker seeks an unhatched Webwood Egg for his study of Teldrassil’s wildlife. After gathering venom samples, he needs a living specimen to examine the unnatural aggression afflicting the forest’s creatures. An egg can be studied safely without subduing a full-grown spider.",
+ "summary": "In Shadowglen, Gilshalan Windwalker seeks a Webwood Egg for his study of Teldrassil’s wildlife. Venom samples are in hand, but he needs a living specimen to study the unnatural aggression in the forest’s creatures. An egg can be examined safely, without capturing a full-grown spider.",
  "sections": [
   {
    "title": "A Safe Specimen",
-   "body": "Gilshalan Windwalker needs live subjects to understand the unnatural corruption affecting the Webwood spiders around Shadowglen. You have secured raw venom from the aggressive spiders, but carrying a thrashing giant out of the depths would be deadly for a novice. Gilshalan asks you to bring back an unhatched egg from the brooding clutches inside Shadowthread Cave.",
+   "body": "Gilshalan Windwalker needs living subjects to understand the unnatural corruption affecting Webwood spiders around Shadowglen. You have gathered venom from the aggressive spiders, but taking a thrashing giant from the depths could prove deadly for a novice. So Gilshalan asks you to bring an unhatched egg from the brooding clutches inside Shadowthread Cave.",
    "spoiler": 0
   },
   {
    "title": "The Road to the Capital",
-   "body": "Webwood spiders brood in Shadowthread Cave, where the forest’s increasingly hostile arachnids make their nests. An intact egg gives scholars a controlled subject that can hatch under containment. Gilshalan plans to bundle it with his venom samples and send both to Darnassus for examination. With his local study complete, he directs recruits toward higher duties in the boughs of Aldrassil.",
+   "body": "Webwood spiders brood in Shadowthread Cave, where the increasingly hostile arachnids make their nests. An intact egg gives scholars a subject they can hatch under containment. Gilshalan plans to send it to Darnassus with his venom samples for examination. With his local study complete, he directs recruits toward higher duties in the boughs of Aldrassil.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why not catch a live spider",
     "why webwood egg"
    ],
-   "answer": "Gilshalan wants an egg because capturing a live giant spider is too dangerous for an unproven recruit and too difficult for him to contain alone. Researchers can transport an intact egg safely and arrange containment before the brood emerges."
+   "answer": "Gilshalan wants an egg because capturing a live giant spider is too dangerous for an unproven recruit and too difficult for him to contain alone. Researchers can transport an intact egg safely and prepare containment before it hatches."
   },
   {
    "q": "Where is the Webwood egg found?",
@@ -89,7 +89,7 @@
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you know that Cenarion researchers study eggs and venom to learn whether the corruption altering these beasts can be cleansed or whether the blight runs deeper."
+   "text": "As a druid, you know Cenarion researchers study eggs and venom to learn whether the corruption altering these beasts can be cleansed or whether the blight runs deeper."
   }
  ],
  "keywords": [
@@ -115,5 +115,5 @@
  "attribution": [
   "Webwood Egg (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -27,16 +27,16 @@
    "Torch of Retribution"
   ]
  },
- "summary": "After The Flame's Casing, Kalaran Windblade asks you to wait while the pieces are joined and the torch is enchanted. The work is a channeling that must not be disturbed.",
+ "summary": "At Kalaran Windblade's side, you wait while he joins the pieces and enchants The Torch of Retribution.",
  "sections": [
   {
    "title": "Binding the Pieces",
-   "body": "With the pieces gathered, Kalaran needs a moment to join them and lay the needed enchantments on the torch. The work is a channeling that must not be interrupted, so you wait while Kalaran casts.",
+   "body": "Kalaran Windblade needs time to join the pieces and enchant the torch. He channels magic as he works, so you wait and leave him undisturbed.",
    "spoiler": 0
   },
   {
    "title": "When the Wait Ends",
-   "body": "After a while, the torch appears before Kalaran, who says it is done. Kalaran adds that there is one final matter left for you to see to.",
+   "body": "After a while, the torch appears before Kalaran, and he says the work is done. One final matter remains for you to see to.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "who makes the torch",
     "kalaran windblade role"
    ],
-   "answer": "Kalaran Windblade combines the pieces and applies the enchantments, channeling magic to finish the torch."
+   "answer": "Kalaran Windblade joins the pieces and enchants the torch. He channels magic to complete it."
   },
   {
    "q": "What came right before this step?",
@@ -57,7 +57,7 @@
     "prerequisite",
     "what did i just do"
    ],
-   "answer": "The Flame's Casing, in which you found a Symbol of Ragnaros for Kalaran to make into the casing."
+   "answer": "The Flame's Casing came just before this. You found a Symbol of Ragnaros for Kalaran to make into the casing."
   },
   {
    "q": "Why must you not interrupt Kalaran?",
@@ -65,7 +65,7 @@
     "do not interrupt",
     "channeling process"
    ],
-   "answer": "Kalaran is channeling, and warns you not to interrupt the process while the pieces are combined."
+   "answer": "Kalaran is channeling magic as he joins the pieces. He warns you not to interrupt him."
   }
  ],
  "angles": [],
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "The Torch of Retribution"
- ]
+ ],
+ "style": 2
 }

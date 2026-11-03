@@ -10,11 +10,11 @@
    "quest:180"
   ]
  },
- "summary": "In the Redridge Mountains, Lieutenant Fangore leads the Shadowhide gnolls against Lakeshire. His severed paw proves his death to Magistrate Solomon, whose bounty seeks to end the threat Fangore poses to the besieged town.",
+ "summary": "In the Redridge Mountains, Fangore leads the Shadowhide gnolls against Lakeshire. His severed paw proves his death to Magistrate Solomon and may ease the danger closing around the town.",
  "sections": [
   {
    "title": "Trophy of a Fallen Chieftain",
-   "body": "Lieutenant Fangore is a primary field commander among the Shadowhide gnolls encroaching across the Redridge Mountains. He serves the renegade mage Morganth and directs attacks on trade roads, outlying farms, and the defenses around Lake Everstill. Gnoll raiders leave no uniforms, official seals, or banners to confirm their dead, so the township authorities rely on physical proof. Magistrate Solomon demanded Fangore's paw to prove he had been executed, giving Lakeshire some relief amid the dangers closing around the town.",
+   "body": "Lieutenant Fangore leads the Shadowhide gnolls across the Redridge Mountains. He serves the renegade mage Morganth and directs attacks on trade roads, outlying farms, and the defenses around Lake Everstill. The gnolls leave no uniforms, seals, or banners behind to identify their dead. So Magistrate Solomon demands Fangore's paw as proof that the lieutenant has been executed, giving Lakeshire some relief amid the dangers around town.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "whose paw is this",
     "fangore identity"
    ],
-   "answer": "The paw belongs to Lieutenant Fangore, a notorious leader among the Shadowhide gnolls in the Redridge Mountains. He organizes raids and leads forces under the direction of the dark wizard Morganth."
+   "answer": "The paw belongs to Lieutenant Fangore, a notorious leader among the Shadowhide gnolls in the Redridge Mountains. He directs raids and serves the dark wizard Morganth."
   },
   {
    "q": "Why does Magistrate Solomon want the paw?",
@@ -35,7 +35,7 @@
     "solomon bounty proof",
     "magistrate proof"
    ],
-   "answer": "Magistrate Solomon posted a wanted mandate condemning Fangore as a vile enemy of Stormwind. He requires the severed paw as indisputable physical proof that the Shadowhide lieutenant has been slain."
+   "answer": "Magistrate Solomon posted a wanted mandate condemning Fangore as a vile enemy of Stormwind. He requires the severed paw as physical proof that the Shadowhide lieutenant has been slain."
   },
   {
    "q": "Who is Lieutenant Fangore working for?",
@@ -44,7 +44,7 @@
     "who leads fangore",
     "morganth connection"
    ],
-   "answer": "Fangore serves Morganth, a rogue practitioner of dark magic who threatens Lakeshire from his tower in the eastern mountains and directs gnoll activity against the kingdom."
+   "answer": "Fangore serves Morganth, a rogue practitioner of dark magic. Morganth threatens Lakeshire from his tower in the eastern mountains and directs gnoll activity against the kingdom."
   },
   {
    "q": "Where is Lieutenant Fangore found?",
@@ -53,13 +53,13 @@
     "where is fangore",
     "find fangore"
    ],
-   "answer": "Lieutenant Fangore operates in the wilderness of the Redridge Mountains among the hostile Shadowhide gnoll encampments."
+   "answer": "Lieutenant Fangore operates in the Redridge Mountains among the hostile Shadowhide gnoll encampments."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance hero, bringing Fangore down and returning his paw gives relief to Lakeshire, a beleaguered town that receives scarce military support from Stormwind."
+   "text": "As an Alliance hero, bringing Fangore down and returning his paw brings relief to Lakeshire. The beleaguered town receives scarce military support from Stormwind."
   }
  ],
  "keywords": [
@@ -85,5 +85,5 @@
   "Fangore's Paw",
   "Wanted: Lieutenant Fangore (quest)"
  ],
- "style": 1
+ "style": 2
 }

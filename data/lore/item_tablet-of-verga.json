@@ -10,11 +10,11 @@
    "quest:1501"
   ]
  },
- "summary": "In Skull Rock, the Tablet of Verga lies in Burning Blade hands, its demonic runes sought by warlocks in Orgrimmar.",
+ "summary": "In Skull Rock, the Tablet of Verga remains in Burning Blade hands, while Orgrimmar's warlocks seek its demonic runes.",
  "sections": [
   {
    "title": "A Stolen Relic",
-   "body": "The Tablet of Verga bears ritual runes for summoning creatures of the Nether and bending them to a master's will. The Burning Blade cult stole the stone and hid it in a chest inside Skull Rock, just east of Orgrimmar. Warlocks in the Cleft of Shadow seek it to study the markings and learn to summon a voidwalker. Recovering it also keeps the cult from gaining that same advantage.",
+   "body": "The Tablet of Verga bears ritual runes for summoning creatures from the Nether and bending them to a master's will. The Burning Blade stole the stone and hid it in a chest inside Skull Rock, just east of Orgrimmar.\n\nWarlocks in the Cleft of Shadow seek the tablet to study its markings and learn to summon a voidwalker. Recovering it also keeps the cult from gaining that same advantage.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "where to find tablet of verga",
     "where is verga tablet"
    ],
-   "answer": "The Tablet of Verga is hidden in a Burning Blade Stash inside Skull Rock, a cavern complex crawling with cultists just east of Orgrimmar in Durotar."
+   "answer": "The Tablet of Verga lies in a Burning Blade Stash inside Skull Rock, a cavern complex crawling with cultists just east of Orgrimmar in Durotar."
   },
   {
    "q": "Who wants the Tablet of Verga recovered?",
@@ -35,7 +35,7 @@
     "who do i bring tablet of verga to",
     "gan'rul tablet"
    ],
-   "answer": "Gan'rul Bloodeye, a master warlock in the Cleft of Shadow beneath Orgrimmar, sends initiates to retrieve the tablet so he can teach them to summon greater minions."
+   "answer": "Gan'rul Bloodeye, a master warlock in the Cleft of Shadow beneath Orgrimmar, sends initiates to recover the tablet so he can teach them to summon greater minions."
   },
   {
    "q": "What power does the tablet contain?",
@@ -52,7 +52,7 @@
     "why do burning blade have tablet",
     "burning blade verga"
    ],
-   "answer": "The Burning Blade cult seeks to disrupt the Horde and increase its demonic power. Stealing the tablet denies Orgrimmar's practitioners key ritual knowledge while the cult keeps it for itself."
+   "answer": "The Burning Blade cult seeks to disrupt the Horde and increase its demonic power. By stealing the tablet, the cult denies Orgrimmar's practitioners key ritual knowledge while keeping it for itself."
   }
  ],
  "angles": [
@@ -88,5 +88,5 @@
   "Tablet of Verga",
   "Creature of the Void (Orgrimmar)"
  ],
- "style": 1
+ "style": 2
 }

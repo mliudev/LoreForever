@@ -17,21 +17,21 @@
   "wiki": "Battle of Hillsbrad (5)",
   "chain": []
  },
- "summary": "Horde forces strike at Azurelode Mine in the Battle of Hillsbrad. High Executor Darthalia orders them to kill Foreman Bonds and his crew, cutting iron shipments to Alliance armories.",
+ "summary": "At Azurelode Mine, Horde forces strike to cut iron shipments to Alliance armories. High Executor Darthalia has ordered Foreman Bonds and his crew killed.",
  "sections": [
   {
    "title": "Severing the Iron Supply",
-   "body": "High Executor Darthalia marked Azurelode Mine as vital to human strength after Horde forces seized the Hillsbrad Town Registry in earlier raids. The mine lies just south of Hillsbrad Fields, where workers keep extracting rich iron ore for Alliance weaponsmiths and armories. If the mine keeps operating, Southshore can rearm and strengthen its garrisons, undoing Tarren Mill's earlier victories.",
+   "body": "High Executor Darthalia marked Azurelode Mine as vital to human strength after the Horde seized the Hillsbrad Town Registry in earlier raids. The mine lies just south of Hillsbrad Fields. There, workers keep drawing rich iron ore for Alliance weaponsmiths and armories. If the mine stays open, Southshore can rearm and strengthen its garrisons, undoing Tarren Mill’s earlier victories.",
    "spoiler": 0
   },
   {
    "title": "A Decisive Message",
-   "body": "Darthalia orders Horde forces to kill Foreman Bonds, the human overseer, and a significant part of his workforce. The assault reaches into the mine's dark shafts to break production. It sends Southshore a clear warning: the Forsaken can reach its supply lines and isolated labor camps.",
+   "body": "Darthalia orders Horde forces to kill Foreman Bonds, the human overseer, and a large part of his workforce. The attack reaches into the mine’s dark shafts to halt production. Southshore receives a clear warning: the Forsaken can strike its supply lines and isolated labor camps.",
    "spoiler": 0
   },
   {
    "title": "Spoils for the Dark Lady",
-   "body": "Sylvanas Windrunner's forces also seek the mine's rich ore veins for their own foundries. Tarren Mill needs a steady supply of metal to make weapons and plate for the war across Lordaeron. The ore can turn a former human asset into a source of Forsaken arms.",
+   "body": "Sylvanas Windrunner’s forces also seek the mine’s rich ore veins for their own foundries. Tarren Mill needs a steady supply of metal for weapons and plate in the war across Lordaeron. The ore can turn a former human asset into a source of Forsaken arms.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "azurelode mine purpose",
     "why target the mine"
    ],
-   "answer": "Azurelode Mine supplies high-grade iron ore to Alliance armories. Taking it deprives garrisons such as Southshore of materials for forging and puts the ore in the Undercity's hands to equip Forsaken forces."
+   "answer": "Azurelode Mine supplies high-grade iron ore to Alliance armories. Taking it deprives garrisons such as Southshore of material for forging and puts the ore in the Undercity’s hands to equip Forsaken forces."
   },
   {
    "q": "Who is Foreman Bonds?",
@@ -70,7 +70,7 @@
     "town registry mine",
     "hillsbrad intel"
    ],
-   "answer": "Darthalia learned the mine was active and important to supply lines by reviewing the Hillsbrad Town Registry. Horde operatives recovered it in earlier strikes on human settlements."
+   "answer": "Darthalia learned the mine was active and vital to supply lines by reviewing the Hillsbrad Town Registry. Horde operatives recovered the registry in earlier strikes on human settlements."
   },
   {
    "q": "What happens after Foreman Bonds is slain?",
@@ -79,7 +79,7 @@
     "after killing bonds",
     "quest aftermath"
    ],
-   "answer": "With the mine crippled and its resources marked for Forsaken control, High Executor Darthalia widens the offensive against Hillsbrad's remaining infrastructure and presses closer to Southshore."
+   "answer": "With the mine crippled and its resources marked for Forsaken control, High Executor Darthalia widens the offensive against Hillsbrad’s remaining infrastructure and presses closer to Southshore."
   },
   {
    "q": "Does the Alliance defend the mine?",
@@ -94,15 +94,15 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an Undead, taking Azurelode Mine secures iron for the Deathguard and turns human industry toward arming Sylvanas's armies across Lordaeron."
+   "text": "As an Undead, taking Azurelode Mine secures iron for the Deathguard and turns human industry toward arming Sylvanas’s armies across Lordaeron."
   },
   {
    "target": "faction:Horde",
-   "text": "As Horde, disrupting Hillsbrad's main metal supply eases pressure on the Tarren Mill frontline and makes it harder for human troops to replace their equipment."
+   "text": "As Horde, disrupting Hillsbrad’s main metal supply eases pressure on the Tarren Mill frontline and makes it harder for human troops to replace their equipment."
   },
   {
    "target": "profession:Mining",
-   "text": "As a miner, you can see why Azurelode Mine's rich iron veins make it a point of conflict for those seeking valuable ore."
+   "text": "As a miner, you can see why Azurelode Mine’s rich iron veins draw those seeking valuable ore into conflict."
   }
  ],
  "keywords": [
@@ -128,5 +128,5 @@
  "attribution": [
   "Battle of Hillsbrad (5)"
  ],
- "style": 1
+ "style": 2
 }

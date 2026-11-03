@@ -8,11 +8,11 @@
   "wiki": "Cazul",
   "refs": 2
  },
- "summary": "In the Cleft of Shadow, Cazul guides young warlocks toward greater command of demons. Blind and ancient, he remains a keeper of old orc warlock traditions.",
+ "summary": "In the Cleft of Shadow, Cazul guides young warlocks toward command of demons. Though blind and ancient, he keeps old orc warlock traditions alive.",
  "sections": [
   {
    "title": "Eyes in the Dark",
-   "body": "Cazul waits in the Cleft of Shadow beneath Orgrimmar, where rising warlocks seek his counsel. Blind though he is, he senses the currents of the Twisting Nether and hears the whispers of demons. Those who want to master their craft and bind more dangerous servitors are often sent to him. His sight is gone, but his arcane power remains.",
+   "body": "Beneath Orgrimmar, Cazul waits in the Cleft of Shadow to counsel rising warlocks. Though blind, he senses the Twisting Nether's currents and hears demons whisper. Those who seek to master their craft and bind more dangerous servitors are often sent to him. His arcane power remains.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "cazul lore",
     "blind cazul npc"
    ],
-   "answer": "Cazul is an elderly, blind orc warlock who lives in the Cleft of Shadow beneath Orgrimmar. He advises aspiring warlocks in dark sorcery and demonology."
+   "answer": "Cazul is an elderly, blind orc warlock living in the Cleft of Shadow beneath Orgrimmar. He advises aspiring warlocks in dark sorcery and demonology."
   },
   {
    "q": "Why is Cazul blind?",
@@ -41,7 +41,7 @@
     "what does cazul teach",
     "warlock quest cazul"
    ],
-   "answer": "Cazul guides warlocks seeking to advance their craft, especially those learning to summon and bind a succubus."
+   "answer": "Cazul guides warlocks advancing their craft, especially those learning to summon and bind a succubus."
   }
  ],
  "angles": [
@@ -73,5 +73,5 @@
  "attribution": [
   "Cazul"
  ],
- "style": 1
+ "style": 2
 }

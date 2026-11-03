@@ -10,16 +10,16 @@
    "quest:1525"
   ]
  },
- "summary": "Across the eastern Barrens, Razormane spellcasters carry Fire Tar. Horde shamans use it to brew the Fire Sapta, which lets them commune with fire spirits.",
+ "summary": "Across the eastern Barrens, Razormane spellcasters carry Fire Tar. Horde shamans bring it to Telf Joolam, who brews it into a Fire Sapta that lets them commune with fire spirits.",
  "sections": [
   {
    "title": "A Concoction of the Razormane",
-   "body": "Razormane geomancers, mystics, and thornweavers carry Fire Tar. The quilboar use the flame-tuned substance in their harsh magic and rituals. Shamanic instructors prize it as a worldly reagent that helps mortal senses reach the raw fury of the elements.",
+   "body": "Razormane geomancers, mystics, and thornweavers carry Fire Tar. The quilboar use it in their harsh magic and rituals, where its power is tuned to flame. Shamanic instructors prize the substance as a worldly reagent. It helps mortal senses reach the raw fury of the elements.",
    "spoiler": 0
   },
   {
    "title": "The Path to the Fire Totem",
-   "body": "Young orc and troll shamans travel to Telf Joolam, high among Durotar's crags, to forge their fire totems. Telf asks them for a reagent pouch taken from Burning Blade cultists and Fire Tar gathered from the Razormane. He brews the two ingredients into a fire sapta. Drinking it lets a shaman perceive the fire spirits waiting atop the nearby peaks.",
+   "body": "Young orc and troll shamans travel high among Durotar's crags to Telf Joolam, where they forge their fire totems. Telf asks them to bring a reagent pouch taken from Burning Blade cultists and Fire Tar gathered from the Razormane. He brews the two ingredients into a fire sapta. A shaman who drinks it can perceive the fire spirits waiting atop the nearby peaks.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what does fire tar do",
     "why do i need fire tar"
    ],
-   "answer": "Shamans bring Fire Tar to Telf Joolam in Durotar, where he brews it with reagents from the Burning Blade into a Fire Sapta. The brew lets a shaman see and commune with fire spirits to earn a fire totem."
+   "answer": "Shamans bring Fire Tar to Telf Joolam in Durotar. He brews it with reagents from the Burning Blade into a Fire Sapta. The brew lets a shaman see and commune with fire spirits to earn a fire totem."
   },
   {
    "q": "Who carries Fire Tar?",
@@ -40,7 +40,7 @@
     "fire tar mobs",
     "where to get fire tar"
    ],
-   "answer": "Spellcasting Razormane quilboar carry Fire Tar in the eastern Barrens. These include Razormane Geomancers, Mystics, Thornweavers, and Water Seekers."
+   "answer": "Spellcasting Razormane quilboar carry Fire Tar in the eastern Barrens. They include Razormane Geomancers, Mystics, Thornweavers, and Water Seekers."
   },
   {
    "q": "Why do shamans need ingredients tied to hostile spellcasters?",
@@ -48,7 +48,7 @@
     "why quilboar tar",
     "why warlocks and quilboar"
    ],
-   "answer": "Saptas need physical components saturated with the matching element. Razormane casters and Burning Blade warlocks channel heat and destructive flame, so their everyday materials carry the fiery essence needed to awaken a shaman's elemental sight."
+   "answer": "Saptas need physical components saturated with the matching element. Razormane casters and Burning Blade warlocks channel heat and destructive flame. Their everyday materials carry the fiery essence needed to awaken a shaman's elemental sight."
   },
   {
    "q": "Where does Telf Joolam brew the Fire Sapta?",
@@ -56,7 +56,7 @@
     "where is telf joolam",
     "turn in fire tar"
    ],
-   "answer": "Telf Joolam brews the Fire Sapta on a high cliff overlooking Durotar's crags, near the path between Razor Hill and the Barrens. He teaches initiates to balance flame's destructive and creative nature."
+   "answer": "Telf Joolam brews the Fire Sapta on a high cliff overlooking Durotar's crags. The cliff lies near the path between Razor Hill and the Barrens. He teaches initiates to balance flame's destructive and creative nature."
   }
  ],
  "angles": [
@@ -93,5 +93,5 @@
   "Fire Tar",
   "Call of Fire (3)"
  ],
- "style": 1
+ "style": 2
 }

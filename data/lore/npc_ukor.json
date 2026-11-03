@@ -8,11 +8,11 @@
   "wiki": "Ukor",
   "refs": 1
  },
- "summary": "Near the eastern path outside the Valley of Trials, Ukor rests after carrying supplies from Razor Hill. The training grounds already had plenty, and he hopes the provisions can still help his people.",
+ "summary": "Outside the Valley of Trials, Ukor rests after carrying food south from Razor Hill. The grounds had enough provisions already, but he hopes his people can still use them.",
  "sections": [
   {
    "title": "A Peon's Errand",
-   "body": "Ukor rests by the eastern road outside the Valley of Trials, tired from carrying food south from Razor Hill. Orc peons often spend their days cutting lumber or hauling rocks under harsh taskmasters. Ukor chose to bring provisions to the recruits on his own initiative. He crossed Durotar's red plains, where scorpids and boars prowl, only to find the training grounds already well-stocked. His bundle was not needed. Now he asks passing young adventurers to carry the provisions back north to Innkeeper Grosk.",
+   "body": "Ukor rests by the eastern road outside the Valley of Trials, tired after carrying food south from Razor Hill. Orc peons spend their days cutting lumber or hauling rocks for harsh taskmasters. Ukor chose to bring provisions to the recruits on his own initiative.\n\nHe crossed Durotar’s red plains, where scorpids and boars prowl, only to find the training grounds already well stocked. His bundle was not needed. Now he asks passing young adventurers to carry it north to Innkeeper Grosk.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "ukor quest reason",
     "ukor food bundle"
    ],
-   "answer": "Ukor carried rations from Razor Hill to feed the young warriors training in the Valley of Trials. When he arrived, he found plenty of provisions already there, and the sack was not needed."
+   "answer": "Ukor carried rations south from Razor Hill to feed the young warriors training in the Valley of Trials. When he arrived, he found plenty of provisions already there, and the sack was not needed."
   },
   {
    "q": "What does Ukor ask passing travelers to do?",
@@ -74,5 +74,5 @@
  "attribution": [
   "Ukor"
  ],
- "style": 1
+ "style": 2
 }

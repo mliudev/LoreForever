@@ -17,7 +17,7 @@
   "wiki": "Hallowed Sigil (Classic)",
   "chain": []
  },
- "summary": "In Shadowglen, young night elf priests are called to begin their training in Aldrassil. Conservator Ilthalaine passes along Shanda's message as novices learn to wield Elune's grace.",
+ "summary": "In Shadowglen, the Hallowed Sigil carries Shanda's call to young night elf priests beginning their training in Aldrassil. Conservator Ilthalaine delivers her message as novices learn to wield Elune's grace.",
  "sections": [
   {
    "title": "A Calling to Service",
@@ -26,7 +26,7 @@
   },
   {
    "title": "A Changing World",
-   "body": "Shanda tells the young acolyte that unusual change has reached Teldrassil's sheltered sanctuary. Travelers fill the World Tree's boughs, including members of the wider Alliance who have leave to meet with the kaldorei. The wider world calls, but Shanda urges novices to first attend to the troubles facing Shadowglen before turning to conflicts beyond it.",
+   "body": "Shanda tells the young acolyte that unusual change has reached Teldrassil's sheltered sanctuary. Travelers fill the World Tree's boughs, including members of the wider Alliance who have leave to meet with the kaldorei. The wider world calls, but Shanda urges novices to first attend to Shadowglen's troubles before turning to conflicts beyond it.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is this sigil",
     "sigil of shanda"
    ],
-   "answer": "The Hallowed Sigil is an inscribed token Shanda sent by messenger to Conservator Ilthalaine to summon a novice priest for instruction in Aldrassil."
+   "answer": "The Hallowed Sigil is an inscribed token Shanda sent by messenger to Conservator Ilthalaine, summoning a novice priest for instruction in Aldrassil."
   },
   {
    "q": "Who is Shanda?",
@@ -63,7 +63,7 @@
     "alliance in teldrassil",
     "why outsiders on world tree"
    ],
-   "answer": "Alliance members are visiting Teldrassil to meet and confer with the kaldorei. The night elves formed ties with the Alliance after the Third War, and travelers from other races are beginning to arrive on the World Tree's boughs as both sides prepare for challenges facing Azeroth."
+   "answer": "Alliance members visit Teldrassil to meet and confer with the kaldorei. The night elves formed ties with the Alliance after the Third War, and travelers of other races are beginning to arrive on the World Tree's boughs as both sides prepare for Azeroth's challenges."
   },
   {
    "q": "What should a priest do after completing this task?",
@@ -89,7 +89,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you belong to a people whose culture centers on the priesthood and ancient traditions of devotion to the moon, guiding them for millennia."
+   "text": "As a night elf, your culture centers on the priesthood and ancient traditions of devotion to the moon, guiding your people for millennia."
   },
   {
    "target": "faction:Alliance",
@@ -116,5 +116,5 @@
  "attribution": [
   "Hallowed Sigil (Classic)"
  ],
- "style": 1
+ "style": 2
 }

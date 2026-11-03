@@ -17,16 +17,16 @@
   "wiki": "Nether-lace Garment",
   "chain": []
  },
- "summary": "At the Crossroads, Kil'hala weaves dryad hair into enchanted cloth for spellcasters. The finished garment marks the end of his specialized work in the Barrens.",
+ "summary": "At the Crossroads, Kil'hala weaves dryad hair into enchanted cloth for spellcasters. This garment completes his specialized work in the Barrens.",
  "sections": [
   {
    "title": "Weaving the Nether-Lace",
-   "body": "At the Crossroads in the Barrens, Kil'hala weaves nether-lace from the locks of laughing sisters. The dryads live in Ashenvale, and their hair is harvested for this work. Kil'hala binds the woodland enchantment in those rare, magically resonant locks into cloth that is comfortable and durable.",
+   "body": "At the Crossroads in the Barrens, Kil'hala weaves nether-lace from the locks of laughing sisters. The dryads live in Ashenvale, where their hair is gathered for his craft. He binds the woodland enchantment carried in those rare, resonant locks into cloth that is comfortable and durable.",
    "spoiler": 0
   },
   {
    "title": "Favors for Orgrimmar",
-   "body": "Kil'hala wants more than fine work from his trade. He hopes to win favor with Deino, a respected troll mage who lives in Orgrimmar's Valley of Spirits. By making exceptional garb for aspiring practitioners, he hopes to earn and keep Deino's good graces.",
+   "body": "Kil'hala seeks more than fine work from his trade. He hopes to win favor with Deino, a respected troll mage in Orgrimmar's Valley of Spirits. By making exceptional garb for aspiring practitioners, he hopes to earn and keep Deino's good graces.",
    "spoiler": 0
   }
  ],
@@ -53,7 +53,7 @@
     "who is deino",
     "why mention deino"
    ],
-   "answer": "Deino is an influential troll mage trainer in Orgrimmar's Valley of Spirits. Kil'hala hopes to keep her favor, and believes your satisfaction with his tailoring will reflect well on him."
+   "answer": "Deino is a respected troll mage who lives in Orgrimmar's Valley of Spirits. Kil'hala hopes to keep her favor, and believes your satisfaction with his tailoring will reflect well on him."
   },
   {
    "q": "Where did the materials for the garment come from?",
@@ -61,7 +61,7 @@
     "nether lace materials",
     "dryad hair cloth"
    ],
-   "answer": "The garment's core material is hair gathered from the elusive laughing sisters, dryads found across Ashenvale's forests."
+   "answer": "The garment's core material is hair gathered from the laughing sisters, dryads found across Ashenvale's forests."
   },
   {
    "q": "Who is this garment made for?",
@@ -69,7 +69,7 @@
     "who uses nether lace garment",
     "nether lace class"
    ],
-   "answer": "The garment is made chiefly for spellcasters, especially mages in training who need robes that channel arcane energies without hindering movement."
+   "answer": "The garment is chiefly for spellcasters, especially mages in training. Its robes channel arcane energies without hindering movement."
   },
   {
    "q": "Where is Kil'hala located?",
@@ -77,21 +77,21 @@
     "kil hala location",
     "where is kil hala"
    ],
-   "answer": "Kil'hala lives at the Crossroads, the central crossroads settlement in the heart of the Barrens."
+   "answer": "Kil'hala lives at the Crossroads, the central settlement in the heart of the Barrens."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "As a mage, you receive a garment that bridges wilderness trials in Ashenvale with Kil'hala's craftsmanship under Deino's guidance."
+   "text": "As a mage, you receive a garment shaped by wilderness trials in Ashenvale and Kil'hala's craftsmanship under Deino's guidance."
   },
   {
    "target": "profession:Tailoring",
-   "text": "As a tailor, you can see how exotic reagents such as dryad hair become cloth with innate magical protection."
+   "text": "As a tailor, you can see how dryad hair becomes cloth with innate magical protection."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you help equip its spellcasters with materials from Kalimdor's sacred woods, part of the ongoing contest between the Horde and Ashenvale's woodland defenders."
+   "text": "As a member of the Horde, you help equip its spellcasters with materials from Kalimdor's sacred woods. This work belongs to the ongoing contest between the Horde and Ashenvale's woodland defenders."
   }
  ],
  "keywords": [
@@ -114,5 +114,5 @@
  "attribution": [
   "Nether-lace Garment"
  ],
- "style": 1
+ "style": 2
 }

@@ -11,16 +11,16 @@
    "quest:6441"
   ]
  },
- "summary": "In Ashenvale, Satyr Horns draw dryads seeking vengeance and traders bound for Ratchet. The horns come from satyrs whose corruption has taken root in the ancient forest.",
+ "summary": "In Ashenvale, Satyr Horns draw dryads seeking vengeance and traders bound for Ratchet. They come from satyrs whose corruption has taken root in the ancient forest.",
  "sections": [
   {
    "title": "Trophies of Vengeance and Commerce",
-   "body": "Ashenvale’s satyrs bear horns that mark their demonic corruption. At the Shrine of Aessina, the dryad Illiyana gathers them in grief and vengeance for her lost sister Anilia. Pixel, a traveling goblin resting at Splintertree Post, seeks them for trade. Demand for satyr horns has risen in Ratchet, where hunters can sell these remnants of slain demons.",
+   "body": "Ashenvale’s satyrs bear horns that mark their demonic corruption. At the Shrine of Aessina, the dryad Illiyana gathers them for vengeance over her lost sister, Anilia. Pixel, a traveling goblin resting at Splintertree Post, wants them for trade. Demand has risen in Ratchet, where hunters sell these remnants of slain demons.",
    "spoiler": 0
   },
   {
    "title": "Culling the Corrupted Enclaves",
-   "body": "Satyr Horns must be cut from the beasts themselves; ordinary suppliers do not sell them. Satyrs hold strongholds across Ashenvale, including the corrupted groves of Xavian, the hollows of Satyrnaar, and the ruins of Night Run. Clearing these enclaves drives back the lingering demonic taint and supplies grieving guardians and eager merchants with proof of the cull.",
+   "body": "Satyr Horns must be cut from the satyrs themselves; ordinary suppliers do not sell them. Satyrs hold strongholds across Ashenvale, from the corrupted groves of Xavian to the hollows of Satyrnaar and the ruins of Night Run. Clearing these enclaves pushes back the lingering demonic taint. It also gives grieving guardians and eager merchants proof of the cull.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "anilia satyrs",
     "forest song quest"
    ],
-   "answer": "Illiyana seeks Satyr Horns to avenge her sister Anilia, whom the satyrs of Ashenvale murdered. The horns show that the satyrs’ numbers are falling and bring peace to Anilia’s spirit."
+   "answer": "Illiyana seeks Satyr Horns to avenge her sister Anilia, whom Ashenvale’s satyrs murdered. The horns show their numbers are falling and bring peace to Anilia’s spirit."
   },
   {
    "q": "Why is Pixel collecting Satyr Horns?",
@@ -41,7 +41,7 @@
     "why does pixel want horns",
     "ratchet satyr horns"
    ],
-   "answer": "Pixel, an enterprising traveler staying at Splintertree Post, collects Satyr Horns for the journey to Ratchet. She has learned that they fetch a high price in the goblin port and hires hunters to face the danger before she departs."
+   "answer": "Pixel, an enterprising traveler staying at Splintertree Post, gathers Satyr Horns for the journey to Ratchet. She knows they fetch a high price in the goblin port, so she hires hunters to face the danger before she departs."
   },
   {
    "q": "Where are the best places to find satyrs with these horns?",
@@ -68,7 +68,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "From Splintertree Post, Horde warriors clear satyrs threatening their timber operations and sell the horns to goblin buyers bound for Ratchet."
+   "text": "From Splintertree Post, Horde warriors clear satyrs who threaten their timber operations, then sell the horns to goblin buyers bound for Ratchet."
   }
  ],
  "keywords": [
@@ -97,5 +97,5 @@
   "Satyr Slaying! (Classic)",
   "Satyr Horns (quest)"
  ],
- "style": 1
+ "style": 2
 }

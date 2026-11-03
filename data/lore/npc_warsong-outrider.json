@@ -8,11 +8,11 @@
   "wiki": "Warsong Outrider",
   "refs": 1
  },
- "summary": "On the road east from Ashenvale, the Warsong Outrider watches the Horde's frontier. She scouts for the Warsong clan, watches travelers, and sends intelligence to its forward encampments. She keeps watch unless someone provokes her.",
+ "summary": "On the road east from Ashenvale, the Warsong Outrider keeps watch over the Horde's frontier. She scouts for the Warsong clan, watches travelers, and sends word to its forward encampments. She holds her fire unless provoked.",
  "sections": [
   {
    "title": "Eyes on the Eastern Frontier",
-   "body": "The Warsong Outrider watches the road between Ashenvale and Azshara's shattered ruins. Far from Splintertree Post and the lumber camps, she tracks troop movements along the route. Her bow and toxic stingers are ready, but she fires only at Alliance trespassers who attack her.",
+   "body": "Far from Splintertree Post and the lumber camps, the Warsong Outrider watches the road between Ashenvale and Azshara's shattered ruins. She tracks troop movements along the route. Her bow and toxic stingers are ready, but she fires only at Alliance trespassers who attack her.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "does warsong outrider attack alliance",
     "warsong outrider aggro"
    ],
-   "answer": "No. She does not attack passing Alliance travelers unless they strike her first."
+   "answer": "No. She lets Alliance travelers pass unless they strike her first."
   },
   {
    "q": "What is her role in the Warsong clan's operations?",
@@ -51,7 +51,7 @@
     "does she drop loot",
     "outrider drops"
    ],
-   "answer": "No. Defeating her yields no loot or specialized equipment. It only clears the road or disrupts Horde reconnaissance."
+   "answer": "No. Defeating her yields no treasure or specialized equipment. It only clears the road or disrupts Horde reconnaissance."
   }
  ],
  "angles": [
@@ -61,7 +61,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "Though she serves the Horde, this scout holds her fire against Alliance travelers unless provoked, letting wary travelers pass unharmed."
+   "text": "Though she serves the Horde, this scout holds her fire against Alliance travelers unless provoked. Wary travelers may pass unharmed."
   }
  ],
  "keywords": [
@@ -82,5 +82,5 @@
  "attribution": [
   "Warsong Outrider"
  ],
- "style": 1
+ "style": 2
 }

@@ -8,16 +8,16 @@
   "wiki": "Azuregos",
   "refs": 2
  },
- "summary": "Azuregos is an eccentric blue dragon stationed along the coast of Azshara to protect ancient Highborne relics. Entrusted with safeguarding immense magical power by the Spell-Weaver Malygos, he prefers quiet study over violence, but he will readily swat aside any adventurer foolish enough to disturb his vigil.",
+ "summary": "Along Azshara’s coast, Azuregos keeps watch over Highborne relics. Malygos entrusted their great magic to him, though he would rather study in peace and drive off anyone who breaks his watch.",
  "sections": [
   {
    "title": "The Guardian of Eldarath",
-   "body": "Drawn to the magic-soaked shores of Azshara, Azuregos chose the ancient ruins of Eldarath as his sanctuary. Countless relics survived the Great Sundering along these shattered coasts, and Azuregos considers it his sacred duty as a servant of Malygos to keep such powerful artifacts away from careless mortals. Rather than lurking in a dark cave, he freely roams the crags and beaches, proudly dubbing himself the lord of all magic in the region. Though blessed with a sardonic sense of humor, he fiercely defends Azshara's treasures against the endless stream of adventurers seeking fame or plunder.",
+   "body": "Azuregos roams the shores and crags around Eldarath, the ancient ruins he has made his sanctuary. Relics from before the Great Sundering still lie along these shattered coasts. As Malygos’s servant, he keeps their powerful artifacts from careless mortals.\n\nAzuregos does not hide in a dark cave. He patrols the region openly and calls himself its lord of all magic. His humor is often sardonic, yet he fiercely defends Azshara’s treasures from adventurers seeking fame or plunder.",
    "spoiler": 0
   },
   {
    "title": "A Reluctant Custodian",
-   "body": "Following the War of the Shifting Sands, Azuregos was saddled with safeguarding the Blue Scepter Shard—a fragmented key needed to break the barrier at the Scarab Wall. Despising the constant headaches, treasure-seekers, and would-be heroes drawn to the artifact, the clever drake eventually discarded the relic in the most unceremonious way imaginable: by feeding it to an empowered minnow named Maws, ensuring anyone hoping to claim the shard would have to dredge the depths rather than pester him.",
+   "body": "After the War of the Shifting Sands, Azuregos received the Blue Scepter Shard, one fragment of the key needed to break the barrier at the Scarab Wall. Treasure-seekers and would-be heroes came after it, bringing him constant headaches.\n\nAt last, the clever drake rid himself of the shard without ceremony. He fed it to Maws, an empowered minnow. Anyone seeking the shard must now dredge the depths instead of pestering Azuregos.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is the blue dragon in azshara",
     "azuregos background"
    ],
-   "answer": "Azuregos is a powerful blue dragon sent by the dragon aspect Malygos to patrol the ruins of Azshara. While many dragons are dour or wrathful, Azuregos is distinctly eccentric and witty, though he will mercilessly crush mortals who interrupt his magical studies or covet the treasures of Eldarath."
+   "answer": "Azuregos patrols Azshara’s ruins at Malygos’s command. Eccentric and witty, the blue dragon crushes mortals who interrupt his magical studies or covet Eldarath’s treasures."
   },
   {
    "q": "Why is Azuregos in Azshara?",
@@ -38,7 +38,7 @@
     "what is azuregos doing in azshara",
     "azuregos purpose"
    ],
-   "answer": "He came to study and secure the potent arcane artifacts left behind by the ancient Highborne civilization after the Great Sundering. He guards the ruins of Eldarath against reckless plunderers seeking dangerous magic."
+   "answer": "Azuregos studies and guards the powerful arcane artifacts the ancient Highborne left behind after the Great Sundering. He protects Eldarath’s ruins from reckless plunderers seeking dangerous magic."
   },
   {
    "q": "What is his connection to the Scarab Wall?",
@@ -47,7 +47,7 @@
     "azuregos shifting sands",
     "shifting sands shard"
    ],
-   "answer": "Azuregos was entrusted with the Blue Scepter Shard, part of the key that can reopen the Scarab Wall. Finding out what became of it requires speaking with the dragon."
+   "answer": "Azuregos received the Blue Scepter Shard, part of the key that can reopen the Scarab Wall. To learn what became of the shard, speak with the dragon."
   },
   {
    "q": "Why does his spirit appear in Azshara?",
@@ -56,17 +56,17 @@
     "ghost azuregos",
     "why is azuregos a ghost"
    ],
-   "answer": "The Spirit of Azuregos appears in Azshara near the living dragon and speaks with travelers. How the spirit and the dragon exist side by side is never explained."
+   "answer": "The Spirit of Azuregos appears in Azshara near the living dragon and speaks with travelers. No one explains how the spirit and dragon exist side by side."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "As an agent of the blue dragonflight, Azuregos embodies the mastery and regulation of the arcane, regarding mortal spellcasters as reckless children meddling with forces beyond their understanding."
+   "text": "As a Mage, you can see Azuregos as an agent of the blue dragonflight, devoted to mastering and regulating the arcane. He regards mortal spellcasters as reckless children meddling with forces beyond their understanding."
   },
   {
    "target": "race:NightElf",
-   "text": "Azuregos wanders among the shattered remnants of Eldarath, keeping vigilant watch over the very Highborne sorceries that nearly tore Kalimdor apart during the Sundering."
+   "text": "As a Night Elf, you can find Azuregos among Eldarath’s shattered ruins, watching over Highborne sorceries that nearly tore Kalimdor apart during the Sundering."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "Azuregos"
- ]
+ ],
+ "style": 2
 }

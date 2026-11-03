@@ -17,16 +17,16 @@
   "wiki": "Culling the Threat",
   "chain": []
  },
- "summary": "In Astranaar, fear grows as the Thistlefur furbolgs multiply to the north. Raene Wolfrunner calls for Dal Bloodclaw's death before the tribe can assault the town.",
+ "summary": "Astranaar fears an attack from the Thistlefur furbolgs gathering to the north. Raene Wolfrunner asks you to kill their chieftain, Dal Bloodclaw, before they strike.",
  "sections": [
   {
    "title": "A Looming Peril to the North",
-   "body": "Astranaar stands in the heart of Ashenvale, with danger close on every side. The Thistlefur furbolgs dwell just north of town. Once peaceful forest dwellers, they have fallen to madness and aggression, as have many of their kin. Sentinel scouts have watched their numbers swell over recent months. Now they fear a coordinated attack on Astranaar is only a matter of time.",
+   "body": "Astranaar lies in the heart of Ashenvale, with danger close on every side. The Thistlefur furbolgs live just north of town. Once peaceful forest dwellers, they have fallen to madness and aggression, as have many of their kin. Sentinel scouts have watched their numbers grow over recent months. Now they fear the tribe will attack Astranaar as one.",
    "spoiler": 0
   },
   {
    "title": "Striking the Chieftain",
-   "body": "Raene Wolfrunner calls travelers to strike before the Thistlefur overrun Astranaar's modest palisades. Dal Bloodclaw leads the tribe, giving its members order and courage. The Sentinels ask for his skull, brought back to Astranaar. They hope his death will break the furbolgs' coordination and buy the beleaguered town precious time.",
+   "body": "Raene Wolfrunner calls on travelers to strike before the Thistlefur overrun Astranaar's palisades. Dal Bloodclaw leads the tribe and gives its members order and courage. The Sentinels ask you to bring his skull back to Astranaar. They hope his death will break the furbolgs' unity and buy the beleaguered town precious time.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "dal bloodclaw lore",
     "why attack thistlefur"
    ],
-   "answer": "Dal Bloodclaw leads the Thistlefur tribe just north of Astranaar. Their numbers are multiplying rapidly, and Raene Wolfrunner fears he will lead an attack on the town unless his leadership is broken."
+   "answer": "Dal Bloodclaw leads the Thistlefur tribe just north of Astranaar. Their numbers are growing quickly, and Raene Wolfrunner fears he will lead an attack unless his leadership is broken."
   },
   {
    "q": "Why are the Thistlefur furbolgs hostile to the night elves?",
@@ -56,7 +56,7 @@
     "corrupted furbolgs ashenvale",
     "thistlefur lore"
    ],
-   "answer": "Furbolgs and night elves were once allies, but demonic and corrupting influences across Ashenvale have driven many tribes, including the Thistlefur, into violent frenzy and territorial paranoia."
+   "answer": "Furbolgs and night elves were once allies, but demonic and corrupting influences across Ashenvale have driven many tribes, including the Thistlefur, into violent frenzy and fear of outsiders."
   },
   {
    "q": "Where can Dal Bloodclaw be found?",
@@ -64,7 +64,7 @@
     "dal bloodclaw location",
     "where is dal bloodclaw"
    ],
-   "answer": "Dal Bloodclaw is in Thistlefur Village and its nearby barrows, directly north of Astranaar in Ashenvale."
+   "answer": "Dal Bloodclaw can be found in Thistlefur Village and its nearby barrows, directly north of Astranaar in Ashenvale."
   },
   {
    "q": "Does killing Dal Bloodclaw solve the furbolg threat permanently?",
@@ -72,7 +72,7 @@
     "is thistlefur defeated",
     "did we save astranaar"
    ],
-   "answer": "No. Raene Wolfrunner says Dal Bloodclaw's death stifles the Thistlefur's aggression only for a time. While corruption grips Ashenvale, the furbolg population remains a danger."
+   "answer": "No. Raene Wolfrunner says Dal Bloodclaw's death will curb the Thistlefur's aggression for a time. While corruption grips Ashenvale, the furbolg population remains a danger."
   },
   {
    "q": "What proof of Dal Bloodclaw's death is required?",
@@ -80,21 +80,21 @@
     "what do i bring raene",
     "culling the threat turn in item"
    ],
-   "answer": "You need to bring Dal Bloodclaw's Skull directly to Raene Wolfrunner in Astranaar."
+   "answer": "Bring Dal Bloodclaw's Skull directly to Raene Wolfrunner in Astranaar."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a kaldorei, you face the sorrow of striking down ancient allies corrupted by madness, while taking brutal measures to protect Astranaar from ruin."
+   "text": "As a kaldorei, you face the sorrow of striking down ancient allies driven mad, while taking brutal measures to protect Astranaar from ruin."
   },
   {
    "target": "faction:Alliance",
-   "text": "You know Astranaar is vital to Alliance supply lines and communication across central Kalimdor, so danger north of town demands urgent action."
+   "text": "You know Astranaar is vital to Alliance supply lines and communication across central Kalimdor. Danger north of town demands urgent action."
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you see the Thistlefur's madness with deep sorrow. The lingering taint on Ashenvale drives noble furbolgs into bloodthirsty beasts."
+   "text": "As a druid, you see the Thistlefur's madness with deep sorrow. Ashenvale's lingering taint drives noble furbolgs into bloodthirsty beasts."
   }
  ],
  "keywords": [
@@ -117,5 +117,5 @@
  "attribution": [
   "Culling the Threat"
  ],
- "style": 1
+ "style": 2
 }

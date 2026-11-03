@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Gates of Orgrimmar"
  },
- "summary": "At Orgrimmar's southern gate, timber and iron guard the entrance cut into northern Durotar's red rock. The passage leads from the arid wastes to the Valley of Strength, the capital's busy commons. The gate proclaims the Horde's endurance and strength in war.",
+ "summary": "At Orgrimmar's southern gate, timber and iron guard the opening cut into northern Durotar's red rock. Through it, the arid wastes give way to the Valley of Strength, the capital's busy commons. The gate proclaims the Horde's endurance and strength in war.",
  "sections": [
   {
    "title": "The Bastion of Durotar",
-   "body": "Orgrimmar's main gate guards the great chasm cut into the mountains around the city. Towering wooden palisades, iron spikes, and watchtowers fortify the entrance. Travelers coming from Razor Hill and Durotar's scrublands find a grand welcome and a warning to any who threaten the new Horde. Armed Orgrimmar Grunts patrol the approach and watch everyone entering the city.",
+   "body": "Orgrimmar's main gate guards the great chasm cut into the mountains around the city. Wooden palisades rise above the entrance, braced with iron spikes and watchtowers. Travelers from Razor Hill and Durotar's scrublands find a grand welcome—and a warning to anyone who threatens the new Horde. Armed Orgrimmar Grunts patrol the approach and watch all who enter.",
    "spoiler": 0
   },
   {
    "title": "Threshold to the Valley",
-   "body": "Beyond the gate's shadowed arch, you enter the Valley of Strength, Orgrimmar's civic and martial heart. The tunnel narrows the way for envoys, merchants, and warriors, with sentries watching those who pass. Here stands Warchief Thrall's dream of a secure refuge carved from the harsh desert, where the Horde's many peoples can walk together without fear.",
+   "body": "Beyond the gate's shadowed arch, you enter the Valley of Strength, Orgrimmar's civic and martial heart. The tunnel narrows the way for envoys, merchants, and warriors, while sentries watch those who pass. Here, Warchief Thrall's dream takes shape: a secure refuge carved from the harsh desert, where the Horde's many peoples can walk together without fear.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "who protects the gate",
     "gate guards"
    ],
-   "answer": "Orgrimmar Grunts guard the front gates and keep watch against hostile infiltrators and wild beasts."
+   "answer": "Orgrimmar Grunts guard the front gates and watch for hostile infiltrators and wild beasts."
   },
   {
    "q": "Why is the entrance fortified with wood and spikes?",
@@ -43,7 +43,7 @@
     "why wood and iron spikes",
     "orcish gate design"
    ],
-   "answer": "Wooden palisades and iron spikes follow orcish frontier defenses, using sturdy timber from nearby lands to make a formidable, defensible choke point in the canyon walls."
+   "answer": "Wooden palisades and iron spikes follow orcish frontier defenses. Sturdy timber from nearby lands makes a formidable choke point in the canyon walls."
   },
   {
    "q": "Can Alliance players pass through this gate?",
@@ -83,5 +83,5 @@
  "attribution": [
   "Gates of Orgrimmar"
  ],
- "style": 1
+ "style": 2
 }

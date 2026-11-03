@@ -20,16 +20,16 @@
    "Bloodfury Bloodline"
   ]
  },
- "summary": "In the Charred Vale, Bloodfury harpies threaten the routes west of Sun Rock Retreat. Maggran Earthbinder sends Horde warriors to cull their growing ranks and protect travel through Stonetalon.",
+ "summary": "In the Charred Vale, Bloodfury harpies threaten the roads west of Sun Rock Retreat. Maggran Earthbinder calls Horde warriors to thin their growing ranks and keep travel through Stonetalon open.",
  "sections": [
   {
    "title": "Protectors of the Land",
-   "body": "Tauren at Sun Rock Retreat protect Stonetalon and its peaceful travelers. Maggran Earthbinder, the retreat’s elder leader, has watched the harpy numbers rise. The Bloodfury coven has spread through the scorched Charred Vale, harrying beasts and choking off routes. If their flocks keep growing, Sun Rock Retreat could be isolated.",
+   "body": "Tauren at Sun Rock Retreat guard Stonetalon and its peaceful travelers. Maggran Earthbinder, the retreat’s elder leader, has watched the harpy ranks grow. The Bloodfury coven has spread through the scorched Charred Vale, harrying beasts and blocking routes. If the flocks grow further, Sun Rock Retreat could be cut off.",
    "spoiler": 0
   },
   {
    "title": "Scouring the Charred Vale",
-   "body": "The Charred Vale lies west of Sun Rock Retreat, a wasteland of ash, scorched earth, and smoldering trees left by catastrophic fires. Bloodfury harpies nest high in the charred remains of ancient woods and have made the vale their stronghold. Maggran sends Horde warriors into the hostile caldera to cull dozens of harpies: Bloodfury ambushers, slayers, and roguefeathers. Thinning the flock weakens the coven’s immediate grip on the vale and clears the way to confront its matriarchal lineage.",
+   "body": "West of Sun Rock Retreat, the Charred Vale is a wasteland of ash, scorched earth, and smoldering trees left by catastrophic fires. Bloodfury harpies nest high in the charred remains of ancient woods, and the vale is their stronghold. Maggran sends Horde warriors into the hostile caldera to cull dozens of harpies: Bloodfury ambushers, slayers, and roguefeathers. Thinning their ranks weakens the coven’s grip on the vale and clears the way to confront its matriarchal lineage.",
    "spoiler": 0
   }
  ],
@@ -68,7 +68,7 @@
     "harpies threaten follow up",
     "what after harpies threaten"
    ],
-   "answer": "Completing this work unlocks Bloodfury Bloodline, where Maggran Earthbinder sends you to eliminate the Bloodfury coven’s ruling leadership."
+   "answer": "After this work, Maggran Earthbinder sends you to eliminate the Bloodfury coven’s ruling leadership."
   },
   {
    "q": "Is this quest Horde only?",
@@ -92,7 +92,7 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, culling the encroaching Bloodfuries is an honorable way to fulfill your ancestral promise to protect Kalimdor’s wilderness."
+   "text": "As a tauren, thinning the encroaching Bloodfuries is an honorable way to fulfill your ancestral promise to protect Kalimdor’s wilderness."
   },
   {
    "target": "faction:Horde",
@@ -104,7 +104,7 @@
   },
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you answer Maggran Earthbinder’s call to purge aggressive defilers who upset the natural elemental balance."
+   "text": "As a shaman, you answer Maggran Earthbinder’s call to drive out aggressive defilers who upset the natural elemental balance."
   }
  ],
  "keywords": [
@@ -132,5 +132,5 @@
  "attribution": [
   "Harpies Threaten"
  ],
- "style": 1
+ "style": 2
 }

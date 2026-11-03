@@ -8,16 +8,16 @@
   "wiki": "Maurin Bonesplitter",
   "refs": 4
  },
- "summary": "Maurin Bonesplitter is a Forsaken scholar and spellcaster stationed at Ghost Walker Post in Desolace. Appointed by Keldran to monitor demonic cult activity, he leverages his deep understanding of ancient lore to dismantle the Burning Blade. Maurin regards the cultists with sheer contempt, viewing them as fools blind to the dark entities pulling their strings.",
+ "summary": "At Ghost Walker Post, Maurin Bonesplitter watches the Burning Blade in Desolace. Keldran sent the Forsaken scholar to watch the cult's demonic activity. Maurin draws on ancient lore to undermine the cult and scorns its members as fools blind to the dark powers directing them.",
  "sections": [
   {
    "title": "A Scholar Among Outcasts",
-   "body": "While Ghost Walker Post primarily serves as a tauren and Horde outpost amidst the arid wastes of Desolace, Maurin Bonesplitter stands apart as one of its few undead occupants. Rather than a brutish soldier, Maurin is a learned spellcaster possessing extensive knowledge of forbidden histories and occult forces. His arcane aptitude and sharp intellect caught the eye of Keldran, who dispatched him to the region to observe the growing demonic presence and coordinate targeted strikes against it.",
+   "body": "At Ghost Walker Post, Maurin Bonesplitter is one of the few undead among the tauren and Horde residents. He is a learned spellcaster rather than a soldier, with deep knowledge of forbidden histories and occult forces. His learning and sharp mind caught Keldran's attention. So Keldran sent Maurin to Desolace to watch the growing demonic presence and direct focused attacks against it.",
    "spoiler": 0
   },
   {
    "title": "Contempt for the Burning Blade",
-   "body": "Maurin directs most of his malice toward the Burning Blade cult entrenched across Desolace. He harbors utter disgust for their reckless ambition, mocking the cultists for failing to understand that their borrowed power merely binds them as thralls to their demonic masters. Through scrying spells and ritual knowledge, Maurin enlists Horde adventurers to systematically disrupt the cult's summonings and undermine their operations across the barren landscape.",
+   "body": "Across Desolace, Maurin reserves much of his scorn for the Burning Blade. He despises their reckless ambition and mocks them for mistaking borrowed power for their own. To him, they are thralls blind to the demonic masters who bind them. Maurin uses scrying spells and ritual knowledge to enlist Horde adventurers in disrupting the cult's summonings and weakening its operations across the barren landscape.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is maurin",
     "maurin desolace"
    ],
-   "answer": "Maurin Bonesplitter is a Forsaken warlock and scholar residing at Ghost Walker Post in Desolace. Appointed by Keldran, he uses his knowledge of ancient lore and dark magic to root out the Burning Blade cult operating in the region."
+   "answer": "Maurin Bonesplitter is a Forsaken warlock and scholar at Ghost Walker Post in Desolace. Keldran appointed him to turn his knowledge of ancient lore and dark magic against the Burning Blade cult in the region."
   },
   {
    "q": "Why is an undead staying at a tauren post?",
@@ -37,7 +37,7 @@
     "why is maurin at ghost walker post",
     "undead in desolace"
    ],
-   "answer": "Ghost Walker Post acts as a key Horde settlement in Desolace. Maurin was stationed there by Keldran specifically because the outpost provides an ideal staging ground to observe and combat the Burning Blade cultists infesting the surrounding wilderness."
+   "answer": "Ghost Walker Post is a Horde settlement in Desolace. Keldran stationed Maurin there to watch and fight the Burning Blade cultists in the surrounding wilderness."
   },
   {
    "q": "What is Maurin's opinion of the Burning Blade?",
@@ -45,7 +45,7 @@
     "maurin burning blade",
     "why does maurin hate burning blade"
    ],
-   "answer": "Maurin views the Burning Blade with deep contempt. He sees them as pathetic, ignorant pawns who delusionally believe they wield true power, entirely oblivious to the reality that they are merely puppets of demonic masters."
+   "answer": "Maurin holds the Burning Blade in deep contempt. He sees its members as ignorant pawns who mistake borrowed power for their own and cannot see the demonic masters controlling them."
   },
   {
    "q": "Who sent Maurin Bonesplitter to Desolace?",
@@ -54,7 +54,7 @@
     "maurin keldran",
     "maurin boss"
    ],
-   "answer": "Maurin was appointed to his role in Desolace by Keldran. Recognizing Maurin's extensive knowledge of cult practices and ancient lore, Keldran tasked him with actively hindering and eventually eliminating the Burning Blade from the zone."
+   "answer": "Keldran appointed Maurin to his post in Desolace. He recognized Maurin's knowledge of cult practices and ancient lore, then tasked him with hindering and eliminating the Burning Blade in the region."
   },
   {
    "q": "What kind of tasks does Maurin give adventurers?",
@@ -62,7 +62,7 @@
     "maurin quests",
     "what does maurin want"
    ],
-   "answer": "Maurin asks adventurers to investigate the Burning Blade and gather a Hatefury Shadowstalker scalp and a naga Oracle Crystal. He uses these reagents to break scrying wards and locate the demon lord behind the cult."
+   "answer": "Maurin asks adventurers to investigate the Burning Blade and bring him a Hatefury Shadowstalker scalp and a naga Oracle Crystal. He uses these reagents to break scrying wards and find the demon lord behind the cult."
   },
   {
    "q": "Is Maurin affiliated with the Cenarion Circle or the Horde?",
@@ -70,25 +70,25 @@
     "is maurin horde",
     "maurin faction"
    ],
-   "answer": "Maurin is a loyal member of the Forsaken and serves the Horde. He operates strictly from the Horde encampment at Ghost Walker Post, aiding Horde champions in cleansing the wastes of cultist activity."
+   "answer": "Maurin is a Forsaken loyal to the Horde. From Ghost Walker Post, he aids Horde champions fighting cult activity in the wastes."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Maurin demonstrates that Forsaken strength relies as much on cunning arcane research and exploiting enemy weaknesses as it does on sheer necromantic might."
+   "text": "As Forsaken, you can see how arcane study and an enemy's weaknesses can serve alongside necromantic might."
   },
   {
    "target": "class:Warlock",
-   "text": "Warlocks will recognize Maurin's acute understanding of demonic pacts, though his disdain serves as a sharp reminder of the peril that comes with serving greater fiends."
+   "text": "As a warlock, you may recognize Maurin's grasp of demonic pacts. His contempt shows the peril of serving greater fiends."
   },
   {
    "target": "class:Mage",
-   "text": "Mages visiting Ghost Walker Post can appreciate Maurin's calculated, intellectual approach to unraveling dark rituals with specialized counters."
+   "text": "As a mage at Ghost Walker Post, you can appreciate Maurin's careful use of specialized counters to unravel dark rituals."
   },
   {
    "target": "faction:Horde",
-   "text": "Maurin represents Undercity's specialized support to the Horde's western outposts, bringing dark academic knowledge to assist tauren allies against demonic corruption."
+   "text": "As a member of the Horde, you can see how Maurin brings Undercity's specialized support and dark scholarly knowledge to western outposts. There, he aids tauren allies against demonic corruption."
   }
  ],
  "keywords": [
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "Maurin Bonesplitter"
- ]
+ ],
+ "style": 2
 }

@@ -30,16 +30,16 @@
   ],
   "category": "Desolace"
  },
- "summary": "After the second part of Vahlarriel's Search, Vahlarriel Demonslayer sends you to look for Dalinda and Tyranis Malem, beginning at the fortress. Word of it goes to Vahlarriel's superiors in Darnassus, who worry about Tyranis's motives and want Dalinda brought home safe above all.",
+ "summary": "At the fortress, Vahlarriel Demonslayer sends you to find Dalinda and Tyranis Malem. Their search begins there as Vahlarriel alerts superiors in Darnassus. They put Dalinda’s safe return first and question Tyranis’s motives.",
  "sections": [
   {
    "title": "A Search at the Fortress",
-   "body": "Vahlarriel Demonslayer wants you to look for both Dalinda and Tyranis, beginning at the fortress, and return with what you learn. Vahlarriel will contact superiors in Darnassus right away. A private word follows: they worry about why Tyranis came to Desolace, and they care most that Dalinda gets home safe. As for Tyranis, they want him gauged first, before any homecoming.",
+   "body": "Vahlarriel Demonslayer asks you to seek Dalinda and Tyranis at the fortress and bring back what you learn. Vahlarriel will contact superiors in Darnassus at once. In private, they share their concern about why Tyranis came to Desolace. Above all, they want Dalinda brought home safe. Tyranis’s return can wait until they know more about him.",
    "spoiler": 0
   },
   {
    "title": "A Captive's Account",
-   "body": "Dalinda, found in the large building facing the entrance, says the Burning Blade seized her and Tyranis and carried them here, and she believes she is to be sacrificed to their demon masters. She says the trip was a mistake from the start. Tyranis had grown hungry for arcane lore, against his people's wishes, and set out despite warnings of demons here. She dreads what has become of him.",
+   "body": "Dalinda is held in the large building facing the entrance. She says the Burning Blade seized her and Tyranis and brought them here. She believes the cult plans to sacrifice her to its demon masters. Dalinda says the journey was a mistake from the start.\n\nTyranis had grown hungry for arcane lore, against his people’s wishes, and set out despite warnings of demons in Desolace. Dalinda fears what has become of him.",
    "spoiler": 1
   }
  ],
@@ -51,7 +51,7 @@
     "where to find dalinda",
     "find dalinda desolace"
    ],
-   "answer": "In the Thunder Axe Fortress area of Desolace, in the large building that faces the entrance."
+   "answer": "Dalinda is in the Thunder Axe Fortress area of Desolace, in the large building facing the entrance."
   },
   {
    "q": "Who sends you to look for Dalinda and Tyranis?",
@@ -60,7 +60,7 @@
     "quest giver vahlarriel",
     "vahlarriel demonslayer quest"
    ],
-   "answer": "Vahlarriel Demonslayer asks you to find both if you can, beginning at the fortress, while Vahlarriel informs superiors in Darnassus."
+   "answer": "Vahlarriel Demonslayer asks you to find Dalinda and Tyranis at the fortress while Vahlarriel informs superiors in Darnassus."
   },
   {
    "q": "Why does Darnassus care more about Dalinda than Tyranis?",
@@ -69,7 +69,7 @@
     "tyranis motives",
     "why prioritize dalinda"
    ],
-   "answer": "Vahlarriel's superiors doubt Tyranis's reasons for coming to Desolace, and they value Dalinda's safe return above all."
+   "answer": "Vahlarriel’s superiors doubt Tyranis’s reasons for coming to Desolace, and they value Dalinda’s safe return above all."
   },
   {
    "q": "What came before this part of the search?",
@@ -78,7 +78,7 @@
     "prerequisite vahlarriel",
     "vahlarriel search chain"
    ],
-   "answer": "It follows the second part of Vahlarriel's Search."
+   "answer": "It follows the second part of Vahlarriel’s Search."
   }
  ],
  "angles": [],
@@ -104,5 +104,6 @@
  ],
  "attribution": [
   "Vahlarriel's Search (3)"
- ]
+ ],
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Talondeep Path"
  },
- "summary": "Talondeep Path cuts beneath the ridge between Ashenvale and the Stonetalon Mountains. The quiet tunnel links the woods west of Mystral Lake to Windshear Crag.",
+ "summary": "Beneath the ridge, Talondeep Path links Ashenvale with the Stonetalon Mountains. Its quiet tunnel runs from the woods west of Mystral Lake to Windshear Crag.",
  "sections": [
   {
    "title": "A Quiet Mountain Pass",
-   "body": "Talondeep Path runs beneath the ridge between Ashenvale and the Stonetalon Mountains. The tunnel links the woods west of Mystral Lake to the northwestern reaches of Windshear Crag. Surface trails cross dangerous country, with predators and warring factions, but the passage is calm and has no hostile beasts or encampments. Twisting side pockets, crevices, and natural alcoves break up the rock. Above ground, faint traces of an old road remain along the peaks, where travelers once crossed before the sheltered route through the stone.",
+   "body": "Talondeep Path runs beneath the ridge between Ashenvale and the Stonetalon Mountains. It joins the woods west of Mystral Lake to the northwestern reaches of Windshear Crag. Surface trails cross dangerous country, where predators and warring factions roam. The tunnel stays calm, with no hostile beasts or encampments.\n\nSide pockets twist away from the passage, and crevices and natural alcoves break up the rock. Above ground, faint traces of an old road remain along the peaks. Travelers once crossed there before taking the route through the stone.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "talondeep path connections",
     "talondeep tunnel exits"
    ],
-   "answer": "Talondeep Path connects southwestern Ashenvale to the northeastern Stonetalon Mountains. Its northern entrance lies just west of Mystral Lake, and its southern mouth opens into northwestern Windshear Crag."
+   "answer": "Talondeep Path links southwestern Ashenvale to the northeastern Stonetalon Mountains. Its northern entrance lies just west of Mystral Lake, and its southern mouth opens into northwestern Windshear Crag."
   },
   {
    "q": "Are there monsters or enemies inside the tunnel?",
@@ -32,7 +32,7 @@
     "talondeep path mobs",
     "talondeep path threats"
    ],
-   "answer": "No hostile creatures live inside Talondeep Path. The cavern is peaceful and has no hostile beasts or friendly folk, leaving travelers a safe passage through the mountain divide."
+   "answer": "No hostile creatures live inside Talondeep Path. The cavern is peaceful, with neither hostile beasts nor friendly folk, leaving a safe passage through the mountain divide."
   },
   {
    "q": "What are the ruins above the cavern?",
@@ -40,7 +40,7 @@
     "road above talondeep path",
     "overland path stonetalon"
    ],
-   "answer": "The ruins above Talondeep Path are remnants of an overgrown road along the mountain ridge. They suggest travelers once crossed the crags by a treacherous surface route before the tunnel passage."
+   "answer": "The ruins above Talondeep Path are remnants of an overgrown road along the mountain ridge. They suggest travelers once crossed the crags by a treacherous surface route before using the tunnel."
   },
   {
    "q": "Is Talondeep Path an Alliance or Horde tunnel?",
@@ -54,7 +54,7 @@
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "The winding rock alcoves cut through the mountain range's deep stone foundation. They make Talondeep Path a natural landmark when traveling between mineral-rich Ashenvale and Stonetalon."
+   "text": "The winding rock alcoves cut through the mountain range's deep stone foundation. They make Talondeep Path a natural landmark between mineral-rich Ashenvale and Stonetalon."
   }
  ],
  "keywords": [
@@ -76,5 +76,5 @@
  "attribution": [
   "Talondeep Path"
  ],
- "style": 1
+ "style": 2
 }

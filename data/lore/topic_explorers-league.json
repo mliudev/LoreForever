@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Explorers' League"
  },
- "summary": "The Explorers' League is a renowned dwarven archaeological guild headquartered in Ironforge's Hall of Explorers. Founded under King Magni Bronzebeard and led by his wandering brother Brann, the League seeks to uncover the forgotten origins of the dwarven race. Their expansive digs span across Azeroth, uncovering ancient titan ruins while frequently igniting regional conflicts.",
+ "summary": "Across Azeroth, the Explorers' League seeks the lost beginnings of the dwarves. King Magni Bronzebeard helped found it, and his brother Brann now leads its work from Ironforge's Hall of Explorers. The League searches far beyond dwarven lands, where its digs often stir conflict.",
  "sections": [
   {
    "title": "A Shift in Dwarven Purpose",
-   "body": "For centuries, the dwarves of Khaz Modan focused their formidable energies on mining, stonework, and engineering. That focus changed drastically when ancient ruins were unearthed, hinting at a forgotten legacy connecting dwarves to mythical titan creators. Eager to solve the mystery of his people's beginnings, King Magni Bronzebeard decreed that dwarven industry pivot heavily toward archaeology. Magni, alongside his brother Brann, established the Explorers' Guild\u2014now widely known as the Explorers' League\u2014to scour the world for relics, forgotten cities, and traces of their ancient ancestry.",
+   "body": "Dwarves in Khaz Modan once devoted their strength to mining, stonework, and engineering. Ancient ruins then pointed to a forgotten bond between dwarves and the mythical titans who created them.\n\nKing Magni Bronzebeard wanted to learn his people's origins, so he turned much of dwarven industry toward archaeology. With his brother Brann, Magni founded the Explorers' Guild, now called the Explorers' League. Its members seek relics, lost cities, and signs of their ancient ancestry.",
    "spoiler": 0
   },
   {
    "title": "The Hall and the Digs",
-   "body": "The League's operations are directed from the cavernous Hall of Explorers in Ironforge, oversaw on a day-to-day administrative level by High Explorer Muninn Magellas while Brann Bronzebeard explores distant reaches. Across Khaz Modan and beyond, prospectors manage extensive digsites. Sites like Ironband's Excavation in Loch Modan and Whelgar's Excavation in the Wetlands uncover immense fossil records and ancient architecture. However, prospectors often find themselves under siege by displaced wildlife, troggs, and rival factions interested in subterranean relics.",
+   "body": "The League directs its work from Ironforge's Hall of Explorers. High Explorer Muninn Magellas handles daily affairs while Brann Bronzebeard explores distant lands. Prospectors oversee broad digsites across Khaz Modan and beyond. At Ironband's Excavation in Loch Modan and Whelgar's Excavation in the Wetlands, they uncover vast fossil beds and ancient buildings. Displaced wildlife, troggs, and rival factions seeking buried relics often besiege the prospectors.",
    "spoiler": 0
   },
   {
    "title": "Frontier Clashes",
-   "body": "The League's aggressive expeditions have sparked fierce resistance outside dwarven homelands. In Kalimdor, League operations such as the Bael Modan dig in the southern Barrens drove out the native Stonespire tauren through heavy industrial blasting, stirring vengeance and angering local earth spirits. In the arid Badlands, League prospectors clash openly with the Dark Iron clan over the vast titan vaults of Uldaman.",
+   "body": "Beyond dwarven lands, the League's expeditions have met fierce resistance. In Kalimdor, blasting at the Bael Modan dig in the southern Barrens drove out the native Stonespire tauren. The work stirred their anger and roused local earth spirits. In the Badlands, League prospectors openly clash with the Dark Iron clan over the vast titan vaults of Uldaman.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "who are the explorers league",
     "league of explorers"
    ],
-   "answer": "The Explorers' League is an Ironforge-based organization dedicated to surveying, archaeology, and researching the origins of the dwarven race. They maintain excavation sites across the Eastern Kingdoms and Kalimdor to unearth relics of the ancient world."
+   "answer": "The Explorers' League searches for relics and studies the origins of the dwarven race. Based in Ironforge, its members work at digsites across the Eastern Kingdoms and Kalimdor."
   },
   {
    "q": "Who leads the Explorers' League?",
@@ -43,7 +43,7 @@
     "brann bronzebeard role",
     "muninn magellas"
    ],
-   "answer": "King Magni Bronzebeard helped found the guild, but his youngest brother, the renowned wanderer Brann Bronzebeard, serves as its official leader. In Brann's frequent absences across the globe, High Explorer Muninn Magellas oversees business from the Hall of Explorers in Ironforge."
+   "answer": "King Magni Bronzebeard helped found the League, and his youngest brother, Brann Bronzebeard, leads it. When Brann explores distant lands, High Explorer Muninn Magellas oversees its affairs in Ironforge's Hall of Explorers."
   },
   {
    "q": "Why did King Magni start the League?",
@@ -52,7 +52,7 @@
     "dwarven origins",
     "why archaeology"
    ],
-   "answer": "After strange subterranean ruins revealed evidence that the dwarves were not merely born of ordinary mountain rock, King Magni shifted a massive portion of dwarven industry toward archaeology to discover the true, mythical heritage of his people."
+   "answer": "King Magni turned much of dwarven industry toward archaeology after underground ruins suggested a mythical heritage tied to the titans. He wanted to discover the beginnings of his people."
   },
   {
    "q": "Can non-dwarves join the League?",
@@ -61,7 +61,7 @@
     "other races in league",
     "who can join"
    ],
-   "answer": "Yes. While the League remains predominantly dwarven in membership, leadership, and aesthetic, individuals of other Alliance races do join, including adventurous gnomes like Clopper Wizbang, along with trusted field assistants across the continents."
+   "answer": "Yes. Though most members and leaders are dwarves, other Alliance races join the League. They include adventurous gnomes such as Clopper Wizbang and trusted field assistants across the continents."
   },
   {
    "q": "Why are the tauren fighting the Explorers' League?",
@@ -70,7 +70,7 @@
     "dwarves vs tauren",
     "stonespire feud"
    ],
-   "answer": "In their race to excavate Kalimdor, dwarven prospectors at Bael Modan used heavy explosives and displaced the native Stonespire tauren tribe, decimating their settlement and outraging the local earth spirits through wanton destruction of sacred ground."
+   "answer": "Dwarven prospectors at Bael Modan used heavy explosives and displaced the native Stonespire tauren. The blasts devastated their settlement and angered local earth spirits by destroying sacred ground."
   },
   {
    "q": "What is Uldaman and why does the League care about it?",
@@ -79,25 +79,25 @@
     "league badlands",
     "titan ruins uldaman"
    ],
-   "answer": "Uldaman is a massive underground titan facility buried beneath the Badlands. The League views it as the crown jewel of their research, believing its sealed chambers hold definitive proof regarding the transformation and ancient creation of the dwarven race."
+   "answer": "Uldaman is a vast underground titan facility beneath the Badlands. The League sees it as the crown jewel of its research and believes its sealed chambers hold proof of the dwarves' transformation and ancient creation."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Every digsite and titan artifact brings the dwarven race closer to understanding their ancient creator roots and their departure from stone."
+   "text": "Each digsite and titan artifact brings dwarves closer to understanding their ancient creators and their departure from stone."
   },
   {
    "target": "race:Tauren",
-   "text": "The League's careless use of dynamite in Kalimdor desecrated Stonespire ancestral lands, proving their relentless digging often comes at the expense of the earth."
+   "text": "The League's careless use of dynamite in Kalimdor desecrated Stonespire ancestral lands. Its relentless digging often comes at the earth's expense."
   },
   {
    "target": "faction:Alliance",
-   "text": "The League's digs carry the Alliance banner into remote territories, where prospectors often need protection from troggs, rival factions, and angry locals."
+   "text": "The League carries the Alliance banner into remote territories. Its prospectors often need protection from troggs, rival factions, and angry locals."
   },
   {
    "target": "profession:Mining",
-   "text": "Dwarven prospectors rely heavily on mining traditions to shore up tunnels, survey strata, and extract delicate titan machinery from solid rock."
+   "text": "Dwarven prospectors draw on mining traditions to shore up tunnels, survey strata, and free delicate titan machinery from solid rock."
   }
  ],
  "keywords": [
@@ -124,5 +124,6 @@
  ],
  "attribution": [
   "Explorers' League"
- ]
+ ],
+ "style": 2
 }

@@ -8,16 +8,16 @@
   "wiki": "Magistrate Henry Maleb",
   "refs": 2
  },
- "summary": "In Southshore, Magistrate Henry Maleb keeps order in the Alliance's chief coastal stronghold in Hillsbrad Foothills. The port town faces threats from the Forsaken and the Syndicate.",
+ "summary": "In Southshore, Magistrate Henry Maleb keeps order as threats gather around the Alliance's chief coastal stronghold in Hillsbrad Foothills. The Forsaken and the Syndicate menace the port town.",
  "sections": [
   {
    "title": "Guardian of Southshore's Order",
-   "body": "Magistrate Henry Maleb governs from Southshore's town hall, one of the last true Alliance settlements in Lordaeron. Forsaken forces threaten the town from the north and west, while highwaymen prowl the foothills. Maleb took office after the previous magistrate was mysteriously assassinated, an act he blames on the Syndicate. He means to avoid the same fate. His investigations seek hidden assassins, Syndicate supply networks, and the nobles directing them from the ruins of Alterac.",
+   "body": "Magistrate Henry Maleb governs from Southshore's town hall, one of the last true Alliance settlements in Lordaeron. Forsaken forces threaten the town from the north and west, while highwaymen prowl the foothills. Maleb took office after the previous magistrate was mysteriously assassinated, and he blames the Syndicate. He means to avoid the same fate. His inquiries seek hidden assassins, Syndicate supply networks, and the nobles directing them from the ruins of Alterac.",
    "spoiler": 0
   },
   {
    "title": "A Web of Noble Treachery",
-   "body": "The Syndicate's reach runs through the region. Assassins moving through the orchards outside Southshore are paid operatives taking contracts from fallen Alteraci aristocrats. Maleb sends trusted Alliance scouts to intercept their coded plans and kill their leaders. He works to break the Syndicate's hold before its plots can cripple Southshore's defenses.",
+   "body": "The Syndicate's reach runs through the region. Assassins crossing the orchards outside Southshore are paid operatives taking contracts from fallen Alteraci aristocrats. Maleb sends trusted Alliance scouts to seize their coded plans and kill their leaders. He works to break the Syndicate's hold before its plots can cripple Southshore's defenses.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "southshore magistrate",
     "who is maleb"
    ],
-   "answer": "Magistrate Henry Maleb keeps civic order in Southshore, a coastal Alliance haven in the Hillsbrad Foothills. He oversees the town's civil affairs and protects it from threats within."
+   "answer": "Magistrate Henry Maleb keeps civic order in Southshore, a coastal Alliance haven in the Hillsbrad Foothills. He oversees the town's civil affairs and guards it against threats within."
   },
   {
    "q": "Why is Maleb investigating the Syndicate?",
@@ -38,7 +38,7 @@
     "maleb syndicate",
     "southshore assassins"
    ],
-   "answer": "Maleb took office after Southshore's previous magistrate was assassinated. His investigations point to Syndicate assassins hired by fallen Alteraci nobles, and he commissions Alliance adventurers to prevent another attempt on his life."
+   "answer": "Maleb took office after Southshore's previous magistrate was assassinated. His inquiries point to Syndicate assassins hired by fallen Alteraci nobles. He commissions Alliance adventurers to prevent another attempt on his life."
   },
   {
    "q": "Where can Magistrate Maleb be found?",
@@ -55,17 +55,17 @@
     "southshore threats",
     "maleb enemies"
    ],
-   "answer": "Maleb faces the threat of Forsaken expansion from the north and west, along with Syndicate killers stalking Southshore's outskirts and plotting against its leadership."
+   "answer": "Maleb faces the Forsaken threat from the north and west. Syndicate killers stalk Southshore's outskirts and plot against its leadership."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance champion in Hillsbrad, you can look to Magistrate Maleb as civic authority in a lawless borderland. He offers bounties on Syndicate cutthroats destabilizing Southshore."
+   "text": "As an Alliance champion in Hillsbrad, you can look to Magistrate Maleb for civic authority in a lawless borderland. He offers bounties on Syndicate cutthroats who threaten Southshore."
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you can see why Maleb is deeply concerned with stealth and assassination. He relies on keen-eyed operatives to outmaneuver the Syndicate's concealed killers."
+   "text": "As a rogue, you can see why Maleb fears stealth and assassination. He relies on keen-eyed operatives to outmaneuver the Syndicate's hidden killers."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
  "attribution": [
   "Magistrate Henry Maleb"
  ],
- "style": 1
+ "style": 2
 }

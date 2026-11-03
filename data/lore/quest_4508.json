@@ -24,16 +24,16 @@
    "Rise of the Silithid"
   ]
  },
- "summary": "After the queen's fall, Alchemist Pestlezugg wants the latest findings to reach people who can act on them. You carry the Un'Goro report to Gracina Spiritmight at the Temple of the Moon in Darnassus.",
+ "summary": "After the queen falls, you carry the latest findings from Un'Goro beyond Gadgetzan. Alchemist Pestlezugg sends the report to Gracina Spiritmight at the Temple of the Moon in Darnassus.",
  "sections": [
   {
    "title": "A Report for Darnassus",
-   "body": "Pestlezugg says that the findings of the day must reach hands that might do something with them, since Gadgetzan cannot manage alone. The latest report is to go to Gracina Spiritmight in Darnassus, whom Pestlezugg hopes can be found at the Temple of the Moon. She has friends among the Alliance bigwigs, and if they can be drawn in, there may be a way through this alive.",
+   "body": "Alchemist Pestlezugg says Gadgetzan cannot face the silithid alone. The latest findings from Un'Goro must reach someone who can act on them, so you carry the report to Gracina Spiritmight in Darnassus. Pestlezugg hopes she is at the Temple of the Moon. She has friends among the Alliance's leading figures, and drawing them in may offer a way through this alive.",
    "spoiler": 0
   },
   {
    "title": "Gracina's Answer",
-   "body": "Gracina calls those who will not look past their hatred of the Horde fools, and says she cannot prove the silithid threat any further short of dropping them into a hive. She is glad of the report but doubts it will help, for the Alliance ignores any threat but the Horde, and even the leaders of Darnassus disagree about what this threat is. Fandral Staghelm, she says, theorizes that the silithid are unlike the ancient peril she believes them to be. She urges you to stay committed to defeating the silithid.",
+   "body": "Gracina Spiritmight welcomes the report, yet doubts it will help. She says those who cannot look past their hatred of the Horde are fools. The Alliance ignores every threat but the Horde, and even Darnassus's leaders disagree about the silithid. Gracina says Fandral Staghelm believes they are unlike the ancient peril she sees in them. She cannot prove the danger further without dropping someone into a hive. She urges you to stay committed to defeating the silithid.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "quest giver calm before the storm",
     "where does calm before the storm start"
    ],
-   "answer": "Alchemist Pestlezugg, from Gadgetzan."
+   "answer": "Alchemist Pestlezugg sends you from Gadgetzan with the report of the latest findings from Un'Goro."
   },
   {
    "q": "Where must the report be delivered?",
@@ -54,7 +54,7 @@
     "where is gracina spiritmight",
     "turn in calm before the storm"
    ],
-   "answer": "To Gracina Spiritmight in Darnassus, where Pestlezugg last knew her to be, at the Temple of the Moon."
+   "answer": "Deliver the report to Gracina Spiritmight in Darnassus, at the Temple of the Moon, where Pestlezugg last knew her to be."
   },
   {
    "q": "Why does Pestlezugg send the report to Gracina Spiritmight?",
@@ -62,7 +62,7 @@
     "why send to darnassus",
     "why gracina spiritmight"
    ],
-   "answer": "Gadgetzan cannot do this alone. Gracina has friends who are Alliance bigwigs, and if they can be drawn in, there may be a way through this alive."
+   "answer": "Gadgetzan cannot face the silithid alone. Gracina has friends among the Alliance's leading figures, and drawing them in may offer a way through this alive."
   },
   {
    "q": "What comes directly before this?",
@@ -70,7 +70,7 @@
     "prerequisite for calm before the storm",
     "previous quest calm before the storm"
    ],
-   "answer": "Pawn Captures Queen, in which you were sent after the Gorishi Hive Queen."
+   "answer": "Pawn Captures Queen comes directly before this. You were sent after the Gorishi Hive Queen."
   }
  ],
  "angles": [],
@@ -93,5 +93,6 @@
  ],
  "attribution": [
   "Calm Before the Storm (Alliance)"
- ]
+ ],
+ "style": 2
 }

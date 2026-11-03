@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Ice Thistle Hills"
  },
- "summary": "The Ice Thistle Hills are a snow-covered highland rise lying just southeast of the goblin outpost of Everlook. Dominated by a rugged cavern system, the area is claimed by ferocious Ice Thistle yetis that threaten any travelers venturing off the main road.",
+ "summary": "Ice Thistle yetis menace travelers southeast of Everlook. Snow covers the high hills, where a rugged cavern cuts through the slopes. The yetis claim the area and threaten anyone who leaves the main road.",
  "sections": [
   {
    "title": "A Den of White Fur",
-   "body": "Rising sharply out of the central drifts of Winterspring, the Ice Thistle Hills serve as the primary hunting grounds and nesting territory for the valley's aggressive Ice Thistle yetis. Centered around a prominent cave dug deep into the rockface, these hulking beasts roam both the rocky slopes and the winding tunnels within. Because of their proximity to Everlook, the yetis present a constant nuisance and danger to goblin commerce and visiting prospectors, who regularly commission intrepid hunters to cull the beasts for their valuable thick pelts and pristine horns.",
+   "body": "At the heart of Ice Thistle Hills, a great cave cuts deep into the rock. Ice Thistle yetis hunt and make their nests there, roaming the rocky slopes and winding tunnels. Their territory lies near Everlook, putting goblin trade and visiting prospectors at risk. So travelers and traders hire hunters to cull the beasts for their thick pelts and pristine horns.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is ice thistle hills",
     "yeti cave location"
    ],
-   "answer": "The Ice Thistle Hills are located directly southeast of the goblin trading post of Everlook in central Winterspring."
+   "answer": "Ice Thistle Hills lie in central Winterspring, directly southeast of Everlook, the goblin trading post."
   },
   {
    "q": "What creatures live here?",
@@ -32,7 +32,7 @@
     "what is in ice thistle hills",
     "yeti types"
    ],
-   "answer": "The slopes and the hill cavern are inhabited almost exclusively by Ice Thistle yetis, monstrous white-furred brutes that aggressively defend their territory."
+   "answer": "Ice Thistle yetis inhabit nearly all the hills’ slopes and the cavern. These white-furred brutes defend their territory fiercely."
   },
   {
    "q": "Why do adventurers hunt in the Ice Thistle Hills?",
@@ -41,7 +41,7 @@
     "yeti fur winterspring",
     "ice thistle quest"
    ],
-   "answer": "Travelers and tradesfolk based in Everlook frequently hire adventurers to collect the thick furs and pristine horns of the Ice Thistle yetis, which are prized for crafting and survival gear in the frigid valley."
+   "answer": "Travelers and tradesfolk in Everlook hire hunters to gather the yetis’ thick furs and pristine horns. These materials are prized for crafting and survival gear in the frigid valley."
   },
   {
    "q": "What resources can be gathered around the hills?",
@@ -49,17 +49,17 @@
     "herbs ice thistle",
     "mining ice thistle cave"
    ],
-   "answer": "The outdoor slopes are home to rare alpine herbs such as Icecaps, while the deep recesses of the yeti cave harbor rich mineral deposits, including veins of thorium."
+   "answer": "Icecaps grow on the outdoor slopes, and rich thorium veins lie deep within the yeti cave."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "The dark cavern burrowed into the hill is a dangerous but rewarding destination for seasoned miners seeking rich veins of thorium guarded by yeti packs."
+   "text": "The dark cavern burrowed into the hill is dangerous. Seasoned miners can find rich thorium veins there, guarded by yeti packs."
   },
   {
    "target": "profession:Herbalism",
-   "text": "The freezing slopes surrounding the hills are prime ground for harvesting cold-weather flora like Icecaps, with rare blooms occasionally spotted near the cavern's mouth."
+   "text": "The freezing slopes around the hills are good ground for cold-weather plants such as Icecaps. Rare blooms sometimes grow near the cavern’s mouth."
   }
  ],
  "keywords": [
@@ -78,5 +78,6 @@
  ],
  "attribution": [
   "Ice Thistle Hills"
- ]
+ ],
+ "style": 2
 }

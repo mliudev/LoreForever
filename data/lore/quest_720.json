@@ -30,11 +30,11 @@
    "Passing Word of a Threat"
   ]
  },
- "summary": "A crumpled map bears a few words scrawled in chalk: a plea to Ryedol from Hammertoe, who says they are taking Hammertoe to Uldaman and asks for help. Prospector Ryedol should hear that Hammertoe Grez lives.",
+ "summary": "Hammertoe Grez lives, and a chalk plea on a crumpled map calls Prospector Ryedol to help. The note says they are taking Hammertoe to Uldaman.",
  "sections": [
   {
    "title": "Words in Chalk",
-   "body": "Roughly scribbled in chalk on the crumpled map is a short note signed by Hammertoe. It is addressed to Ryedol and says only that they are taking Hammertoe to Uldaman and that help is needed. The word to carry to Prospector Ryedol is that Hammertoe Grez lives.",
+   "body": "Hammertoe leaves a brief plea for Ryedol in chalk on a crumpled map. The note says they are taking Hammertoe to Uldaman and asks for help. Tell Prospector Ryedol that Hammertoe Grez lives.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "chalk message on map",
     "crumpled map text"
    ],
-   "answer": "A note in chalk, addressed to Ryedol and signed Hammertoe. It says they are taking Hammertoe to Uldaman and asks for help."
+   "answer": "Hammertoe's chalk note is addressed to Ryedol. It says they are taking Hammertoe to Uldaman and asks for help."
   },
   {
    "q": "Who is Prospector Ryedol?",
@@ -54,7 +54,7 @@
     "who is ryedol",
     "where to bring crumpled map"
    ],
-   "answer": "The one the note is meant for. You are to seek out Prospector Ryedol and tell him that Hammertoe Grez lives."
+   "answer": "Prospector Ryedol is the one the note addresses. Find him and tell him that Hammertoe Grez lives."
   },
   {
    "q": "Where does the message say Hammertoe Grez is being taken?",
@@ -62,7 +62,7 @@
     "where is hammertoe taken",
     "where is grez taken"
    ],
-   "answer": "To Uldaman."
+   "answer": "The message says Hammertoe Grez is being taken to Uldaman."
   }
  ],
  "angles": [],
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "A Sign of Hope"
- ]
+ ],
+ "style": 2
 }

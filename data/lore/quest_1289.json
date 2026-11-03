@@ -21,11 +21,11 @@
   ],
   "category": "Dustwallow Marsh"
  },
- "summary": "Lady Jaina Proudmoore has read Captain Garran Vimes's report and thanks you for your help with the investigation. She asks you to return to Vimes and help get to the bottom of the mystery.",
+ "summary": "Lady Jaina Proudmoore has read Vimes's Report and thanks you for aiding Captain Garran Vimes's investigation. She sends you back to Vimes in Theramore to help uncover the mystery.",
  "sections": [
   {
    "title": "Back to the Captain",
-   "body": "Going by Captain Vimes's report, Lady Proudmoore sees that you have been a great help to his investigation, and she thanks you for it. She is easier in her mind knowing the matter rests in such capable hands. She asks you to return to Captain Vimes in Theramore and help him get to the bottom of this mystery.",
+   "body": "Lady Jaina Proudmoore thanks you for helping Captain Vimes's investigation. His report eases her mind because the matter is in capable hands. She sends you back to him in Theramore to help uncover the mystery.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "jaina quest giver",
     "who sends me to vimes"
    ],
-   "answer": "Lady Jaina Proudmoore, once she has read Vimes's report in Theramore."
+   "answer": "Lady Jaina Proudmoore sends you back after reading Captain Vimes's report."
   },
   {
    "q": "What does Lady Jaina think of the report?",
@@ -45,7 +45,7 @@
     "jaina reaction",
     "what does jaina say about vimes report"
    ],
-   "answer": "She says you have been a great help to the investigation and thanks you for it. Knowing the matter is in capable hands lets her rest easier."
+   "answer": "Lady Jaina says your help has aided the investigation, and she thanks you. Knowing the matter is in capable hands eases her mind."
   },
   {
    "q": "Where do you find Captain Garran Vimes?",
@@ -72,5 +72,6 @@
  ],
  "attribution": [
   "Wowpedia: Vimes's Report (2)"
- ]
+ ],
+ "style": 2
 }

@@ -27,21 +27,21 @@
    "In Search of Knowledge"
   ]
  },
- "summary": "Daryn Lightwind is fascinated by the snapjaws on the beach in the Hinterlands, and above all by a giant one named Gammerita. Her research keeps her where she is, so she gives you a letter to carry to Curgle Cranklehop in Tanaris.",
+ "summary": "On the Hinterlands beach, Daryn Lightwind longs to see Gammerita, a giant snapjaw. Her research keeps her away, so she sends you to Tanaris with a letter for Curgle Cranklehop.",
  "sections": [
   {
    "title": "A Picture of Gammerita",
-   "body": "Daryn Lightwind says she has studied many subjects, and her latest fascination is the snapjaws that live along the beach in the Hinterlands. One she especially wants to see is a giant snapjaw called Gammerita. She would go herself, but her research keeps her here, so a picture of Gammerita would be the next best thing.",
+   "body": "Daryn Lightwind has studied many subjects. Now the snapjaws along the Hinterlands beach hold her attention, especially Gammerita, a giant snapjaw. Her research keeps her where she is, so she asks you to bring back a picture of Gammerita.",
    "spoiler": 0
   },
   {
    "title": "The Letter to Tanaris",
-   "body": "Daryn hands you a letter for Curgle Cranklehop in Tanaris. Curgle has made an invention for Daryn that can capture a picture, which Daryn believes Curgle calls a snapshot.",
+   "body": "Daryn gives you a letter for Curgle Cranklehop in Tanaris. Curgle made an invention that can capture a picture. Daryn believes Curgle calls it a snapshot.",
    "spoiler": 0
   },
   {
    "title": "Curgle's Reaction",
-   "body": "Curgle takes you for one of Daryn's interns and speaks well of Daryn as a knowledgeable historian. Then Curgle goes off to fetch the Super Snapper FX, certain you will love it.",
+   "body": "Curgle mistakes you for one of Daryn's interns and praises Daryn as a knowledgeable historian. Then Curgle goes to fetch the Super Snapper FX. Curgle is certain you will love it.",
    "spoiler": 1
   }
  ],
@@ -53,7 +53,7 @@
     "who gives the borrower",
     "daryn lightwind"
    ],
-   "answer": "Daryn Lightwind, who gives you a letter to carry. Her research keeps her from going herself."
+   "answer": "Daryn Lightwind sends you to Tanaris with a letter. Her research keeps her from going herself."
   },
   {
    "q": "Who is Curgle Cranklehop?",
@@ -62,7 +62,7 @@
     "curgle cranklehop location",
     "curgle tanaris"
    ],
-   "answer": "Someone in Tanaris who has made an invention for Daryn that can capture a picture, which Daryn believes is called a snapshot."
+   "answer": "Curgle Cranklehop is in Tanaris and made an invention for Daryn that can capture a picture. Daryn believes Curgle calls it a snapshot."
   },
   {
    "q": "Why does Daryn want a picture of Gammerita?",
@@ -71,7 +71,7 @@
     "why gammerita",
     "giant snapjaw"
    ],
-   "answer": "Daryn is fascinated by the snapjaws along the Hinterlands beach, and wants to see Gammerita in particular. Research keeps Daryn from going, so a picture is the next best thing."
+   "answer": "Daryn is fascinated by the snapjaws along the Hinterlands beach and especially wants to see Gammerita. Her research keeps her away, so a picture is the next best thing."
   },
   {
    "q": "What is Gammerita?",
@@ -79,7 +79,7 @@
     "who is gammerita",
     "gammerita"
    ],
-   "answer": "A giant snapjaw on the beach in the Hinterlands."
+   "answer": "Gammerita is a giant snapjaw on the beach in the Hinterlands."
   }
  ],
  "angles": [],
@@ -100,5 +100,6 @@
  ],
  "attribution": [
   "The Borrower"
- ]
+ ],
+ "style": 2
 }

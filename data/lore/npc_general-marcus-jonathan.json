@@ -8,11 +8,11 @@
   "wiki": "General Marcus Jonathan",
   "refs": 2
  },
- "summary": "At Stormwind's gates, General Marcus Jonathan guards the capital and weighs calls for aid from the kingdom's frontier settlements. A veteran of the Second War, he commands Stormwind Defense and oversees the garrison.",
+ "summary": "At Stormwind's gates, General Marcus Jonathan guards the capital and weighs pleas for aid from frontier settlements. He is a veteran of the Second War, commands Stormwind Defense, and oversees the garrison.",
  "sections": [
   {
    "title": "Commander of the Gates",
-   "body": "General Marcus Jonathan commands Stormwind's defense from horseback in the Valley of Heroes. He is the highest-ranking officer at the city gates and its first line of defense. During the Second War, he fought beside soldiers such as Reginald Windsor under General Turalyon. Now he must protect the capital while frontier towns, including Lakeshire, make increasingly desperate appeals for help.",
+   "body": "General Marcus Jonathan commands Stormwind's defense from horseback in the Valley of Heroes. As the highest-ranking officer at the city gates, he is the capital's first line of defense. During the Second War, he fought beside soldiers such as Reginald Windsor under General Turalyon. Now he must guard the capital as frontier towns, including Lakeshire, make ever more desperate appeals for help.",
    "spoiler": 0
   },
   {
@@ -29,7 +29,7 @@
     "where is general jonathan",
     "stormwind gate commander"
    ],
-   "answer": "General Marcus Jonathan is on horseback just inside Stormwind City's main gates, overlooking the entrance bridge in the Valley of Heroes."
+   "answer": "General Marcus Jonathan rides just inside Stormwind City's main gates, overlooking the entrance bridge in the Valley of Heroes."
   },
   {
    "q": "What is Marcus Jonathan's military history?",
@@ -44,7 +44,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance fighter, you can see Stormwind's martial pride in Marcus Jonathan, stationed at the capital's gate."
+   "text": "As an Alliance fighter, you can see Stormwind's martial pride in Marcus Jonathan, who guards the capital's gate."
   },
   {
    "target": "class:Warrior",
@@ -74,5 +74,5 @@
  "attribution": [
   "General Marcus Jonathan"
  ],
- "style": 1
+ "style": 2
 }

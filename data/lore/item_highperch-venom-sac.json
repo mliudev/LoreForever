@@ -10,16 +10,16 @@
    "quest:1135"
   ]
  },
- "summary": "Highperch Venom Sacs are harvested from the wild wyverns nesting upon the towering spires of Highperch in Thousand Needles. While orcs prize wyverns as aerial mounts, select apothecaries and traders value their potent stingers even more than the living beasts.",
+ "summary": "At Highperch, wyverns carry venom that buyers seek across Kalimdor. Their sacs draw trade even where the beasts do not fly.",
  "sections": [
   {
    "title": "A Potent Harvest",
-   "body": "The high spires of Thousand Needles house thriving prides of wild wyverns, particularly around the elevated crags of Highperch. These winged predators rely on powerful venom delivered through their barbed tails to paralyze and kill prey. While the Horde often domesticates these creatures as loyal wind riders, their venom sacs command a remarkably high price among alchemists, hunters, and opportunistic merchants across Kalimdor.",
+   "body": "Wild wyverns nest among Highperch's crags in Thousand Needles. Their barbed tails deliver venom that can paralyze or kill prey. The Horde often domesticates wyverns as wind riders. Across Kalimdor, alchemists, hunters, and merchants pay well for the venom sacs.",
    "spoiler": 0
   },
   {
    "title": "A Faraway Buyer",
-   "body": "Though native to the deep canyons of central Kalimdor, this venom draws interest far beyond them. In the port town of Theramore, the high elf Fiora Longears pays handsomely for fresh sacs collected from Highperch's broods. She seeks samples swollen with venom\u2014typically found only on young wyverns or fertile females\u2014fueling trade in dangerous reagents far from the beasts' natural desert habitat.",
+   "body": "Highperch venom reaches buyers far from central Kalimdor. In Theramore, the high elf Fiora Longears pays well for fresh sacs gathered from Highperch broods. She seeks sacs swollen with venom, most often found on young wyverns or fertile females. Far from their desert home, she trades these dangerous reagents.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "who drops highperch venom",
     "wyvern venom drop"
    ],
-   "answer": "They are collected directly from the wild wyverns inhabiting Highperch in Thousand Needles, including Highperch Wyverns, Patriarchs, Consorts, and the matriarch Heartrazor."
+   "answer": "Wild wyverns at Highperch carry the sacs. They include Highperch Wyverns, Patriarchs, Consorts, and the matriarch Heartrazor."
   },
   {
    "q": "Why does Fiora Longears want this venom in Theramore?",
@@ -40,7 +40,7 @@
     "theramore venom buyer",
     "who buys wyvern venom"
    ],
-   "answer": "Fiora Longears recognizes that wyvern venom is intensely valuable in specific trading circles\u2014sometimes even more lucrative than the mounts themselves. She commissions travelers venturing to Highperch in Thousand Needles to retrieve intact sacs for trade."
+   "answer": "Fiora Longears knows wyvern venom is highly valued in some trading circles, sometimes more than the mounts. She pays travelers bound for Highperch in Thousand Needles to bring back intact sacs for trade."
   },
   {
    "q": "Are all wyvern venom sacs identical?",
@@ -48,7 +48,7 @@
     "wyvern venom quality",
     "bursting venom sacs"
    ],
-   "answer": "The potency and volume vary. The most prize-worthy sacs are swollen and bursting with poison, which is typically found among young wyverns or fertile breeding females."
+   "answer": "The sacs vary in potency and volume. The most prized are swollen with poison, usually those of young wyverns or fertile breeding females."
   },
   {
    "q": "How does the Horde utilize these wyverns compared to the Alliance?",
@@ -56,17 +56,17 @@
     "horde wyvern use",
     "do orcs use the venom"
    ],
-   "answer": "The Horde primarily captures and breeds wyverns as aerial mounts and scouts known as wind riders. Independent traders and Alliance contacts, lacking domestic taming networks, instead harvest the beasts directly for their lethal chemical reagents."
+   "answer": "The Horde captures and breeds wyverns as aerial mounts and scouts called wind riders. Independent traders and Alliance contacts without domestic taming networks harvest the beasts for their lethal reagents."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "The highly concentrated paralyzing venom harvested from untamed Thousand Needles wyverns represents one of the most potent natural toxins found in Kalimdor."
+   "text": "As a Rogue, you can find some of Kalimdor's most potent natural toxins in the concentrated paralyzing venom of untamed wyverns in Thousand Needles."
   },
   {
    "target": "faction:Alliance",
-   "text": "Striking at the Highperch nests serves a double purpose for the Alliance: collecting valuable biological reagents for trade while culling wild stock that could otherwise be captured and broken as Horde mounts."
+   "text": "As an Alliance member, you can strike at Highperch's nests for valuable trade reagents and cull wild wyverns the Horde might otherwise capture and break as mounts."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  "attribution": [
   "Highperch Venom Sac",
   "Highperch Venom"
- ]
+ ],
+ "style": 2
 }

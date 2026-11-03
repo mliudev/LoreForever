@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Warsong Lumber Camp"
  },
- "summary": "Warsong Lumber Camp cuts timber from Ashenvale for the Horde, keeping its conflict with the night elves alive. Kargathia Keep anchors the fortified operation.",
+ "summary": "Warsong Lumber Camp cuts Ashenvale timber for the Horde and keeps its conflict with the night elves alive. Kargathia Keep guards the operation.",
  "sections": [
   {
    "title": "Heart of the Harvest",
-   "body": "Warsong Lumber Camp cuts into eastern Ashenvale's dense canopy for the Horde. Orc peons and hired goblin engineers use whirring shredders to turn towering trunks into lumber for nearby Splintertree Post and the fledgling nation of Durotar. Kargathia Keep's stockades anchor the defenses against night elf counterattacks, and the camp keeps war wolves in an active kennel. For the Warsong, each felled tree means survival and strength. For the native Sentinels, each saw blade is an act of sacrilege.",
+   "body": "In eastern Ashenvale, Warsong Lumber Camp cuts through the dense canopy for the Horde. Orc peons and hired goblin engineers drive whirring shredders through towering trunks, making lumber for nearby Splintertree Post and the fledgling nation of Durotar.\n\nKargathia Keep anchors the camp's defenses against night elf counterattacks. War wolves wait in an active kennel. To the Warsong, every felled tree means survival and strength. To the native Sentinels, each saw blade is an act of sacrilege.",
    "spoiler": 0
   },
   {
    "title": "A Legacy of War",
-   "body": "Warsong clan warriors first entered these woods with Grom Hellscream during the Third War, seeking timber for the Horde. Their clearing of the forest enraged the demigod Cenarius and drew the ancient wrath of the night elves. The camp now flies the banners of Thrall's Horde, but old hatreds still burn. Untamed timber, hostile elves, and demonic corruption around neighboring Felfire Hill surround the camp. Its defenders stay armed around the clock, axes in hand as they harvest, ready to abandon their timber when the next ambush comes.",
+   "body": "Warsong clan warriors first entered these woods with Grom Hellscream during the Third War, seeking timber for the Horde. Their clearing enraged the demigod Cenarius and drew the ancient wrath of the night elves.\n\nNow Thrall's Horde banners fly over the camp, but old hatreds still burn. Untamed timber, hostile elves, and demonic corruption around neighboring Felfire Hill surround it. Its defenders stay armed around the clock, axes in hand as they harvest, ready to abandon the lumber when the next ambush comes.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "warsong logging reasons",
     "why does horde need wood"
    ],
-   "answer": "The Horde's lands, especially Durotar and the Barrens, are arid and sparse, with little timber for buildings, palisades, or war machinery. Ashenvale provides vast stores of wood for the survival and growth of outposts like Splintertree Post and the capital of Orgrimmar."
+   "answer": "The Horde's lands, especially Durotar and the Barrens, are arid and sparse, with little timber for buildings, palisades, or war machinery. Ashenvale supplies wood for outposts like Splintertree Post and the capital of Orgrimmar to survive and grow."
   },
   {
    "q": "What is Kargathia Keep?",
@@ -37,7 +37,7 @@
     "fort in lumber camp",
     "warsong keep ashenvale"
    ],
-   "answer": "Kargathia Keep anchors the Warsong Lumber Camp as its fortified stronghold. It provides barracks, strategic command, and a reinforced refuge where peons and overseers can hold off night elf ambushes or attacks by local wildlife."
+   "answer": "Kargathia Keep is the fortified stronghold at Warsong Lumber Camp. It provides barracks, strategic command, and a reinforced refuge where peons and overseers can hold off night elf ambushes or attacks by local wildlife."
   },
   {
    "q": "Why are the night elves so hostile to this camp?",
@@ -55,7 +55,7 @@
     "why are shredders here",
     "goblin machinery ashenvale"
    ],
-   "answer": "Goblin mercenaries and technicians supply specialized equipment for the lumber operation, especially steam-powered shredders. The machines let the Warsong harvest and strip massive ancient trees far faster than hand axes can."
+   "answer": "Goblin mercenaries and technicians supply specialized equipment for the lumber operation, especially steam-powered shredders. These machines let the Warsong harvest and strip massive ancient trees far faster than hand axes can."
   }
  ],
  "angles": [
@@ -90,5 +90,5 @@
  "attribution": [
   "Warsong Lumber Camp"
  ],
- "style": 1
+ "style": 2
 }

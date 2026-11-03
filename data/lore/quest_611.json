@@ -24,16 +24,16 @@
    "Stone of the Tides"
   ]
  },
- "summary": "With her knife recovered from Pretty Boy Duncan, Catelyn the Blade loans the troll artifact so it can be used against a sunken altar off the coast. Baron Revilgaz in Booty Bay wants the Stone of the Tides for his collection of ancient troll artifacts.",
+ "summary": "Off Stranglethorn's coast, Catelyn the Blade lends you her recovered knife to strike a sunken altar. Baron Revilgaz in Booty Bay seeks the Stone of the Tides for his collection of ancient troll artifacts.",
  "sections": [
   {
    "title": "The Sunken Altar",
-   "body": "Catelyn the Blade lends her recovered troll dagger to break an altar submerged deep beneath the waves. Though no expert on troll ruins like her father, she has heard of a sunken troll city, and she points toward it, out near the reef northwest of Grom'gol Base Camp. Within the underwater ruins of the Vile Reef, the Altar of the Tides rests, surrounded by a distinct blue glow amid sea life and murlocs.",
+   "body": "Catelyn the Blade lends you her recovered troll dagger to break an altar beneath the waves. She knows less of troll ruins than her father, but has heard of a sunken troll city. So she points you northwest of Grom'gol Base Camp. There, in the Vile Reef's underwater ruins, the Altar of the Tides glows blue among sea life and murlocs.",
    "spoiler": 0
   },
   {
    "title": "The Trapped Mage",
-   "body": "Striking the Altar of the Tides with Catelyn's blade shatters its magic and draws forth Gazban, a goblin mage who carries the Stone of the Tides and takes the form of a water elemental when challenged. Once he is overcome, the stone can be carried alongside the loaned dagger back to Booty Bay, where Baron Revilgaz prepares a special display stand to showcase the relic's captured oceanic magic among his prized collection.",
+   "body": "Striking the Altar of the Tides with Catelyn's blade breaks its magic and draws forth Gazban, a goblin mage carrying the Stone of the Tides. Challenged, Gazban takes the form of a water elemental. Once you overcome him, you can carry the stone and the borrowed dagger back to Booty Bay. Baron Revilgaz has prepared a special display stand for the relic's captured oceanic magic, among his prized collection.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "altar of the tides location",
     "where do i find the altar"
    ],
-   "answer": "The altar rests deep under the sea in the Vile Reef, a sunken ruin situated off the coast northwest of Grom'gol Base Camp. It radiates a noticeable blue glow beneath the water."
+   "answer": "The Altar of the Tides lies beneath the sea in the Vile Reef, a sunken ruin northwest of Grom'gol Base Camp. Its blue glow is easy to see underwater."
   },
   {
    "q": "Why does Baron Revilgaz want the stone?",
@@ -54,7 +54,7 @@
     "why revilgaz wants the stone",
     "what does revilgaz do with it"
    ],
-   "answer": "Baron Revilgaz is an avid collector of ancient troll antiquities and has cleared space and bought a fine stand specifically to show off the relic."
+   "answer": "Baron Revilgaz collects ancient troll antiquities. He has cleared space and bought a fine stand to display the relic."
   },
   {
    "q": "Why does Catelyn lend her blade?",
@@ -63,13 +63,13 @@
     "why lend knife",
     "catelyn blade"
    ],
-   "answer": "After having her special knife recovered from Duncan, Catelyn lends the troll relic to shatter the altar, demanding its safe return once the deed is finished."
+   "answer": "Catelyn lends you her recovered special knife to shatter the altar, asking you to return it safely when the deed is done."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Alliance adventurers finish Baron Revilgaz's search for the ancient relic, venturing into waters close to the Horde encampment at Grom'gol Base Camp."
+   "text": "As an Alliance adventurer, you complete Baron Revilgaz's search for the ancient relic in waters near the Horde encampment at Grom'gol Base Camp."
   }
  ],
  "keywords": [
@@ -94,5 +94,6 @@
  ],
  "attribution": [
   "The Curse of the Tides"
- ]
+ ],
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Vile Familiars (Warlock 2)",
   "chain": []
  },
- "summary": "In the Valley of Trials, Ruzan sends warlock initiates against vile familiars. After you slay them, you report to Zureetha Fargaze, who oversees the effort to curb the Burning Blade.",
+ "summary": "In the Valley of Trials, Ruzan tests warlock initiates against vile familiars. After you slay them, you report to Zureetha Fargaze, who directs the effort against the Burning Blade.",
  "sections": [
   {
    "title": "A Matter of Discipline",
-   "body": "Warriors and scouts in the Valley of Trials answer directly to Zureetha Fargaze, who sends them to curb the Burning Blade Coven. Warlock initiates first answer to Ruzan, their shadowy mentor. He demands proof that you can master lesser demons before sending you back to aid the Horde's defense. Your work serves both the warlocks and the safety of the Den.",
+   "body": "Warriors and scouts in the Valley of Trials answer to Zureetha Fargaze. She sends them to curb the Burning Blade Coven. Warlock initiates answer first to Ruzan, their shadowy mentor. He demands proof that you can master lesser demons before sending you back to aid the Horde's defense. Your work helps the warlocks and keeps the Den safe.",
    "spoiler": 0
   },
   {
    "title": "The Threat of the Coven",
-   "body": "Zureetha Fargaze watches the northern cavern above the Valley of Trials. Vile familiars hide within, the weakest pets of the Burning Blade cultists. Their presence in the sacred training grounds insults the orcs and threatens the Valley. When you report your success, you show that those who practice fel magic remain ready to defend Durotar from corruption.",
+   "body": "Zureetha Fargaze watches the northern cavern above the Valley of Trials. Vile familiars hide within, the weakest pets of the Burning Blade cultists. Their presence insults the orcs and threatens the sacred training grounds. When you report your success, you show that those who practice fel magic are ready to defend Durotar from corruption.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "ruzan to zureetha",
     "why talk to zureetha"
    ],
-   "answer": "Zureetha Fargaze coordinates the defense and the effort to cull the Burning Blade in the Valley of Trials. Ruzan tests your control over lesser fel creatures, then sends you to Zureetha so she can recognize your service and fold it into the Valley's defense."
+   "answer": "Zureetha Fargaze directs the defense and the effort to cull the Burning Blade in the Valley of Trials. Ruzan tests your control over lesser fel creatures, then sends you to her so she can recognize your service and include it in the Valley's defense."
   },
   {
    "q": "Who are the vile familiars?",
@@ -56,7 +56,7 @@
     "zureetha fargaze location",
     "zureetha map"
    ],
-   "answer": "Zureetha Fargaze is out in the open near the center of the Den in the Valley of Trials, a short walk up from the trainers' camp where Ruzan resides."
+   "answer": "Zureetha Fargaze is out in the open near the center of the Den in the Valley of Trials. She is a short walk up from the trainers' camp where Ruzan resides."
   },
   {
    "q": "Why is there another quest with the exact same name?",
@@ -65,7 +65,7 @@
     "duplicate vile familiars",
     "warlock vile familiars"
    ],
-   "answer": "Most adventurers receive Vile Familiars directly from Zureetha Fargaze and hunt the creatures for her. Warlocks receive a separate task from Ruzan, then report back to Zureetha when they finish."
+   "answer": "Most adventurers receive Vile Familiars directly from Zureetha Fargaze and hunt the creatures for her. Warlocks receive a separate task from Ruzan, then report to Zureetha when they finish."
   },
   {
    "q": "What is the Burning Blade doing in the Valley of Trials?",
@@ -73,7 +73,7 @@
     "burning blade valley of trials",
     "why are cultists in the den"
    ],
-   "answer": "The Burning Blade cult operates in secret pockets across Durotar, seeking to undermine Thrall's new Horde from within. From a cavern inside the Valley of Trials, its members prey on unproven novices and spread demonic corruption under the eyes of the orcish overseers."
+   "answer": "The Burning Blade cult operates in secret pockets across Durotar, seeking to undermine Thrall's new Horde from within. Its members prey on unproven novices from a cavern inside the Valley of Trials, spreading demonic corruption under the eyes of the orcish overseers."
   },
   {
    "q": "Does slaying these familiars wipe out the cult?",
@@ -81,13 +81,13 @@
     "is burning blade defeated",
     "are cultists gone"
    ],
-   "answer": "No. The vile familiars are pets and scouts for the darker powers inside the coven. Defeating them is the first step toward uncovering and cleansing the deeper cultist threat in the Valley."
+   "answer": "No. Vile familiars are pets and scouts for the darker powers inside the coven. Defeating them begins the effort to uncover and cleanse the deeper cultist threat in the Valley."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you face the vile familiars to prove you can dominate and dismantle wild fel creatures without falling prey to them."
+   "text": "As a warlock, you face vile familiars to prove you can dominate and dismantle wild fel creatures without falling prey to them."
   },
   {
    "target": "race:Orc",
@@ -95,7 +95,7 @@
   },
   {
    "target": "race:Troll",
-   "text": "As a Darkspear troll, you share the Valley of Trials with others who view demonic magic with deep suspicion. You need to show your loyalty by standing against rogue cultists."
+   "text": "As a Darkspear troll, you share the Valley of Trials with others who view demonic magic with deep suspicion. You show your loyalty by standing against rogue cultists."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Vile Familiars (Warlock 2)"
  ],
- "style": 1
+ "style": 2
 }

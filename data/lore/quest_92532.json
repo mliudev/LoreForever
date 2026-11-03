@@ -17,16 +17,16 @@
   "wiki": "The Warrior's Path",
   "chain": []
  },
- "summary": "The Warrior's Path is an introductory martial quest offered to budding fighters on Zephras Isle. Following instructions delivered through Rorian the Dayseeker, young warriors are directed to Blademaster Ren in the Thendal Village watchtower. Ren stands ready to offer combat instruction and discipline to those prepared to shield their people.",
+ "summary": "Rorian the Dayseeker sends you to Blademaster Ren in Thendal Village. She offers young warriors instruction and discipline to defend their people.",
  "sections": [
   {
    "title": "A Summons to the Watchtower",
-   "body": "Upon returning to Rorian the Dayseeker in Thendal Village after restoring balance nearby, aspiring fighters receive word that the settlement's blademaster has taken notice of them. Rorian delivers a crumpled note penned by Ren herself, asking the novice to seek her out directly. Elevated above the settlement within the village watchtower, Ren keeps an observant eye over both the island's borders and the recruits who may one day defend them.",
+   "body": "After restoring balance nearby, you return to Rorian the Dayseeker in Thendal Village. The village blademaster has noticed you, and Rorian gives you a crumpled note written by Ren herself. She asks you to come to her directly.\n\nRen waits in the village watchtower, high above the settlement. From there, she watches the island's borders and the recruits who may one day defend them.",
    "spoiler": 0
   },
   {
    "title": "The Mantle of Protection",
-   "body": "Reaching the watchtower introduces the warrior to Blademaster Ren's philosophy of combat. To Ren, martial mastery is not simply an exercise in brute strength, but a vital duty to lead, endure, and protect in an increasingly uncertain world. She pledges her guidance to the recruit as they hone their skills, offering rigorous training as they grow strong enough to face the greater perils threatening their home.",
+   "body": "Inside the watchtower, Blademaster Ren teaches you that combat takes more than brute strength. A warrior must lead, endure, and protect as the world grows more uncertain. Ren pledges to guide you as you hone your skills. Her rigorous training prepares you for the greater dangers threatening your home.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "quest giver",
     "rorian role"
    ],
-   "answer": "Rorian the Dayseeker directs you to Blademaster Ren after you complete tasks in Thendal Village. While you were away, Ren specifically requested that Rorian send you to her watchtower upon your return."
+   "answer": "After you finish work in Thendal Village, Rorian the Dayseeker directs you to Blademaster Ren. Ren asked Rorian to send you to her watchtower when you returned."
   },
   {
    "q": "Where can I find Blademaster Ren?",
@@ -47,7 +47,7 @@
     "ren location",
     "thendal watchtower"
    ],
-   "answer": "Blademaster Ren is located inside the watchtower in Thendal Village on Zephras Isle, where she oversees the village and trains novice combatants."
+   "answer": "Blademaster Ren waits inside the watchtower in Thendal Village on Zephras Isle. She watches over the village and trains novice combatants."
   },
   {
    "q": "What is the Crumpled Note?",
@@ -56,7 +56,7 @@
     "what does note say",
     "ren note"
    ],
-   "answer": "The Crumpled Note is a personal summons delivered to you by Rorian on behalf of Blademaster Ren, instructing you to read it and report to the Thendal Village watchtower for formal martial training."
+   "answer": "The Crumpled Note is Blademaster Ren's personal summons, delivered by Rorian. It asks you to read it and report to the Thendal Village watchtower for martial training."
   },
   {
    "q": "What does Blademaster Ren teach young warriors?",
@@ -65,7 +65,7 @@
     "what does ren train",
     "warrior purpose"
    ],
-   "answer": "Blademaster Ren emphasizes vigilance, leadership, and protection. She reminds trainees that as the world shifts and perils mount, warriors must possess the will to stand between danger and their people."
+   "answer": "Blademaster Ren teaches vigilance, leadership, and protection. Warriors need the will to stand between danger and their people as the world shifts and dangers mount."
   },
   {
    "q": "Is this quest required for warrior training on Zephras Isle?",
@@ -74,7 +74,7 @@
     "warrior trainer intro",
     "is it mandatory"
    ],
-   "answer": "It serves as the formal introduction to your class trainer in Thendal Village, pointing you directly to Blademaster Ren so you know where to return for future martial techniques."
+   "answer": "This introduces you to Blademaster Ren, your class trainer in Thendal Village, and shows where to return for martial techniques."
   },
   {
    "q": "What does Ren mean by 'may the winds guide you'?",
@@ -83,13 +83,13 @@
     "wind quote",
     "ren farewell"
    ],
-   "answer": "This traditional blessing reflects the island culture of Zephras Isle, wishing travelers safe passage, focus, and fortune as they step out into unfamiliar and perilous territories."
+   "answer": "Ren's blessing reflects the culture of Zephras Isle. It wishes travelers safe passage, focus, and fortune in unfamiliar and dangerous lands."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "This quest represents the formal beginning of your martial education in Thendal Village, introducing you to Blademaster Ren as your mentor."
+   "text": "As a warrior, you begin your martial education in Thendal Village with Blademaster Ren as your mentor."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "The Warrior's Path"
- ]
+ ],
+ "style": 2
 }

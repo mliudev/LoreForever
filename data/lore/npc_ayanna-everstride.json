@@ -8,11 +8,11 @@
   "wiki": "Ayanna Everstride",
   "refs": 1
  },
- "summary": "In Shadowglen, Ayanna Everstride trains young kaldorei in the hunter’s way. Stationed in Aldrassil, she teaches marksmanship, tracking, and survival beneath the World Tree.",
+ "summary": "In Aldrassil, Ayanna Everstride guides young kaldorei in the hunter’s way. She teaches marksmanship, tracking, and survival beneath the World Tree.",
  "sections": [
   {
    "title": "A Mentor in Shadowglen",
-   "body": "Ayanna Everstride trains newly awakened kaldorei hunters inside Aldrassil, in the heart of Shadowglen. To the night elves, hunters are indispensable guardians of the sacred forests, not merely trappers or sharpshooters. Ayanna teaches novices early martial skills, ranged combat, and how to survive Teldrassil’s perilous woods.",
+   "body": "In Shadowglen, Ayanna Everstride trains newly awakened kaldorei hunters within Aldrassil. To the night elves, hunters guard the sacred forests. Their work reaches beyond trapping or shooting from afar. Ayanna teaches young hunters early martial skills, ranged combat, and ways to survive Teldrassil’s perilous woods.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is ayanna",
     "aldrassil hunter trainer"
    ],
-   "answer": "Ayanna Everstride trains novice night elf hunters in Aldrassil, within Shadowglen on Teldrassil. She teaches basic combat and outdoor survival skills."
+   "answer": "Ayanna Everstride trains novice night elf hunters in Aldrassil, within Shadowglen on Teldrassil. She teaches basic combat and survival in the wild."
   },
   {
    "q": "Where can I find Ayanna Everstride?",
@@ -42,13 +42,13 @@
     "etched sigil quest",
     "ayanna quest giver"
    ],
-   "answer": "Early training sends new night elf hunters to Ayanna. Their first instructors may give them an Etched Sigil, and Ayanna then provides introductory training for aspiring woodland rangers."
+   "answer": "Early training brings new night elf hunters to Ayanna. Their first instructors may give them an Etched Sigil, and Ayanna then teaches the basics to aspiring woodland rangers."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter starting in Shadowglen, you can look to Ayanna Everstride for your first guidance in weapon handling, tracking, and wilderness survival."
+   "text": "As a hunter starting in Shadowglen, you can turn to Ayanna Everstride for your first lessons in weapon handling, tracking, and wilderness survival."
   },
   {
    "target": "race:NightElf",
@@ -73,5 +73,5 @@
  "attribution": [
   "Ayanna Everstride"
  ],
- "style": 1
+ "style": 2
 }

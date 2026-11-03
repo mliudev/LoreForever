@@ -10,11 +10,11 @@
    "quest:1535"
   ]
  },
- "summary": "In the Barrens, Brine gives an empty waterskin to a shaman initiate.",
+ "summary": "Brine gives an empty waterskin to a shaman initiate in the Barrens.",
  "sections": [
   {
    "title": "A Lesson in Scarcity",
-   "body": "Brine gives a shaman initiate an empty leather skin for the opening trial of the Call of Water. The initiate must carry it to the watering hole beneath her dwelling and return with it full. The pool is guarded by local quilboar, who prize its water. In the Barrens, where water is scarce, even a small oasis can sustain life and spark violence.",
+   "body": "Brine gives the shaman initiate an empty leather skin for the opening trial of the Call of Water. The initiate carries it to the watering hole beneath her dwelling, then returns with it full. Local quilboar guard the pool and prize its water. Water is scarce in the Barrens, so even a small oasis can sustain life and spark violence.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does brown waterskin do",
     "use of empty brown waterskin"
    ],
-   "answer": "Shaman initiates use the empty waterskin to draw water from the natural pond beneath Brine's hut in the Barrens. Filled, it is needed to prepare elemental sapta."
+   "answer": "Shaman initiates draw water from the natural pond beneath Brine's hut in the Barrens. Filled, the skin is needed to prepare elemental sapta."
   },
   {
    "q": "Who provides this waterskin?",
@@ -44,7 +44,7 @@
     "quilboar water",
     "why is the pool guarded"
    ],
-   "answer": "Rain is rare throughout the Barrens, and water is scarce. To the quilboar, even a small watering hole means wealth and survival, so they guard it and attack anyone who draws from it."
+   "answer": "Rain is rare throughout the Barrens, where water is scarce. To the quilboar, even a small watering hole means wealth and survival, so they guard it and attack anyone who draws from it."
   },
   {
    "q": "What happens once the skin is filled?",
@@ -82,5 +82,5 @@
   "Empty Brown Waterskin",
   "Call of Water (3)"
  ],
- "style": 1
+ "style": 2
 }

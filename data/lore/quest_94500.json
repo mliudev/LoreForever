@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "This quest guides travelers along the Alliance maritime route from the Eastern Kingdoms out to Kalimdor, connecting Menethil Harbor to Auberdine and the Night Elf settlement of Astranaar."
+   "text": "As an Alliance traveler, you cross the sea from the Eastern Kingdoms to Kalimdor, sailing from Menethil Harbor to Auberdine. From there, you reach Astranaar, a Night Elf settlement."
   },
   {
    "target": "race:NightElf",
-   "text": "The quest directs travelers to the pristine waters surrounding Astranaar, one of the heartlands of the Kaldorei in Ashenvale, where ancient ruins still lie undisturbed."
+   "text": "As a Night Elf, you are sent to gather water from the pure lake beside Astranaar, in the heartlands of the Kaldorei in Ashenvale. Ancient ruins still lie undisturbed there."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "call of water quest",
     "call of water objective"
    ],
-   "answer": "Call of Water is a quest requiring the traveler to take an empty waterskin deep into the ancient forest of Ashenvale. The goal is to collect a sample of pure, ancient, and potentially enchanted water from the lake cradling the settlement of Astranaar before returning it to the questgiver.",
+   "answer": "You carry an empty waterskin into Ashenvale's ancient forest to gather pure water from the lake beside Astranaar. The sample may be enchanted, and you return it to the giver.",
    "q": "What is the quest Call of Water?"
   },
   {
@@ -37,7 +37,7 @@
     "where to fill waterskin",
     "call of water location"
    ],
-   "answer": "The water must be gathered from the lake surrounding Astranaar, located deep within Ashenvale. The waters there remain uncorrupted, flowing amidst ancient sunken ruins that date back to a bygone era.",
+   "answer": "Gather water from the lake beside Astranaar, deep in Ashenvale. It remains uncorrupted, and ancient sunken ruins lie beneath its surface.",
    "q": "Where do I collect the water for this quest?"
   },
   {
@@ -46,7 +46,7 @@
     "travel to ashenvale",
     "boat to astranaar"
    ],
-   "answer": "Travelers are advised to board the boat from Menethil Harbor to Auberdine, which makes a stop at Southshore along the way. From Auberdine on the Darkshore coast, one travels south into the deep emerald woods of Ashenvale to reach Astranaar.",
+   "answer": "Cross the sea by boat from Menethil Harbor to Auberdine. The boat stops at Southshore along the way. From Auberdine on the Darkshore coast, travel south through Ashenvale's deep woods to Astranaar.",
    "q": "How do I travel to Ashenvale for this quest?"
   },
   {
@@ -55,7 +55,7 @@
     "astranaar water ruins",
     "ruins in astranaar lake"
    ],
-   "answer": "The lake cradling Astranaar is noted for holding waters untouched by corruption. Beneath its surface lie submerged stone ruins hinting at an ancient, bygone era of elven civilization, lending the water its pristine and potentially enchanted qualities.",
+   "answer": "The lake beside Astranaar holds water untouched by corruption. Sunken stone ruins suggest an ancient era of elven civilization and give the water its pure, potentially enchanted qualities.",
    "q": "What makes the water at Astranaar special?"
   },
   {
@@ -63,7 +63,7 @@
     "who is norric",
     "return to norric"
    ],
-   "answer": "Norric is the individual awaiting the traveler after this final liquid sample is gathered. The questgiver collects this pure Ashenvale water as the last ingredient before sending the adventurer back to Norric.",
+   "answer": "Norric is waiting for you after you gather the final liquid sample. The giver collects the pure Ashenvale water before sending you back to Norric.",
    "q": "Who is Norric?"
   },
   {
@@ -71,7 +71,7 @@
     "danger in ashenvale",
     "ashenvale threats"
    ],
-   "answer": "Ashenvale is an ancient, dense forest filled with perils. The questgiver warns travelers to be constantly alert, cautioning that the forest has watchful eyes that do not blink as one ventures beneath its emerald canopy.",
+   "answer": "Ashenvale is an ancient, dense forest full of perils. The giver warns you to stay alert beneath its green canopy, where watchful eyes do not blink.",
    "q": "What dangers should I expect in Ashenvale?"
   }
  ],
@@ -93,18 +93,19 @@
  ],
  "sections": [
   {
-   "body": "Call of Water charges an adventurer with filling a waterskin from the uncorrupted waters of Ashenvale. The seeker must venture to Astranaar, a haven nestled amidst clean, ancient waters that lap against sunken ruins from a bygone era. This pristine sample serves as the final liquid needed by the questgiver before the traveler is sent on to Norric.",
+   "body": "You are sent to fill a waterskin with Ashenvale's uncorrupted water. Astranaar is a haven beside the lake, whose ancient waters lap against sunken ruins. This is the last liquid sample the giver needs before sending you on to Norric.",
    "spoiler": 0,
    "title": "The Search for Pure Water"
   },
   {
-   "body": "Reaching the depths of Ashenvale requires crossing the sea from the Eastern Kingdoms. The recommended path takes travelers aboard the ship sailing out of Menethil Harbor toward Auberdine, making port at Southshore along the journey. From the docks of Auberdine, the road leads inland into the emerald boughs of Ashenvale, where travelers are warned to stay alert among the watchful shadows of the trees.",
+   "body": "To reach Ashenvale from the Eastern Kingdoms, cross the sea by ship from Menethil Harbor toward Auberdine. The ship puts in at Southshore along the way. From Auberdine's docks, follow the road inland beneath Ashenvale's green boughs. Stay alert among the watchful shadows of the trees.",
    "spoiler": 0,
    "title": "The Road to Astranaar"
   }
  ],
- "summary": "Call of Water tasks an adventurer with journeying into the emerald canopy of Ashenvale to collect pure, ancient water from the lake cradling Astranaar. It marks the final gathering step before the traveler is sent back to Norric.",
+ "summary": "In Ashenvale, you gather pure water from the lake beside Astranaar. It is the last sample you need before returning to Norric.",
  "attribution": [
   "In-game quest text: Call of Water"
- ]
+ ],
+ "style": 2
 }

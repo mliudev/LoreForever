@@ -24,16 +24,16 @@
    "Draconic for Dummies (quest)"
   ]
  },
- "summary": "Meridith the Mermaiden has a message for Narain Soothfancy, the gnome she once rescued from the wreckage of a crashed flying machine. She asks you to carry her love letter to him in Tanaris. You can take this up while seeking Narain's book in Draconic for Dummies.",
+ "summary": "Meridith sends her love to Narain Soothfancy, and you carry her letter to him in Tanaris. She rescued the gnome from a crashed flying machine and asks you to seek his book, Draconic for Dummies.",
  "sections": [
   {
    "title": "A Message for the Shore",
-   "body": "Meridith the Mermaiden seldom has visitors. The last was the gnome she rescued from the wreckage of a crashed flying machine, and she gazes into nothing for a moment, lost in the memory. She asks whether you know Narain Soothfancy, because she has to tell him how she feels, and she is sure it is love. She begs you to carry a message to him, and promises to be forever in your debt.",
+   "body": "Meridith the Mermaiden seldom has visitors. Her last was the gnome she rescued from a crashed flying machine. The memory takes her gaze far away for a moment. Then she asks if you know Narain Soothfancy. She needs to tell him how she feels, and she is sure it is love. Meridith begs you to carry her message to him and promises to be forever in your debt.",
    "spoiler": 0
   },
   {
    "title": "Narain's Answer",
-   "body": "Narain Soothfancy remarks that you smell of fish. When he learns what the letter says, he fidgets and protests that she is a fish and he is a gnome, so it could never work out.",
+   "body": "Narain Soothfancy says you smell of fish. When he learns what Meridith's letter says, he fidgets. She is a fish, he protests, and he is a gnome. He insists their love could never work out.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "meridith the mermaiden",
     "mermaiden lore"
    ],
-   "answer": "Meridith is a mermaiden who seldom has visitors. The last was the gnome she rescued from a crashed flying machine, Narain Soothfancy."
+   "answer": "Meridith is a mermaiden who seldom has visitors. Her last visitor was Narain Soothfancy, the gnome she rescued from a crashed flying machine."
   },
   {
    "q": "How does Meridith know Narain Soothfancy?",
@@ -54,7 +54,7 @@
     "narain and meridith relationship",
     "narain plane crash"
    ],
-   "answer": "She rescued him from the wreckage of his crashed flying machine, and she believes she is in love with him."
+   "answer": "Meridith rescued Narain Soothfancy from his crashed flying machine. She believes she is in love with him."
   },
   {
    "q": "What is the love letter?",
@@ -63,7 +63,7 @@
     "love letter to narain",
     "what is in the message"
    ],
-   "answer": "It is Meridith's message to Narain Soothfancy, telling him how she feels. She wants it delivered to him in Tanaris."
+   "answer": "The love letter is Meridith's message to Narain Soothfancy, telling him how she feels. She wants you to deliver it to him in Tanaris."
   },
   {
    "q": "What came before this request?",
@@ -71,7 +71,7 @@
     "previous quest",
     "prerequisite for love song for narain"
    ],
-   "answer": "Draconic for Dummies comes before it. Meridith offers her request to those already seeking Narain's buried book."
+   "answer": "Draconic for Dummies comes first. Meridith asks you to carry her letter while you seek Narain's buried book."
   }
  ],
  "angles": [],
@@ -92,5 +92,6 @@
  ],
  "attribution": [
   "Love Song for Narain"
- ]
+ ],
+ "style": 2
 }

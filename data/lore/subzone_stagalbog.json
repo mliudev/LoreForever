@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Stagalbog"
  },
- "summary": "The Stagalbog is a dense, waterlogged marsh stretch across the southern reaches of the Swamp of Sorrows. Bordering the southern mountain range just below the Pool of Tears, it remains an untamed wilderness.",
+ "summary": "Along the southern mountains, Stagalbog remains an untamed stretch of marsh, south of the Pool of Tears.",
  "sections": [
   {
    "title": "The Southern Mire",
-   "body": "Stretching beneath the shadow of the southern crags, the Stagalbog is typical of the Swamp of Sorrows: stagnant water, drooping reeds, and tangled vegetation. It sits immediately south of the sunken ruins of the Temple of Atal'Hakkar, caught between the tainted lake and the rocky boundary of the region. Apart from rough wildlife, civilization has established no foothold here.",
+   "body": "Below the southern crags, stagnant water gathers among drooping reeds and tangled growth. The tainted Pool of Tears borders Stagalbog to the north, with the sunken ruins of the Temple of Atal'Hakkar just beyond. Rough wildlife roams the mire, where civilization has made no foothold.",
    "spoiler": 0
   },
   {
    "title": "Shadow of the Temple",
-   "body": "Because it borders the Pool of Tears, the Stagalbog frequently catches whatever shadows or corruptions seep from the Sunken Temple.",
+   "body": "Beside the Pool of Tears, Stagalbog lies under the shadows and corruption seeping from the Sunken Temple.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is stagalbog",
     "how to find stagalbog"
    ],
-   "answer": "The Stagalbog is located in the southern part of the Swamp of Sorrows, situated directly south of the Pool of Tears and running along the base of the southern mountain range."
+   "answer": "Stagalbog lies in the southern Swamp of Sorrows, directly south of the Pool of Tears along the base of the southern mountain range."
   },
   {
    "q": "What threats can be found wandering the bog?",
@@ -36,17 +36,17 @@
     "stagalbog mobs",
     "monsters in stagalbog"
    ],
-   "answer": "The bog is inhabited by indigenous marsh beasts and predatory creatures."
+   "answer": "Native marsh beasts and predatory creatures roam the bog."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "The damp, sun-deprived roots of the Stagalbog provide prime growing conditions for swamp flora that thrive away from trodden paths."
+   "text": "Damp, shaded roots in Stagalbog provide prime growing conditions for swamp flora that thrive away from trodden paths."
   },
   {
    "target": "class:Hunter",
-   "text": "The quiet swaths between the marsh water and the mountain cliffs make the Stagalbog a prime stalking ground for native swamp beasts."
+   "text": "Between the marsh water and mountain cliffs, Stagalbog's quiet stretches give native swamp beasts room to roam."
   }
  ],
  "keywords": [
@@ -64,5 +64,6 @@
  ],
  "attribution": [
   "Stagalbog"
- ]
+ ],
+ "style": 2
 }

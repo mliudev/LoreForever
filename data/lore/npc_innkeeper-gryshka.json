@@ -8,16 +8,16 @@
   "wiki": "Innkeeper Gryshka",
   "refs": 3
  },
- "summary": "At the Broken Tusk in Orgrimmar, Innkeeper Gryshka welcomes travelers with food, drink, and a hearthstone binding. She keeps the inn supplied with meat from hunters across Durotar and the Barrens.",
+ "summary": "At the Broken Tusk in Orgrimmar, Innkeeper Gryshka welcomes travelers with food, drink, and a hearthstone binding. Hunters across Durotar and the Barrens keep her supplied with meat.",
  "sections": [
   {
    "title": "Hearth of the Valley of Strength",
-   "body": "Innkeeper Gryshka welcomes travelers at the Broken Tusk in Orgrimmar's Valley of Strength. The inn stands just beyond the city's main gates, where warriors, messengers, and newcomers to Thrall's Horde can find shelter.",
+   "body": "At the Broken Tusk, Innkeeper Gryshka welcomes travelers in Orgrimmar's Valley of Strength. The inn stands just beyond the city's main gates, where warriors, messengers, and newcomers to Thrall's Horde can find shelter.",
    "spoiler": 0
   },
   {
    "title": "A Taste for Fresh Meat",
-   "body": "Gryshka keeps the Broken Tusk's kitchen supplied with fresh meat. Trusted hunters across Horde lands send her game, including Zargh at the Crossroads and Grimtak in Durotar, who ship their finest cuts to the inn.",
+   "body": "Gryshka keeps the Broken Tusk's kitchen supplied with fresh meat. Trusted hunters across Horde lands send her game, including Zargh at the Crossroads and Grimtak in Durotar. They ship their finest cuts to the inn.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "who supplies the broken tusk",
     "zargh meat delivery"
    ],
-   "answer": "Gryshka gets meat from hunters across Horde lands, including Zargh at the Crossroads in the Barrens and Grimtak in Durotar, who send her game cuts."
+   "answer": "Gryshka gets meat from hunters across Horde lands. Zargh at the Crossroads in the Barrens and Grimtak in Durotar send her game cuts."
   },
   {
    "q": "What services does Gryshka provide?",
@@ -108,5 +108,5 @@
  "attribution": [
   "Innkeeper Gryshka"
  ],
- "style": 1
+ "style": 2
 }

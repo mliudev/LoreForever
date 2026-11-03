@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "Purification in the Holy Waters",
-   "body": "Lady Sathrah was a venerable creature of Teldrassil, until creeping madness and corruption spread through the great tree's boughs and took hold of her. The Sisterhood of Elune asks you to bring back her silvery spinnerets as a consecrated offering, not a trophy. At the fountain in the Temple of the Moon, the remains are bathed in holy water. The rite washes away the taint that poisoned Sathrah's mind and frees her troubled soul. Her spirit then appears peacefully within the sanctuary, with the promise of rebirth under Elune's grace.",
+   "body": "Lady Sathrah was a venerable creature of Teldrassil. Then creeping madness and corruption spread through the great tree's boughs and took hold of her. The Sisterhood of Elune asks you to bring back her silvery spinnerets as a consecrated offering. They are not a trophy.\n\nAt the fountain in the Temple of the Moon, her remains are bathed in holy water. The rite washes away the taint that poisoned Sathrah's mind and frees her troubled soul. Her spirit appears peacefully within the sanctuary, with the promise of rebirth under Elune's grace.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "sathrah sacrifice item",
     "lady sathrah offering"
    ],
-   "answer": "Sathrah's Sacrifice is an offering of silvery spinnerets taken from Lady Sathrah, a mighty spider corrupted in Teldrassil. The Sisterhood of Elune uses them in a rite to cleanse her soul."
+   "answer": "Sathrah's Sacrifice offers silvery spinnerets taken from Lady Sathrah, a mighty spider corrupted in Teldrassil. The Sisterhood of Elune uses them in a rite to cleanse her soul."
   },
   {
    "q": "Why must the spinnerets be placed in the fountain?",
@@ -90,5 +90,5 @@
   "Sathrah's Sacrifice",
   "Sathrah's Sacrifice (quest)"
  ],
- "style": 1
+ "style": 2
 }

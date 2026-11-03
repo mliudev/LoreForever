@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Nethander Stead"
  },
- "summary": "Nethander Stead lies abandoned along the road east of Southshore, overrun by Mudsnout gnolls. Once a human farm, its fields now hold giant white Mudsnout Blossoms that draw Forsaken alchemists.",
+ "summary": "Along the road east of Southshore, Nethander Stead lies abandoned beneath the Mudsnout gnolls. Giant white Mudsnout Blossoms now cover its fields and draw Forsaken alchemists.",
  "sections": [
   {
    "title": "A Ruined Homestead",
-   "body": "At Nethander Stead, ruined fences and outbuildings stand within sight of Southshore's eastern borders. The farm once formed part of Hillsbrad's working fields, but it was abandoned as security weakened and wild packs moved in. Now the Mudsnout gnolls make their only home in the foothills here. They drive off travelers who come too close to their territory.",
+   "body": "Ruined fences and outbuildings at Nethander Stead stand within sight of Southshore’s eastern borders. Once part of Hillsbrad’s working fields, the farm was abandoned as security weakened and wild packs moved in. The Mudsnout gnolls make their only home in these foothills. They drive off travelers who come too close to their territory.",
    "spoiler": 0
   },
   {
    "title": "The Mudsnout Blossoms",
-   "body": "Giant, pale mushrooms called Mudsnout Blossoms cover the farm's untended plots. The fungi carry potent natural toxins, drawing the Royal Apothecary Society in Tarren Mill. Its apothecaries seek samples from the gnolls' ground to distill caustic mixtures, sending covert Horde parties into Alliance territory.",
+   "body": "Giant, pale mushrooms called Mudsnout Blossoms cover the farm’s untended plots. Their natural toxins are potent, and the Royal Apothecary Society in Tarren Mill seeks samples. Its apothecaries use the gnolls’ ground to gather them for caustic mixtures. Covert Horde parties enter Alliance territory to bring back the blossoms.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "nethander stead info",
     "where is nethander stead"
    ],
-   "answer": "Nethander Stead is an abandoned human farm along the road just east of Southshore in the Hillsbrad Foothills. Mudsnout gnolls have overrun it."
+   "answer": "Along the road just east of Southshore in the Hillsbrad Foothills, Nethander Stead is an abandoned human farm. Mudsnout gnolls have overrun it."
   },
   {
    "q": "Who controls Nethander Stead right now?",
@@ -37,7 +37,7 @@
     "who is at nethander stead",
     "what mobs are here"
    ],
-   "answer": "The Mudsnout gnolls occupy the farmstead, the only place in the Hillsbrad Foothills where this pack makes camp."
+   "answer": "The Mudsnout gnolls occupy the farmstead. It is the only place in the Hillsbrad Foothills where this pack makes camp."
   },
   {
    "q": "What are the giant white mushrooms growing in the fields?",
@@ -46,7 +46,7 @@
     "mudsnout mushrooms",
     "mudsnout blossoms"
    ],
-   "answer": "The giant white mushrooms are Mudsnout Blossoms, which grow in the farm's unworked soil. Their toxic properties make them valuable to Forsaken alchemists studying poisons."
+   "answer": "The giant white mushrooms are Mudsnout Blossoms, growing in the farm’s unworked soil. Their toxic properties make them valuable to Forsaken alchemists studying poisons."
   },
   {
    "q": "Why does the Horde care about this ruined farm?",
@@ -55,17 +55,17 @@
     "forsaken interest",
     "horde quest nethander"
    ],
-   "answer": "Apothecary Lydon in Tarren Mill seeks Mudsnout Blossoms from the farm's fields. Their potent juices are an essential ingredient in the Elixir of Agony."
+   "answer": "Apothecary Lydon in Tarren Mill seeks Mudsnout Blossoms from the farm’s fields. Their potent juices are essential to making the Elixir of Agony."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, the gnolls entrenched just down the eastern road show how fragile Southshore's perimeter remains."
+   "text": "As an Alliance traveler, you can see how fragile Southshore’s perimeter remains in the gnolls entrenched just down the eastern road."
   },
   {
    "target": "faction:Horde",
-   "text": "For the Horde, reaching this farmstead near Southshore means gathering Mudsnout Blossoms for the Royal Apothecary Society's lethal research."
+   "text": "As a member of the Horde, you can gather Mudsnout Blossoms at this farmstead near Southshore for the Royal Apothecary Society’s lethal research."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
  "attribution": [
   "Nethander Stead"
  ],
- "style": 1
+ "style": 2
 }

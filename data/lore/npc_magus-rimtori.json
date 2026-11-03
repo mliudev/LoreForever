@@ -8,16 +8,16 @@
   "wiki": "Magus Rimtori",
   "refs": 2
  },
- "summary": "Magus Rimtori is a rogue blood elf sorceress leading an expedition among the ancient ruins of Azshara. Known for her ruthless deception, she manipulated the Horde into securing her passage across Kalimdor before butchering her orcish escort.",
+ "summary": "In Azshara, Magus Rimtori leads a blood elf expedition among the ancient ruins. She won passage across Kalimdor by deceiving the Horde, then slaughtered her orcish escort.",
  "sections": [
   {
    "title": "A Deadly Deception",
-   "body": "Magus Rimtori led an expedition of high-borne blood elves across the sea to the ancient shores of Azshara. To ensure her party survived the perils of Kalimdor, she manipulated the orc Belgrom, charming and playing him until he agreed to supply an armed escort. Once the soldiers had delivered her safely to her destination, Rimtori revealed her true colors, turning on her protectors and massacring the entire garrison. Establishing her forces at the Thalassian Base Camp, she ventured out into the coastal wilds accompanied by elite bodyguards to hunt for forgotten magical artifacts.",
+   "body": "Magus Rimtori brought high-borne blood elves across the sea to Azshara's ancient shores. To carry them safely through Kalimdor, she charmed and manipulated the orc Belgrom until he agreed to provide an armed escort. Once his soldiers brought her to Azshara, Rimtori turned on her protectors and slaughtered the entire garrison.\n\nHer forces now hold the Thalassian Base Camp. Rimtori ventures into the coastal wilds with elite bodyguards, seeking forgotten magical artifacts.",
    "spoiler": 0
   },
   {
    "title": "Secrets of the Ruins",
-   "body": "The true motive driving Rimtori's expedition remains clouded in secrecy, though her ruthless methods have earned her countless enemies. Aside from double-crossing the Horde, she also betrayed local hirelings, including the goblin surveyor Kim'jael, who claims she was obsessed with uncovering an ancient rune. Surrounded by relics such as a demonic summoning tome left behind in her camp, Rimtori's hunt for power has drawn the fierce retribution of the Horde she so callously crossed.",
+   "body": "Kim'jael, a goblin surveyor betrayed by Rimtori, says she was obsessed with finding an ancient rune. The true purpose of her expedition remains secret, and her ruthless methods have earned her many enemies.\n\nRimtori also betrayed local hirelings. Among the relics left in her camp lies a demonic summoning tome. The Horde she crossed now seeks vengeance for its fallen soldiers.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "belgrom rimtori lore",
     "what did rimtori do to the horde"
    ],
-   "answer": "Rimtori charmed and manipulated the orc Belgrom into providing her expedition with a military escort across Kalimdor. Once they safely arrived in Azshara, she betrayed and slaughtered every single orcish soldier under Belgrom's command."
+   "answer": "Rimtori deceived the orc Belgrom into providing an armed escort for her expedition across Kalimdor. After his soldiers brought her safely to Azshara, she betrayed them and slaughtered every orc under his command."
   },
   {
    "q": "Where can Magus Rimtori be found?",
@@ -38,7 +38,7 @@
     "where is magus rimtori",
     "rimtori azshara location"
    ],
-   "answer": "While her expedition established the Thalassian Base Camp, Rimtori herself roams the wilderness of Azshara accompanied by her personal blood elf bodyguards as she searches for ancient relics."
+   "answer": "Rimtori's expedition holds the Thalassian Base Camp. She roams Azshara's wilderness with her personal blood elf bodyguards, searching for ancient relics."
   },
   {
    "q": "What was Rimtori searching for in Azshara?",
@@ -47,7 +47,7 @@
     "rimtori purpose azshara",
     "rimtori rune"
    ],
-   "answer": "According to the goblin Kim'jael, whom she hired and then betrayed, Rimtori was obsessively hunting for a mysterious ancient rune, alongside other potent relics such as a Kaldorei tome of summoning."
+   "answer": "Kim'jael, the goblin Rimtori hired and then betrayed, says she hunted for an ancient rune. She also sought potent relics, including a Kaldorei tome of summoning."
   },
   {
    "q": "Who is Magister Hawkhelm?",
@@ -56,17 +56,17 @@
     "thalassian camp leader",
     "magister hawkhelm rimtori"
    ],
-   "answer": "Magister Hawkhelm is a blood elf officer entrusted by Magus Rimtori to command and supervise the Thalassian Base Camp while she investigates the surrounding ruins."
+   "answer": "Magister Hawkhelm is the blood elf officer Rimtori entrusted with commanding and supervising the Thalassian Base Camp while she investigates the surrounding ruins."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Rimtori manipulated Belgrom and slaughtered the orc guard assigned to escort her, making her assassination a top priority for Horde warriors seeking to avenge their fallen kin."
+   "text": "As a member of the Horde, you know Rimtori deceived Belgrom and slaughtered the orc guard sent to escort her. Horde warriors seek to avenge their fallen kin, and she is a priority target."
   },
   {
    "target": "class:Mage",
-   "text": "Rimtori demonstrates the lengths to which Thalassian magi will go in their desperate pursuit of arcane power, sifting through Kalimdor's ruins and demonic relics."
+   "text": "As a mage, you can see how far Thalassian magi will go in pursuit of arcane power. They search Kalimdor's ruins and demonic relics."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Magus Rimtori"
- ]
+ ],
+ "style": 2
 }

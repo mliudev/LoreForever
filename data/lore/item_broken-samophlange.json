@@ -10,16 +10,16 @@
    "quest:3921"
   ]
  },
- "summary": "In the northern Barrens, a broken samophlange draws the notice of curious engineers. Its gears and shifting parts hint at a purpose no one has uncovered.",
+ "summary": "In the northern Barrens, a broken samophlange has drawn curious engineers. Its shifting parts and fine gears still hint at a purpose no one has uncovered.",
  "sections": [
   {
    "title": "A Baffling Mechanism",
-   "body": "The broken samophlange is a baffling contraption from the northern Barrens. Its moving assemblies and fine gears show careful workmanship, even in ruin. Sputtervalve, a goblin in Ratchet, damaged the delicate device by accident before anyone could document how it worked. The finder hoped to send working results to curious colleagues in Undermine, so they sought someone able to repair it. Wenikee Boltbucket, a clever tinkerer near the border outpost of Mor'shan Rampart, was the one they turned to.",
+   "body": "From the northern Barrens comes a broken samophlange, its fine gears and moving assemblies still showing careful workmanship. Sputtervalve, a goblin in Ratchet, damaged the delicate device by accident before anyone could record how it worked. Hoping to send working results to curious colleagues in Undermine, its finder sought someone who could repair it. Wenikee Boltbucket, a clever tinkerer near Mor'shan Rampart, was the one they turned to.",
    "spoiler": 0
   },
   {
    "title": "Seeking Tinkerer's Hands",
-   "body": "Wenikee Boltbucket cannot tell what a samophlange is meant to do, even after examining its ruined parts. Its clockwork sounds and shifting motion catch her interest, though. Rather than discard it as junk, she sets out to repair the device and see its mechanisms working at full capacity.",
+   "body": "Wenikee Boltbucket cannot tell what a samophlange is meant to do, even after studying its ruined parts. Its clockwork sounds and shifting motion catch her interest. Rather than cast it aside as junk, she sets out to repair it and see its mechanisms working at full capacity.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what does a samophlange do",
     "samophlange definition"
    ],
-   "answer": "Even the tinkerers trying to repair a samophlange cannot say what it does. Its name offers no answer, but its intricate gears and moving parts point to some unknown industrial purpose."
+   "answer": "Even the tinkerers trying to repair a samophlange cannot say what it does. Its name offers no answer, but its fine gears and moving parts point to some unknown industrial purpose."
   },
   {
    "q": "Why is the samophlange broken?",
@@ -39,7 +39,7 @@
     "how did it break",
     "broken samophlange lore"
    ],
-   "answer": "Sputtervalve, the goblin in Ratchet, damaged the delicate machinery while tampering with the device brought to him. The samophlange seized before its secrets could be shared with colleagues in Undermine, so they sought an expert to get it working again."
+   "answer": "Sputtervalve, a goblin in Ratchet, damaged the delicate machinery while tampering with the device brought to him. The samophlange seized before its secrets could be shared with colleagues in Undermine, so they sought an expert to set it working again."
   },
   {
    "q": "Who is Wenikee Boltbucket?",
@@ -47,7 +47,7 @@
     "where is wenikee",
     "boltbucket location"
    ],
-   "answer": "Wenikee Boltbucket is an inquisitive tinkerer in the northern Barrens, just south of Mor'shan Rampart on the Ashenvale border. Her engineering curiosity leads her to inspect and rebuild strange contraptions."
+   "answer": "Wenikee Boltbucket is an inquisitive tinkerer in the northern Barrens, just south of Mor'shan Rampart on the Ashenvale border. Her curiosity about engineering leads her to inspect and rebuild strange contraptions."
   },
   {
    "q": "Why are goblins in Undermine interested in it?",
@@ -55,17 +55,17 @@
     "undermine interest",
     "why do goblins care"
    ],
-   "answer": "Goblin engineers and entrepreneurs are eager to study unusual mechanical technology. Word of the device reached contacts in Undermine, who were intrigued by whatever advantages it might offer."
+   "answer": "Goblin engineers and entrepreneurs are eager to study unusual mechanical devices. Word of the samophlange reached contacts in Undermine, who were intrigued by whatever advantages it might offer."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "For an engineer, the samophlange is an irresistible puzzle: a machine with delicate inner gears whose purpose may emerge only by taking it apart and getting it running."
+   "text": "For an engineer, the samophlange is an irresistible puzzle. Its delicate inner gears may reveal their purpose only when the machine is taken apart and set running."
   },
   {
    "target": "faction:Horde",
-   "text": "The device turns up in Horde territory in the Barrens, bringing local outposts, tinkerers, and neutral trading contacts into cooperation."
+   "text": "The device turns up in Horde territory in the Barrens, bringing local outposts, tinkerers, and neutral trading contacts together."
   }
  ],
  "keywords": [
@@ -89,5 +89,5 @@
   "Broken Samophlange",
   "Wenikee Boltbucket (Classic)"
  ],
- "style": 1
+ "style": 2
 }

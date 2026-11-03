@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Dark Portal"
  },
- "summary": "The Dark Portal is a monumental stone gateway standing at the southern rim of the Blasted Lands. First torn open through the combined sorcery of Medivh and Gul'dan, it served as the fateful conduit that brought the Old Horde into Azeroth, initiating the First War.",
+ "summary": "At the Blasted Lands' southern rim, the dormant Dark Portal holds a rift between worlds. Its opening brought the Old Horde into Azeroth and began the First War.",
  "sections": [
   {
    "title": "A Rift Across Realities",
-   "body": "Before its opening, this region was part of the Black Morass, a sodden wetland that stretched across the south. That changed when Medivh, possessed by Sargeras, joined his Tirisfal magics with the fel sorcery of Gul'dan on Draenor. The ritual drained untold lives and tore the fabric of reality apart. The Old Horde raised massive stone architecture to anchor the rift, marching armies through its threshold to shatter the Kingdom of Stormwind in the First War. The portal's fel emanations fundamentally corrupted the surrounding terrain, reducing lush marshes to the red, petrified wastes seen today.",
+   "body": "Where the Black Morass once spread across the south, the Dark Portal tore open. Medivh, possessed by Sargeras, joined his Tirisfal magics with Gul'dan's fel sorcery on Draenor. Their ritual drained countless lives and ripped reality apart. The Old Horde anchored the rift with massive stonework, then marched through to shatter the Kingdom of Stormwind in the First War.\n\nFel power from the portal poisoned the land. Lush marshes became the red, petrified wastes you see today.",
    "spoiler": 0
   },
   {
    "title": "Dormant Vigilance",
-   "body": "Following the Alliance of Lordaeron's victory in the Second War, Archmage Khadgar shattered the physical stone frame with powerful magics, hoping to sever Draenor forever. However, the dimensional tear beneath proved functionally indestructible. The Alliance erected Nethergarde Keep nearby to watch the scar, while demons and remnants of the Shadow Council continue to slink through the blasted caldera. Today the gateway stands reassembled yet dormant, a silent scar between worlds that neither side dares abandon.",
+   "body": "After the Alliance of Lordaeron won the Second War, Archmage Khadgar shattered the portal's stone frame with powerful magic. He hoped to sever Draenor from Azeroth forever, but the tear beneath it proved impossible to destroy. The Alliance built Nethergarde Keep nearby to watch the scar.\n\nDemons and remnants of the Shadow Council still creep through the blasted caldera. The gateway has been reassembled, yet remains dormant. It is a silent wound between worlds that neither side dares abandon.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "is dark portal open",
     "portal to outland"
    ],
-   "answer": "No. The gateway's stone frame stands intact, but the rift within is dormant. No traveler can cross the threshold at this time."
+   "answer": "No. The Dark Portal's stone frame is intact, but the rift within lies dormant. No traveler can cross it now."
   },
   {
    "q": "Who originally built the Dark Portal?",
@@ -37,7 +37,7 @@
     "medivh guldan portal",
     "dark portal creators"
    ],
-   "answer": "It was created through a joint ritual between the human Guardian Medivh on Azeroth and the warlock Gul'dan on the dying world of Draenor, orchestrating the invasion that ignited the First War."
+   "answer": "Medivh, the human Guardian on Azeroth, and Gul'dan, the warlock on Draenor, joined in a ritual to create the Dark Portal. Their work set in motion the invasion that began the First War."
   },
   {
    "q": "Why does Nethergarde Keep watch over it?",
@@ -46,7 +46,7 @@
     "nethergarde portal watch",
     "why nethergarde"
    ],
-   "answer": "After Archmage Khadgar shattered the portal's initial frame after the Second War, he convinced the Alliance to keep watch over its ruins. Nethergarde Keep was founded by the Alliance to maintain a permanent watch over the site in case threats emerged again."
+   "answer": "After Archmage Khadgar shattered the portal's first frame following the Second War, he persuaded the Alliance to watch its ruins. The Alliance founded Nethergarde Keep to keep watch in case threats returned."
   },
   {
    "q": "Why is the ground around the portal red and barren?",
@@ -55,17 +55,17 @@
     "portal corruption",
     "why is blasted lands red"
    ],
-   "answer": "The Blasted Lands were once a fertile swamp known as the Black Morass. The vast fel energies required to breach reality, coupled with the corruption flowing from Draenor and demonic beasts, poisoned the soil and petrified the ecosystem."
+   "answer": "The Blasted Lands were once the fertile Black Morass. Fel magic used to tear reality, corruption from Draenor, and demonic beasts poisoned the soil and petrified the land."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "The portal is the painful threshold of your people's past\u2014the gate through which the Old Horde marched in thrall to demonic masters, abandoning their ancestral homeland for war."
+   "text": "For your people, the Dark Portal marks a painful past. Under demonic masters, the Old Horde marched through it and left their ancestral homeland for war."
   },
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, the portal is a solemn monument to the First War and the fall of ancient Stormwind, necessitating the perpetual vigil held by the mages of Nethergarde."
+   "text": "For the Alliance, the Dark Portal recalls the First War and the fall of ancient Stormwind. The mages of Nethergarde keep watch over it without end."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Dark Portal"
- ]
+ ],
+ "style": 2
 }

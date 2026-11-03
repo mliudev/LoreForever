@@ -18,11 +18,11 @@
   "chain": [],
   "category": "Hillsbrad Foothills"
  },
- "summary": "Magistrate Henry Maleb, newly assigned to Southshore after the previous magistrate was assassinated, believes the Syndicate hired the killers. The trail led to a Syndicate camp north of Tarren Mill, and Maleb wants the members there slain.",
+ "summary": "Southshore’s new magistrate suspects the Syndicate Assassins killed his predecessor. His clues point north of Tarren Mill, where he wants the gang slain.",
  "sections": [
   {
    "title": "A Magistrate Murdered",
-   "body": "Magistrate Henry Maleb is the new magistrate of Southshore, assigned after the previous magistrate was assassinated. The assassins were never found, yet Maleb is almost certain the Syndicate hired them. The Syndicate is a gang of thieves, run by villainous nobles from Alterac, a kingdom that has since fallen. Maleb's last clues pointed to a Syndicate camp north of Tarren Mill, which the Horde occupies, and Maleb asks you to slay the Syndicate members found there.",
+   "body": "Magistrate Henry Maleb now holds office in Southshore. The previous magistrate was assassinated, and the killers were never found. Maleb is almost certain the Syndicate hired them.\n\nThieves make up the gang, led by villainous nobles from the fallen kingdom of Alterac. Maleb’s last clues point north of Tarren Mill, which the Horde occupies. He asks you to slay the Syndicate members at the camp there.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "syndicate motive",
     "who killed the magistrate"
    ],
-   "answer": "The previous magistrate of Southshore was assassinated, and Maleb is almost certain the Syndicate hired the killers, who were never found."
+   "answer": "Southshore’s previous magistrate was assassinated, and the killers were never found. Magistrate Henry Maleb is almost certain the Syndicate hired them."
   },
   {
    "q": "Who leads the Syndicate?",
@@ -43,7 +43,7 @@
     "syndicate leaders",
     "syndicate alterac"
    ],
-   "answer": "Wicked nobles of the fallen kingdom of Alterac lead it, and its members are thieves."
+   "answer": "Villainous nobles from the fallen kingdom of Alterac lead the Syndicate, whose members are thieves."
   },
   {
    "q": "Where is the Syndicate camp?",
@@ -52,7 +52,7 @@
     "syndicate camp location",
     "where to find syndicate thieves"
    ],
-   "answer": "North of Tarren Mill, which the Horde has occupied. Maleb's last clues led there."
+   "answer": "The Syndicate camp lies north of Tarren Mill, which the Horde occupies. Maleb’s last clues led there."
   }
  ],
  "angles": [],
@@ -77,5 +77,6 @@
  "attribution": [
   "Syndicate Assassins",
   "In-game quest text: Syndicate Assassins"
- ]
+ ],
+ "style": 2
 }

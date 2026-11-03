@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Sar'theris Strand"
  },
- "summary": "Sar'theris Strand forms the western coastline of Desolace, fronting the Veiled Sea. In stark contrast to the barren, grey inland wastes, the shore is sunny and grassy, though it remains perilous due to prowling naga, sea giants, and makrura.",
+ "summary": "Along western Desolace, Sar'theris Strand's green shores meet the Veiled Sea. Its sunny grass stands apart from the grey wastes, though naga, sea giants, and makrura make the coast perilous.",
  "sections": [
   {
    "title": "A Green Edge on a Grey Waste",
-   "body": "Running the length of western Desolace, Sar'theris Strand offers a bizarre respite from the ash and dust of the inland plains. Here, the clifftops and beaches are bright and green. Yet the strand is far from welcoming: serpentine naga patrol the surf alongside towering sea giants and territorial makrura. Shipwrecks litter the shoals, including the ruined Karnitol vessel to the north and small shattered skiffs beneath the towers of Ethel Rethor, proving the sea is as treacherous as the shore.",
+   "body": "Green clifftops and beaches mark Sar'theris Strand along western Desolace. They offer a bright respite from the ash and dust of the inland plains. Serpentine naga patrol the surf beside towering sea giants and territorial makrura. Wrecks mark the shoals: the ruined Karnitol vessel lies to the north, and small shattered skiffs rest beneath the towers of Ethel Rethor. The sea is as treacherous as the shore.",
    "spoiler": 0
   },
   {
    "title": "Wreckage and Rare Waters",
-   "body": "Beyond the constant threat of naga and giants, the waters off the strand are known among seasoned travelers for their peculiar bounties. The jagged coastal shallows conceal salvage from lost expeditions and merchant ventures, while the deep surf is home to rare marine wildlife, notably the prized Sar'theris Striker fish sought out by master fishermen across Kalimdor.",
+   "body": "Naga and sea giants are not the strand's only dangers. Jagged shallows hide salvage from lost expeditions and merchant ventures, while rare marine life dwells in the deep surf. Among it is the Sar'theris Striker, a fish sought by master fishermen across Kalimdor.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "desolace coastline grassy",
     "sar'theris weather"
    ],
-   "answer": "The coastline is sunny and grassy in contrast to the barren, grey interior of Desolace. The source does not explain why this contrast persists."
+   "answer": "Sar'theris Strand is sunny and grassy, unlike Desolace's barren grey interior. No reason for the contrast is given."
   },
   {
    "q": "What creatures inhabit Sar'theris Strand?",
@@ -37,7 +37,7 @@
     "sar'theris mobs",
     "what monsters are on the strand"
    ],
-   "answer": "The strand is dominated by the amphibious Slitherblade naga, wandering sea giants, and scuttling makrura. Travelers must constantly watch the surf, as patrols roam close to the water's edge."
+   "answer": "Amphibious Slitherblade naga, wandering sea giants, and scuttling makrura inhabit the strand. Their patrols roam near the water's edge, so watch the surf."
   },
   {
    "q": "What shipwrecks lie along the shore?",
@@ -46,7 +46,7 @@
     "sunken boats strand",
     "beach wreckage"
    ],
-   "answer": "The Karnitol Shipwreck sits off the northern waters of the strand, while smaller vessels lie smashed on the beach bluffs beneath the ruined elven towers of Ethel Rethor."
+   "answer": "The Karnitol Shipwreck lies in the strand's northern waters. Smaller vessels are smashed on the beach bluffs beneath the ruined elven towers of Ethel Rethor."
   },
   {
    "q": "Why do fishermen seek out Sar'theris Strand?",
@@ -55,13 +55,13 @@
     "fishing coast desolace",
     "nat pagle fish"
    ],
-   "answer": "The coastal waters here are the exclusive home of the Sar'theris Striker, an elusive fish recognized by renowned angler Nat Pagle as one of the ultimate tests of fishing mastery."
+   "answer": "Fishermen seek Sar'theris Strand for the Sar'theris Striker, an elusive fish found only in these coastal waters. Renowned angler Nat Pagle recognizes it as one of fishing mastery’s ultimate tests."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "The strand's shores and surrounding waters offer rich marine game, including makrura and rare ocean fish, though cooking fires must be lit under the constant watch of prowling naga."
+   "text": "Sar'theris Strand's shores and waters offer marine game, including makrura and rare ocean fish. Watch for prowling naga when you light a cooking fire."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Sar'theris Strand"
- ]
+ ],
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Stratholme Service Entrance"
  },
- "summary": "The Stratholme Service Entrance is a fortified rear gateway located at Eastwall Gate in the northern Eastern Plaguelands. It provides direct, covert access into the Scourge-controlled eastern quarter of the burning city, bypassing the grand front gates.",
+ "summary": "At Eastwall Gate in the northern Eastern Plaguelands, the Scourge holds Stratholme's eastern quarter. The Service Entrance cuts through the city's fortified wall.",
  "sections": [
   {
    "title": "A Breached Bastion",
-   "body": "While the monumental Main Gate of Stratholme opens into King's Square and provides a route toward the Scarlet Bastion, the Service Entrance breaches the city's eastern fortification at Eastwall Gate. Today, it leads directly into the corrupted heart of the metropolis: Elders' Square and the blighted pathways leading toward Baron Rivendare's slaughterhouses.",
+   "body": "Stratholme's Main Gate opens into King's Square, with a road toward the Scarlet Bastion. At Eastwall Gate, the Service Entrance breaks through the eastern fortification. Beyond it lie Elders' Square and blighted paths to Baron Rivendare's slaughterhouses.",
    "spoiler": 0
   },
   {
    "title": "The Scourge Redoubt",
-   "body": "Venturing through the service portal offers a shorter approach to the Scourge's eastern districts. The surrounding alleys crawl with gargoyles, crypt fiends, and cultists guarding the dread ziggurats. For the Argent Dawn and daring adventurers seeking to strike at the ruling death knight directly, this hidden iron gate serves as the primary staging point for surgical strikes against the Lich King's commanders.",
+   "body": "The Service Entrance gives a shorter way into Stratholme's eastern districts. The Scourge holds the alleys and ziggurats, guarded by gargoyles, crypt fiends, and cultists. The Argent Dawn and bold adventurers gather here before striking at the Lich King's commanders.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "strat side entrance map",
     "how to find strat back door"
    ],
-   "answer": "The entrance is situated at Eastwall Gate, along the northern mountains of the Eastern Plaguelands, just east of the main ruins of Stratholme. It is tucked into a stone archway along the fortified wall."
+   "answer": "The entrance lies at Eastwall Gate, along the northern mountains of the Eastern Plaguelands, just east of Stratholme's main ruins. A stone archway cuts into the fortified wall there."
   },
   {
    "q": "How does this entrance differ from the Stratholme Main Gate?",
@@ -38,7 +38,7 @@
     "service entrance difference",
     "which strat entrance"
    ],
-   "answer": "The Main Gate opens into King's Square and provides a route across the city toward the Scarlet Bastion. The Service Entrance opens near Elders' Square, giving a shorter approach to the undead-held eastern districts and Slaughter Square."
+   "answer": "The Main Gate opens into King's Square and leads across the city toward the Scarlet Bastion. The Service Entrance opens near Elders' Square, closer to the undead-held eastern districts and Slaughter Square."
   },
   {
    "q": "Why is it called the Service Entrance?",
@@ -46,7 +46,7 @@
     "why service entrance",
     "service gate lore"
    ],
-   "answer": "It is a rear entrance at Eastwall Gate that bypasses the city's front approach. Its original municipal use is not specified."
+   "answer": "The reason for the name Service Entrance is not given."
   },
   {
    "q": "Who controls this part of the city?",
@@ -55,17 +55,17 @@
     "service entrance bosses",
     "undead side leader"
    ],
-   "answer": "The district beyond the gate is firmly held by the Scourge, overseen by Baron Rivendare and his acolytes, who maintain the ziggurats anchoring their dark magic within Elders' Square."
+   "answer": "The Scourge controls the district beyond the gate. Baron Rivendare and his acolytes oversee it and maintain the ziggurats that anchor their dark magic within Elders' Square."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "For knights of the Light, this threshold leads straight into the defiled necromantic apparatus of the Scourge, offering a direct path to purge Rivendare and reclaim the holy city's fallen honor."
+   "text": "As a paladin, you enter the Scourge's defiled necromantic apparatus. The gate gives you a direct path to purge Rivendare and reclaim the holy city's fallen honor."
   },
   {
    "target": "class:Rogue",
-   "text": "The service gate embodies classic tactical infiltration, allowing adventurers to bypass fortified battle lines and slip quietly into the city's utility corridors."
+   "text": "As a rogue, you can use the service gate to slip around fortified battle lines and enter the city's utility corridors."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Stratholme Service Entrance"
- ]
+ ],
+ "style": 2
 }

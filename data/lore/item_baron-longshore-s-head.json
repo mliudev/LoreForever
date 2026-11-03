@@ -10,11 +10,11 @@
    "quest:895"
   ]
  },
- "summary": "Along the Merchant Coast, Baron Longshore's Head proves the pirate captain's death. Gazlowe posted a public bounty for Longshore's identifiable remains to protect Ratchet's commercial shipping.",
+ "summary": "Along the Merchant Coast, Baron Longshore's Head proves the pirate captain is dead. Gazlowe offers a bounty for identifiable remains to protect Ratchet's commercial shipping.",
  "sections": [
   {
    "title": "A Price on a Buccaneer",
-   "body": "Baron Longshore led Southsea Freebooter raids from camps along the Merchant Coast south of Ratchet. His flagship, the Heedless, threatened goblin trade lanes between Kalimdor and the Eastern Kingdoms. Gazlowe, Ratchet's Chief Engineer, offered a bounty for identifiable proof of Longshore's death. The port authority pays a monetary reward when the pirate's head is delivered.",
+   "body": "From camps along the Merchant Coast south of Ratchet, Baron Longshore led Southsea Freebooter raids. His flagship, the Heedless, threatened goblin trade lanes between Kalimdor and the Eastern Kingdoms. So Gazlowe, Ratchet's Chief Engineer, offered a bounty for proof of Longshore's death. The port authority pays a monetary reward when the pirate's head is delivered.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who is longshore",
     "captain longshore"
    ],
-   "answer": "Baron Longshore was a pirate captain from the human kingdom of Gilneas. He led Southsea Freebooters from camps along the Merchant Coast south of Ratchet and terrorized shipping lanes aboard the Heedless."
+   "answer": "Baron Longshore was a pirate captain from the human kingdom of Gilneas. From camps along the Merchant Coast south of Ratchet, he led Southsea Freebooters and terrorized shipping lanes aboard the Heedless."
   },
   {
    "q": "Who wants Baron Longshore's head?",
@@ -83,5 +83,5 @@
   "Baron Longshore's Head",
   "WANTED: Baron Longshore"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Rut'theran Village"
  },
- "summary": "At Teldrassil's southern shore, Rut'theran Village links Darnassus to Kalimdor by sea and sky. Ferries and hippogryphs carry travelers between the World Tree and the mainland.",
+ "summary": "At Teldrassil’s southern shore, Rut'theran Village joins Darnassus to Kalimdor by sea and sky. Ferries and hippogryphs carry travelers between the World Tree and the mainland.",
  "sections": [
   {
    "title": "Gateway to the World Tree",
-   "body": "Rut'theran Village meets the water below Teldrassil's towering heights. Darnassus rests in the boughs above, while the village handles its needs beyond the tree. A mystical portal beneath the trees carries travelers between the shore and Darnassus in an instant. Ferries leave the docks for Auberdine on the mainland coast of Darkshore, and flight masters tend roosts of trained hippogryphs.",
+   "body": "Rut'theran Village meets the water below Teldrassil’s towering heights. Darnassus rests in the boughs above, and the village tends to its needs beyond the tree. A mystical portal beneath the trees carries travelers between the shore and Darnassus in an instant. Ferries leave the docks for Auberdine on Darkshore’s mainland coast, and flight masters tend roosts of trained hippogryphs.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "portal to darnassus",
     "how to reach darnassus"
    ],
-   "answer": "From the docks, walk up the slope toward the giant pavilion tent. Step into the glowing purple portal on its platform to reach the Temple Gardens inside Darnassus."
+   "answer": "From the docks, walk up the slope toward the giant pavilion tent. Step into the glowing purple portal on its platform, and you will reach the Temple Gardens inside Darnassus."
   },
   {
    "q": "Where does the boat from the dock go?",
@@ -32,7 +32,7 @@
     "rut'theran ferry",
     "ruttheran ship route"
    ],
-   "answer": "The Moonspray sails from Rut'theran Village across the Veiled Sea to Auberdine, on the coast of Darkshore."
+   "answer": "The Moonspray sails from Rut'theran Village across the Veiled Sea to Auberdine on the coast of Darkshore."
   },
   {
    "q": "Why is this village down at sea level instead of up in the tree?",
@@ -40,7 +40,7 @@
     "why is ruttheran at sea level",
     "why bottom of teldrassil"
    ],
-   "answer": "Teldrassil's canopy rises too high for sailing ships and sea trade. Rut'theran Village sits at the roots as a sea-level port and hippogryph roost, linked to the heights by a permanent teleportation gateway."
+   "answer": "Teldrassil’s canopy rises too high for sailing ships and sea trade. Rut'theran Village sits at the roots as a sea-level port and hippogryph roost, linked to the heights by a permanent teleportation gateway."
   },
   {
    "q": "Can I fly anywhere from here?",
@@ -48,17 +48,17 @@
     "rut'theran flight path",
     "where can hippogryph fly"
    ],
-   "answer": "Yes. A hippogryph handler offers flights across the water to Auberdine in Darkshore. Druids returning from Moonglade also land here on the Cenarion Circle's hippogryphs from Nighthaven."
+   "answer": "Yes. A hippogryph handler offers flights across the water to Auberdine in Darkshore. Druids returning from Moonglade also land here aboard Cenarion Circle hippogryphs from Nighthaven."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Druids returning from Moonglade's sacred sanctuary can ride a Cenarion hippogryph from Nighthaven across northern Kalimdor to Rut'theran Village."
+   "text": "Druids returning from Moonglade’s sacred sanctuary can ride a Cenarion hippogryph from Nighthaven across northern Kalimdor to Rut'theran Village."
   },
   {
    "target": "race:NightElf",
-   "text": "As a young night elf leaving Teldrassil to aid the Alliance, you say farewell to the World Tree's crown at Rut'theran Village before sailing to mainland Kalimdor."
+   "text": "As a young night elf leaving Teldrassil to aid the Alliance, you say farewell to the World Tree’s crown at Rut'theran Village before sailing to mainland Kalimdor."
   }
  ],
  "keywords": [
@@ -85,5 +85,5 @@
  "attribution": [
   "Rut'theran Village"
  ],
- "style": 1
+ "style": 2
 }

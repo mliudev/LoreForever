@@ -8,21 +8,21 @@
   "wiki": "Tavernkeep Smitts",
   "refs": 7
  },
- "summary": "At the Scarlet Raven in Darkshire, Tavernkeep Smitts hears the town’s gossip and its unsolved tragedies. His long memory and keen eye make him a valuable contact for anyone seeking the region’s dark history.",
+ "summary": "At the Scarlet Raven in Darkshire, Tavernkeep Smitts hears the town’s gossip and remembers its unsolved tragedies. His keen eye makes him a valuable contact for those seeking Duskwood’s dark history.",
  "sections": [
   {
    "title": "Heart of Darkshire",
-   "body": "Tavernkeep Smitts keeps the Scarlet Raven’s hearth fires warm and serves drink to weary travelers, townspeople, and nervous Night Watch guards facing Duskwood’s perils. He has been one of Darkshire’s familiar public faces for years, and rumors pass through his tavern every day. While other townsfolk hide behind locked shutters, Smitts watches those who enter and leave. He notices strange patrons, hurried departures, and behavior that does not fit the town.",
+   "body": "Tavernkeep Smitts tends the Scarlet Raven’s hearth and pours drinks for weary travelers, townsfolk, and nervous Night Watch guards facing Duskwood’s perils. For years, he has been a familiar face in Darkshire, where rumors pass through his tavern each day.\n\nWhile other townsfolk stay behind locked shutters, Smitts watches who comes and goes. He notices strange patrons, hurried departures, and behavior that does not fit the town.",
    "spoiler": 0
   },
   {
    "title": "The Memory of Stalvan",
-   "body": "Years ago, Smitts joined Marshal Haggard to investigate the slaughter of a visiting Stormwind noble family. At the scene, Smitts found torn, muddy pages from a journal and kept them. Investigators could not formally link the handwriting to Stalvan Mistmantle at the time. Smitts held onto the faded scraps for years, convinced the grim truth would come to light.",
+   "body": "Years ago, Smitts joined Marshal Haggard to investigate the slaughter of a visiting Stormwind noble family. At the scene, he found torn, muddy pages from a journal and kept them.\n\nInvestigators could not formally link the handwriting to Stalvan Mistmantle then. Smitts kept the faded scraps for years, certain the grim truth would come to light.",
    "spoiler": 1
   },
   {
    "title": "The Shadowy Patron",
-   "body": "Terrified hermit Jitters once took refuge in the Scarlet Raven, where Smitts saw him scribbling feverishly in a personal diary. Jitters fled the tavern in blind panic, leaving the journal behind. When an investigator recovers it, Smitts recognizes the book and points the tracker toward Raven Hill, helping unravel the cursed events that plague the woods.",
+   "body": "Terrified hermit Jitters once took refuge in the Scarlet Raven. There, Smitts saw him scribbling feverishly in a personal diary. Jitters fled in blind panic and left the journal behind.\n\nWhen an investigator brings it back, Smitts recognizes the book and points the tracker toward Raven Hill. His help unravels the cursed events that plague the woods.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "where is tavernkeep smitts",
     "scarlet raven barkeep"
    ],
-   "answer": "Find Smitts behind the counter on the ground floor of the Scarlet Raven Tavern, on Darkshire’s town square."
+   "answer": "Find Smitts behind the counter on the Scarlet Raven Tavern’s ground floor, on Darkshire’s town square."
   },
   {
    "q": "What does Smitts know about Stalvan Mistmantle?",
@@ -43,7 +43,7 @@
     "stalvan legend smitts",
     "muddy pages stalvan"
    ],
-   "answer": "Years ago, Smitts accompanied Marshal Haggard to investigate the slaughter of visiting nobles. He found and kept muddy, torn journal pages at the scene. When shown new evidence linking Stalvan to the crime, Smitts gives up the pages to be delivered to Commander Althea Ebonlocke."
+   "answer": "Years ago, Smitts joined Marshal Haggard in investigating the slaughter of visiting nobles. At the scene, he found and kept muddy, torn journal pages. When shown new evidence linking Stalvan to the crime, Smitts gives up the pages to be delivered to Commander Althea Ebonlocke."
   },
   {
    "q": "What does Smitts know about Jitters?",
@@ -52,7 +52,7 @@
     "jitters journal smitts",
     "inquire at the inn smitts"
    ],
-   "answer": "Jitters stayed at the Scarlet Raven, where Smitts saw him writing frantically in a journal before fleeing in terror. Bring Jitters’s journal back to the tavern, and Smitts will recognize it and direct you west toward Raven Hill to track him down."
+   "answer": "Jitters stayed at the Scarlet Raven, where Smitts saw him write frantically in a journal before fleeing in terror. Bring Jitters’s journal back to the tavern, and Smitts recognizes it and directs you west toward Raven Hill to track him down."
   },
   {
    "q": "What drinks does Smitts brew or request?",
@@ -83,7 +83,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler emerging from the shadowed woods, you can find shelter, drinks, and local knowledge from Smitts about the threats haunting Duskwood."
+   "text": "As an Alliance traveler emerging from the shadowed woods, you can find shelter, drinks, and Smitts’s knowledge of the threats haunting Duskwood."
   },
   {
    "target": "class:Rogue",
@@ -114,5 +114,5 @@
  "attribution": [
   "Tavernkeep Smitts"
  ],
- "style": 1
+ "style": 2
 }

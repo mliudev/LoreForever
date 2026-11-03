@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Tor'kren Farm"
  },
- "summary": "At Tor'kren Farm in northwestern Durotar, Misha Tor'kren waits anxiously for news of her son Kron. He has not returned from a hunting trip.",
+ "summary": "At Tor'kren Farm in northwestern Durotar, Misha Tor'kren anxiously waits for news of Kron. Her son has not returned from a hunting trip.",
  "sections": [
   {
    "title": "A Lonely Homestead",
-   "body": "Tor'kren Farm struggles to raise pigs in Durotar's dry red dirt. The homestead lies southeast of Thunder Ridge, near the Southfury River. Feed and water are scarce, and the farm is isolated beneath nearby bluffs. Its yields are meager.",
+   "body": "Tor'kren Farm struggles to raise pigs in Durotar's dry red dirt. The homestead lies southeast of Thunder Ridge, near the Southfury River. Feed and water run short, and nearby bluffs leave the farm isolated. Its yields are meager.",
    "spoiler": 0
   },
   {
    "title": "A Mother's Worry",
-   "body": "Kron went west several days ago to hunt crocolisks along the Southfury River. Misha Tor'kren warned him about the vicious predators, but he left in anger. Now she asks passing adventurers to search for him or bring back a sign of his fate. She fears the worst, but cannot begin mourning without knowing what happened.",
+   "body": "Several days ago, Kron went west to hunt crocolisks along the Southfury River. Misha Tor'kren warned him about the vicious predators, but he left in anger. Now she asks passing travelers to search for him or bring back a sign of his fate. She fears the worst, yet cannot begin mourning without knowing what happened.",
    "spoiler": 0
   },
   {
    "title": "A Mother's Loss",
-   "body": "Misha Tor'kren recognizes Kron's Amulet when an adventurer brings it back from the river's crocolisks. She says she now knows her son is dead. At last, she can begin to mourn.",
+   "body": "Misha Tor'kren recognizes Kron's Amulet when an adventurer brings it back from the river's crocolisks. Now she knows her son is dead. At last, Misha can begin to mourn.",
    "spoiler": 1
   }
  ],
@@ -60,7 +60,7 @@
     "what kind of farm is torkren",
     "tor'kren pigs"
    ],
-   "answer": "Tor'kren Farm raises swine, but harsh terrain and isolation keep its profits leaner than those of other livestock operations in Durotar."
+   "answer": "Tor'kren Farm raises swine, but harsh terrain and isolation leave its profits leaner than those of other livestock operations in Durotar."
   }
  ],
  "angles": [
@@ -91,5 +91,5 @@
  "attribution": [
   "Tor'kren Farm"
  ],
- "style": 1
+ "style": 2
 }

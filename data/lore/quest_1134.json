@@ -17,21 +17,21 @@
   "wiki": "Pridewings of Stonetalon",
   "chain": []
  },
- "summary": "In the Stonetalon Mountains, pridewing venom has become a threat to the uneasy peace. Shindrell reports an unconfirmed claim from Theramore that orc assassins gather the poison for covert raids. Astranaar's Sentinels send scouts south to claim the venom sacs first.",
+ "summary": "In the Stonetalon Mountains, Shindrell hears that pridewing venom may threaten the uneasy peace. Theramore reports an unconfirmed claim that orc assassins gather the poison for covert raids. Astranaar's Sentinels send scouts south to claim the venom sacs first.",
  "sections": [
   {
    "title": "A Fragile Truce",
-   "body": "The Alliance and Horde have not declared open war across northern Kalimdor, but their peace is fragile. Skirmishes break out beneath the forest canopy, and quiet attacks take the place of full armies. Sentinel commanders in Astranaar watch for enemy movements, knowing a careless moment could put their sanctuary at risk.",
+   "body": "The Alliance and Horde have not declared open war across northern Kalimdor. Yet their peace is fragile. Skirmishes break out beneath the forest canopy, and quiet attacks take the place of full armies. In Astranaar, Sentinel commanders watch enemy movements. One careless moment could put their sanctuary at risk.",
    "spoiler": 0
   },
   {
    "title": "Poison from the Crags",
-   "body": "Shindrell reports an unconfirmed claim from contacts in Theramore about activity in the crags of Stonetalon. Orcish stalkers are said to gather venom from wild pridewings around Mirkfallon Lake and coat their blades for deadly ambushes against Alliance forces. Shindrell Swiftfire sends champions to kill the beasts and claim their venom sacs before Horde agents can reach them.",
+   "body": "Shindrell has heard an unconfirmed report from contacts in Theramore about activity in the crags of Stonetalon. Orcish stalkers are said to gather venom from wild pridewings around Mirkfallon Lake, then coat their blades for deadly ambushes against Alliance forces.\n\nSo Shindrell Swiftfire sends champions to kill the beasts and claim their venom sacs before Horde agents can reach them.",
    "spoiler": 0
   },
   {
    "title": "A Painful Duty",
-   "body": "Shindrell Swiftfire regrets ordering the deaths of native beasts. Night elves revere Kalimdor's wilderness, and the creatures had no part in choosing this war. Yet Astranaar's defenders cannot let an enemy gather poison for lethal attacks, even at the cost of the beasts' lives.",
+   "body": "Shindrell Swiftfire regrets ordering the deaths of native beasts. Night elves revere Kalimdor's wilderness, and these creatures had no part in choosing the war. Yet Astranaar's defenders cannot let an enemy gather poison for lethal attacks. The beasts pay for that defense with their lives.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "pridewing lore",
     "stonetalon pridewings"
    ],
-   "answer": "Pridewings are dangerous, venomous flying beasts related to wyverns. They nest in high crags, especially around Mirkfallon Lake in the Stonetalon Mountains, and their venom makes them deadly predators and a sought-after poison."
+   "answer": "Pridewings are dangerous, venomous flying beasts related to wyverns. They nest in high crags, especially around Mirkfallon Lake in the Stonetalon Mountains. Their venom makes them deadly predators and a sought-after poison."
   },
   {
    "q": "Why is the Alliance hunting them?",
@@ -61,7 +61,7 @@
     "theramore spy info",
     "shindrell intel source"
    ],
-   "answer": "The warning came from hidden Alliance informants in Theramore, who watch Horde movements and supply lines throughout the southern Barrens and Stonetalon."
+   "answer": "Hidden Alliance informants in Theramore provided the warning. They watch Horde movements and supply lines throughout the southern Barrens and Stonetalon."
   },
   {
    "q": "Where is Mirkfallon Lake located?",
@@ -79,7 +79,7 @@
     "ashenvale war status",
     "peace treaty ashenvale"
    ],
-   "answer": "The Alliance and Horde have no declared open war in Ashenvale, but covert killings, resource skirmishes, and border clashes continue beneath the forest canopy."
+   "answer": "The Alliance and Horde have no declared open war in Ashenvale. Yet covert killings, resource skirmishes, and border clashes continue beneath the forest canopy."
   },
   {
    "q": "How does Shindrell Swiftfire feel about killing the beasts?",
@@ -131,5 +131,5 @@
  "attribution": [
   "Pridewings of Stonetalon"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Nara Wildmane (quest)",
   "chain": []
  },
- "summary": "Nara Wildmane is a young tauren druid in Thunder Bluff seeking to unravel the tragedy unfolding deep within the Wailing Caverns. After Arch Druid Hamuul Runetotem peered into the Emerald Dream and withdrew from the corruption festering there, he dispatched adventurers to confer with Nara, whose fierce spirit endured long enough to witness the nightmare taking hold of their kin. She serves as the pivotal Horde contact directing champions to put an end to the Druids of the Fang.",
+ "summary": "In Thunder Bluff, Nara Wildmane helps the Horde grasp the danger in the Wailing Caverns. Arch Druid Hamuul Runetotem saw corruption in the Emerald Dream but could not endure it, so he sent travelers to his young disciple. Nara saw the nightmare taking hold of their kin.",
  "sections": [
   {
    "title": "A Vision of Corruption",
-   "body": "When strange, unnatural phenomena began spreading across the Barrens, Arch Druid Hamuul Runetotem journeyed into the Emerald Dream to discern the cause. There he witnessed a cult of druids who had originally sought to restore life to the arid savannah, only to lose their minds to a vile taint. Being aged and unable to linger long against the nightmare's assault, Hamuul fled back to the waking world. However, his younger disciple, Nara Wildmane, refused to yield so easily. Her fiery resolve kept her anchored in the dreamscape far longer, allowing her to observe the transformed cult firsthand.",
+   "body": "Unnatural signs spread across the Barrens, and Arch Druid Hamuul Runetotem entered the Emerald Dream to find their cause. There he found a druidic cult that had once hoped to restore life to the dry savannah. A vile taint had driven its members mad.\n\nAge kept Hamuul from enduring the nightmare’s assault, so he fled to the waking world. His younger disciple, Nara Wildmane, refused to leave so soon. Her fierce resolve kept her in the dreamscape, where she saw the transformed cult for herself.",
    "spoiler": 0
   },
   {
    "title": "Confronting the Nightmare",
-   "body": "While Hamuul provides the overarching guidance for the Cenarion Circle in Thunder Bluff, Nara Wildmane possesses the tactical insight needed to purge the rot. Having stared directly upon the twisted, serpent-scaled countenances of the fallen druids, she knows their crimes and the devastation they intend to unleash upon Kalimdor. Her resolve marks the beginning of the Horde's offensive into the Wailing Caverns to eliminate the leaders who abandoned their sacred oaths.",
+   "body": "Nara Wildmane knows what the fallen druids have done and what they mean to unleash upon Kalimdor. When she saw them in the Emerald Dream, their faces were twisted and scaled like serpents. Hamuul guides the Cenarion Circle from Thunder Bluff, while Nara brings the knowledge needed to fight the corruption. Now the Horde strikes into the Wailing Caverns to destroy the leaders who forsook their sacred oaths.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "nara wildmane lore",
     "nara wildmane thunder bluff"
    ],
-   "answer": "Nara Wildmane is a young and spirited tauren druid residing on the Elder Rise in Thunder Bluff. She studies under Arch Druid Hamuul Runetotem and is unafraid to confront the corrupting nightmares threatening the balance of nature."
+   "answer": "Nara Wildmane is a young tauren druid who lives on the Elder Rise in Thunder Bluff. She studies under Arch Druid Hamuul Runetotem and faces the nightmares corrupting nature."
   },
   {
    "q": "Why does Hamuul Runetotem send travelers to speak with her?",
@@ -47,7 +47,7 @@
     "hamuul to nara",
     "why hamuul send me here"
    ],
-   "answer": "Hamuul admits that his advanced age and failing strength prevented him from lingering within the corrupted dream where the Druids of the Fang reside. Because Nara is young and fiercely determined, she stayed in the dreaming realm longer and gathered vital intelligence on the cult's plans."
+   "answer": "Hamuul Runetotem sends travelers to Nara because age and failing strength kept him from remaining in the corrupted dream. Young and fiercely determined, Nara stayed longer and learned of the Druids of the Fang and their plans."
   },
   {
    "q": "What did Nara see in the Emerald Dream?",
@@ -56,7 +56,7 @@
     "nara dream vision",
     "scaled druids dream"
    ],
-   "answer": "Nara bore witness to the fallen druids dwelling in the Wailing Caverns. She saw their faces twisted into serpentine, scaled visages and perceived the dark plots and crimes they intend to enact upon the Barrens."
+   "answer": "Nara saw the fallen druids dwelling in the Wailing Caverns. Their faces had become scaled and serpentine, and she learned of their crimes and dark plots against the Barrens."
   },
   {
    "q": "Where can Nara Wildmane be found?",
@@ -65,7 +65,7 @@
     "nara wildmane location",
     "find nara wildmane"
    ],
-   "answer": "She can be found in a druidic tent situated atop the Elder Rise in Thunder Bluff, just across from Arch Druid Hamuul Runetotem."
+   "answer": "Nara Wildmane can be found in a druidic tent atop the Elder Rise in Thunder Bluff, across from Arch Druid Hamuul Runetotem."
   },
   {
    "q": "What happens after reporting to Nara Wildmane?",
@@ -74,7 +74,7 @@
     "what does nara want me to do",
     "leaders of the fang follow up"
    ],
-   "answer": "Once you speak with her, Nara instructs you to enter the Wailing Caverns and slay the rogue Druids of the Fang, setting up the major dungeon quest 'Leaders of the Fang'."
+   "answer": "After you speak with Nara, she directs you into the Wailing Caverns to slay the rogue Druids of the Fang. This leads to the larger undertaking called Leaders of the Fang."
   },
   {
    "q": "Why are the druids in the Wailing Caverns corrupted?",
@@ -83,21 +83,21 @@
     "druids of the fang why evil",
     "why barrens druids evil"
    ],
-   "answer": "Led by Naralex, the druids entered the caverns hoping to tap into the Emerald Dream and bring lush life to the Barrens. Instead, Naralex's slumber twisted into a horrific nightmare, ensnaring his followers and twisting them into the serpentine Druids of the Fang."
+   "answer": "Led by Naralex, the druids entered the caverns hoping to draw on the Emerald Dream and bring lush life to the Barrens. Naralex’s slumber became a horrific nightmare that ensnared his followers and twisted them into the serpentine Druids of the Fang."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For tauren who have recently embraced the path of druidism under Hamuul, Nara represents the young, unyielding generation willing to confront unnatural blight head-on."
+   "text": "As a tauren who has recently taken up druidism under Hamuul, you are part of a young generation willing to face unnatural blight, as Nara is."
   },
   {
    "target": "class:Druid",
-   "text": "Druids will appreciate Nara's courage in navigating the treacherous, corrupted reaches of the Emerald Dream where even veteran masters like Hamuul hesitated to linger."
+   "text": "As a druid, you can admire Nara’s courage in the corrupted reaches of the Emerald Dream, where even the veteran Hamuul could not linger."
   },
   {
    "target": "faction:Horde",
-   "text": "Nara's vigilance protects the heart of Horde territory, ensuring that the dark energies twisting the Barrens do not spread unchecked into Mulgore."
+   "text": "As a member of the Horde, you can see how Nara’s watchfulness guards its heartland against the dark energies twisting the Barrens and threatening to spread into Mulgore."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Nara Wildmane (quest)"
- ]
+ ],
+ "style": 2
 }

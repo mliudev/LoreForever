@@ -17,16 +17,16 @@
   "wiki": "Nida's Necklace (quest)",
   "chain": []
  },
- "summary": "On the docks at Lakeshire, Hilary loses the necklace her father gave her while fishing. Her friend Shawn asks travelers to retrieve it from Lake Everstill, where their parents forbid them to swim.",
+ "summary": "At Lakeshire's docks, Hilary loses the necklace her father gave her. Shawn asks you to find it in Lake Everstill, where their parents forbid them to swim.",
  "sections": [
   {
    "title": "A Day at the Docks",
-   "body": "Hilary and Shawn spend the day fishing along Lakeshire's docks, trying to enjoy an ordinary childhood amid the threats around the Redridge Mountains. Hilary drops her treasured necklace into Lake Everstill. After searching the piers and shore without finding it, Shawn asks travelers for help.",
+   "body": "Hilary and Shawn fish from Lakeshire's docks, seeking an ordinary day amid the threats around the Redridge Mountains. Then Hilary's treasured necklace slips into Lake Everstill. They search the piers and shore, but find nothing. Shawn asks you to help.",
    "spoiler": 0
   },
   {
    "title": "Perils of Lake Everstill",
-   "body": "Hilary and Shawn's parents forbid them to swim in Lake Everstill. Aggressive murlocs and hungry threshedons lurk beneath the surface. The children cannot reach the necklace in the glinting mud at the lake bottom, so Shawn turns to travelers for help recovering the gift.",
+   "body": "Their parents forbid Hilary and Shawn to swim in Lake Everstill. Aggressive murlocs and hungry threshedons lurk below the surface. The necklace lies in glinting mud at the lake bottom, beyond the children's reach. So Shawn asks you to recover the gift.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "necklace owner",
     "who is hilary"
    ],
-   "answer": "Hilary, a young girl in Lakeshire, lost the necklace her father gave her. It matters deeply to her because it was his gift."
+   "answer": "Hilary, a young girl in Lakeshire, lost the necklace her father gave her. His gift means a great deal to her."
   },
   {
    "q": "Why can't Shawn or Hilary swim down and get it themselves?",
@@ -47,7 +47,7 @@
     "why not get it themselves",
     "why kids not swimming"
    ],
-   "answer": "Their parents forbid them to swim in Lake Everstill because aggressive murlocs and predatory threshedons lurk beneath the surface."
+   "answer": "Their parents forbid them to swim in Lake Everstill, where aggressive murlocs and predatory threshedons lurk beneath the surface."
   },
   {
    "q": "Where did the necklace end up?",
@@ -56,7 +56,7 @@
     "where is necklace",
     "where did it fall"
    ],
-   "answer": "The necklace slipped off the docks and settled into a mound of glinting mud on Lake Everstill's western lake bed."
+   "answer": "The necklace slipped from the docks and settled into a mound of glinting mud on Lake Everstill's western lake bed."
   },
   {
    "q": "Who is Effsee?",
@@ -73,7 +73,7 @@
     "who gives quest",
     "shawn role"
    ],
-   "answer": "Shawn, Hilary's friend, was fishing with her on the docks. He asks travelers to help because he knows how much her father's gift means to her."
+   "answer": "Shawn, Hilary's friend, was fishing with her on the docks. He asks you to help because he knows how much her father's gift means to her."
   },
   {
    "q": "Why does this task matter to Lakeshire?",
@@ -81,13 +81,13 @@
     "lakeshire importance",
     "why help kids"
    ],
-   "answer": "Recovering a lost keepsake offers comfort and normalcy to Lakeshire's families, who struggle to live peacefully under constant threat."
+   "answer": "Finding the keepsake brings comfort and a little normalcy to Lakeshire's families, who struggle to live peacefully under constant threat."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, helping Lakeshire's beleaguered citizens with personal hardships shows your commitment to protecting everyday townsfolk as well as confronting larger threats."
+   "text": "As an Alliance traveler, you help Lakeshire's beleaguered citizens through personal hardships. Your care for everyday townsfolk matters alongside the defense against greater threats."
   }
  ],
  "keywords": [
@@ -110,5 +110,5 @@
  "attribution": [
   "Nida's Necklace (quest)"
  ],
- "style": 1
+ "style": 2
 }

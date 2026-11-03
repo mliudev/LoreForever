@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Alliance of Lordaeron"
  },
- "summary": "The Alliance of Lordaeron was the historic grand coalition of the seven human kingdoms, Khaz Modan dwarves, Wildhammer gryphon riders, gnomes, and high elves formed to resist the Old Horde in the Second War. Led militarily by Supreme Commander Anduin Lothar and diplomatically by King Terenas Menethil II, it shattered the invading orcish forces and secured the Eastern Kingdoms. Though political fractures and the devastation of the Scourge tore it apart during the Third War, its legacy laid the foundation for the current Alliance.",
+ "summary": "Across the Eastern Kingdoms, the Alliance of Lordaeron once held the Old Horde at bay. Seven human kingdoms joined with Khaz Modan dwarves, Wildhammer gryphon riders, gnomes, and high elves in the Second War, under Supreme Commander Anduin Lothar and King Terenas Menethil II. Political fractures and the Scourge broke the coalition during the Third War, yet its legacy endures in today’s Alliance.",
  "sections": [
   {
    "title": "A Coalition Born in Ashes",
-   "body": "Following the horrific sack of Stormwind in the First War, Regent Lord Anduin Lothar brought the battered southern refugees across the Great Sea to Capital City. Pleading their cause before King Terenas Menethil II, Lothar convinced him to gather the rulers of the human nations in council. Old rivalries and border tensions ran deep, but the threat of the Horde outweighed them. Choosing Lothar as their Supreme Commander, the seven human nations bound themselves together in a desperate pact.",
+   "body": "After Stormwind fell in the First War, Regent Lord Anduin Lothar led its battered refugees across the Great Sea to Capital City. There he pleaded their cause before King Terenas Menethil II. The king called the human rulers to council, though old rivalries and border tensions divided them. The Horde’s threat outweighed those disputes. The seven human nations chose Lothar as Supreme Commander and bound themselves in a desperate pact.",
    "spoiler": 0
   },
   {
    "title": "The Second War and the New Vanguard",
-   "body": "Facing brutal orcish warriors, dark warlocks, and monstrous red dragons, the Alliance forged entirely new doctrines of war. Archbishop Alonsus Faol and Lothar established the Knights of the Silver Hand, elevating holy paladins like Uther the Lightbringer to counter the Horde's dark magic. When the war raged across the Hinterlands and quelled the siege of Aerie Peak, Kurdran Wildhammer pledged his fierce gryphon riders to rule the skies. Shortly thereafter, the Bronzebeard dwarves and Gnomeregan gnomes were liberated, joining high elven rangers under Alleria Windrunner. Despite the treacherous betrayal of King Perenolde of Alterac, the grand coalition drove the Horde back to Blackrock Spire and crushed their dominion.",
+   "body": "The Alliance faced brutal orcish warriors, dark warlocks, and monstrous red dragons. Archbishop Alonsus Faol and Lothar formed the Knights of the Silver Hand, raising holy paladins such as Uther the Lightbringer to counter the Horde’s dark magic. Fighting spread across the Hinterlands, and the siege of Aerie Peak was broken. Then Kurdran Wildhammer pledged his gryphon riders to the skies.\n\nSoon after, the Bronzebeard dwarves and Gnomeregan gnomes were freed. They joined the high elven rangers under Alleria Windrunner. King Perenolde of Alterac betrayed the coalition, but the Alliance drove the Horde back to Blackrock Spire and broke its dominion.",
    "spoiler": 0
   },
   {
    "title": "Fracture and Ruin",
-   "body": "Victory brought bitterness rather than enduring peace. Bitter disputes erupted over the high taxes required to maintain the orc internment camps and rebuild the blasted kingdom of Stormwind. Seeing little personal gain, Gilneas built the Greymane Wall and severed ties, Stromgarde departed over territorial and prisoner quarrels, and Quel'Thalas pulled back behind its enchanted runestones. The coalition that remained under King Terenas attempted to weather the political storm, only to be utterly dismantled during the Third War when the Cult of the Damned and the Plague of Undeath swept across Lordaeron. Arthas Menethil's betrayal tore the heart out of the kingdom, ending the golden age of the northern realm.",
+   "body": "Victory left bitterness in place of lasting peace. Disputes flared over the taxes needed to keep the orc internment camps and rebuild Stormwind. Gilneas saw little gain in remaining, built the Greymane Wall, and cut ties. Stromgarde departed over disputes about territory and prisoners, while Quel'Thalas withdrew behind its enchanted runestones. King Terenas tried to hold together the coalition that remained.\n\nDuring the Third War, the Cult of the Damned and the Plague of Undeath swept across Lordaeron and dismantled it. Arthas Menethil’s betrayal tore out the kingdom’s heart and ended the golden age of the northern realm.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "who was in the first alliance",
     "grand alliance history"
    ],
-   "answer": "It was the military and political coalition formed between the Seven Kingdoms of humanity, the dwarves of Ironforge and Aerie Peak, the gnomes of Gnomeregan, and the high elves of Quel'Thalas to fight Orgrim Doomhammer's Horde during the Second War."
+   "answer": "The Alliance of Lordaeron united the Seven Kingdoms of humanity, the dwarves of Ironforge and Aerie Peak, the gnomes of Gnomeregan, and the high elves of Quel'Thalas against Orgrim Doomhammer’s Horde in the Second War."
   },
   {
    "q": "Why was the Alliance formed in Capital City instead of Stormwind?",
@@ -42,7 +42,7 @@
     "stormwind in second war",
     "why did lothar go north"
    ],
-   "answer": "Stormwind had been completely conquered and destroyed during the First War. Regent Lord Anduin Lothar led the surviving population north by ship to Lordaeron to warn King Terenas Menethil II of the alien threat."
+   "answer": "Stormwind had been conquered and destroyed in the First War. Regent Lord Anduin Lothar led the surviving people north by ship to Lordaeron, where he warned King Terenas Menethil II of the alien threat."
   },
   {
    "q": "Who led the Alliance of Lordaeron?",
@@ -51,7 +51,7 @@
     "supreme commander",
     "who was in charge"
    ],
-   "answer": "King Terenas Menethil II hosted the coalition and guided its political diplomacy, while Sir Anduin Lothar was named Supreme Commander of all allied armed forces. Daelin Proudmoore served as Grand Admiral of the fleets."
+   "answer": "King Terenas Menethil II hosted the coalition and guided its diplomacy. Sir Anduin Lothar became Supreme Commander of its armed forces, and Daelin Proudmoore served as Grand Admiral of the fleets."
   },
   {
    "q": "Why did Alterac betray the Alliance?",
@@ -60,7 +60,7 @@
     "what did alterac do",
     "alterac second war"
    ],
-   "answer": "Fearing that the Orcish Horde was unstoppable, King Aiden Perenolde secretly struck a deal with Warchief Orgrim Doomhammer. Alterac offered the Horde safe passage through its mountain passes in exchange for being spared from slaughter."
+   "answer": "King Aiden Perenolde feared the Orcish Horde could not be stopped, so he secretly made a deal with Warchief Orgrim Doomhammer. Alterac offered safe passage through its mountain passes in return for being spared from slaughter."
   },
   {
    "q": "Why did the Alliance of Lordaeron fall apart?",
@@ -69,7 +69,7 @@
     "what happened to the old alliance",
     "why did gilneas leave"
    ],
-   "answer": "After the Second War, disagreements over the cost of internment camps and rebuilding Stormwind caused Gilneas, Stromgarde, and Quel'Thalas to secede. The remnants were later destroyed during the Third War when Prince Arthas and the Scourge annihilated Lordaeron."
+   "answer": "After the Second War, disputes over the cost of internment camps and rebuilding Stormwind led Gilneas, Stromgarde, and Quel'Thalas to secede. The remaining coalition was later destroyed in the Third War, when Prince Arthas and the Scourge annihilated Lordaeron."
   },
   {
    "q": "How is this different from the Alliance of today?",
@@ -78,25 +78,25 @@
     "difference between alliances",
     "is this the current alliance"
    ],
-   "answer": "The Alliance of Lordaeron was centered entirely in the northern kingdoms around Capital City and Dalaran. Today's Alliance is centered in the rebuilt southern kingdom of Stormwind and includes the night elves of Kalimdor, though it draws inspiration from Lothar's original coalition."
+   "answer": "The Alliance of Lordaeron centered on the northern kingdoms around Capital City and Dalaran. Today’s Alliance centers on the rebuilt southern kingdom of Stormwind and includes the night elves of Kalimdor, while drawing inspiration from Lothar’s coalition."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The memory of the Alliance of Lordaeron provides the philosophical foundation and heroic ideals for the modern Alliance centered in Stormwind."
+   "text": "The memory of the Alliance of Lordaeron gives the modern Alliance, centered in Stormwind, its ideals and sense of purpose."
   },
   {
    "target": "class:Paladin",
-   "text": "The Knights of the Silver Hand were created specifically by Archbishop Alonsus Faol and Anduin Lothar to serve as the divine shock troops of the Alliance of Lordaeron."
+   "text": "Archbishop Alonsus Faol and Anduin Lothar created the Knights of the Silver Hand as the Alliance of Lordaeron’s holy shock troops."
   },
   {
    "target": "race:Human",
-   "text": "The alliance brought all Seven Kingdoms together under one banner for the only time since the ancient Empire of Arathor, before regional pettiness and the Scourge scattered them."
+   "text": "The Alliance brought all Seven Kingdoms under one banner for the only time since the ancient Empire of Arathor. Regional rivalries and the Scourge later scattered them."
   },
   {
    "target": "race:Dwarf",
-   "text": "Both the Ironforge Bronzebeards and the Wildhammers of Aerie Peak forged their modern ties to human civilization during the battles of the Second War."
+   "text": "The Ironforge Bronzebeards and the Wildhammers of Aerie Peak forged their modern ties to human civilization in the battles of the Second War."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "Alliance of Lordaeron"
- ]
+ ],
+ "style": 2
 }

@@ -24,16 +24,16 @@
    "Muiseks in Feralas"
   ]
  },
- "summary": "After your trials with the muisek vessel, Witch Doctor Uzer'i asks you to deal with a different creature. Frayfeather hippogryphs in the High Wilderness are to be slain and shrunk into the vessel at once, so that their muisek is kept.",
+ "summary": "In the High Wilderness, Frayfeather hippogryphs carry spirits Uzer'i wants you to capture. Their muisek can escape unless you act quickly.",
  "sections": [
   {
    "title": "Loyal Companions",
-   "body": "Witch Doctor Uzer'i has judged you trustworthy and gifted with the vessel, and now wants the spirit of a different creature. Hippogryphs are old companions of the night elves, and their spirits are loyal and steadfast. Ten Frayfeather hippogryphs of any kind are to be killed, each shrunk and captured quickly with the vessel so that its muisek is preserved. Uzer'i places them in the High Wilderness, southward from the camp.",
+   "body": "Witch Doctor Uzer'i trusts you with the vessel and asks you to capture another creature's spirit. Hippogryphs have long been companions to the night elves, and their spirits are loyal and steadfast. You need ten Frayfeather hippogryphs of any kind. Kill each one, then quickly shrink and capture it with the vessel to preserve its muisek. Uzer'i places them in the High Wilderness, south of the camp.",
    "spoiler": 0
   },
   {
    "title": "Uzer'i's Warning",
-   "body": "Uzer'i says that if the muisek of a slain animal is allowed to escape, it could take the shape of a still greater creature, and then no peace would be had from its revenge. Uzer'i calls the job dangerous and says you have again done it well.",
+   "body": "Witch Doctor Uzer'i warns that a slain animal's muisek may escape and take the shape of a greater creature. Then its revenge would bring no peace. The work is dangerous, and Uzer'i says you have done it well again.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "who gives hippogryph muisek",
     "where to get hippogryph muisek"
    ],
-   "answer": "Witch Doctor Uzer'i. You come to this step after Testing the Vessel."
+   "answer": "Witch Doctor Uzer'i sends you to capture hippogryphs after Testing the Vessel."
   },
   {
    "q": "Where are the Frayfeather hippogryphs found?",
@@ -54,7 +54,7 @@
     "hippogryph location feralas",
     "where to find hippogryphs in feralas"
    ],
-   "answer": "They are in the High Wilderness, which Uzer'i places to the south of the camp."
+   "answer": "Uzer'i places the Frayfeather hippogryphs in the High Wilderness, south of the camp."
   },
   {
    "q": "Why does Witch Doctor Uzer'i want hippogryph spirits?",
@@ -63,7 +63,7 @@
     "why capture hippogryph muisek",
     "uzeri hippogryph reasoning"
    ],
-   "answer": "Uzer'i speaks of hippogryphs as old companions of the night elves, with loyal and steadfast spirits. The aim is for their muisek to be preserved."
+   "answer": "Hippogryphs are old companions of the night elves, and Uzer'i says their spirits are loyal and steadfast. He wants their muisek preserved."
   },
   {
    "q": "How is the muisek captured?",
@@ -72,7 +72,7 @@
     "how to get hippogryph muisek",
     "capturing frayfeather muisek"
    ],
-   "answer": "Kill a Frayfeather hippogryph, then quickly shrink and capture it with the muisek vessel. Ten are wanted, of any type."
+   "answer": "Kill a Frayfeather hippogryph, then quickly shrink and capture it with the muisek vessel. Ten are wanted, of any kind."
   },
   {
    "q": "What step comes before this in the chain?",
@@ -81,7 +81,7 @@
     "previous quest hippogryph muisek",
     "prereq for hippogryph muisek"
    ],
-   "answer": "Testing the Vessel, where you proved yourself trustworthy and able to use the muisek vessel."
+   "answer": "Testing the Vessel comes before this. There, you proved trustworthy and able to use the muisek vessel."
   }
  ],
  "angles": [],
@@ -101,5 +101,6 @@
  ],
  "attribution": [
   "Hippogryph Muisek (Classic)"
- ]
+ ],
+ "style": 2
 }

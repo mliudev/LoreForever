@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Darnassus"
  },
- "summary": "Darnassus rises among Teldrassil’s high boughs as the kaldorei capital and refuge. Its tranquil waters and groves make it the night elves’ spiritual heart and the Alliance’s primary bastion on northern Kalimdor. High Priestess Tyrande Whisperwind and Archdruid Fandral Staghelm guide their people through the trials of newfound mortality.",
+ "summary": "In Teldrassil’s high boughs, Darnassus shelters the kaldorei as their capital and refuge. Its tranquil groves and waters are the night elves’ spiritual heart and the Alliance’s chief stronghold in northern Kalimdor. High Priestess Tyrande Whisperwind and Archdruid Fandral Staghelm guide their people through the trials of newfound mortality.",
  "sections": [
   {
    "title": "Sanctuary in the Boughs",
-   "body": "Darnassus took shape after the Third War, honoring the night elves’ survival after they lost the immortality granted by their sacred World Tree, Nordrassil. Unlike the stone cities of Ironforge and Stormwind, it is an open, tranquil settlement of wood-crafted lodges, glowing shrines, and arched bridges over crystalline lakes. Vigilant Sentinels, towering ancients of war, and druids who shape trees watch the paths and preserve nature’s quiet within the city.",
+   "body": "Darnassus took shape after the Third War, honoring the night elves’ survival after they lost the immortality granted by their sacred World Tree, Nordrassil. Unlike the stone cities of Ironforge and Stormwind, this is an open, tranquil settlement of wood-crafted lodges, glowing shrines, and arched bridges over clear lakes. Vigilant Sentinels, towering ancients of war, and druids who shape trees watch the paths and keep nature’s quiet within the city.",
    "spoiler": 0
   },
   {
    "title": "A Divided Leadership",
-   "body": "Darnassus speaks of kaldorei unity, though its leadership is divided between different duties. High Priestess Tyrande Whisperwind handles civil and military matters from the radiant Temple of the Moon, with the Sisters of Elune around her. Archdruid Fandral Staghelm leads the Cenarion Circle’s affairs and championed planting Teldrassil to restore the elves’ lost immortality. Malfurion Stormrage is lost in a mysterious slumber deep within the Emerald Dream, and Staghelm’s aggressive vision for the future often clashes with the more patient priesthood.",
+   "body": "Darnassus speaks of kaldorei unity, though its leaders bear different duties. High Priestess Tyrande Whisperwind handles civil and military affairs from the radiant Temple of the Moon, with the Sisters of Elune around her. Archdruid Fandral Staghelm leads the Cenarion Circle’s affairs and championed the planting of Teldrassil to restore the elves’ lost immortality.\n\nMalfurion Stormrage is missing, lost in a mysterious slumber within the Emerald Dream. Staghelm’s aggressive vision for the future often clashes with the more patient priesthood.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who is in charge of darnassus",
     "night elf leader"
    ],
-   "answer": "High Priestess Tyrande Whisperwind leads night elf society from the Temple of the Moon and commands the Sentinels. Archdruid Fandral Staghelm leads the Cenarion Circle in Malfurion Stormrage’s absence."
+   "answer": "High Priestess Tyrande Whisperwind leads night elf society from the Temple of the Moon and commands the Sentinels. Archdruid Fandral Staghelm leads the Cenarion Circle while Malfurion Stormrage is absent."
   },
   {
    "q": "How do travelers reach Darnassus from outside Teldrassil?",
@@ -37,7 +37,7 @@
     "darnassus entrance",
     "getting into darnassus"
    ],
-   "answer": "Darnassus sits atop the massive boughs of a World Tree island, so ships and flight paths reach only Rut'theran Village at the tree’s base. From there, a magical portal carries visitors up into the city."
+   "answer": "Ships and flight paths from beyond Teldrassil reach Rut'theran Village at the base of the World Tree. From there, a magical portal carries visitors up into Darnassus."
   },
   {
    "q": "Why was Darnassus founded so recently?",
@@ -46,7 +46,7 @@
     "when was darnassus built",
     "darnassus age"
    ],
-   "answer": "After the destruction at Mount Hyjal during the Third War, the night elves lost their immortality and ancient way of life. Fandral Staghelm and his allies planted Teldrassil off the coast of Kalimdor, and Darnassus took root on its branches as a fresh sanctuary for their people."
+   "answer": "After the destruction at Mount Hyjal during the Third War, the night elves lost their immortality and ancient way of life. Fandral Staghelm and his allies planted Teldrassil off Kalimdor’s coast, and Darnassus took root on its branches as a new sanctuary for their people."
   },
   {
    "q": "Where is Malfurion Stormrage?",
@@ -65,7 +65,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "For travelers from the Eastern Kingdoms, Darnassus is a secluded, serene haven and the Alliance’s essential anchor on the continent of Kalimdor."
+   "text": "For travelers from the Eastern Kingdoms, Darnassus is a secluded, serene haven and the Alliance’s chief stronghold on Kalimdor."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
  "attribution": [
   "Darnassus"
  ],
- "style": 1
+ "style": 2
 }

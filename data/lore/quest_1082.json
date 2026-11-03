@@ -17,16 +17,16 @@
   "wiki": "Update for Sentinel Thenysil",
   "chain": []
  },
- "summary": "Word of relief travels from Stonetalon to Astranaar. After helping Kaela Shadowspear and Gaxim Rustfizzle against the Venture Company, you are sent to reassure Sentinel Tara Thenysil that their outpost still holds.",
+ "summary": "In Astranaar, Sentinel Tara Thenysil awaits word from Stonetalon. After helping Kaela Shadowspear and Gaxim Rustfizzle against the Venture Company, you carry news that their outpost still holds.",
  "sections": [
   {
    "title": "A Dispatch from the Peaks",
-   "body": "Stonetalon's jagged passes leave the night elf frontier isolated and exposed. The Venture Company cuts down the crags and pollutes the waterways, threatening the outpost where Kaela Shadowspear and the gnome tinkerer Gaxim Rustfizzle serve. With the immediate danger blunted, Kaela sends you northeast across the border into Ashenvale to report that they remain safe.",
+   "body": "Stonetalon's jagged passes leave the night elf frontier isolated and exposed. The Venture Company cuts into the crags and pollutes the waterways, threatening the outpost where Kaela Shadowspear and the gnome tinkerer Gaxim Rustfizzle serve. With the immediate danger blunted, Kaela sends you northeast across the border into Ashenvale. You are to report that they remain safe.",
    "spoiler": 0
   },
   {
    "title": "Relief in Astranaar",
-   "body": "In Astranaar, Sentinel Tara Thenysil watches Ashenvale's interior roads and worries over scouts sent into harsher lands. Word that Kaela and her engineering partner are alive and working to heal the land brings welcome relief. The report shows that, despite dwindling forces and threats on several fronts, cooperation with Alliance allies can slow the destruction.",
+   "body": "In Astranaar, Sentinel Tara Thenysil watches Ashenvale's interior roads and worries over scouts sent into harsher lands. News that Kaela and her engineering partner are alive and working to heal the land brings relief. Though their forces dwindle and threats press on several fronts, cooperation with Alliance allies can slow the destruction.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "tara thenysil",
     "thenysil astranaar"
    ],
-   "answer": "Tara Thenysil is an officer of the night elf Sentinels stationed in Astranaar, the main Alliance hub in Ashenvale. She keeps watch on scouts and patrols sent into the surrounding wilds and nearby regions."
+   "answer": "Tara Thenysil is an officer of the night elf Sentinels stationed in Astranaar, the main Alliance hub in Ashenvale. She watches scouts and patrols sent into the surrounding wilds and nearby regions."
   },
   {
    "q": "Why is Kaela Shadowspear in Stonetalon Mountains?",
@@ -56,7 +56,7 @@
     "gaxim rustfizzle",
     "the gnome with kaela"
    ],
-   "answer": "Gaxim Rustfizzle is an Alliance gnome engineer stationed with Kaela Shadowspear in Stonetalon. His noisy trade clashes with traditional elven ways, but his skill helps disrupt goblin logging machinery."
+   "answer": "Gaxim Rustfizzle is an Alliance gnome engineer stationed with Kaela Shadowspear in Stonetalon. His noisy trade clashes with traditional elven ways, yet his skill helps disrupt goblin logging machinery."
   },
   {
    "q": "Where do I find Sentinel Thenysil?",
@@ -82,7 +82,7 @@
     "venture co stonetalon",
     "why fight venture co"
    ],
-   "answer": "The Venture Company clear-cuts sacred groves, runs massive logging machinery, and poisons Stonetalon's waterways, threatening the natural balance guarded by the night elves."
+   "answer": "The Venture Company clear-cuts sacred groves, runs massive logging machinery, and poisons Stonetalon's waterways. Its work threatens the natural balance guarded by the night elves."
   }
  ],
  "angles": [
@@ -92,7 +92,7 @@
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you can take pride that even Sentinel Thenysil is relieved Gaxim Rustfizzle is safe. Gnomish ingenuity can earn respect among traditionalist elves."
+   "text": "As a gnome, you can take pride that Sentinel Thenysil is relieved Gaxim Rustfizzle is safe. Gnomish ingenuity can earn respect among traditionalist elves."
   },
   {
    "target": "faction:Alliance",
@@ -122,5 +122,5 @@
  "attribution": [
   "Update for Sentinel Thenysil"
  ],
- "style": 1
+ "style": 2
 }

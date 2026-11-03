@@ -27,11 +27,11 @@
    "Call to Arms"
   ]
  },
- "summary": "Following the previous Call to Arms, Drum Fel at Hammerfall declares that it is time to strike the head from the beast. He sends you after the Boulderfist lords and shaman who lair in the ruins of Stromgarde.",
+ "summary": "At Hammerfall, Drum Fel sends you after the Boulderfist leaders in Stromgarde. After your earlier work, he says it is time to strike the head from the beast.",
  "sections": [
   {
    "title": "The Head of the Beast",
-   "body": "Drum Fel says you have proven able enough to help deliver one last great blow. Those leading the attacks have made their lair in the ruins of Stromgarde, which he calls a symbol of human frailty. Hunt down the Boulderfist lords and the shaman who serve them, for they would try to drive the Horde out of these lands.",
+   "body": "Drum Fel says you are ready to help deliver one last great blow. The Boulderfist leaders have made their lair in Stromgarde’s ruins, which he calls a symbol of human frailty. He sends you to hunt down the lords and the shaman who serve them. They lead attacks meant to drive the Horde from these lands.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "drum fel quest",
     "who starts call to arms 3"
    ],
-   "answer": "Drum Fel, at the Horde outpost of Hammerfall in the Arathi Highlands."
+   "answer": "Drum Fel sends you from Hammerfall, the Horde outpost in the Arathi Highlands."
   },
   {
    "q": "Where are the Boulderfist lords and shaman located?",
@@ -52,7 +52,7 @@
     "boulderfist shaman location",
     "where to find ogre leaders"
    ],
-   "answer": "Drum Fel says those leading the attacks are holed up in the ruins of Stromgarde."
+   "answer": "The Boulderfist lords and shaman leading the attacks are holed up in Stromgarde’s ruins, Drum Fel says."
   },
   {
    "q": "Where does this step fit into the chain?",
@@ -61,7 +61,7 @@
     "call to arms chain",
     "hammerfall ogre chain"
    ],
-   "answer": "It follows the previous Call to Arms and is the last step in the chain that begins with Tallow in Tarren Mill."
+   "answer": "This follows the previous Call to Arms and is the last step in the chain that begins with Tallow in Tarren Mill."
   },
   {
    "q": "What does Drum Fel want done to the Boulderfist leaders?",
@@ -69,7 +69,7 @@
     "why kill boulderfist lords",
     "why attack stromgarde ogres"
    ],
-   "answer": "He wants the lords and shaman leading the attacks killed as one last great blow, because they would drive the Horde from these lands."
+   "answer": "Drum Fel wants you to kill the lords and shaman leading the attacks in one last great blow. They mean to drive the Horde from these lands."
   }
  ],
  "angles": [],
@@ -94,5 +94,6 @@
  ],
  "attribution": [
   "Call to Arms (3)"
- ]
+ ],
+ "style": 2
 }

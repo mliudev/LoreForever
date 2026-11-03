@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Steamwheedle Cartel"
  },
- "summary": "The Steamwheedle Cartel is the largest and most influential goblin enterprise operating across modern Azeroth. Fiercely neutral, the cartel governs bustling commercial hubs like Booty Bay, Ratchet, and Gadgetzan, serving Alliance and Horde patrons alike so long as their coin is genuine. Their sprawling operations encompass cross-continental shipping, alchemy, salvaging, and cutthroat mercenary contracting.",
+ "summary": "In its ports, the Steamwheedle Cartel welcomes Alliance and Horde alike, so long as their coin is genuine. This powerful goblin enterprise has hubs in Booty Bay, Ratchet, and Gadgetzan. Its trade reaches shipping, alchemy, salvaging, and mercenary contracts.",
  "sections": [
   {
    "title": "A Profitable Neutrality",
-   "body": "Originating from the subterranean goblin capital of Undermine, the Steamwheedle Cartel initially allied with the Old Horde during the Second War, supplying war machines, sappers, and naval engineering. After the dust settled, the cartel's leaders realized that picking sides cost more than it earned. Embracing absolute neutrality, they expanded across both continents, opening trade networks that welcome Alliance and Horde alike. Today, as open tensions simmer, Steamwheedle ports provide vital common ground where anyone with gold can purchase passage, bank resources, and hire local specialists.",
+   "body": "The Steamwheedle Cartel began beneath the earth in Undermine, the goblin capital. During the Second War, it backed the Old Horde with war machines, sappers, and naval engineering. When the war ended, its leaders judged that choosing sides cost more than it earned.\n\nSo the cartel turned to neutrality and spread across both continents, opening trade to Alliance and Horde alike. As tensions rise, its ports remain common ground. Anyone with gold can buy passage, store goods, or hire local specialists.",
    "spoiler": 0
   },
   {
    "title": "Ports and Outposts",
-   "body": "The cartel's influence rests on strategic ports and frontier towns. In Stranglethorn Vale, Baron Revilgaz presides over Booty Bay, a fortified harbor town carved into the cliffs alongside the Blackwater Raiders. Across the Great Sea, Chief Engineer Gazlowe directs Ratchet on the coast of the Barrens, running a deep-water ferry line directly back to Booty Bay. Deep within the deserts of Tanaris lies the boomtown of Gadgetzan, while smaller operations like Steamwheedle Port and remote outposts in Desolace, Azshara, and Stonetalon Mountains secure regional resources.",
+   "body": "The Steamwheedle Cartel builds its influence around ports and frontier towns. In Stranglethorn Vale, Baron Revilgaz rules Booty Bay, a harbor fortified in the cliffs beside the Blackwater Raiders. Across the Great Sea, Chief Engineer Gazlowe directs Ratchet on the Barrens coast.\n\nA deep-water ferry runs straight from Ratchet to Booty Bay. Gadgetzan lies deep in Tanaris, while Steamwheedle Port and outposts in Desolace, Azshara, and Stonetalon Mountains secure resources across the region.",
    "spoiler": 0
   },
   {
    "title": "Rivals and Reavers",
-   "body": "Steamwheedle trade is constantly imperiled by opportunistic cutthroats. In the Southern Seas, the Bloodsail Buccaneers continually menace Booty Bay's naval lanes, while Southsea Freebooters raid the coastlines near Ratchet. On land, the cartel frequently clashes with their corporate arch-rivals, the Venture Company, competing violently for timber rights, oil fields, and shredder technology across Stonetalon and the Barrens. To maintain order and enforce trade contracts, cartel barons routinely hire passing mercenaries to settle grievances with extreme prejudice.",
+   "body": "Cutthroats threaten Steamwheedle trade at sea and on land. The Bloodsail Buccaneers menace Booty Bay's sea lanes, while Southsea Freebooters raid the coast near Ratchet. On land, the cartel fights its corporate rival, the Venture Company, over timber rights, oil fields, and shredder technology in Stonetalon and the Barrens. To keep order and enforce trade contracts, cartel barons hire passing mercenaries to settle disputes with extreme force.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "steamwheedle goblins",
     "what is steamwheedle"
    ],
-   "answer": "The Steamwheedle Cartel is a massive, neutral goblin trading conglomerate based out of Undermine. They operate several major independent towns across Azeroth\u2014including Booty Bay, Ratchet, and Gadgetzan\u2014offering banking, engineering, transport, and auction houses to all factions."
+   "answer": "The Steamwheedle Cartel is a neutral goblin trading enterprise based in Undermine. Its towns include Booty Bay, Ratchet, and Gadgetzan, where it offers banking, engineering, transport, and auction houses to every faction."
   },
   {
    "q": "Are the Steamwheedle goblins part of the Horde or Alliance?",
@@ -42,7 +42,7 @@
     "is steamwheedle cartel neutral",
     "steamwheedle faction"
    ],
-   "answer": "Neither. The cartel maintains strict political neutrality. While they previously worked with the Old Horde during the Second War, they severed formal faction allegiances to maximize profit. Today, they happily trade with both the Alliance and the Horde, enforcing peace in their towns with armed bruisers."
+   "answer": "Neither. The cartel keeps political neutrality and trades with both the Alliance and the Horde. It backed the Old Horde during the Second War, then ended its faction ties to pursue profit. Armed bruisers keep order in its towns."
   },
   {
    "q": "Which major cities belong to the Steamwheedle Cartel?",
@@ -51,7 +51,7 @@
     "cartel cities",
     "goblin towns list"
    ],
-   "answer": "Their four principal towns are Booty Bay in southern Stranglethorn Vale, Ratchet on the eastern shore of the Barrens, Gadgetzan in Tanaris, and Everlook in Winterspring. They also maintain smaller hubs like Steamwheedle Port and isolated trading outposts."
+   "answer": "The cartel's principal towns are Booty Bay in southern Stranglethorn Vale, Ratchet on the eastern shore of the Barrens, Gadgetzan in Tanaris, and Everlook in Winterspring. It also keeps smaller hubs, including Steamwheedle Port, and isolated trading outposts."
   },
   {
    "q": "Who leads the Steamwheedle Cartel?",
@@ -60,7 +60,7 @@
     "trade prince steamwheedle",
     "who runs steamwheedle"
    ],
-   "answer": "The cartel is run from Undermine, but its towns answer to local bosses such as Baron Revilgaz in Booty Bay and Chief Engineer Gazlowe in Ratchet."
+   "answer": "The cartel is run from Undermine. Its towns answer to local bosses, including Baron Revilgaz in Booty Bay and Chief Engineer Gazlowe in Ratchet."
   },
   {
    "q": "Why are the Steamwheedle goblins enemies with the Venture Company?",
@@ -69,7 +69,7 @@
     "why hate venture co",
     "venture company rivalry"
    ],
-   "answer": "The Venture Company is a rival goblin enterprise known for cutthroat strip-mining and deforestation. The two factions constantly compete for the same territorial concessions, industrial blueprints, and natural resources across Kalimdor and the Eastern Kingdoms."
+   "answer": "The Venture Company is a rival goblin enterprise known for strip-mining and deforestation. The two groups fight over territorial concessions, industrial blueprints, and natural resources across Kalimdor and the Eastern Kingdoms."
   },
   {
    "q": "What happens if you fight inside a Steamwheedle port?",
@@ -78,25 +78,25 @@
     "pvp in ratchet",
     "ratchet bruisers"
    ],
-   "answer": "Steamwheedle towns employ armed goblin bruisers to keep the peace. Attacking other travelers can bring the guards down on you, while killing cartel guards or citizens damages your standing with the cartel."
+   "answer": "Armed goblin bruisers keep order in Steamwheedle towns. If you attack other travelers, guards may come after you; killing cartel guards or citizens harms your standing with the cartel."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Cartel hubs like Ratchet and Gadgetzan are premier gathering spots for Goblin Engineering schematics, shredder parts, and experimental mechanical components."
+   "text": "Ratchet and Gadgetzan are key places to find Goblin Engineering schematics, shredder parts, and experimental mechanical components."
   },
   {
    "target": "faction:Alliance",
-   "text": "For Alliance travelers, Steamwheedle ferry routes and desert outposts provide indispensable waystations and flight paths across remote, Horde-heavy wilderness."
+   "text": "As an Alliance traveler, you can use Steamwheedle ferries and desert outposts as waystations and flight paths through remote wilderness where the Horde is strong."
   },
   {
    "target": "faction:Horde",
-   "text": "While Gazlowe and his crew maintain historic working relationships with the orcs of Durotar, the cartel still demands cold hard coin for their services and neutrality."
+   "text": "Gazlowe and his crew have long worked with the orcs of Durotar, but the cartel still expects payment for its services and keeps to neutrality."
   },
   {
    "target": "class:Rogue",
-   "text": "The lawless fringes of Booty Bay and Ratchet offer bountiful employment for thieves, lockpicks, and covert contractors willing to fleece pirates and rivals alike."
+   "text": "Booty Bay and Ratchet's lawless fringes offer work for thieves, lockpicks, and covert contractors willing to fleece pirates and rivals."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "Steamwheedle Cartel"
- ]
+ ],
+ "style": 2
 }

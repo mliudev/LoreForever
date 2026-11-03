@@ -10,11 +10,11 @@
    "quest:1084"
   ]
  },
- "summary": "In Stonetalon, jagged metal remains lodged deep inside corrupted treants. The Venture Company’s retreating munitions left fragments in the forest’s protectors, now sought for study.",
+ "summary": "In Stonetalon, jagged fragments remain buried in the forest’s corrupted treants. The Venture Company’s munitions left them there as the goblins fled.",
  "sections": [
   {
    "title": "Remnants of Industrial Ruin",
-   "body": "When the Venture Company was driven from Stonetalon’s groves, its goblins used reckless munitions to cover their escape. Explosive shrapnel tore into the valley’s defending treants, lodging deep within their bark and core. The ancient guardians slowly succumbed to corruption. Their wood blackened, and their fury turned against anyone entering the vale. Kaela Shadowspear seeks the rusted fragments so Gaxim Rustfizzle, a gnome, can study how the weapons brought on the treants’ corruption.",
+   "body": "The Venture Company’s goblins fled Stonetalon’s groves under cover of reckless munitions. Their blasts drove shrapnel into the treants defending the valley, where it lodged deep in bark and core. The ancient guardians slowly succumbed to corruption. Their wood darkened, and they turned their fury on anyone entering the vale. Kaela Shadowspear seeks the rusted fragments for Gaxim Rustfizzle, a gnome who wants to study how the weapons brought on the treants’ corruption.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "did shrapnel corrupt treants",
     "why are treants mad"
    ],
-   "answer": "Kaela Shadowspear says the gnome Gaxim believes the treants’ corruption is tied to the foul chemical or metallic makeup of the retreating goblins’ weapons."
+   "answer": "Kaela Shadowspear says Gaxim, a gnome, believes the treants’ corruption is tied to the foul chemical or metallic makeup of the goblins’ weapons as they retreated."
   },
   {
    "q": "Who wants to inspect the shrapnel?",
@@ -50,17 +50,17 @@
     "who needs the shrapnel",
     "shrapnel turn in"
    ],
-   "answer": "Kaela Shadowspear, a night elf, wants a sample to pass to Gaxim, a gnome inventor who plans to study its properties and learn what afflicts the treants."
+   "answer": "Kaela Shadowspear, a night elf, wants a sample for Gaxim, a gnome inventor. He plans to study its properties and learn what afflicts the treants."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid, seeing Kalimdor’s ancients warped by goblin munitions and festering metal shards shows the cost unchecked exploitation brings to the wild."
+   "text": "As a druid, you see the cost of unchecked exploitation in Kalimdor’s ancients, warped by goblin munitions and festering metal shards."
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you can see Gaxim’s study of tainted shrapnel as a practical, scientific way to investigate an ecological mystery that woodland sentinels cannot explain."
+   "text": "As a gnome, you can see Gaxim’s study of tainted shrapnel as a practical, scientific way to investigate an ecological mystery the woodland sentinels cannot explain."
   }
  ],
  "keywords": [
@@ -84,5 +84,5 @@
   "Corroded Shrapnel",
   "Wounded Ancients"
  ],
- "style": 1
+ "style": 2
 }

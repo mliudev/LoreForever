@@ -21,16 +21,16 @@
   ],
   "wiki": null
  },
- "summary": "Hadoken Swiftstrider is sure the Woodpaw gnolls follow some written strategy. He sends you to search the gnoll camps south of Camp Mojache for anything resembling battle plans.",
+ "summary": "At Camp Mojache, Hadoken Swiftstrider suspects the Woodpaw gnolls are following written plans. He sends you south to search their camps for battle plans.",
  "sections": [
   {
    "title": "A Search for Plans",
-   "body": "This comes after Alpha Strike. Hadoken has little respect for gnoll brains, yet he is sure they keep some record of their strategy, as their recent assaults are too well coordinated to be improvised. If he could see those plans, he would better understand what stirred them up. He sends you back to the Woodpaw to find whatever looks like battle plans and bring it to him.",
+   "body": "After Alpha Strike, Hadoken Swiftstrider sends you back to the Woodpaw. He doubts the gnolls are clever, yet their recent assaults have been too well coordinated to be chance. He suspects they keep a written record of their strategy. If you find it, he may learn what stirred them up, so he asks you to search the camps and bring back anything that looks like battle plans.",
    "spoiler": 0
   },
   {
    "title": "What the Map Shows",
-   "body": "The map is indeed what Hadoken wanted. Arrows cross it that might show troop movements, but most run south, away from Camp Mojache in the north. Elsewhere on the map is a drawing of what you take to be a big insect, with tick marks beneath it, maybe a count of the gnolls' losses to unknown bugs.",
+   "body": "The map gives Hadoken the plans he sought. Arrows cross it and may mark troop movements, though most point south, away from Camp Mojache to the north. Elsewhere, a drawing resembles a large insect. Tick marks beneath it may count gnoll losses to unknown bugs.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "who gives woodpaw investigation",
     "quest giver woodpaw investigation"
    ],
-   "answer": "Hadoken Swiftstrider at Camp Mojache."
+   "answer": "Hadoken Swiftstrider at Camp Mojache sends you to investigate the Woodpaw gnolls."
   },
   {
    "q": "Why does Hadoken believe the gnolls have battle plans?",
@@ -49,7 +49,7 @@
     "why do gnolls have plans",
     "woodpaw strategy"
    ],
-   "answer": "Their assaults have been too well coordinated to be improvised, so Hadoken expects a written strategy that would show what has them so stirred up."
+   "answer": "The Woodpaw's recent assaults have been too well coordinated to be improvised. Hadoken expects a written strategy that could show what stirred them up."
   },
   {
    "q": "Where are the battle plans located?",
@@ -57,7 +57,7 @@
     "where are woodpaw plans",
     "where to find woodpaw battle map"
    ],
-   "answer": "In the gnoll camps south of Camp Mojache."
+   "answer": "The battle plans are in the Woodpaw camps south of Camp Mojache."
   },
   {
    "q": "What came before Woodpaw Investigation?",
@@ -65,7 +65,7 @@
     "previous quest woodpaw investigation",
     "woodpaw chain prerequisite"
    ],
-   "answer": "Alpha Strike is the step that comes right before this search."
+   "answer": "Alpha Strike comes right before this search."
   }
  ],
  "angles": [],
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Classic quest text: Woodpaw Investigation"
- ]
+ ],
+ "style": 2
 }

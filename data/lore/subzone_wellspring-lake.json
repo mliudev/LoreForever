@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Wellspring Lake"
  },
- "summary": "At Wellspring Lake, springs feed the river while corruption stirs the wildlife. The lake lies northeast of Darnassus, where night elf fishermen once found a quiet retreat.",
+ "summary": "In northern Teldrassil, Wellspring Lake’s waters flow north as corruption troubles the wildlife. Northeast of Darnassus, the lake once offered night elf fishermen a quiet retreat.",
  "sections": [
   {
    "title": "A Tainted Refuge",
-   "body": "Wellspring Lake lies between Darnassus and the Oracle Glade, beneath Teldrassil’s canopy. Night elves once came to its clear waters to fish and sit in quiet thought. Springs deep within the World Tree feed the lake, and its waters flow north through the Wellspring River. Now a blight troubles the surrounding wilds. Aggressive spiders, prowling nightsabers, and agitated timberlings roam the banks, making the shore dangerous for travelers.",
+   "body": "Beneath Teldrassil’s canopy, Wellspring Lake lies between Darnassus and the Oracle Glade. Night elves once came to its clear waters to fish and sit in quiet thought. Springs deep within the World Tree feed the lake, whose waters flow north through the Wellspring River.\n\nNow a blight troubles the surrounding wilds. Aggressive spiders, prowling nightsabers, and agitated timberlings roam the banks, making the shore dangerous for travelers.",
    "spoiler": 0
   }
  ],
@@ -55,7 +55,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the Kaldorei, peaceful groves like Wellspring Lake turning into dangerous monster dens show how deeply something has gone wrong with their young World Tree."
+   "text": "For the Kaldorei, peaceful groves like Wellspring Lake turning into dangerous dens of beasts show how deeply something has gone wrong with their young World Tree."
   },
   {
    "target": "class:Druid",
@@ -81,5 +81,5 @@
  "attribution": [
   "Wellspring Lake"
  ],
- "style": 1
+ "style": 2
 }

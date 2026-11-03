@@ -18,11 +18,11 @@
   "chain": [],
   "category": "Badlands"
  },
- "summary": "In the outpost of Kargath, Neeka Bloodscar wants you to hunt the crag coyotes of the Badlands, tough beasts that have dared to sneak into Kargath and steal its food. Thirty jawbones are what Neeka asks for.",
+ "summary": "In Kargath, crag coyotes have stolen food, and Neeka Bloodscar wants them hunted. She asks you to bring back thirty jawbones.",
  "sections": [
   {
    "title": "Thieves of Kargath",
-   "body": "Neeka Bloodscar asks whether you have spent many days in the Badlands, felt its heat and met the beasts of its dusty plains. Crag coyotes are a tough breed, and they have crept into Kargath to steal from the outpost's food. Neeka wants them hunted and their jawbones brought back. Bring enough, and Neeka may believe you know the Badlands.",
+   "body": "Neeka Bloodscar asks whether you have spent many days in the Badlands, felt its heat, and met the beasts of its dusty plains. Crag coyotes are tough, and they have crept into Kargath to steal food from the outpost. She wants you to hunt them and bring back their jawbones. Bring enough, and Neeka may believe you know the Badlands.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "neeka bloodscar motivation",
     "why collect jawbones"
    ],
-   "answer": "Crag coyotes have sneaked into Kargath and stolen from its food supplies. Neeka wants them hunted, and wants jawbones as proof that you know the Badlands."
+   "answer": "Crag coyotes have crept into Kargath and stolen food from the outpost. Neeka wants them hunted, and their jawbones will show that you know the Badlands."
   },
   {
    "q": "Where are the coyotes causing trouble?",
@@ -43,7 +43,7 @@
     "where to find crag coyotes",
     "where are the coyotes"
    ],
-   "answer": "Crag coyotes wander the dusty plains of the Badlands, and they have crept into the outpost of Kargath to steal food."
+   "answer": "Crag coyotes wander the Badlands' dusty plains and have crept into Kargath to steal food."
   },
   {
    "q": "How many jawbones does Neeka Bloodscar want?",
@@ -51,7 +51,7 @@
     "how many jawbones",
     "coyote jawbone count"
    ],
-   "answer": "Thirty coyote jawbones, brought to Neeka Bloodscar in Kargath."
+   "answer": "Neeka Bloodscar wants you to bring her thirty coyote jawbones in Kargath."
   },
   {
    "q": "Who is Neeka Bloodscar?",
@@ -59,7 +59,7 @@
     "who is neeka",
     "neeka bloodscar"
    ],
-   "answer": "Neeka Bloodscar is at the outpost of Kargath in the Badlands, where Neeka gives out this hunt."
+   "answer": "Neeka Bloodscar is at the Kargath outpost in the Badlands. She asks you to hunt crag coyotes."
   }
  ],
  "angles": [],
@@ -77,5 +77,6 @@
  ],
  "attribution": [
   "Coyote Thieves"
- ]
+ ],
+ "style": 2
 }

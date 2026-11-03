@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Lake Everstill"
  },
- "summary": "Murlocs and lake beasts now make Lake Everstill dangerous beside Lakeshire. Once known for calm fishing and clear mountain runoff, its waters and shores have grown perilous.",
+ "summary": "Murlocs and lake beasts threaten Lake Everstill beside Lakeshire. Its clear mountain waters once drew anglers, but now the shores and depths are perilous.",
  "sections": [
   {
    "title": "Heart of the Valley",
-   "body": "Lake Everstill fills Redridge's central basin beside Lakeshire. Its clear waters run east toward Stonewatch, and a bridge crosses the lake at the heart of town. The lake has long supported local trade and drawn anglers seeking quiet. Now, wilderness threats have broken that calm along the shore.",
+   "body": "Lake Everstill fills Redridge's central basin beside Lakeshire. Clear water runs east toward Stonewatch, and a bridge crosses the lake at the heart of town. For years, the lake supported local trade and gave anglers a quiet place to fish. Now danger has broken the calm along its shores.",
    "spoiler": 0
   },
   {
    "title": "Trouble in the Depths",
-   "body": "Hostile murlocs have made camps along the northern and eastern shallows, disrupting trade and harrying fishermen. Dangerous threshers patrol the deeper waters below.",
+   "body": "Murlocs have made camps in the northern and eastern shallows. They disrupt trade and harry fishermen. Farther down, dangerous threshers patrol the deep water.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "lake everstill monsters",
     "redridge lake mobs"
    ],
-   "answer": "Hostile murloc tribes crowd the shallows, including scouts, tidecallers, and flesheaters. Giant threshers and aggressive muckdwellers patrol beneath the surface."
+   "answer": "Hostile murloc tribes crowd the shallows, with scouts, tidecallers, and flesheaters among them. Giant threshers and aggressive muckdwellers patrol below the surface."
   },
   {
    "q": "Where does the water from Lake Everstill flow?",
@@ -44,17 +44,17 @@
     "fishing lake everstill",
     "is it safe to fish lakeshire"
    ],
-   "answer": "Catfish and sagefish fill the lake, but fishing has become dangerous. Murloc raiding parties camp along the water's edge, and large threshers attack anyone who ventures too far into the deep."
+   "answer": "Catfish and sagefish fill the lake, but fishing there has become dangerous. Murloc raiding parties camp along the shore, and large threshers attack anyone who ventures too far into deep water."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "As a mage passing through Lakeshire, you will find the lake's dangers mundane rather than arcane. Murloc camps crowd the shallows, while threshers patrol deeper waters."
+   "text": "As a mage passing through Lakeshire, you will find the lake's dangers mundane, not arcane. Murloc camps crowd the shallows, while threshers patrol the deeper water."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you know that control of the lake and its crossings is vital to Lakeshire's survival against coordinated incursions by Redridge murlocs and nearby Blackrock orcs."
+   "text": "As an Alliance member, you know Lakeshire's survival depends on control of the lake and its crossings. Coordinated incursions by Redridge murlocs and nearby Blackrock orcs threaten that control."
   }
  ],
  "keywords": [
@@ -73,5 +73,5 @@
  "attribution": [
   "Lake Everstill"
  ],
- "style": 1
+ "style": 2
 }

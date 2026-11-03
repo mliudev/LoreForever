@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Varian Wrynn"
  },
- "summary": "King Varian Wrynn is the rightful ruler of the Kingdom of Stormwind, currently missing after vanishing en route to a diplomatic summit in Theramore. In his absence, his ten-year-old son Anduin wears the crown, guided by Highlord Bolvar Fordragon and Lady Katrana Prestor.",
+ "summary": "Across the Great Sea, Varian Wrynn has vanished on the voyage to Theramore. His ten-year-old son Anduin wears Stormwind's crown under the guidance of Highlord Bolvar Fordragon and Lady Katrana Prestor.",
  "sections": [
   {
    "title": "A Boyhood in Ash",
-   "body": "Varian was just a boy when the First War shattered his life. He watched his father, King Llane Wrynn, die by the hand of the assassin Garona Halforcen as the Old Horde stormed the capital. Rescued by Anduin Lothar, the orphaned prince fled north with the kingdom's survivors to Southshore. In Capital City, King Terenas Menethil II took Varian in like a second son. The young prince grew up in exile alongside Prince Arthas Menethil, bearing the memory of a burned home until the Alliance of Lordaeron broke the Horde and reclaimed Stormwind.",
+   "body": "Varian's boyhood ended when the First War shattered his life. He watched Garona Halforcen, the assassin, kill King Llane Wrynn as the Old Horde stormed the capital. Anduin Lothar rescued the orphaned prince and fled north with the kingdom's survivors to Southshore.\n\nIn Capital City, King Terenas Menethil II took Varian in like a second son. The young prince grew up in exile beside Prince Arthas Menethil, carrying the memory of his burned home. Then the Alliance of Lordaeron broke the Horde and reclaimed Stormwind.",
    "spoiler": 0
   },
   {
    "title": "A Troubled Restoration",
-   "body": "Crowned at eighteen, Varian took on the immense task of resurrecting his ruined kingdom. To restore the capital, he commissioned the Stonemasons Guild under Edwin VanCleef. But when the grand work was finished, the corrupt House of Nobles refused to pay the promised wages, and the stonemasons refused to back down. Varian found himself paralyzed between the entrenched nobility and the furious artisans. The dispute erupted into violent riots in the streets of Stormwind.",
+   "body": "At eighteen, Varian took the crown and faced the immense task of rebuilding his ruined kingdom. He hired Edwin VanCleef and the Stonemasons Guild to restore the capital. When the great work was done, the corrupt House of Nobles refused to pay the promised wages.\n\nThe stonemasons would not back down, and Varian could not settle the dispute between the entrenched nobility and the furious artisans. Soon, violence filled Stormwind's streets.",
    "spoiler": 0
   },
   {
    "title": "The Vanished King",
-   "body": "Seeking to defuse simmering tensions across the sea, Varian recently departed Stormwind on a private voyage to Theramore Isle for peace talks arranged by Lady Jaina Proudmoore. He never reached the summit. The king disappeared without a trace along the crossing, leaving Stormwind vulnerable, whispers of conspiracy spreading through the court, and the regency in the hands of Highlord Bolvar.",
+   "body": "Varian recently sailed from Stormwind toward Theramore Isle for peace talks arranged by Lady Jaina Proudmoore. He sought to ease tensions across the sea, but never reached the summit. During the crossing, the king vanished without a trace.\n\nStormwind is left vulnerable. Whispers of conspiracy spread through the court, and Highlord Bolvar holds the regency.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "is varian alive",
     "varian location"
    ],
-   "answer": "Officially, no one in Stormwind knows. Varian vanished while sailing across the Great Sea to Theramore for secret diplomatic talks."
+   "answer": "No one in Stormwind knows where Varian is. He vanished while sailing across the Great Sea to Theramore for secret diplomatic talks."
   },
   {
    "q": "Who is currently ruling Stormwind in his place?",
@@ -43,7 +43,7 @@
     "who is king now",
     "stormwind leader"
    ],
-   "answer": "His young son, Anduin Wrynn, holds the throne as the child-king. Because Anduin is only ten years old, real administrative and military authority rests with Highlord Bolvar Fordragon, who acts as regent, heavily influenced by the royal counselor Lady Katrana Prestor."
+   "answer": "Anduin Wrynn, Varian's ten-year-old son, holds the throne as child-king. Highlord Bolvar Fordragon carries the real administrative and military authority as regent, heavily influenced by royal counselor Lady Katrana Prestor."
   },
   {
    "q": "What troubled Varian's rebuilding of Stormwind?",
@@ -52,7 +52,7 @@
     "stonemason riots varian",
     "varian and the nobles"
    ],
-   "answer": "When the Stonemasons Guild finished rebuilding Stormwind, the House of Nobles refused to pay their promised wages. The dispute erupted into violent riots in the city's streets, and the exiled masons later became the Defias Brotherhood."
+   "answer": "When the Stonemasons Guild finished rebuilding Stormwind, the House of Nobles refused to pay the promised wages. Their dispute erupted into violent riots in the city's streets, and the exiled masons later became the Defias Brotherhood."
   },
   {
    "q": "Why was Varian going to Theramore?",
@@ -61,7 +61,7 @@
     "theramore summit",
     "varian peace talks"
    ],
-   "answer": "Varian was traveling to Theramore Isle at the invitation of Lady Jaina Proudmoore to attend a high-level diplomatic summit aimed at easing hostilities between the Alliance and Thrall's Horde."
+   "answer": "Varian was traveling to Theramore Isle at Lady Jaina Proudmoore's invitation for a high-level diplomatic summit. The talks aimed to ease hostilities between the Alliance and Thrall's Horde."
   },
   {
    "q": "How did Varian escape the First War?",
@@ -79,21 +79,21 @@
     "varian and arthas",
     "were arthas and varian friends"
    ],
-   "answer": "They grew up as close companions and rivals in Lordaeron while Varian lived in exile. The two princes often sparred together. However, Arthas's descent into madness, the murder of his father Terenas, and his betrayal of Lordaeron turned that past friendship into bitter hatred."
+   "answer": "Varian and Arthas Menethil grew up as close companions and rivals in Lordaeron while Varian lived in exile. The two princes often sparred together. Arthas's descent into madness, the murder of his father Terenas, and his betrayal of Lordaeron turned their past friendship to bitter hatred."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For humans of Stormwind, Varian is the beloved son of King Llane who returned from exile to rebuild their home; his sudden disappearance casts a shadow of dread over the entire realm."
+   "text": "As a human of Stormwind, you remember Varian as King Llane's beloved son, returned from exile to rebuild your home. His sudden disappearance casts dread over the realm."
   },
   {
    "target": "class:Warrior",
-   "text": "Trained by veteran knights and hardened by the horrors of the First War, King Varian is admired across the Alliance as a formidable warrior and a fierce martial leader."
+   "text": "As a warrior, you know King Varian trained with veteran knights and endured the horrors of the First War. Across the Alliance, he is admired as a formidable warrior and fierce martial leader."
   },
   {
    "target": "faction:Alliance",
-   "text": "Varian's absence leaves the Alliance without its strongest southern monarch, creating a political vacuum that emboldens dissidents and threatens border security from Westfall to Redridge."
+   "text": "As an Alliance member, you face a political vacuum with Varian absent. His absence emboldens dissidents and threatens border security from Westfall to Redridge."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Varian Wrynn"
- ]
+ ],
+ "style": 2
 }

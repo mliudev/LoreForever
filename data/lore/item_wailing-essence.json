@@ -10,11 +10,11 @@
    "quest:1491"
   ]
  },
- "summary": "Wailing Essence is a strange, concentrated substance found within the ectoplasms roaming deep inside the Wailing Caverns. Suspected of fueling the bizarre mutations spreading through the flora and fauna of the Barrens, it has drawn the attention of opportunistic alchemists eager to bottle its potent properties.",
+ "summary": "In the Wailing Caverns, Wailing Essence gathers within roaming ectoplasms. Alchemists seek its potent properties, while nearby druids dread the mutations spreading through the Barrens.",
  "sections": [
   {
    "title": "A Volatile Concoction",
-   "body": "The subterranean caverns beneath the central Barrens have grown thick with unnatural energy, warping beasts and giving rise to gelatinous ectoplasms. These oozing creatures concentrate a viscous substance known as Wailing Essence. While local druids observe these waters with growing dread, goblin entrepreneurs see only raw commercial opportunity. In the port town of Ratchet, an eccentric alchemist named Mebok Mizzyrix believes this essence is the missing active ingredient for a line of lucrative 'smart drinks' meant to enhance consumer intellect, utterly unconcerned with the nightmarish corruption it might actually harbor.",
+   "body": "Beneath the central Barrens, unnatural energy twists beasts and gives rise to gelatinous ectoplasms. Within them lies a viscous substance called Wailing Essence. Nearby druids watch the waters with growing dread, while goblin traders see a chance for profit.\n\nIn Ratchet, Mebok Mizzyrix believes the essence is the missing ingredient for a lucrative line of “smart drinks” meant to sharpen the mind. The eccentric alchemist gives little thought to the corruption they might carry.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "where to get wailing essence",
     "what drops wailing essence"
    ],
-   "answer": "It is gathered from the ectoplasmic slimes inside the Wailing Caverns, including devouring ectoplasms, evolving ectoplasms, and nightmare ectoplasms."
+   "answer": "Wailing Essence comes from ectoplasmic slimes in the Wailing Caverns. Devouring ectoplasms, evolving ectoplasms, and nightmare ectoplasms all hold it."
   },
   {
    "q": "Who wants this essence?",
@@ -35,7 +35,7 @@
     "who buys wailing essence",
     "wailing essence turn in"
    ],
-   "answer": "Mebok Mizzyrix, a goblin experimenter located in Ratchet, seeks the essence to brew a new formula of his intellect-boosting 'smart drinks.'"
+   "answer": "Mebok Mizzyrix, a goblin experimenter in Ratchet, wants the essence for a new formula of his intellect-boosting “smart drinks.”"
   },
   {
    "q": "What is the essence suspected of doing to the Barrens?",
@@ -44,7 +44,7 @@
     "is wailing essence dangerous",
     "wailing essence lore"
    ],
-   "answer": "Mebok suspects that the essence is the root cause behind the rapidly mutating wildlife and unnatural plant overgrowth observed spreading across the Barrens."
+   "answer": "Mebok suspects the essence makes wildlife mutate rapidly and unnatural plant growth spread across the Barrens."
   },
   {
    "q": "Is drinking Wailing Essence actually safe?",
@@ -52,13 +52,13 @@
     "can you drink wailing essence",
     "is smart drink safe"
    ],
-   "answer": "Given that it is extracted from corrupt, nightmare-tainted ectoplasms deep in a cursed cavern, consuming it in a commercial beverage is reckless at best, though typical for goblin entrepreneurial standards."
+   "answer": "Drinking Wailing Essence is reckless. It comes from corrupt, nightmare-tainted ectoplasms deep in a cursed cavern, yet Mebok plans to put it in a commercial drink."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "The existence of this essence points directly to the corrupting influence deep inside the Wailing Caverns, underscoring the urgent need to cleanse the Dream's taint."
+   "text": "As a druid, you can read Wailing Essence as a sign of corruption deep within the Wailing Caverns and of the urgent need to cleanse the Dream’s taint."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  "attribution": [
   "Wailing Essence",
   "Smart Drinks"
- ]
+ ],
+ "style": 2
 }

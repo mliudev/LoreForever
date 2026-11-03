@@ -17,16 +17,16 @@
   "wiki": "Sharptalon's Claw (Classic)",
   "chain": []
  },
- "summary": "Ashenvale's trails grow safer when Sharptalon's Claw is taken from the forest. Bring the trophy to Senani Thunderheart at Splintertree Post to prove Sharptalon has fallen and protect Horde supply lines.",
+ "summary": "In Ashenvale, Sharptalon's attacks put Horde supply lines at risk. Bring its claw to Senani Thunderheart at Splintertree Post as proof that the predator has fallen.",
  "sections": [
   {
    "title": "A Scourge of the Forest Trails",
-   "body": "Sharptalon hunts the paths to Splintertree Post as the Horde seeks resources in Ashenvale. The aggressive hippogryph strikes peons and couriers traveling between forward logging camps and the outpost. Its attacks hinder Horde work in the region, where night elven sentinels and dangerous wildlife both threaten the newcomers.",
+   "body": "Sharptalon hunts the paths to Splintertree Post while the Horde seeks resources in Ashenvale. The aggressive hippogryph strikes peons and couriers traveling between forward logging camps and the outpost. Its attacks hinder Horde work in the region. Night elven sentinels and dangerous wildlife threaten the newcomers as well.",
    "spoiler": 0
   },
   {
    "title": "Proof of the Hunt",
-   "body": "Senani Thunderheart, a tauren huntress, directs Horde hunters against Ashenvale's deadliest predators. Sharptalon's talon proves the hippogryph has fallen. Bring the trophy to Splintertree Post, where the outpost's defenders honor the hunt and frightened laborers can walk the woods with less fear.",
+   "body": "Senani Thunderheart, a tauren huntress, directs Horde hunters against Ashenvale's deadliest predators. Sharptalon's talon proves the hippogryph has fallen. Bring the trophy to Splintertree Post. The outpost's defenders honor the hunt, and frightened laborers can walk the woods with less fear.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "senani thunderheart trophy",
     "purpose of sharptalon's claw"
    ],
-   "answer": "Senani Thunderheart wants the claw as proof that Sharptalon, a predator threatening Horde workers and supply routes, has been killed."
+   "answer": "Senani Thunderheart wants the claw as proof Sharptalon has been killed. The predator threatens Horde workers and supply routes."
   },
   {
    "q": "Where do I turn in Sharptalon's Claw?",
@@ -72,7 +72,7 @@
     "ashenvale hunt chain",
     "quest chain sharptalon"
    ],
-   "answer": "Yes. It belongs to The Ashenvale Hunt, Senani Thunderheart's series of beast hunts, which ends with The Hunt Completed."
+   "answer": "Yes. It belongs to The Ashenvale Hunt, Senani Thunderheart's series of beast hunts. The series ends with The Hunt Completed."
   },
   {
    "q": "Who is Senani Thunderheart?",
@@ -86,7 +86,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you help secure trails for Warsong lumber operations and protect peons traveling between forward outposts and Splintertree Post."
+   "text": "As a member of the Horde, you help secure trails for Warsong lumber operations. You protect peons traveling between forward outposts and Splintertree Post."
   },
   {
    "target": "class:Hunter",
@@ -121,5 +121,5 @@
  "attribution": [
   "Sharptalon's Claw (Classic)"
  ],
- "style": 1
+ "style": 2
 }

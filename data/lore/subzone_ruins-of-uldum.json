@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Ruins of Uldum"
  },
- "summary": "Tucked into the jagged cliffs of the Valley of the Watchers in southern Tanaris, the Ruins of Uldum consist of an ancient stone hall guarding a sealed Titan facility. Massive stone doors protect its secrets from grave robbers and curious explorers alike.",
+ "summary": "In southern Tanaris, the Ruins of Uldum guard a sealed Titan facility beneath the cliffs of the Valley of the Watchers. Stone doors keep grave robbers and curious explorers from its secrets.",
  "sections": [
   {
    "title": "The Antechamber of the Titans",
-   "body": "Carved deep into the bedrock of southern Tanaris, the Ruins of Uldum appear to be an antechamber or grand threshold to a far larger, sealed subterranean complex. Its colossal stone gates stand shut against the outside world, and no mechanism or key known to modern scholars has managed to open them.",
+   "body": "Deep in southern Tanaris, a grand stone threshold leads into the bedrock toward a sealed underground complex. Colossal gates block the way, and no mechanism or key known to modern scholars has opened them.",
    "spoiler": 0
   },
   {
    "title": "Secrets of the Biosphere",
-   "body": "According to ancient records and celestial watchers, Uldum was established by the Titans alongside facilities like Uldaman and Ulduar as a research site dedicated to modifying and monitoring the biosphere of Azeroth. When the Great Sundering tore the world apart ten thousand years ago, the earthen felt the agony of the world and retreated into these subterranean vaults to hibernate. Full access beyond the ruins' sealed inner threshold requires the lost Plates of Uldum, leaving the full extent of the facility locked away from modern surface-dwellers.",
+   "body": "The Titans built Uldum to study Azeroth’s biosphere, alongside facilities such as Uldaman and Ulduar. When the Great Sundering tore the world apart ten thousand years ago, the earthen felt its agony and retreated into the vaults to hibernate. The lost Plates of Uldum are needed to pass the inner threshold, so the full facility remains closed to those on the surface.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "what is uldum tanaris",
     "ruins of uldum interior"
    ],
-   "answer": "No one knows for certain. The ruins are an ancient titan hall sealed behind massive stone gates, and the complex beyond them remains closed to modern explorers."
+   "answer": "No one knows for certain what lies beyond the gates. The ruins are an ancient Titan hall, and the complex behind them remains sealed to modern explorers."
   },
   {
    "q": "Can players enter the main facility behind the door?",
@@ -37,7 +37,7 @@
     "how to get into uldum",
     "open uldum door"
    ],
-   "answer": "No. The gates remain sealed. The Stone Watcher of Norgannon says entry into the Uldum compound is allowed only to those who carry the lost Plates of Uldum, and no one has yet found them."
+   "answer": "No. The gates remain sealed. The Stone Watcher of Norgannon says only those carrying the lost Plates of Uldum may enter the compound, and no one has found them."
   },
   {
    "q": "What was Uldum built for?",
@@ -46,17 +46,17 @@
     "uldum purpose",
     "lore of uldum"
    ],
-   "answer": "Titan constructs such as the Stone Watcher of Norgannon describe Uldum as a research complex intended to study, sustain, and enhance Azeroth's biosphere, similar in origin to sites like Uldaman and Ulduar."
+   "answer": "Uldum was built as a Titan research complex to study, sustain, and enhance Azeroth’s biosphere. The Stone Watcher of Norgannon describes it as similar in origin to Uldaman and Ulduar."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves tracing their lineage back to the earthen, Uldum represents one of the original titan cr\u00e8ches where their ancestors first rested following the Sundering."
+   "text": "As a dwarf descended from the earthen, you can trace your ancestors to one of the original Titan crèches. They first rested there after the Sundering."
   },
   {
    "target": "profession:Mining",
-   "text": "The stonework and machinery of Uldum showcase titan craftsmanship that has endured thousands of years of tectonic pressure and desert decay without faltering."
+   "text": "As a miner, you can see Titan craftsmanship in Uldum’s stonework and machinery. Both have endured thousands of years of tectonic pressure and desert decay without faltering."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Ruins of Uldum"
- ]
+ ],
+ "style": 2
 }

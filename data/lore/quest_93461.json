@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Shen'dar Village is steeped in the legacy and bloodlines of the ancient Highborne, making it an uneasy reminder of the pride and arcane heritage that splintered elven society."
+   "text": "As a night elf, you find Shen'dar Village tied to ancient Highborne bloodlines and legacy, a reminder of the pride and arcane heritage that divided elven society."
   },
   {
    "target": "class:Mage",
-   "text": "Mages with ties to Highborne traditions will find familiar lineage in the High Order, whose elders like Rathiril Sunlance command respect in Shen'dar."
+   "text": "As a mage with ties to Highborne traditions, you may recognize your lineage in the High Order. Its elders, including Rathiril Sunlance, command respect in Shen'dar."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "welcome to shendar village info",
     "shendar village intro"
    ],
-   "answer": "Welcome to Shen'dar Village is an introductory quest that acquaints newly arrived adventurers with the key figures and fragile peace of the settlement. You are directed to meet Rathiril Sunlance, the resident High Order elder, and Coriella Calmbreeze at the village inn before taking on local tasks.",
+   "answer": "You are welcomed to Shen'dar Village and introduced to its key figures and fragile peace. You meet Rathiril Sunlance, the High Order elder, and Coriella Calmbreeze at the village inn before taking on local work.",
    "q": "What is the purpose of the quest Welcome to Shen'dar Village?"
   },
   {
@@ -37,7 +37,7 @@
     "high order elder",
     "where is rathiril"
    ],
-   "answer": "Rathiril Sunlance is an elder of the High Order residing in Shen'dar Village. He is stationed in the main village lodge, just around the corner from the initial questgiver, and serves as a primary contact for those bearing Highborne lineage or dealing with the High Order.",
+   "answer": "Rathiril Sunlance is an elder of the High Order who lives in Shen'dar Village. He is in the main village lodge, around the corner from the one who first welcomes you, and is a contact for those with Highborne lineage or dealings with the High Order.",
    "q": "Who is Rathiril Sunlance?"
   },
   {
@@ -46,7 +46,7 @@
     "shendar innkeeper",
     "where to get lodging shendar"
    ],
-   "answer": "Coriella Calmbreeze runs the local inn in Shen'dar Village. She provides essential hospitality to travelers, offering food, lodging, and supplies for those preparing to venture into the surrounding wilds.",
+   "answer": "Coriella Calmbreeze runs the local inn in Shen'dar Village. She offers travelers food, lodging, and supplies before they venture into the surrounding wilds.",
    "q": "Who is Coriella Calmbreeze?"
   },
   {
@@ -55,7 +55,7 @@
     "why is there tension",
     "village conflict"
    ],
-   "answer": "Tensions run high between the High Order and the Windshapers due to differing traditions and ambitions. While both factions manage to maintain a civil coexistence within the borders of Shen'dar Village, that restraint ends at the village perimeter, where conflicts often spill into violence in the wilds.",
+   "answer": "The High Order and the Windshapers follow different traditions and ambitions, and tensions run high between them. They keep a civil peace within Shen'dar Village, but beyond its edge, conflict can spill into violence in the wilds.",
    "q": "What is the tension between the High Order and the Windshapers?"
   },
   {
@@ -64,7 +64,7 @@
     "highborne eyes",
     "highborne twinkle"
    ],
-   "answer": "Those descended from the Highborne are noted for a distinct twinkle in their eyes, an arcane inheritance that marks them out immediately to observant locals as having the look of the High Order.",
+   "answer": "Those descended from the Highborne have a distinct twinkle in their eyes. This arcane inheritance lets observant locals recognize the look of the High Order.",
    "q": "What is the High Order look mentioned by the questgiver?"
   },
   {
@@ -73,7 +73,7 @@
     "violence outside shendar",
     "wilds danger"
    ],
-   "answer": "Inside Shen'dar Village itself, civility is strictly enforced between rival factions like the High Order and Windshapers. Outside the settlement, however, no such peace holds, and open hostility often flares away from watchful eyes.",
+   "answer": "Civility is kept between the High Order and Windshapers inside Shen'dar Village. Outside the settlement, the peace ends, and open hostility flares away from watchful eyes.",
    "q": "Is Shen'dar Village safe from conflict?"
   }
  ],
@@ -92,18 +92,19 @@
  ],
  "sections": [
   {
-   "body": "Shen'dar Village serves as a delicate haven where differing elven factions coexist under a tense truce. Newcomers who show traces of Highborne blood are promptly sent to pay respects to the elder of the High Order, Rathiril Sunlance, inside the settlement's main lodge, and to secure lodging with the local innkeeper, Coriella Calmbreeze.",
+   "body": "Newcomers with traces of Highborne blood go to the main lodge to pay respects to Rathiril Sunlance, elder of the High Order. They also seek a room from Coriella Calmbreeze, the local innkeeper. Different elven factions share this haven, but their truce remains tense.",
    "spoiler": 0,
    "title": "A Fragile Hearth"
   },
   {
-   "body": "Beneath the mundane routine of lodgings and odd jobs lies simmering friction between two prominent groups: the High Order and the Windshapers. Although civility is strictly observed within the safety of the village square, animosity runs unchecked in the surrounding wilderness, where old rivalries are settled away from prying eyes.",
+   "body": "Daily life brings rooms and odd jobs, yet friction persists between the High Order and the Windshapers. In the village square, both groups observe civility. Beyond the settlement, away from prying eyes, old rivalries go unchecked.",
    "spoiler": 0,
    "title": "Rivalries of the Wilds"
   }
  ],
- "summary": "Welcome to Shen'dar Village introduces travelers to a remote haven shaped by ancient Highborne bloodlines and simmering factional rivalries. While the High Order and the Windshapers maintain an outward truce within the settlement, bitter tensions linger just beyond the village borders.",
+ "summary": "In Shen'dar Village, newcomers with Highborne blood are welcomed under a fragile truce. The High Order and Windshapers keep peace within the settlement, while old rivalries simmer beyond its borders.",
  "attribution": [
   "In-game quest text: Welcome to Shen'dar Village"
- ]
+ ],
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:1138"
   ]
  },
- "summary": "Fine Crab Chunks come from the Reef Crawlers and Encrusted Tide Crawlers along Darkshore's coast. Gubber Blump seeks them for his cooking.",
+ "summary": "Along Darkshore's coast, Reef Crawlers and Encrusted Tide Crawlers yield Fine Crab Chunks. Gubber Blump seeks them for his cooking.",
  "sections": [
   {
    "title": "Fruit of the Sea",
-   "body": "Reef Crawlers and Encrusted Tide Crawlers roam Darkshore's shores. Travelers may see them as pests or dangers by the water, while cooks prize their meat. The chunks can be boiled, broiled, fried, or added to stews.",
+   "body": "Reef Crawlers and Encrusted Tide Crawlers roam Darkshore's shores. By the water, travelers may find them pests or dangers, while cooks prize their meat. The chunks can be boiled, broiled, fried, or stirred into stews.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "who turns in crab chunks",
     "gubber blump crab"
    ],
-   "answer": "Gubber Blump, a fisherman on the docks of Auberdine, seeks Fine Crab Chunks for his crab dishes."
+   "answer": "Gubber Blump, a fisherman on Auberdine's docks, seeks Fine Crab Chunks for his crab dishes."
   },
   {
    "q": "Can you prepare these into actual meals?",
@@ -44,7 +44,7 @@
     "what can you make with fine crab chunks",
     "crab recipes"
    ],
-   "answer": "These raw chunks are collected for Gubber Blump rather than used directly in a recipe. Crab meat can be baked, barbecued, boiled, broiled, fried, or mixed into salads and stews."
+   "answer": "Gubber Blump collects these raw chunks rather than using them directly in a recipe. Crab meat can be baked, barbecued, boiled, broiled, fried, or mixed into salads and stews."
   }
  ],
  "angles": [
@@ -54,7 +54,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "Supplying Auberdine's dockside residents helps sustain the Alliance outpost in Darkshore."
+   "text": "Supplying the residents on Auberdine's docks helps sustain the Alliance outpost in Darkshore."
   }
  ],
  "keywords": [
@@ -78,5 +78,5 @@
   "Fine Crab Chunks",
   "Fruit of the Sea"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,11 +17,11 @@
   "wiki": "Murloc Poachers",
   "chain": []
  },
- "summary": "Along Lake Everstill, Murloc Poachers are stripping Lakeshire's waters of fish. Dockmaster Baren needs you to thin their swelling ranks before the town loses its main food supply.",
+ "summary": "Along Lake Everstill, murlocs are stripping Lakeshire's waters of fish. Dockmaster Baren asks you to thin their ranks before the town loses its main food supply.",
  "sections": [
   {
    "title": "A Threat to the Town's Pantry",
-   "body": "Dockmaster Baren needs you to protect the fish that feed Lakeshire. Lake Everstill supplies the mountain town and its market with fresh catches. Large tribes of murlocs now crowd the shallows and scour the waters for food. Left unchecked, they could wipe out the local fish and leave Lakeshire without its main food supply.",
+   "body": "Dockmaster Baren asks you to protect the fish that feed Lakeshire. Lake Everstill supplies the mountain town and its market with fresh catches. Large murloc tribes now crowd the shallows and scour the water for food. Left unchecked, they could wipe out the local fish and leave Lakeshire without its main food supply.",
    "spoiler": 0
   },
   {
@@ -56,7 +56,7 @@
     "murloc problem lakeshire",
     "lake everstill fish depleted"
    ],
-   "answer": "Lakeshire relies on Lake Everstill for fish and commerce. The murloc tribes are overfishing its waters, threatening the town's main food supply and local trade."
+   "answer": "Lakeshire relies on Lake Everstill for fish and commerce. Murloc tribes are overfishing its waters, threatening the town's main food supply and local trade."
   },
   {
    "q": "Why does Dockmaster Baren collect murloc fins?",
@@ -112,5 +112,5 @@
  "attribution": [
   "Murloc Poachers"
  ],
- "style": 1
+ "style": 2
 }

@@ -12,21 +12,21 @@
   "levels": "",
   "aliases": []
  },
- "summary": "The Badlands is an arid, sun-baked expanse of cracked earth, dust storms, and rocky canyons nestled between Loch Modan and Searing Gorge. Despite being deep within dwarven Khaz Modan, it serves as a volatile frontier dominated by Dark Iron dwarves, troggs, Dustbelcher ogres, and nesting black dragonkin. It also houses the titan ruins of Uldaman and the Horde stronghold of Kargath, making it a critical strategic waypoint.",
+ "summary": "Dust storms sweep across the Badlands, where rival forces hold ground in dwarven Khaz Modan. Dark Iron dwarves, troggs, Dustbelcher ogres, and black dragonkin crowd this frontier between Loch Modan and Searing Gorge. Uldaman's titan ruins and the Horde stronghold of Kargath make it a crossroads.",
  "sections": [
   {
    "title": "A Bleak Frontier",
-   "body": "Wedged south of Loch Modan's verdant hills, the Badlands quickly turns into a sweltering basin of barren flats and rugged ravines. Surviving here requires contending with merciless coyotes, cougars, vultures, and fierce sandstorms that obscure the horizon. Scattered across the plateaus are the crude encampments of the Dustbelcher ogres, while the brooding Dark Iron clan fortifies Angor Fortress and clashes with anyone trespassing on their territory.",
+   "body": "South of Loch Modan's green hills, you enter a hot basin of barren flats and rugged ravines. Coyotes, cougars, and vultures roam the land, and fierce sandstorms can hide the horizon. Dustbelcher ogres keep crude camps across the plateaus. At Angor Fortress, the Dark Iron clan fortifies its hold and clashes with anyone who trespasses.",
    "spoiler": 0
   },
   {
    "title": "The Secrets of Uldaman",
-   "body": "In the northern bluffs lies Uldaman, an ancient subterranean complex carved out by the titan-forged earthen. Recently uncovered by Ironforge prospectors, the excavation unearthed monumental secrets regarding the ancient ancestry of the dwarven race. However, digging into the subterranean vaults awoke hordes of vicious Stonevault troggs and animated earthen guardians, slaughtering archaeological teams and turning the digsites outside into bloody skirmish grounds.",
+   "body": "Among the northern bluffs lies Uldaman, an underground complex carved by the titan-forged earthen. Ironforge prospectors recently uncovered it, revealing monumental secrets about the ancient ancestry of the dwarven race. Their digging awoke hordes of vicious Stonevault troggs and animated earthen guardians. The creatures slaughtered the archaeological teams and turned the digsites outside into bloody skirmish grounds.",
    "spoiler": 0
   },
   {
    "title": "The Shadows of Kargath and Lethlor",
-   "body": "The Badlands is one of the Horde's most precarious footholds in the southern Eastern Kingdoms. Established in the northwest, the fortress of Kargath gives Warchief Thrall's forces a base of operations to keep watch on the rogue Dark Horde in nearby Blackrock Mountain. Meanwhile, to the far east lies Lethlor Ravine, a treacherous chasm where black whelps and dangerous black dragonkin guard their brooding grounds under the shadow of the mountains.",
+   "body": "The Horde holds one of its most precarious footholds in the southern Eastern Kingdoms here. Kargath, in the northwest, gives Warchief Thrall's forces a base to watch the rogue Dark Horde in nearby Blackrock Mountain. Far to the east, Lethlor Ravine cuts a treacherous chasm through the land. Beneath the mountains' shadow, black whelps and dangerous black dragonkin guard their brooding grounds.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "horde in badlands",
     "what is kargath"
    ],
-   "answer": "The outpost of Kargath was established by the Kargath Expeditionary Force on orders from Warchief Thrall. Stationed under Warlord Goretooth, the encampment provides the Horde a vital staging ground to strike against Rend Blackhand and his renegade Blackrock clan entrenched within Blackrock Mountain."
+   "answer": "Warchief Thrall ordered the Kargath Expeditionary Force to establish Kargath. Under Warlord Goretooth, the outpost gives the Horde a staging ground to strike Rend Blackhand and his renegade Blackrock clan inside Blackrock Mountain."
   },
   {
    "q": "How do you get to the Badlands?",
@@ -47,7 +47,7 @@
     "how to reach badlands",
     "badlands entrance"
    ],
-   "answer": "Alliance travelers can walk directly south from Loch Modan through the Maker's Terrace pass. Horde travelers face a longer trek on foot through the southern hills of Loch Modan or through Searing Gorge via the western mountain pass before unlocking Kargath's flight master."
+   "answer": "Alliance travelers can walk south from Loch Modan through the Maker's Terrace pass. Horde travelers must trek farther through Loch Modan's southern hills or cross Searing Gorge by its western mountain pass. Then they can use Kargath's flight master."
   },
   {
    "q": "What is Uldaman?",
@@ -56,7 +56,7 @@
     "uldaman dungeon lore",
     "who made uldaman"
    ],
-   "answer": "Uldaman is a massive underground vault built by the ancient titans and their earthen servants. Though recently excavated by dwarven prospectors seeking the secrets of dwarven origins, the dig awoke buried earthen constructs and primitive Stonevault troggs, turning the ruin into a lethal battleground."
+   "answer": "Uldaman is a vast underground vault built by the ancient titans and their earthen servants. Dwarven prospectors recently excavated it in search of the secrets of dwarven origins, awakening buried earthen constructs and primitive Stonevault troggs. The ruin is now a deadly battleground."
   },
   {
    "q": "What are the black dragons doing in Lethlor Ravine?",
@@ -65,7 +65,7 @@
     "lethlor ravine dragons",
     "black dragonflight badlands"
    ],
-   "answer": "Lethlor Ravine serves as an eastern breeding and nesting canyon for the black dragonflight. Guarded by drakes and whelps, the clutch maintains a dangerous presence near the mountains, preying upon wanderers and guarding the eastern reaches from trespassers."
+   "answer": "Black dragons use Lethlor Ravine in the east as a breeding and nesting canyon. Drakes and whelps guard the clutch, which preys on wanderers and guards the eastern reaches against trespassers."
   },
   {
    "q": "Who controls Angor Fortress?",
@@ -74,7 +74,7 @@
     "badlands fortress",
     "dark irons badlands"
    ],
-   "answer": "Angor Fortress is held by the hostile Dark Iron clan. Situated south of Uldaman, the fortress serves as a regional base where the Dark Irons conduct reconnaissance, contest the titan digsites, and battle neighboring ogres and surface explorers."
+   "answer": "The hostile Dark Iron clan holds Angor Fortress south of Uldaman. From there, the clan conducts reconnaissance, contests the titan digsites, and battles neighboring ogres and surface explorers."
   },
   {
    "q": "Are there any friendly settlements for Alliance players here?",
@@ -83,21 +83,21 @@
     "alliance flight path badlands",
     "friendly alliance badlands"
    ],
-   "answer": "No. The Badlands has no fortified Alliance settlements or flight masters. Ironforge prospectors and solitary hermits maintain scattered, fragile camps near the digsites, but Alliance adventurers must rely on bases in Loch Modan or Searing Gorge for extensive supplies."
+   "answer": "No fortified Alliance settlements or flight masters stand in the Badlands. Ironforge prospectors and solitary hermits keep scattered, fragile camps near the digsites. Alliance travelers must rely on Loch Modan or Searing Gorge for extensive supplies."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "The Badlands holds the answers to your very ancestry within Uldaman, where the discovery of the titan-forged earthen reshaped dwarven understanding of history."
+   "text": "As a dwarf, you can seek answers about your ancestry in Uldaman. Discoveries about the titan-forged earthen reshaped dwarven understanding of history."
   },
   {
    "target": "faction:Horde",
-   "text": "Kargath serves as your sole military sanctuary deep in Khaz Modan, acting as the frontline against the Dark Horde occupying Blackrock Mountain."
+   "text": "As a member of the Horde, you find your military sanctuary at Kargath, deep in Khaz Modan. The stronghold stands on the front line against the Dark Horde in Blackrock Mountain."
   },
   {
    "target": "profession:Mining",
-   "text": "The arid landscape is rich in iron, gold, truesilver, and mithril, including rare Indurium deposits found within Uldaman and the surrounding terrain."
+   "text": "As a miner, you can find iron, gold, truesilver, and mithril in this arid land. Rare Indurium deposits lie in Uldaman and the surrounding terrain."
   }
  ],
  "keywords": [
@@ -124,5 +124,6 @@
  "attribution": [
   "Badlands (Classic)",
   "Badlands"
- ]
+ ],
+ "style": 2
 }

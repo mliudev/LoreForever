@@ -24,16 +24,16 @@
    "Reassignment"
   ]
  },
- "summary": "At Southshore, Farren's Proof brings Lieutenant Farren Orinelle's report to Marshal Redpath. The murloc heads prove the work is done, though Farren will not carry them himself.",
+ "summary": "At Southshore, Lieutenant Farren Orinelle sends you to carry his report to Marshal Redpath. The murloc heads are proof of your work, but Farren will not carry them himself.",
  "sections": [
   {
    "title": "A Squeamish Officer",
-   "body": "Lieutenant Farren Orinelle patrols and secures Hillsbrad Foothills' southern coast, but the brutal work of frontier warfare turns his stomach. After you cull the murlocs along the beaches, he cannot bring himself to touch the severed heads you bring back as proof. He sends you across Southshore to deliver them to the town's command.",
+   "body": "Lieutenant Farren Orinelle patrols and secures the southern coast of Hillsbrad Foothills. Yet the harsh work of frontier warfare turns his stomach. After you cull the murlocs along the beaches, he cannot bring himself to touch the severed heads you bring back as proof. So he sends you across Southshore to deliver them to the town's command.",
    "spoiler": 0
   },
   {
    "title": "Report to Redpath",
-   "body": "Marshal Redpath oversees Southshore's defenses and military readiness as threats rise from Tarren Mill and wild beasts. He receives the sack of murloc heads from you instead of directly from Farren. Redpath knows you have become Farren's errand runner, but accepts the help. Southshore needs every willing hand to keep its borders safe.",
+   "body": "Marshal Redpath oversees Southshore's defenses and military readiness as threats rise from Tarren Mill and wild beasts. He receives the sack of murloc heads from you, rather than directly from Farren. Redpath knows you have become Farren's errand runner, but accepts your help. Southshore needs every willing hand to keep its borders safe.",
    "spoiler": 0
   }
  ],
@@ -63,7 +63,7 @@
     "farren's proof next quest",
     "redpath next quest"
    ],
-   "answer": "The delivery leads to more duties from Marshal Redpath and Lieutenant Farren, then official dispatches about troop deployments and paperwork sent to Stormwind."
+   "answer": "The delivery leads to more duties from Marshal Redpath and Lieutenant Farren. Then come official dispatches about troop deployments and paperwork sent to Stormwind."
   },
   {
    "q": "Why are murlocs a priority for Southshore's garrison?",
@@ -80,7 +80,7 @@
     "redpath opinion on farren",
     "does redpath like farren"
    ],
-   "answer": "Marshal Redpath knows Farren's habits and dryly remarks that you have become Farren's errand runner. He welcomes the help because Southshore is hard-pressed and needs capable hands."
+   "answer": "Marshal Redpath knows Farren's habits and dryly remarks that you have become Farren's errand runner. He welcomes your help because Southshore is hard-pressed and needs capable hands."
   },
   {
    "q": "Where is Marshal Redpath located in Southshore?",
@@ -89,7 +89,7 @@
     "where is marshal redpath",
     "redpath location"
    ],
-   "answer": "Marshal Redpath is near Southshore's town center and council building, overseeing the settlement's daily defenses."
+   "answer": "Marshal Redpath is near Southshore's town center and council building, where he oversees the settlement's daily defenses."
   }
  ],
  "angles": [
@@ -125,5 +125,5 @@
  "attribution": [
   "Farren's Proof (2)"
  ],
- "style": 1
+ "style": 2
 }

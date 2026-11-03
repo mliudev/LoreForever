@@ -21,16 +21,16 @@
    "Nogg's Ring Redo"
   ]
  },
- "summary": "In Orgrimmar, Nogg works to improve a ring recovered from Gnomeregan. He asks for rare materials and information about Dark Iron dwarves, eager to prove goblin craft superior to gnomish design.",
+ "summary": "In Orgrimmar, Nogg seeks to improve a ring brought from Gnomeregan. He wants rare materials and word of the Dark Iron dwarves, hoping to prove goblin craft finer than gnomish design.",
  "sections": [
   {
    "title": "Goblin Superiority",
-   "body": "You bring a cleaned gold ring from Gnomeregan to Nogg's workshop in the Valley of Honor. The goblin engineer takes one look at its modest gnomish craft and offers a bargain. Bring raw materials and a modest fee, and he will add an intricate lattice of silver and moss agate to the band, meant to amplify the magic within it.",
+   "body": "You carry a cleaned gold ring from Gnomeregan to Nogg's workshop in the Valley of Honor. The goblin engineer studies its plain gnomish work and offers a bargain. Bring him raw materials and a small fee, and he will frame the band with silver and moss agate. The lattice is meant to strengthen the magic within.",
    "spoiler": 0
   },
   {
    "title": "A Dwarven Angle",
-   "body": "Nogg's offer has more behind it than business. Reports of Dark Iron dwarves inside the besieged gnome city have caught his attention. To Nogg, their presence may explain how gnomes came by sudden bursts of mechanical skill, a field goblins consider their own. Your information earns an improved ring and Nogg's grudging respect.",
+   "body": "Nogg's offer reaches beyond trade. He has heard that Dark Iron dwarves are inside the besieged gnome city. Their presence may explain the sudden leaps in mechanical skill among gnomes, a craft goblins claim as their own. Your information brings an improved ring and Nogg's grudging respect.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "nogg orgrimmar",
     "nogg npc"
    ],
-   "answer": "Nogg is a goblin engineer working in Orgrimmar's Valley of Honor. He works with fellow tinkerers in the Drag and Valley of Honor, handling curious mechanical artifacts and schematics recovered from dangerous expeditions."
+   "answer": "Nogg is a goblin engineer in Orgrimmar's Valley of Honor. He works with fellow tinkerers in the Drag and Valley of Honor, examining curious mechanical artifacts and schematics brought back from dangerous expeditions."
   },
   {
    "q": "What materials are needed to reforge the ring?",
@@ -51,7 +51,7 @@
     "nogg materials",
     "what does nogg need"
    ],
-   "answer": "Nogg asks for the original Brilliant Gold Ring, one Silver Bar, one Moss Agate, and thirty silver coins for his work and workshop expenses."
+   "answer": "Nogg asks for the original Brilliant Gold Ring, one Silver Bar, one Moss Agate, and thirty silver coins to cover his work and workshop expenses."
   },
   {
    "q": "Why is Nogg interested in Gnomeregan?",
@@ -59,7 +59,7 @@
     "why nogg care about gnomeregan",
     "gnomeregan goblin interest"
    ],
-   "answer": "Gnomeregan holds great technological value. Goblins compete fiercely with gnomes in technical fields, and Nogg is intrigued by rumors that Dark Iron dwarves were involved in the technological anomalies inside the fallen techno-city."
+   "answer": "Gnomeregan holds great technological value. Goblins compete fiercely with gnomes in technical fields, and Nogg wonders if Dark Iron dwarves were involved in the technological anomalies inside the fallen techno-city."
   },
   {
    "q": "What does Nogg actually do to the ring?",
@@ -67,7 +67,7 @@
     "ring upgrade lore",
     "what changes on the ring"
    ],
-   "answer": "Nogg builds a silver and moss agate lattice around the gold band. The framework channels and steadies the enchantments within the ring, making it stronger than the original gnomish design."
+   "answer": "Nogg builds a lattice of silver and moss agate around the gold band. The framework channels and steadies the ring's enchantments, making it stronger than the original gnomish design."
   },
   {
    "q": "Where does this quest chain start?",
@@ -76,7 +76,7 @@
     "how to start nogg quest",
     "ring questline start"
    ],
-   "answer": "The chain begins deep in Gnomeregan. You find a Grime-Encrusted Ring on a Dark Iron dwarf and clean it with the Sparklematic 5200 machine."
+   "answer": "The chain begins deep in Gnomeregan. You find a Grime-Encrusted Ring on a Dark Iron dwarf, then clean it with the Sparklematic 5200 machine."
   },
   {
    "q": "Why does Nogg suspect Dark Iron dwarves?",
@@ -84,21 +84,21 @@
     "why dark irons",
     "dark iron dwarf connection"
    ],
-   "answer": "Goblin engineers distrust gnomish innovation. Nogg suspects any sudden leap in gnomish mechanical skill came from outside meddling, especially from the scheming Dark Iron clan."
+   "answer": "Goblin engineers distrust gnomish innovation. Nogg suspects outside meddling behind any sudden leap in gnomish mechanical skill, especially by the scheming Dark Iron clan."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you see the rivalry between goblin ingenuity and gnomish gadgetry. Goblins modify existing devices aggressively to get the most from them."
+   "text": "As an engineer, you see the rivalry between goblin ingenuity and gnomish gadgetry. Goblins alter existing devices boldly to get the most from them."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you can bring technology from Alliance-aligned halls like Gnomeregan to Orgrimmar's tinkerers, giving the Horde insight into enemy capabilities."
+   "text": "As a member of the Horde, you can bring technology from Alliance-aligned halls like Gnomeregan to Orgrimmar's tinkerers. That gives the Horde insight into its enemies' capabilities."
   },
   {
    "target": "profession:Mining",
-   "text": "As a miner, you can help provide the valuable materials Nogg needs: a refined silver bar and a moss agate, gathered through mining and gem-cutting."
+   "text": "As a miner, you can help supply Nogg with a refined silver bar and a moss agate, gathered through mining and gem-cutting."
   }
  ],
  "keywords": [
@@ -123,5 +123,5 @@
  "attribution": [
   "Nogg's Ring Redo"
  ],
- "style": 1
+ "style": 2
 }

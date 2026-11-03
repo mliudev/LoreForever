@@ -17,16 +17,16 @@
   "wiki": "Wanted - Arnak Grimtotem",
   "chain": []
  },
- "summary": "Wanted: Arnak Grimtotem is a Horde bounty posted at Freewind Post demanding the execution of a violent Grimtotem exile. Arnak is targeted by the local authorities for murder and kidnapping on the mesas above the canyon.",
+ "summary": "At Freewind Post, a Horde bounty calls for Arnak Grimtotem’s death. The authorities seek the violent Grimtotem exile for murder and kidnapping on the mesas above the canyon.",
  "sections": [
   {
    "title": "A Gruesome Crime",
-   "body": "While tensions between the mainstream tauren of the Horde and the reclusive Grimtotem tribe are perpetually strained, Arnak took matters far beyond political friction. Branded an outcast, Arnak murdered a tauren and abducted the victim's sister, Lakota Windsong. In response to these heinous acts, Cliffwatcher Longhorn of Freewind Post sanctioned an open bounty calling for the rogue tauren's death.",
+   "body": "Tauren of the Horde and the reclusive Grimtotem have long been at odds. Arnak worsened that strife by murdering a tauren and abducting the victim’s sister, Lakota Windsong. Branded an outcast, he drew the notice of Cliffwatcher Longhorn at Freewind Post. Longhorn sanctioned an open bounty calling for Arnak’s death.",
    "spoiler": 0
   },
   {
    "title": "Darkcloud Pinnacle",
-   "body": "Arnak took refuge upon the high crags of Darkcloud Pinnacle, an extensive network of rope bridges and mesa encampments occupied by the Grimtotem clan near the entrance to Razorfen Downs. Trapped upon these windswept heights alongside Arnak is his captive, Lakota Windsong, awaiting rescue from anyone brave enough to fight across the Grimtotem bridges.",
+   "body": "Arnak has taken refuge on the high northern cliff mesas of Darkcloud Pinnacle. Grimtotem encampments spread across the high crags near the entrance to Razorfen Downs, linked by rope bridges. Lakota Windsong is held captive there and waits for rescue. Anyone who reaches her must cross the Grimtotem bridges.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "arnak grimtotem lore",
     "who is the wanted tauren"
    ],
-   "answer": "Arnak Grimtotem is a notorious tauren outcast who committed murder and kidnapped Lakota Windsong. His violent crimes prompted Freewind Post to put a bounty on his head."
+   "answer": "Arnak Grimtotem is a tauren outcast who murdered a tauren and kidnapped Lakota Windsong. His crimes led Freewind Post to put a bounty on his head."
   },
   {
    "q": "Where can Arnak Grimtotem be found?",
@@ -47,7 +47,7 @@
     "arnak grimtotem location",
     "how to find arnak"
    ],
-   "answer": "He is located high up on the northern cliff mesas of Darkcloud Pinnacle in Thousand Needles, accessible by ascending the winding path south of the Great Lift and crossing the high wooden bridges toward Razorfen Downs."
+   "answer": "Arnak is high on the northern cliff mesas of Darkcloud Pinnacle in Thousand Needles. Reach the winding path south of the Great Lift, then cross the high wooden bridges toward Razorfen Downs."
   },
   {
    "q": "Who is Lakota Windsong?",
@@ -55,7 +55,7 @@
     "who is lakota",
     "lakota windsong story"
    ],
-   "answer": "Lakota Windsong is a tauren captive held by Arnak on Darkcloud Pinnacle. Her brother was murdered by Arnak during her abduction, and she remains stranded on the mesa until Arnak is dealt with."
+   "answer": "Lakota Windsong is a tauren captive held by Arnak on Darkcloud Pinnacle. Arnak murdered her brother during her abduction, and she remains stranded on the mesa until he is dealt with."
   },
   {
    "q": "Who offers the bounty reward?",
@@ -64,7 +64,7 @@
     "bounty turn in",
     "cliffwatcher longhorn reward"
    ],
-   "answer": "Cliffwatcher Longhorn in Freewind Post manages the bounty. He rewards travelers who present Arnak's severed hoof as proof that the rogue tauren has been brought to justice."
+   "answer": "Cliffwatcher Longhorn at Freewind Post manages the bounty. He rewards travelers who bring Arnak’s severed hoof as proof that the rogue tauren has been brought to justice."
   },
   {
    "q": "Is Arnak officially working for the Grimtotem tribe?",
@@ -72,7 +72,7 @@
     "is arnak with grimtotem",
     "arnak tribe status"
    ],
-   "answer": "The bounty specifically describes Arnak as an outcast, indicating he has acted beyond any tribal law. Nevertheless, he has taken refuge within the Grimtotem stronghold of Darkcloud Pinnacle."
+   "answer": "The bounty calls Arnak an outcast, showing he acted beyond tribal law. He has taken refuge within the Grimtotem stronghold of Darkcloud Pinnacle."
   },
   {
    "q": "What proof is required to claim the bounty?",
@@ -81,17 +81,17 @@
     "arnak proof",
     "arnaks hoof"
    ],
-   "answer": "Hunters must sever and return Arnak's Hoof to Cliffwatcher Longhorn at Freewind Post to verify his death and receive the bounty."
+   "answer": "Hunters must sever and return Arnak’s Hoof to Cliffwatcher Longhorn at Freewind Post to verify his death and receive the bounty."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For tauren loyal to Cairne Bloodhoof, tracking down Arnak is an act of tribal justice, punishing a kinslayer who dishonored their traditions by abducting Lakota Windsong."
+   "text": "As a tauren loyal to Cairne Bloodhoof, you can see tracking down Arnak as tribal justice. He is a kinslayer who dishonored tauren traditions by abducting Lakota Windsong."
   },
   {
    "target": "faction:Horde",
-   "text": "Freewind Post serves as the Horde's vital lifeline through Thousand Needles, and eliminating ruthless renegades on Darkcloud Pinnacle secures the heights along the canyon floor."
+   "text": "Freewind Post is the Horde’s lifeline through Thousand Needles. By eliminating renegades on Darkcloud Pinnacle, you secure the heights along the canyon floor."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Wanted - Arnak Grimtotem"
- ]
+ ],
+ "style": 2
 }

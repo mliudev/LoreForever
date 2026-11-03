@@ -10,16 +10,16 @@
    "quest:220"
   ]
  },
- "summary": "In the southern Barrens, Brine blesses a vial of pure water for a shaman initiate. Its contents help Islen Waterseer prepare a water sapta for seeing elemental spirits.",
+ "summary": "In the southern Barrens, Brine blesses pure water for a shaman initiate. Islen Waterseer needs it to prepare a water sapta that lets the initiate see elemental spirits.",
  "sections": [
   {
    "title": "A Purified Offering",
-   "body": "Brine guides the initiate through trials of patience and cleansing before sealing the water in the vial. The water holds an uncorrupted elemental purity. Carry it across the Barrens to Islen Waterseer, who keeps watch on a solitary shore. She needs it to brew a water sapta. Without such pure water, a shaman cannot commune with spiritual guardians in places far from the sunbaked flats.",
+   "body": "Brine leads the initiate through trials of patience and cleansing, then seals the water in the vial. Its purity is untouched by corruption. Carry it across the Barrens to Islen Waterseer, who watches over a solitary shore. She needs the water to brew a water sapta, for only such pure water lets a shaman commune with spiritual guardians far from the sunbaked flats.",
    "spoiler": 0
   },
   {
    "title": "Path to the Water Totem",
-   "body": "Islen uses the blessed water to test the initiate’s dedication and open their senses to hidden elements. She blends some into a sapta, which reveals spirits at a distant shrine in Silverpine Forest. She keeps the remaining drops for confronting and cleansing a rogue manifestation elsewhere. Carrying the vial marks a turning point: the initiate moves from humble chores to facing elemental realities directly.",
+   "body": "Islen Waterseer uses the blessed water to test the initiate’s dedication and open their senses to hidden elements. She blends some into a sapta, which reveals spirits at a distant shrine in Silverpine Forest. She keeps the remaining drops to confront and cleanse a rogue manifestation elsewhere. With the vial, the initiate leaves humble chores behind and faces elemental realities directly.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what does the vial do",
     "use of purest water"
    ],
-   "answer": "The vial holds water cleansed and blessed for a shaman initiate. Islen Waterseer uses it to brew a water sapta, which grants the spiritual sight needed to perceive water elementals, and for further ritual trials required to earn the Water Totem."
+   "answer": "The vial holds water cleansed and blessed for a shaman initiate. Islen Waterseer uses it to brew a water sapta, granting the spiritual sight needed to perceive water elementals. She also uses the water in further ritual trials required to earn the Water Totem."
   },
   {
    "q": "Who prepares the water inside the vial?",
@@ -40,7 +40,7 @@
     "who fills the vial",
     "brine water"
    ],
-   "answer": "The shaman gathers the water under Brine’s direction. Brine is an orc shaman hermit deep in the southern Barrens; after the initiate’s trials, Brine blesses and seals the purified water in the vial for transport."
+   "answer": "The shaman gathers the water under Brine’s direction. Brine is an orc shaman hermit deep in the southern Barrens. After the initiate’s trials, Brine blesses and seals the purified water in the vial for transport."
   },
   {
    "q": "Where does the vial need to be taken?",
@@ -93,5 +93,5 @@
   "Vial of Purest Water",
   "Call of Water (6)"
  ],
- "style": 1
+ "style": 2
 }

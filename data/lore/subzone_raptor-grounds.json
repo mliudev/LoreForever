@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Raptor Grounds"
  },
- "summary": "In the southern Barrens, Sunscale raptors claim a secluded valley in the rocky hills west of Northwatch Hold. Their eerie, tool-using cunning and obsessive theft of bright trinkets set them apart from ordinary beasts.",
+ "summary": "In the southern Barrens, Sunscale raptors claim the Raptor Grounds, a secluded valley west of Northwatch Hold. Their tool-making cunning and hunger for bright trinkets set them apart from ordinary beasts.",
  "sections": [
   {
    "title": "Uncanny Beasts of the Southern Wastes",
-   "body": "West of Northwatch Hold, Sunscale raptors make their home in the Raptor Grounds. Eerie and far from ordinary beasts, they fashion crude shelters, make primitive tools, and coordinate their hunts. Their obsessive fascination with shiny or unusual things drives them to raid passing caravans and Horde encampments. Coins, trinkets, and supplies disappear into their canyon dens.",
+   "body": "West of Northwatch Hold, Sunscale raptors make their home in the Raptor Grounds. They build crude shelters and fashion primitive tools. They hunt together with uncanny skill, far beyond ordinary beasts. Their hunger for shiny or unusual things sends them against passing caravans and Horde encampments. Coins, trinkets, and supplies vanish into their canyon dens.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where are the raptor grounds",
     "raptor grounds map"
    ],
-   "answer": "The Raptor Grounds is a small, sunken valley in the southern Barrens, in the rocky hills west of Northwatch Hold."
+   "answer": "The Raptor Grounds is a small, sunken valley in the southern Barrens, among rocky hills west of Northwatch Hold."
   },
   {
    "q": "Why are the raptors here different from normal beasts?",
@@ -32,7 +32,7 @@
     "why do raptors have huts",
     "smart raptors barrens"
    ],
-   "answer": "Sunscale raptors show an unnatural degree of intelligence. They assemble primitive tools and build crude huts to shelter their pack and hide stolen goods."
+   "answer": "Sunscale raptors show an unnatural degree of intelligence. They make primitive tools and crude huts to shelter their pack and hide stolen goods."
   },
   {
    "q": "Why do the raptors attack caravans and steal items?",
@@ -41,7 +41,7 @@
     "why do raptors steal",
     "raptor shiny things"
    ],
-   "answer": "The pack has an obsessive attraction to shiny, glittering, or unusual objects. That fascination drives the raptors to ambush travelers and raid Horde settlements, hoarding stolen coin and metal deep in their valley."
+   "answer": "Sunscale raptors obsess over shiny, glittering, or unusual objects. That fascination drives them to ambush travelers and raid Horde settlements, then hoard stolen coin and metal deep in their valley."
   },
   {
    "q": "Who controls this valley?",
@@ -49,17 +49,17 @@
     "who owns raptor grounds",
     "is raptor grounds horde"
    ],
-   "answer": "Neither faction holds the valley. It remains the untamed hunting and nesting ground of the wild Sunscale raptors, who fiercely defend it against intruders."
+   "answer": "Neither faction holds the valley. It remains the wild Sunscale raptors' hunting and nesting ground, and they fiercely defend it against intruders."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Sunscale raptors threaten Horde caravans and outposts across the southern Barrens, prompting bounties and expeditions to recover stolen wealth."
+   "text": "Sunscale raptors threaten Horde caravans and outposts across the southern Barrens. Bounties and expeditions seek to recover the stolen wealth."
   },
   {
    "target": "class:Hunter",
-   "text": "As a Hunter, you may find the Sunscale pack’s unusual cunning, coordinated hunts, and rudimentary shelters fascinating to study as a tracker."
+   "text": "As a Hunter, you may find the Sunscale pack's unusual cunning, coordinated hunts, and simple shelters fascinating to study as a tracker."
   }
  ],
  "keywords": [
@@ -78,5 +78,5 @@
  "attribution": [
   "Raptor Grounds"
  ],
- "style": 1
+ "style": 2
 }

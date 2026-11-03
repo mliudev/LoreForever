@@ -17,16 +17,16 @@
   "wiki": "Hardened Shells",
   "chain": []
  },
- "summary": "At the Mirage Raceway in the Shimmering Flats, the gnome tinkerer Wizzle Brassbolts worries his brother's potent new rocket fuel will dissolve their racer from the inside out. To prevent a catastrophe on the salt flats, Wizzle enlists passersby to harvest hardened shells from the local tortoises to craft an impervious fuel tank.",
+ "summary": "At the Mirage Raceway, Wizzle Brassbolts fears his brother’s fuel will eat through their racer. He seeks tortoise shells to shield the tanks.",
  "sections": [
   {
    "title": "Volatile Innovations",
-   "body": "Out in the blinding heat of the Shimmering Flats, the rivalry between gnome and goblin engineers pushes mechanical ambition to reckless extremes. Wizzle Brassbolts and his brother are determined to dominate the Mirage Raceway with their custom rocket car. However, his brother's experimental fuel mixture is showing signs of being far too potent. Fearing that the corrosive concoction will melt straight through the vehicle's standard chassis and tanks, Wizzle scrambles to find a container tough enough to survive the run.",
+   "body": "At the Mirage Raceway, Wizzle Brassbolts and his brother race to outdo goblin engineers. Their custom rocket car runs on an experimental fuel mixture his brother has made. The mixture is so potent that Wizzle fears it will eat through the car’s usual chassis and tanks. He needs a container sturdy enough to hold it across the Shimmering Flats.",
    "spoiler": 0
   },
   {
    "title": "Desert Armored Solutions",
-   "body": "Rather than relying on refined metals that might dissolve under chemical strain, Wizzle turns to the natural adaptations of the salt flats. The native tortoises roaming Thousand Needles possess shells remarkably resistant to harsh elements and mechanical wear. By gathering these hardened carapaces, Wizzle hopes to fashion custom fuel tanks resilient enough to hold the volatile mixture without blowing the rocket car to pieces.",
+   "body": "Wizzle turns to the tortoises native to Thousand Needles. Their shells resist harsh elements and mechanical wear, so they may hold where refined metal fails. He hopes to gather the hardened shells and shape them into fuel tanks. They must contain the volatile mixture and keep the rocket car from blowing to pieces.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why tortoise shells",
     "fuel tank shell"
    ],
-   "answer": "His brother is brewing an experimental rocket fuel that is corrosive enough to dissolve metal. Wizzle believes the natural, ultra-hard shells of the local tortoises will withstand the chemical wear better than standard tanks."
+   "answer": "Wizzle’s brother is brewing experimental rocket fuel that can dissolve metal. Wizzle hopes local tortoise shells will endure the chemical strain better than standard tanks."
   },
   {
    "q": "Who is Wizzle Brassbolts?",
@@ -46,7 +46,7 @@
     "wizzle",
     "who is wizzle"
    ],
-   "answer": "Wizzle is a gnome engineer stationed at the Mirage Raceway in the Shimmering Flats. He works alongside his brother to build and fine-tune their high-speed rocket car to outrace their goblin competitors."
+   "answer": "Wizzle Brassbolts is a gnome engineer at the Mirage Raceway in the Shimmering Flats. He and his brother build and fine-tune a rocket car to outrun their goblin competitors."
   },
   {
    "q": "Where can the tortoises be found?",
@@ -55,7 +55,7 @@
     "where are the turtles",
     "where to get hardened shells"
    ],
-   "answer": "The tortoises wander openly across the vast salt pan of the Shimmering Flats, with particularly dense gatherings basking near the old shipwreck in the northeastern section."
+   "answer": "Tortoises roam the Shimmering Flats salt pan, with dense gatherings near the old shipwreck in the northeast."
   },
   {
    "q": "Is this an Alliance or Horde quest?",
@@ -63,7 +63,7 @@
     "is hardened shells neutral",
     "alliance or horde"
    ],
-   "answer": "It is completely neutral. The Mirage Raceway operates outside faction warfare, focusing on engineering competitions, allowing both Alliance and Horde adventurers to assist Wizzle."
+   "answer": "The Mirage Raceway operates outside faction warfare and focuses on engineering competitions. Adventurers of either faction can help Wizzle."
   },
   {
    "q": "What happens once the shells are delivered?",
@@ -71,7 +71,7 @@
     "wizzle shell result",
     "what does wizzle do with shells"
    ],
-   "answer": "Wizzle eagerly begins fabricating them into reinforced fuel tanks, though he quickly realizes the shells are so durable he will likely ruin an entire toolbox carving them into shape."
+   "answer": "Once the shells arrive, Wizzle begins shaping them into reinforced fuel tanks. They are so durable that he expects to ruin a toolbox carving them."
   },
   {
    "q": "Why is fuel tank failure such a concern on the flats?",
@@ -79,17 +79,17 @@
     "rocket car danger",
     "why worried about fuel"
    ],
-   "answer": "Rocket cars travel at terrifying speeds across the salt. Wizzle fears his brother's new fuel is strong enough to eat right through the car's chassis, so he wants the fuel tanks reinforced before that happens."
+   "answer": "Rocket cars race at terrifying speeds across the salt. Wizzle fears his brother’s fuel could eat through the car’s chassis, so he wants reinforced tanks before that happens."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Using organic armor plates to house volatile compounds is unorthodox, highlighting the eccentric trial-and-error approach gnomish tinkerers rely on under pressure."
+   "text": "Using organic armor plates to contain volatile compounds is an unorthodox choice. It shows the trial and error gnomish tinkerers rely on under pressure."
   },
   {
    "target": "race:Gnome",
-   "text": "Brotherly ingenuity and reckless scientific ambition meet head-on here, capturing the gnomish drive to out-innovate goblin rivals no matter the logistical hurdle."
+   "text": "Brotherly ingenuity and reckless scientific ambition meet here. The work captures the gnomish drive to out-innovate goblin rivals despite every logistical hurdle."
   }
  ],
  "keywords": [
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "Hardened Shells"
- ]
+ ],
+ "style": 2
 }

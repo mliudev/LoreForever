@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Northshire Abbey serves as the cradle for fresh Alliance recruits in Elwynn Forest, where even small errands like recovering stolen abbey property help secure the local valley."
+   "text": "As an Alliance recruit in Elwynn Forest, you help secure Northshire Valley by recovering property stolen from Northshire Abbey."
   },
   {
    "target": "race:Human",
-   "text": "The library inside Northshire Abbey preserves local clerical and historical knowledge for the kingdom of Stormwind, making the recovery of missing tomes personal to the residents of Northshire."
+   "text": "As a human, you share an interest in Northshire Abbey's library, which preserves clerical and historical knowledge for the kingdom of Stormwind."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "nibbled book lore",
     "what book did the kobold drop"
    ],
-   "answer": "The Nibbled-On Book is a library volume stolen from Northshire Abbey by infesting kobolds. When recovered, it bears distinct teeth marks, suggesting the subterranean pests may have mistaken parchment and leather binding for a source of nourishment.",
+   "answer": "Kobolds stole the volume from Northshire Abbey. Its cover bears tooth marks, as though the scavengers mistook its parchment and leather binding for food.",
    "q": "What is the Nibbled-On Book?"
   },
   {
@@ -37,7 +37,7 @@
     "why are kobolds eating books",
     "kobold diet books"
    ],
-   "answer": "While kobolds are primarily subterranean scavengers obsessed with candles and mining, they frequently hoard or gnaw on whatever items they can scavenge. Brother Paxton laments that the pests seem to actively steal his books with the intention of chewing on or eating them.",
+   "answer": "The tooth marks suggest the kobolds tried to chew or eat the book. They scavenge what they find, and Brother Paxton says they steal his books to gnaw on them.",
    "q": "Why did the kobolds try to eat the book?"
   },
   {
@@ -46,7 +46,7 @@
     "paxton northshire",
     "abbey librarian"
    ],
-   "answer": "Brother Paxton is a cleric residing inside Northshire Abbey who maintains the abbey's modest library and collection of texts. He is distressed by kobolds sneaking into the abbey to pilfer books from his shelves.",
+   "answer": "Brother Paxton is a cleric at Northshire Abbey who cares for its modest library. Kobolds sneaking into the abbey and taking books from his shelves distress him.",
    "q": "Who is Brother Paxton?"
   },
   {
@@ -55,7 +55,7 @@
     "where does paxton keep books",
     "northshire library"
    ],
-   "answer": "The book belongs on the shelves of the small library maintained by Brother Paxton within Northshire Abbey, located in the secluded Northshire Valley of Elwynn Forest.",
+   "answer": "The book came from the small library Brother Paxton keeps inside Northshire Abbey, in Northshire Valley of Elwynn Forest.",
    "q": "Where did the book originally come from?"
   },
   {
@@ -64,7 +64,7 @@
     "rest of the collection",
     "did kobolds steal more books"
    ],
-   "answer": "Yes, upon receiving the returned volume, Brother Paxton notes with concern that the kobolds have been repeatedly stealing from his shelves and wonders what he will do about the rest of his missing collection.",
+   "answer": "Yes. Brother Paxton worries that kobolds have repeatedly stolen from his shelves. He wonders what to do about the rest of his missing collection.",
    "q": "Are there other missing books from the abbey's library?"
   },
   {
@@ -73,7 +73,7 @@
     "who wants the nibbled book",
     "return book to paxton"
    ],
-   "answer": "The recovered book must be returned directly to Brother Paxton inside Northshire Abbey, who inspects the tooth-marked cover and places it back into his care.",
+   "answer": "Return the recovered book to Brother Paxton inside Northshire Abbey. He inspects its tooth-marked cover and takes it back into his care.",
    "q": "Who should the book be returned to?"
   }
  ],
@@ -92,18 +92,19 @@
  ],
  "sections": [
   {
-   "body": "Among the subterranean pests troubling Northshire Valley, kobolds are notorious scavengers known for dragging off anything left unguarded. When an adventurer recovers a chewed tome dropped by a slain kobold, it becomes evident that the creature was not merely hoarding shiny trinkets, but actively trying to gnaw through the cover and parchment. The text clearly originates from the library shelves of nearby Northshire Abbey, bearing marks from the pests' voracious appetites.",
+   "body": "Kobolds in Northshire Valley scavenge what they find left unguarded. You recover a chewed tome from a slain kobold, its cover torn and its parchment marked by teeth. The book came from the library shelves of nearby Northshire Abbey. Valley kobolds have been taking volumes from there.",
    "spoiler": 0,
    "title": "A Chewed Tome"
   },
   {
-   "body": "Inside Northshire Abbey, Brother Paxton diligently tends to a small library intended for the quiet contemplation and instruction of the Brotherhood of Northshire. Unfortunately, the brazen vermin creeping around the valley have developed a troublesome habit of slipping in and snatching volumes straight off the shelves. While Brother Paxton is grateful to recover this particular nibbled volume, he remains anxious about the rest of his scattered collection still missing in the hands of the valley's pests.",
+   "body": "Brother Paxton tends the small library inside Northshire Abbey, where the Brotherhood of Northshire reads and studies. Kobolds from the valley slip inside and snatch books from the shelves. Paxton is grateful to have this nibbled volume back. Yet he worries about the rest of his collection still missing in kobold hands.",
    "spoiler": 0,
    "title": "Brother Paxton's Plight"
   }
  ],
- "summary": "The Nibbled-On Book is a volume from Northshire Abbey's library recovered from kobold scavengers in Northshire Valley. Bearing the tooth marks of a confused or ravenous creature, it must be returned to Brother Paxton to preserve the abbey's modest collection.",
+ "summary": "In Northshire Valley, Nibbled-On Book has been chewed by kobolds. Brother Paxton hopes to see it returned to Northshire Abbey's modest collection.",
  "attribution": [
   "In-game quest text: Nibbled-On Book"
- ]
+ ],
+ "style": 2
 }

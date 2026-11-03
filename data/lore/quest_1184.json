@@ -21,16 +21,16 @@
   ],
   "category": "Thousand Needles"
  },
- "summary": "Korran has a message for Belgrom Rockmaul in Orgrimmar. You are to carry word back that Moktar is serving well out in Thousand Needles, and that Korran's studies are moving along.",
+ "summary": "From Thousand Needles, Korran sends word to Orgrimmar about Moktar and his studies.",
  "sections": [
   {
    "title": "Word for Orgrimmar",
-   "body": "After the cracked carapaces taken from the silithid at the Rustmaul Digsite, Korran sends you back to Belgrom Rockmaul in Orgrimmar. Tell Belgrom that Moktar is doing his bidding well out in Thousand Needles. Tell him too that Korran's studies are progressing and that he hopes to learn more soon.",
+   "body": "Korran sends you to Belgrom Rockmaul in Orgrimmar with word from Thousand Needles. The cracked carapaces came from silithid at the Rustmaul Digsite. Tell Belgrom that Moktar is doing his bidding well and that Korran's studies are progressing. Korran hopes to learn more soon.",
    "spoiler": 0
   },
   {
    "title": "Belgrom's Reply",
-   "body": "Belgrom Rockmaul is grateful for your efforts and says the warchief will be glad to hear how tenacious you have been. He promises to mention your name, saying Thrall speaks with him often and values his opinions. If Korran has news of the silithid, Belgrom wants to hear it, since he thinks they are a serious threat.",
+   "body": "Belgrom Rockmaul thanks you and says the warchief will be glad to hear of your tenacity. He promises to mention your name. Thrall speaks with Belgrom often and values his opinions. Belgrom considers the silithid a serious threat and wants to hear if Korran learns more about them.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "who starts this",
     "who gave parts of the swarm"
    ],
-   "answer": "Korran, who has been studying the silithid, asks you to carry word back to Belgrom Rockmaul in Orgrimmar."
+   "answer": "Korran, who studies the silithid, asks you to carry word to Belgrom Rockmaul in Orgrimmar."
   },
   {
    "q": "Who are you supposed to deliver the message to?",
@@ -59,7 +59,7 @@
     "what is the message",
     "korran report"
    ],
-   "answer": "That Moktar is doing Belgrom's bidding well out in Thousand Needles, and that Korran's studies are progressing, with more to be learned soon."
+   "answer": "Tell Belgrom that Moktar is doing his bidding well in Thousand Needles and that Korran's studies are progressing. Korran hopes to learn more soon."
   },
   {
    "q": "What are the creatures Korran is studying?",
@@ -67,7 +67,7 @@
     "what are the creatures",
     "why study the swarm"
    ],
-   "answer": "They are silithid. The cracked carapaces that began this work came from silithid found at the Rustmaul Digsite, in Thousand Needles."
+   "answer": "They are silithid. The cracked carapaces that began this work came from silithid at the Rustmaul Digsite in Thousand Needles."
   }
  ],
  "angles": [],
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Parts of the Swarm (2)"
- ]
+ ],
+ "style": 2
 }

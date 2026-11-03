@@ -14,7 +14,7 @@
  "sections": [
   {
    "title": "A Potent Brewing Reagent",
-   "body": "Thunder lizards roam the Barrens, their crested bodies crackling with lightning. Brewmaster Drohn in Ratchet values their horns as an ingredient for Stormstout ale. His mentor learned the recipe from the wandering pandaren Brewmaster Chen Stormstout and passed it down to Drohn. The horn gives the drink its potent kick.",
+   "body": "Thunder lizards roam the Barrens with crested bodies crackling with lightning. In Ratchet, Brewmaster Drohn prizes their horns for Stormstout ale. His mentor learned the recipe from the wandering pandaren Brewmaster Chen Stormstout and passed it to Drohn. The horn gives the drink its potent kick.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what uses thunder lizard horn",
     "why do i need thunder lizard horn"
    ],
-   "answer": "Brewmaster Drohn in Ratchet uses the horn as an ingredient in the brew Chen Stormstout made famous."
+   "answer": "Brewmaster Drohn in Ratchet uses the horn in the brew Chen Stormstout made famous."
   },
   {
    "q": "Which beasts yield a thunder lizard horn?",
@@ -52,13 +52,13 @@
     "how tough are thunder lizards",
     "hunting thunder lizards"
    ],
-   "answer": "Thunder lizards can discharge lightning and unleash thunderous stomps when provoked, making them dangerous to hunt alone."
+   "answer": "Thunder lizards can discharge lightning and unleash thunderous stomps when provoked. Hunting them alone is dangerous."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "As a cook, you may find Drohn's recipe unusual: it combines plainstrider organs, predator tusks, and a beast's horn into an intoxicating drink."
+   "text": "As a cook, you may find Drohn's recipe unusual. It combines plainstrider organs, predator tusks, and a beast's horn into an intoxicating drink."
   },
   {
    "target": "class:Hunter",
@@ -89,5 +89,5 @@
   "Thunder Lizard Horn",
   "Chen's Empty Keg (2)"
  ],
- "style": 1
+ "style": 2
 }

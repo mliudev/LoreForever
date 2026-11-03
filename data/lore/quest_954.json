@@ -17,7 +17,7 @@
   "wiki": "Bashal'Aran (quest)",
   "chain": []
  },
- "summary": "Demonic satyrs and grells shun one shrine in Bashal'Aran, where an unearthly blue aura burns. Thundris Windweaver, Auberdine's elder, sends you to find its source.",
+ "summary": "An eerie blue aura burns above a shrine in Bashal'Aran, where satyrs and grells will not go. Thundris Windweaver, Auberdine's elder, asks you to find its source.",
  "sections": [
   {
    "title": "A Beacon in the Ruins",
@@ -26,7 +26,7 @@
   },
   {
    "title": "The Wounded Shade",
-   "body": "At the raised shrine, you find that the blue light comes from Asterion, an ancient spirit. The shade has kept its lonely vigil for centuries. Amid howling beasts and vile fiends, even a traveling stranger brings respite from decades of isolation.",
+   "body": "At the raised shrine, you find Asterion, an ancient spirit, at the heart of the blue light. The shade has kept a lonely vigil for centuries. Amid howling beasts and vile fiends, even a traveling stranger brings respite from decades of isolation.",
    "spoiler": 1
   }
  ],
@@ -95,5 +95,5 @@
  "attribution": [
   "Bashal'Aran (quest)"
  ],
- "style": 1
+ "style": 2
 }

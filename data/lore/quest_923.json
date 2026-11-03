@@ -17,16 +17,16 @@
   "wiki": "Tumors",
   "chain": []
  },
- "summary": "In Darnassus, the Cenarion Circle seeks to contain the sickness spreading through Teldrassil. You are sent to Wellspring Lake to gather mossy tumors from afflicted timberlings, so druids can study the poison and burn the growths safely.",
+ "summary": "In Darnassus, the Cenarion Circle works to contain the sickness spreading through Teldrassil. You are sent to Wellspring Lake to gather mossy tumors from afflicted timberlings, so druids can study the poison and burn the growths safely.",
  "sections": [
   {
    "title": "Blight upon the Timberlings",
-   "body": "Teldrassil’s native plants and animals are being twisted by a strange affliction. Its timberlings, usually placid nature spirits with bark for skin, have grown hostile and erratic. Grotesque mossy tumors spread across their living wood, pulsing with unnatural poison. Cenarion scholars Denalan and Rellian Greenspyre search for the cause, while timberlings already lost to the sickness must be culled to protect the rest of the boughs.",
+   "body": "A strange affliction is twisting Teldrassil’s native plants and animals. Its timberlings, usually placid nature spirits with bark for skin, have grown hostile and erratic. Grotesque mossy tumors spread across their living wood and pulse with unnatural poison. Cenarion scholars Denalan and Rellian Greenspyre search for the cause. Timberlings already lost to the sickness must be culled to protect the rest of the boughs.",
    "spoiler": 0
   },
   {
    "title": "Containment at Wellspring Lake",
-   "body": "Wellspring Lake in northern Teldrassil has become a focal point of the outbreak, and its timberlings are among the most tainted on the World Tree. Rellian Greenspyre asks you to kill these corrupted guardians and cut away their tumors. Bring the growths to the druids in Darnassus, where they can be burned safely. The night elves hope this will slow the contagion while they search for the disease’s source.",
+   "body": "Wellspring Lake in northern Teldrassil has become a focal point of the outbreak. Its timberlings are among the most tainted on the World Tree. Rellian Greenspyre asks you to kill these corrupted guardians and cut away their tumors. Bring the growths to the druids in Darnassus, where they can be burned safely. The night elves hope this will slow the contagion while they search for the disease’s source.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "timberling disease",
     "why timberlings sick"
    ],
-   "answer": "A mysterious sickness has taken root in Teldrassil’s wild spirits. The tumors are outward signs of a toxic taint coursing through the timberlings, twisting their natural protective instincts into blind aggression."
+   "answer": "A mysterious sickness has taken root in Teldrassil’s wild spirits. The tumors show a toxic taint coursing through the timberlings and twisting their natural protective instincts into blind aggression."
   },
   {
    "q": "Who is Rellian Greenspyre?",
@@ -81,17 +81,17 @@
     "after tumors quest",
     "what next tumors"
    ],
-   "answer": "After Rellian secures and destroys the tumors, he directs you back to field botanist Denalan near Lake Al’Ameth to continue investigating the corruption spreading through Teldrassil’s flora."
+   "answer": "After Rellian secures and destroys the tumors, he directs you back to field botanist Denalan near Lake Al’Ameth. There, you continue investigating the corruption spreading through Teldrassil’s flora."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid of the Cenarion Circle, you face the tragic but necessary duty of destroying corrupted nature spirits to protect Teldrassil’s fragile balance from total collapse."
+   "text": "As a druid of the Cenarion Circle, you face the tragic but necessary duty of destroying corrupted nature spirits. Teldrassil’s balance is fragile, and you act to protect it from total collapse."
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you see disease appear rapidly in the newly grown World Tree, an alarming sign that challenges Fandral Staghelm’s promise of an untouched haven."
+   "text": "As a night elf, you see disease appear rapidly in the newly grown World Tree. It is an alarming sign that challenges Fandral Staghelm’s promise of an untouched haven."
   },
   {
    "target": "profession:Herbalism",
@@ -120,5 +120,5 @@
  "attribution": [
   "Tumors"
  ],
- "style": 1
+ "style": 2
 }

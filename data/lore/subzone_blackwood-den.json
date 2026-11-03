@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Blackwood Den"
  },
- "summary": "Blackwood Den lies under the Blackwood furbolgs’ corruption in southern Darkshore, near Ashenvale. The cave and camps that were once their peaceful home have fallen into madness. Volcor, a night elf scout, is trapped in the cavern and awaits aid from Auberdine.",
+ "summary": "In southern Darkshore, Blackwood Den has fallen to the Blackwood furbolgs’ corruption. Their cave and camps, once a peaceful home near Ashenvale, now echo with madness. Volcor, a night elf scout, is trapped inside and awaits aid from Auberdine.",
  "sections": [
   {
    "title": "A Corrupted Stronghold",
-   "body": "Blackwood furbolgs hold a rocky cave and crude camps near the southern border of Darkshore and Ashenvale. Corruption has taken hold of the tribe, and its members attack outsiders. Deep inside the cave, the night elf Volcor is pinned down and in danger. Scouts and travelers from Auberdine are needed to help him.",
+   "body": "Near the southern border of Darkshore and Ashenvale, Blackwood furbolgs hold a rocky cave and crude camps. Corruption has taken hold of the tribe, and its members attack outsiders. Deep inside the cave, the night elf Volcor is pinned down and in danger. Scouts and travelers from Auberdine are needed to help him.",
    "spoiler": 0
   }
  ],
@@ -41,17 +41,17 @@
     "are blackwood furbolgs evil",
     "corrupted furbolgs darkshore"
    ],
-   "answer": "The Blackwood furbolgs are hostile because corruption spreading across Darkshore and Kalimdor after the Third War has driven them mad. They attack outsiders on sight."
+   "answer": "Corruption spreading across Darkshore and Kalimdor after the Third War has driven the Blackwood furbolgs mad. They attack outsiders on sight."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the night elves of Auberdine, the Blackwood tribe's corruption is a tragedy. Rescuing Volcor is an urgent duty to protect their people along the southern road."
+   "text": "For the night elves of Auberdine, the Blackwood tribe’s corruption is a tragedy. Rescuing Volcor is an urgent duty to protect their people along the southern road."
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you may mourn the furbolgs, once steadfast protectors of the wilderness. The madness at Blackwood Den is another painful sign of Kalimdor's tainted nature."
+   "text": "As a druid, you may mourn the furbolgs, once steadfast protectors of the wilderness. The madness at Blackwood Den is another painful sign of Kalimdor’s tainted nature."
   }
  ],
  "keywords": [
@@ -74,5 +74,5 @@
  "attribution": [
   "Blackwood Den"
  ],
- "style": 1
+ "style": 2
 }

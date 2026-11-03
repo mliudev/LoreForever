@@ -8,11 +8,11 @@
   "wiki": "Orphan Matron Battlewail",
   "refs": 1
  },
- "summary": "In Orgrimmar's Valley of Honor, Orphan Matron Battlewail cares for children left without families by war. With Tosamina, she gives them shelter and raises young orcs.",
+ "summary": "In Orgrimmar's Valley of Honor, Orphan Matron Battlewail shelters children left without families by war. With Tosamina, she raises young orcs.",
  "sections": [
   {
    "title": "Caretaker of the Horde's Youth",
-   "body": "Orphan Matron Battlewail cares for children who have lost their kin to violence. In Orgrimmar, where war's toll reaches even the young capital, she and Tosamina shelter and nurture the next generation of the Horde. The orphanage in the Valley of Honor opens its doors to passing adventurers. During Children's Week, travelers are called upon to mentor the children.",
+   "body": "In Orgrimmar, a young capital already touched by war, Orphan Matron Battlewail and Tosamina shelter children who have lost their kin to violence. They nurture the Horde's next generation in the orphanage of the Valley of Honor.\n\nThe orphanage opens its doors to passing adventurers. During Children's Week, travelers are called upon to mentor the children.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is battlewail",
     "matron battlewail"
    ],
-   "answer": "Orphan Matron Battlewail is an orc woman who oversees Orgrimmar's orphanage. She shelters and raises children whose parents died in battle."
+   "answer": "Orphan Matron Battlewail oversees Orgrimmar's orphanage. She shelters and raises children whose parents died in battle."
   },
   {
    "q": "Where can she be found in Orgrimmar?",
@@ -33,7 +33,7 @@
     "where is the orphanage",
     "find battlewail"
    ],
-   "answer": "Battlewail and Tosamina care for the children in Orgrimmar's Valley of Honor, in the city's eastern reaches."
+   "answer": "Battlewail and Tosamina care for children in Orgrimmar's Valley of Honor, in the city's eastern reaches."
   },
   {
    "q": "What is her role during Children's Week?",
@@ -50,13 +50,13 @@
     "tosamina",
     "orphan matron helper"
    ],
-   "answer": "Tosamina lives and works alongside Battlewail, helping watch over and protect the children in their care."
+   "answer": "Tosamina lives and works alongside Battlewail. She helps watch over and protect the children in their care."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For the Horde, Battlewail gives guidance and shelter to children left behind by war, helping preserve the people's future."
+   "text": "For the Horde, Battlewail shelters and guides children left behind by war, helping preserve the people's future."
   },
   {
    "target": "race:Orc",
@@ -82,5 +82,5 @@
  "attribution": [
   "Orphan Matron Battlewail"
  ],
- "style": 1
+ "style": 2
 }

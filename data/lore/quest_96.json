@@ -17,16 +17,16 @@
   "wiki": "Call of Water (9)",
   "chain": []
  },
- "summary": "You carry the Shard of Water back to Islen Waterseer along the Barrens coast. Your journey proves your harmony with restorative energies and earns you a Water Totem.",
+ "summary": "You bring the Shard of Water to Islen Waterseer on the Barrens coast. This return shows your harmony with restorative energies and earns you a Water Totem.",
  "sections": [
   {
    "title": "A Long Journey Home",
-   "body": "You carry a gift from the Minor Manifestation of Water back across the sea. To earn it, you crossed continents to the tainted shores of Silverpine Forest and faced the corruption there. Water gives life, adapts, and heals, yet its pliant nature leaves it open to blight and dark magic. Before the Minor Manifestation, you witnessed pure elemental will and received the Shard of Water. Now, as you return to the sun-scorched Barrens, the shard reminds you that water connects distant corners of the world.",
+   "body": "You carry a gift from the Minor Manifestation of Water back across the sea. To earn it, you crossed continents to the tainted shores of Silverpine Forest and faced the corruption there. Water gives life, adapts, and heals, yet its pliant nature leaves it open to blight and dark magic.\n\nBefore the Minor Manifestation, you witnessed pure elemental will and received the Shard of Water. Now you return to the sun-scorched Barrens, where the shard reminds you that water joins distant corners of the world.",
    "spoiler": 0
   },
   {
    "title": "The Water Totem",
-   "body": "When you give Islen Waterseer the shard, she weighs more than proof of your journey. She tests whether you have learned the balance between preservation and renewal. Lordaeron's spreading rot can hide small victories, yet cleansing even one wellspring matters to the spirits. Islen recognizes your offering and gives you a Water Totem. Through it, you can channel cleansing, healing, and mana-restoring streams into the mortal realm, binding you to the tide.",
+   "body": "When you give Islen Waterseer the shard, she weighs more than proof of your journey. She tests whether you have learned the balance between preservation and renewal. Lordaeron's spreading rot can hide small victories, yet cleansing even one wellspring matters to the spirits. Islen accepts your offering and gives you a Water Totem. Through it, you can channel cleansing, healing, and mana-restoring streams into the mortal realm, binding you to the tide.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "water shard",
     "what is the shard"
    ],
-   "answer": "The Shard of Water is an elemental remnant given by the Minor Manifestation of Water. It shows that you understand water's life-giving power and have opposed the corruption threatening elemental streams."
+   "answer": "The Shard of Water is an elemental remnant given by the Minor Manifestation of Water. It shows you understand water's life-giving power and have opposed the corruption threatening elemental streams."
   },
   {
    "q": "Where do I take the Shard of Water?",
@@ -56,7 +56,7 @@
     "totem reward",
     "what do i get"
    ],
-   "answer": "You receive a Water Totem, the conduit shamans need to call water-based elemental totems for healing and restorative magic."
+   "answer": "You receive a Water Totem, a conduit shamans need to call water-based elemental totems for healing and restorative magic."
   },
   {
    "q": "Why was the trial set in Silverpine Forest?",
@@ -73,7 +73,7 @@
     "islen",
     "who is islen waterseer"
    ],
-   "answer": "Islen Waterseer is a tauren shaman at the Barrens' eastern coast. She oversees the shamanic trials of water and teaches initiates to commune with fluid spirits and master restorative arts."
+   "answer": "Islen Waterseer is a tauren shaman on the Barrens' eastern coast. She oversees the shamanic trials of water and teaches initiates to commune with fluid spirits and master restorative arts."
   }
  ],
  "angles": [
@@ -103,5 +103,5 @@
  "attribution": [
   "Call of Water (9)"
  ],
- "style": 1
+ "style": 2
 }

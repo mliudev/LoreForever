@@ -20,21 +20,21 @@
    "Blackfathom Villainy (Alliance)"
   ]
  },
- "summary": "At Blackfathom Deeps, Argent Guard Thaelrid calls for the Alliance to stop Twilight Lord Kelris. The cult leader sacrifices captives to Aku'mai, and Thaelrid asks for Kelris's severed head as proof to bring to the Argent Dawn in Darnassus.",
+ "summary": "At Blackfathom Deeps, Argent Guard Thaelrid calls the Alliance to stop Twilight Lord Kelris. The cult leader sacrifices captives to Aku'mai, and Thaelrid asks you to bring Kelris's severed head to the Argent Dawn in Darnassus as proof.",
  "sections": [
   {
    "title": "A Defiled Sanctuary",
-   "body": "Blackfathom Deeps was once a night elven temple devoted to Elune. Corruption from an ancient Old God rose through the rock, fouling the Moon Well and freeing Aku'mai, a voracious servant of that darkness. The Twilight's Hammer joined with local naga after the temple was defiled, making its holy halls a place of ritual murder.",
+   "body": "Blackfathom Deeps was once a night elven temple devoted to Elune. Corruption from an ancient Old God rose through the rock and fouled the Moon Well. From the tainted waters beneath the depths, Aku'mai crawled forth, a voracious servant of that darkness. After the temple was defiled, the Twilight's Hammer joined forces with local naga. Its holy halls became a place of ritual murder.",
    "spoiler": 0
   },
   {
    "title": "The Fallen Guard's Plea",
-   "body": "Argent Guard Thaelrid entered Blackfathom Deeps on behalf of his order, but was grievously wounded and drained of strength. Surrounded by enemies, he knows he cannot finish his mission alone. He pleads with brave Alliance travelers who reach him to kill Twilight Lord Kelris, the cultist leading sacrifices of innocents to Aku'mai in exchange for dark power.",
+   "body": "Argent Guard Thaelrid entered Blackfathom Deeps on behalf of his order. There, he was grievously wounded and drained of strength. Surrounded by enemies, he knows he cannot finish his mission alone. So he pleads with brave Alliance travelers who reach him to kill Twilight Lord Kelris. Kelris leads the cultists in sacrificing innocents to Aku'mai for dark power.",
    "spoiler": 0
   },
   {
    "title": "Justice in Darnassus",
-   "body": "At the Craftsmen's Terrace in Darnassus, the severed head of Kelris is presented to Dawnwatcher Selgorm, bringing a long and troubling hunt to an end. The Argent Dawn feared Kelris was dead or lost to the shadows, for he had been involved time and again when dark forces stirred in Kalimdor. His death secures a vital victory against the cult's designs in Ashenvale.",
+   "body": "At the Craftsmen's Terrace in Darnassus, Kelris's severed head is presented to Dawnwatcher Selgorm. The offering brings a long and troubling hunt to an end. The Argent Dawn feared Kelris was dead or lost to the shadows. Time and again, he had been involved when dark forces stirred in Kalimdor. His death secures a vital victory against the cult's designs in Ashenvale.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "thaelrid lore",
     "argent guard"
    ],
-   "answer": "Thaelrid is an Argent Dawn operative sent to investigate the growing shadow within Blackfathom Deeps. Grievously wounded in the depths, his strength is spent, so he recruits passing adventurers to stop Kelris."
+   "answer": "Thaelrid is an Argent Dawn operative sent to investigate the growing shadow within Blackfathom Deeps. Grievously wounded in the depths and spent of strength, he calls on passing travelers to stop Kelris."
   },
   {
    "q": "Why is Twilight Lord Kelris being targeted?",
@@ -97,11 +97,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For a night elf, avenging the defilement of an ancient temple of Elune and cleansing its poisoned Moon Well strikes at the heart of kaldorei heritage."
+   "text": "As a night elf, avenging the defilement of an ancient temple of Elune and cleansing its poisoned Moon Well strikes at the heart of kaldorei heritage."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you help the Argent Dawn protect Ashenvale's vulnerable borders from cult infiltration by aiding them against Kelris."
+   "text": "As an Alliance member, you help the Argent Dawn guard Ashenvale's vulnerable borders against cult infiltration by aiding them against Kelris."
   },
   {
    "target": "class:Paladin",
@@ -138,5 +138,5 @@
  "attribution": [
   "Blackfathom Villainy (Alliance)"
  ],
- "style": 1
+ "style": 2
 }

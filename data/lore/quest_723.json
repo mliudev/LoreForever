@@ -30,16 +30,16 @@
    "Passing Word of a Threat"
   ]
  },
- "summary": "Hammertoe Grez, nursing wounds, sends you with the amulet to Prospector Ryedol in the Badlands. Ryedol knows what Hammertoe was seeking, and what the Shadowforge clan must not be allowed to find.",
+ "summary": "In the Badlands, Hammertoe Grez sends you to Prospector Ryedol with his amulet. Ryedol knows Hammertoe sought the origins of their people and wants to keep the scrolls from the Shadowforge clan.",
  "sections": [
   {
    "title": "An Amulet for Ryedol",
-   "body": "Hammertoe Grez, clutching at wounds, pauses to steady himself, then asks you to find Ryedol and hand over the amulet. Hammertoe is sure Ryedol will figure out what to do. Ryedol knows Hammertoe was seeking the origins of their people, and that Hammertoe also meant to thwart the Shadowforge clan, who cannot be permitted to get hold of the scrolls.",
+   "body": "Wounded in the Badlands, Hammertoe Grez asks you to carry his amulet to Ryedol. He trusts Ryedol to know what to do. Hammertoe sought the origins of their people and meant to thwart the Shadowforge clan. The clan must not get the scrolls.",
    "spoiler": 0
   },
   {
    "title": "At Ryedol's Hands",
-   "body": "Ryedol, on receiving Hammertoe's amulet, says that spirits were higher when Hammertoe was thought dead, since knowing for sure only makes the pain worse. Ryedol calls the amulet Hammertoe's life's work and vows that the death will not be in vain.",
+   "body": "When Ryedol receives Hammertoe's amulet, he says spirits were higher when Hammertoe was thought dead. Knowing for certain only deepens his pain. Ryedol calls the amulet Hammertoe's life's work and vows his death will not be in vain.",
    "spoiler": 1
   }
  ],
@@ -51,7 +51,7 @@
     "who is ryedol",
     "where is ryedol"
    ],
-   "answer": "Prospector Ryedol is the one you are to bring Hammertoe's amulet to, in the Badlands. Ryedol knows what Hammertoe was seeking."
+   "answer": "Prospector Ryedol is the one you are to bring Hammertoe's amulet to in the Badlands. He knows what Hammertoe was seeking."
   },
   {
    "q": "What is Hammertoe Grez trying to stop?",
@@ -60,7 +60,7 @@
     "shadowforge scrolls",
     "why stop shadowforge"
    ],
-   "answer": "Hammertoe wanted to thwart the Shadowforge clan, who cannot be permitted to get hold of the scrolls."
+   "answer": "Hammertoe meant to thwart the Shadowforge clan, which must not get hold of the scrolls."
   },
   {
    "q": "What was Hammertoe Grez seeking?",
@@ -68,7 +68,7 @@
     "hammertoe origins",
     "what was hammertoe looking for"
    ],
-   "answer": "The origins of their people, according to Hammertoe."
+   "answer": "Hammertoe was seeking the origins of their people."
   },
   {
    "q": "Which chain is this step part of?",
@@ -76,7 +76,7 @@
     "prospect of faith chain",
     "a sign of hope chain"
    ],
-   "answer": "This is part of the chain that began with A Sign of Hope."
+   "answer": "This step is part of the chain that began with A Sign of Hope."
   }
  ],
  "angles": [],
@@ -95,5 +95,6 @@
  ],
  "attribution": [
   "Prospect of Faith"
- ]
+ ],
+ "style": 2
 }

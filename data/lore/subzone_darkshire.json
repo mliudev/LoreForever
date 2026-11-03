@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Darkshire"
  },
- "summary": "In Darkshire, the Night Watch holds the line as the town endures Duskwood's unnatural gloom. Stormwind offers little aid, leaving the people to guard their homes.",
+ "summary": "Darkshire's Night Watch holds the line while Duskwood's unnatural gloom closes around the town. With little aid from Stormwind, the people must guard their homes.",
  "sections": [
   {
    "title": "A Town Abandoned",
-   "body": "Darkshire was once the peaceful woodland settlement of Grand Hamlet. The Old Horde razed it during the First War, and the village was rebuilt. After Medivh fell at Karazhan, the death throes left in the surrounding woods turned them into the shadowed wilderness of Duskwood. Though Darkshire belongs to the Kingdom of Stormwind, the crown sends virtually no aid to its town hall. Political paralysis in Stormwind City has left the garrison unstaffed and the borders unpatrolled. Mayor Ello Ebonlocke and the local council are left to govern on their own, enforcing harsh, insular justice in the shadows.",
+   "body": "Darkshire began as Grand Hamlet, a peaceful woodland settlement. The Old Horde razed it during the First War, and the village rose again. After Medivh fell at Karazhan, the death throes left in the surrounding woods made them the shadowed wilderness of Duskwood.\n\nDarkshire belongs to the Kingdom of Stormwind, yet the crown sends virtually no aid to its town hall. Political paralysis in Stormwind City has left the garrison unstaffed and the borders unpatrolled. Mayor Ello Ebonlocke and the local council govern alone, enforcing harsh, insular justice in the shadows.",
    "spoiler": 0
   },
   {
    "title": "The Line in the Dark",
-   "body": "Walking dead from the western graveyards and feral worgen in the woods press against Darkshire's palisades. The Night Watch, a voluntary civilian militia led by Althea Ebonlocke, is the town's chief defense. From the town square, its weary sentries patrol the pitch-black roads, keep them open, and turn back terrors at the tree line. Travelers at the Scarlet Raven Tavern meet locals who are suspicious, frightened, and desperate for anyone able to wield a blade.",
+   "body": "Walking dead from the western graveyards and feral worgen in the woods press against Darkshire's palisades. The Night Watch, a voluntary civilian militia led by Althea Ebonlocke, is the town's chief defense. From the town square, weary sentries patrol the pitch-black roads, keep them open, and turn back terrors at the tree line.\n\nAt the Scarlet Raven Tavern, travelers meet locals who are suspicious, frightened, and desperate for anyone able to wield a blade.",
    "spoiler": 0
   }
  ],
@@ -99,5 +99,5 @@
  "attribution": [
   "Darkshire"
  ],
- "style": 1
+ "style": 2
 }

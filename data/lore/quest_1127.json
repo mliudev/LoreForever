@@ -18,11 +18,11 @@
   "chain": [],
   "category": "Stranglethorn Vale"
  },
- "summary": "Crank Fizzlebub in Booty Bay brews batches of Fool's Stout for travelers looking to return to the Shimmering Flats raceway. To concoct another serving, he requires twelve flasks of Zanzil's mixture.",
+ "summary": "In Booty Bay, travelers seek more Fool's Stout for the Shimmering Flats raceway. Crank Fizzlebub needs twelve flasks of Zanzil's mixture to brew another batch.",
  "sections": [
   {
    "title": "A Second Batch",
-   "body": "For travelers whose initial supply of Fool's Stout has expired before reaching the gnomes at the raceway, Crank Fizzlebub offers to brew a replacement. The goblin Crank Fizzlebub in Booty Bay requires twelve flasks of Zanzil's mixture to prepare the potent beverage once more, compensating anyone willing to fetch the ingredients while offering a little extra to keep the transaction discreet.",
+   "body": "Travelers bound for the gnomes at the raceway may find their Fool's Stout has expired before they arrive. In Booty Bay, Crank Fizzlebub can brew a replacement. The goblin needs twelve flasks of Zanzil's mixture, and offers compensation for fetching them, with a little extra for discretion.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "fools stout questgiver",
     "crank fizzlebub"
    ],
-   "answer": "Crank Fizzlebub, found inside Booty Bay in southern Stranglethorn Vale, prepares the stout."
+   "answer": "In Booty Bay in southern Stranglethorn Vale, Crank Fizzlebub offers to brew Fool's Stout."
   },
   {
    "q": "What ingredients does Crank Fizzlebub need?",
@@ -43,7 +43,7 @@
     "fools stout ingredients",
     "zanzils mixture requirement"
    ],
-   "answer": "He requires twelve flasks of Zanzil's mixture to brew another batch of the stout."
+   "answer": "Crank Fizzlebub needs twelve flasks of Zanzil's mixture to brew another batch of Fool's Stout."
   },
   {
    "q": "Why would someone need another batch of Fool's Stout?",
@@ -52,7 +52,7 @@
     "fools stout expired",
     "fools stout duration"
    ],
-   "answer": "The concoction evaporates after two hours, so travelers who miss that window must gather fresh ingredients for a replacement."
+   "answer": "Fool's Stout evaporates after two hours, so travelers who miss that window need fresh ingredients for a replacement."
   },
   {
    "q": "Where is the brew intended to go?",
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Fool's Stout (quest)"
- ]
+ ],
+ "style": 2
 }

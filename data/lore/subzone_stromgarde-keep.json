@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Stromgarde Keep"
  },
- "summary": "Stromgarde Keep is the battered, divided capital of the fallen human kingdom of Stromgarde in the Arathi Highlands. Once the proud cradle of human civilization known as Strom, the fortress is now partitioned between hostile Syndicate rogues, invading Boulderfist ogres, and a desperate remnant of royal defenders under Prince Galen Trollbane.",
+ "summary": "In the Arathi Highlands, Stromgarde Keep is divided between its royal defenders, the Syndicate and Boulderfist ogres. The fallen kingdom's battered capital holds only part of its fortress.",
  "sections": [
   {
    "title": "Cradle of Humanity",
-   "body": "Long before it bore its current name, this fortress was founded nearly three millennia ago as Strom, the first capital of the unified human empire of Arathor under King Thoradin. It served as the staging ground for humanity's victory against the forest trolls and was the birthplace of human wizardry, where high elven magi tutored the first hundred human spellcasters. Over centuries, as younger sister kingdoms like Dalaran, Lordaeron, and Stormwind rose and prospered, Strom's influence waned. Renamed Stromgarde by the stubborn Trollbane dynasty who stayed behind, it remained a proud warrior bastion throughout the Second War, anchoring the Alliance of Lordaeron against the Orcish Horde.",
+   "body": "Strom began as the first capital of the unified human empire of Arathor. King Thoradin founded it nearly three millennia ago. From this fortress, humanity prepared its victory over the forest trolls. Here, high elven magi taught the first hundred human spellcasters and began the long history of human wizardry.\n\nDalaran, Lordaeron and Stormwind rose as younger sister kingdoms while Strom's influence waned. The stubborn Trollbane dynasty remained and renamed the city Stromgarde. Through the Second War, it stood as a proud warrior bastion and an anchor of the Alliance of Lordaeron against the Orcish Horde.",
    "spoiler": 0
   },
   {
    "title": "A Shattered Bastion",
-   "body": "Following the devastation of the Third War, Stromgarde finally buckled under mounting catastrophes and treachery. Today, the majestic stone city sits fractured into three warring sectors. The aristocratic traitors of the Syndicate occupy the grand inner keep, while brutish Boulderfist ogres have overrun the former sanctum of the mage district. Pinned in the remaining quarter, Prince Galen Trollbane and the battered Stromgarde military wage a grueling, bloody war on multiple fronts just to keep their ancestral home from vanishing into memory.",
+   "body": "The devastation of the Third War brought mounting disasters and treachery, and Stromgarde finally broke. Its majestic stone city is now split into three warring sectors. Aristocratic Syndicate traitors hold the grand inner keep, while Boulderfist ogres have overrun the former sanctum of the mage district.\n\nPrince Galen Trollbane and the battered Stromgarde military hold the remaining quarter. They wage a hard, bloody war on several fronts to keep their ancestral home from vanishing into memory.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who owns stromgarde keep",
     "who is in stromgarde"
    ],
-   "answer": "The ruined city is carved into three fiercely contested zones. The treacherous Syndicate controls the central inner keep, invading Boulderfist clan ogres occupy the ruined mage district, and Prince Galen Trollbane leads the surviving remnants of the Stromgarde army from the remaining quarter."
+   "answer": "Three warring forces divide the ruined city. The Syndicate holds the central inner keep, Boulderfist ogres occupy the ruined mage district, and Prince Galen Trollbane leads the surviving Stromgarde army from the remaining quarter."
   },
   {
    "q": "What was the Empire of Arathor?",
@@ -37,7 +37,7 @@
     "first human kingdom",
     "arathor empire"
    ],
-   "answer": "The Empire of Arathor was the very first unified human nation, founded nearly three thousand years ago by King Thoradin. Its capital was Strom, situated on the very grounds where Stromgarde Keep stands today."
+   "answer": "The Empire of Arathor was the first unified human nation, founded nearly three thousand years ago under King Thoradin. Its capital, Strom, stood where Stromgarde Keep now stands."
   },
   {
    "q": "Why is the city in ruins?",
@@ -45,7 +45,7 @@
     "why is stromgarde destroyed",
     "what happened to stromgarde"
    ],
-   "answer": "Stromgarde stood as a powerhouse through the Second War, but the kingdom was left vulnerable and isolated in the chaotic aftermath of the Third War. A combination of internal betrayal, opportunistic attacks by the criminal Syndicate, and assaults from Boulderfist ogres shattered the city's defenses."
+   "answer": "Stromgarde's kingdom was left vulnerable and isolated in the chaos after the Third War. Betrayal within the city, attacks by the criminal Syndicate and assaults by Boulderfist ogres shattered its defenses."
   },
   {
    "q": "Who is Galen Trollbane?",
@@ -53,17 +53,17 @@
     "prince trollbane",
     "who is prince galen"
    ],
-   "answer": "Prince Galen Trollbane is the royal scion and commander of Stromgarde's surviving forces. From his embattled redoubt inside the keep, he directs the desperate defense against both the Syndicate and the ogres."
+   "answer": "Prince Galen Trollbane is the royal scion and commander of Stromgarde's surviving forces. From his embattled redoubt inside the keep, he directs the desperate defense against the Syndicate and the ogres."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "Stromgarde was the ancient heart of your entire race, where the first human tribes banded together under Thoradin and learned the arcane arts from the high elves. Seeing it overrun by criminals and ogres is a bitter sight."
+   "text": "As a human, you can look to Stromgarde as the ancient heart of your race. The first human tribes united under Thoradin here, and high elves taught them the arcane arts. Seeing criminals and ogres overrun the city is a bitter sight."
   },
   {
    "target": "faction:Alliance",
-   "text": "Stromgarde was a founding member of the Alliance of Lordaeron during the Second War. Its beleaguered defenders represent one of the last loyal strongholds left in the north, fighting desperately to avoid total annihilation."
+   "text": "As an Alliance member, you can look to Stromgarde, a founding member of the Alliance of Lordaeron during the Second War. Its beleaguered defenders remain one of the last loyal strongholds in the north, fighting to avoid total ruin."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Stromgarde Keep"
- ]
+ ],
+ "style": 2
 }

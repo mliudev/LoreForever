@@ -17,16 +17,16 @@
   "wiki": "Blisters on The Land",
   "chain": []
  },
- "summary": "In the eastern Wetlands, Rethiel senses sickness spreading through the marsh. The bog beast warden asks travelers to destroy Fen Creepers, hoping to ease the land's rising fever.",
+ "summary": "Across the eastern Wetlands, Rethiel senses sickness spreading through the marsh. The bog beast warden asks travelers to destroy Fen Creepers, hoping to ease the land’s rising fever.",
  "sections": [
   {
    "title": "A Festering Marshes",
-   "body": "Rethiel the Greenwarden watches the Wetlands from a grove among the marshes. The mire has always been harsh, but now an unnatural sickness spreads through it. Rethiel senses a fever in the earth, warping wild nature into mindless, shambling horrors.",
+   "body": "Rethiel the Greenwarden watches over the Wetlands from a grove among the marshes. The mire has always been harsh, but now an unnatural sickness spreads through it. Rethiel feels fever in the earth. It twists wild nature into mindless, shambling horrors.",
    "spoiler": 0
   },
   {
    "title": "Cleansing the Fen",
-   "body": "Fen Creepers are decaying masses of swamp vegetation that wander the waterways. Rethiel calls them diseased blisters swelling on the land. Their tormented presence agitates the marsh, so Rethiel asks passing allies to destroy them and let their tangled remains settle into the mud.",
+   "body": "Fen Creepers are decaying masses of swamp plants that wander the waterways. Rethiel calls them diseased blisters swelling on the land. Their tormented presence agitates the marsh, so Rethiel asks passing allies to destroy them. Their tangled remains can then settle into the mud.",
    "spoiler": 0
   }
  ],
@@ -114,5 +114,5 @@
  "attribution": [
   "Blisters on The Land"
  ],
- "style": 1
+ "style": 2
 }

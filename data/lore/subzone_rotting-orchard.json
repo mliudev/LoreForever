@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Rotting Orchard"
  },
- "summary": "Rotting Orchard lies in southern Duskwood, where ravenous lupine predators of the Nightbane pack have overrun the abandoned grove. Once it supplied fruit to nearby Darkshire, but now its trees and buildings lie in ruin.",
+ "summary": "In southern Duskwood, the Rotting Orchard has fallen to the Nightbane worgen. Its fruit once fed nearby Darkshire, but now the trees and buildings lie in ruin.",
  "sections": [
   {
    "title": "Den of the Nightbane",
-   "body": "In the Rotting Orchard, Nightbane worgen have made camps among the ruined barns and outbuildings. The orchard lies east of the ruined Yorgen Farmstead and west of Tranquil Gardens Cemetery. Withered fruit hangs from its trees, and Nightbane Stalkers prowl the twisted brush. Nightbane Shadow Weavers practice their dark magic among the decaying timber. The fierce worgen Gutspill and Nefaru lead the pack from their lair in the nearby mine of Roland's Doom.",
+   "body": "Nightbane worgen have made camps among the Rotting Orchard’s ruined barns and outbuildings. The grove lies east of the ruined Yorgen Farmstead and west of Tranquil Gardens Cemetery. Withered fruit hangs from the trees as Nightbane Stalkers prowl the twisted brush. Nightbane Shadow Weavers practice dark magic among the decaying timber. The fierce worgen Gutspill and Nefaru lead the pack from their lair in the nearby mine of Roland's Doom.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "where is rotting orchard",
     "how to find rotting orchard"
    ],
-   "answer": "The Rotting Orchard lies in southern Duskwood, southwest of the town of Darkshire. It sits between the ruined Yorgen Farmstead to the west and Tranquil Gardens Cemetery to the east."
+   "answer": "The Rotting Orchard lies in southern Duskwood, southwest of Darkshire. It lies between the ruined Yorgen Farmstead to the west and Tranquil Gardens Cemetery to the east."
   },
   {
    "q": "Who leads the worgen in this orchard?",
@@ -48,17 +48,17 @@
     "orchard history",
     "why is orchard rotting"
    ],
-   "answer": "No. The orchard was once a productive farm and fruit grove that supported the local human populace. Dark curses and supernatural horrors overtook the region and drove the farmers away."
+   "answer": "No. The orchard once served as a productive farm and fruit grove for the local human populace. Dark curses and supernatural horrors overtook the region and drove the farmers away."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The Nightbane worgen pose a direct predatory threat to the fragile security of Darkshire, just up the road."
+   "text": "For the Alliance, the Nightbane worgen threaten Darkshire’s fragile security from just up the road."
   },
   {
    "target": "class:Hunter",
-   "text": "The twisted trees and ruined outbuildings offer good ground for stalking, but the Nightbane pack's keen senses and spellcraft make every approach dangerous."
+   "text": "As a hunter, you can stalk through the twisted trees and ruined outbuildings. But the Nightbane pack’s keen senses and spellcraft make every approach dangerous."
   }
  ],
  "keywords": [
@@ -79,5 +79,5 @@
  "attribution": [
   "Rotting Orchard"
  ],
- "style": 1
+ "style": 2
 }

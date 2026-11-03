@@ -8,16 +8,16 @@
   "wiki": "Baron Aquanis",
   "refs": 5
  },
- "summary": "Blackfathom Deeps is where the Twilight's Hammer has made its lair, and Baron Aquanis rises from its flooded Moonshrine Ruins. He appears when someone disturbs the Fathom Stone, while the Earthen Ring suspects the cult has corrupted him.",
+ "summary": "In the flooded Moonshrine Ruins of Blackfathom Deeps, Baron Aquanis rises from the depths when the Fathom Stone is disturbed. The Twilight's Hammer cultists occupy the ruins, and the Earthen Ring suspects the baron has been corrupted.",
  "sections": [
   {
    "title": "Guardian of the Fathom Stone",
-   "body": "The Fathom Stone lies beneath the flooded halls of the Moonshrine Ruins, right under the noses of the Twilight's Hammer cultists who occupy them. Within the stone rests a fathom core, a device that reveals the history of nearby elemental activity when properly read. Je'neu Sancrea of the Earthen Ring sends Horde adventurers to recover it. Disturbing the stone draws Baron Aquanis up from the depths.",
+   "body": "Beneath the flooded halls of the Moonshrine Ruins lies the Fathom Stone, surrounded by Twilight's Hammer cultists. A fathom core rests within it. Read properly, the device reveals the history of nearby elemental activity. Je'neu Sancrea of the Earthen Ring sends Horde adventurers to recover it. Disturb the stone, and Baron Aquanis rises from the depths.",
    "spoiler": 0
   },
   {
    "title": "Corruption of the Depths",
-   "body": "The Earthen Ring has long considered Baron Aquanis a corrupted elemental power. When he is destroyed, he leaves behind a Strange Water Globe, an impervious orb filled with putrid, sloshing water that seems to have fed him energy. Je'neu Sancrea believes the globe may prove what corrupted the baron and how. He would not be surprised if the Twilight's Hammer were responsible.",
+   "body": "The Earthen Ring has long judged Baron Aquanis to be a corrupted elemental power. When he is destroyed, he leaves behind a Strange Water Globe. The impervious orb holds putrid, sloshing water that seems to have fed him energy. Je'neu Sancrea believes it may show what corrupted the baron and how. The Twilight's Hammer may be responsible, he says, though he wants proof.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "where is baron aquanis",
     "how to spawn baron aquanis"
    ],
-   "answer": "Baron Aquanis dwells in the flooded Moonshrine Ruins deep inside Blackfathom Deeps. He rises from the water when someone disturbs the underwater Fathom Stone, as Horde adventurers do while recovering its fathom core for Je'neu Sancrea."
+   "answer": "Baron Aquanis dwells in the flooded Moonshrine Ruins deep inside Blackfathom Deeps. He rises when someone disturbs the underwater Fathom Stone, as Horde adventurers do while recovering its fathom core for Je'neu Sancrea."
   },
   {
    "q": "What is the Strange Water Globe?",
@@ -38,7 +38,7 @@
     "aquanis globe",
     "what is the water globe for"
    ],
-   "answer": "The Strange Water Globe is what Baron Aquanis leaves behind when he is destroyed. The impervious orb holds putrid, sloshing water that seems to have fed his elemental energy. Je'neu Sancrea of the Earthen Ring wants to study it for proof of what corrupted the baron and how."
+   "answer": "The Strange Water Globe is left behind when Baron Aquanis is destroyed. The impervious orb holds putrid, sloshing water that seems to have fed his elemental energy. Je'neu Sancrea of the Earthen Ring wants to study it for proof of what corrupted the baron and how."
   },
   {
    "q": "Why is the Earthen Ring interested in Baron Aquanis?",
@@ -46,7 +46,7 @@
     "why earthen ring care",
     "je'neu sancrea aquanis"
    ],
-   "answer": "The Earthen Ring watches over the balance of the elements. Je'neu Sancrea and his comrades have long considered Baron Aquanis a corrupted elemental power. With the Twilight's Hammer in the Moonshrine Ruins, they fear the cult may be coercing the elements to work against the Horde. The baron's remains and the fathom core could show what the cult is doing."
+   "answer": "The Earthen Ring watches over the balance of the elements. Je'neu Sancrea and his comrades have long considered Baron Aquanis a corrupted elemental power. Since the Twilight's Hammer occupies the Moonshrine Ruins, they fear the cult may be coercing the elements against the Horde. The baron's remains and the fathom core could reveal what the cult is doing."
   },
   {
    "q": "What is the Fathom Core?",
@@ -54,7 +54,7 @@
     "fathom core lore",
     "what does fathom core do"
    ],
-   "answer": "The fathom core is an elemental artifact housed within the sunken Fathom Stone. Properly read by a trained shaman, it reveals a comprehensive history of regional elemental activity and can expose whatever dark rituals the Twilight's Hammer is conducting in the ruins."
+   "answer": "The fathom core is an elemental artifact housed within the sunken Fathom Stone. A trained shaman can read it to learn the history of regional elemental activity. It may also expose the Twilight's Hammer's dark rituals in the ruins."
   },
   {
    "q": "Is Baron Aquanis allied with the Twilight's Hammer?",
@@ -62,7 +62,7 @@
     "is aquanis twilight hammer",
     "aquanis cult"
    ],
-   "answer": "As far as anyone can tell, Baron Aquanis is a corrupted elemental rather than a willing servant. The Twilight's Hammer cultists occupying the Moonshrine Ruins are the obvious suspects. Je'neu Sancrea says their involvement would not surprise him, but he wants proof before saying for sure."
+   "answer": "As far as anyone can tell, Baron Aquanis is a corrupted elemental, not a willing servant. The Twilight's Hammer cultists in the Moonshrine Ruins are the obvious suspects. Je'neu Sancrea says their involvement would not surprise him, but he wants proof before he says for sure."
   },
   {
    "q": "Does the Alliance have business with Baron Aquanis?",
@@ -70,13 +70,13 @@
     "can alliance fight aquanis",
     "alliance aquanis quest"
    ],
-   "answer": "Not directly. The Fathom Stone and Baron Aquanis are Je'neu Sancrea's concern. He is an Earthen Ring shaman working with the Horde on Ashenvale's coast, and he sends Horde adventurers to recover the fathom core. Alliance explorers in Blackfathom Deeps have other errands there."
+   "answer": "Not directly. Je'neu Sancrea is an Earthen Ring shaman working with the Horde on Ashenvale's coast, and the Fathom Stone and Baron Aquanis are his concern. He sends Horde adventurers to recover the fathom core. Alliance explorers in Blackfathom Deeps have other errands there."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "For shamans of the Earthen Ring, Baron Aquanis is a tragic example of elemental perversion. His tainted remains offer insight into purifying twisted spirits."
+   "text": "For a shaman of the Earthen Ring, Baron Aquanis is a tragic example of elemental perversion. His tainted remains may offer insight into purifying twisted spirits."
   },
   {
    "target": "faction:Horde",
@@ -110,5 +110,5 @@
   "Baron Aquanis (quest)",
   "Amongst the Ruins"
  ],
- "style": 1
+ "style": 2
 }

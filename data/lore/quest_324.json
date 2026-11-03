@@ -17,16 +17,16 @@
   "wiki": "The Lost Ingots",
   "chain": []
  },
- "summary": "Glorin Steelbrow needs Lightforge iron from a shipwreck off the Wetlands. The chest holds only one ingot, and the Bluegill murlocs have taken the rest.",
+ "summary": "Glorin Steelbrow seeks Lightforge iron from a shipwreck off the Wetlands. The chest holds only one ingot, and Bluegill murlocs have taken the rest.",
  "sections": [
   {
    "title": "A Plundered Shipwreck",
-   "body": "The Flying Osprey lies broken off the Wetlands shore. Glorin Steelbrow, a dwarven priest, sent you to recover its Lightforge iron. The waterlogged chest in the cargo hold holds only a single ingot. Bluegill murlocs near the wreck have scavenged the rest of the shipment.",
+   "body": "The Flying Osprey lies broken off the Wetlands shore. Glorin Steelbrow, a dwarven priest, sent you to recover its Lightforge iron. Yet the waterlogged chest in the cargo hold holds only one ingot. Bluegill murlocs near the wreck scavenged the rest of the shipment.",
    "spoiler": 0
   },
   {
    "title": "Reclaiming the Sacred Metal",
-   "body": "Lightforge iron is rare metal suited to sacred smithing. Glorin Steelbrow needs it for a weapon, so the bars cannot be left in Bluegill camps. Hunt the Bluegill raiders in the shallows near the broken hull and reclaim the scattered ingots for Glorin.",
+   "body": "Lightforge iron is rare metal, fit for sacred smithing. Glorin Steelbrow needs it for a weapon, so the bars cannot remain in Bluegill camps. The Bluegill raiders hunt the shallows near the broken hull. Reclaim the scattered ingots for Glorin.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "why are murlocs holding iron",
     "chest empty"
    ],
-   "answer": "Only one ingot remained in the waterlogged chest. Bluegill murlocs had scavenged the rest of the shipment from the wreck."
+   "answer": "Only one ingot remained in the waterlogged chest. Bluegill murlocs scavenged the rest of the shipment from the wreck."
   },
   {
    "q": "Who is Glorin Steelbrow?",
@@ -56,7 +56,7 @@
     "who is glorin steelbrow",
     "quest giver"
    ],
-   "answer": "Glorin Steelbrow is a dwarven priest of the Church of the Holy Light in the Deepwater Tavern in Menethil Harbor. A colleague of Bishop Farthing, he seeks Lightforge iron for a weapon to use against the necromancer Morbent Fel."
+   "answer": "Glorin Steelbrow is a dwarven priest of the Church of the Holy Light in the Deepwater Tavern in Menethil Harbor. A colleague of Bishop Farthing, he seeks Lightforge iron for a weapon against the necromancer Morbent Fel."
   },
   {
    "q": "What is special about Lightforge iron?",
@@ -83,13 +83,13 @@
     "what does glorin do",
     "blessed arm quest"
    ],
-   "answer": "After Glorin Steelbrow receives all the ingots, he packs the sanctified metal in a crate and sends you to weaponsmith Grimand Elmore in Stormwind. There, the metal is forged in Blessed Arm."
+   "answer": "After Glorin Steelbrow receives all the ingots, he packs the sanctified metal in a crate and sends you to weaponsmith Grimand Elmore in Stormwind. There, the metal is forged into Blessed Arm."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, recovering lost masterwork ore for a dwarven priest like Glorin Steelbrow honors your people's tradition of craftsmanship and reclaiming what was lost."
+   "text": "As a dwarf, recovering lost masterwork ore for a dwarven priest like Glorin Steelbrow honors your people's craft and tradition of reclaiming what was lost."
   },
   {
    "target": "class:Paladin",
@@ -97,7 +97,7 @@
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "As a blacksmith, you know the loss of fine Lightforge iron to a coastal murloc nest, where it lies unused instead of being worked at an anvil."
+   "text": "As a blacksmith, you know fine Lightforge iron is wasted in a coastal murloc nest when it could be worked at an anvil."
   }
  ],
  "keywords": [
@@ -120,5 +120,5 @@
  "attribution": [
   "The Lost Ingots"
  ],
- "style": 1
+ "style": 2
 }

@@ -27,16 +27,16 @@
    "Broken Sigil"
   ]
  },
- "summary": "Zengu in Hammerfall wants the sigils that guard Trol'kalar, the sword of Lord Ignaeus Trollbane. The first, the Sigil of Strom, was taken by the Syndicate, and a Syndicate agent in Stromgarde is likely to hold it.",
+ "summary": "At Hammerfall, Zengu seeks the sigils that guard Trol'kalar, Lord Ignaeus Trollbane's sword. The Syndicate took the Sigil of Strom, and one of its agents in Stromgarde likely carries it.",
  "sections": [
   {
    "title": "The Legacy of Trollbane",
-   "body": "In ancient times the trolls fought the Arathorian Empire, and their ablest foe was Lord Ignaeus of Strom, called Trollbane. He went into battle wielding Trol'kalar, a name that means troll slayer in the trolls' old tongue. Now Trollbane's sons are weakened and their stronghold lies in ruins.",
+   "body": "Long ago, Lord Ignaeus of Strom, called Trollbane, was the Arathorian Empire's ablest foe in its war against the trolls. He wielded Trol'kalar in battle. In the trolls' old tongue, its name means troll slayer. Now Trollbane's sons are weakened, and their stronghold lies in ruins.",
    "spoiler": 0
   },
   {
    "title": "The First Sigil",
-   "body": "Several sigils protect the sword, and the survivors of Stromgarde each took a share of them. Zengu says they must all be retrieved. The Syndicate seized the first, and Zengu reckons one of their agents in Stromgarde has it. Bring it back to him at Hammerfall.",
+   "body": "Several sigils guard Trol'kalar, and Stromgarde's survivors each took some. Zengu says they must all be recovered. The Syndicate seized the first, the Sigil of Strom. Zengu believes one of its agents in Stromgarde holds it. Bring the sigil back to Zengu at Hammerfall.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "who gives sigil of strom",
     "zengu hammerfall"
    ],
-   "answer": "Zengu is at Hammerfall, in Arathi. He is gathering the sigils that protect Trol'kalar, the sword of Lord Ignaeus Trollbane."
+   "answer": "At Hammerfall in Arathi, Zengu is gathering the sigils that guard Trol'kalar, Lord Ignaeus Trollbane's sword."
   },
   {
    "q": "What is Trol'kalar?",
@@ -56,7 +56,7 @@
     "trol'kalar meaning",
     "trollbane sword"
    ],
-   "answer": "Trol'kalar means troll slayer in the trolls' ancient tongue. Lord Ignaeus of Strom, called Trollbane, rode into battle with it against the trolls."
+   "answer": "Trol'kalar means troll slayer in the trolls' ancient tongue. Lord Ignaeus of Strom, called Trollbane, rode into battle against the trolls with the sword."
   },
   {
    "q": "Why is the Sigil of Strom needed?",
@@ -64,7 +64,7 @@
     "why get the sigil",
     "purpose of sigil of strom"
    ],
-   "answer": "The sword is guarded by several sigils, which the survivors of Stromgarde split up between them. Zengu wants them all, and the Sigil of Strom is the first."
+   "answer": "Several sigils guard Trol'kalar, and Stromgarde's survivors divided them among themselves. Zengu wants them all, beginning with the Sigil of Strom."
   },
   {
    "q": "Who holds the Sigil of Strom?",
@@ -73,7 +73,7 @@
     "where is the sigil of strom",
     "syndicate sigil"
    ],
-   "answer": "The Syndicate took it. It is most likely carried by one of their agents in Stromgarde."
+   "answer": "The Syndicate took the Sigil of Strom. One of its agents in Stromgarde is most likely carrying it."
   }
  ],
  "angles": [],
@@ -99,5 +99,6 @@
  ],
  "attribution": [
   "Sigil of Strom (Classic)"
- ]
+ ],
+ "style": 2
 }

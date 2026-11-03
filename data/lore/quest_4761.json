@@ -17,16 +17,16 @@
   "wiki": "Thundris Windweaver (quest)",
   "chain": []
  },
- "summary": "In Auberdine, reports of Blackwood aggression reach the village elder. Terenthis sends you to Thundris Windweaver with news of the furbolgs’ growing hostility. Thundris seeks the cause of the corruption spreading through Darkshore.",
+ "summary": "In Auberdine, Thundris Windweaver hears that the Blackwood furbolgs have grown hostile. Terenthis sends you with news of their growing aggression, and Thundris seeks the cause of the corruption spreading through Darkshore.",
  "sections": [
   {
    "title": "A Report to the Elder",
-   "body": "After scouting corrupted furbolg camps in Darkshore, you carry Terenthis’s report to Thundris Windweaver in Auberdine. Terenthis remains in the wilds to investigate the spreading corruption. As village elder, Thundris oversees the settlement’s daily welfare and considers the spiritual and environmental dangers facing the kaldorei. Your report gives Auberdine’s leadership evidence that the furbolgs are growing more than territorial: an unnatural malice is taking hold of them.",
+   "body": "You bring Terenthis’s report to Thundris Windweaver in Auberdine after scouting corrupted furbolg camps in Darkshore. Terenthis stays in the wilds to investigate the spreading corruption. As village elder, Thundris watches over daily life and weighs the spiritual and environmental dangers facing the kaldorei. Your report gives Auberdine’s leaders proof that the furbolgs’ troubles reach beyond territory: an unnatural malice is taking hold of them.",
    "spoiler": 0
   },
   {
    "title": "Corruption Along the Coast",
-   "body": "Thundris has heard of rising hostility from the forest dwellers near Auberdine. The furbolgs’ aggression is not the only concern. Corruption is spreading through Darkshore’s soil, plants, and waters. Thundris believes the land cannot be healed until the source of the blight is found. He turns to the waterways and enlists capable allies to trace the taint upstream.",
+   "body": "Thundris has heard that the forest dwellers near Auberdine have grown hostile. Yet the furbolgs are not his only concern. Corruption spreads through Darkshore’s soil, plants, and waters. Thundris believes the land cannot heal until someone finds the source of the blight. So he turns to the waterways and calls on capable allies to trace the taint upstream.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "auberdine elder",
     "who is thundris"
    ],
-   "answer": "Thundris Windweaver leads Auberdine as its elder, overseeing the town’s governance and daily affairs. He works with sentinels and druids to understand and fight the corruption spreading through Darkshore."
+   "answer": "Thundris Windweaver leads Auberdine as its elder and oversees the town’s governance and daily affairs. He works with sentinels and druids to understand and fight the corruption spreading through Darkshore."
   },
   {
    "q": "Why does Terenthis send you to Thundris?",
@@ -47,7 +47,7 @@
     "terenthis report",
     "auberdine report"
    ],
-   "answer": "Terenthis sends you to brief Auberdine’s leadership after you scout the Blackwood furbolg camps. Thundris Windweaver has theories about the madness affecting the wildlife and furbolgs, and needs firsthand news to coordinate a response."
+   "answer": "Terenthis sends you to brief Auberdine’s leaders after you scout the Blackwood furbolg camps. Thundris Windweaver has theories about the madness affecting wildlife and furbolgs, and needs firsthand news to coordinate a response."
   },
   {
    "q": "What is happening to the furbolgs in Darkshore?",
@@ -56,7 +56,7 @@
     "furbolg hostility",
     "why are furbolgs mad"
    ],
-   "answer": "Darkshore’s furbolgs have grown increasingly violent as corruption warps the forest. Their hostility comes from a taint poisoning the land, not merely from disputes over territory."
+   "answer": "Corruption has made Darkshore’s furbolgs increasingly violent. Their hostility comes from a taint poisoning the land, not merely from disputes over territory."
   },
   {
    "q": "Where does this investigation lead next?",
@@ -71,11 +71,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Auberdine is the kaldorei’s primary port and foothold on the mainland coast. Bringing news to Elder Windweaver supports your people’s effort to preserve their sacred wilderness."
+   "text": "Auberdine is the kaldorei’s main port and foothold on the mainland coast. Bringing news to Elder Windweaver supports your people’s effort to preserve their sacred wilderness."
   },
   {
    "target": "class:Druid",
-   "text": "The rapid corruption of local furbolgs and forest dwellers signals a severe ecological imbalance. Cenarion allies and village elders cannot ignore it."
+   "text": "The swift corruption of local furbolgs and forest dwellers signals a severe imbalance in the land. Cenarion allies and village elders cannot ignore it."
   },
   {
    "target": "faction:Alliance",
@@ -102,5 +102,5 @@
  "attribution": [
   "Thundris Windweaver (quest)"
  ],
- "style": 1
+ "style": 2
 }

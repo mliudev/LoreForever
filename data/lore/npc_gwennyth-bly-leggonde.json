@@ -8,11 +8,11 @@
   "wiki": "Gwennyth Bly'Leggonde",
   "refs": 11
  },
- "summary": "Along Darkshore's coast, Gwennyth Bly'Leggonde watches the tides and the remains washing ashore. The night elf lives in Auberdine and sends travelers to examine strange sea creatures and massive turtles found dead on the northern beaches.",
+ "summary": "Along Darkshore's coast, Gwennyth Bly'Leggonde watches the tides and what they leave behind. From Auberdine, the night elf sends travelers to examine strange sea creatures and massive turtles found dead on the northern beaches.",
  "sections": [
   {
    "title": "Watcher of the Shifting Sands",
-   "body": "Gwennyth Bly'Leggonde keeps watch over the coast from her home in Auberdine. While others in town tend to the forest or shipping across the Veiled Sea, she follows the shoreline. Lately, the tides have carried the remains of huge sea creatures onto the sands. She asks travelers to search the beaches, bring back skeletal samples, and learn what is happening in the waters offshore.",
+   "body": "Gwennyth Bly'Leggonde keeps watch over the coast from her home in Auberdine. While others in town tend to the forest or shipping across the Veiled Sea, she follows the shoreline. Lately, the tides have carried the remains of huge sea creatures onto the sands.\n\nShe asks travelers to search the beaches and bring back skeletal samples. With them, she hopes to learn what is happening in the waters offshore.",
    "spoiler": 0
   },
   {
@@ -29,7 +29,7 @@
     "gwennyth auberdine",
     "gwennyth lore"
    ],
-   "answer": "Gwennyth Bly'Leggonde is a night elf in Auberdine, Darkshore, who studies strange changes along the shore. She sends travelers to survey the beaches and investigate what the sea has cast ashore."
+   "answer": "Gwennyth Bly'Leggonde is a night elf in Auberdine who studies strange changes along Darkshore's shore. She sends travelers to survey the beaches and investigate what the sea has cast ashore."
   },
   {
    "q": "Where can I find Gwennyth Bly'Leggonde?",
@@ -38,7 +38,7 @@
     "gwennyth location",
     "find gwennyth"
    ],
-   "answer": "Gwennyth Bly'Leggonde can be found in Auberdine, near the beach and docks on Darkshore's mist-shrouded coast."
+   "answer": "You can find Gwennyth Bly'Leggonde in Auberdine, near the beach and docks on Darkshore's mist-shrouded coast."
   },
   {
    "q": "Why is she interested in beached creatures?",
@@ -47,7 +47,7 @@
     "why does she want bones",
     "washed ashore quest"
    ],
-   "answer": "The dead sea turtles and other strange sea creatures may point to an imbalance or an unseen predator in the waters off Darkshore. Gwennyth examines remains from the coast to find the cause."
+   "answer": "The dead sea turtles and other strange sea creatures may point to an imbalance or an unseen predator in the waters off Darkshore. Gwennyth studies the remains to find the cause."
   },
   {
    "q": "What quests does Gwennyth offer?",
@@ -55,7 +55,7 @@
     "gwennyth quests",
     "what does she give"
    ],
-   "answer": "Gwennyth sends travelers to investigate the sea creatures and turtles washing ashore along Darkshore's coast, and receives their discoveries."
+   "answer": "Gwennyth sends travelers to investigate the sea creatures and turtles washing ashore along Darkshore's coast, then receives their discoveries."
   },
   {
    "q": "Is she part of the Cenarion Circle or the Sentinels?",
@@ -110,5 +110,5 @@
  "attribution": [
   "Gwennyth Bly'Leggonde"
  ],
- "style": 1
+ "style": 2
 }

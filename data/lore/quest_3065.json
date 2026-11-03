@@ -21,12 +21,12 @@
  "sections": [
   {
    "title": "A Summons to Arms",
-   "body": "After you prove you can face the Mottled Boars, Gornek hands you a parchment marked specifically for you. Durotar is harsh, and the Horde quickly gives its fighters guidance. The parchment directs you to Frang, the veteran warrior trainer outside the Den.",
+   "body": "After you prove yourself against the Mottled Boars, Gornek gives you a parchment marked for you alone. Durotar is harsh, so the Horde gives its fighters guidance quickly. The parchment sends you to Frang, the veteran warrior trainer outside the Den.",
    "spoiler": 0
   },
   {
    "title": "Under the Shade of the Den",
-   "body": "Frang shelters in the shade outside the Den and watches recruits arrive from the red scrubland. With a seasoned eye, he judges each new arrival before teaching the fundamentals, whether with a heavy axe or a spear. He prepares each recruit to defend the young Horde's fragile settlements.",
+   "body": "Frang shelters in the shade outside the Den and watches recruits come from the red scrubland. He judges each arrival with a seasoned eye, then teaches the fundamentals with a heavy axe or a spear. He prepares each recruit to defend the young Horde's fragile settlements.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "who wrote the tablet",
     "who sent simple tablet"
    ],
-   "answer": "Frang sends the message. The veteran warrior trainer rests outside the Den and watches for emerging fighters."
+   "answer": "Frang sends the message. The veteran warrior trainer waits outside the Den for emerging fighters."
   },
   {
    "q": "Where can I find Frang?",
@@ -63,7 +63,7 @@
     "frang spear quote",
     "why spears"
    ],
-   "answer": "Frang acknowledges that Horde recruits use different fighting styles. Orcs favor heavy choppers such as greataxes, while trolls and other fighters often choose spears and lighter polearms; both serve well in battle."
+   "answer": "Frang recognizes that Horde recruits fight in different ways. Orcs favor heavy choppers such as greataxes, while trolls and other fighters often choose spears and lighter polearms. Both serve well in battle."
   },
   {
    "q": "Do other classes get this quest?",
@@ -71,7 +71,7 @@
     "is simple tablet warrior only",
     "class quests in valley of trials"
    ],
-   "answer": "No. Warriors receive the Simple Tablet, while other classes do not receive it and are directed to their own mentors by a parchment, rune, or scroll."
+   "answer": "No. Warriors receive the Simple Tablet, while other classes receive no such message and are directed to their own mentors by a parchment, rune, or scroll."
   },
   {
    "q": "What is the purpose of the Den?",
@@ -79,17 +79,17 @@
     "what is the den",
     "the den durotar"
    ],
-   "answer": "The Den is a sheltered cavern complex in the Valley of Trials where trainers, supplies, and resting recruits gather away from the blazing heat and wandering beasts."
+   "answer": "The Den is a sheltered cavern complex in the Valley of Trials. Trainers, supplies, and resting recruits gather there, away from the blazing heat and wandering beasts."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a warrior, this summons marks your very first step on Durotar's warrior path. Frang teaches you foundational stances and strikes."
+   "text": "As a warrior, this summons marks your first step on Durotar's warrior path. Frang teaches you foundational stances and strikes."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you join its steady stream of hardened front-line fighters, sent to secure Durotar's precarious borders against centaur, quilboar, and human interlopers."
+   "text": "As a member of the Horde, you join its steady stream of hardened front-line fighters. They are sent to secure Durotar's precarious borders against centaur, quilboar, and human interlopers."
   },
   {
    "target": "race:Troll",
@@ -116,5 +116,5 @@
  "attribution": [
   "Simple Tablet (quest)"
  ],
- "style": 1
+ "style": 2
 }

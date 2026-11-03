@@ -7,26 +7,26 @@
  "meta": {
   "wiki": "House of Nobles"
  },
- "summary": "The House of Nobles is the hereditary aristocratic council that helps administer the kingdom of Stormwind from Stormwind Keep. Holding immense leverage over regional land, taxation, and trade, their refusal to pay the rebuilt city's laborers ignited the bloody riots that ultimately shook the realm.",
+ "summary": "In Stormwind Keep, the House of Nobles holds the kingdom’s lands, taxes, and trade. Their refusal to pay the laborers who rebuilt the city set off bloody riots that shook the realm.",
  "sections": [
   {
    "title": "Aristocrats of the Realm",
-   "body": "Composed of Stormwind's most powerful patrician bloodlines, the House of Nobles serves as the primary advisory body to the Crown. Because the aristocracy owns the majority of the arable land throughout Elwynn, Westfall, and Duskwood, they wield outsized authority over commerce, regional magistrates, and royal decrees. While the boy-king Anduin Wrynn and Highlord Bolvar Fordragon officially rule the kingdom, the council routinely ties the throne's hands in red tape, asserting the power to stall trials, block executions, and meddle in provincial administration.",
+   "body": "Stormwind’s greatest patrician families form the House of Nobles, the Crown’s chief council. They own most arable land in Elwynn, Westfall, and Duskwood, and so hold great sway over trade, regional magistrates, and royal decrees. Boy-king Anduin Wrynn and Highlord Bolvar Fordragon rule Stormwind in name. Yet the council can bind the throne in red tape, stall trials, block executions, and meddle in provincial affairs.",
    "spoiler": 0
   },
   {
    "title": "Bureaucratic Paralysis",
-   "body": "With King Varian missing, the nobles have largely abandoned the kingdom's outlying territories to fend for themselves while exploiting royal authority for petty squabbles. Officials in Darkshire seethe because the House of Nobles countermanded their death sentence for the grave robber Dextren Ward, ordering him spared and transferred to the Stormwind Stockade instead. Similarly, the execution of the Blackrock Orc chieftain Targorr the Dread has been indefinitely delayed simply because a scheming noble wishes to use the monster as a political pawn, leaving local sentries to watch Stormwind rot from within.",
+   "body": "With King Varian missing, the nobles leave outlying territories to fend for themselves, yet wield royal authority in petty disputes. Darkshire’s officials seethe after the House overturned their death sentence for grave robber Dextren Ward.\n\nThe nobles ordered him spared and sent to the Stormwind Stockade instead. The execution of Blackrock Orc chieftain Targorr the Dread has also been delayed indefinitely. A scheming noble would use him as a political pawn, while local sentries watch Stormwind rot from within.",
    "spoiler": 1
   },
   {
    "title": "Whispers of Treason",
-   "body": "The council's obstinacy is far from simple greed. In truth, Lady Katrana Prestor—secretly the black dragon Onyxia—has systematically manipulated the House of Nobles to paralyze the kingdom. By stoking the aristocracy's arrogance during the stonemason negotiations and encouraging them to hoard royal funds, she orchestrated the realm's internal paralysis. High-ranking aristocrats like Lord Gregor Lescovar actively conspire alongside the Defias Brotherhood in the shadow of the throne, ensuring no imperial troops march to save the outlying towns.",
+   "body": "The House of Nobles’ stubbornness reaches beyond greed. Lady Katrana Prestor, secretly the black dragon Onyxia, has manipulated the council and paralyzed the kingdom. During talks with the stonemasons, she fed the aristocracy’s arrogance and urged them to hoard royal funds. Lord Gregor Lescovar and other high-ranking nobles conspire with the Defias Brotherhood in the throne’s shadow. No imperial troops march to aid the outlying towns.",
    "spoiler": 1
   },
   {
    "title": "The Labor Revolt",
-   "body": "Following the Second War, the House of Nobles contracted Guildmaster Edwin VanCleef and the Stonemasons Guild to rebuild Stormwind City from its ashes. However, the nobility simultaneously incurred staggering debts while expanding the kingdom's military frontier south into Stranglethorn. When the gleaming capital was finished, the nobles balked at the invoice and refused to pay the workers their full wages. Enraged by the betrayal, the masons rioted in the streets, prompting the nobility to banish the guild, driving the ruined workers into Westfall to form the Defias Brotherhood.",
+   "body": "After the Second War, the House of Nobles hired Guildmaster Edwin VanCleef and the Stonemasons Guild to rebuild Stormwind City from its ashes. At the same time, the nobles ran up great debts while pushing the kingdom’s military frontier south into Stranglethorn. Once the gleaming capital was finished, they balked at the bill and withheld the workers’ full wages.\n\nBetrayed, the masons rioted in the streets. The nobles banished the guild, driving the ruined workers into Westfall, where they formed the Defias Brotherhood.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who are the nobles in stormwind",
     "house of nobles lore"
    ],
-   "answer": "The House of Nobles is Stormwind's ruling aristocratic assembly, composed of prominent landowning families whose titles and seats are passed down through inheritance. They serve as advisors to the monarch and control much of the kingdom's domestic policy, taxes, and labor laws."
+   "answer": "The House of Nobles is Stormwind’s ruling assembly of aristocratic families, whose titles and seats pass through inheritance. Its members advise the monarch and control much of the kingdom’s domestic policy, taxes, and labor laws."
   },
   {
    "q": "Why did the House of Nobles refuse to pay the Stonemasons?",
@@ -47,7 +47,7 @@
     "why did nobles stiff vancleef",
     "defias unpaid"
    ],
-   "answer": "The nobility heavily overextended Stormwind's treasury by financing costly military expeditions southward into Elwynn and Stranglethorn. When Edwin VanCleef presented the bill for rebuilding Stormwind City, the nobles could not pay, offering a fraction of what was promised and eventually ordering the guild disbanded."
+   "answer": "Stormwind’s nobles overextended the treasury with costly military expeditions southward into Elwynn and Stranglethorn. When Edwin VanCleef presented the bill for rebuilding Stormwind City, they could not pay. They offered only a fraction of the promised sum, then ordered the guild disbanded."
   },
   {
    "q": "What happened when the Stonemasons rioted?",
@@ -56,7 +56,7 @@
     "what happened in the riots",
     "why were the stonemasons banished"
    ],
-   "answer": "When the House of Nobles refused to pay, the stonemasons rioted in the streets of Stormwind. The nobility banished the guild from the city, and the ruined workers fled into Westfall, where they became the Defias Brotherhood."
+   "answer": "When the House of Nobles refused payment, the stonemasons rioted in Stormwind’s streets. The nobles banished the guild, and the ruined workers fled to Westfall, where they became the Defias Brotherhood."
   },
   {
    "q": "Why won't Stormwind send troops to help Westfall or Duskwood?",
@@ -65,7 +65,7 @@
     "why does stormwind ignore westfall",
     "why won't stormwind send army"
    ],
-   "answer": "The House of Nobles controls the realm's purse strings and administrative authorizations. The nobility continuously blocks funding, military deployments, and municipal aid to outlying territories, leaving local militias like the People's Militia and the Night Watch entirely isolated."
+   "answer": "The House of Nobles controls the realm’s purse strings and administrative approvals. Its members repeatedly block funding, troop deployments, and municipal aid to outlying territories, leaving local forces such as the People’s Militia and the Night Watch isolated."
   },
   {
    "q": "Who was Lord Baurles K. Wishock?",
@@ -74,7 +74,7 @@
     "baurles wishock",
     "noble murdered by warlocks"
    ],
-   "answer": "Lord Baurles K. Wishock is an influential noble lobbying for an investigation of the warlocks beneath The Slaughtered Lamb. The consequences of his inquiry are uncovered in the warlock quest chain."
+   "answer": "Lord Baurles K. Wishock is an influential noble pressing for an investigation of the warlocks beneath The Slaughtered Lamb. The consequences of his inquiry unfold in the warlock storyline."
   },
   {
    "q": "Did all the nobles turn against the Stonemasons?",
@@ -83,25 +83,25 @@
     "count erlgadin",
     "nobles who supported masons"
    ],
-   "answer": "No. Count S. J. Erlgadin supported the masons and lobbied fiercely to improve their wages and working conditions. Erlgadin grew so disgusted by his peers' betrayal of the guild that he renounced his title and seat entirely, fleeing society to join Hemet Nesingwary's expedition in Stranglethorn."
+   "answer": "No. Count S. J. Erlgadin supported the masons and fought to improve their wages and working conditions. Disgusted by his peers’ betrayal, he gave up his title and seat, left society, and joined Hemet Nesingwary’s expedition in Stranglethorn."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For humans of Westfall and Duskwood, the House of Nobles represents arrogant highborn who sit comfortably in their marble palace while common folk bleed to defend their homesteads from bandits and monsters."
+   "text": "For humans of Westfall and Duskwood, the House of Nobles means arrogant highborn in a marble palace, while common folk bleed defending their homesteads from bandits and monsters."
   },
   {
    "target": "class:Rogue",
-   "text": "The nobility's bitter squabbles, corrupt dealings, and dirty secrets provide ample work for fixers, cutpurses, and the master cheesemonger Elling Trias."
+   "text": "The nobles’ bitter quarrels, corrupt dealings, and dirty secrets offer work for fixers, cutpurses, and master cheesemonger Elling Trias."
   },
   {
    "target": "class:Warlock",
-   "text": "Stormwind's practitioners of the dark arts beneath The Slaughtered Lamb face unwanted inquiries from influential nobles."
+   "text": "Influential nobles are turning their attention to Stormwind’s practitioners of the dark arts beneath The Slaughtered Lamb."
   },
   {
    "target": "faction:Alliance",
-   "text": "While powerful within Stormwind City's court, the House of Nobles holds little sway over the wider Grand Alliance, though their stinginess constantly threatens the southern human territories' stability."
+   "text": "The House of Nobles holds power in Stormwind City’s court but little sway over the wider Grand Alliance. Its stinginess keeps threatening the southern human territories’ stability."
   }
  ],
  "keywords": [
@@ -127,5 +127,6 @@
  ],
  "attribution": [
   "House of Nobles"
- ]
+ ],
+ "style": 2
 }

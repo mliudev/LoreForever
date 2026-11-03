@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Camp Aparaje"
  },
- "summary": "Grimtotem warriors hold Camp Aparaje in the eastern heights of the Stonetalon Mountains. The tribe slaughtered the peaceful tauren who settled there and claimed the outpost.",
+ "summary": "Grimtotem warriors now hold Camp Aparaje in the eastern heights of the Stonetalon Mountains. They slaughtered the peaceful tauren who settled there and claimed the outpost.",
  "sections": [
   {
    "title": "A Tragic Downfall",
-   "body": "Camp Aparaje lies among the Stonetalon crags, where peaceful tauren once sought a quiet life in the highlands. Raiders from nearby Grimtotem Post struck under Grundig Darkcloud's lead. The attackers butchered villagers or drove them away. Survivors such as Makaba Flathoof mourn the loss of their home and fear for kin taken captive.",
+   "body": "Peaceful tauren once made their home among the Stonetalon crags, seeking a quiet life in the highlands. Then raiders from nearby Grimtotem Post struck under Grundig Darkcloud's lead. The attackers butchered some villagers and drove others away. Survivors such as Makaba Flathoof mourn their lost home and fear for kin taken captive.",
    "spoiler": 0
   },
   {
    "title": "Under Grimtotem Sway",
-   "body": "Grimtotem warriors now occupy Camp Aparaje as a forward base for their aggressive tribe in the region. Many Grimtotem settlements bear blue markings, but the great totem here is carved with deep crimson paint.",
+   "body": "Grimtotem warriors now occupy Camp Aparaje as a forward base for their aggressive tribe in the region. Many Grimtotem settlements bear blue markings, but the great totem here is painted deep crimson.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "camp aparaje original villagers",
     "makaba flathoof village"
    ],
-   "answer": "Peaceful tauren affiliated with the Horde and Bloodhoof tribe lived at Camp Aparaje, including Makaba Flathoof and his daughter Kaya, before the settlement was invaded."
+   "answer": "Peaceful tauren of the Horde and Bloodhoof tribe lived at Camp Aparaje, including Makaba Flathoof and his daughter Kaya. They were there before the settlement was invaded."
   },
   {
    "q": "Why is the camp hostile to Horde players?",
@@ -37,7 +37,7 @@
     "who controls camp aparaje",
     "why is camp aparaje red"
    ],
-   "answer": "The Grimtotem seized the village by force. The xenophobic, treacherous tauren clan rejects Cairne Bloodhoof's authority and attacks outsiders, including members of the Horde."
+   "answer": "The Grimtotem seized the village by force. The xenophobic, treacherous clan rejects Cairne Bloodhoof's authority and attacks outsiders, even members of the Horde."
   },
   {
    "q": "Who led the assault on Camp Aparaje?",
@@ -55,7 +55,7 @@
     "where are the survivors",
     "are there survivors"
    ],
-   "answer": "Most villagers died in the raid. A few escaped, while others, including young Kaya Flathoof, were captured and held at nearby Grimtotem Post."
+   "answer": "Most villagers died in the raid. A few escaped, while others were captured and held at nearby Grimtotem Post, including young Kaya Flathoof."
   }
  ],
  "angles": [
@@ -90,5 +90,5 @@
  "attribution": [
   "Camp Aparaje"
  ],
- "style": 1
+ "style": 2
 }

@@ -24,16 +24,16 @@
   ],
   "category": "Badlands"
  },
- "summary": "Neeka Bloodscar has written a fresh report for Helgrum the Swift in Stonard, and asks you to carry it there. This follows your visit to Neeka at Kargath.",
+ "summary": "At Kargath, Neeka Bloodscar gives you a fresh report for Helgrum the Swift in Stonard. You have just spoken with her there.",
  "sections": [
   {
    "title": "A Report for Stonard",
-   "body": "Neeka Bloodscar has written a new report for Helgrum in Stonard and hands it to you. Neeka adds that anyone who calls themselves an outrunner must not lose the way, or fall to an enemy.",
+   "body": "Neeka Bloodscar gives you a fresh report for Helgrum in Stonard. She warns that anyone who calls themselves an outrunner must keep the way and avoid falling to an enemy.",
    "spoiler": 0
   },
   {
    "title": "Helgrum Reads the Report",
-   "body": "Reading Neeka's report, Helgrum sees that the Alliance has troubles of its own. Helgrum also thinks the Horde and the Alliance may turn out to share some enemies.",
+   "body": "Helgrum the Swift reads Neeka's report and learns that the Alliance has troubles of its own. He thinks the Horde and Alliance may share some enemies.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "quest giver report to helgrum",
     "who starts this quest"
    ],
-   "answer": "Neeka Bloodscar, who has written a fresh report for Helgrum."
+   "answer": "Neeka Bloodscar has written a fresh report for Helgrum and asks you to carry it."
   },
   {
    "q": "Where does the report need to be delivered?",
@@ -54,7 +54,7 @@
     "helgrum location",
     "where is helgrum"
    ],
-   "answer": "To Helgrum the Swift in Stonard."
+   "answer": "Deliver the report to Helgrum the Swift in Stonard."
   },
   {
    "q": "What comes before this?",
@@ -63,7 +63,7 @@
     "prerequisite for report to helgrum",
     "what quest comes first"
    ],
-   "answer": "It follows the earlier step in which Helgrum sent you to speak with Neeka Bloodscar at Kargath."
+   "answer": "This follows your earlier visit to Neeka Bloodscar at Kargath."
   }
  ],
  "angles": [],
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Report to Helgrum"
- ]
+ ],
+ "style": 2
 }

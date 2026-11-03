@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Jaggedswine Farm"
  },
- "summary": "South of Orgrimmar's main gate, Jaggedswine Farm raises swine for the capital. Its shed, pen, and watering hole serve the Horde's nearby stronghold.",
+ "summary": "South of Orgrimmar’s main gate, Jaggedswine Farm raises swine to feed the capital. Its shed, pen, and watering hole supply the nearby stronghold.",
  "sections": [
   {
    "title": "Provisions for the Capital",
-   "body": "Jaggedswine Farm shows the harsh work of feeding an urban stronghold like Orgrimmar. Durotar's red soil supports little farming, so hardy livestock helps feed the city's warriors and laborers. A timber storehouse, a broad wooden pen, and a natural watering hole anchor the farm. Swine are herded, bred, and butchered here to keep the Horde's granaries supplied.",
+   "body": "Feeding Orgrimmar is hard work. Durotar’s red soil supports little farming, so hardy livestock helps feed the city’s warriors and laborers. A timber storehouse, broad wooden pen, and natural watering hole anchor the farm. Here, swine are herded, bred, and butchered to keep the Horde’s granaries supplied.",
    "spoiler": 0
   },
   {
    "title": "A Quiet Frontier",
-   "body": "Swineherds and patrolling Orgrimmar Grunts visit the farm, though the dry heat can leave it looking half-tended. Wild and mature swine roam inside and beyond the enclosures, sometimes testing nearby guards. The farm stands at the edge of the valley approach to the capital, an unassuming but necessary part of Durotar's daily supply work.",
+   "body": "Swineherds and patrolling Orgrimmar Grunts visit the farm, though dry heat can leave it looking half-tended. Wild and mature swine roam inside and beyond the enclosures, sometimes testing nearby guards. At the edge of the valley approach to the capital, the farm is an unassuming but necessary part of Durotar’s daily supply work.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "how to get to jaggedswine farm",
     "pig farm durotar location"
    ],
-   "answer": "Jaggedswine Farm lies in northern Durotar, just outside the southern approach and grand gates leading into Orgrimmar's Valley of Strength."
+   "answer": "Jaggedswine Farm lies in northern Durotar, just outside the southern approach and grand gates leading into Orgrimmar’s Valley of Strength."
   },
   {
    "q": "Why does the farm look somewhat deserted?",
@@ -65,7 +65,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you know stable meat supplies in Durotar's arid wastes mean survival. Jaggedswine Farm helps sustain Orgrimmar's military strength."
+   "text": "As a member of the Horde, you know steady meat supplies in Durotar’s arid wastes mean survival. Jaggedswine Farm helps sustain Orgrimmar’s military strength."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
  "attribution": [
   "Jaggedswine Farm"
  ],
- "style": 1
+ "style": 2
 }

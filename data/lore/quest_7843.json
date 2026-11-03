@@ -26,16 +26,16 @@
   "qtype": "PvP",
   "category": "Hinterlands"
  },
- "summary": "Otho Moji'ko gives you a spear soaked in blood and bound with gryphon feathers. You are to take it to Aerie Peak, in the west of the Hinterlands, and drive it into the earth beside the well at the heart of the town.",
+ "summary": "At Revantusk Village, Otho Moji'ko sends you west with a blood-soaked spear bound in gryphon feathers. The Wildhammer dwarves will find it planted beside the well at Aerie Peak's heart.",
  "sections": [
   {
    "title": "A Spear for Aerie Peak",
-   "body": "Following Another Message to the Wildhammer, Otho Moji'ko gives you the final message: a spear soaked in blood and bound with gryphon feathers. Carry it to Aerie Peak and plant it, dead center of town beside the well, to show the dwarves that trolls mean business. Otho hopes you come back alive, and warns of furious Wildhammer dwarves and rowdy Alliance folk.",
+   "body": "After Another Message to the Wildhammer, Otho Moji'ko gives you a spear soaked in blood and bound with gryphon feathers. Carry it west to Aerie Peak and plant it beside the well at the town's heart. The Wildhammer dwarves will see that the trolls mean business. Furious dwarves and rowdy Alliance folk await you there, and Otho hopes you return alive.",
    "spoiler": 0
   },
   {
    "title": "Otho's Hope",
-   "body": "Otho wishes to have seen the faces of the dwarves, and wonders aloud whether they are packing their bags and leaving town. Otho promises you the big mojo for the deed.",
+   "body": "Otho wonders how the dwarves will react when they see the spear. He wishes he could have seen their faces. Are they packing their bags to leave town? For carrying out the deed, Otho promises you the big mojo.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "who gives the quest",
     "otho mojiko"
    ],
-   "answer": "Otho Moji'ko, who stands in Revantusk Village."
+   "answer": "Otho Moji'ko sends you from Revantusk Village."
   },
   {
    "q": "Where must the spear be planted?",
@@ -56,7 +56,7 @@
     "where do i place the spear",
     "aerie peak well"
    ],
-   "answer": "Beside the well at the heart of Aerie Peak, in the west of the Hinterlands."
+   "answer": "Plant the spear beside the well at the heart of Aerie Peak, in the west of the Hinterlands."
   },
   {
    "q": "What is the final message made of?",
@@ -65,7 +65,7 @@
     "gryphon feathers spear",
     "the final message item"
    ],
-   "answer": "A spear soaked in blood and bound with gryphon feathers."
+   "answer": "The final message is a spear soaked in blood and bound with gryphon feathers."
   },
   {
    "q": "What came before this in the chain?",
@@ -74,7 +74,7 @@
     "prerequisites",
     "wildhammer message chain"
    ],
-   "answer": "It follows Another Message to the Wildhammer, in which Otho called for gryphon feathers to make this final message."
+   "answer": "Another Message to the Wildhammer came first. Otho called for gryphon feathers to make this final message."
   }
  ],
  "angles": [],
@@ -96,5 +96,6 @@
  ],
  "attribution": [
   "Wowpedia: The Final Message to the Wildhammer"
- ]
+ ],
+ "style": 2
 }

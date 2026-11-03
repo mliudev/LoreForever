@@ -20,16 +20,16 @@
    "Tharil'zun (quest)"
   ]
  },
- "summary": "Redridge's Blackrock orcs press in from the north and southeast, leaving Lakeshire under siege. Marshal Marris calls on adventurers to thin their ranks and bring back their battleworn axes.",
+ "summary": "Redridge's Blackrock orcs press from the north and southeast, and Lakeshire is under siege. Marshal Marris asks you to thin their ranks and bring back their battleworn axes.",
  "sections": [
   {
    "title": "A Town Under Siege",
-   "body": "Lakeshire faces threats from several sides, but the Blackrock orcs are the gravest danger. These seasoned raiders have crossed south from the fiery Burning Steppes into Redridge. They have taken strongholds and roam the craggy passes. Their presence keeps townspeople penned inside Lakeshire, cutting off trade, foraging, and travel along the northern roads.",
+   "body": "Lakeshire faces threats from several sides, but the Blackrock orcs are the gravest danger. They came south from the fiery Burning Steppes and now roam Redridge's craggy passes. After taking strongholds, they have penned townspeople inside Lakeshire. Trade, foraging, and travel along the northern roads have all been cut off.",
    "spoiler": 0
   },
   {
    "title": "Striking the Vanguard",
-   "body": "Marshal Marris commands Lakeshire's beleaguered guard, but he cannot spare soldiers to assault the orcs' positions. He calls on you to strike their forward scouts and foot soldiers instead. Their crude, battleworn axes will prove they are dead. Marris hopes to thin the invaders around Stonewatch to the north and in the rugged pockets of southeastern Redridge.",
+   "body": "Marshal Marris commands Lakeshire's beleaguered guard, but cannot spare soldiers to attack the orcs' positions. So he calls on you to strike their forward scouts and foot soldiers. Their crude, battleworn axes will prove they are dead. Marris hopes to thin the invaders near Stonewatch in the north and in the rugged pockets of southeastern Redridge.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "blackrock invasion redridge",
     "why are orcs in redridge"
    ],
-   "answer": "They marched south through the jagged mountain passes from the Burning Steppes, where their ancestral stronghold lies around Blackrock Mountain."
+   "answer": "They marched south through jagged mountain passes from the Burning Steppes, where their ancestral stronghold lies around Blackrock Mountain."
   },
   {
    "q": "Who issues this task?",
@@ -50,7 +50,7 @@
     "blackrock menace quest giver",
     "marshal marris quest"
    ],
-   "answer": "Marshal Marris, Lakeshire's senior military officer, issues the order. He is responsible for defending the town and keeping order as it becomes increasingly surrounded."
+   "answer": "Marshal Marris, Lakeshire's senior military officer, issues the order. He is responsible for defending the town and keeping order as it grows increasingly surrounded."
   },
   {
    "q": "Where can the Blackrock invaders be found?",
@@ -59,7 +59,7 @@
     "battleworn axe locations",
     "redridge orc camps"
    ],
-   "answer": "The Blackrock invaders occupy the northern highlands around Stonewatch Keep and have footholds in the southeastern pocket of the Redridge Mountains."
+   "answer": "The Blackrock invaders hold the northern highlands around Stonewatch Keep and footholds in the southeastern pocket of the Redridge Mountains."
   },
   {
    "q": "Why does Marshal Marris ask for battleworn axes?",
@@ -86,7 +86,7 @@
     "is blackrock clan part of thrall horde",
     "friendly orcs in redridge"
    ],
-   "answer": "No. The Blackrock clan here is made up of Old Horde remnants. They remain violently hostile to the Alliance and operate independently of Thrall's new Horde in Kalimdor."
+   "answer": "No. The Blackrock clan here is made up of Old Horde remnants. They remain violently hostile to the Alliance and act independently of Thrall's new Horde in Kalimdor."
   }
  ],
  "angles": [
@@ -96,11 +96,11 @@
   },
   {
    "target": "race:Human",
-   "text": "As a human, facing the Blackrock clan in Redridge brings bitter grief: they destroyed the original Kingdom of Stormwind in the First War."
+   "text": "As a human, facing the Blackrock clan in Redridge brings bitter grief. They destroyed the original Kingdom of Stormwind in the First War."
   },
   {
    "target": "class:Warrior",
-   "text": "As a warrior, meeting seasoned Blackrock marauders shield to shield tests your martial discipline and strength on the front line."
+   "text": "As a warrior, facing seasoned Blackrock marauders shield to shield tests your martial discipline and strength on the front line."
   }
  ],
  "keywords": [
@@ -126,5 +126,5 @@
  "attribution": [
   "Blackrock Menace"
  ],
- "style": 1
+ "style": 2
 }

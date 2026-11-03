@@ -8,11 +8,11 @@
   "wiki": "Elu",
   "refs": 1
  },
- "summary": "Elu is an apprentice wind rider stationed atop Freewind Post in Thousand Needles. Eager to begin his formal training and take to the skies, he tasks Horde travelers with retrieving wild wyvern eggs from nearby roosts.",
+ "summary": "At Freewind Post, Elu tends the mounts and waits to begin wind rider training. He hopes to fly and asks Horde travelers to bring back wild wyvern eggs from nearby roosts.",
  "sections": [
   {
    "title": "An Eager Apprentice",
-   "body": "Perched high above the salt flats and canyon floor at Freewind Post, Elu spends his days tending to the settlement's aerial mounts while dreaming of his own flight. As a young tauren apprentice, he longs to join the ranks of the master wind riders who patrol the towering mesas of Kalimdor. Before he can begin true flight training, however, he must prove his capability by supplying the roost with fresh wyvern stock, sending capable adventurers to harvest intact eggs from the fierce wild wyverns nesting at Highperch.",
+   "body": "At Freewind Post, Elu cares for the aerial mounts and dreams of flying. The young tauren hopes to join the master wind riders who patrol Kalimdor’s mesas. Before training begins, he must prove himself by bringing fresh wyvern stock to the roost. So he sends capable travelers to Highperch for intact eggs from the fierce wild wyverns nesting there.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is elu",
     "tauren apprentice elu"
    ],
-   "answer": "Elu is a tauren wind rider apprentice stationed at Freewind Post in Thousand Needles, responsible for helping secure and raise new mounts for the Horde's aerial network."
+   "answer": "Elu is a tauren apprentice wind rider at Freewind Post in Thousand Needles. He helps secure and raise new mounts for the Horde’s aerial network."
   },
   {
    "q": "Why does Elu need wyvern eggs?",
@@ -33,7 +33,7 @@
     "elu wyvern quest",
     "elu quest goal"
    ],
-   "answer": "Elu is tasked with replenishing the stable of wyverns for the master wind riders. Raising the beasts from freshly collected eggs ensures they can be properly trained and bonded as trusted mounts for the Horde."
+   "answer": "Elu needs wyvern eggs to replenish the master wind riders’ stable. The young wyverns can be trained and bonded as mounts for the Horde."
   },
   {
    "q": "Where does Elu send adventurers to find eggs?",
@@ -42,17 +42,17 @@
     "where is highperch",
     "elu egg location"
    ],
-   "answer": "He directs adventurers to Highperch, a dangerous mesa in western Thousand Needles where colonies of wild wyverns fiercely guard their nests."
+   "answer": "Elu sends travelers to Highperch, a mesa in western Thousand Needles where wild wyverns fiercely guard their nests."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For tauren adventurers, assisting Elu supports a fellow tribesman striving to master the ancient and vital art of wyvern handling high above their ancestral canyon lands."
+   "text": "As a tauren, helping Elu supports a fellow tribesman learning to handle wyverns above your ancestral canyon lands."
   },
   {
    "target": "faction:Horde",
-   "text": "Gathering wyvern eggs for Elu directly strengthens the Horde's courier and transport network, keeping remote outposts across Kalimdor connected by air."
+   "text": "As a Horde traveler, gathering wyvern eggs for Elu strengthens the Horde’s courier and transport network. It keeps remote outposts across Kalimdor connected by air."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Elu"
- ]
+ ],
+ "style": 2
 }

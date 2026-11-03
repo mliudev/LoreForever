@@ -24,16 +24,16 @@
   ],
   "category": "Hillsbrad Foothills"
  },
- "summary": "A spell on a parchment makes its writing unreadable, apart from one word at the top: Nagaz. You are to take it to Loremaster Dibbs in Southshore.",
+ "summary": "At the top of The Ensorcelled Parchment, Nagaz is the only name clear. A spell hides the rest, so you take it to Loremaster Dibbs in Southshore.",
  "sections": [
   {
    "title": "A Spell-Veiled Parchment",
-   "body": "A spell lies on the parchment and keeps its writing from being deciphered. Only a single word at the top can be made out, the name Nagaz. You are to take it to Loremaster Dibbs in Southshore.",
+   "body": "A spell keeps the parchment's writing from being read. Only Nagaz can be made out at the top. You take it to Loremaster Dibbs in Southshore.",
    "spoiler": 0
   },
   {
    "title": "What Dibbs Makes of It",
-   "body": "Dibbs asks whether this is yet more encrypted notes. Dibbs wishes every odd scrap of writing drifting out of Alterac could be decoded, but admits to lacking the knowledge.",
+   "body": "Dibbs asks if the parchment holds more encrypted notes. He wishes he could decipher every odd scrap of writing that drifts out of Alterac. But he admits he lacks the knowledge.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "parchment text",
     "ensorcelled parchment words"
    ],
-   "answer": "A spell keeps the writing from being read, save for a single word at the top: Nagaz."
+   "answer": "A spell hides the writing, except for one word at the top: Nagaz."
   },
   {
    "q": "Who should see the parchment?",
@@ -54,7 +54,7 @@
     "who is dibbs",
     "southshore loremaster"
    ],
-   "answer": "Loremaster Dibbs in Southshore, who takes in scraps of lore gathered from the mountains."
+   "answer": "Show the parchment to Loremaster Dibbs in Southshore. He takes in scraps of lore gathered from the mountains."
   }
  ],
  "angles": [],
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "The Ensorcelled Parchment"
- ]
+ ],
+ "style": 2
 }

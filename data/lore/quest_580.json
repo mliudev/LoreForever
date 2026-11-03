@@ -18,16 +18,16 @@
   "chain": [],
   "category": "Stranglethorn Vale"
  },
- "summary": "In the pirate haven of Booty Bay, Whiskey Slim finds himself in dire trouble with his captain. During a violent storm off the coast of the Hinterlands, Slim tapped into a seized crate of Pupellyverbos Port, only to lose the bottles to the churning sea. To escape a brutal flogging, he needs an adventurer to retrieve his misplaced grog.",
+ "summary": "In Booty Bay, Whiskey Slim needs twelve bottles of Pupellyverbos Port back before his ship sails. His crew seized the crate from a privateer, and he fears a flogging if his commanding officer finds it missing.",
  "sections": [
   {
    "title": "A Tempest off the Hinterlands",
-   "body": "Whiskey Slim's crew was battling severe weather off the Overlook Cliffs, with the shore of the Hinterlands looming nearby, when the sailor sought a dose of liquid courage. His ship had seized a crate of Pupellyverbos Port from a privateer vessel sailing toward Stormwind. Facing waves that threatened to swallow their ship whole, Slim broke into the captain's crate, but a sudden surge swept the bottles right over the side.",
+   "body": "Off the Overlook Cliffs, Whiskey Slim's ship was caught in severe weather with the Hinterlands shore nearby. The crew had seized a crate of Pupellyverbos Port from a privateer bound for Stormwind. As waves threatened to swallow the ship, Slim broke into the captain's crate for courage. Then a sudden surge swept the bottles overboard.",
    "spoiler": 0
   },
   {
    "title": "A Sailor's Desperation",
-   "body": "Back in Booty Bay, the clock is ticking down as the ship prepares to weigh anchor. Slim dreads facing the cat-o'-nine-tails once his commanding officer realizes the confiscated port is missing. He seeks someone willing to bring back twelve bottles before his theft comes to light.",
+   "body": "Back in Booty Bay, Whiskey Slim's ship is preparing to weigh anchor. He fears the cat-o'-nine-tails when his commanding officer discovers the confiscated port is missing. Slim needs someone to bring back twelve bottles before his theft comes to light.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "who gives lost grog",
     "who is slim"
    ],
-   "answer": "Whiskey Slim is a sailor residing in Booty Bay who has landed in deep trouble after losing his captain's stolen alcohol during a sea squall."
+   "answer": "Whiskey Slim is a sailor in Booty Bay who lost his captain's stolen alcohol during a sea squall and now fears punishment."
   },
   {
    "q": "Where did the grog come from?",
@@ -48,7 +48,7 @@
     "where did slim get the grog",
     "privateer booze"
    ],
-   "answer": "The crate of Pupellyverbos Port was commandeered by Slim's crew from a privateer vessel that was on its way to Stormwind."
+   "answer": "Slim's crew seized a crate of Pupellyverbos Port from a privateer vessel bound for Stormwind."
   },
   {
    "q": "Where did Whiskey Slim lose the bottles?",
@@ -57,7 +57,7 @@
     "overlook cliffs storm",
     "hinterlands grog location"
    ],
-   "answer": "Slim lost the bottles overboard during a fierce storm off the Overlook Cliffs, near the coast of the Hinterlands, when a massive wave struck the ship."
+   "answer": "Slim lost the bottles overboard during a fierce storm off the Overlook Cliffs, near the Hinterlands coast, when a massive wave struck the ship."
   },
   {
    "q": "Why does Whiskey Slim need the bottles back so quickly?",
@@ -66,7 +66,7 @@
     "what happens to slim",
     "taste of the cat"
    ],
-   "answer": "His ship is preparing to depart, and once the captain discovers his port is missing, Slim fears he will be punished with a flogging from the cat-o'-nine-tails."
+   "answer": "Slim's ship is preparing to depart. He fears a flogging with the cat-o'-nine-tails once his captain discovers the port is missing."
   }
  ],
  "angles": [],
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Whiskey Slim's Lost Grog"
- ]
+ ],
+ "style": 2
 }

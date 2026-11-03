@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Quel'Lithien Lodge"
  },
- "summary": "Quel'Lithien Lodge is an isolated high elven hunting lodge nestled in the forested northern hills of the Eastern Plaguelands near the entrance to Quel'Thalas. Its Farstrider rangers hold out among the blighted woods, surrounded by the Scourge and hunted by Forsaken agents, while guarding old elven archives.",
+ "summary": "Farstrider rangers keep watch at Quel'Lithien Lodge, amid the blighted woods of the Eastern Plaguelands. The high elven hunting lodge stands among the northern hills near the entrance to Quel'Thalas. The Scourge surround it, and Forsaken agents hunt its rangers as they guard old elven archives.",
  "sections": [
   {
    "title": "A Ranger Camp in the Blight",
-   "body": "Before the Third War, Quel'Lithien was a Farstrider camp on the road toward Quel'Thalas, and it housed elven records of the ranger order. The lodge fell on hard times after the Scourge swept through Lordaeron and into the elven kingdom. Today its rangers keep their vigil in the corrupted forest, one of only two major concentrations of high elves left in Lordaeron.",
+   "body": "Before the Third War, Farstriders kept camp at Quel'Lithien on the road to Quel'Thalas. The lodge held records of the ranger order. Then the Scourge swept through Lordaeron and into the elven kingdom, and the lodge's fortunes worsened. Now its rangers watch over the corrupted forest. They are one of only two major concentrations of high elves left in Lordaeron.",
    "spoiler": 0
   },
   {
    "title": "Hunted in the Plaguelands",
-   "body": "The rangers' quiet vigil has not gone unnoticed. Deep within the tainted woods, Nathanos Blightcaller\u2014once the solitary human Ranger Lord trained alongside these very elves\u2014has directed Horde champions to infiltrate Quel'Lithien Lodge. Nathanos seeks the Quel'Thalas Registry, an official record containing details of the ranger order and elven lineages, ordering the slaughter of the lodge's defenders to retrieve it. The rangers at Quel'Lithien find themselves besieged by former allies and the surrounding undead alike.",
+   "body": "Nathanos Blightcaller has sent Horde champions to infiltrate Quel'Lithien Lodge. Once a solitary human Ranger Lord, he trained alongside these very elves. He seeks the Quel'Thalas Registry, an official record of the ranger order and elven lineages. Nathanos has ordered the lodge's defenders slaughtered so the record can be taken. The rangers face a siege from former allies and the undead around them.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "who lives at quel'lithien",
     "quellithien elves"
    ],
-   "answer": "The lodge has long been a Farstrider camp. Its high elven rangers remain here even after the Scourge laid waste to the region, holding one of the last elven footholds in Lordaeron near the road to Quel'Thalas."
+   "answer": "Quel'Lithien has long been a Farstrider camp. Its high elven rangers remain here after the Scourge laid waste to the region. They hold one of Lordaeron's last elven footholds near the road to Quel'Thalas."
   },
   {
    "q": "Are the elves at Quel'Lithien Lodge part of the Alliance?",
@@ -36,7 +36,7 @@
     "are quellithien elves alliance",
     "quellithien faction"
    ],
-   "answer": "No. While they are friendly to Alliance travelers and openly hostile toward the Horde, the lodge functions as an entirely autonomous high elven settlement receiving no formal support or direction from Stormwind or Ironforge."
+   "answer": "No. The lodge welcomes Alliance travelers and is openly hostile toward the Horde. Yet it is an autonomous high elven settlement, without formal support or direction from Stormwind or Ironforge."
   },
   {
    "q": "Why does Nathanos Blightcaller target the lodge?",
@@ -45,7 +45,7 @@
     "the ranger lord's behest",
     "quel'thalas registry"
    ],
-   "answer": "Nathanos Blightcaller sends Horde agents to attack the lodge specifically to secure the Quel'Thalas Registry, an important historical document chronicling elven ranger personnel and records that remains stored in the lodge's archives."
+   "answer": "Nathanos Blightcaller sends Horde agents to seize the Quel'Thalas Registry. The lodge's archives hold this important historical record of elven ranger personnel and lineages."
   },
   {
    "q": "How does Quel'Lithien differ from Quel'Danil Lodge?",
@@ -53,17 +53,17 @@
     "queldanil vs quellithien",
     "hinterlands lodge comparison"
    ],
-   "answer": "Both were historic high elven hunting lodges, but Quel'Danil is situated safely among friendly Wildhammer dwarves in the Hinterlands. Quel'Lithien sits isolated on the frontline of the Eastern Plaguelands, trapped between the blighted ruins and the closed gates of Quel'Thalas."
+   "answer": "Both were historic high elven hunting lodges. Quel'Danil lies among friendly Wildhammer dwarves in the Hinterlands. Quel'Lithien stands isolated in the Eastern Plaguelands, between blighted ruins and the closed gates of Quel'Thalas."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "The Farstriders stationed here represent centuries of classical Thalassian marksmanship, maintaining their survival skills in a hostile wilderness completely cut off from civil society."
+   "text": "As a hunter, you see Farstriders carrying centuries of classical Thalassian marksmanship. They rely on those survival skills in a hostile wilderness, cut off from civil society."
   },
   {
    "target": "faction:Horde",
-   "text": "Operating on orders from Nathanos Blightcaller out of the Marris Stead, Horde champions are dispatched here on a deadly mission to seize high elven records through sheer force."
+   "text": "As a member of the Horde, you are sent here from Marris Stead on Nathanos Blightcaller's orders. You are to seize high elven records by force."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Quel'Lithien Lodge"
- ]
+ ],
+ "style": 2
 }

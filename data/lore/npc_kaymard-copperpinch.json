@@ -8,16 +8,16 @@
   "wiki": "Kaymard Copperpinch",
   "refs": 1
  },
- "summary": "In Orgrimmar, Kaymard Copperpinch sells Smokywood Pastures goods for Winter Veil. He trades in the Valley of Strength, where travelers can find festive wares and help with holiday troubles.",
+ "summary": "In Orgrimmar, Kaymard Copperpinch brings Smokywood Pastures' Winter Veil trade to the Valley of Strength. Travelers find festive wares there and can help with holiday troubles.",
  "sections": [
   {
    "title": "A Goblin's Winter Veil",
-   "body": "Kaymard Copperpinch brings Smokywood Pastures to the Valley of Strength each Feast of Winter Veil. Great-father Winter receives visitors nearby as Kaymard sells fine treats, festive wrapping paper, and other holiday goods. To a goblin, no grand festival is complete without a lively exchange of coin.",
+   "body": "Each Feast of Winter Veil, Kaymard Copperpinch brings Smokywood Pastures to the Valley of Strength. Great-father Winter receives visitors nearby while Kaymard sells fine treats, festive wrapping paper, and other holiday goods. For a goblin, no grand festival is complete without a lively exchange of coin.",
    "spoiler": 0
   },
   {
    "title": "Holiday Complications",
-   "body": "Kaymard also handles troubles that threaten Smokywood Pastures during the festival. Holiday confections go missing, and Metzen the Reindeer disappears. Kaymard calls on Horde adventurers to solve these problems and keep Winter Veil running smoothly.",
+   "body": "During the festival, Kaymard also handles troubles that threaten Smokywood Pastures. Holiday confections go missing, and Metzen the Reindeer disappears. Kaymard calls on Horde adventurers to solve these problems and keep Winter Veil running smoothly.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "kaymard copperpinch lore",
     "what does kaymard do"
    ],
-   "answer": "Kaymard Copperpinch is a goblin merchant with Smokywood Pastures. During the Feast of Winter Veil, he trades in Orgrimmar's Valley of Strength, selling fine seasonal goods and asking passersby to help with holiday troubles."
+   "answer": "During the Feast of Winter Veil, Kaymard Copperpinch trades in Orgrimmar's Valley of Strength for Smokywood Pastures. He sells fine seasonal goods and asks passersby to help with holiday troubles."
   },
   {
    "q": "What is Smokywood Pastures?",
@@ -38,7 +38,7 @@
     "who does he work for",
     "smokywood pastures lore"
    ],
-   "answer": "Smokywood Pastures is a vendor consortium that supplies food, treats, and seasonal goods for the Feast of Winter Veil across Azeroth. It supplies both the Horde and the Alliance, and turns a tidy profit."
+   "answer": "Smokywood Pastures is a vendor consortium that supplies food, treats, and seasonal goods for the Feast of Winter Veil across Azeroth. It supplies both the Horde and the Alliance and turns a tidy profit."
   },
   {
    "q": "Where can I find Kaymard Copperpinch?",
@@ -47,7 +47,7 @@
     "where is kaymard copperpinch",
     "where is he in orgrimmar"
    ],
-   "answer": "Kaymard Copperpinch stands in Orgrimmar's Valley of Strength, near the central festival display where Great-father Winter sits during the Feast of Winter Veil."
+   "answer": "Kaymard Copperpinch trades in Orgrimmar's Valley of Strength, near the central festival display where Great-father Winter sits during the Feast of Winter Veil."
   },
   {
    "q": "Why does he ask adventurers for help during the holidays?",
@@ -56,13 +56,13 @@
     "winter veil treats quest",
     "metzen quest horde"
    ],
-   "answer": "Smokywood Pastures faces troubles during Winter Veil, including stolen holiday sweets and the kidnapping of its prized reindeer, Metzen. Kaymard hires willing adventurers to recover the stolen goods and Metzen, and protect the season's profits."
+   "answer": "During Winter Veil, Smokywood Pastures faces troubles that include stolen holiday sweets and the kidnapping of Metzen, its prized reindeer. Kaymard hires willing adventurers to recover the stolen goods and Metzen, and protect the season's profits."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For the Horde, Kaymard brings Winter Veil's trade to Orgrimmar, where goblin enterprise joins the traditional winter celebrations."
+   "text": "For the Horde, Kaymard brings Winter Veil trade to Orgrimmar, where goblin enterprise joins the traditional winter celebrations."
   },
   {
    "target": "profession:Cooking",
@@ -89,5 +89,5 @@
  "attribution": [
   "Kaymard Copperpinch"
  ],
- "style": 1
+ "style": 2
 }

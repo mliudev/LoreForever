@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Dun Garok"
  },
- "summary": "Dun Garok guards the southeastern heights of the Hillsbrad Foothills. Captain Ironhill commands its dwarven garrison, which defends Alliance interests and nearby operations such as the Azurelode Mine. To the Forsaken of Tarren Mill, the stronghold is a military threat on their border.",
+ "summary": "Dun Garok holds the southeastern heights of the Hillsbrad Foothills. Captain Ironhill leads its dwarven garrison, defending Alliance interests and nearby operations at the Azurelode Mine. The Forsaken of Tarren Mill see the stronghold as a threat on their border.",
  "sections": [
   {
    "title": "A Bastion in the Foothills",
-   "body": "Dun Garok holds the crags in the southeastern Hillsbrad Foothills. Captain Ironhill commands the Ironforge mountaineers and riflemen who defend the outpost. They guard human settlements in Hillsbrad and protect Alliance operations at the Azurelode Mine. Stone walls and deep entrenchments help the garrison hold against nearby threats.",
+   "body": "Dun Garok holds the crags in southeastern Hillsbrad. Captain Ironhill leads the Ironforge mountaineers and riflemen who defend the outpost. They guard human settlements and protect Alliance operations at the Azurelode Mine. Stone walls and deep entrenchments help the garrison withstand nearby threats.",
    "spoiler": 0
   },
   {
    "title": "Target of Tarren Mill",
-   "body": "Dun Garok lies close to Tarren Mill, and the Forsaken see it as an intrusion on their southern border. Sylvanas Windrunner's forces resent the armed dwarven troops near their stronghold. They plot to enter the fortress, break its defenses, and kill Captain Ironhill's garrison to secure Forsaken control of Hillsbrad.",
+   "body": "Dun Garok lies close to Tarren Mill, and the Forsaken see it as an intrusion on their southern border. Sylvanas Windrunner's forces resent the armed dwarves near their stronghold. They plot to enter the fortress, break its defenses, and kill Captain Ironhill's garrison to secure Forsaken control of Hillsbrad.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "forsaken dun garok",
     "tarren mill dun garok conflict"
    ],
-   "answer": "The Forsaken see Dun Garok, near Tarren Mill on their southern border, as a security threat. They send agents to destroy the garrison."
+   "answer": "The Forsaken see Dun Garok near Tarren Mill as a security threat on their southern border. They send agents to destroy the garrison."
   },
   {
    "q": "What is Dun Garok's strategic value to the Alliance?",
@@ -89,5 +89,5 @@
  "attribution": [
   "Dun Garok"
  ],
- "style": 1
+ "style": 2
 }

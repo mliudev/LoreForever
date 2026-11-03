@@ -10,11 +10,11 @@
    "quest:896"
   ]
  },
- "summary": "In the northern Barrens, the Cats Eye Emerald has drawn the eye of Ratchet's Wharfmaster Dizzywig. Venture Company bosses keep the fist-sized gem under guard at Boulder Lode Mine.",
+ "summary": "At Boulder Lode Mine, the Cats Eye Emerald is under guard while Wharfmaster Dizzywig seeks a buyer. The fist-sized gem has drawn his eye from Ratchet's docks.",
  "sections": [
   {
    "title": "A Fist-Sized Fortune",
-   "body": "Venture Company laborers struck a massive emerald at Boulder Lode Mine, northeast of the Sludge Fen. Word of the find spread quickly across the savanna. In goblin country, rare gemstones seldom stay secret. Trade gossip carried news from Ratchet's docks to Booty Bay, and Wharfmaster Dizzywig heard of the prize. He began plotting to send it to the open market in Undermine.",
+   "body": "Venture Company laborers found a massive emerald at Boulder Lode Mine, northeast of the Sludge Fen. News spread quickly across the savanna. In goblin country, rare gemstones do not stay secret for long. Trade gossip carried word from Ratchet's docks to Booty Bay, where Wharfmaster Dizzywig heard of the prize. He began plotting to send it to the open market in Undermine.",
    "spoiler": 0
   },
   {
@@ -40,7 +40,7 @@
     "gem location",
     "boulder lode mine emerald"
    ],
-   "answer": "Venture Company miners unearthed the gem inside Boulder Lode Mine, northeast of the Sludge Fen in the northern Barrens."
+   "answer": "Venture Company miners found the gem inside Boulder Lode Mine, northeast of the Sludge Fen in the northern Barrens."
   },
   {
    "q": "Who wants the emerald in Ratchet?",
@@ -49,7 +49,7 @@
     "dizzywig emerald",
     "who gives quest for emerald"
    ],
-   "answer": "Wharfmaster Dizzywig, who oversees shipping and cargo at Ratchet's docks, wants the stone for wealthy buyers through Undermine trading connections."
+   "answer": "Wharfmaster Dizzywig oversees shipping and cargo at Ratchet's docks. He wants the stone for wealthy buyers through Undermine trading connections."
   },
   {
    "q": "Who holds onto the stone inside the mine?",
@@ -58,7 +58,7 @@
     "who has the cats eye emerald",
     "where to find cats eye emerald"
    ],
-   "answer": "Senior Venture Company supervisors hold the emerald inside Boulder Lode Mine. One of the Venture Co. overseers or enforcers carries it."
+   "answer": "Senior Venture Company supervisors keep the emerald inside Boulder Lode Mine. One of the Venture Co. overseers or enforcers carries it."
   }
  ],
  "angles": [
@@ -68,7 +68,7 @@
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue, stealing an immense gem from under the noses of corrupt Venture Company taskmasters is a chance for opportunism."
+   "text": "As a rogue, stealing an immense gem from under the noses of corrupt Venture Company taskmasters offers a chance for opportunism."
   }
  ],
  "keywords": [
@@ -95,5 +95,5 @@
   "Cats Eye Emerald",
   "Miner's Fortune (Classic)"
  ],
- "style": 1
+ "style": 2
 }

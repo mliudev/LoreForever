@@ -20,21 +20,21 @@
    "The Crone of the Kraul"
   ]
  },
- "summary": "Lonebrow's Journal is an Alliance quest initiated by finding a weathered book held in the hand of a dead dwarf at the base of the Great Lift in Thousand Needles. The notes detail his final journey and prompt the finder to deliver the volume west to a night elf druid stationed on the Feralas border.",
+ "summary": "At the Great Lift in Thousand Needles, Henrig Lonebrow lies dead with Lonebrow's Journal in his hand. Its pages trace his last journey and ask you to carry the book west to a night elf druid at the Feralas border.",
  "sections": [
   {
    "title": "A Fallen Explorer",
-   "body": "Near the base of the Great Lift, the massive mechanical elevator connecting the Barrens to the canyon floor of Thousand Needles, lies the body of Henrig Lonebrow. Clutched in his hand is a personal journal detailing his travels through this rugged territory. Left behind in a hostile desert dominated by centaur and tauren, his corpse serves as a grim warning of how unforgiving the canyon can be to isolated travelers.",
+   "body": "Henrig Lonebrow lies near the Great Lift, the huge machine that carries travelers from the Barrens to the floor of Thousand Needles. His journal remains in his hand, filled with notes from his travels through the canyon. Centaur and tauren hold this harsh country. His death shows the peril of traveling here alone.",
    "spoiler": 0
   },
   {
    "title": "A Dying Request",
-   "body": "Reading through Henrig's journal reveals his intended path and final wish. Rather than leaving his findings to decay in the canyon, the explorer hoped his records would reach friendly hands. Following the road straight west across Thousand Needles leads out of the dry gullies and toward Thalanaar, the night elf outpost guarding the border to Feralas, where the druid Falfindel Waywarder awaits news of the traveler.",
+   "body": "Henrig's journal records the route he meant to take and his final wish. He hoped his records would reach friendly hands instead of decaying in the canyon. Follow the road west across Thousand Needles and out of its dry gullies toward Thalanaar. The night elf outpost guards the Feralas border, where its druid, Falfindel Waywarder, awaits news from you.",
    "spoiler": 0
   },
   {
    "title": "Uncovering the Kraul",
-   "body": "When Falfindel Waywarder reviews Lonebrow's notes, the explorer's fate becomes intertwined with a larger menace in Southern Kalimdor. Henrig's observations point toward the bramble-choked warrens of Razorfen Kraul back to the north, revealing that a dangerous crone leads the quilboar dwelling inside.",
+   "body": "Falfindel Waywarder finds signs of a wider menace in Southern Kalimdor among Lonebrow's notes. Henrig's observations point north to the bramble-choked warrens of Razorfen Kraul. A dangerous crone leads the quilboar who dwell there.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "lonebrow body",
     "find lonebrow"
    ],
-   "answer": "His body lies at the foot of the Great Lift in Thousand Needles. From the bottom of the western elevator ramp, head roughly twenty-five feet forward toward a low rock ledge, where his corpse rests with the journal in hand."
+   "answer": "Henrig Lonebrow's body lies at the foot of the Great Lift in Thousand Needles. From the bottom of the western elevator ramp, go about twenty-five feet toward a low rock ledge. His body rests there with the journal in hand."
   },
   {
    "q": "Who do I deliver the journal to?",
@@ -57,7 +57,7 @@
     "lonebrow turn in",
     "falfindel location"
    ],
-   "answer": "Deliver the journal to Falfindel Waywarder, a night elf druid stationed at Thalanaar. Thalanaar is situated along the main westward road right on the border between Thousand Needles and Feralas."
+   "answer": "Take the journal to Falfindel Waywarder, a night elf druid stationed at Thalanaar. The outpost lies along the main road west, on the border between Thousand Needles and Feralas."
   },
   {
    "q": "Who was Henrig Lonebrow?",
@@ -66,7 +66,7 @@
     "lonebrow backstory",
     "who is lonebrow"
    ],
-   "answer": "Henrig Lonebrow was a dwarven traveler venturing through central Kalimdor. He perished near the base of the Great Lift, leaving behind a weathered journal detailing his observations of the surrounding lands and dangerous quilboar movements."
+   "answer": "Henrig Lonebrow was a dwarven traveler crossing central Kalimdor. He died near the base of the Great Lift, leaving a weathered journal with observations of the surrounding lands and dangerous quilboar movements."
   },
   {
    "q": "What does this quest lead to?",
@@ -75,7 +75,7 @@
     "quest after lonebrow journal",
     "lonebrow quest chain"
    ],
-   "answer": "Turning in the journal to Falfindel Waywarder unlocks the quest 'The Crone of the Kraul', which directs Alliance adventurers to venture into the Razorfen Kraul dungeon."
+   "answer": "Deliver the journal to Falfindel Waywarder, and the path opens to The Crone of the Kraul. It sends Alliance adventurers into Razorfen Kraul."
   },
   {
    "q": "Can Horde players pick up the journal?",
@@ -84,7 +84,7 @@
     "can horde do lonebrow journal",
     "horde lonebrow"
    ],
-   "answer": "No. The journal and its subsequent quest chain are strictly for Alliance players, leading directly to the Alliance border post at Thalanaar."
+   "answer": "No. Only Alliance players can take the journal and follow the chain it begins. The chain leads to the Alliance border post at Thalanaar."
   },
   {
    "q": "Why was Lonebrow heading toward Thalanaar?",
@@ -93,21 +93,21 @@
     "why send book to druid",
     "lonebrow purpose"
    ],
-   "answer": "Thalanaar is the nearest Alliance outpost in the region, serving as a sanctuary between Thousand Needles and the wilds of Feralas. Lonebrow intended to share his regional observations with the night elves stationed there."
+   "answer": "Lonebrow was heading to Thalanaar, the nearest Alliance outpost in the region and a sanctuary between Thousand Needles and the wilds of Feralas. He meant to share his observations of the region with the night elves stationed there."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Henrig Lonebrow's demise serves as a somber reminder of the dangers dwarven explorers face far from Ironforge in the wild corners of Kalimdor."
+   "text": "As a dwarf, Henrig Lonebrow's death reminds you of the dangers dwarven explorers face far from Ironforge, in Kalimdor's wild corners."
   },
   {
    "target": "faction:Alliance",
-   "text": "With few outposts between Theramore and Thalanaar, recovering Lonebrow's journal ensures vital intelligence reaches Alliance allies before it is lost to the canyon."
+   "text": "As an Alliance member, you know there are few outposts between Theramore and Thalanaar. Recover Lonebrow's journal to carry vital intelligence to Alliance allies before the canyon claims it."
   },
   {
    "target": "class:Druid",
-   "text": "Falfindel Waywarder in Thalanaar monitors unnatural shifts in the local ecosystem, making Lonebrow's notes regarding the quilboar in Razorfen of direct interest to the Cenarion Circle."
+   "text": "As a druid, you can see why Falfindel Waywarder in Thalanaar watches for unnatural shifts in the local ecosystem. Lonebrow's notes about the quilboar in Razorfen matter to the Cenarion Circle."
   }
  ],
  "keywords": [
@@ -134,5 +134,6 @@
  ],
  "attribution": [
   "Lonebrow's Journal (quest)"
- ]
+ ],
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Drowned Sacellum"
  },
- "summary": "At Blackfathom Deeps' entrance, the Drowned Sacellum lies submerged beneath the coast. Brackish saltwater and cavern roots surround its broken stones, now occupied by murlocs and makrura.",
+ "summary": "At Blackfathom Deeps' entrance, the Drowned Sacellum lies beneath the coast. Murlocs and makrura now haunt its broken stones amid brackish pools and cavern roots.",
  "sections": [
   {
    "title": "A Submerged Sanctuary",
-   "body": "You enter the Drowned Sacellum just beyond Blackfathom Deeps' threshold. The chapel once offered quiet worship to Elune, but it has long since collapsed into the sea-swept abyss beneath Ashenvale's coast. Brackish pools swallow its ancient marble flagstones, where starfish cling beneath the cavern ceiling's massive roots. Dark wisps flicker dimly through the gloom, lighting a broken stone path. Careful steps along it lead deeper into the temple complex, toward the Pool of Ask'ar.",
+   "body": "You pass Blackfathom Deeps' threshold into the Drowned Sacellum. Once a quiet place of worship to Elune, the chapel has long lain collapsed beneath Ashenvale's coast. Brackish pools cover its ancient marble flagstones. Starfish cling beneath great roots in the cavern ceiling, while dark wisps flicker through the gloom. Follow the broken stone path with care, and it leads deeper into the temple complex toward the Pool of Ask'ar.",
    "spoiler": 0
   },
   {
    "title": "Den of Scavengers",
-   "body": "Night elf caretakers left the Drowned Sacellum long ago, and shoreline scavengers now hold the ruins. Packs of aggressive murlocs and heavily armored makrura share the murky waters and attack anyone who disturbs their nesting grounds. Darker cultic threats lie deeper in the temple, but these predators guard the first stretch of the underground ruins.",
+   "body": "Night elf caretakers left the Drowned Sacellum long ago. Now shoreline scavengers hold the ruins. Aggressive murlocs and heavily armored makrura share the murky waters, attacking anyone who disturbs their nesting grounds. Darker cultic threats lie deeper in the temple. These predators guard the first stretch of the underground ruins.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is the drowned sacellum",
     "sacellum history"
    ],
-   "answer": "A sacellum is a small roofless shrine or chapel. Before the Sundering, this one served as an elven place of worship to Elune within the greater subterranean temple complex."
+   "answer": "Before the Sundering, the Drowned Sacellum was an elven place of worship to Elune. It stood within the greater underground temple complex."
   },
   {
    "q": "What creatures inhabit this part of the caverns?",
@@ -37,7 +37,7 @@
     "what lives in drowned sacellum",
     "monsters in drowned sacellum"
    ],
-   "answer": "Wild murlocs and makrura occupy the flooded ruins. They thrive in the brackish pools and nesting crevices."
+   "answer": "Wild murlocs and makrura inhabit the flooded ruins. They thrive in brackish pools and nesting crevices."
   },
   {
    "q": "How do you navigate past the Drowned Sacellum?",
@@ -46,7 +46,7 @@
     "drowned sacellum jump",
     "path to pool of askar"
    ],
-   "answer": "Carefully cross the crumbling, half-submerged platforms and pillars rising out of the water to reach the tunnel ahead, which leads to the Pool of Ask'ar."
+   "answer": "Cross the crumbling platforms and pillars that rise half-submerged from the water. The tunnel ahead leads to the Pool of Ask'ar."
   },
   {
    "q": "Where does the light in the cavern come from?",
@@ -55,17 +55,17 @@
     "wisps in drowned sacellum",
     "drowned sacellum lighting"
    ],
-   "answer": "Dark wisps floating among thick, twisted tree roots that pierce the ceiling from the Ashenvale forests above provide the cavern's faint, eerie light."
+   "answer": "Dark wisps drift among thick, twisted roots that pierce the cavern ceiling from the Ashenvale forests above. They cast the cavern's faint, eerie light."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For a night elf, this ancient shrine's submersion in saltwater and its occupation by murlocs recall the Kaldorei heritage lost beneath the Zoram Strand."
+   "text": "As a night elf, you see an ancient shrine submerged in saltwater and occupied by murlocs. It recalls the Kaldorei heritage lost beneath the Zoram Strand."
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you can see massive tree roots piercing the stone ceiling from the surface above, proof that nature endures amid the corrupted underground waters."
+   "text": "As a druid, you can see massive tree roots piercing the stone ceiling from the surface above. Nature endures amid the corrupted underground waters."
   }
  ],
  "keywords": [
@@ -85,5 +85,5 @@
  "attribution": [
   "Drowned Sacellum"
  ],
- "style": 1
+ "style": 2
 }

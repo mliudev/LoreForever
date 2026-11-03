@@ -8,16 +8,16 @@
   "wiki": "Devrak",
   "refs": 4
  },
- "summary": "At the Crossroads, Devrak keeps the Horde’s wind riders ready for the roads across Kalimdor. The orc flight master carries couriers and supplies between Durotar, Mulgore, frontier outposts, and the Horde’s capitals.",
+ "summary": "At the Crossroads, Devrak keeps the Horde’s wind riders ready for flights across Kalimdor. He carries couriers and supplies between Durotar, Mulgore, frontier outposts, and the Horde’s capitals.",
  "sections": [
   {
    "title": "Keeper of the Crossroads Roosts",
-   "body": "At the Crossroads, Devrak tends the wind riders that link the Horde’s far-flung holdings. The outpost stands where Kalimdor’s major trade routes meet, exposed beneath the sun and vulnerable to quilboar, centaur, and Alliance scouts. Quick flights matter here. Devrak pairs seasoned travelers and new messengers with trained wind riders that cross the savannah and reach Mulgore’s mountains or Durotar’s stone canyons.",
+   "body": "At the Crossroads, Devrak tends the wind riders that connect the Horde’s distant holdings. The outpost stands where Kalimdor’s major trade routes meet, exposed beneath the sun and vulnerable to quilboar, centaur, and Alliance scouts. Quick flights matter here. Devrak pairs seasoned travelers and new messengers with trained wind riders to cross the savannah and reach Mulgore’s mountains or Durotar’s stone canyons.",
    "spoiler": 0
   },
   {
    "title": "Supplies for the Warchief and the Chieftain",
-   "body": "Devrak also helps move supplies from the frontier. Barrens hunters bring in meat and pelts, and he helps send them to Orgrimmar’s cooking fires and Thunder Bluff’s tanners. He introduces new couriers to flight masters across the continents, keeping an aerial route open to the Horde’s heartlands.",
+   "body": "Devrak helps move supplies from the frontier. Barrens hunters bring in meat and pelts, and he helps send them to Orgrimmar’s cooking fires and Thunder Bluff’s tanners. He introduces new couriers to flight masters across the continents, keeping an aerial route open to the Horde’s heartlands.",
    "spoiler": 0
   },
   {
@@ -61,7 +61,7 @@
     "killing devrak",
     "devrak defense"
    ],
-   "answer": "If Alliance raiders or hostile beasts attack the Crossroads, Devrak can call enraged wyverns to aid him. The creatures drive attackers off with tooth and talon."
+   "answer": "When Alliance raiders or hostile beasts attack the Crossroads, Devrak can call enraged wyverns to aid him. The creatures drive attackers off with tooth and talon."
   },
   {
    "q": "Why is having a flight master at the Crossroads so critical?",
@@ -83,11 +83,11 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For Horde adventurers navigating Kalimdor, Devrak is an indispensable ally and a central link between the orcs, trolls, and tauren territories."
+   "text": "For Horde adventurers navigating Kalimdor, Devrak is a trusted ally and a central link between orc, troll, and tauren territories."
   },
   {
    "target": "race:Orc",
-   "text": "In the dry heart of the Barrens, Devrak shows an orc’s talent for working with Kalimdor’s wind riders, bonding with the fierce beasts to secure aerial dominance."
+   "text": "In the dry heart of the Barrens, Devrak shows an orc’s skill in working with Kalimdor’s wind riders, bonding with the fierce beasts to secure aerial dominance."
   }
  ],
  "keywords": [
@@ -113,5 +113,5 @@
  "attribution": [
   "Devrak"
  ],
- "style": 1
+ "style": 2
 }

@@ -8,16 +8,16 @@
   "wiki": "Archmage Ansirem Runeweaver",
   "refs": 2
  },
- "summary": "Archmage Ansirem Runeweaver is a senior human wizard and a ruling member of Dalaran's Council of Six. Having survived the Scourge's destruction of Dalaran in the Third War, he oversees Kirin Tor operations from the Violet Citadel as Dalaran is rebuilt. Though dedicated to the rebuilding of his city, he also maintains discreet interests abroad\u2014including a willful daughter who ran off to Booty Bay to become a pirate.",
+ "summary": "At the Violet Citadel, Archmage Ansirem Runeweaver oversees Kirin Tor work as Dalaran is rebuilt. A senior human wizard on the Council of Six, he survived the Scourge's destruction of the city. His willful daughter ran off to Booty Bay to become a pirate.",
  "sections": [
   {
    "title": "A Pillar of the Kirin Tor",
-   "body": "A veteran mage who helped defend Dalaran across decades, Ansirem Runeweaver sits on the Council of Six, the ruling magocracy of the Kirin Tor. He survived the devastation when Arthas Menethil and the Scourge marched upon the city and Archimonde was summoned. In the wake of Dalaran's fall, Ansirem has aided the efforts to rebuild the arcane city, whose protective shield was lifted early, and now works from the Violet Citadel.",
+   "body": "Ansirem Runeweaver helped defend Dalaran for decades. He holds a seat on the Council of Six, which rules the Kirin Tor. He survived when Arthas Menethil and the Scourge marched on the city and Archimonde was summoned. After Dalaran fell, Ansirem joined the effort to rebuild it. The protective shield came down early, and he now works from the Violet Citadel.",
    "spoiler": 0
   },
   {
    "title": "Far-Flung Interests",
-   "body": "Despite his scholarly duties and stern wizardly demeanor, Ansirem possesses personal ties far beyond the Alterac Mountains. His willful daughter, Catelyn, ran off to Booty Bay to become a pirate, taking with her an ancient troll dagger he had found while researching in Stranglethorn. He has also dealt with Baron Revilgaz there. He has also engaged in arcane studies involving troll antiquities and maintains diplomatic conduits across distant realms.",
+   "body": "Ansirem's ties reach beyond the Alterac Mountains. His willful daughter, Catelyn, ran off to Booty Bay to become a pirate, taking an ancient troll dagger he found while researching in Stranglethorn. Ansirem has dealt with Baron Revilgaz there. He has also studied troll antiquities and keeps diplomatic conduits open across distant realms.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "ansirem runeweaver lore",
     "who is the archmage"
    ],
-   "answer": "He is an accomplished human wizard and one of the six ruling archmages on the Kirin Tor's Council of Six. He has spent decades defending Dalaran and now oversees operations surrounding the reconstructed city and its arcane perimeter."
+   "answer": "Ansirem is an accomplished human wizard and one of the six ruling archmages on the Kirin Tor's Council of Six. After decades defending Dalaran, he now oversees work around the rebuilt city and its arcane perimeter."
   },
   {
    "q": "What happened to his daughter?",
@@ -38,7 +38,7 @@
     "catelyn the blade",
     "catelyn runeweaver"
    ],
-   "answer": "His willful daughter, Catelyn, ran off to Booty Bay to become a pirate, and she is known there as Catelyn the Blade. Ansirem had given her an ancient troll dagger he found while researching in Stranglethorn, and she took it with her."
+   "answer": "Ansirem's willful daughter, Catelyn, ran off to Booty Bay to become a pirate, where she is known as Catelyn the Blade. She took an ancient troll dagger that Ansirem found while researching in Stranglethorn."
   },
   {
    "q": "What is his role in Dalaran?",
@@ -47,7 +47,7 @@
     "ansirem dalaran",
     "what is he doing here"
    ],
-   "answer": "Ansirem serves as a key Kirin Tor presence in the Violet Citadel, coordinating research, magical defense, and communication with allies while the city is rebuilt after the destruction wrought during the Third War."
+   "answer": "Ansirem is a leading Kirin Tor presence in the Violet Citadel. He coordinates research, magical defense and communication with allies as Dalaran is rebuilt after the Third War's destruction."
   },
   {
    "q": "Did Ansirem fight in the Third War?",
@@ -55,17 +55,17 @@
     "ansirem scourge",
     "did ansirem fight arthas"
    ],
-   "answer": "Yes. Ansirem has helped defend Dalaran for decades, and he lived through the Scourge's siege of the city, when Arthas guarded Kel'Thuzad's summoning of Archimonde. He survived its destruction and now helps rebuild it."
+   "answer": "Yes. Ansirem helped defend Dalaran for decades and survived the Scourge's siege. Arthas guarded Kel'Thuzad's summoning of Archimonde. Ansirem lived through the city's destruction and now helps rebuild it."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Ansirem is a revered member of the Council of Six, making him an enduring authority on disciplined arcane study."
+   "text": "As a Mage, you can look to Ansirem, a revered member of the Council of Six, for guidance in disciplined arcane study."
   },
   {
    "target": "faction:Alliance",
-   "text": "As a Kirin Tor leader based in Lordaeron, Ansirem remains aligned with Alliance interests as human spellcasters struggle to reclaim their lands from Scourge remnants."
+   "text": "As an Alliance member, you share interests with Ansirem, a Kirin Tor leader based in Lordaeron. Human spellcasters struggle to reclaim their lands from Scourge remnants."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Archmage Ansirem Runeweaver"
- ]
+ ],
+ "style": 2
 }

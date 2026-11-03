@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Zul'Gurub"
  },
- "summary": "Zul'Gurub is an ancient temple city nestled deep in the jungles of northeastern Stranglethorn Vale. Once the glorious heart of the sprawling Gurubashi Empire, it now stands as a perilous stronghold where jungle trolls scheme to summon an ancient, terrible entity into the world.",
+ "summary": "In northeastern Stranglethorn Vale, Zul'Gurub's jungle trolls scheme to summon an ancient entity into the world. The ruined temple city once stood at the heart of the Gurubashi Empire.",
  "sections": [
   {
    "title": "Heart of the Fallen Empire",
-   "body": "Thousands of years ago, Zul'Gurub reigned supreme as the vibrant capital of the entire Gurubashi Empire, uniting the jungle troll tribes under its grand stone ziggurats. That golden age shattered roughly fifteen hundred years before the opening of the Dark Portal when a vicious civil war tore the empire apart. A radical sect of priests, the Atal'ai, sought to summon Hakkar the Soulflayer\u2014a bloodthirsty ancient god\u2014to seize absolute power. Though loyalist tribes banded together to defeat and banish the Atal'ai northward into the Swamp of Sorrows, the devastation broke the empire's spine, leaving Zul'Gurub a violent shadow of its former grandeur.",
+   "body": "Thousands of years ago, Zul'Gurub was the vibrant capital of the Gurubashi Empire. Its stone ziggurats rose over a realm united under Gurubashi rule. Then civil war came, roughly fifteen hundred years before the Dark Portal opened.\n\nThe Atal'ai, a radical sect of priests, tried to summon Hakkar the Soulflayer and claim absolute power. Loyalist tribes joined forces and defeated them. The Atal'ai were banished north to the Swamp of Sorrows. The war broke the empire, and Zul'Gurub became a violent shadow of its former grandeur.",
    "spoiler": 0
   },
   {
    "title": "The Looming Shadow of the Soulflayer",
-   "body": "Though exiled, the fanatical worshippers of Hakkar never abandoned their dark devotion. They eventually realized that their dread deity's physical avatar could only be brought forth from the ancient ritual seat of Zul'Gurub itself. Inside the city, dark sorcerers like Jin'do the Hexxer have sought to enslave Gurubashi high priests to conduct blood rituals in Hakkar's name. The jungle surrounding the ruins crawls with hyper-aggressive Gurubashi trolls, driven into a murderous frenzy, making the temple city an epicenter of dread for anyone brave or foolish enough to tread near its borders.",
+   "body": "The fanatical worshippers of Hakkar kept their devotion after exile. They learned that his physical avatar could be summoned only from Zul'Gurub, his ancient ritual seat. Within the city, dark sorcerers such as Jin'do the Hexxer have sought to enslave Gurubashi high priests for blood rituals in Hakkar's name.\n\nHyper-aggressive Gurubashi trolls prowl the jungle around the ruins, driven into a murderous frenzy. Zul'Gurub remains an epicenter of dread for anyone who ventures near its borders.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "what is zg",
     "about zulgurub"
    ],
-   "answer": "Zul'Gurub is an ancient temple city in northeastern Stranglethorn Vale. It served as the capital of the great Gurubashi Empire thousands of years ago, but today it is a dangerous, ruined stronghold inhabited by the hostile Gurubashi tribe."
+   "answer": "Zul'Gurub is an ancient temple city in northeastern Stranglethorn Vale. Thousands of years ago, it was the vibrant capital of the Gurubashi Empire. Now the ruined city is a dangerous stronghold inhabited by hostile Gurubashi trolls."
   },
   {
    "q": "Who is Hakkar the Soulflayer?",
@@ -37,7 +37,7 @@
     "blood god",
     "who is the soulflayer"
    ],
-   "answer": "Hakkar the Soulflayer is an ancient and terrible blood god. Worshipped by the fanatical Atal'ai troll sect, Hakkar demands endless blood and sacrifice, and his cultists have long plotted to bring his physical avatar into Azeroth through dark rituals in Zul'Gurub."
+   "answer": "Hakkar the Soulflayer is an ancient, terrible blood god. The fanatical Atal'ai worship him, and his cultists have long plotted to bring his physical avatar into Azeroth through rituals in Zul'Gurub."
   },
   {
    "q": "Why did the Gurubashi Empire collapse?",
@@ -46,7 +46,7 @@
     "gurubashi civil war",
     "fall of zul'gurub"
    ],
-   "answer": "Roughly fifteen hundred years before the Dark Portal opened, the empire was torn apart by a devastating civil war. The radical Atal'ai priests tried to summon Hakkar, and while the other trolls successfully drove them into exile, the conflict left the empire permanently shattered."
+   "answer": "Roughly fifteen hundred years before the Dark Portal opened, civil war tore the Gurubashi Empire apart. The radical Atal'ai priests tried to summon Hakkar. The other trolls defeated and banished them, but the war left the empire shattered."
   },
   {
    "q": "Can adventurers safely explore the ruins?",
@@ -55,17 +55,17 @@
     "zg treasure",
     "exploring zg"
    ],
-   "answer": "No. Zul'Gurub is exceptionally hazardous. The Gurubashi trolls inhabiting the ruins are violently aggressive and driven by bloody fervor. Treasure hunters and artifact seekers regularly disappear within the stone walls, with very few ever returning."
+   "answer": "No. Zul'Gurub is exceptionally hazardous. The trolls in its ruins are violently aggressive and driven by bloody fervor. Treasure hunters and artifact seekers regularly disappear within its stone walls, and very few return."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For the Darkspear tribe, Zul'Gurub represents both a tragic monument to their ancestors' fallen grandeur and a terrifying warning about the ruinous price of serving Hakkar."
+   "text": "For the Darkspear tribe, Zul'Gurub is a monument to their ancestors' fallen grandeur and a warning of the ruinous price of serving Hakkar."
   },
   {
    "target": "faction:Horde",
-   "text": "The Horde keeps a wary eye on Zul'Gurub's dark rituals, recognizing that the blood god's return poses an existential threat to the safety of nearby settlements and tribes across Stranglethorn."
+   "text": "The Horde watches Zul'Gurub's dark rituals warily. Hakkar's return threatens nearby settlements and tribes across Stranglethorn."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Zul'Gurub"
- ]
+ ],
+ "style": 2
 }

@@ -27,16 +27,16 @@
    "Magram Alliance"
   ]
  },
- "summary": "After Brutal Politics, Warug in Magram Village wants proof that you can kill Kolkar the way the Magram do. Head north and slay Kolkar centaurs, scouts and maulers.",
+ "summary": "In Magram Village, Warug wants you to prove you can kill Kolkar as the Magram do. After Brutal Politics, you head north to face Kolkar centaurs, scouts and maulers.",
  "sections": [
   {
    "title": "We Laugh and We Kill",
-   "body": "Warug sneers that the Kolkar believe themselves strong while the Magram laugh at them as they kill them. Warug wants you to prove you can kill Kolkar as the Magram do, so you head north: twelve Kolkar centaurs, twelve scouts and six maulers are to fall.",
+   "body": "Warug mocks the Kolkar and their belief that they are strong. The Magram laugh as they kill them, and Warug wants you to prove you can do the same. Head north and slay twelve Kolkar centaurs, twelve scouts and six maulers.",
    "spoiler": 0
   },
   {
    "title": "Warug's Approval",
-   "body": "When you return, Warug says the Kolkar fear you now. Warug hopes you laughed as you killed them, because laughing while you kill lets the enemy see its own weakness.",
+   "body": "When you return, Warug says the Kolkar fear you now. He hopes you laughed as you killed them, so the enemy could see its own weakness.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "quest giver assault on the kolkar",
     "where to get assault on the kolkar"
    ],
-   "answer": "Warug, of the Magram, in Magram Village in Desolace."
+   "answer": "Warug of the Magram sends you from Magram Village in Desolace."
   },
   {
    "q": "What came before this step?",
@@ -57,7 +57,7 @@
     "prereq assault on the kolkar",
     "assault on the kolkar prerequisite"
    ],
-   "answer": "It follows Brutal Politics."
+   "answer": "This follows Brutal Politics."
   },
   {
    "q": "Where are the Kolkar located?",
@@ -66,7 +66,7 @@
     "where are kolkar centaur",
     "where to find kolkar"
    ],
-   "answer": "Warug tells you to head north to find them."
+   "answer": "Warug tells you to head north to find the Kolkar."
   },
   {
    "q": "Why does Warug want the Kolkar killed?",
@@ -75,7 +75,7 @@
     "magram kolkar rivalry",
     "why does warug hate kolkar"
    ],
-   "answer": "Warug mocks the Kolkar for thinking themselves strong, and wants you to show you can kill them as the Magram do."
+   "answer": "Warug mocks the Kolkar for thinking themselves strong. He wants you to show you can kill them as the Magram do."
   }
  ],
  "angles": [],
@@ -96,5 +96,6 @@
  ],
  "attribution": [
   "Assault on the Kolkar"
- ]
+ ],
+ "style": 2
 }

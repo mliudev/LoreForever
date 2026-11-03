@@ -24,11 +24,11 @@
   ],
   "category": "Dustwallow Marsh"
  },
- "summary": "The truce between Horde and Alliance is an uneasy one, with skirmishes and covert deeds on both sides. Nazeer Bloodpike in Brackenwall Village wants the Alliance infiltrators east of the village hunted down and slain.",
+ "summary": "In Dustwallow, Horde and Alliance keep an uneasy truce, though skirmishes and covert deeds continue. Nazeer Bloodpike wants Alliance infiltrators east of Brackenwall Village hunted down and slain.",
  "sections": [
   {
    "title": "Spies East of the Village",
-   "body": "Alliance infiltrators have settled in east of Brackenwall Village, watching it and sending word of Horde movements to Theramore. Nazeer Bloodpike, the local spymaster, will not stand for it. You are sent to find the infiltrators and kill them, so that their superiors know such spies are unwelcome.",
+   "body": "Alliance spies watch Brackenwall Village from the islands to its east. They send word of Horde movements back to Theramore.\n\nNazeer Bloodpike, the village spymaster, sends you to find and kill them. Their superiors must know such spies are unwelcome.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "nazeer bloodpike spy quest",
     "who starts theramore spies"
    ],
-   "answer": "Nazeer Bloodpike, the local spymaster in Brackenwall Village."
+   "answer": "Nazeer Bloodpike, the spymaster in Brackenwall Village, orders the infiltrators killed."
   },
   {
    "q": "Where are the infiltrators hiding?",
@@ -49,7 +49,7 @@
     "where to find theramore spies",
     "infiltrator locations dustwallow"
    ],
-   "answer": "East of Brackenwall Village, on the islands."
+   "answer": "The infiltrators hide on the islands east of Brackenwall Village."
   },
   {
    "q": "Why are the spies watching Brackenwall Village?",
@@ -57,7 +57,7 @@
     "why are humans spying on brackenwall",
     "brackenwall village spies motive"
    ],
-   "answer": "They watch the village and pass word of Horde movements back to Theramore."
+   "answer": "The spies watch Brackenwall Village and send word of Horde movements back to Theramore."
   },
   {
    "q": "What comes after dealing with the spies?",
@@ -65,7 +65,7 @@
     "theramore spies follow up",
     "what quest comes after theramore spies"
    ],
-   "answer": "The next step in the story is The Theramore Docks."
+   "answer": "The next step is The Theramore Docks."
   }
  ],
  "angles": [],
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Theramore Spies"
- ]
+ ],
+ "style": 2
 }

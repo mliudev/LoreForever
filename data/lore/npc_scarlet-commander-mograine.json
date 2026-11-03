@@ -8,16 +8,16 @@
   "wiki": "Scarlet Commander Mograine",
   "refs": 5
  },
- "summary": "Scarlet Commander Mograine serves as the military leader garrisoned inside the Cathedral of the Scarlet Monastery. A zealous paladin of the Scarlet Crusade, he defends the chapel alongside High Inquisitor Whitemane. Both the Horde and Alliance target him to disrupt the zealots threatening Tirisfal Glades and the surrounding lands.",
+ "summary": "Within the Scarlet Monastery, Scarlet Commander Mograine guards the Cathedral with the Scarlet Crusade. A zealous paladin, he faces efforts by the Horde and Alliance to disrupt the Crusade's threat to Tirisfal Glades and the lands around it.",
  "sections": [
   {
    "title": "Defender of the Chapel",
-   "body": "Stationed within the grand Crusader's Chapel at the heart of the Scarlet Monastery, Scarlet Commander Mograine commands the standing garrison of the Scarlet Crusade. He wields the holy power of a paladin with ferocious dedication, relying on retribution, divine shields, and stunning blows to shatter any whom the Crusade deems corrupted or unclean.",
+   "body": "At the heart of the Scarlet Monastery, Scarlet Commander Mograine leads the Scarlet Crusade garrison in the Crusader's Chapel. A devoted paladin, he strikes with holy power and shields himself. Those the Crusade judges corrupted or unclean meet his stunning blows.",
    "spoiler": 0
   },
   {
    "title": "A Miraculous Bond",
-   "body": "Mograine's defense of the chapel is intrinsically tied to High Inquisitor Whitemane. Should an attacking force bring the Commander to his knees, Whitemane emerges from the rear sanctum to turn the tide. Calling upon the Holy Light, she incapacitates intruders in an instant and restores Mograine from death, forcing their foes to confront both commanders in a desperate, simultaneous struggle.",
+   "body": "High Inquisitor Whitemane fights beside Mograine in the chapel. When an attacking force brings him down, Whitemane comes from the rear sanctum. She incapacitates the intruders with the Holy Light and restores Mograine from death. Their attackers must then face both commanders at once.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "where is mograine",
     "scarlet monastery mograine room"
    ],
-   "answer": "He is located inside the Cathedral wing of the Scarlet Monastery in northeastern Tirisfal Glades. You will find him waiting before the altar within the Crusader's Chapel."
+   "answer": "Scarlet Commander Mograine waits before the altar in the Crusader's Chapel, inside the Cathedral wing of the Scarlet Monastery in northeastern Tirisfal Glades."
   },
   {
    "q": "What is Mograine's role in the Scarlet Crusade?",
@@ -38,7 +38,7 @@
     "mograine rank",
     "what does mograine do"
    ],
-   "answer": "He serves as the military commander of the Scarlet Crusade's forces garrisoned at the Monastery, directing its paladins and soldiers alongside High Inquisitor Whitemane."
+   "answer": "Mograine commands the Scarlet Crusade forces garrisoned at the Monastery. He leads its paladins and soldiers alongside High Inquisitor Whitemane."
   },
   {
    "q": "How does he fight?",
@@ -47,7 +47,7 @@
     "mograine combat",
     "how to fight mograine"
    ],
-   "answer": "Mograine fights as a heavy melee paladin. He uses Hammer of Justice to stun his opponents, unleashes Crusader Strikes, protects himself with Retribution Aura, and relies on Divine Shield when pushed to the brink."
+   "answer": "Mograine fights at close range as a paladin. He stuns opponents with Hammer of Justice and strikes with Crusader Strikes. Retribution Aura protects him, and he uses Divine Shield when pressed."
   },
   {
    "q": "Why does High Inquisitor Whitemane revive him?",
@@ -56,7 +56,7 @@
     "does mograine revive",
     "resurrect mograine"
    ],
-   "answer": "Whitemane and Mograine share an intense bond and fight together as leaders of the Monastery. When Mograine falls in battle, Whitemane intervenes, puts their attackers to sleep with her magic, and raises Mograine back to life with full strength."
+   "answer": "High Inquisitor Whitemane revives Mograine because they share a close bond and lead the Monastery together. When he falls, she puts their attackers to sleep with magic and raises him to full strength."
   },
   {
    "q": "Why are the Alliance and Horde fighting him?",
@@ -65,7 +65,7 @@
     "scarlet commander quest",
     "in the name of the light"
    ],
-   "answer": "The Scarlet Crusade views all outsiders\u2014living or undead\u2014as carriers of corruption. Both the Alliance and the Forsaken send champions to strike at the Cathedral and execute its leaders to neutralize the Crusade's fanatical presence in Lordaeron."
+   "answer": "The Scarlet Crusade sees outsiders, living or undead, as carriers of corruption. The Alliance and the Forsaken send champions against the Cathedral to kill its leaders and weaken the Crusade's fanatical presence in Lordaeron."
   },
   {
    "q": "Does Mograine heal himself during the encounter?",
@@ -73,21 +73,21 @@
     "can mograine heal",
     "mograine healing"
    ],
-   "answer": "Yes, in a pinch. Besides Divine Shield and his melee attacks, he can call on Lay on Hands to restore himself to full health, and High Inquisitor Whitemane adds further healing once she enters the battle."
+   "answer": "Yes. When pressed, Mograine can use Lay on Hands to restore himself to full health. High Inquisitor Whitemane also brings healing when she joins the battle."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Mograine embodies the tragic corruption of the paladin's calling, twisting holy vows of protection and righteousness into ruthless, unyielding zealotry."
+   "text": "Mograine shows how a paladin's vows of protection and righteousness can be twisted into ruthless zealotry."
   },
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, Commander Mograine represents the sharpest blade of the Scarlet Crusade, whose presence directly borders the Undercity and threatens their survival in Tirisfal."
+   "text": "For the Forsaken, Commander Mograine is the Scarlet Crusade's sharpest blade. His forces are near the Undercity and threaten Forsaken survival in Tirisfal."
   },
   {
    "target": "faction:Alliance",
-   "text": "Though the Scarlet Crusade once shared common ground with the Alliance, leaders in Southshore and Stormwind recognize that fanatical commanders like Mograine have descended into violent madness."
+   "text": "The Scarlet Crusade once shared common ground with the Alliance. Leaders in Southshore and Stormwind now see commanders like Mograine as fallen into violent madness."
   }
  ],
  "keywords": [
@@ -107,5 +107,6 @@
  ],
  "attribution": [
   "Scarlet Commander Mograine"
- ]
+ ],
+ "style": 2
 }

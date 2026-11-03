@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Xavian"
  },
- "summary": "Xavian lies in northeastern Ashenvale, where satyrs have claimed an ancient night elf temple. It is their chief seat in the forest, and they use its ruins for dark rites that spread demonic corruption through the woodland.",
+ "summary": "At Xavian in northeastern Ashenvale, satyrs hold an ancient night elf temple. They make it their chief seat in the forest and use its ruins for dark rites that spread demonic corruption through the woodland.",
  "sections": [
   {
    "title": "A Seat of Shadow",
-   "body": "Xavian lies in Ashenvale's northeastern hills, west of Forest Song and north of Satyrnaar. Satyrs hold the ruined temple, once sacred to the night elves, and make it their chief stronghold in the forest. Their leaders, including Prince Raze and Geltharis, direct their followers from its desecrated arches and terraces. Across the grounds, satyrs perform rites against the woodland and use stolen Warsong oil to blight it. The place bears the name of Xavius, a highborne councilor who became the first satyr during the War of the Ancients after failing Sargeras.",
+   "body": "In Ashenvale's northeastern hills, Xavian lies west of Forest Song and north of Satyrnaar. Satyrs hold its ruined temple, once sacred to the night elves, and make it their chief stronghold in the forest. Their leaders, including Prince Raze and Geltharis, direct their followers from its desecrated arches and terraces.\n\nAcross the grounds, satyrs perform rites against the woodland and use stolen Warsong oil to blight it. The place bears the name of Xavius, a highborne councilor who became the first satyr during the War of the Ancients after failing Sargeras.",
    "spoiler": 0
   },
   {
    "title": "The Fallen Vanguard",
-   "body": "Sentinels and woodland guardians watch Xavian, though the satyrs' threat reaches beyond nearby enclaves such as Night Run. Dryad defenders recently entered the ruins to recover the sacred Branch of Cenarius, but suffered grievous losses. Anilia, a dryad, lies dying on the outer terraces. She was struck down while trying to stop the defilers from using holy relics in their dark incantations.",
+   "body": "Sentinels and woodland guardians watch Xavian, but the satyrs threaten more than nearby enclaves such as Night Run. Dryad defenders recently entered the ruins to recover the sacred Branch of Cenarius, and suffered grievous losses. On the outer terraces, Anilia, a dryad, lies dying. She was struck down while trying to stop the defilers from using holy relics in their dark incantations.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "who is anilia",
     "dryad in xavian"
    ],
-   "answer": "The dying dryad is Anilia. She joined an effort to recover the stolen Branch of Cenarius from the satyrs and was mortally wounded in the skirmish. She lies among the ruins, pleading for someone to reclaim the sacred branch before corruption overtakes it."
+   "answer": "The dying dryad is Anilia. She joined an effort to recover the stolen Branch of Cenarius from the satyrs and was mortally wounded in the skirmish. Among the ruins, she pleads for someone to reclaim the sacred branch before corruption overtakes it."
   },
   {
    "q": "How does Xavian differ from Satyrnaar or Night Run?",
@@ -60,11 +60,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, the desecration of an ancient temple by the twisted descendants of the Highborne is a bitter offense. The halls call for swift retribution."
+   "text": "As a night elf, you see an ancient temple desecrated by the twisted descendants of the Highborne. The halls call for swift retribution."
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you are called to reclaim the Branch of Cenarius from the satyrs, who use fel rites to corrupt the land, and heal the grove's spiritual wounds."
+   "text": "As a druid, you are called to reclaim the Branch of Cenarius from the satyrs. Their fel rites corrupt the land, and the grove's spiritual wounds need healing."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
  "attribution": [
   "Xavian"
  ],
- "style": 1
+ "style": 2
 }

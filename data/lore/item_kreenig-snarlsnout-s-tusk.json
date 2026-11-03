@@ -10,11 +10,11 @@
    "quest:872"
   ]
  },
- "summary": "At the Crossroads, Thork seeks proof that Kreenig Snarlsnout has fallen. His tusk marks the end of the Razormane leader's attacks on Horde caravans in the northern Barrens.",
+ "summary": "At the Crossroads, Thork awaits proof that Kreenig Snarlsnout has fallen. The tusk marks the end of the Razormane leader's attacks on Horde caravans in the northern Barrens.",
  "sections": [
   {
    "title": "A Trophy of Severed Ambition",
-   "body": "Horde caravans traveling west from Durotar face constant attacks in the Barrens. Those raids grew bolder under Kreenig Snarlsnout, a fierce Razormane leader. Thork, commander of the Crossroads watch, ordered Kreenig killed to disrupt the quilboars' coordination. His tusk offers proof that the leader is dead and insults the Razormane, weakening their resolve and leaving their fighters without central direction.",
+   "body": "Horde caravans traveling west from Durotar face constant attacks in the Barrens. Under Kreenig Snarlsnout, a fierce Razormane leader, those raids grew bolder. So Thork, commander of the Crossroads watch, ordered Kreenig killed to disrupt the quilboars' coordination.\n\nKreenig's tusk proves the leader is dead and insults the Razormane. Their resolve weakens, and their fighters are left without central direction.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who is kreenig",
     "snarlsnout lore"
    ],
-   "answer": "Kreenig Snarlsnout led the Razormane quilboar encamped northeast of the Crossroads. He organized attacks on Horde caravans traveling along the main road from Durotar, making the supply route dangerous until his death."
+   "answer": "Kreenig Snarlsnout led the Razormane quilboar encamped northeast of the Crossroads. He organized attacks on Horde caravans along the main road from Durotar, making the supply route dangerous until his death."
   },
   {
    "q": "Why does Thork want the tusk specifically?",
@@ -44,7 +44,7 @@
     "where to get tusk",
     "snarlsnout location"
    ],
-   "answer": "The tusk comes from Kreenig Snarlsnout's camp northeast of the Crossroads, near the mountain foothills just south of the main road crossing from Durotar into the Barrens."
+   "answer": "The tusk comes from Kreenig Snarlsnout's camp northeast of the Crossroads. The camp lies near the mountain foothills, just south of the main road crossing from Durotar into the Barrens."
   },
   {
    "q": "What effect does taking Kreenig down have on the Barrens?",
@@ -62,7 +62,7 @@
   },
   {
    "target": "race:Orc",
-   "text": "For an orc of the Crossroads, taking a trophy from a defeated commander is practical warfare: it shows strength and sows panic among the enemy."
+   "text": "As an orc of the Crossroads, taking a trophy from a defeated commander is practical warfare. It shows strength and sows panic among the enemy."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
   "Kreenig Snarlsnout's Tusk",
   "The Disruption Ends"
  ],
- "style": 1
+ "style": 2
 }

@@ -20,16 +20,16 @@
    "Insane Druids (Classic)"
   ]
  },
- "summary": "A massacre in Dor'Danil Barrow Den leaves its druids' spirits in torment. Kayneth Stillwind, a night elf sentinel in eastern Ashenvale, learns of the slaughter through a vision while battling Forsaken toxins.",
+ "summary": "In eastern Ashenvale, Kayneth Stillwind learns of a slaughter through a vision. The night elf sentinel is battling Forsaken toxins when the spirits of Dor'Danil Barrow Den's druids cry out in torment.",
  "sections": [
   {
    "title": "A Vision of Slaughter",
-   "body": "Kayneth Stillwind sees a massacre in a waking vision. The night elf sentinel is battling the effects of Forsaken toxins found in eastern Ashenvale when he witnesses what happened beneath the mounds of Dor'Danil Barrow Den. Undead infiltrators poisoned the druids in their sleep and slaughtered them. Their souls were torn from their bodies by the venom, leaving them as wild, shrieking spirits.",
+   "body": "While fighting the effects of Forsaken toxins in eastern Ashenvale, Kayneth Stillwind sees a massacre in a waking vision. Beneath the mounds of Dor'Danil Barrow Den, undead infiltrators poisoned the druids in their sleep and slaughtered them. The venom tore their souls from their bodies, leaving wild spirits shrieking in torment.",
    "spoiler": 0
   },
   {
    "title": "Mercy for the Slain Leaders",
-   "body": "Kayneth Stillwind asks you to quiet the suffering beneath Dor'Danil Barrow Den. The druids' phantoms have been driven mad by the way they died, and cannot find release in the underground chambers. Their circle's three leaders, Taneel Darkwood, Uthil Mooncall, and Mavoris Cloudsbreak, remain among the restless dead. Lay them to rest, and the den may begin to heal from its defilement.",
+   "body": "Kayneth Stillwind asks you to quiet the suffering beneath Dor'Danil Barrow Den. The druids' phantoms were driven mad by their deaths and cannot find release in the underground chambers. Three leaders of their circle remain among the restless dead: Taneel Darkwood, Uthil Mooncall, and Mavoris Cloudsbreak. Lay them to rest, and the den may begin to heal from its defilement.",
    "spoiler": 0
   }
  ],
@@ -50,7 +50,7 @@
     "why are druids mad",
     "why insane druids"
    ],
-   "answer": "The druids became mad spirits after they were killed in their sleep. The Forsaken's alchemical poisons tore their souls from their bodies in an unnatural, agonizing way."
+   "answer": "The druids became mad spirits after they were killed in their sleep. The Forsaken's alchemical poisons tore their souls from their bodies in an unnatural and agonizing way."
   },
   {
    "q": "Who are Taneel Darkwood, Uthil Mooncall, and Mavoris Cloudsbreak?",
@@ -126,5 +126,5 @@
  "attribution": [
   "Insane Druids (Classic)"
  ],
- "style": 1
+ "style": 2
 }

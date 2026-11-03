@@ -10,11 +10,11 @@
    "quest:149"
   ]
  },
- "summary": "At a ruined farmstead south of Darkshire, the Spectral Comb gathers ghost hair from Blind Mary.",
+ "summary": "South of Darkshire, the Spectral Comb gathers ghost hair from Blind Mary at a ruined farmstead.",
  "sections": [
   {
    "title": "A Tool for Restless Dead",
-   "body": "Ghostly hair lies beyond the reach of ordinary combs, leaving mortal craftsmen few ways to gather such fibers. The Spectral Comb can pass through a spirit’s intangible tresses. Carried south of Darkshire to a ruined farmstead, it is offered to Blind Mary, a weeping ghost who wails alone. Grooming brings her solace, and she willingly uses the comb. The spectral fibers she leaves behind can be woven into Ghost Hair Thread.",
+   "body": "Ordinary combs cannot reach a spirit’s hair, so few mortal craftsmen can gather it. The Spectral Comb passes through those unseen tresses. At a ruined farmstead south of Darkshire, it is offered to Blind Mary, a weeping ghost who wails alone. Grooming brings her solace, and she willingly takes up the comb. The fibers she leaves behind can be woven into Ghost Hair Thread.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why do i need spectral comb",
     "what does the comb do"
    ],
-   "answer": "You give the comb to Blind Mary, a weeping ghost south of Darkshire. As she combs her hair, it gathers ethereal strands that can be spun into supernatural thread."
+   "answer": "You give the Spectral Comb to Blind Mary, a weeping ghost south of Darkshire. As she combs her hair, the comb gathers ethereal strands that can be spun into supernatural thread."
   },
   {
    "q": "Who is Blind Mary?",
@@ -43,7 +43,7 @@
     "why spectral comb",
     "normal comb ghost"
    ],
-   "answer": "An ordinary comb cannot touch a spirit’s intangible hair. The Spectral Comb is made to pass through an apparition’s tresses."
+   "answer": "An ordinary comb cannot touch a spirit’s intangible hair. The Spectral Comb passes through an apparition’s tresses."
   }
  ],
  "angles": [
@@ -75,5 +75,5 @@
   "Spectral Comb",
   "Ghost Hair Thread (Classic)"
  ],
- "style": 1
+ "style": 2
 }

@@ -23,16 +23,16 @@
    "Howling in the Hills"
   ]
  },
- "summary": "Verner Osgood needs black dragon whelp underbelly scales to settle his trade debt with Smith Argus of Goldshire. You gather them from young drakes wandering the crags south of Lakeshire. The scales settle Verner’s account and leave enough raw hide to craft a piece of gear.",
+ "summary": "In Redridge, Verner Osgood needs black dragon whelp scales to pay his debt to Smith Argus of Goldshire. You gather them from young drakes south of Lakeshire, and the scales settle Verner’s account with raw hide left for a piece of gear.",
  "sections": [
   {
    "title": "A Frontier Debt",
-   "body": "Verner Osgood runs a forge on the outskirts of Lakeshire and often trades with craftsmen beyond the Redridge Mountains. Smith Argus of Goldshire sent him a shipment of horseshoes, but Verner is short on coin. Argus demands valuable dragonhide in payment: the highly prized, softer underbelly scales of the black dragon whelps nesting in the region. Without them, collectors may come from Elwynn Forest to claim the debt.",
+   "body": "Verner Osgood runs a forge outside Lakeshire and trades with craftsmen beyond the Redridge Mountains. Smith Argus of Goldshire sent him horseshoes, but Verner lacks the coin to pay. Argus asks for dragonhide instead: the softer underbelly scales of the black dragon whelps in the region. Without them, collectors may come from Elwynn Forest to claim the debt.",
    "spoiler": 0
   },
   {
    "title": "Brood of the Black Flight",
-   "body": "Black dragon whelps in the Redridge Mountains alarm the local defenders. Gnolls and orcs contest the roads, while the Black Dragonflight nests in the high peaks and its brood wanders the skies south of Lake Everstill. The young predators’ underbelly scales are tough yet pliable. Armorers, smiths, and leatherworkers across the kingdom prize them, if they dare to harvest them.",
+   "body": "Black dragon whelps trouble the defenders of the Redridge Mountains. Gnolls and orcs contest the roads, while the Black Dragonflight nests in the high peaks. Its brood wanders the skies south of Lake Everstill. The young predators’ underbelly scales are tough yet pliable, prized by armorers, smiths, and leatherworkers across the kingdom who dare to harvest them.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "verner debt",
     "argus scales"
    ],
-   "answer": "Verner owes Smith Argus of Goldshire for a shipment of horseshoes. Argus demands underbelly scales from black dragon whelps instead of regular coin. Verner needs them delivered quickly, before Argus sends collectors to enforce the debt."
+   "answer": "Verner owes Smith Argus of Goldshire for a shipment of horseshoes. Argus asks for black dragon whelp underbelly scales instead of coin, and Verner needs them quickly before collectors come to enforce the debt."
   },
   {
    "q": "Where are the black dragon whelps found in Redridge?",
@@ -53,7 +53,7 @@
     "where are whelps",
     "dragon whelp location redridge"
    ],
-   "answer": "Black dragon whelps commonly roam the rocky crags and valleys south of Lakeshire. They wander across the southern foothills, so hunters often patrol the trails and ridges to spot them in flight."
+   "answer": "Black dragon whelps roam the rocky crags and valleys south of Lakeshire. They cross the southern foothills, and hunters patrol the trails and ridges to spot them in flight."
   },
   {
    "q": "Who is Smith Argus?",
@@ -62,7 +62,7 @@
     "who is argus",
     "smith argus"
    ],
-   "answer": "Smith Argus is the blacksmith stationed at Goldshire in Elwynn Forest. He provides metalwork and forged goods to nearby settlements, including horseshoes for Verner Osgood in Redridge."
+   "answer": "Smith Argus is the blacksmith in Goldshire, in Elwynn Forest. He provides metalwork and forged goods to nearby settlements, including the horseshoes he sent to Verner Osgood in Redridge."
   },
   {
    "q": "Why are black dragon whelps in Redridge Mountains?",
@@ -71,7 +71,7 @@
     "black dragons redridge",
     "black flight redridge"
    ],
-   "answer": "The Black Dragonflight keeps a presence throughout the Burning Steppes and the surrounding peaks of Redridge. Its whelps hunt and wander south through the mountain passes into the Redridge foothills."
+   "answer": "The Black Dragonflight keeps a presence throughout the Burning Steppes and the peaks around Redridge. Its whelps hunt and wander south through the mountain passes into the Redridge foothills."
   },
   {
    "q": "What makes underbelly scales special?",
@@ -80,7 +80,7 @@
     "scale value",
     "dragonhide quality"
    ],
-   "answer": "Underbelly scales are supple and flexible, unlike the thick, rigid scales along a drake’s back. They retain high resistance to heat and punctures, making them useful for specialized leatherworking, tailored reinforcement, and exotic trade goods."
+   "answer": "Underbelly scales are supple and flexible, unlike the thick, rigid scales along a drake’s back. They resist heat and punctures, making them useful for specialized leatherworking, tailored reinforcement, and exotic trade goods."
   },
   {
    "q": "Does clearing this debt lead to other tasks for Verner?",
@@ -89,13 +89,13 @@
     "verner questline",
     "osgood follow up"
    ],
-   "answer": "This follows Verner Osgood’s request after you bring him his horseshoe shipment. Alongside this optional gathering, Verner sends adventurers to hunt gnoll scouts and leaders as the threat in Redridge grows."
+   "answer": "After you bring Verner Osgood his horseshoe shipment, he asks for these scales. Alongside this optional gathering, he sends adventurers to hunt gnoll scouts and leaders as the threat in Redridge grows."
   }
  ],
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "Smith Argus’s demand shows how smiths barter rare reagents like dragon scales when standard coin is scarce."
+   "text": "Smith Argus’s demand shows how smiths barter rare materials like dragon scales when coin is scarce."
   },
   {
    "target": "faction:Alliance",
@@ -103,7 +103,7 @@
   },
   {
    "target": "race:Human",
-   "text": "As a human, you know trade routes between Elwynn and Redridge supply towns like Lakeshire, though frontier craftsmen often pay steep prices to city merchants."
+   "text": "As a human, you know trade routes between Elwynn and Redridge supply towns like Lakeshire. Frontier craftsmen often pay steep prices to city merchants."
   }
  ],
  "keywords": [
@@ -129,5 +129,5 @@
  "attribution": [
   "Underbelly Scales"
  ],
- "style": 1
+ "style": 2
 }

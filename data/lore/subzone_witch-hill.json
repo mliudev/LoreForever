@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Witch Hill"
  },
- "summary": "Witch Hill is a dreary, mist-shrouded rise in the heart of Dustwallow Marsh along the path toward Theramore. It is best known for the secluded Swamplight Manor, scattered camps of hostile Mirefin murlocs, and sinister rumors of dark hauntings.",
+ "summary": "Mirefin murlocs camp around Witch Hill, where Swamplight Manor stands near the path to Theramore. Rumors of hauntings trouble the lonely rise.",
  "sections": [
   {
    "title": "A Blighted Rise",
-   "body": "Rising out of the stagnant waters of Dustwallow Marsh, Witch Hill sits roughly a third of the way along the peninsula leading southeast toward Theramore Isle. The elevated ground provides little refuge from the hazards of the swamp, as aggressive Mirefin murlocs claim the surrounding waters. At its center stands Swamplight Manor, the lonely and unsettling residence of the hermit known as 'Swamp Eye' Jarl. Travelers passing through frequently report eerie phenomena and lingering dark presences across the knoll.",
+   "body": "Witch Hill rises from the waters of Dustwallow Marsh, about a third of the way down the peninsula toward Theramore Isle. Mirefin murlocs claim the waters around it, and their camps make the swamp dangerous. Near the hill's center stands Swamplight Manor, home to the hermit known as 'Swamp Eye' Jarl. Travelers report eerie sights and dark presences across the rise.",
    "spoiler": 0
   },
   {
    "title": "The Haunting of the Hill",
-   "body": "Behind its quiet, gloomy exterior, Witch Hill is steeped in dark rumor. Tales of hauntings cling to the desolate ground, adding to the local paranoia. Those who brave the hill must contend not only with the primitive savagery of the Mirefin, but with occult threats that make even seasoned Theramore patrols uneasy.",
+   "body": "Rumors of hauntings cling to Witch Hill's desolate ground. Mirefin murlocs are not the only danger there. Occult threats trouble the hill, and even Theramore patrols find it unsettling.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "where is witch hill",
     "how to find witch hill"
    ],
-   "answer": "Witch Hill is located in Dustwallow Marsh, situated about a third of the way down the peninsula that connects the western marsh to Theramore Isle."
+   "answer": "Witch Hill lies in Dustwallow Marsh, about a third of the way down the peninsula that runs from the western marsh toward Theramore Isle."
   },
   {
    "q": "Who lives on Witch Hill?",
@@ -37,7 +37,7 @@
     "witch hill inhabitants",
     "swamplight manor resident"
    ],
-   "answer": "The most prominent resident is 'Swamp Eye' Jarl, an eccentric hermit living inside Swamplight Manor near the hill's center. The surrounding lowlands are also infested by camps of Mirefin murlocs."
+   "answer": "'Swamp Eye' Jarl lives in Swamplight Manor near the hill's center. Mirefin murlocs camp in the surrounding lowlands."
   },
   {
    "q": "Why is the area called Witch Hill?",
@@ -46,7 +46,7 @@
     "is there a witch here",
     "witch hill lore"
    ],
-   "answer": "The knoll has long had a sinister reputation for dark magic, odd lights, and supernatural danger, compounded by the eerie solitude of Swamplight Manor."
+   "answer": "Witch Hill has a sinister reputation for dark magic, odd lights, and supernatural danger. Swamplight Manor's eerie solitude adds to its name."
   },
   {
    "q": "What threats should travelers look out for on Witch Hill?",
@@ -55,17 +55,17 @@
     "witch hill enemies",
     "mobs on witch hill"
    ],
-   "answer": "Travelers must beware of roaming Mirefin murlocs establishing camps around the hill, as well as the unsettling rumors of hauntings that cling to the hill."
+   "answer": "Watch for Mirefin murlocs camping around Witch Hill, and heed the rumors of hauntings on the rise."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "Warlocks passing along the Theramore road may sense the dark rumors of hauntings clinging to the dreary knoll."
+   "text": "As a warlock, you may sense the rumors of hauntings clinging to Witch Hill as you travel the road toward Theramore."
   },
   {
    "target": "faction:Alliance",
-   "text": "Witch Hill borders the primary overland route toward Theramore Isle, making its murloc tribes and dark entities an ongoing nuisance for travelers and couriers."
+   "text": "Witch Hill borders the main overland route toward Theramore Isle, where murloc tribes and dark entities trouble travelers and couriers."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Witch Hill"
- ]
+ ],
+ "style": 2
 }

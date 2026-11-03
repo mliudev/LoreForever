@@ -22,16 +22,16 @@
    "Horns of Frenzy"
   ]
  },
- "summary": "In Orgrimmar's Valley of Honor, Orokk Omosh puts smiths through an advanced blacksmithing trial. Forging green iron armor tests their endurance and teaches them to make heavy iron boots, with the Omosh bloodline's secret techniques at stake.",
+ "summary": "In Orgrimmar's Valley of Honor, Orokk Omosh tests smiths with hard work. Green iron armor puts their endurance to the proof and teaches them to make heavy iron boots, while the Omosh bloodline's techniques hang in the balance.",
  "sections": [
   {
    "title": "The Trials of Omosh",
-   "body": "Orokk Omosh trains armorsmiths in Orgrimmar through hard physical trials. He sees metalworking as more than heating ore and shaping it; the work honors his ancestral clan and tests a smith's endurance. This is the third trial in his chain, and repeated crafting of tempered green iron armor is meant to build muscle and discipline.",
+   "body": "Orokk Omosh trains armorsmiths in Orgrimmar with trials of hard physical labor. To him, metalworking is more than heating ore and shaping it. It honors his ancestral clan and tests a smith's endurance. This is the third trial in his chain, and making tempered green iron armor again and again builds muscle and discipline.",
    "spoiler": 0
   },
   {
    "title": "Legacy of Chief Gorokk",
-   "body": "Smiths who bring Orokk the requested green iron gear earn rare praise from the gruff armorsmith. He compares an artisan who endures the work to his grandfather, Chief Gorokk of Omosh. In exchange for the armor, Orokk teaches the ancestral design for sturdy iron boots, made so Horde warriors can crush their enemies beneath their heels.",
+   "body": "Smiths who bring Orokk the requested green iron gear win rare praise from the gruff armorsmith. He compares an artisan who endures the work to his grandfather, Chief Gorokk of Omosh. For the armor, Orokk teaches the ancestral design for sturdy iron boots. Horde warriors wear them to crush their enemies beneath their heels.",
    "spoiler": 0
   }
  ],
@@ -52,7 +52,7 @@
     "what items needed",
     "materials needed"
    ],
-   "answer": "Orokk requires four Green Iron Helms, four Green Iron Bracers, and two Green Iron Leggings. These pieces test and prove the smith's mastery of green iron craftsmanship."
+   "answer": "Orokk requires four Green Iron Helms, four Green Iron Bracers, and two Green Iron Leggings. The pieces test and prove a smith's mastery of green iron craftsmanship."
   },
   {
    "q": "What is the lore behind the Omosh training chain?",
@@ -90,7 +90,7 @@
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "For a Horde armorsmith, this trial is a major step. It calls for extensive iron smelting and green dye preparation to earn exclusive boot plans."
+   "text": "For a Horde armorsmith, this trial marks a major step. It calls for extensive iron smelting and green dye preparation to earn exclusive boot plans."
   },
   {
    "target": "faction:Horde",
@@ -115,5 +115,5 @@
  "attribution": [
   "Trampled Under Foot"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Broken Pillar"
  },
- "summary": "The Broken Pillar is a weathered cluster of ancient troll ruins jutting from the dunes south of Gadgetzan. It serves as an isolated research post for the goblin prospector and scientist Marvon Rivetseeker, who studies the enigmatic artifacts buried beneath the surrounding sands.",
+ "summary": "South of Gadgetzan, Marvon Rivetseeker studies artifacts buried in Tanaris’s sands. His research camp stands beside the ancient troll ruins of the Broken Pillar.",
  "sections": [
   {
    "title": "Sun-Bleached Stone",
-   "body": "Rising out of the sands south of Gadgetzan and east of the treacherous Abyssal Sands, the Broken Pillar marks the remnants of ancient troll architecture long swallowed by Tanaris. Despite the desolate surroundings and encroaching desert beasts, the site offers rare clues to the continent's prehistoric civilisations. Marvon Rivetseeker, a goblin researcher originally based out of Ratchet, has established a lonely camp beside the shattered stonework to examine curious relics known as Gahz'ridian scattered across the waste.",
+   "body": "South of Gadgetzan and east of the Abyssal Sands, the Broken Pillar rises from the desert. Tanaris has swallowed much of its ancient troll stonework. Desert beasts roam nearby, yet the ruins still offer clues to the continent’s earliest civilizations. Marvon Rivetseeker, a goblin researcher from Ratchet, has made his camp beside the shattered stones. There he examines Gahz'ridian relics scattered across the waste.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is broken pillar",
     "pillar ruins"
    ],
-   "answer": "The Broken Pillar is an ancient troll ruin located in central Tanaris, south of Gadgetzan and east of the Abyssal Sands. Little remains of the original structure aside from weathered stone pillars and debris half-buried in the shifting dunes."
+   "answer": "The Broken Pillar is an ancient troll ruin in central Tanaris, south of Gadgetzan and east of the Abyssal Sands. Weathered pillars and debris, half-buried in shifting dunes, are all that remain."
   },
   {
    "q": "Who is camped at the Broken Pillar?",
@@ -32,7 +32,7 @@
     "broken pillar npc",
     "marvon rivetseeker location"
    ],
-   "answer": "Marvon Rivetseeker, an inquisitive goblin scientist and prospector from Ratchet, has set up a solitary research camp among the ruins. He investigates the mysterious Gahz'ridian ornaments buried throughout the surrounding desert."
+   "answer": "Marvon Rivetseeker, a goblin scientist and prospector from Ratchet, has made a research camp among the ruins. He studies mysterious Gahz'ridian ornaments buried in the surrounding desert."
   },
   {
    "q": "Who built the original ruins here?",
@@ -41,7 +41,7 @@
     "broken pillar history",
     "broken pillar origin"
    ],
-   "answer": "The stonework is of ancient troll design, dating back to the eras when ancient troll empires held dominion across southern Kalimdor long before desert sands engulfed the region."
+   "answer": "Ancient trolls built the ruins. Their stonework dates to the time when troll empires ruled southern Kalimdor, long before desert sands covered the region."
   },
   {
    "q": "What are Gahz'ridian relics?",
@@ -50,17 +50,17 @@
     "what is gahzridian",
     "marvon quest items"
    ],
-   "answer": "Gahz'ridian are ancient stone artifacts and carved faces buried in the sands of Tanaris. Marvon Rivetseeker studies them from his camp at the Broken Pillar to unlock the secrets and power held within the vanished empire's craft."
+   "answer": "Gahz'ridian are ancient stone artifacts and carved faces buried in Tanaris’s sands. From his camp at the Broken Pillar, Marvon Rivetseeker studies them to uncover the craft and power of the vanished empire."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "The crumbling pillars are solemn markers of ancestral troll architecture, echoing an era before the empire's dominion over southern Kalimdor was fractured by time and sand."
+   "text": "For trolls, the crumbling pillars mark an age of ancestral troll architecture, before time and sand broke the empire’s dominion over southern Kalimdor."
   },
   {
    "target": "race:Gnome",
-   "text": "The curiosity driving Marvon Rivetseeker's research into unknown relic properties mirrors gnomish scholarly ambition, though his methods remain distinctively goblin."
+   "text": "Marvon Rivetseeker’s study of unknown relics reflects gnomish scholarly curiosity, though his methods are distinctly goblin."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Broken Pillar"
- ]
+ ],
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Maestra's Post"
  },
- "summary": "Along the road through western Ashenvale, Maestra's Post watches the way between Astranaar and the Ruins of Ordil'Aran. Night elven Sentinels guard the settlement, where a few humans serve the Alliance.",
+ "summary": "Along western Ashenvale's road, Maestra's Post guards the way between Astranaar and the Ruins of Ordil'Aran. Night elven Sentinels hold the settlement, where a few humans serve the Alliance.",
  "sections": [
   {
    "title": "A Forward Watch",
-   "body": "Maestra's Post keeps watch beneath the trees of western Ashenvale. A slender night elven tower and an open lodge mark the settlement along the road between the coast of Darkshore and Astranaar. Sentinels scan the surrounding wilds as corrupted furbolg stir nearby. Horde movements also threaten Alliance supply lines.",
+   "body": "Maestra's Post keeps watch beneath the trees of western Ashenvale. A slender night elven tower and an open lodge mark the settlement beside the road from the coast of Darkshore to Astranaar. Sentinels scan the wilds as corrupted furbolg stir nearby. Horde movements also threaten Alliance supply lines.",
    "spoiler": 0
   },
   {
    "title": "An Alliance Gathering",
-   "body": "Maestra's Post brings a handful of human allies to live among the night elven Sentinels. Feero Ironhand and Delgren the Purifier lend their martial strength and devotion to the holy Light in service of the Alliance. This remote campsite is an early meeting place between the eastern kingdoms and Kalimdor's ancient defenders.",
+   "body": "At Maestra's Post, a handful of human allies live among the night elven Sentinels. Feero Ironhand and Delgren the Purifier bring martial strength and devotion to the holy Light in service of the Alliance. This remote campsite is an early meeting place between the eastern kingdoms and Kalimdor's ancient defenders.",
    "spoiler": 0
   }
  ],
@@ -64,7 +64,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you see the new Alliance taking shape here: Sentinels share hearth and watch duty with the younger races of the Eastern Kingdoms."
+   "text": "As a night elf, you see the new Alliance taking shape here. Sentinels share hearth and watch duty with the younger races of the Eastern Kingdoms."
   }
  ],
  "keywords": [
@@ -89,5 +89,5 @@
  "attribution": [
   "Maestra's Post"
  ],
- "style": 1
+ "style": 2
 }

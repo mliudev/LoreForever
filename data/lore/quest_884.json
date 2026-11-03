@@ -17,21 +17,21 @@
   "wiki": "Owatanka (quest)",
   "chain": []
  },
- "summary": "Across the southern Barrens, Owatanka roams as a swift thunder lizard known to the tauren as Bluebolt. Slaying the beast yields a crackling tailspike, carried to Jorn Skyseer at Camp Taurajo in honor of the elders’ tradition of learning from Kalimdor’s primordial beasts.",
+ "summary": "In the southern Barrens, Owatanka roams as a swift thunder lizard the tauren call Bluebolt. Bring his crackling tailspike to Jorn Skyseer at Camp Taurajo. The gift honors the elders’ tradition of learning from Kalimdor’s primordial beasts.",
  "sections": [
   {
    "title": "The Beast Called Bluebolt",
-   "body": "Owatanka prowls the southern Barrens, where tauren hunters speak of him with reverence. Unlike his massive, plodding kin, he moves with blinding speed. The tauren call him Bluebolt, for the storm changed him.",
+   "body": "Tauren hunters speak of Owatanka with reverence. Unlike his massive, plodding kin, he moves with blinding speed. They call him Bluebolt, for the storm changed him.",
    "spoiler": 0
   },
   {
    "title": "Fed by the Sky's Rage",
-   "body": "Tauren lore says lightning struck Owatanka long ago. The thunder lizard survived, and the strike filled him with unending energy and fury. Even after his death, his tailspike crackles with stray sparks when handled, a remnant of the storm’s power.",
+   "body": "Tauren lore says lightning struck Owatanka long ago. The thunder lizard survived, filled with unending energy and fury. Even after his death, his tailspike crackles with stray sparks when handled, a remnant of the storm’s power.",
    "spoiler": 0
   },
   {
    "title": "Trophy of Taurajo",
-   "body": "Taking Owatanka's Tailspike to Jorn Skyseer at Camp Taurajo marks a hunter’s prowess and spirit. Jorn recognizes the encounter in the eyes of any hunter who has outmatched the beast’s speed. Presenting the trophy honors Bluebolt’s enduring swiftness.",
+   "body": "Take Owatanka's Tailspike to Jorn Skyseer at Camp Taurajo. It marks a hunter’s prowess and spirit. Jorn recognizes the encounter in the eyes of any hunter who has outmatched the beast’s speed. Presenting the trophy honors Bluebolt’s enduring swiftness.",
    "spoiler": 0
   }
  ],
@@ -127,5 +127,5 @@
  "attribution": [
   "Owatanka (quest)"
  ],
- "style": 1
+ "style": 2
 }

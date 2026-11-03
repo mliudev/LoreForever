@@ -12,12 +12,12 @@
  "sections": [
   {
    "title": "Commander of Tarren Mill",
-   "body": "High Executor Darthalia commands Forsaken forces from Tarren Mill. She works to contain the human forces in Southshore and hunt the Syndicate brigands across the Hillsbrad Foothills. Every Forsaken offensive in southern Hillsbrad passes through her command.",
+   "body": "From Tarren Mill, High Executor Darthalia commands Forsaken forces. She works to contain the human forces in Southshore and hunt Syndicate brigands across the Hillsbrad Foothills. Every Forsaken offensive in southern Hillsbrad passes through her command.",
    "spoiler": 0
   },
   {
    "title": "The War for Hillsbrad",
-   "body": "High Executor Darthalia follows orders from the Undercity's leaders, Lady Sylvanas Windrunner and Varimathras. She directs the war across Hillsbrad, with scouting, strikes against human leaders, and bounties on outlaws who threaten Forsaken control of northern Lordaeron.",
+   "body": "High Executor Darthalia follows orders from Lady Sylvanas Windrunner and Varimathras, the Undercity's leaders. She directs the war across Hillsbrad through scouting and strikes against human leaders. Bounties target outlaws who threaten Forsaken control of northern Lordaeron.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is darthalia",
     "executor darthalia map"
    ],
-   "answer": "Darthalia commands Forsaken forces from Tarren Mill, coordinating troops and strikes across central Lordaeron."
+   "answer": "Darthalia commands Forsaken forces from Tarren Mill. From there, she coordinates troops and strikes across central Lordaeron."
   },
   {
    "q": "Who does Darthalia answer to?",
@@ -56,7 +56,7 @@
     "quests from darthalia",
     "what does darthalia want"
    ],
-   "answer": "Darthalia sends Horde champions against human settlements and dangerous outlaws, including Syndicate members throughout the Hillsbrad Foothills."
+   "answer": "Darthalia sends Horde champions against human settlements and dangerous outlaws. Among them are Syndicate members throughout the Hillsbrad Foothills."
   },
   {
    "q": "Why is Darthalia fighting the humans of Southshore?",
@@ -65,7 +65,7 @@
     "southshore war",
     "hillsbrad conflict"
    ],
-   "answer": "Darthalia fights to contain Southshore's Alliance forces, protect Tarren Mill, and stop them from pushing north toward the Undercity."
+   "answer": "Darthalia fights to contain Southshore's Alliance forces and protect Tarren Mill. She seeks to stop them from pushing north toward the Undercity."
   },
   {
    "q": "What is Darthalia's rank in the Forsaken military?",
@@ -73,13 +73,13 @@
     "high executor rank",
     "darthalia title"
    ],
-   "answer": "As a High Executor, Darthalia holds a high rank in the Forsaken military and commands regional forces, outposts, and war strategy in Hillsbrad."
+   "answer": "As a High Executor, Darthalia holds high rank in the Forsaken military. She commands regional forces, outposts, and war strategy in Hillsbrad."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As Forsaken, you can see Darthalia's resolve to keep Lordaeron in undead hands."
+   "text": "As Forsaken, you see Darthalia's resolve to keep Lordaeron in undead hands."
   },
   {
    "target": "faction:Horde",
@@ -87,7 +87,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "To Southshore's humans and their allies, Darthalia leads the assaults threatening their foothold in Lordaeron."
+   "text": "To Southshore's humans and their allies, Darthalia leads assaults that threaten their foothold in Lordaeron."
   }
  ],
  "keywords": [
@@ -114,5 +114,5 @@
  "attribution": [
   "High Executor Darthalia"
  ],
- "style": 1
+ "style": 2
 }

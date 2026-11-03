@@ -8,16 +8,16 @@
   "wiki": "Longbraid the Grim",
   "refs": 2
  },
- "summary": "Outside fallen Dun Modr, Longbraid the Grim keeps watch over the northern Wetlands. He mourns his brother and the loss of the Thandol Span, while leading the surviving dwarves against the Dark Iron clan.",
+ "summary": "Outside fallen Dun Modr, Longbraid the Grim keeps watch over the northern Wetlands. He mourns his brother and the loss of the Thandol Span as he leads surviving dwarves against the Dark Iron clan.",
  "sections": [
   {
    "title": "A Bitter Watch",
-   "body": "Longbraid the Grim rallies the dwarven garrison near the bridge to the Arathi Highlands. The Dark Iron clan seized Dun Modr in a sudden assault that devastated the defenders. Longbraid's brother died during the siege of the Thandol Span. Grief and hatred keep Longbraid at the northern boundary, where he directs travelers and surviving mountaineers in strikes against the Dark Iron advance.",
+   "body": "Longbraid the Grim rallies the dwarven garrison near the bridge to the Arathi Highlands. The Dark Iron clan seized Dun Modr in a sudden assault and devastated its defenders. During the siege of the Thandol Span, Longbraid's brother died. Grief and hatred keep Longbraid at the northern boundary, where he directs travelers and surviving mountaineers in strikes against the Dark Iron advance.",
    "spoiler": 0
   },
   {
    "title": "Holding the Line",
-   "body": "Longbraid also directs dwarven operations across the Wetlands. He sent soldiers to escort Prospector Whelgar into the marshlands and works to reclaim Dun Modr's lost fortifications. He vows retribution against the Dark Iron saboteurs.",
+   "body": "Longbraid directs dwarven operations across the Wetlands. He sent soldiers to escort Prospector Whelgar into the marshlands and works to reclaim Dun Modr's lost fortifications. He vows retribution against the Dark Iron saboteurs.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "longbraid brother",
     "longbraid backstory"
    ],
-   "answer": "Longbraid earned his grim demeanor when his brother died in the Dark Iron attack on the Thandol Span. Since then, he has pursued vengeance for his fallen kin."
+   "answer": "Longbraid's brother died in the Dark Iron attack on the Thandol Span. Since then, Longbraid has pursued vengeance for his fallen kin."
   },
   {
    "q": "What happened to Dun Modr?",
@@ -90,5 +90,5 @@
  "attribution": [
   "Longbraid the Grim"
  ],
- "style": 1
+ "style": 2
 }

@@ -2,6 +2,7 @@
 -- Sources: data/i18n/ruRU. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ruRU")
 local Po = P.search.post
+Po["проезжих"] = "AXaBAYWBBCNBBCUBBDoBBG2BBJaBBUBBBk6BBqgBByXBBzuBCRNBCdFCCdZBChRBChpBCh1BCnKBDJFBDKWBE/9BFIABFlMBF0KBGVoBGXnB"
 Po["проезжихпутников"] = "CdFC"
 Po["проект"] = "AhDBA3lBA3qBA/OCBU7DByXBCNmBCZpCCZuBCuCCC0BBC0MBDOVBD3bDEqqBFQmBFQpBFQqB"
 Po["проекта"] = "AugBCXJBEUJBEqiB"
@@ -12001,4 +12002,3 @@ Po["руинытемной"] = "GKKB"
 Po["руинытитанов"] = "GP1C"
 Po["руиныткаши"] = "GDPDGDQDGDRFGDSB"
 Po["руинытроллей"] = "FIrBGDPB"
-Po["руиныульдума"] = "FztC"

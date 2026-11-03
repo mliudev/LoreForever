@@ -17,16 +17,16 @@
   "wiki": "The Caravan Road",
   "chain": []
  },
- "summary": "In Booty Bay, the search for Velinde Starsong turns north toward Darkshire. Caravaneer Ruzzgot remembers the missing night elf priestess traveling with his caravan through Stranglethorn Vale.",
+ "summary": "In Booty Bay, the search for Velinde Starsong turns north toward Darkshire. Caravaneer Ruzzgot recalls carrying the missing night elf priestess through Stranglethorn Vale.",
  "sections": [
   {
    "title": "A Priestess in the Jungle",
-   "body": "Caravaneer Ruzzgot remembers Velinde Starsong as a passenger on his caravan. The search for the missing night elf priestess has brought you from Ashenvale to Booty Bay, at the southern edge of Stranglethorn Vale. She traveled with his caravan through the jungle, an unusual journey for a night elf priestess.",
+   "body": "Caravaneer Ruzzgot remembers Velinde Starsong as a passenger on his caravan. Your search for the missing night elf priestess has brought you from Ashenvale to Booty Bay, at the southern edge of Stranglethorn Vale. She traveled with his caravan through the jungle, an unusual path for a night elf priestess.",
    "spoiler": 0
   },
   {
    "title": "North to Darkshire",
-   "body": "Ruzzgot says he and Velinde parted ways as they traveled north through Stranglethorn Vale. She set out toward Duskwood, and her trail leads to Darkshire. Clerk Daltry keeps the town's records, including the names of unfamiliar travelers who enter. His ledger may hold the next clue to Velinde's whereabouts.",
+   "body": "Ruzzgot says he and Velinde parted ways as they traveled north through Stranglethorn Vale. She set out for Duskwood, and her trail leads to Darkshire. Clerk Daltry keeps the town's records, including the names of unfamiliar travelers who enter. His ledger may hold the next clue to Velinde's whereabouts.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is velinde",
     "who are we looking for"
    ],
-   "answer": "Velinde Starsong is a night elf priestess of Elune who left her homeland in Kalimdor under mysterious circumstances. Her disappearance led to a search across the continents, following her trail from Ashenvale through the Eastern Kingdoms."
+   "answer": "Velinde Starsong is a night elf priestess of Elune who left her homeland in Kalimdor under mysterious circumstances. Her disappearance has led a search across the continents, following her trail from Ashenvale through the Eastern Kingdoms."
   },
   {
    "q": "Why was Velinde traveling with a caravan?",
@@ -74,7 +74,7 @@
     "stranglethorn level",
     "stranglethorn dangerous"
    ],
-   "answer": "Stranglethorn Vale is home to predatory beasts, hostile troll tribes, and Bloodsail buccaneers. The journey north is dangerous, and travelers need to stay close to the main road."
+   "answer": "Stranglethorn Vale is home to predatory beasts, hostile troll tribes, and Bloodsail buccaneers. The journey north is dangerous, so travelers need to stay close to the main road."
   },
   {
    "q": "Where did this investigation start?",
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you may share your kin's concern over Velinde Starsong, a Sentinel priestess of Elune whose secretive actions have taken her to the Eastern Kingdoms."
+   "text": "As a night elf, you may share your kin's concern for Velinde Starsong, a Sentinel priestess of Elune whose secretive actions have taken her to the Eastern Kingdoms."
   },
   {
    "target": "faction:Alliance",
@@ -119,5 +119,5 @@
  "attribution": [
   "The Caravan Road"
  ],
- "style": 1
+ "style": 2
 }

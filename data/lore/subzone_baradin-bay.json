@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Baradin Bay"
  },
- "summary": "In Baradin Bay, reefs and wrecks make each crossing perilous. Its waters lie between Khaz Modan, the Wetlands, the Arathi Highlands, and southern Lordaeron. Kul Tiras once patrolled the bay with a powerful navy during the Second War.",
+ "summary": "Baradin Bay's reefs and wrecks make every crossing perilous. The waters lie between Khaz Modan, the Wetlands, the Arathi Highlands, and southern Lordaeron. During the Second War, Kul Tiras patrolled the bay with a powerful navy.",
  "sections": [
   {
    "title": "A Strategic Waterway",
-   "body": "Baradin Bay links the harbors of the Eastern Kingdoms. Menethil Harbor lies on its Wetlands shore, and Southshore stands in the Hillsbrad Foothills. Shallow sandbanks and jagged shoals threaten ships, as do murlocs, crocolisks, and deep-sea sharks.",
+   "body": "Baradin Bay joins the harbors of the Eastern Kingdoms. Menethil Harbor stands on the Wetlands shore, while Southshore lies in the Hillsbrad Foothills. Sandbanks and jagged shoals hide beneath the water. Murlocs, crocolisks, and deep-sea sharks make the passage more dangerous.",
    "spoiler": 0
   },
   {
    "title": "Graveyard of the Fleets",
-   "body": "During the Second War, Kul Tiras and the Horde fought across Baradin Bay. The broken hulls of the Kul Tiran Third Fleet, called the Lost Fleet, lie half-submerged along the Wetlands coast. Other ships sank at Drowned Reef. Hostile spirits, salvagers, and sea beasts haunt the waters around the ruined ships.",
+   "body": "Kul Tiras and the Horde fought across Baradin Bay during the Second War. Along the Wetlands coast, the broken hulls of the Kul Tiran Third Fleet lie half-submerged. They are known as the Lost Fleet. Other ships sank at Drowned Reef. Hostile spirits, salvagers, and sea beasts haunt the waters around the ruined ships.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "harbors in baradin bay",
     "where does baradin bay lead"
    ],
-   "answer": "Menethil Harbor in the Wetlands and Southshore in the Hillsbrad Foothills are the bay's chief ports, sustaining naval travel across the sea."
+   "answer": "Menethil Harbor in the Wetlands and Southshore in the Hillsbrad Foothills are the bay's chief ports. They sustain naval travel across the sea."
   },
   {
    "q": "Why are there so many shipwrecks along the bay's coast?",
@@ -37,7 +37,7 @@
     "why are ships sunken here",
     "lost fleet origin"
    ],
-   "answer": "The wrecks along the Wetlands shore belong to the Lost Fleet, the Kul Tiras Third Fleet destroyed during the Second War. Other ships sank on Drowned Reef off the Arathi coast."
+   "answer": "The wrecks along the Wetlands shore are the remains of the Kul Tiras Third Fleet, destroyed during the Second War. Other ships sank on Drowned Reef off the Arathi coast."
   },
   {
    "q": "What threats can be found in the waters of Baradin Bay?",
@@ -64,7 +64,7 @@
   },
   {
    "target": "race:Human",
-   "text": "For humans, especially those tracing their lineage to Kul Tiras or Lordaeron, Baradin Bay is solemn ground where Second War sailors rest beneath the waves."
+   "text": "As a human, especially one tracing your lineage to Kul Tiras or Lordaeron, you stand on solemn ground. Second War sailors rest beneath these waves."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
  "attribution": [
   "Baradin Bay"
  ],
- "style": 1
+ "style": 2
 }

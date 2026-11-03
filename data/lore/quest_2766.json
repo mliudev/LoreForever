@@ -24,16 +24,16 @@
    "Oglethorpe's Homing Robots"
   ]
  },
- "summary": "You come across a strange egg-shaped device of metal. A voice inside it introduces itself as Oglethorpe Obnoticus, whose homing robot has crashed. You are asked to bring the beacon to the machine, which lies in a cave close to Feral Scar Vale.",
+ "summary": "A homing robot has crashed in Feralas, and Oglethorpe Obnoticus calls for help through a strange metal egg. Carry its beacon to a cave near Feral Scar Vale.",
  "sections": [
   {
    "title": "A Voice in the Egg",
-   "body": "Fiddling with a knob springs the metal egg open into a gnomish robotic contraption, and a crackling voice speaks from within. Oglethorpe Obnoticus says the homing robot has crashed, and promises payment if you recover it. The beacon is to be taken to the robot, and Oglethorpe has computed where it lies: a cave near Feral Scar Vale.",
+   "body": "Turn the knob on the metal egg, and it opens into a gnomish contraption. Oglethorpe Obnoticus speaks from within. His homing robot has crashed, and he promises payment if you recover it. He has worked out that the machine lies in a cave near Feral Scar Vale. Carry the beacon there.",
    "spoiler": 0
   },
   {
    "title": "What the Cave Holds",
-   "body": "In the cave you find wreckage that looks like a robotic chicken. Oglethorpe's voice confirms it is his homing robot, and says it must be jump-started before flying to Booty Bay for repairs. Placing the beacon inside brings the robot whirring to life, and Oglethorpe's voice then comes from the robot itself.",
+   "body": "A robotic chicken lies wrecked in the cave. Oglethorpe Obnoticus confirms it is his homing robot. It needs a jump-start before it can fly to Booty Bay for repairs. Place the beacon inside, and the robot whirs to life. Then Oglethorpe's voice comes from the robot itself.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "who is talking",
     "oglethorpe who"
    ],
-   "answer": "Oglethorpe Obnoticus. His homing robot has crashed, and he asks you to bring the beacon to it."
+   "answer": "Oglethorpe Obnoticus speaks through the beacon. His homing robot has crashed, and he asks you to bring the beacon to it."
   },
   {
    "q": "Where does the beacon point you to go?",
@@ -54,7 +54,7 @@
     "homing robot location",
     "where to take beacon"
    ],
-   "answer": "Oglethorpe has computed the robot's coordinates, and it lies in a cave by Feral Scar Vale in Feralas."
+   "answer": "The beacon points to a cave near Feral Scar Vale in Feralas. Oglethorpe has worked out the robot's coordinates."
   },
   {
    "q": "What is the beacon?",
@@ -63,7 +63,7 @@
     "what is oox-22/fe",
     "distress beacon"
    ],
-   "answer": "A strange egg-shaped device of metal. When you fiddle with a knob it opens into a gnomish robotic contraption, and a voice speaks from inside."
+   "answer": "The beacon is a strange egg-shaped metal device. Turn its knob, and it opens into a gnomish contraption with a voice inside."
   },
   {
    "q": "What comes after this step?",
@@ -93,5 +93,6 @@
  ],
  "attribution": [
   "Find OOX-22/FE!"
- ]
+ ],
+ "style": 2
 }

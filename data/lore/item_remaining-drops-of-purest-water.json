@@ -10,11 +10,11 @@
    "quest:63"
   ]
  },
- "summary": "Across Kalimdor and Lordaeron, shaman gather what Brine needs for a draught. Its last drops wait for a perilous journey.",
+ "summary": "Across Kalimdor and Lordaeron, Remaining Drops of Purest Water wait for a perilous journey. Brine gathered the water for a draught meant to help shaman.",
  "sections": [
   {
    "title": "A Remedy for Defiled Waters",
-   "body": "Brine prepares a water draught in the Barrens from water gathered across Kalimdor and Lordaeron. Part of it gives shaman vision of distant elements. The remaining drops are kept for a harder purpose. Shaman carry them to the coast of Silverpine Forest, near the Sepulcher, where the Brazier of Everfount stands. There, the drops are burned with the bracers of a fallen, tainted elemental. The pure water cuts through the undead plague’s corruption, calling an untainted water spirit to commune with the shaman and complete their communion with the element.",
+   "body": "In the Barrens, Brine prepares a draught from water gathered across Kalimdor and Lordaeron. Part of it gives shaman vision of distant elements. The drops left over have a harder purpose.\n\nShaman carry them to the coast of Silverpine Forest, near the Sepulcher, where the Brazier of Everfount stands. There, they burn the drops with the bracers of a fallen, tainted elemental. The pure water cuts through the undead plague’s corruption and calls an untainted water spirit to commune with the shaman. So their communion with the element is complete.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "remaining drops purpose",
     "use purest water"
    ],
-   "answer": "The drops go onto the Brazier of Everfount on Silverpine Forest’s coast with the bracers of a corrupt water manifestation. The ritual cleanses the corrupted elemental shrine and summons an uncorrupted water spirit."
+   "answer": "On Silverpine Forest’s coast, the drops are burned on the Brazier of Everfount with the bracers of a corrupt water manifestation. The rite cleanses the corrupted elemental shrine and summons an uncorrupted water spirit."
   },
   {
    "q": "Where did the liquid come from?",
@@ -35,7 +35,7 @@
     "origin of drops",
     "brine water drops"
    ],
-   "answer": "They are the leftover portion of a purifying draught prepared by Brine, an orc shaman who lives on a hill in the southern Barrens. She makes it during the spiritual trials of aspiring shaman."
+   "answer": "Brine, an orc shaman who lives on a hill in the southern Barrens, prepared the draught. She makes it during the spiritual trials of aspiring shaman, and these drops are what remain."
   },
   {
    "q": "Why is the ritual performed all the way in Silverpine Forest?",
@@ -44,7 +44,7 @@
     "why travel to silverpine",
     "silverpine water shrine"
    ],
-   "answer": "A water shrine on the Silverpine coast, west of the Sepulcher, was corrupted by the plague of undeath. Its elemental spirits became hostile and twisted. Cleansing that pool tests a shaman’s devotion and mastery across great distances."
+   "answer": "A water shrine on the Silverpine coast, west of the Sepulcher, was corrupted by the plague of undeath. Its elemental spirits became hostile and twisted. Cleansing the pool tests a shaman’s devotion and mastery across great distances."
   },
   {
    "q": "What happens when they touch the brazier?",
@@ -63,7 +63,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you travel from Horde territory in Kalimdor to the precarious Forsaken holdings in Silverpine. The pilgrimage carries spiritual restoration against the Scourge blight across that distance."
+   "text": "As a member of the Horde, you travel from Horde territory in Kalimdor to the precarious Forsaken holdings in Silverpine. Across that distance, the pilgrimage brings spiritual restoration against the Scourge blight."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
   "Remaining Drops of Purest Water",
   "Call of Water (7)"
  ],
- "style": 1
+ "style": 2
 }

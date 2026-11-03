@@ -17,16 +17,16 @@
   "wiki": "Time To Strike",
   "chain": []
  },
- "summary": "At the Hillsbrad border, Time to Strike carries Lesh's signal east to Tarren Mill. Her coded message moves word from a quiet watch to Forsaken plans against Hillsbrad's humans.",
+ "summary": "At Hillsbrad's border, Lesh sends a warning east to Tarren Mill. Her coded words carry word from a quiet watch to Forsaken plans against the human settlers.",
  "sections": [
   {
    "title": "A Watcher at the Border",
-   "body": "Deathstalker Lesh watches the valley from high ground near the border of Silverpine Forest and the Hillsbrad Foothills. Below, human settlers and militia move through the valley. The Deathstalkers serve as the Undercity's eyes and ears, watching enemy settlements before troops deploy. Lesh stays at her post and asks passing Horde travelers to carry her gathered intelligence down the road to Tarren Mill.",
+   "body": "Deathstalker Lesh watches the valley from high ground near the border of Silverpine Forest and the Hillsbrad Foothills. Below her, human settlers and militia move through the valley. The Deathstalkers watch enemy settlements for the Undercity before its troops deploy. Lesh holds her post and asks passing Horde travelers to carry her gathered intelligence down the road to Tarren Mill.",
    "spoiler": 0
   },
   {
    "title": "A Coded Beckon",
-   "body": "Lesh's message is veiled: “The raven's cry from the west doth beckon.” Carried east along the road, it tells High Executor Darthalia that Hillsbrad's human defenses are vulnerable. For Darthalia and the dreadlord Varimathras, the signal means the time has come to mobilize Forsaken forces and carry out campaigns against Hillsbrad's human defenders.",
+   "body": "Lesh's message speaks in code: “The raven's cry from the west doth beckon.” Carried east along the road, it tells High Executor Darthalia that Hillsbrad's human defenses are vulnerable. For Darthalia and the dreadlord Varimathras, the signal means it is time to gather Forsaken forces and begin their campaigns against Hillsbrad's human defenders.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "what does the raven cry mean",
     "lesh message"
    ],
-   "answer": "“The raven's cry from the west doth beckon” is a coded reconnaissance update. It tells High Executor Darthalia that Hillsbrad's western approaches are poorly guarded and ripe for an immediate offensive."
+   "answer": "“The raven's cry from the west doth beckon” is a coded report from Lesh's reconnaissance. It tells High Executor Darthalia that Hillsbrad's western approaches are poorly guarded and open to an immediate attack."
   },
   {
    "q": "Who is High Executor Darthalia?",
@@ -46,7 +46,7 @@
     "who is darthalia",
     "darthalia role"
    ],
-   "answer": "High Executor Darthalia is the supreme Forsaken military commander in the Hillsbrad Foothills. From Tarren Mill, she directs attacks against the Southshore humans and works closely with Varimathras in the Undercity."
+   "answer": "High Executor Darthalia commands Forsaken forces in the Hillsbrad Foothills. From Tarren Mill, she directs attacks against the Southshore humans and works closely with Varimathras in the Undercity."
   },
   {
    "q": "Why does Lesh send a courier instead of going herself?",
@@ -54,7 +54,7 @@
     "why doesn't lesh leave",
     "why couriers"
    ],
-   "answer": "Lesh is on a critical reconnaissance mission at Hillsbrad's western edge. Leaving her post would leave a blind spot in Forsaken surveillance, so she asks passing Horde travelers to carry her urgent dispatches."
+   "answer": "Lesh is watching Hillsbrad's western edge. If she leaves her post, Forsaken surveillance there will have a blind spot, so she asks passing Horde travelers to carry her urgent dispatches."
   },
   {
    "q": "Where is this message meant to be delivered?",
@@ -70,7 +70,7 @@
     "varimathras hillsbrad",
     "why varimathras"
    ],
-   "answer": "Varimathras is Sylvanas Windrunner's chief lieutenant and dreadlord advisor. From Undercity's Royal Quarter, he oversees significant parts of Forsaken military and strategic planning, while High Executor Darthalia carries out his campaign orders on the regional front."
+   "answer": "Varimathras is Sylvanas Windrunner's chief lieutenant and dreadlord advisor. From Undercity's Royal Quarter, he oversees much of Forsaken military and strategic planning, while High Executor Darthalia carries out his campaign orders in the region."
   },
   {
    "q": "What happens after this message is received?",
@@ -78,17 +78,17 @@
     "what happens next",
     "after time to strike"
    ],
-   "answer": "When Darthalia learns Hillsbrad is vulnerable, she authorizes aggressive offensive strikes. Horde champions are sent to dismantle the farms, militia, and infrastructure of Hillsbrad."
+   "answer": "When Darthalia learns Hillsbrad is vulnerable, she authorizes forceful attacks. Horde champions are sent to dismantle the farms, militia, and infrastructure of Hillsbrad."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As Forsaken operatives, you help secure Lordaeron's eastern frontier against remnants of the human Alliance when you carry Lesh's dispatch."
+   "text": "As Forsaken operatives, you help secure Lordaeron's eastern frontier against the remaining human Alliance when you carry Lesh's dispatch."
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you recognize the covert watch and coded messages used by the Deathstalkers, the Undercity's elite guild of assassins and scouts."
+   "text": "As a rogue, you recognize the Deathstalkers' covert watch and coded messages. They are the Undercity's elite guild of assassins and scouts."
   },
   {
    "target": "faction:Horde",
@@ -116,5 +116,5 @@
  "attribution": [
   "Time To Strike"
  ],
- "style": 1
+ "style": 2
 }

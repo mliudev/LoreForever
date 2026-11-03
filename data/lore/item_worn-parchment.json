@@ -10,16 +10,16 @@
    "quest:966"
   ]
  },
- "summary": "At the Tower of Althalaxx in northern Darkshore, Worn Parchment scraps offer clues to the cultists gathered there.",
+ "summary": "At the Tower of Althalaxx in northern Darkshore, cultists gather and leave scraps of worn parchment in their belongings.",
  "sections": [
   {
    "title": "Fragments of a Sinister Plot",
-   "body": "North along Darkshore’s mist-shrouded coast, dark spellcasters and their followers have seized the ruined Tower of Althalaxx. Dark Strand Fanatics patrol the grounds outside and carry scraps of worn parchment among their belongings. One scrap holds only scattered writing and strange symbols. Gathered together, the fragments reveal a previously unknown organization called the Cult of the Dark Strand.",
+   "body": "North along Darkshore’s mist-shrouded coast, dark spellcasters and their followers have seized the ruined Tower of Althalaxx. Dark Strand Fanatics patrol the grounds and carry scraps of worn parchment among their belongings. One scrap holds only scattered writing and strange symbols. Gathered together, the fragments reveal an organization called the Cult of the Dark Strand.",
    "spoiler": 0
   },
   {
    "title": "Unmasking the Cult",
-   "body": "From a nearby overlook, scout Balthule Shadowstrike watches the tower and uses the gathered parchments to assess the threat for Delgren the Purifier and the sentinels in Auberdine. The texts confirm that the warlocks there are organized under a cult, not independent outcasts. What the cult plans remains unknown.",
+   "body": "From a nearby overlook, scout Balthule Shadowstrike watches the tower. He uses the gathered parchments to assess the threat for Delgren the Purifier and the sentinels in Auberdine. The texts confirm that the warlocks are organized under a cult, not independent outcasts. What the cult plans remains unknown.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "where to get worn parchment",
     "worn parchment source"
    ],
-   "answer": "Dark Strand Fanatics carry the parchments. They are cultist foot soldiers encamped around the perimeter of the Tower of Althalaxx in northern Darkshore."
+   "answer": "Dark Strand Fanatics carry the parchments among their belongings. They are cultist foot soldiers encamped around the perimeter of the Tower of Althalaxx in northern Darkshore."
   },
   {
    "q": "What is written on the parchments?",
@@ -64,7 +64,7 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you read of the Dark Strand’s organized coven operating in secret on night elf lands, wielding fel and shadow beyond the gaze of both the Alliance and Horde."
+   "text": "As a warlock, you read of the Dark Strand’s organized coven operating in secret on night elf lands. They wield fel and shadow beyond the gaze of both the Alliance and Horde."
   },
   {
    "target": "race:NightElf",
@@ -91,5 +91,5 @@
   "Worn Parchment",
   "The Tower of Althalaxx (2)"
  ],
- "style": 1
+ "style": 2
 }

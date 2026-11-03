@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Merchant Coast"
  },
- "summary": "Trade and piracy shape the Merchant Coast along the Barrens' eastern shore. Ratchet handles sea trade, while pirates contest the coast.",
+ "summary": "Along the Barrens' eastern shore, trade and piracy shape the Merchant Coast. Ratchet handles sea trade, while pirates contest the coast.",
  "sections": [
   {
    "title": "A Gateway for Commerce and Conflict",
-   "body": "The Merchant Coast runs along the Barrens' eastern edge, where ships link central Kalimdor with the Eastern Kingdoms and Theramore. The Steamwheedle Cartel's neutral port of Ratchet takes cargo from anyone with coin. Southsea Freebooters also haunt the sands and nearby waters, preying on merchant ships and setting up illicit operations along the beaches.",
+   "body": "Ships link central Kalimdor with the Eastern Kingdoms and Theramore along the Merchant Coast. Ratchet, the Steamwheedle Cartel's neutral port, takes cargo from anyone with coin. Southsea Freebooters haunt the sands and nearby waters. They prey on merchant ships and set up illicit operations along the beaches.",
    "spoiler": 0
   }
  ],
@@ -30,7 +30,7 @@
     "towns on merchant coast",
     "what is on merchant coast"
    ],
-   "answer": "Ratchet, a neutral goblin port run by Gazlowe, is the coast's main settlement. Farther south, Northwatch Hold is an Alliance stronghold, and Fray Island lies just offshore."
+   "answer": "Ratchet, a neutral goblin port run by Gazlowe, is the coast's main settlement. Farther south lies Northwatch Hold, an Alliance stronghold, while Fray Island sits just offshore."
   },
   {
    "q": "Who controls the beaches around here?",
@@ -38,7 +38,7 @@
     "pirates on merchant coast",
     "who is attacking merchant coast"
    ],
-   "answer": "Ratchet controls its harbor, while Southsea Freebooters camp along nearby beaches. The pirates disrupt trade, rob goblin convoys, and challenge Ratchet's authority."
+   "answer": "Ratchet controls its harbor, while Southsea Freebooters camp along nearby beaches. The pirates disrupt trade, rob goblin convoys and challenge Ratchet's authority."
   }
  ],
  "angles": [
@@ -71,5 +71,5 @@
  "attribution": [
   "Merchant Coast"
  ],
- "style": 1
+ "style": 2
 }

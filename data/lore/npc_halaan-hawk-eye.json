@@ -8,11 +8,11 @@
   "wiki": "Halaan Hawk-Eye",
   "refs": 1
  },
- "summary": "Halaan Hawk-Eye is a Skyborne lookout stationed atop the watchtower of Thendal Village on Zephras Isle. Lacking both magical sensitivity and the mystic skysight of his peers, he relies instead on keen mundane vision to monitor the surrounding island. From his perch, he tracks the distant anchor pylons and warns visitors of their faltering arcane stability.",
+ "summary": "From Thendal Village, Halaan Hawk-Eye watches Zephras Isle’s anchor pylons. Though he lacks many Skyborne gifts, his keen natural vision helps him warn visitors as the pylons’ magic falters.",
  "sections": [
   {
    "title": "A Watchman Without Magic",
-   "body": "Perched high above Thendal Village, Halaan Hawk-Eye serves his people without the gifts common to many Skyborne. He cannot draw upon the arcane power flowing through the ley lines beneath Zephras Isle, nor can he gaze between worlds through the mystical skysight. Instead, Halaan relies entirely on his sharp natural senses. From his vantage point on the watchtower, he scans the horizon to observe the island's anchor pylons, calling attention to their increasingly volatile and inconsistent arcane energies.",
+   "body": "From the tower above Thendal Village, Halaan Hawk-Eye keeps watch. Many Skyborne can draw on the ley lines beneath Zephras Isle or see between worlds with mystical skysight. Halaan has neither gift. So he trusts his sharp natural senses, scanning the horizon for the island’s anchor pylons and calling attention to their increasingly volatile, inconsistent arcane energies.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is halaan",
     "thendal watchtower npc"
    ],
-   "answer": "Halaan Hawk-Eye is a Skyborne sentry stationed atop the watchtower overlooking Thendal Village on Zephras Isle. He observes the surrounding land and alerts adventurers to the erratic magic afflicting the island's anchor pylons."
+   "answer": "Halaan Hawk-Eye watches from the tower above Thendal Village on Zephras Isle. He scans the surrounding land and warns visitors about the erratic magic afflicting the island’s anchor pylons."
   },
   {
    "q": "What makes Halaan different from other Skyborne?",
@@ -33,7 +33,7 @@
     "can halaan use magic",
     "halaan skysight"
    ],
-   "answer": "Unlike many among his kin, Halaan possesses neither the mystical skysight that pierces the veil between worlds nor an innate ability to harness the subterranean ley lines of Zephras Isle. He relies on his keen physical eyesight and natural observation instead."
+   "answer": "Unlike many Skyborne, Halaan cannot see between worlds with mystical skysight or harness the ley lines beneath Zephras Isle. He relies on keen eyesight and natural observation."
   },
   {
    "q": "Why is Halaan worried about the anchor pylons?",
@@ -41,7 +41,7 @@
     "what is wrong with the pylons",
     "anchors of zephras problem"
    ],
-   "answer": "Halaan keeps watch over the distant anchor pylons and has noticed that their magical output has turned erratic and inconsistent, posing an unknown risk to the stability of Zephras Isle."
+   "answer": "Halaan has noticed the distant anchor pylons’ magic growing erratic and inconsistent. He does not know how this threatens Zephras Isle’s stability."
   },
   {
    "q": "Where can I find Halaan Hawk-Eye?",
@@ -49,13 +49,13 @@
     "where is halaan",
     "halaan location"
    ],
-   "answer": "He can be found standing atop the wooden watchtower in Thendal Village on Zephras Isle, peering out over the horizon."
+   "answer": "You can find Halaan Hawk-Eye atop the wooden watchtower in Thendal Village on Zephras Isle. He looks out over the horizon."
   }
  ],
  "angles": [
   {
    "target": "race:Skyborne",
-   "text": "Halaan represents those among the Skyborne who lack natural affinity for ley line manipulation or the skysight, serving their community through steadfast vigilance and martial duty instead."
+   "text": "As a Skyborne, you can see how those without a natural affinity for ley line magic or skysight still serve their community through vigilance and martial duty."
   }
  ],
  "keywords": [
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Halaan Hawk-Eye"
- ]
+ ],
+ "style": 2
 }

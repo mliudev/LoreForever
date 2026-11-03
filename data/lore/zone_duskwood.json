@@ -12,26 +12,26 @@
   "levels": "18-30",
   "aliases": []
  },
- "summary": "Duskwood lies beneath a curse, its sunlit past hidden by unending gloom. Stormwind has abandoned its human inhabitants, who cling to survival in Darkshire under the Night Watch's protection. Ghouls, giant venomous spiders, raiding ogres, and savage, mysterious worgen roam its groves and haunted barrows.",
+ "summary": "In Duskwood, unending gloom hides the forest's sunlit past beneath a curse. Stormwind has abandoned its human inhabitants, who cling to survival in Darkshire under the Night Watch's protection. Ghouls, giant venomous spiders, raiding ogres, and savage, mysterious worgen roam the groves and haunted barrows.",
  "sections": [
   {
    "title": "From Sunlight to Shadow",
-   "body": "Duskwood was once a rich agricultural tract in the Kingdom of Stormwind, with prosperous settlements such as Grand Hamlet and Raven Hill. Its ruin began when Guardian Medivh fell at Karazhan during the First War, unleashing waves of corrupted fel magic that twisted the woodland into a gnarled, shadowy morass. Spiders became terrifying predators, and fleeing wolves spilled north into Elwynn Forest. Grand Hamlet became Darkshire, where terrified townsfolk were left largely to fend for themselves after the royal garrison withdrew to defend the capital.",
+   "body": "Duskwood once fed the Kingdom of Stormwind with rich farmland and prosperous settlements such as Grand Hamlet and Raven Hill. Its ruin began when Guardian Medivh fell at Karazhan during the First War. Waves of corrupted fel magic twisted the woodland into a gnarled, shadowy morass.\n\nSpiders became terrible predators, and fleeing wolves spilled north into Elwynn Forest. Grand Hamlet became Darkshire, where townsfolk were left largely to fend for themselves after the royal garrison withdrew to defend the capital.",
    "spoiler": 0
   },
   {
    "title": "The Scythe and the Wolf-Men",
-   "body": "Night elf priestess Velinde Starsong brought the Scythe of Elune to Duskwood. After she vanished in the disused mine called Roland's Doom, prospecting laborer Jitters eventually unearthed the relic. Careless handling of the weapon unleashed worgen, ravenous bipedal wolf-beasts from beyond this world. Shrouded in perpetual mist and bloodlust, these predators tore through the western groves, adding to the misery of a region already burdened by undead curses.",
+   "body": "Night elf priestess Velinde Starsong brought the Scythe of Elune to Duskwood. After she vanished in Roland's Doom, a disused mine, prospecting laborer Jitters eventually unearthed the relic. Careless handling of the weapon unleashed worgen, ravenous bipedal wolf-beasts from beyond this world. Shrouded in perpetual mist and bloodlust, these predators tore through the western groves. They added to the misery of a region already burdened by undead curses.",
    "spoiler": 1
   },
   {
    "title": "A Beleaguered Borderland",
-   "body": "Commander Althea Ebonlocke and her volunteer militia, the Night Watch, keep Darkshire alive, while Lord Ello Ebonlocke tries to govern the crumbling settlement. Beyond the town's lantern-lit perimeter, danger fills the land. Restless dead raised by the necromancer Morbent Fel stir in massive Raven Hill Cemetery. The Vul'Gol ogres came from Deadwind Pass to claim the south. Dark Riders stalk the crossroads, relentlessly searching for the lost Scythe.",
+   "body": "Commander Althea Ebonlocke and her volunteer militia, the Night Watch, keep Darkshire alive. Lord Ello Ebonlocke tries to govern the crumbling settlement. Beyond the town's lantern-lit perimeter, danger fills the land. The restless dead raised by necromancer Morbent Fel stir in massive Raven Hill Cemetery. Vul'Gol ogres came from Deadwind Pass to claim the south, while Dark Riders stalk the crossroads in relentless search of the lost Scythe.",
    "spoiler": 0
   },
   {
    "title": "The Twilight Grove",
-   "body": "Near Duskwood's center lies a deep, ancient crater untouched by the surrounding corruption: the Twilight Grove. An ancient Great Tree there holds a dormant portal into the Emerald Dream. Soft, ethereal twilight bathes this unearthly sanctuary in the dying land, while sleeping druidic energies watch over it.",
+   "body": "Near Duskwood's center lies a deep, ancient crater untouched by the surrounding corruption: the Twilight Grove. An ancient Great Tree there holds a dormant portal into the Emerald Dream. Soft, ethereal twilight bathes this unearthly sanctuary in the dying land. Sleeping druidic energies watch over it.",
    "spoiler": 0
   }
  ],
@@ -52,7 +52,7 @@
     "worgen origin duskwood",
     "scythe of elune worgen"
    ],
-   "answer": "Night elf Velinde Starsong brought the mystical Scythe of Elune to the region and vanished near Roland's Doom. Years later, a frightened worker named Jitters disturbed the scythe in the mine, unwittingly opening tears that summoned savage wolf-men into the forest."
+   "answer": "Night elf Velinde Starsong brought the mystical Scythe of Elune to the region and vanished near Roland's Doom. Years later, a frightened worker named Jitters disturbed the scythe in the mine. Unwittingly, he opened tears that summoned savage wolf-men into the forest."
   },
   {
    "q": "Why are there so many undead in Raven Hill?",
@@ -70,7 +70,7 @@
     "stormwind abandoned darkshire",
     "where is the army"
    ],
-   "answer": "With King Varian Wrynn missing and resources stretched thin, Stormwind's regency pulled its military back to protect Elwynn and the throne. Darkshire is left entirely to its own devices, defended solely by the volunteer Night Watch."
+   "answer": "With King Varian Wrynn missing and resources stretched thin, Stormwind's regency pulled its military back to protect Elwynn and the throne. Darkshire is left to its own devices, defended solely by the volunteer Night Watch."
   },
   {
    "q": "Who are the Dark Riders stalking the woods?",
@@ -88,7 +88,7 @@
     "green portal duskwood",
     "crater tree"
    ],
-   "answer": "The crater is the Twilight Grove, home to an ancient Great Tree. The tree contains a dormant portal to the Emerald Dream, and the grove keeps a calm, mystical twilight distinct from the forest's cursed darkness."
+   "answer": "The crater is the Twilight Grove, home to an ancient Great Tree. The tree contains a dormant portal to the Emerald Dream. The grove keeps a calm, mystical twilight distinct from the forest's cursed darkness."
   }
  ],
  "angles": [
@@ -138,5 +138,5 @@
   "Duskwood (Classic)",
   "Duskwood"
  ],
- "style": 1
+ "style": 2
 }

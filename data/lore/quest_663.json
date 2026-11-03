@@ -21,16 +21,16 @@
    "Deep Sea Salvage"
   ]
  },
- "summary": "At Faldir's Cove, the lookout Lolo greets you with news that Captain O'Breen's stop here will last far longer than planned. Two ships of the formation, the Spirit of Silverpine and the Maiden's Folly, are lost, and Lolo suggests you speak with the captain.",
+ "summary": "At Faldir's Cove, Lolo warns you that Captain O'Breen's brief stop may last far longer than planned. The Spirit of Silverpine and the Maiden's Folly are lost, and Lolo directs you to the captain.",
  "sections": [
   {
    "title": "Lolo's Welcome",
-   "body": "Lolo, ever on the lookout, spots you arriving at Faldir's Cove. Captain O'Breen had promised the crew only a few hours here, time enough to collect the treasure and head back to Booty Bay. Lolo doubts it will be so quick. Two ships of the formation, the Spirit of Silverpine and the Maiden's Folly, now rest on the bottom of the sea. Anyone who means to stay is told to talk to the captain.",
+   "body": "Lolo greets you at Faldir's Cove and tells you what has gone wrong. Captain O'Breen promised the crew only a few hours ashore to gather treasure before sailing back to Booty Bay. Lolo doubts they will be away so briefly.\n\nThe Spirit of Silverpine and the Maiden's Folly, two ships in the formation, now lie on the sea floor. If you mean to stay, Lolo says to speak with the captain.",
    "spoiler": 0
   },
   {
    "title": "The Captain's Account",
-   "body": "Captain O'Breen calls the whole affair a horrible mess and fears Seahorn will take the ship if word gets out. One of the Professor's contraptions pointed to the lost treasure near the cove, so the Harbinger came in to dock and the two other ships were signaled to follow. Then the sea rumbled, the water drew back, and both ships crashed into the reef. It is not just a reef, the captain says, and something is down there. Help for the crew is promised a handsome payment.",
+   "body": "Captain O'Breen fears Seahorn will take the ship if word of the disaster spreads. A contraption belonging to the Professor pointed toward lost treasure near Faldir's Cove. So the Harbinger docked there and signaled the other two ships to follow.\n\nThen the sea rumbled and the water drew back. Both ships struck the reef. O'Breen says it is no ordinary reef, and something lies below. He promises handsome payment to anyone who helps the crew.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "sunken ships faldir",
     "what sank the ships"
    ],
-   "answer": "Two ships of the formation, the Spirit of Silverpine and the Maiden's Folly, were lost and lie on the bottom of the sea."
+   "answer": "The Spirit of Silverpine and the Maiden's Folly were lost and now lie on the sea floor."
   },
   {
    "q": "Why did the crew come to Faldir's Cove?",
@@ -51,7 +51,7 @@
     "purpose of expedition",
     "what brought them to arathi"
    ],
-   "answer": "Captain O'Breen came to gather treasure at the cove, expecting to stay only a few hours before heading back to Booty Bay."
+   "answer": "Captain O'Breen brought the crew to Faldir's Cove to gather treasure. They expected to stay only a few hours before sailing back to Booty Bay."
   },
   {
    "q": "Who should you talk to at Faldir's Cove?",
@@ -59,7 +59,7 @@
     "who is captain o'breen",
     "where is shakes o'breen"
    ],
-   "answer": "Lolo the lookout suggests you speak with Captain O'Breen in Faldir's Cove if you plan on sticking around."
+   "answer": "Lolo the lookout suggests you speak with Captain O'Breen at Faldir's Cove if you plan to stay."
   }
  ],
  "angles": [],
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Land Ho!"
- ]
+ ],
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Mirage Flats"
  },
- "summary": "Mirage Flats is a barren, sun-scorched expanse nestled in the central wastes of the Badlands. Lying east of Dustbelch Grotto, this dry plateau is notorious for shimmering heat hazes and hungry predators.",
+ "summary": "East of Dustbelch Grotto, heat shimmers over Mirage Flats in the Badlands. Hungry predators roam the dry plateau beneath the desert sun.",
  "sections": [
   {
    "title": "A Scorched Wasteland",
-   "body": "Situated east of Dustbelch Grotto, the Mirage Flats present travelers with an unforgiving stretch of cracked red dirt and shimmering heat waves that give the plain its name. Few civilized souls linger here; instead, the open flats are dominated by opportunistic scavengers and lethal beasts. Flocks of giant buzzards circle lazily on hot thermals above, watching for the leavings of ferocious ridge stalkers and pack-hunting crag coyotes that scour the brush for easy prey.",
+   "body": "East of Dustbelch Grotto, cracked red dirt runs beneath wavering heat. Few civilized souls linger on Mirage Flats. Giant buzzards circle overhead, watching for scraps left by ferocious ridge stalkers and crag coyotes that hunt in packs through the brush.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is mirage flats",
     "mirage flats map"
    ],
-   "answer": "The flats lie in the central Badlands, east of Dustbelch Grotto. Travelers passing between the western cliffs and the eastern canyons often find themselves crossing these sun-baked grounds."
+   "answer": "Mirage Flats lie in the central Badlands, east of Dustbelch Grotto. Travelers crossing between the western cliffs and eastern canyons pass over this sun-baked ground."
   },
   {
    "q": "Why is the area called Mirage Flats?",
@@ -32,7 +32,7 @@
     "mirage flats name meaning",
     "heat mirage badlands"
    ],
-   "answer": "The name comes from the blinding desert sun and oppressive heat radiating off the flat, stony earth, creating persistent optical illusions and heat shimmers that can disorient parched travelers navigating the wastes."
+   "answer": "Mirage Flats takes its name from the heat shimmering above its flat, stony earth. The wavering sights can disorient travelers crossing the wastes."
   },
   {
    "q": "What creatures prowl the flats?",
@@ -41,13 +41,13 @@
     "what lives in mirage flats",
     "beasts of mirage flats"
    ],
-   "answer": "The area is populated by resilient predators and scavengers adapted to the harsh badlands. Pack-hunting rabid crag coyotes and prowling ridge stalker patriarchs hunt across the scrub, while giant buzzards circle overhead waiting to feast on whatever drops in the dust."
+   "answer": "Rabid crag coyotes hunt in packs, while ridge stalker patriarchs prowl the scrub. Giant buzzards circle overhead, waiting to feed on whatever falls in the dust."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "The wide, open plains of the Mirage Flats offer an abundance of aggressive beasts to track, study, or tame, particularly fierce ridge stalkers and resilient coyotes seasoned by desert survival."
+   "text": "As a hunter, you can track, study, or tame the aggressive beasts roaming these open plains. They include fierce ridge stalkers and coyotes hardened by desert survival."
   }
  ],
  "keywords": [
@@ -65,5 +65,6 @@
  ],
  "attribution": [
   "Mirage Flats"
- ]
+ ],
+ "style": 2
 }

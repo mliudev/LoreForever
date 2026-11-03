@@ -20,16 +20,16 @@
    "Protect Kanati Greycloud"
   ]
  },
- "summary": "Protect Kanati Greycloud is a Horde quest at Whitereach Post in Thousand Needles. Warned that centaur assassins have targeted the tauren Kanati Greycloud, adventurers must make a stand beside him and repel a squad of Galak assassins.",
+ "summary": "At Whitereach Post in Thousand Needles, you join Kanati Greycloud as Galak assassins close in. Their orders name the tauren for death.",
  "sections": [
   {
    "title": "An Ambush Revealed",
-   "body": "While stationed among the towering sandstone spires of Whitereach Post, the tauren Kanati Greycloud learns from intercepted centaur orders of an assassination plot directed squarely at his life. The Galak tribe of centaur, relentless in their hostility toward the nomadic tauren and their Horde allies, are not content merely raiding supply paths; they seek to eliminate those who settle in their canyons.",
+   "body": "At Whitereach Post, Kanati Greycloud finds centaur orders naming him as a target. The Galak centaur have long fought the nomadic tauren and their Horde allies. Raiding supply paths is not enough for them. They also seek to kill those who settle in their canyons.",
    "spoiler": 0
   },
   {
    "title": "Defending Whitereach Post",
-   "body": "Realizing the attack is imminent and suspecting the enemy forces might outnumber his initial estimates, Kanati asks travelers at the post to fight alongside him. When the Galak assassins strike, Kanati stands his ground, relying on allied blades and spells to break the ambush before the centaur can claim their prize.",
+   "body": "Kanati suspects the Galak will strike soon, and their numbers may be greater than he first thought. So he asks travelers at the post to stand with him. When the assassins attack, Kanati holds his ground beside his allies. Their blades and spells can break the ambush before the centaur kill him.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "kanati greycloud lore",
     "who is the quest giver"
    ],
-   "answer": "Kanati Greycloud is a tauren who has set up a hunting camp at Whitereach Post in Thousand Needles, close to the canyons the local centaur clans claim as their own."
+   "answer": "Kanati Greycloud is a tauren with a hunting camp at Whitereach Post in Thousand Needles. The camp lies near canyons claimed by local centaur clans."
   },
   {
    "q": "Why are the centaur trying to assassinate him?",
@@ -50,7 +50,7 @@
     "centaur assassination reason",
     "assassination plot why"
    ],
-   "answer": "The local Galak centaur view the tauren and their Horde encampments as encroaching enemies on their canyon territory. By killing Kanati, the centaur mean to rid the canyon of his hunting camp and of all who might follow him."
+   "answer": "The Galak centaur see the tauren and their Horde encampments as enemies encroaching on their canyon territory. They aim to kill Kanati and drive out his hunting camp and anyone who might follow him."
   },
   {
    "q": "Where does this defense take place?",
@@ -59,7 +59,7 @@
     "protect kanati location",
     "where does the ambush happen"
    ],
-   "answer": "The ambush takes place directly at Whitereach Post, a small Horde-affiliated outpost situated along the canyon paths of Thousand Needles."
+   "answer": "The ambush takes place at Whitereach Post, a small Horde outpost along the canyon paths of Thousand Needles."
   },
   {
    "q": "Which centaur clan attacks Kanati Greycloud?",
@@ -68,7 +68,7 @@
     "who are the assassins",
     "which centaur"
    ],
-   "answer": "The assassins belong to the Galak tribe, the prominent centaur clan inhabiting the canyons and ravines of Thousand Needles."
+   "answer": "The assassins belong to the Galak tribe, a centaur clan that inhabits the canyons and ravines of Thousand Needles."
   },
   {
    "q": "What happens after the assassins are defeated?",
@@ -77,7 +77,7 @@
     "quest follow up",
     "after protecting kanati"
    ],
-   "answer": "With the Galak assassins slain, Kanati's life is preserved and Whitereach Post remains secure. Kanati thanks his defenders for standing with him through the surprise assault, successfully concluding the defensive chain."
+   "answer": "After the Galak assassins are slain, Kanati lives and Whitereach Post remains secure. He thanks those who stood with him during the surprise assault."
   },
   {
    "q": "Does Kanati Greycloud fight in the battle?",
@@ -86,17 +86,17 @@
     "kanati fighting",
     "is kanati passive"
    ],
-   "answer": "Yes. Kanati does not cower or flee; he actively joins the fray alongside whoever answers his plea, fighting to repel the assassins that came to end his vigil."
+   "answer": "Yes. Kanati fights beside those who answer his plea, helping repel the assassins who came to kill him."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The blood feud between the tauren and the centaur runs deep, making the defense of a fellow tribesman from cowardly assassination a matter of survival and honor."
+   "text": "As a tauren, you know the feud with the centaur runs deep. Protecting a fellow tribesman from assassination is a matter of survival and honor."
   },
   {
    "target": "faction:Horde",
-   "text": "Whitereach Post serves as a critical vantage point in Thousand Needles, and keeping sentries like Kanati alive is vital to securing Horde operations throughout the canyon."
+   "text": "As a member of the Horde, you know Whitereach Post offers a key vantage point in Thousand Needles. Keeping sentries like Kanati alive helps secure Horde operations throughout the canyon."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Protect Kanati Greycloud"
- ]
+ ],
+ "style": 2
 }

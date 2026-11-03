@@ -10,16 +10,16 @@
    "quest:1795"
   ]
  },
- "summary": "Warlocks in Ratchet receive the Tome of the Cabal from Strahad Farsan after gathering dangerous components. Its pages hold the incantations for drawing a felhunter across the Twisting Nether and binding it.",
+ "summary": "In Ratchet, Strahad Farsan gives warlocks the Tome of the Cabal after they gather dangerous components. Its pages teach them to draw a felhunter through the Twisting Nether and bind it.",
  "sections": [
   {
    "title": "A Gateway to the Nether",
-   "body": "A felhunter is a vicious beast from the chaotic Twisting Nether, feared for devouring mana. Subduing one marks a passage for seasoned warlocks. The Tome of the Cabal holds the rites for opening a path to such a demon. Strahad Farsan, an experienced conjurer in Ratchet, gives the tome to an aspirant only after they gather the rare and dangerous components its magic requires.",
+   "body": "A felhunter is a vicious beast from the chaotic Twisting Nether, feared for devouring mana. To subdue one is a trial for seasoned warlocks. The Tome of the Cabal holds the rites for opening a path to the demon. Strahad Farsan, an experienced conjurer in Ratchet, gives it to an aspirant after they gather the rare and dangerous components its magic requires.",
    "spoiler": 0
   },
   {
    "title": "The Summoning Ritual",
-   "body": "Strahad Farsan establishes the primary summoning circle in his sanctum, while his acolytes use rods of channeling to form a greater protective boundary. The warlock recites the tome's exact incantations and drags the felhunter into our world. The demon must be battled at once and subdued, binding it to the warlock's will.",
+   "body": "Strahad Farsan makes the primary summoning circle in his sanctum. His acolytes use rods of channeling to shape a greater protective boundary. The warlock recites the tome's exact incantations and drags the felhunter into our world. Then the demon must be fought at once and subdued, bound to the warlock's will.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "tome of cabal purpose",
     "tome felhunter"
    ],
-   "answer": "The Tome of the Cabal holds the incantations for summoning a felhunter from the Twisting Nether into a prepared circle in Ratchet, where a warlock can face and bind the demon."
+   "answer": "The Tome of the Cabal holds the incantations for summoning a felhunter from the Twisting Nether into a prepared circle in Ratchet. There, a warlock can face and bind the demon."
   },
   {
    "q": "Who provides the Tome of the Cabal?",
@@ -58,7 +58,7 @@
     "where to read tome",
     "tome ritual location"
    ],
-   "answer": "No. You must read the incantations in Strahad Farsan's sanctuary above Ratchet, where he and his acolytes maintain the greater and lesser summoning circles needed to contain the arriving beast."
+   "answer": "No. You must read the incantations in Strahad Farsan's sanctuary above Ratchet. He and his acolytes maintain the greater and lesser summoning circles needed to contain the arriving beast."
   }
  ],
  "angles": [
@@ -87,5 +87,5 @@
   "Tome of the Cabal (quest item)",
   "The Binding (Felhunter)"
  ],
- "style": 1
+ "style": 2
 }

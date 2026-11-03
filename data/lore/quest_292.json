@@ -17,11 +17,11 @@
   "wiki": "The Eye of Paleth (Classic)",
   "chain": []
  },
- "summary": "Fitzsimmons asks you to recover The Eye of Paleth from the sunken Intrepid. Bring the cursed gem to Glorin Steelbrow in Menethil Harbor, where the dwarven priest can seek a way to purge its blight.",
+ "summary": "Fitzsimmons asks you to recover The Eye of Paleth from the sunken Intrepid. Then carry the cursed gem to Glorin Steelbrow in Menethil Harbor, where the dwarven priest seeks a way to purge its blight.",
  "sections": [
   {
    "title": "A Blighted Relic",
-   "body": "The locked strongbox aboard the Intrepid holds a blackened orb that pulses beneath the waters of Baradin Bay. It is The Eye of Paleth, warped from sacred light into a source of suffering. Its corruption is bound to the restless spirits and doom that claimed the sailors of the Third Fleet.",
+   "body": "Beneath Baradin Bay, the Intrepid's locked strongbox holds a blackened orb. The Eye of Paleth pulses under the water, warped from sacred light into a source of suffering. Its corruption binds it to the restless spirits and doom that claimed the sailors of the Third Fleet.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "what is paleth",
     "cursed eye of paleth"
    ],
-   "answer": "The Eye of Paleth is an ancient, powerful sacred gem, normally tied to holy energies. The specimen aboard the sunken Third Fleet vessel Intrepid has become twisted and cursed, radiating dark magic."
+   "answer": "The Eye of Paleth is an ancient and powerful sacred gem, usually bound to holy energies. Aboard the sunken Third Fleet vessel Intrepid, it has become twisted and cursed, radiating dark magic."
   },
   {
    "q": "Where was the Eye recovered?",
@@ -47,7 +47,7 @@
     "eye of paleth location",
     "intrepid strongbox"
    ],
-   "answer": "You recover the Eye from a locked strongbox in the flooded wreck of the Intrepid, just off the coast of the Wetlands."
+   "answer": "You recover the Eye from a locked strongbox in the flooded wreck of the Intrepid, just off the Wetlands coast."
   },
   {
    "q": "Why does Glorin Steelbrow care about the artifact?",
@@ -63,7 +63,7 @@
     "fitzsimmons connection",
     "why did fitzsimmons send me"
    ],
-   "answer": "Fitzsimmons survived the tragedy of the Third Fleet and remains haunted by it. Taking refuge in Menethil's tavern, he knew of the dark relic hidden in the wreckage, which tormented his fallen crewmates."
+   "answer": "Fitzsimmons survived the tragedy of the Third Fleet, and it still haunts him. Taking refuge in Menethil's tavern, he knew a dark relic lay hidden in the wreckage and tormented his fallen crewmates."
   },
   {
    "q": "Why is the Eye cursed?",
@@ -71,7 +71,7 @@
     "why is it cursed",
     "eye curse origin"
    ],
-   "answer": "The Eye's corruption is tied to the supernatural deaths and restless undead haunting the wrecked ships of the Third Fleet. It absorbed dark energies during or after the catastrophe that sent the fleet to the ocean floor."
+   "answer": "The Eye's corruption is tied to the supernatural deaths and restless undead haunting the Third Fleet's wrecked ships. It absorbed dark energies during or after the catastrophe that sent the fleet to the ocean floor."
   },
   {
    "q": "What happens after giving the Eye to Glorin?",
@@ -85,11 +85,11 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "As a priest, the defilement of a sacred artifact like The Eye of Paleth makes this investigation matter to your faith in the Holy Light."
+   "text": "As a priest, you have reason to care when a sacred artifact like The Eye of Paleth is defiled. Its blight touches your faith in the Holy Light."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you share a dedication to reclaiming lost relics off the shores of Khaz Modan, with Ironforge clergy like Glorin Steelbrow to aid you."
+   "text": "As a dwarf, you share a dedication to reclaiming lost relics off Khaz Modan's shores. Ironforge clergy like Glorin Steelbrow can aid you."
   },
   {
    "target": "faction:Alliance",
@@ -117,5 +117,5 @@
  "attribution": [
   "The Eye of Paleth (Classic)"
  ],
- "style": 1
+ "style": 2
 }

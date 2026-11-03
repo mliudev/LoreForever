@@ -17,16 +17,16 @@
   "wiki": "Raene's Cleansing (5)",
   "chain": []
  },
- "summary": "In Ashenvale, Raene Wolfrunner and Shael'dryn seek Dartol's Rod's final piece. They hope the relic can help cleanse the forest and slow the furbolg attacks on its night elves.",
+ "summary": "In Ashenvale, Raene Wolfrunner and Shael'dryn seek the last piece of Dartol's Rod. They hope the relic can cleanse the forest and slow the furbolg attacks on its night elves.",
  "sections": [
   {
    "title": "The Ruins of Dor'Danil",
-   "body": "The iron pommel of Dartol's Rod was entrusted to the night elf druids at Dor'Danil barrow den. Disaster struck the sanctuary, and its caretakers were slain. With their refuge overrun, the pommel's hiding place was lost. Scavengers and wandering oozes now consume what remains in the ruins east of the southern road.",
+   "body": "At Dor'Danil barrow den, night elf druids guarded the iron pommel of Dartol's Rod. Disaster struck, and the druids were slain. Their refuge fell, and the pommel's hiding place was lost. Now scavengers and wandering oozes consume what remains in the ruins east of the southern road.",
    "spoiler": 0
   },
   {
    "title": "Rebuilding Dartol's Legacy",
-   "body": "Dartol was an evil wizard who has since died, but the rod he made holds transformative powers. Raene Wolfrunner and Shael'dryn seek to reassemble it, hoping it can help slow the furbolg attacks on Ashenvale's night elves. The iron pommel is the final piece Shael'dryn needs before she can try to mend the fractured rod at the moonwell.",
+   "body": "Dartol was an evil wizard, and he has died. Yet the rod he made holds powers that can transform. Raene Wolfrunner and Shael'dryn seek to reassemble it, hoping it can slow the furbolg attacks on Ashenvale's night elves. The iron pommel is the last piece Shael'dryn needs before she can try to mend the broken rod at the moonwell.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "who killed the druids",
     "dor danil"
    ],
-   "answer": "The druids at Dor'Danil barrow den were slain when their sanctuary fell. Their refuge now lies abandoned to lurking oozes and beasts, and Shael'dryn finds their fate painful to discuss."
+   "answer": "The druids at Dor'Danil barrow den were slain when their sanctuary fell. Oozes and beasts now haunt their abandoned refuge, and Shael'dryn finds their fate painful to discuss."
   },
   {
    "q": "Where is Dor'Danil located?",
@@ -63,7 +63,7 @@
     "shaeldryn",
     "who is shaeldryn"
    ],
-   "answer": "Shael'dryn is a dryad who tends a sacred moonwell in Ashenvale. She helps Raene Wolfrunner track down the scattered pieces of Dartol's Rod and guides their repair."
+   "answer": "Shael'dryn is a dryad who tends a sacred moonwell in Ashenvale. She helps Raene Wolfrunner find the scattered pieces of Dartol's Rod and guides its repair."
   },
   {
    "q": "Why is the pommel swallowed by oozes?",
@@ -72,7 +72,7 @@
     "pommel slime",
     "why do slimes have it"
    ],
-   "answer": "After the barrow den fell, gelatinous slimes infested the area and consumed discarded relics, chests, and corpses. The oozes engulfed the iron pommel along with the other debris."
+   "answer": "After the barrow den fell, gelatinous slimes infested the area and consumed discarded relics, chests, and corpses. The oozes engulfed the iron pommel with the other debris."
   },
   {
    "q": "What happens after finding the pommel?",
@@ -86,7 +86,7 @@
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid, you see the losses the Cenarion Circle and Kaldorei druids have suffered in Ashenvale when you visit Dor'Danil's desecrated grounds."
+   "text": "As a druid, you see the losses suffered by the Cenarion Circle and Kaldorei druids in Ashenvale when you visit Dor'Danil's desecrated grounds."
   },
   {
    "target": "race:NightElf",
@@ -117,5 +117,5 @@
  "attribution": [
   "Raene's Cleansing (5)"
  ],
- "style": 1
+ "style": 2
 }

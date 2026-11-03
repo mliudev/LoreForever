@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Sentry Point"
  },
- "summary": "Sentry Point is a human watchtower stationed on the mainland edge of Dustwallow Marsh, guarding the causeway bridge that leads directly to Theramore Isle. Maintained by Theramore's forces, it monitors traffic entering and exiting Lady Jaina Proudmoore's island citadel.",
+ "summary": "At Sentry Point, Theramore's forces watch the causeway to their island citadel. From the mainland edge of Dustwallow Marsh, the human watchtower overlooks traffic in both directions.",
  "sections": [
   {
    "title": "The Gates of Theramore",
-   "body": "Positioned at the western end of the long bridge linking Theramore Isle to the treacherous wetlands of Dustwallow Marsh, Sentry Point serves as the stronghold's first line of defense on the mainland. The stone scout tower keeps watch over the swamp road, ensuring that hostile marsh beasts or Horde raiders cannot approach the island city unnoticed.",
+   "body": "Sentry Point guards the western end of the bridge between Theramore Isle and Dustwallow Marsh. From its stone scout tower, Theramore's forces watch the swamp road. They guard the mainland approach to the island city and watch for marsh beasts and Horde raiders.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is this tower",
     "why is sentry point here"
    ],
-   "answer": "It serves as an early warning post and border checkpoint for Theramore Isle. The guards stationed here monitor traffic traveling the swamp road and alert the city guards to approaching threats."
+   "answer": "Sentry Point warns Theramore Isle of approaching threats and checks traffic on the swamp road. Its guards watch travelers and alert the city guards when danger nears."
   },
   {
    "q": "Who controls this outpost?",
@@ -32,7 +32,7 @@
     "is sentry point alliance",
     "theramore guard tower"
    ],
-   "answer": "The outpost is manned and maintained by the Theramore Guard, operating under the command of Lady Jaina Proudmoore and her military officers."
+   "answer": "Theramore's forces man and maintain Sentry Point under Lady Jaina Proudmoore and her military officers."
   },
   {
    "q": "Is Sentry Point safe for Horde travelers?",
@@ -40,17 +40,17 @@
     "can horde go to sentry point",
     "horde friendly sentry point"
    ],
-   "answer": "No. While Lady Jaina Proudmoore strives for peace with the Horde, the military guards stationed at this outpost protect Alliance territory and will attack trespassing Horde members on sight."
+   "answer": "No. Lady Jaina Proudmoore seeks peace with the Horde, but Sentry Point's guards protect Alliance territory and attack Horde travelers who trespass."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For travelers coming from the perilous bogs of Dustwallow Marsh, Sentry Point marks the welcoming threshold to the safety of Theramore Isle."
+   "text": "For travelers crossing Dustwallow Marsh's dangerous bogs, Sentry Point marks the welcoming threshold to the safety of Theramore Isle."
   },
   {
    "target": "faction:Horde",
-   "text": "The tower serves as a stark reminder of Theramore's military presence on the Kalimdor mainland, heavily guarded against any approaching Horde scouts."
+   "text": "Sentry Point's guarded tower makes Theramore's military presence on the Kalimdor mainland plain to approaching Horde scouts."
   }
  ],
  "keywords": [
@@ -69,5 +69,6 @@
  ],
  "attribution": [
   "Sentry Point"
- ]
+ ],
+ "style": 2
 }

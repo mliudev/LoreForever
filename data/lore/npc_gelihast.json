@@ -8,16 +8,16 @@
   "wiki": "Gelihast",
   "refs": 5
  },
- "summary": "In Blackfathom Deeps, Gelihast guards a strange altar in the flooded Pool of Ask'ar. His Blindlight murlocs gather around him in the sunken temple.",
+ "summary": "Within Blackfathom Deeps, Gelihast guards an altar in the flooded Pool of Ask'ar. His Blindlight murlocs gather around him in the sunken temple.",
  "sections": [
   {
    "title": "A Deadly Calling",
-   "body": "Deep beneath the Zoram Strand, Gelihast has claimed a lair in Blackfathom Deeps. Most murlocs keep to coastal shallows, but he strikes at intruders with twin swords, moving too quickly for many to react. Casters who come within his reach rarely survive.",
+   "body": "Deep beneath the Zoram Strand, Gelihast has made his lair in Blackfathom Deeps. Most murlocs keep to the coastal shallows, but he strikes intruders with twin swords. He moves too quickly for many to react, and casters who come within his reach rarely survive.",
    "spoiler": 0
   },
   {
    "title": "Master of the Blindlight",
-   "body": "Gelihast rules the Pool of Ask'ar with his Blindlight brood, who swarm to his side at the first sign of trouble. An altar stands beyond his lair. Those who defeat him and touch it receive the Blessing of Blackfathom.",
+   "body": "Gelihast rules the Pool of Ask'ar with his Blindlight brood. At the first sign of trouble, they swarm to his side. Beyond his lair stands an altar. Those who defeat him and touch it receive the Blessing of Blackfathom.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "why is there a murloc in bfd",
     "why is gelihast in the temple"
    ],
-   "answer": "No one knows what first drew Gelihast to Blackfathom Deeps. He and his Blindlight murlocs have claimed the Pool of Ask'ar in the flooded ruins, which he defends savagely against intruders."
+   "answer": "No one knows what first drew Gelihast to Blackfathom Deeps. He and his Blindlight murlocs have claimed the Pool of Ask'ar in the flooded ruins, and he savagely defends it against intruders."
   },
   {
    "q": "How did the Twilight's Hammer react to him?",
@@ -54,7 +54,7 @@
     "gelihast altar",
     "blessing of blackfathom altar"
    ],
-   "answer": "An altar stands beyond Gelihast's pool. Travelers who defeat him can touch it to receive the Blessing of Blackfathom."
+   "answer": "An altar stands beyond Gelihast's pool. Travelers who defeat him can touch it and receive the Blessing of Blackfathom."
   },
   {
    "q": "What tribe of murlocs does he lead?",
@@ -105,5 +105,5 @@
  "attribution": [
   "Gelihast"
  ],
- "style": 1
+ "style": 2
 }

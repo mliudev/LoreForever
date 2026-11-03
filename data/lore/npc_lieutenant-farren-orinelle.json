@@ -8,16 +8,16 @@
   "wiki": "Lieutenant Farren Orinelle",
   "refs": 6
  },
- "summary": "At Southshore's inn, Lieutenant Farren Orinelle drinks and leaves his duties to others. He resents his posting in the Hillsbrad Foothills and hopes for a transfer south. Marshal Redpath has assigned him to deal with the murlocs along the coast.",
+ "summary": "At Southshore's inn, Lieutenant Farren Orinelle leaves his duties to others and longs for a transfer south. Marshal Redpath has sent him to deal with the murlocs along the coast.",
  "sections": [
   {
    "title": "Exile in Southshore",
-   "body": "Lieutenant Farren Orinelle spends his days at Southshore's inn, far from the Stormwind he prefers. Sent north from Stormwind City, he finds the contested shores of Hillsbrad a poor fit. Rather than patrol the fields or coordinate defenses with Marshal Redpath, he drinks, grumbles, and waits for an order transferring him south.",
+   "body": "Lieutenant Farren Orinelle spends his days at Southshore's inn, far from the Stormwind he favors. Sent north from Stormwind City, he finds Hillsbrad's contested shores a poor fit. He drinks and grumbles instead of patrolling the fields or planning defenses with Marshal Redpath. He waits for orders that will send him south.",
    "spoiler": 0
   },
   {
    "title": "Outsourcing Duty",
-   "body": "Marshal Redpath has tasked Lieutenant Farren Orinelle with clearing murlocs from the nearby shoreline. Orinelle leaves the muddy coast to passing travelers, asking them to kill the creatures and bring proof. He hopes the results will satisfy his superiors and hasten his return to Stormwind.",
+   "body": "Marshal Redpath has tasked Lieutenant Farren Orinelle with clearing murlocs from the nearby shoreline. Orinelle leaves the muddy coast to passing travelers, asking them to kill the creatures and bring proof. He hopes their work will satisfy his superiors and speed his return to Stormwind.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "why is farren in southshore",
     "orinelle transfer"
    ],
-   "answer": "He was transferred north from Stormwind City to support Marshal Redpath and the local garrison. Orinelle dislikes the assignment and wants to return home."
+   "answer": "Stormwind City sent Orinelle north to support Marshal Redpath and the local garrison. He dislikes the assignment and wants to return home."
   },
   {
    "q": "What is his official assignment?",
@@ -46,7 +46,7 @@
     "orinelle mission",
     "farren murlocs"
    ],
-   "answer": "Marshal Redpath ordered Orinelle to deal with the hostile murlocs along the Hillsbrad coast. Orinelle prefers to pay travelers to fight them."
+   "answer": "Marshal Redpath ordered Orinelle to deal with the hostile murlocs along the Hillsbrad coast. Orinelle would rather pay travelers to fight them."
   },
   {
    "q": "Does he ever leave the Southshore inn?",
@@ -55,7 +55,7 @@
     "farren location",
     "orinelle inn"
    ],
-   "answer": "Orinelle spends almost all his time at the Southshore inn, reluctant to face the muddy beaches or hostile elements outside."
+   "answer": "Orinelle spends almost all his time at Southshore's inn, reluctant to face the muddy beaches or hostile elements outside."
   },
   {
    "q": "What is Farren's ultimate goal?",
@@ -78,11 +78,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance champions, Orinelle is a disgruntled southern soldier at a lonely northern outpost, willing to offer coin and commendation to anyone who takes on his duties."
+   "text": "For Alliance champions, Orinelle is a disgruntled southern soldier at a lonely northern outpost. He will offer coin and commendation to anyone who takes on his duties."
   },
   {
    "target": "race:Human",
-   "text": "Orinelle is a Stormwind soldier far from Elwynn Forest. His disdain for northern frontier duty shows the divide between comfortable capital life and harsh overseas deployments."
+   "text": "As a human, you may recognize Orinelle as a Stormwind soldier far from Elwynn Forest. His disdain for northern frontier duty shows the divide between comfortable capital life and harsh overseas deployments."
   }
  ],
  "keywords": [
@@ -108,5 +108,5 @@
  "attribution": [
   "Lieutenant Farren Orinelle"
  ],
- "style": 1
+ "style": 2
 }

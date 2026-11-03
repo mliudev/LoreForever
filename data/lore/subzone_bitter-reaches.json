@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Bitter Reaches"
  },
- "summary": "The Bitter Reaches is a rugged, windswept wilderness in northeastern Azshara. Largely untouched by civilization, the rugged cliffs are prowled by predatory beasts and massive mountain giants.",
+ "summary": "Along Azshara’s northeastern cliffs, the Bitter Reaches rise above the Great Sea. Predators roam the heights, and mountain giants hold the northern ridges.",
  "sections": [
   {
    "title": "A Dangerous Coastal Frontier",
-   "body": "Occupying the northeastern cliffs of Azshara, the Bitter Reaches remains a stark and untamed stretch of rocky terrain overlooking the Great Sea. Flocks of feral hippogryphs and two-headed chimaeras nest amidst the heights, while acidic oozes seep through the cold ground. Along the high northern ridges, colossal mountain giants have claimed the slopes as their own, driving away lesser creatures and turning the frozen approaches into a perilous hazard for any solitary traveler.",
+   "body": "The Bitter Reaches rise above the Great Sea along Azshara’s northeastern cliffs. Feral hippogryphs and two-headed chimaeras nest among the heights. Acidic oozes seep through the cold ground, while colossal mountain giants claim the high northern ridges. They drive lesser creatures away and make the frozen approaches perilous for a lone traveler.",
    "spoiler": 0
   },
   {
    "title": "Flora of the Crags",
-   "body": "Despite the harsh winds and aggressive predators, the craggy landscape sustains rare mountain flora. Sparse clusters of Mountain Silversage cling to the high rock faces and windy perches, making the dangerous terrain occasionally worth traversing for intrepid herbalists daring enough to avoid the giants and territorial chimaeras.",
+   "body": "Mountain Silversage grows in sparse clusters on the crags. The rare herb clings to high rock faces and windy perches. Herbalists must avoid the giants and territorial chimaeras to gather it.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is bitter reaches",
     "bitter reaches azshara"
    ],
-   "answer": "The Bitter Reaches form the northeastern quadrant of Azshara, covering the high coastal cliffs and ridges above the bay."
+   "answer": "The Bitter Reaches cover Azshara’s northeastern cliffs and ridges above the bay."
   },
   {
    "q": "What creatures live here?",
@@ -37,7 +37,7 @@
     "what lives in bitter reaches",
     "monsters in bitter reaches"
    ],
-   "answer": "The region is home to territorial hippogryphs, two-headed chimaeras, and oozes. Towering mountain giants roam the northern boundary."
+   "answer": "Territorial hippogryphs, two-headed chimaeras, and oozes live in the region. Mountain giants roam its northern boundary."
   },
   {
    "q": "Why are there mountain giants here?",
@@ -45,7 +45,7 @@
     "mountain giants azshara",
     "why are giants in bitter reaches"
    ],
-   "answer": "The ancient mountain giants inhabit the high northern peaks and edges of Azshara, carving out their own territory and driving out most local wildlife from their stomping grounds."
+   "answer": "Ancient mountain giants claim the high northern peaks and edges of Azshara. They drive most local wildlife from their territory."
   },
   {
    "q": "What valuable resources grow in the Bitter Reaches?",
@@ -53,17 +53,17 @@
     "herbs bitter reaches",
     "bitter reaches gathering"
    ],
-   "answer": "Rare high-altitude herbs such as Mountain Silversage can be found growing sparsely across the rocky outcrops and ridgelines."
+   "answer": "Mountain Silversage grows sparsely on rocky outcrops and ridgelines in the Bitter Reaches."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "The wind-battered heights of the Bitter Reaches are one of the few places in Azshara where prized Mountain Silversage grows, though you will have to contend with chimaeras and giants to harvest it."
+   "text": "Mountain Silversage grows in a few places on the wind-battered heights of the Bitter Reaches. You must contend with chimaeras and giants to gather it."
   },
   {
    "target": "class:Hunter",
-   "text": "The cliffside aeries of the Bitter Reaches are prime hunting territory, teeming with wild hippogryphs and aggressive chimaeras native to the ancient coastline."
+   "text": "The cliffside aeries of the Bitter Reaches are hunting grounds for wild hippogryphs and aggressive chimaeras native to this ancient coastline."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Bitter Reaches"
- ]
+ ],
+ "style": 2
 }

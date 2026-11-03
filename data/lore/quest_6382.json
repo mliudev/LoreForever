@@ -17,16 +17,16 @@
   "wiki": "The Ashenvale Hunt (The Barrens)",
   "chain": []
  },
- "summary": "In Ashenvale, Horde hunters face a new test beneath the ancient trees. Jorn Skyseer at Camp Taurajo sends proven hunters north to Splintertree Post, where Senani Thunderheart awaits.",
+ "summary": "In Ashenvale, the Horde's proven hunters face a new test beneath ancient trees. Jorn Skyseer sends you north from Camp Taurajo to Splintertree Post, where Senani Thunderheart awaits.",
  "sections": [
   {
    "title": "Into the Ancient Canopy",
-   "body": "Horde hunters who have proven themselves in the Barrens are sent toward Ashenvale. Jorn Skyseer sees when a traveler has outgrown the local game and points the way north. For the young Horde, these old forests offer resources and mark a political and spiritual frontier they must learn to understand and claim.",
+   "body": "After proving yourself in the Barrens, you are sent toward Ashenvale. Jorn Skyseer sees when a hunter has outgrown the local game and points the way north. For the young Horde, these old forests offer resources and mark a political and spiritual frontier to understand and claim.",
    "spoiler": 0
   },
   {
    "title": "Splintertree Post",
-   "body": "The road north passes the Mor'shan Rampart before reaching Splintertree Post, a fortified Horde camp deep among the trees. The tauren huntress Senani Thunderheart welcomes experienced hunters seeking harder tests of survival. The Horde depends on skilled trackers to face Ashenvale's native predators and the watchful defenders of the forest.",
+   "body": "The road north passes the Mor'shan Rampart before reaching Splintertree Post, a fortified Horde camp deep among the trees. Senani Thunderheart, a tauren huntress, welcomes experienced hunters seeking harder tests of survival. The Horde needs skilled trackers to face Ashenvale's native predators and the forest's watchful defenders.",
    "spoiler": 0
   }
  ],
@@ -72,7 +72,7 @@
     "why hunt ashenvale",
     "horde ashenvale motivation"
    ],
-   "answer": "The wilds offer meat, pelts, and resources scarce in arid Durotar and the Barrens. Facing Ashenvale's dangerous beasts also tests the will and spiritual strength of Horde hunters and warriors."
+   "answer": "Ashenvale's wilds offer meat, pelts, and resources scarce in arid Durotar and the Barrens. Facing its dangerous beasts also tests the will and spiritual strength of Horde hunters and warriors."
   },
   {
    "q": "What challenges follow this journey?",
@@ -117,5 +117,5 @@
  "attribution": [
   "The Ashenvale Hunt (The Barrens)"
  ],
- "style": 1
+ "style": 2
 }

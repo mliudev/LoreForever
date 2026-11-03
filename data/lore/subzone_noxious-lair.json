@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Noxious Lair"
  },
- "summary": "The Noxious Lair is a sunken silithid hive situated in the southwestern deserts of Tanaris, bordering Un'Goro Crater. Once a verdant basin with flowing water, the territory has been infested and drained of its vital resources by the burrowing Centipaar swarm. Now, it stands as an acidic breeding ground filled with swarming insectoids and rich mineral veins.",
+ "summary": "In Tanaris, Centipaar silithid have made the Noxious Lair their home. They drained the water from a sunken basin near Un'Goro Crater and raised an acidic hive above rich mineral veins.",
  "sections": [
   {
    "title": "A Drained Basin",
-   "body": "Resting against the western ridges overlooking Un'Goro Crater, the Noxious Lair occupies a depression in the sand that once held a lake or shallow river. When the Centipaar silithid invaded, they consumed the desert's remaining underground moisture and transformed the basin into an encroaching colony. Vast pincers and twitching limbs rise directly from the sand dunes, surrounding subterranean tunnels slick with corrosive insect secretions and clusters of incubating eggs.",
+   "body": "Beside the western ridges above Un'Goro Crater, the Noxious Lair fills a sandy hollow. A lake or shallow river once lay here, but the Centipaar silithid consumed the remaining underground moisture and claimed the basin. Now pincers and twitching limbs rise from the dunes above tunnels in the sand. Corrosive secretions coat the passages, and clusters of eggs fill the chambers.",
    "spoiler": 0
   },
   {
    "title": "The Centipaar Swarm",
-   "body": "Subterranean tunnels link the surface entrances to humid, acid-coated breeding chambers beneath the sands. Centipaar workers, tunnelers, wasps, and colossal sandreavers patrol the perimeter, defending their brood from outside threats. Beyond its biological dangers, the upheaval caused by silithid excavation has unearthed deep mineral deposits, creating an unusually diverse hunting and prospecting ground where subterranean ores sit exposed amid the swarming hives.",
+   "body": "Entrances descend into humid breeding chambers slick with acid. Centipaar workers, tunnelers, wasps, and colossal sandreavers patrol the perimeter and guard their brood from outside threats. Their digging has exposed deep mineral deposits too. Ore lies bare among the hives, drawing hunters and prospectors to the basin.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "noxious lair insects",
     "centipaar silithid"
    ],
-   "answer": "The lair is populated by the Centipaar, a colony of the insectoid silithid. The hive is defended by workers, burrowing tunnelers, flying wasps, and predatory sandreavers, all guarded under the rule of rare hive terrors like Soriid the Devourer."
+   "answer": "Centipaar silithid fill the hive. Workers, burrowing tunnelers, flying wasps, and predatory sandreavers defend it. Rare hive terrors such as Soriid the Devourer rule within."
   },
   {
    "q": "What was here before the silithid took over?",
@@ -37,7 +37,7 @@
     "was noxious lair a lake",
     "water in noxious lair"
    ],
-   "answer": "The sunken topography indicates that the area was once a riverbed or shallow desert lake. The arriving silithid burrowed beneath the earth, drained western Tanaris of its vital water and natural resources, and left behind a desolate, acid-soaked basin."
+   "answer": "A riverbed or shallow desert lake once filled the sunken basin. The silithid burrowed underground and drained western Tanaris of vital water and natural resources, leaving an acid-soaked hollow."
   },
   {
    "q": "Why are goblins interested in this hive?",
@@ -46,7 +46,7 @@
     "steamwheedle noxious lair",
     "thunderdrome silithid"
    ],
-   "answer": "Gadgetzan goblins view the hive as a hazard to desert commerce and have sent adventurers to investigate the lair and the silithid expansion."
+   "answer": "Gadgetzan goblins see the hive as a danger to desert commerce. They have sent adventurers to investigate the lair and the silithid expansion."
   },
   {
    "q": "Is the Noxious Lair connected to other insect hives in the desert?",
@@ -55,17 +55,17 @@
     "centipaar hive connection",
     "silithid expansion"
    ],
-   "answer": "The Noxious Lair represents the Centipaar hive, one of several insectoid colonies spreading out from the southern wastes. While physically distinct from hives farther south, its tunnels share the same eerie subterranean architecture and threaten to choke out life across Tanaris."
+   "answer": "The Noxious Lair is the Centipaar hive, one of several insect colonies spreading from the southern wastes. Its tunnels are separate from hives farther south, yet share their eerie underground design and threaten life across Tanaris."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "The silithid burrowing in the basin has exposed an unusually diverse selection of ore, letting miners gather Iron, Mithril, Truesilver, and Thorium veins in the same territory."
+   "text": "Silithid burrowing has exposed many kinds of ore in the basin. You can find Iron, Mithril, Truesilver, and Thorium veins in the same territory."
   },
   {
    "target": "class:Druid",
-   "text": "The hive is a disturbing perversion of nature, demonstrating how quickly the invasive silithid can drain a once-watered basin into an arid, acidic wasteland."
+   "text": "As a druid, you see how invasive silithid drained a once-watered basin and turned it into an arid, acidic wasteland."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Noxious Lair"
- ]
+ ],
+ "style": 2
 }

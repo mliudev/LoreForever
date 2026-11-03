@@ -17,16 +17,16 @@
   "wiki": "Buzzbox 323 (quest)",
   "chain": []
  },
- "summary": "Wizbang Cranktoggle’s field research reaches Buzzbox 323, the third stop along Darkshore’s coast. You gather six Moonstalker fangs and place them in the machine north of Auberdine.",
+ "summary": "Wizbang Cranktoggle’s fieldwork now reaches the third Buzzbox along Darkshore’s coast. You gather six Moonstalker fangs and feed them to the machine north of Auberdine.",
  "sections": [
   {
    "title": "A Slurred Transmission",
-   "body": "Wizbang Cranktoggle’s voice crackles through the speaker after you operate Buzzbox 411 farther south. Heavy drinking muddles his directions, but he points you north of Auberdine, to Buzzbox 323 near a road bridge. His research calls for six Moonstalker fangs from the fierce hunters roaming Darkshore’s forests.",
+   "body": "After you operate Buzzbox 411 farther south, Wizbang Cranktoggle’s voice crackles through the speaker. Drink has muddled his directions, but he points you north of Auberdine, to Buzzbox 323 near a road bridge. His research calls for six Moonstalker fangs from the fierce hunters roaming Darkshore’s forests.",
    "spoiler": 0
   },
   {
    "title": "Gnomish Field Machinery",
-   "body": "Buzzbox 323 chatters with static and faint muttering before you begin. Place the requested fangs in its intake hopper, and the machine rattles violently, grinding the teeth into dust. Wizbang’s boozy voice returns through the transceiver to celebrate your delivery and point you toward the next machine in his scattered network.",
+   "body": "Before you begin, Buzzbox 323 chatters with static and faint muttering. Place the requested fangs in its intake hopper, and the machine rattles as it grinds the teeth to dust. Then Wizbang’s boozy voice returns through the transceiver, pleased with your delivery. He points you toward the next machine in his scattered network.",
    "spoiler": 0
   }
  ],
@@ -74,7 +74,7 @@
     "what follows buzzbox 323",
     "buzzbox order"
    ],
-   "answer": "Buzzbox 323 follows Buzzbox 411, where you gathered thresher eyes, and comes before Buzzbox 525, which sends you south along the road to collect grizzled scalps from thistle bears."
+   "answer": "Buzzbox 323 follows Buzzbox 411, where you gathered thresher eyes. It comes before Buzzbox 525, which sends you south along the road to collect grizzled scalps from thistle bears."
   },
   {
    "q": "Why does Wizbang sound so incoherent?",
@@ -82,13 +82,13 @@
     "why is wizbang drunk",
     "buzzbox voice slurring"
    ],
-   "answer": "Wizbang is thoroughly intoxicated as he gives directions, pausing to search for his ale and taking loud gulps between sentences."
+   "answer": "Wizbang is thoroughly intoxicated as he gives directions. He pauses to search for his ale and takes loud gulps between sentences."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you can hear Wizbang’s remote voice network at work, an example of gnomish engineering flair despite his poor personal discipline."
+   "text": "As a gnome, you hear Wizbang’s remote voice network at work. It shows gnomish engineering flair, despite his poor personal discipline."
   },
   {
    "target": "race:NightElf",
@@ -96,7 +96,7 @@
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can see how the Buzzboxes combine automated material processing with long-range voice relay, despite their rough operation."
+   "text": "As an engineer, you can see how the Buzzboxes join automated material processing with long-range voice relay, despite their rough operation."
   }
  ],
  "keywords": [
@@ -118,5 +118,5 @@
  "attribution": [
   "Buzzbox 323 (quest)"
  ],
- "style": 1
+ "style": 2
 }

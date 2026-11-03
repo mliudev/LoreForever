@@ -20,16 +20,16 @@
    "Ruuzel (Classic)"
   ]
  },
- "summary": "Talen needs the Ring of Zoram to open an ancient statuette found on the strand. The naga have taken the ring to their island sanctuary.",
+ "summary": "On the Zoram Strand, Talen seeks a ring that may open an ancient statuette. The naga have taken it to their island sanctuary.",
  "sections": [
   {
    "title": "The Key of Zoram",
-   "body": "Talen believes the Ring of Zoram can open the ancient statuette recovered from the coast. Before the Great Sundering broke Kalimdor and sank its coastal cities, powerful night elven nobles ruled Zoram. The ring belonged among their regalia. After the cataclysm, it vanished beneath the waves for millennia, keeping the secrets of sunken relics from curious eyes.",
+   "body": "Talen believes the Ring of Zoram can open an ancient statuette found on the coast. Before the Great Sundering broke Kalimdor and sank its coastal cities, powerful night elven nobles ruled Zoram. The ring belonged among their regalia.\n\nAfter the cataclysm, the ring vanished beneath the waves for millennia. The secrets of sunken relics remained hidden from curious eyes.",
    "spoiler": 0
   },
   {
    "title": "The Naga Incursion",
-   "body": "Naga have recently come to the Zoram Strand and begun searching the ruins of their former homeland. Ruuzel, who leads the local brood, found the Ring of Zoram and took it to her sanctuary on an island to the north. Talen, a night elf, asks Alliance travelers to hunt Ruuzel and reclaim the heirloom so he can open the statuette recovered from the shallows.",
+   "body": "Naga have recently come to the Zoram Strand and begun searching the ruins of their former homeland. Ruuzel leads the local brood. She found the Ring of Zoram and took it to her sanctuary on an island to the north.\n\nTalen, a night elf, asks Alliance travelers to hunt Ruuzel and reclaim the heirloom. He hopes to use it to open the statuette recovered from the shallows.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who is the naga leader",
     "ruuzel boss"
    ],
-   "answer": "Ruuzel leads the naga on the Zoram Strand in northwestern Ashenvale. Her lair lies on an island offshore to the north, where she guards treasures recovered from the sunken night elf civilization."
+   "answer": "Ruuzel leads the naga on the Zoram Strand in northwestern Ashenvale. Her lair is on an island offshore to the north, where she guards treasures recovered from the sunken night elf civilization."
   },
   {
    "q": "What is the Ring of Zoram?",
@@ -50,7 +50,7 @@
     "what does the ring do",
     "zoram key"
    ],
-   "answer": "The Ring of Zoram belonged to the ancient rulers of Zoram before the Sundering. Talen believes it can open the lock on an ancient statuette."
+   "answer": "The Ring of Zoram belonged to Zoram’s ancient rulers before the Sundering. Talen believes it can open the lock on an ancient statuette."
   },
   {
    "q": "Why does Talen need the ring?",
@@ -88,7 +88,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, reclaiming the Ring of Zoram brings a piece of your ancestral heritage back from the naga desecrating your forebears' sunken ruins."
+   "text": "As a night elf, reclaiming the Ring of Zoram brings a piece of your ancestral heritage back from the naga desecrating your forebears’ sunken ruins."
   },
   {
    "target": "faction:Alliance",
@@ -115,5 +115,5 @@
  "attribution": [
   "Ruuzel (Classic)"
  ],
- "style": 1
+ "style": 2
 }

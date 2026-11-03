@@ -17,16 +17,16 @@
   "wiki": "The Master's Glaive (quest)",
   "chain": []
  },
- "summary": "In southern Darkshore, Onu sends Alliance scouts to investigate the Master's Glaive. He fears the Twilight's Hammer cult may have reached the fallen ancient horror.",
+ "summary": "At the Master's Glaive in southern Darkshore, Onu fears the Twilight's Hammer cult has reached the fallen ancient horror. He sends Alliance scouts to investigate.",
  "sections": [
   {
    "title": "A Disturbing Presence",
-   "body": "Along Darkshore, Onu sees corruption linger and wildlife driven from its homes. The naga on the coast trouble him, but signs of the Twilight's Hammer are worse. Its followers worship primal lords who ruled the world before they were overthrown in ages past.",
+   "body": "Onu sees corruption linger along Darkshore, driving wildlife from its homes. The naga on the coast trouble him, but signs of the Twilight's Hammer trouble him more. Its followers worship primal lords who ruled the world before their overthrow in ages past.",
    "spoiler": 0
   },
   {
    "title": "The Fallen Lord",
-   "body": "South of Onu, the Master's Glaive is a grim excavation around a colossal creature pierced by a great stone weapon. Onu gives you a Phial of Scrying and asks you to enter the pit and learn whether the cultists have gathered there. The behemoth has been dead for eons, yet corruptive power still clings to its bones. The Twilight's Hammer may seek to claim it.",
+   "body": "South of Onu, a grim excavation surrounds a colossal creature pierced by a great stone weapon. Onu gives you a Phial of Scrying and asks you to enter the pit and learn whether cultists have gathered there. The behemoth has been dead for eons, yet corruptive power still clings to its bones. The Twilight's Hammer may seek to claim it.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "lore of masters glaive",
     "giant skull in darkshore"
    ],
-   "answer": "The Master's Glaive is an ancient site in southern Darkshore, where a monstrous ancient lord fell eons ago, pierced through the skull by a titanic stone glaive. Its vast petrified skeleton remains buried in the earth."
+   "answer": "In southern Darkshore, a monstrous ancient lord fell eons ago, pierced through the skull by a titanic stone glaive. Its vast petrified skeleton remains buried in the earth."
   },
   {
    "q": "Why is the Twilight's Hammer cult interested in the site?",
@@ -110,5 +110,5 @@
  "attribution": [
   "The Master's Glaive (quest)"
  ],
- "style": 1
+ "style": 2
 }

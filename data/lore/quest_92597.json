@@ -17,21 +17,21 @@
   "wiki": "Reading the Ley Lines",
   "chain": []
  },
- "summary": "Reading the Ley Lines is a rite of passage for young Skyborne discovering their Highborne magical heritage. Entrusted by Falorne Fallwind on Zephras Isle, novitiates travel to the standing stones in Thendal Grove to sense and draw upon the raw arcane currents surging through the elemental terrain.",
+ "summary": "On Zephras Isle, young Skyborne seek the arcane currents beneath their feet. Falorne Fallwind sends them to Thendal Grove to feel power rising through the elemental plane.",
  "sections": [
   {
    "title": "Arcane Currents of the Elemental Plane",
-   "body": "Even within the windswept confines of the elemental plane, latent arcane conduits run beneath the earth. While strange elementals and the hostile Al'Aketh drift across Zephras Isle, subterranean ley lines have begun pushing toward the surface. To practitioners of magic, these ruptures provide direct access to untamed arcane reservoirs, offering strength to any who possess the bloodline and knowledge necessary to channel them.",
+   "body": "Ley lines run beneath Zephras Isle, even through the elemental plane. Strange elementals and the hostile Al'Aketh cross the island as these buried currents rise toward the surface. For those with the bloodline and knowledge to channel them, the exposed lines open a path to raw arcane power.",
    "spoiler": 0
   },
   {
    "title": "Highborne Legacy",
-   "body": "Falorne Fallwind urges initiates to embrace their Highborne ancestry rather than supplicate themselves to wind spirits like the local Windshapers or the zealots of the Al'Aketh. In Fallwind's view, survival against the harsh powers of the elemental plane depends not on begging foreign creatures for mercy, but on mastering the intrinsic arcane power running beneath their boots.",
+   "body": "Falorne Fallwind urges initiates to claim their Highborne ancestry instead of seeking favor from wind spirits. The local Windshapers and the Al'Aketh both look to such spirits. Fallwind believes survival amid the elemental plane's harsh powers depends on mastering the arcane force beneath the ground, rather than asking foreign creatures for mercy.",
    "spoiler": 0
   },
   {
    "title": "Thendal Standing Stones",
-   "body": "Northeast of the settlement lies Thendal Grove, where ancient standing stones mark a potent ley line convergence. Surrounded by roiling winds and Al'Aketh converts, this exposed point of magical flux allows initiates to attune their senses, harmonizing with the pulse of the ley line and unleashing the full potential of their natural racial abilities.",
+   "body": "Northeast of the settlement, Thendal Grove's ancient standing stones mark a powerful meeting of ley lines. Roiling winds and Al'Aketh converts surround this exposed place. There, initiates can attune their senses to the ley line's pulse and unleash the full potential of their natural racial abilities.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "falorne fallwind",
     "who starts reading the ley lines"
    ],
-   "answer": "The quest is offered by Falorne Fallwind on Zephras Isle to young Skyborne learning to harness their ancestral arcane abilities."
+   "answer": "Falorne Fallwind on Zephras Isle gives young Skyborne this rite as they learn to channel their ancestral arcane power."
   },
   {
    "q": "Where is the ley line located?",
@@ -52,7 +52,7 @@
     "where is thendal grove",
     "thendal standing stones location"
    ],
-   "answer": "The ley line is found to the northeast at the Thendal Standing Stones, situated within Thendal Grove amidst hostile elementals and Al'Aketh converts."
+   "answer": "The ley line lies northeast of the settlement, at the Thendal Standing Stones in Thendal Grove, amid hostile elementals and Al'Aketh converts."
   },
   {
    "q": "Why are ley lines present in the elemental plane?",
@@ -60,7 +60,7 @@
     "arcane in elemental plane",
     "ley lines elemental plane lore"
    ],
-   "answer": "Latent arcane conduits course through the ground even here in the elemental plane. Recently, these ley lines have begun breaching the surface, offering Skyborne direct access to potent currents of power."
+   "answer": "Arcane conduits run beneath the ground even in the elemental plane. The ley lines have begun to break through the surface, giving Skyborne direct access to powerful currents."
   },
   {
    "q": "How does Falorne Fallwind view the Windshapers?",
@@ -69,7 +69,7 @@
     "windshapers lore",
     "windshapers vs highborne"
    ],
-   "answer": "Falorne disdains the Windshapers, viewing their veneration of air spirits as weak supplication to uncaring elemental entities, no better than the worship practiced by the Al'Aketh."
+   "answer": "Falorne disdains the Windshapers' reverence for air spirits. He sees it as weak supplication to uncaring elemental beings, no better than the Al'Aketh's worship."
   },
   {
    "q": "What ability is required to channel the ley line?",
@@ -78,7 +78,7 @@
     "how to read ley line",
     "racial ability used"
    ],
-   "answer": "The quest requires using the Skyborne racial ability 'Read Ley Line' while standing within the energy convergence at the standing stones."
+   "answer": "You use the Skyborne racial ability Read Ley Line while standing at the energy convergence by the standing stones."
   },
   {
    "q": "What benefit does tapping into ley lines provide?",
@@ -86,17 +86,17 @@
     "what do ley lines do",
     "benefits of ley lines"
    ],
-   "answer": "Communing with exposed ley lines channels raw arcane energy into the user, heightening their magical prowess and providing varying effects depending on the nature of the conduit."
+   "answer": "Tapping an exposed ley line channels raw arcane energy into the user, heightening magical prowess. Its effects vary with the nature of the conduit."
   }
  ],
  "angles": [
   {
    "target": "race:Skyborne",
-   "text": "This rite awakens your innate Highborne ancestry, teaching you to channel subterranean ley energy directly into your spellcasting."
+   "text": "As a Skyborne, you awaken your innate Highborne ancestry and learn to channel subterranean ley energy into your spellcasting."
   },
   {
    "target": "class:Mage",
-   "text": "For practitioners of the arcane arts, exposed ley lines represent an invaluable reservoir of untamed power amidst an environment dominated by elemental storms."
+   "text": "As a Mage, you can draw on exposed ley lines as a reservoir of raw power amid elemental storms."
   }
  ],
  "keywords": [
@@ -118,5 +118,6 @@
  ],
  "attribution": [
   "Reading the Ley Lines"
- ]
+ ],
+ "style": 2
 }

@@ -24,16 +24,16 @@
   ],
   "category": "Alterac Mountains"
  },
- "summary": "Magistrate Henry Maleb fears that the Syndicate's leaders are bent on Southshore's ruin and wants them struck down before their plans come to pass. You are to head north into the Alterac Mountains, to Strahnbrad's ruins, which the Syndicate is thought to use as a headquarters.",
+ "summary": "In Southshore, Magistrate Henry Maleb fears the Syndicate means ruin for the town. He sends you north to Strahnbrad's ruins in the Alterac Mountains, where he believes its leaders have their headquarters.",
  "sections": [
   {
    "title": "Hunting the Syndicate's Leaders",
-   "body": "After Foreboding Plans, Magistrate Henry Maleb in Southshore wants the Syndicate's leadership dealt with before its plans are realized. The Syndicate's cutthroats answer to former Alterac nobles, who may be hiding as ordinary agents. A noble can be known by the signet ring worn. Maleb asks for seven Alterac signet rings to be brought back to him in Southshore, and he thinks the Syndicate has made a headquarters of Strahnbrad's ruins, up north in the Alterac Mountains.",
+   "body": "After Foreboding Plans, Magistrate Henry Maleb wants the Syndicate's leaders struck down before their plans come to pass. Its cutthroats answer to former Alterac nobles, who may hide among ordinary agents. Their signet rings mark them out. Maleb asks you to bring him seven Alterac signet rings in Southshore.\n\nHe believes the Syndicate has made its headquarters among Strahnbrad's ruins, north in the Alterac Mountains.",
    "spoiler": 0
   },
   {
    "title": "Maleb's Hope",
-   "body": "Maleb is convinced that a Syndicate without its nobility could no longer act with decision, and would be reduced to common thugs.",
+   "body": "Maleb believes the Syndicate could no longer act with decision without its nobility. He thinks it would be reduced to common thugs.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "who gives noble deaths",
     "henry maleb quest"
    ],
-   "answer": "Magistrate Henry Maleb in Southshore sends you north, to strike at the leaders behind the Syndicate."
+   "answer": "Magistrate Henry Maleb in Southshore sends you north to strike at the leaders behind the Syndicate."
   },
   {
    "q": "Where are the Syndicate nobles located?",
@@ -54,7 +54,7 @@
     "strahnbrad location",
     "syndicate nobles location"
    ],
-   "answer": "Maleb thinks the Syndicate has made a headquarters of Strahnbrad's ruins, up north in the Alterac Mountains."
+   "answer": "Maleb believes the Syndicate has made its headquarters among Strahnbrad's ruins, north in the Alterac Mountains."
   },
   {
    "q": "How can you tell the nobles apart from ordinary Syndicate members?",
@@ -63,7 +63,7 @@
     "who drops rings",
     "how to tell nobles"
    ],
-   "answer": "The nobles may hide as normal Syndicate agents, but each can be known by the signet ring worn."
+   "answer": "The nobles may hide among ordinary Syndicate agents, but their signet rings mark them out."
   },
   {
    "q": "What comes before this in the chain?",
@@ -72,7 +72,7 @@
     "previous quest",
     "noble deaths prequest"
    ],
-   "answer": "It follows Foreboding Plans."
+   "answer": "Foreboding Plans comes before this."
   }
  ],
  "angles": [],
@@ -96,5 +96,6 @@
  ],
  "attribution": [
   "Noble Deaths"
- ]
+ ],
+ "style": 2
 }

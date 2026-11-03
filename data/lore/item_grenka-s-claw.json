@@ -10,11 +10,11 @@
    "quest:1150"
   ]
  },
- "summary": "Grenka's Claw is a physical trophy taken from the formidable harpy Grenka Bloodscreech in the depths of Roguefeather Den. Presented to Dorn Plainstalker at the Weathered Nook, it serves as undeniable proof that an aspiring adventurer has endured a grueling physical trial in the canyon heights.",
+ "summary": "In Thousand Needles, Grenka's Claw marks survival in the depths of Roguefeather Den. At the Weathered Nook, Dorn Plainstalker receives it as proof of an aspiring adventurer's endurance in the canyon heights.",
  "sections": [
   {
    "title": "A Trophy of Endurance",
-   "body": "Within the winding caverns of Roguefeather Den, west of Freewind Post, harpies cache food and violently defend their territory against outsiders. To test the physical resilience of young champions, Dorn Plainstalker tasks them with invading the deep roosts and destroying the flock's food reserves. Such brazen provocation inevitably draws the fury of Grenka Bloodscreech. Severing and returning her wicked talon proves that a warrior can withstand wave after wave of enraged harpies and survive the vicious onslaught of their matriarch.",
+   "body": "Harpies cache food in Roguefeather Den, west of Freewind Post, and fiercely guard their territory. Dorn Plainstalker sends young champions into the deep roosts to destroy the flock's food reserves and test their strength. Such an intrusion draws Grenka Bloodscreech's fury. Returning her wicked talon proves a warrior endured wave after wave of enraged harpies and survived their matriarch's vicious assault.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why do i need grenkas claw",
     "grenkas claw quest"
    ],
-   "answer": "The claw serves as proof of victory for Dorn Plainstalker, a tauren elder residing at the Weathered Nook in Thousand Needles. Handing it to him completes the Test of Endurance, demonstrating that you possess the physical grit required to survive prolonged combat."
+   "answer": "At the Weathered Nook in Thousand Needles, Dorn Plainstalker accepts the claw as proof of victory. Giving it to him completes the Test of Endurance and shows you can survive a long fight."
   },
   {
    "q": "Who is Grenka Bloodscreech?",
@@ -35,7 +35,7 @@
     "grenka bloodscreech lore",
     "what is grenka"
    ],
-   "answer": "Grenka Bloodscreech is a powerful harpy who roosts within the Roguefeather Den, located in the Screeching Canyon along the southern cliffs of Thousand Needles. She emerges only when intruders threaten the flock by destroying their stored foodstuffs."
+   "answer": "Grenka Bloodscreech is a powerful harpy in Roguefeather Den, in Screeching Canyon along Thousand Needles' southern cliffs. She emerges when intruders threaten the flock by destroying its stored food."
   },
   {
    "q": "Where do I take the claw once I obtain it?",
@@ -43,7 +43,7 @@
     "where to turn in grenka claw",
     "who wants grenkas claw"
    ],
-   "answer": "Bring the claw back to Dorn Plainstalker at the Weathered Nook, nestled in the bluffs of Thousand Needles. He accepts the trophy to verify that your trial of physical endurance has succeeded."
+   "answer": "Take the claw to Dorn Plainstalker at the Weathered Nook in the bluffs of Thousand Needles. He accepts it as proof that you passed the trial of physical endurance."
   },
   {
    "q": "Why does Dorn Plainstalker demand this specific trophy?",
@@ -51,17 +51,17 @@
     "why dorn wants claw",
     "purpose of the claw"
    ],
-   "answer": "Dorn Plainstalker guides young travelers through rigorous trials to ensure they are mentally, spiritually, and physically equipped for greater perils. Slaying Grenka and claiming her claw proves that a warrior can endure both the ambush of a swarm and the direct assault of a deadly leader."
+   "answer": "Dorn Plainstalker guides young travelers through hard trials to ready their minds, spirits, and bodies for greater perils. Slaying Grenka and claiming her claw proves a warrior can endure a swarm's ambush and the deadly leader's direct assault."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Elder Dorn Plainstalker sees it as his sacred duty to steel young Horde champions through the wisdom and grit of tauren rites before they face the wider, harsher world."
+   "text": "Elder Dorn Plainstalker sees it as his sacred duty to prepare young Horde champions for the wider, harsher world through the wisdom and grit of tauren rites."
   },
   {
    "target": "faction:Horde",
-   "text": "Clearing the deep reaches of Roguefeather Den and putting down Grenka Bloodscreech blunts the harpy threat that constantly harasses travelers around Freewind Post."
+   "text": "Clearing Roguefeather Den's deep reaches and killing Grenka Bloodscreech blunts the harpy threat that constantly harasses travelers around Freewind Post."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  "attribution": [
   "Grenka's Claw",
   "Test of Endurance"
- ]
+ ],
+ "style": 2
 }

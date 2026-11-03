@@ -8,16 +8,16 @@
   "wiki": "Tharnariun Treetender",
   "refs": 3
  },
- "summary": "In Auberdine, Tharnariun Treetender watches Darkshore’s wilds for signs of sickness. The night elf naturalist studies the corruption spreading through local plants and animals, seeking ways to protect them.",
+ "summary": "In Auberdine, Tharnariun Treetender watches for sickness in Darkshore’s wilds. The night elf naturalist studies the corruption spreading through plants and animals, seeking ways to protect them.",
  "sections": [
   {
    "title": "A Guardian in Auberdine",
-   "body": "In Auberdine, Tharnariun Treetender watches the woods beyond the port. Hostile satyrs and foul shoreline washaways threaten the village, but his work centers on the natural world around it. He believes neglecting nature invites ruin, so he studies the decline of the local woods and searches for ways to fight the sickness spreading across the forest floor.",
+   "body": "Tharnariun Treetender watches the woods beyond Auberdine’s port. Satyrs and foul shoreline washaways threaten the village, yet his work is with the natural world around it. He believes neglecting nature invites ruin. So he studies the decline of the local woods and seeks ways to fight the sickness spreading across the forest floor.",
    "spoiler": 0
   },
   {
    "title": "Healing the Afflicted",
-   "body": "Strange plagues and corrupted blights have driven Darkshore’s creatures mad, turning peaceful animals into rabid threats. Tharnariun seeks a remedy instead of simply killing them out of fear. He uses cleansers and targeted efforts against the worst of the contagion, trying to save what remains of the wilderness from decay.",
+   "body": "Plagues and corrupted blights have driven Darkshore’s creatures mad. Peaceful animals have become rabid threats. Tharnariun seeks a remedy instead of killing them out of fear. He uses cleansers and targets the worst of the contagion, hoping to save what remains of the wilderness from decay.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "tharnariun lore",
     "tharnariunreetender"
    ],
-   "answer": "Tharnariun is a night elf caretaker in Auberdine, on the coast of Darkshore. He watches over the forest and studies the unnatural afflictions troubling its wildlife."
+   "answer": "Tharnariun is a night elf caretaker in Auberdine, on Darkshore’s coast. He watches the forest and studies the unnatural afflictions troubling its wildlife."
   },
   {
    "q": "Where can I find Tharnariun Treetender?",
@@ -63,7 +63,7 @@
     "tharnariun quests",
     "tharnariun treetender tasks"
    ],
-   "answer": "Tharnariun directs adventurers to address the blighted land and wildlife through 'Plagued Lands', 'Cleansing of the Infected', and 'Tharnariun's Hope'."
+   "answer": "Tharnariun directs adventurers to address blighted land and wildlife through 'Plagued Lands', 'Cleansing of the Infected', and 'Tharnariun's Hope'."
   },
   {
    "q": "Is Tharnariun a druid?",
@@ -71,13 +71,13 @@
     "is tharnariun druid",
     "tharnariun class"
    ],
-   "answer": "The entry does not name Tharnariun a druid outright. His concern for preserving beasts and plants echoes the Cenarion Circle, and he works as a caretaker of Darkshore’s wilderness."
+   "answer": "The entry does not name Tharnariun a druid outright. His concern for preserving beasts and plants echoes the Cenarion Circle, and he cares for Darkshore’s wilderness."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a kaldorei, you may feel the weight of Tharnariun’s warnings: your people have an ancient duty to watch over the natural balance of northern Kalimdor."
+   "text": "As a kaldorei, you may feel the weight of Tharnariun’s warnings. Your people have an ancient duty to watch over the natural balance of northern Kalimdor."
   },
   {
    "target": "class:Druid",
@@ -110,5 +110,5 @@
  "attribution": [
   "Tharnariun Treetender"
  ],
- "style": 1
+ "style": 2
 }

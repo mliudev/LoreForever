@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Agama'gor"
  },
- "summary": "Agama'gor stands north of the road from Camp Taurajo toward Mulgore. Bristleback quilboar hold this encampment in the southern Barrens, keeping pressure on the nearby Horde outpost.",
+ "summary": "North of the road from Camp Taurajo toward Mulgore, Agama'gor presses against the Horde outpost. Bristleback quilboar hold the encampment in the southern Barrens.",
  "sections": [
   {
    "title": "A Bristleback Stronghold",
-   "body": "Agama'gor is a Bristleback stronghold in the southern Barrens. Its huts, brambles, and crude totems lie close to Camp Taurajo. The quilboar threaten travelers moving between the Barrens and Mulgore’s grassy hills, and Horde scouts and hunters fight to contain them.",
+   "body": "Agama'gor’s huts, brambles, and crude totems lie close to Camp Taurajo. Bristleback quilboar hold the stronghold, threatening travelers between the Barrens and Mulgore’s grassy hills. Horde scouts and hunters fight to contain them.",
    "spoiler": 0
   },
   {
    "title": "Blood Shards and Exile",
-   "body": "Bristleback quilboar in Agama'gor carry crimson stones called Blood Shards. Mangletooth, an exiled quilboar held captive at Camp Taurajo, seeks these stones because of ancient beliefs about Agamaggan’s sacred essence. Horde adventurers raid the encampment for shards and trade them to Mangletooth for tribal charms.",
+   "body": "Crimson stones called Blood Shards are carried by the Bristlebacks in Agama'gor. Mangletooth, an exiled quilboar held captive at Camp Taurajo, seeks them through ancient beliefs about Agamaggan’s sacred essence. Horde adventurers raid the encampment for shards, then trade them to Mangletooth for tribal charms.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is this quilboar place",
     "quilboar camp near taurajo"
    ],
-   "answer": "Agama'gor is a large Bristleback quilboar settlement in the southern Barrens, directly north of the road west from Camp Taurajo toward Mulgore."
+   "answer": "Agama'gor’s large Bristleback settlement lies in the southern Barrens, directly north of the road west from Camp Taurajo toward Mulgore."
   },
   {
    "q": "Why are the Bristleback quilboar here so hostile?",
@@ -55,13 +55,13 @@
     "who is mangletooth",
     "pig prisoner taurajo"
    ],
-   "answer": "Mangletooth is an exiled quilboar held in a cage at Camp Taurajo. He resents his kin and offers Horde adventurers protective charms in exchange for Blood Shards taken from the Bristlebacks of Agama'gor."
+   "answer": "Mangletooth is an exiled quilboar held in a cage at Camp Taurajo. He resents his kin and offers Horde adventurers protective charms for Blood Shards taken from the Bristlebacks of Agama'gor."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As Horde defenders pass through Camp Taurajo, keeping the Bristlebacks of Agama'gor in check helps protect the outpost. Their warriors remain a priority."
+   "text": "As Horde defenders pass through Camp Taurajo, keeping Agama'gor's Bristlebacks in check helps protect the outpost. Their warriors remain a priority."
   },
   {
    "target": "race:Tauren",
@@ -87,5 +87,5 @@
  "attribution": [
   "Agama'gor"
  ],
- "style": 1
+ "style": 2
 }

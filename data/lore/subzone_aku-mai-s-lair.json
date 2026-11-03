@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Aku'mai's Lair"
  },
- "summary": "Beyond the Moonshrine Sanctum, Aku'mai's Lair lies beneath Blackfathom Deeps. In its flooded depths, cultists and naga gather around Aku'mai, a hydra they honor as a servant of the Old Gods.",
+ "summary": "Beyond the Moonshrine Sanctum, Aku'mai's Lair lies beneath Blackfathom Deeps. Cultists and naga gather in its flooded depths to honor Aku'mai, a hydra they call a servant of the Old Gods.",
  "sections": [
   {
    "title": "Heart of the Depths",
-   "body": "Four braziers flank a naga statue behind the Moonshrine Sanctum's sealed double doors. Lighting them awakens guardians sworn to defend the threshold. Beyond the doors, a sunless grotto lies beneath the water. Twilight's Hammer cultists and invading naga gather there in reverence of Aku'mai, an ancient, three-headed hydra they consider a living servant of the Old Gods.",
+   "body": "Behind the Moonshrine Sanctum's sealed double doors, four braziers flank a naga statue. Light them, and guardians sworn to defend the threshold awaken. Beyond the doors, a sunless grotto rests beneath the water. Twilight's Hammer cultists and invading naga gather there to honor Aku'mai, an ancient hydra with three heads. They believe the beast serves the Old Gods.",
    "spoiler": 0
   },
   {
    "title": "Harbinger of Ruin",
-   "body": "Twilight's Hammer cultists see Aku'mai as an omen of a promised age of darkness. They believe the beast's emergence and continued sustenance will herald the breaking of subterranean prisons holding their ancient deities. Sacrificial offerings feed Aku'mai, while dark magic guards the pool where it dwells. The cult's plans center on this beast as ancient evil claws its way back into Kalimdor.",
+   "body": "To Twilight's Hammer cultists, Aku'mai is an omen of a promised age of darkness. They believe the beast's emergence and continued sustenance will herald the breaking of the subterranean prisons that hold their ancient deities. Sacrificial offerings feed Aku'mai, while dark magic guards the pool where it dwells. The cult's plans center on the hydra as ancient evil claws its way back into Kalimdor.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "what lives in akumai lair",
     "boss in akumai lair"
    ],
-   "answer": "Aku'mai, a massive, three-headed hydra tainted by ancient dark powers, dwells in the cavern as a servant of the Old Gods."
+   "answer": "Aku'mai, a massive hydra with three heads and tainted by ancient dark powers, dwells in the cavern as a servant of the Old Gods."
   },
   {
    "q": "Why is the Twilight's Hammer cult worshiping here?",
@@ -89,5 +89,5 @@
  "attribution": [
   "Aku'mai's Lair"
  ],
- "style": 1
+ "style": 2
 }

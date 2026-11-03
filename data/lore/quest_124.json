@@ -23,16 +23,16 @@
    "Howling in the Hills"
   ]
  },
- "summary": "Gnolls raid Verner Osgood’s stable in Lakeshire from the Redridge foothills. Blackrock orcs already threaten the region, and Verner asks travelers to drive off the brutes and mystics endangering his horses.",
+ "summary": "Gnolls have reached Verner Osgood’s stable in Lakeshire, where Blackrock orcs already threaten the region. Verner asks you to drive away the brutes and mystics that endanger his horses.",
  "sections": [
   {
    "title": "Horses on the Ridge",
-   "body": "Verner Osgood’s stable in Lakeshire has become dangerous to run. Blackrock orcs hold the heights, and gnoll packs roam the ridges around town. Gnoll raiders have reached the northern edge of Verner’s paddocks, preying on horses that wander too close to the bluffs.",
+   "body": "Verner Osgood’s stable in Lakeshire has grown dangerous to tend. Blackrock orcs hold the heights, while gnoll packs roam the ridges around town. Now gnoll raiders have reached the northern edge of Verner’s paddocks. They prey on horses that stray too close to the bluffs.",
    "spoiler": 0
   },
   {
    "title": "A Coordinated Menace",
-   "body": "Gnoll packs north of Lakeshire bring both brute force and primitive spellcraft. Their brutes overwhelm prey while mystics wield wild magic. Thinning their numbers gives the settlement a brief respite, but their aggression points to a greater power higher in the hills.",
+   "body": "North of Lakeshire, gnoll packs wield brute force and primitive spellcraft. Their brutes overwhelm their prey, while mystics turn wild magic against trespassers. Thinning their numbers gives the settlement a brief respite. Yet the gnolls’ aggression points to a greater power higher in the hills.",
    "spoiler": 1
   }
  ],
@@ -44,7 +44,7 @@
     "why verner wants gnolls killed",
     "lakeshire stable gnolls"
    ],
-   "answer": "Gnolls from the northern ridges have begun reaching Verner’s stables and snatching horses that stray from the paddocks. With Blackrock orcs also threatening the region, he cannot protect his stock alone."
+   "answer": "Gnolls from the northern ridges have begun reaching Verner’s stables and snatching horses that stray from the paddocks. With Blackrock orcs threatening the region too, he cannot protect his stock alone."
   },
   {
    "q": "Where are these gnolls located?",
@@ -53,7 +53,7 @@
     "redridge mystic location",
     "gnolls north of stables"
    ],
-   "answer": "Redridge brutes and mystics prowl the elevated ridges and foothills directly north and east of Lakeshire, overlooking the town and the road toward the Everstill Bridge."
+   "answer": "Redridge brutes and mystics prowl the elevated ridges and foothills directly north and east of Lakeshire. From there, they overlook the town and the road toward the Everstill Bridge."
   },
   {
    "q": "Why are gnolls an issue alongside the Blackrock orcs?",
@@ -61,7 +61,7 @@
     "orcs and gnolls redridge",
     "why both gnolls and orcs"
    ],
-   "answer": "Blackrock orcs are Redridge’s main military threat, and local gnoll packs take advantage of the distraction. Lakeshire’s defenders are stretched thin, and Stormwind sends few reinforcements, leaving the predators free to range up to the village perimeter."
+   "answer": "Blackrock orcs are Redridge’s main military threat, and local gnoll packs take advantage of the distraction. Lakeshire’s defenders are stretched thin, while Stormwind sends few reinforcements. So the predators range as far as the village perimeter."
   },
   {
    "q": "What comes after dealing with these gnolls?",
@@ -69,7 +69,7 @@
     "baying of gnolls follow up",
     "what next after baying of gnolls"
    ],
-   "answer": "After the brutes and mystics are thinned, the howling continues in the hills. It points to a greater leadership threat in the surrounding heights."
+   "answer": "Even after the brutes and mystics are thinned, howling continues in the hills. It points to a greater leadership threat in the surrounding heights."
   },
   {
    "q": "Why are mystics particularly dangerous?",
@@ -77,7 +77,7 @@
     "redridge mystics lore",
     "gnoll shamans redridge"
    ],
-   "answer": "Redridge mystics use rudimentary nature and elemental magic, turning erratic, feral incantations against trespassers. Their presence among the brutes suggests an organized clan rather than lone scavengers."
+   "answer": "Redridge mystics use rudimentary nature and elemental magic. Their erratic, feral incantations make them dangerous to trespassers. Among the brutes, they suggest an organized clan rather than lone scavengers."
   },
   {
    "q": "Is Stormwind sending soldiers to protect Lakeshire's stables?",
@@ -120,5 +120,5 @@
  "attribution": [
   "A Baying of Gnolls"
  ],
- "style": 1
+ "style": 2
 }

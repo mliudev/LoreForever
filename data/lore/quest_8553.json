@@ -28,16 +28,16 @@
   ],
   "category": "Stranglethorn Vale"
  },
- "summary": "Captain Hecklebury Smotts bought a second vessel named Smotts' Revenge to hunt down the sea giants who took his first ship, only to suffer another defeat. The giants smashed the vessel and killed the crew, and one of them, Negolash, stole the captain's cutlass. Smotts directs you to consult his former ship cook, Sprogger, to track down the behemoth.",
+ "summary": "Aboard Smotts' Revenge, Captain Hecklebury Smotts faces defeat at sea once more. Sea giants smash his second ship, kill its crew, and take his cutlass. He sends you to Sprogger, his former cook, to find the behemoth.",
  "sections": [
   {
    "title": "A Second Calamity",
-   "body": "Following the loss of his initial ship, Captain Hecklebury Smotts procured a second craft called Smotts' Revenge, gathering a fresh crew and provisions to take vengeance on the sea giants. The venture ended in disaster when the giants shattered the ship and slew the crew, leaving Smotts adrift once more in a lifeboat. During the onslaught, the giant Negolash took the captain's cutlass.",
+   "body": "After losing his first ship, Captain Hecklebury Smotts bought another and named it Smotts' Revenge. He gathered a new crew and provisions to hunt the sea giants who took his first vessel. The giants smashed the ship and killed the crew. Once more, Smotts was left adrift in a lifeboat, and Negolash took his cutlass in the attack.",
    "spoiler": 0
   },
   {
    "title": "Consulting the Cook",
-   "body": "Determined to retrieve his stolen blade, Smotts relies on his cook. Sprogger, who served aboard Smotts' Revenge, lived through the attack and can help find Negolash.",
+   "body": "Captain Hecklebury Smotts wants his stolen cutlass back, so he turns to Sprogger. Sprogger was the cook aboard Smotts' Revenge and survived the attack. He can help you track down Negolash.",
    "spoiler": 0
   }
  ],
@@ -49,7 +49,7 @@
     "smotts second ship",
     "what ship was smashed"
    ],
-   "answer": "Smotts purchased and outfitted a ship called Smotts' Revenge to hunt the giants that destroyed his first vessel, but the giants destroyed it as well."
+   "answer": "Captain Hecklebury Smotts bought and outfitted Smotts' Revenge to hunt the sea giants who took his first ship. The giants destroyed that vessel too."
   },
   {
    "q": "Who stole the captain's cutlass?",
@@ -58,7 +58,7 @@
     "which giant took the cutlass",
     "who took smotts cutlass"
    ],
-   "answer": "Negolash, one of the sea giants that smashed Smotts' Revenge and killed the crew, took the weapon."
+   "answer": "Negolash, one of the sea giants, took the captain's cutlass when the giants smashed Smotts' Revenge and killed its crew."
   },
   {
    "q": "Who is Sprogger?",
@@ -67,7 +67,7 @@
     "sprogger role",
     "who was the cook"
    ],
-   "answer": "Sprogger worked as the cook aboard Smotts' Revenge and survived the attack that destroyed the vessel. Captain Smotts directs travelers to him for help finding Negolash."
+   "answer": "Sprogger was the cook aboard Smotts' Revenge and survived the attack that destroyed the vessel. Captain Smotts directs you to consult him for help tracking down Negolash."
   },
   {
    "q": "Where does this step fit into the hunt for the sea giants?",
@@ -96,5 +96,6 @@
  ],
  "attribution": [
   "The Captain's Cutlass"
- ]
+ ],
+ "style": 2
 }

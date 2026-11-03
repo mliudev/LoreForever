@@ -28,11 +28,11 @@
    "Study of the Elements: Rock"
   ]
  },
- "summary": "Lotwil Veriatus needs one more part from the elementals of the Badlands: bracers of rock binding, taken from greater rock elementals. By Lotwil's reckoning they are enough to gauge the strength of Lotwil's own shackles.",
+ "summary": "In the Badlands, Lotwil Veriatus needs bracers from greater rock elementals to judge his shackles.",
  "sections": [
   {
    "title": "Gauging the Shackles",
-   "body": "After the stone slabs, Lotwil Veriatus asks for one last part from the Badlands' elementals. Bracers of rock binding, taken from greater rock elementals, should let Lotwil judge the strength of the shackles under construction. Lotwil's scrying showed a group of the elementals southwest, near some ogres, if memory serves. Five bracers are wanted, so there are spares, since Servo is notorious for misplacing reagents and research.",
+   "body": "Lotwil Veriatus needs one last part from the Badlands' elementals, after the stone slabs. Bracers of rock binding from greater rock elementals will help him judge the shackles under construction.\n\nHis scrying found a group southwest, near some ogres, if memory serves. He asks for five bracers so there will be spares, since Servo often misplaces reagents and research.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "what are bracers for",
     "lotwil binding bracers"
    ],
-   "answer": "By Lotwil's calculations, the bracers of rock binding are enough to gauge the strength of Lotwil's own shackles."
+   "answer": "Bracers of rock binding will let Lotwil gauge the strength of his own shackles."
   },
   {
    "q": "Why does Lotwil ask for five bracers?",
@@ -53,7 +53,7 @@
     "how many bracers",
     "why extras"
    ],
-   "answer": "To have extras, because Servo is notorious for misplacing Lotwil's reagents and research."
+   "answer": "Lotwil asks for five bracers so there are extras, since Servo often misplaces reagents and research."
   },
   {
    "q": "Where are the greater rock elementals located?",
@@ -62,7 +62,7 @@
     "greater rock elemental location",
     "where to find bracers"
    ],
-   "answer": "A group of them lies southwest of Lotwil, near some ogres, according to Lotwil's scrying. The hills around Camp Cagg are home to them."
+   "answer": "Lotwil's scrying found a group southwest, near some ogres. The hills around Camp Cagg are home to the greater rock elementals."
   },
   {
    "q": "What becomes of the stone slabs collected earlier?",
@@ -71,7 +71,7 @@
     "lucien stone slabs",
     "kharanos slabs"
    ],
-   "answer": "Lucien will take the extra slabs back to Kharanos once the work here is done, since they could prove useful again."
+   "answer": "When the work here is done, Lucien will take the extra slabs back to Kharanos, where they could prove useful again."
   }
  ],
  "angles": [],
@@ -92,5 +92,6 @@
  ],
  "attribution": [
   "Study of the Elements: Rock (3)"
- ]
+ ],
+ "style": 2
 }

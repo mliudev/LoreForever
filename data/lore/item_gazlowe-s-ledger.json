@@ -11,16 +11,16 @@
    "quest:892"
   ]
  },
- "summary": "In Ratchet, Gazlowe checks his trade records against the harbor manifest when a shipment from Booty Bay goes missing.",
+ "summary": "A shipment from Booty Bay is missing, and Gazlowe checks his records against Ratchet's harbor manifest.",
  "sections": [
   {
    "title": "Ratchet's Commercial Records",
-   "body": "Gazlowe tracks trade goods in Ratchet with a personal ledger. It records imported crates, outbound cargo, and warehouse stores. When a shipment from Booty Bay is missing, Gazlowe compares his expected inventory with the dock records kept by Wharfmaster Dizzywig.",
+   "body": "Gazlowe keeps a personal ledger of trade goods in Ratchet. It records imported crates, outbound cargo, and what is stored in the warehouses. When a shipment from Booty Bay goes missing, he compares the goods he expected with the dock records kept by Wharfmaster Dizzywig.",
    "spoiler": 0
   },
   {
    "title": "Uncovering the Theft",
-   "body": "Gazlowe and the other goblins compare the ledger with Dizzywig's harbor logs and find that the cargo never reached the port warehouse. The mismatch confirms Gazlowe's suspicion that the crates were taken before they came ashore. The Southsea Freebooters along the nearby Merchant Coast are to blame.",
+   "body": "Gazlowe and the other goblins compare the ledger with Dizzywig's harbor logs. The cargo never reached Ratchet's port warehouse, confirming Gazlowe's suspicion that the crates were taken before coming ashore. The Southsea Freebooters along the nearby Merchant Coast are to blame.",
    "spoiler": 1
   }
  ],
@@ -32,7 +32,7 @@
     "ratchet ledger",
     "gazlowe inventory book"
    ],
-   "answer": "Gazlowe's Ledger records goods expected and stored in Ratchet. Gazlowe sends it to the docks so its entries can be checked against the wharf records when a shipment is missing."
+   "answer": "Gazlowe's Ledger records goods expected and stored in Ratchet. When a shipment goes missing, Gazlowe sends it to the docks to compare its entries with the wharf records."
   },
   {
    "q": "Who needs to inspect the ledger?",
@@ -41,7 +41,7 @@
     "ledger recipient",
     "dizzywig ledger"
    ],
-   "answer": "Wharfmaster Dizzywig reviews Gazlowe's Ledger against his shipping logs. He oversees the Ratchet docks and can determine whether missing goods were misplaced or never unloaded."
+   "answer": "Wharfmaster Dizzywig checks Gazlowe's Ledger against his shipping logs. He oversees the Ratchet docks and can tell whether missing goods were misplaced or never unloaded."
   },
   {
    "q": "What cargo was missing in the ledger?",
@@ -49,7 +49,7 @@
     "what is gazlowe missing",
     "missing shipment cargo"
    ],
-   "answer": "Gazlowe was waiting for his latest shipment from Booty Bay. Dizzywig finds nothing amiss in his logs, though he says goods from Undermine are waiting for Gazlowe to pick up."
+   "answer": "Gazlowe was waiting for his latest shipment from Booty Bay. Dizzywig finds nothing amiss in his logs, though goods from Undermine are waiting for Gazlowe to pick up."
   },
   {
    "q": "What happens after the ledger is checked?",
@@ -57,17 +57,17 @@
     "what happens to the ledger",
     "after dizzywig checks"
    ],
-   "answer": "Dizzywig checks whether the shipment passed through the docks. When he finds it did not, the ledger goes back to Gazlowe, confirming that Southsea Freebooters likely intercepted the cargo at sea."
+   "answer": "Dizzywig checks whether the shipment passed through the docks. When he finds it did not, the ledger returns to Gazlowe, confirming that Southsea Freebooters likely intercepted the cargo at sea."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you can trade at Ratchet, a neutral port. Helping Gazlowe trace stolen shipments keeps good standing with the local Steamwheedle authorities."
+   "text": "As a member of the Horde, you can trade at Ratchet, a neutral port. Help Gazlowe trace stolen shipments and keep good standing with the local Steamwheedle authorities."
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you can glimpse the flow of contraband, valuable imports, and piracy around the Barrens coast in a goblin boss's private trade ledger."
+   "text": "As a rogue, you can glimpse the flow of contraband, valuable imports, and piracy along the Barrens coast in a goblin boss's private trade ledger."
   }
  ],
  "keywords": [
@@ -95,5 +95,5 @@
   "The Missing Shipment",
   "The Missing Shipment (2)"
  ],
- "style": 1
+ "style": 2
 }

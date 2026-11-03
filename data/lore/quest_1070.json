@@ -17,16 +17,16 @@
   "wiki": "On Guard in Stonetalon",
   "chain": []
  },
- "summary": "In Ashenvale, Sentinel Thenysil sends travelers south to check on Kaela Shadowspear. The scout went into Stonetalon to watch Venture Company incursions with a gnome mage, but word from her has fallen silent.",
+ "summary": "In Ashenvale, Sentinel Thenysil asks travelers to check on Kaela Shadowspear. Kaela went into Stonetalon to watch Venture Company incursions alongside a gnome mage, but no word has come from her.",
  "sections": [
   {
    "title": "A Scout Sent South",
-   "body": "In Astranaar, Sentinel Thenysil watches for threats pressing toward the ancient forest. Her friend Kaela Shadowspear went into the Stonetalon Mountains at Sentinel Wolfrunner’s order, to survey turmoil in the heights. Thenysil asks passing Alliance champions to find Kaela; no word has come, and she fears for her friend’s safety.",
+   "body": "In Astranaar, Sentinel Thenysil watches for threats near the ancient forest. Her friend Kaela Shadowspear entered the Stonetalon Mountains at Sentinel Wolfrunner’s order, to survey trouble in the heights. Thenysil asks passing Alliance champions to find Kaela. No word has come, and she fears for her friend’s safety.",
    "spoiler": 0
   },
   {
    "title": "Uneasy Partnerships in the Crags",
-   "body": "Kaela’s companion is a gnome mage assigned by Alliance leaders. The night elves joined the Grand Alliance for strategic reasons, but many Sentinels distrust arcane practitioners and gnome tinkers in the wilderness. Kaela keeps an outpost on the bluffs above Windshear Crag, where she watches the Venture Company’s widespread devastation.",
+   "body": "A gnome mage assigned by Alliance leaders accompanies Kaela. The night elves joined the Grand Alliance for strategic reasons, yet many Sentinels distrust arcane practitioners and gnome tinkers in the wilderness. Kaela keeps an outpost on the bluffs above Windshear Crag. From there, she watches the Venture Company’s widespread devastation.",
    "spoiler": 0
   }
  ],
@@ -55,7 +55,7 @@
     "why worry",
     "thenysil concern"
    ],
-   "answer": "Kaela went to investigate dangerous hostile incursions in Stonetalon and has sent no word back. Thenysil is also wary of the gnome mage assigned to accompany her, a pairing she sees as an omen of trouble."
+   "answer": "Kaela went to investigate dangerous hostile incursions in Stonetalon and has sent no word back. Thenysil also distrusts the gnome mage assigned to accompany her and sees the pairing as an omen of trouble."
   },
   {
    "q": "What threats are active in the Stonetalon Mountains?",
@@ -93,7 +93,7 @@
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you may find Sentinels’ deep skepticism toward gnomish magic and contraptions a hard welcome. They see a gnome mage in Kalimdor’s wilderness as an odd, unpredictable presence."
+   "text": "As a gnome, you may find the Sentinels’ deep skepticism toward gnomish magic and contraptions a hard welcome. They see a gnome mage in Kalimdor’s wilderness as an odd, unpredictable presence."
   }
  ],
  "keywords": [
@@ -118,5 +118,5 @@
  "attribution": [
   "On Guard in Stonetalon"
  ],
- "style": 1
+ "style": 2
 }

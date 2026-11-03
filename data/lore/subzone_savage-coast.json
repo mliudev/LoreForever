@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Savage Coast"
  },
- "summary": "The Savage Coast is the rugged western shoreline of northern Stranglethorn Vale, stretching from the southern border of Westfall down toward Grom'gol Base Camp. Prowled by river crocolisks, shore basilisks, and hostile troll tribes, the strand earns its brutal name with every tide.",
+ "summary": "Along Stranglethorn Vale’s western shore, danger follows the Savage Coast from Westfall toward Grom'gol Base Camp. Crocolisks, basilisks, and hostile troll tribes make the beaches perilous.",
  "sections": [
   {
    "title": "A Treacherous Strand",
-   "body": "Running from the cliffs bordering Westfall south toward Grom'gol Base Camp, the Savage Coast marks the perilous western edge of northern Stranglethorn Vale. The sandy banks offer little hospitality: snapjaws, crocolisks, and stonestalkers roam freely among the tide pools and drift logs. Just inland lie territorial jungle troll encampments, making any casual walk along the beach a fight for survival. Offshore, the waters dip toward the submerged dangers of the Vile Reef, ensuring that danger lurks both on the sand and under the waves.",
+   "body": "The Savage Coast follows the western edge of northern Stranglethorn Vale. Its beaches run south from the cliffs by Westfall toward Grom'gol Base Camp. Crocolisks and stonestalkers roam among tide pools and drift logs, while territorial jungle troll camps threaten anyone walking the shore. Beyond the sand, the water deepens toward the submerged dangers of the Vile Reef.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is savage coast",
     "savage coast map"
    ],
-   "answer": "The Savage Coast lines the western ocean edge of northern Stranglethorn Vale. It begins near the border of Westfall in the north and extends southward past the waters near the Vile Reef, reaching down toward Grom'gol Base Camp."
+   "answer": "The Savage Coast follows the western ocean edge of northern Stranglethorn Vale. It begins near Westfall's border and runs south past the waters near the Vile Reef toward Grom'gol Base Camp."
   },
   {
    "q": "What creatures live along the Savage Coast?",
@@ -32,7 +32,7 @@
     "what is on savage coast",
     "savage coast beasts"
    ],
-   "answer": "The shore is overrun by dangerous wildlife, most notably aggressive crocolisks and basilisks that sun themselves on the sand. Just beyond the waterline and along the nearby jungle bluffs, hostile troll tribes maintain encampments overlooking the surf."
+   "answer": "Crocolisks and basilisks prowl the shore. Hostile troll tribes keep camps beyond the waterline and along the nearby jungle bluffs."
   },
   {
    "q": "Is the Savage Coast safe for travelers moving south from Westfall?",
@@ -40,7 +40,7 @@
     "can you walk to stranglethorn from westfall",
     "westfall to savage coast path"
    ],
-   "answer": "Not at all. While entering Stranglethorn Vale along the coast bypasses the dense canopy, the Savage Coast is packed with vicious amphibious predators and local troll warriors that quickly overwhelm unwary travelers."
+   "answer": "No. The coast offers a route around the dense canopy, but amphibious predators and troll warriors make the way dangerous for travelers."
   },
   {
    "q": "What landmarks are near the Savage Coast?",
@@ -48,17 +48,17 @@
     "savage coast points of interest",
     "what is near savage coast"
    ],
-   "answer": "Directly offshore lies the sunken Vile Reef, while further down the coastline sits the fortified Horde outpost of Grom'gol Base Camp. To the north, the bluffs rise toward the farmlands and coast of Westfall."
+   "answer": "The sunken Vile Reef lies offshore, and Grom'gol Base Camp sits farther south along the coast. To the north, bluffs rise toward Westfall's farmlands and coast."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The northern stretch of the coast lies just above Grom'gol Base Camp, serving as a perimeter buffer against wildlife and aggressive troll bands near the Great Sea."
+   "text": "The northern stretch of the coast lies just above Grom'gol Base Camp. Nearby wildlife and aggressive troll bands near the Great Sea threaten the outpost."
   },
   {
    "target": "class:Hunter",
-   "text": "The beaches offer an abundance of crocolisks and basilisks for tracking, skinning, and beast-taming along the shoreline."
+   "text": "Along the shoreline, you can track, skin, and tame crocolisks and basilisks."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Savage Coast"
- ]
+ ],
+ "style": 2
 }

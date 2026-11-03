@@ -18,16 +18,16 @@
   "wiki": null,
   "next": ""
  },
- "summary": "In Stromgarde, the Syndicate is fighting a contingent of militia, and its leaders pay gold for every badge taken from a fallen militiaman. At Refuge Pointe, Captain Nials wants those badges recovered.",
+ "summary": "In Stromgarde, the Syndicate pays for militia badges taken from the fallen. At Refuge Pointe, Captain Nials wants them brought back.",
  "sections": [
   {
    "title": "A Bounty on Soldiers",
-   "body": "In Stromgarde the Syndicate is at war with a contingent of militia. To push their followers into fighting the better-trained soldiers, Syndicate leaders pay gold for each badge taken from a slain militiaman. Captain Nials calls them cutthroats and will not let them keep trophies of the brave fallen, so you are sent into the Syndicate-held part of Stromgarde to hunt for the badges and bring them back to Refuge Pointe. Nials wants the Syndicate to learn it cannot profit from the dead.",
+   "body": "The Syndicate fights a contingent of militia in Stromgarde. Its leaders offer gold for every badge taken from a slain militiaman, hoping to turn their followers against the better-trained soldiers. Captain Nials calls the Syndicate cutthroats and refuses to let them keep trophies from the brave fallen. You enter the part of Stromgarde they hold and bring the badges back to Refuge Pointe. Nials wants them to learn they cannot profit from the dead.",
    "spoiler": 0
   },
   {
    "title": "After the Hunt",
-   "body": "Nials promises that the relatives of the fallen will be told they died in battle. The news is grim to deliver, but Nials judges it better than leaving a family to wonder what became of a missing relative.",
+   "body": "Captain Nials promises to tell the fallen militiamen's relatives that their kin died in battle. The news is grim, but he believes it is better than leaving a family to wonder what became of someone who went missing.",
    "spoiler": 1
   }
  ],
@@ -39,7 +39,7 @@
     "syndicate bounty stromgarde",
     "why collect badges"
    ],
-   "answer": "Their leaders have put a bounty on the militia: gold for every badge taken from a militiaman who has fallen, meant to push the Syndicate's followers into fighting the better-trained troops."
+   "answer": "Syndicate leaders offer gold for every badge taken from a fallen militiaman. They hope the payment will drive their followers to fight the better-trained troops."
   },
   {
    "q": "Where are the badges found?",
@@ -48,7 +48,7 @@
     "stromgarde badge location",
     "badge drop location"
    ],
-   "answer": "Captain Nials sends you into the part of Stromgarde the Syndicate controls to hunt them for the badges."
+   "answer": "You find the badges in the part of Stromgarde controlled by the Syndicate."
   },
   {
    "q": "Who orders the retrieval of the badges?",
@@ -57,7 +57,7 @@
     "captain nials badge quest",
     "questgiver stromgarde badges"
    ],
-   "answer": "Captain Nials, at Refuge Pointe, who does not want the Syndicate keeping trophies from the fallen militia."
+   "answer": "Captain Nials at Refuge Pointe orders the badges recovered. He will not let the Syndicate keep trophies from the fallen militia."
   }
  ],
  "angles": [],
@@ -77,5 +77,6 @@
  ],
  "attribution": [
   "Classic quest text: Stromgarde Badges"
- ]
+ ],
+ "style": 2
 }

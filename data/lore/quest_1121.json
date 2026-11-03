@@ -31,16 +31,16 @@
    "Errands for Kravel"
   ]
  },
- "summary": "Kravel Koalbeard wants the Fool's Stout tested on a pit crew at the Mirage Raceway. If you choose the goblins, you take the stout to the Goblin Pit Boss. The stout will go bad eventually, so Kravel says not to wait too long.",
+ "summary": "At the Mirage Raceway, Kravel Koalbeard asks you to test Fool's Stout on a pit crew. Choose the goblins and carry the stout to the nearby Goblin Pit Boss before it goes bad.",
  "sections": [
   {
    "title": "A Test on the Pit Crews",
-   "body": "Kravel Koalbeard needs the Fool's Stout tried out on one of the pit crews. You may try it on the goblins: he hands you the stout and sends you with it to the Goblin Pit Boss, who is nearby at the Mirage Raceway. Choosing the goblins tips the races toward the gnomes. Kravel warns you not to dawdle, because the stout will go bad eventually.",
+   "body": "Kravel Koalbeard gives you Fool's Stout to test on one of the pit crews. If you choose the goblins, take it to the nearby Goblin Pit Boss at the Mirage Raceway. That choice tips the races toward the gnomes. The stout will go bad eventually, so Kravel warns you not to dawdle.",
    "spoiler": 0
   },
   {
    "title": "A Little Won't Hurt",
-   "body": "The Goblin Pit Boss sees booze on offer and does not mind having a little.",
+   "body": "The Goblin Pit Boss sees the booze you offer and agrees to have a little.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "who gives get the goblins drunk",
     "kravel koalbeard"
    ],
-   "answer": "Kravel Koalbeard, the dwarf at the Mirage Raceway in Thousand Needles."
+   "answer": "Kravel Koalbeard, a dwarf at the Mirage Raceway in Thousand Needles, offers you the stout."
   },
   {
    "q": "Where must the stout be taken?",
@@ -60,7 +60,7 @@
     "where to bring stout",
     "goblin pit boss location"
    ],
-   "answer": "To the Goblin Pit Boss, who is nearby at the Mirage Raceway."
+   "answer": "Take the stout to the Goblin Pit Boss, who is nearby at the Mirage Raceway."
   },
   {
    "q": "What happens if you wait too long?",
@@ -69,7 +69,7 @@
     "fool's stout duration",
     "stout goes bad"
    ],
-   "answer": "The stout will go bad eventually, so Kravel tells you not to wait too long."
+   "answer": "The stout will go bad eventually, so Kravel warns you not to wait too long."
   },
   {
    "q": "What is the alternative to this?",
@@ -77,7 +77,7 @@
     "get the gnomes drunk choice",
     "gnomes or goblins raceway"
    ],
-   "answer": "Kravel lets you pick which pit crew to try the stout on. The other choice is Get the Gnomes Drunk, with the gnome crew."
+   "answer": "Kravel lets you choose which pit crew to test the stout on. The alternative is Get the Gnomes Drunk, with the gnome crew."
   },
   {
    "q": "What comes before this?",
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Get the Goblins Drunk"
- ]
+ ],
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:875"
   ]
  },
- "summary": "In the Dry Hills, Harpy Lieutenant Rings mark the Witchwing Slayers who command the flock. Darsok Swiftdagger at the Crossroads asks for them as proof of death.",
+ "summary": "In the Dry Hills, Harpy Lieutenant Ring marks the rank of Witchwing Slayers who command the flock. Darsok Swiftdagger at the Crossroads asks for the rings as proof of their deaths.",
  "sections": [
   {
    "title": "Tokens of Rank",
-   "body": "Witchwing Slayers direct attacks on Horde travelers in the Barrens. Their rings mark their place among the flock’s leaders, above the ordinary raiders who fight with little coordination. At the Crossroads, Darsok Swiftdagger and the defenders need the rings taken from fallen slayers to confirm that this part of the harpies’ leadership has been broken.",
+   "body": "Witchwing Slayers direct attacks on Horde travelers in the Barrens. Their rings mark them as leaders above the ordinary raiders, who fight with little coordination. Darsok Swiftdagger and the defenders at the Crossroads need rings taken from fallen slayers. The rings confirm that part of the harpies’ leadership has been broken.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "witchwing slayer rings",
     "which harpies have rings"
    ],
-   "answer": "Witchwing Slayers wear the rings as lieutenants among the Witchwing flock in the Dry Hills."
+   "answer": "Witchwing Slayers wear the rings as lieutenants in the Witchwing flock of the Dry Hills."
   },
   {
    "q": "Where can Witchwing Slayers be found?",
@@ -51,7 +51,7 @@
     "can raiders drop rings",
     "do witchwing raiders have rings"
    ],
-   "answer": "No. The rings mark the Witchwing Slayers, while ordinary harpy raiders are lower-ranking underlings."
+   "answer": "No. The rings mark Witchwing Slayers, while ordinary harpy raiders are lower-ranking underlings."
   }
  ],
  "angles": [
@@ -61,7 +61,7 @@
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you may favor the precise strikes Darsok Swiftdagger seeks: slipping into harpy roosts to kill their commanders."
+   "text": "As a rogue, you may favor the precise strikes Darsok Swiftdagger seeks. Slip into harpy roosts and kill their commanders."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
   "Harpy Lieutenant Ring",
   "Harpy Lieutenants (Classic)"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:851"
   ]
  },
- "summary": "Regthar Deathgate seeks Verog's Head as proof of the Kolkar leader's death. The chieftain commands forces around the Stagnant Oasis, and his defeat is meant to weaken the tribes threatening the Barrens.",
+ "summary": "Regthar Deathgate seeks Verog's Head as proof that the Kolkar leader has fallen. Verog commands forces around the Stagnant Oasis, and his defeat is meant to weaken the tribes threatening the Barrens.",
  "sections": [
   {
    "title": "A Trophy of the Oasis",
-   "body": "The Kolkar centaur threaten Horde travelers and supply routes across the northern Barrens. Verog the Dervish roams the arid scrubland, leaving his command tent at the Stagnant Oasis vulnerable. Horde operatives attack his forces around the pavilion until an alarm sounds. Verog rushes back to defend his camp, where he is slain and decapitated. Regthar Deathgate receives his head as proof that another dangerous Kolkar chieftain has fallen. Barak Kodobane's head is already on display beside it.",
+   "body": "The Kolkar threaten Horde travelers and supply routes across the northern Barrens. Verog the Dervish roams the arid scrubland, leaving his command tent at the Stagnant Oasis vulnerable. Horde operatives attack his forces around the pavilion until an alarm sounds.\n\nVerog rushes back to defend his camp, where he is slain and decapitated. Regthar Deathgate receives his head as proof that another dangerous Kolkar chieftain has fallen. Barak Kodobane's head is already displayed beside it.",
    "spoiler": 0
   }
  ],
@@ -62,7 +62,7 @@
   },
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you know the weight of the Kolkar defeat: your people have endured generations of brutal warfare against the centaur tribes of Kalimdor."
+   "text": "As a tauren, you know the weight of the Kolkar defeat. Your people have endured generations of brutal warfare against the centaur tribes of Kalimdor."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
   "Verog's Head",
   "Verog the Dervish (Classic)"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,16 +10,16 @@
    "quest:4762"
   ]
  },
- "summary": "In Darkshore, foul water gathers at the base of the Cliffspring River waterfall. Drawn for Thundris Windweaver in Auberdine, the vial shows that corruption is moving toward the coast.",
+ "summary": "At Cliffspring River's waterfall in Darkshore, foul water gathers in a pool. Drawn for Thundris Windweaver in Auberdine, the sample shows corruption moving toward the coast.",
  "sections": [
   {
    "title": "A Tainted Current",
-   "body": "The Cliffspring River runs from Darkshore's eastern heights, past ancient stone bridges, and into the sea at Mist's Edge. Its clear waters have turned foul and visibly corrupted. Thundris Windweaver, a night elf in Auberdine, fears the tainted flow will reach the settlement's shore and water supply. He sent travelers to draw water from the pool beneath the river's lower waterfall. The sample confirms that unnatural rot is moving downstream toward the coast.",
+   "body": "The Cliffspring River runs from Darkshore's eastern heights, past ancient stone bridges, and into the sea at Mist's Edge. Its clear water has turned foul and visibly corrupted. Thundris Windweaver, a night elf in Auberdine, fears the tainted flow will reach the settlement's shore and water supply. He sent travelers to draw water from the pool beneath the river's lower waterfall. The sample confirms that unnatural rot is moving downstream toward the coast.",
    "spoiler": 0
   },
   {
    "title": "Echoes of Felwood",
-   "body": "Blackwood furbolgs live along the river upstream and suffer under its darkening influence. Thundris recognizes the water's corruption as coming from high above the cliffs to the east, in Felwood. The demonic sickness blighting the mountaintops is seeping into Darkshore's watersheds, and Auberdine's defenders must prepare to respond.",
+   "body": "Blackwood furbolgs live along the river upstream and suffer under its darkening influence. Thundris recognizes that the corruption comes from high above the cliffs to the east, in Felwood. Demonic sickness blighting the mountaintops is seeping into Darkshore's watersheds. Auberdine's defenders must prepare to respond.",
    "spoiler": 1
   }
  ],
@@ -64,11 +64,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the night elves of Auberdine, corruption in northern Kalimdor's waters is a grave sign of the blight spreading from Felwood."
+   "text": "For the night elves of Auberdine, corruption in northern Kalimdor's waters is a grave sign of blight spreading from Felwood."
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you know the balance of natural waterways matters. The Cliffspring sample's unnatural toxicity needs urgent study and cleansing."
+   "text": "As a druid, you know that waterways must remain in balance. The Cliffspring sample's unnatural toxicity needs urgent study and cleansing."
   }
  ],
  "keywords": [
@@ -96,5 +96,5 @@
   "Cliffspring River Sample",
   "The Cliffspring River"
  ],
- "style": 1
+ "style": 2
 }

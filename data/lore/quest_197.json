@@ -27,16 +27,16 @@
    "Big Game Hunter (Classic)"
   ]
  },
- "summary": "Deep in Stranglethorn Vale, Hemet Nesingwary challenges seasoned trackers to bring down an elusive predator that has escaped even him. Having proven your mettle against lesser beasts, you are tasked with tracking the cunning raptor known as Tethis and securing its talon.",
+ "summary": "In Stranglethorn Vale, Hemet Nesingwary sends you after the raptor that has eluded even him. After your trials against lesser beasts, you are to track Tethis and bring its talon back to Hemet.",
  "sections": [
   {
    "title": "The Wily Predator of the Vale",
-   "body": "Following your earlier trials in the jungle, Hemet Nesingwary reveals the existence of a particularly vicious raptor named Tethis. While lesser hunters have chased prey across the foliage, Tethis has evaded capture entirely, defying even the expedition leader himself. Ajeck Rouack bestowed the beast with its moniker, marking it as the ultimate prize among Stranglethorn's scaled horrors.",
+   "body": "Hemet Nesingwary tells you of Tethis, a vicious raptor that has escaped every hunter, even the expedition leader. Ajeck Rouack gave the beast its name. Among Stranglethorn's raptors, Tethis is the greatest challenge for a hunter.",
    "spoiler": 0
   },
   {
    "title": "Claiming the Talon",
-   "body": "To stand recognized as a premier big game hunter, you are directed to prowl the grounds north of the Gurubashi Arena where Tethis is known to roam. Bringing back a talon from the slain terror will earn you the title of master raptor slayer, a feat no other big game hunter has accomplished.",
+   "body": "Tethis roams north of the Gurubashi Arena. Bring Hemet a talon from the slain raptor, and he will recognize you as a master raptor slayer. No other big game hunter has achieved that feat.",
    "spoiler": 0
   }
  ],
@@ -48,7 +48,7 @@
     "raptor mastery questgiver",
     "who wants tethis dead"
    ],
-   "answer": "Hemet Nesingwary directs the hunt from his expedition encampment in northern Stranglethorn Vale after you prove your tracking capabilities against ordinary jungle raptors."
+   "answer": "Hemet Nesingwary sends you to hunt Tethis from his expedition encampment in northern Stranglethorn Vale, after you prove your tracking skill against ordinary jungle raptors."
   },
   {
    "q": "Where can Tethis be found?",
@@ -57,7 +57,7 @@
     "where is tethis",
     "where to find tethis"
    ],
-   "answer": "The ferocious beast prowls the jungle wilderness surrounding the Gurubashi Arena, most frequently sighted through the brush to the north of the colosseum."
+   "answer": "Tethis prowls the jungle around the Gurubashi Arena, most often in the brush north of the colosseum."
   },
   {
    "q": "What proof does Hemet require of the kill?",
@@ -66,7 +66,7 @@
     "tethis proof",
     "raptor mastery turn in item"
    ],
-   "answer": "Hemet requires the talon of Tethis as undeniable proof that the cunning creature has finally been brought down."
+   "answer": "Hemet requires Tethis's talon as proof that you have brought the raptor down."
   },
   {
    "q": "Who originally named the raptor Tethis?",
@@ -74,7 +74,7 @@
     "who named tethis",
     "origin of tethis name"
    ],
-   "answer": "Ajeck Rouack, one of the hunters at Nesingwary's expedition camp, bestowed the elusive predator with the name Tethis."
+   "answer": "Ajeck Rouack, one of the hunters at Nesingwary's expedition camp, gave the raptor the name Tethis."
   }
  ],
  "angles": [],
@@ -96,5 +96,6 @@
  ],
  "attribution": [
   "Raptor Mastery (4)"
- ]
+ ],
+ "style": 2
 }

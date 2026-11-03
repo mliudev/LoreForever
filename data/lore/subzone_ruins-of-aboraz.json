@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Ruins of Aboraz"
  },
- "summary": "The Ruins of Aboraz are ancient Gurubashi stone ruins nestled along the southeastern cliffs of Stranglethorn Vale. Once part of the sprawling jungle troll empire, the crumbling terraces now serve as the secluded redoubt for the renegade witch doctor Zanzil the Outcast and his mind-addled thralls.",
+ "summary": "Zanzil the Outcast and his mind-addled thralls now hold the old Gurubashi terraces on Stranglethorn Vale's southeastern cliffs.",
  "sections": [
   {
    "title": "A Witch Doctor's Domain",
-   "body": "Perched on the bluffs southeast of the Ruins of Jubuwal and south of the Crystalvein Mine, the weathered masonry of Aboraz has been transformed into an alchemical testing ground. Zanzil the Outcast was banished by the local tribes and the mainlanders alike, retreating here to brew potent mind-altering concoctions and toxic elixirs. Within the stone courtyards, Zanzil exerts total control over an unsettling menagerie of servitors, including shambling undead ghouls, corrupted troll thralls, and even co-opted coastal naga.",
+   "body": "At Aboraz, weathered stone crowns the bluffs southeast of the Ruins of Jubuwal and south of the Crystalvein Mine. Zanzil the Outcast, an exiled witch doctor, has turned the courtyards into a place for alchemy. Banished by local tribes and mainlanders alike, he fled here to brew potions that alter the mind and toxic elixirs. His servants are shambling undead ghouls, corrupted troll thralls, and coastal naga under his control.",
    "spoiler": 0
   },
   {
    "title": "Pawns and Captives",
-   "body": "Zanzil's strange potions do not simply poison the body\u2014they shatter the will. Among the lost souls pacing the terraces is the enthralled Darkspear youth Yenniku, whose mind remains locked under Zanzil's sorcery. Joining him in aimless wandering is Chucky 'Ten Thumbs', a pirate debtor fleeing the collection efforts of Booty Bay's 'Sea Wolf' MacKinley, reduced by Zanzil's draughts to an oblivious guardian of the compound.",
+   "body": "Yenniku wanders the terraces, his mind still held by Zanzil's sorcery. Chucky 'Ten Thumbs' wanders there too. A pirate debtor fleeing the collection efforts of Booty Bay's 'Sea Wolf' MacKinley, Chucky has drunk Zanzil's draughts and now guards the compound, unaware of his plight.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "aboraz boss",
     "who is in ruins of aboraz"
    ],
-   "answer": "The ruins are controlled by Zanzil the Outcast, an exiled witch doctor infamous throughout Stranglethorn Vale for his dark alchemy and powerful mind-controlling brews."
+   "answer": "Zanzil the Outcast rules the ruins. The exiled witch doctor is known across Stranglethorn Vale for dark alchemy and powerful brews that control minds."
   },
   {
    "q": "Why are there naga and ghouls together here?",
@@ -37,7 +37,7 @@
     "aboraz ghouls",
     "aboraz mobs"
    ],
-   "answer": "Zanzil's unique mixtures allow him to dominate minds and animate corpses. He has bound troll outcasts, risen jungle ghouls, and ensnared coastal naga to serve as unquestioning guards for his terrace."
+   "answer": "Zanzil has bound troll outcasts, raised jungle ghouls, and ensnared coastal naga to guard his terraces. His mixtures let him dominate minds and animate corpses."
   },
   {
    "q": "Where are the Ruins of Aboraz located?",
@@ -46,17 +46,17 @@
     "where is aboraz",
     "how to get to ruins of aboraz"
    ],
-   "answer": "They lie on the high bluffs in southeastern Stranglethorn Vale, south of the Crystalvein Mine and just southeast of the Ruins of Jubuwal overlooking the eastern sea."
+   "answer": "The Ruins of Aboraz stand on high bluffs in southeastern Stranglethorn Vale, south of the Crystalvein Mine and just southeast of the Ruins of Jubuwal. They overlook the eastern sea."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For the Darkspear, Aboraz is an affront: an outcast using perverted voodoo to enslave fellow trolls and hold young Yenniku hostage in the ancestral lands of the Gurubashi."
+   "text": "For the Darkspear, Aboraz is an affront. An outcast uses perverted voodoo to enslave fellow trolls and hold young Yenniku in the ancestral lands of the Gurubashi."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance privateers and mercenaries frequently run into Zanzil's affairs when chasing debts or bounties tied to the goblins and pirates of Booty Bay."
+   "text": "Alliance privateers and mercenaries often cross paths with Zanzil's affairs while pursuing debts or bounties tied to Booty Bay's goblins and pirates."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  ],
  "attribution": [
   "Ruins of Aboraz"
- ]
+ ],
+ "style": 2
 }

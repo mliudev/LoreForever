@@ -21,11 +21,11 @@
    "City of Dalaran quests"
   ]
  },
- "summary": "Magus Wordeen Voidglare praises your infiltration of the mages' city, and says the time has come to be more negotiatory. You are to carry the arcane mote you acquired to Archmage Celindra in Dalaran.",
+ "summary": "After your infiltration of the mages' city, Magus Wordeen Voidglare sends you to Dalaran. Carry the arcane mote to Archmage Celindra; Wordeen believes the Kirin Tor will give anything to recover it.",
  "sections": [
   {
    "title": "Time to Negotiate",
-   "body": "Magus Wordeen Voidglare admits that no place on Azeroth rivals the Kirin Tor for knowledge of the arcane, and that even Wordeen's own brilliant work pales beside their ancient wisdom. He thinks it high time the Horde was granted access to their exclusive order. You are to carry the mote you acquired to Archmage Celindra in Dalaran, for Wordeen is sure the Kirin Tor will give anything to get it back.",
+   "body": "Magus Wordeen Voidglare says no order on Azeroth matches the Kirin Tor in arcane knowledge. Even his brilliant work pales beside their ancient wisdom. He believes the Horde should gain access to their exclusive order. So he sends you to Archmage Celindra in Dalaran with the mote you acquired. Wordeen believes the Kirin Tor will give anything to get it back.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "wordeen voidglare",
     "quest giver shrewd negotiations"
    ],
-   "answer": "Magus Wordeen Voidglare, who wants to be more negotiatory after your infiltration of the city."
+   "answer": "Magus Wordeen Voidglare sends you to Dalaran after your infiltration of the city."
   },
   {
    "q": "Who are you sent to speak with?",
@@ -46,7 +46,7 @@
     "celindra location",
     "where is celindra"
    ],
-   "answer": "Archmage Celindra, in Dalaran."
+   "answer": "You are sent to speak with Archmage Celindra in Dalaran."
   },
   {
    "q": "What leverage do you carry?",
@@ -55,7 +55,7 @@
     "bargaining chip",
     "arcane mote"
    ],
-   "answer": "The arcane mote you acquired. Wordeen is sure the Kirin Tor will give anything to have it back."
+   "answer": "You carry the arcane mote you acquired. Wordeen believes the Kirin Tor will give anything to recover it."
   },
   {
    "q": "Why does Wordeen Voidglare want to deal with Dalaran?",
@@ -64,7 +64,7 @@
     "wordeen motive",
     "why dalaran"
    ],
-   "answer": "Wordeen admits no place on Azeroth rivals the Kirin Tor for knowledge of the arcane, and thinks it is time the Horde was granted access to their exclusive order."
+   "answer": "Wordeen says no place on Azeroth rivals the Kirin Tor in arcane knowledge. He believes the Horde should gain access to their exclusive order."
   }
  ],
  "angles": [],
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Shrewd Negotiations"
- ]
+ ],
+ "style": 2
 }

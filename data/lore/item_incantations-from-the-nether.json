@@ -10,16 +10,16 @@
    "quest:5725"
   ]
  },
- "summary": "Beneath Orgrimmar, Searing Blade cultists hold Incantations from the Nether, a grimoire of demonic magic. Sylvanas Windrunner and Varimathras seek its fel knowledge for the Forsaken.",
+ "summary": "Beneath Orgrimmar, the Searing Blade holds Incantations from the Nether, a grimoire of demonic magic. Sylvanas Windrunner and Varimathras seek its fel knowledge for the Forsaken.",
  "sections": [
   {
    "title": "Gifts of the Legion",
-   "body": "The Searing Blade is a subterranean sect tied to the Shadow Council, working in the fiery tunnels of Ragefire Chasm beneath Orgrimmar's red stone streets. Its cultists prize Incantations from the Nether, a spellbook of demonic rites given by agents of the Burning Legion. They use its secrets to plot treason in the Orcish capital. Word of the tome has reached the royal quarters of Undercity.",
+   "body": "The Searing Blade works in the fiery tunnels of Ragefire Chasm beneath Orgrimmar's red stone streets. The subterranean sect is tied to the Shadow Council. Its cultists prize Incantations from the Nether, a spellbook of demonic rites given by agents of the Burning Legion. They use its secrets to plot treason in the Orcish capital. Word of the tome has reached the royal quarters of Undercity.",
    "spoiler": 0
   },
   {
    "title": "Forsaken Ambition",
-   "body": "Varimathras sends loyal Horde adventurers deep into Ragefire Chasm to recover Incantations from the Nether and its sister volume, Spells of Shadow. Sylvanas Windrunner and her dreadlord lieutenant see such fel relics as wasted on cultists with lesser vision. The Dark Lady means to wield the book's nether-forged power against the Lich King and bring retribution to the Scourge.",
+   "body": "Varimathras sends loyal Horde adventurers deep into Ragefire Chasm to recover Incantations from the Nether and its sister volume, Spells of Shadow. Sylvanas Windrunner and her dreadlord lieutenant believe such fel relics are wasted on cultists with lesser vision. The Dark Lady means to wield the book's nether-forged power against the Lich King and bring retribution to the Scourge.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "who drops incantations from the nether",
     "incantations from the nether location"
    ],
-   "answer": "Searing Blade cultists and warlocks carry the book in Ragefire Chasm, the volcanic cavern network beneath Orgrimmar."
+   "answer": "Searing Blade cultists and warlocks carry Incantations from the Nether in Ragefire Chasm, the volcanic cavern network beneath Orgrimmar."
   },
   {
    "q": "Who wants this book and why?",
@@ -40,7 +40,7 @@
     "why does sylvanas want this book",
     "varimathras book quest"
    ],
-   "answer": "Lady Sylvanas Windrunner and the dreadlord Varimathras seek the book. They consider the Searing Blade cultists petty, with lesser vision, and want its demonic magic to fight their sworn enemy, the Lich King."
+   "answer": "Lady Sylvanas Windrunner and the dreadlord Varimathras seek the book. They consider the Searing Blade cultists petty, with lesser vision, and want its demonic magic to fight the Lich King."
   },
   {
    "q": "What is the Searing Blade?",
@@ -93,5 +93,5 @@
   "Incantations from the Nether",
   "The Power to Destroy... (Classic)"
  ],
- "style": 1
+ "style": 2
 }

@@ -26,21 +26,21 @@
    "The Binding (Succubus, Orgrimmar)"
   ]
  },
- "summary": "A missing grunt named Dogran leaves Zankaja waiting in Orgrimmar. His mate has heard nothing for days, so she sends you to question his superior, Gazrog, at the Crossroads. For a warlock, the search also serves a ritual to bind a succubus.",
+ "summary": "Zankaja waits in Orgrimmar for word of Dogran, her mate, who has been gone for days. She sends you to ask Gazrog at the Crossroads.",
  "sections": [
   {
    "title": "A Mate's Despair",
-   "body": "Zankaja waits on the bluffs of Orgrimmar, fearing for her mate Dogran. He was sent to the Crossroads on an honorable promotion, but his return is overdue and she has heard nothing for days. She asks you to seek news from his commander, Gazrog. She does not know that dark arts are at work behind the search.",
+   "body": "On the bluffs of Orgrimmar, Zankaja fears for Dogran, her mate. He went to the Crossroads after an honorable promotion, but his return is overdue and she has heard nothing for days. So she asks you to seek news from his commander, Gazrog.",
    "spoiler": 0
   },
   {
    "title": "Grim Tidings in the Barrens",
-   "body": "Gazrog tells you what happened to Dogran at the Crossroads, the central Horde outpost in the Barrens. Quilboar infest the plains, and Dogran has fallen into their hands. He still lives, but his capture is a grim truth Gazrog hesitates to send back to Zankaja.",
+   "body": "At the Crossroads, the Horde’s central outpost in the Barrens, Gazrog tells you what befell Dogran. Quilboar infest the plains, and they have taken Dogran. He still lives, but Gazrog hesitates to send Zankaja the grim truth of his capture.",
    "spoiler": 1
   },
   {
    "title": "An Instrument of Summoning",
-   "body": "The warlock's search for Dogran also serves the work of summoning and mastering a succubus. The binding ritual calls for relics touched by true emotion. Dogran's suffering and his bond with Zankaja provide the emotional conduit the ritual needs.",
+   "body": "The search for Dogran also serves a warlock’s effort to summon and master a succubus. The binding ritual calls for relics touched by true emotion. Dogran’s suffering and his bond with Zankaja give the ritual the emotional conduit it needs.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "who is dogran",
     "grunt dogran"
    ],
-   "answer": "Dogran is an orc grunt stationed in the Barrens, recently promoted to the Crossroads. He is Zankaja's mate, and she lives in Orgrimmar."
+   "answer": "Dogran is an orc grunt stationed in the Barrens, recently promoted to the Crossroads. He is Zankaja’s mate, and she lives in Orgrimmar."
   },
   {
    "q": "Why does a warlock care about a missing orc guard?",
@@ -61,7 +61,7 @@
     "why do warlocks do this",
     "succubus connection"
    ],
-   "answer": "Warlock mentors in the Cleft of Shadow direct you to seek news of Dogran. The binding ritual for a succubus needs relics touched by deep mortal emotions, including love, devotion, and suffering."
+   "answer": "Warlock mentors in the Cleft of Shadow direct you to seek news of Dogran. A succubus binding ritual needs relics touched by deep mortal emotions, including love, devotion, and suffering."
   },
   {
    "q": "Where is Gazrog located?",
@@ -96,7 +96,7 @@
     "next quest",
     "succubus chain continuation"
    ],
-   "answer": "Continue your inquiries in the Barrens to learn Dogran's fate and carry the news onward."
+   "answer": "Continue your inquiries in the Barrens to learn Dogran’s fate and carry the news onward."
   }
  ],
  "angles": [
@@ -110,7 +110,7 @@
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, you see in Zankaja's grief the personal cost of the Horde's expansion and defense across Durotar and the Barrens."
+   "text": "As an orc, you see in Zankaja’s grief the personal cost of the Horde’s expansion and defense across Durotar and the Barrens."
   }
  ],
  "keywords": [
@@ -137,5 +137,5 @@
  "attribution": [
   "News of Dogran"
  ],
- "style": 1
+ "style": 2
 }

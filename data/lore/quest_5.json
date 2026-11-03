@@ -21,11 +21,11 @@
    "Return to Jitters"
   ]
  },
- "summary": "In Raven Hill, Jitters is starving and afraid, with only weeds and insects to eat. He asks you to go east to Darkshire and seek a hot batch of Chef Grual’s famous Dusky Crab Cakes.",
+ "summary": "In Raven Hill, Jitters is starving and afraid, with only weeds and insects to eat. He asks you to travel east to Darkshire for Chef Grual’s famous Dusky Crab Cakes.",
  "sections": [
   {
    "title": "Starving in Raven Hill",
-   "body": "Raven Hill’s ruined streets shelter ravenous undead and lurking beasts. Jitters has hidden there for weeks, moving through its crumbling shanties under a sky that never seems to brighten. Grubs from the dirt and wild weeds are all he has found to eat. Hunger and fear wear him down, far from the comforts of ordinary life.",
+   "body": "Raven Hill shelters ravenous undead and lurking beasts among its ruined streets. Jitters has hidden there for weeks, moving through crumbling shanties beneath a sky that never seems to brighten. He has found only grubs in the dirt and wild weeds to eat. Hunger and fear wear him down, far from ordinary comforts.",
    "spoiler": 0
   },
   {
@@ -121,5 +121,5 @@
  "attribution": [
   "Jitters' Growling Gut"
  ],
- "style": 1
+ "style": 2
 }

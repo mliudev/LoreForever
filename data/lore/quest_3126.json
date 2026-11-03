@@ -21,21 +21,21 @@
   ],
   "wiki": null
  },
- "summary": "Witch Doctor Uzer'i's next target is the wandering forest walkers, treants that slowly roam the forest. After the faerie dragons, you are sent to find three of them.",
+ "summary": "In Feralas, Witch Doctor Uzer'i turns your search to the wandering treants. After the faerie dragons, he sends you to find three forest walkers.",
  "sections": [
   {
    "title": "Slow Protectors",
-   "body": "Uzer'i says the night elves have recruited treants as allies in their fight against the Horde. They move slowly, but Uzer'i calls their role as protectors undeniable, and plans to turn that power to the Horde's own benefit.",
+   "body": "The night elves have made treants their allies against the Horde. Uzer'i says they move slowly, yet none can deny their strength as protectors. He means to put that strength to work for the Horde.",
    "spoiler": 0
   },
   {
    "title": "Three Forest Walkers",
-   "body": "Uzer'i wants three wandering forest walkers found and killed, then each fallen treant shrunk and captured with the Muisek Vessel.",
+   "body": "Uzer'i asks you to find and kill three wandering forest walkers. When each treant falls, use the Muisek Vessel to shrink and capture it.",
    "spoiler": 0
   },
   {
    "title": "Uzer'i's Verdict",
-   "body": "On your return Uzer'i thanks you and remarks that the collection of muisek is nearly complete.",
+   "body": "When you return, Witch Doctor Uzer'i thanks you. He says the collection of muisek is nearly complete.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "treant muisek quest giver",
     "uzeri treant quest"
    ],
-   "answer": "Witch Doctor Uzer'i, who asks for this right after the faerie dragons."
+   "answer": "Witch Doctor Uzer'i sends you after the treants, following the faerie dragons."
   },
   {
    "q": "Why does Witch Doctor Uzer'i want treant muisek?",
@@ -56,7 +56,7 @@
     "why treant muisek",
     "uzeri treant motive"
    ],
-   "answer": "Uzer'i says the night elves have recruited treants as allies in their fight against the Horde, and wants to use their protective power for the Horde's own benefit."
+   "answer": "The night elves have made treants their allies against the Horde. Uzer'i wants their protective power put to work for the Horde."
   },
   {
    "q": "What creatures must be found for Treant Muisek?",
@@ -65,7 +65,7 @@
     "wandering forest walkers",
     "treant muisek targets"
    ],
-   "answer": "Wandering forest walkers, which roam the forest. Three of them are needed."
+   "answer": "You need to find three wandering forest walkers roaming the forest."
   },
   {
    "q": "How are the treants captured?",
@@ -74,7 +74,7 @@
     "capturing forest walkers",
     "shrink treants"
    ],
-   "answer": "After a wandering forest walker falls, the Muisek Vessel is used to shrink it and capture it."
+   "answer": "When a wandering forest walker falls, use the Muisek Vessel to shrink and capture it."
   },
   {
    "q": "Where does Treant Muisek fit among Uzer'i's requests?",
@@ -83,7 +83,7 @@
     "what comes after faerie dragon muisek",
     "next quest after treant muisek"
    ],
-   "answer": "It follows Faerie Dragon Muisek, and Mountain Giant Muisek comes after it."
+   "answer": "Treant Muisek follows Faerie Dragon Muisek. Mountain Giant Muisek comes next."
   }
  ],
  "angles": [],
@@ -104,5 +104,6 @@
  ],
  "attribution": [
   "Classic quest text: Treant Muisek"
- ]
+ ],
+ "style": 2
 }

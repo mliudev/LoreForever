@@ -10,16 +10,16 @@
    "quest:2098"
   ]
  },
- "summary": "A giant foreststrider carries the Top of Gelkak's Key into the woods near Darkshore. It is one of three broken pieces of a mechanical key belonging to the shipwrecked gnome Gelkak Gyromast.",
+ "summary": "A giant foreststrider bears the Top of Gelkak's Key into the woods near Darkshore. The piece broke from a mechanical key that belongs to the shipwrecked gnome Gelkak Gyromast.",
  "sections": [
   {
    "title": "A Shattered Mechanism",
-   "body": "Threshadons attacked Gelkak Gyromast's ship off Darkshore and sent it beneath the waves. The gnome washed ashore with the winding key for his mechanical first mate. The impact against the coastal rocks broke it into three pieces. Before the dizzy pirate could gather his wits, beasts scavenged the wreckage. A giant foreststrider carried the ornate upper piece into the woods.",
+   "body": "Threshadons struck Gelkak Gyromast's ship off Darkshore and dragged it beneath the waves. Gelkak washed ashore with the winding key for his mechanical first mate. The coastal rocks broke the key into three pieces.\n\nBefore the dizzy pirate could gather his wits, beasts scavenged the wreckage. A giant foreststrider carried the ornate upper piece into the woods.",
    "spoiler": 0
   },
   {
    "title": "Restoring the First Mate",
-   "body": "Gelkak Gyromast needs the key to wind and activate his mechanical first mate, which he intends to use against the local wildlife. The middle and bottom pieces were taken by shore murlocs and reef crawlers. With all three fragments, Gyromast can put the key back together and bring his construct to life.",
+   "body": "Gelkak Gyromast needs the key to wind and activate his mechanical first mate. He means to use the construct against the local wildlife. Shore murlocs took the middle piece, and reef crawlers took the bottom one. With all three fragments, Gyromast can mend the key and bring his construct to life.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "middle and bottom of gelkak key",
     "gelkak key fragments"
    ],
-   "answer": "Greymist murlocs near the shipwreck took the middle section, while crabs scouring the tideline carried off the bottom section."
+   "answer": "Greymist murlocs near the shipwreck took the middle section. Crabs scouring the tideline carried off the bottom section."
   },
   {
    "q": "Who is Gelkak Gyromast?",
@@ -63,7 +63,7 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The key winds and activates a clockwork automaton, showing the ingenious, sturdy craftsmanship of gnome tinkers."
+   "text": "The key winds and activates a clockwork automaton. Its sturdy design shows the ingenuity of gnome tinkers."
   },
   {
    "target": "race:Gnome",
@@ -94,5 +94,5 @@
   "Top of Gelkak's Key",
   "Gyromast's Retrieval"
  ],
- "style": 1
+ "style": 2
 }

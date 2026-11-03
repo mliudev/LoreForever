@@ -11,16 +11,16 @@
    "quest:78"
   ]
  },
- "summary": "In eastern Elwynn, an old page points toward Stalvan Mistmantle's grim history.",
+ "summary": "In eastern Elwynn, an old page lies unread in Marshal Haggard's home, tied to Stalvan Mistmantle's grim history.",
  "sections": [
   {
    "title": "Parchment in the Chest",
-   "body": "The Faded Journal Page lay for years in an old trunk at Marshal Haggard's home near Elwynn Forest's eastern border. Haggard had retired there, but his failing eyesight kept him from reading the weathered parchment. The page stayed neglected until investigators seeking the truth about Stalvan Mistmantle retrieved it.",
+   "body": "For years, the Faded Journal Page lay in an old trunk at Marshal Haggard's home near Elwynn Forest's eastern border. Haggard had retired there, but failing eyesight kept him from reading the weathered parchment. The page remained neglected until investigators seeking the truth about Stalvan Mistmantle retrieved it.",
    "spoiler": 0
   },
   {
    "title": "The Trail to Darkshire",
-   "body": "Marshal Haggard could not read the brittle writing, but he sent investigators across the river to the Scarlet Raven Tavern in Duskwood. Tavernkeep Smitts, the barkeep, recognized the handwriting as soon as he examined the page, tying it to the grim saga that haunts the region.",
+   "body": "Unable to read the brittle writing, Marshal Haggard sent investigators across the river to the Scarlet Raven Tavern in Duskwood. Tavernkeep Smitts examined the page and recognized the handwriting. It tied the page to the grim saga that haunts the region.",
    "spoiler": 1
   }
  ],
@@ -40,7 +40,7 @@
     "why didn't haggard read it",
     "marshal haggard blindness"
    ],
-   "answer": "Marshal Haggard's eyesight has grown so poor with age that he can no longer make out the faded writing."
+   "answer": "Age has so weakened Marshal Haggard's eyesight that he can no longer make out the faded writing."
   },
   {
    "q": "Who recognizes the handwriting on the journal page?",
@@ -48,7 +48,7 @@
     "who knows the handwriting",
     "who reads the page"
    ],
-   "answer": "Tavernkeep Smitts, the barkeep at the Scarlet Raven Tavern in Darkshire, recognizes the handwriting when he sees the page."
+   "answer": "Tavernkeep Smitts, the barkeep at the Scarlet Raven Tavern in Darkshire, recognizes the handwriting when he examines the page."
   },
   {
    "q": "What protects the chest containing the page?",
@@ -62,7 +62,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, this forgotten record can help solve a mystery that has troubled townsfolk on both sides of the river between Elwynn and Duskwood."
+   "text": "As an Alliance traveler, you can use this forgotten record to help solve a mystery troubling townsfolk on both sides of the river between Elwynn and Duskwood."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
   "The Legend of Stalvan (8)",
   "The Legend of Stalvan (9)"
  ],
- "style": 1
+ "style": 2
 }

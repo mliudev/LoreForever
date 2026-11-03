@@ -17,16 +17,16 @@
   "wiki": "Shredding Machines",
   "chain": []
  },
- "summary": "In Windshear Crag, the Venture Company’s shredders wound Stonetalon’s spirits. Seereth Stonebreak hears their cries as XT:4 and XT:9 tear through the forest.",
+ "summary": "In Windshear Crag, Venture Company shredders wound the spirits of Stonetalon. Seereth Stonebreak hears their cries as XT:4 and XT:9 cut through the forest.",
  "sections": [
   {
    "title": "A Vision of Deforestation",
-   "body": "Orc shaman Seereth Stonebreak is stationed along the dusty border between the Barrens and the Stonetalon Mountains. She listens to the unseen realm, though chaos drowns out much of Stonetalon’s spiritual voice. One vision came through with harrowing clarity: man-shaped contraptions tearing through ancient woods with unnatural haste. Marked XT:4 and XT:9, the goblin-engineered shredders butcher Windshear Crag’s timberlands and send waves of distress through the surrounding nature spirits.",
+   "body": "Orc shaman Seereth Stonebreak keeps watch along the dusty border between the Barrens and the Stonetalon Mountains. She listens to the unseen realm, but chaos drowns much of Stonetalon’s spiritual voice. One vision came through clear: man-shaped contraptions tearing through ancient woods at unnatural speed. Marked XT:4 and XT:9, the goblin-engineered shredders cut Windshear Crag’s timberlands and send waves of distress through the surrounding nature spirits.",
    "spoiler": 0
   },
   {
    "title": "Silencing the Saws",
-   "body": "The Venture Company operates in Windshear Crag, northwest of Greatwood Vale. To stem the devastation, Horde champions venture there and track down the logging constructs. Wrecking XT:4 and XT:9 deals a sharp blow to the mountains’ commercial deforestation and calms the immediate cries of wounded tree spirits. Seereth warns that unless the Venture Company abandons Stonetalon entirely, far darker atrocities await the land.",
+   "body": "The Venture Company works in Windshear Crag, northwest of Greatwood Vale. To curb the damage, Horde champions go there and hunt down the logging constructs. Wrecking XT:4 and XT:9 strikes at the mountains’ commercial deforestation and quiets the wounded tree spirits’ immediate cries. Seereth warns that unless the Venture Company leaves Stonetalon entirely, far darker atrocities await the land.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "quest giver seereth",
     "seereth stonebreak lore"
    ],
-   "answer": "Seereth Stonebreak is an orc shaman posted along the southern border between the Barrens and the Stonetalon Mountains. Attuned to the land’s elemental and spiritual forces, she acts as a conduit for forest spirits anguished by the Venture Company’s rapid expansion."
+   "answer": "Seereth Stonebreak is an orc shaman posted along the southern border between the Barrens and the Stonetalon Mountains. Attuned to the land’s elemental and spiritual forces, she carries the cries of forest spirits anguished by the Venture Company’s rapid expansion."
   },
   {
    "q": "What are XT:4 and XT:9?",
@@ -56,7 +56,7 @@
     "where do i find the shredders",
     "where are the machines"
    ],
-   "answer": "Windshear Crag lies in the northern reaches of the Stonetalon Mountains, northwest of Greatwood Vale. The Venture Company has transformed it into a massive industrial logging basin."
+   "answer": "Windshear Crag lies in the northern reaches of the Stonetalon Mountains, northwest of Greatwood Vale. The Venture Company has turned it into a vast industrial logging basin."
   },
   {
    "q": "Why does a shaman care about trees and druidic magic?",
@@ -65,7 +65,7 @@
     "shaman druid connection",
     "nature spirits shaman"
    ],
-   "answer": "As Seereth explains, shamanistic communion with spirits shares close ties with druidic nature magic. Trauma inflicted on living forests echoes into the spiritual realm, letting perceptive shaman hear slaughtered tree spirits’ wails alongside elemental unrest."
+   "answer": "Seereth explains that shamanistic communion with spirits shares close ties with druidic nature magic. Harm to living forests echoes through the spirit realm, where perceptive shamans hear slaughtered tree spirits alongside elemental unrest."
   },
   {
    "q": "Who owns and operates these shredders?",
@@ -74,7 +74,7 @@
     "who runs the shredders",
     "venture company shredders"
    ],
-   "answer": "The shredders belong to the Venture Company, an unscrupulous, goblin-run commercial conglomerate infamous across Azeroth for ruthlessly stripping valuable natural resources without regard for local ecosystems or ancestral inhabitants."
+   "answer": "The Venture Company owns the shredders. This goblin-run commercial conglomerate is infamous across Azeroth for stripping valuable natural resources without regard for local ecosystems or ancestral inhabitants."
   },
   {
    "q": "Does destroying XT:4 and XT:9 drive the Venture Company away?",
@@ -83,13 +83,13 @@
     "after shredding machines",
     "quest outcome"
    ],
-   "answer": "No. Destroying these machines calms the weeping tree spirits and sets back local logging, but the Venture Company keeps an extensive industrial foothold across Windshear Crag. Defenders of the wild must continue resisting its presence."
+   "answer": "No. Destroying these machines quiets the weeping tree spirits and sets back local logging, but the Venture Company keeps an extensive industrial foothold across Windshear Crag. Defenders of the wild must keep resisting its presence."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Seereth points to the close ties between spiritual magic and nature. Elemental balance depends on defending the spirits that inhabit the land."
+   "text": "Seereth points to the close ties between spiritual magic and nature. Elemental balance depends on defending the spirits that dwell in the land."
   },
   {
    "target": "race:Tauren",
@@ -101,7 +101,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As the Horde establishes footholds across Kalimdor, checking the Venture Company’s unregulated greed matters for preserving the land and keeping transit through Stonetalon safe."
+   "text": "As the Horde establishes footholds across Kalimdor, checking the Venture Company’s unregulated greed helps preserve the land and keep travel through Stonetalon safe."
   }
  ],
  "keywords": [
@@ -128,5 +128,5 @@
  "attribution": [
   "Shredding Machines"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,26 +7,26 @@
  "meta": {
   "wiki": "Quilboar"
  },
- "summary": "Quilboar are aggressive, boar-like humanoids native to central Kalimdor, renowned for their sharp spinal quills and relentless territorial savagery. Claiming descent from the fallen demigod Agamaggan, they dwell within dense mazes of razor-sharp brambles across Durotar, Mulgore, and the Barrens. Their fierce struggle over water, soil, and sacred ground makes them a constant threat to travelers and Horde settlements.",
+ "summary": "Across central Kalimdor, Quilboar defend their lands with sharp quills and fierce resolve. They claim descent from Agamaggan and dwell in thorn mazes across Durotar, Mulgore, and the Barrens. Their struggles over water, soil, and sacred ground threaten travelers and Horde settlements.",
  "sections": [
   {
    "title": "Children of the Great Boar",
-   "body": "Quilboar revere Agamaggan, the colossal boar Ancient who perished battling the Burning Legion during the War of the Ancients ten thousand years ago. According to their sacred traditions, the quilboar are his mortal offspring. Where Agamaggan bled and died across central Kalimdor, enormous thorny vines erupted from the scorched earth, forming sprawling root-mazes that the quilboar treat as holy ground. His crystallized blood endures across the Barrens as crimson Blood Shards, which their geomancers dig up and revere as powerful talismans.",
+   "body": "Quilboar honor Agamaggan, the colossal boar Ancient who died fighting the Burning Legion during the War of the Ancients ten thousand years ago. Their sacred traditions call them his mortal offspring.\n\nWhere Agamaggan bled and died across central Kalimdor, enormous thorny vines burst from scorched earth and formed sprawling root mazes. Quilboar hold these places sacred. Across the Barrens, his crystallized blood remains as crimson Blood Shards. Quilboar geomancers dig them up and honor them as powerful talismans.",
    "spoiler": 0
   },
   {
    "title": "Bramble Harrows and Geomancy",
-   "body": "Rather than building traditional towns of stone or timber, quilboar cultivate colossal briars that choke surrounding vegetation and render nearby ground barren. Tribes are typically guided by powerful geomancers—practitioners of an earthbound, crude shamanism who consult stones and crystals to direct the clan. These mystics call upon Agamaggan's spirit to summon spectral boars into combat. Because the arid central plains offer few oases, quilboar view water as the ultimate treasure; they stage lavish feasts when rare rains fall and defend water holes with vicious tenacity.",
+   "body": "Quilboar build no towns of stone or timber. Instead, they grow colossal briars that choke nearby plants and leave the ground barren. Each tribe is usually guided by powerful geomancers. These practitioners follow a crude, earthbound shamanism, consulting stones and crystals to guide their clan. They call on Agamaggan's spirit to send spectral boars into battle.\n\nThe arid central plains have few oases, so quilboar prize water above all. When rare rains come, they hold lavish feasts. They defend their water holes fiercely.",
    "spoiler": 0
   },
   {
    "title": "The War for the Barrens",
-   "body": "For generations, quilboar clashed bitterly with the nomadic tauren and roaming centaur packs. When Thrall led the Orcish Horde into Kalimdor, orcs rapidly colonized Durotar and established trade routes through the Barrens, driving displaced tribes into open revolt. Quilboar war parties ambush supply wagons, are suspected of frightening tallstriders into wagon trains, and stage raids on outposts like Crossroads and Camp Taurajo. Two principal tribes dominate the open plains: the Razormane and the Bristleback, both engaged in simultaneous feuds against the Horde and each other.",
+   "body": "For generations, quilboar have clashed with nomadic tauren and roaming centaur packs. When Thrall led the Orcish Horde into Kalimdor, orcs quickly settled Durotar and opened trade routes through the Barrens. Displaced quilboar tribes rose in revolt.\n\nTheir war parties ambush supply wagons, are suspected of driving tallstriders into wagon trains, and raid outposts such as Crossroads and Camp Taurajo. Two tribes dominate the open plains: the Razormane and the Bristleback. Both fight the Horde and each other.",
    "spoiler": 0
   },
   {
    "title": "The Shadow over Razorfen",
-   "body": "The spiritual heart of quilboar civilization lies at the southern edge of the Barrens within Razorfen Kraul and the adjacent Razorfen Downs, tangled mazes formed directly from Agamaggan's gargantuan remains. An ambitious crone named Charlga Razorflank seized dominion over the Kraul, orchestrating aggressive assaults against rival clans and Horde territories. Worse still, the traditional quilboar capital of Razorfen Downs has fallen under the sway of the Scourge. In league with the lich Amnennar the Coldbringer, corrupted Death's Head quilboar have succumbed to undeath, turning the ancestral tomb into a plague-ridden redoubt.",
+   "body": "Razorfen Kraul and nearby Razorfen Downs lie on the Barrens' southern edge, at the spiritual heart of quilboar civilization. Agamaggan's gargantuan remains formed these tangled mazes. An ambitious crone named Charlga Razorflank seized the Kraul and directed attacks on rival clans and Horde territories.\n\nRazorfen Downs, the traditional quilboar capital, has fallen to the Scourge. The corrupted Death's Head quilboar joined the lich Amnennar the Coldbringer and succumbed to undeath. Now the ancestral tomb is a plague-ridden stronghold.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "quilboar horde conflict",
     "why are quilboar hostile"
    ],
-   "answer": "Quilboar occupied the fertile oases and thorned ravines of Durotar and the Barrens long before the Horde arrived. When Thrall's people landed and claimed land to build Orgrimmar, they displaced native quilboar dens. Compounding this, the Horde allied with the tauren, whom the quilboar had fought for generations. Now, the tribes view every caravan, outpost, and water well as stolen ancestral ground."
+   "answer": "The Horde displaced quilboar when Thrall's people landed and claimed land for Orgrimmar. Quilboar had occupied Durotar and the Barrens' fertile oases and thorned ravines long before the Horde arrived. Now the tribes see every caravan, outpost, and water well as stolen ancestral ground."
   },
   {
    "q": "What is the relationship between quilboar and Agamaggan?",
@@ -47,7 +47,7 @@
     "who is agamaggan",
     "quilboar demigod"
    ],
-   "answer": "Agamaggan is a colossal boar demigod who fought the Burning Legion during the War of the Ancients ten thousand years ago. Quilboar claim to be his mortal descendants. The massive briars they inhabit sprouted where his blood soaked the earth, and the sacred tunnels of Razorfen Downs are said to be carved from his very remains."
+   "answer": "Agamaggan is a colossal boar Ancient who fought the Burning Legion during the War of the Ancients ten thousand years ago. Quilboar claim descent from him. The great briars they inhabit sprang up where his blood soaked the earth, and the sacred tunnels of Razorfen Downs are said to be carved from his remains."
   },
   {
    "q": "What are the red stones quilboar carry?",
@@ -56,7 +56,7 @@
     "red rocks quilboar",
     "blood of agamaggan"
    ],
-   "answer": "Those crimson crystals are Blood Shards, formed from the petrified blood of Agamaggan. Quilboar dig them up throughout the Barrens, believing they contain the vitality and strength of their fallen ancestor. Geomancers use these stones as catalysts in earth rituals and combat enchantments."
+   "answer": "The red crystals are Blood Shards, formed from Agamaggan's petrified blood. Quilboar dig them up across the Barrens, believing they hold the vitality and strength of their fallen ancestor. Geomancers use them to fuel earth rituals and battle enchantments."
   },
   {
    "q": "What kind of magic do quilboar use?",
@@ -65,7 +65,7 @@
     "quilboar geomancers",
     "what is geomancy"
    ],
-   "answer": "Quilboar practice geomancy, an elemental craft akin to crude shamanism focused on stone, earth, and thorns. They revere the reading of stones and gems above all other mystical arts. Tribal geomancers call upon earth spirits, summon brambles to entangle foes, and conjure boar spirits in Agamaggan's image."
+   "answer": "Quilboar practice geomancy, an elemental craft like crude shamanism, centered on stone, earth, and thorns. They prize the reading of stones and gems above other mystical arts. Tribal geomancers call on earth spirits, summon brambles to snare foes, and conjure boar spirits in Agamaggan's image."
   },
   {
    "q": "Why are quilboar so protective of water?",
@@ -74,7 +74,7 @@
     "why quilboar hoard water",
     "quilboar oases"
    ],
-   "answer": "The Barrens is an arid wasteland where natural springs and oases are exceedingly scarce. In quilboar culture, water represents survival, wealth, and spiritual blessing. They celebrate even the lightest desert rains with tribal feasts and fiercely guard springs against encroaching caravans and herds."
+   "answer": "The Barrens is arid, with very few natural springs and oases. Quilboar regard water as survival, wealth, and spiritual blessing. They feast even when light desert rains fall and fiercely guard springs from approaching caravans and herds."
   },
   {
    "q": "What is the difference between Razorfen Kraul and Razorfen Downs?",
@@ -83,25 +83,25 @@
     "razorfen dungeons",
     "where do quilboar live"
    ],
-   "answer": "Both are massive briar mazes sprouting from Agamaggan's carcass in southern Kalimdor. Razorfen Kraul serves as the stronghold of the crone Charlga Razorflank, who rallies living quilboar against all outsiders. Razorfen Downs was the race's ancestral capital, but it has fallen into the hands of the Scourge lich Amnennar the Coldbringer, who raises deceased quilboar as undead minions."
+   "answer": "Razorfen Kraul and Razorfen Downs are vast briar mazes in southern Kalimdor, grown from Agamaggan's carcass. Razorfen Kraul is the stronghold of the crone Charlga Razorflank, who rallies living quilboar against outsiders. Razorfen Downs was the quilboar ancestral capital. Now the Scourge lich Amnennar the Coldbringer rules there and raises dead quilboar as undead minions."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Your ancestors fought the quilboar for watering holes and grazing land long before the orcs sailed west. Their expansionist brambles choke the natural earth that the Earth Mother sustains."
+   "text": "As a tauren, your ancestors fought quilboar for watering holes and grazing land long before the orcs sailed west. Their spreading briars choke the natural earth sustained by the Earth Mother."
   },
   {
    "target": "race:Orc",
-   "text": "Securing Durotar and the Barrens requires breaking the quilboar war bands, whose raids continually harass Horde trade wagons and outlying farmsteads."
+   "text": "As an orc, securing Durotar and the Barrens means breaking quilboar war bands. Their raids keep harassing Horde trade wagons and outlying farmsteads."
   },
   {
    "target": "class:Shaman",
-   "text": "Quilboar geomancy represents an earthy, ancient offshoot of shamanic tradition, though twisted toward territorial brutality and the conjuration of savage boar spirits."
+   "text": "As a shaman, you can see quilboar geomancy as an earthy, ancient branch of shamanic tradition, turned toward territorial brutality and the summoning of savage boar spirits."
   },
   {
    "target": "faction:Horde",
-   "text": "Quilboar pose an immediate logistical hazard across central Kalimdor, ambushing vital caravans traveling between Orgrimmar, the Crossroads, and Thunder Bluff."
+   "text": "As a member of the Horde, you face quilboar ambushes along vital caravans between Orgrimmar, the Crossroads, and Thunder Bluff. Their presence threatens supply routes across central Kalimdor."
   }
  ],
  "keywords": [
@@ -129,5 +129,6 @@
  ],
  "attribution": [
   "Quilboar"
- ]
+ ],
+ "style": 2
 }

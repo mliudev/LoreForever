@@ -17,21 +17,21 @@
   "wiki": "The Tower of Althalaxx (4)",
   "chain": []
  },
- "summary": "Reports from the Tower of Althalaxx lead south into Ashenvale, where the Cult of the Dark Strand also threatens the woods. Delgren the Purifier at Maestra's Post sends you to the ruins of Ordil'Aran to recover a Glowing Soul Gem.",
+ "summary": "At Maestra's Post, Delgren the Purifier sends you south to stop the Cult of the Dark Strand. Its threat reaches from the Tower of Althalaxx into Ashenvale, and you are to recover a Glowing Soul Gem from the ruins of Ordil'Aran.",
  "sections": [
   {
    "title": "A Plea Across the Border",
-   "body": "After the trouble around the Tower of Althalaxx in northern Darkshore, reports lead south to Delgren the Purifier at Maestra's Post. The Cult of the Dark Strand is pressing into the ancient elven woods, and Delgren has fought them for a long time. Their reach crosses both territories, so he seeks to strike at the source of their sorcery.",
+   "body": "Reports from the Tower of Althalaxx in northern Darkshore have led you south to Delgren the Purifier at Maestra's Post. He has fought the Cult of the Dark Strand for a long time, but the cult now presses into Ashenvale's ancient elven woods. Its reach crosses both territories, so Delgren seeks to strike at the source of its sorcery.",
    "spoiler": 0
   },
   {
    "title": "The Secrets of Ordil'Aran",
-   "body": "The ruins of Ordil'Aran lie northeast of Maestra's Post, overrun by Dark Strand cultists. Delgren says their operatives carry glowing soul gems, vessels enchanted with magic that sustains the cult's power. Hunt the cultists among the ruins and recover one of the gems so Delgren can break its enchantment and uncover the source of their rite.",
+   "body": "Northeast of Maestra's Post, the ruins of Ordil'Aran are overrun by Dark Strand cultists. Delgren says their operatives carry glowing soul gems, vessels enchanted with magic that sustains the cult's power. Hunt among the ruins and recover a gem. Delgren can break its enchantment and uncover the source of the cult's rite.",
    "spoiler": 0
   },
   {
    "title": "A Spirit Trapped",
-   "body": "Delgren finds a tormented spirit bound inside the Glowing Soul Gem. When its wards break, Sargath appears, one of the elves of Ameth'Aran whom Athrikus Narassin trapped in soul gems during the Sundering and has slowly drained ever since. Sargath names Athrikus's lieutenant, Ilkrud Magthrull, whose tome may reveal where the remaining soul gems are held.",
+   "body": "A tormented spirit is bound inside the Glowing Soul Gem. When its wards break, Sargath appears. He is one of the elves of Ameth'Aran whom Athrikus Narassin trapped in soul gems during the Sundering and has slowly drained ever since. Sargath names Athrikus's lieutenant, Ilkrud Magthrull. His tome may reveal where the remaining soul gems are held.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "where does soul gem drop",
     "dark strand soul gem"
    ],
-   "answer": "Cult of the Dark Strand members in the ruins of Ordil'Aran northeast of Maestra's Post carry Glowing Soul Gems. The ruins are in Ashenvale, and you may need to search several cultists to recover one."
+   "answer": "Cult of the Dark Strand members in the ruins of Ordil'Aran northeast of Maestra's Post carry Glowing Soul Gems. The ruins lie in Ashenvale, and you may need to search several cultists to recover one."
   },
   {
    "q": "Who is Delgren the Purifier?",
@@ -67,7 +67,7 @@
     "why maestra's post",
     "why go to ashenvale"
    ],
-   "answer": "The Cult of the Dark Strand's reach crosses from the Tower of Althalaxx in Darkshore into Ashenvale. Delgren the Purifier at Maestra's Post knows how to oppose the cult's soul-binding magic."
+   "answer": "The Cult of the Dark Strand reaches from the Tower of Althalaxx in Darkshore into Ashenvale. Delgren the Purifier at Maestra's Post knows how to oppose the cult's soul-binding magic."
   },
   {
    "q": "What happens when the soul gem is deciphered?",
@@ -89,11 +89,11 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, purging unholy corruption from the world includes destroying dark soul vessels and fighting the cultists who twist them."
+   "text": "As a paladin, you purge unholy corruption by destroying dark soul vessels and fighting the cultists who twist them."
   },
   {
    "target": "class:Priest",
-   "text": "As a priest, examining a dark soul vessel reflects your calling to oppose corruption and comfort tormented souls."
+   "text": "As a priest, you examine a dark soul vessel to oppose corruption and comfort tormented souls."
   },
   {
    "target": "race:NightElf",
@@ -123,5 +123,5 @@
  "attribution": [
   "The Tower of Althalaxx (4)"
  ],
- "style": 1
+ "style": 2
 }

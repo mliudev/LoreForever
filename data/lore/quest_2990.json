@@ -29,16 +29,16 @@
   ],
   "category": "Hinterlands"
  },
- "summary": "Gryphon Master Talonaxe hands you a feather taken from the gryphon child Sharpbeak's nest. You are to carry it to the diviner Thadius Grimshade, who dwells in Nethergarde Keep's mage tower in the Blasted Lands.",
+ "summary": "At Nethergarde Keep, Talonaxe sends you to Thadius Grimshade with a feather from Sharpbeak's nest.",
  "sections": [
   {
    "title": "A Plea to a Diviner",
-   "body": "Years ago Thadius Grimshade quit Aerie Peak to chase darker knowledge, yet Talonaxe says he remains a Wildhammer at heart. With luck, divining magic and the feather from Sharpbeak's nest will let Thadius find the gryphon child. Talonaxe says Thadius is to be found in the mage tower at Nethergarde Keep, in the Blasted Lands.",
+   "body": "Years ago, Thadius Grimshade left Aerie Peak to seek darker knowledge. Yet Talonaxe says he remains a Wildhammer at heart. He hopes Thadius can use divining magic and Sharpbeak's feather to find the gryphon child. Thadius lives in the mage tower at Nethergarde Keep, in the Blasted Lands.",
    "spoiler": 0
   },
   {
    "title": "The Diviner's Welcome",
-   "body": "Thadius greets you as someone bearing a gift. He knows the feather at once as belonging to a fine gryphon, one meant for great things if he lives to grow up unharmed. He then tells you to listen closely.",
+   "body": "Thadius Grimshade welcomes you as someone bearing a gift. He recognizes the feather as belonging to a fine gryphon, one meant for great things if he grows up unharmed. Then Thadius asks you to listen closely.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "thadius grimshade lore",
     "who is thadius"
    ],
-   "answer": "Thadius Grimshade is a diviner. He quit Aerie Peak years ago to chase darker knowledge, though Talonaxe says he remains a Wildhammer at heart."
+   "answer": "Thadius Grimshade left Aerie Peak years ago to seek darker knowledge. Talonaxe says he remains a Wildhammer at heart."
   },
   {
    "q": "Why do you need Sharpbeak's feather?",
@@ -57,7 +57,7 @@
     "why sharpbeak feather",
     "feather purpose"
    ],
-   "answer": "The feather was gathered at the nest where Sharpbeak sleeps. Talonaxe hopes Thadius can use his divining magics on it to find the young gryphon."
+   "answer": "Sharpbeak's feather came from the nest where he sleeps. Talonaxe hopes Thadius can use divining magic on it to find the young gryphon."
   },
   {
    "q": "Where is Thadius Grimshade located?",
@@ -65,7 +65,7 @@
     "thadius grimshade location",
     "where is thadius"
    ],
-   "answer": "Thadius Grimshade dwells in the Blasted Lands, in Nethergarde Keep's mage tower."
+   "answer": "Thadius Grimshade lives in the mage tower at Nethergarde Keep, in the Blasted Lands."
   }
  ],
  "angles": [],
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "Thadius Grimshade (quest)"
- ]
+ ],
+ "style": 2
 }

@@ -8,16 +8,16 @@
   "wiki": "Theldurin the Lost",
   "refs": 2
  },
- "summary": "Theldurin the Lost is a reclusive, half-mad dwarf wandering the scorched expanses of the Badlands. Formerly aligned with the insidious Twilight's Hammer cult, he fled their ranks with stolen sacred relics after realizing the horror of their designs.",
+ "summary": "Theldurin the Lost wanders the Badlands alone, wary and half-mad. He fled the Twilight's Hammer with sacred relics after learning what the cult intended.",
  "sections": [
   {
    "title": "A Mind Fractured by Darkness",
-   "body": "Perched in the barren hills of the Badlands, clutching bags of explosives in wild paranoia, Theldurin is far more than a simple mad hermit. He was once an initiate of the Twilight's Hammer cult. When the sinister cabal sought to awaken a primordial elemental power trapped beneath the earth, Theldurin recoiled in terror, rejected their mad teachings, and fled into the desert. He carried with him the Scroll of Myzrael, desperate to prevent his former masters from unleashing an ancient horror upon the world. Though the escape cost him his sanity, his defiance dealt a serious blow to the cult's plans.",
+   "body": "Theldurin wanders the barren hills of the Badlands with bags of explosives, gripped by wild paranoia. He once belonged to the Twilight's Hammer. When the cult sought to awaken a primordial elemental power trapped beneath the earth, he recoiled in terror.\n\nHe rejected its teachings and fled into the desert. He carried the Scroll of Myzrael, hoping to keep his former masters from unleashing an ancient horror upon the world. His escape cost him his sanity, but his defiance dealt a serious blow to the cult's plans.",
    "spoiler": 0
   },
   {
    "title": "A Desperate Countermeasure",
-   "body": "Survival in the wastes proved bitter. Enraged earth elementals ambushed Theldurin and tore his stolen scroll to pieces, scattering the fragments across the dust. Now besieged by paranoia and haunted by visions of an impending doom slumbering beneath the surface, the crazed dwarf seeks ancient texts\u2014the Tablet of Ryun'eh and Yagyin's Digest\u2014hoping to uncover long-buried lore. Rather than allow the cult to free the elemental princess Myzrael at the height of her fury, Theldurin plots to force her premature summoning so she can be defeated and bound once again.",
+   "body": "Enraged earth elementals ambushed Theldurin in the wastes and tore apart his stolen scroll, scattering the fragments across the dust. Paranoia besieges him, and visions haunt him of doom sleeping beneath the surface. The crazed dwarf seeks ancient texts, the Tablet of Ryun'eh and Yagyin's Digest, to uncover long-buried lore. He plans to force Myzrael's premature summoning so she can be defeated and bound again.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "theldurin lore",
     "mad dwarf badlands"
    ],
-   "answer": "Theldurin is a mad dwarven hermit hiding in the Badlands. He is a former member of the Twilight's Hammer cult who stole their ritual secrets and fled into the wilderness to stop them from unleashing a dangerous power."
+   "answer": "Theldurin is a half-mad dwarven hermit wandering the Badlands. Once a member of the Twilight's Hammer, he stole the Scroll of Myzrael and fled into the wilderness to stop the cult from unleashing a dangerous power."
   },
   {
    "q": "Why is Theldurin hiding in the Badlands?",
@@ -38,7 +38,7 @@
     "why does theldurin hide",
     "theldurin badlands"
    ],
-   "answer": "He is on the run from the Twilight's Hammer. After stealing the Scroll of Myzrael from the cult, he took refuge in the remote, sun-baked canyons of the Badlands to stay ahead of the cultists hunting him down."
+   "answer": "Theldurin fled to the Badlands after stealing the Scroll of Myzrael from the Twilight's Hammer. He hides in its remote, sun-baked canyons, away from the cultists hunting him."
   },
   {
    "q": "What is the Scroll of Myzrael?",
@@ -46,7 +46,7 @@
     "scroll of myzrael",
     "what scroll did theldurin steal"
    ],
-   "answer": "It is an arcane parchment holding the ritual knowledge required to release Myzrael, an ancient, corrupted elemental entity trapped deep beneath Arathi. Theldurin stole it so the Twilight's Hammer could not complete their summoning, though local elementals later shredded the document into pieces."
+   "answer": "The Scroll of Myzrael is an arcane parchment holding the ritual knowledge needed to release Myzrael, an ancient, corrupted elemental entity trapped deep beneath Arathi. Theldurin stole it to keep the Twilight's Hammer from completing the summoning, but local elementals later shredded it into pieces."
   },
   {
    "q": "What does Theldurin want to do with Myzrael?",
@@ -55,17 +55,17 @@
     "why summon myzrael",
     "summoning the princess"
    ],
-   "answer": "Knowing the bindings on the creature are weakening, Theldurin seeks to summon Myzrael prematurely before she gathers her full strength. By forcing her forth weakened, adventurers can banish and re-seal her beneath the crust before the Twilight's Hammer can master her power."
+   "answer": "The bindings on Myzrael are weakening, and Theldurin wants to summon her before she gathers her full strength. He hopes she can then be banished and sealed beneath the crust again before the Twilight's Hammer can master her power."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Seeing a fellow son of Ironforge reduced to raving paranoia in a wasteland is tragic, but his refusal to bow to dark cults reveals enduring dwarven stubbornness."
+   "text": "Seeing a fellow son of Ironforge reduced to raving paranoia in a wasteland is tragic. Yet Theldurin's refusal to bow to dark cults shows the stubbornness dwarves are known for."
   },
   {
    "target": "profession:Engineering",
-   "text": "Theldurin threatens approaching strangers with a pack brimming with blastpowder, exhibiting an unpredictable reliance on volatile explosives."
+   "text": "Theldurin threatens approaching strangers with a pack brimming with blastpowder, relying on volatile explosives in an unpredictable way."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Theldurin the Lost"
- ]
+ ],
+ "style": 2
 }

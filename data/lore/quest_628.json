@@ -18,16 +18,16 @@
   "wiki": null,
   "next": ""
  },
- "summary": "In Booty Bay, Drizzlik has finished the inner part of the Excelsior boots and now needs the skin of an elder saltwater crocolisk for the outside.",
+ "summary": "In Booty Bay, Drizzlik is ready for the last piece of the Excelsior boots. He needs an elder saltwater crocolisk skin for their outer layer.",
  "sections": [
   {
    "title": "The Outer Layer",
-   "body": "With the inside done, only the outer layer remains, and for it Drizzlik uses nothing but the finest elder crocolisk skins, which are tougher and make a better surface for the designs and accents of the Excelsior line. The only skin that fits Drizzlik's plan is that of an elder saltwater crocolisk, and finding one is hard, for such elders come out only to guard other saltwater crocolisks. Drizzlik has also read somewhere that the numbers of saltwater crocolisks are dwindling, which would hurt business.",
+   "body": "Drizzlik has finished the boots’ inner layer. For the outside, he uses the finest elder crocolisk skins. They are tougher and give the Excelsior designs and accents a better surface. Only an elder saltwater crocolisk skin fits his plan.\n\nFinding one is difficult. Elders come out only to guard other saltwater crocolisks. Drizzlik has also read that saltwater crocolisk numbers are dwindling, which worries him for his business.",
    "spoiler": 0
   },
   {
    "title": "Drizzlik's Thanks",
-   "body": "Drizzlik is pleased: the order can be filled and shipped to Director Riddlevox aboard the next boat bound for Undermine, and early at that. Drizzlik also made extras and gives you a pair for your trouble, insisting no boot is as fine as the Excelsior line.",
+   "body": "Drizzlik can fill the order and send it early to Director Riddlevox aboard the next boat bound for Undermine. He has made extras and gives you a pair for your trouble. No boot, he insists, is as fine as the Excelsior line.",
    "spoiler": 1
   }
  ],
@@ -39,7 +39,7 @@
     "booty bay bootmaker",
     "drizzlik npc"
    ],
-   "answer": "Drizzlik is the maker of the Excelsior line of boots, working in Booty Bay."
+   "answer": "Drizzlik makes the Excelsior line of boots in Booty Bay."
   },
   {
    "q": "Why does Drizzlik need an elder saltwater crocolisk skin?",
@@ -48,7 +48,7 @@
     "excelsior boot materials",
     "elder crocolisk skin use"
    ],
-   "answer": "Drizzlik says elder skins are tougher and give a better surface for the Excelsior designs and accents, and that only the skin of an elder saltwater crocolisk fits the plan."
+   "answer": "Drizzlik says elder skins are tougher and give the Excelsior designs and accents a better surface. Only an elder saltwater crocolisk skin fits his plan."
   },
   {
    "q": "Why are elder saltwater crocolisks hard to find?",
@@ -57,7 +57,7 @@
     "find elder saltwater crocolisk",
     "how to summon elder croc"
    ],
-   "answer": "Drizzlik says elders come out only to defend other saltwater crocolisks."
+   "answer": "Elder saltwater crocolisks come out only to defend other saltwater crocolisks, Drizzlik says."
   },
   {
    "q": "What came before this request?",
@@ -75,7 +75,7 @@
     "saltwater croc population",
     "crocolisk extinction"
    ],
-   "answer": "Drizzlik has read that saltwater crocolisks are dwindling in number, which would be bad for business."
+   "answer": "Drizzlik has read that saltwater crocolisk numbers are dwindling, a concern for his business."
   }
  ],
  "angles": [],
@@ -95,5 +95,6 @@
  ],
  "attribution": [
   "Classic quest text: Excelsior"
- ]
+ ],
+ "style": 2
 }

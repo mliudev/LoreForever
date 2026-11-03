@@ -27,11 +27,11 @@
    "Big Game Hunter (Classic)"
   ]
  },
- "summary": "Hemet Nesingwary raises the stakes of his hunting expedition by sending you after a elusive breed known as Jungle Stalkers. Tracking down ten of these cunning raptors will prove your mettle as a true stalker of wild beasts in Stranglethorn Vale.",
+ "summary": "In Stranglethorn Vale, Hemet Nesingwary sends you after Jungle Stalkers. Ten wary raptors stand between you and his finest hunt.",
  "sections": [
   {
    "title": "A Cagey Quarry",
-   "body": "Having tested your aim against lesser raptors, Hemet Nesingwary presents a more demanding quarry. Jungle Stalkers are notably cagey and far more difficult to track and slay than the breeds hunted previously. Hemet expects you to venture out into the jungle, fell ten of these wary predators, and return to camp to earn a lead on his finest hunt yet.",
+   "body": "Hemet Nesingwary sends you after Jungle Stalkers, a harder quarry than the raptors you hunted before. They are wary and hard to track or kill. Find and fell ten in the jungle, then return to camp. Hemet will give you a lead on his finest hunt yet.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "who starts raptor mastery 3",
     "hemet nesingwary hunt"
    ],
-   "answer": "Hemet Nesingwary, the renowned big game hunter encamped in northern Stranglethorn Vale, issues this challenge."
+   "answer": "Hemet Nesingwary, the big game hunter, offers this hunt from his camp in northern Stranglethorn Vale."
   },
   {
    "q": "What beast are you asked to track down?",
@@ -52,7 +52,7 @@
     "target raptor",
     "which raptors to kill"
    ],
-   "answer": "You are tasked with finding and slaying ten Jungle Stalkers, a particularly cagey and elusive variety of raptor."
+   "answer": "You are asked to track and kill ten Jungle Stalkers, a wary and elusive kind of raptor."
   },
   {
    "q": "Where are Jungle Stalkers found?",
@@ -61,7 +61,7 @@
     "where do jungle stalkers roam",
     "find jungle stalkers"
    ],
-   "answer": "Jungle Stalkers roam Stranglethorn Vale, particularly in the regions situated north and west of the Gurubashi Arena."
+   "answer": "Jungle Stalkers roam Stranglethorn Vale, especially north and west of the Gurubashi Arena."
   },
   {
    "q": "What comes before this challenge?",
@@ -70,13 +70,13 @@
     "previous raptor mastery",
     "what quest comes before"
    ],
-   "answer": "This hunt directly follows the second stage of the Raptor Mastery trials, continuing Hemet Nesingwary's progression through the local raptor breeds."
+   "answer": "This hunt follows the second stage of the Raptor Mastery trials, as Hemet Nesingwary continues through the local raptor breeds."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Stalking wary prey like Jungle Stalkers serves as a prime showcase for tracking prowess and wilderness marksmanship under Hemet Nesingwary's watchful eye."
+   "text": "As a hunter, tracking wary Jungle Stalkers tests your skill with prey and your marksmanship in the wilderness under Hemet Nesingwary's watch."
   }
  ],
  "keywords": [
@@ -96,5 +96,6 @@
  ],
  "attribution": [
   "Raptor Mastery (3)"
- ]
+ ],
+ "style": 2
 }

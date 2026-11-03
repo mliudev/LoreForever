@@ -21,16 +21,16 @@
    "Chen's Empty Keg (3)"
   ]
  },
- "summary": "In Ratchet, Brewmaster Drohn hopes to revive Chen Stormstout's potent brew with wild ingredients from the Barrens.",
+ "summary": "In Ratchet, Brewmaster Drohn hopes to bring Chen Stormstout's potent brew back with wild Barrens ingredients.",
  "sections": [
   {
    "title": "A Legacy in a Keg",
-   "body": "A marked keg brings Chen Stormstout to mind for Brewmaster Drohn in Ratchet. Chen passed the secrets of his namesake brew to Drohn's mentor, who entrusted them to Drohn. The recipe calls for raw, potent elements taken straight from the Barrens' fierce wildlife, an unusual choice to those outside the brewing trade.",
+   "body": "A marked keg recalls Chen Stormstout to Brewmaster Drohn in Ratchet. Chen entrusted the secrets of his namesake brew to Drohn's mentor, who passed them on to Drohn. The recipe calls for raw, potent parts from the Barrens' fierce wildlife. To those outside the brewing trade, that is an unusual choice.",
    "spoiler": 0
   },
   {
    "title": "Harvesting the Savannah",
-   "body": "To revive Chen's potent draught, you gather plainstrider kidneys, savannah lion tusks, and a thunder lizard horn. The ingredients must come from resilient beasts, so the hunt leads across the dusty plains. When you bring them to Drohn, he fondly recalls earlier batches of trogg brew. Reviving the old formula warms his stomach almost as much as those past brews.",
+   "body": "To revive Chen's potent draught, you gather plainstrider kidneys, savannah lion tusks, and a thunder lizard horn. The ingredients must come from resilient beasts, so your hunt crosses the dusty plains.\n\nWhen you bring them to Drohn, he fondly recalls earlier batches of trogg brew. Reviving the old formula warms his stomach almost as much as those past brews.",
    "spoiler": 1
   }
  ],
@@ -60,7 +60,7 @@
     "where are thunder lizards",
     "finding brew ingredients"
    ],
-   "answer": "Plainstriders and savannah lions roam the Barrens' open grasslands. Thunder lizards graze in its more arid or rocky stretches."
+   "answer": "Plainstriders and savannah lions roam the Barrens' open grasslands. Thunder lizards graze in its drier or rockier stretches."
   },
   {
    "q": "Who was Chen Stormstout?",
@@ -93,11 +93,11 @@
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "For a cook, this is an unsettling meeting of frontier butchery and fine brewing in the making of legendary Kalimdor spirits."
+   "text": "For a cook, this brings frontier butchery and fine brewing together in the making of legendary Kalimdor spirits."
   },
   {
    "target": "faction:Horde",
-   "text": "Chen Stormstout fought alongside Rexxar to help establish Durotar, giving remnants of his journey special cultural meaning for the Horde."
+   "text": "Chen Stormstout fought alongside Rexxar to help establish Durotar. Remnants of his journey carry special cultural meaning for the Horde."
   },
   {
    "target": "race:Orc",
@@ -125,5 +125,5 @@
  "attribution": [
   "Chen's Empty Keg (2)"
  ],
- "style": 1
+ "style": 2
 }

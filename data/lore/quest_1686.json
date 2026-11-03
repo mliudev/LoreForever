@@ -17,16 +17,16 @@
   "wiki": "The Shade of Elura",
   "chain": []
  },
- "summary": "At Auberdine, Elura's shade guards a sunken ship and its Elunite ore. Elanaria sends young night elf warriors into the waters to lay the captain to rest and recover her medallion and ore for a weapon forged by Smith Mathiel.",
+ "summary": "Elanaria sends young night elf warriors beneath Auberdine's waves to lay Elura to rest. They seek her medallion and Elunite ore for a weapon Smith Mathiel will forge.",
  "sections": [
   {
    "title": "A Captain's Eternal Guard",
-   "body": "Long ago, a ship carrying rare Elunite ore struck jagged coastal rocks near the Auberdine lighthouse and sank. The captain, Elura, cursed her own soul in despair and out of unwavering duty. Bound to the wreck beneath the waves, her shade guards the lost cargo from anyone who would disturb it.",
+   "body": "Long ago, a ship laden with rare Elunite ore struck rocks near the Auberdine lighthouse and sank. Its captain, Elura, cursed her own soul in despair and from unwavering duty. Bound to the wreck beneath the waves, her shade guards the lost cargo from anyone who would disturb it.",
    "spoiler": 0
   },
   {
    "title": "Weapons of Elunite",
-   "body": "Elanaria sends young night elf warriors into Darkshore's surf to defeat Elura, recover her medallion, and salvage the ore. They need both the medallion and ore to put the captain to rest and bring the metal to Smith Mathiel's forge. The work tests their martial skill and respect for the fallen, and provides the ore for a crafted weapon.",
+   "body": "Elanaria sends young night elf warriors into Darkshore's surf to defeat Elura and recover her medallion and ore. Both are needed to put the captain to rest, and the metal goes to Smith Mathiel's forge. The trial tests their martial skill and respect for the fallen. It also provides ore for a crafted weapon.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is elura",
     "captain elura"
    ],
-   "answer": "Elura was captain of an elven ship that wrecked on the shallows near the Auberdine lighthouse. She cursed herself to guard the sunken cargo of Elunite ore."
+   "answer": "Elura commanded an elven ship that wrecked in the shallows near the Auberdine lighthouse. In despair and from duty, she cursed her soul to guard its sunken cargo of Elunite ore."
   },
   {
    "q": "Why does Elanaria send warriors after Elura?",
@@ -46,7 +46,7 @@
     "why do we kill elura",
     "elanaria quest purpose"
    ],
-   "answer": "Elanaria sends warriors to defeat Elura, recover her medallion and ore, and put her spirit to rest. The trial tests their prowess and provides the material for a weapon."
+   "answer": "Elanaria sends warriors to defeat Elura, recover her medallion and ore, and put her spirit to rest. The trial tests their prowess and provides metal for a weapon."
   },
   {
    "q": "Where did the wreck happen?",
@@ -54,7 +54,7 @@
     "where is the shipwreck",
     "elura ship location"
    ],
-   "answer": "The wreck lies underwater off Auberdine's coast in Darkshore, near the lighthouse and just south of the main harbor docks."
+   "answer": "The wreck lies underwater off Auberdine's coast in Darkshore. It is near the lighthouse and just south of the main harbor docks."
   },
   {
    "q": "What is Elunite ore used for?",
@@ -62,7 +62,7 @@
     "what is elunite",
     "elunite ore purpose"
    ],
-   "answer": "Night elven smiths use rare Elunite ore to forge weapons. The salvaged crates go to Smith Mathiel in Darnassus, who makes a personalized martial weapon for promising warriors."
+   "answer": "Night elven smiths forge weapons from rare Elunite ore. Smith Mathiel in Darnassus uses the salvaged crates to make a personalized martial weapon for promising warriors."
   },
   {
    "q": "Does defeating the shade harm Elura permanently?",
@@ -70,7 +70,7 @@
     "did elura die",
     "is elura saved"
    ],
-   "answer": "Defeating Elura breaks the curse binding her spirit to the sea floor. Elanaria says that besting the captain in combat brings her peace after her long vigil."
+   "answer": "Defeating Elura breaks the curse binding her spirit to the sea floor. Elanaria says besting the captain in combat brings peace after her long vigil."
   },
   {
    "q": "Who crafts the weapon once the ore is collected?",
@@ -84,15 +84,15 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a night elf warrior, you prove your aquatic grit and martial discipline in a trial that earns you a forged Elunite weapon."
+   "text": "As a night elf warrior, you prove your grit in the water and your martial discipline. The trial earns you a forged Elunite weapon."
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you honor a fellow kaldorei by laying Elura's shade to rest after her sense of duty bound her beneath the waves for generations."
+   "text": "As a night elf, you honor a fellow kaldorei by laying Elura's shade to rest. Duty bound her beneath the waves for generations."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "As a blacksmith, you see the night elves' metallurgical traditions in the potent armaments they craft from blessed Elunite materials."
+   "text": "As a blacksmith, you see the night elves' craft in the potent armaments they make from blessed Elunite materials."
   }
  ],
  "keywords": [
@@ -117,5 +117,5 @@
  "attribution": [
   "The Shade of Elura"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Plaguewood"
  },
- "summary": "Once a peaceful woodland known as Greenwood, the Plaguewood is now a blighted, fungus-choked expanse stretching south of Stratholme. Crawling with Scourge infrastructure and patrolling Scarlet Crusaders, it stands as one of the most corrupt corners of the Eastern Plaguelands.",
+ "summary": "Scarlet Crusaders patrol Plaguewood, where the Scourge gathers south of Stratholme. Greenwood has become a blighted forest choked with fungus.",
  "sections": [
   {
    "title": "From Greenwood to Decay",
-   "body": "Before the Third War, this region was Greenwood, a vibrant forest that mirrored the lush woods of Elwynn. A modest village sat near its entrance, and its roads were traveled by farmers and soldiers alike. All of that collapsed when tainted grain arrived from Andorhal. Today, spongy, corrupted soil has taken the place of rich earth, and titanic mushrooms dwarf the dead trees, constantly spewing noxious brown vapors across the woodland floor.",
+   "body": "Before the Third War, Greenwood was a forest much like Elwynn's lush woods. A modest village stood by its entrance, and farmers and soldiers traveled the roads. Then tainted grain came from Andorhal, and the woodland fell. Rich earth turned to spongy, corrupted soil. Huge mushrooms now dwarf the dead trees and spread noxious brown vapors over the forest floor.",
    "spoiler": 0
   },
   {
    "title": "A Bastion of the Dead",
-   "body": "Now completely claimed by the Scourge, the Plaguewood serves as a grim staging ground for the undead surrounding Stratholme. Ziggurats and slaughterhouses dot the decayed landscape, churning out abominations and cultists. To make matters worse for travelers, fanatic Scarlet Crusaders relentlessly patrol the road toward Stratholme's gates, eager to purge the Scourge and brutally slaughter any living wanderers they encounter.",
+   "body": "The Scourge has taken Plaguewood and made it a staging ground for the undead around Stratholme. Ziggurats and slaughterhouses dot the ruined land, producing abominations and cultists. Scarlet Crusaders patrol the road to Stratholme's gates, bent on purging the Scourge. They also slaughter any living travelers they meet.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "greenwood lore",
     "what was plaguewood"
    ],
-   "answer": "Prior to the Third War, the region was known as Greenwood. It was a thriving forest with a small village near its entrance, very similar in beauty and climate to Elwynn Forest."
+   "answer": "Before the Third War, the forest was called Greenwood. A small village stood near its entrance, and its woods resembled Elwynn Forest in beauty and climate."
   },
   {
    "q": "Why are there massive mushrooms growing everywhere?",
@@ -37,7 +37,7 @@
     "fungus plaguewood",
     "why mushrooms"
    ],
-   "answer": "The plague fundamentally warped the local ecology. The soil turned spongy, and monstrous fungi sprouted across the forest floor, belching noxious brown clouds that resemble the vapors of plague cauldrons."
+   "answer": "The plague warped the forest's soil and growth. Monstrous fungi now rise from the spongy ground and belch noxious brown clouds like those from plague cauldrons."
   },
   {
    "q": "Who controls the Plaguewood today?",
@@ -46,7 +46,7 @@
     "plaguewood enemies",
     "who lives in plaguewood"
    ],
-   "answer": "The forest is overwhelmingly held by the Scourge, complete with necromancers, ghouls, ziggurats, and slaughterhouses. In addition, patrols from the Scarlet Crusade regularly march along the main roads, attacking the undead and any living travelers on sight."
+   "answer": "The Scourge holds most of Plaguewood, with necromancers, ghouls, ziggurats, and slaughterhouses. Scarlet Crusader patrols march along the main roads, attacking undead and living travelers on sight."
   },
   {
    "q": "Where does the road through the woods lead?",
@@ -55,17 +55,17 @@
     "where does path go",
     "stratholme road"
    ],
-   "answer": "The main road cuts directly north into the gates of the fallen city of Stratholme, while the western expanses of the blighted woods stretch out toward the ruined village of Terrordale."
+   "answer": "The main road runs north to the gates of Stratholme. Westward, the blighted woods reach toward the ruined village of Terrordale."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "The twisted trees and foul cauldrons of the Plaguewood serve as a harrowing reminder of Lordaeron's fall, testing any champion of the Light against swarms of abominations and unyielding fanatics."
+   "text": "As a paladin, you face abominations and unyielding fanatics among Plaguewood's twisted trees and foul cauldrons. The land recalls Lordaeron's fall and tests your devotion to the Light."
   },
   {
    "target": "faction:Alliance",
-   "text": "For Alliance survivors, walking these paths means seeing the very road Prince Arthas took toward his infamous purge of Stratholme, now drowned in rot and mad Scarlet zealots."
+   "text": "As an Alliance survivor, you walk the road Prince Arthas took toward the purge of Stratholme. Rot and mad Scarlet zealots line the way."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Plaguewood"
- ]
+ ],
+ "style": 2
 }

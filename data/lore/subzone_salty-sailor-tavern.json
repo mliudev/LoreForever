@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Salty Sailor Tavern"
  },
- "summary": "The Salty Sailor Tavern is the beating heart of Booty Bay's social life, serving as the port's primary inn and watering hole. Run by the goblin Innkeeper Skindle, it welcomes scoundrels, mercenaries, and travelers from both factions seeking respite from the perils of the jungle.",
+ "summary": "In Booty Bay, travelers from both factions find shelter at the Salty Sailor Tavern. Goblin Innkeeper Skindle runs the port's inn and watering hole, where scoundrels and mercenaries seek respite from the jungle.",
  "sections": [
   {
    "title": "A Safe Haven in the Jungle",
-   "body": "Perched amidst the wooden tiers of Booty Bay, the Salty Sailor Tavern offers warm beds and strong drinks under the watchful eye of the Blackwater Raiders. Behind the bar stands Innkeeper Skindle, keeping glasses filled while a menagerie of buccaneers, traders, and adventurers mingle on neutral ground. Outside the establishment hangs a massive, curious curio\u2014a Zul'Gurub Protector Stone\u2014serving as a strange trophy in this bustling den of commerce.",
+   "body": "Among Booty Bay's wooden tiers, the Salty Sailor Tavern offers warm beds and strong drinks. The Blackwater Raiders watch over the place. Innkeeper Skindle tends the bar as buccaneers, traders, and adventurers mingle on neutral ground. Outside hangs a massive Zul'Gurub Protector Stone, a curious trophy in this den of commerce.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "who is the innkeeper",
     "skindle"
    ],
-   "answer": "The tavern and its inn services are managed by Innkeeper Skindle, an industrious goblin who caters to the assorted sailors, mercenaries, and adventurers passing through Booty Bay."
+   "answer": "Innkeeper Skindle, an industrious goblin, runs the tavern and its inn. Sailors, mercenaries, and adventurers passing through Booty Bay come to drink and rest."
   },
   {
    "q": "What is that large stone hanging outside the tavern?",
@@ -32,7 +32,7 @@
     "zul'gurub stone",
     "protector stone"
    ],
-   "answer": "Suspended outside the building is a Zul'Gurub Protector Stone, an ominous relic brought back from the ancient troll ruins deep within the jungle."
+   "answer": "A Zul'Gurub Protector Stone hangs outside the tavern. It is an ominous relic brought back from ancient troll ruins deep in the jungle."
   },
   {
    "q": "Can both Alliance and Horde stay here?",
@@ -41,13 +41,13 @@
     "alliance and horde allowed",
     "can horde use the inn"
    ],
-   "answer": "Yes. As with the rest of Booty Bay, the Salty Sailor Tavern operates under the neutral authority of the Steamwheedle Cartel. So long as patrons mind their manners and do not draw weapons, both Alliance and Horde travelers are free to rest here."
+   "answer": "Yes. The Steamwheedle Cartel keeps Booty Bay neutral, so Alliance and Horde travelers may rest at the tavern. They must mind their manners and keep their weapons sheathed."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "The crowded, smoky floor of the Salty Sailor makes it the ideal place to swap rumors, listen for pirate chatter, and keep your purse guarded."
+   "text": "As a rogue, you can trade rumors and listen for pirate chatter on the Salty Sailor's crowded, smoky floor. Keep your purse guarded."
   }
  ],
  "keywords": [
@@ -64,5 +64,6 @@
  ],
  "attribution": [
   "Salty Sailor Tavern"
- ]
+ ],
+ "style": 2
 }

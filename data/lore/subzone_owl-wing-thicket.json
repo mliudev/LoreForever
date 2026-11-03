@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Owl Wing Thicket"
  },
- "summary": "Owl Wing Thicket is a rugged cluster of caves and stone roosts in southern Winterspring. It is heavily populated by berserk, moontouched, and crazed owlbeasts that prowl the snowy crags. Deep within, ancient night elf altars preserve sacred knowledge about the origin of these creatures and their connection to the moon goddess Elune.",
+ "summary": "In southern Winterspring, berserk, moontouched, and crazed owlbeasts prowl the snowy crags of Owl Wing Thicket. Its caves and stone roosts hold ancient night elf altars tied to their origins and to Elune.",
  "sections": [
   {
    "title": "Sanctuary of the Moonkin",
-   "body": "Carved into the snowy highlands south of Everlook, Owl Wing Thicket serves as one of the densest nesting grounds for Winterspring's wild owlbeasts. Long ago, night elf caretakers revered these creatures as sacred guardians blessed by Elune. Ancient shrines and moonstone altars are still tucked among the cavern overhangs, watched over by the lingering spirits of the Guardians of Elune. Today, however, many of the beasts have succumbed to madness, lashing out at travelers who trespass upon their holy hollows.",
+   "body": "South of Everlook, Owl Wing Thicket is among Winterspring’s densest owlbeast nesting grounds. Long ago, night elf caretakers revered the creatures as sacred guardians blessed by Elune.\n\nAncient shrines and moonstone altars remain beneath the cavern overhangs. The lingering spirits of the Guardians of Elune watch over them. Many owlbeasts have fallen to madness and attack travelers who trespass in their holy hollows.",
    "spoiler": 0
   },
   {
    "title": "The Lore of the Moonkin",
-   "body": "Night elf scholars and priests travel to Owl Wing Thicket to seek communion with the Guardians of Elune. Guided by the priestess Ranshalla, Alliance seekers light the sacred braziers throughout the cavern complex to awaken ancient spirits. These guardians recount the legend of how the wild moonkin were first fashioned by Elune to safeguard pristine natural sanctuaries, offering clarity on the beasts' divine ancestry despite their present feral hostility.",
+   "body": "At Owl Wing Thicket, night elf scholars and priests seek communion with the Guardians of Elune. The priestess Ranshalla guides Alliance seekers as they light sacred braziers throughout the caves to awaken the ancient spirits.\n\nThe guardians tell how Elune first fashioned wild moonkin to protect pristine natural sanctuaries. Their words reveal the beasts’ divine ancestry, though many are now feral and hostile.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "where is owl wing thicket",
     "owl wing thicket lore"
    ],
-   "answer": "Owl Wing Thicket is a network of snowy crags and caves in southern Winterspring. It is famous for its dense population of wild owlbeasts and several ancient shrines dedicated to the night elf goddess Elune."
+   "answer": "In southern Winterspring, Owl Wing Thicket’s snowy crags and caves shelter a dense population of wild owlbeasts. Ancient shrines there honor Elune, the night elf goddess."
   },
   {
    "q": "Why are the owlbeasts here so aggressive?",
@@ -37,7 +37,7 @@
     "crazed owlbeasts winterspring",
     "berserk owlbeasts"
    ],
-   "answer": "While originally created as protectors of nature blessed by Elune, many of the owlbeasts in Winterspring have fallen into violent frenzy. In Owl Wing Thicket, they roam as crazed, berserk, and moontouched beasts, attacking anyone approaching their dens."
+   "answer": "Elune blessed the owlbeasts as protectors of nature, but many have fallen into violent frenzy. Berserk, moontouched, and crazed beasts roam Owl Wing Thicket and attack anyone who approaches their dens."
   },
   {
    "q": "Who is Ranshalla?",
@@ -46,7 +46,7 @@
     "who is ranshalla winterspring",
     "priestess ranshalla"
    ],
-   "answer": "Ranshalla is a night elf priestess of Elune who journeys into Owl Wing Thicket. She seeks the guidance of the ancient Guardians of Elune to uncover the sacred origins and history of the moonkin race."
+   "answer": "Ranshalla is a night elf priestess of Elune who journeys into Owl Wing Thicket. She seeks the ancient Guardians of Elune to learn the sacred origins and history of the moonkin."
   },
   {
    "q": "What are the Guardians of Elune found inside the thicket?",
@@ -55,17 +55,17 @@
     "spirits in owl wing thicket",
     "moonkin spirits"
    ],
-   "answer": "The Guardians of Elune are ancient night elf spirits tied to altars within the caves. When summoned through the rekindling of sacred fires, they recount how the moonkin were created to watch over wild and holy lands."
+   "answer": "The Guardians of Elune are ancient night elf spirits tied to altars within the caves. Rekindling sacred fires summons them, and they tell how the moonkin were created to watch over wild and holy lands."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the Kaldorei, Owl Wing Thicket is holy ground gone wild, preserving early accounts of Elune's grace alongside feral moonkin who have lost their ancient balance."
+   "text": "For the Kaldorei, Owl Wing Thicket is holy ground gone wild. Early accounts of Elune’s grace endure there beside feral moonkin that have lost their ancient balance."
   },
   {
    "target": "class:Druid",
-   "text": "Druids hold the owlbeast form sacred, making this thicket a sobering site where creatures gifted with lunar affinity have slipped into unrestrained madness."
+   "text": "As a druid, you hold the owlbeast form sacred. Owl Wing Thicket is a sobering place, where creatures gifted with lunar affinity have fallen into unrestrained madness."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Owl Wing Thicket"
- ]
+ ],
+ "style": 2
 }

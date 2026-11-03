@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Practitioners of the arcane will recognize how careless spellcasting by amateurs like the Defias rogue wizards can send wild fluctuations rolling across Elwynn, throwing sensitive magical research into chaos."
+   "text": "As a mage, you know careless spells from amateurs like the Defias rogue wizards can send wild fluctuations across Elwynn and disrupt sensitive magical research."
   },
   {
    "target": "faction:Alliance",
-   "text": "Maintaining order around the Tower of Azora is vital for securing eastern Elwynn Forest against Defias encroachment."
+   "text": "As an Alliance member, you help keep eastern Elwynn Forest secure from Defias encroachment by maintaining order around the Tower of Azora."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "delicate instruments questgiver",
     "where is hamish bergwort"
    ],
-   "answer": "Hamish Bergwort offers this quest from within the Tower of Azora in eastern Elwynn Forest. He is conducting arcane research that requires stable magical conditions.",
+   "answer": "Hamish Bergwort offers Delicate Instruments from the Tower of Azora in eastern Elwynn Forest. He needs stable magical conditions for his research.",
    "q": "Who offers the quest Delicate Instruments?"
   },
   {
@@ -37,7 +37,7 @@
     "why are instruments disrupted",
     "delicate instruments interference"
    ],
-   "answer": "The delicate instruments in the Tower of Azora are suffering from arcane interference caused by local Defias bandits who have taken up crude spellcasting near Stone Cairn Lake.",
+   "answer": "Crude spells from Defias bandits near Stone Cairn Lake interfere with the instruments in the Tower of Azora.",
    "q": "What is disrupting Hamish Bergwort's instruments?"
   },
   {
@@ -46,7 +46,7 @@
     "stone cairn lake rogue wizards",
     "where to find defias rogue wizards"
    ],
-   "answer": "The Defias rogue wizards gather along the shores and surrounding grounds of Stone Cairn Lake, located just north of the Tower of Azora in Elwynn Forest.",
+   "answer": "The Defias rogue wizards gather along the shores and surrounding grounds of Stone Cairn Lake, just north of the Tower of Azora in Elwynn Forest.",
    "q": "Where can the Defias Rogue Wizards be found?"
   },
   {
@@ -55,7 +55,7 @@
     "defias spellcasters",
     "rogue wizards lore"
    ],
-   "answer": "While primarily consisting of disgruntled laborers, highwaymen, and thieves, the Defias Brotherhood has recruited renegade dabblers in the arcane. These rogue wizards practice magic without sanction, causing erratic disruptions in the region.",
+   "answer": "The Defias Brotherhood has recruited renegade dabblers in the arcane. These rogue wizards practice magic without sanction and cause erratic disturbances in the region.",
    "q": "Why are Defias bandits practicing magic?"
   },
   {
@@ -64,7 +64,7 @@
     "azora tower elwynn",
     "who runs tower of azora"
    ],
-   "answer": "The Tower of Azora is an arcane spire situated in eastern Elwynn Forest, serving as a haven for human magi and scholars studying ley lines, magical anomalies, and regional security.",
+   "answer": "The Tower of Azora is an arcane spire in eastern Elwynn Forest. Human magi and scholars study ley lines, magical anomalies, and regional security there.",
    "q": "What is the Tower of Azora?"
   },
   {
@@ -73,7 +73,7 @@
     "delicate instruments outcome",
     "hamish bergwort instruments fixed"
    ],
-   "answer": "Yes. Once you cull the Defias rogue wizards casting at Stone Cairn Lake, the ambient magical resonance calms down, allowing Hamish Bergwort's apparatus to function properly once more.",
+   "answer": "Yes. Once you cull the Defias rogue wizards casting at Stone Cairn Lake, the magical resonance calms and Hamish Bergwort's apparatus works properly again.",
    "q": "Does eliminating the rogue wizards fix the problem?"
   }
  ],
@@ -92,18 +92,19 @@
  ],
  "sections": [
   {
-   "body": "Within the Tower of Azora, Hamish Bergwort attempts to conduct delicate magical experiments, only to be repeatedly interrupted by unexplained ambient disruptions. In an arcane sanctuary where precise measurements are everything, even slight ripples in the local magical weave can ruin hours of careful work. Bergwort suspects the disruptions are not natural, but rather the result of crude spells cast nearby.",
+   "body": "Hamish Bergwort studies arcane questions in the Tower of Azora. His work depends on precise readings, and even a slight change in local magic can ruin hours of careful study. He suspects crude spells nearby are causing the interruptions.",
    "spoiler": 0,
    "title": "Interference at the Tower"
   },
   {
-   "body": "The source of the magical static traces back to Stone Cairn Lake, where Defias rogue wizards have been practicing unchecked spellcraft. The Defias Brotherhood's reliance on rogue spellcasters introduces unstable, amateur magic into the Elwynn countryside. Dispatching these rogue wizards silences the magical noise, finally allowing Bergwort's sensitive instruments to register clean readings.",
+   "body": "Defias rogue wizards practice magic near Stone Cairn Lake, and their casting causes the interference. Their unchecked spellcraft brings unstable magic into Elwynn. End their casting, and the disturbance will cease, allowing Bergwort's instruments to give clean readings.",
    "spoiler": 0,
    "title": "Banditry and the Arcane"
   }
  ],
- "summary": "Delicate Instruments is a quest in eastern Elwynn Forest focused on restoring magical stability to the Tower of Azora. Hamish Bergwort's sensitive equipment is being disrupted by erratic spellcasting practiced by nearby Defias rogue wizards. Resolving the disturbance requires putting an end to the amateur sorcery around Stone Cairn Lake.",
+ "summary": "At the Tower of Azora, Defias magic troubles Delicate Instruments. Hamish Bergwort's equipment suffers from erratic spellcasting near Stone Cairn Lake. The disturbance must end before his instruments can work properly.",
  "attribution": [
   "In-game quest text: Delicate Instruments"
- ]
+ ],
+ "style": 2
 }

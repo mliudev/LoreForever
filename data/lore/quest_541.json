@@ -17,16 +17,16 @@
   "wiki": "Battle of Hillsbrad (6)",
   "chain": []
  },
- "summary": "In Hillsbrad, the Forsaken turn their campaign on Dun Garok. High Executor Darthalia sends Horde champions to break the dwarven garrison aiding local humans and kill its commander, Captain Ironhill.",
+ "summary": "In Hillsbrad, the Forsaken's campaign now turns on Dun Garok. High Executor Darthalia sends Horde champions to break the dwarven garrison aiding local humans and kill its commander, Captain Ironhill.",
  "sections": [
   {
    "title": "Testing the Alliance",
-   "body": "High Executor Darthalia has already pressed the human farmers and town militia across the foothills. Now she turns Tarren Mill's fury on Ironforge's troops. Dwarven soldiers have taken up arms for Southshore, strengthening the human presence in Lordaeron. Darthalia sees that alliance as an obstacle to be broken. She means to show the Alliance that helping the human survivors will bring devastation.",
+   "body": "High Executor Darthalia has already pressed the human farmers and town militia across the foothills. Now she directs Tarren Mill's fury at Ironforge's troops. Dwarven soldiers have taken up arms for Southshore, strengthening the human presence in Lordaeron. Darthalia sees that bond as an obstacle. She means to show the Alliance that aid for the human survivors will bring devastation.",
    "spoiler": 0
   },
   {
    "title": "The Fall of Dun Garok",
-   "body": "Dun Garok is built against Thoradin's Wall in southeastern Hillsbrad. The fortified stronghold is held by disciplined mountaineers, skilled riflemen, and battle-hardened priests. To take it, Horde forces must break through those defenders and kill Captain Ironhill. His death breaks Ironforge's forward command in the region and leaves the remaining human enclaves isolated.",
+   "body": "Dun Garok clings to Thoradin's Wall in southeastern Hillsbrad. Disciplined mountaineers hold the fortified stronghold, joined by skilled riflemen and battle-hardened priests. Horde forces must break through those defenders and kill Captain Ironhill. His death breaks Ironforge's forward command in the region, leaving the remaining human enclaves isolated.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "dwarves dun garok",
     "why dwarves helping humans"
    ],
-   "answer": "Ironforge sent its soldiers north to Dun Garok because the dwarves support the Alliance and want to aid the human survivors in Southshore and Hillsbrad against Forsaken expansion."
+   "answer": "Ironforge sent its soldiers north to Dun Garok because the dwarves support the Alliance. They mean to aid human survivors in Southshore and Hillsbrad against Forsaken expansion."
   },
   {
    "q": "Where is Dun Garok located?",
@@ -56,7 +56,7 @@
     "who is ironhill",
     "dun garok leader"
    ],
-   "answer": "Captain Ironhill commands Dun Garok's dwarven garrison and keeps its mountaineers organized and ready to fight in the region."
+   "answer": "Captain Ironhill commands Dun Garok's dwarven garrison. He keeps its mountaineers organized and ready to fight in the region."
   },
   {
    "q": "Who gives this order?",
@@ -93,7 +93,7 @@
   },
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, destroying the dwarven garrison secures southeastern Lordaeron and makes it harder for an Alliance vanguard to march south through Thoradin's Wall."
+   "text": "For the Forsaken, destroying the dwarven garrison secures southeastern Lordaeron. It makes an Alliance vanguard's march south through Thoradin's Wall harder."
   },
   {
    "target": "race:Dwarf",
@@ -122,5 +122,5 @@
  "attribution": [
   "Battle of Hillsbrad (6)"
  ],
- "style": 1
+ "style": 2
 }

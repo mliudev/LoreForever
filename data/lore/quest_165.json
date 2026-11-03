@@ -17,11 +17,11 @@
   "wiki": "The Hermit (Classic)",
   "chain": []
  },
- "summary": "Elaine Carevin in Darkshire sends you to check on Abercrombie, an elderly recluse who has not come to town for provisions. He lives in a rickety shack at the edge of Raven Hill Cemetery.",
+ "summary": "In Darkshire, Elaine Carevin asks you to check on Abercrombie, an elderly recluse who has stopped coming for provisions. His rickety shack stands at the edge of Raven Hill Cemetery.",
  "sections": [
   {
    "title": "A Neighborly Check-In",
-   "body": "Elaine Carevin remembers an old man who came to Darkshire for provisions, then stopped appearing. With danger on Duskwood’s roads, she asks you to visit his shack by Raven Hill Cemetery and see whether he is safe.",
+   "body": "Elaine Carevin recalls an old man who once came to Darkshire for provisions, then stopped appearing. With danger on Duskwood’s roads, she asks you to visit his shack by Raven Hill Cemetery and find out whether he is safe.",
    "spoiler": 0
   },
   {
@@ -83,13 +83,13 @@
     "hermit followup quest",
     "what comes after the hermit"
    ],
-   "answer": "Abercrombie quickly asks you to help with errands and tasks around the woods."
+   "answer": "Abercrombie quickly asks you to help with a few errands around the woods."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The Night Watch struggles to protect the roads between Darkshire and Raven Hill, leaving recluses like Abercrombie cut off from town’s safety."
+   "text": "The Night Watch struggles to protect the roads between Darkshire and Raven Hill. Recluses like Abercrombie are left cut off from the town’s safety."
   },
   {
    "target": "race:Human",
@@ -114,5 +114,5 @@
  "attribution": [
   "The Hermit (Classic)"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Southern Gold Road"
  },
- "summary": "Caravans and travelers crowd the Southern Gold Road as it runs through the Barrens toward the Great Lift. Trade links the central plains with distant reaches of Kalimdor.",
+ "summary": "Caravans and travelers crowd the Southern Gold Road as it runs through the Barrens toward the Great Lift. Trade carries goods between the plains and distant reaches of Kalimdor.",
  "sections": [
   {
    "title": "Artery of the South",
-   "body": "At the stone bridge between the northern and southern Barrens, the Southern Gold Road turns south toward the Great Lift and Thousand Needles. Like the northern stretch, simply called the Gold Road, it takes its name from the lucrative merchant caravans that travel its length. Quilboar tribes and prowling predators harass those who use it, yet the road remains one of the continent’s busiest long-distance routes. Goods pass along it between remote outposts and ports.",
+   "body": "At the stone bridge between the northern and southern Barrens, the Southern Gold Road turns toward the Great Lift and Thousand Needles. Like the northern stretch, called the Gold Road, it takes its name from the merchant caravans that travel its length. Their trade makes the road one of Kalimdor’s busiest long-distance routes, carrying goods between remote outposts and ports.\n\nQuilboar tribes and prowling predators harass those who travel it. Still, caravans and travelers keep moving south.",
    "spoiler": 0
   },
   {
    "title": "A Crossroads of Distant Lands",
-   "body": "Horde couriers and patrols share the Southern Gold Road with merchants and explorers bound for distant lands. Travelers journey between Gadgetzan in the southern deserts of Tanaris, Auberdine on the shores of Darkshore, and Nighthaven, among the sacred groves of Moonglade. For those crossing Kalimdor’s interior on foot, surviving the journey down this sun-baked road is a grueling rite of passage.",
+   "body": "Horde couriers and patrols share the Southern Gold Road with merchants and explorers bound for distant lands. Travelers journey between Gadgetzan in the deserts of Tanaris, Auberdine on the shores of Darkshore, and Nighthaven among Moonglade’s sacred groves.\n\nFor those crossing Kalimdor’s interior on foot, the sun-baked road makes for a grueling journey. Surviving the trek is a rite of passage.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "gold road name origin",
     "gold road meaning"
    ],
-   "answer": "The road takes its name from the valuable trade caravans that carry precious goods, ore, and coin across Kalimdor."
+   "answer": "The road takes its name from the valuable merchant caravans carrying precious goods, ore, and coin across Kalimdor."
   },
   {
    "q": "What is the difference between the Gold Road and the Southern Gold Road?",
@@ -45,7 +45,7 @@
     "gold road vs southern gold road",
     "two gold roads"
    ],
-   "answer": "The bridge between the two halves of the Barrens divides the routes: north of it is the Gold Road, while the stretch south to the Great Lift is the Southern Gold Road."
+   "answer": "The bridge between the two halves of the Barrens divides the routes. North of it is the Gold Road; south to the Great Lift is the Southern Gold Road."
   },
   {
    "q": "Who travels along this stretch of road?",
@@ -83,5 +83,5 @@
  "attribution": [
   "Southern Gold Road"
  ],
- "style": 1
+ "style": 2
 }

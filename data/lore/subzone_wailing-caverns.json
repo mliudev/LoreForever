@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Wailing Caverns"
  },
- "summary": "Steam wails through the bluffs above Lushwater Oasis, where the Wailing Caverns twist beneath the Barrens. Naralex, a night elf druid, entered the springs hoping to restore life to the arid plains, but mutations and agitated wildlife now haunt the caverns.",
+ "summary": "Steam wails through the bluffs above Lushwater Oasis. Beneath them, Naralex's hope of restoring the Barrens has turned the Wailing Caverns into a place of corruption and danger.",
  "sections": [
   {
    "title": "The Druids of the Fang",
-   "body": "Naralex's followers guard him as he sleeps in the Wailing Caverns. His closest disciples were driven mad by the Emerald Nightmare and abandoned their old traditions. Under leaders such as Lady Anacondra, they formed the Druids of the Fang and took on venomous snake aspects. They defend their master from anyone who might break his trance. The waterways now threaten to poison oases across the Barrens. Cenarion Circle allies in Thunder Bluff are concerned, while goblins in Ratchet see an opportunity.",
+   "body": "Naralex's followers guard him while he sleeps in the Wailing Caverns. The Emerald Nightmare drove his closest disciples mad, and they abandoned their old traditions. Under leaders such as Lady Anacondra, they became the Druids of the Fang and took on venomous snake aspects. They defend their master from anyone who might break his trance.\n\nNow the waterways threaten to poison oases across the Barrens. Cenarion Circle allies in Thunder Bluff are concerned, while goblins in Ratchet see an opportunity.",
    "spoiler": 1
   },
   {
    "title": "The Dream Curdled",
-   "body": "Steam bursts from underground geysers and escapes through cracks in the rock, sending mournful wails through the caverns. The night elf druid Naralex entered these deep waterways with his faithful followers. He hoped to draw on the subterranean springs and channel the Emerald Dream, bringing bloom to the barren savannas. Instead, the Emerald Nightmare trapped his consciousness. Corruption seeps from the sleeping druid, warping the springs and changing local beasts into deviate horrors.",
+   "body": "Steam bursts from underground geysers and escapes through cracks in the rock. Its mournful cries echo through the caverns. The night elf druid Naralex entered these deep waterways with his faithful followers, hoping to draw on the subterranean springs and channel the Emerald Dream. He sought to bring bloom to the barren savannas.\n\nInstead, the Emerald Nightmare trapped Naralex's consciousness. Corruption seeps from the sleeping druid, warping the springs and changing local beasts into deviate horrors.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "wailing caverns name meaning",
     "why does it wail"
    ],
-   "answer": "The Wailing Caverns take their name from shrieks of steam bursting through narrow cracks in the rock ceiling. The cries echo through the stone chambers."
+   "answer": "Steam bursting through narrow cracks in the rock ceiling gives the Wailing Caverns their name. Its cries echo through the stone chambers."
   },
   {
    "q": "Who is Naralex and why is he sleeping here?",
@@ -55,17 +55,17 @@
     "what is a deviate",
     "why deviate"
    ],
-   "answer": "Naralex's corruption has tainted the springs, changing ordinary raptors, crocolisks, and vipers into deviate forms. Their strange coloring, heightened aggression, and unusual scales and hides mark the change."
+   "answer": "Naralex's corruption tainted the springs and changed ordinary raptors, crocolisks, and vipers into deviate forms. Their strange coloring, heightened aggression, and unusual scales and hides mark the change."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For a druid, the Wailing Caverns show how good intentions can be corrupted by the Emerald Nightmare. Naralex must be awakened, or his twisted disciples put to rest."
+   "text": "As a druid, you see in the Wailing Caverns how good intentions can be corrupted by the Emerald Nightmare. Naralex must be awakened, or his twisted disciples put to rest."
   },
   {
    "target": "faction:Horde",
-   "text": "For the Horde, the tainted waters threaten the fragile oases that sustain life and travel across the Barrens. Cleansing the caves is urgent for the safety of nearby settlements."
+   "text": "For the Horde, tainted waters threaten the fragile oases that sustain life and travel across the Barrens. Cleansing the caves is urgent for the safety of nearby settlements."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
  "attribution": [
   "Wailing Caverns"
  ],
- "style": 1
+ "style": 2
 }

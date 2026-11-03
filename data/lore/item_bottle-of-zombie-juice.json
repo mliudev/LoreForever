@@ -10,11 +10,11 @@
    "quest:159"
   ]
  },
- "summary": "In Darkshire, a Bottle of Zombie Juice is bound for Abercrombie, a reclusive hermit in Duskwood. The potent liquor is brewed from rot blossom, and Abercrombie says he needs it to keep warm.",
+ "summary": "In Darkshire, Bottle of Zombie Juice is bound for Abercrombie, a reclusive hermit in Duskwood. He says the potent liquor, brewed from rot blossom, keeps him warm.",
  "sections": [
   {
    "title": "A Pungent Concoction",
-   "body": "Rot blossoms gathered in Duskwood go into this harsh brew. The bartender in Darkshire warns that it is potent enough to raise the dead. Most folk want nothing to do with such a vile drink, but Abercrombie, an eccentric hermit, says it is the only thing that keeps him warm on the damp, cold nights by his lonely shack.",
+   "body": "Rot blossoms gathered in Duskwood go into this harsh brew. The bartender in Darkshire warns it is potent enough to raise the dead. Most folk want nothing to do with such a vile drink. Yet Abercrombie, an eccentric hermit, says it alone keeps him warm on cold, damp nights by his lonely shack.",
    "spoiler": 0
   },
   {
@@ -47,7 +47,7 @@
     "why does abercrombie drink it",
     "abercrombie zombie juice reason"
    ],
-   "answer": "Abercrombie claims the fiery drink keeps his old bones warm through Duskwood’s bitter, dark nights, though his strange manner suggests he may have another use for so potent a brew."
+   "answer": "Abercrombie claims the fiery drink keeps his old bones warm through Duskwood’s bitter, dark nights. His strange manner suggests he may have another use for so potent a brew."
   },
   {
    "q": "Can players drink the Bottle of Zombie Juice?",
@@ -55,17 +55,17 @@
     "can i drink zombie juice",
     "is zombie juice consumable"
    ],
-   "answer": "No. This bottle is meant for delivery to Abercrombie, and you must carry it safely to his shack."
+   "answer": "No. You must carry the bottle safely to Abercrombie’s shack for delivery."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Herbalists familiar with Duskwood know rot blossom is unfit for ordinary restorative tonics, which makes its use in a drink unsettling."
+   "text": "Herbalists familiar with Duskwood know rot blossom is unfit for ordinary restorative tonics. Its use in a drink is unsettling."
   },
   {
    "target": "faction:Alliance",
-   "text": "Errands between Darkshire and the shadowed wilderness help connect Duskwood’s troubled inhabitants, even when the work seems dubious."
+   "text": "Errands between Darkshire and the shadowed wilderness connect Duskwood’s troubled inhabitants, even when the work seems dubious."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
   "Bottle of Zombie Juice",
   "Juice Delivery (Classic)"
  ],
- "style": 1
+ "style": 2
 }

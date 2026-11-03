@@ -17,16 +17,16 @@
   "wiki": "Boulderslide Ravine (quest)",
   "chain": []
  },
- "summary": "Kobolds dig furiously for Resonite in Boulderslide Ravine, deep in the Stonetalon Mountains. From Sun Rock Retreat, Mor'rogal sends Horde scouts into the caves for samples, troubled by a growing tension in the earth.",
+ "summary": "Kobolds dig for Resonite in the Stonetalon Mountains, while Mor'rogal at Sun Rock Retreat fears a growing unrest in the earth.",
  "sections": [
   {
    "title": "Tension in the Stone",
-   "body": "At Sun Rock Retreat, Mor'rogal watches the Stonetalon peaks with concern. The earth feels disturbed, with an unnatural agitation rising from the southeast. In Boulderslide Ravine, kobolds have left their usual foraging to dig aggressively for Resonite, a rare mineral found beneath the surface. Mor'rogal sends Horde scouts past the kobolds and into the cave's deepest reaches to learn why they mine with such frenzy. He asks them to bring back raw samples.",
+   "body": "At Sun Rock Retreat, Mor'rogal watches the Stonetalon peaks and feels the earth stir. An unnatural agitation rises from the southeast. In Boulderslide Ravine, kobolds have abandoned their usual foraging and now dig fiercely for Resonite, a rare mineral from beneath the surface. Mor'rogal sends Horde scouts past the kobolds and into the cave's deepest reaches. He asks them to bring back raw samples and learn why the kobolds mine with such frenzy.",
    "spoiler": 0
   },
   {
    "title": "Awakening the Ancients",
-   "body": "Raw Resonite crystals hum with ancient Earthen magic. The kobolds have dug into a layer of the deep stone and uncovered an Earthen, one of the primordial stone-beings the Titans shaped to form Kalimdor's subterranean foundations. Their mining has disturbed a relic of primordial history. The tauren must act before the buried being breaks free.",
+   "body": "Raw Resonite crystals hum with ancient Earthen magic. The kobolds have dug into deep stone and uncovered an Earthen, one of the primordial stone-beings the Titans shaped to form Kalimdor's subterranean foundations. Their mining has disturbed a relic of primordial history. The tauren must act before the buried being breaks free.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "where is boulderslide ravine",
     "how to find boulderslide ravine"
    ],
-   "answer": "Boulderslide Ravine cuts into the Stonetalon Mountains southeast of Sun Rock Retreat. Its winding caves are overrun with Boulderslide kobolds."
+   "answer": "Southeast of Sun Rock Retreat, Boulderslide Ravine cuts into the Stonetalon Mountains. Boulderslide kobolds overrun its winding caves."
   },
   {
    "q": "Who gives the quest Boulderslide Ravine?",
@@ -56,7 +56,7 @@
     "resonite lore",
     "resonite crystals"
    ],
-   "answer": "Resonite is a rare mineral from deep in the Boulderslide cave system. It carries traces of Titan-forged Earthen magic, a sign that the crystals formed near subterranean Earthen relics."
+   "answer": "Resonite is a rare mineral from deep in the Boulderslide cave system. It bears traces of Titan-forged Earthen magic, a sign the crystals formed near subterranean Earthen relics."
   },
   {
    "q": "Why are the kobolds mining Resonite so frantically?",
@@ -74,7 +74,7 @@
     "earthen titan connection",
     "who are earthen"
    ],
-   "answer": "Mor'rogal's ancient lore calls the Earthen stone-hewn creatures the Titans forged long ago to carve and shape the world's bedrock."
+   "answer": "In Mor'rogal's ancient lore, Earthen are stone-hewn creatures the Titans forged long ago to carve and shape the world's bedrock."
   },
   {
    "q": "What happens after completing this quest?",
@@ -97,7 +97,7 @@
   },
   {
    "target": "profession:Mining",
-   "text": "As a miner, you can tell that the Resonite from Boulderslide is no ordinary ore. Its matrix holds ancient arcane residue left by subterranean builders."
+   "text": "As a miner, you can tell that Resonite from Boulderslide is no ordinary ore. Its matrix holds ancient arcane residue left by subterranean builders."
   }
  ],
  "keywords": [
@@ -123,5 +123,5 @@
  "attribution": [
   "Boulderslide Ravine (quest)"
  ],
- "style": 1
+ "style": 2
 }

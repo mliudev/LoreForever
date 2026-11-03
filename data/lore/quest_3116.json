@@ -17,21 +17,21 @@
   "wiki": "Simple Sigil (Classic)",
   "chain": []
  },
- "summary": "In Shadowglen, Alyissia calls young night elf warriors to defend their people. Conservator Ilthalaine carries her summons as the Kaldorei face changes across Teldrassil and beyond.",
+ "summary": "In Shadowglen, Alyissia calls young night elf warriors to defend their people. Conservator Ilthalaine bears her summons as the Kaldorei face change across Teldrassil and beyond.",
  "sections": [
   {
    "title": "A Call to Arms in Shadowglen",
-   "body": "After you prove your basic survival skills against Shadowglen's restless wildlife, Conservator Ilthalaine gives you an inscribed sigil. The token formally marks your move into combat training. It carries a request from Alyissia, the warrior trainer at Aldrassil, asking you to dedicate your strength to defending your people.",
+   "body": "You have proved your skill at surviving Shadowglen's restless wildlife. Now Conservator Ilthalaine gives you an inscribed sigil from Alyissia, the warrior trainer at Aldrassil. It marks the beginning of your combat training. Alyissia asks you to dedicate your strength to defending your people.",
    "spoiler": 0
   },
   {
    "title": "A Tumultuous New Era",
-   "body": "Alyissia sets your training against a time of rapid change and danger. In only a few years, the night elves have raised the World Tree Teldrassil, seen a taint spread through forest beasts near and far, and reconnected with ancient lands once thought lost, including Feralas. The Kaldorei need capable defenders against these perils.",
+   "body": "Alyissia begins your training while the night elves face swift change and danger. In only a few years, they have raised the World Tree Teldrassil, watched a taint spread through forest beasts near and far, and reconnected with ancient lands once thought lost, including Feralas. The Kaldorei need capable defenders against these perils.",
    "spoiler": 0
   },
   {
    "title": "Opening the Boughs",
-   "body": "Alyissia prepares young Kaldorei for more than combat. She urges you not to judge outsiders who arrive on Teldrassil by their race. Some travelers may not act from pure generosity, but allies are vital to the Kaldorei's defense. As you take up the work of protecting your people, she asks you to offer them reasonable trust.",
+   "body": "Alyissia prepares young Kaldorei for more than combat. She asks you not to judge visitors to Teldrassil by their race. Some may not act from pure generosity, yet allies are vital to the Kaldorei's defense. As you take up the work of protecting your people, she asks you to offer visitors reasonable trust.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "what is this sigil",
     "sigil of the warrior"
    ],
-   "answer": "The inscribed sigil is sent by Alyissia, the warrior trainer in Shadowglen, and delivered to novice night elf warriors as they begin formal combat instruction."
+   "answer": "Alyissia, the warrior trainer in Shadowglen, sends the inscribed sigil to novice night elf warriors as they begin formal combat training."
   },
   {
    "q": "Who sends you to find Alyissia?",
@@ -77,7 +77,7 @@
     "night elves and outsiders",
     "alliance in teldrassil"
    ],
-   "answer": "Alyissia advises you not to judge visitors to Teldrassil by their race. Though not every traveler acts from pure generosity, she urges you to offer some trust so they may help defend the tree."
+   "answer": "Alyissia advises you not to judge visitors to Teldrassil by their race. Though not every traveler acts from pure generosity, she urges you to offer them some trust so they can help defend the tree."
   },
   {
    "q": "What is the significance of mentioning Feralas?",
@@ -91,11 +91,11 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a Kaldorei warrior, you begin your training with Alyissia as your first mentor in arms."
+   "text": "As a Kaldorei warrior, you begin training with Alyissia, your first mentor in arms."
   },
   {
    "target": "race:NightElf",
-   "text": "The sigil points to the rapid changes around the Kaldorei, from the raising of Teldrassil to opening their secluded home to foreign allies."
+   "text": "The sigil points to rapid changes around the Kaldorei, from the raising of Teldrassil to opening their secluded home to foreign allies."
   },
   {
    "target": "faction:Alliance",
@@ -121,5 +121,5 @@
  "attribution": [
   "Simple Sigil (Classic)"
  ],
- "style": 1
+ "style": 2
 }

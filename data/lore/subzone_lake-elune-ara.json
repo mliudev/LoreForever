@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Lake Elune'ara"
  },
- "summary": "Lake Elune'ara is the shimmering, sacred body of water that occupies the heart of Moonglade. Revering the Moon Goddess Elune, the lake serves as a place of spiritual reflection for the Cenarion Circle, though deep within its murky floor lies the dormant, corrupted demigod Omen.",
+ "summary": "At Moonglade's heart, Lake Elune'ara rests beneath moonlit groves. The sacred waters honor Elune, and the Cenarion Circle's shrine grounds border its shores.",
  "sections": [
   {
    "title": "Heart of the Sacred Vale",
-   "body": "Framed by the moonlit groves of Moonglade, Lake Elune'ara provides serene waters said to be blessed by the White Lady herself. The lake lies at the spiritual center of the druidic haven, bordered by Nighthaven to the north and the shrine grounds of the Cenarion Circle. Initiates have long plumbed its tranquil depths to retrieve long-lost relics, attuning themselves to the currents of nature as they seek harmony with the land.",
+   "body": "Moonlit groves frame Lake Elune'ara, whose waters are said to bear the White Lady's blessing. Nighthaven lies to the north, and the Cenarion Circle's shrine grounds border the lake. Initiates have long searched its depths for lost relics. Through contact with nature's currents, they seek harmony with the land.",
    "spoiler": 0
   },
   {
    "title": "The Slumber of Omen",
-   "body": "Despite the tranquility on the surface, ancient peril rests beneath the gentle ripples. Centuried legends speak of the two-headed wolf demigod Omen, a revered ancient corrupted by the Burning Legion during the War of the Ancients. Defeated and cast into the lake bed long ago, Omen slumbers deep below the dark waters, an enduring reminder of nature's wounds.",
+   "body": "Ancient peril sleeps beneath Lake Elune'ara's quiet surface. Legends tell of Omen, a two-headed wolf demigod and revered ancient corrupted by the Burning Legion during the War of the Ancients. Defeated long ago, Omen was cast into the lake bed. There he sleeps beneath the dark water, a reminder of nature's wounds.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "moonglade lake",
     "where is lake eluneara"
    ],
-   "answer": "It is the large, sacred lake dominating the center of Moonglade. Revered by night elves and druids, it is named after the Moon Goddess Elune and surrounded by the sanctuaries of the Cenarion Circle."
+   "answer": "Night elves and druids revere Lake Elune'ara's sacred waters at the heart of Moonglade. Its name honors the Moon Goddess Elune, and the Cenarion Circle's sanctuaries surround it."
   },
   {
    "q": "What lurks at the bottom of the lake?",
@@ -37,7 +37,7 @@
     "omen in moonglade",
     "monster in lake"
    ],
-   "answer": "The fallen demigod Omen sleeps in the dark depths of the lake. Once a noble ancient, he was driven mad by the Burning Legion during the ancient war and cast into the lake upon his defeat."
+   "answer": "Omen, a fallen demigod, sleeps in the lake's dark depths. Once a noble ancient, he was driven mad by the Burning Legion during the ancient war and cast into the lake after his defeat."
   },
   {
    "q": "Why do druids come to this lake?",
@@ -45,17 +45,17 @@
     "druid quest lake",
     "aquatic form lake"
    ],
-   "answer": "The lake is deeply connected to druidic trials and communing with the spirits of nature. Young druids often delve into its waters searching for sacred relics as part of their rites of passage."
+   "answer": "Druids come to the lake for trials and to commune with the spirits of nature. Young druids search its waters for sacred relics as part of their rites of passage."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "The lake is an integral site for druidic rituals and testing, holding sacred relics within its deep waters that aid initiates on their path."
+   "text": "As a druid, you know Lake Elune'ara as a place for rituals and trials. Sacred relics in its deep waters aid initiates on their path."
   },
   {
    "target": "race:NightElf",
-   "text": "Named for Elune, the lake represents a place of divine peace and historical memory of the War of the Ancients."
+   "text": "As a night elf, you know Lake Elune'ara by its name, which honors Elune. The lake is a place of divine peace and recalls the War of the Ancients."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  ],
  "attribution": [
   "Lake Elune'ara"
- ]
+ ],
+ "style": 2
 }

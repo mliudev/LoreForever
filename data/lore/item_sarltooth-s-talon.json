@@ -10,11 +10,11 @@
    "quest:296"
   ]
  },
- "summary": "Above Whelgar's Excavation Site, Sarltooth's Talon marks the end of the raptor's attack. Ormer Ironbraid wants the claw as proof that the beast has been slain.",
+ "summary": "Above Whelgar's Excavation Site, Sarltooth's Talon is all that remains of the raptor's attack. Ormer Ironbraid wants the claw as proof the beast is dead.",
  "sections": [
   {
    "title": "A Trophy of Vengeance",
-   "body": "Ormer Ironbraid watched from the ridge as raptors overran Whelgar's Excavation Site and butchered the dwarven expedition. He could not stop the slaughter. One massive raptor, Sarltooth, seemed to Ormer the likely pack leader. Seeking vengeance for his fallen kin, Ormer demanded the beast's death and one of its talons as proof. The claw marks the end of Sarltooth's reign over the ancient dwarven ruins.",
+   "body": "Ormer Ironbraid watched from the ridge as raptors overran Whelgar's Excavation Site and butchered the dwarven expedition. He could not stop them. One huge raptor, Sarltooth, seemed to him the pack's leader. Seeking vengeance for his fallen kin, Ormer demanded the beast's death and one of its talons as proof. The claw marks the end of Sarltooth's rule over the ancient dwarven ruins.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "where to turn in talon",
     "ormer ironbraid quest"
    ],
-   "answer": "Ormer Ironbraid wants the talon. The dwarf is stationed on the overlook above Whelgar's Excavation Site and asks for proof that the beast that slaughtered his crew has been slain."
+   "answer": "Ormer Ironbraid wants the talon. The dwarf keeps watch from the overlook above Whelgar's Excavation Site and asks for proof that the beast which slaughtered his crew is dead."
   },
   {
    "q": "Why does Ormer Ironbraid need proof of Sarltooth's death?",
@@ -43,7 +43,7 @@
     "why kill sarltooth",
     "what did sarltooth do"
    ],
-   "answer": "Ormer believes Sarltooth led the raptor pack that drove off and killed the dwarven excavators. He sees the talon as justice and closure for his fallen colleagues."
+   "answer": "Ormer believes Sarltooth led the raptor pack that drove off and killed the dwarven excavators. He sees the talon as justice and a measure of peace for his fallen colleagues."
   },
   {
    "q": "What happened to the dwarves at the excavation site?",
@@ -61,7 +61,7 @@
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, tracking a cunning pack leader like Sarltooth and taking a claw as a trophy tests marksmanship and beast mastery."
+   "text": "As a hunter, tracking a cunning pack leader like Sarltooth and taking a claw as a trophy tests marksmanship and mastery of beasts."
   }
  ],
  "keywords": [
@@ -84,5 +84,5 @@
   "Sarltooth's Talon",
   "Ormer's Revenge (3)"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Nijel's Point"
  },
- "summary": "Nijel's Point is a fortified Alliance and Cenarion Circle redoubt perched high on the northern bluffs of Desolace. Tucked safely away from the blighted valleys below, it serves as the sole safe haven for Alliance travelers, researchers, and soldiers navigating the harsh wasteland.",
+ "summary": "Alliance soldiers and Cenarion druids hold Nijel's Point above Desolace's harsh wastes. The outpost shelters travelers, researchers, and soldiers crossing the blighted valleys below.",
  "sections": [
   {
    "title": "A Bastion Above the Wastes",
-   "body": "Carved into the sheer cliffs bordering the Stonetalon Mountains, Nijel's Point stands well above the gray dust and marauding centaur packs of Desolace. The settlement is held by a detachment of the Stormwind Army under Captain Pentigast, charged with monitoring the violent clan wars that threaten Alliance interests across southern Kalimdor. Its high elevation and narrow access trails make it readily defensible, providing a secure staging ground for couriers, scouts, and griffin riders travelling between Stonetalon Peak, Theramore, and Feathermoon Stronghold.",
+   "body": "Nijel's Point clings to cliffs along the Stonetalon Mountains, high above Desolace's gray dust and marauding centaur packs. Captain Pentigast commands a Stormwind Army detachment there. His soldiers watch the clan wars that threaten Alliance interests across southern Kalimdor. High cliffs and narrow trails make the outpost easy to defend.\n\nCouriers, scouts, and griffin riders use Nijel's Point as a staging ground on routes between Stonetalon Peak, Theramore, and Feathermoon Stronghold.",
    "spoiler": 0
   },
   {
    "title": "Cenarion and Crusade Expeditions",
-   "body": "Beyond the Stormwind garrison, the outpost shelters emissaries with distinct and perilous agendas. Keeper Marandis and his dryads use the camp as an operational base to confront Princess Theradras deep within Maraudon, seeking to recover the fallen demigod Zaetar. Even the Scarlet Crusade maintains an emissary here in Brother Anton, who seeks to scour the undead ravaging the valley floor. Despite the bustling presence of soldiers and druids, the identity of Nijel himself remains an ancient mystery lost even to those garrisoned atop the ridge.",
+   "body": "Stormwind soldiers share Nijel's Point with emissaries whose work takes them into danger. Keeper Marandis and his dryads use the camp as a base to confront Princess Theradras deep within Maraudon and recover the fallen demigod Zaetar. Brother Anton, an emissary of the Scarlet Crusade, seeks to scour the undead ravaging the valley floor. Even among the soldiers and druids on the ridge, Nijel's identity remains an ancient mystery.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "stormwind army in desolace",
     "why nijels point exists"
    ],
-   "answer": "Captain Pentigast leads a Stormwind Army detachment to monitor the warring centaur clans. The Alliance fears that once one clan wipes out the others, the victorious horde will turn its aggression toward neighboring territories and settlements like Stonetalon and Feralas."
+   "answer": "Captain Pentigast leads a Stormwind Army detachment to watch the warring centaur clans. The Alliance fears that if one clan wipes out the others, the victors will turn against nearby territories and settlements such as Stonetalon and Feralas."
   },
   {
    "q": "Who was Nijel?",
@@ -37,7 +37,7 @@
     "nijel lore",
     "who was nijels point named after"
    ],
-   "answer": "Nobody at the outpost seems to know. His true history has been lost to time."
+   "answer": "No one at the outpost seems to know who Nijel was. His history has been lost to time."
   },
   {
    "q": "What is the Cenarion Circle doing at Nijel's Point?",
@@ -46,7 +46,7 @@
     "keeper marandis mission",
     "why are dryads here"
    ],
-   "answer": "Keeper Marandis and his dryad sisters have come to Desolace to purge Maraudon, slay Princess Theradras, and reclaim the remains of Zaetar to return them to the sacred groves of the Stonetalon Mountains."
+   "answer": "Keeper Marandis and his dryad sisters came to Desolace to purge Maraudon, slay Princess Theradras, and reclaim Zaetar's remains for the sacred groves of the Stonetalon Mountains."
   },
   {
    "q": "Why is the Scarlet Crusade at Nijel's Point?",
@@ -54,17 +54,17 @@
     "brother anton scarlet crusade",
     "scarlet crusade in desolace"
    ],
-   "answer": "Brother Anton serves as a distant emissary of the Scarlet Crusade. Brother Crowley in Stormwind sends Alliance adventurers to him, and he tests their resolve against the undead ravagers in Desolace's Valley of Bones."
+   "answer": "Brother Anton is a distant emissary of the Scarlet Crusade. Brother Crowley in Stormwind sends Alliance adventurers to him, where he tests their resolve against the undead ravagers in Desolace's Valley of Bones."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Nijel's Point is your sole fortified refuge and flight staging ground in Desolace, linking supply lines between Stonetalon, Theramore, and Feralas."
+   "text": "As an Alliance traveler, you can use Nijel's Point as your sole fortified refuge and flight staging ground in Desolace. It links supply lines between Stonetalon, Theramore, and Feralas."
   },
   {
    "target": "class:Druid",
-   "text": "Keeper Marandis uses this high mountain sanctuary to organize the reclamation of Zaetar's remains from the corruption festering inside Maraudon."
+   "text": "As a druid, you can see Keeper Marandis use this mountain sanctuary to organize the recovery of Zaetar's remains from the corruption within Maraudon."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Nijel's Point"
- ]
+ ],
+ "style": 2
 }

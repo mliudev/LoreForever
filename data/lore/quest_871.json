@@ -17,16 +17,16 @@
   "wiki": "Disrupt the Attacks",
   "chain": []
  },
- "summary": "Thork needs the Crossroads defended as Razormane quilboar cut its supply roads. Their ambushes have halted caravans from Durotar, and the outpost is running short on food and gear. You strike at the quilboar while scouts search for the one directing their warband.",
+ "summary": "Thork needs the Crossroads defended as Razormane quilboar cut its supply roads. Their ambushes have stopped caravans from Durotar, leaving the outpost short on food and gear. You strike at the quilboar while scouts search for the one directing their warband.",
  "sections": [
   {
    "title": "A Severed Lifeline",
-   "body": "The Crossroads guards a key junction for Horde traffic through central Kalimdor. Freight wagons and caravans bring food, iron, and equipment west from Durotar, and the outpost depends on those supplies. Razormane ambushes along the northeast trails have stopped the deliveries. Stores are running low, and Thork cannot wait for peaceful talks.",
+   "body": "The Crossroads guards a key junction for Horde traffic through central Kalimdor. Freight wagons and caravans carry food, iron, and equipment west from Durotar, and the outpost depends on those supplies. Razormane ambushes along the northeast trails have stopped the deliveries. Stores are running low, and Thork cannot wait for peaceful talks.",
    "spoiler": 0
   },
   {
    "title": "Pruning the Brambles",
-   "body": "Thork sends you against the quilboar bramble dens northeast of the settlement before they can assault the town walls. Striking their Water Seekers, Thornweavers, and Hunters weakens the Razormane scouting perimeter and deprives raiding parties of magical and logistical support. These skirmishes buy time while Horde trackers search the brush for the one organizing the raids.",
+   "body": "Thork sends you to the quilboar bramble dens northeast of the settlement, before they can assault the town walls. Striking their Water Seekers, Thornweavers, and Hunters weakens the Razormane scouting perimeter and deprives raiding parties of magical and logistical support. These skirmishes buy time while Horde trackers search the brush for the one organizing the raids.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "razormane motivation",
     "why attack durotar road"
    ],
-   "answer": "The Razormane see the Barrens as their ancestral homeland. They regard the Crossroads and Horde caravans crossing their hunting grounds as intolerable trespasses, so they ambush the supply wagons."
+   "answer": "The Razormane see the Barrens as their ancestral homeland. Crossroads and Horde caravans crossing their hunting grounds are intolerable trespassers, so they ambush the supply wagons."
   },
   {
    "q": "Who is Thork?",
@@ -56,7 +56,7 @@
     "razormane location",
     "where are thornweavers"
    ],
-   "answer": "The Razormane encampments lie east and northeast of the Crossroads, along the foot of the mountains separating the Barrens from Durotar. Towering briar vines surround their camps."
+   "answer": "Razormane encampments lie east and northeast of the Crossroads, along the foot of the mountains separating the Barrens from Durotar. Towering briar vines surround their camps."
   },
   {
    "q": "What comes after disrupting their attacks?",
@@ -64,7 +64,7 @@
     "what next after disrupt attacks",
     "next quest after disrupt the attacks"
    ],
-   "answer": "After the first force is driven back and scouts identify who commands the raiders, Thork immediately sends you after their chieftain in The Disruption Ends."
+   "answer": "Once the first force is driven back and scouts identify who commands the raiders, Thork immediately sends you after their chieftain in The Disruption Ends."
   },
   {
    "q": "What role do Water Seekers play in the tribe?",
@@ -119,5 +119,5 @@
  "attribution": [
   "Disrupt the Attacks"
  ],
- "style": 1
+ "style": 2
 }

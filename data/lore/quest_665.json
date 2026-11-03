@@ -24,11 +24,11 @@
    "Sunken Treasure"
   ]
  },
- "summary": "Now that they are full-fledged Blackwater Raiders, Professor Phizzlethorpe and Doctor Draxlegauge are to help Mr. O'Breen find the lost elven treasure. To search the dark sea for the gems, the professor needs your protection while he charges a pair of goggles at an enchanted stone in a cave.",
+ "summary": "Professor Phizzlethorpe and Doctor Draxlegauge now aid the Blackwater Raiders in their search for lost elven treasure. Before the search can begin, the professor needs your protection while he charges goggles for the dark sea.",
  "sections": [
   {
    "title": "Charging the Goggles",
-   "body": "The gems are next to impossible to find in the dark sea without help, so Doctor Draxlegauge has built goggles for the search. They need charging with power from the enchanted stone, in a cave a short way uphill. The cave is cursed, though: those who draw near are ambushed. Professor Phizzlethorpe asks you to defend him while he draws the stone's energy into the goggles.",
+   "body": "Professor Phizzlethorpe asks you to guard him as he prepares for a search beneath the dark sea. Doctor Draxlegauge built goggles to find the lost gems, but they need power from an enchanted stone in a cave a short way uphill. The cave is cursed, and those who draw near are ambushed. Defend the professor while he draws the stone’s energy into the goggles.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "phizzlethorpe",
     "quest giver"
    ],
-   "answer": "Professor Phizzlethorpe asks you to defend him as he goes to the cave and back, charging the doctor's goggles at the enchanted stone."
+   "answer": "Professor Phizzlethorpe asks you to guard him on the way to and from the cave while he charges Doctor Draxlegauge’s goggles at the enchanted stone."
   },
   {
    "q": "Why do the goggles need to be charged?",
@@ -49,7 +49,7 @@
     "goggles purpose",
     "what are the goggles for"
    ],
-   "answer": "Doctor Draxlegauge built them to help find the lost gems in the dark sea. To work, they must first be charged with the stone's power."
+   "answer": "Doctor Draxlegauge built the goggles to find the lost gems in the dark sea. They need the stone’s power before they can work."
   },
   {
    "q": "Why does the professor need an escort?",
@@ -57,7 +57,7 @@
     "why protect phizzlethorpe",
     "what is in the cave"
    ],
-   "answer": "The cave is cursed, and when they get close they are ambushed. He needs you to defend him while he channels the stone's energy."
+   "answer": "The cave is cursed, and those who draw near are ambushed. You need to defend Professor Phizzlethorpe while he channels the stone’s energy."
   },
   {
    "q": "Who are the professor and the doctor working for?",
@@ -66,7 +66,7 @@
     "mr obreen",
     "blackwater raiders"
    ],
-   "answer": "The professor says they are now full-fledged Blackwater Raiders, so helping Mr. O'Breen find the lost elven treasure falls to them."
+   "answer": "Professor Phizzlethorpe says he and Doctor Draxlegauge are now full-fledged Blackwater Raiders. Their duty is to help Mr. O’Breen find the lost elven treasure."
   }
  ],
  "angles": [],
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Sunken Treasure (1)"
- ]
+ ],
+ "style": 2
 }

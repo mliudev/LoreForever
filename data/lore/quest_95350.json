@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "This diplomatic mission formalizes ties with the Horde, introducing newcomers directly to Warchief Thrall as key allies for survival in Kalimdor."
+   "text": "This diplomatic journey formalizes ties with the Horde, bringing newcomers before Warchief Thrall as allies in Kalimdor’s struggle for survival."
   },
   {
    "target": "race:Skyborne",
-   "text": "Leaving the high heights for the surface world below, the Skyborne Windshapers reach out to Thunder Bluff and Orgrimmar to secure their place among new allies."
+   "text": "Leaving the high heights for the surface world below, you reach out from among the Skyborne Windshapers to Thunder Bluff and Orgrimmar, seeking a place among new allies."
   },
   {
    "target": "class:Shaman",
-   "text": "With guidance invoking the Earthen Ring and the blessing of the winds, this journey directly links spiritual kin with the heart of shamanic leadership in the Valley of Wisdom."
+   "text": "With guidance from the Earthen Ring and the blessing of the winds, you link spiritual kin with shamanic leadership in the Valley of Wisdom."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "welcome to azeroth quest",
     "purpose of welcome to azeroth"
    ],
-   "answer": "'Welcome to Azeroth' is a diplomatic introductory quest dispatching an emissary on behalf of the Windshapers to meet Warchief Thrall in Orgrimmar. It serves as an official introduction to the wider Horde and the surface world of Kalimdor.",
+   "answer": "An emissary travels for the Windshapers to meet Warchief Thrall in Orgrimmar. The meeting introduces them to the wider Horde and Kalimdor’s surface world.",
    "q": "What is the purpose of the quest Welcome to Azeroth?"
   },
   {
@@ -40,7 +40,7 @@
     "who are windshapers",
     "what are windshapers"
    ],
-   "answer": "The Windshapers are a group reaching out to surface allies from above, seeking survival through fellowship with the Earthen Ring and the Horde. They send travelers to speak directly with Horde leadership in Durotar.",
+   "answer": "The Windshapers reach out from above to surface allies, seeking survival through fellowship with the Earthen Ring and the Horde. They send travelers to speak directly with Horde leadership in Durotar.",
    "q": "Who are the Windshapers?"
   },
   {
@@ -49,7 +49,7 @@
     "speak with thrall orgrimmar",
     "why go to orgrimmar"
    ],
-   "answer": "As the Warchief of the Horde and a revered shamanic leader, Thrall oversees the coalition's major alliances from the Valley of Wisdom. Making contact with him formalizes relations between the Windshapers and the Horde.",
+   "answer": "Thrall is the Horde’s Warchief and a revered shamanic leader who oversees the coalition’s major alliances from the Valley of Wisdom. Meeting him formalizes relations between the Windshapers and the Horde.",
    "q": "Why are you sent to speak with Thrall?"
   },
   {
@@ -58,7 +58,7 @@
     "thunder bluff flight master",
     "getting to orgrimmar from thunder bluff"
    ],
-   "answer": "Travelers take flight from the flight master located at the central roost of Thunder Bluff, soaring across the plains of Kalimdor eastward into the canyon fortress of Orgrimmar.",
+   "answer": "Travelers take flight from Thunder Bluff’s central roost with the flight master, crossing Kalimdor’s plains eastward to Orgrimmar’s canyon fortress.",
    "q": "How do you travel from Thunder Bluff to Orgrimmar?"
   },
   {
@@ -66,7 +66,7 @@
     "earthen ring horde role",
     "is earthen ring horde"
    ],
-   "answer": "In this encounter, the Earthen Ring is described as aligned with the Horde's coalition of like-minded peoples, helping facilitate bonds between shamanic factions and the nations of Kalimdor.",
+   "answer": "The Earthen Ring is aligned with the Horde’s coalition of like-minded peoples. It helps join shamanic factions with the nations of Kalimdor.",
    "q": "How does the Earthen Ring fit into this mission?"
   },
   {
@@ -74,7 +74,7 @@
     "where is thrall",
     "valley of wisdom thrall location"
    ],
-   "answer": "Warchief Thrall resides within the Valley of Wisdom, a quiet spiritual sanctuary in the western reaches of Orgrimmar where shamans and tribal advisors convene.",
+   "answer": "Warchief Thrall resides in the Valley of Wisdom, a quiet spiritual sanctuary in western Orgrimmar where shamans and tribal advisors gather.",
    "q": "Where is Thrall located in Orgrimmar?"
   }
  ],
@@ -97,18 +97,19 @@
  ],
  "sections": [
   {
-   "body": "Venturing into the sprawling expanse of Kalimdor, newcomers quickly discover that survival hinges on brotherhood. The Windshapers look beyond their isolated origins to the peoples walking below, recognizing that isolation offers no defense against the threats of Azeroth. By extending a hand to the neighboring tauren city of Thunder Bluff and looking toward the orcish bastions to the east, they seek steadfast companions to brave the wilderness together.",
+   "body": "The Windshapers look beyond their isolated origins to the peoples of Kalimdor. They know isolation cannot shield them from Azeroth’s threats, so they seek companions to face the wilderness together. Their search reaches the neighboring tauren city of Thunder Bluff and the orcish bastions to the east.",
    "spoiler": 0,
    "title": "Allies in a Broader World"
   },
   {
-   "body": "The journey carries envoys to the soaring towers of Thunder Bluff before directing them across the barrens to Orgrimmar, the mighty capital of the Horde. Waiting in the tranquil Valley of Wisdom is Warchief Thrall, the guiding heart of the coalition. Standing before Thrall marks the official entry of the Windshapers into the political and spiritual fabric of Kalimdor, bound by common purpose and shared respect for the elements.",
+   "body": "The envoys travel first to the soaring towers of Thunder Bluff, then across the barrens to Orgrimmar, the Horde’s capital. Warchief Thrall waits in the tranquil Valley of Wisdom. An audience with him draws the Windshapers into Kalimdor’s political and spiritual life, joining them to the Horde through shared purpose and respect for the elements.",
    "spoiler": 0,
    "title": "An Audience with the Warchief"
   }
  ],
- "summary": "'Welcome to Azeroth' is an introductory quest that sends a traveler from Thunder Bluff to Orgrimmar on behalf of the Windshapers. Guided by the spiritual ties of the Earthen Ring, the emissary meets with Warchief Thrall to forge bonds of survival and alliance with the Horde.",
+ "summary": "In Kalimdor, the Windshapers reach beyond their isolated home to seek allies. Guided by their ties to the Earthen Ring, an emissary travels from Thunder Bluff to meet Warchief Thrall in Orgrimmar.",
  "attribution": [
   "In-game quest text: Welcome to Azeroth"
- ]
+ ],
+ "style": 2
 }

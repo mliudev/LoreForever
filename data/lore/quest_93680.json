@@ -24,16 +24,16 @@
    "City of Dalaran quests"
   ]
  },
- "summary": "Magus Wordeen Voidglare in Tarren Mill wants to know more about the Kirin Tor, whose city Archimonde destroyed and who have now rebuilt Dalaran on the Dark Lady's very doorstep. You are to search the Kirin Tor camps for something that can get the Horde into the city unnoticed.",
+ "summary": "Wordeen seeks a way into Dalaran, now rebuilt on the Dark Lady’s doorstep.",
  "sections": [
   {
    "title": "The Rebuilt City",
-   "body": "The Alliance once had an army of mages, the Kirin Tor, but the demonic Burning Legion proved the stronger. In a single stroke the arch demon Archimonde levelled their city, and the survivors were left as dispossessed vagabonds. Now they have rebuilt Dalaran, on the Dark Lady's very doorstep. Magus Wordeen Voidglare in Tarren Mill wants to know more, and sends you to search their camps for something, such as an ancient tome or a secret relic, that can get the Horde into the city unnoticed. What you bring back is a grimy Dalaran sewer key.",
+   "body": "In Tarren Mill, Magus Wordeen Voidglare wants to learn more about the Kirin Tor. Their city, Dalaran, fell to the demonic Burning Legion in a single stroke from the arch demon Archimonde. The surviving mages became dispossessed vagabonds. Now they have rebuilt Dalaran on the Dark Lady’s very doorstep.\n\nWordeen sends you to search their camps. He hopes you will find an ancient tome, a secret relic, or something else that can get the Horde into the city unnoticed. What you bring back is a grimy Dalaran sewer key.",
    "spoiler": 0
   },
   {
    "title": "Wordeen's Answer",
-   "body": "On seeing a sewer key, Wordeen says that thankfully someone else will be the one using it. There is work to do before it is safe to use.",
+   "body": "Wordeen sees the sewer key and gives thanks that someone else will use it. There is work to do before it is safe to use.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "key to the city questgiver",
     "where do i start key to the city"
    ],
-   "answer": "Magus Wordeen Voidglare, in Tarren Mill."
+   "answer": "Magus Wordeen Voidglare in Tarren Mill asks you to help."
   },
   {
    "q": "Why is the Horde interested in Dalaran?",
@@ -54,7 +54,7 @@
     "why watch dalaran",
     "what are the mages doing"
    ],
-   "answer": "The Kirin Tor, whose city Archimonde destroyed, have rebuilt Dalaran on the Dark Lady's very doorstep. Wordeen wants to know more and needs a way in unnoticed."
+   "answer": "The Kirin Tor have rebuilt Dalaran on the Dark Lady’s doorstep after Archimonde destroyed their city. Wordeen wants to learn more about them and find a way for the Horde to enter unnoticed."
   },
   {
    "q": "What item are you sent to find?",
@@ -63,7 +63,7 @@
     "what is the key",
     "key to the city item"
    ],
-   "answer": "A Dalaran sewer key, a grimy key, to be found in the Kirin Tor camps."
+   "answer": "You are sent to search the Kirin Tor camps for a grimy Dalaran sewer key."
   }
  ],
  "angles": [],
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Key to the City (Forever)"
- ]
+ ],
+ "style": 2
 }

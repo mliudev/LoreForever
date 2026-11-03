@@ -17,16 +17,16 @@
   "wiki": "Waters of Xavian",
   "chain": []
  },
- "summary": "Deino seeks a sample from the waters of Xavian, deep in Ashenvale. The troll mage hopes to study the ancient city's lingering arcane power, and sends her apprentice to draw water from its highest waterfall.",
+ "summary": "In Ashenvale, Deino seeks water from Xavian to study the city's lingering arcane power. She sends her apprentice to draw a sample from the pool beneath its highest waterfall.",
  "sections": [
   {
    "title": "A Mage's Curiosity",
-   "body": "Deino, a troll mage in Orgrimmar's Valley of Spirits, searches Kalimdor for traces of primal arcane energy. Her attention turns to Xavian, an ancient night elf city hidden beneath Ashenvale's eastern canopy. Scholars say the city held great magical knowledge before the Sundering. Its waters are believed to retain arcane power that modern mages hope to understand.",
+   "body": "Deino, a troll mage in Orgrimmar's Valley of Spirits, searches Kalimdor for primal arcane traces. Now she has turned her attention to Xavian, an ancient night elf city beneath Ashenvale's eastern canopy. Scholars say the city held great magical knowledge before the Sundering. They believe its waters still hold arcane power that modern mages hope to understand.",
    "spoiler": 0
   },
   {
    "title": "The Ruins of Xavian",
-   "body": "Xavian lies in ruins, overrun by feral, corrupt satyrs who defend their ground from outsiders. To reach the water, you travel past Satyrnaar and through dangerous waterways, avoiding prowling beasts and demonic sentinels. Deino needs a sample from the pool at the base of the city's highest waterfall.",
+   "body": "Xavian lies in ruins, overrun by feral, corrupt satyrs who defend their ground from outsiders. To reach the water, you pass Satyrnaar and cross dangerous waterways, steering clear of prowling beasts and demonic sentinels. Deino needs a sample from the pool at the base of the city's highest waterfall.",
    "spoiler": 0
   }
  ],
@@ -116,5 +116,5 @@
  "attribution": [
   "Waters of Xavian"
  ],
- "style": 1
+ "style": 2
 }

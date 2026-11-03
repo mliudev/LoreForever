@@ -17,16 +17,16 @@
   "wiki": "Deviate Eradication",
   "chain": []
  },
- "summary": "Deviate Eradication is a task assigned by the night elf druid Ebru above the entrance to the Wailing Caverns. While other disciples focus on waking their slumbering leader, Ebru asks adventurers to purge the caverns of mutated deviate beasts spawned by his twisted vision. Ridding the subterranean oasis of these horrors is an essential step in stemming the corruption threatening the Barrens.",
+ "summary": "In the Wailing Caverns, Ebru sends you to thin the deviate beasts. The night elf druid watches over the caverns while other disciples try to wake Naralex. His twisted vision has spawned mutated creatures whose numbers threaten to carry corruption beyond the underground springs and into the Barrens.",
  "sections": [
   {
    "title": "A Dream Gone Terribly Wrong",
-   "body": "The night elf druid Naralex brought his followers to the subterranean springs of the Barrens with an ambitious vision: tap into the Emerald Dream to regrow the parched plains into a lush, thriving woodland. Instead, Naralex became ensnared within the Dream, his slumber twisting into an agonizing nightmare. Rather than healing the land, the power surging through the caverns warped the native wildlife and plant life into monstrous, aggressive mutants known as deviate beasts.",
+   "body": "Naralex brought his followers to the Barrens' underground springs, hoping to draw on the Emerald Dream and restore the dry plains as woodland. Instead, the Dream ensnared him, and his sleep turned to nightmare. Power coursing through the caverns warped native plants and animals into aggressive mutants called deviate beasts.",
    "spoiler": 0
   },
   {
    "title": "Ebru's Stand",
-   "body": "Perched in the cliff-face cavern overlooking the cave entrance, Ebru and a handful of surviving Disciples of Naralex watch in despair as their numbers dwindle. While some among them dedicate their energy toward awakening their fallen master, Ebru recognizes an immediate crisis. Left unchecked, the rapidly multiplying deviate vipers, shamblers, ravagers, and dreadfangs will spill outward into the Barrens. Ebru therefore recruits passing adventurers to descend into the deep tunnels and cull the aberrant monstrosities at their source.",
+   "body": "Ebru watches from a cliffside cave above the entrance with the few Disciples of Naralex who remain. Their numbers dwindle. Some work to wake their fallen leader, but Ebru sees danger in the deviate vipers, shamblers, ravagers, and dreadfangs. They multiply quickly and may spread into the Barrens. So Ebru asks you to enter the deep tunnels and cull the monsters at their source.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "how to get to ebru",
     "wailing caverns eye cave"
    ],
-   "answer": "Ebru is stationed with a few fellow Disciples of Naralex in a secluded cave perched high above the main mouth of the Wailing Caverns, resting inside what resembles the right eye socket of the skull-shaped rock formation. Reaching her typically requires climbing around the mountain ridge and carefully dropping down onto the upper ledge."
+   "answer": "Ebru waits with a few other Disciples of Naralex in a secluded cave high above the Wailing Caverns' main entrance. The cave lies in what looks like the right eye socket of the skull-shaped rock. Climb around the mountain ridge, then carefully descend to the upper ledge."
   },
   {
    "q": "What caused the beasts to become deviate?",
@@ -48,7 +48,7 @@
     "deviate beasts origin",
     "what corrupted the animals in wc"
    ],
-   "answer": "The creatures were mutated by dark energies seeping from the Emerald Dream. When the druid Naralex linked his consciousness to the subterranean springs to rejuvenate the Barrens, his mind was hijacked by a nightmare, warping the restorative energies into a corrupting force that mutates local wildlife into deviate monsters."
+   "answer": "The beasts changed when Naralex's effort to renew the Barrens went wrong. He linked his mind to the underground springs and the Emerald Dream, but a nightmare seized his thoughts and twisted the restorative power into a force that mutates local wildlife."
   },
   {
    "q": "Who are the Disciples of Naralex?",
@@ -57,7 +57,7 @@
     "naralex followers",
     "who are the druids in wailing caverns"
    ],
-   "answer": "The Disciples of Naralex are a circle of druidic followers who accompanied Naralex to the Wailing Caverns to help revitalize the Barrens. Following his entrapment within the Nightmare, many turned feral or fell into madness, leaving only a tiny remnant of sane disciples trying to undo the disaster."
+   "answer": "The Disciples of Naralex are druids who followed him to the Wailing Caverns to help restore the Barrens. After the Nightmare trapped Naralex, many disciples became feral or lost their minds. Only a small remnant remains sane and tries to undo the disaster."
   },
   {
    "q": "Can Alliance and Horde both take this quest?",
@@ -65,7 +65,7 @@
     "deviate eradication alliance or horde",
     "is deviate eradication neutral"
    ],
-   "answer": "Yes. Ebru and her companions are neutral druids concerned with the preservation of nature and the containment of the Nightmare. They accept assistance from capable champions of either the Horde or the Alliance."
+   "answer": "Yes. Ebru and the druids with her seek to preserve nature and contain the Nightmare. They accept help from capable champions of either the Horde or the Alliance."
   },
   {
    "q": "What creatures do you have to slay for Ebru?",
@@ -74,7 +74,7 @@
     "deviate eradication targets",
     "which deviate to kill"
    ],
-   "answer": "Ebru directs you to hunt down four specific breeds of corrupted fauna deep within the caverns: Deviate Ravagers, Deviate Vipers, Deviate Shamblers, and Deviate Dreadfangs, slaying seven of each."
+   "answer": "Ebru asks you to hunt four kinds of corrupted creatures deep in the caverns: Deviate Ravagers, Deviate Vipers, Deviate Shamblers, and Deviate Dreadfangs. You must slay seven of each."
   },
   {
    "q": "Does completing this quest wake Naralex?",
@@ -82,21 +82,21 @@
     "does this wake naralex",
     "how to wake naralex"
    ],
-   "answer": "No. Ebru's assignment focuses strictly on pest control and damage mitigation by thinning out the dangerous beasts. Awakening Naralex requires a direct ritual performed deep inside his sanctum at the heart of the cavern."
+   "answer": "No. Ebru asks you to thin the dangerous beasts and limit the damage they cause. Waking Naralex takes a separate ritual deep in his sanctum at the heart of the cavern."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "The twisted ecosystem within the caverns serves as a somber warning of what happens when communion with the Emerald Dream turns disastrous."
+   "text": "As a druid, the twisted life in the caverns warns what can happen when communion with the Emerald Dream goes wrong."
   },
   {
    "target": "faction:Horde",
-   "text": "Because the Wailing Caverns sit in the very heart of Kalimdor's central plains, culling these aggressive predators is vital to protecting nearby settlements like the Crossroads."
+   "text": "As a member of the Horde, you can help protect nearby settlements such as the Crossroads by culling the predators in the Wailing Caverns, at the heart of Kalimdor's central plains."
   },
   {
    "target": "race:NightElf",
-   "text": "Witnessing Naralex's noble aspiration collapse into nightmare-born horror is a heavy burden for kaldorei travelers, who feel a duty to assist their stranded kin."
+   "text": "As a night elf, you may feel bound to aid your stranded kin as Naralex's noble hope becomes a nightmare-born horror."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Deviate Eradication"
- ]
+ ],
+ "style": 2
 }

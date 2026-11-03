@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Craftsmen's Terrace"
  },
- "summary": "Craftsmen's Terrace gathers Darnassus's trades along the city's northern edge. Its workshops, trainers, inn, and Argent Dawn embassy draw artisans and visitors alike.",
+ "summary": "Workshops and visitors gather along Darnassus's northern edge at Craftsmen's Terrace. Its trainers, inn, and Argent Dawn embassy serve artisans and travelers.",
  "sections": [
   {
    "title": "The Artisan Heart of Darnassus",
-   "body": "Woodworkers, leathercrafters, alchemists, and other artisans work along the northern edge of Darnassus. Their shops bring together many of the trades that keep the city running, using night elven methods for practical crafts. You can also find an inn, a guild master, and guild petition vendors here. Bridges lead west to the Cenarion Enclave and south to the Warrior's Terrace.",
+   "body": "Woodworkers, leathercrafters, alchemists, and other artisans work along Darnassus's northern edge. Their shops gather the trades that keep the city running, with night elven methods put to practical use. An inn, a guild master, and guild petition vendors serve visitors here. Bridges lead west to the Cenarion Enclave and south to the Warrior's Terrace.",
    "spoiler": 0
   },
   {
    "title": "Outside Ties and Forgotten Lore",
-   "body": "The Argent Dawn keeps an embassy in the Craftsmen's Terrace, coordinating with northern allies against the Scourge. The district's workshops also hold scattered scholarly volumes. Among them are histories of the War of the Ancients, chronicles of the Second War, and treatises on the Old Gods.",
+   "body": "The Argent Dawn keeps an embassy in the Craftsmen's Terrace and coordinates with northern allies against the Scourge. Scattered scholarly volumes rest among the workshops. They include histories of the War of the Ancients, chronicles of the Second War, and treatises on the Old Gods.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is in craftsmens terrace",
     "darnassus trainers"
    ],
-   "answer": "The Craftsmen's Terrace has trade profession trainers, craft supply merchants, an inn, and guild registry services. Travelers come here to learn or practice practical skills in Darnassus."
+   "answer": "Trade profession trainers, craft supply merchants, an inn, and guild registry services can all be found in the Craftsmen's Terrace. Travelers come to learn or practice practical skills in Darnassus."
   },
   {
    "q": "Why is the Argent Dawn present in the Craftsmen's Terrace?",
@@ -37,7 +37,7 @@
     "argent dawn embassy",
     "why argent dawn here"
    ],
-   "answer": "The Argent Dawn keeps an embassy in the Craftsmen's Terrace to liaise with the night elves and recruit aid against the Scourge. It connects the Alliance forces in the west with the war-torn lands of Lordaeron."
+   "answer": "The Argent Dawn keeps an embassy in the Craftsmen's Terrace to liaise with the night elves and recruit aid against the Scourge. It connects Alliance forces in the west with the war-torn lands of Lordaeron."
   },
   {
    "q": "How do you reach the Craftsmen's Terrace?",
@@ -46,7 +46,7 @@
     "craftsmen terrace location",
     "finding craftsmen terrace"
    ],
-   "answer": "The Craftsmen's Terrace occupies Darnassus's northern section. Bridges lead north from the Warrior's Terrace and east from the Cenarion Enclave."
+   "answer": "The Craftsmen's Terrace fills Darnassus's northern section. Bridges lead north from the Warrior's Terrace and east from the Cenarion Enclave."
   },
   {
    "q": "What notable books can be found around the workshops?",
@@ -61,11 +61,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a kaldorei, you can see the terrace's self-reliance on Teldrassil, where ancient craftsmanship meets the daily needs of the new capital."
+   "text": "As a kaldorei, you see the terrace's self-reliance on Teldrassil, where ancient craftsmanship meets the daily needs of the new capital."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance visitor, you find trade supplies, guild services, and lodging in one of Darnassus's most welcoming quarters, alongside foreign representatives."
+   "text": "As an Alliance visitor, you find trade supplies, guild services, and lodging in one of Darnassus's most welcoming quarters. Foreign representatives have a place here too."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
  "attribution": [
   "Craftsmen's Terrace"
  ],
- "style": 1
+ "style": 2
 }

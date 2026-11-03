@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Stratholme (Classic)"
  },
- "summary": "Stratholme, once northern Lordaeron's proudest jewel and the birthplace of the Silver Hand, is now a burning ruin serving as the Scourge's regional capital. Divided between the fanatical Scarlet Crusade and Baron Rivendare's undead legions, the cursed city remains locked in endless, violent war.",
+ "summary": "Scourge and Scarlet Crusade forces fight through Stratholme's burning ruins. Once northern Lordaeron's jewel and the birthplace of the Silver Hand, the city now lies divided between them.",
  "sections": [
   {
    "title": "The Cursed Capital",
-   "body": "Before the Third War, Stratholme was the northern powerhouse of Lordaeron and the sacred birthplace of the Knights of the Silver Hand. Its fate was sealed when Prince Arthas purged the city, slaughtering his own subjects after infected grain brought the plague within its walls. Left smoldering and ruined, Stratholme was claimed by the Scourge. Today, under the overarching authority of the lich Kel'Thuzad and the field command of Baron Rivendare, the city serves as the primary base for undead power in the Plaguelands.",
+   "body": "Stratholme once held great power in northern Lordaeron and gave birth to the Knights of the Silver Hand. During the Third War, Prince Arthas purged the city after infected grain carried plague through its gates. He slaughtered his own subjects. The city smoldered in ruins, then the Scourge claimed it.\n\nKel'Thuzad holds overarching authority, while Baron Rivendare commands the undead forces in the field. From Stratholme, they direct Scourge power across the Plaguelands.",
    "spoiler": 0
   },
   {
    "title": "A Divided Warfront",
-   "body": "Stratholme is split between two vicious factions locked in perpetual bloodshed. To the west, the fanatical Scarlet Crusade has fortified Crusaders' Square and the Scarlet Bastion, commanded by Grand Crusader Saidan Dathrohan. To the east lies the Scourge slaughterhouses and necropolises, defended by towering ziggurats and the death knight Baron Rivendare. Anyone entering the city must navigate this grinding crossfire, surrounded by burning tenements and restless spirits.",
+   "body": "Two vicious factions wage an unending war through Stratholme. In the west, the fanatical Scarlet Crusade holds Crusaders' Square and the Scarlet Bastion under Grand Crusader Saidan Dathrohan. In the east, Scourge slaughterhouses and necropolises stand behind towering ziggurats. The death knight Baron Rivendare guards them.\n\nBurning tenements and restless spirits surround anyone who enters. Across the city, both sides trade blows.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who burned stratholme",
     "stratholme burning"
    ],
-   "answer": "Prince Arthas set fire to the city during his infamous purge in the Third War to stop the plague of undeath from spreading. The fires have never truly gone out, kept smoldering by dark magic, necromancy, and the endless urban warfare between the Scourge and the Scarlet Crusade."
+   "answer": "Prince Arthas set Stratholme ablaze during his purge in the Third War, hoping to stop the plague of undeath from spreading. Dark magic, necromancy, and the unending war between the Scourge and the Scarlet Crusade keep the fires smoldering."
   },
   {
    "q": "Who controls Stratholme right now?",
@@ -37,7 +37,7 @@
     "who is in charge of stratholme",
     "stratholme leaders"
    ],
-   "answer": "Control is divided. Grand Crusader Dathrohan commands a surviving contingent of the Scarlet Crusade fortified in the western bastion, while the death knight Baron Rivendare governs the eastern ruins for the Scourge under Kel'Thuzad."
+   "answer": "Control is divided between the Scarlet Crusade in the west and the Scourge in the east. Grand Crusader Dathrohan leads the Crusaders from their western bastion. Baron Rivendare rules the eastern ruins for the Scourge under Kel'Thuzad."
   },
   {
    "q": "What is the historical significance of the city to paladins?",
@@ -45,7 +45,7 @@
     "silver hand stratholme",
     "paladin history stratholme"
    ],
-   "answer": "Stratholme was the birthplace of the Order of the Silver Hand, where Archbishop Alonsus Faol first consecrated Uther the Lightbringer and the original paladins. Its downfall marks the deepest tragedy in the order's history."
+   "answer": "Stratholme gave birth to the Order of the Silver Hand. There, Archbishop Alonsus Faol first consecrated Uther the Lightbringer and the original paladins. The city's fall marks the deepest tragedy in the order's history."
   },
   {
    "q": "How do you enter the Scourge-controlled side of the city?",
@@ -54,17 +54,17 @@
     "service entrance stratholme",
     "how to get into undead side"
    ],
-   "answer": "While adventurers can fight all the way through from the main gate, the eastern Scourge district can also be reached directly via the Service Entrance. Entering through this back gate requires a key held by Magistrate Barthilas, though skilled rogues, powerful blacksmith skeleton keys, or goblin explosives can also breach it."
+   "answer": "You can fight through the main gate to reach the eastern Scourge district, or enter directly through the Service Entrance. Magistrate Barthilas holds the key to that back gate. Skilled rogues, powerful blacksmith skeleton keys, or goblin explosives can breach it."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "The desecration of Stratholme cuts deeply for paladins; it is both the sacred birthplace of the Silver Hand and the graveyard where Arthas shattered Uther's guidance."
+   "text": "As a paladin, Stratholme's desecration cuts deeply. It is the sacred birthplace of the Silver Hand and the graveyard where Arthas shattered Uther's guidance."
   },
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, Stratholme represents the catastrophic fall of Lordaeron, reminding soldiers and survivors of the terrible cost of the Third War."
+   "text": "As an Alliance soldier or survivor, Stratholme recalls Lordaeron's catastrophic fall and the terrible cost of the Third War."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Stratholme (Classic)"
- ]
+ ],
+ "style": 2
 }

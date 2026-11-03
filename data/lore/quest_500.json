@@ -24,11 +24,11 @@
   ],
   "category": "Hillsbrad Foothills"
  },
- "summary": "Marshal Redpath in Southshore warns that Crushridge ogres have settled by the ruins of Alterac and claimed them. A bounty is offered to anyone who will go north into the Alterac Mountains and hunt them.",
+ "summary": "From Southshore, Marshal Redpath warns that Crushridge ogres have settled near Alterac's ruins. He offers a bounty to anyone who hunts them in the Alterac Mountains.",
  "sections": [
   {
    "title": "Ogres at the Door",
-   "body": "Redpath's scouts report that the Crushridge ogres have dug a mound in the Alterac Mountains, close to the ruined city, and have taken over its ruins as well. Redpath will not let them grow cozy: ogres who feel safe will move down into the foothills, right to Southshore's door. So Redpath sends you north to hunt the ogres and bring back the Dirty Knucklebones they carry, for a bounty.",
+   "body": "Marshal Redpath sends you north after reports that Crushridge ogres have dug a mound in the Alterac Mountains near Alterac's ruined city. They have taken the ruins too. Redpath fears they may grow comfortable there, then move down into the foothills and reach Southshore's door. He offers a bounty for hunting them and bringing back the Dirty Knucklebones they carry.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "redpath motive",
     "ogre bounty reason"
    ],
-   "answer": "Redpath fears the ogres will feel safe in their mound and the ruins of Alterac, and then move down into the foothills, which would put them at Southshore's door."
+   "answer": "Redpath fears the Crushridge ogres may grow comfortable in their mound and Alterac's ruins, then move down into the foothills toward Southshore's door."
   },
   {
    "q": "Where are the Crushridge ogres?",
@@ -49,7 +49,7 @@
     "crushridge ogres where",
     "where to find knucklebones"
    ],
-   "answer": "North, in the Alterac Mountains, where they have built a mound close to the ruined city of Alterac. Redpath's scouts say they hold the ruins too."
+   "answer": "The Crushridge ogres are north in the Alterac Mountains. They have built a mound near Alterac's ruined city, and Redpath's scouts report they hold the ruins too."
   },
   {
    "q": "What does Marshal Redpath want brought back?",
@@ -58,7 +58,7 @@
     "ogre proof",
     "dirty knucklebones"
    ],
-   "answer": "Nine Dirty Knucklebones, which the Crushridge ogres carry, to be brought to Redpath in Southshore."
+   "answer": "Marshal Redpath wants nine Dirty Knucklebones carried by the Crushridge ogres brought back to him in Southshore."
   }
  ],
  "angles": [],
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Crushridge Bounty"
- ]
+ ],
+ "style": 2
 }

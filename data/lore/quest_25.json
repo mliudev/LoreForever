@@ -17,21 +17,21 @@
   "wiki": "Stonetalon Standstill",
   "chain": []
  },
- "summary": "At Mystral Lake, befouled water spirits have halted Horde supply transports on the way to Stonetalon. Mastok Wrilehiss at Splintertree Post sends you to clear the hostile elementals and scout a night elf gazebo overlooking Silverwind Refuge.",
+ "summary": "At Mystral Lake, befouled water spirits have halted Horde supply transports bound for Stonetalon. Mastok Wrilehiss at Splintertree Post sends you to clear the hostile elementals and scout a night elf gazebo overlooking Silverwind Refuge.",
  "sections": [
   {
    "title": "A Choked Supply Route",
-   "body": "The Horde needs lumber, supplies, and messengers to travel between Ashenvale and the Stonetalon Mountains. The Talondeep Path carries them past Mystral Lake’s western shore. Hostile water elementals have stopped travel and battered the supply caravans. Mastok Wrilehiss calls for action to reopen the route before the Horde’s supply lines collapse.",
+   "body": "The Horde needs lumber, supplies, and messengers to travel between Ashenvale and the Stonetalon Mountains. The Talondeep Path passes Mystral Lake’s western shore, where hostile water elementals have halted travel and battered supply caravans. Mastok Wrilehiss calls for action before the Horde’s supply lines collapse.",
    "spoiler": 0
   },
   {
    "title": "The Corrupted Waters",
-   "body": "Water elementals in Mystral Lake have become befouled, aggressive, and unpredictable. They attack those who take the nearby trails. You are sent to cull them and defeat the greater spirit Tideress so the area may become safer. What has tainted the lake’s spirits remains unknown amid the turmoil in Ashenvale’s sacred groves.",
+   "body": "The water elementals in Mystral Lake have grown befouled, aggressive, and unpredictable. They attack travelers on nearby trails, so you are sent to cull them and defeat the greater spirit Tideress. What tainted the lake’s spirits remains unknown amid the turmoil in Ashenvale’s sacred groves.",
    "spoiler": 0
   },
   {
    "title": "Eyes Across the Water",
-   "body": "A night elf gazebo stands on Mystral Lake’s central island, with a clear view across the water to Silverwind Refuge. Horde scouts are sent to assess whether it could serve as a forward observation post. From there, Splintertree’s commanders could watch nearby Alliance movements without being detected.",
+   "body": "A night elf gazebo stands on Mystral Lake’s central island, with a clear view across the water to Silverwind Refuge. Horde scouts are sent to judge whether it could serve as a forward observation post. From there, Splintertree’s commanders could watch nearby Alliance movements unseen.",
    "spoiler": 0
   }
  ],
@@ -101,7 +101,7 @@
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, you know the Horde relies on Ashenvale’s timber and trails to supply its settlements. The disruption of mountain supply lines cannot stand."
+   "text": "As an orc, you know the Horde relies on Ashenvale’s timber and trails to supply its settlements. Disruption of mountain supply lines cannot stand."
   }
  ],
  "keywords": [
@@ -126,5 +126,5 @@
  "attribution": [
   "Stonetalon Standstill"
  ],
- "style": 1
+ "style": 2
 }

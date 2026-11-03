@@ -34,16 +34,16 @@
    "Errands for Kravel"
   ]
  },
- "summary": "Crank Fizzlebub has found that Zanzil's Mixture blended into stout makes a strong drink, called Fool's Stout. He thinks it will be just what Kravel needs. You carry it to Kravel Koalbeard at the Mirage Raceway on the Shimmering Flats, and quickly, because it will not stay fresh.",
+ "summary": "At the Mirage Raceway, Kravel Koalbeard awaits a stout blended with Zanzil's Mixture. Crank Fizzlebub calls it Fool's Stout and believes Kravel needs it, so you carry it to him on the Shimmering Flats before it spoils.",
  "sections": [
   {
    "title": "A Libation for Kravel",
-   "body": "Crank Fizzlebub has found that Zanzil's Mixture, blended into stout, gives a strong drink, the Fool's Stout. Crank thinks it will be just what Kravel needs, and wants to hear how it works. You carry it back to Kravel Koalbeard at the Mirage Raceway on the Shimmering Flats.",
+   "body": "Crank Fizzlebub has blended Zanzil's Mixture into stout, making a potent drink he calls Fool's Stout. He believes Kravel needs it and wants to hear how it works. So you carry the drink to Kravel Koalbeard at the Mirage Raceway on the Shimmering Flats.",
    "spoiler": 0
   },
   {
    "title": "Do Not Let It Sit",
-   "body": "Crank warns you against holding on to the stout for long. The mixture has an odd effect on the stout's yeast, pushing it into high gear, so the drink will not keep fresh forever.",
+   "body": "Crank warns you not to keep the stout long. The mixture drives the yeast into high gear, and the drink will not stay fresh forever.",
    "spoiler": 0
   }
  ],
@@ -54,7 +54,7 @@
     "who starts zanzil's mixture and a fool's stout",
     "quest giver"
    ],
-   "answer": "Crank Fizzlebub in Booty Bay gives you the Fool's Stout to carry."
+   "answer": "Crank Fizzlebub in Booty Bay gives you Fool's Stout to carry."
   },
   {
    "q": "Who receives the Fool's Stout?",
@@ -63,7 +63,7 @@
     "where do i turn this in",
     "kravel location"
    ],
-   "answer": "Kravel Koalbeard, at the Mirage Raceway on the Shimmering Flats in Thousand Needles."
+   "answer": "Kravel Koalbeard receives Fool's Stout at the Mirage Raceway on the Shimmering Flats in Thousand Needles."
   },
   {
    "q": "Why does the drink need to be delivered quickly?",
@@ -72,7 +72,7 @@
     "why is it timed",
     "fermentation effect"
    ],
-   "answer": "Because the mix pushes the yeast hard, and stout that sits too long goes off."
+   "answer": "The mixture drives the yeast hard, so stout that sits too long goes off."
   },
   {
    "q": "What came before this?",
@@ -114,5 +114,6 @@
  ],
  "attribution": [
   "Zanzil's Mixture and a Fool's Stout"
- ]
+ ],
+ "style": 2
 }

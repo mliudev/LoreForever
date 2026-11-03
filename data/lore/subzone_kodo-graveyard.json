@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Kodo Graveyard"
  },
- "summary": "The Kodo Graveyard is a sprawling expanse in central Desolace littered with the massive, bleached remains of ancient beasts. By instinct or tradition, aging and dying kodos make a final pilgrimage to this desolate hollow to collapse among the ribs of their ancestors.",
+ "summary": "In central Desolace, kodos make their way to Kodo Graveyard to die among their ancestors. Their bones cover a broad stretch of grey earth.",
  "sections": [
   {
    "title": "Resting Place of Titans",
-   "body": "Sprawling across the grey earth of Desolace, the Kodo Graveyard holds the colossal skeletons of ancient beasts, some far larger than any living kodo seen today. Dying kodos wander here to spend their final breaths among centuries of accumulated remains. This sacred peace is fragile: scavengers prowl the perimeter, and those who disturb the calcified ribs and skulls risk stirring furious kodo spirits from the dust.",
+   "body": "Ancient bones lie across Kodo Graveyard, some from beasts far larger than any living kodo. When a kodo nears its end, it comes here to spend its last breaths among centuries of remains. Scavengers prowl the edges. Disturb the calcified ribs or skulls, and furious kodo spirits may rise from the dust.",
    "spoiler": 0
   },
   {
    "title": "A Land of Spirits",
-   "body": "The boundary between the living and the dead wears exceptionally thin across the bone fields. Travelers who peer into the spirit realm find restless, towering kodo apparitions wandering silently among the dust storms. Nearby, the Horde maintains Ghost Walker Post, watching over the sacred grounds and keeping a wary eye on the wandering herds and spectral manifestations that linger around the bones.",
+   "body": "Restless spirits wander among Kodo Graveyard’s bones. Those who look into the spirit realm can see towering kodo apparitions moving silently through the dust storms. Nearby, the Horde keeps watch from Ghost Walker Post. They guard the sacred grounds and watch over the herds and spirits that linger among the bones.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "kodo dying grounds",
     "why do kodos gather here"
    ],
-   "answer": "It is an instinctive ritual. When kodos grow ancient, sick, or near death, an innate compulsion drives them across the waste to lie down among the skeletons of their ancestors in this specific corner of Desolace."
+   "answer": "When kodos grow ancient, fall sick, or near death, instinct drives them across the waste to lie among their ancestors’ skeletons in this part of Desolace."
   },
   {
    "q": "Why are some of the skeletons so enormous?",
@@ -37,7 +37,7 @@
     "huge kodo ribs",
     "massive bones desolace"
    ],
-   "answer": "Some of the skeletons are much larger than the living kodos seen nearby. Their exact age and origins are not established."
+   "answer": "Some skeletons are much larger than the living kodos nearby. Their exact age and origins remain unknown."
   },
   {
    "q": "What happens if someone disturbs the bones?",
@@ -46,7 +46,7 @@
     "kodo ghosts",
     "bone collector quest"
    ],
-   "answer": "Disturbing the remains often provokes the spirits of the dead. Vengeful kodo apparitions readily materialize to attack anyone attempting to scavenge or desecrate the resting place."
+   "answer": "Disturbing the remains can provoke the dead. Vengeful kodo apparitions appear and attack those who scavenge or desecrate the resting place."
   },
   {
    "q": "What is Ghost Walker Post?",
@@ -54,17 +54,17 @@
     "horde camp near bones",
     "ghost walker camp"
    ],
-   "answer": "Ghost Walker Post is a small Horde encampment stationed right by the bone fields, allowing Horde travelers to rest, watch over the region's spiritual activity, and guide wanderers through central Desolace."
+   "answer": "Ghost Walker Post is a small Horde camp beside the bone fields. Horde travelers can rest there, watch the region’s spiritual activity, and find guidance through central Desolace."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The kodo is a revered partner and spiritual companion to the tauren, making the desecration of these ancestral resting grounds a grave matter."
+   "text": "As a tauren, you know the kodo as a revered partner and spiritual companion. Desecrating these ancestral resting grounds is a grave matter."
   },
   {
    "target": "profession:Herbalism",
-   "text": "The decaying remains and spiritual resonance of the graveyard make the area around the large skeletons fertile ground for gathering Grave Moss."
+   "text": "As an herbalist, you can gather Grave Moss around the large skeletons. The decaying remains and spiritual resonance enrich the ground."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Kodo Graveyard"
- ]
+ ],
+ "style": 2
 }

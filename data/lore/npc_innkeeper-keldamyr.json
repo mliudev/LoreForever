@@ -8,16 +8,16 @@
   "wiki": "Innkeeper Keldamyr",
   "refs": 1
  },
- "summary": "In Dolanaar, Innkeeper Keldamyr offers food, drink, and a place to rest. Young night elves leaving Shadowglen can find shelter at his inn beneath the boughs of the World Tree.",
+ "summary": "At Dolanaar's inn, Innkeeper Keldamyr gives young night elves leaving Shadowglen food, drink, and a place to rest. His inn offers shelter beneath the boughs of the World Tree.",
  "sections": [
   {
    "title": "Hearth of Dolanaar",
-   "body": "Dolanaar is the first village many newcomers reach after leaving the sheltered glade of Aldrassil. At the village's central inn, Innkeeper Keldamyr offers bread, spring water, and soft beds beneath Teldrassil's canopy. Travelers, sentinels, and young novices bound for Darnassus pause at his counter to rest, bind their Hearthstones, and gather rations for the journey through the boughs.",
+   "body": "Many newcomers reach Dolanaar first after leaving Aldrassil's sheltered glade. At the village's central inn, Innkeeper Keldamyr offers bread, spring water, and soft beds beneath Teldrassil's canopy. Travelers, sentinels, and young novices bound for Darnassus pause at his counter. They rest, bind their Hearthstones, and gather rations for the journey through the boughs.",
    "spoiler": 0
   },
   {
    "title": "Town Deliveries",
-   "body": "An inn high among the branches depends on steady supplies from nearby settlements and tradesfolk. Couriers bringing goods are often sent to Keldamyr's desk, tying his inn to the daily trade that keeps Dolanaar running.",
+   "body": "An inn high among the branches needs steady supplies from nearby settlements and tradesfolk. Couriers bringing goods are often sent to Keldamyr's desk. His inn is tied to the daily trade that keeps Dolanaar running.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is keldamyr",
     "dolanaar innkeeper location"
    ],
-   "answer": "You can find Keldamyr inside the main inn at the heart of Dolanaar, the first major settlement south of Shadowglen on Teldrassil's boughs."
+   "answer": "You can find Keldamyr inside the main inn at Dolanaar's heart, the first major settlement south of Shadowglen on Teldrassil's boughs."
   },
   {
    "q": "What services does Innkeeper Keldamyr offer?",
@@ -73,5 +73,5 @@
  "attribution": [
   "Innkeeper Keldamyr"
  ],
- "style": 1
+ "style": 2
 }

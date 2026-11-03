@@ -17,16 +17,16 @@
   "wiki": "The Guns of Northwatch (Classic)",
   "chain": []
  },
- "summary": "Captain Thalo'thas Brightsun in Ratchet wants the guns at Northwatch Hold silenced. Alliance gunners there have been blasting merchant vessels, so he sends you down the Merchant Coast to strike the artillery officers and bring back badges from fallen infantry.",
+ "summary": "Captain Thalo'thas Brightsun in Ratchet wants Northwatch Hold's guns silenced. Its gunners have been firing on merchant vessels, so he sends you down the Merchant Coast to strike the artillery officers and bring back badges from fallen infantry.",
  "sections": [
   {
    "title": "A Threat Along the Coast",
-   "body": "Northwatch Hold guards the southern Barrens coast for the humans of Theramore. Its soldiers watch Horde activity in Kalimdor, but fear has made them see every unfamiliar sail as a threat. The guns on the ramparts fire without warning at passing ships, endangering Ratchet's merchant traffic and its privateering vessels.",
+   "body": "Northwatch Hold guards the southern Barrens coast for the humans of Theramore. Its soldiers watch Horde activity in Kalimdor. Yet fear makes them see every unfamiliar sail as a threat. Their guns fire without warning at passing ships, putting Ratchet's merchant traffic and privateering vessels in danger.",
    "spoiler": 0
   },
   {
    "title": "Silencing the Ramparts",
-   "body": "Captain Brightsun wants the attacks on his ships answered. Captain Fairmount commands Northwatch, with Whessan and Smythe directing its guns. Defeating them and taking Theramore medals from the garrison throws the artillery into disarray and gives Ratchet's ships room to travel along the Merchant Coast.",
+   "body": "Captain Brightsun wants an answer for the attacks on his ships. Captain Fairmount commands Northwatch, while Whessan and Smythe direct its guns. Defeat them and take Theramore medals from the garrison. The artillery will fall into disarray, giving Ratchet's ships room to travel along the Merchant Coast.",
    "spoiler": 0
   }
  ],
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you can strike Northwatch Hold and blunt an aggressive Alliance fortification in the Barrens, securing Kalimdor's borders for your people."
+   "text": "As a member of the Horde, you can strike Northwatch Hold and blunt an aggressive Alliance fortification in the Barrens. That helps secure Kalimdor's borders for your people."
   },
   {
    "target": "race:Human",
@@ -118,5 +118,5 @@
  "attribution": [
   "The Guns of Northwatch (Classic)"
  ],
- "style": 1
+ "style": 2
 }

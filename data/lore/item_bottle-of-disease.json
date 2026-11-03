@@ -10,16 +10,16 @@
    "quest:1011"
   ]
  },
- "summary": "Forsaken alchemists brew disease near the Dor'Danil Barrow Den in Ashenvale. The bottles hold virulent concoctions found at their encampment.",
+ "summary": "Near Dor'Danil Barrow Den in Ashenvale, Forsaken alchemists brew disease. Their encampment holds bottles of virulent concoctions.",
  "sections": [
   {
    "title": "Blight in the Sacred Woods",
-   "body": "Near the Dor'Danil Barrow Den, Forsaken alchemists brew contagions in an outpost beyond the Warsong Outriders' front lines. The bottles give night elves at Forest Song evidence of an offensive aimed at sickening the woodland soil and wildlife instead of meeting their sentinels in open combat.",
+   "body": "Beyond the Warsong Outriders' front lines, Forsaken alchemists brew contagions near Dor'Danil Barrow Den. The bottles give the night elves at Forest Song proof of an attack aimed at the woods. The Forsaken seek to sicken the soil and wildlife instead of facing the sentinels in open combat.",
    "spoiler": 0
   },
   {
    "title": "Kayneth Stillwind's Investigation",
-   "body": "Kayneth Stillwind, a night elf sentry at Forest Song, seeks proof of Forsaken ambitions. He wants a Bottle of Disease so he can study its contents. The night elves fear the mixtures could corrupt sacred barrows and break the minds and bodies of the forest's defenders.",
+   "body": "Kayneth Stillwind is a night elf sentry at Forest Song. He seeks proof of Forsaken ambitions and wants a Bottle of Disease to study its contents. The night elves fear the mixtures could corrupt sacred barrows and break the minds and bodies of the forest's defenders.",
    "spoiler": 1
   }
  ],
@@ -40,7 +40,7 @@
     "bottle of disease location",
     "forsaken camp ashenvale"
    ],
-   "answer": "The bottles are in an isolated Forsaken encampment south of Forest Song, near the entrance to Dor'Danil Barrow Den in eastern Ashenvale."
+   "answer": "You can find the bottles in an isolated Forsaken encampment south of Forest Song, near the entrance to Dor'Danil Barrow Den in eastern Ashenvale."
   },
   {
    "q": "Who wants the Bottle of Disease?",
@@ -49,7 +49,7 @@
     "turn in bottle of disease",
     "kayneth stillwind quest"
    ],
-   "answer": "Kayneth Stillwind, a night elf protector at Forest Song, wants you to retrieve a bottle so he can test its contents and learn the Horde's intentions."
+   "answer": "Kayneth Stillwind, a night elf protector at Forest Song, wants you to retrieve a bottle. He hopes to test its contents and learn the Horde's intentions."
   },
   {
    "q": "Why are the Forsaken brewing diseases in Ashenvale?",
@@ -58,17 +58,17 @@
     "undead goal in ashenvale",
     "forsaken barrow dens"
    ],
-   "answer": "The night elves suspect the Forsaken mean to infect the sacred forest and desecrate nearby barrow dens, poisoning the ecosystem and weakening night elven resistance from within."
+   "answer": "The night elves suspect the Forsaken mean to infect the sacred forest and desecrate nearby barrow dens. They fear this will poison the ecosystem and weaken night elven resistance from within."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you know that undead contagion on Ashenvale's soil is an unforgivable affront, especially near Dor'Danil Barrow Den."
+   "text": "As a night elf, you know undead contagion on Ashenvale's soil is an unforgivable affront, especially near Dor'Danil Barrow Den."
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you know blighted mixtures and artificial plagues oppose natural balance. You must act swiftly to preserve the woodland."
+   "text": "As a druid, you know blighted mixtures and artificial plagues oppose natural balance. Act swiftly to preserve the woodland."
   }
  ],
  "keywords": [
@@ -95,5 +95,5 @@
   "Bottle of Disease",
   "Forsaken Diseases"
  ],
- "style": 1
+ "style": 2
 }

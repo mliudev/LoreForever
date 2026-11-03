@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Valley of Fangs"
  },
- "summary": "The Valley of Fangs is a rugged, narrow pass carved between towering rock pillars in the central Badlands. Known for the vicious predators that prowl its dusty floor, it also shelters a small, isolated encampment of wandering tinkerers and exiles.",
+ "summary": "In the Badlands, a small camp keeps to the Valley of Fangs while predators roam nearby.",
  "sections": [
   {
    "title": "A Treacherous Pass",
-   "body": "Situated between two imposing stone formations in the heart of the Badlands, the Valley of Fangs earns its name from both the sharp silhouettes of its surrounding cliffs and the dangerous beasts roaming its floor. Feral crag coyotes, prowling cougars, and vicious wolves stalk the dusty corridor, making transit hazardous for lone travelers. Despite the hostile wildlife, a handful of wayward figures\u2014including the banished orc Martek the Exiled and his goblin associates Rigglefuzz and Jazzrik\u2014have pitched an informal camp here, tinkering away in seclusion far from the regional outposts.",
+   "body": "The Valley of Fangs runs between two great stone formations in the heart of the Badlands. Feral crag coyotes, prowling cougars, and vicious wolves stalk its dusty floor, so lone travelers face danger in the pass.\n\nA handful of wayward figures camp there. Martek the Exiled, a banished orc, keeps company with the goblins Rigglefuzz and Jazzrik. Far from the regional outposts, they tinker in seclusion.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is valley of fangs",
     "valley of fangs map"
    ],
-   "answer": "The Valley of Fangs lies in the central Badlands, tucked between two massive natural rock formations south of the main northern ridgeline."
+   "answer": "The Valley of Fangs lies in the central Badlands, between two massive natural rock formations south of the main northern ridgeline."
   },
   {
    "q": "Who lives in the Valley of Fangs?",
@@ -32,7 +32,7 @@
     "valley of fangs camp",
     "valley of fangs npcs"
    ],
-   "answer": "A small wayside camp can be found here, home to the lone orc Martek the Exiled and his tinkering goblin companions, Rigglefuzz and Jazzrik."
+   "answer": "Martek the Exiled, a lone orc, and his goblin companions Rigglefuzz and Jazzrik live at a small wayside camp."
   },
   {
    "q": "Why is the valley dangerous to travel through?",
@@ -41,7 +41,7 @@
     "valley of fangs mobs",
     "what attacks you in valley of fangs"
    ],
-   "answer": "The valley floor is heavily populated by aggressive wildlife native to the Badlands, notably predatory cougars, wolves, and coyotes that ambush wanderers in the narrow terrain."
+   "answer": "Cougars, wolves, and coyotes roam the valley floor and ambush wanderers in its narrow terrain."
   },
   {
    "q": "Why did Martek and the goblins set up here?",
@@ -50,17 +50,17 @@
     "why camp in valley of fangs",
     "martek the exiled"
    ],
-   "answer": "Cast out and wandering the wastes, Martek the Exiled found a quiet, defensible niche between the rock walls alongside goblin associates willing to trade and tinker away from the prying eyes of major factions."
+   "answer": "Cast out and wandering the wastes, Martek the Exiled found a quiet, defensible niche between the rock walls. His goblin companions are willing to trade and tinker away from the prying eyes of major factions."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The goblin tinkerers camped in the Valley of Fangs draw curious engineers seeking unconventional know-how in the middle of the arid wastes."
+   "text": "As an engineer, you may find goblin tinkerers at the Valley of Fangs camp, working far from the arid wastes' outposts."
   },
   {
    "target": "class:Hunter",
-   "text": "The dense population of tough cougars and wolves makes the valley a prime hunting ground for tracking quarry and taming rugged Badlands beasts."
+   "text": "As a hunter, you can track cougars and wolves through the valley and tame rugged Badlands beasts."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  ],
  "attribution": [
   "Valley of Fangs"
- ]
+ ],
+ "style": 2
 }

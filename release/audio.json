@@ -2,22 +2,22 @@
   "_readme": "Which zip on the public repo's \"audio\" release holds each voice pack's recordings, which aren't in its git history (LOR-133). scripts/release.sh writes it with each release (scripts/audio_assets.py manifest); the release workflow puts the recordings back from it (fetch). Don't edit it by hand.",
   "packs": {
     "LoreForever_Voice_Default": {
-      "asset": "LoreForever_Voice_Default-a443481b6e2f2ec4.zip",
-      "fingerprint": "a443481b6e2f2ec4ee138b2abfdb2f8b7a26eca8421d64e6f451eda2202f0fa5",
-      "files": 301,
-      "bytes": 134510144
+      "asset": "LoreForever_Voice_Default-f8b1aa908de98b37.zip",
+      "fingerprint": "f8b1aa908de98b37158a2154bc461138924bac22ca183a92c338f41a575ed486",
+      "files": 299,
+      "bytes": 124914281
     },
     "LoreForever_Voice_Default_Alliance": {
-      "asset": "LoreForever_Voice_Default_Alliance-ecbf9c049e7fe0a3.zip",
-      "fingerprint": "ecbf9c049e7fe0a300f4442488ca167c9ac8971f1162f2c44ca187922940d67d",
-      "files": 604,
-      "bytes": 171852779
+      "asset": "LoreForever_Voice_Default_Alliance-c17063cf33798cb4.zip",
+      "fingerprint": "c17063cf33798cb44d5f279a7cbb1edfd0ed802414247209507d204cabdc44ac",
+      "files": 595,
+      "bytes": 168132117
     },
     "LoreForever_Voice_Default_Horde": {
-      "asset": "LoreForever_Voice_Default_Horde-402e03230a9f1252.zip",
-      "fingerprint": "402e03230a9f12529e04fa8b151db7c3fb5b5bbebc1e67f6fb8f452437055ddc",
-      "files": 417,
-      "bytes": 120954736
+      "asset": "LoreForever_Voice_Default_Horde-46584b82a8656e64.zip",
+      "fingerprint": "46584b82a8656e6438826af54083d588be2c1cd45d964717f408a13d36a4cb54",
+      "files": 414,
+      "bytes": 119557308
     },
     "LoreForever_Voice_Default_ukUA": {
       "asset": "LoreForever_Voice_Default_ukUA-5de5d7915e08c9ad.zip",
@@ -38,22 +38,22 @@
       "bytes": 358094613
     },
     "LoreForever_Voice_Female": {
-      "asset": "LoreForever_Voice_Female-61049af68f1a6997.zip",
-      "fingerprint": "61049af68f1a699771859137f60f8a642c196ed743755eb883ddd294b671487f",
-      "files": 300,
-      "bytes": 152327415
+      "asset": "LoreForever_Voice_Female-5e58040c93bae72f.zip",
+      "fingerprint": "5e58040c93bae72fdf24f3a996db0c16357eff46e544d09f7c26cf372f57094e",
+      "files": 299,
+      "bytes": 140509838
     },
     "LoreForever_Voice_Female_Alliance": {
-      "asset": "LoreForever_Voice_Female_Alliance-e69fac05cec60a5e.zip",
-      "fingerprint": "e69fac05cec60a5e775a9e0e3c99eeb16f0dc2e0d96e6ad85de08c927215ad91",
-      "files": 604,
-      "bytes": 200864017
+      "asset": "LoreForever_Voice_Female_Alliance-a03dbe38fde9fba4.zip",
+      "fingerprint": "a03dbe38fde9fba452ef160fd660305308a8128ef7bb48b8c873669cdbd053de",
+      "files": 595,
+      "bytes": 194976449
     },
     "LoreForever_Voice_Female_Horde": {
-      "asset": "LoreForever_Voice_Female_Horde-a2d181eb6948ea8e.zip",
-      "fingerprint": "a2d181eb6948ea8ee7e8822a26c8b5e86e27bbd03c6eeb80cb0fb29220321d63",
-      "files": 417,
-      "bytes": 147660435
+      "asset": "LoreForever_Voice_Female_Horde-6544f29965c235cc.zip",
+      "fingerprint": "6544f29965c235cc89648f6bb1cc889726dcc7519d6e3acec197530ebf16e6f4",
+      "files": 414,
+      "bytes": 145592345
     },
     "LoreForever_Voice_Female_Quests": {
       "asset": "LoreForever_Voice_Female_Quests-06db5f0d610058c4.zip",
@@ -104,76 +104,76 @@
       "bytes": 413829713
     },
     "LoreForever_Voice_Default_MorePlaces": {
-      "asset": "LoreForever_Voice_Default_MorePlaces-4b7168f190a55e2f.zip",
-      "fingerprint": "4b7168f190a55e2f6bc9d928ad0cb6a0bf06e096f947508d615b081625962955",
-      "files": 520,
-      "bytes": 160111375
+      "asset": "LoreForever_Voice_Default_MorePlaces-ae91d6934de2c638.zip",
+      "fingerprint": "ae91d6934de2c6382e4bf5c92bdd4eef9e19516160c99b81172893e528a2a46e",
+      "files": 605,
+      "bytes": 144941299
     },
     "LoreForever_Voice_Default_MorePeople": {
-      "asset": "LoreForever_Voice_Default_MorePeople-11804f27e62d5ceb.zip",
-      "fingerprint": "11804f27e62d5ceb96f62e129c7b468bb00bd77fb116ec928c688900306b56e5",
-      "files": 757,
-      "bytes": 190335590
+      "asset": "LoreForever_Voice_Default_MorePeople-83ead88573d1b3f5.zip",
+      "fingerprint": "83ead88573d1b3f5fac71500ea6fee3926b313b4b3aad38ac666eb8bdd2e5d2c",
+      "files": 894,
+      "bytes": 209807531
     },
     "LoreForever_Voice_Female_MorePlaces": {
-      "asset": "LoreForever_Voice_Female_MorePlaces-5c88999324b04587.zip",
-      "fingerprint": "5c88999324b04587432816d3bc4b2902402d13254996e709c454bf049df5092d",
-      "files": 520,
-      "bytes": 170249599
+      "asset": "LoreForever_Voice_Female_MorePlaces-43e9ff46d09096cc.zip",
+      "fingerprint": "43e9ff46d09096ccd4911f4993733fd70296049c830ed01d0f3ebc3787b1e1bb",
+      "files": 604,
+      "bytes": 152020501
     },
     "LoreForever_Voice_Female_MorePeople": {
-      "asset": "LoreForever_Voice_Female_MorePeople-11059a15acbeec15.zip",
-      "fingerprint": "11059a15acbeec15811ff90d341061ac060ffb82b294227aea28d3c192f87640",
-      "files": 757,
-      "bytes": 201493475
+      "asset": "LoreForever_Voice_Female_MorePeople-04b234c235191605.zip",
+      "fingerprint": "04b234c2351916056cc96711734a91fde3410718e2b62858366e1d865c16f6b3",
+      "files": 892,
+      "bytes": 219203912
     },
     "LoreForever_Voice_Default_MoreItems": {
-      "asset": "LoreForever_Voice_Default_MoreItems-724d2fe72b3a4597.zip",
-      "fingerprint": "724d2fe72b3a45974b3ae3a562e30922c63097c0833910cfce48664bac56453d",
-      "files": 963,
-      "bytes": 199378123
+      "asset": "LoreForever_Voice_Default_MoreItems-0b35a27f107b2121.zip",
+      "fingerprint": "0b35a27f107b2121e22f5db7ea54ee3c305b7e0f89138c6ad1660ef751371c59",
+      "files": 999,
+      "bytes": 204108874
     },
     "LoreForever_Voice_Female_MoreItems": {
-      "asset": "LoreForever_Voice_Female_MoreItems-40114658a48ebc3c.zip",
-      "fingerprint": "40114658a48ebc3cf5233b03f7326161a4b24876f1b5d0b6a781a37ff15b30f4",
-      "files": 963,
-      "bytes": 210857903
+      "asset": "LoreForever_Voice_Female_MoreItems-ea95748e07cb5b7c.zip",
+      "fingerprint": "ea95748e07cb5b7cc786c805786b06024c375c5ce9e8a71cdf4c843fe8097066",
+      "files": 999,
+      "bytes": 213508925
     },
     "LoreForever_Voice_Default_MoreQuests1": {
-      "asset": "LoreForever_Voice_Default_MoreQuests1-9add897aefecac06.zip",
-      "fingerprint": "9add897aefecac064a930d50bef75011513bad904f1f836374e06438e0ad86bb",
-      "files": 1261,
-      "bytes": 314158354
+      "asset": "LoreForever_Voice_Default_MoreQuests1-a2df1eaecddff6b7.zip",
+      "fingerprint": "a2df1eaecddff6b7cbbbd2fdcde6f359b360990e0be1961e53909cae35125311",
+      "files": 1421,
+      "bytes": 319274002
     },
     "LoreForever_Voice_Female_MoreQuests1": {
-      "asset": "LoreForever_Voice_Female_MoreQuests1-c5efc9cb9678e865.zip",
-      "fingerprint": "c5efc9cb9678e86586039f64ba52e4410f6a10f5cff3693f12d2a6695f55e1af",
-      "files": 1238,
-      "bytes": 321399351
+      "asset": "LoreForever_Voice_Female_MoreQuests1-ebd493f587c55c7d.zip",
+      "fingerprint": "ebd493f587c55c7da1b2ea863de20479ad3d3fd6f961fbd81caf86a28a78b7f5",
+      "files": 1421,
+      "bytes": 334100542
     },
     "LoreForever_Voice_Default_MoreQuests2": {
-      "asset": "LoreForever_Voice_Default_MoreQuests2-bef2d60027248bcb.zip",
-      "fingerprint": "bef2d60027248bcb83cd4e3df81c823a75c13c21a3e9b15d1f65cc2c1b9abd56",
-      "files": 1523,
-      "bytes": 384092637
+      "asset": "LoreForever_Voice_Default_MoreQuests2-eaae23b795bc3c92.zip",
+      "fingerprint": "eaae23b795bc3c92ba05683a2c23fb10951c48b55cba86c47603b3eafccd087e",
+      "files": 1812,
+      "bytes": 393556953
     },
     "LoreForever_Voice_Female_MoreQuests2": {
-      "asset": "LoreForever_Voice_Female_MoreQuests2-5902c0f36e3cfb92.zip",
-      "fingerprint": "5902c0f36e3cfb92fb8ec9ecb04a56a13216ae48bf9acdb5e98e59f4abc87b0e",
-      "files": 1523,
-      "bytes": 407574682
+      "asset": "LoreForever_Voice_Female_MoreQuests2-4d71f9e210358243.zip",
+      "fingerprint": "4d71f9e2103582432d993ba1252c4df469e6d6b3926c2686f1846477832cf1bf",
+      "files": 1813,
+      "bytes": 410517269
     },
     "LoreForever_Voice_Default_MoreQuests3": {
-      "asset": "LoreForever_Voice_Default_MoreQuests3-008877e901740a73.zip",
-      "fingerprint": "008877e901740a73ee663175ff9c77b9239a62a88bd6b61962178c3d015f7392",
-      "files": 487,
-      "bytes": 72638790
+      "asset": "LoreForever_Voice_Default_MoreQuests3-61cbeaa7f5ba2eba.zip",
+      "fingerprint": "61cbeaa7f5ba2eba6085d3b32cbed54f5404160e311bfe79b9852daa4a75c987",
+      "files": 1006,
+      "bytes": 146645277
     },
     "LoreForever_Voice_Female_MoreQuests3": {
-      "asset": "LoreForever_Voice_Female_MoreQuests3-193d1cca3600540d.zip",
-      "fingerprint": "193d1cca3600540dce1458e30de12009f57c9ce9b03737696a8493fef3a24fcf",
-      "files": 488,
-      "bytes": 77613426
+      "asset": "LoreForever_Voice_Female_MoreQuests3-32ec5dc4d38e6c07.zip",
+      "fingerprint": "32ec5dc4d38e6c07cdf24a934a282a43563ec8720044bb2b5789e46d8f097e4d",
+      "files": 1008,
+      "bytes": 154777569
     },
     "LoreForever_Voice_Original": {
       "asset": "LoreForever_Voice_Original-8cd73f323386c36f.zip",

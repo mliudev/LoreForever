@@ -23,16 +23,16 @@
    "They Call Him Smiling Jim"
   ]
  },
- "summary": "An iron shield, blackened by fire, is fixed to the crumbling chimney of the burned Shady Rest Inn. Captain Garran Vimes in Theramore is waiting on evidence from the inn's site.",
+ "summary": "At the burned Shady Rest Inn, a fire-blackened shield hangs from the crumbling chimney. Captain Garran Vimes in Theramore awaits evidence from the ruins.",
  "sections": [
   {
    "title": "A Shield on the Chimney",
-   "body": "The Shady Rest Inn burned, and one of the few parts left standing is a crumbling chimney. A fire-blackened iron shield is fixed to its brick, and it can be removed. Captain Garran Vimes in Theramore wants evidence from the inn's site.",
+   "body": "Few parts of the burned Shady Rest Inn remain beyond a crumbling chimney. A fire-blackened iron shield is still fixed to its brick, and can be removed. Captain Garran Vimes in Theramore awaits evidence from the inn site.",
    "spoiler": 0
   },
   {
    "title": "The Captain's Verdict",
-   "body": "Vimes says he is no expert on how arms and armor are made, only on how they are used. To the captain, the shield looks as ordinary as any, apart from the damage left by the fire.",
+   "body": "Captain Garran Vimes knows how arms and armor are used, though he does not claim to know how they are made. The shield looks ordinary to him, save for the damage left by the fire.",
    "spoiler": 1
   }
  ],
@@ -44,7 +44,7 @@
     "black shield location",
     "find black shield"
    ],
-   "answer": "Fixed to the brick of the crumbling chimney, among the few parts of the burned Shady Rest Inn still standing."
+   "answer": "The black shield is fixed to the brick of the crumbling chimney, one of the few parts of the burned Shady Rest Inn still standing."
   },
   {
    "q": "Who wants evidence from the Shady Rest Inn?",
@@ -53,7 +53,7 @@
     "shady rest investigator",
     "who is garran vimes"
    ],
-   "answer": "Captain Garran Vimes in Theramore, who is waiting for proof from the ruins of the inn."
+   "answer": "Captain Garran Vimes in Theramore wants evidence from the Shady Rest Inn ruins."
   }
  ],
  "angles": [],
@@ -72,5 +72,6 @@
  ],
  "attribution": [
   "The Black Shield (Alliance)"
- ]
+ ],
+ "style": 2
 }

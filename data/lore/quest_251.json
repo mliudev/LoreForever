@@ -17,11 +17,11 @@
   "wiki": "Translate Abercrombie's Note",
   "chain": []
  },
- "summary": "In Darkshire, Translate Abercrombie's Note brings a strange letter before the town's leaders. Mayor Ello Ebonlocke turns to Sirra Von'Indi, the scholar who knows obscure scripts.",
+ "summary": "In Darkshire, a strange letter comes before the town's leaders for translation. Mayor Ello Ebonlocke turns to Sirra Von'Indi, the scholar who knows obscure scripts.",
  "sections": [
   {
    "title": "An Indecipherable Message",
-   "body": "Abercrombie sends Mayor Ello Ebonlocke a sealed letter from his home. Ebonlocke expects an eccentric plea or bitter ramblings from the cemetery hermit, but the parchment bears strange writing that ordinary Common cannot explain. Without the learning to read ancient or obscure languages, the mayor will not dismiss it. Even a mad hermit may pose a danger in Duskwood.",
+   "body": "Abercrombie sends Mayor Ello Ebonlocke a sealed letter from his home. Ebonlocke expects an eccentric plea or bitter ramblings from the cemetery hermit, but the parchment bears strange writing that ordinary Common cannot explain. The mayor cannot read ancient or obscure languages, so he will not dismiss it. Even a mad hermit may pose a danger in Duskwood.",
    "spoiler": 0
   },
   {
@@ -31,7 +31,7 @@
   },
   {
    "title": "A Glimpse into the Hermit's Mind",
-   "body": "Abercrombie's encoded letter points to a mind beyond the frail, reclusive old man who asks for supplies and protection from ghouls. Its message warns of a reckoning, and Darkshire is ill prepared to face it.",
+   "body": "Abercrombie's encoded letter reveals a mind beyond the frail, reclusive old man who asks for supplies and protection from ghouls. Its message warns of a reckoning, and Darkshire is ill prepared to face it.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "ebonlocke letter translate",
     "why need translator"
    ],
-   "answer": "The note bears strange writing that Mayor Ello Ebonlocke cannot read, so he sends it to Sirra Von'Indi, Darkshire's scholar of obscure scripts."
+   "answer": "Mayor Ello Ebonlocke cannot read the note's strange writing, so he sends it to Sirra Von'Indi, Darkshire's scholar of obscure scripts."
   },
   {
    "q": "Who is Sirra Von'Indi?",
@@ -85,7 +85,7 @@
     "why did abercrombie send letter",
     "hermit note purpose"
    ],
-   "answer": "Abercrombie's note is written in a script Ello cannot read. Sirra Von'Indi's translation reveals what the hermit wrote."
+   "answer": "Abercrombie wrote to Mayor Ebonlocke in a script Ello cannot read. Sirra Von'Indi's translation reveals what the hermit wrote."
   }
  ],
  "angles": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Translate Abercrombie's Note"
  ],
- "style": 1
+ "style": 2
 }

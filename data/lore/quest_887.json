@@ -22,11 +22,11 @@
    "Stolen Booty"
   ]
  },
- "summary": "Along the Merchant Coast south of Ratchet, Southsea Freebooters strike goblin trading vessels. Gazlowe hires adventurers to attack their camp and curb the raids.",
+ "summary": "Along the Merchant Coast south of Ratchet, pirates strike goblin trading vessels. Gazlowe hires adventurers to attack the Southsea Freebooters' camp and curb the raids.",
  "sections": [
   {
    "title": "A Thorn in Gazlowe's Side",
-   "body": "Ratchet's trade suffers from pirates on the Merchant Coast. The port sits in central Kalimdor, where merchant vessels travel between Kalimdor and the eastern continents. South of town, Southsea Freebooters hold a fortified beach camp. From there, they attack goblin cargo ships arriving and departing, cutting into profits and disrupting local shipping lanes.",
+   "body": "Pirates on the Merchant Coast are hurting Ratchet's trade. The port lies in central Kalimdor, along the route merchant vessels take between Kalimdor and the eastern continents. South of town, the Southsea Freebooters hold a fortified beach camp. From there, they attack goblin cargo ships coming and going, cutting profits and disrupting local shipping lanes.",
    "spoiler": 0
   },
   {
@@ -52,7 +52,7 @@
     "gazlowe motivation",
     "ratchet pirate problem"
    ],
-   "answer": "Gazlowe oversees Ratchet's port for the Steamwheedle Cartel. Each merchant ship the Freebooters intercept or plunder cuts into cartel revenue and weakens Ratchet's reputation as a secure trading haven."
+   "answer": "Gazlowe oversees Ratchet's port for the Steamwheedle Cartel. Each merchant ship the Freebooters intercept or plunder cuts cartel revenue and weakens Ratchet's reputation as a secure trading haven."
   },
   {
    "q": "Where is the pirate camp located?",
@@ -79,7 +79,7 @@
     "southsea freebooters follow up",
     "missing shipment"
    ],
-   "answer": "Culling the camp's defenders solves only part of the problem. After the brigands and cannoneers are routed, Gazlowe turns to tracking down the valuable cargo they hijacked, leading to investigations into his missing shipments."
+   "answer": "Routing the camp's defenders solves only part of the problem. Once the brigands and cannoneers are driven off, Gazlowe turns to tracking the valuable cargo they hijacked, leading to investigations into his missing shipments."
   },
   {
    "q": "Are the Southsea Freebooters affiliated with the Alliance or Horde?",
@@ -94,7 +94,7 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you find opportunities for cutpurses in the Southsea Freebooters' camp, if you can slip past alert watchmen and heavy coastal artillery."
+   "text": "As a rogue, you may find chances to pick pockets in the Southsea Freebooters' camp, if you can slip past alert watchmen and heavy coastal artillery."
   },
   {
    "target": "faction:Horde",
@@ -123,5 +123,5 @@
  "attribution": [
   "Southsea Freebooters (Classic)"
  ],
- "style": 1
+ "style": 2
 }

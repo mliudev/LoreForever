@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Deadman's Crossing"
  },
- "summary": "Deadman's Crossing is an ominous junction set within the bleak canyon of Deadwind Pass. Branching between Duskwood, the Swamp of Sorrows, and the haunted tower of Karazhan, it serves as a grim threshold marked by gallows and warning signs. Despite its gruesome appearance, the path remains a vital thoroughfare for travelers moving across the southern Eastern Kingdoms.",
+ "summary": "At Deadman's Crossing, travelers still follow the packed road beneath a tree hung with the dead. The junction in Deadwind Pass links Duskwood, the Swamp of Sorrows, and the track to Karazhan, carrying travelers across the southern Eastern Kingdoms.",
  "sections": [
   {
    "title": "A Grim Intersection",
-   "body": "Situated at the eastern crossroads of Deadwind Pass, Deadman's Crossing links the shadows of Duskwood with the murky depths of the Swamp of Sorrows, while a foreboding southern track ascends toward the haunted tower of Karazhan. The crossing takes its name from the twisted hangman's tree planted at the road's fork, where a pair of rotting corpses dangle overhead as a stark warning to all who pass. Beside the tree, battered wooden signs offer blunt advice to travelers, urging them to turn back and abandon hope. The canyon itself is thick with hostile beasts and dark sorceries, yet travelers moving steadfastly along the packed dirt road will find the crossing itself oddly unmolested, so long as they do not wander into the blighted rocks.",
+   "body": "Deadman's Crossing joins the roads through eastern Deadwind Pass. The western road runs toward Duskwood and the eastern road toward the Swamp of Sorrows. South, a track climbs toward Karazhan. At the fork stands a twisted hangman's tree, its branches bearing two rotting corpses.\n\nBattered wooden signs warn travelers to turn back and abandon hope. Hostile beasts and dark sorceries haunt the canyon, yet the packed dirt road through the crossing remains clear. Travelers who keep to it avoid the blighted rocks.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "crossing directions",
     "deadmans crossing paths"
    ],
-   "answer": "Heading west takes you out of the pass into the haunted woods of Duskwood. Heading east leads directly into the marshes of the Swamp of Sorrows. Following the winding southern path takes you deep into the heart of Deadwind Pass toward the cursed ruins and grand tower of Karazhan."
+   "answer": "The western road from Deadman's Crossing leads to Duskwood, and the eastern road leads to the Swamp of Sorrows. The winding southern path crosses Deadwind Pass toward Karazhan."
   },
   {
    "q": "Who are the corpses hanging from the tree?",
@@ -32,7 +32,7 @@
     "dead bodies on tree",
     "who was hanged"
    ],
-   "answer": "Their identities are lost to history. Deadwind Pass has claimed countless unfortunate wanderers, bandits, and refugees over the years, and someone erected the gallows tree as a gruesome boundary marker to warn away prospective travelers."
+   "answer": "No one knows who the corpses were. Deadwind Pass has claimed countless wanderers, bandits, and refugees over the years. Someone raised the gallows tree as a grim boundary marker to warn travelers away."
   },
   {
    "q": "Is Deadman's Crossing safe for travelers?",
@@ -41,7 +41,7 @@
     "will i get attacked on the road",
     "danger level"
    ],
-   "answer": "Surprisingly, yes. While the surrounding crags and caves of Deadwind Pass teem with vicious vultures, ghosts, and ogres, the immediate crossing and the main east-west road remain clear. Low-level couriers and adventurers can safely pass through between Duskwood and the Swamp of Sorrows, provided they never stray off the beaten dirt path."
+   "answer": "The crossing and main east-west road are clear, though vicious vultures, ghosts, and ogres fill the surrounding crags and caves. Couriers and adventurers can pass between Duskwood and the Swamp of Sorrows safely by staying on the dirt path."
   },
   {
    "q": "What do the signs at the crossing say?",
@@ -50,17 +50,17 @@
     "what do signs read",
     "abandon hope sign"
    ],
-   "answer": "The weathered wooden signposts offer ominous cautions: one bluntly instructs travelers to 'Turn Back!', while another warns 'Abandon hope, all ye who enter here,' leaving no doubt about the perilous nature of the valley."
+   "answer": "One weathered sign reads, “Turn Back!” Another warns, “Abandon hope, all ye who enter here.” Both caution travelers about the valley’s dangers."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance couriers traveling from Darkshire to the outpost of Nethergarde Keep in the Blasted Lands, passing Deadman's Crossing is the quickest, albeit most unnerving, route."
+   "text": "As an Alliance courier traveling from Darkshire to Nethergarde Keep in the Blasted Lands, you can take the quickest route through Deadman's Crossing. The road is unnerving."
   },
   {
    "target": "faction:Horde",
-   "text": "Horde wanderers crossing westward from Stonard toward Duskwood must pass this grim landmark, providing an early taste of the blighted human lands ahead."
+   "text": "As a Horde wanderer traveling west from Stonard toward Duskwood, you pass this grim landmark on the way into the blighted human lands."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Deadman's Crossing"
- ]
+ ],
+ "style": 2
 }

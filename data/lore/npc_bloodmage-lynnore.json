@@ -8,11 +8,11 @@
   "wiki": "Bloodmage Lynnore",
   "refs": 2
  },
- "summary": "Bloodmage Lynnore is a blood elf practitioner of forbidden blood magic camped with her brother Drazial near the northern entrance to the Blasted Lands. She assists adventurers by concocting potent alchemical draughts from the organs of local beasts.",
+ "summary": "Near the Blasted Lands' northern entrance, Bloodmage Lynnore studies the power within local beasts. She camps with her brother Drazial and brews draughts from their organs.",
  "sections": [
   {
    "title": "Master of Blood Magic",
-   "body": "Camped near the northern entrance to the Blasted Lands alongside her brother Drazial, Bloodmage Lynnore is one of the exceptionally rare elven practitioners of blood magic found in the Eastern Kingdoms. Unperturbed by the harsh and corrupting landscape of the Blasted Lands, she studies the latent arcane and vital energies coursing through native beasts. Travelers who bring her the brains and gizzards of local fauna find that she can distill these gruesome reagents into specialized elixirs granting profound enhancements to intellect and spirit.",
+   "body": "Near the northern entrance to the Blasted Lands, Bloodmage Lynnore studies blood magic with her brother Drazial. Few elves in the Eastern Kingdoms practice this forbidden art. The land is harsh and corrupting, yet Lynnore searches native beasts for arcane and vital energies. Travelers bring her brains and gizzards from local animals. She distills them into elixirs that sharpen intellect and spirit.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "bloodmage lynnore lore",
     "lynnore blasted lands"
    ],
-   "answer": "Bloodmage Lynnore is a blood elf blood mage camped near the northern entrance to the Blasted Lands. She serves as a quest giver and alchemical specialist, offering powerful stat-enhancing concoctions in exchange for beast parts."
+   "answer": "Bloodmage Lynnore is a blood elf blood mage camped near the Blasted Lands' northern entrance. Travelers bring her beast parts for powerful concoctions that enhance their abilities."
   },
   {
    "q": "Where can Bloodmage Lynnore be found?",
@@ -33,7 +33,7 @@
     "where is lynnore",
     "how to find bloodmage lynnore"
    ],
-   "answer": "She makes her camp with her brother, Bloodmage Drazial, near the northern entrance to the Blasted Lands, where the pass from the Swamp of Sorrows opens onto the wastes."
+   "answer": "Lynnore camps with her brother, Bloodmage Drazial, near the Blasted Lands' northern entrance. Their camp lies where the pass from the Swamp of Sorrows opens onto the wastes."
   },
   {
    "q": "What concoctions does she brew?",
@@ -42,17 +42,17 @@
     "blasted lands consumables",
     "cerebral cortex compound"
    ],
-   "answer": "Lynnore uses parts scavenged from the local wildlife\u2014such as basilisk brains, vulture gizzards, and snickerfang jowls\u2014to brew rare tonics like the Cerebral Cortex Compound and Gizzard Gum, which grant prolonged enhancements to intellect and spirit."
+   "answer": "Lynnore brews rare tonics from local wildlife, including basilisk brains, vulture gizzards, and snickerfang jowls. Her Cerebral Cortex Compound and Gizzard Gum enhance intellect and spirit for a long time."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For Horde travelers, Lynnore is a valuable contact in the Blasted Lands, trading unique alchemical concoctions to anyone of either faction who brings her the raw ingredients."
+   "text": "As a Horde traveler, you can trade with Lynnore in the Blasted Lands. She offers unique concoctions to anyone from either faction who brings her the raw ingredients."
   },
   {
    "target": "class:Mage",
-   "text": "For mages fascinated by unconventional spellcraft, Lynnore represents an elusive and controversial branch of arcane philosophy that manipulates vital essence rather than conventional ley energies."
+   "text": "As a mage drawn to unconventional spellcraft, you can look to Lynnore's rare and controversial arcane path. She manipulates vital essence instead of conventional ley energies."
   }
  ],
  "keywords": [
@@ -69,5 +69,6 @@
  ],
  "attribution": [
   "Bloodmage Lynnore"
- ]
+ ],
+ "style": 2
 }

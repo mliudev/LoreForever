@@ -17,11 +17,11 @@
   "wiki": "The Shattered Salute",
   "chain": []
  },
- "summary": "In Orgrimmar's Cleft of Shadow, Shenthul teaches a silent sign to new rogues. The Shattered Hand uses it to recognize its agents safely in the field.",
+ "summary": "In Orgrimmar's Cleft of Shadow, Shenthul teaches newly inducted rogues a silent sign. The Shattered Hand uses it to recognize its agents safely in the field.",
  "sections": [
   {
    "title": "Signs and Shadows",
-   "body": "In Orgrimmar's Cleft of Shadow, the Shattered Hand works in secrecy as Thrall's Horde intelligence and assassination arm. Its agents cannot use banners or military signs on dangerous, secret assignments. Shenthul teaches newly inducted rogues the Shattered Salute, a silent gesture that lets allies recognize one another.",
+   "body": "The Shattered Hand works in secrecy as Thrall's Horde intelligence and assassination arm from Orgrimmar's Cleft of Shadow. On dangerous, secret assignments, its agents cannot use military signs. So Shenthul teaches newly inducted rogues the Shattered Salute, a silent gesture that lets allies recognize one another.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "shattered salute purpose",
     "what does the salute do"
    ],
-   "answer": "The Shattered Salute lets Shattered Hand agents recognize one another, even in deep cover or hostile territory, without revealing their ties to outsiders."
+   "answer": "The Shattered Salute lets Shattered Hand agents recognize one another in deep cover or hostile territory without revealing their ties to outsiders."
   },
   {
    "q": "Who teaches the Shattered Salute?",
@@ -47,7 +47,7 @@
     "who is shenthul",
     "where do i learn the salute"
    ],
-   "answer": "Shenthul, a rogue trainer stationed deep within Orgrimmar's Cleft of Shadow, teaches the salute."
+   "answer": "Shenthul teaches the salute. He is a rogue trainer stationed deep within Orgrimmar's Cleft of Shadow."
   },
   {
    "q": "What organization uses this gesture?",
@@ -87,7 +87,7 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a Horde rogue, you learn the Shattered Hand's secret signals and move from ordinary cutpurse to trusted agent of Orgrimmar's intelligence network."
+   "text": "As a Horde rogue, you learn the Shattered Hand's secret signals and move from an ordinary cutpurse to a trusted agent of Orgrimmar's intelligence network."
   },
   {
    "target": "faction:Horde",
@@ -112,5 +112,5 @@
  "attribution": [
   "The Shattered Salute"
  ],
- "style": 1
+ "style": 2
 }

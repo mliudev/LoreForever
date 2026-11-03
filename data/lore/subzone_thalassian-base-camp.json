@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Thalassian Base Camp"
  },
- "summary": "Tucked onto a high ridge in northern Azshara, the Thalassian Base Camp serves as the staging ground for an expedition of blood elves unearthing ancient arcane relics. Though initially funded under an agreement with the Horde, the camp's leadership quickly broke faith once digging commenced. Now, amidst their red pavilions and pulverized magical artifacts, darker summoning practices hint at their true objectives.",
+ "summary": "On a ridge in northern Azshara, the blood elf expedition at Thalassian Base Camp digs through ancient ruins for arcane relics. Their pact with the Horde is broken.",
  "sections": [
   {
    "title": "A Fractured Accord",
-   "body": "The blood elf expedition nestled east of Ursolan was not supposed to be hostile to travelers from Orgrimmar. Their leader, Magus Rimtori, negotiated a formal pact with the Horde: in exchange for supply lines, funding, and armed escort through Azshara's treacherous wildlands, her researchers would share whatever magical riches they uncovered. Instead, as soon as the base camp was fortified and the first relics were pried from the elven ruins, Rimtori reneged entirely, driving away Horde emissaries. While Rimtori searches deeper reaches with an armed retinue, Magister Hawkhelm keeps watch over the ridge, guarding the encampment against retribution.",
+   "body": "East of Ursolan, the blood elf expedition once promised not to threaten travelers from Orgrimmar. Magus Rimtori offered the Horde a share of any magical riches in return for supplies, funding, and an armed escort through Azshara’s wildlands.\n\nOnce the camp was fortified and the first relics were recovered from the elven ruins, Rimtori broke the pact and drove away the Horde emissaries. She now searches deeper reaches with an armed retinue. Magister Hawkhelm guards the ridge and camp against retribution.",
    "spoiler": 0
   },
   {
    "title": "Dust and Demonology",
-   "body": "The blood elves did not come merely to catalog history. They possess an unusual technique for pulverizing recovered magical curios into Glittering Dust\u2014a refined powder distinctly different from common enchanting residue, which has already caught the curiosity of Archmage Xylem. More alarmingly, higher up the camp's ridges sits a Kaldorei Tome of Summoning. Far from an academic study of Highborne relics, the tome reveals a sinister willingness to pierce the veil and summon demonic entities directly into the ruins of Azshara.",
+   "body": "Blood elves grind recovered magical curios into Glittering Dust, a refined powder unlike common enchanting residue. Their unusual method has caught Archmage Xylem’s curiosity. Higher on the camp’s ridges lies a Kaldorei Tome of Summoning. It reveals more than an interest in Highborne history: the blood elves are willing to summon demons directly into Azshara’s ruins.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "thalassian base camp purpose",
     "who lives here"
    ],
-   "answer": "They are part of an arcane excavation led by Magus Rimtori. They traveled across Kalimdor to exploit the ruins of ancient Kalimdor for potent magical artifacts, seeking power to harvest and siphon in the wake of the Sunwell's destruction."
+   "answer": "Magus Rimtori leads the blood elf excavation across Kalimdor to recover potent magical artifacts from ancient ruins. After the Sunwell’s destruction, they seek power to harvest and siphon."
   },
   {
    "q": "Why is the Horde hostile to this camp?",
@@ -37,7 +37,7 @@
     "magus rimtori betrayal",
     "betrayed quest lore"
    ],
-   "answer": "Magus Rimtori took Horde coin and resources under the promise of sharing the expedition's discoveries. Once her forces were safely established in northern Azshara, she broke the agreement, refused any tribute, and left the Horde looking for revenge."
+   "answer": "Magus Rimtori took Horde coin and resources in exchange for a share of the expedition’s discoveries. Once her forces were established in northern Azshara, she broke the agreement and refused tribute. The Horde now seeks revenge."
   },
   {
    "q": "Who leads the Thalassian Base Camp?",
@@ -46,7 +46,7 @@
     "camp boss",
     "magister hawkhelm"
    ],
-   "answer": "The overarching leader of the expedition is Magus Rimtori, though she frequently ventures across Azshara flanked by personal bodyguards. In her absence, day-to-day command of the camp falls to Magister Hawkhelm."
+   "answer": "Magus Rimtori leads the expedition, though she often travels across Azshara with personal bodyguards. When she is away, Magister Hawkhelm commands the camp."
   },
   {
    "q": "What is Glittering Dust?",
@@ -55,7 +55,7 @@
     "glittering dust lore",
     "why crush magical items"
    ],
-   "answer": "It is an arcane residue produced through the blood elves' specialized method of crushing enchanted relics. Unlike the standard dust gathered through traditional enchanting disenchantment, its unique properties have drawn the keen interest of the eccentric Archmage Xylem."
+   "answer": "Glittering Dust is arcane residue made by crushing enchanted relics with a specialized blood elf method. Its properties differ from ordinary dust gathered through disenchanting, and the eccentric Archmage Xylem is keenly interested."
   },
   {
    "q": "What is the Kaldorei Tome of Summoning on the ridge?",
@@ -64,17 +64,17 @@
     "kaldorei tome",
     "demon book azshara"
    ],
-   "answer": "Perched on a ridge overlooking the camp, this ancient tome can be used to call forth demons into the area. Its presence exposes that Rimtori's expedition is dabbling in far darker pursuits than simple historical recovery."
+   "answer": "The ancient Kaldorei Tome of Summoning rests on a ridge overlooking the camp and can call demons into the area. Its presence shows Rimtori’s expedition pursues darker aims than recovering history."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The Horde does not take broken oaths lightly; Magus Rimtori took your coin and gave back only treachery, making this camp an active target for retribution."
+   "text": "The Horde does not take broken oaths lightly. Magus Rimtori took your coin and resources, then answered her promise to share discoveries with treachery. The camp is now a target for retribution."
   },
   {
    "target": "class:Mage",
-   "text": "The blood elves' unique refinement of artifacts into Glittering Dust offers a rare, if dangerous, glimpse into Thalassian techniques that interest even Archmage Xylem."
+   "text": "As a mage, you may find the blood elves’ method of refining artifacts into Glittering Dust a rare and dangerous glimpse of Thalassian techniques. Even the eccentric Archmage Xylem is interested."
   }
  ],
  "keywords": [
@@ -97,5 +97,6 @@
  ],
  "attribution": [
   "Thalassian Base Camp"
- ]
+ ],
+ "style": 2
 }

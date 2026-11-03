@@ -21,21 +21,21 @@
    "Warlord's Command"
   ]
  },
- "summary": "Rexxar says that slipping past the Black Flight's defenses calls for an illusion. He knows a master illusionist, Myranda the Hag, who lives in the Western Plaguelands, and sends you to her with a message.",
+ "summary": "Rexxar sends you to the Western Plaguelands with a message for Myranda the Hag. He needs her skill with illusions to pass the Black Flight's defenses.",
  "sections": [
   {
    "title": "The Art of Illusion",
-   "body": "Rexxar asks what you know of illusions, since an illusion is how you will get around the Black Flight's defenses. He names someone who may assist you in such deception: Myranda the Hag, a master illusionist driven out by the Lordaeron alliance, living in the Western Plaguelands. Rexxar says she has lent his kind a hand before, whenever she found a cause worthy. You carry his message to her.",
+   "body": "Rexxar needs an illusion to pass the Black Flight's defenses. So he sends you to Myranda the Hag, a master illusionist who lives in the Western Plaguelands. The Lordaeron alliance drove her out. She has helped Rexxar's kind before, when a cause seemed worthy. Now you carry his message to her.",
    "spoiler": 0
   },
   {
    "title": "A Visitor in Lordaeron",
-   "body": "Myranda remarks that a member of the Horde is a rare sight in these parts of Lordaeron, and she asks what you have brought her.",
+   "body": "A member of the Horde is a rare sight in these parts of Lordaeron, Myranda says. Then she asks what you have brought her.",
    "spoiler": 0
   },
   {
    "title": "Myranda's Answer",
-   "body": "Myranda holds the note, pauses and smiles. She asks after Rexxar, then explains that the page was blank on purpose: it held its writer's thoughts and intentions, and she can see why he kept it from ink, since it would be dangerous had you been captured or killed. She agrees to help you, as she owes the Warchief a favor or two.",
+   "body": "Myranda holds the note, pauses, then smiles. She asks after Rexxar and explains that the page was blank on purpose. It held its writer's thoughts and intentions. She sees why Rexxar kept them from ink. The message would have been dangerous if you were captured or killed.\n\nMyranda agrees to help. She owes the Warchief a favor or two.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "myranda the hag lore",
     "where is myranda"
    ],
-   "answer": "Myranda the Hag is a master illusionist who was once of Lordaeron and was exiled by its alliance. She is found in the Western Plaguelands, at Sorrow Hill."
+   "answer": "Myranda the Hag is a master illusionist from Lordaeron, driven out by its alliance. She lives at Sorrow Hill in the Western Plaguelands."
   },
   {
    "q": "Why must you seek out an illusionist?",
@@ -56,7 +56,7 @@
     "why seek an illusionist",
     "fooling the black dragonflight"
    ],
-   "answer": "Rexxar says an illusion is how you will get around the Black Flight's defenses, and he knows a master who may help."
+   "answer": "Rexxar needs an illusion to pass the Black Flight's defenses. He knows a master illusionist who may help."
   },
   {
    "q": "Where does Rexxar send you?",
@@ -65,7 +65,7 @@
     "where is sorrow hill",
     "mistress of deception destination"
    ],
-   "answer": "He sends you to the Western Plaguelands, to find Myranda the Hag at Sorrow Hill."
+   "answer": "Rexxar sends you to the Western Plaguelands to find Myranda the Hag at Sorrow Hill."
   },
   {
    "q": "Has Myranda helped the Horde before?",
@@ -74,7 +74,7 @@
     "myranda alliance or horde",
     "myranda favor warchief"
    ],
-   "answer": "Rexxar says she has helped his kind before, whenever she found the cause worthy."
+   "answer": "Rexxar says Myranda has helped his kind before, whenever she found a cause worthy."
   }
  ],
  "angles": [],
@@ -99,5 +99,6 @@
  ],
  "attribution": [
   "Mistress of Deception"
- ]
+ ],
+ "style": 2
 }

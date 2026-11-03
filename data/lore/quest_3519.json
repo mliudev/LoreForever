@@ -17,16 +17,16 @@
   "wiki": "A Friend in Need (Classic)",
   "chain": []
  },
- "summary": "Iverron lies bitten and in danger in Shadowglen. The young night elf calls for Dirania Silvershine, whose help may save him from Githyiss the Vile's venom.",
+ "summary": "In Shadowglen, Iverron lies bitten and in danger. The young night elf calls for Dirania Silvershine, whose help may save him from Githyiss the Vile's venom.",
  "sections": [
   {
    "title": "A Reckless Venture",
-   "body": "Iverron lies weakened after a bite from Githyiss the Vile. He ignored warnings and went too near the webwood caverns, where the vicious spider struck. Dizziness and failing strength leave him unable to reach safety alone.",
+   "body": "Iverron lies weakened from a bite by Githyiss the Vile. He ignored warnings and ventured too near the webwood caverns, where the vicious spider struck. Now dizziness and failing strength keep him from reaching safety alone.",
    "spoiler": 0
   },
   {
    "title": "A Call to Aldrassil",
-   "body": "Iverron sends passersby toward Aldrassil's central tree to find Dirania Silvershine. She looks out for him and knows the dangers of Shadowglen. His life may depend on her preparing an antidote before the venom proves fatal.",
+   "body": "Iverron sends passersby to Aldrassil's central tree to find Dirania Silvershine. She watches over him and knows the dangers of Shadowglen. His life may depend on her preparing an antidote before the venom proves fatal.",
    "spoiler": 0
   }
  ],
@@ -112,5 +112,5 @@
  "attribution": [
   "A Friend in Need (Classic)"
  ],
- "style": 1
+ "style": 2
 }

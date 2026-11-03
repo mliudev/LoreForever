@@ -8,16 +8,16 @@
   "wiki": "Syurna",
   "refs": 1
  },
- "summary": "In Darnassus, Syurna trains night elf rogues in the Cenarion Enclave. She guides aspiring scouts, spies, and covert operatives, then sends new rogues on trials of stealth and cunning.",
+ "summary": "In Darnassus, Syurna trains night elf rogues in the Cenarion Enclave. She guides new scouts, spies, and covert operatives, then tests their stealth and cunning.",
  "sections": [
   {
    "title": "A Scout Among the Grove",
-   "body": "Syurna trains those who move unseen through Darnassus. In the Cenarion Enclave, she teaches rogues evasion, lockpicking, and lethal strikes. The Sentinels display the Kaldorei’s martial strength, while the Sisterhood of Elune holds its spiritual wisdom. The Kaldorei also depend on shadows and stealth, and Syurna sharpens the eyes and blades that guard Teldrassil.",
+   "body": "Syurna teaches rogues to move unseen through Darnassus. In the Cenarion Enclave, she trains them in evasion, lockpicking, and deadly strikes. The Sentinels show the Kaldorei’s strength in arms, while the Sisterhood of Elune keeps their spiritual wisdom. The Kaldorei also rely on shadows and stealth, and Syurna sharpens the eyes and blades that guard Teldrassil.",
    "spoiler": 0
   },
   {
    "title": "Tests of Cunning",
-   "body": "Syurna tests young operatives beyond the lessons taught in the enclave. She sends promising initiates into deeper fieldwork to see whether they have the instincts to survive beyond the World Tree’s boughs and serve the Alliance in perilous frontier lands.",
+   "body": "Syurna tests young operatives beyond the enclave’s lessons. She sends promising initiates into deeper fieldwork to learn whether they have the instincts to survive beyond the World Tree’s boughs. There, they must prove they can serve the Alliance in perilous frontier lands.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is syurna",
     "night elf rogue trainer"
    ],
-   "answer": "Syurna trains night elf rogues in the Cenarion Enclave in Darnassus. She teaches combat skills and guides rogues serving the Alliance."
+   "answer": "Syurna trains night elf rogues in Darnassus’s Cenarion Enclave. She teaches combat skills and guides rogues who serve the Alliance."
   },
   {
    "q": "Where exactly can I find Syurna in Darnassus?",
@@ -38,7 +38,7 @@
     "syurna location",
     "darnassus rogue trainer location"
    ],
-   "answer": "Find Syurna in Darnassus’s Cenarion Enclave, among the trees and pavilions beside other mentors of the shadows."
+   "answer": "Find Syurna in Darnassus’s Cenarion Enclave, among the trees and pavilions beside other shadow mentors."
   },
   {
    "q": "Why is a rogue trainer in the Cenarion Enclave?",
@@ -46,7 +46,7 @@
     "why is rogue trainer in enclave",
     "cenarion enclave rogue"
    ],
-   "answer": "The Cenarion Enclave is known chiefly for druidism and nature, but night elf scouts and covert pathfinders train along its wooded edges, away from the public pageantry of the Temple of Elune and the Warrior's Terrace."
+   "answer": "The Cenarion Enclave is known chiefly for druidism and nature. Night elf scouts and covert pathfinders also train along its wooded edges, away from the public pageantry of the Temple of Elune and the Warrior's Terrace."
   },
   {
    "q": "What quests does Syurna offer?",
@@ -64,7 +64,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you share the Kaldorei scouts’ quiet tradition of protecting woodland sanctuaries from the shadows instead of open battle."
+   "text": "As a night elf, you share the Kaldorei scouts’ quiet tradition of guarding woodland sanctuaries from the shadows."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
  "attribution": [
   "Syurna"
  ],
- "style": 1
+ "style": 2
 }

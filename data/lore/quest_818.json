@@ -17,21 +17,21 @@
   "wiki": "A Solvent Spirit",
   "chain": []
  },
- "summary": "Master Vornal tests would-be pupils in Sen'jin Village as his eyesight fades. He asks them to gather makrura eyes and crawler mucus along Durotar's coast. Though he scoffs at taking an apprentice, the work tests patience and resolve.",
+ "summary": "In Sen'jin Village, Master Vornal tests those who seek his teaching as his sight fades. He sends them to Durotar's coast for makrura eyes and crawler mucus, measuring their patience and resolve.",
  "sections": [
   {
    "title": "A Master's Fading Sight",
-   "body": "Master Vornal lives in Sen'jin Village, where age has dimmed his sight. Primal magic once came readily to his fingertips, but now he relies on alchemy to sharpen his perceptions and weave his arts. Though his body weakens, the stubborn troll refuses an apprentice. He says neither the Darkspear nor Durotar's orcs have produced anyone worthy of his teaching.",
+   "body": "Master Vornal lives in Sen'jin Village, where age has dimmed his sight. Primal magic once came easily to him, but now he relies on alchemy to sharpen his perceptions and weave his arts. His body weakens, yet the stubborn troll refuses an apprentice. He says neither the Darkspear nor Durotar's orcs have produced anyone worthy of his teaching.",
    "spoiler": 0
   },
   {
    "title": "Testing the Unproven",
-   "body": "Vornal asks for raw materials from the harsh coast: intact makrura eyes and vials of crawler mucus. Taking undamaged eyes from armored, snapping makrura calls for careful strikes. Gathering enough mucus tests whether a would-be pupil can endure tedious work. For Vornal, hunting these coastal beasts is less about the reagents than finding out who can keep their focus.",
+   "body": "Vornal asks for raw materials from Durotar's harsh coast: intact makrura eyes and vials of crawler mucus. Taking undamaged eyes from armored, snapping makrura calls for careful strikes. Gathering enough mucus tests whether a would-be pupil can endure tedious work. For Vornal, the hunt is less about reagents than learning who can keep their focus.",
    "spoiler": 0
   },
   {
    "title": "A Measure of Will",
-   "body": "For Master Vornal, time and patience measure strength. He expects brash youths to grow frustrated or abandon the work. Bringing pristine ingredients back to Sen'jin Village shows survival skills along the dangerous reefs of the Echo Isles channel, and the discipline needed to master alchemy's subtle arts.",
+   "body": "For Master Vornal, time and patience measure strength. He expects brash youths to grow frustrated or abandon the work. Pristine ingredients brought back to Sen'jin Village show survival skills along the dangerous reefs of the Echo Isles channel. They also show the discipline needed to master alchemy's subtle arts.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "who is vornal",
     "vornal lore"
    ],
-   "answer": "Master Vornal is an elderly troll alchemist and spellcaster who lives in Sen'jin Village. Age is failing his eyesight, so he uses alchemical solvents and brews to work magic that once came easily."
+   "answer": "Master Vornal is an elderly troll alchemist and spellcaster who lives in Sen'jin Village. Age has dimmed his eyesight, so he uses alchemical solvents and brews to work magic that once came easily."
   },
   {
    "q": "Why does Vornal need makrura eyes and crawler mucus?",
@@ -52,7 +52,7 @@
     "why makrura eyes",
     "what does vornal make"
    ],
-   "answer": "Vornal uses alchemical mixtures to aid his magic and compensate for his failing eyesight. He needs the mucus and intact makrura eyes as reagents, and gathering them tests would-be apprentices."
+   "answer": "Vornal uses alchemical mixtures to aid his magic and make up for his failing eyesight. He needs crawler mucus and intact makrura eyes as reagents, and gathering them tests those who seek his teaching."
   },
   {
    "q": "Why is Vornal so reluctant to teach an apprentice?",
@@ -88,17 +88,17 @@
     "meaning of the quest",
     "patience test"
    ],
-   "answer": "Vornal believes patience tests character. The repetitive, dirty gathering along the surf lets him see whether a novice gives in to haste or keeps an alchemist's calm focus."
+   "answer": "Vornal believes patience tests character. Repetitive, dirty gathering along the surf shows whether a novice gives in to haste or keeps an alchemist's calm focus."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For the Darkspear rebuilding at Sen'jin Village, proving yourself to elder practitioners like Master Vornal helps carry the tribe's mystical and alchemical traditions forward."
+   "text": "As a Darkspear rebuilding at Sen'jin Village, proving yourself to elder practitioners like Master Vornal helps carry the tribe's mystical and alchemical traditions forward."
   },
   {
    "target": "race:Orc",
-   "text": "Vornal openly doubts that orcs have the quiet discipline alchemy demands. The work gives you a chance to show that Horde solidarity includes scholarly patience."
+   "text": "Vornal openly doubts that orcs have the quiet discipline alchemy demands. This work gives you a chance to show that Horde solidarity includes scholarly patience."
   },
   {
    "target": "faction:Horde",
@@ -127,5 +127,5 @@
  "attribution": [
   "A Solvent Spirit"
  ],
- "style": 1
+ "style": 2
 }

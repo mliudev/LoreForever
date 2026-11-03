@@ -8,16 +8,16 @@
   "wiki": "Gelkak Gyromast",
   "refs": 2
  },
- "summary": "Along Mist's Edge in northern Darkshore, Gelkak Gyromast is stranded after threshadons sank his ship. The gnome talks like a pirate captain and wants his mechanical first mate, the Threshwackonator 4100, working again.",
+ "summary": "Along Mist's Edge in northern Darkshore, Gelkak Gyromast waits for his mechanical first mate to work again. Threshadons sank his ship, leaving him stranded on the coast.",
  "sections": [
   {
    "title": "Castaway on Mist's Edge",
-   "body": "West of the Ruins of Mathystra, Gelkak Gyromast is stranded on Darkshore's northern coast. The gnome talks like an old sea dog and calls himself captain. Threshadons sank his ship just offshore, and he washed up on the misty shore. The key to his mechanical first mate, the Threshwackonator 4100, broke on the rocks. Crawlers, foreststriders and murlocs rummaging through the wreckage carried off its pieces.",
+   "body": "West of the Ruins of Mathystra, Gelkak Gyromast is stranded on Darkshore's northern coast. The gnome calls himself captain and talks like an old sea dog. Threshadons sank his ship just offshore, and he washed up on the misty shore.\n\nThe key to his mechanical first mate, the Threshwackonator 4100, broke on the rocks. Crawlers, foreststriders and murlocs rummaging through the wreckage carried off its pieces.",
    "spoiler": 0
   },
   {
    "title": "The Threshwackonator Malfunction",
-   "body": "Once travelers recover the key, Gelkak sends them to switch on the Threshwackonator 4100 and lead it back to him. He hopes to set it against the murlocs and beasts along the coast. The machine follows obediently, then malfunctions and turns hostile as it reaches its captain. The travelers must destroy it.",
+   "body": "Once travelers recover the key, Gelkak sends them to switch on the Threshwackonator 4100 and lead it back to him. He hopes to set the machine against the murlocs and beasts along the coast.\n\nThe Threshwackonator follows obediently, then malfunctions and turns hostile as it reaches its captain. The travelers must destroy it.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "why is gelkak here",
     "gelkak darkshore"
    ],
-   "answer": "Threshadons sank Gelkak's ship just offshore, and he washed up on Darkshore's northern coast with the broken key to his mechanical first mate."
+   "answer": "Threshadons sank Gelkak's ship just offshore. He washed up on Darkshore's northern coast with the broken key to his mechanical first mate."
   },
   {
    "q": "What is the Threshwackonator 4100?",
@@ -60,11 +60,11 @@
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, seeing one of your own stranded on the edge of Kalimdor shows how far your adventures can carry you from home."
+   "text": "As a gnome, seeing one of your own stranded at Kalimdor's edge shows how far your adventures can carry you from home."
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can see Gelkak's hopes of revenge pinned on his impressive device, the Threshwackonator 4100."
+   "text": "As an engineer, you can see Gelkak's hopes of revenge rest on his impressive device, the Threshwackonator 4100."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
  "attribution": [
   "Gelkak Gyromast"
  ],
- "style": 1
+ "style": 2
 }

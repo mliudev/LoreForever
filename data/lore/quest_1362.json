@@ -20,16 +20,16 @@
    "The Kolkar of Desolace"
   ]
  },
- "summary": "The Kolkar threaten Horde lands from their stronghold in Desolace. Regthar Deathgate sends Horde champions west across the mountains to reinforce scout Felgur Twocuts at Ghost Walker Post.",
+ "summary": "Regthar Deathgate sends Horde champions west into Desolace to reinforce scout Felgur Twocuts at Ghost Walker Post. The Kolkar threaten Horde lands from their stronghold there.",
  "sections": [
   {
    "title": "A Threat Across the Mountains",
-   "body": "Centaur raiders keep pressing into the Barrens, and Regthar Deathgate knows that fighting them there will not end the threat. The Kolkar clan draws its strength from the rugged lands on Kalimdor's western coast. While their ancestral stronghold remains beyond Horde control, raiders will keep pouring through the mountain passes. To stop them, the Horde must strike at their home.",
+   "body": "Centaur raiders keep pressing into the Barrens. Regthar Deathgate knows the fighting will not end there while the Kolkar draw strength from their ancestral lands on Kalimdor's western coast. Their stronghold remains beyond Horde control, and raiders keep pouring through the mountain passes. The Horde must strike at their home.",
    "spoiler": 0
   },
   {
    "title": "Ghost Walker Post",
-   "body": "Ghost Walker Post gives the Horde a foothold deep in Desolace. Scout Felgur Twocuts watches the rival centaur clans from the outpost. Regthar sends seasoned fighters from the Barrens to serve under Felgur, carrying the Horde's campaign west from defense to direct action.",
+   "body": "Ghost Walker Post gives the Horde a foothold deep in Desolace. Scout Felgur Twocuts watches the rival centaur clans from the outpost. Regthar sends seasoned fighters from the Barrens to serve under Felgur. From this camp, the Horde carries its campaign west, from defense to direct action.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who gives quest",
     "regthar"
    ],
-   "answer": "Regthar Deathgate, an orc warrior at the bunker west of the Crossroads in the Barrens, directs you to carry the fight into the Kolkar's ancestral lands."
+   "answer": "Regthar Deathgate, an orc warrior at the bunker west of the Crossroads in the Barrens, sends you to carry the fight into the Kolkar's ancestral lands."
   },
   {
    "q": "Where is Ghost Walker Post located?",
@@ -50,7 +50,7 @@
     "felgur twocuts location",
     "desolace camp"
    ],
-   "answer": "Ghost Walker Post is an isolated Horde camp along the rugged paths of Desolace, west of the Kalimdor mountain ridge."
+   "answer": "Ghost Walker Post is an isolated Horde camp along Desolace's rugged paths, west of the Kalimdor mountain ridge."
   },
   {
    "q": "Why is the Horde focusing on Desolace?",
@@ -59,7 +59,7 @@
     "why fight kolkar in desolace",
     "centaur connection"
    ],
-   "answer": "The Kolkar who raid the Barrens come from the larger centaur clans rooted in Desolace. Regthar knows defense alone cannot stop the invasions while the Kolkar stronghold remains intact."
+   "answer": "The Kolkar who raid the Barrens belong to the larger centaur clans rooted in Desolace. Regthar knows defense alone cannot stop the invasions while their stronghold remains intact."
   },
   {
    "q": "Who is Felgur Twocuts?",
@@ -123,5 +123,5 @@
  "attribution": [
   "The Kolkar of Desolace"
  ],
- "style": 1
+ "style": 2
 }

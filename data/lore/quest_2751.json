@@ -23,16 +23,16 @@
    "Joys of Omosh"
   ]
  },
- "summary": "In Orgrimmar, Orokk Omosh seeks someone to carry on his family's forge craft. With no heirs, he asks an aspiring smith to prove a sure hand with bronze before sharing his knowledge.",
+ "summary": "In Orgrimmar, Orokk Omosh seeks an apprentice to carry on his family's forge craft. With no heirs, he asks a budding smith to prove a sure hand with bronze before sharing his knowledge.",
  "sections": [
   {
    "title": "The End of the Omosh Line",
-   "body": "Orokk Omosh works the anvils of Orgrimmar under the weight of his family's past. For twenty generations, the Omosh line has shaped ore into weapons and armor for the Horde. Orokk has no kin and cannot sire children, and he sees himself as a failure to that line. With the family craft at risk of ending, he sets bloodline pride aside and seeks an apprentice to carry its smithing traditions forward.",
+   "body": "Orokk Omosh works the anvils of Orgrimmar beneath the weight of his family's past. For twenty generations, the Omosh line has shaped ore into weapons and armor for the Horde. Orokk has no kin and cannot sire children, so he sees himself as a failure to that line. With the family craft at risk, he sets bloodline pride aside and seeks an apprentice to carry its smithing traditions forward.",
    "spoiler": 0
   },
   {
    "title": "A Test of Metal and Tooth",
-   "body": "Orokk will not share his secrets with an untested smith. He asks for two patterned bronze bracers, two bronze greatswords, and two sharp beast claws as proof of basic skill at the anvil. To him, blacksmithing is no idle luxury: its highest honor is armor and steel stained with enemy blood. Meeting his demands may persuade the old smith that the Omosh legacy can live on through an apprentice, and earn a chance to learn more of the craft.",
+   "body": "Orokk will not share his secrets with an untested smith. He asks for two patterned bronze bracers, two bronze greatswords, and two sharp beast claws as proof of skill at the anvil. To him, blacksmithing is no idle luxury. Its highest honor is armor and steel stained with enemy blood. Meet his demands, and he may believe an apprentice can keep the Omosh legacy alive and earn a chance to learn more of the craft.",
    "spoiler": 0
   }
  ],
@@ -71,7 +71,7 @@
     "chain after barbaric battlements",
     "what follows"
    ],
-   "answer": "After you prove your basic skill with bronze, Orokk continues your training with On Iron Pauldrons, where you advance to heavier iron forging and complex plate armor."
+   "answer": "After you prove your basic skill with bronze, Orokk continues your training with On Iron Pauldrons. There, you advance to heavier iron forging and complex plate armor."
   }
  ],
  "angles": [
@@ -103,5 +103,5 @@
  "attribution": [
   "Barbaric Battlements"
  ],
- "style": 1
+ "style": 2
 }

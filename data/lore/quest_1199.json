@@ -17,21 +17,21 @@
   "wiki": "Twilight Falls (Classic)",
   "chain": []
  },
- "summary": "At Blackfathom Deeps, Twilight's Hammer cultists join with naga beneath the Ashenvale coast. Argent Guard Manados in Darnassus calls on Alliance champions to gather pendants from the fallen cultists and hinder their plans to awaken ancient evils.",
+ "summary": "At Blackfathom Deeps, Twilight's Hammer cultists have joined the naga beneath the Ashenvale coast. Argent Guard Manados in Darnassus calls on Alliance champions to gather pendants from fallen cultists and hinder their plans to awaken ancient evils.",
  "sections": [
   {
    "title": "A Sanctum Defiled",
-   "body": "Beneath Ashenvale's Zoram Strand, Blackfathom Deeps lies in ruins. The night elf temple was once sacred to Elune and held a powerful moonwell, until the Sundering shattered it and plunged it beneath the sea. Now naga and cultists fill its halls. The waters have turned foul, and the cultists revere powers darker than the sea.",
+   "body": "Beneath Ashenvale's Zoram Strand, Blackfathom Deeps lies in ruins. Once a sacred night elf temple to Elune, it held a powerful moonwell. The Sundering shattered the temple and plunged it beneath the sea. Now naga and cultists fill its halls. The waters have turned foul, and the cultists revere powers darker than the sea.",
    "spoiler": 0
   },
   {
    "title": "Whispers of the Old Gods",
-   "body": "Twilight's Hammer worships the chaotic Old Gods and seeks their return, hoping to spread madness and ruin across the world. Reports in Darnassus say the cultists have joined with the naga in Blackfathom Deeps. In the submerged halls, they perform rituals and use the temple's tainted waters to feed their dark masters' resurgence.",
+   "body": "Twilight's Hammer worships the chaotic Old Gods and seeks their return. Its followers hope to spread madness and ruin across the world. Reports in Darnassus say the cultists have joined the naga in Blackfathom Deeps. There they perform rituals in the submerged halls and use the temple's tainted waters to feed their dark masters' resurgence.",
    "spoiler": 0
   },
   {
    "title": "The Vigil of the Argent Dawn",
-   "body": "Argent Guard Manados watches over threats to Azeroth from Darnassus on behalf of the Argent Dawn. He sees the danger in Blackfathom Deeps: its horrors could reach every civilized race. The order offers aid and recognition to heroes who enter the flooded labyrinth, cull the cultists, and bring back the Twilight Pendants from their necks as proof of their defeat.",
+   "body": "Argent Guard Manados watches over threats to Azeroth from Darnassus on behalf of the Argent Dawn. He sees danger in Blackfathom Deeps, where horrors could reach every civilized race. The order offers aid and recognition to heroes who enter the flooded labyrinth, cull the cultists, and bring back the Twilight Pendants from their necks as proof of defeat.",
    "spoiler": 0
   }
  ],
@@ -91,11 +91,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For a night elf, the desecration of a sacred temple and moonwell by Old God cultists and naga affronts Elune and Ashenvale's ancestral lands."
+   "text": "As a night elf, the desecration of a sacred temple and moonwell by Old God cultists and naga is an affront to Elune and Ashenvale's ancestral lands."
   },
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, Twilight's Hammer threatens from just south of Darkshore, and clearing Blackfathom Deeps helps secure northern Kalimdor."
+   "text": "For the Alliance, Twilight's Hammer threatens from just south of Darkshore. Clearing Blackfathom Deeps helps secure northern Kalimdor."
   },
   {
    "target": "class:Paladin",
@@ -132,5 +132,5 @@
  "attribution": [
   "Twilight Falls (Classic)"
  ],
- "style": 1
+ "style": 2
 }

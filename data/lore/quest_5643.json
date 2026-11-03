@@ -17,16 +17,16 @@
   "wiki": "Shadowguard (Undercity)",
   "chain": []
  },
- "summary": "In the Undercity, Aelthalyste sends a Darkspear priest back to Orgrimmar. She sees that the young troll is ready for the tribe’s sacred rites, and Ur'kyo awaits in the Valley of Spirits.",
+ "summary": "In the Undercity, Aelthalyste sends a Darkspear priest across the Great Sea to Orgrimmar. She has seen the young troll grow ready for the tribe’s sacred rites, and Ur'kyo awaits in the Valley of Spirits.",
  "sections": [
   {
    "title": "A Summons Across Continents",
-   "body": "Aelthalyste watches visiting troll priests in the Undercity. When an initiate has grown strong enough to face the tribe’s trials, she sends them across the Great Sea to learn from their own elders. She does not impose Forsaken teachings on them; their faith follows the traditions of their people.",
+   "body": "In the Undercity, Aelthalyste watches the troll priests who come to learn. When an initiate grows strong enough for the tribe’s trials, she sends them across the Great Sea to their own elders. She does not press Forsaken teachings upon them. Their faith follows the traditions of their people.",
    "spoiler": 0
   },
   {
    "title": "The Valley of Spirits",
-   "body": "In Orgrimmar’s Valley of Spirits, Ur'kyo tends to the Darkspear tribe’s spiritual needs and ancient rites. He welcomes the returning initiate and prepares them for a rite of passage. It joins the priest’s bond to the loa with spells that ward off harm.",
+   "body": "In Orgrimmar’s Valley of Spirits, Ur'kyo tends to the Darkspear tribe’s spiritual needs and ancient rites. He welcomes the returning initiate and prepares them for a rite of passage. The rite deepens the priest’s bond with the loa and uses spells to ward off harm.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where do i start",
     "who gives shadowguard"
    ],
-   "answer": "Aelthalyste, a priest trainer in the Undercity’s War Quarter, starts the summons. She recognizes when a troll priest is ready for the tribe’s spiritual trials."
+   "answer": "Aelthalyste, a priest trainer in the Undercity’s War Quarter, sends the summons. She knows when a troll priest is ready for the tribe’s spiritual trials."
   },
   {
    "q": "Why does an Undercity trainer send me to Orgrimmar?",
@@ -47,7 +47,7 @@
     "undercity to orgrimmar",
     "why ur'kyo"
    ],
-   "answer": "Forsaken priests have turned toward shadow, while Darkspear trolls draw spiritual power from the loa and tribal traditions. Aelthalyste respects this difference and sends developing troll priests home to learn their people’s arts from their own elder."
+   "answer": "Forsaken priests have turned toward shadow, while Darkspear trolls draw spiritual power from the loa and tribal traditions. Aelthalyste honors that difference and sends young troll priests home to learn their people’s arts from their own elder."
   },
   {
    "q": "Who is Ur'kyo?",
@@ -74,7 +74,7 @@
     "is this troll only",
     "priest race quest"
    ],
-   "answer": "The summons is for Darkspear troll priests visiting the Undercity around their twentieth season of experience. Forsaken priests have separate rites and training there."
+   "answer": "The summons is for Darkspear troll priests visiting the Undercity around their twentieth season of experience. Forsaken priests have their own rites and training there."
   },
   {
    "q": "Where in Orgrimmar is Ur'kyo located?",
@@ -89,15 +89,15 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "As a priest, you reach a milestone that joins the basics of holy and shadow magic with your people’s traditions."
+   "text": "As a priest, you reach a milestone that joins the first teachings of holy and shadow magic with your people’s traditions."
   },
   {
    "target": "race:Troll",
-   "text": "As a Darkspear troll, your priestly training joins communion with the loa to the defense of your tribe. Ur'kyo preserves this inheritance in the Valley of Spirits."
+   "text": "As a Darkspear troll, your priestly training joins communion with the loa to the defense of your tribe. Ur'kyo keeps this inheritance in the Valley of Spirits."
   },
   {
    "target": "race:Undead",
-   "text": "As an undead, you may see Aelthalyste respect the distinct traditions of her living allies. Visiting trolls receive instruction from their own elders, rather than Forsaken doctrine."
+   "text": "As an undead, you may see Aelthalyste honor the distinct traditions of her living allies. Visiting trolls receive instruction from their own elders instead of Forsaken doctrine."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Shadowguard (Undercity)"
  ],
- "style": 1
+ "style": 2
 }

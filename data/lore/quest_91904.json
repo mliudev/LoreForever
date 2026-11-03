@@ -19,7 +19,7 @@
     "what is a sealed crate",
     "what are sealed crates for"
    ],
-   "answer": "Sealed crates represent trade cargo that was intercepted or displaced along commercial paths. Adventurers who recover these abandoned goods can turn them in to merchants and local recipients to secure the freight and receive financial compensation for their salvage efforts.",
+   "answer": "Sealed crates hold cargo intercepted or lost along commercial routes. Return recovered goods to merchants and local recipients to restore freight and earn payment.",
    "q": "What is a sealed crate?"
   },
   {
@@ -28,7 +28,7 @@
     "why are crates lost",
     "why crates on the road"
    ],
-   "answer": "A recent surge in banditry and organized thievery has plagued regional trade routes. Highwaymen and rogue opportunists regularly ambush supply caravans and haulers, resulting in shipments being stolen, abandoned, or dropped along the road.",
+   "answer": "Banditry and organized theft have surged along regional trade routes. Highwaymen ambush caravans and haulers, leaving stolen or abandoned shipments along the road.",
    "q": "Why are these crates lying around?"
   },
   {
@@ -37,7 +37,7 @@
     "who wants sealed crates",
     "crate turn in"
    ],
-   "answer": "Caravan coordinators, quartermasters, and trade merchants accept recovered crates to assemble consolidated freight piles and sort the cargo back into regular supply lines, compensating anyone who rescues their missing stock.",
+   "answer": "Caravan coordinators, quartermasters, and merchants accept recovered crates. They gather and sort the cargo back into regular supply lines, then pay those who recover their missing goods.",
    "q": "Who wants these crates returned?"
   },
   {
@@ -46,7 +46,7 @@
     "whats inside the crate",
     "open sealed crate"
    ],
-   "answer": "The crates remain locked and sealed for transit to ensure the security of their trade merchandise. Handing them over intact allows logistical handlers to process the goods and distribute payment to recoverers without tampering.",
+   "answer": "The crates stay locked and sealed in transit to protect their merchandise. Return them intact so handlers can process the goods and pay you without tampering.",
    "q": "Can you look inside a sealed crate?"
   },
   {
@@ -55,7 +55,7 @@
     "can i turn in more crates",
     "are crates repeatable"
    ],
-   "answer": "Yes. With highway robbery still widespread along major thoroughfares, merchants actively seek additional recovered freight and encourage wanderers to bring in any further displaced crates they locate across the wild.",
+   "answer": "Yes. Highway robbery remains widespread along major roads, and merchants seek recovered freight. Bring them any other missing crates you find in the wild.",
    "q": "Can you return more sealed crates in the future?"
   },
   {
@@ -64,7 +64,7 @@
     "thieves stealing goods",
     "who is raiding the roads"
    ],
-   "answer": "Thieves and cutpurses have grown increasingly bold across trade territories, targeting merchant shipments to pilfer valuable wares and disrupting commercial distribution between settlements.",
+   "answer": "Thieves and cutpurses target merchant shipments across trade territories. They steal valuable goods and disrupt commerce between settlements.",
    "q": "Who is intercepting the trade routes?"
   }
  ],
@@ -83,18 +83,19 @@
  "related": [],
  "sections": [
   {
-   "body": "Wagon trails and shipping lanes have become treacherous due to a sharp rise in ambushes by bandits and thieves targeting trade caravans. Unsuspecting haulers and couriers frequently lose their shipments when caught unawares, leaving heavy sealed crates abandoned along wild roads and wilderness paths until someone recovers them.",
+   "body": "Bandits and thieves strike trade caravans on roads and shipping lanes. Haulers and couriers can lose their shipments in an ambush, leaving sealed crates beside wild roads and paths until someone finds them.",
    "spoiler": 0,
    "title": "Stolen Cargo and Imperiled Roads"
   },
   {
-   "body": "Merchants and supply coordinators maintain standing bounties for the safe return of missing merchandise. Adventurers who retrieve displaced crates and haul them back to regional collection points help restore compromised distribution lines, earning direct monetary compensation for safeguarding commerce.",
+   "body": "Merchants and supply coordinators pay for merchandise returned safely. Bring recovered crates to regional collection points, and the goods can flow through disrupted supply lines again. You are paid for protecting trade.",
    "spoiler": 0,
    "title": "Securing the Supply Chain"
   }
  ],
- "summary": "A Sealed Crate is a turn-in task involving recovered trade goods that have fallen into the hands of highwaymen or were lost along commercial routes. Adventurers return intercepted cargo to trade handlers to secure regional supply lines and receive payment.",
+ "summary": "Trade caravans lose sealed crates to thieves along the roads. Merchants seek the missing goods and pay to have them returned, restoring regional supplies.",
  "attribution": [
   "In-game quest text: A Sealed Crate"
- ]
+ ],
+ "style": 2
 }

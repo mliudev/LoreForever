@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Drag"
  },
- "summary": "In Orgrimmar, the Drag links the Valley of Strength, Valley of Honor and Valley of Wisdom. Crafters and traders line its shaded red-rock canyon, where the descent to the Cleft of Shadow also lies.",
+ "summary": "In Orgrimmar, the Drag draws traders and craftspeople between three valleys. Its shaded red-rock canyon also descends to the Cleft of Shadow.",
  "sections": [
   {
    "title": "The Artisan's Thoroughfare",
-   "body": "The Drag runs between Orgrimmar’s red canyon walls, where crafters and traders fill the Horde capital’s streets. Unlike the Valley of Strength, with its military musters and commands, the Drag is where daily city life unfolds. High cliffs and hides shade the street, where tanning vats, alchemical cauldrons and tinkers’ gears fill the air with their sounds and smells. Craftsmen gather to practice their trades and teach aspiring adventurers. Their work ranges from leatherworking and tailoring to the goblin workshops of Nogg’s Machine Shop.",
+   "body": "The Drag runs between Orgrimmar’s red canyon walls, filled with crafters and traders. Unlike the Valley of Strength, where soldiers muster and receive commands, this is where daily city life unfolds. High cliffs and hides shade the street. Tanning vats, alchemical cauldrons and tinkers’ gears fill it with sound and smell. Craftsmen practice their trades and teach aspiring adventurers, from leatherworkers and tailors to the goblins at Nogg’s Machine Shop.",
    "spoiler": 0
   },
   {
    "title": "A Crossroads of Shadows and Craft",
-   "body": "Merchant storefronts and salvage houses line the Drag, beside the guarded entrance to the underground Cleft of Shadow. The street brings honest tradesmen together with shamans on their way to the Valley of Wisdom and secretive practitioners of dark arts. They cross paths beneath the canyon’s dim, dusty overhangs.",
+   "body": "Merchant storefronts and salvage houses line the Drag beside the guarded entrance to the underground Cleft of Shadow. Honest tradesmen share the street with shamans bound for the Valley of Wisdom and practitioners of dark arts. Beneath the canyon’s dim, dusty overhangs, their paths cross.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is the drag",
     "what shops are in the drag"
    ],
-   "answer": "The Drag is Orgrimmar’s main district for shopping and trade. Its trainers and supply vendors serve many professions, including alchemy, tailoring, leatherworking, skinning, enchanting and engineering, alongside general salvage and trade goods."
+   "answer": "The Drag is Orgrimmar’s main district for shopping and trade. Trainers and supply vendors serve professions such as alchemy, tailoring, leatherworking, skinning, enchanting and engineering, alongside general salvage and trade goods."
   },
   {
    "q": "Where does the Drag lead?",
@@ -37,7 +37,7 @@
     "how to get to cleft of shadow",
     "where does the drag go"
    ],
-   "answer": "The Drag links the Valley of Strength in the south to the Valley of Honor in the northeast, with paths leading toward the Valley of Wisdom. The entrance to the shadowy caverns of the Cleft of Shadow lies along the Drag’s western cliffside."
+   "answer": "The Drag links the Valley of Strength in the south to the Valley of Honor in the northeast, with paths toward the Valley of Wisdom. The entrance to the shadowy caverns of the Cleft of Shadow lies along the western cliffside."
   },
   {
    "q": "Who is Nogg?",
@@ -53,7 +53,7 @@
     "where are trainers in orgrimmar",
     "first aid trainer drag"
    ],
-   "answer": "Most crafting and gathering professions have shops along the Drag’s lower and upper shelves, but the city’s blacksmiths and miners work in the fiery forges of the Valley of Honor."
+   "answer": "Most crafting and gathering professions have shops along the Drag’s lower and upper shelves. The city’s blacksmiths and miners work in the fiery forges of the Valley of Honor."
   }
  ],
  "angles": [
@@ -63,7 +63,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a traveler through Orgrimmar, you pass along the Drag, which links the capital’s martial core to its communal and mystical quarters."
+   "text": "As you travel through Orgrimmar, you pass along the Drag, linking the capital’s martial heart to its communal and mystical quarters."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
  "attribution": [
   "Drag"
  ],
- "style": 1
+ "style": 2
 }

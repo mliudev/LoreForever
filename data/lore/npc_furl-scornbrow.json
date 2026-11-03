@@ -8,16 +8,16 @@
   "wiki": "Furl Scornbrow",
   "refs": 1
  },
- "summary": "At a watchtower northwest of Razor Hill, Furl Scornbrow keeps watch over Durotar. Too old for the front lines, he crafts sturdy packs for young travelers.",
+ "summary": "Northwest of Razor Hill, Furl Scornbrow keeps watch over Durotar. Too old for the front lines, he makes sturdy packs for young travelers.",
  "sections": [
   {
    "title": "Watchman of the Ridge",
-   "body": "Furl Scornbrow watches the central plains from a wooden tower northwest of Razor Hill. In the tense days after Orgrimmar was founded, sentries like Furl sounded signal horns against hostile quilboar, centaur, and Kul Tiras interlopers. Durotar has since grown more stable, and Razor Hill has secured its borders. Emergencies come less often, leaving Furl long quiet hours at his post.",
+   "body": "From a wooden tower northwest of Razor Hill, Furl Scornbrow watches Durotar’s central plains. In the tense days after Orgrimmar was founded, sentries like him sounded their horns against hostile quilboar, centaur, and Kul Tiras interlopers. Since then, Durotar has grown more stable, and Razor Hill has secured its borders. Emergencies come less often, leaving Furl long, quiet hours at his post.",
    "spoiler": 0
   },
   {
    "title": "A Useful Pair of Hands",
-   "body": "Furl says his old bones and fading strength leave him unable to fight. Still, an orc does not easily surrender their purpose. He uses his hands to make canvas sacks and packs for fresh recruits carrying supplies. In exchange for coarse thread and practical materials, he equips green adventurers setting out to prove their worth to the Horde.",
+   "body": "Furl says his old bones and fading strength keep him from fighting. Yet an orc does not easily surrender their purpose. He puts his hands to work making canvas sacks and packs for fresh recruits who carry supplies. In exchange for coarse thread and practical materials, he equips green adventurers setting out to prove their worth to the Horde.",
    "spoiler": 0
   }
  ],
@@ -51,7 +51,7 @@
  "angles": [
   {
    "target": "race:Orc",
-   "text": "Furl shows the orcish belief that age need not end a warrior’s service. Though he has lost his martial strength, he continues to serve the Horde with honor."
+   "text": "Furl shows the orcish belief that age need not end a warrior’s service. Though he has lost his strength in battle, he continues to serve the Horde with honor."
   },
   {
    "target": "faction:Horde",
@@ -75,5 +75,5 @@
  "attribution": [
   "Furl Scornbrow"
  ],
- "style": 1
+ "style": 2
 }

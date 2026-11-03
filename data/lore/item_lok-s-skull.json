@@ -15,12 +15,12 @@
  "sections": [
   {
    "title": "A Chieftain's Fall",
-   "body": "Lok Orcbane led aggressive Razormane assaults on Horde supply lines in the southern Barrens. He emerged from Razorfen Kraul with his lieutenants Nak and Kuz. After betraying Mangletooth and leaving him captive at Camp Taurajo, Lok became known to orcish defenders for ruthless raids they struggled to contain. Mangletooth directs Horde champions to Lok's camp, where claiming Lok's skull avenges the captive and strikes at the leadership driving the Razormane offensive.",
+   "body": "Lok Orcbane led aggressive Razormane assaults on Horde supply lines in the southern Barrens. He emerged from Razorfen Kraul with his lieutenants Nak and Kuz. After betraying Mangletooth and leaving him captive at Camp Taurajo, Lok became known to orcish defenders for ruthless raids they struggled to contain. Mangletooth directs Horde champions to Lok's camp. Claiming Lok's skull avenges the captive and strikes at the leaders driving the Razormane offensive.",
    "spoiler": 0
   },
   {
    "title": "Proof for the Crossroads",
-   "body": "Mangletooth demands the skulls of all three conspirators for his vengeance, then sends Lok's skull north to Thork at the Crossroads. Thork and the Horde command suspected another quilboar led the raids. Lok's skull came as a grim surprise, and proved that the threat to the Barrens' central trade routes had been cut down.",
+   "body": "Mangletooth demands the skulls of all three conspirators for his vengeance. Then he sends Lok's skull north to Thork at the Crossroads. Thork and the Horde command suspected another quilboar led the raids. Lok's skull came as a grim surprise and proved the threat to the Barrens' central trade routes had been cut down.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "mangletooth revenge",
     "why kill lok"
    ],
-   "answer": "Lok Orcbane and his companions betrayed Mangletooth and left him to be captured and caged by the tauren at Camp Taurajo. Certain his own death is near, Mangletooth seeks vengeance on those who abandoned him and directs Horde adventurers to kill his former comrades."
+   "answer": "Lok Orcbane and his companions betrayed Mangletooth and left him to be captured and caged by the tauren at Camp Taurajo. Certain his own death is near, Mangletooth seeks vengeance on those who abandoned him. He directs Horde adventurers to kill his former comrades."
   },
   {
    "q": "Why is the skull brought to Thork at the Crossroads?",
@@ -97,5 +97,5 @@
   "Betrayal from Within (1)",
   "Betrayal from Within (2)"
  ],
- "style": 1
+ "style": 2
 }

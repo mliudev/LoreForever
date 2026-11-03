@@ -8,16 +8,16 @@
   "wiki": "Lord Arkkoroc",
   "refs": 2
  },
- "summary": "Lord Arkkoroc is an ancient, towering sea giant who dwells within the ruined Temple of Arkkoran along the ragged coast of Azshara. Described by the demon hunter Loramus Thalipedes as a lesser deity, he holds sway over the surrounding waters and commands lesser sea giants who serve as his sons.",
+ "summary": "Along Azshara’s ragged coast, Lord Arkkoroc commands the waters around his ruined temple. Loramus Thalipedes calls him a lesser deity, and the sea giants he calls his sons patrol the shore.",
  "sections": [
   {
    "title": "Lord of the Sunken Coast",
-   "body": "Reclining amidst the brine-crusted ruins of the Temple of Arkkoran, Lord Arkkoroc is far more than a typical sea giant. To hermits like Loramus Thalipedes, this colossal being is considered a lesser deity whose divine will shapes the surrounding waters. His sons patrol the crags and shallows around the sanctuary, enforcing his quiet dominion over Azshara's tempestuous shores.",
+   "body": "Lord Arkkoroc holds the ruined Temple of Arkkoran above Azshara’s coast. Loramus Thalipedes, a hermit, regards the colossal sea giant as a lesser deity. His will shapes the waters around the temple. His sons patrol the crags and shallows, keeping his dominion over the shore.",
    "spoiler": 0
   },
   {
    "title": "Vengeance Against the Deep",
-   "body": "Despite his immense divine power, Arkkoroc suffers personal losses beneath the tides. A fearsome, multi-headed hydra named Hetaera has hunted down and butchered many of his sons along the cliffs. Unable or unwilling to directly hunt the beast down, Arkkoroc barters valuable knowledge and occult aid to any wandering adventurer strong enough to present him with the heads of his offspring's killer.",
+   "body": "Lord Arkkoroc has lost many sons beneath the tides. The many-headed hydra Hetaera hunted them along the cliffs and butchered them. For a traveler strong enough to bring him the beast’s heads, Arkkoroc offers valuable knowledge and occult aid.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "arkkoroc lore",
     "temple sea giant"
    ],
-   "answer": "Lord Arkkoroc is a massive sea giant who resides in the Temple of Arkkoran in Azshara. He is revered as a lesser deity of the seas and rules over a brood of sea giants whom he considers his sons."
+   "answer": "Lord Arkkoroc is a massive sea giant who dwells in the Temple of Arkkoran in Azshara. Loramus Thalipedes regards him as a lesser deity of the seas. Arkkoroc rules the sea giants he calls his sons."
   },
   {
    "q": "Where can I find Lord Arkkoroc?",
@@ -38,7 +38,7 @@
     "where is arkkoroc",
     "find arkkoroc"
    ],
-   "answer": "You can find him perched amidst the ruins of the Temple of Arkkoran, located on the eastern coastline and rocky reefs of Azshara."
+   "answer": "You can find Lord Arkkoroc among the ruins of the Temple of Arkkoran, on Azshara’s eastern coastline and rocky reefs."
   },
   {
    "q": "Why does Loramus Thalipedes send adventurers to Arkkoroc?",
@@ -46,7 +46,7 @@
     "loramus arkkoroc quest",
     "name of the beast"
    ],
-   "answer": "Loramus Thalipedes directs travelers to Arkkoroc to seek arcane insights concerning a powerful demon. As a lesser sea deity, Arkkoroc holds ancient knowledge, but he demands that adventurers slay the hydra Hetaera before he parts with his secrets."
+   "answer": "Loramus Thalipedes sends travelers to Arkkoroc for arcane insight about a powerful demon. Arkkoroc holds ancient knowledge, but demands that travelers slay the hydra Hetaera before he shares his secrets."
   },
   {
    "q": "Why is Arkkoroc angry with the hydra Hetaera?",
@@ -54,13 +54,13 @@
     "why kill hetaera",
     "arkkoroc hydra grudge"
    ],
-   "answer": "The savage sea beast Hetaera slaughtered several of Arkkoroc's sons who were patrolling the coastline. Seeking revenge for his slain kin, the sea giant demands her heads."
+   "answer": "Hetaera slaughtered several of Arkkoroc’s sons as they patrolled the coastline. Arkkoroc seeks revenge for his slain kin and demands the hydra’s heads."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The ruins of the Temple of Arkkoran stand upon former Highborne lands, where an ancient sea entity now reigns supreme over the fallen majesty of old Kalimdor."
+   "text": "The Temple of Arkkoran stands on former Highborne lands. An ancient sea entity now rules over the fallen majesty of old Kalimdor."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Lord Arkkoroc"
- ]
+ ],
+ "style": 2
 }

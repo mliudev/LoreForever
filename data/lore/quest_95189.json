@@ -12,16 +12,16 @@
   "harvested": true,
   "level": "22"
  },
- "summary": "The Crest of Lordaeron is a weathered relic bearing the regal mark of the fallen northern kingdom. Found amidst the desolate ruins of Capital City, such relics are scarce since the kingdom's fall, and someone in Stormwind would be very keen to get their hands on this one.",
+ "summary": "In the ruins of Capital City, a weathered Crest of Lordaeron survives from the fallen northern kingdom. Relics like it are scarce, and Lady Dena Kennedy in Stormwind City is eager to claim one.",
  "sections": [
   {
    "title": "A Shattered Heritage",
-   "body": "When the Scourge tore through the kingdom of Lordaeron, its palaces, archives, and proud insignias were largely obliterated or left to decay under the shadow of the Undercity. Surviving physical artifacts bearing the royal crest are exceedingly rare. Recovering an intact or weathered crest from the northern ruins represents a tangible piece of human history rescued from oblivion.",
+   "body": "The Scourge left Lordaeron's palaces and archives in ruins beneath the shadow of the Undercity. Its proud insignias were destroyed or left to decay, so few relics bearing the royal crest remain. A weathered crest from the northern ruins keeps a piece of human history.",
    "spoiler": 0
   },
   {
    "title": "Refuge in the South",
-   "body": "Following the Third War, thousands of northern refugees fled south toward the Kingdom of Stormwind, carrying only memories of their homeland. In Stormwind City, Lady Dena Kennedy is keen to acquire such remnants of Lordaeron, making relics like this crest deeply cherished in the southern capital.",
+   "body": "After the Third War, thousands of refugees fled south from Lordaeron toward the Kingdom of Stormwind. They carried memories of home. In Stormwind City, Lady Dena Kennedy seeks remnants of their homeland. For those who left the north behind, a crest like this is a cherished link to Lordaeron.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "what is crest of lordaeron",
     "lordaeron crest item"
    ],
-   "answer": "It is a weathered heraldic emblem displaying the official mark of Lordaeron. Left behind after the kingdom fell to the Scourge, it is a prized historical relic for human survivors."
+   "answer": "The Crest of Lordaeron is a weathered emblem bearing the kingdom's official mark. It survived the Scourge's fall of Lordaeron and remains a historical relic for human survivors."
   },
   {
    "q": "Who wants the Crest of Lordaeron?",
@@ -42,7 +42,7 @@
     "where do i bring crest of lordaeron",
     "crest turn in"
    ],
-   "answer": "The crest is brought to Lady Dena Kennedy, an aristocratic patron in Stormwind City who seeks to collect and preserve rare artifacts from the fallen northern realm."
+   "answer": "Lady Dena Kennedy in Stormwind City wants the crest. She collects and preserves rare artifacts from Lordaeron."
   },
   {
    "q": "Where was the crest found?",
@@ -51,7 +51,7 @@
     "ruins crest",
     "where to get crest"
    ],
-   "answer": "It was recovered from the Ruins of Lordaeron in Tirisfal Glades, the ruined capital city that now sits directly above the Forsaken stronghold of the Undercity."
+   "answer": "The crest was recovered from the Ruins of Lordaeron in Tirisfal Glades. The ruined capital lies above the Undercity, the Forsaken stronghold."
   },
   {
    "q": "Why are artifacts from Lordaeron so rare?",
@@ -59,7 +59,7 @@
     "why are lordaeron relics rare",
     "lordaeron artifacts rarity"
    ],
-   "answer": "The rapid and catastrophic fall of the kingdom during the Third War resulted in the systematic slaughter of its people and the ruination of its estates. Very few personal heirlooms survived the Scourge and the subsequent rise of the Forsaken."
+   "answer": "Few Lordaeron artifacts survived the kingdom's swift fall during the Third War. The Scourge slaughtered its people and ruined its estates, while the Forsaken rose in the north."
   },
   {
    "q": "Why does Stormwind care about relics of Lordaeron?",
@@ -67,7 +67,7 @@
     "why stormwind cares",
     "stormwind lordaeron relics"
    ],
-   "answer": "Stormwind took in waves of refugees, knights, and nobility who fled the northern devastation. Preserving relics honors the Alliance's fallen sister kingdom and keeps the heritage of the northern humans alive."
+   "answer": "Stormwind welcomed refugees, knights, and nobles fleeing Lordaeron's devastation. Preserving its relics honors the fallen northern kingdom and keeps its human heritage alive."
   },
   {
    "q": "Who is Lady Dena Kennedy?",
@@ -75,17 +75,17 @@
     "lady dena kennedy",
     "who is dena kennedy"
    ],
-   "answer": "Lady Dena Kennedy is a noblewoman residing in Stormwind City who takes an active interest in salvaging historical remnants and heirlooms originating from Lordaeron."
+   "answer": "Lady Dena Kennedy is a noblewoman in Stormwind City who seeks to salvage heirlooms and other historical remnants of Lordaeron."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For humans, particularly those whose families once called the north home, the crest is a poignant reminder of the grand kingdom that once spearheaded the Alliance."
+   "text": "As a human, especially if your family came from the north, the crest recalls the great kingdom that once led the Alliance."
   },
   {
    "target": "faction:Alliance",
-   "text": "The emblem of Lordaeron represents the founding pillar of the original Alliance, making its retrieval a symbolic victory against total erasure by the Scourge and Forsaken."
+   "text": "As an Alliance member, you can see Lordaeron's emblem as a mark of the Alliance's founding. Recovering it keeps the Scourge and Forsaken from erasing that symbol."
   }
  ],
  "keywords": [
@@ -106,5 +106,6 @@
  ],
  "attribution": [
   "In-game quest text: Crest of Lordaeron"
- ]
+ ],
+ "style": 2
 }

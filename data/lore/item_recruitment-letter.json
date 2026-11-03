@@ -10,16 +10,16 @@
    "quest:840"
   ]
  },
- "summary": "Takrin Pathseeker sends promising adventurers from Durotar west to serve in the Barrens. His letter directs able-bodied volunteers to the border outpost run by Kargal Battlescar.",
+ "summary": "In Durotar, Takrin Pathseeker sends promising adventurers west to serve in the Barrens. His letter directs able-bodied volunteers to Kargal Battlescar's border outpost.",
  "sections": [
   {
    "title": "Enlistment for the Frontier",
-   "body": "Takrin Pathseeker watches young warriors and scouts prove themselves around Razor Hill. He chooses those who seem strong enough for frontline service and gives them a letter for duty in the Barrens. Across the Southfury River bridge, recruits leave Durotar’s sheltered red dirt and join the Horde’s guard against quilboar, centaur, and Alliance scouts.",
+   "body": "Around Razor Hill, Takrin Pathseeker watches young warriors and scouts prove themselves. He chooses those strong enough for frontline service and gives them a letter for duty in the Barrens. Recruits cross the Southfury River bridge, leave Durotar’s sheltered red dirt, and join the Horde’s guard against quilboar, centaur, and Alliance scouts.",
    "spoiler": 0
   },
   {
    "title": "Reporting to Battlescar",
-   "body": "Kargal Battlescar receives the recruits at the outpost just across the river. The grizzled veteran manages the post and evaluates each conscript before signing off on their enlistment. A signed recruit is soon sent farther west to the Crossroads, where the frontier outposts are stretched thin.",
+   "body": "Just across the river, Kargal Battlescar receives recruits at the outpost. The grizzled veteran manages the post and evaluates each conscript before signing off on their enlistment. Those he signs are soon sent farther west to the Crossroads, where frontier outposts are stretched thin.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "turn in recruitment letter",
     "who do i give it to"
    ],
-   "answer": "You take the letter to Kargal Battlescar at the orc watchpost just across the Southfury River bridge, on the border of Durotar and the Barrens."
+   "answer": "Take the letter to Kargal Battlescar at the orc watchpost just across the Southfury River bridge, on the border of Durotar and the Barrens."
   },
   {
    "q": "What happens once the letter is signed?",
@@ -56,7 +56,7 @@
     "why are they recruiting",
     "why conscription barrens"
    ],
-   "answer": "The Horde conscripts adventurers because the Barrens is a sprawling, dangerous land that connects major Horde settlements. Centaur clans, aggressive Bristleback quilboar, and Alliance operations keep the threat constant, and frontline commanders need every able hand."
+   "answer": "The Horde conscripts adventurers because the Barrens is a sprawling, dangerous land connecting major Horde settlements. Centaur clans, aggressive Bristleback quilboar, and Alliance operations keep the threat constant, so frontline commanders need every able hand."
   }
  ],
  "angles": [
@@ -91,5 +91,5 @@
   "Recruitment Letter",
   "Conscript of the Horde (Classic)"
  ],
- "style": 1
+ "style": 2
 }

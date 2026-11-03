@@ -24,21 +24,21 @@
    "Gelkis Alliance quest chain"
   ]
  },
- "summary": "Captain Pentigast sees luck in the way the centaur clans of Desolace fight each other, since as one force they could not be stopped. The Gelkis are locked in brutal war with the Magram, so Pentigast sends you to Uthek the Wise in southwestern Desolace to seek an alliance.",
+ "summary": "Captain Pentigast seeks an alliance with the Gelkis in Desolace. They are at war with the Magram, and he sends you southwest to Uthek the Wise.",
  "sections": [
   {
    "title": "Divided Clans",
-   "body": "Captain Pentigast counts it good fortune that the centaur clans war on one another, for joined together they could not be stopped. Pentigast wants to push that edge. The Gelkis and Magram are locked in brutal war, so striking at the Magram might win the Gelkis over.",
+   "body": "Captain Pentigast sees a chance in the centaur clans’ quarrels. Joined together, they could not be stopped. He hopes their division will serve the Alliance. The Gelkis and Magram are locked in a brutal war, so striking at the Magram might persuade the Gelkis to join the Alliance.",
    "spoiler": 0
   },
   {
    "title": "Seeking Uthek",
-   "body": "Uthek the Wise can be found where the Gelkis camps begin, in the southwest of Desolace, and through her an alliance might be struck. She turns you away at first, telling you to leave and to return after killing many Magram.",
+   "body": "Uthek the Wise is where the Gelkis camps begin in southwestern Desolace. Pentigast hopes she can help secure an alliance. At first, she sends you away. She tells you to return after killing many Magram.",
    "spoiler": 0
   },
   {
    "title": "Uthek's Answer",
-   "body": "Once enough Magram have fallen to you, Uthek says the Gelkis now whisper your name, and she approves. She is willing to talk about what you can offer the clan and what it can offer you.",
+   "body": "Uthek the Wise tells you the Gelkis now whisper your name after you have killed many Magram. She approves, and is willing to discuss what you can offer the clan and what it can offer you.",
    "spoiler": 1
   }
  ],
@@ -50,7 +50,7 @@
     "strange alliance quest giver",
     "who starts strange alliance"
    ],
-   "answer": "Captain Pentigast, who hopes an alliance can be struck with the Gelkis clan."
+   "answer": "Captain Pentigast sends you to contact the Gelkis, hoping to make an alliance with the clan."
   },
   {
    "q": "Where is Uthek the Wise located?",
@@ -59,7 +59,7 @@
     "find uthek the wise",
     "where is uthek"
    ],
-   "answer": "Where the Gelkis camps begin, in the southwest of Desolace."
+   "answer": "In southwestern Desolace, at the edge where the Gelkis camps begin."
   },
   {
    "q": "Why will Uthek the Wise not talk to newcomers right away?",
@@ -68,7 +68,7 @@
     "uthek won't speak",
     "how to talk to uthek"
    ],
-   "answer": "She tells you to leave and to return after killing many Magram."
+   "answer": "Uthek the Wise tells you to leave and return after killing many Magram."
   },
   {
    "q": "Why does the Alliance want a pact with the Gelkis?",
@@ -77,7 +77,7 @@
     "alliance centaur reason",
     "why gelkis clan"
    ],
-   "answer": "Captain Pentigast reasons that centaur clans joined as one could not be stopped, so their quarrels are a stroke of luck. The Gelkis are at war with the Magram, so attacking the Magram may win Gelkis friendship."
+   "answer": "Captain Pentigast sees the centaur clans’ quarrels as a chance, since they could not be stopped if united. The Gelkis are at war with the Magram, and striking at the Magram might win the Gelkis’ friendship."
   }
  ],
  "angles": [],
@@ -98,5 +98,6 @@
  ],
  "attribution": [
   "Strange Alliance"
- ]
+ ],
+ "style": 2
 }

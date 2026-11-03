@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Maul (subzone)"
  },
- "summary": "The Maul is a sunken fighting arena situated in the Broken Commons outside the ruins of Dire Maul in Feralas. Formerly a grand venue of ancient elven Eldre'Thalas, the pit is now an uncontrolled bloodsport ring where wanderers fight for glory or survival against fierce beasts and rival champions.",
+ "summary": "In Maul, fighters face beasts and rivals in the sunken pit beyond Dire Maul. The Broken Commons ring once belonged to Eldre'Thalas, but no faction now keeps order on its floor.",
  "sections": [
   {
    "title": "The Sunken Pit",
-   "body": "Carved deep into the stone of the Broken Commons, the Maul once served the Highborne of Eldre'Thalas as a theater or ceremonial arena. Following the Sundering and the subsequent occupation by the Gordok ogres, the pit devolved into a raw colosseum. Like the notorious Gurubashi Arena in distant Stranglethorn Vale, entering the sands of the Maul suspends all allegiances, casting combatants into a lawless free-for-all where faction lines dissolve and survival depends purely on martial strength.",
+   "body": "Deep in the Broken Commons, Maul’s stone pit once hosted the Highborne of Eldre'Thalas for theater or ceremony. After the Sundering, Gordok ogres took the ruins, and the pit became a raw colosseum. Like the Gurubashi Arena in distant Stranglethorn Vale, its sands erase allegiance. Fighters from opposing factions meet freely, and survival belongs to the strong.",
    "spoiler": 0
   },
   {
    "title": "Beasts and Bloodshed",
-   "body": "Challengers who descend into the arena must mind their approach. While daring fighters often leap directly from the high ledges of the commons, the fall carries brutal impact. A safer western archway leads through tunnels lined with slumbering Gordok hyenas, providing the only foot exit out of the fighting floor. At irregular intervals, dangerous beasts and notorious gladiators emerge into the pit, making every descent an unpredictable trial of steel and instinct.",
+   "body": "Take care on the way down. Daring fighters sometimes leap from the Broken Commons’ high ledges, but the fall hits hard. A western archway leads down more safely through tunnels where Gordok hyenas sleep. It is the only way out on foot. Dangerous beasts and notorious gladiators enter at irregular times, so each descent brings an uncertain fight.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "free for all arena",
     "why can i hit horde"
    ],
-   "answer": "The Maul functions as a lawless fighting pit, much like the Gurubashi Arena in Stranglethorn Vale. Upon stepping onto its sands, standard faction treaties and truces no longer apply, flagging combatants for free-for-all combat against anyone not directly in their party."
+   "answer": "Maul is a lawless fighting pit, much like the Gurubashi Arena in Stranglethorn Vale. Faction treaties and truces do not hold on its sands, and combatants may fight anyone outside their party."
   },
   {
    "q": "How do I safely enter and leave the Maul?",
@@ -37,7 +37,7 @@
     "maul entrance",
     "exit maul"
    ],
-   "answer": "While you can jump directly down from the Broken Commons, doing so causes significant falling damage. The safest path is through a doorway on the western side of the commons, leading through a tunnel past sleeping Gordok hyenas. This tunnel is also the only way to climb back out on foot."
+   "answer": "A leap from the Broken Commons can cause serious falling damage. Take the safer way through the western doorway and past sleeping Gordok hyenas. It is also the only route back out on foot."
   },
   {
    "q": "What kinds of enemies appear in the arena?",
@@ -46,7 +46,7 @@
     "who spawns in the maul",
     "maul bosses"
    ],
-   "answer": "Aside from rival adventurers, exotic and vicious threats are known to prowl into the arena pit, including the massive fungal giant Mushgog, the chimera known as The Razza, and the fierce gladiator Skarr the Unbreakable."
+   "answer": "Rival adventurers meet dangerous beasts and gladiators in the pit. Among them are the fungal giant Mushgog, the chimera The Razza, and Skarr the Unbreakable."
   },
   {
    "q": "What was this arena originally used for?",
@@ -55,17 +55,17 @@
     "who built the maul",
     "eldre'thalas arena"
    ],
-   "answer": "Before the Sundering shattered ancient Kalimdor, this stone colosseum belonged to the great Highborne city of Eldre'Thalas. The invading Gordok ogres repurpose the ancient elven architecture into a blood arena suited to their savage tastes."
+   "answer": "Before the Sundering, the stone colosseum belonged to the Highborne city of Eldre'Thalas. The Gordok ogres later turned the ancient elven structure into a blood arena."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "For warriors seeking genuine combat outside organized battlegrounds, the Maul offers raw, unvarnished bloodsport where only personal prowess and thick armor dictate survival."
+   "text": "As a warrior, you can test your strength in Maul outside organized battlegrounds. Personal prowess and thick armor decide who survives."
   },
   {
    "target": "race:NightElf",
-   "text": "Watching the proud architecture of ancient Eldre'Thalas reduced to an ogre-infested execution pit is a stark and painful reminder of how far the Highborne civilization fell."
+   "text": "As a Night Elf, you see ancient Eldre'Thalas’s proud architecture reduced to an ogre-infested execution pit. It recalls the fall of Highborne civilization."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Maul (subzone)"
- ]
+ ],
+ "style": 2
 }

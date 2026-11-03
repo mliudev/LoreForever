@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Valley of Spears"
  },
- "summary": "The Valley of Spears is a rugged canyon nestled in western Desolace, serving as the stronghold of the Maraudine centaur clan. Enclosed by steep cliffs and guarded passes, the valley leads directly to Maraudon, the sacred ancestral burial ground of all centaurkind.",
+ "summary": "In western Desolace, the Maraudine guard their stronghold in the Valley of Spears. Beyond the valley lies Maraudon, the sacred burial ground of all centaurkind.",
  "sections": [
   {
    "title": "Stronghold of the Maraudine",
-   "body": "Carved into the rugged heights of western Desolace, the Valley of Spears is a stronghold of the Maraudine clan. Accessible on foot only through narrow, easily defended mountain passes from the south and east, this enclosed valley provides the centaur with a natural bastion. Travelers who venture past the rocky chokepoints face dense encampments of hostile nomads guarding the approach to their most revered holy site.",
+   "body": "The Maraudine hold the Valley of Spears in western Desolace. On foot, you can enter only through narrow mountain passes from the south and east. Rocky chokepoints guard those approaches, while hostile nomad camps fill the way to the clan’s most revered holy site.",
    "spoiler": 0
   },
   {
    "title": "The Threshold of Maraudon",
-   "body": "Tucked away at the southwestern end of the valley lies the entrance to Maraudon, the sacred cavern housing the tomb of Zaetar, father of the centaur, where Princess Theradras dwells. Because of this proximity, the Maraudine defend the canyon with zealous fury against rival clans and outside interlopers alike. Anyone foolish enough to stumble into the valley unawares—such as careless gnome cartographers or scouts—frequently ends up captured or slain.",
+   "body": "At the valley’s southwestern end, an entrance opens into Maraudon. The sacred cavern holds the tomb of Zaetar, father of the centaur, and Princess Theradras dwells within. The Maraudine defend the canyon fiercely from rival clans and outsiders. Gnome cartographer Melizza Brimbuzzle and scouts who wander in unaware may be captured or slain.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "valley of spears centaur clan",
     "maraudine base"
    ],
-   "answer": "The valley is the primary territory of the Maraudine clan, one of the warring centaur factions fighting for dominance in Desolace."
+   "answer": "The Maraudine clan controls the Valley of Spears. It is their chief territory among the centaur factions fighting for dominance in Desolace."
   },
   {
    "q": "Where does the Valley of Spears lead?",
@@ -37,7 +37,7 @@
     "maraudon entrance",
     "what is at the end of valley of spears"
    ],
-   "answer": "At the southwestern extremity of the valley lies the entrance to Maraudon, the holy ancestral cavern and burial ground of the centaur race."
+   "answer": "At the valley’s southwestern end, an entrance leads to Maraudon, the holy ancestral cavern and burial ground of the centaur race."
   },
   {
    "q": "How do you enter the valley?",
@@ -46,7 +46,7 @@
     "how to get in",
     "passes into valley of spears"
    ],
-   "answer": "The valley is surrounded by sheer mountain ridges and can only be entered on foot through narrow mountain defiles in the east and south."
+   "answer": "You can enter on foot through narrow mountain defiles to the east and south. Sheer ridges surround the valley."
   },
   {
    "q": "Is anyone trapped in the valley?",
@@ -55,17 +55,17 @@
     "captive in valley of spears",
     "gnome prisoner"
    ],
-   "answer": "Yes, an unfortunate gnome named Melizza Brimbuzzle has been taken prisoner by the Maraudine centaur and is held within their camps."
+   "answer": "Yes. The Maraudine have taken the gnome Melizza Brimbuzzle prisoner and hold her in their camps."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Centaur savagery has plagued the tribes of Kalimdor for generations; navigating this stronghold brings the tauren face-to-face with the heart of that ancient enmity."
+   "text": "As a tauren, you face the ancient enmity between centaur and tauren tribes, which has plagued Kalimdor for generations."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Alliance keeps a cautious eye on the region, particularly after exploratory travelers like the gnome Melizza Brimbuzzle were captured by the hostile Maraudine clan."
+   "text": "The Alliance watches the region cautiously. The Maraudine have captured exploratory travelers, including the gnome Melizza Brimbuzzle."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Valley of Spears"
- ]
+ ],
+ "style": 2
 }

@@ -27,16 +27,16 @@
    "Stone of the Tides"
   ]
  },
- "summary": "Baron Revilgaz directs you northward from Booty Bay to consult the Kirin Tor in Dalaran. Taking a bag of water elemental bracers, you seek out Archmage Ansirem Runeweaver to decipher the arcane curse tied to the Stone of the Tides.",
+ "summary": "From Booty Bay, Baron Revilgaz sends you north to Dalaran with water elemental bracers. He hopes Archmage Ansirem Runeweaver can study the curse tied to the Stone of the Tides.",
  "sections": [
   {
    "title": "A Plea to Dalaran",
-   "body": "Following your hunt for the water elemental bracers, Baron Revilgaz hands over a bundle of their bracers. The goblin leader knows that unraveling the curse behind the Stone of the Tides requires deeper magical expertise than Booty Bay can provide. He directs you north toward the ruins of Dalaran, where the wizards remain deeply engaged in rebuilding their broken kingdom. Convinced that arcane scholars cannot ignore an intriguing puzzle, Revilgaz recommends seeking Archmage Ansirem Runeweaver directly, having had dealings with the knowledgeable wizard in the past.",
+   "body": "Baron Revilgaz sends you north from Booty Bay with water elemental bracers. The town has no mage skilled enough to unravel the curse behind the Stone of the Tides, so he points you toward Dalaran. Its wizards are working to rebuild their broken kingdom. Revilgaz has dealt with Archmage Ansirem Runeweaver before and trusts his knowledge. He believes no mage can resist an intriguing puzzle.",
    "spoiler": 0
   },
   {
    "title": "The Archmage's Lore",
-   "body": "Reaching Ansirem Runeweaver amid Dalaran's ongoing efforts, the busy archmage pauses upon hearing of the relic. Years ago, Runeweaver authored an entire scholarly treatise on the ancient legends of the Gurubashi Empire, giving him rare insight into the relic's past. Examining the bracers, he spots trace magical residue suitable for scrutiny, setting aside his work to uncover what the enchantment holds.",
+   "body": "In Dalaran, Archmage Ansirem Runeweaver pauses his work when you tell him about the relic. Years ago, he wrote a scholarly treatise on the ancient legends of the Gurubashi Empire. That study gives him rare insight into the relic’s past. He examines the bracers and finds trace magical residue to study. Setting aside his work, he turns to uncovering the enchantment’s nature.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "magical analysis quest giver",
     "who starts magical analysis"
    ],
-   "answer": "Baron Revilgaz in Booty Bay gives you the bag of elemental bracers and instructs you to consult the wizards of Dalaran."
+   "answer": "Baron Revilgaz in Booty Bay gives you a bag of elemental bracers and sends you to consult Dalaran’s wizards."
   },
   {
    "q": "Why does Baron Revilgaz pick Archmage Ansirem Runeweaver?",
@@ -57,7 +57,7 @@
     "revilgaz ansirem connection",
     "why ansirem runeweaver"
    ],
-   "answer": "Revilgaz has dealt with Runeweaver before and knows the archmage's knowledge is vast; he also trusts that mages cannot resist a magical puzzle."
+   "answer": "Revilgaz has dealt with Ansirem Runeweaver before and trusts the archmage’s vast knowledge. He believes mages cannot resist a magical puzzle."
   },
   {
    "q": "What came before this journey to Dalaran?",
@@ -66,7 +66,7 @@
     "prereq magical analysis",
     "what quest leads here"
    ],
-   "answer": "This assignment directly follows Water Elementals, where you gathered water elemental bracers for Baron Revilgaz."
+   "answer": "Before traveling to Dalaran, you gathered water elemental bracers for Baron Revilgaz in Water Elementals."
   },
   {
    "q": "What comes next after reaching the archmage?",
@@ -75,13 +75,13 @@
     "what follows magical analysis",
     "after delivering bracers"
    ],
-   "answer": "Handing the bracers over leads on to Ansirem's Key."
+   "answer": "Giving the bracers to Ansirem leads to Ansirem’s Key."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Delivering arcane artifacts to an archmage of the Kirin Tor suits mages, since Baron Revilgaz himself says mages can't resist a magical puzzle."
+   "text": "As a mage, you carry arcane artifacts to an archmage of the Kirin Tor. Baron Revilgaz believes mages cannot resist a magical puzzle."
   }
  ],
  "keywords": [
@@ -105,5 +105,6 @@
  ],
  "attribution": [
   "Magical Analysis"
- ]
+ ],
+ "style": 2
 }

@@ -28,16 +28,16 @@
    "A New Cloak's Sheen"
   ]
  },
- "summary": "Krueg Skullsplitter in Camp Mojache is startled to hear that you met tauren in Feralas, and more so on learning they are Grimtotem. Belgrom, one of Krueg's masters, has put a bounty on their kind. Krueg wants you to go back and bring him twenty Grimtotem horns.",
+ "summary": "In Camp Mojache, Krueg Skullsplitter hears that you met tauren in Feralas and names them the Grimtotem. Belgrom has put a bounty on them, and Krueg asks for twenty horns.",
  "sections": [
   {
    "title": "Word of the Grimtotem",
-   "body": "You tell Krueg Skullsplitter of tauren you came across in the area, and Krueg is quick to name them as the Grimtotem clan. Belgrom, one of Krueg's masters, takes a keen interest in their kind and has put a bounty on them. Krueg tells you the Grimtotem are not to be underestimated, and that they are evil. You go back, slay them and bring twenty horns to Camp Mojache, so the first blow falls before they can raze villages or pilfer land.",
+   "body": "You tell Krueg Skullsplitter about the tauren you met in Feralas. He names them as the Grimtotem clan. Belgrom, one of Krueg's masters, has put a bounty on them and takes a keen interest in their kind. Krueg warns you that the Grimtotem are evil and must not be underestimated. He wants twenty horns brought back before they can raze villages or pilfer land.",
    "spoiler": 0
   },
   {
    "title": "The Horns Delivered",
-   "body": "Krueg judges the horns good and says you have now helped twice. Belgrom will hear of it as soon as Krueg is back in Orgrimmar.",
+   "body": "Krueg judges the horns good and says you have helped him twice. Belgrom will hear of it as soon as Krueg returns to Orgrimmar.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "krueg skullsplitter quest",
     "quest giver grim discovery"
    ],
-   "answer": "Krueg Skullsplitter in Camp Mojache, after you tell Krueg that you met tauren in the area."
+   "answer": "Krueg Skullsplitter gives it to you in Camp Mojache after you tell him you met tauren in Feralas."
   },
   {
    "q": "Why does Krueg want Grimtotem horns?",
@@ -58,7 +58,7 @@
     "grimtotem threat feralas",
     "why grimtotem horns"
    ],
-   "answer": "Krueg calls the Grimtotem clan evil and wants them struck before they can raze villages or pilfer land. Belgrom, one of the masters in Orgrimmar, has also put a bounty on them."
+   "answer": "Krueg calls the Grimtotem evil and wants them struck before they can raze villages or pilfer land. Belgrom, one of Krueg's masters in Orgrimmar, has also put a bounty on them."
   },
   {
    "q": "Who is Belgrom?",
@@ -66,7 +66,7 @@
     "belgrom orgrimmar",
     "who is belgrom"
    ],
-   "answer": "Krueg calls Belgrom one of the masters, who has an interest in the Grimtotem and has put a bounty on them."
+   "answer": "Krueg calls Belgrom one of his masters. Belgrom is interested in the Grimtotem and has put a bounty on them."
   },
   {
    "q": "How many horns does Krueg want?",
@@ -74,7 +74,7 @@
     "grimtotem horn count",
     "how many grimtotem horns"
    ],
-   "answer": "Twenty Grimtotem horns, brought to Krueg in Camp Mojache. Krueg would like piles of them if you can manage."
+   "answer": "Krueg wants twenty Grimtotem horns brought to him in Camp Mojache. He would like piles of them if you can manage."
   },
   {
    "q": "What follows A Grim Discovery?",
@@ -82,7 +82,7 @@
     "next quest grim discovery",
     "grim discovery chain"
    ],
-   "answer": "The chain goes on with A Grim Discovery (2)."
+   "answer": "The chain continues with A Grim Discovery, part two."
   }
  ],
  "angles": [],
@@ -102,5 +102,6 @@
  ],
  "attribution": [
   "A Grim Discovery (Classic)"
- ]
+ ],
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Grimesilt Dig Site"
  },
- "summary": "Grimesilt Dig Site is an archaeological excavation in the Searing Gorge originally broken ground by Ironforge dwarves. Overrun by hostile Dark Iron dwarves, the pit is now firmly under enemy control while surviving members of the original expedition struggle to endure in hiding.",
+ "summary": "Dark Iron sentries patrol the Grimesilt Dig Site in the Searing Gorge. Ironforge's search for relics began here, and its surviving crew struggles to endure in hiding.",
  "sections": [
   {
    "title": "A Contested Excavation",
-   "body": "Situated within the soot-choked badlands of the Searing Gorge, the Grimesilt Dig Site began as an expedition sanctioned by Ironforge scholars seeking relics beneath the crags. That venture met a violent end when the native Dark Iron dwarves drove out the excavators and claimed the equipment for themselves. Today, the trench swarms with Dark Iron sentries, leaving the wounded and scattered survivors of the original Ironforge crew trapped in and around the pit.",
+   "body": "Dark Iron sentries patrol the Grimesilt Dig Site in the Searing Gorge. Ironforge scholars first sent an expedition beneath the crags to seek relics. The native Dark Iron dwarves drove the excavators out and seized their equipment. Wounded and scattered, the original crew remains trapped in and around the pit.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "who made grimesilt dig site",
     "grimesilt founders"
    ],
-   "answer": "The excavation was begun by the Bronzebeard dwarves of Ironforge. Their team was dispatched to unearth ancient artifacts beneath the Searing Gorge before being ambushed and displaced."
+   "answer": "Bronzebeard dwarves of Ironforge began the excavation. Their team came to unearth ancient artifacts beneath the Searing Gorge, but the Dark Iron dwarves ambushed them and drove them away."
   },
   {
    "q": "Who controls the dig site now?",
@@ -32,7 +32,7 @@
     "grimesilt enemies",
     "who is at grimesilt"
    ],
-   "answer": "The Dark Iron clan seized the excavation. They currently occupy the pits, guarding the remaining tools and territory against any attempts by Ironforge to reclaim the area."
+   "answer": "The Dark Iron clan controls the excavation. They occupy the pits and guard the remaining tools and territory against any Ironforge attempt to reclaim the area."
   },
   {
    "q": "Are there any survivors from the original crew?",
@@ -41,17 +41,17 @@
     "dorius stonetender",
     "who is trapped at grimesilt"
    ],
-   "answer": "Yes. A few workers managed to stay alive, including the injured excavator Dorius Stonetender lying near the pit floor, and another unfortunate crewmate hiding inside a nearby outhouse."
+   "answer": "Yes. A few workers survived, including the injured excavator Dorius Stonetender, who lies near the pit floor. Another crewmate hides inside a nearby outhouse."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For Bronzebeard dwarves, Grimesilt is a bitter reminder of the Dark Iron threat lingering right across the mountains, underscoring the dangers facing dwarven antiquities and archaeologists in hostile lands."
+   "text": "For Bronzebeard dwarves, Grimesilt is a bitter reminder of the Dark Iron threat across the mountains and the dangers dwarven antiquities and archaeologists face in hostile lands."
   },
   {
    "target": "faction:Alliance",
-   "text": "The dig site represents an Ironforge endeavor ruthlessly broken by the Dark Irons, leaving beleaguered Alliance subjects awaiting extraction in treacherous territory."
+   "text": "The dig site marks an Ironforge endeavor broken by the Dark Irons. Beleaguered Alliance subjects wait for extraction in treacherous territory."
   }
  ],
  "keywords": [
@@ -70,5 +70,6 @@
  ],
  "attribution": [
   "Grimesilt Dig Site"
- ]
+ ],
+ "style": 2
 }

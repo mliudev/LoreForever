@@ -10,11 +10,11 @@
    "quest:5041"
   ]
  },
- "summary": "Stolen provisions for the Crossroads lie scattered among Razormane camps in the Barrens. A raided caravan left the settlement short of food, tools, and necessities.",
+ "summary": "At the Crossroads, a raided caravan has left the settlement short of food, tools, and necessities. Stolen provisions now lie scattered among Razormane camps in the Barrens.",
  "sections": [
   {
    "title": "Plundered Provisions",
-   "body": "Razormane quilboar raided a caravan carrying supplies to the Crossroads. The crates were dragged into nearby camps among the underbrush and dirt dens. Thork, the settlement's commander, seeks their return before the outpost runs dangerously low on food, tools, and necessities.",
+   "body": "Razormane quilboar raided a caravan bound for the Crossroads and carried its supplies into nearby camps. The crates lie among underbrush and dirt dens. Thork, the settlement's commander, seeks their return before the outpost runs dangerously low on food, tools, and necessities.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what is in the crates",
     "supply crate info"
    ],
-   "answer": "The crates hold food, tools, and other provisions meant for the Horde settlement of the Crossroads. A Razormane attack scattered them after the quilboar raided a supply caravan on the Barrens roads."
+   "answer": "The crates hold food, tools, and other provisions meant for the Horde settlement of the Crossroads. Razormane quilboar scattered them after raiding a supply caravan on the Barrens roads."
   },
   {
    "q": "Who stole the supply crates?",
@@ -35,7 +35,7 @@
     "who raided the caravan",
     "quilboar thieves"
    ],
-   "answer": "The Razormane quilboar attacked the caravan and hauled the crates to their nearby thorned camps to feast and hoard the spoils."
+   "answer": "Razormane quilboar attacked the caravan and hauled the crates to their nearby thorned camps to feast and hoard the spoils."
   },
   {
    "q": "Who is looking for these crates?",
@@ -44,7 +44,7 @@
     "turn in supply crates",
     "thork supplies"
    ],
-   "answer": "Thork, an orc officer stationed at the Crossroads, seeks the stolen crates so the garrison and local inhabitants remain supplied."
+   "answer": "Thork, an orc officer stationed at the Crossroads, seeks the stolen crates to keep the garrison and local inhabitants supplied."
   },
   {
    "q": "Where are the crates located?",
@@ -53,7 +53,7 @@
     "where to find supply crates",
     "crossroads supply crate spots"
    ],
-   "answer": "The crates lie scattered across Razormane quilboar camps in the surrounding Barrens."
+   "answer": "The crates lie scattered among Razormane quilboar camps in the surrounding Barrens."
   }
  ],
  "angles": [
@@ -83,5 +83,5 @@
   "Crossroads Supply Crate",
   "Supplies for the Crossroads (Classic)"
  ],
- "style": 1
+ "style": 2
 }

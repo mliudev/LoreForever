@@ -17,16 +17,16 @@
   "wiki": "A Lost Master (2)",
   "chain": []
  },
- "summary": "In Darkshore, you follow Grimclaw’s trail to find the missing scout Volcor. You carry the Enchanted Moonstalker Cloak Terenthis made from fine moonstalker pelts.",
+ "summary": "In Darkshore, you follow Grimclaw’s trail to find the missing scout Volcor. Terenthis has made an Enchanted Moonstalker Cloak from fine moonstalker pelts for the search.",
  "sections": [
   {
    "title": "A Beacon in the Woods",
-   "body": "Terenthis in Auberdine has woven the Enchanted Moonstalker Cloak, and the search for Volcor begins. Grimclaw, the missing night elf scout’s loyal bear, waits on the road south of the settlement for help sent by Terenthis. Give Grimclaw a familiar greeting, and he leads you off the road toward the cave where Volcor is hiding.",
+   "body": "Terenthis waits in Auberdine with the Enchanted Moonstalker Cloak he has woven. South of the settlement, Grimclaw waits on the road for help sent by Terenthis. The loyal bear belongs to the missing night elf scout Volcor. Give Grimclaw a familiar greeting, and he leads you from the road toward the cave where Volcor is hiding.",
    "spoiler": 0
   },
   {
    "title": "Hiding in the Dark",
-   "body": "Volcor lies wounded in a cavern after the corrupted furbolgs attacked him. He relies on stealth and Grimclaw’s wits to keep from being overrun. The enchanted cloak offers concealment and hope as he plans his escape, but his wounds leave him in danger on the journey back to Auberdine.",
+   "body": "Volcor lies wounded in a cavern after corrupted furbolgs attacked him. He uses stealth and Grimclaw’s wits to keep from being overrun. The enchanted cloak offers concealment and hope as Volcor plans his escape. Yet his wounds leave him in danger on the journey back to Auberdine.",
    "spoiler": 1
   }
  ],
@@ -107,5 +107,5 @@
  "attribution": [
   "A Lost Master (2)"
  ],
- "style": 1
+ "style": 2
 }

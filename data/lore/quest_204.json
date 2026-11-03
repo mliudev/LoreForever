@@ -18,11 +18,11 @@
   "chain": [],
   "category": "Stranglethorn Vale"
  },
- "summary": "At the Rebel Camp in northern Stranglethorn Vale, Sergeant Yohwa seeks to blunt Colonel Kurzen's military advantage by targeting his medical support. The renegades rely on powerful remedies and toxins concocted by their practitioners, leaving the resistance fighters desperate to turn those same concoctions to their own advantage.",
+ "summary": "At the Rebel Camp in northern Stranglethorn Vale, Sergeant Yohwa seeks a way to weaken Colonel Kurzen's force. His medicine men heal his soldiers and poison Yohwa's fighters, and the resistance needs their remedies and toxins.",
  "sections": [
   {
    "title": "Stripping the Compound's Support",
-   "body": "Colonel Kurzen has bolstered his jungle force with numerous medicine men who heal his forces and poison Yohwa's fighters with venom fern extracts. To turn the tide of the conflict, Sergeant Yohwa directs adventurers into the Kurzen Compound to scavenge those vital supplies. Securing their jungle remedies will help treat wounded fighters at the Rebel Camp, while capturing a sample of their venom fern extract will enable the resistance to study the toxin and manufacture their own cures.",
+   "body": "Colonel Kurzen's medicine men heal his soldiers and poison Yohwa's fighters with venom fern extract. Sergeant Yohwa asks you to gather their supplies from the Kurzen Compound. The remedies can treat wounded fighters at the Rebel Camp. A sample of venom fern extract will let the resistance study the toxin and make cures of its own.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "bad medicine quest giver",
     "yohwa quest"
    ],
-   "answer": "Sergeant Yohwa, stationed at the Rebel Camp in northern Stranglethorn Vale, asks you to retrieve these medical supplies."
+   "answer": "At the Rebel Camp in northern Stranglethorn Vale, Sergeant Yohwa asks you to recover the medical supplies."
   },
   {
    "q": "Why does Sergeant Yohwa want Jungle Remedies?",
@@ -42,7 +42,7 @@
     "why need jungle remedies",
     "jungle remedy purpose"
    ],
-   "answer": "Kurzen's medicine men use the remedies to heal their own soldiers. The resistance fighters need those same supplies to treat and sustain their own wounded comrades."
+   "answer": "Kurzen's medicine men use Jungle Remedies to heal their soldiers. The resistance needs the remedies to treat its wounded fighters."
   },
   {
    "q": "What is the Venom Fern Extract used for?",
@@ -50,7 +50,7 @@
     "why venom fern extract",
     "extract use"
    ],
-   "answer": "Kurzen's forces use the venom fern extract to poison Yohwa's fighters. Sergeant Yohwa needs a sample so the camp can study the compound and brew their own remedies against it."
+   "answer": "Kurzen's forces use venom fern extract to poison Yohwa's fighters. Yohwa needs a sample so the camp can study the toxin and make remedies against it."
   },
   {
    "q": "Where are these medical supplies kept?",
@@ -58,13 +58,13 @@
     "where to find jungle remedies",
     "extract location"
    ],
-   "answer": "Both are held within the Kurzen Compound. The medicine men carry the remedies directly, while the venom fern extracts are stowed inside supply boxes around the encampment."
+   "answer": "The supplies are inside the Kurzen Compound. Medicine men carry the remedies, while supply boxes around the encampment hold the venom fern extracts."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Cutting off Kurzen's healing support keeps more of the Rebel Camp's fighters alive against his forces."
+   "text": "For the Alliance, cutting off Kurzen's healing support can help keep more Rebel Camp fighters alive against his force."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Bad Medicine (Classic)"
- ]
+ ],
+ "style": 2
 }

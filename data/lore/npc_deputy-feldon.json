@@ -8,11 +8,11 @@
   "wiki": "Deputy Feldon",
   "refs": 1
  },
- "summary": "South of the Great Lakeshire Bridge, Deputy Feldon watches the road into Lakeshire. Gnoll packs are creeping toward the town, and he keeps a nervous vigil.",
+ "summary": "At the road south of the Great Lakeshire Bridge, Deputy Feldon keeps a nervous watch as gnolls creep toward Lakeshire.",
  "sections": [
   {
    "title": "A Guard on Edge",
-   "body": "Deputy Feldon stands watch south of the Lakeshire bridge, guarding a road needed for trade and travel. Blackrock orcs press from the north while gnoll packs overrun the southern hills, stretching the town guard thin. Feldon cannot leave his post without weakening Lakeshire's perimeter. He depends on passing adventurers to drive back the gnolls before they cut the town off.",
+   "body": "Deputy Feldon guards the road south of the Lakeshire bridge, a route needed for trade and travel. Blackrock orcs press from the north as gnoll packs overrun the southern hills, leaving the town guard stretched thin. Feldon cannot abandon his post without weakening Lakeshire's perimeter. He relies on passing adventurers to drive the gnolls back before they cut the town off.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is feldon",
     "deputy feldon role"
    ],
-   "answer": "Deputy Feldon serves in the Lakeshire town guard, stationed just south of the bridge to the main southern road in Redridge Mountains."
+   "answer": "Deputy Feldon serves in the Lakeshire town guard. He is stationed just south of the bridge on Redridge Mountains' main southern road."
   },
   {
    "q": "Why is Deputy Feldon worried about gnolls?",
@@ -33,7 +33,7 @@
     "feldon gnoll problem",
     "encroaching gnolls"
    ],
-   "answer": "Gnoll camps have been spotted along the road toward Elwynn Forest. Feldon fears they may push into the human homeland, leaving Lakeshire no longer the only town under siege. The guard is ill-equipped to face them."
+   "answer": "Gnoll camps have been spotted along the road toward Elwynn Forest. Feldon fears the gnolls may push into the human homeland, leaving Lakeshire no longer the only town under siege. The guard is ill-equipped to face them."
   },
   {
    "q": "Why doesn't Feldon deal with the gnolls himself?",
@@ -41,7 +41,7 @@
     "why doesn't feldon fight",
     "feldon duty"
    ],
-   "answer": "The Lakeshire guard is understaffed and facing orcs and gnolls at once. Feldon cannot leave his bridge post without leaving the town entrance unguarded."
+   "answer": "The Lakeshire guard is understaffed and faces orcs and gnolls at once. Feldon cannot leave his bridge post without leaving the town entrance unguarded."
   },
   {
    "q": "Where can Deputy Feldon be found?",
@@ -49,13 +49,13 @@
     "feldon location",
     "where is feldon"
    ],
-   "answer": "Deputy Feldon stands watch on the road just south of the Great Lakeshire Bridge, guarding the town's southern approaches."
+   "answer": "Deputy Feldon keeps watch on the road just south of the Great Lakeshire Bridge, guarding Lakeshire's southern approaches."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance champion, you can see how strained Stormwind's outer territories are: local guardsmen need passing champions to help keep the king's peace."
+   "text": "As an Alliance champion, you can see how strained Stormwind's outer territories are. Local guardsmen need passing champions to help keep the king's peace."
   }
  ],
  "keywords": [
@@ -77,5 +77,5 @@
  "attribution": [
   "Deputy Feldon"
  ],
- "style": 1
+ "style": 2
 }

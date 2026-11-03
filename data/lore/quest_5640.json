@@ -17,16 +17,16 @@
   "wiki": "Desperate Prayer (Darnassus)",
   "chain": []
  },
- "summary": "In Darnassus, young human and dwarven priests find guidance in another faith. Priestess Alathea teaches the ways of Elune, while followers of the Holy Light are directed to Stormwind. There, High Priestess Laurena welcomes the returning acolyte to the Cathedral of Light.",
+ "summary": "In Darnassus, young human and dwarven priests seek guidance in another faith. Priestess Alathea teaches the ways of Elune and directs followers of the Holy Light to Stormwind, where High Priestess Laurena welcomes returning acolytes to the Cathedral of Light.",
  "sections": [
   {
    "title": "Two Paths of Faith",
-   "body": "Alliance priests follow different sacred paths. In Darnassus, the priesthood tends to Elune, channeling the moon goddess's radiance and wrath. Priestess Alathea honors Elune and respects the Holy Light, but cannot teach another race the deeper prayers bound to a different devotion. Human and dwarven acolytes who seek those prayers must look elsewhere.",
+   "body": "Alliance priests follow different sacred paths. In Darnassus, the priesthood serves Elune and channels the moon goddess's radiance and wrath. Priestess Alathea honors Elune and respects the Holy Light. Yet she cannot teach another race the deeper prayers bound to a different devotion. Human and dwarven acolytes who seek those prayers must look elsewhere.",
    "spoiler": 0
   },
   {
    "title": "Return to the Cathedral",
-   "body": "Initiates of the Holy Light return home to learn its rites, including the prayer for divine aid in a moment of peril. High Priestess Laurena guides returning priests in Stormwind's Cathedral of Light, beneath its marble arches.",
+   "body": "Initiates of the Holy Light return home to learn its rites, including the prayer for divine aid in a moment of peril. In Stormwind's Cathedral of Light, High Priestess Laurena guides returning priests beneath its marble arches.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why alathea sends me away",
     "darnassus to stormwind priest quest"
    ],
-   "answer": "Priestess Alathea teaches the ways of Elune. She respects the Holy Light, but cannot teach its prayers to humans and dwarves, who seek guidance from High Priestess Laurena in Stormwind."
+   "answer": "Priestess Alathea teaches the ways of Elune. She respects the Holy Light, but cannot teach its prayers to humans and dwarves. They seek guidance from High Priestess Laurena in Stormwind."
   },
   {
    "q": "Who is Priestess Alathea?",
@@ -70,7 +70,7 @@
     "do night elves know the light",
     "elune vs holy light"
    ],
-   "answer": "No. Night elves revere Elune almost exclusively and channel her lunar power. They respect the Holy Light, but do not preach it or teach its prayers; those belong to human and dwarven priests."
+   "answer": "No. Night elves revere Elune almost exclusively and channel her lunar power. They respect the Holy Light, but do not preach it or teach its prayers. Those belong to human and dwarven priests."
   },
   {
    "q": "Where can I find High Priestess Laurena?",
@@ -78,7 +78,7 @@
     "laurena location",
     "where is laurena"
    ],
-   "answer": "High Priestess Laurena resides in Cathedral Square in Stormwind City, inside the Cathedral of Light among clergy and paladins of the Silver Hand."
+   "answer": "High Priestess Laurena resides in Cathedral Square in Stormwind City, inside the Cathedral of Light. There she is among clergy and paladins of the Silver Hand."
   }
  ],
  "angles": [
@@ -120,5 +120,5 @@
  "attribution": [
   "Desperate Prayer (Darnassus)"
  ],
- "style": 1
+ "style": 2
 }

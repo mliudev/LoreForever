@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Swarming Pillar"
  },
- "summary": "The Swarming Pillar is a towering rock formation in the heart of Silithus, thoroughly infested and reshaped by the silithid. Situated just south of Cenarion Hold, the spire takes its name from the relentless clouds of winged insectoids buzzing around its peaks and subterranean entrances.",
+ "summary": "Winged silithid circle Swarming Pillar, south of Cenarion Hold. Their swarm has carved and reshaped the rock into a hive in central Silithus.",
  "sections": [
   {
    "title": "A Spire of Chitin and Sand",
-   "body": "Rising abruptly from the shifting dunes of central Silithus, the Swarming Pillar serves as a grim monument to the unchecked expansion of the silithid. What began as a natural rock formation has been carved and encrusted with the resinous secretions and burrows of the insectoid swarm. Just south of Cenarion Hold, it constantly churns out broods of winged workers and soldiers, whose dark clouds fill the dry desert air and warn travelers to keep their distance.",
+   "body": "In central Silithus, Swarming Pillar rises from the dunes, its natural rock carved into burrows and coated with the swarm’s resin. It lies just south of Cenarion Hold. From it, winged worker and soldier broods pour out in dark clouds that fill the desert air and warn travelers away.",
    "spoiler": 0
   },
   {
    "title": "Heart of the Hive",
-   "body": "Though massive and intimidating on the surface, the Swarming Pillar is merely the outward protrusion of a vast underground network. Beneath its stony exterior lie deep tunnels and cavernous breeding chambers that anchor one of the largest hives in the region. The Cenarion Circle views the spire with immense concern, as its active broods directly threaten druidic operations and hint at the terrifying coordination behind the insectoid menace.",
+   "body": "Swarming Pillar is only the visible tip of a vast underground network. Deep tunnels and cavernous breeding chambers beneath its stony exterior anchor one of the region’s largest hives. The Cenarion Circle watches with concern as active broods threaten its druidic operations and expose the coordination behind the silithid menace.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is this pillar",
     "silithid spire silithus"
    ],
-   "answer": "The Swarming Pillar is a massive rock formation in central Silithus that has been overtaken and turned into an active silithid hive. It is characterized by the endless swarm of flying insectoids circling its peak."
+   "answer": "Swarming Pillar is a rock formation in central Silithus, overtaken and reshaped into an active silithid hive. Flying insectoids circle its peak in an endless swarm."
   },
   {
    "q": "Where is the Swarming Pillar located?",
@@ -36,7 +36,7 @@
     "where is swarming pillar",
     "swarming pillar location"
    ],
-   "answer": "You can find it in the center of the desert, just a short distance directly south of Cenarion Hold."
+   "answer": "Swarming Pillar rises in the desert’s center, just south of Cenarion Hold."
   },
   {
    "q": "Why are there so many bugs flying around it?",
@@ -45,7 +45,7 @@
     "flying bugs silithus pillar",
     "flying silithid"
    ],
-   "answer": "The rock formation houses one of the primary hives in Silithus, serving as a massive nursery and transit point for winged silithid that patrol the surrounding desert sands."
+   "answer": "Swarming Pillar houses one of Silithus’s primary hives, a massive nursery and transit point for winged silithid that patrol the surrounding sands."
   },
   {
    "q": "Is the Swarming Pillar connected to the hives beneath the sand?",
@@ -53,13 +53,13 @@
     "hive tunnels",
     "underground silithid pillar"
    ],
-   "answer": "Yes. The visible spire is just the topmost projection of an extensive subterranean colony carved deep into the bedrock and sands beneath Silithus."
+   "answer": "Yes. The visible spire is the uppermost projection of an extensive colony, with tunnels carved deep into the bedrock and sands beneath Silithus."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Standing so close to Cenarion Hold, the hive at the Swarming Pillar is an immediate affront to the natural order and an ongoing danger to the Cenarion Circle's watch."
+   "text": "As a druid, you can see the hive at Swarming Pillar as an affront to the natural order. So close to Cenarion Hold, it remains a danger to the Cenarion Circle’s watch."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  ],
  "attribution": [
   "Swarming Pillar"
- ]
+ ],
+ "style": 2
 }

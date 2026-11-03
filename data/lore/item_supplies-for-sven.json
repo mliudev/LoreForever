@@ -10,11 +10,11 @@
    "quest:164"
   ]
  },
- "summary": "Darkshire sends provisions to Sven Yorgen's camp in northwestern Duskwood. The Carevin family keeps his small band supplied as they hold their watch against the shadows.",
+ "summary": "In northwestern Duskwood, Sven Yorgen's camp depends on provisions from Darkshire. The Carevin family keeps his small band supplied as they hold their watch against the shadows.",
  "sections": [
   {
    "title": "A Lifeline for the Camp",
-   "body": "Sven Yorgen and his few followers camp in the northwestern wilderness, far from Darkshire. Their numbers are too low, and their watch too demanding, to spare anyone for the journey into town. The Carevin family sends food, bandages, and other necessities to the isolated camp, helping the band hold its ground.",
+   "body": "Sven Yorgen and his few followers keep camp in the northwestern wilderness, far from Darkshire. Their numbers are too small to leave the watch and make the journey into town. So the Carevin family sends food, bandages, and other necessities to help the band hold its ground.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who packed sven's supplies",
     "carevin family supplies"
    ],
-   "answer": "The Carevin family of Darkshire sends these supplies. They arrange provisions to support Sven Yorgen and his camp in the wilderness."
+   "answer": "The Carevin family of Darkshire sends these supplies. They arrange provisions for Sven Yorgen and his camp in the wilderness."
   },
   {
    "q": "Why can't Sven fetch his own supplies?",
@@ -35,7 +35,7 @@
     "why delivery for sven",
     "why need supplies"
    ],
-   "answer": "Sven's band has too few people to leave the camp. His surviving companions guard it in northwestern Duskwood against beasts and undead, and cannot spare anyone for the dangerous road to Darkshire."
+   "answer": "Sven's band has too few people to leave the camp. His surviving companions guard it in northwestern Duskwood against beasts and undead, and none can be spared for the dangerous road to Darkshire."
   },
   {
    "q": "Where is Sven's camp located?",
@@ -58,7 +58,7 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you can see Sven's defiance against Duskwood's darkness as work of the Light. These provisions serve a brother in faith."
+   "text": "As a paladin, you can see Sven's defiance against Duskwood's darkness as work of the Light. These provisions go to a brother in faith."
   },
   {
    "target": "faction:Alliance",
@@ -86,5 +86,5 @@
   "Supplies for Sven",
   "Deliveries to Sven"
  ],
- "style": 1
+ "style": 2
 }

@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "race:Skyborne",
-   "text": "For the Skyborne of Skywall, this represents a monumental shift in perspective: leaving the elemental realm of their home to venture down to Azeroth in search of salvation for Zephras Isle."
+   "text": "As a Skyborne of Skywall, you face a great change. You leave your elemental home to seek salvation for Zephras Isle in Azeroth."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "grand adventure quest",
     "what is a grand adventure"
    ],
-   "answer": "A Grand Adventure is a pivotal quest given by Ayessa Dawnsinger on Zephras Isle. In it, she shares the Windshapers' conclusion that saving their home requires venturing outside Skywall into the world of Azeroth.",
+   "answer": "Ayessa Dawnsinger asks for help as wind spirits vanish from Zephras Isle. The Windshapers believe saving their home means venturing beyond Skywall to Azeroth.",
    "q": "What is the quest A Grand Adventure?"
   },
   {
@@ -33,7 +33,7 @@
     "dawnsinger",
     "who is ayessa dawnsinger"
    ],
-   "answer": "Ayessa Dawnsinger is a key member of the Windshapers on Zephras Isle who investigates the crisis facing the island and proposes a plan to seek help and power from Azeroth.",
+   "answer": "Ayessa Dawnsinger is a Windshaper on Zephras Isle. She investigates the crisis and asks capable adventurers to heed what the Windshapers have learned.",
    "q": "Who is Ayessa Dawnsinger?"
   },
   {
@@ -42,7 +42,7 @@
     "what happened on zephras isle",
     "zephras problem"
    ],
-   "answer": "Zephras Isle is suffering from a major crisis involving missing wind spirits. The Windshapers have been investigating their disappearance to find a way to save their home.",
+   "answer": "Wind spirits have vanished from Zephras Isle without explanation. The Windshapers investigate the disturbances and seek a way to save their home.",
    "q": "What crisis is taking place on Zephras Isle?"
   },
   {
@@ -50,7 +50,7 @@
     "who are the windshapers",
     "windshapers zephras"
    ],
-   "answer": "The Windshapers are a group working on Zephras Isle dedicated to investigating and resolving the elemental disturbances and missing wind spirits threatening the island.",
+   "answer": "The Windshapers investigate the disturbances and missing wind spirits threatening Zephras Isle.",
    "q": "Who are the Windshapers?"
   },
   {
@@ -59,7 +59,7 @@
     "why leave skywall",
     "path to salvation"
    ],
-   "answer": "Ayessa Dawnsinger believes that the knowledge, untapped potential, and power needed to resolve the crisis on Zephras Isle cannot be found within Skywall alone, but must be sought in the world below on Azeroth.",
+   "answer": "Ayessa Dawnsinger believes Skywall lacks the power and knowledge to save Zephras Isle. She believes they must seek salvation in Azeroth below.",
    "q": "Why do the Windshapers need to travel to Azeroth?"
   },
   {
@@ -67,7 +67,7 @@
     "what is skywall",
     "where is skywall"
    ],
-   "answer": "Skywall is the elemental home realm of the Windshapers and Zephras Isle, situated above the mortal world of Azeroth.",
+   "answer": "Skywall is the elemental home realm of the Windshapers and Zephras Isle, above the mortal world of Azeroth.",
    "q": "What is Skywall?"
   }
  ],
@@ -88,18 +88,19 @@
  ],
  "sections": [
   {
-   "body": "Zephras Isle faces an escalating crisis as wind spirits have vanished without explanation. In response, the Windshapers have been investigating these disturbances, uncovering unexpected revelations about their missing kin and the fate of their elemental home. Ayessa Dawnsinger seeks capable adventurers to heed their findings and prepare for an unprecedented undertaking.",
+   "body": "Wind spirits have vanished from Zephras Isle, and the trouble keeps growing. The Windshapers have investigated the disturbances and uncovered truths about their missing kin and the fate of their elemental home. Ayessa Dawnsinger asks you to heed what they have learned and prepare for an undertaking unlike any before.",
    "spoiler": 0,
    "title": "The Crisis on Zephras Isle"
   },
   {
-   "body": "Upon confiding her discoveries, Ayessa Dawnsinger reveals a bold and unconventional conclusion: Skywall alone does not hold the power or knowledge required to save Zephras Isle. Instead, salvation lies below in the mortal world of Azeroth. Venturing beyond their homeland represents a daring departure from tradition, asking adventurers to step into the unknown to secure the island's future.",
+   "body": "Ayessa Dawnsinger believes Skywall lacks the power and knowledge to save Zephras Isle. She has concluded that salvation lies below, in the mortal world of Azeroth. Leaving their homeland breaks with tradition. The island's future depends on those willing to venture into the unknown.",
    "spoiler": 1,
    "title": "A Venture Beyond Skywall"
   }
  ],
- "summary": "A Grand Adventure marks a turning point for the crisis on Zephras Isle within Skywall. Led by Ayessa Dawnsinger and the Windshapers, it outlines a bold plan to seek salvation for their home by journeying down to the mortal realm of Azeroth.",
+ "summary": "On Zephras Isle, Ayessa Dawnsinger and the Windshapers seek a way to save their home. The isle lies in Skywall, where wind spirits have vanished without explanation.",
  "attribution": [
   "In-game quest text: A Grand Adventure"
- ]
+ ],
+ "style": 2
 }

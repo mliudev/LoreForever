@@ -8,16 +8,16 @@
   "wiki": "Kindal Moonweaver",
   "refs": 4
  },
- "summary": "Kindal Moonweaver is a night elf secluded within a concealed nook in the craggy mountains of Feralas, just north of the Grimtotem Compound. Deeply troubled by the mistreatment of wildlife in the wilderness, she watches the aggressive tauren tribe below while seeking help to free captured beasts. She is kin to Jer'kai Moonweaver, sharing a mission to defend the forest's innocent creatures.",
+ "summary": "From a hidden perch in Feralas, Kindal Moonweaver watches the Grimtotem Compound and its captured beasts. Troubled by their mistreatment, she seeks help to free them and protect young animals. She is kin to Jer'kai Moonweaver, and both defend the forest's creatures.",
  "sections": [
   {
    "title": "A Watcher in the Clifftops",
-   "body": "Perched upon a narrow, winding mountain path partially hidden behind timber east of Dire Maul, Kindal Moonweaver maintains a secret vigil over the valley below. While much of Feralas is contested between the Horde, the night elves of Feathermoon, and the ancient ruins of Eldre'Thalas, Kindal focuses on a more localized and immediate cruelty. Down in the hollow, the Grimtotem tribe operates a fortified compound, capturing and penning up local fauna for reasons far from benign. From her concealed overlook, Kindal watches for anyone willing to brave the enemy camp and undo the suffering inside.",
+   "body": "East of Dire Maul, Kindal Moonweaver watches the valley from a hidden perch along a narrow, winding mountain path. The path lies behind timber, north of the Grimtotem Compound. Feralas is contested by the Horde, the night elves of Feathermoon, and the ancient ruins of Eldre'Thalas.\n\nKindal's concern is the nearby hollow, where the Grimtotem tribe keeps a fortified compound. They capture and pen local wildlife for cruel ends. From her concealed overlook, Kindal watches for anyone willing to brave the enemy camp and free the beasts.",
    "spoiler": 0
   },
   {
    "title": "Compassion for the Wild",
-   "body": "Kindal's primary concern lies with the sacred balance and gentle creatures of Feralas that cannot defend themselves against brutish captors. Along with her kin, Jer'kai Moonweaver, she seeks the emancipation of caged beasts and looks out for young animals left stranded by violent poaching. Rather than engaging in grand territorial war, her attention is fixed on compassion: freeing caged sprites and finding a home for an orphaned sprite darter.",
+   "body": "Kindal seeks to preserve Feralas's sacred balance and protect its gentle creatures from their brutish captors. With her kin, Jer'kai Moonweaver, she works to free caged beasts and find help for young animals left stranded by poaching.\n\nHer concern is close at hand: freeing caged sprites and finding a home for an orphaned sprite darter.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "how to find kindal",
     "where is kindal"
    ],
-   "answer": "Kindal hides along the northern cliffs of Feralas, just east of Dire Maul and above the Grimtotem Compound. You can reach her by finding a narrow, hidden mountain path that winds uphill behind a stand of trees."
+   "answer": "Kindal hides along Feralas's northern cliffs, east of Dire Maul and above the Grimtotem Compound. A narrow, hidden mountain path winds uphill behind timber to her perch."
   },
   {
    "q": "Who is Kindal Moonweaver?",
@@ -37,7 +37,7 @@
     "kindal lore",
     "who is kindal"
    ],
-   "answer": "She is a solitary night elf dedicated to animal welfare and natural preservation in Feralas. She keeps watch over the Grimtotem Compound to disrupt their capturing of local wildlife."
+   "answer": "Kindal Moonweaver is a solitary night elf who protects Feralas's wildlife. She watches the Grimtotem Compound and seeks to stop its capture of local beasts."
   },
   {
    "q": "What is Kindal's goal in Feralas?",
@@ -45,7 +45,7 @@
     "kindal quest purpose",
     "why is kindal here"
    ],
-   "answer": "Kindal wants to free captive creatures trapped in cages within the nearby Grimtotem Compound and ensure that orphaned wilderness beasts are rescued and provided safe shelter."
+   "answer": "Kindal wants to free creatures held in cages at the nearby Grimtotem Compound and find safe shelter for orphaned beasts of the wilderness."
   },
   {
    "q": "Is Kindal Moonweaver related to Jer'kai Moonweaver?",
@@ -53,7 +53,7 @@
     "jerkai moonweaver connection",
     "kindal and jerkai"
    ],
-   "answer": "Yes, Kindal is kin to Jer'kai Moonweaver. Both share the Moonweaver family name and collaborate in the effort to rescue mistreated and displaced woodland creatures in Feralas."
+   "answer": "Yes. Kindal is kin to Jer'kai Moonweaver, and both work to rescue mistreated and displaced woodland creatures in Feralas."
   },
   {
    "q": "Why is Kindal opposing the Grimtotem?",
@@ -61,7 +61,7 @@
     "kindal grimtotem",
     "grimtotem compound kindal"
    ],
-   "answer": "The Grimtotem clan occupying the compound below her mountain perch captures and cages wild beasts of Feralas. Kindal seeks to liberate these creatures from captivity and punish their captors."
+   "answer": "The Grimtotem clan in the compound below Kindal's perch captures and cages Feralas's wild beasts. Kindal wants to free the creatures and punish their captors."
   },
   {
    "q": "Does Kindal Moonweaver offer quests to both factions?",
@@ -69,21 +69,21 @@
     "is kindal friendly to horde",
     "can horde talk to kindal"
    ],
-   "answer": "No. Kindal's quests are offered only to the Alliance, whose adventurers she enlists to free the caged creatures from the Grimtotem."
+   "answer": "No. Kindal makes her requests only to the Alliance, enlisting its adventurers to free the caged creatures from the Grimtotem."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Kindal embodies the traditional kaldorei devotion to the natural world, standing as an isolated guardian for beasts imperiled by outside invaders."
+   "text": "As a night elf, you see Kindal guarding beasts threatened by outsiders, alone in Feralas's wilds."
   },
   {
    "target": "class:Druid",
-   "text": "Druids will find common ground with Kindal's singular dedication to preserving forest life and liberating trapped nature spirits from cruel iron cages."
+   "text": "As a druid, you may share Kindal's devotion to forest life and her effort to free nature spirits from cruel iron cages."
   },
   {
    "target": "class:Hunter",
-   "text": "Hunters attuned to the beasts of Kalimdor can respect Kindal's efforts to protect wild young and punish those who capture game for sport or malice."
+   "text": "As a hunter of Kalimdor's beasts, you can respect Kindal's work to protect wild young and punish those who capture game for sport or malice."
   }
  ],
  "keywords": [
@@ -104,5 +104,6 @@
  ],
  "attribution": [
   "Kindal Moonweaver"
- ]
+ ],
+ "style": 2
 }

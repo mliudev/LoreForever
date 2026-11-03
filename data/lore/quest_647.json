@@ -17,16 +17,16 @@
   "wiki": "MacKreel's Moonshine (quest)",
   "chain": []
  },
- "summary": "Foggy MacKreel sleeps through his watch on the broken Thandol Span after drinking too much of his own moonshine. Now he needs an Alliance traveler to hurry a fresh batch to Brewmeister Bilger in Southshore and settle his debt.",
+ "summary": "Foggy MacKreel needs his moonshine carried from the broken Thandol Span to Southshore. He drank too much while on watch and now has little time to deliver a fresh batch to Brewmeister Bilger and settle his debt.",
  "sections": [
   {
    "title": "A Guard's Hangover",
-   "body": "Foggy MacKreel keeps watch on the shattered Thandol Span, where the hours are wet, cold, and dull. To bear the damp chill, he drinks his homemade moonshine, a brew so fierce he likens its aftereffects to siege engines pounding across his skull. One drink too many leaves him passed out through his shift. Longbraid the Grim commands the dwarves defending the Span, and Foggy cannot afford another lapse in discipline.",
+   "body": "On the shattered Thandol Span, Foggy MacKreel keeps watch through wet, cold, and dull hours. He drinks his homemade moonshine to bear the damp chill. The brew hits hard enough that he compares its aftereffects to siege engines pounding across his skull. One drink too many leaves him asleep through his shift. Longbraid the Grim commands the dwarves defending the Span, and Foggy cannot afford another lapse in discipline.",
    "spoiler": 0
   },
   {
    "title": "A Race Against the Clock",
-   "body": "Foggy also owes Brewmeister Bilger in Southshore a longstanding debt. He promised a batch of his personal brew to settle the account, but his hangover and watch duties leave him minutes from missing the deadline. With gryphons and swift feet, you race across the Arathi Highlands to Southshore with the jug, before Bilger decides Foggy has skipped out on his tab again.",
+   "body": "Foggy owes Brewmeister Bilger in Southshore a longstanding debt. He promised a batch of his personal brew to settle the account, but his hangover and watch duties have left him minutes from missing the deadline. You race across the Arathi Highlands with the jug, by gryphon and swift feet. Reach Southshore before Bilger decides Foggy has skipped out on his tab again.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "why 15 minutes",
     "mackreel moonshine timer"
    ],
-   "answer": "Foggy passed out drunk during his watch and fell badly behind schedule. He has barely a quarter of an hour to get the moonshine from the Thandol Span to Southshore and settle his overdue tab with Brewmeister Bilger."
+   "answer": "Foggy passed out drunk during his watch and fell badly behind schedule. He has barely a quarter of an hour to carry the moonshine from the Thandol Span to Southshore and settle his overdue tab with Brewmeister Bilger."
   },
   {
    "q": "Who is Brewmeister Bilger?",
@@ -65,7 +65,7 @@
     "fastest way southshore mackreel",
     "moonshine delivery route"
    ],
-   "answer": "There is no boat from the Span to Southshore. If you know the Refuge Pointe flight path, take a gryphon from Refuge Pointe to Southshore, then find Brewmeister Bilger in town before the time runs out."
+   "answer": "There is no boat from the Span to Southshore. If you know the Refuge Pointe flight path, take a gryphon from Refuge Pointe to Southshore, then find Brewmeister Bilger in town before time runs out."
   },
   {
    "q": "Who is Longbraid?",
@@ -73,7 +73,7 @@
     "captain longbraid",
     "longbraid menethil"
    ],
-   "answer": "Longbraid the Grim is the dwarf commander outside Dun Modr in the Wetlands, leading the defenders of the Thandol Span. Foggy dreads Longbraid discovering that he drank himself unconscious while on watch."
+   "answer": "Longbraid the Grim is the dwarf commander outside Dun Modr in the Wetlands. He leads the defenders of the Thandol Span, and Foggy dreads Longbraid discovering that he drank himself unconscious while on watch."
   }
  ],
  "angles": [
@@ -104,5 +104,5 @@
  "attribution": [
   "MacKreel's Moonshine (quest)"
  ],
- "style": 1
+ "style": 2
 }

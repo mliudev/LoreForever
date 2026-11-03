@@ -8,16 +8,16 @@
   "wiki": "Darcy Parker",
   "refs": 2
  },
- "summary": "At the Lakeshire Inn, Darcy keeps the town's defenders fed and spirits up. She serves drinks and warm meals, with a special care for Guard Parker.",
+ "summary": "At the Lakeshire Inn, Darcy keeps the town's defenders fed and spirits high. She serves drinks and warm meals, with special care for Guard Parker.",
  "sections": [
   {
    "title": "A Friendly Face at the Inn",
-   "body": "Darcy keeps the Lakeshire Inn's counter working through long days and nights. The town's militia come there for food and drink while gnolls and Blackrock orcs keep Lakeshire under pressure. Darcy also looks out for guards posted around town. She asks travelers to carry hot meals and friendly errands to defenders stationed along the borders.",
+   "body": "Darcy keeps the Lakeshire Inn's counter running through long days and nights. Lakeshire's militia come for food and drink while gnolls and Blackrock orcs keep the town under pressure. She also looks after guards posted around town. Travelers carry hot meals and friendly errands to defenders stationed along the borders.",
    "spoiler": 0
   },
   {
    "title": "Romance on the Guard Post",
-   "body": "Darcy pays special attention to Guard Parker, who patrols the roads near Three Corners. She thinks he works too hard on an empty stomach and often sends travelers with lunch for him. Darcy watches Martie Jainrose closely, believing her to be jealous and a rival for Parker's favor. Their feelings mingle with the work of defending Lakeshire.",
+   "body": "Near Three Corners, Guard Parker patrols the roads, and Darcy makes sure he has lunch. She thinks he works too hard on an empty stomach, so she often sends travelers with a meal for him. Darcy watches Martie Jainrose closely. She believes Martie is jealous and rivals her for Parker's favor, even as they all work to defend Lakeshire.",
    "spoiler": 0
   }
  ],
@@ -56,13 +56,13 @@
     "where is darcy",
     "find darcy"
    ],
-   "answer": "You can find Darcy serving patrons at the Lakeshire Inn in Lakeshire, by the northern shore of Lake Everstill in Redridge."
+   "answer": "You can find Darcy serving patrons at the Lakeshire Inn in Lakeshire, by Lake Everstill's northern shore in Redridge."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you can find Darcy among Lakeshire's everyday folk, keeping spirits high and bellies full while the town waits for aid from Stormwind."
+   "text": "As an Alliance traveler, you find Darcy among Lakeshire's everyday folk. She keeps spirits high and bellies full while the town waits for aid from Stormwind."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
  "attribution": [
   "Darcy Parker"
  ],
- "style": 1
+ "style": 2
 }

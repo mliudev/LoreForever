@@ -24,16 +24,16 @@
    "Special Forces/Quest_chain"
   ]
  },
- "summary": "Lieutenant Doren calls upon you to deliver the final strike against Colonel Kurzen and his inner guard. You are sent into the Stockpile to eliminate the rogue commander and his remaining leaders to secure the Rebel Camp's survival.",
+ "summary": "At the Rebel Camp, Lieutenant Doren sends you against Colonel Kurzen and his inner guard. Their defeat could secure the rebels' survival.",
  "sections": [
   {
    "title": "The Heart of the Stockpile",
-   "body": "Lieutenant Doren and his band of defectors have reached the climax of their struggle against their former commander. Following the suppression of Kurzen's elite specialists, Doren recognizes that the rebel forces will never truly be safe while Kurzen retains control of his jungle redoubt. He directs you into the Stockpile cave, where Kurzen directs his forces alongside his subchiefs and elites.",
+   "body": "Lieutenant Doren's defectors have reached the final struggle against their former commander. You have helped suppress Kurzen's elite specialists, but the rebels remain in danger while he holds his jungle redoubt. Doren sends you into the Stockpile cave, where Kurzen directs his forces beside his subchiefs and elites.",
    "spoiler": 0
   },
   {
    "title": "Striking the Serpent's Head",
-   "body": "To permanently end the threat, Doren asks for conclusive proof of Kurzen's downfall by demanding the rogue colonel's head, along with the defeat of his elites and subchiefs. Entering the cave to face Kurzen's leadership offers the rebels their sole prospect of breathing easier amid the perils of northern Stranglethorn.",
+   "body": "Lieutenant Doren needs proof that Kurzen has fallen. He asks you to bring back the rogue colonel's head and defeat his elites and subchiefs. The cave confrontation gives the rebels their only chance to breathe easier amid the dangers of northern Stranglethorn.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "quest giver",
     "where to pick up colonel kurzen"
    ],
-   "answer": "Lieutenant Doren sends you after Kurzen from the Rebel Camp situated in northern Stranglethorn Vale, immediately following the completion of Special Forces."
+   "answer": "After you complete Special Forces, Lieutenant Doren sends you from the Rebel Camp in northern Stranglethorn Vale."
   },
   {
    "q": "Where is Colonel Kurzen located?",
@@ -54,7 +54,7 @@
     "kurzen location",
     "how to find colonel kurzen"
    ],
-   "answer": "Kurzen directs his troops from deep within the cave system known as the Stockpile, located inside the Kurzen compound in northern Stranglethorn Vale."
+   "answer": "Kurzen directs his troops deep within the Stockpile cave system, inside the Kurzen compound in northern Stranglethorn Vale."
   },
   {
    "q": "What proof does Lieutenant Doren require?",
@@ -63,7 +63,7 @@
     "kurzen proof",
     "turn in item"
    ],
-   "answer": "Lieutenant Doren asks you to bring back Kurzen's head to definitively prove the rogue commander has fallen, alongside defeating his elites and subchiefs."
+   "answer": "Lieutenant Doren asks you to bring back Kurzen's head as proof that the rogue commander has fallen, and to defeat his elites and subchiefs."
   },
   {
    "q": "What came before this confrontation?",
@@ -72,13 +72,13 @@
     "what is previous quest",
     "chain before kurzen"
    ],
-   "answer": "This confrontation immediately follows Special Forces, where you weakened Kurzen's specialized battlefield operatives before targeting his core command structure."
+   "answer": "In Special Forces, you weakened Kurzen's specialized battlefield operatives. Then you turned toward his core command structure."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Eliminating Kurzen breaks the grip of a rogue Stormwind officer over the northern reaches of Stranglethorn Vale."
+   "text": "As an Alliance member, you can help break a rogue Stormwind officer's grip on the northern reaches of Stranglethorn Vale by eliminating Kurzen."
   }
  ],
  "keywords": [
@@ -97,5 +97,6 @@
  ],
  "attribution": [
   "Colonel Kurzen (quest)"
- ]
+ ],
+ "style": 2
 }

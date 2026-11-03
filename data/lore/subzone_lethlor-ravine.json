@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Lethlor Ravine"
  },
- "summary": "Lethlor Ravine is a jagged, rocky canyon winding through the eastern reaches of the Badlands. It serves as a perilous roost and breeding ground for the black dragonflight, swarming with aggressive whelps and mature drakes.",
+ "summary": "Black dragons roost and rear their young in Lethlor Ravine, deep in the eastern Badlands.",
  "sections": [
   {
    "title": "A Dragonflight's Bastion",
-   "body": "Carved deep into the scorched plateaus of the eastern Badlands, Lethlor Ravine is one of the most hazardous stretches of the desert. The craggy canyon walls provide a natural aerie for the black dragonflight, housing nests of fierce dragon whelps guarded by larger, fire-breathing drakes. Few travelers dare approach the valley floor, as the shadows overhead constantly betray the flight of winged predators circling among the rocky spires.",
+   "body": "Scorched plateaus rise around Lethlor Ravine in the eastern Badlands. Craggy walls shelter the black dragonflight’s nests. Fierce whelps crowd beneath the watch of larger drakes that breathe fire. Few travelers dare approach the ravine floor. Overhead, shadows mark winged predators circling among the rocky spires.",
    "spoiler": 0
   },
   {
    "title": "Mysteries in the Dust",
-   "body": "Beyond the scaly brood that claims it, Lethlor Ravine is marked by curious crystalline obelisks scattered throughout the crags. These crystalline formations are involved in a local quest chain. Their origin is not established.",
+   "body": "Crystalline obelisks lie scattered among the crags beside the dragon brood. They are involved in a local chain of tasks, but their origin is not established.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is this canyon",
     "lethlor ravine info"
    ],
-   "answer": "Lethlor Ravine is a deep, craggy canyon located on the eastern side of the Badlands, functioning primarily as a nesting ground for black dragons."
+   "answer": "Lethlor Ravine cuts through the eastern Badlands, where black dragons nest among craggy walls."
   },
   {
    "q": "Why are there so many black dragons here?",
@@ -37,7 +37,7 @@
     "lethlor dragons",
     "black dragonflight in badlands"
    ],
-   "answer": "The black dragonflight uses the sheltered, desolate rock formations of Lethlor Ravine to roost and rear their young, turning the canyon into a fortified nursery far away from major civilized cities."
+   "answer": "The black dragonflight roosts and rears its young among Lethlor Ravine’s sheltered, desolate rock formations, far from major civilized cities."
   },
   {
    "q": "What are the crystal obelisks in the ravine?",
@@ -46,7 +46,7 @@
     "pillars in lethlor ravine",
     "obelisks badlands"
    ],
-   "answer": "The crystalline obelisks are formations scattered throughout the ravine and involved in a local quest chain. Their origin is not established."
+   "answer": "Crystalline obelisks lie scattered through the ravine and are involved in a local chain of tasks. Their origin is not established."
   },
   {
    "q": "Is Lethlor Ravine safe for travelers?",
@@ -54,13 +54,13 @@
     "can i walk through lethlor ravine",
     "is lethlor ravine dangerous"
    ],
-   "answer": "No. The ravine is extremely dangerous, filled with flying drakes and aggressive whelps that attack trespassers on sight."
+   "answer": "No. Flying drakes and aggressive whelps fill the ravine and attack trespassers on sight."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "The skies and ridges of Lethlor Ravine provide a stern test of marksmanship against fast-moving dragonkin and winged predators."
+   "text": "As a hunter, you can test your marksmanship against fast-moving dragonkin and winged predators among Lethlor Ravine’s ridges and skies."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  ],
  "attribution": [
   "Lethlor Ravine"
- ]
+ ],
+ "style": 2
 }

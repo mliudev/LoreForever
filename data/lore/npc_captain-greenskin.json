@@ -8,11 +8,11 @@
   "wiki": "Captain Greenskin",
   "refs": 5
  },
- "summary": "In the Deadmines cove, Captain Greenskin readies a warship for Edwin VanCleef. The goblin pirate oversees its crew and construction for the Defias Brotherhood, preparing the ironclad juggernaut to sail against Stormwind.",
+ "summary": "In the Deadmines cove, Captain Greenskin readies a warship for Edwin VanCleef. The goblin pirate directs its crew and construction for the Defias Brotherhood, preparing the ironclad juggernaut to sail against Stormwind.",
  "sections": [
   {
    "title": "Master of the Juggernaut",
-   "body": "Captain Greenskin paces the main deck of the juggernaut under construction in the Deadmines cove. A seasoned goblin mariner, he was brought into Edwin VanCleef's inner circle to turn an underground cavern into a drydock for a warship.",
+   "body": "Captain Greenskin paces the main deck of the juggernaut under construction in the Deadmines cove. A seasoned goblin mariner, he joined Edwin VanCleef's inner circle to turn an underground cavern into a drydock for a warship.",
    "spoiler": 0
   },
   {
@@ -29,7 +29,7 @@
     "who is greenskin",
     "captain greenskin"
    ],
-   "answer": "Captain Greenskin is a goblin pirate captain hired by Edwin VanCleef to oversee the completion and operation of the Defias Brotherhood's secret warship in the Deadmines."
+   "answer": "Captain Greenskin is a goblin pirate captain hired by Edwin VanCleef to oversee the Defias Brotherhood's secret warship in the Deadmines, from its completion to its operation."
   },
   {
    "q": "Where did Greenskin come from before joining the Defias?",
@@ -47,7 +47,7 @@
     "first mate",
     "greenskin minions"
    ],
-   "answer": "Greenskin commands Mr. Smite, his tauren first mate, Cookie, the murloc cook, and Defias pirates patrolling the ironclad's deck."
+   "answer": "Greenskin commands Mr. Smite, his tauren first mate, Cookie, the murloc cook, and Defias pirates who patrol the ironclad's deck."
   },
   {
    "q": "What is Greenskin's purpose in the Deadmines?",
@@ -55,7 +55,7 @@
     "what does greenskin do",
     "why is greenskin here"
    ],
-   "answer": "Greenskin is charged with making the massive ironclad warship seaworthy and ready to sail from the underground cove into the Great Sea against Stormwind."
+   "answer": "Greenskin must make the massive ironclad warship seaworthy and ready to sail from the underground cove into the Great Sea against Stormwind."
   },
   {
    "q": "Where can Captain Greenskin be found?",
@@ -63,7 +63,7 @@
     "greenskin location",
     "where is captain greenskin"
    ],
-   "answer": "Captain Greenskin paces the main deck of the large juggernaut anchored in the final cavern of the Deadmines, guarding the approach to Edwin VanCleef."
+   "answer": "Captain Greenskin paces the main deck of the large juggernaut anchored in the Deadmines' final cavern. He guards the approach to Edwin VanCleef."
   },
   {
    "q": "Is Captain Greenskin part of the Defias Brotherhood or a mercenary?",
@@ -71,13 +71,13 @@
     "is greenskin defias",
     "greenskin faction"
    ],
-   "answer": "Captain Greenskin is a mercenary pirate captain in Edwin VanCleef's direct employ, commanding the naval forces aligned with the Defias Brotherhood's plot."
+   "answer": "Captain Greenskin is a mercenary pirate captain in Edwin VanCleef's direct employ. He commands the naval forces aligned with the Defias Brotherhood's plot."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, Captain Greenskin commands the Defias rebellion's maritime threat. If his juggernaut reaches the coast, Westfall and Stormwind's undefended shores are at direct risk."
+   "text": "For the Alliance, Captain Greenskin commands the Defias rebellion's threat at sea. If his juggernaut reaches the coast, Westfall and Stormwind's undefended shores are at direct risk."
   },
   {
    "target": "class:Rogue",
@@ -105,5 +105,5 @@
  "attribution": [
   "Captain Greenskin"
  ],
- "style": 1
+ "style": 2
 }

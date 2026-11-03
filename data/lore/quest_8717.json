@@ -21,7 +21,7 @@
  "sections": [
   {
    "title": "A Celestial Presence in the Barrens",
-   "body": "At the Crossroads, a column of light falls around Elder Moonwarden. He is one of the ancient spirits honored during the Lunar Festival, when mortals set aside their conflicts to seek the wisdom of generations past.",
+   "body": "At the Crossroads, a column of light falls around Elder Moonwarden. He is among the ancient spirits honored during the Lunar Festival. Mortals set aside their conflicts then and seek the wisdom of generations past.",
    "spoiler": 0
   },
   {
@@ -80,13 +80,13 @@
     "moonwarden dialogue",
     "moonwarden quote"
    ],
-   "answer": "Elder Moonwarden says the stars hold answers to earthly mysteries, and asks whether the wise and lucky might look up and find truth."
+   "answer": "Elder Moonwarden says the stars hold answers to earthly mysteries. He asks whether the wise and lucky might look up and find truth."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you must enter the Horde settlement of the Crossroads to visit Elder Moonwarden, where the guards make the journey perilous."
+   "text": "As an Alliance traveler, you enter the Horde settlement of the Crossroads to visit Elder Moonwarden, where the guards make the journey perilous."
   },
   {
    "target": "faction:Horde",
@@ -118,5 +118,5 @@
  "attribution": [
   "Moonwarden the Elder"
  ],
- "style": 1
+ "style": 2
 }

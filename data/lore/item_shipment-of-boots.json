@@ -10,11 +10,11 @@
    "quest:888"
   ]
  },
- "summary": "Off the Barrens coast, Shipment of Boots lies in a Southsea encampment south of Ratchet. Drizzlik sent the crate from Booty Bay for Gazlowe's trade network, but the pirates seized it before it reached port.",
+ "summary": "Along the Barrens coast, the Shipment of Boots remains in a Southsea encampment south of Ratchet. Drizzlik sent the crate from Booty Bay for Gazlowe's trade network, but pirates seized it before it reached port.",
  "sections": [
   {
    "title": "A Plundered Cargo",
-   "body": "Gazlowe arranged for Drizzlik, a clothing merchant in Booty Bay, to send boots to Ratchet. Southsea Freebooters patrolling the Merchant Coast ambushed the ship and carried the crates to their beach encampments south of the harbor. They scattered the stolen goods among their tents and shanties, and the shipment remains there, far from Ratchet's docks.",
+   "body": "Gazlowe arranged for Drizzlik, a clothing merchant in Booty Bay, to send boots to Ratchet. Southsea Freebooters ambushed the ship while patrolling the Merchant Coast. They carried the crates to beach encampments south of the harbor and scattered the stolen goods among their tents and shanties. The shipment remains there, far from Ratchet's docks.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "why do southsea pirates have boots",
     "who stole the boots"
    ],
-   "answer": "Southsea Freebooters ambushed the cargo ship along the Barrens coast, plundered it, and carried the crates to their encampments south of Ratchet."
+   "answer": "Southsea Freebooters ambushed the cargo ship along the Barrens coast. They plundered it and carried the crates to their encampments south of Ratchet."
   },
   {
    "q": "Where can the shipment be found?",
@@ -51,13 +51,13 @@
     "where is shipment of boots",
     "find boot shipment"
    ],
-   "answer": "The shipment is in the Southsea pirate encampment along the coast south of Ratchet, among their plundered goods."
+   "answer": "The shipment lies among plundered goods in the Southsea pirate encampment along the coast south of Ratchet."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you can slip through the Southsea camps along the coast. Their pirate patrols are dense, so a silent approach is the safest way to reclaim Gazlowe's stolen freight."
+   "text": "As a rogue, you can slip through the Southsea camps along the coast. Pirate patrols are dense, so a silent approach is safest when reclaiming Gazlowe's stolen freight."
   }
  ],
  "keywords": [
@@ -83,5 +83,5 @@
   "Shipment of Boots",
   "Stolen Booty"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Scarab Wall"
  },
- "summary": "The Scarab Wall is a colossal barricade at the southern border of Silithus, before the insectoid empire of Ahn'Qiraj. Conjured at the end of the War of the Shifting Sands, the barrier combined stone and bronze dragonflight sorcery to contain the ancient swarms. It stands as an imposing reminder of the terrible cost of that war.",
+ "summary": "At Silithus's southern edge, the Scarab Wall bars the way to Ahn'Qiraj. Stone and bronze dragonflight sorcery keep the ancient swarms sealed beyond it, as they have since the War of the Shifting Sands.",
  "sections": [
   {
    "title": "Shield Against the Shadow",
-   "body": "Spanning the desert from east to west, the Scarab Wall was raised a thousand years ago at the conclusion of the catastrophic War of the Shifting Sands. Pushed to the brink of annihilation by the qiraji, the night elf armies and their dragon allies forced the swarms back into their ancient kingdom. To contain them permanently, an immense rampart of desert stone was raised, crowned by a colossal magical barrier woven by the bronze dragonflight. The wall successfully severed the insectoid armies from Kalimdor, though the dread presence locked behind its stone remains palpable.",
+   "body": "The Scarab Wall runs across the desert from east to west. It was raised a thousand years ago, after the War of the Shifting Sands. The qiraji nearly destroyed the night elf armies and their dragon allies before they drove the swarms back into their ancient kingdom.\n\nTo hold the qiraji there, the allies raised a great rampart of desert stone. The bronze dragonflight crowned it with a magical barrier. The wall cut the insectoid armies off from Kalimdor, yet their dread presence still hangs behind its stones.",
    "spoiler": 0
   },
   {
    "title": "A Sealed Ruin",
-   "body": "Beyond the sandstone masonry and draconic wards lies Ahn'Qiraj, a stronghold of the ancient qiraji. The wall was raised to imprison their armies after the War of the Shifting Sands. Its gates can be opened by ringing the Scarab Gong with the Scepter of the Shifting Sands, a relic tied to the dragons and Fandral Staghelm.",
+   "body": "Beyond the sandstone wall and its draconic wards lies Ahn'Qiraj, stronghold of the ancient qiraji. The wall was raised to imprison their armies after the War of the Shifting Sands. Its gates can be opened by ringing the Scarab Gong with the Scepter of the Shifting Sands, a relic tied to the dragons and Fandral Staghelm.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "what is this wall in silithus",
     "ahn qiraj wall"
    ],
-   "answer": "The Scarab Wall is a massive stone and magical barrier at the southern edge of Silithus. It was erected to seal away the ancient insectoid kingdom of Ahn'Qiraj and keep its ravenous swarms trapped within their desert ruins."
+   "answer": "Stone and magic bar the southern edge of Silithus at the Scarab Wall. Beyond it lie Ahn'Qiraj and its ancient insectoid swarms, sealed in the desert ruins."
   },
   {
    "q": "Who built the Scarab Wall?",
@@ -36,7 +36,7 @@
     "who made the wall",
     "who created the scarab wall"
    ],
-   "answer": "It was created jointly by the night elves and the bronze dragonflight at the culmination of the War of the Shifting Sands. A wall of stone sealed the qiraji in, and the dragons projected an immense magical barrier over it."
+   "answer": "The night elves and bronze dragonflight raised the Scarab Wall together at the end of the War of the Shifting Sands. Stone sealed the qiraji inside, and the dragons wove a vast magical barrier above it."
   },
   {
    "q": "Why was the Scarab Wall raised?",
@@ -44,7 +44,7 @@
     "why was the scarab wall built",
     "purpose of the scarab wall"
    ],
-   "answer": "To end the War of the Shifting Sands. After the night elves and their dragon allies drove the qiraji swarms back into Ahn'Qiraj, the wall was raised to keep them sealed inside."
+   "answer": "The night elves and their dragon allies raised the Scarab Wall after driving the qiraji swarms back into Ahn'Qiraj. There they sealed them away, bringing the War of the Shifting Sands to an end."
   },
   {
    "q": "Can players go past the wall?",
@@ -52,17 +52,17 @@
     "can you go past scarab wall",
     "how to get past wall in silithus"
    ],
-   "answer": "The Scarab Wall was raised to seal Ahn'Qiraj, but its gates can be opened by ringing the Scarab Gong with the Scepter of the Shifting Sands."
+   "answer": "The Scarab Wall seals Ahn'Qiraj, but its gates can be opened by ringing the Scarab Gong with the Scepter of the Shifting Sands."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, this wall is a sacred monument to the horrific sacrifices made during the War of the Shifting Sands, where an entire generation was lost to halt the swarm."
+   "text": "For night elves, the Scarab Wall recalls the terrible sacrifices of the War of the Shifting Sands, when an entire generation was lost to halt the swarm."
   },
   {
    "target": "class:Druid",
-   "text": "Druids feel the unnatural suppression of life around the perimeter, where ancient wards struggle to contain a corruptive, subterranean blight."
+   "text": "As a druid, you feel life unnaturally suppressed around the wall. Ancient wards struggle to contain a corruptive blight beneath the earth."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Scarab Wall"
- ]
+ ],
+ "style": 2
 }

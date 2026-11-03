@@ -22,16 +22,16 @@
    "Zalazane (quest)"
   ]
  },
- "summary": "On the Echo Isles, Zalazane's treachery has driven the Darkspear from their home. Master Gadrin of Sen'jin Village sends Horde champions to end the witch doctor's rule. Dark magic drove Zalazane mad, and he enslaved his fellow tribesmen, seizing the Darkspear trolls' rightful home and forcing them into exile on Durotar's coast.",
+ "summary": "On the Echo Isles, dark magic has driven Zalazane mad and turned him against his tribe. Master Gadrin of Sen'jin Village calls Horde champions to end the witch doctor's rule. Zalazane enslaved his fellow tribesmen, seized the Darkspear trolls' rightful home, and drove them into exile on Durotar's coast.",
  "sections": [
   {
    "title": "Betrayal on the Isles",
-   "body": "The Darkspear made a home on the Echo Isles after fleeing their sunken island and following Thrall across the Great Sea. The isles lie just off Durotar's southeast coast. Zalazane, once a respected and powerful witch doctor of the tribe, hungered for power. He used hexes to enslave the minds of his kin and began a violent uprising. Vol'jin led the Darkspear who remained free, but they were driven from their ancestral camps across the water. They had to build a temporary refuge at Sen'jin Village.",
+   "body": "After fleeing their sunken island, the Darkspear followed Thrall across the Great Sea and settled on the Echo Isles, just off Durotar's southeast coast. Zalazane was once a respected and powerful witch doctor, but he hungered for power. His hexes enslaved the minds of his kin, and violence followed. Vol'jin led those who remained free, yet they were driven from their ancestral camps and forced to build a temporary refuge at Sen'jin Village.",
    "spoiler": 0
   },
   {
    "title": "A Tribe's Torment",
-   "body": "Zalazane still sends raiding parties from his hilltop stronghold on the largest Echo Isle. They cross the channel to seize more Darkspear and drag them under his control. The captured trolls become mindless voodoo and hexed thralls, lost to their tribe. Master Gadrin sees more than an occupation of Darkspear land: Zalazane threatens the tribe's survival. Until his severed head is brought before the elders, no Darkspear can be safe.",
+   "body": "From his hilltop stronghold on the largest Echo Isle, Zalazane still sends raiding parties across the channel. They seize more Darkspear and bring them under his control. The captured trolls become mindless voodoo and hexed thralls, lost to their tribe. Master Gadrin sees a threat to more than Darkspear land: Zalazane endangers the tribe's survival. Until his severed head is brought before the elders, no Darkspear can be safe.",
    "spoiler": 0
   }
  ],
@@ -92,7 +92,7 @@
  "angles": [
   {
    "target": "race:Troll",
-   "text": "As a Darkspear troll, you face a personal duty: punish the betrayer who stole your people's home and enslaved your kin."
+   "text": "As a Darkspear troll, you have a personal duty to punish the betrayer who stole your people's home and enslaved your kin."
   },
   {
    "target": "faction:Horde",
@@ -100,7 +100,7 @@
   },
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you know the spiritual crafts and primal powers that troll shamans and witch doctors practice. Zalazane twists binding magic against his own kin."
+   "text": "As a shaman, you know the spiritual crafts and primal powers practiced by troll shamans and witch doctors. Zalazane twists binding magic against his own kin."
   }
  ],
  "keywords": [
@@ -127,5 +127,5 @@
  "attribution": [
   "Zalazane (quest)"
  ],
- "style": 1
+ "style": 2
 }

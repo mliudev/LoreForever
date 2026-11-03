@@ -17,16 +17,16 @@
   "wiki": "The Zoram Strand (quest)",
   "chain": []
  },
- "summary": "Naga now threaten Ashenvale from the Zoram Strand. Shindrell Swiftfire of Astranaar sends Alliance champions to scour the northwestern coast, where an ancient ruined city lies. Stopping the naga protects the forest from a haunting echo of the night elves’ distant past.",
+ "summary": "Naga now threaten Ashenvale at The Zoram Strand. Shindrell Swiftfire of Astranaar sends Alliance champions to scour the northwestern coast, where an ancient city lies in ruins. Stopping the naga guards the forest against a haunting echo of the night elves’ distant past.",
  "sections": [
   {
    "title": "Shadows on the Shore",
-   "body": "At Ashenvale’s northwestern edge, the Zoram Strand meets the Veiled Sea. Its shore lies northwest of Astranaar, where the forest canopy gives way to the coast. The beach was quiet for ages, its stones left from a civilization shattered ten millennia ago. Now Wrathtail naga have come out of the dark tides in force. They have made a hostile beachhead on the borders of night elven territory, and threaten to press inland.",
+   "body": "At Ashenvale’s northwestern edge, the Zoram Strand meets the Veiled Sea. The shore lies northwest of Astranaar, where forest canopy gives way to coast. For ages, the beach lay quiet, its stones left by a civilization shattered ten millennia ago. Now Wrathtail naga surge from the dark tides. They have made a hostile beachhead on night elven borders and threaten to press inland.",
    "spoiler": 0
   },
   {
    "title": "The Drowned City of Zoram",
-   "body": "The city of Zoram lies shattered beneath the surf, submerged during the Great Sundering. For ages, it remained abandoned and nearly forgotten by the kaldorei. The naga’s sudden arrival among its ruins stirs bitter memories among Astranaar’s defenders. Sentinels such as Shindrell Swiftfire know the invaders as twisted cousins, born of their own ancient catastrophe. They will not let the depths claim the shore again.",
+   "body": "The city of Zoram lies shattered beneath the surf, submerged during the Great Sundering. For ages, the kaldorei left it abandoned and nearly forgotten. Now the naga’s arrival among its ruins stirs bitter memories among Astranaar’s defenders. Sentinels such as Shindrell Swiftfire know the invaders as twisted cousins, born of their own ancient catastrophe. They will not let the depths claim the shore again.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "naga motive zoram",
     "why wrathtails"
    ],
-   "answer": "The Sentinels in Astranaar do not know exactly why the naga are attacking Ashenvale’s coast. Their military camps and aggression threaten the forests, so the night elves strike before the naga can advance."
+   "answer": "The Sentinels in Astranaar do not know exactly why the naga attack Ashenvale’s coast. Their military camps and aggression threaten the forests, so the night elves strike before the naga can advance."
   },
   {
    "q": "Who is Shindrell Swiftfire?",
@@ -74,7 +74,7 @@
     "what after zoram strand",
     "pridewings"
    ],
-   "answer": "After the naga are thinned along the strand, Shindrell Swiftfire sends Alliance defenders to face other aerial threats along the border. She directs scouts south toward Stonetalon to deal with vicious pridewings."
+   "answer": "After the naga are thinned along the strand, Shindrell Swiftfire sends Alliance defenders against other aerial threats along the border. She directs scouts south toward Stonetalon to deal with vicious pridewings."
   },
   {
    "q": "Is the Horde also present at the Zoram Strand?",
@@ -83,7 +83,7 @@
     "zoram'gar",
     "is the horde there"
    ],
-   "answer": "Yes. Alliance champions from Astranaar hunt the shoreline’s naga, while the Horde holds Zoram’gar Outpost, a fortified seaside outpost on the strand. The Horde contests the region and battles both the naga and the Alliance."
+   "answer": "Yes. Alliance champions from Astranaar hunt naga along the shore, while the Horde holds Zoram’gar Outpost, a fortified seaside outpost on the strand. The Horde contests the region and battles both the naga and the Alliance."
   }
  ],
  "angles": [
@@ -122,5 +122,5 @@
  "attribution": [
   "The Zoram Strand (quest)"
  ],
- "style": 1
+ "style": 2
 }

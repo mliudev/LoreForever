@@ -10,11 +10,11 @@
    "quest:1143"
   ]
  },
- "summary": "At the Tower of Althalaxx, Athrikus Narassin's Head proves the ancient warlock's death. The coven's demonic activity in northern Darkshore has been disrupted.",
+ "summary": "At the Tower of Althalaxx, Athrikus Narassin's Head proves the ancient warlock is dead. The coven's demonic work in northern Darkshore has been disrupted.",
  "sections": [
   {
    "title": "Blight Upon Althalaxx",
-   "body": "Athrikus Narassin commanded dark sorcerers from the Tower of Althalaxx. The ancient warlock led a coven that practiced fel magic along the Darkshore coast and carried out demonic summonings that threatened the wilderness. Claiming his head breaks the coven's leadership and drives back its immediate foothold in the region, but corruption lingers and will demand future vigilance.",
+   "body": "Athrikus Narassin led dark sorcerers from the Tower of Althalaxx. His coven practiced fel magic along the Darkshore coast and summoned demons that threatened the wilderness. Claiming his head breaks their leadership and drives back their foothold in the region. Yet corruption lingers, and the land will need watchful eyes.",
    "spoiler": 1
   }
  ],
@@ -26,7 +26,7 @@
     "athrikus lore",
     "who is the warlock"
    ],
-   "answer": "Athrikus Narassin was an ancient, powerful warlock who led the cultists in the Tower of Althalaxx in northern Darkshore. He directed the coven's demonic rituals from the spire's summit."
+   "answer": "Athrikus Narassin was an ancient and powerful warlock who led the cultists in the Tower of Althalaxx in northern Darkshore. From the spire's summit, he directed the coven's demonic rituals."
   },
   {
    "q": "Why is his head needed?",
@@ -35,7 +35,7 @@
     "athrikus head purpose",
     "what is head for"
    ],
-   "answer": "Alliance scouts watching the Tower of Althalaxx need proof that the master warlock is dead. His severed head confirms his demise and the strike against the demonic forces."
+   "answer": "Alliance scouts watching the Tower of Althalaxx need proof that the master warlock is dead. His severed head confirms his death and the strike against the demonic forces."
   },
   {
    "q": "Where is Athrikus Narassin located?",
@@ -44,7 +44,7 @@
     "athrikus location",
     "tower of althalaxx top"
    ],
-   "answer": "Athrikus Narassin is at the summit of the Tower of Althalaxx in northern Darkshore, guarded by his devoted cultists and summoned demons."
+   "answer": "Athrikus Narassin is at the summit of the Tower of Althalaxx in northern Darkshore. His devoted cultists and summoned demons guard him."
   },
   {
    "q": "Does killing him eliminate the demonic threat completely?",
@@ -53,7 +53,7 @@
     "is the tower cleansed",
     "did we beat the cult"
    ],
-   "answer": "Athrikus Narassin's death strikes hard at the dark ritualists and scatters their current operations, but the demonic forces may regroup. Darkshore will still need defense."
+   "answer": "Athrikus Narassin's death strikes hard at the dark ritualists and scatters their current operations. Yet the demonic forces may gather again, and Darkshore will still need defense."
   }
  ],
  "angles": [
@@ -86,5 +86,5 @@
   "Athrikus Narassin's Head",
   "The Tower of Althalaxx (8)"
  ],
- "style": 1
+ "style": 2
 }

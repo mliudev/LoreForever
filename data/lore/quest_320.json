@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "A stout dwarven brew like Evershine is always in high demand across Dun Morogh, making its safe delivery to thirsty comrades second nature."
+   "text": "As a dwarf, you know stout Evershine is in high demand across Dun Morogh. Bringing it safely to thirsty comrades comes naturally."
   },
   {
    "target": "race:Gnome",
-   "text": "Pilot Bellowfiz is a dwarven siege-engine driver stationed at Steelgrill's Depot, and keeping hardworking engineers refreshed keeps the machines running smoothly."
+   "text": "Pilot Bellowfiz is a dwarven siege-engine driver at Steelgrill's Depot. Keeping hardworking engineers refreshed helps the machines run smoothly."
   },
   {
    "target": "faction:Alliance",
-   "text": "Running errands between dwarven hunters and dwarven pilots helps maintain morale and camaraderie among Alliance forces stationed in Dun Morogh."
+   "text": "As an Alliance member, you help morale and camaraderie among forces in Dun Morogh by carrying favors between dwarven hunters and pilots."
   }
  ],
  "faq": [
@@ -31,7 +31,7 @@
     "what is return to bellowfiz",
     "bellowfiz quest"
    ],
-   "answer": "Return to Bellowfiz is a delivery task in Dun Morogh where an adventurer brings a freshly acquired cask of Evershine directly to Pilot Bellowfiz at Steelgrill's Depot.",
+   "answer": "You carry a fresh cask of Evershine to Pilot Bellowfiz at Steelgrill's Depot in Dun Morogh.",
    "q": "What is the quest Return to Bellowfiz?"
   },
   {
@@ -39,7 +39,7 @@
     "who wants evershine",
     "who is bellowfiz"
    ],
-   "answer": "Pilot Bellowfiz is a dwarven driver of a siege engine, stationed at Steelgrill's Depot just outside Kharanos in Dun Morogh. He eagerly awaits a fresh delivery of Evershine to sample.",
+   "answer": "Pilot Bellowfiz is a dwarven siege-engine driver stationed at Steelgrill's Depot, just outside Kharanos in Dun Morogh. He is eager to try a fresh delivery of Evershine.",
    "q": "Who is Pilot Bellowfiz?"
   },
   {
@@ -47,7 +47,7 @@
     "what is evershine",
     "cask of evershine"
    ],
-   "answer": "Evershine is a potent local brew crafted in Dun Morogh, secured in a sturdy cask and prized by thirsty pilots and locals alike.",
+   "answer": "Evershine is a potent local brew made in Dun Morogh and kept in a sturdy cask. Thirsty pilots and locals prize it.",
    "q": "What is the cask of Evershine?"
   },
   {
@@ -55,7 +55,7 @@
     "where is bellowfiz",
     "bellowfiz location"
    ],
-   "answer": "Pilot Bellowfiz is located at Steelgrill's Depot, an engineering hub and workshop situated just east of Kharanos in Dun Morogh.",
+   "answer": "Take the cask to Pilot Bellowfiz at Steelgrill's Depot, an engineering hub and workshop just east of Kharanos in Dun Morogh.",
    "q": "Where do you deliver the cask?"
   },
   {
@@ -63,7 +63,7 @@
     "why deliver evershine",
     "evershine delivery reason"
    ],
-   "answer": "After helping out with hunting tasks in the region, an adventurer is entrusted with a cask of Evershine to deliver to Pilot Bellowfiz, who has been eagerly anticipating a taste.",
+   "answer": "After you help with hunting in the region, you receive a cask of Evershine for Pilot Bellowfiz. He eagerly awaits a taste.",
    "q": "Why was the Evershine sent to Bellowfiz?"
   },
   {
@@ -71,7 +71,7 @@
     "what does bellowfiz do with brew",
     "bellowfiz reaction"
    ],
-   "answer": "Upon receiving the cask, Pilot Bellowfiz is thoroughly satisfied, declaring that it will do just fine and immediately moving to crack open a bottle for a taste.",
+   "answer": "When Pilot Bellowfiz receives the cask, he says it will do just fine and moves at once to open a bottle for a taste.",
    "q": "What happens when Bellowfiz receives the Evershine?"
   }
  ],
@@ -91,18 +91,19 @@
  ],
  "sections": [
   {
-   "body": "Return to Bellowfiz is an errand in the snowy reaches of Dun Morogh. After aiding with local hunting, an adventurer receives a freshly brewed cask of Evershine with instructions to carry it straight to Pilot Bellowfiz at Steelgrill's Depot. It is a straightforward favor that highlights the informal camaraderie and mutual support that keep the cold frontier running.",
+   "body": "After helping with local hunting, you receive a fresh cask of Evershine for Pilot Bellowfiz. Carry it through snowy Dun Morogh to Steelgrill's Depot. Such favors help people on the cold frontier look after one another.",
    "spoiler": 0,
    "title": "A Cask for the Depot"
   },
   {
-   "body": "Steelgrill's Depot serves as a busy center of mechanical testing, vehicle maintenance, and gnomish craft just outside Kharanos. For pilots stationed out in the freezing winds, nothing hits the spot quite like a draught of strong local drink. Pilot Bellowfiz wastes no time upon delivery, eager to uncork a bottle on the spot and enjoy the fruits of local labor.",
+   "body": "Steelgrill's Depot lies just outside Kharanos. Gnomes test machinery, tend vehicles, and practice their craft there. The pilots face freezing winds and welcome a strong local drink. When you arrive with the cask, Pilot Bellowfiz is eager to uncork a bottle and taste the brew made by locals.",
    "spoiler": 0,
    "title": "Thirsty Aviators"
   }
  ],
- "summary": "Return to Bellowfiz is a short delivery quest in Dun Morogh where an adventurer brings a cask of local Evershine to Pilot Bellowfiz at Steelgrill's Depot. It concludes a local favor, rewarding the thirsty driver with a welcome drink.",
+ "summary": "You bring Evershine to Pilot Bellowfiz at Steelgrill's Depot in Dun Morogh. After the local hunting, the thirsty driver awaits a fresh drink.",
  "attribution": [
   "In-game quest text: Return to Bellowfiz"
- ]
+ ],
+ "style": 2
 }

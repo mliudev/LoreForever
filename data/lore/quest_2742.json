@@ -25,16 +25,16 @@
   ],
   "category": "Hinterlands"
  },
- "summary": "Rin'ji, a troll, has lost an axe and been captured in Quel'Danil Lodge, and begs for help to escape. Rin'ji knows that others may not like Rin'ji's kind, but promises something in return and mentions a secret hidden at the Overlook Cliffs.",
+ "summary": "At Quel'Danil Lodge, Rin'ji has lost an axe and is held captive. Rin'ji asks a passer-by for help escaping, offers something in return, and speaks of a secret at the Overlook Cliffs.",
  "sections": [
   {
    "title": "A Plea for Escape",
-   "body": "Rin'ji is a captive at Quel'Danil Lodge and badly frightened. The axe is gone, and Rin'ji begs any passer-by to help get away. Rin'ji knows many dislike Rin'ji's kind, but offers something for a kind soul who helps, and says a secret lies hidden at the Overlook Cliffs.",
+   "body": "At Quel'Danil Lodge, Rin'ji is frightened and held captive. The axe is gone, so Rin'ji begs a passer-by to help escape. Many dislike Rin'ji's kind. Still, Rin'ji offers something to a kind soul who helps and says a secret lies hidden at the Overlook Cliffs.",
    "spoiler": 0
   },
   {
    "title": "At the End of the Escape",
-   "body": "What awaits is a troll tablet covered with strange markings. Nothing about the writing can be made out.",
+   "body": "A troll tablet bears strange markings. No one can make out what the writing says.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "who is the troll in quel'danil",
     "who is rin'ji"
    ],
-   "answer": "Rin'ji is a troll who lost an axe and was captured at Quel'Danil Lodge in the Hinterlands. Rin'ji speaks of the self in the third person and begs for help to escape."
+   "answer": "Rin'ji is a troll who lost an axe and was captured at Quel'Danil Lodge in the Hinterlands. Rin'ji speaks of the self in the third person and begs a passer-by for help escaping."
   },
   {
    "q": "Where is Rin'ji held captive?",
@@ -55,7 +55,7 @@
     "rinji location",
     "quel'danil cage"
    ],
-   "answer": "Rin'ji is held at Quel'Danil Lodge in the Hinterlands."
+   "answer": "Rin'ji is held captive at Quel'Danil Lodge in the Hinterlands."
   },
   {
    "q": "What does Rin'ji offer for help?",
@@ -64,7 +64,7 @@
     "rinji reward",
     "what is at overlook cliffs"
    ],
-   "answer": "Rin'ji has something for those who help, and says a secret is hidden at the Overlook Cliffs."
+   "answer": "Rin'ji offers something to those who help and says a secret is hidden at the Overlook Cliffs."
   }
  ],
  "angles": [],
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Wowpedia: Rin'ji is Trapped!"
- ]
+ ],
+ "style": 2
 }

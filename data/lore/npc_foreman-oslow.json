@@ -8,16 +8,16 @@
   "wiki": "Foreman Oslow",
   "refs": 4
  },
- "summary": "At Lakeshire, Foreman Oslow struggles to rebuild the Everstill Bridge. Blackrock orcs shattered the crossing, while lost tools and stolen supplies have stalled the work. He needs help recovering his equipment and gathering materials so the town can restore its trade route.",
+ "summary": "At Lakeshire, Foreman Oslow works to rebuild the Everstill Bridge, shattered by Blackrock orcs. Lost tools and stolen supplies have halted the repairs, leaving the town's trade route broken.",
  "sections": [
   {
    "title": "A Town Cut in Two",
-   "body": "Foreman Oslow works beside the broken Everstill Bridge, trying to reconnect Lakeshire. The span crosses Lake Everstill, linking the western roads toward Elwynn with the eastern shore. Blackrock orcs came down from the crags of Stonewatch and struck the crossing to cripple Lakeshire's trade and military movement. With the bridge broken, the town is split and exposed.",
+   "body": "Foreman Oslow works beside the broken Everstill Bridge, trying to reconnect Lakeshire. The span crosses Lake Everstill, joining western roads toward Elwynn to the eastern shore. Blackrock orcs descended from Stonewatch's crags and struck the crossing to cripple Lakeshire's trade and military movement. Now the town is split and exposed.",
    "spoiler": 0
   },
   {
    "title": "Sunken Steel and Stolen Stone",
-   "body": "Foreman Oslow has lost the tools and materials needed for repairs. After the bridge fell, replacement tools traveled overland from Goldshire, then went aboard a lake ferry. Blackrock orc catapults struck the vessel, sending Oslow's heavy iron toolbox to the muddy bed of Lake Everstill. Gnolls in Redridge also seized a caravan of new materials from Stormwind, taking the iron pikes and rivets needed to raise the arches.",
+   "body": "Foreman Oslow has lost the tools and materials needed for repairs. Replacement tools came overland from Goldshire, then went aboard a lake ferry. Blackrock orc catapults struck the vessel, sending Oslow's heavy iron toolbox to Lake Everstill's muddy bed.\n\nGnolls in Redridge also seized a caravan carrying new materials from Stormwind. They took the iron pikes and rivets needed to raise the bridge's arches.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "lost tools location",
     "oslow toolbox"
    ],
-   "answer": "Oslow's heavy toolbox lies at the bottom of Lake Everstill. A Blackrock catapult barrage struck and sank the boat carrying it from Goldshire."
+   "answer": "Oslow's heavy toolbox lies at the bottom of Lake Everstill. Blackrock catapults struck and sank the boat carrying it from Goldshire."
   },
   {
    "q": "Why hasn't the bridge been repaired yet?",
@@ -55,7 +55,7 @@
     "why is bridge not fixed",
     "lakeshire bridge delay"
    ],
-   "answer": "Oslow cannot resume construction because Blackrock orc catapults sank his tools in the lake and gnolls stole building supplies from incoming shipments. He needs outside help to recover equipment and materials."
+   "answer": "Oslow cannot resume construction because Blackrock orc catapults sank his tools in the lake and gnolls stole building supplies from incoming shipments. He needs help recovering equipment and materials."
   },
   {
    "q": "Where did Oslow's supplies come from originally?",
@@ -107,5 +107,5 @@
  "attribution": [
   "Foreman Oslow"
  ],
- "style": 1
+ "style": 2
 }

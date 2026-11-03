@@ -18,16 +18,16 @@
   "chain": [],
   "category": "Hillsbrad Foothills"
  },
- "summary": "In Southshore, Darren Malvew fears the mountain lions coming down from Alterac. Undead, the Syndicate gang, and other scoundrels have cost the town horses, but Darren says the lions are the greatest threat.",
+ "summary": "In Southshore, Darren Malvew fears the mountain lions descending from Alterac. Undead, the Syndicate gang, and other scoundrels have cost the town horses, but the lions trouble him most.",
  "sections": [
   {
    "title": "Horses Lost",
-   "body": "Darren Malvew of Southshore cannot bear losing the town's beautiful horses. Undead, the Syndicate gang, and scoundrels in the region have already cost the town quite a few. Darren says the greatest danger comes from mountain lions in Alterac, which keep descending from the hills.",
+   "body": "Darren Malvew lives in Southshore and hates seeing the town lose its beautiful horses. Undead, the Syndicate gang, and other scoundrels in the region have already taken quite a few. Yet Darren fears the mountain lions of Alterac most. They keep coming down from the hills.",
    "spoiler": 0
   },
   {
    "title": "Lions of the Hills",
-   "body": "Darren wants eight Mountain Lions and ten Hulking Mountain Lions dealt with. Mountain Lions are found in the lower hills of the Alterac Mountains.",
+   "body": "Darren wants eight Mountain Lions and ten Hulking Mountain Lions dealt with. The Mountain Lions roam the lower hills of the Alterac Mountains.",
    "spoiler": 0
   }
  ],
@@ -48,7 +48,7 @@
     "where are mountain lions",
     "where to find lions"
    ],
-   "answer": "The mountain lions come down from the hills of Alterac. Mountain Lions are found in the lower hills of the Alterac Mountains."
+   "answer": "The mountain lions come down from the hills of Alterac. Mountain Lions roam the lower hills of the Alterac Mountains."
   },
   {
    "q": "What threats to the horses does Darren mention?",
@@ -57,7 +57,7 @@
     "what attacks southshore horses",
     "darren malvew enemies"
    ],
-   "answer": "Undead, the Syndicate gang, and other scoundrels in the region have cost Southshore horses, but Darren says the mountain lions of Alterac are the greatest threat."
+   "answer": "Undead, the Syndicate gang, and other scoundrels in the region have cost Southshore horses. Darren says the mountain lions of Alterac are the greatest threat."
   },
   {
    "q": "What specific beasts need to be culled?",
@@ -66,7 +66,7 @@
     "hulking mountain lion costly menace",
     "costly menace targets"
    ],
-   "answer": "Eight Mountain Lions and ten Hulking Mountain Lions."
+   "answer": "Eight Mountain Lions and ten Hulking Mountain Lions, as Darren asks."
   }
  ],
  "angles": [],
@@ -89,5 +89,5 @@
  "attribution": [
   "Costly Menace"
  ],
- "style": 1
+ "style": 2
 }

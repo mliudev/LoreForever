@@ -7,26 +7,26 @@
  "meta": {
   "wiki": "Burning Blade clan"
  },
- "summary": "Once an ancient orcish clan renowned for its deadly blademasters and consumed by chaotic frenzy during the early wars, the Burning Blade now largely persists as a sinister demon-worshiping cult. Its acolytes infiltrate Durotar and the Barrens, pursuing dark agendas whispered to be guided by hidden masters. Meanwhile, a handful of honorable blademasters have forsaken its demonic corruption to serve Warchief Thrall in the New Horde.",
+ "summary": "Across Durotar and the Barrens, the Burning Blade threatens the young Horde from within. Once renowned for its blademasters, the clan broke under demonic corruption. Now most of its scattered members serve the Shadow Council, while a few honorable blademasters stand with Warchief Thrall.",
  "sections": [
   {
    "title": "From Clan to Elemental Fury",
-   "body": "Originating in the lands of Draenor alongside clans like the Warsong, the Burning Blade were long respected for the lethal tradition of their blademasters. When they drank the blood of Mannoroth and marched through the Dark Portal into Azeroth during the First War, however, the clan fractured mentally. By the Second War, they were scarcely an organized society, behaving instead like a berserk force of nature. Nomadic and demented, they threw themselves into battle with total disregard for survival, requiring ogres to hold them in check until unleashed. Ultimately, their numbers were battered and routed near the Dark Portal by the Alliance.",
+   "body": "The Burning Blade once fought beside clans such as the Warsong on Draenor. Its blademasters were famed for deadly skill. After drinking Mannoroth’s blood and crossing the Dark Portal into Azeroth during the First War, the clan’s minds broke into chaos.\n\nBy the Second War, it had lost all order and raged like a force of nature. These nomadic fighters charged without regard for survival, so ogres held them back until battle called. Near the Dark Portal, the Alliance battered and routed them.",
    "spoiler": 0
   },
   {
    "title": "The Threat in Durotar",
-   "body": "The modern cult operates covens across Kalimdor, troubling newly arrived orcs and Darkspear trolls from their first days in the Valley of Trials. Burning Blade warlocks inhabit Thunder Ridge, and garrison a major hideout within Skull Rock near Orgrimmar's eastern gates. Their cultists rally around dark relics like the Demon Seed and harvest souls for demonic rituals, making them a primary internal menace against the fledgling Horde's stability in Durotar and the Barrens.",
+   "body": "Across Kalimdor, Burning Blade covens trouble newly arrived orcs and Darkspear trolls from their first days in the Valley of Trials. Warlocks dwell in Thunder Ridge and keep a major hideout in Skull Rock, near Orgrimmar’s eastern gates. The cultists gather around dark relics such as the Demon Seed and harvest souls for demonic rites. In Durotar and the Barrens, they threaten the young Horde from within.",
    "spoiler": 0
   },
   {
    "title": "The Traitor in the Cleft",
-   "body": "While Thrall works to establish the New Horde, the cult's master orchestrator sits directly under his nose. Neeru Fireblade, an ostensible Horde warlock dwelling in the Cleft of Shadow, secretly leads the Burning Blade as an agent of the Shadow Council. Neeru uses pawns, including the expendable Searing Blade of Ragefire Chasm, to maintain his disguise as a benign researcher helping the Warchief. Unbeknownst to Neeru, Thrall has already deduced his treacherous allegiance and watches him closely.",
+   "body": "Neeru Fireblade lives in the Cleft of Shadow as a Horde warlock, yet secretly leads the Burning Blade for the Shadow Council. He uses pawns such as the expendable Searing Blade of Ragefire Chasm to preserve the guise of a harmless researcher aiding the Warchief. Thrall has already deduced Neeru’s treachery and watches him closely.",
    "spoiler": 1
   },
   {
    "title": "A Split Legacy",
-   "body": "Following the Second War, the surviving remnants of the Burning Blade split dramatically. A disciplined contingent of blademasters swore solemn oaths to liberate their people from demonic enslavement, pledging their blades directly to Warchief Thrall as his personal honor guard. Yet a far larger portion of the scattered clan fell entirely under the sway of the Burning Legion and the Shadow Council, morphing into a clandestine cult of warlocks, fel acolytes, and conspirators lurking throughout Kalimdor.",
+   "body": "After the Second War, surviving members of the Burning Blade split apart. A disciplined band of blademasters vowed to free their people from demonic enslavement and pledged their swords to Warchief Thrall as his personal honor guard. Many others fell under the Burning Legion and the Shadow Council. Across Kalimdor, they became a hidden cult of warlocks, fel acolytes, and conspirators.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who are burning blade",
     "burning blade background"
    ],
-   "answer": "Originally an orcish clan from Draenor known for elite blademasters, the Burning Blade was consumed by bloodlust during the First and Second Wars. Today, the name primarily refers to a demon-worshiping cult operating across Kalimdor on behalf of the Shadow Council, although a small number of reformed blademasters serve Thrall's Horde."
+   "answer": "The Burning Blade began as an orcish clan from Draenor, renowned for its blademasters. Bloodlust consumed the clan during the First and Second Wars. Now most who bear its name belong to a demon-worshiping cult serving the Shadow Council across Kalimdor, though a few reformed blademasters serve Thrall’s Horde."
   },
   {
    "q": "Who actually leads the Burning Blade?",
@@ -46,7 +46,7 @@
     "burning blade leader",
     "who is the leader of burning blade"
    ],
-   "answer": "The cult answers to the Shadow Council, and its covens across Durotar and the Barrens are run by warlocks and demon-summoners who keep their true master hidden. Whispers say the trail of command leads uncomfortably close to Orgrimmar itself."
+   "answer": "The Shadow Council directs the Burning Blade, whose covens in Durotar and the Barrens are led by warlocks and demon-summoners. Their true master remains hidden, though the trail leads close to Orgrimmar."
   },
   {
    "q": "Why are they attacking new orcs in the Valley of Trials?",
@@ -54,7 +54,7 @@
     "valley of trials burning blade",
     "why are cultists in valley of trials"
    ],
-   "answer": "The Burning Blade established a coven in the northern caves of the Valley of Trials to disrupt young orcs and trolls undergoing their rites of passage, using vile familiars and dark medallions to cultivate fel corruption at the heart of Horde lands."
+   "answer": "The Burning Blade keeps a coven in the northern caves of the Valley of Trials to disrupt young orcs and trolls as they undergo their rites of passage. Its familiars and dark medallions spread fel corruption in the heart of Horde lands."
   },
   {
    "q": "What is the difference between the Burning Blade and Searing Blade?",
@@ -62,7 +62,7 @@
     "searing blade vs burning blade",
     "difference between burning and searing blade"
    ],
-   "answer": "The Searing Blade is a sect based deep inside Ragefire Chasm beneath Orgrimmar. It is a smaller offshoot, while the Burning Blade is the broader cult operating across Durotar and the Barrens. Investigating the chasm reveals who directs the sect."
+   "answer": "The Searing Blade is a smaller sect deep in Ragefire Chasm beneath Orgrimmar. The Burning Blade is the broader cult across Durotar and the Barrens. The chasm holds clues to who directs the sect."
   },
   {
    "q": "Are all Burning Blade members demon-worshiping cultists?",
@@ -70,21 +70,21 @@
     "are all burning blade bad",
     "burning blade blademasters good"
    ],
-   "answer": "No. While the cult constitutes the majority, proud blademasters of the original clan broke away by the Third War. They took vows to redeem their people from demonic enslavement and now fight loyally within the New Horde as Thrall's personal honor guard."
+   "answer": "No. Though the cult holds most of the clan’s scattered members, proud blademasters broke away by the Third War. They vowed to free their people from demonic enslavement and now serve in the New Horde as Thrall’s personal honor guard."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The Burning Blade represents the persistent specter of the Horde's corrupt demonic past, directly threatening Durotar and the Barrens from within."
+   "text": "The Burning Blade is a lingering sign of the Horde’s corrupt demonic past, threatening Durotar and the Barrens from within."
   },
   {
    "target": "class:Warlock",
-   "text": "The cult exemplifies the reckless, demonic enslavement that forces Horde warlocks like those studying in the Cleft of Shadow under Neeru Fireblade into hiding and intense suspicion."
+   "text": "The Burning Blade shows the danger of demonic enslavement, which drives Horde warlocks to conceal their studies and endure suspicion."
   },
   {
    "target": "race:Orc",
-   "text": "The clan's fall is a bitter reminder of the blood curse, standing in direct contrast to the honor-bound blademasters who seek atonement in service to Thrall."
+   "text": "The clan’s fall recalls the blood curse, while its honor-bound blademasters seek atonement in service to Thrall."
   }
  ],
  "keywords": [
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "Burning Blade clan"
- ]
+ ],
+ "style": 2
 }

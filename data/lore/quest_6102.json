@@ -17,16 +17,16 @@
   "wiki": "Taming the Beast (night elf 3)",
   "chain": []
  },
- "summary": "In Dolanaar, Taming the Beast brings a young night elf hunter to the final trial of basic training. Under Dazalar’s direction, hunters tame a predatory owl of the skies before gaining the power to choose a lifelong companion.",
+ "summary": "In Dolanaar, Taming the Beast brings a young night elf hunter to the last trial of basic training. Under Dazalar’s direction, the hunter tames a predatory owl of the skies before gaining the power to choose a lifelong companion.",
  "sections": [
   {
    "title": "Mastery of the Canopy",
-   "body": "Night elf hunters must make peace with creatures across Teldrassil before their basic beastcraft is complete. After proving their will against beasts of the underbrush, they face the spirit of the skies, the Strigid Screecher. These watchful birds of prey roost high in the boughs west of Dolanaar. Patience and a steady nerve are needed to pacify one with the enchanted Taming Rod.",
+   "body": "Night elf hunters must make peace with creatures across Teldrassil to finish their basic beastcraft. After facing beasts of the underbrush, they meet the spirit of the skies: the Strigid Screecher. These watchful birds of prey roost high in the boughs west of Dolanaar. Patience and a steady nerve are needed to pacify one with the enchanted Taming Rod.",
    "spoiler": 0
   },
   {
    "title": "A Hunter's Bond",
-   "body": "Taming the Strigid Screecher fulfills the ancient lessons of communion between kaldorei hunters and nature. When the apprentice returns the spent rod to Dazalar, the training exercises end. The apprentice earns the full art of calling, dismissing, and permanently taming beasts of their own choosing across Azeroth.",
+   "body": "Taming the Strigid Screecher completes the ancient lessons in communion between kaldorei hunters and nature. The apprentice returns the spent rod to Dazalar, and the training exercises end. Then the hunter gains the full art of calling, dismissing, and permanently taming beasts of their own choosing across Azeroth.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "who teaches pet taming dolanaar",
     "hunter trainer dolanaar"
    ],
-   "answer": "Dazalar is a night elf hunter trainer in Dolanaar. He guides young kaldorei who have gained basic skill in archery and tracking, testing them against land and sky beasts before bestowing the ability to bind a real animal companion."
+   "answer": "Dazalar is a night elf hunter trainer in Dolanaar. He guides young kaldorei who have learned basic archery and tracking. He tests them against beasts of land and sky before granting them the ability to bind a real animal companion."
   },
   {
    "q": "Do I get to keep the Strigid Screecher as my pet?",
@@ -56,7 +56,7 @@
     "is screecher permanent",
     "do i keep this pet"
    ],
-   "answer": "No. The screechers tamed during this trial are temporary subjects bound only by the Taming Rod’s magic. When the trial ends, the rod is surrendered, and the hunter is taught how to tame a permanent companion of their own choosing in the wild."
+   "answer": "No. The Strigid Screecher tamed during this trial is bound only temporarily by the Taming Rod’s magic. When the trial ends, the hunter surrenders the rod and learns to tame a permanent companion of their own choosing in the wild."
   },
   {
    "q": "What happens after completing this trial?",
@@ -65,7 +65,7 @@
     "after taming the beast",
     "hunter pet quest finish"
    ],
-   "answer": "Dazalar permanently unlocks your ability to tame, call, and dismiss beasts. He points you toward further training in Darnassus, where you can learn to feed your companion and teach it to fight."
+   "answer": "Dazalar unlocks your ability to tame, call, and dismiss beasts for good. He points you toward further training in Darnassus, where you can learn to feed your companion and teach it to fight."
   },
   {
    "q": "Why do night elves tame owls specifically?",
@@ -74,7 +74,7 @@
     "why owls",
     "strigid screecher importance"
    ],
-   "answer": "Birds of prey such as owls hold deep cultural significance among the kaldorei as vigilant hunters of the night and trusted scouts. Mastering a creature of the skies proves a hunter understands aerial predators as well as beasts that dwell on the ground."
+   "answer": "Owls and other birds of prey hold deep cultural meaning for the kaldorei as vigilant hunters of the night and trusted scouts. Mastering a creature of the skies proves you understand aerial predators as well as beasts on the ground."
   },
   {
    "q": "Can hunters choose any animal after this quest?",
@@ -83,17 +83,17 @@
     "choosing first pet",
     "any beast tameable"
    ],
-   "answer": "Yes. Once the permanent taming ability is unlocked, a hunter can seek any tameable beast of the land, water, or sky across Teldrassil and beyond."
+   "answer": "Yes. Once you gain the ability to tame beasts permanently, you can seek any tameable creature of land, water, or sky across Teldrassil and beyond."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter, this rite marks the passage from fighting alone to forging a lifetime partnership with a wild companion."
+   "text": "As a hunter, this rite marks the passage from fighting alone to forging a lifelong bond with a wild companion."
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, taming Teldrassil’s native wildlife follows the kaldorei path of living in harmony with nature rather than bending it through force."
+   "text": "As a night elf, taming Teldrassil’s native wildlife follows the kaldorei path of living in harmony with nature, rather than bending it through force."
   }
  ],
  "keywords": [
@@ -117,5 +117,5 @@
  "attribution": [
   "Taming the Beast (night elf 3)"
  ],
- "style": 1
+ "style": 2
 }

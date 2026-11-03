@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Sea of Cinders"
  },
- "summary": "The Sea of Cinders is an expanse of scorched, windblown terrain lying across the southern stretch of the Searing Gorge, directly north of Blackrock Mountain. Ravaged by elemental heat and relentless gusts, the flat ground constantly vents ash and embers, creating a choking wasteland where very little can endure.",
+ "summary": "Ash and embers sweep the Sea of Cinders, north of Blackrock Mountain.",
  "sections": [
   {
    "title": "A Wasteland of Embers",
-   "body": "Stretching between the rocky cliffs of the Searing Gorge and the imposing bulk of Blackrock Mountain, the Sea of Cinders earns its name from the suffocating haze of particulate and burning grit that constantly sweeps its plains. When the Firelord Ragnaros was summoned into the mortal world centuries ago, the violent upheaval fractured the Redridge Mountains and transformed the surrounding landscape into an arid slag heap. The Sea of Cinders is among the most barren remnants of that cataclysm, an uninhabitable plain where the earth itself refuses to cool.",
+   "body": "Ash and burning grit sweep the plain between the Searing Gorge cliffs and Blackrock Mountain. Centuries ago, the Firelord Ragnaros was summoned into the mortal world. The upheaval fractured the Redridge Mountains and left the surrounding land an arid slag heap. The Sea of Cinders is one of the cataclysm’s most barren remnants, where the earth never cools.",
    "spoiler": 0
   },
   {
    "title": "Peril Beneath the Slopes",
-   "body": "Because it borders the north approach to Blackrock Mountain, travelers and scavengers often have no choice but to cross these scorching flats. The winds here kick up dense clouds of blinding ash that hide sudden fissures, elemental horrors, and wandering predators adapted to the searing heat. Between the hostile environment and the looming presence of the Dark Iron dwarves who claim the region, any trek across the cinders demands vigilance and swift passage.",
+   "body": "Travelers and scavengers taking the north approach to Blackrock Mountain often cross these scorching flats. Winds drive blinding ash clouds across the way, hiding sudden fissures, elemental horrors, and predators adapted to the heat. Dark Iron dwarves claim this hostile land. Anyone crossing the cinders must stay watchful and move swiftly.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "sea of cinders lore",
     "where is sea of cinders"
    ],
-   "answer": "It is a desolate, ash-covered flatland located in southern Searing Gorge, right against the northern face of Blackrock Mountain. It is blanketed in smoldering dirt and flying embers."
+   "answer": "The Sea of Cinders lies in southern Searing Gorge, against the northern face of Blackrock Mountain. Smoldering dirt and flying embers blanket this desolate flatland."
   },
   {
    "q": "Why is the ground constantly burning?",
@@ -37,7 +37,7 @@
     "why are there cinders",
     "why does the ground smoke"
    ],
-   "answer": "The region was utterly devastated centuries ago when Sorcerer-Thane Thaurissan summoned the Firelord Ragnaros during the War of the Three Hammers. The catastrophic eruption superheated the earth and shattered the mountains, leaving plains that still smolder to this day."
+   "answer": "Centuries ago, Sorcerer-Thane Thaurissan summoned the Firelord Ragnaros during the War of the Three Hammers. The eruption superheated the earth and shattered the mountains, and the plains still smolder."
   },
   {
    "q": "Does anyone live here?",
@@ -46,7 +46,7 @@
     "sea of cinders inhabitants",
     "settlements"
    ],
-   "answer": "No organized settlement exists within the Sea of Cinders itself. The suffocating heat, poor air, and lack of water make permanent habitation impossible, leaving the expanse occupied only by wandering beasts, fire elementals, and patrols affiliated with Blackrock Mountain."
+   "answer": "No organized settlement stands within the Sea of Cinders. Heat, poor air, and lack of water make permanent habitation impossible, though wandering beasts, fire elementals, and patrols affiliated with Blackrock Mountain cross the expanse."
   },
   {
    "q": "What makes traveling through here dangerous?",
@@ -54,17 +54,17 @@
     "is it safe",
     "dangers of sea of cinders"
    ],
-   "answer": "Aside from the hostile fauna and Dark Iron dwarves lurking near the mountain, the environment itself is lethal. The air is thick with blinding soot and burning ash, and deep thermal rifts riddle the flat terrain."
+   "answer": "Hostile beasts and Dark Iron dwarves threaten travelers near the mountain. Blinding soot and burning ash fill the air, while deep thermal rifts split the flat terrain."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "The volatile, heat-cracked stone skirting Blackrock Mountain frequently exposes rich mineral deposits and dark iron veins to those brave enough to prospect among the drifting ash."
+   "text": "Heat-cracked stone near Blackrock Mountain can expose rich mineral deposits and dark iron veins to those who brave the drifting ash."
   },
   {
    "target": "race:Dwarf",
-   "text": "For Bronzebeard and Wildhammer dwarves, walking through these burning wastes is a grim reminder of Thaurissan's folly and the dark powers that shattered the Redridge Mountains."
+   "text": "As a Bronzebeard or Wildhammer dwarf, you walk through wastes that recall Thaurissan's folly and the dark powers that shattered the Redridge Mountains."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Sea of Cinders"
- ]
+ ],
+ "style": 2
 }

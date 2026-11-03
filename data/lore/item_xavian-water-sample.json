@@ -10,11 +10,11 @@
    "quest:1944"
   ]
  },
- "summary": "At Xavian, ancient waters hold arcane power sought by Horde mages in Orgrimmar. They seek it to unravel the latent magic preserved in Ashenvale's oldest sacred sites.",
+ "summary": "At Xavian, Horde mages in Orgrimmar seek waters rich in arcane power. They hope to unravel the latent magic preserved in Ashenvale's oldest sacred sites.",
  "sections": [
   {
    "title": "Waters of the Ancient City",
-   "body": "Xavian was a fabled ancient elven city, and its old knowledge remains known among the learned. Even in ruin, its waters are said to hold great magical power. Deino, an arcane instructor in Orgrimmar, sends rising mages deep into Ashenvale to draw fresh water from the pool beneath Xavian's tallest waterfall. They must cross dangerous ground, for corrupt satyrs now guard the ruins fiercely and oppose spellcasters who meddle there.",
+   "body": "Xavian was once a fabled ancient elven city, and the learned still know its old wisdom. Though the city lies in ruin, its waters are said to hold great magical power. Deino, an arcane instructor in Orgrimmar, sends rising mages deep into Ashenvale to draw fresh water from the pool beneath Xavian's tallest waterfall. They must cross dangerous ground, where corrupt satyrs now guard the ruins fiercely and oppose spellcasters who meddle there.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "why collect water from xavian",
     "deino purpose"
    ],
-   "answer": "Deino, an arcane instructor in Orgrimmar's Valley of Spirits, wants the water for her studies of potent and unusual magic. She teaches young Horde practitioners and seeks the ancient magical essence held in Xavian's undisturbed waters."
+   "answer": "Deino teaches young Horde practitioners in Orgrimmar's Valley of Spirits. She wants the water for her studies of potent and unusual magic, seeking the ancient magical essence held in Xavian's undisturbed waters."
   },
   {
    "q": "What threats guard the waters of Xavian?",
@@ -88,5 +88,5 @@
   "Xavian Water Sample",
   "Waters of Xavian"
  ],
- "style": 1
+ "style": 2
 }

@@ -8,21 +8,21 @@
   "wiki": "Mathrengyl Bearwalker",
   "refs": 8
  },
- "summary": "In Darnassus, Mathrengyl Bearwalker guides Alliance druids from the Cenarion Enclave. Once Fandral Staghelm's direct assistant, he helps young druids face spiritual trials, learn shapeshifting, and serve across Kalimdor.",
+ "summary": "From Darnassus, Mathrengyl Bearwalker guides Alliance druids through spiritual trials and the art of shapeshifting. Once Fandral Staghelm's direct assistant, he now helps young druids serve across Kalimdor.",
  "sections": [
   {
    "title": "Mentor of the Cenarion Enclave",
-   "body": "In Darnassus's Cenarion Enclave, Mathrengyl Bearwalker guides Alliance druids through their first rites. A respected elder of the Cenarion Circle, he sends initiates to commune with Moonglade and judges whether they are ready to take animal forms. Mathrengyl remembers his own bewildering communion with the Great Bear Spirit. He asks each initiate to test their spirit against Lunaclaw, the sacred moonkin, before entering the path of the Druid of the Claw.",
+   "body": "In the Cenarion Enclave of Darnassus, Mathrengyl Bearwalker guides Alliance druids through their first rites. A respected elder of the Cenarion Circle, he sends initiates to commune with Moonglade and judges when they are ready to take animal forms. He remembers his own bewildering communion with the Great Bear Spirit. Before they enter the path of the Druid of the Claw, he asks each initiate to test their spirit against Lunaclaw, the sacred moonkin.",
    "spoiler": 0
   },
   {
    "title": "Service to the Archdruid",
-   "body": "For many years, Mathrengyl has served as Fandral Staghelm's second, tending the Cenarion Circle's daily affairs and finding recruits for the Archdruid's plans. When Fandral sought great stores of morrowgrain, Mathrengyl arranged for returning adventurers to gather it. In private, he admitted unease about the plant's unnatural essence. He also coordinates Alliance responses to calls from Moonglade and handles the Circle's delicate politics while Fandral turns his attention to southern Kalimdor.",
+   "body": "For many years, Mathrengyl has served as Fandral Staghelm's second. He tends the Cenarion Circle's daily affairs and finds recruits for the Archdruid's plans. When Fandral sought great stores of morrowgrain, Mathrengyl arranged for returning adventurers to gather it. In private, he admitted unease about the plant's unnatural essence.\n\nMathrengyl also coordinates Alliance responses to calls from Moonglade and handles the Circle's delicate politics. Meanwhile, Fandral turns his attention to southern Kalimdor.",
    "spoiler": 0
   },
   {
    "title": "A Broader Perspective",
-   "body": "Mathrengyl thinks more openly than Fandral Staghelm, whose pride and disdain for other races are well known. Relics from Mulgris Deepriver reached Darnassus after the druid died fighting the Scourge in the Western Plaguelands. Mathrengyl was moved to learn that the investigator was a tauren. The Cenarion Circle shares a mission, he reflected, and tauren may not have strayed as far from Cenarius's teachings as Fandral claims.",
+   "body": "Mathrengyl thinks more openly than Fandral Staghelm, whose pride and disdain for other races are well known. Relics from Mulgris Deepriver reached Darnassus after the druid died fighting the Scourge in the Western Plaguelands. Mathrengyl was moved to learn that the investigator was a tauren. The Cenarion Circle shares one mission, he reflected, and tauren may not have strayed as far from Cenarius's teachings as Fandral claims.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "mathrengyl role",
     "bearwalker"
    ],
-   "answer": "Mathrengyl Bearwalker guides druids in the Cenarion Enclave in Darnassus. A veteran night elf druid and respected elder, he teaches shapeshifting, poison cleansing, and service to the Cenarion Circle."
+   "answer": "Mathrengyl Bearwalker guides druids in Darnassus's Cenarion Enclave. A veteran night elf druid and respected elder, he teaches shapeshifting, poison cleansing, and service to the Cenarion Circle."
   },
   {
    "q": "What is his relationship with Fandral Staghelm?",
@@ -42,7 +42,7 @@
     "fandral assistant",
     "staghelm and mathrengyl"
    ],
-   "answer": "Mathrengyl served as Fandral Staghelm's direct assistant and second. He manages Fandral's requests, including gathering morrowgrain and delegating missions, while quietly doubting some of the Archdruid's views and projects."
+   "answer": "Mathrengyl served as Fandral Staghelm's direct assistant and second. He manages Fandral's requests, from gathering morrowgrain to delegating missions, while quietly doubting some of the Archdruid's views and projects."
   },
   {
    "q": "What forms does Mathrengyl help druids learn?",
@@ -51,7 +51,7 @@
     "aquatic form quest darnassus",
     "druid forms mathrengyl"
    ],
-   "answer": "Mathrengyl guides young druids through their Moonglade pilgrimage and communion with Lunaclaw to earn Bear Form. He also oversees their trials in Darkshore and Westfall to master Aquatic Form."
+   "answer": "Mathrengyl guides young druids through their Moonglade pilgrimage and communion with Lunaclaw to earn Bear Form. He also oversees trials in Darkshore and Westfall, where they master Aquatic Form."
   },
   {
    "q": "Why is Mathrengyl gathering morrowgrain?",
@@ -59,7 +59,7 @@
     "morrowgrain quest",
     "why morrowgrain darnassus"
    ],
-   "answer": "Mathrengyl gathers morrowgrain cultivated by adventurers to help Archdruid Fandral Staghelm with botanical research on Teldrassil. He has admitted to feeling uneasy in the plant's presence."
+   "answer": "Mathrengyl gathers morrowgrain cultivated by adventurers for Archdruid Fandral Staghelm's botanical research on Teldrassil. He has admitted that the plant's presence makes him uneasy."
   },
   {
    "q": "How does Mathrengyl feel about tauren druids?",
@@ -75,7 +75,7 @@
     "nightmare shard mathrengyl",
     "in nightmares quest"
    ],
-   "answer": "When adventurers bring a corrupted Nightmare Shard to Falla Sagewind, she sends them to Mathrengyl. He examines the shard with alarm and senses corruption creeping toward the Emerald Dream."
+   "answer": "When adventurers bring a corrupted Nightmare Shard to Falla Sagewind, she sends them to Mathrengyl. He examines it with alarm and senses corruption creeping toward the Emerald Dream."
   }
  ],
  "angles": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Mathrengyl Bearwalker"
  ],
- "style": 1
+ "style": 2
 }

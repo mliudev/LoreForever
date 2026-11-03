@@ -10,11 +10,11 @@
    "quest:465"
   ]
  },
- "summary": "In the Wetlands, Dwarven Tinder gives Alliance saboteurs a way to burn Dragonmaw siege engines before they reach Menethil Harbor.",
+ "summary": "In the Wetlands, Alliance saboteurs carry Dwarven Tinder to burn Dragonmaw siege engines before they reach Menethil Harbor.",
  "sections": [
   {
    "title": "Sabotaging the Dragonmaw",
-   "body": "When Alliance scouts found Chieftain Nek'rosh's heavy catapults inside the Dragonmaw encampment, Menethil Harbor faced a crisis. Fighting in Dun Algaz had cut off the harbor from southern reinforcements, and its defenders could not withstand a long siege. They chose to sabotage the catapults before they could be used. Volunteers carrying Dwarven Tinder into orcish territory could light it with a struck spark. Its flames burned through the reinforced wooden engines in minutes.",
+   "body": "Alliance scouts found Chieftain Nek'rosh's heavy catapults in the Dragonmaw encampment, and Menethil Harbor faced a crisis. Fighting in Dun Algaz had cut the harbor off from southern reinforcements. Its defenders could not withstand a long siege, so they chose to sabotage the catapults before they could be used.\n\nVolunteers carried Dwarven Tinder into orcish territory and lit it with a struck spark. Its flames burned through the reinforced wooden engines in minutes.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why use dwarven tinder",
     "what does dwarven tinder do"
    ],
-   "answer": "Alliance saboteurs use Dwarven Tinder to burn the Dragonmaw catapults in the Wetlands before they can attack Menethil Harbor."
+   "answer": "Alliance saboteurs use Dwarven Tinder to burn Dragonmaw catapults in the Wetlands before they can attack Menethil Harbor."
   },
   {
    "q": "Why burn the catapults instead of capturing them?",
@@ -34,7 +34,7 @@
     "why destroy the catapults",
     "why not take the siege engines"
    ],
-   "answer": "The defenders cannot capture heavy siege engines deep in Dragonmaw territory. With the garrison outnumbered and cut off from Ironforge reinforcements by the blockade at Dun Algaz, destroying the catapults is their only viable defense."
+   "answer": "The defenders cannot capture heavy siege engines deep in Dragonmaw territory. Outnumbered and cut off from Ironforge reinforcements by the blockade at Dun Algaz, they see destroying the catapults as their only viable defense."
   },
   {
    "q": "Who prepared this tinder?",
@@ -73,5 +73,5 @@
   "Dwarven Tinder",
   "Nek'rosh's Gambit"
  ],
- "style": 1
+ "style": 2
 }

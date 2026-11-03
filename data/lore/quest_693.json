@@ -27,16 +27,16 @@
    "Malin's Request"
   ]
  },
- "summary": "Skuerto at Refuge Pointe has worked out where the first of Trelane's items ended up. Kor'gresh has Trelane's Wand of Invocation in Boulderfist Hall, and Skuerto wants it brought back.",
+ "summary": "At Refuge Pointe, Skuerto has found where Trelane's first item went. Kor'gresh holds Trelane's Wand of Invocation in Boulderfist Hall, and Skuerto wants it back.",
  "sections": [
   {
    "title": "The Ogre and the Wand",
-   "body": "After your work for Apprentice Kryten, Skuerto has found where Trelane's first item went. Kor'gresh holds it in Boulderfist Hall, and has been throwing blasts of ice at his own kin to keep them in line. Skuerto reckons the ogre must be close to figuring out all of the wand's powers. Boulderfist Hall lies south of Refuge Pointe and then east of Thandol Span.",
+   "body": "After your work for Apprentice Kryten, Skuerto has traced Trelane's first item to Kor'gresh. The ogre holds the wand in Boulderfist Hall and uses blasts of ice to keep his kin in line. Skuerto fears Kor'gresh is close to discovering all its powers. Boulderfist Hall lies south of Refuge Pointe, then east of Thandol Span.",
    "spoiler": 0
   },
   {
    "title": "Skuerto's List",
-   "body": "On your return, Skuerto counts the wand as one item down and three more to go, according to his list. The other three are all in Stromgarde.",
+   "body": "When you return, Skuerto counts the wand as one item found. Three more remain on his list, and all three are in Stromgarde.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "who starts wand over fist",
     "where to get wand over fist"
    ],
-   "answer": "Skuerto, at Refuge Pointe in the Arathi Highlands."
+   "answer": "At Refuge Pointe in the Arathi Highlands, Skuerto asks you to recover the wand."
   },
   {
    "q": "Where is Kor'gresh located?",
@@ -57,7 +57,7 @@
     "korgresh location",
     "find korgresh"
    ],
-   "answer": "Kor'gresh is in Boulderfist Hall, which lies south of Refuge Pointe and then east of Thandol Span."
+   "answer": "Kor'gresh is in Boulderfist Hall, south of Refuge Pointe and then east of Thandol Span."
   },
   {
    "q": "What item needs to be recovered?",
@@ -66,7 +66,7 @@
     "what wand",
     "trelane wand"
    ],
-   "answer": "Trelane's Wand of Invocation, the first of Trelane's items. Kor'gresh has been throwing blasts of ice at his kin with it."
+   "answer": "Trelane's Wand of Invocation is the first of Trelane's items to be recovered. Kor'gresh has used it to throw blasts of ice at his kin."
   },
   {
    "q": "What prerequisites are needed for this quest?",
@@ -75,7 +75,7 @@
     "prerequisites for wand over fist",
     "previous quest to wand over fist"
    ],
-   "answer": "It follows Worth Its Weight in Gold, the work you did for Apprentice Kryten."
+   "answer": "You reach this work after Worth Its Weight in Gold, the work you did for Apprentice Kryten."
   }
  ],
  "angles": [],
@@ -100,5 +100,6 @@
  ],
  "attribution": [
   "Wand over Fist (Classic)"
- ]
+ ],
+ "style": 2
 }

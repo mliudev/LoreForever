@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Shimmering Flats"
  },
- "summary": "The Shimmering Flats is an expansive salt flat lying at the southeastern tip of Thousand Needles, bordering the desert of Tanaris. Once the bed of an ancient lake, this sun-baked expanse is now famous for the high-speed mechanical rivalries of the Mirage Raceway and a harsh population of desert beasts.",
+ "summary": "At Thousand Needles' southeastern edge, the Shimmering Flats stretch between the salt pan and Tanaris. The old lakebed now draws racers to the Mirage Raceway, where gnome and goblin tinkerers test their machines among desert beasts.",
  "sections": [
   {
    "title": "A Bed of Salt and Speed",
-   "body": "Stretching out under the blinding southern sun, the Shimmering Flats is a vast dried lakebed devoid of vegetation, dotted with the sun-bleached bones of turtles and even the wooden wreck of an ancient sailing vessel. Its sheer, unbroken level surface makes it the premier testing ground on Kalimdor for experimental vehicles. At the center of the flats lies the Mirage Raceway, where gnome and goblin tinkerers constantly clash to see whose rocket cars, gyrocopters, and engines can achieve the highest speeds\u2014often resulting in fiery crashes and smoking craters across the white crust.",
+   "body": "Beneath the southern sun, the Shimmering Flats lie bare, with bleached turtle bones and the wooden wreck of an ancient sailing vessel. Their level salt crust makes them Kalimdor's chief ground for testing experimental vehicles. At the heart of the flats, the Mirage Raceway gathers gnome and goblin tinkerers for fierce contests. Rocket cars, gyrocopters and engines roar across the salt. Their makers chase speed, and fiery crashes leave smoking craters behind.",
    "spoiler": 0
   },
   {
    "title": "Hazards of the Salt",
-   "body": "Beyond the roaring engines of the raceway, the basin is far from peaceful. Hardened basilisks, aggressive scorpids, and circling vultures prey upon anything that slows down on the open expanse. Further south, the ground grows treacherous around the Rustmaul Dig Site. Originally excavated by dwarven prospectors before being contested by the Horde, the quarry was entirely abandoned when picks cracked into subterranean tunnels, unleashing a swarm of vicious silithid into the southern edge of the flats.",
+   "body": "Beyond the raceway, hardened basilisks, aggressive scorpids and circling vultures hunt across the open flats. Farther south, the ground turns treacherous around the Rustmaul Dig Site. Dwarven prospectors first excavated the quarry, then the Horde contested it. The site was abandoned when picks broke into underground tunnels and unleashed vicious silithid across the southern edge of the flats.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "boat in salt flats",
     "wrecked boat thousand needles"
    ],
-   "answer": "The Shimmering Flats was once a massive inland lake that dried up long ago. The wrecked vessel resting in the northern stretch of the flats is a remnant of that ancient body of water, left behind when the lake evaporated into the vast salt pan seen today."
+   "answer": "The Shimmering Flats were once a vast inland lake. The wreck in their northern stretch is a remnant of that lake, which dried up long ago and left the salt pan and vessel behind."
   },
   {
    "q": "Why are gnomes and goblins here together?",
@@ -37,7 +37,7 @@
     "why are they racing",
     "gnomes and goblins salt flats"
    ],
-   "answer": "The unbroken, flat salt crust provides the perfect terrain for testing rocket cars and cutting-edge mechanical contraptions. Rather than fighting over territory, local gnomes and goblins established the Mirage Raceway to fuel their technological rivalry, endlessly trying to outdo each other in speed, engineering, and reckless bravado."
+   "answer": "The level salt crust gives rocket cars and other machines ideal testing ground. Gnomes and goblins founded the Mirage Raceway instead of fighting over territory. Now their tinkerers strive to outdo one another in speed, engineering and daring."
   },
   {
    "q": "What happened to the dwarven dig site in the south?",
@@ -46,7 +46,7 @@
     "what happened to rustmaul",
     "bugs in salt flats"
    ],
-   "answer": "The Rustmaul Dig Site was established by dwarven archaeologists, who were soon attacked by a Horde raiding party led by Moktar Krin. Then the diggers inadvertently broke into a subterranean silithid hive, releasing swarms of insectoid horrors that drove everyone out and overran the southern flats."
+   "answer": "Dwarven archaeologists established the Rustmaul Dig Site, then a Horde raiding party led by Moktar Krin attacked them. The diggers broke into an underground silithid hive. The swarms drove everyone out and overran the southern flats."
   },
   {
    "q": "Where does the road through the Shimmering Flats lead?",
@@ -55,17 +55,17 @@
     "how to get to tanaris",
     "exit to tanaris"
    ],
-   "answer": "Following the tracks southeast across the salt pan leads directly to the mountain pass that opens into the vast desert of Tanaris and the neutral port of Gadgetzan."
+   "answer": "The tracks southeast across the Shimmering Flats lead through a mountain pass into Tanaris, to the neutral port of Gadgetzan."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The salt flats are a pilgrimage site for engineers, littered with scrap, fuel experiments, and high-speed vehicular trial runs fueled by the endless rivalry between goblin and gnomish machinists."
+   "text": "For engineers, the salt flats offer scrap, fuel experiments and high-speed trials. Goblin and gnomish machinists keep the rivalry at the Mirage Raceway alive."
   },
   {
    "target": "race:Gnome",
-   "text": "Out on the Mirage Raceway, gnomish pilots and mechanostriders boldly defend gnomish engineering pride against the volatile, explosive designs of their goblin rivals."
+   "text": "At the Mirage Raceway, gnomish pilots defend their engineering pride against the volatile, explosive designs of their goblin rivals."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Shimmering Flats"
- ]
+ ],
+ "style": 2
 }

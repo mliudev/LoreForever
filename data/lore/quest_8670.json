@@ -17,16 +17,16 @@
   "wiki": "Runetotem the Elder",
   "chain": []
  },
- "summary": "During the Lunar Festival, travelers in Durotar can honor Runetotem the Elder, an ancestral spirit. She waits in Razor Hill beneath a beam of heavenly light, offering blessings and festival tokens to those who remember the past.",
+ "summary": "In Razor Hill, travelers can honor Runetotem the Elder during the Lunar Festival. This ancestral spirit waits beneath a beam of heavenly light and offers blessings and festival tokens to those who remember the past.",
  "sections": [
   {
    "title": "A Spirit in Razor Hill",
-   "body": "During the Lunar Festival, spirits of ancient elders appear across Azeroth to commune with the living. Elder Runetotem waits inside Razor Hill, just past the southern entrance. A beam of starlight falls on her as she watches over the orcish settlement. Travelers can pause there to honor the wisdom of those who came before.",
+   "body": "During the Lunar Festival, ancient elders appear across Azeroth to commune with the living. Elder Runetotem waits just inside Razor Hill's southern entrance. Starlight falls on her as she watches over the orcish settlement. Travelers may pause to honor the wisdom of those who came before.",
    "spoiler": 0
   },
   {
    "title": "Guidance Across the Lands",
-   "body": "When you pay Elder Runetotem homage, she gives you a festival token of fortune and tells you where other spirits can be found. Her directions point toward Elder Darkhorn and Elder High Mountain elsewhere across the continent.",
+   "body": "Pay Elder Runetotem homage and she gives you a festival token of fortune. She also tells you where other spirits can be found. Her directions lead to Elder Darkhorn and Elder High Mountain elsewhere across the continent.",
    "spoiler": 0
   }
  ],
@@ -86,7 +86,7 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, meeting a spirit of the Runetotem family beyond Mulgore reminds you of your people's deep spiritual heritage across Kalimdor."
+   "text": "As a tauren, meeting a spirit of the Runetotem family beyond Mulgore recalls your people's deep spiritual heritage across Kalimdor."
   },
   {
    "target": "faction:Horde",
@@ -115,5 +115,5 @@
  "attribution": [
   "Runetotem the Elder"
  ],
- "style": 1
+ "style": 2
 }

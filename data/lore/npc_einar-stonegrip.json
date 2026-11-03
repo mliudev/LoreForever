@@ -8,11 +8,11 @@
   "wiki": "Einar Stonegrip",
   "refs": 1
  },
- "summary": "Along the Wetlands crossroads, Einar Stonegrip keeps to the road and sends his goods to town with travelers. He avoids Menethil Harbor, where his estranged wife lives.",
+ "summary": "Along the Wetlands crossroads, Einar Stonegrip stays by the road and sends his goods to town with travelers. He avoids Menethil Harbor, where his estranged wife lives.",
  "sections": [
   {
    "title": "A Trapper at the Crossroads",
-   "body": "Einar Stonegrip hunts crocolisks where the roads meet in the Wetlands. The crossroads link Dun Algaz, Dun Modr, and Menethil Harbor. He sells their sturdy hides to leatherworkers and merchants along the coast. Though rugged enough to wrestle reptiles from the mire, Einar is embroiled in a bitter falling-out with his wife, Sida. He stays on the road and asks travelers to carry his bundles of skins to his trading partner, James Halloran, rather than enter Menethil Harbor himself.",
+   "body": "Einar Stonegrip hunts crocolisks where the Wetlands roads meet. From there, the roads lead to Dun Algaz, Dun Modr, and Menethil Harbor. He sells the sturdy hides to leatherworkers and merchants along the coast.\n\nEinar is rugged enough to wrestle reptiles from the mire, but he and his wife, Sida, have fallen bitterly out. He stays on the road and asks travelers to carry his bundles of skins to his trading partner, James Halloran. He will not enter Menethil Harbor himself.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "einar stonegrip wife",
     "why hire adventurers"
    ],
-   "answer": "Einar avoids Menethil Harbor because he is on terribly bad terms with his wife, Sida, who lives there. He stays in the swamplands and pays passing couriers to carry his goods."
+   "answer": "Einar avoids Menethil Harbor because he and his wife, Sida, who lives there, are on terribly bad terms. He stays in the swamplands and pays passing couriers to carry his goods."
   },
   {
    "q": "Who does Einar work with in Menethil Harbor?",
@@ -48,7 +48,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you may recognize Einar's rugged self-reliance. His troubles with his wife keep him in the soggy marshes instead of a warm tavern."
+   "text": "As a dwarf, you may recognize Einar's rugged self-reliance. His troubles with his wife keep him in the marshes instead of a warm tavern."
   },
   {
    "target": "faction:Alliance",
@@ -78,5 +78,5 @@
  "attribution": [
   "Einar Stonegrip"
  ],
- "style": 1
+ "style": 2
 }

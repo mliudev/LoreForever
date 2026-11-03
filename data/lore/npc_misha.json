@@ -8,21 +8,21 @@
   "wiki": "Misha",
   "refs": 4
  },
- "summary": "Misha is the loyal bear companion of Rexxar, the Champion of the Horde. She wanders Kalimdor faithfully at the half-ogre beastmaster's side.",
+ "summary": "Beside Rexxar, Misha roams Kalimdor as his loyal bear companion. Rexxar is the half-ogre beastmaster and Champion of the Horde, and she stays close as he travels.",
  "sections": [
   {
    "title": "A Boundless Bond",
-   "body": "Misha is a brown bear who walks at the side of the wandering Rexxar, a solitary spirit who trusts beasts more than people. Together they have forged a fierce, protective partnership that has weathered countless wildernesses and bloody battles.",
+   "body": "Misha walks beside Rexxar, a solitary half-ogre who trusts beasts more than people. The brown bear and the wandering beastmaster have forged a fierce, protective bond through many wildernesses and bloody battles.",
    "spoiler": 0
   },
   {
    "title": "Defender of Durotar",
-   "body": "Misha is far more than a tame pet; she is a seasoned warrior. She fought alongside Rexxar in the brutal conflict against Grand Admiral Daelin Proudmoore at Theramore Isle, helping ensure the young Horde's survival. When not in battle, her keen senses and strength serve as an extension of Rexxar's will.",
+   "body": "Misha is a seasoned warrior, not merely a tame pet. She fought beside Rexxar against Grand Admiral Daelin Proudmoore at Theramore Isle, helping secure the young Horde's survival. Away from battle, her keen senses and strength extend Rexxar's will.",
    "spoiler": 0
   },
   {
    "title": "Wilds of Kalimdor",
-   "body": "Currently, travelers venturing along the long tracks through the Stonetalon Mountains, Desolace, and Feralas can spot Misha padding quietly beside Rexxar. Though fierce enough to tear apart any predator foolish enough to threaten them, she remains Rexxar's steadfast anchor in an otherwise untrustworthy world.",
+   "body": "Travelers on the long tracks through the Stonetalon Mountains, Desolace, and Feralas may find Misha padding beside Rexxar. She is fierce enough to tear apart any predator that threatens them. In an untrustworthy world, she remains Rexxar's steadfast anchor.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "who is the bear with rexxar",
     "misha bear"
    ],
-   "answer": "Misha is a ferocious brown bear and the lifelong companion of Rexxar, the Champion of the Horde. She wanders the wilds alongside him across central Kalimdor."
+   "answer": "Misha is Rexxar's lifelong companion, a ferocious brown bear who wanders the wilds beside the Champion of the Horde. They travel together across central Kalimdor."
   },
   {
    "q": "Where can Misha be found right now?",
@@ -43,7 +43,7 @@
     "where is misha",
     "find misha"
    ],
-   "answer": "Misha roams along the long patrol paths of the Stonetalon Mountains, Desolace, and Feralas, faithfully walking alongside Rexxar on his endless wanderings."
+   "answer": "Misha walks beside Rexxar on the long tracks through the Stonetalon Mountains, Desolace, and Feralas."
   },
   {
    "q": "Did Misha take part in the founding of Durotar?",
@@ -52,7 +52,7 @@
     "did misha fight daelin",
     "misha third war"
    ],
-   "answer": "Yes. Following the Third War, Misha accompanied Rexxar into battle against Grand Admiral Daelin Proudmoore's forces at Theramore Isle to defend the fledgling Horde."
+   "answer": "Yes. After the Third War, Misha joined Rexxar in battle against Grand Admiral Daelin Proudmoore's forces at Theramore Isle to defend the fledgling Horde."
   },
   {
    "q": "Is Misha hostile to Alliance players?",
@@ -60,7 +60,7 @@
     "can alliance attack misha",
     "is misha aggressive"
    ],
-   "answer": "Yes. As the companion of the Champion of the Horde, Misha will fiercely defend Rexxar and attack any Alliance trespassers who draw too close."
+   "answer": "Yes. Misha is the companion of the Champion of the Horde, and she fiercely defends Rexxar by attacking Alliance trespassers who draw too close."
   },
   {
    "q": "Why does Rexxar prefer beasts like Misha to people?",
@@ -68,17 +68,17 @@
     "why does rexxar keep beasts",
     "rexxar bear companion"
    ],
-   "answer": "Disillusioned by the deceit and warfare of humanoid races, Rexxar chose the solitude of the wilderness. He believes beasts are direct and honest, finding in Misha a companion devoid of betrayal."
+   "answer": "Disillusioned by the deceit and warfare of humanoid races, Rexxar chose solitude in the wilderness. He believes beasts are direct and honest, and finds in Misha a companion free of betrayal."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "For hunters, Misha represents the ultimate ideal of an animal companion: an unbreakable lifelong partnership forged through mutual respect rather than mere dominance."
+   "text": "As a hunter, you can look to Misha as an ideal animal companion. Their lifelong partnership rests on mutual respect, not mere dominance."
   },
   {
    "target": "faction:Horde",
-   "text": "Misha fought alongside Rexxar to secure the fledgling Horde's freedom at Theramore Isle, earning the quiet respect of veterans across Durotar."
+   "text": "As a member of the Horde, you can remember Misha's fight beside Rexxar to secure the fledgling Horde's freedom at Theramore Isle. Veterans across Durotar quietly respect her."
   }
  ],
  "keywords": [
@@ -101,5 +101,6 @@
  ],
  "attribution": [
   "Misha"
- ]
+ ],
+ "style": 2
 }

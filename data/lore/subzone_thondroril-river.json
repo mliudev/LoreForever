@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Thondroril River"
  },
- "summary": "The Thondroril River is a vital natural boundary separating the Western and Eastern Plaguelands. Originating in the mountains of Northern Lordaeron near the Terrorweb Tunnel, its blighted waters flow southward into Darrowmere Lake. Once a vibrant trade and travel waterway of the fallen kingdom, it is now flanked by monstrous Scourge beasts and the humble refuge of a legendary hermit.",
+ "summary": "At Thondroril River, plague taints the waters between the Western and Eastern Plaguelands. It rises near Terrorweb Tunnel in Northern Lordaeron and flows south into Darrowmere Lake. Once a route for trade and travel through the fallen kingdom, its banks now shelter monstrous Scourge beasts and a legendary hermit.",
  "sections": [
   {
    "title": "A River Cut by Ruin",
-   "body": "Before the fall of Lordaeron, the Thondroril served as an important waterway connecting northern holdings toward Stratholme and south to Darrowmere Lake. Today, the river marks the hazardous divide between the Western and Eastern Plaguelands. The waters carry the taint of the plague, and its banks are infested with giant maggots, plaguebats, diseased bears, and predatory snapjaws, turning what was once a scenic riverbed into a deadly crossing for travelers.",
+   "body": "Before Lordaeron fell, traffic followed Thondroril north toward the kingdom's holdings and south to Darrowmere Lake. Now the river marks a dangerous divide between the Western and Eastern Plaguelands.\n\nPlague taints the water. Giant maggots, plaguebats, diseased bears, and predatory snapjaws infest the banks. Where a scenic riverbed once offered passage, travelers now face a deadly crossing.",
    "spoiler": 0
   },
   {
    "title": "Watchers on the Bank",
-   "body": "Though the wilderness along the Thondroril is harsh and unforgiving, it is not entirely devoid of hope. On the eastern bank, nestled in an unassuming, overgrown homestead, lives the exiled Paladin Tirion Fordring. Stripped of his titles and forced into hiding years ago, the former lord watches the rotting river and the ruin of his homeland from afar, testing the mettle and conscience of adventurers hardy enough to cross the blighted frontier.",
+   "body": "Tirion Fordring lives on the eastern bank in an overgrown homestead. The exiled Paladin lost his titles and went into hiding years ago.\n\nFrom that refuge, the former lord watches the rotting river and the ruin of his homeland. He tests the mettle and conscience of adventurers who cross the blighted frontier.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "where does thondroril flow",
     "source of thondroril"
    ],
-   "answer": "The river rises in the heights of Northern Lordaeron near the entrance of Terrorweb Tunnel, then flows south across the Plaguelands until it empties directly into Darrowmere Lake. Past the lake, the waterway continues south as the Darrowmere River."
+   "answer": "Thondroril River rises in Northern Lordaeron near the entrance to Terrorweb Tunnel. It flows south across the Plaguelands into Darrowmere Lake, then continues south beyond the lake as the Darrowmere River."
   },
   {
    "q": "What dangerous creatures live along the riverbanks?",
@@ -37,7 +37,7 @@
     "thondroril mobs",
     "river threats"
    ],
-   "answer": "The plague has mutated the native wildlife into lethal monstrosities. Travelers regularly encounter devouring maggots, diseased plaguebears, massive vampire bats, crypt spiders, and river snapjaws stalking both banks."
+   "answer": "Giant maggots, diseased bears, plaguebats, crypt spiders, and river snapjaws stalk the banks. Plague has turned native wildlife into lethal creatures."
   },
   {
    "q": "Who is the old man living by the eastern shore?",
@@ -46,7 +46,7 @@
     "old hermit thondroril",
     "thondroril questgiver"
    ],
-   "answer": "The solitary figure in the dilapidated farmhouse on the eastern bank is Tirion Fordring, one of the original Knights of the Silver Hand. Exiled from the Alliance years before the Third War, he lives in quiet seclusion observing the Scourge."
+   "answer": "Tirion Fordring lives in a dilapidated farmhouse on the eastern bank. He was one of the original Knights of the Silver Hand, and the Alliance exiled him years before the Third War. Now he lives in seclusion, watching the Scourge."
   },
   {
    "q": "Why does the river divide the two Plaguelands?",
@@ -54,17 +54,17 @@
     "western vs eastern border",
     "plaguelands boundary"
    ],
-   "answer": "The Thondroril carved a wide natural gorge through central Lordaeron. When the kingdom collapsed into Scourge territory, cartographers and survivors began treating the river as the clear frontier dividing the Western and Eastern Plaguelands."
+   "answer": "Thondroril River forms a wide natural gorge through central Lordaeron. After the Scourge brought down the kingdom, cartographers and survivors came to treat the river as the frontier between the Western and Eastern Plaguelands."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "The Thondroril River's eastern shore shelters Tirion Fordring, a founding father of the Silver Hand whose legacy still echoes despite his exile."
+   "text": "As a Paladin, you can find Tirion Fordring on the river's eastern shore. He helped found the Silver Hand, and his legacy endures despite his exile."
   },
   {
    "target": "profession:Herbalism",
-   "text": "The damp, rotting riverbed nurtures hardy plague-tainted flora such as Sungrass, Arthas' Tears, and Plaguebloom near its murky shores."
+   "text": "Along the damp, rotting riverbed, you can find hardy plague-tainted plants such as Sungrass, Arthas' Tears, and Plaguebloom near the murky shores."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Thondroril River"
- ]
+ ],
+ "style": 2
 }

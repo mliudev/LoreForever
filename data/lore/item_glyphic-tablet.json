@@ -10,11 +10,11 @@
    "quest:3086"
   ]
  },
- "summary": "In the Valley of Trials, Gornek gives the Glyphic Tablet to novice Darkspear troll mages. Its summons sends them to Mai'ah for instruction in arcane magic.",
+ "summary": "In the Valley of Trials, Gornek gives novice Darkspear troll mages the Glyphic Tablet. Its summons sends them to Mai'ah for instruction in arcane magic.",
  "sections": [
   {
    "title": "A Mage's First Summons",
-   "body": "New Darkspear initiates with an affinity for arcane power receive the Glyphic Tablet in the Valley of Trials. Gornek passes it to young recruits as they handle early tasks around the red canyons. On the slate, Mai'ah, a seasoned troll mage outside the Den, invites them to meet her. The Darkspear follow arcane traditions unlike the scholarly academies of humans or high elves. Mai'ah offers instruction and a solemn warning: raw magic corrupts and deceives, and its dangers to a mage's mind exceed those of any enemy soldier.",
+   "body": "Darkspear recruits with an affinity for arcane power receive the Glyphic Tablet in the Valley of Trials. Gornek hands it to young mages as they handle early tasks around the red canyons. On the slate, Mai'ah, a seasoned troll mage outside the Den, invites them to meet her.\n\nThe Darkspear follow arcane traditions unlike the scholarly academies of humans or high elves. Mai'ah offers instruction and a solemn warning. Raw magic corrupts and deceives, and its dangers to a mage's mind exceed those of any enemy soldier.",
    "spoiler": 0
   }
  ],
@@ -50,7 +50,7 @@
     "can orcs get glyphic tablet",
     "is glyphic tablet troll only"
    ],
-   "answer": "Troll mages receive the Glyphic Tablet in the Valley of Trials. Orc mages receive a Glyphic Parchment summoning them to Mai'ah."
+   "answer": "Troll mages receive the Glyphic Tablet in the Valley of Trials. Orc mages receive a Glyphic Parchment that summons them to Mai'ah."
   }
  ],
  "angles": [
@@ -86,5 +86,5 @@
   "Glyphic Tablet",
   "Glyphic Tablet (quest)"
  ],
- "style": 1
+ "style": 2
 }

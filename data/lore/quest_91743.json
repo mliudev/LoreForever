@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "race:Human",
-   "text": "Human initiates beginning their training in Northshire Valley are called upon to defend the abbey's treasures and scholarly works from opportunistic pests and invaders."
+   "text": "As a human initiate training in Northshire Valley, you help defend the abbey’s treasures and books from pests and invaders."
   },
   {
    "target": "class:Priest",
-   "text": "Priests aiding the Abbey of Northshire help maintain the sanctity and intellectual heritage of the Holy Light's scholars, protecting valuable texts from destruction."
+   "text": "As a priest aiding the Abbey of Northshire, you help protect the Holy Light’s scholars and their books from destruction."
   },
   {
    "target": "class:Mage",
-   "text": "Scholars of the arcane understand the irreplaceable value of written knowledge and written works, even when under threat from unlikely thieves like kobolds."
+   "text": "As a mage, you know written knowledge is precious, even when kobolds threaten it."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "quest giver rascally rodents",
     "paxton book quest"
    ],
-   "answer": "Brother Paxton, an abbey resident who is desperate to safeguard the abbey's library from the vermin infesting the valley, offers this task to adventurers in Northshire Valley.",
+   "answer": "Brother Paxton, a resident of the abbey in Northshire Valley, asks for help protecting its library from the kobolds.",
    "q": "Who gives the quest Rascally Rodents?"
   },
   {
@@ -41,7 +41,7 @@
     "do kobolds eat books",
     "why do kobolds want books"
    ],
-   "answer": "Brother Paxton initially believes the kobolds are literally eating his books. However, upon inspecting the recovered volumes, he realizes they are not being devoured at all, leaving their true purpose and interest in the texts an unsettling mystery.",
+   "answer": "Brother Paxton thinks the kobolds are eating his books, but the recovered volumes are untouched. Why the kobolds take and hoard them remains unknown.",
    "q": "Why are the kobolds stealing books?"
   },
   {
@@ -50,7 +50,7 @@
     "stolen books location",
     "kobold books northshire"
    ],
-   "answer": "The Stolen Books are found on the kobolds infesting Northshire Valley, who have pillaged the texts from the local collection and carried them into their camps and mine workings.",
+   "answer": "You find the Stolen Books among the kobolds in Northshire Valley, in their camps and mine workings.",
    "q": "Where do you find the Stolen Books?"
   },
   {
@@ -58,7 +58,7 @@
     "who is brother paxton",
     "brother paxton lore"
    ],
-   "answer": "Brother Paxton is a member of the Northshire brotherhood who cares deeply for the written works housed in the valley and depends on passing initiates to rescue them from local scavengers.",
+   "answer": "Brother Paxton belongs to the Northshire brotherhood and cares deeply for the abbey’s books. He relies on passing initiates to recover them from scavengers.",
    "q": "Who is Brother Paxton?"
   },
   {
@@ -66,7 +66,7 @@
     "what reward paxton gives",
     "how to book reward"
    ],
-   "answer": "Upon returning eight of the stolen volumes, Brother Paxton gratefully gives you one of his how-to books that he claims he has no need for, while lamenting the many volumes that remain missing.",
+   "answer": "When you return eight stolen volumes, Brother Paxton gives you one of his how-to books, which he says he does not need. Many volumes remain missing.",
    "q": "What does Brother Paxton give you as a reward?"
   },
   {
@@ -74,7 +74,7 @@
     "are all books recovered",
     "are all books saved"
    ],
-   "answer": "No. Even after recovering eight stolen books, Brother Paxton notes that many volumes remain missing throughout the valley, with the kobolds' strange interest in them still unexplained.",
+   "answer": "No. Brother Paxton says many volumes are still missing from the valley, and the kobolds’ interest in them remains unexplained.",
    "q": "Are all the stolen books recovered?"
   }
  ],
@@ -94,18 +94,19 @@
  ],
  "sections": [
   {
-   "body": "Brother Paxton in Northshire Valley is in distress over the local kobold infestation, which has spilled over from the surrounding hills and mines into the sacred grounds. Convinced that the ravenous creatures have begun devouring the texts from his collection, he enlists the aid of young adventurers to hunt down the vermin and salvage whatever volumes remain before the entire library is lost.",
+   "body": "Brother Paxton fears the kobolds that have spread from the hills and mines into Northshire Valley’s sacred grounds. He believes they are devouring books from his collection. With the library at risk, he asks young adventurers to hunt the kobolds and recover whatever volumes they can.",
    "spoiler": 0,
    "title": "A Threat to the Library"
   },
   {
-   "body": "Upon retrieving eight stolen volumes from the valley's kobolds, Brother Paxton discovers something unexpected: the creatures have not actually been eating the paper or bindings. Instead, the kobolds are deliberately taking and hoarding the books for reasons unknown, leaving the brother deeply unsettled as many volumes remain unaccounted for in the valley.",
+   "body": "Brother Paxton finds that the eight recovered volumes have not been eaten. The kobolds took and hoarded the books for reasons he cannot explain. Many volumes are still missing from the valley, and their strange interest in the books leaves him unsettled.",
    "spoiler": 1,
    "title": "An Unexplained Appetite"
   }
  ],
- "summary": "Rascally Rodents is a quest in Northshire Valley where Brother Paxton tasks adventurers with recovering stolen books from the local kobolds. Though Paxton initially fears the vermin are devouring his library, retrieving the texts reveals an unsettling mystery behind the creatures' motives.",
+ "summary": "Kobolds are carrying books away from Brother Paxton’s library in Northshire Valley. He fears they are devouring the abbey’s collection.",
  "attribution": [
   "In-game quest text: Rascally Rodents"
- ]
+ ],
+ "style": 2
 }

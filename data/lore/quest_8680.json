@@ -17,16 +17,16 @@
   "wiki": "Windtotem the Elder",
   "chain": []
  },
- "summary": "During the Lunar Festival, Windtotem the Elder receives travelers on a bluff above Ratchet. She welcomes those who honor the wisdom of ages past and offers an ancestral blessing and guidance to other elders across Kalimdor.",
+ "summary": "During the Lunar Festival, travelers find Windtotem the Elder on a bluff above Ratchet. She welcomes those who honor the wisdom of ages past and offers an ancestral blessing and guidance to elders across Kalimdor.",
  "sections": [
   {
    "title": "A Vigil Over the Bay",
-   "body": "On a grassy hill just northwest of Ratchet’s flight master, Windtotem the Elder watches over the goblin docks and open sea. Iron, gunpowder, and coin pass through the harbor below, while quiet Barrens winds and a shaft of celestial light reach the elder.",
+   "body": "From a grassy hill northwest of Ratchet’s flight master, Windtotem the Elder watches the goblin docks and the open sea. Iron, gunpowder, and coin pass through the harbor below. Above it all, the Barrens winds blow quietly beneath a shaft of celestial light.",
    "spoiler": 0
   },
   {
    "title": "Wisdom Across the Barrens",
-   "body": "During the Lunar Festival, Windtotem the Elder guides wandering mortals, as do the other ancestral spirits. Those who seek her receive her blessing and a token of her favor, along with whispers pointing to nearby elders across the continent, including Elder Runetotem and Elder Bloodhoof.",
+   "body": "During the Lunar Festival, Windtotem the Elder guides wandering mortals, as do the other ancestral spirits. Those who seek her receive her blessing and a token of her favor. She also whispers the way to nearby elders across the continent, including Elder Runetotem and Elder Bloodhoof.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is windtotem",
     "elder windtotem ratchet map"
    ],
-   "answer": "Windtotem the Elder stands on a hill just northwest of Ratchet’s flight master, overlooking the harbor in the Barrens."
+   "answer": "Windtotem the Elder stands on a hill northwest of Ratchet’s flight master, overlooking the harbor in the Barrens."
   },
   {
    "q": "What is the purpose of seeking out Elder Windtotem?",
@@ -47,7 +47,7 @@
     "windtotem elder purpose",
     "what does windtotem do"
    ],
-   "answer": "During the Lunar Festival, travelers seek Windtotem the Elder to honor an ancestor. She grants you a Coin of Ancestry and tells you where to find other spirits across the land."
+   "answer": "During the Lunar Festival, travelers seek Windtotem the Elder to honor an ancestor. She gives you a Coin of Ancestry and points you toward other spirits across the land."
   },
   {
    "q": "Why is there a beam of light shining down on her?",
@@ -56,7 +56,7 @@
     "why is windtotem glowing",
     "light shining on elder"
    ],
-   "answer": "The Lunar Festival’s manifested ancestors each stand in a distinct pillar of celestial moonlight, marking their presence between the ancestral realm and the living world."
+   "answer": "The Lunar Festival’s manifested ancestors each stand in a distinct pillar of celestial moonlight. The light marks their presence between the ancestral realm and the living world."
   },
   {
    "q": "Can Alliance and Horde players both speak to Elder Windtotem?",
@@ -73,7 +73,7 @@
     "elders windtotem mentions",
     "who does windtotem point to"
    ],
-   "answer": "Windtotem the Elder gives guidance about nearby ancestors, including Elder Bloodhoof, Elder Runetotem, Elder Morningdew, Elder Darkhorn, Elder High Mountain, Elder Moonwarden, and Elder Proudhorn."
+   "answer": "Windtotem the Elder points you toward nearby ancestors, including Elder Bloodhoof, Elder Runetotem, Elder Morningdew, Elder Darkhorn, Elder High Mountain, Elder Moonwarden, and Elder Proudhorn."
   },
   {
    "q": "What happens when you complete homage to the elder?",
@@ -81,17 +81,17 @@
     "elder windtotem turn in",
     "what does elder windtotem say"
    ],
-   "answer": "When you approach and honor Windtotem the Elder, she praises your spirit for burning brightly with life, accepts your respect, and gives you a Coin of Ancestry."
+   "answer": "When you approach and honor Windtotem the Elder, she praises your spirit for burning brightly with life. She accepts your respect and gives you a Coin of Ancestry."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you honor an ancestor of the ancient Windtotem lineage above the goblin harbor, connecting you to the ancestral memory of the plains."
+   "text": "As a tauren, you honor an ancestor of the ancient Windtotem lineage above the goblin harbor. This connects you to the ancestral memory of the plains."
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you share in the Lunar Festival’s celebration of communion with the natural and celestial cycles guarded by the Cenarion Circle."
+   "text": "As a druid, you share in the Lunar Festival’s celebration of communion with natural and celestial cycles guarded by the Cenarion Circle."
   },
   {
    "target": "class:Shaman",
@@ -118,5 +118,5 @@
  "attribution": [
   "Windtotem the Elder"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Skyborne"
  },
- "summary": "The Skyborne, or shen'dorei, are an offshoot of high elves descended from rebels who fled Eldre'Thalas after opposing Prince Tortheldrin's demonic pacts. Striking a desperate bargain with wind spirits, their ancestors escaped Azeroth to dwell atop the floating Zephras Isle within Skywall. Today, with their elemental benefactors abruptly gone, their floating sanctuary faces internal fractures and physical collapse.",
+ "summary": "In Skywall, the Skyborne face a failing refuge and the loss of those who once guarded it. Their ancestors, high elves descended from night elves, fled Eldre'Thalas after resisting Prince Tortheldrin's demonic pacts. A bargain with wind spirits carried them to Zephras Isle, but now the spirits are gone and the island is breaking apart.",
  "sections": [
   {
    "title": "Flight from Eldre'Thalas",
-   "body": "Following the Sundering, the Shen'dralar of Eldre'Thalas languished without the Well of Eternity. Prince Tortheldrin devised a dark salvation: summon the demon Immol'thar and siphon its power. Horrified nobles and citizens resisted, fearing another Legion invasion. In response, Tortheldrin executed a bloody purge of dozens of houses. From the surviving shadows rose a resistance spearheaded by a masked figure known only as the Shal'nan ('the Veiled One'). When a desperate rebel raid on Tortheldrin's ritual sanctum descended into catastrophic chaotic magic, the Shal'nan rallied the survivors and fled west to the port of Eldre'narr, taking to the seas pursued by the Prince's fleet.",
+   "body": "After the Sundering, the Shen'dralar of Eldre'Thalas struggled without the Well of Eternity. Prince Tortheldrin sought salvation by summoning the demon Immol'thar and draining its power. Nobles and citizens feared another Legion invasion, so they resisted. Tortheldrin answered with a purge that killed dozens of houses.\n\nSurvivors rallied behind a masked figure called the Shal'nan, or the Veiled One. A desperate raid on Tortheldrin's ritual sanctum unleashed chaotic magic. The Shal'nan gathered the survivors and led them west to the port of Eldre'narr. They took to the sea as the Prince's fleet pursued them.",
    "spoiler": 0
   },
   {
    "title": "Sanctuary in the Sky",
-   "body": "Cornered on the open ocean, the exiles forged a pact with primordial wind spirits. These beings lifted Zephras Isle straight into the skies, anchoring it safely within Skywall\u2014the Elemental Plane of Air. Relieved of absolute rule, the Shal'nan stepped down during the consecration of the Shrine of the Four Winds, placing governance in the hands of an elected council. Over millennia in this alien realm, the night elf exiles evolved into fair, slender high elves. In recent generations, an elemental influence known as the Sky-Touched Blessing has emerged, causing a growing number of children to be born with pale blue skin.",
+   "body": "At sea, the exiles found themselves cornered, so they made a pact with primordial wind spirits. The spirits lifted Zephras Isle into the sky and anchored it in Skywall, the Elemental Plane of Air. During the Shrine of the Four Winds' consecration, the Shal'nan gave up absolute rule and entrusted governance to an elected council.\n\nOver millennia in this strange realm, the night elf exiles became fair, slender high elves. In recent generations, more children have been born with pale blue skin through the Sky-Touched Blessing.",
    "spoiler": 0
   },
   {
    "title": "A Shattering Calm",
-   "body": "For centuries, life in Skywall flourished in isolation. The wind spirits strictly forbade mention of the Windlord, Al'Akir, brushing off questions with eerie unease. A few centuries ago, catastrophe struck: the elemental benefactors vanished without explanation, and the Shal'nan disappeared along with them. Deprived of their caretakers, the arcane pylons anchoring Zephras Isle began failing. Outlying landmasses broke away, refugees flooded what remained, and desperation fueled the rise of bandits and the Al'Aketh\u2014a fanatical cult dedicated to Al'Akir. Today, society fractures between the High Order, who seek salvation in reclaiming ancestral arcane magic, and the Windshapers, who cling to elemental rites.",
+   "body": "For centuries, the Skyborne lived in isolation. The wind spirits forbade them to speak of the Windlord, Al'Akir, and questions about him met only eerie unease. Then, a few centuries ago, the spirits vanished without explanation, and the Shal'nan disappeared with them.\n\nWithout their caretakers, the arcane pylons holding Zephras Isle aloft began to fail. Outlying landmasses broke away, refugees crowded the remaining isle, and desperation gave rise to bandits and the Al'Aketh, a fanatical cult devoted to Al'Akir. Now the High Order seeks salvation by reclaiming ancestral arcane magic, while the Windshapers hold to elemental rites.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "shendorei",
     "skyborne lore"
    ],
-   "answer": "The Skyborne, or shen'dorei ('the hidden people'), are high elves descended from ancient night elves who rebelled against Prince Tortheldrin in Eldre'Thalas. To escape his vengeful fleet, they struck a pact with wind spirits, who relocated their island, Zephras Isle, into the Elemental Plane of Air."
+   "answer": "The skyborne, or shen'dorei, are high elves descended from ancient night elves who rebelled against Prince Tortheldrin in Eldre'Thalas. Their name means the hidden people. To escape his vengeful fleet, they struck a pact with wind spirits, who carried their island, Zephras Isle, into Skywall, the Elemental Plane of Air."
   },
   {
    "q": "Why do some Skyborne have blue skin?",
@@ -44,7 +44,7 @@
     "blue elves",
     "sky touched"
    ],
-   "answer": "Millennia in the Elemental Plane of Air have subtly reshaped their biology. A recent phenomenon known as the Sky-Touched Blessing causes an increasing proportion of children\u2014now roughly three out of ten\u2014to be born with blue skin. Scholars predict their ancestral night elf traits will soon be entirely supplanted."
+   "answer": "Millennia in the Elemental Plane of Air changed the Skyborne. Through the Sky-Touched Blessing, roughly three out of ten children are now born with blue skin. Scholars predict their ancestral night elf traits will soon be entirely supplanted."
   },
   {
    "q": "Who was the Shal'nan?",
@@ -54,7 +54,7 @@
     "the masked rebel",
     "leader of skyborne"
    ],
-   "answer": "The Shal'nan, or 'the Veiled One', was the masked leader who spearheaded the resistance against Prince Tortheldrin's demon summoning in Eldre'Thalas. After leading the survivors to safety in Skywall, he abdicated to establish a democratic council, serving his people until mysteriously vanishing centuries ago alongside their elemental benefactors."
+   "answer": "The Shal'nan, or the Veiled One, was the masked leader of the resistance against Prince Tortheldrin's demon summoning in Eldre'Thalas. After leading survivors to safety in Skywall, the Shal'nan surrendered absolute rule for an elected council and served the Skyborne until disappearing centuries ago with their elemental benefactors."
   },
   {
    "q": "What is happening to Zephras Isle?",
@@ -63,7 +63,7 @@
     "zephras falling",
     "what happened to skywall island"
    ],
-   "answer": "Zephras Isle is held aloft within Skywall by magical pylons attuned to elemental power. When the wind spirits who maintained them abruptly disappeared centuries ago, the anchoring pylons began to fail. Portions of the landmass have broken off into the void, stranding survivors and driving displaced elves to banditry."
+   "answer": "Zephras Isle remains aloft in Skywall on magical pylons attuned to elemental power. After the wind spirits who maintained them vanished centuries ago, the pylons began to fail. Parts of the isle broke away into the void, stranding survivors and driving displaced elves to banditry."
   },
   {
    "q": "What are the High Order and the Windshapers?",
@@ -72,7 +72,7 @@
     "high order vs windshapers",
     "windshaper lore"
    ],
-   "answer": "They are the two primary cultural factions of the Skyborne. The High Order descends from Highborne magisters and seeks to rebuild their crumbling society through disciplined arcane mastery. The Windshapers trace their roots to ordinary night elf citizens and revere the elemental and spiritual customs cultivated during their time in Skywall."
+   "answer": "The High Order and the Windshapers are the Skyborne's two main cultural factions. The High Order descends from Highborne magisters and seeks to rebuild society through disciplined arcane mastery. The Windshapers trace their roots to ordinary night elf citizens and honor the elemental and spiritual customs they developed in Skywall."
   },
   {
    "q": "Who are the Al'Aketh?",
@@ -81,21 +81,21 @@
     "cult of al'akir",
     "skyborne cult"
    ],
-   "answer": "The Al'Aketh are a desperate cult of Skyborne who worship Al'Akir the Windlord. While their ancestors' elemental benefactors feared and avoided speaking of Al'Akir, the collapse of Zephras Isle led homeless and disenfranchised refugees to turn to the elemental lord for salvation and power."
+   "answer": "The Al'Aketh are Skyborne who worship Al'Akir the Windlord. Their ancestors' elemental benefactors feared and avoided speaking of Al'Akir. After Zephras Isle began to collapse, homeless and disenfranchised refugees turned to him for salvation and power."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The Skyborne share direct bloodlines with the ancient Shen'dralar and northern night elves, though millennia in Skywall have physically altered them into high elves with an increasing prevalence of elemental blue skin."
+   "text": "As a night elf, you share bloodlines with the ancient Shen'dralar and northern night elves. Millennia in Skywall changed the Skyborne into high elves, and more of their children are now born with elemental blue skin."
   },
   {
    "target": "class:Mage",
-   "text": "The High Order among the Skyborne preserves ancient Highborne spellcraft brought out of Eldre'Thalas, seeking to salvage their crumbling island through rigorous arcane mastery."
+   "text": "Among the Skyborne, the High Order preserves ancient Highborne spellcraft carried out of Eldre'Thalas. Its members seek to save their crumbling island through rigorous arcane mastery."
   },
   {
    "target": "class:Shaman",
-   "text": "The Windshapers represent an elven lineage deeply intertwined with the wind spirits of Skywall, relying on elemental communion rather than the arcane traditions of their Highborne forebears."
+   "text": "Among the Skyborne, the Windshapers follow an elven lineage closely tied to Skywall's wind spirits. They rely on communion with the elements rather than the arcane traditions of their Highborne forebears."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Skyborne"
- ]
+ ],
+ "style": 2
 }

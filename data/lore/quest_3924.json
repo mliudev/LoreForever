@@ -21,12 +21,12 @@
  "sections": [
   {
    "title": "Corporate Rivalries and Trade Secrets",
-   "body": "Rilli Greasygob once worked beside Boss Copperplug in the Venture Company. Copperplug oversaw the samophlange’s inner workings and guarded their secrets closely. He shared no manual with Rilli. Instead, he gave out separate pages only to underlings he trusted, leaving his fellow engineer without the knowledge to understand the device.",
+   "body": "Rilli Greasygob once worked beside Boss Copperplug in the Venture Company. Copperplug oversaw the samophlange’s inner workings and guarded their secrets closely. He gave Rilli no manual. Instead, Copperplug handed separate pages only to underlings he trusted, leaving his fellow engineer without the knowledge to understand the device.",
    "spoiler": 0
   },
   {
    "title": "Infiltration of Boulder Lode",
-   "body": "Rilli sends you to Boulder Lode Mine in the northeastern Barrens to find the instructions for the contraption brought from there. Boss Copperplug is somewhere in the mine, and pages he handed out are scattered among its operations. You need to gather them and piece together a complete guide to repairing the device.",
+   "body": "Rilli sends you to Boulder Lode Mine in the northeastern Barrens for the instructions to the contraption brought from there. Boss Copperplug is somewhere in the mine, and the pages he handed out are scattered among its operations. You need to gather them and piece together a complete guide to repairing the device.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "samophlange manual item",
     "user manual"
    ],
-   "answer": "The Samophlange Manual explains the device’s mechanics and how to repair it. The Venture Company uses the complex, eccentric machine."
+   "answer": "The Samophlange Manual explains the device’s mechanics and how to repair it. The Venture Company uses this complex, eccentric machine."
   },
   {
    "q": "Who is Boss Copperplug?",
@@ -64,7 +64,7 @@
     "why rilli wants manual",
     "why fix samophlange"
    ],
-   "answer": "Rilli believes he can repair and operate the broken samophlange brought from the Barrens, but its convoluted design calls for the official instructions."
+   "answer": "Rilli believes he can repair and operate the broken samophlange brought from the Barrens. Its convoluted design calls for the official instructions."
   },
   {
    "q": "How does Sputtervalve fit into this task?",
@@ -86,7 +86,7 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can appreciate how goblins guard corporate inventions: they tear complex schematics apart and hoard the pieces so colleagues cannot copy them."
+   "text": "As an engineer, you can see how goblins guard corporate inventions. They tear complex schematics apart and hoard the pieces so colleagues cannot copy them."
   },
   {
    "target": "faction:Horde",
@@ -116,5 +116,5 @@
  "attribution": [
   "Samophlange Manual (quest)"
  ],
- "style": 1
+ "style": 2
 }

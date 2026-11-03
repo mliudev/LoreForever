@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Night Watch"
  },
- "summary": "In Duskwood, the Night Watch holds Darkshire and the forest roads against rising threats. Abandoned by Stormwind's House of Nobles, the local volunteers face undead, feral worgen, and necromancy with Commander Althea Ebonlocke at their head. They depend heavily on travelers to defend their home.",
+ "summary": "In Duskwood, the Night Watch holds Darkshire and the forest roads against rising threats. Stormwind's House of Nobles has left the volunteers to face undead, feral worgen, and necromancy under Commander Althea Ebonlocke. They rely on travelers to defend their home.",
  "sections": [
   {
    "title": "Abandoned by the Crown",
-   "body": "Stormwind withdrew its royal garrison after foul magic consumed the Grand Hamlet and changed the forest into Duskwood. King Varian Wrynn had disappeared, and the troops were recalled to the capital. Left without royal soldiers or supplies, Darkshire's townsfolk formed the Night Watch. They swore to defend Darkshire's borders against the horrors creeping out of the woods.",
+   "body": "Stormwind withdrew its royal garrison after foul magic consumed the Grand Hamlet and changed the forest into Duskwood. King Varian Wrynn had disappeared, so the troops were recalled to the capital. Darkshire's townsfolk were left without royal soldiers or supplies. They formed the Night Watch and swore to defend the borders from horrors creeping out of the woods.",
    "spoiler": 0
   },
   {
    "title": "A Frontline in the Mist",
-   "body": "From its headquarters in Darkshire, the Night Watch patrols roads buried in unnatural mist. Skeletal fiends and ghouls emerge from Raven Hill and Tranquil Gardens cemeteries, while feral worgen prowl Roland's Doom and Brightwood Grove. The militia is badly outnumbered and short of resources, and many of its finest defenders have fallen to threats such as Mor'Ladim, the wandering skeletal warrior.",
+   "body": "From its headquarters in Darkshire, the Night Watch patrols roads buried in unnatural mist. Skeletal fiends and ghouls rise from Raven Hill and Tranquil Gardens cemeteries. Feral worgen prowl Roland's Doom and Brightwood Grove. The militia is badly outnumbered and short of resources, and many of its finest defenders have fallen to threats like Mor'Ladim, the wandering skeletal warrior.",
    "spoiler": 0
   },
   {
    "title": "The Vigil of Commander Ebonlocke",
-   "body": "Commander Althea Ebonlocke, daughter of Darkshire's mayor, directs the defense with grim pragmatism. With no veteran reinforcements, she enlists capable travelers to thin skeletal legions, cull starving wolf packs, and investigate mysterious local murders. The Night Watch is the last barrier protecting human life in the region. If its lines break, Darkshire will fall into shadow.",
+   "body": "Commander Althea Ebonlocke, daughter of Darkshire's mayor, directs the defense with grim resolve. With no veteran reinforcements, she calls on capable travelers to thin skeletal legions, cull starving wolf packs, and investigate mysterious local murders. The Night Watch is the last barrier protecting human life in the region. If its lines break, Darkshire will fall into shadow.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "night watch commander",
     "who is in charge of darkshire watch"
    ],
-   "answer": "Commander Althea Ebonlocke leads the Night Watch from its office in Darkshire. She is the daughter of Mayor Lord Ello Ebonlocke and organizes road patrols, bounties, and defenses across Duskwood."
+   "answer": "Commander Althea Ebonlocke leads the Night Watch from its office in Darkshire. Daughter of Mayor Lord Ello Ebonlocke, she organizes road patrols, bounties, and defenses across Duskwood."
   },
   {
    "q": "What threats does the Night Watch fight most often?",
@@ -84,15 +84,15 @@
  "angles": [
   {
    "target": "race:Human",
-   "text": "As a human of the kingdom, you can see how Stormwind's noble court has left fellow citizens to face death in the shadows."
+   "text": "As a human of the kingdom, you see how Stormwind's noble court has left fellow citizens to face death in the shadows."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance hero in Darkshire, you find a frontline community defending the border against nightmarish forces without official aid from the high command."
+   "text": "As an Alliance hero in Darkshire, you find a frontline community defending the border against nightmarish forces without aid from the high command."
   },
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you can answer the Night Watch's desperate vigil with holy magic, shielding ordinary townsfolk from rampant necromancy."
+   "text": "As a paladin, you can answer the Night Watch's desperate vigil with holy magic and shield ordinary townsfolk from rampant necromancy."
   },
   {
    "target": "class:Warrior",
@@ -123,5 +123,5 @@
  "attribution": [
   "Night Watch"
  ],
- "style": 1
+ "style": 2
 }

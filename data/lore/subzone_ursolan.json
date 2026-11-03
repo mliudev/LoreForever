@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Ursolan"
  },
- "summary": "Ursolan is a sprawling Timbermaw furbolg settlement situated in western Azshara, just east of Timbermaw Hold. Bisected by a deep ravine, the encampment honors the bear Ancient Ursol and serves as a vital stronghold for uncorrupted furbolgs defending their territory from outside incursions.",
+ "summary": "In western Azshara, Ursolan shelters the Timbermaw furbolgs east of Timbermaw Hold. Its ravine cuts through a stronghold named for the bear Ancient Ursol, where uncorrupted furbolgs defend their ground.",
  "sections": [
   {
    "title": "Bastion of the Bear",
-   "body": "Perched on the rugged bluffs of western Azshara, Ursolan constitutes the eastern branch of the Timbermaw tribe's domain, connecting directly through Timbermaw Hold to Bear's Head in the south. Named after the revered bear Ancient Ursol, this camp represents a rare haven of sanity among Kalimdor's furbolg populations, which have largely fallen victim to demonic corruption. The village spans both rims of a dramatic earthen chasm, where the Timbermaw vigilantly guard their borders against encroaching interlopers, including intrusive researchers from the night elven camp of Talrendis.",
+   "body": "Across a deep ravine in western Azshara, Ursolan climbs both rims. The Timbermaw hold this eastern branch of their territory. Through Timbermaw Hold, it links to Bear's Head in the south.\n\nThe camp takes its name from the bear Ancient Ursol. Here, furbolgs who have resisted the demonic corruption consuming many of their kin across Kalimdor have found a haven. They guard their borders against outsiders, including researchers from the night elven camp of Talrendis.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "ursolan inhabitants",
     "ursolan furbolgs"
    ],
-   "answer": "Ursolan is inhabited by the Timbermaw furbolgs, one of the last remaining tribes of furbolgs that has managed to resist the demonic corruption plaguing Kalimdor."
+   "answer": "The Timbermaw furbolgs live in Ursolan. Their tribe is among the few in Kalimdor to resist demonic corruption."
   },
   {
    "q": "Why is this area called Ursolan?",
@@ -32,7 +32,7 @@
     "who is ursolan named after",
     "meaning of ursolan"
    ],
-   "answer": "The settlement is named in honor of Ursol, one of the twin bear demigods deeply venerated by the furbolg race."
+   "answer": "Ursolan honors Ursol, one of the twin bear demigods the furbolgs revere."
   },
   {
    "q": "What is the deep gorge running through the camp?",
@@ -41,7 +41,7 @@
     "ravine in ursolan",
     "chasm ursolan"
    ],
-   "answer": "Ursolan is split by a deep scar in the earth. Down within this ravine, Talrendis biologists from the nearby night elven encampment can often be found conducting field studies."
+   "answer": "A deep ravine cuts through Ursolan. Talrendis biologists from the nearby night elven camp often conduct field studies there."
   },
   {
    "q": "How does Ursolan connect to the rest of the Timbermaw territory?",
@@ -49,17 +49,17 @@
     "ursolan connection",
     "how to get to timbermaw hold from ursolan"
    ],
-   "answer": "Ursolan sits directly east of the Azshara entrance to Timbermaw Hold, linking their northern presence through the mountain tunnels down to Bear's Head in the south."
+   "answer": "Ursolan lies just east of the Azshara entrance to Timbermaw Hold. Mountain tunnels link the Timbermaw's northern presence to Bear's Head in the south."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Druids hold profound respect for the patrons of Ursolan, as the twin bear Ancients Ursol and Ursoc are central figures in nature worship and bear form mastery."
+   "text": "As a druid, you can recognize how Ursolan's people revere the twin bear Ancients, Ursol and Ursoc. Both are central to nature worship and mastery of bear form."
   },
   {
    "target": "race:NightElf",
-   "text": "Although night elves revere the bear Ancients, tensions exist on the ground, evidenced by the Talrendis researchers examining the ravine under the wary eyes of the furbolgs."
+   "text": "As a night elf, you revere the bear Ancients, yet tensions mark this ground. Talrendis researchers study the ravine under the furbolgs' wary eyes."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Ursolan"
- ]
+ ],
+ "style": 2
 }

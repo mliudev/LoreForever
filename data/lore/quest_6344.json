@@ -22,11 +22,11 @@
    "Return to Nessa"
   ]
  },
- "summary": "In Darnassus, Mydrannul sends a courier to meet Nessa Shadowsong below the World Tree. The delivery runs from Rut'theran Village to Darkshore, linking the canopy city with the shore.",
+ "summary": "Below the World Tree in Darnassus, Mydrannul sends a courier to meet Nessa Shadowsong. The delivery runs from Rut'theran Village to Darkshore, linking the city in the canopy with the shore.",
  "sections": [
   {
    "title": "A Errand Beyond the Canopy",
-   "body": "Mydrannul watches over travelers seeking work and purpose in Darnassus. Fishing merchant Nessa Shadowsong needs a package carried across the sea to Darkshore, so Mydrannul directs able couriers toward the coast. Many young night elves begin their journeys among Teldrassil's boughs; this delivery takes them beyond the tree.",
+   "body": "In Darnassus, Mydrannul watches over travelers looking for work and purpose. Fishing merchant Nessa Shadowsong needs a package carried across the sea to Darkshore, so Mydrannul sends capable couriers toward the coast. Many young night elves begin their journeys among Teldrassil's boughs. This delivery takes them beyond the tree.",
    "spoiler": 0
   },
   {
@@ -61,7 +61,7 @@
     "what does nessa do",
     "nessa shadowsong npc"
    ],
-   "answer": "Nessa Shadowsong is a fishing supplier at the docks of Rut'theran Village. She oversees goods and parcels moving between Teldrassil and Darkshore."
+   "answer": "Nessa Shadowsong supplies fishing goods at the docks of Rut'theran Village. She oversees goods and parcels moving between Teldrassil and Darkshore."
   },
   {
    "q": "Where does this quest chain lead?",
@@ -70,7 +70,7 @@
     "next quest in chain",
     "teldrassil flight chain"
    ],
-   "answer": "Speaking with Nessa leads to 'The Bounty of Teldrassil'. It introduces the flight master and provides your first flight across the water to Auberdine."
+   "answer": "Speaking with Nessa leads to 'The Bounty of Teldrassil'. It introduces the flight master and gives you your first flight across the water to Auberdine."
   },
   {
    "q": "Is Nessa related to Maiev Shadowsong?",
@@ -87,13 +87,13 @@
     "why do this quest",
     "significance of quest"
    ],
-   "answer": "This journey teaches young adventurers how to leave the crown of Teldrassil, reach the docks below, and use hippogryph flight paths to reach mainland Kalimdor."
+   "answer": "This journey teaches young adventurers how to leave Teldrassil's crown, reach the docks below, and use hippogryph flight paths to reach mainland Kalimdor."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you leave Darnassus's heights for the coastal routes linking your home with Darkshore's ancient shores."
+   "text": "As a night elf, you leave Darnassus's heights for the coastal routes that link your home with Darkshore's ancient shores."
   },
   {
    "target": "faction:Alliance",
@@ -124,5 +124,5 @@
  "attribution": [
   "Nessa Shadowsong (quest)"
  ],
- "style": 1
+ "style": 2
 }

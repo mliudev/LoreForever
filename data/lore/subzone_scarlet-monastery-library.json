@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Scarlet Monastery Library"
  },
- "summary": "The Library is the eastern wing of the Scarlet Monastery in Tirisfal Glades, once dedicated to holy scholarship and Lordaeron's priesthood. Now guarded by battle hounds and zealots, it houses ancient archives and rare tomes fiercely coveted by scholars and mages from both factions.",
+ "summary": "In Tirisfal Glades, scholars and mages seek Lordaeron's old religious and arcane records in the Scarlet Monastery Library. Crusade zealots and battle hounds patrol its halls.",
  "sections": [
   {
    "title": "Archives of Lordaeron",
-   "body": "Before the Third War, the monastery served as a center for learning and enlightenment for Lordaeron's priesthood. The eastern cloisters housed vast archives of religious thought, historical records, and arcane treatises. When the Scarlet Crusade fortified the monastery against the Scourge, they retained these repositories, turning the quiet halls into an armed redoubt. Today, beastmasters run tracking hounds through the courtyards while battle-mages patrol the shelves, guarding historic volumes like the Compendium of the Fallen and ancient research on the Titans against outsiders.",
+   "body": "Before the Third War, Lordaeron's priesthood came to the monastery to study. Its eastern cloisters held religious writings, histories, and arcane treatises. Then the Scarlet Crusade fortified the monastery against the Scourge. They kept the archives and armed the quiet halls.\n\nNow beastmasters send tracking hounds through the courtyards, while battle-mages patrol the shelves. They guard the Compendium of the Fallen and ancient Titan research from outsiders.",
    "spoiler": 0
   },
   {
    "title": "Guardians of the Athenaeum",
-   "body": "Breaching the Library requires navigating past Houndmaster Loksey in the Huntsman's Cloister, whose trained hounds sniff out infiltrators seeking passage into the inner chambers. Beyond the Gallery of Treasures lies the Athenaeum, overseen by Arcanist Doan. A formidable mage who wields devastating fire and protective sorcery, Doan studies in isolation, fiercely defending the Crusade's hoarded knowledge from any who venture into the heart of the complex.",
+   "body": "Houndmaster Loksey guards the Huntsman's Cloister with trained hounds. They sniff out anyone seeking passage to the inner chambers. Beyond the Gallery of Treasures, Arcanist Doan watches over the Athenaeum.\n\nA formidable mage, Doan wields devastating fire and protective sorcery. Doan studies alone and fiercely defends the Crusade's hoarded knowledge from anyone who enters the heart of the complex.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "which door is library",
     "how to find library wing"
    ],
-   "answer": "When entering the Grand Vestibule of the Scarlet Monastery complex in Tirisfal Glades, the Library wing is accessed through the right-most instance portal."
+   "answer": "Enter the Grand Vestibule of the Scarlet Monastery in Tirisfal Glades, then take the rightmost portal to reach the Library wing."
   },
   {
    "q": "Why are adventurers sent to the Library?",
@@ -37,7 +37,7 @@
     "library quests",
     "what is in the library"
    ],
-   "answer": "Scholars, priests, and mages from both the Alliance and Horde seek precious texts preserved within its walls. Important targets include the Compendium of the Fallen, Titan lore sought by Ironforge historians, and ancient magical manuals for rising arcanists."
+   "answer": "Scholars, priests, and mages from the Alliance and Horde seek precious texts kept in the Library. They seek the Compendium of the Fallen, Titan lore sought by Ironforge historians, and ancient magical manuals for rising arcanists."
   },
   {
    "q": "Who rules the Library wing?",
@@ -46,7 +46,7 @@
     "who is in charge of the library",
     "who leads the library"
    ],
-   "answer": "The Library's inner sanctuary, the Athenaeum, is presided over by Arcanist Doan, a powerful scarlet spellcaster. The outer courtyard is secured by Houndmaster Loksey and his vicious tracking beasts."
+   "answer": "Arcanist Doan presides over the Library's inner sanctuary, the Athenaeum. Houndmaster Loksey and his tracking beasts guard the outer courtyard."
   },
   {
    "q": "What is the Scarlet Key found here?",
@@ -55,17 +55,17 @@
     "scarlet key drop",
     "where is scarlet key"
    ],
-   "answer": "A lockbox in Arcanist Doan's Athenaeum holds the Scarlet Key, which is required to unlock the heavy iron doors granting entrance to the monastery's Armory and Cathedral wings."
+   "answer": "A lockbox in Arcanist Doan's Athenaeum holds the Scarlet Key. It opens the heavy iron doors to the monastery's Armory and Cathedral wings."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "The Athenaeum is an essential pilgrimage for ambitious mages seeking ancient rituals of power and to test their mettle against the destructive sorcery of Arcanist Doan."
+   "text": "As a mage, you can seek ancient rituals of power in the Athenaeum. There, you can test your mettle against Arcanist Doan's destructive sorcery."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Library holds sacred records of Lordaeron's fallen heroes and Titan histories that Ironforge's Hall of Explorers is desperate to recover from Crusader hands."
+   "text": "As an Alliance traveler, you can seek the Library's sacred records of Lordaeron's fallen heroes and Titan histories. Ironforge's Hall of Explorers is desperate to recover them from Crusader hands."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Scarlet Monastery Library"
- ]
+ ],
+ "style": 2
 }

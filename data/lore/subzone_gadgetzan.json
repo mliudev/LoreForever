@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Gadgetzan"
  },
- "summary": "Gadgetzan is the walled desert hub of the Steamwheedle Cartel, standing as an island of commerce in northern Tanaris. Open to both Horde and Alliance travelers, the town operates under strictly enforced goblin neutrality, welcoming anyone with coin to spend or odd jobs to undertake.",
+ "summary": "Trade brings both factions to Gadgetzan, where the Steamwheedle Cartel keeps the peace. Anyone may enter, provided they bring coin or work to offer.",
  "sections": [
   {
    "title": "A Bastion of Profit in the Dunes",
-   "body": "Surrounded by scorching sands, Gadgetzan serves as the regional heart for the Steamwheedle Cartel's ventures in southern Kalimdor. Built with characteristic goblin ingenuity and haphazard architecture, the town boasts an independent auction house, bank, inn, and specialized crafting facilities for engineers, blacksmiths, and alchemists. It also houses flight masters catering to both major factions, ensuring steady traffic of adventurers heading toward Tanaris, Feralas, and the untamed basin of Un'Goro. Above all, commerce rules supreme: as long as visitors keep their weapons sheathed and their purses open, they are safe within its gates.",
+   "body": "Amid Tanaris's scorching sands, Gadgetzan is the Steamwheedle Cartel's base for trade in southern Kalimdor. Goblin ingenuity gives its buildings a haphazard shape. Within them are an auction house, a bank, an inn, and workshops for engineers, blacksmiths, and alchemists.\n\nFlight masters carry travelers of both factions toward Tanaris, Feralas, and the basin of Un'Goro. Commerce rules here. Keep your weapons sheathed and your purse open, and the goblins will let you pass in peace.",
    "spoiler": 0
   },
   {
    "title": "Desert Troubles and Enforced Order",
-   "body": "Peace in Gadgetzan is maintained not by good will, but by heavily armed goblin bruisers who swiftly pummel anyone who threatens trade or instigates faction brawls. Beyond the gates, however, life is precarious. The Gadgetzan Water Company constantly battles the Wastewander bandits, a ruthless gang occupying the vital Waterspring Field. Water is liquid gold in Tanaris, and the cartel frequently hires outside mercenaries to eliminate bandit leadership and reclaim vital water pouches to keep the town's reservoirs functional.",
+   "body": "Goblin bruisers keep order in Gadgetzan. They pummel anyone who threatens trade or starts a faction brawl. Beyond the gates, the Gadgetzan Water Company struggles against Wastewander bandits at Waterspring Field. Water is precious in Tanaris, so the cartel hires mercenaries to defeat the bandit leaders and recover water pouches. The town's reservoirs depend on that supply.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "pvp in gadgetzan",
     "can horde and alliance fight here"
    ],
-   "answer": "No. Gadgetzan is strictly neutral territory owned by the Steamwheedle Cartel. Goblin bruisers heavily patrol the town and will immediately attack anyone caught disturbing the peace or initiating violence against other travelers."
+   "answer": "No. The Steamwheedle Cartel keeps Gadgetzan strictly neutral. Goblin bruisers patrol the town and attack anyone who breaks the peace or harms other travelers."
   },
   {
    "q": "Why is water such a big deal around here?",
@@ -37,7 +37,7 @@
     "why water pouches",
     "waterspring field conflict"
    ],
-   "answer": "Situated in the middle of an arid desert, Gadgetzan relies entirely on the Gadgetzan Water Company's extraction towers at Waterspring Field. Wastewander bandits have overrun these wells, cutting off the town's primary supply and forcing the goblins to pay bounties for stolen water pouches."
+   "answer": "Gadgetzan depends on water from the extraction towers of the Gadgetzan Water Company at Waterspring Field. Wastewander bandits have overrun the wells and cut off the town's main supply. So the goblins offer bounties for stolen water pouches."
   },
   {
    "q": "Who controls Gadgetzan?",
@@ -46,7 +46,7 @@
     "gadgetzan faction",
     "what cartel owns gadgetzan"
    ],
-   "answer": "Gadgetzan is owned and governed by the Steamwheedle Cartel, the largest and most prominent mercantile goblin organization on Azeroth."
+   "answer": "The Steamwheedle Cartel owns and governs Gadgetzan. It is Azeroth's largest and most prominent mercantile goblin organization."
   },
   {
    "q": "What makes the auction house here special?",
@@ -55,17 +55,17 @@
     "neutral auction house",
     "cross faction ah"
    ],
-   "answer": "Unlike the faction-restricted markets in Orgrimmar or Stormwind, Gadgetzan hosts a neutral auction house. Both Alliance and Horde players can buy and sell goods to one another here, though the goblins charge a much higher transaction fee for the privilege."
+   "answer": "Gadgetzan's neutral auction house lets Alliance and Horde buy and sell goods to each other. The goblins charge a much higher transaction fee for this privilege."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Gadgetzan is an essential crossroads for tinkerers, hosting advanced trainers, specialized schematics, and an arrival teleportation pad calibrated specifically for gnomish engineers."
+   "text": "As an engineer, you can find advanced trainers and specialized schematics in Gadgetzan. The town also has an arrival teleportation pad calibrated for gnomish engineers."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "The town features heavy-duty forges and anvils favored by advanced metalworkers, serving as a key staging ground for members of the Mithril Order."
+   "text": "As a blacksmith, you can use Gadgetzan's heavy-duty forges and anvils, favored by advanced metalworkers. The town is a key staging ground for members of the Mithril Order."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Gadgetzan"
- ]
+ ],
+ "style": 2
 }

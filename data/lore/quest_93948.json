@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The prominent Shadowsong family name evokes deep history among elven lineages, though here on Zephras Isle, the High Elder Talaanis and the local shen'dorei navigate their own distinct struggles."
+   "text": "As a night elf, the Shadowsong name carries deep history among elven lineages. On Zephras Isle, High Elder Talaanis and the local shen'dorei face their own struggles."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "high elder talaanis",
     "talaanis shadowsong lore"
    ],
-   "answer": "Talaanis Shadowsong serves as the High Elder of Zephras Isle. Widely respected and loved by his community, he guides his people through turbulent times and endures personal tragedy when presented with the signet ring confirming his nephew's death.",
+   "answer": "Talaanis Shadowsong is the High Elder of Zephras Isle. His community respects and loves him, and the returned signet confirms his nephew's death.",
    "q": "Who is Talaanis Shadowsong?"
   },
   {
@@ -33,7 +33,7 @@
     "nephews ring",
     "shadowsong signet"
    ],
-   "answer": "The signet is the Shadowsong Family Signet, recovered from a tower. It serves as grim confirmation that Talaanis Shadowsong's nephew has perished, returning a family heirloom to the grieving High Elder.",
+   "answer": "The Shadowsong Family Signet is a family ring recovered from a tower. Its return to Talaanis Shadowsong confirms that his nephew has perished.",
    "q": "What is the Shadowsong Family Signet?"
   },
   {
@@ -42,7 +42,7 @@
     "valanaar settlement",
     "talaanis location"
    ],
-   "answer": "Valanaar is a settlement located on Zephras Isle where High Elder Talaanis Shadowsong resides and where Captain Valennia Stormfist oversees the local peacekeepers.",
+   "answer": "Valanaar is a settlement on Zephras Isle. High Elder Talaanis Shadowsong lives there, and Captain Valennia Stormfist leads its peacekeepers.",
    "q": "Where is Valanaar located?"
   },
   {
@@ -51,7 +51,7 @@
     "captain valennia",
     "valanaar peacekeeper captain"
    ],
-   "answer": "Valennia Stormfist is the captain of the peacekeepers stationed in Valanaar. High Elder Talaanis recommends speaking to her for work, noting that the settlement is in dire need of capable hands.",
+   "answer": "Valennia Stormfist leads the peacekeepers in Valanaar. High Elder Talaanis directs capable travelers to speak with her because the settlement needs help.",
    "q": "Who is Valennia Stormfist?"
   },
   {
@@ -59,7 +59,7 @@
     "who are the shendorei",
     "shendorei highlands"
    ],
-   "answer": "Talaanis refers to capable young travelers coming down from the highlands as shen'dorei, highlighting the elven presence and heritage enduring on Zephras Isle.",
+   "answer": "Talaanis calls capable young travelers coming down from the highlands shen'dorei, a name that reflects the elven presence and heritage on Zephras Isle.",
    "q": "Who are the shen'dorei mentioned by Talaanis?"
   },
   {
@@ -67,7 +67,7 @@
     "what happened to talaanis nephew",
     "how did nephew die"
    ],
-   "answer": "Talaanis's nephew died at a tower where his family signet was lost. Bringing the signet to Valanaar informs the High Elder of his nephew's demise, bringing closure to a sorrowful loss.",
+   "answer": "Talaanis's nephew died at a tower, where the family signet was lost. Returning the ring to Valanaar tells the High Elder of his nephew's death.",
    "q": "What happened to Talaanis Shadowsong's nephew?"
   }
  ],
@@ -86,18 +86,19 @@
  ],
  "sections": [
   {
-   "body": "When an adventurer journeys toward the settlement of Valanaar, they carry with them the Shadowsong Family Signet recovered from an isolated tower. Entrusted with this grim token, travelers seek out Talaanis Shadowsong, the High Elder of Zephras Isle. Beloved by his people despite widespread local hardships, Talaanis must face the painful confirmation that his nephew has perished, receiving condolences alongside the reclaimed heirloom.",
+   "body": "A traveler carries the Shadowsong Family Signet to Valanaar, recovered from an isolated tower. The grim token is meant for Talaanis Shadowsong, the High Elder of Zephras Isle. His people love him, though hardship weighs on the settlement. The ring confirms his nephew has perished, and Talaanis receives the heirloom with condolences.",
    "spoiler": 0,
    "title": "A Somber Errand"
   },
   {
-   "body": "Upon receiving the signet ring in Valanaar, High Elder Talaanis expresses heartfelt gratitude despite his profound grief. Recognizing the skill of the traveler who retrieved the relic, Talaanis directs them to Captain Valennia Stormfist, leader of the Valanaar peacekeepers. Facing strained circumstances and mounting pressures, the settlement welcomes any aid capable protectors can offer.",
+   "body": "In Valanaar, High Elder Talaanis thanks the traveler for returning the signet, though grief shadows him. He recognizes the traveler's skill and points them to Captain Valennia Stormfist, who leads the Valanaar peacekeepers. The settlement faces strained circumstances and mounting pressures. Its protectors welcome capable hands.",
    "spoiler": 0,
    "title": "Grief and Duty in Valanaar"
   }
  ],
- "summary": "Deliver the Signet is a quest in which a traveler carries a recovered family ring to High Elder Talaanis Shadowsong in Valanaar. The delivery brings tragic confirmation of his nephew's demise on Zephras Isle, while opening new opportunities to assist the local peacekeepers.",
+ "summary": "A traveler carries the recovered Shadowsong Family Signet to High Elder Talaanis Shadowsong in Valanaar. Its return confirms his nephew's death on Zephras Isle, and Talaanis points the traveler toward the local peacekeepers.",
  "attribution": [
   "In-game quest text: Deliver the Signet"
- ]
+ ],
+ "style": 2
 }

@@ -8,16 +8,16 @@
   "wiki": "Sneed's Shredder",
   "refs": 5
  },
- "summary": "Deep in the Deadmines, Sneed's Shredder cuts timber and guards the works. Goblin taskmaster Sneed pilots the machine for Edwin VanCleef's shipwrights, turning its blades against intruders.",
+ "summary": "Deep in the Deadmines, Sneed pilots a lumber machine for Edwin VanCleef's shipwrights. Its blades cut timber and meet intruders with armored force.",
  "sections": [
   {
    "title": "Industrial Terror",
-   "body": "In the Deadmines foundry, goblin shredders cut timber for Edwin VanCleef's hidden juggernaut. They also meet intruders with armored force. Sneed oversees the lumber works and pilots this modified machine himself, wielding its oversized buzzsaw as a weapon of defense.",
+   "body": "In the Deadmines foundry, goblin shredders cut timber for Edwin VanCleef's hidden juggernaut. They also turn their armored force against intruders. Sneed oversees the lumber works and pilots this modified machine himself. Its oversized buzzsaw is a weapon of defense.",
    "spoiler": 0
   },
   {
    "title": "A Deadly Cockpit",
-   "body": "Sneed rides above the spinning blades in an open cockpit, protected by heavy iron plating. The machine's clatter can scatter his foes. When the shredder breaks down and collapses in sparks, Sneed leaps from the wreckage and fights on.",
+   "body": "Sneed rides above the spinning blades in an open cockpit, behind heavy iron plating. The shredder's clatter can scatter his foes. When the machine breaks down in a burst of sparks, Sneed leaps from the wreckage and fights on.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why is there a shredder in deadmines",
     "shredder purpose deadmines"
    ],
-   "answer": "The Defias Brotherhood uses goblin machinery to cut through stone and process timber for its secret juggernaut. Sneed's Shredder mills wood and enforces order in the underground works."
+   "answer": "The Defias Brotherhood uses goblin machinery to cut stone and process timber for its secret juggernaut. Sneed's Shredder mills wood and keeps order in the underground works."
   },
   {
    "q": "What happens when the shredder is destroyed?",
@@ -44,7 +44,7 @@
     "defias goblins",
     "why are goblins in deadmines"
    ],
-   "answer": "Edwin VanCleef hired goblin engineers, craftsmen, and mercenary laborers to run mechanical works beneath Westfall, including steam powered forges, gun foundries, and woodmills."
+   "answer": "Edwin VanCleef hired goblin engineers, craftsmen, and mercenary laborers to run mechanical works beneath Westfall. Those works include steam-powered forges, gun foundries, and woodmills."
   },
   {
    "q": "Can the shredder be hacked or controlled by engineers?",
@@ -78,11 +78,11 @@
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you know Shoni the Shilent wants the goblin built machine's power supply to drive drills for an assault on Gnomeregan."
+   "text": "As a gnome, you know Shoni the Shilent wants the goblin-built machine's power supply to drive drills for an assault on Gnomeregan."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can cripple the lumber works supporting Edwin VanCleef's secret war fleet by defeating Sneed and his machine."
+   "text": "As an Alliance member, you can cripple the lumber works that support Edwin VanCleef's secret war fleet by defeating Sneed and his machine."
   }
  ],
  "keywords": [
@@ -106,5 +106,5 @@
  "attribution": [
   "Sneed's Shredder"
  ],
- "style": 1
+ "style": 2
 }

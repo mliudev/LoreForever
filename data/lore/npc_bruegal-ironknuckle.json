@@ -8,16 +8,16 @@
   "wiki": "Bruegal Ironknuckle",
   "refs": 5
  },
- "summary": "Bruegal Ironknuckle prowls the riot-torn halls of the Stormwind Stockade. The dangerous dwarf is a powerful brawler, and anyone trying to restore order may meet his fists.",
+ "summary": "In the Stormwind Stockade, Bruegal Ironknuckle prowls the halls during an open revolt. The dangerous dwarf is a powerful brawler, and anyone trying to restore order may face his fists.",
  "sections": [
   {
    "title": "A Dangerous Convict",
-   "body": "Bruegal Ironknuckle roams the Stormwind Stockade during its open revolt. The dangerous dwarf is known for his brutal brawling strength. Many of the city's most volatile cutthroats have seized the underground cellblocks, and Bruegal is among them. He does not stay in one cell, but prowls the riot-torn halls, ready to bash anyone trying to quell the uprising.",
+   "body": "Bruegal Ironknuckle prowls the Stormwind Stockade during its open revolt. The dwarf is known for his brutal strength in a brawl. Many of the city's most volatile cutthroats have seized the underground cellblocks, and Bruegal is among them. He leaves his cell and roams the halls, ready to bash anyone trying to quell the uprising.",
    "spoiler": 0
   },
   {
    "title": "Unruly Outlaw",
-   "body": "Bruegal Ironknuckle is one of many rogues and outlaws held deep beneath Stormwind. The Defias Brotherhood and its ringleaders direct much of the revolt, while inmates like Bruegal show that the prison holds criminals from across the eastern realms. Whatever crimes brought him there, his fierce resilience makes him elusive and one of the deadliest lone inmates in the corridors.",
+   "body": "Bruegal Ironknuckle is among the rogues and outlaws held deep beneath Stormwind. The Defias Brotherhood and its ringleaders direct much of the revolt, while inmates like Bruegal show that the prison holds criminals from across the eastern realms. No record here tells what crimes brought him there. His fierce resilience makes him elusive and one of the deadliest lone inmates in the corridors.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "ironknuckle lore",
     "stockade dwarf prisoner"
    ],
-   "answer": "Bruegal Ironknuckle is an elite dwarven convict in the Stormwind Stockade. During the ongoing riot, he wanders the prison halls and is difficult to find."
+   "answer": "Bruegal Ironknuckle is a powerful dwarven convict in the Stormwind Stockade. During the ongoing riot, he roams the prison halls and is difficult to find."
   },
   {
    "q": "Is Bruegal Ironknuckle part of the Defias Brotherhood?",
@@ -37,7 +37,7 @@
     "is bruegal defias",
     "defias dwarf stockade"
    ],
-   "answer": "Bruegal is a dwarven prisoner in the Stockade. His precise affiliation is not recorded."
+   "answer": "Bruegal Ironknuckle is a dwarven prisoner in the Stockade. His precise affiliation is unknown."
   },
   {
    "q": "Why is he imprisoned in the Stockade?",
@@ -45,7 +45,7 @@
     "why is bruegal locked up",
     "bruegal crime"
    ],
-   "answer": "The charges that brought Bruegal to the Stockade are not recorded in public warrants. His violent temper and brawling reputation suggest serious offenses against Stormwind's laws."
+   "answer": "No public warrant records the charges that brought Bruegal Ironknuckle to the Stockade. His violent temper and brawling reputation suggest serious offenses against Stormwind's laws."
   },
   {
    "q": "Where can he be found inside the Stockade?",
@@ -54,7 +54,7 @@
     "where is bruegal",
     "stockade rare spawn"
    ],
-   "answer": "Bruegal roams the Stockade's inner passages and junctions instead of staying in one cell. He may surprise those clearing the rioters."
+   "answer": "Bruegal Ironknuckle roams the Stockade's inner passages and junctions instead of staying in one cell. He may surprise those trying to clear the rioters."
   },
   {
    "q": "Is he always present in the prison?",
@@ -62,7 +62,7 @@
     "can bruegal not spawn",
     "why cant i find bruegal"
    ],
-   "answer": "No. Bruegal appears only sporadically during the unrest. He is often locked down or hidden from sight."
+   "answer": "No. Bruegal Ironknuckle appears only sporadically during the unrest. At other times, he is locked down or out of sight."
   },
   {
    "q": "What makes him notable among the prisoners?",
@@ -70,21 +70,21 @@
     "why do people look for bruegal",
     "bruegal significance"
    ],
-   "answer": "Bruegal is known for his fearsome fighting skill. He is also reputed to hide valuable contraband and gear from the guards, making him a sought-after prize for those brave enough to face him."
+   "answer": "Bruegal Ironknuckle is known for his fearsome fighting skill. He is also said to hide valuable contraband and gear from the guards, making him a prize for those brave enough to face him."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you may find it sobering to see a stout kinsman among Stormwind's cutpurses and rogues. Exile and outlawry reach even the sons of Ironforge."
+   "text": "As a dwarf, you may find it sobering to see a stout kinsman among Stormwind's cutpurses and rogues. Even the sons of Ironforge can fall into exile and outlawry."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance champion, you can help Stormwind's city guard suppress rogues like Ironknuckle, who threaten to turn the capital's heart into a fortress of anarchy."
+   "text": "As an Alliance champion, you can help Stormwind's city guard suppress rogues like Ironknuckle. They threaten to turn the capital's heart into a fortress of anarchy."
   },
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you can see in Ironknuckle's raw grit and heavy fists the brute strength that remains when discipline and honor fall away."
+   "text": "As a warrior, you can see in Ironknuckle's raw grit and heavy fists the brute strength left when discipline and honor fall away."
   }
  ],
  "keywords": [
@@ -107,5 +107,5 @@
  "attribution": [
   "Bruegal Ironknuckle"
  ],
- "style": 1
+ "style": 2
 }

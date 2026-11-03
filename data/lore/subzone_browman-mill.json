@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Browman Mill"
  },
- "summary": "Browman Mill is a blighted lumber mill situated just north of Light's Hope Chapel in the Eastern Plaguelands. Once a thriving piece of Lordaeron's timber trade, it now swarms with undead minions under the iron grip of the Scourge. Its former proprietor, Stephen Browman, remains trapped in death within his ruined workshop.",
+ "summary": "Undead now crowd Browman Mill, north of Light's Hope Chapel. Once it served Lordaeron's timber trade; now Stephen Browman remains trapped in death within his ruined workshop.",
  "sections": [
   {
    "title": "A Ruined Industry",
-   "body": "Before the Third War, Browman Mill served the surrounding towns and homesteads of Lordaeron, processing lumber harvested from the rich forests of the Eastweald. When the Scourge plague rolled across the kingdom, the mill fell alongside the rest of the province. Today, rotting timbers and shattered wheels sit idle while abominations, banshees, and skeletal warriors patrol the perimeter. Its close proximity to Light's Hope Chapel makes it a constant and menacing reminder of the undead horde pressing against the Argent Dawn's doorstep.",
+   "body": "Before the Third War, Browman Mill worked timber from the Eastweald for nearby towns and homesteads. Then the Scourge plague swept across Lordaeron, and the mill fell with the province. Now rotting timbers and shattered wheels lie idle while abominations, banshees, and skeletal warriors patrol the grounds. So close to Light's Hope Chapel, the ruins show how near the undead horde has come to the Argent Dawn.",
    "spoiler": 0
   },
   {
    "title": "The Overseer's Fate",
-   "body": "The mill's original owner, Stephen Browman, met the same grim fate as countless commoners of Lordaeron. Murdered when the Scourge overran the estate, he was raised into undeath as a ravenous ghoul. Stripped of his humanity and enslaved to the Lich King's will, Browman lingers within the dark confines of his former mill, guarding the splintered ruins of his life's work.",
+   "body": "Stephen Browman owned Browman Mill before the Scourge overran his estate. The Scourge killed him and raised him as a ghoul, bound to the Lich King's will. He remains in the dark mill, guarding the broken remains of his life's work.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is browman mill",
     "how to find browman mill"
    ],
-   "answer": "Browman Mill is located in the far eastern stretch of the Eastern Plaguelands, sitting directly north of Light's Hope Chapel."
+   "answer": "Browman Mill lies in the far eastern reaches of the Eastern Plaguelands, directly north of Light's Hope Chapel."
   },
   {
    "q": "What kind of enemies inhabit the mill?",
@@ -37,7 +37,7 @@
     "who is at browman mill",
     "what lives at browman mill"
    ],
-   "answer": "The grounds are infested with Scourge forces, including hulking abominations, wailing banshees, skeletal fiends, and wandering ghouls."
+   "answer": "Abominations, banshees, skeletal warriors, and ghouls fill Browman Mill's grounds."
   },
   {
    "q": "Who was Stephen Browman?",
@@ -46,7 +46,7 @@
     "stephen browman lore",
     "browman ghoul"
    ],
-   "answer": "Stephen Browman was the original human owner and operator of the lumber mill. He was slaughtered during the fall of Lordaeron and reanimated as an undead ghoul, bound to guard his ruined building."
+   "answer": "Stephen Browman owned and operated the lumber mill. The Scourge killed him during Lordaeron's fall and raised him as a ghoul, bound to guard the ruined mill."
   },
   {
    "q": "Why is Browman Mill dangerous to travelers?",
@@ -54,17 +54,17 @@
     "why is browman mill dangerous",
     "threat of browman mill"
    ],
-   "answer": "Its heavy concentration of powerful undead makes it a lethal hazard, particularly because it sits just a short ride north of the Argent Dawn stronghold at Light's Hope Chapel."
+   "answer": "Powerful undead infest Browman Mill, making it dangerous to travelers. The mill lies a short ride north of the Argent Dawn stronghold at Light's Hope Chapel."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "The desecrated remains of the mill and the tormented spirits haunting its grounds represent everything the holy orders fight to cleanse from Lordaeron."
+   "text": "As a paladin, you see the desecrated mill and its tormented spirits as the evils the holy orders fight to cleanse from Lordaeron."
   },
   {
    "target": "race:Undead",
-   "text": "Stephen Browman's enslavement is a stark reminder of the fate shared by all victims of the Lich King who were denied the free will won by the Forsaken."
+   "text": "As an undead, you know Stephen Browman's enslavement recalls those claimed by the Lich King and denied the free will the Forsaken won."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Browman Mill"
- ]
+ ],
+ "style": 2
 }

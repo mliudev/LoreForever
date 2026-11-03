@@ -17,16 +17,16 @@
   "wiki": "Soothing Turtle Bisque (Alliance)",
   "chain": []
  },
- "summary": "Southshore's Chef Jessen wants Soothing Turtle Bisque back on his tavern menu. Unrest has cut off his supply of snapjaw turtle meat, so he asks cooks to brave the northern waters near Dalaran and Lake Lordamere.",
+ "summary": "Chef Jessen wants Soothing Turtle Bisque back on Southshore's tavern menu. Unrest has cut off his snapjaw turtle meat, so he asks cooks to brave the northern waters near Dalaran and Lake Lordamere.",
  "sections": [
   {
    "title": "A Northern Delicacy",
-   "body": "Southshore is one of the Alliance's last intact coastal towns in Lordaeron, holding to civilian life amid growing strife. Chef Jessen says his cooking rivals any tavern north of Stormwind. Patrons supposedly travel from Darkshire in Duskwood to taste his Soothing Turtle Bisque. The rich soup depends on fresh meat from snapjaw turtles native to the rivers and lakes of the northern mountains.",
+   "body": "Southshore is one of Lordaeron's last intact coastal towns held by the Alliance. Civilian life continues there amid growing strife. Chef Jessen says his cooking rivals any tavern north of Stormwind. Patrons supposedly come from Darkshire in Duskwood to taste his bisque. The rich soup calls for fresh meat from snapjaw turtles native to the rivers and lakes of the northern mountains.",
    "spoiler": 0
   },
   {
    "title": "Peril on Lordamere",
-   "body": "In calmer years, Jessen gathered turtle meat himself, traveling past Dalaran to Lordamere Lake's eastern shore. Rising tensions, hostile wildlife, the Syndicate, and Forsaken incursions have made the lands beyond town deadly for ordinary townsfolk. To keep the bisque on his menu, Jessen depends on armed travelers willing to gather meat from snapjaws along the riverbanks and northern shores.",
+   "body": "In calmer years, Jessen gathered turtle meat himself. He traveled past Dalaran to the eastern shore of Lordamere Lake. Now rising tensions, hostile wildlife, the Syndicate, and Forsaken incursions make the lands beyond town deadly for ordinary townsfolk. To keep the bisque on his menu, Jessen relies on armed travelers to gather meat from snapjaws along the riverbanks and northern shores.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where do i start soothing turtle bisque",
     "chef jessen quest"
    ],
-   "answer": "Chef Jessen, a cook in the Alliance coastal town of Southshore in Hillsbrad Foothills, makes the request to visiting cooks."
+   "answer": "Chef Jessen, a cook in Southshore, makes the request to visiting cooks. Southshore is an Alliance coastal town in Hillsbrad Foothills."
   },
   {
    "q": "Why does Chef Jessen need outside help gathering turtle meat?",
@@ -46,7 +46,7 @@
     "why cant jessen get meat",
     "why does jessen need turtles"
    ],
-   "answer": "Jessen once hunted snapjaw turtles near Dalaran and Lordamere Lake, but unrest and dangerous beasts now make the region too perilous for him to gather meat himself."
+   "answer": "Jessen once hunted snapjaw turtles near Dalaran and Lordamere Lake. Unrest and dangerous beasts now make the region too perilous for him to gather meat himself."
   },
   {
    "q": "Where are snapjaw turtles found in the region?",
@@ -64,7 +64,7 @@
     "cooking profession required",
     "can anyone take soothing turtle bisque"
    ],
-   "answer": "Yes. Chef Jessen shares the request and his cooking knowledge only with travelers trained in Cooking, though no particular skill rank is needed."
+   "answer": "Yes. Chef Jessen shares the request and his cooking knowledge only with travelers trained in Cooking. No particular skill rank is needed."
   },
   {
    "q": "Why is Southshore's cuisine famous?",
@@ -88,7 +88,7 @@
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Chef Jessen shares his craft only with fellow cooks, teaching you to prepare your own Soothing Turtle Bisque."
+   "text": "Chef Jessen shares his craft only with fellow cooks. He teaches you to prepare your own Soothing Turtle Bisque."
   },
   {
    "target": "faction:Alliance",
@@ -123,5 +123,5 @@
  "attribution": [
   "Soothing Turtle Bisque (Alliance)"
  ],
- "style": 1
+ "style": 2
 }

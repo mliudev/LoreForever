@@ -27,16 +27,16 @@
    "Against the Hatecrest"
   ]
  },
- "summary": "Your search turned up a strange gazebo at the center of the Ruins of Solarsal. Now it is time to head back to Feathermoon Stronghold and tell General Shandris Feathermoon about it.",
+ "summary": "You return to Feathermoon Stronghold with news of a strange gazebo at the heart of the Ruins of Solarsal. General Shandris Feathermoon awaits your report.",
  "sections": [
   {
    "title": "Carrying the Report Home",
-   "body": "General Shandris Feathermoon waits at Feathermoon Stronghold to hear about the strange gazebo you discovered in the heart of the ruins. Make your way back to the stronghold with your findings.",
+   "body": "At Feathermoon Stronghold, General Shandris Feathermoon awaits your news of the strange gazebo. You carry your findings back from the heart of the ruins so she can hear what you saw.",
    "spoiler": 0
   },
   {
    "title": "On Your Return",
-   "body": "Shandris calls your report on the gazebo disturbing. Even if the naga never meant to attack, that they stay on is a bad sign for the push into Feralas. The stronghold is in dire need of more help against the Hatecrest naga, and Shandris offers you more to do, if you are willing.",
+   "body": "Shandris finds your report on the gazebo disturbing. The naga may not have meant to attack, yet their continued presence bodes ill for the push into Feralas. Feathermoon Stronghold needs more help against the Hatecrest naga, and Shandris offers you further work if you are willing.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "who wants the report",
     "where to turn in return to feathermoon stronghold"
    ],
-   "answer": "General Shandris Feathermoon, at Feathermoon Stronghold."
+   "answer": "Report to General Shandris Feathermoon at Feathermoon Stronghold."
   },
   {
    "q": "What should I report?",
@@ -56,7 +56,7 @@
     "what do i tell shandris",
     "what was found at solarsal"
    ],
-   "answer": "That strange gazebo, standing at the center of the Ruins of Solarsal."
+   "answer": "Tell General Shandris Feathermoon about the strange gazebo at the center of the Ruins of Solarsal."
   },
   {
    "q": "What comes before this?",
@@ -64,7 +64,7 @@
     "previous quest",
     "what leads here"
    ],
-   "answer": "It follows The Ruins of Solarsal, where Shandris sent you to explore the ruins and look into the naga there."
+   "answer": "The Ruins of Solarsal comes before your return. Shandris sent you to explore the ruins and investigate the naga there."
   }
  ],
  "angles": [],
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Return to Feathermoon Stronghold"
- ]
+ ],
+ "style": 2
 }

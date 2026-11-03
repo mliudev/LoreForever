@@ -8,11 +8,11 @@
   "wiki": "Elder Morningdew",
   "refs": 1
  },
- "summary": "Elder Morningdew is an ancient night elf spirit who appears during the Lunar Festival in Thousand Needles. She offers wisdom and ancestral blessings to travelers who seek her out amid the arid canyons and dried salt flats of the Shimmering Flats.",
+ "summary": "During the Lunar Festival, Elder Morningdew greets travelers in Thousand Needles. She offers ancestral wisdom and blessings to those who honor her.",
  "sections": [
   {
    "title": "An Honored Spirit of the Festival",
-   "body": "Throughout the Lunar Festival, the spirits of revered ancestors manifest across Kalimdor and the Eastern Kingdoms to celebrate wisdom, legacy, and peace. Elder Morningdew is one such apparition, visiting Thousand Needles to greet honoring pilgrims. Bound by neither faction nor mortal conflict, she bestows her coin of ancestry upon any adventurer respectful enough to seek her counsel and receive her blessing.",
+   "body": "In Thousand Needles, Elder Morningdew greets pilgrims during the Lunar Festival as an honored ancestor. Across Kalimdor and the Eastern Kingdoms, revered spirits gather to celebrate wisdom, legacy, and peace. She belongs to neither faction and takes no part in mortal conflicts. Travelers who seek her counsel and show respect receive her blessing and a Coin of Ancestry.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is morningdew",
     "morningdew identity"
    ],
-   "answer": "Elder Morningdew is a night elf ancestral spirit who manifests during the annual Lunar Festival. She waits in Thousand Needles to be honored by travelers from both the Alliance and the Horde."
+   "answer": "Elder Morningdew is a night elf ancestral spirit who greets travelers in Thousand Needles during the Lunar Festival."
   },
   {
    "q": "What is the purpose of seeking her out?",
@@ -33,7 +33,7 @@
     "morningdew purpose",
     "lunar festival elder"
    ],
-   "answer": "Adventurers seek her out during the Lunar Festival to pay their respects to the ancestors, receiving a Coin of Ancestry and a blessing of wisdom in exchange for honoring her spirit."
+   "answer": "Travelers seek Elder Morningdew during the Lunar Festival to honor the ancestors. She gives them a Coin of Ancestry and a blessing of wisdom."
   },
   {
    "q": "Does she belong to the Alliance or Horde?",
@@ -42,17 +42,17 @@
     "elder morningdew faction",
     "can horde talk to morningdew"
    ],
-   "answer": "Like all Lunar Festival elders, Elder Morningdew stands neutral to mortal politics. Both Alliance and Horde adventurers can approach her peacefully to pay their respects."
+   "answer": "Elder Morningdew is neutral in mortal politics. Alliance and Horde travelers can approach her peacefully and pay their respects."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the kaldorei, seeking out ancient elders like Morningdew is a sacred duty of reverence, connecting modern night elves with the honored spirits who came before them."
+   "text": "As a kaldorei, honoring elders like Morningdew connects you with the spirits who came before your people."
   },
   {
    "target": "race:Tauren",
-   "text": "Tauren honor ancestral spirits deeply, making encounters with elders across Kalimdor a natural extension of their cultural reverence for past wisdom."
+   "text": "As a tauren, honoring ancestral spirits shows your deep respect for the wisdom of those who came before."
   }
  ],
  "keywords": [
@@ -72,5 +72,6 @@
  ],
  "attribution": [
   "Elder Morningdew"
- ]
+ ],
+ "style": 2
 }

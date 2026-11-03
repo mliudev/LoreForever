@@ -17,16 +17,16 @@
   "wiki": "The Lost Pages",
   "chain": []
  },
- "summary": "A gust has scattered The Lost Pages across Ashenvale. Gurda Ragescar is stranded near Splintertree Post, unable to run the shredder she is taking from Ratchet to the Warsong Lumber Camp without its manual.",
+ "summary": "A gust has scattered The Lost Pages across Ashenvale, leaving Gurda Ragescar stranded near Splintertree Post. She cannot run the shredder she is carrying from Ratchet to the Warsong Lumber Camp without its manual.",
  "sections": [
   {
    "title": "A Gust of Bad Luck",
-   "body": "The Warsong Clan uses steam-powered shredders bought from Ratchet to clear lumber across Ashenvale. Their delicate workings are not easy for an orc warrior to master. As Gurda Ragescar carried a newly bought shredder north, a sudden gust tore the instruction booklet from her hands. Twelve parchment leaves scattered across the forest floor.",
+   "body": "The Warsong Clan buys steam-powered shredders in Ratchet to clear lumber across Ashenvale. Their delicate workings can be hard for an orc warrior to master. As Gurda Ragescar carried a newly bought shredder north, a sudden gust tore the instruction booklet from her hands. Twelve parchment leaves scattered across the forest floor.",
    "spoiler": 0
   },
   {
    "title": "Pages in the Wilderness",
-   "body": "The wind carried the manual pages across Ashenvale, and wandering creatures, cultists, and forest denizens have taken them. The shredder cannot run without all three chapters. Gurda is stranded on the road to Splintertree Post, unable to report for logging duty.",
+   "body": "The wind carried the manual pages across Ashenvale. Wandering creatures, cultists, and forest denizens have taken them. The shredder cannot run without all three chapters. Gurda is stranded on the road to Splintertree Post, unable to report for logging duty.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "why cant she drive it",
     "shredder operating manual"
    ],
-   "answer": "Goblin machinery is finicky and hard to understand. Even an eager orc cannot safely operate the shredder without its manufacturer's manual."
+   "answer": "Goblin machinery is finicky and hard to understand. Even an eager orc cannot safely operate the shredder without its maker's manual."
   },
   {
    "q": "How did the manual pages end up scattered all over Ashenvale?",
@@ -85,7 +85,7 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can understand Gurda's trouble: running a goblin shredder without its maker's instructions risks a boiler failure."
+   "text": "As an engineer, you can understand Gurda's trouble. Running a goblin shredder without its maker's instructions risks a boiler failure."
   },
   {
    "target": "faction:Horde",
@@ -93,7 +93,7 @@
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, you may share Gurda's frustration with lost technical pages; manual labor and warrior traditions leave little patience for goblin paperwork."
+   "text": "As an orc, you may share Gurda's frustration over lost technical pages. Manual labor and warrior traditions leave little patience for goblin paperwork."
   }
  ],
  "keywords": [
@@ -116,5 +116,5 @@
  "attribution": [
   "The Lost Pages"
  ],
- "style": 1
+ "style": 2
 }

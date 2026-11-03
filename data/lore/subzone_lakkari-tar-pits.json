@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Lakkari Tar Pits"
  },
- "summary": "The Lakkari Tar Pits are a series of foul-smelling, bubbling pools of thick black sludge in northern Un'Goro Crater. Situated just below the cliffs of Marshal's Refuge, they act as a natural death trap for unwary beasts and an incubator for hostile tar elementals.",
+ "summary": "In northern Un’Goro Crater, the Lakkari Tar Pits hold beasts fast and give rise to hostile tar elementals.",
  "sections": [
   {
    "title": "A Grasping Trap",
-   "body": "The Lakkari Tar Pits dominate the low ground of northern Un'Goro Crater, directly south of Marshal's Refuge. Thick, reeking pools of pitch entrap anything careless enough to step into them, quickly bogging down beasts and adventurers alike. The protruding bones of hundreds of prehistoric creatures break the black surface, bearing witness to generations of animals sucked into the mire. Opportunistic scavengers circle the margins waiting for trapped prey to exhaust itself, while living tar beasts, lurkers, and creepers rise directly from the muck to batter interlopers.",
+   "body": "South of Marshal’s Refuge, the Lakkari Tar Pits spread across northern Un’Goro Crater. Their black tar grips anyone who steps in and drags beasts and travelers into the mire. Bones of countless prehistoric creatures jut through the surface. Scavengers circle the pools for trapped prey, while tar beasts, lurkers, and creepers rise from the muck to attack those who enter.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "tar slow",
     "stepping in tar"
    ],
-   "answer": "The pitch is extraordinarily thick and clinging. Wading into the tar immediately reduces movement speed to a crawl, making it agonizingly difficult to evade the aggressive tar elementals that patrol the surface."
+   "answer": "The tar grips anyone who wades in, slowing them to a crawl. That makes escape difficult when aggressive tar elementals patrol the pools."
   },
   {
    "q": "What creatures live in the Lakkari Tar Pits?",
@@ -32,7 +32,7 @@
     "tar pit monsters",
     "tar creepers"
    ],
-   "answer": "The pits are inhabited by sentient ooze and elemental life forms known as tar beasts, tar creepers, tar lurkers, and tar lords, accompanied by local scavengers that circle the pools looking for stuck prey."
+   "answer": "Tar beasts, tar creepers, tar lurkers, and tar lords inhabit the pits. Local scavengers circle the pools, searching for trapped prey."
   },
   {
    "q": "Where are the Lakkari Tar Pits located?",
@@ -41,13 +41,13 @@
     "where is lakkari",
     "how to find tar pits"
    ],
-   "answer": "They are located in northern Un'Goro Crater, sitting directly in the basin beneath the cliffside outpost of Marshal's Refuge."
+   "answer": "The Lakkari Tar Pits lie in northern Un’Goro Crater, in the basin directly below the cliffs of Marshal’s Refuge."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Keep pets on firm ground near Lakkari; any creature caught in the thick sludge becomes an immobilized target for predatory tar lurkers."
+   "text": "As a hunter, keep your pets on firm ground near Lakkari. Creatures caught in the thick sludge make easy prey for tar lurkers."
   }
  ],
  "keywords": [
@@ -64,5 +64,6 @@
  ],
  "attribution": [
   "Lakkari Tar Pits"
- ]
+ ],
+ "style": 2
 }

@@ -8,16 +8,16 @@
   "wiki": "Anduin Wrynn",
   "refs": 0
  },
- "summary": "Anduin Llane Wrynn is the ten-year-old crowned King of Stormwind, reigning in the absence of his missing father, King Varian Wrynn. Due to his young age, the true administration of the kingdom rests in the hands of Highlord Bolvar Fordragon and the royal court.",
+ "summary": "Stormwind's throne rests with ten-year-old Anduin Wrynn while his father, King Varian Wrynn, is missing. Highlord Bolvar Fordragon and the royal court bear the work of governing.",
  "sections": [
   {
    "title": "A Boy on the Throne",
-   "body": "Born in the peaceful interlude following the Second War, Prince Anduin was named in honor of both his grandfather King Llane and the legendary knight Sir Anduin Lothar. Following the mysterious disappearance of his father en route to a diplomatic summit in Theramore, the child was abruptly crowned to maintain stability throughout the kingdom. Though intelligent and empathetic beyond his years, the ten-year-old monarch has little actual say in state affairs, leaving rule of the realm divided between Highlord Bolvar Fordragon and royal councilor Lady Katrana Prestor.",
+   "body": "Anduin Wrynn was born in the peace after the Second War. His name honors his grandfather, King Llane, and Sir Anduin Lothar, the legendary knight. When King Varian Wrynn vanished on the way to a diplomatic summit in Theramore, Anduin was crowned to keep the kingdom steady. Clever and compassionate, he is still only ten and has little say in affairs of state. Highlord Bolvar Fordragon and royal councilor Lady Katrana Prestor share the work of ruling the realm.",
    "spoiler": 0
   },
   {
    "title": "A Pawn in the Court",
-   "body": "Within the gilded walls of Stormwind Keep, young Anduin is surrounded by escalating political tension. While Highlord Bolvar manages military defenses and strives to maintain the integrity of the kingdom, the noblewoman Katrana Prestor constantly whispers counsel into the court's ear, actively undermining troop deployments to outlying human settlements. Anduin senses the precarious nature of his court and misses his father dearly, yet for now, he remains a figurehead surrounded by scheming nobles and watchful guardians.",
+   "body": "Stormwind Keep holds Anduin as tension grows at court. Highlord Bolvar watches over the kingdom's defenses and works to keep it whole. Lady Katrana Prestor presses her counsel upon the court and undermines troop deployments to outlying human settlements. Anduin feels how fragile his court has become and longs for his father. For now, nobles with designs of their own and guardians surround the young king.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is varian",
     "who is the kid king"
    ],
-   "answer": "King Varian Wrynn vanished under mysterious circumstances while sailing toward a diplomatic summit in Theramore. To avoid a succession crisis and retain order across the realm, ten-year-old Prince Anduin was formally crowned king, while Highlord Bolvar Fordragon was named regent to govern in his stead."
+   "answer": "King Varian Wrynn vanished under mysterious circumstances while sailing to a diplomatic summit in Theramore. To prevent a succession crisis and preserve order across the realm, ten-year-old Prince Anduin was crowned king, and Highlord Bolvar Fordragon was named regent to govern in his place."
   },
   {
    "q": "Who actually runs the kingdom right now?",
@@ -38,7 +38,7 @@
     "who is in charge",
     "stormwind regent"
    ],
-   "answer": "Highlord Bolvar Fordragon serves as Regent of Stormwind, commanding the realm's armies and holding ultimate executive power until Anduin comes of age. However, the noblewoman Lady Katrana Prestor serves as a senior advisor, wielding significant influence over the royal court and the House of Nobles."
+   "answer": "Highlord Bolvar Fordragon is Regent of Stormwind. He commands the realm's armies and holds executive power until Anduin comes of age. Lady Katrana Prestor is a senior advisor whose influence reaches deep into the royal court and the House of Nobles."
   },
   {
    "q": "Who is Anduin named after?",
@@ -47,7 +47,7 @@
     "anduin namesake",
     "why named anduin"
    ],
-   "answer": "He is named after two heroes of Stormwind's history: his grandfather, the fallen King Llane Wrynn, and Sir Anduin Lothar, the Lion of Azeroth who led the Alliance during the First and Second Wars."
+   "answer": "Anduin's name honors two heroes of Stormwind's history: his grandfather, the fallen King Llane Wrynn, and Sir Anduin Lothar, the Lion of Azeroth who led the Alliance during the First and Second Wars."
   },
   {
    "q": "Where is Anduin located in the city?",
@@ -56,17 +56,17 @@
     "anduin location",
     "anduin wrynn location"
    ],
-   "answer": "King Anduin can be found in the throne room of Stormwind Keep, seated on the royal throne flanked closely by Highlord Bolvar Fordragon and Lady Katrana Prestor."
+   "answer": "King Anduin sits on the royal throne in the throne room of Stormwind Keep. Highlord Bolvar Fordragon and Lady Katrana Prestor are close beside him."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "To the citizens and soldiers of the Alliance, King Anduin is an innocent symbol of the realm's resilience, even as many worry that his youth leaves the throne vulnerable to shadowy court intrigue."
+   "text": "To Alliance citizens and soldiers, King Anduin is an innocent emblem of the realm's resilience. Many fear his youth leaves the throne open to court intrigue."
   },
   {
    "target": "race:Human",
-   "text": "For the people of Stormwind, the boy-king represents the survival of the Wrynn dynasty, standing in for his missing father Varian."
+   "text": "For Stormwind's people, the boy-king keeps the Wrynn dynasty alive while his father, Varian, is missing."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Anduin Wrynn"
- ]
+ ],
+ "style": 2
 }

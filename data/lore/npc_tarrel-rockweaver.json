@@ -8,11 +8,11 @@
   "wiki": "Tarrel Rockweaver",
   "refs": 2
  },
- "summary": "At Menethil Harbor’s bridge, Tarrel Rockweaver anxiously waits for news of his wife, Merrin. The dwarf fears for her safety after she joined an inland archaeological expedition.",
+ "summary": "At Menethil Harbor’s bridge, Tarrel Rockweaver waits anxiously for news of his wife, Merrin. He fears for her safety after she joined an inland archaeological expedition.",
  "sections": [
   {
    "title": "A Watch on the Bridge",
-   "body": "Tarrel Rockweaver watches the bridge at Menethil Harbor, where trade and military shipments pass. His wife, Merrin Rockweaver, joined Prospector Whelgar’s prestigious archaeological expedition deeper in the Wetlands. Violent raptors overran the excavation site and cut off regular communication. Stranded in town, Tarrel begs travelers to scout east toward Whelgar’s Excavation Site and learn whether Merrin survived.",
+   "body": "Trade and military shipments pass over Menethil Harbor’s bridge, where Tarrel Rockweaver keeps watch. His wife, Merrin Rockweaver, joined Prospector Whelgar’s prestigious archaeological expedition deeper in the Wetlands. Violent raptors overran the excavation site and cut off regular word from the team. Stranded in town, Tarrel asks travelers to scout east toward Whelgar’s Excavation Site and learn whether Merrin survived.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is this dwarf",
     "menethil bridge dwarf"
    ],
-   "answer": "Tarrel is an Ironforge dwarf waiting desperately near the entrance bridge of Menethil Harbor. He hopes for word of his wife, Merrin, who left on an inland dig."
+   "answer": "Tarrel is an Ironforge dwarf waiting near Menethil Harbor’s entrance bridge. He hopes for word of his wife, Merrin, who left on an inland dig."
   },
   {
    "q": "Why is Tarrel asking travelers for help?",
@@ -57,11 +57,11 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Tarrel’s worry shows the perilous cost of the Explorer’s League’s relentless drive to uncover dwarven origins across the wild frontiers of Khaz Modan."
+   "text": "As a dwarf, you see the perilous cost of the Explorer’s League’s relentless search for dwarven origins across Khaz Modan’s wild frontiers."
   },
   {
    "target": "faction:Alliance",
-   "text": "For travelers arriving at Menethil’s port, Tarrel offers a close look at the hardships facing Alliance citizens stationed along the untamed marshes."
+   "text": "At Menethil’s port, Tarrel shows you the hardships facing Alliance citizens stationed along the untamed marshes."
   }
  ],
  "keywords": [
@@ -82,5 +82,5 @@
  "attribution": [
   "Tarrel Rockweaver"
  ],
- "style": 1
+ "style": 2
 }

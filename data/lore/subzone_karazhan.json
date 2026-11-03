@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Karazhan"
  },
- "summary": "Karazhan is the ominous, secluded tower standing at the southern end of Deadwind Pass. Once the sanctum of Medivh, the Last Guardian of Tirisfal, the citadel sits atop a potent convergence of ley lines that warps time, space, and reality around it. Though Medivh was slain during the First War, the abandoned fortress still hums with volatile arcane energy, restless spirits, and hidden dangers.",
+ "summary": "In Deadwind Pass, Karazhan's sealed tower stirs with dangerous magic. Once Medivh's home, it rises above a meeting of ley lines that twists time, space, and reality. Restless spirits haunt its halls, and dangers remain within.",
  "sections": [
   {
    "title": "The Guardian's Spire",
-   "body": "Long before the First War, the tower of Karazhan was raised upon ground shaped like a human skull, situated at a massive nexus of mystical ley lines. It served as a secluded refuge and repository of untold magical secrets for the Guardian Medivh. Within its curving halls, Medivh lived alongside his loyal castellan Moroes, entertaining noble guests and housing an immense archive of arcane texts and relics that eclipsed even the libraries of the Kirin Tor. Yet the tower was also the stage for Azeroth's greatest betrayal, as Medivh fell under the demonic possession of Sargeras and secretly orchestrated the opening of the Dark Portal.",
+   "body": "Karazhan rises from ground shaped like a human skull, above a vast meeting of mystical ley lines. Built long before the First War, it was Medivh's refuge and storehouse for his magical secrets. The Last Guardian of Tirisfal lived in its winding halls with his castellan, Moroes. He welcomed noble guests and gathered arcane books and relics said to surpass even the libraries of the Kirin Tor.\n\nYet these walls witnessed Azeroth's greatest betrayal. Possessed by the demon Sargeras, Medivh secretly arranged the opening of the Dark Portal.",
    "spoiler": 0
   },
   {
    "title": "A Haunted Threshold",
-   "body": "Following Medivh's death at the hands of Anduin Lothar and his apprentice Khadgar, Karazhan sealed its gates and was left to decay. However, the tower has never truly slept. Its intersection of potent ley lines continues to warp the fabric of reality, casting ghostly echoes, illusions, and temporal distortions across Deadwind Pass. Rumors persist that an evil presence has begun stirring inside the quiet fortress once more, and strange entities\u2014including the shadowy Dark Riders who scour the surrounding lands for forgotten relics\u2014are inexorably drawn to its towering silhouette.",
+   "body": "Anduin Lothar and Medivh's apprentice, Khadgar, killed the Guardian, and Karazhan's gates were sealed. The tower fell into decay, but its powerful ley lines still twist reality. Ghostly echoes, illusions, and distortions of time ripple across Deadwind Pass.\n\nRumors say an evil presence stirs again inside the quiet fortress. Strange beings are drawn to its silhouette. Among them are the shadowy Dark Riders, who search the surrounding lands for forgotten relics.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "karazhan creator",
     "origin of karazhan"
    ],
-   "answer": "Karazhan's origins are shrouded in mystery, but it is known above all as the tower of Medivh, the Last Guardian of Tirisfal. It was raised long before the First War on ground shaped like a human skull, atop a powerful nexus of ley lines in Deadwind Pass."
+   "answer": "No one knows Karazhan's origins, but the tower is known above all as the home of Medivh, the Last Guardian of Tirisfal. Built long before the First War, it rises in Deadwind Pass on skull shaped ground above a powerful meeting of ley lines."
   },
   {
    "q": "Who was Medivh, and why did he live here?",
@@ -37,7 +37,7 @@
     "medivh lore",
     "the last guardian"
    ],
-   "answer": "Medivh was the son of Aegwynn and the Last Guardian of Tirisfal, charged with defending Azeroth from demonic threats. He made Karazhan his primary home and sanctuary, surrounding himself with vast stores of arcane knowledge, servants like Moroes, and lavish gatherings to mask his descent into madness."
+   "answer": "Medivh, son of Aegwynn, was the Last Guardian of Tirisfal, charged with defending Azeroth from demonic threats. He made Karazhan his home and sanctuary, filling it with arcane knowledge, servants such as Moroes, and lavish gatherings that hid his descent into madness."
   },
   {
    "q": "What happened to Medivh in the tower?",
@@ -46,7 +46,7 @@
     "medivh death",
     "fall of medivh"
    ],
-   "answer": "Unbeknownst to the world, Medivh had been possessed since birth by the spirit of the Dark Titan Sargeras. Under this demonic influence, he used the tower's magic to contact the warlock Gul'dan and open the Dark Portal. Discovering his treachery, his apprentice Khadgar, Lord Anduin Lothar, and the half-orc Garona infiltrated Karazhan and slew the Guardian, ending his corruption."
+   "answer": "Since birth, Medivh had been possessed by the spirit of the Dark Titan Sargeras. Under that influence, he used the tower's magic to contact the warlock Gul'dan and open the Dark Portal. Khadgar, Lord Anduin Lothar, and the half-orc Garona uncovered his treachery. They entered Karazhan and killed the Guardian, ending his corruption."
   },
   {
    "q": "Can you enter Karazhan right now?",
@@ -55,7 +55,7 @@
     "is karazhan open",
     "entering karazhan"
    ],
-   "answer": "No. The main gates and threshold of the tower remain tightly sealed and warded against intruders. While travelers can wander the abandoned village, crumbling church, and shadowy subterranean cellars surrounding the grounds, the spire itself is shut tight."
+   "answer": "No. The tower's main gates and threshold remain sealed and warded against intruders. You can wander the abandoned village, crumbling church, and shadowy cellars beneath the surrounding grounds, but the spire itself is shut tight."
   },
   {
    "q": "Why is the area around Karazhan so corrupted and dead?",
@@ -64,7 +64,7 @@
     "karazhan curse",
     "why deadwind pass empty"
    ],
-   "answer": "Karazhan sits atop a massive nexus of ley lines whose raw energy warps the region around it. Combined with the dark demonic sorceries Medivh unleashed inside, the surrounding canyon withered into the desolate wasteland known as Deadwind Pass."
+   "answer": "Karazhan sits above a vast meeting of ley lines, whose raw power twists the region around it. Along with the dark demonic sorcery Medivh unleashed inside, that power withered the surrounding canyon into the desolate wasteland called Deadwind Pass."
   },
   {
    "q": "Who are the Dark Riders connected to the tower?",
@@ -73,17 +73,17 @@
     "riders of deadwind pass",
     "karazhan riders"
    ],
-   "answer": "The Dark Riders are a merciless band of relic hunters who haunt Duskwood and the lands around Deadwind Pass, hunting down powerful artifacts. Who they truly are, and what binds them to the tower, remains a mystery."
+   "answer": "The Dark Riders are a merciless band of relic hunters who haunt Duskwood and the lands around Deadwind Pass in search of powerful artifacts. Who they are and what binds them to the tower remain a mystery."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Karazhan is a monument to the heights and perils of mortal sorcery. It houses an unmatched collection of artifacts and writings once kept out of the hands of the Kirin Tor, though its unstable ley lines threaten to consume any careless practitioner."
+   "text": "As a mage, you can see Karazhan as a monument to the heights and perils of mortal sorcery. Its unmatched collection of artifacts and writings was kept from the Kirin Tor, while unstable ley lines threaten to consume any careless practitioner."
   },
   {
    "target": "faction:Alliance",
-   "text": "The tower holds tragic significance for the kingdom of Stormwind. It was the home of Medivh\u2014boyhood friend of King Llane Wrynn and Anduin Lothar\u2014whose betrayal from within these walls unleashed the First War upon humanity."
+   "text": "As an Alliance member, you know Karazhan holds tragic meaning for Stormwind. Medivh lived there; he was a boyhood friend of King Llane Wrynn and Anduin Lothar. His betrayal within those walls unleashed the First War upon humanity."
   }
  ],
  "keywords": [
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "Karazhan"
- ]
+ ],
+ "style": 2
 }

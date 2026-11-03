@@ -24,16 +24,16 @@
    "Suntara Stones"
   ]
  },
- "summary": "A dying archaeologist in Searing Gorge urges you to release those whom the power of the Suntara still drives to keep at their labor, though their bodies have given out. Everything hinges on the altar of Suntara, and a relic guarded by Twilight's Hammer must be placed upon it.",
+ "summary": "In Searing Gorge, a dying archaeologist begs you to free those still laboring under Suntara's power. Their bodies have failed, and the relic guarded by Twilight's Hammer must be placed on Suntara's altar.",
  "sections": [
   {
    "title": "A Dying Plea",
-   "body": "Before collapsing, the archaeologist begs you to release them. Their bodies have given out, yet the Suntara's power drives them on to keep at their labor. The key, says the archaeologist, is the altar of Suntara.",
+   "body": "A dying archaeologist asks you to release those still at their labor, then collapses. Their bodies have given out, yet Suntara's power drives them on. The archaeologist says Suntara's altar is the key.",
    "spoiler": 0
   },
   {
    "title": "The Altar of Suntara",
-   "body": "Go northwest, to the hills above the cave. Idolaters of the Twilight's Hammer guard a relic there, called the Mysterious Artifact. Take it from them and bring it to the Slag Pit, to set upon the altar of Suntara.",
+   "body": "Northwest of the cave, in the hills above it, Twilight's Hammer Idolaters guard the Mysterious Artifact. Take the relic from them and carry it to the Slag Pit. There, set it upon Suntara's altar.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "who gives release them",
     "dying archaeologist"
    ],
-   "answer": "A dying archaeologist in Searing Gorge, who collapses after the plea."
+   "answer": "A dying archaeologist in Searing Gorge asks for help, then collapses."
   },
   {
    "q": "Where is the mysterious artifact located?",
@@ -54,7 +54,7 @@
     "where is the relic",
     "twilight's hammer idolaters"
    ],
-   "answer": "Twilight's Hammer Idolaters guard it in the northwest quadrant of Searing Gorge, in the hills above the cave."
+   "answer": "Twilight's Hammer Idolaters guard the Mysterious Artifact in the northwest quadrant of Searing Gorge, in the hills above the cave."
   },
   {
    "q": "Where must the artifact be delivered?",
@@ -63,7 +63,7 @@
     "where is the altar",
     "where do i take the artifact"
    ],
-   "answer": "It is carried to the Slag Pit and set on the altar of Suntara."
+   "answer": "Carry the artifact to the Slag Pit and set it on Suntara's altar."
   },
   {
    "q": "Why are the victims unable to rest?",
@@ -72,7 +72,7 @@
     "what is happening to them",
     "suntara power"
    ],
-   "answer": "The archaeologist says the Suntara's power drives them to keep at their labor, though their bodies have given out."
+   "answer": "The archaeologist says Suntara's power drives the victims to keep at their labor, though their bodies have given out."
   }
  ],
  "angles": [],
@@ -92,5 +92,6 @@
  ],
  "attribution": [
   "Release Them"
- ]
+ ],
+ "style": 2
 }

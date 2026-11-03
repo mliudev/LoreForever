@@ -10,16 +10,16 @@
    "quest:377"
   ]
  },
- "summary": "Darkshire demands proof that Dextren Ward has been executed in the Stormwind Stockade. The severed hand is bound for town, where grieving families await justice for their dead.",
+ "summary": "In Darkshire, grieving families await proof that Dextren Ward has been executed in the Stormwind Stockade. His severed hand is bound for town as a sign that justice has reached him.",
  "sections": [
   {
    "title": "A Defiler's Toll",
-   "body": "Dextren Ward was sentenced to death by Lord Ebonlocke after he was caught digging up bodies in Duskwood cemeteries and selling them to the necromancer Morbent Fel. Stormwind intervened before the town could execute him and took him to the Stockade. For Darkshire's grieving families, Ward's hand proves the defiler has been executed, despite the House of Nobles' unwanted leniency.",
+   "body": "Lord Ebonlocke sentenced Dextren Ward to death after he caught him digging up bodies in Duskwood cemeteries. Ward sold those bodies to the necromancer Morbent Fel. Stormwind intervened before Darkshire could execute him and took him to the Stockade. For the grieving families, Ward's hand proves the defiler has been executed, despite the House of Nobles' unwanted leniency.",
    "spoiler": 0
   },
   {
    "title": "A Message to the Nobles",
-   "body": "Councilman Millstipe's demand for Ward's severed hand also defies the crown. Duskwood feels abandoned by Stormwind's elite, who withhold military aid while asserting their authority when it suits them. Executing a prisoner in the capital's deepest dungeon and claiming his hand tells the House of Nobles that the Darkshire Council will enforce its own laws when the nobles fail them.",
+   "body": "Councilman Millstipe's demand for Ward's severed hand defies the crown as well. Duskwood feels abandoned by Stormwind's elite, who withhold military aid yet assert their authority when it suits them. By executing a prisoner in the capital's deepest dungeon and claiming his hand, the Darkshire Council tells the House of Nobles it will enforce its own laws when the nobles fail.",
    "spoiler": 1
   }
  ],
@@ -40,7 +40,7 @@
     "why cut off ward hand",
     "millstipe proof"
    ],
-   "answer": "Councilman Millstipe demands Ward's severed hand as proof of his assassination. It brings closure to the families whose ancestors' graves were plundered and tells the House of Nobles that Darkshire's justice cannot be overridden."
+   "answer": "Councilman Millstipe demands Ward's severed hand as proof of his execution. It brings closure to the families whose ancestors' graves were plundered and tells the House of Nobles that Darkshire's justice cannot be overridden."
   },
   {
    "q": "Where is the Hand of Dextren Ward found?",
@@ -64,7 +64,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, Ward's imprisonment exposes the deep rift between Stormwind's distant House of Nobles and Duskwood's abandoned frontier settlers."
+   "text": "For the Alliance, Ward's imprisonment reveals the deep rift between Stormwind's distant House of Nobles and Duskwood's abandoned frontier settlers."
   },
   {
    "target": "class:Mage",
@@ -96,5 +96,5 @@
   "Hand of Dextren Ward",
   "Crime and Punishment (Classic)"
  ],
- "style": 1
+ "style": 2
 }

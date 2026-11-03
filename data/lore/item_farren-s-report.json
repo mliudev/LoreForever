@@ -10,11 +10,11 @@
    "quest:563"
   ]
  },
- "summary": "In Southshore, Farren's Report carries Lieutenant Farren Orinelle's findings on the local naga. He hopes the dispatch will win him a return to Stormwind.",
+ "summary": "In Southshore, Lieutenant Farren Orinelle's report carries his findings on the local naga. He hopes the dispatch will win him a return to Stormwind.",
  "sections": [
   {
    "title": "A Ticket Out of Southshore",
-   "body": "Lieutenant Farren Orinelle grew tired of Southshore's embattled coast, its local leadership, and its remote frontier. He had adventurers hunt the Daggerspine naga to gather proof of their threat, then gathered the findings into a formal report. Farren plans to send it to Major Samuelson, captain of the guard in Stormwind Keep, rather than to his commanding officer, Marshal Redpath. Samuelson trained Farren, and Farren hopes the report will show his competence and earn him an immediate transfer back to Stormwind City's comforts.",
+   "body": "Lieutenant Farren Orinelle grew weary of Southshore's embattled coast, its leaders, and its remote frontier. He sent adventurers to hunt the Daggerspine naga and gather proof of their threat. Then he shaped their findings into a formal report.\n\nFarren plans to send the dispatch to Major Samuelson, captain of the guard in Stormwind Keep, instead of his commander, Marshal Redpath. Samuelson trained Farren, and Farren hopes the report will prove his competence and earn him an immediate transfer to Stormwind City's comforts.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what is this report",
     "orinelle report"
    ],
-   "answer": "Farren's Report is a military dispatch by Lieutenant Farren Orinelle, summarizing his operations against the Daggerspine naga encroaching on Southshore's beaches."
+   "answer": "Farren's Report records Lieutenant Farren Orinelle's operations against the Daggerspine naga threatening Southshore's beaches."
   },
   {
    "q": "Why does Farren want this delivered to Stormwind?",
@@ -35,7 +35,7 @@
     "farrens goal",
     "why samuelson"
    ],
-   "answer": "Farren hopes to leave Southshore and return to Stormwind City. He sends the report to Major Samuelson, his former mentor and captain of the Stormwind guard, hoping for a favorable transfer."
+   "answer": "Farren hopes to leave Southshore and return to Stormwind City. He sends the report to Major Samuelson, his former mentor and captain of the Stormwind guard, in hope of a favorable transfer."
   },
   {
    "q": "Why is Farren keeping the report a secret from Redpath?",
@@ -43,7 +43,7 @@
     "why hide from redpath",
     "ol redpath secret"
    ],
-   "answer": "Farren wants to avoid scrutiny from Marshal Redpath and local leadership. They might take offense at an officer using a local threat to arrange a personal transfer back to safety in the capital."
+   "answer": "Farren wants to avoid scrutiny from Marshal Redpath and Southshore's leaders. They might resent an officer using a local threat to arrange a personal transfer to safety in the capital."
   },
   {
    "q": "How does Major Samuelson react upon receiving it?",
@@ -51,13 +51,13 @@
     "samuelson reaction",
     "turn in reassignment"
    ],
-   "answer": "Major Samuelson praises his former student for taking initiative against the Southshore naga. He promises to consider the report when reviewing guard assignments in the coming month."
+   "answer": "Major Samuelson praises his former student for taking initiative against the Southshore naga. He promises to consider the report while reviewing guard assignments in the coming month."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, Farren's Report reveals the maneuvering within its military, as officers in distant Hillsbrad seek safer duty in Stormwind."
+   "text": "For the Alliance, Farren's Report reveals maneuvering within its military, as officers in distant Hillsbrad seek safer duty in Stormwind."
   },
   {
    "target": "race:Human",
@@ -88,5 +88,5 @@
   "Farren's Report",
   "Reassignment"
  ],
- "style": 1
+ "style": 2
 }

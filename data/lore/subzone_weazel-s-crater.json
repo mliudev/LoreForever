@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Weazel's Crater"
  },
- "summary": "Weazel's Crater is a deep gouge carved into the hard salt of the northern Shimmering Flats. Its origins are mysterious, and Saltstone basilisks inhabit the hollow.",
+ "summary": "Saltstone basilisks now sun themselves in the deep hollow of Weazel's Crater, while its origins remain unknown.",
  "sections": [
   {
    "title": "A Volatile Legacy",
-   "body": "Across the blinding white expanse of the Shimmering Flats, experimental goblin and gnome rocket-cars constantly push the boundaries of mechanical sanity. Debris, scorched earth, and impact hollows litter the plains, but Weazel's Crater stands out for its sheer size and depth. The crater's origins are unknown. Today, the mechanical wreckage has largely settled, and the hollow has been claimed as a sunning pit by aggressive Saltstone basilisks.",
+   "body": "Weazel's Crater cuts deep into the northern Shimmering Flats. Experimental goblin and gnome rocket-cars still race across the blinding salt, pushing mechanical limits. Scorched earth, debris, and impact hollows mark the plain, but none match the crater's size and depth. No one knows what formed it. The wreckage has largely settled, and aggressive Saltstone basilisks now sun themselves in the hollow.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "weazels crater origin",
     "why is there a crater here"
    ],
-   "answer": "The crater's origins are unknown. No cause is established."
+   "answer": "No one knows what caused Weazel's Crater. Its origins remain unexplained."
   },
   {
    "q": "What lives in the crater now?",
@@ -31,13 +31,13 @@
     "weazels crater mobs",
     "what is inside the crater"
    ],
-   "answer": "The depression is currently inhabited by dangerous Saltstone basilisks, which lurk along the rocky edges and bottom of the pit."
+   "answer": "Dangerous Saltstone basilisks inhabit the crater, lurking along its rocky edges and bottom."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The deep hollow lies amid the experimental racing machines and debris of the Shimmering Flats. Engineers visiting the speedway have good reason to study the hazardous terrain."
+   "text": "Weazel's Crater lies amid experimental racing machines and debris in the Shimmering Flats. As an engineer visiting the speedway, you have reason to study its hazardous terrain."
   }
  ],
  "keywords": [
@@ -56,5 +56,6 @@
  ],
  "attribution": [
   "Weazel's Crater"
- ]
+ ],
+ "style": 2
 }

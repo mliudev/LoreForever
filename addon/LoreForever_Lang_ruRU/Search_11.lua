@@ -2,6 +2,7 @@
 -- Sources: data/i18n/ruRU. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ruRU")
 local Po = P.search.post
+Po["дорогсумеречный"] = "ClYC"
 Po["дорогу"] = "AN4BApZBApcCAxpBAxsBA/tBBDpBBFcBBHZBBMMBBSWEBSXBBSZBBSbCBScBBShDBSkBBUyBBaYBBbCBBePBB0DBB0sBB0uBB0wBB06BCAOBCMYBCMcBCMhBCaiBCe+BCgNBChuBChvBChxBCh1BC5jBC5yBC6DBDBMBDCABDFQBDGABDGgBDR+BDb0BDcyBDdPBDmjBDmnBDmuBDm9BDu0BDz+CD5YBD6hBELGBEMCCEPCBEP3BEP6BEP9BEQKBEQUBEh8BEizBEi2BEm/CEnJBE6NBE7JBFAEBFEMBFFLBFLlBFMPBFRwDFRxBFTIBFbOBFjhBFsgBFuaBFvaBFwkBFwoBFxNBF59BF6ABF6CBF8xBF8zBGBJBGDFBGDHCGHuBGHxBGdEB"
 Po["дорогуburgess"] = "BSbC"
 Po["дорогуdillinger"] = "BShC"
@@ -12001,4 +12002,3 @@ Po["зачемдетали"] = "C/yC"
 Po["зачемджеку"] = "AlGC"
 Po["зачемдженеу"] = "ATHCERVCEUoC"
 Po["зачемджерарду"] = "CuvC"
-Po["зачемджерну"] = "BlqCBlsC"

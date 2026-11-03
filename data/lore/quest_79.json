@@ -17,16 +17,16 @@
   "wiki": "The Legend of Stalvan (10)",
   "chain": []
  },
- "summary": "In Darkshire, The Legend of Stalvan now rests on proof in muddy journal pages. Tavernkeep Smitts gives them to you and sends you to Commander Althea Ebonlocke.",
+ "summary": "In Darkshire, The Legend of Stalvan rests on muddy pages and new proof. Tavernkeep Smitts gives you the pages and sends you to Commander Althea Ebonlocke.",
  "sections": [
   {
    "title": "A Breakthrough in Darkshire",
-   "body": "Tavernkeep Smitts and Marshal Haggard once investigated the slaughter of a visiting noble family in Duskwood. Haggard was then a leader of the Stormwind Guard. They found torn, muddy journal pages at the scene, but had no handwriting samples or other papers to confirm who wrote them. The notes could not formally implicate the recluse rumored to live in the wilderness. Now, evidence gathered across Elwynn, Westfall, and Duskwood links the handwriting to Stalvan Mistmantle. The rumors have become proof of murder.",
+   "body": "Tavernkeep Smitts and Marshal Haggard once investigated the slaughter of a visiting noble family in Duskwood. Haggard then led the Stormwind Guard. At the scene, they found torn, muddy journal pages, but had no handwriting samples or other papers to confirm who wrote them. So the notes could not formally implicate the recluse rumored to live in the wilderness.\n\nNow evidence gathered across Elwynn, Westfall, and Duskwood links the handwriting to Stalvan Mistmantle. The old rumors have become proof of murder.",
    "spoiler": 0
   },
   {
    "title": "Taking It to the Watch",
-   "body": "Commander Althea Ebonlocke leads the Night Watch while Darkshire faces undead, feral beasts, and worse horrors in the forest. With the town's survival at stake, she has little time for tall tales or suspicions without proof. You bring Smitts's muddy pages to her, turning a cold case into a matter for the Night Watch. The pages record a massacre on Duskwood soil and give the Watch reason to treat Stalvan Mistmantle as a dangerous fugitive who must face justice.",
+   "body": "Commander Althea Ebonlocke leads the Night Watch as Darkshire faces undead, feral beasts, and worse horrors in the forest. With the town's survival at stake, she has little time for tall tales or suspicions without proof. You bring Smitts's muddy pages to her, making a cold case the Night Watch's concern. The pages record a massacre on Duskwood soil and give the Watch reason to treat Stalvan Mistmantle as a dangerous fugitive who must face justice.",
    "spoiler": 1
   }
  ],
@@ -121,5 +121,5 @@
  "attribution": [
   "The Legend of Stalvan (10)"
  ],
- "style": 1
+ "style": 2
 }

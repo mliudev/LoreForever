@@ -17,21 +17,21 @@
   "wiki": "Dark Storms (quest)",
   "chain": []
  },
- "summary": "In Durotar, Burning Blade cultists corrupt the land from Thunder Ridge. Orgnil Soulscar in Razor Hill has learned that the goblin warlock Fizzle Darkstorm leads them, and asks you to end his threat.",
+ "summary": "In Durotar, Burning Blade cultists corrupt the land from Thunder Ridge. Orgnil Soulscar in Razor Hill has learned that Fizzle Darkstorm leads them, and asks you to end his threat.",
  "sections": [
   {
    "title": "A Threat in the Ridge",
-   "body": "Orgnil Soulscar has learned that dark magic has taken hold in Thunder Ridge, northwest of Razor Hill. Burning Blade cultists prowl the ravine while young Horde defenders patrol Durotar’s borders. Their presence brings ruin to the wildlife and land.",
+   "body": "Orgnil Soulscar has learned that dark magic has taken hold in Thunder Ridge, northwest of Razor Hill. Burning Blade cultists prowl its ravine while young Horde defenders guard Durotar’s borders. The cultists bring ruin to the wildlife and land.",
    "spoiler": 0
   },
   {
    "title": "Fizzle Darkstorm",
-   "body": "Fizzle Darkstorm, a goblin warlock allied with the Burning Blade, directs the cultists in Thunder Ridge. He wields fel power for the cult rather than serving commerce or cartel interests. Slaying him and bringing back his twisted claw will show Orgnil that the cult’s leaders in the ravine have been struck down.",
+   "body": "Fizzle Darkstorm is a goblin warlock allied with the Burning Blade. He directs the cultists in Thunder Ridge and wields fel power for the cult, not for commerce or cartel interests. Slay him and bring back his twisted claw. Then Orgnil will know the ravine’s leaders have been struck down.",
    "spoiler": 0
   },
   {
    "title": "Rooting Out the Cult",
-   "body": "The Burning Blade embodies the demonic servitude, corruption, and bloodthirsty madness Thrall’s new Horde seeks to leave behind. Fizzle’s death removes an active conspirator from Durotar’s interior. The shadow over the orcish homeland reaches beyond isolated encampments.",
+   "body": "The Burning Blade embodies demonic servitude, corruption, and bloodthirsty madness. Thrall’s new Horde seeks to leave that past behind. Fizzle’s death removes an active conspirator from Durotar’s interior. The shadow over the orcish homeland reaches beyond isolated encampments.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "fizzle darkstorm lore",
     "fizzle goblin"
    ],
-   "answer": "Fizzle Darkstorm is a goblin warlock working for the Burning Blade cult. He and his followers shelter in Thunder Ridge and spread demonic chaos through the ravine, until Orgnil Soulscar calls for his execution."
+   "answer": "Fizzle Darkstorm is a goblin warlock working for the Burning Blade cult. He and his followers shelter in Thunder Ridge and spread demonic chaos through the ravine. Orgnil Soulscar calls for his execution."
   },
   {
    "q": "Where is Thunder Ridge located?",
@@ -70,7 +70,7 @@
     "fizzle's claw meaning",
     "proof of death fizzle"
    ],
-   "answer": "Orgnil wants Fizzle’s claw as unmistakable proof that the warlock is dead. It confirms that the head of the Thunder Ridge cultists can no longer direct their operations."
+   "answer": "Orgnil wants Fizzle’s claw as unmistakable proof that the warlock is dead. It confirms the head of the Thunder Ridge cultists can no longer direct their operations."
   },
   {
    "q": "What happens after Fizzle is slain?",
@@ -102,11 +102,11 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you help secure Durotar’s heart from demonic subversion, so the Horde can turn its defenses outward without collapsing from within."
+   "text": "As a member of the Horde, you help secure Durotar’s heart from demonic subversion. Then the Horde can turn its defenses outward without collapsing from within."
   },
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you know Fizzle’s dark rites and his minions disturb Thunder Ridge’s natural spirits and agitate its beasts. The elemental balance must be restored."
+   "text": "As a shaman, you know Fizzle’s dark rites and minions disturb Thunder Ridge’s natural spirits and agitate its beasts. The elemental balance must be restored."
   }
  ],
  "keywords": [
@@ -130,5 +130,5 @@
  "attribution": [
   "Dark Storms (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The fallen messenger Eralya and her sisters are Sentinels serving in Teldrassil. Seeing night elf defenders ambushed by harpies near the sacred Oracle Tree cuts straight to the heart of the bough's escalating perils."
+   "text": "Eralya and her sisters are Sentinels serving in Teldrassil. Harpies ambushed them near the Oracle Tree, showing the danger facing the bough."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance adventurers exploring Teldrassil are called upon to carry urgent word back to settlement outposts like Dolanaar when field scouts are cut off and overwhelmed."
+   "text": "As an Alliance adventurer in Teldrassil, you may need to carry urgent word to settlements like Dolanaar when field scouts are cut off and overwhelmed."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "eralya quest",
     "dying night elf"
    ],
-   "answer": "Eralya is a night elf sentinel or messenger who was ambushed while on a mission to the Oracle Tree. Clinging to life and coughing up blood, she implores passing adventurers to deliver word of her unit's fate before her time runs out.",
+   "answer": "Eralya is a night elf messenger ambushed while carrying out a mission toward the Oracle Tree. Mortally wounded and coughing blood, she asks travelers to carry word of her unit's fate.",
    "q": "Who is Eralya?"
   },
   {
@@ -37,7 +37,7 @@
     "oracle glade tree",
     "where was eralya going"
    ],
-   "answer": "The Oracle Tree is an ancient landmark located in Teldrassil's Oracle Glade. Eralya and her sisters were dispatched there with an urgent message before being overwhelmed along the way.",
+   "answer": "The Oracle Tree is an ancient landmark in Teldrassil's Oracle Glade. Eralya and her sisters were sent there with an urgent message, but harpies overwhelmed them along the way.",
    "q": "What is the Oracle Tree?"
   },
   {
@@ -46,7 +46,7 @@
     "who ambushed her",
     "why is eralya bleeding"
    ],
-   "answer": "Eralya and her sisters were ambushed and overrun by harpies infesting the boughs of Teldrassil. The creatures swarmed in great numbers, cutting down the patrol and leaving Eralya mortally wounded.",
+   "answer": "Harpies ambushed Eralya and her sisters in Teldrassil's boughs. The creatures overran the patrol and left Eralya mortally wounded.",
    "q": "What happened to Eralya and her patrol?"
   },
   {
@@ -55,7 +55,7 @@
     "where is byancie",
     "byancie dolanaar"
    ],
-   "answer": "Byancie is a contact stationed in the night elf village of Dolanaar. Eralya urgently asks that word of the harpies' ambush and the patrol's plight be brought directly to Byancie.",
+   "answer": "Byancie is a contact in the night elf village of Dolanaar. Eralya asks you to bring her word of the harpy ambush and her patrol's plight.",
    "q": "Who is Byancie?"
   },
   {
@@ -64,7 +64,7 @@
     "eralya delivery",
     "where is dolanaar"
    ],
-   "answer": "Dolanaar is the primary night elf village situated along the roadway south of the Shadowglen on Teldrassil. Byancie resides there to receive reports and coordinate local defense efforts.",
+   "answer": "Eralya's message is meant for Byancie in Dolanaar. The village is the primary night elf settlement on the road south of Shadowglen in Teldrassil. Byancie lives there and receives reports and coordinates local defense efforts.",
    "q": "Where must Eralya's message be delivered?"
   },
   {
@@ -72,7 +72,7 @@
     "what happened to eralyas sisters",
     "sentinel patrol sisters"
    ],
-   "answer": "Eralya's fellow night elf sentinels were separated or slain during the vicious harpy assault. With no reinforcements in sight, Eralya feared that none of her sisters escaped the onslaught.",
+   "answer": "Harpies separated or killed Eralya's fellow night elf sentinels during the attack. With no reinforcements in sight, Eralya feared none of her sisters had escaped.",
    "q": "What happened to the other sisters on the mission?"
   }
  ],
@@ -90,18 +90,19 @@
  ],
  "sections": [
   {
-   "body": "A desperate plea in the wilderness of Teldrassil, 'Not Dead Yet' centers on Eralya, a wounded night elf messenger found bleeding and clinging to life. Sent on a crucial mission toward the sacred Oracle Tree alongside her sisters, the patrol was violently ambushed and cut down by encroaching harpies. With no help coming and her own strength fading rapidly, Eralya entrusts passing travelers with carrying urgent news back to safety.",
+   "body": "Eralya lies wounded in the wilderness of Teldrassil. Her patrol was ambushed while she and her sisters traveled toward the Oracle Tree. Harpies attacked and cut down the patrol. With her strength fading and no help coming, she entrusts passing travelers with carrying word back to safety.",
    "spoiler": 0,
    "title": "An Ambushed Patrol"
   },
   {
-   "body": "Through ragged breaths and coughing up blood, Eralya begs the player to carry her report to Byancie in the nearby village of Dolanaar. The harpies that infest the great boughs of Teldrassil have grown increasingly bold and aggressive, posing a deadly threat to lone messengers and sentinels trying to navigate the forest paths. Delivering Eralya's plea ensures that the settlement of Dolanaar learns of the ambush at the Oracle Tree before more lives are lost.",
+   "body": "Eralya asks you to bring her report to Byancie in Dolanaar. Harpies in Teldrassil's great boughs have grown bolder and more aggressive. They threaten lone messengers and sentinels on the forest paths. Byancie's village needs to hear of the ambush at the Oracle Tree before more lives are lost.",
    "spoiler": 0,
    "title": "A Cry for Dolanaar"
   }
  ],
- "summary": "'Not Dead Yet' is an urgent plea from Eralya, a mortally wounded night elf discovered after a disastrous mission toward the Oracle Tree. Overwhelmed by vicious harpies, she begs travelers to deliver word of her patrol's fate to Byancie in Dolanaar. It highlights the deadly threats encroaching upon the woodland paths of Teldrassil.",
+ "summary": "In Teldrassil, Eralya needs word carried to Dolanaar. Mortally wounded after a patrol toward the Oracle Tree was overwhelmed by harpies, she asks travelers to tell Byancie what became of her sisters.",
  "attribution": [
   "In-game quest text: Not Dead Yet"
- ]
+ ],
+ "style": 2
 }

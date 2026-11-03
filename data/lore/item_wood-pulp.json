@@ -10,16 +10,16 @@
    "quest:846"
   ]
  },
- "summary": "At Bael Modan, Wood Pulp helps the dwarves prepare their blasting charges. The dwarven personnel stationed in the southern Barrens carry it as an absorbent base for stabilizing liquid explosives.",
+ "summary": "At Bael Modan, Wood Pulp helps dwarven forces prepare their blasting charges. They carry it as an absorbent base for stabilizing liquid explosives.",
  "sections": [
   {
    "title": "A Volatile Recipe",
-   "body": "At Bael Modan, Ironforge dwarves use earth-moving equipment and chemical explosives to tear into ancestral tauren hunting grounds. Liquid nitroglycerin is unstable on its own, so dwarven engineers soak it into porous wood pulp with sodium nitrate to make stable charges for excavation and combat. Riflemen, soldiers, and officers carry bundles for sapping and field munitions.",
+   "body": "At Bael Modan, Ironforge dwarves use earth-moving equipment and chemical explosives to cut into ancestral tauren hunting grounds. Liquid nitroglycerin is unstable alone, so engineers soak it into porous wood pulp with sodium nitrate. The mixture makes stable charges for excavation and combat. Riflemen, soldiers, and officers carry bundles for sapping and field munitions.",
    "spoiler": 0
   },
   {
    "title": "Turned Against the Keep",
-   "body": "After Prospector Khazgorm fell, Gann Stonespire recovered the dwarves' blasting schematics. The displaced tauren warrior uses those practices against the invaders encroaching on his tribe's lands. From the Bael'dun garrison, Gann reclaims wood pulp, nitroglycerin, and nitrates to make a charge intended to destroy the dwarves' flying machine at Bael Modan.",
+   "body": "After Prospector Khazgorm fell, Gann Stonespire recovered the dwarves' blasting schematics. The displaced tauren warrior turns those practices against the invaders encroaching on his tribe's lands. From the Bael'dun garrison, Gann gathers wood pulp, nitroglycerin, and nitrates for a charge meant to destroy the dwarves' flying machine at Bael Modan.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "wood pulp purpose",
     "what does wood pulp do"
    ],
-   "answer": "At Bael Modan, dwarven engineers use wood pulp as an absorbent base for munitions. They soak unstable liquid nitroglycerin into it, making demolition charges safer for sappers to carry and handle."
+   "answer": "At Bael Modan, dwarven engineers use wood pulp to absorb liquid nitroglycerin. The mixture makes demolition charges safer for sappers to carry and handle."
   },
   {
    "q": "Who carries wood pulp in the Barrens?",
@@ -40,7 +40,7 @@
     "who drops wood pulp",
     "wood pulp location"
    ],
-   "answer": "Dwarven forces stationed at Bael Modan in the southern Barrens carry wood pulp. They include Bael'dun soldiers, riflemen, officers, and their commanding lord, Cyrik Blackforge."
+   "answer": "Dwarven forces at Bael Modan in the southern Barrens carry wood pulp. They include Bael'dun soldiers, riflemen, officers, and their commanding lord, Cyrik Blackforge."
   },
   {
    "q": "Why does Gann Stonespire need this wood pulp?",
@@ -57,17 +57,17 @@
     "is wood pulp explosive",
     "can wood pulp blow up"
    ],
-   "answer": "No. Raw wood pulp is shredded wood fiber; it becomes dangerous only when combined with volatile chemicals such as nitroglycerin and an oxidizer such as sodium nitrate."
+   "answer": "No. Raw wood pulp is shredded wood fiber. It becomes dangerous when combined with volatile chemicals such as nitroglycerin and an oxidizer such as sodium nitrate."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Engineers know wood pulp can absorb nitroglycerin and a nitrate oxidizer, stabilizing the volatile liquid in durable dynamite."
+   "text": "As an engineer, you know wood pulp can absorb nitroglycerin and a nitrate oxidizer. Together, they stabilize the volatile liquid in durable dynamite."
   },
   {
    "target": "race:Tauren",
-   "text": "As a tauren of the Stonespire tribe, you see the invaders' munitions turned against Bael Modan as justice for the destruction of your ancestral home."
+   "text": "As a tauren of the Stonespire tribe, you see the invaders' munitions turned against Bael Modan. That is justice for the destruction of your ancestral home."
   }
  ],
  "keywords": [
@@ -93,5 +93,5 @@
   "Wood Pulp",
   "Revenge of Gann"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Ethel Rethor"
  },
- "summary": "Ethel Rethor is an ancient night elven ruin situated along the rugged northwestern coast of Desolace. While a solitary, sealed tower still rises above the waves, the majority of the sunken settlement now lies submerged in the sea and overrun by hostile naga.",
+ "summary": "Along Desolace's northwestern coast, Ethel Rethor's drowned halls lie beneath the sea. A sealed tower rises above the waves, while naga hold the sunken settlement.",
  "sections": [
   {
    "title": "A Drowned Relic",
-   "body": "Perched on the desolate coast of western Kalimdor, Ethel Rethor stands as a haunting reminder of the ancient night elven civilization that flourished before the Great Sundering. Much of the grand architecture has collapsed into the ocean depths, leaving only shattered foundations and a lone, weathered tower protruding from the surf. A small bridge extends toward the tower's sealed portal, but the structure remains shut tight against the elements and intruders alike. The submerged chambers and surrounding shallows have become a stronghold for coastal naga, making the waters treacherous for any who wander near.",
+   "body": "Ethel Rethor's broken stones line the coast of western Kalimdor. Before the Great Sundering, a night elven settlement stood here, but much of it has since fallen beneath the sea. Shattered foundations lie under the waves, and one weathered tower rises from the surf. A small bridge reaches its sealed portal, still closed against the elements and intruders. Naga now hold the drowned chambers and nearby shallows, making these waters dangerous to approach.",
    "spoiler": 0
   },
   {
    "title": "Watchers on the Shore",
-   "body": "Despite its remote location and serpentine infestation, Ethel Rethor draws travelers interested in Kalimdor's forgotten histories and ongoing threats. An agent of the Argent Dawn, Azore Aldamort, maintains a watchful presence near the ruins, monitoring the naga menace and offering aid to intrepid adventurers willing to dive into the sunken passages. Between the aquatic dangers offshore and the barren wastes inland, the ruins serve as a lonely coastal crossroads.",
+   "body": "Travelers come to Ethel Rethor to study Kalimdor's forgotten history and watch its dangers today. Near the ruins, Azore Aldamort serves the Argent Dawn. He watches the naga and offers aid to those willing to dive into the sunken passages. The waters offshore are dangerous, and barren wastes stretch inland. So the ruins remain a lonely meeting place on the coast.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is this place desolace",
     "ethel rethor ruin"
    ],
-   "answer": "Ethel Rethor is a ruined night elven coastal settlement in northwestern Desolace. Most of its former structures are now submerged beneath the sea, leaving behind a solitary offshore tower and drowned stonework."
+   "answer": "Ethel Rethor's ruined night elven settlement lies on Desolace's northwestern coast. Most of its former structures have sunk beneath the sea, leaving a solitary tower offshore and drowned stonework."
   },
   {
    "q": "Who controls Ethel Rethor now?",
@@ -37,7 +37,7 @@
     "ethel rethor monsters",
     "naga at ethel rethor"
    ],
-   "answer": "The sunken ruins and adjacent reefs are occupied by naga. Like many ancient Kaldorei sites along the coast, the serpentine creatures have laid claim to the drowned halls and patrol the surrounding shallows aggressively."
+   "answer": "Naga occupy Ethel Rethor's sunken ruins and nearby reefs. They have claimed the drowned halls and patrol the surrounding shallows aggressively."
   },
   {
    "q": "Can you go inside the tower?",
@@ -46,7 +46,7 @@
     "ethel rethor door",
     "inside ethel rethor"
    ],
-   "answer": "The tower rising from the sea features a small bridge leading to an entrance, but the doorway remains firmly sealed shut. Travelers can only explore its exterior and dive into the sunken ruins beneath it."
+   "answer": "A small bridge leads to the tower's entrance, but the doorway is sealed shut. Travelers can explore its exterior and dive into the ruins beneath it."
   },
   {
    "q": "Why is the Argent Dawn here?",
@@ -55,17 +55,17 @@
     "azore aldamor ethel rethor",
     "argent dawn npc desolace"
    ],
-   "answer": "An Argent Dawn representative, Azore Aldamort, is stationed near the ruins. While the Dawn primarily focuses on the Scourge in the east, their operatives across Kalimdor monitor unusual magical disturbances, ancient ruins, and emerging threats like the naga."
+   "answer": "Azore Aldamort, an Argent Dawn representative, keeps watch near Ethel Rethor. Though the Dawn focuses on the Scourge in the east, its agents across Kalimdor monitor unusual magical disturbances, ancient ruins, and threats such as the naga."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, Ethel Rethor is a somber monument to their lost empire, reminding them of the cataclysmic Sundering and the mutated brethren who now prowl the sunken halls."
+   "text": "For night elves, Ethel Rethor is a somber monument to their lost empire and the cataclysmic Sundering. Mutated brethren now prowl its sunken halls."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance travelers moving through the hostile barrens of Desolace can find a rare neutral friendly face stationed near the ruins in the Argent Dawn observer Azore Aldamort."
+   "text": "As an Alliance traveler crossing Desolace's hostile barrens, you can find a rare friendly face near the ruins: Azore Aldamort, an Argent Dawn observer."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Ethel Rethor"
- ]
+ ],
+ "style": 2
 }

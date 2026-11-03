@@ -8,16 +8,16 @@
   "wiki": "Lord Pythas",
   "refs": 5
  },
- "summary": "Lord Pythas, once a night elf warrior, is one of the four corrupted leaders of the Druids of the Fang in the Wailing Caverns. Originally one of the personal guards of the druid Naralex, he fell victim to the nightmare tainting the oasis underground. Now he wields both martial might and twisted serpent magic against any who try to reach his slumbering master.",
+ "summary": "Deep in the Wailing Caverns, Lord Pythas guards Naralex's slumber. Once a night elf warrior in Naralex's personal guard, he now leads the corrupted Druids of the Fang. His skill in battle and serpent magic bar the way to his master.",
  "sections": [
   {
    "title": "A Guardian Falls",
-   "body": "Before his corruption, Pythas was a seasoned night elf warrior who served among the druid Naralex's personal guard when the expedition ventured into the dry wastes of the Barrens. Alongside his martial training, he took up the druidic arts in service of Naralex's dream of restoring lush life to the arid realm. However, physical discipline and martial valor offered no shelter against the insidious corruption waiting deep within the subterranean fissures.",
+   "body": "Pythas joined Naralex's personal guard when the druid's expedition entered the Barrens' dry wastes. A seasoned night elf warrior, he studied druidism to help Naralex restore life to the arid realm. Yet discipline and valor could not shield him from the corruption hidden in the caverns' depths.",
    "spoiler": 0
   },
   {
    "title": "The Lethal Sentinel",
-   "body": "When Naralex's connection to the Emerald Dream was hijacked by dark nightmares, Pythas's mind succumbed alongside those of his fellow acolytes. Abandoning his former loyalty, he became one of the leaders of the Druids of the Fang. Where his fellow serpent lords favor cunning spellcasting or beast forms, Pythas seamlessly blends lethal combat prowess with nature magic. He now prowls the winding tunnels of the caverns, determined to defend the nightmare's twisted grip on the cavern spring.",
+   "body": "Dark nightmares seized Naralex's connection to the Emerald Dream. Pythas and his fellow acolytes fell under their sway. He forsook his old loyalty and became a leader of the Druids of the Fang.\n\nSome serpent lords favor spells or beast forms. Pythas wields nature magic alongside deadly combat skill. Now he prowls the winding caverns and guards the nightmare's hold on the spring.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who is pythas",
     "lord pythas lore"
    ],
-   "answer": "Lord Pythas was originally a night elf warrior who served as one of Naralex's personal guards and also studied druidism to assist his master's work in the Barrens."
+   "answer": "Lord Pythas once served in Naralex's personal guard and studied druidism to aid his master's work in the Barrens. He was a night elf warrior."
   },
   {
    "q": "Why did he turn against Naralex?",
@@ -37,7 +37,7 @@
     "how did pythas go mad",
     "why did he become druid of the fang"
    ],
-   "answer": "Pythas did not betray Naralex willingly. When Naralex attempted to tap into the Emerald Dream to heal the Barrens, a nightmare seized the archdruid's thoughts. The corrupting dream seeped into the minds of his acolytes, stripping away Pythas's sanity and remaking him into a serpent lord."
+   "answer": "Pythas turned against Naralex after a nightmare seized the archdruid's thoughts as he reached into the Emerald Dream to heal the Barrens. Corruption spread through Naralex's acolytes, stripping Pythas of his sanity and remaking him as a serpent lord."
   },
   {
    "q": "What makes Pythas different from the other Fang leaders?",
@@ -45,7 +45,7 @@
     "pythas fighting style",
     "pythas vs other leaders"
    ],
-   "answer": "Unlike the other leaders who rely purely on nature magic and beast forms, Pythas was a seasoned warrior before training as a druid. He combines martial combat skill with druidic magic, making him one of the most physically formidable defenders in the caverns."
+   "answer": "Pythas was a seasoned warrior before training as a druid, and he joins martial skill with nature magic. The other Fang leaders rely on nature magic and beast forms."
   },
   {
    "q": "Why do adventurers need to defeat him?",
@@ -53,7 +53,7 @@
     "leaders of the fang quest",
     "gem of pythas"
    ],
-   "answer": "Pythas carries one of the four enchanted gems needed to complete the quest Leaders of the Fang. The quest is given by the druid Nara Wildmane in Thunder Bluff, who requires the gems of all four Fang leaders to free the Barrens from their twisted dreams."
+   "answer": "Pythas guards one of four enchanted gems needed to free the Barrens from the Fang leaders' twisted dreams. Nara Wildmane, a druid in Thunder Bluff, seeks all four gems."
   },
   {
    "q": "Where can Lord Pythas be found?",
@@ -61,7 +61,7 @@
     "pythas location",
     "where is pythas"
    ],
-   "answer": "Lord Pythas lurks within the deep interior chambers of the Wailing Caverns, surrounded by corrupted beasts and fellow Fang cultists."
+   "answer": "Lord Pythas lurks in the deep chambers of the Wailing Caverns, among corrupted beasts and fellow Fang cultists."
   },
   {
    "q": "What happens to his gem?",
@@ -69,21 +69,21 @@
     "gem of pythas use",
     "what is gem of pythas"
    ],
-   "answer": "Upon his defeat, the Gem of Pythas is recovered from his remains. Adventurers bring it, along with the gems of the other three serpent lords, to Nara Wildmane in Thunder Bluff to prove the leadership of the Fang has been broken."
+   "answer": "After Pythas is defeated, the Gem of Pythas can be recovered from his remains. The four serpent lords' gems are brought to Nara Wildmane in Thunder Bluff as proof that the Fang's leadership has been broken."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Pythas represents the tragic fate of a promising acolyte who embraced nature magic out of devotion, only to have the Emerald Dream's corruption twist his teachings into a viperous heresy."
+   "text": "As a druid, Pythas shows how corruption in the Emerald Dream can twist devotion to nature magic."
   },
   {
    "target": "class:Warrior",
-   "text": "Before he was corrupted into a serpent cultist, Pythas was a disciplined night elf warrior and personal protector\u2014a grim reminder that martial prowess alone cannot stave off mental madness."
+   "text": "As a warrior, remember that Pythas was a disciplined night elf fighter and personal protector before corruption took hold. Martial skill alone could not guard his mind."
   },
   {
    "target": "race:NightElf",
-   "text": "Watching a respected protector like Pythas fall to dark madness is a bitter sorrow for any night elf seeking to restore balance to the scarred soils of Kalimdor."
+   "text": "As a night elf seeking to restore balance to Kalimdor's scarred soils, Pythas's fall to madness is a bitter sorrow."
   }
  ],
  "keywords": [
@@ -105,5 +105,6 @@
  ],
  "attribution": [
   "Lord Pythas"
- ]
+ ],
+ "style": 2
 }

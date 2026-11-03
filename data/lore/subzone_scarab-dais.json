@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Scarab Dais"
  },
- "summary": "The Scarab Dais is an ancient raised platform situated northwest of the Scarab Wall in southern Silithus. It holds the legendary Scarab Gong, the ritual instrument tied directly to the magical wards sealing the qiraji empire within Ahn'Qiraj.",
+ "summary": "Northwest of the Scarab Wall, the Scarab Dais holds the Scarab Gong in southern Silithus. The gong is tied to the wards that seal the qiraji within Ahn'Qiraj.",
  "sections": [
   {
    "title": "The Gong of Ahn'Qiraj",
-   "body": "Overlooking the shifting sands before the colossal barrier of the Scarab Wall, the Scarab Dais serves as the focal point for the seal placed upon Ahn'Qiraj a millennium ago. Upon this stone dais rests the Scarab Gong, a relic forged during the War of the Shifting Sands. According to ancient night elven history and the bronze dragonflight, striking this gong with the reconstructed Scepter of the Shifting Sands is the only means to shatter the magical barrier and breach the gates. Until that fateful moment arrives, the platform remains an ominous vigil over the sealed insectoid horrors slumbering beyond the wall.",
+   "body": "Before the Scarab Wall, the Scarab Dais overlooks the sands where Ahn'Qiraj was sealed a millennium ago. The Scarab Gong rests on its stone platform, forged during the War of the Shifting Sands. Ancient night elven history and the bronze dragonflight say only the reconstructed Scepter of the Shifting Sands can break the magical barrier when it strikes the gong. Until then, horrors remain sealed beyond the wall.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "scarab dais info",
     "gong platform"
    ],
-   "answer": "The Scarab Dais is a stone ceremonial terrace in southern Silithus, perched just northwest of the Scarab Wall. It was constructed to house the Scarab Gong, which controls the magical wards sealing Ahn'Qiraj."
+   "answer": "The Scarab Dais is a stone ceremonial terrace in southern Silithus, northwest of the Scarab Wall. It was built to house the Scarab Gong, which controls the magical wards sealing Ahn'Qiraj."
   },
   {
    "q": "What happens if someone rings the gong on the dais?",
@@ -32,7 +32,7 @@
     "ring scarab gong",
     "bang a gong"
    ],
-   "answer": "Legend says that striking the Scarab Gong with the restored Scepter of the Shifting Sands will shatter the wards across the Scarab Wall, unsealing the gates of Ahn'Qiraj and releasing the qiraji armies imprisoned within."
+   "answer": "Legend says striking the Scarab Gong with the restored Scepter of the Shifting Sands will shatter the wards across the Scarab Wall. The gates of Ahn'Qiraj will open, releasing the qiraji armies imprisoned within."
   },
   {
    "q": "Who watches over the Scarab Dais?",
@@ -41,13 +41,13 @@
     "bronze dragons at the dais",
     "jonathan the revelator"
    ],
-   "answer": "Jonathan the Revelator, a human Watcher of the bronze dragonflight known as the keeper of the Scarab Gong, keeps vigil atop the dais over the gong and the sealed gate beyond."
+   "answer": "Jonathan the Revelator, a human Watcher of the bronze dragonflight and keeper of the Scarab Gong, watches over the gong and the sealed gate beyond from atop the dais."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the kaldorei, the Scarab Dais is a stark reminder of the tragic War of the Shifting Sands a thousand years ago, where night elves and dragonflights paid in blood to seal the qiraji behind the wall."
+   "text": "For the kaldorei, the Scarab Dais recalls the tragic War of the Shifting Sands a thousand years ago. Night elves and dragonflights paid in blood to seal the qiraji behind the wall."
   }
  ],
  "keywords": [
@@ -65,5 +65,6 @@
  ],
  "attribution": [
   "Scarab Dais"
- ]
+ ],
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Consumed by Hatred (Classic)",
   "chain": []
  },
- "summary": "Mankrik turns his grief at the Crossroads into a campaign against the Bristleback quilboar. The orc was separated from his wife in a violent ambush, and now he calls on Horde travelers to kill the creatures and bring back their tusks.",
+ "summary": "At the Crossroads, Mankrik turns his grief into a campaign against the Bristleback quilboar. Separated from his wife in a violent ambush, the orc calls on Horde travelers to kill the creatures and bring back their tusks.",
  "sections": [
   {
    "title": "A Husband's Vengeance",
-   "body": "Mankrik carries the grief of a quilboar ambush that left him battered and his wife missing. At the Crossroads, he watches the arid horizon, still thirsting for the blood of the Bristlebacks despite the many he has killed himself. He calls on fellow Horde travelers to help him continue the fight.",
+   "body": "Mankrik still bears the grief of the quilboar ambush that battered him and left his wife missing. At the Crossroads, he looks toward the arid horizon and thirsts for Bristleback blood, though he has killed many himself. Now he calls on fellow Horde travelers to help him carry on the fight.",
    "spoiler": 0
   },
   {
    "title": "Tusks of the Bristleback",
-   "body": "Mankrik demands sixty Bristleback quilboar tusks. Each one is a measure of suffering returned to the creatures that tore his life apart. The trophies cannot heal his grief or end his desire for revenge, but seeing the Bristlebacks bleed brings the wounded warrior a fleeting, bitter satisfaction.",
+   "body": "Mankrik demands sixty Bristleback quilboar tusks. Each one marks suffering returned to the creatures that tore his life apart. The trophies cannot heal his grief or end his desire for revenge. Yet seeing the Bristlebacks bleed brings the wounded warrior a fleeting, bitter satisfaction.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "mankrik tusks quest",
     "why so many tusks"
    ],
-   "answer": "Mankrik wants sixty tusks because grief and anger drive him after a quilboar ambush separated him from his wife. The tally calls for heavy losses among the Bristlebacks, and their suffering offers him a little solace."
+   "answer": "Grief and anger drive Mankrik to seek sixty tusks after a quilboar ambush separated him from his wife. The tally means heavy losses for the Bristlebacks, and their suffering gives him a little solace."
   },
   {
    "q": "Where does this quest take place?",
@@ -46,7 +46,7 @@
     "where is consumed by hatred",
     "consumed by hatred location"
    ],
-   "answer": "Mankrik asks for the tusks at the Crossroads in the central Barrens. The Bristleback quilboar live in nearby scrublands and thorned redoubts."
+   "answer": "Mankrik asks for the tusks at the Crossroads in the central Barrens. Bristleback quilboar live in nearby scrublands and thorned redoubts."
   },
   {
    "q": "Does turning in the tusks satisfy Mankrik's revenge?",
@@ -54,7 +54,7 @@
     "does mankrik stop hating quilboar",
     "mankrik quest ending"
    ],
-   "answer": "No. Mankrik's desire for revenge remains, though the quilboar's losses bring a grim smile and make him feel they have finally felt his pain."
+   "answer": "No. Mankrik still wants revenge, though the quilboar's losses bring a grim smile and make him feel they have finally known his pain."
   },
   {
    "q": "Why does Mankrik mention Camp Taurajo?",
@@ -62,7 +62,7 @@
     "why taurajo",
     "camp taurajo mankrik"
    ],
-   "answer": "Mankrik wonders whether fleeing south toward Camp Taurajo instead of north to the Crossroads after the ambush might have changed the battle's outcome and his search."
+   "answer": "Mankrik wonders whether fleeing south toward Camp Taurajo, instead of north to the Crossroads, after the ambush might have changed the battle's outcome and his search."
   },
   {
    "q": "Who are the Bristlebacks?",
@@ -70,7 +70,7 @@
     "what are bristlebacks",
     "bristleback tribe"
    ],
-   "answer": "The Bristlebacks are an aggressive quilboar tribe native to the Barrens. They are intensely territorial and xenophobic, clash constantly with the Horde, and attack travelers from thorn-choked encampments across the plains."
+   "answer": "The Bristlebacks are an aggressive quilboar tribe native to the Barrens. Intensely territorial and distrustful of outsiders, they clash constantly with the Horde and attack travelers from thorn-choked encampments across the plains."
   },
   {
    "q": "Is this connected to finding Mankrik's wife?",
@@ -78,21 +78,21 @@
     "lost in battle connection",
     "mankriks wife quest"
    ],
-   "answer": "Yes. Mankrik's hatred began with the ambush that overwhelmed him and his wife. As you search the plains for her fate in Lost in Battle, his demand for tusks is a call for revenge against her attackers."
+   "answer": "Yes. Mankrik's hatred began with the ambush that overwhelmed him and his wife. As you search the plains for her fate in Lost in Battle, his demand for tusks calls for revenge against her attackers."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "As an orc, you may recognize Mankrik's grief and his drive to avenge fallen kin in the traditions of orcish honor and the harsh work of making a home in Kalimdor."
+   "text": "As an orc, you may know Mankrik's grief and his drive to avenge fallen kin through orcish honor and the hard work of making a home in Kalimdor."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you face quilboar threats to travel routes between Durotar, Mulgore, and the southern Barrens. Mankrik's fight also protects Horde territory."
+   "text": "As a member of the Horde, you face quilboar threats along travel routes between Durotar, Mulgore, and the southern Barrens. Mankrik's fight also protects Horde territory."
   },
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you know a wound to the heart cannot always be bandaged. Mankrik seeks his remedy in steel against steel across the thorned plains."
+   "text": "As a warrior, you know a wound to the heart cannot always be bandaged. Mankrik seeks his remedy with steel against steel across the thorned plains."
   }
  ],
  "keywords": [
@@ -114,5 +114,5 @@
  "attribution": [
   "Consumed by Hatred (Classic)"
  ],
- "style": 1
+ "style": 2
 }

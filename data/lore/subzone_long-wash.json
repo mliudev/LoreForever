@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Long Wash"
  },
- "summary": "Along Darkshore, Long Wash runs south from Auberdine toward Ameth'Aran beneath a gray sky. Murlocs now make its shore dangerous.",
+ "summary": "Murlocs now threaten the shore of Long Wash, south of Auberdine and toward Ameth'Aran beneath Darkshore's gray sky.",
  "sections": [
   {
    "title": "A Gloomy Shoreline",
-   "body": "Long Wash is Darkshore's shortest distinct stretch of coast, despite its name. Beneath the region's perpetual overcast skies, damp sand lies strewn with flotsam, driftwood, and sea creatures washed up by the Veiled Sea. Crabs comb the surf, but travelers heading south from Auberdine must watch for murloc tribes camped along the water's edge. The murlocs attack anyone who enters the territory where they scavenge.",
+   "body": "Long Wash is Darkshore's shortest stretch of distinct coast, despite its name. Beneath the region's perpetual overcast skies, damp sand lies strewn with flotsam, driftwood, and sea creatures washed up by the Veiled Sea. Crabs comb the surf, but travelers heading south from Auberdine must watch for murloc tribes camped at the water's edge. The murlocs attack anyone who enters the ground where they scavenge.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is long wash",
     "how to find long wash"
    ],
-   "answer": "Long Wash follows Darkshore's coast just south of Auberdine and reaches roughly west of the ruins of Ameth'Aran."
+   "answer": "Long Wash follows Darkshore's coast just south of Auberdine, reaching roughly west of the ruins of Ameth'Aran."
   },
   {
    "q": "Why is it called the Long Wash?",
@@ -32,7 +32,7 @@
     "long wash meaning",
     "what does wash mean"
    ],
-   "answer": "A wash is an old word for a stretch of shore swept by ocean waves. Though called Long Wash, it is Darkshore's shortest distinct beach."
+   "answer": "A wash is an old word for shore swept by ocean waves. Though called Long Wash, it is Darkshore's shortest distinct beach."
   },
   {
    "q": "What threats can be found along the Long Wash?",
@@ -77,5 +77,5 @@
  "attribution": [
   "Long Wash"
  ],
- "style": 1
+ "style": 2
 }

@@ -18,11 +18,11 @@
   "chain": [],
   "category": "Badlands"
  },
- "summary": "A metallic black box has turned up in a giant condor's stomach in the Badlands, its surface heavily pitted as if left in acid. Stamped on its underside, beneath a symbol, is a mark reading Engine #19 - Ironforge Siege Brigade.",
+ "summary": "A giant condor in the Badlands swallowed a black box marked for Ironforge.",
  "sections": [
   {
    "title": "Pulled from a Condor",
-   "body": "The pitting suggests the box sat inside the condor for ages while acid ate at the metal. Turn it over and a symbol is stamped on the bottom, with Engine #19 - Ironforge Siege Brigade written below. You are to carry it to the Hall of Arms in Ironforge, to Pilot Longbeard.",
+   "body": "After ages in the condor's stomach, acid had pitted the metal. A symbol marks the underside above the words Engine #19 - Ironforge Siege Brigade. You carry the box to Pilot Longbeard in Ironforge's Hall of Arms.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "how did the box get here",
     "black box origin"
    ],
-   "answer": "It was in the stomach of a giant condor in the Badlands, and seems to have lain there a very long while."
+   "answer": "A giant condor in the Badlands swallowed the box, and it seems to have lain in its stomach for ages."
   },
   {
    "q": "What markings are stamped on the box?",
@@ -43,7 +43,7 @@
     "markings on the black box",
     "box inscription"
    ],
-   "answer": "A symbol is stamped on the bottom, and beneath it is written Engine #19 - Ironforge Siege Brigade."
+   "answer": "A symbol is stamped on the underside above the words Engine #19 - Ironforge Siege Brigade."
   },
   {
    "q": "Who is supposed to receive the box?",
@@ -52,13 +52,13 @@
     "where does the black box go",
     "who do i bring the box to"
    ],
-   "answer": "Pilot Longbeard, at the Hall of Arms in Ironforge."
+   "answer": "Pilot Longbeard, in the Hall of Arms in Ironforge."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The box bears Ironforge's markings, and its trail ends in Ironforge."
+   "text": "The box bears Ironforge's mark, and its trail leads to Ironforge."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  ],
  "attribution": [
   "The Black Box"
- ]
+ ],
+ "style": 2
 }

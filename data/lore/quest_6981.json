@@ -21,16 +21,16 @@
    "In Nightmares (Alliance)"
   ]
  },
- "summary": "The Glowing Shard is a mysterious emerald-hued gem plucked from the dark depths of the Wailing Caverns. Swirling with smoky essence beneath its polished surface, this disturbing relic drives adventurers to seek answers in Ratchet and beyond.",
+ "summary": "Deep in the Wailing Caverns, you find a green shard whose smoky depths stir unease. Its mystery draws you to Ratchet and onward.",
  "sections": [
   {
    "title": "A Disturbing Discovery",
-   "body": "Drawn from deep within the Wailing Caverns, the glowing shard immediately unnerves those who hold it. Brilliant green and seemingly solid, it holds churning, mist-like shadows beneath its crystalline face. The crystal exerts a subtle pull, demanding attention while exuding a deeply unsettling aura that hints at the corrupted nature of the slumbering druids and their nightmare-infested sanctuary.",
+   "body": "You carry a green crystal from deep within the Wailing Caverns. Beneath its bright, solid face, shadowy wisps seem to churn. Those who touch it feel uneasy, and its strange presence hints at the corruption around the sleeping druids and their nightmare-haunted sanctuary.",
    "spoiler": 0
   },
   {
    "title": "Seeking Answers in Ratchet",
-   "body": "Uncertain of the stone's origin or nature, adventurers bring the artifact to the goblin port of Ratchet. There, local engineer Sputtervalve inspects the oddity, only to recognize that its origins lie beyond the scope of goblin machinery and standard geology. Instead, he directs seekers up into the rocky ridges above the caverns, where the tauren mystic Falla Sagewind watches over the troubled spirits of the Barrens.",
+   "body": "In Ratchet, the shard's origin remains unclear. Engineer Sputtervalve examines it, but goblin machinery and ordinary geology cannot explain its nature. He points you toward the rocky ridges above the caverns, where Falla Sagewind, a tauren mystic, watches over the troubled spirits of the Barrens.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "what is this green gem",
     "shard from wailing caverns"
    ],
-   "answer": "It is a corrupted, luminescent green crystal found deep within the Wailing Caverns. Inside its glassy shell, faint smoke swirls, unsettling anyone who studies it closely."
+   "answer": "You found the Glowing Shard deep within the Wailing Caverns. Faint smoky shapes swirl beneath its glassy surface and unsettle those who study it."
   },
   {
    "q": "Who can examine the shard in Ratchet?",
@@ -51,7 +51,7 @@
     "ratchet npc for shard",
     "sputtervalve shard"
    ],
-   "answer": "Sputtervalve, an engineer stationed near the flight master in Ratchet, examines the shard. Though he is an engineer rather than a druid, he recognizes its strange energy and points you toward someone with spiritual expertise."
+   "answer": "Engineer Sputtervalve near Ratchet's flight master can examine the shard. Its strange energy leads him to point you toward someone with spiritual knowledge."
   },
   {
    "q": "Where is Falla Sagewind located?",
@@ -60,7 +60,7 @@
     "where is falla",
     "mountain above wailing caverns"
    ],
-   "answer": "Falla Sagewind makes her camp on the mountain peaks directly above the entrance to the Wailing Caverns in the central Barrens."
+   "answer": "Falla Sagewind keeps her camp on the mountain peaks directly above the Wailing Caverns entrance in the central Barrens."
   },
   {
    "q": "Does Sputtervalve have a quest marker over his head?",
@@ -69,7 +69,7 @@
     "cant turn in to sputtervalve",
     "sputtervalve bugged"
    ],
-   "answer": "No. Sputtervalve does not display an active quest icon. You must speak with him directly and select the dialogue prompt regarding the strange glowing shard to advance."
+   "answer": "No. Sputtervalve has no active icon above his head. Speak with him and choose the dialogue about the strange glowing shard to continue."
   },
   {
    "q": "Why does the shard look like it contains smoke?",
@@ -78,7 +78,7 @@
     "green smoke in gem",
     "corruption in shard"
    ],
-   "answer": "The smoky swirl within the crystal reflects the pervasive corruption warping the Wailing Caverns, tied directly to the Emerald Nightmare invading the thoughts of the slumbering Druids of the Fang."
+   "answer": "The smoke-like swirl reflects corruption spreading through the Wailing Caverns. It is bound to the Emerald Nightmare invading the thoughts of the sleeping Druids of the Fang."
   },
   {
    "q": "Who can complete the quest chain after Falla Sagewind?",
@@ -87,25 +87,25 @@
     "alliance glowing shard",
     "who gets in nightmares"
    ],
-   "answer": "Both Horde and Alliance adventurers can pursue this storyline. Falla Sagewind's findings lead directly into the quest 'In Nightmares', sending heroes to seek guidance from their respective leaders and elders."
+   "answer": "Horde and Alliance adventurers can both follow the story. Falla Sagewind's findings lead to In Nightmares, where heroes seek guidance from their own leaders and elders."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For druids, the shard's emerald sheen and smoky core are grim evidence of the Emerald Nightmare seeping into the waking world through their fallen brethren in the Wailing Caverns."
+   "text": "As a druid, you may see the shard's emerald sheen and smoky heart as grim signs of the Emerald Nightmare reaching the waking world through your fallen brethren in the Wailing Caverns."
   },
   {
    "target": "race:Tauren",
-   "text": "The balance of the Barrens is dear to the Shu'halo, and bringing this unnatural relic to Falla Sagewind aids in understanding the corruption poisoning their ancestral lands."
+   "text": "As a tauren, you know the Barrens' balance matters to the Shu'halo. Bringing this unnatural relic to Falla Sagewind can help reveal the corruption poisoning your ancestral lands."
   },
   {
    "target": "faction:Horde",
-   "text": "Unraveling the mystery of the shard helps protect the vital crossroads and trade routes of the Barrens from unnatural threats festering in the underground springs."
+   "text": "As a member of the Horde, you can help uncover the shard's mystery and guard the Barrens' crossroads and trade routes from threats festering in the underground springs."
   },
   {
    "target": "faction:Alliance",
-   "text": "Even far from home in Kalimdor, Alliance explorers recognize the global peril posed by whatever dark power is corrupting nature beneath the Barrens."
+   "text": "As an Alliance explorer far from home in Kalimdor, you can see the danger in a dark power corrupting nature beneath the Barrens."
   }
  ],
  "keywords": [
@@ -130,5 +130,6 @@
  ],
  "attribution": [
   "The Glowing Shard"
- ]
+ ],
+ "style": 2
 }

@@ -19,16 +19,16 @@
   "wiki": null,
   "previous": ""
  },
- "summary": "Sifting through loose dirt in Dustwallow Marsh, you come upon an orc's severed hand clutching a tube carved from bone. Inside lies a dirt-stained parchment in Orcish script, which looks important. It is meant for a Theramore Lieutenant.",
+ "summary": "In Dustwallow Marsh, you find a severed orc hand gripping a bone tube. Inside lies a dirt-stained parchment in Orcish, meant for a Theramore Lieutenant.",
  "sections": [
   {
    "title": "A Hand in the Dirt",
-   "body": "In the loose dirt lies an orc's severed hand, gripping a tube carved from bone. Inside is a parchment stained with dirt and the writing is Orcish, which seems significant. A Theramore Lieutenant is the one to show it to.",
+   "body": "In the loose dirt, you find a severed orc hand gripping a tube carved from bone. Inside is a dirt-stained parchment written in Orcish. It seems significant, and a Theramore Lieutenant is the one to show it to.",
    "spoiler": 0
   },
   {
    "title": "The Lieutenant's Verdict",
-   "body": "The lieutenant admits to reading Orcish poorly, yet takes the parchment for an orc spy's report.",
+   "body": "The Theramore Lieutenant admits to reading Orcish poorly. Still, the lieutenant takes the parchment for an orc spy's report.",
    "spoiler": 1
   }
  ],
@@ -40,7 +40,7 @@
     "loose dirt item",
     "orc hand in dustwallow"
    ],
-   "answer": "Sifting through it turns up an orc's severed hand clutching a tube carved from bone, with a dirt-stained parchment inside."
+   "answer": "In the loose dirt, you find a severed orc hand clutching a tube carved from bone. Inside is a dirt-stained parchment."
   },
   {
    "q": "Who should get the parchment?",
@@ -49,7 +49,7 @@
     "who gets the spy report",
     "theramore lieutenant location"
    ],
-   "answer": "A Theramore Lieutenant."
+   "answer": "A Theramore Lieutenant should receive the parchment."
   },
   {
    "q": "What language is the parchment written in?",
@@ -57,7 +57,7 @@
     "parchment language",
     "can I read the parchment"
    ],
-   "answer": "The writing is Orcish, and it seems significant."
+   "answer": "The parchment is written in Orcish, and its writing seems significant."
   }
  ],
  "angles": [],
@@ -73,5 +73,6 @@
  ],
  "attribution": [
   "Classic quest text: The Orc Report"
- ]
+ ],
+ "style": 2
 }

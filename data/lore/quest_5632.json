@@ -20,16 +20,16 @@
    "Stars of Elune"
   ]
  },
- "summary": "Priestess Alathea calls promising night elf priests back to Darnassus. The summons brings them to the Temple of the Moon to be recognized by the Sisterhood of Elune and receive advanced guidance.",
+ "summary": "Priestess Alathea calls promising night elf priests back to Darnassus. At the Temple of the Moon, the Sisterhood of Elune will recognize them and guide their next steps.",
  "sections": [
   {
    "title": "A Messenger from the Sisterhood",
-   "body": "A messenger from the Sisterhood reaches you while you visit Nara Meideros in Stormwind's Park. You have served your people abroad, and the order's leaders now require you in Darnassus. They have watched your spiritual growth and call you back for an evaluation and a rite of recognition. The journey marks your passage from a new initiate to an active servant of the Mother Moon.",
+   "body": "A messenger from the Sisterhood finds you while you visit Nara Meideros in Stormwind's Park. You have served your people abroad, and now the order's leaders call you back to Darnassus. They have watched your spiritual growth and summon you for an evaluation and a rite of recognition. This journey marks your passage from new initiate to active servant of the Mother Moon.",
    "spoiler": 0
   },
   {
    "title": "Audience at the Temple of the Moon",
-   "body": "The summons sends you to Priestess Alathea at the Temple of the Moon, Darnassus's highest sanctuary. High Priestess Tyrande Whisperwind oversees the Sisterhood, which watches over its members wherever they serve. Your safe return to the temple honors your community and Elune. It also shows that the goddess's grace has guided and preserved you through your early trials in the wild.",
+   "body": "The summons brings you to Priestess Alathea at the Temple of the Moon, Darnassus's highest sanctuary. High Priestess Tyrande Whisperwind oversees the Sisterhood, which watches over its members wherever they serve. Your safe return honors your community and Elune. It also shows how the goddess's grace has guided and preserved you through your early trials in the wild.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "reason for summons",
     "why visit alathea"
    ],
-   "answer": "The Sisterhood of Elune has watched your spiritual growth, and Priestess Alathea summons you to the Temple of the Moon because you have progressed quickly in the order. There, you can receive deeper training and a sacred blessing."
+   "answer": "The Sisterhood of Elune has watched your spiritual growth, and Priestess Alathea summons you to the Temple of the Moon because you have advanced quickly in the order. There, you can receive deeper training and a sacred blessing."
   },
   {
    "q": "Who is Priestess Alathea?",
@@ -50,7 +50,7 @@
     "alathea lore",
     "priestess alathea identity"
    ],
-   "answer": "Priestess Alathea is a mentor in the Sisterhood of Elune, stationed at the Temple of the Moon. She works under High Priestess Tyrande Whisperwind, training promising night elf priests and guiding them through sacred rites."
+   "answer": "Priestess Alathea is a mentor in the Sisterhood of Elune, stationed at the Temple of the Moon. She serves under High Priestess Tyrande Whisperwind, training promising night elf priests and guiding them through sacred rites."
   },
   {
    "q": "Where does this summons lead next?",
@@ -67,7 +67,7 @@
     "who sent nara",
     "messenger of the sisterhood"
    ],
-   "answer": "A messenger sent by the Sisterhood of Elune brought word to Nara Meideros. The order keeps in touch with priestesses serving abroad, including Nara in Stormwind's Park, to follow the progress of their initiates."
+   "answer": "A messenger sent by the Sisterhood of Elune brought word to Nara Meideros. The order keeps in touch with priestesses serving abroad, including Nara in Stormwind's Park, to follow the progress of its initiates."
   },
   {
    "q": "Do other races or classes receive this summons?",
@@ -75,7 +75,7 @@
     "can non night elves do this",
     "is this priest only"
    ],
-   "answer": "No. The summons belongs to the night elf priesthood and the Sisterhood of Elune. Other races and faiths look to their own spiritual mentors and holy orders for guidance."
+   "answer": "No. The summons is for the night elf priesthood and the Sisterhood of Elune. Other races and faiths look to their own spiritual mentors and holy orders for guidance."
   },
   {
    "q": "Why does Alathea mention Tyrande Whisperwind?",
@@ -89,11 +89,11 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "This summons marks an important step in your priesthood. Your early service brings you before the Sisterhood of Elune for further discipline and guidance."
+   "text": "As a priest, this summons marks an important step in your priesthood. Your early service brings you before the Sisterhood of Elune for further discipline and guidance."
   },
   {
    "target": "race:NightElf",
-   "text": "For the kaldorei, your safe return to the Temple of the Moon is a homecoming that affirms Elune's clergy as a lasting source of cultural and spiritual leadership."
+   "text": "As a kaldorei, your safe return to the Temple of the Moon is a homecoming. It affirms Elune's clergy as a lasting source of cultural and spiritual leadership."
   },
   {
    "target": "faction:Alliance",
@@ -124,5 +124,5 @@
  "attribution": [
   "Returning Home (Nara Meideros)"
  ],
- "style": 1
+ "style": 2
 }

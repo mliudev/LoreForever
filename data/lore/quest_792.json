@@ -17,16 +17,16 @@
   "wiki": "Vile Familiars (Classic)",
   "chain": []
  },
- "summary": "In the Valley of Trials, Vile Familiars are creeping out of a nearby cavern. Zureetha Fargaze found a hidden Burning Blade coven while watching over the valley's trials. Recruits are sent to hunt the familiars spreading across Durotar's red earth.",
+ "summary": "In the Valley of Trials, Vile Familiars pour from a nearby cavern. Zureetha Fargaze found a hidden Burning Blade coven while watching over the trials. Now recruits hunt the familiars spreading across Durotar's red earth.",
  "sections": [
   {
    "title": "A Shadow in the Valley",
-   "body": "The Valley of Trials tests young orcs and Darkspear trolls in strength, discipline, and loyalty to Thrall's Horde. Its trials were meant to pit recruits against scorpids and boars, not demonic corruption. Yet a cave to the northeast shelters agents of the Burning Blade, who have formed a secret coven beneath the valley overseers' watch.",
+   "body": "Young orcs and Darkspear trolls face tests of strength, discipline, and loyalty to Thrall's Horde in the Valley of Trials. They were meant to face scorpids and boars, not demonic corruption. Yet a cave to the northeast shelters Burning Blade agents. They have formed a secret coven beneath the valley overseers' watch.",
    "spoiler": 0
   },
   {
    "title": "Culling the Imps",
-   "body": "Zureetha Fargaze, an instructor guiding newcomers near the Den, spotted the taint before it could overrun the canyon. Vile Familiars now pour from the cave mouth, hurling fire at anyone who wanders too close. Before the Horde can root out the masters in hiding, young recruits are sent to cut down these lesser servants and keep the valley secure.",
+   "body": "Zureetha Fargaze guides newcomers near the Den. She spotted the taint before it could overrun the canyon. Now Vile Familiars pour from the cave mouth and hurl fire at anyone who wanders too close. Before the Horde can root out the hidden masters, young recruits are sent to cut down these lesser servants and keep the valley secure.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "vile familiar lore",
     "vile familiars mob type"
    ],
-   "answer": "Vile Familiars are small, imp-like demons summoned and bound by Burning Blade cultists. They are lesser minions and pets that wield fire against intruders."
+   "answer": "Vile Familiars are small, imp-like demons summoned and bound by Burning Blade cultists. These lesser minions and pets wield fire against intruders."
   },
   {
    "q": "Where is the Burning Blade Coven located?",
@@ -56,7 +56,7 @@
     "where is burning blade coven",
     "cave in valley of trials"
    ],
-   "answer": "The Burning Blade coven hides in a cave in the northeastern Valley of Trials, past the roaming Mottled Boars and Scorpid Workers."
+   "answer": "The Burning Blade coven hides in a cave in the northeastern Valley of Trials. It lies past the roaming Mottled Boars and Scorpid Workers."
   },
   {
    "q": "Why is the Burning Blade in the Valley of Trials?",
@@ -65,7 +65,7 @@
     "burning blade motives",
     "what does burning blade want"
    ],
-   "answer": "The Burning Blade is a covert cult set on undermining Thrall's new Horde and spreading demonic corruption. From the Valley of Trials, they can hide while threatening the Horde's newest fighters as it establishes its sovereignty."
+   "answer": "The Burning Blade is a covert cult bent on undermining Thrall's new Horde and spreading demonic corruption. From the Valley of Trials, its members can hide while threatening the Horde's newest fighters as the Horde establishes its sovereignty."
   },
   {
    "q": "What happens after completing Vile Familiars?",
@@ -74,7 +74,7 @@
     "what comes after vile familiars",
     "burning blade medallion quest"
    ],
-   "answer": "Once the familiars outside the cavern are thinned out, Zureetha Fargaze sends you into the cave to face the cultist leader and recover a Burning Blade Medallion."
+   "answer": "Once the familiars outside the cavern are thinned out, Zureetha Fargaze sends you into the cave. There, you face the cultist leader and recover a Burning Blade Medallion."
   },
   {
    "q": "Do I have to go deep into the cave to find the familiars?",
@@ -89,15 +89,15 @@
  "angles": [
   {
    "target": "race:Orc",
-   "text": "As an orc, you meet fel taint in your sacred training grounds, a bitter reminder that the Shadow Council's legacy still festers despite Thrall's rejection of demonic slavery."
+   "text": "As an orc, you meet fel taint in your sacred training grounds. It is a bitter reminder that the Shadow Council's legacy still festers despite Thrall's rejection of demonic slavery."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you face the Burning Blade's attempt to corrupt Durotar from within before the young Horde can firmly establish its sovereignty."
+   "text": "As a member of the Horde, you face the Burning Blade's attempt to corrupt Durotar from within. The young Horde must firmly establish its sovereignty."
   },
   {
    "target": "class:Warlock",
-   "text": "As an orc or troll warlock, you face rogue shadowcasters who abuse demonic pacts for destruction instead of bending fel energies toward the Horde's survival."
+   "text": "As an orc or troll warlock, you face rogue shadowcasters who use demonic pacts for destruction. You bend fel energies toward the Horde's survival."
   }
  ],
  "keywords": [
@@ -122,5 +122,5 @@
  "attribution": [
   "Vile Familiars (Classic)"
  ],
- "style": 1
+ "style": 2
 }

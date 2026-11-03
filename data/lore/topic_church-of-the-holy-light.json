@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Church of the Holy Light"
  },
- "summary": "The Church of the Holy Light is the dominant religious institution of humanity, guiding mortal souls through the virtues of compassion, justice, and devotion. Originally centered in the lost northern kingdom of Lordaeron, its leadership now resides within the grand Cathedral of Light in Stormwind City following the devastation wrought by the Scourge.",
+ "summary": "After Lordaeron's fall, the Church of the Holy Light gathers in Stormwind City's Cathedral of Light. Its clergy guide human souls through compassion, justice, and devotion.",
  "sections": [
   {
    "title": "Origins and the Light's Creed",
-   "body": "The Church's origins reach back over a millennium to the faith in the Holy Light that took root among the humans of Arathor, teaching them to channel sacred power to cure injuries and purge affliction. Driven by tenets of charity, righteousness, and the fundamental belief that the Light resides within all thinking beings, these teachings eventually coalesced into an organized faith. The kingdom of Lordaeron became the religious heartland of this doctrine, establishing revered sanctuaries throughout the north, including Stratholme, Andorhal, Tyr's Hand, and Light's Hope Chapel.",
+   "body": "Among the humans of Arathor, faith in the Holy Light took root more than a thousand years ago. The faithful learned to channel it to heal injuries and purge affliction. They were taught to give charity and seek righteousness, believing the Light dwells within all thinking beings. In time, these beliefs became an organized faith. Lordaeron became its heartland, with revered sanctuaries in Stratholme, Andorhal, Tyr's Hand, and Light's Hope Chapel.",
    "spoiler": 0
   },
   {
    "title": "A Shield in the Great Wars",
-   "body": "In the First War, the Brotherhood of Northshire answered the call to battle, healing fallen defenders against the invading Orcish Horde. Because they lacked weapons or heavy armor, these frontline clerics suffered appalling casualties at the hands of the orcs. Recognizing the need for holy warriors who could both channel holy wrath and survive physical combat, Archbishop Alonsus Faol convened with Supreme Commander Anduin Lothar during the Second War to establish the Knights of the Silver Hand. Paladins and priests alike became the moral and martial bulwark of the Alliance of Lordaeron, preserving humanity from total annihilation.",
+   "body": "In the First War, the Brotherhood of Northshire went to battle, healing defenders who fell against the invading Orcish Horde. The clerics had no weapons or heavy armor, and suffered terrible losses to the orcs. During the Second War, Archbishop Alonsus Faol met with Supreme Commander Anduin Lothar.\n\nTogether they formed the Knights of the Silver Hand, holy warriors who could wield holy wrath and endure physical combat. Paladins and priests became the Alliance of Lordaeron's moral and martial bulwark, preserving humanity from annihilation.",
    "spoiler": 0
   },
   {
    "title": "Fall of the North and the Southern Haven",
-   "body": "The Third War brought immense sorrow upon the faithful. When the Plague of Undeath crept across Lordaeron, the Church worked tirelessly to alleviate the sick and stem the contamination, only to be overwhelmed when the kingdom collapsed from within. With Lordaeron transformed into a Scourge-haunted wilderness, the seat of the Church transferred southward. Under the stewardship of Archbishop Benedictus, the clergy reconstituted its hierarchy within the newly constructed Cathedral of Light in Stormwind, offering solace, spiritual guidance, and military purpose to the battered survivors of the Alliance.",
+   "body": "The Third War brought sorrow to the faithful. As the Plague of Undeath spread across Lordaeron, the Church aided the sick and tried to contain the contamination. But the kingdom collapsed from within, and the clergy could not stem the disaster.\n\nLordaeron is now a wilderness haunted by the Scourge, so the Church moved its seat south. Under Archbishop Benedictus, its clergy rebuilt their hierarchy in Stormwind's newly constructed Cathedral of Light. There they offer solace, spiritual guidance, and military purpose to the battered survivors of the Alliance.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "tenets of the light",
     "church philosophy"
    ],
-   "answer": "The Church teaches that a unifying holy energy connects all living things. Practitioners cultivate personal righteousness, altruism, and compassion, seeking to improve both themselves and the world around them. Adherents believe that acting with virtue, justice, and self-sacrifice allows one to reflect the Light's purest essence."
+   "answer": "The Church teaches that one holy energy connects all living things. Its followers seek righteousness, altruism, and compassion to improve themselves and the world around them. They believe virtue, justice, and self-sacrifice let a person reflect the Light's purest essence."
   },
   {
    "q": "Who leads the Church today?",
@@ -43,7 +43,7 @@
     "who is the archbishop",
     "head of the church"
    ],
-   "answer": "Archbishop Benedictus serves as the spiritual leader of the Church of the Holy Light. Following the passing of Archbishop Alonsus Faol and the fall of the northern kingdom of Lordaeron, Benedictus organized the priesthood from the grand Cathedral of Light situated in the heart of Stormwind City."
+   "answer": "Archbishop Benedictus leads the Church of the Holy Light. After Archbishop Alonsus Faol's passing and Lordaeron's fall, Benedictus organized the priesthood from the Cathedral of Light in the heart of Stormwind City."
   },
   {
    "q": "How was the order of Paladins formed?",
@@ -53,7 +53,7 @@
     "alonsus faol paladins",
     "formation of silver hand"
    ],
-   "answer": "During the First War, unarmored clerics from Northshire were deliberately targeted and massacred by the Horde. To ensure holy spellcasters could survive front-line warfare, Archbishop Alonsus Faol founded the Knights of the Silver Hand prior to the Second War, imbuing knightly martial combatants with divine spellcasting abilities."
+   "answer": "During the First War, the Horde targeted and massacred unarmored Northshire clerics. Before the Second War, Archbishop Alonsus Faol founded the Knights of the Silver Hand so holy spellcasters could survive at the front, joining knightly combat with divine spellcasting."
   },
   {
    "q": "Where are the Church's most sacred places?",
@@ -62,7 +62,7 @@
     "sacred places",
     "important shrines"
    ],
-   "answer": "Historically, the Church's oldest holy sites rested in the Eastweald of Lordaeron, including Andorhal, Stratholme, Tyr's Hand, and Light's Hope Chapel. Following the Scourge's destruction of the north, Stormwind's Cathedral of Light became the faith's preeminent sanctuary and seat of authority."
+   "answer": "The Church's oldest holy sites stood in Lordaeron's Eastweald: Andorhal, Stratholme, Tyr's Hand, and Light's Hope Chapel. After the Scourge destroyed the north, Stormwind's Cathedral of Light became the faith's foremost sanctuary and seat of authority."
   },
   {
    "q": "What role did the Church play against the Plague of Undeath?",
@@ -71,7 +71,7 @@
     "holy light curing the plague",
     "scourge and church"
    ],
-   "answer": "During the Third War, priests and clerics threw themselves into field hospices across Lordaeron, attempting to cleanse the afflicted and halt the plague's spread. Tragically, holy magic proved unable to completely reverse the supernatural corruption, and many clergy fell when their patients succumbed and rose as Scourge monstrosities."
+   "answer": "During the Third War, priests and clerics worked in field hospices across Lordaeron, trying to cleanse the afflicted and halt the plague. Holy magic could not fully reverse the supernatural corruption, and many clergy fell when their patients succumbed and rose as Scourge monstrosities."
   },
   {
    "q": "Do races other than humans follow the Church?",
@@ -80,29 +80,29 @@
     "do dwarves follow the light",
     "high elf priests"
    ],
-   "answer": "Yes. Ironforge dwarves embraced the Church's teachings centuries ago, establishing their own devout orders of priests and paladins. The high elves of Quel'Thalas also adopted the philosophy, mastering restorative healing magic that they later shared back with human clerics."
+   "answer": "Yes. Ironforge dwarves embraced the Church's teachings centuries ago and formed their own orders of priests and paladins. The high elves of Quel'Thalas also adopted its philosophy, mastering restorative healing magic that they later shared with human clerics."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Your holy vows stem from Archbishop Faol's covenant during the Second War, marrying knightly chivalry to the restorative and retributive grace of the Light."
+   "text": "Your holy vows trace to Archbishop Faol's covenant during the Second War. It joined knightly chivalry with the Light's restorative and retributive grace."
   },
   {
    "target": "class:Priest",
-   "text": "Whether providing comfort to the wounded or studying the difficult balance between luminescence and shadow, your vocation belongs to a legacy spanning thousands of years of human devotion."
+   "text": "Your calling belongs to thousands of years of human devotion. You may comfort the wounded or study the difficult balance between luminescence and shadow."
   },
   {
    "target": "race:Human",
-   "text": "For generations, the Church has blessed human kingdoms through crisis and plague, and its presence in Stormwind remains the spiritual backbone of your civilization."
+   "text": "For generations, the Church has blessed human kingdoms through crisis and plague. Its presence in Stormwind remains the spiritual backbone of your civilization."
   },
   {
    "target": "race:Dwarf",
-   "text": "Long allied with the human realms, many Ironforge dwarves find common ground and shared virtue within the sermons and sanctified halls of the Holy Light."
+   "text": "Long allied with the human realms, many Ironforge dwarves share the Holy Light's virtues. They find common ground in its sermons and sanctified halls."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Church of the Holy Light provides the Alliance with moral unity and battlefield hospice care, standing as an enduring symbol of hope against darkness."
+   "text": "The Church of the Holy Light gives the Alliance moral unity and battlefield hospice care. It remains a symbol of hope against darkness."
   }
  ],
  "keywords": [
@@ -130,5 +130,6 @@
  ],
  "attribution": [
   "Church of the Holy Light"
- ]
+ ],
+ "style": 2
 }

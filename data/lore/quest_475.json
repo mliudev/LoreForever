@@ -17,16 +17,16 @@
   "wiki": "A Troubling Breeze",
   "chain": []
  },
- "summary": "Athridas Bearmantle waits for word from Starbreeze Village, but the reports have stopped. Great Warden Gaerolas Talvethren watches over the sleeping Druids of the Talon in the Ban'ethil Barrow Den, and his silence points to danger in Teldrassil.",
+ "summary": "Athridas Bearmantle awaits word from Starbreeze Village, where reports have gone silent. In the Ban'ethil Barrow Den, Great Warden Gaerolas Talvethren watches the sleeping Druids of the Talon, and his silence points to danger in Teldrassil.",
  "sections": [
   {
    "title": "A Silent Watcher",
-   "body": "Athridas Bearmantle depends on regular word from Gaerolas Talvethren, the Great Warden watching over the Druids of the Talon in the Ban'ethil Barrow Den. The druids sleep there to keep their sacred pact with Ysera in the Emerald Dream. Their sanctuary matters to the spiritual balance of the young World Tree. Now reports from the east have ceased, and unease spreads through the forest.",
+   "body": "Athridas Bearmantle relies on regular word from Gaerolas Talvethren, the Great Warden who watches over the Druids of the Talon in the Ban'ethil Barrow Den. The druids sleep there to keep their sacred pact with Ysera in the Emerald Dream. Their sanctuary guards the spiritual balance of the young World Tree. Now reports from the east have ceased, and unease spreads through the forest.",
    "spoiler": 0
   },
   {
    "title": "Unease in Starbreeze",
-   "body": "You are sent east across Teldrassil to Starbreeze Village to find Gaerolas. The silence is no simple oversight: corruption stirs, and wildlife grows agitated in the wilderness. When you reach him, you learn that trouble has come to the village and threatens the nearby barrow dens.",
+   "body": "You travel east across Teldrassil to Starbreeze Village to find Gaerolas. Corruption stirs there, and wildlife grows agitated in the wilderness. When you reach him, you learn that trouble has come to the village and threatens the nearby barrow dens.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "athridas lore",
     "quest giver athridas"
    ],
-   "answer": "Athridas Bearmantle is a prominent night elf overseer in Teldrassil who watches over the forest and keeps the sanctuaries of his sleeping druidic kin undisturbed."
+   "answer": "Athridas Bearmantle is a prominent night elf overseer in Teldrassil. He watches over the forest and protects the sanctuaries where his sleeping druidic kin rest undisturbed."
   },
   {
    "q": "Who is Gaerolas Talvethren?",
@@ -47,7 +47,7 @@
     "great warden gaerolas",
     "who is gaerolas"
    ],
-   "answer": "Gaerolas Talvethren is the Great Warden chosen to guard the sleeping Druids of the Talon in the nearby Ban'ethil Barrow Den while their spirits wander the Emerald Dream."
+   "answer": "Gaerolas Talvethren is the Great Warden chosen to guard the sleeping Druids of the Talon in the nearby Ban'ethil Barrow Den. Their spirits wander the Emerald Dream."
   },
   {
    "q": "What is the Ban'ethil Barrow Den?",
@@ -56,7 +56,7 @@
     "banethil",
     "what is ban'ethil"
    ],
-   "answer": "The Ban'ethil Barrow Den is a sacred underground hollow on Teldrassil where night elf druids sleep for long periods to commune with Ysera and honor their pacts in the Emerald Dream."
+   "answer": "The Ban'ethil Barrow Den is a sacred underground hollow on Teldrassil. Night elf druids sleep there for long periods to commune with Ysera and honor their pacts in the Emerald Dream."
   },
   {
    "q": "Why was Gaerolas out of contact?",
@@ -65,7 +65,7 @@
     "what happened to gaerolas",
     "trouble in starbreeze"
    ],
-   "answer": "Gaerolas could not send his regular reports because danger and corruption threatened Starbreeze Village and the surrounding forest, leaving him struggling to keep control."
+   "answer": "Gaerolas could not send his regular reports because danger and corruption threatened Starbreeze Village and the surrounding forest. He struggled to keep control."
   },
   {
    "q": "Where does this quest lead next?",
@@ -74,7 +74,7 @@
     "a troubling breeze followup",
     "what comes after a troubling breeze"
    ],
-   "answer": "After you find Gaerolas Talvethren in Starbreeze Village, he sends you back to Athridas Bearmantle in Dolanaar with grave news: the nearby Gnarlpine furbolgs have succumbed to a spreading, unnatural corruption."
+   "answer": "After you find Gaerolas Talvethren in Starbreeze Village, he sends you back to Athridas Bearmantle in Dolanaar with grave news. The nearby Gnarlpine furbolgs have succumbed to a spreading, unnatural corruption."
   },
   {
    "q": "What is the pact with Ysera mentioned in the quest?",
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, guarding the Druids of the Talon's sacred rest helps protect the delicate balance of your new home on Teldrassil."
+   "text": "As a night elf, you help guard the Druids of the Talon's sacred rest. Their safety protects the delicate balance of your new home on Teldrassil."
   },
   {
    "target": "class:Druid",
@@ -120,5 +120,5 @@
  "attribution": [
   "A Troubling Breeze"
  ],
- "style": 1
+ "style": 2
 }

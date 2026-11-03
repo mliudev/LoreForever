@@ -22,16 +22,16 @@
    "Stolen Booty"
   ]
  },
- "summary": "Pirate cargo off Ratchet’s coast has left Gazlowe choosing what matters most. Stolen Booty brings him two vital goods: boots for local laborers and a delicate telescopic lens needed to complete his observatory.",
+ "summary": "Along Ratchet’s coast, Gazlowe weighs two stolen goods against the rest of the cargo. Boots for local laborers and a delicate lens are needed to finish his observatory.",
  "sections": [
   {
    "title": "Pirate Hijacking",
-   "body": "The Southsea Freebooters have troubled merchant lanes across the Great Sea for years. Their fortified camp just south of Ratchet brought them into direct conflict with Gazlowe. Pirates intercepted merchant vessels bound for the port and took valuable supplies from the Steamwheedle Cartel. Some goods could be written off as a cost of shipping. Specialized cargo mattered enough for Gazlowe to hire mercenaries to break into the pirate stronghold.",
+   "body": "For years, Southsea Freebooters have troubled merchant lanes across the Great Sea. Their fortified camp just south of Ratchet brought them into direct conflict with Gazlowe. Pirates intercepted merchant vessels bound for the port and seized valuable supplies from the Steamwheedle Cartel. Some cargo could be counted as a shipping loss. Other goods mattered enough for Gazlowe to hire mercenaries to break into the pirate stronghold.",
    "spoiler": 0
   },
   {
    "title": "The Missing Pieces",
-   "body": "Gazlowe has two practical priorities. Drizzlik sent a needed shipment of boots from Booty Bay for local laborers. The other item is specialized: a ground telescopic lens made for the observatory tower overlooking Ratchet. Its twin arrived safely by caravan through Durotar, but pirates seized this lens at sea. Until it is recovered, the observatory remains an empty frame.",
+   "body": "Gazlowe has two practical priorities. Drizzlik sent a needed shipment of boots from Booty Bay for local laborers. The other item is a ground telescopic lens made for the observatory tower overlooking Ratchet. Its twin came safely by caravan through Durotar, but pirates seized this lens at sea. Until it is recovered, the observatory remains an empty frame.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "gazlowe items",
     "what was stolen"
    ],
-   "answer": "Gazlowe cannot recover all the cargo, but the boots from Drizzlik in Booty Bay and the telescopic lens are irreplaceable. Local workers need the boots, and the precision lens is needed to complete the observatory overlooking Ratchet."
+   "answer": "Gazlowe cannot recover all the cargo, but the boots from Drizzlik in Booty Bay and the telescopic lens cannot be replaced. Local workers need the boots, and the precision lens is needed to finish the observatory overlooking Ratchet."
   },
   {
    "q": "Where did the two observatory lenses come from?",
@@ -52,7 +52,7 @@
     "observatory lenses",
     "how did gazlowe get the lenses"
    ],
-   "answer": "The observatory needs two lenses. The larger arrived safely with an overland caravan through Durotar. Southsea Freebooters intercepted the smaller lens, sent by sea, off the Barrens coast."
+   "answer": "The observatory needs two lenses. The larger one came safely overland by caravan through Durotar. Southsea Freebooters intercepted the smaller lens, sent by sea, off the Barrens coast."
   },
   {
    "q": "Who is Drizzlik?",
@@ -79,7 +79,7 @@
     "next quest",
     "what is next after stolen booty"
    ],
-   "answer": "Gazlowe thanks you and praises your reliability once you return the items. He invites you to keep working for his commercial enterprise in Ratchet."
+   "answer": "Gazlowe thanks you and praises your reliability when you return the items. He invites you to keep working for his commercial enterprise in Ratchet."
   },
   {
    "q": "Why does Ratchet have an observatory?",
@@ -88,13 +88,13 @@
     "gazlowe observatory",
     "why does gazlowe want a telescope"
    ],
-   "answer": "Goblin engineering depends on observation, navigation, and surveying the land and sea lanes nearby. A completed observatory tower lets Ratchet’s leaders watch merchant fleets, rival vessels, and threats along the Merchant Coast."
+   "answer": "Goblin engineering depends on observation, navigation, and surveying nearby land and sea lanes. A completed observatory tower lets Ratchet’s leaders watch merchant fleets, rival vessels, and threats along the Merchant Coast."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Gazlowe’s observatory brings goblin precision optics into coastal construction. Practical infrastructure needs both heavy building and delicate glasswork."
+   "text": "Gazlowe’s observatory brings goblin precision optics into coastal construction. Practical building needs both heavy work and delicate glasswork."
   },
   {
    "target": "profession:Tailoring",
@@ -123,5 +123,5 @@
  "attribution": [
   "Stolen Booty"
  ],
- "style": 1
+ "style": 2
 }

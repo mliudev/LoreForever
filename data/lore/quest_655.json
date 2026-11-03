@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Hammerfall stands as a solemn monument to the liberation of the orcish internment camps and the sacrifice of Warchief Orgrim Doomhammer."
+   "text": "For the Horde, Hammerfall recalls the liberation of the orcish internment camps and Warchief Orgrim Doomhammer's sacrifice."
   },
   {
    "target": "race:Orc",
-   "text": "For orcs, the fall of Doomhammer in Arathi is one of the most painful moments in their history, marking the end of an era and the rise of Thrall's new Horde."
+   "text": "For orcs, Doomhammer's fall in Arathi remains one of history's most painful moments. It marked the end of an era and the rise of Thrall's new Horde."
   },
   {
    "target": "class:Warrior",
-   "text": "Orgrim Doomhammer remains an iconic warrior of legend, and walking the grounds where he fell in battle carries heavy martial significance."
+   "text": "As a warrior, you can remember Orgrim Doomhammer as a legendary fighter. The ground where he fell carries the weight of that battle."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "gor mul backstory",
     "what happened to gormul"
    ],
-   "answer": "Gor'mul was an orc captive held in the internment camp that once stood where Hammerfall now rests. Although Thrall and Doomhammer led an assault to liberate the camp, Gor'mul was left behind in the chaotic escape and wandered alone for years in despair.",
+   "answer": "Gor'mul was an orc captive at the internment camp where Hammerfall now stands. Thrall and Doomhammer led an assault to free the captives, but Gor'mul was left behind during the escape. He wandered alone in despair for years.",
    "q": "Who is Gor'mul?"
   },
   {
@@ -41,7 +41,7 @@
     "who killed doomhammer",
     "doomhammer death story"
    ],
-   "answer": "Orgrim Doomhammer was slain during the battle to liberate the Arathi internment camp. While leading the attack in his black plate armor, he was struck from behind by an Alliance knight charging on horseback who ran him through with a lance.",
+   "answer": "Orgrim Doomhammer died in the battle to free the Arathi internment camp. An Alliance knight on horseback struck him from behind with a lance.",
    "q": "How did Orgrim Doomhammer die?"
   },
   {
@@ -50,7 +50,7 @@
     "origin of hammerfall name",
     "hammerfall history"
    ],
-   "answer": "The outpost was named Hammerfall in honor of Warchief Orgrim Doomhammer, who fell at this exact location while freeing his people from human captivity. The Horde later returned to the ruined camp to establish a permanent base.",
+   "answer": "Hammerfall bears the name of Warchief Orgrim Doomhammer, who fell there while freeing his people from human captivity. The Horde returned to the ruined camp and made it a permanent base.",
    "q": "Why is the outpost named Hammerfall?"
   },
   {
@@ -59,7 +59,7 @@
     "torgan hammerfall",
     "torgan quest"
    ],
-   "answer": "Tor'gan is a Horde representative stationed in Hammerfall who helps look after the encampment and understands the lingering trauma suffered by former captives like Gor'mul.",
+   "answer": "Tor'gan is a Horde representative stationed at Hammerfall. He helps care for the encampment and understands the lingering trauma of former captives like Gor'mul.",
    "q": "Who is Tor'gan?"
   },
   {
@@ -68,7 +68,7 @@
     "liberation of hammerfall",
     "did thrall fight at hammerfall"
    ],
-   "answer": "Yes. Thrall fought alongside Warchief Orgrim Doomhammer in the assault on this Arathi internment camp. Together, they shattered the camp's defenses to liberate the captive orcs, though the victory came at the cost of Doomhammer's life.",
+   "answer": "Yes. Thrall fought beside Warchief Orgrim Doomhammer in the assault on the Arathi internment camp. They broke its defenses and freed captive orcs, but Doomhammer died in the battle.",
    "q": "Did Thrall take part in the battle here?"
   },
   {
@@ -77,7 +77,7 @@
     "gormul depression",
     "why did gormul lose hope"
    ],
-   "answer": "Gor'mul witnessed Doomhammer struck down before his eyes, crushing his spirit. When the other captives escaped into the wilderness, he was left behind, wandering aimlessly without hope until the Horde returned to build Hammerfall.",
+   "answer": "Gor'mul watched Doomhammer fall, and the sight crushed his spirit. When the other captives escaped into the wilderness, Gor'mul was left behind to wander without hope until the Horde returned to build Hammerfall.",
    "q": "Why is Gor'mul so despondent?"
   }
  ],
@@ -97,18 +97,19 @@
  ],
  "sections": [
   {
-   "body": "Hammerfall was once a grim Alliance internment camp where captive orcs were kept behind wood and steel after the Second War. That changed when young Thrall and Warchief Orgrim Doomhammer launched an assault to shatter the enclosures and free their kin. Though the raid succeeded in freeing many captives and bringing down the camp's defenses, it ended in tragedy when Doomhammer was struck from behind by a mounted lance, dying on the very soil where the Horde settlement now stands.",
+   "body": "In the Arathi Highlands, the Alliance once held orcs captive behind wood and steel. Young Thrall and Warchief Orgrim Doomhammer led an assault on the camp's enclosures and freed their kin. Many captives escaped as the defenses fell. Then a mounted lance struck Doomhammer from behind. He died where Hammerfall now stands.",
    "spoiler": 0,
    "title": "Blood and Broken Chains"
   },
   {
-   "body": "Not every captive found freedom on that fateful day. In the chaos of battle and the tremors of the earth, an orc named Gor'mul watched the legendary Warchief fall and lost all will to fight. Left behind as his brethren fled, Gor'mul spent years wandering the highlands in directionless grief. Even now that the Horde has reclaimed the site as a fortified base, the memory of that cowardly strike continues to haunt those who survived it.",
+   "body": "Gor'mul was among those who did not find freedom that day. In the battle's chaos and the earth's tremors, he watched the Warchief fall and lost the will to fight. His brethren fled, leaving him behind. For years, Gor'mul wandered the highlands in grief. The Horde has reclaimed the site as a fortified base, yet survivors still carry the memory of Doomhammer's death.",
    "spoiler": 0,
    "title": "The Lingering Shadow of Defeat"
   }
  ],
- "summary": "Hammerfall recounts the tragic fall of Warchief Orgrim Doomhammer during the liberation of an Alliance internment camp in the Arathi Highlands. Through the grief-stricken memories of Gor'mul, travelers learn how the camp was freed and why the stronghold bears its solemn name.",
+ "summary": "At Hammerfall, the Horde holds a camp won at the cost of Warchief Orgrim Doomhammer's life. Gor'mul remembers the captives' escape and why the stronghold bears its name.",
  "attribution": [
   "In-game quest text: Hammerfall"
- ]
+ ],
+ "style": 2
 }

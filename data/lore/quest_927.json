@@ -17,16 +17,16 @@
   "wiki": "The Moss-twined Heart",
   "chain": []
  },
- "summary": "Near Lake Al'Ameth, Denalan studies a strange heart taken from Blackmoss the Fetid. Dark, oily moss covers the core, yet it keeps beating after being cut from the timberling.",
+ "summary": "Near Lake Al'Ameth, Denalan studies a heart taken from Blackmoss the Fetid. Dark, oily moss covers the core, yet it keeps beating after it is cut from the timberling.",
  "sections": [
   {
    "title": "A Beating Core",
-   "body": "Blackmoss the Fetid's heart still pulses after being cut from the timberling. Dark, oily moss hides nearly all of the timberling's core, but a slow rhythm continues within it. That pulse points to a corruption reaching beyond ordinary rot in Teldrassil's wild plants.",
+   "body": "Blackmoss the Fetid's heart still beats after it is cut from the timberling. Dark, oily moss hides nearly all of the core, but a slow rhythm continues within. That pulse points to a corruption beyond ordinary rot in Teldrassil's wild plants.",
    "spoiler": 0
   },
   {
    "title": "Denalan's Examination",
-   "body": "Denalan, a researcher of local flora near Lake Al'Ameth, takes a keen interest in the heart and recognizes its troubling corruption. Timberlings should be gentle beings tied to the boughs of the World Tree, yet this core bears a virulent blight. Troubled by what he sees and eager to understand it, Denalan plans to plant and study the organ, hoping to learn how foul moss takes root in the island's soil.",
+   "body": "Denalan studies local flora near Lake Al'Ameth, and the heart commands his keen interest. He recognizes its troubling corruption. Timberlings should be gentle beings tied to the boughs of the World Tree, yet this core bears a virulent blight.\n\nTroubled by what he sees and eager to understand it, Denalan plans to plant and study the organ. He hopes to learn how foul moss takes root in the island's soil.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "moss-twined heart drop",
     "blackmoss the fetid heart"
    ],
-   "answer": "The heart comes from Blackmoss the Fetid, a large, heavily corrupted timberling that wanders Teldrassil's wilderness."
+   "answer": "The heart comes from Blackmoss the Fetid, a large and heavily corrupted timberling that wanders Teldrassil's wilderness."
   },
   {
    "q": "Why is the heart still beating?",
@@ -56,7 +56,7 @@
     "where is denalan",
     "denalan location"
    ],
-   "answer": "Denalan is a night elf naturalist who tends a nursery near Lake Al'Ameth. He devotes himself to studying Teldrassil's flora, its sproutings, and the creeping corruption affecting the island's timberlings."
+   "answer": "Denalan is a night elf naturalist who tends a nursery near Lake Al'Ameth. He studies Teldrassil's flora, its sproutings, and the creeping corruption affecting the island's timberlings."
   },
   {
    "q": "What will Denalan do with the heart?",
@@ -65,7 +65,7 @@
     "planting the heart quest",
     "denalan heart research"
    ],
-   "answer": "Denalan plans to plant the heart in an enchanted planter so it can sprout, isolating the foul moss and helping him uncover the cause of the blighted growth."
+   "answer": "Denalan plans to plant the heart in an enchanted planter so it can sprout. By isolating the foul moss, he hopes to uncover the cause of the blighted growth."
   },
   {
    "q": "What are timberlings supposed to be?",
@@ -74,7 +74,7 @@
     "timberling lore",
     "are timberlings evil"
    ],
-   "answer": "Timberlings are naturally peaceful plant elementals born of the forest. Dark forces and unnatural taint have driven many of them mad and aggressive across Teldrassil."
+   "answer": "Timberlings are naturally peaceful plant elementals born of the forest. Dark forces and unnatural taint have driven many mad and aggressive across Teldrassil."
   },
   {
    "q": "Is the corruption on the heart magical or natural?",
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a kaldorei, you see the young World Tree Teldrassil fostering tainted, aggressive timberlings like Blackmoss. Their blight is a sobering sign that your new home is troubled by a creeping sickness."
+   "text": "As a kaldorei, you see the young World Tree Teldrassil fostering tainted, aggressive timberlings like Blackmoss. Their blight is a sobering sign that your new home suffers from a creeping sickness."
   },
   {
    "target": "class:Druid",
@@ -119,5 +119,5 @@
  "attribution": [
   "The Moss-twined Heart"
  ],
- "style": 1
+ "style": 2
 }

@@ -27,21 +27,21 @@
    "Quest:The Corrupter/Chain"
   ]
  },
- "summary": "Maurin Bonesplitter believes the demon lord can be found, but first any wards the creature holds against scrying must be broken. For that, Maurin wants the scalp of a Hatefury shadowstalker, hunted in the old ruins of Desolace's northeast.",
+ "summary": "Maurin Bonesplitter searches for a way to find The Corrupter, though its wards may foil scrying. He needs a Hatefury shadowstalker scalp from the old ruins in northeast Desolace, near Sargeron.",
  "sections": [
   {
    "title": "Breaking the Wards",
-   "body": "Maurin Bonesplitter believes the demon lord can be found, given the proper reagents. If the lord is as powerful as Maurin suspects, those must come from deadly creatures, and Maurin is sure you, acting in the Warchief's name, will take up the challenge. The first need is to break any wards the demon has against scrying. For that Maurin wants a scalp from a satyr, though only a Hatefury shadowstalker's will serve. They are to be sought in the old ruins of Desolace's northeast, near Sargeron.",
+   "body": "Maurin Bonesplitter believes the right reagents can reveal the demon lord. If Maurin is right about its power, those reagents must come from deadly creatures. He trusts you to face that danger in the Warchief's name.\n\nFirst, the demon lord's wards against scrying must be broken. Maurin asks you for a satyr's scalp, and only a Hatefury shadowstalker's will serve. Search the old ruins in northeast Desolace, near Sargeron.",
    "spoiler": 0
   },
   {
    "title": "The Right Scalp",
-   "body": "Maurin cautions you against bringing back the wrong scalp. The wrong reagents could get people killed, since the demon lord may carry contingency spells meant to slay anyone who tries to scry on him. Maurin adds that fate has already dealt out enough pain.",
+   "body": "Maurin warns you to bring back the right scalp. Wrong reagents could get people killed, for the demon lord may have contingency spells meant to slay anyone who tries to scry on him. Fate has already dealt out enough pain, he says.",
    "spoiler": 0
   },
   {
    "title": "When You Return",
-   "body": "Maurin judges the scalp fit for his spell. While you were away he gathered some of the other reagents it needs, and he is almost ready. He lacks only a focus, an object to cast the demon lord's image and show where he is.",
+   "body": "Maurin judges the scalp fit for his spell. While you were away, he gathered some of the other reagents it needs and is nearly ready. Only a focus remains, an object that will cast the demon lord's image and reveal where he is.",
    "spoiler": 1
   }
  ],
@@ -53,7 +53,7 @@
     "who starts this",
     "maurin bonesplitter"
    ],
-   "answer": "Maurin Bonesplitter asks for it, for a spell to find the demon lord."
+   "answer": "Maurin Bonesplitter asks you to bring him the scalp for a spell to find the demon lord."
   },
   {
    "q": "Why does Maurin specifically need a Hatefury shadowstalker scalp?",
@@ -62,7 +62,7 @@
     "satyr scalp reason",
     "why a satyr"
    ],
-   "answer": "Any wards the demon lord has against scrying must be broken first. For that Maurin needs the scalp of a satyr, and only a Hatefury shadowstalker's will do."
+   "answer": "The demon lord may have wards against scrying, and Maurin needs a satyr's scalp to break them. Only a Hatefury shadowstalker's scalp will do."
   },
   {
    "q": "Where can the Hatefury shadowstalkers be found?",
@@ -71,7 +71,7 @@
     "shadowstalker location",
     "satyr location"
    ],
-   "answer": "In the old ruins of Desolace's northeast, near Sargeron."
+   "answer": "Hatefury shadowstalkers can be found in the old ruins of northeast Desolace, near Sargeron."
   },
   {
    "q": "What are the dangers of using the wrong reagents?",
@@ -80,7 +80,7 @@
     "wrong reagents risk",
     "contingency spells"
    ],
-   "answer": "Maurin warns that the wrong reagents could cause deaths. The demon lord may carry contingency spells meant to slay anyone who tries to scry on him."
+   "answer": "Maurin warns that the wrong reagents could cause deaths. The demon lord may have contingency spells meant to slay anyone who tries to scry on him."
   },
   {
    "q": "Where does this step fit into the search for the demon lord?",
@@ -89,7 +89,7 @@
     "quest order",
     "what comes before this"
    ],
-   "answer": "It follows the first part of The Corrupter, when you brought the flayed demon skin to Maurin."
+   "answer": "This follows the first part of The Corrupter, when you brought the flayed demon skin to Maurin."
   }
  ],
  "angles": [],
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "The Corrupter (2)"
- ]
+ ],
+ "style": 2
 }

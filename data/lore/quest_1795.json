@@ -23,16 +23,16 @@
    "The Binding (Felhunter)"
   ]
  },
- "summary": "Above Ratchet, warlocks face the rite that binds a felhunter to their will. Strahad Farsan oversees the summoning with the restored Tome of the Cabal, drawing an aggressive demon from the Nether to be subdued in combat.",
+ "summary": "Above Ratchet, warlocks face the rite that binds a felhunter to their will. Strahad Farsan uses the restored Tome of the Cabal to draw an aggressive demon from the Nether, then watches the warlock subdue it in combat.",
  "sections": [
   {
    "title": "The Cabal's Circle",
-   "body": "On Kalimdor's bluffs above Ratchet, the goblin port, Strahad Farsan conducts dangerous trials in demon summoning. After a warlock gathers the fragments and reagents needed to restore the ancient Tome of the Cabal, Strahad prepares the binding grounds. He lays an inner glyph of containment while his acolytes channel power through enchanted rods to complete the outer circle. The circles keep whatever emerges isolated from the settlement below.",
+   "body": "On Kalimdor’s bluffs above Ratchet, the goblin port, Strahad Farsan leads dangerous trials in demon summoning. A warlock first gathers the fragments and reagents needed to restore the ancient Tome of the Cabal. Then Strahad prepares the binding grounds. He lays an inner glyph of containment while his acolytes channel power through enchanted rods to complete the outer circle. Together, the circles isolate whatever emerges from the settlement below.",
    "spoiler": 0
   },
   {
    "title": "Subjugating the Hunter",
-   "body": "The Tome of the Cabal holds the incantations that open a bridge into the Twisting Nether. Felhunters are ravenous demonic hounds that hunger for arcane power and feast on magical energy. No gentle enthrallment or persuasion will bind one. The warlock must violently subdue and break the summoned beast in combat before it recognizes its rightful master. Surviving the clash proves the summoner can wield the hound against enemy spellcasters.",
+   "body": "The Tome of the Cabal holds the words that open a bridge into the Twisting Nether. Felhunters are ravenous demonic hounds that hunger for arcane power and feast on magical energy. No gentle enthrallment or persuasion can bind one. The warlock must violently subdue the summoned beast in combat and break its will before it recognizes its rightful master. Surviving the clash proves the summoner can wield the hound against enemy spellcasters.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "felhunter quest goal",
     "binding purpose"
    ],
-   "answer": "The ritual lets a warlock summon a felhunter and bind it to their will. Reading from the completed Tome of the Cabal inside Strahad Farsan's summoning circle draws the demon from the Nether. The warlock must defeat it in battle, winning its permanent service."
+   "answer": "The ritual lets a warlock summon a felhunter and bind it to their will. Reading from the completed Tome of the Cabal within Strahad Farsan’s summoning circle draws the demon from the Nether. The warlock must defeat it in battle to win its permanent service."
   },
   {
    "q": "Who is Strahad Farsan?",
@@ -53,7 +53,7 @@
     "strahad farsan lore",
     "quest giver strahad"
    ],
-   "answer": "Strahad Farsan is an accomplished human warlock who works from a tower above Ratchet in the Barrens. His vast knowledge of dark summoning arts leads mentors from both the Alliance and the Horde to quietly send their most promising practitioners to study advanced binding rites under his tutelage."
+   "answer": "Strahad Farsan is an accomplished human warlock whose tower stands above Ratchet in the Barrens. His deep knowledge of dark summoning arts leads mentors from both the Alliance and the Horde to quietly send their most promising practitioners to study advanced binding rites under his guidance."
   },
   {
    "q": "Why does a warlock have to kill the demon instead of enslaving it?",
@@ -62,7 +62,7 @@
     "can i enslave felhunter",
     "felhunter combat"
    ],
-   "answer": "A felhunter is an aggressive predator that devours magic and respects absolute dominance. The practitioner must best it in physical and magical combat, breaking its ferocity and imprinting their authority over its spirit so it obeys future summonings."
+   "answer": "A felhunter is an aggressive predator that devours magic and yields only to absolute dominance. The warlock must best it in physical and magical combat, violently breaking its ferocity and imprinting authority over its spirit so it obeys future summonings."
   },
   {
    "q": "Can both Horde and Alliance warlocks perform this ritual here?",
@@ -71,7 +71,7 @@
     "is this alliance only",
     "who gets this quest"
    ],
-   "answer": "Yes. The steps to reconstruct the Tome of the Cabal differ by faction, but both Alliance and Horde warlocks are eventually directed to Strahad Farsan above Ratchet for the final summoning."
+   "answer": "Yes. Alliance and Horde warlocks follow different steps to reconstruct the Tome of the Cabal, but both are eventually directed to Strahad Farsan above Ratchet for the final summoning."
   },
   {
    "q": "What happens if the felhunter defeats the summoner?",
@@ -89,13 +89,13 @@
     "felhunter lore",
     "why felhunters"
    ],
-   "answer": "Felhunters are demonic hounds that hunt by sensing magical emanations. They rely less on brute force or shadow spells, instead smelling out sorcery, devouring active enchantments, and disrupting enemy spellcasters. This makes them valuable companions against rival magic users."
+   "answer": "Felhunters are demonic hounds that hunt by sensing magical emanations. They rely less on brute force or shadow spells, instead smelling out sorcery, devouring active enchantments, and disrupting enemy spellcasters. That makes them valuable companions against rival magic users."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock, binding a felhunter marks a crucial milestone. The hound is a specialized anti-magic predator that can devour spells and shut down hostile casters."
+   "text": "As a warlock, binding a felhunter marks a crucial milestone. The hound is a specialized anti-magic predator that can devour spells and silence hostile casters."
   },
   {
    "target": "faction:Alliance",
@@ -129,5 +129,5 @@
  "attribution": [
   "The Binding (Felhunter)"
  ],
- "style": 1
+ "style": 2
 }

@@ -18,16 +18,16 @@
   "wiki": null,
   "next": ""
  },
- "summary": "Krazek has mended the pot and added a second steam whistle, plus a new chopper in the base made to cut through leg bones. The pot now has to go back to Corporal Kaleb at the Rebel Camp.",
+ "summary": "At the Rebel Camp, Corporal Kaleb waits for the pot Krazek repaired in Booty Bay. It has a second steam whistle and a chopper built into its base.",
  "sections": [
   {
    "title": "A Better Pot",
-   "body": "Krazek has finished with the pot you brought in. It now has one more steam whistle and a new chopper set into the bottom, able to cut through leg bones. Krazek calls it a guaranteed cook-pleaser and expects the owner to be happy with it. It must go back to Corporal Kaleb at the Rebel Camp.",
+   "body": "Krazek has finished repairing the pot you brought him. He added another steam whistle and fitted a chopper to its base, sharp enough to cut through leg bones. He calls it a sure way to please the cook and expects its owner to be glad of the changes. Now it is ready to return to Corporal Kaleb at the Rebel Camp.",
    "spoiler": 0
   },
   {
    "title": "Back at the Camp",
-   "body": "Kaleb is delighted to see the pot working, because dinner can finally get started. Kaleb then hopes your time in Booty Bay went well, calling it a rough town, and passes along a rumor that goblins sometimes drag drunken sailors off to slave boats headed for parts unknown.",
+   "body": "Corporal Kaleb is delighted to see the pot working, and at last dinner can begin. He hopes your time in Booty Bay went well, though he calls it a rough town. He also shares a rumor: goblins sometimes drag drunken sailors away to slave boats bound for parts unknown.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "where is corporal kaleb",
     "kaleb location"
    ],
-   "answer": "Corporal Kaleb is at the Rebel Camp, awaiting a cooking pot that Krazek in Booty Bay has been fixing."
+   "answer": "Corporal Kaleb waits at the Rebel Camp for the cooking pot Krazek has been repairing in Booty Bay."
   },
   {
    "q": "What did Krazek do to the pot?",
@@ -50,7 +50,7 @@
     "what did krazek fix",
     "krazek crock pot"
    ],
-   "answer": "Krazek repaired it, then fitted a second steam whistle and a fresh chopper in the base that slices through leg bones."
+   "answer": "Krazek repaired the pot, added another steam whistle, and fitted a new chopper into its base, sharp enough to cut through leg bones."
   },
   {
    "q": "What came before this step?",
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Classic quest text: Return to Corporal Kaleb"
- ]
+ ],
+ "style": 2
 }

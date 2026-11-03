@@ -10,16 +10,16 @@
    "quest:1151"
   ]
  },
- "summary": "Fragments of Rok'Alim are the shattered stone remains of a primeval earth elemental roaming the canyons of Thousand Needles. Brought to Dorn Plainstalker at the Weathered Nook, they serve as undeniable physical proof that a warrior has bested an ancient terror in single combat.",
+ "summary": "Across Thousand Needles, Rok'Alim's stone fragments bear witness to a warrior's victory. Dorn Plainstalker at the Weathered Nook seeks them as proof Rok'Alim fell in single combat.",
  "sections": [
   {
    "title": "Remnants of an Ancient Power",
-   "body": "While most elementals faded from Azeroth following the banishment of the Old Gods, a handful possessed enough raw power to endure on the surface without being summoned by mortal magic. Rok'Alim the Pounder is one such survivor, wandering the canyon flats south of the main thoroughfare. Local centaur know him by the thunderous crashes of his stony fists pulverizing anything foolish enough to wander into his path. Striking down this living remnant of the primordial world yields jagged pieces of dense, animated rock\u2014a trophy fit to prove unmatched physical prowess.",
+   "body": "Rok'Alim the Pounder still walks the canyon flats south of the main thoroughfare. Most elementals faded from Azeroth after the Old Gods were banished, though a few powerful ones endured without mortal summoning. The local centaur know Rok'Alim by the crashes of his stone fists as they crush anything in his path. Defeat leaves jagged pieces of dense, animated rock, proof of a warrior's might.",
    "spoiler": 0
   },
   {
    "title": "The Trial of Might",
-   "body": "For the tauren hermit Dorn Plainstalker, recovering the fragments is the decisive component of the Test of Strength. As part of a series of spiritual and martial rites conducted high within the Weathered Nook, the trial demands that an initiate face an entity of unyielding brute force. Delivering the battered rubble of Rok'Alim proves that an adventurer possesses the bravery and physical might required to survive the harshest perils of Kalimdor.",
+   "body": "Dorn Plainstalker needs the fragments for the Test of Strength. The tauren hermit holds spiritual and martial rites high in the Weathered Nook. An initiate must face a being of unyielding brute force. Bringing Dorn the battered pieces of Rok'Alim proves the bravery and might needed to survive Kalimdor's harshest perils.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what are rokalim fragments",
     "rokalims stone"
    ],
-   "answer": "They are the broken stone remains of Rok'Alim the Pounder, an ancient earth elemental who prowls the north-western canyons of Thousand Needles. They act as proof of the elemental's defeat."
+   "answer": "The Fragments of Rok'Alim are broken pieces of Rok'Alim the Pounder, an ancient earth elemental who prowls Thousand Needles' northwestern canyons. They prove he was defeated."
   },
   {
    "q": "Who wants these stone fragments?",
@@ -40,7 +40,7 @@
     "turn in fragments of rokalim",
     "dorn plainstalker quest"
    ],
-   "answer": "Dorn Plainstalker, a tauren questgiver residing at the Weathered Nook high along the canyon cliffs of Thousand Needles, asks for the fragments to conclude the Test of Strength."
+   "answer": "Dorn Plainstalker wants the stone fragments for the Test of Strength. The tauren hermit lives at the Weathered Nook high along Thousand Needles' canyon cliffs."
   },
   {
    "q": "Why is Rok'Alim significant?",
@@ -49,7 +49,7 @@
     "rokalim lore",
     "who is rokalim the pounder"
    ],
-   "answer": "Unlike most modern elementals that must be conjured by mortal mages, Rok'Alim has lingered in the world since the era of the Old Gods. Centaur tribes in the canyons gave him the name 'the Pounder' due to the booming noise of his fists crushing his prey."
+   "answer": "Rok'Alim has endured since the era of the Old Gods, though most elementals faded after their banishment unless mortals summoned them. Centaur tribes in the canyons know him as the Pounder for the crashes of his fists as they crush prey."
   },
   {
    "q": "Where is Rok'Alim found?",
@@ -58,17 +58,17 @@
     "find rokalim the pounder",
     "where does rokalim spawn"
    ],
-   "answer": "Rok'Alim roams the north-western basin of Thousand Needles, wandering south of the region's main road between the sandstone spires."
+   "answer": "Rok'Alim roams Thousand Needles' northwestern basin, south of the region's main road among the sandstone spires."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Overcoming enduring remnants of Azeroth's primordial past aligns closely with tauren traditions of testing harmony, fortitude, and personal strength against the land's most formidable hazards."
+   "text": "As a tauren, facing the land's most formidable hazards tests your harmony, fortitude, and strength against remnants of Azeroth's primordial past."
   },
   {
    "target": "class:Shaman",
-   "text": "Rok'Alim represents an ancient earth spirit bound to the world long before modern shamanic pacts, making his unyielding nature an intriguing study in raw elemental tenacity."
+   "text": "As a shaman, you can study Rok'Alim's unyielding nature as an example of elemental tenacity. He is an ancient earth spirit bound to the world before modern shamanic pacts."
   }
  ],
  "keywords": [
@@ -94,5 +94,6 @@
  "attribution": [
   "Fragments of Rok'Alim",
   "Test of Strength"
- ]
+ ],
+ "style": 2
 }

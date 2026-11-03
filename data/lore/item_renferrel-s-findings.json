@@ -10,16 +10,16 @@
    "quest:493"
   ]
  },
- "summary": "In Silverpine Forest, Renferrel's Findings carry research south to Tarren Mill. Apothecary Renferrel gathered the notes at the Sepulcher for Apothecary Lydon, who is helping brew the Forsaken's New Plague.",
+ "summary": "In Silverpine Forest, Renferrel's Findings carry his research south to Tarren Mill. Apothecary Renferrel gathered the notes at the Sepulcher for Apothecary Lydon, who is helping brew the Forsaken's New Plague.",
  "sections": [
   {
    "title": "A Plague in Development",
-   "body": "At the Sepulcher, Apothecary Renferrel records his work on the New Plague. The Royal Apothecary Society labours under direct orders from Lady Sylvanas Windrunner, the Dark Lady. Researchers scattered across Lordaeron must work together to achieve a breakthrough. Renferrel sends his findings south to Tarren Mill, where fellow researchers can build on his results.",
+   "body": "At the Sepulcher, Apothecary Renferrel records his work on the New Plague. The Royal Apothecary Society answers directly to Lady Sylvanas Windrunner, the Dark Lady. Researchers scattered across Lordaeron must join their work to find a breakthrough. So Renferrel sends his findings south to Tarren Mill, where fellow apothecaries can build on his results.",
    "spoiler": 0
   },
   {
    "title": "To Tarren Mill",
-   "body": "The papers link Silverpine Forest to Hillsbrad Foothills and the Forsaken's alchemical network. Apothecary Lydon awaits Renferrel's notes in Tarren Mill, where he can compare them with his own work against the living and the Scourge. Reliable couriers must cross Hillsbrad's contested roads; without them, the Society's scattered research would quickly stall.",
+   "body": "Renferrel's papers link Silverpine Forest to Hillsbrad Foothills and the Forsaken's alchemical work. Apothecary Lydon awaits the notes in Tarren Mill, where he can compare them with his own research against the living and the Scourge. The roads through Hillsbrad are contested, so the Society depends on reliable couriers. Without them, its scattered research would soon stall.",
    "spoiler": 0
   }
  ],
@@ -49,7 +49,7 @@
     "why send to lydon",
     "apothecary communication"
    ],
-   "answer": "Lady Sylvanas Windrunner has ordered the Royal Apothecary Society to create a New Plague. The apothecaries believe comparing results will bring a breakthrough far more quickly than working alone."
+   "answer": "Lady Sylvanas Windrunner has ordered the Royal Apothecary Society to create a New Plague. The apothecaries believe comparing results will bring a breakthrough far sooner than working alone."
   },
   {
    "q": "Where does Apothecary Renferrel conduct his experiments?",
@@ -92,5 +92,5 @@
   "Renferrel's Findings",
   "Journey to Hillsbrad Foothills"
  ],
- "style": 1
+ "style": 2
 }

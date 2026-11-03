@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Satyrnaar"
  },
- "summary": "Satyrnaar lies in ruin under the Bleakheart satyrs in northeastern Ashenvale. The ancient night elf settlement sits beside the road from Splintertree Post toward Azshara, intact enough to be one of the forest’s easiest satyr strongholds to reach.",
+ "summary": "In Satyrnaar, Bleakheart satyrs hold an ancient night elf settlement in northeastern Ashenvale. The ruins sit beside the road from Splintertree Post toward Azshara, and their stonework is more intact than that of other satyr camps deep in the forest.",
  "sections": [
   {
    "title": "A Den of Fel and Shadow",
-   "body": "You find Satyrnaar northeast of Splintertree Post and southwest of Forest Song, among Ashenvale’s three chief satyr settlements with Xavian and Night Run. Its elven buildings remain more intact than those deep in the wilderness, though tents now stand among the broken stone. The Bleakheart satyrs occupy the camp, making the trade road east toward Azshara dangerous for travelers. They have also allied with the Cult of the Dark Strand, whose soulgem lies among the corrupted stones.",
+   "body": "You find Satyrnaar northeast of Splintertree Post and southwest of Forest Song. Along with Xavian and Night Run, it is one of Ashenvale’s three chief satyr settlements. Its elven buildings are more intact than those deep in the wilderness, though tents now stand among the broken stone. The Bleakheart satyrs make the trade road east toward Azshara dangerous. They are allied with the Cult of the Dark Strand, whose soulgem lies among the corrupted stones.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is this place",
     "satyr camp"
    ],
-   "answer": "Satyrnaar lies in ruin in northeastern Ashenvale, occupied by the Bleakheart satyrs. It is one of their chief strongholds in the forest."
+   "answer": "Satyrnaar lies in ruin in northeastern Ashenvale, where the Bleakheart satyrs have made their stronghold."
   },
   {
    "q": "Who lives in Satyrnaar?",
@@ -40,7 +40,7 @@
     "satyrnaar vs xavian",
     "why satyrnaar"
    ],
-   "answer": "Satyrnaar, Night Run, and Xavian are Ashenvale’s three chief satyr settlements. Satyrnaar is the most intact and lies beside the road toward Azshara."
+   "answer": "Satyrnaar, Night Run, and Xavian are Ashenvale’s three chief satyr settlements. Satyrnaar’s buildings are more intact, and it lies beside the road toward Azshara."
   },
   {
    "q": "What is the dark artifact hidden in Satyrnaar?",
@@ -55,11 +55,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, seeing ancestral stonework defiled by fel corruption and occupied by the cursed remnants of the Highborne is a bitter sight in Ashenvale."
+   "text": "As a night elf, seeing fel corruption defile ancestral stonework and the cursed remnants of the Highborne occupy it is a bitter sight in Ashenvale."
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you see how the Bleakheart satyrs’ fel corruption chokes Ashenvale’s natural spirit, calling for swift cleansing."
+   "text": "As a druid, you see the Bleakheart satyrs’ fel corruption choking Ashenvale’s natural spirit. The land calls for swift cleansing."
   }
  ],
  "keywords": [
@@ -84,5 +84,5 @@
  "attribution": [
   "Satyrnaar"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "The Twilight Camp",
   "chain": []
  },
- "summary": "Cultists gather around the Master's Glaive in southern Darkshore, and Alliance scouts seek to learn why. A scrying bowl has shown their ritual site; now you enter the excavation to discover what the Twilight's Hammer seeks beneath the earth.",
+ "summary": "At the Master's Glaive in southern Darkshore, cultists gather while Alliance scouts seek their purpose. A scrying bowl has revealed their ritual site. Now you enter the excavation to learn what the Twilight's Hammer seeks beneath the earth.",
  "sections": [
   {
    "title": "Probing the Dig",
-   "body": "The Twilight's Hammer has made the Master's Glaive an active threat. After a scrying bowl reveals the cultists' fortifications, you enter their camp to learn their designs before the Alliance can prepare its defenses.",
+   "body": "The Twilight's Hammer has made the Master's Glaive a threat. A scrying bowl revealed the cultists' fortifications. You enter their camp to learn their designs before the Alliance can prepare its defenses.",
    "spoiler": 0
   },
   {
    "title": "The Illustrated Tome",
-   "body": "The cultists' northern camp holds an ancient tome, printed by hand and filled with unsettling art. Its pages show that the Twilight's Hammer studies the colossal entity buried beneath the earth.",
+   "body": "In the cultists' northern camp, an ancient tome lies filled with unsettling art. Printed by hand, its pages reveal that the Twilight's Hammer studies the colossal entity buried beneath the earth.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "twilight camp quest objective",
     "what do i do twilight camp"
    ],
-   "answer": "You enter the Twilight's Hammer camp near the Master's Glaive in southern Darkshore to recover a clue to the cult's motives: a hand-printed ritual book."
+   "answer": "You enter the Twilight's Hammer camp near the Master's Glaive in southern Darkshore to find a clue to the cult's motives: a hand-printed ritual book."
   },
   {
    "q": "Who sends you to investigate the camp?",
@@ -45,7 +45,7 @@
     "who gives twilight camp",
     "twilight camp quest giver"
    ],
-   "answer": "The Scrying Bowl at the overlook above the Master's Glaive sends you to investigate, continuing the inquiry begun for the ancient protector Onu."
+   "answer": "The Scrying Bowl at the overlook above the Master's Glaive sends you to investigate. You continue the inquiry begun for the ancient protector Onu."
   },
   {
    "q": "Where is the clue found in the camp?",
@@ -62,7 +62,7 @@
     "why are cultists at masters glaive",
     "twilights hammer darkshore purpose"
    ],
-   "answer": "The cultists seek the dark powers of the Old Gods and their servants. They dig around the massive petrified carcass pinned by the giant stone blade, to study or awaken whatever ancient evil remains there."
+   "answer": "The cultists seek the dark powers of the Old Gods and their servants. Around the massive petrified carcass pinned by the giant stone blade, they dig to study or awaken whatever ancient evil remains there."
   },
   {
    "q": "What happens after finding the tome?",
@@ -76,11 +76,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a Night Elf, you see the Twilight's Hammer defile sacred Kalimdor beneath the ancient groves of Darkshore."
+   "text": "As a Night Elf, you see the Twilight's Hammer defile sacred Kalimdor beneath Darkshore's ancient groves."
   },
   {
    "target": "class:Druid",
-   "text": "As a Druid, you help Cenarion wardens uncover the cult's research and keep corrupting ancient entities buried."
+   "text": "As a Druid, you help Cenarion wardens uncover the cult's research and keep it from corrupting ancient entities buried beneath the earth."
   },
   {
    "target": "faction:Alliance",
@@ -106,5 +106,5 @@
  "attribution": [
   "The Twilight Camp"
  ],
- "style": 1
+ "style": 2
 }

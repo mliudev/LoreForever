@@ -8,16 +8,16 @@
   "wiki": "Chronormu",
   "refs": 2
  },
- "summary": "Chronormu, who goes by the mortal name Chromie, is a bronze dragon disguised as an energetic female gnome. Tasked with safeguarding the flow of time on Azeroth, she often works directly with mortals rather than observing from afar. In the Western Plaguelands, she quietly intervenes in the tragic aftermath of the Third War to right disrupted temporal threads.",
+ "summary": "In the Western Plaguelands, Chronormu works to mend time's damaged threads. Mortals know her as Chromie, a bronze dragon who often works beside them.",
  "sections": [
   {
    "title": "A Dragon in Small Guise",
-   "body": "Though she appears to mortals as an eccentric and cheerful gnome named Chromie, Chronormu is a member of the bronze dragonflight serving under the Timeless One, Nozdormu. Bronze dragons are charged by the titans with guarding history and correcting disruptions in the timeways. In the form of a female gnome, she walks beside mortals as an approachable, optimistic peer.",
+   "body": "Mortals know Chronormu as Chromie, an eccentric and cheerful female gnome. She belongs to the bronze dragonflight and serves Nozdormu, the Timeless One. The titans charged bronze dragons to guard history and correct disruptions in the timeways. In her gnome form, Chronormu walks among mortals as an approachable and optimistic peer.",
    "spoiler": 0
   },
   {
    "title": "Watcher of the Plaguelands",
-   "body": "Chronormu has taken up residence within the ruined ruins of Lordaeron, particularly watching the devastated Western Plaguelands. The catastrophic downfall of the kingdom and the spread of the Scourge tore deeply into the region's history, leaving temporal anomalies and trapped remnants. Working discreetly from places like the ruins of Andorhal, she enlists mortal adventurers to mend tangled timelines and investigate disturbances without revealing the full terrifying majesty of the dragonflight unless necessary.",
+   "body": "Among Lordaeron's ruined remains, Chronormu watches over the devastated Western Plaguelands. The kingdom's fall and the Scourge's spread tore at the region's history, leaving temporal anomalies and trapped remnants. From places such as the ruins of Andorhal, she works quietly with mortal adventurers to mend tangled timelines and investigate disturbances. Only when necessary does she reveal the full majesty of the dragonflight.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "chromie true form",
     "who is chromie"
    ],
-   "answer": "No. Chromie is merely the mortal visage of Chronormu, a bronze dragon. Bronze dragons adopt mortal guises to walk among the younger races without drawing undue terror or suspicion."
+   "answer": "No. Chromie is Chronormu's mortal guise; she is a bronze dragon. Bronze dragons take mortal forms to walk among younger races without causing undue fear or suspicion."
   },
   {
    "q": "Why does Chromie have two names?",
@@ -38,7 +38,7 @@
     "why is chromie called chronormu",
     "chronormu gender"
    ],
-   "answer": "Chronormu is simply her true name as a bronze dragon. Chromie is the shorter name she uses in her gnome guise among mortals."
+   "answer": "Chronormu is her true name as a bronze dragon. Among mortals, she uses the shorter name Chromie in her gnome guise."
   },
   {
    "q": "What is Chromie doing in the Western Plaguelands?",
@@ -47,7 +47,7 @@
     "why is chromie in andorhal",
     "chromie western plaguelands"
    ],
-   "answer": "The devastation caused by the Scourge in Lordaeron caused severe disruptions to history and the timeways. Chromie is stationed in the ruins to investigate temporal anomalies, undo historical disturbances, and enlist trustworthy adventurers to repair damaged threads of time."
+   "answer": "The Scourge's devastation of Lordaeron disrupted history and the timeways. From the ruins, Chromie investigates temporal anomalies, undoes historical disturbances, and enlists trustworthy adventurers to repair damaged threads of time."
   },
   {
    "q": "Who are the bronze dragonflight?",
@@ -56,17 +56,17 @@
     "what is bronze flight",
     "nozdormu flight"
    ],
-   "answer": "Led by the Dragon Aspect Nozdormu, the bronze dragonflight was blessed by the titans with the power to travel through and protect the pathways of time. They ensure that history unfolds as intended and intervene when time is altered or corrupted."
+   "answer": "Led by Nozdormu, the Dragon Aspect, the bronze dragonflight was blessed by the titans with power over time's pathways. Its members protect those pathways and intervene when time is altered or corrupted, so history unfolds as intended."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Chronormu walks among mortals as Chromie, a cheerful gnome whose small, unassuming form hides a bronze dragon."
+   "text": "As a gnome, you may meet Chronormu as Chromie, a cheerful figure whose small form hides a bronze dragon."
   },
   {
    "target": "class:Mage",
-   "text": "Mages studying the arcane discipline of chronomancy will find Chronormu's casual manipulation of time and localized temporal pockets both fascinating and staggering in scale."
+   "text": "As a mage studying chronomancy, you may find Chronormu's casual command of time and localized temporal pockets fascinating, and staggering in scale."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Chronormu"
- ]
+ ],
+ "style": 2
 }

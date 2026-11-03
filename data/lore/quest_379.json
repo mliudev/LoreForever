@@ -28,16 +28,16 @@
    "Errand for Apothecary Zinge"
   ]
  },
- "summary": "Chief Engineer Bilgewhizzle in Gadgetzan can supply the 4711-FTZ power source for your kit, but first wants something to drink: five Wastewander Water Pouches, to be had from the Wastewander nomads east of town.",
+ "summary": "In Gadgetzan, Chief Engineer Bilgewhizzle needs five Wastewander Water Pouches before he can supply the 4711-FTZ power source for your kit. The Wastewander nomads east of town carry them.",
  "sections": [
   {
    "title": "A Drink for a Power Source",
-   "body": "After Into the Field, you know the kit needs a power source, and Chief Engineer Bilgewhizzle in Gadgetzan can help. The price is a drink: five Wastewander Water Pouches. Bilgewhizzle points you to the Wastewander nomads east of Gadgetzan, suggests you simply walk up to one and ask, and wants to hear how that works out.",
+   "body": "Chief Engineer Bilgewhizzle in Gadgetzan can help with the power source your kit needs after Into the Field. First, he asks you for five Wastewander Water Pouches. The Wastewander nomads live east of Gadgetzan, and Bilgewhizzle suggests you walk up and ask one for water. He wants to hear how it goes.",
    "spoiler": 0
   },
   {
    "title": "A Limit on the Power",
-   "body": "Once the pouches are handed over, the power source is yours, but it was not made for a science kit. There is only so long before every bit of data you gather is lost: two hours at most. When you have what you need, bring it back to Bilgewhizzle to be shut down properly. If time runs out, another power source can be had, but it will be sold, not given.",
+   "body": "The 4711-FTZ power source was not made for a science kit. Once you hand over the pouches, you can use it, but your gathered data lasts two hours at most. Bring the source back to Bilgewhizzle when you have what you need, so he can shut it down properly. If time runs out, you can get another source, but you will have to buy it.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "bilgewhizzle quest",
     "gadgetzan engineer water"
    ],
-   "answer": "Chief Engineer Bilgewhizzle in Gadgetzan, who wants five of them in return for the 4711-FTZ power source."
+   "answer": "Chief Engineer Bilgewhizzle in Gadgetzan asks for five Wastewander Water Pouches in return for the 4711-FTZ power source."
   },
   {
    "q": "Where do you find the Wastewander Water Pouches?",
@@ -58,7 +58,7 @@
     "nomad water tanaris",
     "wastewander pouches location"
    ],
-   "answer": "From the Wastewander nomads, who are found to the east of Gadgetzan."
+   "answer": "You can get Wastewander Water Pouches from the Wastewander nomads east of Gadgetzan."
   },
   {
    "q": "What power source does Chief Engineer Bilgewhizzle offer?",
@@ -67,7 +67,7 @@
     "4711 ftz power source",
     "power source name"
    ],
-   "answer": "The 4711-FTZ, the power source for your kit."
+   "answer": "Bilgewhizzle offers the 4711-FTZ power source for your kit."
   },
   {
    "q": "What came before this step?",
@@ -76,7 +76,7 @@
     "previous quest for slake that thirst",
     "into the field connection"
    ],
-   "answer": "It follows Into the Field."
+   "answer": "Into the Field comes before this step."
   }
  ],
  "angles": [],
@@ -97,5 +97,6 @@
  ],
  "attribution": [
   "Slake That Thirst"
- ]
+ ],
+ "style": 2
 }

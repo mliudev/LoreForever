@@ -10,16 +10,16 @@
    "quest:1498"
   ]
  },
- "summary": "In Durotar, Singed Scale comes from the charred plates of electrified thunder lizards. Horde warriors bring the scales to prove their endurance and learn defensive combat.",
+ "summary": "In Durotar, warriors bring Singed Scale from the charred plates of electrified thunder lizards to prove their endurance and learn defense.",
  "sections": [
   {
    "title": "A Test of Endurance",
-   "body": "Horde veterans judge a warrior by the blows they can bear while shielding allies. In Thunder Ridge, a canyon in western Durotar, lightning hides and thunder lizards crackle with storm energy. Hunting these beasts means enduring relentless electrical shocks and crushing blows. Their blackened scales show that a fighter can withstand punishing assaults and hold firm under pressure.",
+   "body": "Horde veterans judge a warrior by the blows they endure while shielding allies. Thunder Ridge is a canyon in western Durotar, where lightning hides and thunder lizards crackle with storm energy. Hunting them means bearing relentless electrical shocks and crushing blows. Their blackened scales show a fighter can withstand punishing assaults and hold firm under pressure.",
    "spoiler": 0
   },
   {
    "title": "The Way of the Shield",
-   "body": "At the Far Watch Post, on the border between Durotar and the Barrens, the veteran warrior Uzzek asks initiates for five scales before teaching them. He believes they need physical toughness before they can learn stances and tactical defense. Bringing the scales proves they have the fortitude to join thick hide, heavy armor, and careful footwork into a firm defense against the Horde’s enemies.",
+   "body": "At the Far Watch Post on the border between Durotar and the Barrens, veteran warrior Uzzek asks initiates for five scales before teaching them. He believes they need physical toughness before they can learn stances and tactical defense. Bringing the scales proves they have the fortitude to combine thick hide, heavy armor, and careful footwork into a firm defense against the Horde’s enemies.",
    "spoiler": 0
   }
  ],
@@ -62,11 +62,11 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a developing warrior, bringing the scales to Uzzek marks a core milestone in learning protection and standing as an impenetrable shield for the Horde."
+   "text": "As a developing warrior, bringing the scales to Uzzek marks a core step in learning protection and standing as an impenetrable shield for the Horde."
   },
   {
    "target": "faction:Horde",
-   "text": "At the Far Watch Post, trials ensure that guards and vanguards on the Durotar and Barrens frontiers possess unyielding stamina."
+   "text": "At the Far Watch Post, trials ensure guards and vanguards on the Durotar and Barrens frontiers possess unyielding stamina."
   }
  ],
  "keywords": [
@@ -92,5 +92,5 @@
   "Singed Scale",
   "Path of Defense"
  ],
- "style": 1
+ "style": 2
 }

@@ -31,16 +31,16 @@
    "Errands for Kravel"
   ]
  },
- "summary": "Kravel Koalbeard now has what he needs, and wants the Delicate Car Parts carried to Fizzle Brassbolts in the Shimmering Flats, who has waited a long time for them. Kravel admits he removed a little piece from Fizzle's order, and suggests you leave it unmentioned.",
+ "summary": "Kravel Koalbeard sends Delicate Car Parts from the Mirage Raceway to Fizzle Brassbolts in the Shimmering Flats. Fizzle has waited a long time for them, and Kravel asks you to keep quiet about one small piece he removed.",
  "sections": [
   {
    "title": "A Piece Left Out",
-   "body": "Kravel Koalbeard tells you the parts are for Fizzle Brassbolts, who has been waiting a long time. Kravel confesses he took one little piece out of Fizzle's order, but feels sure it will not be missed. He calls the piece small and worthless, advises you not to bring it up, and asks you to trust him.",
+   "body": "Kravel Koalbeard sends the parts to Fizzle Brassbolts, who has waited a long time for them. Kravel admits he removed one little piece from Fizzle's order. He says it is small and worthless, and that Fizzle will not miss it. Then he asks you to trust him and leave it unmentioned.",
    "spoiler": 0
   },
   {
    "title": "Fizzle's Verdict",
-   "body": "Fizzle Brassbolts greets the parcel gladly: his hydro ratchets and repeater bolts have come at last, and they will do well enough.",
+   "body": "Fizzle Brassbolts welcomes the parcel. His hydro ratchets and repeater bolts have arrived at last. They will do well enough.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "quest giver delivery to the gnomes",
     "who sends the parts"
    ],
-   "answer": "Kravel Koalbeard, at the Mirage Raceway. He asks you to carry the parts on to Fizzle Brassbolts."
+   "answer": "Kravel Koalbeard sends the parts from the Mirage Raceway and asks you to carry them to Fizzle Brassbolts."
   },
   {
    "q": "What did Kravel Koalbeard take from the package?",
@@ -61,7 +61,7 @@
     "what is missing from the parts",
     "kravel stole parts"
    ],
-   "answer": "Kravel says he removed one little piece from Fizzle's order, which he calls small and worthless, and he would rather you did not mention it to Fizzle."
+   "answer": "Kravel says he removed one little piece from Fizzle's order. He calls it small and worthless, then asks you not to mention it to Fizzle."
   },
   {
    "q": "Where does this delivery go?",
@@ -70,7 +70,7 @@
     "where is fizzle brassbolts",
     "shimmering flats delivery"
    ],
-   "answer": "To Fizzle Brassbolts in the Shimmering Flats, on the same flats as the Mirage Raceway, where Kravel Koalbeard is found."
+   "answer": "The parts go to Fizzle Brassbolts in the Shimmering Flats. The Mirage Raceway is also on those flats, where Kravel Koalbeard is found."
   },
   {
    "q": "What came before this delivery?",
@@ -78,7 +78,7 @@
     "previous quest delivery to the gnomes",
     "what leads to delivery to the gnomes"
    ],
-   "answer": "This follows Parts for Kravel, in which you brought Kravel's package from Ratchet back to him."
+   "answer": "Before this delivery, you brought Kravel's package back from Ratchet in Parts for Kravel."
   }
  ],
  "angles": [],
@@ -104,5 +104,6 @@
  ],
  "attribution": [
   "Delivery to the Gnomes"
- ]
+ ],
+ "style": 2
 }

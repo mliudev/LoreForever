@@ -8,16 +8,16 @@
   "wiki": "Sneed",
   "refs": 5
  },
- "summary": "Deep in the Deadmines, Sneed directs the Defias Brotherhood’s timber work. From the Mast Room, he pilots a heavy shredder of his own design to cut lumber for Edwin VanCleef’s secret juggernaut.",
+ "summary": "Deep in the Deadmines, Sneed directs the Defias Brotherhood’s timber work. From the Mast Room, he pilots a heavy shredder of his own design, cutting lumber for Edwin VanCleef’s secret juggernaut.",
  "sections": [
   {
    "title": "The Defias Lumbermaster",
-   "body": "The Defias Brotherhood draws most of its members from human stonemasons and laborers, but an ironclad warship needs skilled trades. Edwin VanCleef brought Sneed in for his engineering knowledge and ruthless efficiency. Sneed works in the Mast Room, beside the underground rail network. There he directs the felling, cutting, and shaping of timber for VanCleef’s colossal dreadnaught.",
+   "body": "The Defias Brotherhood draws most of its members from human stonemasons and laborers. Yet Edwin VanCleef brought Sneed in for his engineering skill and ruthless efficiency. A warship needs skilled trades, and Sneed directs the timber work in the Mast Room beside the underground rail network. There, wood is felled, cut, and shaped for VanCleef’s colossal dreadnaught.",
    "spoiler": 0
   },
   {
    "title": "Industrial Brutality",
-   "body": "Sneed cares about cutting costs and meeting quotas, whatever the consequences. He directs the work from a custom shredder fitted with oversized buzz saws. Its blades turn raw trunks into shipbuilding timber in seconds. When intruders corner him, Sneed uses the machine’s armor to grind them down. If it fails, he scrambles from the wreckage and fights barehanded.",
+   "body": "Sneed cares about costs and quotas, whatever the consequences. From a custom shredder fitted with oversized buzz saws, he directs the work. Its blades turn raw trunks into shipbuilding timber in seconds. When intruders corner him, Sneed uses the machine’s armor to grind them down. If the shredder fails, he scrambles from the wreckage and fights barehanded.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "sneed lore",
     "what is sneed"
    ],
-   "answer": "Sneed is a goblin engineer and lumbermaster working for Edwin VanCleef. He oversees the timber work in the Deadmines for the Defias juggernaut."
+   "answer": "Sneed works for Edwin VanCleef as a goblin engineer and lumbermaster. He oversees the Deadmines timber work for the Defias juggernaut."
   },
   {
    "q": "Where can Sneed be found?",
@@ -80,15 +80,15 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Sneed’s custom shredder shows goblin craftsmanship at work: efficient, heavily armed, and pushed beyond standard safety limits for speed."
+   "text": "Sneed’s custom shredder shows goblin craft at work: efficient, heavily armed, and built for speed beyond standard safety limits."
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you may recognize Sneed’s machine as goblin ingenuity: loud, hazardous, and built without regard for comfort or lasting structure."
+   "text": "As a gnome, you may recognize goblin ingenuity in Sneed’s machine: loud, hazardous, and built without regard for comfort or lasting structure."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can cripple the Defias Brotherhood’s shipbuilding efforts by stopping Sneed’s timber supply to Ironclad Cove."
+   "text": "As an Alliance member, you can cripple the Defias Brotherhood’s shipbuilding by stopping Sneed’s timber supply to Ironclad Cove."
   }
  ],
  "keywords": [
@@ -112,5 +112,5 @@
  "attribution": [
   "Sneed"
  ],
- "style": 1
+ "style": 2
 }

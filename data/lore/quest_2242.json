@@ -20,16 +20,16 @@
    "Destiny Calls"
   ]
  },
- "summary": "Syurna sends you to learn what Sethir the Ancient knows of Teldrassil's corruption. The satyr waits near the Oracle Glade, beyond the reach of those who tried force or diplomacy.",
+ "summary": "Near the Oracle Glade, Syurna asks you to learn what Sethir the Ancient knows of Teldrassil's corruption. The satyr has turned away force and diplomacy alike.",
  "sections": [
   {
    "title": "A Silent Reconnaissance",
-   "body": "Teldrassil's growing sickness troubles the night elf leaders in Darnassus. Syurna, the rogue trainer, needs someone subtle; armed patrols have died trying to reach Sethir the Ancient. The satyr roosts on a remote bough near the Oracle Glade and has turned away force and diplomacy alike. To learn what he knows, you need to enter his lair and take his personal possessions.",
+   "body": "Teldrassil's growing sickness troubles the night elf leaders in Darnassus. Syurna, the rogue trainer, needs someone quiet, since armed patrols have died trying to reach Sethir the Ancient. The satyr roosts on a remote bough near the Oracle Glade. He has turned away force and diplomacy alike. To learn what he knows, you must enter his lair and take his personal possessions.",
    "spoiler": 0
   },
   {
    "title": "A Looming Shadow from Darkshore",
-   "body": "Sethir the Ancient's journal links Teldrassil's taint to the rot and corruption consuming Darkshore's forests and waterways across the misty sea. The sickness is not confined to the soil beneath the World Tree. Its reach points to a deliberate malice threatening the kaldorei heartland.",
+   "body": "Sethir the Ancient's journal links Teldrassil's taint to the rot consuming Darkshore's forests and waterways across the misty sea. The sickness reaches beyond the soil beneath the World Tree. Its spread points to a deliberate malice threatening the kaldorei heartland.",
    "spoiler": 1
   }
  ],
@@ -92,7 +92,7 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you test your skill at taking sensitive intelligence from under a dangerous satyr's nose, at the direction of Darnassus's stealth trainers."
+   "text": "As a rogue, you test your skill by taking sensitive intelligence from under a dangerous satyr's nose, at the direction of Darnassus's stealth trainers."
   },
   {
    "target": "race:NightElf",
@@ -125,5 +125,5 @@
  "attribution": [
   "Destiny Calls"
  ],
- "style": 1
+ "style": 2
 }

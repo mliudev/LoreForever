@@ -17,21 +17,21 @@
   "wiki": "How Big a Threat? (2)",
   "chain": []
  },
- "summary": "Terenthis in Auberdine sends you against the Blackwood furbolgs south of town. Their corrupted camp threatens the settlement, and the Sentinels want its pathfinders and windtalkers culled.",
+ "summary": "In Darkshore, Terenthis sends you against the Blackwood furbolgs south of Auberdine. Their corrupted camp threatens the settlement, and the Sentinels seek to cull its pathfinders and windtalkers.",
  "sections": [
   {
    "title": "A Necessary Cull",
-   "body": "The Sentinels see the Blackwood furbolgs as an immediate danger to Darkshore’s refugees and defenders. After you scout south of Auberdine, Terenthis sends you to strike their camp. Killing Blackwood Pathfinders and Windtalkers may break their attack before it reaches the settlement.",
+   "body": "The Sentinels see the Blackwood furbolgs as an immediate danger to Darkshore’s refugees and defenders. After you scout south of Auberdine, Terenthis sends you to strike their camp. Kill Blackwood Pathfinders and Windtalkers to hinder their attack before it reaches the settlement.",
    "spoiler": 0
   },
   {
    "title": "Tragedy of the Corrupted",
-   "body": "Night elves have long regarded furbolgs as spiritual kin and allies of the wilderness. Fel moss and demonic taint have spread across northern Kalimdor, driving the Blackwood tribe mad. No known remedy can restore their minds, so Auberdine’s defenders see a grim choice: stop them before innocent people die.",
+   "body": "Night elves have long counted furbolgs as spiritual kin and allies of the wilderness. Fel moss and demonic taint have spread across northern Kalimdor, driving the Blackwood tribe mad. No known remedy can restore their minds. So Auberdine’s defenders face a grim choice: stop the furbolgs before innocent people die.",
    "spoiler": 0
   },
   {
    "title": "Grimclaw's Arrival",
-   "body": "After you report the cull to Terenthis, a white bear named Grimclaw rushes into Auberdine toward the night elf. The bear’s arrival brings urgent new developments in the struggle against the wildlife and corruption ravaging the coast, and Auberdine’s defenses face their next challenge.",
+   "body": "After you report the cull to Terenthis, Grimclaw, a white bear, rushes into Auberdine toward the night elf. The bear’s arrival brings urgent new developments in the struggle against the wildlife and corruption ravaging the coast. Auberdine’s defenses face their next challenge.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "where are pathfinders and windtalkers",
     "furbolg camp darkshore"
    ],
-   "answer": "The Blackwood furbolg camp lies just south of Auberdine in Darkshore’s coastal forest, among the corrupted trees where the tribe has gathered."
+   "answer": "The Blackwood furbolg camp lies just south of Auberdine in Darkshore’s coastal forest. The tribe has gathered among the corrupted trees."
   },
   {
    "q": "Who is Grimclaw?",
@@ -95,7 +95,7 @@
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you feel the tragedy keenly: the furbolgs’ plight reflects the forest’s suffering beneath the taint of fel moss."
+   "text": "As a druid, you feel the tragedy keenly. The furbolgs’ plight reflects the forest’s suffering beneath the taint of fel moss."
   },
   {
    "target": "faction:Alliance",
@@ -123,5 +123,5 @@
  "attribution": [
   "How Big a Threat? (2)"
  ],
- "style": 1
+ "style": 2
 }

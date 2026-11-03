@@ -20,16 +20,16 @@
    "Triage (Horde)"
   ]
  },
- "summary": "At Hammerfall in the Arathi Highlands, Horde Trauma calls skilled medics into front-line surgery. Doctor Gregory Victor, chief physician of the Horde's trauma division, seeks hands able to save lives under extreme pressure.",
+ "summary": "At Hammerfall in the Arathi Highlands, Horde Trauma calls skilled healers to the front lines. Doctor Gregory Victor needs hands ready to save lives under extreme pressure.",
  "sections": [
   {
    "title": "A Summons from Hammerfall",
-   "body": "In Orgrimmar's Valley of Spirits, the orc first aid trainer Arnok tells proficient healers that they have caught Doctor Gregory Victor's attention. Victor oversees Horde Trauma from Hammerfall, tucked away in the contested hills of the Arathi Highlands. Arnok regards the summons as the pinnacle of professional advancement for a battlefield surgeon.",
+   "body": "In Orgrimmar's Valley of Spirits, Arnok, the orc first aid trainer, tells proficient healers they have caught Doctor Gregory Victor's attention. Victor oversees Horde Trauma from Hammerfall in the contested hills of the Arathi Highlands. Arnok regards the summons as the highest step in a battlefield surgeon's career.",
    "spoiler": 0
   },
   {
    "title": "The Brutal Work of Battlefield Triage",
-   "body": "At Hammerfall, constant skirmishes with Stromgarde's forces and local hostile factions leave Victor inundated with wounded grunts, raiders, and scouts. The chief physician wastes no time welcoming recruits with pleasantries. Instead, he orders newcomers into their scrubs to prove their worth in brutal, fast-paced emergency triage.",
+   "body": "At Hammerfall, constant skirmishes with Stromgarde's forces and hostile local factions leave Doctor Victor flooded with wounded grunts, raiders, and scouts. The chief physician skips the pleasantries. He sends newcomers into their scrubs to prove their worth in fast, brutal emergency triage.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "what is horde trauma",
     "who are horde trauma"
    ],
-   "answer": "Horde Trauma is the Horde's dedicated medical and surgical branch on the front lines. Doctor Gregory Victor leads it from Hammerfall, where its members specialize in battlefield medicine, emergency triage, and severe combat injuries under chaotic conditions."
+   "answer": "Horde Trauma is the Horde's medical and surgical branch on the front lines. Doctor Gregory Victor leads it from Hammerfall, where its members treat combat injuries and perform emergency triage amid chaos."
   },
   {
    "q": "Who sends me on this assignment?",
@@ -51,7 +51,7 @@
     "krenk choplimb",
     "arnok"
    ],
-   "answer": "Arnok, the orc first aid trainer in Orgrimmar's Valley of Spirits, issues the summons. He regards serving under Doctor Gregory Victor as the pinnacle of professional advancement for an aspiring field medic."
+   "answer": "Arnok, the orc first aid trainer in Orgrimmar's Valley of Spirits, issues the summons. He regards service under Doctor Gregory Victor as the highest step in an aspiring field medic's career."
   },
   {
    "q": "Where is Doctor Gregory Victor located?",
@@ -69,7 +69,7 @@
     "next quest after horde trauma",
     "triage quest"
    ],
-   "answer": "When you arrive, Doctor Victor immediately tells you to don your scrubs for the follow-up assignment, Triage. You are tested under high stress as you prioritize and treat wounded soldiers whose condition is rapidly worsening, before they succumb to their injuries."
+   "answer": "When you arrive, Doctor Victor tells you to don your scrubs for the follow-up assignment, Triage. Under high stress, you prioritize and treat wounded soldiers whose condition is worsening quickly, before their injuries overcome them."
   },
   {
    "q": "Why is Hammerfall so desperate for field medics?",
@@ -77,7 +77,7 @@
     "why hammerfall need medics",
     "hammerfall medical situation"
    ],
-   "answer": "Hammerfall is surrounded by hostilities in Arathi and faces relentless conflict with human forces, syndicate operatives, and local beasts. Casualties stream into the encampment constantly, pressing its small medical staff to the limit."
+   "answer": "Hammerfall is surrounded by hostilities in Arathi and faces constant conflict with human forces, syndicate operatives, and local beasts. Casualties stream into the encampment, pushing its small medical staff to the limit."
   },
   {
    "q": "Can Alliance players take this assignment?",
@@ -91,11 +91,11 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you depend on rugged battlefield surgeons to keep grunts patched up and swinging in brutal frontier conflicts like the Arathi Highlands."
+   "text": "As a member of the Horde, you rely on rugged battlefield surgeons to keep grunts patched up and fighting through brutal frontier conflicts like those in the Arathi Highlands."
   },
   {
    "target": "class:Priest",
-   "text": "As a priest, you can seal wounds with divine magic, but secular triage teaches you to judge who can be saved when your mana runs dry."
+   "text": "As a priest, you can seal wounds with divine magic. Secular triage teaches you to judge who can be saved when your mana runs dry."
   }
  ],
  "keywords": [
@@ -117,5 +117,5 @@
  "attribution": [
   "Horde Trauma (quest)"
  ],
- "style": 1
+ "style": 2
 }

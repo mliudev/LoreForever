@@ -24,16 +24,16 @@
    "Help Watcher Biggs"
   ]
  },
- "summary": "After Driftwood, Watcher Biggs has one last job for you while the wagon is being repaired. Biggs has packed up the key supplies rescued from the ogre attacks and wants you to carry them to Quartermaster Lungertz at Nethergarde Keep.",
+ "summary": "After Driftwood, Watcher Biggs asks you to carry supplies to Quartermaster Lungertz at Nethergarde Keep while his wagon is repaired.",
  "sections": [
   {
    "title": "A Last Delivery for Biggs",
-   "body": "While Biggs repairs the wagon, the key supplies rescued from the ogre attacks have been packed up for you to carry to Nethergarde Keep. The keep stands in the Blasted Lands' northern hills, watching over the Dark Portal. Biggs gives the route: follow the road east, head south into the Blasted Lands where it branches, and turn left at the next fork, with a warning to be wary.",
+   "body": "Watcher Biggs packs the key supplies rescued from the ogre attacks for you to carry. He stays behind to repair the wagon. Nethergarde Keep lies in the Blasted Lands' northern hills and watches over the Dark Portal. Biggs sends you east along the road, then south into the Blasted Lands where it branches. At the next fork, take the left turn and stay wary.",
    "spoiler": 0
   },
   {
    "title": "At Nethergarde",
-   "body": "Quartermaster Lungertz is startled to receive a package from Biggs' caravan, since the keep had given up the caravan and Biggs for lost. Lungertz thanks you and hopes the supplies hold Azoran Crystals, a much-needed reagent whose stock at the keep is running low.",
+   "body": "Quartermaster Lungertz is startled when you arrive with a package from Biggs' caravan. The keep had given up the caravan and Biggs for lost. Lungertz thanks you and hopes the supplies include Azoran Crystals, a reagent the keep badly needs and is running low on.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "deliver the shipment quest giver",
     "watcher biggs delivery"
    ],
-   "answer": "Watcher Biggs, who stays to repair the wagon, packed up key supplies rescued from the ogre attacks."
+   "answer": "Watcher Biggs packed the key supplies rescued from the ogre attacks while he stays behind to repair the wagon."
   },
   {
    "q": "Where does this shipment need to go?",
@@ -54,7 +54,7 @@
     "how to get to nethergarde",
     "quartermaster lungertz location"
    ],
-   "answer": "It goes to Quartermaster Lungertz at Nethergarde Keep, in the Blasted Lands' northern hills."
+   "answer": "You carry the supplies to Quartermaster Lungertz at Nethergarde Keep in the Blasted Lands' northern hills."
   },
   {
    "q": "What comes directly before this delivery?",
@@ -62,7 +62,7 @@
     "deliver the shipment prerequisite",
     "what quest comes before deliver the shipment"
    ],
-   "answer": "It follows Driftwood."
+   "answer": "This delivery follows Driftwood."
   },
   {
    "q": "What route leads from the swamp to the keep?",
@@ -70,7 +70,7 @@
     "directions to nethergarde keep",
     "path to blasted lands"
    ],
-   "answer": "Follow the road east, turn south into the Blasted Lands where the road branches, then take the left at the next fork."
+   "answer": "Follow the road east, then turn south into the Blasted Lands where it branches. At the next fork, take the left turn."
   },
   {
    "q": "What is Nethergarde Keep watching over?",
@@ -78,7 +78,7 @@
     "purpose of nethergarde keep",
     "why is nethergarde in blasted lands"
    ],
-   "answer": "It keeps watch over the Dark Portal."
+   "answer": "Nethergarde Keep watches over the Dark Portal."
   }
  ],
  "angles": [],
@@ -100,5 +100,6 @@
  ],
  "attribution": [
   "Deliver the Shipment"
- ]
+ ],
+ "style": 2
 }

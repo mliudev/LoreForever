@@ -17,16 +17,16 @@
   "wiki": "The Tower of Althalaxx (5)",
   "chain": []
  },
- "summary": "Delgren the Purifier sends you south from Darkshore into Ashenvale to hunt Ilkrud Magthrull. The orc warlock resides at Fire Scar Shrine, where you are to slay him and recover his tome.",
+ "summary": "At the Tower of Althalaxx, dark cultists lead Delgren the Purifier to Ilkrud Magthrull. He sends you south through Darkshore into Ashenvale to slay the orc warlock at Fire Scar Shrine and recover his tome.",
  "sections": [
   {
    "title": "A Hunt Into Ashenvale",
-   "body": "Delgren the Purifier traces the dark cultists at the Tower of Althalaxx to Ilkrud Magthrull, an orc warlock. Ilkrud works from Fire Scar Shrine in southwestern Ashenvale, and Delgren fears his magic could spread through the elven woodlands. He sends you to kill the warlock and take his tome, hoping its contents will reveal his master's designs.",
+   "body": "Delgren the Purifier traces the dark cultists at the Tower of Althalaxx to Ilkrud Magthrull, an orc warlock. Ilkrud works from Fire Scar Shrine in southwestern Ashenvale. Delgren fears his magic could spread through the elven woodlands, so he sends you to kill the warlock and take his tome. He hopes its contents will reveal his master's designs.",
    "spoiler": 0
   },
   {
    "title": "The Warlock's Lair",
-   "body": "At Fire Scar Shrine, Ilkrud keeps company with a summoned succubus and guardian felslayers. Red pillars mark the rocky ascent to the shrine. Once Ilkrud is dead, Delgren can study his tome for the knowledge and commands that connect to the rituals at Althalaxx.",
+   "body": "At Fire Scar Shrine, Ilkrud keeps company with a summoned succubus and guardian felslayers. Red pillars mark the rocky ascent to the shrine. Once Ilkrud is dead, Delgren can study his tome. Its knowledge and commands connect to the rituals at Althalaxx.",
    "spoiler": 1
   }
  ],
@@ -56,7 +56,7 @@
     "where is ilkrud",
     "how to reach ilkrud"
    ],
-   "answer": "Fire Scar Shrine lies in southwestern Ashenvale, south of the Shrine of Aessina and west of Astranaar. The corrupted enclave is infested with demons, and two red pillars flank the path to Ilkrud's altar."
+   "answer": "Fire Scar Shrine lies in southwestern Ashenvale, south of the Shrine of Aessina and west of Astranaar. Demons infest the corrupted enclave, and two red pillars flank the path to Ilkrud's altar."
   },
   {
    "q": "Why does Delgren need Ilkrud Magthrull's tome?",
@@ -87,15 +87,15 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance adventurer, you travel from Darkshore into the demon-tainted reaches of Ashenvale to confront a growing menace."
+   "text": "As an Alliance adventurer, you travel from Darkshore into Ashenvale's demon-tainted reaches to confront a growing menace."
   },
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you join Delgren the Purifier in fighting fel summoners and taking their corrupt tomes, answering the Holy Light's call against demonic corruption."
+   "text": "As a paladin, you join Delgren the Purifier in fighting fel summoners and taking their corrupt tomes. You answer the Holy Light's call against demonic corruption."
   },
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you face Ilkrud Magthrull, a fellow practitioner of the dark arts who guards his unholy texts with summoned succubi and voidwalkers."
+   "text": "As a warlock, you face Ilkrud Magthrull, a fellow practitioner of the dark arts. He guards his unholy texts with summoned succubi and voidwalkers."
   },
   {
    "target": "race:NightElf",
@@ -125,5 +125,5 @@
  "attribution": [
   "The Tower of Althalaxx (5)"
  ],
- "style": 1
+ "style": 2
 }

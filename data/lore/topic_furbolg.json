@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Furbolg"
  },
- "summary": "Furbolgs are a hulking, reclusive race of bear-men native to northern Kalimdor who lived in harmony with nature and the night elves for millennia. In the wake of the Third War, demonic corruption and lingering fel magic have driven nearly every tribe into a frenzied madness. Today, former friends have become vicious territorial predators, with only a tiny handful of tribes clinging to their sanity.",
+ "summary": "Across northern Kalimdor, Furbolg tribes turn on their old allies as madness takes hold. For millennia, they lived in harmony with nature and the night elves. Now demonic corruption and lingering fel magic leave only a few tribes sane.",
  "sections": [
   {
    "title": "Ancient Kinship",
-   "body": "Furbolgs are an ancient people of Kalimdor who have long revered the wild god Ursoc. During the War of the Ancients ten thousand years ago, tribal packs united under chieftain Unng Ak to fight alongside night elves and tauren against the first demonic invasion. Following the Great Sundering, they chose seclusion deep in the northern woodlands, maintaining peaceful ties with night elf druids and forest wardens while living in simple harmony with the wild.",
+   "body": "Furbolg packs once fought beside night elves and tauren against the Burning Legion. During the War of the Ancients, ten thousand years ago, chieftain Unng Ak united the tribes. They had long revered the wild god Ursoc. After the Great Sundering, they withdrew into the northern woodlands. There, they kept peaceful ties with night elf druids and forest wardens, living simply among the wild.",
    "spoiler": 0
   },
   {
    "title": "The Scourge of Madness",
-   "body": "The Third War shattered the furbolgs' tranquil existence. The passage of the Burning Legion through Kalimdor left lingering fel taint across the soil and canopy of Ashenvale and Felwood. Simple-minded and deeply attuned to the land, the bear-men absorbed this corruption directly. Their wizened shamans were overthrown or silenced by bloodthirsty firebrands who channeled fel moss, dark talismans, and corrupt alchemy, transforming peaceful gatherers into rabid raiders who now attack travelers and night elf settlements on sight.",
+   "body": "The Third War shattered the furbolgs’ quiet life. As the Burning Legion crossed Kalimdor, fel taint spread through the soil and canopy of Ashenvale and Felwood. Deeply attuned to the land, the bear-men took the corruption into themselves, and madness seized their tribes.\n\nWizened shamans were overthrown or silenced by bloodthirsty firebrands. These new leaders channeled fel moss, dark talismans, and corrupt alchemy. Peaceful gatherers became raiders who attack travelers and night elf settlements on sight.",
    "spoiler": 0
   },
   {
    "title": "The Unbroken Line",
-   "body": "Across northern Kalimdor, nearly every major tribe has succumbed: the Gnarlpine across Teldrassil, the Blackwood of Darkshore, the Thistlefur and Foulweald in Ashenvale, and the Deadwood and Winterfall of the northern highlands. Yet a few hold the line. Deep within the fortified tunnels connecting Felwood, Winterspring, and Moonglade, the Timbermaw tribe fiercely guards its sanity. Wary and isolated, the Timbermaw defend their hold against their crazed northern kin, desperate to preserve what remains of their uncorrupted culture.",
+   "body": "Across northern Kalimdor, nearly every major tribe has fallen. The Gnarlpine dwell across Teldrassil, the Blackwood in Darkshore, and the Thistlefur and Foulweald in Ashenvale. The Deadwood and Winterfall live in the northern highlands. Yet a few still hold to their old ways.\n\nDeep in fortified tunnels linking Felwood, Winterspring, and Moonglade, the Timbermaw guard their sanity. Wary and isolated, they defend their hold against their crazed northern kin. They fight to preserve what remains of their uncorrupted culture.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "furbolg madness",
     "why furbolgs went crazy"
    ],
-   "answer": "The aftermath of the Third War left lingering demonic corruption throughout Kalimdor's northern forests. Because furbolgs are deeply attuned to nature, this taint seeped into their minds, driving their tribes into paranoid, violent frenzy and replacing their peaceful elders with aggressive chieftains."
+   "answer": "Since the Third War, lingering demonic corruption has spread through Kalimdor’s northern forests. Furbolgs are deeply attuned to nature, and the taint seeped into their minds. It drove their tribes into a paranoid, violent frenzy and displaced peaceful elders with aggressive chieftains."
   },
   {
    "q": "Were furbolgs always enemies of the night elves?",
@@ -41,7 +41,7 @@
     "furbolg night elf history",
     "did furbolgs like night elves"
    ],
-   "answer": "No. For thousands of years, furbolgs and night elves were peaceful neighbors and close allies. They fought shoulder to shoulder against the Burning Legion during the War of the Ancients, and night elf druids maintained gentle relations with tribal settlements until the recent wave of madness took hold."
+   "answer": "No. For thousands of years, furbolgs and night elves were peaceful neighbors and close allies. They fought together against the Burning Legion during the War of the Ancients. Night elf druids kept gentle ties with tribal settlements until the recent madness took hold."
   },
   {
    "q": "Are there any furbolgs who are still friendly?",
@@ -50,7 +50,7 @@
     "good furbolg tribe",
     "uncorrupted furbolgs"
    ],
-   "answer": "Yes. The Timbermaw tribe maintains an uncorrupted enclave inside Timbermaw Hold, the crossroads tunnel system between Felwood, Moonglade, and Winterspring. Though deeply suspicious of outsiders, they will tolerate travelers who prove their enmity toward the tainted Deadwood and Winterfall tribes."
+   "answer": "Yes. The Timbermaw keep an uncorrupted enclave in Timbermaw Hold, the crossroads tunnel system between Felwood, Moonglade, and Winterspring. Deeply suspicious of outsiders, they tolerate travelers who prove their enmity toward the tainted Deadwood and Winterfall tribes."
   },
   {
    "q": "What is wrong with the furbolgs on Teldrassil?",
@@ -58,7 +58,7 @@
     "teldrassil furbolgs",
     "gnarlpine corruption"
    ],
-   "answer": "The Gnarlpine tribe on Teldrassil has fallen under the sway of fel moss, an insidious corruption spreading through the world tree's boughs. Under Chieftain Ursal the Mauler, the corrupted Gnarlpine abandoned their traditional villages and overran sacred sites like the Ban'ethil Barrow Den and Starbreeze Village."
+   "answer": "The Gnarlpine tribe on Teldrassil has fallen to fel moss, a corruption spreading through the world tree’s boughs. Under Chieftain Ursal the Mauler, the Gnarlpine abandoned their traditional villages and overran sacred places such as the Ban'ethil Barrow Den and Starbreeze Village."
   },
   {
    "q": "Who is behind the corruption of the Winterfall in Winterspring?",
@@ -67,7 +67,7 @@
     "who corrupted winterfall",
     "winterfall firewater origin"
    ],
-   "answer": "The Winterfall are secretly manipulated by a satyr named Xandivious, who lurks within their chieftain's den. The tribe's frenzy is sustained by Winterfall Firewater, brewed from tainted materials inside Felwood's Deadwood Cauldron and ferried north through the mountain passes."
+   "answer": "A satyr named Xandivious secretly manipulates the Winterfall from within their chieftain’s den. Their frenzy is sustained by Winterfall Firewater, brewed from tainted materials inside Felwood’s Deadwood Cauldron and carried north through the mountain passes."
   },
   {
    "q": "Can corrupted furbolgs ever be cured?",
@@ -75,21 +75,21 @@
     "cure furbolgs",
     "can furbolgs be saved"
    ],
-   "answer": "Night elf sentinels and druids have attempted to cleanse individual tribes using moonwell waters and sacred relics, but broad recovery has proven nearly impossible. With satyrs and dark relics actively driving the corruption deeper, defenders often have no choice but to cull hostile packs to protect settlements."
+   "answer": "Night elf sentinels and druids have tried to cleanse individual tribes with moonwell waters and sacred relics. Broad recovery has proven nearly impossible. Satyrs and dark relics deepen the corruption, leaving defenders often with no choice but to cull hostile packs to protect settlements."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, the fall of the furbolgs is a heartbreaking tragedy. Tribes who were trusted woodland allies for ten thousand years have become feral predators threatening Astranaar and the sacred barrows of Teldrassil."
+   "text": "For night elves, the furbolgs’ fall is a bitter tragedy. Tribes trusted as woodland allies for ten thousand years have become feral predators threatening Astranaar and Teldrassil’s sacred barrows."
   },
   {
    "target": "class:Druid",
-   "text": "Druids mourn the bear-men as kindred spirits of Ursoc whose connection to nature has been weaponized by fel taint, making tribal unrest a direct symptom of the land's broader sickness."
+   "text": "Druids mourn the bear-men as kindred spirits of Ursoc. Fel taint has turned their bond with nature into a weapon, and their unrest reflects the land’s wider sickness."
   },
   {
    "target": "faction:Horde",
-   "text": "The Horde views the hostile tribes of Ashenvale as territorial roadblocks, clearing aggressive packs like the Foulweald and Thistlefur to secure supply routes and outposts along the forest fringe."
+   "text": "The Horde sees Ashenvale’s hostile tribes as barriers to its advance. It clears aggressive packs such as the Foulweald and Thistlefur to secure supply routes and outposts along the forest fringe."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Furbolg"
- ]
+ ],
+ "style": 2
 }

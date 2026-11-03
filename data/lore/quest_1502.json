@@ -17,16 +17,16 @@
   "wiki": "Thun'grim Firegaze (quest)",
   "chain": []
  },
- "summary": "Atop Thorn Hill, Thun'grim Firegaze keeps to a reclusive life and a solitary forge. After their first lessons in defense, Horde warriors cross the Barrens to find him and seek steel fit for their growing skill.",
+ "summary": "Atop Thorn Hill, a lone forge draws warriors to Thun'grim Firegaze. After their first lessons in defense, Horde warriors cross the Barrens seeking steel suited to their growing skill.",
  "sections": [
   {
    "title": "The Hermit on the Ridge",
-   "body": "After you show skill in the defensive arts under veteran trainers like Uzzek, you are sent to sharpen your fighting with suitable steel. Ordinary armories can carry a frontline fighter only so far. True mastery calls for a personal weapon from a smith of renown. In the Barrens, Thun'grim Firegaze is that smith, an aging orc who has left settlement life behind to keep an isolated forge high above the plains.",
+   "body": "After you demonstrate skill in the defensive arts under veteran trainers such as Uzzek, you are sent to sharpen your fighting with suitable steel. Ordinary armories can carry a frontline fighter only so far. True mastery calls for a personal weapon from a smith of renown. In the Barrens, that smith is Thun'grim Firegaze, an aging orc who left settlement life behind for an isolated forge high above the plains.",
    "spoiler": 0
   },
   {
    "title": "A Life in the Forge Fire",
-   "body": "Thun'grim Firegaze lives atop Thorn Hill, a jagged rise east of the Crossroads where wild raptors and hostile quilboar roam. He spends his solitary hours shaping metal, far from the protection of town walls. Decades of gazing into blistering forge flames have ruined his eyesight, though his instincts remain sharp. When you climb the heights and disturb his solitude, Firegaze knows why: a warrior has come seeking forged steel.",
+   "body": "Thun'grim Firegaze lives atop Thorn Hill, a jagged rise east of the Crossroads. Wild raptors and hostile quilboar roam there, far from the protection of town walls. He spends his solitary hours shaping metal. Decades gazing into blistering forge flames have ruined his eyesight, though his instincts remain sharp. When you climb the heights and disturb his solitude, he knows why: a warrior has come seeking forged steel.",
    "spoiler": 0
   }
  ],
@@ -55,7 +55,7 @@
     "why is thun'grim a hermit",
     "firegaze hermit"
    ],
-   "answer": "Thun'grim has devoted his life to metalcraft, away from town distractions. He works alone at his anvil atop Thorn Hill despite the dangerous beasts and quilboar on the surrounding ridges."
+   "answer": "Thun'grim has devoted his life to metalcraft, away from town distractions. He works alone at his anvil atop Thorn Hill, despite the dangerous beasts and quilboar on the surrounding ridges."
   },
   {
    "q": "What happened to Thun'grim Firegaze's eyes?",
@@ -90,7 +90,7 @@
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Thun'grim follows a solitary orcish tradition of blacksmithing, enduring isolation and blindness to shape hot metal into lethal tools."
+   "text": "Thun'grim follows a solitary orcish tradition of blacksmithing. He endures isolation and blindness to shape hot metal into lethal tools."
   },
   {
    "target": "faction:Horde",
@@ -119,5 +119,5 @@
  "attribution": [
   "Thun'grim Firegaze (quest)"
  ],
- "style": 1
+ "style": 2
 }

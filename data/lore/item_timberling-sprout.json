@@ -10,11 +10,11 @@
    "quest:919"
   ]
  },
- "summary": "Along Lake Al'Ameth, Timberling Sprouts take root already touched by corruption. Night elf wardens pull them before they grow into aggressive timberlings.",
+ "summary": "Along Lake Al'Ameth, Timberling Sprouts emerge tainted, and night elf caretakers pull them before they grow into aggressive timberlings.",
  "sections": [
   {
    "title": "Blighted Seedlings",
-   "body": "Timberlings are plant spirits bound to Teldrassil's natural vitality. Along Lake Al'Ameth, the night elves find seedlings that sprout tainted and aggressive instead of healthy and in harmony with the wild. The young sprouts seem beyond cleansing or natural healing, so the caretakers gather and destroy them. They hope to stop hostile timberlings from spreading across the fragile boughs of the newly planted World Tree.",
+   "body": "Timberlings are plant spirits bound to Teldrassil's natural vitality. Along Lake Al'Ameth, some seedlings sprout tainted and aggressive instead of healthy and in harmony with the wild. The young sprouts seem beyond cleansing or natural healing, so the caretakers gather and destroy them. They hope to keep hostile timberlings from spreading across the fragile boughs of the newly planted World Tree.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "what is tainting them",
     "sprout sickness"
    ],
-   "answer": "A mysterious sickness is affecting Teldrassil's wildlife and plant elementals. Botanist Denalan does not know its source, but it taints young timberlings from the moment they take root."
+   "answer": "A mysterious sickness affects Teldrassil's wildlife and plant elementals. Botanist Denalan does not know its source, but it taints young timberlings from the moment they take root."
   },
   {
    "q": "Who asks for Timberling Sprouts to be collected?",
@@ -85,5 +85,5 @@
   "Timberling Sprout",
   "Timberling Sprouts"
  ],
- "style": 1
+ "style": 2
 }

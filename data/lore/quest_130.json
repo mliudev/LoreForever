@@ -21,16 +21,16 @@
    "Delivering Daffodils"
   ]
  },
- "summary": "Guard Parker sends you to buy flowers for Darcy before you return to the Lakeshire inn. He wants the gift to stay secret.",
+ "summary": "Guard Parker asks you to buy flowers for Darcy in Lakeshire. He wants the gift kept secret before you return to the inn.",
  "sections": [
   {
    "title": "A Guard's Secret Request",
-   "body": "At his post on Lakeshire's southern approach, Guard Parker watches for blackrock orcs and gnolls. You bring him a warm meal from Darcy at the Lakeshire Inn. Grateful for her kindness, Parker asks you to stop at the herbalist shop on the west end of town and buy flowers for her.",
+   "body": "Guard Parker watches Lakeshire's southern approach for blackrock orcs and gnolls. You bring him a warm meal from Darcy at the Lakeshire Inn. Grateful for her kindness, he asks you to buy flowers for her at the herbalist shop on the west end of town.",
    "spoiler": 0
   },
   {
    "title": "Town Gossip and Secret Courting",
-   "body": "Parker asks you to keep the order private when you visit Martie Jainrose, the herbalist. Lakeshire is a small town, and he does not want Martie to know who sent the flowers or who will receive them. At the shop, Martie teases you, guessing you have already found a sweetheart in town. With orc incursions and brigands troubling Redridge, a small gesture of romance brings some welcome relief.",
+   "body": "Parker asks you to keep the order private when you visit Martie Jainrose, Lakeshire's herbalist. The town is small, and he does not want Martie to know who sent the flowers or who will receive them. At the shop, Martie teases you, guessing you have already found a sweetheart in town. Orc incursions and brigands trouble Redridge, so a small gesture of romance brings welcome relief.",
    "spoiler": 0
   }
  ],
@@ -120,5 +120,5 @@
  "attribution": [
   "Visit the Herbalist"
  ],
- "style": 1
+ "style": 2
 }

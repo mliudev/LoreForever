@@ -8,11 +8,11 @@
   "wiki": "Korran",
   "refs": 1
  },
- "summary": "At the Crossroads, Korran watches the Barrens for threats to the Horde. The Darkspear troll serves Belgrom Rockmaul in Orgrimmar and studies the silithid emerging across the scrublands.",
+ "summary": "At the Crossroads, Korran watches the Barrens for dangers to the Horde. The Darkspear troll reports to Belgrom Rockmaul in Orgrimmar and studies silithid spreading across the scrublands.",
  "sections": [
   {
    "title": "A Scout at the Crossroads",
-   "body": "At the Crossroads, Korran watches for threats beyond the quilboar and centaur clans. Belgrom Rockmaul in Orgrimmar stationed the troll scout there to observe changes in the land. Korran coordinates the gathering of intelligence for the Horde's leadership.",
+   "body": "At the Crossroads, Korran watches beyond the quilboar and centaur clans for threats to the Horde. Belgrom Rockmaul in Orgrimmar stationed the troll scout here to observe changes in the land. Korran gathers intelligence for the Horde's leaders.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "korran research",
     "field of giants insects"
    ],
-   "answer": "Korran is investigating the strange, aggressive insectoid creatures called silithid at the Field of Giants in the southern Barrens. Similar swarms have also been reported farther south in Thousand Needles."
+   "answer": "Korran investigates strange, aggressive insectoid creatures called silithid at the Field of Giants in the southern Barrens. Similar swarms have also been reported farther south in Thousand Needles."
   },
   {
    "q": "Who does Korran work for?",
@@ -47,7 +47,7 @@
     "korran superior",
     "belgrom rockmaul"
    ],
-   "answer": "Korran serves Belgrom Rockmaul, a seasoned warrior in Orgrimmar's Valley of Honor. Belgrom monitors emerging threats across Kalimdor for the Horde."
+   "answer": "Korran reports to Belgrom Rockmaul, a seasoned warrior in Orgrimmar's Valley of Honor. Belgrom monitors emerging threats across Kalimdor for the Horde."
   },
   {
    "q": "Why does Korran need silithid eggs?",
@@ -62,11 +62,11 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, Korran watches Kalimdor's changing ecology for new threats like the silithid while Orgrimmar secures its borders."
+   "text": "As a member of the Horde, you watch Kalimdor's changing ecology for new threats like the silithid while Orgrimmar secures its borders."
   },
   {
    "target": "race:Troll",
-   "text": "As a Darkspear troll, you bring scouting and survival instincts to the arid Barrens, where Korran studies strange, alien beasts with practical cunning."
+   "text": "As a Darkspear troll, you bring scouting and survival instincts to the arid Barrens. There, Korran studies strange, alien beasts with practical cunning."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
  "attribution": [
   "Korran"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Demon Fall Ridge"
  },
- "summary": "In southeastern Ashenvale, demons hold the high ground above the place where Mannoroth fell. Lingering fel magic stains the ridge, and the Burning Legion has claimed a night elf barrow den.",
+ "summary": "Demons hold Demon Fall Ridge in southeastern Ashenvale, above the place where Mannoroth fell. Fel magic still stains the heights, and the Burning Legion has claimed a night elf barrow den.",
  "sections": [
   {
    "title": "A Perch Over Corruption",
-   "body": "Demon Fall Ridge rises west of Demon Fall Canyon, its cliffs stained by fel left from the Third War. Below, the canyon marks the clash between Grommash Hellscream and the pit lord Mannoroth. Surviving demons use the ridge as a staging ground. Lesser demons patrol the rocky heights, defiling the woodland and threatening travelers along Ashenvale's southern border.",
+   "body": "West of Demon Fall Canyon, Demon Fall Ridge looks down on the place where Grommash Hellscream fought the pit lord Mannoroth. Its cliffs still bear the fel scars of the Third War. The demons who survived use the heights as a staging ground. Lesser demons patrol the rocky slopes, defile the woodland, and threaten travelers along Ashenvale’s southern border.",
    "spoiler": 0
   },
   {
    "title": "The Desecrated Barrow",
-   "body": "A night elf barrow den lies abandoned in the ridge's side, its passages turned into a stronghold of dark sorcery. Fel fiends fill the halls where druids once slept. In the deepest reaches, Diathorus the Seeker, a cunning dreadlord, rules the conclave and directs the remaining demons across the forest.",
+   "body": "A night elf barrow den lies abandoned in the ridge’s side. Dark sorcery now fills the passages where druids once slept. Fel fiends prowl its halls, and deep within, Diathorus the Seeker rules the conclave. The cunning dreadlord directs the demons who remain across the forest.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "demon fall ridge demons",
     "burning legion presence"
    ],
-   "answer": "The ridge overlooks the place where Mannoroth died in the Third War. Demons who survived the Legion's defeat scattered into the heights and entrenched themselves on the ridge and in an abandoned barrow den."
+   "answer": "The ridge overlooks the place where Mannoroth died in the Third War. Demons who survived the Legion’s defeat scattered into the heights and entrenched themselves on the ridge and in an abandoned barrow den."
   },
   {
    "q": "Who leads the demons here?",
@@ -46,7 +46,7 @@
     "demon leader",
     "diathorus the seeker"
    ],
-   "answer": "Diathorus the Seeker, a powerful nathrezim dreadlord, commands the conclave from the deepest reaches of the barrow den."
+   "answer": "Diathorus the Seeker commands the conclave from the deepest reaches of the barrow den. He is a powerful nathrezim dreadlord."
   },
   {
    "q": "What is the structure carved into the ridge?",
@@ -55,17 +55,17 @@
     "demon fall cave",
     "what is the den"
    ],
-   "answer": "The structure is an ancient night elf barrow den, once a druid sanctuary for entering the Emerald Dream. It was abandoned and overrun and desecrated by the Burning Legion."
+   "answer": "The structure is an ancient night elf barrow den, once a druid sanctuary for entering the Emerald Dream. It was abandoned, then overrun and desecrated by the Burning Legion."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid, you see demons occupying a barrow den once sacred to the Emerald Dream, an affront to the Cenarion Circle."
+   "text": "As a druid, you find demons occupying a barrow den once sacred to the Emerald Dream. Their presence affronts the Cenarion Circle."
   },
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you find an active dreadlord leading the fel forces, a glimpse of organized Legion remnants in Kalimdor."
+   "text": "As a warlock, you find an active dreadlord leading the fel forces. His command reveals how the Legion’s remnants are organized in Kalimdor."
   }
  ],
  "keywords": [
@@ -84,5 +84,5 @@
  "attribution": [
   "Demon Fall Ridge"
  ],
- "style": 1
+ "style": 2
 }

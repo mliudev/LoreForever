@@ -8,16 +8,16 @@
   "wiki": "Dirge Quikcleave",
   "refs": 1
  },
- "summary": "Inside Gadgetzan's inn, Dirge Quikcleave holds court as a goblin culinary master and vendor. His inventive dishes are renowned across Azeroth, and seasoned chefs come to him to master artisan cooking.",
+ "summary": "Inside Gadgetzan's inn, Dirge Quikcleave welcomes travelers with food and drink. This goblin calls himself Azeroth's greatest living culinary artist, and chefs come to him when they are ready for artisan cooking.",
  "sections": [
   {
    "title": "Master of the Cleaver",
-   "body": "In dusty Gadgetzan, Dirge Quikcleave serves drinks and meat to travelers parched by the Tanaris sands. Though his kitchen is in a frontier tavern, he claims to be Azeroth's greatest living culinary artist. Cooking trainers in cities send their most promising students to him when ordinary lessons are spent. Dirge's demanding recipes call for unusual ingredients, from giant clam meat and eggs for his Clamlette creations to exotic beasts from distant shores.",
+   "body": "In dusty Gadgetzan, Dirge Quikcleave serves food and drink to travelers crossing the Tanaris sands. He claims to be Azeroth's greatest living culinary artist, though his kitchen stands in a frontier tavern. When city cooking lessons are spent, trainers send their most promising students to him. His demanding recipes call for rare ingredients, from giant clam meat and eggs for his Clamlette creations to beasts from distant shores.",
    "spoiler": 0
   },
   {
    "title": "Exotic Flavors and Shady Favors",
-   "body": "Dirge Quikcleave pairs a gourmand's bravado with a goblin's eye for business. Across Kalimdor, he keeps contacts with eccentric figures and seeks out dangerous culinary ventures. Those who bring him fierce beast cuts, such as meat from the monstrous chimaeroks of Feralas's Isle of Dread, can receive hearty recipes fit to sustain champions on perilous journeys. They must not ask too many questions about Dirge's private dealings.",
+   "body": "Dirge Quikcleave brings a gourmand's bravado and a goblin's eye for business to his work. Across Kalimdor, he keeps company with eccentric figures and pursues dangerous culinary ventures. Those who bring him fierce beast cuts can receive hearty recipes for champions facing perilous journeys. The monstrous chimaeroks of Feralas's Isle of Dread provide one such ingredient. Dirge's private dealings are best left unquestioned.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is dirge",
     "gadgetzan chef"
    ],
-   "answer": "Dirge Quikcleave is a goblin chef and provisioner inside the inn at Gadgetzan, Tanaris. Renowned as one of Azeroth's finest culinary practitioners, he teaches aspiring cooks to hone their craft toward artisan mastery."
+   "answer": "Dirge Quikcleave is a goblin chef and provisioner inside the inn at Gadgetzan, Tanaris. Renowned as one of Azeroth's finest cooks, he teaches aspiring chefs to hone their craft toward artisan mastery."
   },
   {
    "q": "Where can Dirge Quikcleave be found?",
@@ -47,7 +47,7 @@
     "artisan cooking quest",
     "to gadgetzan you go"
    ],
-   "answer": "Cooking trainers in the capital cities can take an apprentice only so far. When a cook reaches an expert threshold, they send them to Dirge in Gadgetzan through 'To Gadgetzan You Go!' to prove their worth and unlock artisan cooking."
+   "answer": "Cooking trainers in the capital cities can take an apprentice only so far. When a cook reaches the expert threshold, they send that cook to Dirge in Gadgetzan through 'To Gadgetzan You Go!' to prove their worth and unlock artisan cooking."
   },
   {
    "q": "What dishes is Dirge famous for?",
@@ -88,5 +88,5 @@
  "attribution": [
   "Dirge Quikcleave"
  ],
- "style": 1
+ "style": 2
 }

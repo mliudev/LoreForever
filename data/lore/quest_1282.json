@@ -15,16 +15,16 @@
   "previous": "",
   "next": ""
  },
- "summary": "Guard Byron feels sorry for a man called Smiling Jim and hints that he was not always the way he is now. Byron would rather not talk about it, and sends you to Captain Garran Vimes in Theramore.",
+ "summary": "Guard Byron sends you to Theramore for the story of They Call Him Smiling Jim. He hints that Jim's life was not always this way.",
  "sections": [
   {
    "title": "A Sad Story",
-   "body": "Byron pities Jim and says it was not always like this for him: Jim once kept an inn in the marsh, and a wonderful one. Byron prefers not to go into it. Anyone who truly wants the story is told to take it up with Captain Garran Vimes in Theramore.",
+   "body": "Guard Byron remembers the fine inn Smiling Jim once kept in the marsh. He pities Jim, but would rather not speak of what changed. For the full story, ask Captain Garran Vimes in Theramore.",
    "spoiler": 0
   },
   {
    "title": "Vimes's Account",
-   "body": "Vimes names the man as James Hyal. Hyal set up an inn on the edge of the Barrens, meaning it as a pleasant stopover for travelers, and for a while it did well. Then Theramore lost its grip on the marsh roads, and the ogres moved in. Stubborn as he was, Hyal would not trade his dream for the safety of Theramore's walls, and fire consumed the Shady Rest Inn. Vimes says the investigation has had little luck so far, and suggests searching the rubble for anyone who wants to help.",
+   "body": "Captain Garran Vimes says the man's name was James Hyal. Hyal built an inn on the edge of the Barrens as a pleasant stop for travelers, and it prospered for a time.\n\nThen Theramore lost its hold on the marsh roads, and ogres moved in. Hyal clung to his dream instead of seeking safety behind Theramore's walls. Fire consumed the Shady Rest Inn. The investigation has found little so far, and anyone who wants to help can search the rubble.",
    "spoiler": 1
   }
  ],
@@ -36,7 +36,7 @@
     "smiling jim identity",
     "who is the smiling man"
    ],
-   "answer": "Guard Byron feels sorry for him and says he was not always like this. Byron remembers that Jim once kept an inn in the marsh, and a wonderful one."
+   "answer": "Guard Byron pities Smiling Jim and says his life was not always this way. Jim once kept a fine inn in the marsh."
   },
   {
    "q": "Why does Guard Byron send you to Captain Vimes?",
@@ -45,7 +45,7 @@
     "byron quest",
     "guard byron reason"
    ],
-   "answer": "Byron would rather not discuss Jim's past, and points you to Captain Garran Vimes instead."
+   "answer": "Byron would rather not discuss Jim's past, so he sends you to Captain Garran Vimes in Theramore."
   },
   {
    "q": "Where do I find Captain Garran Vimes?",
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Classic quest text: They Call Him Smiling Jim"
- ]
+ ],
+ "style": 2
 }

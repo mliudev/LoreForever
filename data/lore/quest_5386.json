@@ -18,11 +18,11 @@
   "chain": [],
   "category": "Desolace"
  },
- "summary": "Cooked fish has not been smelled at Ghost Walker Post for a long time, and Nataka Longhorn would like that to change. Nataka rates the trolls of Shadowprey Village as the finest fish-catchers around, yet all the centaur activity leaves little time for the journey. You are asked to go in Nataka's place and bring back two Bloodbelly fish.",
+ "summary": "At Ghost Walker Post, Nataka Longhorn is longing for cooked fish. She praises the trolls of Shadowprey Village as the finest fish-catchers, but centaur activity keeps her from making the journey. She asks you to bring her two Bloodbelly fish.",
  "sections": [
   {
    "title": "A Taste of the Coast",
-   "body": "No cooked fish has been smelled at Ghost Walker Post for a long while. Nataka Longhorn rates the trolls of Shadowprey Village as the finest fish-catchers, but with so much centaur activity there is little time to make the journey. So you are asked to go there, talk with the local fisherman Jinar'Zillen, and return with two Bloodbelly fish, Nataka's favorite. The road south of the post bends west and brings you to the troll village.",
+   "body": "At Ghost Walker Post, Nataka Longhorn has gone a long while without cooked fish. She trusts the trolls of Shadowprey Village to catch the finest fish, but centaur activity leaves her little time to travel. So she asks you to speak with Jinar'Zillen, the village's local fisherman, and bring back two Bloodbelly fish. They are Nataka's favorite. The road south of the post bends west toward the troll village.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "who gives catch of the day",
     "nataka longhorn quest"
    ],
-   "answer": "Nataka Longhorn at Ghost Walker Post in Desolace. Bloodbelly fish are Nataka's favorite."
+   "answer": "Nataka Longhorn at Ghost Walker Post in Desolace is looking for Bloodbelly fish. They are her favorite."
   },
   {
    "q": "Why can't Nataka Longhorn get the fish herself?",
@@ -41,7 +41,7 @@
     "why can't nataka leave",
     "why does nataka need help"
    ],
-   "answer": "With so much centaur activity, Nataka has little time to make the journey to the trolls."
+   "answer": "Centaur activity leaves Nataka little time to make the journey to the trolls."
   },
   {
    "q": "Where can the Bloodbelly fish be found?",
@@ -49,7 +49,7 @@
     "where to get bloodbelly fish",
     "jinar'zillen location"
    ],
-   "answer": "Nataka sends you to Shadowprey Village, a troll village, to speak with the local fisherman Jinar'Zillen."
+   "answer": "Nataka sends you to Shadowprey Village to speak with its local fisherman, Jinar'Zillen."
   },
   {
    "q": "How do you reach Shadowprey Village from Ghost Walker Post?",
@@ -57,7 +57,7 @@
     "path to shadowprey village",
     "how to get to troll village"
    ],
-   "answer": "The road south from the post leads west to the troll village."
+   "answer": "The road south from Ghost Walker Post bends west and leads to the troll village."
   },
   {
    "q": "How many Bloodbelly fish does Nataka want?",
@@ -65,7 +65,7 @@
     "how many fish",
     "bloodbelly fish count"
    ],
-   "answer": "Two."
+   "answer": "Nataka wants two Bloodbelly fish."
   }
  ],
  "angles": [],
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Catch of the Day"
- ]
+ ],
+ "style": 2
 }

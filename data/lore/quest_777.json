@@ -27,16 +27,16 @@
    "Study of the Elements: Rock"
   ]
  },
- "summary": "Lucien Tosselwrench hands you cog #5 for Lotwil Veriatus, and heads for cover, inviting you to come along.",
+ "summary": "Behind cover, Lucien Tosselwrench waits while you carry cog #5 to Lotwil Veriatus.",
  "sections": [
   {
    "title": "Behind Cover",
-   "body": "Lucien hands over the cog and says to take it to Lotwil Veriatus. Lucien will be waiting behind cover, and you are welcome to join. When you reach Lotwil, who is still bent over the shackles, a hand is held out and fingers waggle impatiently for the cog.",
+   "body": "Lucien Tosselwrench gives you the cog for Lotwil Veriatus. Then he waits behind cover and welcomes you to join him. Lotwil is still bent over the shackles when you arrive. Without looking up, he holds out his hand and waggles his fingers for the cog.",
    "spoiler": 0
   },
   {
    "title": "Making History",
-   "body": "Lotwil takes the cog and says it is perfect, telling you to stand back while preparations are made to make more history. Lotwil carries on working feverishly.",
+   "body": "Lotwil takes the cog and calls it perfect. He tells you to stand back as he prepares to make more history. Then he carries on working feverishly.",
    "spoiler": 1
   }
  ],
@@ -56,7 +56,7 @@
     "why is lucien hiding",
     "lucien cover"
    ],
-   "answer": "Lucien goes behind cover and says you are welcome to join."
+   "answer": "Lucien heads behind cover and welcomes you to join him."
   },
   {
    "q": "What is Lotwil doing when you bring the cog?",
@@ -65,7 +65,7 @@
     "lotwil shackles",
     "lotwil progress"
    ],
-   "answer": "Lotwil is working on a set of shackles and, without looking up, impatiently holds out a hand for the cog."
+   "answer": "Lotwil is working on a set of shackles. Without looking up, he holds out his hand and waggles his fingers impatiently for the cog."
   }
  ],
  "angles": [],
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "This Is Going to Be Hard (2)"
- ]
+ ],
+ "style": 2
 }

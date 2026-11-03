@@ -24,16 +24,16 @@
    "Goblin Sponsorship"
   ]
  },
- "summary": "Pozzik will be busy fitting the new fuel regulator into the racer designs, but suggests that you help the team further by speaking with Razzeric on the Shimmering Flats. Razzeric is the team's pilot, its eighteenth, and likes to add modifications to the racers.",
+ "summary": "On the Shimmering Flats, Pozzik sends you to find Razzeric while he works on the racers. Razzeric is the team's eighteenth pilot, and he enjoys modifying the racers.",
  "sections": [
   {
    "title": "Meet the Pilot",
-   "body": "Pozzik says the fuel regulator is keeping him busy, but you can help the team some more by talking to Razzeric on the Shimmering Flats. Razzeric is the team's pilot, its eighteenth in fact, and likes to add little modifications of his own to the racers. Pozzik adds that Razzeric is a little off his rocker, so you should try not to seem too surprised.",
+   "body": "Pozzik is fitting a new fuel regulator into the racer designs. He sends you to Razzeric on the Shimmering Flats, the team's eighteenth pilot. Razzeric likes to modify the racers. Pozzik says he is a little off his rocker, so try not to look too surprised.",
    "spoiler": 0
   },
   {
    "title": "A Pilot Remembers",
-   "body": "Razzeric knows you have been helping Pozzik, and says he was once like you, running around the pit area and pitching in on any job the mechanics let him near. Now he is the goblin racing team's pilot extraordinaire.",
+   "body": "Razzeric knows you have been helping Pozzik. He remembers running around the pit area and pitching in on any job the mechanics let him near. Now he is the goblin racing team's pilot extraordinaire.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "razzeric lore",
     "goblin pilot"
    ],
-   "answer": "Razzeric is a goblin, the pilot of the goblin racing team on the Shimmering Flats. Pozzik calls him the team's eighteenth pilot."
+   "answer": "Razzeric is a goblin who pilots the goblin racing team on the Shimmering Flats. Pozzik calls him the team's eighteenth pilot."
   },
   {
    "q": "Why does Pozzik send you to Razzeric?",
@@ -53,7 +53,7 @@
     "why talk to razzeric",
     "pozzik eighteenth pilot"
    ],
-   "answer": "Pozzik is busy integrating the new fuel regulator into the racer designs, and suggests that you help the team further by speaking with Razzeric."
+   "answer": "Pozzik is fitting a new fuel regulator into the racer designs, so he sends you to speak with Razzeric and help the team further."
   },
   {
    "q": "What is Razzeric like?",
@@ -61,7 +61,7 @@
     "razzeric personality",
     "is razzeric crazy"
    ],
-   "answer": "Pozzik says Razzeric enjoys making small changes of his own to the racers, and is a little off his rocker."
+   "answer": "Pozzik says Razzeric likes to make small changes to the racers and is a little off his rocker."
   },
   {
    "q": "What came before this?",
@@ -69,7 +69,7 @@
     "eighteenth pilot prerequisite",
     "quest chain before razzeric"
    ],
-   "answer": "This follows Goblin Sponsorship (5), in which you delivered the Fuel Regulator Blueprints to Pozzik."
+   "answer": "Before this, you delivered the Fuel Regulator Blueprints to Pozzik in Goblin Sponsorship."
   }
  ],
  "angles": [],
@@ -92,5 +92,6 @@
  ],
  "attribution": [
   "The Eighteenth Pilot"
- ]
+ ],
+ "style": 2
 }

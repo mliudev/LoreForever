@@ -17,16 +17,16 @@
   "wiki": "Jorn Skyseer (quest)",
   "chain": []
  },
- "summary": "In the southern Barrens, seasoned Horde hunters seek guidance from Jorn Skyseer. After you hunt local raptors for Sergra Darkthorn, she sends you south to Camp Taurajo, where an elder tracker offers deeper lessons.",
+ "summary": "In the southern Barrens, Jorn Skyseer guides Horde hunters seeking deeper knowledge of the wilds. After your hunts for Sergra Darkthorn, she sends you south to Camp Taurajo, where an elder tracker teaches you more.",
  "sections": [
   {
    "title": "Passing the Mantle",
-   "body": "You have hunted the cunning sunscale and scytheclaw raptors stalking the northern savannah, earning Sergra Darkthorn's respect at the Crossroads. She knows martial skill must be joined with understanding of the land's great beasts. With her mentorship complete, she sends you south.",
+   "body": "You have hunted sunscale and scytheclaw raptors across the northern savannah, earning Sergra Darkthorn's respect at the Crossroads. She knows a hunter needs more than skill with weapons; the land's great beasts demand understanding. Her teaching here is done, so she sends you south.",
    "spoiler": 0
   },
   {
    "title": "The Road to Taurajo",
-   "body": "Follow the Gold Road south through increasingly rugged plains to Camp Taurajo, a vital tauren settlement near the southern wilds. Jorn Skyseer waits there, an elder tracker ready to teach hunters how to pursue elusive, legendary quarry across the Barrens.",
+   "body": "The Gold Road leads south across rougher plains to Camp Taurajo, a tauren settlement near the southern wilds. Jorn Skyseer waits there, an elder tracker with lessons for hunters who seek elusive and legendary quarry across the Barrens.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who starts jorn skyseer",
     "sergra darkthorn quest"
    ],
-   "answer": "After you hunt the local scytheclaws, Sergra Darkthorn, the raptor hunter at the Crossroads, sends you south. Your hunts prove your tracking and hunting prowess."
+   "answer": "After you hunt the local scytheclaws, Sergra Darkthorn, the raptor hunter at the Crossroads, sends you south. Your hunts show your skill at tracking and hunting."
   },
   {
    "q": "Where is Jorn Skyseer located?",
@@ -56,7 +56,7 @@
     "jorn skyseer followup",
     "next quest after jorn skyseer"
    ],
-   "answer": "When you report to him, Jorn welcomes you to the hunter's path and begins directing you to track and hunt elusive beasts across the southern Barrens. The first is the legendary raptor Ishamuhale."
+   "answer": "When you report to him, Jorn welcomes you to the hunter's path and directs you to track and hunt elusive beasts across the southern Barrens. The first is the legendary raptor Ishamuhale."
   },
   {
    "q": "Do I need to be a hunter class to do this quest?",
@@ -64,7 +64,7 @@
     "is this hunter only",
     "class requirement jorn skyseer"
    ],
-   "answer": "No. Any Horde adventurer who completes Sergra Darkthorn's raptor hunts can follow this path of learning how to track the plains, whatever their class."
+   "answer": "No. Any Horde adventurer who completes Sergra Darkthorn's raptor hunts can learn how to track the plains, whatever their class."
   },
   {
    "q": "Why does Sergra stop teaching you herself?",
@@ -72,7 +72,7 @@
     "why does sergra send you away",
     "sergra guidance finished"
    ],
-   "answer": "Sergra Darkthorn works among the northern raptor nests near the Crossroads. Once you master those hunts, she sends you south to Jorn Skyseer, who oversees deeper expeditions into southern game."
+   "answer": "Sergra Darkthorn works among the northern raptor nests near the Crossroads. Once you master those hunts, she sends you south to Jorn Skyseer, who guides deeper expeditions into southern game."
   },
   {
    "q": "What is Camp Taurajo?",
@@ -90,7 +90,7 @@
   },
   {
    "target": "race:Tauren",
-   "text": "As a tauren returning south toward Camp Taurajo, you reconnect tribal huntsmanship with the spiritual guardianship of the Barrens' wilderness."
+   "text": "As a tauren returning south toward Camp Taurajo, you join tribal hunting traditions with the spiritual guardianship of the Barrens' wilderness."
   },
   {
    "target": "faction:Horde",
@@ -118,5 +118,5 @@
  "attribution": [
   "Jorn Skyseer (quest)"
  ],
- "style": 1
+ "style": 2
 }

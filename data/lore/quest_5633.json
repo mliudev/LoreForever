@@ -20,16 +20,16 @@
    "Stars of Elune"
   ]
  },
- "summary": "Night elf priests in Ironforge are called back to the Temple of the Moon in Darnassus. A Sisterhood emissary seeks out acolytes abroad and sends them to Priestess Alathea for urgent training and sacred duties.",
+ "summary": "Night elf priests in Ironforge are being summoned back to the Temple of the Moon in Darnassus. A Sisterhood emissary seeks acolytes abroad and sends them to Priestess Alathea for further training and sacred duties.",
  "sections": [
   {
    "title": "Summoned from the Mountain City",
-   "body": "In Ironforge, night elf priests remain tied to the Sisterhood of Elune, though they are far from Teldrassil. Braenna Flintcrag, a dwarven priest trainer in the Mystic Ward, carries a message from a visiting night elf priestess. The messenger sought young disciples traveling abroad and said their mentors needed them back in the capital at once.",
+   "body": "In Ironforge, night elf priests remain bound to the Sisterhood of Elune, though Teldrassil lies far away. Braenna Flintcrag, a dwarven priest trainer in the Mystic Ward, bears a message from a visiting night elf priestess. The emissary sought young disciples traveling abroad and said their mentors needed them back in the capital at once.",
    "spoiler": 0
   },
   {
    "title": "The Temple of the Moon",
-   "body": "At the Temple of the Moon in Darnassus, returning acolytes report to Priestess Alathea. Beneath the watchful gaze of High Priestess Tyrande Whisperwind, Alathea welcomes her student and is relieved they crossed the seas safely. Their return begins further devotion and sacred duties, including the Stars of Elune.",
+   "body": "At the Temple of the Moon in Darnassus, returning acolytes report to Priestess Alathea. Beneath the gaze of High Priestess Tyrande Whisperwind, Alathea welcomes her student and is relieved they crossed the seas safely. Their return begins further devotion and sacred duties, including the Stars of Elune.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "quest giver returning home",
     "braenna flintcrag location"
    ],
-   "answer": "Braenna Flintcrag, the dwarf priest trainer in Ironforge's Mystic Ward, gives the summons."
+   "answer": "Braenna Flintcrag, the dwarf priest trainer in Ironforge's Mystic Ward, gives you the summons."
   },
   {
    "q": "Who do I report to in Darnassus?",
@@ -58,7 +58,7 @@
     "why returning home",
     "why go back to darnassus"
    ],
-   "answer": "The Sisterhood of Elune recalls its acolytes from abroad for advanced training and sacred rites such as the Stars of Elune."
+   "answer": "The Sisterhood of Elune recalls its acolytes from abroad for further training and sacred rites such as the Stars of Elune."
   },
   {
    "q": "Is this quest available to other classes?",
@@ -74,7 +74,7 @@
     "returning home next quest",
     "followup to returning home"
    ],
-   "answer": "Priestess Alathea welcomes you back to Darnassus and offers the Stars of Elune, which teaches more of the goddess's ways."
+   "answer": "Priestess Alathea welcomes her student back to Darnassus and offers the Stars of Elune, which teaches more of the goddess's ways."
   },
   {
    "q": "How does Braenna know to look for you?",
@@ -121,5 +121,5 @@
  "attribution": [
   "Returning Home (Ironforge)"
  ],
- "style": 1
+ "style": 2
 }

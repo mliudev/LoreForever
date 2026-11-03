@@ -17,16 +17,16 @@
   "wiki": "Raene's Cleansing (8)",
   "chain": []
  },
- "summary": "At Iris Lake, Shael'dryn entrusts you with Dartol's Rod of Transformation, restored for Raene Wolfrunner in Astranaar. You carry it back to report success and honor Teronis, the fallen scout.",
+ "summary": "At Iris Lake, Shael'dryn entrusts you with a restored rod for Raene Wolfrunner in Astranaar. You carry it back to report success and honor Teronis, the fallen scout.",
  "sections": [
   {
    "title": "The Rod Restored",
-   "body": "Dartol's Rod of Transformation has been reforged with components and ancient gem fragments gathered from corrupted reaches of Ashenvale. Near Iris Lake, the dryad Shael'dryn cleanses and renews its magic, then sends you across the forest roads to Astranaar. Raene Wolfrunner awaits the restored artifact.",
+   "body": "Dartol's Rod of Transformation has been reforged from components and ancient gem fragments gathered in corrupted reaches of Ashenvale. Near Iris Lake, the dryad Shael'dryn renews its magic. Then she sends you along the forest roads to Astranaar, where Raene Wolfrunner awaits the restored rod.",
    "spoiler": 0
   },
   {
    "title": "Honoring Teronis",
-   "body": "Teronis began the search for Dartol's rod, hoping it would slow the furbolg attacks on his people. A longtime friend of Raene, he died atop the island in Lake Falathim, cut down by murlocs who had taken the gem he sought. Bringing the restored rod to Raene marks a bittersweet victory, and gives purpose to the sacrifice Teronis never lived to see fulfilled.",
+   "body": "Teronis began searching for Dartol's rod to slow the furbolg attacks on his people. Raene's longtime friend died atop the island in Lake Falathim. Murlocs had taken the gem he sought, and they cut him down there. Bringing the restored rod to Raene marks a bittersweet victory and gives purpose to the sacrifice Teronis never lived to see fulfilled.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "who is teronis",
     "teronis death"
    ],
-   "answer": "Teronis was a young night elf sentinel Raene Wolfrunner tasked with finding components of ancient magic in Ashenvale. Murlocs took the gem he sought and killed him atop the island in Lake Falathim, leaving passing Alliance travelers to complete his mission."
+   "answer": "Teronis was a young night elf sentinel whom Raene Wolfrunner tasked with finding components of ancient magic in Ashenvale. Murlocs took the gem he sought and killed him atop the island in Lake Falathim. Alliance travelers passing through can complete his mission."
   },
   {
    "q": "Who is Raene Wolfrunner?",
@@ -108,5 +108,5 @@
  "attribution": [
   "Raene's Cleansing (8)"
  ],
- "style": 1
+ "style": 2
 }

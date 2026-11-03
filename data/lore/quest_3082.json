@@ -17,16 +17,16 @@
   "wiki": "Etched Tablet (quest)",
   "chain": []
  },
- "summary": "Gornek sends a carved tablet to hunters in the Valley of Trials. It bears Jen'shan's mark and calls them to begin training in the wilderness.",
+ "summary": "In the Valley of Trials, Gornek sends a carved tablet to young hunters. Jen'shan's mark calls them to train in the wild.",
  "sections": [
   {
    "title": "A Summons to the Hunt",
-   "body": "Gornek brings novice hunters a carved tablet after they prove themselves against the boars near the Den. The stone bears Jen'shan's mark. She is a skilled troll huntswoman stationed nearby, and the message shows that seasoned hunters have noticed the young recruit's grit. The lesson now moves beyond surviving the local dangers and toward disciplined training in the wild.",
+   "body": "After young hunters prove themselves against the boars near the Den, Gornek brings them a carved tablet. Jen'shan's mark is cut into the stone. She is a skilled troll huntswoman stationed nearby, and her message shows that seasoned hunters have noticed the recruit's grit. Now the lesson turns from surviving local dangers to disciplined training in the wild.",
    "spoiler": 0
   },
   {
    "title": "The Sharing of Survival",
-   "body": "Jen'shan teaches that orcs and trolls have a long history within the Horde. Orcs brought renowned traditions of warriors and shamans, while the Darkspear trolls carried ancient skills in stalking, tracking, and survival. Those skills helped the orcs endure life on Azeroth. As Jen'shan trains new hunters, the two peoples continue to share what they know, bound by respect for the hunt.",
+   "body": "Jen'shan teaches that orcs and trolls have a long history within the Horde. Orcs brought renowned traditions of warriors and shamans. The Darkspear trolls carried ancient skills in stalking, tracking, and survival, which helped orcs endure life on Azeroth. As Jen'shan trains new hunters, the two peoples share what they know, bound by respect for the hunt.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "where is jenshan",
     "find jenshan"
    ],
-   "answer": "Jen'shan is in the northern part of the Valley of Trials in Durotar, among the other class instructors near the Den."
+   "answer": "Jen'shan is in northern Durotar's Valley of Trials, among the other class instructors near the Den."
   },
   {
    "q": "Why do troll trainers teach orc hunters here?",
@@ -83,13 +83,13 @@
     "etched tablet class requirement",
     "is this hunter only"
    ],
-   "answer": "Only novice hunters can receive this training summons in the Valley of Trials. Other classes receive different summons from Gornek."
+   "answer": "Only novice hunters can receive this training summons in the Valley of Trials. Gornek gives other classes different summons."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you receive your first place among Horde hunters and begin learning from your local trainer in the wilderness."
+   "text": "As a hunter, you find your first place among Horde hunters and begin learning from your local trainer in the wilderness."
   },
   {
    "target": "race:Troll",
@@ -124,5 +124,5 @@
  "attribution": [
   "Etched Tablet (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "Miners who hone their craft can shape lodestones to enhance their wilderness campsites, offering martial benefits to allies resting beside them."
+   "text": "As a miner, you can shape a lodestone to strengthen your wilderness campsite and aid allies resting beside you."
   },
   {
    "target": "profession:Cooking",
-   "text": "Camps rely fundamentally on a well-tended campfire, making basic culinary training an essential partner to specialized camp accessories."
+   "text": "As a cook, you can learn to tend a campfire, the foundation for specialized camp equipment."
   },
   {
    "target": "faction:Alliance",
-   "text": "Gelman Stonehand operates out of Stormwind City, guiding Alliance tradesfolk in turning raw earthcraft into practical field utilities."
+   "text": "As an Alliance tradesfolk, you can learn from Gelman Stonehand in Stormwind to turn earthcraft into practical field tools."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "quest objective",
     "what do i do"
    ],
-   "answer": "This quest introduces miners to the art of crafting specialized campsite enhancements. Once you prove your proficiency in mining, you speak with Gelman Stonehand in Stormwind to learn how to forge a lodestone.",
+   "answer": "Gelman Stonehand teaches miners in Stormwind to craft a lodestone for a wilderness campsite. You must prove your mining skill to learn the craft.",
    "q": "What is Camping 101: Mining?"
   },
   {
@@ -41,7 +41,7 @@
     "where is gelman stonehand",
     "stonehand location"
    ],
-   "answer": "Gelman Stonehand is a mining trainer situated within Stormwind City. He teaches qualified miners how to craft a lodestone to bolster their expeditions in the wild.",
+   "answer": "Gelman Stonehand is a mining trainer in Stormwind City. He teaches qualified miners to make a lodestone for expeditions in the wild.",
    "q": "Who teaches the Lodestone schematic?"
   },
   {
@@ -50,7 +50,7 @@
     "lodestone buff",
     "why make lodestone"
    ],
-   "answer": "A lodestone is an item set down at a wilderness campsite. It emits an empowering presence around the campfire that enhances the combat prowess of warriors and other martial fighters who gather to rest there.",
+   "answer": "A lodestone set at a wilderness campsite strengthens warriors and other fighters gathered around its campfire.",
    "q": "What does a Lodestone do?"
   },
   {
@@ -59,7 +59,7 @@
     "where can i place camp",
     "camping restrictions"
    ],
-   "answer": "City authorities and common folk do not appreciate camps pitched in town squares or along city streets. You must journey out into the wilderness beyond settlement gates to set up camp and deploy your lodestone.",
+   "answer": "Stormwind's townsfolk disapprove of camps in city squares and streets. Go beyond the settlement gates to make camp and set your lodestone in the wilderness.",
    "q": "Can I set up camp inside Stormwind?"
   },
   {
@@ -68,7 +68,7 @@
     "how to make camp",
     "campfire requirement"
    ],
-   "answer": "Every campsite requires a basic campfire as its core foundation before any specialized camp equipment can be used. Cooks commonly teach travelers how to start fires with simple wood and flint.",
+   "answer": "A campfire is the foundation of a campsite, and specialized gear like a lodestone is useless without one. Cooks teach travelers to start fires with wood and flint.",
    "q": "Why do I need a campfire to set up camp?"
   },
   {
@@ -77,7 +77,7 @@
     "is lodestone for melee",
     "lodestone classes"
    ],
-   "answer": "Anyone who swings a blade, axe, or hammer benefits greatly from the lodestone's power. It radiates an extra martial edge that fighters seek out while resting by the flames before a dangerous battle.",
+   "answer": "Anyone who fights with a blade, axe, or hammer can benefit from a lodestone. Fighters seek its added strength while resting by the flames before a dangerous battle.",
    "q": "Who benefits most from gathering around a Lodestone?"
   }
  ],
@@ -96,18 +96,19 @@
  ],
  "sections": [
   {
-   "body": "Mining is tough, honest labor, but its rewards go far beyond smelting raw ingots and shaping armor. Dedicated miners in Stormwind can learn to harness the natural magnetism of the earth into a functional lodestone. When placed at an expedition's campsite, this stone bolsters the combat vigor of any fighter gathered around the hearth fire. Gelman Stonehand, the seasoned mining instructor in the kingdom's capital, passes down the craft to prospectors who demonstrate proficiency with a pickaxe.",
+   "body": "Miners in Stormwind can shape the earth’s natural magnetism into a lodestone. At an expedition’s campsite, it bolsters the fighting strength of those gathered there. Gelman Stonehand, Stormwind’s mining instructor, teaches the craft to prospectors who prove their skill with a pickaxe.",
    "spoiler": 0,
    "title": "The Earth's Resonant Power"
   },
   {
-   "body": "A lodestone cannot simply be dropped onto the cobblestones of Cathedral Square or the Trade District. Townsfolk take a dim view of travelers pitching temporary encampments within city limits, meaning pioneers must head out into the untamed wilds to establish camp. Furthermore, specialized gear like a lodestone is useless without the warm foundation of a campfire, a fundamental wilderness survival skill taught by cooks across the realm.",
+   "body": "A lodestone belongs in the wild, far from Cathedral Square and the Trade District. Townsfolk disapprove of travelers camping within city limits, so pioneers must head into the wild to make camp. The stone also needs a campfire. Cooks across the realm teach this basic wilderness skill.",
    "spoiler": 0,
    "title": "Wilderness Camps and Campfires"
   }
  ],
- "summary": "Camping 101: Mining is an introductory quest that teaches miners how to craft a lodestone to enhance wilderness campsites. Instructed by Gelman Stonehand in Stormwind, prospectors learn to channel resonant earthcraft to bolster their companions' combat prowess around the campfire.",
+ "summary": "In Stormwind, Gelman Stonehand teaches miners to shape a lodestone for camps in the wild. Set by a campfire, it strengthens the fighters gathered there.",
  "attribution": [
   "In-game quest text: Camping 101: Mining"
- ]
+ ],
+ "style": 2
 }

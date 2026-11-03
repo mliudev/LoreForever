@@ -27,21 +27,21 @@
    "Fate of Yenniku"
   ]
  },
- "summary": "Kin'weelay at Grom'gol Base Camp seeks a powerful gem known as the Mind's Eye, an artifact essential for rescuing young Yenniku. The stone rests in the hands of the formidable ogre spellcaster Mai'Zoth, who dwells deep within the Mosh'Ogg Ogre Mound.",
+ "summary": "At Grom'gol Base Camp, Kin'weelay seeks The Mind's Eye to save Yenniku. Mai'Zoth holds the gem deep in the Mosh'Ogg Ogre Mound.",
  "sections": [
   {
    "title": "A Powerful Gem",
-   "body": "Following the recovery of the singing crystals, Kin'weelay turns his attention toward securing the Mind's Eye. This potent artifact is the solitary instrument capable of aiding the rescue of Yenniku, the son of the Darkspear chieftain. However, the stone is currently held by Mai'Zoth, a ruthless ogre mage whose presence Kin'weelay remembers from the tribe's earlier days in the jungle.",
+   "body": "After the singing crystals are recovered, Kin'weelay turns to The Mind's Eye. He believes only the gem can help save Yenniku, son of the Darkspear chieftain. Mai'Zoth holds it. Kin'weelay remembers the ogre mage from the Darkspear tribe's earlier days in the jungle.",
    "spoiler": 0
   },
   {
    "title": "The Depths of Mosh'Ogg",
-   "body": "Mai'Zoth resides deep inside the Mosh'Ogg Ogre Mound to the east of Grom'gol. His magical prowess was formidable even before acquiring the Mind's Eye, and the stone has only amplified his strength. Confronting him amidst the ogre stronghold is fraught with peril, but wresting the artifact from his grasp remains the sole hope of freeing the young troll.",
+   "body": "Mai'Zoth dwells deep in the Mosh'Ogg Ogre Mound, east of Grom'gol. His magic was formidable before he took The Mind's Eye, and the stone has made him stronger still. The ogre stronghold is perilous. Yet the gem is the young troll's only hope of freedom.",
    "spoiler": 0
   },
   {
    "title": "Into the Nether",
-   "body": "With the recovery of the gem, Kin'weelay notes that defeating Mai'Zoth casts the ogre mage out of the realm of flesh and bone into the Nether. While his physical threat is extinguished, Kin'weelay harbors quiet concern that Mai'Zoth may begin a new dominion within the spirit world. For the moment, however, those worries are set aside so the witch doctor can prepare the ritual needed for Saving Yenniku.",
+   "body": "Mai'Zoth's defeat casts the ogre mage from the realm of flesh and bone into the Nether, Kin'weelay says. His physical threat has ended, but Kin'weelay quietly fears Mai'Zoth may build a new dominion in the spirit world. For now, those worries can wait. The witch doctor prepares the ritual to save Yenniku.",
    "spoiler": 1
   }
  ],
@@ -53,7 +53,7 @@
     "where is the minds eye",
     "who drops the minds eye"
    ],
-   "answer": "The Mind's Eye is held by Mai'Zoth, an ogre mage who makes his lair deep within the Mosh'Ogg Ogre Mound east of Grom'gol Base Camp."
+   "answer": "Mai'Zoth holds The Mind's Eye deep inside the Mosh'Ogg Ogre Mound, east of Grom'gol Base Camp."
   },
   {
    "q": "Why does Kin'weelay need the Mind's Eye?",
@@ -62,7 +62,7 @@
     "purpose of minds eye",
     "why get the minds eye"
    ],
-   "answer": "Kin'weelay requires the artifact to perform a ritual, which he believes is the only way to save Yenniku, the lost son of the Darkspear chief."
+   "answer": "Kin'weelay needs The Mind's Eye for a ritual he believes is the only way to save Yenniku, the lost son of the Darkspear chief."
   },
   {
    "q": "Where does this stand in the search for Yenniku?",
@@ -71,7 +71,7 @@
     "previous quest minds eye",
     "what comes after singing crystals"
    ],
-   "answer": "This follows The Singing Crystals. Once the Mind's Eye is secured, the path opens for the next step, Saving Yenniku."
+   "answer": "The search follows The Singing Crystals. Securing The Mind's Eye opens the way to Saving Yenniku."
   },
   {
    "q": "Who is Mai'Zoth?",
@@ -80,17 +80,17 @@
     "about maizoth",
     "maizoth lore"
    ],
-   "answer": "Mai'Zoth is a vicious ogre mage known to Kin'weelay from the era when the Darkspear trolls inhabited the jungle. His magic is exceptionally strong, magnified further by the power of the Mind's Eye."
+   "answer": "Mai'Zoth is an ogre mage Kin'weelay knew from the time the Darkspear trolls lived in the jungle. His formidable magic grew stronger with The Mind's Eye."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "Recovering the Mind's Eye is vital to freeing Yenniku, the son of the Darkspear chieftain."
+   "text": "As a troll, you need The Mind's Eye to help free Yenniku, son of the Darkspear chieftain."
   },
   {
    "target": "faction:Horde",
-   "text": "Operating out of Grom'gol Base Camp, this effort strikes directly at the ogre stronghold of Mosh'Ogg on behalf of the Darkspear trolls."
+   "text": "As a member of the Horde, you help the Darkspear trolls strike at the Mosh'Ogg stronghold from Grom'gol Base Camp."
   }
  ],
  "keywords": [
@@ -115,5 +115,6 @@
  ],
  "attribution": [
   "The Mind's Eye (Classic)"
- ]
+ ],
+ "style": 2
 }

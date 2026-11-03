@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Dwarf"
  },
- "summary": "Dwarves are a stout, resilient race carved from the living stone of ancient titan-forged earthen, now inhabiting the snow-capped mountain kingdoms of Khaz Modan and beyond. Known for their mastery of stonework, metallurgy, and devastating frontline combat, they stand as one of the Alliance's fiercest and most dependable pillars. Under the reign of King Magni Bronzebeard, their sprawling subterranean capital of Ironforge serves as the beating heart of dwarven society.",
+ "summary": "In Khaz Modan, dwarves keep to the mountain homes they carved from stone. Once earthen, they changed under the Curse of Flesh and now live across Khaz Modan and beyond. King Magni Bronzebeard rules from Ironforge, beneath the peaks of Dun Morogh, a steadfast heart of the Alliance.",
  "sections": [
   {
    "title": "Sons of the Mountain",
-   "body": "Long ago, the subterranean titan-forged known as earthen awoke from an eons-long slumber within the vaults of Uldaman, transformed by the Curse of Flesh into beings of blood and bone. Taking the name dwarves, they reclaimed the high crags of Khaz Modan\u2014named in honor of the titan Khaz'goroth\u2014and carved the majestic subterranean stronghold of Ironforge beneath the peaks of Dun Morogh. Endowed with incredible natural fortitude, a sharp eye for stone and ore, and a penchant for roaring hearths and heady ale, dwarves approach craftsmanship and warfare with identical tenacity.",
+   "body": "Dwarves began as earthen, beings forged by the titans who slept for ages in Uldaman's vaults. The Curse of Flesh changed them into creatures of blood and bone. They took the name dwarves and made their home in Khaz Modan, named for the titan Khaz'goroth. Beneath Dun Morogh's peaks, they carved the stronghold of Ironforge.\n\nTheir bodies endure hardship, and their keen eyes find stone and ore. They bring fierce resolve to the forge and to battle. Their halls ring with roaring hearths, and ale is a favored drink.",
    "spoiler": 0
   },
   {
    "title": "The War of the Three Hammers",
-   "body": "Dwarven unity shattered centuries ago following the death of High King Modimus Anvilmar. Civil war erupted across Ironforge among three rival factions: the Bronzebeard clan, the Wildhammer clan, and the Dark Iron clan. After the Bronzebeards secured the mountain and drove out their kin, Sorcerer-Thane Thaurissan of the Dark Irons launched a disastrous war of vengeance against both rivals. Driven to desperation beneath the Redridge Mountains, Thaurissan accidentally summoned Ragnaros the Firelord, immolating his own realm into the volcanic wastes of Searing Gorge and the Burning Steppes. The surviving Dark Irons were enslaved beneath Blackrock Mountain, while the devastated Wildhammers migrated north to Aerie Peak in the Hinterlands.",
+   "body": "After High King Modimus Anvilmar died, the dwarves fought over Ironforge. The Bronzebeard, Wildhammer, and Dark Iron clans each sought power, and their struggle became a civil war. The Bronzebeards took the mountain and drove the other clans out.\n\nSorcerer-Thane Thaurissan of the Dark Irons then waged war against both rivals. His forces were driven beneath the Redridge Mountains, where Thaurissan accidentally summoned Ragnaros the Firelord. Flames consumed the Dark Iron realm, leaving the volcanic wastes of Searing Gorge and the Burning Steppes. The survivors became slaves beneath Blackrock Mountain. The Wildhammers, their home devastated, migrated north to Aerie Peak in the Hinterlands.",
    "spoiler": 0
   },
   {
    "title": "Steadfast Shield of the Alliance",
-   "body": "When the orcish Horde surged across the continent during the Second War, King Magni Bronzebeard sealed Ironforge's gates against brutal sieges while dwarven forces took up arms alongside the Alliance of Lordaeron. Renowned for heavy plate armor, deadly muskets, and fearless gryphon riders, dwarven warriors played a vital role in shattering the Horde. Today, the Kingdom of Ironforge remains one of the Alliance's most stalwart defenders, welcoming their displaced gnome cousins into their halls while actively unearthing the titan ruins of Khaz Modan to unravel the mysteries of their ancient origins.",
+   "body": "When the Horde swept across the continent in the Second War, King Magni Bronzebeard shut Ironforge's gates against its sieges. Dwarven forces fought beside the Alliance of Lordaeron in heavy plate armor and with muskets, while gryphon riders took to the sky. Their courage helped break the Horde.\n\nIronforge remains one of the Alliance's steadfast defenders. The dwarves have also welcomed their displaced gnome cousins into their halls. Across Khaz Modan, they uncover titan ruins in search of answers about their ancient origins.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "how were dwarves made",
     "earthen"
    ],
-   "answer": "Dwarves are descended from the earthen, an ancient race of living stone beings created by the titan keepers. Sealed away inside the subterranean vaults of Uldaman, the earthen succumbed to the Curse of Flesh over millennia, awakening as mortal dwarves who then ventured out to settle the mountains of Khaz Modan."
+   "answer": "Dwarves descend from the earthen, living stone beings made by the titan keepers. The earthen slept in Uldaman's vaults until the Curse of Flesh changed them into mortal dwarves. Then they settled the mountains of Khaz Modan."
   },
   {
    "q": "Who rules the dwarves right now?",
@@ -44,7 +44,7 @@
     "king of ironforge",
     "magni bronzebeard"
    ],
-   "answer": "King Magni Bronzebeard rules the Kingdom of Ironforge and the Bronzebeard clan from the Great Forge. He has led his people through the Second and Third Wars and remains one of the core founding pillars of the Grand Alliance."
+   "answer": "King Magni Bronzebeard rules the Kingdom of Ironforge and the Bronzebeard clan from the Great Forge. He led his people through the Second and Third Wars and remains one of the founding pillars of the Grand Alliance."
   },
   {
    "q": "What are the three main dwarven clans?",
@@ -54,7 +54,7 @@
     "bronzebeard wildhammer dark iron",
     "clans of ironforge"
    ],
-   "answer": "The three major clans are the Bronzebeards, who rule Ironforge and Dun Morogh; the Wildhammers, who dwell in the open air of the Hinterlands and ride gryphons; and the Dark Irons, who dwell deep beneath Blackrock Mountain under the fiery dominion of Ragnaros."
+   "answer": "The three major clans are the Bronzebeards, who rule Ironforge and Dun Morogh; the Wildhammers, who live in the open air of the Hinterlands and ride gryphons; and the Dark Irons, who live beneath Blackrock Mountain under Ragnaros's fiery dominion."
   },
   {
    "q": "Why are the Dark Iron dwarves enemies?",
@@ -63,7 +63,7 @@
     "dark iron clan lore",
     "shadowforge city dwarves"
    ],
-   "answer": "During the War of the Three Hammers, the Dark Irons attempted to annihilate both the Bronzebeard and Wildhammer clans. Facing defeat, their sorcerer-thane summoned Ragnaros the Firelord, which shattered their homeland and bound the clan in servitude to elemental fire and shadow beneath Blackrock Mountain."
+   "answer": "During the War of the Three Hammers, the Dark Irons tried to destroy both the Bronzebeard and Wildhammer clans. Facing defeat, their sorcerer-thane summoned Ragnaros the Firelord. The flames shattered their homeland, and bound the clan to serve elemental fire and shadow beneath Blackrock Mountain."
   },
   {
    "q": "Why are gnomes living inside Ironforge?",
@@ -72,7 +72,7 @@
     "ironforge gnomes",
     "what happened to gnomeregan"
    ],
-   "answer": "The dwarves and gnomes have shared a close bond since their first meeting centuries ago, exchanging stoneworking secrets for mechanical engineering. When Gnomeregan fell to a trogg invasion and toxic radiation, King Magni gave High Tinker Gelbin Mekkatorque and his refugees asylum in Tinker Town."
+   "answer": "Dwarves and gnomes have shared a close bond for centuries, trading stoneworking secrets for mechanical engineering. When Gnomeregan fell to a trogg invasion and toxic radiation, King Magni gave High Tinker Gelbin Mekkatorque and the refugees shelter in Tinker Town."
   },
   {
    "q": "Do dwarves worship the Holy Light?",
@@ -81,7 +81,7 @@
     "dwarves holy light",
     "do dwarves believe in the light"
    ],
-   "answer": "Yes. Many Ironforge dwarves follow the Holy Light, which the humans introduced to them. Dwarven priests keep their own teachings of the Light, and a number of stout-hearted dwarves have recently been welcomed into the Order of the Silver Hand as paladins."
+   "answer": "Yes. Many Ironforge dwarves follow the Holy Light, which humans introduced to them. Dwarven priests keep their own teachings, and stout-hearted dwarves have recently joined the Order of the Silver Hand as paladins."
   },
   {
    "q": "Which classes can dwarves be?",
@@ -96,27 +96,27 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Every dwarf carries the weight of a stoneborn legacy, navigating ancient blood feuds between clans while excavating titan secrets that define your very existence."
+   "text": "As a dwarf, you carry a legacy of living stone. Your clans have old blood feuds, and you dig through titan ruins for answers about your origins."
   },
   {
    "target": "race:Gnome",
-   "text": "The dwarves are your oldest and truest allies, having helped build Gnomeregan's initial stonework and now offering your people shelter in Tinker Town."
+   "text": "The dwarves are your oldest and truest allies. They helped build Gnomeregan's first stonework and now shelter your people in Tinker Town."
   },
   {
    "target": "faction:Alliance",
-   "text": "Ironforge's vast mineral wealth, unmatched siege engineering, and unyielding infantry form the northern bulwark of the Alliance."
+   "text": "Ironforge's mineral wealth, siege craft and steadfast infantry help guard the Alliance's northern reaches."
   },
   {
    "target": "class:Paladin",
-   "text": "Dwarven paladins carry the Holy Light with mountain-hewn resolve, blending human theology with the unbreakable martial discipline of Khaz Modan."
+   "text": "As a paladin, you carry the Holy Light with the resolve of Khaz Modan, joining human teachings with dwarven martial discipline."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Dwarves are renowned as the finest smiths in Azeroth, utilizing the volcanic heat of the Great Forge to temper legendary arms and armor."
+   "text": "Dwarven smiths are renowned across Azeroth. The Great Forge's volcanic heat helps them temper arms and armor."
   },
   {
    "target": "profession:Mining",
-   "text": "Born from living stone, dwarves possess an innate eye for veins of rich ore and ancient gemstones buried beneath the subterranean deeps."
+   "text": "As a dwarf, you have a keen eye for ore and gemstones buried beneath the earth."
   }
  ],
  "keywords": [
@@ -144,5 +144,6 @@
  ],
  "attribution": [
   "Dwarf"
- ]
+ ],
+ "style": 2
 }

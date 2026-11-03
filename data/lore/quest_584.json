@@ -28,16 +28,16 @@
    "Fate of Yenniku"
   ]
  },
- "summary": "Following the sorting of trophies gathered in the jungle, Nimboya confirms that the missing young troll Yenniku was not among them. To discover the truth of Yenniku's fate, the Darkspear seek to compel answers from the leaders of the rival Bloodscalp tribe.",
+ "summary": "Nimboya still seeks word of Yenniku after the trophies are sorted. The young troll is missing, so the Darkspear turn to the Bloodscalp Clan Heads for answers.",
  "sections": [
   {
    "title": "Demanding Answers from the Dead",
-   "body": "After the earlier hunt proved Yenniku was not among the fallen Bloodscalp trophies, Nimboya looks to higher leadership for answers. The Bloodscalp chief, Gan'zulah, and his witch doctor, Nezzliok the Dire, are enemies of the Darkspear tribe and would never talk willingly. Nimboya means to force the truth from their dead lips, bringing their heads to the cauldron at Grom'gol Base Camp to make them talk.",
+   "body": "Nimboya seeks answers from the Bloodscalp leaders. The earlier hunt found no sign of Yenniku among the fallen. Gan'zulah, the Bloodscalp chief, and Nezzliok the Dire, his witch doctor, are enemies of the Darkspear. Neither would speak willingly. So Nimboya plans to bring their heads to the cauldron at Grom'gol Base Camp and force the truth from their dead lips.",
    "spoiler": 0
   },
   {
    "title": "Into Zul'Kunda",
-   "body": "Both Bloodscalp leaders dwell deep within the ruins of Zul'Kunda in northwestern Stranglethorn Vale. Claiming their heads and casting them into the boiling brew is how Nimboya means to make them talk about Yenniku.",
+   "body": "Gan'zulah and Nezzliok dwell deep in the ruins of Zul'Kunda in northwestern Stranglethorn Vale. Nimboya means to cast their heads into the boiling brew and make them speak about Yenniku.",
    "spoiler": 0
   }
  ],
@@ -49,7 +49,7 @@
     "why severed heads",
     "nimboya motivation"
    ],
-   "answer": "Yenniku is still missing, and Nimboya believes only the Bloodscalp chief and his witch doctor hold the truth. Because these leaders are enemies of the Darkspear and would never talk willingly, Nimboya plans to force the truth from their dead lips with the cauldron."
+   "answer": "Yenniku remains missing, and Nimboya believes Gan'zulah and Nezzliok know the truth. They are enemies of the Darkspear and would never speak willingly, so he plans to force answers from them through the cauldron."
   },
   {
    "q": "Where are Gan'zulah and Nezzliok located?",
@@ -59,7 +59,7 @@
     "find bloodscalp chiefs",
     "zulkunda location"
    ],
-   "answer": "Both troll leaders reside deep within Zul'Kunda, a ruin in northwestern Stranglethorn Vale, close to the beach."
+   "answer": "Gan'zulah and Nezzliok dwell deep within Zul'Kunda, a ruin in northwestern Stranglethorn Vale, close to the beach."
   },
   {
    "q": "What happens once the heads are delivered?",
@@ -68,7 +68,7 @@
     "what do i do with the heads",
     "bubbling cauldron turn in"
    ],
-   "answer": "The severed heads are placed directly into the bubbling cauldron at Grom'gol Base Camp, so the two leaders can be made to talk."
+   "answer": "The severed heads go into the bubbling cauldron at Grom'gol Base Camp. There, Nimboya means to make the two leaders speak."
   },
   {
    "q": "How does this connect to the search for Yenniku?",
@@ -76,17 +76,17 @@
     "yenniku questline",
     "hunt for yenniku connection"
    ],
-   "answer": "This investigation began with the search for young Yenniku. After earlier headhunting proved he was not among the common dead, questioning the Bloodscalp leaders is the next effort to track his whereabouts."
+   "answer": "The search began with young Yenniku. The earlier hunt found no sign of him among the common dead, so the Darkspear now seek answers from the Bloodscalp leaders to learn where he is."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For the Darkspear, confronting the Bloodscalp chiefs means facing the leaders of a tribe that is their enemy."
+   "text": "As a Darkspear, you face the leaders of an enemy tribe when you confront the Bloodscalp chiefs."
   },
   {
    "target": "faction:Horde",
-   "text": "Horde fighters at Grom'gol Base Camp lend their strength to the Darkspear search for Yenniku."
+   "text": "As a member of the Horde, you lend your strength at Grom'gol Base Camp to the Darkspear search for Yenniku."
   }
  ],
  "keywords": [
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "Bloodscalp Clan Heads"
- ]
+ ],
+ "style": 2
 }

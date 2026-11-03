@@ -8,16 +8,16 @@
   "wiki": "Warden Thelwater",
   "refs": 4
  },
- "summary": "In Stormwind, a prison riot has left Warden Thelwater besieged at the Stockade entrance. He calls for capable adventurers to stop the Defias prisoners before the uprising reaches the city above.",
+ "summary": "At the Stockade entrance in Stormwind, Warden Thelwater faces a prison riot. He calls for capable adventurers to stop the Defias prisoners before the uprising reaches the city above.",
  "sections": [
   {
    "title": "A Crisis in the Canals",
-   "body": "Beneath Stormwind's canals, the Stockade holds the kingdom's most dangerous miscreants, petty thieves, and political conspirators. Warden Thelwater was charged with keeping them locked away, but an organized revolt caught the guards off guard. The prisoners overwhelmed security and seized the cells, leaving Thelwater barricaded at the entrance as he struggles to contain an armed uprising beneath the capital's streets.",
+   "body": "Beneath Stormwind's canals, the Stockade holds the kingdom's most dangerous miscreants, petty thieves, and political conspirators. Warden Thelwater was charged with keeping them locked away. Then an organized revolt caught the guards off guard. The prisoners overwhelmed security and seized the cells, leaving Thelwater barricaded at the entrance as he struggles to contain an armed uprising beneath the capital's streets.",
    "spoiler": 0
   },
   {
    "title": "Containing the Truth",
-   "body": "Thelwater wants to keep panic from reaching Stormwind's streets, so he handles the uprising in secret. Bazil Thredd, the revolt's mastermind, holds great influence among the Defias Brotherhood prisoners. Fearing the riot will expose weaknesses in Stormwind's rule, Thelwater turns to outside mercenaries to enter the cellblocks, defeat the ringleaders, and quietly take back the prison.",
+   "body": "Warden Thelwater wants to keep panic from reaching Stormwind's streets, so he handles the uprising in secret. Bazil Thredd, the revolt's mastermind, holds great influence among the Defias Brotherhood prisoners. Fearing the riot will expose weaknesses in Stormwind's rule, Thelwater turns to outside mercenaries. They must enter the cellblocks, defeat the ringleaders, and quietly take back the prison.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "stockade warden",
     "who is thelwater"
    ],
-   "answer": "Warden Thelwater is the human official at the Stockade entrance in Stormwind City. He manages the high-security prison."
+   "answer": "At the Stockade entrance in Stormwind City, Warden Thelwater manages the high-security prison."
   },
   {
    "q": "What happened to the Stockade?",
@@ -56,7 +56,7 @@
     "why hire adventurers",
     "secret riot"
    ],
-   "answer": "Thelwater wants to settle the crisis quietly. News that Stormwind's most fortified dungeon fell to its own inmates could spread panic, so he calls on discreet adventurers to regain control inside."
+   "answer": "Warden Thelwater wants to settle the crisis quietly. News that Stormwind's most fortified dungeon fell to its own inmates could spread panic, so he calls on discreet adventurers to regain control inside."
   },
   {
    "q": "What kind of prisoners are kept here?",
@@ -114,5 +114,5 @@
  "attribution": [
   "Warden Thelwater"
  ],
- "style": 1
+ "style": 2
 }

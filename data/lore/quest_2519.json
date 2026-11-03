@@ -21,16 +21,16 @@
    "Sathrah's Sacrifice (quest)"
   ]
  },
- "summary": "In Darnassus, Sister Aquinne calls for aid to a suffering ancient creature in Teldrassil. The Sisterhood of Elune needs help, and this is the opening call to a solemn ritual of mercy.",
+ "summary": "In Darnassus, Sister Aquinne calls for aid to a suffering ancient creature in Teldrassil. The Sisterhood of Elune cannot tend to it alone, and the call begins a solemn ritual of mercy.",
  "sections": [
   {
    "title": "A Plea in the Gardens",
-   "body": "Sister Aquinne asks for help in the Temple Gardens. As a devoted servant of Elune, she speaks for her order: a venerable forest creature is suffering, and the Sisters cannot attend to it alone.",
+   "body": "In Darnassus's Temple Gardens, Sister Aquinne asks you to help a venerable forest creature in pain. She serves Elune and speaks for her order. The Sisters cannot tend to the creature alone.",
    "spoiler": 0
   },
   {
    "title": "Into the Moon Temple",
-   "body": "Sister Aquinne sends you southeast to the Temple of the Moon. Priestess A'moora coordinates the rituals and practical duties needed to address Teldrassil's troubled wildlife, preparing allies to carry out a sorrowful act of mercy.",
+   "body": "Sister Aquinne sends you southeast to the Temple of the Moon. There, Priestess A'moora coordinates rituals and practical duties for Teldrassil's troubled wildlife. She prepares allies for a sorrowful act of mercy.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "where to get temple of the moon quest",
     "who gives the temple of the moon"
    ],
-   "answer": "Sister Aquinne begins the call for help. She stands outside in Darnassus's Temple Gardens district."
+   "answer": "Sister Aquinne begins the call for help from Darnassus's Temple Gardens district."
   },
   {
    "q": "Where is Priestess A'moora located?",
@@ -69,7 +69,7 @@
     "can i skip temple of the moon",
     "temple of the moon breadcrumb"
    ],
-   "answer": "No. The Temple of the Moon is an optional breadcrumb. You can speak directly with Priestess A'moora inside the temple to take up the ritual tasks without first visiting Sister Aquinne."
+   "answer": "No. The Temple of the Moon is an optional first call. You can speak directly with Priestess A'moora inside the temple and take up the ritual duties without first visiting Sister Aquinne."
   },
   {
    "q": "What quest follows after this one?",
@@ -93,11 +93,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, answering Sister Aquinne helps protect Teldrassil's sacred ecosystem and uphold the guidance of Elune's priesthood."
+   "text": "As a night elf, you help protect Teldrassil's sacred ecosystem and uphold the guidance of Elune's priesthood when you answer Sister Aquinne."
   },
   {
    "target": "class:Priest",
-   "text": "As a priest, you may feel drawn to the Sisterhood's work in Darnassus, helping fellow servants of the divine with rites of healing and mercy."
+   "text": "As a priest, you may feel drawn to the Sisterhood's work in Darnassus. You help fellow servants of the divine with rites of healing and mercy."
   },
   {
    "target": "class:Druid",
@@ -126,5 +126,5 @@
  "attribution": [
   "The Temple of the Moon (Classic)"
  ],
- "style": 1
+ "style": 2
 }

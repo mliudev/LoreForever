@@ -28,16 +28,16 @@
    "Study of the Elements: Rock"
   ]
  },
- "summary": "Lotwil Veriatus, busy with a set of shackles, sends you to speak with Lucien Tosselwrench in the Badlands. Lotwil needs a cog #5 and wants it brought back.",
+ "summary": "In the Badlands, Lotwil Veriatus sends you to Lucien Tosselwrench for a needed cog #5. Bring it back to Lotwil.",
  "sections": [
   {
    "title": "Cog Number Five",
-   "body": "Lotwil glances up at you briefly, then bends over the shackles again. You are to go and speak to Lucien Tosselwrench, because Lotwil needs a cog #5 and asks you to bring it.",
+   "body": "Lotwil Veriatus turns his attention to the shackles, then sends you to Lucien Tosselwrench. He needs a cog #5 and asks you to bring it back to him.",
    "spoiler": 0
   },
   {
    "title": "Lucien's Verdict",
-   "body": "At the mention of cog #5, Lucien Tosselwrench is not hopeful about how things will go.",
+   "body": "When you mention cog #5, Lucien Tosselwrench sounds doubtful about how things will go.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "lotwil veriatus quest",
     "quest giver"
    ],
-   "answer": "Lotwil Veriatus, who is working on a set of shackles in the Badlands."
+   "answer": "Lotwil Veriatus asks you while working on a set of shackles in the Badlands."
   },
   {
    "q": "What does Lotwil need?",
@@ -58,7 +58,7 @@
     "which cog",
     "cog 5"
    ],
-   "answer": "A cog #5, which Lotwil asks you to bring back after speaking with Lucien Tosselwrench."
+   "answer": "Lotwil needs a cog #5. He asks you to bring it back after speaking with Lucien Tosselwrench."
   },
   {
    "q": "Who do I speak to about the cog?",
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "This Is Going to Be Hard"
- ]
+ ],
+ "style": 2
 }

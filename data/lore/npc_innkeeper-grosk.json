@@ -12,12 +12,12 @@
  "sections": [
   {
    "title": "Hospitality in the Red Wastes",
-   "body": "Razor Hill links Durotar’s southern training grounds with Orgrimmar’s high walls. Innkeeper Grosk shelters warriors, scouts, and peons at his inn. Travelers find basic provisions, hearty meats, and cool water beneath its sturdy timbers.",
+   "body": "Razor Hill joins Durotar’s southern training grounds to Orgrimmar’s high walls. Innkeeper Grosk gives warriors, scouts, and peons shelter at his inn. Beneath its sturdy timbers, travelers can find basic provisions, hearty meats, and cool water.",
    "spoiler": 0
   },
   {
    "title": "A Peon's Respite",
-   "body": "Grosk also helps the laborers who keep Durotar running. Ukor, a timid peon, hauled food to the Valley of Trials only to learn it was not needed. He asks travelers to carry the load back to Grosk’s inn in Razor Hill.",
+   "body": "Innkeeper Grosk also helps the laborers who keep Durotar running. Ukor, a timid peon, carried food to the Valley of Trials, only to learn it was not needed. He asks travelers to bring the load back to Grosk’s inn in Razor Hill.",
    "spoiler": 0
   }
  ],
@@ -74,5 +74,5 @@
  "attribution": [
   "Innkeeper Grosk"
  ],
- "style": 1
+ "style": 2
 }

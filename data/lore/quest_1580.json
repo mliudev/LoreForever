@@ -20,16 +20,16 @@
    "Electropellers"
   ]
  },
- "summary": "In Darkshore, Wizbang Cranktoggle asks anglers to recover his lost electropellers. He lost the prototype parts in freshwater streams after a mishap with an explosive duck decoy.",
+ "summary": "In Darkshore, Wizbang Cranktoggle wants his lost electropellers back. A mishap with an explosive duck decoy scattered the prototype parts in freshwater streams.",
  "sections": [
   {
    "title": "A Tipsy Invention",
-   "body": "Wizbang Cranktoggle spends an evening searching inland Darkshore for a place to test his latest invention. The gnome tinkerer, stationed in Auberdine, has built a self-propelled, exploding duck decoy. After drinking too much, he blacks out and wakes hours later back in town with singed hair and an empty pack. His bag of electropellers has fallen into one of the coastal rivers.",
+   "body": "Wizbang Cranktoggle went inland one evening to find a place to test his latest invention. The gnome tinkerer, based in Auberdine, had built a self-propelled duck decoy that explodes. He drank too much and blacked out. Hours later, he woke in town with singed hair and an empty pack; his bag of electropellers had fallen into one of the coastal rivers.",
    "spoiler": 0
   },
   {
    "title": "Dredging the Waters",
-   "body": "Wizbang asks local fishermen to dredge Darkshore's freshwater streams because he does not want to brave the wilds himself. Anglers fishing the Wildbend River and Cliffspring River can snag the buoyant metal parts alongside local fish. With the components recovered, the gnome can resume his erratic waterfowl experiments.",
+   "body": "Wizbang asks local fishermen to dredge Darkshore's freshwater streams, for he will not brave the wilds himself. Anglers on the Wildbend River and Cliffspring River can snag the buoyant metal parts along with local fish. Once the components are back, Wizbang can resume his erratic waterfowl experiments.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "how to get electropellers",
     "electropeller location"
    ],
-   "answer": "Fish in Darkshore's freshwater rivers and lakes, including the Cliffspring River and Wildbend River. The electropellers cannot be found in the ocean along the coast."
+   "answer": "Fish in Darkshore's freshwater rivers and lakes, including the Cliffspring River and Wildbend River. The electropellers are not in the ocean along the coast."
   },
   {
    "q": "Who is Wizbang Cranktoggle?",
@@ -57,7 +57,7 @@
     "exploding duck decoy",
     "wizbang project"
    ],
-   "answer": "Wizbang was building a self-propelled, exploding duck decoy. After drinking too much, he accidentally detonated an early prototype, scorching his hair and losing his bag of parts in the water."
+   "answer": "Wizbang was building a self-propelled duck decoy that explodes. After drinking too much, he accidentally detonated an early prototype, scorching his hair and losing his bag of parts in the water."
   },
   {
    "q": "Can electropellers be found in fish schools?",
@@ -73,7 +73,7 @@
     "prereq for electropellers",
     "electropellers prerequisite"
    ],
-   "answer": "Complete Gaffer Jacks first. It is an earlier fishing task Wizbang assigns to test your angling luck in the local waters."
+   "answer": "Complete Gaffer Jacks first. Wizbang assigns it earlier to test your angling luck in the local waters."
   },
   {
    "q": "Are electropellers dropped by monsters?",
@@ -81,21 +81,21 @@
     "do mobs drop electropellers",
     "who drops electropellers"
    ],
-   "answer": "No. Enemies and ground containers do not yield electropellers; you must retrieve them from rivers using a fishing pole."
+   "answer": "No. Enemies and ground containers do not yield electropellers. Retrieve them from rivers with a fishing pole."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you may recognize Wizbang's chaotic ambition to build exploding duck decoys, though losing expensive parts in an elf-guarded river is embarrassing."
+   "text": "As a gnome, you may recognize Wizbang's chaotic ambition to build exploding duck decoys. Losing expensive parts in an elf-guarded river is embarrassing."
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can see electropellers as curious examples of miniaturized gnomish propulsion, made to drive mechanical decoys before violently combusting."
+   "text": "As an engineer, you can see electropellers as curious examples of miniaturized gnomish propulsion. They drive mechanical decoys before violently combusting."
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you may look on Wizbang's loud, smoky inventions and river-littering mishaps with quiet disapproval. Darkshore's streams should remain natural."
+   "text": "As a night elf, you may regard Wizbang's loud, smoky inventions and river-littering mishaps with quiet disapproval. Darkshore's streams should remain natural."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Electropellers"
  ],
- "style": 1
+ "style": 2
 }

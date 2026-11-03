@@ -8,11 +8,11 @@
   "wiki": "Guard Berton",
   "refs": 1
  },
- "summary": "Outside the Lakeshire Inn, Guard Berton seeks swift justice for Targorr the Dread. The human guardsman is tired of Stormwind's delays while Redridge faces the Blackrock orc invasion.",
+ "summary": "Outside the Lakeshire Inn, Guard Berton presses for swift justice against Targorr the Dread. Redridge faces the Blackrock orc invasion, and Stormwind's delays have worn thin.",
  "sections": [
   {
    "title": "A Guard Seeking Justice",
-   "body": "Guard Berton keeps watch outside the Lakeshire Inn as Redridge Mountains faces the Blackrock orc invasion. His concern is Targorr the Dread, an enemy captured and locked deep within the Stormwind Stockade. Sentenced to death for crimes against the kingdom, Targorr remains imprisoned because Stormwind has postponed his execution indefinitely. Berton will not let the brutal raider linger in a cell while Lakeshire bleeds. He hires willing adventurers to bypass the delays and kill the orc.",
+   "body": "Guard Berton keeps watch outside the Lakeshire Inn as the Blackrock orc invasion threatens Redridge Mountains. Targorr the Dread, an enemy captured for crimes against the kingdom, is locked deep in the Stormwind Stockade and sentenced to death. Yet Stormwind has postponed his execution indefinitely.\n\nWith Lakeshire bleeding, Berton will not let the brutal raider linger in a cell. He hires willing adventurers to bypass the delays and kill the orc.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "berton lakeshire",
     "who is berton"
    ],
-   "answer": "Guard Berton is an Alliance guard posted outside the Lakeshire Inn in Redridge Mountains. He hires adventurers to carry out justice against an infamous orc prisoner."
+   "answer": "Guard Berton is an Alliance guardsman posted outside the Lakeshire Inn in Redridge Mountains. He hires adventurers to carry out justice against an infamous orc prisoner."
   },
   {
    "q": "Why does Guard Berton want Targorr the Dread killed?",
@@ -32,7 +32,7 @@
     "targorr execution",
     "what comes around quest lore"
    ],
-   "answer": "Stormwind has put Targorr the Dread's execution on hold, despite his sentence for crimes against the kingdom. With Redridge under siege, Berton arranges for Targorr to be killed inside the Stockade."
+   "answer": "Stormwind has postponed Targorr the Dread's execution, though he was sentenced for crimes against the kingdom. With Redridge under siege, Berton arranges for Targorr to be killed inside the Stockade."
   },
   {
    "q": "Where is Targorr the Dread held?",
@@ -54,7 +54,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance defender, you can see why border towns grow frustrated when Stormwind's bureaucracy delays justice while they fight for survival."
+   "text": "As an Alliance defender, you can understand why border towns grow frustrated when Stormwind's bureaucracy delays justice while they fight for survival."
   }
  ],
  "keywords": [
@@ -80,5 +80,5 @@
  "attribution": [
   "Guard Berton"
  ],
- "style": 1
+ "style": 2
 }

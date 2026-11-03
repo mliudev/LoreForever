@@ -10,16 +10,16 @@
    "quest:1512"
   ]
  },
- "summary": "In the Barrens, a captive orc gives up the Dirt-Caked Pendant he carried. The keepsake reaches Gan'rul Bloodeye in Orgrimmar, where it is used to draw a succubus.",
+ "summary": "In the Barrens, Dogran gives up the Dirt-Caked Pendant he carried. It reaches Gan'rul Bloodeye in Orgrimmar, where the keepsake is used to draw a succubus.",
  "sections": [
   {
    "title": "A Tragic Token",
-   "body": "Dogran gives up the Dirt-Caked Pendant while held captive in the Barrens. Poisoned and crippled beyond recovery, he will not return to his mate, Zankaja, as a burden. He chooses to die fighting his captors instead. The pendant carries his unspoken love for her. A warlock takes the keepsake to Orgrimmar, where the warlocks of the Cleft of Shadow put its heartbreak and devotion to use.",
+   "body": "Dogran gives up the Dirt-Caked Pendant while held captive in the Barrens. Poisoned and crippled beyond recovery, he will not return to his mate, Zankaja, as a burden. He chooses to die fighting his captors instead. The pendant bears his unspoken love for her.\n\nA warlock takes the keepsake to Orgrimmar. There, the warlocks of the Cleft of Shadow put its heartbreak and devotion to use.",
    "spoiler": 1
   },
   {
    "title": "Bait for a Demon",
-   "body": "In the Cleft of Shadow, Gan'rul Bloodeye sees how the pendant can draw a succubus. These demons are drawn to mortal yearning, romance, and tragedy. The warlock cleans and polishes Dogran's pendant until it shines, turning a token of devoted love into a lure. The warlock then calls a succubus forth to face ritual combat and be dominated.",
+   "body": "In the Cleft of Shadow, Gan'rul Bloodeye sees how the pendant can draw a succubus. These demons answer mortal yearning, romance, and tragedy. The warlock cleans and polishes Dogran's pendant until it shines, turning a token of devoted love into a lure.\n\nThen the warlock calls a succubus forth to face ritual combat and be dominated.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "where do i get the pendant",
     "who gives the pendant"
    ],
-   "answer": "Dogran, a captive orc warrior in the Barrens, hands you the pendant after you give him Ken'zigla's draught and revive his senses."
+   "answer": "Dogran, a captive orc warrior in the Barrens, gives you the pendant after you give him Ken'zigla's draught and revive his senses."
   },
   {
    "q": "What is the pendant's connection to Zankaja?",
@@ -40,7 +40,7 @@
     "dogran and zankaja",
     "pendant meaning"
    ],
-   "answer": "Zankaja is Dogran's mate in Orgrimmar. He gives up the pendant and hides that he survived so she will not have to care for him as an invalid warrior."
+   "answer": "Zankaja is Dogran's mate in Orgrimmar. He gives up the pendant and hides that he survived, so she will not have to care for him as an invalid warrior."
   },
   {
    "q": "Why does Gan'rul Bloodeye need this specific pendant?",
@@ -49,7 +49,7 @@
     "succubus bait pendant",
     "ganrul bloodeye pendant"
    ],
-   "answer": "Succubi are drawn to powerful mortal feelings, especially romance, heartbreak, and devotion. Once cleaned, Dogran's pendant can focus the call that draws a succubus into the summoning circle."
+   "answer": "Succubi answer powerful mortal feelings, especially romance, heartbreak, and devotion. Once cleaned, Dogran's pendant can focus the call that draws a succubus into the summoning circle."
   },
   {
    "q": "What happens after the pendant is delivered to Orgrimmar?",
@@ -67,7 +67,7 @@
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, you see Dogran's bittersweet choice: he refuses to burden his clan and mate as a cripple, giving up his keepsake to make a warrior's final stand."
+   "text": "As an orc, you see Dogran's bittersweet choice. He refuses to burden his clan and mate as a cripple, giving up his keepsake to make a warrior's final stand."
   }
  ],
  "keywords": [
@@ -92,5 +92,5 @@
   "Dirt-Caked Pendant",
   "Love's Gift"
  ],
- "style": 1
+ "style": 2
 }

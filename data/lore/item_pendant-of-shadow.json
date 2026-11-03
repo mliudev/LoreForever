@@ -10,11 +10,11 @@
    "quest:249"
   ]
  },
- "summary": "At the Tower of Ilgalar, Morganth carries the Pendant of Shadow as he pursues the Scythe of Elune. Theocritus wants the talisman brought to the Tower of Azora as proof Morganth has been slain.",
+ "summary": "At the Tower of Ilgalar, Morganth bears the Pendant of Shadow while seeking the Scythe of Elune. Theocritus wants it brought to the Tower of Azora as proof Morganth has been slain.",
  "sections": [
   {
    "title": "Token of a Dark Warlock",
-   "body": "Morganth, a rogue warlock, holds the Pendant of Shadow at the Tower of Ilgalar. He sought the mysteries of the Scythe of Elune, an ancient relic of immense and volatile power. Theocritus feared the havoc Morganth might unleash upon the Redridge Mountains and the kingdom of Stormwind. The mage sent adventurers to infiltrate Ilgalar, end Morganth's plotting, and take the talisman as proof of his demise.",
+   "body": "At the Tower of Ilgalar, Morganth holds the Pendant of Shadow. The rogue warlock seeks the mysteries of the Scythe of Elune, an ancient relic of immense and volatile power.\n\nTheocritus fears the havoc Morganth might unleash upon the Redridge Mountains and the kingdom of Stormwind. The mage sends adventurers to infiltrate Ilgalar, end Morganth’s plotting and take the talisman as proof of his demise.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "why theocritus wants it",
     "purpose of pendant of shadow"
    ],
-   "answer": "Theocritus needs the pendant as proof Morganth has been slain and his pursuit of the dangerous Scythe of Elune has ended."
+   "answer": "Theocritus needs the pendant as proof Morganth has been slain and the pursuit of the dangerous Scythe of Elune has ended."
   },
   {
    "q": "What threat did Morganth pose with the pendant?",
@@ -61,7 +61,7 @@
   },
   {
    "target": "class:Warlock",
-   "text": "As a warlock, Morganth shows the peril of drawing the Tower of Azora's scrutiny while pursuing volatile, forbidden artifacts like the Scythe of Elune."
+   "text": "As a warlock, Morganth shows the peril of drawing the Tower of Azora’s scrutiny while pursuing volatile, forbidden artifacts like the Scythe of Elune."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
   "Pendant of Shadow",
   "Morganth (quest)"
  ],
- "style": 1
+ "style": 2
 }

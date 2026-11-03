@@ -21,16 +21,16 @@
    "What Tomorrow Brings (Gates of Ahn'Qiraj)"
   ]
  },
- "summary": "Anachronos, of the bronze dragonflight, meets you in Tanaris to wrap up the first part of the Scepter of the Shifting Sands. That chain is the road toward opening the Gates of Ahn'Qiraj.",
+ "summary": "In Tanaris, Anachronos meets you as the first part of the Scepter of the Shifting Sands draws to a close. The chain leads toward the opening of the Gates of Ahn'Qiraj.",
  "sections": [
   {
    "title": "The End of the Beginning",
-   "body": "This meeting wraps up the opening stretch of the Scepter of the Shifting Sands, the chain that leads toward opening the Gates of Ahn'Qiraj. Anachronos is the one who closes this first part with you.",
+   "body": "Anachronos meets you in Tanaris to close the first part of the Scepter of the Shifting Sands. The chain leads toward the opening of the Gates of Ahn'Qiraj.",
    "spoiler": 0
   },
   {
    "title": "The Three Watchers",
-   "body": "Anachronos names three dragons, Eranikus, Vaelastrasz and Azuregos, who have played influential roles as watchers of the world. Each of these guardians, Anachronos says, has fallen to tragedy, whether through agents of the Old Gods or through betrayal by those who called them friend. Anachronos admits to being partly to blame through naivety, and says the whole matter has fueled a distrust of mortals. You are told to seek the three out and prepare for the worst.",
+   "body": "Anachronos names Eranikus, Vaelastrasz and Azuregos as three dragons who watched over the world. Each has suffered tragedy at the hands of agents of the Old Gods or through betrayal by those they called friend.\n\nAnachronos admits his own naivety made him partly to blame. These events have fed his distrust of mortals, so he sends you to seek the three dragons and prepare for the worst.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "anachronos tanaris",
     "bronze dragon"
    ],
-   "answer": "Anachronos is a dragon of the bronze dragonflight, met here in Tanaris."
+   "answer": "Anachronos is a dragon of the bronze dragonflight whom you meet in Tanaris."
   },
   {
    "q": "What is the Scepter of the Shifting Sands?",
@@ -51,7 +51,7 @@
     "scepter of the shifting sands",
     "gates of ahn'qiraj chain"
    ],
-   "answer": "It is the long chain that leads toward opening the Gates of Ahn'Qiraj. This meeting wraps up its first part."
+   "answer": "The Scepter of the Shifting Sands is a long chain leading toward the opening of the Gates of Ahn'Qiraj. Your meeting with Anachronos closes its first part."
   }
  ],
  "angles": [],
@@ -70,5 +70,6 @@
  ],
  "attribution": [
   "The Charge of the Dragonflights"
- ]
+ ],
+ "style": 2
 }

@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Menethil Harbor serves as a key Alliance port in the Wetlands, where tradesmen like James Halloran equip travelers heading into dangerous surrounding marshlands."
+   "text": "As an Alliance traveler, you can find tradesmen like James Halloran in Menethil Harbor, a key port in the Wetlands. They equip travelers heading into the dangerous marshlands nearby."
   },
   {
    "target": "class:Hunter",
-   "text": "Hunters venturing into the mountain marshes of the Highlands will find formidable beasts like Thicket Raptors, whose tough hides require precise tracking and clean hunting."
+   "text": "As a Hunter, you can track formidable beasts such as Thicket Raptors in the Highlands’ mountain marshes. Their tough hides call for precise tracking and a clean hunt."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "who is james halloran",
     "tanner in menethil"
    ],
-   "answer": "James Halloran is a local tanner and craftsman stationed in Menethil Harbor. He works with leathers and oils, seeking high-quality skins from exotic beasts across the Wetlands and surrounding highlands to craft fine trim and armor.",
+   "answer": "James Halloran is a tanner and craftsman in Menethil Harbor. He works with leather and oils, seeking fine skins from exotic beasts across the Wetlands and surrounding highlands for trim and armor.",
    "q": "Who is James Halloran?"
   },
   {
@@ -37,7 +37,7 @@
     "why does james want raptor hides",
     "purpose of raptor hides"
    ],
-   "answer": "Halloran seeks the hides of Thicket Raptors because of their exceptional durability and texture. He considers them among the finest hides he has handled, using them for spectacular detailing on leathercraft trim.",
+   "answer": "Halloran wants Thicket Raptor hides for their durability and texture. He uses them to add fine details to leatherwork trim.",
    "q": "Why does James Halloran need these hides?"
   },
   {
@@ -46,7 +46,7 @@
     "thicket raptor location",
     "where are the raptors"
    ],
-   "answer": "Thicket Raptors dwell within the mountainous marshlands of the Highlands, lurking amidst the rugged wilderness near ancient ruins currently being explored by an expedition.",
+   "answer": "Thicket Raptors live in the mountainous marshlands of the Highlands, near forgotten ruins an expedition is exploring.",
    "q": "Where can Thicket Raptors be found?"
   },
   {
@@ -55,7 +55,7 @@
     "highlands expedition ruins",
     "who is exploring highlands"
    ],
-   "answer": "The Highlands host forgotten ruins that are currently being investigated by an expedition team. While craftsmen like Halloran focus on the wildlife, scholars and explorers delve deeper into the area's ancient secrets.",
+   "answer": "An expedition team is investigating forgotten ruins in the Highlands. Halloran focuses on the wildlife while scholars and explorers investigate the area’s ancient secrets.",
    "q": "What ruins is Halloran referring to?"
   },
   {
@@ -64,7 +64,7 @@
     "group needed highland hides",
     "do i need friends for highland hides"
    ],
-   "answer": "Halloran advises bringing well-equipped companions along. The mountain marshlands of the Highlands harbor fierce wildlife, making excursions against predators like Thicket Raptors treacherous for a solitary traveler.",
+   "answer": "Halloran recommends traveling with well-equipped companions. Fierce wildlife makes the mountain marshlands dangerous for anyone traveling alone.",
    "q": "Is this hunt intended for a group?"
   },
   {
@@ -72,7 +72,7 @@
     "what does halloran trade",
     "highland hides reward lore"
    ],
-   "answer": "In exchange for four pristine Thicket Raptor hides, Halloran offers quality leatherwork pieces tailored from his workshop, allowing adventurers to choose a piece that suits their travels.",
+   "answer": "Halloran offers leatherwork from his workshop in exchange for four Thicket Raptor hides. Travelers can choose a piece suited to their journeys.",
    "q": "What does James Halloran offer in trade?"
   }
  ],
@@ -92,18 +92,19 @@
  ],
  "sections": [
   {
-   "body": "James Halloran, a skilled tanner working out of the port town of Menethil Harbor, constantly keeps an eye out for exotic crafting materials. When word arrives of an expedition exploring forgotten ruins in the Highlands, Halloran pays less mind to ancient history and more to the formidable beasts prowling the mountain marshland. Recognizing the commercial and craft value of the wildlife, he contracts bold adventurers to venture into the mist-shrouded peaks and bring back choice pelts.",
+   "body": "From his workshop in Menethil Harbor, James Halloran seeks rare materials for his craft. Word reaches him of an expedition exploring forgotten ruins in the Highlands. He turns his attention to the beasts roaming the mountain marshes. Their hides suit his work, so he hires travelers to bring back fine pelts from the misty peaks.",
    "spoiler": 0,
    "title": "A Tanner's Opportunity"
   },
   {
-   "body": "Among the fauna lurking within the Highlands, Thicket Raptors are notorious predators suited to the rugged marsh terrain. Their tough, textured skins are prized by craftsmen for specialized leatherworking. Halloran tasks travelers with tracking down these creatures and returning with four intact hides, which he uses to produce fine detailing and decorative trim for his workshop's creations.",
+   "body": "Thicket Raptors prowl the rugged marshes of the Highlands. Their tough, textured skins suit specialized leatherwork. Halloran asks travelers to hunt these predators and return with four intact hides. He uses them for fine details and decorative trim in his workshop’s creations.",
    "spoiler": 0,
    "title": "Beasts of the Highlands"
   }
  ],
- "summary": "Highland Hides is an expedition contract commissioned by James Halloran, a tanner based in Menethil Harbor. Seeking superior materials from the misty mountain marshes of the Highlands, Halloran trades crafted leather goods for the tough skins of predatory Thicket Raptors.",
+ "summary": "In the Highlands, Thicket Raptors offer tough hides for James Halloran’s leatherwork. The tanner in Menethil Harbor trades crafted goods for their skins.",
  "attribution": [
   "In-game quest text: Highland Hides"
- ]
+ ],
+ "style": 2
 }

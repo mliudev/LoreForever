@@ -8,11 +8,11 @@
   "wiki": "Deathstalker Lesh",
   "refs": 1
  },
- "summary": "At Southpoint Tower, Deathstalker Lesh watches the human farms in the Hillsbrad Foothills. She serves High Executor Darthalia and gauges when the Forsaken should strike.",
+ "summary": "At Southpoint Tower, Deathstalker Lesh studies the human farms in Hillsbrad Foothills. She serves High Executor Darthalia and judges when the Forsaken should strike.",
  "sections": [
   {
    "title": "Eyes on the Fields",
-   "body": "From Southpoint Tower, Deathstalker Lesh watches the human farmers and town militia in the nearby Hillsbrad Fields. The tower stands on the southern road through the Hillsbrad Foothills. Lesh belongs to the Deathstalkers, the Forsaken's covert network of scouts, spies, and assassins. She tracks enemy movements and numbers for High Executor Darthalia in Tarren Mill. When the moment is right, Lesh sends Darthalia a coded message: “The raven's cry from the west doth beckon.” The words signal that Hillsbrad is ripe for the Forsaken's attack.",
+   "body": "From Southpoint Tower, Deathstalker Lesh watches the human farmers and town militia in nearby Hillsbrad Fields. The tower stands on the southern road through the Hillsbrad Foothills. Lesh belongs to the Deathstalkers, the Forsaken's covert network of scouts, spies, and assassins.\n\nShe tracks enemy movements and numbers for High Executor Darthalia in Tarren Mill. When the moment is right, Lesh sends Darthalia a coded message: “The raven's cry from the west doth beckon.” Those words signal that Hillsbrad is ripe for the Forsaken's attack.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "lesh quest",
     "why is lesh here"
    ],
-   "answer": "Lesh keeps watch from Southpoint Tower, surveying both the Hillsbrad Fields and the town of Hillsbrad. When the moment is right, she sends a traveler to High Executor Darthalia in Tarren Mill with a coded message signaling that Hillsbrad is ripe for attack."
+   "answer": "Lesh watches the Hillsbrad Fields and the town of Hillsbrad from Southpoint Tower. When the moment is right, she sends a traveler to High Executor Darthalia in Tarren Mill with a coded message that signals Hillsbrad is ripe for attack."
   },
   {
    "q": "Who does Lesh report to?",
@@ -51,7 +51,7 @@
     "who commands lesh",
     "high executor darthalia"
    ],
-   "answer": "Lesh reports to High Executor Darthalia, the Forsaken commander at Tarren Mill who oversees the offensive against the human forces in Hillsbrad."
+   "answer": "Lesh reports to High Executor Darthalia, the Forsaken commander at Tarren Mill. Darthalia oversees the offensive against the human forces in Hillsbrad."
   }
  ],
  "angles": [
@@ -61,7 +61,7 @@
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you share the covert work Deathstalker Lesh performs for the Horde's war effort."
+   "text": "As a rogue, you share in the covert work Deathstalker Lesh performs for the Horde's war effort."
   }
  ],
  "keywords": [
@@ -84,5 +84,5 @@
  "attribution": [
   "Deathstalker Lesh"
  ],
- "style": 1
+ "style": 2
 }

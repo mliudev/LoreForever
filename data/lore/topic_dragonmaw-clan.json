@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Dragonmaw clan"
  },
- "summary": "The Dragonmaw clan is an infamous orcish faction notorious for subduing and riding red dragons during the Second War. Guided by dark artifacts and foul magic, they imprisoned the Dragonqueen Alexstrasza beneath the cursed halls of Grim Batol until her liberation shattered their dominion. Today, their scattered remnants lurk in the wetlands and mountains of Khaz Modan, remaining hostile to both the Alliance and Thrall's New Horde.",
+ "summary": "Across Khaz Modan, Dragonmaw remnants still lurk in wetlands and mountains. During the Second War, they became infamous for subduing and riding red dragons. After Alexstrasza was freed, the scattered orcs remained hostile to both the Alliance and Thrall's New Horde.",
  "sections": [
   {
    "title": "From Draenor to Azeroth",
-   "body": "The Dragonmaw clan hailed from Draenor and crossed the Dark Portal with the Old Horde. On Azeroth, they turned their talents to subjugating its winged terrors.",
+   "body": "The Dragonmaw crossed the Dark Portal from Draenor with the Old Horde. On Azeroth, they turned their skill toward subduing its winged terrors.",
    "spoiler": 0
   },
   {
    "title": "The Demon Soul and Grim Batol",
-   "body": "Guided by whispers from the black dragon Deathwing, the clan's chieftain, Zuluhed the Whacked, recovered an ancient golden disk: the Dragon Soul. Zuluhed entrusted this relic to his greatest warlock, Nekros Skullcrusher, who tapped into its fel taint and christened it the Demon Soul. Using the artifact's agonizing power, Nekros ensnared Alexstrasza the Life-Binder herself. The Dragonmaw fortified the abandoned dwarven bastion of Grim Batol, keeping the Dragonqueen chained in darkness and forcing her red dragon brood to serve the Old Horde as aerial dreadnoughts during the Second War.",
+   "body": "Black dragon Deathwing whispered to Zuluhed the Whacked, chieftain of the Dragonmaw, and led him to an ancient golden disk called the Dragon Soul. Zuluhed gave it to Nekros Skullcrusher, his greatest warlock. Nekros drew on its fel taint and named it the Demon Soul. With its agonizing power, he ensnared Alexstrasza the Life-Binder.\n\nThe Dragonmaw fortified Grim Batol, an abandoned dwarven bastion, and chained the Dragonqueen in darkness. During the Second War, they forced her red dragon brood to serve the Old Horde as aerial dreadnoughts.",
    "spoiler": 0
   },
   {
    "title": "The Fall of the Dragon Riders",
-   "body": "The Dragonmaw reign ended when the Demon Soul was finally destroyed, freeing Alexstrasza and her flight from their psychic torment. Alexstrasza devoured Nekros Skullcrusher, and her vengeful flight laid waste to Grim Batol, breaking the clan's back. Routed and terrified, the surviving Dragonmaw scattered into the marshy bogs of the Wetlands and the jagged peaks around Grim Batol. The remnants on Azeroth live as desperate, feral renegades, fiercely guarding their dwindling encampments against dwarven patrols and vengeful dragons alike.",
+   "body": "The Dragonmaw reign ended when the Demon Soul was destroyed, freeing Alexstrasza and her flight from psychic torment. Alexstrasza devoured Nekros Skullcrusher, and her vengeful flight laid waste to Grim Batol. The clan's strength broke.\n\nRouted and terrified, survivors scattered into the Wetlands' marshy bogs and the jagged peaks around Grim Batol. The Dragonmaw who remain on Azeroth are desperate, feral renegades. They fiercely guard their dwindling camps against dwarven patrols and vengeful dragons, and remain hostile to both the Alliance and Thrall's New Horde.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "dragonmaw name origin",
     "orcish name"
    ],
-   "answer": "The name reflects what the clan became infamous for on Azeroth: enslaving and riding red dragons for the Old Horde during the Second War."
+   "answer": "The clan became infamous on Azeroth for enslaving and riding red dragons for the Old Horde during the Second War."
   },
   {
    "q": "How did the clan manage to control giant red dragons?",
@@ -41,7 +41,7 @@
     "demon soul enslavement",
     "how was alexstrasza captured"
    ],
-   "answer": "They utilized the Demon Soul, an ancient artifact provided indirectly by the black Aspect Deathwing. The warlock Nekros Skullcrusher wielded it to inflict torturous agony on the Dragonqueen Alexstrasza, effectively forcing her and her entire flight to obey under threat of her destruction."
+   "answer": "The Demon Soul gave Nekros Skullcrusher power over the dragons. The black Aspect Deathwing had passed the ancient artifact to the clan, and Nekros used it to inflict torturous agony on Alexstrasza. He forced her and her flight to obey under threat of her destruction."
   },
   {
    "q": "Are the Dragonmaw part of Thrall's Horde?",
@@ -50,7 +50,7 @@
     "dragonmaw new horde",
     "thrall and dragonmaw"
    ],
-   "answer": "No. The Dragonmaw were loyal to the Old Horde of Blackhand and his sons. Thrall's New Horde has rejected demon worship and the enslavement of dragons, leaving the Dragonmaw as renegade outcasts hostile to both the Horde and the Alliance."
+   "answer": "No. The Dragonmaw served the Old Horde of Blackhand and his sons. Thrall's New Horde rejected demon worship and the enslavement of dragons, leaving the Dragonmaw as renegade outcasts hostile to both Horde and Alliance."
   },
   {
    "q": "What happened to the clan after the Second War?",
@@ -59,7 +59,7 @@
     "dragonmaw after second war",
     "what happened to grim batol"
    ],
-   "answer": "When the Demon Soul was destroyed, the liberated red dragons turned on the Dragonmaw and destroyed their stronghold at Grim Batol. Nekros was slain, and the surviving orcs fled into the Wetlands and the neighboring mountains, where they remain entrenched as aggressive raiders."
+   "answer": "When the Demon Soul was destroyed, the freed red dragons turned on the Dragonmaw and destroyed Grim Batol. Nekros was slain, and survivors fled into the Wetlands and neighboring mountains. They remain entrenched there as aggressive raiders."
   },
   {
    "q": "Who is Zuluhed the Whacked?",
@@ -68,7 +68,7 @@
     "chieftain of dragonmaw",
     "who leads dragonmaw"
    ],
-   "answer": "Zuluhed was the elder shaman and chieftain of the Dragonmaw clan who first received the visions of dragon riding from Deathwing."
+   "answer": "Zuluhed the Whacked was the Dragonmaw clan's elder shaman and chieftain. Deathwing first gave him visions of dragon riding."
   },
   {
    "q": "Where can Dragonmaw orcs be found right now?",
@@ -77,17 +77,17 @@
     "where to find dragonmaw",
     "dragonmaw wetlands"
    ],
-   "answer": "On Azeroth, they are primarily encountered in the Wetlands, lurking around sites like Angerfang Encampment and the grim approaches to Grim Batol. They skirmish constantly with the dwarves of Menethil Harbor and the Wildhammer clan."
+   "answer": "Dragonmaw orcs are found on Azeroth mainly in the Wetlands, around Angerfang Encampment and the grim approaches to Grim Batol. They constantly skirmish with the dwarves of Menethil Harbor and the Wildhammer clan."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The Alliance remembers the terrifying rain of fire the Dragonmaw brought upon their fleets and armies during the Second War; any sighting of them in Khaz Modan is met with immediate military response."
+   "text": "The Alliance remembers the terrifying rain of fire the Dragonmaw brought upon its fleets and armies during the Second War. Any sighting in Khaz Modan brings an immediate military response."
   },
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, the Dragonmaw are a desecration: they fouled the ancient fortress of Grim Batol and continue to infest the mountain passes of Khaz Modan."
+   "text": "To dwarves, the Dragonmaw are a desecration. They fouled the ancient fortress of Grim Batol and still infest Khaz Modan's mountain passes."
   },
   {
    "target": "race:Orc",
@@ -95,7 +95,7 @@
   },
   {
    "target": "class:Warlock",
-   "text": "Warlocks study the history of Nekros Skullcrusher, whose mastery over the Demon Soul proved how fel energies could subjugate even the grandest creatures of Azeroth."
+   "text": "Warlocks study Nekros Skullcrusher's history. His mastery of the Demon Soul showed how fel energies could subjugate even Azeroth's grandest creatures."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "Dragonmaw clan"
- ]
+ ],
+ "style": 2
 }

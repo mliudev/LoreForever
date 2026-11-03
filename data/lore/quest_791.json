@@ -17,16 +17,16 @@
   "wiki": "Carry Your Weight",
   "chain": []
  },
- "summary": "Atop the watchtower overlooking Razor Hill, Furl Scornbrow asks young Horde adventurers to gather canvas from human and centaur hostiles. Too old for the front lines, the scarred veteran will make supplies to aid their journey.",
+ "summary": "Atop the watchtower overlooking Razor Hill, Furl Scornbrow asks young Horde adventurers to gather canvas from human and centaur foes. Age and old injuries keep him from the front lines, so he makes supplies to help them on their way.",
  "sections": [
   {
    "title": "A Veteran's Calling",
-   "body": "Furl Scornbrow fought beside Warchief Thrall in Durotar and at Mount Hyjal. Age and old injuries have slowed the veteran, and he no longer wields his axe in battle. From the Razor Hill watchtower, Furl keeps a steady vigil and sounds the alarm against incursions. He supports the next generation of defenders from his post.",
+   "body": "Furl Scornbrow fought beside Warchief Thrall in Durotar and at Mount Hyjal. Age and old injuries have slowed him, and he no longer wields his axe in battle. From the watchtower above Razor Hill, Furl keeps a steady vigil and sounds the alarm when danger comes. Though he has left the front lines, he still serves the next generation of defenders from his post.",
    "spoiler": 0
   },
   {
    "title": "Scavenged Canvas",
-   "body": "As the Horde's grip on the region tightens, signal horn alerts grow less frequent, leaving Furl more hours to craft practical gear. Sturdy canvas is scarce in Durotar's arid canyons, but the Kul Tiran interlopers along the eastern shore and the nomadic Kolkar centaur roaming the plains carry it in abundance. Canvas scavenged from these hostile forces gives Furl cloth to stitch utility bags for active scouts.",
+   "body": "As the Horde's hold on the region grows stronger, signal horn alerts come less often. Furl has more hours to make useful gear, but sturdy canvas is scarce in Durotar's dry canyons. Along the eastern shore, Kul Tiran interlopers carry canvas in abundance. So do the nomadic Kolkar centaur roaming the plains. Furl salvages canvas from these hostile forces and stitches it into utility bags for active scouts.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "furl scornbrow lore",
     "who gives carry your weight"
    ],
-   "answer": "Furl Scornbrow is an aging orc veteran stationed atop the watchtower above Razor Hill. He fought beside Thrall during the founding of Durotar and joined the ranks that defeated Archimonde at Mount Hyjal. Though he can no longer fight on the front lines, Furl keeps watch and crafts field equipment for young Horde warriors."
+   "answer": "Furl Scornbrow is an aging orc veteran stationed atop the watchtower above Razor Hill. He fought beside Thrall while the Horde founded Durotar and joined the ranks that defeated Archimonde at Mount Hyjal. Though he can no longer fight on the front lines, Furl keeps watch and crafts field equipment for young Horde warriors."
   },
   {
    "q": "Where can canvas scraps be found in Durotar?",
@@ -47,7 +47,7 @@
     "who drops canvas scraps",
     "canvas scrap locations"
    ],
-   "answer": "Canvas scraps can be gathered from Kul Tiran humans along Durotar's eastern shore and from nomadic Kolkar centaur roaming the plains. Both carry sturdy canvas that can be salvaged from their belongings."
+   "answer": "Canvas scraps can be gathered from Kul Tiran humans along Durotar's eastern shore and from nomadic Kolkar centaur roaming the plains. Both carry sturdy canvas in abundance, which can be salvaged from their belongings."
   },
   {
    "q": "Where is the watchtower where Furl is located?",
@@ -65,7 +65,7 @@
     "what is the canvas used for",
     "canvas scraps reward"
    ],
-   "answer": "Furl sews the canvas scraps into utility bags for young adventurers traveling across Durotar. The extra carrying space helps them bring provisions, rations, and salvaged arms through the harsh wilderness."
+   "answer": "Furl sews canvas scraps into utility bags for young adventurers traveling across Durotar. The extra carrying space helps them bring provisions, rations and salvaged arms through the harsh wilderness."
   },
   {
    "q": "Why is an old warrior crafting bags instead of fighting?",
@@ -74,7 +74,7 @@
     "why does furl stay in the tower",
     "why isn't furl fighting"
    ],
-   "answer": "Age and old injuries have left Furl unable to match the speed and strength needed in the field. He finds honor in retirement by keeping watch over Razor Hill and crafting gear that helps younger fighters defend the realm."
+   "answer": "Age and old injuries have left Furl unable to match the speed and strength needed in the field. He finds honor in retirement by keeping watch over Razor Hill and crafting gear to help younger fighters defend the realm."
   },
   {
    "q": "What war did Furl fight in?",
@@ -83,7 +83,7 @@
     "what did furl do before",
     "archimonde furl"
    ],
-   "answer": "Furl fought under Warchief Thrall during the Third War, helping settle Durotar and fighting the Burning Legion at Mount Hyjal. He joined the temporary, necessary truce between the Horde, the night elves, and the Alliance to defeat Archimonde."
+   "answer": "Furl fought under Warchief Thrall during the Third War, helping settle Durotar and fighting the Burning Legion at Mount Hyjal. He joined the temporary, necessary truce between the Horde, the night elves and the Alliance to defeat Archimonde."
   }
  ],
  "angles": [
@@ -123,5 +123,5 @@
  "attribution": [
   "Carry Your Weight"
  ],
- "style": 1
+ "style": 2
 }

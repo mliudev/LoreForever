@@ -12,12 +12,12 @@
  "sections": [
   {
    "title": "A Harbor Merchant",
-   "body": "Laird sells fish and supplies inside Auberdine's inn. Sailors, locals, and travelers come to him while Darkshore's waters churn with dangers greater than those along Teldrassil's sheltered shores. For anglers willing to cast from the misty beaches, the local catch can bring a handsome profit.",
+   "body": "Inside Auberdine's inn, Laird sells fish and supplies. Sailors, locals, and travelers come to him as Darkshore's waters churn with dangers greater than those along Teldrassil's sheltered shores. Yet anglers willing to cast from the misty beaches can earn a handsome profit from the local catch.",
    "spoiler": 0
   },
   {
    "title": "Ties Across the Water",
-   "body": "Laird stays in touch with fishing operations across the channel in Teldrassil. Shipments come from his fellow fisher Nessa Shadowsong, linking Rut'theran Village with the mainland port and keeping coastal trade moving.",
+   "body": "Laird keeps in touch with fishing operations across the channel in Teldrassil. His fellow fisher Nessa Shadowsong sends shipments from Rut'theran Village, linking it with the mainland port and keeping coastal trade moving.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is laird",
     "laird auberdine"
    ],
-   "answer": "Find Laird inside Auberdine's inn, on the ground floor. Auberdine is the main Alliance settlement on Darkshore's coast."
+   "answer": "Find Laird on the ground floor of Auberdine's inn. Auberdine is the main Alliance settlement on Darkshore's coast."
   },
   {
    "q": "What does Laird sell?",
@@ -38,7 +38,7 @@
     "what does laird sell",
     "laird wares"
    ],
-   "answer": "Laird sells caught fish, cooking ingredients, and instruction for preparing a Fillet of Frenzy."
+   "answer": "Laird sells caught fish and cooking ingredients. He also teaches how to prepare a Fillet of Frenzy."
   },
   {
    "q": "What quests involve Laird?",
@@ -46,7 +46,7 @@
     "laird quests",
     "auberdine fish quest"
    ],
-   "answer": "Laird receives a delivery from Nessa Shadowsong at Rut'theran Village. Afterward, he asks adventurers to carry word back across the sea."
+   "answer": "Laird receives a delivery from Nessa Shadowsong at Rut'theran Village. Then he asks adventurers to carry word back across the sea."
   },
   {
    "q": "Why does Laird think Darkshore fishing is worthwhile despite the danger?",
@@ -54,17 +54,17 @@
     "laird gossip",
     "is darkshore good for fishing"
    ],
-   "answer": "Though Darkshore's misty shoreline is more dangerous than Teldrassil's tranquil waters, its abundant and exotic sea life makes fishing more profitable for enterprising fishers."
+   "answer": "Darkshore's misty shoreline is more dangerous than Teldrassil's tranquil waters. Yet its abundant and exotic sea life can make fishing more profitable for enterprising fishers."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "If you travel through Darkshore for cooking, Laird teaches how to fillet and cook the fierce frenzy fish found in Kalimdor's waters."
+   "text": "If you travel through Darkshore to cook, Laird teaches you to fillet and cook the fierce frenzy fish found in Kalimdor's waters."
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, Laird shows how your people trade along Kalimdor's mainland shores and support the growing coastal network."
+   "text": "As a night elf, you can see how your people trade along Kalimdor's mainland shores and support the growing coastal network through Laird."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
  "attribution": [
   "Laird"
  ],
- "style": 1
+ "style": 2
 }

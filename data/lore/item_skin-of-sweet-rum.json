@@ -10,11 +10,11 @@
    "quest:116"
   ]
  },
- "summary": "At the Lion's Pride Inn in Goldshire, Skin of Sweet Rum is bound for Lakeshire, where war has thinned the tavern's stores.",
+ "summary": "At the Lion's Pride Inn in Goldshire, Skin of Sweet Rum is headed for Lakeshire, where war has thinned the tavern's stores.",
  "sections": [
   {
    "title": "A Rare Comfort for Lakeshire",
-   "body": "Lakeshire's tavern supplies are running low as the Blackrock orc invasion cuts off the roads into the Redridge Mountains. Barkeep Daniels needs drink for the town guards and refugees, so he sends travelers to gather regional specialties. Among them is a waterskin of sweet rum from the Lion's Pride Inn in Goldshire.",
+   "body": "Lakeshire's tavern is running short of drink as the Blackrock orc invasion closes the roads into the Redridge Mountains. Barkeep Daniels needs drink for the town guards and refugees. So he sends travelers to gather regional specialties, including a waterskin of sweet rum from the Lion's Pride Inn in Goldshire.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "sweet rum turn in",
     "sweet rum quest"
    ],
-   "answer": "Barkeep Daniels, who keeps the tavern in Lakeshire, wants a skin of Sweet Rum and other regional brews to refill his shelves during Dry Times."
+   "answer": "Barkeep Daniels keeps the tavern in Lakeshire. He wants a skin of Sweet Rum and other regional brews to refill his shelves during Dry Times."
   },
   {
    "q": "Why is Lakeshire running out of liquor?",
@@ -44,7 +44,7 @@
     "why lakeshire dry",
     "dry times reason"
    ],
-   "answer": "The Blackrock orc invasion has cut trade routes into Redridge, leaving merchant wagons unable to travel safely and Lakeshire's liquor stocks nearly empty."
+   "answer": "The Blackrock orc invasion has cut the trade routes into Redridge. Merchant wagons cannot travel safely, and Lakeshire's liquor stocks are nearly empty."
   },
   {
    "q": "What other spirits are needed alongside the rum?",
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, gathering the rum shows the strain the Blackrock orc invasion puts on the small settlements defending Stormwind's eastern borders."
+   "text": "As an Alliance traveler, you can see how the Blackrock orc invasion strains the small settlements defending Stormwind's eastern borders."
   }
  ],
  "keywords": [
@@ -85,5 +85,5 @@
   "Skin of Sweet Rum",
   "Dry Times"
  ],
- "style": 1
+ "style": 2
 }

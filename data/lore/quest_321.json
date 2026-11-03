@@ -17,16 +17,16 @@
   "wiki": "Lightforge Iron (quest)",
   "chain": []
  },
- "summary": "In Menethil Harbor, Glorin Steelbrow seeks the lost cargo of an elven destroyer. The Flying Osprey carried rare Lightforge iron when it sank with the Third Fleet of Kul Tiras during the Second War.",
+ "summary": "In Menethil Harbor, Glorin Steelbrow seeks cargo lost with an elven destroyer. The Flying Osprey carried rare Lightforge iron when it sank with the Third Fleet of Kul Tiras during the Second War.",
  "sections": [
   {
    "title": "A Sacred Cargo",
-   "body": "The Flying Osprey sailed from Lordaeron with the Third Fleet of Kul Tiras. The elven destroyer carried a precious cargo of Lightforge iron and traveled beside the fleet for safety. But the Dragonmaw clan's enslaved red dragons swept down from the sky. They set the fleet ablaze, sending sailors and sanctified metal beneath the waves.",
+   "body": "The Flying Osprey sailed from Lordaeron beside the Third Fleet of Kul Tiras. The elven destroyer carried a precious cargo of Lightforge iron and traveled with the fleet for safety. Then the Dragonmaw clan's enslaved red dragons swept down from the sky. They set the ships ablaze, sending sailors and sanctified metal beneath the waves.",
    "spoiler": 0
   },
   {
    "title": "Plundered by the Tides",
-   "body": "South of Menethil Harbor, the shattered Flying Osprey lies beneath the water. Its chest has been battered open and clawed through. Coastal murlocs scavenged the wreck and scattered the ingots, leaving little of the precious ore Glorin Steelbrow seeks.",
+   "body": "South of Menethil Harbor, the shattered Flying Osprey lies beneath the water. Its chest has been battered open and clawed through. Coastal murlocs scavenged the wreck and scattered the ingots. Little remains of the precious ore Glorin Steelbrow seeks.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "elven destroyer wetlands",
     "what ship had the iron"
    ],
-   "answer": "The Flying Osprey was an elven destroyer sailing from Lordaeron during the Second War. It carried rare Lightforge iron alongside the Third Fleet of Kul Tiras for safety, until Dragonmaw's enslaved red dragons burned and sank the fleet."
+   "answer": "The Flying Osprey was an elven destroyer sailing from Lordaeron during the Second War. It carried rare Lightforge iron beside the Third Fleet of Kul Tiras for safety. Dragonmaw's enslaved red dragons burned and sank the fleet."
   },
   {
    "q": "Who is Glorin Steelbrow?",
@@ -47,7 +47,7 @@
     "dwarf in menethil",
     "who gives lightforge iron"
    ],
-   "answer": "Glorin Steelbrow is a dwarf stationed at Menethil Harbor in the Wetlands. He seeks historical salvage and valuable materials from the sunken ships along the coast, especially legendary metals like Lightforge iron."
+   "answer": "Glorin Steelbrow is a dwarf stationed at Menethil Harbor in the Wetlands. He seeks historical salvage and valuable materials from sunken ships along the coast, especially legendary metals like Lightforge iron."
   },
   {
    "q": "What is Lightforge iron?",
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "As a blacksmith, you can see why smiths revere Lightforge iron. They prize its powerful blessings and unmatched structural integrity."
+   "text": "As a blacksmith, you know why smiths revere Lightforge iron. They prize its powerful blessings and unmatched strength."
   },
   {
    "target": "class:Paladin",
@@ -125,5 +125,5 @@
  "attribution": [
   "Lightforge Iron (quest)"
  ],
- "style": 1
+ "style": 2
 }

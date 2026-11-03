@@ -10,16 +10,16 @@
    "quest:290"
   ]
  },
- "summary": "On the wreck of the Intrepid, Captain Halyndor still guards the key to his strongbox. The rusted iron key once kept a mysterious item locked away aboard the doomed Alliance vessel off the Wetlands.",
+ "summary": "On the Intrepid's wreck, Captain Halyndor still carries the key to his strongbox. The rusted iron key once kept a mysterious item locked aboard the doomed Alliance vessel off the Wetlands.",
  "sections": [
   {
    "title": "A Captain's Secret",
-   "body": "The Intrepid was wrecked with the Third Fleet off the Wetlands, and its crew became restless, cursed spirits. Captain Halyndor watched over a mysterious item inside the ship’s heavy strongbox. Now his ghost prowls the waterlogged deck, still clutching the rusted key that opens it.",
+   "body": "The Intrepid sank with the Third Fleet off the Wetlands. Its crew became restless, cursed spirits. Captain Halyndor watched over a mysterious item inside the ship’s heavy strongbox. Now his ghost prowls the waterlogged deck with the rusted key that opens it.",
    "spoiler": 0
   },
   {
    "title": "Breaking the Bond",
-   "body": "Captain Halyndor’s key opens the Intrepid’s strongbox, where a cursed relic anchors the crew to their torment. The relic can be taken to Glorin Steelbrow, a dwarven priest in Menethil Harbor, for cleansing.",
+   "body": "Captain Halyndor’s key opens the Intrepid’s strongbox. Inside, a cursed relic anchors the crew to their torment. Glorin Steelbrow, a dwarven priest in Menethil Harbor, can cleanse the relic.",
    "spoiler": 1
   }
  ],
@@ -62,7 +62,7 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "As a priest, you can bring the cursed artifact to Glorin Steelbrow in Menethil Harbor for cleansing, freeing the crew’s souls from their torment."
+   "text": "As a priest, you can bring the cursed artifact to Glorin Steelbrow in Menethil Harbor for cleansing. This frees the crew’s souls from their torment."
   },
   {
    "target": "faction:Alliance",
@@ -90,5 +90,5 @@
   "Intrepid Strongbox Key",
   "Lifting the Curse (Classic)"
  ],
- "style": 1
+ "style": 2
 }

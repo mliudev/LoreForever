@@ -24,11 +24,11 @@
    "You Are Rakh'likh, Demon"
   ]
  },
- "summary": "In Stranglethorn Vale, the master smith Galvan the Ancient works to fashion specialized armament capable of striking down powerful demons. This forging provides an enchanted weapon imbued with the Felcurse, designed specifically to weaken Razelikh the Defiler and his servitors.",
+ "summary": "In Stranglethorn Vale, Galvan the Ancient prepares enchanted arms against a powerful demon. Their Felcurse is meant to weaken Razelikh the Defiler and his servitors.",
  "sections": [
   {
    "title": "A Weapon Against the Defiler",
-   "body": "Galvan the Ancient requires patience while he works his craft just south of the path leading into Zul'Gurub. Rushing the forging risks creating a flawed blade, staff, or dagger. Once completed, the chosen weapon carries the power of the Felcurse, which can be unleashed periodically to weaken Razelikh the Defiler and his demonic underlings. The duration of this debilitating curse can vary.",
+   "body": "Just south of the path into Zul'Gurub, Galvan the Ancient works with care. Forging a blade, staff, or dagger takes patience, and haste risks a flaw. Each weapon bears the Felcurse, which can be unleashed from time to time against Razelikh the Defiler and his demonic underlings. Its weakening effect lasts for different lengths of time.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "galvan the ancient",
     "who is the smith"
    ],
-   "answer": "Galvan the Ancient, a master smith found south of the road leading toward Zul'Gurub in Stranglethorn Vale, crafts the weaponry."
+   "answer": "Galvan the Ancient, a master smith, forges the weapons just south of the road toward Zul'Gurub in Stranglethorn Vale."
   },
   {
    "q": "What power does the forged weapon hold?",
@@ -49,7 +49,7 @@
     "felcurse power",
     "how does felcurse work"
    ],
-   "answer": "The weapon channels the Felcurse, a specialized magic meant to weaken the demon Razelikh the Defiler and his demonic minions. Its weakening effects vary in length."
+   "answer": "Each weapon channels the Felcurse, magic meant to weaken Razelikh the Defiler and his demonic minions. The effect lasts for different lengths of time."
   },
   {
    "q": "Where does the journey lead after the weapon is forged?",
@@ -58,7 +58,7 @@
     "where do i go next",
     "next quest"
    ],
-   "answer": "Once Galvan finishes the craftsmanship and presents the finished weapon, the path directs you back with Return to the Blasted Lands."
+   "answer": "When Galvan finishes and presents the weapon, you return along the path with Return to the Blasted Lands."
   }
  ],
  "angles": [],
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Enchanted Azsharite Fel Weaponry"
- ]
+ ],
+ "style": 2
 }

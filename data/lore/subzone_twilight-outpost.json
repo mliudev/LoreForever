@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Twilight Outpost"
  },
- "summary": "The Twilight Outpost is a fortified encampment of the Twilight's Hammer cult nestled in the southwestern sands of Silithus. Located just northwest of the ancient Scarab Wall, it serves as a staging ground where cultists conduct dark rituals to commune with and summon elemental horrors.",
+ "summary": "At Twilight Outpost, the Twilight's Hammer gathers in southwestern Silithus. Its Wind Stones summon elemental horrors near the Scarab Wall.",
  "sections": [
   {
    "title": "A Bastion of Whispers",
-   "body": "Tucked away in the southwestern reaches of Silithus, the Twilight Outpost serves as one of several major cultist strongholds dotting the desert wastes. Positioned in the shadow of the colossal Scarab Wall and west of the Bronzebeard Encampment, the outpost teems with fanatical Twilight Avengers, Geolords, and Stonecallers. Under the command of leaders like Twilight Keeper Exeter and the rare Twilight Lord Everun, these zealots toil tirelessly in service of their maddening apocalyptic masters.",
+   "body": "In southwestern Silithus, Twilight Outpost is one of the Twilight's Hammer's great strongholds. You find it northwest of the Scarab Wall and west of the Bronzebeard Encampment. Twilight Avengers, Geolords, and Stonecallers fill the camp. Twilight Keeper Exeter and the rare Twilight Lord Everun lead these zealots in service to their apocalyptic masters.",
    "spoiler": 0
   },
   {
    "title": "The Wind Stones",
-   "body": "Scattered throughout the encampment are mysterious Wind Stones, varying in size from Lesser to Greater conduits. Through the use of enchanted cultist regalia and foul incantations, the cult utilizes these monoliths to tear into the elemental planes, dragging forth Abyssal commanders and elemental lords. For adventurers brave enough to infiltrate their ranks, disrupting these summonings remains one of the primary means to strike back against the cult's influence in the desert.",
+   "body": "Wind Stones stand scattered through the camp, from Lesser to Greater. The Twilight's Hammer uses enchanted regalia and foul incantations to tear open paths to the elemental planes. Abyssal commanders and elemental lords emerge through those breaches. Disrupting the summons is one way to strike back at the cult's hold in the desert.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is twilight outpost",
     "find twilight outpost"
    ],
-   "answer": "The Twilight Outpost is situated in the far southwestern corner of Silithus. It sits northwest of the ancient Scarab Wall and directly west of the dwarven Bronzebeard Encampment."
+   "answer": "Twilight Outpost lies in southwestern Silithus, northwest of the Scarab Wall and west of the Bronzebeard Encampment."
   },
   {
    "q": "Who occupies the Twilight Outpost?",
@@ -37,7 +37,7 @@
     "twilight outpost enemies",
     "cultists in silithus"
    ],
-   "answer": "The encampment is occupied by the Twilight's Hammer cult. Its ranks include various mortal zealots such as Twilight Avengers, Geolords, Stonecallers, and Twilight Masters, overseen by leaders such as Twilight Keeper Exeter and Twilight Lord Everun."
+   "answer": "The Twilight's Hammer occupies the encampment. Its ranks include Twilight Avengers, Geolords, Stonecallers, and Twilight Masters, led by figures such as Twilight Keeper Exeter and Twilight Lord Everun."
   },
   {
    "q": "What are the Wind Stones found in the camp?",
@@ -46,7 +46,7 @@
     "greater wind stone silithus",
     "lesser wind stone silithus"
    ],
-   "answer": "The Wind Stones\u2014ranging from Lesser to Greater\u2014are mystical foci used by the cult to breach the elemental planes. Cultists channel dark energies through these stones to summon potent elemental lords and Abyssal commanders into Azeroth."
+   "answer": "Wind Stones range from Lesser to Greater and let the cult breach the elemental planes. Cultists channel dark energies through them to summon elemental lords and Abyssal commanders into Azeroth."
   },
   {
    "q": "Why is the Twilight's Hammer gathered near the Scarab Wall?",
@@ -54,17 +54,17 @@
     "why are cultists in silithus",
     "twilight hammer purpose silithus"
    ],
-   "answer": "The cult is drawn to the potent and ancient dark energies slumbering beneath Silithus. Establishing encampments near the Scarab Wall allows them to perform elemental summonings and harness the chaotic forces stirring beyond the sealed gates."
+   "answer": "The Twilight's Hammer gathers near the Scarab Wall for the ancient dark energies beneath Silithus. The cult establishes camps there to summon elementals and harness chaotic forces stirring beyond the sealed gates."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "The Twilight's Hammer corrupts and commands elemental spirits through their Wind Stones, defying the natural balance of the elements that shamans strive to preserve."
+   "text": "As a shaman, you stand against the Twilight's Hammer's corruption and its command of elemental spirits through Wind Stones. That command defies the elements' natural balance."
   },
   {
    "target": "class:Paladin",
-   "text": "The nihilistic zealotry of the Twilight's Hammer stands as an affront to the Light, demanding holy wrath to cleanse their foul summonings from the desert."
+   "text": "As a paladin, you face the Twilight's Hammer's nihilistic zealotry as an affront to the Light. Bring holy wrath against its foul summonings in the desert."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Twilight Outpost"
- ]
+ ],
+ "style": 2
 }

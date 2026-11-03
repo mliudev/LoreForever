@@ -17,16 +17,16 @@
   "wiki": "Gathering the Cure (Horde)",
   "chain": []
  },
- "summary": "At the Crossroads, young tauren druids face a sacred passage under Tonga Runetotem's guidance. You gather earthroot and sturdy kodo horns to make a salve for the poisoned gazelles of the Barrens.",
+ "summary": "At the Crossroads, Tonga Runetotem guides young tauren druids through a sacred passage. You gather earthroot and sturdy kodo horns for a salve to treat the poisoned gazelles of the Barrens.",
  "sections": [
   {
    "title": "A Recipe for Relief",
-   "body": "Tonga Runetotem needs raw ingredients to brew an antidote from the water sample you secured at Dreadmist Peak. Natural water forms the salve's base, earthroot supplies its medicinal qualities, and ground kodo horn gives it the strength to drive venom from a creature's system. For a young druid, gathering them means relying on the gifts of the earth and hunting local beasts.",
+   "body": "Tonga Runetotem needs ingredients for an antidote, using the water sample you secured at Dreadmist Peak. Earthroot gives the salve its medicinal qualities, while ground kodo horn lends it the strength to drive venom from a creature's system. For a young druid, gathering these means relying on the earth's gifts and hunting local beasts.",
    "spoiler": 0
   },
   {
    "title": "Lessons in Cleansing",
-   "body": "Tonga Runetotem uses the salve's preparation to teach the limits of physical medicine. Herbal lore and alchemy can counter specific toxins, but each poison usually needs its own cure. Rather than carry endless herbs and horns, druids learn to attune to nature's healing energies. That lesson leads to the druidic art of Cure Poison.",
+   "body": "As Tonga Runetotem prepares the salve, he teaches the limits of physical medicine. Herbal lore and alchemy can counter certain toxins, but most poisons need their own cure. Rather than carry endless herbs and horns, druids learn to attune to nature's healing energies. That lesson leads to the druidic art of Cure Poison.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "gathering earthroot without herbalism",
     "earthroot profession requirement"
    ],
-   "answer": "No, you do not need herbalism to get earthroot. Herbalists harvest it from cliffs and rocky outcroppings across the Barrens, and druids who cannot gather it themselves can obtain it from fellow travelers or trading posts."
+   "answer": "No, you do not need herbalism to get earthroot. Herbalists harvest it from cliffs and rocky outcroppings across the Barrens. Druids who cannot gather it themselves can obtain it from fellow travelers or trading posts."
   },
   {
    "q": "Why is Tonga preparing a physical salve?",
@@ -65,7 +65,7 @@
     "purpose of the salve",
     "why not use magic"
    ],
-   "answer": "Tonga is making a physical antidote for the poisoned gazelles suffering across the northern Barrens. The careful work also shows the advantage of learning innate magical purification spells."
+   "answer": "Tonga is making a physical antidote for poisoned gazelles suffering across the northern Barrens. The careful work also shows the advantage of innate magical purification spells."
   },
   {
    "q": "Who is Tonga Runetotem?",
@@ -121,5 +121,5 @@
  "attribution": [
   "Gathering the Cure (Horde)"
  ],
- "style": 1
+ "style": 2
 }

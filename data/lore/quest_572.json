@@ -27,11 +27,11 @@
    "Mok'thardin's Enchantment"
   ]
  },
- "summary": "Far Seer Mok'thardin continues assembling the components for a potent shamanistic item to aid the Horde. After working with feline trophies, he turns his attention toward the feathers worn by the raptors of Stranglethorn Vale.",
+ "summary": "At Grom'gol Base Camp, Far Seer Mok'thardin gathers materials for a shamanistic ritual. With feline trophies collected, he now seeks feathers from Stranglethorn Vale's raptors.",
  "sections": [
   {
    "title": "Feathers of the Stalker",
-   "body": "Following the recovery of materials from the jungle's feline predators, Far Seer Mok'thardin reveals that more components are needed before his shamanistic ritual can begin. To forge a tool fit to assist the Warchief, he requires feathers worn by Jungle Stalkers. These raptors inhabit the dense jungle south of Grom'gol Base Camp, not far from the great arena.",
+   "body": "Far Seer Mok'thardin still needs more before his shamanistic ritual can begin. He is gathering materials for a tool to aid the Warchief. Now he asks you to bring feathers worn by Jungle Stalkers. The raptors live in the dense jungle south of Grom'gol Base Camp, near the great arena.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "mok'thardin",
     "who needs feathers"
    ],
-   "answer": "Far Seer Mok'thardin, an orc shaman stationed at Grom'gol Base Camp in Stranglethorn Vale, seeks the feathers to complete a ritual enchantment."
+   "answer": "Far Seer Mok'thardin, an orc shaman at Grom'gol Base Camp in Stranglethorn Vale, seeks feathers for a ritual enchantment."
   },
   {
    "q": "Where are the Jungle Stalkers located?",
@@ -52,7 +52,7 @@
     "where are raptors",
     "jungle stalker feathers where"
    ],
-   "answer": "A tribe of these raptors can be found living directly south of Grom'gol Base Camp, in the jungle near the Gurubashi Arena."
+   "answer": "Jungle Stalkers live in the jungle directly south of Grom'gol Base Camp, near the Gurubashi Arena."
   },
   {
    "q": "Why does Far Seer Mok'thardin need Jungle Stalker feathers?",
@@ -61,7 +61,7 @@
     "why stalker feathers",
     "mok'thardin ritual"
    ],
-   "answer": "Mok'thardin is combining various jungle curiosities and beast trophies through a shamanistic ritual to create an enchanted tool intended to assist the Horde and the Warchief."
+   "answer": "Mok'thardin uses a shamanistic ritual to combine jungle curiosities and beast trophies into an enchanted tool meant to aid the Horde and the Warchief."
   },
   {
    "q": "What came before this request?",
@@ -69,17 +69,17 @@
     "previous quest",
     "prior step"
    ],
-   "answer": "Adventurers previously aided Mok'thardin by hunting the feline beasts of the Vale to gather the initial components for his planned enchantment."
+   "answer": "Before this request, you helped Mok'thardin hunt the Vale's feline beasts and gather the first components for his planned enchantment."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Far Seer Mok'thardin intends for the finished enchantment to be a useful tool for the Horde and the Warchief."
+   "text": "Far Seer Mok'thardin means the finished enchantment to aid the Horde and the Warchief."
   },
   {
    "target": "class:Shaman",
-   "text": "The Far Seer combines jungle trinkets with his shamanistic ritual to make an enchanted item."
+   "text": "As a shaman, you know Mok'thardin combines jungle trinkets with his ritual to make an enchanted item."
   }
  ],
  "keywords": [
@@ -99,5 +99,6 @@
  ],
  "attribution": [
   "Mok'thardin's Enchantment (3)"
- ]
+ ],
+ "style": 2
 }

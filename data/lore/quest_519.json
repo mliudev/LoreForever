@@ -27,16 +27,16 @@
    "Crown of Will"
   ]
  },
- "summary": "In Tarren Mill, Melisara seeks the heads of three ogres before Mug'Thol.",
+ "summary": "In Tarren Mill, Melisara seeks three ogre heads before Mug'Thol's.",
  "sections": [
   {
    "title": "Sniping at the Leadership",
-   "body": "Melisara names Targ, Muckrake and Glommus as Mug'Thol's loyal lieutenants, though she wonders what could make an ogre loyal. You are to kill all three and bring their heads to Tarren Mill. Then only Mug'Thol's head, crown and all, remains to be taken.",
+   "body": "Melisara names Targ, Muckrake and Glommus as Mug'Thol's loyal lieutenants. She wonders what could make an ogre loyal. Kill all three and bring their heads to Tarren Mill. Then Mug'Thol's head, crown and all, is the only one left to take.",
    "spoiler": 0
   },
   {
    "title": "What Becomes of the Heads",
-   "body": "Melisara remarks on the ogres' foul smell. When Mug'Thol's head arrives, all four will be set on pikes over Alterac as a warning to anyone who crosses the Dark Lady.",
+   "body": "Melisara remarks on the ogres' foul smell. When Mug'Thol's head arrives, all four heads will be set on pikes over Alterac as a warning to anyone who crosses the Dark Lady.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "melisara location",
     "where to turn in the crown of will"
    ],
-   "answer": "Melisara gives you this part in Tarren Mill, where you bring the heads to her."
+   "answer": "Melisara gives you this part in Tarren Mill. You bring the heads to her there."
   },
   {
    "q": "Who are Targ, Muckrake, and Glommus?",
@@ -89,5 +89,5 @@
  "attribution": [
   "The Crown of Will (3)"
  ],
- "style": 1
+ "style": 2
 }

@@ -8,16 +8,16 @@
   "wiki": "Thyn'tel Bladeweaver",
   "refs": 4
  },
- "summary": "At Darnassus's Warrior's Terrace, Thyn'tel Bladeweaver searches for the vanished Priestess Velinde Starsong. She sends trusted Alliance adventurers after clues to Velinde's whereabouts and the mystery of the Scythe of Elune.",
+ "summary": "On Darnassus's Warrior's Terrace, Thyn'tel Bladeweaver searches for the vanished Priestess Velinde Starsong. She sends trusted Alliance adventurers to seek clues to Velinde's whereabouts and the mystery of the Scythe of Elune.",
  "sections": [
   {
    "title": "A Sentinel's Inquest",
-   "body": "On the Warrior's Terrace in Darnassus, Thyn'tel Bladeweaver keeps watch as a night elf sentinel. Priestess Velinde Starsong vanished without a word, and Thyn'tel refuses to let her trail go cold. Believing grave forces may be involved, she sends trusted adventurers to search Velinde's belongings and learn where her journey led.",
+   "body": "On Darnassus's Warrior's Terrace, Thyn'tel Bladeweaver keeps watch as a night elf sentinel. Priestess Velinde Starsong vanished without a word, and Thyn'tel will not let her trail go cold. She fears grave forces may be involved, so she sends trusted adventurers to search Velinde's belongings and learn where her journey led.",
    "spoiler": 0
   },
   {
    "title": "Tracing Velinde's Steps",
-   "body": "Thyn'tel Bladeweaver sends investigators to examine the effects Velinde left in Darnassus. Among the clues is a journal describing Velinde's communion with Elune and the terrifying worgen beasts summoned through the Scythe of Elune. The trail leads south through the port of Ratchet and into the Barrens, where travelers seek the place from which the desperate priestess sailed before vanishing.",
+   "body": "Thyn'tel Bladeweaver sends investigators to examine the belongings Velinde left in Darnassus. Among them is a journal that tells of Velinde's communion with Elune and the terrifying worgen beasts summoned through the Scythe of Elune. The trail runs south through the port of Ratchet and into the Barrens. There, travelers seek the place from which the desperate priestess sailed before she vanished.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is thyntel",
     "thyn'tel info"
    ],
-   "answer": "Thyn'tel Bladeweaver is a night elf sentinel on the Warrior's Terrace in Darnassus. She begins an inquiry into the disappearance of Priestess Velinde Starsong."
+   "answer": "Thyn'tel Bladeweaver is a night elf sentinel on Darnassus's Warrior's Terrace. She begins an inquiry into the disappearance of Priestess Velinde Starsong."
   },
   {
    "q": "Where can I find Thyn'tel Bladeweaver?",
@@ -46,7 +46,7 @@
     "thyntel quests",
     "what quest does she give"
    ],
-   "answer": "Thyn'tel Bladeweaver guides an inquiry into Velinde Starsong's disappearance, beginning with Velinde's Effects and continuing through The Barrens Port to Answered Questions."
+   "answer": "Thyn'tel Bladeweaver guides an inquiry into Velinde Starsong's disappearance. It begins with Velinde's Effects and continues through The Barrens Port to Answered Questions."
   },
   {
    "q": "Why is she interested in Velinde Starsong?",
@@ -54,7 +54,7 @@
     "why investigate velinde",
     "what happened to velinde"
    ],
-   "answer": "Thyn'tel Bladeweaver seeks to learn what happened to Velinde Starsong, a priestess who served in Ashenvale before vanishing abruptly and leaving her work unfinished."
+   "answer": "Thyn'tel Bladeweaver seeks to learn what happened to Velinde Starsong. Velinde served as a priestess in Ashenvale before she vanished abruptly and left her work unfinished."
   },
   {
    "q": "Where does her quest chain lead?",
@@ -62,7 +62,7 @@
     "velinde quest path",
     "where does the quest go"
    ],
-   "answer": "The trail leads from Velinde's effects in Darnassus south to Ratchet in the Barrens, where investigators search for records of her voyage."
+   "answer": "The trail leads from Velinde's effects in Darnassus south to Ratchet in the Barrens. Investigators search there for records of her voyage."
   },
   {
    "q": "Is Thyn'tel Bladeweaver an Alliance-only contact?",
@@ -70,21 +70,21 @@
     "can horde talk to thyntel",
     "is she alliance"
    ],
-   "answer": "Yes. Thyn'tel Bladeweaver is stationed in Darnassus and offers her help to members of the Alliance."
+   "answer": "Yes. Thyn'tel Bladeweaver keeps watch in Darnassus and offers her help to members of the Alliance."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, Thyn'tel's inquiry reaches into their own people, as a revered priestess has vanished amid forces beyond her control."
+   "text": "For night elves, Thyn'tel's inquiry reaches into their own people. A revered priestess has vanished amid forces beyond her control."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance heroes who visit the Warrior's Terrace receive Thyn'tel's trust and travel into neutral and contested territory to seek the truth."
+   "text": "Alliance heroes who visit the Warrior's Terrace earn Thyn'tel's trust. They travel into neutral and contested territory to seek the truth."
   },
   {
    "target": "class:Warrior",
-   "text": "Alliance warriors passing through Darnassus find Thyn'tel among the trainers on the Warrior's Terrace, a familiar sentinel face."
+   "text": "Alliance warriors passing through Darnassus find Thyn'tel among the trainers on the Warrior's Terrace. She is a familiar sentinel face."
   }
  ],
  "keywords": [
@@ -110,5 +110,5 @@
  "attribution": [
   "Thyn'tel Bladeweaver"
  ],
- "style": 1
+ "style": 2
 }

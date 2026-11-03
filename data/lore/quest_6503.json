@@ -17,16 +17,16 @@
   "wiki": "Ashenvale Outrunners (Classic)",
   "chain": []
  },
- "summary": "Night elf scouts have slipped out from Silverwing Outpost into Ashenvale. Kuray'bin calls for a strike against the Ashenvale Outrunners before they can report on Horde encampments and defenses.",
+ "summary": "In Ashenvale, Kuray'bin sends the Horde against night elf scouts slipping out from Silverwing Outpost. They are gathering word of Horde encampments and defenses before they can report back.",
  "sections": [
   {
    "title": "Eyes in the Canopies",
-   "body": "Night elf scouts from Silverwing Outpost are moving through the woods east of their base and south of nearby Horde holdings. In Ashenvale's contested forest, they watch the paths and ridges, mapping fortifications and tracking troop movements. Kuray'bin has learned that these scouts, known as Ashenvale Outrunners, have slipped into the wilderness to gather intelligence.",
+   "body": "Night elf scouts from Silverwing Outpost move through the woods east of their base and south of nearby Horde holdings. They watch the paths and ridges, mapping fortifications and tracking troop movements.\n\nKuray'bin has learned that these scouts, called Ashenvale Outrunners, have slipped into the wilderness to gather intelligence.",
    "spoiler": 0
   },
   {
    "title": "Blinding the Alliance",
-   "body": "The Horde strikes at enemy scouts before they can return to Silverwing Outpost. Hunting down the outrunners denies its commanders knowledge of Horde troop strength and outpost defenses. Without their forward eyes, the night elves are left disoriented and less willing to risk aggressive moves through the contested woods.",
+   "body": "The Horde strikes at enemy scouts before they can return to Silverwing Outpost. Hunting down the outrunners keeps their commanders from learning the Horde's troop strength and outpost defenses.\n\nWithout their forward eyes, the night elves are disoriented and less willing to risk aggressive moves through the contested woods.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives quest",
     "kuray'bin quest"
    ],
-   "answer": "Kuray'bin, a Horde scout coordinator stationed in Ashenvale, gives the order. He tracks and counters night elf movements across the forest."
+   "answer": "Kuray'bin, the Horde scout coordinator stationed in Ashenvale, gives the order. He tracks and counters night elf movements across the forest."
   },
   {
    "q": "Where are the Ashenvale Outrunners located?",
@@ -47,7 +47,7 @@
     "where are outrunners",
     "where to find outrunners"
    ],
-   "answer": "The outrunners patrol the forests east of Silverwing Outpost and south of Kuray'bin's camp, gathering intelligence through the underbrush."
+   "answer": "The outrunners patrol the forests east of Silverwing Outpost and south of Kuray'bin's camp. They gather intelligence through the underbrush."
   },
   {
    "q": "Why are the outrunners a threat to the Horde?",
@@ -74,7 +74,7 @@
     "follow up quest",
     "outrunner chain"
    ],
-   "answer": "This is a standalone tactical effort to reduce Alliance reconnaissance in the area. Fighters who help Kuray'bin secure the perimeter earn a reward."
+   "answer": "This effort stands alone as a way to reduce Alliance reconnaissance in the area. Fighters who help Kuray'bin secure the perimeter earn a reward."
   },
   {
    "q": "Can Alliance players complete this quest?",
@@ -83,7 +83,7 @@
     "alliance version",
     "can alliance do this"
    ],
-   "answer": "No. This is for the Horde alone. Kuray'bin operates strictly on behalf of the Horde's frontlines in Ashenvale."
+   "answer": "No. Kuray'bin works for the Horde alone on Ashenvale's frontlines."
   }
  ],
  "angles": [
@@ -93,11 +93,11 @@
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you rely on keen instincts, heightened tracking senses, and sharp marksmanship to find concealed outrunners in deep woodland."
+   "text": "As a hunter, you use keen instincts, heightened tracking senses, and sharp marksmanship to find concealed outrunners in deep woodland."
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you turn night elf stealth against them by neutralizing their outrunners, helping Horde infiltrators hold the forest's shadows."
+   "text": "As a rogue, you turn night elf stealth against them. By neutralizing their outrunners, you help Horde infiltrators hold the forest's shadows."
   }
  ],
  "keywords": [
@@ -118,5 +118,5 @@
  "attribution": [
   "Ashenvale Outrunners (Classic)"
  ],
- "style": 1
+ "style": 2
 }

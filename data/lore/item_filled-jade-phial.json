@@ -10,16 +10,16 @@
    "quest:929"
   ]
  },
- "summary": "In Dolanaar, the Filled Jade Phial is carried back with sacred water from Starbreeze Village. The water helps replenish the central wells while young night elves learn their people's history.",
+ "summary": "In Dolanaar, a Filled Jade Phial carries sacred water from Starbreeze Village back to the central wells. Young night elves gather it as they learn their people's history.",
  "sections": [
   {
    "title": "Waters of Starbreeze",
-   "body": "Druids in Darnassus draw sacred moonwell water from across Teldrassil to replenish their central wells. Corithras Moonrage entrusts young travelers in Dolanaar with a jade phial made to hold the pure water safely. The moonwell outside Starbreeze Village lies east of Dolanaar. Initiates collect its water as they tend the World Tree.",
+   "body": "Druids in Darnassus draw sacred water from moonwells across Teldrassil to replenish their central wells. In Dolanaar, Corithras Moonrage entrusts young travelers with a jade phial that keeps the pure water safe. The moonwell outside Starbreeze Village lies east of Dolanaar. Initiates gather its water as they tend the World Tree.",
    "spoiler": 0
   },
   {
    "title": "A Lesson in History",
-   "body": "When you bring the Filled Jade Phial back to Dolanaar, Corithras Moonrage shares another chapter of kaldorei history. He tells of the years after the Third War, when Nordrassil burned, night elves lost their immortality, the Betrayer was released, and Shan'do Malfurion Stormrage disappeared.",
+   "body": "When you return the Filled Jade Phial to Dolanaar, Corithras Moonrage shares another chapter of kaldorei history. He tells how, after the Third War, Nordrassil burned and night elves lost their immortality. The Betrayer was released, and Shan'do Malfurion Stormrage disappeared.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "how to get filled jade phial",
     "starbreeze moonwell location"
    ],
-   "answer": "Fill the Jade Phial at the sacred moonwell just outside Starbreeze Village, east of Dolanaar on Teldrassil."
+   "answer": "Fill the Jade Phial at the sacred moonwell outside Starbreeze Village, east of Dolanaar on Teldrassil."
   },
   {
    "q": "Who requires the Filled Jade Phial?",
@@ -47,7 +47,7 @@
     "why collect moonwell water",
     "what is the jade phial for"
    ],
-   "answer": "Druids in Darnassus use specially crafted vessels like the Jade Phial to carry pure water from Teldrassil's outlying wells and replenish their primary moonwells."
+   "answer": "Druids in Darnassus use specially crafted vessels like the Jade Phial to carry pure water from Teldrassil's outlying wells and replenish their central moonwells."
   },
   {
    "q": "What history does Corithras share when turning this in?",
@@ -55,17 +55,17 @@
     "what does corithras tell you",
     "crown of the earth lore"
    ],
-   "answer": "When Corithras Moonrage receives the filled phial, he tells of the aftermath of the Battle of Mount Hyjal: the loss of night elf immortality, the release of Illidan Stormrage, and the unexplained disappearance of Shan'do Malfurion Stormrage."
+   "answer": "When Corithras Moonrage receives the filled phial, he tells of the aftermath of the Battle of Mount Hyjal. Night elves lost their immortality, Illidan Stormrage was released, and Shan'do Malfurion Stormrage disappeared without explanation."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a young kaldorei, fetching the water honors your sacred duty to Teldrassil. Corithras also teaches you about the loss of night elf immortality after Mount Hyjal."
+   "text": "As a young kaldorei, fetching the water honors your sacred duty to Teldrassil. Corithras also teaches you how night elves lost their immortality after Mount Hyjal."
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, tending the moonwells connects you to the restorative magic that sustains Darnassus and the Cenarion Circle's work to nurture the young World Tree."
+   "text": "As a druid, tending the moonwells connects you to the restorative magic that sustains Darnassus and the Cenarion Circle's work nurturing the young World Tree."
   }
  ],
  "keywords": [
@@ -92,5 +92,5 @@
   "Filled Jade Phial",
   "Crown of the Earth (3)"
  ],
- "style": 1
+ "style": 2
 }

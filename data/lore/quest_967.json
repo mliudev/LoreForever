@@ -17,21 +17,21 @@
   "wiki": "The Tower of Althalaxx (3)",
   "chain": []
  },
- "summary": "At the Tower of Althalaxx, Dark Strand cultists are gathering, and Balthule Shadowstrike needs help. He sends an Alliance courier to Maestra's Post in Ashenvale with a warning for his mentor, Delgren the Purifier.",
+ "summary": "At the Tower of Althalaxx, Dark Strand cultists gather, and Balthule Shadowstrike needs help. He sends a warning with an Alliance courier to Maestra's Post in Ashenvale for his mentor, Delgren the Purifier.",
  "sections": [
   {
    "title": "A Plea for Reinforcements",
-   "body": "Balthule Shadowstrike sees that the Dark Strand threat is too great for one scout to face alone. After clashing with cultists near the Tower of Althalaxx, he writes a report and entrusts it to an Alliance messenger bound for his master, Delgren the Purifier. The cult's summoners are growing bolder, and Balthule needs seasoned leaders to direct a response.",
+   "body": "Balthule Shadowstrike sees that one scout cannot face the Dark Strand threat alone. After clashing with cultists near the Tower of Althalaxx, he writes a report for his master, Delgren the Purifier, and gives it to an Alliance messenger. The cult's summoners grow bolder. Balthule needs seasoned leaders to direct a response.",
    "spoiler": 0
   },
   {
    "title": "The Road to Ashenvale",
-   "body": "Balthule's dispatch takes you south along Darkshore's coastal road, then across the wooded border into Ashenvale. Delgren the Purifier is stationed at Maestra's Post, beside the western road. The human paladin works to cleanse demons and undead from the woodland. Though night elven customs were once unfamiliar to him, he has earned the Sentinels' deep respect as an indispensable ally.",
+   "body": "Balthule's dispatch sends you south along Darkshore's coastal road, then across the wooded border into Ashenvale. Delgren the Purifier is stationed at Maestra's Post beside the western road. The human paladin works to cleanse demons and undead from the woodland. Night elven customs once seemed strange to him, but he has earned the Sentinels' deep respect as an indispensable ally.",
    "spoiler": 0
   },
   {
    "title": "A Holy Warrior Awakened",
-   "body": "Delgren the Purifier receives Balthule's urgent letter and reads it with grim resolve. Devoted to the Holy Light, he sees dark cultists, corrupted souls, and demonic fiends in the ancient woods as an intolerable blight. The letter reports the Dark Strand's entrenched foothold in the ruined highborne tower, and Delgren prepares to take charge and strike back.",
+   "body": "Delgren the Purifier receives Balthule's urgent letter and reads it with grim resolve. Devoted to the Holy Light, he sees dark cultists, corrupted souls, and demonic fiends in the ancient woods as an intolerable blight. The letter reports the Dark Strand's entrenched foothold in the ruined highborne tower. Delgren prepares to take charge and strike back.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "who is delgren",
     "delgren lore"
    ],
-   "answer": "Delgren the Purifier is a human paladin stationed at Maestra's Post in Ashenvale. Devoted to the Holy Light, he brings martial and spiritual expertise to the night elf Sentinels' fight against demons and undead in their ancestral forests."
+   "answer": "Delgren the Purifier is a human paladin stationed at Maestra's Post in Ashenvale. Devoted to the Holy Light, he brings martial and spiritual skill to the night elf Sentinels' fight against demons and undead in their ancestral forests."
   },
   {
    "q": "Why is Balthule Shadowstrike sending a messenger to Ashenvale?",
@@ -59,7 +59,7 @@
     "balthule and delgren",
     "how do balthule and delgren know each other"
    ],
-   "answer": "Delgren is Balthule's master. The human paladin taught the night elf the art of battle and the teachings of the Holy Light, forging a close bond across their cultural divides."
+   "answer": "Delgren is Balthule's master. The human paladin taught the night elf the art of battle and the teachings of the Holy Light. Their bond is close despite their cultural differences."
   },
   {
    "q": "Where is Maestra's Post?",
@@ -67,7 +67,7 @@
     "maestras post location",
     "where is maestras post"
    ],
-   "answer": "Maestra's Post is an Alliance outpost in western Ashenvale, beside the main road south from Darkshore. Travelers pass it on the way into the forest."
+   "answer": "Maestra's Post is an Alliance outpost in western Ashenvale beside the main road south from Darkshore. Travelers pass it on their way into the forest."
   },
   {
    "q": "What is the Dark Strand cult doing at the Tower of Althalaxx?",
@@ -75,7 +75,7 @@
     "dark strand cult althalaxx",
     "tower of althalaxx cultists"
    ],
-   "answer": "The Dark Strand cult operates from the ruined highborne Tower of Althalaxx in northern Darkshore. Its members practice dark arts, consort with demonic powers, and threaten to spread corruption along the shoreline."
+   "answer": "The Dark Strand cult operates from the ruined highborne Tower of Althalaxx in northern Darkshore. Its members practice dark arts and consort with demonic powers. They threaten to spread corruption along the shoreline."
   },
   {
    "q": "How does Delgren view his alliance with the night elves?",
@@ -83,13 +83,13 @@
     "delgren night elves",
     "human paladin night elves"
    ],
-   "answer": "Delgren first found night elven manners and ways unfamiliar after arriving in Kalimdor. Fighting common evils beside them has earned the Sentinels his deep respect."
+   "answer": "Delgren found night elven manners and ways unfamiliar when he arrived in Kalimdor. Fighting common evils beside them has earned the Sentinels his deep respect."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you can see Delgren as an example of your holy calling in unfamiliar lands. The human crusader wields the Light and has earned the trust of Kalimdor's reclusive night elves."
+   "text": "As a paladin, you can look to Delgren as an example of your holy calling in unfamiliar lands. The human crusader wields the Light and has earned the trust of Kalimdor's reclusive night elves."
   },
   {
    "target": "race:NightElf",
@@ -122,5 +122,5 @@
  "attribution": [
   "The Tower of Althalaxx (3)"
  ],
- "style": 1
+ "style": 2
 }

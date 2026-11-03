@@ -24,11 +24,11 @@
    "The Green Hills of Stranglethorn (Classic)"
   ]
  },
- "summary": "Barnil Stonepot needs assistance gathering missing leaves from the second section of Hemet Nesingwary's scattered hunting manuscript. Having gathered most of the parchment himself, he relies on travelers across Stranglethorn Vale to recover the remaining scattered accounts of panther and tiger hunts.",
+ "summary": "In Stranglethorn Vale, Barnil Stonepot searches for leaves missing from Hemet Nesingwary's manuscript. He gathered most of them himself, but travelers must help find the rest.",
  "sections": [
   {
    "title": "Hunts of the Jungle Cats",
-   "body": "Following the dispersal of Hemet Nesingwary's manuscript across Stranglethorn Vale, Barnil Stonepot managed to reclaim many leaves on his own. The second chapter focuses entirely on thrilling accounts of tracking panthers and tigers through the wilderness. Four specific pages\u2014numbers 10, 11, 14, and 16\u2014remain lost to the wind and the jungle's inhabitants, leaving this section of the expedition's chronicle unfinished.",
+   "body": "Barnil Stonepot has recovered many leaves from Hemet Nesingwary's scattered manuscript across Stranglethorn Vale. The second chapter follows panthers and tigers through the wilderness. Pages ten, eleven, fourteen, and sixteen remain missing, so those hunting accounts are incomplete.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "quest giver chapter ii",
     "barnil stonepot"
    ],
-   "answer": "Barnil Stonepot, who is assisting the Nesingwary expedition in Stranglethorn Vale, asks for help gathering the missing leaves."
+   "answer": "Barnil Stonepot, who helps the Nesingwary expedition in Stranglethorn Vale, asks for the missing leaves."
   },
   {
    "q": "Which pages are needed for the second chapter?",
@@ -49,7 +49,7 @@
     "pages for chapter 2",
     "chapter ii pages"
    ],
-   "answer": "Barnil needs pages 10, 11, 14, and 16 to finish assembling the second chapter."
+   "answer": "Barnil needs pages ten, eleven, fourteen, and sixteen for the second chapter."
   },
   {
    "q": "What stories are recorded in the second chapter?",
@@ -58,7 +58,7 @@
     "chapter ii lore",
     "green hills chapter 2 content"
    ],
-   "answer": "The second chapter documents tales of stalking and hunting the panthers and tigers that prowl Stranglethorn Vale."
+   "answer": "The second chapter tells of stalking and hunting the panthers and tigers that prowl Stranglethorn Vale."
   },
   {
    "q": "What comes before this request?",
@@ -67,7 +67,7 @@
     "prerequisite chapter 2",
     "green hills chain"
    ],
-   "answer": "This request follows Barnil's initial call for aid regarding the lost manuscript, known as The Green Hills of Stranglethorn."
+   "answer": "Barnil's request follows his first call for help recovering Hemet Nesingwary's scattered manuscript, The Green Hills of Stranglethorn."
   }
  ],
  "angles": [],
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Chapter II"
- ]
+ ],
+ "style": 2
 }

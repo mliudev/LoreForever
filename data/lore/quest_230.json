@@ -17,16 +17,16 @@
   "wiki": "Sven's Camp",
   "chain": []
  },
- "summary": "In Duskwood, Sven Yorgen's grief still drives him to seek answers about his family's slaughter. A buried journal at the ruined farm may reveal who witnessed it.",
+ "summary": "In Duskwood's western hills, Sven Yorgen still grieves for his slain family and seeks answers. A journal buried at his ruined farm may tell who saw the massacre.",
  "sections": [
   {
    "title": "A Clue in the Dirt",
-   "body": "Sven Yorgen returned to find his family dead and his farm in ruins after dark riders struck while he was away. Grief and vengeance drove him to send allies to search the wreckage of the homestead. Beneath a mound of freshly turned earth lay a small, dirt-stained book, hastily hidden by a shadowy figure.",
+   "body": "You find a small, dirt-stained book beneath freshly turned earth at the ruined Yorgen farm. Dark riders struck while Sven Yorgen was away, leaving his family dead and the farm in ruins. Grief and vengeance sent his allies to search the wreckage. Someone had hastily hidden the book there.",
    "spoiler": 0
   },
   {
    "title": "A Silent Witness",
-   "body": "At his camp in the western hills, Sven learns what the book contains. The journal proves that a shadowy figure watched the massacre of his family. Instead of bringing peace, it turns Sven toward finding the unknown onlooker and demanding answers.",
+   "body": "At his camp in the western hills, Sven learns what the journal holds. Its entries show that an unknown figure watched his family's massacre. The discovery brings no peace. Sven now seeks the onlooker and demands answers.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "book from svens farm",
     "what did i dig up"
    ],
-   "answer": "The book is a small, untitled, dirt-stained journal buried at the Yorgen farm. Its entries prove an unidentified onlooker watched the massacre of Sven Yorgen's family."
+   "answer": "The book is a small, untitled, dirt-stained journal buried at the Yorgen farm. Its entries show that an unidentified onlooker watched the massacre of Sven Yorgen's family."
   },
   {
    "q": "Where does this quest lead next?",
@@ -47,7 +47,7 @@
     "next quest after svens camp",
     "who is the shadowy figure"
    ],
-   "answer": "Delivering the book to Sven Yorgen sets off a search for the mysterious witness and leads into The Shadowy Figure."
+   "answer": "Delivering the book to Sven Yorgen begins a search for the mysterious witness and leads into The Shadowy Figure."
   },
   {
    "q": "Where is Sven Yorgen located?",
@@ -56,7 +56,7 @@
     "sven yorgen location",
     "where do i turn this in"
    ],
-   "answer": "Sven has taken refuge in a camp in Duskwood's northwestern hills, grieving his family's fate and plotting retribution."
+   "answer": "Sven has taken refuge in a camp in Duskwood's northwestern hills. He grieves for his family and plots retribution."
   },
   {
    "q": "Why was the book buried at the farm?",
@@ -65,7 +65,7 @@
     "who hid the book",
     "mound of loose dirt"
    ],
-   "answer": "The book lay hidden in loose dirt amid the ruined homestead. It may have been hastily discarded or concealed by the observer who lingered at the scene of the attack."
+   "answer": "The book lay hidden in loose dirt amid the ruined homestead. The observer at the scene may have discarded or concealed it in haste."
   },
   {
    "q": "Who killed Sven's family?",
@@ -82,13 +82,13 @@
     "is this alliance only",
     "can horde do svens camp"
    ],
-   "answer": "Only Alliance players can complete it; Sven Yorgen seeks aid from the defenders of Duskwood and the Alliance."
+   "answer": "Only Alliance members can help Sven Yorgen, who seeks aid from Duskwood's defenders and the Alliance."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can help investigate the Yorgen massacre as the Alliance struggles to understand the dark forces encroaching on Duskwood."
+   "text": "As an Alliance member, you can help investigate the Yorgen massacre while the Alliance struggles to understand the dark forces encroaching on Duskwood."
   }
  ],
  "keywords": [
@@ -108,5 +108,5 @@
  "attribution": [
   "Sven's Camp"
  ],
- "style": 1
+ "style": 2
 }

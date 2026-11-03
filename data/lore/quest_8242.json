@@ -22,11 +22,11 @@
   "repeatable": "Yes",
   "category": "Searing Gorge"
  },
- "summary": "After What the Flux?, Master Smith Burninate turns to replenishing the dwindling supply of fiery flux in the Searing Gorge. Burninate wants incendosaur scales, heavy leather, and coal, and will take all you can offer.",
+ "summary": "In the Searing Gorge, Master Smith Burninate needs more fiery flux supplies. After What the Flux?, he asks you for two incendosaur scales, ten pieces of heavy leather, and coal. Bring all you can offer.",
  "sections": [
   {
    "title": "Fiery Flux Wanted",
-   "body": "Master Smith Burninate has no time for idle talk. Fiery flux is running low, and Burninate asks for incendosaur scales, heavy leather, and coal: two scales, ten pieces of heavy leather, and coal. Burninate will take all that you can offer.",
+   "body": "Master Smith Burninate needs more fiery flux in the Searing Gorge. The supply is running low, so he asks you for two incendosaur scales, ten pieces of heavy leather, and coal. Bring all you can offer.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "burninate fiery flux",
     "where to turn in"
    ],
-   "answer": "Master Smith Burninate in the Searing Gorge, who receives the goods in person."
+   "answer": "Master Smith Burninate asks for the goods in the Searing Gorge and receives them in person."
   },
   {
    "q": "What materials does Burninate want?",
@@ -47,7 +47,7 @@
     "materials for fiery flux",
     "burninate turn in items"
    ],
-   "answer": "Two incendosaur scales, ten pieces of heavy leather, and some coal."
+   "answer": "Burninate wants two incendosaur scales, ten pieces of heavy leather, and coal."
   },
   {
    "q": "What came before this request?",
@@ -56,7 +56,7 @@
     "previous quest fiery flux",
     "what the flux prerequisite"
    ],
-   "answer": "The step called What the Flux?, which Burninate gave you before this."
+   "answer": "Before this request, Burninate gave you What the Flux?."
   },
   {
    "q": "Why does Burninate want these goods?",
@@ -64,7 +64,7 @@
     "why fiery flux",
     "burninate motivation"
    ],
-   "answer": "Burninate says the supply of fiery flux is dwindling and wants it replenished."
+   "answer": "Burninate says the fiery flux supply is running low and needs replenishing."
   }
  ],
  "angles": [],
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Restoring Fiery Flux Supplies via Heavy Leather"
- ]
+ ],
+ "style": 2
 }

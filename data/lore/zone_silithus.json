@@ -12,21 +12,21 @@
   "levels": "",
   "aliases": []
  },
- "summary": "Silithus is a desolate, wind-scoured desert located in the far southwestern corner of Kalimdor. Beneath its arid sands lie vast colonies of insectoid silithid and the ancient ruins of Ahn'Qiraj, sealed a millennium ago behind the formidable Scarab Wall. Today, the druids of the Cenarion Circle maintain an embattled vigil against creeping swarms, doomsday cultists.",
+ "summary": "Silithus lies beneath spreading silithid swarms, watched by the Cenarion Circle. The desert holds the ancient ruins of Ahn'Qiraj, sealed behind the Scarab Wall a thousand years ago. Druids guard against the swarms and Twilight's Hammer cultists.",
  "sections": [
   {
    "title": "The Desert Frontier",
-   "body": "Reaching Silithus requires navigating through the primeval jungle of Un'Goro Crater and ascending a wide, rocky pass nestled in its northwestern corner. The transition is stark: lush primordial growth vanishes into a vast expanse of shifting dunes, jagged stone, and unnatural towering hives. Water is virtually nonexistent, and the winds carry the hum of insect wings and the whispering sands. The Cenarion Circle maintains Cenarion Hold near the center of the desert, serving as the sole bastion of civilization and shelter for travelers, researchers, and warriors braving the hostile wastes.",
+   "body": "You enter Silithus from Un'Goro Crater through a broad, rocky pass in its northwest corner. Jungle gives way to dunes, jagged stone, and towering hives. Water is scarce, and the wind carries the hum of insect wings across the sand. Near the desert's center, Cenarion Hold offers shelter to travelers, researchers, and warriors. The Cenarion Circle keeps this outpost as the only refuge in the hostile wastes.",
    "spoiler": 0
   },
   {
    "title": "Echoes of the Shifting Sands",
-   "body": "A thousand years ago, this arid expanse served as the battlefield for the War of the Shifting Sands. An allied army of night elves and great dragonflights fought desperately to drive back the Qiraji, an insidious insectoid empire spawned from the ancient Aqiri civilization. When total victory proved impossible, the defenders sealed the swarms within their stronghold using the Scarab Wall and the enchanted Scarab Dais. While the monumental gates held, subterranean tunnels allowed the beast-like silithids to burrow out, establishing sprawling colonies such as Hive'Ashi, Hive'Zora, and Hive'Regal throughout the sands.",
+   "body": "A thousand years ago, night elves and the great dragonflights fought desperately to drive back the Qiraji in the War of the Shifting Sands. The Qiraji were an insectoid empire born from the ancient Aqiri civilization.\n\nWhen victory proved beyond reach, the defenders sealed the swarms inside their stronghold with the Scarab Wall and enchanted Scarab Dais. The gates held, but silithids burrowed through tunnels below and formed vast colonies across the desert, including Hive'Ashi, Hive'Zora, and Hive'Regal.",
    "spoiler": 0
   },
   {
    "title": "A Converging Storm",
-   "body": "The apocalyptic Twilight's Hammer cult has entrenched itself across several fortified outposts, summoning elemental terrors and venerating the dark power slumbering beneath Ahn'Qiraj. Cenarion Circle observers monitor the desert's spreading silithid colonies and the ancient threat behind the Scarab Wall.",
+   "body": "Twilight's Hammer has fortified several outposts in Silithus. Its cultists summon elemental terrors and worship the dark power beneath Ahn'Qiraj. Cenarion Circle observers watch the silithid colonies spread and keep guard against the ancient threat behind the Scarab Wall.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "how to get to silithus",
     "silithus path"
    ],
-   "answer": "Travel to the northwestern corner of Un'Goro Crater. Near the serpentine river bend, between two prominent natural stone pillars, an inclined dirt roadway leads up through the mountainous crater wall directly into the Silithus desert."
+   "answer": "Travel through Un'Goro Crater to its northwestern corner. Near a bend in the serpentine river, a sloping dirt road climbs between two prominent stone pillars and passes through the crater wall into Silithus."
   },
   {
    "q": "What is the Scarab Wall?",
@@ -47,7 +47,7 @@
     "scarab wall",
     "the big wall in silithus"
    ],
-   "answer": "The Scarab Wall is a massive, enchanted barrier in the south of Silithus. It was erected a thousand years ago by the night elves and the dragonflights during the War of the Shifting Sands to imprison the malevolent Qiraji empire within Ahn'Qiraj."
+   "answer": "The Scarab Wall is a massive enchanted barrier in southern Silithus. A thousand years ago, night elves and the dragonflights raised it during the War of the Shifting Sands to imprison the Qiraji empire within Ahn'Qiraj."
   },
   {
    "q": "Who runs Cenarion Hold?",
@@ -56,7 +56,7 @@
     "cenarion hold faction",
     "cenarion hold friendly"
    ],
-   "answer": "Cenarion Hold is an outpost established and run by the Cenarion Circle. Its druids and allied guardians observe the encroaching silithid swarms, investigate ancient ruins, and welcome neutral travelers of both the Alliance and Horde."
+   "answer": "The Cenarion Circle established and runs Cenarion Hold. Its druids and allied guardians watch the silithid swarms, investigate ancient ruins, and welcome neutral travelers from both the Alliance and Horde."
   },
   {
    "q": "What are the giant insect mounds across the zone?",
@@ -65,7 +65,7 @@
     "bug hives silithus",
     "hive ashi hive zora"
    ],
-   "answer": "They are the major subterranean hives of the silithids: Hive'Ashi, Hive'Zora, and Hive'Regal. Each hive is a sprawling network of tunnels housing distinct castes of insectoid creatures serving the wills locked behind Ahn'Qiraj."
+   "answer": "The giant mounds are the silithids' great underground hives: Hive'Ashi, Hive'Zora, and Hive'Regal. Each holds a sprawling tunnel network and distinct insectoid castes that serve the wills locked behind Ahn'Qiraj."
   },
   {
    "q": "What is the Twilight's Hammer doing here?",
@@ -74,25 +74,25 @@
     "twilight outpost silithus",
     "why is twilight's hammer in silithus"
    ],
-   "answer": "The Twilight's Hammer cult maintains several fortified bases in Silithus, including the Twilight Base Camp and Twilight Post. They conduct foul rituals to summon elementals and worship the ancient, malevolent entities entombed behind the Scarab Wall."
+   "answer": "Twilight's Hammer maintains several fortified bases in Silithus, including Twilight Base Camp and Twilight Post. Its cultists perform foul rites to summon elementals and worship the ancient, malevolent entities entombed behind the Scarab Wall."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As the heart of Cenarion Circle operations in southern Kalimdor, Silithus calls upon druids to stem the corruption of the land and confront the unnatural broods threatening nature's balance."
+   "text": "As a druid, you are called to Silithus, where the Cenarion Circle keeps its southern Kalimdor operations. Help stem the land's corruption and face the unnatural broods threatening nature's balance."
   },
   {
    "target": "profession:Mining",
-   "text": "The arid rocks and insect tunnels of Silithus host some of the richest Thorium deposits in the world, including rare ooze-covered veins hidden within the silithid hives."
+   "text": "Silithus's dry rocks and insect tunnels hold some of the world's richest Thorium deposits. Rare ooze-covered veins lie hidden within the silithid hives."
   },
   {
    "target": "profession:Herbalism",
-   "text": "Despite the harsh desert terrain, rare botanical wonders flourish here, including Mountain Silversage, Dreamfoil, Sungrass, and the exceptionally prized Black Lotus."
+   "text": "Rare plants flourish despite Silithus's harsh desert: Mountain Silversage, Dreamfoil, Sungrass, and the prized Black Lotus."
   },
   {
    "target": "race:NightElf",
-   "text": "Silithus is the grim resting ground where your ancestors bled during the War of the Shifting Sands, sacrificing thousands to seal the gates of Ahn'Qiraj."
+   "text": "As a night elf, you walk the grim ground where your ancestors bled in the War of the Shifting Sands. Thousands sacrificed their lives to seal Ahn'Qiraj's gates."
   }
  ],
  "keywords": [
@@ -120,5 +120,6 @@
  "attribution": [
   "Silithus (Classic)",
   "Silithus"
- ]
+ ],
+ "style": 2
 }

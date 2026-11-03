@@ -17,7 +17,7 @@
   "wiki": "Deliver the Thread (Classic)",
   "chain": []
  },
- "summary": "Madame Eva sends ghost hair thread from Darkshire across Duskwood to Abercrombie near Raven Hill Cemetery. The hermit says he needs it to guard his hut from restless spirits.",
+ "summary": "In Darkshire, Madame Eva sends Ghost Hair Thread west through Duskwood to Abercrombie near Raven Hill Cemetery. The hermit says he needs it to guard his hut from restless spirits.",
  "sections": [
   {
    "title": "A Crossing in the Dark",
@@ -26,7 +26,7 @@
   },
   {
    "title": "Threads of Life and Death",
-   "body": "Abercrombie says he will line his windows and doorframe with the spectral thread to keep out the wailing dead of Raven Hill. Madame Eva says ghost hair thread has many uses, including binding malevolent spirits and sewing the semblance of life into dead and inanimate matter. Abercrombie welcomes the spool with delight and sets his hidden craft in motion.",
+   "body": "Abercrombie says he will line his windows and doorframe with the spectral thread to keep out Raven Hill's wailing dead. Madame Eva says Ghost Hair Thread can bind malevolent spirits and sew the semblance of life into dead and inanimate matter. Abercrombie welcomes the spool with delight, then sets his hidden craft in motion.",
    "spoiler": 1
   }
  ],
@@ -56,7 +56,7 @@
     "abercrombie excuse",
     "warding spirits"
    ],
-   "answer": "Abercrombie says he will string ghost hair thread along his windows and doorways to ward off the ghouls and spirits roaming Duskwood."
+   "answer": "Abercrombie says he will string Ghost Hair Thread along his windows and doorways to ward off the ghouls and spirits roaming Duskwood."
   },
   {
    "q": "Where is Abercrombie located?",
@@ -83,7 +83,7 @@
     "madame eva complicit",
     "eva warning"
    ],
-   "answer": "Madame Eva does not accuse Abercrombie of foul play. She remarks that ghost hair thread can sew life into inanimate objects, showing she knows its necromantic potential, yet she fulfills the request without protest."
+   "answer": "Madame Eva does not accuse Abercrombie of foul play. She remarks that Ghost Hair Thread can sew life into inanimate objects, showing she knows its necromantic potential, yet she fulfills the request without protest."
   }
  ],
  "angles": [
@@ -122,5 +122,5 @@
  "attribution": [
   "Deliver the Thread (Classic)"
  ],
- "style": 1
+ "style": 2
 }

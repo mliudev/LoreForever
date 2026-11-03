@@ -26,16 +26,16 @@
   ],
   "category": "Stranglethorn Vale"
  },
- "summary": "\"Sea Wolf\" MacKinley in Booty Bay needs to balance his books by collecting outstanding debts from three old associates. Though rumors claim the men were cursed and bewitched into wandering ancient jungle ruins, MacKinley expects their prized possessions retrieved regardless of their grim fate.",
+ "summary": "In Booty Bay, “Sea Wolf” MacKinley is still waiting for three old debts to be paid. Maury “Club Foot” Wilkins, Jon-Jon the Crow, and Chucky “Ten Thumbs” owe him, but rumors say curses and enchantment sent them wandering ancient jungle ruins. MacKinley wants their prized possessions, whatever their fate.",
  "sections": [
   {
    "title": "Unpaid Accounts",
-   "body": "Following your earlier collection efforts for \"Sea Wolf\" MacKinley, the pirate still holds an active ledger of unsettled debts. Three particular debtors\u2014Maury \"Club Foot\" Wilkins, Jon-Jon the Crow, and Chucky \"Ten Thumbs\"\u2014have let their accounts sit delinquent for months. MacKinley initially assumed the trio merely skipped out of Booty Bay to avoid paying, but he later heard they met a stranger and darker fate deep in the jungle.",
+   "body": "You have already collected debts for “Sea Wolf” MacKinley, but three accounts remain unpaid. Maury “Club Foot” Wilkins, Jon-Jon the Crow, and Chucky “Ten Thumbs” have owed him for months. MacKinley first thought they had left Booty Bay to escape their debts. Then he heard they had met a stranger, darker fate deep in the jungle.",
    "spoiler": 0
   },
   {
    "title": "Bewitched in the Ruins",
-   "body": "Whispers say the three debtors were bewitched and cursed, leaving them to wander the ancient stonework northeast of Booty Bay at the Ruins of Aboraz and the Ruins of Jubuwal. Unconcerned with their misfortune, MacKinley directs you to venture into the ruins, track down each man, and seize their notable valuables: Jon-Jon's Golden Spyglass, Chucky's Huge Ring, and Maury's Clubbed Foot.",
+   "body": "Whispers say curses and enchantment have left the three men wandering ancient stonework northeast of Booty Bay. They are said to roam the Ruins of Aboraz and the Ruins of Jubuwal. MacKinley wants you to find each man and take his notable valuables: Jon-Jon's Golden Spyglass, Chucky's Huge Ring, and Maury's Clubbed Foot.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "who gives voodoo dues",
     "sea wolf mackinley quest"
    ],
-   "answer": "\"Sea Wolf\" MacKinley makes this request from his post in Booty Bay. He is working his way down a list of debtors who owe him money and refuses to let their debts slip away."
+   "answer": "“Sea Wolf” MacKinley asks you to collect the debts from his post in Booty Bay. He is working through his list of debtors and will not let their debts slip away."
   },
   {
    "q": "Who are the three debtors?",
@@ -54,7 +54,7 @@
     "who owes mackinley",
     "voodoo dues targets"
    ],
-   "answer": "The debtors are Maury \"Club Foot\" Wilkins, Jon-Jon the Crow, and Chucky \"Ten Thumbs\". Their payments have been outstanding for several months."
+   "answer": "The three debtors are Maury “Club Foot” Wilkins, Jon-Jon the Crow, and Chucky “Ten Thumbs”. They have owed their payments for several months."
   },
   {
    "q": "Where can the three debtors be found?",
@@ -62,7 +62,7 @@
     "where are the debtors",
     "where are aboraz and jubuwal"
    ],
-   "answer": "They wander the ancient stone structures northeast of Booty Bay, specifically within the Ruins of Aboraz and the Ruins of Jubuwal."
+   "answer": "The three men wander ancient stone structures northeast of Booty Bay, in the Ruins of Aboraz and the Ruins of Jubuwal."
   },
   {
    "q": "What happened to the three men?",
@@ -70,7 +70,7 @@
     "why are they cursed",
     "what is wrong with them"
    ],
-   "answer": "According to word that reached MacKinley, the three were bewitched and cursed, and now roam the jungle ruins instead of returning to port."
+   "answer": "Word reaching MacKinley says the men were bewitched and cursed. They now roam the jungle ruins instead of returning to port."
   },
   {
    "q": "What specific items must be recovered?",
@@ -78,7 +78,7 @@
     "what items does mackinley want",
     "voodoo dues items"
    ],
-   "answer": "MacKinley requires three specific valuables: Jon-Jon's Golden Spyglass, Chucky's Huge Ring, and Maury's Clubbed Foot."
+   "answer": "MacKinley wants Jon-Jon's Golden Spyglass, Chucky's Huge Ring, and Maury's Clubbed Foot."
   },
   {
    "q": "What came before this task in the chain?",
@@ -86,7 +86,7 @@
     "voodoo dues prerequisites",
     "previous quest"
    ],
-   "answer": "This follows the earlier jobs of Scaring Shaky and Return to MacKinley, as you assist the pirate with his collection list."
+   "answer": "This follows your earlier work in Scaring Shaky and Return to MacKinley, helping the pirate collect his debts."
   }
  ],
  "angles": [],
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "Voodoo Dues"
- ]
+ ],
+ "style": 2
 }

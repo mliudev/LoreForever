@@ -17,21 +17,21 @@
   "wiki": "Hidden Enemies (3)",
   "chain": []
  },
- "summary": "Thrall sends you against the Searing Blade beneath Orgrimmar. After tricking Neeru Fireblade into believing you are an ally, he sends you into Ragefire Chasm to assassinate the cult's top commanders.",
+ "summary": "Thrall sends you against the Searing Blade beneath Orgrimmar. You have won Neeru Fireblade's trust by pretending to share the cult's cause. Now Thrall sends you into Ragefire Chasm to strike at its leaders.",
  "sections": [
   {
    "title": "A Cancer Beneath the Streets",
-   "body": "Orgrimmar was built as a haven for a free Orcish race, but its foundations conceal an old demonic threat. Beneath the markets, the Cleft of Shadow opens onto the tunnels of Ragefire Chasm. In those volcanic depths, remnants of the Shadow Council called the Searing Blade gather strength. They practice dark arts and scheme to seize the young Horde from within its own capital.",
+   "body": "Orgrimmar was built as a haven for a free Orcish race. Yet beneath its markets, the Cleft of Shadow opens onto the tunnels of Ragefire Chasm. There, remnants of the Shadow Council gather strength as the Searing Blade. They practice dark arts and scheme to seize the young Horde from within its own capital.",
    "spoiler": 0
   },
   {
    "title": "Playing the Double Agent",
-   "body": "A direct assault without intelligence would leave the Shadow Council's network intact. Thrall uses you to draw information from Neeru Fireblade, a warlock in the Cleft of Shadow who seems willing to cooperate. Neeru believes you share the cult's cause and gives up the names of its underground leaders: Bazzalan, a corrupt satyr, and Jergosh the Invoker, a warlock.",
+   "body": "A direct strike without knowledge would leave the Shadow Council's network intact. Thrall turns to you to learn from Neeru Fireblade, a warlock in the Cleft of Shadow who seems willing to cooperate. Neeru believes you share the cult's cause. So he reveals the names of its underground leaders: Bazzalan, a corrupt satyr, and Jergosh the Invoker, a warlock.",
    "spoiler": 1
   },
   {
    "title": "Decapitating the Searing Blade",
-   "body": "Thrall sends you into Ragefire Chasm to kill Bazzalan and Jergosh, throwing the cultists into chaos. The killings must remain deniable, so Neeru cannot learn who carried them out. Thrall plans to keep the warlock under watch. Removing the leaders sends shock through the cult and gives the Horde's young city precious breathing room.",
+   "body": "Thrall sends you into Ragefire Chasm to kill Bazzalan and Jergosh. Their deaths throw the cultists into chaos, but Neeru cannot learn who carried them out. Thrall plans to keep the warlock under watch. With its leaders gone, the cult reels, and the Horde's young city gains precious breathing room.",
    "spoiler": 2
   }
  ],
@@ -52,7 +52,7 @@
     "why keep neeru alive",
     "neeru fireblade traitor"
    ],
-   "answer": "Thrall keeps Neeru alive under surveillance. Knowing the traitor lets the Warchief's scouts watch the Shadow Council's communications and anticipate plots, rather than leave room for a hidden replacement."
+   "answer": "Thrall keeps Neeru alive and under watch. Knowing the traitor lets the Warchief's scouts follow the Shadow Council's communications and anticipate plots, while denying the cult room for a hidden replacement."
   },
   {
    "q": "Where are Bazzalan and Jergosh the Invoker located?",
@@ -61,7 +61,7 @@
     "where is jergosh",
     "ragefire chasm bosses"
    ],
-   "answer": "Bazzalan and Jergosh the Invoker are deep within Ragefire Chasm, reached through the Cleft of Shadow in Orgrimmar. Jergosh commands the cultists from a volcanic ledge, while Bazzalan lurks in a nearby elevated cavern."
+   "answer": "Bazzalan and Jergosh the Invoker lie deep within Ragefire Chasm, reached through the Cleft of Shadow in Orgrimmar. Jergosh commands the cultists from a volcanic ledge, while Bazzalan lurks in a nearby elevated cavern."
   },
   {
    "q": "Who are the Searing Blade?",
@@ -70,7 +70,7 @@
     "searing blade cult",
     "burning blade orgrimmar"
    ],
-   "answer": "The Searing Blade is a local sect aligned with the Burning Blade and Shadow Council. Its members worship demonic powers and practice fel magic beneath Orgrimmar, seeking to overthrow Thrall and enslave the Horde again."
+   "answer": "The Searing Blade is a local sect aligned with the Burning Blade and Shadow Council. Its members worship demonic powers and practice fel magic beneath Orgrimmar. They seek to overthrow Thrall and enslave the Horde again."
   },
   {
    "q": "Why is a satyr like Bazzalan working beneath an Orc city?",
@@ -79,7 +79,7 @@
     "bazzalan lore",
     "satyr in ragefire"
    ],
-   "answer": "Satyrs are ancient servants of the Burning Legion. Bazzalan works beneath the Orc city as a demonic handler and instigator, guiding the Searing Blade's mortal cultists to carry out the Legion's will under Thrall's feet."
+   "answer": "Satyrs are ancient servants of the Burning Legion. Beneath the Orc city, Bazzalan acts as a demonic handler and instigator. He guides the Searing Blade's mortal cultists in carrying out the Legion's will under Thrall's feet."
   },
   {
    "q": "How does this quest fit into the broader Ragefire Chasm run?",
@@ -88,13 +88,13 @@
     "rfc quest line",
     "hidden enemies chain"
    ],
-   "answer": "Hidden Enemies brings Thrall's infiltration chain to its climax. It joins other Ragefire Chasm assignments that target the dungeon's chief humanoid foes in one coordinated strike."
+   "answer": "Hidden Enemies brings Thrall's work to infiltrate the Searing Blade to its climax. It joins other Ragefire Chasm assignments against the place's chief humanoid foes in one coordinated strike."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you face demonic corruption in the heart of Durotar, threatening all the new Horde fought to establish. Cleansing Ragefire Chasm helps preserve its hard-won freedom."
+   "text": "As a member of the Horde, you face demonic corruption in the heart of Durotar. It threatens all the new Horde fought to establish. Cleansing Ragefire Chasm helps preserve its hard-won freedom."
   },
   {
    "target": "race:Orc",
@@ -102,7 +102,7 @@
   },
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you know Thrall tolerates dark arts in the Horde's defense. Jergosh and the Searing Blade have instead sworn themselves to demonic masters, betraying the Horde."
+   "text": "As a warlock, you know Thrall tolerates dark arts in the Horde's defense. Jergosh and the Searing Blade have sworn themselves to demonic masters and betrayed the Horde."
   }
  ],
  "keywords": [
@@ -129,5 +129,5 @@
  "attribution": [
   "Hidden Enemies (3)"
  ],
- "style": 1
+ "style": 2
 }

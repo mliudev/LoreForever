@@ -27,16 +27,16 @@
    "In Search of Knowledge"
   ]
  },
- "summary": "Troyas Moonbreeze thinks his stave may be the Stave of Equinex, a key to a monument in the Ruins of Ravenwind. To find out, you are to gather the essence of four flames that still burn among those ruins.",
+ "summary": "At the Ruins of Ravenwind, Troyas Moonbreeze tests whether his stave can open the Equinex Monolith. You gather the essences of four flames still burning among the ruins.",
  "sections": [
   {
    "title": "A Key for the Monolith",
-   "body": "After your return to Troyas Moonbreeze, he says his stave could be the Stave of Equinex, which is in fact a key to the Equinex Monolith. The monolith stands in the Ruins of Ravenwind. Among those ruins, four flames are still alight, named Samha, Imbel, Byltan and Lahassa. Each yields an essence, and standing by the monolith you are to use all four to energize the stave. If it truly is the Stave of Equinex, the monolith will open and give up a sacred artifact.",
+   "body": "Troyas Moonbreeze thinks his stave may be the Stave of Equinex, a key to the Equinex Monolith in the Ruins of Ravenwind. Four flames still burn there: Samha, Imbel, Byltan and Lahassa. Each yields an essence. You use all four at the monolith to energize the stave. If it is truly the key, the monolith will open and reveal a sacred artifact.",
    "spoiler": 0
   },
   {
    "title": "At the Stone",
-   "body": "The energized stave is almost impossible to hold, its power rumbling through you. You reach for the cold surface of the monolith, and a small door opens so you can take what lies inside. Beams of light spill out around the stone.",
+   "body": "The energized stave is almost impossible to hold as its power rumbles through you. You reach for the monolith's cold surface, and a small door opens. Beams of light spill around the stone as you take what lies inside.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "where is monolith",
     "find equinex monolith"
    ],
-   "answer": "West of the Dream Bough on the mainland, in the Ravenwind ruins."
+   "answer": "The Equinex Monolith stands in the Ruins of Ravenwind, west of the Dream Bough on the mainland."
   },
   {
    "q": "What are the four flames I need?",
@@ -57,7 +57,7 @@
     "flame names feralas",
     "ravenwind flames"
    ],
-   "answer": "Samha, Imbel, Byltan and Lahassa, flames that still burn in the Ruins of Ravenwind. You gather the essence of each."
+   "answer": "The four flames are Samha, Imbel, Byltan and Lahassa. They still burn in the Ruins of Ravenwind, and you gather the essence of each."
   },
   {
    "q": "What is the Stave of Equinex for?",
@@ -66,7 +66,7 @@
     "stave of equinex purpose",
     "why energize stave"
    ],
-   "answer": "Troyas Moonbreeze says it is a key for unlocking the Equinex Monolith, which holds a sacred artifact."
+   "answer": "Troyas Moonbreeze says the Stave of Equinex may be a key to the Equinex Monolith, which holds a sacred artifact."
   },
   {
    "q": "Where do I energize the stave?",
@@ -74,7 +74,7 @@
     "where to use essences",
     "energize stave location"
    ],
-   "answer": "While standing by the Equinex Monolith, using the essences of the four flames."
+   "answer": "You energize the stave beside the Equinex Monolith, using the essences of all four flames."
   }
  ],
  "angles": [],
@@ -98,5 +98,6 @@
  ],
  "attribution": [
   "The Stave of Equinex"
- ]
+ ],
+ "style": 2
 }

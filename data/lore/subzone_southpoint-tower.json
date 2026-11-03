@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Southpoint Tower"
  },
- "summary": "Forsaken scouts watch Alliance movements from Southpoint Tower, near Hillsbrad's western edge. The ruined Lordaeron post overlooks the road into Silverpine Forest.",
+ "summary": "Forsaken scouts watch the Alliance from Southpoint Tower, near Hillsbrad's western edge. The ruined Lordaeron post overlooks the road into Silverpine Forest.",
  "sections": [
   {
    "title": "A Ruined Sentinel",
-   "body": "Southpoint Tower overlooks the highway between Silverpine Forest and Hillsbrad Foothills. The Kingdom of Lordaeron built it to guard traffic between the eastern farmlands and the western woods. After the Third War and the Scourge's destruction of the kingdom, the stonework fell into ruin. Now the tower stands roofless and crumbling, a remnant of human rule in fractured lands.",
+   "body": "Southpoint Tower overlooks the highway between Silverpine Forest and Hillsbrad Foothills. The Kingdom of Lordaeron built it to guard the way between the eastern farmlands and the western woods. After the Third War and the Scourge's destruction of the kingdom, the stonework fell into ruin. Now the tower is roofless and crumbling, a remnant of human rule in fractured lands.",
    "spoiler": 0
   },
   {
    "title": "Eyes on the Hills",
-   "body": "Forsaken agents watch Alliance patrols from the ruined tower. Deathstalker Lesh is among those stationed there, keeping an eye on nearby human settlements in Hillsbrad Fields and travelers on the main road. The vantage remains valuable despite the collapsed walls. So close to hostile territory, this lonely post often becomes a flashpoint for skirmishes.",
+   "body": "Forsaken agents watch Alliance patrols from the ruined tower. Deathstalker Lesh is stationed there, watching nearby human settlements in Hillsbrad Fields and travelers on the main road. Though its walls have fallen, the tower's vantage remains valuable. So near hostile territory, this lonely post often becomes a flashpoint for skirmishes.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is southpoint tower",
     "find southpoint tower"
    ],
-   "answer": "Southpoint Tower stands at the western edge of Hillsbrad Foothills, just south of the road into Silverpine Forest and west of Hillsbrad Fields."
+   "answer": "Southpoint Tower stands at Hillsbrad Foothills' western edge, just south of the road into Silverpine Forest and west of Hillsbrad Fields."
   },
   {
    "q": "Who controls Southpoint Tower right now?",
@@ -37,7 +37,7 @@
     "who owns southpoint tower",
     "southpoint tower faction"
    ],
-   "answer": "The Forsaken control Southpoint Tower. Deathstalker Lesh watches the road and nearby Alliance forces from within its ruined walls."
+   "answer": "The Forsaken control Southpoint Tower. Deathstalker Lesh watches the road and nearby Alliance forces from its ruined walls."
   },
   {
    "q": "Why is the tower in ruins?",
@@ -45,7 +45,7 @@
     "why is southpoint tower broken",
     "who destroyed southpoint tower"
    ],
-   "answer": "The Scourge ravaged the region during Lordaeron's fall, battering and forcing the abandonment of the tower. No one has repaired it, and only broken stone walls remain."
+   "answer": "During Lordaeron's fall, the Scourge ravaged the region and battered the tower, forcing its abandonment. No one has repaired it, and only broken stone walls remain."
   },
   {
    "q": "Why do Alliance players attack this outpost?",
@@ -53,17 +53,17 @@
     "why kill deathstalker lesh",
     "alliance attacking southpoint tower"
    ],
-   "answer": "Alliance travelers attack because a Forsaken scout watches human territory from the isolated post near the border. Its position makes it a tempting target for those traveling between Southshore and the western roads."
+   "answer": "Alliance travelers attack because a Forsaken scout watches human territory from the isolated post near the border. Its position makes it a tempting target for travelers between Southshore and the western roads."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As Forsaken, you can use this perch near the Silverpine border to watch human troop movements out of Hillsbrad."
+   "text": "As Forsaken, you can watch human troop movements out of Hillsbrad from this perch near the Silverpine border."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance scout, you can target the ruined tower, where an enemy spy watches the road to Silverpine and the human settlements of Hillsbrad."
+   "text": "As an Alliance scout, you can target the ruined tower, where an enemy spy watches the road to Silverpine and Hillsbrad's human settlements."
   }
  ],
  "keywords": [
@@ -85,5 +85,5 @@
  "attribution": [
   "Southpoint Tower"
  ],
- "style": 1
+ "style": 2
 }

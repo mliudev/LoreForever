@@ -27,16 +27,16 @@
    "Big Game Hunter (Classic)"
   ]
  },
- "summary": "Sir S. J. Erlgadin of Nesingwary's Expedition offers a trial to those seeking to prove their prowess as big-game stalkers in Stranglethorn Vale. To join Hemet's hunting company, adventurers must first demonstrate their basic tracking ability by taking down ten young panthers.",
+ "summary": "At Nesingwary's Expedition, Sir S. J. Erlgadin tests those who seek a place in Hemet's hunt. They must bring down ten young panthers to prove their skill at tracking.",
  "sections": [
   {
    "title": "A Crack Group of Hunters",
-   "body": "Within the wild expanse of northern Stranglethorn Vale, Hemet Nesingwary has assembled a seasoned band of big-game huntsmen. Sir S. J. Erlgadin tells anyone who wants a part of the hunt that they must first prove themselves an able panther hunter.",
+   "body": "Hemet Nesingwary has gathered seasoned big-game hunters in northern Stranglethorn Vale. Sir S. J. Erlgadin asks newcomers to prove they can hunt panthers before they join the party.",
    "spoiler": 0
   },
   {
    "title": "Tracking the Prowlers",
-   "body": "Before Erlgadin entrusts anyone with greater game, he issues an entry test: finding and slaying ten young panthers. Simply finding the beasts is only half the challenge.",
+   "body": "Before trusting newcomers with larger game, Erlgadin sets them a test. They must find and slay ten young panthers. Finding the prowlers is only half the challenge.",
    "spoiler": 0
   }
  ],
@@ -48,7 +48,7 @@
     "who starts panther mastery",
     "erlgadin quest"
    ],
-   "answer": "Sir S. J. Erlgadin gives this challenge from the camp of Nesingwary's Expedition in northern Stranglethorn Vale, testing newcomers who want to join Hemet's hunting party."
+   "answer": "Sir S. J. Erlgadin gives the challenge at Nesingwary's Expedition camp in northern Stranglethorn Vale. He tests newcomers who hope to join Hemet's hunting party."
   },
   {
    "q": "What quarry must be hunted?",
@@ -57,7 +57,7 @@
     "panther mastery target",
     "young panthers"
    ],
-   "answer": "Sir S. J. Erlgadin directs hunters to track down and slay ten young panthers roaming the surrounding jungle brush."
+   "answer": "Hunters must track and slay ten young panthers in the surrounding jungle brush."
   },
   {
    "q": "Why does Sir S. J. Erlgadin assign this test?",
@@ -65,7 +65,7 @@
     "why kill young panthers",
     "purpose of panther mastery"
    ],
-   "answer": "Hemet Nesingwary has gathered a seasoned hunting crew, and Erlgadin wants newcomers to prove themselves able panther hunters before they join the hunt."
+   "answer": "Hemet Nesingwary has gathered a seasoned hunting crew. Erlgadin asks newcomers to prove they can hunt panthers before joining the hunt."
   },
   {
    "q": "What comes next after completing this hunt?",
@@ -73,7 +73,7 @@
     "panther mastery next quest",
     "what comes after panther mastery"
    ],
-   "answer": "Completing this opening trial leads directly to Panther Mastery (2), where Sir S. J. Erlgadin increases the difficulty of the quarry."
+   "answer": "After this opening trial, Sir S. J. Erlgadin sets a harder hunt in Panther Mastery two."
   }
  ],
  "angles": [],
@@ -92,5 +92,6 @@
  ],
  "attribution": [
   "Panther Mastery (Classic)"
- ]
+ ],
+ "style": 2
 }

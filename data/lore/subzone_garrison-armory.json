@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Garrison Armory"
  },
- "summary": "The Garrison Armory is an Alliance mining operation carved into the hills southwest of Nethergarde Keep in the Blasted Lands. Miners and engineers work the underground veins to harvest valuable minerals, sustaining the lonely fortress and shipping raw wealth back to Stormwind. It forms a crucial industrial lifeline in an otherwise blasted, barren wilderness.",
+ "summary": "Alliance miners work the Garrison Armory southwest of Nethergarde Keep. Their ore supplies the fortress and brings wealth to Stormwind.",
  "sections": [
   {
    "title": "A Lifeline in the Red Wastes",
-   "body": "Maintaining a permanent military garrison in the arid wastes of the Blasted Lands requires constant supply, and Nethergarde Keep cannot rely purely on long supply trains from Stormwind. The Garrison Armory serves as the keep's primary industrial excavation. Nethergarde miners, overseen by foremen and assisted by engineers, work these subterranean shafts to pull valuable minerals from the earth. The ore extracted here is utilized directly by Nethergarde's smiths and fortifications or hauled back to the capital in exchange for the foodstuffs, tools, and provisions the fortress needs to maintain its vigil over the Dark Portal.",
+   "body": "Nethergarde Keep must hold its watch over the Dark Portal, and long supply trains from Stormwind cannot meet every need. In the Garrison Armory’s underground mine shafts, miners work under foremen with engineers at their side. Ore mined there goes to Nethergarde’s smiths and fortifications, or travels to Stormwind in trade for food, tools, and other provisions the keep needs.",
    "spoiler": 0
   },
   {
    "title": "Vulnerable Industry",
-   "body": "Because the armory sits away from the main walls of Nethergarde Keep, the excavation remains exposed to the harsh perils of the red desert. Dreadmaul ogres and wild beasts prowl the surrounding crags. The workforce within the tunnels operates under armed guard, knowing that any disruption to the armory directly threatens Nethergarde's ability to maintain its watch over the blasted frontier.",
+   "body": "The Garrison Armory lies beyond Nethergarde Keep’s main walls, exposed to the red desert’s dangers. Dreadmaul ogres and wild beasts prowl the surrounding crags. Armed guards protect the workers in the tunnels, for any disruption to the mine threatens the keep’s watch over the blasted frontier.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is this mine",
     "why is there a mine here"
    ],
-   "answer": "The Garrison Armory is an Alliance mining complex operated by Nethergarde Keep. Workers extract metal and minerals underground to maintain the fortress and trade back to Stormwind for essential food and equipment."
+   "answer": "Workers at Nethergarde Keep mine metal and minerals in the Garrison Armory. The ore supplies the fortress and is traded to Stormwind for food and equipment."
   },
   {
    "q": "Who works in the armory?",
@@ -37,7 +37,7 @@
     "armory npcs",
     "garrison miners"
    ],
-   "answer": "The mine is staffed by Nethergarde miners, engineers, and foremen affiliated with the Alliance. They work to excavate ore deposits and maintain the shafts beneath the supervision of Nethergarde's command."
+   "answer": "Nethergarde miners, engineers, and foremen work in the armory. They excavate ore and maintain the shafts under Nethergarde’s command."
   },
   {
    "q": "Why does Nethergarde Keep need this mine?",
@@ -46,7 +46,7 @@
     "armory importance",
     "nethergarde resources"
    ],
-   "answer": "Nethergarde Keep sits isolated in the desolate Blasted Lands, making regular supply lines difficult. By extracting its own metals, the fortress can repair gear, reinforce defenses, and trade excess raw materials to Stormwind in exchange for vital survival supplies."
+   "answer": "Nethergarde Keep stands isolated in the desolate Blasted Lands, where regular supply lines are difficult. The mine provides metal to repair gear and reinforce defenses. Excess materials can be traded to Stormwind for vital supplies."
   },
   {
    "q": "Can Horde players enter the Garrison Armory?",
@@ -55,17 +55,17 @@
     "horde in garrison armory",
     "is it safe for horde"
    ],
-   "answer": "The armory is occupied by hostile Alliance workers and guards, but Horde adventurers frequently brave the depths to claim the rich ore veins buried within the mine shafts."
+   "answer": "The Garrison Armory is held by hostile Alliance workers and guards. Horde adventurers still brave its depths to claim rich ore from the mine shafts."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "The shafts of the Garrison Armory hold valuable mineral veins carved out of the rugged Blasted Lands stone, making it a contested subterranean quarry."
+   "text": "Valuable mineral veins run through the rugged stone beneath the Garrison Armory, making its mine shafts a contested quarry."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Armory's workforce labors constantly to ensure Nethergarde Keep remains supplied with weapons, armor, and trade goods to hold its lonely watch."
+   "text": "The Armory’s workforce labors constantly to keep Nethergarde Keep supplied with weapons, armor, and trade goods for its lonely watch."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Garrison Armory"
- ]
+ ],
+ "style": 2
 }

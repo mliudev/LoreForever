@@ -8,16 +8,16 @@
   "wiki": "Yeh'kinya",
   "refs": 2
  },
- "summary": "Yeh'kinya is a jungle troll scholar residing at Steamwheedle Port on the desert coast of Tanaris. Claiming to seek ancient lore and artifacts to understand dark powers, he dispatches willing adventurers across Azeroth on missions to gather lost troll relics.",
+ "summary": "At Steamwheedle Port, Yeh'kinya sends travelers in search of lost troll relics. The jungle troll scholar says he seeks ancient lore and artifacts to understand dark powers.",
  "sections": [
   {
    "title": "The Scholar at Steamwheedle Port",
-   "body": "Lounging among the goblins and dockworkers of Steamwheedle Port, Yeh'kinya presents himself as a quiet student of history and spirits. He recruits travelers to track down obscure magical items across Kalimdor and the Eastern Kingdoms, from ancient eggs in the Hinterlands to stone prophecy tablets buried in the ruins of Zul'Farrak. While he claims these errands serve peaceful academic inquiry into ancient troll history, his specific focus on the blood god Hakkar draws suspicion from watchful onlookers.",
+   "body": "Among Steamwheedle Port's goblins and dockworkers, Yeh'kinya studies history and spirits. He sends travelers across Kalimdor and the Eastern Kingdoms in search of rare magical items. Some are ancient eggs in the Hinterlands. Others are stone prophecy tablets buried in Zul'Farrak. Yeh'kinya says this work serves the peaceful study of ancient troll history, though his focus on the blood god Hakkar draws suspicion.",
    "spoiler": 0
   },
   {
    "title": "The Serpent's Deceit",
-   "body": "Beneath his scholarly guise, Yeh'kinya is a fanatical worshipper of Hakkar the Soulflayer. Every artifact and soul essence he gathers is carefully manipulated to prepare for the dread Blood God's physical rebirth into Azeroth. Once his plot is pieced together and exposed by Prospector Ironboot, Yeh'kinya sheds all pretense of friendship. Rather than answering for his treason, he transforms into a green wind serpent and flees across the open sea toward the south seas, leaving duped heroes to seek aid from the Zandalari on Yojamba Isle.",
+   "body": "Yeh'kinya worships Hakkar the Soulflayer beneath his scholar's guise. He gathers artifacts and soul essence to prepare the Blood God's physical rebirth in Azeroth. Prospector Ironboot pieces together the plot and exposes it. Then Yeh'kinya abandons any pretense of friendship. He transforms into a green wind serpent and flees south across the open sea. The duped heroes must seek aid from the Zandalari on Yojamba Isle.",
    "spoiler": 2
   }
  ],
@@ -29,7 +29,7 @@
     "who is yehkinya",
     "yehkinya npc"
    ],
-   "answer": "Yeh'kinya is a jungle troll found standing near the water at Steamwheedle Port in Tanaris. He presents himself as a scholar seeking historical relics and spirits, with a particular interest in the troll god Hakkar."
+   "answer": "At Steamwheedle Port in Tanaris, Yeh'kinya is a jungle troll who stands near the water. He presents himself as a scholar of historical relics and spirits, with particular interest in the troll god Hakkar."
   },
   {
    "q": "Why does Yeh'kinya want the Prophecy of Mosh'aru and the Ancient Egg?",
@@ -38,17 +38,17 @@
     "prophecy of mosharu troll",
     "yehkinya purpose"
    ],
-   "answer": "Yeh'kinya says he needs these artifacts for his study of ancient troll history and spirits. The Mosh'aru tablets lie in the ruins of Zul'Farrak and the Ancient Egg in the Hinterlands, and both tie into his interest in Hakkar."
+   "answer": "Yeh'kinya says the Prophecy of Mosh'aru and the Ancient Egg aid his study of ancient troll history and spirits. The tablets lie in Zul'Farrak's ruins, and the egg is in the Hinterlands. Both connect to his interest in Hakkar."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "Darkspear trolls recognize the mortal peril of Hakkar's resurgence."
+   "text": "As a Darkspear troll, you recognize the mortal peril of Hakkar's return."
   },
   {
    "target": "class:Priest",
-   "text": "Priests sensitive to spiritual essence may find Yeh'kinya's casual collection of trapped screecher spirits deeply troubling."
+   "text": "As a priest, you may find Yeh'kinya's casual gathering of trapped screecher spirits troubling if you are sensitive to spiritual essence."
   }
  ],
  "keywords": [
@@ -71,5 +71,6 @@
  ],
  "attribution": [
   "Yeh'kinya"
- ]
+ ],
+ "style": 2
 }

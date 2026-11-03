@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Darkspear Strand"
  },
- "summary": "At Darkspear Strand, the tribe’s refuge begins on Durotar’s southern coast. The trolls came ashore after exile from the Echo Isles and built Sen'jin Village nearby under Vol'jin’s leadership.",
+ "summary": "Darkspear Strand shelters the trolls who fled the Echo Isles. They came ashore on Durotar’s southern coast and built Sen'jin Village nearby under Vol'jin’s leadership.",
  "sections": [
   {
    "title": "A Shore of Exile",
-   "body": "The Darkspear trolls came ashore here after losing the Echo Isles. When witch doctor Zalazane seized their home, survivors crossed the narrow waters and landed on this coast. They gathered just yards inland rather than scatter into Durotar’s hostile red wastes, and built Sen'jin Village. The strand looks across the surf toward the islands they still hope to reclaim.",
+   "body": "The Darkspear trolls came ashore here after losing the Echo Isles. Witch doctor Zalazane seized their home, so the survivors crossed the narrow waters and landed on this coast. They gathered just yards inland rather than scatter through Durotar’s hostile red wastes. There, they built Sen'jin Village. The strand looks across the surf toward the islands they still hope to reclaim.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "darkspear strand lore",
     "what is this beach"
    ],
-   "answer": "The Darkspear trolls landed on this coast after fleeing the Echo Isles. When Zalazane turned against his people, survivors crossed the water and gathered nearby to establish Sen'jin Village."
+   "answer": "The Darkspear trolls landed on this coast after fleeing the Echo Isles. When Zalazane turned against his people, the survivors crossed the water and gathered nearby to establish Sen'jin Village."
   },
   {
    "q": "Why did the Darkspear leave the Echo Isles?",
@@ -32,7 +32,7 @@
     "zalazane exile",
     "echo isles evacuation"
    ],
-   "answer": "The Darkspear left the Echo Isles after witch doctor Zalazane betrayed his kin and enslaved the minds of his fellow tribesfolk with dark voodoo. Chief Vol'jin led the remaining uncorrupted trolls away to escape total subjugation, and they landed on this strand."
+   "answer": "The Darkspear left the Echo Isles after witch doctor Zalazane betrayed his kin and enslaved his fellow tribesfolk’s minds with dark voodoo. Chief Vol'jin led the remaining uncorrupted trolls away to escape total subjugation, and they landed on this strand."
   },
   {
    "q": "What settlement is located next to Darkspear Strand?",
@@ -47,11 +47,11 @@
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For Darkspear trolls, this shore recalls Zalazane’s betrayal and their escape to found Sen'jin Village."
+   "text": "As a Darkspear troll, this shore recalls Zalazane’s betrayal and your escape to found Sen'jin Village."
   },
   {
    "target": "faction:Horde",
-   "text": "For the Horde, this strand marks where the Darkspear made their place on Kalimdor’s southern coast beside their Orc allies after losing their island home."
+   "text": "As a member of the Horde, this strand marks where the Darkspear made their place on Kalimdor’s southern coast beside their Orc allies after losing their island home."
   }
  ],
  "keywords": [
@@ -72,5 +72,5 @@
  "attribution": [
   "Darkspear Strand"
  ],
- "style": 1
+ "style": 2
 }

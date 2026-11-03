@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Camp Taurajo"
  },
- "summary": "Camp Taurajo holds the eastern mouth of the pass into Mulgore. The tauren camp offers travelers an inn, supplies, mentors, and wind rider routes across the plains and central Kalimdor.",
+ "summary": "At Camp Taurajo, travelers find shelter and a road west into Mulgore. The tauren camp offers supplies, mentors, and wind rider routes across the plains and central Kalimdor.",
  "sections": [
   {
    "title": "Frontier of the Red Rocks",
-   "body": "At Camp Taurajo, you reach the eastern mouth of the pass into Mulgore. For young tauren leaving Bloodhoof Village, the camp is often their first glimpse of the wider Barrens. Dry scrubland and rugged mesas surround this outpost and trading hub. Hunters, leathercrafters, and field herbalists find shelter here, while wind riders connect the camp to Thunder Bluff, the Crossroads, and Freewind Post deeper south.",
+   "body": "From Camp Taurajo, you can take the pass west into Mulgore. For young tauren leaving Bloodhoof Village, the camp is often their first glimpse of the wider Barrens. Dry scrubland and rugged mesas surround this outpost and trading hub. Hunters, leathercrafters, and field herbalists find shelter here. Wind riders carry travelers to Thunder Bluff, the Crossroads, and Freewind Post farther south.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is taurajo",
     "taurajo lore"
    ],
-   "answer": "Camp Taurajo is a tauren settlement and outpost in the southern Barrens, between Mulgore and the Barrens' arid scrublands."
+   "answer": "Camp Taurajo is a tauren settlement and outpost in the southern Barrens, between Mulgore and the arid scrublands."
   },
   {
    "q": "Where does the road west lead?",
@@ -41,17 +41,17 @@
     "taurajo flight paths",
     "flight connections taurajo"
    ],
-   "answer": "Wind riders from Camp Taurajo travel to the Crossroads to the north, Thunder Bluff to the west, and Freewind Post in Thousand Needles to the south."
+   "answer": "Wind riders from Camp Taurajo travel north to the Crossroads, west to Thunder Bluff, and south to Freewind Post in Thousand Needles."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren leaving Mulgore for the first time, you find Camp Taurajo as the first friendly shelter on the Barrens' harsh plains."
+   "text": "As a tauren leaving Mulgore for the first time, you find Camp Taurajo as your first friendly shelter on the Barrens' harsh plains."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you can use Camp Taurajo's overland junction and flight path to connect Mulgore with the rest of Horde-controlled central Kalimdor."
+   "text": "As a member of the Horde, you can use Camp Taurajo's overland junction and flight path to reach Mulgore and the rest of Horde-controlled central Kalimdor."
   }
  ],
  "keywords": [
@@ -75,5 +75,5 @@
  "attribution": [
   "Camp Taurajo"
  ],
- "style": 1
+ "style": 2
 }

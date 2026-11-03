@@ -10,11 +10,11 @@
    "quest:131"
   ]
  },
- "summary": "In Lakeshire, Guard Parker sends a bouquet to thank Darcy for packing his lunch. Martie Jainrose gathers the flowers, and their choice stirs gossip between the two women.",
+ "summary": "In Lakeshire, Daffodil Bouquet carries Guard Parker’s thanks to Darcy for packing his lunch. Martie Jainrose gathers the flowers, and her choice stirs gossip between the two women.",
  "sections": [
   {
    "title": "A Tangled Token",
-   "body": "Guard Parker wants to thank Darcy at the Lakeshire inn for packing his daily lunch. He asks the town herbalist, Martie Jainrose, to prepare a bouquet of daffodils. Martie says they are her favorite flowers. Darcy recognizes them as Martie’s signature bloom and suspects jealousy. Half-joking, she wonders whether Martie poisoned the stems out of spite.",
+   "body": "Guard Parker wants to thank Darcy at the Lakeshire inn for packing his daily lunch. So he asks Martie Jainrose, the town herbalist, to prepare a bouquet of daffodils. Martie names them her favorite flowers. Darcy recognizes them as Martie’s signature bloom and suspects jealousy. Half-joking, she wonders if Martie poisoned the stems out of spite.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what do i do with daffodil bouquet",
     "who gets the daffodils"
    ],
-   "answer": "Guard Parker sends the bouquet to Darcy at the Lakeshire inn to thank her for packing and sending his lunch while he is on duty."
+   "answer": "Guard Parker sends Daffodil Bouquet to Darcy at the Lakeshire inn. It thanks her for packing and sending his lunch while he is on duty."
   },
   {
    "q": "Who prepared this bouquet?",
@@ -35,7 +35,7 @@
     "daffodil bouquet source",
     "where did the flowers come from"
    ],
-   "answer": "Martie Jainrose, Lakeshire’s herbalist, gathers and binds the bouquet on request. She chooses daffodils because they are her favorite flowers."
+   "answer": "Martie Jainrose, Lakeshire’s herbalist, gathers and binds the bouquet at Guard Parker’s request. She chooses daffodils because they are her favorite flowers."
   },
   {
    "q": "Why does Darcy react suspiciously to the flowers?",
@@ -44,7 +44,7 @@
     "darcy poisoned flowers",
     "darcy and martie rivalry"
    ],
-   "answer": "Darcy recognizes the daffodils as Martie’s favorite flowers, not a choice made especially for her. She calls Martie a jealous rival and jokes that the flowers might be tainted out of spite, but accepts the gesture."
+   "answer": "Darcy recognizes Martie’s favorite flowers and suspects they were not chosen especially for her. She calls Martie a jealous rival and jokes that the stems might be tainted out of spite, yet accepts the gesture."
   },
   {
    "q": "Are the daffodils actually poisoned?",
@@ -52,13 +52,13 @@
     "is the bouquet poisoned",
     "did martie poison the daffodils"
    ],
-   "answer": "No. Darcy’s suspicion is theatrical jealousy between the two women in Lakeshire. The flowers are harmless."
+   "answer": "No. The flowers are harmless. Darcy’s suspicion is theatrical jealousy between the two women in Lakeshire."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "As an herbalist in Lakeshire, you may recognize the bouquet as Martie Jainrose’s handiwork. She gathers wild flowers for her trade."
+   "text": "As an herbalist in Lakeshire, you may recognize Martie Jainrose’s handiwork. She gathers wild flowers for her trade."
   }
  ],
  "keywords": [
@@ -81,5 +81,5 @@
   "Daffodil Bouquet",
   "Delivering Daffodils"
  ],
- "style": 1
+ "style": 2
 }

@@ -27,16 +27,16 @@
    "Azuregos's Magical Ledger"
   ]
  },
- "summary": "At the freshly dug dirt where Narain Soothfancy's book should lie, a ransom note has been left in its place. You carry the letter back to Narain Soothfancy in Tanaris. This follows Draconic for Dummies.",
+ "summary": "At the freshly dug dirt in Tanaris, Narain Soothfancy’s book is gone, and a ransom note waits in its place. You carry the letter back to Narain after searching for the book in Draconic for Dummies.",
  "sections": [
   {
    "title": "A Note Made of Scraps",
-   "body": "The note is made up of many different typefaces glued onto parchment. It tells Narain, calling him a gnome, that his precious book is in the writers' hands and that he will see it again only by doing exactly as told. Detailed instructions fill three pages, closing with a demand to bring the money and come alone. You take the letter to Narain Soothfancy in Tanaris.",
+   "body": "Made from scraps of type, the ransom note tells Narain Soothfancy that its writers have his precious book. They call him a gnome and promise he will see it again only if he follows their orders exactly. Three pages give detailed instructions, ending with a demand that he bring the money and come alone. You carry the letter to Narain in Tanaris.",
    "spoiler": 0
   },
   {
    "title": "Narain's Answer",
-   "body": "Narain Soothfancy asks what the matter is, then reads the letter and his face glows bright red. He is outraged that anyone would snatch his book, and vows to show the culprits what it means to cross a psychic gnome.",
+   "body": "Narain Soothfancy asks what is wrong, then reads the letter. His face glows bright red. Outraged that someone has taken his book, he vows to show the culprits what it means to cross a psychic gnome.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "ransom letter text",
     "who took the book"
    ],
-   "answer": "The writers claim to have Narain's book, and he will see it again only if he does exactly as they ask. The instructions run three pages and end with a demand for money and for him to come alone. The note does not say who wrote it."
+   "answer": "The writers claim to have Narain Soothfancy’s book and promise he will see it again only if he follows their orders. Three pages of instructions end with a demand for money and that he come alone. The note does not name its writers."
   },
   {
    "q": "Where does this step lead next?",
@@ -57,7 +57,7 @@
     "ransom follow up",
     "next quest after ransom"
    ],
-   "answer": "Once the letter is with Narain Soothfancy in Tanaris, the chain carries on with Decoy!"
+   "answer": "After you bring the letter to Narain Soothfancy in Tanaris, the chain continues with Decoy!"
   },
   {
    "q": "What came before finding the ransom note?",
@@ -65,7 +65,7 @@
     "previous quest",
     "prereq for ransom"
    ],
-   "answer": "Draconic for Dummies comes before it, the search for Narain's buried book that ends at the freshly dug dirt."
+   "answer": "Draconic for Dummies comes first. You search for Narain’s buried book and reach the freshly dug dirt."
   }
  ],
  "angles": [],
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "RAnS0m"
- ]
+ ],
+ "style": 2
 }

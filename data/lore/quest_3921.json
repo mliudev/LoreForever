@@ -17,16 +17,16 @@
   "wiki": "Wenikee Boltbucket (Classic)",
   "chain": []
  },
- "summary": "Near the Mor'shan Rampart, Wenikee Boltbucket may be able to mend a broken samophlange. Sputtervalve tinkered with the device after it was retrieved from the Sludge Fen, and now needs an expert hand before his colleagues in Undermine demand results.",
+ "summary": "Near the Mor'shan Rampart, Sputtervalve needs Wenikee Boltbucket to mend a broken samophlange. He damaged it after it was retrieved from the Sludge Fen, and now his claims to his colleagues in Undermine hang on its repair.",
  "sections": [
   {
    "title": "A Delicate Mishap",
-   "body": "Sputtervalve's claims to his fellow engineers in Undermine now hang on a broken machine. An adventurer retrieved the mysterious samophlange from the Venture Company's control console at the Sludge Fen, and Sputtervalve could not resist showing it off. His tinkering damaged the delicate contraption. He needs someone with sharper skill to diagnose the damage and repair it.",
+   "body": "Sputtervalve's claims to his fellow engineers in Undermine rest on a broken machine. An adventurer retrieved the mysterious samophlange from the Venture Company's control console at the Sludge Fen. Sputtervalve could not resist showing it off, and his tinkering damaged the delicate contraption. Now he needs someone with sharper skill to find the fault and repair it.",
    "spoiler": 0
   },
   {
    "title": "The Tinkerer by the Rampart",
-   "body": "Wenikee Boltbucket camps beside the road just south of the Mor'shan Rampart. The rampart divides the northern Barrens from Ashenvale. Her inquisitive mind is drawn to intricate machinery, and the broken samophlange quickly captures her attention. Its internal gears hold her curiosity, and she sets to work figuring out how to rebuild it.",
+   "body": "Wenikee Boltbucket camps beside the road just south of the Mor'shan Rampart, which divides the northern Barrens from Ashenvale. Her curious mind is drawn to intricate machinery, and the broken samophlange quickly catches her attention. Its inner gears fascinate her, so she sets to work figuring out how to rebuild it.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "how did it break",
     "sputtervalve broke it"
    ],
-   "answer": "Sputtervalve damaged the samophlange while examining and tinkering with it after it was recovered from the Sludge Fen control console."
+   "answer": "Sputtervalve damaged the samophlange while examining and tinkering with it after its recovery from the Sludge Fen control console."
   },
   {
    "q": "Who is Wenikee Boltbucket?",
@@ -47,7 +47,7 @@
     "boltbucket location",
     "where is wenikee"
    ],
-   "answer": "Wenikee Boltbucket is an inventive goblin tinkerer camped just south of the Mor'shan Rampart, on the border between the northern Barrens and Ashenvale. She is known for her skill with complex machinery."
+   "answer": "Wenikee Boltbucket is an inventive goblin tinkerer camped just south of the Mor'shan Rampart, on the border between the northern Barrens and Ashenvale. She is skilled with complex machinery."
   },
   {
    "q": "Why does Sputtervalve care so much about fixing it?",
@@ -56,7 +56,7 @@
     "sputtervalve undermine",
     "why does he care"
    ],
-   "answer": "Sputtervalve bragged to his colleagues in Undermine that he had secured the device. If he cannot deliver a working samophlange, his reputation and professional standing will suffer."
+   "answer": "Sputtervalve bragged to his colleagues in Undermine that he had secured the device. Without a working samophlange to deliver, his reputation and professional standing will suffer."
   },
   {
    "q": "Does Wenikee know what a samophlange actually does?",
@@ -64,7 +64,7 @@
     "does she know what it is",
     "what is a samophlange to her"
    ],
-   "answer": "No. When Wenikee first sees the samophlange, she asks what it is. Its intricate gears fascinate her, and she wants to repair it to see what it does."
+   "answer": "No. When Wenikee first sees the samophlange, she asks what it is. Its intricate gears fascinate her, and she wants to repair it to learn what it does."
   },
   {
    "q": "Where is the Mor'shan Rampart located?",
@@ -82,7 +82,7 @@
     "nugget slugs",
     "samophlange next step"
    ],
-   "answer": "Wenikee agrees to repair the samophlange, intrigued by its construction. She needs specific mechanical parts, beginning with nugget slugs kept in Venture Company tool buckets at the Sludge Fen, to get the gears working again."
+   "answer": "Wenikee agrees to repair the samophlange, intrigued by its construction. She needs specific mechanical parts to get the gears working again, beginning with nugget slugs kept in Venture Company tool buckets at the Sludge Fen."
   }
  ],
  "angles": [
@@ -116,5 +116,5 @@
  "attribution": [
   "Wenikee Boltbucket (Classic)"
  ],
- "style": 1
+ "style": 2
 }

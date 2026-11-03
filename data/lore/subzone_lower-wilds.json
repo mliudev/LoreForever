@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Lower Wilds"
  },
- "summary": "The Lower Wilds form the eastern threshold of Feralas, where the humid forests meet the arid canyons of Thousand Needles. The main road cutting through these woods connects Thalanaar at the border to the settlements further west, flanked by ancient greenery and unpredictable woodland creatures.",
+ "summary": "In eastern Feralas, the road runs west from Thalanaar toward the settlements beyond. Humid forest gives way to the dry canyons of Thousand Needles.",
  "sections": [
   {
    "title": "The Eastern Frontier",
-   "body": "Spanning the eastern reaches of Feralas, the Lower Wilds serve as the natural transition between the sun-baked ravines of Thousand Needles and the deep, primordial jungle to the west. Travelers entering the zone must traverse this stretch of forest along the main highway, past the elven outpost of Thalanaar guarding the mountain pass. The dense canopies here house ancient treants, alongside indigenous wildlife that makes straying from the beaten path perilous.",
+   "body": "At Thalanaar, night elves guard the mountain pass where the road enters Feralas from Thousand Needles. You travel west beneath dense canopies, with ancient treants and native wildlife in the woods around you. Leave the road, and the forest grows perilous.",
    "spoiler": 0
   },
   {
    "title": "A Contested Highway",
-   "body": "Because it links the southern wilderness to the eastern territories, the Lower Wilds see frequent movement of travelers, scouts, and couriers. While the night elves hold the gateway at Thalanaar, the Horde maintains Camp Mojache further inland. The road winding through the Lower Wilds is therefore a critical lifeline for anyone moving supplies across southern Kalimdor, fraught with both nature's hazards and faction tensions.",
+   "body": "Travelers, scouts, and couriers use the Lower Wilds road between southern wilderness and eastern territories. Night elves hold Thalanaar at the gateway, while the Horde keeps Camp Mojache further inland. The road carries supplies across southern Kalimdor, though woodland dangers and faction tensions make the journey fraught.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is lower wilds",
     "how to get to lower wilds"
    ],
-   "answer": "The Lower Wilds make up the easternmost expanse of Feralas. They immediately border Thousand Needles, stretching westward from the mountain threshold of Thalanaar toward the interior of the jungle."
+   "answer": "The Lower Wilds stretch across eastern Feralas beside Thousand Needles. From Thalanaar at the mountain pass, the road runs west into the jungle."
   },
   {
    "q": "What creatures live in the Lower Wilds?",
@@ -37,7 +37,7 @@
     "what is in lower wilds",
     "lower wilds enemies"
    ],
-   "answer": "The woodlands are inhabited by ancient forest guardians, including treants, as well as the native predatory beasts that roam the feral forest floor."
+   "answer": "Ancient treants and native predatory beasts live among the woods and across the forest floor of the Lower Wilds."
   },
   {
    "q": "Which settlements are close to the Lower Wilds?",
@@ -46,7 +46,7 @@
     "camps near lower wilds",
     "horde alliance towns lower wilds"
    ],
-   "answer": "At the far eastern border sits the night elf outpost of Thalanaar, serving as the Alliance's primary entrance into Feralas. Further west along the road lies the Horde settlement of Camp Mojache."
+   "answer": "Thalanaar sits at the far eastern border, and Camp Mojache lies further west along the road."
   },
   {
    "q": "Is the road through the Lower Wilds safe?",
@@ -54,17 +54,17 @@
     "is lower wilds safe",
     "lower wilds road safety"
    ],
-   "answer": "The road itself is the safest route through the region, but travelers should stay alert. Straying off the path invites attacks from aggressive forest fauna and territorial guardians, and rival faction skirmishes occasionally spill across the highway."
+   "answer": "The road is the safest route through the Lower Wilds, but stay alert. Forest beasts, territorial guardians, and faction skirmishes threaten travelers."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance travelers leaving Thousand Needles, the Lower Wilds are their first sight of Feralas, anchored by the night elf frontier outpost at Thalanaar."
+   "text": "As an Alliance traveler leaving Thousand Needles, you enter Feralas through the Lower Wilds, with Thalanaar at the frontier."
   },
   {
    "target": "faction:Horde",
-   "text": "Horde messengers and supply lines traveling to Camp Mojache must navigate the length of the Lower Wilds after descending from the border canyons."
+   "text": "As a Horde messenger or supplier bound for Camp Mojache, you travel the length of the Lower Wilds after descending from the border canyons."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Lower Wilds"
- ]
+ ],
+ "style": 2
 }

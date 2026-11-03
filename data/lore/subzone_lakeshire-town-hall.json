@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Lakeshire Town Hall"
  },
- "summary": "At Lakeshire Town Hall, Magistrate Solomon directs Redridge's affairs from the heart of Lakeshire. Blackrock orcs and gnolls bring relentless threats to the lakeside settlement.",
+ "summary": "At Lakeshire Town Hall, Magistrate Solomon directs Redridge's affairs from the heart of Lakeshire. Blackrock orcs and gnolls threaten the lakeside settlement.",
  "sections": [
   {
    "title": "Seat of Redridge Governance",
-   "body": "Lakeshire Town Hall, an aging stone building, has been refurbished many times over the years. It stands prominently in Lakeshire and houses Magistrate Solomon, a kind and dedicated civil leader who maintains order in the eastern reaches of the Kingdom of Stormwind. Stormwind's military is stretched thin, and royal aid is scarce. The hall has changed from a quiet administrative office into an active command center, where desperate appeals for volunteer defenders and mercenaries are processed daily.",
+   "body": "Lakeshire Town Hall has been refurbished many times over the years. The aging stone building stands prominently in Lakeshire, where it once served as a quiet administrative office. It houses Magistrate Solomon, a kind and dedicated civil leader who keeps order in the eastern reaches of the Kingdom of Stormwind.\n\nNow Stormwind's military is stretched thin and royal aid is scarce. The hall has become an active command center, where desperate appeals for volunteer defenders and mercenaries are handled each day.",
    "spoiler": 0
   },
   {
    "title": "Under Siege and Overwhelmed",
-   "body": "Gnoll incursions and the encroaching Blackrock orcs have driven Magistrate Solomon to desperation. With aid scarce, he readily accepts help from independent adventurers who come through the town hall doors.",
+   "body": "Gnoll incursions and advancing Blackrock orcs have driven Magistrate Solomon to desperation. With aid scarce, he readily accepts help from independent adventurers who come through the town hall doors.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "lakeshire problems",
     "why are there so many quests here"
    ],
-   "answer": "Lakeshire faces severe, mounting threats from local gnoll packs and hostile Blackrock orc warbands. Stormwind has provided minimal military reinforcements, so Magistrate Solomon must hire passing adventurers to defend the region."
+   "answer": "Lakeshire faces severe and mounting threats from local gnoll packs and hostile Blackrock orc warbands. Stormwind has sent few military reinforcements, so Magistrate Solomon must hire passing adventurers to defend the region."
   },
   {
    "q": "Why does Solomon accept help from travelers?",
@@ -46,7 +46,7 @@
     "lakeshire adventurers",
     "town hall help"
    ],
-   "answer": "Gnoll incursions and the encroaching Blackrock orcs have left Magistrate Solomon desperate. He readily accepts help from independent adventurers who come through the town hall doors."
+   "answer": "Gnoll incursions and advancing Blackrock orcs have left Magistrate Solomon desperate. He readily accepts help from independent adventurers who come through the town hall doors."
   },
   {
    "q": "Has Lakeshire Town Hall stood for a long time?",
@@ -55,17 +55,17 @@
     "how old is lakeshire town hall",
     "town hall history"
    ],
-   "answer": "Yes. The aging building has survived turbulent decades and undergone diligent repairs and refurbishments to keep it functioning as Redridge's civic center."
+   "answer": "Yes. The aging building has endured turbulent decades and undergone repairs and refurbishments to keep it functioning as Redridge's civic center."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, Lakeshire Town Hall marks the eastern frontier in Redridge, a beleaguered outpost holding the line without royal support from Stormwind."
+   "text": "For the Alliance, Lakeshire Town Hall marks Redridge's eastern frontier. This beleaguered outpost holds the line without royal support from Stormwind."
   },
   {
    "target": "race:Human",
-   "text": "As a human of Stormwind, you see in this refurbished hall the enduring spirit of rural settlements and the frustration regional administrators feel when the capital turns a blind eye."
+   "text": "As a human of Stormwind, you see in this refurbished hall the enduring spirit of rural settlements. You also see the frustration regional administrators feel when the capital turns a blind eye."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
  "attribution": [
   "Lakeshire Town Hall"
  ],
- "style": 1
+ "style": 2
 }

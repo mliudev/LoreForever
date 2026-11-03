@@ -11,12 +11,12 @@
  "sections": [
   {
    "title": "Sanctuary of the Moon Goddess",
-   "body": "Built soon after the Third War, the Temple of the Moon rose as the night elves settled Teldrassil. It is among the largest stone structures made by modern kaldorei hands. Its marble came from quarries on the Kalimdor mainland and crossed the sea by magical means. At the heart of the temple, a broad moonwell rests beneath the statue of Haidene. Pilgrims come to worship and reflect beside its consecrated waters. The temple also holds Darnassus's highest seat of government, where High Priestess Tyrande Whisperwind guides her people through a new age.",
+   "body": "Built soon after the Third War, the Temple of the Moon rose as the night elves made their home on Teldrassil. It is among the largest stone works made by modern kaldorei hands. Its marble came from quarries on the Kalimdor mainland and crossed the sea by magical means.\n\nAt the temple's heart, a broad moonwell rests beneath the statue of Haidene. Pilgrims come to worship and reflect beside its consecrated waters. The temple also holds Darnassus's highest seat of government, where High Priestess Tyrande Whisperwind guides her people through a new age.",
    "spoiler": 0
   },
   {
    "title": "The Sisterhood's Bastion",
-   "body": "The priestesses of the Sisterhood of Elune serve their goddess from the temple's terraces, in worship and in the field. Emissaries and dispatched sisters travel across northern Kalimdor to investigate threats or aid local sentinels. Priestess Gwennyth Bly'Leggonde, for example, makes inquiries along the Darkshore coastline. Novices and veteran priestesses gather beneath the starry vaulted ceiling to learn divine spellwork, tend the wounded, and guard the sanctum from outside corruption.",
+   "body": "The priestesses of the Sisterhood of Elune serve their goddess from the temple terraces, in worship and in the field. Emissaries and dispatched sisters travel across northern Kalimdor to investigate threats or aid local sentinels. Priestess Gwennyth Bly'Leggonde, for example, makes inquiries along the Darkshore coastline.\n\nNovices and veteran priestesses gather beneath the starry vaulted ceiling to learn divine spellwork, tend the wounded, and guard the sanctum from outside corruption.",
    "spoiler": 0
   }
  ],
@@ -58,11 +58,11 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "For an Alliance priest, especially a night elf, the Temple of the Moon is the foremost source of Elune's divine mandate and home to the highest priestly trainers."
+   "text": "As an Alliance priest, especially a night elf, you find the foremost source of Elune's divine mandate at the Temple of the Moon, along with the highest priestly trainers."
   },
   {
    "target": "race:NightElf",
-   "text": "For a night elf, the Temple of the Moon brings together kaldorei civic and spiritual life, the Sisterhood of Elune, and Teldrassil's government."
+   "text": "As a night elf, you find kaldorei civic and spiritual life gathered at the Temple of the Moon, along with the Sisterhood of Elune and Teldrassil's government."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
  "attribution": [
   "Temple of the Moon"
  ],
- "style": 1
+ "style": 2
 }

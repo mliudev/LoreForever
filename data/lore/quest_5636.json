@@ -17,16 +17,16 @@
   "wiki": "Desperate Prayer (Dolanaar)",
   "chain": []
  },
- "summary": "In Dolanaar, Laurna Morninglight sends human priests home to Stormwind for further training. A fellow priest has crossed continents to summon them to the Cathedral of Light.",
+ "summary": "In Dolanaar, word from home calls human priests back to Stormwind for further training. A fellow priest has crossed continents to summon them to the Cathedral of Light.",
  "sections": [
   {
    "title": "A Message from Home",
-   "body": "In Dolanaar, Priestess Laurna Morninglight brings you word from home. A fellow priest has crossed continents to find you, and Laurna urges you to return without delay. She offers Elune’s blessing and good wishes for your faith as you leave Teldrassil.",
+   "body": "In Dolanaar, Priestess Laurna Morninglight brings you a message from home. A fellow priest has crossed continents to find you, so Laurna urges you to return without delay. She offers Elune’s blessing and good wishes for your faith as you leave Teldrassil.",
    "spoiler": 0
   },
   {
    "title": "The Summons to Stormwind",
-   "body": "Your path leads across the Great Sea to Stormwind City’s Cathedral of Light. High Priestess Laurena guides the Alliance faithful in their spiritual growth. She summons promising acolytes to deepen their devotion and learn Desperate Prayer, an emergency prayer that can save a life in a darkest hour.",
+   "body": "Your road leads across the Great Sea to the Cathedral of Light in Stormwind City. High Priestess Laurena guides the Alliance faithful in their spiritual growth. She summons promising acolytes to deepen their devotion and learn Desperate Prayer, an emergency prayer that can save a life in its darkest hour.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "desperate prayer quest giver teldrassil",
     "laurna morninglight quest"
    ],
-   "answer": "Laurna Morninglight, a night elf priest trainer in Dolanaar, sends you word from home. A visiting priest has left an urgent message for you."
+   "answer": "Laurna Morninglight, the night elf priest trainer in Dolanaar, sends word from home. A visiting priest has left an urgent message for you."
   },
   {
    "q": "Where does this quest lead?",
@@ -55,7 +55,7 @@
     "why does a night elf send me to stormwind",
     "night elf holy light"
    ],
-   "answer": "Laurna Morninglight respects the faith of foreign priests who visit Teldrassil. She passes along messages from the religious leaders in their homelands, even though night elf priests revere Elune."
+   "answer": "Laurna Morninglight respects the faith of foreign priests visiting Teldrassil. She passes along messages from religious leaders in their homelands, though night elf priests revere Elune."
   },
   {
    "q": "What is the reward for completing this quest?",
@@ -63,7 +63,7 @@
     "desperate prayer reward",
     "what spell do i get"
    ],
-   "answer": "You gain access to spiritual mentorship and can learn Desperate Prayer, an instantaneous healing prayer from High Priestess Laurena."
+   "answer": "You gain spiritual mentorship and can learn Desperate Prayer from High Priestess Laurena, an instantaneous healing prayer."
   },
   {
    "q": "Can night elf priests take this specific quest?",
@@ -93,7 +93,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you revere Elune, and Priestess Laurna Morninglight still respects foreign followers of the Holy Light beneath Teldrassil’s boughs."
+   "text": "As a night elf, you revere Elune. Priestess Laurna Morninglight still respects foreign followers of the Holy Light beneath Teldrassil’s boughs."
   }
  ],
  "keywords": [
@@ -118,5 +118,5 @@
  "attribution": [
   "Desperate Prayer (Dolanaar)"
  ],
- "style": 1
+ "style": 2
 }

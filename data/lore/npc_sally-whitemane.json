@@ -8,16 +8,16 @@
   "wiki": "Sally Whitemane",
   "refs": 5
  },
- "summary": "Whitemane is the High Inquisitor of the Scarlet Crusade, presiding over the Cathedral of the Scarlet Monastery. A powerful priestess of the Holy Light, her consuming hatred for the undead drives the Crusade's uncompromising zealotry. Together with Scarlet Commander Renault Mograine, she directs the order's military and ideological campaigns across Lordaeron.",
+ "summary": "At the Scarlet Monastery, High Inquisitor Whitemane directs the Crusade from its Cathedral. A priestess of the Holy Light, she drives the order’s zeal with a consuming hatred of the undead. Alongside Scarlet Commander Renault Mograine, she leads its military and ideological campaigns across Lordaeron.",
  "sections": [
   {
    "title": "High Inquisitor of the Crusade",
-   "body": "Rising rapidly through the Scarlet Crusade's hierarchy, Whitemane became its High Inquisitor and took command of the Scarlet Monastery's grand Cathedral. Renowned for her fearsome mastery of Holy magic, she has become one of the Crusade's foremost symbols through her absolute conviction, wielding the Light as an unrelenting weapon against any deemed unclean.",
+   "body": "Whitemane rose swiftly through the Scarlet Crusade. Now she commands the grand Cathedral of the Scarlet Monastery as its High Inquisitor. Her mastery of Holy magic is feared, and her unshakable conviction makes her one of the Crusade’s foremost symbols. She brings the Light against all she deems unclean without mercy.",
    "spoiler": 0
   },
   {
    "title": "Targets in the Cathedral",
-   "body": "By 25 ADP, Whitemane's fanaticism has drawn enemies from both factions. In Southshore, Raleigh the Devout believes the Crusade has strayed irreparably into corruption and madness, calling for the elimination of Whitemane and Mograine to restore the order's founding virtues. Meanwhile, within the Undercity, the dreadlord Varimathras orchestrates strikes against the Monastery to crush the zealots operating directly on the Forsaken's doorstep.",
+   "body": "After the Third War, Whitemane’s fanaticism has made enemies on both sides. In Southshore, Raleigh the Devout believes the Crusade has fallen into corruption and madness. He calls for Whitemane and Mograine to be eliminated so the order may return to its founding virtues.\n\nIn the Undercity, dreadlord Varimathras directs attacks on the Monastery. He means to crush the zealots working on the Forsaken’s doorstep.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is high inquisitor whitemane",
     "scarlet monastery boss"
    ],
-   "answer": "Whitemane is the High Inquisitor of the Scarlet Crusade. She commands the order's spiritual and inquisitorial efforts from the Cathedral inside the Scarlet Monastery in Tirisfal Glades, fighting alongside Commander Renault Mograine."
+   "answer": "Whitemane leads the Scarlet Crusade as its High Inquisitor. From the Cathedral inside the Scarlet Monastery in Tirisfal Glades, she commands the order’s spiritual and inquisitorial efforts alongside Commander Renault Mograine."
   },
   {
    "q": "Why does Whitemane hate the undead so much?",
@@ -38,7 +38,7 @@
     "whitemane backstory",
     "whitemane family"
    ],
-   "answer": "Her hatred mirrors the Scarlet Crusade's own creed. The order rose from the survivors of Lordaeron's fall to the plague of undeath, and it treats every undead, mindless or free-willed, as an abomination to be purged. Whitemane wields the Holy Light as its most relentless weapon in that war."
+   "answer": "Whitemane’s hatred follows the Scarlet Crusade’s creed. The order rose from survivors of Lordaeron’s fall to the plague of undeath, and calls every undead an abomination to be purged, whether mindless or free-willed. Whitemane wields the Holy Light relentlessly in that war."
   },
   {
    "q": "Why does the Alliance want Whitemane dead?",
@@ -47,7 +47,7 @@
     "why kill whitemane alliance",
     "in the name of the light quest"
    ],
-   "answer": "Raleigh the Devout, a former Crusader in Southshore, believes the Scarlet Crusade has devolved into paranoia and madness. He asks Alliance champions to eliminate Whitemane and Mograine so the order can potentially return to its honorable origins."
+   "answer": "Raleigh the Devout, a former Crusader in Southshore, believes the Scarlet Crusade has sunk into paranoia and madness. He asks Alliance champions to eliminate Whitemane and Mograine, hoping the order can return to its honorable origins."
   },
   {
    "q": "Why does the Horde want Whitemane dead?",
@@ -56,7 +56,7 @@
     "into the scarlet monastery",
     "why horde kills whitemane"
    ],
-   "answer": "Varimathras and the Forsaken in the Undercity view the Scarlet Crusade as an active, hostile presence right outside their capital. The dreadlord orders her death to shatter the Monastery's leadership and remove an immediate threat to the Forsaken realm."
+   "answer": "Varimathras and the Forsaken in the Undercity see the Scarlet Crusade as a hostile force at their capital’s doorstep. The dreadlord orders Whitemane’s death to break the Monastery’s leadership and remove an immediate threat to the Forsaken realm."
   },
   {
    "q": "What is Whitemane's relationship with Renault Mograine?",
@@ -64,25 +64,25 @@
     "whitemane and mograine",
     "commander mograine and whitemane"
    ],
-   "answer": "Whitemane and Renault Mograine are the dual leaders of the Scarlet Monastery. Fighting side by side in the Cathedral, they share an intimate bond and mutual devotion to the Crusade's crusade against undeath."
+   "answer": "Whitemane and Renault Mograine lead the Scarlet Monastery together. They fight side by side in the Cathedral, bound by an intimate bond and mutual devotion to the Crusade’s war against undeath."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "Whitemane demonstrates the terrifying power of the Holy Light when fused with unbending zealotry, serving as a cautionary example of how conviction can transform into fanatical ruthlessness."
+   "text": "For a priest, Whitemane shows the terrible power of the Holy Light joined to unbending zeal. Her example warns how conviction can harden into fanatical ruthlessness."
   },
   {
    "target": "class:Paladin",
-   "text": "To paladins of the Silver Hand, Whitemane's leadership exemplifies the tragic corruption of Lordaeron's defenders, who abandoned mercy and justice in favor of indiscriminate purges."
+   "text": "To paladins of the Silver Hand, Whitemane’s leadership shows how Lordaeron’s defenders were corrupted. They abandoned mercy and justice for indiscriminate purges."
   },
   {
    "target": "race:Undead",
-   "text": "To the Forsaken, Whitemane embodies the Crusade's refusal to distinguish between mindless Scourge and free-willed undead, making her destruction essential for the survival of the Undercity."
+   "text": "To the Forsaken, Whitemane embodies the Crusade’s refusal to distinguish mindless Scourge from free-willed undead. Her destruction is essential to the Undercity’s survival."
   },
   {
    "target": "faction:Alliance",
-   "text": "Though she was once an Alliance citizen of Lordaeron, Whitemane's Crusade now attacks any outsiders who approach their lands, forcing Southshore's loyalists to confront the monsters their former kin have become."
+   "text": "Whitemane was once an Alliance citizen of Lordaeron. Her Crusade now attacks outsiders who approach its lands, forcing Southshore’s loyalists to face what their former kin have become."
   }
  ],
  "keywords": [
@@ -106,5 +106,6 @@
  ],
  "attribution": [
   "Sally Whitemane"
- ]
+ ],
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Raene's Cleansing (3)",
   "chain": []
  },
- "summary": "A Glowing Gem brings Raene's Cleansing to a turning point in Ashenvale. Raene Wolfrunner sends you east of Iris Lake to ask the dryad Shael'dryn how Dartol's ancient rod can be restored.",
+ "summary": "In Ashenvale, Raene Wolfrunner seeks a way to restore Dartol's ancient rod. A Glowing Gem has brought her to Shael'dryn, a dryad east of Iris Lake.",
  "sections": [
   {
    "title": "A Clue in Teronis's Notes",
-   "body": "Raene Wolfrunner studies the field notes left by the sentinel Teronis, who died while investigating Ashenvale's troubled furbolgs. His research points to an ancient rod crafted by a night elf named Dartol. Raene has recovered a Glowing Gem, but her skill as a huntress cannot unravel the arcane and natural mysteries surrounding the relic.",
+   "body": "Raene Wolfrunner studies the field notes of Teronis, the sentinel who died investigating Ashenvale's troubled furbolgs. His work points to an ancient rod made by a night elf named Dartol. Raene has found a Glowing Gem, yet her skill as a huntress cannot explain the relic's arcane and natural mysteries.",
    "spoiler": 0
   },
   {
    "title": "Seeking the Daughters of Cenarius",
-   "body": "Raene sends you northeast toward Iris Lake to seek Shael'dryn, a dryad who dwells beside a moonwell. As one of the Daughters of Cenarius, Shael'dryn understands the forest and ancient relics. Bring her the Glowing Gem, and she may reveal what else is needed to restore Dartol's Rod.",
+   "body": "Raene sends you northeast toward Iris Lake to find Shael'dryn, a dryad who lives beside a moonwell. As one of the Daughters of Cenarius, Shael'dryn understands the forest and its ancient relics. Bring her the Glowing Gem, and she may tell you what else is needed to restore Dartol's Rod.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "teronis notes",
     "who is teronis"
    ],
-   "answer": "Teronis was a night elf scout sent by Astranaar to investigate the corruption spreading through Ashenvale. He died on that mission, but his recovered journal offered a clue: restoring Dartol's Rod might help the land."
+   "answer": "Teronis was a night elf scout sent by Astranaar to investigate the corruption spreading through Ashenvale. He died on that mission, but his journal offered a clue: restoring Dartol's Rod might help the land."
   },
   {
    "q": "What is Dartol's Rod?",
@@ -47,7 +47,7 @@
     "what is the rod",
     "rod of dartol"
    ],
-   "answer": "Dartol's Rod is an ancient magical artifact that Raene Wolfrunner hopes will aid her investigation of Ashenvale's furbolgs. The recovered Glowing Gem is one piece needed to restore it."
+   "answer": "Dartol's Rod is an ancient magical artifact Raene Wolfrunner hopes will aid her investigation of Ashenvale's furbolgs. The Glowing Gem she recovered is one piece needed to restore it."
   },
   {
    "q": "Where can I find Shael'dryn?",
@@ -65,7 +65,7 @@
     "what is the gem for",
     "teronis gem"
    ],
-   "answer": "The Glowing Gem is one piece of Dartol's Rod, recovered from the ruins of Teronis's investigation. Shael'dryn needs it to discover the rod's other pieces."
+   "answer": "The Glowing Gem is one piece of Dartol's Rod, recovered from the ruins where Teronis investigated. Shael'dryn needs it to discover what other pieces the rod requires."
   },
   {
    "q": "Why does Raene Wolfrunner send you to a dryad?",
@@ -74,7 +74,7 @@
     "raene wolfrunner dryad",
     "why shael'dryn"
    ],
-   "answer": "Raene Wolfrunner is a huntress and leader of Astranaar's sentinels, focused on defending the town. Dryads, the Daughters of Cenarius, understand ancient relics and the restoration of nature."
+   "answer": "Raene Wolfrunner is a huntress and leader of Astranaar's sentinels, intent on defending the town. Dryads, the Daughters of Cenarius, understand ancient relics and the restoration of nature."
   },
   {
    "q": "Why is the forest around Iris Lake in danger?",
@@ -122,5 +122,5 @@
  "attribution": [
   "Raene's Cleansing (3)"
  ],
- "style": 1
+ "style": 2
 }

@@ -15,12 +15,12 @@
  "sections": [
   {
    "title": "A Courier's Cargo",
-   "body": "Zargh, an orc butcher and hunter at the Crossroads in the Barrens, prepares fresh cuts for Gryshka, the innkeeper in Orgrimmar's Valley of Strength. The heat across the savannas can spoil fresh game quickly, so the parcel goes with couriers bound for the Crossroads roost. Wind Rider Master Devrak arranges a wyvern flight to Orgrimmar's Skytower, sparing travelers the long overland journey through Durotar.",
+   "body": "Zargh hunts and butchers at the Crossroads in the Barrens, preparing fresh cuts for Gryshka, the innkeeper in Orgrimmar's Valley of Strength. The savanna heat can spoil game quickly, so couriers carry the parcel to the Crossroads roost. There, Wind Rider Master Devrak arranges a wyvern flight to Orgrimmar's Skytower. The flight spares travelers the long overland journey through Durotar.",
    "spoiler": 0
   },
   {
    "title": "A Way to the Heart",
-   "body": "Zargh's delivery carries a personal sentiment along with its provisions. When Gryshka receives the meat, she recognizes Zargh's knack for winning a lady's favor with quality game. She is eager to prepare the cuts for the inn's patrons and guests. For newly arrived orc and troll travelers, the delivery offers an introduction to long-distance flight between Kalimdor's Horde settlements.",
+   "body": "Zargh sends more than provisions with his delivery. When Gryshka receives the meat, she recognizes his knack for winning a lady's favor with quality game. She is eager to prepare the cuts for the inn's patrons and guests. For newly arrived orc and troll travelers, the delivery gives a reason to learn long-distance flight between Kalimdor's Horde settlements.",
    "spoiler": 0
   }
  ],
@@ -96,5 +96,5 @@
   "Meats to Orgrimmar (Classic)",
   "Ride to Orgrimmar (Classic)"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Bramblescar"
  },
- "summary": "Across the southern Barrens, Bramblescar's Razormane wage war with the Bristleback across the Gold Road. Thick brambles fortify their settlement.",
+ "summary": "Across the southern Barrens, Razormane warriors at Bramblescar fight the Bristleback across the Gold Road. Thick brambles guard their settlement.",
  "sections": [
   {
    "title": "A Thorned Redoubt",
-   "body": "Bramblescar is carved into the jagged briars of the southern Barrens. The thick, sharp thorns make a vital redoubt for the Razormane quilboar and deter casual wanderers. The tribe is fiercely territorial and hostile to outsiders. They skirmish with anyone who approaches, treating all who are not quilboar as intruders on land blessed by their ancient boar gods.",
+   "body": "In the southern Barrens, sharp briars form a redoubt for the Razormane quilboar. Their thick thorns keep casual wanderers away. The tribe guards its territory fiercely and treats outsiders as intruders on land blessed by their ancient boar gods.",
    "spoiler": 0
   },
   {
    "title": "Tribal Blood Feud",
-   "body": "Bramblescar sits in perpetual tension with Agama'gor, the Bristleback encampment directly across the Gold Road. The rival tribes wage an unrelenting war for dominion over the southern Barrens. Razormane warriors fight Horde travelers along the highway and repel Bristleback raiding parties, keeping them on constant, violent alert.",
+   "body": "Across the Gold Road from Bramblescar lies Agama'gor, the Bristleback encampment. The two tribes wage an unrelenting war for dominion over the southern Barrens. Razormane warriors fight Horde travelers along the highway and turn back Bristleback raiding parties. So the tribes remain in constant, violent conflict.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "bramblescar mobs",
     "bramblescar quilboar"
    ],
-   "answer": "The Razormane tribe of quilboar lives in Bramblescar. They defend their thorn-choked encampment from rival quilboar and travelers passing through."
+   "answer": "The Razormane tribe of quilboar lives in Bramblescar. They defend their thorn-choked encampment from rival quilboar and passing travelers."
   },
   {
    "q": "Why are the quilboar here fighting each other?",
@@ -37,7 +37,7 @@
     "razormane vs bristleback",
     "quilboar war"
    ],
-   "answer": "The Razormane of Bramblescar and the Bristleback across the road at Agama'gor are bitter enemies, locked in a fierce territorial feud for control of the southern Barrens."
+   "answer": "The Razormane of Bramblescar and the Bristleback at Agama'gor are bitter enemies. They fight for control of the southern Barrens."
   },
   {
    "q": "Where is Bramblescar located?",
@@ -54,7 +54,7 @@
     "is bramblescar friendly",
     "horde reputation bramblescar"
    ],
-   "answer": "Yes. The Razormane view the Horde as invaders on their sacred tribal lands and attack any traveler who wanders close."
+   "answer": "Yes. The Razormane see the Horde as invaders on their sacred tribal lands. They attack travelers who come too close."
   }
  ],
  "angles": [
@@ -80,5 +80,5 @@
  "attribution": [
   "Bramblescar"
  ],
- "style": 1
+ "style": 2
 }

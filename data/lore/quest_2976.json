@@ -25,16 +25,16 @@
   ],
   "category": "Feralas"
  },
- "summary": "Krueg Skullsplitter admits to having mentioned a bounty, and says the one who did the work deserves the best of the payoff. The horns are put in a crate for you to carry to Belgrom Rockmaul, found in the Valley of Honor in Orgrimmar, who will want your account. This follows the first A Grim Discovery.",
+ "summary": "In Orgrimmar, Belgrom Rockmaul awaits the Grimtotem horns and your account of Feralas. Krueg Skullsplitter says you did the work and deserve the best of the bounty. This follows the first A Grim Discovery.",
  "sections": [
   {
    "title": "The Crate of Horns",
-   "body": "After the first A Grim Discovery, Krueg Skullsplitter is taken aback, then admits to mentioning a bounty. You did the work, so Krueg feels it only right that you take the best of the payoff. The horns are packed into a crate for you. The crate goes to Belgrom Rockmaul, found in the Valley of Honor, who wishes to hear what you saw and will make your hard work worth it.",
+   "body": "Krueg Skullsplitter admits he spoke of a bounty after the first A Grim Discovery. You did the work, so he believes you deserve the best of the payoff. He packs the horns into a crate for you to carry to Belgrom Rockmaul in the Valley of Honor. Belgrom wants to hear what you saw, and Krueg says he will make your hard work worth it.",
    "spoiler": 0
   },
   {
    "title": "Belgrom's Interest",
-   "body": "Belgrom Rockmaul is struck by news of the Grimtotem and asks whether you truly met them out on a hunt in Feralas. Belgrom's peers will want the story, so you are asked to tell more while the coin is counted out. Belgrom ends with thanks for the information.",
+   "body": "Belgrom Rockmaul is struck by news of the Grimtotem. He asks whether you truly met them while hunting in Feralas. His peers will want to hear the story, so he asks you to tell him more as the coin is counted out. Belgrom thanks you for the information.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "krueg skullsplitter quest",
     "quest giver a grim discovery 2"
    ],
-   "answer": "Krueg Skullsplitter, who has the horns put in a crate for you."
+   "answer": "Krueg Skullsplitter gives you the horns in a crate to carry to Belgrom Rockmaul."
   },
   {
    "q": "Where does the crate of Grimtotem horns go?",
@@ -55,7 +55,7 @@
     "belgrom rockmaul location",
     "turn in grim discovery 2"
    ],
-   "answer": "To Belgrom Rockmaul, who waits in the Valley of Honor in Orgrimmar."
+   "answer": "The crate of Grimtotem horns goes to Belgrom Rockmaul in the Valley of Honor in Orgrimmar."
   },
   {
    "q": "Why is the bounty yours?",
@@ -63,7 +63,7 @@
     "why grimtotem horns",
     "bounty grim discovery"
    ],
-   "answer": "Krueg says you did the work, so the best of the payoff should rightly be yours."
+   "answer": "Krueg says you did the work, so you deserve the best of the payoff."
   },
   {
    "q": "What does Belgrom want from you?",
@@ -71,7 +71,7 @@
     "belgrom rockmaul grimtotem",
     "why care about feralas grimtotem"
    ],
-   "answer": "Krueg says Belgrom will be eager to hear what you saw, and will make your hard work worth it."
+   "answer": "Your report of what you saw. Krueg promises that your hard work will be worth it."
   },
   {
    "q": "What comes before this step?",
@@ -80,7 +80,7 @@
     "prerequisite for grim discovery 2",
     "prior quests"
    ],
-   "answer": "The first A Grim Discovery, in which you brought Krueg Grimtotem horns."
+   "answer": "The first A Grim Discovery comes before this part. You brought Krueg Grimtotem horns."
   }
  ],
  "angles": [],
@@ -102,5 +102,6 @@
  ],
  "attribution": [
   "A Grim Discovery (2)"
- ]
+ ],
+ "style": 2
 }

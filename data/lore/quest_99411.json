@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Ahab Wheathoof is a resident of Bloodhoof Village, making this personal errand a familiar gesture of community support across the pastures of Mulgore."
+   "text": "As a tauren, you know Ahab Wheathoof as a Bloodhoof Village resident. Helping him is a familiar gesture of community support across Mulgore's pastures."
   },
   {
    "target": "faction:Horde",
-   "text": "Assisting the local villagers of Bloodhoof with everyday matters strengthens ties with the Shu'halo as they settle and defend their homeland."
+   "text": "As a member of the Horde, you strengthen ties with the Shu'halo by helping Bloodhoof's villagers with everyday matters as they settle and defend their homeland."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "ahab mulgore",
     "quest giver kyle"
    ],
-   "answer": "Ahab Wheathoof is an elder tauren living at Bloodhoof Village in Mulgore. Caring deeply for his prized dog, Kyle, Ahab turns to traveling adventurers to help locate and feed the runaway canine when he wanders too far from home.",
+   "answer": "Ahab Wheathoof is an elder tauren who lives in Bloodhoof Village in Mulgore. He cares deeply for his prized dog, Kyle, and asks traveling adventurers to find and feed him when he wanders too far from home.",
    "q": "Who is Ahab Wheathoof?"
   },
   {
@@ -37,7 +37,7 @@
     "kyle dog",
     "kyle the frenzied"
    ],
-   "answer": "Kyle is Ahab Wheathoof's beloved canine pet, known as Kyle the Frenzied. Despite his ferocious title, he is Ahab's prized companion and can be pacified and lured back simply by feeding him tender strider meat.",
+   "answer": "Kyle the Frenzied is Ahab Wheathoof's beloved dog and prized companion. Tender strider meat can calm him and lure him back.",
    "q": "Who is Kyle the Frenzied?"
   },
   {
@@ -45,7 +45,7 @@
     "where is bloodhoof village",
     "bloodhoof location"
    ],
-   "answer": "Bloodhoof Village is a central tauren settlement situated in the heart of Mulgore, south of Thunder Bluff. It serves as a vital gathering hub for local tribes, traders, and herders.",
+   "answer": "Bloodhoof Village lies in central Mulgore, south of Thunder Bluff. Local tribes, traders, and herders gather there.",
    "q": "Where does this task take place?"
   },
   {
@@ -54,7 +54,7 @@
     "strider meat kyle",
     "how to calm kyle"
    ],
-   "answer": "Kyle has a particular appetite for fresh meat cut from the plainstriders wandering Mulgore. Offering tender strider meat pacifies the hungry hound and convinces him to return safely to Ahab.",
+   "answer": "Kyle has a particular appetite for fresh meat from the plainstriders that wander Mulgore. Tender strider meat pacifies the hungry hound and convinces him to return safely to Ahab.",
    "q": "Why does Kyle need tender strider meat?"
   },
   {
@@ -62,7 +62,7 @@
     "why is kyle frenzied",
     "kyle angry"
    ],
-   "answer": "Kyle is known locally as 'the Frenzied,' roaming the plains when lost or famished. His frenzy subsides once he is properly fed by a patient traveler.",
+   "answer": "Locals know Kyle as the Frenzied because he roams the plains when lost or famished. His frenzy subsides once a patient traveler properly feeds him.",
    "q": "Why is Kyle considered frenzied?"
   },
   {
@@ -70,7 +70,7 @@
     "kyle location",
     "where is kyle"
    ],
-   "answer": "Kyle wanders the open plains surrounding Bloodhoof Village in Mulgore. Travelers usually track him down by scanning the prairies nearby until they can offer him a meal.",
+   "answer": "Kyle wanders the open plains around Bloodhoof Village in Mulgore. Travelers search the nearby prairies until they find him and can offer him a meal.",
    "q": "Where can Kyle be found?"
   }
  ],
@@ -90,18 +90,19 @@
  ],
  "sections": [
   {
-   "body": "In Bloodhoof Village, elder Ahab Wheathoof worries over his wayward pet, Kyle the Frenzied. While the title might sound alarming to outsiders, Kyle is Ahab's prized puppy who has slipped away onto the grassy plains of Mulgore. Ahab asks travelers passing through the settlement to track down his unruly companion and offer him a hearty meal to calm his wild spirits.",
+   "body": "Ahab Wheathoof is an elder in Bloodhoof Village, and he worries over his wayward pet, Kyle the Frenzied. To outsiders, Kyle's name sounds alarming, but to Ahab he is a prized puppy. He has slipped away onto Mulgore's grassy plains.\n\nAhab asks travelers passing through the settlement to track down his unruly companion. A hearty meal may calm Kyle's wild spirits.",
    "spoiler": 0,
    "title": "A Missing Hound"
   },
   {
-   "body": "Pacifying Kyle requires a cut of tender strider meat, sourced from the swift plainstriders that roam Mulgore. Presenting the treat satisfies the hungry pup, soothing his frenzied mood and nudging him safely back toward Bloodhoof Village and his grateful owner.",
+   "body": "Kyle needs a cut of tender strider meat from the swift plainstriders roaming Mulgore. The treat satisfies the hungry pup and soothes his frenzied mood. Then it nudges him back toward Bloodhoof Village and his grateful owner.",
    "spoiler": 0,
    "title": "A Simple Remedy"
   }
  ],
- "summary": "Kyle's Gone Missing! is a local quest in Bloodhoof Village where Ahab Wheathoof asks passing adventurers to find his wayward dog, Kyle the Frenzied. Feeding the hungry pup a cut of tender strider meat soothes his temper and ensures his safe return home.",
+ "summary": "In Bloodhoof Village, Ahab Wheathoof asks you to find his missing dog, Kyle the Frenzied. A cut of tender strider meat calms the hungry pup and guides him safely home.",
  "attribution": [
   "In-game quest text: Kyle's Gone Missing!"
- ]
+ ],
+ "style": 2
 }

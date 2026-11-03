@@ -25,11 +25,11 @@
    "Venom to the Undercity"
   ]
  },
- "summary": "Master Gadrin gives you a parchment to read at the altar of Shadra'Alor, deep in the Witherbark realm of the Hinterlands, to summon Shadra the spider god. Her venom is then to be carried to Apothecary Lydon in Tarren Mill.",
+ "summary": "At Shadra'Alor, you read Master Gadrin's parchment and call Shadra from the Witherbark realm.",
  "sections": [
   {
    "title": "Call of the Spider God",
-   "body": "Gadrin's parchment is meant to be read at Shadra'Alor's altar, deep within the Witherbark realm of the Hinterlands. Doing so calls up Shadra the spider god. She must be defeated there, and her venom taken to Apothecary Lydon in Tarren Mill.",
+   "body": "Master Gadrin sends you deep into the Witherbark realm of the Hinterlands. At Shadra'Alor, you read his parchment at the altar, and Shadra the spider god answers. Defeat her there, then carry her venom to Apothecary Lydon in Tarren Mill.",
    "spoiler": 0
   }
  ],
@@ -49,7 +49,7 @@
     "altar of shadra'alor location",
     "shadra location"
    ],
-   "answer": "In the Hinterlands, at Shadra'Alor's altar, well inside the Witherbark realm."
+   "answer": "You summon Shadra at the altar of Shadra'Alor, deep in the Witherbark realm of the Hinterlands."
   },
   {
    "q": "Who receives the venom once Shadra is defeated?",
@@ -58,7 +58,7 @@
     "summoning shadra turn in",
     "apothecary lydon location"
    ],
-   "answer": "Apothecary Lydon, in Tarren Mill."
+   "answer": "After Shadra is defeated, you take her venom to Apothecary Lydon in Tarren Mill."
   }
  ],
  "angles": [],
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Summoning Shadra (Classic)"
- ]
+ ],
+ "style": 2
 }

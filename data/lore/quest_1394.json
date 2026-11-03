@@ -24,16 +24,16 @@
    "Test of Faith quest chain"
   ]
  },
- "summary": "Parqual Fintallas tells you that you have passed this test and the ones before it. You are sent back to Dorn Plainstalker in Thousand Needles, who will sense the change in you and see whether you have grown strong in mind, body and spirit, enough to be honoured for your efforts.",
+ "summary": "You have passed Parqual Fintallas's test and all that came before it. Now he sends you to Dorn Plainstalker in Thousand Needles, who will judge whether your mind, body and spirit have grown strong enough to earn honour.",
  "sections": [
   {
    "title": "Back to the Weathered Nook",
-   "body": "This is the last step of the Test of Faith, the chain of trials that Dorn Plainstalker began. Dorn waits in the Weathered Nook, in a cave reached by a ramp, north of Freewind Post. Parqual Fintallas urges you to stay true to the balance you have shown throughout these trials.",
+   "body": "Dorn Plainstalker began the Test of Faith, and its trials now reach their final step. He waits in the Weathered Nook, in a cave reached by a ramp north of Freewind Post. Parqual Fintallas urges you to keep the balance you have shown through the trials.",
    "spoiler": 0
   },
   {
    "title": "Dorn's Welcome",
-   "body": "Dorn remarks that you have been away from his home for a long while, and many moons since your first leap set you on this path. He finds you stronger and more enlightened than before, which pleases him, and says you deserve to be honoured for seeing his tests through to the end.",
+   "body": "Dorn Plainstalker says many moons have passed since your first leap set you on this path. You have been away from his home for a long while. He finds you stronger and more enlightened than before, and is pleased. Dorn says you deserve honour for seeing his tests through to the end.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "who starts final passage",
     "parqual fintallas"
    ],
-   "answer": "Parqual Fintallas, who tells you that you have passed his test and the tests before his."
+   "answer": "Parqual Fintallas tells you that you have passed his test and all that came before it."
   },
   {
    "q": "Where do I go next?",
@@ -55,7 +55,7 @@
     "dorn plainstalker location",
     "weathered nook location"
    ],
-   "answer": "Back to Dorn Plainstalker in Thousand Needles. He waits in the Weathered Nook, in a cave reached by a ramp, north of Freewind Post."
+   "answer": "Return to Dorn Plainstalker in Thousand Needles. He waits in the Weathered Nook, in a cave reached by a ramp north of Freewind Post."
   },
   {
    "q": "What comes before this?",
@@ -64,7 +64,7 @@
     "prereq",
     "what leads to final passage"
    ],
-   "answer": "It follows Test of Lore, an earlier trial in the same chain."
+   "answer": "Test of Lore comes before this as an earlier trial in the same chain."
   },
   {
    "q": "What was the very first step of this journey?",
@@ -73,7 +73,7 @@
     "where did this start",
     "test of faith chain"
    ],
-   "answer": "Test of Faith, given by Dorn Plainstalker in the Weathered Nook. This is the final step of that chain."
+   "answer": "Dorn Plainstalker gave you Test of Faith in the Weathered Nook. This is the chain's final step."
   },
   {
    "q": "Why does Parqual send you back to Dorn?",
@@ -81,13 +81,13 @@
     "why dorn",
     "parqual reason"
    ],
-   "answer": "Parqual says Dorn will notice the change in you and find your mind, body and spirit strong enough to deserve honour."
+   "answer": "Parqual says Dorn will notice how you have changed and judge whether your mind, body and spirit are strong enough for honour."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "This chain of trials is set for the Horde, and it ends with Dorn Plainstalker."
+   "text": "As a member of the Horde, you face this chain of trials, which ends with Dorn Plainstalker."
   }
  ],
  "keywords": [
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "Final Passage"
- ]
+ ],
+ "style": 2
 }

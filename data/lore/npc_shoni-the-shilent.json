@@ -8,16 +8,16 @@
   "wiki": "Shoni the Shilent",
   "refs": 2
  },
- "summary": "In Stormwind’s Dwarven District, Shoni the Shilent sends a crew beneath Westfall. She leads the gnomish effort to reclaim Gnomeregan and seeks power for the machines meant to break a path back into the city.",
+ "summary": "In Stormwind’s Dwarven District, Shoni the Shilent directs a crew bound for the tunnels beneath Westfall. She seeks power for the machines that could open a path back into Gnomeregan.",
  "sections": [
   {
    "title": "Commander of the Deep",
-   "body": "Shoni the Shilent directs a gnomish assault crew from Stormwind’s Dwarven District. With Gnomeregan held by troggs, she plans to retake the city and sends operatives into the tunnels beneath Westfall for the parts her crew needs.",
+   "body": "From Stormwind’s Dwarven District, Shoni the Shilent directs a gnomish assault crew. Troggs hold Gnomeregan, and she means to retake the city. So she sends operatives into the tunnels beneath Westfall for the parts her crew needs.",
    "spoiler": 0
   },
   {
    "title": "Subterranean Reclamation",
-   "body": "Shoni’s plan depends on the gnomes’ gyrodrillmatic excavationators, heavy machines built to break through Gnomeregan’s underground borders and open a way for an assault. The machines lack power, so she seeks the intact Gnoam Sprecklesprocket from a working goblin shredder deep in the Deadmines. She also sends adventurers into Gnomeregan to dismantle its robots for spare parts to repair her fleet.",
+   "body": "Shoni’s plan rests on the gnomes’ gyrodrillmatic excavationators. These heavy machines must break through Gnomeregan’s underground borders and open a way for an assault. But they lack power. Shoni seeks the intact Gnoam Sprecklesprocket from a working goblin shredder deep in the Deadmines. She also sends adventurers into Gnomeregan to dismantle robots for spare parts to repair her fleet.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "shoni lore",
     "shoni the shilent npc"
    ],
-   "answer": "Shoni the Shilent leads the Gnomeregan underground assault crew from Stormwind’s Dwarven District. She coordinates efforts to reclaim the city."
+   "answer": "From Stormwind’s Dwarven District, Shoni the Shilent leads the gnomish underground assault crew. She coordinates the effort to reclaim Gnomeregan."
   },
   {
    "q": "Where can I find Shoni?",
@@ -38,7 +38,7 @@
     "shoni location",
     "find shoni"
    ],
-   "answer": "You can find Shoni among the anvils and workshops of Stormwind City’s Dwarven District, near the blacksmithing and engineering areas."
+   "answer": "Shoni is among the anvils and workshops of Stormwind City’s Dwarven District, near the blacksmithing and engineering areas."
   },
   {
    "q": "Why is Shoni interested in the Deadmines?",
@@ -47,7 +47,7 @@
     "why send to deadmines",
     "gyrodrillmatic quest"
    ],
-   "answer": "A working goblin shredder lies deep in the Deadmines. Shoni seeks its intact Gnoam Sprecklesprocket to power the gyrodrillmatic excavationators and break through Gnomeregan’s underground borders."
+   "answer": "Deep in the Deadmines, a working goblin shredder holds the intact Gnoam Sprecklesprocket Shoni seeks. It would power the gyrodrillmatic excavationators and help them break through Gnomeregan’s underground borders."
   },
   {
    "q": "Why is she called 'the Shilent'?",
@@ -56,17 +56,17 @@
     "why shilent",
     "silent gnome"
    ],
-   "answer": "No one knows the origin of Shoni’s epithet. She commands the Gnomeregan underground assault crew."
+   "answer": "No one knows where Shoni’s epithet came from. She commands the gnomish underground assault crew."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "As a gnome, helping Shoni brings your people closer to breaking back into Gnomeregan and reclaiming their fallen home."
+   "text": "As a gnome, you can help your people break back into Gnomeregan and reclaim their fallen home."
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can appreciate the mechanical complexity of Shoni’s gyrodrillmatic excavationators, which she hopes to power with a shredder’s salvaged heart from beneath Moonbrook."
+   "text": "As an engineer, you can appreciate the workings of Shoni’s gyrodrillmatic excavationators. She hopes to power them with a shredder’s salvaged heart from beneath Moonbrook."
   }
  ],
  "keywords": [
@@ -92,5 +92,5 @@
  "attribution": [
   "Shoni the Shilent"
  ],
- "style": 1
+ "style": 2
 }

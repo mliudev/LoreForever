@@ -12,21 +12,21 @@
   "levels": "18-30",
   "aliases": []
  },
- "summary": "Ashenvale's sacred woods are now a battleground as the Horde cuts timber for Orgrimmar. The ancient forest lies between the Barrens to the south and Darkshore to the north, under the care of the Sentinels and Cenarius. Its canopy shelters moonwells and old ruins, alongside demonic blights, hostile tribes, and a contested frontier.",
+ "summary": "Ashenvale's sacred woods have become a battleground as the Horde cuts timber for Orgrimmar. Between the Barrens and Darkshore, the ancient forest remains under the care of the Sentinels and Cenarius. Its canopy shelters moonwells and old ruins, while demonic blights, hostile tribes, and a contested frontier threaten the woods.",
  "sections": [
   {
    "title": "The Whispering Canopy",
-   "body": "Beneath Mount Hyjal, Ashenvale has belonged to the kaldorei and the children of Cenarius for millennia. Immense trees form a close canopy, turning the daily rain to mist and leaving the forest floor in twilight. Moss covers the ruins of elven settlements, where walking ancients and dryads keep watch. For thousands of years, the night elves built no true cities here. They hunted lightly and kept the wild domain in balance.",
+   "body": "Beneath Mount Hyjal, Ashenvale has belonged to the kaldorei and the children of Cenarius for millennia. Immense trees knit a close canopy overhead. Daily rain gathers as mist beneath them, and twilight settles on the forest floor.\n\nMoss covers the ruins of elven settlements, where walking ancients and dryads keep watch. For thousands of years, the night elves built no true cities here. They hunted lightly and kept the wild domain in balance.",
    "spoiler": 0
   },
   {
    "title": "War for the Woods",
-   "body": "The Third War broke Ashenvale's peace when Grommash Hellscream and the Warsong clan entered for lumber. Their demonic bloodlust led them to slay Cenarius. The struggle is now a full territorial war. From Splintertree Post and the southern Mor'shan Rampart, the Warsong Outriders send axes and shredders into the eastern woods to supply Orgrimmar. The Silverwing Sentinels hold Astranaar, a sanctuary town, and have sworn to drive every orcish logger from the sacred grove.",
+   "body": "The Third War shattered Ashenvale's peace. Grommash Hellscream and the Warsong clan entered the forest for lumber, and their demonic bloodlust led them to slay Cenarius. Now the struggle is a full territorial war.\n\nFrom Splintertree Post and the southern Mor'shan Rampart, the Warsong Outriders send axes and shredders into the eastern woods to supply Orgrimmar. The Silverwing Sentinels hold Astranaar, a sanctuary town. They have sworn to drive every orcish logger from the sacred grove.",
    "spoiler": 0
   },
   {
    "title": "Lingering Shadows",
-   "body": "The lumber war is only one danger in Ashenvale. The Burning Legion left blighted scars at Felfire Hill and Demon Fall Canyon, where Mannoroth died. Satyrs use ruins such as Satyrnaar and Xavian as bases, corrupting waterways and wildlife. Furbolg tribes, once friends of the elves, have largely fallen to dark madness. Mysterious worgen stalk the northern shrine near Felwood, while cursed dragonkin prowl Bough Shadow and guard a portal into the troubled Emerald Dream.",
+   "body": "The lumber war is only one danger in Ashenvale. The Burning Legion left blighted scars at Felfire Hill and Demon Fall Canyon, where Mannoroth died. Satyrs make their bases in ruins such as Satyrnaar and Xavian, corrupting waterways and wildlife.\n\nFurbolg tribes, once friends of the elves, have largely fallen to dark madness. Mysterious worgen stalk the northern shrine near Felwood. Cursed dragonkin prowl Bough Shadow and guard a portal into the troubled Emerald Dream.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "ashenvale war reason",
     "warsong vs silverwing"
    ],
-   "answer": "The Horde needs Ashenvale's timber to build Orgrimmar and sustain its young nation. The orcs of Durotar have little timber in their dry homeland, while the night elves hold Ashenvale as a sacred ancestral home under nature deities' protection. The Silverwing Sentinels see the Warsong clan's clear-cutting as desecration, and the dispute brings skirmishes and pitched fighting in Warsong Gulch."
+   "answer": "The Horde needs Ashenvale's timber to build Orgrimmar and sustain its young nation. The orcs of Durotar have little timber in their dry homeland, while the night elves hold Ashenvale as a sacred ancestral home protected by nature deities. The Silverwing Sentinels see the Warsong clan's clear-cutting as desecration, and the dispute brings skirmishes and pitched fighting in Warsong Gulch."
   },
   {
    "q": "What happened to Cenarius in this forest?",
@@ -138,5 +138,5 @@
   "Ashenvale (Classic)",
   "Ashenvale"
  ],
- "style": 1
+ "style": 2
 }

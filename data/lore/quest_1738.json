@@ -22,11 +22,11 @@
    "The Binding (Succubus, Stormwind)"
   ]
  },
- "summary": "In the years since the Third War, Heartswood draws warlocks toward an old night elf tragedy. Takar the Seer sends them into Ashenvale for Gakin the Darkbinder, who needs the wood to lure and subjugate a succubus in Stormwind.",
+ "summary": "In the years since the Third War, warlocks seek Heartswood for an old night elf tragedy. Takar the Seer sends them into Ashenvale for Gakin the Darkbinder, who needs the wood to lure and subjugate a succubus in Stormwind.",
  "sections": [
   {
    "title": "A Monument to Tragic Love",
-   "body": "Takar the Seer says Heartswood grew where the night elf lovers Anathera and Latherion fell during the War of the Ancients ten thousand years ago. Their last breaths and devotion nourished the tree. To mortal eyes, it marks a tragic love; to practitioners of the dark arts, its concentrated emotion is potent magical fuel.",
+   "body": "Takar the Seer says Heartswood grew where the night elf lovers Anathera and Latherion fell during the War of the Ancients, ten thousand years ago. Their last breaths and devotion nourished the tree. To mortals, it marks a tragic love. To practitioners of the dark arts, its concentrated emotion is potent magical fuel.",
    "spoiler": 0
   },
   {
@@ -36,7 +36,7 @@
   },
   {
    "title": "The Ruins of Ordil'Aran",
-   "body": "The Heartswood tree grows among the Ruins of Ordil'Aran in northwestern Ashenvale. Wild beasts, hostile lands, and Dark Strand cultists who have occupied the elven ruins stand in the way. Once recovered, the wood must cross the sea to the Slaughtered Lamb in Stormwind, where the ritual of subjugation begins.",
+   "body": "In northwestern Ashenvale, the Heartswood tree grows among the Ruins of Ordil'Aran. Wild beasts, hostile lands, and Dark Strand cultists who occupy the elven ruins stand in the way. Once recovered, the wood must cross the sea to the Slaughtered Lamb in Stormwind, where the ritual of subjugation begins.",
    "spoiler": 1
   }
  ],
@@ -57,7 +57,7 @@
     "where is the heartswood",
     "where to find heartswood"
    ],
-   "answer": "The Heartswood tree grows in the Ruins of Ordil'Aran, in northwestern Ashenvale, not far south of Darkshore. Sinister cultists have taken control of the area."
+   "answer": "The Heartswood tree grows among the Ruins of Ordil'Aran in northwestern Ashenvale, not far south of Darkshore. Sinister cultists have taken control of the area."
   },
   {
    "q": "Who were Anathera and Latherion?",
@@ -66,7 +66,7 @@
     "who were the lovers",
     "lovers of ashenvale"
    ],
-   "answer": "Anathera and Latherion were night elves who fought side by side during the War of the Ancients. They fell together on the battlefield, and Heartswood grew where they drew their last breaths, marking their enduring love."
+   "answer": "Anathera and Latherion were night elves who fought side by side during the War of the Ancients. They fell together on the battlefield. Heartswood grew where they drew their last breaths, marking their enduring love."
   },
   {
    "q": "Who is Takar the Seer?",
@@ -75,7 +75,7 @@
     "takar the seer",
     "barrens hermit"
    ],
-   "answer": "Takar the Seer is a human seer allied with Stormwind's warlocks. He lives as a hermit in the southern Barrens near Camp Taurajo, using his sight to look into the past and find forgotten relics for Gakin the Darkbinder."
+   "answer": "Takar the Seer is a human seer allied with Stormwind's warlocks. He lives as a hermit in the southern Barrens near Camp Taurajo. He uses his sight to look into the past and find forgotten relics for Gakin the Darkbinder."
   },
   {
    "q": "How does an Alliance warlock travel safely to Ashenvale from the Barrens?",
@@ -98,7 +98,7 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you need Heartswood to summon and enslave a succubus, whose powers can turn your enemies' minds against them on the battlefield."
+   "text": "As a warlock, you need Heartswood to summon and enslave a succubus. Her powers can turn your enemies' minds against them on the battlefield."
   },
   {
    "target": "faction:Alliance",
@@ -106,7 +106,7 @@
   },
   {
    "target": "race:Human",
-   "text": "As a human, you may rely on far-flung scouts like Takar the Seer to find relics from old Kalimdor, beyond what human arcanists have recorded."
+   "text": "As a human, you may rely on far-flung scouts like Takar the Seer to find relics from old Kalimdor. Such relics lie beyond what human arcanists have recorded."
   }
  ],
  "keywords": [
@@ -134,5 +134,5 @@
  "attribution": [
   "Heartswood (quest)"
  ],
- "style": 1
+ "style": 2
 }

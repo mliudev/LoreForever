@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Charred Vale"
  },
- "summary": "In southwestern Stonetalon, flames and smoke consume the Charred Vale. The Venture Company's logging left a once thriving woodland in ruins, where fire elementals roam and Bloodfury harpies guard their territory.",
+ "summary": "In southwestern Stonetalon, fire and smoke still consume the Charred Vale. The Venture Company's logging left the woodland in ruins, and fire elementals roam while Bloodfury harpies defend their territory.",
  "sections": [
   {
    "title": "A Scorched Woodland",
-   "body": "The Charred Vale was once a thriving woodland in a basin of southwestern Stonetalon. Majestic treants guarded it, while native chimaeras and harpies made their home among the trees. The Venture Company brought the ruin. Its goblins clear-cut the forest with explosive machinery, corrupting the treants and waking chaotic fire elementals. The treants eventually drove the goblins back, but the loggers left the land broken and scarred by fire. Whatever foul devices they used as they retreated also tainted the valley.",
+   "body": "Once, trees filled the basin in southwestern Stonetalon, and treants guarded the woodland. Native chimaeras and harpies lived among them. Then the Venture Company's goblins arrived with explosive machinery and cut down the forest. Their work corrupted the treants and woke chaotic fire elementals.\n\nThe treants drove the goblins back, but the loggers left a broken land scarred by fire. Whatever foul devices they used as they fled also tainted the valley.",
    "spoiler": 0
   },
   {
    "title": "Struggles of Renewal",
-   "body": "Blackened ancients wander blindly through smoke and ash, among enraged elementals. Bloodfury harpies roost in skeletal snags and defend what remains of their territory. Druids from Sun Rock Retreat refuse to abandon the valley. They send travelers to sow enchanted seeds and tend the corrupted ancients as they work to reclaim the scorched earth.",
+   "body": "Blackened ancients wander blindly through smoke and ash, while enraged elementals roam nearby. Bloodfury harpies roost in skeletal snags and defend what remains of their territory.\n\nDruids from Sun Rock Retreat will not abandon the valley. They send travelers to sow enchanted seeds and tend the corrupted ancients as they work to reclaim the scorched earth.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who burned charred vale",
     "what happened to charred vale"
    ],
-   "answer": "The Venture Company's ruthless logging set the Charred Vale ablaze. Its destructive machinery and aggressive deforestation enraged the land's primal spirits and unleashed fire elementals that spread through the valley."
+   "answer": "The Venture Company's ruthless logging set the Charred Vale ablaze. Its destructive machinery enraged the land's primal spirits and unleashed fire elementals that spread through the valley."
   },
   {
    "q": "Can the forest in the Charred Vale ever recover?",
@@ -88,5 +88,5 @@
  "attribution": [
   "Charred Vale"
  ],
- "style": 1
+ "style": 2
 }

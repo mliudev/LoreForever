@@ -8,16 +8,16 @@
   "wiki": "Ebru",
   "refs": 1
  },
- "summary": "Ebru is a night elf druid sheltering in the crags above the Wailing Caverns. As one of Naralex's few remaining uncorrupted disciples, she watches helplessly as her master's dream of restoring the Barrens curdles into a nightmare. From her perch, she enlists travelers brave enough to enter the subterranean depths to cull the mutated horrors spawned by the Nightmare.",
+ "summary": "Above the Wailing Caverns, Ebru watches Naralex's dream turn to nightmare. A night elf druid and one of his few uncorrupted disciples, she calls on travelers to enter the depths and cull the mutated horrors born of the Nightmare.",
  "sections": [
   {
    "title": "A Watch Above the Descent",
-   "body": "While most of Naralex's followers succumbed to the emerald corruption creeping through the caverns, Ebru managed to escape the nightmare's grasp. Camped inside the cavernous skull formation overlooking the entrance to the Wailing Caverns, she keeps vigil over the descent. She knows that Naralex's noble plan\u2014to tap subterranean springs and transform the arid Barrens into lush woodland\u2014has gone horribly awry, and she desperately directs willing adventurers to eliminate the burgeoning deviate beasts threatening to overrun the surrounding plains.",
+   "body": "Ebru keeps watch from a camp inside the cavernous skull above the Wailing Caverns' entrance. Most of Naralex's followers have fallen to the emerald corruption spreading through the caverns, but she escaped it.\n\nNaralex hoped to draw on underground springs and make the arid Barrens a woodland. His plan has gone horribly wrong, and Ebru sees that dream become a nightmare. She urges willing travelers into the depths to kill the growing number of deviate beasts threatening the surrounding plains.",
    "spoiler": 0
   },
   {
    "title": "The Price of Corruption",
-   "body": "The nightmare twisted not only the ecosystem of the caves, but also Ebru's fellow disciples, turning them into the fanatical Druids of the Fang. Stripped of her companionship and facing the ruin of her circle, Ebru focuses on containment.",
+   "body": "The Nightmare has twisted the caves and Ebru's fellow disciples, making them the fanatical Druids of the Fang. Their companionship is gone, and her circle faces ruin. Ebru turns her efforts to containing the corruption.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "ebru lore",
     "about ebru"
    ],
-   "answer": "Ebru is a night elf druid and an uncorrupted disciple of Naralex. She resides in a cave high above the entrance to the Wailing Caverns, watching over the site and coordinating efforts to stem the corruption spilling out into the Barrens."
+   "answer": "Ebru is a night elf druid and one of Naralex's few uncorrupted disciples. She watches from a cave high above the Wailing Caverns' entrance and coordinates efforts to stem the corruption spreading into the Barrens."
   },
   {
    "q": "Why is Ebru located above the Wailing Caverns?",
@@ -38,7 +38,7 @@
     "why is ebru up here",
     "ebru cave location"
    ],
-   "answer": "She fled upward when Naralex's ritual collapsed into the Emerald Nightmare, turning her fellow disciples into hostile zealots. Her perch in the crag above the cave entrance allows her to monitor the caverns while staying safe from the feral horrors inside."
+   "answer": "Ebru fled to the crag above the cave entrance when Naralex's ritual collapsed into the Emerald Nightmare and turned her fellow disciples into hostile zealots. From her perch, she watches the caverns and stays safe from the feral horrors inside."
   },
   {
    "q": "What happened to Naralex and his other disciples?",
@@ -47,7 +47,7 @@
     "naralex fate",
     "druids of the fang origin"
    ],
-   "answer": "Naralex entered a deep trance to tap the underground springs, but his mind became trapped within the Emerald Nightmare. The resulting corruption twisted the cave's flora and fauna and drove most of his disciples mad, transforming them into the Druids of the Fang."
+   "answer": "Naralex entered a deep trance to tap the underground springs, but his mind became trapped in the Emerald Nightmare. The corruption twisted the cave's plants and animals and drove most of his disciples mad, turning them into the Druids of the Fang."
   },
   {
    "q": "What does Ebru ask travelers to do?",
@@ -56,17 +56,17 @@
     "deviate eradication",
     "cleansing the caverns"
    ],
-   "answer": "Ebru urges adventurers to delve into the depths of the Wailing Caverns to cull the deviate beasts and strike back against the mutated monstrosities born from her master's tormented dreams."
+   "answer": "Ebru urges travelers to enter the depths of the Wailing Caverns and cull the deviate beasts. She wants them to strike back against the mutated horrors born from her master's tormented dreams."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For druids of the Cenarion Circle, encountering Ebru is a stark reminder of the terrible dangers inherent in walking the Emerald Dream and the catastrophic cost of losing control."
+   "text": "For a druid of the Cenarion Circle, meeting Ebru is a stark reminder of the dangers of walking the Emerald Dream and the terrible cost of losing control."
   },
   {
    "target": "race:NightElf",
-   "text": "Ebru represents the small, isolated enclave of night elves operating deep within the arid heart of Kalimdor, far from the ancient boughs of Ashenvale and Teldrassil."
+   "text": "As a night elf, Ebru shows that a small, isolated enclave of your people lives deep in Kalimdor's arid heart, far from the ancient boughs of Ashenvale and Teldrassil."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Ebru"
- ]
+ ],
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:1093"
   ]
  },
- "summary": "In Windshear Crag, the Venture Company’s Super Reaper 6000 Blueprints are coveted by goblin rivals. They hold the technical schematics for an enormous mechanized woodcutter deployed in Stonetalon Mountains, designed under gnome engineer Gerenzo Wrenchwhistle’s supervision.",
+ "summary": "In Windshear Crag, goblin rivals covet the Venture Company’s Super Reaper 6000 Blueprints. They show how to build the mechanized woodcutter deployed in Stonetalon Mountains, under gnome engineer Gerenzo Wrenchwhistle’s supervision.",
  "sections": [
   {
    "title": "Industrial Espionage in Windshear Crag",
-   "body": "Venture Company operators carry the Super Reaper 6000 Blueprints through Windshear Crag. The plans show how to build the massive mechanized lumber harvesters driving the company’s relentless clear-cutting. To the dismay of traditional goblin engineers, the Venture Company put Gerenzo, a gnome, in charge of designing the model. When goblin engineer Ziz Fizziks was ousted from the operation, Sputtervalve quickly hired him to steal the designs. Yet Gerenzo’s dense, eccentric gnomish notations are almost as hard to decipher as the plans are to take by force.",
+   "body": "Venture Company operators carry the Super Reaper 6000 Blueprints through Windshear Crag. The plans show how to build the great mechanized lumber harvesters behind the company’s clear-cutting. Goblin engineers resent that Gerenzo, a gnome, was put in charge of the design. After the company ousted goblin engineer Ziz Fizziks, Sputtervalve hired him to steal the plans. Yet Gerenzo’s dense, eccentric notes are nearly as hard to decipher as the blueprints are to seize by force.",
    "spoiler": 0
   }
  ],
@@ -25,7 +25,7 @@
     "what is super reaper",
     "super reaper machine"
    ],
-   "answer": "The Super Reaper 6000 is an enormous mechanized woodcutter developed for the Venture Company’s clear-cutting in Stonetalon Mountains."
+   "answer": "The Super Reaper 6000 is an enormous mechanized woodcutter built for the Venture Company’s clear-cutting in Stonetalon Mountains."
   },
   {
    "q": "Who designed the Super Reaper 6000?",
@@ -33,7 +33,7 @@
     "who made blueprints",
     "who designed super reaper"
    ],
-   "answer": "Gerenzo Wrenchwhistle, a gnome engineer, designed the plans under the Venture Company’s supervision after being hired to lead its mechanical efforts in Windshear Crag. His appointment annoyed local goblin mechanics."
+   "answer": "Gerenzo Wrenchwhistle, a gnome engineer, designed the plans under the Venture Company’s supervision after being hired to lead its mechanical work in Windshear Crag. His appointment angered local goblin mechanics."
   },
   {
    "q": "Why does Ziz Fizziks want these blueprints?",
@@ -49,17 +49,17 @@
     "where do blueprints drop",
     "who drops blueprints"
    ],
-   "answer": "Venture Co. operators carrying the physical schematics oversee machinery and clear timber throughout Windshear Crag."
+   "answer": "Venture Co. operators carry the physical schematics and oversee machinery and timber clearing throughout Windshear Crag."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can see how Gerenzo’s precise gnomish schematics leave ordinary tinkers baffled, even as goblin corporate muscle puts the machinery to work."
+   "text": "As an engineer, you can see how Gerenzo’s precise gnomish schematics leave ordinary tinkerers baffled, even as goblin corporate muscle puts the machinery to work."
   },
   {
    "target": "race:Gnome",
-   "text": "As a gnome, you can see Gerenzo Wrenchwhistle’s ingenuity at work in the blueprints. Even the Venture Company relies on a gnome engineer to design its complex heavy machinery."
+   "text": "As a gnome, you can see Gerenzo Wrenchwhistle’s ingenuity in the blueprints. Even the Venture Company relies on a gnome engineer to design its complex heavy machinery."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
   "Super Reaper 6000 Blueprints",
   "Super Reaper 6000 (quest)"
  ],
- "style": 1
+ "style": 2
 }

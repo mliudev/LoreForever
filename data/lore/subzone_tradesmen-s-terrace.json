@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Tradesmen's Terrace"
  },
- "summary": "Tradesmen's Terrace gathers Darnassus's merchants and craftspeople along the city's southern edge. Its auction house and shops connect travelers with goods from Teldrassil and beyond.",
+ "summary": "Merchants and craftspeople gather in Tradesmen's Terrace along Darnassus's southern edge. Its auction house and shops connect travelers with goods from Teldrassil and beyond.",
  "sections": [
   {
    "title": "The Commercial Hub of Darnassus",
-   "body": "Tradesmen's Terrace fills the southern stretch of Darnassus with shops and merchants. Here, kaldorei and travelers from the wider Alliance find provisions, crafting supplies, and the city's central auction house. Paths lead north to the Warrior's Terrace and west toward the Temple Gardens and the Temple of the Moon. For journeys into the wilds, this is where travelers gather what they need.",
+   "body": "Shops and merchants fill Darnassus's southern stretch in Tradesmen's Terrace. Kaldorei and travelers from across the Alliance find provisions, crafting supplies, and the city's central auction house here. Paths lead north to the Warrior's Terrace and west toward the Temple Gardens and the Temple of the Moon. Travelers bound for the wilds gather what they need here.",
    "spoiler": 0
   },
   {
    "title": "Artisans and Traders",
-   "body": "Kaldorei shops favor quiet stone, timber, and woven goods, shaped to live in harmony with nature. The terrace has none of the roaring furnaces or smog found in dwarven and human workshops. Adventurers seeking trade contracts, repairs, or materials gathered from Teldrassil's boughs find the principal center of business in northern Kalimdor here.",
+   "body": "Kaldorei shops favor quiet stone, timber, and woven goods shaped to live in harmony with nature. No roaring furnaces or smog rise from these workshops as they do in dwarven and human ones. Adventurers seeking trade contracts, repairs, or materials gathered from Teldrassil's boughs find northern Kalimdor's principal center of business here.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "tradesmens terrace info",
     "tradesmen terrace darnassus"
    ],
-   "answer": "Tradesmen's Terrace is Darnassus's southern marketplace, with merchants, craftspeople, and the city's central auction house."
+   "answer": "Tradesmen's Terrace is Darnassus's southern marketplace, where merchants and craftspeople gather around the city's central auction house."
   },
   {
    "q": "Where is the auction house in Darnassus?",
@@ -37,7 +37,7 @@
     "ah location darnassus",
     "where is ah"
    ],
-   "answer": "Darnassus's auction house stands in Tradesmen's Terrace, where travelers, traders, and locals can take part in citywide and Alliance commerce."
+   "answer": "Darnassus's auction house stands in Tradesmen's Terrace, where travelers, traders, and locals take part in citywide and Alliance commerce."
   },
   {
    "q": "How do I reach the other districts from here?",
@@ -55,13 +55,13 @@
     "what can i buy here",
     "tradesmen shops"
    ],
-   "answer": "Tradesmen's Terrace has general merchants, trade supplies, and craftspeople offering everyday goods, repairs, and goods made across Teldrassil."
+   "answer": "General merchants, trade supplies, and craftspeople offering everyday goods, repairs, and goods made across Teldrassil can be found in Tradesmen's Terrace."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you find dense commerce in Tradesmen's Terrace, shaped to preserve Darnassus's peaceful canopy without the disruptive industry of other races."
+   "text": "As a night elf, you find busy trade in Tradesmen's Terrace, shaped to preserve Darnassus's peaceful canopy without the disruptive industry of other races."
   },
   {
    "target": "faction:Alliance",
@@ -89,5 +89,5 @@
  "attribution": [
   "Tradesmen's Terrace"
  ],
- "style": 1
+ "style": 2
 }

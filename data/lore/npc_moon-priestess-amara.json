@@ -8,11 +8,11 @@
   "wiki": "Moon Priestess Amara",
   "refs": 1
  },
- "summary": "West of Dolanaar, Moon Priestess Amara watches Teldrassil’s road to Darnassus. Two huntresses guard her as she keeps watch over the woodland paths.",
+ "summary": "West of Dolanaar, Moon Priestess Amara keeps watch over the road to Darnassus. Two huntresses stand guard beside her as she watches Teldrassil’s woodland paths.",
  "sections": [
   {
    "title": "Guardian of the Boughways",
-   "body": "Moon Priestess Amara watches the road west of Dolanaar with two huntress companions, Nhemai and Yaeliura. As a priestess of the Sisterhood of Elune, she brings spiritual guidance to her post, while her watch helps keep Teldrassil’s roads secure. Travelers heading west can seek her direction toward Darnassus. Those burdened in spirit can also seek a path of redemption from her.",
+   "body": "Moon Priestess Amara watches the road west of Dolanaar with Nhemai and Yaeliura, two huntress companions. As a priestess of the Sisterhood of Elune, she offers spiritual guidance while helping keep Teldrassil’s roads secure. Travelers bound for Darnassus can seek directions from her. Those burdened in spirit can also ask her for a path to redemption.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "priestess amara",
     "sentinel amara nightwalker"
    ],
-   "answer": "Moon Priestess Amara, also known as Amara Nightwalker, is a priestess of the Sisterhood of Elune. She watches the road between Dolanaar and Darnassus in Teldrassil, tending to travelers’ safety and spiritual well-being."
+   "answer": "Moon Priestess Amara, also known as Amara Nightwalker, serves the Sisterhood of Elune. She watches the road between Dolanaar and Darnassus in Teldrassil and cares for travelers’ safety and spiritual well-being."
   },
   {
    "q": "Where can I find Moon Priestess Amara?",
@@ -33,7 +33,7 @@
     "amara location",
     "priestess amara map"
    ],
-   "answer": "You can find her along the paved road just west of Dolanaar in Teldrassil, with two sentinel huntresses at her side."
+   "answer": "You can find Moon Priestess Amara along the paved road just west of Dolanaar in Teldrassil. Two sentinel huntresses stand at her side."
   },
   {
    "q": "Who are the huntresses standing with her?",
@@ -52,7 +52,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you meet Amara on your journey west from Dolanaar. Her guidance and tasks lead toward Darnassus."
+   "text": "As a night elf, you meet Amara on your journey west from Dolanaar. Her guidance and tasks lead you toward Darnassus."
   }
  ],
  "keywords": [
@@ -77,5 +77,5 @@
  "attribution": [
   "Moon Priestess Amara"
  ],
- "style": 1
+ "style": 2
 }

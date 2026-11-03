@@ -15,16 +15,16 @@
   "next": "The Black Shield",
   "wiki": null
  },
- "summary": "At Brackenwall Village, Do'gol has noticed lettering along the shield's edge, but burned residue hides it. Clearing it needs acid, and Do'gol asks you for six venom sacs from the Darkfang spiders of the marsh.",
+ "summary": "In Brackenwall Village, Do'gol seeks venom for a shield whose writing is hidden by burned residue. Six sacs from the marsh's Darkfang spiders hold acid that can clear its rim.",
  "sections": [
   {
    "title": "Cleaning the Rim",
-   "body": "Do'gol can see lettering around the shield's rim, though the burnt-on grime makes it hard to read. Acid would clear it, and the marsh's Darkfang spiders carry venom that works well. Do'gol wants six of their acidic venom sacs to clean the shield up.",
+   "body": "At Brackenwall Village, Do'gol studies the lettering around a shield's rim. Burned grime makes it hard to read, but acid can clear the residue. Darkfang spiders in the marsh carry venom fit for the work, so Do'gol asks you for six of their venom sacs.",
    "spoiler": 0
   },
   {
    "title": "Once the Sacs Arrive",
-   "body": "Do'gol takes a dislike to spiders too large to sit on and squash, then thanks you for the sacs. Do'gol rips them open and pours them onto the shield.",
+   "body": "Do'gol dislikes spiders too large to sit on and squash. After thanking you for the sacs, Do'gol tears them open and pours their venom onto the shield.",
    "spoiler": 1
   }
  ],
@@ -36,7 +36,7 @@
     "dogol quest",
     "who starts the black shield"
    ],
-   "answer": "Do'gol, in Brackenwall Village."
+   "answer": "Do'gol asks for spider venom in Brackenwall Village."
   },
   {
    "q": "Why does Do'gol need venom sacs?",
@@ -45,7 +45,7 @@
     "purpose of acidic venom sacs",
     "why clean the shield"
    ],
-   "answer": "Do'gol wants acid to clear the burned residue hiding the writing on the shield's rim, and Darkfang spider venom will do."
+   "answer": "Do'gol needs acid to clear the burned residue hiding the writing on the shield's rim. Darkfang spider venom will do."
   },
   {
    "q": "Where do the acidic venom sacs come from?",
@@ -54,14 +54,14 @@
     "darkfang spider location",
     "where to get acidic venom"
    ],
-   "answer": "From the Darkfang spiders that live in the marsh near Brackenwall Village."
+   "answer": "The acidic venom sacs come from Darkfang spiders living in the marsh near Brackenwall Village."
   },
   {
    "q": "How many sacs does Do'gol want?",
    "aliases": [
     "how many venom sacs"
    ],
-   "answer": "Six Acidic Venom Sacs."
+   "answer": "Do'gol wants six Acidic Venom Sacs."
   }
  ],
  "angles": [],
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Classic quest text: The Black Shield"
- ]
+ ],
+ "style": 2
 }

@@ -18,11 +18,11 @@
   "chain": [],
   "category": "Arathi Highlands"
  },
- "summary": "Captain Steelgut sits mourning at Faldir's Cove after losing the beloved Maiden's Folly. Steelgut asks you to go after the Daggerspine naga who slaughtered the survivors of the wreck.",
+ "summary": "At Faldir's Cove, Captain Steelgut mourns the Maiden's Folly and asks you to kill the Daggerspine naga who slew the wreck's survivors.",
  "sections": [
   {
    "title": "A Captain by the Fire",
-   "body": "Captain Steelgut sits by the fire at Faldir's Cove, wishing for a watery grave instead. The crew fought hard to save the beautiful Maiden's Folly, but the sea sank it, with water rushing in all at once. O'Breen reached shore safely, yet naga killed the survivors. Steelgut wants Daggerspine raiders and sorceresses dead.",
+   "body": "At Faldir's Cove, Captain Steelgut sits by the fire and wishes the sea had taken him too. His crew fought hard to save the Maiden's Folly, but water rushed in all at once and the ship sank. O'Breen reached shore safely, while the naga killed the other survivors. Steelgut wants ten Daggerspine raiders and three Daggerspine sorceresses dead.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "steelgut",
     "who is the quest giver"
    ],
-   "answer": "The captain of the Maiden's Folly, now sitting by a fire at Faldir's Cove after the ship was lost."
+   "answer": "Captain Steelgut commanded the Maiden's Folly. After the ship was lost, he sat by a fire at Faldir's Cove."
   },
   {
    "q": "What happened to the Maiden's Folly?",
@@ -43,7 +43,7 @@
     "what happened to the ship",
     "why did steelgut crash"
    ],
-   "answer": "Steelgut says the sea sank the ship: one second it was afloat and the next water was rushing in, though the crew tried hard to save it."
+   "answer": "Steelgut says the sea sank the Maiden's Folly. The ship was afloat, then water rushed in all at once despite the crew's hard fight to save it."
   },
   {
    "q": "Why does Captain Steelgut want the naga killed?",
@@ -52,7 +52,7 @@
     "steelgut revenge",
     "daggerspine reason"
    ],
-   "answer": "Naga killed the survivors of the wreck. Steelgut calls them scum and wants them dead."
+   "answer": "The naga killed the wreck's survivors, and Steelgut wants them dead."
   },
   {
    "q": "Which naga does Steelgut want dead?",
@@ -61,7 +61,7 @@
     "target naga",
     "daggerspine targets"
    ],
-   "answer": "Ten Daggerspine raiders and three Daggerspine sorceresses."
+   "answer": "Ten Daggerspine raiders and three Daggerspine sorceresses, as Steelgut asks."
   }
  ],
  "angles": [],
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Drowned Sorrows (Classic)"
- ]
+ ],
+ "style": 2
 }

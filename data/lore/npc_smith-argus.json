@@ -8,16 +8,16 @@
   "wiki": "Smith Argus",
   "refs": 3
  },
- "summary": "At Goldshire's forge, Smith Argus keeps travelers and local smiths supplied. He repairs gear, teaches new smiths, and sends horseshoes to Redridge while coordinating with Stormwind craftsmen.",
+ "summary": "At Goldshire's forge, Smith Argus keeps travelers and local smiths supplied. He repairs gear, trains new smiths, and sends horseshoes to Redridge while coordinating with Stormwind craftsmen.",
  "sections": [
   {
    "title": "The Anvil of Goldshire",
-   "body": "Smith Argus works the forge near the Lion's Pride Inn in Goldshire. Gnolls, kobolds, and Defias bandits threaten the area, but Argus keeps the local militia and passing adventurers equipped. He mends armor and makes sturdy tools. As a blacksmithing trainer, he teaches new smiths to work copper and bronze.",
+   "body": "Near the Lion's Pride Inn in Goldshire, Smith Argus works the forge. Gnolls, kobolds, and Defias bandits threaten the area, so he keeps the local militia and passing adventurers equipped. He mends armor and makes sturdy tools. As a blacksmithing trainer, he teaches new smiths to work copper and bronze.",
    "spoiler": 0
   },
   {
    "title": "Inter-Town Trade and Demands",
-   "body": "Goldshire's central position makes Smith Argus a link in Stormwind's regional supply. Craftsmen in nearby settlements turn to him for specialized gear and raw materials. Farrier Verner Osgood in Redridge depends on Argus for crafted horseshoes for pack animals and cavalry. Metalworkers in Stormwind's Dwarven District also arrange deliveries through him.",
+   "body": "Goldshire's central position makes Smith Argus a link in Stormwind's regional supply. Craftsmen in nearby settlements come to him for specialized gear and raw materials. Farrier Verner Osgood in Redridge depends on Argus for horseshoes for pack animals and cavalry. Metalworkers in Stormwind's Dwarven District also arrange deliveries through him.",
    "spoiler": 0
   }
  ],
@@ -111,5 +111,5 @@
  "attribution": [
   "Smith Argus"
  ],
- "style": 1
+ "style": 2
 }

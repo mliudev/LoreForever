@@ -10,11 +10,11 @@
    "quest:914"
   ]
  },
- "summary": "The Gem of Pythas is one of four corrupted dream gems carried by the leaders of the Druids of the Fang within the Wailing Caverns. Held by Lord Pythas, it fuels the nightmare twisting the subterranean oasis and threatening the Barrens.",
+ "summary": "In the Wailing Caverns, Lord Pythas bears one of four corrupted dream gems. Together, the gems feed the nightmare twisting the underground oasis and threaten the Barrens.",
  "sections": [
   {
    "title": "A Vessel of the Nightmare",
-   "body": "When Naralex entered the Emerald Dream to restore the arid Barrens, his noble vision was twisted into a living nightmare. His foremost followers fell with him, styling themselves the Druids of the Fang and seeking to remake the surface world into a venomous jungle. Lord Pythas carries this resonant stone, one of four dream gems anchoring the corruption within the caverns. The gem serves as a conduit of their dark design and proof to the druids of Thunder Bluff that Pythas's twisted trance has finally been broken.",
+   "body": "Naralex entered the Emerald Dream to restore the arid Barrens. There, his vision became a living nightmare. His foremost followers fell with him and became the Druids of the Fang. Now they seek to remake the surface world as a venomous jungle.\n\nLord Pythas bears one of four dream gems that anchor the corruption in the caverns. The stone channels the druids’ dark design. It also proves to the druids of Thunder Bluff that Pythas’s twisted trance has been broken.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what to do with gem of pythas",
     "pythas gem quest"
    ],
-   "answer": "The gem is brought to Nara Wildmane in Thunder Bluff along with the gems of Cobrahn, Anacondra, and Serpentis. Together, they complete the task of putting an end to the rogue leaders of the Druids of the Fang."
+   "answer": "Take the gem to Nara Wildmane in Thunder Bluff with the gems of Cobrahn, Anacondra, and Serpentis. Together, the four gems complete the work of ending the rogue leaders of the Druids of the Fang."
   },
   {
    "q": "Who carries this gem?",
@@ -35,7 +35,7 @@
     "pythas location",
     "where to get gem of pythas"
    ],
-   "answer": "It is held by Lord Pythas, a fallen night elf druid who resides deep inside the Wailing Caverns of the Barrens."
+   "answer": "Lord Pythas carries the gem. He is a fallen night elf druid who dwells deep in the Wailing Caverns of the Barrens."
   },
   {
    "q": "Why do the druids of Thunder Bluff want the gem?",
@@ -43,7 +43,7 @@
     "why does nara want gems",
     "nara wildmane pythas"
    ],
-   "answer": "Nara Wildmane and the Cenarion druids in Thunder Bluff are haunted by the corruption radiating from the Wailing Caverns. Securing the gems proves that the four aberrant leaders have been slain, cutting off the nightmare from bleeding further into the Barrens."
+   "answer": "The corruption from the Wailing Caverns haunts Nara Wildmane and the Cenarion druids in Thunder Bluff. Securing the gems proves the four aberrant leaders are slain and cuts off the nightmare before it spreads farther into the Barrens."
   },
   {
    "q": "Are there other gems like this one?",
@@ -52,17 +52,17 @@
     "fang gems",
     "wailing caverns gems"
    ],
-   "answer": "Yes. Lord Pythas is one of four leaders. The others\u2014Lady Anacondra, Lord Cobrahn, and Lord Serpentis\u2014each carry their own dream gem deep inside the cavern."
+   "answer": "Yes. Each of the four leaders carries a dream gem deep in the cavern. The others are Lady Anacondra, Lord Cobrahn, and Lord Serpentis."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For Cenarion druids, recovering the gem is a somber duty, as it represents the utter degradation of Naralex's inner circle into serpentine horrors."
+   "text": "As a Cenarion druid, recovering the gem is a somber duty. It marks how far Naralex’s inner circle has fallen into serpentine horrors."
   },
   {
    "target": "race:Tauren",
-   "text": "The twisted rituals in the caverns threaten the fragile balance of the Barrens, making the recovery of these gems critical to protecting the shamans' and druids' homeland."
+   "text": "As a tauren, you know the twisted rites in the caverns threaten the Barrens’ fragile balance. Recovering these gems is vital to protecting your shamans’ and druids’ homeland."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  "attribution": [
   "Gem of Pythas",
   "Leaders of the Fang"
- ]
+ ],
+ "style": 2
 }

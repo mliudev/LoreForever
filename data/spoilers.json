@@ -1419,7 +1419,7 @@
  "npc:cerellean-whiteclaw": {},
  "npc:charlga-razorflank": {
   "faq": {},
-  "summary": "In Razorfen Kraul, Charlga Razorflank leads the Razorfen quilboar. They drove the tauren from the southern Barrens, claiming to fight in the name of their fallen god, Agamaggan."
+  "summary": "In Razorfen Kraul, Charlga Razorflank leads the Razorfen quilboar. They drove the tauren from the southern Barrens, claiming to fight for their fallen god, Agamaggan."
  },
  "npc:chef-breanna": {},
  "npc:chef-grual": {
@@ -1739,7 +1739,7 @@
    "4": 2,
    "5": 2
   },
-  "summary": "High Inquisitor Fairbanks was once a revered priest of the Knights of the Silver Hand and a trusted advisor to Highlord Alexandros Mograine. Once a prominent spiritual leader among Lordaeron's surviving defenders, his fate became tied to the dark descent of the Scarlet Crusade."
+  "summary": "In the Scarlet Crusade, High Inquisitor Fairbanks's fate remains bound to the order's dark descent. Before Lordaeron fell, he was a revered priest and a trusted advisor to Highlord Alexandros Mograine."
  },
  "npc:high-priest-rohan": {},
  "npc:high-priestess-laurena": {},
@@ -1787,7 +1787,7 @@
    "5": 1,
    "6": 1
   },
-  "summary": "Among Raven Hill's ruins, Jitters lives alone and fears the dangers around him. He survives on help from travelers in western Duskwood, always watching the shadows."
+  "summary": "In western Duskwood, Jitters shelters alone among Raven Hill's ruins. He depends on travelers for food and watches the shadows for danger."
  },
  "npc:jocaste": {},
  "npc:john-j-keeshan": {},
@@ -1820,7 +1820,7 @@
   "remove_keywords": [
    "twilight's hammer"
   ],
-  "summary": "In the Undercity, Keeper Bel'dugur commissions expeditions to recover dark tomes and magical artifacts for his people. The scholarly Forsaken works deep within the Apothecarium."
+  "summary": "In the Undercity's Apothecarium, Keeper Bel'dugur sends travelers to recover dark tomes and magical artifacts for his people. The scholarly Forsaken works among its researchers."
  },
  "npc:keeper-bel-varil": {},
  "npc:keldran": {},
@@ -2072,7 +2072,7 @@
    "1": 1,
    "3": 1
   },
-  "summary": "Mistress Natalia Mar'alith is a night elf priestess and Cenarion Circle researcher who went missing deep within the silithid nests of Hive'Regal. She ventured into the wastes of Silithus alongside her husband, Commander Mar'alith, before departing on an expedition into the hives."
+  "summary": "Deep in Hive'Regal, Natalia Mar'alith has vanished among the silithid. The night elf priestess and Cenarion Circle researcher entered the wastes of Silithus with her husband, Commander Mar'alith, then went on an expedition into the hives."
  },
  "npc:nathanos-blightcaller": {},
  "npc:natoj": {},
@@ -2101,7 +2101,7 @@
   "remove_keywords": [
    "katrana prestor"
   ],
-  "summary": "Onyxia is the broodmother of the black dragonflight and the devious daughter of Deathwing. Lurking in her wyrm lair within Dustwallow Marsh, she tends to her burgeoning brood while coordinating with her sinister dragonflight to exert dominance over the mortal realms."
+  "summary": "In Dustwallow Marsh, Onyxia tends her brood and schemes to bring the mortal realms under black dragonflight rule. She is Deathwing’s daughter, while her brother Nefarian gathers armies in Blackrock Spire."
  },
  "npc:orendil-broadleaf": {},
  "npc:orenthil-whisperwind": {},
@@ -2304,7 +2304,7 @@
   "remove_keywords": [
    "abercrombie"
   ],
-  "summary": "Along Duskwood's western road, Stitches marches toward Darkshire, crushing the Night Watch and unwary travelers in his path."
+  "summary": "Along Duskwood's western road, Stitches marches east toward Darkshire, crushing the Night Watch and unwary travelers in his path."
  },
  "npc:strahad-farsan": {},
  "npc:supervisor-raelen": {},
@@ -7030,7 +7030,7 @@
    "1": 1,
    "3": 1
   },
-  "summary": "Timber from Westfall reaches the Mast Room, deep in the Deadmines, where goblin woodcarvers shape it for the Defias."
+  "summary": "In the Deadmines, timber from Westfall reaches the Mast Room, where goblin woodcarvers shape it for the Defias."
  },
  "subzone:master-s-cellar": {},
  "subzone:master-s-glaive": {},
@@ -7221,7 +7221,7 @@
    "3": 1,
    "4": 1
   },
-  "summary": "Nightbane worgen hold Roland's Doom, east of the Rotting Orchard in southeastern Duskwood. The mine is abandoned, and its tunnels are a dangerous den."
+  "summary": "Nightbane worgen prowl the abandoned mine at Roland's Doom, east of the Rotting Orchard in southeastern Duskwood."
  },
  "subzone:rolling-plains": {},
  "subzone:rotting-orchard": {},
@@ -7672,7 +7672,7 @@
   "remove_keywords": [
    "neeru fireblade"
   ],
-  "summary": "Once an ancient orcish clan renowned for its deadly blademasters and consumed by chaotic frenzy during the early wars, the Burning Blade now largely persists as a sinister demon-worshiping cult. Infiltrating Durotar and the Barrens under the direction of the Shadow Council, its acolytes threaten the fragile peace of the region. Meanwhile, a handful of honorable blademasters have forsaken demonic corruption to serve Warchief Thrall in the New Horde."
+  "summary": "Across Durotar and the Barrens, the Burning Blade threatens the young Horde from within. Once renowned for its blademasters, the clan broke under demonic corruption. Now most of its scattered members serve the Shadow Council, while a few honorable blademasters stand with Warchief Thrall."
  },
  "topic:burning-legion": {},
  "topic:cenarion-circle": {},
@@ -7765,7 +7765,7 @@
    "3": 1,
    "5": 1
   },
-  "summary": "A Juggernaught is an enormous, heavily armored battleship bristling with heavy naval cannons. Originally engineered by ogres to serve as the iron core of the Old Horde's fleet during the Second War, these floating fortresses were built to pulverize coastal strongholds and trade routes. Their massive iron plating and siege-grade broadsides make them legendary instruments of naval warfare."
+  "summary": "During the Second War, ogres forged the Horde's answer to the Alliance fleet: the juggernaught. Its iron hull and heavy guns made it a floating fortress built to batter ships and coastal strongholds."
  },
  "topic:knights-of-the-silver-hand": {},
  "topic:kobold": {},

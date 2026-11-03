@@ -10,11 +10,11 @@
    "quest:3065"
   ]
  },
- "summary": "At the Valley of Trials, Gornek gives new troll warriors a message to take to Frang.",
+ "summary": "At the Valley of Trials, Gornek gives new troll warriors a message to carry to Frang.",
  "sections": [
   {
    "title": "A Summons to Battle",
-   "body": "Gornek gives new troll warriors a message from Tar'sere, addressed to Frang, the warrior trainer near the Den. It introduces the recruit to combat training in Durotar and asks them to present themselves to Frang. The message calls on them to take up weapons for the Horde.",
+   "body": "Gornek gives new troll warriors a message from Tar'sere, addressed to Frang, the warrior trainer near the Den. It introduces the recruit to combat training in Durotar and asks them to present themselves to Frang. The message calls them to take up weapons for the Horde.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what is this tablet",
     "troll warrior tablet"
    ],
-   "answer": "Gornek gives aspiring troll warriors in the Valley of Trials a message that directs them to Frang for combat training."
+   "answer": "In the Valley of Trials, Gornek gives aspiring troll warriors a message directing them to Frang for combat training."
   },
   {
    "q": "Who sends the tablet?",
@@ -52,13 +52,13 @@
     "can anyone get simple tablet",
     "which class gets simple tablet"
    ],
-   "answer": "The Simple Tablet is given to troll warriors beginning their rites of passage in the Valley of Trials."
+   "answer": "The Simple Tablet goes to troll warriors beginning their rites of passage in the Valley of Trials."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a warrior, the tablet introduces you to Frang for combat training."
+   "text": "As a warrior, the message introduces you to Frang for combat training."
   },
   {
    "target": "race:Troll",
@@ -88,5 +88,5 @@
   "Simple Tablet",
   "Simple Tablet (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -8,16 +8,16 @@
   "wiki": "Skuerto",
   "refs": 1
  },
- "summary": "Skuerto is a dwarven scout stationed at Refuge Pointe in the Arathi Highlands. Sent there by Archmage Malin alongside Apprentice Kryten, he aids the Alliance in the field, helping secure magical relics on Malin's behalf.",
+ "summary": "At Refuge Pointe, Skuerto scouts the dangerous Arathi Highlands for the Alliance. Archmage Malin sent him with Apprentice Kryten to gather arcane reagents and recover artifacts once owned by Malin's old master, Archmage Trelane.",
  "sections": [
   {
    "title": "A Scout in the Highlands",
-   "body": "Skuerto, a dwarf of Ironforge, works as a scout in the dangerous Arathi Highlands. Stationed alongside Apprentice Kryten at Refuge Pointe, he works under the direction of Archmage Malin to recover arcane reagents and potent magical artifacts that once belonged to Malin's old master, Archmage Trelane.",
+   "body": "Skuerto scouts the dangerous Arathi Highlands for the Alliance. The Ironforge dwarf is stationed at Refuge Pointe with Apprentice Kryten. Archmage Malin directs their search for arcane reagents and powerful artifacts once owned by his old master, Archmage Trelane.",
    "spoiler": 0
   },
   {
    "title": "Pride and Peril",
-   "body": "Despite the harsh conditions of the Highlands, Skuerto takes considerable pride in his wilderness scouting and reacts poorly to anyone questioning his competence. His work regularly brushes up against regional perils, from the hostile Syndicate and Boulderfist ogres to dangerous ancient entities tied to the land.",
+   "body": "Skuerto takes pride in scouting the harsh Highlands and bristles when anyone questions his skill. His work brings him near the region's dangers: the hostile Syndicate, Boulderfist ogres, and ancient entities bound to the land.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why is skuerto here",
     "skuerto backstory"
    ],
-   "answer": "Archmage Malin sent him. Skuerto and Apprentice Kryten were dispatched to Refuge Pointe to gather reagents and recover the items left behind by Malin's old master, Archmage Trelane, who fled Stromgarde when it fell under siege."
+   "answer": "Archmage Malin sent Skuerto to Refuge Pointe with Apprentice Kryten. They gather reagents and recover items left behind by Malin's old master, Archmage Trelane, who fled Stromgarde when it fell under siege."
   },
   {
    "q": "What is Skuerto's mission at Refuge Pointe?",
@@ -37,20 +37,20 @@
     "what does skuerto do",
     "skuerto malin"
    ],
-   "answer": "Archmage Malin sent Skuerto and Apprentice Kryten to the Arathi Highlands to collect arcane reagents and recover powerful magical artifacts once owned by Malin's former master, Archmage Trelane."
+   "answer": "Skuerto and Apprentice Kryten gather arcane reagents and recover powerful magical artifacts once owned by Archmage Trelane, Malin's former master."
   },
   {
    "q": "Who are Skuerto's allies in the region?",
    "aliases": [
     "skuerto friends"
    ],
-   "answer": "He works directly with Apprentice Kryten, his partner on Archmage Malin's errand, and with the Alliance defenders holding Refuge Pointe."
+   "answer": "Skuerto works with Apprentice Kryten, his partner in Archmage Malin's work, and with the Alliance defenders holding Refuge Pointe."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Skuerto exemplifies the grit of dwarves serving on the Alliance's wild frontiers, though his pride as a scout is easily bruised."
+   "text": "As a dwarf, Skuerto shows the grit of those serving the Alliance on its wild frontiers. His scout's pride is easily bruised."
   }
  ],
  "keywords": [
@@ -71,5 +71,6 @@
  ],
  "attribution": [
   "Skuerto"
- ]
+ ],
+ "style": 2
 }

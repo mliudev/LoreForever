@@ -29,11 +29,11 @@
   ],
   "category": "Desolace"
  },
- "summary": "Brother Anton of the Scarlet Crusade, at Nijel's Point, says his order is at war with the Scourge, an evil that corrupts the people and infects the land. He asks you to prove your allegiance by destroying thirty undead ravagers in the Valley of Bones.",
+ "summary": "At Nijel's Point, Brother Anton calls on you to prove your allegiance to the Scarlet Crusade.",
  "sections": [
   {
    "title": "Proof of Allegiance",
-   "body": "Brother Anton speaks bluntly. He says the Scourge must be halted before it swallows the land and pulls the world into darkness, and the Scarlet Crusade has pledged itself to that fight. If you are with them, he wants your courage and allegiance shown by destroying thirty undead ravagers. They are found south of Anton, in the Valley of Bones. Succeed, and the Crusade will welcome you.",
+   "body": "Brother Anton says the Scourge must be stopped before it swallows the land and casts the world into darkness. The Scarlet Crusade has pledged itself to that fight. To prove your courage and allegiance, destroy thirty undead ravagers in the Valley of Bones, south of Anton. Succeed, and the Crusade will welcome you.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "brother anton quest",
     "scarlet crusade desolace npc"
    ],
-   "answer": "Brother Anton of the Scarlet Crusade, at Nijel's Point."
+   "answer": "Brother Anton of the Scarlet Crusade asks you at Nijel's Point."
   },
   {
    "q": "Where are the undead ravagers found?",
@@ -54,7 +54,7 @@
     "where is valley of bones",
     "ravagers in desolace"
    ],
-   "answer": "The Valley of Bones, south of Nijel's Point in Desolace."
+   "answer": "The undead ravagers are in the Valley of Bones, south of Nijel's Point in Desolace."
   },
   {
    "q": "Why does Brother Anton want the ravagers destroyed?",
@@ -63,7 +63,7 @@
     "brother anton motive",
     "scarlet crusade reason"
    ],
-   "answer": "He says the Crusade is at war with the Scourge, an evil that corrupts the people and infects the land, and he wants you to prove your allegiance."
+   "answer": "Brother Anton says the Crusade fights the Scourge, which corrupts people and infects the land. He asks you to prove your allegiance."
   },
   {
    "q": "How many ravagers must be destroyed?",
@@ -71,7 +71,7 @@
     "how many ravagers",
     "ravager count"
    ],
-   "answer": "Thirty."
+   "answer": "You must destroy thirty ravagers."
   },
   {
    "q": "What comes before this?",
@@ -79,7 +79,7 @@
     "previous quest",
     "prerequisite for down the scarlet path"
    ],
-   "answer": "Your meeting with Brother Anton comes first."
+   "answer": "You meet Brother Anton first."
   }
  ],
  "angles": [],
@@ -103,5 +103,6 @@
  ],
  "attribution": [
   "Down the Scarlet Path"
- ]
+ ],
+ "style": 2
 }

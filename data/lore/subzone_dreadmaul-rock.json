@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Dreadmaul Rock"
  },
- "summary": "Dreadmaul Rock is a towering crag and cave complex rising out of the fiery wastes of the Burning Steppes. It serves as the primary base of operations for the Firegut ogres, who make their home within its winding, subterranean mounds.",
+ "summary": "Firegut ogres make their home among the caves and earthen mounds of Dreadmaul Rock in the Burning Steppes.",
  "sections": [
   {
    "title": "Stronghold of the Firegut",
-   "body": "Towering above the scorched plains of the Burning Steppes, Dreadmaul Rock is a massive stone formation carved out by a labyrinthine cave system. Though its name hints at a possible connection to the Dreadmaul ogres of the Blasted Lands, the rock is held firmly by the Firegut clan. These brutish ogres use the elevated paths, crags, and interior earthen mounds as a defended encampment, dominating the surrounding wasteland and menacing anyone attempting to traverse the northern slopes toward Blackrock Spire.",
+   "body": "Above the scorched plains of the Burning Steppes, Firegut ogres hold the crags and caves of Dreadmaul Rock. The massive stone formation is cut through by a labyrinthine cave system. Though its name suggests a possible tie to the Dreadmaul ogres of the Blasted Lands, the Firegut clan controls the rock.\n\nThey use its high paths, crags, and interior earthen mounds as a defended camp. From there, they dominate the surrounding wasteland and menace anyone crossing the northern slopes toward Blackrock Spire.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "dreadmaul rock mobs",
     "what ogres are at dreadmaul rock"
    ],
-   "answer": "Dreadmaul Rock is the central base for the Firegut ogres. They inhabit both the exterior cliff paths and the complex cave system buried inside the rock formation."
+   "answer": "The Firegut ogres use Dreadmaul Rock as their central base. They inhabit its outer cliff paths and the complex cave system within the rock."
   },
   {
    "q": "Why is it named Dreadmaul Rock if Firegut ogres live here?",
@@ -32,7 +32,7 @@
     "dreadmaul or firegut",
     "dreadmaul ogres connection"
    ],
-   "answer": "While the Firegut clan currently controls the peak, its name strongly suggests it may have once belonged to the Dreadmaul ogre clan, who maintain a large presence south in the Blasted Lands."
+   "answer": "The Firegut clan controls the peak, though the name suggests the rock may once have belonged to the Dreadmaul ogre clan, which has a large presence south in the Blasted Lands."
   },
   {
    "q": "What is the layout of the rock like?",
@@ -41,7 +41,7 @@
     "dreadmaul peak layout",
     "navigating dreadmaul rock"
    ],
-   "answer": "Dreadmaul Rock consists of steep exterior ramps winding up the crag alongside an intricate interior cave network filled with ogre mounds and dwellings."
+   "answer": "Steep ramps wind up the crag beside an intricate cave network within, filled with ogre mounds and dwellings."
   },
   {
    "q": "Where is Dreadmaul Rock located?",
@@ -50,17 +50,17 @@
     "where is dreadmaul rock",
     "burning steppes ogre base"
    ],
-   "answer": "It is located in the Burning Steppes, standing as a prominent mountain-like formation north of the path toward the Redridge Mountains and east of Blackrock Mountain."
+   "answer": "Dreadmaul Rock rises in the Burning Steppes, north of the path toward the Redridge Mountains and east of Blackrock Mountain."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance forces guarding the border passes from Redridge, the aggressive ogres of Dreadmaul Rock represent a constant, brutal hazard looming just across the northern ridge."
+   "text": "For Alliance forces guarding the border passes from Redridge, the aggressive ogres of Dreadmaul Rock are a constant, brutal hazard just across the northern ridge."
   },
   {
    "target": "faction:Horde",
-   "text": "Horde travelers trekking across the Steppes toward Blackrock Mountain must tread carefully around Dreadmaul Rock to avoid drawing the ire of the territorial Firegut clan."
+   "text": "Horde travelers crossing the Steppes toward Blackrock Mountain must tread carefully around Dreadmaul Rock and avoid angering the territorial Firegut clan."
   }
  ],
  "keywords": [
@@ -76,5 +76,6 @@
  ],
  "attribution": [
   "Dreadmaul Rock"
- ]
+ ],
+ "style": 2
 }

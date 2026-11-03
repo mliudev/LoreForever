@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Forgotten Coast"
  },
- "summary": "The Forgotten Coast forms the wild western shore of Feralas, where the ancient rainforest meets the Veiled Sea. Lumbering sea giants and water elementals roam this battered strand.",
+ "summary": "Sea giants and water elementals roam Feralas’s western shore, where the Forgotten Coast meets the Veiled Sea.",
  "sections": [
   {
    "title": "Edge of the Rainforest",
-   "body": "Stretching along the western edge of Feralas, the Forgotten Coast is a windswept shoreline confronting the expanse of the Veiled Sea. Unlike the dense canopy inland, this frontier is exposed to the elements and dominated by towering sea giants and roving water elementals pacing the surf. Travelers emerging from the forest canopy must contend with these primeval coastal guardians while navigating access to the sea, where ferry connections link to the night elven bastion of Sardor Isle.",
+   "body": "The rainforest ends at the Forgotten Coast, and the Veiled Sea opens beyond it. With no canopy overhead, the strand lies exposed to wind and weather. Sea giants tower over the shore while water elementals prowl the surf. Travelers crossing the forest must pass these ancient guardians to reach the water. A ferry carries them from the mainland to sardor isle, home of the night elven feathermoon stronghold.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "forgotten coast dangers",
     "what is on the coast"
    ],
-   "answer": "The shoreline is patrolled by immense sea giants and restless water elementals emerging from the Veiled Sea."
+   "answer": "Sea giants and water elementals roam the Forgotten Coast, emerging from the Veiled Sea."
   },
   {
    "q": "How do you reach Feathermoon Stronghold from here?",
@@ -32,7 +32,7 @@
     "boat to feathermoon",
     "feathermoon ferry"
    ],
-   "answer": "The shore serves as the primary mainland departure point across the channel to Sardor Isle, where the Night Elves maintain Feathermoon Stronghold. A small ferry dock on the coast provides safe passage across the water away from the dangerous sea giants."
+   "answer": "Take the ferry across the channel from the coast to sardor isle, where the night elves hold feathermoon stronghold. Sea giants prowl the waters near the dock."
   },
   {
    "q": "Is the Forgotten Coast accessible to the Horde?",
@@ -41,17 +41,17 @@
     "how does horde reach coast",
     "safe horde path forgotten coast"
    ],
-   "answer": "Yes. While the southern road leads directly toward the night elven crossing to Feathermoon Stronghold, a secondary path cuts down to the coast further to the north, allowing Horde travelers to reach the shore without straying into Alliance sentinels."
+   "answer": "Yes. A northern path leads down to the coast, so Horde travelers can avoid the southern route toward the night elven crossing and its sentinels."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The coast is a vital conduit between the Kalimdor mainland and Feathermoon Stronghold on Sardor Isle, requiring vigilance against wandering sea giants."
+   "text": "For the Alliance, the coast links the Kalimdor mainland to feathermoon stronghold on sardor isle. Sea giants roam the shore, so stay alert."
   },
   {
    "target": "faction:Horde",
-   "text": "Approaching the coast requires care, as the southern trail nears night elven ferry points; navigating the northern forest pathways provides safer passage to the water."
+   "text": "As a Horde traveler, take the northern forest paths for safer passage to the water. The southern trail runs near night elven ferry points."
   }
  ],
  "keywords": [
@@ -68,5 +68,6 @@
  ],
  "attribution": [
   "Forgotten Coast"
- ]
+ ],
+ "style": 2
 }

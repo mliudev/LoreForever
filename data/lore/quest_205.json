@@ -24,11 +24,11 @@
   ],
   "category": "Stranglethorn Vale"
  },
- "summary": "Brother Nimetz seeks insight into the corruption of Colonel Kurzen by examining dark troll enchantments. Following Kurzen's Mystery, he asks you to venture south into Skullsplitter territory and secure fetishes from their spellcasters.",
+ "summary": "Brother Nimetz sends you into Skullsplitter territory to learn what has corrupted Colonel Kurzen. After Kurzen's Mystery, he asks you to gather fetishes from the tribe's spellcasters.",
  "sections": [
   {
    "title": "Unraveling the Corruption",
-   "body": "While reviewing the legends recovered from the jungle, Brother Nimetz turns his attention to the second troll tribe lingering further south. He suspects that dark troll sorcery may be responsible for Colonel Kurzen's descent into evil. To verify his theory, he asks you to venture into Skullsplitter lands and pry fetishes directly from their Witch Doctors and Mystics so he can study their magic at the Rebel Camp.",
+   "body": "Brother Nimetz suspects dark troll magic lies behind Colonel Kurzen's fall into evil. Legends recovered from the jungle have led him to the second troll tribe farther south. So he asks you to enter Skullsplitter lands and take fetishes from their Witch Doctors and Mystics. He will study the magic they carry at the Rebel Camp.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "who starts troll witchery",
     "where to get troll witchery"
    ],
-   "answer": "Brother Nimetz gives it at the Rebel Camp in northern Stranglethorn Vale."
+   "answer": "Brother Nimetz gives Troll Witchery at the Rebel Camp in northern Stranglethorn Vale."
   },
   {
    "q": "Why does Brother Nimetz want Skullsplitter fetishes?",
@@ -49,7 +49,7 @@
     "purpose of troll witchery",
     "kurzen corruption fetishes"
    ],
-   "answer": "Brother Nimetz intends to study the dark magical implements to see if troll witchcraft explains Colonel Kurzen's fall into evil."
+   "answer": "Brother Nimetz wants to study the dark magical implements and learn whether troll witchcraft explains Colonel Kurzen's fall into evil."
   },
   {
    "q": "Which enemies carry the fetishes?",
@@ -58,7 +58,7 @@
     "which trolls have fetishes",
     "troll witchery fetish source"
    ],
-   "answer": "The fetishes are carried by Skullsplitter Witch Doctors and Skullsplitter Mystics within Skullsplitter territory."
+   "answer": "Skullsplitter Witch Doctors and Skullsplitter Mystics carry fetishes in Skullsplitter territory."
   },
   {
    "q": "What quest precedes Troll Witchery?",
@@ -67,13 +67,13 @@
     "what comes before troll witchery",
     "prerequisite for troll witchery"
    ],
-   "answer": "This assignment follows Kurzen's Mystery, continuing Brother Nimetz's investigation into the colonel's madness."
+   "answer": "Troll Witchery follows Kurzen's Mystery and continues Brother Nimetz's investigation into the colonel's madness."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Brother Nimetz operates out of the Rebel Camp, enlisting Alliance travelers to uncover what corrupted Colonel Kurzen."
+   "text": "As an Alliance traveler, you can help Brother Nimetz at the Rebel Camp uncover what corrupted Colonel Kurzen."
   }
  ],
  "keywords": [
@@ -97,5 +97,6 @@
  ],
  "attribution": [
   "Troll Witchery"
- ]
+ ],
+ "style": 2
 }

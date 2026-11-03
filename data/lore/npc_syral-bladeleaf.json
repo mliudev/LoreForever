@@ -8,16 +8,16 @@
   "wiki": "Syral Bladeleaf",
   "refs": 2
  },
- "summary": "In Dolanaar, Syral Bladeleaf guides night elves arriving from Shadowglen. As a resident of Teldrassil, she speaks for the Council of the Forest and directs them to local caretakers, herbalists, and elders who watch over the crown's boughs.",
+ "summary": "In Dolanaar, Syral Bladeleaf guides night elves arriving from Shadowglen. She speaks for the Council of the Forest and directs newcomers to the caretakers, herbalists, and elders who tend Teldrassil's crown.",
  "sections": [
   {
    "title": "A Voice in Dolanaar",
-   "body": "Syral Bladeleaf helps direct new arrivals through Dolanaar beneath Teldrassil's canopy. She speaks for the Council of the Forest, sending night elves to community leaders and herbalists in the village and nearby wilderness. Her guidance leads travelers to Denalan, a botanist at Lake Al'Ameth, and helps them replenish supplies for the village elders.",
+   "body": "Syral Bladeleaf guides new arrivals through Dolanaar beneath Teldrassil's canopy. Speaking for the Council of the Forest, she sends night elves to village leaders and herbalists nearby. Her guidance leads travelers to Denalan, a botanist at Lake Al'Ameth, and helps them bring supplies to the village elders.",
    "spoiler": 0
   },
   {
    "title": "Ties to the Village",
-   "body": "In Dolanaar, Syral carries out the Council of the Forest's work for the village. She helps see that medicinal elixirs reach those in need and that disruptions to the local ecosystem receive swift attention.",
+   "body": "Syral carries out the Council of the Forest's work in Dolanaar. She helps medicinal elixirs reach those in need and makes sure disturbances to the local ecosystem receive swift attention.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "syral bladeleaf lore",
     "syral dolanaar"
    ],
-   "answer": "Syral Bladeleaf is a night elf in Dolanaar who conveys the Council of the Forest's directives and helps newcomers assist woodland communities."
+   "answer": "Syral Bladeleaf speaks for the Council of the Forest in Dolanaar and helps newcomers aid woodland communities."
   },
   {
    "q": "Where can Syral Bladeleaf be found?",
@@ -53,11 +53,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a young night elf leaving Shadowglen's secluded barrows, you meet one of Dolanaar's first voices of civic and natural leadership in Syral Bladeleaf."
+   "text": "As a young night elf leaving Shadowglen's secluded barrows, you meet Syral Bladeleaf, one of Dolanaar's first voices of civic and natural leadership."
   },
   {
    "target": "profession:Herbalism",
-   "text": "As an herbalist, you can help Syral direct travelers to Denalan's botanical research at Lake Al'Ameth and see that fresh elixirs reach the elders."
+   "text": "As an herbalist, you can help Syral direct travelers to Denalan's botanical research at Lake Al'Ameth and make sure fresh elixirs reach the elders."
   }
  ],
  "keywords": [
@@ -81,5 +81,5 @@
  "attribution": [
   "Syral Bladeleaf"
  ],
- "style": 1
+ "style": 2
 }

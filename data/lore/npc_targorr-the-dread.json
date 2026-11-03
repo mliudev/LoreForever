@@ -8,21 +8,21 @@
   "wiki": "Targorr the Dread",
   "refs": 5
  },
- "summary": "Deep in the Stormwind Stockade, Targorr the Dread waits among the rioting convicts. His execution was delayed by corruption and neglect, and the Defias uprising gave him a chance to escape.",
+ "summary": "In the Stormwind Stockade, Targorr the Dread waits among rioting convicts. Corruption and neglect delayed his execution, and the Defias uprising opened a way out.",
  "sections": [
   {
    "title": "The Butcher of Redridge",
-   "body": "Before his capture, Targorr the Dread served Warlord Gath'Ilzogg as the Blackrock clan's supreme executioner. He worked from the occupied ruins in Redridge, where his cruelty surpassed even the Dark Horde's violent ways. Stormwind guards and militiamen who defended the borderlands suffered torment and slow deaths at his hands. Across the kingdom, few names were more reviled.",
+   "body": "Before his capture, Targorr the Dread served Warlord Gath'Ilzogg as the Blackrock clan's supreme executioner. From the occupied ruins in Redridge, he tormented Stormwind guards and militiamen defending the borderlands. His cruelty surpassed even the Dark Horde's violence, and few names were more reviled across the kingdom.",
    "spoiler": 0
   },
   {
    "title": "Justice Denied",
-   "body": "After Alliance forces captured Targorr alive, they brought him in chains to the capital and locked him in the high-security Stockade. His execution stalled in Stormwind's judicial and political bureaucracy. Graft, endless paperwork, and neglect kept the courts from delivering the death sentence he had earned. A bloodthirsty war criminal remained in a cell beneath the heart of the city.",
+   "body": "Alliance forces captured Targorr alive and brought him in chains to the capital. They locked him in the high-security Stockade, but Stormwind's courts stalled over his execution. Graft, endless paperwork, and neglect kept the courts from delivering the death sentence he had earned. So a bloodthirsty war criminal remained in a cell beneath the heart of the city.",
    "spoiler": 0
   },
   {
    "title": "Uprising in the Cells",
-   "body": "When the Defias Brotherhood broke prisoners out by force, Targorr seized his chance. He escaped his cell and joined the Defias rioters, turning his cellblock into a slaughterhouse. Warden Thelwater has lost control of the prison. Lakeshire still bears the wounds Targorr dealt its defenders, and seeks adventurers willing to enter the riots and bring back the butcher's head.",
+   "body": "When the Defias Brotherhood broke prisoners out by force, Targorr seized his chance. He escaped his cell and joined the Defias rioters, turning his cellblock into a slaughterhouse. Warden Thelwater has lost control of the prison. Lakeshire still bears the wounds Targorr dealt its defenders, and seeks adventurers willing to enter the riot and bring back the butcher's head.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "why is targorr alive",
     "stormwind corruption"
    ],
-   "answer": "Stormwind's inefficient, bloated, and corrupt legal administration delayed Targorr's execution with endless paperwork. The prison riots erupted before the courts could carry out his sentence."
+   "answer": "Stormwind's inefficient, bloated, and corrupt legal administration delayed Targorr's execution with endless paperwork. The prison riots began before the courts could carry out his sentence."
   },
   {
    "q": "Why is an orc allied with the Defias Brotherhood?",
@@ -113,5 +113,5 @@
  "attribution": [
   "Targorr the Dread"
  ],
- "style": 1
+ "style": 2
 }

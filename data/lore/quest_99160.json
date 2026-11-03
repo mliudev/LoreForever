@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Frost mages study the raw conjuration and shaping of ice magic, making wild minor ice elementals an intriguing yet unruly display of elemental forces."
+   "text": "As a Mage, you study the shaping of ice magic, and wild minor ice elementals show elemental forces in an unruly form."
   },
   {
    "target": "class:Shaman",
-   "text": "Shaman seek to understand and commune with elemental spirits, though these hostile ice entities proved beyond peaceful placation and had to be quelled by force."
+   "text": "As a Shaman, you seek to understand and commune with elemental spirits. These hostile ice spirits cannot be calmed, so you must quell them by force."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "quest rimes wrath",
     "rimes wrath overview"
    ],
-   "answer": "Rime's Wrath is a task requiring the destruction of minor ice elementals that pose an immediate threat. Because peaceful methods to pacify these agitated spirits were unknown or unavailable, direct force became the only option to maintain safety.",
+   "answer": "You are asked to destroy minor ice elementals that threaten the area. No peaceful way to calm them is known, so force is needed to keep others safe.",
    "q": "What is Rime's Wrath?"
   },
   {
@@ -37,7 +37,7 @@
     "why fight them",
     "cant we calm the elementals"
    ],
-   "answer": "The minor ice elementals grew too volatile and dangerous to leave unchecked. While peaceful pacification would have been preferred, the knowledge to calm them was lacking, leaving destruction as the necessary measure.",
+   "answer": "The minor ice elementals have grown too dangerous to leave unchecked. With no known way to calm them, you are asked to destroy them to protect the area.",
    "q": "Why do the minor ice elementals need to be destroyed?"
   },
   {
@@ -46,7 +46,7 @@
     "who wants the elementals dead",
     "who is the questgiver"
    ],
-   "answer": "The quest is directed by someone concerned with containment who hoped to placate the spirits peacefully. Lacking the arcane or spiritual knowledge required to pacify them, they instead turned to adventurers to neutralize the threat.",
+   "answer": "Someone concerned for the area's safety hoped to calm the spirits but did not know how. You are asked to destroy the elementals before they can harm anyone.",
    "q": "Who requests the destruction of the elementals?"
   },
   {
@@ -55,7 +55,7 @@
     "placate ice elementals",
     "why not soothe elementals"
    ],
-   "answer": "The questgiver notes that placating them was beyond their understanding. Elemental spirits can sometimes be balanced or appeased, but without the proper expertise, their aggression left no alternative but combat.",
+   "answer": "Those who sent you do not know how to calm the elementals. Without a way to soothe their aggression, you are asked to destroy them.",
    "q": "Could the elementals have been dealt with peacefully?"
   },
   {
@@ -64,7 +64,7 @@
     "ice elementals danger",
     "how strong are minor ice elementals"
    ],
-   "answer": "Minor ice elementals are volatile manifestations of elemental frost. Though classified as minor spirits, their ambient cold and aggressive nature make them dangerous to travelers and local inhabitants if left roaming freely.",
+   "answer": "Minor ice elementals are spirits of elemental frost. Their cold and aggression make them dangerous to travelers and local inhabitants if left roaming freely.",
    "q": "What kind of creatures are minor ice elementals?"
   },
   {
@@ -72,7 +72,7 @@
     "what happens after rimes wrath",
     "rimes wrath conclusion"
    ],
-   "answer": "Once ten minor ice elementals are defeated, the immediate danger is quelled. The questgiver laments that violence was necessary, acknowledging that leaving them unchecked was simply too risky.",
+   "answer": "After you defeat ten minor ice elementals, the immediate danger is quelled. Those who sent you regret that violence was needed, but leaving the spirits unchecked was too risky.",
    "q": "What is the outcome of dealing with the elementals?"
   }
  ],
@@ -88,18 +88,19 @@
  "related": [],
  "sections": [
   {
-   "body": "Rime's Wrath involves dealing with a localized surge of minor ice elementals. These spirits of biting frost and cold have become an active danger in the area, necessitating swift intervention before their chill spreads further or harms passersby. Rather than a coordinated assault, the response is a containment measure against wild, hostile elemental manifestations.",
+   "body": "Minor ice elementals have gathered nearby, and their biting cold puts passersby at risk. You are asked to contain the danger before the spirits can harm anyone.",
    "spoiler": 0,
    "title": "A Bitter Manifestation"
   },
   {
-   "body": "While the preferred outcome was to soothe the agitated frost spirits, the knowledge required to placate them was out of reach. With no practical means of pacification available and the spirits growing increasingly perilous, the only remaining choice was to destroy them to protect the surrounding territory.",
+   "body": "Those who hoped to calm the frost spirits do not know how. As the elementals grow more dangerous, you are asked to destroy them and protect the surrounding territory.",
    "spoiler": 0,
    "title": "Beyond Placation"
   }
  ],
- "summary": "Rime's Wrath is a quest focused on quelling a hazardous outbreak of minor ice elementals. Because methods to peacefully soothe the aggressive frost spirits were unknown, eliminating them became necessary to keep the area safe.",
+ "summary": "Minor ice elementals roam the area, and no peaceful way to calm them is known. You are asked to destroy them before they can harm anyone.",
  "attribution": [
   "In-game quest text: Rime's Wrath"
- ]
+ ],
+ "style": 2
 }

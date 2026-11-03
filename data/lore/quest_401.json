@@ -17,16 +17,16 @@
   "wiki": "Wait for Sirra to Finish",
   "chain": []
  },
- "summary": "In Darkshire's Town Hall, Sirra Von'Indi deciphers Abercrombie's cryptic note. As the resident scholar puts quill to paper, dread settles over the room, and the hermit's words hint at danger.",
+ "summary": "In Darkshire's Town Hall, Sirra Von'Indi writes as he deciphers Abercrombie's cryptic note. Dread settles over the room, and the hermit's words hint at danger.",
  "sections": [
   {
    "title": "A Moment of Translation",
-   "body": "Sirra Von'Indi has the note Abercrombie sent from his seclusion. The scholar aids the Night Watch and Darkshire's leaders, and needs only a short time to decipher the message. He does not yet know what horrors its words conceal.",
+   "body": "Sirra Von'Indi has the note Abercrombie sent from his seclusion. He aids the Night Watch and Darkshire's leaders, and needs only a short time to decipher the message. He does not yet know what horrors the words conceal.",
    "spoiler": 0
   },
   {
    "title": "An Ominous Chill",
-   "body": "When Sirra finishes the transcription, a sudden heaviness fills the room, like a black curtain falling over the region. The note warns of great danger for Darkshire. Abercrombie's seemingly harmless errands were part of a sinister, vengeful design.",
+   "body": "When Sirra finishes the transcription, a sudden heaviness fills the room, like a black curtain falling over the region. The note warns of great danger for Darkshire. Abercrombie's seemingly harmless errands served a sinister, vengeful design.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who is sirra",
     "sirra duskwood"
    ],
-   "answer": "Sirra Von'Indi is a scholar who lives in Darkshire's Town Hall. He helps Mayor Ello Ebonlocke and the local authorities translate ancient scripts, strange documents, and ciphered messages brought in from Duskwood's gloomy wilds."
+   "answer": "Sirra Von'Indi is a scholar in Darkshire's Town Hall. He helps Mayor Ello Ebonlocke and the local authorities translate ancient scripts, strange documents, and ciphered messages brought in from Duskwood's gloomy wilds."
   },
   {
    "q": "What note is Sirra translating?",
@@ -47,7 +47,7 @@
     "abercrombie note",
     "what did abercrombie write"
    ],
-   "answer": "The note was written by Abercrombie, the hermit living in a shack near Duskwood's western edge. You carried out a string of errands for him before the note came to Sirra for translation."
+   "answer": "Abercrombie, the hermit in a shack near Duskwood's western edge, wrote the note. You carried out a string of errands for him before it came to Sirra for translation."
   },
   {
    "q": "Why does the air feel heavy when he finishes?",
@@ -114,5 +114,5 @@
  "attribution": [
   "Wait for Sirra to Finish"
  ],
- "style": 1
+ "style": 2
 }

@@ -31,11 +31,11 @@
   "repeatable": "Yes",
   "category": "Tanaris"
  },
- "summary": "Marin Noggenfogger finds the thistleshrub dew terrible to taste, yet decides not to give up on it. You are sent to Sprinkle, a friend of Marin's in Gadgetzan, with the dew in hand.",
+ "summary": "Marin Noggenfogger finds thistleshrub dew awful to drink, yet he keeps working on the brew. He sends you to Sprinkle in Gadgetzan with the dew.",
  "sections": [
   {
    "title": "A Cook for a Bad Brew",
-   "body": "Marin tastes the dew and finds it awful, yet decides not to give up on the idea after all. Instead you are handed the dew and sent to Sprinkle, a friend in Gadgetzan whom Marin calls an excellent chef. You are to tell her what is going on and that the drink needs to go down more easily. Marin also wants it to have some kick.",
+   "body": "Marin Noggenfogger tastes the dew and finds it awful. Still, he keeps working on the drink. He sends you to Sprinkle, his friend in Gadgetzan and an excellent chef. You carry the dew and explain that the drink needs to go down more easily. Marin also wants it to have some kick.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "what is next in the chain",
     "quest progression"
    ],
-   "answer": "It follows The Thirsty Goblin, and Sprinkle's Secret Ingredient comes after it."
+   "answer": "It follows The Thirsty Goblin, and Sprinkle's Secret Ingredient comes next."
   },
   {
    "q": "Why does Marin Noggenfogger want the dew taken to Sprinkle?",
@@ -56,7 +56,7 @@
     "what does marin want with sprinkle",
     "who is sprinkle"
    ],
-   "answer": "Marin found the dew awful to drink. Marin calls Sprinkle an excellent chef and hopes she can make it go down easier, with some kick to it."
+   "answer": "Marin Noggenfogger finds the dew awful to drink. He hopes Sprinkle, whom he calls an excellent chef, can make it go down more easily and give it some kick."
   },
   {
    "q": "Where can Sprinkle be found?",
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "In Good Taste"
- ]
+ ],
+ "style": 2
 }

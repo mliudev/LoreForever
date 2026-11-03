@@ -17,16 +17,16 @@
   "wiki": "Flight to Auberdine",
   "chain": []
  },
- "summary": "You leave Teldrassil for Auberdine with a bundle of unusual fish specimens. Vesprystus sends you from Rut'theran Village by hippogryph to deliver them to Laird.",
+ "summary": "You carry unusual fish specimens from Teldrassil to Auberdine for Laird. Vesprystus sends you from Rut'theran Village by hippogryph.",
  "sections": [
   {
    "title": "Taking Wing to Darkshore",
-   "body": "Rut'theran Village is a sanctuary at the edge of the wider world for young adventurers leaving Teldrassil. A mundane ferry crosses the strait between the island and mainland Kalimdor, while night elves also travel by bonded hippogryph. Nessa Shadowsong entrusts you with a parcel of rare fish parts, and you take wing to reach the shores of Darkshore.",
+   "body": "From Rut'theran Village, you fly by hippogryph toward Darkshore with fish specimens for Nessa Shadowsong. The village is a sanctuary at the edge of the wider world for young adventurers leaving Teldrassil. A ferry also crosses the strait between the island and mainland Kalimdor, while night elves travel by bonded hippogryph.",
    "spoiler": 0
   },
   {
    "title": "Curious Catches",
-   "body": "Laird waits for Nessa's findings at the docks of Auberdine. He finds enormous scales as large as fists and a jawbone nearly twice the size of mainland specimens. The waters around the base of the World Tree seem to produce altered or abnormally large life, a curiosity tied to Teldrassil's potent, restless nature.",
+   "body": "At Auberdine's docks, Laird examines Nessa's findings. The scales are as large as fists, and the jawbone is nearly twice the size of mainland specimens. Waters around the base of the World Tree seem to yield altered or abnormally large life. The strange catches may be tied to Teldrassil's potent, restless nature.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "flight to auberdine quest goal",
     "why fly"
    ],
-   "answer": "You carry unusual fish specimens caught around Rut'theran Village to Laird in Auberdine, while making the flight between settlements."
+   "answer": "You carry unusual fish specimens caught around Rut'theran Village to Laird in Auberdine on a hippogryph flight between the settlements."
   },
   {
    "q": "Who sends the parcel, and what is inside it?",
@@ -47,7 +47,7 @@
     "what is in the package",
     "who sent package"
    ],
-   "answer": "Nessa Shadowsong, a fisherwoman, sends the parcel. It holds fish specimens from Rut'theran Village's waters, including massive scales and an oversized jawbone."
+   "answer": "Nessa Shadowsong, a fisherwoman, sends the parcel. It contains fish specimens from Rut'theran Village's waters, including massive scales and an oversized jawbone."
   },
   {
    "q": "Why are the fish from Teldrassil so large?",
@@ -56,7 +56,7 @@
     "rut'theran fish size",
     "huge scales"
    ],
-   "answer": "Laird notes scales as big as a fist and a jawbone nearly twice normal size. Waters around Teldrassil's World Tree seem to foster magnified wildlife compared with the mainland shores of Darkshore."
+   "answer": "Laird finds scales as big as a fist and a jawbone nearly twice normal size. Waters around Teldrassil's World Tree seem to foster magnified wildlife compared with mainland Darkshore."
   },
   {
    "q": "Who is Vesprystus?",
@@ -64,7 +64,7 @@
     "vesprystus lore",
     "who is the hippogryph master"
    ],
-   "answer": "Vesprystus is the hippogryph master at Rut'theran Village. He tends the night elven mounts and coordinates flights across the water to mainland Kalimdor."
+   "answer": "Vesprystus is the hippogryph master at Rut'theran Village. He tends the night elven mounts and arranges flights across the water to mainland Kalimdor."
   },
   {
    "q": "Who is Laird?",
@@ -88,11 +88,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you take a hippogryph to Auberdine, a rite of passage for young kaldorei leaving Teldrassil for the ancestral mainland."
+   "text": "As a night elf, you fly by hippogryph to Auberdine, a rite of passage for young kaldorei leaving Teldrassil for the ancestral mainland."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you can rely on hippogryphs to link coastal outposts across northern Kalimdor directly to the capital."
+   "text": "As an Alliance traveler, you can take hippogryphs between coastal outposts across northern Kalimdor and the capital."
   }
  ],
  "keywords": [
@@ -120,5 +120,5 @@
  "attribution": [
   "Flight to Auberdine"
  ],
- "style": 1
+ "style": 2
 }

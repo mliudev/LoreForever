@@ -20,16 +20,16 @@
    "Gyromast's Revenge"
   ]
  },
- "summary": "Along Darkshore, Gelkak Gyromast seeks payback from the murlocs who plundered his wrecked ship. He sends you to reactivate his mechanical first mate, the Threshwackonator 4100.",
+ "summary": "Along Darkshore, Gelkak Gyromast seeks revenge on the murlocs who plundered his wrecked ship. He sends you to wind up his mechanical first mate, the Threshwackonator 4100.",
  "sections": [
   {
    "title": "A Captain's Vendetta",
-   "body": "Gelkak Gyromast is stranded on Darkshore, but he will not accept defeat by the shore-dwelling murlocs. He has salvaged the pieces needed for his scheme and now seeks revenge on the tribe and its chief. Rather than take up his cutlass and wade into the surf, the eccentric captain turns to engineering. He entrusts you with a winding key and asks you to handle his mechanical subordinate.",
+   "body": "Gelkak Gyromast is stranded on Darkshore, but he will not yield to the murlocs along the shore. He has gathered the parts for his plan and seeks revenge on their tribe and its chief. Rather than wade into the surf with his cutlass, the eccentric captain turns to engineering. He gives you a winding key and asks you to tend to his mechanical subordinate.",
    "spoiler": 0
   },
   {
    "title": "The First Mate's Mutiny",
-   "body": "Gelkak's first mate is the Threshwackonator 4100, a clanking mechanical golem left in the shallows south of the wreck. The machine promises an easy slaughter of the murlocs, but proves dangerously unreliable. After you wind it up and lead it back to Gelkak, it malfunctions. The construct mistakes its rescuer and creator for hostile targets, forcing a battle on the beach.",
+   "body": "Gelkak's first mate is the Threshwackonator 4100, a clanking mechanical golem left in the shallows south of the wreck. The machine promises an easy slaughter of the murlocs, but it cannot be trusted. You wind it up and lead it back to Gelkak. Then it malfunctions and mistakes its rescuer and creator for hostile targets, forcing a battle on the beach.",
    "spoiler": 1
   }
  ],
@@ -50,7 +50,7 @@
     "murloc revenge",
     "gelkak motivation"
    ],
-   "answer": "Gelkak's ship was wrecked along Darkshore, and the native Greymist murlocs rummaged through the wreckage and took part of his first mate's key. He means to use his golem against the tribe and its chief."
+   "answer": "Gelkak's ship was wrecked along Darkshore. The native Greymist murlocs rummaged through the wreckage and took part of his first mate's key. He means to use the golem against their tribe and its chief."
   },
   {
    "q": "What happens when you bring the Threshwackonator back?",
@@ -59,7 +59,7 @@
     "robot malfunction",
     "why does the golem attack"
    ],
-   "answer": "Activate the Threshwackonator with Gelkak's key, then lead it back to him. What happens when it reaches the captain becomes clear during the escort."
+   "answer": "Use Gelkak's key to activate the Threshwackonator, then lead it back to him. What happens when it reaches the captain becomes clear during the escort."
   },
   {
    "q": "What do I do with Gyromast's Key after finishing the quest?",
@@ -76,7 +76,7 @@
     "who built threshwackonator",
     "threshwackonator origin"
    ],
-   "answer": "The Threshwackonator came with cargo and equipment salvaged from Gelkak's ill-fated voyage along northern Kalimdor. It was designed to provide heavy mechanical muscle for his crew."
+   "answer": "The Threshwackonator came with cargo and equipment salvaged from Gelkak's ill-fated voyage along northern Kalimdor. It was designed to give his crew heavy mechanical muscle."
   },
   {
    "q": "Does Gelkak give up after the golem is destroyed?",
@@ -120,5 +120,5 @@
  "attribution": [
   "Gyromast's Revenge"
  ],
- "style": 1
+ "style": 2
 }

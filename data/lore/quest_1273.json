@@ -15,16 +15,16 @@
   "wiki": null,
   "next": ""
  },
- "summary": "Ogron, whom Krog sent to track the human Reethe, has found him at last after a long search and says he hid well for a human. Ogron worries that so much time in the swamp may have driven Reethe mad, and asks you to come along to get answers from him. Afterward the way leads back to Krog at Brackenwall Village.",
+ "summary": "Ogron has found Reethe at last and asks you to help question him. He says Reethe hid well for a human, though the days in the swamp may have driven him mad. Afterward, you return to Krog at Brackenwall Village.",
  "sections": [
   {
    "title": "Ogron's Search",
-   "body": "After a long search, Ogron found Reethe, who by Ogron's reckoning hid well for a human. Ogron fears that so many days in the swamp may have left Reethe crazy, and wants you alongside to get answers from him. Afterward, Krog at Brackenwall Village awaits your return.",
+   "body": "Ogron has found Reethe after a long search. By Ogron's reckoning, Reethe hid well for a human. Yet Ogron fears the days in the swamp may have left Reethe mad, and wants you beside him for answers. Once you have spoken with Reethe, you return to Krog at Brackenwall Village.",
    "spoiler": 0
   },
   {
    "title": "Back With Krog",
-   "body": "Krog is pleased that Reethe is gone from the swamp, and scorns humans as built too frail to recover from even a small arrow wound. Krog concludes that this strand of the mystery led nowhere and that the search must look elsewhere.",
+   "body": "Krog is pleased that Reethe is gone from the swamp. He scorns humans as too frail to recover from even a small arrow wound. Krog decides this strand of the mystery led nowhere. The search must turn elsewhere.",
    "spoiler": 1
   }
  ],
@@ -36,7 +36,7 @@
     "questioning reethe quest giver",
     "ogron reethe"
    ],
-   "answer": "Ogron found Reethe after a long search, and wants you along to get answers from him."
+   "answer": "Ogron found Reethe after a long search and wants you beside him to get answers."
   },
   {
    "q": "Why does Ogron want company?",
@@ -45,7 +45,7 @@
     "is reethe crazy",
     "why confront reethe"
    ],
-   "answer": "Ogron worries that Reethe may have gone mad after so long in the swamp."
+   "answer": "Ogron fears Reethe may have gone mad after so long in the swamp."
   },
   {
    "q": "Who do you report to afterward?",
@@ -54,7 +54,7 @@
     "who do i talk to after reethe",
     "reethe turn in"
    ],
-   "answer": "Krog, at Brackenwall Village."
+   "answer": "You report to Krog at Brackenwall Village."
   }
  ],
  "angles": [],
@@ -74,5 +74,6 @@
  ],
  "attribution": [
   "Classic quest text: Questioning Reethe"
- ]
+ ],
+ "style": 2
 }

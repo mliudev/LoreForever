@@ -17,16 +17,16 @@
   "wiki": "Satyr Horns (quest)",
   "chain": []
  },
- "summary": "At Splintertree Post, Pixel hires Horde adventurers to gather satyr horns for Ratchet. The traveling goblin sees a chance to trade them in the port town.",
+ "summary": "At Splintertree Post, Satyr Horns offer Pixel a chance to trade in Ratchet. The traveling goblin seeks them for the journey south to the port town.",
  "sections": [
   {
    "title": "A Lucrative Opportunity",
-   "body": "Pixel, a traveling goblin, sees a chance to profit while resting at Splintertree Post. Satyr horns are in high demand in Ratchet, and Pixel wants them for the journey back south to the port town. Rather than risk facing the corrupted creatures, Pixel hires passing adventurers to bring back sixteen intact horns.",
+   "body": "At Splintertree Post, Pixel sees a chance to profit while resting between travels. Satyr horns fetch a high price in Ratchet, and Pixel wants them for the journey back south to the port town. Rather than face the corrupted creatures, Pixel hires passing adventurers to bring back sixteen intact horns.",
    "spoiler": 0
   },
   {
    "title": "Haunts of the Corrupted",
-   "body": "Demonic satyrs haunt scattered, fel-tainted ruins across Ashenvale, remnants of their betrayal during the ancient sundering. Hunters can search their strongholds at Night Run, the fortified camp of Satyrnaar, and the shadowed groves of Xavian. Horns gathered from any of these places are the trophies Pixel seeks for Ratchet's merchant wharves.",
+   "body": "Demonic satyrs haunt scattered, fel-tainted ruins across Ashenvale. They are remnants of a betrayal during the ancient sundering. You can search their strongholds at Night Run, the fortified camp of Satyrnaar, and the shadowed groves of Xavian. Pixel seeks horns from any of these places for Ratchet's merchant wharves.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "what are horns used for",
     "ratchet satyr horns"
    ],
-   "answer": "Pixel says satyr horns fetch a high price in Ratchet, where merchants, alchemists, and collectors of exotic goods pay well for raw demonic reagents and curios from the northern woods."
+   "answer": "Pixel says satyr horns fetch a high price in Ratchet. Merchants, alchemists, and collectors of exotic goods pay well for raw demonic reagents and curios from the northern woods."
   },
   {
    "q": "Where can satyr horns be found in Ashenvale?",
@@ -73,7 +73,7 @@
     "splintertree satyr quest",
     "why horde only"
    ],
-   "answer": "Splintertree Post is the Horde's main fortress in central Ashenvale. Pixel rests there between trade routes and hires nearby Horde warriors already fighting the forest's dangers."
+   "answer": "Splintertree Post is the Horde's main fortress in central Ashenvale. Pixel rests there between trade routes and hires nearby Horde warriors already facing the forest's dangers."
   },
   {
    "q": "Does Pixel have any allegiance to the Horde?",
@@ -121,5 +121,5 @@
  "attribution": [
   "Satyr Horns (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Crown of the Earth",
   "chain": []
  },
- "summary": "At Aldrassil, Tenaron Stormgrip asks young night elves to draw sacred water before they leave Shadowglen. The rite recalls Mount Hyjal and the immortality their people gave up there.",
+ "summary": "At Aldrassil, Tenaron Stormgrip prepares young night elves for their departure from Shadowglen. They draw sacred water in a rite that recalls Mount Hyjal and the immortality their people surrendered there.",
  "sections": [
   {
    "title": "A Lesson in Recent History",
-   "body": "Before young night elves leave Shadowglen, their elders teach them what their people lost. At the Battle of Mount Hyjal, the kaldorei sacrificed the World Tree Nordrassil to defeat Archimonde and banish the Burning Legion. The blast cost them their ageless immortality and sacred shield. Tenaron Stormgrip teaches this history as he gives novices a rite, preparing them with humility and purpose for a changing world.",
+   "body": "Before young night elves leave Shadowglen, their elders teach them what their people lost. At Mount Hyjal, the kaldorei sacrificed the World Tree Nordrassil to defeat Archimonde and banish the Burning Legion. The blast took their ageless immortality and sacred shield. Tenaron Stormgrip teaches this history through a rite, so the novices leave with humility and purpose in a changing world.",
    "spoiler": 0
   },
   {
    "title": "Waters of the Well",
-   "body": "To complete the rite, you draw water from the moonwell north of Aldrassil with a crystal phial. Moonwell waters carry remnants of the ancient Well of Eternity. Druids channel their restorative power into the wild, while Sentinels honor the wells as tranquil shrines to Elune. The kaldorei remain wary: arcane sorcery is forbidden, and the wellspring that sustains their land recalls the reckless magic that nearly broke the world.",
+   "body": "You draw water from the moonwell north of Aldrassil with a crystal phial. Moonwell waters bear remnants of the ancient Well of Eternity. Druids channel their restorative power into the wild, while Sentinels honor the wells as tranquil shrines to Elune. The kaldorei remain wary of arcane sorcery, which is forbidden. The wellspring sustains their land, yet recalls the reckless magic that nearly broke the world.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives crown of the earth",
     "aldrassil druid npc"
    ],
-   "answer": "Tenaron Stormgrip is a night elf high in the upper boughs of Aldrassil in Shadowglen. He mentors young night elves nearing the end of basic training, giving them rites that teach their people's solemn history before they travel onward into Teldrassil."
+   "answer": "Tenaron Stormgrip lives high in Aldrassil's upper boughs in Shadowglen. He mentors young night elves nearing the end of basic training, teaching their solemn history through rites before they travel onward into Teldrassil."
   },
   {
    "q": "What is the purpose of collecting moonwell water?",
@@ -47,7 +47,7 @@
     "filled crystal phial use",
     "moonwell purpose"
    ],
-   "answer": "Filling the crystal phial begins a journey that is both practical and ceremonial. Moonwell waters hold ancient magic that druids use to nourish the land, and the rite teaches young kaldorei their society's sacred obligations."
+   "answer": "Filling the crystal phial begins a practical and ceremonial journey. Moonwell waters hold ancient magic that druids use to nourish the land, and the rite teaches young kaldorei their society's sacred obligations."
   },
   {
    "q": "Why did the night elves lose their immortality?",
@@ -65,7 +65,7 @@
     "is moonwell water safe",
     "well of eternity danger"
    ],
-   "answer": "Moonwells hold diluted essences linked to the Well of Eternity. Druids and priestesses channel their energies for healing, blessing, and communion with nature, while the kaldorei forbid arcane sorcery because of the catastrophes reckless magic caused in ancient history."
+   "answer": "Moonwells hold diluted essences linked to the Well of Eternity. Druids and priestesses channel their energies for healing, blessing, and communion with nature. The kaldorei forbid arcane sorcery because reckless magic caused catastrophes in ancient history."
   },
   {
    "q": "Where does this quest chain lead next?",
@@ -74,7 +74,7 @@
     "crown of the earth questline",
     "next quest after tenaron"
    ],
-   "answer": "Returning the filled phial completes the opening lesson in the Crown of the Earth series. Tenaron sends you to Corithras Moonrage in Dolanaar, who has you fill phials at other moonwells across Teldrassil for the druids of Darnassus and, in the end, Arch Druid Fandral Staghelm."
+   "answer": "After you return the filled phial, Tenaron sends you to Corithras Moonrage in Dolanaar. There, you fill phials at other moonwells across Teldrassil for the druids of Darnassus, and finally for Arch Druid Fandral Staghelm."
   },
   {
    "q": "Where is the moonwell for this quest located?",
@@ -93,7 +93,7 @@
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you know moonwells as essential tools of the Cenarion circle, offering purified conduits of nature's energy to tend the forest's balance."
+   "text": "As a druid, you know moonwells as essential tools of the Cenarion circle. They offer purified conduits of nature's energy to tend the forest's balance."
   },
   {
    "target": "class:Priest",
@@ -124,5 +124,5 @@
  "attribution": [
   "Crown of the Earth"
  ],
- "style": 1
+ "style": 2
 }

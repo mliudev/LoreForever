@@ -8,16 +8,16 @@
   "wiki": "Elder Runetotem",
   "refs": 1
  },
- "summary": "During the Lunar Festival, Elder Runetotem appears outside Razor Hill in Durotar. The tauren spirit offers wisdom and a blessing to travelers who seek her.",
+ "summary": "During the Lunar Festival, Elder Runetotem appears outside Razor Hill in Durotar. The tauren spirit offers travelers wisdom and a blessing.",
  "sections": [
   {
    "title": "A Spirit in Durotar",
-   "body": "Elder Runetotem appears beside Razor Hill, far from the grassy plains and sacred burial grounds of Mulgore. Her presence brings the ancient traditions of the Shu'halo to the Horde's home along the Great Sea.",
+   "body": "Elder Runetotem appears beside Razor Hill, far from Mulgore's grassy plains and sacred burial grounds. Her presence brings the ancient traditions of the Shu'halo to the Horde's home along the Great Sea.",
    "spoiler": 0
   },
   {
    "title": "Ancestral Honors",
-   "body": "During the Lunar Festival, spirits of great leaders, shamans, and heroes appear throughout the world to commune with the living. Elder Runetotem carries the name of a line that reveres the Earth Mother and seeks spiritual communion. Travelers who honor her receive ancestral tokens and her blessing.",
+   "body": "During the Lunar Festival, spirits of great leaders, shamans, and heroes appear throughout the world to commune with the living. Elder Runetotem bears a name from a line that reveres the Earth Mother and seeks spiritual communion. Travelers who honor her receive ancestral tokens and her blessing.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "why is runetotem in razor hill",
     "tauren ghost durotar"
    ],
-   "answer": "Most tauren ancestral spirits are rooted in Mulgore, but the Lunar Festival spirits travel across Kalimdor and the Eastern Kingdoms. Her presence in Razor Hill lets Horde travelers passing through Durotar pay their respects to the wisdom of the Earth Mother's children."
+   "answer": "Most tauren ancestral spirits are rooted in Mulgore, but Lunar Festival spirits travel across Kalimdor and the Eastern Kingdoms. In Razor Hill, Horde travelers passing through Durotar can pay their respects to the wisdom of the Earth Mother's children."
   },
   {
    "q": "What connection does she have to the Runetotem tribe?",
@@ -86,5 +86,5 @@
  "attribution": [
   "Elder Runetotem"
  ],
- "style": 1
+ "style": 2
 }

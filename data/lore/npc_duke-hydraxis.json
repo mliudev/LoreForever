@@ -8,16 +8,16 @@
   "wiki": "Duke Hydraxis",
   "refs": 2
  },
- "summary": "Duke Hydraxis is a noble water elemental commanding the Hydraxian Waterlords from a remote, wave-battered islet off the coast of Azshara. Pledged to Neptulon the Tidehunter, he rallies mortal adventurers to strike against his ancient elemental rivals, particularly Ragnaros the Firelord.",
+ "summary": "On a wave-battered islet off Azshara, Duke Hydraxis calls mortals to battle ancient elemental rivals. He leads the Hydraxian Waterlords in service to Neptulon the Tidehunter, with Ragnaros the Firelord his chief foe.",
  "sections": [
   {
    "title": "Lord of the Waterlords",
-   "body": "Perched on a solitary rock northeast of the Ravencrest Monument in Azshara, Duke Hydraxis serves as the primary emissary of the Hydraxian Waterlords. While most elementals bound to Azeroth are hostile and chaotic, Hydraxis acts with measured purpose. As a devoted vassal of Neptulon the Tidehunter, he considers water the purest and most essential of the primal forces. He watches the rising turmoil across Azeroth with cold scrutiny, seeking champions capable of shifting the balance of elemental warfare.",
+   "body": "Duke Hydraxis watches elemental turmoil from a rock northeast of the Ravencrest Monument in Azshara. As emissary of the Hydraxian Waterlords, he acts with purpose amid Azeroth’s hostile and chaotic elementals. He serves Neptulon the Tidehunter and holds water to be the purest and most essential primal force. Now he seeks champions to shift the balance of elemental warfare.",
    "spoiler": 0
   },
   {
    "title": "The War Against Fire",
-   "body": "Hydraxis's central campaign targets the blazing hosts of the Firelord, Ragnaros. He sees the encroachment of fiery elementals as a blight upon the world that must be extinguished. Before bestowing his trust or the tools needed to challenge Ragnaros's fiery stronghold in the Molten Core, Duke Hydraxis demands that mortals prove their strength, resilience, and loyalty by slaying hostile elementals across the continents. Those who prove their worth earn the blessings of the sea and the means to douse the sacred flames guarding the Firelord's domain.",
+   "body": "Duke Hydraxis wages his chief campaign against the blazing hosts of Ragnaros the Firelord. He sees the advance of fiery elementals as a blight that must be extinguished.\n\nBefore he trusts mortals with the means to challenge Ragnaros’s stronghold in the Molten Core, they must prove their strength, resilience, and loyalty by slaying hostile elementals across the continents. Those who prove worthy receive the sea’s blessings and the means to douse the sacred flames guarding the Firelord’s domain.",
    "spoiler": 0
   }
  ],
@@ -30,7 +30,7 @@
     "find duke hydraxis",
     "hydraxis map spot"
    ],
-   "answer": "Duke Hydraxis is situated on a tiny, isolated island off the eastern coast of Azshara, directly northeast of the Ravencrest Monument."
+   "answer": "You can find Duke Hydraxis on a tiny, isolated island off Azshara’s eastern coast, directly northeast of the Ravencrest Monument."
   },
   {
    "q": "Who is Duke Hydraxis aligned with?",
@@ -39,7 +39,7 @@
     "hydraxis faction",
     "neptulon servant"
    ],
-   "answer": "He leads the Hydraxian Waterlords and serves Neptulon the Tidehunter, the elemental ruler of water."
+   "answer": "Duke Hydraxis leads the Hydraxian Waterlords in service to Neptulon the Tidehunter, ruler of the water elementals."
   },
   {
    "q": "Why is Duke Hydraxis interested in mortal champions?",
@@ -48,7 +48,7 @@
     "what does hydraxis want",
     "hydraxis purpose"
    ],
-   "answer": "He seeks dependable mortal allies to wage war against the rival elemental factions, especially the fiery forces of Ragnaros lurking within Blackrock Mountain."
+   "answer": "Duke Hydraxis seeks dependable mortal allies to fight rival elemental factions, especially Ragnaros’s fiery forces in Blackrock Mountain."
   },
   {
    "q": "What is Duke Hydraxis's connection to the Molten Core?",
@@ -57,13 +57,13 @@
     "hydraxis ragnaros",
     "mc hydraxis"
    ],
-   "answer": "Duke Hydraxis directs champions to undermine Ragnaros the Firelord and provides the elemental aids necessary to extinguish the runes and bosses guarding the Molten Core."
+   "answer": "Duke Hydraxis directs champions against Ragnaros the Firelord and gives them elemental aids to extinguish the runes and bosses guarding the Molten Core."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "For shamans who commune directly with the primal elements, meeting an elemental of Duke Hydraxis's stature offers rare insight into the ancient hierarchy of Neptulon and the eternal rivalries between the elemental planes."
+   "text": "As a shaman, meeting an elemental of Duke Hydraxis’s stature offers rare insight into Neptulon’s ancient hierarchy and the enduring rivalries between the elemental planes."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Duke Hydraxis"
- ]
+ ],
+ "style": 2
 }

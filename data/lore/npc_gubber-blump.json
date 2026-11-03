@@ -8,16 +8,16 @@
   "wiki": "Gubber Blump",
   "refs": 2
  },
- "summary": "Along Auberdine’s shore, Gubber Blump fishes, teaches angling, and looks for fresh crab meat.",
+ "summary": "Along Auberdine’s shore, Gubber Blump fishes, teaches angling, and seeks fresh crab meat.",
  "sections": [
   {
    "title": "The Angler of Auberdine",
-   "body": "Gubber Blump fishes on the Darkshore coast, between Auberdine’s flight master and ferry pier. While most dwarves favor stone halls or forges, he chooses the shore. He teaches fishing and sells simple angling gear to travelers. Crab meat is among his favorite foods, and he often relies on travelers to bring in catches from the dangerous coast or recover his family fishing tackle.",
+   "body": "Gubber Blump fishes on the Darkshore coast between Auberdine’s flight master and ferry pier. Most dwarves favor stone halls or forges, but Gubber chooses the shore. He teaches fishing and sells simple angling gear to travelers. Crab meat is a favorite, so he often depends on travelers to bring catches from the dangerous coast or recover his family fishing tackle.",
    "spoiler": 0
   },
   {
    "title": "Family Ties and Ocean Favors",
-   "body": "Gubber Blump speaks freely about his family, especially his cousin Graun Blump, who has a beard and an unusual odor. Travelers who help with coastal work, such as gathering crawler legs or finding his family pole, may receive a handwritten thank-you letter and a shiny fishing lure for their next cast.",
+   "body": "Gubber Blump speaks freely about his family, especially his cousin Graun Blump. Graun has a beard and an unusual odor. Travelers may help with coastal work by gathering crawler legs or finding Gubber’s family pole. For their help, they may receive a handwritten thank-you letter and a shiny fishing lure for their next cast.",
    "spoiler": 0
   }
  ],
@@ -61,11 +61,11 @@
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Gubber Blump favors coastal food, especially fresh reef crawler meat, a choice ingredient for cooks gathering food from Darkshore’s waters."
+   "text": "Gubber Blump favors coastal food, especially fresh reef crawler meat. Cooks gathering food from Darkshore’s waters prize it as an ingredient."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, seeing Gubber Blump settled on a foggy Kalimdor shore instead of Khaz Modan is uncommon. His frank talk about kin still carries his Ironforge roots."
+   "text": "As a dwarf, you seldom find Gubber Blump settled on a foggy Kalimdor shore instead of Khaz Modan. His frank talk about kin still carries his Ironforge roots."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
  "attribution": [
   "Gubber Blump"
  ],
- "style": 1
+ "style": 2
 }

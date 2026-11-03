@@ -17,16 +17,16 @@
   "wiki": "The Principal Source (Horde)",
   "chain": []
  },
- "summary": "Dendrite Starblaze sends Horde druids to Dreadmist Peak for a water sample. From Moonglade, she asks them to bring it to Tonga Runetotem at the Crossroads, where it can help explain the poison harming wildlife.",
+ "summary": "From Moonglade, Dendrite Starblaze sends Horde druids to Dreadmist Peak for a sample of water. She asks them to carry it to Tonga Runetotem at the Crossroads, where it may explain the poison harming wildlife.",
  "sections": [
   {
    "title": "A Mountain Tainted",
-   "body": "Dreadmist Peak rises northwest of the Crossroads, with springs and pools high above the dry northern Barrens. Their waters shape local weather and moisture. The Burning Blade, a cult devoted to demons, has taken hold on the crags. Dendrite Starblaze fears their foul sorcery may taint the basin around this important mountain.",
+   "body": "Dendrite Starblaze fears the Burning Blade has tainted Dreadmist Peak. The mountain rises northwest of the Crossroads, above the dry northern Barrens. Springs and pools crown its heights, shaping the local weather and moisture. Now a cult devoted to demons has taken hold on the crags, and its foul sorcery may poison the basin.",
    "spoiler": 0
   },
   {
    "title": "A Plague on the Plains",
-   "body": "Sick gazelles stumble across the northern savanna, north of the main east-west trail through the Crossroads. Tonga Runetotem seeks help for the local tauren and turns to the Cenarion Circle to learn what is poisoning the herd. Druids who reach the peak and bring back a sample of its tainted water give Tonga what he needs to study the sickness and brew an antidote.",
+   "body": "Sick gazelles stumble across the northern savanna, north of the main east-west trail through the Crossroads. Tonga Runetotem seeks help for the local tauren and asks the Cenarion Circle to learn what is poisoning the herd. A water sample from the peak will let him study the sickness and brew an antidote.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where is the water pool",
     "principal source water sample"
    ],
-   "answer": "Draw water from the pool at the summit of Dreadmist Peak, northwest of the Crossroads in the Barrens. The Burning Blade gathers there, and Dendrite Starblaze provides a sampler for the water."
+   "answer": "Draw water from the pool at Dreadmist Peak's summit, northwest of the Crossroads in the Barrens. The Burning Blade gathers there, and Dendrite Starblaze gives you a sampler."
   },
   {
    "q": "Why is the water on Dreadmist Peak so important to the Barrens?",
@@ -47,7 +47,7 @@
     "barrens weather pool",
     "dreadmist peak pools"
    ],
-   "answer": "Dreadmist Peak's high pools influence the local weather and mist. When the Burning Blade fouls them, poisoned vapor and runoff spread across the plains below and sicken wildlife in the northern Barrens."
+   "answer": "Dreadmist Peak's high pools influence local weather and mist. Once the Burning Blade fouls them, poisoned vapor and runoff spread across the plains and sicken wildlife in the northern Barrens."
   },
   {
    "q": "Who is Tonga Runetotem?",
@@ -56,7 +56,7 @@
     "tonga runetotem role",
     "crossroads druid"
    ],
-   "answer": "Tonga Runetotem is a tauren druid at the Crossroads in the Barrens. Alarmed by the strange sickness afflicting local gazelles, he asked the Cenarion Circle in Moonglade to help diagnose and cleanse the land."
+   "answer": "Tonga Runetotem is a tauren druid at the Crossroads in the Barrens. Alarmed by the strange sickness among local gazelles, he asked the Cenarion Circle in Moonglade to diagnose it and cleanse the land."
   },
   {
    "q": "Who is corrupting the water on the peak?",
@@ -65,7 +65,7 @@
     "dreadmist cultists",
     "burning blade dreadmist"
    ],
-   "answer": "The Burning Blade has corrupted the waters. Its demon-worshiping warlocks and fel practitioners occupy the winding paths and summit of Dreadmist Peak."
+   "answer": "The Burning Blade has corrupted the waters. Its demon-worshiping warlocks and fel practitioners occupy Dreadmist Peak's winding paths and summit."
   },
   {
    "q": "What ability does completing this chain teach?",
@@ -74,7 +74,7 @@
     "druid poison cure spell",
     "cure poison quest barrens"
    ],
-   "answer": "The rite of Power over Poison teaches young Horde druids the spiritual and herbal knowledge needed to cure poisons in the field."
+   "answer": "The rite of Power over Poison teaches young Horde druids the spiritual and herbal knowledge to cure poisons in the field."
   },
   {
    "q": "Can Alliance druids do this quest?",
@@ -83,21 +83,21 @@
     "can night elves do principal source",
     "alliance poison quest"
    ],
-   "answer": "No. The Principal Source is the Horde trial, sending druids to the Barrens to help Tonga Runetotem. Alliance druids make a similar journey in Darkshore to learn to cleanse poisons."
+   "answer": "No. The Principal Source sends Horde druids to the Barrens to help Tonga Runetotem. Alliance druids make a similar journey in Darkshore to learn to cleanse poisons."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid, you trace corruption to its source and isolate magical toxins before they can ruin an ecosystem."
+   "text": "As a druid, you trace corruption to its source and isolate magical toxins before they ruin an ecosystem."
   },
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you help protect the gazelle herds of the Barrens, ancestral lands of Kalimdor's tribes, from demonic taint."
+   "text": "As a tauren, you help shield the Barrens' gazelle herds from demonic taint. These are ancestral lands of Kalimdor's tribes."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you help guard the Crossroads, a vital center of Horde life in Kalimdor, from demonic blight that threatens trade and survival."
+   "text": "As a member of the Horde, you help guard the Crossroads, a vital center of Horde life in Kalimdor. Demonic blight threatens trade and survival there."
   }
  ],
  "keywords": [
@@ -124,5 +124,5 @@
  "attribution": [
   "The Principal Source (Horde)"
  ],
- "style": 1
+ "style": 2
 }

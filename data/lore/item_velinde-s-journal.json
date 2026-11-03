@@ -10,11 +10,11 @@
    "quest:1038"
   ]
  },
- "summary": "Velinde Starsong's personal journal records her duties and the mystery of her departure from Darnassus. The Night Elf priestess's journal is stored in the Sentinel bunkhouse.",
+ "summary": "In Darnassus, Velinde Starsong's journal records her duties and the mystery of her departure. The Night Elf priestess's journal rests in the Sentinel bunkhouse.",
  "sections": [
   {
    "title": "A Priestess's Record",
-   "body": "When Night Elf priestess Velinde Starsong left Darnassus, her belongings were locked in a footlocker at the Sentinels' bunkhouse in the Tradesmen's Terrace. Among them was her personal journal, a record of her responsibilities and duties. The Sentinels respected Velinde and believed she had left to attend to private matters. Her journal's contents suggest her unexplained absence is more troubling than they first believed.",
+   "body": "When Night Elf priestess Velinde Starsong left Darnassus, the Sentinels locked her belongings in a footlocker at their bunkhouse in the Tradesmen's Terrace. Her personal journal was among them, recording her responsibilities and duties. The Sentinels respected Velinde and believed she had gone to attend to private matters. But her words suggest her absence troubles them more than they first thought.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "who is velinde",
     "velinde lore"
    ],
-   "answer": "Velinde Starsong was a respected Night Elf priestess, deeply trusted by the Sentinels. She left Darnassus suddenly and quietly, leaving her locker and belongings behind."
+   "answer": "Velinde Starsong was a respected Night Elf priestess whom the Sentinels deeply trusted. She left Darnassus suddenly and quietly, with her locker and belongings still there."
   },
   {
    "q": "Why do the Sentinels care about her journal?",
@@ -42,7 +42,7 @@
     "why sentinels want journal",
     "what is in the journal"
    ],
-   "answer": "The Sentinels believed Velinde had left Darnassus for valid personal reasons and expected her to return. Her writings reveal darker implications behind her disappearance, and the Sentinels need to investigate further."
+   "answer": "The Sentinels believed Velinde left Darnassus for valid personal reasons and expected her to return. Her writings point to darker implications behind her disappearance, and the Sentinels need to investigate further."
   },
   {
    "q": "Who asks you to retrieve the journal?",
@@ -50,17 +50,17 @@
     "who gives quest",
     "who is thyntel bladeweaver"
    ],
-   "answer": "Sentinel Thyn'tel Bladeweaver in Darnassus grants permission and gives you the key to Velinde's chest after you approach with knowledge learned from the Tome of Mel'Thandris."
+   "answer": "Sentinel Thyn'tel Bladeweaver in Darnassus grants permission and gives you the key to Velinde's chest. First, approach with knowledge learned from the Tome of Mel'Thandris."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a Night Elf, Velinde's mysterious departure touches Darnassus's leadership. The Sentinels guarding the Kaldorei capital are concerned."
+   "text": "As a Night Elf, Velinde's mysterious departure concerns Darnassus's leadership. The Sentinels guarding the Kaldorei capital are troubled."
   },
   {
    "target": "class:Priest",
-   "text": "As a priest, Velinde's hidden duty and disappearance reveal troubling trials facing the Sisterhood of Elune."
+   "text": "As a priest, you may see Velinde's hidden duty and disappearance as signs of troubling trials for the Sisterhood of Elune."
   }
  ],
  "keywords": [
@@ -84,5 +84,5 @@
   "Velinde's Journal",
   "Velinde's Effects"
  ],
- "style": 1
+ "style": 2
 }

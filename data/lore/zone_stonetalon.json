@@ -12,21 +12,21 @@
   "levels": "15-27",
   "aliases": []
  },
- "summary": "In Stonetalon Mountains, sacred heights now face smoke, deforestation, and elemental ruin. Night elves and tauren revere the range, while border hostilities simmer below.",
+ "summary": "In Stonetalon Mountains, sacred heights face smoke, felled forests, and ruined earth. Night elves and tauren revere the range, while tensions simmer along its borders.",
  "sections": [
   {
    "title": "The Ill Winds and the Peaks",
-   "body": "Stonetalon Mountains rise from central Kalimdor beneath the Ill Winds. Moisture from the western seas brings sudden downpours and slick sandstone trails, while fierce gusts scour the lower valleys, blinding travelers with grit and hurling the careless from cliffs. Higher ridges carry evergreen forests around Stonetalon Peak. Night elves tend ancestral barrows and glades there, and watch sacred wyvern and hippogryph roosts along Mirkfallon Lake.",
+   "body": "Stonetalon Mountains rise from central Kalimdor beneath the Ill Winds. Moisture from the western seas brings sudden downpours, slicking the sandstone trails. Fierce gusts scour the lower valleys, blinding travelers with grit and sometimes hurling the careless from cliffs.\n\nHigher ridges bear evergreen forests around Stonetalon Peak. Night elves tend ancestral barrows and glades there. They also watch sacred wyvern and hippogryph roosts along Mirkfallon Lake.",
    "spoiler": 0
   },
   {
    "title": "Industry and Intrusion",
-   "body": "The Venture Company has broken the range's quiet with logging camps and strip mines in Windshear Crag. The goblins, aided by the deranged leper gnome Gerenzo Wrenchwhistle, have felled old-growth timber, filled the skies with furnace smoke, and fouled mountain runoff with industrial sludge. Local shamans from Orgrimmar answered the mountain spirits' cries. Small Alliance camps nearby also resist the defilers and try to protect the highlands that remain.",
+   "body": "The Venture Company has broken the range's quiet with logging camps and strip mines in Windshear Crag. Aided by Gerenzo Wrenchwhistle, the deranged leper gnome, the goblins have felled old-growth timber and filled the skies with furnace smoke. Their industrial sludge fouls the mountain runoff.\n\nLocal shamans from Orgrimmar answered the mountain spirits' cries. Small Alliance camps nearby also resist the defilers and try to protect the highlands that remain.",
    "spoiler": 0
   },
   {
    "title": "Scars of the Past",
-   "body": "South lies the Charred Vale, once a blossoming wilderness and now an ash-covered wasteland filled with rogue fire elementals, black dragonspawn, and harpies. During the Third War, the Horde and Alliance forged an uneasy truce in these peaks under the mysterious Oracle's guidance. Relations have since frayed. Renegade Grimtotem tauren hold seized encampments, while Darkspear trolls in Malaka'jin clash with Alliance forces pressing out from the Barrens and Ashenvale.",
+   "body": "South lies the Charred Vale, once a blossoming wilderness and now an ash-covered wasteland. Rogue fire elementals, black dragonspawn, and harpies fill its ruins. During the Third War, the Horde and Alliance forged an uneasy truce in these peaks under the mysterious Oracle's guidance.\n\nRelations have since frayed. Renegade Grimtotem tauren hold seized encampments, while Darkspear trolls in Malaka'jin clash with Alliance forces pressing out from the Barrens and Ashenvale.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "how to get to stonetalon",
     "stonetalon road"
    ],
-   "answer": "Most travelers reach Stonetalon Mountains through Talondeep Pass, a mountain trail from southwestern Ashenvale. High trails lead south into Desolace, and routes descend east into the northern Barrens."
+   "answer": "Most travelers reach Stonetalon Mountains through Talondeep Pass, a mountain trail from southwestern Ashenvale. High trails lead south into Desolace, while routes descend east into the northern Barrens."
   },
   {
    "q": "Why is the Charred Vale burned and ruined?",
@@ -47,7 +47,7 @@
     "what happened to charred vale",
     "why charred vale burnt"
    ],
-   "answer": "The Charred Vale was once a lush haven, but cataclysmic devastation consumed it in flames. Now the valley is an ash-covered ruin crawling with aggressive fire elementals, rogue drakes, and deadly harpies."
+   "answer": "The Charred Vale was once a lush haven, but cataclysmic devastation consumed it in flames. Now it is an ash-covered ruin filled with aggressive fire elementals, rogue drakes, and deadly harpies."
   },
   {
    "q": "What is the Venture Company doing in Windshear Crag?",
@@ -65,7 +65,7 @@
     "where is flight point stonetalon",
     "stonetalon fp"
    ],
-   "answer": "Alliance heroes use the flight master at Stonetalon Peak's high sanctuary in the north. Horde adventurers rely on the central mountain village of Sun Rock Retreat."
+   "answer": "Alliance heroes use the flight master at Stonetalon Peak's high sanctuary in the north. Horde travelers rely on the central mountain village of Sun Rock Retreat."
   },
   {
    "q": "What happened at Stonetalon Peak during the Third War?",
@@ -88,7 +88,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Horde adventurers rely on Sun Rock Retreat and Malaka'jin, the southern troll post, to curb Venture Company pollution and root out Grimtotem outlaws."
+   "text": "Horde travelers rely on Sun Rock Retreat and Malaka'jin, the southern troll post, to curb Venture Company pollution and root out Grimtotem outlaws."
   },
   {
    "target": "faction:Alliance",
@@ -127,5 +127,5 @@
   "Stonetalon Mountains (Classic)",
   "Stonetalon Mountains"
  ],
- "style": 1
+ "style": 2
 }

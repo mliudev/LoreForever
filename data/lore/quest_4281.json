@@ -21,16 +21,16 @@
    "The Missing Courier"
   ]
  },
- "summary": "You picked up a parcel of goods in the Woodpaw gnoll camps, though it was meant for Thalanaar, a small way-station in the southeast of Feralas. Whatever became of the courier, the delivery remains unfinished, and a hand-written name on the packaging, Falfindel Waywarder, may point to the one it was meant for.",
+ "summary": "At the Woodpaw camps, a parcel for Thalanaar still waits for its recipient. The hand-written name may guide you there.",
  "sections": [
   {
    "title": "A Parcel Gone Astray",
-   "body": "The goods were supposed to reach Thalanaar, a small way-station in southeastern Feralas, but you found them in the Woodpaw gnoll camps instead. Closer inspection shows a name written by hand on the outside: Falfindel Waywarder. It is a fair guess that this is who the parcel was meant for, and Thalanaar is where to look.",
+   "body": "You find goods for Thalanaar in the Woodpaw gnoll camps. The small way-station lies in southeastern Feralas. A hand-written name on the parcel points you toward the person expecting the goods: Falfindel Waywarder.",
    "spoiler": 0
   },
   {
    "title": "Word at the Way-station",
-   "body": "Falfindel praises Elune: the shipment from Feathermoon Stronghold has at last arrived. Seeing you with it, Falfindel fears some ill fate has befallen Raschal, the usual courier. The Woodpaw have lately grown highly agitated over something to their south, and Falfindel suspects Raschal fell to the wilds there. You are told to be careful.",
+   "body": "Falfindel Waywarder praises Elune as the shipment from Feathermoon Stronghold arrives at last. Falfindel fears Raschal, the usual courier, has met with ill fate. The Woodpaw have grown agitated over something to their south, and Falfindel suspects Raschal fell to the wilds there. Take care as you travel.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "who is falfindel",
     "falfindel waywarder thalanaar"
    ],
-   "answer": "Falfindel Waywarder is the name written by hand on the parcel's packaging, and the one you are to find in Thalanaar."
+   "answer": "Falfindel Waywarder is the hand-written name on the parcel. Falfindel is the person you are to find in Thalanaar."
   },
   {
    "q": "Where is Thalanaar?",
@@ -50,7 +50,7 @@
     "thalanaar location",
     "where is thalanaar"
    ],
-   "answer": "Thalanaar is a small way-station in southeastern Feralas, where the parcel was supposed to be delivered."
+   "answer": "Thalanaar is a small way-station in southeastern Feralas. That is where the parcel was meant to go."
   },
   {
    "q": "Where was the parcel found?",
@@ -59,7 +59,7 @@
     "package origin",
     "undelivered parcel origin"
    ],
-   "answer": "You found it in the Woodpaw gnoll camps."
+   "answer": "You found the parcel in the Woodpaw gnoll camps."
   },
   {
    "q": "What happened to the courier?",
@@ -68,7 +68,7 @@
     "missing courier name",
     "who carried the parcel"
    ],
-   "answer": "The courier's fate is unknown. Still, the delivery remains unfinished, so the parcel needs to be brought to Thalanaar."
+   "answer": "The courier's fate is unknown. The delivery remains unfinished, and the parcel still needs to reach Thalanaar."
   }
  ],
  "angles": [],
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "Thalanaar Delivery"
- ]
+ ],
+ "style": 2
 }

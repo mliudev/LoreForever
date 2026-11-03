@@ -24,16 +24,16 @@
    "Hints of a New Plague?"
   ]
  },
- "summary": "In Hillsbrad, Phin Odelic's companions search for signs of trouble. Quae and Kinelory have been missing for days since heading to Go'Shek Farm in the Arathi Highlands.",
+ "summary": "In Hillsbrad, Phin Odelic's band searches for signs of trouble. Quae and Kinelory have been missing for days after traveling to Go'Shek Farm in the Arathi Highlands.",
  "sections": [
   {
    "title": "Odd Happenings",
-   "body": "Phin Odelic's cousin in Hillsbrad had to put down his dog, Stanley. The beast had mystically grown huge and savagely attacked anyone who came near. Phin believes the undead are involved in these odd happenings, and his band searches for signs to prove it.",
+   "body": "Phin Odelic's cousin in Hillsbrad had to put down his dog, Stanley. The beast had mystically grown huge and attacked anyone who came near. Phin suspects the undead are behind these strange happenings. So his band searches for signs to prove it.",
    "spoiler": 0
   },
   {
    "title": "The Missing Companions",
-   "body": "Quae and Kinelory, Phin Odelic's companions, headed to Go'Shek Farm in the Arathi Highlands. They have not checked in for days, and Phin fears for them. He wants you to find them near the farm.",
+   "body": "Quae and Kinelory traveled to Go'Shek Farm in the Arathi Highlands. They have not checked in for days, and Phin fears for them. He asks you to find them near the farm.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "who gives hints of a new plague",
     "quest giver"
    ],
-   "answer": "Phin Odelic leads a band of adventurers investigating odd happenings in the area."
+   "answer": "Phin Odelic leads a band investigating strange happenings in the area."
   },
   {
    "q": "What happened to Stanley?",
@@ -73,7 +73,7 @@
     "go shek farm undead",
     "investigate go shek"
    ],
-   "answer": "Phin believes the undead are involved in the odd happenings, and his band searches for signs to prove it."
+   "answer": "Phin suspects the undead are behind the strange happenings. His band searches for signs to prove it."
   }
  ],
  "angles": [],
@@ -94,5 +94,5 @@
  "attribution": [
   "Hints of a New Plague?"
  ],
- "style": 1
+ "style": 2
 }

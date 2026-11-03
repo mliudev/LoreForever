@@ -30,16 +30,16 @@
    "Errands for Kravel"
   ]
  },
- "summary": "Kravel Koalbeard says the Fool's Stout worked great. He has put money on the next race, hoping the crew you made drunk wrecked their own car. You carry a note about the successful test to Crank Fizzlebub in Booty Bay. This follows the pit crew you chose to make drunk.",
+ "summary": "Kravel Koalbeard reports that the Fool's Stout worked and sends you to Booty Bay with news for Crank Fizzlebub. He has bet on the next race and hopes the pit crew you made drunk wrecked their own car. This follows your choice to make one pit crew drunk.",
  "sections": [
   {
    "title": "A Note for Crank",
-   "body": "Kravel Koalbeard says the Fool's Stout worked great. He has put money on the next race, hoping the pit crew you made drunk wrecked their own car. One more job remains: take a note about the successful test to Crank Fizzlebub in Booty Bay, who will want to hear of it. Kravel also hopes more of the stout can be had for future races.",
+   "body": "Kravel Koalbeard says the Fool's Stout worked well. He's bet on the next race and hopes the pit crew you made drunk wrecked their own car. Take his note about the successful test to Crank Fizzlebub in Booty Bay. Crank will want the news, and Kravel hopes to get more stout for future races.",
    "spoiler": 0
   },
   {
    "title": "Crank's Answer",
-   "body": "Crank Fizzlebub reads the note, calls the test a success, and is glad of the news. Should you ever want more of the stout, Crank says to ask, and you will be set to collecting more of Zanzil's Mixture.",
+   "body": "Crank Fizzlebub reads Kravel's note and calls the test a success. Glad to hear it, Crank says to ask whenever you want more stout. Then you'll be set to collect more of Zanzil's Mixture.",
    "spoiler": 1
   }
  ],
@@ -50,7 +50,7 @@
     "quest giver",
     "who gives report back to fizzlebub"
    ],
-   "answer": "Kravel Koalbeard, the dwarf at the Mirage Raceway on the Shimmering Flats in Thousand Needles, hands you the note."
+   "answer": "Kravel Koalbeard, the dwarf at the Mirage Raceway on the Shimmering Flats in Thousand Needles, gives you the note."
   },
   {
    "q": "Where is Crank Fizzlebub located?",
@@ -59,7 +59,7 @@
     "where is crank fizzlebub",
     "turn in location"
    ],
-   "answer": "In Booty Bay."
+   "answer": "Crank Fizzlebub is in Booty Bay."
   },
   {
    "q": "What comes before this?",
@@ -67,7 +67,7 @@
     "prerequisites",
     "previous quest"
    ],
-   "answer": "It follows Get the Gnomes Drunk or, if you chose the other crew, Get the Goblins Drunk."
+   "answer": "Before this, you completed Get the Gnomes Drunk or, if you chose the other crew, Get the Goblins Drunk."
   },
   {
    "q": "What does Kravel Koalbeard want Fizzlebub to know?",
@@ -75,7 +75,7 @@
     "what is the report",
     "report contents"
    ],
-   "answer": "That the test was a success."
+   "answer": "Kravel Koalbeard wants Fizzlebub to know the test succeeded."
   }
  ],
  "angles": [],
@@ -100,5 +100,6 @@
  ],
  "attribution": [
   "Report Back to Fizzlebub"
- ]
+ ],
+ "style": 2
 }

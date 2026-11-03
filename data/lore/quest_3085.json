@@ -17,16 +17,16 @@
   "wiki": "Hallowed Tablet (quest)",
   "chain": []
  },
- "summary": "In the Valley of Trials, a message from Ken'jai reaches young priests after their first test. The tablet calls them to learn how Darkspear priests commune with the spirits.",
+ "summary": "In the Valley of Trials, the Hallowed Tablet carries Ken'jai's call to young priests after their first test. It points them toward the Darkspear way of communing with spirits.",
  "sections": [
   {
    "title": "A Message from Ken'jai",
-   "body": "After you prove yourself against the boars under Gornek's watch, he gives you an inscribed stone called the Hallowed Tablet. Its message bears Ken'jai's mark. The Darkspear mystic waits outside the Den, where he watches over newcomers drawn to faith and spiritual magic.",
+   "body": "After you prove yourself against the boars under Gornek's watch, he gives you an inscribed stone: the Hallowed Tablet. Ken'jai's mark is on its message. The Darkspear mystic waits outside the Den, where he watches over newcomers drawn to faith and spiritual magic.",
    "spoiler": 0
   },
   {
    "title": "Communing with the Spirits",
-   "body": "Darkspear priests among the Horde seek communion with spirits and loa, unlike human and dwarven priests who follow the Holy Light across the sea. Ken'jai welcomes you to Durotar and teaches that your power grows through spiritual discipline. He will instruct you in greater rites as your bond with the spirits matures.",
+   "body": "Darkspear priests among the Horde seek communion with spirits and loa. Across the sea, human and dwarven priests follow the Holy Light. Ken'jai welcomes you to Durotar and teaches that spiritual discipline makes your power grow. He will guide you in greater rites as your bond with the spirits matures.",
    "spoiler": 0
   }
  ],
@@ -64,7 +64,7 @@
     "horde priests",
     "spirits vs light"
    ],
-   "answer": "Darkspear priests call on spirits and loa, while human and dwarven churches worship the Holy Light. Ken'jai teaches that they must keep favor with these unseen powers and live in harmony with them."
+   "answer": "Darkspear priests call on spirits and loa, while human and dwarven churches worship the Holy Light. Ken'jai teaches you to keep favor with these unseen powers and live in harmony with them."
   },
   {
    "q": "Where is the Den?",
@@ -120,5 +120,5 @@
  "attribution": [
   "Hallowed Tablet (quest)"
  ],
- "style": 1
+ "style": 2
 }

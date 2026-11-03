@@ -17,16 +17,16 @@
   "wiki": "Hidden Enemies (2)",
   "chain": []
  },
- "summary": "Thrall sends you into Orgrimmar to learn what the Burning Blade knows. After cult activity is found at Skull Rock, you carry a lieutenant's insignia to Neeru Fireblade and test his loyalties.",
+ "summary": "In Orgrimmar, Thrall sends you to learn what the Burning Blade knows. Cult activity at Skull Rock has brought you to Neeru Fireblade with a lieutenant's insignia, to test his loyalties.",
  "sections": [
   {
    "title": "The Warchief's Gambit",
-   "body": "Thrall turns to cunning instead of striking at the Cleft of Shadow. He knows Neeru Fireblade pretends to serve the Horde while aiding the cultists in secret. If Thrall strikes now, Neeru's masters will be warned and the trail into the conspiracy may end. So Thrall gives you an insignia taken from the cult in Durotar and asks you to pose as an initiate, to learn what Neeru knows.",
+   "body": "Thrall chooses cunning over a strike at the Cleft of Shadow. He knows Neeru Fireblade pretends to serve the Horde while secretly aiding the cultists. A direct attack could warn Neeru's masters and end the trail into the conspiracy. So Thrall gives you an insignia taken from the cult in Durotar and asks you to pose as an initiate, learning what Neeru knows.",
    "spoiler": 0
   },
   {
    "title": "The Cleft's Hidden Master",
-   "body": "Neeru Fireblade waits in the Cleft of Shadow, outside the entrance to Ragefire Chasm. He takes you for a newly promoted lieutenant and scoffs at Thrall's ignorance. Neeru says the Burning Blade and its offshoots, including the Searing Blade, answer to the Shadow Council, which serves the Burning Legion. He boasts that he has manipulated Thrall into sending loyal soldiers against the cultists in the chasm, using the Warchief's forces to weed out the weak.",
+   "body": "Neeru Fireblade waits in the Cleft of Shadow, outside the entrance to Ragefire Chasm. He mistakes you for a newly promoted lieutenant and scorns Thrall's ignorance. Neeru says the Burning Blade and its offshoots, including the Searing Blade, answer to the Shadow Council, which serves the Burning Legion. He boasts that he manipulated Thrall into sending loyal soldiers against the cultists in the chasm, using the Warchief's forces to weed out the weak.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "why keep neeru alive",
     "neeru traitor"
    ],
-   "answer": "Thrall keeps Neeru alive because a traitor in the open can be watched. If Neeru were killed, the Shadow Council could replace him with someone harder to detect. Under watch, Neeru can unwittingly reveal the cult's movements in Orgrimmar."
+   "answer": "Thrall keeps Neeru alive so he can watch him. If Neeru were killed, the Shadow Council could replace him with someone harder to detect. Watched closely, Neeru may reveal the cult's movements in Orgrimmar without meaning to."
   },
   {
    "q": "Who is Neeru Fireblade?",
@@ -46,7 +46,7 @@
     "neeru backstory",
     "who is neeru"
    ],
-   "answer": "Neeru Fireblade is an orc warlock who lives in the Cleft of Shadow. He claims to help Thrall reform warlocks into dutiful Horde servants, but secretly leads the Burning Blade beneath the city for the Shadow Council."
+   "answer": "Neeru Fireblade is an orc warlock who lives in the Cleft of Shadow. He claims to help Thrall reform warlocks into dutiful servants of the Horde, but secretly leads the Burning Blade beneath the city for the Shadow Council."
   },
   {
    "q": "What is the relationship between the Burning Blade and the Shadow Council?",
@@ -62,7 +62,7 @@
     "ragefire chasm leaders",
     "searing blade leaders"
    ],
-   "answer": "The Searing Blade in Ragefire Chasm is led by Bazzalan, a satyr, and Jergosh the Invoker, an orc warlock. Neeru sends Thrall's adventurers against them to thin Horde loyalists and test his subordinates."
+   "answer": "Bazzalan, a satyr, and Jergosh the Invoker, an orc warlock, lead the Searing Blade in Ragefire Chasm. Neeru sends Thrall's adventurers against them to thin Horde loyalists and test his subordinates."
   },
   {
    "q": "How did I obtain the Lieutenant's Insignia?",
@@ -76,15 +76,15 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For the Horde, demonic cults beneath Orgrimmar's foundations threaten the survival of the young nation."
+   "text": "For the Horde, demonic cults beneath Orgrimmar's foundations threaten the young nation's survival."
   },
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you may see Neeru claim a place for warlocks in the Horde. His treachery risks bringing severe condemnation on all who practice the fel arts under Thrall's rule."
+   "text": "As a warlock, you may see Neeru claiming a place for warlocks in the Horde. His treachery risks bringing severe condemnation on all who practice the fel arts under Thrall's rule."
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, you know the Shadow Council's return beneath your capital echoes Draenor's dark past, a burden for those striving to escape bloodlust and demonic corruption."
+   "text": "As an orc, you know the Shadow Council's return beneath your capital echoes Draenor's dark past. Those who strive to escape bloodlust and demonic corruption carry that burden."
   }
  ],
  "keywords": [
@@ -110,5 +110,5 @@
  "attribution": [
   "Hidden Enemies (2)"
  ],
- "style": 1
+ "style": 2
 }

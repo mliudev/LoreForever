@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Undercroft"
  },
- "summary": "The Undercroft is an ancient burial crypt nestled in the southwestern hills of the Eastern Plaguelands. Once a dignified tomb of Lordaeron, it has been desecrated by a band of undead trolls under the command of Zaeldarr the Outcast. Amid the defiled catacombs lies an ersatz grave dug long ago to feign the death of the exiled paladin Tirion Fordring.",
+ "summary": "In the southwestern hills of the Eastern Plaguelands, undead trolls have taken an old Lordaeron tomb. Zaeldarr the Outcast commands them, and a false grave in the catacombs bears Tirion Fordring’s name.",
  "sections": [
   {
    "title": "A Desecrated Sepulcher",
-   "body": "Carved into the rugged bluffs southwest of Corin's Crossing, the Undercroft was originally built as a final resting place for the honored dead of Lordaeron. The fall of the kingdom stripped away its sanctity, and the tomb is now infested by a band of savage undead trolls. Led by the hulking monstrosity Zaeldarr the Outcast, these ghoulish marauders use the underground halls as a redoubt from which to stalk the Plaguelands, even daring to raid the grave pits of Light's Hope Chapel to gather raw corpses for their sinister practices.",
+   "body": "You find the Undercroft carved into the bluffs southwest of Corin's Crossing. Lordaeron built it for its honored dead, but the kingdom's fall left the tomb open to undead trolls. Zaeldarr the Outcast leads them from its underground halls. They stalk the Plaguelands and raid the grave pits at Light's Hope Chapel, taking newly buried corpses for their grim practices.",
    "spoiler": 0
   },
   {
    "title": "A Pretender's Tomb",
-   "body": "Beyond its monstrous squatter, the Undercroft harbors a poignant secret of the Second War era: a mock grave bearing the name of Tirion Fordring. Following his trial for treason and subsequent exile, Fordring's allies staged his symbolic burial here to allow his family to maintain their standing while letting the fallen paladin slip into hiding. Within this earthen deception rests a personal memento from Tirion's past, hidden away where only those who know the truth would dare to search.",
+   "body": "A false grave in the Undercroft bears Tirion Fordring's name. After his trial for treason and exile, Tirion's allies arranged a symbolic burial. This let his family keep their standing while he went into hiding. A personal memento from Tirion's past lies hidden within the grave, where only those who know the truth would search.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "what is this crypt",
     "undercroft epl"
    ],
-   "answer": "The Undercroft is a burial crypt situated in the southwestern region of the Eastern Plaguelands. Originally constructed to inter local nobility and fallen soldiers of Lordaeron, it has fallen into ruin and is now occupied by undead horrors."
+   "answer": "Undercroft lies in the southwestern Eastern Plaguelands. Lordaeron built the burial crypt for its nobility and fallen soldiers, but undead horrors occupy it now."
   },
   {
    "q": "Who occupies the crypt now?",
@@ -37,7 +37,7 @@
     "undercroft mobs",
     "trolls in undercroft"
    ],
-   "answer": "The crypt is infested by a band of undead trolls led by a massive undead dire troll known as Zaeldarr the Outcast. They use the tunnels as a lair between scavenging raids across the region."
+   "answer": "Undead trolls occupy the crypt under Zaeldarr the Outcast, a massive undead dire troll. They use its tunnels as a lair between raids across the region."
   },
   {
    "q": "Why are there undead trolls in the Eastern Plaguelands?",
@@ -46,7 +46,7 @@
     "zaeldarr lore",
     "undead trolls epl"
    ],
-   "answer": "While the Scourge primarily raised humans and elves in northern Lordaeron, troll tribes such as the Mossflayer and Witherbark dwell nearby. Undead trolls like Zaeldarr and his reanimated followers roam the bluffs, pillaging burial sites and preying on unwary travelers."
+   "answer": "Troll tribes such as the Mossflayer and Witherbark dwell near northern Lordaeron, where the Scourge chiefly raised humans and elves. Undead trolls like Zaeldarr and his followers roam the bluffs. They pillage burial sites and prey on unwary travelers."
   },
   {
    "q": "Why is Tirion Fordring's name on a grave here?",
@@ -55,7 +55,7 @@
     "is tirion dead",
     "fordring tomb"
    ],
-   "answer": "The grave is an ersatz, or false, resting place. After Tirion was stripped of his rank and exiled by the Alliance of Lordaeron, a mock burial was arranged at the Undercroft so his family could preserve their honor and claim his death while he lived secretly in hiding."
+   "answer": "Tirion Fordring's grave at Undercroft is false. After the Alliance of Lordaeron stripped him of rank and exiled him, his allies arranged a mock burial. His family could preserve their honor while he hid in secret."
   },
   {
    "q": "Why do the Undercroft trolls raid Light's Hope Chapel?",
@@ -64,17 +64,17 @@
     "grave pit raid",
     "trolls light's hope"
    ],
-   "answer": "Zaeldarr the Outcast occasionally leads nighttime raids against the grave pits outside Light's Hope Chapel. His objective is to unearth and steal newly buried corpses to bolster his own band or feed their morbid appetites."
+   "answer": "Zaeldarr the Outcast leads raids on the grave pits outside Light's Hope Chapel to steal newly buried corpses. His band uses them to bolster its ranks or feed its morbid appetites."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "For holy warriors, entering the Undercroft means witnessing both the tragic mock burial of the exiled hero Tirion Fordring and the foul desecration of sacred crypts by Zaeldarr's vile brood."
+   "text": "As a paladin, you find Tirion Fordring's tragic mock burial at Undercroft, alongside Zaeldarr's brood desecrating sacred crypts."
   },
   {
    "target": "race:Troll",
-   "text": "Troll travelers will view Zaeldarr the Outcast and his undead kindred as a grim, perverted mockery of troll traditions and the sacred rites owed to deceased ancestors."
+   "text": "As a troll, you may see Zaeldarr and his undead kindred as a grim mockery of troll traditions and the sacred rites owed to the dead."
   }
  ],
  "keywords": [
@@ -98,5 +98,6 @@
  ],
  "attribution": [
   "Undercroft"
- ]
+ ],
+ "style": 2
 }

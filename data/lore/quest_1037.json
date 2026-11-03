@@ -21,12 +21,12 @@
  "sections": [
   {
    "title": "A Vanished Predecessor",
-   "body": "Melyria Frostshadow keeps watch in Ashenvale, following Velinde Starsong, who once held the same post. A priestess, Velinde was charged with containing demonic corruption spreading south from Felwood. Early reports said she had the danger under control, but her campaign faltered over time. Then she vanished without warning or formal relief, leaving the fight unfinished and her fate unknown.",
+   "body": "Melyria Frostshadow keeps watch in Ashenvale, following the path Velinde Starsong once held. Velinde was a priestess charged with containing the demonic corruption spreading south from Felwood. Early reports said she had the danger under control, but her campaign faltered with time. Then she vanished without warning or formal relief, leaving the fight unfinished and her fate unknown.",
    "spoiler": 0
   },
   {
    "title": "Secrets of the Terrace",
-   "body": "Disturbing clues in the forest lead Melyria to send you to Darnassus. On the Warrior's Terrace, Sentinel commander Thyn'tel Bladeweaver oversees military deployments. The Sentinels know Velinde disappeared, but her command keeps the circumstances close. Thyn'tel will need persuading before sharing any deeper records.",
+   "body": "Clues in the forest trouble Melyria, so she sends you to Darnassus. On the Warrior's Terrace, Sentinel commander Thyn'tel Bladeweaver oversees military deployments. The Sentinels know Velinde disappeared, but her command keeps the circumstances close. Thyn'tel will need persuading before sharing deeper records.",
    "spoiler": 1
   }
  ],
@@ -88,7 +88,7 @@
   },
   {
    "target": "class:Priest",
-   "text": "As a priest of Elune, you may feel a kinship with a sister of the faith who fought to stem the demonic corruption from Felwood."
+   "text": "As a priest of Elune, you may feel kinship with a sister of the faith who fought to stem the demonic corruption from Felwood."
   },
   {
    "target": "faction:Alliance",
@@ -118,5 +118,5 @@
  "attribution": [
   "Velinde Starsong (quest)"
  ],
- "style": 1
+ "style": 2
 }

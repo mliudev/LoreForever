@@ -10,16 +10,16 @@
    "quest:3923"
   ]
  },
- "summary": "In the northern Barrens, Venture Company machinery lies battered after a failed inspection. The damaged samophlange must reach goblin experts in Orgrimmar, where someone may understand how it works.",
+ "summary": "In the northern Barrens, Broken and Battered Samophlange lies damaged after a failed inspection. It must reach goblin experts in Orgrimmar, where someone may understand its workings.",
  "sections": [
   {
    "title": "Tinkered Beyond Recognition",
-   "body": "The Venture Company made samophlanges for its resource work in the northern Barrens. Wenikee Boltbucket tried to inspect and modify one, adding gauges, levers, and dials to measure its stability. Her tinkering weakened the mechanism instead, leaving it battered and close to ruin. Knowing more additions might make it fail completely, she sent the fragile device to someone with factory experience.",
+   "body": "The Venture Company made samophlanges for its work in the northern Barrens. Wenikee Boltbucket tried to inspect and alter one, adding gauges, levers, and dials to measure its stability. Her changes weakened the mechanism and left it battered, close to ruin. Fearing more additions might make it fail completely, she sent the fragile device to someone with factory experience.",
    "spoiler": 0
   },
   {
    "title": "The Road to Orgrimmar",
-   "body": "Repairing the device calls for someone who has worked on Venture Company production lines. Rilli Greasygob, a former Venture employee, works at Nogg's Machine Shop in Orgrimmar's Valley of Honor. The battered apparatus catches the engineer's eye. Anyone who scavenges from goblin operations may seem daring, or simply foolhardy.",
+   "body": "The device needs repair by someone who knows Venture Company production lines. Rilli Greasygob, a former Venture employee, works at Nogg's Machine Shop in Orgrimmar's Valley of Honor. The battered apparatus catches the engineer's eye. Anyone who scavenges from goblin operations may seem daring, or simply foolhardy.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what does a samophlange do",
     "samophlange purpose"
    ],
-   "answer": "A samophlange is machinery made by the Venture Company for its industrial work in the Barrens. Few outsiders understand the secrets of its goblin engineering."
+   "answer": "A samophlange is machinery the Venture Company made for industrial work in the Barrens. Few outsiders understand the secrets of its goblin engineering."
   },
   {
    "q": "Why is the samophlange broken and battered?",
@@ -40,7 +40,7 @@
     "why is it damaged",
     "wenikee broke it"
    ],
-   "answer": "Wenikee Boltbucket tried to modify the samophlange with extra gauges to measure its stability. The additions weakened it and damaged its sensitive inner parts."
+   "answer": "Wenikee Boltbucket tried to modify the samophlange by adding gauges to measure its stability. The additions weakened it and damaged its sensitive inner parts."
   },
   {
    "q": "Who can fix this damaged apparatus?",
@@ -95,5 +95,5 @@
   "Broken and Battered Samophlange",
   "Rilli Greasygob (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Raptor Thieves",
   "chain": []
  },
- "summary": "A raptor has stolen the guards' payroll from the Crossroads tower, leaving the defenders baffled. Gazrog calls for a cull to keep the beasts from striking again.",
+ "summary": "At the Crossroads, a raptor has stolen the guards' pay, and Gazrog fears another strike. The defenders are left without coin and with no clear answer.",
  "sections": [
   {
    "title": "A Baffling Heist",
-   "body": "The Crossroads depends on mercenary and grunt guards to keep trade routes open across the Barrens. Their pay matters to morale and discipline. When silver vanished from the guard tower, leaders expected Centaur raiders or Quilboar scavengers. Instead, a raptor was caught stealing in the dead of night, leaving the settlement stunned and short of coin.",
+   "body": "The Crossroads relies on mercenary and grunt guards to keep trade routes open across the Barrens. Their pay keeps morale and discipline firm. When silver vanished from the guard tower, the leaders suspected Centaur raiders or Quilboar scavengers. Instead, a raptor was caught stealing in the dead of night. The settlement was stunned, and short of coin.",
    "spoiler": 0
   },
   {
    "title": "Vengeance on the Pack",
-   "body": "Gazrog does not know why wild beasts would hoard shiny coins, and he has no interest in studying their behavior. The guards are restless without their pay, so he calls for blood and deterrence. He sends hunters to take a dozen raptor heads from across the savannah, hoping to curb the predators' boldness before a full search for the silver begins.",
+   "body": "Gazrog cannot fathom why wild beasts would hoard shiny coins, and has no wish to study their ways. The guards are restless without their pay, so he calls for blood to deter another attack. He sends hunters after a dozen raptors across the savannah. He hopes to curb their boldness before the search for the silver begins.",
    "spoiler": 0
   }
  ],
@@ -70,7 +70,7 @@
     "raptor locations",
     "where to find raptors"
    ],
-   "answer": "Raptor packs roam the central and southern Barrens savannah. Those closer to the Crossroads tend to be less seasoned and easier for travelers to confront."
+   "answer": "Raptor packs roam the central and southern Barrens savannah. Those near the Crossroads tend to be less seasoned and easier for travelers to confront."
   },
   {
    "q": "Does this quest recover the stolen silver?",
@@ -110,5 +110,5 @@
  "attribution": [
   "Raptor Thieves"
  ],
- "style": 1
+ "style": 2
 }

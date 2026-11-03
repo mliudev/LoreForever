@@ -10,16 +10,16 @@
    "quest:4542"
   ]
  },
- "summary": "The Urgent Message is a sealed dispatch penned by Brave Moonhorn warning Freewind Post of escalating centaur violence across Thousand Needles. Carried by travelers descending into the canyon, the letter alerts the tauren garrison that their supply lines and scouting parties are under immediate threat.",
+ "summary": "Brave Moonhorn warns Freewind Post that centaur raids are growing across Thousand Needles. Travelers and the roads are in danger.",
  "sections": [
   {
    "title": "A Warning from the Heights",
-   "body": "Penned by Brave Moonhorn near the great lift that descends from the Barrens into Thousand Needles, the Urgent Message represents the first line of defense for travelers crossing the border. Moonhorn monitors the jagged canyons below, where aggressive centaur tribes have renewed their relentless raids against Horde travel. Addressed to Cliffwatcher Longhorn atop Freewind Post, the missive sounds the alarm about emboldened attackers striking dangerously close to crucial roadways, urging the local garrison to brace for sustained conflict and guard against secondary threats like the unpredictable Grimtotem clan.",
+   "body": "Near the Great Lift from the Barrens into Thousand Needles, Brave Moonhorn writes Urgent Message. From there, Moonhorn watches the jagged canyons below as centaur tribes renew their raids on Horde travelers.\n\nThe letter is bound for Cliffwatcher Longhorn atop Freewind Post. Moonhorn warns that attackers have grown bolder and strike near important roads. The garrison must prepare for more fighting and watch for the unpredictable Grimtotem clan.",
    "spoiler": 0
   },
   {
    "title": "Bloodshed on the Canyon Floor",
-   "body": "When delivered to Cliffwatcher Longhorn atop the towering mesa of Freewind Post, the letter confirms the settlement's darkest fears. The centaur assault has surpassed mere border skirmishing; raiders have ambushed a vital supply caravan traversing the canyon floor, slaughtering the entire convoy. The dispatch forces the tauren leadership to shift immediately from defensive vigilance to aggressive retaliation, triggering organized counter-strikes to pacify the marauding tribes before Freewind Post is entirely cut off from the rest of Kalimdor.",
+   "body": "At Freewind Post, Urgent Message confirms Cliffwatcher Longhorn's fears. Centaur raiders have ambushed a supply caravan crossing the canyon floor and slaughtered everyone aboard. This is more than a border skirmish.\n\nTauren leaders answer with organized counter-strikes against the tribes. They seek to stop the raids before Freewind Post is cut off from the rest of Kalimdor.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "urgent message contents",
     "what is the message about"
    ],
-   "answer": "The message details a sharp surge in centaur raids across Thousand Needles, warning that traveling parties and roadways are in immediate peril and urging Freewind Post to prepare for war."
+   "answer": "Urgent Message warns that centaur raids are rising sharply across Thousand Needles. Travelers and roads face immediate danger, and Freewind Post must prepare for war."
   },
   {
    "q": "Who wrote this message and who receives it?",
@@ -40,7 +40,7 @@
     "sender of urgent message",
     "who gets the urgent message"
    ],
-   "answer": "It was drafted by Brave Moonhorn, stationed at the Great Lift from the Barrens, and addressed directly to Cliffwatcher Longhorn, the commander of Freewind Post."
+   "answer": "Brave Moonhorn wrote Urgent Message near the Great Lift from the Barrens and addressed it to Cliffwatcher Longhorn, commander of Freewind Post."
   },
   {
    "q": "Why are the centaur attacking supply caravans?",
@@ -49,7 +49,7 @@
     "centaur motive thousand needles",
     "why do centaurs raid"
    ],
-   "answer": "The centaur tribes have long contested the arid lands of central Kalimdor against the tauren. They raid caravans in the canyon floor to plunder vital provisions and deny the Horde safe passage through Thousand Needles."
+   "answer": "The centaur tribes have long contested the arid lands of central Kalimdor with the tauren. They raid caravans on the canyon floor to seize provisions and deny the Horde safe passage through Thousand Needles."
   },
   {
    "q": "What warning does the scout give regarding the Grimtotem?",
@@ -58,17 +58,17 @@
     "why avoid grimtotem",
     "grimtotem acting strange"
    ],
-   "answer": "Brave Moonhorn cautions any courier carrying the dispatch to steer clear of the nearby Grimtotem clan, noting that their warriors have been acting increasingly aloof and suspicious toward the rest of the tauren."
+   "answer": "Brave Moonhorn warns the courier to avoid the nearby Grimtotem clan. Its warriors have grown aloof and suspicious toward other tauren."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The message highlights the tenuous nature of Horde supply lines across southern Kalimdor, where isolated outposts rely on runners and braves to survive hostile terrain."
+   "text": "Urgent Message shows how fragile Horde supply lines are across southern Kalimdor. Isolated outposts rely on runners and braves to cross hostile land."
   },
   {
    "target": "race:Tauren",
-   "text": "For the tauren, the letter is a painful reminder of their ancient blood feud with the centaur, as well as the growing unease concerning their Grimtotem kin."
+   "text": "For tauren, the letter recalls their ancient blood feud with the centaur and growing unease about their Grimtotem kin."
   }
  ],
  "keywords": [
@@ -94,5 +94,6 @@
  "attribution": [
   "Urgent Message",
   "Message to Freewind Post"
- ]
+ ],
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Glyphic Parchment (Forever)",
   "chain": []
  },
- "summary": "In the Valley of Trials, Glyphic Parchment points young mages toward their first lessons. Gornek delivers the runed notice, which sends them to Mai'ah near the Den to begin learning the arcane.",
+ "summary": "In the Valley of Trials, Gornek sends young mages to Mai'ah for their first lessons. A runed notice points them to the mage near the Den, where their study of the arcane begins.",
  "sections": [
   {
    "title": "A Summons to Study",
-   "body": "New recruits test their strength against Durotar's local pests, but those drawn to magic need more than brute force. Gornek passes along a notice marked with runes. It directs novice spellcasters to Mai'ah, who guides the Horde's newest recruits through their first lessons in magic.",
+   "body": "New recruits face Durotar's local pests, but those drawn to magic need more than strength. Gornek gives them a notice marked with runes. It directs novice spellcasters to Mai'ah, who guides the Horde's newest recruits through their first lessons in magic.",
    "spoiler": 0
   },
   {
    "title": "The Way of the Arcane",
-   "body": "Mai'ah waits just outside the Den, where she teaches young spellweavers to temper ambition with patience and thought. She urges them to choose their moment instead of hurling raw sorcery without care. In her lessons, novices learn to weave delicate strands of the cosmos rather than unleash an unruly tempest.",
+   "body": "Just outside the Den, Mai'ah teaches young spellweavers to temper ambition with patience and thought. She urges them to choose their moment instead of casting raw sorcery without care. Her novices learn to weave delicate strands of the cosmos rather than unleash an unruly tempest.",
    "spoiler": 0
   }
  ],
@@ -87,11 +87,11 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "As a mage, this missive sends you to Mai'ah to begin your studies and expand your spellbook."
+   "text": "As a mage, this missive sends you to Mai'ah to begin your studies and add new spells to your spellbook."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you learn that the Valley of Trials cultivates even volatile arts like the arcane with discipline, to strengthen the Horde's future."
+   "text": "As a member of the Horde, you learn that the Valley of Trials teaches even volatile arts like the arcane with discipline, to strengthen the Horde's future."
   },
   {
    "target": "race:Troll",
@@ -118,5 +118,5 @@
  "attribution": [
   "Glyphic Parchment (Forever)"
  ],
- "style": 1
+ "style": 2
 }

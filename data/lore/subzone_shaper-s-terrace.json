@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Shaper's Terrace"
  },
- "summary": "Perched high on the northern bluffs above Marshal's Refuge, the Shaper's Terrace is a mysterious overlook marked by ancient titan architecture. It is named in honor of Khaz'goroth the Shaper and bears quiet witness to the primordial experiments that shaped Un'Goro Crater.",
+ "summary": "High above Marshal's Refuge, Shaper's Terrace bears the mark of the ancient titans. Its overlook honors Khaz'goroth the Shaper and recalls the experiments that shaped Un'Goro Crater.",
  "sections": [
   {
    "title": "A Legacy of the Titans",
-   "body": "Overlooking the lush, prehistoric basin of Un'Goro Crater, the Shaper's Terrace holds monumental stone edifices left behind by the titans. Believed to be dedicated to Khaz'goroth the Shaper, this high plateau stands as a testament to the celestial architects who cultivated the crater as a living laboratory for early life on Azeroth. From these elevated stones, ancient entities once observed and directed the flora and fauna below. Its cold stone arches and massive metallic plinths stand in stark, enigmatic contrast to the untamed wilderness thriving directly beneath them.",
+   "body": "From the northern bluffs, Shaper's Terrace looks across Un'Goro Crater. Monumental stone works left by the titans crown the high plateau. The site is believed to honor Khaz'goroth the Shaper, one of the celestial architects who cultivated the crater as a living laboratory for early life on Azeroth.\n\nFrom these heights, ancient entities once watched and directed the flora and fauna below. Stone arches and massive metallic plinths still rise above the wilderness thriving beneath them.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is this terrace",
     "ungoro terrace"
    ],
-   "answer": "The Shaper's Terrace is an elevated titan site located along the northern bluffs of Un'Goro Crater, directly above Marshal's Refuge. It features stone edifices tied to the titans who once shaped the land."
+   "answer": "Shaper's Terrace rises along the northern bluffs of Un'Goro Crater, directly above Marshal's Refuge. Its stone structures were left by the titans who shaped the land."
   },
   {
    "q": "Who was the 'Shaper'?",
@@ -32,13 +32,13 @@
     "khazgoroth",
     "who made shapers terrace"
    ],
-   "answer": "The terrace refers to Khaz'goroth the Shaper, one of the titanic creators who helped craft and cultivate the world of Azeroth in the deep past."
+   "answer": "The Shaper was Khaz'goroth, one of the titanic creators who helped craft and cultivate Azeroth in the deep past."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves pursuing their titan ancestry, the Shaper's Terrace provides another tantalizing glimpse of Khaz'goroth's architecture and the grand works of the creators."
+   "text": "As a dwarf, you can see another glimpse of Khaz'goroth's architecture and the grand works of the creators at Shaper's Terrace."
   }
  ],
  "keywords": [
@@ -57,5 +57,6 @@
  ],
  "attribution": [
   "Shaper's Terrace"
- ]
+ ],
+ "style": 2
 }

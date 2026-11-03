@@ -17,21 +17,21 @@
   "wiki": "Homeward Bound",
   "chain": []
  },
- "summary": "Homeward Bound is a Horde quest that tasks adventurers with rescuing Pao'ka Swiftmountain, a young tauren naturalist stranded in the wyvern nesting grounds of Highperch. After getting separated and lost while studying the dangerous beasts, Pao'ka must be escorted safely down the cliffs back toward Whitereach Post.",
+ "summary": "Pao'ka Swiftmountain is stranded among the wyverns of Highperch. You are helping the young tauren naturalist reach the canyon floor and return toward Whitereach Post after he wandered into their nesting grounds.",
  "sections": [
   {
    "title": "A Naturalist in Over His Head",
-   "body": "Pao'ka Swiftmountain accompanied the elder Motega Firemane to Thousand Needles to study the unique wildlife of the canyon floor and its towering stone pillars. Driven by curiosity and overconfidence, Pao'ka crept alone into the heights of Highperch to observe the local wyverns firsthand. The territorial beasts drove him off, leaving the young scholar stranded, terrified, and hiding among the crags for days.",
+   "body": "Pao'ka Swiftmountain came to Thousand Needles with the elder Motega Firemane. They meant to study the canyon floor's wildlife and towering stone pillars. Curious and too sure of himself, Pao'ka went alone into Highperch to watch its wyverns up close. The territorial beasts drove him off. Now the young scholar has spent days frightened and stranded among the crags.",
    "spoiler": 0
   },
   {
    "title": "The Path Down the Crags",
-   "body": "Highperch is thick with aggressive wyverns fiercely guarding their clutches and high roosts. Escorting Pao'ka back to level ground requires carving a path straight through the nesting predators. Unprepared for open combat, the panicked youth relies entirely on passing Horde travelers to fend off the swarming wyverns until he reaches the relative safety of the canyon path leading east.",
+   "body": "Aggressive wyverns guard their clutches and high roosts throughout Highperch. You clear a way through the nesting predators so Pao'ka can reach level ground. The panicked youth cannot defend himself in the open, and relies on passing Horde travelers to fend off the wyverns. He needs to reach the safer canyon path leading east.",
    "spoiler": 0
   },
   {
    "title": "Relief and Reckoning",
-   "body": "Reaching the base of the cliffs allows Pao'ka to scramble safely home to Whitereach Post. His guardian, Motega Firemane, is stunned to learn what transpired. Motega had promised Pao'ka's hesitant father that he would look after the boy during their field studies. Relieved that Pao'ka survived his foolish expedition, Motega rewards his saviors while privately lamenting that he did not chain the reckless apprentice to a totem.",
+   "body": "Pao'ka reaches the base of the cliffs and can make his way home to Whitereach Post. Motega Firemane is stunned by what happened. He had promised Pao'ka's hesitant father that he would watch over the boy during their field studies. Relieved that Pao'ka survived his reckless expedition, Motega rewards those who saved him. In private, he wishes he had chained the apprentice to a totem.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "pao'ka",
     "who is the escort npc"
    ],
-   "answer": "Pao'ka Swiftmountain is a young tauren apprentice who traveled to Thousand Needles with Motega Firemane to document and study wild creatures. His youthful enthusiasm led him to wander into Highperch unsupervised."
+   "answer": "Pao'ka Swiftmountain is a young tauren apprentice who came to Thousand Needles with Motega Firemane to study and record wild creatures. His youthful enthusiasm led him alone into Highperch."
   },
   {
    "q": "Why was Pao'ka hiding in Highperch?",
@@ -52,7 +52,7 @@
     "what happened to paoka",
     "why is he stuck"
    ],
-   "answer": "He ventured into the roosts alone to get a closer look at the native wyverns and their nests. The aggressive beasts attacked him, forcing him into hiding and leaving him trapped on the high mesa."
+   "answer": "Pao'ka went alone into the roosts to observe the native wyverns and their nests up close. The aggressive beasts attacked him, forcing him into hiding and trapping him on the high mesa."
   },
   {
    "q": "Who is Motega Firemane?",
@@ -61,7 +61,7 @@
     "who is motega firemane",
     "quest turn in npc"
    ],
-   "answer": "Motega Firemane is a tauren naturalist stationed at Whitereach Post in Thousand Needles. He was entrusted by Pao'ka's father to oversee the youth's safety during their scientific expedition."
+   "answer": "Motega Firemane is a tauren naturalist stationed at Whitereach Post in Thousand Needles. Pao'ka's father entrusted him with the youth's safety during their field studies."
   },
   {
    "q": "Where is Highperch located?",
@@ -70,7 +70,7 @@
     "where is highperch",
     "where do i escort him from"
    ],
-   "answer": "Highperch is an elevated mesa and wyvern nesting ground situated in the western expanse of Thousand Needles, just west of Whitereach Post and northwest of Freewind Post."
+   "answer": "Highperch is a raised mesa and wyvern nesting ground in western Thousand Needles. It lies just west of Whitereach Post and northwest of Freewind Post."
   },
   {
    "q": "Where is Whitereach Post?",
@@ -78,7 +78,7 @@
     "whitereach location",
     "where is whitereach post"
    ],
-   "answer": "Whitereach Post is a small Horde encampment located east of Highperch in Thousand Needles, serving as a field base for tauren naturalists studying the canyon's fauna."
+   "answer": "Whitereach Post is a small Horde encampment east of Highperch in Thousand Needles. Tauren naturalists use it as a field base while studying the canyon's wildlife."
   },
   {
    "q": "Does Motega know Pao'ka was missing?",
@@ -86,17 +86,17 @@
     "did motega know",
     "why didn't motega search for him"
    ],
-   "answer": "No. Pao'ka snuck away to Highperch on his own without telling Motega, which is why Motega was completely unaware of the danger his apprentice was in until you report the rescue."
+   "answer": "No. Pao'ka slipped away to Highperch without telling Motega. Motega did not know his apprentice was in danger until you report the rescue."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The bond between tribes and elders is paramount among the tauren; Motega's deep responsibility to Pao'ka's father highlights the close communal obligations that guide their expeditions."
+   "text": "As a tauren, you know the duties shared by tribes and elders. Motega's promise to Pao'ka's father reflects the bonds that guide their field studies."
   },
   {
    "target": "faction:Horde",
-   "text": "Wyverns are essential allies and mounts for the Horde across Kalimdor, making the wild specimens of Highperch an area of great natural and strategic curiosity."
+   "text": "As Horde, you may know wyverns as allies and mounts across Kalimdor. The wild wyverns of Highperch draw interest for their nature and strategic value."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "Homeward Bound"
- ]
+ ],
+ "style": 2
 }

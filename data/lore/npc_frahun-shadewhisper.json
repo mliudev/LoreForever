@@ -8,11 +8,11 @@
   "wiki": "Frahun Shadewhisper",
   "refs": 1
  },
- "summary": "At Aldrassil in Shadowglen, Frahun Shadewhisper trains night elf rogues. He teaches new scouts and rogues stealth, agility, and covert strikes. Erion Shadewhisper, another rogue trainer in Darnassus, shares his family name.",
+ "summary": "At Aldrassil in Shadowglen, Frahun Shadewhisper trains new scouts and rogues. He teaches stealth, agility, and covert strikes. Erion Shadewhisper trains rogues in Darnassus, and shares his family name.",
  "sections": [
   {
    "title": "A Mentor in the Shadows",
-   "body": "At Aldrassil in Teldrassil, Frahun Shadewhisper teaches new rogues concealment and bladecraft. Night elf society honors priests, sentinels, and druids, yet scouts and infiltrators also help safeguard the World Tree's boughs. Recruits bring Frahun an encrypted sigil. He weighs their potential and guides their first steps in the craft.",
+   "body": "At Aldrassil in Teldrassil, Frahun Shadewhisper teaches new rogues concealment and bladecraft. Night elf society honors priests, sentinels, and druids, yet scouts and infiltrators also help guard the World Tree's boughs. Recruits bring Frahun an encrypted sigil. He weighs their promise and guides their first steps in the craft.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is frahun",
     "frahun shadewhisper role"
    ],
-   "answer": "Frahun Shadewhisper trains night elf rogues at Aldrassil in Teldrassil. He teaches new rogues stealth, precise combat, and covert tactics."
+   "answer": "At Aldrassil in Teldrassil, Frahun Shadewhisper trains new night elf rogues. He teaches stealth, precise combat, and covert tactics."
   },
   {
    "q": "Where can Frahun Shadewhisper be found?",
@@ -84,5 +84,5 @@
  "attribution": [
   "Frahun Shadewhisper"
  ],
- "style": 1
+ "style": 2
 }

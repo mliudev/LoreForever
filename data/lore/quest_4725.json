@@ -17,16 +17,16 @@
   "wiki": "Beached Sea Turtle (2)",
   "chain": []
  },
- "summary": "Along Darkshore's shore, Beached Sea Turtle lies with a broken carriage on its shell. Greymist murlocs have gathered around the great carcass.",
+ "summary": "Along Darkshore's shore, a broken carriage rests on the shell of a Beached Sea Turtle. Greymist murlocs gather around the great carcass.",
  "sections": [
   {
    "title": "A Beast in Harness",
-   "body": "You find a broken carriage strapped across a giant sea turtle's shell on Darkshore's misty shore. Many sea creatures have washed up along this coast, but this turtle was made to carry a load. Its handlers drove it onto the beach, and the carriage now lies abandoned in the tide.",
+   "body": "You find a broken carriage strapped across a giant sea turtle's shell on Darkshore's misty shore. Many sea creatures have washed up along this coast, but this turtle carried a load. Its handlers drove it onto the beach. Now the carriage lies abandoned in the tide.",
    "spoiler": 0
   },
   {
    "title": "Scavengers of the Shallows",
-   "body": "Greymist murlocs soon swarm the turtle's remains. They have made a den among the rotting meat and scavenged timber. A marked container lies among their refuse and the broken carriage frame, left by the turtle's former masters.",
+   "body": "Greymist murlocs swarm the turtle's remains. They have made a den among the rotting meat and scavenged timber. A marked container lies among their refuse and the broken carriage frame. The turtle's former masters left it there.",
    "spoiler": 0
   },
   {
@@ -124,5 +124,5 @@
  "attribution": [
   "Beached Sea Turtle (2)"
  ],
- "style": 1
+ "style": 2
 }

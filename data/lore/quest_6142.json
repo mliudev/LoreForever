@@ -18,16 +18,16 @@
   "chain": [],
   "category": "Desolace"
  },
- "summary": "Mai'Lahii at Shadowprey Village has fished all his life and says the best bait is soft-shelled clam meat, which no fish can resist. He wants ten pieces, to be found around a wrecked ship up the coast to the north.",
+ "summary": "At Shadowprey Village, Mai'Lahii trusts one bait above all others. He asks for ten pieces of soft-shelled clam meat from the wrecked ship north along the coast.",
  "sections": [
   {
    "title": "The Best Bait",
-   "body": "Mai'Lahii has fished all his life, and he swears by soft-shelled clam meat as bait, since the fish cannot resist it. To the north, off the coast, lies a wrecked ship, and soft-shelled clams are scattered throughout that area. He asks for ten pieces of the meat.",
+   "body": "Mai'Lahii asks you for bait fish cannot resist. He has fished all his life and trusts soft-shelled clam meat above all else. North of Shadowprey Village, a wrecked ship lies off the coast, and soft-shelled clams are scattered throughout the area. He wants ten pieces of the meat.",
    "spoiler": 0
   },
   {
    "title": "What Mai'Lahii Says",
-   "body": "Mai'Lahii says the witch doctor gave him exactly this advice for his headache: go fish, and he will feel better. He feels better already.",
+   "body": "Mai'Lahii says the witch doctor told him to go fishing for his headache and that he would feel better. He feels better already.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "where is the shipwreck",
     "soft-shelled clam meat location"
    ],
-   "answer": "North of Shadowprey Village, around the wreck of a ship lying off the coast, where soft-shelled clams are scattered."
+   "answer": "Soft-shelled clams are scattered around a wrecked ship north of Shadowprey Village, off the coast."
   },
   {
    "q": "Why does Mai'Lahii want clam meat?",
@@ -56,7 +56,7 @@
     "why clam bait",
     "why clam meat"
    ],
-   "answer": "He says soft-shelled clam meat is the best bait there is, and the fish cannot resist it."
+   "answer": "Mai'Lahii says soft-shelled clam meat is the best bait, and fish cannot resist it."
   },
   {
    "q": "How much clam meat does Mai'Lahii want?",
@@ -64,7 +64,7 @@
     "how many clams",
     "clam meat amount"
    ],
-   "answer": "Ten pieces of the clam meat."
+   "answer": "Mai'Lahii wants ten pieces of soft-shelled clam meat."
   }
  ],
  "angles": [],
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Clam Bait"
- ]
+ ],
+ "style": 2
 }

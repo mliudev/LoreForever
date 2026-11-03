@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Nighthaven"
  },
- "summary": "Nighthaven is a secluded settlement resting on the northern shores of Lake Elune'ara in Moonglade. Serving as the heart of the Cenarion Circle, it is a haven where night elf and tauren druids study together in peace beyond the factional wars of Azeroth.",
+ "summary": "Nighthaven welcomes druids of both factions to Moonglade’s northern shore. Night elves and tauren study together in peace at the Cenarion Circle’s heart.",
  "sections": [
   {
    "title": "A Sanctuary of the Cenarion Circle",
-   "body": "Built with traditional night elf architecture along the calm shores of Lake Elune'ara, Nighthaven is a tranquil retreat largely secluded from the outside world. Here, moonwells cast a gentle glow over groves and halls dedicated to preserving the natural balance. As the primary enclave of the Cenarion Circle, it provides trainers, herbalists, and specialized suppliers for druidic initiates. The settlement maintains a strict neutrality, welcoming practitioners regardless of whether their home loyalties lie with the Alliance or the Horde.",
+   "body": "Along Lake Elune'ara’s calm northern shore, Nighthaven gathers night elf halls and moonwells among its groves. The Cenarion Circle keeps this secluded village as a place for druids to learn and tend to nature. Trainers, herbalists, and suppliers serve those who come to study. Here, druids find neutral ground whatever their ties to the Alliance or the Horde.",
    "spoiler": 0
   },
   {
    "title": "Ancient History and Sacred Gatherings",
-   "body": "Nighthaven's peace has been tested throughout history. Centuries after the War of the Ancients, champions gathered here to confront the enraged demigod Omen, driving him beneath the depths of Lake Elune'ara. The village also opens its secluded borders during the Lunar Festival, welcoming pilgrims from all over Azeroth to honor the ancestors and celebrate under Elune's watchful gaze.",
+   "body": "Peace in Nighthaven has faced a trial. Centuries after the War of the Ancients, champions gathered there to face the enraged demigod Omen. They drove him beneath Lake Elune'ara. During the Lunar Festival, the village opens its borders to pilgrims from across Azeroth, who honor the ancestors beneath Elune's watchful gaze.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "nighthaven leaders",
     "who is in charge here"
    ],
-   "answer": "Nighthaven is administered by the Cenarion Circle under the guidance of Keeper Remulos and senior druids such as Loganaar. It exists as an independent, neutral sanctuary rather than a territory of the night elven government."
+   "answer": "The Cenarion Circle oversees Nighthaven, guided by Keeper Remulos and senior druids such as Loganaar. The village is an independent, neutral sanctuary, outside the night elven government’s rule."
   },
   {
    "q": "Can non-druids visit Nighthaven?",
@@ -36,7 +36,7 @@
     "can non druids go to nighthaven",
     "how do non druids get here"
    ],
-   "answer": "Yes. Non-druids can reach Moonglade through the Timbermaw tunnels or use the public flight masters elsewhere in the valley, then travel to Nighthaven. The village's own flight masters serve only druids."
+   "answer": "Yes. Non-druids can reach Moonglade through the Timbermaw tunnels or by taking a public flight to elsewhere in the valley, then travel to Nighthaven. The village’s own flight masters serve druids only."
   },
   {
    "q": "Why are night elves and tauren living together peacefully here?",
@@ -45,7 +45,7 @@
     "why are tauren allowed here",
     "horde alliance peace"
    ],
-   "answer": "The Cenarion Circle is committed to healing nature and the Emerald Dream above all faction politics. Members take vows of neutrality while within Moonglade, putting aside Alliance and Horde rivalries to study druidism as equals."
+   "answer": "Night elves and tauren live peacefully in Nighthaven because the Cenarion Circle places healing nature and the Emerald Dream above faction politics. Its members vow to remain neutral in Moonglade and study druidism as equals, setting aside Alliance and Horde rivalries."
   },
   {
    "q": "What flight routes are available from Nighthaven?",
@@ -53,17 +53,17 @@
     "nighthaven flight masters",
     "where can i fly from here"
    ],
-   "answer": "Exclusive Cenarion flight masters offer direct travel for druids: hippogryphs provide passage back to Rut'theran Village for the Alliance, while wind riders carry Horde druids back to Thunder Bluff."
+   "answer": "Druids can take direct routes with Nighthaven’s Cenarion flight masters. Alliance druids can fly by hippogryph to Rut'theran Village, while Horde druids can ride wind riders to Thunder Bluff."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Nighthaven is your spiritual home away from home. Through the Teleport: Moonglade ability, it provides immediate access to your order's mentors, animal form trials, and unique flight connections to Rut'theran Village or Thunder Bluff."
+   "text": "As a druid, you find your spiritual home in Moonglade at Nighthaven. Teleport: Moonglade brings you to your order's mentors, animal form trials, and flight connections to Rut'theran Village or Thunder Bluff."
   },
   {
    "target": "profession:Herbalism",
-   "text": "Nighthaven is a peaceful place to consult herbalism trainers among the tranquil groves of Moonglade."
+   "text": "As an herbalist, you can consult herbalism trainers among Nighthaven's tranquil groves in Moonglade."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Nighthaven"
- ]
+ ],
+ "style": 2
 }

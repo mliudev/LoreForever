@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Razorfen Downs (Classic)"
  },
- "summary": "Deep in the southern Barrens, the Scourge now holds Razorfen Downs, the quilboar's ancestral burial ground and capital. Led by the lich Amnennar the Coldbringer, its agents have raised the quilboar dead and threaten to spread their power across central Kalimdor.",
+ "summary": "The Scourge now holds Razorfen Downs, the quilboar's ancestral burial ground and capital in the southern Barrens. Amnennar the Coldbringer leads its agents, who have raised the quilboar dead and threaten to spread their power across central Kalimdor.",
  "sections": [
   {
    "title": "Capital of Thorns",
-   "body": "Razorfen Downs shares the towering, petrified vines of nearby Razorfen Kraul. It lies where the boar demigod Agamaggan fell in the War of the Ancients. For generations, this thorn labyrinth was the quilboar's sacred burial ground and seat of power, guarded by mystics of the Death's Head tribe. The quilboar hold its dense briars holy, for they were soaked in their divine progenitor's blood.",
+   "body": "Razorfen Downs rises among the towering, petrified vines shared with nearby Razorfen Kraul. Here the boar demigod Agamaggan fell in the War of the Ancients. For generations, the thorn labyrinth served as the quilboar's sacred burial ground and seat of power, watched over by mystics of the Death's Head tribe. The quilboar hold its dense briars holy, for their divine progenitor's blood soaked them.",
    "spoiler": 0
   },
   {
    "title": "A Scourge Bastion in Kalimdor",
-   "body": "The Scourge has broken the sanctity of Razorfen Downs. Amnennar the Coldbringer, a powerful lich who serves the Lich King, subdued the Death's Head quilboar and made their ancestral resting ground an undead stronghold. Reanimated quilboar skeletons and corpses, along with shrieking banshees, prowl the Spiral of Thorns. The Horde in the nearby Barrens and emissaries from Stormwind's Cathedral of Light both see this Scourge power as a grave threat to Kalimdor.",
+   "body": "The Scourge has broken Razorfen Downs' sanctity. Amnennar the Coldbringer, a powerful lich in the Lich King's service, subdued the Death's Head quilboar and made their ancestral resting ground an undead stronghold. Reanimated quilboar skeletons and corpses prowl the Spiral of Thorns alongside shrieking banshees. The Horde in the nearby Barrens and emissaries from Stormwind's Cathedral of Light both see this Scourge power as a grave threat to Kalimdor.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "razorfen downs lore",
     "downs background"
    ],
-   "answer": "Razorfen Downs is the quilboar's ancestral capital and burial ground, cut through massive briars in the southern Barrens. The Scourge now controls it."
+   "answer": "Razorfen Downs cuts through massive briars in the southern Barrens. It is the quilboar's ancestral capital and burial ground, now held by the Scourge."
   },
   {
    "q": "Why are there undead inside a quilboar city?",
@@ -37,7 +37,7 @@
     "why undead in barrens",
     "who brought the scourge here"
    ],
-   "answer": "Amnennar the Coldbringer, a Scourge lich, invaded Razorfen Downs, subdued the local Death's Head tribe, and raised dead quilboar to build an undead stronghold on Kalimdor."
+   "answer": "Amnennar the Coldbringer, a Scourge lich, invaded Razorfen Downs, subdued the local Death's Head tribe, and raised dead quilboar to make an undead stronghold on Kalimdor."
   },
   {
    "q": "What is the difference between Razorfen Downs and Razorfen Kraul?",
@@ -46,7 +46,7 @@
     "rfk vs rfd",
     "difference between downs and kraul"
    ],
-   "answer": "Razorfen Kraul and Razorfen Downs share Agamaggan's brambles. Charlga Razorflank leads the living quilboar stronghold at Kraul, while the Scourge now holds the Downs, their ancestral burial ground."
+   "answer": "Razorfen Kraul and Razorfen Downs share Agamaggan's brambles. Charlga Razorflank leads the living quilboar stronghold at Kraul, while the Scourge holds the Downs, their ancestral burial ground."
   },
   {
    "q": "Who rules Razorfen Downs right now?",
@@ -65,7 +65,7 @@
   },
   {
    "target": "race:Undead",
-   "text": "As an undead, you may draw the Royal Apothecary Society's and Undercity's Forsaken leadership's interest in investigating and purging the rival necromantic magic growing within the Downs."
+   "text": "As an undead, you may draw the Royal Apothecary Society and Undercity's Forsaken leadership to investigate and purge the rival necromantic magic growing within the Downs."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
  "attribution": [
   "Razorfen Downs (Classic)"
  ],
- "style": 1
+ "style": 2
 }

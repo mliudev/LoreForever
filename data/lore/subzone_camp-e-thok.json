@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Camp E'thok"
  },
- "summary": "Camp E'thok is a Galak centaur settlement located in northwestern Thousand Needles. The aggressive centaur tribe uses this canyon encampment as a base to stage ambushes against passing caravans traveling through the riverbed below.",
+ "summary": "In northwestern Thousand Needles, caravans risk ambush below Camp E'thok. Galak centaur hunt travelers in the canyon.",
  "sections": [
   {
    "title": "A Galak Stronghold",
-   "body": "Tucked into the rugged northwestern reaches of Thousand Needles, Camp E'thok serves as a key settlement for the hostile Galak centaur. Like their kin across Kalimdor, the Galak are relentlessly predatory, preying upon any travelers wandering into the canyon shadows. The camp is notorious for orchestrating raids against merchant caravans, notably ambushing the goblin Wizlo Bearingshiner and seizing his goods\u2014though his prized gadget managed to slip beyond their grasp, guarded by his fierce pet panther.",
+   "body": "Galak centaur hunt travelers in the canyon at Camp E'thok. Their camp lies in northwestern Thousand Needles. From there, the clan ambushes merchant caravans crossing the riverbed below. One caravan carried the goblin Wizlo Bearingshiner. The centaur seized its goods, but Wizlo's fierce pet panther kept his prized gadget beyond their reach.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "camp ethok inhabitants",
     "who controls camp ethok"
    ],
-   "answer": "The encampment is occupied by the Galak clan of centaur, an aggressive tribe dominating parts of northwestern Thousand Needles."
+   "answer": "The Galak clan of centaur lives at Camp E'thok. The aggressive tribe dominates parts of northwestern Thousand Needles."
   },
   {
    "q": "What happened to Wizlo Bearingshiner here?",
@@ -32,7 +32,7 @@
     "goblin caravan attacked",
     "what did centaur steal from wizlo"
    ],
-   "answer": "A merchant caravan containing the goblin Wizlo Bearingshiner was ambushed by the Galak centaur from Camp E'thok. While they ransacked the caravan, they failed to take Wizlo's prized gadget because it was secured around the collar of his fierce pet panther."
+   "answer": "Galak centaur from Camp E'thok ambushed Wizlo Bearingshiner's caravan and seized its goods. They could not take his prized gadget, secured around the collar of his fierce pet panther."
   },
   {
    "q": "Where is Camp E'thok located?",
@@ -41,13 +41,13 @@
     "where is camp ethok",
     "camp ethok map"
    ],
-   "answer": "Camp E'thok is situated in northwestern Thousand Needles, nestled along the base of the canyon walls."
+   "answer": "Camp E'thok lies in northwestern Thousand Needles along the base of the canyon walls."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The relentless aggression of the Galak centaur at Camp E'thok is a constant reminder of the ancestral war between the tauren and centaur throughout southern Kalimdor."
+   "text": "As a tauren, you may recall the ancestral war between tauren and centaur across southern Kalimdor when you see the Galak centaur's aggression at Camp E'thok."
   }
  ],
  "keywords": [
@@ -66,5 +66,6 @@
  ],
  "attribution": [
   "Camp E'thok"
- ]
+ ],
+ "style": 2
 }

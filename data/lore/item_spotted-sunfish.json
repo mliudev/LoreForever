@@ -10,11 +10,11 @@
    "quest:127"
   ]
  },
- "summary": "At Lake Everstill, Spotted Sunfish draw fishers and hungry murlocs alike. The fish bring trade to Lakeshire, though murlocs make the shallows dangerous.",
+ "summary": "At Lake Everstill, Spotted Sunfish draw fishers and hungry murlocs. Their catch brings trade to Lakeshire, while murlocs make the shallows dangerous.",
  "sections": [
   {
    "title": "A Prized Catch",
-   "body": "Spotted Sunfish bring trade to the Lakeshire piers. Dockmaster Baren buys them from the lake's steady catch, supplying food and commerce to a town under strain. Aggressive murloc tribes prowl the shallows and disrupt fishing. They gather sunfish at their camps, where travelers can take the fish by force.",
+   "body": "Spotted Sunfish bring trade to the Lakeshire piers. Dockmaster Baren buys the lake’s steady catch, supplying food and commerce to a town under strain. Aggressive murloc tribes prowl the shallows and disrupt fishing. At their camps, travelers can take the sunfish they have gathered by force.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "spotted sunfish location",
     "lake everstill fish"
    ],
-   "answer": "Spotted Sunfish live in Lake Everstill in the Redridge Mountains. Anglers catch them in the lake, and murlocs gather them at camps along the shoreline."
+   "answer": "Spotted Sunfish live in Lake Everstill in the Redridge Mountains. Anglers catch them there, and murlocs gather them at camps along the shoreline."
   },
   {
    "q": "Who buys or needs Spotted Sunfish?",
@@ -51,13 +51,13 @@
     "get sunfish without fishing rod",
     "no fishing rod sunfish"
    ],
-   "answer": "Yes. Travelers without a fishing rod can defeat the hostile murlocs along Lake Everstill's shores and take the fish they have gathered."
+   "answer": "Yes. Travelers without a fishing rod can defeat the hostile murlocs along Lake Everstill’s shores and take the fish they have gathered."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "As a cook, you can use Spotted Sunfish, a native freshwater fish and a fixture on tavern tables in Redridge."
+   "text": "As a cook, you can use Spotted Sunfish, a freshwater fish native to Redridge."
   }
  ],
  "keywords": [
@@ -81,5 +81,5 @@
   "Spotted Sunfish",
   "Selling Fish"
  ],
- "style": 1
+ "style": 2
 }

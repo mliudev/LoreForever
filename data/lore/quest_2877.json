@@ -19,16 +19,16 @@
   "qtype": "Solo",
   "category": "Hinterlands"
  },
- "summary": "Fraggar Thundermantle of Aerie Peak wants a clean-up crew for the area around Skulk Rock, which the Horde abandoned and which is now overrun with sludges and oozes. The Wildhammers have plans for the area once it is clear.",
+ "summary": "Sludges and oozes overrun the Horde's old positions around Skulk Rock. Fraggar Thundermantle at Aerie Peak wants them cleared, for the Wildhammers have plans for the ground.",
  "sections": [
   {
    "title": "A Matter of Territory",
-   "body": "The Wildhammers remember the past, more than their brothers in Ironforge do, and Fraggar Thundermantle says friends are made here by getting your hands dirty. The Horde abandoned their positions around Skulk Rock in the Hinterlands, and nasty sludges and oozes have since overrun them. The Wildhammers have plans for that ground, but first it needs a hole made in the infestation.",
+   "body": "The Wildhammers remember the past more than their brothers in Ironforge do. Fraggar Thundermantle says friends are made here by getting your hands dirty. The Horde left its positions around Skulk Rock in the Hinterlands, and sludges and oozes have overrun them. The Wildhammers have plans for that ground, but first the infestation must be thinned.",
    "spoiler": 0
   },
   {
    "title": "Clearing the Ground",
-   "body": "Ten green sludges are to be slain, along with ten jade oozes, and then Fraggar waits at Aerie Peak for the report.",
+   "body": "Slay ten green sludges and ten jade oozes. Then return to Fraggar at Aerie Peak with your report.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "who gives skulk rock clean up",
     "fraggar thundermantle"
    ],
-   "answer": "Fraggar Thundermantle is a Wildhammer at Aerie Peak in the Hinterlands who wants Skulk Rock cleaned out."
+   "answer": "Fraggar Thundermantle is a Wildhammer at Aerie Peak in the Hinterlands. He wants Skulk Rock cleared."
   },
   {
    "q": "Why do the Wildhammers want Skulk Rock cleared?",
@@ -47,7 +47,7 @@
     "why kill the oozes",
     "wildhammer plans skulk rock"
    ],
-   "answer": "The Horde abandoned their positions around Skulk Rock and sludges and oozes have taken them over. The Wildhammers have plans for the area but need a clean-up crew first."
+   "answer": "The Horde left its positions around Skulk Rock, and sludges and oozes have overrun them. The Wildhammers have plans for the area, but first the infestation must be thinned."
   },
   {
    "q": "What creatures dwell at Skulk Rock?",
@@ -55,7 +55,7 @@
     "skulk rock mobs",
     "what is at skulk rock"
    ],
-   "answer": "Green sludges and jade oozes have overrun the old Horde positions there."
+   "answer": "Green sludges and jade oozes have overrun the old Horde positions at Skulk Rock."
   },
   {
    "q": "Why does Fraggar bring up Ironforge?",
@@ -63,7 +63,7 @@
     "wildhammer ironforge difference",
     "fraggar ironforge"
    ],
-   "answer": "Fraggar says the Wildhammers remember the past more than their brothers in Ironforge, and that friends are made here by getting your hands dirty."
+   "answer": "Fraggar says the Wildhammers remember the past more than their brothers in Ironforge do. He says friends are made here by getting your hands dirty."
   }
  ],
  "angles": [],
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Wowpedia: Skulk Rock Clean-up"
- ]
+ ],
+ "style": 2
 }

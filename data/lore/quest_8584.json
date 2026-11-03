@@ -24,16 +24,16 @@
    "Azuregos's Magical Ledger"
   ]
  },
- "summary": "Narain Soothfancy has a plan he refuses to explain, and it calls for a chicken of five hundred pounds. You head for Gadgetzan to speak with Dirge Quikcleave, who can get you started on finding a fitting bird.",
+ "summary": "Narain Soothfancy sends you to Gadgetzan to find a chicken weighing five hundred pounds. At the inn, Dirge Quikcleave can point you toward one.",
  "sections": [
   {
    "title": "Planning and Fetching",
-   "body": "Narain Soothfancy wants no more questions about his business, which deals in things you could never hope to grasp. The planning is his and the fetching is yours. As he said before, the plan needs a chicken of five hundred pounds, and Dirge Quikcleave in the Gadgetzan inn can point you toward one.",
+   "body": "Narain Soothfancy wants no more questions about his business. It deals in things beyond your understanding, so he keeps the plan to himself and leaves the fetching to you. He needs a chicken weighing five hundred pounds. Dirge Quikcleave at the Gadgetzan inn can point you toward one.",
    "spoiler": 0
   },
   {
    "title": "Dirge's Answer",
-   "body": "Dirge Quikcleave scratches his head. A chicken of that weight is no longer to be found, he says, though he once knew of one, the Black Chicken of Death, and nobody who saw that bird lived to tell of it. Then he says he has an idea that could be good for you both.",
+   "body": "Dirge Quikcleave says no chicken that heavy can be found now. He once knew of the Black Chicken of Death, but nobody who saw that bird lived to tell of it. Then Dirge offers an idea that could be good for you both.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "narain chicken business",
     "why does narain want a chicken"
    ],
-   "answer": "Narain will not say. His business involves things you could not understand, such as a psychotronic muzzledorf, and he leaves the planning to himself and the fetching to you."
+   "answer": "Narain will not say. His business involves things you could not understand, such as a psychotronic muzzledorf. He keeps the planning to himself and leaves the fetching to you."
   },
   {
    "q": "Who do you need to talk to in Gadgetzan?",
@@ -54,7 +54,7 @@
     "who to see in gadgetzan",
     "where is dirge quikcleave"
    ],
-   "answer": "Narain sends you to Dirge Quikcleave, found in the Gadgetzan inn, who will start you on finding a suitable chicken."
+   "answer": "Narain sends you to Dirge Quikcleave at the Gadgetzan inn to begin looking for a suitable chicken."
   },
   {
    "q": "What comes before this quest?",
@@ -63,7 +63,7 @@
     "what quest comes first",
     "prior step"
    ],
-   "answer": "Translating the Ledger comes first. Narain Soothfancy raises the matter of the chicken after that."
+   "answer": "Translating the Ledger comes first. Narain Soothfancy brings up the chicken afterward."
   },
   {
    "q": "Where is Narain Soothfancy located?",
@@ -93,5 +93,6 @@
  ],
  "attribution": [
   "Never Ask Me About My Business"
- ]
+ ],
+ "style": 2
 }

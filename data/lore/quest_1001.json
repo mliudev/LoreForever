@@ -17,16 +17,16 @@
   "wiki": "Buzzbox 411 (quest)",
   "chain": []
  },
- "summary": "Along Darkshore’s coast, Buzzbox 411 needs thresher eyes to return to service. This Alliance errand comes through an eccentric, intoxicated gnome inventor, Wizbang Cranktoggle, who works through a mechanical relay network.",
+ "summary": "Along Darkshore, Buzzbox 411 waits for thresher eyes to bring it back into service. Wizbang Cranktoggle, an eccentric and intoxicated gnome inventor, reaches it through a mechanical relay network.",
  "sections": [
   {
    "title": "Voice Through the Static",
-   "body": "After you help repair Buzzbox 827 farther south, gnome inventor Wizbang Cranktoggle’s voice crackles through the mechanical transmitter again. From somewhere safely out of sight, he directs adventurers north along Darkshore’s mist-laden beach to a damaged terminal called Buzzbox 411. His transmissions break with hiccups and muttered praise for crawler wine. He says local aquatic predators carry what his coastal apparatus needs to keep working.",
+   "body": "After you repair Buzzbox 827 farther south, Wizbang Cranktoggle's voice crackles through the transmitter again. Hidden from sight, the gnome inventor directs you north along Darkshore's beach to the damaged Buzzbox 411. His words break with hiccups and praise for crawler wine. He says local aquatic predators carry what his coastal apparatus needs to work.",
    "spoiler": 0
   },
   {
    "title": "Eyes Beneath the Surf",
-   "body": "To restore Buzzbox 411, thresher eyes must be fed into its waiting hatch. Darkshore threshers, aggressive marine beasts, prowl the shallows off Auberdine, and their eyes have the properties Wizbang says are needed to recalibrate the device. The eyes jolt the apparatus back into operation, and the line opens for another assignment, delivered in an even slurrier voice.",
+   "body": "Thresher eyes must go into Buzzbox 411's hatch to restore the machine. Darkshore threshers prowl the shallows off Auberdine, and Wizbang says their eyes can recalibrate the device. Feed the eyes to the apparatus, and it jolts back to life. Then the line opens for another assignment, delivered in an even slurrier voice.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is buzzbox 411",
     "buzzbox 411 purpose"
    ],
-   "answer": "Buzzbox 411 is a mechanical transmitter north of Auberdine along the Darkshore shoreline. It belongs to an experimental listening and research network maintained by Wizbang Cranktoggle, a gnome engineer."
+   "answer": "Buzzbox 411 is a mechanical transmitter on the Darkshore shore, north of Auberdine. It belongs to an experimental listening and research network maintained by Wizbang Cranktoggle, a gnome engineer."
   },
   {
    "q": "Who is Wizbang Cranktoggle?",
@@ -47,7 +47,7 @@
     "who is wizbang",
     "who made buzzbox"
    ],
-   "answer": "Wizbang Cranktoggle is an eccentric gnome tinkerer who speaks remotely through the Buzzbox network. He spends his field research heavily enjoying crawler wine and relies on passing adventurers to collect animal parts in hazardous places."
+   "answer": "Wizbang Cranktoggle is an eccentric gnome tinkerer who speaks remotely through the Buzzbox network. He enjoys crawler wine during field research and relies on passing adventurers to gather animal parts in dangerous places."
   },
   {
    "q": "Why does a machine need Thresher Eyes?",
@@ -56,7 +56,7 @@
     "thresher eyes for machine",
     "buzzbox eyes"
    ],
-   "answer": "Gnomish engineering often blends bizarre organic matter with mechanical components for unorthodox tasks. Wizbang says thresher eyes are vital to repairing Buzzbox 411, whether for optical sensors or biological research."
+   "answer": "Wizbang says thresher eyes are vital to repairing Buzzbox 411. Gnomish engineering sometimes joins organic matter with machines for unusual work, from optical sensors to biological research."
   },
   {
    "q": "Where is Buzzbox 411 located?",
@@ -74,7 +74,7 @@
     "thresher eye source",
     "thresher location"
    ],
-   "answer": "Darkshore threshers swim in the coastal waters off Auberdine and along nearby shores. Swim out past the surf line to find them easily."
+   "answer": "Darkshore threshers swim in the coastal waters off Auberdine and along nearby shores. Swim beyond the surf to find them."
   },
   {
    "q": "What happens after Buzzbox 411 is fixed?",
@@ -83,21 +83,21 @@
     "what comes after buzzbox 411",
     "buzzbox chain"
    ],
-   "answer": "Once the machine hums back to life, Wizbang Cranktoggle thanks you through the static, drinks again, and asks if you will fix his next machine, Buzzbox 323."
+   "answer": "Once Buzzbox 411 hums back to life, Wizbang Cranktoggle thanks you through the static, drinks again, and asks you to fix his next machine, Buzzbox 323."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Wizbang Cranktoggle shows the eccentric gnomish approach to fieldwork: bold invention, peculiar component choices, and leaving dangerous swimming to whoever happens by."
+   "text": "Wizbang Cranktoggle shows an eccentric gnomish approach to fieldwork: bold invention, peculiar components, and leaving dangerous swimming to whoever happens by."
   },
   {
    "target": "profession:Engineering",
-   "text": "Thresher eyes used to calibrate a mechanical transmitter show the boundary-pushing methods of unconventional tinkerers."
+   "text": "Using thresher eyes to calibrate a mechanical transmitter shows how far unconventional tinkerers will push their methods."
   },
   {
    "target": "race:NightElf",
-   "text": "Auberdine’s sentinels watch Darkshore’s waters, though they typically leave peculiar gnomish contraptions on the shoreline to their own devices."
+   "text": "Auberdine's sentinels watch Darkshore's waters, though they usually leave peculiar gnomish contraptions on the shore to their own devices."
   }
  ],
  "keywords": [
@@ -120,5 +120,5 @@
  "attribution": [
   "Buzzbox 411 (quest)"
  ],
- "style": 1
+ "style": 2
 }

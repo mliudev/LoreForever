@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Gor'mul mourns the fallen might of the Horde, questioning whether a simple trinket could ever restore the faction to its lost glory."
+   "text": "As a member of the Horde, you hear Gor'mul mourn its fallen might and question whether a simple trinket can restore its lost glory."
   },
   {
    "target": "class:Warrior",
-   "text": "This task centers on reigniting the extinguished warrior spirit within an orc paralyzed by despair and grief over a cowardly strike."
+   "text": "As a warrior, you hear of an orc whose fighting spirit has been extinguished by despair and grief over a cowardly strike."
   }
  ],
  "faq": [
@@ -27,7 +27,7 @@
     "what is raising spirits",
     "raising spirits quest"
    ],
-   "answer": "Raising Spirits is a quest tasked with delivering a Raptor Talon Amulet to a despondent warrior named Gor'mul in hopes of rekindling his fighting spirit.",
+   "answer": "A Horde emissary brings Gor'mul a Raptor Talon Amulet, hoping it will rekindle the despondent warrior's fighting spirit.",
    "q": "What is Raising Spirits?"
   },
   {
@@ -35,7 +35,7 @@
     "who is gormul",
     "gor mul"
    ],
-   "answer": "Gor'mul is a broken-spirited warrior who has succumbed to despair after witnessing the mightiest of champions fall to a coward's hand. He dismisses tokens and questions the future of the Horde.",
+   "answer": "Gor'mul is a warrior consumed by despair after the mightiest champions fell to cowardly hands. He dismisses tokens and doubts the Horde can regain its former glory.",
    "q": "Who is Gor'mul?"
   },
   {
@@ -43,7 +43,7 @@
     "why bring amulet",
     "what does raptor talon amulet do"
    ],
-   "answer": "The Raptor Talon Amulet is crafted from polished bone and raptor talons, offered in the hope that channeling the natural strength and ferocity of raptors can awaken Gor'mul's inner flame.",
+   "answer": "The Raptor Talon Amulet is crafted from polished bone and raptor talons. It is brought to Gor'mul in hope that it can channel raptors' natural strength and ferocity to awaken his inner flame.",
    "q": "Why is the Raptor Talon Amulet brought to Gor'mul?"
   },
   {
@@ -51,7 +51,7 @@
     "why is gormul sad",
     "why is gormul depressed"
    ],
-   "answer": "Gor'mul has lost all hope after seeing the mightiest warriors slain by cowardice. The tragedy left him convinced that honor and strength can easily be snuffed out, breaking his will to fight.",
+   "answer": "Gor'mul despairs after seeing the mightiest champions slain by cowardly hands. Their fall leaves him convinced that honor and strength can be snuffed out, breaking his will to fight.",
    "q": "Why is Gor'mul despondent?"
   },
   {
@@ -59,7 +59,7 @@
     "does gormul like the amulet",
     "gormul reaction"
    ],
-   "answer": "Gor'mul rejects the gift, bitterly dismissing the amulet as mere polished bone that cannot possibly restore the Horde or undo the tragedy he laments.",
+   "answer": "Gor'mul rejects the gift as mere polished bone. He believes it cannot restore the Horde or undo the tragedy he laments.",
    "q": "How does Gor'mul react to the amulet?"
   },
   {
@@ -67,7 +67,7 @@
     "can the horde be restored",
     "gormul horde glory"
    ],
-   "answer": "Gor'mul openly doubts whether the Horde can ever reclaim its former glory, seeing little hope when foul treachery can strike down even the greatest heroes.",
+   "answer": "Gor'mul doubts the Horde can reclaim its former glory, seeing little hope when treachery can strike down even the greatest heroes.",
    "q": "What does Gor'mul say about the Horde?"
   }
  ],
@@ -86,18 +86,19 @@
  ],
  "sections": [
   {
-   "body": "Raising Spirits involves delivering a Raptor Talon Amulet to an orc named Gor'mul. His allies hope that the wild strength and ferocity of raptors, channeled through the talisman, will reawaken the warrior's flame that once burned fiercely within his veins.",
+   "body": "An emissary brings Gor'mul a Raptor Talon Amulet, hoping its power will reach him. The talisman channels the wild strength and ferocity of raptors. It is meant to rekindle the flame that once burned fiercely within the orc warrior.",
    "spoiler": 0,
    "title": "A Spark for a Fallen Flame"
   },
   {
-   "body": "Upon receiving the talisman, Gor'mul offers only bitter grief. Tormented by the memory of the mightiest champions being struck down by cowardly hands, he rejects the token as mere polished bone, questioning how any trinket could restore the Horde to its former glory.",
+   "body": "Gor'mul answers the gift with bitter grief. He remembers the mightiest champions struck down by cowardly hands and rejects the talisman as polished bone. He doubts any trinket can restore the Horde to its former glory.",
    "spoiler": 1,
    "title": "Bitterness and Despair"
   }
  ],
- "summary": "Raising Spirits is a Horde quest aimed at rekindling the fighting will of Gor'mul, a broken warrior consumed by despair. An emissary delivers a Raptor Talon Amulet in hopes of awakening the fierce spirit he once possessed. However, Gor'mul remains bitter, questioning whether any simple trinket could ever mend his sorrow or restore glory to the Horde.",
+ "summary": "A Horde emissary hopes Raising Spirits will help Gor'mul find his fighting spirit again. The Raptor Talon Amulet is meant to rekindle it, but Gor'mul remains bitter and doubts any trinket can restore the Horde's former glory.",
  "attribution": [
   "In-game quest text: Raising Spirits"
- ]
+ ],
+ "style": 2
 }

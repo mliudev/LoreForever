@@ -17,16 +17,16 @@
   "wiki": "The Relics of Wakening",
   "chain": []
  },
- "summary": "At Ban'ethil Barrow Den, an urgent effort is underway to save the sleeping Druids of the Talon. Corrupted Gnarlpine furbolgs have overrun the sacred mounds, threatening the druids whose spirits wander the Emerald Dream. Four ritual relics are needed to bring the sleepers safely back to the waking world.",
+ "summary": "At Ban'ethil Barrow Den, danger closes around the sleeping Druids of the Talon. Corrupted Gnarlpine furbolgs have overrun the sacred mounds, while the druids' spirits wander the Emerald Dream. Four ritual relics are needed to bring the sleepers safely back to the waking world.",
  "sections": [
   {
    "title": "A Sanctum Defiled",
-   "body": "West of Dolanaar, a swarm of corrupted Gnarlpine furbolgs has overrun the winding corridors of Ban'ethil Barrow Den. Barrow dens are secluded sanctuaries where night elf druids hibernate while their spirits walk the Emerald Dream. A foul taint spreading across Teldrassil has driven these former allies mad. They have desecrated the sanctum, leaving the sleepers unaware that danger threatens their physical bodies.",
+   "body": "West of Dolanaar, corrupted Gnarlpine furbolgs have overrun the winding corridors of Ban'ethil Barrow Den. Barrow dens are secluded sanctuaries where night elf druids hibernate while their spirits walk the Emerald Dream. A foul taint spreading across Teldrassil has driven these former allies mad. The furbolgs have desecrated the sanctum, while the sleepers remain unaware that danger threatens their bodies.",
    "spoiler": 0
   },
   {
    "title": "The Tools of Return",
-   "body": "Athridas Bearmantle needs four sacred relics for the delicate ceremony that can safely awaken the Druids of the Talon. A druid's spirit needs an anchor when returning from the Dream; without one, a sudden awakening can shatter the mind or strand the spirit. The relics lie in chests across the den: the Raven Claw Talisman, the Black Feather Quill, the Sapphire of Sky, and the Rune of Nesting. They are the sleepers' only hope before the Gnarlpine butcher or abduct them.",
+   "body": "Athridas Bearmantle needs four sacred relics for the delicate ceremony that can safely awaken the Druids of the Talon. A druid's spirit needs an anchor when returning from the Dream. Without one, sudden awakening can shatter the mind or strand the spirit. The relics lie in chests across the den: the Raven Claw Talisman, the Black Feather Quill, the Sapphire of Sky, and the Rune of Nesting. They are the sleepers' only hope before the Gnarlpine butcher or abduct them.",
    "spoiler": 0
   }
  ],
@@ -121,5 +121,5 @@
  "attribution": [
   "The Relics of Wakening"
  ],
- "style": 1
+ "style": 2
 }

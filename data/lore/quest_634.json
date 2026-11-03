@@ -22,16 +22,16 @@
    "Plea To The Alliance"
   ]
  },
- "summary": "At the shattered Thandol Span, Plea To The Alliance carries a desperate call for aid from Dun Modr's dwarven survivors. Dark Iron infiltrators slaughtered the garrison, and the dwarves appeal to the human forces at Refuge Pointe, though the Alliance is stretched thin.",
+ "summary": "At the shattered Thandol Span, Plea To The Alliance carries Dun Modr's desperate call for aid. Dark Iron infiltrators slaughtered the garrison, and its dwarven survivors appeal to human forces at Refuge Pointe, though the Alliance is stretched thin.",
  "sections": [
   {
    "title": "A Cry Across the Chasm",
-   "body": "Dun Modr lies devastated, and Dark Iron dwarves have sabotaged the Thandol Span. The survivors hold a precarious foothold at the Wetlands' northern rim. Ironforge's main reserves have yet to arrive, so Rhag Garmason and Longbraid the Grim look north to the Arathi Highlands. They learn that Alliance forces have made camp at Refuge Pointe. Garmason sends an emissary across the shattered bridge to ask Captain Nials for urgent military aid.",
+   "body": "Dun Modr lies in ruins, and Dark Iron dwarves have sabotaged the Thandol Span. The survivors cling to a foothold on the Wetlands' northern rim. Ironforge's main reserves have not arrived, so Rhag Garmason and Longbraid the Grim look north to the Arathi Highlands. There they learn that Alliance forces have camped at Refuge Pointe. Garmason sends an emissary across the shattered bridge to ask Captain Nials for urgent military aid.",
    "spoiler": 0
   },
   {
    "title": "The Plight of Stromgarde",
-   "body": "At Refuge Pointe, Captain Nials offers sympathy to Longbraid's soldiers, but cannot spare a single fighter. Stromgarde has fallen into ruin, overrun by Syndicate rogues, Boulderfist ogres, and Witherbark trolls. Its surviving defenders are committed to reclaiming their ancestral capital. Bound by honor and pressed by their own desperate struggle, Nials sends word that the dwarves at the Span must stand alone.",
+   "body": "At Refuge Pointe, Captain Nials offers sympathy to Longbraid's soldiers but cannot spare a single fighter. Stromgarde has fallen into ruin, overrun by Syndicate rogues, Boulderfist ogres and Witherbark trolls. Its surviving defenders are committed to reclaiming their ancestral capital. Bound by honor and pressed by their own desperate struggle, Nials sends word that the dwarves at the Span must stand alone.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "rhag garmason quest",
     "who asks for help"
    ],
-   "answer": "Rhag Garmason, near the ruined bridgehead of the Thandol Span on the Wetlands border, sends the plea for Longbraid the Grim and Dun Modr's remaining defenders."
+   "answer": "Near the ruined bridgehead of the Thandol Span on the Wetlands border, Rhag Garmason sends the plea for Longbraid the Grim and Dun Modr's remaining defenders."
   },
   {
    "q": "Why do the dwarves need help from Refuge Pointe?",
@@ -52,7 +52,7 @@
     "why ask refuge pointe",
     "dun modr reinforcements"
    ],
-   "answer": "Dark Iron clan infiltrators attacked Dun Modr and sabotaged the Thandol Span. While the survivors await Ironforge's heavy reserves, they lack the numbers to retake their settlement and secure the crossing alone."
+   "answer": "Dark Iron clan infiltrators attacked Dun Modr and sabotaged the Thandol Span. While they await Ironforge's heavy reserves, the survivors lack the numbers to retake their settlement and secure the crossing alone."
   },
   {
    "q": "Why does Captain Nials refuse to send soldiers?",
@@ -61,7 +61,7 @@
     "why refuge pointe refuses",
     "captain nials answer"
    ],
-   "answer": "Captain Nials cannot spare troops because Stromgarde has collapsed into ruins. The human forces at Refuge Pointe are committed to reclaiming Stromgarde from the Syndicate, ogres, and forest trolls."
+   "answer": "Captain Nials cannot spare troops because Stromgarde has collapsed into ruins. The human forces at Refuge Pointe are committed to reclaiming it from the Syndicate, ogres and forest trolls."
   },
   {
    "q": "Where is Refuge Pointe located?",
@@ -79,7 +79,7 @@
     "what happened dun modr",
     "who attacked dun modr"
    ],
-   "answer": "The Dark Iron clan overwhelmed and sacked Dun Modr after infiltrating through the mountains to sever the land route between the southern dwarven lands and the northern Alliance territories."
+   "answer": "After infiltrating through the mountains to sever the land route between the southern dwarven lands and the northern Alliance territories, the Dark Iron clan overwhelmed and sacked Dun Modr."
   },
   {
    "q": "What happens after Captain Nials turns down the request?",
@@ -88,13 +88,13 @@
     "next quest after plea",
     "chain continuation"
    ],
-   "answer": "Captain Nials sends his regrets to Longbraid the Grim and confirms that no human reinforcements are coming. The dwarven survivors at the bridge must rely on their own wits, wandering adventurers, and distant Ironforge reinforcements."
+   "answer": "Captain Nials sends his regrets to Longbraid the Grim and confirms that no human reinforcements are coming. The dwarven survivors at the bridge must rely on their own wits, wandering adventurers and distant Ironforge reinforcements."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, Dun Modr's isolation is painful: even longtime human allies are too besieged to lend a hand."
+   "text": "For dwarves, Dun Modr's isolation hurts. Even longtime human allies are too besieged to lend a hand."
   },
   {
    "target": "race:Human",
@@ -102,7 +102,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, this exchange shows how fractured its northern Eastern Kingdoms remain, with local garrisons fighting separate, desperate battles without shared reserves."
+   "text": "For the Alliance, this exchange shows how divided its northern Eastern Kingdoms remain. Local garrisons fight separate, desperate battles without shared reserves."
   }
  ],
  "keywords": [
@@ -129,5 +129,5 @@
  "attribution": [
   "Plea To The Alliance"
  ],
- "style": 1
+ "style": 2
 }

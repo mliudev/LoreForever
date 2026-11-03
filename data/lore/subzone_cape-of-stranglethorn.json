@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Cape of Stranglethorn"
  },
- "summary": "The Cape of Stranglethorn forms the sun-baked southern tip of Stranglethorn Vale, stretching south from the Gurubashi Arena down to the ocean cliffs. Anchored by the sprawling pirate port of Booty Bay, the region is a battleground contested by goblins, Bloodsail Buccaneers, ancient jungle trolls, and encroaching wildlife.",
+ "summary": "Booty Bay holds fast as rival crews contest the Cape of Stranglethorn. From Gurubashi Arena to the ocean cliffs, goblins, Bloodsail Buccaneers, ancient jungle trolls, and wildlife struggle for control.",
  "sections": [
   {
    "title": "Edge of the Continent",
-   "body": "South of the ancient colosseum of Gurubashi Arena, the dense jungle gives way to the coastline known as the Cape of Stranglethorn. Dotted with crumbling troll settlements like the Ruins of Jubuwal and the Ruins of Aboraz, the cape has long since slipped from imperial Gurubashi control. Today, its beaches, coves, and jungle clearings host a chaotic mix of dangerous predators, murloc encampments, and rival pirate crews warring over trade routes and buried plunder.",
+   "body": "South of Gurubashi Arena, dense jungle reaches the coast. The Ruins of Jubuwal and the Ruins of Aboraz mark ground the Gurubashi Empire no longer holds. Now predators, murloc encampments, and rival pirate crews fill the beaches, coves, and clearings. They fight over trade routes and buried plunder.",
    "spoiler": 0
   },
   {
    "title": "Booty Bay and the Buccaneer War",
-   "body": "The dominant power along the cape is the Blackwater Raiders, led by Baron Revilgaz and Fleet Master Seahorn from the pirate city of Booty Bay. Carved directly into the cliffs of the southern bay, this neutral harbor connects the Eastern Kingdoms to Kalimdor via steamships to Ratchet. However, goblin control remains precarious. The Bloodsail Buccaneers operate along the southern shoals and outer islands, raiding supply lines and openly scheming to overthrow Booty Bay and seize total dominion over the South Seas.",
+   "body": "The Blackwater Raiders hold the cape’s greatest power. Baron Revilgaz and Fleet Master Seahorn lead them from Booty Bay, a neutral harbor carved into the southern bay’s cliffs. Steamships link the Eastern Kingdoms to Kalimdor through Ratchet.\n\nYet goblin control remains precarious. Along the southern shoals and outer islands, the Bloodsail Buccaneers raid supply lines and plot to overthrow Booty Bay and seize the South Seas.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "stranglethorn geography",
     "where is the cape"
    ],
-   "answer": "The Cape of Stranglethorn specifically refers to the southern portion of the larger Stranglethorn Vale, encompassing the land and coasts south of the Gurubashi Arena down to Booty Bay."
+   "answer": "The Cape of Stranglethorn is the southern part of the larger Stranglethorn Vale. It runs from south of Gurubashi Arena to Booty Bay and the coast."
   },
   {
    "q": "Who rules the Cape of Stranglethorn?",
@@ -37,7 +37,7 @@
     "cape ruler",
     "who controls the cape"
    ],
-   "answer": "No single authority controls the entire cape. Booty Bay and its surrounding waters are governed by Baron Revilgaz and the goblin-backed Blackwater Raiders, while the Bloodsail Buccaneers, naga, and troll remnants control various beaches and interior ruins."
+   "answer": "No single power controls the entire cape. Baron Revilgaz and the goblin-backed Blackwater Raiders govern Booty Bay and nearby waters. Bloodsail Buccaneers, naga, and troll remnants hold beaches and interior ruins."
   },
   {
    "q": "Can Horde and Alliance both use Booty Bay?",
@@ -46,7 +46,7 @@
     "alliance horde booty bay",
     "can horde enter booty bay"
    ],
-   "answer": "Yes. Booty Bay is an open, neutral port maintained by the Steamwheedle Cartel. So long as travelers keep their weapons sheathed and maintain peace within the city limits, both Alliance and Horde adventurers may access its docks, vendors, flight master, and auction house."
+   "answer": "Yes. Booty Bay is an open, neutral port maintained by the Steamwheedle Cartel. Keep your weapons sheathed and the peace within city limits, and both Alliance and Horde travelers can use its docks, vendors, flight master, and auction house."
   },
   {
    "q": "What is the Gurubashi Arena?",
@@ -55,7 +55,7 @@
     "arena rules",
     "pvp arena stranglethorn"
    ],
-   "answer": "The Gurubashi Arena is an ancient troll fighting pit near the northern edge of the cape, where combatants gather to test themselves."
+   "answer": "The Gurubashi Arena is an ancient troll fighting pit near the cape’s northern edge. Combatants gather there to test themselves."
   },
   {
    "q": "How do travelers get between the Cape and Kalimdor?",
@@ -64,17 +64,17 @@
     "kalimdor transport",
     "booty bay boat"
    ],
-   "answer": "A goblin-operated steamship regularly runs between the docks of Booty Bay and the port town of Ratchet in the Barrens, providing one of the few trans-oceanic passenger links across the South Seas."
+   "answer": "A goblin-operated steamship regularly sails from Booty Bay to Ratchet, the port town in the Barrens. It is one of the few passenger links across the South Seas."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "The cape is a haven for privateers, scoundrels, and cutthroats, offering endless opportunities to pick pockets, run coastal contraband, or play the Blackwater Raiders against the Bloodsail Buccaneers."
+   "text": "As a rogue, you can find privateers, scoundrels, and cutthroats across the cape. Pick pockets, run coastal contraband, or play the Blackwater Raiders against the Bloodsail Buccaneers."
   },
   {
    "target": "profession:Cooking",
-   "text": "The surrounding South Seas and coastal waters provide valuable fishing grounds and rare recipes sold exclusively by the fishmongers and harbor cooks of Booty Bay."
+   "text": "As a cook, you can fish the rich waters of the South Seas and coast. Booty Bay’s fishmongers and harbor cooks sell rare recipes."
   }
  ],
  "keywords": [
@@ -99,5 +99,6 @@
  ],
  "attribution": [
   "Cape of Stranglethorn"
- ]
+ ],
+ "style": 2
 }

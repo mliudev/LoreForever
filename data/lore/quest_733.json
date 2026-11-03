@@ -24,16 +24,16 @@
   ],
   "category": "Badlands"
  },
- "summary": "Sigrun Ironhew needs materials to build defenses and other necessities for the camp, and has noticed the ogres nearby carry plenty of scrap metal. Sigrun wants seven pieces of it.",
+ "summary": "At Sigrun Ironhew's camp, defenses and supplies wait on scrap metal. She needs seven pieces, and nearby ogres carry plenty.",
  "sections": [
   {
    "title": "A Camp Short of Materials",
-   "body": "Sigrun finds it hard going without materials for defenses and other necessities, and the Prospector has been worrying about the state of the little camp. Sigrun wants to get to work soon, and needs scrap metal to do it.",
+   "body": "Sigrun Ironhew needs materials for the camp's defenses and other needs. The Prospector worries about the camp's condition, so Sigrun wants to begin work soon. Scrap metal is what she lacks.",
    "spoiler": 0
   },
   {
    "title": "The Ogres' Scrap",
-   "body": "The ogres in the area seem well supplied with scrap metal, which makes Sigrun think the talk of siege engines in the Badlands may have had something to it. Their main camp is Dustbelch Grotto, a long trek west of Sigrun's camp.",
+   "body": "Nearby ogres carry scrap metal, adding weight to talk of siege engines in the Badlands. Their main camp, Dustbelch Grotto, lies a long trek west of Sigrun's camp.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "who gives scrounging",
     "sigrun"
    ],
-   "answer": "Sigrun Ironhew, who wants it to build defenses and other necessities for the camp."
+   "answer": "Sigrun Ironhew needs scrap metal to build defenses and supply the camp."
   },
   {
    "q": "Why does the camp need scrap metal?",
@@ -54,7 +54,7 @@
     "purpose of scrap metal",
     "defenses"
    ],
-   "answer": "Sigrun lacks the materials to build defenses and other necessities, and the Prospector has been worrying about the state of the camp."
+   "answer": "The camp lacks materials for defenses and other needs. The Prospector worries about its condition."
   },
   {
    "q": "Where can the scrap metal be found?",
@@ -63,7 +63,7 @@
     "where to get scrap metal",
     "ogre camp"
    ],
-   "answer": "The ogres in the area carry it. Their main camp is Dustbelch Grotto, a long trek west of Sigrun's camp."
+   "answer": "Nearby ogres carry scrap metal. Their main camp, Dustbelch Grotto, lies a long trek west of Sigrun's camp."
   },
   {
    "q": "What comes before this?",
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "Scrounging"
- ]
+ ],
+ "style": 2
 }

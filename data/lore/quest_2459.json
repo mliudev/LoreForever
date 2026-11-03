@@ -20,16 +20,16 @@
    "Ferocitas the Dream Eater (quest)"
   ]
  },
- "summary": "Tallonkai Swiftroot in Dolanaar sends you after a stolen emerald in northern Teldrassil. The jewel was pried from his damaged heirloom dreamcatcher by Gnarlpine furbolgs north of Starbreeze Village, and now hangs from their leader, Ferocitas the Dream Eater.",
+ "summary": "In Dolanaar, Tallonkai Swiftroot sends you north to recover an emerald stolen by Gnarlpine furbolgs. Their leader, Ferocitas the Dream Eater, wears it around his neck.",
  "sections": [
   {
    "title": "A Defiled Heirloom",
-   "body": "Tallonkai Swiftroot felt relief when the dreamcatcher recovered from the corrupted wilds came back to him, then dismay at its ruined state. The sacred artifact had been vandalized, its emerald centerpiece pried from the woven frame. Night elves spoke of Gnarlpine mystics north of Starbreeze Village, fallen under the influence of a furbolg leader named Ferocitas the Dream Eater. He wore a brilliant green stone around his neck. In Ferocitas's clutches, the sacred gem was useless and perverse, so Tallonkai sent defenders to take it back.",
+   "body": "Tallonkai Swiftroot was relieved when his dreamcatcher returned from the corrupted wilds. Then he saw its ruined state. The sacred artifact had been vandalized, and its emerald centerpiece pried from the woven frame.\n\nNight elves spoke of Gnarlpine mystics north of Starbreeze Village, fallen under the sway of their leader, Ferocitas the Dream Eater. He wore a brilliant green stone around his neck. The gem was useless and perverse in Ferocitas's clutches, so Tallonkai sent defenders to reclaim it.",
    "spoiler": 0
   },
   {
    "title": "Purging the Mystics",
-   "body": "The Gnarlpine furbolgs in Teldrassil's northern reaches were once peaceful neighbors. Corruption seeping into the World Tree drove them into frenzy and madness. Their mystics once practiced harmonious nature rites, but began drawing on distorted magical energies. Travelers can track down Ferocitas by cutting through the mystics guarding his woodland enclave. The jewel can then be returned to Tallonkai, so his dreamcatcher may be made whole and balance restored to the woods.",
+   "body": "The Gnarlpine furbolgs in northern Teldrassil were once peaceful neighbors. Corruption from the World Tree drove them into frenzy and madness. Their mystics once practiced harmonious nature rites, but now draw on distorted magical energies. You can reach Ferocitas by cutting through the mystics guarding his woodland enclave. Return the jewel to Tallonkai, so he can make his dreamcatcher whole and restore balance to the woods.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "where is ferocitas",
     "find dream eater"
    ],
-   "answer": "Ferocitas the Dream Eater is in the forest north of Starbreeze Village on Teldrassil, among corrupted Gnarlpine mystics and other woodland hazards."
+   "answer": "Ferocitas the Dream Eater waits in the forest north of Starbreeze Village on Teldrassil, among corrupted Gnarlpine mystics and other woodland hazards."
   },
   {
    "q": "Who is Ferocitas?",
@@ -50,7 +50,7 @@
     "ferocitas lore",
     "what is dream eater"
    ],
-   "answer": "Ferocitas is a Gnarlpine furbolg leader who commands corrupted mystics north of Starbreeze Village. He took the emerald from Tallonkai Swiftroot's dreamcatcher and made it into a crude necklace."
+   "answer": "Ferocitas leads the Gnarlpine furbolgs and commands corrupted mystics north of Starbreeze Village. He took the emerald from Tallonkai Swiftroot's dreamcatcher and made it into a crude necklace."
   },
   {
    "q": "Why does Tallonkai Swiftroot want the jewel back?",
@@ -58,7 +58,7 @@
     "why tallonkai wants jewel",
     "tallonkai jewel purpose"
    ],
-   "answer": "The emerald is the core power source of Tallonkai's dreamcatcher. Without it, the talisman cannot be repaired or channel the Emerald Dream's protective energies."
+   "answer": "Tallonkai Swiftroot wants the emerald back because it is the core power source of his dreamcatcher. Without it, the talisman cannot be repaired or channel the Emerald Dream's protective energies."
   },
   {
    "q": "Can the Gnarlpine actually use the emerald's magic?",
@@ -66,7 +66,7 @@
     "can gnarlpine use dreamcatcher",
     "does ferocitas use emerald"
    ],
-   "answer": "No. Tallonkai Swiftroot says the emerald's magic is useless to Ferocitas and the Gnarlpine mystics, who coveted it only as a glowing bauble."
+   "answer": "No. Tallonkai Swiftroot says the emerald's magic is useless to Ferocitas and the Gnarlpine mystics. They coveted it only as a glowing bauble."
   },
   {
    "q": "What happens after this quest?",
@@ -74,7 +74,7 @@
     "quest after ferocitas",
     "next quest dreamcatcher"
    ],
-   "answer": "This is the final chapter of the two-part chain that began with The Emerald Dreamcatcher. Once you deliver the jewel to Tallonkai in Dolanaar, he can repair his heirloom."
+   "answer": "This is the final chapter of a two-part chain that began with The Emerald Dreamcatcher. Deliver the jewel to Tallonkai in Dolanaar, and he can repair his heirloom."
   },
   {
    "q": "Why are the Gnarlpine mystics hostile?",
@@ -82,13 +82,13 @@
     "why are furbolgs mad",
     "gnarlpine corruption"
    ],
-   "answer": "A strange corruption warping the boughs of the newly planted World Tree has affected much of Teldrassil's wildlife and furbolg tribes. It has twisted the Gnarlpine's minds and made them aggressive."
+   "answer": "A strange corruption in the boughs of the newly planted World Tree has affected much of Teldrassil's wildlife and furbolg tribes. It twisted the Gnarlpine's minds and made them aggressive."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf defending Teldrassil, you see a tragedy in the corruption of the Gnarlpine mystics and their theft of sacred talismans. The Gnarlpine were once allies of the Kaldorei."
+   "text": "As a night elf defending Teldrassil, you see the tragedy in the Gnarlpine mystics' corruption and theft of sacred talismans. The Gnarlpine were once allies of the Kaldorei."
   },
   {
    "target": "class:Druid",
@@ -116,5 +116,5 @@
  "attribution": [
   "Ferocitas the Dream Eater (quest)"
  ],
- "style": 1
+ "style": 2
 }

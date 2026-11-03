@@ -25,11 +25,11 @@
   ],
   "category": "Feralas"
  },
- "summary": "Rok Orhan at Camp Mojache, satisfied that you are a true fighter, sends you on to the High Wilderness, southwest of the camp. Among ruined structures once held by the night elves, Gordunni ogres far tougher than before are to be pushed back. This follows The Ogres of Feralas.",
+ "summary": "In Feralas, Rok Orhan sends you southwest of Camp Mojache to drive back the Gordunni ogres. You have proved yourself a true fighter, and he trusts you with this work in the High Wilderness.",
  "sections": [
   {
    "title": "Into the High Wilderness",
-   "body": "Rok Orhan judges that you have proven yourself a true fighter, and trusts you with the next part of the work. The High Wilderness lies southwest of the camp, where abandoned, wrecked structures stand on ground the night elves once owned. Withered trees and desecrated ground show where the Gordunni are. Rok warns that these ogres are far tougher than the earlier ones. Ten Gordunni Shamans, ten Gordunni Warlocks and five Gordunni Maulers are to fall.",
+   "body": "Rok Orhan trusts you with this work because you have proved yourself a true fighter. Southwest of Camp Mojache, the High Wilderness holds abandoned, wrecked structures on ground the night elves once owned.\n\nWithered trees and desecrated ground mark the Gordunni's territory. Rok warns that these ogres are far tougher than the earlier ones. Ten Gordunni Shamans, ten Gordunni Warlocks and five Gordunni Maulers are to fall.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "rok orhan",
     "who starts this"
    ],
-   "answer": "Rok Orhan at Camp Mojache."
+   "answer": "Rok Orhan sends you from Camp Mojache."
   },
   {
    "q": "Where are these Gordunni?",
@@ -50,7 +50,7 @@
     "high wilderness location",
     "ruins location"
    ],
-   "answer": "In the High Wilderness, southwest of Camp Mojache, around wrecked structures on ground the night elves once owned. Withered trees and desecrated ground mark the spot."
+   "answer": "The Gordunni are in the High Wilderness, southwest of Camp Mojache, around wrecked structures on ground the night elves once owned. Withered trees and desecrated ground mark the spot."
   },
   {
    "q": "Which ogres must be killed?",
@@ -59,7 +59,7 @@
     "ogre targets",
     "gordunni types"
    ],
-   "answer": "Ten Gordunni Shamans, ten Gordunni Warlocks and five Gordunni Maulers."
+   "answer": "Ten Gordunni Shamans, ten Gordunni Warlocks and five Gordunni Maulers must fall."
   },
   {
    "q": "What comes before this step?",
@@ -68,7 +68,7 @@
     "previous quest",
     "chain order"
    ],
-   "answer": "The first The Ogres of Feralas, in which Rok Orhan sent you against the ogres at their outpost to the north."
+   "answer": "Before this step, Rok Orhan sent you against the ogres at their outpost to the north."
   }
  ],
  "angles": [],
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "The Ogres of Feralas (2)"
- ]
+ ],
+ "style": 2
 }

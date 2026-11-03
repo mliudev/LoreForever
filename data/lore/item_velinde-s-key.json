@@ -10,16 +10,16 @@
    "quest:1038"
   ]
  },
- "summary": "In Darnassus, Velinde's Key guards the writings of a vanished priestess. Thyn'tel Bladeweaver entrusts it to those who bring proof of their interest in Velinde Starsong's fate.",
+ "summary": "In Darnassus, Thyn'tel Bladeweaver keeps Velinde's Key for those who seek the vanished priestess's fate. It guards her writings and belongings.",
  "sections": [
   {
    "title": "A Trusted Token",
-   "body": "Thyn'tel Bladeweaver keeps Velinde's Key in Darnassus. The simple key secures Priestess Velinde Starsong's personal belongings in a footlocker in the Sentinel bunkhouse above the Tradesmen's Terrace. Velinde left night elf lands without warning, and her possessions were set aside. Bladeweaver gives the key only to those who bring genuine evidence of their interest in learning her fate, such as revelations found in the Tome of Mel'Thandris.",
+   "body": "Thyn'tel Bladeweaver keeps Velinde's Key in Darnassus. The simple key opens a footlocker holding Priestess Velinde Starsong's personal belongings. It rests in the Sentinel bunkhouse above the Tradesmen's Terrace. Velinde left night elf lands without warning, so her possessions were set aside. Bladeweaver lends the key only to those who bring genuine proof of their interest in her fate, such as revelations from the Tome of Mel'Thandris.",
    "spoiler": 0
   },
   {
    "title": "Unlocking the Past",
-   "body": "Velinde Starsong's key opens her storage chest, where her journal records her duties and troubled thoughts. The Sentinels long believed she had left for personal matters and would someday return. Her writings begin to reveal a darker, more perplexing mystery around the expedition that took her away.",
+   "body": "Velinde Starsong's key opens her storage chest, where her journal records her duties and troubled thoughts. The Sentinels long believed she left for personal matters and would someday return. Her writings begin to uncover a darker mystery around the expedition that took her away.",
    "spoiler": 1
   }
  ],
@@ -39,7 +39,7 @@
     "who has velindes key",
     "where to get velinde key"
    ],
-   "answer": "Thyn'tel Bladeweaver, a Sentinel stationed in Darnassus, entrusts you with the key during the investigation into Velinde's disappearance."
+   "answer": "Thyn'tel Bladeweaver, a Sentinel in Darnassus, entrusts you with the key as you investigate Velinde's disappearance."
   },
   {
    "q": "Who is Velinde Starsong?",
@@ -47,7 +47,7 @@
     "who is velinde",
     "velinde backstory"
    ],
-   "answer": "Velinde Starsong was a respected night elf priestess trusted by the Sentinels. She left suddenly on her own business, leaving her belongings behind in Darnassus."
+   "answer": "Velinde Starsong was a respected night elf priestess trusted by the Sentinels. She left suddenly on her own business and left her belongings behind in Darnassus."
   },
   {
    "q": "What is found inside her locked chest?",
@@ -89,5 +89,5 @@
   "Velinde's Key",
   "Velinde's Effects"
  ],
- "style": 1
+ "style": 2
 }

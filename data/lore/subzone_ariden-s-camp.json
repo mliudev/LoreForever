@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Ariden's Camp"
  },
- "summary": "Ariden's Camp is an abandoned encampment nestled just north of the path threading through Deadwind Pass. Left decaying in the shadow of Karazhan, it stands as an eerie, quiet anomaly amidst the desolate canyon winds. Travelers between Duskwood and the Swamp of Sorrows often pass it with unease, wondering who once pitched a tent here.",
+ "summary": "In Deadwind Pass, Ariden's Camp lies abandoned north of the road from Duskwood to the Swamp of Sorrows. Travelers pass beneath Karazhan's shadow and wonder who pitched a tent there.",
  "sections": [
   {
    "title": "A Silent Encampment",
-   "body": "Tucked against the crags north of the gorge road connecting Duskwood to the Swamp of Sorrows, this dilapidated campsite looks like an ordinary transient stop long forsaken by living men. Yet in the oppressive gloom of Deadwind Pass, nothing remains unmarred by dark sorcery. Whoever named the camp Ariden's and whatever fortune its owner sought in Karazhan's orbit, the pass's lingering horrors swallowed it, leaving only weathered cloth, cold ashes, and an enduring mystery.",
+   "body": "North of the road from Duskwood to the Swamp of Sorrows, weathered cloth and cold ashes mark Ariden's Camp. It may once have been an ordinary stop, long abandoned by living men.\n\nDark sorcery has left its mark across Deadwind Pass. No one knows who named the camp for Ariden or what fortune its owner sought near Karazhan. The pass's lingering horrors have swallowed the answer.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is ariden camp",
     "deadwind pass camp"
    ],
-   "answer": "Ariden's Camp is located in Deadwind Pass, situated just north of the main road that links Duskwood in the west to the Swamp of Sorrows in the east, not far from Karazhan."
+   "answer": "Ariden's Camp lies in Deadwind Pass, just north of the main road from Duskwood in the west to the Swamp of Sorrows in the east. It is not far from Karazhan."
   },
   {
    "q": "Are there any active threats at the camp right now?",
@@ -31,17 +31,17 @@
     "is aridens camp dangerous",
     "mobs at aridens camp"
    ],
-   "answer": "The immediate clearing of the camp is quiet and eerily still, though Deadwind Pass itself is prowled by deadly deadwind ogres, spectral apparitions, and the foul winged beasts that roost near Karazhan."
+   "answer": "The camp's clearing is quiet and still. Deadwind ogres, spectral apparitions, and foul winged beasts that roost near Karazhan prowl the pass around it."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "For scholars of the arcane, the deserted camp is an unsettling reminder of how close Karazhan looms; few who linger near Medivh's tower stay long."
+   "text": "As a mage, you may find the deserted camp unsettling so near Karazhan. Few who linger near Medivh's tower stay long."
   },
   {
    "target": "class:Rogue",
-   "text": "Someone set up camp beneath the most terrifying spire in the Eastern Kingdoms and never came back for their things. Either extraordinarily ambitious or remarkably foolish."
+   "text": "As a rogue, you can see that someone made camp beneath a terrifying spire and never returned for their things. The choice seems either ambitious or foolish."
   }
  ],
  "keywords": [
@@ -62,5 +62,6 @@
  ],
  "attribution": [
   "Ariden's Camp"
- ]
+ ],
+ "style": 2
 }

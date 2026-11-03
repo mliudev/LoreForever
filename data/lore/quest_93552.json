@@ -17,16 +17,16 @@
   "wiki": "Harvesting Windstones",
   "chain": []
  },
- "summary": "Harvesting Windstones is a task offered by Dalia the Collector in Thendal Grove on Zephras Isle. As the ancient elemental energies sustaining the island slowly fade, raw windstones have become an essential magical fuel source. Adventurers are sent across the grove to harvest crystalline windstone clusters before their power is lost.",
+ "summary": "At Thendal Grove, Dalia the Collector asks you to gather raw windstones before their power fades. The ancient elemental energies of Zephras Isle are slowly dwindling.",
  "sections": [
   {
    "title": "A Fading Island",
-   "body": "Zephras Isle relies heavily on lingering wind magic to sustain itself, but its natural defenses are dwindling. Centuries ago, the native wind elementals who shared the island with the local elves vanished entirely. Since their departure, the ambient magic upholding the land and the great anchor pylons has been in a slow, steady decline. For the residents of Thendal Grove, surviving this depletion requires securing every possible reserve of raw energy.",
+   "body": "Zephras Isle still draws on wind magic, but its natural defenses are failing. Centuries ago, the wind elementals who shared the island with its elves vanished. Since then, the magic that sustains the land and its great anchor pylons has weakened. So Thendal Grove’s residents need every reserve of raw energy they can secure.",
    "spoiler": 0
   },
   {
    "title": "The Value of Windstones",
-   "body": "Windstones are vibrant blue crystalline formations scattered naturally throughout Thendal Grove. Within their brittle shells lies dense, concentrated wind magic left behind from ages past. While not an endless solution, they provide a reliable and invaluable source of arcane sustenance and utility for the island's elves, making the collection of raw clusters a vital daily endeavor.",
+   "body": "Blue crystalline windstones lie scattered through Thendal Grove. Their brittle shells hold dense wind magic from ages past. They cannot sustain the island forever, yet they give its elves a dependable source of arcane power. Gathering raw clusters remains vital to daily life.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "windstone cluster",
     "blue crystals"
    ],
-   "answer": "Windstones are blue crystalline deposits found around Thendal Grove that contain concentrated, raw wind energy. The elves of Zephras Isle harvest them as an essential magical fuel source."
+   "answer": "Windstones are blue crystalline deposits scattered around Thendal Grove. They hold concentrated raw wind energy, which the elves of Zephras Isle gather as magical fuel."
   },
   {
    "q": "Who is Dalia the Collector?",
@@ -47,7 +47,7 @@
     "dalia zephras",
     "collector dalia"
    ],
-   "answer": "Dalia is an elven collector stationed in Thendal Grove on Zephras Isle. She organizes the gathering of vital raw resources, particularly windstones, to help support the island's dwindling magical reserves."
+   "answer": "Dalia the Collector is an elven collector stationed in Thendal Grove on Zephras Isle. She organizes the gathering of vital raw resources, especially windstones, to support the island’s dwindling magical reserves."
   },
   {
    "q": "Why is the magic on Zephras Isle fading?",
@@ -56,7 +56,7 @@
     "fading magic zephras",
     "anchor pylons"
    ],
-   "answer": "Centuries ago, the wind elementals that lived alongside the local elves vanished. Without their ongoing presence, the enchantment imbued into the island by the great anchor pylons has been slowly draining away."
+   "answer": "Centuries ago, the wind elementals who lived alongside the local elves vanished. Since then, the great anchor pylons’ magic, which sustains the island, has slowly drained away."
   },
   {
    "q": "Where did the wind elementals go?",
@@ -65,7 +65,7 @@
     "where are wind elementals",
     "elementals vanished"
    ],
-   "answer": "Their exact fate remains a mystery. All that is known is that they vanished several centuries ago, leaving the island to slowly exhaust its remaining elemental reserves."
+   "answer": "No one knows where the wind elementals went. They vanished several centuries ago, leaving the island to slowly exhaust its remaining elemental reserves."
   },
   {
    "q": "What are the anchor pylons?",
@@ -73,7 +73,7 @@
     "great anchor pylons",
     "anchor pylon lore"
    ],
-   "answer": "The great anchor pylons are ancient structures on Zephras Isle imbued with powerful magic to sustain the land. With the elementals gone, their sustaining energies are gradually weakening."
+   "answer": "The great anchor pylons are ancient structures on Zephras Isle, imbued with powerful magic that sustains the land. Since the elementals vanished, that sustaining power has gradually weakened."
   },
   {
    "q": "Where do you find raw windstones?",
@@ -81,17 +81,17 @@
     "windstone location",
     "thendal grove crystals"
    ],
-   "answer": "Raw windstones can be found scattered across the landscape throughout Thendal Grove on Zephras Isle, appearing as glowing blue crystalline outcrops."
+   "answer": "Raw windstones are scattered across Thendal Grove on Zephras Isle, where they appear as glowing blue crystalline outcrops."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "For practitioners of the arcane, the concentrated elemental power within windstones offers a stark reminder of how fragile magical ecosystems become when their elemental sources vanish."
+   "text": "As a Mage, you can see the elemental power held in windstones and how fragile magical ecosystems become when their elemental sources vanish."
   },
   {
    "target": "profession:Mining",
-   "text": "Harvesting raw windstones is an introduction to gathering valuable minerals and crystals from the untamed wilds of Zephras Isle."
+   "text": "As a miner, you gather valuable minerals and crystals from the wilds of Zephras Isle, including raw windstones."
   }
  ],
  "keywords": [
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "Harvesting Windstones"
- ]
+ ],
+ "style": 2
 }

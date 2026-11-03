@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "class:Priest",
-   "text": "While priests often find their calling in sacred sanctuaries and chapels, life on the road demands practical survival skills beyond prayers and blessings."
+   "text": "As a priest, you may find your calling in sacred sanctuaries and chapels. Yet life on the road calls for practical survival skills alongside prayers and blessings."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "who is eric",
     "who teaches outdoors"
    ],
-   "answer": "Eric is an experienced outdoorsman and fellow adventurer who offers to teach fledgling travelers the essentials of surviving in the wilderness. He welcomes travelers to rest by his campfire and shares practical advice on thriving far from city walls.",
+   "answer": "Eric is a seasoned traveler who teaches newcomers how to survive in the wilderness. He welcomes you beside his campfire and shares advice for life beyond city walls.",
    "q": "Who is Eric?"
   },
   {
@@ -33,7 +33,7 @@
     "how does the campfire help",
     "rest buff at camp"
    ],
-   "answer": "Resting beside Eric's campfire provides the Boosted Rest effect, helping weary travelers recover and prepare their spirits for the trials ahead. It represents taking time out of the elements to recuperate properly in the field.",
+   "answer": "Resting beside Eric's campfire gives you the Boosted Rest effect. It helps you recover and prepare for the trials ahead, away from the elements.",
    "q": "What is the Boosted Rest buff?"
   },
   {
@@ -42,7 +42,7 @@
     "profession fixtures",
     "tradeskill camp item"
    ],
-   "answer": "Camp fixtures are practical structures or tools tailored to specific trade skills that adventurers can set up in the wild. As tradeskill trainers in nearby settlements explain, learning a profession allows craftspeople to establish working setups at their campsites.",
+   "answer": "Camp fixtures are practical structures or tools for specific tradeskills that you can set up in the wild. Trainers in nearby settlements explain how your profession lets you establish a working camp.",
    "q": "What are camp fixtures?"
   },
   {
@@ -51,7 +51,7 @@
     "sit near campfire",
     "campfire objective"
    ],
-   "answer": "Taking a seat beside the campfire allows adventurers to pause, warm up, and listen to Eric's guidance on wilderness survival. It gives the body time to relax and gain the full benefit of restful shelter outdoors.",
+   "answer": "Sitting beside Eric's campfire gives you time to pause, warm up, and hear his guidance on wilderness survival. Resting there lets you gain the full benefit of shelter outdoors.",
    "q": "Why do you need to sit near Eric's campfire?"
   },
   {
@@ -60,7 +60,7 @@
     "where next",
     "after the great outdoors"
    ],
-   "answer": "After mastering the basics of resting at camp, Eric suggests heading to the nearby village to study a tradeskill under local craft trainers. Once trained, you can begin learning how to construct camp fixtures suited to your craft.",
+   "answer": "After learning to rest at camp, Eric suggests visiting the nearby village. Local trainers can teach you a tradeskill, then show you how to make camp fixtures suited to your craft.",
    "q": "Where should an adventurer go after completing this lesson?"
   },
   {
@@ -69,7 +69,7 @@
     "priest only",
     "is this for adventurers"
    ],
-   "answer": "Eric calls out to passing adventurers, noting their restless spirit and readiness to seek fortune and glory across the world. His wilderness guidance helps anyone stepping away from safety and venturing out into the open wilds.",
+   "answer": "Eric welcomes passing adventurers with a restless spirit and a readiness to seek fortune and glory across the world. His wilderness guidance can help you leave safety and venture into the open wilds.",
    "q": "Who is this survival lesson intended for?"
   }
  ],
@@ -88,18 +88,19 @@
  ],
  "sections": [
   {
-   "body": "Stepping out into the wider world requires more than ambition and a weapon or holy symbol. For fledgling travelers, survival depends on knowing how to rest properly amidst the elements. At his basic campfire, the seasoned traveler Eric welcomes wandering adventurers to take a seat, warm themselves by the embers, and discover how vital proper rest is before tackling the untamed wilderness.",
+   "body": "Beyond settled places, ambition and a weapon or holy symbol are not enough. You need to know how to rest amid the elements. Eric has traveled far, and he welcomes you beside his campfire. There, he teaches why proper rest matters before you face the wilds.",
    "spoiler": 0,
    "title": "Lessons of the Wild"
   },
   {
-   "body": "A simple fire is only the beginning of maintaining an effective campsite on long journeys. Upon learning the fundamentals of wilderness recovery, travelers are encouraged to visit tradeskill trainers in neighboring settlements. There, artisans and crafters teach how to assemble specialized camp fixtures, allowing adventurers to practice their professions and support their expeditions wherever the road leads.",
+   "body": "A campfire begins a useful campsite for a long journey. Once you have learned how to recover in the wild, visit tradeskill trainers in nearby settlements. They can teach you to make camp fixtures for your trade. Then your craft can support your travels wherever the road leads.",
    "spoiler": 0,
    "title": "From Campfire to Craft"
   }
  ],
- "summary": "The Great Outdoors introduces wandering adventurers to the essentials of wilderness survival and campcraft. By taking a seat at Eric's campfire, travelers learn how to recuperate properly in the wild before taking up tradeskills to support their journeys.",
+ "summary": "Eric waits by his campfire to teach travelers how to rest in the wild.",
  "attribution": [
   "In-game quest text: The Great Outdoors"
- ]
+ ],
+ "style": 2
 }

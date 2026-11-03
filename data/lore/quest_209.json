@@ -24,11 +24,11 @@
   ],
   "category": "Stranglethorn Vale"
  },
- "summary": "Kebok in Booty Bay needs materials to meet export demands for tiger fangs destined for the South Seas. Because hunting genuine jungle predators proves too costly, he has devised an undetectable forging process using tusks harvested from the Skullsplitter trolls.",
+ "summary": "In Booty Bay, Kebok struggles to fill orders for tiger fangs bound for the South Seas. Real fangs cost too much to supply, so he has found another way to meet demand.",
  "sections": [
   {
    "title": "A Lucrative Substitute",
-   "body": "Supplying tiger fangs to distant island buyers across the South Seas has grown too expensive and difficult through ordinary hunting. Rather than abandon the trade, Kebok devised an undetectable forging method that turns mundane horn-like objects into convincing replicas. The closest physical match for these fangs comes directly from the jaws of the local Skullsplitter trolls, leading Kebok to hire adventurers willing to strip eighteen tusks from the jungle tribe to fill his upcoming export shipment.",
+   "body": "Kebok’s trade in tiger fangs for buyers across the South Seas has grown costly and hard to supply through ordinary hunting. So he has found a way to shape horn-like objects into convincing fangs without leaving a sign of the trick. Skullsplitter troll tusks make the closest match. Kebok hires adventurers to take eighteen from the jungle tribe for his next shipment.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "kebok tusk plan",
     "why fake tiger fangs"
    ],
-   "answer": "Hunting enough real tigers to supply buyers in the South Seas has proven far too expensive and difficult. Kebok discovered that troll tusks can be forged into undetectable replicas of tiger fangs, allowing his trade operation to fill its monthly export orders."
+   "answer": "Hunting enough real tigers for South Seas buyers has grown too costly and difficult. Kebok can shape troll tusks into convincing tiger fangs without leaving a trace, keeping his monthly export orders supplied."
   },
   {
    "q": "Who is buying the fangs?",
@@ -49,7 +49,7 @@
     "south seas buyers",
     "where do the fangs go"
    ],
-   "answer": "The finished counterfeit fangs are shipped out to trading partners located on various islands throughout the South Seas."
+   "answer": "Trading partners on islands throughout the South Seas buy the counterfeit fangs."
   },
   {
    "q": "Where does this task fall in Kebok's chain?",
@@ -58,7 +58,7 @@
     "skullsplitter tusks prerequisite",
     "kebok quest order"
    ],
-   "answer": "This assignment follows Kebok's earlier request for Bloodscalp Ears."
+   "answer": "This follows Kebok’s earlier request for Bloodscalp Ears."
   }
  ],
  "angles": [],
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Skullsplitter Tusks"
- ]
+ ],
+ "style": 2
 }

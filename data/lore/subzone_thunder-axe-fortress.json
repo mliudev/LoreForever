@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Thunder Axe Fortress"
  },
- "summary": "Thunder Axe Fortress is a fortified compound in northwestern Desolace serving as a stronghold for the demonic Burning Blade cult. Within its stone barracks, watchtowers, and darkened caves, cultists perform dark rituals to summon demonic entities and store stolen artifacts of power. The cult remains an active threat to anyone traversing the desolate wastes.",
+ "summary": "Burning Blade cultists hold Thunder Axe Fortress in northwestern Desolace. They guard the wastes from its stone barracks and watchtowers, with darkened caves below.",
  "sections": [
   {
    "title": "A Bastion of the Burning Blade",
-   "body": "Perched in northwestern Desolace, Thunder Axe Fortress serves as a heavily guarded redoubt for the Burning Blade. Composed of stone barracks, defensive watchtowers, and deep caverns, it allows the cult to maintain a fortified foothold far from the gaze of Kalimdor's major cities. Here, the cultists gather fel energies, summon lesser demons, and concoct schemes to bring far more dangerous entities into the world.",
+   "body": "In northwestern Desolace, Burning Blade cultists keep watch over the wastes from Thunder Axe Fortress. Stone barracks and watchtowers fortify the compound, and deep caverns run beneath it. Far from Kalimdor’s major cities, the cult gathers fel energies and summons lesser demons. Its members scheme to bring more dangerous entities into the world.",
    "spoiler": 0
   },
   {
    "title": "Stolen Relics and Dark Summonings",
-   "body": "The cult stores the Hand of Iruxos at the fortress, a relic linked to the demonic portals of Mannoroc Coven. A Burning Blade seer also studies the stolen Sceptre of Light atop one of the watchtowers. Azore Aldamort asks travelers to recover the sceptre, which is rumored to have been taken from the naga.",
+   "body": "The Hand of Iruxos lies at Thunder Axe Fortress, bound to the demonic portals of Mannoroc Coven. A Burning Blade seer studies the stolen Sceptre of Light atop a watchtower. Azore Aldamort asks travelers to recover it. Rumor says the naga once held the sceptre.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "who is in thunder axe fortress",
     "thunder axe fortress boss"
    ],
-   "answer": "The fortress is held by the Burning Blade cult, an organization devoted to demonic power and the remnants of the Shadow Council. On the ground, the fortress and its operations are overseen by warlocks such as Tyranis Malem."
+   "answer": "The Burning Blade cult controls Thunder Axe Fortress. Its members serve demonic power and the remnants of the Shadow Council. Warlocks such as Tyranis Malem oversee the fortress and its operations."
   },
   {
    "q": "What is the Sceptre of Light?",
@@ -37,7 +37,7 @@
     "scepter of light",
     "stolen naga artifact"
    ],
-   "answer": "The Sceptre of Light is an ancient artifact said to be able to sink entire cities beneath the sea. Azore Aldamort asks travelers to retrieve it from a Burning Blade seer studying it atop one of the fortress's watchtowers."
+   "answer": "The Sceptre of Light is an ancient artifact said to be able to sink entire cities beneath the sea. Azore Aldamort asks travelers to retrieve it from a Burning Blade seer studying it atop a watchtower at Thunder Axe Fortress."
   },
   {
    "q": "How is this fortress connected to Mannoroc Coven?",
@@ -45,17 +45,17 @@
     "mannoroc coven connection",
     "hand of iruxos"
    ],
-   "answer": "The cultists at Thunder Axe Fortress hold an artifact known as the Hand of Iruxos. This relic was directly linked to the demon portals active at the Mannoroc Coven in southern Desolace, binding their demonic efforts across the zone."
+   "answer": "Cultists at Thunder Axe Fortress hold the Hand of Iruxos, a relic directly linked to the demon portals active at Mannoroc Coven in southern Desolace. The artifact binds their demonic efforts across the zone."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "The Burning Blade's experiments at the fortress demonstrate the reckless bounds of demonology, from binding lesser fiends to forcing planar rifts for greater entities."
+   "text": "As a Warlock, you can see how recklessly the Burning Blade experiments with demonology. They bind lesser fiends and force planar rifts for greater entities."
   },
   {
    "target": "faction:Alliance",
-   "text": "Investigating Thunder Axe Fortress aligns with Argent Dawn efforts to secure dangerous artifacts like the Sceptre of Light before fel cultists turn them against the continent."
+   "text": "As an Alliance traveler, you can help the Argent Dawn secure dangerous artifacts like the Sceptre of Light before fel cultists turn them against the continent."
   }
  ],
  "keywords": [
@@ -76,5 +76,6 @@
  ],
  "attribution": [
   "Thunder Axe Fortress"
- ]
+ ],
+ "style": 2
 }

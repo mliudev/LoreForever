@@ -10,11 +10,11 @@
    "quest:935"
   ]
  },
- "summary": "At Dolanaar, Corithras Moonrage gathers sacred waters for Fandral Staghelm in Darnassus. The Filled Vessel carries samples from Teldrassil’s moonwells to aid his study of the World Tree’s ailments.",
+ "summary": "At Dolanaar, Corithras Moonrage gathers Teldrassil’s moonwell waters for Fandral Staghelm in Darnassus. The Filled Vessel carries these samples to aid his study of the World Tree’s ailments.",
  "sections": [
   {
    "title": "A Confluence of Sacred Waters",
-   "body": "Night elf acolytes gather water from moonwells across Teldrassil. The tree was planted without the blessings of the Great Aspects, Alexstrasza and Nozdormu, leaving its boughs open to corruption, strange beasts, and crazed furbolg tribes. Corithras Moonrage gathers the phials in Dolanaar and pours them into the Filled Vessel for the journey to the capital. Together, the waters offer a vital sample of Teldrassil’s vitality. Arch Druid Fandral Staghelm studies them in the Cenarion Enclave, seeking a remedy for the Great Tree’s flaws.",
+   "body": "Night elf acolytes gather water from moonwells across Teldrassil. The tree was planted without blessings from the Great Aspects, Alexstrasza and Nozdormu. So its boughs remain open to corruption, strange beasts, and crazed furbolg tribes.\n\nIn Dolanaar, Corithras Moonrage gathers the phials and pours them into the Filled Vessel for the journey to the capital. Together, the waters offer a sample of Teldrassil’s vitality. Arch Druid Fandral Staghelm studies them in the Cenarion Enclave, seeking a remedy for the Great Tree’s flaws.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "staghelm moonwell water purpose",
     "why collect moonwell water"
    ],
-   "answer": "Teldrassil’s afflictions stem from its lack of the Great Aspects’ blessings. Strange corruption, aggressive wildlife, and mad furbolgs plague its branches, and Staghelm studies the mingled waters to understand the tree’s flaws and seek a remedy."
+   "answer": "Teldrassil’s afflictions stem from its lack of the Great Aspects’ blessings. Corruption, aggressive wildlife, and mad furbolgs plague its branches. Staghelm studies the mingled waters to understand the tree’s flaws and seek a remedy."
   },
   {
    "q": "Who prepared the vessel?",
@@ -53,13 +53,13 @@
     "who gives the filled vessel",
     "corithras filled vessel"
    ],
-   "answer": "Corithras Moonrage prepares the vessel in Dolanaar, pouring in the phials gathered by young adventurers before sending it to Darnassus."
+   "answer": "Corithras Moonrage prepares the vessel in Dolanaar. He pours in the phials gathered by young adventurers before sending it to Darnassus."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid serving the Cenarion cause, delivering this vessel is your first official errand to Arch Druid Fandral Staghelm. It shows you how fragile Teldrassil’s living world remains."
+   "text": "As a druid serving the Cenarion cause, you bring this vessel to Arch Druid Fandral Staghelm on your first official errand. It shows how fragile Teldrassil’s living world remains."
   },
   {
    "target": "race:NightElf",
@@ -90,5 +90,5 @@
   "Filled Vessel",
   "Crown of the Earth (6)"
  ],
- "style": 1
+ "style": 2
 }

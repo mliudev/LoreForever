@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Thistlefur Hold"
  },
- "summary": "Corruption has turned the furbolgs of Thistlefur Hold against every outsider who draws near. Their cavern den lies at the northern end of Thistlefur Village in west-central Ashenvale.",
+ "summary": "At Thistlefur Hold, corruption has turned the furbolgs against every outsider who draws near. Their cavern den lies at the northern end of Thistlefur Village in west-central Ashenvale.",
  "sections": [
   {
    "title": "A Corrupted Den",
-   "body": "Thistlefur Hold lies at the northern end of Thistlefur Village, at the heart of the Thistlefur tribe's territory. Corruption has driven its furbolgs mad, and they attack travelers and neighbors who draw near. In the winding caverns, the tribe hoards scavenged relics, including troll charms sought by the Darkspear. Captives are kept in wooden cages deep within, among them Ruul Snowhoof, a tauren brave.",
+   "body": "At the northern end of Thistlefur Village, Thistlefur Hold lies at the heart of the Thistlefur tribe's territory. Corruption has driven the furbolgs mad, and they attack travelers and neighbors who draw near. In the winding caverns, the tribe hoards scavenged relics, including troll charms sought by the Darkspear. Deep within, wooden cages hold captives, among them Ruul Snowhoof, a tauren brave.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is this cave",
     "thistlefur cave"
    ],
-   "answer": "Thistlefur Hold lies beneath the northern end of Thistlefur Village in west-central Ashenvale. Its caverns hold the greatest number of hostile Thistlefur furbolgs."
+   "answer": "Beneath the northern end of Thistlefur Village in west-central Ashenvale, Thistlefur Hold holds the greatest number of hostile Thistlefur furbolgs."
   },
   {
    "q": "Why are the furbolgs in Thistlefur Hold hostile?",
@@ -55,7 +55,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you face two aims in Thistlefur Hold: free Ruul Snowhoof and recover the troll charms the furbolgs have hoarded."
+   "text": "As a member of the Horde, you have two aims in Thistlefur Hold: free Ruul Snowhoof and recover the troll charms the furbolgs have hoarded."
   },
   {
    "target": "class:Druid",
@@ -84,5 +84,5 @@
  "attribution": [
   "Thistlefur Hold"
  ],
- "style": 1
+ "style": 2
 }

@@ -15,16 +15,16 @@
   "wiki": null,
   "next": "The Black Shield"
  },
- "summary": "Do'gol has rubbed the shield clear enough to see what appears to spell Mosarn, a name that means nothing to Do'gol. Krog in Brackenwall Village knows many people, so Do'gol sends you to ask there.",
+ "summary": "In Brackenwall Village, Do'gol sends you to Krog to learn a name on the shield. The writing seems to say Mosarn, but Do'gol does not know the name.",
  "sections": [
   {
    "title": "A Name on the Rim",
-   "body": "Do'gol poured on a bit too much acid, but a little rubbing brings out writing that is still hard to read and seems to say Mosarn. The name means nothing to Do'gol. Krog in Brackenwall Village knows many people, so Do'gol sends you to talk with Krog.",
+   "body": "Do'gol has rubbed the shield with too much acid, yet its writing remains hard to read. The name seems to be Mosarn, but Do'gol does not know it. Krog knows many people in Brackenwall Village, so Do'gol sends you to speak with Krog.",
    "spoiler": 0
   },
   {
    "title": "Krog's Answer",
-   "body": "Krog finds the name Mosarn familiar but cannot place it, and hopes it will come back later. Krog adds that it probably does not matter, since shields turn up from all sorts of places and carry no meaning.",
+   "body": "Krog recognizes the name Mosarn, though cannot place it. Krog hopes it will come back to mind. Still, Krog says the name may not matter. Shields come from all sorts of places and carry no meaning.",
    "spoiler": 1
   }
  ],
@@ -35,7 +35,7 @@
     "dogol",
     "who gives the black shield"
    ],
-   "answer": "The one in Brackenwall Village who has been cleaning the shield with acid to read its writing."
+   "answer": "Do'gol is cleaning the shield with acid so its writing can be read."
   },
   {
    "q": "What name is on the shield?",
@@ -44,7 +44,7 @@
     "who is mosarn",
     "shield inscription name"
    ],
-   "answer": "Do'gol thinks the writing spells Mosarn, though it is hard to read, and has never heard of anyone by that name."
+   "answer": "The writing is hard to read, but Do'gol thinks it says Mosarn. The name is unfamiliar to Do'gol."
   },
   {
    "q": "Why talk to Krog about the shield?",
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Classic quest text: The Black Shield"
- ]
+ ],
+ "style": 2
 }

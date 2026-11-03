@@ -28,16 +28,16 @@
    "Azuregos's Magical Ledger"
   ]
  },
- "summary": "Narain Soothfancy remembers a book he stowed somewhere safe. To reach it you look for his crashed gyrocopter on Land's End Beach, then swim south from there to an island in the South Seas. This follows Translating the Ledger.",
+ "summary": "Narain Soothfancy wants you to find the book he hid on an island in the South Seas. First, find his crashed gyrocopter on Land's End Beach, then swim south. This follows Translating the Ledger.",
  "sections": [
   {
    "title": "A Book Stowed Away",
-   "body": "Narain Soothfancy says the book is bound to come in handy, and that he hid it where nobody could hope to find it. He needed a gyrocopter to get there the first time and crashed it on the beach on the way back. That crash, he says, gave him his super-gnomish psychic powers. The wreck lies somewhere along Land's End Beach, and from there you swim south. Narain is sure you will recognise the place at a glance. The island where the book lies buried is out in the South Seas.",
+   "body": "Narain Soothfancy says the book will come in handy, and he hid it where no one could hope to find it. He took a gyrocopter to reach the hiding place, then crashed on the beach on his way back. Narain says the crash gave him his super-gnomish psychic powers.\n\nThe wreck lies somewhere along Land's End Beach. From there, swim south. Narain is sure you will recognise the place at a glance. The book lies buried on an island in the South Seas.",
    "spoiler": 0
   },
   {
    "title": "At the Island",
-   "body": "On the island you find a mound of dirt, and the book is gone. A note lies on top of the mound in its place.",
+   "body": "On the island, you find a mound of dirt, but the book is gone. A note lies on the mound in its place.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "narain quest starter",
     "who gives this quest"
    ],
-   "answer": "Narain Soothfancy sends you after the book, once you have finished Translating the Ledger for him."
+   "answer": "Narain Soothfancy sends you after the book once you finish Translating the Ledger for him."
   },
   {
    "q": "Where did Narain crash his gyrocopter?",
@@ -58,7 +58,7 @@
     "crashed gyrocopter location",
     "lands end beach crash"
    ],
-   "answer": "Narain says he crashed it on a beach on his way back from hiding the book. You will find the wreck somewhere on Land's End Beach."
+   "answer": "Narain says he crashed on a beach while returning from hiding the book. His wreck lies somewhere along Land's End Beach."
   },
   {
    "q": "Where is the book supposed to be hidden?",
@@ -67,7 +67,7 @@
     "where is the island",
     "where to swim"
    ],
-   "answer": "Narain Soothfancy says it lies buried on an island out in the South Seas. You swim south from the wreck on Land's End Beach, and he says the spot will be plain when you see it."
+   "answer": "Narain Soothfancy says the book lies buried on an island in the South Seas. Swim south from his wreck on Land's End Beach; he says you will recognise the place at a glance."
   },
   {
    "q": "How did Narain get his psychic powers?",
@@ -99,5 +99,6 @@
  ],
  "attribution": [
   "Draconic for Dummies (quest)"
- ]
+ ],
+ "style": 2
 }

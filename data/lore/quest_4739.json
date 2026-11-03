@@ -17,16 +17,16 @@
   "wiki": "In Search of Menara Voidrender (Undercity)",
   "chain": []
  },
- "summary": "Menara Voidrender awaits Horde warlocks ready for deeper study in Ratchet. From the Undercity, they cross the Great Sea to her hilltop refuge above the port.",
+ "summary": "Menara Voidrender awaits Horde warlocks seeking deeper study in Ratchet. From the Undercity, they cross the Great Sea to her refuge above the port.",
  "sections": [
   {
    "title": "A Summons from the Shadows",
-   "body": "Kaal Soulreaper watches warlocks grow more skilled in the Undercity. When one outgrows simple hexes and impish thralls, he sends them across the Great Sea for specialized instruction. Demonic control leaves little room for error. A skilled mentor can help a warlock survive the volatile powers of the Nether.",
+   "body": "Kaal Soulreaper watches warlocks grow more skilled in the Undercity. When one outgrows simple hexes and impish thralls, he sends them across the Great Sea for specialized instruction. Demonic control leaves little room for error. A skilled mentor can help a warlock survive the Nether’s volatile powers.",
    "spoiler": 0
   },
   {
    "title": "The Tower Above Ratchet",
-   "body": "Strahad Farsan’s tower rises from a high bluff above Ratchet. Away from the scrutiny of city guards, practitioners such as Menara Voidrender teach younger initiates. Warlocks from different backgrounds set aside tribal and political rivalries. The demons they bargain with will consume human, orc, or Forsaken alike if their summoner’s will falters.",
+   "body": "Strahad Farsan’s tower rises from a high bluff above Ratchet. There, away from the scrutiny of city guards, practitioners such as Menara Voidrender teach younger initiates. Warlocks from different backgrounds set tribal and political rivalries aside. The demons they bargain with will consume human, orc, or Forsaken alike if their summoner’s will falters.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where to get quest",
     "kaal soulreaper location"
    ],
-   "answer": "Kaal Soulreaper sends warlocks from the Undercity to Menara Voidrender when they have grown skilled enough for advanced instruction."
+   "answer": "Kaal Soulreaper sends warlocks from the Undercity to Menara Voidrender when they grow skilled enough for advanced instruction."
   },
   {
    "q": "Where can Menara Voidrender be found?",
@@ -74,7 +74,7 @@
     "why work together warlock",
     "menara warlock lore"
    ],
-   "answer": "Demons show no mercy based on race when a summoner loses control. To survive, warlocks share techniques and protect their craft from disaster."
+   "answer": "Demons show no mercy based on race when a summoner loses control. To survive, warlocks share techniques and guard their craft against disaster."
   },
   {
    "q": "Who is Strahad Farsan?",
@@ -83,7 +83,7 @@
     "who owns the tower in ratchet",
     "strahad farsan"
    ],
-   "answer": "Strahad Farsan is a master warlock who keeps the stone tower above Ratchet. It offers practitioners a remote place to learn demonic arts, away from major faction strongholds."
+   "answer": "Strahad Farsan is a master warlock who keeps the stone tower above Ratchet. The tower gives practitioners a remote place to learn demonic arts, away from major faction strongholds."
   }
  ],
  "angles": [
@@ -120,5 +120,5 @@
  "attribution": [
   "In Search of Menara Voidrender (Undercity)"
  ],
- "style": 1
+ "style": 2
 }

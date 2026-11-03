@@ -21,16 +21,16 @@
    "The Binding (Voidwalker, Orgrimmar)"
   ]
  },
- "summary": "In Orgrimmar, Gan'rul Bloodeye sends a young warlock after the stolen Tablet of Verga. The rogue Burning Blade cultists took it to their cavern at Skull Rock, and its runes are needed to summon a voidwalker.",
+ "summary": "In Orgrimmar, Gan'rul Bloodeye sends a young warlock to recover the stolen Tablet of Verga. Burning Blade cultists have carried it to their cavern at Skull Rock, where its runes are needed to summon a voidwalker.",
  "sections": [
   {
    "title": "A Precarious Art",
-   "body": "Gan'rul Bloodeye trains Horde warlocks in Orgrimmar's Cleft of Shadow. Thrall's new realm regards fel magic with deep wariness because of the orcish clans' dark history. Gan'rul says few true warlocks remain in the Horde, but their perilous skills are essential to its survival. To serve the Warchief, an initiate must learn more than the chaotic fire of an imp; they must command beings of pure shadow and endurance.",
+   "body": "Gan'rul Bloodeye trains Horde warlocks in the Cleft of Shadow. Thrall's new realm distrusts fel magic because of the orcish clans' dark history. Few true warlocks remain in the Horde, Gan'rul says, yet their perilous skills are needed for its survival. To serve the Warchief, an initiate must master more than an imp's chaotic fire. They must command beings of pure shadow and endurance.",
    "spoiler": 0
   },
   {
    "title": "The Stolen Tablet",
-   "body": "The runes needed to summon a voidwalker are inscribed on the Tablet of Verga. The Burning Blade, a fanatical shadow cult, stole the relic and hides in a cavern at Skull Rock, right beneath the Warchief's nose. Gan'rul sends you into the cultists' den to recover the tablet and strike a bloody blow against the renegades who stain the name of all practicing warlocks.",
+   "body": "The runes for summoning a voidwalker are carved on the Tablet of Verga. The Burning Blade, a fanatical shadow cult, stole the relic and hides in a cavern at Skull Rock, beneath the Warchief's nose. Gan'rul sends you into their den to recover it and strike a bloody blow against renegades who stain the name of every warlock.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "ganrul bloodeye",
     "who gives this quest"
    ],
-   "answer": "Gan'rul Bloodeye is a senior warlock trainer in Orgrimmar's Cleft of Shadow. He oversees young Horde warlocks, teaching them to harness dark powers and bind otherworldly minions without falling to corruption."
+   "answer": "Gan'rul Bloodeye is a senior warlock trainer in Orgrimmar's Cleft of Shadow. He guides young Horde warlocks in mastering dark powers and binding otherworldly minions without falling to corruption."
   },
   {
    "q": "What is the Tablet of Verga?",
@@ -51,7 +51,7 @@
     "verga tablet",
     "what is the tablet"
    ],
-   "answer": "The Tablet of Verga bears the specialized summoning runes needed to call a voidwalker from the Nether. The Burning Blade stole it, and Gan'rul needs it to guide the initiate through the ritual."
+   "answer": "The Tablet of Verga bears the runes needed to summon a voidwalker from the Nether. The Burning Blade stole it, and Gan'rul needs it to guide the initiate through the ritual."
   },
   {
    "q": "Where is Skull Rock?",
@@ -60,7 +60,7 @@
     "where is skull rock",
     "where to find tablet"
    ],
-   "answer": "Skull Rock is a shadowy cavern directly east of Orgrimmar, along Durotar's rugged bluffs. Burning Blade cultists hide there."
+   "answer": "Skull Rock is a cavern directly east of Orgrimmar, along Durotar's rugged bluffs. Burning Blade cultists hide there."
   },
   {
    "q": "Why does Gan'rul Bloodeye despise the Burning Blade?",
@@ -68,7 +68,7 @@
     "burning blade warlock",
     "why hate burning blade"
    ],
-   "answer": "The Burning Blade serves demonic masters and undermines Thrall's Horde. Gan'rul sees the cult as a nuisance to the Warchief and a reckless blight that brings suspicion and disrepute on all practicing warlocks."
+   "answer": "The Burning Blade serves demonic masters and works against Thrall's Horde. Gan'rul sees the cult as a nuisance to the Warchief and a reckless blight that brings suspicion and disrepute on all warlocks."
   },
   {
    "q": "Why do warlocks need to summon a voidwalker?",
@@ -76,7 +76,7 @@
     "why voidwalker",
     "voidwalker purpose"
    ],
-   "answer": "Voidwalkers are beings of the Nether that can absorb tremendous punishment and protect their summoner. Learning to bind one is an essential step in a warlock's survival and summoning power."
+   "answer": "Voidwalkers are beings of the Nether who can endure tremendous punishment and protect their summoner. Learning to bind one is essential to a warlock's survival and summoning power."
   },
   {
    "q": "What happens after retrieving the tablet?",
@@ -84,21 +84,21 @@
     "next quest",
     "what comes next"
    ],
-   "answer": "After Gan'rul receives the Tablet of Verga, he gives the initiate the needed runes and summons them to complete the ritual in 'The Binding'. There, the warlock must physically subdue the summoned voidwalker to master it."
+   "answer": "When Gan'rul receives the Tablet of Verga, he gives the initiate the needed runes and calls them to complete the ritual in 'The Binding'. There, the warlock must subdue the summoned voidwalker by hand to master it."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you face a fundamental rite of passage: moving beyond small imps to command a frontline shadow minion."
+   "text": "As a warlock, you face a rite of passage: moving beyond small imps to command a shadow minion on the front line."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of Thrall's Horde, you belong to a people wary of fel practitioners. Mentors like Gan'rul guide those who study the dark arts to use their power in service to the Warchief."
+   "text": "As a member of Thrall's Horde, you belong to a people wary of those who practice fel magic. Mentors like Gan'rul guide students of the dark arts to wield their power in service to the Warchief."
   },
   {
    "target": "race:Orc",
-   "text": "As an orc haunted by the Shadow Council's history, you can find a measure of vengeance in hunting the Burning Blade, whose members still embrace demonic ruin."
+   "text": "As an orc haunted by the Shadow Council's history, you can find some vengeance in hunting the Burning Blade, whose members still embrace demonic ruin."
   }
  ],
  "keywords": [
@@ -123,5 +123,5 @@
  "attribution": [
   "Creature of the Void (Orgrimmar)"
  ],
- "style": 1
+ "style": 2
 }

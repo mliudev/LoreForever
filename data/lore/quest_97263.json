@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Dwarves will recognize the strong ties between the Bronzebeards of Ironforge and their Wildhammer cousins in Aerie Peak, making the safe arrival of this parcel a matter of clan respect."
+   "text": "As a dwarf, you know the ties between the Bronzebeards of Ironforge and their Wildhammer cousins in Aerie Peak. Getting this parcel safely to its recipient honors those ties."
   },
   {
    "target": "faction:Alliance",
-   "text": "Keeping open and reliable communication routes between the Hinterlands and Ironforge is vital for Alliance interests across Khaz Modan and northern territories."
+   "text": "As an Alliance member, you know reliable communication between the Hinterlands and Ironforge matters to Alliance interests across Khaz Modan and the northern territories."
   }
  ],
  "faq": [
@@ -29,7 +29,7 @@
     "what was left by the mailbox",
     "mailbox package"
    ],
-   "answer": "The parcel is an urgent delivery sent from Aerie Peak in the Hinterlands, addressed to a recipient named Eldrun Stormbreaker in Ironforge. It appears to have been misplaced alongside several other packages near a mailbox instead of reaching its final destination through normal courier handling.",
+   "answer": "It is an urgent parcel from Aerie Peak in the Hinterlands, addressed to Eldrun Stormbreaker in Ironforge. It was left beside a mailbox with several other packages instead of reaching its destination.",
    "q": "What is the package found by the mailbox?"
   },
   {
@@ -39,7 +39,7 @@
     "who gets the package",
     "package recipient"
    ],
-   "answer": "Eldrun Stormbreaker is the designated recipient of the misplaced parcel within the dwarven capital of Ironforge. While the package itself is clearly marked with their name and noted as urgent, little else is disclosed on the shipping label until the delivery is safely placed in their hands.",
+   "answer": "Eldrun Stormbreaker is the named recipient of the misplaced parcel in Ironforge. The label gives Eldrun’s name and marks the package urgent, but says little else until it reaches its recipient.",
    "q": "Who is Eldrun Stormbreaker?"
   },
   {
@@ -49,7 +49,7 @@
     "where was it mailed from",
     "aerie peak delivery"
    ],
-   "answer": "The shipment originated in Aerie Peak, the prominent settlement and fortress of the Wildhammer clan situated high in the mountains of the Hinterlands. The label shows it traveled across regions toward Ironforge before being misplaced near a local mailbox along the route.",
+   "answer": "The parcel came from Aerie Peak, the Wildhammer clan’s settlement and fortress in the mountains of the Hinterlands. It was bound for Ironforge before it was misplaced near a mailbox along the way.",
    "q": "Where was the parcel sent from?"
   },
   {
@@ -59,7 +59,7 @@
     "what is inside the package",
     "why urgent"
    ],
-   "answer": "The shipping label bears an urgent tag because whoever sent the crate from Aerie Peak considered its contents or arrival time of high importance. Given the distance across territories between the Wildhammer highlands and the city of Ironforge, delayed cargo could cause significant trouble for Eldrun Stormbreaker.",
+   "answer": "The sender marked the crate urgent because its contents or arrival time mattered. A delay on the long journey from Aerie Peak to Ironforge could cause trouble for Eldrun Stormbreaker.",
    "q": "Why was the parcel marked urgent?"
   },
   {
@@ -69,7 +69,7 @@
     "lost mail",
     "misplaced packages"
    ],
-   "answer": "Several parcels were inexplicably left abandoned by the mailbox rather than being sorted and distributed by local couriers. Heavy courier traffic, logistical confusion, or simple negligence often lead to freight being temporarily mislaid in transit, leaving it up to helpful adventurers to resolve the oversight.",
+   "answer": "Several parcels were left abandoned beside a mailbox instead of being sorted and delivered. The reason is unknown, and the packages remain misplaced.",
    "q": "Why was the package left sitting by a mailbox?"
   },
   {
@@ -79,7 +79,7 @@
     "delivery location",
     "who do i bring the package to"
    ],
-   "answer": "The package is marked for delivery to Ironforge, directed specifically into the hands of Eldrun Stormbreaker. Anyone who discovers the misplaced freight must take on the courier's role and carry the urgent bundle directly to Eldrun inside the subterranean dwarven fortress city.",
+   "answer": "The parcel is bound for Ironforge and addressed to Eldrun Stormbreaker. It needs to be carried to Eldrun inside the dwarven fortress city.",
    "q": "Where does this package need to be delivered?"
   },
   {
@@ -89,7 +89,7 @@
     "ironforge aerie peak connection",
     "why send mail from aerie peak"
    ],
-   "answer": "Aerie Peak serves as the heart of the Wildhammer dwarves, while Ironforge is the grand seat of the Bronzebeard clan. Although the clans maintain distinct customs and homes, regular correspondence, trade, and kinship ties flow between the crags of the Hinterlands and the Great Forge under the mountain.",
+   "answer": "Aerie Peak is home to the Wildhammer dwarves, and Ironforge is the seat of the Bronzebeard clan. The clans have distinct customs and homes, yet correspondence, trade, and kinship ties link the Hinterlands to the Great Forge beneath the mountain.",
    "q": "What connection exists between Aerie Peak and Ironforge?"
   }
  ],
@@ -108,18 +108,19 @@
  ],
  "sections": [
   {
-   "body": "A postal mishap leaves several stray parcels abandoned beside a city mailbox, left out in the open rather than carried safely to their destinations. Among this jumbled heap of neglected freight sits an urgent parcel marked for delivery all the way from Aerie Peak, the mountain redoubt of the Wildhammer dwarves in the Hinterlands. Transporting goods between distant outposts across Khaz Modan and Lordaeron can be perilous and chaotic, meaning mislaid parcels occasionally require an alert passerby to step in and finish the delivery route properly.",
+   "body": "Several parcels lie abandoned beside a city mailbox. They were left there instead of being carried to their destinations. One urgent parcel came from Aerie Peak, the Wildhammer dwarves’ mountain redoubt in the Hinterlands. Deliveries between distant outposts across Khaz Modan and Lordaeron can go awry. An alert passerby can carry a mislaid package onward.",
    "spoiler": 0,
    "title": "Misplaced Freight"
   },
   {
-   "body": "The misplaced package bears clear labeling designating Ironforge as its destination and Eldrun Stormbreaker as its final recipient. Marked explicitly with an urgent notice, whatever cargo the bundle holds was deemed important enough to be expedited from the rustic peaks of the Hinterlands to the subterranean halls of the dwarven capital. Taking up the crate means taking on the responsibility of the postal service, ensuring that Eldrun receives what was sent across mountain ridges and wild hills before it can be stolen or forgotten completely.",
+   "body": "The parcel is addressed to Eldrun Stormbreaker in Ironforge. Its urgent notice marks the shipment as important enough to travel from the Hinterlands to the dwarven capital without delay. The crate still needs to reach Eldrun before it is stolen or forgotten.",
    "spoiler": 0,
    "title": "A Parcel for Eldrun Stormbreaker"
   }
  ],
- "summary": "\"Your Package Has Arrived\" is an urgent courier task concerning misplaced mail intended for delivery in Ironforge. A courier crate sent all the way from the Wildhammer stronghold of Aerie Peak was left abandoned beside a mailbox, addressed specifically to Eldrun Stormbreaker. Travelers who discover the parcel are tasked with completing its journey and seeing that it reaches its rightful owner.",
+ "summary": "A parcel from Aerie Peak lies beside a city mailbox, bound for Ironforge. Marked urgent for Eldrun Stormbreaker, it still waits to be delivered.",
  "attribution": [
   "In-game quest text: Your Package Has Arrived"
- ]
+ ],
+ "style": 2
 }

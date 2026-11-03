@@ -21,21 +21,21 @@
    "Grimtotem Spying"
   ]
  },
- "summary": "Cliffwatcher Longhorn tasks Horde champions with infiltrating Darkcloud Pinnacle to discover what the elusive Grimtotem clan is plotting. Three unknown couriers were spotted visiting the mesa, leaving guarded correspondence scattered across their mountaintop village. Uncovering these secret notes exposes a brewing scheme that threatens the tauren settlements of Thousand Needles.",
+ "summary": "At Freewind Post, Cliffwatcher Longhorn sends you to learn what the Grimtotem are planning. Three unknown couriers visited Darkcloud Pinnacle, and guarded notes lie scattered through their village. Their words may threaten the tauren settlements of Thousand Needles.",
  "sections": [
   {
    "title": "Eyes in the Wind",
-   "body": "Freewind Post sits precariously on high spires, but its defenders must constantly look over their shoulders at their hostile cousins. The Grimtotem clan has long maintained a tense, resentful stance toward the Horde, clinging to their isolationist strongholds atop Darkcloud Pinnacle. Cliffwatcher Longhorn noticed a shift in their behavior when three mysterious agents arrived over successive weeks, conferring with clan leadership in secret. Longhorn suspects these emissaries carried marching orders or alliances meant to undermine Thunder Bluff's presence in the canyon.",
+   "body": "Freewind Post clings to high spires, where its defenders watch their hostile cousins. The Grimtotem have long resented the Horde and kept to strongholds atop Darkcloud Pinnacle. Then Cliffwatcher Longhorn noticed a change. Three unknown agents arrived over several weeks and met secretly with clan leaders. He suspects they brought orders or proposed alliances against Thunder Bluff's presence in the canyon.",
    "spoiler": 0
   },
   {
    "title": "Infiltration of Darkcloud Pinnacle",
-   "body": "Darkcloud Pinnacle is a fortified network of sheer mesas connected by wooden rope bridges. Penetrating the village requires braving dense patrols of hostile Grimtotem warriors and shamans. Longhorn's scouts confirmed that the mysterious messages were locked away in separate chests spread across the outpost's central dwellings and outer bluffs. Securing the three secret notes requires sneaking or fighting across the entire settlement to snatch the clan's private communications from under their watchful eyes.",
+   "body": "Darkcloud Pinnacle is a fortified village of sheer mesas joined by wooden rope bridges. Dense patrols of hostile Grimtotem warriors and shamans guard the way in. Longhorn's scouts found the agents' messages locked in separate chests among the central dwellings and outer bluffs. You cross the settlement to recover all three notes and take the clan's private words under its watchful eyes.",
    "spoiler": 0
   },
   {
    "title": "Dire Portents",
-   "body": "Returning the three retrieved notes to Cliffwatcher Longhorn validates Freewind Post's darkest fears. The correspondence reveals that the Grimtotem are not merely posturing; they are actively coordinating with outside agents for an impending move. While the full extent of their machinations remains shrouded, Longhorn immediately begins drafting contingencies to protect the canyon posts from sudden betrayal.",
+   "body": "Cliffwatcher Longhorn reads the three notes you bring back, and Freewind Post's fears deepen. The messages show that the Grimtotem are coordinating with outside agents for an impending move. Longhorn does not know the full scheme. He begins preparing to protect the canyon posts from sudden betrayal.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "grimtotem secret agents",
     "who sent the notes"
    ],
-   "answer": "Cliffwatcher Longhorn only knows that three agents of unknown origin were seen visiting Darkcloud Pinnacle over recent weeks. The exact identity of their backers is kept strictly under wraps within the guarded notes."
+   "answer": "Cliffwatcher Longhorn knows only that three agents of unknown origin visited Darkcloud Pinnacle in recent weeks. Their backers remain unknown, their identity hidden in guarded notes."
   },
   {
    "q": "Where is Darkcloud Pinnacle located?",
@@ -56,7 +56,7 @@
     "how to get to darkcloud pinnacle",
     "darkcloud pinnacle entrance"
    ],
-   "answer": "Darkcloud Pinnacle is situated in western Thousand Needles, southeast of the Great Lift. A marked path with a blue totem leads up the mesa cliffs into the village, where wooden bridges connect several high pinnacles."
+   "answer": "Darkcloud Pinnacle lies in western Thousand Needles, southeast of the Great Lift. A marked path with a blue totem climbs the mesa cliffs to the village, where wooden bridges join several high pinnacles."
   },
   {
    "q": "Why are the Grimtotem hostile to other tauren?",
@@ -65,7 +65,7 @@
     "grimtotem vs thunder bluff",
     "are grimtotem evil"
    ],
-   "answer": "The Grimtotem believe the tauren are superior to all other races and fiercely reject Cairne Bloodhoof's alliance with the Horde. While some Grimtotem reside under a fragile peace in Thunder Bluff, clans like those on Darkcloud Pinnacle operate with open hostility toward both the Horde and the Alliance."
+   "answer": "The Grimtotem believe tauren are superior to all other races and reject Cairne Bloodhoof's alliance with the Horde. Some live under a fragile peace in Thunder Bluff, while clans on Darkcloud Pinnacle are openly hostile to both the Horde and the Alliance."
   },
   {
    "q": "Who gives the quest Grimtotem Spying?",
@@ -73,7 +73,7 @@
     "who starts grimtotem spying",
     "grimtotem spying quest giver"
    ],
-   "answer": "Cliffwatcher Longhorn offers the quest at Freewind Post in Thousand Needles, but only after you have proven your reliability by completing earlier tasks for the post."
+   "answer": "Cliffwatcher Longhorn gives you this work at Freewind Post in Thousand Needles after you have proved reliable by completing earlier tasks for the post."
   },
   {
    "q": "What prerequisite quests are required before this one?",
@@ -82,7 +82,7 @@
     "how to unlock grimtotem spying",
     "grimtotem spying chain"
    ],
-   "answer": "You must complete 'Message to Freewind Post' and 'Pacify the Centaur' before Cliffwatcher Longhorn trusts you enough to entrust you with the espionage mission against the Grimtotem."
+   "answer": "Before Longhorn trusts you with this work, you complete 'Message to Freewind Post' and 'Pacify the Centaur'."
   },
   {
    "q": "What happens when you turn in the three secret notes?",
@@ -90,21 +90,21 @@
     "grimtotem spying completion",
     "what do the notes say"
    ],
-   "answer": "Upon reading the contents, Cliffwatcher Longhorn reacts with shock, declaring the news to be dire. He acknowledges that Freewind Post must urgently prepare defenses for whatever scheme the Grimtotem are preparing."
+   "answer": "When Cliffwatcher Longhorn reads the three notes, he is shocked and calls the news dire. He says Freewind Post must prepare defenses against the Grimtotem's scheme."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The Grimtotem clan's treachery strikes deeply at the tauren, whose society values harmony and family honor. Discovering that kin are meeting secretly with unknown conspirators threatens everything Cairne Bloodhoof has built."
+   "text": "As a tauren, the Grimtotem's betrayal strikes at a society built on harmony and family honor. Their secret meetings with unknown conspirators threaten what Cairne Bloodhoof has built."
   },
   {
    "target": "faction:Horde",
-   "text": "Freewind Post is a critical Horde lifeline through southern Kalimdor. Any subversive plotting among the Grimtotem at Darkcloud Pinnacle endangers the tenuous supply lines running between the Barrens and Tanaris."
+   "text": "As a member of the Horde, you depend on Freewind Post as a vital route through southern Kalimdor. Grimtotem plotting at Darkcloud Pinnacle puts the fragile supply lines between the Barrens and Tanaris at risk."
   },
   {
    "target": "class:Rogue",
-   "text": "Recovering the three chests across Darkcloud Pinnacle's suspended bridges and heavily patrolled buildings is an ideal covert operation, rewarding stealth over outright confrontation."
+   "text": "As a rogue, you can use stealth to recover the three chests from Darkcloud Pinnacle's suspended bridges and heavily patrolled buildings."
   }
  ],
  "keywords": [
@@ -129,5 +129,6 @@
  ],
  "attribution": [
   "Grimtotem Spying"
- ]
+ ],
+ "style": 2
 }

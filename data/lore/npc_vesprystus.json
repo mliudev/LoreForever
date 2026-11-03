@@ -8,11 +8,11 @@
   "wiki": "Vesprystus",
   "refs": 2
  },
- "summary": "At Rut'theran Village, Vesprystus sends travelers between Teldrassil and mainland Kalimdor. He tends the hippogryph roost at the great World Tree's base.",
+ "summary": "At Rut'theran Village, Vesprystus guides travelers between Teldrassil and mainland Kalimdor. He tends the hippogryph roost beneath the great World Tree.",
  "sections": [
   {
    "title": "Keeper of the Rut'theran Roost",
-   "body": "At Teldrassil's southern base, Vesprystus tends the Rut'theran roost. Trained hippogryphs carry travelers from the isolated elven boughs toward Darkshore and the mainland. A magical portal also links Rut'theran to Darnassus in the canopy above. Across the strait, Vesprystus works with the flight master at Auberdine to carry sentinels, emissaries, and adventurers into Kalimdor.",
+   "body": "At Teldrassil's southern base, Vesprystus tends the Rut'theran roost. Trained hippogryphs carry travelers from the secluded elven boughs to Darkshore and the mainland. A magical portal links Rut'theran with Darnassus in the canopy above.\n\nAcross the strait, Vesprystus works with Auberdine's flight master. Together they carry sentinels, emissaries, and adventurers into Kalimdor.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "vesprystus flight paths",
     "rut'theran flight route"
    ],
-   "answer": "Vesprystus flies travelers from Rut'theran Village across the water to Auberdine, on the coast of Darkshore. From there, connecting hippogryph routes lead south toward Ashenvale and other night elf enclaves across Kalimdor."
+   "answer": "Vesprystus flies travelers from Rut'theran Village across the water to Auberdine on the coast of Darkshore. From there, connecting hippogryph routes run south toward Ashenvale and other night elf enclaves across Kalimdor."
   },
   {
    "q": "What creatures does Vesprystus tend?",
@@ -33,7 +33,7 @@
     "vesprystus animals",
     "what does he fly"
    ],
-   "answer": "Vesprystus tends a roost of loyal night elf hippogryphs, ancient winged beasts native to northern Kalimdor. Night elves have raised and bonded with them for generations to travel forest canopies and rugged coastlines."
+   "answer": "Vesprystus tends a roost of loyal night elf hippogryphs, ancient winged beasts native to northern Kalimdor. Night elves have raised and bonded with them for generations, traveling forest canopies and rugged coastlines."
   },
   {
    "q": "How do you reach Darnassus from where Vesprystus stands?",
@@ -42,13 +42,13 @@
     "vesprystus to darnassus",
     "path to darnassus"
    ],
-   "answer": "You can reach Darnassus from Rut'theran Village without a flight. A shimmering pink-tinted portal just up the path from Vesprystus's roost carries travelers to the city canopy."
+   "answer": "You can reach Darnassus from Rut'theran Village without flying. A shimmering pink-tinted portal just up the path from Vesprystus's roost carries travelers to the city canopy."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a young night elf leaving Teldrassil for the first time, you may find Vesprystus ready to send you toward your first glimpse of mainland Kalimdor."
+   "text": "As a young night elf leaving Teldrassil for the first time, you may find Vesprystus ready to guide you toward your first glimpse of mainland Kalimdor."
   },
   {
    "target": "faction:Alliance",
@@ -77,5 +77,5 @@
  "attribution": [
   "Vesprystus"
  ],
- "style": 1
+ "style": 2
 }

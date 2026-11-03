@@ -21,21 +21,21 @@
   ],
   "category": "Feralas"
  },
- "summary": "In Camp Mojache, the leatherworker Jangdor Swiftstrider holds that quality should never be compromised. Jangdor has found thick yeti hides and wants a stack of ten.",
+ "summary": "At Camp Mojache, Jangdor Swiftstrider seeks ten thick yeti hides and will not compromise on quality.",
  "sections": [
   {
    "title": "A Matter of Pride",
-   "body": "Jangdor Swiftstrider takes pride in leatherwork and says quality should never be compromised. Lately Jangdor has discovered thick yeti hides. Feralas is home to the yetis, and they are often found west of Camp Mojache in Feral Scar Vale, just inland of the Forgotten Coast.",
+   "body": "Jangdor Swiftstrider takes pride in fine leatherwork. He has found thick yeti hides in Feralas, where the yetis make their home. Many roam west of Camp Mojache in Feral Scar Vale, just inland of the Forgotten Coast.",
    "spoiler": 0
   },
   {
    "title": "The Offer",
-   "body": "For a stack of ten hides, Jangdor will let you choose one of the leather goods Jangdor has made. Bring them back to Camp Mojache.",
+   "body": "Bring Jangdor a stack of ten hides at Camp Mojache. In return, he will let you choose one of the leather goods he has made.",
    "spoiler": 0
   },
   {
    "title": "Jangdor's Thoughts on the Hides",
-   "body": "Jangdor declares that, given a special treatment, the hides hold up as well as iron. Finding the right tanning mix will take many attempts, yet Jangdor is sure the hides will raise the mark of quality higher than before.",
+   "body": "Jangdor says special treatment can make the hides hold up as well as iron. Finding the right tanning mix will take many attempts. He believes these hides can raise his mark of quality higher than before.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "quest giver mark of quality",
     "where is jangdor"
    ],
-   "answer": "Jangdor Swiftstrider, a leatherworker at Camp Mojache in Feralas."
+   "answer": "Jangdor Swiftstrider, the leatherworker at Camp Mojache in Feralas, is asking for the hides."
   },
   {
    "q": "Where can the yetis be found?",
@@ -56,7 +56,7 @@
     "yeti hide location",
     "where is feral scar vale"
    ],
-   "answer": "Yetis are native to Feralas. Many are found to the west of Camp Mojache in Feral Scar Vale, just inland of the Forgotten Coast."
+   "answer": "Yetis make their home in Feralas. Many roam west of Camp Mojache in Feral Scar Vale, just inland of the Forgotten Coast."
   },
   {
    "q": "How many hides are required?",
@@ -65,7 +65,7 @@
     "yeti hide count",
     "mark of quality requirement"
    ],
-   "answer": "Ten of them, as one stack."
+   "answer": "Ten hides, brought in one stack."
   },
   {
    "q": "What do I get for the hides?",
@@ -73,7 +73,7 @@
     "what does jangdor give",
     "mark of quality payment"
    ],
-   "answer": "Jangdor offers a choice among the leather goods Jangdor has made, in exchange for the stack."
+   "answer": "Jangdor offers you a choice of the leather goods he has made in exchange for the stack."
   }
  ],
  "angles": [],
@@ -95,5 +95,6 @@
  ],
  "attribution": [
   "The Mark of Quality (Classic Horde)"
- ]
+ ],
+ "style": 2
 }

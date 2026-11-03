@@ -21,21 +21,21 @@
    "Chen's Empty Keg (3)"
   ]
  },
- "summary": "In Ratchet, Brewmaster Drohn turns to another recipe shared by Chen Stormstout. Trogg ale calls for rare organs and glands from beasts of the Barrens.",
+ "summary": "In Ratchet, Brewmaster Drohn turns to another recipe Chen Stormstout shared with him. Trogg ale calls for rare organs and glands from the Barrens' beasts.",
  "sections": [
   {
    "title": "A Second Pandaren Formula",
-   "body": "After helping Brewmaster Drohn recreate Chen Stormstout's first draught, you learn the wandering pandaren shared more than one brewing secret. Drohn has the formula for trogg ale, a strange brew made not from grain, but from potent parts of the wild beasts of central Kalimdor.",
+   "body": "You helped Brewmaster Drohn recreate Chen Stormstout's first draught. Now you learn the wandering pandaren shared more brewing secrets. Drohn has the formula for trogg ale, a strange brew made from potent parts of the wild beasts of central Kalimdor, not grain.",
    "spoiler": 0
   },
   {
    "title": "The Ingredients of Trogg Ale",
-   "body": "To make trogg ale, Drohn needs lightning glands from stormhides, a thunderhawk saliva gland from greater thunderhawks, and a hearty liver from the plains' roaming kodos. Once distilled, these ingredients make a fiercely stimulating drink for life in the wilderness.",
+   "body": "Trogg ale calls for lightning glands from stormhides, a saliva gland from greater thunderhawks, and a hearty liver from the roaming kodos of the plains. Distilled together, these ingredients make a fiercely stimulating drink for life in the wilderness.",
    "spoiler": 0
   },
   {
    "title": "An Enduring Partnership",
-   "body": "Brewmaster Drohn keeps the arrangement open for travelers and mercenaries passing through Ratchet. Bring him another supply of beast organs, and he is willing to brew more trogg ale.",
+   "body": "Brewmaster Drohn keeps his arrangement open to travelers and mercenaries passing through Ratchet. Bring him another supply of beast organs, and he is willing to brew more trogg ale.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "chen lore",
     "pandaren chen"
    ],
-   "answer": "Chen Stormstout is an elusive pandaren brewmaster who wandered across Kalimdor during the founding of Durotar. He shared some of his potent brewing methods with Drohn in Ratchet before continuing his travels."
+   "answer": "Chen Stormstout is an elusive pandaren brewmaster who wandered across Kalimdor during the founding of Durotar. Before continuing his travels, he shared some of his potent brewing methods with Drohn in Ratchet."
   },
   {
    "q": "Where is Brewmaster Drohn located?",
@@ -56,7 +56,7 @@
     "where is brewmaster drohn",
     "drohn npc"
    ],
-   "answer": "Brewmaster Drohn is in Ratchet, the neutral port on the Barrens' eastern coast. He spends his days refining brews he learned from Chen."
+   "answer": "Brewmaster Drohn is in Ratchet, the neutral port on the eastern coast of the Barrens. He spends his days refining the brews he learned from Chen."
   },
   {
    "q": "What is trogg ale?",
@@ -65,7 +65,7 @@
     "what is this drink",
     "what does drohn brew"
    ],
-   "answer": "Trogg ale is a potent brew Chen taught Drohn to make. It uses beast glands and organ meat in place of ordinary brewing hops, giving it a fierce kick for hardy adventurers."
+   "answer": "Trogg ale is a potent brew Chen taught Drohn to make. Beast glands and organ meat take the place of ordinary brewing hops, giving the drink a fierce kick for hardy adventurers."
   },
   {
    "q": "Where do you gather lightning glands?",
@@ -92,17 +92,17 @@
     "can i do this again",
     "repeat trogg ale"
    ],
-   "answer": "Yes. Brewmaster Drohn will make more trogg ale when adventurers bring him fresh glands and a kodo liver."
+   "answer": "Yes. Brewmaster Drohn will brew more trogg ale when adventurers bring him fresh glands and a kodo liver."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Trogg ale may offend culinary purists, but using rich organ meat and potent glands follows the frontier custom of wasting nothing from a kill."
+   "text": "Trogg ale may offend culinary purists. Yet rich organ meat and potent glands follow the frontier custom of wasting nothing from a kill."
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, you may find Drohn's path unusual: he chose Chen's exotic brewing methods over the traditional warrior's path and keeps his business in Ratchet."
+   "text": "As an orc, you may find Drohn's path unusual. He chose Chen's exotic brewing methods over the traditional warrior's path and keeps his business in Ratchet."
   },
   {
    "target": "faction:Horde",
@@ -130,5 +130,5 @@
  "attribution": [
   "Chen's Empty Keg (3)"
  ],
- "style": 1
+ "style": 2
 }

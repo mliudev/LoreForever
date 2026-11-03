@@ -17,16 +17,16 @@
   "wiki": "Crown of the Earth (5)",
   "chain": []
  },
- "summary": "At the Oracle Glade, Corithras Moonrage sends you to gather water from Teldrassil’s sacred moonwell. The journey reveals the truth behind the World Tree’s creation.",
+ "summary": "At the Oracle Glade, Corithras Moonrage sends you to gather water from Teldrassil’s sacred moonwell. The journey begins to reveal why the World Tree’s creation went awry.",
  "sections": [
   {
    "title": "The Oracle Glade",
-   "body": "Corithras Moonrage sends you northwest across Teldrassil to the Oracle Glade. Beneath the Oracle Tree’s great boughs lies the first and most powerful moonwell raised on the island. You draw water into an Amethyst Phial from its sacred pool. The moonwell is the sanctuary where druids and the tree itself watch over the health of their new homeland.",
+   "body": "Corithras Moonrage sends you northwest across Teldrassil to the Oracle Glade. Beneath the Oracle Tree’s great boughs lies the island’s first and most powerful moonwell. You draw water from its sacred pool into an Amethyst Phial. Druids and the tree itself watch over their new homeland’s health from this sanctuary.",
    "spoiler": 0
   },
   {
    "title": "The Denied Blessing",
-   "body": "When you return the phial to Dolanaar, Corithras tells you what went wrong with Archdruid Fandral Staghelm’s design. After Nordrassil was sacrificed at Mount Hyjal, Staghelm planted Teldrassil to restore night elf immortality and asked the Dragon Aspects to bless it. Nozdormu the Timeless One refused, rebuking Staghelm for his arrogance. Queen Alexstrasza also withheld her blessing, the Aspect of Life’s gift. Without it, Teldrassil’s growth became volatile and imperfect, leaving the tree vulnerable to deep corruption.",
+   "body": "When you return the phial to Dolanaar, Corithras tells you how Archdruid Fandral Staghelm’s design went wrong. After Nordrassil was sacrificed at Mount Hyjal, Staghelm planted Teldrassil to restore night elf immortality. He asked the Dragon Aspects to bless it.\n\nNozdormu the Timeless One refused and rebuked Staghelm for his arrogance. Queen Alexstrasza also withheld her blessing, the Aspect of Life’s gift. Without that gift, Teldrassil grew volatile and imperfect, leaving the tree vulnerable to deep corruption.",
    "spoiler": 1
   }
  ],
@@ -105,5 +105,5 @@
  "attribution": [
   "Crown of the Earth (5)"
  ],
- "style": 1
+ "style": 2
 }

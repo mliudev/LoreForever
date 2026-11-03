@@ -8,11 +8,11 @@
   "wiki": "Barkeep Daniels",
   "refs": 1
  },
- "summary": "At the Lakeshire Inn, Barkeep Daniels keeps drinks flowing as raiders disrupt the roads. The town guards, fishermen, and travelers who gather there depend on the inn for a welcome pause, but supplies are running low.",
+ "summary": "At the Lakeshire Inn, Barkeep Daniels keeps drinks flowing while raiders trouble the roads. Town guards, fishermen, and travelers find welcome there, though supplies are running low.",
  "sections": [
   {
    "title": "Keeping Spirits High in Lakeshire",
-   "body": "Barkeep Daniels pours drinks and greets visitors at the Lakeshire Inn, near the bridge. Gnolls and Blackrock orcs have kept Lakeshire under pressure for months, and its defenders turn to the tavern after grim patrols. Raids and severed roads have disrupted trade across the region. With liquor running low when the town needs good cheer, Daniels welcomes travelers willing to fetch shipments from safer settlements.",
+   "body": "Near the bridge, Barkeep Daniels pours drinks and greets visitors at the Lakeshire Inn. Gnolls and Blackrock orcs have pressured Lakeshire for months, and its defenders turn to the tavern after grim patrols. Raids and severed roads have disrupted trade across the region. With liquor running low when the town needs good cheer, Daniels welcomes travelers willing to fetch shipments from safer settlements.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "lakeshire barkeep",
     "who is daniels"
    ],
-   "answer": "Barkeep Daniels keeps the counter at the Lakeshire Inn, serving drinks to townsfolk, travelers, and the town guard."
+   "answer": "Barkeep Daniels tends the counter at the Lakeshire Inn and serves townsfolk, travelers, and the town guard."
   },
   {
    "q": "Why is he running low on drinks?",
@@ -33,7 +33,7 @@
     "dry times quest lore",
     "why no alcohol"
    ],
-   "answer": "Blackrock orc and gnoll raids have choked off caravans and trade routes into the Redridge Mountains. With deliveries cut off and stressed defenders drinking through the stores, Daniels struggles to restock the shelves."
+   "answer": "Blackrock orc and gnoll raids have choked off caravans and trade routes into the Redridge Mountains. Deliveries have stopped, while stressed defenders drink through the stores, leaving Daniels struggling to restock."
   },
   {
    "q": "What does he need help with?",
@@ -68,5 +68,5 @@
  "attribution": [
   "Barkeep Daniels"
  ],
- "style": 1
+ "style": 2
 }

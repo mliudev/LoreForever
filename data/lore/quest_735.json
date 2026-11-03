@@ -28,21 +28,21 @@
    "Solution to Doom"
   ]
  },
- "summary": "Gerrig Bonegrip in Ironforge has a spare copy of Yagyin's Digest and will part with it for three items of power. Gerrig will not speak their names aloud, and writes them down in a note instead.",
+ "summary": "In Ironforge, Gerrig Bonegrip offers Yagyin's Digest in exchange for three items of power. Their names are kept from listening ears and written in a note.",
  "sections": [
   {
    "title": "An Exchange Behind Closed Lips",
-   "body": "Gerrig hears you ask for Yagyin's Digest and wonders whether you are starting a new chapter of their order somewhere, then decides it is not Gerrig's place to ask. Gerrig has an extra copy and believes those of the order must aid each other. In return, three items of power must be brought. Their names stay unspoken, since someone may be listening, and Gerrig writes them down.",
+   "body": "Gerrig Bonegrip hears you ask for Yagyin's Digest and wonders whether you mean to begin a new chapter of the order somewhere. Gerrig decides it is not their place to ask. With an extra copy on hand, Gerrig believes those of the order should aid one another. So Gerrig asks you to bring three items of power. Their names stay unspoken in case someone is listening, and Gerrig writes them down.",
    "spoiler": 0
   },
   {
    "title": "The Three Items",
-   "body": "The note names the Star of Xil'yeh, the Hand of Dagun and the Legacy Heart. They are what Gerrig wants before handing over the digest.",
+   "body": "Gerrig's note names the Star of Xil'yeh, the Hand of Dagun and the Legacy Heart. Gerrig wants all three before handing over Yagyin's Digest.",
    "spoiler": 0
   },
   {
    "title": "Gerrig's Verdict",
-   "body": "Once the relics are in hand, Gerrig calls you resourceful and believes that, should founding a new chapter of the order truly be your charge, you will run it well.",
+   "body": "With the relics in hand, Gerrig calls you resourceful. Gerrig believes that if founding a new chapter of the order is truly your charge, you will run it well.",
    "spoiler": 1
   }
  ],
@@ -54,7 +54,7 @@
     "who starts the star the hand and the heart",
     "gerrig bonegrip quest"
    ],
-   "answer": "Gerrig Bonegrip in Ironforge, who has an extra copy of Yagyin's Digest to give in return."
+   "answer": "Gerrig Bonegrip in Ironforge asks for three items and offers an extra copy of Yagyin's Digest in return."
   },
   {
    "q": "What three items does Gerrig Bonegrip want?",
@@ -63,7 +63,7 @@
     "what relics does he need",
     "bonegrips note items"
    ],
-   "answer": "Gerrig Bonegrip's note asks for three things: the Star of Xil'yeh, the Hand of Dagun and the Legacy Heart."
+   "answer": "Gerrig Bonegrip's note names the Star of Xil'yeh, the Hand of Dagun and the Legacy Heart."
   },
   {
    "q": "Why does Gerrig write the items down instead of saying them?",
@@ -72,7 +72,7 @@
     "why the secret note",
     "bonegrip whispers"
    ],
-   "answer": "Gerrig will not speak their names because someone may be listening."
+   "answer": "Gerrig writes the names down because someone may be listening."
   },
   {
    "q": "What came before this in the chain?",
@@ -101,5 +101,6 @@
  ],
  "attribution": [
   "The Star, the Hand and the Heart (Alliance)"
- ]
+ ],
+ "style": 2
 }

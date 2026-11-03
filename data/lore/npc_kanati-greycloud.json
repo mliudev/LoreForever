@@ -8,16 +8,16 @@
   "wiki": "Kanati Greycloud",
   "refs": 1
  },
- "summary": "Kanati Greycloud is a tauren hunter stationed at Whitereach Post within Thousand Needles. Alongside his hunting companions, he musters what defense he can while enduring constant hostility from the local Galak centaur.",
+ "summary": "At Whitereach Post, Kanati Greycloud and his companions stand against the Galak centaur. The tauren hunters watch western Thousand Needles as the centaur threat continues.",
  "sections": [
   {
    "title": "A Precarious Perch",
-   "body": "Kanati Greycloud makes his camp at Whitereach Post, high atop the sandstone spires of western Thousand Needles. While the canyon offers abundant game and open vistas, it is hemmed in by the Galak centaur, whose warbands contest every inch of the arid flats below. Together with other tauren hunters, Kanati keeps watch over the canyon floor, striving to preserve the post against the brutal depredations of the surrounding marauders.",
+   "body": "Kanati Greycloud keeps camp at Whitereach Post, high on the sandstone spires of western Thousand Needles. Game is plentiful there, and the view stretches across the canyon. Below, Galak warbands contest the arid flats. Kanati and the other tauren hunters watch the canyon floor and defend the post from nearby marauders.",
    "spoiler": 0
   },
   {
    "title": "Centaur Ambush",
-   "body": "The Galak centaur do not merely seek to isolate Whitereach Post; they intend to annihilate its defenders outright. Messengers sent between centaur camps carry explicit orders targeting Kanati and his companions for assassination. It falls to visiting travelers to intercept these marching orders and stand shoulder-to-shoulder with Kanati when the Galak raiding parties descend upon the mesa to cut down the outpost's hunters.",
+   "body": "Orders pass between Galak camps, calling for Kanati Greycloud and his companions to be assassinated. The centaur mean to destroy Whitereach Post and its defenders. Travelers can intercept the messengers carrying those orders, then stand with Kanati when Galak raiders descend on the mesa to attack the hunters.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "kanati greycloud lore",
     "whitereach post tauren"
    ],
-   "answer": "Kanati Greycloud is a tauren hunter based at Whitereach Post in western Thousand Needles, where he maintains a camp and defends against predatory local threats."
+   "answer": "Kanati Greycloud is a tauren hunter who keeps camp at Whitereach Post in western Thousand Needles. He defends the post against local threats."
   },
   {
    "q": "Where can I find Kanati Greycloud?",
@@ -38,7 +38,7 @@
     "where is kanati",
     "where is greycloud"
    ],
-   "answer": "Kanati is located at Whitereach Post, an elevated tauren encampment situated along the northern bluffs in the western portion of Thousand Needles."
+   "answer": "Find Kanati at Whitereach Post, a tauren encampment on the northern bluffs in western Thousand Needles."
   },
   {
    "q": "Why are the Galak centaur trying to kill him?",
@@ -47,17 +47,17 @@
     "galak assassination plot",
     "protect kanati why"
    ],
-   "answer": "The Galak centaur seek total dominance over the canyons of Thousand Needles and actively target Horde outposts. Intercepted orders reveal a coordinated plot by the centaur to assassinate Kanati and break the post's defenses."
+   "answer": "The Galak centaur seek dominance over the canyons and target Horde outposts. Orders between their camps call for Kanati's assassination and the breaking of Whitereach Post's defenses."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For tauren traversing Thousand Needles, aiding Kanati at Whitereach Post is a vital defense of tribal kin against their ancient, bitter enemies, the centaur."
+   "text": "As a tauren crossing Thousand Needles, you can help Kanati defend your kin at Whitereach Post against the centaur, their ancient enemies."
   },
   {
    "target": "faction:Horde",
-   "text": "Whitereach Post serves as a critical vantage point over the needle canyons; keeping Kanati alive ensures Horde scouts retain eyes on centaur troop movements."
+   "text": "As Horde, you rely on Whitereach Post's view over the needle canyons. Keeping Kanati alive helps Horde scouts watch centaur troop movements."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Kanati Greycloud"
- ]
+ ],
+ "style": 2
 }

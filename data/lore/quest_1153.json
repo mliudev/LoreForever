@@ -20,16 +20,16 @@
    "A New Ore Sample"
   ]
  },
- "summary": "Tatternack Steelforge seeks new ore in Thousand Needles to strengthen the Horde’s arms. The blacksmith in Camp Taurajo sends you south to bring back a sample for testing.",
+ "summary": "At Camp Taurajo, Tatternack Steelforge seeks ore in Thousand Needles to strengthen the Horde’s arms. He sends you south for a sample to test.",
  "sections": [
   {
    "title": "A Smith's Ambition",
-   "body": "Tatternack Steelforge works as a blacksmith in Camp Taurajo, under Orgrimmar’s direct scrutiny. He has already supplied weapons made from local centaur armaments, but still wants to prove his craft to Warchief Thrall. Travelers passing through showed him a strange piece of ore taken from a kobold to the south. When they refused to sell it, Tatternack took their refusal as an insult to his craft and the Horde.",
+   "body": "Tatternack Steelforge is a blacksmith in Camp Taurajo, watched closely by Orgrimmar. He has already made weapons from local centaur armaments. Yet he still hopes to prove his craft to Warchief Thrall. Travelers passing through showed him strange ore taken from a kobold to the south. When they refused to sell it, he took the refusal as an insult to his craft and the Horde.",
    "spoiler": 0
   },
   {
    "title": "Venture into Thousand Needles",
-   "body": "You leave the flat plains of the southern Barrens for the towering canyon mazes of Thousand Needles. Kobold diggers tunnel through its crags and cliffs. Bring back unrefined chunks taken directly from them, and Tatternack can judge whether the raw mineral can be forged into weapons worthy of Thrall’s war effort.",
+   "body": "You leave the southern Barrens’ flat plains for the towering canyon maze of Thousand Needles. Kobold diggers tunnel through its crags and cliffs. Bring back chunks of unrefined ore taken directly from them. Then Tatternack can judge whether the raw mineral can be forged into weapons for Thrall’s war effort.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "camp taurajo smith",
     "who is tatternack"
    ],
-   "answer": "Tatternack Steelforge is an orc weaponsmith stationed at Camp Taurajo in the southern Barrens. He crafts weapons for the Horde’s frontier defense and seeks new materials to impress Warchief Thrall."
+   "answer": "Tatternack Steelforge is an orc weaponsmith at Camp Taurajo in the southern Barrens. He crafts weapons for the Horde’s frontier defense and seeks new materials to impress Warchief Thrall."
   },
   {
    "q": "Where does this ore sample come from?",
@@ -50,7 +50,7 @@
     "ore location",
     "thousand needles ore"
    ],
-   "answer": "Kobolds carry the unrefined ore through the winding canyons of Thousand Needles, south of the Great Lift at the Barrens’ border."
+   "answer": "Kobolds carry the unrefined ore through Thousand Needles’ winding canyons, south of the Great Lift at the Barrens’ border."
   },
   {
    "q": "Why is Tatternack angry at the passing travelers?",
@@ -59,7 +59,7 @@
     "travelers ore",
     "tatternack travelers"
    ],
-   "answer": "Travelers from the south showed Tatternack a strange mineral chunk taken from a slain kobold, then refused to sell it. He saw their hoarding of vital materials as an unpatriotic insult to the Warchief and cursed them as cowards."
+   "answer": "Travelers from the south showed Tatternack a strange mineral chunk taken from a slain kobold, then refused to sell it. He saw their refusal to share vital materials as an unpatriotic insult to the Warchief and cursed them as cowards."
   },
   {
    "q": "What will Tatternack do with the ore?",
@@ -67,7 +67,7 @@
     "what happens to the ore",
     "why does he want ore"
    ],
-   "answer": "Tatternack plans to analyze the ore’s metallurgical properties and test its strength. If it proves durable enough, he intends to forge a prototype weapon and present it directly to Warchief Thrall in Orgrimmar."
+   "answer": "Tatternack plans to study the ore’s metal and test its strength. If it proves durable enough, he intends to forge a prototype weapon and present it to Warchief Thrall in Orgrimmar."
   },
   {
    "q": "What prerequisite must be completed before this task?",
@@ -76,7 +76,7 @@
     "prior quest",
     "weapons of choice"
    ],
-   "answer": "First, you complete Weapons of Choice by gathering specific weapons from the various centaur tribes threatening Camp Taurajo, proving that local armaments can be repurposed."
+   "answer": "First, you complete Weapons of Choice by gathering specific weapons from the centaur tribes threatening Camp Taurajo. This proves that local armaments can be repurposed."
   },
   {
    "q": "Why are kobolds in Thousand Needles carrying this ore?",
@@ -84,21 +84,21 @@
     "kobold mining",
     "thousand needles kobolds"
    ],
-   "answer": "Kobolds compulsively burrow and mine, tunneling through crags and subterranean veins. In Thousand Needles, their digging has uncovered unusual deposits that surface-dwellers have rarely touched."
+   "answer": "Kobolds burrow and mine, tunneling through crags and underground veins. In Thousand Needles, their digging has uncovered unusual deposits rarely touched by those who live above ground."
   }
  ],
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "As a Horde smith, you help secure new metal deposits to keep the frontier armed against surrounding threats."
+   "text": "As a Horde smith, you help secure new metal deposits to keep the frontier armed against nearby threats."
   },
   {
    "target": "faction:Horde",
-   "text": "At Camp Taurajo, you can contribute materials to the Warchief’s military preparations from the Horde’s southern bastion."
+   "text": "At Camp Taurajo, you can supply materials for the Warchief’s military preparations from the Horde’s southern bastion."
   },
   {
    "target": "profession:Mining",
-   "text": "As a prospector, you know the value of raw, unrefined veins unearthed by burrowing creatures in unexplored southern canyons."
+   "text": "As a prospector, you know the worth of raw veins unearthed by burrowing creatures in the unexplored southern canyons."
   }
  ],
  "keywords": [
@@ -122,5 +122,5 @@
  "attribution": [
   "A New Ore Sample"
  ],
- "style": 1
+ "style": 2
 }

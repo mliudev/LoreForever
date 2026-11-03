@@ -26,12 +26,12 @@
  "sections": [
   {
    "title": "Ratchet's Vital Lifeline",
-   "body": "Ratchet is the Steamwheedle Cartel's trading port on Kalimdor. Ships cross the Great Sea from Booty Bay with manufactured goods, exotic supplies, and heavy freight for the town's building and trade. When cargo goes missing, business suffers. Chief Engineer Gazlowe keeps close track of every crate brought into port.",
+   "body": "Ratchet is the Steamwheedle Cartel's trading port on Kalimdor. Ships cross the Great Sea from Booty Bay, bringing manufactured goods, exotic supplies, and heavy freight for building and trade. When cargo goes missing, business suffers. Chief Engineer Gazlowe tracks every crate brought into port.",
    "spoiler": 0
   },
   {
    "title": "Cross-Referencing the Cargo",
-   "body": "The Southsea Freebooters haunt the coast south of Ratchet and often intercept merchant ships. Gazlowe checks his records before accusing the pirates or sending anyone into a fight. He sends his inventory ledger to Wharfmaster Dizzywig at the docks. Dizzywig oversees the unloading and storage of ship cargo, and can check whether goods were lost at sea or misplaced in a warehouse.",
+   "body": "The Southsea Freebooters haunt the coast south of Ratchet and often intercept merchant ships. Gazlowe checks his records before accusing the pirates or sending anyone into a fight. He sends his inventory ledger to Wharfmaster Dizzywig at the docks.\n\nDizzywig oversees the unloading and storage of ship cargo. He can check whether goods were lost at sea or misplaced in a warehouse.",
    "spoiler": 0
   }
  ],
@@ -86,13 +86,13 @@
     "why send me",
     "gazlowe laziness"
    ],
-   "answer": "As Ratchet's Chief Engineer and leader, Gazlowe runs town affairs and expansion projects from his central office. He prefers to pay traveling adventurers to carry paperwork across town."
+   "answer": "As Ratchet's Chief Engineer and leader, Gazlowe runs town affairs and expansion projects from his central office. He prefers to pay travelers to carry paperwork across town."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Gazlowe's need for spare parts, exotic imports, and custom gear from Booty Bay shows the difficulty of keeping Ratchet's machinery running far from goblin industrial centers."
+   "text": "Gazlowe's need for spare parts, exotic imports, and custom gear from Booty Bay shows how hard it is to keep Ratchet's machinery running far from goblin industrial centers."
   },
   {
    "target": "faction:Horde",
@@ -119,5 +119,5 @@
  "attribution": [
   "The Missing Shipment"
  ],
- "style": 1
+ "style": 2
 }

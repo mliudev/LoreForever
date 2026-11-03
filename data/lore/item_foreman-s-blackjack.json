@@ -10,11 +10,11 @@
    "quest:lazy-peons"
   ]
  },
- "summary": "Foreman's Blackjack keeps peons at work in Durotar's Valley of Trials. Foremen use the leather-wrapped cosh to wake laborers who fall asleep during the Horde's early construction.",
+ "summary": "In the Valley of Trials, Foreman's Blackjack keeps Durotar's peons at work. Foremen use the leather-wrapped cosh to wake laborers who fall asleep during the Horde's early construction.",
  "sections": [
   {
    "title": "A Tool of Orcish Labor",
-   "body": "Durotar's rugged desert needs stockpiles of lumber for the Horde's new home. In the Valley of Trials, the work falls to the peons, and Foreman Thazz'ril keeps the crews moving with Foreman's Blackjack. The weighted bludgeon delivers a jarring wake-up call to laborers caught napping beneath the valley's shade trees, rather than a lethal blow. Peon life in the new Horde means grueling, unglamorous work under an iron fist.",
+   "body": "Durotar needs stockpiles of lumber for the Horde's new home. In the Valley of Trials, peons do the work, and Foreman Thazz'ril keeps the crews moving with Foreman's Blackjack. Its weighted blow jolts laborers awake when they nap beneath the valley's shade trees. It is meant to wake them, not kill them. Peon life in the new Horde means hard, unglamorous work under an iron fist.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why use blackjack",
     "peon club"
    ],
-   "answer": "Overseers give the blackjack to young adventurers to discipline sleeping peons in the Valley of Trials. A strike jolts a napping peon awake and sends them straight back to chopping and hauling wood."
+   "answer": "Overseers give the blackjack to young adventurers to discipline sleeping peons in the Valley of Trials. A strike jolts a napping peon awake, and they return to chopping and hauling wood."
   },
   {
    "q": "Who owns this blackjack?",
@@ -42,7 +42,7 @@
     "why are peons lazy",
     "lazy peons sleeping"
    ],
-   "answer": "Orcish peons work relentless, exhausting shifts gathering wood under Durotar's harsh sun. They often nap without permission beneath the valley's sparse trees when exhaustion overtakes them."
+   "answer": "Orcish peons work exhausting shifts gathering wood under Durotar's harsh sun. When exhaustion overtakes them, they often nap without permission beneath the valley's sparse trees."
   },
   {
    "q": "Can I keep the blackjack after finishing the task?",
@@ -50,17 +50,17 @@
     "keep blackjack",
     "can i keep foreman blackjack"
    ],
-   "answer": "No. The overseer demands the tool back immediately after the shirkers have been disciplined. It stays on hand for taskmasters enforcing labor quotas."
+   "answer": "No. The overseer demands the tool back as soon as the shirkers have been disciplined. It stays with taskmasters who enforce labor quotas."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "For young orcs entering the Valley of Trials, wielding the blackjack offers an early lesson in Horde hierarchy: those without a warrior's strength or spirit are relegated to labor and kept in line by force."
+   "text": "For young orcs entering the Valley of Trials, wielding the blackjack offers an early lesson in Horde hierarchy. Those without a warrior's strength or spirit are sent to labor and kept in line by force."
   },
   {
    "target": "faction:Horde",
-   "text": "The blackjack reflects the practical effort needed to tame Durotar, where settling a harsh land requires every laborer to work without pause."
+   "text": "The blackjack reflects the work needed to tame Durotar. Settling this harsh land requires every laborer to work without pause."
   }
  ],
  "keywords": [
@@ -81,5 +81,5 @@
   "Foreman's Blackjack",
   "Lazy Peons"
  ],
- "style": 1
+ "style": 2
 }

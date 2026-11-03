@@ -16,16 +16,16 @@
   "previous": "",
   "next": ""
  },
- "summary": "Tracks of hooves stretch off from the Shady Rest Inn, whose bare frame still smokes. A few can be seen clearly, while more rows are nearly lost in the marsh's soft ground. Krog at Brackenwall Village is the one to report them to.",
+ "summary": "At the Shady Rest Inn, hoofprints lead into the marsh. Its bare frame still smokes, and the tracks fade across the soft ground. Krog at Brackenwall Village should hear of them.",
  "sections": [
   {
    "title": "Prints in the Mud",
-   "body": "The Shady Rest Inn is a bare frame now, still smoking, and trails of hoofprints stretch off from it. Some impressions are easy to see; others can hardly be made out in the soft ground. Krog at Brackenwall Village should hear about them.",
+   "body": "The Shady Rest Inn is a smoking frame, with hoofprints stretching away into the marsh. Some impressions show clearly, while others are nearly lost in the soft ground. You carry word of the tracks to Krog at Brackenwall Village.",
    "spoiler": 0
   },
   {
    "title": "Krog's Reply",
-   "body": "Krog allows that the quilboar may have done it, or even the centaur, since both have a sizeable presence in the Barrens and the deed would not be hard to believe of them. Krog adds that the inn was not only burned: the inn's owner also lost a woman and a pup, both killed. Krog will send Kagoro to learn where the tracks lead.",
+   "body": "Krog suspects the quilboar or the centaur may have burned the inn. Both have a sizeable presence in the Barrens, and either could have done it. The inn's owner also lost a woman and a pup, both killed. So Krog sends Kagoro to learn where the tracks lead.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "where are tracks",
     "shady rest inn prints"
    ],
-   "answer": "They lead away from the Shady Rest Inn, whose bare frame still smokes, over the marsh's soft ground."
+   "answer": "The hoofprints lead away from the Shady Rest Inn, whose bare frame still smokes, and cross the marsh's soft ground."
   },
   {
    "q": "Who should hear about the hoofprints?",
@@ -46,7 +46,7 @@
     "krog location",
     "where to report hoofprints"
    ],
-   "answer": "Krog, at Brackenwall Village, is the one to report them to."
+   "answer": "You should report the hoofprints to Krog at Brackenwall Village."
   },
   {
    "q": "How many prints are there?",
@@ -54,7 +54,7 @@
     "how many hoofprints",
     "how many tracks"
    ],
-   "answer": "A few are clearly visible, and further rows are nearly impossible to see in the mud."
+   "answer": "A few hoofprints show clearly, while more rows are nearly lost in the mud."
   }
  ],
  "angles": [],
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Classic quest text: Suspicious Hoofprints"
- ]
+ ],
+ "style": 2
 }

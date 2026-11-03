@@ -10,16 +10,16 @@
    "quest:6301"
   ]
  },
- "summary": "Along Mirkfallon Lake, Gaea Seeds offer a way to heal Stonetalon's wounded land. Tauren shamans value the hardy kernels for restoring places scarred by war and industry.",
+ "summary": "Along Mirkfallon Lake, Gaea Seed offers hope for Stonetalon's wounded land. Tauren shamans value its hardy kernels for healing places scarred by war and industry.",
  "sections": [
   {
    "title": "Vessels of Renewal",
-   "body": "Gaea Seeds wash ashore or grow along Mirkfallon Lake in the Stonetalon Mountains. Small and fibrous, they look like coconuts, yet endure harsh conditions. As conflict and industry scar the land, shamans see the seeds as a means to heal it.",
+   "body": "Gaea Seeds wash ashore or grow along Mirkfallon Lake in the Stonetalon Mountains. Small and fibrous, they resemble coconuts and endure harsh conditions. Conflict and industry have scarred the land, so shamans turn to the seeds to help heal it.",
    "spoiler": 0
   },
   {
    "title": "Blessings of the Earthmother",
-   "body": "At Sun Rock Retreat, the tauren shaman Tammra Windfield gathers Gaea Seeds to counter the destruction across the peaks. Shamans use traditional chants and elemental rites to bless the dormant husks with the Earthmother's power. That blessing hastens their growth, making them hardy saplings able to take root in scorched, barren ground such as the Charred Vale.",
+   "body": "At Sun Rock Retreat, the tauren shaman Tammra Windfield gathers Gaea Seeds against the destruction across the peaks. Shamans bless the dormant husks with the Earthmother's power through traditional chants and elemental rites. The blessing hastens their growth. They become hardy saplings that can take root in scorched, barren ground such as the Charred Vale.",
    "spoiler": 1
   }
  ],
@@ -62,7 +62,7 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you see how elemental rites and the Earthmother's blessing can hasten growth and help heal damaged land."
+   "text": "As a shaman, you know elemental rites and the Earthmother's blessing can hasten growth and help heal damaged land."
   },
   {
    "target": "race:Tauren",
@@ -92,5 +92,5 @@
   "Gaea Seed",
   "Cycle of Rebirth"
  ],
- "style": 1
+ "style": 2
 }

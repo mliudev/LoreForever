@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Tranquil Gardens Cemetery"
  },
- "summary": "Southeast of Darkshire, Tranquil Gardens Cemetery is overrun by shambling skeletons and ghouls. The former burial site has become an immediate hazard for the nearby town.",
+ "summary": "Southeast of Darkshire, Tranquil Gardens Cemetery is overrun by shambling skeletons and ghouls. The dead make it a danger to the nearby town.",
  "sections": [
   {
    "title": "Restless Grounds",
-   "body": "Tranquil Gardens Cemetery was once a quiet resting place for the departed of Grand Hamlet. Dark curses settled over Duskwood, and the dead buried here began clawing their way out of their plots. Skeletal warriors, skeletal mages, and wandering undead haunt the gravestones. Though relatively weak beside the horrors deeper in the woods, they pose a relentless threat to townsfolk so close to Darkshire.",
+   "body": "Once the people of Grand Hamlet laid their dead in Tranquil Gardens Cemetery. Then dark curses settled over Duskwood, and the buried began clawing out of their plots. Skeletal warriors and mages haunt the gravestones, along with wandering undead. They are weaker than the horrors deeper in the woods, but their nearness to Darkshire makes them a constant threat to the townsfolk.",
    "spoiler": 0
   },
   {
    "title": "On the Town's Threshold",
-   "body": "Tranquil Gardens Cemetery lies close to Darkshire's edge, making it the Night Watch's frontline. The Watch often sends fresh recruits and arriving adventurers to cull the rising dead before they reach the settlement. More dangerous threats, such as the Insane Ghoul, lurk among the tumbled headstones and the ruined chapel.",
+   "body": "Tranquil Gardens Cemetery lies near Darkshire's edge, where the Night Watch holds its line. The Watch sends fresh recruits and arriving adventurers to thin the rising dead before they reach the settlement. Yet more dangerous foes lurk among the tumbled headstones and the ruined chapel. The Insane Ghoul is one of them.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "tranquil gardens name origin",
     "why is it called tranquil"
    ],
-   "answer": "Tranquil Gardens Cemetery was established when Darkshire was still known as Grand Hamlet, a peaceful settlement in a then-sunlit forest. It was meant to be a quiet, dignified resting place for local families. The name became grimly ironic after the curse fell over the region and the dead began rising from their graves."
+   "answer": "Tranquil Gardens Cemetery was established when Darkshire was still Grand Hamlet, a peaceful settlement in a sunlit forest. Local families meant it to be a quiet and dignified resting place. The name turned grimly ironic when the curse fell over the region and the dead began rising from their graves."
   },
   {
    "q": "What threats wander around the cemetery?",
@@ -37,7 +37,7 @@
     "what mobs are here",
     "cemetery mobs"
    ],
-   "answer": "The grounds are infested with relatively weak undead, including shambling skeletons, skeletal warriors, and skeletal mages. A particularly vicious Insane Ghoul haunts the ruined chapel or roams the headstones."
+   "answer": "Shambling skeletons, skeletal warriors and skeletal mages haunt the grounds. A particularly vicious Insane Ghoul haunts the ruined chapel or roams among the headstones."
   },
   {
    "q": "Why does the Night Watch send recruits here?",
@@ -46,7 +46,7 @@
     "why cull tranquil gardens",
     "who protects the cemetery"
    ],
-   "answer": "The cemetery sits immediately southeast of Darkshire, so unchecked undead numbers threaten to spill directly into town. The Night Watch uses the site to blood new defenders against weaker undead before sending them deeper into the dangerous forest."
+   "answer": "The cemetery sits immediately southeast of Darkshire, and unchecked undead threaten to spill into town. The Night Watch sends recruits there to face weaker undead before they enter the dangerous forest."
   },
   {
    "q": "Who lives just north of the cemetery?",
@@ -61,11 +61,11 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a paladin, you face an affront to the Holy Light in Tranquil Gardens Cemetery. The graveyard is an urgent proving ground for those seeking to grant peace to Duskwood's restless dead."
+   "text": "As a paladin, you face an affront to the Holy Light in Tranquil Gardens Cemetery. There, you prove yourself by bringing peace to Duskwood's restless dead."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance champion arriving in Darkshire, you help defend this nearby graveyard and keep the town's perimeter secure from an undead breach."
+   "text": "As an Alliance champion arriving in Darkshire, you help defend the nearby graveyard and keep the town's perimeter safe from the undead."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
  "attribution": [
   "Tranquil Gardens Cemetery"
  ],
- "style": 1
+ "style": 2
 }

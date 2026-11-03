@@ -15,21 +15,21 @@
   "previous": "",
   "next": ""
  },
- "summary": "Katoom the Angler, from Revantusk Village in the Hinterlands, has lost his best lure to Gammerita, the head of the saltwater snapjaws. You are asked to find her and get it back.",
+ "summary": "At Revantusk Village, Katoom the Angler wants his best lure back from Gammerita, Mon!, who leads the saltwater snapjaws. Find her and recover it.",
  "sections": [
   {
    "title": "A Thief Among the Turtles",
-   "body": "Katoom describes Gammerita as no ordinary turtle: she heads the saltwater snapjaws, and Katoom brands her a thief. She snapped his best lure off his line, and since then the fish have not bitten the way they used to.",
+   "body": "Katoom says Gammerita, Mon! is no ordinary turtle. She leads the saltwater snapjaws, and he calls her a thief. She snapped his best lure off his line. Since then, the fish have not bitten as they once did.",
    "spoiler": 0
   },
   {
    "title": "Getting the Lure Back",
-   "body": "Katoom wants you to find Gammerita and recover the lure from her stomach. Gammerita keeps to the coast, among the other turtles.",
+   "body": "Katoom wants you to find Gammerita, Mon! and recover his lure from her stomach. She stays along the coast among the other turtles.",
    "spoiler": 0
   },
   {
    "title": "Katoom's Hopes",
-   "body": "With the lure back in hand and fewer snapjaws about, Katoom expects the fish to come in by the heap.",
+   "body": "With his lure back and fewer snapjaws about, Katoom expects the fish to come in by the heap.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "katoom revantusk",
     "katoom location"
    ],
-   "answer": "A fisher of Revantusk in the Hinterlands, who asks you to hunt Gammerita."
+   "answer": "Katoom the Angler fishes at Revantusk Village in the Hinterlands. He asks you to hunt Gammerita, Mon!."
   },
   {
    "q": "What is Gammerita?",
@@ -50,7 +50,7 @@
     "what is gammerita",
     "gammerita turtle"
    ],
-   "answer": "A turtle unlike the others, who heads the saltwater snapjaws and whom Katoom calls a thief."
+   "answer": "Gammerita, Mon! is no ordinary turtle. She leads the saltwater snapjaws, and Katoom calls her a thief."
   },
   {
    "q": "Why does Katoom want Gammerita dead?",
@@ -59,7 +59,7 @@
     "what did gammerita steal",
     "katoom motive"
    ],
-   "answer": "Gammerita snapped Katoom's best lure off his line, and the fish have not been biting the same since. Katoom wants the lure back from her stomach."
+   "answer": "Gammerita, Mon! snapped Katoom's best lure off his line, and the fish have not bitten as they once did. He wants it back from her stomach."
   },
   {
    "q": "Where can Gammerita be found?",
@@ -68,7 +68,7 @@
     "gammerita location",
     "find gammerita"
    ],
-   "answer": "On the coast, where she keeps company with the other saltwater snapjaw turtles."
+   "answer": "Gammerita, Mon! stays on the coast among the other saltwater snapjaw turtles."
   }
  ],
  "angles": [],
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Classic quest text: Gammerita, Mon!"
- ]
+ ],
+ "style": 2
 }

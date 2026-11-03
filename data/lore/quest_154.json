@@ -17,16 +17,16 @@
   "wiki": "Return the Comb (Classic)",
   "chain": []
  },
- "summary": "Madame Eva waits in Darkshire for the comb Blind Mary has returned. Its ghostly strands can be spun into Ghost Hair Thread.",
+ "summary": "In Darkshire, Madame Eva waits for the comb Blind Mary has returned. Its ghostly strands can be spun into Ghost Hair Thread.",
  "sections": [
   {
    "title": "A Bitter Reflection",
-   "body": "Blind Mary waits in a shack south of Darkshire, mourning her death and the change it brought. Madame Eva’s comb reminds her of mortal grooming, and deepens her sorrow. She sees only an apparition, a monster stripped of mortal grace, certain no one can love her again. In horror, she thrusts the comb and the ghostly hair tangled in its teeth back into your hands.",
+   "body": "Blind Mary waits in a shack south of Darkshire, grieving the death that changed her. Madame Eva’s comb recalls the grooming of her mortal life, and deepens her sorrow. She sees only a wraith, a monster stripped of mortal grace. Certain no one can love her again, she thrusts the comb and the ghostly hair tangled in its teeth back into your hands.",
    "spoiler": 0
   },
   {
    "title": "Weaving the Supernatural",
-   "body": "Madame Eva awaits the comb in Darkshire, knowing the task was grim. The ghostly hair gives the fortune teller what she needs to spin a spool of Ghost Hair Thread. She pays you for any strands left over after the delicate work.",
+   "body": "Madame Eva awaits the comb in Darkshire, knowing the work was grim. With the ghostly hair, the fortune teller can spin a spool of Ghost Hair Thread. She pays you for any strands left after the delicate work.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why did blind mary scream",
     "mary comb reaction"
    ],
-   "answer": "The comb reminds Blind Mary of her mortal life and beauty. Seeing herself as a withered spirit overwhelms her with grief, and she rejects the comb, lamenting that she has become a monster no one will cherish."
+   "answer": "The comb recalls Blind Mary’s mortal life and beauty. Seeing herself as a withered spirit overwhelms her with grief, and she rejects the comb, convinced she has become a monster no one will cherish."
   },
   {
    "q": "What does Madame Eva do with the hair on the comb?",
@@ -79,7 +79,7 @@
     "why do i get coins",
     "extra strands money"
    ],
-   "answer": "Madame Eva says the comb held more than enough ghostly hair for the spool. She gives you a few coins for the surplus strands she keeps."
+   "answer": "Madame Eva says the comb held more than enough ghostly hair for the spool. She gives you a few coins for the extra strands she keeps."
   }
  ],
  "angles": [
@@ -89,11 +89,11 @@
   },
   {
    "target": "class:Priest",
-   "text": "Blind Mary’s self-loathing reveals the torment of spirits bound to the mortal world by grief rather than malice."
+   "text": "As a priest, you can see how grief torments spirits bound to the mortal world, even when they mean no harm."
   },
   {
    "target": "faction:Alliance",
-   "text": "The gloomy roads between Darkshire and Mary’s home expose travelers to the decay gripping Duskwood."
+   "text": "As an Alliance traveler, you cross gloomy roads between Darkshire and Mary’s home, where Duskwood’s decay reaches the roads."
   }
  ],
  "keywords": [
@@ -115,5 +115,5 @@
  "attribution": [
   "Return the Comb (Classic)"
  ],
- "style": 1
+ "style": 2
 }

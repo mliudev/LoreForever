@@ -10,16 +10,16 @@
    "quest:1089"
   ]
  },
- "summary": "Deep beneath Stonetalon Peak, the Barrow Key lies locked in the Talon Den. It is one of three druidic keys guarding the ancient treasures sealed within the den's hoard.",
+ "summary": "Deep beneath Stonetalon Peak, three druidic keys guard the Talon Den's ancient hoard. The Barrow Key lies locked within the den.",
  "sections": [
   {
    "title": "A Guardian's Safeguard",
-   "body": "Night elf druids placed wards throughout the Talon Den's underground barrows to protect their relics from intruders. The Barrow Key is hidden in a cache among the passages, one part of that layered defense. The cache opens only with the Gatekeeper's Key, so a seeker must know the druids' defenses to reach it.",
+   "body": "Night elf druids warded the underground barrows of the Talon Den to keep intruders from their relics. Among the passages, the Barrow Key rests in a hidden cache. Reaching it means passing through the druids' layered defenses.\n\nOnly the Gatekeeper's Key opens the cache. A seeker must know how those defenses work to claim the Barrow Key.",
    "spoiler": 0
   },
   {
    "title": "Unlocking the Hoard",
-   "body": "The Barrow Key, the Claw Key, and the Sleepers' Key fit three carved keyholes in a stone altar deep in the Talon Den. Turn all three together, and the protective enchantments fade. The druidic relics in the hidden hoard are then within reach.",
+   "body": "The Barrow Key, the Claw Key, and the Sleepers' Key fit three carved keyholes in a stone altar deep in the Talon Den. Turn all three together, and the protective enchantments fade. Then the druidic relics in the hidden hoard lie within reach.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what does barrow key open",
     "use of barrow key"
    ],
-   "answer": "The Barrow Key works with the Claw Key and the Sleepers' Key to open the Talon Den Hoard, a stone chest of protected druidic relics deep within Stonetalon Peak."
+   "answer": "The Barrow Key works with the Claw Key and the Sleepers' Key to open the Talon Den Hoard. The stone chest holds protected druidic relics deep within Stonetalon Peak."
   },
   {
    "q": "Where is the Barrow Key hidden?",
@@ -57,7 +57,7 @@
     "who made barrow key",
     "who hid the keys in talon den"
    ],
-   "answer": "Night elf druids living in Stonetalon Peak devised the den's elaborate defenses to keep their powerful artifacts from hostile hands. They concealed the keys in different parts of the den."
+   "answer": "Night elf druids living in Stonetalon Peak devised the Talon Den's defenses to keep their powerful artifacts from hostile hands. They concealed the keys in different parts of the den."
   }
  ],
  "angles": [
@@ -94,5 +94,5 @@
   "Barrow Key",
   "The Den (quest)"
  ],
- "style": 1
+ "style": 2
 }

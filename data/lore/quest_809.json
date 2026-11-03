@@ -17,16 +17,16 @@
   "wiki": "Ak'Zeloth (Classic)",
   "chain": []
  },
- "summary": "Neeru Fireblade sends you from Orgrimmar into the Barrens after signs of demonic corruption emerge. His contact waits near the border.",
+ "summary": "Near Orgrimmar, Neeru Fireblade sends you into the Barrens as demonic corruption stirs. His contact waits near the border.",
  "sections": [
   {
    "title": "A Trail of Shadow",
-   "body": "Neeru Fireblade says the Burning Blade still threatens the Horde with demonic corruption. After you bring him a Burning Blade insignia collar from Durotar, he sends you into the Barrens. A cult gathers around the Demon Seed, an artifact of vile power, and Neeru wants you to find his contact near the border.",
+   "body": "Neeru Fireblade says the Burning Blade still threatens the Horde with demonic corruption. You have brought him a Burning Blade insignia collar from Durotar, and now he sends you into the Barrens. A cult gathers around the Demon Seed, an artifact of vile power. Neeru wants you to find his contact near the border.",
    "spoiler": 0
   },
   {
    "title": "The Outpost Contact",
-   "body": "Ak'Zeloth waits near the Far Watch Post, on the Durotar-Barrens border. Neeru's assistant doubts aloud that his master truly wants the Demon Seed destroyed. He then tells you how to handle the artifact atop Dreadmist Peak.",
+   "body": "Ak'Zeloth waits near the Far Watch Post on the Durotar-Barrens border. Neeru's assistant wonders aloud whether his master truly wants the Demon Seed destroyed. Then he explains how to handle the artifact atop Dreadmist Peak.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "where to get ak'zeloth",
     "neeru fireblade quest"
    ],
-   "answer": "Neeru Fireblade, a warlock in Orgrimmar's Cleft of Shadow, gives you this request after you present him with a Burning Blade collar."
+   "answer": "Neeru Fireblade, a warlock in Orgrimmar's Cleft of Shadow, asks you to help after you present him with a Burning Blade collar."
   },
   {
    "q": "Where is Ak'Zeloth located?",
@@ -63,7 +63,7 @@
     "why is ak'zeloth surprised",
     "strange reaction ak'zeloth"
    ],
-   "answer": "Ak'Zeloth says only that it is strange Neeru wants the Demon Seed destroyed, then agrees to explain how to remove it."
+   "answer": "Ak'Zeloth says only that Neeru's wish to destroy the Demon Seed is strange, then agrees to explain how to remove it."
   },
   {
    "q": "What quest follows this one?",
@@ -89,7 +89,7 @@
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, you know the cost of the Burning Legion's grasp. The Burning Blade cult and demonic relics on your doorstep threaten that hard-won freedom."
+   "text": "As an orc, you know the cost of the Burning Legion's grasp. The Burning Blade cult and demonic relics on your doorstep threaten your hard-won freedom."
   },
   {
    "target": "faction:Horde",
@@ -117,5 +117,5 @@
  "attribution": [
   "Ak'Zeloth (Classic)"
  ],
- "style": 1
+ "style": 2
 }

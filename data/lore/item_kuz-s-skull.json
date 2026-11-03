@@ -10,16 +10,16 @@
    "quest:879"
   ]
  },
- "summary": "In the southern Barrens, Kuz's Skull marks the end of a feared Razormane raider. Kuz came from Razorfen Kraul and helped lead attacks on Horde outposts before a captive former kin sought vengeance.",
+ "summary": "In the southern Barrens, Kuz's Skull marks the fall of a feared Razormane raider. From Razorfen Kraul, Kuz helped lead attacks on Horde outposts until a captive former kin sought vengeance.",
  "sections": [
   {
    "title": "A Bitter Feud",
-   "body": "Kuz, Nak, and their chieftain Lok Orcbane led Razormane attacks across the southern Barrens. Sent from Razorfen Kraul, the three raiders struck travelers and settlements such as the Crossroads. Their betrayal of Mangletooth, a fellow quilboar, turned one of their own against them. They left Mangletooth to rot in a cage at Camp Taurajo. From that cage, he revealed Kuz's location to Horde champions willing to kill the raider and take her head.",
+   "body": "Kuz, Nak, and their chieftain Lok Orcbane led Razormane attacks across the southern Barrens. Sent from Razorfen Kraul, the three raiders struck travelers and settlements such as the Crossroads. They betrayed Mangletooth, a fellow quilboar, and left him to rot in a cage at Camp Taurajo. From there, Mangletooth revealed Kuz's location to Horde champions willing to kill the raider and take her head.",
    "spoiler": 0
   },
   {
    "title": "Proof of Retribution",
-   "body": "Kuz's Skull proves to Mangletooth that one of the three leaders of the southern warband is dead. For him, the head brings satisfaction against the tribe that abandoned him. Across the Barrens, Kuz's death breaks the command behind the Razormane attacks and gives the supply roads across the plains a brief respite.",
+   "body": "Kuz's Skull proves to Mangletooth that one of the three leaders of the southern warband is dead. The head satisfies his vengeance against the tribe that abandoned him. Kuz's death breaks the command behind the Razormane attacks, giving the supply roads across the plains a brief respite.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "kuz location",
     "where to find kuz"
    ],
-   "answer": "Kuz is found in the southern Barrens, with the Razormane quilboar south of Camp Taurajo near the thorny border regions."
+   "answer": "Kuz is found in the southern Barrens among the Razormane quilboar, south of Camp Taurajo near the thorny border regions."
   },
   {
    "q": "What happens after Kuz is slain?",
@@ -55,7 +55,7 @@
     "kuz quest reward",
     "betrayal from within outcome"
    ],
-   "answer": "When Kuz's Skull and the heads of Nak and Lok Orcbane reach Mangletooth, they break the leadership behind the Razormane attacks and help secure the southern trade routes."
+   "answer": "When Kuz's Skull and the heads of Nak and Lok Orcbane reach Mangletooth, they break the command behind the Razormane attacks and help secure the southern trade routes."
   }
  ],
  "angles": [
@@ -88,5 +88,5 @@
   "Kuz's Skull",
   "Betrayal from Within (1)"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Corrahn's Dagger"
  },
- "summary": "Syndicate cutthroats hold Corrahn's Dagger, the second ridge among northern Hillsbrad's four rocky fingers. They use its high ground as a hideout.",
+ "summary": "Syndicate cutthroats hold Corrahn's Dagger, the second ridge among northern Hillsbrad's four rocky fingers. From its heights, they watch the valley and keep a hideout.",
  "sections": [
   {
    "title": "A Northern Strongpoint",
-   "body": "Corrahn's Dagger rises in northern Hillsbrad Foothills as the second of four rocky ridges called the fingers of Hillsbrad. Syndicate cutthroats overrun the ridge and use its height to watch the valley below.",
+   "body": "In northern Hillsbrad Foothills, Corrahn's Dagger is the second of four rocky ridges called the fingers of Hillsbrad. Syndicate cutthroats overrun the ridge and use its high ground to watch the valley below.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf crossing the northern foothills, expect bandits rather than allies at this Syndicate hideout."
+   "text": "As a dwarf crossing the northern foothills, expect bandits at this Syndicate hideout rather than allies."
   },
   {
    "target": "race:Undead",
@@ -61,5 +61,5 @@
  "attribution": [
   "Corrahn's Dagger"
  ],
- "style": 1
+ "style": 2
 }

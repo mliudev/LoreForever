@@ -8,21 +8,21 @@
   "wiki": "Ilthalaine",
   "refs": 7
  },
- "summary": "In Shadowglen, Ilthalaine keeps watch over the sacred glade and guides young night elves as they begin their lives in Teldrassil. He teaches them to defend their home and tend its balance.",
+ "summary": "In Shadowglen, Ilthalaine keeps watch over the sacred glade and guides young night elves as they begin life in Teldrassil. He teaches them to defend their home and tend its balance.",
  "sections": [
   {
    "title": "Guardian of the Glen",
-   "body": "Ilthalaine watches the woodland paths just outside Shadowglen's heart. He sees changes in the forest that ordinary eyes miss. When young night elves awaken to their duties, he welcomes them and grounds them in Kaldorei traditions. His guidance prepares them to care for Teldrassil and shoulder the responsibilities of its defenders.",
+   "body": "Just beyond Shadowglen's heart, Ilthalaine watches the woodland paths. He notices changes in the forest that ordinary eyes miss. When young night elves awaken to their duties, he welcomes them and teaches Kaldorei traditions. His guidance prepares them to care for Teldrassil and take up the work of its defenders.",
    "spoiler": 0
   },
   {
    "title": "The Balance of Nature",
-   "body": "Heavy spring rains have brought more nightsabers and thistle boars to Shadowglen than the glade can feed. Ilthalaine asks young defenders to thin their numbers, leaving room for the woodland's other creatures to flourish and restoring nature's balance.",
+   "body": "Heavy spring rains have brought more nightsabers and thistle boars to Shadowglen than the glade can feed. Ilthalaine asks young defenders to thin their numbers. With fewer beasts, the woodland's other creatures can flourish and nature's balance can be restored.",
    "spoiler": 0
   },
   {
    "title": "A Guide to Discipline",
-   "body": "Ilthalaine tests young elves against local wildlife and points them toward their chosen callings. He gives each traveler a class sigil and directs them to their mentors in the Aldrassil sanctuary. Warriors, druids, rogues, priests, and hunters all find where their service to the Kaldorei begins.",
+   "body": "Ilthalaine tests young elves against local wildlife and points each toward a chosen calling. He gives each traveler a class sigil, then sends them to their mentors in the Aldrassil sanctuary. Warriors, druids, rogues, priests, and hunters each find where their service to the Kaldorei begins.",
    "spoiler": 0
   }
  ],
@@ -52,7 +52,7 @@
     "why kill nightsabers",
     "why kill boars"
    ],
-   "answer": "Heavy spring rains have increased the nightsaber and thistle boar populations beyond what Shadowglen can support. Ilthalaine asks for their numbers to be thinned so nature's balance can be preserved."
+   "answer": "Heavy spring rains have increased the nightsaber and thistle boar populations beyond what Shadowglen can support. Ilthalaine asks young defenders to thin their numbers and preserve nature's balance."
   },
   {
    "q": "What are the sigils he gives out?",
@@ -80,7 +80,7 @@
     "is he a druid",
     "what faction is ilthalaine"
    ],
-   "answer": "Ilthalaine guides novices of every discipline in Shadowglen. He is attuned to nature's harmony and represents the Kaldorei there."
+   "answer": "Ilthalaine guides novices of every discipline in Shadowglen. Attuned to nature's harmony, he represents the Kaldorei there."
   }
  ],
  "angles": [
@@ -120,5 +120,5 @@
  "attribution": [
   "Ilthalaine"
  ],
- "style": 1
+ "style": 2
 }

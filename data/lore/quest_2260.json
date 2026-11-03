@@ -20,16 +20,16 @@
    "Erion's Behest"
   ]
  },
- "summary": "Across the Great Sea, Erion's Behest carries a summons to promising night elf rogues in Darnassus. Erion Shadewhisper sees their growing skill in stealth and sends them to Stormwind City to report to Stormwind Intelligence.",
+ "summary": "In Darnassus, Erion Shadewhisper sends promising night elf rogues across the Great Sea. He sees their growing skill in stealth and directs them to Stormwind City to report to Stormwind Intelligence.",
  "sections": [
   {
    "title": "A Summons Across the Sea",
-   "body": "Night elf rogues in Teldrassil's shadow train under mentors such as Erion Shadewhisper. When one shows exceptional talent, word reaches beyond the World Tree. Through Erion, Stormwind Intelligence, known as SI:7, invites the rogue across the Great Sea to the human capital.",
+   "body": "Night elf rogues train in Teldrassil's shadow under mentors such as Erion Shadewhisper. When one shows exceptional talent, word travels beyond the World Tree. Through Erion, Stormwind Intelligence, also called SI:7, invites you across the Great Sea to the human capital.",
    "spoiler": 0
   },
   {
    "title": "Entering the Service of SI:7",
-   "body": "The journey leads from northern Kalimdor through the docks of Darkshore or the Wetlands to Stormwind City. In the capital, you make your way to SI:7 headquarters in Old Town and report to Renzik \"The Shiv.\" He assesses newcomers and opens the way to advanced espionage, poison mastery, and covert operations for the Alliance.",
+   "body": "From northern Kalimdor, you travel by way of the docks at Darkshore or the Wetlands to Stormwind City. In the capital, you make your way to SI:7 headquarters in Old Town and report to Renzik \"The Shiv.\" He assesses newcomers and opens the way to advanced espionage, poison mastery, and covert operations for the Alliance.",
    "spoiler": 0
   }
  ],
@@ -68,7 +68,7 @@
     "can other classes do this",
     "is this rogue quest"
    ],
-   "answer": "Yes. This Alliance rogue assignment guides operatives from Kalimdor to Stormwind, the center of Alliance intelligence training."
+   "answer": "Yes. This Alliance assignment guides rogues from Kalimdor to Stormwind, the center of Alliance intelligence training."
   },
   {
    "q": "What happens after meeting Renzik?",
@@ -77,7 +77,7 @@
     "what do i get",
     "after renzik"
    ],
-   "answer": "Reporting to Renzik brings you into SI:7's training operations in the Eastern Kingdoms, where specialized training and covert assignments await throughout the human lands."
+   "answer": "Reporting to Renzik brings you into SI:7's training operations in the Eastern Kingdoms. Specialized training and covert assignments await throughout the human lands."
   },
   {
    "q": "How does a night elf get to Stormwind City at this stage?",
@@ -124,5 +124,5 @@
  "attribution": [
   "Erion's Behest"
  ],
- "style": 1
+ "style": 2
 }

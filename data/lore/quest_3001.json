@@ -17,16 +17,16 @@
   "wiki": "Seeking Strahad (Undercity)",
   "chain": []
  },
- "summary": "Carendin Halgar sends Horde warlocks across the Great Sea to seek Strahad Farsan. Above Ratchet, a human sorcerer offers a path beyond basic shadowcraft toward the difficult art of summoning a felhunter.",
+ "summary": "Carendin Halgar sends Horde warlocks across the Great Sea to seek Strahad Farsan. Above Ratchet, a human sorcerer offers them a path beyond basic instruction and toward the difficult art of summoning a felhunter.",
  "sections": [
   {
    "title": "A Master Across the Sea",
-   "body": "Carendin Halgar, a Forsaken warlock trainer in the Undercity's Magic Quarter, knows when an initiate has outgrown basic instruction. He sends his pupils beyond Lordaeron's ruins to find Strahad Farsan. Halgar warns that Strahad is a living human, but no weakling, and says not to treat him as an enemy. For warlocks, the pursuit of demonic mastery often crosses racial and factional lines.",
+   "body": "Carendin Halgar trains warlocks in the Undercity's Magic Quarter. When an initiate outgrows basic instruction, he sends them beyond Lordaeron's ruins to find Strahad Farsan. Halgar warns that Strahad is a living human, but no weakling, and says not to treat him as an enemy. The pursuit of demonic mastery can cross racial and factional lines.",
    "spoiler": 0
   },
   {
    "title": "The Overlook at Ratchet",
-   "body": "Strahad works from the bluffs above Ratchet, the goblin port in the Barrens. Near a stone watchtower, he looks down on the sailors, mercenaries, and merchants below, whose blissful ignorance of the Twisting Nether amuses him. Horde warlocks who reach him may bring distrust and simmering hatred in their eyes. Strahad accepts that raw malice as fuel to shape into dark authority.",
+   "body": "Strahad works from the bluffs above Ratchet, the goblin port in the Barrens. Near a stone watchtower, he looks down on the sailors, mercenaries, and merchants below, amused by their blissful ignorance of the Twisting Nether. Horde warlocks may reach him with distrust and simmering hatred in their eyes. Strahad accepts that raw malice as fuel to shape into dark authority.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why send to human",
     "carendin sending to strahad"
    ],
-   "answer": "Warlocks often set aside factional divisions to pursue rare and potent dark lore. Carendin Halgar says Strahad Farsan has a specialized command of greater demonic summonings that Halgar cannot teach. In the pursuit of demonic power, an instructor's knowledge matters more than their bloodline."
+   "answer": "Warlocks often set factional divisions aside to pursue rare and potent dark lore. Carendin Halgar says Strahad Farsan has a specialized command of greater demonic summonings that Halgar cannot teach. In the pursuit of demonic power, an instructor's knowledge matters more than their bloodline."
   },
   {
    "q": "Where exactly is Strahad Farsan located?",
@@ -47,7 +47,7 @@
     "where is strahad",
     "how to find strahad"
    ],
-   "answer": "Strahad Farsan is in the Barrens, on the high cliffs above the goblin port of Ratchet. He stands near a stone tower overlooking the bay and the busy harbor docks."
+   "answer": "Strahad Farsan is in the Barrens, on the high cliffs above Ratchet, a goblin port. He stands near a stone tower overlooking the bay and busy harbor docks."
   },
   {
    "q": "What kind of power does Strahad teach?",
@@ -56,7 +56,7 @@
     "what is this quest for",
     "felhunter quest"
    ],
-   "answer": "Strahad guides experienced warlocks through the complex rituals for binding greater demons from the Twisting Nether. His instruction leads toward the dangerous trials of summoning and commanding a felhunter."
+   "answer": "Strahad guides experienced warlocks through complex rituals for binding greater demons from the Twisting Nether. His instruction leads toward the dangerous trials of summoning and commanding a felhunter."
   },
   {
    "q": "Is Strahad allied with the Alliance?",
@@ -120,5 +120,5 @@
  "attribution": [
   "Seeking Strahad (Undercity)"
  ],
- "style": 1
+ "style": 2
 }

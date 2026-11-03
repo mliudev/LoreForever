@@ -8,16 +8,16 @@
   "wiki": "Verdan the Everliving",
   "refs": 5
  },
- "summary": "Verdan the Everliving is a colossal bog beast lurking deep within the verdant tunnels of the Wailing Caverns. He dwells amid the nightmare spreading from the sleeping druid Naralex, alongside the corrupted Druids of the Fang, and violently attacks any who venture into his damp hollows.",
+ "summary": "In the Wailing Caverns, Verdan the Everliving lurks in deep tunnels and attacks those who enter. He dwells near the sleeping druid Naralex and the Druids of the Fang.",
  "sections": [
   {
    "title": "Beast of the Lush Depths",
-   "body": "Verdan is a hulking bog beast, an elemental of foliage, silt, and mire that lurks in the overgrown depths of the Wailing Caverns. Nothing is known of him from before the caverns fell to corruption; he is simply the largest and most dangerous creature in their lush, flooded hollows.",
+   "body": "Verdan is the largest bog beast in the overgrown depths of the Wailing Caverns. He is an elemental of foliage, silt, and mire, haunting its flooded hollows. Nothing is known of him from before corruption reached the caverns.",
    "spoiler": 0
   },
   {
    "title": "Twisted by the Nightmare",
-   "body": "When Naralex attempted to cultivate the dry Barrens into a lush paradise, his ritual fractured into a vivid nightmare within the Emerald Dream. The resulting corruption bled through the subterranean waters, tainting everything living inside the cavern. Amid that blight, Verdan roams as an enormous, hostile brute in the depths shared with the mad Druids of the Fang.",
+   "body": "Verdan roams the depths with the mad Druids of the Fang. Naralex tried to turn the dry Barrens into a lush paradise, but his ritual broke into a vivid nightmare within the Emerald Dream. Corruption seeped through the subterranean waters and tainted every living thing in the cavern.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "what is verdan",
     "verdan race"
    ],
-   "answer": "Verdan is a massive bog beast, an elemental being animated out of plant matter, peat, and subterranean mire."
+   "answer": "Verdan is a massive bog beast, an elemental animated from plant matter, peat, and subterranean mire."
   },
   {
    "q": "Why is Verdan hostile to adventurers?",
@@ -38,7 +38,7 @@
     "verdan hostile",
     "is verdan evil"
    ],
-   "answer": "Verdan lurks in the nightmare-tainted depths of the Wailing Caverns, where the dream of the slumbering Naralex has turned everything hostile. He treats all outside intruders as trespassers to be crushed."
+   "answer": "Verdan lurks in the nightmare-tainted depths of the Wailing Caverns, where the sleeping Naralex's dream has turned everything hostile. He treats all who enter as trespassers to crush."
   },
   {
    "q": "What is Verdan's connection to the Druids of the Fang?",
@@ -46,7 +46,7 @@
     "verdan druids of the fang",
     "verdan fang connection"
    ],
-   "answer": "Verdan shares the nightmare-tainted caverns with the insane Druids of the Fang and is just as hostile to intruders, guarding the deeper reaches of the caverns."
+   "answer": "Verdan shares the nightmare-tainted caverns with the insane Druids of the Fang. Like them, he is hostile to intruders and guards the deeper reaches."
   },
   {
    "q": "Where in the Wailing Caverns is Verdan located?",
@@ -55,7 +55,7 @@
     "verdan location",
     "how to find verdan"
    ],
-   "answer": "Verdan dwells in a cavernous, mossy chamber deep in the winding paths of the Wailing Caverns, past several of the corrupted Fang leaders."
+   "answer": "Verdan dwells in a mossy chamber deep along the winding paths of the Wailing Caverns, past several corrupted leaders of the Fang."
   },
   {
    "q": "Can Verdan be cured or cleansed?",
@@ -64,7 +64,7 @@
     "save verdan",
     "purify verdan"
    ],
-   "answer": "There is no known way to cleanse Verdan, leaving adventurers no choice but to destroy the hulking beast to ensure safe passage through the cavern."
+   "answer": "No known way can cleanse Verdan, so adventurers must destroy the hulking beast to pass safely through the cavern."
   },
   {
    "q": "Why was Verdan called 'the Everliving'?",
@@ -73,21 +73,21 @@
     "everliving meaning",
     "verdan name origin"
    ],
-   "answer": "The origin of his epithet is unknown. Verdan is a bog beast of the Wailing Caverns' lush, overgrown depths."
+   "answer": "No one knows why Verdan bears the name the Everliving. He is a bog beast of the Wailing Caverns' lush, overgrown depths."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Verdan's lair is a grim reminder of what grows in the caverns when the Emerald Dream turns to nightmare."
+   "text": "Verdan's lair shows what grows in the caverns when the Emerald Dream turns to nightmare."
   },
   {
    "target": "class:Shaman",
-   "text": "As an elemental spirit of earth and water grown warped and violent, putting down Verdan is an act of restoring balance to the fractured elements of the Barrens."
+   "text": "Verdan is an elemental spirit of earth and water, warped into violence. Putting him down restores balance to the Barrens' fractured elements."
   },
   {
    "target": "faction:Horde",
-   "text": "Because the Wailing Caverns sit at the heart of the Barrens, defeating dangerous beasts like Verdan is essential to protecting nearby crossroads and settlements."
+   "text": "The Wailing Caverns lie at the heart of the Barrens. Defeating dangerous beasts like Verdan helps protect nearby crossroads and settlements."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "Verdan the Everliving"
- ]
+ ],
+ "style": 2
 }

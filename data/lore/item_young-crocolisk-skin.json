@@ -10,11 +10,11 @@
    "quest:484"
   ]
  },
- "summary": "In the Wetlands, young crocolisks provide hides for trade from Menethil Harbor. Their softer skins are cured by local tanner James Halloran and shipped to distant ports.",
+ "summary": "In the Wetlands, young crocolisks supply hides for trade from Menethil Harbor. James Halloran cures their softer skins and sends them to distant ports.",
  "sections": [
   {
    "title": "Tanning and Trade in the Marshes",
-   "body": "Menethil Harbor sends marsh goods to distant ports from the western coast of Khaz Modan. The town’s resident tanner, James Halloran, cures hides among its most lucrative exports. Full-grown crocolisks have thick, tough scales, while their young provide softer leather that is easier to work. The delicate skins are in high demand, so Halloran depends on local hunters and passing travelers to search the boggy marshes just outside town and keep his curing racks stocked.",
+   "body": "Menethil Harbor ships marsh goods from the western coast of Khaz Modan. Hides are among its most lucrative exports, cured by the town’s resident tanner, James Halloran. Full-grown crocolisks have thick, tough scales, while the young provide softer leather that is easier to work.\n\nThe delicate skins are in high demand. Halloran depends on local hunters and passing travelers to search the boggy marshes just outside town and keep his curing racks stocked.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "halloran skins",
     "why soft skins"
    ],
-   "answer": "Young crocolisks have softer hides that are easier to work and cure than the thick, tough scales of mature crocolisks. Their leather is in high demand across sea trade routes."
+   "answer": "Young crocolisks have softer hides that are easier to work and cure than the thick, tough scales of mature crocolisks. Their leather is in high demand along sea trade routes."
   },
   {
    "q": "Where can young crocolisks be found?",
@@ -44,7 +44,7 @@
     "einar hunter",
     "menethil tanner hunters"
    ],
-   "answer": "Einar, a local hunter, regularly brings crocolisk hides to James Halloran’s leatherworking business, though one tracker cannot always meet demand."
+   "answer": "Einar, a local hunter, regularly brings crocolisk hides to James Halloran’s leatherworking business. One tracker cannot always meet demand."
   },
   {
    "q": "Where are these cured skins shipped?",
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you can stalk the muddy edges of the Wetlands for crocolisk hides to supply Menethil Harbor’s leather trade."
+   "text": "As a hunter, you can stalk the muddy edges of the Wetlands for crocolisk hides and supply Menethil Harbor’s leather trade."
   }
  ],
  "keywords": [
@@ -84,5 +84,5 @@
   "Young Crocolisk Skin",
   "Young Crocolisk Skins"
  ],
- "style": 1
+ "style": 2
 }

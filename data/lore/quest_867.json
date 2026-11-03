@@ -22,16 +22,16 @@
    "Letter to Jin'Zil (quest)"
   ]
  },
- "summary": "Witchwing harpies strike supply caravans on the northwestern trails of the Barrens. Darsok Swiftdagger at the Crossroads sends you to hunt their raiders and roguefeathers, taking their talons as proof.",
+ "summary": "Across the northwestern Barrens, Witchwing harpies prey on supply caravans. Darsok Swiftdagger at the Crossroads sends you after their raiders and roguefeathers, whose talons will prove each kill.",
  "sections": [
   {
    "title": "Threat from Above",
-   "body": "Witchwing harpies strike caravans crossing the Barrens. From rocky crags in the northwest, they swoop on merchant trains and supply wagons. They kill pack animals and seize goods bound for orcish outposts, making each journey through the region dangerous.",
+   "body": "Witchwing harpies make the northwestern Barrens dangerous for every caravan. From rocky crags, they swoop on merchant trains and supply wagons. They kill pack animals and seize goods bound for orcish outposts.",
    "spoiler": 0
   },
   {
    "title": "Darsok's Plan",
-   "body": "Darsok Swiftdagger, an orc rogue, has spent days watching the flock's habits and ranks. He believes an unfocused assault on their mountain roosts would scatter them. His plan is to break the Witchwing from the lowest rank upward, starting with the raiders before turning to their commanders.",
+   "body": "Darsok Swiftdagger, an orc rogue, has watched the flock's habits and ranks for days. He believes an unfocused attack on their mountain roosts would scatter them. So he means to break the Witchwing from the lowest rank upward, beginning with raiders before turning to their commanders.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "witchwing problem",
     "why attack harpies"
    ],
-   "answer": "Witchwing harpies nest in the northwestern crags of the Barrens and regularly attack Horde supply caravans traveling the main trails."
+   "answer": "Witchwing harpies roost in the northwestern crags of the Barrens and often attack Horde supply caravans on the main trails."
   },
   {
    "q": "Who is Darsok Swiftdagger?",
@@ -60,7 +60,7 @@
     "why talons",
     "harpy talons purpose"
    ],
-   "answer": "Darsok wants the severed talons as proof of each kill. He collects them as trophies and to confirm that the flock's lowest raiding ranks are shrinking."
+   "answer": "Darsok wants severed talons as proof of each kill. He collects them as trophies and to confirm that the flock's lowest raiding ranks are shrinking."
   },
   {
    "q": "Where are these harpies located?",
@@ -78,7 +78,7 @@
     "after harpy raiders",
     "what comes next"
    ],
-   "answer": "After the raiders and roguefeathers are thinned, Darsok directs you toward higher ranks in the flock, including its lieutenants and matron."
+   "answer": "Once the raiders and roguefeathers are thinned, Darsok points you toward higher ranks in the flock, including its lieutenants and matron."
   },
   {
    "q": "Are the harpies working for anyone else?",
@@ -93,11 +93,11 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Keeping the Barrens' interior routes secure helps supply the newly established outposts and keep them united under Orgrimmar's banners."
+   "text": "Securing the Barrens' interior routes helps supply the newly established outposts and keep them united under Orgrimmar's banners."
   },
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you can appreciate Darsok Swiftdagger's method: scout the target, study its ranks, and eliminate its leadership piece by piece."
+   "text": "As a rogue, you can see the sense in Darsok Swiftdagger's method: scout the target, study its ranks, and eliminate its leadership piece by piece."
   }
  ],
  "keywords": [
@@ -122,5 +122,5 @@
  "attribution": [
   "Harpy Raiders (Classic)"
  ],
- "style": 1
+ "style": 2
 }

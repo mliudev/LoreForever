@@ -21,16 +21,16 @@
    "Grimtotem Spying"
   ]
  },
- "summary": "Message to Freewind Post is a Horde quest tasking travelers with carrying urgent dispatches from Brave Moonhorn near the border lifts down into Thousand Needles. The missive warns Cliffwatcher Longhorn of intensifying centaur raids against local caravans. It also raises early concerns regarding the suspicious, standoffish behavior of the neighboring Grimtotem clan.",
+ "summary": "At Thousand Needles' western approaches, Brave Moonhorn sends an urgent warning to Freewind Post. Centaur raids are rising, and he reports strange behavior among the Grimtotem.",
  "sections": [
   {
    "title": "A Warning Down the Canyon",
-   "body": "Standing watch near the canyon's western approaches, Brave Moonhorn keeps a vigil over the roads leading down into Thousand Needles. With centaur aggression abruptly spiking, communication between border sentries and the regional leadership is vital. Moonhorn entrusts passing Horde adventurers with carrying an urgent dispatch southeast to Cliffwatcher Longhorn, the commander stationed atop the mesa settlement of Freewind Post.",
+   "body": "Brave Moonhorn watches Thousand Needles' western approaches. Centaur attacks have risen sharply, and the border sentries need to alert their leaders. So Moonhorn asks you to carry a dispatch southeast to Cliffwatcher Longhorn, commander of the mesa settlement at Freewind Post.",
    "spoiler": 0
   },
   {
    "title": "Rising Perils and Uneasy Kin",
-   "body": "Upon receiving the message, Longhorn confirms the dire situation: a recent supply caravan was intercepted and slaughtered by marauding centaur, leaving Freewind Post in desperate need of retaliation and defense. Just as concerning is Moonhorn's parting caution to avoid the local Grimtotem tauren, whose uncharacteristically bizarre and hostile demeanor hints at deeper rifts brewing across the arid flats.",
+   "body": "Cliffwatcher Longhorn confirms that centaur recently intercepted and slaughtered a supply caravan. Freewind Post must defend itself and answer the attack. Moonhorn also warns you to avoid the nearby Grimtotem tauren. Their strange, hostile behavior points to growing divisions across the arid flats.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "who starts message to freewind post",
     "brave moonhorn"
    ],
-   "answer": "Brave Moonhorn, a tauren scout keeping watch along the western entrance to Thousand Needles, gives you the urgent missive to deliver."
+   "answer": "Brave Moonhorn, a tauren scout, watches Thousand Needles' western entrance and gives you the urgent message to deliver."
   },
   {
    "q": "Who receives the urgent message?",
@@ -51,7 +51,7 @@
     "cliffwatcher longhorn location",
     "freewind post leader"
    ],
-   "answer": "Cliffwatcher Longhorn receives the message atop the towering mesa settlement of Freewind Post, located southeast of the Great Lift."
+   "answer": "Cliffwatcher Longhorn receives the message at Freewind Post, the mesa settlement southeast of the Great Lift."
   },
   {
    "q": "What does the urgent message report?",
@@ -59,7 +59,7 @@
     "message contents",
     "what is the message about"
    ],
-   "answer": "The message alerts Freewind Post to a sudden increase in centaur attacks and caravan harassment along the trails below."
+   "answer": "The message warns that centaur attacks and harassment of caravans along the trails below have risen sharply."
   },
   {
    "q": "Why is Brave Moonhorn worried about the Grimtotem?",
@@ -67,7 +67,7 @@
     "grimtotem warning",
     "why avoid grimtotem"
    ],
-   "answer": "Moonhorn notes that the nearby Grimtotem clan members have been acting strange and distant toward other tauren, advising travelers to steer clear of them."
+   "answer": "Moonhorn says the nearby Grimtotem have acted strangely and kept their distance from other tauren. He advises you to avoid them."
   },
   {
    "q": "What happens after Longhorn reads the message?",
@@ -75,7 +75,7 @@
     "next quest",
     "after message to freewind post"
    ],
-   "answer": "Enraged by the slaughter of a recent supply caravan, Cliffwatcher Longhorn immediately orders retaliatory action against the local centaur in the follow-up mission, Pacify the Centaur."
+   "answer": "After learning that centaur slaughtered a supply caravan, Cliffwatcher Longhorn orders a counterattack against them in the follow-up, Pacify the Centaur."
   },
   {
    "q": "How do you reach Freewind Post from the canyon floor?",
@@ -83,17 +83,17 @@
     "getting to freewind post",
     "how to get up freewind post"
    ],
-   "answer": "Follow the main canyon road east until you reach the base of the massive needle mesa, then ride the wooden platform lift directly up into the village."
+   "answer": "From the canyon floor, follow the main road east to the base of the needle mesa. Then take the wooden platform lift up to the village."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For the tauren, the centaur have been ancestral, bitter rivals for generations. Moonhorn's warning serves as a grim reminder that their ancient enemies still hunt the trails of Kalimdor, even as tensions with the reclusive Grimtotem clan simmer."
+   "text": "As a tauren, you know the centaur as bitter ancestral rivals. Moonhorn's warning shows they still hunt Kalimdor's trails, while tensions with the reclusive Grimtotem simmer."
   },
   {
    "target": "faction:Horde",
-   "text": "Freewind Post serves as the Horde's vital lifeline across the expanse of Thousand Needles. Keeping the communication lines open between outpost watchers and the settlement's leadership is critical to securing the desert trade routes."
+   "text": "As a member of the Horde, you know Freewind Post links the routes across Thousand Needles. Open communication between the outpost watchers and settlement leaders helps secure the desert trade routes."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Message to Freewind Post"
- ]
+ ],
+ "style": 2
 }

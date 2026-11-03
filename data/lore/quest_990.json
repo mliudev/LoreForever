@@ -17,16 +17,16 @@
   "wiki": "Trek to Ashenvale",
   "chain": []
  },
- "summary": "Sentinel Selarin sends travelers south from Auberdine into Ashenvale. There, you report to Raene Wolfrunner in Astranaar, where the Sentinels face spreading corruption.",
+ "summary": "Sentinel Selarin sends travelers south from Auberdine into Ashenvale. In Astranaar, you report to Raene Wolfrunner as the Sentinels face spreading corruption.",
  "sections": [
   {
    "title": "Leaving the Coast",
-   "body": "Sentinel Selarin's call for aid brings you from Auberdine, on Darkshore's somber gray coast, toward the night elf lands to the south. The Sentinel trusts capable fighters and scouts to make the journey into the heart of that territory. With local threats in Darkshore handled, the greater perils of Ashenvale now demand attention.",
+   "body": "From Auberdine on Darkshore's somber gray coast, Sentinel Selarin calls you south to aid the night elf lands. Selarin trusts capable fighters and scouts to journey into Ashenvale's heart. With local threats in Darkshore handled, greater perils now demand attention.",
    "spoiler": 0
   },
   {
    "title": "The Road to Astranaar",
-   "body": "An ancient night elf road winds south beneath Ashenvale's dense canopy. Raene Wolfrunner, who leads the Sentinels in Astranaar, has urgently called for reinforcements. Demonic taints, rampant wildlife, and incursions from beyond ancestral lands have stretched the defenders thin. They need outside aid to hold the sacred forest.",
+   "body": "An ancient night elf road winds south beneath Ashenvale's dense canopy. Raene Wolfrunner leads the Sentinels in Astranaar and has urgently called for reinforcements. Demonic taints, rampant wildlife, and incursions from beyond ancestral lands have stretched the defenders thin. They need outside aid to hold the sacred forest.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "what is happening in ashenvale",
     "corruption ashenvale"
    ],
-   "answer": "Spreading corruption and mounting threats from beyond Ashenvale's borders are overwhelming the local night elf Sentinels. They urgently need capable allies to aid Astranaar's citizens and defenders."
+   "answer": "Spreading corruption and mounting threats from beyond Ashenvale's borders overwhelm the local night elf Sentinels. They urgently need capable allies to aid Astranaar's citizens and defenders."
   },
   {
    "q": "Is the road between Darkshore and Ashenvale safe?",
@@ -90,7 +90,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance champion, you answer Astranaar's call, strengthening ties with the night elves and shoring up the Alliance's primary foothold in northern Kalimdor."
+   "text": "As an Alliance champion, you answer Astranaar's call. Your aid strengthens ties with the night elves and shores up the Alliance's primary foothold in northern Kalimdor."
   }
  ],
  "keywords": [
@@ -112,5 +112,5 @@
  "attribution": [
   "Trek to Ashenvale"
  ],
- "style": 1
+ "style": 2
 }

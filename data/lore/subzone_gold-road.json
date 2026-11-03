@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Gold Road"
  },
- "summary": "Horde caravans and warriors travel the Gold Road through the Barrens. It runs from Mor'shan Rampart on the border of Ashenvale, past the Crossroads, toward the south.",
+ "summary": "Horde caravans and warriors move along the Gold Road through the Barrens. It runs from Mor'shan Rampart on the Ashenvale border, past the Crossroads, and south.",
  "sections": [
   {
    "title": "The Artery of the Barrens",
-   "body": "The Gold Road is a long dirt highway through the center of the Barrens. Near its northern end, Mor'shan Rampart and Mor'shan Base Camp guard against night elf incursions from Ashenvale. Farther south, an eastern roadway connects directly to Durotar before the Gold Road reaches the Crossroads. Beyond the settlement, it passes the waters of local oases and the foothills near the Wailing Caverns. The northern span ends at a dried-up riverbed, where travelers enter the more dangerous southern Barrens.",
+   "body": "The Gold Road cuts through the Barrens as a long dirt highway. Near its northern end, Mor'shan Rampart and Mor'shan Base Camp guard against night elf incursions from Ashenvale. Farther south, a road forks east to Durotar before the Gold Road reaches the Crossroads.\n\nBeyond the settlement, the road passes local oases and the foothills near the Wailing Caverns. Its northern span ends at a dried-up riverbed, where travelers enter the more dangerous southern Barrens.",
    "spoiler": 0
   },
   {
    "title": "A Vital and Dangerous Path",
-   "body": "The Gold Road carries Horde trade and military movements between Kalimdor's central territories, but danger follows its length. Quilboar tribes, centaur warbands, plainstriders, and lions threaten supply caravans and lone messengers. The Horde spends considerable resources placing scouts and warriors along the road. Even so, travelers leave the safety of major outposts armed and alert.",
+   "body": "Horde trade and military movements cross Kalimdor's central territories along the Gold Road. Yet danger follows its length. Quilboar tribes, centaur warbands, plainstriders, and lions threaten supply caravans and lone messengers.\n\nThe Horde spends considerable resources placing scouts and warriors along the road. Even so, travelers leaving the major outposts stay armed and alert.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where does the gold road go",
     "gold road length"
    ],
-   "answer": "The Gold Road begins at Mor'shan Rampart on the border of Ashenvale. Its northern section runs south through the Crossroads to a dried-up riverbed dividing the northern and southern Barrens. From there, the Southern Gold Road continues past Camp Taurajo toward the Great Lift."
+   "answer": "The Gold Road begins at Mor'shan Rampart on the border of Ashenvale. Its northern stretch runs south through the Crossroads to a dried-up riverbed dividing the northern and southern Barrens. From there, the Southern Gold Road passes Camp Taurajo and continues toward the Great Lift."
   },
   {
    "q": "Why is the Gold Road so important to the Horde?",
@@ -36,7 +36,7 @@
     "why is gold road important",
     "importance of gold road"
    ],
-   "answer": "The Gold Road connects the Horde's major territories in central Kalimdor. It links supply lines from Durotar and the port of Ratchet to the tauren homelands in Mulgore and the northern military front against the Night Elves in Ashenvale."
+   "answer": "The Gold Road links the Horde's major territories in central Kalimdor. It joins supply lines from Durotar and the port of Ratchet to the tauren homelands in Mulgore and the northern military front against the Night Elves in Ashenvale."
   },
   {
    "q": "What threats wander near the road?",
@@ -45,7 +45,7 @@
     "enemies on gold road",
     "gold road dangers"
    ],
-   "answer": "Razormane and Bristleback quilboar raiding parties, Kolkar centaur, and wild beasts such as savanna prowlers and thunder lizards roam near the road. Outside the Crossroads' perimeter, the road is far from secure."
+   "answer": "Razormane and Bristleback quilboar raiding parties, Kolkar centaur, and wild beasts such as savanna prowlers and thunder lizards roam near the road. Beyond the Crossroads' perimeter, it is far from secure."
   },
   {
    "q": "How does the Gold Road connect to Durotar?",
@@ -53,17 +53,17 @@
     "road to durotar",
     "turn off to durotar"
    ],
-   "answer": "North of the Crossroads, an eastward fork branches from the Gold Road and crosses the Southfury River by a wooden bridge into Durotar."
+   "answer": "North of the Crossroads, a fork branches east from the Gold Road. It crosses the Southfury River by a wooden bridge into Durotar."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The Gold Road is the backbone of Horde logistics in Kalimdor, tying Durotar's orcish capital to the tauren lands in Mulgore and the northern forward camps near Ashenvale."
+   "text": "For the Horde, the Gold Road carries supplies across Kalimdor. It links Durotar's orcish capital to the tauren lands in Mulgore and the northern forward camps near Ashenvale."
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you can follow plains beasts along the savanna road and track or tame early companions such as lions and raptors."
+   "text": "As a hunter, you can follow plains beasts along the savanna road. Lions and raptors may become early companions to track or tame."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
  "attribution": [
   "Gold Road"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Boulderfist Outpost"
  },
- "summary": "Boulderfist Outpost is a fortified mound nestled deep within the ogre settlement of Boulder'gor in the Arathi Highlands. Serving as an interior den and holding area, it houses aggressive Boulderfist ogres alongside a few Witherbark trolls.",
+ "summary": "Deep within Boulder'gor, Boulderfist ogres hold a fortified mound and its inner halls. A few Witherbark trolls dwell among them in the Arathi Highlands.",
  "sections": [
   {
    "title": "A Stronghold within the Mound",
-   "body": "Carved into the earth and stone of western Arathi, Boulderfist Outpost functions as the heart of Boulder'gor. While brute enforcers dominate the settlement above, the outpost's interior concentrates the clan's core strength and provides a dark subterranean shelter. A handful of Witherbark troll witch doctors occasionally mingle among the ogres here, hinting at tenuous tribal cooperation.",
+   "body": "Boulderfist Outpost lies at the heart of Boulder'gor in western Arathi. Brute enforcers rule the settlement above, while the clan's strength gathers inside the mound. Carved from earth and stone, its dark halls serve as a den and a holding place. A few Witherbark troll witch doctors live among the ogres, a sign that the tribes sometimes share this ground.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is boulderfist outpost",
     "boulderfist mound entrance"
    ],
-   "answer": "Boulderfist Outpost is an interior mound found within the larger ogre settlement of Boulder'gor, situated in the western expanses of the Arathi Highlands."
+   "answer": "Boulderfist Outpost lies within Boulder'gor, the larger ogre settlement in the western Arathi Highlands."
   },
   {
    "q": "Why are there trolls inside an ogre outpost?",
@@ -32,7 +32,7 @@
     "trolls in boulderfist",
     "witherbark trolls arathi"
    ],
-   "answer": "Witherbark forest trolls dwell nearby in the Arathi Highlands and occasionally share ground with the Boulderfist ogres. A few Witherbark witch doctors can be found practicing their craft within the depths of the outpost alongside the ogres."
+   "answer": "Witherbark forest trolls dwell nearby in the Arathi Highlands and sometimes share ground with the Boulderfist ogres. A few Witherbark witch doctors practice their craft inside the mound alongside them."
   },
   {
    "q": "Who is imprisoned in the outpost?",
@@ -41,7 +41,7 @@
     "who is trapped in boulderfist",
     "captives in arathi ogres"
    ],
-   "answer": "No named captives are known to be held in the outpost today. Its damp corridors belong to Boulderfist enforcers and a few Witherbark witch doctors, and anyone wandering inside should expect a fight rather than a rescue."
+   "answer": "No named captives are known to be held in the outpost today. Boulderfist enforcers and a few Witherbark witch doctors occupy its damp corridors, where intruders should expect a fight rather than a rescue."
   },
   {
    "q": "Who leads the ogres inside the outpost?",
@@ -50,17 +50,17 @@
     "boulderfist boss arathi",
     "boulderfist rare"
    ],
-   "answer": "While the clan's brute enforcers patrol the interior, an exceptionally fierce ogre named Kovork is known to lurk within the mound as a notable threat."
+   "answer": "Boulderfist brute enforcers patrol the interior. An exceptionally fierce ogre named Kovork lurks within the mound as a notable threat."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Alliance scouts traveling Arathi should give the mound a wide berth, as the Boulderfist enforcers inside attack any intruder on sight."
+   "text": "Alliance scouts crossing Arathi should give the mound a wide berth. Boulderfist enforcers attack intruders on sight."
   },
   {
    "target": "faction:Horde",
-   "text": "The Boulderfist ogres make no distinction between factions, attacking Horde wanderers just as readily as their Alliance rivals."
+   "text": "Boulderfist ogres make no distinction between factions. They attack Horde wanderers as readily as their Alliance rivals."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Boulderfist Outpost"
- ]
+ ],
+ "style": 2
 }

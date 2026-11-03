@@ -8,11 +8,11 @@
   "wiki": "Ventaari Brightwish",
   "refs": 1
  },
- "summary": "Ventaari Brightwish is a Skyborne resident of Thendal Village on Zephras Isle. She greets travelers from across Azeroth and offers the quest The Gift of Skysight.",
+ "summary": "In Thendal Village, Ventaari Brightwish welcomes travelers from across Azeroth and offers them The Gift of Skysight.",
  "sections": [
   {
    "title": "A Dweller of Thendal Village",
-   "body": "Residing in Thendal Village upon the soaring cliffs of Zephras Isle, Ventaari Brightwish is one of the local Skyborne. While she shares a surname with Belathaan Brightwish, her own duties center around aiding newcomers who find their way to the village, extending hospitality to both the Alliance and the Horde as she initiates visitors into the traditions of her people through tasks like The Gift of Skysight.",
+   "body": "Ventaari Brightwish welcomes newcomers to Thendal Village on Zephras Isle. As a Skyborne resident, she helps visitors from both the Alliance and the Horde. Through The Gift of Skysight, Ventaari introduces them to her people's traditions.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is ventaari",
     "ventaari brightwish"
    ],
-   "answer": "Ventaari Brightwish is a Skyborne NPC stationed in Thendal Village on Zephras Isle. She interacts with visitors and offers the quest The Gift of Skysight."
+   "answer": "Ventaari Brightwish lives in Thendal Village on Zephras Isle. She greets visitors and offers The Gift of Skysight."
   },
   {
    "q": "Where can I find Ventaari Brightwish?",
@@ -33,7 +33,7 @@
     "where is ventaari",
     "thendal village ventaari"
    ],
-   "answer": "She can be found in Thendal Village, located on the island of Zephras Isle."
+   "answer": "Find Ventaari Brightwish in Thendal Village on Zephras Isle."
   },
   {
    "q": "Is Ventaari hostile to the Horde or Alliance?",
@@ -42,13 +42,13 @@
     "is ventaari friendly",
     "can horde talk to ventaari"
    ],
-   "answer": "No. Ventaari Brightwish is neutral and will speak with adventurers from both the Alliance and the Horde."
+   "answer": "No. Ventaari Brightwish speaks with adventurers from both the Alliance and the Horde."
   }
  ],
  "angles": [
   {
    "target": "race:Skyborne",
-   "text": "As a member of the Skyborne in Thendal Village, Ventaari Brightwish helps visitors connect with the culture and ways of Zephras Isle."
+   "text": "As a Skyborne in Thendal Village, Ventaari Brightwish helps visitors learn about the culture and ways of Zephras Isle."
   }
  ],
  "keywords": [
@@ -68,5 +68,6 @@
  ],
  "attribution": [
   "Ventaari Brightwish"
- ]
+ ],
+ "style": 2
 }

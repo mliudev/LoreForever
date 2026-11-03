@@ -17,21 +17,21 @@
   "wiki": "The Shadowy Figure",
   "chain": []
  },
- "summary": "Near his ruined farm, Sven Yorgen seeks the stranger who watched his family die. He gives you a strange book found among the wreckage and asks you to learn who left it behind.",
+ "summary": "Near his ruined farm, Sven Yorgen seeks the stranger who watched his family die. He gives you a strange book found in the wreckage and asks you to learn who left it behind.",
  "sections": [
   {
    "title": "Echoes of a Slaughter",
-   "body": "Sven Yorgen hides in Duskwood’s western hills, still haunted by the slaughter of his family. He once blamed the black riders who terrorize the woods, but another memory troubles him: a shadowy figure nearby on the night of the massacre. Sven gives you the strange book found at his ransacked farm, the only physical clue left in the wreckage.",
+   "body": "In Duskwood’s western hills, Sven Yorgen still grieves for his slaughtered family. He once blamed the black riders who terrorize the woods. Yet he remembers a shadowy figure nearby on the night of the massacre. Sven gives you the strange book found at his ransacked farm, the only physical clue in the wreckage.",
    "spoiler": 0
   },
   {
    "title": "Seeking Divination in Town",
-   "body": "No clear trail leads through the perilous wilderness, so you head east to Darkshire. Sven hopes one of the superstitious townsfolk will recognize the curious book. Among them is Madame Eva, whose occult senses let her see beyond ordinary sight. Her divinations may reveal impressions left on mysterious relics.",
+   "body": "With no clear trail through the perilous wilderness, you head east to Darkshire. Sven hopes one of the superstitious townsfolk will recognize the curious book. Madame Eva is among them, and her occult senses reach beyond ordinary sight. Her divinations may reveal impressions left on mysterious relics.",
    "spoiler": 0
   },
   {
    "title": "Foreign Threads",
-   "body": "Madame Eva reads faint impressions from the book. Sven’s recent desire for vengeance has marked its pages, but a different presence lies beneath it. Eva senses that the first owner came from beyond Darkshire and Duskwood, and had visited the farm before the bloodshed began.",
+   "body": "Madame Eva reads faint impressions from the book. Sven’s recent desire for vengeance has marked its pages. Beneath that mark lies another presence. Eva senses that the first owner came from beyond Darkshire and Duskwood, and had visited the farm before the bloodshed began.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "sven backstory",
     "sven yorgen"
    ],
-   "answer": "Sven Yorgen is a devastated farmer who lives in exile in Duskwood’s western hills. After dark riders slaughtered his family at their homestead, grief drove him into the wilderness, where he seeks revenge against those responsible."
+   "answer": "Sven Yorgen is a devastated farmer who lives in exile in Duskwood’s western hills. After dark riders slaughtered his family at their homestead, grief drove him into the wilderness. There he seeks revenge against those responsible."
   },
   {
    "q": "What is the book found at Sven's farm?",
@@ -61,7 +61,7 @@
     "who reads the book",
     "darkshire mystic"
    ],
-   "answer": "Madame Eva is Darkshire’s resident seer and fortune teller. Ordinary townsfolk can learn little from an unmarked volume, but her clairvoyance lets her read residual psychic impressions left by whoever owned or carried it before."
+   "answer": "Madame Eva is Darkshire’s resident seer and fortune teller. Ordinary townsfolk can learn little from an unmarked volume, but her clairvoyance lets her read impressions left by whoever owned or carried it before."
   },
   {
    "q": "What does Madame Eva learn from the book?",
@@ -70,7 +70,7 @@
     "book owner identity",
     "divination result"
    ],
-   "answer": "Madame Eva senses a powerful imprint of vengeance from Sven’s recent handling of the book. Beneath it, she detects faint traces showing that the first owner came from beyond Darkshire."
+   "answer": "Madame Eva senses that Sven’s recent handling of the book left a powerful imprint of vengeance. Beneath it, she detects faint traces showing that the first owner came from beyond Darkshire."
   },
   {
    "q": "Where does this investigation lead next?",
@@ -85,11 +85,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Darkshire receives little support from Stormwind, so its traumatized frontiersmen and local seers rely entirely on wandering Alliance champions to investigate deadly atrocities in Duskwood."
+   "text": "Darkshire receives little support from Stormwind. Its traumatized frontiersmen and local seers rely on wandering Alliance champions to investigate deadly atrocities in Duskwood."
   },
   {
    "target": "class:Priest",
-   "text": "As a priest, you see how closely spiritual clairvoyance, shadow magic, and the psychic impressions lingering on ordinary objects can touch."
+   "text": "As a priest, you see how spiritual clairvoyance, shadow magic and the impressions lingering on ordinary objects can touch."
   }
  ],
  "keywords": [
@@ -112,5 +112,5 @@
  "attribution": [
   "The Shadowy Figure"
  ],
- "style": 1
+ "style": 2
 }

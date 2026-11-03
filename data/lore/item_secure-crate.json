@@ -10,11 +10,11 @@
    "quest:1492"
   ]
  },
- "summary": "In the Barrens, a Secure Crate waits for a traveler to carry it to Ratchet. Potions and alchemical goods inside are bound for the Eastern Kingdoms.",
+ "summary": "In the Barrens, a Secure Crate is bound for Ratchet. Potions and alchemical goods inside are headed across the sea to the Eastern Kingdoms.",
  "sections": [
   {
    "title": "A Courier's Cargo",
-   "body": "Couriers, caravans, and goblin ships carry trade between Kalimdor and the Eastern Kingdoms. When a Barrens caravan misses its departure, travelers take fragile cargo like this Secure Crate down to the coast. It holds potions, alchemical goods, and reagents for associates across the Great Sea. The crate is sealed against the Barrens trails and the sea spray on its voyage.",
+   "body": "Couriers, caravans, and goblin ships carry trade between Kalimdor and the Eastern Kingdoms. When a Barrens caravan misses its departure, travelers carry fragile cargo like this Secure Crate down to the coast. Inside are potions, alchemical goods, and reagents for associates across the Great Sea. Its seal protects the crate along the Barrens trails and during the sea voyage.",
    "spoiler": 0
   },
   {
@@ -39,7 +39,7 @@
     "crate destination",
     "where does secure crate go"
    ],
-   "answer": "Carry it to Wharfmaster Dizzywig on the Ratchet docks. He will book it onto a merchant vessel bound for Blackwater Cove in the Old World."
+   "answer": "Carry the Secure Crate to Wharfmaster Dizzywig on the Ratchet docks. He will book it onto a merchant vessel bound for Blackwater Cove in the Old World."
   },
   {
    "q": "Why was the crate given to an adventurer instead of a caravan?",
@@ -47,7 +47,7 @@
     "why do i have the crate",
     "missed caravan"
    ],
-   "answer": "The sender could not make the journey to Ratchet in time, and the scheduled trade caravan had already left. A hired courier must get the crate to the docks in time for the tide."
+   "answer": "The sender could not reach Ratchet in time, and the scheduled trade caravan had already left. A hired courier must get the crate to the docks in time for the tide."
   },
   {
    "q": "Who takes the crate at Ratchet?",
@@ -55,13 +55,13 @@
     "who gets the crate",
     "dizzywig crate"
    ],
-   "answer": "Wharfmaster Dizzywig receives the crate on the Ratchet docks and records it in his shipping ledger before loading it onto the next ship sailing with the tide."
+   "answer": "Wharfmaster Dizzywig receives the crate on the Ratchet docks. He records it in his shipping ledger before loading it onto the next ship sailing with the tide."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "As an herbalist, you can see how cross-sea alchemists and herbalists rely on frontier trade routes to exchange raw ingredients."
+   "text": "As an herbalist, you know cross-sea alchemists and herbalists rely on frontier trade routes to exchange raw ingredients."
   },
   {
    "target": "faction:Horde",
@@ -87,5 +87,5 @@
   "Secure Crate",
   "Wharfmaster Dizzywig (Barrens)"
  ],
- "style": 1
+ "style": 2
 }

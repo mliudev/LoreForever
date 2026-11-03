@@ -23,16 +23,16 @@
    "The Binding (Felhunter)"
   ]
  },
- "summary": "Warlocks leave Stormwind City for Ratchet, where Strahad Farsan can teach them to summon felhunters. Beneath the goblin port, his knowledge offers a path into more dangerous demon summoning.",
+ "summary": "Warlocks seek Strahad Farsan in Ratchet, where he can teach them to summon felhunters. Beneath the goblin port, his knowledge opens a path to more dangerous demons.",
  "sections": [
   {
    "title": "A Summons Across the Sea",
-   "body": "Gakin the Darkbinder sends you from Stormwind to seek help with summoning a felhunter. He guides warlocks in the Slaughtered Lamb, below the Mage Quarter, but the rites call for knowledge beyond what he can offer there. Your journey carries you across the Great Sea to Kalimdor, where another warlock may know the way.",
+   "body": "Gakin the Darkbinder sends you from Stormwind to learn how to summon a felhunter. He guides warlocks in the Slaughtered Lamb below the Mage Quarter, but the rites call for knowledge beyond his reach. So you cross the Great Sea to Kalimdor, where another warlock may know the way.",
    "spoiler": 0
   },
   {
    "title": "The Hermit of Ratchet",
-   "body": "Strahad Farsan lives in the arid hills above Ratchet, the goblin harbor. He is a human warlock and a peer of Gakin's in their secret cabal. From neutral territory, Strahad can work beyond the notice of Alliance magistrates, church inquisitors, and Horde sentries. Warlocks come to him hoping to master demons that drain mana.",
+   "body": "Strahad Farsan lives in the arid hills above Ratchet, the goblin harbor. A human warlock and Gakin's peer in their secret cabal, he works from neutral territory. There, Alliance magistrates, church inquisitors, and Horde sentries are less likely to notice him. Warlocks come hoping to master demons that drain mana.",
    "spoiler": 0
   }
  ],
@@ -94,7 +94,7 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you reach a milestone when you leave basic fiends and succubi behind and learn to summon the cunning, magic-draining felhunter."
+   "text": "As a warlock, you leave basic fiends and succubi behind when you learn to summon the cunning, magic-draining felhunter."
   },
   {
    "target": "faction:Alliance",
@@ -124,5 +124,5 @@
  "attribution": [
   "Seeking Strahad (Stormwind)"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "The Sleeping Druid",
   "chain": []
  },
- "summary": "Oben Rageclaw lies asleep in Ban'ethil Barrow Den, but his spirit is caught in the Emerald Dream. Gnarlpine shamans have drawn it from his body and set his flesh moving through the den.",
+ "summary": "In Ban'ethil Barrow Den, Oben Rageclaw lies asleep while his spirit is caught in the Emerald Dream. Gnarlpine shamans have drawn it from his body and set his flesh moving through the den.",
  "sections": [
   {
    "title": "A Slumber Disrupted",
-   "body": "Night elf druids sleep in barrow dens across Kalimdor while their spirits wander the Emerald Dream. Their bodies rest in stone alcoves, safe through centuries of slumber. Teldrassil's corruption has driven the Gnarlpine furbolgs to desperate savagery. In Ban'ethil Barrow Den, Gnarlpine shamans found a way to breach Oben Rageclaw's sacred rest and draw his living spirit from his sleeping body.",
+   "body": "Night elf druids sleep in barrow dens across Kalimdor while their spirits wander the Emerald Dream. Their bodies rest in stone alcoves through centuries of slumber. Teldrassil's corruption has driven the Gnarlpine furbolgs to desperate savagery. In Ban'ethil Barrow Den, Gnarlpine shamans have breached Oben Rageclaw's sacred rest and drawn his living spirit from his sleeping body.",
    "spoiler": 0
   },
   {
    "title": "Voodoo and Corruption",
-   "body": "A Shaman Voodoo Charm, a talisman, lets the Gnarlpine shamans animate Oben's empty body. His spirit is trapped in the Emerald Dream, watching as his flesh stalks the den's corridors and blindly attacks anyone who enters. Oben's spirit asks you to retrieve one of the Gnarlpine charms so he can study it and seek a way to undo the enchantment and restore his body.",
+   "body": "A Shaman Voodoo Charm lets Gnarlpine shamans animate Oben's empty body. His spirit is trapped in the Emerald Dream, watching as his flesh stalks the den's corridors and blindly attacks anyone who enters. Oben's spirit asks you to retrieve a Gnarlpine charm so he can study it and seek a way to undo the enchantment and restore his body.",
    "spoiler": 1
   }
  ],
@@ -83,13 +83,13 @@
     "can oben be saved",
     "cure oben"
    ],
-   "answer": "Studying the Shaman Voodoo Charm is Oben's first hope of breaking the ritual. By examining the enchantments binding his flesh, he hopes to understand the magic and find a way to resolve the crisis."
+   "answer": "Oben hopes to study the Shaman Voodoo Charm and examine the enchantments binding his flesh. He hopes to understand the magic and find a way to resolve the crisis."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid, you can see Oben's plight as a waking nightmare: having your body taken while you commune in the Emerald Dream violates the heart of druidic slumber."
+   "text": "As a druid, you can see Oben's plight as a waking nightmare. Having your body taken while you commune in the Emerald Dream violates the heart of druidic slumber."
   },
   {
    "target": "race:NightElf",
@@ -117,5 +117,5 @@
  "attribution": [
   "The Sleeping Druid"
  ],
- "style": 1
+ "style": 2
 }

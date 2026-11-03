@@ -21,16 +21,16 @@
   ],
   "category": "Feralas"
  },
- "summary": "Jangdor Swiftstrider has heard of hides better still than the last. Up in the north of Feralas, inside Rage Scar Hold, roams another throng of yetis, tougher than those you faced before. Ten of their hides are wanted at Camp Mojache.",
+ "summary": "At Camp Mojache, Jangdor Swiftstrider now seeks finer hides from the tougher yetis in Rage Scar Hold.",
  "sections": [
   {
    "title": "A Tougher Throng of Yetis",
-   "body": "After The Mark of Quality, Jangdor Swiftstrider has found a lead on a still finer supply of hides. Up in the north of Feralas, inside Rage Scar Hold, another throng of yetis lives, tougher than the ones you faced earlier. Jangdor Swiftstrider will pay handsomely for ten of their hides, brought back to Camp Mojache to settle the matter. If they match the quality of the Feral Scar hides, they could prove as resilient as thorium.",
+   "body": "After The Mark of Quality, Jangdor Swiftstrider has found a better source of hides. Tougher yetis roam inside Rage Scar Hold in northern Feralas. Bring ten hides to Camp Mojache, and Jangdor will pay handsomely. If they match the Feral Scar hides, they may prove as resilient as thorium.",
    "spoiler": 0
   },
   {
    "title": "Jangdor's Thanks",
-   "body": "The hides are even better than hoped. Jangdor Swiftstrider can already tell they will turn much harder once properly cured, and hands you one of the latest creations as thanks.",
+   "body": "Jangdor Swiftstrider finds the hides better than he hoped. Once properly cured, he can tell they will grow much harder. In thanks, he gives you one of his latest creations.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "improved quality questgiver",
     "jangdor swiftstrider"
    ],
-   "answer": "Jangdor Swiftstrider, at Camp Mojache in Feralas."
+   "answer": "Jangdor Swiftstrider asks for ten Rage Scar yeti hides at Camp Mojache in Feralas."
   },
   {
    "q": "Where do the Rage Scar yetis live?",
@@ -51,7 +51,7 @@
     "where is rage scar hold",
     "where to get rage scar hides"
    ],
-   "answer": "Inside Rage Scar Hold, in the north of Feralas."
+   "answer": "The Rage Scar yetis live inside Rage Scar Hold, in northern Feralas."
   },
   {
    "q": "How many hides are wanted?",
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Improved Quality (Classic Horde)"
- ]
+ ],
+ "style": 2
 }

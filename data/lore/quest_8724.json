@@ -17,16 +17,16 @@
   "wiki": "Morningdew the Elder",
   "chain": []
  },
- "summary": "Morningdew the Elder is an honored ancestral spirit visited during the Lunar Festival in Thousand Needles. Illuminated by a radiant beam of starlight, she offers ancient wisdom and directs pilgrims toward other elders scattered across Kalimdor.",
+ "summary": "In Thousand Needles, pilgrims seek Morningdew the Elder beneath a beam of starlight during the Lunar Festival. She offers wisdom and directions to elders across Kalimdor.",
  "sections": [
   {
    "title": "A Celestial Presence in the Canyons",
-   "body": "During the Lunar Festival, the spirits of ancient ancestors manifest across Azeroth to share their blessings with travelers. Elder Morningdew appears bathed in a shaft of lunar light, standing out starkly against the dusty red stone and noisy industrial hubbub of Thousand Needles. She reminds mortal travelers to look beyond earthly concerns to the starry expanse above.",
+   "body": "During the Lunar Festival, ancient ancestor spirits appear across Azeroth to bless travelers. In Thousand Needles, Morningdew the Elder stands beneath a shaft of lunar light, amid red stone and industrial noise. She urges mortal travelers to turn from earthly concerns and look to the stars.",
    "spoiler": 0
   },
   {
    "title": "Wisdom of the Heavens",
-   "body": "When approached, Morningdew encourages seekers to look toward the countless stars for answers to earthly mysteries. Beyond her contemplative greetings, she serves as a guide for festival pilgrims, sharing knowledge of the locations of other venerated spirits walking the lands, including Elder High Mountain, Elder Grimtotem, Elder Mistwalker, Elder Moonwarden, and Elder Windtotem.",
+   "body": "Morningdew points seekers toward the countless stars for answers to earthly mysteries. She also guides festival pilgrims to other honored spirits across the lands: Elder High Mountain, Elder Grimtotem, Elder Mistwalker, Elder Moonwarden, and Elder Windtotem.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "morningdew lore",
     "who is morningdew"
    ],
-   "answer": "Elder Morningdew is an ancestral spirit who manifests during the Lunar Festival. Bathed in starlight, she offers wisdom and guidance to passing adventurers seeking to honor the elders."
+   "answer": "Morningdew the Elder is an ancestral spirit who appears during the Lunar Festival. Beneath starlight, she offers wisdom and guides travelers who come to honor the elders."
   },
   {
    "q": "Where can Elder Morningdew be found?",
@@ -47,7 +47,7 @@
     "where is elder morningdew",
     "find elder morningdew"
    ],
-   "answer": "She is located in Thousand Needles, visibly marked by a radiant pillar of light descending from the sky."
+   "answer": "You can find Morningdew the Elder in Thousand Needles, beneath a bright pillar of light from the sky."
   },
   {
    "q": "What is the purpose of visiting Elder Morningdew?",
@@ -56,7 +56,7 @@
     "morningdew purpose",
     "lunar festival elder"
    ],
-   "answer": "Travelers visit her during the Lunar Festival to pay their respects to the ancestors, receive ancestral blessings, and learn the whereabouts of other elders throughout the region."
+   "answer": "During the Lunar Festival, travelers visit Morningdew to honor the ancestors, receive their blessings, and learn where other elders can be found."
   },
   {
    "q": "Which other elders does Morningdew know about?",
@@ -65,7 +65,7 @@
     "elders list morningdew",
     "who does morningdew mention"
    ],
-   "answer": "Elder Morningdew provides directions to five other honored spirits: Elder High Mountain, Elder Grimtotem, Elder Mistwalker, Elder Moonwarden, and Elder Windtotem."
+   "answer": "Morningdew gives directions to Elder High Mountain, Elder Grimtotem, Elder Mistwalker, Elder Moonwarden, and Elder Windtotem."
   },
   {
    "q": "Why is there a pillar of light shining down on her?",
@@ -74,7 +74,7 @@
     "shaft of light elder",
     "why does elder glow"
    ],
-   "answer": "Every ancestral spirit during the Lunar Festival is illuminated by a beam of celestial starlight, highlighting their ethereal presence and connection to the heavens above."
+   "answer": "A beam of celestial starlight shines on each ancestral spirit during the Lunar Festival, marking their presence and bond with the heavens."
   },
   {
    "q": "What does Morningdew teach pilgrims?",
@@ -83,25 +83,25 @@
     "morningdew dialogue",
     "what does morningdew say"
    ],
-   "answer": "Morningdew teaches that the heavens and their countless stars hold answers to earthly mysteries, encouraging those who are wise and fortunate to gaze upward to find truth."
+   "answer": "Morningdew teaches pilgrims to seek answers to earthly mysteries among the countless stars. She urges the wise and fortunate to look upward for truth."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "The Lunar Festival and its celestial elders embody deep connections to Elune, nature, and ancestral communion held sacred by Cenarion circles."
+   "text": "As a druid, you can see the Lunar Festival's celestial elders as a link to Elune, nature, and the ancestral communion honored by Cenarion circles."
   },
   {
    "target": "class:Shaman",
-   "text": "Communing with honored spirits like Elder Morningdew is central to understanding the balance of ancestors and elements throughout the world."
+   "text": "As a shaman, you know that communion with honored spirits like Morningdew helps you understand the balance between ancestors and elements throughout the world."
   },
   {
    "target": "race:NightElf",
-   "text": "Elders illuminated by starlight evoke the ancient traditions of honoring the heavens and the ancient wisdom woven throughout Kalimdor's history."
+   "text": "As a night elf, you recognize in the elders beneath starlight an ancient tradition of honoring the heavens and Kalimdor's old wisdom."
   },
   {
    "target": "race:Tauren",
-   "text": "Revering the wisdom of ancestral elders is a pillar of tauren culture, making the pilgrimage to spirits like Morningdew deeply meaningful."
+   "text": "As a tauren, you know that reverence for ancestral elders is central to your culture. A pilgrimage to spirits like Morningdew holds deep meaning."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "Morningdew the Elder"
- ]
+ ],
+ "style": 2
 }

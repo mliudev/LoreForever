@@ -8,11 +8,11 @@
   "wiki": "Hamhock",
   "refs": 5
  },
- "summary": "In the Stormwind Stockade, Hamhock remains locked among the rioting prisoners. The massive two-headed ogre is one of the prison’s most brutal inmates.",
+ "summary": "In the Stormwind Stockade, Hamhock remains among the rioting prisoners. The massive two-headed ogre is one of the prison’s most brutal inmates.",
  "sections": [
   {
    "title": "A Brute Behind Bars",
-   "body": "Hamhock is a towering two-headed ogre in the Stormwind Stockade. The prison was built for petty thieves, murderers, and political dissidents, so his size makes him an imposing presence among the cells. When the prisoners rose up and took control, Hamhock stayed amid the disorder, crushing anyone who entered his cellblock.",
+   "body": "Hamhock is a towering two-headed ogre held in the Stormwind Stockade. The prison was built for petty thieves, murderers, and political dissidents. So his size makes him a fearsome presence among the cells. When prisoners seized control, Hamhock remained amid the disorder and crushed anyone who entered his cellblock.",
    "spoiler": 0
   },
   {
@@ -83,7 +83,7 @@
   },
   {
    "target": "class:Warrior",
-   "text": "To subdue Hamhock, a warrior must meet his hulking strength head-on in the prison’s narrow halls."
+   "text": "As a warrior, you must meet Hamhock’s hulking strength head-on in the prison’s narrow halls."
   }
  ],
  "keywords": [
@@ -107,5 +107,5 @@
  "attribution": [
   "Hamhock"
  ],
- "style": 1
+ "style": 2
 }

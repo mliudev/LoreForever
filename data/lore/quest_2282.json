@@ -21,16 +21,16 @@
    "Alther's Mill (quest)"
   ]
  },
- "summary": "At Alther's Mill, Lucius tests Alliance rogues with a locked chest and thieves' tools. The mill lies northeast along the road from Lakeshire, where Blackrock orcs now draw near.",
+ "summary": "Lucius sends Alliance rogues to test their skill at Alther's Mill. It lies northeast along the road from Lakeshire, where Blackrock orcs now draw near.",
  "sections": [
   {
    "title": "A Test of Grace and Finesse",
-   "body": "Lucius sends you northeast along the road from Lakeshire to Alther's Mill, with your first set of thieves' tools. There, you face a locked chest and a test of skill. Open Lucius's personal lockbox and bring back the token inside to earn your Certificate of Thievery.",
+   "body": "Lucius sends you northeast from Lakeshire along the road to Alther's Mill, carrying your first set of thieves' tools. There, a locked chest puts your skill to the test. Open Lucius's personal lockbox and bring back the token inside to earn your Certificate of Thievery.",
    "spoiler": 0
   },
   {
    "title": "Shadows Around the Saws",
-   "body": "Alther's Mill once served as a lumber outpost, but Blackrock orcs now encroach on Redridge and have drawn near. Lucius treats their presence as an added trial. SI:7 expects its agents to pick locks undetected while moving through enemy-held territory.",
+   "body": "Alther's Mill once served as a lumber outpost. Now Blackrock orcs press into Redridge and have drawn near, so Lucius makes their presence part of the trial. SI:7 expects its agents to pick locks unseen while moving through enemy-held ground.",
    "spoiler": 0
   }
  ],
@@ -51,7 +51,7 @@
     "lucius lakeshire",
     "who gives this quest"
    ],
-   "answer": "Lucius trains rogues in Lakeshire, in the Redridge Mountains. He schools recruits sent by contacts throughout the Alliance, testing their stealth and manual skill."
+   "answer": "Lucius trains rogues in Lakeshire, in the Redridge Mountains. He schools recruits sent by contacts across the Alliance, testing their stealth and manual skill."
   },
   {
    "q": "Where is Alther's Mill located?",
@@ -78,7 +78,7 @@
     "certificate of thievery",
     "quest completion reward"
    ],
-   "answer": "Lucius awards you the Certificate of Thievery, recognizing your grasp of tumblers and lockpicks and your readiness to serve as a certified field rogue."
+   "answer": "Lucius awards you the Certificate of Thievery. It recognizes your grasp of tumblers and lockpicks and your readiness to serve as a certified field rogue."
   },
   {
    "q": "How does this quest fit into rogue training across the Alliance?",
@@ -121,5 +121,5 @@
  "attribution": [
   "Alther's Mill (quest)"
  ],
- "style": 1
+ "style": 2
 }

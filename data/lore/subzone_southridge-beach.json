@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Southridge Beach"
  },
- "summary": "Southridge Beach stretches along the southern shores of the Bay of Storms in central Azshara. Once a grand district of the ancient kaldorei city of Eldarath, its shattered ruins are now overrun by hostile naga, murlocs, and towering sea giants.",
+ "summary": "Along Azshara’s southern coast, Southridge Beach borders the turbulent Bay of Storms. Its broken ruins now shelter naga, murlocs, and towering sea giants.",
  "sections": [
   {
    "title": "A Drowned Shoreline",
-   "body": "Southridge Beach forms the southern boundary of the turbulent Bay of Storms. Thousands of years ago, this coast was part of the magnificent Highborne city of Eldarath, but the Great Sundering broke the land and plunged most of its palaces beneath the tides. Today, crumbling marble pillars and weathered stone pavilions dot the sand. Rather than scholars and noble courtiers, the strand is contested by aggressive Spitelash naga, prowling makrura, vicious hydras, and scavenging murloc tribes. Even massive sea giants occasionally wander ashore from the deeps.",
+   "body": "On Southridge Beach, the southern shore meets the turbulent Bay of Storms. Thousands of years ago, this coast belonged to Eldarath, a magnificent Highborne city. The Great Sundering broke the land and drowned most of its palaces. Crumbling marble pillars and weathered stone pavilions still dot the sand. Spitelash naga, prowling makrura, vicious hydras, and scavenging murloc tribes now contest the shore. Even massive sea giants sometimes wander ashore from the deep.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is southridge beach",
     "azshara southridge beach"
    ],
-   "answer": "Southridge Beach is situated in central Azshara, lining the southern edge of the Bay of Storms just beneath the mainland cliffs."
+   "answer": "Southridge Beach lies in central Azshara, along the southern edge of the turbulent Bay of Storms, beneath the mainland cliffs."
   },
   {
    "q": "What ruins are scattered along the beach?",
@@ -32,7 +32,7 @@
     "eldarath ruins beach",
     "what are the ruins here"
    ],
-   "answer": "The stone columns and arches along the sand are the outer remnants of Eldarath, a once-great Highborne night elf city that was shattered and flooded during the Great Sundering ten thousand years ago."
+   "answer": "The columns and arches on the sand are the outer ruins of Eldarath, a great Highborne night elf city shattered and flooded in the Great Sundering ten thousand years ago."
   },
   {
    "q": "What creatures live on Southridge Beach?",
@@ -41,7 +41,7 @@
     "enemies southridge beach",
     "what lives here"
    ],
-   "answer": "The shoreline is heavily occupied by the naga, alongside primitive murlocs, armored makrura, dangerous hydras, and the occasional roaming sea giant."
+   "answer": "Naga, primitive murlocs, armored makrura, and dangerous hydras occupy the shore, and sea giants sometimes roam there."
   },
   {
    "q": "Why are there so many naga here?",
@@ -50,13 +50,13 @@
     "naga southridge beach",
     "azshara naga"
    ],
-   "answer": "The naga have surged from the ocean depths to reclaim the ruins of their former civilization across Azshara, establishing a firm military presence along the beaches of the Bay of Storms."
+   "answer": "Naga have risen from the ocean depths to reclaim the ruins of their former civilization across Azshara. They have established a firm military presence along the Bay of Storms beaches."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The ruined architecture on Southridge Beach serves as a painful reminder of the heights and tragic fall of ancient Highborne civilization before the Great Sundering."
+   "text": "As a night elf, you see Southridge Beach’s ruined architecture as a reminder of the heights of ancient Highborne civilization and its tragic fall in the Great Sundering."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  ],
  "attribution": [
   "Southridge Beach"
- ]
+ ],
+ "style": 2
 }

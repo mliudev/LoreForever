@@ -21,17 +21,17 @@
  "sections": [
   {
    "title": "A Silent Delivery",
-   "body": "Apothecary Zamah prepares Apothecary Lydon’s toxin for the Venture Company. The tauren seek to protect Stonetalon from deforestation and ravaging machinery, while the Forsaken answer with a different approach. Zamah targets the cartel’s connection beyond the mountains instead of its foot soldiers or loggers. A rumored copter pad carries light cargo and messages between Stonetalon and distant corporate offices.",
+   "body": "Apothecary Zamah prepares Apothecary Lydon’s toxin for the Venture Company. The tauren want to protect Stonetalon from deforestation and ravaging machinery, while the Forsaken take another path. Zamah aims at the cartel’s connection beyond the mountains, not its foot soldiers or loggers. Rumor speaks of a copter pad carrying light cargo and messages between Stonetalon and distant corporate offices.",
    "spoiler": 0
   },
   {
    "title": "Cragpool's Sky Port",
-   "body": "The Venture Company’s copter pad sits high in the Cragpool Lake area, south of the great waterwheel. The small platform serves lightweight flying machines, not massive zeppelins. You are sent to set off the Toxic Fogger there, filling the pad with toxic vapor before a pilot, courier, or mechanic can alert the company’s commanders.",
+   "body": "The Venture Company’s copter pad lies high in the Cragpool Lake area, south of the great waterwheel. A small platform there serves lightweight flying machines, not massive zeppelins. You are sent to set off the Toxic Fogger, filling the pad with toxic vapor before a pilot, courier, or mechanic can alert the company’s commanders.",
    "spoiler": 0
   },
   {
    "title": "Forsaken Pragmatism",
-   "body": "Apothecary Zamah makes no apology for using chemical warfare against the goblins. She believes the Venture Company deserves worse for what it does to the land. Her lesson from Undercity doctrine is plain: the Horde must not shy from dark paths when they lead to victory.",
+   "body": "Apothecary Zamah makes no apology for using chemical warfare against the goblins. She believes the Venture Company deserves worse for what it does to the land. Undercity doctrine has taught her a plain lesson: the Horde must not shy from dark paths when they lead to victory.",
    "spoiler": 1
   }
  ],
@@ -44,7 +44,7 @@
     "where is sky port",
     "venture co landing pad"
    ],
-   "answer": "The Venture Company copter pad sits in the Cragpool Lake area of the Stonetalon Mountains, south of the massive industrial waterwheel. Its raised wooden platform overlooks the lake’s southern bend."
+   "answer": "The Venture Company’s copter pad lies in the Cragpool Lake area of the Stonetalon Mountains, south of the massive industrial waterwheel. Its raised wooden platform overlooks the lake’s southern bend."
   },
   {
    "q": "Why does Apothecary Zamah want this site poisoned?",
@@ -94,7 +94,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As a Forsaken, you see the Toxic Fogger as familiar work: Undercity’s alchemical skill can solve problems brute force cannot."
+   "text": "As a Forsaken, you know the Toxic Fogger as familiar work. Undercity’s alchemical skill can solve problems brute force cannot."
   },
   {
    "target": "race:Tauren",
@@ -106,7 +106,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you help cut off the Venture Company from outside aid. Striking its air transit deals a critical blow to its supply lines."
+   "text": "As a member of the Horde, you help cut the Venture Company off from outside aid. Striking its air transit deals a critical blow to its supply lines."
   }
  ],
  "keywords": [
@@ -133,5 +133,5 @@
  "attribution": [
   "The Flying Machine Airport"
  ],
- "style": 1
+ "style": 2
 }

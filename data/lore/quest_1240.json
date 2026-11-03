@@ -27,16 +27,16 @@
    "Marg Speaks"
   ]
  },
- "summary": "Nazeer Bloodpike means to learn what happened around Marg Nighteye's death, and says only the witch-magic of trolls can tell. You carry Marg's head to Kin'weelay at Grom'gol Base Camp in Stranglethorn Vale.",
+ "summary": "Nazeer Bloodpike seeks the truth about Marg Nighteye's death through troll witch-magic. You carry Marg's head to Kin'weelay at Grom'gol Base Camp in Stranglethorn Vale.",
  "sections": [
   {
    "title": "Witch-Magic of the Trolls",
-   "body": "After the severed head turned up, Nazeer Bloodpike insists the events around Marg's death must be known, and that only troll witch-magic can reveal them. Marg's head is to go to Kin'weelay in Stranglethorn Vale, at Grom'gol Base Camp. Among the Darkspear trolls no witchdoctor is mightier than Kin'weelay, and Nazeer reckons that Kin'weelay, if anyone, can reach Marg's spirit.",
+   "body": "Nazeer Bloodpike insists the truth about Marg's death must come to light. He says only troll witch-magic can reveal what happened. So you carry Marg's head to Kin'weelay at Grom'gol Base Camp in Stranglethorn Vale. No Darkspear witchdoctor is mightier than Kin'weelay, and Nazeer believes Kin'weelay can reach Marg's spirit.",
    "spoiler": 0
   },
   {
    "title": "Words at Grom'gol",
-   "body": "Kin'weelay senses an angry spirit about you as you arrive. Looking at the head, the witchdoctor sees that the orc's spirit is bound in this world, boiling with rage over a duty left undone, and proposes to have words with it.",
+   "body": "At Grom'gol, Kin'weelay senses an angry spirit. The witchdoctor studies the head and sees that the orc's spirit remains bound to this world. It rages over a duty left undone. Kin'weelay proposes to speak with it.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "why grom'gol",
     "why kin'weelay"
    ],
-   "answer": "Nazeer Bloodpike says the only way to learn the events of Marg's death is the witch-magic of trolls, and Kin'weelay is at Grom'gol Base Camp."
+   "answer": "Nazeer Bloodpike says only troll witch-magic can reveal what happened around Marg Nighteye's death. Kin'weelay is at Grom'gol Base Camp in Stranglethorn Vale."
   },
   {
    "q": "Who is Kin'weelay?",
@@ -56,7 +56,7 @@
     "who is the witchdoctor",
     "witchdoctor kin'weelay"
    ],
-   "answer": "The mightiest witchdoctor among the Darkspear trolls, found at Grom'gol Base Camp in Stranglethorn Vale."
+   "answer": "Kin'weelay is the mightiest witchdoctor among the Darkspear trolls. Kin'weelay can be found at Grom'gol Base Camp in Stranglethorn Vale."
   },
   {
    "q": "What comes after this step?",
@@ -64,7 +64,7 @@
     "what quest is next",
     "after the troll witchdoctor"
    ],
-   "answer": "The next step is Marg Speaks."
+   "answer": "Marg Speaks comes next."
   }
  ],
  "angles": [],
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "The Troll Witchdoctor"
- ]
+ ],
+ "style": 2
 }

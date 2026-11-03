@@ -8,16 +8,16 @@
   "wiki": "Barithras Moonshade",
   "refs": 2
  },
- "summary": "In Auberdine, Barithras Moonshade looks to the wilds of Darkshore for rare subterranean plants. The night elf seeks travelers willing to explore the shadowy land and gather them.",
+ "summary": "In Auberdine, Barithras Moonshade seeks travelers to gather rare plants from Darkshore’s shadowed wilds.",
  "sections": [
   {
    "title": "Resident of Auberdine",
-   "body": "Barithras Moonshade watches over Auberdine and helps the night elves study and manage Darkshore. He sends travelers into nearby caverns to gather fungi, including death cap mushrooms, for study and use.",
+   "body": "Barithras Moonshade watches over Auberdine and helps the night elves study and care for Darkshore. He sends travelers into nearby caverns to gather fungi for study and use, including death cap mushrooms.",
    "spoiler": 0
   },
   {
    "title": "Ties to the Ancients",
-   "body": "Barithras also guides capable travelers south to meet Onu. The ancient works to heal Darkshore's tainted soil and soothe its restless natural spirits.",
+   "body": "Barithras also guides capable travelers south to meet Onu. The ancient works to heal Darkshore’s tainted soil and soothe its restless natural spirits.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "barithras moonshade",
     "who is this night elf"
    ],
-   "answer": "Barithras Moonshade is a night elf in Auberdine who asks travelers to investigate local plants and contact guardians in the region."
+   "answer": "In Auberdine, Barithras Moonshade asks travelers to investigate local plants and contact guardians in the region."
   },
   {
    "q": "Where can I find Barithras Moonshade?",
@@ -38,7 +38,7 @@
     "where is barithras",
     "barithras moonshade location"
    ],
-   "answer": "Barithras Moonshade can be found in Auberdine, the port settlement on Darkshore's shore."
+   "answer": "You can find Barithras Moonshade in Auberdine, the port settlement on Darkshore’s shore."
   },
   {
    "q": "What tasks does Barithras give?",
@@ -47,7 +47,7 @@
     "what quests does barithras give",
     "cave mushrooms quest"
    ],
-   "answer": "Barithras sends travelers into nearby caverns to gather fungi such as death cap mushrooms, then points them south to meet Onu."
+   "answer": "Barithras sends travelers into nearby caverns to gather fungi, including death cap mushrooms, then points them south to meet Onu."
   },
   {
    "q": "Is Barithras related to the other Moonshades?",
@@ -66,7 +66,7 @@
   },
   {
    "target": "profession:Herbalism",
-   "text": "As one attuned to plant life, you may appreciate Barithras's interest in Darkshore's unusual cavern fungi."
+   "text": "As one attuned to plant life, you may appreciate Barithras’s interest in Darkshore’s unusual cavern fungi."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
  "attribution": [
   "Barithras Moonshade"
  ],
- "style": 1
+ "style": 2
 }

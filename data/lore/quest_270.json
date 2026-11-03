@@ -17,16 +17,16 @@
   "wiki": "The Doomed Fleet",
   "chain": []
  },
- "summary": "Bishop Farthing sends you north from Stormwind to seek a way past Morbent Fel's wards. The trail leads across Khaz Modan to the wreckage of Kul Tiras's Third Fleet off the Wetlands.",
+ "summary": "Bishop Farthing sends you north from Stormwind to find a way through Morbent Fel's wards. Your trail crosses Khaz Modan and ends at the wreck of Kul Tiras's Third Fleet off the Wetlands.",
  "sections": [
   {
    "title": "A Weapon of Holy Truth",
-   "body": "Morbent Fel's wards turn aside ordinary steel at his retreat on the Forlorn Rowe. Bishop Farthing sends you to seek a weapon bound to the Holy Light. Its key is Lightforge Iron, a rare consecrated metal whose strikes carry holy truth and pierce sorcerous protections.",
+   "body": "Morbent Fel's wards turn ordinary steel aside at his retreat on the Forlorn Rowe. Bishop Farthing sends you to seek a weapon bound to the Holy Light. Its key is Lightforge Iron, a rare consecrated metal whose strikes carry holy truth and pierce sorcerous protections.",
    "spoiler": 0
   },
   {
    "title": "The Wreck of the Third Fleet",
-   "body": "Duskwood has no supply of Lightforge Iron ready to hand. Bishop Farthing recalls that Kul Tiras's Third Fleet sank years ago along the dangerous Wetlands coast, north of Ironforge. One of its galleons carried a shipment of the precious ore. You travel to Menethil Harbor to meet Glorin Steelbrow, a dwarven contact who knows the marshes and their wrecks.",
+   "body": "Duskwood has no Lightforge Iron to hand. Bishop Farthing recalls that Kul Tiras's Third Fleet sank years ago along the dangerous Wetlands coast, north of Ironforge. One galleon carried a shipment of the precious ore. You travel to Menethil Harbor to meet Glorin Steelbrow, a dwarven contact who knows the marshes and their wrecks.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why menethil harbor",
     "wetlands trip"
    ],
-   "answer": "Morbent Fel's dark enchantments turn aside ordinary attacks. Bishop Farthing says only a weapon forged from sacred Lightforge Iron can break through those wards. The known shipment lies among Kul Tiras's wrecked Third Fleet off Menethil Harbor."
+   "answer": "Morbent Fel's dark enchantments turn aside ordinary attacks. Bishop Farthing says only a weapon forged from sacred Lightforge Iron can break through his wards. The known shipment lies among Kul Tiras's wrecked Third Fleet off Menethil Harbor."
   },
   {
    "q": "Who is Morbent Fel?",
@@ -47,7 +47,7 @@
     "who is the necromancer",
     "duskwood necromancer"
    ],
-   "answer": "Morbent Fel is a necromancer who dwells on the Forlorn Rowe in Duskwood. His sorcery has fueled much of the undead uprising threatening the region, and Darkshire's survival depends on defeating him."
+   "answer": "Morbent Fel is a necromancer who dwells on the Forlorn Rowe in Duskwood. His sorcery has fueled much of the undead uprising threatening the region. Darkshire's survival depends on defeating him."
   },
   {
    "q": "Who is Glorin Steelbrow?",
@@ -73,7 +73,7 @@
     "kul tiras ships wetlands",
     "how did ships sink"
    ],
-   "answer": "Years ago, Kul Tiras's Third Fleet sank along the rough, swampy Wetlands coast. Its hulls still lie beneath the water, with lost cargo and drowned sailors and aquatic predators among the wrecks."
+   "answer": "Years ago, Kul Tiras's Third Fleet sank along the rough, swampy Wetlands coast. Its hulls still lie beneath the water, with lost cargo, drowned sailors and aquatic predators among the wrecks."
   },
   {
    "q": "Does this quest involve any fighting right away?",
@@ -81,13 +81,13 @@
     "is there combat",
     "just travel quest"
    ],
-   "answer": "You make this leg as a courier, traveling from Duskwood through the Kingdom of Stormwind and Khaz Modan to Menethil Harbor, where you contact Glorin Steelbrow."
+   "answer": "You travel as a courier from Duskwood through the Kingdom of Stormwind and Khaz Modan to Menethil Harbor. There, you contact Glorin Steelbrow."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "As a Paladin, you seek holy metal to strike down an unholy necromancer, using weapons sanctified by the Light to purge darkness."
+   "text": "As a Paladin, you seek holy metal to strike down an unholy necromancer. You wield weapons sanctified by the Light to purge darkness."
   },
   {
    "target": "class:Priest",
@@ -126,5 +126,5 @@
  "attribution": [
   "The Doomed Fleet"
  ],
- "style": 1
+ "style": 2
 }

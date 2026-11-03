@@ -27,16 +27,16 @@
    "Service to the Horde"
   ]
  },
- "summary": "From beyond death, Marg tells of the muckshell that killed Marg and of a duty still undone. Marg asks you to find that muckshell, recover the jeweled pendant stolen from Alliance soldiers and carry it to Nazeer Bloodpike in Brackenwall Village.",
+ "summary": "Near Theramore, Marg's stolen pendant and unfinished duty still weigh on them. Marg asks you to find the muckshell that killed them, recover the jeweled pendant taken from Alliance soldiers, and carry it to Nazeer Bloodpike in Brackenwall Village.",
  "sections": [
   {
    "title": "What Marg Saw Near Theramore",
-   "body": "Near Theramore, Marg spotted Alliance soldiers camped on the beach. One of them wore a pendant studded with more gems than a soldier could ever pay for. That night Marg snuck into the camp and stole it, but a muckshell crab-man killed Marg on the way back to base. Now Marg asks you to find that muckshell, recover the pendant and bring it to Nazeer in Brackenwall Village.",
+   "body": "Alliance soldiers had made camp on the beach near Theramore. One wore a pendant set with more gems than a soldier could pay for. Marg slipped into the camp that night and stole it. On the way back to base, a muckshell crab-man killed Marg. Now Marg asks you to find the muckshell, recover the pendant, and bring it to Nazeer in Brackenwall Village.",
    "spoiler": 0
   },
   {
    "title": "What Nazeer Makes of It",
-   "body": "Nazeer is startled to learn that a soldier of Stormwind wore this pendant. You have uncovered the secret of how Marg died, yet the pendant is a new mystery, and Nazeer warns it may have dire effects on both the Alliance and the Horde.",
+   "body": "Nazeer is startled that a Stormwind soldier wore the pendant. You have learned how Marg died, yet the pendant raises a new question. Nazeer warns that it may bring dire effects to both the Alliance and the Horde.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "who is marg",
     "marg story"
    ],
-   "answer": "Marg stole a jeweled pendant from Alliance soldiers camped near Theramore, then was killed by a muckshell crab-man on the way back to base."
+   "answer": "Marg stole a jeweled pendant from Alliance soldiers camped near Theramore. A muckshell crab-man killed Marg on the way back to base."
   },
   {
    "q": "Where did the jeweled pendant come from?",
@@ -57,7 +57,7 @@
     "who had the pendant",
     "marg pendant origin"
    ],
-   "answer": "A soldier in an Alliance camp on the beach near Theramore wore it, studded with far more gems than a soldier could pay for. Marg snuck in that night and stole it."
+   "answer": "An Alliance soldier wore the pendant at a beach camp near Theramore. It held more gems than a soldier could pay for, and Marg stole it that night."
   },
   {
    "q": "Who receives the recovered pendant?",
@@ -66,7 +66,7 @@
     "where do i take the pendant",
     "nazeer bloodpike pendant"
    ],
-   "answer": "Nazeer Bloodpike, in Brackenwall Village."
+   "answer": "Nazeer Bloodpike receives the recovered pendant in Brackenwall Village."
   },
   {
    "q": "What comes directly before this quest?",
@@ -99,5 +99,6 @@
  ],
  "attribution": [
   "Marg Speaks"
- ]
+ ],
+ "style": 2
 }

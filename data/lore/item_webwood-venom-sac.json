@@ -10,11 +10,11 @@
    "quest:916"
   ]
  },
- "summary": "In Shadowglen, Webwood Venom Sacs draw the attention of naturalists studying Teldrassil's growth. The sacs come from overgrown spiders, and their venom may show how the new World Tree has changed local wildlife.",
+ "summary": "In Shadowglen, naturalists study Webwood Venom Sacs to learn how Teldrassil's growth has changed local wildlife. The sacs come from overgrown spiders, and their venom may offer clues.",
  "sections": [
   {
    "title": "A Symptom of Teldrassil's Growth",
-   "body": "Webwood spiders live around and within Shadowthread Cave, and they are cousins to a much smaller breed found elsewhere. Their sudden growth and predatory aggression worry night elf researchers. Naturalists such as Gilshalan Windwalker study the venom in their sacs, examining its strength and composition. They hope to learn how Teldrassil's rapid, unblessed growth is changing the creatures that live on its boughs.",
+   "body": "Webwood spiders haunt Shadowthread Cave and the ground around it. They are cousins to a much smaller breed found elsewhere. Their sudden growth and predatory aggression trouble night elf researchers. Naturalists such as Gilshalan Windwalker study the venom's strength and composition, hoping to learn how Teldrassil's rapid, unblessed growth is changing the creatures on its boughs.",
    "spoiler": 0
   }
  ],
@@ -56,11 +56,11 @@
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For a druid attuned to nature's balance, the potency of these venom sacs is troubling evidence that something is wrong among Teldrassil's boughs."
+   "text": "For a druid attuned to nature's balance, the strength of these venom sacs is troubling evidence that something is wrong among Teldrassil's boughs."
   },
   {
    "target": "race:NightElf",
-   "text": "As a young night elf adventurer in Shadowglen, you gather these specimens to help scholars understand the strange ecology of your homeland in the boughs."
+   "text": "As a young night elf adventurer in Shadowglen, you gather these specimens to help scholars understand the strange ecology of your homeland among the boughs."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
   "Webwood Venom Sac",
   "Webwood Venom"
  ],
- "style": 1
+ "style": 2
 }

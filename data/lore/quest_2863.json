@@ -21,16 +21,16 @@
    "War on the Woodpaw"
   ]
  },
- "summary": "Hadoken Swiftstrider has a plan to break the impasse with the Woodpaw gnolls: strike down several of their leaders, who call themselves Alphas, in quick succession. Hadoken wants you to be the one to carry it out.",
+ "summary": "The Horde's stalemate with the Woodpaw gnolls may be broken by striking their leaders in quick succession. Hadoken Swiftstrider asks you to bring down five Alphas within one hour.",
  "sections": [
   {
    "title": "Five Alphas in an Hour",
-   "body": "Hadoken reasons that if the gnoll leaders, who call themselves Alphas, fall one after another, their ranks will be thrown into chaos. It might also send the message that the Horde can and will destroy them. You are to carry out Hadoken's will: five Alphas down inside a single hour, or the stalemate stays.",
+   "body": "Hadoken Swiftstrider believes the Woodpaw ranks will fall into chaos if their Alphas die one after another. The blows may also show the gnolls that the Horde can destroy them. He asks you to carry out the plan. Five Alphas must fall within one hour, or the stalemate continues.",
    "spoiler": 0
   },
   {
    "title": "Afterwards",
-   "body": "Thinned ranks and slain leaders, Hadoken expects, will make the gnolls hesitate before storming the camp. Yet the trouble is not over. Hadoken wants to learn what has driven the gnolls into such a frenzy, and to do so ahead of their regrouping.",
+   "body": "Hadoken Swiftstrider expects the slain leaders and thinner ranks to make the gnolls hesitate before storming the camp. He still needs to learn what has driven them into such a frenzy. He hopes to find out before they regroup.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "hadoken swiftstrider",
     "quest giver"
    ],
-   "answer": "Hadoken Swiftstrider, who is dealing with the stalemate against the Woodpaw gnolls for the Horde."
+   "answer": "Hadoken Swiftstrider gives you this work as he faces the Horde's stalemate against the Woodpaw gnolls."
   },
   {
    "q": "Why the one-hour limit?",
@@ -51,7 +51,7 @@
     "why rapid succession",
     "alpha strike timer"
    ],
-   "answer": "The plan only works if the Alphas fall in swift succession, since that is what should throw the gnoll ranks into chaos. Five must fall within an hour."
+   "answer": "The plan depends on the Alphas falling in quick succession to throw the gnoll ranks into chaos. Five must fall within one hour."
   },
   {
    "q": "What are the Alphas?",
@@ -60,7 +60,7 @@
     "gnoll alphas",
     "who are the targets"
    ],
-   "answer": "They are leaders among the Woodpaw gnolls, who call themselves Alphas."
+   "answer": "The Alphas are leaders among the Woodpaw gnolls, who call themselves Alphas."
   },
   {
    "q": "How many Alphas must I kill?",
@@ -68,7 +68,7 @@
     "how many alphas",
     "alpha count"
    ],
-   "answer": "Five, all within one hour, before returning to Hadoken Swiftstrider."
+   "answer": "You must kill five Alphas within one hour, then return to Hadoken Swiftstrider."
   }
  ],
  "angles": [],
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Alpha Strike (Classic)"
- ]
+ ],
+ "style": 2
 }

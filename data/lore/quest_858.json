@@ -20,21 +20,21 @@
    "The Escape (Classic)"
   ]
  },
- "summary": "At a Venture Company camp in the northern Barrens, a trapped pilot needs an ignition key before their cover fails. The operative hijacked a shredder without its key and needs someone to fetch it from the site supervisor.",
+ "summary": "At a Venture Company camp in the northern Barrens, a trapped pilot needs the key to get free. The spy has taken a shredder without its ignition key and sends you to fetch one from the site supervisor.",
  "sections": [
   {
    "title": "A Heist Gone Sideways",
-   "body": "A spy sent by Sputtervalve has slipped into a Venture Company shredder at the northern Barrens drilling grounds. The operative means to seize the machine and study how it works. But the steering and movement column stays locked without its ignition key.",
+   "body": "Sputtervalve sent a spy into a Venture Company shredder at the northern Barrens drilling grounds. The operative plans to take the machine and study its workings. Yet its steering and movement column remains locked without the ignition key.",
    "spoiler": 0
   },
   {
    "title": "Bluffing Under Pressure",
-   "body": "A goblin worker has noticed the shredder sitting idle, so the hijacker bluffs that its engine has failed. Trapped beneath the glass canopy with workers nearby, the operative points you toward the central derrick. The supervisor keeps spare ignition keys in the upper control office, the only way out before the bluff fails.",
+   "body": "A goblin worker has spotted the idle shredder, so the hijacker claims its engine has failed. Trapped beneath the glass canopy with workers nearby, the operative points you toward the central derrick. The supervisor keeps spare ignition keys in the upper control office. One of those keys is the pilot’s only way out before the bluff fails.",
    "spoiler": 0
   },
   {
    "title": "Corporate Jealousy",
-   "body": "The key turns, and the thief studies the shredder's controls. Its precise arm levers, rotation controls, and stability dampeners surpass the clumsy machines operating out of Ratchet. The machine is now a prize of industrial espionage as well as the pilot's way to survive.",
+   "body": "Once the key turns, the thief studies the shredder’s controls. Its arm levers, rotation controls, and stability dampeners are more precise than the clumsy machines operating out of Ratchet. The machine is now a prize of industrial espionage, and the pilot’s way to survive.",
    "spoiler": 1
   }
  ],
@@ -55,7 +55,7 @@
     "why stuck",
     "shredder locked"
    ],
-   "answer": "The shredder's movement column is locked without its ignition key. The hijacker reached the cockpit, but the machine cannot move until the key unlocks its drive controls."
+   "answer": "The shredder’s movement column is locked without its ignition key. The hijacker reached the cockpit, but the machine cannot move until the key unlocks its drive controls."
   },
   {
    "q": "Where is the Ignition Key found?",
@@ -73,7 +73,7 @@
     "ratchet shredder",
     "sputtervalve shredder"
    ],
-   "answer": "Ratchet wants a Venture Company shredder because its engineering outclasses the standard models used there. An intact machine could let local tinkerers study its arm controls, speed regulators, and stability systems."
+   "answer": "Ratchet wants a Venture Company shredder because its engineering surpasses the standard models used there. An intact machine could let local tinkerers study its arm controls, speed regulators, and stability systems."
   },
   {
    "q": "Who is Sputtervalve?",
@@ -82,7 +82,7 @@
     "who sent wizzlecrank",
     "sputtervalve ratchet"
    ],
-   "answer": "Sputtervalve is a goblin engineer and operative in Ratchet. Sputtervalve watches the Venture Company's expansion and seeks its mechanical innovations."
+   "answer": "Sputtervalve is a goblin engineer and operative in Ratchet. Sputtervalve watches the Venture Company’s expansion and seeks its mechanical innovations."
   },
   {
    "q": "What happens after the shredder is started?",
@@ -91,17 +91,17 @@
     "after ignition key",
     "ignition follow up"
    ],
-   "answer": "Turning the key unlocks the shredder's movement systems. The pilot then tries to drive the hijacked machine out of the hostile drilling camp and back to safety, with an escort operation underway."
+   "answer": "Turning the key unlocks the shredder’s movement systems. The pilot then tries to drive the hijacked machine out of the hostile drilling camp and back to safety, while an escort operation is underway."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The Venture Company's shredder uses precise arm controls and responsive rotation governors, beyond the usual tinkering in Ratchet."
+   "text": "The Venture Company’s shredder has precise arm controls and responsive rotation governors, beyond the usual tinkering in Ratchet."
   },
   {
    "target": "faction:Horde",
-   "text": "The Venture Company's reckless deforestation threatens the northern Barrens. Sabotaging or stealing its heavy machinery disrupts that work."
+   "text": "The Venture Company’s reckless deforestation threatens the northern Barrens. Sabotaging or stealing its heavy machinery disrupts that work."
   }
  ],
  "keywords": [
@@ -126,5 +126,5 @@
  "attribution": [
   "Ignition (Classic)"
  ],
- "style": 1
+ "style": 2
 }

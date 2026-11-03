@@ -10,11 +10,11 @@
    "quest:157"
   ]
  },
- "summary": "In Darkshire, Madame Eva spins Ghost Hair Thread from the spirit world. Its occult powers can bind spirits or stitch life into inanimate things. Abercrombie asks for it to ward his shack against restless ghosts.",
+ "summary": "In Darkshire, Madame Eva spins Ghost Hair Thread from the spirit world. Its occult power can bind spirits or stitch life into inanimate things, and Abercrombie asks for it to ward his shack against restless ghosts.",
  "sections": [
   {
    "title": "Spun of the Spirit World",
-   "body": "Madame Eva spins Ghost Hair Thread in Darkshire, where its strange powers are known. Eva says the spectral strand can bind malevolent spirits or stitch vitality into inanimate objects. In Duskwood, it can be used in rituals and wards.",
+   "body": "In Darkshire, Madame Eva spins Ghost Hair Thread, a spectral strand with strange powers. Eva says it can bind malevolent spirits or stitch vitality into inanimate objects. In Duskwood, people use it in rituals and wards.",
    "spoiler": 0
   },
   {
@@ -31,7 +31,7 @@
     "what is ghost hair thread",
     "ghost thread"
    ],
-   "answer": "Madame Eva spins Ghost Hair Thread in Darkshire. Its occult powers can bind spirits or stitch life into inanimate things."
+   "answer": "Madame Eva spins Ghost Hair Thread in Darkshire. Its occult power can bind spirits or stitch life into inanimate things."
   },
   {
    "q": "Why does Abercrombie want Ghost Hair Thread?",
@@ -62,7 +62,7 @@
  "angles": [
   {
    "target": "profession:Tailoring",
-   "text": "Tailors usually work with wool, silk, and mageweave. Madame Eva's ghostly thread shows that fabric can also be spun from supernatural essences and hold enchantments."
+   "text": "Tailors usually work with wool, silk, and mageweave. Madame Eva's ghostly thread shows that supernatural essences can also be spun into fabric that holds enchantments."
   },
   {
    "target": "class:Warlock",
@@ -90,5 +90,5 @@
   "Ghost Hair Thread",
   "Deliver the Thread (Classic)"
  ],
- "style": 1
+ "style": 2
 }

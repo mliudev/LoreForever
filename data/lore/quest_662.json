@@ -21,16 +21,16 @@
   ],
   "category": "Arathi Highlands"
  },
- "summary": "Following Land Ho!, First Mate Nilzlix asks you to bring back the charts and logs of two sunken ships before anyone leaves the cove.",
+ "summary": "After Land Ho!, First Mate Nilzlix asks you to recover the charts and logs from two wrecks before anyone leaves the cove.",
  "sections": [
   {
    "title": "Two Ships Lost in the Reef",
-   "body": "O'Breen led three ships into the cove, certain the treasure lay here. The Harbinger docked safely. Then, as the Maiden's Folly with the Spirit of Silverpine came in, the tides began to lower, and both ships ran aground on a temple-like structure in the reef and sank fast.",
+   "body": "O'Breen brought three ships into the cove, certain treasure lay there. The Harbinger docked safely. But the Maiden's Folly and the Spirit of Silverpine reached the reef as the tides began to fall. Both struck a temple-like structure and sank fast.",
    "spoiler": 0
   },
   {
    "title": "What Nilzlix Wants Back",
-   "body": "Nilzlix wants the logs and the charts of both wrecked ships recovered, since that information must not be left behind for prying eyes. If it reached enemy hands, he says, Fleet Master Seahorn would force the crew down the plank.",
+   "body": "First Mate Nilzlix wants you to recover the logs and charts from both wrecks. He fears the information could reach prying eyes. If enemies found it, Fleet Master Seahorn would force the crew down the plank.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "how did the ships sink",
     "arathi cove shipwreck cause"
    ],
-   "answer": "As the two ships came in, the tides began to lower. Both ran aground on something like a temple in the reef and sank quickly."
+   "answer": "The Maiden's Folly and the Spirit of Silverpine entered the cove as the tides began to fall. Both struck a temple-like structure in the reef and sank quickly."
   },
   {
    "q": "Who is First Mate Nilzlix?",
@@ -50,7 +50,7 @@
     "nilzlix",
     "who gives deep sea salvage"
    ],
-   "answer": "He is the first mate who speaks of the three ships O'Breen led into the cove, and he wants the logs and charts of the two sunken ones recovered."
+   "answer": "First Mate Nilzlix speaks of the three ships O'Breen led into the cove. He wants you to recover the logs and charts from the two sunken ships."
   },
   {
    "q": "Why are the charts and logs so important?",
@@ -58,7 +58,7 @@
     "why recover logs",
     "why charts and logs"
    ],
-   "answer": "Nilzlix does not want that information left behind for prying eyes. If enemies got hold of it, he says Fleet Master Seahorn would force the crew down the plank."
+   "answer": "Nilzlix fears prying eyes will find the information left behind. If enemies got hold of it, he says Fleet Master Seahorn would force the crew down the plank."
   },
   {
    "q": "What ship made it to safety?",
@@ -66,7 +66,7 @@
     "which ship survived",
     "harbinger ship"
    ],
-   "answer": "Only the Harbinger. It docked safely in the cove, while the other two ships went down."
+   "answer": "Only the Harbinger docked safely in the cove. The other two ships sank."
   },
   {
    "q": "Who is Fleet Master Seahorn?",
@@ -74,7 +74,7 @@
     "fleet master seahorn role",
     "who is seahorn"
    ],
-   "answer": "Nilzlix names him as the one who would force the crew down the plank if their records reached enemy hands."
+   "answer": "Nilzlix names Fleet Master Seahorn as the one who would force the crew down the plank if enemy hands got the records."
   },
   {
    "q": "What came before this task?",
@@ -82,7 +82,7 @@
     "deep sea salvage prerequisite",
     "previous quest"
    ],
-   "answer": "It follows Land Ho!"
+   "answer": "Land Ho! came before this."
   }
  ],
  "angles": [],
@@ -105,5 +105,6 @@
  ],
  "attribution": [
   "Deep Sea Salvage"
- ]
+ ],
+ "style": 2
 }

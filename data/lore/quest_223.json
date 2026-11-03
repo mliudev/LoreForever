@@ -17,16 +17,16 @@
   "wiki": "Worgen in the Woods (Classic, 4)",
   "chain": []
  },
- "summary": "Calor sends you to Darkshire with a letter for Jonathan Carevin after your hunts against the worgen in Duskwood. Carevin faces dangers beyond the beasts, and Calor believes your skill can aid him.",
+ "summary": "In Worgen in the Woods, Calor sends you to Darkshire with a letter for Jonathan Carevin. Your hunts against the worgen in Duskwood have earned his trust, and he believes your skill can aid Carevin.",
  "sections": [
   {
    "title": "A Rare Recommendation",
-   "body": "You have driven the Nightbane pack from Roland's Doom and the shadowed glades, earning Calor's respect. He is stationed on the dark frontier of the woods and rarely offers praise or formal introductions. Calor gives you a faded scrap of parchment and asks you to deliver his recommendation to Jonathan Carevin in Darkshire. He says that with more fighters like you, his small company might outshine the town's beleaguered Night Watch.",
+   "body": "You drove the Nightbane pack from Roland's Doom and the shadowed glades, earning Calor's respect. He serves on the dark frontier of the woods and rarely offers praise or formal introductions. Now he gives you a faded scrap of parchment for Jonathan Carevin in Darkshire. Calor believes more fighters like you could help his small company outshine the town's beleaguered Night Watch.",
    "spoiler": 0
   },
   {
    "title": "Carevin's Vigil",
-   "body": "Jonathan Carevin works in Darkshire under heavy strain, wary of outsiders and short on time. The town faces worgen, restless undead, demonic forces, and cultists aiding the corruption from within. Calor's recommendation wins Carevin's trust, and he sees you as a dependable fighter ready to preserve the Light against Duskwood's terrors.",
+   "body": "Jonathan Carevin works in Darkshire under heavy strain. Worgen, restless undead, demonic forces, and cultists who aid the corruption from within all threaten the town. Wary of outsiders and short on time, Carevin trusts Calor's recommendation. He sees you as a dependable fighter who can help preserve the Light against Duskwood's terrors.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who starts this",
     "calor"
    ],
-   "answer": "Calor sends you to deliver a faded letter of recommendation to Jonathan Carevin. Your success against the worgen packs across Duskwood has earned Calor's respect."
+   "answer": "Calor sends you to deliver a faded letter of recommendation to Jonathan Carevin. Your success against the worgen packs across Duskwood has earned his respect."
   },
   {
    "q": "Who is Jonathan Carevin?",
@@ -47,7 +47,7 @@
     "who is carevin",
     "master carevin"
    ],
-   "answer": "Jonathan Carevin is a focused resident of Darkshire who coordinates the town's defense against supernatural threats. Though wary of strangers, he works with trusted allies such as Calor against undead, demons, and those who aid them."
+   "answer": "Jonathan Carevin lives in Darkshire and coordinates the town's defense against supernatural threats. Wary of strangers, he works with trusted allies such as Calor against undead, demons, and those who aid them."
   },
   {
    "q": "Why is Calor so dismissive of the Night Watch?",
@@ -56,7 +56,7 @@
     "outnumber the night watch",
     "why compete with night watch"
    ],
-   "answer": "Calor believes the Night Watch is struggling to meet the many dangers in Duskwood. He thinks a few capable fighters can do more against them than the town's small company can manage."
+   "answer": "Calor believes the Night Watch is struggling to meet Duskwood's many dangers. He thinks a few capable fighters can do more than the town's small company."
   },
   {
    "q": "What threats does Carevin warn about upon delivery?",
@@ -65,7 +65,7 @@
     "what does carevin say",
     "what are we fighting"
    ],
-   "answer": "Carevin faces worgen, restless undead, demonic forces, and cultists who help the corruption from within. The town is under pressure from threats on every side."
+   "answer": "Carevin faces worgen, restless undead, demonic forces, and cultists who help the corruption from within. Threats press in on the town from every side."
   },
   {
    "q": "Does this quest require any combat?",
@@ -74,7 +74,7 @@
     "do i kill anything",
     "delivery only"
    ],
-   "answer": "No. You only need to take Calor's letter to Carevin in Darkshire. The earlier hunts against the Nightbane worgen are already behind you."
+   "answer": "No. You only need to take Calor's letter to Carevin in Darkshire. Your earlier hunts against the Nightbane worgen are already behind you."
   },
   {
    "q": "Where can I find Jonathan Carevin?",
@@ -83,21 +83,21 @@
     "where is carevin",
     "where to turn in"
    ],
-   "answer": "Jonathan Carevin is in Darkshire, where he attends to the town's defense."
+   "answer": "Jonathan Carevin is in Darkshire, attending to the town's defense."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "With the Kingdom of Stormwind failing to spare soldiers for Duskwood's borderlands, independent Alliance adventurers and vigilantes like Carevin are the town's only line of defense."
+   "text": "With the Kingdom of Stormwind unable to spare soldiers for Duskwood's borderlands, independent Alliance adventurers and vigilantes like Carevin are the town's only line of defense."
   },
   {
    "target": "class:Paladin",
-   "text": "As a paladin, Carevin welcomes proven allies with words of the Holy Light and seeks holy champions to face Duskwood's unholy evils."
+   "text": "As a paladin, Carevin welcomes proven allies in the name of the Holy Light and seeks holy champions to face Duskwood's unholy evils."
   },
   {
    "target": "class:Priest",
-   "text": "As a priest, you hear Carevin's parting blessing, “Glory under the Light,” a sign of the defenders' faith amid Darkshire's unending corruption."
+   "text": "As a priest, you hear Carevin's parting blessing, “Glory under the Light.” It speaks to the defenders' faith amid Darkshire's unending corruption."
   }
  ],
  "keywords": [
@@ -120,5 +120,5 @@
  "attribution": [
   "Worgen in the Woods (Classic, 4)"
  ],
- "style": 1
+ "style": 2
 }

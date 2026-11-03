@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Tarren Mill"
  },
- "summary": "Tarren Mill holds the Horde's line in the northern Hillsbrad Foothills, beneath the Alterac Mountains. Once a peaceful human farming village, it is now a Forsaken outpost locked in conflict with Southshore to the south.",
+ "summary": "In northern Hillsbrad Foothills, Tarren Mill holds the Horde's line beneath the Alterac Mountains. Once a peaceful human farming village, it is now a Forsaken outpost locked in conflict with Southshore to the south.",
  "sections": [
   {
    "title": "From Grain to Grave",
-   "body": "Tarren Mill's fields and mill have fallen silent since the Third War. Before then, it was a thriving farming town loyal to Lordaeron. During the Second War, Alliance forces near the town freed captured high elven archers from orc encampments, securing Quel'Thalas's full commitment to the Alliance of Lordaeron. The town's living inhabitants are gone, replaced by the Forsaken. Its buildings are weathered, its fields barren, and its mill quiet. The Forsaken fortify Tarren Mill against mountain beasts, Syndicate outlaws, and Alliance skirmishers.",
+   "body": "Since the Third War, Tarren Mill's fields and mill have fallen silent. Before then, the town thrived on farming and served Lordaeron. During the Second War, Alliance forces near Tarren Mill freed high elven archers from orc encampments. Their rescue secured Quel'Thalas's full commitment to the Alliance of Lordaeron.\n\nThe town's living inhabitants are gone, replaced by the Forsaken. Its buildings are weathered, its fields barren, and its mill quiet. The Forsaken fortify Tarren Mill against mountain beasts, Syndicate outlaws, and Alliance skirmishers.",
    "spoiler": 0
   },
   {
    "title": "Front Line of Hillsbrad",
-   "body": "Tarren Mill is the Horde's forward base in Hillsbrad. Southshore, the Alliance port, lies directly across from it, and the road between the towns has become a warzone. From Tarren Mill, Horde travelers push back against the human farmers and soldiers occupying Hillsbrad, coordinate strikes against dwarven excavators at Dun Garok, and secure the dangerous roads that climb into the snowy crags of the Alterac Mountains.",
+   "body": "Tarren Mill is the Horde's forward base in Hillsbrad. Southshore, the Alliance port, lies directly across from it, and the road between the towns has become a warzone. From Tarren Mill, Horde travelers push back against the human farmers and soldiers occupying Hillsbrad. They also coordinate strikes against dwarven excavators at Dun Garok and secure the dangerous roads that climb into the snowy crags of the Alterac Mountains.",
    "spoiler": 0
   }
  ],
@@ -90,5 +90,5 @@
  "attribution": [
   "Tarren Mill"
  ],
- "style": 1
+ "style": 2
 }

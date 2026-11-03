@@ -25,16 +25,16 @@
   ],
   "category": "Hinterlands"
  },
- "summary": "Elder Torntusk asks you to return to his mate, Primal Torntusk, at Revantusk Village and tell her that he is coming home.",
+ "summary": "Elder Torntusk is free and sends you to Revantusk Village with word for his mate, Primal Torntusk.",
  "sections": [
   {
    "title": "News for His Mate",
-   "body": "Elder Torntusk is free of his bindings, and he asks you to return to Revantusk Village. There you are to tell his mate, Primal Torntusk, that he is coming home.",
+   "body": "Elder Torntusk is free of his bindings and asks you to return to Revantusk Village. Tell his mate, Primal Torntusk, that he is coming home.",
    "spoiler": 0
   },
   {
    "title": "The Village Is Grateful",
-   "body": "Primal Torntusk says you have served the Revantusk greatly, and that the village owes you a deep debt of thanks.",
+   "body": "Primal Torntusk thanks you for serving the Revantusk. The village owes you a deep debt of gratitude.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "who starts return to primal torntusk",
     "elder torntusk quest giver"
    ],
-   "answer": "Elder Torntusk asks you to carry the news of his rescue to his mate."
+   "answer": "Elder Torntusk sends you to carry news of his rescue to his mate."
   },
   {
    "q": "Where is Primal Torntusk located?",
@@ -62,7 +62,7 @@
     "what to tell primal torntusk",
     "torntusk message"
    ],
-   "answer": "That Elder Torntusk is coming home."
+   "answer": "Tell Primal Torntusk that Elder Torntusk is coming home."
   },
   {
    "q": "What came before this journey?",
@@ -70,7 +70,7 @@
     "previous quest",
     "primal torntusk quest chain"
    ],
-   "answer": "It follows Recover the Key!, after the earlier effort that began in Kidnapped Elder Torntusk!"
+   "answer": "This follows Recover the Key!, after the earlier effort that began in Kidnapped Elder Torntusk!."
   }
  ],
  "angles": [],
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Wowpedia: Return to Primal Torntusk"
- ]
+ ],
+ "style": 2
 }

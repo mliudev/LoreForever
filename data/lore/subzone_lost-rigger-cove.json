@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Lost Rigger Cove"
  },
- "summary": "Tucked away along the eastern cliffs of Tanaris, Lost Rigger Cove serves as the primary base of operations for the Southsea Pirates in the region. Shielded by towering desert mountains on three sides, this hidden port boasts docks, fortified encampments, and an active shipyard constructing new pirate vessels.",
+ "summary": "At Lost Rigger Cove, pirate ships take shape along Tanaris's eastern cliffs. Desert mountains shield the hidden port on three sides, where the Southsea Pirates keep docks and fortified camps beside their shipyard.",
  "sections": [
   {
    "title": "Pirates and Mountain Walls",
-   "body": "Naturally fortified by sheer rock walls on almost every side, Lost Rigger Cove provides the Southsea Freebooters an ideal maritime stronghold on Kalimdor's southeastern edge. Here, pirate cutthroats, dockworkers, and brigands haul salvage and assemble fresh hulls right under the noses of Gadgetzan's authorities. The cove allows the Southseas to project power across the Great Sea while raiding trade routes between Ratchet, Booty Bay, and coastal settlements.",
+   "body": "Rock walls guard almost every side of Lost Rigger Cove. Here on Kalimdor's southeastern edge, the Southsea Freebooters haul salvage and build fresh hulls under Gadgetzan's nose. Cutthroats, dockworkers, and brigands work from this stronghold. From here, Southsea power reaches across the Great Sea, and its pirates raid trade routes between Ratchet, Booty Bay, and coastal settlements.",
    "spoiler": 0
   },
   {
    "title": "Rivals on the Doorstep",
-   "body": "The pirates do not hold their cove unchallenged. The goblins of Gadgetzan and nearby Steamwheedle Port resent the raiders on their doorstep and pay mercenaries to slaughter the Southseas, thin their ranks, and disrupt their operations.",
+   "body": "Gadgetzan and nearby Steamwheedle Port oppose the Southsea Pirates at their doorstep. The goblins resent the raiders, so they pay mercenaries to slaughter them, thin their ranks, and disrupt their operations.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who lives in lost rigger cove",
     "lost rigger cove factions"
    ],
-   "answer": "The cove is held by the Southsea Pirates, an infamous maritime syndicate operating throughout Kalimdor and the South Seas. They use this natural harbor to repair their fleet and construct new warships."
+   "answer": "The Southsea Pirates hold Lost Rigger Cove. This infamous maritime syndicate ranges across Kalimdor and the South Seas. It uses the natural harbor to repair its fleet and build new warships."
   },
   {
    "q": "Who is fighting the pirates here?",
@@ -37,7 +37,7 @@
     "why are gnomes here",
     "why fight the pirates"
    ],
-   "answer": "The goblins of Gadgetzan and Steamwheedle Port, who resent the raiders on their doorstep, hire passing adventurers to strike at the pirate stronghold and thin the Southsea ranks."
+   "answer": "The goblins of Gadgetzan and Steamwheedle Port fight the pirates. Resenting raiders on their doorstep, they hire passing adventurers to strike at the stronghold and thin the Southsea ranks."
   },
   {
    "q": "Where is Lost Rigger Cove located?",
@@ -46,7 +46,7 @@
     "how to get to lost rigger cove",
     "lost rigger cove map"
    ],
-   "answer": "It lies along the eastern coast of Tanaris, southeast of Gadgetzan. It is accessed through a winding canyon path cut through the coastal mountain barrier."
+   "answer": "Lost Rigger Cove lies along Tanaris's eastern coast, southeast of Gadgetzan. A winding canyon path crosses the coastal mountain barrier and leads there."
   },
   {
    "q": "What are the pirates building in the cove?",
@@ -54,17 +54,17 @@
     "shipyard lost rigger cove",
     "pirate boat construction"
    ],
-   "answer": "The Southsea Pirates operate an active drydock and shipyard in the center of the cove, where carpenters and brigands are busy assembling the hull of a large ocean-going war vessel."
+   "answer": "The Southsea Pirates are building a large ocean-going war vessel. Carpenters and brigands assemble its hull in an active drydock and shipyard at the cove's center."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "The sprawling pirate camp is dense with pockets to pick, private lockboxes, and cutthroats who know every dirty trick of maritime swashbuckling."
+   "text": "As a rogue, you find a sprawling pirate camp with pockets to pick, private lockboxes, and cutthroats skilled in every dirty trick of maritime swashbuckling."
   },
   {
    "target": "race:Gnome",
-   "text": "For gnomish tinkerers, the pirates' drydock is a crude but telling display of salvaged machinery and stolen parts, and a standing threat to every merchant vessel on the southern seas."
+   "text": "As a gnome, you can read the pirates' drydock as a crude display of salvaged machinery and stolen parts. It threatens every merchant vessel on the southern seas."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Lost Rigger Cove"
- ]
+ ],
+ "style": 2
 }

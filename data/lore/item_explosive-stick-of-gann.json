@@ -10,16 +10,16 @@
    "quest:849"
   ]
  },
- "summary": "In the southern Barrens, Gann Stonespire turns stolen dwarven plans against Bael Modan. He built the charge to sabotage the dwarves’ flying machine.",
+ "summary": "In the southern Barrens, Gann Stonespire turns stolen dwarven plans against Bael Modan. He built a charge to sabotage the dwarves’ flying machine.",
  "sections": [
   {
    "title": "A Weapon of Retribution",
-   "body": "When Prospector Khazgorm led the Ironforge excavation into southern Kalimdor, the dwarves drove the Stonespire tauren from their ancestral village and razed their sacred grounds to build Bael Modan. Gann Stonespire reclaimed Khazgorm’s blueprints to avenge his displaced and fallen kin. He studied the plans and assembled a charge with enough force to wreck heavy machinery.",
+   "body": "Prospector Khazgorm led the Ironforge excavation into southern Kalimdor. The dwarves drove the Stonespire tauren from their ancestral village and razed their sacred grounds to build Bael Modan. Gann Stonespire reclaimed Khazgorm’s blueprints to avenge his displaced and fallen kin. He studied the plans and built a charge strong enough to wreck heavy machinery.",
    "spoiler": 0
   },
   {
    "title": "Targeting the Sky Machine",
-   "body": "Gann made the explosive stick for the dwarven flying machine on an observation tower above the excavation. To him, the machine is more than transport or a weapon of war. It marks Alliance dominion over sacred tauren soil. Destroying it cripples the dwarven outpost and strikes a blow for the lost Stonespire tribe.",
+   "body": "Gann made the explosive stick for the dwarven flying machine on an observation tower above the excavation. To him, the machine means more than transport or a weapon of war. It marks Alliance dominion over sacred tauren soil. Destroying it would cripple the dwarven outpost and strike a blow for the lost Stonespire tribe.",
    "spoiler": 1
   }
  ],
@@ -49,7 +49,7 @@
     "flying machine target",
     "where do i use it"
    ],
-   "answer": "The charge is meant to destroy the dwarven flying machine on a tower above the excavation at Bael Modan. Its destruction cripples the site's reconnaissance and brings symbolic revenge for the Stonespire tribe."
+   "answer": "The charge is meant to destroy the dwarven flying machine on a tower above the excavation at Bael Modan. Its destruction would cripple the site’s reconnaissance and bring symbolic revenge for the Stonespire tribe."
   },
   {
    "q": "How did a tauren learn to make dwarven explosives?",
@@ -64,7 +64,7 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, using this weapon avenges the displaced Stonespire tribe and strikes back at the Prospectors who dug into sacred Kalimdor soil."
+   "text": "As a tauren, you can avenge the displaced Stonespire tribe and strike back at the Prospectors who dug into sacred Kalimdor soil."
   },
   {
    "target": "profession:Engineering",
@@ -93,5 +93,5 @@
   "Explosive Stick of Gann",
   "Revenge of Gann (2)"
  ],
- "style": 1
+ "style": 2
 }

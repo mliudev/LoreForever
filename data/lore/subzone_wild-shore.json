@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Wild Shore"
  },
- "summary": "The Wild Shore is the southernmost coastline of Stranglethorn Vale, where the jungle meets the waves of the South Seas. It serves as a staging ground and anchorage for the Bloodsail Buccaneers, whose ships lie moored along the shallows.",
+ "summary": "Bloodsail Buccaneers anchor along Wild Shore, where Stranglethorn Vale's jungle meets the South Seas.",
  "sections": [
   {
    "title": "Edge of the South Seas",
-   "body": "Stretching along the bottom tip of the continent, the Wild Shore marks the border where Stranglethorn Vale plunges into the South Seas. To the northwest lies the fortified inlet of Booty Bay, while a shallow ocean strait separates the mainland beach from Jaguero Isle to the east. The beach continues northeast toward the Crystal Shore. Because of its secluded position away from the Blackwater Raiders' direct cannons, the coast has become a hotbed of piratical activity and wild perils.",
+   "body": "At Stranglethorn Vale's southern tip, you reach the Wild Shore and the South Seas. Booty Bay's fortified inlet lies northwest, while a shallow strait separates the mainland beach from Jaguero Isle to the east. The shore runs northeast toward the Crystal Shore. Blackwater Raiders' cannons cannot reach this coast directly, so pirates gather here among wild dangers.",
    "spoiler": 0
   },
   {
    "title": "Pirates and Giants",
-   "body": "The shore is heavily occupied by the Bloodsail Buccaneers, who anchor their wooden ships in the surf and pitch camps along the sand. These swashbucklers use the beaches to stage operations, store illicit cargo, and plan strikes against their goblin rivals. Travelers must also contend with natural hazards of the shore, including prowling beasts and Gorlash, a colossal sea giant who stomps through the surf, crushing anyone caught lingering along the tide line.",
+   "body": "Bloodsail Buccaneers hold much of the shore. Their wooden ships anchor in the surf, and their camps spread across the sand. They stage operations here, store illicit cargo, and plan strikes against their goblin rivals.\n\nProwling beasts also haunt the beaches. Gorlash, a colossal sea giant, stomps through the surf and crushes anyone who lingers along the tide line.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is wild shore",
     "wild shore map"
    ],
-   "answer": "The Wild Shore forms the very southern coastline of Stranglethorn Vale in the Eastern Kingdoms. It sits south of Booty Bay, looking out across the South Seas toward Jaguero Isle."
+   "answer": "Wild Shore forms Stranglethorn Vale's southern coastline in the Eastern Kingdoms. South of Booty Bay, it faces the South Seas and Jaguero Isle."
   },
   {
    "q": "Who controls the Wild Shore?",
@@ -37,7 +37,7 @@
     "wild shore factions",
     "wild shore pirates"
    ],
-   "answer": "The Bloodsail Buccaneers dominate the coastline. They moor several of their ships in the shallow waters and maintain encampments along the sandy beaches."
+   "answer": "Bloodsail Buccaneers dominate the coastline. They moor several ships in the shallows and keep camps along the sandy beaches."
   },
   {
    "q": "Who is Gorlash?",
@@ -46,7 +46,7 @@
     "who is the giant on the beach",
     "gorlash wild shore"
    ],
-   "answer": "Gorlash is an enormous sea giant who prowls the shallows along the Wild Shore, threatening both unwary sailors and pirates walking the beach."
+   "answer": "Gorlash is an enormous sea giant who prowls Wild Shore's shallows. He threatens unwary sailors and pirates walking the beach."
   },
   {
    "q": "How does the Wild Shore relate to Booty Bay?",
@@ -54,13 +54,13 @@
     "booty bay connection",
     "wild shore booty bay"
    ],
-   "answer": "A rocky point separates Booty Bay from the Wild Shore. Booty Bay serves as the stronghold of the Blackwater Raiders and the Steamwheedle Cartel, making the nearby Wild Shore a natural staging ground for their sworn enemies, the Bloodsail Buccaneers."
+   "answer": "A rocky point separates Booty Bay from Wild Shore. Booty Bay is the stronghold of the Blackwater Raiders and the Steamwheedle Cartel. Nearby, Wild Shore gives their sworn enemies, the Bloodsail Buccaneers, a natural staging ground."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "The Bloodsail camps and anchored vessels offer pickpocketing opportunities and a chance to study rival swashbucklers operating outside the Steamwheedle Cartel's law."
+   "text": "As a rogue, you can pick pockets in Bloodsail camps and aboard anchored vessels. You can also study rival swashbucklers operating beyond the Steamwheedle Cartel's law."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Wild Shore"
- ]
+ ],
+ "style": 2
 }

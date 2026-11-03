@@ -8,16 +8,16 @@
   "wiki": "Sven Yorgen",
   "refs": 11
  },
- "summary": "At the Hushed Bank, Sven Yorgen grieves his murdered family and seeks vengeance. He camps on the northern edge of the bank in western Duskwood with his companion Lars, determined to learn who ruined his home.",
+ "summary": "At the Hushed Bank, Sven Yorgen grieves his murdered family and seeks vengeance. With Lars, he camps on the bank’s northern edge in western Duskwood and searches for the one who ruined his home.",
  "sections": [
   {
    "title": "A Life Shattered",
-   "body": "Sven Yorgen remembers Duskwood before Medivh's fall brought gloom to the region. Born before the First War, he spent years working the soil at the Yorgen Farmstead in southern Duskwood with his wife and children. Their quiet life ended when mysterious Dark Riders raided the homestead while Sven was away. They butchered his family and left the farm a graveyard.",
+   "body": "Sven Yorgen remembers Duskwood before Medivh’s fall brought gloom to the region. Born before the First War, he worked the soil at Yorgen Farmstead in southern Duskwood for years with his wife and children. Their quiet life ended when mysterious Dark Riders raided the homestead while Sven was away. They butchered his family and left the farm a graveyard.",
    "spoiler": 0
   },
   {
    "title": "Vengeance from the Hushed Bank",
-   "body": "Unable to return to his ruined home, Sven made a secluded refuge on the Hushed Bank with his friend Lars. He distrusts outsiders and asks travelers to prove their loyalty before he shares his burden. Near the devastated farmstead, Sven saw a figure skulking about. He became convinced the stranger was responsible for the massacre or connected to the sinister horsemen who destroyed his life.",
+   "body": "Unable to return to his ruined home, Sven made a secluded refuge on the Hushed Bank with his friend Lars. He distrusts outsiders and asks travelers to prove their loyalty before he shares his burden. Near the devastated farmstead, Sven saw a figure skulking about. He became convinced the stranger was responsible for the massacre or tied to the sinister horsemen who destroyed his life.",
    "spoiler": 0
   },
   {
@@ -34,7 +34,7 @@
     "who is sven",
     "sven lore"
    ],
-   "answer": "Sven Yorgen farms from a small camp on the northern edge of the Hushed Bank in Duskwood. After his family was massacred at their homestead, he devoted himself to seeking retribution against those responsible."
+   "answer": "Sven Yorgen camps on the northern edge of the Hushed Bank in Duskwood. After his family was massacred at their homestead, he devoted himself to seeking retribution against those responsible."
   },
   {
    "q": "What happened to Sven's family?",
@@ -43,7 +43,7 @@
     "sven family dead",
     "what happened to sven's farm"
    ],
-   "answer": "While Sven was away, black-cloaked figures called the Dark Riders came to the Yorgen Farmstead. Searching for a powerful artifact, they slaughtered Sven's wife and children and left the land tainted by undead."
+   "answer": "While Sven was away, black-cloaked figures called the Dark Riders came to Yorgen Farmstead. Searching for a powerful artifact, they slaughtered Sven's wife and children and left the land tainted by undead."
   },
   {
    "q": "Why is Sven hiding in the Hushed Bank?",
@@ -85,11 +85,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Sven's story reflects the collapse of rural life in the kingdom's frontier territories, where ordinary subjects face dark magic and shadowy horrors without protection."
+   "text": "Sven's story reflects the collapse of rural life in the kingdom's frontier territories. There, ordinary subjects face dark magic and shadowy horrors without protection."
   },
   {
    "target": "class:Paladin",
-   "text": "Sven's heartbreak and thirst for justice speak to a paladin's duty to avenge innocent blood and purge the lingering undead raised across his family's soil."
+   "text": "Sven's heartbreak and thirst for justice speak to a paladin's duty to avenge innocent blood. Undead still rise across the soil of his family's farm."
   }
  ],
  "keywords": [
@@ -116,5 +116,5 @@
  "attribution": [
   "Sven Yorgen"
  ],
- "style": 1
+ "style": 2
 }

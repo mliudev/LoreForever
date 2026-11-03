@@ -10,16 +10,16 @@
    "quest:1710"
   ]
  },
- "summary": "Beneath Highperch, wyvern eggs leave shells hardened by Thousand Needles' desert heat. Armorer Mathiel in Darnassus uses them to make lacquer for mail links.",
+ "summary": "Beneath Highperch, the desert heat hardens wyvern eggshells. Armorer Mathiel in Darnassus uses them to make lacquer for mail links.",
  "sections": [
   {
    "title": "Desert Clutches",
-   "body": "Highperch wyverns lay eggs on the mesa needles of southern Kalimdor. Beneath their roosts, discarded shell fragments bake in the desert sun and searing winds. Their brittle remains hold a natural resilience that draws the attention of skilled artisans.",
+   "body": "Highperch wyverns lay eggs on the mesa needles of southern Kalimdor. Beneath their roosts, discarded shells bake in the desert sun and searing winds. Their brittle remains keep a natural strength that catches the eye of skilled artisans.",
    "spoiler": 0
   },
   {
    "title": "A Craftsman's Lacquer",
-   "body": "In Darnassus, armorer Mathiel studies methods pioneered by his colleague, the dwarf smith Furen Longbeard. Mathiel processes the shells into a fine lacquer for mail armor. Applied to the metal links, the coating strengthens them without burdening the wearer.",
+   "body": "In Darnassus, armorer Mathiel studies methods first tried by his colleague, the dwarf smith Furen Longbeard. He turns the shells into a fine lacquer for mail armor. The coating strengthens the metal links without burdening the wearer.",
    "spoiler": 0
   }
  ],
@@ -49,7 +49,7 @@
     "what are shells for",
     "armor lacquer"
    ],
-   "answer": "Mathiel wants to test armorsmithing methods discovered by Furen Longbeard. He renders the hardened shells into a tough lacquer to reinforce mail links."
+   "answer": "Mathiel wants to try armorsmithing methods discovered by Furen Longbeard. He renders the hardened shells into a tough lacquer that reinforces mail links."
   },
   {
    "q": "Who is Furen Longbeard and how is he involved?",
@@ -57,7 +57,7 @@
     "furen connection",
     "furen longbeard shells"
    ],
-   "answer": "Furen Longbeard is an iron-working colleague of Mathiel, based in Stormwind's Dwarven District. His experiments with unusual reagents and hardening methods inspired Mathiel to try lacquer made from wyvern shells."
+   "answer": "Furen Longbeard is Mathiel's colleague in iron-working, based in Stormwind's Dwarven District. His experiments with unusual reagents and hardening methods inspired Mathiel to try lacquer made from wyvern shells."
   }
  ],
  "angles": [
@@ -92,5 +92,5 @@
   "Sunscorched Shell",
   "Sunscorched Shells"
  ],
- "style": 1
+ "style": 2
 }

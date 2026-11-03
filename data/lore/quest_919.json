@@ -21,12 +21,12 @@
  "sections": [
   {
    "title": "Weeding Lake Al'Ameth",
-   "body": "Corrupted sprouts are spreading along Lake Al'Ameth's banks. Denalan lives beside the lake and knows these young plants cannot be healed. Left alone, they quickly grow into aggressive, bark-covered timberlings that threaten wildlife and travelers. Uprooting the sprouts helps protect the grove.",
+   "body": "Corrupted sprouts spread along Lake Al'Ameth's banks. Denalan lives beside the lake and knows these young plants cannot be healed. Left alone, they quickly become aggressive, bark-covered timberlings that threaten wildlife and travelers. Uprooting them helps protect the grove.",
    "spoiler": 0
   },
   {
    "title": "Signs of a Deeper Taint",
-   "body": "Denalan is troubled by how quickly new sprouts appear across Teldrassil. Their spread points to a sickness in the World Tree's roots and soil, and Denalan and the druids of Darnassus seek its cause.",
+   "body": "Denalan is troubled by how quickly new sprouts appear across Teldrassil. Their spread points to sickness in the World Tree's roots and soil. Denalan and the druids of Darnassus seek its cause.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "timberling sprout lore",
     "what is a sprout"
    ],
-   "answer": "Timberling sprouts are young forms of the elemental plant beings native to Teldrassil's boughs. Those growing along Lake Al'Ameth are tainted and quickly become hostile."
+   "answer": "Timberling sprouts are young forms of the elemental plant beings native to Teldrassil's boughs. Those around Lake Al'Ameth are tainted and quickly turn hostile."
   },
   {
    "q": "Who is Denalan?",
@@ -47,7 +47,7 @@
     "denalan lore",
     "lake al'ameth questgiver"
    ],
-   "answer": "Denalan is an herbalist who lives in a camp near Lake Al'Ameth. He watches the bough's plants and studies changes and corruption on Teldrassil."
+   "answer": "Denalan is an herbalist who lives in a camp near Lake Al'Ameth. He watches the plants on the bough and studies changes and corruption across Teldrassil."
   },
   {
    "q": "Why can't these sprouts simply be healed or purified?",
@@ -118,5 +118,5 @@
  "attribution": [
   "Timberling Sprouts"
  ],
- "style": 1
+ "style": 2
 }

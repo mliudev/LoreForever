@@ -18,11 +18,11 @@
   "chain": [],
   "category": "Thousand Needles"
  },
- "summary": "In Thousand Needles, a gnome race ticket pays off when the gnomes come out ahead. A prize box comes back to whoever held the winning stub.",
+ "summary": "In Thousand Needles, the gnomes' victory decides which ticket pays out. The holder of the winning ticket gets a prize box.",
  "sections": [
   {
    "title": "The Gnome Ticket",
-   "body": "The gnome race ticket is the stub that counts when the gnomes win. Hold on to it, and a gnome prize box is yours once the result is in. The goblin ticket has a result of its own, for the other side of the race.",
+   "body": "When the gnomes win, the holder of the Gnome Race Ticket gets the prize box. The goblin ticket counts for the other side of the race.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "what is gnome race ticket",
     "race ticket purpose"
    ],
-   "answer": "It is the ticket for the gnome side of the race in Thousand Needles. It matters when the gnomes win."
+   "answer": "The Gnome Race Ticket backs the gnome side of the race in Thousand Needles. It matters when the gnomes win."
   },
   {
    "q": "What do you get when the gnomes win?",
@@ -42,7 +42,7 @@
     "gnome prize box",
     "gnomes win prize"
    ],
-   "answer": "A gnome prize box comes to whoever holds the gnome race ticket when the gnomes come out ahead."
+   "answer": "Whoever holds the Gnome Race Ticket when the gnomes win gets a gnome prize box."
   },
   {
    "q": "Who can take part in this wager?",
@@ -51,7 +51,7 @@
     "can alliance bet",
     "neutral ticket"
    ],
-   "answer": "It belongs to neither faction, so Alliance and Horde travelers are on the same footing."
+   "answer": "The wager belongs to neither faction. Alliance and Horde travelers stand on equal footing."
   },
   {
    "q": "What happens if the goblins win instead?",
@@ -59,7 +59,7 @@
     "goblins win",
     "goblin race ticket"
    ],
-   "answer": "Then the goblin ticket is the one that matters. Its result is called Goblins Win!, the counterpart to this one."
+   "answer": "If the goblins win, the goblin ticket matters. That result is called Goblins Win!, the counterpart to this one."
   }
  ],
  "angles": [],
@@ -75,5 +75,6 @@
  ],
  "attribution": [
   "Wowpedia: Gnomes Win!"
- ]
+ ],
+ "style": 2
 }

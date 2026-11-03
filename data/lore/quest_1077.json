@@ -17,16 +17,16 @@
   "wiki": "Special Delivery for Gaxim",
   "chain": []
  },
- "summary": "In Stonetalon, Gaxim Rustfizzle awaits a scroll from Stormwind. Collin Mauren provides the Scroll of Messaging, whose arcane power is needed to build a remote explosive against the Venture Company's deforestation.",
+ "summary": "Gaxim Rustfizzle waits in Stonetalon for an enchanted scroll from Stormwind. Its magic may let him set off an explosive from afar and hinder the Venture Company's deforestation.",
  "sections": [
   {
    "title": "Arcane Deliveries",
-   "body": "Gaxim Rustfizzle seeks to hinder the Venture Company's destructive work in the Stonetalon Mountains. He has made an explosive compound called NG-5, but lacks a reliable way to set it off from afar. Rather than use crude fuses, Gaxim enlisted help across the Great Sea. He contacted Collin Mauren in Stormwind's Mage Quarter to obtain an enchanted Scroll of Messaging.",
+   "body": "Gaxim Rustfizzle is trying to hinder the Venture Company's destructive work in the Stonetalon Mountains. He has made an explosive compound called NG-5, but has no sure way to set it off from afar. So he sought help across the Great Sea. In Stormwind's Mage Quarter, Collin Mauren has made an enchanted Scroll of Messaging for him.",
    "spoiler": 0
   },
   {
    "title": "A Remote Distraction",
-   "body": "Gaxim Rustfizzle plans to bind the Scroll of Messaging's magic to his unstable NG-5 mixture. Its power to carry messages across long distances can trigger the explosive from afar. Gaxim means to create a devastating distraction, giving operatives a chance to slip into the Venture Company compound unseen.",
+   "body": "Gaxim Rustfizzle plans to bind the Scroll of Messaging's magic to his unstable NG-5 mixture. The scroll can carry messages across long distances, and that power can trigger the explosive from afar. Gaxim wants the blast to make a devastating distraction. Then operatives may slip into the Venture Company compound unseen.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "what does the scroll do",
     "scroll of messaging purpose"
    ],
-   "answer": "The Scroll of Messaging carries words across long distances, but Gaxim Rustfizzle can bind its magic to NG-5 as a remote trigger. That lets him set off explosives from a safe distance."
+   "answer": "The Scroll of Messaging carries words across long distances. Gaxim Rustfizzle can bind its magic to NG-5 and use it as a remote trigger, setting off explosives from a safe distance."
   },
   {
    "q": "Who is Collin Mauren?",
@@ -46,7 +46,7 @@
     "collin mauren lore",
     "who is collin"
    ],
-   "answer": "Collin Mauren is an Alliance wizard in Stormwind City's Mage Quarter. He helps with arcane matters and crafts the enchanted scroll Gaxim needs in Stonetalon."
+   "answer": "Collin Mauren is an Alliance wizard in Stormwind City's Mage Quarter. He handles arcane matters and crafts the enchanted scroll Gaxim needs in Stonetalon."
   },
   {
    "q": "Why is Gaxim Rustfizzle sabotaging the Venture Company?",
@@ -64,7 +64,7 @@
     "where is gaxim",
     "stonetalon location"
    ],
-   "answer": "The delivery takes you from Stormwind City across the sea to the Alliance camp in the crags of the Stonetalon Mountains on Kalimdor."
+   "answer": "You travel from Stormwind City across the sea to the Alliance camp in the crags of the Stonetalon Mountains on Kalimdor."
   },
   {
    "q": "What happens after the scroll is delivered?",
@@ -73,17 +73,17 @@
     "what after delivery",
     "venture co distraction"
    ],
-   "answer": "With the scroll and NG-5 in hand, Gaxim prepares a remote explosive distraction. It clears the way for an operative to enter the Windshear Crag operations and recover logging letters and schematics."
+   "answer": "With the scroll and NG-5 in hand, Gaxim prepares a remote explosive distraction. It clears a path for an operative to enter the Windshear Crag operations and recover logging letters and schematics."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Gaxim's scheme joins gnomish engineering with wizardry, pairing volatile NG-5 explosives with arcane triggers."
+   "text": "Gaxim's scheme joins gnomish engineering with wizardry. Volatile NG-5 explosives meet arcane triggers."
   },
   {
    "target": "class:Mage",
-   "text": "Collin Mauren's craft shows how clever tinkerers can turn a simple parchment enchantment into a working arcane relay."
+   "text": "Collin Mauren shows how clever tinkerers can turn a simple parchment enchantment into a working arcane relay."
   },
   {
    "target": "faction:Alliance",
@@ -108,5 +108,5 @@
  "attribution": [
   "Special Delivery for Gaxim"
  ],
- "style": 1
+ "style": 2
 }

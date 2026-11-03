@@ -27,16 +27,16 @@
    "Muiseks in Feralas"
   ]
  },
- "summary": "Witch Doctor Uzer'i, after Return to Witch Doctor Uzer'i, calls this a test of the ritual Uzer'i performed and of your own abilities. You are given a vessel that can shrink and capture a creature, and sent to the Hinterlands to take ten wildkin with it, then bring them back to Uzer'i in Feralas.",
+ "summary": "You return to Witch Doctor Uzer'i, who tests the ritual and your skill. Now you must capture ten wildkin in the Hinterlands and bring them with the vessel back to Feralas.",
  "sections": [
   {
    "title": "A Vessel for the Hinterlands",
-   "body": "Witch Doctor Uzer'i calls this a trial, both of the ritual just performed and of your own skills. The vessel you receive can reduce a creature in size and trap it within. You make for the Hinterlands and seek out wildkin, whose kind once belonged to Elune, the night elf goddess, as pets. Uzer'i names the vicious, primitive and savage owlbeasts as your quarry. Ten must fall, each shrunk into the vessel before its spirit slips away. Ten, and the vessel, go back to Uzer'i in Feralas.",
+   "body": "Witch Doctor Uzer'i tests the ritual you just performed and your own skill. The vessel Uzer'i gives you can shrink a creature and trap it inside. You travel to the Hinterlands to find wildkin. Their kind once belonged to Elune, the night elf goddess, as pets. Uzer'i names the vicious, primitive, savage owlbeasts as your quarry. Capture ten before their spirits slip away, then return with them and the vessel to Uzer'i in Feralas.",
    "spoiler": 0
   },
   {
    "title": "Afterward",
-   "body": "When a creature dies violently, Uzer'i explains, its muisek may get free and hunt for revenge. Shrinking the fallen, as you did, keeps the muisek from getting away, and Uzer'i now says it may be used at will.",
+   "body": "Witch Doctor Uzer'i explains what happens when a creature dies violently. Its muisek may escape and hunt for revenge. Shrinking a fallen creature, as you did, keeps the muisek from getting away. Uzer'i now says you may use the vessel at will.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "quest giver testing the vessel",
     "who gives testing the vessel"
    ],
-   "answer": "Witch Doctor Uzer'i, who hands you the vessel."
+   "answer": "Witch Doctor Uzer'i gives it to you and hands you the vessel."
   },
   {
    "q": "Where are the wildkin?",
@@ -55,7 +55,7 @@
     "where to find wildkin",
     "wildkin location"
    ],
-   "answer": "Uzer'i sends you to the Hinterlands to look for them."
+   "answer": "Uzer'i sends you to the Hinterlands to find wildkin."
   },
   {
    "q": "Which creatures are the targets?",
@@ -63,7 +63,7 @@
     "which wildkin to kill",
     "testing the vessel targets"
    ],
-   "answer": "The vicious, primitive or savage owlbeasts known as wildkin. Ten are wanted."
+   "answer": "The targets are wildkin, vicious, primitive or savage owlbeasts. Uzer'i wants ten."
   },
   {
    "q": "What is the link between the wildkin and Elune?",
@@ -71,7 +71,7 @@
     "wildkin elune lore",
     "why wildkin"
    ],
-   "answer": "Uzer'i says wildkin used to be pets of Elune, the night elf goddess."
+   "answer": "Uzer'i says wildkin once belonged to Elune, the night elf goddess, as pets."
   },
   {
    "q": "What can the vessel do?",
@@ -79,7 +79,7 @@
     "how does muisek vessel work",
     "vessel power"
    ],
-   "answer": "It lets you reduce a fallen creature in size and trap it, so its spirit cannot get away."
+   "answer": "The vessel shrinks a fallen creature and traps it inside, keeping its spirit from getting away."
   },
   {
    "q": "What follows Testing the Vessel?",
@@ -87,7 +87,7 @@
     "next quest testing the vessel",
     "what comes after testing the vessel"
    ],
-   "answer": "The chain goes on with Hippogryph Muisek."
+   "answer": "The chain continues with Hippogryph Muisek."
   }
  ],
  "angles": [],
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "Testing the Vessel (Classic)"
- ]
+ ],
+ "style": 2
 }

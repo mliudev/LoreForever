@@ -8,16 +8,16 @@
   "wiki": "Piznik",
   "refs": 2
  },
- "summary": "Deep in Windshear Mine, Piznik watches the Venture Company at work. Once second-in-command, he was pushed aside by Gerenzo Wrenchwhistle and now plots against his former boss.",
+ "summary": "Deep in Windshear Mine, Piznik watches the Venture Company workers. Once second in the operation, he now waits for a chance to strike back at Gerenzo Wrenchwhistle.",
  "sections": [
   {
    "title": "Fallen from Grace",
-   "body": "Before Gerenzo Wrenchwhistle took control of Windshear Crag, Piznik ranked second across the entire operation. When Gerenzo seized authority, the Venture Company pushed Piznik aside and sent him into the depths of Windshear Mine. Piznik has not accepted the demotion quietly. Underground, he watches the mine's movements and waits for a chance to take revenge on the boss who demoted him.",
+   "body": "Before Gerenzo Wrenchwhistle took control of Windshear Crag, Piznik ranked second across the whole operation. When Gerenzo seized authority, the Venture Company pushed Piznik aside and sent him deep into Windshear Mine. Piznik has not accepted the demotion quietly. He watches the mine’s movements and waits for a chance to take revenge on the boss who demoted him.",
    "spoiler": 0
   },
   {
    "title": "Corporate Espionage",
-   "body": "Piznik's rebellion took shape through an alliance with Ziz Fizziks, another former Venture Company worker cast out by Gerenzo. From inside the mine, Piznik gathers what he can about Gerenzo's plans. He smuggled a sample of the mysterious gold-green ore Gerenzo ordered mined in bulk to Ziz. Together, they work to disrupt the Venture Company's deforestation and mining efforts, bringing setbacks to Gerenzo's leadership.",
+   "body": "Piznik joined forces with Ziz Fizziks, another former Venture Company worker cast out by Gerenzo. From inside the mine, Piznik gathers what he can about Gerenzo’s plans. He smuggled Ziz a sample of the mysterious gold-green ore Gerenzo ordered mined in bulk. Together, they work to disrupt the Venture Company’s deforestation and mining, bringing setbacks to Gerenzo’s leadership.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "why does piznik hate gerenzo",
     "piznik gerenzo feud"
    ],
-   "answer": "Piznik once ranked second across the Windshear Crag operation. When Gerenzo Wrenchwhistle took command of the logging and mining project, he demoted Piznik, who now resents him and wants to see him ruined."
+   "answer": "Piznik once ranked second across the Windshear Crag operation. When Gerenzo Wrenchwhistle took command of the logging and mining project, he demoted Piznik. Now Piznik resents him and wants to see him ruined."
   },
   {
    "q": "How does Piznik fit into Ziz Fizziks' plans?",
@@ -45,7 +45,7 @@
     "piznik and ziz",
     "who does piznik work with"
    ],
-   "answer": "Ziz Fizziks was fired by Gerenzo, while Piznik was demoted. Piznik uses his access inside Windshear Mine to learn of Gerenzo's plans and get a sample of the mysterious ore to Ziz."
+   "answer": "Ziz Fizziks was fired by Gerenzo, while Piznik was demoted. From inside Windshear Mine, Piznik learns of Gerenzo’s plans and gets a sample of the mysterious ore to Ziz."
   },
   {
    "q": "Is Piznik still loyal to the Venture Company?",
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "As a miner, you may cross paths with Piznik inside Windshear Mine, where he watches the company that demoted him."
+   "text": "As a miner, you may cross paths with Piznik inside Windshear Mine. There he watches the company that demoted him."
   }
  ],
  "keywords": [
@@ -82,5 +82,5 @@
  "attribution": [
   "Piznik"
  ],
- "style": 1
+ "style": 2
 }

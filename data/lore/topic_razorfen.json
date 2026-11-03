@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Razorfen"
  },
- "summary": "Razorfen is the collective name associated with the predominant quilboar tribe of southern Kalimdor and their sprawling thorn-choked settlements. Carved into massive briars along the southern border of the Barrens and the edge of Thousand Needles, Razorfen encompasses the strongholds of Razorfen Kraul and Razorfen Downs. It serves as both the spiritual heart and the central bastion of quilboar power.",
+ "summary": "Across southern Kalimdor, Razorfen's quilboar defend their thorn-walled homes. Their strongholds span the southern Barrens and the edge of Thousand Needles, where their faith and power run deep.",
  "sections": [
   {
    "title": "The Thorns of Agamaggan",
-   "body": "According to legend, the colossal thorned brambles that make up the Razorfen sprouted ten thousand years ago during the War of the Ancients. When the giant boar Ancient, Agamaggan, fell in battle against the Burning Legion, his blood seeped into the earth wherever he bled and died. From that divine sacrifice grew massive vines of petrified bramble and iron-hard thorns, creating a natural fortress where his descendants, the quilboar, have dwelled ever since.",
+   "body": "Razorfen's thorned brambles reach back to the War of the Ancients. Legend says they rose where Agamaggan, the giant boar Ancient, fell fighting the Burning Legion ten thousand years ago. His blood entered the earth, and vast vines of petrified bramble and iron-hard thorns grew there. The quilboar, his descendants, have lived among these defenses ever since.",
    "spoiler": 0
   },
   {
    "title": "The Razorfen Tribe",
-   "body": "The Razorfen tribe is among the most aggressive and entrenched of all quilboar populations. Rather than scattering into open warrens, they built complex labyrinthine communities directly within the colossal briars. From these fortresses, the tribe fiercely defends their ancestral territory against neighboring tauren tribes, Horde settlements in the Barrens, and any outsiders daring to trespass into their holy grounds.",
+   "body": "Razorfen's quilboar are among the most aggressive and firmly rooted of their kind. They build their communities among the vast briars instead of scattering into open warrens. From these strongholds, they defend their ancestral land against neighboring tauren tribes, Horde settlements in the Barrens, and any outsider who enters their holy grounds.",
    "spoiler": 0
   },
   {
    "title": "A Divided Citadel",
-   "body": "The realm of Razorfen is divided into two distinct bastions. Razorfen Kraul sits as the main stronghold and military encampment of the quilboar, guarded by their shamans and huntresses. Further south, bordering Thousand Needles, lies Razorfen Downs, the traditional capital, sacred ancestral city and burial grounds of the quilboar elders, currently shadowed by deeper necromantic corruption that threatens all surrounding lands.",
+   "body": "Razorfen's two bastions hold different places in quilboar life. Razorfen Kraul is the tribe's main stronghold and military camp, guarded by shamans and huntresses. Farther south at the edge of Thousand Needles, Razorfen Downs is their traditional capital, sacred ancestral city, and burial ground of quilboar elders. A deeper necromantic corruption now shadows the city and threatens the surrounding lands.",
    "spoiler": 1
   }
  ],
@@ -33,7 +33,7 @@
     "razorfen meaning",
     "razorfen lore"
    ],
-   "answer": "Razorfen refers to both the prominent quilboar tribe of the southern Barrens and their fortified settlements woven into massive briar labyrinths: Razorfen Kraul and Razorfen Downs."
+   "answer": "Razorfen names a prominent quilboar tribe of the southern Barrens and its settlements, woven through massive briar labyrinths. They include Razorfen Kraul and Razorfen Downs."
   },
   {
    "q": "Where did the giant thorns come from?",
@@ -42,7 +42,7 @@
     "agamaggan thorns",
     "why giant thorns"
    ],
-   "answer": "The thorns are the fossilized blood and remnants of the Wild God Agamaggan, the Great Boar. When he fell fighting the Burning Legion during the ancient War of the Ancients, massive thorned tendrils grew wherever his blood struck the earth."
+   "answer": "Legend says the giant thorns grew from the blood and remains of Agamaggan, the Great Boar. He fell fighting the Burning Legion during the ancient War of the Ancients, and thorned tendrils rose where his blood struck the earth."
   },
   {
    "q": "What is the difference between Razorfen Kraul and Razorfen Downs?",
@@ -50,7 +50,7 @@
     "kraul vs downs",
     "difference between razorfen dungeons"
    ],
-   "answer": "Razorfen Kraul serves as the living city and main stronghold of the Razorfen tribe, filled with warriors and geomancers. Razorfen Downs is the ancestral burial ground and sacred resting place of quilboar elders, located further south toward Thousand Needles."
+   "answer": "Razorfen Kraul is the tribe's living city and main stronghold, filled with warriors and geomancers. Farther south toward Thousand Needles, Razorfen Downs is the ancestral burial ground and sacred resting place of quilboar elders."
   },
   {
    "q": "Why are the quilboar hostile to everyone?",
@@ -58,7 +58,7 @@
     "why do quilboar attack",
     "quilboar lore"
    ],
-   "answer": "Quilboar view the land of the Barrens and its great briars as their divine birthright granted by Agamaggan. They consider any outside races\u2014especially the expanding Horde\u2014to be thieving interlopers invading their holy ground."
+   "answer": "The quilboar see the Barrens and its great briars as a divine birthright from Agamaggan. They regard outside races, especially the expanding Horde, as thieves invading their holy ground."
   },
   {
    "q": "Where is Razorfen located?",
@@ -66,7 +66,7 @@
     "razorfen map location",
     "where is razorfen"
    ],
-   "answer": "Razorfen's massive thorn networks lie in the far southern reaches of the Barrens, right along the high cliffs that descend into the salt flats and river canyon of Thousand Needles."
+   "answer": "Razorfen's vast thorn networks lie in the far south of the Barrens, along the high cliffs descending into the salt flats and river canyon of Thousand Needles."
   },
   {
    "q": "What kind of magic do the Razorfen quilboar use?",
@@ -74,25 +74,25 @@
     "quilboar magic",
     "razorfen shamans"
    ],
-   "answer": "Traditionally, Razorfen quilboar practice earth and nature magic known as geomancy, invoking the power of stone and thorn. However, recent developments within Razorfen Downs show alarming incursions of dark necromantic arts."
+   "answer": "Razorfen quilboar traditionally practice geomancy, an earth and nature magic that calls on stone and thorn. Recent developments within Razorfen Downs reveal alarming incursions of dark necromantic arts."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The Razorfen quilboar have clashed violently with tauren hunting bands and settlements across the Barrens for generations, making their eradication a matter of homeland security."
+   "text": "Razorfen quilboar have fought tauren hunting bands and settlements across the Barrens for generations. Their eradication is a matter of homeland security."
   },
   {
    "target": "faction:Horde",
-   "text": "Controlling the southern Barrens is critical for Horde logistics, and the aggressive Razorfen raiders consistently harass caravans traveling between Mulgore, Crossroads, and the southern frontier."
+   "text": "Control of the southern Barrens is critical to Horde logistics. Razorfen raiders repeatedly harass caravans traveling between Mulgore, Crossroads, and the southern frontier."
   },
   {
    "target": "class:Druid",
-   "text": "The briars of Razorfen sprouted from the sacrifice of the Ancient Agamaggan; druids view the desecration and corruption of such a sacred site with profound concern."
+   "text": "The briars of Razorfen grew from the sacrifice of the Ancient Agamaggan. As a druid, you have reason for deep concern when such a sacred site is desecrated and corrupted."
   },
   {
    "target": "class:Shaman",
-   "text": "The Razorfen geomancers manipulate the spirits of earth and stone through crude elemental rites, demanding attention from shamans seeking balance."
+   "text": "Razorfen geomancers use crude elemental rites to shape the spirits of earth and stone. As a shaman, you must attend to their work in seeking balance."
   }
  ],
  "keywords": [
@@ -113,5 +113,6 @@
  ],
  "attribution": [
   "Razorfen"
- ]
+ ],
+ "style": 2
 }

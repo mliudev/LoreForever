@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Hall of Masks"
  },
- "summary": "The Hall of Masks is an ominous chamber inside the sunken Temple of Atal'Hakkar in the Swamp of Sorrows. Lined with giant skull masks and marred by a bone-strewn trench, it marks one of the early thresholds deeper into the Atal'ai stronghold.",
+ "summary": "In the Hall of Masks, carved skulls loom over a bone-choked trench beneath the Swamp of Sorrows. The chamber marks a threshold to deeper passages in the sunken Temple of Atal'Hakkar.",
  "sections": [
   {
    "title": "A Gruesome Threshold",
-   "body": "Located just past the staircase descending from the Broken Hall, the Hall of Masks serves as a central junction within the Sunken Temple. The chamber earns its name from the imposing, stylized skull masks mounted along its stone walls. Below them runs a deep trench choked with discarded bones, suggesting a macabre purpose whose exact nature is unknown. Beyond this eerie hall lie passages branching out to the Butchery, the Chamber of Blood, and the Den of the Caller.",
+   "body": "Past the staircase from the Broken Hall, you reach a central junction in the Sunken Temple. Stylized skull masks line its stone walls. A deep trench choked with discarded bones cuts across the floor, though its purpose remains unknown. From here, passages lead to the Butchery, the Chamber of Blood, and the Den of the Caller.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is hall of masks",
     "find hall of masks"
    ],
-   "answer": "The Hall of Masks is an interior wing of the Temple of Atal'Hakkar, situated beneath the waters of the Pool of Tears in the Swamp of Sorrows. You reach it by descending past the Broken Hall near the entrance of the sunken complex."
+   "answer": "The Hall of Masks lies inside the Temple of Atal'Hakkar beneath the Pool of Tears in the Swamp of Sorrows. Descend past the Broken Hall near the sunken complex's entrance to reach it."
   },
   {
    "q": "Why is it called the Hall of Masks?",
@@ -31,7 +31,7 @@
     "hall of masks name meaning",
     "why masks"
    ],
-   "answer": "It takes its name from the massive carved skull masks that decorate the walls of the chamber, looming over anyone who treads through the temple corridors."
+   "answer": "The Hall of Masks takes its name from the massive carved skull masks mounted on its walls. They loom over all who pass through the temple corridors."
   },
   {
    "q": "What was the purpose of the trench in the floor?",
@@ -40,7 +40,7 @@
     "hall of masks bone pit",
     "trench of bones"
    ],
-   "answer": "The trench is littered with bones, suggesting a macabre function. Its exact purpose is unknown."
+   "answer": "Bones litter the trench, but its exact purpose remains unknown."
   },
   {
    "q": "Where do the passages from this hall lead?",
@@ -48,17 +48,17 @@
     "hall of masks exits",
     "where does hall of masks lead"
    ],
-   "answer": "Venturing beyond the Hall of Masks leads deeper into the temple's lower complexes, connecting directly toward areas like the Butchery, the Chamber of Blood, and the Den of the Caller."
+   "answer": "Passages from the Hall of Masks lead deeper into the temple, toward the Butchery, the Chamber of Blood, and the Den of the Caller."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For Darkspear trolls, the chamber represents the sinister lengths to which the Atal'ai zealots were willing to go in their desperate pursuit of Hakkar the Soulflayer."
+   "text": "As a Darkspear troll, you can see how far the Atal'ai zealots went in their desperate pursuit of Hakkar the Soulflayer."
   },
   {
    "target": "class:Priest",
-   "text": "The macabre architecture and bone-filled trench hint at the dark practices of the Atal'ai, though the chamber's precise use is unknown."
+   "text": "As a priest, you can read the Atal'ai's dark practices in the chamber's grim design and bone-filled trench. The trench's precise use remains unknown."
   }
  ],
  "keywords": [
@@ -77,5 +77,6 @@
  ],
  "attribution": [
   "Hall of Masks"
- ]
+ ],
+ "style": 2
 }

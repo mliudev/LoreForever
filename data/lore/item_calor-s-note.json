@@ -10,16 +10,16 @@
    "quest:223"
   ]
  },
- "summary": "In Duskwood, Calor's Note carries a woodsman's recommendation to Master Jonathan Carevin. Calor writes it on a scrap of faded parchment for a tested adventurer, opening a path to a hidden band that fights beside Darkshire's militia but remains apart from it.",
+ "summary": "In Duskwood, Calor's Note carries a woodsman's recommendation to Master Jonathan Carevin. Calor writes it on a scrap of faded parchment for a proven adventurer, opening a path to a hidden band that fights beside Darkshire's militia but remains apart from it.",
  "sections": [
   {
    "title": "A Rare Recommendation",
-   "body": "Calor is notoriously hard to impress, and Duskwood offers strangers little warmth. When an adventurer survives the bloodthirsty worgen stalking the woods, Calor's respect is earned, and he writes a brief message. The faded note travels to Darkshire, where it introduces the outsider directly to Jonathan Carevin.",
+   "body": "Calor is hard to impress, and Duskwood gives strangers little warmth. Survive the bloodthirsty worgen stalking the woods, and he grants his respect with a brief message. Written on faded parchment, the note travels to Darkshire and introduces the outsider directly to Jonathan Carevin.",
    "spoiler": 0
   },
   {
    "title": "A Private Crusade",
-   "body": "Darkshire relies on the Night Watch for public defense, while Calor and Carevin pursue a grimmer, hidden fight. Calor laments that the town guard outnumbers them and hopes to find enough capable fighters to advance their private war. When the note is handed over, it grants entry to Carevin's campaign against demons, undead, and the hidden sympathizers aiding Duskwood's decline.",
+   "body": "Darkshire relies on the Night Watch for public defense. Calor and Carevin pursue a grimmer, hidden fight apart from the town guard. Calor laments that the guard outnumbers them, and hopes to find enough capable fighters to advance their private war. Hand over the note, and Carevin admits you to his campaign against demons, undead, and the hidden sympathizers aiding Duskwood's decline.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what is this note",
     "what does the note say"
    ],
-   "answer": "Calor's Note is a handwritten message from Calor on a scrap of faded parchment. It recommends an adventurer as capable and reliable against Duskwood's horrors."
+   "answer": "Calor's Note is a handwritten message on a scrap of faded parchment. It recommends an adventurer as capable and reliable against Duskwood's horrors."
   },
   {
    "q": "Who receives the note?",
@@ -40,7 +40,7 @@
     "who gets calors note",
     "jonathan carevin note"
    ],
-   "answer": "The note is addressed to Jonathan Carevin, a stern figure stationed in Darkshire who coordinates an effort against the dark forces threatening the region."
+   "answer": "Jonathan Carevin receives the note. He is a stern figure stationed in Darkshire who coordinates an effort against the dark forces threatening the region."
   },
   {
    "q": "How does Calor regard the Night Watch?",
@@ -48,7 +48,7 @@
     "calor and night watch",
     "why does calor want to outnumber night watch"
    ],
-   "answer": "Calor believes the Night Watch cannot meet the true threats in Duskwood. As he hands over the note, he says he wants to recruit enough capable allies to outnumber the militia and finish the urgent work his small faction carries on alone."
+   "answer": "Calor believes the Night Watch cannot meet Duskwood's true threats. As he hands over the note, he says he wants to recruit enough capable allies to outnumber the militia and finish the urgent work his small faction carries on alone."
   },
   {
    "q": "What kind of battle does Jonathan Carevin fight?",
@@ -93,5 +93,5 @@
   "Calor's Note",
   "Worgen in the Woods (Classic, 4)"
  ],
- "style": 1
+ "style": 2
 }

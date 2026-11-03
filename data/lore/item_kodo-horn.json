@@ -10,11 +10,11 @@
    "quest:6128"
   ]
  },
- "summary": "In the Barrens, Kodo Horns are gathered from the roaming kodos. Tonga Runetotem uses them in herbal remedies for poisoned wildlife.",
+ "summary": "Across the Barrens, Kodo Horns are gathered for Tonga Runetotem's remedies. He uses them to treat poisoned wildlife.",
  "sections": [
   {
    "title": "A Reagent of the Plains",
-   "body": "Across the Barrens, Tonga Runetotem uses intact kodo horns in his herbal remedies. He works from the Crossroads, where the horns help strengthen his salves. Chips and fragments lack the strength he needs, so he gathers whole horns from mature kodos wandering the plains.",
+   "body": "Across the Barrens, Tonga Runetotem uses whole kodo horns in his herbal remedies. He works from the Crossroads, where the horns strengthen his salves. Chips and fragments lack the strength he needs, so he gathers intact horns from mature kodos roaming the plains.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "why gather kodo horns",
     "use of kodo horn"
    ],
-   "answer": "Tonga Runetotem uses Kodo Horns with Earthroot and pure water to brew a salve for poisoned gazelles across the Barrens. Making the remedy is part of a druid's training in natural cures for poison."
+   "answer": "Tonga Runetotem brews a salve with Kodo Horns, Earthroot, and pure water to treat poisoned gazelles across the Barrens. The remedy teaches a druid how to cure poison with nature's aid."
   },
   {
    "q": "Where are these horns collected?",
@@ -35,7 +35,7 @@
     "kodo horn location",
     "which kodos drop horns"
    ],
-   "answer": "You can gather them from Barrens Kodos and Lost Barrens Kodos in the northern Barrens, between the Crossroads and the surrounding scrubland."
+   "answer": "You can gather Kodo Horns from Barrens Kodos and Lost Barrens Kodos in the northern Barrens, between the Crossroads and the surrounding scrubland."
   },
   {
    "q": "Why can't druids use horn fragments instead?",
@@ -43,7 +43,7 @@
     "why not broken horns",
     "horn chips"
    ],
-   "answer": "Tonga Runetotem says chips and fragments lack the potency to balance the salve. He needs intact horns to make a remedy strong enough to counter virulent toxins."
+   "answer": "Tonga Runetotem says chips and fragments lack the potency to balance the salve. He needs intact horns for a remedy strong enough to counter virulent toxins."
   },
   {
    "q": "Is hunting kodos considered respectful for a druid?",
@@ -51,17 +51,17 @@
     "druid hunting kodos",
     "balance and kodos"
    ],
-   "answer": "Yes. Druids hunt kodos when it serves nature's balance, taking what they need to heal larger blights, such as the mysterious poisoning afflicting the native gazelle herds."
+   "answer": "Yes. Druids hunt kodos to serve nature's balance, taking what they need to heal greater blights, such as the mysterious poisoning afflicting the native gazelle herds."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a Horde druid, you gather horns under Tonga Runetotem's guidance as you learn to master nature's poisons."
+   "text": "As a Horde druid, you gather horns under Tonga Runetotem's guidance while learning to master nature's poisons."
   },
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you hold kodos in high reverence and take from them with care and purpose, here to safeguard the Barrens' delicate ecosystem."
+   "text": "As a tauren, you hold kodos in high reverence. You take from them with care and purpose to safeguard the Barrens' delicate ecosystem."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
   "Kodo Horn",
   "Gathering the Cure (Horde)"
  ],
- "style": 1
+ "style": 2
 }

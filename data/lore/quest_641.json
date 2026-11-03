@@ -27,16 +27,16 @@
    "Broken Sigil"
   ]
  },
- "summary": "Tor'gan's reconstruction of the broken sigil worked flawlessly. The restored Sigil of Thoradin can now open the seal on Trollbane's tomb, and he tells you to return it to Zengu in Hammerfall.",
+ "summary": "Tor'gan has restored the Sigil of Thoradin, and Zengu waits in Hammerfall for its return. The sigil can open the seal on Trollbane's tomb.",
  "sections": [
   {
    "title": "The Restored Sigil",
-   "body": "Tor'gan says the reconstruction worked flawlessly, and the Sigil of Thoradin is now able to open the seal on Trollbane's tomb. Take it back to Zengu in Hammerfall, who no doubt has more for you to do.",
+   "body": "Tor'gan's reconstruction has worked. The Sigil of Thoradin can open the seal on Trollbane's tomb, so he sends you back to Zengu in Hammerfall. Zengu has more for you to do.",
    "spoiler": 0
   },
   {
    "title": "Halfway There",
-   "body": "Zengu asks if you have the second sigil, and then says they are halfway to taking Trol'kalar out of Trollbane's tomb. The third sigil's whereabouts are uncertain, because those who hold it keep moving about Arathi, but he trusts you will find it.",
+   "body": "Zengu asks whether you have the second sigil. With it, he says, you are halfway to taking Trol'kalar from Trollbane's tomb. The third sigil remains hard to find because its keepers move about Arathi. Zengu trusts you will find it.",
    "spoiler": 1
   }
  ],
@@ -57,7 +57,7 @@
     "who turns in sigil of thoradin",
     "sigil of thoradin turn in"
    ],
-   "answer": "Zengu in Hammerfall. Tor'gan, who restored the sigil, tells you to return it to Zengu."
+   "answer": "Bring the restored sigil to Zengu in Hammerfall. Tor'gan sends you back to him."
   },
   {
    "q": "Where does this step fit in the search for Trol'kalar?",
@@ -66,7 +66,7 @@
     "how far along is this quest",
     "what quest is before this"
    ],
-   "answer": "It follows The Broken Sigil, in which Tor'gan reconstructed the sigil from the pieces you brought him."
+   "answer": "This step follows The Broken Sigil, when Tor'gan reconstructed the sigil from the pieces you brought him."
   }
  ],
  "angles": [],
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Sigil of Thoradin (Classic)"
- ]
+ ],
+ "style": 2
 }

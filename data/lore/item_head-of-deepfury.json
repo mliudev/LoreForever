@@ -10,11 +10,11 @@
    "quest:378"
   ]
  },
- "summary": "At the Stormwind Stockade, Kam Deepfury’s severed head marks the end of a Dark Iron conspirator. His death in the prison riots answers the grievance of the dwarven defenders at Dun Modr.",
+ "summary": "In the Stormwind Stockade, Kam Deepfury’s death in the prison riots answers the grievance of Dun Modr’s dwarven defenders. His severed head marks the end of a Dark Iron conspirator.",
  "sections": [
   {
    "title": "A Conspirator's Justice",
-   "body": "Kam Deepfury was held in the Stormwind Stockade for political reasons, spared immediate execution by human diplomacy. Roggo uncovered that Deepfury had orchestrated the attack on the Thandol Span, which cost the lives of King Magni’s soldiers and Longbraid the Grim’s kin. The Ironforge mountaineers at Dun Modr could not accept his continued imprisonment. Bound to his post, Motley Garmason sent Alliance champions into the rioting prison to take Deepfury’s head and deliver dwarven vengeance.",
+   "body": "Kam Deepfury was held in the Stormwind Stockade for political reasons, spared execution through human diplomacy. Roggo uncovered that Deepfury had planned the attack on the Thandol Span, where King Magni’s soldiers and Longbraid the Grim’s kin died. The Ironforge mountaineers at Dun Modr could not accept that he remained imprisoned. Bound to his post, Motley Garmason sent Alliance champions into the rioting prison to take Deepfury’s head and deliver dwarven vengeance.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who is deepfury",
     "kam deepfury backstory"
    ],
-   "answer": "Kam Deepfury was a Dark Iron dwarf who helped plan the sabotage of the Thandol Span, the land bridge between the Wetlands and the Arathi Highlands. His conspiracy cost dwarven defenders their lives, including Longbraid the Grim’s brother."
+   "answer": "Kam Deepfury was a Dark Iron dwarf who helped plan the sabotage of the Thandol Span, the land bridge between the Wetlands and the Arathi Highlands. His conspiracy killed dwarven defenders, including Longbraid the Grim’s brother."
   },
   {
    "q": "Why was Kam Deepfury in the Stockade instead of executed?",
@@ -34,7 +34,7 @@
     "why was deepfury imprisoned",
     "why stockade"
    ],
-   "answer": "Stormwind authorities held Deepfury alive for political reasons. The Ironforge mountaineers saw this restraint as an outrage and demanded his death."
+   "answer": "Stormwind authorities kept Deepfury alive for political reasons. The Ironforge mountaineers saw this restraint as an outrage and demanded his death."
   },
   {
    "q": "Who wants the Head of Deepfury?",
@@ -50,7 +50,7 @@
     "why bring deepfury head",
     "fury runs deep result"
    ],
-   "answer": "Bringing Deepfury’s severed head to Dun Modr answers the grievance of the mourning dwarven families. It avenges Longbraid the Grim’s slain brother and shows that human political maneuvering will not bury crimes against Ironforge."
+   "answer": "Bringing Deepfury’s severed head to Dun Modr answers the grievance of the mourning dwarven families. It avenges Longbraid the Grim’s slain brother and shows human political maneuvering will not bury crimes against Ironforge."
   }
  ],
  "angles": [
@@ -60,7 +60,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "The demand for Deepfury’s head reveals friction within the Alliance: Stormwind’s human authorities favor legal caution, while Ironforge’s mountaineers demand harsh justice."
+   "text": "The demand for Deepfury’s head reveals friction within the Alliance. Stormwind’s human authorities favor legal caution, while Ironforge’s mountaineers demand harsh justice."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
   "Head of Deepfury",
   "The Fury Runs Deep"
  ],
- "style": 1
+ "style": 2
 }

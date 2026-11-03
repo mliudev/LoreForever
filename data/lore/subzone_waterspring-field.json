@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Waterspring Field"
  },
- "summary": "Waterspring Field is a vital water-pumping operation in northern Tanaris, constructed by the goblins of Gadgetzan to tap underground aquifers. Instead of supplying the boomtown, the field has been overtaken by the ruthless Wastewander bandits, who now hoard the desert's most precious resource.",
+ "summary": "At Waterspring Field in northern Tanaris, stolen pumps leave Gadgetzan without water.",
  "sections": [
   {
    "title": "A Stolen Oasis",
-   "body": "In the searing wastes of Tanaris, nothing carries more value than fresh water. Seeking to support their expanding trade hub, the Steamwheedle Cartel goblins of Gadgetzan erected an array of industrial pumping towers across Waterspring Field to draw from underground reserves. Their plans collapsed when the Wastewanders—a sprawling band of human outlaws and desert marauders—seized the entire field. The bandits now guard the hijacked pumps with their lives, forcing Gadgetzan to look for hired blades willing to reclaim the moisture.",
+   "body": "Beneath the Tanaris sands, pumps draw water for Gadgetzan. The Steamwheedle Cartel goblins built them to supply their growing trade hub. Now the Wastewanders hold the field. These human outlaws and desert marauders guard the pumps, while Gadgetzan seeks hired blades to reclaim its water.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "goblin pumps",
     "waterspring field towers"
    ],
-   "answer": "The towers were built by the goblins of Gadgetzan. They intended to pump fresh water from deep subterranean reserves to sustain their desert settlement and industrial operations."
+   "answer": "Gadgetzan's goblins built the towers to pump fresh water from deep underground reserves for their desert settlement and industry."
   },
   {
    "q": "Why are there bandits squatting at Waterspring Field?",
@@ -32,7 +32,7 @@
     "wastewanders waterspring",
     "why are wastewanders here"
    ],
-   "answer": "The Wastewander nomads invaded the field and seized the machinery for themselves. Controlling the primary source of fresh water in northern Tanaris gives them total leverage over surrounding travelers and merchants."
+   "answer": "The Wastewanders seized the pumps for themselves. Control of northern Tanaris's fresh water gives them power over nearby travelers and merchants."
   },
   {
    "q": "Why doesn't Gadgetzan take the field back directly?",
@@ -40,17 +40,17 @@
     "why gadgetzan no fight",
     "goblin guards waterspring"
    ],
-   "answer": "Gadgetzan hires adventurers to drive back the Wastewander bandits and recover their water pouches. The reason its Bruisers are not sent into the field is unknown."
+   "answer": "Gadgetzan hires adventurers to drive off the Wastewanders and recover its water pouches. Why its Bruisers do not enter the field is unknown."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The goblin-built mechanical pumping towers represent impressive desert hydraulics."
+   "text": "The goblins' pumping towers show how they draw water beneath the desert sands."
   },
   {
    "target": "race:Human",
-   "text": "The Wastewander bandits occupying the towers are predominantly human outlaws who have forsaken the kingdoms of the north to carve out a brutal existence in the desert sun."
+   "text": "As a human, you share your race with many Wastewander bandits who occupy the towers. They left the northern kingdoms to make a harsh life in the desert."
   }
  ],
  "keywords": [
@@ -69,5 +69,6 @@
  ],
  "attribution": [
   "Waterspring Field"
- ]
+ ],
+ "style": 2
 }

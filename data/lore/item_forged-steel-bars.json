@@ -10,11 +10,11 @@
    "quest:1503"
   ]
  },
- "summary": "In the northern Barrens, Thun'grim Firegaze's steel bars are missing. Recovering them will prove a warrior's resolve to reclaim stolen property.",
+ "summary": "In the northern Barrens, Thun'grim Firegaze's forged steel bars are gone. Recovering them proves a warrior's resolve to reclaim stolen property.",
  "sections": [
   {
    "title": "Stolen Metal",
-   "body": "Thun'grim Firegaze, a visually impaired orc smith, keeps a camp in the northern Barrens. Razormane quilboar took his iron chest during a night raid, distracting him with grunts and snorts while thieves slipped away. Unable to work fine steel, the quilboar left the unopened chest near a ruined wagon in their encampment to the northwest. The bars remain intact for warriors willing to recover them.",
+   "body": "Thun'grim Firegaze is a visually impaired orc smith with a camp in the northern Barrens. During a night raid, Razormane quilboar took his iron chest. They distracted him with grunts and snorts while others slipped away with it.\n\nThe quilboar could not work fine steel, so they left the unopened chest near a ruined wagon in their encampment to the northwest. The bars remain intact for warriors willing to recover them.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "quilboar motive",
     "razormane theft"
    ],
-   "answer": "The Razormane quilboar stole them to pillage Thun'grim's valuables. Knowing his eyesight was poor, they taunted and distracted him while others carried off his iron chest."
+   "answer": "The Razormane quilboar stole them while pillaging Thun'grim's valuables. Knowing his eyesight was poor, they taunted and distracted him as others carried off his iron chest."
   },
   {
    "q": "Did the quilboar use the steel?",
@@ -51,13 +51,13 @@
     "forged steel reward",
     "what do i get for the steel"
    ],
-   "answer": "Thun'grim offers aspiring warriors a crafted weapon in exchange for braving the quilboar camps and returning all the bars."
+   "answer": "Thun'grim offers aspiring warriors a crafted weapon for braving the quilboar camps and returning all the bars."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Recovering Thun'grim's stolen steel proves a warrior can track down thieves and face dangerous quilboar packs. In return, Thun'grim offers custom weaponry."
+   "text": "Recovering Thun'grim's stolen steel proves a warrior can track down thieves and face dangerous quilboar packs. Thun'grim offers custom weaponry in return."
   },
   {
    "target": "profession:Blacksmithing",
@@ -83,5 +83,5 @@
   "Forged Steel Bars",
   "Forged Steel"
  ],
- "style": 1
+ "style": 2
 }

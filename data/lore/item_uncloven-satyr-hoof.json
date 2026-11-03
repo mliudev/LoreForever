@@ -10,16 +10,16 @@
    "quest:1842"
   ]
  },
- "summary": "In Ashenvale, satyrs gorge themselves on the ancient forest’s magic. Their swollen hooves hold the power they steal, and Ula'elek uses it to forge armor in Sen'jin Village.",
+ "summary": "In Ashenvale, Uncloven Satyr Hooves hold the power satyrs steal from the ancient forest. Ula'elek uses that power to forge armor in Sen'jin Village.",
  "sections": [
   {
    "title": "Leeched Power",
-   "body": "Satyrs haunt the corrupted groves of northeastern Ashenvale, feeding on the ancient forest’s magical purity. The more they consume, the more corruption distorts their demonic bodies. Their hooves swell and lose their natural cleft, becoming dense stores of absorbed energy. Skilled shamans and leatherworkers can harvest that volatile power.",
+   "body": "Satyrs haunt the corrupted groves of northeastern Ashenvale, feeding on the ancient forest’s magic. The more they consume, the more corruption twists their demonic bodies. Their hooves swell and lose their cleft, becoming dense stores of the energy they have absorbed. Skilled shamans and leatherworkers can harvest that volatile power.",
    "spoiler": 0
   },
   {
    "title": "Crafting the Brutal Armor",
-   "body": "At Sen'jin Village on Durotar’s coast, the troll armorer Ula'elek turns demonic corruption into strength for Horde champions. He takes hooves from satyrs that have fed on the forest and draws out their trapped magic. Then he channels that stolen power into brutal gauntlets, armor for young warriors facing the rigors of Kalimdor.",
+   "body": "At Sen'jin Village on Durotar’s coast, Ula'elek turns demonic corruption into strength for Horde champions. The troll armorer takes hooves from satyrs that have fed on the forest and draws out their trapped magic. Then he channels that stolen power into brutal gauntlets, armor for young warriors facing the rigors of Kalimdor.",
    "spoiler": 0
   }
  ],
@@ -94,5 +94,5 @@
   "Uncloven Satyr Hoof",
   "Satyr Hooves"
  ],
- "style": 1
+ "style": 2
 }

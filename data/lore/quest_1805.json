@@ -17,16 +17,16 @@
   "wiki": "Tome of the Cabal (Horde, 3)",
   "chain": []
  },
- "summary": "A warlock's work with the Tome of the Cabal now leads into hostile territory. After helping Jorah Annison restore the tome, you must claim three Rods of Channeling and bring them to Strahad Farsan in Ratchet.",
+ "summary": "Strahad Farsan's work with the Tome of the Cabal now reaches into hostile territory. After helping Jorah Annison restore the tome, you must claim three Rods of Channeling and bring them to Strahad in Ratchet.",
  "sections": [
   {
    "title": "Secrets of the Reconstructed Tome",
-   "body": "In the Undercity, Jorah Annison studies the recovered fragments of the Tome of the Cabal. The Forsaken scholar pieces together its eldritch passages and welcomes the rare knowledge they offer. Then Jorah delivers an urgent directive from Strahad Farsan. Knowledge alone cannot bind a felhunter. A warlock needs precise instruments to focus demonic power into a binding circle.",
+   "body": "In the Undercity, Jorah Annison studies the recovered fragments of the Tome of the Cabal. The Forsaken scholar pieces together its eldritch passages and welcomes the rare knowledge they hold. Then Jorah brings an urgent word from Strahad Farsan. Knowledge alone cannot bind a felhunter; a warlock needs precise instruments to focus demonic power into a binding circle.",
    "spoiler": 0
   },
   {
    "title": "Venture into the Wetlands",
-   "body": "Strahad needs three Rods of Channeling, carried by renegade orcs of the Dragonmaw clan. They dwell among the ruins of Angerfang Encampment in the Wetlands, far from Horde lands. You must enter contested territory and face clan remnants who hate the modern Horde as much as they butcher Alliance explorers.",
+   "body": "Strahad needs three Rods of Channeling carried by renegade orcs of the Dragonmaw clan. They dwell among the ruins of Angerfang Encampment in the Wetlands, far from Horde lands. You must enter contested territory and face clan remnants who hate the modern Horde as much as they butcher Alliance explorers.",
    "spoiler": 0
   },
   {
@@ -43,7 +43,7 @@
     "quest purpose",
     "what is tome of the cabal for"
    ],
-   "answer": "This is the third step in the Horde warlock chain to learn to summon a felhunter. You deliver the restored Tome of the Cabal and three Rods of Channeling to Strahad Farsan above Ratchet."
+   "answer": "You bring the restored Tome of the Cabal and three Rods of Channeling to Strahad Farsan above Ratchet, the third step in the Horde warlock chain to summon a felhunter."
   },
   {
    "q": "Who is Jorah Annison?",
@@ -59,7 +59,7 @@
     "why rods of channeling",
     "rods purpose"
    ],
-   "answer": "The rods give a warlock precise control when summoning and compelling a felhunter. They focus the ritual, stabilizing and shaping the summoning circle so the warlock can subdue the demon rather than be devoured."
+   "answer": "The rods give a warlock precise control when summoning and compelling a felhunter. They focus the ritual and shape its summoning circle, helping the warlock subdue the demon rather than be devoured."
   },
   {
    "q": "Where are the Dragonmaw orcs located for this quest?",
@@ -90,11 +90,11 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you face a trial of resolve: securing dangerous ritual reagents in hostile lands takes the knowledge and nerve to bind a predatory felhunter to your service."
+   "text": "As a warlock, you face a trial of resolve. Securing dangerous ritual reagents in hostile lands takes the knowledge and nerve to bind a predatory felhunter to your service."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you face Dragonmaw renegades in the Wetlands, bitter enemies of Thrall's Horde. Taking their channeling rods is a victory for Horde interests."
+   "text": "As a member of the Horde, you face Dragonmaw renegades in the Wetlands, bitter enemies of Thrall's Horde. Taking their channeling rods advances Horde interests."
   },
   {
    "target": "race:Orc",
@@ -102,7 +102,7 @@
   },
   {
    "target": "race:Undead",
-   "text": "As an undead, you can see Jorah Annison's work in the Undercity: Forsaken warlocks study forbidden arcane texts for practical supremacy."
+   "text": "As an undead, you can see Jorah Annison's work in the Undercity. Forsaken warlocks study forbidden arcane texts for practical supremacy."
   }
  ],
  "keywords": [
@@ -128,5 +128,5 @@
  "attribution": [
   "Tome of the Cabal (Horde, 3)"
  ],
- "style": 1
+ "style": 2
 }

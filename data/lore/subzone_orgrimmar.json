@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Orgrimmar"
  },
- "summary": "In northern Durotar, Orgrimmar rises as the New Horde’s warrior capital. Warchief Thrall founded the city in memory of Orgrim Doomhammer, and its red canyons shelter the orcs’ renewal and survival on Kalimdor.",
+ "summary": "In northern Durotar, Orgrimmar shelters the New Horde as its warrior capital. Warchief Thrall founded the city in memory of Orgrim Doomhammer. Its red canyons shelter the orcs’ renewal and their struggle to survive on Kalimdor.",
  "sections": [
   {
    "title": "A Stronghold in the Stone",
-   "body": "After the Third War and the victory at Mount Hyjal, Warchief Thrall brought his surviving people south to make a homeland in Durotar. Orgrimmar was built among steep mountain crags, with spiked timber walls, stone watchtowers, and caverns cut deep into the mountains. Darkspear trolls, tauren stonemasons, and goblin engineers helped raise the fortress. Its defenses turned the wilderness into a stronghold built to withstand a siege.",
+   "body": "After the victory at Mount Hyjal, Warchief Thrall led his surviving people south to make a homeland in Durotar. They built Orgrimmar among steep mountain crags, with spiked timber walls, stone watchtowers, and caverns cut deep into the mountains.\n\nDarkspear trolls, tauren stonemasons, and goblin engineers helped raise the fortress. Its defenses turned the wilderness into a stronghold built to withstand a siege.",
    "spoiler": 0
   },
   {
    "title": "Heart of the New Horde",
-   "body": "Free of the demonic bloodlust that once bound them, the orcs built Orgrimmar as a beacon of honor, community, and survival. Orcs and Darkspear trolls live in the city, while emissaries from the tauren of Mulgore and the newly allied Forsaken are welcomed there. Shamans teach the next generation ancestral balance, and veterans clash in gladiatorial rings to hone the army that guards Kalimdor’s fragile peace.",
+   "body": "Freed from the demonic bloodlust that once bound them, the orcs built Orgrimmar as a beacon of honor, community, and survival. Orcs and Darkspear trolls live in the city. Emissaries from the tauren of Mulgore and the newly allied Forsaken are welcomed there.\n\nShamans teach the next generation ancestral balance. In gladiatorial rings, veterans clash to hone the army that guards Kalimdor’s fragile peace.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why called orgrimmar",
     "who was orgrimmar named for"
    ],
-   "answer": "Warchief Thrall named Orgrimmar for his mentor and predecessor, the legendary orc Warchief Orgrim Doomhammer. Doomhammer fell in the Eastern Kingdoms while freeing the orc internment camps, and gave Thrall his iconic warplate and battle hammer."
+   "answer": "Warchief Thrall named Orgrimmar for his mentor and predecessor, the legendary orc Warchief Orgrim Doomhammer. Doomhammer fell in the Eastern Kingdoms while freeing the orc internment camps. He gave Thrall his iconic warplate and battle hammer."
   },
   {
    "q": "Who helped build the city?",
@@ -46,7 +46,7 @@
     "orgrimmar residents",
     "races in orgrimmar"
    ],
-   "answer": "Orcs and Sen'jin's Darkspear trolls share Orgrimmar’s districts. Tauren travelers often reside there as steadfast allies, and envoys of the recently accepted Forsaken have begun establishing a quiet foothold."
+   "answer": "Orcs and Sen'jin's Darkspear trolls share Orgrimmar’s districts. Tauren travelers often reside there as steadfast allies. Envoys of the recently accepted Forsaken have begun establishing a quiet foothold."
   },
   {
    "q": "Where does Warchief Thrall reside?",
@@ -65,7 +65,7 @@
   },
   {
    "target": "race:Orc",
-   "text": "For the orcs, Orgrimmar is the realization of their redemption. They cast off the demonic curse’s legacy there and build an honorable, independent future."
+   "text": "As an orc, you can see Orgrimmar as the realization of your people’s redemption. There, they cast off the demonic curse’s legacy and build an honorable, independent future."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
  "attribution": [
   "Orgrimmar"
  ],
- "style": 1
+ "style": 2
 }

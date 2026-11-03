@@ -8,16 +8,16 @@
   "wiki": "Eva Sarkhoff",
   "refs": 2
  },
- "summary": "Eva Sarkhoff is the spectral remnant of the former head maid of House Barov, lingering alongside her husband Lucien just outside the horrors of Scholomance. Tortured and slain by the Butcher during the fall of Caer Darrow, her spirit seeks brave mortals to avenge their deaths and destroy their cursed remains.",
+ "summary": "Outside Scholomance, Eva Sarkhoff lingers with Lucien, her husband, and seeks vengeance for their deaths. Once head maid to House Barov, she asks mortals to destroy their cursed remains.",
  "sections": [
   {
    "title": "The Fall of House Barov",
-   "body": "Eva served the wealthy Barov family for decades as their head maid, caring for the sprawling keep of Caer Darrow alongside her husband Lucien, the family butler. As the Barovs grew paranoid about their aging mortality and vast wealth, they struck a catastrophic pact with Kel'Thuzad. The manor was gradually handed over to the fledgling Cult of the Damned, warping the grand residence into Scholomance, a secretive academy of necromancy. Eva and Lucien hid in the keep's corridors for six months, scavenging food while watching cultists and monstrosities steadily take over their home.",
+   "body": "For decades, Eva served as head maid to the wealthy Barov family at Caer Darrow. Her husband Lucien was the family butler. As the Barovs feared age and the loss of their vast wealth, they made a disastrous pact with Kel'Thuzad. They gradually gave their manor to the young Cult of the Damned, which turned it into Scholomance, a hidden school of necromancy.\n\nEva and Lucien hid in the keep's corridors for six months. They scavenged food as cultists and monstrosities took over their home.",
    "spoiler": 0
   },
   {
    "title": "The Butcher's Scalpel",
-   "body": "Inevitably discovered by the Scourge, Eva and Lucien were delivered into the custody of Doctor Theolen Krastinov, known as the Butcher. Krastinov subjected the pair to weeks of agonized experimentation, using dark magic to prolong their lives well past the threshold of mortal endurance. Even after death, their corpses were fed to ghouls while their restless spirits were chained to Caer Darrow, where Eva now begs passing adventurers to slay Krastinov and incinerate their remains.",
+   "body": "The Scourge found Eva and Lucien, then delivered them to Doctor Theolen Krastinov, known as the Butcher. For weeks, Krastinov tortured them with experiments. Dark magic kept them alive beyond mortal endurance.\n\nAfter they died, ghouls fed on their corpses. Their restless spirits remained bound to Caer Darrow. Eva now begs travelers to slay Krastinov and burn their remains.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is eva sarkhoff",
     "eva lore"
    ],
-   "answer": "Eva Sarkhoff was the head maid for the noble Barov family, residing and working in the keep of Caer Darrow for decades alongside her husband, Lucien, who served as butler."
+   "answer": "For decades, Eva served as head maid to the noble Barov family at Caer Darrow. Her husband Lucien was the family butler."
   },
   {
    "q": "How did Eva die?",
@@ -38,7 +38,7 @@
     "eva sarkhoff death",
     "who killed eva"
    ],
-   "answer": "After hiding for months from the Cult of the Damned, Eva and Lucien were discovered and turned over to Doctor Theolen Krastinov. Krastinov relentlessly tortured them for weeks, keeping them alive with dark magic until they finally died and had their corpses fed to ghouls."
+   "answer": "After months hiding from the Cult of the Damned, Eva and Lucien were found and handed to Doctor Theolen Krastinov. He tortured them for weeks, using dark magic to keep them alive until they died. Ghouls then fed on their corpses."
   },
   {
    "q": "Why is Eva's ghost still in Caer Darrow?",
@@ -47,17 +47,17 @@
     "eva spirit",
     "why is eva lingering"
    ],
-   "answer": "Eva's torment was so horrific and unnatural that her spirit remains tied to the mortal plane. She cannot pass into eternity until Doctor Krastinov is slain and her physical remains inside Scholomance are burned."
+   "answer": "Eva's spirit remains bound to Caer Darrow after her torment. She cannot pass on until Doctor Krastinov is slain and her remains inside Scholomance are burned."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "Witnessing the lingering torment of Eva and Lucien is a stark reminder of the Scourge's cruelty, demanding that holy practitioners grant peace to their restless souls and cleanse the foul magic binding them."
+   "text": "As a priest, you see the cruelty of the Scourge in Eva and Lucien's torment. Their restless souls call for holy hands to grant them peace and cleanse the foul magic binding them."
   },
   {
    "target": "race:Human",
-   "text": "Eva and her husband represent the ordinary servants of Lordaeron who were betrayed by their own corrupt aristocracy when House Barov sold Caer Darrow to Kel'Thuzad."
+   "text": "As a human, you see Eva and her husband among Lordaeron's ordinary servants. Their corrupt aristocracy betrayed them when House Barov sold Caer Darrow to Kel'Thuzad."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Eva Sarkhoff"
- ]
+ ],
+ "style": 2
 }

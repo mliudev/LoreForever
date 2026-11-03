@@ -22,21 +22,21 @@
    "Archmage Arugal"
   ]
  },
- "summary": "In southern Silverpine, Shadowfang Keep shelters the rogue Kirin Tor wizard Archmage Arugal and the worgen he summoned. The old Silverlaine estate now holds feral beasts and the phantoms of its slaughtered defenders, while nearby Pyrewood Village remains bound to a horrifying curse.",
+ "summary": "In southern Silverpine, Shadowfang Keep shelters Archmage Arugal and the worgen he summoned. The old Silverlaine estate is overrun by feral beasts and haunted by its slaughtered defenders. Nearby Pyrewood Village remains bound to a horrifying curse.",
  "sections": [
   {
    "title": "Fall of the Silverlaine Dynasty",
-   "body": "Shadowfang Keep was once Silverlaine Keep, a noble seat defended by the pious Commander Springvale. During the Third War, the Scourge swept through Lordaeron and Dalaran's wizards fell in droves. Desperate to stem the rising dead, Archmage Arugal defied the Kirin Tor leadership and turned to the research of the wizard Ur. He summoned extra-dimensional worgen to turn the tide. The beasts savaged the undead, then slipped beyond mortal control and stormed southern Silverpine. Baron Silverlaine and his entire court were massacred, doomed to haunt the stone halls beside the feral monsters that overran their home.",
+   "body": "Shadowfang Keep once belonged to the Silverlaine family, with pious Commander Springvale charged to defend it. During the Third War, the Scourge swept through Lordaeron, and Dalaran's wizards fell in droves. Desperate to stem the dead, Archmage Arugal defied the Kirin Tor leadership and used the research of the wizard Ur.\n\nHe summoned worgen from beyond this world to turn the tide. The beasts savaged the undead, then slipped beyond mortal control and stormed southern Silverpine. Baron Silverlaine and his court were massacred, doomed to haunt the stone halls beside the monsters that overran their home.",
    "spoiler": 0
   },
   {
    "title": "Arugal's Children",
-   "body": "Broken by guilt and madness, Arugal withdrew behind the blood-stained battlements. He called the ravenous wolf-men his beloved children and named the castle Shadowfang Keep. In its stone roosts, lupine packs and shadowy hounds thrive under trainers such as Wolf Master Nandos, watched by Arugal's massive lupine beast, Fenrus the Devourer. The curse did not halt at the walls. Nearby Pyrewood Village remains trapped in a horrifying nocturnal cycle: its people walk as men by day and hunt as ravenous worgen beneath the moon, bound to the mad archmage on the heights above.",
+   "body": "Guilt and madness drove Arugal behind the blood-stained battlements. He called the ravenous wolf-men his beloved children and gave the castle the name Shadowfang Keep. Lupine packs and shadowy hounds thrive in its stone roosts under trainers such as Wolf Master Nandos. Arugal's massive lupine beast, Fenrus the Devourer, watches over them.\n\nThe curse reached beyond the walls. Nearby Pyrewood Village remains trapped in a horrifying cycle: its people walk as men by day, then hunt as ravenous worgen beneath the moon. They are bound to the mad archmage on the heights above.",
    "spoiler": 0
   },
   {
    "title": "The Forsaken Strike",
-   "body": "Lady Sylvanas Windrunner saw Arugal as a dire threat to her dominion in Silverpine Forest and sent the Royal Apothecary Society and elite Deathstalkers to find the source of the worgen curse. Infiltration teams suffered brutal losses in the dungeons, but Horde heroes answering the call from the Sepulcher eventually break into the highest tower. When they strike down Arugal, the pack loses its master. The mind directing the beasts' spread through the wilderness is severed, and his head becomes proof of Lordaeron's vengeance.",
+   "body": "Lady Sylvanas Windrunner saw Arugal as a dire threat to her dominion in Silverpine Forest. She sent the Royal Apothecary Society and elite Deathstalkers to find the source of the worgen curse. Infiltration teams suffered brutal losses in the dungeons. At last, Horde heroes answering the call from the Sepulcher broke into the highest tower and struck down Arugal.\n\nWith Arugal dead, the pack lost its master. The mind directing the beasts' spread through the wilderness was severed. His head became proof of Lordaeron's vengeance.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "arugal dead lore",
     "what happens after arugal dies"
    ],
-   "answer": "Slaying Arugal removes the central force controlling the worgen packs in southern Silverpine. On Lady Sylvanas Windrunner's orders, Horde adventurers take his severed head to Dalar Dawnweaver at the Sepulcher. The feral beasts and ghostly remnants in the keep and surrounding woods remain a danger to travelers."
+   "answer": "Slaying Arugal removes the force controlling the worgen packs in southern Silverpine. On Lady Sylvanas Windrunner's orders, Horde adventurers bring his severed head to Dalar Dawnweaver at the Sepulcher. Feral beasts and ghostly remnants in the keep and surrounding woods remain a danger to travelers."
   },
   {
    "q": "Why did Arugal summon the worgen?",
@@ -57,7 +57,7 @@
     "arugal motive",
     "dalaran worgen summon"
    ],
-   "answer": "During the Third War, Dalaran's armies suffered disastrous defeats against the Scourge, and fallen wizards kept rising as undead soldiers for the Lich King. Seeking a weapon to turn the tide, Arugal used the research of the wizard Ur to summon extra-dimensional worgen, believing their savagery could halt the Scourge."
+   "answer": "During the Third War, Dalaran's armies suffered disastrous defeats against the Scourge. Fallen wizards kept rising as undead soldiers for the Lich King. Seeking a weapon to turn the tide, Arugal used the wizard Ur's research to summon worgen from beyond this world, believing their savagery could halt the Scourge."
   },
   {
    "q": "Who was Baron Silverlaine?",
@@ -90,7 +90,7 @@
     "book of ur quest",
     "ur lore"
    ],
-   "answer": "The Book of Ur holds the research of Ur, an archmage of Dalaran who studied extra-dimensional entities, including the worgen. Arugal used the writings to make his disastrous summons. The Royal Apothecary Society in the Undercity seeks the book to understand the wolf-creatures and their strange magic."
+   "answer": "The Book of Ur holds the research of Ur, a Dalaran archmage who studied beings from beyond this world, including the worgen. Arugal used the writings to make his disastrous summons. The Royal Apothecary Society in the Undercity seeks the book to understand the wolf-creatures and their strange magic."
   }
  ],
  "angles": [
@@ -100,7 +100,7 @@
   },
   {
    "target": "class:Mage",
-   "text": "As a mage, Shadowfang's tragedy warns what can happen when a Kirin Tor wizard meddles with extra-dimensional summoning beyond mortal control."
+   "text": "As a mage, Shadowfang's tragedy warns what can happen when a Kirin Tor wizard meddles with summoning beings from beyond this world, beyond mortal control."
   },
   {
    "target": "class:Warlock",
@@ -136,5 +136,5 @@
   "Shadowfang Keep (Classic)",
   "Shadowfang Keep"
  ],
- "style": 1
+ "style": 2
 }

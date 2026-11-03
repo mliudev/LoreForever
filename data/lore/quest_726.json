@@ -33,16 +33,16 @@
    "Passing Word of a Threat"
   ]
  },
- "summary": "Advisor Belgrum has read Historian Karnik's note and sends you back to Karnik with a message spoken on the king's authority: act on what is known, swiftly and decisively, and halt the Shadowforge's doings in the Badlands.",
+ "summary": "In the Badlands, Belgrum sends you back to Karnik with the king's command to act swiftly against the Shadowforge.",
  "sections": [
   {
    "title": "Belgrum's Answer",
-   "body": "Belgrum reads to the end of the note with widening eyes and calls the tidings evil. You are to return to Karnik and relay, on the king's authority, that the information must be acted on quickly and decisively. The Shadowforge's activities in the Badlands have to stop.",
+   "body": "Belgrum reads Karnik's note to the end. His eyes widen at the evil tidings. He sends you back to Karnik with the king's command: act swiftly and decisively on what is known. The Shadowforge's activities in the Badlands must stop.",
    "spoiler": 0
   },
   {
    "title": "Karnik's Reply",
-   "body": "Karnik takes the urgency as the king's own and has a plan ready: the Shadowforge in Uldaman can be slowed by a blow against Angor Fortress, from which they run their operations.",
+   "body": "Karnik takes the urgency as the king's own and has a plan ready. The Shadowforge operate from Angor Fortress. A blow there can slow their work in Uldaman.",
    "spoiler": 1
   }
  ],
@@ -54,7 +54,7 @@
     "belgrum orders",
     "royal authority badlands"
    ],
-   "answer": "Advisor Belgrum, after reading Karnik's note. You carry a message on the king's authority to act swiftly and decisively."
+   "answer": "Advisor Belgrum sends you back after reading Karnik's note. You carry the king's command to act swiftly and decisively."
   },
   {
    "q": "What does Belgrum want done about the Shadowforge?",
@@ -62,7 +62,7 @@
     "what does belgrum want",
     "shadowforge badlands order"
    ],
-   "answer": "Belgrum wants Karnik to act quickly and firmly, and to put an end to what the Shadowforge are doing in the Badlands."
+   "answer": "Belgrum wants Karnik to act quickly and firmly to end the Shadowforge's activities in the Badlands."
   },
   {
    "q": "What came before this?",
@@ -71,7 +71,7 @@
     "quest before passing word of a threat",
     "badlands lead up"
    ],
-   "answer": "You brought Karnik's sealed note to Advisor Belgrum in the earlier Passing Word of a Threat, which followed the Prospect of Faith steps."
+   "answer": "You brought Karnik's sealed note to Advisor Belgrum in the earlier Passing Word of a Threat, after the Prospect of Faith steps."
   }
  ],
  "angles": [],
@@ -93,5 +93,6 @@
  ],
  "attribution": [
   "Passing Word of a Threat (2)"
- ]
+ ],
+ "style": 2
 }

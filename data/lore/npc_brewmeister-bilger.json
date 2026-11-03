@@ -8,16 +8,16 @@
   "wiki": "Brewmeister Bilger",
   "refs": 1
  },
- "summary": "Brewmeister Bilger waits in Southshore's inn cellar for deliveries from distant lands. The intoxicated dwarf passes his hours tasting potent spirits.",
+ "summary": "In Southshore's inn cellar, Brewmeister Bilger waits for deliveries from distant lands. The intoxicated dwarf spends his hours tasting potent spirits.",
  "sections": [
   {
    "title": "Life in the Cellar",
-   "body": "Brewmeister Bilger paces the cellar beneath Southshore's inn, nursing hiccups as he seeks the strongest brews Azeroth can offer.",
+   "body": "Beneath Southshore's inn, Brewmeister Bilger paces the cellar with hiccups. He seeks the strongest brews Azeroth can offer.",
    "spoiler": 0
   },
   {
    "title": "A Taste for Potent Imports",
-   "body": "Brewmeister Bilger can judge spirits despite his constant stupor. He favors heavy dwarven moonshines and potent southern liquors, and eagerly receives special batches such as the moonshine Foggy MacKreel sends from the Thandol Span.",
+   "body": "Even in a stupor, Brewmeister Bilger can judge spirits. He favors heavy dwarven moonshines and potent southern liquors. Special batches delight him, such as the moonshine Foggy MacKreel sends from the Thandol Span.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can find Bilger in Southshore's inn cellar, one of the dwarves who make their home among the humans of this beleaguered town."
+   "text": "As an Alliance member, you can find Bilger in Southshore's inn cellar. He is one of the dwarves who make their home among the humans of this beleaguered town."
   }
  ],
  "keywords": [
@@ -69,5 +69,5 @@
  "attribution": [
   "Brewmeister Bilger"
  ],
- "style": 1
+ "style": 2
 }

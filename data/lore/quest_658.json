@@ -27,16 +27,16 @@
    "Hints of a New Plague?"
   ]
  },
- "summary": "At Go'Shek Farm, Quae and Kin have watched for days. Kin saw a courier leave a small house to the south, and they suspect she carries notes to Tarren Mill. Quae asks if you are a skilled tracker and wants the documents.",
+ "summary": "At Go'Shek Farm, Quae and Kin have watched for days, and Kin saw a courier leave a small house to the south. They suspect she carries notes to Tarren Mill, so Quae asks you to track her and bring back the documents.",
  "sections": [
   {
    "title": "Watching the Farm",
-   "body": "Quae expected Phin Odelic to send you, since he worries too much. Quae and Kin have watched the farm for days. Kin recently saw a courier leave a small house to the south. Kin talks often, but Quae trusts Kin's senses in dangerous places.",
+   "body": "Quae expected Phin Odelic to send you. He worries too much, in Quae's view. Quae and Kin have watched the farm for days, and Kin recently saw a courier leave a small house to the south. Kin talks often, but Quae trusts Kin's senses in dangerous places.",
    "spoiler": 0
   },
   {
    "title": "The Courier's Folder",
-   "body": "Quae asks if you are a skilled tracker. The courier may carry notes bound for Tarren Mill, and the documents could shed light on what is happening in Hillsbrad. You are to find the Forsaken Courier and bring her Sealed Folder to Quae near Go'Shek Farm. While you search, Kin spots an apothecary leaving that same house. Quae suspects the apothecary is up to no good, but needs proof before anyone acts rashly.",
+   "body": "Quae asks if you are a skilled tracker. The courier may carry notes bound for Tarren Mill, and the documents could shed light on what is happening in Hillsbrad. Find the Forsaken Courier and bring her Sealed Folder to Quae near Go'Shek Farm.\n\nWhile you search, Kin spots an apothecary leaving that same house. Quae suspects the apothecary is up to no good, but needs proof before anyone acts rashly.",
    "spoiler": 0
   }
  ],
@@ -73,7 +73,7 @@
     "what item does the courier have",
     "sealed folder"
    ],
-   "answer": "You are to bring the Forsaken Courier's Sealed Folder to Quae near Go'Shek Farm."
+   "answer": "Bring the Forsaken Courier's Sealed Folder to Quae near Go'Shek Farm."
   },
   {
    "q": "Who else was spotted at the house?",
@@ -114,5 +114,5 @@
  "attribution": [
   "Hints of a New Plague? (2)"
  ],
- "style": 1
+ "style": 2
 }

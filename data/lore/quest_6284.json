@@ -17,16 +17,16 @@
   "wiki": "Arachnophobia (quest)",
   "chain": []
  },
- "summary": "A Horde bounty sends you west of Windshear Crag after Besseleth, the ancient spider haunting southern Stonetalon Mountains. Claim her fang for Maggran Earthbinder at Sun Rock Retreat, and the mountain roads may grow safer for travelers after dark.",
+ "summary": "A Horde bounty sends you west of Windshear Crag after Besseleth, the ancient spider haunting southern Stonetalon Mountains. Bring her fang to Maggran Earthbinder at Sun Rock Retreat, and travelers may find the mountain roads safer after dark.",
  "sections": [
   {
    "title": "The Roadside Warning",
-   "body": "A weathered wanted poster warns travelers on the main road south of Windshear Crag of dangers to the west. Sishir Canyon and Webwinder Path are overrun by spiders. At the heart of the threat is Besseleth, an unusually large orange spider who commands her brood. After sunset, she ambushes anyone who strays from the path.",
+   "body": "A weathered wanted poster warns travelers on the main road south of Windshear Crag to beware the lands west of it. Sishir Canyon and Webwinder Path swarm with spiders. Besseleth, an unusually large orange spider, commands her brood. After sunset, she ambushes anyone who strays from the path.",
    "spoiler": 0
   },
   {
    "title": "The Earthbinder's Grievance",
-   "body": "Maggran Earthbinder, a tauren at Sun Rock Retreat, has posted the bounty on Besseleth. He nearly died in an earlier encounter, when her massive two-foot fang struck him. Maggran fought her off and limped to safety, but the wound still reminds him of the danger in the canyon shadows. He hopes an adventurer will bring him Besseleth's Fang and secure the passes, so trade and travel to Sun Rock Retreat can continue without fear.",
+   "body": "Maggran Earthbinder, a tauren at Sun Rock Retreat, has posted the bounty on Besseleth. In an earlier encounter, her massive two-foot fang struck him and nearly killed him. Maggran fought her off and limped to safety, but the wound still reminds him of the danger in the canyon shadows. He hopes you will bring him Besseleth's Fang and secure the passes, so trade and travel to Sun Rock Retreat can continue without fear.",
    "spoiler": 0
   }
  ],
@@ -81,7 +81,7 @@
     "can alliance do arachnophobia",
     "alliance arachnophobia quest"
    ],
-   "answer": "No. Arachnophobia is exclusive to the Horde, since Maggran Earthbinder at the Horde encampment of Sun Rock Retreat offers the bounty."
+   "answer": "No. Arachnophobia is for the Horde, since Maggran Earthbinder at the Horde encampment of Sun Rock Retreat offers the bounty."
   }
  ],
  "angles": [
@@ -120,5 +120,5 @@
  "attribution": [
   "Arachnophobia (quest)"
  ],
- "style": 1
+ "style": 2
 }

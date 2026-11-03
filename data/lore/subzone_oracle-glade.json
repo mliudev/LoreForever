@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Oracle Glade"
  },
- "summary": "Bloodfeather harpies harry Oracle Glade in northwestern Teldrassil. The sacred woodland holds the ancient Oracle Tree and Teldrassil’s first and most potent moonwell.",
+ "summary": "In Oracle Glade, Bloodfeather harpies trouble a sacred woodland between Darnassus and Wellspring Lake. The ancient Oracle Tree and Teldrassil’s first and most potent moonwell watch over the island boughs.",
  "sections": [
   {
    "title": "Heart of the Woodland",
-   "body": "Between Darnassus and Wellspring Lake, the Oracle Glade shelters a place of communion with nature. At its heart stands the ancient Oracle Tree, magically nurtured, its great boughs shaped like an eagle perched atop a bear. Nearby lies the first and most potent of Teldrassil’s sacred moonwells, bright with Elune’s grace. The Circle of the Ancients and the Oracle Tree watch over the island boughs. The tree sheds bark marked with messages for Archdruid Fandral Staghelm about the World Tree’s health.",
+   "body": "Between Darnassus and Wellspring Lake, Oracle Glade offers a place of communion with nature. At its heart, the ancient Oracle Tree has been magically nurtured. Its great boughs form the shape of an eagle perched atop a bear. Nearby shines Teldrassil’s first and most potent sacred moonwell, bright with Elune’s grace.\n\nThe Circle of the Ancients and the Oracle Tree watch over the island boughs. The tree sheds bark marked with messages for Archdruid Fandral Staghelm about the World Tree’s health.",
    "spoiler": 0
   },
   {
    "title": "A Bough Besieged",
-   "body": "Bloodfeather harpies have made roosts in the glade’s high branches. The aggressive avian scavengers threaten the sacred tree and harass traveling druids, disturbing the moonwell’s quiet. Sentinels from Darnassus struggle to drive them out. As you pass through the northern boughs, tread carefully; harpies strike swiftly near their roosts.",
+   "body": "Bloodfeather harpies have made roosts in the glade’s high branches. These aggressive avian scavengers threaten the sacred tree and harass traveling druids, disturbing the moonwell’s quiet. Sentinels from Darnassus struggle to drive them out.\n\nAs you pass through the northern part of the glade, tread carefully. Harpies strike swiftly near their roosts.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "oracle tree lore",
     "talking tree teldrassil"
    ],
-   "answer": "The Oracle Tree is an ancient, magically nurtured tree shaped like an eagle resting on a bear. It watches Teldrassil’s growth and health, shedding bark marked with reports that druids carry to Archdruid Fandral Staghelm in Darnassus."
+   "answer": "The Oracle Tree is an ancient tree, magically nurtured and shaped like an eagle resting on a bear. It watches Teldrassil’s growth and health, shedding bark marked with reports that druids carry to Archdruid Fandral Staghelm in Darnassus."
   },
   {
    "q": "Why are harpies attacking the Oracle Glade?",
@@ -61,11 +61,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For a night elf, Oracle Glade shows the care needed to bring Teldrassil to fruition. It holds the crown’s most potent moonwell and a silent watcher that sends word to Cenarion leadership."
+   "text": "As a night elf, you can see the care needed to bring Teldrassil to fruition in Oracle Glade. It holds the crown’s most potent moonwell and a silent watcher that sends word to Cenarion leadership."
   },
   {
    "target": "class:Druid",
-   "text": "For a druid of the wild, the Oracle Tree is a living partner in stewardship. Its bark bears written records of the land’s health."
+   "text": "As a druid of the wild, you know the Oracle Tree as a living partner in stewardship. Its bark bears written records of the land’s health."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
  "attribution": [
   "Oracle Glade"
  ],
- "style": 1
+ "style": 2
 }

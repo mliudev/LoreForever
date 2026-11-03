@@ -8,16 +8,16 @@
   "wiki": "Ghamoo-ra (Classic)",
   "refs": 5
  },
- "summary": "In Blackfathom Deeps, Ghamoo-ra guards a small island in the Pool of Ask'ar. The ancient giant turtle tramples anyone who comes near.",
+ "summary": "In Blackfathom Deeps, Ghamoo-ra guards a small island in the Pool of Ask'ar. The ancient giant turtle tramples anyone who draws near.",
  "sections": [
   {
    "title": "A Beast of the Drowned Temple",
-   "body": "Blackfathom Deeps was once a night elven temple to Elune. Flooded now, the ruins are claimed by naga, satyr, and the nihilistic Twilight's Hammer cult. Ghamoo-ra dwells among them, his enormous, thick shell turning aside all but the most determined blows.",
+   "body": "Blackfathom Deeps was once a night elven temple to Elune. Now flooded, its ruins belong to naga, satyr, and the nihilistic Twilight's Hammer cult. Ghamoo-ra dwells among them, his enormous, thick shell turning aside all but the strongest blows.",
    "spoiler": 0
   },
   {
    "title": "Guardian of the Deeps",
-   "body": "Lesser turtles surround Ghamoo-ra on a small island in the Pool of Ask'ar, and they leave travelers be. He alone attacks, crushing anyone who comes near beneath his trampling bulk.",
+   "body": "Lesser turtles gather around Ghamoo-ra on a small island in the Pool of Ask'ar, yet they leave travelers alone. Ghamoo-ra attacks anyone who comes near. Beneath his trampling bulk, they are crushed.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "giant turtle bfd",
     "who is ghamoo ra"
    ],
-   "answer": "Ghamoo-ra guards a small island in the Pool of Ask'ar within Blackfathom Deeps, the flooded temple of Elune held by the Twilight's Hammer. He attacks anyone who approaches."
+   "answer": "Ghamoo-ra guards a small island in the Pool of Ask'ar, within Blackfathom Deeps. The flooded temple of Elune is held by the Twilight's Hammer, and Ghamoo-ra attacks anyone who approaches."
   },
   {
    "q": "Why is Ghamoo-ra hostile to outsiders?",
@@ -38,7 +38,7 @@
     "why does turtle attack",
     "ghamoo-ra madness"
    ],
-   "answer": "Nothing is recorded of how Ghamoo-ra came to be so savage. He attacks anyone who intrudes on his island in the Pool of Ask'ar, trampling all who come near."
+   "answer": "Nothing is recorded of how Ghamoo-ra grew so savage. He attacks anyone who intrudes on his island in the Pool of Ask'ar, trampling all who come near."
   },
   {
    "q": "Can a hunter tame Ghamoo-ra?",
@@ -46,7 +46,7 @@
     "tame ghamoo-ra",
     "can hunter tame bfd turtle"
    ],
-   "answer": "Yes. Despite his size and years of torment, a skilled hunter can tame Ghamoo-ra."
+   "answer": "Yes. Though Ghamoo-ra is large and has endured years of torment, a skilled hunter can tame him."
   },
   {
    "q": "What is the Pool of Ask'ar?",
@@ -54,7 +54,7 @@
     "pool of ask'ar",
     "where is ghamoo ra"
    ],
-   "answer": "The Pool of Ask'ar is a flooded subterranean cavern in Blackfathom Deeps. Ghamoo-ra roams the center of a small island there, surrounded by docile native turtles."
+   "answer": "The Pool of Ask'ar is a flooded cavern beneath Blackfathom Deeps. Ghamoo-ra roams the center of a small island there, among docile native turtles."
   },
   {
    "q": "What connection does he have to the Old Gods?",
@@ -68,7 +68,7 @@
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter venturing into Blackfathom Deeps, you may pity Ghamoo-ra, a noble, ancient beast of the deep. With patience, you may yet tame him."
+   "text": "As a hunter venturing into Blackfathom Deeps, you may pity Ghamoo-ra, an ancient beast of the deep. With patience, you may tame him."
   },
   {
    "target": "race:NightElf",
@@ -98,5 +98,5 @@
  "attribution": [
   "Ghamoo-ra (Classic)"
  ],
- "style": 1
+ "style": 2
 }

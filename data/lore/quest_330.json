@@ -27,16 +27,16 @@
    "Jungle Secrets"
   ]
  },
- "summary": "Following the discovery of an incriminating message signed only by an initial, Lieutenant Doren seeks to identify the traitor within the Rebel Camp. By cross-referencing duty rosters, duty records can reveal who shared patrol routes with Private Thorsen during the previous week.",
+ "summary": "At the Rebel Camp, Lieutenant Doren searches for the writer behind a note signed only with an initial. The writer says they shared patrol routes with Private Thorsen the previous week, and the duty records may reveal their name.",
  "sections": [
   {
    "title": "A Clue in the Rosters",
-   "body": "The recovered note bears only the initial M, which provides little on its own to expose the conspirator aiding the Kurzen forces. However, the author mentions sharing regular duty paths alongside Private Thorsen throughout the previous week. Lieutenant Doren directs you across the Rebel Camp to speak with Corporal Sethman, the soldier responsible for maintaining duty logs, to identify who walked alongside Thorsen.",
+   "body": "A note found at the Rebel Camp bears the initial M. Its writer says they walked regular routes with Private Thorsen during the previous week. That may point to the one aiding the Kurzen forces. Lieutenant Doren sends you to Corporal Sethman, who keeps the duty logs. His records may show who patrolled beside Thorsen.",
    "spoiler": 0
   },
   {
    "title": "What the Records Show",
-   "body": "Reviewing the official records confirms that Private Merle was assigned to the exact same duty times and routes as Thorsen for the entirety of the prior week. The realization exposes Merle as the informant feeding intelligence to Kurzen's men. Once identified, the traitor flees the encampment toward the northern boundary with Duskwood.",
+   "body": "Private Merle shared Thorsen's duty times and routes throughout the previous week. The match reveals Merle as the informant feeding intelligence to Kurzen's men. Merle flees the encampment toward Duskwood's northern boundary.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "corporal sethman role",
     "sethman patrol schedules"
    ],
-   "answer": "Corporal Sethman oversees the duty logs and schedules for the Rebel Camp. Because the recovered note mentions walking regular routes with Private Thorsen, Sethman's records can pinpoint who was assigned to duty alongside him."
+   "answer": "Corporal Sethman keeps the Rebel Camp's duty logs and schedules. The note says its writer walked regular routes with Private Thorsen, so Sethman's records may show who served beside him."
   },
   {
    "q": "What clue is found in the recovered note?",
@@ -57,7 +57,7 @@
     "letter clue",
     "who signed note"
    ],
-   "answer": "The message is signed with the single letter M and explicitly mentions that its author walked the same duty paths as Private Thorsen during the previous week."
+   "answer": "The recovered note bears the letter M. Its writer says they walked the same duty paths as Private Thorsen during the previous week."
   },
   {
    "q": "Where does this inquiry take place?",
@@ -65,7 +65,7 @@
     "where is patrol schedules",
     "patrol schedules location"
    ],
-   "answer": "This investigation takes place entirely inside the Rebel Camp in northern Stranglethorn Vale, passing between Lieutenant Doren and Corporal Sethman."
+   "answer": "The inquiry takes place inside the Rebel Camp in northern Stranglethorn Vale, between Lieutenant Doren and Corporal Sethman."
   },
   {
    "q": "What event preceded this inquiry?",
@@ -73,7 +73,7 @@
     "previous quest",
     "what led to patrol schedules"
    ],
-   "answer": "In The Spy Revealed! you brought Lieutenant Doren the muddy note found among Bookie Herod's valuables, signed only with an initial."
+   "answer": "Before this inquiry, you brought Lieutenant Doren the muddy note found among Bookie Herod's valuables in The Spy Revealed! It bore only an initial."
   }
  ],
  "angles": [],
@@ -97,5 +97,6 @@
  ],
  "attribution": [
   "Patrol Schedules"
- ]
+ ],
+ "style": 2
 }

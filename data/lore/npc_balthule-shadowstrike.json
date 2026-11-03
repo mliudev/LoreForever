@@ -8,16 +8,16 @@
   "wiki": "Balthule Shadowstrike",
   "refs": 6
  },
- "summary": "Near the Tower of Althalaxx, Balthule Shadowstrike watches the northern Darkshore coast. He serves Delgren the Purifier as a forward scout, keeping watch on the dark practitioners in the ancient elven ruins.",
+ "summary": "Near the Tower of Althalaxx, Balthule Shadowstrike keeps watch over northern Darkshore. He scouts for Delgren the Purifier, watching the dark practitioners in ancient elven ruins.",
  "sections": [
   {
    "title": "A Scout in the Shadows",
-   "body": "West of the Tower of Althalaxx, Balthule Shadowstrike keeps a lonely, dangerous watch. Restless spirits and shadowed ruins mark northern Darkshore, but the tower poses a particular threat. Under Delgren the Purifier’s direction, Balthule watches the dark casters who have entered the ancient Highborne ruins.",
+   "body": "West of the Tower of Althalaxx, Balthule Shadowstrike keeps watch alone. Restless spirits haunt northern Darkshore, and shadowed ruins fill its coast. Yet the tower poses a special danger. Under Delgren the Purifier’s direction, Balthule watches the dark casters who have entered the ancient Highborne ruins.",
    "spoiler": 0
   },
   {
    "title": "Uncovering the Cult",
-   "body": "The sorcerers and cultists at the Tower of Althalaxx practice forbidden magic, harvesting artifacts and souls from nearby ruins. Balthule turns to traveling Alliance champions to strike at the cultist leaders and recover parchment and talismans that reveal the reach of their summoning efforts.",
+   "body": "The sorcerers and cultists at the Tower of Althalaxx practice forbidden magic. They harvest artifacts and souls from nearby ruins. Balthule calls on traveling Alliance champions to strike at their leaders. He also seeks parchment and talismans that reveal how far their summoning efforts reach.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "balthule role",
     "balthule shadowstrike npc"
    ],
-   "answer": "Balthule Shadowstrike scouts northern Darkshore. He works with Delgren the Purifier, watching the cultists there."
+   "answer": "Balthule Shadowstrike scouts northern Darkshore for Delgren the Purifier. He watches the cultists there."
   },
   {
    "q": "Where is Balthule Shadowstrike located?",
@@ -113,5 +113,5 @@
  "attribution": [
   "Balthule Shadowstrike"
  ],
- "style": 1
+ "style": 2
 }

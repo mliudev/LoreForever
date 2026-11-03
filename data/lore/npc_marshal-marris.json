@@ -8,16 +8,16 @@
   "wiki": "Marshal Marris",
   "refs": 8
  },
- "summary": "At Lakeshire's bridge, Marshal Marris directs a thin guard against the Blackrock advance. With Stormwind's army absent, he turns to visiting fighters to slow the orcs in the Redridge Mountains.",
+ "summary": "At Lakeshire's bridge, Marshal Marris rallies a thin guard against the Blackrock advance. With Stormwind's army absent, he calls on visiting fighters to slow the orcs in the Redridge Mountains.",
  "sections": [
   {
    "title": "A Town Under Siege",
-   "body": "Lakeshire faces gnolls to the west and the Blackrock clan to the east. Marshal Marris commands the guard line at the town's main bridge, but his supplies are low and his soldiers are stretched thin. Stormwind has sent no royal reinforcements, leaving Marris to keep the town from being overrun.",
+   "body": "Gnolls press from the west and the Blackrock clan from the east. Marshal Marris holds the guard line at Lakeshire's main bridge, though supplies run low and his soldiers are stretched thin. Stormwind has sent no royal reinforcements, so Marris must keep the town from being overrun.",
    "spoiler": 0
   },
   {
    "title": "Breaking the Blackrock Vanguard",
-   "body": "Marshal Marris knows defense alone cannot save Redridge, so he orders strikes on the orc camps. He sends fighters against Blackrock warriors and shadowcasters, then after Tharil'zun, the commander holding Stonewatch Keep's ruins. Marris aims to break the orcs' command before they can overwhelm Lakeshire.",
+   "body": "Marshal Marris knows defense alone cannot save Redridge. He orders strikes on the orc camps, sending fighters against Blackrock warriors and shadowcasters. Then they must face Tharil'zun, the commander holding the ruins of Stonewatch Keep. Marris means to break the orcs' command before they overwhelm Lakeshire.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "marshal marris lore",
     "who is the guard at lakeshire bridge"
    ],
-   "answer": "Marshal Marris commands Lakeshire's defense. He keeps watch near the western end of the town's bridge, working to fortify the settlement against attack."
+   "answer": "Marshal Marris commands Lakeshire's defense. He keeps watch near the western end of the town's bridge and works to fortify the settlement against attack."
   },
   {
    "q": "Why is Marshal Marris hiring independent adventurers?",
@@ -37,7 +37,7 @@
     "why does marris need help",
     "why no stormwind army"
    ],
-   "answer": "Stormwind has sent too few reinforcements to the Redridge Mountains, leaving Lakeshire's guard outnumbered. With gnolls and Blackrock orcs pressing in, Marris hires mercenaries to strike at the threats."
+   "answer": "Stormwind has sent too few reinforcements to the Redridge Mountains, leaving Lakeshire's guard outnumbered. With gnolls and Blackrock orcs pressing in, Marris hires mercenaries to strike at both threats."
   },
   {
    "q": "What threats is Marshal Marris fighting against?",
@@ -45,7 +45,7 @@
     "marris enemies",
     "who is attacking lakeshire"
    ],
-   "answer": "Gnolls trouble the outskirts, but Marshal Marris is chiefly fighting the Blackrock orcs holding Stonewatch Keep. Tharil'zun commands them, and their shadowcasters add to the danger facing Lakeshire and the kingdom."
+   "answer": "Gnolls trouble the outskirts, but Marshal Marris chiefly fights the Blackrock orcs holding Stonewatch Keep. Tharil'zun commands them, and their shadowcasters add to the danger facing Lakeshire and the kingdom."
   },
   {
    "q": "Is Marshal Marris related to Nathanos Marris?",
@@ -61,7 +61,7 @@
     "marris plan",
     "how to beat blackrock orcs"
    ],
-   "answer": "Marris orders fighters to kill Blackrock infantry, collect magical components from their shadowcasters, and enter Stonewatch Keep to kill Tharil'zun."
+   "answer": "Marris orders fighters to kill Blackrock infantry and gather magical components from their shadowcasters. They must also enter Stonewatch Keep and kill Tharil'zun."
   },
   {
    "q": "Where can Marshal Marris be found?",
@@ -69,7 +69,7 @@
     "marris location",
     "where is marshal marris"
    ],
-   "answer": "Marshal Marris is in Lakeshire, in the Redridge Mountains, at the bridge near the center of town."
+   "answer": "Marshal Marris can be found at the bridge near the center of Lakeshire, in the Redridge Mountains."
   }
  ],
  "angles": [
@@ -107,5 +107,5 @@
  "attribution": [
   "Marshal Marris"
  ],
- "style": 1
+ "style": 2
 }

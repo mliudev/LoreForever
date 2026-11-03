@@ -10,11 +10,11 @@
    "quest:6283"
   ]
  },
- "summary": "At Sun Rock Retreat, Maggran Earthbinder seeks Bloodfury Ripper's Remains as proof that the Bloodfury harpy leader is dead. Her death strikes at the threat to the tauren settlement.",
+ "summary": "At Sun Rock Retreat, Maggran Earthbinder needs Bloodfury Ripper's Remains to know the harpy leader is dead. Her fall means less danger for the tauren settlement.",
  "sections": [
   {
    "title": "Severing the Bloodline",
-   "body": "Bloodfury Ripper leads the harpies of the Charred Vale with fierce, territorial aggression. They nest among the scorched ruins and threaten travelers and shamans across the Stonetalon Mountains. Culling the flock eases the danger for a time, but Maggran Earthbinder at Sun Rock Retreat knows that lasting relief means removing its leader. Bloodfury Ripper rules almost like a queen, directing the harpies' attacks on their territory. Her remains prove she is dead, leaving the flock in disarray and giving the tauren who seek to heal and secure their rugged lands greater peace of mind.",
+   "body": "Bloodfury Ripper leads the harpies of the Charred Vale with fierce, territorial aggression. They nest among the scorched ruins and threaten travelers and shamans across the Stonetalon Mountains. Culling the flock brings only brief relief. Maggran Earthbinder at Sun Rock Retreat knows the danger will last while their leader remains.\n\nBloodfury Ripper rules almost like a queen and directs the harpies' attacks on their territory. Her remains prove she is dead. With the flock thrown into disarray, tauren seeking to heal and secure their rugged lands can know greater peace of mind.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "remains purpose",
     "who wants the remains"
    ],
-   "answer": "Bloodfury Ripper's Remains prove that the harpy leader is dead. Maggran Earthbinder at Sun Rock Retreat seeks them to confirm that the queen-like matriarch has been removed."
+   "answer": "Bloodfury Ripper's Remains prove that the harpy leader is dead. Maggran Earthbinder at Sun Rock Retreat seeks them to confirm her death."
   },
   {
    "q": "Where can Bloodfury Ripper be found?",
@@ -35,7 +35,7 @@
     "where is ripper",
     "find bloodfury ripper"
    ],
-   "answer": "Bloodfury Ripper prowls the western and northwestern hill lines of the Charred Vale in southern Stonetalon Mountains. Her blue plumage sets her apart from her crimson-and-white flock."
+   "answer": "Bloodfury Ripper prowls the western and northwestern hill lines of the Charred Vale in southern Stonetalon Mountains. Her blue plumage marks her apart from her crimson-and-white flock."
   },
   {
    "q": "Why does Maggran Earthbinder want her dead?",
@@ -44,17 +44,17 @@
     "maggran motivation",
     "why ripper dead"
    ],
-   "answer": "Maggran Earthbinder believes that culling ordinary harpies cannot stop their raids on the surrounding lands. He seeks Bloodfury Ripper's death to break their hierarchy and weaken their ability to rally against Sun Rock Retreat."
+   "answer": "Maggran Earthbinder believes culling ordinary harpies cannot stop their raids on the surrounding lands. He seeks Bloodfury Ripper's death to break their hierarchy and weaken their ability to rally against Sun Rock Retreat."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The Bloodfury harpies threaten Sun Rock Retreat directly. Gathering their leader's remains helps protect peaceful tauren settlements in Stonetalon."
+   "text": "As a tauren, you know the Bloodfury harpies threaten Sun Rock Retreat directly. Gathering their leader's remains helps protect peaceful tauren settlements in Stonetalon."
   },
   {
    "target": "faction:Horde",
-   "text": "Clearing wild dangers such as the Bloodfury matriarch helps keep routes safe for Horde caravans and scouts traveling between the Barrens and Stonetalon."
+   "text": "As Horde, you help keep routes safe for caravans and scouts traveling between the Barrens and Stonetalon by clearing dangers such as the Bloodfury matriarch."
   }
  ],
  "keywords": [
@@ -79,5 +79,5 @@
   "Bloodfury Ripper's Remains",
   "Bloodfury Bloodline"
  ],
- "style": 1
+ "style": 2
 }

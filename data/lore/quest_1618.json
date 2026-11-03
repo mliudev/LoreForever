@@ -17,16 +17,16 @@
   "wiki": "Gearing Redridge",
   "chain": []
  },
- "summary": "At Lakeshire, a besieged garrison needs sturdy copper equipment from Ironforge. Tormus Deepforge asks aspiring Alliance smiths to forge the gear and help resident smith Verner Osgood defend the region from hostile orcs and gnolls.",
+ "summary": "In Lakeshire, a hard pressed garrison needs sturdy copper gear from Ironforge. Tormus Deepforge asks aspiring Alliance smiths to forge it and aid Verner Osgood as he helps defend the region from hostile orcs and gnolls.",
  "sections": [
   {
    "title": "A Plea Across Kingdoms",
-   "body": "At Ironforge's Great Forge, dwarven smiths know the Alliance's frontline struggles reach beyond Dun Morogh. In the Redridge Mountains, Lakeshire faces repeated attacks from Blackrock orcs marching from Stonewatch Keep and gnolls roaming the northern ridges. Royal reinforcements from Stormwind are slow to arrive, and local supplies remain dangerously low.",
+   "body": "The Great Forge sends help beyond Dun Morogh, where the Alliance's front line is under strain. In the Redridge Mountains, Lakeshire faces repeated attacks from Blackrock orcs marching from Stonewatch Keep and gnolls roaming the northern ridges. Stormwind's royal reinforcements are slow to arrive, and local supplies are dangerously low.",
    "spoiler": 0
   },
   {
    "title": "The Anvils of Lakeshire",
-   "body": "Lakeshire's resident blacksmith, Verner Osgood, works nearly alone at his outdoor forge, mending shattered armor and replacing broken weapons. Seeing the strain on his human counterpart, Tormus Deepforge asks developing smiths to bring four Runed Copper Belts and four Heavy Copper Mauls to Lakeshire. In return for bolstering the militia's defensive reserves, Verner teaches traveling craftsmen finer trade techniques.",
+   "body": "Verner Osgood, Lakeshire's resident blacksmith, works nearly alone at his outdoor forge. He mends shattered armor and replaces broken weapons. Seeing his human counterpart under strain, Tormus Deepforge asks developing smiths to bring four Runed Copper Belts and four Heavy Copper Mauls to Lakeshire. The gear strengthens the militia's reserves, and Verner teaches traveling craftsmen finer trade techniques.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives gearing redridge",
     "tormus quest"
    ],
-   "answer": "Tormus Deepforge, a dwarven smith at Ironforge's Great Forge, offers this work to Alliance smiths with adequate skill in their trade."
+   "answer": "At Ironforge's Great Forge, Tormus Deepforge offers the work to Alliance smiths skilled enough in their trade."
   },
   {
    "q": "Why does Lakeshire need weapons and armor from Ironforge?",
@@ -47,7 +47,7 @@
     "why lakeshire needs weapons",
     "redridge supply shortage"
    ],
-   "answer": "Lakeshire faces constant attacks from Blackrock orcs occupying Stonewatch Keep and aggressive gnolls in the northern ridges. Its solitary smith, Verner Osgood, is overwhelmed mending arms and armor for the militia on his own."
+   "answer": "Lakeshire faces constant attacks from Blackrock orcs occupying Stonewatch Keep and aggressive gnolls in the northern ridges. Verner Osgood is overwhelmed, mending arms and armor for the militia alone."
   },
   {
    "q": "Who receives the shipment in Redridge?",
@@ -65,7 +65,7 @@
     "materials for gearing redridge",
     "what to craft for tormus"
    ],
-   "answer": "You need to make four Runed Copper Belts and four Heavy Copper Mauls. Together, they show skill in protective plating and heavy striking craftsmanship."
+   "answer": "Forge four Runed Copper Belts and four Heavy Copper Mauls. Together, they call for skill in protective plating and heavy striking craft."
   },
   {
    "q": "What threats are troubling Redridge at this time?",
@@ -83,25 +83,25 @@
     "reward for gearing redridge",
     "what do i get"
    ],
-   "answer": "Freed from the frantic burden of outfitting every guardsman from scratch, Verner teaches you finer blacksmithing techniques."
+   "answer": "Once Verner is freed from outfitting every guardsman from scratch, he teaches you finer blacksmithing techniques."
   }
  ],
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "As a blacksmith, you prove you can make durable weapons and protective armor in quantity for an active warfront."
+   "text": "As a blacksmith, you show you can make durable weapons and protective armor in quantity for an active warfront."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you carry aid from Ironforge to the beleaguered human townships of the south, where Stormwind's divided leadership has been slow to act."
+   "text": "As an Alliance member, you carry aid from Ironforge to the hard pressed human townships of the south, where Stormwind's divided leadership has been slow to act."
   },
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you draw on a craft that forms the backbone of the Alliance war effort, and Tormus directs Ironforge's finest smiths to aid their beleaguered allies."
+   "text": "As a dwarf, you draw on a craft that sustains the Alliance war effort. Tormus directs Ironforge's finest smiths to aid their allies."
   },
   {
    "target": "race:Human",
-   "text": "As a human of the southern kingdoms, you receive metalwork forged in Khaz Modan, relief against the aggressive Blackrock remnants."
+   "text": "As a human of the southern kingdoms, you receive metalwork forged in Khaz Modan, bringing relief from the aggressive Blackrock remnants."
   }
  ],
  "keywords": [
@@ -127,5 +127,5 @@
  "attribution": [
   "Gearing Redridge"
  ],
- "style": 1
+ "style": 2
 }

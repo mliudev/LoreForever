@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Corin's Crossing"
  },
- "summary": "Corin's Crossing is a ruined human settlement situated at a major crossroads in south-central Eastern Plaguelands. Once a thriving waystation between Stratholme, Tyr's Hand, Darrowshire, and Andorhal, the devastated town is now utterly overrun by the Scourge. Its crumbling town hall and forge harbor lingering horrors, including invisible spectral watchers.",
+ "summary": "The Scourge has overrun Corin's Crossing, where ruined streets mark an old meeting place in south-central Eastern Plaguelands. Once travelers passed through on their way between Stratholme, Tyr's Hand, Darrowshire, and Andorhal. Now horrors haunt the town hall and forge, and unseen watchers drift among the ruins.",
  "sections": [
   {
    "title": "A Shattered Crossroads",
-   "body": "Before the Third War, Corin's Crossing served as a central junction for travel across eastern Lordaeron. Positioned between the shimmering waters of Lake Mereldar and what has now become the blighted chasm of the Infectis Scar, its thoroughfares once bore merchants, couriers, and pilgrims traveling between the great bastion of Stratholme and the southern strongholds. When the plague swept through the province, the settlement stood directly in the path of destruction, collapsing swiftly beneath the sheer weight of the undead vanguard.",
+   "body": "Before the Third War, Corin's Crossing joined the roads of eastern Lordaeron. Merchants, couriers, and pilgrims stopped at this waystation between Stratholme and the southern strongholds. The settlement stood between Lake Mereldar and the place now blighted as the Infectis Scar. When the plague swept through the province, the undead vanguard reached the town. Corin's Crossing soon fell beneath its assault.",
    "spoiler": 0
   },
   {
    "title": "A Haven of the Damned",
-   "body": "Today, Corin's Crossing is thoroughly lost to the Scourge. Wandering undead pack the muddy streets, while rotting hulks and ghouls linger inside the hollowed-out blacksmith shop and town hall. The town is notably treacherous for scouts: spectral Unseen Servants drift among the ruins completely invisible to ordinary eyes, piercing mundane stealth and ambushing anyone attempting to slip past the main horde undetected.",
+   "body": "The Scourge holds Corin's Crossing now, and wandering undead crowd its muddy streets. Rotting hulks and ghouls linger in the hollowed blacksmith shop and town hall. Scouts face another danger among the ruins. Unseen Servants drift beyond ordinary sight, pierce mundane stealth, and ambush anyone trying to slip past the main horde undetected.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "corins crossing lore",
     "what was corins crossing"
    ],
-   "answer": "It was a prosperous hub town in eastern Lordaeron. Centered around a town hall and blacksmith forge, it served travelers moving between Stratholme, Tyr's Hand, Darrowshire, and Andorhal before the Scourge wiped out its populace."
+   "answer": "Before the plague, Corin's Crossing was a prosperous hub in eastern Lordaeron. Its town hall and blacksmith forge stood at the heart of a waystation between Stratholme, Tyr's Hand, Darrowshire, and Andorhal. The Scourge wiped out its people."
   },
   {
    "q": "Why is Corin's Crossing so hazardous for stealthy travelers?",
@@ -37,7 +37,7 @@
     "unseen servants",
     "rogue corins crossing"
    ],
-   "answer": "The town is haunted by Unseen Servants\u2014invisible phantoms bound to the Scourge. These specters can pierce magical and mundane stealth effortlessly, catching unwary rogues or scouts by surprise and alerting nearby undead."
+   "answer": "Unseen Servants haunt Corin's Crossing as invisible phantoms bound to the Scourge. They pierce magical and mundane stealth, then surprise unwary rogues or scouts and alert nearby undead."
   },
   {
    "q": "What major landmarks surround the town?",
@@ -45,7 +45,7 @@
     "corins crossing location",
     "where is corins crossing"
    ],
-   "answer": "Corin's Crossing sits directly in the south-central Eastern Plaguelands. The blighted trench of the Infectis Scar lies immediately nearby, and Lake Mereldar rests along its border."
+   "answer": "Corin's Crossing stands in south-central Eastern Plaguelands. The blighted trench of the Infectis Scar lies nearby, and Lake Mereldar runs along the town's border."
   },
   {
    "q": "Who controls Corin's Crossing today?",
@@ -53,17 +53,17 @@
     "who owns corins crossing",
     "corins crossing faction"
    ],
-   "answer": "The Scourge holds total dominion over the ruins. No living defenders remain within the town, and the entire settlement swarms with wandering undead soldiers and spirits."
+   "answer": "The Scourge holds Corin's Crossing. No living defenders remain, and wandering undead soldiers and spirits swarm the settlement."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "Do not trust your shadows here. Unseen Servants roam the alleys invisible to mortal sight and see right through your stealth, making a casual walk through the town square fatal."
+   "text": "Do not trust your shadows here. Unseen Servants roam the alleys, unseen by mortal eyes, and see through your stealth. A walk through the town square can be fatal."
   },
   {
    "target": "class:Paladin",
-   "text": "The ruins of Corin's Crossing represent the utter desecration of Lordaeron's heartland, lingering as a wretched Scourge stronghold that mocks the holy bastion of Stratholme further up the road."
+   "text": "As a paladin, you see Lordaeron's heartland desecrated at Corin's Crossing. The ruins remain a wretched Scourge stronghold, mocking Stratholme's holy bastion further up the road."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Corin's Crossing"
- ]
+ ],
+ "style": 2
 }

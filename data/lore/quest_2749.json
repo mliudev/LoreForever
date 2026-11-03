@@ -24,11 +24,11 @@
    "The Super Egg-O-Matic"
   ]
  },
- "summary": "Curgle Cranklehop works with ordinary hippogryph eggs, which are a coin toss: about half of them hatch. Curgle tends them and hopes for luck.",
+ "summary": "Curgle Cranklehop tends ordinary hippogryph eggs, though only about half hatch.",
  "sections": [
   {
    "title": "Half a Chance",
-   "body": "An ordinary hippogryph egg hatches only about half the time. Curgle Cranklehop does their best to nurture each one, and with some luck it will hatch.",
+   "body": "Only about half of ordinary hippogryph eggs hatch. Curgle Cranklehop does their best to nurture each one, hoping luck will see it hatch.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "who is curgle",
     "curgle cranklehop"
    ],
-   "answer": "Curgle Cranklehop is the inventor of the Super Egg-O-Matic, and works with the hippogryph eggs found in Feralas."
+   "answer": "Curgle Cranklehop invented the Super Egg-O-Matic and works with hippogryph eggs from Feralas."
   },
   {
    "q": "What happens to the ordinary hippogryph egg?",
@@ -47,7 +47,7 @@
     "what does curgle do with the egg",
     "egg hatching chance"
    ],
-   "answer": "Curgle tends it and hopes for luck, since only about half of such eggs hatch."
+   "answer": "Curgle tends the ordinary hippogryph egg and hopes for luck. Only about half of such eggs hatch."
   },
   {
    "q": "Where do these eggs come from?",
@@ -55,7 +55,7 @@
     "where do i find the egg",
     "ordinary egg location"
    ],
-   "answer": "From Feralas."
+   "answer": "The eggs come from Feralas."
   },
   {
    "q": "What came before this step?",
@@ -63,7 +63,7 @@
     "prerequisite quest",
     "what is the previous quest"
    ],
-   "answer": "It follows The Super Egg-O-Matic."
+   "answer": "The step before this one is The Super Egg-O-Matic."
   }
  ],
  "angles": [],
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "An Ordinary Egg"
- ]
+ ],
+ "style": 2
 }

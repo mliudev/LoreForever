@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Wildbend River"
  },
- "summary": "Near the Grove of the Ancients, Wildbend River carries demonic poison toward the sea. Its tainted waters run through southern Darkshore from the corrupted heights of Felwood, endangering the wilderness.",
+ "summary": "Near the Grove of the Ancients, Wildbend River carries demonic poison toward the sea. Its waters cross southern Darkshore from the corrupted heights of Felwood and threaten the wilderness.",
  "sections": [
   {
    "title": "A Toxic Mountain Stream",
-   "body": "Wildbend River brings corruption, not clean nourishment, to southern Darkshore. It flows west past the Grove of the Ancients and empties into the sea. The river continues from Felwood's Bloodvenom River, tumbling through rocky ridges with foul runoff. Night elves watch its banks for twisted wildlife and the spread of demonic blight.",
+   "body": "Wildbend River carries corruption through southern Darkshore. It runs west past the Grove of the Ancients and empties into the sea. The stream begins as Felwood's Bloodvenom River, then tumbles through rocky ridges with foul runoff. Night elves watch its banks for twisted wildlife and spreading demonic blight.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "wildbend path",
     "wildbend river location"
    ],
-   "answer": "The river descends from the eastern ridges between Felwood and Darkshore. It winds through southern Darkshore near the Grove of the Ancients, then flows into the Veiled Sea."
+   "answer": "Wildbend River descends from the eastern ridges between Felwood and Darkshore. It winds through southern Darkshore near the Grove of the Ancients, then empties into the Veiled Sea."
   },
   {
    "q": "Does the river affect the Grove of the Ancients?",
@@ -40,17 +40,17 @@
     "grove of the ancients water",
     "is grove of ancients corrupted"
    ],
-   "answer": "Wildbend River passes close to the Grove of the Ancients, threatening the ancient protectors rooted there. Night elves work tirelessly to contain the blight and keep the poisoned water from rotting the sacred groves."
+   "answer": "Wildbend River passes close to the Grove of the Ancients and threatens the ancient protectors rooted there. Night elves work tirelessly to contain the blight and keep poisoned water from rotting the sacred groves."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elf wardens, the riverbanks are a frequent concern as polluted water from Felwood threatens Darkshore's ancient roots."
+   "text": "As a night elf warden, you often watch the riverbanks as polluted water from Felwood threatens Darkshore's ancient roots."
   },
   {
    "target": "class:Druid",
-   "text": "Druids study the ecological aftermath of the Third War and watch how deeply Felwood's corruption reaches the plants and animals downstream."
+   "text": "As a druid, you study the ecological aftermath of the Third War and watch how deeply Felwood's corruption reaches plants and animals downstream."
   }
  ],
  "keywords": [
@@ -70,5 +70,5 @@
  "attribution": [
   "Wildbend River"
  ],
- "style": 1
+ "style": 2
 }

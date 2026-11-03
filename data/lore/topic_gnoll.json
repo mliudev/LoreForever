@@ -7,26 +7,26 @@
  "meta": {
   "wiki": "Gnoll"
  },
- "summary": "Gnolls are a savage, hyena-like race of humanoid scavengers and raiders found scattered across both the Eastern Kingdoms and Kalimdor. Renowned for their vicious infighting, brutal strength, and animal cunning, they survive by pillaging settlements, butchering wildlife, and ambushing unwary travelers. Left unchecked, their sprawling packs and warlords pose a constant threat to frontier hamlets and trade roads alike.",
+ "summary": "Across the Eastern Kingdoms and Kalimdor, gnoll packs prey on settlements and travelers. Hyena-like scavengers, they are known for vicious infighting, brutal strength, and animal cunning. Their warlords lead raids, butcher wildlife, and threaten frontier hamlets and trade roads.",
  "sections": [
   {
    "title": "Hyenas of the Wilds",
-   "body": "Standing slightly shorter than the average human but possessing explosive physical power, gnolls are bipedal hyena-kin known for their spiky teeth, thick pelts, and distinct barking laugh. While fully capable of walking upright, they often drop to all fours to lope swiftly through brush or track prey by scent. Gnoll culture values raw physical dominance above all else. They organize into fractious packs led by the strongest, cruelest alpha, only yielding when battered into submission by a superior force.",
+   "body": "Gnolls roam the wilds on two legs or all fours. Slightly shorter than an average human, these hyena-kin have thick pelts, spiky teeth, and a barking laugh. They lope swiftly through brush and track prey by scent.\n\nAmong gnolls, raw strength rules. Fractious packs follow the strongest and cruelest alpha. They yield only when a superior force batters them into submission.",
    "spoiler": 0
   },
   {
    "title": "The Gnoll War",
-   "body": "Though usually fractured by petty squabbles, united gnolls once waged open war on the kingdom of Stormwind. Stormwind's armies prevailed in that Gnoll War, and the kingdom enjoyed a lasting peace afterward until the orcs came through the Dark Portal.",
+   "body": "United gnolls once brought open war to the kingdom of Stormwind. Stormwind's armies defeated them, and the kingdom knew lasting peace until the orcs came through the Dark Portal.",
    "spoiler": 0
   },
   {
    "title": "Raiders of the Southern Kingdoms",
-   "body": "In the south, gnoll packs run rampant in the absence of Stormwind's full military might. In Elwynn Forest and Westfall, the Riverpaw pack\u2014marshaled by the notorious Hogger\u2014raids homesteads and forces subjugated kobolds to dig for gold, secretly colluding with the Defias Brotherhood. Further east in the Redridge Mountains, the Redridge pack snatches horses outside Lakeshire and sabotages bridge repairs, while the Shadowhide clan in Galardell Valley serves the dark will of the rogue wizard Morganth.",
+   "body": "With Stormwind's full military might absent from the south, gnoll packs run rampant. In Elwynn Forest and Westfall, the Riverpaw pack follows the notorious Hogger. They raid homesteads and force subjugated kobolds to dig for gold. The pack secretly colludes with the Defias Brotherhood.\n\nFarther east, the Redridge pack snatches horses outside Lakeshire and sabotages bridge repairs. In Galardell Valley, the Shadowhide clan serves the dark will of the rogue wizard Morganth.",
    "spoiler": 1
   },
   {
    "title": "Pestilence and Territory",
-   "body": "Gnoll menace is not limited to the human south. In northern Lordaeron, the Scourge necromancer Thule Ravenclaw raises undead Rot Hide gnolls to dig up corpses across Tirisfal and Silverpine. Near Hillsbrad, the Mudsnout harvest foul, toxic blossoms among ruined farmsteads. Across the Great Sea in Kalimdor, the Palemane pack butchers game across Mulgore despite tauren efforts to make peace, while the Woodpaw of Feralas wage a desperate, frenzied war against encroaching silithid swarms.",
+   "body": "Gnolls threaten lands beyond the human south. In northern Lordaeron, the Scourge necromancer Thule Ravenclaw raises undead Rot Hide gnolls to dig up corpses across Tirisfal and Silverpine. Near Hillsbrad, the Mudsnout harvest foul, toxic blossoms among ruined farmsteads.\n\nAcross the Great Sea in Kalimdor, the Palemane pack butchers game across Mulgore despite tauren efforts to make peace. In Feralas, the Woodpaw wage a desperate, frenzied war against encroaching silithid swarms.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "gnoll race",
     "are gnolls hyenas"
    ],
-   "answer": "Gnolls are hyena-like humanoid carnivores known for their violent nature, physical endurance, and low cunning. They live in nomadic or semi-permanent camps, surviving mostly on plunder, hunting, and carrion."
+   "answer": "Gnolls are hyena-like humanoid carnivores, feared for their violence, endurance, and low cunning. They roam in nomadic or semi-permanent camps, living mostly on plunder, hunting, and carrion."
   },
   {
    "q": "Why don't gnolls form a proper kingdom?",
@@ -47,14 +47,14 @@
     "gnoll empire",
     "gnoll unity"
    ],
-   "answer": "Gnolls are fiercely belligerent and driven by immediate hierarchy. Without an exceptional and tyrannical warlord beating them into line, packs inevitably splinter into bloody territorial feuds, preventing long-term organization or civil progress."
+   "answer": "Gnolls follow fierce, immediate hierarchies. Without an exceptional, tyrannical warlord to beat them into line, packs splinter into bloody territorial feuds. Long-term organization and civil progress cannot take hold."
   },
   {
    "q": "What was the Gnoll War?",
    "aliases": [
     "stormwind gnoll war"
    ],
-   "answer": "Long before the First War, united gnoll packs waged war on the kingdom of Stormwind. The kingdom's armies prevailed, and Stormwind enjoyed a lasting peace afterward until the orcs came through the Dark Portal."
+   "answer": "Long before the First War, united gnoll packs waged war on the kingdom of Stormwind. Stormwind's armies prevailed, and the kingdom knew lasting peace until the orcs came through the Dark Portal."
   },
   {
    "q": "Why are gnolls working with the Defias Brotherhood?",
@@ -63,7 +63,7 @@
     "riverpaw defias",
     "hogger defias"
    ],
-   "answer": "The Riverpaw pack in Westfall and Elwynn collaborates with the Defias Brotherhood in exchange for arms, coordination, and shared spoils. The bandits use the gnolls as brute muscle to overrun farmlands and distract Stormwind's dwindling garrisons."
+   "answer": "The Riverpaw pack in Westfall and Elwynn colludes with the Defias Brotherhood for arms, coordination, and shared spoils. The bandits use the gnolls as brute muscle to overrun farmlands and distract Stormwind's dwindling garrisons."
   },
   {
    "q": "Are the Rot Hide gnolls alive?",
@@ -72,7 +72,7 @@
     "silverpine gnolls",
     "fenris isle gnolls"
    ],
-   "answer": "No. The Rot Hide gnolls prowling Tirisfal Glades and Silverpine Forest are undead thralls. They answer to Thule Ravenclaw, an exiled human necromancer using Fenris Isle as a redoubt to gather corpses for the Scourge."
+   "answer": "No. The Rot Hide gnolls in Tirisfal Glades and Silverpine Forest are undead thralls. They answer to Thule Ravenclaw, an exiled human necromancer who uses Fenris Isle as a redoubt to gather corpses for the Scourge."
   },
   {
    "q": "Why do tauren fight the Palemane gnolls?",
@@ -81,25 +81,25 @@
     "tauren and gnolls",
     "why kill palemane"
    ],
-   "answer": "When the tauren settled Mulgore, they attempted to coexist and communicate with the indigenous Palemane pack. The gnolls rebuffed all peaceful gestures, slaughtering the plains wildlife without restraint and threatening tauren villages."
+   "answer": "When the tauren settled Mulgore, they tried to coexist and communicate with the indigenous Palemane pack. The gnolls rebuffed every peaceful gesture, slaughtered plains wildlife without restraint, and threatened tauren villages."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "For humans of Stormwind, gnolls are an ancient enemy that once burned the kingdom's heartlands; today, packs like the Riverpaw and Shadowhide threaten the kingdom's vulnerable frontier roads."
+   "text": "For humans of Stormwind, gnolls are an ancient enemy who once burned the kingdom's heartlands. Today, packs like the Riverpaw and Shadowhide threaten the kingdom's vulnerable frontier roads."
   },
   {
    "target": "race:Tauren",
-   "text": "The Palemane tribe in Mulgore treats the land with careless cruelty, forcing young tauren braves to drive them back to preserve the balance of the plains."
+   "text": "As a tauren, you know the Palemane tribe treats Mulgore with careless cruelty. Young tauren braves must drive them back to preserve the balance of the plains."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance marshals across Elwynn, Westfall, Redridge, and the Wetlands rely heavily on freelance champions to thin out encroaching gnoll populations."
+   "text": "Alliance marshals across Elwynn, Westfall, Redridge, and the Wetlands rely heavily on freelance champions to thin the encroaching gnoll populations."
   },
   {
    "target": "race:Undead",
-   "text": "The Forsaken view gnolls either as an annoyance or a resource: the Mudsnout cultivate restorative fungi in Hillsbrad, while Sylvanas previously enslaved northern packs through banshee possession."
+   "text": "The Forsaken see gnolls as either an annoyance or a resource. In Hillsbrad, the Mudsnout cultivate restorative fungi, while Sylvanas previously enslaved northern packs through banshee possession."
   }
  ],
  "keywords": [
@@ -125,5 +125,6 @@
  ],
  "attribution": [
   "Gnoll"
- ]
+ ],
+ "style": 2
 }

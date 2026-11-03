@@ -24,16 +24,16 @@
    "Malin's Request"
   ]
  },
- "summary": "Skuerto gives you a sealed letter for Archmage Malin, who is found in Stormwind's Mage Quarter. It tells Malin that Kryten and Skuerto will be home soon, and Skuerto is certain Malin will repay you well for helping them in Arathi.",
+ "summary": "In Stormwind, Skuerto's letter carries news from Arathi to Archmage Malin. You are sent to the Mage Quarter with word that Kryten and Skuerto will soon be home.",
  "sections": [
   {
    "title": "A Letter for the Archmage",
-   "body": "After the work in Arathi, Skuerto hands you a letter to take back to Stormwind. Its message for Archmage Malin in the Mage Quarter is that Kryten and Skuerto will be home soon. Skuerto has no doubt that Malin will repay you well for helping them, and sends you off with a wish for a safe journey.",
+   "body": "After your work in Arathi, Skuerto gives you a sealed letter for Archmage Malin in Stormwind's Mage Quarter. It says Kryten and Skuerto will be home soon. Skuerto trusts Malin will repay you well for helping them and wishes you a safe journey.",
    "spoiler": 0
   },
   {
    "title": "Malin Reads the Letter",
-   "body": "When Malin opens the letter, his eyes grow wide. He is delighted, and says Trelane will be so pleased. He supposes Kryten and Skuerto share his excitement now that they are heading home to Stormwind.",
+   "body": "Archmage Malin opens Skuerto's letter, and his eyes grow wide. Delighted, he says Trelane will be pleased. Malin supposes Kryten and Skuerto share his excitement as they head home to Stormwind.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "who starts malins request",
     "malins request starter"
    ],
-   "answer": "Skuerto does. The letter tells Malin that he and Kryten will be home soon."
+   "answer": "Skuerto sends you with a letter for Malin. It says Kryten and Skuerto will be home soon."
   },
   {
    "q": "Where is Archmage Malin located?",
@@ -54,7 +54,7 @@
     "archmage malin location",
     "where do i turn this in"
    ],
-   "answer": "Archmage Malin is in the Mage Quarter of Stormwind."
+   "answer": "Archmage Malin is in Stormwind's Mage Quarter."
   },
   {
    "q": "Who is Kryten?",
@@ -62,7 +62,7 @@
     "who is kryten",
     "kryten arathi"
    ],
-   "answer": "Kryten is Skuerto's companion in the Arathi Highlands. Skuerto says the two of them will be home soon."
+   "answer": "Kryten is Skuerto's companion in the Arathi Highlands. Skuerto says they will be home soon."
   },
   {
    "q": "What comes before this step?",
@@ -71,7 +71,7 @@
     "prereq",
     "what leads to this"
    ],
-   "answer": "It follows Attack on the Tower, the work Skuerto asked of you at the tower in Arathi."
+   "answer": "This follows Attack on the Tower, the work Skuerto asked you to do at the tower in Arathi."
   }
  ],
  "angles": [],
@@ -95,5 +95,6 @@
  ],
  "attribution": [
   "Malin's Request (2)"
- ]
+ ],
+ "style": 2
 }

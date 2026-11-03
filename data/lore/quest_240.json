@@ -21,16 +21,16 @@
    "Return to Jitters"
   ]
  },
- "summary": "At Raven Hill, you bring Jitters a meal from Chef Grual. The cakes finally satisfy the hermit's desperate hunger.",
+ "summary": "At Raven Hill, you bring Jitters a meal from Chef Grual. The cakes ease his hunger, though fear still holds him there.",
  "sections": [
   {
    "title": "A Dubious Delicacy",
-   "body": "Chef Grual cooks at the Scarlet Raven Tavern, where Duskwood's lack of livestock and sea life leaves him to use what the blighted forest provides. His specialty, Dusky Crab Cakes, contain no crab meat. Instead, Grual uses gooey legs from venom web spiders that creep through the wood. He calls it resourceful cooking; delicate stomachs may disagree.",
+   "body": "Chef Grual cooks at the Scarlet Raven Tavern in Darkshire. With little livestock or sea life in Duskwood, he makes use of what the blighted forest provides. His Dusky Crab Cakes contain no crab meat. Instead, gooey legs from venom web spiders make up his specialty. Grual calls it resourceful cooking, though delicate stomachs may disagree.",
    "spoiler": 0
   },
   {
    "title": "Soothing Jitters' Nerves",
-   "body": "At Raven Hill, Jitters huddles in fear, unable to face whatever horrors drove him from the woods. Terror keeps him from hunting or foraging, and hunger deepens his distress. The warm cakes bring a rare moment of relief to the trembling vagrant. Desperate for food, he eats without asking what kind of crab Grual used.",
+   "body": "At Raven Hill, Jitters cowers in fear, unable to face the horrors that drove him from the woods. Terror keeps him from hunting or foraging, and hunger only deepens his distress. The warm cakes bring him a rare moment of relief. Desperate for food, he eats without asking what kind of crab Grual used.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "what are dusky crab cakes made of",
     "are they real crab"
    ],
-   "answer": "Dusky Crab Cakes contain no crab. Chef Grual uses gooey legs from local venom web spiders, seasoning them to mimic traditional seafood cakes."
+   "answer": "Dusky Crab Cakes contain no crab. Chef Grual uses gooey legs from local venom web spiders and seasons them to mimic traditional seafood cakes."
   },
   {
    "q": "Does Jitters know the cakes are made of spider goo?",
@@ -58,7 +58,7 @@
     "why is jitters starving",
     "why doesn't jitters hunt"
    ],
-   "answer": "Jitters is overwhelmed by fear after what he encountered in Duskwood's wild woods. Panic keeps him close to Raven Hill, where he depends on sympathetic travelers for food."
+   "answer": "Jitters is overwhelmed by fear after what he encountered in Duskwood's wild woods. Panic keeps him near Raven Hill, where he depends on sympathetic travelers for food."
   },
   {
    "q": "Who is Chef Grual?",
@@ -74,7 +74,7 @@
     "how to start jitters food quest",
     "jitters quest chain start"
    ],
-   "answer": "Jitters begins by asking for help with his hunger at Raven Hill in Jitters' Growling Gut. That leads you to hunt venom web spiders for Chef Grual, then return with the finished meal."
+   "answer": "Jitters asks for help with his hunger at Raven Hill in Jitters' Growling Gut. You hunt venom web spiders for Chef Grual, then return with the finished meal."
   },
   {
    "q": "Does Jitters recover after eating?",
@@ -88,7 +88,7 @@
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Chef Grual turns gooey venom web spider legs into palatable cakes, showing the resourcefulness cooking demands on the frontier."
+   "text": "Chef Grual turns gooey venom web spider legs into palatable cakes, showing how cooking draws on whatever the frontier provides."
   },
   {
    "target": "faction:Alliance",
@@ -114,5 +114,5 @@
  "attribution": [
   "Return to Jitters"
  ],
- "style": 1
+ "style": 2
 }

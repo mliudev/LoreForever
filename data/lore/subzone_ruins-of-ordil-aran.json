@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Ruins of Ordil'Aran"
  },
- "summary": "In northwestern Ashenvale, the Ruins of Ordil'Aran lie between Maestra's Post and Bathran's Haunt. Thistlefur furbolgs have overrun the ancient night elf settlement, once a hidden refuge for shadow cultists.",
+ "summary": "Between Maestra's Post and Bathran's Haunt, the Ruins of Ordil'Aran have fallen to Thistlefur furbolgs. The ancient night elf settlement once sheltered shadow cultists.",
  "sections": [
   {
    "title": "A Contested Ruin",
-   "body": "Weathered pillars and cracked arches are all that remain of Ordil'Aran's Kaldorei buildings. The Cult of the Dark Strand once hid among the stones, ambushing travelers on Ashenvale's northwestern paths. Recently, Thistlefur furbolgs drove the cultists out in a bloody takeover. Fallen Dark Strand practitioners still litter the ground, while the furbolgs patrol the perimeter and guard the ancient Heartswood tree within the ruins.",
+   "body": "Weathered pillars and cracked arches mark the old Kaldorei buildings. The Cult of the Dark Strand once hid among these stones and ambushed travelers on Ashenvale's northwestern paths. Recently, Thistlefur furbolgs drove the cultists out in a bloody takeover. Their fallen practitioners still lie across the ground. Now the furbolgs patrol the perimeter and guard the ancient Heartswood tree within the ruins.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "dark strand corpses",
     "why are cultists dead here"
    ],
-   "answer": "The Cult of the Dark Strand used the ruins as a base until Thistlefur furbolgs attacked and drove them out. Slain cultists remain strewn across the site."
+   "answer": "The Cult of the Dark Strand used the ruins as a base until Thistlefur furbolgs attacked and drove them out. Slain cultists still lie across the site."
   },
   {
    "q": "What is the Heartswood?",
@@ -56,7 +56,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you see the ruins defiled by corrupt furbolgs and dark cultists."
+   "text": "As a night elf, you find the ruins defiled by corrupt furbolgs and dark cultists."
   },
   {
    "target": "faction:Alliance",
@@ -86,5 +86,5 @@
  "attribution": [
   "Ruins of Ordil'Aran"
  ],
- "style": 1
+ "style": 2
 }

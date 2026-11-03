@@ -12,16 +12,16 @@
   "harvested": true,
   "level": "21"
  },
- "summary": "A horror stalks a cave on Thorn Hill in the Barrens, where the Razormane call it Chol'aruk the Ravener. Bainham seeks its severed head to avenge comrades lost to similar beasts.",
+ "summary": "On Thorn Hill in the Barrens, Chol'aruk the Ravener haunts a cave. Bainham seeks its severed head to avenge comrades slain by beasts like it.",
  "sections": [
   {
    "title": "Terror of Thorn Hill",
-   "body": "Northwest of Bainham's camp in the Barrens, Thorn Hill rises above the Savannah. Razormane tribes have long fought over the plateau. Now rumors speak of a monstrous abomination in one of its caves, called Chol'aruk or the Ravener by the Razormane. Some travelers dismiss tales that it can swallow an armored orc whole. Those who have seen the carnage know the danger is real.",
+   "body": "Northwest of Bainham's camp, Thorn Hill rises above the Barrens Savannah. The Razormane tribes have long fought over its plateau. Now a monstrous abomination is said to lurk in one of its caves. The Razormane call it Chol'aruk or the Ravener. Some travelers doubt the tale that it can swallow an armored orc whole. Those who have seen the carnage know the danger is real.",
    "spoiler": 0
   },
   {
    "title": "A Grudge Repaid",
-   "body": "Bainham knows Chol'aruk is no campfire tale. He has fought similar horrors and bears scars from those encounters, while mourning comrades who fell to such beasts. He fears the abomination threatens everyone crossing the Savannah. Bainham asks seasoned champions to climb Thorn Hill, enter its underground lair, slay Chol'aruk, and bring back its massive head.",
+   "body": "Bainham knows Chol'aruk is no campfire tale. He has fought similar horrors and carries scars from those encounters. His comrades fell to such beasts, and he still mourns them. He fears the abomination threatens everyone crossing the Savannah. Bainham asks seasoned champions to climb Thorn Hill, enter its underground lair, slay Chol'aruk, and bring back its massive head.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "cholaruk monster type",
     "who is the ravener"
    ],
-   "answer": "Chol'aruk is a monstrous abomination in a cave on Thorn Hill. Rumors say it is large enough to swallow a grown orc whole, and the local Razormane call it the Ravener."
+   "answer": "Chol'aruk is a monstrous abomination in a cave on Thorn Hill. Rumors say it can swallow a grown orc whole, and the Razormane call it the Ravener."
   },
   {
    "q": "Where is Chol'aruk's lair located?",
@@ -42,7 +42,7 @@
     "cholaruk location",
     "thorn hill cave"
    ],
-   "answer": "Chol'aruk lairs in a cave on the high plateau of Thorn Hill, northwest in the Barrens."
+   "answer": "Chol'aruk lairs in a cave on Thorn Hill's high plateau, northwest in the Barrens."
   },
   {
    "q": "Who is Bainham and why does he want Chol'aruk dead?",
@@ -51,7 +51,7 @@
     "why kill cholaruk",
     "bainham lore"
    ],
-   "answer": "Bainham lives in the Barrens and has fought similar beasts. He wants Chol'aruk dead because he lost allies to such abominations and seeks vengeance for his fallen comrades."
+   "answer": "Bainham lives in the Barrens and has fought beasts like Chol'aruk. He wants it dead to avenge the allies he lost to such abominations."
   },
   {
    "q": "What does 'The Ravener' mean?",
@@ -60,7 +60,7 @@
     "why called ravener",
     "razormane cholaruk"
    ],
-   "answer": "The local Razormane quilboar call Chol'aruk the Ravener, a name tied to its ravenous nature. Rumors say it devours full-grown warriors whole."
+   "answer": "The Razormane quilboar call Chol'aruk the Ravener, a name tied to its ravenous nature. Rumors say it devours full-grown warriors whole."
   },
   {
    "q": "Do the Razormane quilboar worship or fear Chol'aruk?",
@@ -68,7 +68,7 @@
     "do quilboar like cholaruk",
     "razormane and cholaruk"
    ],
-   "answer": "Whether the Razormane quilboar fear or worship Chol'aruk is unknown. They call it Chol'aruk or the Ravener, but nothing more is known of their feelings toward the abomination in Thorn Hill's cave."
+   "answer": "No one knows whether the Razormane quilboar fear or worship Chol'aruk. They call it Chol'aruk or the Ravener, but nothing more is known of their feelings toward the abomination in Thorn Hill's cave."
   },
   {
    "q": "What proof is required to confirm Chol'aruk's death?",
@@ -82,11 +82,11 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Unchecked monsters on the high plateaus threaten travelers and caravans crossing the Barrens. Slaying the beast would help protect the region."
+   "text": "Unchecked monsters on the high plateaus threaten travelers and caravans crossing the Barrens. Slaying this beast would help protect the region."
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, tracking a predator rumored to swallow fully armored warriors whole tests your skill and nerve."
+   "text": "As a hunter, tracking a predator rumored to swallow fully armored warriors whole will test your skill and nerve."
   },
   {
    "target": "class:Warrior",
@@ -109,5 +109,5 @@
  "attribution": [
   "In-game quest text: Chol'aruk the Ravener"
  ],
- "style": 1
+ "style": 2
 }

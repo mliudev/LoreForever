@@ -8,16 +8,16 @@
   "wiki": "Gorbold Steelhand",
   "refs": 1
  },
- "summary": "In Auberdine, Gorbold Steelhand keeps trade moving along Darkshore’s coast. The dwarven merchant brings goods from far across the Great Sea for travelers, crafters, and night elves.",
+ "summary": "In Auberdine, Gorbold Steelhand keeps trade moving along Darkshore’s coast. The dwarven merchant brings goods across the Great Sea for travelers, crafters, and night elves.",
  "sections": [
   {
    "title": "A Dwarven Trader in Kalimdor",
-   "body": "Gorbold Steelhand brings Ironforge trade to Auberdine. Night elves populate much of northern Kalimdor, so Alliance outposts depend on merchants who cross the Great Sea. Gorbold works alongside the kaldorei, selling trade goods, reagents, crafting supplies, and tools. Travelers come to him as they prepare to explore Darkshore’s dangerous shores and forests.",
+   "body": "Gorbold Steelhand carries Ironforge trade to Auberdine. Night elves live across much of northern Kalimdor, and Alliance outposts rely on merchants who cross the Great Sea. Gorbold works alongside the kaldorei, selling trade goods, reagents, crafting supplies, and tools. Travelers visit him before exploring Darkshore’s dangerous shores and forests.",
    "spoiler": 0
   },
   {
    "title": "Maritime Ventures",
-   "body": "Gorbold Steelhand watches the perilous waters off Auberdine as closely as his stock. Reefs along Darkshore have swallowed Alliance vessels, and lost cargo draws the merchant’s interest. Travelers who dive into the deep ocean may find him eager to hear about salvage and lost logs from sunken wrecks.",
+   "body": "Gorbold Steelhand keeps watch on the perilous waters off Auberdine as well as his stock. Reefs along Darkshore have swallowed Alliance vessels, and their lost cargo interests the merchant. Travelers who dive into the deep ocean may find him eager to hear of salvage and lost logs from sunken wrecks.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is gorbold steelhand",
     "dwarf in auberdine"
    ],
-   "answer": "Gorbold Steelhand is a dwarven merchant in Auberdine, the coastal port of Darkshore."
+   "answer": "Gorbold Steelhand is a dwarven merchant in Auberdine, Darkshore’s coastal port."
   },
   {
    "q": "What does Gorbold Steelhand sell?",
@@ -38,7 +38,7 @@
     "gorbold trade goods",
     "gorbold vendor list"
    ],
-   "answer": "Gorbold Steelhand sells general trade supplies, crafting ingredients, gathering tools, and reagents such as vials and thread for tradesfolk passing through Auberdine."
+   "answer": "Gorbold Steelhand sells trade supplies, crafting ingredients, gathering tools, and reagents such as vials and thread to tradesfolk passing through Auberdine."
   },
   {
    "q": "Why is an Ironforge dwarf living in Darkshore?",
@@ -47,7 +47,7 @@
     "why is gorbold in darkshore",
     "ironforge in auberdine"
    ],
-   "answer": "Auberdine connects Kalimdor to the Eastern Kingdoms as an Alliance transit hub. Dwarves travel there for commerce, exploration, and support of allied night elf operations."
+   "answer": "Auberdine links Kalimdor to the Eastern Kingdoms as an Alliance transit hub. Dwarves travel there for commerce, exploration, and to support allied night elf operations."
   },
   {
    "q": "Does Gorbold offer any quests?",
@@ -55,13 +55,13 @@
     "gorbold quest",
     "deep ocean vast sea quest giver"
    ],
-   "answer": "Yes. Gorbold Steelhand directs adventurers to recover lost ship cargo from sunken wreckage off Darkshore in 'Deep Ocean, Vast Sea'."
+   "answer": "Yes. Gorbold Steelhand sends adventurers to recover lost ship cargo from wreckage off Darkshore in 'Deep Ocean, Vast Sea'.:contentReference[oaicite:0]{index=0}"
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, seeing Gorbold Steelhand in Darkshore’s misty, nocturnal surroundings can remind you of home in Ironforge."
+   "text": "As a dwarf, Gorbold Steelhand in Darkshore’s misty, nocturnal surroundings may remind you of home in Ironforge."
   },
   {
    "target": "faction:Alliance",
@@ -87,5 +87,5 @@
  "attribution": [
   "Gorbold Steelhand"
  ],
- "style": 1
+ "style": 2
 }

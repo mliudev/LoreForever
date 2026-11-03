@@ -10,16 +10,16 @@
    "quest:831"
   ]
  },
- "summary": "Kul Tiras forces keep their coastal positions in Durotar, and Admiral Proudmoore's Orders lay out their plans. The documents were written before Daelin Proudmoore fell at Theramore and describe a campaign against the Horde.",
+ "summary": "Kul Tiras forces still hold the coast in Durotar, guided by Admiral Proudmoore's Orders. Written before Daelin Proudmoore fell at Theramore, the papers describe a campaign against the Horde.",
  "sections": [
   {
    "title": "A Legacy of Hatred",
-   "body": "Admiral Proudmoore's Orders show that the Kul Tiras forces at Tiragarde Keep still mean to fight. Lieutenant Benedict's garrison holds the papers, which detail long-term maneuvers and fortifications against the Horde. The plans show that Daelin Proudmoore's offensive in Durotar was an organized campaign, built to continue after his death. For the Horde, the documents reveal Kul Tiras operations and possible reinforcements threatening its borders.",
+   "body": "At Tiragarde Keep, Kul Tiras forces still mean to fight. Lieutenant Benedict's garrison holds papers detailing long-term maneuvers and fortifications against the Horde. Daelin Proudmoore's offensive in Durotar was an organized campaign, planned to continue after his death. For the Horde, these papers reveal Kul Tiras operations and possible reinforcements along its borders.",
    "spoiler": 0
   },
   {
    "title": "Delivery to Grommash Hold",
-   "body": "Horde scouts send the recovered orders to Grommash Hold in Orgrimmar. They deliver them to Nazgrel in Thrall's chamber, where the plans support Nazgrel's warning that humans cannot be trusted and remain an active danger. Horde leaders now have reason to prepare for more attacks along the coast.",
+   "body": "Horde scouts carry the recovered orders to Grommash Hold in Orgrimmar. They bring them to Nazgrel in Thrall's chamber. The plans support Nazgrel's warning that humans cannot be trusted and remain an active danger. Horde leaders now have reason to prepare for more attacks along the coast.",
    "spoiler": 1
   }
  ],
@@ -64,7 +64,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For the Horde, these documents support those who argued that human truces would not last. They show Kul Tiras forces intended a war of extermination from the moment they landed."
+   "text": "For the Horde, these papers support those who argued that human truces would not last. They show Kul Tiras forces intended a war of extermination from the moment they landed."
   },
   {
    "target": "race:Troll",
@@ -94,5 +94,5 @@
   "Admiral Proudmoore's Orders",
   "The Admiral's Orders (2)"
  ],
- "style": 1
+ "style": 2
 }

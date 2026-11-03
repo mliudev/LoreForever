@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Rebel Camp"
  },
- "summary": "Tucked just off the road in northern Stranglethorn Vale, the Rebel Camp serves as a fortified refuge for Alliance soldiers who broke away from Colonel Kurzen. Led by Lieutenant Doren, these troops refused to surrender to the madness gripping their commander's expedition and now fight to survive and undo his descent into tyranny.",
+ "summary": "At Rebel Camp, Alliance soldiers hold a fortified refuge in northern Stranglethorn Vale. Lieutenant Doren leads those who broke from Colonel Kurzen and now fight to survive and end his tyranny.",
  "sections": [
   {
    "title": "A Stand Against Madness",
-   "body": "When Colonel Kurzen's expedition pushed deep into the jungles of Stranglethorn Vale on behalf of Stormwind, things rapidly fell apart. Afflicted by the dark jungle magic and the curse of the ogre mage Mai'Zoth, the Colonel and his core loyalists succumbed to madness, turning rogue and terrorizing the wilds. A handful of sound-minded soldiers led by Lieutenant Doren refused to participate in the atrocities. Breaking away from Kurzen's Compound, they established this hidden camp in the north to stage a desperate guerrilla campaign against their former comrades.",
+   "body": "Colonel Kurzen's expedition pushed deep into Stranglethorn Vale on Stormwind's behalf. But the jungle turned against it. Dark magic and the curse of the ogre mage Mai'Zoth drove Kurzen and his closest loyalists mad. They went rogue and terrorized the wilds.\n\nLieutenant Doren led the handful who kept their minds. They refused to join the atrocities and broke from Kurzen's Compound before building a hidden camp in the north. From there, they wage a desperate guerrilla campaign against their former comrades.",
    "spoiler": 0
   },
   {
    "title": "Holding the Line",
-   "body": "Perched precariously near the Duskwood border, the Rebel Camp operates under constant threat. Cut off from regular Stormwind relief, Doren relies on covert supplies and defensive armaments\u2014including goblin explosives brokered through Booty Bay\u2014to hold the perimeter against Kurzen's raiding parties. For Alliance travelers venturing south into the savage jungle, the encampment provides a vital first foothold of sanity.",
+   "body": "Near the Duskwood border, the Rebel Camp perches precariously under constant threat. Stormwind sends no regular relief, so Doren relies on covert supplies and defensive arms to hold the perimeter against Kurzen's raiding parties. Goblin explosives brokered through Booty Bay help fortify the camp.\n\nFor Alliance travelers heading south into the savage jungle, the camp is a vital first foothold of sanity.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who are these soldiers",
     "rebel camp alliance"
    ],
-   "answer": "They are former Stormwind soldiers who were part of Colonel Kurzen's expedition into Stranglethorn Vale. When Kurzen and his inner circle fell into madness and tyranny, Lieutenant Doren led this faction in mutiny to escape and oppose them."
+   "answer": "The rebels are former Stormwind soldiers from Colonel Kurzen's expedition into Stranglethorn Vale. When Kurzen and his inner circle fell to madness and tyranny, Lieutenant Doren led them in mutiny so they could escape and oppose their former commander."
   },
   {
    "q": "Why is it called the Rebel Camp if they are loyal to Stormwind?",
@@ -37,7 +37,7 @@
     "are they traitors",
     "who did they rebel against"
    ],
-   "answer": "They are considered rebels only against Colonel Kurzen's command structure. Kurzen was their commanding officer, so defying his orders was technically mutiny, even though they remain loyal to the Alliance and Stormwind."
+   "answer": "They rebelled against Colonel Kurzen's command, not Stormwind. Since Kurzen commanded them, defying his orders counted as mutiny, though they remain loyal to the Alliance and Stormwind."
   },
   {
    "q": "How does the camp survive without official Stormwind support?",
@@ -46,7 +46,7 @@
     "where do they get food",
     "rebel camp logistics"
    ],
-   "answer": "Operating far from official supply lines, Lieutenant Doren relies on resourceful back-channel connections, including trade with contacts like Krazek down in Booty Bay, who supplies land mines and vital gear to fortify the camp's defenses."
+   "answer": "Lieutenant Doren keeps the camp supplied through covert connections beyond official supply lines. Krazek in Booty Bay provides land mines and vital gear to strengthen its defenses."
   },
   {
    "q": "Where is Colonel Kurzen located?",
@@ -55,17 +55,17 @@
     "where is kurzen",
     "kurzens compound"
    ],
-   "answer": "Kurzen and his deranged followers occupy Kurzen's Compound, a fortified base situated directly southeast of the Rebel Camp."
+   "answer": "Kurzen and his deranged followers occupy Kurzen's Compound, a fortified base directly southeast of the Rebel Camp."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The Rebel Camp is your primary staging ground and safest haven when crossing south over the bridge from Duskwood into Stranglethorn Vale."
+   "text": "The Rebel Camp is your main staging ground and safest haven as you cross south from Duskwood over the bridge into Stranglethorn Vale."
   },
   {
    "target": "race:Human",
-   "text": "Watching fellow Stormwind regulars unravel in the jungle is a sobering sight, and Lieutenant Doren desperately needs fellow subjects of the kingdom to help put an end to Kurzen's disgraced outfit."
+   "text": "As a human, seeing fellow Stormwind regulars unravel in the jungle is sobering. Lieutenant Doren needs fellow subjects of the kingdom to help end Kurzen's disgraced outfit."
   }
  ],
  "keywords": [
@@ -90,5 +90,6 @@
  ],
  "attribution": [
   "Rebel Camp"
- ]
+ ],
+ "style": 2
 }

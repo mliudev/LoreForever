@@ -17,16 +17,16 @@
   "wiki": "Samophlange (Classic 3)",
   "chain": []
  },
- "summary": "At the Sludge Fen, the Venture Company’s machinery waits with its valves shut and its pressure relieved. Tinkerer Sniggles holds the key to open the control unit and free the samophlange within.",
+ "summary": "At the Sludge Fen, Samophlange machinery sits idle, its pressure relieved and valves shut. Tinkerer Sniggles holds the key to open the control unit and free the samophlange within.",
  "sections": [
   {
    "title": "Unlocking the Mechanism",
-   "body": "You have relieved the pressure by turning the auxiliary valves, and the dials and gauges have settled. The housing remains locked against tampering. Its key rests with the goblin engineer overseeing the drilling site.",
+   "body": "You have turned the auxiliary valves and relieved the pressure. The dials and gauges have settled, but the housing remains locked against tampering. The goblin engineer overseeing the drilling site holds its key.",
    "spoiler": 0
   },
   {
    "title": "Tinkerer Sniggles",
-   "body": "Tinkerer Sniggles oversees the Venture Company’s equipment at the Sludge Fen. He keeps the console key in a hut just northeast of the main rig. You need that key to open the housing and reach the samophlange.",
+   "body": "Tinkerer Sniggles oversees the Venture Company’s equipment at the Sludge Fen. His hut lies just northeast of the main rig, and he keeps the console key there. You need it to open the housing and reach the samophlange.",
    "spoiler": 0
   },
   {
@@ -52,7 +52,7 @@
     "what does key open",
     "how to use console key"
    ],
-   "answer": "The Console Key unlocks the main control terminal at the Sludge Fen and cuts the remaining power, allowing you to remove the samophlange inside."
+   "answer": "The Console Key unlocks the main control terminal at the Sludge Fen and cuts the remaining power. Then you can remove the samophlange inside."
   },
   {
    "q": "Why did the console need to be shut down before using the key?",
@@ -60,7 +60,7 @@
     "why shut down first",
     "valves before key"
    ],
-   "answer": "First, the apparatus valves had to be vented so the machinery would idle. Handling it under full pressure would be hazardous."
+   "answer": "The apparatus valves had to be vented first so the machinery would idle. Handling it under full pressure would be hazardous."
   },
   {
    "q": "Who does Tinkerer Sniggles work for?",
@@ -112,5 +112,5 @@
  "attribution": [
   "Samophlange (Classic 3)"
  ],
- "style": 1
+ "style": 2
 }

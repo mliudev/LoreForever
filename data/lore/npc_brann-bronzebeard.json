@@ -8,21 +8,21 @@
   "wiki": "Brann Bronzebeard",
   "refs": 4
  },
- "summary": "Brann Bronzebeard is the youngest brother of King Magni and Muradin, who is believed dead, renowned throughout Azeroth as a peerless explorer, archaeologist, and founding leader of the Explorers' League. Driven by an insatiable curiosity for titan ruins and ancient history, his wanderlust has led him deep into the deadly wastes of Silithus. His field companions in southern Silithus await news of his latest expedition.",
+ "summary": "In southern Silithus, Brann Bronzebeard's companions wait for word from his latest expedition. The youngest brother of King Magni and Muradin is famed across Azeroth as an explorer, archaeologist, and founding leader of the explorers' league. His search for titan ruins and ancient history has led him deep into the deadly wastes.",
  "sections": [
   {
    "title": "A Royal Wanderer",
-   "body": "While his eldest brother Magni rules Ironforge from the throne and Muradin served on battlefield frontlines, Brann took to the open wilds. He was a veteran warrior of the Second War. Yet peacetime turned his formidable constitution toward uncovering the forgotten past. As a leader of the Explorers' League, Brann charted vast swathes of the Eastern Kingdoms—from Elwynn Forest to the untamed jungles of Zul'Gurub—before turning his gaze across the Great Sea to the mysteries of ancient Kalimdor.",
+   "body": "Brann Bronzebeard chose the open wilds while his eldest brother Magni ruled Ironforge and Muradin served on the front lines. A veteran of the Second War, Brann turned his strength toward the forgotten past when peace came. As a leader of the explorers' league, he charted the Eastern Kingdoms, from Elwynn Forest to the jungles of Zul'Gurub. Then he crossed the Great Sea to seek the mysteries of ancient Kalimdor.",
    "spoiler": 0
   },
   {
    "title": "Trouble in Silithus",
-   "body": "Drawn south by reports from the Cenarion Circle concerning the Old God C'Thun and the slumbering qiraji swarm, Brann established the Bronzebeard Encampment in southern Silithus alongside fellow explorers Rutgar Glyphshaper and Frankal Stonebridge. Tragedy struck when the priestess Natalia Mar'alith, maddened by the whispering horrors of the shifting sands, raided their camp. When Brann refused her demand to lead them back into Hive'Regal, she went mad and attacked, and Brann, his crew, and his pet ape Glibb only barely fought her off.",
+   "body": "Reports from the Cenarion Circle spoke of the Old God C'Thun and the slumbering qiraji swarm. They drew Brann south to Silithus, where he founded Bronzebeard Encampment with Rutgar Glyphshaper and Frankal Stonebridge.\n\nThe priestess Natalia Mar'alith had gone mad from horrors whispering in the shifting sands. She raided their camp and demanded Brann lead them back into Hive'Regal. Brann refused, and she attacked. He, his crew, and his pet ape Glibb barely fought her off.",
    "spoiler": 1
   },
   {
    "title": "Beyond the Scarab Wall",
-   "body": "Rather than retreating after the terrifying assault, the intrepid archaeologist became obsessed with entering the sealed kingdom behind the Scarab Wall. Brann discovered a hidden subterranean tunnel that bypassed the ancient barrier entirely and ventured inside alone, leaving Glibb in the care of his expedition with strict written orders to provide the ape with plenty of food, water, and affectionate hugs. His companions remain stranded in southern Silithus, desperately awaiting word from within the silithid hives.",
+   "body": "Brann Bronzebeard set his sights on the sealed kingdom behind the Scarab Wall. He found a hidden tunnel beneath the ancient barrier and entered alone. Before leaving, he gave Glibb to the expedition with strict written orders: plenty of food, water, and affectionate hugs.\n\nRutgar Glyphshaper and Frankal Stonebridge remain in southern Silithus. They wait for word from Brann within the silithid hives.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "brann lore",
     "brann bronzebeard backstory"
    ],
-   "answer": "He is the youngest brother of King Magni Bronzebeard of Ironforge and a co-founder and driving force behind the dwarven Explorers' League. Rather than sitting in council chambers, Brann is a legendary archaeologist and cartographer who travels Azeroth's most dangerous frontiers to uncover titan artifacts and lost civilizations."
+   "answer": "Brann Bronzebeard is the youngest brother of King Magni Bronzebeard of Ironforge and a co-founder and driving force of the dwarven explorers' league. A renowned archaeologist and cartographer, he travels Azeroth's most dangerous frontiers in search of titan artifacts and lost civilizations."
   },
   {
    "q": "Where is Brann Bronzebeard right now?",
@@ -43,7 +43,7 @@
     "where to find brann",
     "where is brann in silithus"
    ],
-   "answer": "His trail leads to Silithus, where Rutgar Glyphshaper and Frankal Stonebridge maintain the Bronzebeard Encampment. They may have information about his latest expedition."
+   "answer": "Brann Bronzebeard's trail leads to Silithus, where Rutgar Glyphshaper and Frankal Stonebridge keep Bronzebeard Encampment. They may know about his latest expedition."
   },
   {
    "q": "What happened to his camp in Silithus?",
@@ -52,7 +52,7 @@
     "who attacked brann's camp",
     "natalia attack brann"
    ],
-   "answer": "Rutgar Glyphshaper and Frankal Stonebridge have troubling news about the expedition. Speaking with them reveals what happened at the camp."
+   "answer": "Rutgar Glyphshaper and Frankal Stonebridge have troubling news about Brann Bronzebeard's expedition. Speak with them to learn what happened at the camp."
   },
   {
    "q": "Who is Glibb?",
@@ -61,7 +61,7 @@
     "brann's monkey",
     "brann pet"
    ],
-   "answer": "Glibb is Brann Bronzebeard's companion ape, staying with the explorers at Bronzebeard Encampment in Silithus."
+   "answer": "Glibb is Brann Bronzebeard's companion ape. He is staying with the explorers at Bronzebeard Encampment in Silithus."
   },
   {
    "q": "Did Brann fight in the Second War?",
@@ -70,7 +70,7 @@
     "was brann in the alliance army",
     "brann and muradin war"
    ],
-   "answer": "Yes. Brann is a veteran of the Second War, though in peacetime he turned his strength toward uncovering the forgotten past."
+   "answer": "Yes. Brann Bronzebeard is a veteran of the Second War. In peacetime, he turned his strength toward uncovering the forgotten past."
   },
   {
    "q": "Why is Brann interested in Silithus?",
@@ -79,17 +79,17 @@
     "brann silithus purpose",
     "brann c'thun"
    ],
-   "answer": "Brann was drawn to the desert by Cenarion Circle whispers concerning the Old God C'Thun, titan history, and the trapped qiraji empire, prompting him to find a way beyond the sealed Scarab Wall to inspect the ruins first-hand."
+   "answer": "Reports from the Cenarion Circle about the Old God C'Thun and the slumbering qiraji swarm drew Brann Bronzebeard to Silithus. His interest in titan history led him to seek a way beyond the sealed Scarab Wall and inspect the ruins firsthand."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As the youngest brother of King Magni, Brann embodies the dwarven passion for digging into the roots of their titan heritage."
+   "text": "As a dwarf, you can see Brann Bronzebeard's passion for uncovering the roots of his people's titan heritage. He is the youngest brother of King Magni."
   },
   {
    "target": "faction:Alliance",
-   "text": "Brann's expeditionary work directly fuels the knowledge and archives of the Alliance, though his habit of vanishing without a trace often drives Ironforge's leadership to distraction."
+   "text": "As an Alliance member, you benefit from the knowledge and archives Brann Bronzebeard's expeditions build. His habit of vanishing without a trace often frustrates Ironforge's leadership."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Brann Bronzebeard"
- ]
+ ],
+ "style": 2
 }

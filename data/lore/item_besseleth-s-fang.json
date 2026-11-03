@@ -10,11 +10,11 @@
    "quest:6284"
   ]
  },
- "summary": "In Sishir Canyon, Besseleth's Fang marks the end of a deadly spider's threat.",
+ "summary": "In Sishir Canyon, Besseleth's Fang brings an end to the spider's deadly threat.",
  "sections": [
   {
    "title": "Trophy of the Canyon Stalker",
-   "body": "Besseleth and her brood make Sishir Canyon dangerous for travelers. At night, the giant spider turns the Webwinder Path into a death trap for those crossing the gorge. Her fang measures nearly two feet and drips with potent venom. Local defenders have suffered her venomous strikes, and presenting the fang brings them relief.",
+   "body": "Besseleth and her brood make Sishir Canyon perilous for travelers. At night, the giant spider turns the Webwinder Path into a death trap for those crossing the gorge. Her fang is nearly two feet long and drips with potent venom. Local defenders have suffered her venomous strikes, so its arrival brings them relief.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who wants besseleth's fang",
     "fang turn in"
    ],
-   "answer": "The fang proves that Besseleth, the spider matriarch, has been slain. Maggran Earthbinder at Sun Rock Retreat placed a bounty on her after surviving a near-fatal attack by her fangs, and rewards anyone who brings him the trophy."
+   "answer": "The fang proves that Besseleth, the spider matriarch, has been slain. Maggran Earthbinder at Sun Rock Retreat placed a bounty on her after surviving a near-fatal attack by her fangs. He rewards anyone who brings him the trophy."
   },
   {
    "q": "Where does this fang come from?",
@@ -35,7 +35,7 @@
     "where is besseleth",
     "besseleth location"
    ],
-   "answer": "The fang comes from Besseleth, a giant predatory spider dwelling inside Sishir Canyon. The canyon lies west of the main road south of Windshear Crag in the Stonetalon Mountains."
+   "answer": "Besseleth, a giant predatory spider dwelling inside Sishir Canyon, is the source of the fang. The canyon lies west of the main road south of Windshear Crag in the Stonetalon Mountains."
   },
   {
    "q": "Why did Maggran Earthbinder want Besseleth dead?",
@@ -44,7 +44,7 @@
     "maggran bounty spider",
     "why bounty on besseleth"
    ],
-   "answer": "Besseleth and her brood prey on travelers heading along the roads toward Sun Rock Retreat, especially at night. After Besseleth ambushed and wounded him with her fangs, Maggran Earthbinder issued a bounty to secure the trails."
+   "answer": "Besseleth and her brood prey on travelers heading along the roads toward Sun Rock Retreat, especially at night. After she ambushed and wounded him with her fangs, Maggran Earthbinder issued a bounty to secure the trails."
   },
   {
    "q": "Who posted the bounty for the fang?",
@@ -88,5 +88,5 @@
   "Besseleth's Fang",
   "Arachnophobia (quest)"
  ],
- "style": 1
+ "style": 2
 }

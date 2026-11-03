@@ -8,11 +8,11 @@
   "wiki": "Doras",
   "refs": 2
  },
- "summary": "Above Orgrimmar, Doras directs the Horde's wind riders across Kalimdor. He oversees the capital's wyverns, sending couriers, scouts, and travelers on their way.",
+ "summary": "Above Orgrimmar, Doras sends wind riders across Kalimdor. He oversees the capital's wyverns, carrying couriers, scouts, and travelers to distant places.",
  "sections": [
   {
    "title": "Master of the Skyway",
-   "body": "Doras tends the wind riders on a wooden platform above the Valley of Strength. The Horde settled in Durotar, and these clever, leathery-winged beasts became its chief means of communication and travel across Kalimdor. Doras pairs resting mounts with riders and sees that important messages and reinforcements reach distant outposts. Their routes reach the Crossroads, Thunder Bluff, and settlements deep in Ashenvale or Dustwallow Marsh.",
+   "body": "Doras tends the wind riders on a wooden platform above the Valley of Strength. Since the Horde settled in Durotar, these clever, leathery-winged beasts have carried messages and travelers across Kalimdor. Doras pairs resting mounts with riders and sees that important messages and reinforcements reach distant outposts. Their routes lead to the Crossroads and Thunder Bluff, and to settlements deep in Ashenvale or Dustwallow Marsh.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "where is orgrimmar flight master",
     "orgrimmar wyvern master"
    ],
-   "answer": "Doras waits atop the flight tower overlooking Orgrimmar's Valley of Strength. Take the winding ramps up the central timber structures near the city entrance to reach his roost."
+   "answer": "Doras waits atop the flight tower overlooking Orgrimmar's Valley of Strength. Follow the winding ramps up the central timber structures near the city entrance to reach his roost."
   },
   {
    "q": "What creatures does Doras train?",
@@ -42,7 +42,7 @@
     "where can i fly from orgrimmar",
     "orgrimmar flight routes"
    ],
-   "answer": "Doras sends travelers from Orgrimmar to Horde outposts across central and northern Kalimdor. These include the Crossroads in the Barrens, Thunder Bluff in Mulgore, and military camps in Ashenvale and beyond."
+   "answer": "Doras sends travelers from Orgrimmar to Horde outposts across central and northern Kalimdor. Routes include the Crossroads in the Barrens, Thunder Bluff in Mulgore, and military camps in Ashenvale and beyond."
   }
  ],
  "angles": [
@@ -71,5 +71,5 @@
  "attribution": [
   "Doras"
  ],
- "style": 1
+ "style": 2
 }

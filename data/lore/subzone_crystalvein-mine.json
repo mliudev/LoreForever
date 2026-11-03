@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Crystalvein Mine"
  },
- "summary": "Crystalvein Mine is a cavern in central Stranglethorn Vale, situated near the ancient ruins of Zul'Mamwe. The cavern is rich in valuable 'Singing Crystals', but aggressive native basilisks have completely overrun the site, turning prospective miners to solid stone.",
+ "summary": "In central Stranglethorn Vale, prospectors risk the basilisks of Crystalvein Mine for its Singing Crystals. The cavern lies near the ancient ruins of Zul'Mamwe, and the creatures inside have overrun the site and turned miners to stone.",
  "sections": [
   {
    "title": "A Lucrative Trap",
-   "body": "Tucked away in the jungle hills near Zul'Mamwe, Crystalvein Mine boasts rare deposits of Singing Crystals, a unique mineral that fetches a high price in southern trade ports. Enticed by the promise of immense profit, the Venture Company set its sights on extracting the veins. However, the mine's natural inhabitants have proved catastrophic for business. Local basilisks consume the strange crystals, hardening their scales and making them unnaturally lethal. Outside the cave mouth, petrified statues of trolls and humans stand as a silent testament to the Venture Company's failed expeditions.",
+   "body": "Near Zul'Mamwe, Crystalvein Mine cuts into the jungle hills. Its Singing Crystals fetch a high price in southern trade ports, so the Venture Company came to work the valuable veins.\n\nThe mine's native basilisks have made that work perilous. They eat the strange crystals, which harden their scales and make them unnaturally lethal. Petrified trolls and humans outside the cave mouth mark the failure of the Venture Company's expeditions.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is in crystalvein mine",
     "singing crystals"
    ],
-   "answer": "The mine holds deposits of rare 'Singing Crystals', a lucrative mineral found only in Stranglethorn Vale. Goblins such as Crank Fizzlebub prize them for their acoustic and monetary worth, driving prospectors to brave the dangerous caverns."
+   "answer": "Crystalvein Mine holds rare Singing Crystals, a valuable mineral found only in Stranglethorn Vale. Goblins such as Crank Fizzlebub prize their sound and worth, drawing prospectors into the dangerous caverns."
   },
   {
    "q": "Why are there stone statues outside the mine?",
@@ -32,7 +32,7 @@
     "crystallized trolls crystalvein",
     "stone bodies stranglethorn"
    ],
-   "answer": "The statues are the petrified remains of unfortunate troll locals and Venture Company laborers. The resident basilisks feed on the resonant crystals, enhancing their stony hides and petrifying anyone foolish enough to encroach on their feeding grounds."
+   "answer": "The statues are petrified troll locals and Venture Company laborers. The basilisks feed on the resonant crystals, hardening their hides and turning intruders to stone."
   },
   {
    "q": "Who controls Crystalvein Mine right now?",
@@ -41,13 +41,13 @@
     "crystalvein faction",
     "venture co crystalvein"
    ],
-   "answer": "Though the Venture Company claimed rights to exploit the cavern, they do not actually hold it. The basilisk infestation is so intense that the goblins have been unable to establish active mining operations within the depths."
+   "answer": "The Venture Company claimed the right to exploit Crystalvein Mine, but the basilisks keep it from them. The goblins have been unable to establish active mining operations in the cavern's depths."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "Miners drawn by the promise of Singing Crystals must tread carefully, as the cave's native basilisk population makes prospecting here among the most dangerous endeavors in Stranglethorn."
+   "text": "If you are a miner drawn by Singing Crystals, tread carefully. The native basilisks make prospecting here one of Stranglethorn's most dangerous endeavors."
   }
  ],
  "keywords": [
@@ -66,5 +66,6 @@
  ],
  "attribution": [
   "Crystalvein Mine"
- ]
+ ],
+ "style": 2
 }

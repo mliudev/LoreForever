@@ -17,16 +17,16 @@
   "wiki": "The Affray",
   "chain": []
  },
- "summary": "On Fray Island, warriors face a trial before Klannoc Macleod will train them. The Affray pits them against island challengers and their champion.",
+ "summary": "On Fray Island, warriors face challengers before Klannoc Macleod will train them. The Affray tests their strength against the island’s fighters and its champion.",
  "sections": [
   {
    "title": "A Proving Ground in the Great Sea",
-   "body": "Fray Island lies apart from the mainland, drawing brawlers, outcasts, and combat instructors. Klannoc Macleod does not teach every wanderer who arrives by boat. Aspiring warriors must first enter the Affray, where stamina and awareness in battle prove who can fight beyond mere boasting.",
+   "body": "Fray Island lies apart from the mainland and draws brawlers, outcasts, and combat instructors. Klannoc Macleod does not train every wanderer who arrives by boat. Warriors seeking his lessons must enter the Affray first. There, their stamina and awareness in battle show whether they can fight beyond mere boasting.",
    "spoiler": 0
   },
   {
    "title": "The Circle of Iron and Blood",
-   "body": "A warrior begins the Affray by stepping onto the central iron grate among the spectators. Ringmaster Twiggy Flathead then sends challengers into the ring one after another. Those who survive face the island's heavyweight champion, Big Will. Defeating him is the only way to earn Klannoc's respect.",
+   "body": "A warrior begins the Affray by stepping onto the central iron grate among the spectators. Then Ringmaster Twiggy Flathead sends challengers into the ring one after another. Those who survive face the island’s heavyweight champion, Big Will. Only by defeating him can a warrior earn Klannoc’s respect.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what is the affray",
     "fray island arena"
    ],
-   "answer": "The Affray tests aspiring warriors in a series of arena fights on Fray Island. Klannoc Macleod uses it to judge whether they are ready for advanced combat training."
+   "answer": "The Affray tests aspiring warriors in a series of arena fights on Fray Island. Klannoc Macleod judges whether they are ready for advanced combat training."
   },
   {
    "q": "Where does the Affray take place?",
@@ -46,7 +46,7 @@
     "where is the affray",
     "affray location"
    ],
-   "answer": "The Affray takes place on Fray Island, off the eastern coast of the Barrens in the Great Sea."
+   "answer": "The Affray takes place on Fray Island, off the Barrens’ eastern coast in the Great Sea."
   },
   {
    "q": "Who organizes the trial?",
@@ -54,7 +54,7 @@
     "who runs the affray",
     "affray organizer"
    ],
-   "answer": "Warrior trainer Klannoc Macleod oversees the island's fighters and sets the trial. Twiggy Flathead directs the bouts from the edge of the pit."
+   "answer": "Warrior trainer Klannoc Macleod oversees the island’s fighters and sets the trial. Twiggy Flathead directs the bouts from the edge of the pit."
   },
   {
    "q": "How does the combat in the ring work?",
@@ -72,7 +72,7 @@
     "who is big will",
     "fray island champion"
    ],
-   "answer": "Big Will is the reigning champion of Fray Island's brawlers. Defeating him is the final requirement to pass the Affray."
+   "answer": "Big Will is the reigning champion of Fray Island’s brawlers. Defeating him is the final requirement to pass the Affray."
   },
   {
    "q": "Why must warriors complete this trial?",
@@ -80,13 +80,13 @@
     "why do the affray",
     "affray purpose"
    ],
-   "answer": "Klannoc Macleod will not teach his martial techniques until a warrior proves their toughness in combat against multiple opponents."
+   "answer": "Klannoc Macleod will not teach his martial techniques until a warrior proves their toughness against multiple opponents."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you face the Affray as a trial of your battle stances and endurance. Proving yourself there opens the way to deeper mastery of your craft."
+   "text": "As a warrior, you face the Affray to prove your battle stances and endurance. Show your worth there, and Klannoc Macleod will consider you for deeper mastery of your craft."
   }
  ],
  "keywords": [
@@ -108,5 +108,5 @@
  "attribution": [
   "The Affray"
  ],
- "style": 1
+ "style": 2
 }

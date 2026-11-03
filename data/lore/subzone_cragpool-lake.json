@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Cragpool Lake"
  },
- "summary": "At Cragpool Lake, the Venture Company’s timber structure looms over the dark water in Windshear Crag.",
+ "summary": "In Windshear Crag, the Venture Company’s timberworks hang above Cragpool Lake and its dark water.",
  "sections": [
   {
    "title": "Industrial Encroachment",
-   "body": "Cragpool Lake lies beneath a vast timber structure built by the Venture Company in Windshear Crag. Platforms cross above the water, where Gerenzo Wrenchwhistle watches operations across the mountain valley. Venture Company workers occupy the platforms overhead.",
+   "body": "At Cragpool Lake, Venture Company platforms cross above the water beneath a vast timber structure. Gerenzo Wrenchwhistle watches operations across the mountain valley. Company workers occupy the platforms overhead.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "cragpool scaffolding",
     "cragpool bridge"
    ],
-   "answer": "The Venture Company built a vast wooden structure over the lake to manage its logging and mining in Windshear Crag. Platforms and heavy machinery span the water."
+   "answer": "The Venture Company built a vast wooden structure over Cragpool Lake to manage its logging and mining in Windshear Crag. Platforms and heavy machinery span the water."
   },
   {
    "q": "Who oversees the operations at Cragpool Lake?",
@@ -32,14 +32,14 @@
     "who is the boss here",
     "gerenzo wrenchwhistle"
    ],
-   "answer": "Gerenzo Wrenchwhistle oversees the operations at Cragpool Lake. The Venture Company operative watches deforestation and resource extraction across Windshear Crag from the high scaffolding."
+   "answer": "Gerenzo Wrenchwhistle oversees operations at Cragpool Lake. From the high scaffolding, the Venture Company operative watches deforestation and resource extraction across Windshear Crag."
   },
   {
    "q": "What dangers surround Cragpool Lake?",
    "aliases": [
     "what is in cragpool lake"
    ],
-   "answer": "Venture Company workers operate on the platforms above the lake. Their armed presence makes the site dangerous for intruders."
+   "answer": "Venture Company workers operate on the platforms above Cragpool Lake. Their armed presence makes the site dangerous for intruders."
   },
   {
    "q": "Has the Venture Company abandoned Cragpool Lake?",
@@ -47,13 +47,13 @@
     "is venture company gone",
     "who lives at cragpool lake"
    ],
-   "answer": "No. Venture Company workers and Gerenzo Wrenchwhistle occupy the structure above the lake."
+   "answer": "No. Venture Company workers and Gerenzo Wrenchwhistle occupy the structure above Cragpool Lake."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The timber scaffolding and cantilevered machinery above Cragpool Lake show goblin industry built quickly, heavily loaded, and indifferent to the land beneath it."
+   "text": "The timber scaffolding and cantilevered machinery above Cragpool Lake show goblin industry built quickly and heavily, with little regard for the land beneath it."
   },
   {
    "target": "class:Druid",
@@ -76,5 +76,5 @@
  "attribution": [
   "Cragpool Lake"
  ],
- "style": 1
+ "style": 2
 }

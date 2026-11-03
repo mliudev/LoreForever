@@ -24,21 +24,21 @@
   ],
   "category": "Badlands"
  },
- "summary": "Garek has concluded that Blacklash and Hematus cannot be trusted to stay in their prison at Lethlor. Black dragons have moved in there and ogres took the Sign of the Earth, so Garek sends you to free the drakes and kill them.",
+ "summary": "At Lethlor, Garek fears the drakes may break free. Black dragons now dwell there, and ogres have taken the Sign of the Earth. So he sends you to free the drakes and kill them.",
  "sections": [
   {
    "title": "A Prison Failing",
-   "body": "Garek can no longer be sure Blacklash and Hematus will stay imprisoned. Black dragons now dwell at Lethlor, and ogres have made off with the Sign of the Earth. Garek judges that something harsher is needed, and the drakes must die.",
+   "body": "At Lethlor, Garek fears Blacklash and Hematus may escape their prison. Black dragons now dwell there, and ogres have taken the Sign of the Earth. Garek sees no safer course. The drakes must die.",
    "spoiler": 0
   },
   {
    "title": "Breaking the Seal",
-   "body": "Three runestones keep the drakes locked away, and only the Sign of the Earth can fetch them. You use the Sign on the Pillars of Amethyst, Opal and Diamond, then set the runestones into the Seal of the Earth. That frees the pair, and you slay them. Garek wants back Blacklash's Bindings, the Chains of Hematus and the Sign of the Earth.",
+   "body": "Three runestones hold the drakes, and the Sign of the Earth is needed to release them. You use the Sign at the Pillars of Amethyst, Opal and Diamond, then place the runestones in the Seal of the Earth. Blacklash and Hematus are freed, and you slay them. Garek asks you to bring back Blacklash's Bindings, the Chains of Hematus and the Sign of the Earth.",
    "spoiler": 0
   },
   {
    "title": "After the Deed",
-   "body": "Once the drakes are dead, Garek declares that the Kirin Tor can stop fretting over Lethlor's prisoners. Garek means to report success to a master, Krasus, who will surely be pleased.",
+   "body": "After the drakes die, Garek says the Kirin Tor need not fret over Lethlor's prisoners anymore. He plans to report his success to his master, Krasus. Krasus will surely be pleased.",
    "spoiler": 1
   }
  ],
@@ -50,7 +50,7 @@
     "who are the drakes",
     "what is imprisoned in lethlor"
    ],
-   "answer": "Drakes held prisoner in Lethlor, behind a seal."
+   "answer": "Blacklash and Hematus are drakes held behind a seal at Lethlor."
   },
   {
    "q": "Why must the drakes be killed instead of kept locked away?",
@@ -59,7 +59,7 @@
     "why break the prison",
     "why slay hematus"
    ],
-   "answer": "Garek can no longer be sure they will stay imprisoned. Black dragons now live at Lethlor, and ogres took the Sign of the Earth."
+   "answer": "Garek can no longer be sure the drakes will stay imprisoned. Black dragons now dwell at Lethlor, and ogres have taken the Sign of the Earth."
   },
   {
    "q": "How is the prison unsealed?",
@@ -68,7 +68,7 @@
     "how to summon blacklash",
     "how to break the drakes out"
    ],
-   "answer": "Three runestones are taken from the pillars with the Sign of the Earth, then placed in the Seal of the Earth."
+   "answer": "Use the Sign of the Earth at the Pillars of Amethyst, Opal and Diamond. Then place the three runestones in the Seal of the Earth."
   },
   {
    "q": "What must be brought back to Garek?",
@@ -77,7 +77,7 @@
     "blacklash's bindings",
     "chains of hematus"
    ],
-   "answer": "Three things go back to Garek: Blacklash's Bindings, the Chains of Hematus and the Sign of the Earth."
+   "answer": "Bring Garek Blacklash's Bindings, the Chains of Hematus and the Sign of the Earth."
   },
   {
    "q": "What comes before this quest?",
@@ -85,13 +85,13 @@
     "previous quest",
     "prerequisite for tremors of the earth"
    ],
-   "answer": "It follows the earlier Tremors of the Earth."
+   "answer": "It follows an earlier Tremors of the Earth."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Garek's request is one for the Alliance."
+   "text": "As an Alliance member, Garek's request is meant for you."
   }
  ],
  "keywords": [
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "Tremors of the Earth (2)"
- ]
+ ],
+ "style": 2
 }

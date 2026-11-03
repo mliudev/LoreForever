@@ -8,16 +8,16 @@
   "wiki": "Gurda Ragescar",
   "refs": 1
  },
- "summary": "Gurda Ragescar fell at a Horde camp southwest of Splintertree Post in Ashenvale. She and Feran Strongwind died defending it against dangers in the shadowed forest.",
+ "summary": "At a Horde camp southwest of Splintertree Post, Gurda Ragescar fell defending against dangers in Ashenvale's shadowed forest. She and Feran Strongwind died there.",
  "sections": [
   {
    "title": "A Slain Outpost",
-   "body": "Gurda Ragescar and her guards fell at a small Horde camp southwest of Splintertree Post. The outpost stood beneath Ashenvale's dense canopy, deep in territory contested by night elven defenders and wild beasts. Gurda and Feran Strongwind were killed when the camp was overrun. Only remnants of their last stand remain for passing allies to find.",
+   "body": "Gurda Ragescar and her guards fell at a small Horde camp southwest of Splintertree Post. Dense canopy covered the outpost, deep in Ashenvale, where night elven defenders and wild beasts contested the territory. The camp was overrun, and Gurda and Feran Strongwind were killed. Only remnants of their last stand remain for passing allies to find.",
    "spoiler": 0
   },
   {
    "title": "The Fallen Scouts",
-   "body": "Travelers near the trail may find the scene of Gurda's defeat. The camp's possessions and unfinished work point to Horde efforts across the woods, including missing documents and orders disrupted by the ambush.",
+   "body": "Travelers near the trail may come upon the scene of Gurda's defeat. The camp's possessions and unfinished work show the Horde's efforts across the woods. Missing documents and orders speak of work disrupted by the ambush.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "who died with gurda",
     "feran strongwind"
    ],
-   "answer": "Feran Strongwind and their guards died beside her when their small camp was attacked."
+   "answer": "Feran Strongwind and Gurda's guards died beside her when their small camp was attacked."
   },
   {
    "q": "What quest involves Gurda Ragescar?",
@@ -78,5 +78,5 @@
  "attribution": [
   "Gurda Ragescar"
  ],
- "style": 1
+ "style": 2
 }

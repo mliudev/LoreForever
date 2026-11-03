@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Shalzaru's Lair"
  },
- "summary": "Shalzaru's Lair is a sprawling, submerged cavern located at the northern tip of the Isle of Dread in Feralas. It serves as a major stronghold for the Hatecrest naga and shelters their formidable master, Shalzaru. From within these damp tunnels, the serpentine invaders coordinate their aggressive presence just south of Feathermoon Stronghold.",
+ "summary": "Hatecrest naga gather at Shalzaru's Lair on the Isle of Dread's northern tip. Their master directs them from flooded caverns south of Feathermoon Stronghold.",
  "sections": [
   {
    "title": "A Serpent Den in the Shallows",
-   "body": "Carved into the rugged bluffs at the northern end of the Isle of Dread, Shalzaru's Lair is divided into a massive main cavern and a smaller auxiliary chamber, linked together by submerged subterranean waterways. The interior teems with Hatecrest serpent guards and spell-weaving sorceresses on high alert. Deep within the recesses dwells Lord Shalzaru, the serpentine overlord directing the Hatecrest brood across the island. Its proximity to Sardor Isle poses a direct, constant threat to the night elf Sentinels garrisoned at Feathermoon Stronghold just across the channel.",
+   "body": "At the Isle of Dread's northern end, the bluffs open into Shalzaru's Lair. A broad cavern and a smaller chamber join through submerged waterways. Hatecrest serpent guards patrol the dry paths, while sorceresses weave magic across the water. Deep within, Lord Shalzaru commands the Hatecrest brood across the island. The lair lies close to Sardor Isle, across the channel from the night elf Sentinels at Feathermoon Stronghold.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "shalzaru lair location",
     "how to find shalzaru lair"
    ],
-   "answer": "Shalzaru's Lair is located at the northern end of the Isle of Dread, an island sitting directly south of Sardor Isle and Feathermoon Stronghold off the western coast of Feralas."
+   "answer": "Shalzaru's Lair lies at the Isle of Dread's northern end, directly south of Sardor Isle and Feathermoon Stronghold off Feralas's western coast."
   },
   {
    "q": "Who is Shalzaru?",
@@ -32,7 +32,7 @@
     "shalzaru lore",
     "boss of shalzaru lair"
    ],
-   "answer": "Shalzaru is a powerful naga warlord and the master of the Hatecrest tribe inhabiting the Isle of Dread. He commands his forces from deep within the flooded caverns of the lair."
+   "answer": "Shalzaru is a powerful naga warlord and master of the Hatecrest tribe on the Isle of Dread. He commands his forces from the lair's flooded caverns."
   },
   {
    "q": "What creatures inhabit this cave?",
@@ -40,7 +40,7 @@
     "what enemies are in shalzaru lair",
     "hatecrest naga cave mobs"
    ],
-   "answer": "The cavern is swarming with Hatecrest naga, primarily vigilant Hatecrest Serpent Guards watching the dry paths and Hatecrest Sorceresses channeling magic across the subterranean waters."
+   "answer": "Hatecrest naga inhabit the cavern. Serpent guards watch the dry paths, and sorceresses weave magic across the underground waters."
   },
   {
    "q": "Why is this lair important to the local night elves?",
@@ -48,17 +48,17 @@
     "why do night elves care about shalzaru",
     "feathermoon naga threat"
    ],
-   "answer": "Because the Isle of Dread sits directly across the water from Feathermoon Stronghold, the concentrated naga presence inside Shalzaru's Lair represents an immediate military threat to Shandris Feathermoon's forces and the security of Sardor Isle."
+   "answer": "The Isle of Dread lies across the water from Feathermoon Stronghold. The naga gathered in Shalzaru's Lair threaten Shandris Feathermoon's forces and Sardor Isle's security."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The Hatecrest buildup in this cavern threatens the supply lines and peace of Feathermoon Stronghold, making clearing Shalzaru and his brood a top priority for Sentinels and their allies."
+   "text": "The Hatecrest gathering in this cavern threatens Feathermoon Stronghold's supply lines and peace. Clearing Shalzaru and his brood is a priority for the Sentinels and their allies."
   },
   {
    "target": "race:NightElf",
-   "text": "The vile presence of naga desecrating the ancient coastal ruins of Feralas serves as an agonizing reminder of the Sundering and the Highborne's descent into monstrous corruption."
+   "text": "As a night elf, you see naga defiling Feralas's ancient coastal ruins. Their presence recalls the Sundering and the Highborne's fall into monstrous corruption."
   }
  ],
  "keywords": [
@@ -78,5 +78,6 @@
  ],
  "attribution": [
   "Shalzaru's Lair"
- ]
+ ],
+ "style": 2
 }

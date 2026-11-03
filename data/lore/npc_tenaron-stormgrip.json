@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "Watcher of Aldrassil",
-   "body": "Tenaron Stormgrip guides young night elves on Aldrassil's winding wooden platforms. From high in Shadowglen's central tree, he watches the local woods and their moonwells. He teaches novices about their spiritual bond with the World Tree.",
+   "body": "Tenaron Stormgrip guides young night elves along Aldrassil's winding wooden platforms. From Shadowglen's central tree, he watches the local woods and their moonwells. He teaches novices about their spiritual bond with the World Tree.",
    "spoiler": 0
   },
   {
@@ -29,7 +29,7 @@
     "where is tenaron",
     "tenaron stormgrip spot"
    ],
-   "answer": "Tenaron Stormgrip stands on the wooden platforms high in Aldrassil, the central tree of Shadowglen in Teldrassil."
+   "answer": "Tenaron Stormgrip stands on the wooden platforms high in Aldrassil, Shadowglen's central tree in Teldrassil."
   },
   {
    "q": "What is Tenaron Stormgrip's role in Shadowglen?",
@@ -54,7 +54,7 @@
     "why precious waters",
     "teldrassil water issues"
    ],
-   "answer": "Tenaron watches Teldrassil's waters because its moonwells are vessels of Elune's grace and natural purity. Since Teldrassil is young and lacks the full blessing of the Aspects, caretakers monitor its water sources for corruption or taint."
+   "answer": "Tenaron watches Teldrassil's waters because its moonwells hold Elune's grace and natural purity. Teldrassil is young and lacks the full blessing of the Aspects, so caretakers watch its water sources for corruption or taint."
   },
   {
    "q": "Does Tenaron send adventurers beyond Shadowglen?",
@@ -103,5 +103,5 @@
  "attribution": [
   "Tenaron Stormgrip"
  ],
- "style": 1
+ "style": 2
 }

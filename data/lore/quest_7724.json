@@ -19,16 +19,16 @@
   "repeatable": "No",
   "category": "Searing Gorge"
  },
- "summary": "Hansel Heavyhands says that every time he wants a moment to relax and reflect on his life, the powers that be hand him another job. Greater lava spiders are causing a ruckus in the Searing Gorge, and he wants you to kill twenty of them.",
+ "summary": "Hansel Heavyhands has another job for you in the Searing Gorge. Greater lava spiders are making trouble.",
  "sections": [
   {
    "title": "Another Job for Hansel",
-   "body": "Hansel Heavyhands complains that the powers that be never leave him in peace. Greater lava spiders are causing a ruckus, and he would rather you did the killing than him.",
+   "body": "Hansel Heavyhands has little time to rest or think on his life. Those in power keep giving him more work. Greater lava spiders are causing a ruckus, so Hansel would rather you deal with them.",
    "spoiler": 0
   },
   {
    "title": "The Greater Lava Spiders",
-   "body": "Oilfist says the spiders shoot fire out of an awkward place, which upsets the children. Hansel wants twenty greater lava spiders slain, and they are found on the plateaus and by the lava pools of the Searing Gorge.",
+   "body": "Oilfist says the greater lava spiders shoot fire from an awkward place. Their flames upset the children. Hansel wants you to kill twenty spiders on the plateaus and by the lava pools of the Searing Gorge.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "who gives quest",
     "hansel"
    ],
-   "answer": "Hansel Heavyhands in the Searing Gorge, who had hoped for a quiet moment and been handed another job."
+   "answer": "Hansel Heavyhands sends you after the spiders in the Searing Gorge. He had hoped for a quiet moment."
   },
   {
    "q": "Why do the spiders need to be killed?",
@@ -49,7 +49,7 @@
     "what did spiders do",
     "spider problem"
    ],
-   "answer": "Greater lava spiders are causing a ruckus, and Oilfist says the way they shoot fire upsets the children."
+   "answer": "Greater lava spiders are causing a ruckus. Oilfist says the way they shoot fire upsets the children."
   },
   {
    "q": "Who told Hansel about the spiders?",
@@ -57,7 +57,7 @@
     "who complained about spiders",
     "oilfist"
    ],
-   "answer": "Oilfist, who says the spiders shoot fire from an awkward place."
+   "answer": "Oilfist told Hansel that the spiders shoot fire from an awkward place."
   },
   {
    "q": "How many greater lava spiders must be killed?",
@@ -65,7 +65,7 @@
     "how many spiders",
     "spider count"
    ],
-   "answer": "Hansel asks for twenty to be put down."
+   "answer": "Hansel asks you to kill twenty greater lava spiders."
   }
  ],
  "angles": [],
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Fiery Menace!"
- ]
+ ],
+ "style": 2
 }

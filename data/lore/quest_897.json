@@ -17,16 +17,16 @@
   "wiki": "The Harvester (quest)",
   "chain": []
  },
- "summary": "A severed head found in the southern Barrens brings The Harvester’s strange presence to Camp Taurajo. Jorn Skyseer examines the remains, and the creature’s intrusion raises concerns for the land’s spiritual and ecological balance.",
+ "summary": "In the southern Barrens, a severed head brings The Harvester’s strange presence to Camp Taurajo. Jorn Skyseer examines the remains, and the creature’s arrival threatens the land’s spiritual and natural balance.",
  "sections": [
   {
    "title": "An Unnatural Intruder",
-   "body": "In the southern Barrens, you find the severed head of a silithid called the Harvester. Lions, raptors, and kodos roam these grasslands, but this chitinous insectoid is unlike the native wildlife. Its presence suggests an alien ecology has reached the open plains of Kalimdor.",
+   "body": "You find the severed head of a silithid called the Harvester in the southern Barrens. Lions, raptors, and kodos roam these grasslands, but this chitinous insect is unlike the native wildlife. Its presence suggests an alien ecology has reached Kalimdor’s open plains.",
    "spoiler": 0
   },
   {
    "title": "Jorn Skyseer's Premonition",
-   "body": "At Camp Taurajo, tauren mystic Jorn Skyseer examines the Harvester’s head. The creature’s spirit has already fled, so Jorn cannot divine its origin. He recognizes the remains as a profound threat and fears its intrusion may herald a grim future for the Horde. Darker mysteries are brewing beneath the sands.",
+   "body": "At Camp Taurajo, tauren mystic Jorn Skyseer examines the Harvester’s head. The creature’s spirit has fled, so Jorn cannot divine its origin. He sees the remains as a grave threat and fears this intrusion may foretell a grim future for the Horde.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "what kind of bug is the harvester",
     "harvester creature"
    ],
-   "answer": "The Harvester is a large silithid insectoid prowling the southern Barrens. Its chitinous form is unlike the region’s native wildlife."
+   "answer": "The Harvester is a large silithid insect prowling the southern Barrens. Its chitinous form is unlike the region’s native wildlife."
   },
   {
    "q": "Who is Jorn Skyseer?",
@@ -56,7 +56,7 @@
     "harvester origin",
     "silithid source"
    ],
-   "answer": "Jorn Skyseer cannot divine the Harvester’s exact origin from its severed head. The creature comes from the silithid hives spreading up from the deep deserts to the south."
+   "answer": "Jorn Skyseer cannot divine the Harvester’s exact origin from its severed head. The creature comes from silithid hives spreading north from the deep deserts to the south."
   },
   {
    "q": "Why does the creature disturb Jorn Skyseer?",
@@ -65,7 +65,7 @@
     "jorn skyseer reaction",
     "grim future"
    ],
-   "answer": "The Harvester’s unnatural form and foreign spirit deeply disturb Jorn. He senses its presence in the Barrens is no random occurrence, but a warning of an unnatural threat to come."
+   "answer": "The Harvester’s unnatural form and foreign spirit deeply disturb Jorn. He senses its presence in the Barrens is no chance occurrence, but a warning of an unnatural threat to come."
   },
   {
    "q": "How do you start this quest?",
@@ -83,17 +83,17 @@
     "what after harvester head",
     "jorn next step"
    ],
-   "answer": "Jorn offers no immediate counterattack. He believes the Horde must prepare and stay vigilant as the mystery of the encroaching silithid slowly unfolds."
+   "answer": "Jorn offers no immediate counterattack. He believes the Horde must prepare and stay watchful as the mystery of the encroaching silithid slowly unfolds."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a Shu'halo, you know the Earth Mother’s harmony is paramount. An entity that defies the natural order signals deep spiritual disharmony."
+   "text": "As a Shu'halo, you know the Earth Mother’s harmony is paramount. A being that defies the natural order signals deep spiritual disharmony."
   },
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you understand Jorn Skyseer’s frustration: the spirit has fled the head, preventing communion with the elemental forces to discover the creature’s true origin."
+   "text": "As a shaman, you understand Jorn Skyseer’s frustration. The spirit has fled the head, preventing communion with the elemental forces to discover the creature’s true origin."
   },
   {
    "target": "class:Druid",
@@ -120,5 +120,5 @@
  "attribution": [
   "The Harvester (quest)"
  ],
- "style": 1
+ "style": 2
 }

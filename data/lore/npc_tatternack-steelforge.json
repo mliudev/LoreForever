@@ -8,11 +8,11 @@
   "wiki": "Tatternack Steelforge",
   "refs": 2
  },
- "summary": "On the Barrens frontier, Tatternack Steelforge offers work to travelers who can handle raw metal and dangerous wildlife. The orc smith studies local ores and seeks to arm Horde forces against threats across the plains.",
+ "summary": "At the Barrens frontier, Tatternack Steelforge offers work to travelers who can handle raw metal and dangerous wildlife. The orc smith studies local ores to arm Horde forces against threats across the plains.",
  "sections": [
   {
    "title": "An Orc at the Forge",
-   "body": "Across the Barrens, Horde outposts need weapons to face wild beasts, centaur raiders, and hostile quilboar. Tatternack Steelforge brings his people's metalworking knowledge to the frontier. He seeks practical weapons and unusual geological specimens to strengthen the Horde's foothold against those threats.",
+   "body": "Horde outposts across the Barrens need weapons against wild beasts, centaur raiders, and hostile quilboar. Tatternack Steelforge brings his people's metalworking knowledge to the frontier. He seeks practical weapons and unusual geological specimens to strengthen the Horde's foothold against those threats.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "tatternack steelforge location",
     "tatternack coords"
    ],
-   "answer": "Tatternack operates in the Barrens, residing among Horde camps along the central savanna trails."
+   "answer": "Tatternack operates in the Barrens, among Horde camps along the central savanna trails."
   },
   {
    "q": "What kind of tasks does Tatternack offer?",
@@ -48,7 +48,7 @@
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "For smiths traveling through the Barrens, Tatternack understands the need for good ore and quality steel in a lawless borderland."
+   "text": "For smiths traveling through the Barrens, Tatternack knows the value of good ore and quality steel in a lawless borderland."
   },
   {
    "target": "faction:Horde",
@@ -74,5 +74,5 @@
  "attribution": [
   "Tatternack Steelforge"
  ],
- "style": 1
+ "style": 2
 }

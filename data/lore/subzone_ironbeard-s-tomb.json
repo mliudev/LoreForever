@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Ironbeard's Tomb"
  },
- "summary": "West of the road to Dun Modr, Ironbeard's Tomb lies defiled and overrun by acidic oozes. A stone statue watches over the outdoor graveyard, where travelers search the slime for lost possessions.",
+ "summary": "Black and crimson oozes foul Ironbeard's Tomb beside the road north to Dun Modr. Travelers search the slime for possessions swallowed in the graveyard.",
  "sections": [
   {
    "title": "A Befouled Resting Place",
-   "body": "Ironbeard's Tomb overlooks the marshes beside the road north to Dun Modr. A great stone statue, believed to show Ironbeard, watches over the burial plot. Black and crimson oozes have overrun the crypt below, tainting the resting place. Dwarves no longer bring their dead here. Those who enter the vaults search among the remains swallowed by the slimes.",
+   "body": "Beside the road north to Dun Modr, Ironbeard's Tomb overlooks the marshes. A great stone statue, believed to show Ironbeard, watches over the burial plot. Black and crimson oozes now overrun the crypt below and foul the resting place. Dwarves no longer bring their dead here. Those who enter the vaults search among remains swallowed by the slimes.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "who is ironbeard",
     "statue identity"
    ],
-   "answer": "Little is recorded about Ironbeard, but the statue and crypt suggest he was an honored dwarf in the Wetlands. His likeness watches over the hillside above the cemetery."
+   "answer": "Little is recorded about Ironbeard. The statue and crypt suggest he was an honored dwarf in the Wetlands, and his likeness watches over the hillside above the cemetery."
   },
   {
    "q": "Why is the tomb abandoned?",
@@ -41,7 +41,7 @@
     "sida bag",
     "tomb quests"
    ],
-   "answer": "Travelers search the slimes for swallowed possessions, especially Sida's lost bag, while trying to fight back the infestation."
+   "answer": "Travelers search the slimes for swallowed possessions, especially Sida's lost bag, while fighting back the infestation."
   },
   {
    "q": "Where is Ironbeard's Tomb located?",
@@ -50,7 +50,7 @@
     "how to get to ironbeard tomb",
     "ironbeard wetlands map"
    ],
-   "answer": "Ironbeard's Tomb sits in north-central Wetlands, in a hill just west of the main road north toward Dun Modr."
+   "answer": "Ironbeard's Tomb sits in a hill in north-central Wetlands, just west of the main road north toward Dun Modr."
   }
  ],
  "angles": [
@@ -78,5 +78,5 @@
  "attribution": [
   "Ironbeard's Tomb"
  ],
- "style": 1
+ "style": 2
 }

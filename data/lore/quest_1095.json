@@ -17,16 +17,16 @@
   "wiki": "Further Instructions (2)",
   "chain": []
  },
- "summary": "Sputtervalve carries an order from Undermine to Ziz Fizziks in the Stonetalon Mountains. Gerenzo Wrenchwhistle, the gnome engineer hired by Mogul Razdunk, must be eliminated.",
+ "summary": "In the Stonetalon Mountains, Sputtervalve carries an order from Undermine to Ziz Fizziks. Gerenzo Wrenchwhistle, hired by Mogul Razdunk, must be eliminated.",
  "sections": [
   {
    "title": "Corporate Disapproval",
-   "body": "The Venture Company’s hiring of Gerenzo Wrenchwhistle has stirred trouble among Undermine’s rulers. Mogul Razdunk brought the gnome engineer into the company, and word of it reached the Trade Princes. Director Riddlevox told Sputtervalve to intervene quietly. Sputtervalve believes the order comes from the highest trade authorities, so he passes the work to Ziz Fizziks, the operative nearest the scene.",
+   "body": "The Trade Princes have heard that Mogul Razdunk hired Gerenzo Wrenchwhistle, and the news has stirred trouble in Undermine. Director Riddlevox tells Sputtervalve to intervene quietly. Believing the order comes from the highest trade authorities, Sputtervalve passes the work to Ziz Fizziks, the operative nearest the scene.",
    "spoiler": 0
   },
   {
    "title": "Secrets of Dun Morogh",
-   "body": "Ziz Fizziks welcomes the order to kill Gerenzo Wrenchwhistle. Goblin engineers disdain their gnome rivals, and Gerenzo has a past that makes him especially volatile. Before joining the Venture Company, he was a head engineer in Gnomeregan and worked on a top-secret project that Undermine’s spies could not fully uncover. The project reportedly ended in catastrophe, exploding in the engineers’ faces. Now Gerenzo sells his dangerous expertise to the Venture Company in Kalimdor.",
+   "body": "Ziz Fizziks welcomes the order to kill Gerenzo Wrenchwhistle. Goblin engineers disdain their gnome rivals, and Gerenzo's past makes him especially volatile. Before joining the Venture Company, he was a head engineer in Gnomeregan. There he worked on a top-secret project that Undermine's spies could not fully uncover. The project reportedly ended in catastrophe, exploding in the engineers' faces. Now Gerenzo sells his dangerous expertise to the Venture Company in Kalimdor.",
    "spoiler": 1
   }
  ],
@@ -56,7 +56,7 @@
     "gnomeregan explosion",
     "gerenzo past"
    ],
-   "answer": "Gerenzo worked as a lead engineer on a classified project in Gnomeregan. Goblin spies could not uncover its purpose, and it reportedly ended in disaster, exploding in the engineers’ faces."
+   "answer": "Gerenzo worked as a lead engineer on a classified project in Gnomeregan. Goblin spies could not uncover its purpose, and it reportedly ended in disaster, exploding in the engineers' faces."
   },
   {
    "q": "Where is Ziz Fizziks located?",
@@ -65,7 +65,7 @@
     "where is ziz",
     "where to deliver orders"
    ],
-   "answer": "Ziz Fizziks is in the Stonetalon Mountains, watching the Venture Company’s local logging and mining efforts while carrying out corporate contracts."
+   "answer": "Ziz Fizziks is in the Stonetalon Mountains, watching the Venture Company's local logging and mining efforts while carrying out corporate contracts."
   },
   {
    "q": "Why is Ziz Fizziks eager to kill Gerenzo?",
@@ -74,7 +74,7 @@
     "fizziks reaction",
     "why kill gerenzo"
    ],
-   "answer": "Ziz Fizziks shares the goblins’ professional hatred of gnomes and sees Gerenzo as a dangerous rival. Gerenzo’s experiments in Dun Morogh ended in disaster."
+   "answer": "Ziz Fizziks shares the goblins' professional hatred of gnomes and sees Gerenzo as a dangerous rival. Gerenzo's experiments in Dun Morogh ended in disaster."
   },
   {
    "q": "Who is Mogul Razdunk?",
@@ -83,7 +83,7 @@
     "who is razdunk",
     "venture company boss"
    ],
-   "answer": "Mogul Razdunk leads the Venture Company. He hired Gerenzo, defying trade etiquette in Undermine and prompting the Trade Princes to push for Gerenzo’s elimination."
+   "answer": "Mogul Razdunk leads the Venture Company. He hired Gerenzo, defying trade etiquette in Undermine and prompting the Trade Princes to push for Gerenzo's elimination."
   }
  ],
  "angles": [
@@ -121,5 +121,5 @@
  "attribution": [
   "Further Instructions (2)"
  ],
- "style": 1
+ "style": 2
 }

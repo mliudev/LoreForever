@@ -23,16 +23,16 @@
    "Training the Beast (Orc and Troll)"
   ]
  },
- "summary": "In Durotar, Taming the Beast sends young hunters to the coast for their second trial. Thotar, the hunter trainer in Razor Hill, directs aspiring orc and troll hunters to pacify a surf crawler near the Echo Isles and extend their bond to coastal wildlife.",
+ "summary": "Along Durotar's coast, Taming the Beast sends young hunters to face their second trial. Thotar, the hunter trainer in Razor Hill, directs aspiring orc and troll hunters to tame a surf crawler near the Echo Isles and extend their bond to coastal wildlife.",
  "sections": [
   {
    "title": "Bonding with the Coast",
-   "body": "After mastering a dire mottled boar, you turn your attention to the sea at Thotar's direction. Durotar's harsh shores are jagged, and shallow reefs teem with armored crustaceans. A surf crawler resists intrusion into its coastal domain, so taming one calls for patience and fortitude.",
+   "body": "You have mastered a dire mottled boar, and now Thotar sends you toward the sea. Durotar's harsh shores are jagged, and shallow reefs teem with armored crustaceans. A surf crawler resists intrusion into its coastal domain. Taming one calls for patience and fortitude.",
    "spoiler": 0
   },
   {
    "title": "The Extension of Will",
-   "body": "Thotar teaches that a bound beast must become an extension of a hunter's strength. Subduing a surf crawler with the taming rod teaches you to command creatures of different temperaments in different surroundings. It proves you are ready for permanent companions.",
+   "body": "Thotar teaches that a bound beast should add to a hunter's strength. With the taming rod, you subdue a surf crawler and learn to command creatures of different temperaments in different surroundings. This trial proves you are ready for permanent companions.",
    "spoiler": 0
   }
  ],
@@ -44,7 +44,7 @@
     "where is surf crawler",
     "crab location"
    ],
-   "answer": "Surf crawlers skitter through the shallows along Durotar's eastern shores, across from Sen'jin Village, near the waters leading toward the Echo Isles."
+   "answer": "Surf crawlers skitter through the shallows along Durotar's eastern shores, across from Sen'jin Village and near the waters leading toward the Echo Isles."
   },
   {
    "q": "What is the purpose of taming a surf crawler?",
@@ -52,7 +52,7 @@
     "why tame crab",
     "surf crawler quest purpose"
    ],
-   "answer": "Thotar assigns a surf crawler to teach you to command different kinds of beasts. Taming an armored aquatic creature broadens your control and proves you can master animals from water as well as dry land."
+   "answer": "Thotar assigns you a surf crawler so you can learn to command different kinds of beasts. Taming an armored aquatic creature broadens your control and proves you can master animals from water as well as dry land."
   },
   {
    "q": "Do I keep the surf crawler permanently?",
@@ -124,5 +124,5 @@
  "attribution": [
   "Taming the Beast (Orc and Troll 2)"
  ],
- "style": 1
+ "style": 2
 }

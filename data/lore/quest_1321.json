@@ -15,16 +15,16 @@
   "next": "The Black Shield",
   "wiki": null
  },
- "summary": "Krog looks over the Blackened Iron Shield and sees nothing unusual about it. Krog suggests that the blacksmith Do'gol inspect it, though without much hope, and sends you to Brackenwall Village.",
+ "summary": "Krog sends you to Brackenwall Village to ask Do'gol about the Blackened Iron Shield.",
  "sections": [
   {
    "title": "A Second Opinion",
-   "body": "Krog sees nothing unusual about the shield. Do'gol, the blacksmith, might be able to tell more about it, Krog says, but warns against expecting much. Do'gol is in Brackenwall Village.",
+   "body": "Krog finds nothing unusual about the Blackened Iron Shield. Still, he thinks Do'gol, the blacksmith in Brackenwall Village, may see something more. He urges you not to expect much.",
    "spoiler": 0
   },
   {
    "title": "Do'gol's Answer",
-   "body": "Do'gol calls it a good shield, strong and heavy. Do'gol has no need of it, though, being a maker of shields and not a buyer, and says you should know that.",
+   "body": "Do'gol calls the shield good, strong, and heavy. But he makes shields rather than buying them, so he has no need for it. He says you should know that.",
    "spoiler": 1
   }
  ],
@@ -36,7 +36,7 @@
     "where do i start the black shield",
     "black shield questgiver"
    ],
-   "answer": "Krog, who looked over the Blackened Iron Shield and found nothing unusual about it."
+   "answer": "Krog sends you to Do'gol after finding nothing unusual about the Blackened Iron Shield."
   },
   {
    "q": "Where can Do'gol be found?",
@@ -53,7 +53,7 @@
     "why visit dogol",
     "why show the shield to the blacksmith"
    ],
-   "answer": "Krog hopes the blacksmith can tell more about the shield, though Krog does not expect much to come of it."
+   "answer": "Krog hopes Do'gol can tell him more about the shield, though he expects little from the inspection."
   }
  ],
  "angles": [],
@@ -73,5 +73,6 @@
  ],
  "attribution": [
   "Classic quest text: The Black Shield"
- ]
+ ],
+ "style": 2
 }

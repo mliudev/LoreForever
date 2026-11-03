@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Cooking instructors teach the art of lighting a basic campfire, which is required to establish any wilderness campsite before adding medical amenities."
+   "text": "Cooking instructors teach you to build a basic campfire. You need one before setting up a wilderness campsite or adding medical amenities."
   },
   {
    "target": "faction:Horde",
-   "text": "Nurse Neela operates out of the Forsaken settlement of Brill in Tirisfal Glades, making this instruction a key local resource for Horde adventurers."
+   "text": "Nurse Neela teaches in Brill, the Forsaken town in Tirisfal Glades, giving Horde travelers a local source of instruction."
   },
   {
    "target": "race:Undead",
-   "text": "Based in Brill, Nurse Neela aids the Forsaken and their allies in adapting medicinal skills for survival in the ruined landscapes of Lordaeron."
+   "text": "As an Undead, you can turn to Nurse Neela in Brill for help adapting your medicinal skills to survival in Lordaeron's ruined lands."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "where is nurse neela",
     "nurse neela location"
    ],
-   "answer": "Nurse Neela is a medical practitioner located in the Forsaken settlement of Brill in Tirisfal Glades. She instructs skilled First Aid practitioners on how to craft First Aid Kits designed for field campsites.",
+   "answer": "Nurse Neela practices medicine in Brill, the Forsaken town in Tirisfal Glades. She teaches skilled First Aid practitioners to make kits for wilderness camps.",
    "q": "Who is Nurse Neela?"
   },
   {
@@ -41,7 +41,7 @@
     "first aid kit purpose",
     "camp first aid kit"
    ],
-   "answer": "A First Aid Kit is a specialized camping accessory crafted by practitioners of First Aid. When set up at a wilderness campsite, it provides essential healing resources to treat injuries sustained while adventuring.",
+   "answer": "A First Aid Kit is a camp accessory made by First Aid practitioners. At a wilderness campsite, it supplies what travelers need to treat injuries.",
    "q": "What does a First Aid Kit do at a camp?"
   },
   {
@@ -50,7 +50,7 @@
     "how to make campfire",
     "cooking campfire camp"
    ],
-   "answer": "A campfire is the foundation of any wilderness encampment, required before setting up additional amenities like medical kits. Basic campfire construction is commonly taught by culinary trainers and cooks.",
+   "answer": "A campfire must be in place before you can set up other camp amenities, including medical kits. Cooking instructors and cooks teach you to build a basic campfire.",
    "q": "Why do you need a campfire to set up camp?"
   },
   {
@@ -59,7 +59,7 @@
     "camping in brill",
     "why camp in wilderness"
    ],
-   "answer": "Town residents and local authorities generally object to travelers pitching tents and building fires in the middle of town streets. Campsites must be established out in the open wilderness.",
+   "answer": "You need to camp in the open wilderness. Town residents and local authorities generally object to tents and fires in the middle of town streets.",
    "q": "Can you set up a camp inside a town?"
   },
   {
@@ -68,7 +68,7 @@
     "camping first aid trainer",
     "first aid kit trainer"
    ],
-   "answer": "Nurse Neela in Brill teaches eligible adventurers how to craft the kit once they demonstrate adequate proficiency in the First Aid profession.",
+   "answer": "Nurse Neela in Brill teaches eligible travelers to make a First Aid Kit once they have enough First Aid skill.",
    "q": "Who teaches how to make the First Aid Kit?"
   },
   {
@@ -76,7 +76,7 @@
     "what is camping 101 first aid",
     "camping 101 quest"
    ],
-   "answer": "Camping 101: First Aid is an introductory task directing aspiring medics to Nurse Neela in Brill. It teaches adventurers how to apply their field medicine skills toward constructing medical supplies for outdoor camps.",
+   "answer": "Nurse Neela in Brill teaches you to use your field medicine skills to prepare medical supplies for outdoor camps.",
    "q": "What is the goal of Camping 101: First Aid?"
   }
  ],
@@ -95,18 +95,19 @@
  ],
  "sections": [
   {
-   "body": "Venturing beyond fortified settlements carries constant physical danger, from hostile beasts to opposing factions. For traveling practitioners of First Aid, learning to assemble a dedicated First Aid Kit allows an ordinary wilderness resting stop to serve as a mobile field clinic, patching up wounds and restoring vitality far from civil infrastructure.",
+   "body": "Beyond guarded settlements, beasts and rival factions put travelers in danger. A healer trained in First Aid can learn to assemble a First Aid Kit for a wilderness camp. With it, travelers can tend wounds far from settled lands.",
    "spoiler": 0,
    "title": "Medicine in the Field"
   },
   {
-   "body": "In the Forsaken town of Brill, Nurse Neela provides instruction on turning basic medical expertise into practical camp equipment. Once a traveler demonstrates sufficient skill in bandaging and treatment, she shares the techniques required to construct a portable kit. Setting up such equipment requires a proper wilderness site centered around a basic campfire, which standard cooking instructors can teach travelers to build.",
+   "body": "In Brill, Nurse Neela teaches travelers to put their medical skill to work at camp. Those skilled in bandaging and treatment can learn to make a portable First Aid Kit. First, travelers need a wilderness site and a basic campfire. Cooking instructors can teach them how to build one.",
    "spoiler": 0,
    "title": "Instruction in Brill"
   }
  ],
- "summary": "Camping 101: First Aid directs adventurers with medical training to seek out Nurse Neela in Brill. By learning to construct a First Aid Kit for their campsites, travelers can provide life-saving treatment and recuperation while surviving deep in the wilderness.",
+ "summary": "At wilderness camps, Camping 101: First Aid helps healers prepare for injuries. In Brill, Nurse Neela teaches skilled practitioners to make a First Aid Kit for treating wounds far from settled lands.",
  "attribution": [
   "In-game quest text: Camping 101: First Aid"
- ]
+ ],
+ "style": 2
 }

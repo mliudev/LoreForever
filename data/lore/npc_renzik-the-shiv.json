@@ -12,12 +12,12 @@
  "sections": [
   {
    "title": "A Goblin in SI:7",
-   "body": "Renzik keeps his past to himself. In Stormwind, he is known as a goblin who rose to become Spymaster Mathias Shaw's second-in-command in SI:7. He has little patience for pleasantries. When new recruits arrive, he asks whether they are ready to work or need a nap first.",
+   "body": "Renzik keeps his past to himself. In Stormwind, the goblin has risen to become Spymaster Mathias Shaw's second-in-command in SI:7. He has little patience for pleasantries. When new recruits arrive, he asks whether they are ready to work or need a nap first.",
    "spoiler": 0
   },
   {
    "title": "Right Hand of Mathias Shaw",
-   "body": "Renzik works inside SI:7's secretive fortress in Old Town, second-in-command to Mathias Shaw. Rogue mentors across the Alliance, from Ironforge to Darnassus, send their most promising agents to him. He sends them to field instructors such as Lucius in Redridge, where they can hone the skills needed to survive in the field.",
+   "body": "Renzik works inside SI:7's secretive fortress in Old Town, second-in-command to Mathias Shaw. Rogue mentors across the Alliance send their most promising agents to him, from Ironforge to Darnassus. Then he sends them to field instructors such as Lucius in Redridge, where they can hone the skills needed to survive in the field.",
    "spoiler": 0
   }
  ],
@@ -65,7 +65,7 @@
     "renzik connections",
     "renzik allies"
    ],
-   "answer": "Yes. Rogue trainers in Ironforge and Darnassus send promising students to Renzik, who passes recruits on to Lucius, an SI:7 associate in Lakeshire in the Redridge Mountains."
+   "answer": "Yes. Rogue trainers in Ironforge and Darnassus send promising students to Renzik. He passes recruits on to Lucius, an SI:7 associate in Lakeshire in the Redridge Mountains."
   }
  ],
  "angles": [
@@ -106,5 +106,5 @@
  "attribution": [
   "Renzik \"The Shiv\""
  ],
- "style": 1
+ "style": 2
 }

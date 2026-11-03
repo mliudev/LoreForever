@@ -8,11 +8,11 @@
   "wiki": "Kaal Soulreaper",
   "refs": 1
  },
- "summary": "In the Undercity, orc warlock Kaal Soulreaper trains apprentices and keeps close ties with practitioners of the dark arts across the Horde. Among the Forsaken, he guides students toward mentors in distant lands.",
+ "summary": "In the Undercity, Kaal Soulreaper trains orc warlocks and keeps ties with dark practitioners across the Horde. Among the Forsaken, he guides students to mentors in distant lands.",
  "sections": [
   {
    "title": "A Practitioner in the Shadows",
-   "body": "Kaal Soulreaper works in the Undercity's Magic Quarter, where Horde warlocks come to learn from his mastery of demonic entities and curses. Thrall's Horde strictly regulates and monitors fel magic within Orgrimmar, while the subterranean sanctums of Lordaeron offer practitioners like Kaal ample harbor. Beyond teaching, Kaal connects those seeking greater power with mentors across the sea, including Menara Voidrender in the Barrens.",
+   "body": "Kaal Soulreaper teaches in the Undercity's Magic Quarter, where Horde warlocks seek his knowledge of demons and curses. Thrall's Horde keeps close watch on fel magic in Orgrimmar, so Lordaeron's underground sanctums give practitioners like Kaal room to work.\n\nHe also connects those who seek greater power with mentors across the sea. One of them is Menara Voidrender in the Barrens.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "kaal soulreaper lore",
     "kaal undercity"
    ],
-   "answer": "Kaal Soulreaper trains warlocks in the Undercity's Magic Quarter. He teaches warlock spells and guides practitioners seeking specialized dark artifacts and rituals."
+   "answer": "Kaal Soulreaper trains warlocks in the Undercity's Magic Quarter. He teaches spells and directs practitioners seeking specialized dark artifacts and rituals."
   },
   {
    "q": "Why is an orc warlock living in the Undercity?",
@@ -32,7 +32,7 @@
     "why is an orc in undercity",
     "why is kaal in undercity"
    ],
-   "answer": "Warlocks face heavy suspicion and scrutiny in orcish society under Warchief Thrall. The Undercity offers a more tolerant place to study shadow magic and demonology alongside the Forsaken."
+   "answer": "Orcish society views warlocks with suspicion under Warchief Thrall. In the Undercity, Kaal can study shadow magic and demonology alongside the Forsaken, who are more tolerant."
   },
   {
    "q": "Where does Kaal Soulreaper send his apprentices?",
@@ -40,17 +40,17 @@
     "kaal quests",
     "who does kaal send you to"
    ],
-   "answer": "When his students reach sufficient mastery, Kaal sends them across the Great Sea to the Barrens to study under Menara Voidrender, or introduces them to other prominent Horde warlocks."
+   "answer": "Kaal sends his students across the Great Sea to study under Menara Voidrender in the Barrens once they have mastered enough. He also introduces them to other prominent Horde warlocks."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you can learn demonic arts from Kaal Soulreaper, whose essential training sets ambitious warlocks on the paths to craft the Orb of Orahil and bind a Felsteed."
+   "text": "As a warlock, you can learn demonic arts from Kaal Soulreaper. His training sets ambitious warlocks on the path to crafting the Orb of Orahil and binding a Felsteed."
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, you can find Kaal Soulreaper working openly in the Forsaken capital, away from Orgrimmar's watchful shamanic leadership and the hidden coven in the Cleft of Shadow."
+   "text": "As an orc, you can find Kaal Soulreaper working openly in the Forsaken capital. He is away from Orgrimmar's watchful shamanic leadership and the hidden coven in the Cleft of Shadow."
   }
  ],
  "keywords": [
@@ -73,5 +73,5 @@
  "attribution": [
   "Kaal Soulreaper"
  ],
- "style": 1
+ "style": 2
 }

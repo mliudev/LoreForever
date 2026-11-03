@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The Auberdine Village Council relies on Alliance adventurers and night elf sentinels to keep Darkshore's vital coastal highways safe from maddened predators."
+   "text": "As an Alliance adventurer, you help the Auberdine Village Council and night elf sentinels guard Darkshore's coastal roads from mad predators."
   },
   {
    "target": "class:Druid",
-   "text": "Night elf druids closely observe the wildlife of Darkshore, making the sudden madness and aggression of a noble bird like Jai'vhanel an alarming ecological disturbance."
+   "text": "As a night elf druid, you watch Darkshore's wildlife closely. Jai'vhanel's sudden madness and aggression alarm anyone who cares for the forests."
   },
   {
    "target": "class:Hunter",
-   "text": "Known as Swordfeather, this fierce jet-black raptor is an aggressive stalker near the mountains of Darkshore whose hunting habits turned lethally erratic."
+   "text": "As a hunter, you know Swordfeather as a fierce black owl near Darkshore's mountains. Her hunting has turned dangerously erratic."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "what is jaivhanel",
     "who is swordfeather"
    ],
-   "answer": "Jai'vhanel, also known by the moniker 'Swordfeather', is a large owl distinguished by her jet black feathers. Normally a wild creature native to the forests of Darkshore, she has succumbed to madness and turned aggressively hostile toward travelers.",
+   "answer": "Jai'vhanel, called Swordfeather, is a large owl with black feathers. Native to Darkshore's forests, she has grown hostile to travelers through madness.",
    "q": "Who is Jai'vhanel?"
   },
   {
@@ -41,7 +41,7 @@
     "why is there a bounty on jaivhanel",
     "why is the owl attacked"
    ],
-   "answer": "The Auberdine Village Council issued a formal bounty on Jai'vhanel because she has gone mad and started attacking travelers walking along the main road near Auberdine, posing a severe danger to local transit.",
+   "answer": "The Auberdine Village Council posted a bounty because Jai'vhanel has gone mad and attacks travelers on the main road near Auberdine, putting them in danger.",
    "q": "Why is there a bounty on Jai'vhanel?"
   },
   {
@@ -50,7 +50,7 @@
     "jaivhanel location",
     "where to find swordfeather"
    ],
-   "answer": "Jai'vhanel was last spotted north of the ancient Ameth'Aran ruins in Darkshore, prowling close to the base of the eastern mountains.",
+   "answer": "Jai'vhanel prowls north of the ruins of Ameth'Aran in Darkshore, near the base of the eastern mountains.",
    "q": "Where can Jai'vhanel be found?"
   },
   {
@@ -58,7 +58,7 @@
     "who posted the bounty",
     "who wants jaivhanel dead"
    ],
-   "answer": "The bounty was posted by the Auberdine Village Council, who oversee civil security and local welfare for the coastal settlement and surrounding roads.",
+   "answer": "The Auberdine Village Council posted the bounty. It oversees Auberdine's safety and welfare, along with that of the surrounding roads.",
    "q": "Who posted the bounty on Jai'vhanel?"
   },
   {
@@ -67,7 +67,7 @@
     "where to turn in jaivhanel feather",
     "glynda nalshea bounty"
    ],
-   "answer": "Bounty hunters must present one of Jai'vhanel's jet black feathers as proof of her demise to Sentinel Glynda Nal'Shea, stationed in the town of Auberdine.",
+   "answer": "Bring one of Jai'vhanel's black feathers to Sentinel Glynda Nal'Shea in Auberdine as proof of the kill.",
    "q": "Who collects the reward for Jai'vhanel?"
   },
   {
@@ -75,7 +75,7 @@
     "what is proof of death for jaivhanel",
     "what item proves jaivhanel died"
    ],
-   "answer": "Anyone claiming the council's bounty must retrieve and present one of Jai'vhanel's distinct jet black feathers to prove the mad bird has been slain.",
+   "answer": "One of Jai'vhanel's black feathers proves she has been slain.",
    "q": "What proof is needed to claim the bounty?"
   }
  ],
@@ -95,18 +95,19 @@
  ],
  "sections": [
   {
-   "body": "A posted notice from the Auberdine Village Council alerts travelers along the coastal roads of Darkshore to a dangerous menace. A prominent local owl known as Jai'vhanel, nicknamed 'Swordfeather', has succumbed to a sudden madness. Rather than keeping to the dense wilderness, she has begun ambushing travelers and couriers journeying near Auberdine, transforming an ordinary woodland predator into a critical hazard for the settlement.",
+   "body": "On Darkshore's coastal roads near Auberdine, travelers face danger from a mad owl. Jai'vhanel, known locally as Swordfeather, has turned on those who pass. She ambushes travelers and couriers near the settlement, leaving the roads unsafe.",
    "spoiler": 0,
    "title": "A Threat on the Road"
   },
   {
-   "body": "To secure the safety of the roadways, the council has placed an open bounty on Jai'vhanel's head. Slayers are directed to track the black-feathered raptor to her hunting grounds north of the ruins of Ameth'Aran, along the mountain base. Hunters must bring back one of her distinctive jet black feathers to Sentinel Glynda Nal'Shea in Auberdine to verify the kill and collect their reward.",
+   "body": "The Auberdine Village Council offers a bounty to make the roads safer. Jai'vhanel hunts north of the ruins of Ameth'Aran, along the mountain base. Bring one of her black feathers to Sentinel Glynda Nal'Shea in Auberdine as proof of the kill and to claim the reward.",
    "spoiler": 0,
    "title": "The Council's Bounty"
   }
  ],
- "summary": "WANTED: Jai'vhanel is an Alliance bounty posted by the Auberdine Village Council in Darkshore. The notice calls for the elimination of Jai'vhanel, a maddened black owl known as 'Swordfeather' that has begun ambushing travelers along the road near Auberdine. Adventurers must hunt the creature near the ruins of Ameth'Aran and bring proof of her death to Sentinel Glynda Nal'Shea.",
+ "summary": "Near Auberdine, Jai'vhanel ambushes travelers on the coastal roads. The Auberdine Village Council has set a bounty for her death near the ruins of Ameth'Aran, with proof to be brought to Sentinel Glynda Nal'Shea.",
  "attribution": [
   "In-game quest text: WANTED: Jai'vhanel"
- ]
+ ],
+ "style": 2
 }

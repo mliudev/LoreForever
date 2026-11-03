@@ -27,16 +27,16 @@
    "Bloodsail Buccaneers"
   ]
  },
- "summary": "Fleet Master Seahorn trusts a loyal ally of the Blackwater Raiders with striking the Bloodsail Buccaneers' so-called southern command post on the Wild Shore. Recovering their charts and written orders will show exactly what those pirates are up to.",
+ "summary": "On the Wild Shore, the Bloodsail Buccaneers have raised a southern command post. Fleet Master Seahorn sends a trusted Blackwater Raider to seize their charts and orders, so the fleet can learn their plans.",
  "sections": [
   {
    "title": "Raiding the Wild Shore",
-   "body": "Following earlier efforts for Crazz, Fleet Master Seahorn takes notice of your loyalty to the Blackwater Raiders. The Bloodsail Buccaneers have set up what they call a southern command post on the Wild Shore. Seahorn directs you to raid this encampment, cut down their swashbucklers, and seize their naval charts and written orders so the fleet can learn their intentions.",
+   "body": "Crazz’s praise has brought you to Fleet Master Seahorn’s notice. The Bloodsail Buccaneers have raised a southern command post on the Wild Shore. Seahorn sends you to strike their camp, cut down their swashbucklers, and seize their naval charts and written orders. The fleet needs those papers to learn what its rivals intend.",
    "spoiler": 0
   },
   {
    "title": "Uncovering the Fleet's Scheme",
-   "body": "With the charts and orders in hand, Seahorn learns the Bloodsail plan and concludes that the pirates have anchored close to the cape.",
+   "body": "The Bloodsail charts and orders reveal the pirates’ plan. Seahorn concludes they have anchored close to the cape.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "who gives the bloodsail buccaneers quest",
     "seahorn quest"
    ],
-   "answer": "Fleet Master Seahorn gives this assignment from Booty Bay after hearing praise about your dedication from Crazz."
+   "answer": "Fleet Master Seahorn assigns the raid from Booty Bay after Crazz praises your dedication."
   },
   {
    "q": "Where is the Bloodsail command post located?",
@@ -55,7 +55,7 @@
     "bloodsail southern command post location",
     "where is wild shore"
    ],
-   "answer": "The Buccaneers have set up their southern command camp along the Wild Shore, south of Booty Bay in Stranglethorn Vale."
+   "answer": "The Bloodsail Buccaneers’ southern command camp lies along the Wild Shore, south of Booty Bay in Stranglethorn Vale."
   },
   {
    "q": "What items are needed from the Bloodsail encampment?",
@@ -63,7 +63,7 @@
     "what documents does seahorn want",
     "bloodsail orders and charts"
    ],
-   "answer": "Seahorn asks for the Bloodsail Charts and their written Bloodsail Orders to decipher what the rival buccaneers intend to do."
+   "answer": "Seahorn asks you to recover the Bloodsail Charts and written Bloodsail Orders to learn what the rival buccaneers intend."
   },
   {
    "q": "Why does Fleet Master Seahorn want their charts and orders?",
@@ -71,7 +71,7 @@
     "why raid wild shore",
     "what does seahorn want to know"
    ],
-   "answer": "Seahorn wants to see exactly what the Bloodsail Buccaneers are up to."
+   "answer": "Fleet Master Seahorn wants the charts and orders to learn what the Bloodsail Buccaneers are planning."
   }
  ],
  "angles": [],
@@ -93,5 +93,6 @@
  ],
  "attribution": [
   "The Bloodsail Buccaneers (4)"
- ]
+ ],
+ "style": 2
 }

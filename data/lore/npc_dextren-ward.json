@@ -8,21 +8,21 @@
   "wiki": "Dextren Ward",
   "refs": 5
  },
- "summary": "In the Stormwind Stockade, Dextren Ward remains a prisoner amid a bloody uprising. Before his capture, he dug up bodies at Raven Hill Cemetery in Duskwood and sold them to the necromancer Morbent Fel. Darkshire's town council has marked him for death.",
+ "summary": "In the Stormwind Stockade, Dextren Ward remains a prisoner during a bloody uprising. Before his capture, he dug up bodies at Raven Hill Cemetery in Duskwood and sold them to the necromancer Morbent Fel. Darkshire's town council has marked him for death.",
  "sections": [
   {
    "title": "Grave Robbery in Duskwood",
-   "body": "Before chains bound him beneath Stormwind, Dextren Ward robbed graves in Duskwood for profit. At Raven Hill Cemetery, where sorrow and horror had grown, he dug up the newly buried dead. He sold the bodies to local practitioners of dark arts.",
+   "body": "Before chains bound him beneath Stormwind, Dextren Ward robbed graves in Duskwood for profit. At Raven Hill Cemetery, he dug up the newly buried dead. He sold the bodies to local practitioners of dark arts.",
    "spoiler": 0
   },
   {
    "title": "Pawn of the Necromancer",
-   "body": "Morbent Fel, a necromancer whose rituals plagued Duskwood and swelled the undead ranks, was Ward's main customer. By supplying him with bodies, Ward helped spread terror through Darkshire. Stormwind authorities eventually captured Ward and brought him to the Stockade. His crimes left the people of Duskwood demanding justice, and Councilman Millstipe called for Ward's hand as proof.",
+   "body": "Morbent Fel, a necromancer, was Ward's main customer. His rituals plagued Duskwood and swelled the undead ranks. By supplying him with bodies, Ward helped spread terror through Darkshire.\n\nStormwind authorities eventually captured Ward and brought him to the Stockade. The people of Duskwood demanded justice for his crimes. Councilman Millstipe called for Ward's hand as proof.",
    "spoiler": 0
   },
   {
    "title": "Chaos in the Stockade",
-   "body": "A rebellion swept through the Stockade, and Ward was freed from his cell amid the chaos. Armed and vicious, he seized control of his corner of the prison and uses fear to keep intruders away. Alliance forces seeking to restore order count him among their priority targets.",
+   "body": "A rebellion swept through the Stockade, and Ward was freed from his cell in the chaos. Armed and vicious, he seized control of his corner of the prison. Now he uses fear to keep intruders away. Alliance forces seeking to restore order count him among their priority targets.",
    "spoiler": 0
   }
  ],
@@ -52,7 +52,7 @@
     "dextren ward bounty",
     "crime and punishment questgiver"
    ],
-   "answer": "Councilman Millstipe of Darkshire wants Ward dead. He demands Ward's hand as proof of justice for the desecrated graves of Duskwood."
+   "answer": "Councilman Millstipe of Darkshire wants Ward dead. He demands Ward's hand as proof of justice for Duskwood's desecrated graves."
   },
   {
    "q": "What is Ward's connection to Morbent Fel?",
@@ -120,5 +120,5 @@
  "attribution": [
   "Dextren Ward"
  ],
- "style": 1
+ "style": 2
 }

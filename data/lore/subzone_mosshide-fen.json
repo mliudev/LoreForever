@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Mosshide Fen"
  },
- "summary": "In eastern Wetlands, Mosshide Fen is held by the Mosshide gnolls. Its primitive camps lie far from the main trade roads, where travelers face danger.",
+ "summary": "In eastern Wetlands, the Mosshide gnolls keep travelers from their hunting grounds. Their camps lie far from the main trade roads, where danger waits in the marsh.",
  "sections": [
   {
    "title": "Territory of the Pack",
-   "body": "Mosshide gnolls hold the tangled marsh of eastern Wetlands. Rough lean-tos and bone-strewn camps mark their territory. Gnawbone and other pack leaders command the tribe, which ambushes and devours travelers, scouts, and prospectors who enter its hunting grounds.",
+   "body": "Rough lean-tos and bone-strewn camps mark the Mosshide gnolls’ territory in eastern Wetlands. Gnawbone and the other pack leaders command the tribe. Their hunters ambush travelers, scouts, and prospectors who enter the tangled marsh, then devour them.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is this place",
     "mosshide swamp"
    ],
-   "answer": "Mosshide Fen lies in eastern Wetlands, where sodden marshland is claimed and settled by the Mosshide gnolls."
+   "answer": "The Mosshide gnolls claim and settle the sodden marsh of eastern Wetlands."
   },
   {
    "q": "Who rules Mosshide Fen?",
@@ -32,7 +32,7 @@
     "gnawbone",
     "mosshide leader"
    ],
-   "answer": "The Mosshide gnolls occupy the fen under brutal leaders such as Gnawbone, who commands his pack to capture and devour outsiders trespassing on their land."
+   "answer": "The Mosshide gnolls occupy the fen under brutal leaders such as Gnawbone. He commands his pack to capture and devour outsiders who trespass on their land."
   },
   {
    "q": "Why is this area dangerous to travelers?",
@@ -40,13 +40,13 @@
     "why is it dangerous",
     "fen dangers"
    ],
-   "answer": "Mosshide gnolls are aggressive and hungry. Travelers who leave established paths or search the wet brush for supplies risk sudden ambush by hunting packs."
+   "answer": "Mosshide gnolls are aggressive and hungry. Travelers who leave established paths or search the wet brush for supplies risk a sudden ambush by hunting packs."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you must keep watch on Mosshide Fen. Its aggressive gnoll packs threaten prospectors searching the marshes and scouts securing the eastern paths."
+   "text": "As a dwarf, keep watch on Mosshide Fen. Its aggressive gnoll packs threaten prospectors searching the marshes and scouts securing the eastern paths."
   }
  ],
  "keywords": [
@@ -65,5 +65,5 @@
  "attribution": [
   "Mosshide Fen"
  ],
- "style": 1
+ "style": 2
 }

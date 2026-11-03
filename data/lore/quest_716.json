@@ -21,16 +21,16 @@
    "Study of the Elements: Rock (3)"
   ]
  },
- "summary": "Lucien Tosselwrench knows how cheap Lotwil can be, and offers to make something for your trouble: enchanted bracers built from the extra stones you collected. What Lucien lacks is a blacksmith's patterned bronze bracers.",
+ "summary": "In the Badlands, Lucien Tosselwrench has a gift for you, though his work is not finished. The extra stones you gathered are ready, but he still needs patterned bronze bracers.",
  "sections": [
   {
    "title": "A Thank-You for Your Trouble",
-   "body": "After the Study of the Elements: Rock trials, Lucien Tosselwrench admits how cheap Lotwil can be and wants to make it up to you. Lucien has been busy with the extra stones you gathered and can make fine enchanted bracers. They may even help guard you against what Lucien calls the coming atrocity of Lotwil's newest invention.",
+   "body": "After your work for Lotwil on his third Study of the Elements: Rock request, Lucien Tosselwrench admits Lotwil can be cheap. He means to make it up to you with fine enchanted bracers fashioned from the extra stones you gathered. They may help guard you against the coming atrocity of Lotwil's newest invention.",
    "spoiler": 0
   },
   {
    "title": "What Lucien Needs",
-   "body": "To finish the bracers, Lucien needs patterned bronze bracers, the kind a blacksmith makes. Lucien warns that it is wise not to wait long, since no one knows what happens next.",
+   "body": "To finish the bracers, Lucien needs patterned bronze bracers of the kind a blacksmith makes. He warns you not to wait long. No one knows what happens next.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "quest giver",
     "lucien tosselwrench"
    ],
-   "answer": "Lucien Tosselwrench, in the Badlands, offers to make enchanted bracers from the extra stones you collected."
+   "answer": "Lucien Tosselwrench offers to make enchanted bracers from your extra stones in the Badlands."
   },
   {
    "q": "Why is Lucien making this armor for you?",
@@ -51,7 +51,7 @@
     "lucien motive",
     "lotwil cheap"
    ],
-   "answer": "Lucien knows how cheap Lotwil can be and wants to make something for all your troubles. It may also help protect you from Lotwil's newest invention."
+   "answer": "Lucien knows Lotwil can be cheap and wants to repay you for your trouble. He says the bracers may also guard you against Lotwil's newest invention."
   },
   {
    "q": "What does Lucien need to finish crafting the bracers?",
@@ -60,7 +60,7 @@
     "required items",
     "patterned bronze bracers needed"
    ],
-   "answer": "Patterned bronze bracers, the kind a blacksmith makes."
+   "answer": "Lucien needs patterned bronze bracers, the kind a blacksmith makes, to finish the enchanted bracers."
   },
   {
    "q": "What comes before this quest?",
@@ -68,13 +68,13 @@
     "previous quest",
     "prerequisite for stone is better than cloth"
    ],
-   "answer": "It follows Lotwil's third Study of the Elements: Rock request."
+   "answer": "It follows your work on Lotwil's third Study of the Elements: Rock request."
   }
  ],
  "angles": [
   {
    "target": "profession:Blacksmithing",
-   "text": "The bronze bracers Lucien wants come from a blacksmith."
+   "text": "As a blacksmith, you can make the bronze bracers Lucien needs."
   }
  ],
  "keywords": [
@@ -91,5 +91,6 @@
  ],
  "attribution": [
   "Stone Is Better than Cloth"
- ]
+ ],
+ "style": 2
 }

@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "Master of the Pack",
-   "body": "Ogunaro Wolfrunner tends Orgrimmar’s battle wolves beside the Hunter’s Hall in the Valley of Honor. Orcs and wolves have shared a bond for generations, across Draenor’s plains and Durotar’s wilderness. It rests on mutual respect, not simple domestication. Ogunaro entrusts only the hardiest beasts, from dire wolves to agile timber prowlers, to warriors who have proven their strength and worth to the warchief.",
+   "body": "Beside the Hunter’s Hall in the Valley of Honor, Ogunaro Wolfrunner tends Orgrimmar’s battle wolves. Orcs and wolves have shared a bond for generations, across Draenor’s plains and Durotar’s wilderness. It rests on mutual respect, not simple domestication. Ogunaro entrusts only the hardiest beasts, from dire wolves to agile timber prowlers, to warriors who have proven their strength and worth to the warchief.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "wolf vendor orgrimmar",
     "orc mount vendor"
    ],
-   "answer": "Ogunaro Wolfrunner is the Horde’s foremost wolf breeder and mount vendor, found outside the Hunter’s Hall in Orgrimmar’s Valley of Honor."
+   "answer": "Outside the Hunter’s Hall in Orgrimmar’s Valley of Honor, Ogunaro Wolfrunner breeds wolves and sells mounts for the Horde."
   },
   {
    "q": "Can anyone purchase a wolf from him?",
@@ -68,5 +68,5 @@
  "attribution": [
   "Ogunaro Wolfrunner"
  ],
- "style": 1
+ "style": 2
 }

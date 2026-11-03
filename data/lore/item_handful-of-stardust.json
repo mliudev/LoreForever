@@ -10,11 +10,11 @@
    "quest:1034"
   ]
  },
- "summary": "In the Ruins of Stardust, a pale frost gathers on the bushes south of Astranaar. Night elven healers use the powder to cool intense fevers.",
+ "summary": "In the Ruins of Stardust, frost gathers on bushes south of Astranaar. Night elven healers use the powder to cool intense fevers.",
  "sections": [
   {
    "title": "A Cooling Herbal Remedy",
-   "body": "Stardust clings to shrubs in the Ruins of Stardust, south of Astranaar. The fine powder shines like frost. Lingering elemental spirits haunt the ruins, yet plants thrive among the broken stones and take in a rare glow. Night elven healers make the residue into poultices for dangerous, persistent fevers. They turn to it when ordinary salves and moonwell waters bring no full relief.",
+   "body": "Stardust clings to shrubs in the Ruins of Stardust, south of Astranaar. Its fine powder shines like frost. Elemental spirits linger among the broken stones, yet plants thrive there and take in a rare glow. Night elven healers make the residue into poultices for dangerous, persistent fevers. They use it when ordinary salves and moonwell waters bring no full relief.",
    "spoiler": 0
   },
   {
@@ -31,7 +31,7 @@
     "where to find stardust",
     "stardust covered bushes"
    ],
-   "answer": "You can gather stardust from the shining bushes in the Ruins of Stardust, south of Astranaar in central Ashenvale."
+   "answer": "Gather stardust from the shining bushes in the Ruins of Stardust, south of Astranaar in central Ashenvale."
   },
   {
    "q": "What is this stardust used for?",
@@ -40,7 +40,7 @@
     "pelturas cure",
     "stardust purpose"
    ],
-   "answer": "Pelturas Whitemoon uses the powder in a soothing poultice for the unrelenting fever afflicting his daughter, Relara."
+   "answer": "Night elven healers use the powder in poultices for dangerous, persistent fevers. Pelturas Whitemoon sought it to make a cooling paste for his daughter, Relara."
   },
   {
    "q": "What dangers surround the stardust bushes?",
@@ -56,13 +56,13 @@
     "is stardust magic",
     "elune connection stardust"
    ],
-   "answer": "Night elves revere celestial powers, and the ruins bear a starry name, but herbalists recommend stardust for its frosted, cooling nature as a physical medicine."
+   "answer": "The ruins bear a starry name, but herbalists recommend stardust for its frosted, cooling nature as a physical medicine."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "You gather stardust by hand from shining bushes. It reflects the night elves' use of rare local plants in restorative medicine."
+   "text": "Gather stardust by hand from shining bushes. It reflects the night elves' use of rare local plants in restorative medicine."
   },
   {
    "target": "race:NightElf",
@@ -93,5 +93,5 @@
   "Handful of Stardust",
   "The Ruins of Stardust (quest)"
  ],
- "style": 1
+ "style": 2
 }

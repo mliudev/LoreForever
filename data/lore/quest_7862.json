@@ -18,16 +18,16 @@
   "chain": [],
   "category": "Hinterlands"
  },
- "summary": "Guard Captain Malkhor has been lost, and Revantusk's guard needs a new captain. Anyone who wants the post must wipe out Vilebranch Berserkers, Shadow Hunters, Blood Drinkers and Soul Eaters, then bring an application to Primal Torntusk in the Hinterlands.",
+ "summary": "Revantusk Village needs a new leader for its guard. Applicants must prove themselves against four kinds of Vilebranch and bring an application to Primal Torntusk.",
  "sections": [
   {
    "title": "A Vacant Post",
-   "body": "A call to arms announces that Guard Captain Malkhor has been lost, so Revantusk's guard has no captain once more. Whoever wants to lead it is invited to do the work set out in the notice and then send an application to Primal Torntusk.",
+   "body": "Guard Captain Malkhor has been lost, leaving Revantusk's guard without a captain once more. The notice calls on anyone who wants to lead the guard to complete its work and send an application to Primal Torntusk.",
    "spoiler": 0
   },
   {
    "title": "Proving Worth",
-   "body": "An applicant is to exterminate four kinds of Vilebranch: Berserkers, Shadow Hunters, Blood Drinkers and Soul Eaters. When that is done, return to Primal Torntusk in Revantusk Village.",
+   "body": "To seek the captaincy, defeat Vilebranch Berserkers, Shadow Hunters, Blood Drinkers and Soul Eaters. Then return to Primal Torntusk in Revantusk Village.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "what happened to malkhor",
     "who was previous captain"
    ],
-   "answer": "Guard Captain Malkhor was lost, and the notice says the captaincy of Revantusk is vacant again."
+   "answer": "Guard Captain Malkhor was lost, leaving the captaincy vacant again."
   },
   {
    "q": "Who receives the application once the enemies are slain?",
@@ -48,7 +48,7 @@
     "where to submit application",
     "who evaluates the applicants"
    ],
-   "answer": "Applications go to Primal Torntusk, in Revantusk Village."
+   "answer": "Bring the application to Primal Torntusk in Revantusk Village."
   },
   {
    "q": "Which enemies must be defeated to qualify?",
@@ -57,7 +57,7 @@
     "job opening targets",
     "who do i kill for guard captain"
    ],
-   "answer": "Applicants must exterminate Vilebranch Berserkers, Shadow Hunters, Blood Drinkers and Soul Eaters."
+   "answer": "Applicants must defeat Vilebranch Berserkers, Shadow Hunters, Blood Drinkers and Soul Eaters."
   }
  ],
  "angles": [],
@@ -77,5 +77,6 @@
  ],
  "attribution": [
   "Wowpedia: Job Opening: Guard Captain of Revantusk Village"
- ]
+ ],
+ "style": 2
 }

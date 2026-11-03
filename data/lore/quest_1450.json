@@ -24,16 +24,16 @@
    "Into The Temple of Atal'Hakkar"
   ]
  },
- "summary": "Falstad Wildhammer will not be drawn on who once flew with an old Explorers' League friend, and sends you off to ask the gryphon master. Gryphon Master Talonaxe waits inside the Aerie Peak Aviary.",
+ "summary": "Inside the Aerie Peak Aviary, flight assignments fall to Gryphon Master Talonaxe. Falstad Wildhammer sends you there after turning away someone who came for an old Explorers' League friend.",
  "sections": [
   {
    "title": "Sent Away",
-   "body": "Falstad Wildhammer has no patience for someone sent on behalf of an old Explorers' League member. Who that friend once flew with is not something Falstad knows, and the flight assignments are for the gryphon master to answer. Gryphon Master Talonaxe is to be found inside the Aerie Peak Aviary, and lingering around Falstad will earn real work.",
+   "body": "Falstad Wildhammer has little patience for a visitor sent by an old Explorers' League member. He does not know who that friend once flew with, and flight assignments belong to the gryphon master. You can find Gryphon Master Talonaxe inside the Aerie Peak Aviary. Falstad has real work for anyone who stays nearby.",
    "spoiler": 0
   },
   {
    "title": "What Talonaxe Remembers",
-   "body": "Talonaxe remembers sending a gryphon rider to help Brohann Caskbelly, and has long had a soft spot for the Explorers' League, since Talonaxe's father helped with the first excavation team to find Uldaman. The rider was Rhapsody Shindigger, whom Talonaxe thought the best at the time.",
+   "body": "Gryphon Master Talonaxe remembers sending a gryphon rider to help Brohann Caskbelly. Talonaxe has long cared for the Explorers' League, for Talonaxe's father helped the first excavation team to find Uldaman. The rider was Rhapsody Shindigger, whom Talonaxe thought the best at the time.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "falstad sending away",
     "who is talonaxe"
    ],
-   "answer": "Falstad does not know who the Explorers' League friend flew with, and points to the gryphon master as the one who handles flight assignments."
+   "answer": "Falstad Wildhammer does not know who the Explorers' League friend flew with. So he sends you to the gryphon master, who handles flight assignments."
   },
   {
    "q": "Where is Gryphon Master Talonaxe located?",
@@ -54,7 +54,7 @@
     "talonaxe location",
     "aerie peak aviary"
    ],
-   "answer": "Gryphon Master Talonaxe is inside the Aerie Peak Aviary."
+   "answer": "Gryphon Master Talonaxe waits inside the Aerie Peak Aviary."
   }
  ],
  "angles": [],
@@ -76,5 +76,6 @@
  ],
  "attribution": [
   "Wowpedia: Gryphon Master Talonaxe (quest)"
- ]
+ ],
+ "style": 2
 }

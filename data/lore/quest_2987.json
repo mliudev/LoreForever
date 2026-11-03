@@ -18,16 +18,16 @@
   "chain": [],
   "category": "Feralas"
  },
- "summary": "Orwin Gizzmick has just arrived in Feralas and heard that the Gordunni ogres keep interesting minerals buried. Orwin offers a shovel and asks you to head for the Gordunni Outpost, north of Camp Mojache, and dig up twelve samples of Gordunni cobalt, following the blue glow.",
+ "summary": "Orwin Gizzmick has come to Feralas seeking cobalt buried by the Gordunni ogres. He asks you to search the Gordunni Outpost, north of Camp Mojache, for twelve samples.",
  "sections": [
   {
    "title": "Buried Minerals",
-   "body": "Orwin Gizzmick has only just reached Feralas and has heard the Gordunni ogres possess some interesting minerals. Orwin does not know what the ogres are up to, but they guard it fiercely and do not leave it lying about. They bury it, to keep folks like Orwin from getting hold of it. Orwin gives you a shovel. The Gordunni Outpost lies north of the camp; a blue glow shows where to dig. Twelve samples of Gordunni cobalt are wanted.",
+   "body": "New to Feralas, Orwin Gizzmick has heard that the Gordunni ogres bury interesting minerals. They guard the minerals fiercely, keeping them from folk like Orwin. He does not know what they want them for.\n\nOrwin gives you a shovel and points you north of Camp Mojache to the Gordunni Outpost. Follow the blue glow and dig up twelve samples of Gordunni cobalt.",
    "spoiler": 0
   },
   {
    "title": "When the Cobalt Is Delivered",
-   "body": "Orwin means to carry the cobalt along on further travels, certain someone will pay a pretty penny for it, and gives you something for your trouble.",
+   "body": "Orwin means to carry the cobalt on his further travels. He is certain someone will pay a pretty penny for it. He gives you something for your trouble.",
    "spoiler": 1
   }
  ],
@@ -39,7 +39,7 @@
     "orwin gizzmick quest",
     "who wants cobalt"
    ],
-   "answer": "Orwin Gizzmick, at Camp Mojache, who has just arrived in Feralas."
+   "answer": "Orwin Gizzmick wants Gordunni cobalt. He has just arrived in Feralas and is at Camp Mojache."
   },
   {
    "q": "Where is the Gordunni cobalt?",
@@ -48,7 +48,7 @@
     "where to find cobalt feralas",
     "where is gordunni outpost"
    ],
-   "answer": "Buried in the Gordunni Outpost, north of Camp Mojache."
+   "answer": "The Gordunni cobalt lies buried at the Gordunni Outpost, north of Camp Mojache."
   },
   {
    "q": "How do you spot the buried cobalt?",
@@ -57,7 +57,7 @@
     "finding cobalt feralas",
     "blue glow ogre dirt"
    ],
-   "answer": "A blue glow gives away the spot, and then you dig."
+   "answer": "A blue glow marks where the cobalt is buried. Dig there to find it."
   },
   {
    "q": "Why do the ogres bury their cobalt?",
@@ -66,7 +66,7 @@
     "why do gordunni bury cobalt",
     "ogre cobalt buried"
    ],
-   "answer": "Orwin says the ogres are protective of it and bury it to keep folks like Orwin from getting hold of it. What they want it for, Orwin cannot say."
+   "answer": "Orwin says the ogres bury their cobalt and guard it fiercely to keep folk like him from getting hold of it. He does not know what they want it for."
   },
   {
    "q": "How much cobalt does Orwin want?",
@@ -74,7 +74,7 @@
     "cobalt count",
     "how many gordunni cobalt"
    ],
-   "answer": "Twelve samples, dug up with Orwin's shovel."
+   "answer": "Orwin wants twelve samples, dug up with his shovel."
   }
  ],
  "angles": [],
@@ -96,5 +96,6 @@
  ],
  "attribution": [
   "Gordunni Cobalt (quest)"
- ]
+ ],
+ "style": 2
 }

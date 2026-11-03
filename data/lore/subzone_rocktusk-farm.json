@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Rocktusk Farm"
  },
- "summary": "Swine feed Orgrimmar from Rocktusk Farm, just beyond the city gates in northern Durotar. The farm supplies meat and provisions to the capital, where dry, stony ground makes crops hard to grow.",
+ "summary": "At Rocktusk Farm, swine feed Orgrimmar from just beyond the city gates in northern Durotar. Dry, stony ground makes crops hard to grow, so the farm sends meat and provisions to the capital.",
  "sections": [
   {
    "title": "Provisions for the Capital",
-   "body": "Rocktusk Farm raises hardy swine on Durotar’s dry, stony ground. Crops are difficult to grow here, so the farm helps feed Orgrimmar’s growing population. Close to the capital’s fortified perimeter, it is safer than homesteads in the wild red canyonlands.",
+   "body": "Rocktusk Farm raises hardy swine on Durotar’s dry, stony ground. Crops are hard to grow here, so the farm helps feed Orgrimmar’s growing population. Near the capital’s fortified perimeter, it is safer than homesteads out in the wild red canyonlands.",
    "spoiler": 0
   }
  ],
@@ -39,13 +39,13 @@
     "is rocktusk farm safe",
     "dangers at rocktusk farm"
    ],
-   "answer": "Orgrimmar’s closeness and nearby Horde patrols make the farm safer than most outlying homesteads, though wild beasts and roaming pests still prowl its outskirts."
+   "answer": "Orgrimmar’s closeness and nearby Horde patrols make the farm safer than most outlying homesteads. Wild beasts and roaming pests still prowl its outskirts."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you can see how the swine from this farm help feed the warriors and laborers stationed in Orgrimmar."
+   "text": "As a member of the Horde, you can see how swine from this farm help feed the warriors and laborers stationed in Orgrimmar."
   },
   {
    "target": "profession:Cooking",
@@ -69,5 +69,5 @@
  "attribution": [
   "Rocktusk Farm"
  ],
- "style": 1
+ "style": 2
 }

@@ -21,16 +21,16 @@
    "Delivering Daffodils"
   ]
  },
- "summary": "In Lakeshire, you carry flowers from Martie Jainrose to Darcy, and an awkward rivalry comes to light. First, you bring lunch to Guard Parker, who asks you to collect a bouquet for Darcy at the Lakeshire Inn.",
+ "summary": "In Lakeshire, Delivering Daffodils brings you from Guard Parker's thanks to an uneasy exchange at the inn. First you take Parker his lunch, then carry flowers from Martie Jainrose to Darcy.",
  "sections": [
   {
    "title": "A Fragrant Errand",
-   "body": "Guard Parker thanks you for bringing his lunch and asks you to fetch flowers from Martie Jainrose for Darcy, the cook who prepared his meal. Martie arranges a bouquet of daffodils, her own favorite flowers, without knowing who will receive them.",
+   "body": "Guard Parker thanks you for bringing his lunch. Darcy, the cook who prepared it, is owed a kindness, so Parker asks you to fetch flowers from Martie Jainrose. Martie arranges a bouquet of daffodils, her own favorite flowers. She does not know who will receive them.",
    "spoiler": 0
   },
   {
    "title": "Town Rivalries",
-   "body": "At the Lakeshire Inn, Darcy's delight turns to suspicion when she sees the daffodils. She knows they are Martie's favorite and considers Martie a jealous rival. Darcy fears Martie might have poisoned the stems if she had known who would receive them, but she does not blame you. She gives you hot sauteed sunfish for your trouble.",
+   "body": "At the Lakeshire Inn, Darcy is delighted to see the bouquet, then grows suspicious. She knows the daffodils are Martie's favorite and considers Martie a jealous rival. Darcy fears Martie might have poisoned the stems if she had known the flowers were meant for her. She does not blame you, and gives you hot sauteed sunfish for your trouble.",
    "spoiler": 1
   }
  ],
@@ -60,7 +60,7 @@
     "darcy martie feud",
     "why poisoned flowers"
    ],
-   "answer": "Darcy recognizes the daffodils as Martie's favorite flowers and considers Martie a jealous rival. She fears Martie would have poisoned the stems if she had known the bouquet was meant for Darcy."
+   "answer": "Darcy recognizes the daffodils as Martie's favorite flowers and considers Martie a jealous rival. She fears Martie might have poisoned the stems if she had known the bouquet was meant for Darcy."
   },
   {
    "q": "Did Martie actually poison the bouquet?",
@@ -68,7 +68,7 @@
     "are daffodils poisoned",
     "is bouquet poisoned"
    ],
-   "answer": "No. Martie did not know the flowers were for Darcy; Parker only asked you to pick up a bouquet, so Martie chose her own favorites."
+   "answer": "No. Martie did not know the flowers were for Darcy. Parker only asked you to pick up a bouquet, so Martie chose her own favorites."
   },
   {
    "q": "What quests lead up to this delivery?",
@@ -122,5 +122,5 @@
  "attribution": [
   "Delivering Daffodils"
  ],
- "style": 1
+ "style": 2
 }

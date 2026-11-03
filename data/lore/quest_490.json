@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The Gnarlpine were once peaceful neighbors and allies to the Kaldorei, making their fall to corruption and the resulting bounty a tragic necessity for the defense of Teldrassil."
+   "text": "The Gnarlpine were once peaceful neighbors and allies to the Kaldorei. Their corruption now threatens Teldrassil."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Sentinels are actively securing the night elf homeland from internal corruption, calling on Alliance adventurers to purge dangerous furbolg encampments across the boughs."
+   "text": "The Sentinels call on Alliance adventurers to secure the night elf homeland from corruption by clearing dangerous furbolg encampments across the boughs."
   },
   {
    "target": "class:Druid",
-   "text": "Watching the furbolg lose their harmony with nature to become hostile beasts threatens the balance of the glade that druids are sworn to preserve."
+   "text": "As a druid, you see how the Gnarlpine have lost their harmony with nature. Their hostility now endangers the balance of the glade you are sworn to preserve."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "where to get gnarlpine bounty",
     "shayla nightbreeze location"
    ],
-   "answer": "Shayla Nightbreeze commissions this bounty. She is stationed along the road leading outside the capital city of Darnassus on Teldrassil.",
+   "answer": "Shayla Nightbreeze offers the bounty from the road outside Darnassus, Teldrassil’s capital.",
    "q": "Who offers the bounty on the Gnarlpine furbolg?"
   },
   {
@@ -41,7 +41,7 @@
     "why are gnarlpine hostile",
     "what happened to gnarlpine furbolg"
    ],
-   "answer": "The Gnarlpine furbolg have succumbed to corruption, turning them into mindless and aggressive threats to travelers, night elf settlements, and the natural wildlife of Teldrassil.",
+   "answer": "Corruption has stripped the Gnarlpine of reason and made them aggressive threats to travelers, night elf settlements, and Teldrassil’s natural wildlife.",
    "q": "Why are the Gnarlpine furbolg being hunted?"
   },
   {
@@ -50,7 +50,7 @@
     "where are gnarlpine on teldrassil",
     "where to find furbolg"
    ],
-   "answer": "Major Gnarlpine concentrations can be found at Ban'ethil Hollow, located west of Dolanaar and south of the main path, as well as in Starbreeze Village further to the east.",
+   "answer": "The Gnarlpine gather in Ban'ethil Hollow, west of Dolanaar and south of the main path, and in Starbreeze Village farther east.",
    "q": "Where can the Gnarlpine furbolg be found?"
   },
   {
@@ -59,7 +59,7 @@
     "what proof shayla wants",
     "gnarlpine fangs proof"
    ],
-   "answer": "Shayla Nightbreeze requires adventurers to collect and present Gnarlpine fangs as physical proof of removing the furbolg threats from the boughs of the World Tree.",
+   "answer": "Shayla Nightbreeze requires Gnarlpine fangs as physical proof that the furbolg threats have been removed from the boughs of the World Tree.",
    "q": "What proof is required to claim the bounty?"
   },
   {
@@ -67,7 +67,7 @@
     "who ordered gnarlpine bounty",
     "who authorized furbolg bounty"
    ],
-   "answer": "The bounty was commissioned under strict orders decreed directly by the Sentinels, the military protectors of the night elves, to secure the boughs of Teldrassil.",
+   "answer": "The Sentinels authorized the bounty through direct orders to secure Teldrassil’s boughs. They are the night elves’ military protectors.",
    "q": "Who authorized the bounty on the Gnarlpine?"
   },
   {
@@ -75,7 +75,7 @@
     "were furbolgs always enemies",
     "did furbolg used to be friendly"
    ],
-   "answer": "Historically, furbolgs were allies and friends of the forest who coexisted peacefully with the night elves, but corruption has severed their peaceful nature and twisted their minds.",
+   "answer": "Furbolgs once allied with the night elves and lived peacefully beside them. Corruption has twisted their minds and broken that peace.",
    "q": "Were the Gnarlpine always hostile to the night elves?"
   }
  ],
@@ -102,18 +102,19 @@
  ],
  "sections": [
   {
-   "body": "On the road outside Darnassus, Shayla Nightbreeze acts on direct orders from the Sentinels to place a bounty on the Gnarlpine furbolg. Once peaceful inhabitants of the ancient forests, the Gnarlpine have succumbed to a spreading corruption that stripped away their reason, turning them into vicious threats to the safety of travelers and the natural sanctity of Teldrassil.",
+   "body": "Outside Darnassus, Shayla Nightbreeze carries the Sentinels’ orders to place a bounty on the Gnarlpine furbolg. They once lived peacefully in the ancient forests. Now corruption has stripped away their reason and made them vicious threats to travelers and Teldrassil’s natural sanctity.",
    "spoiler": 0,
    "title": "A Decree from the Sentinels"
   },
   {
-   "body": "To curb the Gnarlpine aggression, hunters are dispatched across the boughs of the World Tree to cull their ranks and collect their fangs as proof. The bulk of their corrupted population resides in two major strongholds: Ban'ethil Hollow, set south of the road west of Dolanaar, and the ruins of Starbreeze Village toward the east.",
+   "body": "Hunters cull the Gnarlpine across the boughs of the World Tree and collect their fangs as proof. Ban'ethil Hollow lies south of the road west of Dolanaar, and it is one of their two major strongholds. The other is the ruined Starbreeze Village to the east.",
    "spoiler": 0,
    "title": "Purging the Encampments"
   }
  ],
- "summary": "Bounty: Gnarlpine Furbolg is an Alliance quest authorized by the Sentinels to curb the aggressive furbolg population corrupting Teldrassil. Shayla Nightbreeze recruits adventurers outside Darnassus to hunt the corrupted beasts and collect their fangs as proof of deed.",
+ "summary": "Outside Darnassus, the Alliance bounty on Gnarlpine furbolg remains in force. Corruption spreads through Teldrassil, and Shayla Nightbreeze asks hunters to bring back the beasts’ fangs.",
  "attribution": [
   "In-game quest text: Bounty: Gnarlpine Furbolg"
- ]
+ ],
+ "style": 2
 }

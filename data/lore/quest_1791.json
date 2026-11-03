@@ -17,16 +17,16 @@
   "wiki": "The Windwatcher",
   "chain": []
  },
- "summary": "Warriors who have mastered the berserker stance are sent north to find The Windwatcher. After the Affray on Fray Island, Klannoc Macleod points them toward a weapon worthy of their fury.",
+ "summary": "Northward, warriors who master the berserker stance seek The Windwatcher. After the affray on Fray Island, klannoc macleod sends them to find a weapon worthy of their fury.",
  "sections": [
   {
    "title": "A Weapon for a Berserker",
-   "body": "You have survived the Affray on Fray Island and learned the berserker stance from Klannoc Macleod. Now Klannoc sends you far from the Barrens coast, across continents, to find a solitary craftsman who can forge an exceptional weapon.",
+   "body": "You survived the affray on Fray Island and learned the berserker stance from klannoc macleod. Now he sends you across continents, far from the Barrens coast, to find a solitary craftsman who can forge an exceptional weapon.",
    "spoiler": 0
   },
   {
    "title": "The Hermit on the Riverbank",
-   "body": "Bath'rah the Windwatcher lives beside the river that runs north past Tarren Mill. His camp rests among stone ruins in the contested land between the Alterac Mountains and the blighted Western Plaguelands. The troll hermit crafts weapons and commands potent elemental shamanism. He waits for warriors determined to forge a weapon of great power.",
+   "body": "Bath'rah the Windwatcher lives beside the river that runs north past Tarren Mill. His camp lies among stone ruins in contested land between the Alterac Mountains and the blighted Western Plaguelands. The troll hermit crafts weapons and commands potent elemental shamanism. He waits for warriors set on forging a weapon of great power.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives the windwatcher",
     "klannoc macleod quest"
    ],
-   "answer": "Klannoc Macleod sends you north after you survive the Affray on Fray Island and learn the berserker stance."
+   "answer": "klannoc macleod sends you north after you survive the affray on Fray Island and learn the berserker stance."
   },
   {
    "q": "Who is Bath'rah the Windwatcher?",
@@ -47,7 +47,7 @@
     "bathrah the windwatcher lore",
     "bath'rah identity"
    ],
-   "answer": "Bath'rah is a troll hermit, master weaponsmith, and powerful shaman living in the wilderness between the Alterac Mountains and the Western Plaguelands."
+   "answer": "Bath'rah is a troll hermit, master weaponsmith, and powerful shaman who lives in the wilderness between the Alterac Mountains and the Western Plaguelands."
   },
   {
    "q": "Where exactly is Bath'rah located?",
@@ -65,7 +65,7 @@
     "what is the purpose of this quest",
     "windwatcher purpose"
    ],
-   "answer": "Klannoc sends warriors to Bath'rah because those who master the berserker stance need an exceptional weapon, and Bath'rah knows both smithing and elemental shamanism."
+   "answer": "klannoc macleod sends warriors to Bath'rah because those who master the berserker stance need an exceptional weapon. Bath'rah knows both smithing and elemental shamanism."
   },
   {
    "q": "What comes after speaking with Bath'rah?",
@@ -74,7 +74,7 @@
     "cyclonian next quest",
     "windwatcher continuation"
    ],
-   "answer": "After you speak with Bath'rah, you face the elemental Cyclonian and gather rare materials to craft a potent weapon."
+   "answer": "After speaking with Bath'rah, you face the elemental Cyclonian and gather rare materials to craft a potent weapon."
   },
   {
    "q": "Is this journey safe for a traveler coming from the Barrens?",
@@ -88,11 +88,11 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you have mastered the berserker stance on Fray Island and now seek a powerful weapon forged through elemental craft."
+   "text": "As a warrior, you mastered the berserker stance on Fray Island. Now you seek a powerful weapon forged through elemental craft."
   },
   {
    "target": "race:Troll",
-   "text": "As a troll, you can see how troll shamans and weapon crafters preserve mystical knowledge amid Lordaeron's broken ruins, knowledge warriors of every heritage revere."
+   "text": "As a troll, you can see how troll shamans and weapon crafters preserve mystical knowledge amid Lordaeron's broken ruins. Warriors of every heritage revere that knowledge."
   }
  ],
  "keywords": [
@@ -119,5 +119,5 @@
  "attribution": [
   "The Windwatcher"
  ],
- "style": 1
+ "style": 2
 }

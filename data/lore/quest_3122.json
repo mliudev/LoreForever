@@ -28,16 +28,16 @@
    "Testing the Vessel (Classic)"
   ]
  },
- "summary": "With the shrunken head delivered in A Strange Request, Neeru Fireblade hands you the herbs and asks you to carry them to Witch Doctor Uzer'i in Feralas, along with word that Neeru is satisfied with the head.",
+ "summary": "Neeru Fireblade sends you to Witch Doctor Uzer'i in Feralas with herbs and word that he is satisfied with the shrunken head.",
  "sections": [
   {
    "title": "The Herbs Go Back",
-   "body": "After A Strange Request, Neeru Fireblade gives you a pouch of herbs for Witch Doctor Uzer'i. You are also asked to tell Uzer'i that Neeru is satisfied with the shrunken head. The pouch is bound for Uzer'i in Feralas.",
+   "body": "After A Strange Request, Neeru Fireblade gives you herbs for Witch Doctor Uzer'i in Feralas. Take them to Uzer'i and tell him Neeru is satisfied with the shrunken head.",
    "spoiler": 0
   },
   {
    "title": "The Ritual Begins",
-   "body": "Uzer'i says the herbs are just what is needed to prepare the muisek vessel, and hopes his latest incantations prove as powerful as he had hoped. He asks you to wait a moment while he performs the ritual and applies the herbs.",
+   "body": "Witch Doctor Uzer'i says the herbs are just what he needs to prepare the muisek vessel. He hopes his latest incantations prove as powerful as he expected. He asks you to wait while he performs the ritual and applies the herbs.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "where does this quest start",
     "who gave the herbs"
    ],
-   "answer": "Neeru Fireblade, the one you brought the shrunken head to."
+   "answer": "Neeru Fireblade gives you the herbs after you bring him the shrunken head."
   },
   {
    "q": "Where do the herbs go?",
@@ -56,7 +56,7 @@
     "what herbs are these",
     "where do i take the herb pouch"
    ],
-   "answer": "To Witch Doctor Uzer'i in Feralas."
+   "answer": "The herbs go to Witch Doctor Uzer'i in Feralas."
   },
   {
    "q": "Was Neeru pleased with the shrunken head?",
@@ -64,7 +64,7 @@
     "did neeru like the head",
     "neeru shrunken head trade"
    ],
-   "answer": "Yes. Neeru is satisfied with the head and asks you to say so to Uzer'i."
+   "answer": "Yes. Neeru is satisfied with the shrunken head and asks you to tell Uzer'i."
   }
  ],
  "angles": [],
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Return to Witch Doctor Uzer'i"
- ]
+ ],
+ "style": 2
 }

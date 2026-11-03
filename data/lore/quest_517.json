@@ -17,16 +17,16 @@
   "wiki": "Elixir of Agony (4)",
   "chain": []
  },
- "summary": "Apothecary Lydon’s work in Tarren Mill reaches a deadly test. His Elixir of Agony is ready, and he sends Horde champions to Dun Garok for a keg of Shindigger Stout.",
+ "summary": "In Tarren Mill, Apothecary Lydon puts his Elixir of Agony to a deadly test. He sends Horde champions to Dun Garok for a keg of Shindigger Stout.",
  "sections": [
   {
    "title": "A Bitter Brew",
-   "body": "Apothecary Lydon serves the Royal Apothecary Society and Lady Sylvanas in Tarren Mill. He has gathered lethal ingredients from across Hillsbrad and finished a new concoction. Frogs and stray dogs are no test for its strength. Lydon wants to see what it does to living adversaries.",
+   "body": "Apothecary Lydon serves the Royal Apothecary Society and Lady Sylvanas from Tarren Mill. He has gathered lethal ingredients across Hillsbrad and finished a new concoction. Frogs and stray dogs cannot test its strength. Lydon wants to see what it does to living adversaries.",
    "spoiler": 0
   },
   {
    "title": "Infiltrating Dun Garok",
-   "body": "Lydon needs a quiet way to carry his experiment. South of Hillsbrad, Ironforge dwarves hold the fortified stronghold of Dun Garok. He sends Horde agents into its underground barracks and mess halls to slip past dwarven rifles and axes and steal a keg of Shindigger Stout.",
+   "body": "Lydon needs a quiet way to carry his experiment. South of Hillsbrad, Ironforge dwarves hold the fortified stronghold of Dun Garok. He sends Horde agents into its underground barracks and mess halls. There, they must slip past dwarven rifles and axes to steal a keg of Shindigger Stout.",
    "spoiler": 0
   },
   {
@@ -70,7 +70,7 @@
     "who is umpi",
     "lydon assistant"
    ],
-   "answer": "Umpi is Apothecary Lydon’s assistant in Tarren Mill. Lydon says that opening jars of formaldehyde around the lab makes Umpi visibly nervous."
+   "answer": "Umpi is Apothecary Lydon’s assistant in Tarren Mill. Lydon says opening jars of formaldehyde around the lab makes Umpi visibly nervous."
   },
   {
    "q": "What is the ultimate goal of the Elixir of Agony?",
@@ -79,7 +79,7 @@
     "plague purpose",
     "forsaken poison goal"
    ],
-   "answer": "The Elixir of Agony is an experimental poison the Royal Apothecary Society made to eradicate the living. It serves the Forsaken campaign to secure Lordaeron from human and dwarven footholds."
+   "answer": "The Royal Apothecary Society made the Elixir of Agony as an experimental poison to eradicate the living. It serves the Forsaken campaign to secure Lordaeron from human and dwarven footholds."
   },
   {
    "q": "What comes next after retrieving the keg?",
@@ -88,7 +88,7 @@
     "what after dun garok",
     "elixir part 5"
    ],
-   "answer": "With the keg in hand, Lydon mixes the toxic elixir into the Shindigger Stout and sends you to deliver the tainted ale to an unsuspecting test subject."
+   "answer": "With the keg in hand, Lydon mixes the toxic elixir into the Shindigger Stout. He sends you to deliver the tainted ale to an unsuspecting test subject."
   }
  ],
  "angles": [
@@ -102,11 +102,11 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As Horde, you help undermine the Alliance presence at Dun Garok, where Tarren Mill holds a delicate foothold against relentless southern threats."
+   "text": "As Horde, you help undermine the Alliance presence at Dun Garok. Tarren Mill holds a delicate foothold against relentless threats from the south."
   },
   {
    "target": "class:Rogue",
-   "text": "As a Rogue, you slip through Dun Garok’s crowded mess halls unseen, stealing under the mountaineers’ noses."
+   "text": "As a Rogue, you slip unseen through Dun Garok’s crowded mess halls, stealing under the mountaineers’ noses."
   }
  ],
  "keywords": [
@@ -130,5 +130,5 @@
  "attribution": [
   "Elixir of Agony (4)"
  ],
- "style": 1
+ "style": 2
 }

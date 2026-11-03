@@ -7,26 +7,26 @@
  "meta": {
   "wiki": "Centaur"
  },
- "summary": "Centaur are a violent, horse-bodied humanoid race whose nomadic clans dominate the arid plains of central Kalimdor. Born from the tragic union between the demigod Zaetar and the earth princess Theradras, they spent centuries driving the tauren toward extinction before the newly arrived orcish Horde intervened.",
+ "summary": "Centaur clans still roam central Kalimdor, where they once drove the tauren close to extinction. Their line began with Zaetar and Theradras, and the Horde's arrival changed the course of their war with the tauren.",
  "sections": [
   {
    "title": "A Cursed Lineage",
-   "body": "Centaur legend traces the race to the caverns of Maraudon beneath Desolace. There, Zaetar, one of the immortal sons of the demigod Cenarius, and Princess Theradras, daughter of the elemental lord Therazane, sired the first centaur. Upon their emergence, the barbaric offspring turned on their father and killed him. Grief-stricken, Theradras trapped Zaetar's spirit within the winding caverns of Maraudon, yet she shielded her vicious children, who swiftly multiplied across Kalimdor.",
+   "body": "Centaur legend begins in Maraudon, beneath Desolace. Zaetar was an immortal son of the demigod Cenarius. Princess Theradras was daughter of Therazane, the elemental lord. Together they sired the first centaur. Soon after they emerged, the barbaric offspring turned on Zaetar and killed him. Grief-stricken, Theradras trapped his spirit in Maraudon's winding caverns. She shielded her vicious children as they multiplied across Kalimdor.",
    "spoiler": 0
   },
   {
    "title": "Centuries of Slaughter",
-   "body": "Following their emergence, the centaur expanded outward from Desolace, waging a brutal war of attrition against Kalimdor's native populations. The nomadic tauren suffered the most: driven from their fertile ancestral homeland of Mulgore, they were chased relentlessly across the Barrens. Centaur warbands treated the tauren as prey, burning settlements and hunting them for sport. By the time of the Third War, centuries of relentless pursuit had brought the tauren to the precipice of extinction, leaving them desperately fleeing endless marauders across the savannah.",
+   "body": "From Desolace, centaur spread across Kalimdor and waged brutal war against its native peoples. The nomadic tauren suffered most. Driven from their fertile ancestral home in Mulgore, they fled across the Barrens as centaur warbands burned their settlements and hunted them for sport. By the Third War, centuries of pursuit had brought the tauren near extinction. They fled the endless marauders across the savannah.",
    "spoiler": 0
   },
   {
    "title": "The Tide Turns",
-   "body": "Everything shifted when Warchief Thrall and the newly arrived orcish Horde landed upon Kalimdor. Thrall formed a pact with Cairne Bloodhoof, uniting orcish steel with tauren might. Together, they crushed the aggressive Kolkar warbands, broke their grip on the plains, and enabled the tauren to safely establish Thunder Bluff and reclaim Mulgore. This alliance ended the nomadic exile of the tauren and established a debt of blood and honor that permanently bound them into the Horde.",
+   "body": "The balance shifted when Warchief Thrall and the newly arrived orcish Horde landed on Kalimdor. Thrall made a pact with Cairne Bloodhoof. Orcish steel joined with tauren might, and together they crushed the aggressive Kolkar warbands and broke their hold on the plains. The tauren could safely establish Thunder Bluff and reclaim Mulgore. Their exile ended, and a debt of blood and honor bound them to the Horde.",
    "spoiler": 0
   },
   {
    "title": "A Fractured Menace",
-   "body": "Despite their staggering defeats, centaur remain an active threat across central Kalimdor. Their society is divided into warring clans\u2014primarily the Kolkar, Gelkis, Magram, and Maraudine\u2014each led by a khan and locked in perpetual blood feuds over territory and water. While their internal squabbles keep them from uniting into an unstoppable horde, aggressive raiding parties continue to strike at trade caravans and settlements across Durotar, the Barrens, Thousand Needles, and the borders of Mulgore.",
+   "body": "Centaur remain a threat across central Kalimdor despite their defeats. Their society is divided among warring clans, chiefly the Kolkar, Gelkis, Magram, and Maraudine. Each follows a khan, and the clans feud over territory and water. Their infighting keeps them from uniting. Yet raiding parties still strike trade caravans and settlements across Durotar, the Barrens, Thousand Needles, and the borders of Mulgore.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who created the centaur",
     "centaur creation lore"
    ],
-   "answer": "They were born from the union between Zaetar, a son of Cenarius, and Princess Theradras, an elemental princess of earth. The barbaric first centaur turned on their father and killed him, and Theradras then trapped his spirit in the sacred caverns of Maraudon."
+   "answer": "Centaur legend traces their birth to Zaetar, son of Cenarius, and Princess Theradras, daughter of Therazane, the elemental lord. The first centaur killed Zaetar, and Theradras trapped his spirit in Maraudon's caverns."
   },
   {
    "q": "Why do centaur hate the tauren so much?",
@@ -47,7 +47,7 @@
     "why do centaur hunt tauren",
     "centaur tauren war"
    ],
-   "answer": "Centaur expanded aggressively from Desolace and spent generations raiding the indigenous peoples of the plains. They hunted the tauren for sport and drove them out of Mulgore into an endless nomadic exile across the Barrens, nearly exterminating the entire race before the orcs intervened."
+   "answer": "Centaur spread from Desolace and raided the plains' native peoples for generations. They hunted the tauren for sport and drove them from Mulgore into exile across the Barrens. Before the orcs intervened, the tauren stood near extinction."
   },
   {
    "q": "What clans do the centaur belong to?",
@@ -56,7 +56,7 @@
     "names of centaur clans",
     "centaur factions"
    ],
-   "answer": "The primary clans on Kalimdor are the Kolkar, Gelkis, Magram, Maraudine, and Galak. Each trace their leadership back to the original khans who founded them and frequently wage bloody feuds against one another."
+   "answer": "The main centaur clans on Kalimdor are the Kolkar, Gelkis, Magram, Maraudine, and Galak. Each traces its leadership to its founding khan, and the clans often fight bloody feuds."
   },
   {
    "q": "Where are centaur encountered today?",
@@ -65,7 +65,7 @@
     "centaur locations",
     "centaur zones"
    ],
-   "answer": "The heart of their territory is the wasteland of Desolace, where their sacred grounds of Maraudon lie. However, aggressive warbands and outposts roam across the Barrens, Durotar, and Thousand Needles."
+   "answer": "Centaur territory centers on Desolace, where Maraudon lies. Warbands and outposts also roam the Barrens, Durotar, and Thousand Needles."
   },
   {
    "q": "Can centaur be reasoned or allied with?",
@@ -74,7 +74,7 @@
     "can you ally with centaur",
     "friendly centaur"
    ],
-   "answer": "Generally, centaur view all other races as weak prey to be enslaved or destroyed. However, the fierce rivalry between rival clans can sometimes be manipulated; for instance, clans in Desolace like the Magram or Gelkis have occasionally accepted outsider assistance to annihilate their hated kin."
+   "answer": "Centaur generally see other races as prey to enslave or destroy. Rivalries between clans can be turned against them. In Desolace, the Magram or Gelkis have sometimes accepted outsider help to destroy their hated kin."
   },
   {
    "q": "Who is Princess Theradras to the centaur?",
@@ -83,21 +83,21 @@
     "theradras and centaur",
     "princess theradras lore"
    ],
-   "answer": "Theradras is their mother and revered patron. Deep within Maraudon, she protects the spirit of their murdered father, Zaetar, and has periodically infused her descendants with elemental fury to spur them into conquering new territory across Kalimdor."
+   "answer": "Princess Theradras is the centaur's mother and revered patron. In Maraudon, she protects the spirit of Zaetar, their murdered father. At times she has infused her descendants with elemental fury to spur them to conquer more territory across Kalimdor."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For your people, centaur are not mere beasts; they are the ancient tormentors who nearly eradicated your ancestors and drove you across the Barrens for centuries until the Horde offered salvation."
+   "text": "As a tauren, you know centaur as the ancient tormentors who nearly wiped out your ancestors and drove them across the Barrens for centuries. The Horde offered salvation."
   },
   {
    "target": "faction:Horde",
-   "text": "Defending against centaur incursions in the Barrens and Durotar is a matter of survival, honoring the founding pact struck between Thrall and Cairne Bloodhoof."
+   "text": "As a member of the Horde, defending against centaur incursions in the Barrens and Durotar means survival. It also honors the pact Thrall made with Cairne Bloodhoof."
   },
   {
    "target": "class:Druid",
-   "text": "Centaur represent a tragic perversion of nature's balance, sharing blood with Cenarius through his fallen son Zaetar yet bringing only desolation and slaughter in their wake."
+   "text": "As a druid, you see centaur as a tragic perversion of nature's balance. They share blood with Cenarius through his fallen son Zaetar, yet bring desolation and slaughter."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Centaur"
- ]
+ ],
+ "style": 2
 }

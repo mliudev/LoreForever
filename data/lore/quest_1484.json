@@ -27,21 +27,21 @@
    "Quest:The Corrupter/Chain"
   ]
  },
- "summary": "Maurin Bonesplitter has found the demon lord far more dangerous than expected. He is certain Takata Steelblade doubts his abilities, and leaving the swordsman uninformed of what happened would insult Takata's honor. Maurin sends you to speak with Takata, who is nearby.",
+ "summary": "Near Maurin Bonesplitter, the demon lord has proved more dangerous than he expected. Maurin believes Takata Steelblade doubts his skill, and that withholding what happened would dishonor Takata. So he sends you to speak with the swordsman nearby.",
  "sections": [
   {
    "title": "A Matter of Honor",
-   "body": "Maurin Bonesplitter finds the creature much more dangerous than he had anticipated. No doubt Takata Steelblade questions whether Maurin can handle it, and not being told of what just happened would insult Takata's honor. Maurin asks you to speak to the swordsman and offer to slay the demon, should Takata allow it. Maurin cautions you not to press Takata too hard, since it is better if Takata believes the idea is his own.",
+   "body": "The demon lord has proved more dangerous than Maurin Bonesplitter expected. Maurin believes Takata Steelblade doubts he can handle the creature, and keeping Takata uninformed would insult the swordsman's honor.\n\nMaurin asks you to speak with Takata and offer to slay the demon, if Takata allows it. He cautions you not to press too hard, for he thinks Takata should believe the idea is his own.",
    "spoiler": 0
   },
   {
    "title": "Across the Path",
-   "body": "Takata Steelblade is close at hand, just across the path from Maurin, on a cliff overlooking the Kodo Graveyard.",
+   "body": "Takata Steelblade is nearby, across the path from Maurin. He stands on a cliff overlooking the Kodo Graveyard.",
    "spoiler": 0
   },
   {
    "title": "Takata's Answer",
-   "body": "Takata witnessed what passed between Maurin and the demon lord. Even as an apparition, the creature seems to have more power than Maurin, Takata's warlock companion, and Takata wonders whether Maurin can defeat it. Takata going in person would serve the Warchief better, yet Takata's responsibilities here are such that leaving them to fight this evil for personal honor would disgrace the clan.",
+   "body": "Takata Steelblade witnessed what passed between Maurin and the demon lord. Though the creature was only an apparition, it seemed more powerful than Maurin, his warlock companion. Takata wonders whether Maurin can defeat it.\n\nTakata could better serve the Warchief by facing the demon himself. Yet his duties here keep him from leaving to fight for personal honor without disgracing his clan.",
    "spoiler": 1
   }
  ],
@@ -53,7 +53,7 @@
     "maurin bonesplitter reason",
     "why tell takata"
    ],
-   "answer": "Maurin finds the demon lord far more dangerous than he expected. He is certain Takata doubts his abilities, and leaving the swordsman uninformed of what happened would insult Takata's honor."
+   "answer": "The demon lord has proved far more dangerous than Maurin Bonesplitter expected. Maurin believes Takata Steelblade doubts his abilities, and keeping the swordsman uninformed would insult Takata's honor."
   },
   {
    "q": "Where is Takata Steelblade located?",
@@ -62,7 +62,7 @@
     "where is takata",
     "find takata steelblade"
    ],
-   "answer": "Close by, just across the path from Maurin, on a cliff overlooking the Kodo Graveyard in Desolace."
+   "answer": "Takata Steelblade is nearby, across the path from Maurin, on a cliff overlooking the Kodo Graveyard in Desolace."
   },
   {
    "q": "Why does Maurin advise against pressing Takata too hard?",
@@ -71,7 +71,7 @@
     "handling takata",
     "takata pride"
    ],
-   "answer": "Maurin wants you to offer to slay the demon, if Takata allows it, without pressing hard. It is better if Takata believes the idea is his own."
+   "answer": "Maurin asks you to offer to slay the demon if Takata allows it, without pressing too hard. He thinks Takata should believe the idea is his own."
   }
  ],
  "angles": [],
@@ -93,5 +93,6 @@
  ],
  "attribution": [
   "The Corrupter (4)"
- ]
+ ],
+ "style": 2
 }

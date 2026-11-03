@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Ameth'Aran"
  },
- "summary": "In Ameth'Aran, broken colonnades mark the ruin of a once-great Highborne city in southern Darkshore. Queen Azshara's nobles practiced arcane sorcery here before the Great Sundering shattered the ancient world. Now the vengeful ghosts of the elves who died here haunt the stones.",
+ "summary": "Broken colonnades rise from Ameth'Aran in southern Darkshore, where restless ghosts haunt the stones. Once a great Highborne city, it fell when the Well of Eternity collapsed and shattered the ancient world.",
  "sections": [
   {
    "title": "A City of Sorcerers",
-   "body": "Before the Great Sundering, Ameth'Aran and its sister settlement, Bashal'Aran, were twin centers of Highborne influence along the ancient coastline. Favored by Queen Azshara, Ameth'Aran's ruling nobles devoted themselves to unrestrained arcane experiments. The sorcerer Athrikus Narassin governed from afar in the Tower of Althalaxx. The city thrived until the Well of Eternity collapsed and tore the Kaldorei Empire apart.",
+   "body": "Before the Great Sundering, Ameth'Aran and Bashal'Aran were twin centers of Highborne influence along the ancient coastline. Queen Azshara favored Ameth'Aran, where its ruling nobles pursued unrestrained arcane experiments. Their sorcerer, Athrikus Narassin, governed from afar in the Tower of Althalaxx. The city flourished until the Well of Eternity collapsed and tore the Kaldorei Empire apart.",
    "spoiler": 0
   },
   {
    "title": "Betrayal and Eternal Torment",
-   "body": "As the world began to tear apart, Athrikus Narassin returned to Ameth'Aran and promised his panicked subjects salvation through powerful shielding magic. Instead, he stole their life force to feed his own soul gems, disguising the betrayal as a promise of eternal preservation. Dark magic and a great cataclysm shattered Ameth'Aran. Anguished Highborne specters still stalk its grounds, unable to rest ten thousand years after their murder.",
+   "body": "As the world began to tear apart, Athrikus Narassin returned to Ameth'Aran and promised salvation through powerful shielding magic. Instead, he stole his subjects' life force to feed his soul gems. He disguised the betrayal as a promise of eternal preservation. Dark magic and a great cataclysm shattered Ameth'Aran, and anguished Highborne specters still stalk its grounds, unable to rest ten thousand years after their murder.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "ameth aran history",
     "fall of ametharan"
    ],
-   "answer": "Ameth'Aran was already in ruins in the Kaldorei Empire's final days, then the Well of Eternity shattered during the Great Sundering and destroyed it ten thousand years ago. The spirits of the Highborne who died there still haunt the ruins."
+   "answer": "In the Kaldorei Empire's final days, Ameth'Aran already lay in ruins. Then the Well of Eternity shattered during the Great Sundering and destroyed the city ten thousand years ago. The spirits of Highborne who died there still haunt the ruins."
   },
   {
    "q": "Who are the ghosts wandering the ruins?",
@@ -46,7 +46,7 @@
     "cerellean lover",
     "ameth aran lost love"
    ],
-   "answer": "Anaya Dawnrunner lived in Ameth'Aran and was beloved by Cerellean Whiteclaw. She died when the city fell during the Sundering, and her ghost remained bound to the ruins until Cerellean sought outside aid to release her soul."
+   "answer": "Anaya Dawnrunner lived in Ameth'Aran and was beloved by Cerellean Whiteclaw. She died when the city fell during the Sundering. Her ghost remained bound to the ruins until Cerellean sought outside aid to release her soul."
   },
   {
    "q": "What are the stone tablets found in the ruins?",
@@ -55,7 +55,7 @@
     "runestones in ameth aran",
     "fall of ametharan tablets"
    ],
-   "answer": "The stone tablets in the ruins bear Ameth'Aran's history and an account of its fall. Sentinel Tysha Moonblade tried to decipher them for a historical report to the Cenarion Circle, but hostile ghosts forced her to depend on passing travelers."
+   "answer": "The stone tablets bear Ameth'Aran's history and an account of its fall. Sentinel Tysha Moonblade tried to decipher them for a historical report to the Cenarion Circle, but hostile ghosts forced her to rely on passing travelers."
   }
  ],
  "angles": [
@@ -65,7 +65,7 @@
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you can see these ruins as an unhealed scar on Darkshore. Tormented spirits linger here and disrupt the wilds' natural balance."
+   "text": "As a druid, you can see these ruins as an unhealed scar on Darkshore. Tormented spirits linger here and disrupt the natural balance of the wilds."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
  "attribution": [
   "Ameth'Aran"
  ],
- "style": 1
+ "style": 2
 }

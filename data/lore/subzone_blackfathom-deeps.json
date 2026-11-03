@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Blackfathom Deeps"
  },
- "summary": "Blackfathom Deeps lies flooded beneath the Zoram Strand on Ashenvale's northwestern coast. Its halls once honored Elune, but naga, satyr, and the Twilight's Hammer now hold the ruins.",
+ "summary": "Naga, satyr, and the Twilight's Hammer hold Blackfathom Deeps beneath Ashenvale's northwestern coast. Flooded halls that once honored Elune lie in ruin beneath the Zoram Strand.",
  "sections": [
   {
    "title": "From Elune's Temple to Darkest Abyss",
-   "body": "Beneath Ashenvale's northwestern cliffs, flooded halls mark the remains of an ancient temple. Before the Great Sundering shattered Kalimdor ten thousand years ago, the temple honored Elune and held its own moonwell. When the Well of Eternity collapsed, the shrine sank beneath the waves and was presumed lost forever. Over millennia, shorelines receded and the ground shifted below, leaving the temple partly flooded beneath the cliffs.",
+   "body": "Beneath Ashenvale's northwestern cliffs, flooded halls remain from an ancient temple. Before the Great Sundering shattered Kalimdor ten thousand years ago, the temple honored Elune and held its own moonwell. When the Well of Eternity collapsed, the shrine sank beneath the waves and was thought lost forever. Over millennia, the shorelines receded and the ground shifted, leaving the temple partly flooded beneath the cliffs.",
    "spoiler": 0
   },
   {
    "title": "Aku'mai and the Cult",
-   "body": "The Twilight's Hammer has made its home in the flooded temple, under Twilight Lord Kelris. Corruption from an Old God has risen through the deep earth and tainted the sacred Moon Well. Aku'mai, a monstrous three-headed hydra and servant of the Old God, rose from its waters. Naga led by Lady Sarevess and prowling satyrs join the cultists, who sacrifice innocents to Aku'mai for power.",
+   "body": "The Twilight's Hammer has made its home in the flooded temple under Twilight Lord Kelris. Corruption from an Old God has risen through the deep earth and tainted the sacred Moon Well. From its waters rose Aku'mai, a monstrous three-headed hydra and servant of the Old God. Naga led by Lady Sarevess and prowling satyrs join the cultists, who sacrifice innocents to Aku'mai for power.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "what was blackfathom deeps",
     "bfd temple"
    ],
-   "answer": "Before it sank beneath the waves during the Sundering, Blackfathom Deeps was a night elven temple to Elune, with a sacred moonwell at its heart."
+   "answer": "Before it sank beneath the waves in the Sundering, Blackfathom Deeps was a night elven temple to Elune, with a sacred moonwell at its heart."
   },
   {
    "q": "Why is the Twilight's Hammer cult here?",
@@ -46,7 +46,7 @@
     "blackfathom deeps location",
     "how to enter bfd"
    ],
-   "answer": "The entrance lies among cavernous ruins along the Zoram Strand, on Ashenvale's far northwestern coast. You must pass through submerged chambers and hostile naga outposts to reach the temple portal."
+   "answer": "The entrance lies among cavernous ruins along the Zoram Strand, on Ashenvale's far northwestern coast. You pass through submerged chambers and hostile naga outposts to reach the temple portal."
   },
   {
    "q": "Who is Ghamoo-ra?",
@@ -55,13 +55,13 @@
     "ghamoo-ra lore",
     "tortoise bfd"
    ],
-   "answer": "Ghamoo-ra is a giant, maddened turtle that lurks on an island in one of the temple's flooded caverns. The turtle attacks any intruder who comes near."
+   "answer": "Ghamoo-ra is a giant, maddened turtle lurking on an island in one of the temple's flooded caverns. It attacks any intruder who comes near."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a Kaldorei, you may mourn the defilement of this ancient shrine to Elune. Void cultists and naga have desecrated its sacred halls and moonwell."
+   "text": "As a Kaldorei, you may mourn this ancient shrine to Elune. Void cultists and naga have defiled its sacred halls and moonwell."
   },
   {
    "target": "faction:Horde",
@@ -91,5 +91,5 @@
  "attribution": [
   "Blackfathom Deeps"
  ],
- "style": 1
+ "style": 2
 }

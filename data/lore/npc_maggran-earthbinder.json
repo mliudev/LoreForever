@@ -8,16 +8,16 @@
   "wiki": "Maggran Earthbinder",
   "refs": 4
  },
- "summary": "At Sun Rock Retreat, Maggran Earthbinder guards a Horde camp in the Stonetalon Mountains. Cairne Bloodhoof sent the battle-worn tauren to lead its defense against beasts and harpies.",
+ "summary": "At Sun Rock Retreat in the Stonetalon Mountains, Maggran Earthbinder leads the camp's defense. Cairne Bloodhoof sent the battle-worn tauren there to guard the Horde outpost.",
  "sections": [
   {
    "title": "A Veteran's Haven",
-   "body": "High Chieftain Cairne Bloodhoof sent Maggran Earthbinder to the Stonetalon Mountains to lead Sun Rock Retreat. Countless skirmishes and bloody campaigns have hardened his heart, stripping away the gentleness natural to his people. The outpost was also meant to offer him respite, where warm winds and mountain sunshine might ease his battle-worn spirit.",
+   "body": "High Chieftain Cairne Bloodhoof sent Maggran Earthbinder to the Stonetalon Mountains to lead Sun Rock Retreat. Countless skirmishes and bloody campaigns have hardened him, taking from him some of the gentleness natural to his people.\n\nThe outpost was also meant to give Maggran respite. Its warm winds and mountain sunshine might ease his battle-worn spirit.",
    "spoiler": 0
   },
   {
    "title": "Threats in the Crags",
-   "body": "Peace remains scarce in Stonetalon. From Sun Rock Retreat, Maggran coordinates defenses against Bloodfury harpies nesting in the peaks and gathers fighters to face predators across the crags. He once survived an ambush by the giant spider Besseleth, and knows how deadly the wilderness can be. He often enlists travelers to kill regional predators before they overrun the outpost.",
+   "body": "Peace remains scarce in Stonetalon. From Sun Rock Retreat, Maggran coordinates defenses against Bloodfury harpies nesting in the peaks and gathers fighters to face predators across the crags.\n\nMaggran once survived an ambush by the giant spider Besseleth, and knows how deadly the wilderness can be. He often enlists travelers to kill regional predators before they overrun the outpost.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "maggran background",
     "cairne and maggran"
    ],
-   "answer": "Cairne Bloodhoof appointed Maggran to lead Sun Rock Retreat for his seasoned military leadership and to give him a place of respite. A lifetime of combat has worn him down, and the quiet mountain sun offers some healing."
+   "answer": "Cairne Bloodhoof appointed Maggran to lead Sun Rock Retreat for his seasoned military leadership and to give him respite. A lifetime of combat has worn him down, and the quiet mountain sun offers some healing."
   },
   {
    "q": "What threats does Maggran ask adventurers to deal with?",
@@ -47,7 +47,7 @@
     "what does maggran want",
     "harpies stonetalon"
    ],
-   "answer": "Maggran directs defenses against Bloodfury harpies in the mountains and sends fighters after dangerous regional predators. The giant spider Besseleth is among them, after Maggran narrowly survived an ambush by her."
+   "answer": "Maggran directs defenses against Bloodfury harpies in the mountains and sends fighters after dangerous regional predators. The giant spider Besseleth is among them, after Maggran narrowly survived her ambush."
   },
   {
    "q": "What happened between Maggran and Besseleth?",
@@ -108,5 +108,5 @@
  "attribution": [
   "Maggran Earthbinder"
  ],
- "style": 1
+ "style": 2
 }

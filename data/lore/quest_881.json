@@ -17,21 +17,21 @@
   "wiki": "Echeyakee (Classic)",
   "chain": []
  },
- "summary": "At the Crossroads, hunters prepare to face Whitemist in the northern Barrens. Sergra Darkthorn sends young Horde hunters to summon the legendary white lion and test their strength.",
+ "summary": "At the Crossroads, hunters prepare to summon Echeyakee, the white lion of the northern Barrens. Sergra Darkthorn sends young Horde hunters to test their strength against him.",
  "sections": [
   {
    "title": "Whitemist of the Savannah",
-   "body": "Across the central plains, a white-maned lion rules the savannah cats. Taur-ahe speakers call him Echeyakee, or Whitemist. Legend says he moves so silently that he seems like morning mist gliding over the red earth. His strikes come swiftly, leaving prey no time for fear or suffering. Local hunters revere him as a sign of mercy and swift death.",
+   "body": "Across the central plains, a white-maned lion rules the savannah cats. Taur-ahe speakers call him Whitemist, or Echeyakee. Legend says he moves without a sound, like morning mist over red earth. His strikes are swift, and prey knows neither fear nor suffering. Local hunters honor him as a sign of mercy and swift death.",
    "spoiler": 0
   },
   {
    "title": "The Trial of the Horn",
-   "body": "At the Crossroads, Sergra Darkthorn trains fledgling warriors. The experienced orc shaman sends her pupils to challenge the king of beasts after they have proven themselves against lesser savannah prowlers. With a special horn, you travel northeast past the mountain ridges to a graveyard of massive kodo bones. Sound the horn to challenge Echeyakee and draw the elusive predator from hiding for a test of strength and cunning.",
+   "body": "At the Crossroads, Sergra Darkthorn trains fledgling warriors. The experienced orc shaman sends them against the king of beasts once they have proven themselves against lesser savannah prowlers.\n\nWith a special horn, you travel northeast past the mountain ridges to a graveyard of massive kodo bones. Sound it to challenge Echeyakee and draw the elusive predator from hiding. There, your strength and cunning face their trial.",
    "spoiler": 0
   },
   {
    "title": "The Lion's Legacy",
-   "body": "When you return Echeyakee's hide, Sergra says his hunting days are over, though his spirit is with the victor. She teaches that his example joins strength in subtlety with honor in mercy.",
+   "body": "When you bring Echeyakee's hide back, Sergra says his hunting days are over, though his spirit lives on with the victor. She teaches that his example joins subtle strength with honor in mercy.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "meaning of echeyakee",
     "tauren name echeyakee"
    ],
-   "answer": "In Taur-ahe, Echeyakee means “Whitemist.” The name honors his pale pelt and the silent, mist-like way he stalks across the plains."
+   "answer": "In Taur-ahe, Echeyakee means “Whitemist.” The name honors his pale pelt and the silent way he stalks across the plains, like mist."
   },
   {
    "q": "Where is Echeyakee summoned?",
@@ -84,7 +84,7 @@
     "quest after echeyakee",
     "what is next after echeyakee"
    ],
-   "answer": "After you overcome Echeyakee with patience and lethal skill, Sergra Darkthorn sends you after more volatile quarry: the vicious raptors called scytheclaws."
+   "answer": "After you overcome Echeyakee with patience and lethal skill, Sergra Darkthorn sends you after more dangerous prey: the vicious raptors called scytheclaws."
   }
  ],
  "angles": [
@@ -94,11 +94,11 @@
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter in the Barrens, you face a test of patience and stealth in Echeyakee, famed among the savannah beasts for his pale fur and legendary name."
+   "text": "As a hunter in the Barrens, you face a test of patience and stealth in the hunt for Echeyakee, famed among the savannah beasts for his pale fur and legendary name."
   },
   {
    "target": "faction:Horde",
-   "text": "As a Horde champion at the Crossroads, you face the harsh Barrens wildlife in a rite of passage that proves your survival skills."
+   "text": "As a Horde champion at the Crossroads, you face the harsh wildlife of the Barrens in a rite of passage that proves your survival skills."
   }
  ],
  "keywords": [
@@ -121,5 +121,5 @@
  "attribution": [
   "Echeyakee (Classic)"
  ],
- "style": 1
+ "style": 2
 }

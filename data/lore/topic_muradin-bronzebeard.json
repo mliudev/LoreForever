@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Muradin Bronzebeard"
  },
- "summary": "Muradin Bronzebeard was the brother of King Magni Bronzebeard and Brann Bronzebeard, as well as a renowned warrior, diplomat, and co-founder of the Explorers' League. Revered across Khaz Modan and Lordaeron alike, he is believed to have died in the frozen wastes of Northrend when Prince Arthas Menethil claimed the cursed runeblade Frostmourne.",
+ "summary": "Across Khaz Modan and Lordaeron, Muradin Bronzebeard is honored for his skill in war and diplomacy. Brother to King Magni Bronzebeard and Brann Bronzebeard, he helped found the Explorers' League. In Northrend, he is believed to have died when Prince Arthas Menethil claimed Frostmourne.",
  "sections": [
   {
    "title": "A Brother and Ambassador",
-   "body": "Muradin fought with distinction during the Second War, acting as the vital liaison between the mountain halls of Khaz Modan and the Alliance of Lordaeron. He helped hold Ironforge during the Horde's siege and marched alongside Alliance forces all the way through Blackrock Spire to the Dark Portal. In the peaceful years that followed, Muradin settled into Capital City as Ironforge’s official ambassador. Jovial yet formidable, he became a fixture in the palace, growing close to King Terenas Menethil and taking it upon himself to tutor young Prince Arthas in the arts of swordplay and combat.",
+   "body": "In the Second War, Muradin carried messages between Khaz Modan's mountain halls and the Alliance of Lordaeron. He helped defend Ironforge during the Horde's siege, then marched with Alliance forces through Blackrock Spire to the Dark Portal.\n\nAfter peace came, Muradin settled in Capital City as Ironforge's official ambassador. Jovial yet formidable, he became a familiar face in the palace and grew close to King Terenas Menethil. He also taught young Prince Arthas the arts of swordplay and combat.",
    "spoiler": 0
   },
   {
    "title": "The Explorers' League and Northrend",
-   "body": "Beyond politics and war, Muradin possessed a restless curiosity. Alongside his brothers, he helped establish the dwarven Explorers' League, dedicated to uncovering lost titan relics and chronicling the distant corners of the world. He fell in love with the desolate, windswept continent of Northrend, making frequent journeys north to sketch ancient architecture and document its fierce inhabitants. It was Northrend's rugged mysteries that ultimately drew him on his final expedition, seeking out lore, relics, and the whispered legend of a forgotten runeblade.",
+   "body": "Muradin's curiosity ranged beyond politics and war. With his brothers, he helped found the dwarven Explorers' League, devoted to finding lost titan relics and recording the world's farthest corners. He loved Northrend and often traveled north to sketch ancient buildings and document its fierce inhabitants.\n\nThe continent's rugged mysteries drew Muradin on his final expedition. He sought lore and relics there, and followed whispers of a forgotten runeblade.",
    "spoiler": 0
   },
   {
    "title": "The Claiming of Frostmourne",
-   "body": "When Prince Arthas arrived in Northrend obsessed with hunting down the dreadlord Mal'Ganis, he reunited with Muradin and enlisted his dwarven expedition. Arthas sought the power of Frostmourne to turn the tide, ignoring Muradin's rising alarm as the prince betrayed his own mercenaries and abandoned all honor. At the altar of Frostmourne, Muradin read the warning inscribed upon its icy pedestal and pleaded with his former pupil to turn back. Arthas refused. As the prince seized the runeblade, the explosion of unholy ice struck Muradin down, leaving him apparently dead upon the cavern floor.",
+   "body": "Prince Arthas came to Northrend to hunt the dreadlord Mal'Ganis. There he met Muradin again and enlisted the dwarven expedition. Arthas sought Frostmourne's power to turn the tide, while Muradin grew alarmed as the prince betrayed his mercenaries and cast honor aside.\n\nAt the blade's altar, Muradin read the warning carved into its icy pedestal. He pleaded with his former pupil to turn back, but Arthas refused. When the prince seized Frostmourne, unholy ice burst outward and struck Muradin down. He lay apparently dead on the cavern floor.",
    "spoiler": 1
   }
  ],
@@ -33,7 +33,7 @@
     "muradin lore",
     "magni brother muradin"
    ],
-   "answer": "Muradin Bronzebeard was the middle brother of King Magni Bronzebeard and the explorer Brann. He was a veteran hero of the Second War, Ironforge's ambassador to Lordaeron, and a founding member of the Explorers' League."
+   "answer": "Muradin Bronzebeard was the middle brother of King Magni Bronzebeard and the explorer Brann. A veteran of the Second War, he served as Ironforge's ambassador to Lordaeron and helped found the Explorers' League."
   },
   {
    "q": "What happened to Muradin in Northrend?",
@@ -42,7 +42,7 @@
     "muradin death",
     "did arthas kill muradin"
    ],
-   "answer": "Muradin accompanied Prince Arthas to the cavern containing Frostmourne. When Arthas ignored Muradin's warnings and shattered the icy prison holding the runeblade, an exploding shard of enchanted ice struck Muradin, seemingly killing him on the spot. Arthas abandoned his body and took the blade."
+   "answer": "Muradin accompanied Prince Arthas to the cavern where Frostmourne lay. Arthas ignored his warnings and shattered the icy prison around the runeblade. An enchanted shard struck Muradin, seemingly killing him on the spot. Arthas left his body and took the blade."
   },
   {
    "q": "What was Muradin's relationship with Prince Arthas?",
@@ -51,7 +51,7 @@
     "muradin arthas teacher",
     "muradin and arthas"
    ],
-   "answer": "While serving as Ironforge's ambassador in Capital City, Muradin took Arthas under his wing. He trained the young prince in bladed combat and went on many adventures with him, viewing Arthas almost like a surrogate son or beloved nephew until Arthas's dark descent in Northrend."
+   "answer": "As Ironforge's ambassador in Capital City, Muradin took Arthas under his wing. He taught the young prince bladed combat and shared many adventures with him. Muradin saw Arthas almost as a surrogate son or beloved nephew, until Arthas's dark descent in Northrend."
   },
   {
    "q": "What was Muradin's role in the Second War?",
@@ -69,7 +69,7 @@
     "muradin expedition",
     "what was muradin looking for"
    ],
-   "answer": "As a founder of the Explorers' League, Muradin was deeply fascinated by Northrend's archaeology and ancient ruins. He returned there on an expedition to uncover forgotten history and search for relics, which ultimately led him to the trail of Frostmourne."
+   "answer": "As a founder of the Explorers' League, Muradin was fascinated by Northrend's archaeology and ancient ruins. He returned on an expedition to uncover forgotten history and seek relics, and his search led him onto Frostmourne's trail."
   },
   {
    "q": "How did King Magni react to Muradin's death?",
@@ -77,21 +77,21 @@
     "magni muradin reaction",
     "ironforge muradin grief"
    ],
-   "answer": "King Magni and the entire Bronzebeard clan were devastated by Muradin's loss. Muradin's apparent demise severed the once-warm bond between Ironforge and Prince Arthas, turning grief into bitter fury toward the Scourge."
+   "answer": "King Magni and the entire Bronzebeard clan were devastated by Muradin's loss. His apparent death severed Ironforge's once-warm bond with Prince Arthas, turning grief to bitter fury toward the Scourge."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Muradin is remembered by the dwarves of Ironforge as a paragon of their people—brave, fiercely loyal, and driven by an insatiable curiosity for the history of their makers."
+   "text": "As a dwarf, you can remember Muradin as a paragon of your people: brave, fiercely loyal, and driven by curiosity about the history of your makers."
   },
   {
    "target": "faction:Alliance",
-   "text": "Muradin forged the bonds of camaraderie between Ironforge and the northern human kingdoms, standing as one of the Alliance's foundational heroes."
+   "text": "As an ally of Ironforge, you can remember how Muradin forged bonds of camaraderie between the dwarves and the northern human kingdoms. He was one of the Alliance's founding heroes."
   },
   {
    "target": "class:Warrior",
-   "text": "Muradin was considered one of the finest dwarven duelists and weapon masters of his era, having instructed Prince Arthas Menethil himself in the art of the blade."
+   "text": "As a warrior, you can look to Muradin, one of the finest dwarven duelists and weapon masters of his age. He taught Prince Arthas Menethil the art of the blade."
   }
  ],
  "keywords": [
@@ -116,5 +116,6 @@
  ],
  "attribution": [
   "Muradin Bronzebeard"
- ]
+ ],
+ "style": 2
 }

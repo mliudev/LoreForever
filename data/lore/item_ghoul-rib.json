@@ -10,16 +10,16 @@
    "quest:133"
   ]
  },
- "summary": "In Duskwood, ghouls roam the groves and cemeteries, and Abercrombie asks for their ribs. The hermit says he needs them to build an effigy that will ward off the flesh-eating horrors near his shack.",
+ "summary": "In Duskwood, Abercrombie gathers Ghoul Rib to guard his shack from the dead. He says a fearsome effigy will frighten the flesh-eating horrors away from his home.",
  "sections": [
   {
    "title": "A Gruesome Ward",
-   "body": "Ghouls haunt Duskwood, among them Flesh Eaters, Bone Chewers, Brain Eaters, Rotted Ones, and Plague Spreaders. Abercrombie lives alone in a shack north of Raven Hill Cemetery and asks travelers for their sturdy, rotted ribs. He says he lives beyond the Night Watch’s protection in Darkshire and needs a fearsome effigy to frighten the dead away from his home.",
+   "body": "Ghouls haunt Duskwood in many forms. Flesh Eaters, Bone Chewers, Brain Eaters, Rotted Ones and Plague Spreaders are among them.\n\nAbercrombie lives alone in a shack north of Raven Hill Cemetery. He asks travelers for their sturdy, rotted ribs. His home lies beyond the Night Watch’s protection in Darkshire, so he says he needs a fearsome effigy to frighten the dead away.",
    "spoiler": 0
   },
   {
    "title": "Suspicions Around the Shack",
-   "body": "Abercrombie’s request for ghoul parts draws questions. He could seek shelter behind Darkshire’s palisades or use consecrated wards, yet he insists on collecting raw necromantic remains to protect his secluded shack.",
+   "body": "Abercrombie’s request for ghoul parts raises questions. Darkshire’s palisades could offer shelter, and consecrated wards might guard his home. Yet the hermit insists on gathering raw necromantic remains to protect his secluded shack.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "which ghouls have ribs",
     "ghoul rib sources"
    ],
-   "answer": "Ghoul Ribs come from several kinds of ghouls in Duskwood, including Flesh Eaters, Bone Chewers, Brain Eaters, Rotted Ones, and Plague Spreaders. They haunt old graveyards, roadside ruins, and abandoned homesteads across the forest."
+   "answer": "Several kinds of ghouls in Duskwood carry Ghoul Rib. They include Flesh Eaters, Bone Chewers, Brain Eaters, Rotted Ones and Plague Spreaders. These creatures haunt old graveyards, roadside ruins and abandoned homesteads across the forest."
   },
   {
    "q": "Why does Abercrombie want these bones?",
@@ -40,7 +40,7 @@
     "ghoulish effigy purpose",
     "what does abercrombie do with ribs"
    ],
-   "answer": "Abercrombie says his home is too far from Darkshire for the Night Watch to protect him. He asks for ribs to build a crude scarecrow or effigy that he believes will keep roving undead from his walls."
+   "answer": "Abercrombie says his home lies too far from Darkshire for the Night Watch to protect him. He asks for ribs to build a crude scarecrow or effigy that he believes will keep roving undead from his walls."
   },
   {
    "q": "Do scarecrows actually keep ghouls away?",
@@ -49,7 +49,7 @@
     "can effigies scare undead",
     "do ghouls fear scarecrows"
    ],
-   "answer": "Ghouls are driven by hunger or dark necromantic force, and generally feel no fear. Abercrombie still insists that a scarecrow made of bones will keep his home safe."
+   "answer": "Ghouls are driven by hunger or dark necromantic force and generally feel no fear. Abercrombie still insists that a scarecrow made of bones will keep his home safe."
   },
   {
    "q": "Where is Abercrombie's shack located?",
@@ -64,11 +64,11 @@
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Handling the desecrated bones of the restless dead is grim work. Helping an isolated hermit face ravenous horrors fits a paladin’s duty to guard the living in Duskwood."
+   "text": "Handling the desecrated bones of the restless dead is grim work. Helping an isolated hermit face ravenous horrors fits your paladin’s duty to guard the living in Duskwood."
   },
   {
    "target": "class:Priest",
-   "text": "The twisted force that reanimates these bones shows the deep shadow over Duskwood, where fallen villagers become ravenous scavengers."
+   "text": "The twisted force that reanimates these bones shows the deep shadow over Duskwood. Fallen villagers become ravenous scavengers."
   }
  ],
  "keywords": [
@@ -93,5 +93,5 @@
   "Ghoul Rib",
   "Ghoulish Effigy (Classic)"
  ],
- "style": 1
+ "style": 2
 }

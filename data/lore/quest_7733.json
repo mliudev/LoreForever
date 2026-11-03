@@ -21,16 +21,16 @@
   ],
   "category": "Feralas"
  },
- "summary": "Pratt McGrubben has heard of hides better still than the last. Up in the north of Feralas, inside Rage Scar Hold, roams another throng of yetis, tougher than those you faced before. Ten of their hides are wanted at Feathermoon Stronghold.",
+ "summary": "In northern Feralas, Pratt McGrubben wants tougher yeti hides from Rage Scar Hold. He asks you to bring ten to Feathermoon Stronghold.",
  "sections": [
   {
    "title": "A Tougher Throng of Yetis",
-   "body": "After The Mark of Quality, Pratt McGrubben has found a lead on a still finer supply of hides. Up in the north of Feralas, inside Rage Scar Hold, another throng of yetis lives, tougher than the ones you faced earlier. Pratt McGrubben will pay handsomely for ten of their hides, brought back to Feathermoon Stronghold to settle the matter. If they match the quality of the Feral Scar hides, they could prove as resilient as thorium.",
+   "body": "After The Mark of Quality, Pratt McGrubben has found finer hides. A tougher throng of yetis lives inside Rage Scar Hold in northern Feralas. Bring ten hides to Pratt at Feathermoon Stronghold, and he will pay handsomely. If these hides match the Feral Scar hides, they may prove as resilient as thorium.",
    "spoiler": 0
   },
   {
    "title": "Pratt's Thanks",
-   "body": "The hides are even better than hoped. Pratt McGrubben can already tell they will turn much harder once properly cured, and hands you one of the latest creations as thanks.",
+   "body": "The Rage Scar hides are better than Pratt McGrubben hoped. He can tell they will grow much harder once properly cured. In thanks, he gives you one of his latest creations.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "improved quality questgiver",
     "pratt mcgrubben"
    ],
-   "answer": "Pratt McGrubben, at Feathermoon Stronghold in Feralas."
+   "answer": "Pratt McGrubben asks you for Rage Scar yeti hides at Feathermoon Stronghold in Feralas."
   },
   {
    "q": "Where do the Rage Scar yetis live?",
@@ -51,7 +51,7 @@
     "where is rage scar hold",
     "where to get rage scar hides"
    ],
-   "answer": "Inside Rage Scar Hold, in the north of Feralas."
+   "answer": "The Rage Scar yetis live inside Rage Scar Hold in northern Feralas."
   },
   {
    "q": "How many hides are wanted?",
@@ -68,7 +68,7 @@
     "what quest leads to improved quality",
     "previous quest"
    ],
-   "answer": "It follows The Mark of Quality, when you dealt with the first throng of yetis."
+   "answer": "This follows The Mark of Quality, when you dealt with the first throng of yetis."
   }
  ],
  "angles": [],
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Improved Quality (Classic Alliance)"
- ]
+ ],
+ "style": 2
 }

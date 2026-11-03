@@ -24,16 +24,16 @@
    "Suntara Stones"
   ]
  },
- "summary": "Dorius Stonetender is badly hurt in Searing Gorge, light-headed, with the world spinning and bleeding inside. He says he must get back to Ironforge and begs for your help to get him there.",
+ "summary": "In Searing Gorge, Dorius Stonetender lies badly hurt and asks you to help him reach Ironforge.",
  "sections": [
   {
    "title": "A Plea for Help",
-   "body": "Dorius groans that he is badly injured. He feels light-headed, the world is spinning, and he is bleeding internally. His one wish is to get back to Ironforge, and he asks you to help him make the journey.",
+   "body": "Dorius Stonetender groans with pain. He feels light-headed as the world spins around him, and he is bleeding inside. He longs to return to Ironforge. So he asks you to help him make the journey.",
    "spoiler": 0
   },
   {
    "title": "The Road to the Pass",
-   "body": "The road ends just short of Stonewrought Pass. There Dorius is shot and dies, and a letter he was carrying falls to the ground, singed.",
+   "body": "The road ends just short of Stonewrought Pass. There, Dorius is shot and dies. A letter he carried falls to the ground, singed.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "dorius stonetender",
     "injured dwarf searing gorge"
    ],
-   "answer": "Dorius Stonetender is badly injured in Searing Gorge and needs help getting back to Ironforge."
+   "answer": "Dorius Stonetender is badly injured in Searing Gorge and needs help reaching Ironforge."
   },
   {
    "q": "Where is Dorius trying to go?",
@@ -54,7 +54,7 @@
     "where does dorius go",
     "dorius escort location"
    ],
-   "answer": "He wants to get back to Ironforge."
+   "answer": "Dorius is trying to return to Ironforge."
   },
   {
    "q": "What condition is Dorius in?",
@@ -63,7 +63,7 @@
     "is dorius hurt",
     "why does dorius need help"
    ],
-   "answer": "He is badly injured, light-headed, and bleeding internally, with the world spinning around him."
+   "answer": "Dorius is badly injured, light-headed, and bleeding inside. The world spins around him."
   }
  ],
  "angles": [],
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Suntara Stones"
- ]
+ ],
+ "style": 2
 }

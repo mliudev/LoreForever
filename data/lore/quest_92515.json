@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Tracking and culling predatory beasts encroaching on settlements is bread-and-butter work for seasoned hunters, though prideclaws in these numbers demand respect."
+   "text": "As a hunter, tracking and culling predators near settlements is familiar work. Prideclaws in these numbers still demand respect."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "prideclaw lore",
     "prideclaws"
    ],
-   "answer": "Prideclaws are predatory beasts inhabiting the hills and highlands of Shen'dar. Known for their fierce temperament and valuable pelts, they pose an escalating threat to nearby settlements when their numbers swell unchecked.",
+   "answer": "Prideclaws are fierce predators of the hills and highlands of Shen'dar. Their pelts are valuable, and their growing numbers bring them closer to settlements.",
    "q": "What are prideclaws?"
   },
   {
@@ -33,7 +33,7 @@
     "where do prideclaws live",
     "prideclaw location"
    ],
-   "answer": "Prideclaws roam the hills of the Shen'dar Highlands. Their growing population has begun encroaching on the borders of the local village, bringing them dangerously close to inhabited areas.",
+   "answer": "Prideclaws roam the hills of the Shen'dar Highlands. Their growing numbers carry them toward the local village and its inhabitants.",
    "q": "Where are the prideclaws located?"
   },
   {
@@ -42,7 +42,7 @@
     "why cull prideclaws",
     "village danger"
    ],
-   "answer": "With bandits and mad cultists already menacing the region, an overpopulation of prideclaws threatens the village borders. The culling is intended as a preventative measure before children or domestic animals fall victim to the encroaching predators.",
+   "answer": "Bandits and mad cultists already menace the region. As prideclaw numbers grow, the beasts draw near the village, putting children and domestic animals at risk.",
    "q": "Why does the village need the prideclaws culled?"
   },
   {
@@ -51,7 +51,7 @@
     "prideclaw pelt use",
     "pelts purpose"
    ],
-   "answer": "The gathered pelts are repurposed by the village crafters into practical goods and supplies, turning the necessary culling into useful resources for the settlement.",
+   "answer": "Village crafters use prideclaw pelts to make practical goods and supplies.",
    "q": "What will be done with the prideclaw pelts?"
   },
   {
@@ -60,7 +60,7 @@
     "what else threatens the village",
     "local threats"
    ],
-   "answer": "Beyond the wild prideclaws prowling the hills, the local settlement contends with roaming bandits and unstable cultists, stretching local safety and defenses thin.",
+   "answer": "Roaming bandits and unstable cultists trouble the hills around the settlement, alongside the wild prideclaws.",
    "q": "What other threats plague the surrounding hills?"
   },
   {
@@ -68,7 +68,7 @@
     "who gives the problem with prideclaws",
     "quest giver thoughts"
    ],
-   "answer": "The villager overseeing the task finds prideclaws somewhat cute from a safe vantage behind armed guards, but recognizes the harsh necessity of maintaining village safety before tragedy strikes.",
+   "answer": "The villager overseeing the culling finds prideclaws somewhat cute, even from behind armed guards. Still, keeping the village safe matters before tragedy strikes.",
    "q": "How do the locals view the prideclaws?"
   }
  ],
@@ -84,18 +84,19 @@
  "related": [],
  "sections": [
   {
-   "body": "The hills surrounding the Shen'dar Highlands are fraught with peril, pressed not only by roving bandits and unhinged cultists but also by an encroaching population of prideclaws. These fierce beasts have begun pressing inward toward the village perimeter, growing bolder as their territory expands and creating an imminent hazard for the local inhabitants.",
+   "body": "Prideclaws are pressing toward the village in the Shen'dar Highlands. Bandits roam the hills, and unhinged cultists trouble the region. Villagers face danger from several sides. As the beasts grow bolder and their territory spreads, the settlement draws nearer to their reach.",
    "spoiler": 0,
    "title": "A Growing Wild Menace"
   },
   {
-   "body": "To avert disaster before pets or children are snatched by the wandering predators, villagers have organized a culling effort. Taking down the prideclaws serves a dual purpose: it drives the predators back from the settlement borders while providing sturdy pelts that craftsmen can fashion into essential goods for the village.",
+   "body": "Villagers have organized a culling before the wandering predators can snatch pets or children. Driving prideclaws back from the borders helps guard the settlement. Their sturdy pelts also give village craftsmen material for useful goods.",
    "spoiler": 0,
    "title": "Securing the Borders"
   }
  ],
- "summary": "The Problem With Prideclaws addresses the encroaching threat of wild prideclaw predators in the Shen'dar Highlands. As local settlements already grapple with bandits and cultists, culling the encroaching beasts protects vulnerable villagers while yielding useful pelts for the community.",
+ "summary": "The Shen'dar Highlands village faces danger from prideclaws, bandits, and cultists. The beasts press toward the settlement, and culling them guards the people while providing useful pelts.",
  "attribution": [
   "In-game quest text: The Problem With Prideclaws"
- ]
+ ],
+ "style": 2
 }

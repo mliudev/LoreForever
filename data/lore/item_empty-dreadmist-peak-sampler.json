@@ -10,16 +10,16 @@
    "quest:6127"
   ]
  },
- "summary": "At Dreadmist Peak, druids seek tainted water in an empty Cenarion vessel. The sample may help diagnose and cure the blight spreading among wildlife in the northern Barrens.",
+ "summary": "At Dreadmist Peak, druids gather water from a tainted pool to learn what is sickening the northern Barrens wildlife. The sample may help Tonga Runetotem find a cure.",
  "sections": [
   {
    "title": "Tracing the Blight",
-   "body": "Dendrite Starblaze suspects the pools atop Dreadmist Peak are at the heart of a sickness afflicting gazelles and unsettling the northern Barrens. The pools influence the weather, and the druid fears they are tied to the spreading blight. He sends druid initiates with empty samplers to brave the mountain heights and draw water from the peak. The Burning Blade, a demon-worshipping cult, now infests the mountain.",
+   "body": "Dendrite Starblaze suspects the pools atop Dreadmist Peak are tied to a sickness afflicting gazelles and troubling the northern Barrens. The pools influence the weather, and he fears they are spreading the blight. So he sends druid initiates up the mountain with empty samplers to draw water. The Burning Blade, a demon-worshipping cult, now infests the heights.",
    "spoiler": 0
   },
   {
    "title": "A Crucial Specimen",
-   "body": "Druids carry the empty sampler up Dreadmist Peak to collect water from its pool. They take the sample to Tonga Runetotem at the Crossroads, where it can help him devise a cure and protect the native wildlife.",
+   "body": "Druids carry the empty sampler to the pool atop Dreadmist Peak and collect its water. Then they take the sample to Tonga Runetotem at the Crossroads. He can use it to devise a cure and protect the native wildlife.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "dreadmist sampler use",
     "why do i have this sampler"
    ],
-   "answer": "The Empty Dreadmist Peak Sampler is an empty container, a specialized Cenarion vessel druids use to draw water from the tainted pool atop Dreadmist Peak. They bring the sample to Tonga Runetotem to help devise a cure for sickened wildlife."
+   "answer": "Druids use the Empty Dreadmist Peak Sampler, an empty Cenarion vessel, to draw water from the tainted pool atop Dreadmist Peak. They bring the sample to Tonga Runetotem to help him devise a cure for sickened wildlife."
   },
   {
    "q": "Where does this sampler need to be taken?",
@@ -48,7 +48,7 @@
     "who gives the sampler",
     "who started this quest"
    ],
-   "answer": "Dendrite Starblaze provides the sampler on behalf of the Cenarion Circle, then sends the druid to coordinate with Tonga Runetotem."
+   "answer": "Dendrite Starblaze provides the sampler on behalf of the Cenarion Circle. He then sends the druid to coordinate with Tonga Runetotem."
   },
   {
    "q": "Why is the water on Dreadmist Peak so important to sample?",
@@ -56,17 +56,17 @@
     "why dreadmist peak pool",
     "why is the water bad"
    ],
-   "answer": "The pools atop Dreadmist Peak influence regional weather and mist. The Burning Blade cult has corrupted the summit, and tainted runoff spreads across the plains and poisons local creatures."
+   "answer": "The pools atop Dreadmist Peak influence regional weather and mist. The Burning Blade cult has corrupted the summit, and tainted runoff spreads across the plains, poisoning local creatures."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid, collecting a sample with this vessel is part of learning to cure poisons and to diagnose and ease suffering in the wild."
+   "text": "As a druid, you use this vessel to collect a sample and learn to cure poisons, diagnose suffering in the wild, and ease it."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you carry this sampler to aid Tonga Runetotem at the Crossroads as he works to stop ecological decay across the Barrens' northern plains."
+   "text": "As a member of the Horde, you carry this sampler to aid Tonga Runetotem at the Crossroads as he works to stop ecological decay across the northern Barrens plains."
   }
  ],
  "keywords": [
@@ -92,5 +92,5 @@
   "Empty Dreadmist Peak Sampler",
   "The Principal Source (Horde)"
  ],
- "style": 1
+ "style": 2
 }

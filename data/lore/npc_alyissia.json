@@ -8,11 +8,11 @@
   "wiki": "Alyissia",
   "refs": 1
  },
- "summary": "In Aldrassil, Alyissia trains young night elves to fight with strength and discipline. She teaches warriors how to defend the young world tree.",
+ "summary": "In Aldrassil, Alyissia teaches young night elves to fight with strength and discipline. Her lessons prepare warriors to defend the young world tree.",
  "sections": [
   {
    "title": "Martial Mentor of Shadowglen",
-   "body": "Alyissia trains young night elves inside Aldrassil, where they learn to fight with steel and shield instead of nature magic or the priesthood. Kaldorei forces are known for their Sentinels and stealthy archers, but danger across Kalimdor also calls for fighters who can hold the front line. Alyissia teaches the first techniques: how to direct battle fury, master a stance, and withstand the wild creatures and corrupted grells that press into Shadowglen.",
+   "body": "Inside Aldrassil, Alyissia trains young night elves to fight with steel and shield. They learn a path apart from nature magic and the priesthood. Kaldorei forces are known for Sentinels and stealthy archers, yet danger across Kalimdor also calls for warriors who can hold the front line. Wild creatures and corrupted grells press into Shadowglen, where Alyissia teaches battle fury, stances, and endurance.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "alyissia npc",
     "what does alyissia do"
    ],
-   "answer": "Alyissia trains new night elf warriors in Aldrassil, the heart of Shadowglen. She gives them their first lessons and simple martial exercises as they begin training in Teldrassil."
+   "answer": "Alyissia trains new night elf warriors in Aldrassil, at the heart of Shadowglen. She gives them their first lessons and simple martial exercises as they begin training in Teldrassil."
   },
   {
    "q": "Where can I find Alyissia?",
@@ -51,7 +51,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you can learn the kaldorei's front-line martial discipline from Alyissia, preparing to defend Aldrassil's roots from corruption."
+   "text": "As a night elf, you can learn the kaldorei's front-line martial discipline from Alyissia. Her teaching prepares you to defend Aldrassil's roots from corruption."
   }
  ],
  "keywords": [
@@ -71,5 +71,5 @@
  "attribution": [
   "Alyissia"
  ],
- "style": 1
+ "style": 2
 }

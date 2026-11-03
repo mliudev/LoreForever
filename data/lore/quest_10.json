@@ -27,16 +27,16 @@
    "Rise of the Silithid"
   ]
  },
- "summary": "In Gadgetzan, Senior Surveyor Fizzledowser is troubled: Junior Surveyor Scrimshank, a top assistant sent into the Gaping Chasm, an area of desert southeast of town, has gone missing. You are asked to find out what became of Scrimshank, or at the least to find the surveying equipment.",
+ "summary": "In Gadgetzan, Fizzledowser seeks news of his missing assistant, Junior Surveyor Scrimshank. Scrimshank went into the Gaping Chasm, southeast of town. Now Fizzledowser asks you to find Scrimshank or the surveying equipment.",
  "sections": [
   {
    "title": "A Surveyor Gone Missing",
-   "body": "Senior Surveyor Fizzledowser is troubled. Junior Surveyor Scrimshank went into the Gaping Chasm and has not been seen since, and the last report from there spoke of more of those weird bugs. Fizzledowser wonders whether the bugs now hold two big regions of the desert at once. You are asked to go in and search for Scrimshank, or failing that, for the surveying equipment, which Fizzledowser fears may be all that is left.",
+   "body": "Senior Surveyor Fizzledowser has heard nothing from Junior Surveyor Scrimshank since he went into the Gaping Chasm. The last report from there spoke of more weird bugs. Fizzledowser wonders whether the bugs now hold two great regions of the desert.\n\nHe asks you to search for Scrimshank or, if Scrimshank is gone, the surveying equipment. Fizzledowser fears it may be all that remains.",
    "spoiler": 0
   },
   {
    "title": "Fizzledowser's Verdict",
-   "body": "Scrimshank, a good goblin by Fizzledowser's account, did not survive. Fizzledowser hopes the loss counts for something, given what the surveying equipment managed to record. The bugs show a worrying cunning, and the research so far points to a third party controlling them, which bodes ill for Gadgetzan and the whole desert.",
+   "body": "By Fizzledowser's account, Junior Surveyor Scrimshank did not survive. Fizzledowser hopes his loss counts for something, given what the surveying equipment recorded.\n\nThe bugs show worrying cunning, and the research so far points to a third party controlling them. Gadgetzan and the whole desert may be in danger.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "who gives this quest",
     "surveyor fizzledowser"
    ],
-   "answer": "Fizzledowser is the Senior Surveyor in Gadgetzan who has been looking into the weird bugs of the desert, and Scrimshank's superior."
+   "answer": "Senior Surveyor Fizzledowser studies the desert's weird bugs in Gadgetzan. He is Scrimshank's superior."
   },
   {
    "q": "Who is Junior Surveyor Scrimshank?",
@@ -57,7 +57,7 @@
     "who is scrimshank",
     "junior surveyor"
    ],
-   "answer": "Scrimshank was Fizzledowser's top assistant, sent into the desert southeast of Gadgetzan before going missing."
+   "answer": "Junior Surveyor Scrimshank was Fizzledowser's top assistant. He was sent into the desert southeast of Gadgetzan before he went missing."
   },
   {
    "q": "Where is the Gaping Chasm located?",
@@ -66,7 +66,7 @@
     "where is gaping chasm",
     "chasm location"
    ],
-   "answer": "It is the area of desert southeast of Gadgetzan that the surveyors call the Gaping Chasm."
+   "answer": "The Gaping Chasm is a desert region southeast of Gadgetzan."
   },
   {
    "q": "What came before this step?",
@@ -75,7 +75,7 @@
     "prerequisite",
     "what quest comes first"
    ],
-   "answer": "It follows the Noxious Lair Investigation."
+   "answer": "The Noxious Lair Investigation came before this step."
   }
  ],
  "angles": [],
@@ -98,5 +98,6 @@
  ],
  "attribution": [
   "The Scrimshank Redemption"
- ]
+ ],
+ "style": 2
 }

@@ -21,12 +21,12 @@
  "sections": [
   {
    "title": "A Perilous Dig",
-   "body": "Archaeologist Hollee crossed the sea with the Explorers' League, sent by Master Greywhisker to apprentice under Prospector Remtravel. His discoveries had made him renowned in Ironforge's academic circles. The League sent him to study ancient ruins along Darkshore's untamed coast. As the pair excavated what seemed to be the remains of a great civilization, violent stone golems burst from the earth and overran the site.",
+   "body": "Archaeologist Hollee came across the sea with the Explorers' League. Master Greywhisker sent her to apprentice under Prospector Remtravel, whose discoveries had made him renowned in Ironforge's academic circles. The League sent them to study ancient ruins along Darkshore's untamed coast. As they dug through what seemed to be the remains of a great civilization, violent stone golems burst from the earth and overran the site.",
    "spoiler": 0
   },
   {
    "title": "Oblivious to Doom",
-   "body": "Hollee fled in panic through the night to Auberdine, the night elf port, to seek help. Remtravel barely noticed the danger. Absorbed in the relics he had uncovered, the elderly prospector stayed among the rubble while lumbering constructs surrounded his camp. South of Auberdine, anyone who reaches him finds him grumbling about missing stone brushes and misplaced fossils.",
+   "body": "In panic, Hollee fled through the night to Auberdine, the night elf port, to seek help. Remtravel barely noticed the danger. Absorbed in his relics, the elderly prospector stayed among the rubble as lumbering constructs surrounded his camp. South of Auberdine, anyone who reaches him finds him grumbling about missing stone brushes and misplaced fossils.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "prospector remtravel lore",
     "who is the prospector"
    ],
-   "answer": "Prospector Remtravel is a celebrated dwarven researcher with the Explorers' League of Ironforge. His groundbreaking discoveries made him famous in dwarven academic circles, but valuable relics can leave him unaware of danger around him."
+   "answer": "Prospector Remtravel is a celebrated dwarven researcher with the Explorers' League of Ironforge. His discoveries made him famous in dwarven academic circles, but valuable relics can leave him blind to danger nearby."
   },
   {
    "q": "Why is Archaeologist Hollee in Auberdine?",
@@ -47,7 +47,7 @@
     "hollee auberdine",
     "why did hollee run"
    ],
-   "answer": "Master Greywhisker assigned Hollee to assist Remtravel. When dangerous golems emerged at their dig site, she fled north in panic to Auberdine for help with a rescue."
+   "answer": "Master Greywhisker assigned Hollee to assist Remtravel. When dangerous golems rose at their dig site, she fled north in panic to Auberdine to seek help with a rescue."
   },
   {
    "q": "What were the dwarves excavating in Darkshore?",
@@ -56,7 +56,7 @@
     "darkshore dig site",
     "remtravel fossil"
    ],
-   "answer": "The dwarves were excavating what appeared to be the remains of an ancient, great civilization beneath Darkshore. Remtravel had uncovered a mysterious fossil and stone artifacts before golems overran the site."
+   "answer": "The dwarves were excavating what seemed to be the remains of a great ancient civilization beneath Darkshore. Before golems overran the site, Remtravel had uncovered a mysterious fossil and stone artifacts."
   },
   {
    "q": "Where can Prospector Remtravel be found?",
@@ -83,13 +83,13 @@
     "remtravel alive",
     "help remtravel"
    ],
-   "answer": "Yes. Hostile golems prowl the ruins around him, but Remtravel is oblivious to the danger. He is focused on cataloging his findings and wonders where his tools and assistant have wandered off to."
+   "answer": "Yes. Hostile golems prowl the ruins around Remtravel, but he is blind to the danger. He is focused on cataloging his findings and wonders where his tools and assistant have gone."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you can see Remtravel's obsessive curiosity at work: he risks limb and life over an uncatalogued fossil."
+   "text": "As a dwarf, you see Remtravel's obsessive curiosity at work: he risks life and limb over an uncatalogued fossil."
   },
   {
    "target": "faction:Alliance",
@@ -117,5 +117,5 @@
  "attribution": [
   "The Absent Minded Prospector"
  ],
- "style": 1
+ "style": 2
 }

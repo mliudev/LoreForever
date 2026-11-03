@@ -17,21 +17,21 @@
   "wiki": "Skull Rock (Classic)",
   "chain": []
  },
- "summary": "Margoz sends you into Skull Rock, east of Orgrimmar. Burning Blade cultists have overrun the cave and use painful demonic devices to bind themselves to dark magic. Margoz needs the cursed artifacts to study the cult's presence near the capital.",
+ "summary": "Margoz sends you east of Orgrimmar, where Burning Blade cultists hold Skull Rock. They bind themselves to dark magic with painful demonic devices. Margoz needs the cursed artifacts to study the cult near the capital.",
  "sections": [
   {
    "title": "A Den of Shadows",
-   "body": "In northeastern Durotar, cultists gather close to Orgrimmar's gates. The cave lies among the hills, far from the open roads, yet near the Warchief's seat. The Burning Blade, a demonic cult that has long plagued orcish society, has made its home in the tunnels. Its followers perform rituals there while the Warchief's scouts watch nearby.",
+   "body": "In northeastern Durotar, Burning Blade cultists gather close to Orgrimmar's gates. Their cave lies among the hills, away from the open roads but near the Warchief's seat. The cult has long plagued orcish society, and now its followers perform rituals in the tunnels. Nearby, the Warchief's scouts keep watch.",
    "spoiler": 0
   },
   {
    "title": "Demonic Attunement",
-   "body": "Burning Blade cultists wear Searing Collars around their necks, metal bands that scorch and brand their flesh. Margoz believes the pain and fel sorcery in the collars attune their wearers to demonic power. He asks you to recover the collars so he can study the spells and bindings that empower the cultists.",
+   "body": "Burning Blade cultists wear Searing Collars around their necks. The metal bands scorch and brand their flesh. Margoz believes the pain and fel sorcery attune their wearers to demonic power. He asks you to recover the collars so he can study the spells and bindings that empower them.",
    "spoiler": 0
   },
   {
    "title": "The Looming Threat",
-   "body": "The Burning Blade's Searing Collars show that the cult is organized in Durotar. Its sorcery threatens the Horde's newly established territories. Margoz's study of the collars leads to further inquiries among the hidden circles of Orgrimmar.",
+   "body": "The Searing Collars reveal how the Burning Blade has organized itself in Durotar. Its sorcery threatens the Horde's newly established territories. Margoz studies the collars, then pursues further inquiries among Orgrimmar's hidden circles.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "where is skull rock",
     "skull rock cave durotar"
    ],
-   "answer": "Skull Rock lies in northeastern Durotar, east of Orgrimmar and north of Sen'jin Village. Its entrance is framed by a craggy cliffside along the shore."
+   "answer": "Skull Rock lies in northeastern Durotar, east of Orgrimmar and north of Sen'jin Village. Its entrance sits in a craggy cliffside along the shore."
   },
   {
    "q": "Who is the Burning Blade?",
@@ -52,7 +52,7 @@
     "who are burning blade cultists",
     "burning blade lore"
    ],
-   "answer": "The Burning Blade is a cult of orcs and fel-worshipers devoted to demons and dark magic. Though the modern Horde broke from demonic servitude, splinter groups like the Burning Blade still practice forbidden rites and seek to corrupt the Horde from the shadows."
+   "answer": "The Burning Blade is a cult of orcs and fel-worshipers devoted to demons and dark magic. The modern Horde broke from demonic servitude, but splinter groups like the Burning Blade still practice forbidden rites and seek to corrupt the Horde from the shadows."
   },
   {
    "q": "What do the cultists use the Searing Collars for?",
@@ -70,7 +70,7 @@
     "margoz durotar",
     "margoz questgiver"
    ],
-   "answer": "Margoz is an orcish hermit who lives in a small camp atop the bluffs of Durotar, near Skull Rock. He watches cultist movements along the coast and works to dismantle the Burning Blade's operations."
+   "answer": "Margoz is an orcish hermit who lives in a small camp atop Durotar's bluffs, near Skull Rock. He watches cultist movements along the coast and works to dismantle the Burning Blade's operations."
   },
   {
    "q": "Why does the Horde allow the cult so close to Orgrimmar?",
@@ -78,7 +78,7 @@
     "why is skull rock near orgrimmar",
     "orgrimmar burning blade nearby"
    ],
-   "answer": "The Horde does not knowingly tolerate the cult near Orgrimmar. Burning Blade followers hide in caves and desolate ravines beyond the reach of regular patrols, and adventurers investigate when the cult's rituals reveal its footholds."
+   "answer": "The Horde does not knowingly tolerate the cult near Orgrimmar. Burning Blade followers hide in caves and desolate ravines beyond regular patrols, and adventurers investigate when the cult's rituals reveal its footholds."
   },
   {
    "q": "What happens after Margoz examines the collars?",
@@ -93,15 +93,15 @@
  "angles": [
   {
    "target": "race:Orc",
-   "text": "As an orc, you face the Burning Blade as a remnant of the dark past your people fight to leave behind. Driving the cult from Durotar's rocks is a matter of survival and honor."
+   "text": "As an orc, you face the Burning Blade as a remnant of your people's dark past. Driving the cult from Durotar's rocks is a matter of survival and honor."
   },
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you can see how the Searing Collars bind their wearers with fel magic. Their crude enchantments show how the cult turns demonic sacrifice into power."
+   "text": "As a warlock, you can see how Searing Collars bind their wearers with fel magic. Their crude enchantments show how the cult turns demonic sacrifice into power."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you face a demonic cult entrenched just beyond Orgrimmar's walls, threatening the heart and security of your people."
+   "text": "As a member of the Horde, you face a demonic cult entrenched just beyond Orgrimmar's walls. It threatens the heart and security of your people."
   }
  ],
  "keywords": [
@@ -123,5 +123,5 @@
  "attribution": [
   "Skull Rock (Classic)"
  ],
- "style": 1
+ "style": 2
 }

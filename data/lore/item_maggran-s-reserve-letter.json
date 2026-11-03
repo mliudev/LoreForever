@@ -10,11 +10,11 @@
    "quest:5881"
   ]
  },
- "summary": "At Sun Rock Retreat, Maggran Earthbinder sends orders to relieve a guard at the Great Lift. The letter promises Grish Longrunner leave to visit his family.",
+ "summary": "At Sun Rock Retreat, Maggran Earthbinder sends a reserve warrior south to relieve Grish Longrunner at the Great Lift. The orders let Grish return home and visit his family.",
  "sections": [
   {
    "title": "A Sentry Relieved",
-   "body": "Maggran Earthbinder sends orders from Sun Rock Retreat to the Great Lift. Grish Longrunner, a Horde sentry at the post, is to be relieved by a replacement warrior. The Great Lift's wooden winches stand far to the south, where Grish has kept watch. With the new warrior taking his place, he can leave his post and return home to visit his family.",
+   "body": "From Sun Rock Retreat, Maggran Earthbinder sends orders to the Great Lift. Grish Longrunner, a Horde sentry there, is to be relieved by a replacement warrior.\n\nThe Great Lift's wooden winches stand far to the south. Grish has kept watch there, but now the new warrior takes his place. Grish can leave his post and return home to visit his family.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "maggran letter purpose",
     "why deliver letter"
    ],
-   "answer": "Maggran Earthbinder's orders relieve Grish Longrunner from his post at the Great Lift in the southern Barrens, so he can return home and visit his family."
+   "answer": "Maggran Earthbinder's orders relieve Grish Longrunner from his post at the Great Lift in the southern Barrens. A replacement takes his place so Grish can return home and visit his family."
   },
   {
    "q": "Who wrote the letter?",
@@ -44,7 +44,7 @@
     "letter recipient",
     "where does it go"
    ],
-   "answer": "The letter is addressed to Grish Longrunner, a Horde guard stationed at the top of the Great Lift, which connects the southern Barrens to Thousand Needles."
+   "answer": "The letter is addressed to Grish Longrunner, a Horde guard stationed at the top of the Great Lift. The lift connects the southern Barrens to Thousand Needles."
   },
   {
    "q": "Where is the letter delivered?",
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you can see its effort to care for scattered forces by sending fresh reserves to remote outposts across Kalimdor."
+   "text": "As a member of the Horde, you can see how it sends fresh reserves to remote outposts across Kalimdor to care for its scattered forces."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
   "Maggran's Reserve Letter",
   "Calling in the Reserves"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "The Power to Destroy... (Classic)",
   "chain": []
  },
- "summary": "In the Undercity, Varimathras sends Horde adventurers into Ragefire Chasm beneath Orgrimmar. Lady Sylvanas Windrunner wants two dark tomes held by the Searing Blade cult, hoping their power will aid her war against the Scourge and the Lich King.",
+ "summary": "From the Undercity, Varimathras sends Horde adventurers beneath Orgrimmar. Lady Sylvanas Windrunner seeks two dark tomes from the Searing Blade cult, hoping their power will aid her war against the Scourge and the Lich King.",
  "sections": [
   {
    "title": "A Borrowed Arsenal",
-   "body": "Thrall's orcs are hunting the Searing Blade cult beneath their capital, while the Forsaken covet the cult's occult stores. On Sylvanas Windrunner's orders, Varimathras sends operatives into Ragefire Chasm to seize two demonic grimoires: Spells of Shadow and Incantations from the Nether. The Dark Lady believes disciplined Forsaken will can put these demonic gifts to better use than the lesser cultists.",
+   "body": "Thrall's orcs hunt the Searing Blade cult beneath their capital. The Forsaken covet the cult's occult stores. On Sylvanas Windrunner's orders, Varimathras sends operatives into Ragefire Chasm to seize two demonic grimoires: Spells of Shadow and Incantations from the Nether. The Dark Lady believes disciplined Forsaken will can use these gifts better than the lesser cultists.",
    "spoiler": 0
   },
   {
    "title": "The War for Liberation",
-   "body": "Varimathras explains the tomes' purpose once they are secured. Their dark magic is meant to strengthen Sylvanas's campaign against the Scourge. By claiming every scrap of forbidden power, the Forsaken hope to break the Lich King's hold across Lordaeron and free the remaining undead from his mental enslavement.",
+   "body": "Once the tomes are secured, Varimathras explains their purpose. Their dark magic is meant to strengthen Sylvanas's campaign against the Scourge. The Forsaken hope to claim every scrap of forbidden power, break the Lich King's hold across Lordaeron, and free the remaining undead from his mental enslavement.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "undercity ragefire quest reason",
     "why steal books"
    ],
-   "answer": "The Searing Blade cultists in Ragefire Chasm hold powerful demonic tomes. Lady Sylvanas believes their knowledge is wasted on cultists and wants to turn it against the Lich King."
+   "answer": "Searing Blade cultists in Ragefire Chasm hold powerful demonic tomes. Lady Sylvanas believes the cultists waste their knowledge and wants to turn it against the Lich King."
   },
   {
    "q": "What books are you sent to collect?",
@@ -74,7 +74,7 @@
     "orgrimmar undercity secret books",
     "shadow council books orc reaction"
    ],
-   "answer": "Orgrimmar's leaders are focused on purging the traitors and demons beneath their streets. Varimathras's order to retrieve the books is presented as quiet business for the Dark Lady, rather than an official joint Horde decree."
+   "answer": "Orgrimmar's leaders focus on purging the traitors and demons beneath their streets. Varimathras presents the order to retrieve the books as quiet business for the Dark Lady, not an official joint Horde decree."
   },
   {
    "q": "Who are the Searing Blade?",
@@ -89,15 +89,15 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As Forsaken, your journey across the Great Sea to plunder Orgrimmar's underbelly serves your alliance with the Horde and the Dark Lady's ambition to destroy the Scourge."
+   "text": "As Forsaken, you cross the Great Sea to plunder Orgrimmar's underbelly. This serves your alliance with the Horde and the Dark Lady's ambition to destroy the Scourge."
   },
   {
    "target": "class:Warlock",
-   "text": "As a warlock, retrieving Spells of Shadow and Incantations from the Nether means wresting dangerous Legion arcana from reckless cultists."
+   "text": "As a warlock, you wrest Spells of Shadow and Incantations from the Nether from reckless cultists, taking dangerous Legion arcana from their hands."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you help secure Orgrimmar's foundations by clearing the Searing Blade, while the magical spoils go to the Undercity's vaults."
+   "text": "As a member of the Horde, you help secure Orgrimmar's foundations by clearing the Searing Blade. The magical spoils go to the Undercity's vaults."
   }
  ],
  "keywords": [
@@ -123,5 +123,5 @@
  "attribution": [
   "The Power to Destroy... (Classic)"
  ],
- "style": 1
+ "style": 2
 }

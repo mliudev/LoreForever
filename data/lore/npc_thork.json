@@ -8,11 +8,11 @@
   "wiki": "Thork",
   "refs": 6
  },
- "summary": "At the Crossroads, Thork keeps watch over the settlement’s defenses. He sends Horde adventurers against raiders and works to keep supply routes open.",
+ "summary": "At the Crossroads, Thork watches the defenses and keeps supply routes open. He calls on Horde adventurers when raiders threaten the settlement.",
  "sections": [
   {
    "title": "Commander of the Crossroads",
-   "body": "Thork commands the defenses at the Crossroads, where roads link Durotar, Mulgore, and lands beyond. The town faces threats from every side. Quilboar raids, centaur attacks, and harpies on the prowl stretch his forces thin. Thork calls on capable travelers to meet dangers his guards cannot handle alone.",
+   "body": "Thork commands the Crossroads defenses, where roads link Durotar, Mulgore, and lands beyond. Threats press from every side. Quilboar raids, centaur attacks, and harpies on the prowl stretch his forces thin. So Thork calls on capable travelers to meet dangers his guards cannot handle alone.",
    "spoiler": 0
   },
   {
@@ -22,7 +22,7 @@
   },
   {
    "title": "Threats Inside and Out",
-   "body": "Thork thanks travelers who strike at the leaders behind the Razormane raids. Mangletooth, a captive quilboar, betrays his tribe by helping them attack its leaders. When travelers bring Lok Orcbane’s head to the Crossroads, Thork thanks them for weakening the assaults on Horde supply routes.",
+   "body": "Thork thanks travelers who strike at the leaders behind the Razormane raids. Mangletooth, a captive quilboar, betrays his tribe and helps attack its leaders. When travelers bring Lok Orcbane’s head to the Crossroads, Thork thanks them for weakening the assaults on Horde supply routes.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "find thork",
     "where is thork standing"
    ],
-   "answer": "Thork stands outside near the center of the Crossroads, coordinating guards and giving defense orders."
+   "answer": "Thork stands outside near the center of the Crossroads. There, he coordinates guards and gives defense orders."
   },
   {
    "q": "Why is the Crossroads so vulnerable to attack?",
@@ -51,7 +51,7 @@
     "crossroads under attack",
     "why crossroads dangerous"
    ],
-   "answer": "The Crossroads lies at an open meeting of major trade routes in the Barrens, with little stone fortification. Hostile Razormane quilboar, Kolkar centaur, and Alliance scouts threaten its borders, so the settlement needs constant watch."
+   "answer": "The Crossroads lies where major trade routes meet in the open Barrens, and it has little stone fortification. Hostile Razormane quilboar, Kolkar centaur, and Alliance scouts threaten its borders, so the settlement needs constant watch."
   },
   {
    "q": "What is Thork's relationship with Mankrik?",
@@ -67,7 +67,7 @@
     "thork and kadrak",
     "thork morshan rampart"
    ],
-   "answer": "Thork sends messengers and fighters to Kadrak at the Mor’shan Rampart to report on the northern border and watch Ashenvale’s border."
+   "answer": "Thork sends messengers and fighters to Kadrak at the Mor’shan Rampart. They report on the northern border and watch Ashenvale’s border."
   },
   {
    "q": "What threats does Thork deal with?",
@@ -75,13 +75,13 @@
     "crossroads enemies",
     "thork quests info"
    ],
-   "answer": "Thork faces marauding quilboar warbands that disrupt trade and steal supply crates. He also thanks travelers who defeat the leaders behind the raids."
+   "answer": "Thork faces marauding quilboar warbands that disrupt trade and steal supply crates. He thanks travelers who defeat the leaders behind the raids."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "If you come from Durotar or Mulgore as a member of the Horde, reporting to Thork is an important step in proving yourself a protector of Kalimdor."
+   "text": "As a member of the Horde from Durotar or Mulgore, reporting to Thork is an important step in proving yourself a protector of Kalimdor."
   },
   {
    "target": "race:Orc",
@@ -115,5 +115,5 @@
  "attribution": [
   "Thork"
  ],
- "style": 1
+ "style": 2
 }

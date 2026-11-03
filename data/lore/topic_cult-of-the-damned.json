@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Cult of the Damned"
  },
- "summary": "The Cult of the Damned is a secretive cabal of mortal zealots, necromancers, and aristocrats devoted to the Lich King. Formed in northern Lordaeron prior to the Third War, its members poisoned the grain supplies that spawned the Scourge and engineered the downfall of humanity's greatest kingdom. Today, the surviving cultists manage the plague cauldrons and necromantic academies across the Plaguelands while actively infiltrating the cities of the living.",
+ "summary": "Across Lordaeron, the Cult of the Damned still serves the Lich King. Before the Third War, its poisoned grain spread the Scourge and helped bring down humanity's greatest kingdom. Now cultists tend plague cauldrons and necromantic academies in the Plaguelands, while living agents infiltrate the cities of the living.",
  "sections": [
   {
    "title": "A Sickness in the Soul",
-   "body": "The Cult of the Damned was forged by the exiled Archmage Kel'Thuzad after he answered the telepathic whispers of the Lich King emanating from the Frozen Throne. Returning to Lordaeron with vast wealth and forbidden dark arts, Kel'Thuzad offered two false gospels: to the desperate, impoverished lower classes, he promised social equality and liberation from misery; to the wealthy landowners, such as the noble House of Barov, he promised eternal life and an unshakeable grip upon their domains. In truth, both the destitute and the affluent were cattle intended for slaughter, bound into a death cult designed to betray their homeland from the inside.",
+   "body": "Kel'Thuzad founded the cult after hearing the Lich King's whispers from the Frozen Throne. Exiled from the Kirin Tor, the archmage returned to Lordaeron with great wealth and forbidden arts. To the desperate poor, he promised equality and freedom from misery. To wealthy landowners such as House of Barov, he promised eternal life and lasting power over their domains. Both were drawn into a death cult meant to betray their homeland from within.",
    "spoiler": 0
   },
   {
    "title": "The Poisoned Harvest",
-   "body": "Operating in complete secrecy from the dungeons beneath Caer Darrow, the cultists honed their necrotic craft, built hulking abominations, and perfected the Plague of Undeath brought south from Northrend. They struck at Lordaeron's breadbasket, contaminating the grain stores at Andorhal. As tainted flour traveled through regular merchant routes to hearths across the Eastweald, commoners sickened and died within days, only to rise as shambling thralls under the Lich King's telepathic lash. When Prince Arthas slaughtered Kel'Thuzad in Andorhal, the cultist network was already so deeply rooted that the kingdom's doom was sealed.",
+   "body": "Beneath Caer Darrow, cultists practiced necromancy in secret. They built abominations and perfected the Plague of Undeath brought from Northrend. Then they contaminated grain stores in Andorhal, Lordaeron's breadbasket.\n\nFlour traveled along merchant routes to homes across the Eastweald. Within days, commoners sickened and died, then rose as thralls under the Lich King's command. When Prince Arthas killed Kel'Thuzad in Andorhal, the cult had already spread too far to stop the kingdom's fall.",
    "spoiler": 0
   },
   {
    "title": "The Present Threat",
-   "body": "Though Arthas sailed to Northrend and ascended the Frozen Throne, the Cult of the Damned remains fully operational in northern Lordaeron under the command of the resurrected archlich Kel'Thuzad. From the shadows of Stratholme and the halls of Scholomance, living cultists perform dark rites, maintain the toxic plague cauldrons across the ruined farmsteads, and attempt to assassinate Scarlet Crusaders and Forsaken alike. Because they still breathe, these acolytes can walk unnoticed through living settlements, poisoning wells, sabotaging supply lines, and grooming new recruits to feed the Scourge machine.",
+   "body": "The Cult of the Damned still threatens northern Lordaeron under the resurrected archlich Kel'Thuzad. Living cultists operate from the ruins of Stratholme and Scholomance. They perform dark rites, tend plague cauldrons among ruined farms, and try to kill Scarlet Crusaders and Forsaken. Their agents pass unnoticed through settlements, poison wells, disrupt supplies, and recruit others for the Scourge.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "cultist motives",
     "why serve scourge"
    ],
-   "answer": "Kel'Thuzad preyed upon mortal weakness. He offered the impoverished lower classes a new order of absolute equality and relief from their hardships, while promising wealthy nobles like Baron Rivendare and the Barov family immortality and everlasting power. Most initiates were kept ignorant of the true, horrific nature of the plague until it was too late to turn back."
+   "answer": "Kel'Thuzad preyed on mortal weakness. He promised the poor equality and relief from hardship, while offering nobles such as Baron Rivendare and the Barov family immortality and lasting power. Many initiates did not learn the plague's true nature until escape was no longer possible."
   },
   {
    "q": "Why are cultists allowed to stay alive instead of being killed and raised?",
@@ -42,7 +42,7 @@
     "why aren't they undead",
     "living cultists"
    ],
-   "answer": "Living agents possess immense practical value for the Lich King. They can pass through human settlements unnoticed, trade along standard merchant lines, purchase supplies, and subvert kingdoms from within. In cult doctrine, undeath is also treated as a glorious reward that must be earned through devoted service."
+   "answer": "Living agents can pass unnoticed through human settlements, trade along merchant routes, buy supplies, and undermine kingdoms from within. Cult doctrine treats undeath as a reward earned through devoted service."
   },
   {
    "q": "Where is the Cult of the Damned based?",
@@ -51,7 +51,7 @@
     "where is the cult",
     "cult main base"
    ],
-   "answer": "Their primary scholastic and spiritual redoubt is Scholomance, located within the catacombs beneath Caer Darrow. Beyond this academy, large concentrations of cultists operate in the ruins of Stratholme, around the plague cauldrons of the Western and Eastern Plaguelands, and across secret cells hidden in living settlements."
+   "answer": "The cult's chief spiritual and scholastic refuge is Scholomance, in the catacombs beneath Caer Darrow. Cultists also gather in Stratholme's ruins, around plague cauldrons in both Plaguelands, and in secret cells within living settlements."
   },
   {
    "q": "Who founded the Cult of the Damned?",
@@ -60,7 +60,7 @@
     "cult founder",
     "kel'thuzad cult"
    ],
-   "answer": "Archmage Kel'Thuzad, a former high-ranking member of Dalaran's Kirin Tor. After being censured for his forbidden necromantic studies, he traveled north to commune with the Lich King, who granted him immense power and sent him back to Lordaeron to organize the mortal vanguard of the Scourge."
+   "answer": "Archmage Kel'Thuzad founded the cult after leaving the Kirin Tor in disgrace for forbidden necromancy. He traveled north, communed with the Lich King, gained great power, and returned to Lordaeron to organize the Scourge's mortal vanguard."
   },
   {
    "q": "How does the Cult of the Damned spread the plague today?",
@@ -69,7 +69,7 @@
     "plague cauldrons",
     "how does cult attack"
    ],
-   "answer": "While they initially spread the plague through tainted grain shipments from Andorhal, they now primarily rely on massive plague cauldrons situated across Plaguelands farms. Cultist cauldron lords brew foul reagents to continuously release noxious clouds of blight that choke the land and raise fallen corpses."
+   "answer": "Cultists first spread the plague through tainted grain from Andorhal. Now they use great cauldrons across Plaguelands farms, where cauldron lords brew reagents that release blight and raise fallen corpses."
   },
   {
    "q": "What is the cult's relationship to the Forsaken?",
@@ -77,29 +77,29 @@
     "cult vs forsaken",
     "forsaken cult of the damned"
    ],
-   "answer": "They are bitter enemies. The Forsaken broke free from the Lich King's telepathic command and seek vengeance against the Scourge. Cultists view the Forsaken as stolen property and heretics, constantly seeking to annihilate them or reclaim the ruins of Lordaeron for the Frozen Throne."
+   "answer": "The Forsaken and the cult are bitter enemies. The Forsaken broke free of the Lich King's command and seek vengeance on the Scourge. Cultists call them stolen property and heretics, and seek to destroy them or reclaim Lordaeron's ruins for the Frozen Throne."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "Every human remembers the collapse of Lordaeron; the Cult of the Damned serves as a bitter reminder that humanity was not conquered by demons alone, but by traitors from within their own cities and estates."
+   "text": "As a human, you remember Lordaeron's fall. The Cult of the Damned recalls how traitors within human cities and estates helped bring humanity down alongside demons."
   },
   {
    "target": "race:Undead",
-   "text": "To the Forsaken, cultists are pathetic lapdogs who willingly sacrifice their freedom to the master whose mental chains the Forsaken fought so hard to shatter."
+   "text": "As Forsaken, you know cultists as lapdogs who gave up their freedom to the master whose mental chains you fought to break."
   },
   {
    "target": "class:Paladin",
-   "text": "The Cult of the Damned represents the ultimate blasphemy against the Holy Light, wielding foul necromancy to corrupt the living and disturb the eternal rest of the dead."
+   "text": "As a paladin, you face a blasphemy against the Holy Light. Cultists use necromancy to corrupt the living and disturb the dead."
   },
   {
    "target": "class:Mage",
-   "text": "The cult is a painful stain on the honor of the Kirin Tor, having been founded by one of Dalaran's own esteemed archmages, Kel'Thuzad."
+   "text": "As a mage, you know the cult stains the Kirin Tor's honor. Kel'Thuzad, one of Dalaran's esteemed archmages, founded it."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance scouts and soldiers must remain constantly vigilant, as cult infiltrators still attempt to sow plague and chaos inside living cities like Stormwind."
+   "text": "As an Alliance soldier or scout, you must watch for cult infiltrators seeking to spread plague and chaos in living cities such as Stormwind."
   }
  ],
  "keywords": [
@@ -126,5 +126,6 @@
  ],
  "attribution": [
   "Cult of the Damned"
- ]
+ ],
+ "style": 2
 }

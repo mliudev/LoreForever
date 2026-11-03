@@ -17,16 +17,16 @@
   "wiki": "The Lost Tools",
   "chain": []
  },
- "summary": "Blackrock fire has sunk Foreman Oslow's tools in Lake Everstill. With Lakeshire under pressure, local hands must maintain its defenses, and the tools shipped from Goldshire are needed to rebuild the shattered bridge.",
+ "summary": "Blackrock fire has sunk Foreman Oslow's tools in Lake Everstill. Lakeshire is under pressure, and its builders need the shipment from Goldshire to repair the Great Bridge.",
  "sections": [
   {
    "title": "A Delivery Gone Awry",
-   "body": "The Great Bridge no longer connects Lakeshire to Elwynn Forest. A replacement shipment of stonemasonry and carpentry tools came overland from Goldshire, but the wagons could not reach town. The crew loaded the supplies into a rowboat to cross Lake Everstill. A Blackrock orc catapult struck the boat, destroying it and sending Oslow's heavy ironbound toolbox to the lake floor.",
+   "body": "The Great Bridge no longer joins Lakeshire to Elwynn Forest. A replacement shipment of stonework and carpentry tools came overland from Goldshire, but the wagons could not reach town. So the crew loaded the supplies into a rowboat to cross Lake Everstill. A Blackrock orc catapult struck the boat. It broke apart, and Oslow's heavy ironbound toolbox sank to the lake floor.",
    "spoiler": 0
   },
   {
    "title": "Hazards of the Deep",
-   "body": "Lake Everstill holds dangers below its surface. Aggressive murloc tribes prowl the shallows, while predatory threshers hunt in the murky depths. Foreman Oslow needs his tools to resume repairs on the bridge and keep Lakeshire from falling further into ruin.",
+   "body": "Lake Everstill is dangerous below the surface. Aggressive murloc tribes prowl the shallows, while predatory threshers hunt in the murky depths. Foreman Oslow needs his tools to resume repairs on the bridge. Without them, Lakeshire risks falling further into ruin.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "how did the tools sink",
     "why lake transport"
    ],
-   "answer": "Blackrock orcs destroyed a large span of the stone bridge over Lake Everstill, so supply wagons from Goldshire could not reach Lakeshire. The crew unloaded the tools and tried to ferry them across the water."
+   "answer": "Blackrock orcs destroyed a large span of the stone bridge over Lake Everstill, leaving supply wagons from Goldshire unable to reach Lakeshire. The crew unloaded the tools and tried to ferry them across the water."
   },
   {
    "q": "How did the boat sink?",
@@ -46,7 +46,7 @@
     "who destroyed the boat",
     "how did it get hit"
    ],
-   "answer": "Blackrock orcs struck the transport boat with a catapult projectile from the surrounding heights as it crossed Lake Everstill. The boat sank with its cargo."
+   "answer": "A catapult projectile struck the transport boat as it crossed Lake Everstill. Blackrock orcs fired from the surrounding heights, and the boat sank with its cargo."
   },
   {
    "q": "Who is Foreman Oslow?",
@@ -54,7 +54,7 @@
     "foreman oslow",
     "oslow role"
    ],
-   "answer": "Foreman Oslow is Lakeshire's chief builder and overseer, responsible for public works and civil maintenance. His most urgent work is rebuilding the ruined bridge."
+   "answer": "Foreman Oslow is Lakeshire's chief builder and overseer. He is responsible for public works and civil maintenance, with rebuilding the ruined bridge his most urgent work."
   },
   {
    "q": "What threats are in Lake Everstill?",
@@ -63,7 +63,7 @@
     "lake monsters",
     "lake everstill danger"
    ],
-   "answer": "Hostile murloc tribes patrol the shores and ruins, while vicious, carnivorous lake threshers hunt in open water and the deeper depths."
+   "answer": "Hostile murloc tribes patrol the shores and ruins. Vicious, carnivorous lake threshers hunt in open water and the deeper depths."
   },
   {
    "q": "Why does Lakeshire need these tools so badly?",
@@ -71,7 +71,7 @@
     "why are tools important",
     "bridge repair tools"
    ],
-   "answer": "Lakeshire is under siege, cut off from immediate reinforcements and regular shipments. Without heavy tools, Oslow cannot rebuild the bridge or repair the defenses needed against attacking orcs and gnolls."
+   "answer": "Lakeshire is under siege and cut off from immediate reinforcements and regular shipments. Without heavy tools, Oslow cannot rebuild the bridge or repair the defenses needed against attacking orcs and gnolls."
   },
   {
    "q": "Where does the quest lead next?",
@@ -79,7 +79,7 @@
     "next quest",
     "what after lost tools"
    ],
-   "answer": "After his toolbox is recovered, Foreman Oslow asks adventurers to gather the raw building materials needed to repair the Great Bridge in The Everstill Bridge."
+   "answer": "After his toolbox is recovered, Foreman Oslow asks travelers to gather the raw building materials needed to repair the Great Bridge in The Everstill Bridge."
   }
  ],
  "angles": [
@@ -115,5 +115,5 @@
  "attribution": [
   "The Lost Tools"
  ],
- "style": 1
+ "style": 2
 }

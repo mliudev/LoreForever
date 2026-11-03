@@ -17,16 +17,16 @@
   "wiki": "Stars of Elune",
   "chain": []
  },
- "summary": "In Darnassus, night elf acolytes are called to the Temple of the Moon after proving their devotion to their people. There, the Sisterhood of Elune teaches them sacred arts of their faith.",
+ "summary": "At the Temple of the Moon in Darnassus, night elf acolytes answer the Sisterhood of Elune's summons. Their devotion has earned them sacred instruction in their faith.",
  "sections": [
   {
    "title": "A Rite of Devotion",
-   "body": "Night elf priests draw their holy power from Elune, their goddess, while humans and dwarves turn to the Light. When an acolyte serves the realm with steadfast devotion, the Sisterhood in Darnassus takes notice. The acolyte is summoned to the Temple of the Moon and judged ready for deeper communion. There, the priest learns sacred spells passed down through thousands of years of worship.",
+   "body": "Night elf priests draw their holy power from Elune, their goddess. Humans and dwarves turn to the Light. When an acolyte serves the realm with steadfast devotion, the Sisterhood in Darnassus takes notice. The acolyte is summoned to the Temple of the Moon and judged ready for deeper communion.\n\nThere, the priest learns sacred spells passed down through thousands of years of worship.",
    "spoiler": 0
   },
   {
    "title": "Gifts of the Moon Goddess",
-   "body": "Priestess Alathea calls the initiate to receive instruction in holy mysteries of the night elf faith, including Starshards. These spells channel the radiant wrath and grace of the White Lady. The teaching marks an acolyte's passage beyond basic training, ready to venture beyond Teldrassil's protective canopy in Elune's name.",
+   "body": "Priestess Alathea calls the initiate to learn the holy mysteries of the night elf faith, including Starshards. These spells channel the radiant wrath and grace of the White Lady. The teaching carries an acolyte beyond basic training, ready to venture beyond Teldrassil's protective canopy in Elune's name.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what do i get",
     "why do this quest"
    ],
-   "answer": "The Sisterhood of Elune formally recognizes an initiate's devotion. Priestess Alathea teaches the young priest night elf spells such as Starshards."
+   "answer": "The Sisterhood of Elune recognizes an initiate's devotion. Priestess Alathea teaches the young priest night elf spells such as Starshards."
   },
   {
    "q": "Who offers Stars of Elune?",
@@ -74,7 +74,7 @@
     "night elf priest magic",
     "starshards lore"
    ],
-   "answer": "Priests devoted to Elune weave moonlight, starlight, and shadow. Through rites such as Starshards, kaldorei worshippers call down celestial fire upon enemies, joining divine judgment with astral wrath."
+   "answer": "Priests devoted to Elune weave moonlight, starlight, and shadow. Through rites such as Starshards, kaldorei worshippers call celestial fire upon enemies, joining divine judgment with astral wrath."
   },
   {
    "q": "Where in Darnassus does this take place?",
@@ -83,13 +83,13 @@
     "where is priestess alathea",
     "temple of the moon location"
    ],
-   "answer": "The rite takes place inside the Temple of the Moon, a marble sanctuary above Darnassus's southern quarter and the religious heart of the kaldorei nation."
+   "answer": "The rite takes place inside the Temple of the Moon, a marble sanctuary above Darnassus's southern quarter. It is the religious heart of the kaldorei nation."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "As a priest, this rite marks the path of kaldorei priests and brings you astral spells granted by the Moon Goddess."
+   "text": "As a priest, you follow the path of kaldorei priests and receive astral spells granted by the Moon Goddess."
   },
   {
    "target": "race:NightElf",
@@ -97,7 +97,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you stand among human and dwarven priests of the Holy Light, while night elf devotion to Elune brings ancient celestial magic to the Alliance."
+   "text": "As an Alliance member, you stand among human and dwarven priests of the Holy Light. Night elf devotion to Elune brings ancient celestial magic to the Alliance."
   }
  ],
  "keywords": [
@@ -117,5 +117,5 @@
  "attribution": [
   "Stars of Elune"
  ],
- "style": 1
+ "style": 2
 }

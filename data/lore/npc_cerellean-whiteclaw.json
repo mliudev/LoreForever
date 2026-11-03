@@ -8,16 +8,16 @@
   "wiki": "Cerellean Whiteclaw",
   "refs": 1
  },
- "summary": "Near Auberdine’s docks and inn in Darkshore, Cerellean Whiteclaw rests with grief for a lost love. The Sundering’s memory haunts him, and he struggles to bring that restless spirit peace.",
+ "summary": "Near Auberdine’s docks and inn, Cerellean Whiteclaw mourns the love he lost. The Sundering’s memory still haunts him, and he longs to bring Anaya’s restless spirit peace.",
  "sections": [
   {
    "title": "A Love Torn asunder",
-   "body": "Before the War of the Ancients, Cerellean Whiteclaw shared his life with Anaya Dawnrunner. Ten thousand years ago, the demonic invasion shattered ancient Kalimdor, and Anaya died in the destruction of her city, Ameth'Aran. Stricken with grief, Cerellean followed Malfurion Stormrage into the long druidic slumber. The Emerald Dream brought little relief from his memories. When he awoke millennia later, he wandered Darkshore in grief and found Anaya's ghost still bound to the stones where she fell.",
+   "body": "Before the War of the Ancients, Cerellean Whiteclaw shared his life with Anaya Dawnrunner. Ten thousand years ago, the demonic invasion shattered ancient Kalimdor. Anaya died when her city, Ameth'Aran, fell in the destruction. Grief-stricken, Cerellean followed Malfurion Stormrage into the long druidic slumber.\n\nThe Emerald Dream brought little peace from his memories. Millennia later, Cerellean awoke and wandered Darkshore in grief. There he found Anaya's ghost still bound to the stones where she fell.",
    "spoiler": 0
   },
   {
    "title": "A Plea for Release",
-   "body": "Cerellean longs to give Anaya peace, but cannot bear to strike down her tormented shade himself. He asks passing travelers to go south to the haunted ruins of Ameth'Aran, put her spirit to rest, and recover her pendant. Once freed, Anaya's shade briefly visits Cerellean on Auberdine's docks. She reassures him of her enduring love and promises they will one day reunite in the afterlife.",
+   "body": "Cerellean longs to give Anaya peace, but cannot bring himself to strike down her tormented shade. So he asks passing travelers to go south to the haunted ruins of Ameth'Aran, lay her spirit to rest, and recover her pendant.\n\nOnce freed, Anaya's shade visits Cerellean briefly on Auberdine's docks. She assures him her love endures and promises they will reunite one day in the afterlife.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "cerellean whiteclaw",
     "auberdine docks elf"
    ],
-   "answer": "Cerellean Whiteclaw rests near the docks and inn of Auberdine in Darkshore. This ancient night elf mourns Anaya Dawnrunner, who died during the War of the Ancients ten thousand years ago."
+   "answer": "Near Auberdine’s docks and inn in Darkshore, Cerellean Whiteclaw mourns Anaya Dawnrunner. She died during the War of the Ancients ten thousand years ago."
   },
   {
    "q": "Who was Anaya Dawnrunner?",
@@ -90,5 +90,5 @@
  "attribution": [
   "Cerellean Whiteclaw"
  ],
- "style": 1
+ "style": 2
 }

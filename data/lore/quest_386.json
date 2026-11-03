@@ -17,16 +17,16 @@
   "wiki": "What Comes Around...",
   "chain": []
  },
- "summary": "Guard Berton in Lakeshire is pressing for Targorr the Dread's execution. The Blackrock orc remains in Stormwind Stockade despite his sentence, while political delays keep justice out of reach.",
+ "summary": "In Lakeshire, Guard Berton presses for Targorr the Dread's execution. The Blackrock orc remains in Stormwind Stockade despite his sentence, while political delays keep justice out of reach.",
  "sections": [
   {
    "title": "A Butcher Held in Limbo",
-   "body": "Targorr the Dread earned his name in the Redridge Mountains, where he served as supreme executioner under General Gath'Ilzogg, chieftain of the Blackrock orcs at Stonewatch Keep. Even among the invaders, his cruelty was notorious. He oversaw the torture and execution of many Redridge defenders. After his capture, Stormwind sent him to its high-security prison, the Stormwind Stockade, and condemned him to die for his crimes against the realm.",
+   "body": "Targorr the Dread earned his name in the Redridge Mountains. He served as supreme executioner under General Gath'Ilzogg, chieftain of the Blackrock orcs at Stonewatch Keep. Even among the invaders, his cruelty was notorious. He oversaw the torture and execution of many Redridge defenders. After his capture, Stormwind sent him to its high-security prison, the Stormwind Stockade, and condemned him to die for his crimes against the realm.",
    "spoiler": 0
   },
   {
    "title": "Corruption in High Places",
-   "body": "An unnamed nobleman in Stormwind's House of Nobles intervened, and Targorr's execution stopped despite his sentence. Guard Berton, stationed in vulnerable Lakeshire, suspects foul play or bribery meant to free the brute. He recruits trusted adventurers to enter the riot-torn prison and carry out the order without bureaucratic interference.",
+   "body": "An unnamed nobleman in Stormwind's House of Nobles intervened, and Targorr's execution halted despite his sentence. Guard Berton, stationed in vulnerable Lakeshire, suspects foul play or bribery meant to free the brute. He recruits trusted adventurers to enter the riot-torn prison and carry out the order without bureaucratic interference.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who is targorr",
     "targorr lore"
    ],
-   "answer": "Targorr the Dread is a Blackrock orc who served as supreme executioner under General Gath'Ilzogg in Redridge. He tortured captured human soldiers before his capture and imprisonment in the Stormwind Stockade."
+   "answer": "Targorr the Dread is a Blackrock orc who served as supreme executioner under General Gath'Ilzogg in Redridge. Before his capture and imprisonment in the Stormwind Stockade, he tortured captured human soldiers."
   },
   {
    "q": "Why hasn't Stormwind executed Targorr yet?",
@@ -78,7 +78,7 @@
     "berton motive",
     "why bypass nobles"
    ],
-   "answer": "Berton saw Redridge soldiers suffer and die under Targorr's blades. Disgusted that Stormwind politicians are treating a ruthless murderer as a political pawn, he bypasses official channels to secure justice."
+   "answer": "Berton saw Redridge soldiers suffer and die under Targorr's blades. Disgusted that Stormwind politicians treat a ruthless murderer as a political pawn, he bypasses official channels to secure justice."
   }
  ],
  "angles": [
@@ -117,5 +117,5 @@
  "attribution": [
   "What Comes Around..."
  ],
- "style": 1
+ "style": 2
 }

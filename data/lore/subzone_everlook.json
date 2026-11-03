@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Everlook"
  },
- "summary": "Everlook is a snow-swept trading outpost in central Winterspring established by the Steamwheedle Cartel. Situated at the crossroads of the snowy valley's routes, it serves as a neutral haven for merchants, prospectors, and researchers braving the high-altitude cold.",
+ "summary": "Everlook shelters travelers at the meeting of Winterspring’s routes. The Steamwheedle Cartel keeps this northern outpost open to merchants, prospectors, and researchers, offering a neutral refuge from the high-altitude cold.",
  "sections": [
   {
    "title": "Commerce at the Edge of the World",
-   "body": "Everlook represents the Steamwheedle Cartel's northernmost endeavor, mirroring outposts like Gadgetzan and Booty Bay under a blanket of permafrost. The walled settlement perches at the intersection of Winterspring's snowdrifts, operating under strictly enforced neutrality. It hosts the only operational bank and shared auction house services in the region, drawing both Alliance and Horde travelers in search of warmth and shelter. Guarded by hired bruisers, the town offers refuge from ferocious frostsabers and yetis.",
+   "body": "At Winterspring’s crossroads, Everlook is the Steamwheedle Cartel’s northernmost outpost. Like Gadgetzan and Booty Bay, it is a walled settlement beneath permafrost. Alliance and Horde travelers find warmth and shelter here because the town keeps strict neutrality. Its bank and shared auction house are the region’s only operational ones. Hired bruisers guard the settlement, where travelers seek refuge from ferocious frostsabers and yetis.",
    "spoiler": 0
   },
   {
    "title": "Gears in the Tundra",
-   "body": "Beneath its icy wooden roofs and whimsical penguin wallpaper, Everlook is a hotbed of technological curiosity. It houses specialized engineering workshops and advanced alchemical laboratories where goblin tinkerers push the boundaries of their craft away from prying eyes. Outside diplomacy has also begun knocking on the frost-rimmed gates; the Argent Dawn recently dispatched Gregor Greystone here to negotiate directly with town leadership, keeping a wary watch on the region's ancient ruins and gathering northern threats.",
+   "body": "Everlook’s icy wooden roofs and whimsical penguin wallpaper shelter workshops for engineering and advanced alchemical laboratories. Goblin tinkerers pursue their craft away from prying eyes.\n\nThe Argent Dawn recently sent Gregor Greystone to negotiate with town leadership. The order watches the region’s ancient ruins and gathering northern threats with care.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "everlook leader",
     "who is in charge of everlook"
    ],
-   "answer": "Everlook is owned and operated by the Steamwheedle Cartel, whose local governance runs the town. It is to them that the Argent Dawn sent Gregor Greystone as its representative."
+   "answer": "The Steamwheedle Cartel owns and operates Everlook. The Argent Dawn sent Gregor Greystone as its representative."
   },
   {
    "q": "Why is Everlook safe for both Alliance and Horde?",
@@ -37,7 +37,7 @@
     "can horde and alliance visit everlook",
     "everlook pvp rules"
    ],
-   "answer": "The Steamwheedle Cartel enforces strict commercial neutrality. Goblin bruisers quickly pummel anyone caught instigating violence within the walls, ensuring travelers of all allegiances can conduct trade unhindered."
+   "answer": "The Steamwheedle Cartel enforces strict commercial neutrality. Goblin bruisers quickly pummel anyone who starts a fight, leaving travelers of every allegiance free to trade."
   },
   {
    "q": "Why is the Argent Dawn in Everlook?",
@@ -46,7 +46,7 @@
     "gregor greystone everlook",
     "argent dawn winterspring"
    ],
-   "answer": "The Argent Dawn maintains an official presence through emissary Gregor Greystone. He acts as their representative to the goblin merchants, securing access to regional supplies and monitoring local threats."
+   "answer": "The Argent Dawn keeps an official presence in Everlook through its emissary, Gregor Greystone. He represents the order to the goblin merchants and watches for local threats."
   },
   {
    "q": "Where does Everlook get its trade goods?",
@@ -55,13 +55,13 @@
     "winterspring trade goods",
     "where do everlook goods come from"
    ],
-   "answer": "Everlook sits at the crossroads of Winterspring's main trade routes, so its goods arrive by trade flights and surface caravans along those roads."
+   "answer": "Everlook’s trade goods arrive by trade flights and surface caravans along Winterspring’s main trade routes. Those routes meet at the outpost."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "Everlook is a major hub for high-level engineers, particularly those specializing in goblin engineering, who can learn to build a dimensional ripper keyed directly to the settlement."
+   "text": "Everlook is a major hub for high-level engineers, especially those who specialize in goblin engineering. They can learn to build a dimensional ripper keyed directly to the settlement."
   }
  ],
  "keywords": [
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Everlook"
- ]
+ ],
+ "style": 2
 }

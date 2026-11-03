@@ -25,16 +25,16 @@
    "The Princess Trapped Classic"
   ]
  },
- "summary": "A member of the Twilight's Hammer asks you to find Theldurin the Lost, who was once of their order, lost his mind, and fled with the scroll of Myzrael. Rumor places him in the Badlands.",
+ "summary": "In the Badlands, the Twilight's Hammer hunts for Theldurin the Lost and the scroll of Myzrael he took when he fled.",
  "sections": [
   {
    "title": "The Man Who Stole the Scroll",
-   "body": "Theldurin once belonged to the Twilight's Hammer, until his mind slipped and he turned his back on the order's teachings. As he fled, he took the scroll of Myzrael with him. Those he left behind could not catch him.",
+   "body": "Theldurin once followed the Twilight's Hammer. Then his mind slipped, and he turned from its teachings. He fled with the scroll of Myzrael, and the order could not catch him.",
    "spoiler": 0
   },
   {
    "title": "Rumors of the Badlands",
-   "body": "The order has heard that Theldurin hides in the Badlands, raving and mad. The scroll is needed for the Lady's return, and to get it you must first find the man who took it.",
+   "body": "Word has reached the Twilight's Hammer that Theldurin hides in the Badlands, raving and mad. The order needs the scroll for the Lady's return. First, you must find the man who took it.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "who is theldurin",
     "theldurin lore"
    ],
-   "answer": "A former member of the Twilight's Hammer who lost his mind, rejected the order's teachings, and fled with the scroll of Myzrael."
+   "answer": "Theldurin the Lost once followed the Twilight's Hammer. After his mind slipped, he rejected its teachings and fled with the scroll of Myzrael."
   },
   {
    "q": "Why is the Twilight's Hammer looking for him?",
@@ -54,7 +54,7 @@
     "why find theldurin",
     "why do cultists want theldurin"
    ],
-   "answer": "He ran off with the scroll of Myzrael, which the order says must be found to bring the Lady back."
+   "answer": "The Twilight's Hammer seeks Theldurin because he fled with the scroll of Myzrael. The order says it needs the scroll to bring the Lady back."
   },
   {
    "q": "Where did Theldurin flee after leaving the order?",
@@ -62,7 +62,7 @@
     "where is theldurin",
     "theldurin location lore"
    ],
-   "answer": "The order has only rumors, which place him in the Badlands."
+   "answer": "Rumors place Theldurin in the Badlands, though the Twilight's Hammer is not certain where he is."
   },
   {
    "q": "What comes directly before this search?",
@@ -70,7 +70,7 @@
     "previous quest theldurin",
     "prereq for theldurin the lost"
    ],
-   "answer": "It follows Myzrael's Allies."
+   "answer": "The search follows Myzrael's Allies."
   }
  ],
  "angles": [],
@@ -92,5 +92,6 @@
  ],
  "attribution": [
   "Theldurin the Lost (quest)"
- ]
+ ],
+ "style": 2
 }

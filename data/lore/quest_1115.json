@@ -31,16 +31,16 @@
    "Errands for Kravel"
   ]
  },
- "summary": "Having done a service for the gnomes, Kravel Koalbeard now wants to do the goblins a favor. He has heard that Nazz Steamboil, the goblin racer pilot, once went by another name, and wonders whether it is a secret worth money. He sends you to Krazek of Booty Bay, who would know.",
+ "summary": "At the Mirage Raceway, Kravel Koalbeard now has a question about Nazz Steamboil. The goblin racer pilot once used another name, and Kravel wonders whether the secret could bring profit. He sends you to Krazek in Booty Bay, who may know.",
  "sections": [
   {
    "title": "A Name Worth Asking About",
-   "body": "Kravel Koalbeard says the goblins are next in line for a favor. Nazz Steamboil, the goblin racer pilot, once went by another name, he hears, and Kravel wonders why it changed, whether it hides a secret, and whether Nazz cares to keep it hidden. The one who would know the truth, Kravel says, is Krazek, down at the southern tip of Stranglethorn in Booty Bay. Useful information might turn a profit. Look for Krazek at the Salty Sailor Tavern.",
+   "body": "Kravel Koalbeard says the goblins are next in line for a favor. He has heard that Nazz Steamboil, the goblin racer pilot, once used another name. Why did it change? Might Nazz be keeping a secret? Kravel believes Krazek knows the truth. You can find Krazek at the Salty Sailor Tavern in Booty Bay, at Stranglethorn's southern tip. Useful information might turn a profit.",
    "spoiler": 0
   },
   {
    "title": "Krazek's Answer",
-   "body": "Krazek knows of Nazz Steamboil as a racer pilot out on the Shimmering Flats. Krazek says something might be found out, but warns it will be neither easy, nor fast, nor cheap.",
+   "body": "Krazek knows Nazz Steamboil as a racer pilot on the Shimmering Flats. He says the truth may be uncovered, but it will take effort, time, and money.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "rumormonger questgiver",
     "who starts the quest"
    ],
-   "answer": "Kravel Koalbeard, a dwarf at the Mirage Raceway, out on the Shimmering Flats, sends you."
+   "answer": "Kravel Koalbeard, a dwarf at the Mirage Raceway on the Shimmering Flats, sends you to Krazek."
   },
   {
    "q": "Why is Kravel interested in Nazz Steamboil?",
@@ -61,7 +61,7 @@
     "kravel motive nazz",
     "what is the rumor"
    ],
-   "answer": "Kravel heard that the goblin racer pilot did not always use that name. He wonders whether it is a secret, and whether Nazz values it enough to make it profitable."
+   "answer": "Kravel heard that Nazz Steamboil, the goblin racer pilot, once used another name. He wonders whether it hides a secret Nazz wants kept, and whether that secret could bring profit."
   },
   {
    "q": "Where can Krazek be found?",
@@ -70,7 +70,7 @@
     "where is krazek",
     "how to find krazek"
    ],
-   "answer": "Krazek is at the Salty Sailor Tavern, in Booty Bay at the southern tip of Stranglethorn."
+   "answer": "Krazek is at the Salty Sailor Tavern in Booty Bay, at the southern tip of Stranglethorn."
   },
   {
    "q": "What comes before this?",
@@ -79,7 +79,7 @@
     "rumormonger previous quest",
     "what quest comes first"
    ],
-   "answer": "It follows Delivery to the Gnomes, the service done for the gnomes."
+   "answer": "It follows Delivery to the Gnomes, after you have done a service for the gnomes."
   }
  ],
  "angles": [],
@@ -106,5 +106,6 @@
  ],
  "attribution": [
   "The Rumormonger"
- ]
+ ],
+ "style": 2
 }

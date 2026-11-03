@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Temple Gardens"
  },
- "summary": "Temple Gardens gather the waters and bridges at Darnassus's heart, with the city bank on their main island. The Temple of the Moon borders them to the south, and a glowing tree portal carries travelers to Teldrassil's base.",
+ "summary": "In Temple Gardens, water and bridges gather at the heart of Darnassus. The city bank stands on the main island, beside the Temple of the Moon to the south and a glowing tree portal to Teldrassil's base.",
  "sections": [
   {
    "title": "Heart of the Elven Capital",
-   "body": "Water and wooden bridges cross the center of Darnassus, linking the Temple Gardens' islets to the Cenarion Enclave in the north, the terraces to the east, and the Temple of the Moon to the south. Night elves tend the flowing waters and foliage, making a quiet place of rest for travelers and priestesses.",
+   "body": "Water runs beneath wooden bridges through Darnassus's center. They link the Temple Gardens' islets with the Cenarion Enclave to the north, the terraces to the east, and the Temple of the Moon to the south. Night elves tend the waters and foliage. Travelers and priestesses find a quiet place to rest.",
    "spoiler": 0
   },
   {
    "title": "Gateway to Teldrassil",
-   "body": "The main island holds Darnassus's central vault and bank. On the western bank, a massive glowing pink tree portal carries travelers through the boughs to Rut'theran Village at Teldrassil's base. From there, the coastal docks and flight paths connect the World Tree to other destinations.",
+   "body": "Darnassus's central vault and bank occupy the main island. On its western bank, a great glowing pink tree portal carries travelers through the boughs to Rut'theran Village at Teldrassil's base. From there, coastal docks and flight paths connect the World Tree to other destinations.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "pink tree portal",
     "teleporter darnassus"
    ],
-   "answer": "The glowing tree portal on the gardens' western edge carries travelers between Teldrassil's crown and its base. It takes them to Rut'theran Village, where ships and hippogryphs connect the night elves to darkshore and the wider world."
+   "answer": "The glowing tree portal on the gardens' western edge carries travelers between Teldrassil's crown and base. It takes them to Rut'theran Village, where ships and hippogryphs connect the night elves to darkshore and the wider world."
   },
   {
    "q": "Where is the Darnassus bank located?",
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you find the gardens where wilderness and civic architecture meet, a place for quiet reflection amid Darnassus's daily affairs."
+   "text": "As a night elf, you find wilderness and civic architecture meeting in the gardens. They offer a quiet place for reflection amid Darnassus's daily affairs."
   },
   {
    "target": "faction:Alliance",
@@ -87,5 +87,5 @@
  "attribution": [
   "Temple Gardens"
  ],
- "style": 1
+ "style": 2
 }

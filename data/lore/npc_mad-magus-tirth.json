@@ -8,16 +8,16 @@
   "wiki": "Magus Tirth",
   "refs": 1
  },
- "summary": "Magus Tirth is an eccentric human wizard dwelling out on the salt flats of the Mirage Raceway in Thousand Needles. Known locally for breeding chickens and tormenting his polymorphed apprentice, he is also a scholar of formidable arcane lore who has squandered valuable tomes on racing bets.",
+ "summary": "At the Mirage Raceway, Magus Tirth tends chickens, serves drinks, and stakes books on the races. The human wizard lives on the Shimmering Flats, where he torments his apprentice and has wagered away valuable works.",
  "sections": [
   {
    "title": "A Wizard in the Dust",
-   "body": "While most mages of his caliber study in the libraries of Dalaran or Stormwind, Magus Tirth has taken up residence amid the grease and roar of the Shimmering Flats. Surrounded by speeding rocket cars, Tirth peddles chickens to passersby, drinks, gambles, and has long since cursed his unfortunate apprentice, 'Plucky' Johnson, into poultry form. Despite this eccentric demeanor, Tirth possesses genuine arcane mastery, having authored esoteric texts on magical power before losing them to reckless wagers on the speedway.",
+   "body": "Magus Tirth makes his home beside the roaring Shimmering Flats. Mages of his skill often study in Dalaran or Stormwind, but he sells chickens and drinks to passersby. He gambles and watches the rocket cars race.\n\nHis apprentice, 'Plucky' Johnson, lives under a curse that has turned him into a chicken. Beneath Tirth’s odd habits lies true arcane mastery. He wrote esoteric books on magical power, then lost them in reckless wagers at the speedway.",
    "spoiler": 0
   },
   {
    "title": "Rituals and Debts",
-   "body": "Tirth's scholarly legacy includes 'Rituals of Power', an arcane manual sought after by practicing mages. Unfortunately for aspiring spellcasters, Tirth no longer owns his own masterwork. Crushed under gambling debts accrued at the Mirage Raceway, the mage sold the tome to an agent of the Scarlet Crusade to square his losses, forcing apprentices and seekers of knowledge to track the book down into hostile territory.",
+   "body": "Magus Tirth once owned a manual called 'Rituals of Power', sought by practicing mages. Gambling debts at the Mirage Raceway drove him to sell his own work to an agent of the Scarlet Crusade. The sale settled his losses.\n\nNow apprentices and seekers of knowledge must track the book into hostile territory.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "magus tirth shimmering flats",
     "tirth location"
    ],
-   "answer": "Tirth lives on the Shimmering Flats beside the Mirage Raceway, drawn by the spectacle and the gambling. Rather than pursuing scholarly life in a major city, he watches the gnome and goblin racers, sells chickens, and indulges his vices."
+   "answer": "Magus Tirth lives on the Shimmering Flats beside the Mirage Raceway, drawn by its spectacle and gambling. He watches the gnome and goblin racers, sells chickens, and indulges his vices instead of pursuing a scholarly life in a major city."
   },
   {
    "q": "Who is the chicken next to him?",
@@ -38,7 +38,7 @@
     "plucky johnson",
     "tirth chicken apprentice"
    ],
-   "answer": "The chicken wandering the raceway is 'Plucky' Johnson, Magus Tirth's apprentice. Tirth put a curse on Johnson that turned him into a chicken, and he can no longer even remember why, though he is sure it served the little ingrate right."
+   "answer": "The chicken beside Magus Tirth is 'Plucky' Johnson, his apprentice. Tirth cursed Johnson into chicken form and can no longer remember why, though he is sure the little ingrate deserved it."
   },
   {
    "q": "What is the book Rituals of Power?",
@@ -47,7 +47,7 @@
     "tirth book",
     "mage quest book"
    ],
-   "answer": "Rituals of Power is an advanced treatise on arcane energy authored by Magus Tirth. It is an essential text for mages looking to advance their craft, though Tirth parted with it to pay off his mounting racing debts."
+   "answer": "'Rituals of Power' is an advanced treatise on arcane energy written by Magus Tirth. Mages use it to advance their craft, but Tirth sold his copy to pay his racing debts."
   },
   {
    "q": "Why is his book difficult to obtain?",
@@ -56,13 +56,13 @@
     "tirth debts",
     "scarlet crusade book"
    ],
-   "answer": "Tirth no longer has his copy of Rituals of Power. Mages seeking it must follow up on his account of how he parted with the tome."
+   "answer": "Magus Tirth no longer has his copy of 'Rituals of Power'. Mages seeking it must follow up on his account of how he parted with the tome."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Tirth is an important figure for mages seeking to deepen their understanding of arcane power, as he authored the vital treatise 'Rituals of Power'."
+   "text": "As a mage, you can study Magus Tirth’s treatise 'Rituals of Power' to deepen your understanding of arcane power."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Magus Tirth"
- ]
+ ],
+ "style": 2
 }

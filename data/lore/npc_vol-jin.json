@@ -8,16 +8,16 @@
   "wiki": "Vol'jin",
   "refs": 1
  },
- "summary": "In Orgrimmar, Vol'jin advises Warchief Thrall while seeking a lasting home for his people. The Darkspear chieftain is a master shadow hunter.",
+ "summary": "In Orgrimmar, Vol'jin counsels Warchief Thrall and seeks a lasting home for his people. The Darkspear chieftain is a master shadow hunter.",
  "sections": [
   {
    "title": "Chieftain of the Darkspear",
-   "body": "Vol'jin leads the Darkspear after his father, Sen'jin, dies on their ancestral island. Sea witch-worshipping murlocs and human forces nearly destroy the isolated tribe, but Thrall's orcs intervene and forge a deep bond with the trolls. After fleeing the ruined islands, Vol'jin pledges his people to the New Horde and brings them across the Great Sea to Kalimdor.",
+   "body": "After his father Sen'jin dies on their ancestral island, Vol'jin leads the Darkspear. Sea witch-worshipping murlocs and human forces nearly destroy the isolated tribe. Thrall's orcs intervene, and a deep bond forms between the orcs and trolls. Fleeing the ruined islands, Vol'jin pledges his people to the New Horde and leads them across the Great Sea to Kalimdor.",
    "spoiler": 0
   },
   {
    "title": "Council in the Valley of Wisdom",
-   "body": "The Darkspear settle in Durotar, but Zalazane's betrayal on the Echo Isles drives many refugees to the mainland at Sen'jin Village. Vol'jin spends much of his time in Grommash Hold in Orgrimmar, giving Thrall his strategic counsel and shadow hunter skill. From the orcish capital, he watches over the young Horde and works to reclaim his people's lands.",
+   "body": "The Darkspear settle in Durotar, but Zalazane betrays them on the Echo Isles. Many refugees flee to the mainland and Sen'jin Village. Vol'jin spends much of his time in Grommash Hold in Orgrimmar, giving Thrall strategic counsel and the benefit of his shadow hunter skill. From the orcish capital, he watches over the young Horde and works to reclaim his people's lands.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "voljin lore",
     "darkspear leader"
    ],
-   "answer": "Vol'jin leads the Darkspear troll tribe and advises Warchief Thrall in Orgrimmar. A skilled shadow hunter, he represents his people among the Horde's leaders."
+   "answer": "Vol'jin leads the Darkspear troll tribe and advises Warchief Thrall in Orgrimmar. A skilled shadow hunter, he speaks for his people among the Horde's leaders."
   },
   {
    "q": "Where does Vol'jin live?",
@@ -62,7 +62,7 @@
  "angles": [
   {
    "target": "race:Troll",
-   "text": "As a troll, you have Vol'jin as your chieftain. He guides the displaced Darkspear through hardship with spiritual wisdom and tactical resolve."
+   "text": "As a troll, you have Vol'jin for a chieftain. He guides the displaced Darkspear through hardship with spiritual wisdom and tactical resolve."
   },
   {
    "target": "faction:Horde",
@@ -92,5 +92,5 @@
  "attribution": [
   "Vol'jin"
  ],
- "style": 1
+ "style": 2
 }

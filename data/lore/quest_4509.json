@@ -24,16 +24,16 @@
    "Rise of the Silithid"
   ]
  },
- "summary": "After the queen's fall, Alchemist Pestlezugg wants the latest findings to reach people who can act on them. You carry Pestlezugg's report on Un'Goro to Zilzibin Drumlore in Orgrimmar.",
+ "summary": "After the queen's fall, Alchemist Pestlezugg sends his latest findings to those who may act. You carry his report on Un'Goro to Zilzibin Drumlore in Orgrimmar.",
  "sections": [
   {
    "title": "A Report for Orgrimmar",
-   "body": "Pestlezugg says that the findings of the day must reach hands that might do something with them, since Gadgetzan cannot manage alone. The latest report is to go to Zilzibin Drumlore in Orgrimmar, who Pestlezugg expects is still in the upper part of the Drag. Zilzibin has friends high in the Horde, and if they can be drawn in, there may be a way through this alive.",
+   "body": "Gadgetzan cannot manage alone, so Alchemist Pestlezugg sends you with his latest findings on Un'Goro. He wants them in the hands of those who can act. Pestlezugg expects Zilzibin Drumlore to be in the upper part of the Drag in Orgrimmar. Zilzibin has friends high in the Horde, and drawing them in may offer a way through this alive.",
    "spoiler": 0
   },
   {
    "title": "Zilzibin's Answer",
-   "body": "Zilzibin calls those who will not look past their hatred of the Alliance fools, and says he cannot prove the silithid threat any further short of dropping them into a hive. He is glad of the report but doubts it will help, for the Horde ignores any threat but the Alliance. Thrall himself might act if the facts reached him, but conflicting advice presses on him from every side. Zilzibin urges you to stay committed to defeating the silithid.",
+   "body": "Zilzibin Drumlore calls those who see only their hatred of the Alliance fools. He says he cannot prove the silithid threat any further without dropping them into a hive. He welcomes the report, but doubts it will help. The Horde ignores every threat but the Alliance. Thrall himself might act if the facts reached him, though conflicting advice presses on him from every side. Zilzibin urges you to stay committed to defeating the silithid.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "who gives calm before the storm",
     "pestlezugg quest"
    ],
-   "answer": "Alchemist Pestlezugg, from Gadgetzan."
+   "answer": "Alchemist Pestlezugg sends you from Gadgetzan."
   },
   {
    "q": "Where is Zilzibin Drumlore?",
@@ -54,7 +54,7 @@
     "where is zilzibin",
     "zilzibin drumlore orgrimmar"
    ],
-   "answer": "In Orgrimmar. Pestlezugg expects him to be up in the upper part of the Drag."
+   "answer": "Zilzibin Drumlore is in Orgrimmar. Pestlezugg expects him in the upper part of the Drag."
   },
   {
    "q": "Why does Pestlezugg send the report to Zilzibin Drumlore?",
@@ -62,7 +62,7 @@
     "why send report to orgrimmar",
     "pestlezugg motive"
    ],
-   "answer": "Gadgetzan cannot do this alone. Zilzibin has friends high within the Horde, and if they can be drawn in, there may be a way through this alive."
+   "answer": "Gadgetzan cannot manage this alone. Zilzibin has friends high in the Horde, and drawing them in may offer a way through this alive."
   },
   {
    "q": "What comes directly before this?",
@@ -70,7 +70,7 @@
     "calm before the storm prerequisites",
     "previous quest calm before the storm"
    ],
-   "answer": "Pawn Captures Queen, in which you were sent after the Gorishi Hive Queen."
+   "answer": "Pawn Captures Queen comes directly before this. You were sent after the Gorishi Hive Queen."
   }
  ],
  "angles": [],
@@ -93,5 +93,6 @@
  ],
  "attribution": [
   "Calm Before the Storm (Horde)"
- ]
+ ],
+ "style": 2
 }

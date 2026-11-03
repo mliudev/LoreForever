@@ -10,11 +10,11 @@
    "quest:869"
   ]
  },
- "summary": "Across the Barrens, Raptor Head trophies answer a bounty from Gazrog at the Crossroads. The guard payroll vanished from a watchtower, and a wild raptor was caught in the theft.",
+ "summary": "At the Crossroads, Raptor Head trophies answer Gazrog’s bounty. Guard payroll vanished from a watchtower, and a wild raptor was caught in the theft.",
  "sections": [
   {
    "title": "Bounty of the Crossroads",
-   "body": "A stolen chest of guard payroll has left the Crossroads watchtower without its silver. The defenders caught a wild raptor red-handed, to their disbelief. Gazrog has put a bounty on the cunning reptiles prowling the Barrens. Bring their severed heads to the outpost, and the predators will be culled before they can pilfer more Horde supplies.",
+   "body": "A chest of guard payroll was stolen from the Crossroads watchtower, leaving its defenders without their silver. To their disbelief, they caught a wild raptor in the act. Gazrog now offers a bounty on the cunning reptiles prowling the Barrens. Bring their severed heads to the outpost, and the predators can be culled before they steal more Horde supplies.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "gazrog raptors",
     "raptor head bounty"
    ],
-   "answer": "A shipment of silver meant as payroll for the Crossroads guards was stolen from their tower in a chest. To everyone's disbelief, a raptor was caught in the act. Gazrog wants the beasts hunted across the Barrens so they cannot raid the settlement again."
+   "answer": "A chest holding silver for the Crossroads guards was stolen from their tower. To everyone’s disbelief, a raptor was caught in the act. Gazrog wants the beasts hunted across the Barrens so they cannot raid the settlement again."
   },
   {
    "q": "Why would wild raptors steal silver?",
@@ -35,7 +35,7 @@
     "raptors stealing coins",
     "raptor thieves mystery"
    ],
-   "answer": "Gazrog admits he has no idea why wild beasts would want metal coins. Raptors in Kalimdor are notorious for their unnerving cunning, and the theft leaves the Crossroads guards embarrassed and eager for retribution."
+   "answer": "Gazrog admits he has no idea why wild beasts would want metal coins. Raptors in Kalimdor are known for their unnerving cunning. The theft has left the Crossroads guards embarrassed and eager for retribution."
   },
   {
    "q": "Which raptors carry these heads?",
@@ -52,17 +52,17 @@
     "what follows raptor thieves",
     "after collecting raptor heads"
    ],
-   "answer": "Once Gazrog receives twelve heads and the raptor menace is thinned, attention turns to tracking down where the stolen silver shipment was actually taken."
+   "answer": "After Gazrog receives twelve heads and the raptor menace is thinned, attention turns to finding where the stolen silver shipment was taken."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The Crossroads is the heart of Horde travel in central Kalimdor. Clearing the thieving predators secures the garrison's supplies and payroll."
+   "text": "The Crossroads is the heart of Horde travel in central Kalimdor. Clearing the thieving predators helps secure the garrison’s supplies and payroll."
   },
   {
    "target": "class:Hunter",
-   "text": "Tracking Sunscale raptors across the Barrens' dry scrub tests your skill against some of the savannah's most aggressive and cunning pack hunters."
+   "text": "Tracking Sunscale raptors across the Barrens’ dry scrub tests your skill against some of the savannah’s most aggressive and cunning pack hunters."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
   "Raptor Head",
   "Raptor Thieves"
  ],
- "style": 1
+ "style": 2
 }

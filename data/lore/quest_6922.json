@@ -17,16 +17,16 @@
   "wiki": "Baron Aquanis (quest)",
   "chain": []
  },
- "summary": "Beneath Ashenvale, Baron Aquanis leaves a strange globe filled with tainted fluid. Je'neu Sancrea of the Earthen Ring believes it may show what corrupted the elemental, and suspects the Twilight's Hammer cultists in the submerged ruins.",
+ "summary": "Beneath Ashenvale, Baron Aquanis leaves a strange globe filled with tainted fluid. Je'neu Sancrea of the Earthen Ring suspects the Twilight's Hammer cultists in the submerged ruins and hopes the globe will reveal what corrupted the elemental.",
  "sections": [
   {
    "title": "A Corrupted Heart",
-   "body": "Blackfathom Deeps holds Baron Aquanis, a water spirit twisted by foul sorcery. When the elemental is destroyed, a Strange Water Globe remains behind. The impervious orb holds putrid fluid that seems to have sustained and warped Aquanis's natural essence. Physical force cannot harm it, and its energies unsettle those attuned to the balance of the elements.",
+   "body": "In Blackfathom Deeps, foul sorcery has twisted Baron Aquanis into a water spirit. When the elemental is destroyed, a Strange Water Globe remains. The impervious orb holds putrid fluid that seems to have sustained and warped Aquanis's natural essence. Physical force cannot harm it. Its energies unsettle those attuned to the balance of the elements.",
    "spoiler": 0
   },
   {
    "title": "Studies of the Earthen Ring",
-   "body": "Je'neu Sancrea serves the Earthen Ring from a camp on the Zoram Strand. He recognizes the Strange Water Globe as evidence of unnatural meddling. The order suspects that dark forces corrupted Baron Aquanis, and Je'neu suspects the Twilight's Hammer cultists in the sunken temple. He studies the globe to test that suspicion and learn how the cultists subdue and twist Azeroth's elemental spirits.",
+   "body": "From a camp on the Zoram Strand, Je'neu Sancrea serves the Earthen Ring. He recognizes the Strange Water Globe as evidence of unnatural meddling. The order suspects dark forces corrupted Baron Aquanis, and Je'neu suspects the Twilight's Hammer cultists in the sunken temple. He studies the globe to test that suspicion and learn how the cultists subdue and twist Azeroth's elemental spirits.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "aquanis boss",
     "baron aquanis lore"
    ],
-   "answer": "Baron Aquanis is a powerful water elemental in the underground waters of Blackfathom Deeps. Dark practitioners in the ruined temple have corrupted and bound the elemental."
+   "answer": "In the underground waters of Blackfathom Deeps, Baron Aquanis is a powerful water elemental. Dark practitioners in the ruined temple have corrupted and bound the elemental."
   },
   {
    "q": "What is the Strange Water Globe?",
@@ -64,7 +64,7 @@
     "aquanis twilight hammer",
     "cultists blackfathom"
    ],
-   "answer": "The Twilight's Hammer cultists deep inside Blackfathom Deeps are the chief suspects. Their presence in the temple fits a pattern of desecration and dark communion with unnatural beings."
+   "answer": "The Twilight's Hammer cultists deep inside Blackfathom Deeps are the chief suspects behind Baron Aquanis's corruption. Their presence in the temple fits a pattern of desecration and dark communion with unnatural beings."
   },
   {
    "q": "Where is Je'neu Sancrea located?",
@@ -113,5 +113,5 @@
  "attribution": [
   "Baron Aquanis (quest)"
  ],
- "style": 1
+ "style": 2
 }

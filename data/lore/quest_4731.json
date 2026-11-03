@@ -21,12 +21,12 @@
  "sections": [
   {
    "title": "A Beast of Burden",
-   "body": "A dead sea turtle lies among the ancient bones scattered along Darkshore's coast. Splintered carriage boards still cling to its broad shell. The turtle was driven onto the rocks while hauling cargo, rather than stranded by sickness or disorientation. A container carved with unfamiliar, serpent-like marks lies in the wreckage, amid scavengers feeding on the remains.",
+   "body": "A dead sea turtle lies among the ancient bones along Darkshore's coast. Splintered carriage boards cling to its broad shell. It was driven onto the rocks while hauling cargo, not stranded by sickness or confusion. A container carved with unfamiliar, serpent-like marks lies in the wreckage, where scavengers feed on the remains.",
    "spoiler": 0
   },
   {
    "title": "The Naga Incursion",
-   "body": "In Auberdine, Gwennyth Bly'Leggonde identifies the box's craftsmanship as naga work. The naga use great sea beasts to carry provisions and weapons ashore during their attacks from the water. The wreck lies along Darkshore's southern shore, and Gwennyth suspects the turtle was carrying supplies toward Ashenvale. Its end may point to the naga reaching farther across northern Kalimdor.",
+   "body": "In Auberdine, Gwennyth Bly'Leggonde recognizes the box's craftsmanship as naga work. The naga send great sea beasts ashore with provisions and weapons during their attacks from the water. The wreck lies along Darkshore's southern shore, and Gwennyth suspects the turtle carried supplies toward Ashenvale. Its end may mean the naga have reached farther across northern Kalimdor.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "why turtle has cart",
     "sea turtle harness"
    ],
-   "answer": "The naga fitted the carriage to the turtle and used giant sea turtles as living pack animals, carrying supplies, weapons, and war materiel from the ocean depths onto land."
+   "answer": "The naga fitted the carriage to the turtle and used giant sea turtles as living pack animals. They carried supplies, weapons, and war materiel from the ocean depths onto land."
   },
   {
    "q": "Who is currently inhabiting the remains?",
@@ -47,7 +47,7 @@
     "greymist murlocs turtle",
     "what is guarding turtle"
    ],
-   "answer": "Powerful Greymist murlocs have taken over the giant shell since the turtle died, using its hollowed-out remains as a fortified seaside shelter."
+   "answer": "Powerful Greymist murlocs have taken over the giant shell since the turtle died. They use its hollowed remains as a fortified seaside shelter."
   },
   {
    "q": "Where does the Strangely Marked Box go?",
@@ -81,13 +81,13 @@
     "turtle destination",
     "where was turtle going"
    ],
-   "answer": "From the carcass's location along the coast, Gwennyth Bly'Leggonde suspects the naga were directing the laden turtle south, possibly toward Ashenvale."
+   "answer": "From the carcass's place along the coast, Gwennyth Bly'Leggonde suspects the naga were directing the laden turtle south, possibly toward Ashenvale."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a Night Elf, you know the naga's use of sea life to carry supplies for war is an outrage to the kaldorei. These tracks help the Temple of the Moon follow threats toward Ashenvale."
+   "text": "As a Night Elf, you know the naga's use of sea life to carry war supplies outrages the kaldorei. These tracks help the Temple of the Moon follow threats toward Ashenvale."
   },
   {
    "target": "class:Druid",
@@ -122,5 +122,5 @@
  "attribution": [
   "Beached Sea Turtle (4)"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Elixirs for the Bladeleafs",
   "chain": []
  },
- "summary": "Syral Bladeleaf seeks help keeping her family’s busy trade supplied in Dolanaar. Her husband spends nearly all his time brewing, and fresh elixirs could ease his workload while earning the brewer uncommon herbs.",
+ "summary": "In Dolanaar, Syral Bladeleaf seeks help supplying her family's busy trade. Her husband spends nearly all his time brewing, and fresh elixirs could ease his burden while bringing him uncommon herbs.",
  "sections": [
   {
    "title": "A Burden of Prosperity",
-   "body": "Dolanaar draws travelers, sentinels, and druids moving through Teldrassil. Syral Bladeleaf and her husband have built a flourishing herb and alchemy trade to serve them. Demand keeps her husband bent over vials and cauldrons for nearly all his hours, leaving the couple little time together.",
+   "body": "Dolanaar sees travelers, sentinels, and druids crossing Teldrassil. Syral Bladeleaf and her husband have built a thriving herb and alchemy trade to serve them. Demand keeps him at vials and cauldrons for nearly all his waking hours. The work leaves little time for the two of them.",
    "spoiler": 0
   },
   {
    "title": "A Trader's Exchange",
-   "body": "Syral turns to passing herbalists and brewers to ease her husband’s workload. She asks for Elixirs of Lion's Strength and Minor Defense, offering freshly gathered, uncommon herbs in exchange. For a fledgling alchemist practicing beneath the Great Tree, the exchange brings a bundle of herbs and a chance to turn common forest flora into coveted regional flora.",
+   "body": "Syral asks passing herbalists and brewers to ease her husband's workload. She seeks Elixirs of Lion's Strength and Minor Defense, and offers freshly gathered, uncommon herbs in exchange. For a budding alchemist beneath the Great Tree, the trade brings a bundle of herbs and a chance to turn common forest plants into prized local wares.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "syral bladeleaf motive",
     "bladeleaf shop problem"
    ],
-   "answer": "Syral Bladeleaf’s family shop in Dolanaar has grown busy, and her husband spends nearly all his time brewing to meet demand. Having someone else prepare the elixirs gives him a much-needed break."
+   "answer": "Syral Bladeleaf’s family shop in Dolanaar is busy, and her husband spends nearly all his time brewing to meet demand. Another brewer's work on the elixirs would give him a much-needed break."
   },
   {
    "q": "What potions are required for the task?",
@@ -65,7 +65,7 @@
     "profession requirement",
     "can anyone do this quest"
    ],
-   "answer": "This request is offered to alchemists with basic competence in the craft. Syral wants dependable, well-mixed remedies for her shop."
+   "answer": "Syral’s request is for alchemists with basic skill in the craft. She needs dependable, well-mixed remedies for her shop."
   },
   {
    "q": "What does Syral offer in exchange for the elixirs?",
@@ -74,7 +74,7 @@
     "what does syral give",
     "bladeleaf trade reward"
    ],
-   "answer": "Syral offers a bundle of freshly gathered, uncommon herbs, difficult to find casually along Teldrassil’s woodland trails."
+   "answer": "Syral offers a bundle of freshly gathered, uncommon herbs in exchange for the elixirs. They are hard to find along Teldrassil’s woodland trails."
   },
   {
    "q": "Where is Syral Bladeleaf located?",
@@ -83,17 +83,17 @@
     "bladeleaf location",
     "where do i turn this in"
    ],
-   "answer": "Syral Bladeleaf is outside the northern building in Dolanaar, near the central road through the forest village."
+   "answer": "Syral Bladeleaf is outside Dolanaar’s northern building, near the central road through the forest village."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Teldrassil’s rich soil holds Silverleaf and Earthroot, so you can forage the raw herbs for Syral’s shop order."
+   "text": "Teldrassil’s rich soil yields Silverleaf and Earthroot, so you can gather the herbs for Syral’s shop order."
   },
   {
    "target": "race:NightElf",
-   "text": "As a Night Elf, you know the Bladeleafs’ trade is part of Dolanaar’s life beneath Teldrassil’s canopy."
+   "text": "As a Night Elf, you know the Bladeleafs’ trade is part of life in Dolanaar beneath Teldrassil’s canopy."
   },
   {
    "target": "faction:Alliance",
@@ -121,5 +121,5 @@
  "attribution": [
   "Elixirs for the Bladeleafs"
  ],
- "style": 1
+ "style": 2
 }

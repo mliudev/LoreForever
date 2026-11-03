@@ -17,16 +17,16 @@
   "wiki": "The Spirits of Stonetalon",
   "chain": []
  },
- "summary": "Unrest stirs among the spirits of Stonetalon, and Zor Lonetree sends Horde champions west to learn why. From Orgrimmar, they travel past the Crossroads and report directly to Seereth Stonebreak near Greatwood Vale.",
+ "summary": "Unrest stirs among the spirits of Stonetalon, and Zor Lonetree sends Horde champions west to learn why. From Orgrimmar, you pass the Crossroads and report to Seereth Stonebreak near Greatwood Vale.",
  "sections": [
   {
    "title": "A Cry from the West",
-   "body": "In Grommash Hold, Zor Lonetree listens to the natural world and feels deep distress from the Stonetalon Mountains. The elemental spirits of its rocky peaks are furious as logging tears into their forests. Horde shamans hear that unrest and fear the devastation in the western highlands will upset Kalimdor's spiritual balance.",
+   "body": "In Grommash Hold, Zor Lonetree listens to the natural world and feels deep distress from the Stonetalon Mountains. The elemental spirits of its rocky peaks rage as logging cuts into their forests. Horde shamans hear their unrest and fear that the devastation in the western highlands will upset Kalimdor's spiritual balance.",
    "spoiler": 0
   },
   {
    "title": "Industrial Deforestation",
-   "body": "The Venture Company, an unscrupulous goblin syndicate, is cutting timber in Greatwood Vale. Its commercial crews use aggressive machinery, saws, and muscle to butcher the ancient woodland instead of harvesting sustainably. The Horde sent Seereth Stonebreak, a young shaman, to watch the forest from the frontier and rally defenders against the ravagers.",
+   "body": "The Venture Company is an unscrupulous goblin syndicate cutting timber in Greatwood Vale. Its crews use aggressive machinery, saws, and muscle to butcher the ancient woodland instead of harvesting it sustainably. So the Horde sent Seereth Stonebreak, a young shaman, to watch the forest from the frontier and rally defenders against the ravagers.",
    "spoiler": 0
   }
  ],
@@ -65,7 +65,7 @@
     "how to get to stonetalon",
     "route to stonetalon"
    ],
-   "answer": "Travel south from Orgrimmar across the Barrens to the Crossroads, then follow the westward road through the rocky pass into Stonetalon."
+   "answer": "Travel south from Orgrimmar across the Barrens to the Crossroads. Then follow the westward road through the rocky pass into Stonetalon."
   },
   {
    "q": "What comes next after speaking with Seereth?",
@@ -74,7 +74,7 @@
     "followup",
     "what after spirits of stonetalon"
    ],
-   "answer": "At her camp, Seereth Stonebreak gives you Goblin Invaders, sending you into Greatwood Vale to eliminate loggers and cut down their operations."
+   "answer": "At her camp, Seereth Stonebreak gives you Goblin Invaders. She sends you into Greatwood Vale to eliminate loggers and cut down their operations."
   },
   {
    "q": "Why is the Horde intervening in Stonetalon's deforestation?",
@@ -88,7 +88,7 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you hear a plea from the elements to mend the bond between earth and the living."
+   "text": "As a shaman, you hear the elements plead for you to mend the bond between earth and the living."
   },
   {
    "target": "race:Tauren",
@@ -122,5 +122,5 @@
  "attribution": [
   "The Spirits of Stonetalon"
  ],
- "style": 1
+ "style": 2
 }

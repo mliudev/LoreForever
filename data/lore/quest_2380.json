@@ -23,16 +23,16 @@
    "Plundering the Plunderers"
   ]
  },
- "summary": "Kaplak sends a young rogue from Razor Hill to Orgrimmar. There, you are to find Shenthul in the Cleft of Shadow and enter the Shattered Hand's network.",
+ "summary": "Kaplak sends a young rogue from Razor Hill north to Orgrimmar. You are to find Shenthul in the Cleft of Shadow and enter the Shattered Hand's network.",
  "sections": [
   {
    "title": "A Summons to the Shadows",
-   "body": "Kaplak sends you north from Razor Hill to Orgrimmar. Your budding skills have caught the notice of more prominent handlers, though they remain unpolished. The red crags of Durotar are behind you as you make for the capital.",
+   "body": "Kaplak sends you north from Razor Hill to Orgrimmar. Your growing skill has drawn the notice of handlers with greater standing, though your craft is still rough. You leave Durotar's red crags behind and make for the capital.",
    "spoiler": 0
   },
   {
    "title": "Under Thrall's Watchful Eye",
-   "body": "Shenthul receives you in the Cleft of Shadow beneath Orgrimmar. He watches Warchief Thrall's political reforms with unease. The Shattered Hand cannot protect its interests through brute force or open defiance alone; it depends on patience, subterfuge, and deception to survive and preserve its influence.",
+   "body": "Shenthul receives you in the Cleft of Shadow beneath Orgrimmar. He watches Warchief Thrall's political reforms with unease. The Shattered Hand cannot guard its interests by force or open defiance alone. Patience, subterfuge, and deception help it survive and preserve its influence.",
    "spoiler": 1
   }
  ],
@@ -44,7 +44,7 @@
     "who gives to orgrimmar",
     "kaplak quest"
    ],
-   "answer": "Kaplak, a rogue trainer in Razor Hill, sends you after your skills catch the attention of superiors in Orgrimmar."
+   "answer": "Kaplak, the rogue trainer in Razor Hill, sends you north after your skills draw the notice of more senior handlers in Orgrimmar."
   },
   {
    "q": "Where do I find Shenthul?",
@@ -62,7 +62,7 @@
     "why shattered hand in orgrimmar",
     "shattered hand thrall"
    ],
-   "answer": "The Shattered Hand is an intelligence and assassination guild within the Horde. Shenthul is wary of Thrall's honorable reforms, and the guild relies on stealth to preserve its influence and survive."
+   "answer": "The Shattered Hand is an intelligence and assassination guild within the Horde. Shenthul watches Thrall's honorable reforms with unease, and the guild relies on stealth to survive and preserve its influence."
   },
   {
    "q": "Why am I being sent specifically at this stage?",
@@ -71,7 +71,7 @@
     "why go to orgrimmar now",
     "rogue training summons"
    ],
-   "answer": "Your basic reconnaissance and skirmishes have shown you are capable, so you are being drawn into more formal guild duties. These begin with lockpicking and covert fieldwork in the capital."
+   "answer": "Your early reconnaissance and skirmishes have shown you are capable, so you are entering more formal guild service. It begins with lockpicking and covert fieldwork in the capital."
   },
   {
    "q": "Does this quest differ from 'Find the Shattered Hand'?",
@@ -79,7 +79,7 @@
     "find the shattered hand vs to orgrimmar",
     "alternate breadcrumb quest"
    ],
-   "answer": "Both lead rogues to Shenthul in Orgrimmar. Which one you receive depends on where you train or take orders, and each advances the same training chain."
+   "answer": "Both paths lead rogues to Shenthul in Orgrimmar. Which one you receive depends on where you train or take orders, and each advances the same training chain."
   },
   {
    "q": "What happens after reporting to Shenthul?",
@@ -87,17 +87,17 @@
     "next quest after to orgrimmar",
     "what does shenthul give"
    ],
-   "answer": "Shenthul tests your competence and sends you further along the chain. You meet contacts such as Zando'zan, then take on covert work involving goblin contacts in Ratchet."
+   "answer": "Shenthul tests your competence and sends you farther along the chain. You meet contacts such as Zando'zan, then take on covert work with goblin contacts in Ratchet."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you are entering the capital's covert network under Shenthul's watch. The work turns to poisons, thievery, and deception beyond the frontier skirmishes."
+   "text": "As a rogue, you enter the capital's covert network under Shenthul's watch. The work turns to poisons, thievery, and deception beyond the frontier skirmishes."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you hear the friction between Thrall's honorable new path and the older clan organizations that survive beneath Orgrimmar."
+   "text": "As a member of the Horde, you hear the friction between Thrall's honorable new path and the older clan organizations that endure beneath Orgrimmar."
   }
  ],
  "keywords": [
@@ -122,5 +122,5 @@
  "attribution": [
   "To Orgrimmar!"
  ],
- "style": 1
+ "style": 2
 }

@@ -27,11 +27,11 @@
    "Into The Temple of Atal'Hakkar"
   ]
  },
- "summary": "Gryphon Master Talonaxe tells of Rhapsody Shindigger, once the finest flyer at the aviary, who took so keenly to liquor that Rhapsody had to be let go. Talonaxe has heard that Rhapsody now keeps a brewing camp east of the aviary, in the Hinterlands.",
+ "summary": "At the Aerie Peak Aviary, Talonaxe has news of a fallen flyer. Rhapsody Shindigger was once its finest flyer, but liquor cost Rhapsody the post. Now Rhapsody keeps a brewing camp east of the aviary, in the Hinterlands, Talonaxe has heard.",
  "sections": [
   {
    "title": "A Fallen Flyer",
-   "body": "Talonaxe stresses that the dwarves of the aviary all love a good ale, but Rhapsody took to liquor the way a gryphon takes to the skies. No one could fly like Rhapsody, a damned shame as Talonaxe sees it. The first sign of trouble came when Rhapsody stumbled back from the trip with Brohann, and things went downhill fast. In the end Rhapsody had to be let go. The last word is that a brew camp now stands to the east of Aerie Peak.",
+   "body": "Gryphon Master Talonaxe says the aviary dwarves all enjoy a good ale. Rhapsody took to liquor as readily as a gryphon takes to the skies. No one could fly like Rhapsody, and Talonaxe still regrets the loss.\n\nThe trouble began when Rhapsody returned stumbling from a trip with Brohann. Things worsened quickly, and the aviary let Rhapsody go. Talonaxe’s last word is that Rhapsody now keeps a brew camp east of Aerie Peak.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "who gives rhapsody quest",
     "where to start rhapsody"
    ],
-   "answer": "Gryphon Master Talonaxe at the Aerie Peak Aviary points you to Rhapsody."
+   "answer": "Gryphon Master Talonaxe at the Aerie Peak Aviary sends you to find Rhapsody."
   },
   {
    "q": "Why was Rhapsody Shindigger let go from the aviary?",
@@ -52,7 +52,7 @@
     "what happened to rhapsody",
     "rhapsody shindigger backstory"
    ],
-   "answer": "Rhapsody took to liquor the way a gryphon takes to the skies. The first sign of trouble came with a stumbling return from a flight with Brohann, things went downhill quickly, and Talonaxe had to let Rhapsody go."
+   "answer": "Rhapsody took to liquor as readily as a gryphon takes to the skies. Trouble began when Rhapsody returned stumbling from a flight with Brohann, then worsened quickly until the aviary let Rhapsody go."
   },
   {
    "q": "Where is Rhapsody now?",
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Wowpedia: Rhapsody Shindigger (quest)"
- ]
+ ],
+ "style": 2
 }

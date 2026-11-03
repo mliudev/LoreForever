@@ -31,16 +31,16 @@
    "Errands for Kravel"
   ]
  },
- "summary": "Kravel Koalbeard trusts you to get a job done and to keep quiet about it. He has a new scheme, risky but with the promise of a bundle for you both. You carry his letter to Crank Fizzlebub in Booty Bay. This follows Rumors for Kravel.",
+ "summary": "At the Mirage Raceway, Kravel Koalbeard sends you back to Booty Bay with a letter and asks you to keep his scheme quiet. It is risky, but success could bring you both a bundle. This follows Rumors for Kravel.",
  "sections": [
   {
    "title": "A Letter for Booty Bay",
-   "body": "Kravel Koalbeard, the dwarf at the Mirage Raceway, calls you someone he can trust, both to finish a job and to hold your tongue about it. His new scheme carries risk, yet if it pays off the two of you stand to make a bundle. He apologizes for sending you back to Booty Bay, where his last job took you, and asks you to find Crank Fizzlebub there and hand over a letter. If Crank needs help, Kravel wants you to do your best, and says it will be worth the effort.",
+   "body": "At the Mirage Raceway, Kravel Koalbeard trusts you to finish a job and keep silent. His new scheme is risky, but success could bring you both a bundle. He sends you back to Booty Bay, where his last job took you, to find Crank Fizzlebub and deliver a letter. If Crank needs help, do your best. Kravel says the effort will be worth it.",
    "spoiler": 0
   },
   {
    "title": "Crank Reads the Scheme",
-   "body": "Crank Fizzlebub reads the letter and sees that Kravel has a big scheme planned. Crank likes Kravel's sinister mind. The scheme will need something powerful to addle wits, and Crank wonders whether the mixture Zanzil gives his zombies could be put to use.",
+   "body": "Crank Fizzlebub reads Kravel's letter and learns of the scheme. He admires Kravel's sinister mind. The plan needs something powerful to addle wits, and Crank wonders whether Zanzil's mixture for his zombies could serve.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "who gives back to booty bay",
     "where is crank fizzlebub"
    ],
-   "answer": "It begins with Kravel Koalbeard at the Mirage Raceway in Thousand Needles. You carry his letter to Crank Fizzlebub, who is found at the Salty Sailor Tavern, in Booty Bay, in Stranglethorn Vale."
+   "answer": "You begin with Kravel Koalbeard at the Mirage Raceway in Thousand Needles. Then you carry his letter to Crank Fizzlebub at the Salty Sailor Tavern in Booty Bay, Stranglethorn Vale."
   },
   {
    "q": "What came before this?",
@@ -61,7 +61,7 @@
     "previous quest",
     "what quest comes first"
    ],
-   "answer": "It follows Rumors for Kravel, the earlier step that took you to Booty Bay."
+   "answer": "Rumors for Kravel came before this and took you to Booty Bay."
   },
   {
    "q": "What is Kravel's Scheme?",
@@ -69,7 +69,7 @@
     "what is kravel's scheme",
     "kravel scheme letter"
    ],
-   "answer": "It is the letter you carry to Crank Fizzlebub. Kravel calls his scheme risky, and says that if it pays off the two of you could make a bundle."
+   "answer": "Kravel's scheme is the plan in the letter you carry to Crank Fizzlebub. Kravel calls it risky and says you could both make a bundle if it pays off."
   },
   {
    "q": "What should you do if Crank Fizzlebub needs help?",
@@ -77,7 +77,7 @@
     "help crank",
     "does crank need aid"
    ],
-   "answer": "Kravel asks you to do your best to help him, saying it will be worth the effort."
+   "answer": "Kravel asks you to do your best to help Crank Fizzlebub, saying the effort will be worth it."
   },
   {
    "q": "What comes after this?",
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "Back to Booty Bay"
- ]
+ ],
+ "style": 2
 }

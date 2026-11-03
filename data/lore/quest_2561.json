@@ -17,16 +17,16 @@
   "wiki": "Druid of the Claw (quest)",
   "chain": []
  },
- "summary": "Oben Rageclaw’s spirit waits in the barrows beneath Teldrassil, unable to rest. The Gnarlpine furbolgs have bound his body with a dark enchantment, and you can break that bond by destroying his soulless shell.",
+ "summary": "Beneath Teldrassil, Oben Rageclaw’s spirit waits for release. The corrupted Gnarlpine furbolgs bound his body with dark enchantment, and you can free him by destroying its soulless shell.",
  "sections": [
   {
    "title": "A Severed Spirit",
-   "body": "Oben Rageclaw was resting in the barrows beneath Teldrassil when the corrupted Gnarlpine furbolgs laid a voodoo enchantment over his sleeping body. The magic tore his spirit from his mortal flesh and trapped it in the Emerald Dream. Now his spirit lingers nearby, unable to rest or reclaim his body.",
+   "body": "Oben Rageclaw slept in the barrows beneath Teldrassil. Then the corrupted Gnarlpine furbolgs laid a voodoo enchantment over his body. The magic tore his spirit from his mortal flesh and trapped it in the Emerald Dream. Now Oben’s spirit lingers nearby, unable to rest or reclaim his body.",
    "spoiler": 0
   },
   {
    "title": "Mercy for the Flesh",
-   "body": "Oben Rageclaw’s physical shell is under the furbolgs’ control. Enter the nearby chamber and destroy the mindless, hostile husk. Then use the furbolg charm over his remains to shatter the magic binding his soul.",
+   "body": "Oben Rageclaw’s physical shell remains under the furbolgs’ control. In the nearby chamber, destroy the mindless, hostile husk. Then use the furbolg charm over his remains to shatter the magic binding his soul.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "kill sleeping druid",
     "oben rageclaw body"
    ],
-   "answer": "The Gnarlpine furbolgs enchanted Oben while he slept, turning his body into a soulless puppet. His flesh remains under their control, so destroying it is the only way to break the enchantment and free his spirit."
+   "answer": "The Gnarlpine furbolgs enchanted Oben while he slept and turned his body into a soulless puppet. His flesh remains under their control, so destroying it is the only way to break the enchantment and free his spirit."
   },
   {
    "q": "What is the Voodoo Charm used for?",
@@ -65,7 +65,7 @@
     "gnarlpine voodoo magic",
     "why do furbolgs have charms"
    ],
-   "answer": "The Gnarlpine furbolgs have fallen into corruption and madness. They have turned from their ancestral harmony to use foul sorcery and dark magic to subjugate nearby creatures and sleeping druids."
+   "answer": "The Gnarlpine furbolgs have fallen into corruption and madness. They have turned from their ancestral harmony to foul sorcery and dark magic, using it to subjugate nearby creatures and sleeping druids."
   },
   {
    "q": "Who was Oben Rageclaw?",
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a Druid, you see the danger when corrupted furbolgs desecrate a sleeping Druid of the Claw, leaving the body behind while its spirit communes with the Emerald Dream."
+   "text": "As a Druid, you see the danger when corrupted furbolgs desecrate a sleeping Druid of the Claw. The body is left behind while its spirit communes with the Emerald Dream."
   },
   {
    "target": "race:NightElf",
@@ -116,5 +116,5 @@
  "attribution": [
   "Druid of the Claw (quest)"
  ],
- "style": 1
+ "style": 2
 }

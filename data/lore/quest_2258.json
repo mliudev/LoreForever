@@ -21,16 +21,16 @@
   ],
   "category": "Badlands"
  },
- "summary": "In the outpost of Kargath, Jarkal Mossmeld, an alchemist of some note, needs reagents found out in the Badlands to replenish stocks. Coin is promised, but only to someone who brings the goods.",
+ "summary": "In Kargath, Jarkal Mossmeld needs Badlands reagents to refill his stocks. He offers coin when you bring them to him.",
  "sections": [
   {
    "title": "Stocking the Shelves",
-   "body": "Jarkal Mossmeld is short on ingredients: gizzards from five buzzards, fangs from ten crag coyotes, and shards from five rock elementals. All three can be taken from the creatures themselves. Anyone who is not the fighting type is told to find friends who are. Jarkal pays in coin, but only once the reagents are in hand.",
+   "body": "Jarkal Mossmeld needs gizzards from five buzzards, fangs from ten crag coyotes, and shards from five rock elementals. Take each from the creatures themselves. If you do not fight, find friends who do. Jarkal pays in coin when you bring him the reagents.",
    "spoiler": 0
   },
   {
    "title": "After the Haul",
-   "body": "Pleased with the haul, Jarkal says it should last a little while. The alchemist has more reagents to gather, but these can be found only far down inside the Uldaman excavation and will not be easy to get. Jarkal hints that the pay may be worth more than shiny coins.",
+   "body": "Jarkal is pleased with what you bring and says it should last a little while. Yet he needs more reagents from deep inside the Uldaman excavation, where gathering them will be difficult. He hints that the pay may be worth more than shiny coins.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "jarkal mossmeld",
     "who is jarkal mossmeld"
    ],
-   "answer": "Jarkal Mossmeld, an alchemist of some note at the outpost of Kargath in the Badlands, who wants to replenish the stocks."
+   "answer": "Jarkal Mossmeld, an alchemist of some note in Kargath, needs reagents to replenish his stocks."
   },
   {
    "q": "What ingredients does Jarkal need?",
@@ -51,7 +51,7 @@
     "badlands reagents list",
     "reagents required"
    ],
-   "answer": "Gizzards from five buzzards, fangs from ten crag coyotes and shards from five rock elementals. All of them come from the creatures themselves."
+   "answer": "Jarkal needs gizzards from five buzzards, fangs from ten crag coyotes, and shards from five rock elementals. Take them from the creatures themselves."
   },
   {
    "q": "Where is Jarkal Mossmeld located?",
@@ -60,7 +60,7 @@
     "where is kargath alchemist",
     "where to turn in badlands reagent run"
    ],
-   "answer": "Jarkal is in the outpost of Kargath, in the Badlands."
+   "answer": "Jarkal Mossmeld is in the outpost of Kargath, in the Badlands."
   },
   {
    "q": "What does Jarkal offer in exchange for the ingredients?",
@@ -68,7 +68,7 @@
     "badlands reagent run reward",
     "what do i get"
    ],
-   "answer": "Coin, paid once the reagents are brought to Jarkal in Kargath. Nothing is paid before then."
+   "answer": "Jarkal offers coin when you bring the reagents to him in Kargath. He pays nothing before then."
   }
  ],
  "angles": [],
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Badlands Reagent Run (Horde)"
- ]
+ ],
+ "style": 2
 }

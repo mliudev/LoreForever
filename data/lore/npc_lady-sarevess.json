@@ -8,16 +8,16 @@
   "wiki": "Lady Sarevess",
   "refs": 5
  },
- "summary": "Within Blackfathom Deeps, Lady Sarevess works dark sorceries in the flooded ruins.",
+ "summary": "In Blackfathom Deeps, Lady Sarevess works dark sorceries among the flooded ruins.",
  "sections": [
   {
    "title": "A Grotto in the Deeps",
-   "body": "Lady Sarevess performs rituals in a flooded grotto within the Pool of Ask'ar. The Twilight's Hammer cultists haunt the sunken temple too, pursuing their own worship deeper in the cavern.",
+   "body": "Lady Sarevess performs rituals in a flooded grotto within the Pool of Ask'ar. The Twilight's Hammer cultists haunt the sunken temple as well. They pursue their own worship deeper in the cavern.",
    "spoiler": 0
   },
   {
    "title": "Sorcery of the Tides",
-   "body": "Lady Sarevess commands elemental currents and crackling lightning. Loyal naga sentinels and summoned water elementals guard her sanctuary as she fights intruders who threaten her dark work.",
+   "body": "Lady Sarevess commands elemental currents and crackling lightning. Loyal naga sentinels and summoned water elementals guard her sanctuary. She fights intruders who threaten her dark work.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "sarevess lore",
     "lady sarevess backstory"
    ],
-   "answer": "Lady Sarevess dwells in the subterranean Pool of Ask'ar inside Blackfathom Deeps. The very twisted naga spellcaster dabbles in dark magic."
+   "answer": "Lady Sarevess dwells in the subterranean Pool of Ask'ar inside Blackfathom Deeps. This twisted naga spellcaster dabbles in dark magic."
   },
   {
    "q": "Where can Lady Sarevess be found?",
@@ -46,13 +46,13 @@
     "sarevess magic",
     "sarevess abilities"
    ],
-   "answer": "Lady Sarevess wields water and elemental magic, including violent bursts of forked lightning, against anyone who enters her cove."
+   "answer": "Lady Sarevess wields water and elemental magic, including violent bursts of forked lightning. She uses them against anyone who enters her cove."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, the ruins Lady Sarevess inhabits were once a sacred temple of Elune. Her twisted naga kin defiling the waters of Ask'ar recalls the Sundering."
+   "text": "As a night elf, you know the ruins Lady Sarevess inhabits were once a sacred temple of Elune. Her twisted naga kin defile the waters of Ask'ar, recalling the Sundering."
   },
   {
    "target": "class:Mage",
@@ -79,5 +79,5 @@
  "attribution": [
   "Lady Sarevess"
  ],
- "style": 1
+ "style": 2
 }

@@ -15,16 +15,16 @@
   "next": "The Black Shield (Alliance 3)",
   "wiki": null
  },
- "summary": "Captain Garran Vimes is sorry to be of little help with the Blackened Iron Shield, but knows who can do better: Caz Twosprocket, one of the best blacksmiths around, who tends the forge in Theramore's smithy.",
+ "summary": "At Theramore's smithy, Captain Garran Vimes sends a shield to a smith who may know its maker.",
  "sections": [
   {
    "title": "A Smith Who Can Say",
-   "body": "Vimes apologizes for being unable to help much with the shield, but names someone who can. You are sent with it to Caz Twosprocket, one of the best blacksmiths, who tends the forge in Theramore's smithy. Perhaps Caz can tell you something about it.",
+   "body": "Captain Garran Vimes knows little about the shield. So he sends you to Caz Twosprocket, one of the best blacksmiths around. Caz tends the forge in Theramore's smithy and may be able to tell you more.",
    "spoiler": 0
   },
   {
    "title": "The Smith's Opinion",
-   "body": "Caz looks the iron over and calls it an interesting piece. It is not Caz's own work, and certainly not the work of any smith Caz knows of this side of the water.",
+   "body": "Caz Twosprocket examines the iron and calls it an interesting piece. Caz says it is not their work, nor the work of any smith they know on this side of the water.",
    "spoiler": 1
   }
  ],
@@ -36,7 +36,7 @@
     "black shield quest starter",
     "who starts the black shield"
    ],
-   "answer": "Captain Garran Vimes in Theramore, who is sorry to be of little help with it and points you to someone better."
+   "answer": "Captain Garran Vimes in Theramore sends you to a smith who may know more about the shield."
   },
   {
    "q": "Who is Caz Twosprocket?",
@@ -44,7 +44,7 @@
     "caz twosprocket",
     "who is the blacksmith in theramore"
    ],
-   "answer": "A blacksmith who tends the forge in Theramore's smithy. Vimes counts him among the best."
+   "answer": "Caz Twosprocket tends the forge in Theramore's smithy. Vimes counts Caz among the best blacksmiths around."
   },
   {
    "q": "What shield is shown to Caz?",
@@ -71,5 +71,6 @@
  ],
  "attribution": [
   "Classic quest text: The Black Shield"
- ]
+ ],
+ "style": 2
 }

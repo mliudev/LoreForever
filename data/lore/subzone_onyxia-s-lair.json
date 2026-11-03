@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Onyxia's Lair"
  },
- "summary": "Onyxia's Lair is a subterranean cavern located deep within the Wyrmbog of Dustwallow Marsh. It serves as the nesting sanctuary and stronghold for Onyxia, broodmother of the black dragonflight. Inside its sweltering, magma-filled chambers, the great dragon watches over clutches of black dragon eggs.",
+ "summary": "Deep in the Wyrmbog, magma burns beneath the marsh in Onyxia's Lair. Onyxia keeps her stronghold and nesting place here, watching over clutches of black dragon eggs.",
  "sections": [
   {
    "title": "A Den of Magma and Ruin",
-   "body": "Carved into the treacherous mud and petrified wood of the Wyrmbog, the cavern entrance resembles the yawning maw of a dragon. Within, the cool rot of the marsh gives way to intense volcanic heat. Magma seeps from cracks in the obsidian stone, while subterranean tremors routinely shake the ceilings. The central chamber opens into a vast incubator where hundreds of black dragon eggs lie nested amid ash and embers, overseen by flightkin, dragonspawn guards, and Onyxia herself.",
+   "body": "The entrance cuts through the Wyrmbog's mud and petrified wood like a dragon's open maw. Beyond it, volcanic heat drives out the marsh's cool rot. Magma seeps through cracks in the obsidian, and tremors often shake the ceilings. In a vast chamber, hundreds of black dragon eggs lie among ash and embers. Flightkin and dragonspawn guards watch the clutch beside Onyxia.",
    "spoiler": 0
   },
   {
    "title": "The Broodmother's Retreat",
-   "body": "While Onyxia's brother Nefarian plots across the sea from Blackrock Spire, Onyxia has long maintained this secluded roost on Kalimdor to breed the next generation of the black dragonflight. The lair acts as a redoubt when her intricate political schemes unravel. Here, far from the courts of mortal kingdoms, she can abandon her human guises and take her true, terrible form as daughter of Deathwing.",
+   "body": "Onyxia keeps a secluded roost on Kalimdor to breed the next generation of the black dragonflight. Across the sea, her brother Nefarian plots from Blackrock Spire. When her political schemes unravel, the lair offers refuge. Far from mortal courts, Onyxia can cast off her human guises and take her true form as Deathwing's daughter.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "how to find onyxia lair",
     "dragonmurk cave"
    ],
-   "answer": "The lair is situated in southern Dustwallow Marsh within the Wyrmbog, just south of the Dragonmurk. The entrance is marked by massive dragon bones, smoldering terrain, and black dragonkin sentries guarding a stony fissure shaped like an open jaw."
+   "answer": "Onyxia's Lair lies in southern Dustwallow Marsh, within the Wyrmbog just south of the Dragonmurk. Massive dragon bones and smoldering ground mark the entrance, where black dragonkin guard a stony fissure shaped like an open jaw."
   },
   {
    "q": "What creatures dwell inside the lair?",
@@ -38,7 +38,7 @@
     "who lives in onyxia lair",
     "what is inside"
    ],
-   "answer": "The cavern is inhabited almost entirely by members of the black dragonflight. Broodmother Onyxia commands the deep chamber, surrounded by swarms of freshly hatched whelps, guardian dragonspawn, and mature black drakes."
+   "answer": "Members of the black dragonflight dwell in the cavern. Broodmother Onyxia commands its deep chamber among freshly hatched whelps, guardian dragonspawn, and mature black drakes."
   },
   {
    "q": "Why is the cave so hot if it sits in a swamp?",
@@ -46,7 +46,7 @@
     "why is there lava in dustwallow",
     "onyxia lair volcano"
    ],
-   "answer": "Onyxia dug her lair deep into Kalimdor's crust, tapping into subterranean veins of magma. The extreme volcanic heat provides the scorching conditions necessary to incubate black dragon eggs, contrasting sharply with the cold mud of Dustwallow Marsh above."
+   "answer": "Onyxia dug deep into Kalimdor's crust and reached subterranean veins of magma. The volcanic heat incubates black dragon eggs, while cold mud covers the marsh above."
   },
   {
    "q": "Why is Onyxia hiding out in Kalimdor?",
@@ -55,7 +55,7 @@
     "why dustwallow marsh",
     "onyxia kalimdor"
    ],
-   "answer": "Dustwallow Marsh offers isolation and concealment. Its thick fogs, dismal quagmires, and dangerous wildlife keep mortal armies away, allowing the broodmother to replenish her flight's numbers undisturbed while she coordinates her covert meddling abroad."
+   "answer": "Dustwallow Marsh gives Onyxia isolation and concealment. Thick fogs, dismal quagmires, and dangerous wildlife keep mortal armies away, letting her replenish her flight undisturbed as she meddles abroad."
   }
  ],
  "angles": [
@@ -65,7 +65,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "Dustwallow Marsh borders Horde territory in the Barrens and Mulgore; allowing a black broodmother to hatch an army of dragons on Kalimdor poses an existential threat to all of the new Horde."
+   "text": "Dustwallow Marsh borders Horde territory in the Barrens and Mulgore. A black broodmother hatching an army of dragons on Kalimdor threatens the whole new Horde."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Onyxia's Lair"
- ]
+ ],
+ "style": 2
 }

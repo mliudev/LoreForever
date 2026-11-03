@@ -17,16 +17,16 @@
   "wiki": "The Sleeper Has Awakened (Classic)",
   "chain": []
  },
- "summary": "Kerlonian Evershade struggles to stay awake on the road from Darkshore to Maestra's Post in Ashenvale. Newly awakened from a long sleep, he carries the Horn of Awakening and needs help against furbolgs and cultists along the way.",
+ "summary": "Kerlonian Evershade struggles to stay awake on the road from Darkshore to Maestra's Post in Ashenvale. Newly roused from a long sleep, he carries the Horn of Awakening and needs help past furbolgs and cultists.",
  "sections": [
   {
    "title": "A Slumbering Mind",
-   "body": "Kerlonian Evershade, a Druid of the Claw, has only recently awakened from sleep in the barrows. For millennia, the druids communed with wild spirits through the Emerald Dream. The Third War called them to wake, but centuries of hibernation leave Kerlonian struggling to stay conscious. He set out south from Darkshore to meet Liladris Moonriver in Ashenvale, yet exhaustion soon overtook him. Sudden naps leave him helpless along the wilds, so he depends on a brass Horn of Awakening and passing allies to keep moving.",
+   "body": "Kerlonian Evershade is a Druid of the Claw, newly awakened from sleep in the barrows. For millennia, druids communed with wild spirits through the Emerald Dream. The Third War called them to wake, but centuries of hibernation left Kerlonian struggling to stay conscious.\n\nHe set out south from Darkshore to meet Liladris Moonriver in Ashenvale, yet exhaustion soon overtook him. Sudden naps leave him helpless in the wilds, so he relies on a brass Horn of Awakening and passing allies to keep moving.",
    "spoiler": 0
   },
   {
    "title": "Peril Along the Road",
-   "body": "The road from Darkshore into Ashenvale holds danger for Kerlonian. In Twilight Vale, corrupted Blackwood furbolgs stalk the roadway. Farther south in Ashenvale, members of the Dark Strand cult lie in ambush. Kerlonian may lie down wherever he stands when sleep takes him, so you need to keep watch and rouse him with the horn.",
+   "body": "The road from Darkshore into Ashenvale is dangerous for Kerlonian. In Twilight Vale, corrupted Blackwood furbolgs stalk the road. Farther south in Ashenvale, members of the Dark Strand cult lie in ambush. Sleep may lay Kerlonian down wherever he stands, so you need to keep watch and rouse him with the horn.",
    "spoiler": 0
   },
   {
@@ -52,7 +52,7 @@
     "kerlonian horn",
     "horn of awakening use"
    ],
-   "answer": "You can wake Kerlonian with the Horn of Awakening, found in a chest beside him when the journey begins. When he falls asleep along the trail, blow the horn to rouse him so he can continue."
+   "answer": "You can wake Kerlonian with the Horn of Awakening, found in a chest beside him when the journey begins. When he falls asleep along the trail, blow the horn to rouse him and let him continue."
   },
   {
    "q": "Who is waiting for Kerlonian at Maestra's Post?",
@@ -77,7 +77,7 @@
     "sleeper has awakened quote",
     "druid voiceline"
    ],
-   "answer": "The words “The sleeper has awakened” are a greeting spoken by Druids of the Claw when called into service during the Third War. They point to Kerlonian's nature as an awakened shapeshifter."
+   "answer": "“The sleeper has awakened” is a greeting spoken by Druids of the Claw when called into service during the Third War. The words point to Kerlonian's nature as an awakened shapeshifter."
   },
   {
    "q": "What happens to the horn if you take too long?",
@@ -85,7 +85,7 @@
     "horn expired",
     "horn of awakening disappeared"
    ],
-   "answer": "The Horn of Awakening vanishes from your possessions after a limited time. If the escort takes too long or must begin again after a failure, gather a replacement from the chest at Kerlonian's resting spot."
+   "answer": "The Horn of Awakening vanishes from your possessions after a limited time. If the journey takes too long or must begin again after a failure, gather a replacement from the chest at Kerlonian's resting spot."
   }
  ],
  "angles": [
@@ -127,5 +127,5 @@
  "attribution": [
   "The Sleeper Has Awakened (Classic)"
  ],
- "style": 1
+ "style": 2
 }

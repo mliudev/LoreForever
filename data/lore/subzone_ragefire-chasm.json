@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Ragefire Chasm"
  },
- "summary": "Beneath Orgrimmar, Ragefire Chasm threatens the Horde from below. Its magma-lit tunnels hold savage troggs, and the Cleft of Shadow gives access to the caverns.",
+ "summary": "In Orgrimmar, Ragefire Chasm threatens the Horde from below. Magma lights its tunnels, where savage troggs gather. The Cleft of Shadow opens onto the caverns.",
  "sections": [
   {
    "title": "A Threat Beneath the Streets",
-   "body": "Beneath Orgrimmar, dangers threaten the capital from below. While Thrall works to secure Durotar above, Ragefire troggs infest the chasm’s unstable vents and magma rivers. They rose from unknown depths and violently rejected Magatha Grimtotem’s attempts at diplomacy. Left unchecked, their numbers could undermine the city and overrun it.",
+   "body": "Ragefire troggs threaten Orgrimmar from below. While Thrall works to secure Durotar above, the troggs infest the chasm’s unstable vents and magma rivers. They rose from unknown depths and violently rejected Magatha Grimtotem’s attempts at diplomacy. Left unchecked, their numbers could undermine the city and overrun it.",
    "spoiler": 0
   },
   {
    "title": "The Searing Blade",
-   "body": "The Searing Blade works from the shadows of Ragefire Chasm. Directed by the warlock Jergosh the Invoker, the satyr Bazzalan, and the towering felguard Taragaman the Hungerer, the sect plots to ruin Thrall’s Horde. Neeru Fireblade claims to oppose them, but the cult tests its strength and sabotages the orcs’ new home from below.",
+   "body": "The Searing Blade plots against Thrall’s Horde from Ragefire Chasm. The warlock Jergosh the Invoker directs the sect with the satyr Bazzalan and the towering felguard Taragaman the Hungerer. Neeru Fireblade claims to oppose them, but the cult tests its strength and sabotages the orcs’ new home from below.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "how to get to ragefire chasm",
     "where is ragefire chasm located"
    ],
-   "answer": "You can reach Ragefire Chasm through the Cleft of Shadow in Orgrimmar, beside the tent of the warlock Neeru Fireblade."
+   "answer": "Enter Ragefire Chasm through the Cleft of Shadow in Orgrimmar, beside the tent of the warlock Neeru Fireblade."
   },
   {
    "q": "Who lives inside Ragefire Chasm?",
@@ -37,7 +37,7 @@
     "what enemies are in rfc",
     "who controls ragefire chasm"
    ],
-   "answer": "Aggressive Ragefire troggs infest the chasm, and the Searing Blade occupies it. The cult is linked to the Shadow Council and led by the warlock Jergosh the Invoker, the satyr Bazzalan, and the felguard Taragaman the Hungerer."
+   "answer": "Aggressive Ragefire troggs infest the chasm, and the Searing Blade occupies it. The cult is linked to the Shadow Council and led by Jergosh the Invoker, a warlock, Bazzalan, a satyr, and Taragaman the Hungerer, a felguard."
   },
   {
    "q": "Why hasn't Thrall cleared out the chasm?",
@@ -53,7 +53,7 @@
     "can alliance do rfc",
     "alliance in ragefire"
    ],
-   "answer": "Yes. You can reach Ragefire Chasm by slipping through Orgrimmar’s gates and descending into the heavily guarded Cleft of Shadow, a perilous undertaking for Alliance adventurers."
+   "answer": "Yes. You can reach Ragefire Chasm by slipping through Orgrimmar’s gates and descending into the heavily guarded Cleft of Shadow. For Alliance adventurers, the undertaking is perilous."
   }
  ],
  "angles": [
@@ -90,5 +90,5 @@
  "attribution": [
   "Ragefire Chasm"
  ],
- "style": 1
+ "style": 2
 }

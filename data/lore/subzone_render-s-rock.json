@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Render's Rock"
  },
- "summary": "Blackrock orcs hold Render's Rock above Redridge, near the pass to the Burning Steppes. From this cave, they prepare attacks on the valleys below.",
+ "summary": "Blackrock orcs hold Render's Rock above Redridge, near the pass into the Burning Steppes. They use the cave to prepare attacks on the valleys below.",
  "sections": [
   {
    "title": "A Blackrock Bastion in the Heights",
-   "body": "North of Lakeshire, Blackrock orcs guard a cave cut into the Redridge heights. The stronghold lies near the mountain pass leading to the Burning Steppes, where veteran orcs direct attacks against Redridge's defenders. Their guards make any attempt to enter perilous, whether to disrupt the orcs' supply lines or recover captives lost in the fighting.",
+   "body": "North of Lakeshire, Blackrock orcs guard a cave in the Redridge heights. Render's Rock lies near the mountain pass into the Burning Steppes, where veteran orcs direct attacks against Redridge's defenders. Their guards make it perilous to enter, whether you mean to disrupt the orcs' supplies or recover captives lost in the fighting.",
    "spoiler": 0
   },
   {
    "title": "A Hostage in the Shadows",
-   "body": "Corporal Keeshan, a wounded Redridge soldier, is held inside Render's Rock. Isolated deep behind enemy lines, he is far from his companions. His captivity shows how boldly the Blackrock orcs press their attacks, and what the local garrison has paid to keep the mountain road open.",
+   "body": "Corporal Keeshan, a wounded Redridge soldier, is held inside Render's Rock. Isolated deep behind enemy lines, he is far from his companions. His captivity shows how boldly the Blackrock orcs press their attacks and what the local garrison has paid to keep the mountain road open.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "renders rock enemies",
     "who holds renders rock"
    ],
-   "answer": "Blackrock orcs control Render's Rock and use the crag as a redoubt to coordinate attacks and watch the mountain passes by the Burning Steppes."
+   "answer": "Blackrock orcs control Render's Rock and use the crag as a redoubt to direct attacks and watch the mountain passes by the Burning Steppes."
   },
   {
    "q": "Who is imprisoned inside the cave?",
@@ -55,7 +55,7 @@
     "renders rock threat",
     "importance of renders rock"
    ],
-   "answer": "Experienced Blackrock warriors hold Render's Rock above the Redridge valley, threatening Lakeshire and giving the orcs a foothold south of the Burning Steppes."
+   "answer": "Experienced Blackrock warriors hold Render's Rock above the Redridge valley. They threaten Lakeshire and give the orcs a foothold south of the Burning Steppes."
   }
  ],
  "angles": [
@@ -81,5 +81,5 @@
  "attribution": [
   "Render's Rock"
  ],
- "style": 1
+ "style": 2
 }

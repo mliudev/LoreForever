@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Bluegill Marsh"
  },
- "summary": "In western Wetlands, Bluegill Marsh is claimed by the hostile Bluegill tribe. Their huts and waterways are guarded by Gobbler, and travelers risk being surrounded in the shallows.",
+ "summary": "Bluegill Marsh lies in western Wetlands, where the Bluegill tribe claims the shallows. Gobbler guards their huts and waterways, and travelers risk being surrounded.",
  "sections": [
   {
    "title": "A Swarming Hazard",
-   "body": "Bluegill murlocs crowd the muddy flats and reed beds of the western Wetlands. Their tribe has built crude camps in the stagnant water and claims the marsh as its own. They live and hunt in close-knit packs. Travelers and scouts from Menethil Harbor risk ambush from every direction when they wade into Bluegill territory, where the chieftain Gobbler prowls the shallows.",
+   "body": "Bluegill murlocs crowd the muddy flats and reeds of western Wetlands. Their tribe has built crude camps in the stagnant water and claims the marsh. They live and hunt in close-knit packs. Travelers and scouts from Menethil Harbor risk ambush from every side when they wade into Bluegill territory, where chieftain Gobbler prowls the shallows.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is this place",
     "wetlands murloc swamp"
    ],
-   "answer": "Bluegill Marsh is a boggy subzone in the western Wetlands. It is the main home and nesting ground of the aggressive Bluegill murlocs."
+   "answer": "Bluegill Marsh is a boggy stretch of western Wetlands and the main home and nesting ground of the aggressive Bluegill murlocs."
   },
   {
    "q": "Who rules over the marsh?",
@@ -41,7 +41,7 @@
     "is bluegill marsh hard",
     "murloc aggro"
    ],
-   "answer": "Bluegill murlocs gather in bands of two or three around their huts and shorelines. Their numbers and the deep, slowing mud make it easy to overwhelm a lone traveler."
+   "answer": "Bluegill murlocs gather in bands of two or three around their huts and shorelines. Their numbers and the deep, slowing mud can overwhelm a lone traveler."
   },
   {
    "q": "Why do travelers venture into Bluegill Marsh?",
@@ -50,13 +50,13 @@
     "bluegill marsh quests",
     "reasons to visit"
    ],
-   "answer": "Scouts and adventurers from nearby settlements such as Menethil Harbor venture into Bluegill Marsh to thin the aggressive murloc population and recover stolen goods from their camps."
+   "answer": "Scouts and adventurers from nearby settlements such as Menethil Harbor enter Bluegill Marsh to thin the aggressive murloc population and recover stolen goods from their camps."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Near Menethil Harbor, the aggressive Bluegill murlocs threaten travelers and supply lines crossing the western Wetlands."
+   "text": "Near Menethil Harbor, aggressive Bluegill murlocs threaten travelers and supply lines crossing western Wetlands."
   }
  ],
  "keywords": [
@@ -75,5 +75,5 @@
  "attribution": [
   "Bluegill Marsh"
  ],
- "style": 1
+ "style": 2
 }

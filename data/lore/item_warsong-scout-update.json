@@ -10,11 +10,11 @@
    "quest:6543"
   ]
  },
- "summary": "At Splintertree Post, a Warsong scout records what the Horde needs to know about Ashenvale.",
+ "summary": "At Splintertree Post, Warsong scouts send the Horde word on Ashenvale.",
  "sections": [
   {
    "title": "Eyes in the Ancient Forest",
-   "body": "Warsong scouts watch the woods as the Horde seeks timber and supply routes through Ashenvale. From Splintertree Post, a fortified encampment, they track night elf sentinels and movements across the territory. Their observations reach Kadrak at the Barrens-Ashenvale border among routine orders. He uses them to judge troop readiness and coordinate supplies and travel through the contested woods.",
+   "body": "Warsong scouts watch the woods as the Horde seeks timber and supply routes through Ashenvale. From fortified Splintertree Post, they follow night elf sentinels and movements across the territory. Their observations reach Kadrak at the Barrens-Ashenvale border among routine orders. He uses them to judge troop readiness and coordinate supplies and travel through the contested woods.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "scout report",
     "warsong scout dispatch"
    ],
-   "answer": "The Warsong Scout Update gathers a Warsong scout’s observations from Splintertree Post in eastern Ashenvale for commanders on the border."
+   "answer": "The Warsong Scout Update carries a scout’s observations from Splintertree Post in eastern Ashenvale to commanders on the border."
   },
   {
    "q": "Who requires this update?",
@@ -35,7 +35,7 @@
     "kadrak report",
     "who gets the update"
    ],
-   "answer": "Kadrak needs the update. The Horde officer watches the border between the northern Barrens and Ashenvale from a watchtower, and uses it to plan military maneuvers."
+   "answer": "Kadrak needs the update. The Horde officer watches the border between the northern Barrens and Ashenvale from a watchtower, then uses the report to plan military maneuvers."
   },
   {
    "q": "Where is the Warsong Scout located?",
@@ -90,5 +90,5 @@
   "Warsong Scout Update",
   "The Warsong Reports"
  ],
- "style": 1
+ "style": 2
 }

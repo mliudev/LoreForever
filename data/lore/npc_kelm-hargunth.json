@@ -8,16 +8,16 @@
   "wiki": "Kelm Hargunth",
   "refs": 3
  },
- "summary": "At Mor'shan Base Camp, Kelm Hargunth keeps the Warsong Outriders supplied. He equips Horde champions fighting night elves in Warsong Gulch with care packages and provisions.",
+ "summary": "At Mor'shan Base Camp, Kelm Hargunth keeps the Warsong Outriders supplied. He sends provisions and care packages to Horde champions fighting night elves in Warsong Gulch.",
  "sections": [
   {
    "title": "Quartermaster of Mor'shan",
-   "body": "At Mor'shan Base Camp, Kelm Hargunth manages supplies for the Warsong Outriders. The camp stands on the northern edge of the Barrens, beside the border with Ashenvale. Scouts and raiders skirmish beyond its stockade while Kelm sees that weapons, armor, and rations reach the fighters. The Warsong Outriders face the Silverwing Sentinels, and a steady flow of provisions matters as much as fury in battle.",
+   "body": "Kelm Hargunth manages supplies for the Warsong Outriders at Mor'shan Base Camp. The camp sits on the northern edge of the Barrens, beside Ashenvale. Beyond its stockade, scouts and raiders skirmish. Kelm sends weapons, armor, and rations to the fighters. The Warsong Outriders face the Silverwing Sentinels, so steady provisions matter as much as fury in battle.",
    "spoiler": 0
   },
   {
    "title": "Supplying the Front",
-   "body": "Kelm gives specialized supplies to warriors who have proven themselves in Warsong Gulch. His stores include care packages with field dressings and iron rations, along with armaments marked with the Warsong clan's crimson insignia. These supplies go to fighters serving the Horde's campaign in the forests to the north.",
+   "body": "Kelm gives special supplies to warriors who have proven themselves in Warsong Gulch. His stores hold care packages with field dressings and iron rations. He also offers weapons marked with the Warsong clan's crimson insignia. These supplies support fighters serving the Horde's campaign in the forests to the north.",
    "spoiler": 0
   }
  ],
@@ -30,7 +30,7 @@
     "mor'shan vendor",
     "warsong vendor"
    ],
-   "answer": "Kelm Hargunth is an orc supply officer for the Warsong Outriders. At Mor'shan Base Camp in the northern Barrens, he distributes weapons, armor, and provisions to Horde soldiers fighting in Warsong Gulch."
+   "answer": "Kelm Hargunth is an orc supply officer for the Warsong Outriders. At Mor'shan Base Camp in the northern Barrens, he gives Horde soldiers weapons, armor, and provisions for fighting in Warsong Gulch."
   },
   {
    "q": "Where is Kelm Hargunth located?",
@@ -39,7 +39,7 @@
     "where is kelm hargunth",
     "mor shan supply officer location"
    ],
-   "answer": "Kelm Hargunth is stationed at Mor'shan Base Camp, at the far northern edge of the Barrens beside the rampart divide leading into Ashenvale."
+   "answer": "Kelm Hargunth is stationed at Mor'shan Base Camp on the far northern edge of the Barrens. The camp lies beside the rampart divide leading into Ashenvale."
   },
   {
    "q": "What faction does Kelm Hargunth serve?",
@@ -57,7 +57,7 @@
     "kelm care package",
     "warsong care package"
    ],
-   "answer": "Kelm Hargunth offers Basic, Standard, and Advanced Care Packages to frontline fighters. They contain battlefield sundries, bandages, and rations for Horde combatants in the gulch."
+   "answer": "Kelm Hargunth offers Basic, Standard, and Advanced Care Packages to frontline fighters. They hold battlefield sundries, bandages, and rations for Horde combatants in the gulch."
   },
   {
    "q": "Why is Mor'shan Base Camp so important to the Warsong?",
@@ -66,7 +66,7 @@
     "morshan purpose",
     "base camp lore"
    ],
-   "answer": "Mor'shan Base Camp is a fortified staging ground and checkpoint between the Barrens and Ashenvale. It lets the Warsong clan move supplies, reinforcements, and harvested timber safely into Horde lands."
+   "answer": "Mor'shan Base Camp is a fortified staging ground and checkpoint between the Barrens and Ashenvale. From there, the Warsong clan moves supplies, reinforcements, and harvested timber safely into Horde lands."
   },
   {
    "q": "What kind of gear does Kelm Hargunth provide?",
@@ -75,17 +75,17 @@
     "warsong rewards",
     "what does kelm sell"
    ],
-   "answer": "Kelm Hargunth provides proven fighters with Warsong battle tabards, specialized weapons such as the Scout's Blade and Legionnaire's Sword, tailored armor sets, rings, and battlefield draughts for close-quarters skirmishing."
+   "answer": "Kelm Hargunth provides proven fighters with Warsong battle tabards, special weapons such as the Scout's Blade and Legionnaire's Sword, tailored armor sets, rings, and battlefield draughts for close-quarters skirmishing."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As a Horde soldier, you can take up arms against the night elves in Warsong Gulch, and Kelm Hargunth provides the tools of war."
+   "text": "As a Horde soldier, you can fight the night elves in Warsong Gulch. Kelm Hargunth provides the tools of war."
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, you see Grom Hellscream's legacy in Ashenvale carried on as Hargunth keeps the Warsong clan armed and fed."
+   "text": "As an orc, you see Grom Hellscream's legacy carried on in Ashenvale as Hargunth keeps the Warsong clan armed and fed."
   },
   {
    "target": "class:Warrior",
@@ -110,5 +110,5 @@
  "attribution": [
   "Kelm Hargunth"
  ],
- "style": 1
+ "style": 2
 }

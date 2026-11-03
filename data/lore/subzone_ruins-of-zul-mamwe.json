@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Ruins of Zul'Mamwe"
  },
- "summary": "Tucked away in a mountainous pocket south of the Mosh'Ogg Ogre Mound, the Ruins of Zul'Mamwe serve as a heavily fortified stronghold for the Skullsplitter troll tribe. Enclosed by steep cliffs on almost all sides, the ancient stone platforms now teem with fierce jungle trolls under the rule of their ruthless chieftain, Ana'thek the Cruel.",
+ "summary": "Skullsplitter warriors hold the Ruins of Zul'Mamwe in central Stranglethorn Vale, south of the Mosh'Ogg Ogre Mound. Cliffs ring the ancient stone platforms on nearly every side, and Ana'thek the Cruel rules the stronghold.",
  "sections": [
   {
    "title": "Stronghold of the Skullsplitters",
-   "body": "The Ruins of Zul'Mamwe represent one of the primary seats of power for the Skullsplitter tribe in central Stranglethorn Vale. Cradled within a natural mountain amphitheater, the site has only a single open approach from the north, making it an exceptional defensive redoubt. From atop its weathered ziggurats and stone terraces, Chief Ana'thek the Cruel directs his warriors and witch doctors, defending their territory fiercely against both intruding adventurers and rival jungle troll tribes.",
+   "body": "In central Stranglethorn Vale, the Skullsplitters hold the Ruins of Zul'Mamwe as one of their chief seats of power. Mountains form a natural amphitheater around the site, open only to the north. From weathered ziggurats and stone terraces, Chief Ana'thek the Cruel directs his warriors and witch doctors. They defend their ground fiercely against intruders and rival jungle troll tribes.",
    "spoiler": 0
   },
   {
    "title": "Remnants of an Ancient Empire",
-   "body": "Like many of the stone settlements dotting the jungle, Zul'Mamwe is a relic of the ancient Gurubashi Empire that once held undisputed dominion over the southern reaches of the continent. Although the grand empire splintered long ago into squabbling, hostile factions, modern Skullsplitters fiercely guard these ancestral stones, continuing age-old tribal rituals amid the overgrown masonry and broken monoliths.",
+   "body": "Zul'Mamwe's stones come from the ancient Gurubashi Empire, which once ruled the southern reaches of the continent without rival. The empire broke apart long ago into hostile factions. Among the overgrown masonry and broken monoliths, the Skullsplitters guard these ancestral stones and keep their age-old tribal rituals.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "zul'mamwe trolls",
     "who owns zul'mamwe"
    ],
-   "answer": "The ruins are held by the Skullsplitter troll tribe, one of the two dominant and aggressive jungle troll tribes in Stranglethorn Vale. They are commanded on-site by their chieftain, Ana'thek the Cruel."
+   "answer": "The Skullsplitter troll tribe holds the ruins, one of Stranglethorn Vale's two dominant and aggressive jungle troll tribes. Their chieftain, Ana'thek the Cruel, commands them there."
   },
   {
    "q": "Where is Zul'Mamwe located?",
@@ -37,7 +37,7 @@
     "zul'mamwe location",
     "where is it"
    ],
-   "answer": "Zul'Mamwe is located in central Stranglethorn Vale, just south of the Mosh'Ogg Ogre Mound. The encampment is enclosed by towering mountains on nearly every side, accessible primarily through a valley pass to the north."
+   "answer": "Zul'Mamwe lies in central Stranglethorn Vale, just south of the Mosh'Ogg Ogre Mound. Mountains ring the encampment on nearly every side, with a valley pass to the north as its main approach."
   },
   {
    "q": "Why are the Skullsplitters hostile to travelers?",
@@ -45,7 +45,7 @@
     "why do trolls attack",
     "skullsplitter hostility"
    ],
-   "answer": "The Skullsplitter tribe is fiercely isolationist and hostile to outsiders, seeing all other races and rival troll tribes as trespassers on their ancestral lands. Led by the merciless Ana'thek the Cruel, they attack anyone who approaches their jungle sanctuary."
+   "answer": "The Skullsplitters are fiercely isolationist and hostile to outsiders. They see all other races and rival troll tribes as trespassers on their ancestral lands, and Ana'thek the Cruel leads them against anyone who approaches their jungle sanctuary."
   },
   {
    "q": "What is the history behind these ruins?",
@@ -54,13 +54,13 @@
     "who built zul'mamwe",
     "zul'mamwe lore"
    ],
-   "answer": "The stone structures of Zul'Mamwe date back to the height of the Gurubashi Empire. Following the empire's collapse into warring splinter factions, the Skullsplitters claimed the site as an inland base of operations, preserving its ancient stone terraces."
+   "answer": "Zul'Mamwe's stone structures date to the height of the Gurubashi Empire. After the empire collapsed into warring splinter factions, the Skullsplitters claimed the site as an inland base of operations and kept its ancient stone terraces."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For Darkspear trolls aligned with the Horde, Zul'Mamwe stands as a sobering reminder of the savage, insular ways of their jungle kin who refused to abandon bloodthirsty traditions and adapt to the wider world."
+   "text": "As a Darkspear troll of the Horde, you may see Zul'Mamwe as a reminder of jungle kin who clung to savage, insular ways. They kept bloodthirsty traditions and refused to adapt to the wider world."
   }
  ],
  "keywords": [
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Ruins of Zul'Mamwe"
- ]
+ ],
+ "style": 2
 }

@@ -10,16 +10,16 @@
    "quest:857"
   ]
  },
- "summary": "At Bael Modan in the southern Barrens, dwarven excavators have unearthed the Tear of the Moons. Its strange power draws Feegly into obsession, while General Twinbraid fears what the crystal can do.",
+ "summary": "At Bael Modan in the southern Barrens, dwarven excavators have unearthed the Tear of the Moons. Its strange power grips Feegly, and General Twinbraid fears its influence.",
  "sections": [
   {
    "title": "A Unearthed Relic",
-   "body": "Dwarven excavators unearthed the Tear of the Moons during the first digging at Bael Modan. The crystal's strange radiance captivated the miners, especially Feegly. He claimed it gave him great strength, then grew unstable and turned against his comrades. General Twinbraid, commander of the expedition, feared the relic's influence and declared it cursed. He took the crystal and locked it in his personal strongbox at Bael'dun Keep. Then he cast Feegly out into the Barrens.",
+   "body": "Dwarven excavators found the Tear of the Moons during the first digging at Bael Modan. Its strange light captivated the miners, especially Feegly. He said it gave him great strength, but soon grew unstable and turned against his comrades.\n\nGeneral Twinbraid, commander of the expedition, feared the relic's influence and called it cursed. He took the crystal and locked it in his personal strongbox at Bael'dun Keep. Then he cast Feegly out into the Barrens.",
    "spoiler": 0
   },
   {
    "title": "The Price of Obsession",
-   "body": "Exiled Feegly cannot master his craving for the crystal's power. He asks passing Horde travelers to help break into the dwarven fortress and take it from Twinbraid's vault. When Feegly gets the Tear and rubs it, strange grunts escape him. The crystal falls from his hands and shatters on the ground. Feegly turns into a trogg and dies shortly afterward.",
+   "body": "Exiled Feegly cannot master his craving for the crystal's power. He asks passing Horde travelers to help break into the dwarven fortress and take it from Twinbraid's vault.\n\nWhen Feegly gets the Tear and rubs it, strange grunts escape him. The crystal falls from his hands and shatters on the ground. Feegly turns into a trogg and dies shortly afterward.",
    "spoiler": 1
   }
  ],
@@ -94,5 +94,5 @@
   "Tear of the Moons",
   "The Tear of the Moons"
  ],
- "style": 1
+ "style": 2
 }

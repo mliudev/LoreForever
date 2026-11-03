@@ -7,26 +7,26 @@
  "meta": {
   "wiki": "Horde"
  },
- "summary": "The Horde is a coalition of outcast nations united under Warchief Thrall to secure their mutual survival and freedom. Anchored by the shamanic bond of the orcs, Darkspear trolls, and tauren across Kalimdor, the faction also maintains an uneasy alliance of convenience with the Forsaken in Lordaeron. Beset by historical grievances and hostile neighbors, the Horde values strength, action, and honor over political maneuverings.",
+ "summary": "Across Kalimdor and Lordaeron, the Horde seeks survival and freedom under warchief thrall. Orcs, Darkspear trolls, and tauren share shamanic bonds, while the Forsaken keep an uneasy place among them. Old grievances and hostile neighbors test a people who prize strength, action, and honor over political maneuvering.",
  "sections": [
   {
    "title": "A Reborn Union",
-   "body": "The modern Horde bears little resemblance to the demonic army that marched through the Dark Portal in the First and Second Wars. After shattering the Burning Legion's grasp upon his people, Warchief Thrall led the orcs across the Great Sea to Kalimdor to build a spiritual homeland founded on ancestral traditions and honor. Along the way, Thrall forged lasting ties with Vol'jin's displaced Darkspear trolls and Cairne Bloodhoof's tauren tribes, fighting side by side to drive off centaur and demonic incursions during the Third War.",
+   "body": "The Horde that stands now has left behind the demonic army that crossed the Dark Portal in the First and Second Wars. After freeing his people from the Burning Legion, warchief thrall led the orcs across the Great Sea to Kalimdor.\n\nThere they sought a spiritual homeland shaped by ancestral traditions and honor. Along the way, Thrall formed lasting ties with Vol'jin's displaced Darkspear trolls and Cairne Bloodhoof's tauren. Together, they fought centaur and demonic incursions during the Third War.",
    "spoiler": 0
   },
   {
    "title": "The Kalimdor Core",
-   "body": "In Kalimdor, the orcs carved out the nation of Durotar and built the fortress capital of Orgrimmar, offering the Darkspear refuge upon the nearby Echo Isles. Just south, in the lush plains of Mulgore, the nomadic tauren unified around Thunder Bluff under High Chieftain Cairne Bloodhoof. Sharing shamanic reverence, a deep bond with nature, and mutual survival needs, these three races view each other not as tactical assets, but as an enduring family bound by spilled blood and spiritual respect.",
+   "body": "In Kalimdor, the orcs founded Durotar and raised Orgrimmar as its fortress capital. They gave the Darkspear refuge on the nearby Echo Isles. Farther south, the nomadic tauren gathered across Mulgore's plains around Thunder Bluff under high chieftain cairne bloodhoof. These three peoples share shamanic reverence, a deep bond with nature, and the need to survive. Bloodshed and spiritual respect have bound them as family, not merely allies of convenience.",
    "spoiler": 0
   },
   {
    "title": "An Alliance of Convenience",
-   "body": "Across the sea in the ruined lands of Lordaeron, Lady Sylvanas Windrunner led the free-willed Forsaken out of the Scourge's grasp. Desperate for allies against surviving human factions and remnants of the Scourge, Sylvanas sought a place within the Horde. Tauren elders argued the undead might yet be redeemed, and Thrall admitted the Forsaken into the Horde, establishing a vital military outpost in the Eastern Kingdoms despite persistent misgivings among Kalimdor's ranks.",
+   "body": "Across the sea, in Lordaeron's ruined lands, lady sylvanas windrunner led the free-willed Forsaken out of the Scourge's grasp. Human factions and Scourge remnants still opposed them, so Sylvanas sought a place in the Horde. Tauren elders argued that the undead might yet be redeemed. Thrall accepted the Forsaken, giving the Horde a vital military outpost in the Eastern Kingdoms, though many in Kalimdor had misgivings.",
    "spoiler": 0
   },
   {
    "title": "A Cold War",
-   "body": "Despite Thrall's hopes to build an enduring peace with the Alliance, the legacy of the Old Horde casts an inescapable shadow. To human and dwarven eyes, orcs remain bloodthirsty invaders, and undead can never be trusted. Clashes over vital lumber in Ashenvale and skirmishes along territorial borders have plunged both factions into a tense, fragile cold war. Thrall actively directs campaigns against demon cults like the Burning Blade to prove the Horde has severed ties with the Legion, but deep-seated hatred threatens to reignite all-out war at any spark.",
+   "body": "Thrall hopes to preserve peace with the Alliance, but the Old Horde's legacy still casts a shadow. To humans and dwarves, orcs remain bloodthirsty invaders, and the undead cannot be trusted.\n\nClashes over Ashenvale's vital lumber and skirmishes along territorial borders have left both factions in a tense, fragile cold war. Thrall directs campaigns against demon cults such as the Burning Blade to prove the Horde has broken with the Legion. Deep hatred still threatens to ignite all-out war at any spark.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "how is this horde different",
     "is this the same horde"
    ],
-   "answer": "The Old Horde was a blood-crazed conqueror host manipulated by the Burning Legion into invading Azeroth during the First and Second Wars. The New Horde, founded by Warchief Thrall, rejected demonic corruption, returned to ancestral shamanism, and reorganized as a defensive alliance of outcasts seeking survival, land, and spiritual renewal."
+   "answer": "The Old Horde was a blood-crazed conquering host manipulated by the Burning Legion into invading Azeroth during the First and Second Wars. Founded by warchief thrall, the New Horde rejected demonic corruption and returned to ancestral shamanism. It became a defensive alliance of outcasts seeking survival, land, and spiritual renewal."
   },
   {
    "q": "Who leads the Horde?",
@@ -47,7 +47,7 @@
     "horde warchief",
     "who rules the horde"
    ],
-   "answer": "The faction is led supreme by Warchief Thrall, based in the Valley of Wisdom within Orgrimmar. While Thrall directs the military and diplomatic affairs of the entire Horde, he relies on the counsel and leadership of High Chieftain Cairne Bloodhoof of the tauren, Shadow Hunter Vol'jin of the Darkspear, and Lady Sylvanas Windrunner of the Forsaken."
+   "answer": "warchief thrall leads the Horde from the Valley of Wisdom in Orgrimmar. He directs its military and diplomacy, with counsel and leadership from high chieftain cairne bloodhoof of the tauren, Shadow Hunter Vol'jin of the Darkspear, and lady sylvanas windrunner of the Forsaken."
   },
   {
    "q": "Why are the Forsaken part of the Horde?",
@@ -56,7 +56,7 @@
     "how did forsaken join horde",
     "tauren helped undead join"
    ],
-   "answer": "Surrounded by hostile Alliance remnants and the Scourge in Lordaeron, Sylvanas Windrunner sought allies to survive. Tauren elders argued that the Forsaken might yet be redeemed, and Thrall, though reluctant, accepted them, gaining the Horde a critical defensive foothold in the Eastern Kingdoms."
+   "answer": "With hostile Alliance remnants and the Scourge surrounding them in Lordaeron, lady sylvanas windrunner sought allies for survival. Tauren elders argued that the Forsaken might yet be redeemed, and Thrall accepted them despite his reluctance. In return, the Horde gained a critical defensive foothold in the Eastern Kingdoms."
   },
   {
    "q": "Where is the capital of the Horde?",
@@ -65,7 +65,7 @@
     "what is the horde main city",
     "where does thrall rule"
    ],
-   "answer": "The fortified city of Orgrimmar, built into the crags of northern Durotar in Kalimdor, serves as the Horde's administrative and military center. It houses Thrall's throne as well as enclaves for troll, tauren, and Forsaken delegates."
+   "answer": "Orgrimmar is the Horde's fortified capital and its center of government and war. Built into the crags of northern Durotar in Kalimdor, it holds Thrall's throne and enclaves for troll, tauren, and Forsaken delegates."
   },
   {
    "q": "Are the Horde and Alliance actively at war right now?",
@@ -74,7 +74,7 @@
     "horde alliance war classic",
     "is it peace or war"
    ],
-   "answer": "Formally, the factions exist under an uneasy truce negotiated following the Battle of Mount Hyjal. However, border conflicts over lumber in Ashenvale, territorial friction in the Alterac Mountains, and deep-seated historical hatred keep both sides locked in a simmering cold war marked by localized skirmishes."
+   "answer": "The Horde and Alliance live under an uneasy truce made after the Battle of Mount Hyjal. Fights over lumber in Ashenvale, territorial friction in the Alterac Mountains, and old hatred keep both sides in a simmering cold war of local skirmishes."
   },
   {
    "q": "Do all trolls belong to the Horde?",
@@ -83,29 +83,29 @@
     "are forest trolls horde",
     "trolls in horde"
    ],
-   "answer": "No. The Darkspear tribe is the primary troll member of the Horde, having sailed to Kalimdor with Thrall. Most other troll tribes across Azeroth are hostile, though certain groups, like the Revantusk tribe of the Hinterlands, maintain a separate pact of friendship and mutual defense without formally joining."
+   "answer": "No. The Darkspear tribe is the Horde's main troll member, having sailed to Kalimdor with Thrall. Most other troll tribes across Azeroth are hostile, though groups such as the Revantusk tribe of the Hinterlands keep separate pacts of friendship and mutual defense without formally joining."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "The New Horde is your people's path to redemption, casting off the legacy of the demon blood to reclaim ancestral shamanic honor under Thrall's banner."
+   "text": "The New Horde offers your people a path to redemption. Under Thrall's banner, you cast off the legacy of demon blood and reclaim ancestral shamanic honor."
   },
   {
    "target": "race:Tauren",
-   "text": "By standing shoulder-to-shoulder with the orcs during the centaur wars, the tribes preserved their sacred lands in Mulgore and found steadfast spiritual brothers."
+   "text": "You stood shoulder to shoulder with the orcs in the centaur wars. Together, you preserved your sacred lands in Mulgore and found steadfast spiritual brothers."
   },
   {
    "target": "race:Troll",
-   "text": "Rescued from destruction on their island home by Thrall's fleet, the Darkspear tribe pledged their spears and shadows to the survival of the Horde."
+   "text": "Thrall's fleet rescued your Darkspear tribe from destruction on its island home. Your people pledged their spears and shadows to the Horde's survival."
   },
   {
    "target": "race:Undead",
-   "text": "Forsaken membership within the Horde is a vital shield against the Living who would purge Lordaeron, though many in Kalimdor eye your methods with quiet caution."
+   "text": "Your place in the Horde shields the Forsaken from the Living who would purge Lordaeron. Many in Kalimdor regard your ways with quiet caution."
   },
   {
    "target": "faction:Alliance",
-   "text": "To human, dwarven, and elven eyes, the Horde remains an assembly of monstrous savages and treacherous corpses that cannot be trusted to keep any peace."
+   "text": "To human, dwarven, and elven eyes, the Horde remains a gathering of monstrous savages and treacherous corpses. They believe it cannot keep the peace."
   }
  ],
  "keywords": [
@@ -134,5 +134,6 @@
  ],
  "attribution": [
   "Horde"
- ]
+ ],
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Raene's Cleansing (7)",
   "chain": []
  },
- "summary": "At the hidden shrine in Ashenvale, Raene's Cleansing reaches a turning point. The Rod of Transformation is assembled and its magic restored, and you must return it to Shael'dryn at her moonwell sanctuary.",
+ "summary": "At the hidden shrine in Ashenvale, you have restored the Rod of Transformation. Now you must carry it back to Shael'dryn at her moonwell sanctuary.",
  "sections": [
   {
    "title": "A Restored Relic",
-   "body": "At the hidden shrine in Ashenvale, you have restored the Rod of Transformation. Its shaft, pommel, and glowing gem are joined, and the rod has been re-enchanted. Shael'dryn needs it for Raene's investigation of the furbolg attacks.",
+   "body": "You have restored the Rod of Transformation at the hidden shrine in Ashenvale. Its shaft, pommel, and glowing gem are joined, and its magic has been renewed. Shael'dryn needs the rod for Raene's investigation of the furbolg attacks.",
    "spoiler": 0
   },
   {
    "title": "Return to Shael'dryn",
-   "body": "Shael'dryn waits beside the forest moonwell, where she has guided the rod's restoration. You bring her the finished relic and confirm its magic has returned. Then the Sentinel defenders can take their next steps to protect their besieged homeland.",
+   "body": "Shael'dryn waits beside the forest moonwell where she guided the rod's restoration. You bring her the finished relic and confirm its magic has returned. Then the Sentinel defenders can take their next steps to protect their besieged homeland.",
    "spoiler": 0
   }
  ],
@@ -118,5 +118,5 @@
  "attribution": [
   "Raene's Cleansing (7)"
  ],
- "style": 1
+ "style": 2
 }

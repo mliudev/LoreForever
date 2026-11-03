@@ -18,16 +18,16 @@
   "wiki": null,
   "next": ""
  },
- "summary": "Fraggar Thundermantle, a Wildhammer, has already taken troll tribal necklaces from you once under this bounty. The offer stands for more, as long as you bring them five at a time.",
+ "summary": "For Fraggar Thundermantle, troll tribal necklaces still come in batches of five. The Wildhammer has already accepted one batch from you, and the offer remains open.",
  "sections": [
   {
    "title": "A Standing Offer",
-   "body": "Fraggar reminds you the first handing-over is behind you, yet more troll tribal necklaces are still welcome whenever you find them and choose to hand them over. Fraggar says those who fight for the Wildhammers will find the Wildhammers ready to fight for them in return. Fraggar counts a batch only when it holds five necklaces.",
+   "body": "Fraggar Thundermantle welcomes more troll tribal necklaces whenever you find them and choose to hand them over. He says the Wildhammers will fight for those who fight for them. Each batch must hold five necklaces.",
    "spoiler": 0
   },
   {
    "title": "Fraggar's Approval",
-   "body": "On delivery, Fraggar is plainly pleased, taking the necklaces as proof that you will get your hands dirty. Fraggar says that willingness is prized among the Wildhammers.",
+   "body": "Fraggar Thundermantle is pleased when you bring him the necklaces. To him, they prove you are willing to get your hands dirty, a quality the Wildhammers prize.",
    "spoiler": 1
   }
  ],
@@ -39,7 +39,7 @@
     "fraggar thundermantle role",
     "who takes the necklaces"
    ],
-   "answer": "Fraggar Thundermantle, who speaks as one of the Wildhammers."
+   "answer": "Fraggar Thundermantle speaks for the Wildhammers."
   },
   {
    "q": "How many troll tribal necklaces are needed?",
@@ -48,7 +48,7 @@
     "how many necklaces",
     "bounty requirement"
    ],
-   "answer": "Five at a time. Fraggar says five are needed for them to count."
+   "answer": "Five at a time. Fraggar counts a batch only when it holds five necklaces."
   },
   {
    "q": "Why does Fraggar Thundermantle collect these necklaces?",
@@ -57,7 +57,7 @@
     "wildhammer motive",
     "purpose of bounty"
    ],
-   "answer": "Fraggar treats them as a sign of willingness to fight for the Wildhammers, and says those who do will find the Wildhammers willing to fight for them."
+   "answer": "Fraggar treats the necklaces as proof that you are willing to fight for the Wildhammers. He says they will fight for those who do."
   },
   {
    "q": "What came before this bounty?",
@@ -66,7 +66,7 @@
     "previous step",
     "prior bounty"
    ],
-   "answer": "The first Troll Necklace Bounty, which you already completed for Fraggar Thundermantle."
+   "answer": "You already completed the first Troll Necklace Bounty for Fraggar Thundermantle."
   }
  ],
  "angles": [],
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Classic quest text: Troll Necklace Bounty"
- ]
+ ],
+ "style": 2
 }

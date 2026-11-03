@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Zalashji's Den"
  },
- "summary": "Zalashji's Den is a secluded cave tucked along the eastern coast of Tanaris. It serves as the solitary lair of Zalashji, an enigmatic naga who dwells far from the typical gathering grounds of his serpentine kin.",
+ "summary": "Along Tanaris's eastern shore, Zalashji keeps to a lonely cave in the bluffs.",
  "sections": [
   {
    "title": "A Solitary Lair",
-   "body": "Carved into the rugged bluffs along the eastern shoreline of Tanaris, this coastal cavern provides shelter to a single inhabitant: Zalashji. Naga are known across Kalimdor to gather in disciplined war parties or coastal outposts, yet Zalashji resides here entirely alone. Little is known about why he made this isolated cave his domain, far removed from the primary settlements and desert ruins of the region, but any traveler venturing along the surf should approach the cave mouth with caution.",
+   "body": "Zalashji lives alone in a cave on Tanaris's eastern shore. While naga across Kalimdor gather in war parties or coastal outposts, he has made his home in this isolated cavern, far from the region's settlements and desert ruins. Travelers following the surf should approach the cave mouth with caution. Why Zalashji chose this place is unknown.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is zalashji den",
     "zalashji cave"
    ],
-   "answer": "The cave is located on the eastern coastline of Tanaris, recessed into the rocky bluffs that border the ocean waters."
+   "answer": "Zalashji's Den lies in the rocky bluffs beside the ocean on Tanaris's eastern coast."
   },
   {
    "q": "Who is Zalashji?",
@@ -32,7 +32,7 @@
     "zalashji lore",
     "what is zalashji"
    ],
-   "answer": "Zalashji is an individual naga who makes this isolated coastal cavern his home, lingering along the desert shore away from larger naga forces."
+   "answer": "Zalashji is a naga who lives alone in a coastal cave, apart from larger naga forces."
   },
   {
    "q": "Are there any quests associated with this cave?",
@@ -41,7 +41,7 @@
     "is there a quest here",
     "zalashji quest"
    ],
-   "answer": "There are no known quests directing adventurers to Zalashji's Den. It remains a curious landmark for coastal explorers traveling the eastern perimeter of Tanaris."
+   "answer": "No known tasks lead adventurers to Zalashji's Den. The cave remains a landmark for travelers along Tanaris's eastern shore."
   },
   {
    "q": "Why is a naga living alone in Tanaris?",
@@ -50,13 +50,13 @@
     "naga in tanaris",
     "why is zalashji here"
    ],
-   "answer": "His true motives remain unknown. While naga generally congregate near sunken ruins or organized encampments, Zalashji keeps to himself in this solitary seaside lair."
+   "answer": "Zalashji's motives are unknown. Naga usually gather near sunken ruins or in organized encampments, while he lives alone in a seaside cave."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the night elves, any presence of the cursed, mutated naga on Kalimdor's shores is a grim reminder of the ancient Highborne and the Sundering."
+   "text": "As a night elf, the cursed and mutated naga along Kalimdor's shores recall the ancient Highborne and the Sundering."
   }
  ],
  "keywords": [
@@ -73,5 +73,6 @@
  ],
  "attribution": [
   "Zalashji's Den"
- ]
+ ],
+ "style": 2
 }

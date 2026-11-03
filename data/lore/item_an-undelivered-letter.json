@@ -10,16 +10,16 @@
    "quest:70"
   ]
  },
- "summary": "Long-forgotten mail lies in Goldshire's Lion's Pride Inn, carrying a critical clue to Stalvan Mistmantle's past.",
+ "summary": "In Goldshire, an old letter waits in the Lion's Pride Inn, carrying a clue to Stalvan Mistmantle's past.",
  "sections": [
   {
    "title": "A Midnight Flight",
-   "body": "Years ago, a storm sent a traveling courier to the Lion's Pride Inn for shelter. Near midnight, the frightened messenger fled downstairs in his sleeping clothes and vanished into the pouring rain, never to return. On the second floor, he left a chest of belongings, including a letter from Stalvan Mistmantle addressed to an estate in Stormwind City's Canal District.",
+   "body": "Years ago, a storm drove a traveling courier to the Lion's Pride Inn for shelter. Near midnight, fear sent the messenger downstairs in his sleeping clothes and out into the pouring rain. He vanished and never returned. In an upstairs chest, he left his belongings and a letter from Stalvan Mistmantle addressed to an estate in Stormwind City's Canal District.",
    "spoiler": 0
   },
   {
    "title": "Tracing the Scholar",
-   "body": "The unopened letter lay untouched in the inn's upper rooms until modern investigators began retracing Stalvan's steps through Elwynn Forest. Taking the lost parchment to Caretaker Folsom in the capital carries the mystery from the inn's quiet halls to the heart of Stormwind.",
+   "body": "In the inn's upper rooms, the unopened letter remained untouched for years. Now investigators retrace Stalvan's steps through Elwynn Forest. Taking the parchment to Caretaker Folsom in the capital carries the mystery from the inn to the heart of Stormwind.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "storage chest location",
     "lion's pride chest"
    ],
-   "answer": "The letter rests in a storage chest on the second floor of Goldshire's Lion's Pride Inn, at the foot of a bed in one of the guest rooms."
+   "answer": "The letter rests in a storage chest on the second floor of Goldshire's Lion's Pride Inn, at the foot of a bed in a guest room."
   },
   {
    "q": "Why was the letter never delivered?",
@@ -40,7 +40,7 @@
     "what happened to the messenger",
     "courier fled"
    ],
-   "answer": "The courier carrying the letter took shelter at the Lion's Pride Inn during a rainstorm. Around midnight, he panicked, ran downstairs in his nightclothes, and vanished into the storm, leaving his chest and its contents behind."
+   "answer": "During a rainstorm, the courier carrying the letter took shelter at the Lion's Pride Inn. Around midnight, he panicked, ran downstairs in his nightclothes, and vanished into the storm, leaving his chest and its contents behind."
   },
   {
    "q": "Who wrote this letter?",
@@ -64,7 +64,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Tracing the courier's forgotten route leads investigators from Goldshire's pastoral heart to Stormwind City's upper-class quarters."
+   "text": "For Alliance investigators, the courier's forgotten route runs from Goldshire's pastoral heart to Stormwind City's upper-class quarters."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
   "An Undelivered Letter",
   "The Legend of Stalvan (5)"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:2459"
   ]
  },
- "summary": "On Teldrassil, Tallonkai's Jewel is lost from its druidic talisman. Ferocitas the Dream Eater prizes the emerald, which is needed to mend the Emerald Dreamcatcher.",
+ "summary": "On Teldrassil, the jewel is missing from Tallonkai's druidic talisman. Ferocitas the Dream Eater prizes the emerald, needed to mend the Emerald Dreamcatcher.",
  "sections": [
   {
    "title": "A Stolen Core",
-   "body": "Tallonkai Swiftroot received the Emerald Dreamcatcher from Gaerolas Talvethen, warden of the druids in the Ban'ethil Barrow Den. The talisman is a powerful focus that draws energy from the Emerald Dream. When it was damaged, someone pried its radiant central emerald free and carried it into eastern Teldrassil. Ferocitas the Dream Eater, a corrupted Gnarlpine leader, took the jewel and made it into a necklace. Its green light glimmered in the forest gloom, but its harmony with the Emerald Dream meant nothing to the furbolg. To Ferocitas, it was only a trophy until it could be recovered.",
+   "body": "Tallonkai Swiftroot received the Emerald Dreamcatcher from Gaerolas Talvethen, warden of the druids in the Ban'ethil Barrow Den. The talisman is a powerful focus that draws energy from the Emerald Dream. When it was damaged, someone pried out its radiant central emerald and carried it into eastern Teldrassil.\n\nFerocitas the Dream Eater, a corrupted Gnarlpine, took the jewel and made it into a necklace. Its green light glimmered in the forest gloom, but the furbolg cared nothing for its harmony with the Emerald Dream. To Ferocitas, it was only a trophy until it could be recovered.",
    "spoiler": 0
   }
  ],
@@ -25,7 +25,7 @@
     "what is the jewel",
     "tallonkai jewel lore"
    ],
-   "answer": "Tallonkai's Jewel is an enchanted emerald and the centerpiece of the Emerald Dreamcatcher, a druidic focus Gaerolas Talvethen gave to Tallonkai Swiftroot of Dolanaar."
+   "answer": "Tallonkai's Jewel is an enchanted emerald at the heart of the Emerald Dreamcatcher, a druidic focus Gaerolas Talvethen gave to Tallonkai Swiftroot of Dolanaar."
   },
   {
    "q": "Who stole Tallonkai's Jewel?",
@@ -50,7 +50,7 @@
     "what happens to the jewel",
     "repairing dreamcatcher"
    ],
-   "answer": "The jewel goes back to Tallonkai Swiftroot on Dolanaar's upper tier, where he uses it to mend and fully restore the Emerald Dreamcatcher."
+   "answer": "The jewel returns to Tallonkai Swiftroot on Dolanaar's upper tier. There he uses it to mend and fully restore the Emerald Dreamcatcher."
   }
  ],
  "angles": [
@@ -85,5 +85,5 @@
   "Tallonkai's Jewel",
   "Ferocitas the Dream Eater (quest)"
  ],
- "style": 1
+ "style": 2
 }

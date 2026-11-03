@@ -10,16 +10,16 @@
    "quest:1740"
   ]
  },
- "summary": "In Blackfathom Deeps, cultists hold shards of Soran'ruk, a shattered prison orb. The pieces still carry fel energy from the demon once bound inside.",
+ "summary": "In Blackfathom Deeps, cultists draw on shards of Soran'ruk, a shattered prison orb. The pieces still hold fel energy from the demon once bound within.",
  "sections": [
   {
    "title": "A Shattered Prison",
-   "body": "Soran'ruk's prison orb was broken apart after the demon fell from favor with the Burning Legion. Demons who displease their masters may have their spirits sealed in orbs, then given to fel spellcasters as sources of power. The Twilight's Hammer cultists in the submerged ruins of Blackfathom Deeps possess smaller shards from one half of the orb. They draw on the lingering demonic essence for their own workings.",
+   "body": "Soran'ruk's prison orb was shattered after its demon fell from favor with the Burning Legion. Demons who displease their masters may have their spirits sealed in orbs, then given to fel spellcasters as sources of power. In the submerged ruins of Blackfathom Deeps, Twilight's Hammer cultists possess smaller shards from one half of the orb. They draw on the lingering demonic essence for their own workings.",
    "spoiler": 0
   },
   {
    "title": "Reconstruction in the Barrens",
-   "body": "Each fragment still holds a trace of the imprisoned demon's vitality. Doan Karhan, a reclusive scholar in the southern Barrens, has spent a lifetime studying demonic vessels and owns a similar orb, the Orb of Zargain. An ambitious warlock can bring him three small fragments and the larger piece held in Silverpine. He can forge the relic whole again as an instrument of power.",
+   "body": "Each fragment holds a trace of the imprisoned demon's vitality. Doan Karhan, a reclusive scholar in the southern Barrens, has spent a lifetime studying demonic vessels. He owns a similar orb, the Orb of Zargain. An ambitious warlock can bring him three small fragments and the larger piece held in Silverpine. Doan can forge the relic whole again as an instrument of power.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "soran'ruk lore",
     "is soranruk a demon"
    ],
-   "answer": "Soran'ruk was a demon of the Burning Legion who fell from favor with its leaders. As punishment, its spirit was drawn out and trapped in a crystalline orb, where it served mortal warlocks and mages as a source of energy."
+   "answer": "Soran'ruk was a demon of the Burning Legion who fell from favor with its leaders. As punishment, its spirit was drawn out and trapped in a crystalline orb. Mortal warlocks and mages used the orb as a source of energy."
   },
   {
    "q": "Where are these fragments found?",
@@ -48,7 +48,7 @@
     "why do cultists have it",
     "twilights hammer soranruk"
    ],
-   "answer": "The Twilight's Hammer cultists gather the shards because they retain the trapped demon's magical essence. They use corrupt artifacts to fuel their dark rituals and channel forbidden magic."
+   "answer": "Twilight's Hammer cultists gather the shards for the trapped demon's magical essence. They use corrupt artifacts to fuel their dark rituals and channel forbidden magic."
   },
   {
    "q": "Who can restore the Orb of Soran'ruk?",
@@ -57,7 +57,7 @@
     "where to turn in soranruk fragment",
     "doan karhan orb"
    ],
-   "answer": "Doan Karhan can restore the Orb of Soran'ruk. The solitary hermit lives in the southern Barrens near the border of Thousand Needles and studies and reforges the Burning Legion's demonic orbs."
+   "answer": "Doan Karhan can restore the Orb of Soran'ruk. The solitary hermit lives in the southern Barrens near the border of Thousand Needles. He studies and reforges the Burning Legion's demonic orbs."
   }
  ],
  "angles": [
@@ -89,5 +89,5 @@
   "Soran'ruk Fragment",
   "The Orb of Soran'ruk"
  ],
- "style": 1
+ "style": 2
 }

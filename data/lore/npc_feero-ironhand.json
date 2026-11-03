@@ -8,11 +8,11 @@
   "wiki": "Feero Ironhand",
   "refs": 1
  },
- "summary": "At Maestra's Post, Feero Ironhand guards the road between Darkshore and Ashenvale. He works with Delgren the Purifier against the Cult of the Dark Strand.",
+ "summary": "At Maestra's Post, Feero Ironhand keeps watch over the road from Darkshore into Ashenvale. He works with Delgren the Purifier against the Cult of the Dark Strand.",
  "sections": [
   {
    "title": "A Bulwark at Maestra's Post",
-   "body": "Maestra's Post watches the road south from Darkshore into Ashenvale. Feero Ironhand serves at the outpost, keeping communication and trade with Auberdine moving while watching the surrounding woods. He and Delgren the Purifier oppose the Cult of the Dark Strand. Cultists and forest predators threaten the path between Darnassus's supply lines and Ashenvale's front lines.",
+   "body": "Maestra's Post guards the road south from Darkshore into Ashenvale. Feero Ironhand keeps communication and trade with Auberdine moving while he watches the surrounding woods. He and Delgren the Purifier oppose the Cult of the Dark Strand. Cultists and forest predators threaten the route between Darnassus's supply lines and Ashenvale's front lines.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "feero role",
     "maestras post human"
    ],
-   "answer": "Feero helps defend Maestra's Post against local threats. He supports Delgren the Purifier against the Cult of the Dark Strand and helps keep courier and supply routes into Darkshore open."
+   "answer": "Feero helps defend Maestra's Post from local threats. He supports Delgren the Purifier against the Cult of the Dark Strand and helps keep courier and supply routes into Darkshore open."
   },
   {
    "q": "What is the Cult of the Dark Strand?",
@@ -82,5 +82,5 @@
  "attribution": [
   "Feero Ironhand"
  ],
- "style": 1
+ "style": 2
 }

@@ -23,21 +23,21 @@
    "Call of Fire (5)"
   ]
  },
- "summary": "Atop Durotar's peaks, a shaman faces the trial that attunes them to fire. Telf Joolam guides the initiate to drink fire sapta, confront a Minor Manifestation of Fire, and claim its glowing ember to light the ceremonial torch.",
+ "summary": "On Durotar's peaks, Call of Fire puts a shaman to a trial of flame. Telf Joolam sends the initiate to drink fire sapta, face a Minor Manifestation of Fire, and claim its ember.",
  "sections": [
   {
    "title": "Eyes of the Flame",
-   "body": "Fire spirits hide from untrained eyes on Durotar's summit. To see them, you drink fire sapta, a draught made from reagents gathered across the barrens and coast. It sharpens your senses to the unseen, revealing minor spirits and manifestations among the summit crags.",
+   "body": "On Durotar's summit, fire spirits remain hidden from untrained eyes. Drink fire sapta, a draught made from reagents gathered across the barrens and coast, and your senses sharpen to the unseen. Minor spirits and manifestations appear among the summit crags.",
    "spoiler": 0
   },
   {
    "title": "Confronting the Manifestation",
-   "body": "A Minor Manifestation of Fire waits atop the mountain. Once the sapta takes hold, the spirit knows you can see it and awaits your challenge. Fire answers strength and decisive action, so you strike without delay. The longer the fight lasts, the more fiercely the elemental fire burns.",
+   "body": "A Minor Manifestation of Fire waits atop the mountain. Once the sapta takes hold, it knows you can see it and awaits your challenge. Fire answers strength and decisive action, so strike without delay. The longer the fight lasts, the more fiercely the elemental fire burns.",
    "spoiler": 0
   },
   {
    "title": "The Brazier of the Dormant Flame",
-   "body": "After the manifestation falls, you claim its lingering heat as a glowing ember. At the summit shrine, you place the ember in the Brazier of the Dormant Flame. The inscribed metal stays cool beneath Durotar's sun and winds until the ember meets the bowl. Then a white-hot blaze kindles the ritual torch.",
+   "body": "After the manifestation falls, you claim its lingering heat as a glowing ember. At the summit shrine, place it in the Brazier of the Dormant Flame. The inscribed metal stays cool beneath Durotar's sun and winds until the ember meets the bowl. Then white-hot flame kindles the ritual torch.",
    "spoiler": 1
   }
  ],
@@ -58,7 +58,7 @@
     "why sapta",
     "cant see fire elemental"
    ],
-   "answer": "You drink fire sapta to see and touch the fire elementals gathered atop the mountain, normally beyond mortal sight."
+   "answer": "You drink fire sapta to see and touch the fire elementals atop the mountain, normally beyond mortal sight."
   },
   {
    "q": "Where is the Minor Manifestation of Fire found?",
@@ -85,7 +85,7 @@
     "manifestation scaling",
     "swift strike fire"
    ],
-   "answer": "Fire gathers strength and burns hotter as time passes. You strike decisively, since hesitation lets the spirit grow stronger."
+   "answer": "Fire gathers strength and burns hotter as time passes. Strike decisively, since hesitation lets the spirit grow stronger."
   },
   {
    "q": "What happens after the brazier is lit?",
@@ -94,17 +94,17 @@
     "next quest call of fire",
     "where to take lit torch"
    ],
-   "answer": "Lighting the brazier kindles the ceremonial torch. You carry its sacred flame down the mountain to complete your Fire Totem."
+   "answer": "Lighting the brazier kindles the ceremonial torch. Carry its sacred flame down the mountain to complete your Fire Totem."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you learn that fire is volatile and destructive, unlike solid, unyielding earth. It consumes an indecisive caller, so you need focus and authority to master it."
+   "text": "As a shaman, you learn that fire is volatile and destructive, unlike solid, unyielding earth. It consumes an indecisive caller, so focus and authority are needed to master it."
   },
   {
    "target": "faction:Horde",
-   "text": "As a Horde shaman, you join orc and troll shamans who climb Durotar's red crags to prove their communion with the land's fiery spirits."
+   "text": "As a Horde shaman, you join orc and troll shamans climbing Durotar's red crags to prove their communion with the land's fiery spirits."
   }
  ],
  "keywords": [
@@ -126,5 +126,5 @@
  "attribution": [
   "Call of Fire (4)"
  ],
- "style": 1
+ "style": 2
 }

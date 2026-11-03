@@ -24,16 +24,16 @@
   ],
   "category": "Searing Gorge"
  },
- "summary": "A spirit held in a cage in Searing Gorge, Zamael Lunthistle, asks if you will help him. He has not had visitors in many years, and first wants you to hear his tale.",
+ "summary": "In Searing Gorge, Zamael Lunthistle waits in a cage and asks for your help. Many years have passed since anyone visited him, and first he asks you to hear his tale.",
  "sections": [
   {
    "title": "A Spirit in a Cage",
-   "body": "Zamael Lunthistle greets you with a praise to Elune and says that many years have passed since anyone visited him. He asks if you will help, and begins with a request that you hear his tale.",
+   "body": "Zamael Lunthistle greets you with praise to Elune. Many years have passed since anyone came to visit him. Now he asks for your help. First, hear his tale.",
    "spoiler": 0
   },
   {
    "title": "Zamael's Tale",
-   "body": "Zamael was a young night elf from Darkshore when he fell in with the Twilight's Hammer, who befriended him and turned him from Elune. A vision from Elune woke him from the malaise of following the old gods, and in repentance he etched his sorrow into a tablet of pure gold as a prayer to Elune. The Twilight's Hammer found the tablet, branded him a blasphemer and had him executed, his prayer unfinished. He is now bound to the world as a spirit and held in the cage as a warning to all who would betray the Twilight's Hammer's faith. Zamael has accepted his fate, but says the prayer must be found.",
+   "body": "As a young night elf from Darkshore, Zamael fell under the Twilight's Hammer's influence and turned from Elune. Then a vision from Elune woke him from his malaise as a follower of the old gods. In repentance, he carved his sorrow into a tablet of pure gold as a prayer to Elune.\n\nThe Twilight's Hammer found the tablet and branded him a blasphemer. They had him executed before his prayer was finished. Now Zamael's spirit is bound to the world and held in a cage as a warning to those who would betray the Twilight's Hammer's faith. He has accepted his fate, but the prayer must still be found.",
    "spoiler": 1
   }
  ],
@@ -53,7 +53,7 @@
     "what does zamael want",
     "zamael request"
    ],
-   "answer": "He asks if you will assist him, and first that you hear his tale."
+   "answer": "Zamael asks for your help. First, he asks you to hear his tale."
   },
   {
    "q": "What comes after hearing Zamael's tale?",
@@ -61,7 +61,7 @@
     "next step prayer to elune",
     "prayer to elune chain"
    ],
-   "answer": "A second part of Prayer to Elune follows, again with Zamael."
+   "answer": "After hearing Zamael's tale, you can hear its second part from him."
   }
  ],
  "angles": [],
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Prayer to Elune (Classic)"
- ]
+ ],
+ "style": 2
 }

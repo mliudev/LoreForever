@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Nightsong Woods"
  },
- "summary": "In eastern Ashenvale, Nightsong Woods runs from Raynewood Retreat toward Azshara. Night elves and the Warsong clan fight over the forest as the Horde harvests lumber, while demonic corruption lingers among its groves.",
+ "summary": "In eastern Ashenvale, Nightsong Woods is a forest where night elves and the Warsong clan fight over lumber and old corruption lingers.",
  "sections": [
   {
    "title": "A Forest Carved by War",
-   "body": "Nightsong Woods is Ashenvale’s eastern battleground. The Falfarren River cuts through its western reaches, marking a tense boundary between Alliance settlements and Horde incursions. Farther east, Splintertree Post directs Horde campaigns against the Silverwing Sentinels. Warsong orcs fell the southern groves for lumber to fuel the Horde’s expansion, angering the Kaldorei. Satyr strongholds at Satyrnaar and Xavian, along with demonic remnants at Demon Fall Canyon and Felfire Hill, taint the eastern forest.",
+   "body": "Nightsong Woods is Ashenvale’s eastern battleground. The Falfarren River cuts through the western forest, dividing Alliance settlements from Horde incursions. Farther east, Splintertree Post directs Horde campaigns against the Silverwing Sentinels.\n\nWarsong orcs fell the southern groves for lumber to fuel the Horde’s expansion, and the Kaldorei fight back. Satyr strongholds at Satyrnaar and Xavian taint the eastern forest, along with demonic remnants at Demon Fall Canyon and Felfire Hill.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "horde vs alliance ashenvale",
     "warsong conflict"
    ],
-   "answer": "The Silverwing Sentinels and the Warsong clan fight over this frontier. The Horde depends on dense timber from the southern trees to build and sustain its settlements, while night elves battle to halt the cutting and reclaim their ancestral land."
+   "answer": "The Silverwing Sentinels and the Warsong clan fight over this frontier. The Horde needs timber from the southern trees to build and sustain its settlements, while night elves fight to halt the cutting and reclaim their ancestral land."
   },
   {
    "q": "Who controls Nightsong Woods?",
@@ -84,5 +84,5 @@
  "attribution": [
   "Nightsong Woods"
  ],
- "style": 1
+ "style": 2
 }

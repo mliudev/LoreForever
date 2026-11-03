@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Lost Fleet"
  },
- "summary": "The Lost Fleet lies broken off the Wetlands’ northern coast, along Baradin Bay. The Kul Tiras Third Fleet was destroyed in the Second War by red dragons enslaved by the Dragonmaw clan, and its wrecks are haunted by cursed undead sailors.",
+ "summary": "Off the Wetlands’ northern coast, the Lost Fleet lies broken in Baradin Bay. Red dragons enslaved by the Dragonmaw clan destroyed the Kul Tiras Third Fleet in the Second War. Now cursed undead sailors haunt its wrecks.",
  "sections": [
   {
    "title": "A Tragic End in the Second War",
-   "body": "On its last voyage in the Second War, the Kul Tiras Third Fleet came under attack from red dragons enslaved by the Dragonmaw clan. Dragonflame engulfed its ships, and the Wave Mistress and the Intrepid crashed onto the shallows and reefs of northern Bluegill Marsh. Almost the entire contingent drowned or burned. First Mate Fitzsimmons was the lone living survivor.",
+   "body": "The Wave Mistress and the Intrepid lie wrecked on the shallows and reefs of northern Bluegill Marsh. On the Third Fleet’s last voyage in the Second War, red dragons enslaved by the Dragonmaw clan attacked. Dragonflame engulfed the ships, and almost the entire contingent drowned or burned. First Mate Fitzsimmons was the lone living survivor.",
    "spoiler": 0
   },
   {
    "title": "The Curse of Paleth",
-   "body": "The sailors of the Third Fleet did not find rest in their watery grave. Deep in the Intrepid’s sunken cargo hold lay the Cursed Eye of Paleth, a forbidden artifact hoarded by the ship’s greedy commander, Captain Halyndor. The relic corrupted the drowned crews and bound their spirits to the broken timbers as raving, cursed undead. Only the ghost of First Mate Snellig retains any semblance of sanity. He wanders the marshy shore while his former crewmates lash out violently at anyone who comes near the wrecks.",
+   "body": "The sailors of the Third Fleet remain bound to their watery grave. In the Intrepid’s sunken cargo hold lies the Cursed Eye of Paleth, a forbidden artifact Captain Halyndor hoarded. The greedy commander’s relic corrupted the drowned crews and bound their spirits to the broken timbers as raving, cursed undead.\n\nOnly the ghost of First Mate Snellig retains any semblance of sanity. He wanders the marshy shore while his former crewmates lash out violently at anyone who comes near the wrecks.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "wetlands shipwrecks",
     "third fleet"
    ],
-   "answer": "The Lost Fleet is the wreckage of several Kul Tiras warships from the Third Fleet, lying off the Wetlands’ northern coast in Baradin Bay. Destroyed in the Second War, the ships are haunted by their undead crews."
+   "answer": "The Lost Fleet is the wreckage of several Kul Tiras warships from the Third Fleet, off the Wetlands’ northern coast in Baradin Bay. Destroyed in the Second War, the ships are haunted by their undead crews."
   },
   {
    "q": "How were these ships destroyed?",
@@ -62,7 +62,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The hulks remind the Alliance of the heavy toll Kul Tiras and the Alliance paid in the Second War. The fallen deserve respect, and their cursed torment must end."
+   "text": "The wrecks remind the Alliance of the heavy toll Kul Tiras and the Alliance paid in the Second War. The fallen deserve respect, and their cursed torment must end."
   },
   {
    "target": "profession:Blacksmithing",
@@ -96,5 +96,5 @@
  "attribution": [
   "Lost Fleet"
  ],
- "style": 1
+ "style": 2
 }

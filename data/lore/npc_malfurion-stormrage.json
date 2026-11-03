@@ -8,21 +8,21 @@
   "wiki": "Malfurion Stormrage",
   "refs": 4
  },
- "summary": "Malfurion Stormrage lies in a coma within the Emerald Dream, beyond the reach of his people. The first mortal druid and revered leader of the night elves beside High Priestess Tyrande Whisperwind, he helped defeat the Burning Legion in the War of the Ancients and the Third War. The kaldorei honor him as Shan'do, or honored teacher, and await his waking guidance.",
+ "summary": "In Darnassus, the kaldorei wait for Malfurion Stormrage to wake from his coma in the Emerald Dream. First among mortal druids, he helped defeat the Burning Legion in the War of the Ancients and the Third War. His people honor him as Shan'do, their honored teacher, and look to his return for guidance.",
  "sections": [
   {
    "title": "The First Druid",
-   "body": "Malfurion Stormrage turned from the arcane to nature ten thousand years ago. Before the Great Sundering broke ancient Kalimdor, he studied under the demigod Cenarius. As Queen Azshara and her Highborne delved into the Well of Eternity's arcane power, Malfurion became Azeroth's first mortal druid. His fears proved true when Azshara's sorcery tore open a way for Sargeras and the Burning Legion, beginning the War of the Ancients.",
+   "body": "Ten thousand years ago, Malfurion Stormrage turned from the arcane to nature. Before the Great Sundering broke ancient Kalimdor, he studied under Cenarius, the demigod. As Queen Azshara and her Highborne delved into the Well of Eternity's power, Malfurion became Azeroth's first mortal druid. He feared what that power could bring. His fears proved true when Azshara's sorcery opened a way for Sargeras and the Burning Legion, beginning the War of the Ancients.",
    "spoiler": 0
   },
   {
    "title": "Savior of Kalimdor",
-   "body": "Malfurion Stormrage helped drive the demons back and close the portal above the Well of Eternity. He fought beside Cenarius, Tyrande Whisperwind, and his twin brother Illidan. After the world shattered, Malfurion led the druids into the Emerald Dream to rebuild and protect Azeroth's living world. Ten thousand years later, Tyrande woke him to face Archimonde in the Third War. At Mount Hyjal, he rallied the forest spirits and shattered the Burning Legion once more.",
+   "body": "Malfurion Stormrage fought to drive the demons back and close the portal above the Well of Eternity. Cenarius, Tyrande Whisperwind, and his twin brother Illidan fought beside him. After the world shattered, he led the druids into the Emerald Dream to rebuild and protect Azeroth's living world.\n\nTen thousand years later, Tyrande woke Malfurion to face Archimonde in the Third War. At Mount Hyjal, he rallied the forest spirits and shattered the Burning Legion once more.",
    "spoiler": 0
   },
   {
    "title": "Lost to the Dream",
-   "body": "Malfurion Stormrage returned to sleep in Moonglade after the Third War, seeking the Emerald Dream and strength for his spent power. His spirit never returned to his body, leaving him in an unnatural coma. In Darnassus, Archdruid Fandral Staghelm carries the Cenarion Circle's duties of leadership. Tyrande and the sisterhood watch for their Shan'do to wake.",
+   "body": "After the Third War, Malfurion Stormrage returned to sleep in Moonglade, seeking the Emerald Dream and strength for his spent power. His spirit never returned to his body, leaving him in an unnatural coma. In Darnassus, Archdruid Fandral Staghelm carries the Cenarion Circle's duties of leadership. Tyrande and the sisterhood wait for their Shan'do to wake.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "malfurion location",
     "is malfurion in game"
    ],
-   "answer": "Malfurion Stormrage lies asleep in Moonglade's barrow dens, while his consciousness remains deep in the Emerald Dream. His body is comatose and inaccessible to most adventurers."
+   "answer": "Malfurion Stormrage lies asleep in Moonglade's barrow dens, while his consciousness remains deep in the Emerald Dream. His body is comatose and beyond the reach of most adventurers."
   },
   {
    "q": "Why is Malfurion asleep?",
@@ -44,7 +44,7 @@
     "why is he comatose",
     "what happened to malfurion"
    ],
-   "answer": "Druids hibernate in the Emerald Dream to commune with nature, sustain the world's flora and fauna, and restore their spiritual strength. After the immense magical strain of defeating Archimonde at Mount Hyjal, Malfurion entered the Dream to recover, but an unnatural malaise severed his spirit from his body."
+   "answer": "Druids hibernate in the Emerald Dream to commune with nature, sustain the world's flora and fauna, and restore their spiritual strength. After the immense magical strain of defeating Archimonde at Mount Hyjal, Malfurion entered the Dream to recover. An unnatural malaise severed his spirit from his body."
   },
   {
    "q": "Who rules the night elves while Malfurion sleeps?",
@@ -80,7 +80,7 @@
     "battle of mount hyjal malfurion",
     "how did malfurion defeat archimonde"
    ],
-   "answer": "At the climax of the Third War, Malfurion blew the Horn of Cenarius at the World Tree Nordrassil and summoned thousands of ancestral forest spirits, called wisps. They swarmed Archimonde and detonated, destroying the demon and immolating the World Tree to save Kalimdor."
+   "answer": "At the climax of the Third War, Malfurion blew the Horn of Cenarius at the World Tree Nordrassil and summoned thousands of ancestral forest spirits called wisps. They swarmed Archimonde and detonated, destroying the demon and immolating the World Tree to save Kalimdor."
   }
  ],
  "angles": [
@@ -122,5 +122,5 @@
  "attribution": [
   "Malfurion Stormrage"
  ],
- "style": 1
+ "style": 2
 }

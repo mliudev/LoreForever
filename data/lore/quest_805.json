@@ -17,11 +17,11 @@
   "wiki": "Report to Sen'jin Village (Classic)",
   "chain": []
  },
- "summary": "Zureetha Fargaze sends word from the Valley of Trials to Sen'jin Village. Burning Blade cultists have been active in the valley, and she asks young initiates to warn the Darkspear trolls. Master Gadrin tells them dark magic threatens the nearby Echo Isles.",
+ "summary": "Zureetha Fargaze sends young initiates from the Valley of Trials to warn the Darkspear trolls in Sen'jin Village. Burning Blade cultists have been active in the valley. Master Gadrin tells them dark magic threatens the nearby Echo Isles.",
  "sections": [
   {
    "title": "Leaving the Den",
-   "body": "Young initiates leave the Valley of Trials after proving their combat mettle and recovering dark medallions from the Burning Blade Coven. Zureetha Fargaze sees that the demons in the sacred proving grounds are no isolated nuisance; they point to a blight spreading across Durotar. She sends the proven fighters east past the ravine's mouth, then south toward the coast, to warn the Darkspear tribe.",
+   "body": "After proving their combat mettle and recovering dark medallions from the Burning Blade Coven, young initiates leave the Valley of Trials. Zureetha Fargaze sees that demons in the sacred proving grounds are no isolated nuisance. They point to a blight spreading across Durotar. She sends the proven fighters east past the ravine's mouth, then south toward the coast, to warn the Darkspear tribe.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "why go to senjin",
     "zureetha fargaze orders"
    ],
-   "answer": "Demonic activity in the Valley of Trials makes Zureetha Fargaze fear the Burning Blade is an organized threat to all of Durotar. She sends proven initiates beyond the valley to warn allied settlements and learn how far the cult's influence has spread."
+   "answer": "Demonic activity in the Valley of Trials makes Zureetha Fargaze fear the Burning Blade threatens all of Durotar. She sends proven initiates beyond the valley to warn allied settlements and learn how far the cult's influence has spread."
   },
   {
    "q": "Who is Master Gadrin?",
@@ -46,7 +46,7 @@
     "master gadrin lore",
     "who is gadrin"
    ],
-   "answer": "Master Gadrin is an elder witch doctor and spiritual leader of the Darkspear trolls in Sen'jin Village. He advises chieftain Vol'jin and oversees tribal matters while facing threats to their coastal refuge."
+   "answer": "Master Gadrin is an elder witch doctor and spiritual leader of the Darkspear trolls in Sen'jin Village. He advises chieftain Vol'jin and oversees tribal matters as threats close on their coastal refuge."
   },
   {
    "q": "Has the Burning Blade attacked Sen'jin Village?",
@@ -118,5 +118,5 @@
  "attribution": [
   "Report to Sen'jin Village (Classic)"
  ],
- "style": 1
+ "style": 2
 }

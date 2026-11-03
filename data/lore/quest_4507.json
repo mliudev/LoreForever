@@ -29,21 +29,21 @@
    "Rise of the Silithid"
   ]
  },
- "summary": "After Bungle in the Jungle, Alchemist Pestlezugg hands you the lure and sends you into the silithid hive in Un'Goro Crater. The lure is meant to rouse the Gorishi Hive Queen, whose brain Pestlezugg wants brought back to Gadgetzan for study.",
+ "summary": "Alchemist Pestlezugg sends you into Un'Goro Crater with a lure for the Gorishi Hive Queen. After Bungle in the Jungle, he wants her brain brought to Gadgetzan for study.",
  "sections": [
   {
    "title": "The Lure and the Crystal",
-   "body": "Pestlezugg gives you the lure. The hive network is thought to hold a crystal that the silithid use as a hive-wide attunement device, and the hatcheries are the best place to look. Apply the lure to that crystal and the queen should come out, though several guards will probably be with her.",
+   "body": "Pestlezugg gives you a lure for the silithid hive. He believes a crystal in the hive network attunes the whole swarm, and the hatcheries are the best place to search. Apply the lure to the crystal, and the queen should emerge with several guards beside her.",
    "spoiler": 0
   },
   {
    "title": "The Queen's Brain",
-   "body": "Pestlezugg wants the queen's brain taken and carried to Gadgetzan. Pestlezugg admits it sounds icky, yet says the brain is badly needed for study.",
+   "body": "Pestlezugg wants you to carry the queen's brain to Gadgetzan. He knows it sounds icky, but says the brain is badly needed for study.",
    "spoiler": 0
   },
   {
    "title": "After the Queen Falls",
-   "body": "Pestlezugg suspects the silithid may be controlled by a malign intelligence, and shudders to think what could command something so insidious. When the brain arrives, Pestlezugg calls it quite a victory, yet doubts it was the full extent of the silithid presence, saying it is too clean a resolution.",
+   "body": "Pestlezugg suspects a malign intelligence may control the silithid. The thought of what could command something so insidious makes him shudder. When the brain arrives, he calls it quite a victory, yet doubts this is the full extent of the silithid presence. The resolution seems too clean to him.",
    "spoiler": 1
   }
  ],
@@ -55,7 +55,7 @@
     "where is the silithid queen",
     "where to find gorishi queen"
    ],
-   "answer": "She is summoned inside the silithid hive in Un'Goro Crater, using the lure on a crystal Pestlezugg expects to find in the hatcheries."
+   "answer": "Use Pestlezugg's lure on a crystal in the silithid hive in Un'Goro Crater. He expects to find one in the hatcheries, where it should draw out the queen."
   },
   {
    "q": "What is the crystal in the hive for?",
@@ -64,7 +64,7 @@
     "queen lure crystal",
     "using queen lure"
    ],
-   "answer": "Pestlezugg thinks the silithid use a crystal in the hive network as a hive-wide attunement device. The lure is meant for that crystal, and the hatcheries are the place to try."
+   "answer": "Pestlezugg thinks a crystal in the hive network attunes the whole silithid swarm. The lure is meant for that crystal, and the hatcheries are the place to search."
   },
   {
    "q": "Why does Pestlezugg want the queen's brain?",
@@ -73,7 +73,7 @@
     "gorishi queen brain purpose",
     "pestlezugg research"
    ],
-   "answer": "Pestlezugg says it must be studied, and wants it brought to Gadgetzan."
+   "answer": "Pestlezugg says the queen's brain is badly needed for study and wants you to bring it to Gadgetzan."
   },
   {
    "q": "What comes before this?",
@@ -82,7 +82,7 @@
     "what quest comes before pawn captures queen",
     "previous quest"
    ],
-   "answer": "Bungle in the Jungle, in which Pestlezugg asked for a scent gland and Un'Goro soil to brew the lure."
+   "answer": "Before this, Pestlezugg asked you for a scent gland and Un'Goro soil to brew the lure in Bungle in the Jungle."
   }
  ],
  "angles": [],
@@ -105,5 +105,6 @@
  ],
  "attribution": [
   "Pawn Captures Queen"
- ]
+ ],
+ "style": 2
 }

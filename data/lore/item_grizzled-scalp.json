@@ -10,11 +10,11 @@
    "quest:1003"
   ]
  },
- "summary": "In southern Darkshore, grizzled thistle bears roam the forests south of Auberdine. Their thick, furred hides reach Wizbang Cranktoggle, a gnome tinkerer with a use for them.",
+ "summary": "South of Auberdine, grizzled thistle bears roam Darkshore’s forests, and their thick hides find a use with Wizbang Cranktoggle.",
  "sections": [
   {
    "title": "A Peculiar Fermentation",
-   "body": "Grizzled thistle bears roam the road south of Auberdine, their rough pelts prized by hunters. Bring four scalps to Buzzbox 525, and the reason becomes clear. The bears’ fur is not meant for repairs or study. Wizbang Cranktoggle uses the hidden buzzboxes scattered across Darkshore as stills. Night elves frown on illicit brewing in their settlements, so Wizbang depends on adventurers to gather bear scalps and other strange ingredients for his beloved thistle bear beer.",
+   "body": "South of Auberdine, grizzled thistle bears roam the road, their rough pelts sought by hunters. Four scalps brought to Buzzbox 525 reveal their purpose. Wizbang Cranktoggle uses hidden buzzboxes scattered across Darkshore as stills. Night elves frown on illicit brewing in their settlements, so Wizbang relies on adventurers to gather bear scalps and other strange ingredients for his beloved thistle bear beer.",
    "spoiler": 1
   }
  ],
@@ -26,7 +26,7 @@
     "who drops grizzled scalps",
     "thistle bear scalp"
    ],
-   "answer": "You can find grizzled thistle bears and their matriarch, the Den Mother, in the forests south of Auberdine, along Darkshore’s main trail."
+   "answer": "Grizzled thistle bears and their matriarch, the Den Mother, roam the forests south of Auberdine along Darkshore’s main trail."
   },
   {
    "q": "What are Grizzled Scalps used for?",
@@ -42,7 +42,7 @@
     "why does wizbang want scalps",
     "buzzbox 525 purpose"
    ],
-   "answer": "Wizbang Cranktoggle uses his hidden buzzbox network to distill liquor away from night elf eyes. The scalps are an ingredient in his thistle bear beer."
+   "answer": "Wizbang Cranktoggle uses his hidden buzzbox network to distill liquor away from night elf eyes. The scalps go into his thistle bear beer."
   },
   {
    "q": "Why is Wizbang hiding his brewing in Darkshore's wilderness?",
@@ -50,13 +50,13 @@
     "why hide buzzbox",
     "wizbang liquor darkshore"
    ],
-   "answer": "Wizbang hides his stills in the wilderness brush because the night elves of Auberdine object to unauthorized, noisy brewing in their sacred groves. The hidden contraptions let his moonshine operation go undetected."
+   "answer": "Wizbang hides his stills in the wilderness brush because the night elves of Auberdine object to unauthorized, noisy brewing in their sacred groves. The hidden contraptions keep his moonshine operation out of sight."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can see how gnomish skill disguises automated brewing stills as field-repair communication arrays."
+   "text": "As an engineer, you can see how gnomish skill disguises automated brewing stills as field repair communication arrays."
   },
   {
    "target": "race:NightElf",
@@ -81,5 +81,5 @@
   "Grizzled Scalp",
   "Buzzbox 525 (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,21 +17,21 @@
   "wiki": "The Carevin Family",
   "chain": []
  },
- "summary": "In Darkshire, the search for Velinde Starsong brings strangers to the Carevin family. Clerk Daltry points them to the hunters after hearing of wolf-men in Ashenvale.",
+ "summary": "In Darkshire, the search for Velinde Starsong draws strangers to the Carevin family. Clerk Daltry hears of wolf-men in Ashenvale and sends them to the hunters.",
  "sections": [
   {
    "title": "A Trail of Claws and Shadows",
-   "body": "The search for Velinde Starsong leads from Kalimdor’s ancient forests to Duskwood. In Darkshire, clerk Daltry finds no town record of an elven priestess staying there. But mention the savage wolf-men seen in Ashenvale, and he listens closely. Beasts like those have begun terrorizing the woods around town.",
+   "body": "The search for Velinde Starsong leads from Kalimdor’s ancient forests to Duskwood. In Darkshire, Clerk Daltry finds no town record of an elven priestess staying there. But when he hears of savage wolf-men in Ashenvale, he listens closely. Beasts like those have begun terrorizing the woods around town.",
    "spoiler": 0
   },
   {
    "title": "Hunters of the Night",
-   "body": "The Carevin family hunts the horrors that trouble Duskwood. Known locally for tracking demons, undead, and other monsters, the family has already faced the wolf-men. Their tracker, Calor, recently hauled a grisly string of severed wolf-men heads through Darkshire’s streets. Clerk Daltry sends you to Jonathan Carevin, the stern head of the household, to learn what the hunters know about the worgen.",
+   "body": "The Carevin family hunts the horrors troubling Duskwood. Locals know them for tracking demons, undead, and other monsters, and they have already faced the wolf-men. Their tracker, Calor, recently hauled a grisly string of severed wolf-men heads through Darkshire’s streets. So Clerk Daltry sends you to Jonathan Carevin, the stern head of the household, to learn what the hunters know about the worgen.",
    "spoiler": 0
   },
   {
    "title": "A Cold Reception",
-   "body": "Jonathan Carevin meets strangers with deep wariness. The horrors consuming Duskwood leave him wary of anyone who arrives unannounced and asks about worgen. Before sharing what his hunters have learned about the beasts, he demands to know who stands before him and why they seek things best left buried in the dark.",
+   "body": "Jonathan Carevin meets strangers with deep wariness. The horrors consuming Duskwood make him wary of anyone who arrives unannounced and asks about worgen. Before sharing what his hunters have learned about the beasts, he demands to know who stands before him and why they seek things best left buried in the dark.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "who is carevin",
     "carevin family head"
    ],
-   "answer": "Jonathan Carevin leads the Carevin household in Darkshire. His family is known across the blighted region as seasoned hunters who track and slay demons, undead, and monstrous beasts."
+   "answer": "Jonathan Carevin leads the Carevin household in Darkshire. Across the blighted region, his family is known as seasoned hunters who track and slay demons, undead, and monstrous beasts."
   },
   {
    "q": "Why does Clerk Daltry direct you to the Carevin family?",
@@ -52,7 +52,7 @@
     "clerk daltry carevin",
     "why go to jonathan"
    ],
-   "answer": "Clerk Daltry has no record of the missing night elf Velinde Starsong, but recognizes the wolf-men you describe. The Carevins’ tracker, Calor, recently brought severed heads of these creatures into Darkshire, so Daltry sends you to the family for what they know."
+   "answer": "Clerk Daltry has no record of the missing night elf Velinde Starsong, but he recognizes the wolf-men you describe. The Carevins’ tracker, Calor, recently brought their severed heads into Darkshire, so Daltry sends you to learn what the family knows."
   },
   {
    "q": "Who is Calor?",
@@ -70,7 +70,7 @@
     "why duskwood",
     "ashenvale to darkshire"
    ],
-   "answer": "The search begins in Ashenvale, where Velinde Starsong has disappeared and worgen have appeared. Following the caravan route takes you across the sea from Kalimdor to Duskwood, where the same monstrous wolf-beasts have surfaced."
+   "answer": "The search begins in Ashenvale, where Velinde Starsong has disappeared and worgen have appeared. The caravan route carries you across the sea from Kalimdor to Duskwood, where the same monstrous wolf-beasts have surfaced."
   },
   {
    "q": "Why is Jonathan Carevin so suspicious of strangers?",
@@ -78,7 +78,7 @@
     "why carevin hostile",
     "carevin suspicion"
    ],
-   "answer": "Duskwood is overrun by shadows, undead, and sinister forces, and its surviving residents have grown deeply wary. When a stranger arrives asking about deadly worgen, Jonathan suspects ill intent until you prove yourself."
+   "answer": "Duskwood is overrun by shadows, undead, and sinister forces, leaving its surviving residents deeply wary. When a stranger arrives asking about deadly worgen, Jonathan suspects ill intent until you prove yourself."
   },
   {
    "q": "What monsters do the Carevins specialize in fighting?",
@@ -96,7 +96,7 @@
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you can recognize the Carevin family as a band of local beast hunters who pursue unnatural fiends and cursed predators."
+   "text": "As a hunter, you recognize the Carevin family as local beast hunters who pursue unnatural fiends and cursed predators."
   },
   {
    "target": "faction:Alliance",
@@ -127,5 +127,5 @@
  "attribution": [
   "The Carevin Family"
  ],
- "style": 1
+ "style": 2
 }

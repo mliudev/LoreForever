@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Falfarren River"
  },
- "summary": "The Falfarren River cuts through central Ashenvale, from Mount Hyjal toward the northern mountains of the Barrens. Its banks mark the divide between night elven lands and Horde outposts, where travelers face wild dangers and open conflict.",
+ "summary": "The Falfarren River runs through central Ashenvale, dividing night elven lands from Horde outposts. Travelers meet wild dangers and open conflict along its banks.",
  "sections": [
   {
    "title": "A Contested Natural Boundary",
-   "body": "The Falfarren River descends from Mount Hyjal, spilling over waterfalls into Xavian before winding between Splintertree Post and Night Run. In ordinary weather, its waters are neither especially deep nor impassable. The river marks a rough boundary through central Ashenvale. Astranaar and the heart of the Kaldorei lands lie west; Horde camps and lumber operations lie east. The wooden bridges on the main road carry travelers into the contested forest, where patrols clash along the banks.",
+   "body": "From Mount Hyjal, the Falfarren River spills over waterfalls into Xavian. Then it winds between Splintertree Post and Night Run. In ordinary weather, the water is neither especially deep nor hard to cross.\n\nThe river marks a rough boundary through central Ashenvale. Astranaar and the heart of the Kaldorei lands lie west, while Horde camps and lumber operations lie east. Wooden bridges on the main road carry travelers into the contested forest, where patrols clash along the banks.",
    "spoiler": 0
   },
   {
    "title": "Hazards in the Shallows",
-   "body": "The Falfarren River holds dangers beyond clashes between sentinels and grunts. Near Felfire Hill, corrupted bog beasts and aggressive water creatures prowl the muddy shallows. Rain can swell the currents. Dense canopies line both shores, where ambushes and skirmishes often spill into the stream.",
+   "body": "The Falfarren River brings dangers beyond clashes between sentinels and grunts. Near Felfire Hill, corrupted bog beasts and aggressive water creatures prowl the muddy shallows. Rain can swell the currents.\n\nDense canopies line both shores, where ambushes and skirmishes often spill into the stream.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "falfarren river source",
     "where does the river go"
    ],
-   "answer": "The Falfarren River begins in the heights of Mount Hyjal, then tumbles over waterfalls into the lake at Xavian. It winds southwest across Ashenvale before disappearing underground beneath the northern mountains of the Barrens."
+   "answer": "The Falfarren River begins in the heights of Mount Hyjal and tumbles over waterfalls into the lake at Xavian. It winds southwest across Ashenvale, then disappears underground beneath the northern mountains of the Barrens."
   },
   {
    "q": "Why is the Falfarren River significant to the war in Ashenvale?",
@@ -35,7 +35,7 @@
     "why is falfarren river important",
     "river border ashenvale"
    ],
-   "answer": "The Falfarren River marks a rough boundary between night elf and Horde control in central Ashenvale. Astranaar lies to the west, while the orc outpost of Splintertree Post and active Horde lumber operations lie to the east."
+   "answer": "The Falfarren River marks a rough boundary between night elf and Horde control in central Ashenvale. Astranaar lies west, while the orc outpost of Splintertree Post and active Horde lumber operations lie east."
   },
   {
    "q": "What threats should travelers expect along the riverbanks?",
@@ -43,17 +43,17 @@
     "monsters in falfarren river",
     "dangers at falfarren"
    ],
-   "answer": "Aggressive bog beasts prowl the shallows, especially near the corrupted lands around Felfire Hill. Patrols from both the Alliance and the Horde watch bridges and crossings, and skirmishes and ambushes can break out along the banks."
+   "answer": "Aggressive bog beasts prowl the shallows, especially near the corrupted lands around Felfire Hill. Alliance and Horde patrols watch bridges and crossings, and skirmishes or ambushes can break out along the banks."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Night Elves and their allies, crossing east over the Falfarren River brings you into the Horde's front lines near Splintertree Post."
+   "text": "As a Night Elf or ally, crossing east over the Falfarren River brings you to the Horde's front lines near Splintertree Post."
   },
   {
    "target": "faction:Horde",
-   "text": "For the Horde, the Falfarren River marks the western edge of your expansion from Splintertree Post. Fortified night elf territory lies beyond it."
+   "text": "As a member of the Horde, the Falfarren River marks the western edge of your expansion from Splintertree Post. Fortified night elf territory lies beyond it."
   }
  ],
  "keywords": [
@@ -77,5 +77,5 @@
  "attribution": [
   "Falfarren River"
  ],
- "style": 1
+ "style": 2
 }

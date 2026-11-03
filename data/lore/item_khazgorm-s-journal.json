@@ -10,16 +10,16 @@
    "quest:843"
   ]
  },
- "summary": "At Bael Modan, Prospector Khazgorm leads the Ironforge dwarven excavation in the southern Barrens. His field ledger records the Explorers' League's work on lands claimed by the Stonespire tauren.",
+ "summary": "At Bael Modan, Prospector Khazgorm leads Ironforge's excavation in the southern Barrens. His journal records the Explorers' League's work on lands claimed by the Stonespire tauren.",
  "sections": [
   {
    "title": "A Record of Destruction",
-   "body": "Prospector Khazgorm directs the heavy machinery and blasting that cut into the southern Barrens hillsides. His notes show an excavation far from the Explorers' League's promised search for knowledge: its work has displaced the Stonespire tribe. The tauren tried to settle matters peacefully, but the dwarves refused. Gann Stonespire wants the journal to understand the Ironforge presence in his homeland and find a way to break it.",
+   "body": "Prospector Khazgorm directs the machinery and blasting that cut into the southern Barrens hillsides. The excavation has strayed far from the Explorers' League's promised search for knowledge. Its work has displaced the Stonespire tribe. The tauren sought a peaceful settlement, but the dwarves refused. Gann Stonespire wants the journal to learn why Ironforge is in his homeland and how to drive the expedition out.",
    "spoiler": 0
   },
   {
    "title": "A Shift in Tactics",
-   "body": "Gann Stonespire finds the journal among Khazgorm's remains, near the tents and pillars of the digsite. The notes show him how the dwarf expedition is organized, what equipment it uses, and where it is vulnerable. With that knowledge, Gann turns from driving back laborers to striking the excavation's machinery. The journal changes the struggle over Bael Modan.",
+   "body": "Gann Stonespire finds the journal among Khazgorm's remains near the tents and pillars of the digsite. Its notes reveal how the expedition is organized, what equipment it uses, and where it is vulnerable. Armed with that knowledge, Gann turns from driving back laborers to striking the excavation's machinery. The journal shifts the struggle over Bael Modan.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "khazgorm",
     "prospector khazgorm"
    ],
-   "answer": "The journal belongs to Prospector Khazgorm, a leader of the Ironforge dwarven excavation at Bael Modan in the southern Barrens."
+   "answer": "Prospector Khazgorm, a leader of the Ironforge dwarven excavation at Bael Modan in the southern Barrens, owns the journal."
   },
   {
    "q": "Why does Gann Stonespire want this book?",
@@ -40,7 +40,7 @@
     "gann quest journal",
     "ganns reclamation book"
    ],
-   "answer": "Gann Stonespire wants the journal to study the plans and secrets of the dwarves who displaced his tribe. Khazgorm's notes help him plan further strikes against the Bael Modan encampment."
+   "answer": "Gann Stonespire wants the journal to study the dwarves' plans and secrets after they displaced his tribe. Khazgorm's notes help him plan further strikes against the Bael Modan encampment."
   },
   {
    "q": "Where can the journal be found?",
@@ -64,7 +64,7 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you can see the journal as evidence of the Ironforge invaders' disregard for the Stonespire tribe as they blast its ancestral lands."
+   "text": "As a tauren, you can read the journal as evidence of the Ironforge invaders' disregard for the Stonespire tribe as they blast its ancestral lands."
   },
   {
    "target": "faction:Horde",
@@ -95,5 +95,5 @@
   "Khazgorm's Journal",
   "Gann's Reclamation"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Mizjah Ruins"
  },
- "summary": "The Mizjah Ruins are ancient stone remains nestled in northern Stranglethorn Vale, situated just southeast of Grom'gol Base Camp. Long abandoned by their original troll architects, the crumbling structures have been seized by the brute-strength Mosh'Ogg ogres. From this vantage, the ogres launch disruptive ambushes against passing supply caravans traveling toward the Swamp of Sorrows.",
+ "summary": "In northern Stranglethorn Vale, Mosh'Ogg ogres have taken shelter in the Mizjah Ruins, southeast of Grom'gol Base Camp. They ambush supply caravans bound for the Swamp of Sorrows.",
  "sections": [
   {
    "title": "A Den of Ogres",
-   "body": "Like many of the ancient stone ruins scattered throughout Stranglethorn Vale, the Mizjah Ruins were built by the Gurubashi Empire long before modern empires rose. Today, the moss-choked arches and cracked flagstones are occupied by the Mosh'Ogg clan, primarily brute warriors and crude witch doctors. Far from keeping to their stolen perimeter, these ogres routinely raid nearby supply convoys bound for the Horde settlement of Stonard, transforming ancient history into a persistent, bloody thorn in the side of Grom'gol's commanders.",
+   "body": "The Gurubashi Empire raised the Mizjah Ruins long before modern empires rose. Now Mosh'Ogg ogres dwell among the cracked stones, including brute warriors and crude witch doctors. They raid supply convoys bound for the Horde settlement of Stonard. Their attacks trouble Grom'gol's commanders.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "mizjah origins",
     "troll ruins mizjah"
    ],
-   "answer": "Like the majority of stone architecture scattered across northern Stranglethorn Vale, the Mizjah Ruins were originally constructed by the jungle trolls of the Gurubashi Empire before centuries of warfare and ruin left them empty."
+   "answer": "Jungle trolls of the Gurubashi Empire built the Mizjah Ruins long before modern empires rose. Centuries of warfare and ruin left them empty."
   },
   {
    "q": "Who lives in the Mizjah Ruins now?",
@@ -32,7 +32,7 @@
     "mizjah mobs",
     "mosh'ogg camp"
    ],
-   "answer": "The ruins are currently occupied by the Mosh'Ogg ogres, specifically Mosh'Ogg Brutes and Mosh'Ogg Witch Doctors, who have fortified the stone structures as a local encampment."
+   "answer": "Mosh'Ogg ogres now occupy the ruins, including Mosh'Ogg Brutes and Mosh'Ogg Witch Doctors. They have fortified the stone structures as a local encampment."
   },
   {
    "q": "Why is the Horde interested in clearing the ruins?",
@@ -41,13 +41,13 @@
     "grom'gol defense",
     "stonard caravan quest"
    ],
-   "answer": "The Mosh'Ogg ogres dwelling in Mizjah actively prey upon Horde supply lines, ambushing convoys traversing between Grom'gol Base Camp and the outpost of Stonard in the Swamp of Sorrows."
+   "answer": "Mosh'Ogg ogres ambush Horde convoys traveling between Grom'gol Base Camp and Stonard in the Swamp of Sorrows."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The Mosh'Ogg presence at Mizjah directly threatens critical Horde logistics, forcing Grom'gol Base Camp to deploy warriors to protect the supply route to Stonard."
+   "text": "Mosh'Ogg ogres at Mizjah threaten Horde supply lines. Grom'gol Base Camp sends warriors to guard the route to Stonard."
   }
  ],
  "keywords": [
@@ -67,5 +67,6 @@
  ],
  "attribution": [
   "Mizjah Ruins"
- ]
+ ],
+ "style": 2
 }

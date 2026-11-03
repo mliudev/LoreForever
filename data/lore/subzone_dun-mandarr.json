@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Dun Mandarr"
  },
- "summary": "Dun Mandarr is an abandoned dwarven camp situated before an icy cavern in south-eastern Winterspring. Established by the dwarf Jaron Stoneshaper, the site now sits in ruins after its occupants fled an onslaught of enraged local moonkin.",
+ "summary": "In southeastern Winterspring, enraged moonkin guard the abandoned dwarven camp of Dun Mandarr.",
  "sections": [
   {
    "title": "A Forsaken Camp",
-   "body": "Bearing the traditional dwarven prefix 'Dun', Dun Mandarr was established by the explorer Jaron Stoneshaper as a base of operations in the frozen reaches of southeastern Winterspring. Stoneshaper's curiosity proved his undoing when he uncovered a relic known as the Blue-Feathered Amulet. The artifact's disturbance provoked the fury of the native wildkin, who descended upon the encampment in an uncontrollable rage. Overwhelmed and driven out, the dwarves abandoned the camp entirely. Today, no friendly souls remain among the snowbanks; ferocious, territorial moonkin guard the cavern and prowl the broken shelters.",
+   "body": "Dun Mandarr lies in Winterspring’s frozen southeastern reaches. Jaron Stoneshaper made his camp there, and uncovered the Blue-Feathered Amulet. The discovery roused the native wildkin to fury. They swept down on the camp and drove the dwarves away. Now moonkin prowl the broken shelters and guard the cavern. No friendly souls remain among the snowbanks.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "who built dun mandarr",
     "what is dun mandarr"
    ],
-   "answer": "Dun Mandarr was built by the dwarf explorer Jaron Stoneshaper. While excavating the area, he uncovered a mysterious Blue-Feathered Amulet. The relic deeply agitated the surrounding wildkin, who launched a furious assault on the settlement. Jaron and his companions were chased off, leaving the outpost abandoned and overrun."
+   "answer": "Dwarf explorer Jaron Stoneshaper built the camp at Dun Mandarr. While excavating, he uncovered the Blue-Feathered Amulet, rousing the surrounding wildkin to attack. Jaron and his companions fled, leaving the camp abandoned and overrun."
   },
   {
    "q": "Why are there so many moonkin here?",
@@ -32,7 +32,7 @@
     "dun mandarr owlbeasts",
     "why are owlbeasts attacking"
    ],
-   "answer": "The local wildkin hold the cavern and surrounding relics sacred. When Jaron Stoneshaper excavated the Blue-Feathered Amulet, the creatures flew into a violent frenzy to reclaim the artifact and protect their territory, driving out the intruders and claiming the camp as their own."
+   "answer": "The local wildkin hold the cavern and surrounding relics sacred. When Jaron Stoneshaper excavated the Blue-Feathered Amulet, they flew into a violent frenzy to reclaim it and defend their territory. They drove out the intruders and took over the camp."
   },
   {
    "q": "Where did Jaron Stoneshaper go?",
@@ -40,17 +40,17 @@
     "where is jaron stoneshaper",
     "jaron stoneshaper location"
    ],
-   "answer": "After being driven from his camp by the rampaging moonkin, Jaron Stoneshaper retreated elsewhere into Winterspring to regroup and seek aid in recovering his stolen research and gear."
+   "answer": "After rampaging moonkin drove Jaron Stoneshaper from his camp, he retreated elsewhere in Winterspring. There, he regrouped and sought aid in recovering his stolen research and gear."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "The ruined site bears the traditional dwarven naming convention, serving as a harsh reminder of how easily archaeological ambition in ancient Kalimdor can turn disastrous."
+   "text": "As a dwarf, you can see the traditional dwarven prefix in Dun Mandarr’s name. The ruined site reminds you that archaeological ambition in ancient Kalimdor can end in disaster."
   },
   {
    "target": "class:Druid",
-   "text": "The moonkin guarding Dun Mandarr are fiercely protective of natural and celestial artifacts, reacting violently when sacred relics like the Blue-Feathered Amulet are disturbed by outsiders."
+   "text": "As a druid, you know the moonkin guarding Dun Mandarr fiercely protect natural and celestial artifacts. They react violently when outsiders disturb sacred relics such as the Blue-Feathered Amulet."
   }
  ],
  "keywords": [
@@ -67,5 +67,6 @@
  ],
  "attribution": [
   "Dun Mandarr"
- ]
+ ],
+ "style": 2
 }

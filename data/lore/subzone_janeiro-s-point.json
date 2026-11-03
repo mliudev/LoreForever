@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Janeiro's Point"
  },
- "summary": "Janeiro's Point is a small, rocky island situated just outside the harbor of Booty Bay in southern Stranglethorn Vale. It is crowned by a colossal stone statue of an unknown goblin welcoming incoming maritime traffic with outstretched arms. The island's waters and shores are dominated by the menacing sea giant known as Mok'rash the Cleaver.",
+ "summary": "Ships pass Janeiro's Point on their way into Booty Bay. Mok'rash the Cleaver claims the island's shores and waters.",
  "sections": [
   {
    "title": "Beacon of the Bay",
-   "body": "Standing as the monumental gateway to Booty Bay, Janeiro's Point greets every vessel charting a course into the southern seas of Stranglethorn Vale. Atop the crag looms an immense stone effigy of a goblin, arms spread wide in a grand gesture of welcome and unbridled mercantile ambition. Though visible to sailors and corsairs for miles around, landing on the island's shores is a perilous prospect due to Mok'rash the Cleaver, a terrifying sea giant who has claimed the outcrop as his territory.",
+   "body": "Ships bound for Booty Bay pass Janeiro's Point at the harbor's edge in southern Stranglethorn Vale. A colossal stone goblin spreads its arms atop the rocky crag, welcoming vessels to the bay. Sailors can see the statue for miles, yet Mok'rash the Cleaver claims the island. The sea giant makes landing on its shores perilous.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is this island",
     "booty bay statue island"
    ],
-   "answer": "Janeiro's Point is a small rocky island just off the coast outside Booty Bay's harbor in Stranglethorn Vale. It serves as a visual landmark for ships approaching the goblin port."
+   "answer": "Janeiro's Point is a small, rocky island just outside Booty Bay's harbor in Stranglethorn Vale. Ships bound for the goblin port use it as a landmark."
   },
   {
    "q": "Who is the giant statue on the island?",
@@ -32,7 +32,7 @@
     "who is the goblin statue",
     "who is depicted"
    ],
-   "answer": "The colossal statue portrays an unknown goblin with outstretched arms. It was raised to welcome trade ships and weary sailors to the commercial haven of Booty Bay."
+   "answer": "The colossal statue shows an unknown goblin with arms outstretched. It welcomes trade ships and sailors to Booty Bay."
   },
   {
    "q": "What dangerous creature lives on Janeiro's Point?",
@@ -41,7 +41,7 @@
     "who lives on janeiro point",
     "mokrash"
    ],
-   "answer": "The island and its surrounding shallows are the domain of Mok'rash the Cleaver, a formidable sea giant who poses an extreme danger to any adventurous mariners or swimmers attempting to approach the statue."
+   "answer": "Mok'rash the Cleaver, a sea giant, claims Janeiro's Point and its surrounding waters. He endangers mariners and swimmers who approach the statue."
   }
  ],
  "angles": [],
@@ -60,5 +60,6 @@
  ],
  "attribution": [
   "Janeiro's Point"
- ]
+ ],
+ "style": 2
 }

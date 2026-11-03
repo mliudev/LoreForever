@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "The constructs and instruments maintained by the Windshapers run on delicate magical devices, making their maintenance of particular interest to practitioners of the arcane."
+   "text": "As a mage, you may find the delicate magical devices tended by the Windshapers especially interesting."
   },
   {
    "target": "class:Shaman",
-   "text": "The constructs were originally gifted by the spirits of the wind, highlighting a deep historical bond between the local inhabitants and elemental forces before the spirits departed."
+   "text": "As a shaman, you can see the old bond between the island’s people and the spirits of the wind in the constructs they gifted before departing."
   },
   {
    "target": "profession:Engineering",
-   "text": "Artisans working on ancient enchanted constructs face mechanical and magical challenges in keeping these relics operating without their original spirit patrons."
+   "text": "As an engineer, you can appreciate the mechanical and magical challenges artisans face when keeping ancient enchanted constructs working without their original spirit patrons."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "windshapers lore",
     "what do windshapers do"
    ],
-   "answer": "The Windshapers are local caretakers historically entrusted with tending the magical instruments, devices, and constructs gifted by the spirits of the wind. With the departure of those spirits, their role has shifted to carefully preserving the few remaining relics that still function.",
+   "answer": "The Windshapers are local caretakers entrusted with tending the magical instruments, devices, and constructs gifted by the spirits of the wind. Since the spirits departed, they have worked to preserve the few relics that still function.",
    "q": "Who are the Windshapers?"
   },
   {
@@ -41,7 +41,7 @@
     "construct origins",
     "where did the constructs come from"
    ],
-   "answer": "The constructs were gifted to the island's inhabitants by the spirits of the wind, along with various other magical instruments and devices. Following the departure of the wind spirits, very few of these creations have remained functional.",
+   "answer": "The spirits of the wind gave the island’s inhabitants magical constructs, instruments, and devices. Since the spirits departed, very few of these creations still function.",
    "q": "Where did the magical constructs come from?"
   },
   {
@@ -50,7 +50,7 @@
     "riaani location",
     "artisan in valanaar"
    ],
-   "answer": "Riaani Nightwind is an artisan dispatched to the west side of Valanaar to inspect and repair one of the city's few remaining working constructs after it sustained damage.",
+   "answer": "Riaani Nightwind is an artisan sent to Valanaar’s western edge to inspect and repair one of the city’s few working constructs after it was damaged.",
    "q": "Who is Riaani Nightwind?"
   },
   {
@@ -59,7 +59,7 @@
     "why did constructs fail",
     "wind spirits leaving"
    ],
-   "answer": "The constructs rely on gifts and enchantment bestowed by the spirits of the wind. Once those spirits departed the island, the power and care needed to keep them operational dwindled, leaving only a scant few functional today.",
+   "answer": "Most of the island’s constructs fell into disrepair after the spirits of the wind departed and their ancient patronage ended. Only a handful remain in working order.",
    "q": "Why are most of the island's constructs broken?"
   },
   {
@@ -68,7 +68,7 @@
     "valanaar city",
     "where is the construct"
    ],
-   "answer": "Valanaar is a settlement home to some of the last operational wind-gifted constructs. One of these remaining machines recently sustained damage on the western end of the city, prompting urgent repairs.",
+   "answer": "Valanaar is home to some of the island’s last working constructs gifted by the wind spirits. One was recently damaged on the city’s western end, and Riaani Nightwind was sent to examine and repair it.",
    "q": "What is Valanaar's connection to the constructs?"
   },
   {
@@ -77,7 +77,7 @@
     "what do i do broken construct",
     "where to go broken construct"
    ],
-   "answer": "You are asked to travel to the west side of Valanaar to find the artisan Riaani Nightwind and provide any assistance needed to help repair the damaged construct.",
+   "answer": "You are asked to travel to Valanaar’s western edge, find artisan Riaani Nightwind, and help her repair the damaged construct.",
    "q": "What needs to be done for The Broken Construct?"
   }
  ],
@@ -95,18 +95,19 @@
  ],
  "sections": [
   {
-   "body": "Long ago, the spirits of the wind bestowed magical instruments, devices, and animated constructs upon the people of the island. The Windshapers were tasked with their upkeep, preserving these elemental gifts across generations. However, after the spirits left, the flow of their ancient patronage ceased, causing most of the wondrous creations to fall into disrepair until only a handful remained operational.",
+   "body": "Long ago, the spirits of the wind gave the island’s people magical instruments, devices, and animated constructs. Across generations, the Windshapers cared for these gifts. Then the spirits departed, and their patronage ended. Most creations fell into disrepair. Only a handful still work.",
    "spoiler": 0,
    "title": "Gifts of the Wind Spirits"
   },
   {
-   "body": "Within the city of Valanaar, one of the last functioning constructs recently suffered damage, threatening to reduce the island's dwindling heritage even further. An artisan named Riaani Nightwind was sent to the western edge of the city to examine the machine and attempt repairs, though the fragile nature of these ancient devices makes additional aid essential.",
+   "body": "One of Valanaar’s last working constructs has been damaged. Its loss would further diminish the island’s dwindling heritage. Artisan Riaani Nightwind was sent to the city’s western edge to examine the machine and try to repair it. These ancient devices are fragile, and she needs aid.",
    "spoiler": 0,
    "title": "A Crisis in Valanaar"
   }
  ],
- "summary": "The Broken Construct involves aiding an artisan in Valanaar who is struggling to repair a rare, damaged automaton. These machines were originally gifted by the departed spirits of the wind and preserved by the Windshapers, making every remaining functional construct an invaluable relic of the island's past.",
+ "summary": "In Valanaar, a damaged construct threatens one of the island’s last working relics. Riaani Nightwind has gone to the city’s western edge to examine it. The old machines carry a history reaching back to the spirits of the wind.",
  "attribution": [
   "In-game quest text: The Broken Construct"
- ]
+ ],
+ "style": 2
 }

@@ -7,26 +7,26 @@
  "meta": {
   "wiki": "Scourge"
  },
- "summary": "The Scourge is an apocalyptic army of undead monsters, necromancers, and enslaved spirits bound to the will of the Lich King. Originally created by the Burning Legion to destabilize Azeroth ahead of the Third War, the legion of walking corpses broke free from demonic control and shattered the kingdoms of Lordaeron and Quel'Thalas. Today, they wage unending war from their arctic stronghold in Northrend and their corrupt dominion over the Plaguelands.",
+ "summary": "Across Lordaeron and Quel'Thalas, the Scourge leaves kingdoms in ruin. The Burning Legion made it to weaken Azeroth before the Third War. Its undead, necromancers, and enslaved spirits broke free of demonic control. Now it wages war from Northrend and the corrupted Plaguelands.",
  "sections": [
   {
    "title": "A Plague of Demonic Design",
-   "body": "The Scourge was born as an instrument of destruction forged by the Burning Legion. The demon lords bound the spirit of the fallen orc shaman Ner'zhul to the Frozen Throne in distant Northrend, fashioning him into the Lich King. With terrifying telepathic power, he was commanded to prepare Azeroth for conquest. The Lich King unleashed the Plague of Undeath southward into the unsuspecting human realm of Lordaeron, relying on the mortal traitors of the Cult of the Damned to poison grain supplies. Those who perished arose not as restful dead, but as twisted thralls entirely subservient to the Lich King's iron mind.",
+   "body": "The Burning Legion made the Scourge to destroy Azeroth. The demon lords bound the spirit of fallen orc shaman Ner'zhul to the Frozen Throne in Northrend and made him the Lich King. His terrifying telepathic power was meant to prepare the world for conquest. He sent the Plague of Undeath south into Lordaeron, where mortal traitors in the Cult of the Damned poisoned the grain. Those who died rose again as twisted thralls bound to his will.",
    "spoiler": 0
   },
   {
    "title": "The Fall of the North",
-   "body": "The Scourge achieved total devastation when Prince Arthas Menethil fell to the Lich King's whispers. Seeking vengeance in Northrend, Arthas claimed the cursed blade Frostmourne and forfeited his soul, becoming the Scourge's paramount death knight. Returning home, Arthas slew his father King Terenas, butchered Capital City, and unleashed the undead horde across Lordaeron. The Scourge swept through towns like Darrowshire and Andorhal, butchered the Silver Hand paladins, destroyed Dalaran to summon Archimonde, and carved a dead scar through Quel'Thalas to resurrect Kel'Thuzad as a lich.",
+   "body": "Prince Arthas Menethil heeded the Lich King's whispers, and the Scourge brought ruin to the north. Seeking vengeance in Northrend, Arthas claimed Frostmourne and lost his soul. He became the Scourge's foremost death knight. Returning home, he slew his father, King Terenas, butchered Capital City, and sent the undead across Lordaeron.\n\nThey swept through Darrowshire and Andorhal, slaughtered the Silver Hand paladins, and destroyed Dalaran to summon Archimonde. Across Quel'Thalas, they cut a dead scar to raise Kel'Thuzad as a lich.",
    "spoiler": 0
   },
   {
    "title": "Betrayal and the Schism",
-   "body": "The Lich King never intended to serve the Burning Legion permanently. Through Arthas, Ner'zhul secretly engineered the Legion's defeat by goading Illidan Stormrage into slaying the dreadlord Tichondrius in Felwood. Enraged, the demon lord Kil'jaeden later ordered Illidan to obliterate the Frozen Throne. Illidan's assault fractured the icy prison, causing the Lich King's mental grip over his minions to waver. Seizing on this weakened control, a faction of free-willed undead led by the resurrected banshee Sylvanas Windrunner broke away, christened themselves the Forsaken, and seized the ruins of Lordaeron.",
+   "body": "Ner'zhul never meant to serve the Burning Legion forever. Through Arthas, he secretly brought about the Legion's defeat by urging Illidan Stormrage to kill the dreadlord Tichondrius in Felwood. Enraged, Kil'jaeden later ordered Illidan to destroy the Frozen Throne. Illidan's attack cracked the icy prison and weakened the Lich King's hold over his minions.\n\nLed by the resurrected banshee Sylvanas Windrunner, a faction of free-willed undead broke away and took the name Forsaken. They seized the ruins of Lordaeron.",
    "spoiler": 0
   },
   {
    "title": "The Present Threat",
-   "body": "Though weakened by the fracturing of the Frozen Throne and the rebellion of the Forsaken, the Scourge remains the deadliest force in the northern world. Led in the field by the lich Kel'Thuzad, its abominations, crypt fiends, and necromancers dominate the corrupted Eastweald and Westweald, now known as the Plaguelands. From grim bastions and blighted fields, they continuously wage war against the Forsaken of the Undercity, the fanatic zealots of the Scarlet Crusade, and the remaining enclaves of the Alliance.",
+   "body": "Even after the Frozen Throne was damaged and the Forsaken rebelled, the Scourge remains the deadliest force in the northern world. The lich Kel'Thuzad leads its forces in the field. Abominations, crypt fiends, and necromancers rule the corrupted Eastweald and Westweald, now called the Plaguelands.\n\nFrom grim strongholds and blighted fields, the Scourge wages war against the Forsaken of the Undercity, the fanatics of the Scarlet Crusade, and the Alliance's remaining enclaves.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "undead scourge",
     "who are the scourge"
    ],
-   "answer": "The Scourge is a vast empire of undead thralls, necromancers, and warped beasts bound mentally to the Lich King. They exist solely to destroy all living things and convert the corpses of the fallen into obedient servants."
+   "answer": "The Scourge is a vast host of undead thralls, necromancers, and warped beasts bound to the Lich King's mind. It seeks to destroy the living and make the fallen its servants."
   },
   {
    "q": "Who leads the Scourge?",
@@ -47,7 +47,7 @@
     "scourge master",
     "who controls the scourge"
    ],
-   "answer": "The Scourge is commanded by the Lich King from his Frozen Throne in the distant, icy continent of Northrend. In the ruined lands of Lordaeron, his armies are directed locally by powerful lieutenants such as the lich Kel'Thuzad."
+   "answer": "The Lich King commands the Scourge from his Frozen Throne in Northrend. In Lordaeron's ruins, lieutenants such as the lich Kel'Thuzad direct its armies."
   },
   {
    "q": "How does the Scourge differ from the Forsaken?",
@@ -56,7 +56,7 @@
     "are forsaken scourge",
     "why are undead fighting each other"
    ],
-   "answer": "The Scourge are mindless or dominated undead enslaved to the psychic will of the Lich King. The Forsaken are former Scourge victims who regained their free will when the Lich King's power weakened. Led by Lady Sylvanas Windrunner, the Forsaken despise the Scourge and fight fiercely to annihilate them."
+   "answer": "The Scourge are undead dominated by the Lich King's will. The Forsaken were Scourge victims who regained their freedom when his power weakened. Led by Lady Sylvanas Windrunner, they hate the Scourge and fight to destroy it."
   },
   {
    "q": "Why did the Scourge attack Lordaeron?",
@@ -65,7 +65,7 @@
     "scourging of lordaeron",
     "why did scourge invade"
    ],
-   "answer": "The Burning Legion ordered the Lich King to spread the Plague of Undeath across Lordaeron to slaughter its people, weaken the Alliance, and clear away any resistance before the demons began their invasion of Azeroth during the Third War."
+   "answer": "The Burning Legion ordered the Lich King to spread the Plague of Undeath across Lordaeron. It was meant to slaughter the people, weaken the Alliance, and clear resistance before the demons invaded Azeroth during the Third War."
   },
   {
    "q": "Who is the Cult of the Damned?",
@@ -74,7 +74,7 @@
     "scourge cultists",
     "why do humans join scourge"
    ],
-   "answer": "The Cult of the Damned is a mortal organization founded by the archmage Kel'Thuzad. Its members are living humans who willingly serve the Lich King, lured by promises of dark magical power and eternal life through undeath. They were responsible for spreading the tainted grain that initiated the plague."
+   "answer": "The Cult of the Damned is a mortal group founded by the archmage Kel'Thuzad. Its living human members chose to serve the Lich King for promises of dark magic and eternal life through undeath. They spread the tainted grain that began the plague."
   },
   {
    "q": "How was Prince Arthas corrupted by the Scourge?",
@@ -83,29 +83,29 @@
     "arthas scourge",
     "why did arthas betray his people"
    ],
-   "answer": "Driven to obsession while trying to save his kingdom from the plague, Prince Arthas pursued the dreadlord Mal'Ganis to Northrend. In desperation, Arthas took up the cursed runeblade Frostmourne, which stole his soul. Broken and twisted by the Lich King's whispers, he returned as the Scourge's premier champion and butchered his own homeland."
+   "answer": "Prince Arthas pursued the dreadlord Mal'Ganis to Northrend, obsessed with saving his kingdom from the plague. In desperation, he took Frostmourne, a cursed runeblade that stole his soul. The Lich King's whispers twisted him into the Scourge's foremost champion, and Arthas butchered his homeland."
   }
  ],
  "angles": [
   {
    "target": "race:Undead",
-   "text": "Every Forsaken was once an enslaved instrument of the Scourge, forced to butcher friends and kin until the Lich King's grip slipped. Eradicating the Scourge is not just a war of survival; it is a campaign of absolute personal vengeance."
+   "text": "Every Forsaken was once enslaved by the Scourge and forced to butcher friends and kin until the Lich King's grip weakened. Destroying the Scourge is a fight for survival and deeply personal vengeance."
   },
   {
    "target": "race:Human",
-   "text": "The Scourge destroyed humanity's greatest kingdom, slaughtered the line of Menethil, and transformed the heartland of Lordaeron into a blighted wasteland."
+   "text": "The Scourge destroyed humanity's greatest kingdom, slaughtered the Menethil line, and turned Lordaeron's heartland into a blighted wasteland."
   },
   {
    "target": "class:Paladin",
-   "text": "The Knights of the Silver Hand were shattered by the Scourge when Prince Arthas turned on his own mentors and murdered Uther the Lightbringer. For any paladin, cleansing the Scourge with the Holy Light is a sacred duty."
+   "text": "The Scourge shattered the Knights of the Silver Hand when Prince Arthas turned on his mentors and murdered Uther the Lightbringer. For a paladin, cleansing the Scourge with the Holy Light is sacred duty."
   },
   {
    "target": "faction:Alliance",
-   "text": "The memory of Lordaeron's fall remains an open wound for the Alliance, driving their ongoing military efforts to reclaim the Plaguelands and avenge the fallen."
+   "text": "Lordaeron's fall remains an open wound for the Alliance, driving its efforts to reclaim the Plaguelands and avenge the fallen."
   },
   {
    "target": "faction:Horde",
-   "text": "With the Forsaken now accepted into the Horde, the entire coalition finds itself drawn into the brutal, ongoing war against the remnants of the Lich King's armies in the north."
+   "text": "The Forsaken have been accepted into the Horde, drawing the whole coalition into the ongoing war against the Lich King's remaining armies in the north."
   }
  ],
  "keywords": [
@@ -133,5 +133,6 @@
  ],
  "attribution": [
   "Scourge"
- ]
+ ],
+ "style": 2
 }

@@ -24,21 +24,21 @@
    "Freedom for All Creatures"
   ]
  },
- "summary": "The Grimtotem clan is capturing faerie dragons, and Kindal Moonweaver and Jer'kai do not know what for. Kindal asks you to bring strong friends, open the pen in the Grimtotem camp with a key and see the sprite darters out alive. Kindal comes with you; Jer'kai stays behind.",
+ "summary": "At the Grimtotem camp, Kindal Moonweaver asks you to free the captured faerie dragons. Neither Kindal nor Jer'kai knows what the Grimtotem clan intends. Kindal will go with you, while Jer'kai stays behind.",
  "sections": [
   {
    "title": "Dragons in the Pen",
-   "body": "Kindal Moonweaver calls the Grimtotem clan filthy for taking faerie dragons, and says that neither Kindal nor Jer'kai can guess their plans, only that they are up to no good. The two are not strong enough to fight their way into the camp, so Kindal turns to you. The Bamboo Cage Key opens the pen, and Kindal wants the sprite darters to escape with their lives. Strong friends at your side are welcome.",
+   "body": "Kindal Moonweaver calls the Grimtotem clan filthy for taking faerie dragons. Neither Kindal nor Jer'kai knows what the clan intends, only that it means no good. They are not strong enough to fight into the camp, so Kindal asks you to help free the sprite darters. The Bamboo Cage Key opens their pen, and Kindal wants them to escape alive. Bring strong friends to stand with you.",
    "spoiler": 0
   },
   {
    "title": "Kindal's Lookout",
-   "body": "Kindal is found on the ledge behind the Grimtotem Compound, above the water, reached by a path up the cliff face. Kindal fights beside you through the camp, while Jer'kai stays behind.",
+   "body": "Kindal waits on a ledge behind the Grimtotem Compound, above the water. A path climbs the cliff face to reach him. Kindal fights beside you through the camp. Jer'kai stays behind.",
    "spoiler": 0
   },
   {
    "title": "Afterward",
-   "body": "Once the darters are free, Kindal gives thanks to Elune. The danger has not ended: freed dragons will not necessarily stay free, so Kindal and Jer'kai mean to take the fight to the Grimtotem. Kindal sends you to speak with Jer'kai.",
+   "body": "Once the darters are free, Kindal gives thanks to Elune. The freed dragons may not remain free, so Kindal and Jer'kai intend to take the fight to the Grimtotem. Kindal sends you to speak with Jer'kai.",
    "spoiler": 1
   }
  ],
@@ -50,7 +50,7 @@
     "who has the sprite darters",
     "grimtotem cages"
    ],
-   "answer": "The Grimtotem clan, according to Kindal Moonweaver. What they want with the dragons, Kindal and Jer'kai cannot say."
+   "answer": "Kindal Moonweaver says the Grimtotem clan is capturing the faerie dragons. Kindal and Jer'kai do not know what the clan wants with them."
   },
   {
    "q": "Where is Kindal Moonweaver?",
@@ -59,7 +59,7 @@
     "kindal moonweaver location",
     "how to get to kindal moonweaver"
    ],
-   "answer": "On a ledge behind the Grimtotem Compound, above the water. A path behind a tree climbs the cliff face, reached by going left of the compound."
+   "answer": "Kindal Moonweaver waits on a ledge behind the Grimtotem Compound, above the water. Go left of the compound to find a path behind a tree that climbs the cliff face."
   },
   {
    "q": "Does Jer'kai come along?",
@@ -75,7 +75,7 @@
     "bamboo cage key",
     "how to free sprite darters"
    ],
-   "answer": "The Bamboo Cage Key, which Kindal gives you, opens the pen in the Grimtotem camp. Kindal wants you to bring strong friends."
+   "answer": "The Bamboo Cage Key, which Kindal gives you, opens the pen in the Grimtotem camp. Kindal asks you to bring strong friends."
   },
   {
    "q": "What follows this quest?",
@@ -83,7 +83,7 @@
     "next quest freedom for all creatures",
     "what next after saving sprite darters"
    ],
-   "answer": "Doling Justice is the next step of the chain."
+   "answer": "Doling Justice comes next in the chain."
   }
  ],
  "angles": [],
@@ -107,5 +107,6 @@
  ],
  "attribution": [
   "Freedom for All Creatures"
- ]
+ ],
+ "style": 2
 }

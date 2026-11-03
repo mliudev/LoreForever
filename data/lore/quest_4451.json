@@ -18,16 +18,16 @@
   "chain": [],
   "category": "Searing Gorge"
  },
- "summary": "A small brass key has found its way to you in Searing Gorge. A few words are scratched into its head, marking it as a Dark Iron outhouse key that is not to be copied. Where it leads, you cannot yet say.",
+ "summary": "In Searing Gorge, you have a small brass key with no known destination. Its head reads Dark Iron Outhouse and warns against copying it.",
  "sections": [
   {
    "title": "A Marked Key",
-   "body": "The brass key looks simple, but for the words scratched into its head, which read Dark Iron Outhouse and warn against duplicating it. Where it leads is unknown, and the way to learn is to search Searing Gorge for a use for it.",
+   "body": "The small brass key is marked Dark Iron Outhouse, with a warning not to duplicate it. Where it leads remains unknown. Search Searing Gorge for a place that accepts it.",
    "spoiler": 0
   },
   {
    "title": "An Interrupted Visit",
-   "body": "At the wooden outhouse someone coughs and asks who it is, annoyed at being disturbed. Delighted that you found the key, the occupant, Locheed, says the Dark Irons hid it after locking him in.",
+   "body": "A cough comes from inside the wooden outhouse. Someone asks who is there, annoyed at the interruption. Locheed is delighted you found the key. The Dark Irons hid it after locking him inside.",
    "spoiler": 1
   }
  ],
@@ -39,7 +39,7 @@
     "what does key say",
     "outhouse key text"
    ],
-   "answer": "Its head is scratched with the words Dark Iron Outhouse and a warning not to duplicate it."
+   "answer": "The key's head reads Dark Iron Outhouse and warns against copying it."
   },
   {
    "q": "Where does this key lead?",
@@ -48,7 +48,7 @@
     "outhouse location",
     "key to freedom turn in"
    ],
-   "answer": "That is for you to find out. The key marks itself as belonging to a Dark Iron outhouse, and a use for it is to be found somewhere in Searing Gorge."
+   "answer": "You cannot yet tell where the key leads. It is marked for a Dark Iron outhouse, somewhere in Searing Gorge."
   }
  ],
  "angles": [],
@@ -65,5 +65,6 @@
  ],
  "attribution": [
   "The Key to Freedom"
- ]
+ ],
+ "style": 2
 }

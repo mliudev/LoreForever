@@ -26,16 +26,16 @@
    "The Binding (Succubus, Orgrimmar)"
   ]
  },
- "summary": "In Orgrimmar, Gan'rul Bloodeye awaits a pendant for the succubus rite. Dogran gives up a treasured keepsake after being found and revived in the Barrens.",
+ "summary": "In Orgrimmar, Gan'rul Bloodeye waits for a pendant to draw a succubus. In the Barrens, Dogran gives up a treasured keepsake after he is found and revived.",
  "sections": [
   {
    "title": "A Grunt's Sacrifice",
-   "body": "Grunt Dogran was held and tortured by the Bristleback quilboar in the Barrens. Ken'zigla's draught brings him back to consciousness, but his body cannot recover. He chooses to meet death in battle rather than return to his mate, Zankaja, unable to fight. Dogran gives up a dirt-caked pendant, a gift born of love, and asks that Zankaja never learn what he surrendered.",
+   "body": "Grunt Dogran was held and tortured by the Bristleback quilboar in the Barrens. Ken'zigla's draught wakes him, but his body cannot recover. He would rather meet death in battle than return to his mate, Zankaja, unable to fight. Dogran gives up a dirt-caked pendant, a gift born of love, and asks that Zankaja never learn what he surrendered.",
    "spoiler": 1
   },
   {
    "title": "Bait for a Demon",
-   "body": "A warlock needs a talisman charged with strong, unblemished emotion to summon and control a succubus. These demons feed on mortal desire and twist genuine affection into anguish. Dogran's pendant bears his devotion and their parting. Bring it to Gan'rul Bloodeye in Orgrimmar's shadowy clefts, where it is cleaned and polished. Its bright emotional force can draw the soul-devourer across the Twisting Nether.",
+   "body": "A warlock needs a talisman charged with strong, unblemished emotion to summon and control a succubus. These demons feed on mortal desire, twisting true affection into anguish. Dogran's pendant holds his devotion and the memory of their parting. Bring it to Gan'rul Bloodeye in Orgrimmar's shadowy clefts, where he cleans and polishes it. Its bright emotional force can draw the soul-devourer across the Twisting Nether.",
    "spoiler": 0
   }
  ],
@@ -63,7 +63,7 @@
     "zankaja lore",
     "dogran mate"
    ],
-   "answer": "Zankaja is Dogran's young mate, who waited anxiously for news of him. He gives up her token and chooses to seek a warrior's death rather than burden her with caring for him."
+   "answer": "Zankaja is Dogran's young mate, who waited anxiously for news of him. He gives up her token and chooses a warrior's death rather than burden her with caring for him."
   },
   {
    "q": "Why does Dogran ask you to keep this secret from Zankaja?",
@@ -93,7 +93,7 @@
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you learn that arcane power alone cannot bind a demon. A succubus can be ensnared by turning its hunger for mortal passions like love and grief against it."
+   "text": "As a warlock, you learn that arcane power alone cannot bind a demon. You can ensnare a succubus by turning its hunger for mortal passions like love and grief against it."
   },
   {
    "target": "faction:Horde",
@@ -123,5 +123,5 @@
  "attribution": [
   "Love's Gift"
  ],
- "style": 1
+ "style": 2
 }

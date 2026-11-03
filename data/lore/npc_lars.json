@@ -8,16 +8,16 @@
   "wiki": "Lars",
   "refs": 1
  },
- "summary": "At a camp on the northern edge of the Hushed Bank, Lars struggles to survive Duskwood with Sven Yorgen. The woods around them hold beasts, undead, and worgen.",
+ "summary": "At a small camp on the northern edge of the Hushed Bank, Lars and Sven Yorgen struggle to survive Duskwood. Beasts, undead, and worgen roam the surrounding woods.",
  "sections": [
   {
    "title": "A Precarious Perch",
-   "body": "Lars keeps to a small camp on the northern edge of the Hushed Bank, away from the uncertain safety of Darkshire. Duskwood is dangerous, and the surrounding woods hold ferocious beasts, undead, and worgen. He stays close to Sven Yorgen, trying to survive in the hostile forest.",
+   "body": "Lars keeps to a small camp on the northern edge of the Hushed Bank, far from the uncertain safety of Darkshire. Duskwood is dangerous, with ferocious beasts, undead, and worgen in the woods. He stays close to Sven Yorgen and tries to endure the forest.",
    "spoiler": 0
   },
   {
    "title": "Threat from the Wilds",
-   "body": "Starving dire wolves prowl the woods around Lars and Sven's camp. Lars cannot keep watch or drive them off alone, so he depends on travelers to thin their packs before the predators overrun the camp.",
+   "body": "Starving dire wolves prowl near Lars and Sven's camp. Lars cannot keep watch or drive them off alone, so he relies on travelers to thin their packs before the predators overrun the camp.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is lars",
     "lars npc"
    ],
-   "answer": "Lars is a human survivor camping in Duskwood with his companion Sven Yorgen. They struggle to endure the forest's dangers on the northern edge of the Hushed Bank."
+   "answer": "Lars is a human survivor who camps in Duskwood with his companion Sven Yorgen. Together they endure the forest's dangers on the northern edge of the Hushed Bank."
   },
   {
    "q": "Where can Lars be found?",
@@ -83,5 +83,5 @@
  "attribution": [
   "Lars"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Tahonda Ruins"
  },
- "summary": "The Tahonda Ruins are the sun-bleached remnants of an ancient tauren settlement swallowed by the salt and sand of the Shimmering Flats. Little is remembered of the villagers who once lived here, and dangerous Saltstone basilisks now stalk among the decaying tent poles and shredded leather.",
+ "summary": "Salt and sand cover Tahonda Ruins, where Saltstone basilisks stalk the remains of an ancient tauren settlement in the Shimmering Flats.",
  "sections": [
   {
    "title": "Sunken beneath the Salt",
-   "body": "Situated in the southern reaches of the Shimmering Flats near the pass into Tanaris, the Tahonda Ruins stand as a somber monument to an abandoned tauren past. The village fell long ago, its weathered structures gradually engulfed by shifting white salt crusts. While some suspect the local Saltstone basilisks drove the inhabitants away, odd clues linger on the surviving structures. Two distinct sets of three parallel tears cut through the leather of a ruined lodge, suggesting the village met a violent end at the claws of powerful predators or hostile invaders before the desert claimed what remained.",
+   "body": "Tahonda Ruins lie in the southern Shimmering Flats, near the pass into Tanaris. Salt crusts cover the weathered remains of this abandoned tauren village, and strange marks scar the surviving structures.\n\nTwo sets of three parallel tears cut through the leather of a ruined lodge. No one knows whether Saltstone basilisks drove the villagers away. The marks point to a violent end at the claws of powerful predators or hostile invaders, before the desert claimed what remained.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "who built tahonda",
     "tahonda ruins history"
    ],
-   "answer": "Tahonda was once a tauren village built upon the dry expanse of the Shimmering Flats. Over time, the village fell into ruin and was gradually swallowed by shifting sands and salt crusts."
+   "answer": "Tahonda was once a tauren village on the dry Shimmering Flats. Shifting sands and salt crusts gradually swallowed it into ruin."
   },
   {
    "q": "Why was the village abandoned?",
@@ -32,7 +32,7 @@
     "what destroyed tahonda",
     "what happened to tahonda"
    ],
-   "answer": "No written history preserves the exact fate of the village. The ruins are currently overrun by vicious Saltstone basilisks, which may have driven the settlers out. However, deep three-clawed tears raked across the surviving leather lodges suggest a sudden, violent attack."
+   "answer": "No written history records why the village was abandoned. Saltstone basilisks overrun the ruins now and may have driven the settlers away. Deep, three-clawed tears in the surviving leather lodges also suggest a sudden, violent attack."
   },
   {
    "q": "What creatures live in the ruins now?",
@@ -41,13 +41,13 @@
     "what is at tahonda ruins",
     "tahonda beasts"
    ],
-   "answer": "The remnants of the village are thoroughly infested with hostile Saltstone basilisks that sun themselves among the rotting wooden poles and tattered hide shelters."
+   "answer": "Hostile Saltstone basilisks infest the village remains now. They sun themselves among rotting wooden poles and tattered hide shelters."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Finding a forgotten tauren settlement sinking beneath the salt of Thousand Needles is a poignant reminder of the dangers your nomadic ancestors faced wandering Kalimdor."
+   "text": "Among the salt of Thousand Needles, a forgotten tauren settlement recalls the dangers your nomadic ancestors faced while wandering Kalimdor."
   }
  ],
  "keywords": [
@@ -66,5 +66,6 @@
  ],
  "attribution": [
   "Tahonda Ruins"
- ]
+ ],
+ "style": 2
 }

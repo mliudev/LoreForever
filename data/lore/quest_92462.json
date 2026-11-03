@@ -17,16 +17,16 @@
   "wiki": "Infestation Investigation",
   "chain": []
  },
- "summary": "Infestation Investigation is an early task given to young adventurers stepping out into Thendal Grove on Zephras Isle. Ranger Elatrell Featherlight orders a cull of pesky cirrusflies that have begun swarming the eastern groves. Left unchecked, the fast-breeding insects threaten to destabilize the peaceful grove and endanger local settlements.",
+ "summary": "In Thendal Grove, cirrusflies swarm the eastern woods. Ranger Elatrell Featherlight sends young defenders to thin their growing numbers before nearby settlements are at risk.",
  "sections": [
   {
    "title": "A Swarm in the Canopy",
-   "body": "Thendal Grove has long maintained a delicate balance, but recent reports by local rangers indicate a sudden population surge of pesky cirrusflies on the eastern edge of the woods. While individual cirrusflies are minor pests, their swarms quickly turn aggressive and destructive when numbers balloon. Ranger Elatrell Featherlight wastes no time dispatching capable youth to cull the flying insects before their presence completely overwhelms the grove.",
+   "body": "Local rangers report a sudden rise in cirrusflies along Thendal Grove’s eastern edge. One is a minor pest, but a swarm grows aggressive and destructive. So Ranger Elatrell Featherlight sends capable youths to cull the insects before they overwhelm the grove.",
    "spoiler": 0
   },
   {
    "title": "Early Steps of Service",
-   "body": "Following their initial coming of age, young defenders are thrust directly into the practical upkeep of Zephras Isle. Clearing out pests might seem like menial labor, but keeping the woodlands safe from creeping wildlife outbreaks is vital to safeguarding the settlements nearby. The sheer abundance of entrails and insects clinging to returning hunters proves that the swarm's scale is far worse than initially feared.",
+   "body": "After coming of age, young defenders help keep Zephras Isle safe. Clearing pests protects nearby settlements from outbreaks in the woods. Yet entrails and insects clinging to returning hunters show the swarm is far larger than first feared.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "cirrusflies",
     "what are cirrusflies"
    ],
-   "answer": "Cirrusflies are winged insect pests native to the lush environments of Zephras Isle. Though small on their own, they multiply rapidly and can quickly form hazardous swarms if their numbers are left unchecked in places like Thendal Grove."
+   "answer": "Cirrusflies are winged insect pests native to Zephras Isle. Alone, they are small, but they multiply quickly and can form dangerous swarms in places like Thendal Grove."
   },
   {
    "q": "Who gives the quest Infestation Investigation?",
@@ -47,7 +47,7 @@
     "who starts it",
     "elatrell featherlight"
    ],
-   "answer": "The task is assigned by Elatrell Featherlight, a ranger stationed in Thendal Grove tasked with keeping the local wildlife and surrounding woods under control."
+   "answer": "Elatrell Featherlight gives the assignment. The ranger is stationed in Thendal Grove and watches the local wildlife and surrounding woods."
   },
   {
    "q": "Where are the cirrusflies located?",
@@ -56,7 +56,7 @@
     "cirrusfly location",
     "thendal grove flies"
    ],
-   "answer": "The pesky cirrusflies cluster toward the eastern and southeastern reaches of Thendal Grove on Zephras Isle, buzzing through the foliage alongside young vuldren."
+   "answer": "Cirrusflies gather in the eastern and southeastern reaches of Thendal Grove on Zephras Isle. They are found among the foliage and young vuldren."
   },
   {
    "q": "Why is culling the cirrusflies important?",
@@ -65,7 +65,7 @@
     "why cull cirrusflies",
     "cirrusfly threat"
    ],
-   "answer": "While an isolated insect poses little danger, cirrusfly swarms can quickly grow dense enough to threaten travelers, deplete local plants, and disturb the peaceful balance of Thendal Grove."
+   "answer": "A single cirrusfly poses little danger, but a swarm can grow dense enough to threaten travelers, consume local plants, and upset Thendal Grove’s balance."
   },
   {
    "q": "What comes after Infestation Investigation?",
@@ -74,7 +74,7 @@
     "what next",
     "investigation follow up"
    ],
-   "answer": "After thinning the swarm and reporting back to Elatrell Featherlight, adventurers are directed toward the heart of the infestation to confront the Cirrusfly Queen."
+   "answer": "After you thin the swarm and report to Elatrell Featherlight, you are sent toward the heart of the infestation to face the Cirrusfly Queen."
   },
   {
    "q": "Where does this quest fit into the early journey on Zephras?",
@@ -83,17 +83,17 @@
     "when do i get this",
     "level requirement"
    ],
-   "answer": "The quest is offered immediately after completing the Coming of Age trial, serving as one of the first combat assignments given to newly recognized defenders of Zephras Isle."
+   "answer": "The assignment comes right after the Coming of Age trial. It is one of the first combat duties given to newly recognized defenders of Zephras Isle."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "For budding marksmen and trackers, tracking small, darting cirrusflies among the trees offers valuable practice in leading fast-moving targets in dense cover."
+   "text": "As a hunter, you track cirrusflies darting among the trees and practice leading fast-moving targets through dense cover."
   },
   {
    "target": "class:Druid",
-   "text": "Preserving Thendal Grove means managing natural imbalances before aggressive swarms strip the woodland bare."
+   "text": "As a druid, you help preserve Thendal Grove by addressing natural imbalances before aggressive swarms strip the woodland bare."
   }
  ],
  "keywords": [
@@ -111,5 +111,6 @@
  ],
  "attribution": [
   "Infestation Investigation"
- ]
+ ],
+ "style": 2
 }

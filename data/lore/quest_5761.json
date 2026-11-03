@@ -17,16 +17,16 @@
   "wiki": "Slaying the Beast (quest)",
   "chain": []
  },
- "summary": "In Orgrimmar’s Cleft of Shadow, Neeru Fireblade sends Horde adventurers into Ragefire Chasm to hunt Taragaman the Hungerer. He claims Warchief Thrall ordered the hunt and demands the towering felguard’s heart as proof the demonic cult has fallen.",
+ "summary": "Neeru Fireblade sends Horde adventurers from Orgrimmar into Ragefire Chasm to hunt Taragaman the Hungerer. He says Warchief Thrall ordered the hunt and asks for the felguard’s heart as proof the demonic cult has fallen.",
  "sections": [
   {
    "title": "A Threat Beneath the City",
-   "body": "Ragefire Chasm lies beneath Orgrimmar’s red earthen streets, a fiery fissure filled with troggs, beasts, and covert Searing Blade agents. In the Cleft of Shadow above, Neeru Fireblade presents himself as a loyal servant carrying out Thrall’s order to cleanse this demonic rot. He points to Taragaman the Hungerer, a massive felguard in the cavern’s heart, and names him as the mastermind behind the cult below the city.",
+   "body": "Ragefire Chasm runs beneath Orgrimmar’s red earthen streets. Its fiery fissure shelters troggs, beasts, and covert Searing Blade agents. In the Cleft of Shadow above, Neeru Fireblade claims to serve Thrall and cleanse the demonic rot. He points to Taragaman the Hungerer, a massive felguard in the cavern’s heart, and calls him the mastermind behind the cult beneath the city.",
    "spoiler": 0
   },
   {
    "title": "The Warlock's Deception",
-   "body": "Returning Taragaman’s heart to Neeru Fireblade brings high praise and promises that Thrall will be appeased. Taragaman is only an expendable brute, not the cult’s true leader. By sending Horde heroes after the demon, Neeru gives Thrall a visible victory to quiet suspicion while shielding the Searing Blade’s real leadership and deeper operations beneath Orgrimmar from closer scrutiny.",
+   "body": "Neeru Fireblade praises those who return with Taragaman’s heart and promises Thrall will be appeased. But Taragaman is only an expendable brute, not the cult’s true leader. Neeru sends Horde heroes after the demon to give Thrall a visible victory and quiet his suspicions. The hunt shields the Searing Blade’s real leadership and deeper operations beneath Orgrimmar from closer scrutiny.",
    "spoiler": 1
   }
  ],
@@ -65,7 +65,7 @@
     "who leads searing blade",
     "taragaman leader"
    ],
-   "answer": "Neeru Fireblade names Taragaman as their leader. Taragaman is a formidable felguard among the Searing Blade cultists in Ragefire Chasm’s heart."
+   "answer": "Neeru Fireblade names Taragaman as the Searing Blade’s leader. Taragaman is a formidable felguard among the cultists in Ragefire Chasm’s heart."
   },
   {
    "q": "Where is Taragaman located?",
@@ -83,21 +83,21 @@
     "hidden enemies questline",
     "thrall and neeru"
    ],
-   "answer": "In the Hidden Enemies storyline, Thrall investigates the Shadow Council’s infiltration of Orgrimmar and watches Neeru Fireblade closely. Neeru offers this hunt to show Thrall visible results against the Searing Blade."
+   "answer": "Thrall investigates the Shadow Council’s infiltration of Orgrimmar and watches Neeru Fireblade closely. Neeru offers the hunt to show Thrall visible results against the Searing Blade."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock working from the Cleft of Shadow alongside Neeru, you see the political tightrope of practicing fel magic under Thrall’s watchful gaze."
+   "text": "As a warlock working from the Cleft of Shadow alongside Neeru, you see the political strain of practicing fel magic under Thrall’s watchful gaze."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you face an immediate threat to Orgrimmar’s safety when a demonic presence festers beneath the capital."
+   "text": "As a member of the Horde, you face an immediate threat to Orgrimmar’s safety from the demonic presence beneath the capital."
   },
   {
    "target": "race:Orc",
-   "text": "As an orc striving to escape the legacy of the demon blood curse, you can find the presence of a felguard and demon cult beneath Thrall’s throne an intolerable disgrace."
+   "text": "As an orc striving to escape the legacy of the demon blood curse, you may find the felguard and demon cult beneath Thrall’s throne an intolerable disgrace."
   }
  ],
  "keywords": [
@@ -122,5 +122,5 @@
  "attribution": [
   "Slaying the Beast (quest)"
  ],
- "style": 1
+ "style": 2
 }

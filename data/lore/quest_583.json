@@ -30,16 +30,16 @@
   ],
   "category": "Stranglethorn Vale"
  },
- "summary": "Barnil Stonepot welcomes newcomers arriving at the hunting camp in northern Stranglethorn Vale. Recognizing a fellow battle-tested wanderer, he arranges an introduction to the expedition's leader, the renowned huntsman Hemet Nesingwary.",
+ "summary": "In Stranglethorn Vale, Barnil Stonepot welcomes newcomers to the hunting camp and spots a seasoned wanderer. He offers to introduce you to Hemet Nesingwary, the expedition's leader.",
  "sections": [
   {
    "title": "An Audience with the Master",
-   "body": "Barnil Stonepot greets newcomers at the camp in the jungle of Stranglethorn Vale, and he can tell a seasoned combatant when he sees one. He points out Hemet Nesingwary, a famous Alliance war hero and peerless tracker. Nesingwary reserves his fellowship for proven veterans, and Barnil believes the old marksman might be convinced to share his hunting wisdom with someone who has endured the trials of battle.",
+   "body": "Barnil Stonepot greets newcomers at the camp in Stranglethorn Vale. He spots seasoned fighters and points out Hemet Nesingwary, an Alliance war hero and peerless tracker. Nesingwary keeps company with veterans who have proved themselves. Barnil thinks the old marksman may share his hunting wisdom with someone who has endured battle.",
    "spoiler": 0
   },
   {
    "title": "The Trials of the Expedition",
-   "body": "Nesingwary welcomes you warmly, noting how rare it is to see someone of your calling in these wild lands. He explains that his expedition gathered here with a single goal: pursuing a legendary, elusive jungle beast. While he is willing to include you in the grand chase, trust must be earned through the blood of lesser quarry. Nesingwary personally oversees the stalking of raptors, while his comrades Ajeck and Sir Erlgadin tutor hunters in the ways of tigers and panthers.",
+   "body": "Hemet Nesingwary welcomes you and remarks how rare it is to meet someone of your calling in these wild lands. His expedition came to hunt a legendary, elusive jungle beast. He will include you in the chase once you earn his trust by hunting lesser quarry. Nesingwary oversees the raptor hunt. His comrades Ajeck and Sir Erlgadin teach hunters to pursue tigers and panthers.",
    "spoiler": 1
   }
  ],
@@ -51,7 +51,7 @@
     "who is hemet",
     "nesingwary lore"
    ],
-   "answer": "Hemet Nesingwary is a celebrated Alliance war veteran and a renowned big game hunter. He leads an expedition camp in the jungles of Stranglethorn Vale."
+   "answer": "Hemet Nesingwary is a celebrated Alliance war veteran and renowned big game hunter. He leads an expedition camp in Stranglethorn Vale's jungles."
   },
   {
    "q": "Who sends you to speak with Nesingwary?",
@@ -60,7 +60,7 @@
     "quest giver",
     "who starts welcome to the jungle"
    ],
-   "answer": "Barnil Stonepot, one of the members stationed at the jungle encampment, directs seasoned adventurers to greet Nesingwary after recognizing their combat experience."
+   "answer": "Barnil Stonepot, at the jungle encampment, directs seasoned adventurers to greet Nesingwary after recognizing their combat experience."
   },
   {
    "q": "What comes after speaking with Nesingwary?",
@@ -69,21 +69,21 @@
     "nesingwary trials",
     "hunting lessons"
    ],
-   "answer": "Several hunts open up: Raptor Mastery, Tiger Mastery, Panther Mastery and The Green Hills of Stranglethorn."
+   "answer": "After you speak with Nesingwary, several hunts open up: Raptor Mastery, Tiger Mastery, Panther Mastery and The Green Hills of Stranglethorn."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "For a hunter wandering the jungles of Stranglethorn, Hemet Nesingwary may have some hunting pointers to share."
+   "text": "As a hunter in Stranglethorn's jungles, you may find Hemet Nesingwary has hunting pointers to share."
   },
   {
    "target": "faction:Alliance",
-   "text": "Barnil Stonepot points out that Hemet Nesingwary is a renowned war hero of the Alliance with a soft spot for fellow veterans."
+   "text": "As an Alliance veteran, you learn from Barnil Stonepot that Hemet Nesingwary is a renowned war hero who favors fellow veterans."
   },
   {
    "target": "race:Dwarf",
-   "text": "The camp's famed hunter, Hemet Nesingwary, is a dwarf like you, and Barnil Stonepot points him out as a master big game hunter."
+   "text": "As a dwarf, you share a race with the camp's famed hunter, Hemet Nesingwary. Barnil Stonepot points him out as a master big game hunter."
   }
  ],
  "keywords": [
@@ -108,5 +108,6 @@
  ],
  "attribution": [
   "Welcome to the Jungle (Classic)"
- ]
+ ],
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Yorgen Farmstead"
  },
- "summary": "Defias outlaws now occupy Yorgen Farmstead in southern Duskwood. The farm once belonged to Sven Yorgen, who fled north to a camp along the Darkened Bank.",
+ "summary": "Defias outlaws hold Yorgen Farmstead in southern Duskwood. Sven Yorgen fled north to a camp along the Darkened Bank.",
  "sections": [
   {
    "title": "A Ruined Homestead",
-   "body": "Yorgen Farmstead lies in southern Duskwood, where Sven Yorgen once worked the land. Dangers drove Sven from his farm, and he retreated north to a makeshift camp along the Darkened Bank. Outlaws claimed the abandoned grounds, seeking a foothold beyond the reach of Stormwind's authorities.",
+   "body": "Yorgen Farmstead lies in southern Duskwood, where Sven Yorgen once worked the land. Danger drove him north to a makeshift camp along the Darkened Bank. Outlaws took the farm after he left, seeking ground beyond Stormwind's reach.",
    "spoiler": 0
   },
   {
    "title": "Defias Infiltration",
-   "body": "The Defias Brotherhood now uses Yorgen Farmstead as a staging ground. Masked highwaymen and cutthroats hide among the decaying fences and weathered outbuildings, screened by dense trees. Defias assassins patrol the perimeter and ambush travelers who trespass on the seized property.",
+   "body": "The Defias Brotherhood uses Yorgen Farmstead as a staging ground. Masked highwaymen and cutthroats hide among its fences and outbuildings, screened by dense trees. Defias assassins patrol the grounds and ambush travelers who trespass.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who owns yorgen farm",
     "sven yorgen farm"
    ],
-   "answer": "Sven Yorgen once owned and farmed Yorgen Farmstead. Rising dangers drove him from his home to a solitary camp farther north along the Darkened Bank."
+   "answer": "Sven Yorgen once owned and farmed Yorgen Farmstead. Rising dangers drove him from home to a solitary camp farther north along the Darkened Bank."
   },
   {
    "q": "Who occupies the farmstead now?",
@@ -37,7 +37,7 @@
     "what enemies are here",
     "who lives here now"
    ],
-   "answer": "The Defias Brotherhood occupies the deserted farm. Cutpurses, bandits, and hidden assassins prowl its overgrown yards and barnyards, making a visit dangerous."
+   "answer": "The Defias Brotherhood occupies the deserted farm. Cutpurses, bandits, and hidden assassins prowl its overgrown yards and barnyards, making any visit dangerous."
   },
   {
    "q": "Where did Sven Yorgen go?",
@@ -46,7 +46,7 @@
     "sven yorgen location",
     "find sven yorgen"
    ],
-   "answer": "Sven Yorgen left the farm for a modest camp along the Darkened Bank, north of Yorgen Farmstead beside the river between Duskwood and Elwynn Forest."
+   "answer": "Sven Yorgen left the farm for a modest camp along the Darkened Bank. It lies north of Yorgen Farmstead beside the river between Duskwood and Elwynn Forest."
   },
   {
    "q": "Why is the Defias Brotherhood in Duskwood?",
@@ -55,17 +55,17 @@
     "why are bandits here",
     "defias brotherhood farm"
    ],
-   "answer": "The Defias Brotherhood has carried its operations far beyond Westfall. Disorganized rural settlements and weakened regional defenses let its agents establish hidden camps and strongholds beyond the reach of Stormwind's marshals."
+   "answer": "The Defias Brotherhood has carried its operations far beyond Westfall. Disorganized rural settlements and weakened defenses let its agents establish hidden camps and strongholds beyond the reach of Stormwind's marshals."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you can see how Defias assassins use the neglected farmstead as a concealed hideout."
+   "text": "As a rogue, you can see Defias assassins using the neglected farmstead as a concealed hideout."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can see how far the Defias Brotherhood has spread through Duskwood while the Night Watch struggles to keep order in Darkshire."
+   "text": "As an Alliance member, you can see how far the Defias Brotherhood has spread through Duskwood. The Night Watch struggles to keep order in Darkshire."
   }
  ],
  "keywords": [
@@ -86,5 +86,5 @@
  "attribution": [
   "Yorgen Farmstead"
  ],
- "style": 1
+ "style": 2
 }

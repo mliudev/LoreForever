@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Helping Martie Jainrose protect her home and garden brings a small measure of order and relief to the beleaguered town of Lakeshire, where townspeople are already strained by larger threats in Redridge."
+   "text": "As an Alliance traveler, helping Martie Jainrose brings relief and order to Lakeshire, where townspeople already face greater threats in Redridge."
   },
   {
    "target": "class:Hunter",
-   "text": "Bellygrub is a notorious named beast roaming southwest of Lakeshire, making him a prominent tracking and hunting challenge for any marksman passing through Redridge Mountains."
+   "text": "As a hunter, you can track Bellygrub, the named beast roaming southwest of Lakeshire, through the Redridge Mountains."
   },
   {
    "target": "profession:Herbalism",
-   "text": "Martie Jainrose's pride was her cultivated floral patch, and Bellygrub's destructive rampage ruined her seasonal daffodils, striking at the heart of Redridge's delicate domestic plant life."
+   "text": "As an herbalist, you know the care Martie Jainrose gave her flower patch. Bellygrub's rampage ruined her seasonal daffodils and damaged the town's domestic plant life."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "where to get an unwelcome guest",
     "martie jainrose quest"
    ],
-   "answer": "Martie Jainrose offers the quest in the lakeside town of Lakeshire within the Redridge Mountains. Distressed by the constant destruction of her floral garden, she asks passing adventurers to hunt down the culprit.",
+   "answer": "Martie Jainrose asks for help in Lakeshire, the lakeside town in the Redridge Mountains. Her garden has suffered repeated damage, and she wants the boar responsible hunted down.",
    "q": "Who gives the quest An Unwelcome Guest?"
   },
   {
@@ -41,7 +41,7 @@
     "what is bellygrub",
     "why is bellygrub called that"
    ],
-   "answer": "Bellygrub is an aggressive, destructive boar known to terrorize the local grounds around Lakeshire. The town's local guard leader, Marshal Marris, originally bestowed the beast with its moniker.",
+   "answer": "Bellygrub is an aggressive boar that terrorizes the grounds around Lakeshire. Marshal Marris, the town guard leader, gave him that name.",
    "q": "Who or what is Bellygrub?"
   },
   {
@@ -51,7 +51,7 @@
     "find bellygrub",
     "where does bellygrub spawn"
    ],
-   "answer": "Bellygrub spends most of his time foraging in the open fields southwest of Lakeshire, though he frequently wanders closer to town borders and into resident gardens.",
+   "answer": "Bellygrub usually forages in the open fields southwest of Lakeshire. He often wanders closer to town and into residents' gardens.",
    "q": "Where can Bellygrub be found?"
   },
   {
@@ -60,7 +60,7 @@
     "why kill bellygrub",
     "what did bellygrub do"
    ],
-   "answer": "Bellygrub repeatedly trampled and pillaged Martie Jainrose's carefully tended garden, entirely ruining her daffodils so that none can be replanted until next season. Fed up with the recurring damage, she wants him eliminated.",
+   "answer": "Bellygrub repeatedly trampled Martie Jainrose's garden and ruined her daffodils for the season. She wants him killed to stop the damage.",
    "q": "Why does Martie Jainrose want Bellygrub killed?"
   },
   {
@@ -69,7 +69,7 @@
     "unwelcome guest turn in",
     "what to bring martie jainrose"
    ],
-   "answer": "Martie Jainrose requires the tusk of Bellygrub as proof that the menacing beast has finally been dealt with before she will reward you.",
+   "answer": "Martie Jainrose asks you to bring her Bellygrub's tusk as proof that the boar has been dealt with. She will reward you for it.",
    "q": "What proof is needed to complete the quest?"
   },
   {
@@ -77,7 +77,7 @@
     "who is marshal marris",
     "marshal marris bellygrub"
    ],
-   "answer": "Marshal Marris is the local marshal stationed in Lakeshire. While Martie Jainrose seeks personal vengeance for her ruined daffodils, Marris is the one who named the nuisance boar Bellygrub.",
+   "answer": "Marshal Marris leads Lakeshire's town guard. He named the boar Bellygrub, while Martie Jainrose seeks vengeance for her ruined daffodils.",
    "q": "Who is Marshal Marris and what is his connection to the beast?"
   }
  ],
@@ -99,18 +99,19 @@
  ],
  "sections": [
   {
-   "body": "In the lakeside town of Lakeshire, Martie Jainrose tends to her domestic grounds amidst the gathering shadows over the Redridge Mountains. Her quiet routine is shattered by a persistent local terror: a notoriously aggressive wild boar that has repeatedly invaded her garden. Having trampled her prized patch of daffodils beyond recovery for the season, the distraught resident turns to capable travelers to put an end to the rampaging animal.",
+   "body": "Martie Jainrose lives in Lakeshire, a town by the lake beneath the gathering shadows over the Redridge Mountains. A wild boar keeps breaking into her garden and ruining the peace of her home. Bellygrub has trampled her daffodils beyond recovery for the season. Now Martie asks travelers to end the animal's rampage.",
    "spoiler": 0,
    "title": "Trouble in the Garden"
   },
   {
-   "body": "The beast responsible is known to the locals as Bellygrub, an apt title coined by Lakeshire's town guard leader, Marshal Marris. Bellygrub spends the bulk of his time rooting and foraging through the brush in the fields southwest of the town. However, his voracious appetite and boldness often draw him dangerously close to civilized homes, culminating in the complete ruin of Martie's floral beds and demanding his definitive removal.",
+   "body": "Marshal Marris, who leads Lakeshire's town guard, gave the boar his name: Bellygrub. He spends most of his time rooting through the fields southwest of town. His hunger and boldness bring him close to homes, where he ruined Martie's flower beds. The damage has left her wanting him gone.",
    "spoiler": 0,
    "title": "The Menace of Bellygrub"
   }
  ],
- "summary": "An Unwelcome Guest is a local task in Lakeshire where resident Martie Jainrose seeks retribution against Bellygrub, a destructive wild boar. The beast has rampaged through her garden and trampled her seasonal daffodils, prompting a bounty on the creature's tusk.",
+ "summary": "In Lakeshire, Martie Jainrose asks you to stop Bellygrub for good. The wild boar wrecked her garden and trampled her daffodils, and she offers a bounty for his tusk.",
  "attribution": [
   "In-game quest text: An Unwelcome Guest"
- ]
+ ],
+ "style": 2
 }

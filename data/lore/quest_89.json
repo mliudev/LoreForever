@@ -17,16 +17,16 @@
   "wiki": "The Everstill Bridge",
   "chain": []
  },
- "summary": "In Lakeshire, The Everstill Bridge still waits for repairs. Iron meant for the work went into weapons during the last orc invasion, and Redridge gnolls ambushed the replacement caravan from Stormwind.",
+ "summary": "In Lakeshire, The Everstill Bridge waits unfinished while its iron goes to war. The town forged its construction iron into weapons during the last orc invasion, and Redridge gnolls ambushed the replacement caravan from Stormwind.",
  "sections": [
   {
    "title": "A Town Cut Off",
-   "body": "You find Lakeshire's stone bridge across Lake Everstill unfinished. It links the western roads toward Elwynn Forest with the far bank and the northern passes. Recent orc incursions brought the town close to ruin. To survive, Lakeshire melted its structural iron into munitions, blades, and plate armor to repel the Blackrock invaders. The bridge was left incomplete and vulnerable.",
+   "body": "Across Lake Everstill, Lakeshire's stone bridge still lacks its final work. It links the western roads toward Elwynn Forest with the far bank and the northern passes. Recent orc incursions nearly ruined the town. To survive, Lakeshire melted the bridge's iron into munitions, blades, and plate armor against the Blackrock invaders. The bridge remained unfinished and exposed.",
    "spoiler": 0
   },
   {
    "title": "Stolen Shipments",
-   "body": "Foreman Oslow asked the House of Nobles and Stormwind for fresh materials to finish the repairs. A caravan carrying iron set out, but Redridge gnolls ambushed it on the road. They took iron pikes and rivets to their camps in the northern hills. You can help recover the stolen supplies; without them, the bridge work remains stalled as gnolls and orcs tighten their hold on the mountains.",
+   "body": "Foreman Oslow sought fresh materials from the House of Nobles and Stormwind. A caravan bearing iron set out, but Redridge gnolls ambushed it on the road. They carried iron pikes and rivets to their camps in the northern hills. You can help recover the stolen supplies. Without them, repairs remain stalled as gnolls and orcs tighten their hold on the mountains.",
    "spoiler": 0
   }
  ],
@@ -111,5 +111,5 @@
  "attribution": [
   "The Everstill Bridge"
  ],
- "style": 1
+ "style": 2
 }

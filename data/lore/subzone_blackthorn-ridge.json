@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Blackthorn Ridge"
  },
- "summary": "At Blackthorn Ridge, Razormane quilboar guard the southern Barrens north of Razorfen Kraul. Brine, an orc shaman, keeps watch from a camp above a pool of unusually pure mountain water.",
+ "summary": "At Blackthorn Ridge, Razormane quilboar guard the southern Barrens north of Razorfen Kraul. Brine, an orc shaman, watches from a camp above a pool of unusually pure mountain water.",
  "sections": [
   {
    "title": "A Thorn-Choked Redoubt",
-   "body": "Blackthorn Ridge rises beside Razorfen Kraul, its slopes crowded with dense thickets of sharp briars. The Razormane quilboar claim the ground as ancestral territory, using the thorny barriers to ambush outsiders and skirmish across the southern Barrens. Travelers seek out the ridge despite the danger, drawn to Brine, a hermit orc shaman. His camp sits above a spring famed across Kalimdor for its clear, spiritually pure water.",
+   "body": "Beside Razorfen Kraul, Blackthorn Ridge rises through thickets of sharp briars. The Razormane quilboar claim these slopes as ancestral ground. They use the thorn barriers to ambush outsiders and skirmish across the southern Barrens. Travelers still seek the ridge despite the danger, drawn by Brine, a hermit orc shaman. His camp overlooks a spring famed across Kalimdor for its clear, spiritually pure water.",
    "spoiler": 0
   }
  ],
@@ -47,11 +47,11 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Young Horde shamans seek out Brine at the ridge to learn about the purity of natural water elements amid the harsh, dry plains."
+   "text": "As a young Horde shaman, you can seek out Brine at the ridge and learn about the purity of natural water elements amid the harsh, dry plains."
   },
   {
    "target": "faction:Horde",
-   "text": "Razormane quilboar threaten Horde supply lines through the southern Barrens toward Thousand Needles, so passing caravans must stay vigilant."
+   "text": "Razormane quilboar threaten Horde supply lines through the southern Barrens toward Thousand Needles. Passing caravans must stay vigilant."
   }
  ],
  "keywords": [
@@ -73,5 +73,5 @@
  "attribution": [
   "Blackthorn Ridge"
  ],
- "style": 1
+ "style": 2
 }

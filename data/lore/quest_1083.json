@@ -17,16 +17,16 @@
   "wiki": "Enraged Spirits",
   "chain": []
  },
- "summary": "In the Charred Vale, spirits of flame and stone rage after the Venture Company’s destruction. Fire and heavy machinery laid waste to the basin, and the freed elementals overran it. Alliance champions are asked to quell them so the wounded land may heal under Elune’s grace.",
+ "summary": "In the Charred Vale, Enraged Spirits overrun the burned basin. Fire and heavy machinery laid waste to the land, and the freed elementals now rage there. Alliance champions are asked to quell them so the wounded land may heal under Elune’s grace.",
  "sections": [
   {
    "title": "A Scorched Tragedy",
-   "body": "The Charred Vale was once a lush haven in Stonetalon. The Venture Company’s greed turned it to ash as goblins drove to log the forest and strip its resources. They used incendiary devices and heavy machinery, setting the canopy ablaze. Their actions destroyed the trees and shattered the fragile elemental balance beneath the earth.",
+   "body": "The Charred Vale was once a lush haven in Stonetalon. The Venture Company’s greed turned it to ash as goblins sought to log the forest and strip its resources. They used incendiary devices and heavy machinery, setting the canopy ablaze. The trees fell, and the fragile elemental balance beneath the earth was shattered.",
    "spoiler": 0
   },
   {
    "title": "Unleashed Fury",
-   "body": "The Venture Company’s work stirred ancient spirits of fire, stone, and fury from the depths. The enraged elementals turned on the goblins, drove them back, and claimed the smoldering crater. Kaela Shadowspear says nature cannot begin to recover while these chaotic elementals remain.",
+   "body": "The Venture Company’s work stirred ancient spirits of fire, stone, and fury from the depths. The elementals’ fury fell upon the goblins, driving them back as the spirits claimed the smoldering crater. Kaela Shadowspear says nature cannot begin to recover while these chaotic elementals remain.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "where to get enraged spirits",
     "who starts enraged spirits"
    ],
-   "answer": "Kaela Shadowspear, a night elf sentinel in the Stonetalon Mountains, gives this charge to Alliance adventurers seeking to aid the land."
+   "answer": "Kaela Shadowspear, a night elf sentinel in the Stonetalon Mountains, gives this charge to Alliance adventurers who seek to aid the land."
   },
   {
    "q": "Why are the fire elementals rampaging in the Charred Vale?",
@@ -47,7 +47,7 @@
     "what caused the fire elementals",
     "charred vale fire spirits"
    ],
-   "answer": "The Venture Company clear-cut and burned the forest with destructive machinery. Their methods disrupted the earth and freed dormant spirits of flame, stone, and rage, which overran the area."
+   "answer": "The Venture Company clear-cut and burned the forest with destructive machinery. Their work disrupted the earth and freed dormant spirits of flame, stone, and rage, which overran the area."
   },
   {
    "q": "What happened to the Venture Company in the Charred Vale?",
@@ -65,7 +65,7 @@
     "what are embers for",
     "embers of enraged spirits"
    ],
-   "answer": "Smoldering Embers are burning remnants collected from fire elementals destroyed in the Charred Vale. They are brought to Kaela Shadowspear as proof that the elementals have been culled."
+   "answer": "Smoldering Embers are burning remnants gathered from fire elementals destroyed in the Charred Vale. They are brought to Kaela Shadowspear as proof that the elementals have been culled."
   },
   {
    "q": "Can the Charred Vale ever recover?",
@@ -83,7 +83,7 @@
     "how to find charred vale",
     "where are the elementals"
    ],
-   "answer": "The Charred Vale lies in the southwestern Stonetalon Mountains, among blackened earth, burned timber, and roaming elemental spirits."
+   "answer": "The Charred Vale lies in the southwestern Stonetalon Mountains, amid blackened earth, burned timber, and roaming elemental spirits."
   }
  ],
  "angles": [
@@ -93,7 +93,7 @@
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you see the rampaging fire elementals as a grave disruption of nature’s balance. Active intervention is needed before life can return to the soil."
+   "text": "As a druid, you see the rampaging fire elementals as a grave disruption of nature’s balance. Action is needed before life can return to the soil."
   },
   {
    "target": "class:Shaman",
@@ -101,7 +101,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you work through night elf sentinels in Stonetalon to contain the chaos caused by goblin cartels and restore safety to the mountain passes."
+   "text": "As an Alliance member, you work with night elf sentinels in Stonetalon to contain the chaos caused by goblin cartels and restore safety to the mountain passes."
   }
  ],
  "keywords": [
@@ -124,5 +124,5 @@
  "attribution": [
   "Enraged Spirits"
  ],
- "style": 1
+ "style": 2
 }

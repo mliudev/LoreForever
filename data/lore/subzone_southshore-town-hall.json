@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Southshore Town Hall"
  },
- "summary": "At Southshore Town Hall, Magistrate Henry Maleb directs the town’s affairs and defenses. It remains one of Lordaeron’s last centers of civil authority, while the Alliance struggles to hold ground in the plagued north.",
+ "summary": "At Southshore Town Hall, Magistrate Henry Maleb directs the town’s affairs and defenses. It is one of Lordaeron’s last centers of civil authority as the Alliance struggles to hold ground in the plagued north.",
  "sections": [
   {
    "title": "A Bastion of Civil Rule",
-   "body": "Southshore Town Hall keeps human rule alive amid Lordaeron’s ruin. Magistrate Henry Maleb governs from his office, working with officials such as Kundric Zanden to secure supplies and preserve order. Undead press from nearby lands, Syndicate rogues threaten the region, and Hillsbrad’s border sees fierce skirmishes. From the hall, town leaders direct Southshore’s survival against these threats.",
+   "body": "Southshore Town Hall keeps human rule alive amid Lordaeron’s ruin. Magistrate Henry Maleb governs from his office and works with officials such as Kundric Zanden to secure supplies and keep order. Undead press from nearby lands, Syndicate rogues threaten the region, and fierce skirmishes mark Hillsbrad’s border. From the hall, town leaders guide Southshore’s fight to survive.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "southshore mayor",
     "who runs southshore"
    ],
-   "answer": "Magistrate Henry Maleb leads Southshore’s civil government from the town hall, directing the settlement’s administration and defense."
+   "answer": "Magistrate Henry Maleb leads Southshore’s civil government from the town hall. He directs the settlement’s administration and defense."
   },
   {
    "q": "What is the strategic importance of Southshore Town Hall?",
@@ -31,7 +31,7 @@
     "why does the town hall matter",
     "southshore importance"
    ],
-   "answer": "Southshore Town Hall is one of the last seats of Lordaeron’s civil leadership in the north. Alliance members look to it for direction, bounties, and coordination against the Forsaken and Syndicate bandits."
+   "answer": "Southshore Town Hall is one of Lordaeron’s last seats of civil leadership in the north. Alliance members look to it for direction, bounties, and coordination against the Forsaken and Syndicate bandits."
   },
   {
    "q": "Who else works inside the town hall?",
@@ -40,7 +40,7 @@
     "kundric zanden",
     "town hall npcs"
    ],
-   "answer": "Kundric Zanden and other civil servants work alongside Magistrate Henry Maleb inside the town hall, helping manage local affairs and town operations."
+   "answer": "Kundric Zanden and other civil servants work alongside Magistrate Henry Maleb inside the town hall. They help manage local affairs and town operations."
   },
   {
    "q": "How does the town hall maintain ties with the wider Alliance?",
@@ -48,7 +48,7 @@
     "is southshore alliance",
     "ties to stormwind"
    ],
-   "answer": "Southshore was part of the Kingdom of Lordaeron, and its leaders now rely heavily on the Alliance for reinforcements and supplies. That support helps defend the isolated coastal town against nearby hostile forces."
+   "answer": "Southshore was part of the Kingdom of Lordaeron, and its leaders now rely heavily on the Alliance for reinforcements and supplies. That support helps defend the isolated coastal town from nearby hostile forces."
   }
  ],
  "angles": [
@@ -58,7 +58,7 @@
   },
   {
    "target": "race:Human",
-   "text": "As a human traveler, you see Southshore Town Hall as a reminder of Lordaeron’s lost glory, where a working magistrate still upholds the banners of a shattered kingdom."
+   "text": "As a human traveler, you see Southshore Town Hall as a reminder of Lordaeron’s lost glory. There, a working magistrate still upholds the banners of a shattered kingdom."
   }
  ],
  "keywords": [
@@ -82,5 +82,5 @@
  "attribution": [
   "Southshore Town Hall"
  ],
- "style": 1
+ "style": 2
 }

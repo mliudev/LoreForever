@@ -10,11 +10,11 @@
    "quest:877"
   ]
  },
- "summary": "At the Crossroads, Tonga Runetotem gives travelers Dried Seeds to test the life-giving power beneath the Barrens' waters.",
+ "summary": "At the Crossroads, Tonga Runetotem gives travelers Dried Seeds to test the power beneath the Barrens' waters.",
  "sections": [
   {
    "title": "The Seeds and the Oasis",
-   "body": "Tonga Runetotem studies the strange vents beneath the Barrens' waters. At the Forgotten Pools, he found fissures below the surface and now wants to learn whether one lies beneath the Stagnant Oasis to the southeast. He gives travelers Dried Seeds, which appear lifeless, to place in the bubbling fissure. Their response can show whether the energy beneath the oases can stir life in dead seeds.",
+   "body": "Tonga Runetotem studies strange vents beneath the Barrens' waters. At the Forgotten Pools, he found fissures below the surface. Now he wants to learn whether one lies beneath the Stagnant Oasis to the southeast.\n\nThe Dried Seeds appear lifeless. Tonga asks travelers to place them in the bubbling fissure and watch what happens. Their response may show whether energy beneath the oases can stir life in dead seeds.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "who gives dried seeds",
     "where do dried seeds come from"
    ],
-   "answer": "Tonga Runetotem, a tauren druid at the Crossroads, gives travelers the Dried Seeds. He studies the Barrens' sudden bursts of plant growth."
+   "answer": "Tonga Runetotem, a tauren druid at the Crossroads, gives travelers Dried Seeds. He studies the Barrens' sudden bursts of plant growth."
   },
   {
    "q": "Where is the fissure to use them on?",
@@ -84,5 +84,5 @@
   "Dried Seeds",
   "The Stagnant Oasis (Classic)"
  ],
- "style": 1
+ "style": 2
 }

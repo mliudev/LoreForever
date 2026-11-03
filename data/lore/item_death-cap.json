@@ -10,16 +10,16 @@
    "quest:947"
   ]
  },
- "summary": "In Darkshore, Death Cap grows in the cave behind Cliffspring Falls. Night elf herbalists seek the scarce fungus, but the Grove of the Ancients warns against approaching the falls.",
+ "summary": "In Darkshore, Death Cap grows in a cave behind Cliffspring Falls. Night elf herbalists seek the scarce fungus, though the Grove of the Ancients warns against going near the falls.",
  "sections": [
   {
    "title": "A Toxic Bloom in the Dark",
-   "body": "Death Cap grows in the damp cave behind Cliffspring Falls, along Darkshore's northeastern mountain ridges. Scaber stalks carpet the cavern floor, but Death Cap is scarce. Night elf herbalists such as Barithras Moonshade value it for experimental brewing. Finding even one means entering a cavern the Grove of the Ancients warns against, where corruption is taking root.",
+   "body": "Death Cap grows in a damp cave behind Cliffspring Falls, along Darkshore’s northeastern mountain ridges. Scaber stalks cover the cavern floor, but Death Cap is scarce. Night elf herbalists such as Barithras Moonshade value it for experimental brewing. To find even one, you must enter a cave the Grove of the Ancients warns against, where corruption is taking root.",
    "spoiler": 0
   },
   {
    "title": "Omen of Cliffspring",
-   "body": "Guardians of the Grove of the Ancients warned local Kaldorei to stay away from Cliffspring Falls. They sensed a foul presence taking root in the darkness. Anyone who enters the cave to gather Death Cap must face whatever forces have claimed the damp hollow as their lair.",
+   "body": "Guardians of the Grove of the Ancients warned local Kaldorei to stay away from Cliffspring Falls. They sensed a foul presence taking root in the darkness. Anyone who enters the cave for Death Cap must face whatever forces have claimed the damp hollow as their lair.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "where is death cap",
     "cliffspring cave mushroom"
    ],
-   "answer": "Death Cap grows in the hidden cave behind Cliffspring Falls, against the mountain wall in northeastern Darkshore."
+   "answer": "Death Cap grows in a hidden cave behind Cliffspring Falls, against the mountain wall in northeastern Darkshore."
   },
   {
    "q": "Who wants this mushroom?",
@@ -39,7 +39,7 @@
     "who needs death cap",
     "barithras mushroom quest"
    ],
-   "answer": "Barithras Moonshade, an alchemist in the coastal settlement of Auberdine, seeks Death Cap for a specialized potion."
+   "answer": "Barithras Moonshade, an alchemist in Auberdine, the coastal settlement, seeks Death Cap for a specialized potion."
   },
   {
    "q": "Why didn't Barithras Moonshade collect it himself?",
@@ -47,7 +47,7 @@
     "why not get it himself",
     "barithras warning"
    ],
-   "answer": "Guardians from the Grove of the Ancients warned Barithras to avoid the cave behind Cliffspring Falls, sensing an encroaching evil there."
+   "answer": "Guardians from the Grove of the Ancients warned Barithras to avoid the cave behind Cliffspring Falls. They sensed an encroaching evil there."
   },
   {
    "q": "How does the Death Cap differ from a Scaber Stalk?",
@@ -55,17 +55,17 @@
     "death cap vs scaber stalk",
     "difference between mushrooms"
    ],
-   "answer": "Scaber stalks are plentiful across the Cliffspring cave floor, while Death Cap is scarce and harder to find."
+   "answer": "Scaber stalks are plentiful across the floor of the Cliffspring cave, while Death Cap is scarce and harder to find."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Gathering Death Cap for Barithras calls for no special sickle, but herbalists know the danger of seeking rare fungi in damp, corrupted caves."
+   "text": "Gathering Death Cap for Barithras calls for no special sickle. Herbalists know the danger of seeking rare fungi in damp, corrupted caves."
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you can bring Death Cap to Barithras in Auberdine and heed the Grove of the Ancients' warning."
+   "text": "As a night elf, you can bring Death Cap to Barithras in Auberdine and heed the Grove of the Ancients’ warning."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
   "Death Cap",
   "Cave Mushrooms"
  ],
- "style": 1
+ "style": 2
 }

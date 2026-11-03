@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Zoram'gar Outpost"
  },
- "summary": "On Ashenvale's western shore, Zoram'gar Outpost gives the Horde access to the Veiled Sea. The fortified beachhead watches the Zoram Strand and the threats rising from its waters and nearby depths.",
+ "summary": "Horde forces hold the western shore of Ashenvale at Zoram'gar Outpost. From this fortified beachhead, they watch the Zoram Strand and the dangers beyond it.",
  "sections": [
   {
    "title": "A Bastion on the Strand",
-   "body": "Zoram'gar Outpost holds the northwestern edge of Ashenvale, where the forest meets the sea. Night elf territory lies inland, and hazards wait offshore. Scouts, hunters, and shaman at the isolated camp track local dangers. Life there is an endless vigil: naga prowl the shallows, while cultists and primal horrors stir in Blackfathom Deeps, the subterranean cavern system down the shore.",
+   "body": "Zoram'gar Outpost holds Ashenvale's northwestern edge, where forest meets sea. Night elf territory lies inland, and hazards wait offshore. Scouts, hunters, and shaman keep watch from the isolated camp. Naga prowl the shallows, while cultists and primal horrors stir in Blackfathom Deeps, the cavern system down the shore.",
    "spoiler": 0
   },
   {
    "title": "Strategic Importance",
-   "body": "Zoram'gar Outpost keeps flight connections to other Horde holdings: Splintertree Post, the Crossroads, and Thunder Bluff. Though small, the camp anchors Horde supply lines on Ashenvale's western coast.",
+   "body": "Zoram'gar Outpost links by flight to other Horde holdings: Splintertree Post, the Crossroads, and Thunder Bluff. Though small, the camp anchors Horde supply lines along Ashenvale's western coast.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "purpose of zoram gar",
     "why did horde build zoram gar"
    ],
-   "answer": "The Horde established Zoram'gar Outpost to secure a foothold on Ashenvale's western shoreline. The camp monitors the Zoram Strand by sea and offers a defensible station against the aggressive naga along the coast."
+   "answer": "The Horde established Zoram'gar Outpost to secure a foothold on Ashenvale's western shore. From the camp, they watch the Zoram Strand and hold a defensible position against the aggressive naga along the coast."
   },
   {
    "q": "What threats does the outpost face?",
@@ -36,7 +36,7 @@
     "threats to zoram gar",
     "enemies at zoram gar"
    ],
-   "answer": "Wrathtail naga slither across the Zoram Strand, posing an immediate threat. Twilight cultists and beastly horrors in the nearby temple ruins of Blackfathom Deeps are another constant danger."
+   "answer": "Wrathtail naga slither across the Zoram Strand and threaten the outpost. Twilight cultists and beastly horrors in the nearby temple ruins of Blackfathom Deeps bring constant danger as well."
   },
   {
    "q": "Where does the outpost connect via flight master?",
@@ -44,7 +44,7 @@
     "flight paths zoram gar",
     "where can i fly from zoram gar"
    ],
-   "answer": "Wind riders carry travelers by air across central Kalimdor from Zoram'gar Outpost, linking it to Splintertree Post, Sun Rock Retreat, the Crossroads, and Thunder Bluff, the tauren capital."
+   "answer": "Wind riders carry travelers by air from Zoram'gar Outpost across central Kalimdor. They link it to Splintertree Post, Sun Rock Retreat, the Crossroads, and Thunder Bluff, the tauren capital."
   },
   {
    "q": "What is the relation between the outpost and Blackfathom Deeps?",
@@ -52,13 +52,13 @@
     "blackfathom deeps near zoram",
     "is bfd near zoram gar"
    ],
-   "answer": "Blackfathom Deeps lies just north of Zoram'gar Outpost among shoreline ruins. Horde forces stationed at the outpost watch corruption seep from the flooded temple and send adventurers inside to oppose the cultists and their beast, Aku'mai."
+   "answer": "Blackfathom Deeps lies just north of Zoram'gar Outpost among shoreline ruins. Horde forces at the outpost watch corruption seep from the flooded temple and send adventurers inside to oppose the cultists and their beast, Aku'mai."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you can find your primary haven in northwest Ashenvale at Zoram'gar Outpost, with shelter, rest, and wind rider transport amid dangerous wilderness."
+   "text": "As a member of the Horde, you can find your main haven in northwest Ashenvale at Zoram'gar Outpost. There, you have shelter, rest, and wind rider transport amid dangerous wilderness."
   },
   {
    "target": "faction:Alliance",
@@ -88,5 +88,5 @@
  "attribution": [
   "Zoram'gar Outpost"
  ],
- "style": 1
+ "style": 2
 }

@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Mage",
-   "text": "Introductory primers like Geomancy for Curious Young Wizards and Arcane Explainer make for peculiar reading among subterranean kobolds, though novice arcanists will recognize the fundamental principles being studied."
+   "text": "As a mage, you may recognize the basic principles in these primers. Their lessons have reached kobolds beneath the earth."
   },
   {
    "target": "faction:Alliance",
-   "text": "Recovering Northshire Abbey's stolen intellectual property from the Jasperlode Mine helps secure the valley's cultural heritage while assisting the local militia."
+   "text": "As an Alliance member, you help recover books stolen from Northshire Abbey and aid the local militia."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "what is rare books",
     "what is this quest"
    ],
-   "answer": "Rare Books is a quest in Northshire where an adventurer is tasked with recovering the final two stolen volumes from Brother Paxton's catalog, which have fallen into the hands of kobolds deep within the Jasperlode Mine.",
+   "answer": "You are asked to recover the last two books missing from Brother Paxton's catalog. Kobolds have taken them into Jasperlode Mine.",
    "q": "What is the quest Rare Books?"
   },
   {
@@ -37,7 +37,7 @@
     "brother paxton lore",
     "abbey librarian"
    ],
-   "answer": "Brother Paxton is a cleric residing inside Northshire Abbey who tends to the abbey's collection of books and documents. He relies on adventurers to recover library volumes stolen by invading kobolds.",
+   "answer": "Brother Paxton is a cleric at Northshire Abbey who cares for its books and documents. Kobolds have taken volumes from the library, and he needs them returned.",
    "q": "Who is Brother Paxton?"
   },
   {
@@ -46,7 +46,7 @@
     "stolen book titles",
     "missing library books"
    ],
-   "answer": "The two missing volumes are 'Geomancy for Curious Young Wizards' and 'Arcane Explainer: Magical Stuff in Simple Words'. Both are introductory texts on arcane and magical theory.",
+   "answer": "The missing books are Geomancy for Curious Young Wizards and Arcane Explainer: Magical Stuff in Simple Words. Both introduce arcane and magical theory.",
    "q": "Which books need to be recovered?"
   },
   {
@@ -55,7 +55,7 @@
     "book locations",
     "where to find the books"
    ],
-   "answer": "The stolen books are located in the Jasperlode Mine, an infested gold mine situated in the Northshire Valley that has been overrun by kobold diggers and geomancers.",
+   "answer": "The missing books are in Jasperlode Mine in Northshire Valley. Kobold diggers and geomancers occupy the gold mine.",
    "q": "Where are the missing books located?"
   },
   {
@@ -64,7 +64,7 @@
     "can kobolds read",
     "kobold wizards"
    ],
-   "answer": "Kobolds in Jasperlode Mine appear to be using the stolen magical texts to experiment with geomancy and spellcasting. An apprentice was even reported attempting to summon an elemental using the stolen knowledge.",
+   "answer": "Kobolds in Jasperlode Mine appear to be using the books to study geomancy and spellcasting. An apprentice has tried to summon an elemental.",
    "q": "Why did the kobolds take books on magic?"
   },
   {
@@ -73,7 +73,7 @@
     "why militia weapons",
     "abbey weapons"
    ],
-   "answer": "Brother Paxton rewards helpers with spare weapons originally stockpiled for the local Northshire militia, feeling they are better served in the hands of adventurers actively dealing with threats in the valley.",
+   "answer": "Brother Paxton gives helpers spare weapons set aside for the Northshire militia. He believes adventurers facing threats in the valley can put them to better use.",
    "q": "Why does Brother Paxton reward weapons intended for the militia?"
   }
  ],
@@ -95,18 +95,19 @@
  ],
  "sections": [
   {
-   "body": "Brother Paxton of Northshire Abbey faces a crisis in his library: several volumes have been carried off by vermin infesting the valley. Only two books remain missing from his catalog: 'Geomancy for Curious Young Wizards' and 'Arcane Explainer: Magical Stuff in Simple Words'. These educational primers were carted away into the depths of the Jasperlode Mine by the occupying kobolds.",
+   "body": "Brother Paxton has lost two books from the library at Northshire Abbey. Kobolds carrying books and other things have taken them into Jasperlode Mine. The missing volumes are Geomancy for Curious Young Wizards and Arcane Explainer: Magical Stuff in Simple Words. Both are primers on magic.",
    "spoiler": 0,
    "title": "Missing from the Abbey"
   },
   {
-   "body": "The recovery of these simple texts carries unexpected urgency. While kobolds are typically known for petty thievery and mining picks, the kobolds within the Jasperlode Mine have begun meddling with the manuals' teachings. An apprentice kobold was already seen attempting to summon an elemental, prompting fears over what a more experienced geomancer or master might conjure if left with the arcane literature.",
+   "body": "Kobolds in Jasperlode Mine are studying the stolen books. An apprentice has already tried to summon an elemental. No one knows what a more practiced geomancer might call forth from those lessons.",
    "spoiler": 1,
    "title": "Arcane Kobolds in Jasperlode"
   }
  ],
- "summary": "Rare Books is an Alliance quest in Northshire Valley focused on recovering two stolen magical primers for Brother Paxton. Kobolds have hauled the missing texts into the Jasperlode Mine, where they appear to be studying elementary magic and summoning rituals.",
+ "summary": "In Northshire Valley, Rare Books sends you after two primers taken by kobolds. Brother Paxton needs them back at Northshire Abbey.",
  "attribution": [
   "In-game quest text: Rare Books"
- ]
+ ],
+ "style": 2
 }

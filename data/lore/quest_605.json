@@ -24,16 +24,16 @@
    "Singing Blue Shards/Quest_chain"
   ]
  },
- "summary": "Crank Fizzlebub seeks an enterprising adventurer to gather Singing Crystal Shards from the basilisks of Stranglethorn Vale. Competition with the Venture Company prevents him from harvesting the mineral deposits directly, leaving basilisk hides as the next best option. He promises a cut of the profits to anyone willing to bring him ten decent specimens.",
+ "summary": "In Stranglethorn Vale, buyers seek Singing Blue Shards. The Venture Company makes it hard for Crank Fizzlebub to gather raw Singing Crystals, so he offers you a cut of the profits for ten shards taken from basilisk hides.",
  "sections": [
   {
    "title": "A Lucrative Opportunity",
-   "body": "Crank Fizzlebub has identified an eager market for the Singing Crystals unique to Stranglethorn Vale. Unfortunately for his business ambitions, the aggressive presence of the Venture Company makes it hard for him to gather raw crystal in the field. To circumvent his rivals, Fizzlebub turns to an alternative method: basilisks consume the crystals, incorporating the mineral into their hardened hides, which allows usable shards to be retrieved from them instead.",
+   "body": "Crank Fizzlebub has buyers for Singing Crystals, found only in Stranglethorn Vale. The Venture Company makes gathering raw crystals hard for him. So he seeks another way to get them. Basilisks eat the crystals, and the mineral becomes part of their hardened hides. You can recover usable shards there.",
    "spoiler": 0
   },
   {
    "title": "Hunting the Coast",
-   "body": "While any basilisk in the jungle might yield acceptable crystal fragments, Fizzlebub says the gentler ones are found along the shores south of Zul'Kunda, up north. Gathering ten shards allows him to move forward with his buyers, after which his business concerns shift toward the operations of the Venture Company itself.",
+   "body": "Basilisks across the jungle may yield crystal fragments. Fizzlebub points you to the gentler ones along the northern shores south of Zul'Kunda. Bring him ten shards so he can move ahead with his buyers. Then his attention turns to the Venture Company's operations.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "crank fizzlebub purpose",
     "what are singing crystals for"
    ],
-   "answer": "Singing Crystals are unique to Stranglethorn Vale and hold great value for select buyers. Crank Fizzlebub says he can move them, and promises a cut of the profits."
+   "answer": "Singing Crystals are unique to Stranglethorn Vale, and select buyers value them highly. Crank Fizzlebub says he can sell them and offers you a cut of the profits."
   },
   {
    "q": "Why cannot Crank Fizzlebub harvest the crystals directly?",
@@ -54,7 +54,7 @@
     "venture company problem",
     "why not mine crystals"
    ],
-   "answer": "Fizzlebub blames the Venture Company for making it hard for an honest trader like him to gather the raw crystals himself."
+   "answer": "Fizzlebub says the Venture Company makes it hard for him to gather raw crystals himself."
   },
   {
    "q": "Why do basilisks have these crystals?",
@@ -62,7 +62,7 @@
     "basilisk crystal lore",
     "why do basilisks drop crystals"
    ],
-   "answer": "The basilisks of Stranglethorn Vale feed on the crystals, which gradually integrate into their hides and give them their hardened, rocky skin."
+   "answer": "Basilisks in Stranglethorn Vale eat the crystals. The mineral becomes part of their hides and gives them their hard, rocky skin."
   },
   {
    "q": "Where does Crank Fizzlebub suggest looking for basilisks?",
@@ -71,7 +71,7 @@
     "basilisk location",
     "zul kunda basilisks"
    ],
-   "answer": "Fizzlebub says any basilisk can yield shards, but the gentler ones live along the shores south of Zul'Kunda, up north."
+   "answer": "Fizzlebub says any basilisk may yield shards. Gentler ones live along the northern shores south of Zul'Kunda."
   },
   {
    "q": "What happens after turning in the shards?",
@@ -79,7 +79,7 @@
     "what next after singing blue shards",
     "singing blue shards follow up"
    ],
-   "answer": "Upon receiving ten shards, Fizzlebub pays out your promised cut of the profits and directs his attention directly toward the operations of the Venture Company."
+   "answer": "When you bring Fizzlebub ten shards, he pays your promised cut of the profits. Then he turns his attention to the Venture Company's operations."
   }
  ],
  "angles": [],
@@ -99,5 +99,6 @@
  "attribution": [
   "Singing Blue Shards",
   "In-game quest text: Singing Blue Shards"
- ]
+ ],
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Twilight Vale"
  },
- "summary": "In Twilight Vale, beasts and furbolgs prowl the dark woods between Darkshore and Ashenvale. The southern forest is a perilous threshold between Darkshore’s tainted coast and Ashenvale’s sacred canopies.",
+ "summary": "In Twilight Vale, beasts and furbolgs prowl the dark woods between Darkshore and Ashenvale. The southern forest marks a perilous passage from Darkshore’s tainted coast to Ashenvale’s sacred canopies.",
  "sections": [
   {
    "title": "A Perilous Threshold",
-   "body": "Twilight Vale stretches from south of Ameth'Aran to the Ashenvale border, where dusk holds over Darkshore’s southern woods. Corruption has reached deep into the wildlife. Rabid bears roam beside feral nightsabers, while hostile furbolg tribes stalk the trees. Sentinels and travelers advise you to keep to the main road. Even a few paces into the woods can bring a swift, deadly ambush.",
+   "body": "Twilight Vale runs south from Ameth'Aran to the Ashenvale border, where dusk hangs over Darkshore’s southern woods. Corruption has spread deep among the wildlife. Rabid bears roam beside feral nightsabers, and hostile furbolg tribes stalk the trees.\n\nSentinels and travelers urge you to stay on the main road. A few paces into the woods can bring a swift, deadly ambush.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is twilight vale",
     "twilight vale map"
    ],
-   "answer": "Twilight Vale lies in southern Darkshore, beginning just south of the highborne ruins of Ameth'Aran and reaching the pass into Ashenvale."
+   "answer": "Twilight Vale lies in southern Darkshore, just south of the highborne ruins of Ameth'Aran, and reaches the pass into Ashenvale."
   },
   {
    "q": "What threats wander this forest?",
@@ -32,7 +32,7 @@
     "what is in twilight vale",
     "danger twilight vale"
    ],
-   "answer": "Rabid bears, aggressive nightsabers, and corrupted furbolgs wander the vale and attack those who enter their territory."
+   "answer": "Rabid bears, aggressive nightsabers, and corrupted furbolgs roam the vale and attack those who enter their territory."
   },
   {
    "q": "Is it safe to travel through the vale?",
@@ -40,7 +40,7 @@
     "is twilight vale safe",
     "safe path darkshore to ashenvale"
    ],
-   "answer": "The main dirt road is far safer than the underbrush. If you stray from it, feral beasts may cross your path."
+   "answer": "The main dirt road is far safer than the underbrush. Stray from it, and feral beasts may cross your path."
   },
   {
    "q": "Why is the wildlife in the vale corrupted?",
@@ -81,5 +81,5 @@
  "attribution": [
   "Twilight Vale"
  ],
- "style": 1
+ "style": 2
 }

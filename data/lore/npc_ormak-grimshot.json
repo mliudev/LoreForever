@@ -8,11 +8,11 @@
   "wiki": "Ormak Grimshot",
   "refs": 1
  },
- "summary": "In Orgrimmar's Valley of Honor, Ormak Grimshot trains hunters for life in the wild. Beside his wolf, Grimfang, he teaches Horde hunters to track, shoot, and tame beasts.",
+ "summary": "In Orgrimmar's Valley of Honor, Ormak Grimshot teaches hunters to face the wilds. With Grimfang beside him, he trains Horde hunters to track, shoot, and tame beasts.",
  "sections": [
   {
    "title": "Master of the Hunt",
-   "body": "Ormak Grimshot trains Horde trackers and marksmen in the Hunter's Hall. With his wolf, Grimfang, at his side, he teaches the skills needed to survive Kalimdor's wilderness. Orc and troll hunters who have completed their trials in Durotar learn from him how to tame and command wild beasts, and to form a lasting bond with an animal companion.",
+   "body": "In the Hunter's Hall, Ormak Grimshot trains Horde trackers and marksmen. Grimfang, his wolf, stays at his side as he teaches hunters to survive Kalimdor's wilderness. Orc and troll hunters who have completed their trials in Durotar learn from him to tame and command wild beasts, then form lasting bonds with their animal companions.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "where is grimshot",
     "find ormak"
    ],
-   "answer": "Ormak is inside the Hunter's Hall in Orgrimmar's Valley of Honor. His wolf, Grimfang, is near him."
+   "answer": "Ormak Grimshot is inside the Hunter's Hall in Orgrimmar's Valley of Honor. His wolf, Grimfang, is near him."
   },
   {
    "q": "Who is the wolf beside him?",
@@ -42,7 +42,7 @@
     "grimfang",
     "ormak pet"
    ],
-   "answer": "The wolf beside Ormak is Grimfang, his loyal companion. Their bond shows how a hunter and an animal companion work together."
+   "answer": "The wolf beside Ormak Grimshot is Grimfang, his loyal companion. Their bond shows how a hunter and an animal companion work together."
   },
   {
    "q": "What role does he play for new hunters?",
@@ -51,17 +51,17 @@
     "taming quest ormak",
     "training the beast ormak"
    ],
-   "answer": "Ormak teaches novice orc and troll hunters to train, feed, and manage beasts they have tamed after their basic trials in Durotar."
+   "answer": "Ormak Grimshot teaches novice orc and troll hunters to train, feed, and manage beasts they have tamed after their basic trials in Durotar."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a Horde hunter, you can learn from Ormak how to tame and care for a loyal animal companion."
+   "text": "As a Horde hunter, you can learn from Ormak Grimshot how to tame and care for a loyal animal companion."
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, you can look to Ormak's partnership with Grimfang as an example of working alongside wolves and native predators to defend Durotar."
+   "text": "As an orc, you can look to Ormak Grimshot's partnership with Grimfang as an example of working alongside wolves and native predators to defend Durotar."
   }
  ],
  "keywords": [
@@ -84,5 +84,5 @@
  "attribution": [
   "Ormak Grimshot"
  ],
- "style": 1
+ "style": 2
 }

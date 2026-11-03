@@ -17,16 +17,16 @@
   "wiki": "Vile Familiars (Warlock)",
   "chain": []
  },
- "summary": "Near the Den, Vile Familiars threaten every warlock who seeks the power of demons. Ruzan asks you to prove your strength against them and bring back their heads. This is the humble, dangerous first step toward mastering fel power under the Horde’s watchful eyes.",
+ "summary": "Near the Den, Vile Familiars threaten warlocks who seek the power of demons. Ruzan asks you to prove your strength by bringing back their heads. This is the first dangerous step toward mastering fel power under the Horde’s watchful eyes.",
  "sections": [
   {
    "title": "A Precarious Place in the Horde",
-   "body": "Warlocks live uneasily within Thrall’s new Horde. Demonic corruption and blood pacts once brought ruin to the orcs, leaving deep scars and distrust. Fel magic is tolerated in Durotar, but its practitioners are neither loved nor welcomed. Many warlocks live in seclusion, practicing in shadowed places like the Den, away from prying eyes. There, they teach the few initiates daring enough to follow their path.",
+   "body": "Warlocks have an uneasy place in Thrall’s new Horde. Demonic corruption and blood pacts once brought ruin to the orcs, leaving deep scars and distrust. Durotar tolerates fel magic, but its practitioners are neither loved nor welcomed. Many warlocks live apart and practice in shadowed places like the Den, away from prying eyes. There, they teach the few initiates daring enough to follow their path.",
    "spoiler": 0
   },
   {
    "title": "The Trial of Mastery",
-   "body": "Ruzan asks you to prove your strength before he teaches you the dangerous rites for bending an imp to your will. Vile Familiars skulk near a cave northeast of the Den and hurl bolts of flame at those who approach. Slay these lesser demons and bring back their heads to show you can overcome the fiery creatures you hope to control. Only then can you face the danger of the magic you seek to command.",
+   "body": "Ruzan asks you to prove your strength before he teaches you the dangerous rites for bending an imp to your will. Vile Familiars lurk near a cave northeast of the Den and hurl bolts of flame at those who approach. Slay these lesser demons and bring their heads back to Ruzan. They will show him you can overcome the fiery creatures you hope to control. Only then can you face the danger of the magic you seek to command.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "ruzan test",
     "imp trial"
    ],
-   "answer": "Ruzan sends you to fight Vile Familiars so you can face an imp’s fiery nature and danger before trying to summon one. Warlocks are few and distrusted, so he asks you to prove you can defeat such creatures before he teaches you demon summoning."
+   "answer": "Ruzan sends you to face an imp’s fiery nature and danger before you try to summon one. Warlocks are few and distrusted, so he asks you to prove you can defeat such creatures before teaching you demon summoning."
   },
   {
    "q": "Where are the vile familiars found?",
@@ -56,7 +56,7 @@
     "horde warlock lore",
     "why distrust warlocks"
    ],
-   "answer": "Warlocks face deep suspicion across the Horde because demonic corruption once scarred the orcs. Thrall’s government tolerates them and sees their value in battle, but many still keep to solitary lives."
+   "answer": "Warlocks face deep suspicion across the Horde because demonic corruption once scarred the orcs. Thrall’s government tolerates them and sees their value in battle, yet many still live apart."
   },
   {
    "q": "What reward does completing this trial offer?",
@@ -65,7 +65,7 @@
     "quest reward ruzan",
     "imp spell"
    ],
-   "answer": "Bringing the heads of slain Vile Familiars to Ruzan proves you have the strength and discipline to command demons. He can then teach you to summon an imp minion."
+   "answer": "Bringing Ruzan the heads of slain Vile Familiars proves you have the strength and discipline to command demons. He can then teach you to summon an imp minion."
   },
   {
    "q": "Are vile familiars actual demons?",
@@ -97,7 +97,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you can train in Durotar as a warlock, though the dark arts remain confined to isolated places like the Den."
+   "text": "As a member of the Horde, you can train as a warlock in Durotar, though the dark arts remain confined to isolated places like the Den."
   }
  ],
  "keywords": [
@@ -120,5 +120,5 @@
  "attribution": [
   "Vile Familiars (Warlock)"
  ],
- "style": 1
+ "style": 2
 }

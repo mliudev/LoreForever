@@ -21,16 +21,16 @@
    "Hand of Rastakhan"
   ]
  },
- "summary": "Yeh'kinya in Steamwheedle Port wants the spirits of the vale screechers found in Feralas, kin to an ancient god. You are sent to southern and central Feralas with a bramble wand, and Yeh'kinya promises to say more of that god on your return.",
+ "summary": "In Steamwheedle Port, Yeh'kinya asks you to gather the spirits of Feralas vale screechers. They are kin to an ancient god, and he promises to tell you more when you bring back three essences.",
  "sections": [
   {
    "title": "Spirits of Feralas",
-   "body": "Yeh'kinya says the vale screechers of Feralas are kin to an ancient god, and that their spirits are linked to him. You are given a bramble wand and sent to southern and central Feralas. Waving the bramble over a fallen vale screecher coaxes its spirit out, and touching the spirit gathers its essence. Three spirits are wanted, and Yeh'kinya expects the bramble and the essence back.",
+   "body": "Yeh'kinya says the vale screechers of Feralas are kin to an ancient god. Their spirits are linked to him. He gives you a bramble wand and sends you to southern and central Feralas. Wave it over a fallen vale screecher to draw out its spirit, then touch the spirit to gather its essence. He wants three essences returned with the bramble.",
    "spoiler": 0
   },
   {
    "title": "What Yeh'kinya Shares",
-   "body": "Yeh'kinya names the old god as Hakkar the Soulflayer, the dead god of an ancient troll prophecy foretelling his return to the world. Opinions differ: some expect glory and joy for the trolls, others the end of everything. Yeh'kinya puts no faith in the myth, yet knows Hakkar's essence is powerful and should stay out of the wrong hands.",
+   "body": "Yeh'kinya names the old god as Hakkar the Soulflayer. An ancient troll prophecy foretells the dead god's return to the world. Some expect his return to bring the trolls glory and joy; others fear it will end everything. Yeh'kinya puts no faith in the myth, but knows Hakkar's essence is powerful and should stay out of the wrong hands.",
    "spoiler": 1
   }
  ],
@@ -42,7 +42,7 @@
     "yehkinya location",
     "where is yehkinya"
    ],
-   "answer": "Yeh'kinya, in Steamwheedle Port."
+   "answer": "Yeh'kinya asks you in Steamwheedle Port."
   },
   {
    "q": "Where are the vale screechers?",
@@ -51,7 +51,7 @@
     "screecher location",
     "where are screechers in feralas"
    ],
-   "answer": "In southern and central Feralas."
+   "answer": "Vale screechers live in southern and central Feralas."
   },
   {
    "q": "How do you capture the screecher spirits?",
@@ -60,7 +60,7 @@
     "using yehkinyas bramble",
     "bramble wand"
    ],
-   "answer": "Yeh'kinya's bramble is waved over a fallen vale screecher, which coaxes the spirit out. Touching the spirit gathers its essence."
+   "answer": "Wave Yeh'kinya's bramble wand over a fallen vale screecher to draw out its spirit. Then touch the spirit to gather its essence."
   },
   {
    "q": "Why does Yeh'kinya want screecher spirits?",
@@ -68,7 +68,7 @@
     "why gather screecher spirits",
     "yehkinya motive"
    ],
-   "answer": "Yeh'kinya says the vale screechers are kin to an ancient god and that their spirits are linked to him. On your return, Yeh'kinya will tell you more of that god."
+   "answer": "Yeh'kinya says the vale screechers are kin to an ancient god, and their spirits are linked to him. He promises to tell you more about the god when you return."
   }
  ],
  "angles": [],
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Screecher Spirits"
- ]
+ ],
+ "style": 2
 }

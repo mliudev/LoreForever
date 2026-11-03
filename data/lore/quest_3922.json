@@ -17,16 +17,16 @@
   "wiki": "Nugget Slugs (Classic)",
   "chain": []
  },
- "summary": "At the Sludge Fen, Wenikee Boltbucket needs parts for a recovered samophlange. The eccentric tinkerer sends you to the nearby Venture Company drilling crews for spare hardware.",
+ "summary": "At the Sludge Fen, Wenikee Boltbucket seeks parts for a samophlange she has recovered. She sends you to the nearby Venture Company crews for spare hardware.",
  "sections": [
   {
    "title": "Wenikee's Engineering Needs",
-   "body": "Wenikee Boltbucket has a recovered samophlange and wants to learn how the intricate machine works. Its goblin mechanisms need exact parts, so she sends you to the Venture Company crews at the Sludge Fen. Their heavy tool buckets hold the seventeen-point-five gauge nugget slugs she needs.",
+   "body": "Wenikee Boltbucket has recovered a samophlange and wants to learn how its intricate workings fit together. The goblin machine needs exact parts, so she sends you to the Venture Company crews at the Sludge Fen. Their heavy tool buckets hold the seventeen-point-five gauge nugget slugs she needs.",
    "spoiler": 0
   },
   {
    "title": "A Volatile Breakthrough",
-   "body": "You gather fifteen nugget slugs while Venture Company operators and deforesters work the marsh east of the road. When you bring the parts back, Wenikee sets the samophlange on the ground and begins adjusting it at once. The mismatched parts and rushed assembly end in a sudden explosion. Wenikee is shaken, but her resolve to tinker holds.",
+   "body": "You gather fifteen nugget slugs while Venture Company operators and deforesters work the marsh east of the road. When you return with the parts, Wenikee sets the samophlange on the ground and adjusts it at once. Mismatched parts and a hurried assembly bring a sudden explosion. Wenikee is shaken, yet her resolve to tinker holds.",
    "spoiler": 1
   }
  ],
@@ -56,7 +56,7 @@
     "find nugget slugs",
     "sludge fen buckets"
    ],
-   "answer": "You can find nugget slugs in tool buckets at the Sludge Fen, a Venture Company camp east of Wenikee's small roadside campsite. The company works there logging and extracting oil."
+   "answer": "You can find nugget slugs in tool buckets at the Sludge Fen, a Venture Company camp east of Wenikee's small roadside campsite. The company logs there and extracts oil."
   },
   {
    "q": "What happens when Wenikee repairs the samophlange?",
@@ -65,7 +65,7 @@
     "samophlange explosion",
     "wenikee explosion"
    ],
-   "answer": "When Wenikee begins adjusting the samophlange with the parts you bring, the machine overloads and explodes in front of her. The poorly calibrated machine proves dangerous."
+   "answer": "When Wenikee adjusts the samophlange with the parts you bring, the machine overloads and explodes before her. Its poor calibration proves dangerous."
   },
   {
    "q": "Why is the Venture Company at the Sludge Fen?",
@@ -115,5 +115,5 @@
  "attribution": [
   "Nugget Slugs (Classic)"
  ],
- "style": 1
+ "style": 2
 }

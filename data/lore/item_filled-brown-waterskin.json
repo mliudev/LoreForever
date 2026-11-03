@@ -10,11 +10,11 @@
    "quest:1535"
   ]
  },
- "summary": "In the Barrens, the Filled Brown Waterskin carries fresh water from the pond below Brine's hut. Aspiring shaman bring it to her to begin brewing sapta, used to commune with water spirits.",
+ "summary": "In the Barrens, the Filled Brown Waterskin brings fresh water from the pond below Brine's hut. Aspiring shaman carry it to her to begin brewing sapta, which lets them commune with water spirits.",
  "sections": [
   {
    "title": "A Life-Giving Drought",
-   "body": "The pond beneath Brine's hut is a rare source of fresh water in the Barrens. Nearby quilboar fight fiercely over it, and a novice shaman sees how scarce water can drive creatures to defend what sustains them.",
+   "body": "Below Brine's hut, a pond offers rare fresh water in the Barrens. Nearby quilboar fight fiercely over it. A novice shaman sees how scarcity drives creatures to defend what sustains them.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "pond location",
     "where is the watering hole"
    ],
-   "answer": "The water comes from a small freshwater pool just down the ridge beneath Brine's isolated hut. Local quilboar fiercely contest the pool."
+   "answer": "The water comes from a small freshwater pool just down the ridge beneath Brine's isolated hut. Local quilboar fiercely contest it."
   },
   {
    "q": "Why do the quilboar fight over this water source?",
@@ -50,7 +50,7 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a shaman, you fetch this water as Brine's first practical test during the Call of Water. It teaches you to respect the balance and fierce passions surrounding water."
+   "text": "As a shaman, you fetch this water as Brine's first practical test during the Call of Water. It teaches you to respect water's balance and the fierce passions surrounding it."
   }
  ],
  "keywords": [
@@ -74,5 +74,5 @@
   "Filled Brown Waterskin",
   "Call of Water (3)"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Samophlange (Classic)",
   "chain": []
  },
- "summary": "At a Venture Company outpost in the northern Barrens, Sputtervalve wants a device called a samophlange. He sends you southwest of the Sludge Fen to find it.",
+ "summary": "At a Venture Company outpost in the northern Barrens, Sputtervalve seeks a device called a samophlange. He sends you southwest of the Sludge Fen to find it.",
  "sections": [
   {
    "title": "A Peculiar Contraption",
-   "body": "In the northern Barrens, Sputtervalve cannot explain what the Venture Company is building. The goblin engineer and tinker works in Ratchet, while the rival company experiments southwest of the Sludge Fen. Its people call one device a samophlange. Sputtervalve does not know its purpose or value, but wants to study its design before his competitors can profit from it.",
+   "body": "In the northern Barrens, Sputtervalve cannot say what the Venture Company is building. The goblin engineer and tinker works in Ratchet, while the rival company experiments southwest of the Sludge Fen. Its workers call one device a samophlange. Sputtervalve knows neither its purpose nor its value, but wants to study its design before his competitors profit from it.",
    "spoiler": 0
   },
   {
    "title": "Infiltrating the Rig",
-   "body": "The Venture Company guards its research site with armed overseers, deforesters, and machinery. Sputtervalve gives you an intercepted operating manual to help shut down the rig safely. At the central control station, you find a locked console with levers, lights, and gauges. Three control valves keep the rig's pressure in order.",
+   "body": "Armed overseers, deforesters, and machinery guard the Venture Company research site. Sputtervalve gives you an intercepted operating manual to help shut down the rig safely. At the central control station, you find a locked console fitted with levers, lights, and gauges. Three control valves keep the rig's pressure in order.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "sputtervalve location",
     "quest giver"
    ],
-   "answer": "Sputtervalve is a goblin engineer and tinker in Ratchet. He is interested in Venture Company trade secrets and hires adventurers to disrupt its works and seize its inventions."
+   "answer": "Sputtervalve is a goblin engineer and tinker in Ratchet. He seeks Venture Company trade secrets and hires adventurers to disrupt its works and seize its inventions."
   },
   {
    "q": "Where is the control console located?",
@@ -88,7 +88,7 @@
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can recognize Sputtervalve's interest in a rival's designs. His pursuit shows how fiercely goblins compete over engineering discoveries."
+   "text": "As an engineer, you can see why Sputtervalve covets a rival's designs. Goblins compete fiercely over engineering discoveries."
   },
   {
    "target": "faction:Horde",
@@ -113,5 +113,5 @@
  "attribution": [
   "Samophlange (Classic)"
  ],
- "style": 1
+ "style": 2
 }

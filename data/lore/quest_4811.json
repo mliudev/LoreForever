@@ -21,16 +21,16 @@
    "The Fragments Within"
   ]
  },
- "summary": "Sentinel Glynda Nal'Shea asks travelers in Auberdine to investigate a red crystal in Darkshore's eastern mountains. Hostile moonkin are multiplying nearby and seem drawn to it, and the Sentinels need to know if the formation is real.",
+ "summary": "Sentinel Glynda Nal'Shea asks you to investigate a red crystal in Darkshore's eastern mountains. Moonkin are multiplying nearby and seem drawn to it, and the Sentinels need to know whether the crystal is real.",
  "sections": [
   {
    "title": "A Disturbing Shift in the Wilds",
-   "body": "Moonkin were long seen as gentle, mystical creatures bound to the wilds of Kalimdor. Now aggressive packs are multiplying along the slopes east of Auberdine. Some night elves still revere them, but Sentinel Glynda Nal'Shea puts the town's safety first as the danger grows. Reports place the beasts at a single spot among the eastern peaks.",
+   "body": "Moonkin were once gentle, mystical creatures bound to Kalimdor's wilds. Now aggressive packs multiply along the slopes east of Auberdine. Some night elves still revere them, but Sentinel Glynda Nal'Shea puts the town's safety first as danger grows. Reports point to a single spot among the eastern peaks.",
    "spoiler": 0
   },
   {
    "title": "The Eastern Mountain Anomaly",
-   "body": "Scouts and wanderers speak of an unnatural red crystal jutting from a rocky hillside high above Darkshore. Rumors travel easily along the fogbound coast, so Glynda wants someone to see the place firsthand. The crystal is real, and the Sentinels still need to learn why the moonkin gather there and whether it threatens the land.",
+   "body": "Scouts and wanderers speak of an unnatural red crystal jutting from a rocky hillside high above Darkshore. Rumors travel easily along the fogbound coast, so Glynda wants you to see the place for yourself. The crystal is real. The Sentinels still need to learn why moonkin gather there and whether it threatens the land.",
    "spoiler": 0
   }
  ],
@@ -51,7 +51,7 @@
     "glynda nalshea quest",
     "auberdine crystal quest giver"
    ],
-   "answer": "Sentinel Glynda Nal'Shea in Auberdine sends you to investigate. She helps defend the settlement and wants confirmation of the reports from the eastern mountains."
+   "answer": "Sentinel Glynda Nal'Shea in Auberdine sends you to investigate. She helps defend the settlement and wants confirmation of reports from the eastern mountains."
   },
   {
    "q": "Why are moonkin behaving aggressively around the crystal?",
@@ -85,13 +85,13 @@
     "what is after red crystal",
     "as water cascades follow up"
    ],
-   "answer": "Telling Glynda that the crystal is real confirms the reports. She then seeks to learn what it is, beginning efforts to cleanse and sample it with water from Auberdine's moonwell."
+   "answer": "Telling Glynda the crystal is real confirms the reports. She then seeks to learn what it is, beginning efforts to cleanse and sample it with water from Auberdine's moonwell."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a Kaldorei, you may find the agitated moonkin troubling; your people revere them as sacred wards of Elune and nature."
+   "text": "As a Kaldorei, you may find the agitated moonkin troubling. Your people revere them as sacred wards of Elune and nature."
   },
   {
    "target": "class:Druid",
@@ -119,5 +119,5 @@
  "attribution": [
   "The Red Crystal"
  ],
- "style": 1
+ "style": 2
 }

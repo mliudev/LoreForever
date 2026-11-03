@@ -18,16 +18,16 @@
   "wiki": "Onu is meditating",
   "chain": []
  },
- "summary": "At the Master's Glaive in southern Darkshore, Onu enters a deep trance over a growing threat. The ancient of lore weighs the alliance and motives of the Twilight's Hammer cult and the naga. If you lose your scrying phial, you can speak to him for another.",
+ "summary": "At the Master's Glaive in southern Darkshore, Onu enters a deep trance as a threat grows. The ancient of lore weighs the alliance and motives of the Twilight's Hammer cult and the naga. If you lose your scrying phial, speak to him for another.",
  "sections": [
   {
    "title": "A Mind in Deep Contemplation",
-   "body": "In the Grove of the Ancients, Onu is an Ancient of Lore and a living repository of Kalimdor's history. Ominous reports of dark excavations at the Master's Glaive draw his immense consciousness inward. He ponders what brings the fanatical Twilight's Hammer cultists and the naga to the petrified remains of an ancient behemoth. For adventurers carrying out his reconnaissance, Onu remains within reach and can replace a scrying phial misplaced in the wild.",
+   "body": "In the Grove of the Ancients, Onu holds Kalimdor's history in his ancient memory. Ominous reports of dark excavations at the Master's Glaive draw his vast consciousness inward. He considers what brings the fanatical Twilight's Hammer cultists and the naga to the petrified remains of an ancient behemoth. As you carry out his reconnaissance, Onu remains within reach and can replace a scrying phial misplaced in the wild.",
    "spoiler": 0
   },
   {
    "title": "Scrying the Depths",
-   "body": "Onu uses nature-attuned divination to watch the ruins without risking his physical presence. He entrusts adventurers with a phial of scrying, which conjures a scrying bowl at the excavation site so he can commune from afar. The journey south through Darkshore is perilous, with hostile wildlife and cultist patrols, so mishaps can happen. Onu's trance is an attentive vigil, not unbroken slumber. He readily offers another vial of sacred waters so the investigation of the Master's Glaive can continue.",
+   "body": "Onu uses nature-attuned divination to watch the ruins without risking his physical presence. He entrusts you with a scrying phial, which conjures a scrying bowl at the excavation site and lets him commune from afar. The journey south through Darkshore is perilous, with hostile wildlife and cultist patrols, so mishaps can happen.\n\nOnu's trance is an attentive vigil, not unbroken slumber. He readily offers another vial of sacred waters so you can continue the investigation of the Master's Glaive.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "onu trance",
     "what is onu doing"
    ],
-   "answer": "Onu meditates over the disturbing presence of the Twilight's Hammer cult and the naga at the Master's Glaive. He seeks to perceive their motives and guide adventurers investigating the site."
+   "answer": "Onu meditates over the disturbing presence of the Twilight's Hammer cult and the naga at the Master's Glaive. He seeks to perceive their motives and guide you as you investigate the site."
   },
   {
    "q": "What is the purpose of this interaction?",
@@ -48,7 +48,7 @@
     "get another phial",
     "onu replacement quest"
    ],
-   "answer": "The interaction is a safety measure for adventurers on The Master's Glaive. If you lose your Phial of Scrying, speaking with Onu provides a replacement so you can complete the ritual."
+   "answer": "This interaction is a safety measure for adventurers at The Master's Glaive. If you lose your Phial of Scrying, speaking with Onu provides a replacement so you can complete the ritual."
   },
   {
    "q": "Where is Onu located?",
@@ -73,7 +73,7 @@
     "what is masters glaive",
     "monument in south darkshore"
    ],
-   "answer": "The Master's Glaive is an ancient excavation site in southern Darkshore. There, the colossal petrified skull of a forgotten entity lies pierced by a gargantuan blade, and cultists and naga have gathered for unknown, malevolent purposes."
+   "answer": "The Master's Glaive is an ancient excavation site in southern Darkshore. There, the colossal petrified skull of a forgotten entity lies pierced by a gargantuan blade. Cultists and naga have gathered there for unknown, malevolent purposes."
   },
   {
    "q": "Can Horde players interact with Onu here?",
@@ -81,21 +81,21 @@
     "is onu alliance only",
     "horde onu meditating"
    ],
-   "answer": "No. Onu is allied strictly with the night elves and the Alliance. Horde adventurers near the Grove of the Ancients will find him and his protectors hostile or uncooperative."
+   "answer": "Onu is allied strictly with the night elves and the Alliance. Horde adventurers near the Grove of the Ancients will find him and his protectors hostile or uncooperative."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As stewards of Kalimdor's balance, night elves revere ancients of lore like Onu and rely on their ageless wisdom to interpret disturbances in Darkshore's wilds."
+   "text": "As a night elf, you revere ancients of lore like Onu, stewards of Kalimdor's balance. Their ageless wisdom helps you understand disturbances in Darkshore's wilds."
   },
   {
    "target": "class:Druid",
-   "text": "Druids share a profound natural bond with ancients of lore. Scrying rituals reflect the Cenarion Circle's method of surveying tainted ground from a distance."
+   "text": "As a druid, you share a profound bond with nature and ancients of lore. Scrying rituals reflect the Cenarion Circle's way of surveying tainted ground from a distance."
   },
   {
    "target": "faction:Alliance",
-   "text": "Securing Darkshore from cultists and aquatic invaders matters to Alliance travelers journeying between Teldrassil and Ashenvale."
+   "text": "As an Alliance traveler, securing Darkshore from cultists and aquatic invaders matters as you journey between Teldrassil and Ashenvale."
   }
  ],
  "keywords": [
@@ -120,5 +120,5 @@
  "attribution": [
   "Onu is meditating"
  ],
- "style": 1
+ "style": 2
 }

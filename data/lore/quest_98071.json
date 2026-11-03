@@ -13,16 +13,16 @@
   "previous": "",
   "next": ""
  },
- "summary": "In Hillsbrad, a case of Fallrook Varietal is bound for Dun Garok. The brew-kin there miss the Fallrook family's vineyards, and a sack of Homebrew Hops comes back in trade.",
+ "summary": "In Hillsbrad, you carry Fallrook Varietal to Dun Garok, where the brew-kin trade for Homebrew Hops. They miss the Fallrook family's vineyards, and cases of wine remain in the cellars.",
  "sections": [
   {
    "title": "A Taste of the Past",
-   "body": "The Fallrook cellars still hold cases of wine, though most of its best bottled years are long gone. The Dun Garok brew-kin miss the family's vineyards too, and a trade has been arranged with them.",
+   "body": "Fallrook wine still waits in the cellars, though most of the family's best bottled years are long gone. The brew-kin at Dun Garok miss those vineyards, so a trade has been arranged.",
    "spoiler": 0
   },
   {
    "title": "The Exchange at Dun Garok",
-   "body": "You carry the case southeast to Dun Garok, where the brew-kin gather beside the fireplace at the base of their fort. In return, you bring back a sack of their Homebrew Hops.",
+   "body": "You carry a case southeast to Dun Garok. The brew-kin gather beside the fireplace at the base of their fort. In return, you bring back a sack of their Homebrew Hops.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "brewer's trade items",
     "fallrook wine"
    ],
-   "answer": "A case of Fallrook Varietal wine from the cellars goes to the Dun Garok brew-kin in return for a sack of their Homebrew Hops."
+   "answer": "A case of Fallrook Varietal wine goes from the cellars to the Dun Garok brew-kin, in return for a sack of their Homebrew Hops."
   },
   {
    "q": "Where in Dun Garok does the wine need to go?",
@@ -80,5 +80,5 @@
  "attribution": [
   "In-game quest text: Brewer's Trade"
  ],
- "style": 1
+ "style": 2
 }

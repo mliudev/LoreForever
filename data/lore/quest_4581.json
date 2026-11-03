@@ -17,16 +17,16 @@
   "wiki": "Kayneth Stillwind (quest)",
   "chain": []
  },
- "summary": "Sentinel Shindrell Swiftfire sends a courier east from Astranaar with a scouting missive for Forest Song. Druid Kayneth Stillwind needs help watching corruption spread through Ashenvale's ancient woods.",
+ "summary": "In Ashenvale, Sentinel Shindrell Swiftfire sends a scouting report east from Astranaar. Druid Kayneth Stillwind needs help watching corruption spread through the ancient woods.",
  "sections": [
   {
    "title": "A Dispatch to the East",
-   "body": "In Astranaar, Sentinel Shindrell Swiftfire watches over western Ashenvale. Druid Kayneth Stillwind, stationed at Forest Song in the forest's eastern reaches, has asked her to assess the region's security. Shifting wildlife and dark omens along the coasts and through the woods trouble him. Swiftfire puts her observations in a sealed note, trusting a traveler to carry it safely across the dangerous central forest.",
+   "body": "In Astranaar, Sentinel Shindrell Swiftfire watches over western Ashenvale. Kayneth Stillwind, a druid at Forest Song in the eastern forest, has asked her to judge the region's security. Shifting wildlife and dark omens along the coasts and through the woods trouble him. So Swiftfire seals her observations in a note and entrusts it to a traveler crossing the dangerous central forest.",
    "spoiler": 0
   },
   {
    "title": "Watchers at Forest Song",
-   "body": "The way to Forest Song crosses Nightsong Woods, where satyrs encroach, wildlife turns hostile, and the Horde makes excursions from the south. At Forest Song's shrine, Kayneth Stillwind studies the balance of Ashenvale's natural spirits. Swiftfire's reconnaissance confirms his fear that corruption is spreading through the forest, not confined to one place or passing quickly. The druids will need more help to confront the wickedness taking root.",
+   "body": "The road to Forest Song crosses Nightsong Woods, where satyrs encroach, wildlife turns hostile, and the Horde ventures from the south. At the shrine, Kayneth Stillwind studies the balance of Ashenvale's natural spirits. Swiftfire's report confirms his fear: corruption spreads through the forest, neither confined to one place nor passing quickly. The druids need more help to confront the wickedness taking root.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
     "what did shindrell write",
     "shindrell note"
    ],
-   "answer": "Shindrell's Note reports security conditions along Ashenvale's western coast and around Astranaar's woodlands, helping Kayneth Stillwind investigate unnatural corruption in the forest."
+   "answer": "Shindrell's Note reports security along Ashenvale's western coast and around Astranaar's woodlands. The report helps Kayneth Stillwind investigate unnatural corruption in the forest."
   },
   {
    "q": "Why is Kayneth Stillwind investigating the forest?",
@@ -65,7 +65,7 @@
     "kayneth stillwind motive",
     "druid corruption"
    ],
-   "answer": "Kayneth Stillwind investigates because he fears a pervasive wickedness is spreading through Ashenvale. As a druid, he seeks reports from the Sentinels to learn where it is taking hold and uphold nature's balance."
+   "answer": "Kayneth Stillwind fears wickedness is spreading through Ashenvale. As a druid, he seeks Sentinel reports to learn where it is taking hold and preserve nature's balance."
   },
   {
    "q": "Is Forest Song safe for Alliance travelers?",
@@ -93,7 +93,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you share with the Sentinels a duty to keep communication open between Astranaar and distant holdings like Forest Song."
+   "text": "As a night elf, you share the Sentinels' duty to keep communication open between Astranaar and distant holdings like Forest Song."
   },
   {
    "target": "faction:Alliance",
@@ -121,5 +121,5 @@
  "attribution": [
   "Kayneth Stillwind (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,16 +10,16 @@
    "quest:126"
   ]
  },
- "summary": "In Lakeshire, Yowler's Paw is brought to Verner Osgood as proof the feared gnoll leader is dead. Yowler leads the packs menacing the hills above Lakeshire.",
+ "summary": "In Lakeshire, Verner Osgood receives Yowler's Paw as proof that the feared gnoll leader is dead. Yowler leads the packs that menace the hills above the town.",
  "sections": [
   {
    "title": "Trophy of the Pack Leader",
-   "body": "Yowler leads the Redridge gnolls that terrorize the heights around Lake Everstill, their howls reaching Lakeshire. He is feared above all, a ruthless alpha driving the packs' expansion. Verner Osgood asks brave adventurers to bring him Yowler's paw, the customary proof of a bounty across human territories. Taking the paw marks the death of an unusually cunning predator and a blow against the chain of command among his disorganized followers.",
+   "body": "Yowler leads the Redridge gnolls that terrorize the heights around Lake Everstill. Their howls reach Lakeshire. Feared above all, Yowler is a ruthless alpha who drives the packs' expansion. Verner Osgood asks for his paw as the customary proof of a bounty across human territories. The trophy marks the death of an unusually cunning predator and strikes at the command of his disorganized followers.",
    "spoiler": 0
   },
   {
    "title": "A Town Left on Its Own",
-   "body": "Yowler's Paw points to the danger facing Lakeshire. The Stormwind Army is consumed by the Blackrock orc threat entrenched around Stonewatch Keep, leaving civil authorities and townspeople to hire passing mercenaries for defense. Without regular royal garrisons, settlers such as Verner Osgood rely on proof that threats have been dealt with to keep local roads marginally safe for trade and travel.",
+   "body": "Lakeshire faces danger with little help from Stormwind. The Stormwind Army is consumed by the Blackrock orc threat entrenched around Stonewatch Keep. Civil authorities and townspeople must hire passing mercenaries for defense. Without regular royal garrisons, settlers such as Verner Osgood rely on proof that threats have been dealt with, keeping local roads marginally safe for trade and travel.",
    "spoiler": 0
   }
  ],
@@ -68,7 +68,7 @@
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, tracking the Redridge gnolls' alpha and claiming his paw tests your skills at tracking and handling beasts against a dangerous predator."
+   "text": "As a hunter, tracking the Redridge gnolls' alpha and claiming his paw tests your skill at tracking and handling beasts against a dangerous predator."
   }
  ],
  "keywords": [
@@ -95,5 +95,5 @@
   "Yowler's Paw",
   "Howling in the Hills"
  ],
- "style": 1
+ "style": 2
 }

@@ -27,16 +27,16 @@
    "Gelkis Alliance quest chain"
   ]
  },
- "summary": "After Strange Alliance, Uthek the Wise sends you against the Kolkar centaurs to the northeast. Kill them, take their charms, and bring ten of those charms back to Uthek.",
+ "summary": "In Desolace, Uthek the Wise sends you northeast against the Kolkar centaurs. After Strange Alliance, he wants ten of their charms brought back.",
  "sections": [
   {
    "title": "Contempt for Kolkar Magic",
-   "body": "Uthek scoffs at the Kolkar centaurs for thinking their magic strong; in Uthek's view they know nothing of magic. You go northeast to the Kolkar, kill them, and take their charms. Uthek wants ten Crude Charms to throw in the fire, laughing as they burn.",
+   "body": "Uthek scorns the Kolkar centaurs for trusting in their magic. To him, they know nothing of such things. So you head northeast, kill Kolkar, and take their charms. Uthek wants ten Crude Charms to cast into the fire and laugh as they burn.",
    "spoiler": 0
   },
   {
    "title": "Uthek's Verdict",
-   "body": "Uthek praises the deed as a good one for the Gelkis. The Kolkar are feeble and doomed, Uthek says, and their magic will not save them. Having seen your work, they will fear all the more, and fear makes them feebler. In Gelkis lands, the feeble soon die.",
+   "body": "Uthek calls your deed good for the Gelkis. He says the Kolkar are feeble and doomed, and their magic cannot save them. They have seen your work and will fear the Gelkis all the more. Fear weakens them, and in Gelkis lands, the feeble soon die.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "uthek",
     "uthek the wise lore"
    ],
-   "answer": "Uthek the Wise waits in Gelkis Village in Desolace. Uthek wants the Kolkar's charms."
+   "answer": "Uthek the Wise waits in Gelkis Village in Desolace and wants the Kolkar's charms."
   },
   {
    "q": "Where are the Kolkar located?",
@@ -56,7 +56,7 @@
     "where to find kolkar",
     "kolkar location desolace"
    ],
-   "answer": "To the northeast, according to Uthek."
+   "answer": "Uthek says the Kolkar are northeast."
   },
   {
    "q": "What are the Crude Charms?",
@@ -64,7 +64,7 @@
     "crude charm",
     "kolkar charms"
    ],
-   "answer": "Charms taken from the Kolkar. Uthek wants ten of them to throw in the fire and laugh."
+   "answer": "Crude Charms are taken from the Kolkar. Uthek wants ten cast into the fire so he can laugh as they burn."
   },
   {
    "q": "How does this fit into the Gelkis chain?",
@@ -72,7 +72,7 @@
     "gelkis chain",
     "what comes before raid on the kolkar"
    ],
-   "answer": "It follows Strange Alliance."
+   "answer": "Raid on the Kolkar follows Strange Alliance."
   }
  ],
  "angles": [],
@@ -93,5 +93,6 @@
  ],
  "attribution": [
   "Raid on the Kolkar"
- ]
+ ],
+ "style": 2
 }

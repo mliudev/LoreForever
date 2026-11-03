@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Isle of Dread"
  },
- "summary": "The Isle of Dread is a desolate, cliff-bound island situated in the Great Sea off the southwestern coast of Feralas, south of Sardor Isle. It is notorious for sheltering monstrous two-headed chimaeroks and an entrenched coven of hostile naga hidden within its subterranean sea caves.",
+ "summary": "South of Sardor Isle, sheer cliffs guard the Isle of Dread off Feralas’s southwestern coast. Chimaeroks roam its highlands, while naga hide in sea caves.",
  "sections": [
   {
    "title": "A Land of Monsters and Tides",
-   "body": "Rising out of the crashing surf of the South Seas, the Isle of Dread lives up to its ominous name. Ringed by sheer cliffs, the island's interior valley is only accessible through a narrow pathway on its southeastern coast. Within this enclosed highland roams a lethal population of chimaeroks\u2014ravenous, two-headed beasts empowered by ambient arcane energies. These beasts are led by the monstrous Lord Lakmaeran, making the island a deadly deathtrap for unwary explorers who cross the channel from Sardor Isle.",
+   "body": "A narrow path on the southeastern shore leads you into the island’s high valley. Two-headed chimaeroks roam this enclosed highland, strengthened by arcane energies. Lord Lakmaeran leads the beasts. Anyone crossing from Sardor Isle faces danger here.",
    "spoiler": 0
   },
   {
    "title": "The Northern Caverns",
-   "body": "While the inland plateau belongs to the chimaeroks, the island's northern shore conceals a cavern system occupied by the Hatecrest naga. Led by Lord Shalzaru, these serpent-folk lurk within deep submerged chambers, plotting against the night elven sentinels stationed at nearby Feathermoon Stronghold. Their subterranean lair includes hidden underwater passages that wind into secluded grottoes, serving as a heavily fortified outpost away from mainland scrutiny.",
+   "body": "Hatecrest naga occupy caves along the island’s northern shore. Lord Shalzaru leads them as they plot against the night elven sentinels at nearby Feathermoon Stronghold. Submerged passages wind through the deep chambers to secluded grottoes. Their fortified lair stays beyond mainland scrutiny.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "how to get up isle of dread",
     "climb isle of dread"
    ],
-   "answer": "The island is surrounded by high, sheer cliffs that block ascent from almost every shoreline. The only way to access the central plateau on foot is via a natural path located along the southeastern side of the island."
+   "answer": "Sheer cliffs block the way up from nearly every shore. A natural path on the southeastern side leads on foot to the central plateau."
   },
   {
    "q": "What kinds of creatures inhabit the island?",
@@ -37,7 +37,7 @@
     "monsters on isle of dread",
     "chimaeroks feralas"
    ],
-   "answer": "The high plateau is populated by fierce chimaeroks, including arcane chimaeroks and massive devourers led by the apex beast Lord Lakmaeran. Along the northern coast, deep sea caverns are infested with hostile Hatecrest naga."
+   "answer": "Fierce chimaeroks roam the high plateau, including arcane chimaeroks and massive devourers led by Lord Lakmaeran. Hostile Hatecrest naga occupy deep sea caves along the northern coast."
   },
   {
    "q": "Who leads the naga in the sea caves?",
@@ -46,7 +46,7 @@
     "lord shalzaru cave",
     "naga leader feralas island"
    ],
-   "answer": "The coven of naga occupying the northern cave complex is led by Lord Shalzaru. Their presence poses an active threat to the nearby night elves at Feathermoon Stronghold."
+   "answer": "Lord Shalzaru leads the naga in the northern caves. Their presence threatens the nearby night elves at Feathermoon Stronghold."
   },
   {
    "q": "What makes chimaerok meat so famous?",
@@ -55,17 +55,17 @@
     "dirge kickin chimaerok chops",
     "isle of dread food"
    ],
-   "answer": "Chimaeroks yield exceptionally rich tenderloins prized by master gourmands. Culinary masters like Dirge Quikcleave seek out meat from the island\u2014including the prized carcass of Lord Lakmaeran\u2014to craft legendary feasts."
+   "answer": "Chimaeroks yield rich, tender meat prized by master gourmands. Dirge Quikcleave seeks meat from the island, including Lord Lakmaeran’s carcass, to craft legendary feasts."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "The chimaeroks of the Isle of Dread are the only known source of Chimaerok Tenderloin, the key ingredient for Dirge Quikcleave's legendary Chimaerok Chops."
+   "text": "The Isle of Dread’s chimaeroks are the only known source of Chimaerok Tenderloin, the key ingredient in Dirge Quikcleave’s legendary Chimaerok Chops."
   },
   {
    "target": "faction:Alliance",
-   "text": "The night elven sentinels at nearby Feathermoon Stronghold keep a watchful eye on the isle, seeking brave champions to strike at Lord Shalzaru and halt the naga presence off their shores."
+   "text": "Night elven sentinels at nearby Feathermoon Stronghold watch the isle. They seek brave champions to strike at Lord Shalzaru and halt the naga presence off their shores."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Isle of Dread"
- ]
+ ],
+ "style": 2
 }

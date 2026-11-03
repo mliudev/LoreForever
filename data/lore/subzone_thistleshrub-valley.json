@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Thistleshrub Valley"
  },
- "summary": "Tucked away in the southwestern reaches of Tanaris, Thistleshrub Valley is a bizarre oasis of prickly plant life amidst endless dunes. The canyon is known for its strange grove of giant cacti and hostile animated thistleshrubs that attack anything stepping through their thorn-choked territory.",
+ "summary": "In southwestern Tanaris, giant cacti and living thistleshrubs crowd a canyon. The hostile plants lash out at travelers who cross their thorn-choked ground.",
  "sections": [
   {
    "title": "A Grove of Thorns",
-   "body": "While most of Tanaris is an arid wasteland stripped bare of vegetation, Thistleshrub Valley is curiously choked with life. Giant blooming cacti tower over the canyon floor, providing a sharp contrast to the surrounding sea of sand. However, this is no peaceful sanctuary. The valley takes its name from the hostile, living plant creatures that lurk among the brush. These thistleshrubs lash out with razor-sharp spines at any traveler who wanders near, making navigation hazardous for those trying to push past the cliffs toward the mysterious southern gates.",
+   "body": "Giant blooming cacti rise above the sand, crowding a canyon where much of Tanaris lies bare. Living thistleshrubs give the valley its name. They strike travelers who come near with sharp spines, making the crossing perilous. Their thorny brush blocks the way past the cliffs toward the mysterious southern gates.",
    "spoiler": 0
   },
   {
    "title": "Sentinels of the Desert",
-   "body": "The presence of animated flora in such a dry climate has long puzzled wanderers and desert survivalists. Whether awakened by forgotten elemental energies or stubborn adaptation to the harsh Tanaris climate, the thistleshrubs remain violently territorial. Travelers journeying through the canyon must contend not only with these thrashing thickets of thorn and root, but also the desert predators and venomous serpents that nest among the towering cacti.",
+   "body": "Travelers have long wondered how animated plants survive in such a dry land. The thistleshrubs fiercely guard their ground. Forgotten elemental energies may have awakened them, or they may have adapted to Tanaris's harsh climate. Towering cacti offer little cover from desert predators and venomous serpents in the canyon.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is thistleshrub",
     "find thistleshrub valley"
    ],
-   "answer": "Thistleshrub Valley is nestled in the southwestern corner of Tanaris, wedged along the southern mountain ridge near the mysterious sealed gates of Uldum."
+   "answer": "Thistleshrub Valley lies in southwestern Tanaris, along the southern mountain ridge near the mysterious sealed gates of Uldum."
   },
   {
    "q": "Why is there so much plant life in this part of Tanaris?",
@@ -36,7 +36,7 @@
     "why giant cactus here",
     "why are plants growing here"
    ],
-   "answer": "Unlike the rest of the barren desert, the valley shelters a microclimate dominated by towering cacti and animated plant life. How these unusual thistleshrubs thrive so aggressively in the dry desert sand remains an enduring mystery of the southern dunes."
+   "answer": "Unlike the barren desert around it, the valley shelters towering cacti and animated plants. How the thistleshrubs thrive so fiercely in dry sand remains a mystery of the southern dunes."
   },
   {
    "q": "What creatures live in Thistleshrub Valley?",
@@ -44,7 +44,7 @@
     "thistleshrub valley mobs",
     "monsters in thistleshrub valley"
    ],
-   "answer": "The valley is overrun by hostile, walking thistleshrub creatures, aggressive desert blooms, and various venomous reptiles that hide beneath the thorny vegetation."
+   "answer": "Hostile walking thistleshrubs, aggressive desert blooms and venomous reptiles live in the valley, hidden among thorny plants."
   },
   {
    "q": "What is the massive stone structure near the valley?",
@@ -52,17 +52,17 @@
     "doors near thistleshrub",
     "titan gate tanaris"
    ],
-   "answer": "Just beyond the valley sits a massive, sealed Titan structure often referred to as the gateway to Uldum, which remains locked and enigmatic to desert wanderers."
+   "answer": "A massive sealed Titan structure stands just beyond the valley. Desert wanderers call it the gateway to Uldum, though it remains locked and enigmatic."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "The valley is an anomaly for herbalists traversing Tanaris, hosting peculiar and resilient desert plant life among thick groves of thorny brush."
+   "text": "For herbalists crossing Tanaris, the valley holds unusual, resilient plants among thick groves of thorny brush."
   },
   {
    "target": "class:Druid",
-   "text": "Druids may find the viciously animated thistleshrubs fascinating, pondering what primeval or elemental forces keep them thriving in an otherwise desolate desert."
+   "text": "As a druid, you may find the viciously animated thistleshrubs fascinating. You may wonder what primeval or elemental forces keep them thriving in this desolate desert."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Thistleshrub Valley"
- ]
+ ],
+ "style": 2
 }

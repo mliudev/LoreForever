@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "While sharing a name with traditional shamanic trials of fire, this rite focuses on subduing a resilient highland spirit with flame to gather power for communion with fire spirits."
+   "text": "As a shaman, you face a highland spirit with flame and gather power to commune with fire spirits."
   },
   {
    "target": "class:Mage",
-   "text": "Kuramaa is heavily resistant to most magical disciplines, forcing spellcasters to rely strictly upon fire magic to overcome the sprite."
+   "text": "As a mage, you find that Kuramaa resists most forms of magic. Only fire magic can overcome the sprite."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "kuramaa lore",
     "what is kuramaa"
    ],
-   "answer": "Kuramaa is an ancient forest sprite dwelling within the Shen'dar Highlands. According to local highland residents, it makes its home inside a twisted tree stump perched at the summit of a hill near the Highlands Anchor Pylon.",
+   "answer": "Kuramaa is an ancient forest sprite dwelling in the Shen'dar Highlands. Local residents say it lives in a twisted tree stump atop a hill near the Highlands Anchor Pylon.",
    "q": "Who is Kuramaa?"
   },
   {
@@ -37,7 +37,7 @@
     "who is olariaan swiftburn",
     "where turn in call of fire"
    ],
-   "answer": "Olariaan Swiftburn is the ritualist who tasks adventurers with confronting Kuramaa. Stationed in the Gustberry Lowlands, Olariaan requires Kuramaa's wooden mask to conduct a sacred rite of fire.",
+   "answer": "Olariaan Swiftburn is a ritualist in the Gustberry Lowlands who sends you to confront Kuramaa. Olariaan needs the sprite's wooden mask for a sacred rite of fire.",
    "q": "Who is Olariaan Swiftburn?"
   },
   {
@@ -46,7 +46,7 @@
     "where is kuramaa stump",
     "summon forest sprite"
    ],
-   "answer": "Kuramaa lives inside a twisted tree stump atop a hill near the Anchor Pylon in the Shen'dar Highlands. To summon the spirit out for combat, one must rap a fist firmly upon the bark of its stump.",
+   "answer": "Kuramaa dwells in a twisted tree stump atop a hill near the Anchor Pylon in the Shen'dar Highlands. Strike the stump's bark with a fist, and the sprite comes out to fight.",
    "q": "How do you summon Kuramaa?"
   },
   {
@@ -55,7 +55,7 @@
     "how to beat kuramaa",
     "kuramaa magic immune"
    ],
-   "answer": "Kuramaa possesses an exceptional natural resistance to most forms of magic. Only the touch of flame can overcome its defenses and lay the ancient forest sprite low in battle.",
+   "answer": "Kuramaa resists most forms of magic. Flame alone can pierce its defenses and bring the ancient forest sprite low.",
    "q": "What is Kuramaa vulnerable to in combat?"
   },
   {
@@ -64,7 +64,7 @@
     "what does mask do",
     "kuramaa mask purpose"
    ],
-   "answer": "Kuramaa's wooden mask is recognized as a vessel of substantial power. Olariaan Swiftburn utilizes this potent relic as an essential component to light an eternal flame and commune directly with fire spirits.",
+   "answer": "Olariaan Swiftburn needs Kuramaa's powerful wooden mask to kindle an eternal flame and commune with fire spirits.",
    "q": "Why does Olariaan Swiftburn need Kuramaa's mask?"
   },
   {
@@ -73,7 +73,7 @@
     "did i kill kuramaa",
     "kuramaa respawn lore"
    ],
-   "answer": "Kuramaa is an eternal woodland spirit rather than a mortal creature. Although its physical manifestation is defeated to claim its mask, the spirit endures and will manifest again when needed.",
+   "answer": "No. Kuramaa is eternal. Its spirit endures after its physical form is defeated, then manifests again when called.",
    "q": "Is Kuramaa permanently destroyed when defeated?"
   }
  ],
@@ -90,23 +90,24 @@
  "related": [],
  "sections": [
   {
-   "body": "In the Shen'dar Highlands, local residents whisper tales of Kuramaa, an ancient forest sprite that resides inside a twisted tree stump at the summit of a hill near the regional Anchor Pylon. To draw the reclusive entity into the open, a challenger must strike the bark of its wooden home with a bare fist, demanding its presence and testing their mettle in combat.",
+   "body": "People in the Shen'dar Highlands speak of Kuramaa, an ancient forest sprite that dwells in a twisted tree stump. The stump stands atop a hill near the regional Anchor Pylon. Strike the bark with a bare fist, and Kuramaa comes forth to meet you in combat.",
    "spoiler": 0,
    "title": "The Sprite of the Highlands"
   },
   {
-   "body": "Overcoming Kuramaa is no simple task for wielders of the arcane or divine, as the sprite possesses deep natural wards against most forms of magic. Only searing flame can pierce its ancient bark and bring it low. Defeating the creature yields Kuramaa's wooden mask, an artifact imbued with great power. Even so, Kuramaa is eternal, bound to reform and manifest again when called upon.",
+   "body": "Kuramaa's natural wards turn aside most arcane and divine magic. Only searing flame pierces its ancient bark and brings it low. Defeat the sprite, and its wooden mask is yours, an artifact of great power. Yet Kuramaa is eternal. When called again, it reforms.",
    "spoiler": 0,
    "title": "Fire and Wood"
   },
   {
-   "body": "Down in the Gustberry Lowlands, Olariaan Swiftburn awaits the retrieval of Kuramaa's mask. The enchanted wooden relic serves as the catalyst for an esoteric ceremony: igniting an eternal flame to commune directly with the spirits of fire, unlocking ancient elemental communion through the defeat of highland nature spirits.",
+   "body": "In the Gustberry Lowlands, Olariaan Swiftburn awaits Kuramaa's mask. The enchanted relic is needed to kindle an eternal flame and commune with the spirits of fire. Defeating highland nature spirits opens the rite's path to ancient communion with the elements.",
    "spoiler": 1,
    "title": "The Eternal Flame"
   }
  ],
- "summary": "Call of Fire is a quest in which adventurers are tasked by Olariaan Swiftburn to locate and confront the ancient forest sprite Kuramaa in the Shen'dar Highlands. By invoking the sprite from its stump and defeating it with flame, travelers obtain its powerful wooden mask. The relic is then brought to the Gustberry Lowlands to ignite an eternal flame and commune with the spirits of fire.",
+ "summary": "In the Shen'dar Highlands, Olariaan Swiftburn sends you to face Kuramaa, an ancient forest sprite. Flame can pierce its defenses, and its wooden mask is needed in the Gustberry Lowlands to kindle an eternal flame and commune with fire spirits.",
  "attribution": [
   "In-game quest text: Call of Fire"
- ]
+ ],
+ "style": 2
 }

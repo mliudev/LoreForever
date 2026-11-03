@@ -2,19 +2,19 @@ local P = LoreForeverPacks.Begin("LoreForever_Voice_Female_MoreItems")
 P.transportVersion = 1
 P.transport = {}
 P.transport["item:99-year-old-port"] = {
-  hash = "d7d79a",
-  fullHash = "d7d79a",
-  text = "99-Year-Old Port. The 99-Year-Old Port is an exceptionally rare bottle of vintage liquor shipped from Booty Bay as a personal gift for Gazlowe. After a cargo accident on the Ratchet docks, it was snatched away by a lunatic named Mad Magglish, who fled into the twisting tunnels outside the Wailing Caverns. Transporting precious freight across the Great Sea always carries risks, but Crane Operator Bigglefuzz made things far worse during a routine morning unloading in Ratchet. Attempting to clear an overwhelming shipment from Booty Bay, the goblin overloaded his crane and brought a mountain of crates crashing down onto the docks. In the chaos, the town eccentric—a troublesome figure known as Mad Magglish—snatched an extraordinarily aged bottle of 99-Year-Old Port and bolted into the hills toward the Wailing Caverns.",
+  hash = "918a5e",
+  fullHash = "918a5e",
+  text = "99-Year-Old Port. At Ratchet's docks, a bottle of 99-Year-Old Port has gone missing. Mad Magglish took it in a cargo spill and fled toward the Wailing Caverns. Crane Operator Bigglefuzz overloaded his crane while unloading a large shipment from Booty Bay in Ratchet. Crates crashed across the docks. In the confusion, Mad Magglish seized a bottle of 99-Year-Old Port and fled into the hills toward the Wailing Caverns.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_99-year-old-port-9c78613937e1cca2b9ea/1-0000.mp3", duration = 48.5616327, start = 0},
+    {file = "Audio/Transport/full_item_99-year-old-port-408f70480dd368329f6f/1-0000.mp3", duration = 27.1934694, start = 0},
   },
 }
 P.transport["item:a-bloodstained-journal-page"] = {
-  hash = "fc97f7",
-  fullHash = "fc97f7",
-  text = "A Bloodstained Journal Page. Commander Althea Ebonlocke has a torn, bloodstained journal page examined during the investigation into Stalvan Mistmantle. A few words remain legible, and she asks Clerk Daltry to compare the handwriting with the Town Registry. Commander Althea Ebonlocke watches over Darkshire and asks that the handwriting on a torn, bloodstained page be examined. Though thick blood covers it, a few words remain legible for Clerk Daltry to compare with the Town Registry.",
+  hash = "6d14f3",
+  fullHash = "6d14f3",
+  text = "A Bloodstained Journal Page. During the investigation into Stalvan Mistmantle, Commander Althea Ebonlocke has a torn, bloodstained journal page examined. A few words remain legible, so she asks Clerk Daltry to compare its handwriting with the Town Registry. Commander Althea Ebonlocke watches over Darkshire and asks for the handwriting on a torn, bloodstained page to be examined. Thick blood covers it, but a few words remain legible. Clerk Daltry is asked to compare them with the Town Registry.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_a-bloodstained-journal-page-38ee5f25eae0006399a0/1-0000.mp3", duration = 26.6710204, start = 0},
+    {file = "Audio/Transport/full_item_a-bloodstained-journal-page-dd4500a2b54a205c84c4/1-0000.mp3", duration = 30.6677551, start = 0},
   },
 }
 P.transport["item:a-clue-to-sanders-treasure"] = {
@@ -26,19 +26,19 @@ P.transport["item:a-clue-to-sanders-treasure"] = {
   },
 }
 P.transport["item:a-dusty-unsent-letter"] = {
-  hash = "f46eec",
-  fullHash = "f46eec",
-  text = "A Dusty Unsent Letter. In Westfall, a dusty letter sheds light on Stalvan Mistmantle’s past in Moonbrook. The unsent parchment was found in an old footlocker and confirms that he lived there before his disappearance. Investigators searching for Stalvan Mistmantle’s past find an unsent letter in an old footlocker in Moonbrook. Darkshire’s town registry still gives his last address as the Moonbrook Schoolhouse, and Clerk Daltry wants to know whether he truly lived there. The letter confirms that Stalvan resided in the Westfall township for a time. Finding it disturbs a vengeful Forlorn Spirit, which guards the remnants of Stalvan’s past with bitter malice.",
+  hash = "7dcd6e",
+  fullHash = "7dcd6e",
+  text = "A Dusty Unsent Letter. In Moonbrook, an unsent letter bears on Stalvan Mistmantle’s past. Found in an old footlocker, it confirms that he lived there before his disappearance. Investigators searching Moonbrook find an unsent letter in an old footlocker. Darkshire’s town registry still lists Stalvan Mistmantle’s last address as the Moonbrook Schoolhouse. Clerk Daltry wants to know if he truly lived there. The letter confirms that Stalvan resided in the Westfall township for a time.\n\nFinding the letter disturbs a vengeful Forlorn Spirit. The spirit guards the remnants of Stalvan’s past with bitter malice.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_a-dusty-unsent-letter-da46587fc8d6b2eab93c/1-0000.mp3", duration = 38.5044898, start = 0},
+    {file = "Audio/Transport/full_item_a-dusty-unsent-letter-6620065f9d0ea932cac1/1-0000.mp3", duration = 38.8440816, start = 0},
   },
 }
 P.transport["item:a-faded-journal-page"] = {
-  hash = "4f45e7",
-  fullHash = "4f45e7",
-  text = "A Faded Journal Page. In eastern Elwynn, an old page points toward Stalvan Mistmantle's grim history. The Faded Journal Page lay for years in an old trunk at Marshal Haggard's home near Elwynn Forest's eastern border. Haggard had retired there, but his failing eyesight kept him from reading the weathered parchment. The page stayed neglected until investigators seeking the truth about Stalvan Mistmantle retrieved it.",
+  hash = "7631b8",
+  fullHash = "7631b8",
+  text = "A Faded Journal Page. In eastern Elwynn, an old page lies unread in Marshal Haggard's home, tied to Stalvan Mistmantle's grim history. For years, the Faded Journal Page lay in an old trunk at Marshal Haggard's home near Elwynn Forest's eastern border. Haggard had retired there, but failing eyesight kept him from reading the weathered parchment. The page remained neglected until investigators seeking the truth about Stalvan Mistmantle retrieved it.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_a-faded-journal-page-7796344cc1dfd9472a5b/1-0000.mp3", duration = 24.2677551, start = 0},
+    {file = "Audio/Transport/full_item_a-faded-journal-page-4153edde13220756da32/1-0000.mp3", duration = 26.0702041, start = 0},
   },
 }
 P.transport["item:a-letter-to-grelin-whitebeard"] = {
@@ -74,35 +74,35 @@ P.transport["item:a-stack-of-letters"] = {
   },
 }
 P.transport["item:a-torn-journal-page"] = {
-  hash = "7332ce",
-  fullHash = "7332ce",
-  text = "A Torn Journal Page. In Stormwind, A Torn Journal Page links an old crate to Stalvan Mistmantle's past. Its worn script points toward records kept in Elwynn Forest. A Torn Journal Page lies in a sealed storage crate beside Stormwind City's canals. Old books, family heirlooms, and a ceramic vase surround the worn fragment among forgotten personal effects. Its distinct handwriting points to Stalvan Mistmantle's past, though the page is damaged and hard to read. Who in the kingdom might recognize the hand that wrote it?",
+  hash = "e0b56c",
+  fullHash = "e0b56c",
+  text = "A Torn Journal Page. In Stormwind, A Torn Journal Page carries a clue to Stalvan Mistmantle's past. Its worn script points toward old records in Elwynn Forest. A Torn Journal Page rests in a sealed storage crate beside Stormwind City's canals. Forgotten personal effects surround it, including old books, family heirlooms, and a ceramic vase. The writing points to Stalvan Mistmantle's past, though the page is damaged and hard to read. Who in the kingdom might know that hand?",
   ["1"] = {
-    {file = "Audio/Transport/full_item_a-torn-journal-page-26ec88f252bfae214c2d/1-0000.mp3", duration = 31.2163265, start = 0},
+    {file = "Audio/Transport/full_item_a-torn-journal-page-74780340cb4f95a8dd7f/1-0000.mp3", duration = 31.1379592, start = 0},
   },
 }
 P.transport["item:abercrombie-s-crate"] = {
-  hash = "2b9188",
-  fullHash = "2b9188",
-  text = "Abercrombie's Crate. Near the Vul'Gol Ogre Mound, Abercrombie's Crate lies abandoned after ogres drove off its owner. The crate holds delicate tools and gathered herbs belonging to the eccentric hermit. Abercrombie left his shack in western Duskwood to gather vegetation. Far from home, he met a hostile band of ogres and fled for his life, leaving behind his crate of instruments and harvested plants. The ogres carried it to the Vul'Gol Ogre Mound, where the heavy chest rests near the cave mouth.",
+  hash = "e6034b",
+  fullHash = "e6034b",
+  text = "Abercrombie's Crate. Near the Vul'Gol Ogre Mound, Abercrombie's Crate waits for its owner. Ogres drove him off while he gathered herbs, leaving his delicate tools behind. Abercrombie left his shack in western Duskwood to gather plants. Far from home, he met a hostile band of ogres and fled for his life. He left his crate of instruments and gathered plants behind. The ogres carried it to the Vul'Gol Ogre Mound, where the heavy chest rests near the cave mouth.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_abercrombie-s-crate-d26addfc2ea2eef5fa29/1-0000.mp3", duration = 30.9812245, start = 0},
+    {file = "Audio/Transport/full_item_abercrombie-s-crate-9966ec4cb9dc40844654/1-0000.mp3", duration = 27.7681633, start = 0},
   },
 }
 P.transport["item:admiral-proudmoore-s-orders"] = {
-  hash = "cc88e5",
-  fullHash = "cc88e5",
-  text = "Admiral Proudmoore's Orders. Kul Tiras forces keep their coastal positions in Durotar, and Admiral Proudmoore's Orders lay out their plans. The documents were written before Daelin Proudmoore fell at Theramore and describe a campaign against the Horde. Admiral Proudmoore's Orders show that the Kul Tiras forces at Tiragarde Keep still mean to fight. Lieutenant Benedict's garrison holds the papers, which detail long-term maneuvers and fortifications against the Horde. The plans show that Daelin Proudmoore's offensive in Durotar was an organized campaign, built to continue after his death. For the Horde, the documents reveal Kul Tiras operations and possible reinforcements threatening its borders.",
+  hash = "4d0363",
+  fullHash = "4d0363",
+  text = "Admiral Proudmoore's Orders. Kul Tiras forces still hold the coast in Durotar, guided by Admiral Proudmoore's Orders. Written before Daelin Proudmoore fell at Theramore, the papers describe a campaign against the Horde. At Tiragarde Keep, Kul Tiras forces still mean to fight. Lieutenant Benedict's garrison holds papers detailing long-term maneuvers and fortifications against the Horde. Daelin Proudmoore's offensive in Durotar was an organized campaign, planned to continue after his death. For the Horde, these papers reveal Kul Tiras operations and possible reinforcements along its borders.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_admiral-proudmoore-s-orders-75763712d3be410e336a/1-0000.mp3", duration = 42.0832653, start = 0},
+    {file = "Audio/Transport/full_item_admiral-proudmoore-s-orders-511cefe5b01b6167c748/1-0000.mp3", duration = 36.2579592, start = 0},
   },
 }
 P.transport["item:ados-fragment"] = {
-  hash = "9a0907",
-  fullHash = "9a0907",
-  text = "Ados Fragment. At Whelgar's Excavation in the Wetlands, Ados Fragment lies among three lost pieces of the Goaz Stone. Together, the four shards make an ancient relic carved with Titan inscriptions. The Ados Fragment is one of four pieces Prospector Whelgar needs to restore the Goaz Stone at Whelgar's Excavation. Before raptors overran the dig site, Whelgar began translating the main tablet and found its inscriptions broke off at crucial moments. The four pieces, named Ados, Modr, Golm, and Neru, were lost across the ruins in ancient containers and dirt mounds, among prowling beasts.",
+  hash = "0e913a",
+  fullHash = "0e913a",
+  text = "Ados Fragment. At Whelgar's Excavation, Ados Fragment lies among three lost pieces of the Goaz Stone. The four shards together form an ancient relic carved with Titan inscriptions. Ados Fragment is one of four pieces Prospector Whelgar needs to restore the Goaz Stone at Whelgar's Excavation. Before raptors overran the dig site, Whelgar began translating the main tablet. Its inscriptions broke off at crucial moments. The four pieces are named Ados, Modr, Golm, and Neru. They were lost across the ruins in ancient containers and dirt mounds, among prowling beasts.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_ados-fragment-42c08e58d8453945ab05/1-0000.mp3", duration = 36.2579592, start = 0},
+    {file = "Audio/Transport/full_item_ados-fragment-13f5a3ba97f9332456ad/1-0000.mp3", duration = 35.7616327, start = 0},
   },
 }
 P.transport["item:agamand-family-axe"] = {
@@ -154,11 +154,11 @@ P.transport["item:alaric-s-remains"] = {
   },
 }
 P.transport["item:alien-egg"] = {
-  hash = "f503b9",
-  fullHash = "f503b9",
-  text = "Alien Egg. The Alien Egg is an unusual and mysterious clutch found guarded by local wind serpents across the canyons of Thousand Needles. Despite its unfamiliar appearance, the native serpents protect the egg fiercely as if it were their own. Its presence has aroused the curiosity and concern of the tauren scouts stationed atop Freewind Post. Discovered resting at the base of the towering spires south and northeast of Freewind Post, the Alien Egg stands out dramatically from the typical fauna of the canyon floor. Rather than abandoning or destroying the odd clutch, the native serpents of the needles fiercely guard it alongside their own nests. Hagar Lightninghoof, a tauren brave keeping watch from the heights of Freewind Post, sought to retrieve the specimen to determine whether it represented a threat to the mesa settlements or merely an unusual variation of local reptilian life.",
+  hash = "b520ae",
+  fullHash = "b520ae",
+  text = "Alien Egg. Wind serpents guard an unfamiliar clutch in Thousand Needles, and tauren scouts at Freewind Post want to know why. Alien Egg lies at the base of spires south and northeast of Freewind Post. Native wind serpents guard it beside their own nests, though such a clutch is strange among the life on the canyon floor. Hagar Lightninghoof, a tauren brave watching from Freewind Post, wants to retrieve it. He hopes to learn whether it threatens the mesa settlements or is simply an unusual local reptile.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_alien-egg-46fd1f6b6398072f6e9f/1-0000.mp3", duration = 52.48, start = 0},
+    {file = "Audio/Transport/full_item_alien-egg-a0c1d9b9e7619d60c9bb/1-0000.mp3", duration = 30.3281633, start = 0},
   },
 }
 P.transport["item:alterac-granite"] = {
@@ -170,11 +170,11 @@ P.transport["item:alterac-granite"] = {
   },
 }
 P.transport["item:altered-snapjaw-shell"] = {
-  hash = "19f900",
-  fullHash = "19f900",
-  text = "Altered Snapjaw Shell. At the Lushwater and Stagnant Oases, snapjaws bear altered shells that draw a druid’s attention. Their carapaces may reveal what the fissures beneath the Barrens are doing to local wildlife. Oasis snapjaws have changed in ways that trouble those who study the land. The freshwater turtles of Lushwater and Stagnant Oases are believed to drink from springs fed by mysterious underground fissures. Their altered carapaces have caught the attention of researchers at the Crossroads. Tonga Runetotem, a tauren druid, gathers the shells as he seeks to understand the land’s health. He wants to learn whether energies rising from deep below are an unnatural blight or something stranger.",
+  hash = "a18bcc",
+  fullHash = "a18bcc",
+  text = "Altered Snapjaw Shell. At the Lushwater and Stagnant Oases, snapjaws bear altered shells that concern a druid. Their carapaces may show how the Barrens’ deep fissures affect local wildlife. Oasis snapjaws have changed in ways that trouble those who study the land. The freshwater turtles of Lushwater and Stagnant Oases are believed to drink from springs fed by mysterious underground fissures. Their altered carapaces have drawn the attention of researchers at the Crossroads.\n\nTonga Runetotem, a tauren druid, gathers the shells to learn about the land’s health. He seeks to discover whether energies rising from deep below are an unnatural blight or something stranger.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_altered-snapjaw-shell-2cd3648848a17fa12628/1-0000.mp3", duration = 42.1616327, start = 0},
+    {file = "Audio/Transport/full_item_altered-snapjaw-shell-bed1bd3575ea1761ba6c/1-0000.mp3", duration = 41.5085714, start = 0},
   },
 }
 P.transport["item:ambercorn"] = {
@@ -186,43 +186,43 @@ P.transport["item:ambercorn"] = {
   },
 }
 P.transport["item:amethyst-phial"] = {
-  hash = "047ea2",
-  fullHash = "047ea2",
-  text = "Amethyst Phial. Corithras Moonrage entrusts the Amethyst Phial to travelers in Dolanaar. They carry it to the Oracle Glade to gather water from the moonwell beneath the Oracle Tree. Corithras Moonrage entrusts the Amethyst Phial to travelers on Teldrassil. It is the final vessel used in the Crown of the Earth pilgrimage. They carry it to the far northwest of the boughs, to the Oracle Glade. Beneath the ancient canopy of the Oracle Tree lies the island’s first and most potent moonwell. The phial is dipped into its radiant waters to gather the essence of Elune’s grace. Druids and priestesses study and tend to the World Tree’s unpredictable growth with that water.",
+  hash = "4b7ec1",
+  fullHash = "4b7ec1",
+  text = "Amethyst Phial. In Dolanaar, Corithras Moonrage entrusts travelers with the Amethyst Phial. They take it to the Oracle Glade and gather water from the moonwell beneath the Oracle Tree. Corithras Moonrage gives travelers on Teldrassil the Amethyst Phial. It is the final vessel in the Crown of the Earth pilgrimage. They carry it to the Oracle Glade in the far northwest of the boughs.\n\nBeneath the Oracle Tree’s ancient canopy lies the island’s first and most potent moonwell. Travelers dip the phial into its radiant waters to gather the essence of Elune’s grace. Druids and priestesses study and tend the World Tree’s unpredictable growth with that water.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_amethyst-phial-bf525f5d6cfb6e5e159e/1-0000.mp3", duration = 39.2097959, start = 0},
+    {file = "Audio/Transport/full_item_amethyst-phial-a5510ab87356bd21f69d/1-0000.mp3", duration = 41.7697959, start = 0},
   },
 }
 P.transport["item:an-undelivered-letter"] = {
-  hash = "0f3d6a",
-  fullHash = "0f3d6a",
-  text = "An Undelivered Letter. Long-forgotten mail lies in Goldshire's Lion's Pride Inn, carrying a critical clue to Stalvan Mistmantle's past. Years ago, a storm sent a traveling courier to the Lion's Pride Inn for shelter. Near midnight, the frightened messenger fled downstairs in his sleeping clothes and vanished into the pouring rain, never to return. On the second floor, he left a chest of belongings, including a letter from Stalvan Mistmantle addressed to an estate in Stormwind City's Canal District.",
+  hash = "d1f74f",
+  fullHash = "d1f74f",
+  text = "An Undelivered Letter. In Goldshire, an old letter waits in the Lion's Pride Inn, carrying a clue to Stalvan Mistmantle's past. Years ago, a storm drove a traveling courier to the Lion's Pride Inn for shelter. Near midnight, fear sent the messenger downstairs in his sleeping clothes and out into the pouring rain. He vanished and never returned. In an upstairs chest, he left his belongings and a letter from Stalvan Mistmantle addressed to an estate in Stormwind City's Canal District.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_an-undelivered-letter-0dcc0a4da7fb13dcc9be/1-0000.mp3", duration = 29.1526531, start = 0},
+    {file = "Audio/Transport/full_item_an-undelivered-letter-e6ddd28ea13178ae0dcc/1-0000.mp3", duration = 29.1526531, start = 0},
   },
 }
 P.transport["item:anaya-s-pendant"] = {
-  hash = "231abb",
-  fullHash = "231abb",
-  text = "Anaya's Pendant. Across Ameth'Aran, Anaya's Pendant remains with the restless ghost of Anaya Dawnrunner. Cerellean Whiteclaw carries grief for the love he lost when the Sundering shattered their world. When the Well of Eternity was destroyed ten thousand years ago, the ancient kaldorei city of Ameth'Aran fell into ruin. Cerellean Whiteclaw believed his beloved Anaya had perished, and carried his grief into a long sleep beside Shan'do Malfurion Stormrage. After waking, he wandered Darkshore and found Anaya's tormented apparition still drifting through Ameth'Aran, bearing the pendant. Cerellean cannot raise a hand against her himself, so he asks travelers to free her spirit and recover the heirloom.",
+  hash = "d7129e",
+  fullHash = "d7129e",
+  text = "Anaya's Pendant. Across Ameth'Aran, Anaya's Pendant remains with the tormented spirit of Anaya Dawnrunner. Cerellean Whiteclaw still grieves for the love he lost when the Sundering shattered their world. Ten thousand years ago, the Well of Eternity was destroyed and the ancient kaldorei city of Ameth'Aran fell into ruin. Cerellean Whiteclaw believed his beloved Anaya had perished. He carried his grief into a long sleep beside Shan'do Malfurion Stormrage.\n\nAfter waking, Cerellean wandered Darkshore and found Anaya's tormented apparition drifting through Ameth'Aran with the pendant. He cannot raise a hand against her himself. So he asks travelers to free her spirit and recover the heirloom.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_anaya-s-pendant-ac4ddf88a84750fe3c24/1-0000.mp3", duration = 43.7812245, start = 0},
+    {file = "Audio/Transport/full_item_anaya-s-pendant-024716f937d68260ed61/1-0000.mp3", duration = 45.0873469, start = 0},
   },
 }
 P.transport["item:ancient-moonstone-seal"] = {
-  hash = "0bdfac",
-  fullHash = "0bdfac",
-  text = "Ancient Moonstone Seal. The Ancient Moonstone Seal holds Asterion captive in the ruins of Bashal'Aran. Forged by the Highborne long before the Sundering, it binds his spirit with arcane magic. The Ancient Moonstone Seal binds Asterion's soul to the pillars of Bashal'Aran. His former master, the Highborne sorcerer Athrikus Narassin, forged it as an unbreakable anchor while the Well of Eternity still stood and Queen Azshara reigned. More than ten millennia later, Asterion remains a spirit bound by its magic. No strength or spell he commands can break the ward.",
+  hash = "82436c",
+  fullHash = "82436c",
+  text = "Ancient Moonstone Seal. In Bashal'Aran, the Ancient Moonstone Seal holds Asterion captive among the ruins. The Highborne forged it long before the Sundering, binding his spirit with arcane magic. Athrikus Narassin, Asterion's former master, forged the Ancient Moonstone Seal to bind his soul to Bashal'Aran's pillars. The Highborne sorcerer made it an unbreakable anchor while the Well of Eternity still stood and Queen Azshara reigned. More than ten millennia later, Asterion remains a spirit bound by its magic. No strength or spell he commands can break the ward.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_ancient-moonstone-seal-ca9bb5e69bc4a40df158/1-0000.mp3", duration = 35.84, start = 0},
+    {file = "Audio/Transport/full_item_ancient-moonstone-seal-4420bb2e8d479933b821/1-0000.mp3", duration = 36.362449, start = 0},
   },
 }
 P.transport["item:ancient-statuette"] = {
-  hash = "9f2eaf",
-  fullHash = "9f2eaf",
-  text = "Ancient Statuette. Along Ashenvale's northwestern shore, Talen seeks the Ancient Statuette he recovered from Zoram's sunken ruins. The night elf effigy came from a city lost beneath the waves. The sunken ruins of Zoram lie off northwestern Ashenvale. The pre-Sundering night elven city was lost beneath the waves ten thousand years ago. Recently, the explorer Talen surveyed the ruins from a small craft, searching for historical relics. Naga attacked and drove him ashore. In his flight, he left most of his belongings behind, including the ancient statuette he had dredged up. It lies on the tideline sand near his scuttled skiff. Talen calls the statuette his most prized possession and the reason he braved the monster-infested coast. He believes the effigy can help decipher Zoram's architecture, history, and arcane secrets, all hidden beneath the surf of Zoram Strand.",
+  hash = "1f2120",
+  fullHash = "1f2120",
+  text = "Ancient Statuette. On Ashenvale's northwestern shore, Talen searches for the Ancient Statuette he recovered from Zoram's sunken ruins. The night elf effigy came from a city lost beneath the waves. Off Ashenvale's northwestern shore, Zoram lies beneath the waves. The night elven city was lost in the Sundering ten thousand years ago. Recently, explorer Talen surveyed its ruins from a small craft, seeking relics from the past. Then naga attacked and drove him ashore.\n\nTalen fled and left most of his belongings behind. Among them was the Ancient Statuette he had dredged from the ruins. It lies in the tideline sand near his scuttled skiff. Talen calls the statuette his most prized possession. It was the reason he braved the monster-infested coast. He believes the effigy can help him decipher Zoram's architecture, history, and arcane secrets. All lie hidden beneath the surf of Zoram Strand.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_ancient-statuette-591b9cf670c1fe5ccbcf/1-0000.mp3", duration = 54.1779592, start = 0},
+    {file = "Audio/Transport/full_item_ancient-statuette-ea950d025c7b56363379/1-0000.mp3", duration = 60.9697959, start = 0},
   },
 }
 P.transport["item:andron-s-ledger"] = {
@@ -250,11 +250,11 @@ P.transport["item:arikara-serpent-skin"] = {
   },
 }
 P.transport["item:arnak-s-hoof"] = {
-  hash = "2dd193",
-  fullHash = "2dd193",
-  text = "Arnak's Hoof. Arnak's Hoof is the macabre proof of death taken from the criminal Arnak Grimtotem. Hunted down on the bluffs of Darkcloud Pinnacle, Arnak was marked for execution by the defenders of Freewind Post after murdering a fellow tauren and kidnapping his sister. Arnak Grimtotem earned notoriety throughout Thousand Needles as an outlaw whose brutality crossed even the contentious lines of tauren clan politics. After murdering another tauren and abducting the victim's sister, Lakota Windsong, a formal bounty was posted for his death. Arnak holed up on the heights of Darkcloud Pinnacle, surrounded by Grimtotem guards. Slaying him and claiming his severed hoof serves as undeniable confirmation for Cliffwatcher Longhorn at Freewind Post that the murderer has finally answered for his crimes.",
+  hash = "8e3657",
+  fullHash = "8e3657",
+  text = "Arnak's Hoof. On Darkcloud Pinnacle, Arnak Grimtotem awaits execution for murder and kidnapping. Freewind Post's defenders marked him for death after he killed a fellow tauren and took the tauren's sister. Across Thousand Needles, Arnak Grimtotem is feared as an outlaw. His brutality has crossed even the bitter divisions among tauren clans. He murdered a fellow tauren and abducted the victim’s sister, Lakota Windsong.\n\nSo the defenders of Freewind Post marked him for execution and set a bounty on his death. Arnak took refuge on Darkcloud Pinnacle, guarded by Grimtotem. His severed hoof proves to Cliffwatcher Longhorn at Freewind Post that the murderer has answered for his crimes.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_arnak-s-hoof-cd32feed1d18f90e8675/1-0000.mp3", duration = 48.9012245, start = 0},
+    {file = "Audio/Transport/full_item_arnak-s-hoof-f26f26b0a599af37a95a/1-0000.mp3", duration = 45.3485714, start = 0},
   },
 }
 P.transport["item:astor-s-letter-of-introduction"] = {
@@ -274,11 +274,11 @@ P.transport["item:ataeric-s-staff"] = {
   },
 }
 P.transport["item:athrikus-narassin-s-head"] = {
-  hash = "299102",
-  fullHash = "299102",
-  text = "Athrikus Narassin's Head. At the Tower of Althalaxx, Athrikus Narassin's Head proves the ancient warlock's death. The coven's demonic activity in northern Darkshore has been disrupted.",
+  hash = "7e3a9b",
+  fullHash = "7e3a9b",
+  text = "Athrikus Narassin's Head. At the Tower of Althalaxx, Athrikus Narassin's Head proves the ancient warlock is dead. The coven's demonic work in northern Darkshore has been disrupted.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_athrikus-narassin-s-head-060bb73e9431481a0770/1-0000.mp3", duration = 9.95265306, start = 0},
+    {file = "Audio/Transport/full_item_athrikus-narassin-s-head-dfb3bda72ecae99cc897/1-0000.mp3", duration = 10.1877551, start = 0},
   },
 }
 P.transport["item:bag-of-empty-ooze-containers"] = {
@@ -298,11 +298,11 @@ P.transport["item:balnir-snapdragons"] = {
   },
 }
 P.transport["item:baron-longshore-s-head"] = {
-  hash = "1062a2",
-  fullHash = "1062a2",
-  text = "Baron Longshore's Head. Along the Merchant Coast, Baron Longshore's Head proves the pirate captain's death. Gazlowe posted a public bounty for Longshore's identifiable remains to protect Ratchet's commercial shipping. Baron Longshore led Southsea Freebooter raids from camps along the Merchant Coast south of Ratchet. His flagship, the Heedless, threatened goblin trade lanes between Kalimdor and the Eastern Kingdoms. Gazlowe, Ratchet's Chief Engineer, offered a bounty for identifiable proof of Longshore's death. The port authority pays a monetary reward when the pirate's head is delivered.",
+  hash = "5c9f2b",
+  fullHash = "5c9f2b",
+  text = "Baron Longshore's Head. Along the Merchant Coast, Baron Longshore's Head proves the pirate captain is dead. Gazlowe offers a bounty for identifiable remains to protect Ratchet's commercial shipping. From camps along the Merchant Coast south of Ratchet, Baron Longshore led Southsea Freebooter raids. His flagship, the Heedless, threatened goblin trade lanes between Kalimdor and the Eastern Kingdoms. So Gazlowe, Ratchet's Chief Engineer, offered a bounty for proof of Longshore's death. The port authority pays a monetary reward when the pirate's head is delivered.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_baron-longshore-s-head-c91a9f83a9391563e032/1-0000.mp3", duration = 35.6832653, start = 0},
+    {file = "Audio/Transport/full_item_baron-longshore-s-head-cbb3f935e76062aa023c/1-0000.mp3", duration = 35.9183673, start = 0},
   },
 }
 P.transport["item:barrel-of-barleybrew-scalder"] = {
@@ -330,11 +330,11 @@ P.transport["item:barrel-of-thunder-ale"] = {
   },
 }
 P.transport["item:barrow-key"] = {
-  hash = "7183a1",
-  fullHash = "7183a1",
-  text = "Barrow Key. Deep beneath Stonetalon Peak, the Barrow Key lies locked in the Talon Den. It is one of three druidic keys guarding the ancient treasures sealed within the den's hoard. Night elf druids placed wards throughout the Talon Den's underground barrows to protect their relics from intruders. The Barrow Key is hidden in a cache among the passages, one part of that layered defense. The cache opens only with the Gatekeeper's Key, so a seeker must know the druids' defenses to reach it.",
+  hash = "488709",
+  fullHash = "488709",
+  text = "Barrow Key. Deep beneath Stonetalon Peak, three druidic keys guard the Talon Den's ancient hoard. The Barrow Key lies locked within the den. Night elf druids warded the underground barrows of the Talon Den to keep intruders from their relics. Among the passages, the Barrow Key rests in a hidden cache. Reaching it means passing through the druids' layered defenses.\n\nOnly the Gatekeeper's Key opens the cache. A seeker must know how those defenses work to claim the Barrow Key.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_barrow-key-db2a4b4b1c2ec570aa59/1-0000.mp3", duration = 29.3877551, start = 0},
+    {file = "Audio/Transport/full_item_barrow-key-6b685967f59a1f0feafe/1-0000.mp3", duration = 31.7126531, start = 0},
   },
 }
 P.transport["item:bartleby-s-mug"] = {
@@ -346,11 +346,11 @@ P.transport["item:bartleby-s-mug"] = {
   },
 }
 P.transport["item:bathran-s-hair"] = {
-  hash = "412987",
-  fullHash = "412987",
-  text = "Bathran's Hair. Among the ruins of Bathran's Haunt in northwestern Ashenvale, Bathran's Hair remains a rare herb. Night elf healers value its power against afflictions of the flesh and spirit. Bathran's Hair grows among the ancient ruins north of Maestra's Post, where night elf healers have long valued it. Common herbs soothe wounds of the body, but Bathran's Hair is said to restore the spirit as well. When a young night elf in Astranaar falls gravely ill, herbalist Orendil Broadleaf seeks the rare plant to prepare a remedy.",
+  hash = "502b1b",
+  fullHash = "502b1b",
+  text = "Bathran's Hair. In the ruins of Bathran's Haunt in northwestern Ashenvale, Bathran's Hair remains a rare herb. Night elf healers value it against afflictions of the flesh and spirit. Bathran's Hair grows among the ancient ruins north of Maestra's Post, where night elf healers have long valued it. Common herbs soothe wounds of the body. Bathran's Hair is said to restore the spirit as well. When a young night elf in Astranaar falls gravely ill, herbalist Orendil Broadleaf seeks the rare plant to prepare a remedy.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_bathran-s-hair-1e8faaa8660a3f9f9477/1-0000.mp3", duration = 32.3395918, start = 0},
+    {file = "Audio/Transport/full_item_bathran-s-hair-cfc43453d4f6a5f0a225/1-0000.mp3", duration = 30.7461224, start = 0},
   },
 }
 P.transport["item:battleboar-flank"] = {
@@ -370,11 +370,11 @@ P.transport["item:battleboar-snout"] = {
   },
 }
 P.transport["item:battleworn-axe"] = {
-  hash = "6c6762",
-  fullHash = "6c6762",
-  text = "Battleworn Axe. In Redridge, Battleworn Axe blades mark the Blackrock orcs invading the mountains. Marshal Marris accepts the recovered weapons in Lakeshire as proof of the threat to its people. Blackrock reavers carry these heavy, nicked axes as they push south from the Burning Steppes into Redridge. Marshal Marris and Lakeshire's hard-pressed town watch collect the blades to confirm another marauding orc has fallen and to show how well armed the advancing warband is. Blackrock invaders have fortified Stonewatch Keep and taken footholds in southeastern Redridge, trapping townspeople in Lakeshire. Taking their battleworn weapons reduces the arms available to the warband and clears roads for Alliance travel.",
+  hash = "61c683",
+  fullHash = "61c683",
+  text = "Battleworn Axe. In Redridge, Battleworn Axe blades show where Blackrock orcs are invading the mountains. Marshal Marris takes the recovered weapons in Lakeshire as proof of the danger to its people. Blackrock reavers carry heavy, nicked axes as they push south from the Burning Steppes into Redridge. Marshal Marris and Lakeshire's hard-pressed town watch gather the blades. Each one confirms another marauding orc has fallen and shows how well armed the warband is. Blackrock invaders have fortified Stonewatch Keep and seized footholds in southeastern Redridge. Their advance has trapped townspeople in Lakeshire. Taking the battleworn weapons leaves fewer arms to the warband and clears roads for Alliance travel.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_battleworn-axe-bb630d7294ab2444207f/1-0000.mp3", duration = 42.5012245, start = 0},
+    {file = "Audio/Transport/full_item_battleworn-axe-906ee401f351000650d5/1-0000.mp3", duration = 45.6881633, start = 0},
   },
 }
 P.transport["item:berard-s-journal"] = {
@@ -394,11 +394,11 @@ P.transport["item:bernice-s-necklace"] = {
   },
 }
 P.transport["item:besseleth-s-fang"] = {
-  hash = "8b6750",
-  fullHash = "8b6750",
-  text = "Besseleth's Fang. In Sishir Canyon, Besseleth's Fang marks the end of a deadly spider's threat. Besseleth and her brood make Sishir Canyon dangerous for travelers. At night, the giant spider turns the Webwinder Path into a death trap for those crossing the gorge. Her fang measures nearly two feet and drips with potent venom. Local defenders have suffered her venomous strikes, and presenting the fang brings them relief.",
+  hash = "c5c577",
+  fullHash = "c5c577",
+  text = "Besseleth's Fang. In Sishir Canyon, Besseleth's Fang brings an end to the spider's deadly threat. Besseleth and her brood make Sishir Canyon perilous for travelers. At night, the giant spider turns the Webwinder Path into a death trap for those crossing the gorge. Her fang is nearly two feet long and drips with potent venom. Local defenders have suffered her venomous strikes, so its arrival brings them relief.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_besseleth-s-fang-e377e0313865dd8047d6/1-0000.mp3", duration = 24.1893878, start = 0},
+    {file = "Audio/Transport/full_item_besseleth-s-fang-640ad59fbca6587a8c68/1-0000.mp3", duration = 24.3461224, start = 0},
   },
 }
 P.transport["item:bethor-s-scroll"] = {
@@ -450,11 +450,11 @@ P.transport["item:black-claw-stout"] = {
   },
 }
 P.transport["item:black-feather-quill"] = {
-  hash = "57155f",
-  fullHash = "57155f",
-  text = "Black Feather Quill. The Black Feather Quill lies in Ban'ethil Barrow Den, needed to wake the Druids of the Talon. The Black Feather Quill is one of four sacred focuses used to wake the Druids of the Talon from hibernation. The others are the Raven Claw Talisman, the Sapphire of Sky, and the Rune of Nesting. The rite calls slumbering druids back from the Emerald Dream. Without these items, a druid may remain trapped in the Dream and unable to return to their waking body. Corrupted Gnarlpine furbolgs overran Ban'ethil Barrow Den, putting the chests that held the relics in danger. Athridas Bearmantle in Dolanaar ordered their swift recovery, before the captive druids were lost to the Dream.",
+  hash = "7bce05",
+  fullHash = "7bce05",
+  text = "Black Feather Quill. In Ban'ethil Barrow Den, the Black Feather Quill is needed to wake the Druids of the Talon. The Black Feather Quill is one of four sacred focuses that wake the Druids of the Talon from hibernation. The others are the Raven Claw Talisman, the Sapphire of Sky, and the Rune of Nesting. Together, the focuses call slumbering druids back from the Emerald Dream. Without them, a druid may remain trapped in the Dream, unable to return to their waking body. Corrupted Gnarlpine furbolgs overran Ban'ethil Barrow Den and threatened the chests that held the relics. Athridas Bearmantle in Dolanaar ordered their swift recovery. The captive druids had to be freed before they were lost to the Dream.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_black-feather-quill-0a45cb827f8249706866/1-0000.mp3", duration = 43.1281633, start = 0},
+    {file = "Audio/Transport/full_item_black-feather-quill-3d026f50b5ce39da24f7/1-0000.mp3", duration = 43.4938776, start = 0},
   },
 }
 P.transport["item:blackened-skull"] = {
@@ -466,19 +466,19 @@ P.transport["item:blackened-skull"] = {
   },
 }
 P.transport["item:bloodfeather-belt"] = {
-  hash = "f7b4fa",
-  fullHash = "f7b4fa",
-  text = "Bloodfeather Belt. In northern Teldrassil, Bloodfeather harpies wear crude leather belts as they crowd the Oracle Glade. Sentinel Arynia Cloudsbreak collects them as proof that the nearby nests have been cleared. Bloodfeather harpies have built aggressive nests in the boughs around the Oracle Glade. Their presence threatens the ancient Oracle Tree and blocks travel through northern Teldrassil. After the flock ambushed and killed a runner carrying reports to Darnassus, Sentinel Arynia Cloudsbreak called on travelers to strike at the nests. The belts taken from fallen harpies show that their numbers are being culled and the paths are being secured, so messages can reach the capital again.",
+  hash = "77ef05",
+  fullHash = "77ef05",
+  text = "Bloodfeather Belt. In northern Teldrassil, Bloodfeather harpies crowd the Oracle Glade in crude leather belts. Sentinel Arynia Cloudsbreak gathers the belts as proof that nearby nests are being cleared. Bloodfeather harpies have made aggressive nests in the boughs around the Oracle Glade. Their presence threatens the ancient Oracle Tree and blocks travel through northern Teldrassil. After the flock ambushed and killed a runner carrying reports to Darnassus, Sentinel Arynia Cloudsbreak called on travelers to strike at the nests. Belts taken from fallen harpies show the flock is being thinned and the paths secured, so messages can reach the capital again.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_bloodfeather-belt-97b056071484ac94c194/1-0000.mp3", duration = 38.8179592, start = 0},
+    {file = "Audio/Transport/full_item_bloodfeather-belt-22f9009ff86ed30429f2/1-0000.mp3", duration = 39.7844898, start = 0},
   },
 }
 P.transport["item:bloodfury-ripper-s-remains"] = {
-  hash = "8845b1",
-  fullHash = "8845b1",
-  text = "Bloodfury Ripper's Remains. At Sun Rock Retreat, Maggran Earthbinder seeks Bloodfury Ripper's Remains as proof that the Bloodfury harpy leader is dead. Her death strikes at the threat to the tauren settlement. Bloodfury Ripper leads the harpies of the Charred Vale with fierce, territorial aggression. They nest among the scorched ruins and threaten travelers and shamans across the Stonetalon Mountains. Culling the flock eases the danger for a time, but Maggran Earthbinder at Sun Rock Retreat knows that lasting relief means removing its leader. Bloodfury Ripper rules almost like a queen, directing the harpies' attacks on their territory. Her remains prove she is dead, leaving the flock in disarray and giving the tauren who seek to heal and secure their rugged lands greater peace of mind.",
+  hash = "095691",
+  fullHash = "095691",
+  text = "Bloodfury Ripper's Remains. At Sun Rock Retreat, Maggran Earthbinder needs Bloodfury Ripper's Remains to know the harpy leader is dead. Her fall means less danger for the tauren settlement. Bloodfury Ripper leads the harpies of the Charred Vale with fierce, territorial aggression. They nest among the scorched ruins and threaten travelers and shamans across the Stonetalon Mountains. Culling the flock brings only brief relief. Maggran Earthbinder at Sun Rock Retreat knows the danger will last while their leader remains.\n\nBloodfury Ripper rules almost like a queen and directs the harpies' attacks on their territory. Her remains prove she is dead. With the flock thrown into disarray, tauren seeking to heal and secure their rugged lands can know greater peace of mind.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_bloodfury-ripper-s-remains-241018cf3caae7aac443/1-0000.mp3", duration = 47.2816327, start = 0},
+    {file = "Audio/Transport/full_item_bloodfury-ripper-s-remains-718019dd7a473102de3d/1-0000.mp3", duration = 45.7142857, start = 0},
   },
 }
 P.transport["item:bloodstone-choker"] = {
@@ -490,19 +490,19 @@ P.transport["item:bloodstone-choker"] = {
   },
 }
 P.transport["item:blueleaf-tuber"] = {
-  hash = "d78b23",
-  fullHash = "d78b23",
-  text = "Blueleaf Tuber. Beneath Razorfen Kraul, Blueleaf Tubers grow hidden from the surface. Their rarity draws wealthy gourmands and traders from across the world. Blueleaf Tubers grow beneath Razorfen Kraul in the Barrens. Dense roots and quilboar briars hide them from casual foragers. Though the ground is harsh, wealthy gourmands and traders across the world pay an exorbitant price for their distinct flavor. In Ratchet, the goblin Mebok Mizzyrix devised a way to find the hidden roots. He trains native snufflenose gophers to scent tubers from fifty paces away. Guided by specialized command sticks, adventurers can unearth them before quilboar patrols catch wind of the intrusion.",
+  hash = "2408f2",
+  fullHash = "2408f2",
+  text = "Blueleaf Tuber. Deep beneath Razorfen Kraul, Blueleaf Tuber draws wealthy gourmands and traders from across the world. Blueleaf Tubers grow beneath Razorfen Kraul in the Barrens. Dense roots and quilboar briars keep them from casual foragers. The ground is harsh, yet wealthy gourmands and traders across the world pay an exorbitant price for their distinct flavor. In Ratchet, the goblin Mebok Mizzyrix devised a way to find the hidden roots. He trains native snufflenose gophers to scent tubers from fifty paces away. With specialized command sticks, adventurers guide the gophers and unearth the roots before quilboar patrols catch wind of the intrusion.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_blueleaf-tuber-1c0b333583e79428a8f0/1-0000.mp3", duration = 42.0832653, start = 0},
+    {file = "Audio/Transport/full_item_blueleaf-tuber-cb2d073f2074d87d49c5/1-0000.mp3", duration = 40.6465306, start = 0},
   },
 }
 P.transport["item:book-from-sven-s-farm"] = {
-  hash = "5f105b",
-  fullHash = "5f105b",
-  text = "Book from Sven's Farm. In Duskwood, Sven's ruined farm holds a dirt-stained journal with no title. Its fragments record an unknown onlooker's glimpse of the attack on Sven Yorgen's family. A loose mound of dirt among the charred remains of Sven's farm in southern Duskwood hides a weather-damaged journal. Its anonymous writer left frantic, incomplete notes about the tragedy at the homestead. The pages support Sven Yorgen's suspicion that someone watched from the shadows while his family was slain. The account breaks off without explaining who the writer was or what happened next. Sven's clue leads investigators to carry the book to Darkshire, hoping someone there will recognize the handwriting.",
+  hash = "1d3ac4",
+  fullHash = "1d3ac4",
+  text = "Book from Sven's Farm. In Duskwood, a hidden journal at Sven's ruined farm holds fragments of the attack on his family, seen by an unknown onlooker. A damaged journal lies beneath loose dirt among the charred remains of Sven's farm in southern Duskwood. Its anonymous writer left frantic, incomplete notes about the tragedy at the homestead. The pages support Sven Yorgen's suspicion that someone watched from the shadows as his family was slain. The account breaks off without naming the writer or telling what happened next.\n\nSven's clue leads investigators to carry the book to Darkshire. They hope someone there will recognize the handwriting.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_book-from-sven-s-farm-79892b0ee05e708a72db/1-0000.mp3", duration = 39.7583673, start = 0},
+    {file = "Audio/Transport/full_item_book-from-sven-s-farm-ad9bb43067adb4d8205c/1-0000.mp3", duration = 37.355102, start = 0},
   },
 }
 P.transport["item:book-stresses-of-iron"] = {
@@ -514,43 +514,43 @@ P.transport["item:book-stresses-of-iron"] = {
   },
 }
 P.transport["item:bottle-of-disease"] = {
-  hash = "b6408d",
-  fullHash = "b6408d",
-  text = "Bottle of Disease. Forsaken alchemists brew disease near the Dor'Danil Barrow Den in Ashenvale. The bottles hold virulent concoctions found at their encampment. Near the Dor'Danil Barrow Den, Forsaken alchemists brew contagions in an outpost beyond the Warsong Outriders' front lines. The bottles give night elves at Forest Song evidence of an offensive aimed at sickening the woodland soil and wildlife instead of meeting their sentinels in open combat.",
+  hash = "2252a3",
+  fullHash = "2252a3",
+  text = "Bottle of Disease. Near Dor'Danil Barrow Den in Ashenvale, Forsaken alchemists brew disease. Their encampment holds bottles of virulent concoctions. Beyond the Warsong Outriders' front lines, Forsaken alchemists brew contagions near Dor'Danil Barrow Den. The bottles give the night elves at Forest Song proof of an attack aimed at the woods. The Forsaken seek to sicken the soil and wildlife instead of facing the sentinels in open combat.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_bottle-of-disease-06bf2848d19b89dc41ac/1-0000.mp3", duration = 26.6710204, start = 0},
+    {file = "Audio/Transport/full_item_bottle-of-disease-f284f7dc1ff8d8cf6b14/1-0000.mp3", duration = 27.2195918, start = 0},
   },
 }
 P.transport["item:bottle-of-moonshine"] = {
-  hash = "2d5967",
-  fullHash = "2d5967",
-  text = "Bottle of Moonshine. In Darkshire, a bottle of moonshine is sought for Lakeshire’s tavern. Barkeep Daniels needs one while Blackrock orc incursions keep regular supplies from reaching town. Blackrock orcs have cut off Lakeshire’s regular supply caravans. Barkeep Daniels seeks regional drinks to restock the tavern for the guards and townsfolk. One is brewed and sold at the Scarlet Raven Tavern in Darkshire, where locals favor strong drinks.",
+  hash = "2abc64",
+  fullHash = "2abc64",
+  text = "Bottle of Moonshine. In Darkshire, a Bottle of Moonshine is bound for Lakeshire’s tavern. Barkeep Daniels needs it while Blackrock orcs keep regular supplies from reaching town. Blackrock orcs have cut off Lakeshire’s regular supply caravans. So Barkeep Daniels seeks drinks from the region to restock the tavern for guards and townsfolk. One comes from the Scarlet Raven Tavern in Darkshire, where locals favor strong drinks.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_bottle-of-moonshine-1cec7cc3e3a4cd2fa691/1-0000.mp3", duration = 26.0440816, start = 0},
+    {file = "Audio/Transport/full_item_bottle-of-moonshine-9bf9b2fd9c448e1d7e49/1-0000.mp3", duration = 27.1673469, start = 0},
   },
 }
 P.transport["item:bottle-of-zombie-juice"] = {
-  hash = "39418f",
-  fullHash = "39418f",
-  text = "Bottle of Zombie Juice. In Darkshire, a Bottle of Zombie Juice is bound for Abercrombie, a reclusive hermit in Duskwood. The potent liquor is brewed from rot blossom, and Abercrombie says he needs it to keep warm. Rot blossoms gathered in Duskwood go into this harsh brew. The bartender in Darkshire warns that it is potent enough to raise the dead. Most folk want nothing to do with such a vile drink, but Abercrombie, an eccentric hermit, says it is the only thing that keeps him warm on the damp, cold nights by his lonely shack.",
+  hash = "cbd2e2",
+  fullHash = "cbd2e2",
+  text = "Bottle of Zombie Juice. In Darkshire, Bottle of Zombie Juice is bound for Abercrombie, a reclusive hermit in Duskwood. He says the potent liquor, brewed from rot blossom, keeps him warm. Rot blossoms gathered in Duskwood go into this harsh brew. The bartender in Darkshire warns it is potent enough to raise the dead. Most folk want nothing to do with such a vile drink. Yet Abercrombie, an eccentric hermit, says it alone keeps him warm on cold, damp nights by his lonely shack.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_bottle-of-zombie-juice-4666c09588ad55f1a5c7/1-0000.mp3", duration = 32.3395918, start = 0},
+    {file = "Audio/Transport/full_item_bottle-of-zombie-juice-ed5d72b21ed8f7d5689d/1-0000.mp3", duration = 30.3542857, start = 0},
   },
 }
 P.transport["item:bottom-of-gelkak-s-key"] = {
-  hash = "0324ba",
-  fullHash = "0324ba",
-  text = "Bottom of Gelkak's Key. Along Darkshore, the Bottom of Gelkak's Key is one of three fragments of a shattered winding key. It belonged to the shipwrecked gnome pirate Gelkak Gyromast, and reef crawlers scavenged it from the shore. Threshadons sank Gelkak Gyromast's ship off Darkshore, casting the gnome and his belongings ashore. Among them was the winding key that activated his mechanical first mate. The key broke against the coastal rocks into three pieces, and local scavengers descended on the debris. Reef and tide crawlers seized the bottom fragment as they searched the tideline.",
+  hash = "51a045",
+  fullHash = "51a045",
+  text = "Bottom of Gelkak's Key. Along Darkshore, the bottom fragment lies among the remains of a shattered winding key. It belonged to the shipwrecked gnome pirate Gelkak Gyromast, and reef crawlers scavenged it from the shore. Threshadons sank Gelkak Gyromast's ship off Darkshore. The wreck cast the gnome and his belongings ashore, including the winding key that activated his mechanical first mate. Coastal rocks broke the key into three pieces, and local scavengers came upon the debris. Reef and tide crawlers seized the bottom fragment as they searched the tideline.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_bottom-of-gelkak-s-key-aceeb919c0a38c94676b/1-0000.mp3", duration = 36.0228571, start = 0},
+    {file = "Audio/Transport/full_item_bottom-of-gelkak-s-key-3125caf7ce8fea8ead4f/1-0000.mp3", duration = 35.9444898, start = 0},
   },
 }
 P.transport["item:branch-of-cenarius"] = {
-  hash = "6da35f",
-  fullHash = "6da35f",
-  text = "Branch of Cenarius. In eastern Ashenvale, Geltharis holds the Branch of Cenarius, sacred to the dryads. Anilia died defending the relic, and her dying wish was to see it recovered. The Branch of Cenarius is sacred to the dryads who follow the Forest Lord. Anilia and her sister Illiyana treasured it until corrupt satyrs ambushed them. Their leader, Geltharis, seized the branch and mortally wounded Anilia near the tainted ruins of eastern Ashenvale. As she lay dying, Anilia pointed north toward the arch where Geltharis lurks. She pleaded for a champion to take back the bough and return it to the dryads at Forest Song.",
+  hash = "84c0e9",
+  fullHash = "84c0e9",
+  text = "Branch of Cenarius. In eastern Ashenvale, Geltharis holds the Branch of Cenarius, sacred to the dryads. Anilia died defending it, with one last wish: see the relic recovered. The Branch of Cenarius is sacred to the dryads who follow the Forest Lord. Anilia and her sister Illiyana treasured it. Then corrupt satyrs ambushed them near the tainted ruins of eastern Ashenvale. Their leader, Geltharis, seized the branch and mortally wounded Anilia.\n\nAs she lay dying, Anilia pointed north toward the arch where Geltharis lurks. She pleaded for a champion to reclaim the bough and return it to the dryads at Forest Song.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_branch-of-cenarius-4073534ec9c064e278c8/1-0000.mp3", duration = 39.7844898, start = 0},
+    {file = "Audio/Transport/full_item_branch-of-cenarius-446375323bb874da0d7c/1-0000.mp3", duration = 41.1689796, start = 0},
   },
 }
 P.transport["item:brass-collar"] = {
@@ -578,11 +578,11 @@ P.transport["item:bristleback-belt"] = {
   },
 }
 P.transport["item:bristleback-quilboar-tusk"] = {
-  hash = "8904ad",
-  fullHash = "8904ad",
-  text = "Bristleback Quilboar Tusk. Across the northern and central Barrens, Bristleback Quilboar Tusks are taken from slain quilboar. Mankrik gathers them as proof of slaughter and tokens of vengeance. Bristleback quilboar defend their territory across the Barrens against Horde expansion. Their jagged ivory tusks serve as weapons in close combat. Mankrik, a veteran orc warrior stationed at the Crossroads, lost his wife in a vicious quilboar ambush. He gathers dozens of tusks as retribution, a bloody count of the suffering he means to return to the Bristlebacks.",
+  hash = "2d500f",
+  fullHash = "2d500f",
+  text = "Bristleback Quilboar Tusk. Across the northern and central Barrens, Bristleback Quilboar Tusk are taken from slain quilboar. Mankrik gathers them as proof of slaughter and tokens of vengeance. Bristleback quilboar defend their territory across the Barrens from Horde expansion. Their jagged ivory tusks are weapons in close combat. Mankrik, a veteran orc warrior stationed at the Crossroads, lost his wife in a vicious quilboar ambush. He gathers dozens of tusks in retribution, counting the suffering he means to return to the Bristlebacks.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_bristleback-quilboar-tusk-a4910040d63636f44371/1-0000.mp3", duration = 35.3697959, start = 0},
+    {file = "Audio/Transport/full_item_bristleback-quilboar-tusk-8be0ac0300d374fe89b0/1-0000.mp3", duration = 33.0187755, start = 0},
   },
 }
 P.transport["item:brock-s-list"] = {
@@ -594,19 +594,19 @@ P.transport["item:brock-s-list"] = {
   },
 }
 P.transport["item:broken-and-battered-samophlange"] = {
-  hash = "cc7b2f",
-  fullHash = "cc7b2f",
-  text = "Broken and Battered Samophlange. In the northern Barrens, Venture Company machinery lies battered after a failed inspection. The damaged samophlange must reach goblin experts in Orgrimmar, where someone may understand how it works. The Venture Company made samophlanges for its resource work in the northern Barrens. Wenikee Boltbucket tried to inspect and modify one, adding gauges, levers, and dials to measure its stability. Her tinkering weakened the mechanism instead, leaving it battered and close to ruin. Knowing more additions might make it fail completely, she sent the fragile device to someone with factory experience. Repairing the device calls for someone who has worked on Venture Company production lines. Rilli Greasygob, a former Venture employee, works at Nogg's Machine Shop in Orgrimmar's Valley of Honor. The battered apparatus catches the engineer's eye. Anyone who scavenges from goblin operations may seem daring, or simply foolhardy.",
+  hash = "e2b214",
+  fullHash = "e2b214",
+  text = "Broken and Battered Samophlange. In the northern Barrens, Broken and Battered Samophlange lies damaged after a failed inspection. It must reach goblin experts in Orgrimmar, where someone may understand its workings. The Venture Company made samophlanges for its work in the northern Barrens. Wenikee Boltbucket tried to inspect and alter one, adding gauges, levers, and dials to measure its stability. Her changes weakened the mechanism and left it battered, close to ruin. Fearing more additions might make it fail completely, she sent the fragile device to someone with factory experience. The device needs repair by someone who knows Venture Company production lines. Rilli Greasygob, a former Venture employee, works at Nogg's Machine Shop in Orgrimmar's Valley of Honor. The battered apparatus catches the engineer's eye. Anyone who scavenges from goblin operations may seem daring, or simply foolhardy.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_broken-and-battered-samophlange-d8d37756fd70033028ca/1-0000.mp3", duration = 56.4244898, start = 0},
+    {file = "Audio/Transport/full_item_broken-and-battered-samophlange-e50ea8eb147d6be0ca24/1-0000.mp3", duration = 54.9616327, start = 0},
   },
 }
 P.transport["item:broken-samophlange"] = {
-  hash = "9663e4",
-  fullHash = "9663e4",
-  text = "Broken Samophlange. In the northern Barrens, a broken samophlange draws the notice of curious engineers. Its gears and shifting parts hint at a purpose no one has uncovered. The broken samophlange is a baffling contraption from the northern Barrens. Its moving assemblies and fine gears show careful workmanship, even in ruin. Sputtervalve, a goblin in Ratchet, damaged the delicate device by accident before anyone could document how it worked. The finder hoped to send working results to curious colleagues in Undermine, so they sought someone able to repair it. Wenikee Boltbucket, a clever tinkerer near the border outpost of Mor'shan Rampart, was the one they turned to. Wenikee Boltbucket cannot tell what a samophlange is meant to do, even after examining its ruined parts. Its clockwork sounds and shifting motion catch her interest, though. Rather than discard it as junk, she sets out to repair the device and see its mechanisms working at full capacity.",
+  hash = "8c6c5b",
+  fullHash = "8c6c5b",
+  text = "Broken Samophlange. In the northern Barrens, a broken samophlange has drawn curious engineers. Its shifting parts and fine gears still hint at a purpose no one has uncovered. From the northern Barrens comes a broken samophlange, its fine gears and moving assemblies still showing careful workmanship. Sputtervalve, a goblin in Ratchet, damaged the delicate device by accident before anyone could record how it worked. Hoping to send working results to curious colleagues in Undermine, its finder sought someone who could repair it. Wenikee Boltbucket, a clever tinkerer near Mor'shan Rampart, was the one they turned to. Wenikee Boltbucket cannot tell what a samophlange is meant to do, even after studying its ruined parts. Its clockwork sounds and shifting motion catch her interest. Rather than cast it aside as junk, she sets out to repair it and see its mechanisms working at full capacity.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_broken-samophlange-b3ba5f27499aea1a02de/1-0000.mp3", duration = 60.0816327, start = 0},
+    {file = "Audio/Transport/full_item_broken-samophlange-a8ec3eec9653f586e9f7/1-0000.mp3", duration = 53.9167347, start = 0},
   },
 }
 P.transport["item:broken-tools"] = {
@@ -618,19 +618,19 @@ P.transport["item:broken-tools"] = {
   },
 }
 P.transport["item:bundle-of-crocolisk-skins"] = {
-  hash = "ae8874",
-  fullHash = "ae8874",
-  text = "Bundle of Crocolisk Skins. In the Wetlands, hunters prepare crocolisk skins for Menethil Harbor. The hides are valuable trade goods for local leatherworkers. Crocolisk hides are an essential trade good for coastal Menethil Harbor. Hunters gather and cure the tough, water-resistant skins in the Wetlands before sending them west to artisans such as James Halloran. Einar has gathered this bundle, but asks a traveler to carry it into town. He wants to avoid returning home to face the temper of his frustrated wife, Sida.",
+  hash = "d335f1",
+  fullHash = "d335f1",
+  text = "Bundle of Crocolisk Skins. Hunters in the Wetlands send crocolisk skins west to Menethil Harbor. There, leatherworkers put the hides to use. In the Wetlands, hunters gather and cure tough, water-resistant crocolisk skins for Menethil Harbor. James Halloran is among the artisans who receive them. Einar has gathered this bundle, but asks a traveler to carry it into town. He hopes to avoid going home to face the temper of his frustrated wife, Sida.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_bundle-of-crocolisk-skins-d0b9bce2918b178ecf14/1-0000.mp3", duration = 30.7461224, start = 0},
+    {file = "Audio/Transport/full_item_bundle-of-crocolisk-skins-d4e0c82c133b27042caf/1-0000.mp3", duration = 27.0889796, start = 0},
   },
 }
 P.transport["item:bundle-of-hides"] = {
-  hash = "5b2d32",
-  fullHash = "5b2d32",
-  text = "Bundle of Hides. Across the Barrens, a Bundle of Hides travels toward Thunder Bluff with the Horde’s wind riders. The cured skins are a straightforward courier shipment for the leatherworkers, and their delivery introduces travelers to the wind rider network. Hunters skin the beasts of the Barrens for cured hides. The plains hold vast herds of kodo, prowling lions, and roving raptors. These skins supply the leatherworkers of Thunder Bluff, who turn them into gear, pouches, armor, and bindings for the Horde. Couriers carry the bundle from the Crossroads to Thunder Bluff on Devrak’s trained wyverns. Overland travel through the Barrens and into Mulgore is slow and dangerous, with roaming quilboar and centaur raiders. Handing the hides to a wind rider courier shows how swiftly air travel can cross Kalimdor’s fractured terrain.",
+  hash = "c8f743",
+  fullHash = "c8f743",
+  text = "Bundle of Hides. Across the Barrens, a Bundle of Hides rides with the Horde’s wind riders toward Thunder Bluff. The cured skins are bound for the leatherworkers, and their delivery shows travelers how the wind rider network carries goods. Hunters cure the hides of beasts found across the Barrens. Kodo graze the plains, while lions prowl and raptors roam. The leatherworkers of Thunder Bluff use these skins for gear, pouches, armor, and bindings for the Horde. Couriers carry the bundle from the Crossroads to Thunder Bluff on Devrak’s trained wyverns. The overland way through the Barrens and into Mulgore is slow and dangerous, with quilboar and centaur raiders abroad. By wind rider, the hides cross Kalimdor’s broken terrain swiftly.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_bundle-of-hides-3ddae5fdfb2b90d5d177/1-0000.mp3", duration = 49.6065306, start = 0},
+    {file = "Audio/Transport/full_item_bundle-of-hides-d23693602caaa247db32/1-0000.mp3", duration = 47.0204082, start = 0},
   },
 }
 P.transport["item:bundle-of-wood"] = {
@@ -642,11 +642,11 @@ P.transport["item:bundle-of-wood"] = {
   },
 }
 P.transport["item:burning-blade-medallion"] = {
-  hash = "809e80",
-  fullHash = "809e80",
-  text = "Burning Blade Medallion. Cultists in the Valley of Trials carry the Burning Blade Medallion. Yarrog Baneshadow holds it deep in the Burning Blade Coven, where its dark magic threatens Durotar's young warriors. Zureetha Fargaze's divinations point to the medallion in the Burning Blade Coven. Yarrog Baneshadow, an agent of the Burning Blade cult, carries it deep inside the winding caverns. The trinket channels dark power among the cult's impish familiars and felstalkers. Defeating Yarrog and taking the medallion ends the cult's attempt to undermine the Horde's training grounds from within Durotar.",
+  hash = "9dcce4",
+  fullHash = "9dcce4",
+  text = "Burning Blade Medallion. In Durotar, the Burning Blade Medallion threatens the Horde's young warriors. Cultists carry it in the Valley of Trials, and Yarrog Baneshadow holds it deep in the Burning Blade Coven. Zureetha Fargaze's divinations lead to the medallion in the Burning Blade Coven. Yarrog Baneshadow serves the Burning Blade cult and carries it deep in the winding caverns. The trinket channels dark power among the cult's impish familiars and felstalkers. Defeating Yarrog and taking the medallion ends the cult's attempt to undermine the Horde's training grounds from within Durotar.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_burning-blade-medallion-6d88547231a9062fe995/1-0000.mp3", duration = 35.5265306, start = 0},
+    {file = "Audio/Transport/full_item_burning-blade-medallion-487606da4cba01fb70a7/1-0000.mp3", duration = 33.2277551, start = 0},
   },
 }
 P.transport["item:burning-blood-quest-item"] = {
@@ -666,27 +666,27 @@ P.transport["item:burning-rock"] = {
   },
 }
 P.transport["item:cache-of-zanzil-s-altered-mixture"] = {
-  hash = "15382a",
-  fullHash = "15382a",
-  text = "Cache of Zanzil's Altered Mixture. At the Venture Company tower near the Sludge Fen, a stockpile of potent poison lies locked away. The mixture bears the name of Zanzil, a jungle troll witch doctor, and draws the Shattered Hand's attention. North of the Sludge Fen in the Barrens, the Venture Company holds a tower outpost. At its summit, Grand Foreman Puzik Gallywix keeps a cache of altered mixture bearing the name of the troll witch doctor Zanzil in his private strongbox. A poison has weakened everyone in the tower, leaving its goblin inhabitants vulnerable to a bold intruder.",
+  hash = "0f4cde",
+  fullHash = "0f4cde",
+  text = "Cache of Zanzil's Altered Mixture. At the Venture Company tower near the Sludge Fen, a cache of Zanzil's Altered Mixture lies locked away. The potent poison bears the name of Zanzil, a jungle troll witch doctor. North of the Sludge Fen in the Barrens, the Venture Company holds a tower outpost. Grand Foreman Puzik Gallywix keeps a cache of altered mixture bearing the name of the troll witch doctor Zanzil in his private strongbox at the summit. A poison has weakened everyone in the tower, leaving its goblin inhabitants vulnerable to a bold intruder.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_cache-of-zanzil-s-altered-mixture-ac405743875e5c8ee9b6/1-0000.mp3", duration = 33.9330612, start = 0},
+    {file = "Audio/Transport/full_item_cache-of-zanzil-s-altered-mixture-38f8ff73eb45c3b1195a/1-0000.mp3", duration = 33.0971429, start = 0},
   },
 }
 P.transport["item:cactus-apple"] = {
-  hash = "e419d5",
-  fullHash = "e419d5",
-  text = "Cactus Apple. In the Valley of Trials, Cactus Apples offer orcs a rare source of moisture in Durotar's dry heat. Cactus apples grow in clusters around the thick cactuses scattered across the Valley of Trials. Gathering them means working among the thorns, but the fruit gives welcome hydration in Durotar's heat. Galgar, an orc in the valley, gathers the apples to make Cactus Apple Surprise, a cooling treat for recruits enduring their early training.",
+  hash = "1e9d73",
+  fullHash = "1e9d73",
+  text = "Cactus Apple. In the Valley of Trials, Cactus Apples give orcs a rare source of moisture in Durotar’s dry heat. Across the Valley of Trials, cactus apples grow in clusters around thick cactuses. Gathering them means working among the thorns, but the fruit eases the thirst of Durotar’s heat. Galgar, an orc in the valley, gathers the apples for Cactus Apple Surprise. Recruits enduring their early training can cool themselves with his treat.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_cactus-apple-14119c8186b3e24dfbee/1-0000.mp3", duration = 27.5591837, start = 0},
+    {file = "Audio/Transport/full_item_cactus-apple-b925ee8c36ccda0fe9a9/1-0000.mp3", duration = 27.2195918, start = 0},
   },
 }
 P.transport["item:calor-s-note"] = {
-  hash = "764249",
-  fullHash = "764249",
-  text = "Calor's Note. In Duskwood, Calor's Note carries a woodsman's recommendation to Master Jonathan Carevin. Calor writes it on a scrap of faded parchment for a tested adventurer, opening a path to a hidden band that fights beside Darkshire's militia but remains apart from it. Calor is notoriously hard to impress, and Duskwood offers strangers little warmth. When an adventurer survives the bloodthirsty worgen stalking the woods, Calor's respect is earned, and he writes a brief message. The faded note travels to Darkshire, where it introduces the outsider directly to Jonathan Carevin. Darkshire relies on the Night Watch for public defense, while Calor and Carevin pursue a grimmer, hidden fight. Calor laments that the town guard outnumbers them and hopes to find enough capable fighters to advance their private war. When the note is handed over, it grants entry to Carevin's campaign against demons, undead, and the hidden sympathizers aiding Duskwood's decline.",
+  hash = "bd94d0",
+  fullHash = "bd94d0",
+  text = "Calor's Note. In Duskwood, Calor's Note carries a woodsman's recommendation to Master Jonathan Carevin. Calor writes it on a scrap of faded parchment for a proven adventurer, opening a path to a hidden band that fights beside Darkshire's militia but remains apart from it. Calor is hard to impress, and Duskwood gives strangers little warmth. Survive the bloodthirsty worgen stalking the woods, and he grants his respect with a brief message. Written on faded parchment, the note travels to Darkshire and introduces the outsider directly to Jonathan Carevin. Darkshire relies on the Night Watch for public defense. Calor and Carevin pursue a grimmer, hidden fight apart from the town guard. Calor laments that the guard outnumbers them, and hopes to find enough capable fighters to advance their private war. Hand over the note, and Carevin admits you to his campaign against demons, undead, and the hidden sympathizers aiding Duskwood's decline.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_calor-s-note-47b31d47e58cabbd852f/1-0000.mp3", duration = 59.2979592, start = 0},
+    {file = "Audio/Transport/full_item_calor-s-note-9c42adaa837d4a7b0328/1-0000.mp3", duration = 58.0963265, start = 0},
   },
 }
 P.transport["item:candle-of-beckoning"] = {
@@ -706,19 +706,19 @@ P.transport["item:cantation-of-manifestation"] = {
   },
 }
 P.transport["item:canvas-scraps"] = {
-  hash = "2bb783",
-  fullHash = "2bb783",
-  text = "Canvas Scraps. At Razor Hill, Furl Scornbrow gathers Canvas Scraps to make travel sacks for new Horde recruits. The cloth comes from human invaders and centaur tribes in Durotar. Kul Tiras marines and sailors carry canvas along Durotar’s eastern shore. Their gear and sails leave scraps behind. Inland, Kolkar centaur reuse coarse cloth taken from supply caravans and past conflicts. Their camps and gear hold scraps that can be salvaged. Furl Scornbrow watches for invaders from the Razor Hill watchtower. The aging veteran has left his fighting days behind, but puts salvaged enemy cloth to use. He stitches it into sturdy carrying bags for younger soldiers, helping the new generation defend the Horde’s borders.",
+  hash = "73f727",
+  fullHash = "73f727",
+  text = "Canvas Scraps. At Razor Hill, Canvas Scraps go to Furl Scornbrow for travel sacks for new Horde recruits. The cloth comes from human invaders and centaur tribes in Durotar. Kul Tiras marines and sailors carry canvas along Durotar’s eastern shore. Their gear and sails leave scraps behind. Inland, Kolkar centaur reuse coarse cloth taken from supply caravans and past conflicts. Their camps and gear hold scraps for salvage. Furl Scornbrow watches for invaders from the Razor Hill watchtower. The aging veteran has left his fighting days behind, but puts cloth taken from enemies to use. He stitches it into sturdy carrying bags for younger soldiers. The bags help the new generation defend the Horde’s borders.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_canvas-scraps-03dfd0705d71d351d7d8/1-0000.mp3", duration = 43.1281633, start = 0},
+    {file = "Audio/Transport/full_item_canvas-scraps-bf0c3bc411abf2e67d17/1-0000.mp3", duration = 46.6285714, start = 0},
   },
 }
 P.transport["item:cask-of-merlot"] = {
-  hash = "e2791d",
-  fullHash = "e2791d",
-  text = "Cask of Merlot. In Stormwind, Cask of Merlot supplies Lakeshire while Blackrock orcs cut its trade routes. Harvested and fermented in the heart of the kingdom, the merlot comes from the Galina Winery's cellars. The winery lies along the canals bordering Stormwind's Trade District, where winemaker Roberto Pupellyverbos tends its vintages for the capital's refined tastes. Unlike Duskwood moonshine or Elwynn spirits, this wine reflects the craft of human vintners working within the city's walls. When the Blackrock clan invaded the Redridge Mountains, supply routes failed and Lakeshire lost its usual merchant shipments. With locals parched and terrified, Barkeep Daniels sends willing couriers across the kingdom to refill his tavern's cellars. The cask gives defenders and refugees by Lake Everstill a gentle drink to wash down their rations.",
+  hash = "f40ca4",
+  fullHash = "f40ca4",
+  text = "Cask of Merlot. In Stormwind, Cask of Merlot helps supply Lakeshire as Blackrock orcs sever its trade routes. Galina Winery makes its merlot in the heart of the kingdom. Its cellars lie along the canals by Stormwind's Trade District. Winemaker Roberto Pupellyverbos tends the vintages for the capital's refined tastes. Unlike Duskwood moonshine or Elwynn spirits, this wine bears the craft of human vintners working within the city's walls. When the Blackrock clan invaded the Redridge Mountains, supply routes failed and Lakeshire lost its usual merchant shipments. The locals were left parched and frightened. So Barkeep Daniels sends willing couriers across the kingdom to refill his tavern's cellars. By Lake Everstill, defenders and refugees can wash down their rations with the cask's gentle wine.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_cask-of-merlot-71abfdba503e13f24abf/1-0000.mp3", duration = 50.4163265, start = 0},
+    {file = "Audio/Transport/full_item_cask-of-merlot-9588fba5a93c0c1bb754/1-0000.mp3", duration = 51.0955102, start = 0},
   },
 }
 P.transport["item:cask-of-scalder"] = {
@@ -738,11 +738,11 @@ P.transport["item:cask-of-shimmer-stout"] = {
   },
 }
 P.transport["item:cats-eye-emerald"] = {
-  hash = "423bf5",
-  fullHash = "423bf5",
-  text = "Cats Eye Emerald. In the northern Barrens, the Cats Eye Emerald has drawn the eye of Ratchet's Wharfmaster Dizzywig. Venture Company bosses keep the fist-sized gem under guard at Boulder Lode Mine. Venture Company laborers struck a massive emerald at Boulder Lode Mine, northeast of the Sludge Fen. Word of the find spread quickly across the savanna. In goblin country, rare gemstones seldom stay secret. Trade gossip carried news from Ratchet's docks to Booty Bay, and Wharfmaster Dizzywig heard of the prize. He began plotting to send it to the open market in Undermine. Venture Company management keeps the emerald inside the mine under heavy guard. Overseers, Enforcers, and chief operators such as Boss Copperplug defend it from rival cartels and fortune-hunters. Dizzywig has promised a fifty-percent cut to those who help him secure the gem.",
+  hash = "cf3854",
+  fullHash = "cf3854",
+  text = "Cats Eye Emerald. At Boulder Lode Mine, the Cats Eye Emerald is under guard while Wharfmaster Dizzywig seeks a buyer. The fist-sized gem has drawn his eye from Ratchet's docks. Venture Company laborers found a massive emerald at Boulder Lode Mine, northeast of the Sludge Fen. News spread quickly across the savanna. In goblin country, rare gemstones do not stay secret for long. Trade gossip carried word from Ratchet's docks to Booty Bay, where Wharfmaster Dizzywig heard of the prize. He began plotting to send it to the open market in Undermine. Venture Company management keeps the emerald inside the mine under heavy guard. Overseers, Enforcers, and chief operators such as Boss Copperplug defend it from rival cartels and fortune-hunters. Dizzywig has promised a fifty-percent cut to those who help him secure the gem.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_cats-eye-emerald-b1cd891e4c3073b8e08e/1-0000.mp3", duration = 54.5697959, start = 0},
+    {file = "Audio/Transport/full_item_cats-eye-emerald-afe4d4b798eca9a77b93/1-0000.mp3", duration = 51.5134694, start = 0},
   },
 }
 P.transport["item:cenarion-lunardust"] = {
@@ -754,19 +754,19 @@ P.transport["item:cenarion-lunardust"] = {
   },
 }
 P.transport["item:cenarion-moondust"] = {
-  hash = "d2a100",
-  fullHash = "d2a100",
-  text = "Cenarion Moondust. At the Moonkin Stone east of Auberdine, Cenarion Moondust calls forth Lunaclaw. Night elf druids use the sacred powder in their trial to become Druids of the Claw. Mathrengyl Bearwalker gives Cenarion Moondust to young druids in Darnassus for their final trial of heart and body. To face Lunaclaw, the guardian, an initiate travels to the moonkin dens east of Auberdine in Darkshore. Scattered on the ancient Moonkin Stone, the powder summons Lunaclaw to test the druid in combat. Through the trial, the initiate takes in the enduring strength needed to channel the bear form.",
+  hash = "9e5530",
+  fullHash = "9e5530",
+  text = "Cenarion Moondust. At the Moonkin Stone east of Auberdine, Cenarion Moondust summons Lunaclaw. Night elf druids use it in their final trial to become Druids of the Claw. Mathrengyl Bearwalker gives Cenarion Moondust to young druids in Darnassus for their final trial of heart and body. To face Lunaclaw, an initiate travels to the moonkin dens east of Auberdine in Darkshore. Scatter the powder on the ancient Moonkin Stone, and Lunaclaw comes to test the druid in combat. Through the trial, the initiate gains the enduring strength needed to channel bear form.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_cenarion-moondust-b2df6d6a32d955d17cf6/1-0000.mp3", duration = 35.2914286, start = 0},
+    {file = "Audio/Transport/full_item_cenarion-moondust-00c81ced4ac4233c69d1/1-0000.mp3", duration = 35.1608163, start = 0},
   },
 }
 P.transport["item:centaur-bracers"] = {
-  hash = "2288ad",
-  fullHash = "2288ad",
-  text = "Centaur Bracers. Across the Barrens, Centaur Bracers are stripped from slain Kolkar warriors. Regthar Deathgate gathers them west of the Crossroads as proof that centaur raiders have been culled. Kolkar raiders threaten the Horde’s foothold across the Barrens. Their fallen warriors leave behind leather and iron bracers, proof that a raider has been removed from the trade roads. Regthar Deathgate, an orc scout stationed on the bluffs west of the Crossroads, offers a standing bounty for these trophies to curb the tribe’s aggression.",
+  hash = "f18dbc",
+  fullHash = "f18dbc",
+  text = "Centaur Bracers. Across the Barrens, Centaur Bracers are taken from fallen Kolkar warriors. Regthar Deathgate gathers them west of the Crossroads as proof the centaur raiders have been culled. Kolkar raiders threaten the Horde’s foothold across the Barrens. Their fallen warriors leave leather and iron bracers behind, proof that a raider has been removed from the trade roads. Regthar Deathgate is an orc scout stationed on the bluffs west of the Crossroads. He offers a standing bounty for these trophies to curb the tribe’s aggression.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_centaur-bracers-5ed6a2d71ad832b99e5f/1-0000.mp3", duration = 32.5746939, start = 0},
+    {file = "Audio/Transport/full_item_centaur-bracers-6fa6084fcc042973ced1/1-0000.mp3", duration = 30.8506122, start = 0},
   },
 }
 P.transport["item:charred-horn"] = {
@@ -810,19 +810,19 @@ P.transport["item:clarice-s-pendant"] = {
   },
 }
 P.transport["item:claw-key"] = {
-  hash = "79442d",
-  fullHash = "79442d",
-  text = "Claw Key. Within the Talon Den atop Stonetalon Peak, three druidic keys open the enchanted hoard. High on Stonetalon Peak, night elf druids built the Talon Den as a sanctuary and a storehouse for powerful relics. They hid the treasures behind several layers of protection. Three enchanted locks seal the hoard: the Barrow Key, the Sleepers' Key, and the Claw Key. Each key lies in its own druidic cache, shaped like a torch and hidden in the winding tunnels of the barrow den. The druids kept the keys guarded and out of easy reach. Near the barrow entrance lies the Gatekeeper's Key, needed to open the cache that holds the Claw Key. The Claw Key is vital to breaking the druids' seal and claiming the riches hidden deep within the mountain.",
+  hash = "1aff36",
+  fullHash = "1aff36",
+  text = "Claw Key. Within the Talon Den on Stonetalon Peak, three druidic keys guard an enchanted hoard. Night elf druids built the Talon Den high on Stonetalon Peak as a sanctuary and storehouse for powerful relics. They hid its treasures behind several layers of protection. Three enchanted locks seal the hoard: the Barrow Key, the Sleepers' Key, and the Claw Key. Each key rests in a druidic cache shaped like a torch, hidden in the barrow den's winding tunnels. The druids kept the keys guarded and hard to reach. Near the barrow entrance, the Gatekeeper's Key opens the cache that holds the Claw Key. The Claw Key helps break the druids' seal and reach the riches hidden deep within the mountain.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_claw-key-b681289fa73dc233a754/1-0000.mp3", duration = 45.7665306, start = 0},
+    {file = "Audio/Transport/full_item_claw-key-3e67573d04d49218860d/1-0000.mp3", duration = 46.2367347, start = 0},
   },
 }
 P.transport["item:cliffspring-river-sample"] = {
-  hash = "ac356b",
-  fullHash = "ac356b",
-  text = "Cliffspring River Sample. In Darkshore, foul water gathers at the base of the Cliffspring River waterfall. Drawn for Thundris Windweaver in Auberdine, the vial shows that corruption is moving toward the coast. The Cliffspring River runs from Darkshore's eastern heights, past ancient stone bridges, and into the sea at Mist's Edge. Its clear waters have turned foul and visibly corrupted. Thundris Windweaver, a night elf in Auberdine, fears the tainted flow will reach the settlement's shore and water supply. He sent travelers to draw water from the pool beneath the river's lower waterfall. The sample confirms that unnatural rot is moving downstream toward the coast.",
+  hash = "74425f",
+  fullHash = "74425f",
+  text = "Cliffspring River Sample. At Cliffspring River's waterfall in Darkshore, foul water gathers in a pool. Drawn for Thundris Windweaver in Auberdine, the sample shows corruption moving toward the coast. The Cliffspring River runs from Darkshore's eastern heights, past ancient stone bridges, and into the sea at Mist's Edge. Its clear water has turned foul and visibly corrupted. Thundris Windweaver, a night elf in Auberdine, fears the tainted flow will reach the settlement's shore and water supply. He sent travelers to draw water from the pool beneath the river's lower waterfall. The sample confirms that unnatural rot is moving downstream toward the coast.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_cliffspring-river-sample-a71a9cd59e927d938916/1-0000.mp3", duration = 41.1428571, start = 0},
+    {file = "Audio/Transport/full_item_cliffspring-river-sample-099c558f9b4cd3b99409/1-0000.mp3", duration = 39.1836735, start = 0},
   },
 }
 P.transport["item:cloth-request"] = {
@@ -858,51 +858,51 @@ P.transport["item:consecrated-rune"] = {
   },
 }
 P.transport["item:console-key"] = {
-  hash = "0521af",
-  fullHash = "0521af",
-  text = "Console Key. At the Venture Company digsite in the Barrens, Tinkerer Sniggles holds the Console Key. It unlocks the main control terminal and lets the samophlange be removed once the apparatus is shut down. The Venture Company runs an industrial outpost in the northern Barrens. Its steam-driven machinery depends on a device called a samophlange. The console is locked against unauthorized hands, and only Tinkerer Sniggles, the chief technician on site, carries the Console Key. The key opens the terminal casing so the rig can be powered down.",
+  hash = "4a3548",
+  fullHash = "4a3548",
+  text = "Console Key. At the Venture Company digsite in the Barrens, Tinkerer Sniggles keeps the Console Key. It opens the main control terminal and frees the samophlange after the apparatus shuts down. The Venture Company runs an industrial outpost in the northern Barrens, powered by steam-driven machinery. At its heart is a device called a samophlange. The console is locked, and only Tinkerer Sniggles, the chief technician on site, carries the Console Key. It opens the terminal casing so the rig can be powered down.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_console-key-62824b202dc576cff2cd/1-0000.mp3", duration = 34.1681633, start = 0},
+    {file = "Audio/Transport/full_item_console-key-4e0469b6e89afe2c5dda/1-0000.mp3", duration = 32.6008163, start = 0},
   },
 }
 P.transport["item:control-console-operating-manual"] = {
-  hash = "91ebed",
-  fullHash = "91ebed",
-  text = "Control Console Operating Manual. At the Venture Company site southwest of Sludge Fen, the Control Console Operating Manual guides workers through the machinery. It explains how to close the valves and disengage the samophlange. Southwest of Sludge Fen, the Venture Company runs a drilling and research site in the northern Barrens. Its machinery links gauges, pressurized valves, and mechanisms to a device called a samophlange. Without the right instructions, working the volatile controls can cause a dangerous failure or lock the system. The manual gives the valve sequence for disengaging the core apparatus without triggering an explosive failure.",
+  hash = "917374",
+  fullHash = "917374",
+  text = "Control Console Operating Manual. At the Venture Company site southwest of Sludge Fen, workers turn to the Control Console Operating Manual to handle the machinery. It gives the valve sequence for disengaging the samophlange. The Venture Company runs a drilling and research site in the northern Barrens, southwest of Sludge Fen. Gauges and pressurized valves connect to mechanisms that drive a device called a samophlange. Without the right instructions, the volatile controls can fail dangerously or lock the system. The manual shows workers how to disengage the core apparatus without causing an explosion.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_control-console-operating-manual-2a2418a5636c1d3cde44/1-0000.mp3", duration = 39.3665306, start = 0},
+    {file = "Audio/Transport/full_item_control-console-operating-manual-c79e7d2cae417629aab9/1-0000.mp3", duration = 36.2318367, start = 0},
   },
 }
 P.transport["item:corroded-shrapnel"] = {
-  hash = "4bc15a",
-  fullHash = "4bc15a",
-  text = "Corroded Shrapnel. In Stonetalon, jagged metal remains lodged deep inside corrupted treants. The Venture Company’s retreating munitions left fragments in the forest’s protectors, now sought for study. When the Venture Company was driven from Stonetalon’s groves, its goblins used reckless munitions to cover their escape. Explosive shrapnel tore into the valley’s defending treants, lodging deep within their bark and core. The ancient guardians slowly succumbed to corruption. Their wood blackened, and their fury turned against anyone entering the vale. Kaela Shadowspear seeks the rusted fragments so Gaxim Rustfizzle, a gnome, can study how the weapons brought on the treants’ corruption.",
+  hash = "cf1f6c",
+  fullHash = "cf1f6c",
+  text = "Corroded Shrapnel. In Stonetalon, jagged fragments remain buried in the forest’s corrupted treants. The Venture Company’s munitions left them there as the goblins fled. The Venture Company’s goblins fled Stonetalon’s groves under cover of reckless munitions. Their blasts drove shrapnel into the treants defending the valley, where it lodged deep in bark and core. The ancient guardians slowly succumbed to corruption. Their wood darkened, and they turned their fury on anyone entering the vale. Kaela Shadowspear seeks the rusted fragments for Gaxim Rustfizzle, a gnome who wants to study how the weapons brought on the treants’ corruption.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_corroded-shrapnel-def6c3073f914a7575b9/1-0000.mp3", duration = 42.1616327, start = 0},
+    {file = "Audio/Transport/full_item_corroded-shrapnel-c3be016c72911c6b4562/1-0000.mp3", duration = 37.5640816, start = 0},
   },
 }
 P.transport["item:corrupt-manifestation-s-bracers"] = {
-  hash = "c7173a",
-  fullHash = "c7173a",
-  text = "Corrupt Manifestation's Bracers. Tainted bracers lie on the coast of Silverpine Forest, remnants of a corrupted water elemental. Shaman initiates recover them during the Call of Water and cast them into the Brazier of Everfount with pure water to cleanse the shrine and summon a pure water spirit. The Scourge's plague reached the spirits of Lordaeron. Along Silverpine Forest's misty coast, west of the Sepulcher, a sacred water shrine fell to corruption. Its water manifestation became an aggressive shade. Shaman initiates must defeat it and recover its bracers. At the Brazier of Everfount, they cast the bindings into the flame with pure water, lifting the corruption and calling forth an unblemished water spirit.",
+  hash = "415e99",
+  fullHash = "415e99",
+  text = "Corrupt Manifestation's Bracers. On Silverpine Forest’s coast, Corrupt Manifestation's Bracers remain from a corrupted water elemental. During the Call of Water, shaman initiates cast them into the Brazier of Everfount with pure water, cleansing the shrine and summoning a pure water spirit. The Scourge’s plague reached Lordaeron’s spirits. Along Silverpine Forest’s coast, west of the Sepulcher, corruption overcame a sacred water shrine. Its water manifestation became an aggressive shade, and shaman initiates must defeat it to recover the bracers. At the Brazier of Everfount, they cast the bindings into the flame with pure water. The rite lifts the shrine’s corruption and calls forth an unblemished water spirit.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_corrupt-manifestation-s-bracers-e2aefd3d85a4f2a62b5b/1-0000.mp3", duration = 42.4228571, start = 0},
+    {file = "Audio/Transport/full_item_corrupt-manifestation-s-bracers-a61218a3fc8c734688eb/1-0000.mp3", duration = 43.7812245, start = 0},
   },
 }
 P.transport["item:corrupted-brain-stem"] = {
-  hash = "b98498",
-  fullHash = "b98498",
-  text = "Corrupted Brain Stem. In Blackfathom Deeps and along Ashenvale's coast, Corrupted Brain Stem specimens come from twisted naga and satyrs. Gershala Nightwhisper of Auberdine studies the deformities caused by reckless magic. Night elf scholars hope the findings can help keep the blood elves from suffering the same fate. Naga and satyrs bear the marks of forbidden magic and demonic pacts. Long ago, reckless kaldorei highborne became serpent-like aquatic beasts and demonic horned fiends. Their brain stems show heavy physical mutation, proof of how deeply corruptive energies altered the nervous systems of beings who were once elves. Gershala Nightwhisper watches troubling rumors about the blood elves of the Eastern Kingdoms from Auberdine. She fears their use of demonic sorcery will create another generation of monsters on Azeroth, so she sends adventurers into Blackfathom Deeps. By examining naga and satyr tissues, she hopes to trace magical degeneration before another elven culture is lost.",
+  hash = "844916",
+  fullHash = "844916",
+  text = "Corrupted Brain Stem. In Blackfathom Deeps and along Ashenvale’s coast, Corrupted Brain Stem specimens come from naga and satyrs twisted by magic. Gershala Nightwhisper of Auberdine studies their deformities, hoping night elf scholars can learn how to keep the blood elves from the same fate. Forbidden magic and demonic pacts mark the naga and satyrs. Long ago, reckless kaldorei highborne became serpent-like aquatic beasts and demonic horned fiends. Their brain stems bear heavy mutations, showing how deeply corruptive energies altered the nervous systems of beings once known as elves. From Auberdine, Gershala Nightwhisper watches troubling rumors about the blood elves of the Eastern Kingdoms. He fears their demonic sorcery will create another generation of monsters on Azeroth. So he sends adventurers into Blackfathom Deeps to examine naga and satyr tissues. He hopes to trace magical degeneration before another elven culture is lost.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_corrupted-brain-stem-a7155edf56813ac8ae08/1-0000.mp3", duration = 61.7273469, start = 0},
+    {file = "Audio/Transport/full_item_corrupted-brain-stem-7864cba50d40d09f86a8/1-0000.mp3", duration = 61.2310204, start = 0},
   },
 }
 P.transport["item:corrupted-kor-gem"] = {
-  hash = "42e464",
-  fullHash = "42e464",
-  text = "Corrupted Kor Gem. Around Blackfathom Deeps, naga rites leave Kor gems corrupted. Spellcasters prize the stones for holding arcane force, but this taint must be cleansed before a gem can be used in righteous smithing. Kor gems can capture and hold great stores of magic, making them prized by sorcerers and enchanted smiths. Near the ruins of Blackfathom Deeps, naga oracles and tide priestesses claim the stones for their shadowy rites. Their foul enchantments warp each gem with corruption from the sea. The taint does not drain the stone's latent power, so those who need a potent focus still seek gems among the naga.",
+  hash = "e3fa7a",
+  fullHash = "e3fa7a",
+  text = "Corrupted Kor Gem. Near Blackfathom Deeps, naga rites taint Kor gems. Sorcerers prize their arcane power, though the corruption must be cleansed before a gem can be used in righteous smithing. Kor gems hold great stores of magic, making them useful to sorcerers and enchanted smiths. Near the ruins of Blackfathom Deeps, naga oracles and tide priestesses claim the stones for their rites. Their enchantments corrupt each gem with magic from the sea. The taint leaves the stone's latent power intact, so those seeking a potent focus still look among the naga.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_corrupted-kor-gem-14d31847917a1a31047a/1-0000.mp3", duration = 39.2881633, start = 0},
+    {file = "Audio/Transport/full_item_corrupted-kor-gem-096ba6ebe7e19e0d3f79/1-0000.mp3", duration = 34.324898, start = 0},
   },
 }
 P.transport["item:cougar-claws"] = {
@@ -914,27 +914,27 @@ P.transport["item:cougar-claws"] = {
   },
 }
 P.transport["item:courser-eye"] = {
-  hash = "355b31",
-  fullHash = "355b31",
-  text = "Courser Eye. Coursers roam the highlands of Stonetalon, where Courser Eye is gathered for a troll witch doctor's brew. Witch Doctor Jin'Zil in Malaka'jin wants many eyes for a concoction he calls forest magic.",
+  hash = "eed2cf",
+  fullHash = "eed2cf",
+  text = "Courser Eye. In Stonetalon's highlands, coursers are hunted for a brew Witch Doctor Jin'Zil calls forest magic. At Malaka'jin, he wants many eyes for his concoction.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_courser-eye-fb425125c261f2ef56fd/1-0000.mp3", duration = 12.7477551, start = 0},
+    {file = "Audio/Transport/full_item_courser-eye-1282e20679765f71cb90/1-0000.mp3", duration = 10.9714286, start = 0},
   },
 }
 P.transport["item:covert-ops-pack"] = {
-  hash = "c8b60b",
-  fullHash = "c8b60b",
-  text = "Covert Ops Pack. In Stonetalon, the Covert Ops Pack equips Alliance agents to sabotage Venture Company sites and steal their plans. Its charges and schematics target the company’s work in Windshear Crag. The Covert Ops Pack carries charges and plans for strikes inside Venture Company territory. Red and blue NG-5 explosives pair with remote detonators, while Plan Alpha and Plan Beta give agents instructions. The explosives target the Cragpool Lake lumber mill and the eastern mine. As goblins rush to fight fires and inspect broken machinery, an infiltrator can slip through the confusion and take documents and schematics. The pack serves both the night elf Sentinels and Alliance engineers in Stonetalon. Its blasts and theft hinder the clear-cutting and excavation of the sacred mountainside. The stolen Venture Company engineering plans also offer insight into goblin heavy machinery. They show where the machines can fail and give Alliance engineers ideas to adapt for their own designs.",
+  hash = "7f205b",
+  fullHash = "7f205b",
+  text = "Covert Ops Pack. In Stonetalon, Alliance agents use the Covert Ops Pack to disrupt Venture Company sites and take their plans. Its charges and schematics are aimed at the company’s work in Windshear Crag. The Covert Ops Pack brings charges and plans into Venture Company territory. Red and blue NG-5 explosives come with remote detonators, while Plan Alpha and Plan Beta guide the strikes. The charges target the lumber mill at Cragpool Lake and the eastern mine. When goblins rush to fight fires and inspect broken machinery, an infiltrator can pass through the confusion and take documents and schematics. Night elf Sentinels and Alliance engineers in Stonetalon both gain from the Covert Ops Pack. Its blasts and stolen plans hinder clear-cutting and excavation on the sacred mountainside. The Venture Company engineering plans also reveal how goblin heavy machinery works. They show where the machines can fail and give Alliance engineers ideas to adapt for their own designs.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_covert-ops-pack-1a75759d4ad54a904a71/1-0000.mp3", duration = 61.2571429, start = 0},
+    {file = "Audio/Transport/full_item_covert-ops-pack-de4e558588b6be9c57b0/1-0000.mp3", duration = 61.1004082, start = 0},
   },
 }
 P.transport["item:crate-of-crash-helmets"] = {
-  hash = "b2b108",
-  fullHash = "b2b108",
-  text = "Crate of Crash Helmets. A heavy supply shipment of dwarven Siege Engine headgear destined for the Shimmering Flats in Thousand Needles. The sturdy helmets are urgently required by the Brassbolts brothers to protect test drivers from concussions caused by their experimental rocket cars. Out across the blinding white expanse of the Shimmering Flats, gnome engineers test the absolute limits of mechanical propulsion. Unfortunately for the test pilots, the experimental rocket cars designed by the Brassbolts brothers move far faster than their steering can reliably handle. With drivers routinely suffering violent crashes and head trauma, ordinary leather caps no longer suffice. To prevent their roster of willing daredevils from vanishing entirely, heavy-duty dwarven Siege Engine helmets are packed and dispatched across the sea to keep drivers conscious—and alive.",
+  hash = "a0152c",
+  fullHash = "a0152c",
+  text = "Crate of Crash Helmets. At the Shimmering Flats, Wizzle Brassbolts and his brother need helmets for their rocket car test drivers. Heavy dwarven Siege Engine headgear is bound for Thousand Needles to guard pilots against concussions. Gnome engineers race rocket cars across the Shimmering Flats. Wizzle Brassbolts and his brother build machines that outrun their drivers’ ability to steer. Crashes leave test pilots with head injuries, and leather caps no longer suffice. So heavy dwarven Siege Engine helmets are shipped across the sea to keep the drivers conscious and alive.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_crate-of-crash-helmets-5c13182741eac1b02f4f/1-0000.mp3", duration = 50.1812245, start = 0},
+    {file = "Audio/Transport/full_item_crate-of-crash-helmets-8c598ba236593e5c87bc/1-0000.mp3", duration = 34.1942857, start = 0},
   },
 }
 P.transport["item:crate-of-horseshoes"] = {
@@ -962,27 +962,27 @@ P.transport["item:crate-of-lightforge-ingots"] = {
   },
 }
 P.transport["item:crate-with-holes"] = {
-  hash = "c1c490",
-  fullHash = "c1c490",
-  text = "Crate With Holes. In Ratchet, Mebok Mizzyrix prepares a crate for a Snufflenose Gopher. Mebok Mizzyrix sends trained Snufflenose Gophers to find Blueleaf Tubers in Razorfen Kraul. The gophers cannot follow an adventurer across the Barrens on foot, so Mebok places each one in a wooden crate with air holes. Inside the quilboar stronghold, the crate is opened and the gopher follows its keen nose toward the buried tubers.",
+  hash = "a5ae66",
+  fullHash = "a5ae66",
+  text = "Crate With Holes. In Ratchet, Mebok Mizzyrix readies a crate for a Snufflenose Gopher. Mebok Mizzyrix sends trained Snufflenose Gophers into Razorfen Kraul to find Blueleaf Tubers. The gophers cannot cross the Barrens on foot beside an adventurer, so Mebok places each one in a wooden crate with air holes. Once inside the quilboar stronghold, the crate opens. The gopher follows its keen nose toward the buried tubers.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_crate-with-holes-4ee8f49aacc247f90b8a/1-0000.mp3", duration = 24.4244898, start = 0},
+    {file = "Audio/Transport/full_item_crate-with-holes-5bdb69432b9705beb2f7/1-0000.mp3", duration = 26.1746939, start = 0},
   },
 }
 P.transport["item:crawler-leg"] = {
-  hash = "51aad7",
-  fullHash = "51aad7",
-  text = "Crawler Leg. Along Darkshore’s misty coast, crabs lose legs that most travelers have no use for. Their tough limbs can help keep a gnome’s communication device working. Darkshore’s crabs leave sturdy limbs along the shore, from pygmy tide crawlers to reef crawlers. Night elf sentinels pay them little mind, but the gnome engineer Wizbang Cranktoggle has found a use for them. Working from Auberdine, Wizbang designed his prototype long-distance communication devices, called buzzboxes, to run on improvised local components. Crawler legs’ segmented joints and durable chitin provide the friction and leverage needed to repair Buzzbox 827, along the shoreline just south of town.",
+  hash = "0a077b",
+  fullHash = "0a077b",
+  text = "Crawler Leg. Along Darkshore's misty coast, crabs lose legs most travelers have no use for. Their tough limbs can keep a gnome's communication device working. Darkshore's crabs leave sturdy legs along the shore, from pygmy tide crawlers to reef crawlers. The night elf sentinels pay them little mind. But gnome engineer Wizbang Cranktoggle has found a use for them.\n\nFrom Auberdine, he designed prototype long-distance communication devices called buzzboxes to work with improvised local parts. Crawler legs have segmented joints and durable chitin, giving the friction and leverage needed to repair Buzzbox 827 just south of town along the shore.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_crawler-leg-c10354178f96661f1d5a/1-0000.mp3", duration = 43.284898, start = 0},
+    {file = "Audio/Transport/full_item_crawler-leg-3b58084c9a85c9464325/1-0000.mp3", duration = 42.0832653, start = 0},
   },
 }
 P.transport["item:creeper-ichor"] = {
-  hash = "e3b9b2",
-  fullHash = "e3b9b2",
-  text = "Creeper Ichor. Across the Hillsbrad forests, rare, virulent Creeper Ichor is harvested from moss creepers. The Royal Apothecary Society in Tarren Mill seeks it as a biological agent for formulating novel plagues against the living. In Tarren Mill, Apothecary Lydon seeks natural toxins and biological catalysts to craft deadly new toxins and eradicate the surrounding human population. The clean air and vibrant life of the foothills offend him. Among the forest’s giant arachnids, mature moss creepers hold an elusive ichor that makes an ideal base for his Elixir of Suffering. Mixed with other reagents, including gray bear tongues, the fluid helps the Forsaken perfect their lethal alchemy.",
+  hash = "ffbcfe",
+  fullHash = "ffbcfe",
+  text = "Creeper Ichor. Across the Hillsbrad forests, moss creepers yield Creeper Ichor to the Royal Apothecary Society in Tarren Mill. The Society seeks the fluid as a biological agent for new plagues against the living. Apothecary Lydon in Tarren Mill seeks natural toxins and catalysts for deadly new brews. He means to eradicate the surrounding human population, and the foothills’ clean air and vibrant life offend him. Among the forest’s giant arachnids, mature moss creepers hold an elusive ichor. It makes an ideal base for his Elixir of Suffering. Mixed with gray bear tongues and other reagents, the fluid helps the Forsaken perfect their lethal alchemy.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_creeper-ichor-3fa9a316b15096c630a9/1-0000.mp3", duration = 46.1583673, start = 0},
+    {file = "Audio/Transport/full_item_creeper-ichor-5f9594d59ee601ded0a3/1-0000.mp3", duration = 43.3110204, start = 0},
   },
 }
 P.transport["item:crocolisk-skin-classic"] = {
@@ -1002,19 +1002,19 @@ P.transport["item:crocolisk-tear-classic"] = {
   },
 }
 P.transport["item:crossroads-supply-crate"] = {
-  hash = "e2e864",
-  fullHash = "e2e864",
-  text = "Crossroads Supply Crate. Stolen provisions for the Crossroads lie scattered among Razormane camps in the Barrens. A raided caravan left the settlement short of food, tools, and necessities. Razormane quilboar raided a caravan carrying supplies to the Crossroads. The crates were dragged into nearby camps among the underbrush and dirt dens. Thork, the settlement's commander, seeks their return before the outpost runs dangerously low on food, tools, and necessities.",
+  hash = "725489",
+  fullHash = "725489",
+  text = "Crossroads Supply Crate. At the Crossroads, a raided caravan has left the settlement short of food, tools, and necessities. Stolen provisions now lie scattered among Razormane camps in the Barrens. Razormane quilboar raided a caravan bound for the Crossroads and carried its supplies into nearby camps. The crates lie among underbrush and dirt dens. Thork, the settlement's commander, seeks their return before the outpost runs dangerously low on food, tools, and necessities.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_crossroads-supply-crate-d3af0825329f462a4f1c/1-0000.mp3", duration = 26.644898, start = 0},
+    {file = "Audio/Transport/full_item_crossroads-supply-crate-3dbd923184718bd0afe0/1-0000.mp3", duration = 28.4995918, start = 0},
   },
 }
 P.transport["item:crude-flint"] = {
-  hash = "36ba36",
-  fullHash = "36ba36",
-  text = "Crude Flint. Across the Wetlands, Mosshide gnolls carry Crude Flint to kindle fires with freshly hewn marsh timber. Their fires anger Rethiel the Greenwarden, protector of the marsh.",
+  hash = "4d9a52",
+  fullHash = "4d9a52",
+  text = "Crude Flint. Across the Wetlands, Mosshide gnolls burn living marsh timber, and Rethiel the Greenwarden means to stop them. They carry Crude Flint to kindle their fires.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_crude-flint-4576968b32ebd80bf6ef/1-0000.mp3", duration = 12.277551, start = 0},
+    {file = "Audio/Transport/full_item_crude-flint-e05bdecd7fab9c104b7c/1-0000.mp3", duration = 10.8408163, start = 0},
   },
 }
 P.transport["item:crystal-kelp-frond"] = {
@@ -1026,35 +1026,35 @@ P.transport["item:crystal-kelp-frond"] = {
   },
 }
 P.transport["item:crystal-phial"] = {
-  hash = "586ebe",
-  fullHash = "586ebe",
-  text = "Crystal Phial. In Shadowglen, Tenaron Stormgrip entrusts young night elves with a Crystal Phial. They carry it to a nearby moonwell to draw sacred water for rites honoring and nourishing Teldrassil. Young night elves receive a Crystal Phial atop Aldrassil. Tenaron Stormgrip sends them to the moonwell just north of the bough to gather its glowing waters. The delicate vessel holds water touched by the sacred legacy of the Well of Eternity. Returning with a Filled Crystal Phial begins the Crown of the Earth pilgrimage, teaching the young kaldorei about the balance of magic, history, and nature in their new island home.",
+  hash = "08a5be",
+  fullHash = "08a5be",
+  text = "Crystal Phial. In Shadowglen, Tenaron Stormgrip gives young night elves a Crystal Phial to carry to a nearby moonwell. There they draw sacred water for rites honoring and nourishing Teldrassil. Atop Aldrassil, Tenaron Stormgrip gives young night elves a Crystal Phial. He sends them to the moonwell just north of the bough to gather its glowing waters. The delicate vessel holds water touched by the sacred legacy of the Well of Eternity.\n\nWhen they return with a Filled Crystal Phial, the Crown of the Earth pilgrimage begins. The young kaldorei learn about the balance of magic, history, and nature in their new island home.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_crystal-phial-942ca03244cf244f27ad/1-0000.mp3", duration = 37.5379592, start = 0},
+    {file = "Audio/Transport/full_item_crystal-phial-142c48fbde06f4843984/1-0000.mp3", duration = 37.7991837, start = 0},
   },
 }
 P.transport["item:crystalized-scales"] = {
-  hash = "182232",
-  fullHash = "182232",
-  text = "Crystalized Scales. Basilisks in harsh Kalimdor lands yield Crystalized Scales for arcane work. The mineralized hides come from the Charred Vale and Thousand Needles, and Collin Mauren seeks them in Stormwind. Basilisks endure heat and ash in Stonetalon's Charred Vale and the salt flats of Thousand Needles. Their hides harden beneath a crystal crust, and the scales hold latent arcane resonance. Wizards across the Great Sea prize them for experiments in rare spellcraft. In Stormwind, the mage Collin Mauren seeks travelers bound for Kalimdor to bring him these scales. Mauren pulverizes their crystalline mineral layers into dust, then uses the powder as a reagent for newly conceived spells and his own arcane research.",
+  hash = "cc526b",
+  fullHash = "cc526b",
+  text = "Crystalized Scales. In Kalimdor, basilisks yield Crystalized Scales for arcane work. Their mineralized hides come from the Charred Vale and Thousand Needles, and Collin Mauren seeks them in Stormwind. Basilisks endure heat and ash in Stonetalon's Charred Vale and the salt flats of Thousand Needles. In both places, their hides harden beneath a crystal crust. The scales hold latent arcane resonance, and wizards across the Great Sea prize them for experiments in rare spellcraft. In Stormwind, the mage Collin Mauren seeks travelers bound for Kalimdor to bring him these scales. He pulverizes their crystalline mineral layers into dust, then uses the powder as a reagent for newly conceived spells and his own arcane research.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_crystalized-scales-9b3b30efc58063c60212/1-0000.mp3", duration = 43.9379592, start = 0},
+    {file = "Audio/Transport/full_item_crystalized-scales-a65d9467c51d1030ec48/1-0000.mp3", duration = 46.4979592, start = 0},
   },
 }
 P.transport["item:curative-animal-salve"] = {
-  hash = "303ab6",
-  fullHash = "303ab6",
-  text = "Curative Animal Salve. Across Darkshore and the Barrens, druids use Curative Animal Salve to treat sick wildlife. Herbalists prepare it in both lands, while the Cenarion Circle sees the animals’ afflictions as signs of a wider blight. Druids use Curative Animal Salve to ease sick wildlife in Darkshore and the Barrens. Alanndarian Nightsong directs young druids to treat sick deer between the Cliffspring River and the borders of Ashenvale. In the Barrens, Tonga Runetotem brews the same remedy for sick gazelles grazing north of the Crossroads. Each herbalist prepares the salve from locally gathered herbs in batches of ten doses. Field practitioners apply it directly to the animals, while both herbalists work with local authorities to produce larger supplies. The salve eases an animal’s suffering, but the Cenarion Circle sees the afflictions as signs of a wider disturbance. In Moonglade, Dendrite Starblaze observes that the afflicted deer on the coast and the suffering gazelles on the savannah are no random casualties. They are unwitting victims of a blight spreading across Kalimdor from multiple directions. For initiates, treating the animals tests their dedication to protecting nature and their skill in cleansing poison.",
+  hash = "e2df69",
+  fullHash = "e2df69",
+  text = "Curative Animal Salve. Across Darkshore and the Barrens, druids tend sick wildlife with Curative Animal Salve. Herbalists prepare it in both lands, while the Cenarion Circle reads the animals’ afflictions as signs of a wider blight. Druids use Curative Animal Salve on sick wildlife in Darkshore and the Barrens. Alanndarian Nightsong directs young druids to treat sick deer between the Cliffspring River and Ashenvale’s borders. In the Barrens, Tonga Runetotem brews the same remedy for sick gazelles north of the Crossroads.\n\nEach herbalist gathers local herbs and prepares the salve in batches of ten doses. Field druids apply it directly to the animals. Both herbalists work with local authorities to make larger supplies. The salve eases the animals’ suffering, but the Cenarion Circle sees a wider disturbance. In Moonglade, Dendrite Starblaze observes that the afflicted deer on the coast and the suffering gazelles on the savannah are no random casualties. They are unwitting victims of a blight spreading across Kalimdor from several directions.\n\nFor initiates, treating the animals tests their dedication to protecting nature and their skill at cleansing poison.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_curative-animal-salve-db85223f0130d817df5b/1-0000.mp3", duration = 73.6653061, start = 0},
+    {file = "Audio/Transport/full_item_curative-animal-salve-0926a50be724a43db85c/1-0000.mp3", duration = 72.0979592, start = 0},
   },
 }
 P.transport["item:daffodil-bouquet"] = {
-  hash = "b00dd4",
-  fullHash = "b00dd4",
-  text = "Daffodil Bouquet. In Lakeshire, Guard Parker sends a bouquet to thank Darcy for packing his lunch. Martie Jainrose gathers the flowers, and their choice stirs gossip between the two women. Guard Parker wants to thank Darcy at the Lakeshire inn for packing his daily lunch. He asks the town herbalist, Martie Jainrose, to prepare a bouquet of daffodils. Martie says they are her favorite flowers. Darcy recognizes them as Martie’s signature bloom and suspects jealousy. Half-joking, she wonders whether Martie poisoned the stems out of spite.",
+  hash = "d6231e",
+  fullHash = "d6231e",
+  text = "Daffodil Bouquet. In Lakeshire, Daffodil Bouquet carries Guard Parker’s thanks to Darcy for packing his lunch. Martie Jainrose gathers the flowers, and her choice stirs gossip between the two women. Guard Parker wants to thank Darcy at the Lakeshire inn for packing his daily lunch. So he asks Martie Jainrose, the town herbalist, to prepare a bouquet of daffodils. Martie names them her favorite flowers. Darcy recognizes them as Martie’s signature bloom and suspects jealousy. Half-joking, she wonders if Martie poisoned the stems out of spite.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_daffodil-bouquet-bf08089f645deb9e138a/1-0000.mp3", duration = 33.28, start = 0},
+    {file = "Audio/Transport/full_item_daffodil-bouquet-a87c402be9a359b19aed/1-0000.mp3", duration = 34.5077551, start = 0},
   },
 }
 P.transport["item:daggerspine-scale"] = {
@@ -1066,11 +1066,11 @@ P.transport["item:daggerspine-scale"] = {
   },
 }
 P.transport["item:dal-bloodclaw-s-skull"] = {
-  hash = "abebe8",
-  fullHash = "abebe8",
-  text = "Dal Bloodclaw's Skull. In northern Ashenvale, Dal Bloodclaw's Skull marks the end of a threat to Astranaar. Raene Wolfrunner receives it as proof that an attack on the night elf settlement has been averted. The Thistlefur furbolgs north of Astranaar have grown in number and aggression. Like much of Ashenvale's ancient forest, they have been corrupted. Raene Wolfrunner, a night elf sentinel, fears they will soon march on Astranaar. She orders their ranks culled and their leader, Dal Bloodclaw, slain. His skull gives grim proof that the tribe's leadership has been shattered, buying Astranaar's defenders precious time.",
+  hash = "367ba3",
+  fullHash = "367ba3",
+  text = "Dal Bloodclaw's Skull. In northern Ashenvale, Raene Wolfrunner awaits proof that Astranaar is safe from attack. Dal Bloodclaw's Skull carries that proof. The Thistlefur furbolgs north of Astranaar have grown more numerous and aggressive. Like much of Ashenvale's ancient forest, they have fallen to corruption. Raene Wolfrunner, a night elf sentinel, fears they will soon march on Astranaar. So she orders their ranks culled and their leader, Dal Bloodclaw, slain. His skull proves their chieftain is dead and buys Astranaar's defenders time.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_dal-bloodclaw-s-skull-42da239b632fa83169ca/1-0000.mp3", duration = 37.5379592, start = 0},
+    {file = "Audio/Transport/full_item_dal-bloodclaw-s-skull-e77a43aabcd50ef96272/1-0000.mp3", duration = 34.0114286, start = 0},
   },
 }
 P.transport["item:dalaran-mana-gem"] = {
@@ -1114,11 +1114,11 @@ P.transport["item:darkhound-blood"] = {
   },
 }
 P.transport["item:darkshore-grouper"] = {
-  hash = "fd890c",
-  fullHash = "fd890c",
-  text = "Darkshore Grouper. Along Darkshore, grouper are a familiar catch, though murloc attacks have driven fishermen from their boats. The fish is prized for food and sport, and a good haul is harder to find. Darkshore Grouper are a welcome catch in the cold waters off Darkshore. Anglers around Auberdine value them for the simple dishes they make, and travelers and residents alike enjoy those meals. A fishing line and basic gear are enough to bring one in. For many fishermen, the pleasure of catching a grouper matches the pleasure of eating it. Fishermen such as Gubber Blump once took small boats into deeper waters and brought back grouper by the dozen. Coastal murlocs have grown more aggressive, grounding most boats around Auberdine. Anglers now fish from shore and dock, where locals suspect the murlocs are eating the grouper. A good haul takes patience.",
+  hash = "25c113",
+  fullHash = "25c113",
+  text = "Darkshore Grouper. Along Darkshore, Darkshore Grouper are a familiar catch, though murloc attacks have driven fishermen from their boats. The fish are prized for food and sport, and a good haul takes patience. In Darkshore’s cold waters, Darkshore Grouper are a welcome catch. Around Auberdine, anglers value them for the simple dishes they make. Travelers and residents alike enjoy those meals. A fishing line and basic gear are enough to bring one in. For many fishermen, catching a grouper is as pleasing as eating it. Fishermen such as Gubber Blump once rowed small boats into deeper waters and returned with grouper by the dozen. Now the coastal murlocs are more aggressive, and most boats around Auberdine stay ashore. Anglers fish from shore and dock instead. Locals suspect the murlocs are eating the grouper, so a good haul takes patience.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_darkshore-grouper-9e85c65397179d9a9e24/1-0000.mp3", duration = 52.0097959, start = 0},
+    {file = "Audio/Transport/full_item_darkshore-grouper-c068c3d685e843b7d47f/1-0000.mp3", duration = 51.2522449, start = 0},
   },
 }
 P.transport["item:darksoul-shackle"] = {
@@ -1154,11 +1154,11 @@ P.transport["item:deadmire-s-tooth"] = {
   },
 }
 P.transport["item:death-cap"] = {
-  hash = "86fd39",
-  fullHash = "86fd39",
-  text = "Death Cap. In Darkshore, Death Cap grows in the cave behind Cliffspring Falls. Night elf herbalists seek the scarce fungus, but the Grove of the Ancients warns against approaching the falls. Death Cap grows in the damp cave behind Cliffspring Falls, along Darkshore's northeastern mountain ridges. Scaber stalks carpet the cavern floor, but Death Cap is scarce. Night elf herbalists such as Barithras Moonshade value it for experimental brewing. Finding even one means entering a cavern the Grove of the Ancients warns against, where corruption is taking root.",
+  hash = "45cafa",
+  fullHash = "45cafa",
+  text = "Death Cap. In Darkshore, Death Cap grows in a cave behind Cliffspring Falls. Night elf herbalists seek the scarce fungus, though the Grove of the Ancients warns against going near the falls. Death Cap grows in a damp cave behind Cliffspring Falls, along Darkshore’s northeastern mountain ridges. Scaber stalks cover the cavern floor, but Death Cap is scarce. Night elf herbalists such as Barithras Moonshade value it for experimental brewing. To find even one, you must enter a cave the Grove of the Ancients warns against, where corruption is taking root.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_death-cap-74bba79ea40a57a46bf4/1-0000.mp3", duration = 37.12, start = 0},
+    {file = "Audio/Transport/full_item_death-cap-b323e0b30e695ddb9ce1/1-0000.mp3", duration = 35.7093878, start = 0},
   },
 }
 P.transport["item:deathstalker-report"] = {
@@ -1170,19 +1170,19 @@ P.transport["item:deathstalker-report"] = {
   },
 }
 P.transport["item:deepfury-s-orders"] = {
-  hash = "05a6f9",
-  fullHash = "05a6f9",
-  text = "Deepfury's Orders. Beneath the Thandol Span, Deepfury's Orders lie with the fallen Ol' Rustlocke. The crumpled parchment carries grim instructions from the Dark Iron dwarves who ambushed the scouting defender. Ol' Rustlocke, a dwarven bridge defender, was scouting the foundations of the Thandol Span when Dark Iron dwarves cornered and slew him. Beside his clenched fist lay crumpled orders drafted by their leader, Deepfury. The parchment is direct proof of a coordinated plot against the bridge linking the Wetlands and the Arathi Highlands.",
+  hash = "6fd24f",
+  fullHash = "6fd24f",
+  text = "Deepfury's Orders. Beneath the Thandol Span, Deepfury's Orders lie beside the fallen Ol' Rustlocke. Dark Iron dwarves left the crumpled parchment after ambushing the scouting defender. Ol' Rustlocke was a dwarven defender scouting the foundations of the Thandol Span. Dark Iron dwarves cornered and slew him there. Beside his clenched fist lay crumpled orders written by their leader, Deepfury. The orders show a coordinated plot against the bridge between the Wetlands and the Arathi Highlands.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_deepfury-s-orders-b121aef44f92ba46f5d2/1-0000.mp3", duration = 33.2277551, start = 0},
+    {file = "Audio/Transport/full_item_deepfury-s-orders-1b5ddc07f0dfb176a597/1-0000.mp3", duration = 30.1191837, start = 0},
   },
 }
 P.transport["item:deepmoss-egg"] = {
-  hash = "1c1fdf",
-  fullHash = "1c1fdf",
-  text = "Deepmoss Egg. In the Stonetalon Mountains, Deepmoss Eggs draw goblin merchants from Ratchet. Deepmoss spiders lay clustered clutches in the crags and canyons, and Booty Bay pirates prize them for omelettes. Deepmoss spiders nest across the Stonetalon Mountains, especially in Sishir Canyon and beneath the surviving trees of Windshear Crag. They leave clustered clutches of viable eggs in thick webbed sacks, sheltered by damp mountain moss. Most travelers have little use for them, but goblin traders see a chance to profit. Booty Bay has taken to spider egg omelettes, an eccentric culinary fad among wealthy pirates and adventurous diners. Local supplies cannot satisfy their appetite, so Mebok Mizzyrix of Ratchet arranges shipments through Wharfmaster Dizzywig. Collectors brave Stonetalon's venomous broods for fresh clutches, which become valuable cargo.",
+  hash = "e3fbde",
+  fullHash = "e3fbde",
+  text = "Deepmoss Egg. In the Stonetalon Mountains, Deepmoss Eggs draw goblin merchants from Ratchet. Deepmoss spiders lay clustered clutches in the crags and canyons, and Booty Bay pirates prize them for omelettes. Deepmoss spiders nest across the Stonetalon Mountains, especially in Sishir Canyon and beneath the surviving trees of Windshear Crag. There, they leave clustered clutches of viable eggs in thick webbed sacks, sheltered by damp mountain moss. Most travelers have little use for them, but goblin traders see a chance to profit. Booty Bay has taken to spider egg omelettes, an eccentric fad among wealthy pirates and adventurous diners. Local supplies cannot satisfy their appetite, so Mebok Mizzyrix of Ratchet arranges shipments through Wharfmaster Dizzywig. Collectors brave Stonetalon's venomous broods for fresh clutches, and the eggs become valuable cargo.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_deepmoss-egg-76c3b67593a8357063ea/1-0000.mp3", duration = 53.2114286, start = 0},
+    {file = "Audio/Transport/full_item_deepmoss-egg-e37ea8da1a0b08e8d258/1-0000.mp3", duration = 54.282449, start = 0},
   },
 }
 P.transport["item:defias-docket"] = {
@@ -1218,11 +1218,11 @@ P.transport["item:delivery-to-mathias"] = {
   },
 }
 P.transport["item:deviate-hide"] = {
-  hash = "825fc9",
-  fullHash = "825fc9",
-  text = "Deviate Hide. Deviate Hides are the mutated skins stripped from the beasts dwelling within the Wailing Caverns. Warped by the corrupting dream of the druid Naralex, these otherworldly pelts are sought by druids looking to repurpose the nightmare's taint into durable leather goods. When the night elf druid Naralex entered his deep slumber beneath the Barrens, his dream turned into an Emerald Nightmare that warped the local cavern ecology. The beasts lurking in the depths transformed into unnatural deviate predators with tough, mutated hides. While inherently touched by evil, these pelts possess unusual, supple resilience that makes them uniquely suited for leathercrafting. Nalpak, perched high above the cavern mouth in the skull-shaped rock formation, collects these hides to study their properties and fashion them into sturdy utility packs.",
+  hash = "0eb8d4",
+  fullHash = "0eb8d4",
+  text = "Deviate Hide. In the Wailing Caverns, Deviate Hide bears the mark of Naralex's dream. Druids seek to turn its taint to useful leather goods. Naralex's slumber beneath the Barrens changed the beasts of the Wailing Caverns. The night elf druid's dream became an Emerald Nightmare, and deviate predators arose with tough, mutated hides. Their pelts carry evil, yet remain supple and resilient for leathercrafting.\n\nNalpak gathers the hides from his perch high above the cavern mouth, in a skull-shaped rock formation. He studies their properties and fashions them into sturdy utility packs.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_deviate-hide-41378868a00c00a86b66/1-0000.mp3", duration = 50.4163265, start = 0},
+    {file = "Audio/Transport/full_item_deviate-hide-de5d2c9273e767af147d/1-0000.mp3", duration = 37.9297959, start = 0},
   },
 }
 P.transport["item:devlin-s-remains"] = {
@@ -1234,19 +1234,19 @@ P.transport["item:devlin-s-remains"] = {
   },
 }
 P.transport["item:dirt-caked-pendant"] = {
-  hash = "6a7547",
-  fullHash = "6a7547",
-  text = "Dirt-Caked Pendant. In the Barrens, a captive orc gives up the Dirt-Caked Pendant he carried. The keepsake reaches Gan'rul Bloodeye in Orgrimmar, where it is used to draw a succubus.",
+  hash = "6d82a7",
+  fullHash = "6d82a7",
+  text = "Dirt-Caked Pendant. In the Barrens, Dogran gives up the Dirt-Caked Pendant he carried. It reaches Gan'rul Bloodeye in Orgrimmar, where the keepsake is used to draw a succubus.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_dirt-caked-pendant-0dcd77cb4e1bf388dc78/1-0000.mp3", duration = 10.6840816, start = 0},
+    {file = "Audio/Transport/full_item_dirt-caked-pendant-d9063a3f24154c6d3f24/1-0000.mp3", duration = 10.4489796, start = 0},
   },
 }
 P.transport["item:disarming-colloid"] = {
-  hash = "b98950",
-  fullHash = "b98950",
-  text = "Disarming Colloid. At the Stonewrought Dam, Disarming Colloid could keep Seaforium from exploding when wet. Ashlan Stonesmirk provides it in the Wetlands for a mixture that can neutralize the powder. Ashlan Stonesmirk recognized the powder left by Dark Iron sappers at the Stonewrought Dam in Loch Modan as Seaforium. Its scent and fine silver crystals gave it away. The powder is harmless while dry, but moisture makes it immensely destructive, a grave danger at the waterlogged dam. Stonesmirk provided Disarming Colloid to stop the reaction before detonation. Mixed with lurker venom, crushed Mo'grosh crystal, and a crocolisk tear, the colloid neutralizes Seaforium's explosive properties.",
+  hash = "75f2eb",
+  fullHash = "75f2eb",
+  text = "Disarming Colloid. At the Stonewrought Dam, Disarming Colloid may keep Seaforium from exploding when wet. Ashlan Stonesmirk provides it in the Wetlands to neutralize the powder. At Stonewrought Dam in Loch Modan, Ashlan Stonesmirk recognizes the powder left by Dark Iron sappers as Seaforium. Its scent and fine silver crystals give it away. Dry, the powder is harmless. Moisture makes it immensely destructive, a grave danger at the waterlogged dam.\n\nStonesmirk provides Disarming Colloid to stop the reaction before detonation. Mixed with lurker venom, crushed Mo'grosh crystal, and a crocolisk tear, the colloid neutralizes Seaforium's explosive properties.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_disarming-colloid-2e0a937286d280952614/1-0000.mp3", duration = 43.8595918, start = 0},
+    {file = "Audio/Transport/full_item_disarming-colloid-3823182a4a47e26999fa/1-0000.mp3", duration = 43.3632653, start = 0},
   },
 }
 P.transport["item:disarming-mixture"] = {
@@ -1258,51 +1258,51 @@ P.transport["item:disarming-mixture"] = {
   },
 }
 P.transport["item:divined-scroll"] = {
-  hash = "97fc38",
-  fullHash = "97fc38",
-  text = "Divined Scroll. At Silverwind Refuge, the Divined Scroll can expose the mage behind Ashenvale's troubled waters. Night elves use magic from intact water elemental bracers to reveal the summoner's identity. Mystral Lake's tainted waters trouble the Sentinels guarding Ashenvale. Sentinel Velene Starstrike gives travelers an uncharged divining scroll to trace whoever manipulates the water elementals infesting the lake. Gather intact bracers from slain elementals and use them as an arcane reagent; their latent bindings pass into the parchment. The Divined Scroll then reveals the magical signature of the rogue wizard behind the infestation.",
+  hash = "6767ed",
+  fullHash = "6767ed",
+  text = "Divined Scroll. At Silverwind Refuge, the Divined Scroll helps the Sentinels trace what taints Mystral Lake. Intact water elemental bracers lend their magic to reveal the summoner’s identity. Mystral Lake’s tainted waters trouble the Sentinels guarding Ashenvale. Sentinel Velene Starstrike gives travelers a blank divining scroll to trace whoever controls the water elementals infesting the lake. Gather intact bracers from the slain elementals and use them as an arcane reagent. Their lingering bindings pass into the parchment, and the Divined Scroll reveals the rogue wizard’s magical signature.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_divined-scroll-5aa69b97304c53e7ad78/1-0000.mp3", duration = 40.4114286, start = 0},
+    {file = "Audio/Transport/full_item_divined-scroll-a83b172dc6963f524154/1-0000.mp3", duration = 36.7281633, start = 0},
   },
 }
 P.transport["item:divining-scroll"] = {
-  hash = "9b3c16",
-  fullHash = "9b3c16",
-  text = "Divining Scroll. At Silverwind Refuge, Sentinel Velene Starstrike gives investigators the Divining Scroll to trace the corrupted elementals to their creator. Corrupt water elementals rise from Ashenvale’s pools, and the Sentinels know the disturbance is unnatural. Sentinel Velene Starstrike obtains a scroll to find who is responsible. With intact elemental bracers as a focus, its magic draws out the summoner’s signature. The blank parchment becomes a Divined Scroll and names the guilty party.",
+  hash = "5aca69",
+  fullHash = "5aca69",
+  text = "Divining Scroll. At Silverwind Refuge, Sentinel Velene Starstrike gives investigators the Divining Scroll to find who summoned the corrupted elementals. Corrupt water elementals rise from Ashenvale’s pools, and the Sentinels know the disturbance is unnatural. Sentinel Velene Starstrike obtains a scroll to find who is responsible. With five intact elemental bracers as a focus, its magic draws out the summoner’s signature. The blank parchment becomes a Divined Scroll and names the guilty party.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_divining-scroll-12c0af4e975cc0eb2a87/1-0000.mp3", duration = 29.0742857, start = 0},
+    {file = "Audio/Transport/full_item_divining-scroll-ff7a058f06e94baf5b96/1-0000.mp3", duration = 30.2497959, start = 0},
   },
 }
 P.transport["item:dogran-s-pendant"] = {
-  hash = "2c1b20",
-  fullHash = "2c1b20",
-  text = "Dogran's Pendant. Dogran's Pendant draws a succubus toward the warlocks of Orgrimmar. Dogran, a wounded orc, carries it while separated from his mate, Zankaja. In the Cleft of Shadow, warlocks turn the sorrow bound to it into a lure. Dogran's Pendant carries the sorrow of an orc separated from Zankaja. Captivity and crippling wounds have overshadowed their love. The warlocks of the Cleft of Shadow know that demons such as succubi prey on love, yearning, and vulnerability. They use the pendant's grief to draw a succubus across the Twisting Nether and into Neeru Fireblade's summoning circle.",
+  hash = "bb6ae1",
+  fullHash = "bb6ae1",
+  text = "Dogran's Pendant. In the Cleft of Shadow, Dogran's Pendant draws a succubus to the warlocks of Orgrimmar. Wounded and apart from his mate, Zankaja, Dogran bears the sorrow bound to it. Dogran's Pendant bears the sorrow of an orc parted from Zankaja. Captivity and crippling wounds have darkened their love. The warlocks of the Cleft of Shadow know that succubi prey on love, yearning, and vulnerability. So they use the pendant's grief to draw a succubus across the Twisting Nether and into Neeru Fireblade's summoning circle.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_dogran-s-pendant-24b507794fbc41ec7cbb/1-0000.mp3", duration = 36.9632653, start = 0},
+    {file = "Audio/Transport/full_item_dogran-s-pendant-84083cab72ca6f7323e4/1-0000.mp3", duration = 34.6122449, start = 0},
   },
 }
 P.transport["item:dolanaar-delivery"] = {
-  hash = "24a9f4",
-  fullHash = "24a9f4",
-  text = "Dolanaar Delivery. In Shadowglen, young travelers carry harvested herbs south to Dolanaar. Porthannius entrusts them with the bundle for Innkeeper Keldamyr. Fresh herbs from Aldrassil are bound for Dolanaar. Porthannius is occupied with matters among the druids of Shadowglen, so he entrusts the bundle to young travelers heading south along the road. They carry it to Innkeeper Keldamyr. The parcel brings you to Dolanaar's inn, where Keldamyr receives it with gratitude. The inn offers weary travelers rest, peace of mind, and sanctuary before they venture deeper into Teldrassil.",
+  hash = "c7c96c",
+  fullHash = "c7c96c",
+  text = "Dolanaar Delivery. In Shadowglen, fresh herbs are bound for Dolanaar. Porthannius entrusts the bundle to young travelers for Innkeeper Keldamyr. Fresh herbs gathered in Aldrassil must reach Dolanaar. Porthannius is occupied with the druids of Shadowglen, so he gives the bundle to young travelers heading south along the road. They carry it to Innkeeper Keldamyr. At Dolanaar's inn, Keldamyr receives the parcel with gratitude. The inn offers weary travelers rest, peace of mind, and sanctuary before they venture deeper into Teldrassil.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_dolanaar-delivery-3ff19239c54376a47f45/1-0000.mp3", duration = 34.9779592, start = 0},
+    {file = "Audio/Transport/full_item_dolanaar-delivery-a8f0bd3e1a34a68b78e9/1-0000.mp3", duration = 34.9518367, start = 0},
   },
 }
 P.transport["item:dragonmaw-war-banner"] = {
-  hash = "c063ba",
-  fullHash = "c063ba",
-  text = "Dragonmaw War Banner. Dragonmaw War Banners rise over orc encampments in the Wetlands. Their clan markings give the dwarven defenders of Menethil Harbor proof of the growing threat. After the Second War, the Dragonmaw clan was shattered when they lost control of their enslaved red dragons. The enraged drakes turned on their captors and drove the survivors from Grim Batol into the eastern hills. Now the remaining orcs gather strength under Chieftain Nek'rosh and raise their banners over camps northeast of Menethil Harbor. Those rough standards mark their defiance and threaten the settlements in the marsh. Captain Stoutfist at Menethil Harbor sends Alliance adventurers into the marsh camps to bring back Dragonmaw banners. Raiders, centurions, and bone-warders carry these trophies, which confirm to the dwarven garrison that the camps are being broken before the clan can launch coordinated raids.",
+  hash = "d9ec05",
+  fullHash = "d9ec05",
+  text = "Dragonmaw War Banner. Dragonmaw banners now rise over the orc camps in the Wetlands. Their markings show the dwarven defenders of Menethil Harbor how the threat is growing. After the Second War, the Dragonmaw clan broke apart when its orcs lost control of their enslaved red dragons. The enraged drakes turned on their captors and drove the survivors from Grim Batol into the eastern hills. Now the remaining orcs gather strength under Chieftain Nek'rosh. Their banners rise over camps northeast of Menethil Harbor, warning the marsh settlements of their defiance. Captain Stoutfist at Menethil Harbor sends Alliance adventurers into the marsh camps to bring back Dragonmaw banners. Raiders, centurions, and bone-warders carry these trophies. They prove to the dwarven garrison that the camps are being broken before the clan can launch coordinated raids.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_dragonmaw-war-banner-47ec36d6171b97c2bce9/1-0000.mp3", duration = 52.48, start = 0},
+    {file = "Audio/Transport/full_item_dragonmaw-war-banner-b868797038ad9cb63872/1-0000.mp3", duration = 52.8979592, start = 0},
   },
 }
 P.transport["item:dried-seeds"] = {
-  hash = "736e32",
-  fullHash = "736e32",
-  text = "Dried Seeds. At the Crossroads, Tonga Runetotem gives travelers Dried Seeds to test the life-giving power beneath the Barrens' waters.",
+  hash = "a3eb89",
+  fullHash = "a3eb89",
+  text = "Dried Seeds. At the Crossroads, Tonga Runetotem gives travelers Dried Seeds to test the power beneath the Barrens' waters.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_dried-seeds-0ba14ee9eb679169727a/1-0000.mp3", duration = 8.67265306, start = 0},
+    {file = "Audio/Transport/full_item_dried-seeds-2183deda71b569f46a77/1-0000.mp3", duration = 7.49714286, start = 0},
   },
 }
 P.transport["item:durnan-s-scalding-mornbrew"] = {
@@ -1314,11 +1314,11 @@ P.transport["item:durnan-s-scalding-mornbrew"] = {
   },
 }
 P.transport["item:durotar-tiger-fur"] = {
-  hash = "0fc8e6",
-  fullHash = "0fc8e6",
-  text = "Durotar Tiger Fur. Across the Echo Isles off Durotar's southeastern coast, tigers supply fur for the Darkspear, whose refugee population keeps growing. The trolls use the pelts for blankets, tents, and armor. In Sen'jin Village, the Darkspear must make scarce supplies last. They let the local tigers thrive until their growing needs call for a cull. Trolls cure the thick hides into goods their settlement needs, including protective armor and warm blankets for changing seasonal weather. The Echo Isles lie south of Durotar, across open water. The Darkspear once called the archipelago home, until the witch doctor Zalazane drove them out. Hunters face dangers from Zalazane's thralls and from tigers waiting among the thick foliage. Experienced hunters such as Vel'rin Fang speak of spending entire days motionless in the jungle brush to secure a single clean kill.",
+  hash = "ed6f2e",
+  fullHash = "ed6f2e",
+  text = "Durotar Tiger Fur. Across the Echo Isles off Durotar's southeastern coast, Durotar Tiger Fur helps the growing Darkspear settlement endure. The trolls make blankets, tents, and armor from the pelts. In Sen'jin Village, the Darkspear must make scarce supplies last. So they let local tigers thrive until their needs call for a cull. Trolls cure the thick hides into goods their settlement needs, including armor and warm blankets for changing seasonal weather. The Echo Isles lie south of Durotar, across open water. The Darkspear once called the islands home, until the witch doctor Zalazane drove them out. Hunters face danger from Zalazane's thralls and from tigers among the thick foliage. Experienced hunters such as Vel'rin Fang speak of spending entire days motionless in the jungle brush to secure a single clean kill.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_durotar-tiger-fur-e3443057590673f6699c/1-0000.mp3", duration = 54.2563265, start = 0},
+    {file = "Audio/Transport/full_item_durotar-tiger-fur-384bb40914ec5ebfa98a/1-0000.mp3", duration = 54.0734694, start = 0},
   },
 }
 P.transport["item:duskbat-wing"] = {
@@ -1330,11 +1330,11 @@ P.transport["item:duskbat-wing"] = {
   },
 }
 P.transport["item:dusky-crab-cakes"] = {
-  hash = "ac2517",
-  fullHash = "ac2517",
-  text = "Dusky Crab Cakes. In Darkshire, Chef Grual prepares Dusky Crab Cakes for the hungry Jitters. The dish is a local delicacy, and Jitters finds it exquisite.",
+  hash = "5df351",
+  fullHash = "5df351",
+  text = "Dusky Crab Cakes. In Darkshire, Chef Grual makes Dusky Crab Cakes for the hungry Jitters. Jitters finds the local delicacy exquisite.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_dusky-crab-cakes-96657598e78aa8892155/1-0000.mp3", duration = 10.6579592, start = 0},
+    {file = "Audio/Transport/full_item_dusky-crab-cakes-1ad4e21a28b23c76311d/1-0000.mp3", duration = 8.77714286, start = 0},
   },
 }
 P.transport["item:dust-devil-debris"] = {
@@ -1346,35 +1346,35 @@ P.transport["item:dust-devil-debris"] = {
   },
 }
 P.transport["item:dwarven-tinder"] = {
-  hash = "066739",
-  fullHash = "066739",
-  text = "Dwarven Tinder. In the Wetlands, Dwarven Tinder gives Alliance saboteurs a way to burn Dragonmaw siege engines before they reach Menethil Harbor. When Alliance scouts found Chieftain Nek'rosh's heavy catapults inside the Dragonmaw encampment, Menethil Harbor faced a crisis. Fighting in Dun Algaz had cut off the harbor from southern reinforcements, and its defenders could not withstand a long siege. They chose to sabotage the catapults before they could be used. Volunteers carrying Dwarven Tinder into orcish territory could light it with a struck spark. Its flames burned through the reinforced wooden engines in minutes.",
+  hash = "75b123",
+  fullHash = "75b123",
+  text = "Dwarven Tinder. In the Wetlands, Alliance saboteurs carry Dwarven Tinder to burn Dragonmaw siege engines before they reach Menethil Harbor. Alliance scouts found Chieftain Nek'rosh's heavy catapults in the Dragonmaw encampment, and Menethil Harbor faced a crisis. Fighting in Dun Algaz had cut the harbor off from southern reinforcements. Its defenders could not withstand a long siege, so they chose to sabotage the catapults before they could be used.\n\nVolunteers carried Dwarven Tinder into orcish territory and lit it with a struck spark. Its flames burned through the reinforced wooden engines in minutes.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_dwarven-tinder-dd60ebca9977c0abc1a5/1-0000.mp3", duration = 36.4146939, start = 0},
+    {file = "Audio/Transport/full_item_dwarven-tinder-21e3915ea3d582b3ce59/1-0000.mp3", duration = 36.9371429, start = 0},
   },
 }
 P.transport["item:ear-of-balgaras"] = {
-  hash = "bcb1d7",
-  fullHash = "bcb1d7",
-  text = "Ear of Balgaras. At Dun Modr, Balgaras the Foul's ear marks the warlock's end. Recovered from the Dark Iron commander's corpse, it gives Ironforge's mountaineers proof of his death. Balgaras the Foul commanded the Dark Iron assault on Dun Modr. The invaders sabotaged the Thandol Span and destroyed the local dwarven garrison, leaving the outpost in ruins. A scheming warlock, Balgaras directed his troops from the shadows and shunned personal combat. Longbraid the Grim, the mountain king's officer stationed outside the ruins, wants proof that the ringleader has fallen. Balgaras's severed ear confirms the warlock's reign at the northern border is over. Dun Modr's fall cost Longbraid his brother and dozens of stout soldiers in the collapse of the West Bridge. The ear cannot mend the span or revive the fallen. With Balgaras unable to direct them, the surviving Dark Iron forces scattered through the northern Wetlands become easier for Ironforge's scouts to contain before another commander arrives from the south.",
+  hash = "531d72",
+  fullHash = "531d72",
+  text = "Ear of Balgaras. At Dun Modr, the ear of Balgaras proves the warlock’s command has ended. Ironforge’s mountaineers recover it from the Dark Iron commander’s corpse. Balgaras the Foul led the Dark Iron assault on Dun Modr. His forces sabotaged the Thandol Span and destroyed the dwarven garrison, leaving the outpost in ruins. A scheming warlock, Balgaras directed his troops from the shadows and avoided personal combat. Longbraid the Grim, the mountain king’s officer outside the ruins, wants proof that the ringleader has fallen. Balgaras’s severed ear shows his rule at the northern border is over. Dun Modr’s fall cost Longbraid his brother and dozens of stout soldiers when the West Bridge collapsed. The ear cannot mend the span or bring back the dead. Without Balgaras to direct them, the surviving Dark Iron forces scattered through the northern Wetlands are easier for Ironforge’s scouts to contain before another commander arrives from the south.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_ear-of-balgaras-c833f5ef636c29484a2e/1-0000.mp3", duration = 65.28, start = 0},
+    {file = "Audio/Transport/full_item_ear-of-balgaras-f88411a88ac21c089911/1-0000.mp3", duration = 60.1338776, start = 0},
   },
 }
 P.transport["item:ebonlocke-s-response-to-solomon"] = {
-  hash = "17a9ca",
-  fullHash = "17a9ca",
-  text = "Ebonlocke's Response to Solomon. Lord Ello Ebonlocke sends Solomon a refusal from Darkshire. His letter rejects the plea for Night Watch aid in Redridge. Magistrate Solomon asked Duskwood for reinforcements against the blackrock orcs after Stormwind ignored his petitions. Lord Ello Ebonlocke answers with anger and no promise of aid. He reminds Solomon that the Night Watch exists because Stormwind abandoned Darkshire when corrupting magic first gripped the woods. If its defenders leave to help Redridge, Duskwood will be left defenceless and fall to evil before the militia reaches the forest's edge.",
+  hash = "2e452f",
+  fullHash = "2e452f",
+  text = "Ebonlocke's Response to Solomon. In Darkshire, Lord Ello Ebonlocke refuses Solomon's plea for aid in Redridge. His letter says the Night Watch cannot leave Duskwood undefended. Magistrate Solomon asked Duskwood for reinforcements against the blackrock orcs after Stormwind ignored his petitions. Lord Ello Ebonlocke answers in anger and promises no aid. He reminds Solomon that the Night Watch formed because Stormwind abandoned Darkshire when corrupting magic first gripped the woods. If its defenders march to Redridge, Duskwood will be left defenceless and fall to evil before the militia reaches the forest's edge.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_ebonlocke-s-response-to-solomon-022e02810aa76875c3f2/1-0000.mp3", duration = 36.4146939, start = 0},
+    {file = "Audio/Transport/full_item_ebonlocke-s-response-to-solomon-f814ec39b27d60d7926a/1-0000.mp3", duration = 35.9706122, start = 0},
   },
 }
 P.transport["item:echeyakee-s-hide"] = {
-  hash = "f1742a",
-  fullHash = "f1742a",
-  text = "Echeyakee's Hide. At the Crossroads, Sergra Darkthorn awaits the pale hide of Whitemist, the legendary white lion of the Barrens. Tauren honor the beast as an embodiment of mercy and death, while hunters bring the pelt as proof of their prowess. Echeyakee means Whitemist in the Taur-ahe tongue. The lion earned that name among the savannah's predators for his stealthy white coat and swift kills, ending prey's lives before fear or pain could take hold. A hunter summons the elusive cat near the giant kodo bones northeast of the Crossroads with a ceremonial horn, then claims his pelt. Bringing it to Sergra Darkthorn proves martial skill and honors Whitemist's silent, merciful end.",
+  hash = "d8b302",
+  fullHash = "d8b302",
+  text = "Echeyakee's Hide. At the Crossroads, Sergra Darkthorn awaits Echeyakee's Hide, taken from the legendary white lion of the Barrens. Tauren honor Whitemist as an embodiment of mercy and death, while hunters bring his pelt as proof of their prowess. Echeyakee means Whitemist in the Taur-ahe tongue. Among the savannah's predators, the lion earned that name for his stealthy white coat and swift kills. He ended his prey's lives before fear or pain could take hold.\n\nA hunter summons the elusive cat near the giant kodo bones northeast of the Crossroads with a ceremonial horn, then claims his pelt. Bringing it to Sergra Darkthorn proves martial skill and honors Whitemist's silent, merciful end.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_echeyakee-s-hide-d39c9523c3ef6d45ee71/1-0000.mp3", duration = 43.284898, start = 0},
+    {file = "Audio/Transport/full_item_echeyakee-s-hide-3a0199adedcb29d9ad0e/1-0000.mp3", duration = 44.3820408, start = 0},
   },
 }
 P.transport["item:egalin-s-grimoire"] = {
@@ -1386,35 +1386,35 @@ P.transport["item:egalin-s-grimoire"] = {
   },
 }
 P.transport["item:electropeller"] = {
-  hash = "b708ff",
-  fullHash = "b708ff",
-  text = "Electropeller. In Darkshore, Wizbang Cranktoggle's electropellers lie scattered in freshwater rivers after a failed night outing. Wizbang Cranktoggle built the electropeller to propel an experimental exploding duck decoy. The gnome inventor works out of Auberdine. While scouting Darkshore's waterways after too many drinks, he blacked out. Hours later, he woke with singed hair and an empty pack. His electropellers had tumbled into Darkshore's freshwater currents, where they remain scattered through rivers and lakes until patient anglers recover them.",
+  hash = "457672",
+  fullHash = "457672",
+  text = "Electropeller. In Darkshore, Electropeller parts lie scattered through freshwater after a night outing went wrong. Wizbang Cranktoggle built the electropellers to propel an experimental exploding duck decoy. The gnome inventor works out of Auberdine. After too many drinks, he went scouting along Darkshore's waterways and blacked out. Hours later, he woke with singed hair and an empty pack. His electropellers had tumbled into the freshwater currents, where they remain scattered through rivers and lakes until patient anglers recover them.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_electropeller-a6d77d4b8e64e3b211a2/1-0000.mp3", duration = 32.4179592, start = 0},
+    {file = "Audio/Transport/full_item_electropeller-5a3ecbc69fc894118216/1-0000.mp3", duration = 31.477551, start = 0},
   },
 }
 P.transport["item:elixir-of-pain"] = {
-  hash = "a9f827",
-  fullHash = "a9f827",
-  text = "Elixir of Pain. Forsaken apothecaries at Tarren Mill brew the Elixir of Pain for dangerous experiments. The mixture tests biological agents meant to advance Lady Sylvanas's darker ambitions. The Royal Apothecary Society seeks formulas to strengthen the Forsaken against their mortal neighbors and the Scourge. The Elixir of Pain is one such trial, made with freshly harvested ingredients from around the Hillsbrad Foothills. Its living subjects matter little to its makers; the potion tests volatile substances meant to aid the Dark Lady.",
+  hash = "36b29a",
+  fullHash = "36b29a",
+  text = "Elixir of Pain. At Tarren Mill, Forsaken apothecaries brew the Elixir of Pain for dangerous trials. They test biological agents meant to advance Lady Sylvanas's darker ambitions. The Royal Apothecary Society seeks formulas to strengthen the Forsaken against their mortal neighbors and the Scourge. The Elixir of Pain is one trial, made with freshly gathered ingredients from the Hillsbrad Foothills. Its makers give little thought to the living subjects. They test volatile substances meant to aid the Dark Lady.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_elixir-of-pain-20901970f5f7d6c5eebb/1-0000.mp3", duration = 34.0897959, start = 0},
+    {file = "Audio/Transport/full_item_elixir-of-pain-e9d8c9775f99a8314ff8/1-0000.mp3", duration = 30.6677551, start = 0},
   },
 }
 P.transport["item:elixir-of-suffering"] = {
-  hash = "3df0b5",
-  fullHash = "3df0b5",
-  text = "Elixir of Suffering. In Tarren Mill, Apothecary Lydon brews an experimental draught for the Royal Apothecary Society. Its work aims to create a virulent plague against living humans and the Scourge. Apothecary Lydon gathers raw reagents from the wilderness around ruined Tarren Mill and combines them into toxic draughts. The work follows the Royal Apothecary Society's overarching mandate to formulate a new plague that will exterminate the living and the dead alike. To test the brew's potency, Lydon gives it to his assistant, a frog named Umpi.",
+  hash = "162242",
+  fullHash = "162242",
+  text = "Elixir of Suffering. In Tarren Mill, Apothecary Lydon tests a new draught for the Royal Apothecary Society. The Society seeks a plague that will kill living humans and the Scourge. Around ruined Tarren Mill, Apothecary Lydon gathers raw reagents from the wilderness and mixes them into toxic draughts. His work follows the Royal Apothecary Society's charge to devise a plague that will exterminate the living and the dead alike. To test one brew, Lydon gives it to Umpi, his frog assistant.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_elixir-of-suffering-a653e5482e1ca3a8107d/1-0000.mp3", duration = 34.2465306, start = 0},
+    {file = "Audio/Transport/full_item_elixir-of-suffering-0ffbdce762dda4746aff/1-0000.mp3", duration = 31.477551, start = 0},
   },
 }
 P.transport["item:elune-s-tear"] = {
-  hash = "dc89d4",
-  fullHash = "dc89d4",
-  text = "Elune's Tear. On Ashenvale's central island, Elune's Tear offers night elf healers a sacred means to cleanse corruption and sickness. Elune's Tear rests on a small islet in Iris Lake, east of Astranaar. Night elves believe the stone carries the Moon Goddess's purity. Corruption has turned the lake green, and twisted bog beasts roam its shores. Local herbalists and healers, including Orendil Broadleaf, seek the stone as an emergency remedy when ordinary woodland poultices cannot wash away deep corruption.",
+  hash = "4f19aa",
+  fullHash = "4f19aa",
+  text = "Elune's Tear. In Ashenvale, night elf healers turn to Elune's Tear when sickness and corruption resist ordinary cures. On a small islet in Iris Lake, east of Astranaar, rests a stone the night elves hold sacred. They believe it bears the purity of the Moon Goddess. Corruption has turned the lake green, and twisted bog beasts roam its shores. Local herbalists and healers, among them Orendil Broadleaf, seek the stone when woodland poultices cannot cleanse deep corruption.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_elune-s-tear-18ee395626b8b49755fd/1-0000.mp3", duration = 30.4065306, start = 0},
+    {file = "Audio/Transport/full_item_elune-s-tear-1818a7cb35e17d65b844/1-0000.mp3", duration = 31.242449, start = 0},
   },
 }
 P.transport["item:embalming-ichor"] = {
@@ -1426,11 +1426,11 @@ P.transport["item:embalming-ichor"] = {
   },
 }
 P.transport["item:emerald-dreamcatcher"] = {
-  hash = "06a941",
-  fullHash = "06a941",
-  text = "Emerald Dreamcatcher. In Starbreeze Village, the Emerald Dreamcatcher lies forgotten after the Gnarlpine furbolgs drove out its people. Druids of Ban’ethil Barrow Den gave it to Tallonkai Swiftroot, hoping it would draw vigor from the Emerald Dream. Gaerolas Talvethren, the druidic warden of Ban’ethil Barrow Den, oversaw the making of the Emerald Dreamcatcher. The druids gave the enchanted amulet to only a chosen few. It draws ambient energy from the Emerald Dream, bringing fortune and protection to whoever carries it. When the maddened Gnarlpine furbolgs overran Starbreeze Village, the amulet remained inside a dresser, stranded in hostile, corrupted territory.",
+  hash = "d3326b",
+  fullHash = "d3326b",
+  text = "Emerald Dreamcatcher. In Starbreeze Village, the Emerald Dreamcatcher lies forgotten after the Gnarlpine furbolgs drove its people away. Druids of Ban’ethil Barrow Den gave the amulet to Tallonkai Swiftroot, hoping it would draw vigor from the Emerald Dream. Gaerolas Talvethren, the druidic warden of Ban’ethil Barrow Den, oversaw the making of the Emerald Dreamcatcher. The druids gave this enchanted amulet to only a chosen few. It draws energy from the Emerald Dream, bringing fortune and protection to its bearer. When maddened Gnarlpine furbolgs overran Starbreeze Village, the amulet stayed in a dresser, left behind in hostile, corrupted territory.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_emerald-dreamcatcher-52188c05482c536b3ab4/1-0000.mp3", duration = 40.5681633, start = 0},
+    {file = "Audio/Transport/full_item_emerald-dreamcatcher-3d02613a11a6ec2108c5/1-0000.mp3", duration = 42.6840816, start = 0},
   },
 }
 P.transport["item:empty-blue-waterskin"] = {
@@ -1442,35 +1442,35 @@ P.transport["item:empty-blue-waterskin"] = {
   },
 }
 P.transport["item:empty-brown-waterskin"] = {
-  hash = "5b1af4",
-  fullHash = "5b1af4",
-  text = "Empty Brown Waterskin. In the Barrens, Brine gives an empty waterskin to a shaman initiate. Brine gives a shaman initiate an empty leather skin for the opening trial of the Call of Water. The initiate must carry it to the watering hole beneath her dwelling and return with it full. The pool is guarded by local quilboar, who prize its water. In the Barrens, where water is scarce, even a small oasis can sustain life and spark violence.",
+  hash = "30d43d",
+  fullHash = "30d43d",
+  text = "Empty Brown Waterskin. Brine gives an empty waterskin to a shaman initiate in the Barrens. Brine gives the shaman initiate an empty leather skin for the opening trial of the Call of Water. The initiate carries it to the watering hole beneath her dwelling, then returns with it full. Local quilboar guard the pool and prize its water. Water is scarce in the Barrens, so even a small oasis can sustain life and spark violence.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_empty-brown-waterskin-bf80aa0f167b88a291fd/1-0000.mp3", duration = 24.6857143, start = 0},
+    {file = "Audio/Transport/full_item_empty-brown-waterskin-ea50d714afe25633fc9a/1-0000.mp3", duration = 24.4506122, start = 0},
   },
 }
 P.transport["item:empty-cleansing-bowl"] = {
-  hash = "a2ca26",
-  fullHash = "a2ca26",
-  text = "Empty Cleansing Bowl. At Auberdine, the Empty Cleansing Bowl carries moonwell water against the Blackwood corruption. Mixed with food samples, the water makes a meal that briefly breaks the satyrs’ demonic sway over the furbolgs. Thundris Windweaver gives the Empty Cleansing Bowl to adventurers in Auberdine to carry sacred water from the local moonwell. The night elves have learned that satyrs use enchanted talismans to drive the northern Blackwood furbolgs into demonic madness. Dip the bowl into the moonwell, then mix the water with nuts, grains, and fruits gathered from the furbolgs. The blessed meal briefly restores the afflicted creatures’ sanity and reveals the satyr overseer responsible.",
+  hash = "64828d",
+  fullHash = "64828d",
+  text = "Empty Cleansing Bowl. In Auberdine, the Empty Cleansing Bowl carries moonwell water against the Blackwood corruption. Mixed with food samples, the water makes a meal that briefly breaks the satyrs’ demonic hold over the furbolgs. In Auberdine, Thundris Windweaver gives adventurers the Empty Cleansing Bowl to carry sacred water from the local moonwell. The night elves have learned that satyrs use enchanted talismans to drive the northern Blackwood furbolgs into demonic madness. Dip the bowl in the moonwell, then mix its water with nuts, grains, and fruits gathered from the furbolgs. The blessed meal briefly restores the afflicted creatures’ sanity and reveals the satyr overseer behind their madness.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_empty-cleansing-bowl-30aa97869db42b23b423/1-0000.mp3", duration = 42.1616327, start = 0},
+    {file = "Audio/Transport/full_item_empty-cleansing-bowl-81050b20d3a15226cf69/1-0000.mp3", duration = 41.7436735, start = 0},
   },
 }
 P.transport["item:empty-cliffspring-falls-sampler"] = {
-  hash = "65dd38",
-  fullHash = "65dd38",
-  text = "Empty Cliffspring Falls Sampler. At Cliffspring Falls in Darkshore, young druids gather water to investigate a poison killing local wildlife. The Cenarion Circle gives them empty samplers for water from the cave mouth. Cliffspring Falls feeds northern Darkshore, so trouble in its headwaters threatens the local wildlife. When a wasting poison began killing the region’s deer, Dendrite Starblaze of the Cenarion Circle gave empty samplers to young druids sent from Moonglade. They must reach the cliffs by the falls and gather water at a cave entrance overrun by hostile naga.",
+  hash = "84fabb",
+  fullHash = "84fabb",
+  text = "Empty Cliffspring Falls Sampler. At Cliffspring Falls in Darkshore, young druids gather water to investigate a poison killing local wildlife. The Cenarion Circle gives them empty samplers for water from the cave mouth. Cliffspring Falls feeds northern Darkshore. Poison in its headwaters puts the local wildlife at risk. When a wasting poison began killing the region’s deer, Dendrite Starblaze of the Cenarion Circle gave empty samplers to young druids from Moonglade. They must gather water at a cave entrance by the falls, overrun by hostile naga.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_empty-cliffspring-falls-sampler-c5743f0a6c493d9e917a/1-0000.mp3", duration = 33.8546939, start = 0},
+    {file = "Audio/Transport/full_item_empty-cliffspring-falls-sampler-d5f4622012d5a989d7a4/1-0000.mp3", duration = 32.3657143, start = 0},
   },
 }
 P.transport["item:empty-dreadmist-peak-sampler"] = {
-  hash = "dcddc6",
-  fullHash = "dcddc6",
-  text = "Empty Dreadmist Peak Sampler. At Dreadmist Peak, druids seek tainted water in an empty Cenarion vessel. The sample may help diagnose and cure the blight spreading among wildlife in the northern Barrens. Dendrite Starblaze suspects the pools atop Dreadmist Peak are at the heart of a sickness afflicting gazelles and unsettling the northern Barrens. The pools influence the weather, and the druid fears they are tied to the spreading blight. He sends druid initiates with empty samplers to brave the mountain heights and draw water from the peak. The Burning Blade, a demon-worshipping cult, now infests the mountain.",
+  hash = "a2aeea",
+  fullHash = "a2aeea",
+  text = "Empty Dreadmist Peak Sampler. At Dreadmist Peak, druids gather water from a tainted pool to learn what is sickening the northern Barrens wildlife. The sample may help Tonga Runetotem find a cure. Dendrite Starblaze suspects the pools atop Dreadmist Peak are tied to a sickness afflicting gazelles and troubling the northern Barrens. The pools influence the weather, and he fears they are spreading the blight. So he sends druid initiates up the mountain with empty samplers to draw water. The Burning Blade, a demon-worshipping cult, now infests the heights.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_empty-dreadmist-peak-sampler-a82f811cd427d129de57/1-0000.mp3", duration = 33.5412245, start = 0},
+    {file = "Audio/Transport/full_item_empty-dreadmist-peak-sampler-184960540a8e9074529c/1-0000.mp3", duration = 32.8359184, start = 0},
   },
 }
 P.transport["item:empty-leaden-collection-phial"] = {
@@ -1482,43 +1482,43 @@ P.transport["item:empty-leaden-collection-phial"] = {
   },
 }
 P.transport["item:empty-red-waterskin"] = {
-  hash = "b41d74",
-  fullHash = "b41d74",
-  text = "Empty Red Waterskin. In Tarren Mill, an empty red waterskin is bound for a well untouched by blight. Brine gives it to shaman initiates for their elemental trials. Brine gives shaman initiates this plain red skin for the Call of Water trials. They carry it across the sea to Tarren Mill in the Hillsbrad Foothills. The Forsaken occupy the town, but its central well still draws fresh spring water. The filled skin brings a sample to Brine, who blends the water into a vial of purest water for the initiate’s trial.",
+  hash = "af950b",
+  fullHash = "af950b",
+  text = "Empty Red Waterskin. In Tarren Mill, the Empty Red Waterskin is bound for a well untouched by blight. Brine gives it to shaman initiates for their elemental trials. Brine gives shaman initiates a plain red skin for the Call of Water trials. They carry it across the sea to Tarren Mill in the Hillsbrad Foothills. The Forsaken occupy the town, yet its central well still draws fresh spring water. The filled skin brings a sample back to Brine, who blends it into a vial of purest water for the initiate’s trial.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_empty-red-waterskin-3c96308fd919121997b2/1-0000.mp3", duration = 31.3991837, start = 0},
+    {file = "Audio/Transport/full_item_empty-red-waterskin-d113783d539dbe172226/1-0000.mp3", duration = 32.1306122, start = 0},
   },
 }
 P.transport["item:empty-sampling-tube"] = {
-  hash = "2d5c6f",
-  fullHash = "2d5c6f",
-  text = "Empty Sampling Tube. Thundris Windweaver gives an Empty Sampling Tube in Auberdine to gather water from the Cliffspring River. Night elf scholars study the taint threatening Darkshore. Darkshore's waterways are turning foul as blight spreads through the wilderness. Thundris Windweaver, an investigator in Auberdine, gives you an empty glass tube to collect water from the Cliffspring River. Take the sample from the pool beneath the first waterfall north of town. Night elf naturalists examine it to learn about the corruption flowing toward Mist's Edge.",
+  hash = "b50757",
+  fullHash = "b50757",
+  text = "Empty Sampling Tube. In Auberdine, Thundris Windweaver gives you an Empty Sampling Tube to test the Cliffspring River. Night elf scholars study the taint threatening Darkshore. Darkshore's waterways are turning foul as blight spreads through the wilderness. In Auberdine, Thundris Windweaver investigates the change. He gives you an empty glass tube for water from the Cliffspring River. Take the sample from the pool beneath the first waterfall north of town. Night elf naturalists will examine it to learn about the corruption flowing toward Mist's Edge.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_empty-sampling-tube-a697d2bbe248d180ab05/1-0000.mp3", duration = 32.0261224, start = 0},
+    {file = "Audio/Transport/full_item_empty-sampling-tube-edaf605685c9f8cf459b/1-0000.mp3", duration = 33.2016327, start = 0},
   },
 }
 P.transport["item:empty-water-tube"] = {
-  hash = "50136e",
-  fullHash = "50136e",
-  text = "Empty Water Tube. In Auberdine, the Empty Water Tube is ready to gather sacred moonwell water for the red crystal on Darkshore’s eastern cliffs. Sentinels and scholars seek pure lunar essence to study the mysterious red crystal along Darkshore’s eastern ridge. Ordinary glass or flasks can contaminate consecrated water, so investigators visiting Auberdine’s moonwell receive this sealed vial for the work. They carry its filled contents up the mountain slopes to learn how the alien mineral responds to Elune’s magic.",
+  hash = "c85e73",
+  fullHash = "c85e73",
+  text = "Empty Water Tube. In Auberdine, the Empty Water Tube is ready to gather sacred moonwell water for the red crystal on Darkshore’s eastern cliffs. Sentinels and scholars seek pure lunar essence to study the mysterious red crystal along Darkshore’s eastern ridge. Ordinary glass or flasks can taint consecrated water, so investigators visiting Auberdine’s moonwell receive this sealed vial. They carry the filled vessel up the mountain slopes to learn how the alien mineral responds to Elune’s magic.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_empty-water-tube-aa51c76851271b54aa21/1-0000.mp3", duration = 29.4661224, start = 0},
+    {file = "Audio/Transport/full_item_empty-water-tube-56bce97ac3f9f6bd439d/1-0000.mp3", duration = 29.3355102, start = 0},
   },
 }
 P.transport["item:enchanted-gaea-seeds"] = {
-  hash = "dc4f00",
-  fullHash = "dc4f00",
-  text = "Enchanted Gaea Seeds. At Sun Rock Retreat, Enchanted Gaea Seeds are prepared for the Charred Vale. Druidic magic gives them strength to take root in ash-choked soil and begin restoring Kalimdor's ravaged land. The Horde's druids are trying to heal the deep scars across Stonetalon Mountains. At Sun Rock Retreat, Tammra Windfield enchants raw Gaea Seeds so they can withstand corruption and elemental blight. Planted in the fertile dirt mounds beneath the Charred Vale's soot, they take root despite the harsh land. Hostile fire elementals and invasive harpies still dominate the vale. Planting the seeds is part of the struggle for Stonetalon's future. Their enchanted husks resist lingering corruption and give native plants a foothold. The returning vegetation is meant to soothe agitated fire elementals, crowd out feral harpies, and counter the deforestation caused by the Venture Company's relentless logging.",
+  hash = "b02ecc",
+  fullHash = "b02ecc",
+  text = "Enchanted Gaea Seeds. At Sun Rock Retreat, Enchanted Gaea Seeds are bound for the Charred Vale. Druidic magic helps them take root in ash-choked soil and begin to heal Kalimdor's ravaged land. Horde druids are working to heal the deep scars across Stonetalon Mountains. At Sun Rock Retreat, Tammra Windfield enchants raw Gaea Seeds to endure corruption and elemental blight. Planted in fertile dirt mounds beneath the Charred Vale's soot, they can take root in harsh ground. Yet hostile fire elementals and invasive harpies still rule the vale. The seeds are part of the struggle for Stonetalon's future. Their enchanted husks resist lingering corruption and give native plants a foothold. That returning growth is meant to soothe agitated fire elementals, crowd out feral harpies, and counter the deforestation wrought by the Venture Company's relentless logging.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_enchanted-gaea-seeds-7dfb95a8019782987e0d/1-0000.mp3", duration = 56.9730612, start = 0},
+    {file = "Audio/Transport/full_item_enchanted-gaea-seeds-4b49e9ad04932b0a9895/1-0000.mp3", duration = 53.8122449, start = 0},
   },
 }
 P.transport["item:enchanted-resonite-crystal"] = {
-  hash = "3ab338",
-  fullHash = "3ab338",
-  text = "Enchanted Resonite Crystal. In Stonetalon, Mor'rogal has altered resonite crystals with shamanic magic. The Enchanted Resonite Crystal is made to break the cask holding Goggeroc. Deep in the caverns of the Stonetalon Mountains, raw resonite crystals carry unusual harmonic and earthen properties. Shaman Mor'rogal sensed danger sleeping inside a sealed underground cask and altered the minerals with his elemental powers. The Enchanted Resonite Crystal can break the reinforced Resonite cask and rouse Goggeroc, a giant Earthen, while he is still dazed from his long sleep.",
+  hash = "33cd7b",
+  fullHash = "33cd7b",
+  text = "Enchanted Resonite Crystal. In Stonetalon, Mor'rogal has changed resonite crystals with shamanic magic. He made the Enchanted Resonite Crystal to break the cask that holds Goggeroc. In the caverns of the Stonetalon Mountains, raw resonite crystals carry unusual harmonic and earthen properties. Shaman Mor'rogal sensed danger within a sealed underground cask, so he changed the crystals with his elemental powers. The Enchanted Resonite Crystal can break the reinforced Resonite cask and rouse Goggeroc, a giant Earthen, while he is still dazed from his long sleep.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_enchanted-resonite-crystal-90d743931abed157a442/1-0000.mp3", duration = 35.604898, start = 0},
+    {file = "Audio/Transport/full_item_enchanted-resonite-crystal-81af4bac953e94d2dea0/1-0000.mp3", duration = 34.6122449, start = 0},
   },
 }
 P.transport["item:encrypted-memorandum"] = {
@@ -1530,11 +1530,11 @@ P.transport["item:encrypted-memorandum"] = {
   },
 }
 P.transport["item:encrypted-parchment"] = {
-  hash = "24f252",
-  fullHash = "24f252",
-  text = "Encrypted Parchment. In the Valley of Trials, Encrypted Parchment guides young orc rogues toward the Den. Gornek hands it to recruits who show promise, and its cipher points them to Rwag, the hidden trainer. Young orcs prove their strength in the Valley of Trials under the open sun. Those who show a gift for stealth, deception, and bladecraft draw different notice. After facing the local wildlife, promising orc rogues receive Encrypted Parchment from Gornek. Its coded words call to those who can read a message meant to stay hidden. The cipher leads a novice into the Den, past the other clan trainers, to find Rwag. The recruit learns there that the Shattered Hand arranged the summons. The order works within the Horde's covert network, and answering the call begins a rogue's training in espionage and shadowcraft.",
+  hash = "efeb6c",
+  fullHash = "efeb6c",
+  text = "Encrypted Parchment. In the Valley of Trials, Encrypted Parchment calls promising young orc rogues to the Den. Gornek gives it to recruits after their first trials, and its cipher points to Rwag, the hidden trainer. In the Valley of Trials, young orcs prove their strength beneath the open sun. Those gifted in stealth, deception, and bladecraft draw a different notice. After facing the local wildlife, promising orc rogues receive Encrypted Parchment from Gornek. Its coded words call to those who can read a message meant to stay hidden. The cipher guides a novice through the Den, past the other clan trainers, to Rwag. There, the recruit learns that the Shattered Hand arranged the summons. The order works within the Horde's covert network. Answering its call begins a rogue's training in espionage and shadowcraft.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_encrypted-parchment-f888ac237275710046ac/1-0000.mp3", duration = 50.964898, start = 0},
+    {file = "Audio/Transport/full_item_encrypted-parchment-bd847e57e1b667403739/1-0000.mp3", duration = 48.3787755, start = 0},
   },
 }
 P.transport["item:encrypted-rune"] = {
@@ -1554,19 +1554,19 @@ P.transport["item:encrypted-scroll"] = {
   },
 }
 P.transport["item:encrypted-sigil"] = {
-  hash = "b34c3b",
-  fullHash = "b34c3b",
-  text = "Encrypted Sigil. In Shadowglen, the Encrypted Sigil carries a summons to newly awakened night elf rogues. Frahun Shadewhisper calls them to begin training as dangers gather around Teldrassil. New night elf scouts and infiltrators in Shadowglen receive the Encrypted Sigil through discreet means. A quiet messenger delivers it on behalf of Frahun Shadewhisper. Its contents are hidden instructions that tell the initiate to report to Frahun near Aldrassil. Reading and delivering the token shows Frahun that an initiate can follow subtle directions and handle covert messages. Frahun uses the summons to explain why rogues matter in an unsettled world. Tensions simmer between the night elves and the distant Horde, but open warfare is not the only danger facing their people. Rogues must gather intelligence across Teldrassil as the Kaldorei’s unseen eyes and blades, and learn to strike before threats take root in the World Tree’s boughs.",
+  hash = "769ba8",
+  fullHash = "769ba8",
+  text = "Encrypted Sigil. In Shadowglen, the Encrypted Sigil calls newly awakened night elf rogues to Frahun Shadewhisper. He begins their training as dangers gather around Teldrassil. New night elf scouts and infiltrators in Shadowglen receive the Encrypted Sigil by discreet means. A quiet messenger brings it on behalf of Frahun Shadewhisper. Its hidden instructions direct each initiate to report to Frahun near Aldrassil. By reading and delivering the token, an initiate shows they can follow subtle directions and carry covert messages. Frahun explains why rogues matter in an unsettled world. Tensions simmer between the night elves and the distant Horde, yet open warfare is not their only danger. Rogues must gather intelligence across Teldrassil as the Kaldorei’s unseen eyes and blades. They must learn to strike before threats take root in the World Tree’s boughs.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_encrypted-sigil-ede9ca6ef8bd509d8e81/1-0000.mp3", duration = 55.2228571, start = 0},
+    {file = "Audio/Transport/full_item_encrypted-sigil-aa2002121ded4d4a7e60/1-0000.mp3", duration = 54.282449, start = 0},
   },
 }
 P.transport["item:encrypted-tablet"] = {
-  hash = "66491c",
-  fullHash = "66491c",
-  text = "Encrypted Tablet. In the Valley of Trials, the Encrypted Tablet sends novice troll rogues to Rwag. The rogue trainer inscribes its coded message and keeps his post inside the Den. Novice troll rogues receive the Encrypted Tablet when they arrive in the Valley of Trials. Its ciphered words direct them to Rwag, an orc trainer who lives in the Den’s shaded caves. The slate keeps the local shadow operatives’ business discreet while testing whether new recruits can understand its message. Deciphering the tablet brings recruits into contact with the Horde’s wider shadow network. When they report to Rwag, scouts learn that syndicates such as the Shattered Hand watch their progress. The syndicates rely on valley trainers to judge whether prospective cutpurses, spies, and assassins are sharp enough to serve the new nation.",
+  hash = "f0ecb0",
+  fullHash = "f0ecb0",
+  text = "Encrypted Tablet. In the Valley of Trials, a coded tablet sends novice troll rogues to Rwag. The rogue trainer inscribes the message and keeps his post inside the Den. Novice troll rogues receive the Encrypted Tablet when they reach the Valley of Trials. Its coded words direct them to Rwag, an orc trainer who lives in the Den’s shaded caves. The slate keeps the local shadow operatives’ business discreet and tests whether new recruits can understand its message. The tablet brings recruits into contact with the Horde’s wider shadow network. When they report to Rwag, scouts learn that syndicates such as the Shattered Hand watch their progress. These syndicates rely on valley trainers to judge whether prospective cutpurses, spies, and assassins are sharp enough to serve the new nation.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_encrypted-tablet-255a5079b4efd9b43bc2/1-0000.mp3", duration = 47.7779592, start = 0},
+    {file = "Audio/Transport/full_item_encrypted-tablet-449fe7c5d5f44f13b20f/1-0000.mp3", duration = 47.2816327, start = 0},
   },
 }
 P.transport["item:essence-of-nightlash"] = {
@@ -1594,11 +1594,11 @@ P.transport["item:etched-note"] = {
   },
 }
 P.transport["item:etched-parchment"] = {
-  hash = "4d7286",
-  fullHash = "4d7286",
-  text = "Etched Parchment. Gornek gives hunters in the Valley of Trials a summons from Jen'shan. The Etched Parchment points them toward their first lessons in Durotar. Young orcs and Darkspear trolls begin their rites in the Valley of Trials. As recruits prove themselves against the local vermin, Gornek guides them toward their calling. He gives the Etched Parchment to those who will wield bow, gun, and fang. Its message comes from Jen'shan, a skilled hunter trainer seeking fresh eyes and steady hands. Taking the parchment to Jen'shan begins a hunter's training in Durotar. She teaches that the wild path takes dedication: mastering the beasts of the desert demands as much effort as an arcanist's magic or a shaman's work with the spirits. Her summons brings new hunters to lessons in marksmanship and wilderness survival.",
+  hash = "cd364b",
+  fullHash = "cd364b",
+  text = "Etched Parchment. In the Valley of Trials, Gornek sends new hunters to Jen'shan for their first lessons in Durotar. Young orcs and Darkspear trolls begin their rites in the Valley of Trials. As recruits prove themselves against local vermin, Gornek helps them find their calling. He gives the Etched Parchment to those who will wield bow, gun, and fang. Its message comes from Jen'shan, a skilled hunter trainer who seeks fresh eyes and steady hands. Taking the parchment to Jen'shan begins a hunter's training in Durotar. She teaches that the wild path demands dedication. Mastering the beasts of the desert takes as much effort as an arcanist's magic or a shaman's work with the spirits. Her summons brings new hunters to lessons in marksmanship and wilderness survival.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_etched-parchment-1a904b5e9e1c4dddf8b7/1-0000.mp3", duration = 50.3379592, start = 0},
+    {file = "Audio/Transport/full_item_etched-parchment-1a9045916ecdca979665/1-0000.mp3", duration = 47.7257143, start = 0},
   },
 }
 P.transport["item:etched-rune"] = {
@@ -1610,43 +1610,43 @@ P.transport["item:etched-rune"] = {
   },
 }
 P.transport["item:etched-sigil"] = {
-  hash = "6b4e7a",
-  fullHash = "6b4e7a",
-  text = "Etched Sigil. In Shadowglen, the Etched Sigil calls new night elf hunters to their trainer. Newly awakened night elf hunters receive the Etched Sigil as they enter Shadowglen. Its carved marks of the hunt carry a welcome and summons from Ayanna Everstride, the hunter trainer who lives high in Aldrassil’s hollowed boughs. The token sends each novice to seek her out and begin instruction in archery, wilderness tracking, and the night elf bond between stalker and beast.",
+  hash = "ef482d",
+  fullHash = "ef482d",
+  text = "Etched Sigil. In Shadowglen, the Etched Sigil calls new night elf hunters to Ayanna Everstride. Newly awakened night elf hunters receive the Etched Sigil when they enter Shadowglen. Its carved marks carry a welcome from Ayanna Everstride, the hunter trainer who lives high in Aldrassil’s hollowed boughs. The sigil sends each novice to seek her out and begin learning archery and wilderness tracking, along with the night elf bond between stalker and beast.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_etched-sigil-99389ebad870d74d69ab/1-0000.mp3", duration = 28.1077551, start = 0},
+    {file = "Audio/Transport/full_item_etched-sigil-b918869257fd45e6aa80/1-0000.mp3", duration = 28.1861224, start = 0},
   },
 }
 P.transport["item:explosive-stick-of-gann"] = {
-  hash = "f22af4",
-  fullHash = "f22af4",
-  text = "Explosive Stick of Gann. In the southern Barrens, Gann Stonespire turns stolen dwarven plans against Bael Modan. He built the charge to sabotage the dwarves’ flying machine. When Prospector Khazgorm led the Ironforge excavation into southern Kalimdor, the dwarves drove the Stonespire tauren from their ancestral village and razed their sacred grounds to build Bael Modan. Gann Stonespire reclaimed Khazgorm’s blueprints to avenge his displaced and fallen kin. He studied the plans and assembled a charge with enough force to wreck heavy machinery.",
+  hash = "9ea548",
+  fullHash = "9ea548",
+  text = "Explosive Stick of Gann. In the southern Barrens, Gann Stonespire turns stolen dwarven plans against Bael Modan. He built a charge to sabotage the dwarves’ flying machine. Prospector Khazgorm led the Ironforge excavation into southern Kalimdor. The dwarves drove the Stonespire tauren from their ancestral village and razed their sacred grounds to build Bael Modan. Gann Stonespire reclaimed Khazgorm’s blueprints to avenge his displaced and fallen kin. He studied the plans and built a charge strong enough to wreck heavy machinery.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_explosive-stick-of-gann-d29e893812d2c4b59420/1-0000.mp3", duration = 32.8881633, start = 0},
+    {file = "Audio/Transport/full_item_explosive-stick-of-gann-159c056eb09199f7b3de/1-0000.mp3", duration = 33.0187755, start = 0},
   },
 }
 P.transport["item:faded-shadowhide-pendant"] = {
-  hash = "c3210b",
-  fullHash = "c3210b",
-  text = "Faded Shadowhide Pendant. A voice now comes from the Faded Shadowhide Pendant, found in the Redridge Mountains. The Shadowhide gnolls wore it to receive orders from Morganth, and the delayed message is a spell cast by Theocritus. The Shadowhide gnolls of the Redridge Mountains follow Morganth and coordinate their movements through enchanted pendants. From his sanctuary at Tower Azora, High Mage Theocritus studied the talismans and devised a spell to breach their magical link. His broadcast took weeks to appear. This faded pendant proves the gnolls’ communication can be intercepted, giving Theocritus a way to disrupt Morganth’s reach.",
+  hash = "3314cf",
+  fullHash = "3314cf",
+  text = "Faded Shadowhide Pendant. In Redridge, a voice now sounds from the Faded Shadowhide Pendant. The Shadowhide gnolls wore it to receive Morganth’s orders, and the voice carries Theocritus’s delayed spell. The Shadowhide gnolls of the Redridge Mountains follow Morganth and use enchanted pendants to coordinate their movements. From his sanctuary at Tower Azora, High Mage Theocritus studied the talismans and devised a spell to break into their link. Weeks passed before his broadcast appeared. Now this faded pendant proves the gnolls’ messages can be intercepted, giving Theocritus a way to hinder Morganth’s reach.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_faded-shadowhide-pendant-9dab83b3a20f26681842/1-0000.mp3", duration = 39.7583673, start = 0},
+    {file = "Audio/Transport/full_item_faded-shadowhide-pendant-437abb20df4750b13f4f/1-0000.mp3", duration = 36.3885714, start = 0},
   },
 }
 P.transport["item:fallen-moonstone"] = {
-  hash = "1243c2",
-  fullHash = "1243c2",
-  text = "Fallen Moonstone. At Fallen Sky Lake in Ashenvale, night elves gather luminous, magically charged Fallen Moonstones from its tranquil waters. Sacred lunar energy gives the stones restorative power that can renew vitality and cure severe frailty. Southeast of Astranaar, Fallen Sky Lake once yielded many stones along its shores and shallows. Night elves prized their restorative magic and lunar blessing when ordinary remedies failed. Gathering them grew dangerous after corrupt Shadethicket bog beasts overran the lake. Their leader, a Shadethicket Oracle, hoarded every stone it found on a small island at the lake’s center, cutting the local Kaldorei off from a vital source of healing.",
+  hash = "97815f",
+  fullHash = "97815f",
+  text = "Fallen Moonstone. At Fallen Sky Lake in Ashenvale, night elves draw stones of healing from the water. Blessed by the moon, Fallen Moonstone can restore strength when frailty runs deep. Southeast of Astranaar, Fallen Sky Lake once held many Fallen Moonstones along its shores and shallows. Night elves prized their healing when ordinary remedies failed. But corrupt Shadethicket bog beasts overran the lake, led by a Shadethicket Oracle. The Oracle hoarded every stone it found on a small island at the lake’s center, leaving the local Kaldorei without a vital source of healing.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_fallen-moonstone-eefd52360095e1d63ae6/1-0000.mp3", duration = 42.7363265, start = 0},
+    {file = "Audio/Transport/full_item_fallen-moonstone-957a3eaa1c65e19c2a91/1-0000.mp3", duration = 35.8922449, start = 0},
   },
 }
 P.transport["item:fandral-s-message"] = {
-  hash = "63b8b8",
-  fullHash = "63b8b8",
-  text = "Fandral's Message. In Darnassus, Fandral Staghelm sends a message across the sea to Onu in Darkshore. The sealed dispatch carries news about Oracle Glade in Teldrassil. Arch Druid Fandral Staghelm writes from the Cenarion Enclave in Darnassus. His sealed dispatch is addressed to Onu, the Ancient of Lore who dwells in the Grove of the Ancients. Reports have reached Fandral about the state of Oracle Glade in Teldrassil, and he sends a courier south of Auberdine with word for Onu. The journey crosses the waters to Darkshore, carrying a message from the heart of the new World Tree to Kalimdor’s older, shadowed mainland.",
+  hash = "e42593",
+  fullHash = "e42593",
+  text = "Fandral's Message. Across the sea, Fandral's Message carries news from Darnassus to Onu in Darkshore. The sealed dispatch concerns Oracle Glade in Teldrassil. Arch Druid Fandral Staghelm writes from the Cenarion Enclave in Darnassus. His sealed dispatch is addressed to Onu, the Ancient of Lore who dwells in the Grove of the Ancients. Reports about Oracle Glade in Teldrassil have reached Fandral, so he sends a courier south of Auberdine with word for Onu. The journey crosses the waters to Darkshore, from the new World Tree to Kalimdor’s older, shadowed mainland.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_fandral-s-message-70c97a6d2f0431b74278/1-0000.mp3", duration = 37.5379592, start = 0},
+    {file = "Audio/Transport/full_item_fandral-s-message-5f8feeabe34ffd502fd9/1-0000.mp3", duration = 35.0302041, start = 0},
   },
 }
 P.transport["item:fang-of-vagash"] = {
@@ -1658,27 +1658,27 @@ P.transport["item:fang-of-vagash"] = {
   },
 }
 P.transport["item:fangore-s-paw"] = {
-  hash = "a3ca15",
-  fullHash = "a3ca15",
-  text = "Fangore's Paw. In the Redridge Mountains, Lieutenant Fangore leads the Shadowhide gnolls against Lakeshire. His severed paw proves his death to Magistrate Solomon, whose bounty seeks to end the threat Fangore poses to the besieged town. Lieutenant Fangore is a primary field commander among the Shadowhide gnolls encroaching across the Redridge Mountains. He serves the renegade mage Morganth and directs attacks on trade roads, outlying farms, and the defenses around Lake Everstill. Gnoll raiders leave no uniforms, official seals, or banners to confirm their dead, so the township authorities rely on physical proof. Magistrate Solomon demanded Fangore's paw to prove he had been executed, giving Lakeshire some relief amid the dangers closing around the town.",
+  hash = "61d38a",
+  fullHash = "61d38a",
+  text = "Fangore's Paw. In the Redridge Mountains, Fangore leads the Shadowhide gnolls against Lakeshire. His severed paw proves his death to Magistrate Solomon and may ease the danger closing around the town. Lieutenant Fangore leads the Shadowhide gnolls across the Redridge Mountains. He serves the renegade mage Morganth and directs attacks on trade roads, outlying farms, and the defenses around Lake Everstill. The gnolls leave no uniforms, seals, or banners behind to identify their dead. So Magistrate Solomon demands Fangore's paw as proof that the lieutenant has been executed, giving Lakeshire some relief amid the dangers around town.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_fangore-s-paw-7f0a8ca6b28e020a3dde/1-0000.mp3", duration = 46.9681633, start = 0},
+    {file = "Audio/Transport/full_item_fangore-s-paw-75dd80c44cb3594b70a0/1-0000.mp3", duration = 41.195102, start = 0},
   },
 }
 P.transport["item:farren-s-report"] = {
-  hash = "9ce67e",
-  fullHash = "9ce67e",
-  text = "Farren's Report. In Southshore, Farren's Report carries Lieutenant Farren Orinelle's findings on the local naga. He hopes the dispatch will win him a return to Stormwind. Lieutenant Farren Orinelle grew tired of Southshore's embattled coast, its local leadership, and its remote frontier. He had adventurers hunt the Daggerspine naga to gather proof of their threat, then gathered the findings into a formal report. Farren plans to send it to Major Samuelson, captain of the guard in Stormwind Keep, rather than to his commanding officer, Marshal Redpath. Samuelson trained Farren, and Farren hopes the report will show his competence and earn him an immediate transfer back to Stormwind City's comforts.",
+  hash = "3e1e66",
+  fullHash = "3e1e66",
+  text = "Farren's Report. In Southshore, Lieutenant Farren Orinelle's report carries his findings on the local naga. He hopes the dispatch will win him a return to Stormwind. Lieutenant Farren Orinelle grew weary of Southshore's embattled coast, its leaders, and its remote frontier. He sent adventurers to hunt the Daggerspine naga and gather proof of their threat. Then he shaped their findings into a formal report.\n\nFarren plans to send the dispatch to Major Samuelson, captain of the guard in Stormwind Keep, instead of his commander, Marshal Redpath. Samuelson trained Farren, and Farren hopes the report will prove his competence and earn him an immediate transfer to Stormwind City's comforts.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_farren-s-report-25b856eb119ccdfcbce0/1-0000.mp3", duration = 42.004898, start = 0},
+    {file = "Audio/Transport/full_item_farren-s-report-dd70054f35303988a8a5/1-0000.mp3", duration = 43.0236735, start = 0},
   },
 }
 P.transport["item:fathom-core"] = {
-  hash = "c27ff4",
-  fullHash = "c27ff4",
-  text = "Fathom Core. Beneath the Moonshrine Ruins, the Fathom Core records the elements at work in Blackfathom Deeps. The Earthen Ring seeks it to learn how the Twilight's Hammer is manipulating those forces. The Fathom Core rests inside an ancient fathom stone beneath the Moonshrine Ruins. It records shifts, disruptions, and surges in the elements over time. Je'neu Sancrea, an Earthen Ring shaman at Zoram'gar Outpost, seeks the core to understand how the Twilight's Hammer cultists are turning the region's elements to their own ends.",
+  hash = "7450db",
+  fullHash = "7450db",
+  text = "Fathom Core. Beneath the Moonshrine Ruins, the Fathom Core records the elements at work in Blackfathom Deeps. The Earthen Ring seeks it to learn how the Twilight's Hammer turns those forces to its own ends. Inside an ancient fathom stone beneath the Moonshrine Ruins, the Fathom Core records the elements. Its account follows their shifts, disruptions, and surges over time. Je'neu Sancrea is an Earthen Ring shaman at Zoram'gar Outpost. He seeks the core to learn how the Twilight's Hammer cultists turn the region's elements to their own ends.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_fathom-core-fcd8bf2d77a108f7e3e0/1-0000.mp3", duration = 33.5412245, start = 0},
+    {file = "Audio/Transport/full_item_fathom-core-94a93e59fd8b94d9e8a0/1-0000.mp3", duration = 33.9330612, start = 0},
   },
 }
 P.transport["item:feather-charm"] = {
@@ -1690,19 +1690,19 @@ P.transport["item:feather-charm"] = {
   },
 }
 P.transport["item:fel-cone"] = {
-  hash = "4c96ce",
-  fullHash = "4c96ce",
-  text = "Fel Cone. Beneath Teldrassil's boughs, Fel Cones carry corruption into the forest. Night elf defenders put the pods to use against nearby tricksters. Beneath Teldrassil's boughs, Fel Cones show that corruption has reached the young tree. Gnarled and fallen, the pine cones billow foul green smoke. They lie scattered just east of Dolanaar. Tainted magic has warped the surrounding flora, and the pods are dangerous to touch or eat without caution.",
+  hash = "638fab",
+  fullHash = "638fab",
+  text = "Fel Cone. In Teldrassil, Fel Cones carry corruption beneath the tree's boughs. Night elf defenders use the pods against nearby tricksters. Beneath Teldrassil's boughs, Fel Cones mark corruption in the young tree. The gnarled pine cones have fallen and billow foul green smoke. They lie scattered just east of Dolanaar. Tainted magic has warped the surrounding plants, and the pods are dangerous to touch or eat without care.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_fel-cone-89a967cb0f7a174923e2/1-0000.mp3", duration = 28.1077551, start = 0},
+    {file = "Audio/Transport/full_item_fel-cone-600e37a7d3d7f7acd420/1-0000.mp3", duration = 27.3240816, start = 0},
   },
 }
 P.transport["item:fel-moss"] = {
-  hash = "8d4891",
-  fullHash = "8d4891",
-  text = "Fel Moss. Fel Moss spreads through Teldrassil’s forests, its insidious corruptive energies carried by hostile grell and grellkin. The taint threatens the World Tree’s wildlife and native furbolg tribes. Corruption has reached Teldrassil’s boughs, though the World Tree was planted to restore the night elves’ immortality and heal the natural world. Fel Moss is one clear sign of that decay. Impish grell and grellkin infest Shadowglen, with the unnatural, wicked magic of the moss clinging to them and radiating from their growth. The dryad Tarindrella gathers samples to measure how deeply the rot has entered the sacred woodland canopy.",
+  hash = "2c310b",
+  fullHash = "2c310b",
+  text = "Fel Moss. Across Teldrassil, Fel Moss spreads through the forests on grell and grellkin. Its corruption threatens the World Tree’s wildlife and the native furbolg tribes. Corruption has reached Teldrassil’s boughs. The World Tree was planted to restore the night elves’ immortality and heal the natural world, yet Fel Moss marks the decay. Grell and grellkin infest Shadowglen, with the moss’s unnatural, wicked magic clinging to them and radiating from their growth. The dryad Tarindrella gathers samples to learn how deeply the rot has entered the sacred woodland canopy.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_fel-moss-202b3c8d7e961f68bb19/1-0000.mp3", duration = 39.2881633, start = 0},
+    {file = "Audio/Transport/full_item_fel-moss-724a72e2c2195ad5edc7/1-0000.mp3", duration = 38.2432653, start = 0},
   },
 }
 P.transport["item:felix-s-box"] = {
@@ -1730,11 +1730,11 @@ P.transport["item:felix-s-chest"] = {
   },
 }
 P.transport["item:felstalker-hoof"] = {
-  hash = "cc32a4",
-  fullHash = "cc32a4",
-  text = "Felstalker Hoof. In Durotar's Valley of Trials, young shaman face demonic felstalkers as a test of readiness. Their hooves are brought to Canaga Earthcaller before they learn to commune with the earth spirits. Canaga Earthcaller sends young shaman against the demonic taint threatening Durotar. The Burning Blade Coven lies north in the Valley of Trials, where felstalkers roam among the coven's vile familiars. Taking a felstalker's hoof tests a shaman's endurance, resolve, and spirit. Those who subdue the beasts prove ready to receive the secrets of the earth and prepare the ceremonial sapta for communing with elemental spirits.",
+  hash = "65f0a3",
+  fullHash = "65f0a3",
+  text = "Felstalker Hoof. In Durotar's Valley of Trials, young shaman face felstalkers to prove they are ready. Their hooves go to Canaga Earthcaller before they learn to commune with the earth spirits. Canaga Earthcaller sends young shaman to face the demonic taint threatening Durotar. North in the Valley of Trials, the Burning Blade Coven's vile familiars share the ground with roaming felstalkers. Taking a felstalker's hoof tests a shaman's endurance, resolve, and spirit. Those who subdue the beasts are ready to learn the secrets of the earth and prepare the ceremonial sapta for communing with elemental spirits.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_felstalker-hoof-02d53733bf76351ea1b9/1-0000.mp3", duration = 38.0081633, start = 0},
+    {file = "Audio/Transport/full_item_felstalker-hoof-7d27893420e02bd34614/1-0000.mp3", duration = 37.4073469, start = 0},
   },
 }
 P.transport["item:fenwick-s-head"] = {
@@ -1746,43 +1746,43 @@ P.transport["item:fenwick-s-head"] = {
   },
 }
 P.transport["item:fey-dragon-scale"] = {
-  hash = "23c34b",
-  fullHash = "23c34b",
-  text = "Fey Dragon Scale. Around Stonetalon Peak, faerie dragons yield scales coveted by Jin'Zil. The Darkspear witch doctor uses one as a reagent in a brew that mocks night elven nature magic. Around Stonetalon Peak, faerie dragons haunt the wild groves of Kalimdor. Their scales gleam with natural magic. Night elves revere them as harmless woodland spirits and allies, while outsiders prize the scales as rare magical ingredients.",
+  hash = "9267a3",
+  fullHash = "9267a3",
+  text = "Fey Dragon Scale. Around Stonetalon Peak, faerie dragons give up scales that Jin'Zil covets. The Darkspear witch doctor uses one in a brew meant to mock night elven nature magic. Faerie dragons haunt the wild groves around Stonetalon Peak. Their scales shine with natural magic. Night elves honor them as harmless woodland spirits and allies. Outsiders prize the scales as rare magical ingredients.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_fey-dragon-scale-77b4517e7e8b1a9e01ee/1-0000.mp3", duration = 26.357551, start = 0},
+    {file = "Audio/Transport/full_item_fey-dragon-scale-78c88f57c9ebcd650c58/1-0000.mp3", duration = 27.2457143, start = 0},
   },
 }
 P.transport["item:filled-amethyst-phial"] = {
-  hash = "94eae4",
-  fullHash = "94eae4",
-  text = "Filled Amethyst Phial. In Teldrassil, water from the Oracle Tree's moonwell fills an amethyst phial. Corithras Moonrage receives it for the Cenarion druids to study the World Tree's troubled growth. The Oracle Glade lies in northwest Teldrassil, where the oldest and most potent moonwell rests beneath the Oracle Tree. Other moonwells across the boughs meet the night elves' daily needs, but the water here carries the raw essence of Elune's grace. Druids who watch over the World Tree's health collect it in amethyst phials, preserving it for testing and ritual cleansing.",
+  hash = "00c8d7",
+  fullHash = "00c8d7",
+  text = "Filled Amethyst Phial. In Teldrassil, druids gather water from the Oracle Tree's moonwell. Corithras Moonrage receives it for the Cenarion druids to study the World Tree's troubled growth. Northwest Teldrassil holds the Oracle Glade, where the oldest and most potent moonwell rests beneath the Oracle Tree. Other moonwells across the boughs meet the night elves' daily needs, but this water bears the raw essence of Elune's grace. Druids who tend the World Tree's health collect it in amethyst phials for testing and ritual cleansing.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_filled-amethyst-phial-f9a65aefe1d3ade923d3/1-0000.mp3", duration = 35.5265306, start = 0},
+    {file = "Audio/Transport/full_item_filled-amethyst-phial-22d856c3ed970e0a3614/1-0000.mp3", duration = 33.28, start = 0},
   },
 }
 P.transport["item:filled-blue-waterskin"] = {
-  hash = "941563",
-  fullHash = "941563",
-  text = "Filled Blue Waterskin. Shamans gather water for their trials at the Ruins of Stardust in Ashenvale. The Filled Blue Waterskin carries a pristine sample from the ancient fountain. Call of Water initiates cross north from the Barrens into Ashenvale's dense forests. Beyond Lake Mystral, the Ruins of Stardust lie against the mountains dividing Ashenvale from Stonetalon. Fierce forest beasts guard the secluded elven sanctuary. At the center of its lake, an untouched fountain holds water untainted by corruption or drought. A blue waterskin filled from its basin carries the sample sought by shaman masters for ritual attunement. Brine, a hermit and water expert, lives on a hill in the southern Barrens and needs this final sample. He combines it with water from contrasting wells and springs, then distills the pure essence into an offering. The offering can manifest and soothe the elemental spirits of water, completing an initiate's trial.",
+  hash = "811ed2",
+  fullHash = "811ed2",
+  text = "Filled Blue Waterskin. At the Ruins of Stardust, shamans seek water for their trials. The Filled Blue Waterskin bears a pure sample from an ancient fountain. Call of Water initiates travel north from the Barrens into Ashenvale's dense forests. Beyond Lake Mystral, the Ruins of Stardust rest against the mountains between Ashenvale and Stonetalon. Fierce forest beasts guard the secluded elven sanctuary. At the center of its lake, an untouched fountain holds water free of corruption or drought. A blue waterskin filled there carries the sample shaman masters seek for ritual attunement. Brine lives as a hermit on a hill in the southern Barrens. She knows water well and needs this final sample. Brine combines it with water from contrasting wells and springs, then distills a pure essence to offer. The offering can call forth and soothe water's elemental spirits, completing an initiate's trial.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_filled-blue-waterskin-00685d9a3c1f1ffb1bcb/1-0000.mp3", duration = 56.5812245, start = 0},
+    {file = "Audio/Transport/full_item_filled-blue-waterskin-ad0e181dd2a0dbe2ec9e/1-0000.mp3", duration = 54.9877551, start = 0},
   },
 }
 P.transport["item:filled-brown-waterskin"] = {
-  hash = "c68ff6",
-  fullHash = "c68ff6",
-  text = "Filled Brown Waterskin. In the Barrens, the Filled Brown Waterskin carries fresh water from the pond below Brine's hut. Aspiring shaman bring it to her to begin brewing sapta, used to commune with water spirits. The pond beneath Brine's hut is a rare source of fresh water in the Barrens. Nearby quilboar fight fiercely over it, and a novice shaman sees how scarce water can drive creatures to defend what sustains them.",
+  hash = "c40ca6",
+  fullHash = "c40ca6",
+  text = "Filled Brown Waterskin. In the Barrens, the Filled Brown Waterskin brings fresh water from the pond below Brine's hut. Aspiring shaman carry it to her to begin brewing sapta, which lets them commune with water spirits. Below Brine's hut, a pond offers rare fresh water in the Barrens. Nearby quilboar fight fiercely over it. A novice shaman sees how scarcity drives creatures to defend what sustains them.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_filled-brown-waterskin-9bd4c778babac8551a9c/1-0000.mp3", duration = 23.5363265, start = 0},
+    {file = "Audio/Transport/full_item_filled-brown-waterskin-cfe05b3e94efb465f0d1/1-0000.mp3", duration = 25.2865306, start = 0},
   },
 }
 P.transport["item:filled-cliffspring-falls-sampler"] = {
-  hash = "b0032e",
-  fullHash = "b0032e",
-  text = "Filled Cliffspring Falls Sampler. Near Cliffspring Falls in Darkshore, the Filled Cliffspring Falls Sampler holds foul water drawn from the headwaters. The Cenarion Circle needs it to study the sickness striking local deer. Cliffspring Falls feeds much of Darkshore with water from the eastern highlands. Local deer have recently fallen ill with an unnatural sickness. At Dendrite Starblaze’s request in Moonglade, druidic initiates draw water from a cave mouth where hostile naga dwell. The liquid in the vial is visibly foul, showing that the fresh water supply is tainted.",
+  hash = "7260df",
+  fullHash = "7260df",
+  text = "Filled Cliffspring Falls Sampler. Near Cliffspring Falls in Darkshore, the Filled Cliffspring Falls Sampler holds foul water drawn from the headwaters. The Cenarion Circle needs it to study the sickness striking local deer. Cliffspring Falls carries water from the eastern highlands through much of Darkshore. Now local deer are falling ill with an unnatural sickness. At Dendrite Starblaze’s request in Moonglade, druidic initiates draw water from a cave mouth where hostile naga dwell. The vial holds visibly foul water, proof that the fresh supply is tainted.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_filled-cliffspring-falls-sampler-2ddcccbf3b3812d1a6a5/1-0000.mp3", duration = 32.8881633, start = 0},
+    {file = "Audio/Transport/full_item_filled-cliffspring-falls-sampler-3b00295942d64f046720/1-0000.mp3", duration = 33.2016327, start = 0},
   },
 }
 P.transport["item:filled-containment-coffer"] = {
@@ -1794,11 +1794,11 @@ P.transport["item:filled-containment-coffer"] = {
   },
 }
 P.transport["item:filled-crystal-phial"] = {
-  hash = "afb216",
-  fullHash = "afb216",
-  text = "Filled Crystal Phial. In Shadowglen, the Filled Crystal Phial holds water drawn from the moonwell north of Aldrassil. Tenaron Stormgrip asks young night elves to gather it as a first lesson in Teldrassil’s sacred power. Tenaron Stormgrip sends young night elves to gather moonwell water before they venture into the wider world. The moonwell lies in Shadowglen, and its waters hold more than spring water: they carry energies traced to the ancient Well of Eternity. Sentinels honor moonwells as shrines of Elune, while druids use their restorative power to tend nature. The arcane sorcery of old remains forbidden. Gathering the water begins a lesson in the sacrifice at Mount Hyjal and the care needed to nurture Teldrassil.",
+  hash = "e8f650",
+  fullHash = "e8f650",
+  text = "Filled Crystal Phial. In Shadowglen, young night elves gather water from the moonwell north of Aldrassil. Tenaron Stormgrip makes it their first lesson in Teldrassil’s sacred power. Tenaron Stormgrip sends young night elves to gather moonwell water before they venture into the wider world. The moonwell lies in Shadowglen, and its waters hold energies traced to the ancient Well of Eternity. Sentinels honor moonwells as shrines of Elune. Druids use their restorative power to tend nature, while the arcane sorcery of old remains forbidden.\n\nGathering the water begins a lesson in the sacrifice at Mount Hyjal and the care needed to nurture Teldrassil.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_filled-crystal-phial-5014ec74ee909ffdfe2c/1-0000.mp3", duration = 43.3632653, start = 0},
+    {file = "Audio/Transport/full_item_filled-crystal-phial-b44d3a70a64267a0a96d/1-0000.mp3", duration = 39.5493878, start = 0},
   },
 }
 P.transport["item:filled-cursed-ooze-jar"] = {
@@ -1810,11 +1810,11 @@ P.transport["item:filled-cursed-ooze-jar"] = {
   },
 }
 P.transport["item:filled-dreadmist-peak-sampler"] = {
-  hash = "6e33dc",
-  fullHash = "6e33dc",
-  text = "Filled Dreadmist Peak Sampler. At Dreadmist Peak, a filled sampler holds water gathered by Horde druids from the summit pools. The Cenarion Circle studies the sample to learn what is poisoning wildlife in the northern Barrens. Dreadmist Peak’s high crags hold pools whose mists shape weather and rainfall across the northern Barrens. The Burning Blade, who worship demons, made their coven atop the summit, and the water soon soured. Cenarion druids suspect demonic rites poisoned the vapors that feed the surrounding savanna. They send initiates to collect a sample in a special sampler. The foul liquid confirms their fears: its corruption can sicken the herds below.",
+  hash = "d528a4",
+  fullHash = "d528a4",
+  text = "Filled Dreadmist Peak Sampler. At Dreadmist Peak, Horde druids gather water from the summit pools for study. The Cenarion Circle seeks to learn what is poisoning wildlife in the northern Barrens. Dreadmist Peak’s high crags hold pools whose mists shape weather and rainfall across the northern Barrens. The Burning Blade worship demons and made their coven atop the summit. Soon the water soured. Cenarion druids suspect demonic rites poisoned the vapors that feed the surrounding savanna.\n\nThey send initiates to collect a sample in a special sampler. The foul liquid confirms their fears. Its corruption can sicken the herds below.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_filled-dreadmist-peak-sampler-6f82e4dce999e7e74d58/1-0000.mp3", duration = 40.4897959, start = 0},
+    {file = "Audio/Transport/full_item_filled-dreadmist-peak-sampler-95537716d15e9e790e83/1-0000.mp3", duration = 37.7208163, start = 0},
   },
 }
 P.transport["item:filled-etched-phial"] = {
@@ -1826,11 +1826,11 @@ P.transport["item:filled-etched-phial"] = {
   },
 }
 P.transport["item:filled-jade-phial"] = {
-  hash = "32a60c",
-  fullHash = "32a60c",
-  text = "Filled Jade Phial. In Dolanaar, the Filled Jade Phial is carried back with sacred water from Starbreeze Village. The water helps replenish the central wells while young night elves learn their people's history. Druids in Darnassus draw sacred moonwell water from across Teldrassil to replenish their central wells. Corithras Moonrage entrusts young travelers in Dolanaar with a jade phial made to hold the pure water safely. The moonwell outside Starbreeze Village lies east of Dolanaar. Initiates collect its water as they tend the World Tree. When you bring the Filled Jade Phial back to Dolanaar, Corithras Moonrage shares another chapter of kaldorei history. He tells of the years after the Third War, when Nordrassil burned, night elves lost their immortality, the Betrayer was released, and Shan'do Malfurion Stormrage disappeared.",
+  hash = "c55ff4",
+  fullHash = "c55ff4",
+  text = "Filled Jade Phial. In Dolanaar, a Filled Jade Phial carries sacred water from Starbreeze Village back to the central wells. Young night elves gather it as they learn their people's history. Druids in Darnassus draw sacred water from moonwells across Teldrassil to replenish their central wells. In Dolanaar, Corithras Moonrage entrusts young travelers with a jade phial that keeps the pure water safe. The moonwell outside Starbreeze Village lies east of Dolanaar. Initiates gather its water as they tend the World Tree. When you return the Filled Jade Phial to Dolanaar, Corithras Moonrage shares another chapter of kaldorei history. He tells how, after the Third War, Nordrassil burned and night elves lost their immortality. The Betrayer was released, and Shan'do Malfurion Stormrage disappeared.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_filled-jade-phial-87efc7231a60a5ec51d0/1-0000.mp3", duration = 53.3681633, start = 0},
+    {file = "Audio/Transport/full_item_filled-jade-phial-9c0edb6540bbf62bf569/1-0000.mp3", duration = 52.1142857, start = 0},
   },
 }
 P.transport["item:filled-pure-sample-jar"] = {
@@ -1842,11 +1842,11 @@ P.transport["item:filled-pure-sample-jar"] = {
   },
 }
 P.transport["item:filled-red-waterskin"] = {
-  hash = "c208ba",
-  fullHash = "c208ba",
-  text = "Filled Red Waterskin. In Tarren Mill, a well gives clear spring water for a shaman’s trial. The Filled Red Waterskin carries water drawn from the village well, amid ruins held by the Forsaken. Brine, a hermit in the Barrens, sends shaman initiates to Tarren Mill for water training. The journey leads to the Hillsbrad Foothills, where decay and the dead surround the town. Yet the central well still draws clear spring water. Brine sees this pure water as a sign of endurance in an unhallowed land. She compares the uncorrupted spring with Warchief Thrall’s resolve through hardship. Gathering the water tests an initiate’s respect for its purity, even in hostile surroundings.",
+  hash = "7b061b",
+  fullHash = "7b061b",
+  text = "Filled Red Waterskin. In Tarren Mill, a well gives clear spring water for a shaman’s trial. The Filled Red Waterskin bears water drawn from the village well, amid ruins held by the Forsaken. Brine sends shaman initiates from her hermitage in the Barrens to Tarren Mill to train with water. The journey leads into the Hillsbrad Foothills, where decay and the dead surround the town. Yet the well at its heart still gives clear spring water.\n\nTo Brine, that pure water endures as a sign of life in an unhallowed land. She likens the spring, untouched by corruption, to Warchief Thrall’s resolve through hardship. Gathering the water tests whether an initiate honors its purity, even in hostile surroundings.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_filled-red-waterskin-793b10aa83f2fb088888/1-0000.mp3", duration = 42.4228571, start = 0},
+    {file = "Audio/Transport/full_item_filled-red-waterskin-90f2184ca9a969232985/1-0000.mp3", duration = 44.564898, start = 0},
   },
 }
 P.transport["item:filled-tainted-ooze-jar"] = {
@@ -1858,19 +1858,19 @@ P.transport["item:filled-tainted-ooze-jar"] = {
   },
 }
 P.transport["item:filled-tourmaline-phial"] = {
-  hash = "620290",
-  fullHash = "620290",
-  text = "Filled Tourmaline Phial. At the Pools of Arlithrien, the Filled Tourmaline Phial carries moonwell water for Corithras Moonrage. Its waters help him watch the health and balance of the growing World Tree. The Filled Tourmaline Phial draws water from a moonwell southeast of the road to Darnassus, on the shores of the Pools of Arlithrien. Reaching the shrine has grown dangerous as the Gnarlpine furbolgs, once peaceful neighbors, turn violently mad. Corithras Moonrage asks travelers to brave the hostile groves and bring back the water. He hopes it will help him find the deepening corruption unsettling the land.",
+  hash = "b14d74",
+  fullHash = "b14d74",
+  text = "Filled Tourmaline Phial. At the Pools of Arlithrien, Corithras Moonrage waits for the Filled Tourmaline Phial. Its moonwell water helps him watch the health and balance of the growing World Tree. A moonwell lies on the shores of the Pools of Arlithrien, southeast of the road to Darnassus. The path to its shrine has grown dangerous. The Gnarlpine furbolgs were once peaceful neighbors, but now they are violently mad. Corithras Moonrage asks travelers to brave the hostile groves and bring back the water. He hopes it will help him find the corruption deepening across the land.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_filled-tourmaline-phial-2b7020752c6e7619c58e/1-0000.mp3", duration = 38.8963265, start = 0},
+    {file = "Audio/Transport/full_item_filled-tourmaline-phial-fb4832162843c7b1b1c0/1-0000.mp3", duration = 34.8995918, start = 0},
   },
 }
 P.transport["item:filled-vessel"] = {
-  hash = "0c44ca",
-  fullHash = "0c44ca",
-  text = "Filled Vessel. At Dolanaar, Corithras Moonrage gathers sacred waters for Fandral Staghelm in Darnassus. The Filled Vessel carries samples from Teldrassil’s moonwells to aid his study of the World Tree’s ailments. Night elf acolytes gather water from moonwells across Teldrassil. The tree was planted without the blessings of the Great Aspects, Alexstrasza and Nozdormu, leaving its boughs open to corruption, strange beasts, and crazed furbolg tribes. Corithras Moonrage gathers the phials in Dolanaar and pours them into the Filled Vessel for the journey to the capital. Together, the waters offer a vital sample of Teldrassil’s vitality. Arch Druid Fandral Staghelm studies them in the Cenarion Enclave, seeking a remedy for the Great Tree’s flaws.",
+  hash = "7d318d",
+  fullHash = "7d318d",
+  text = "Filled Vessel. At Dolanaar, Corithras Moonrage gathers Teldrassil’s moonwell waters for Fandral Staghelm in Darnassus. The Filled Vessel carries these samples to aid his study of the World Tree’s ailments. Night elf acolytes gather water from moonwells across Teldrassil. The tree was planted without blessings from the Great Aspects, Alexstrasza and Nozdormu. So its boughs remain open to corruption, strange beasts, and crazed furbolg tribes.\n\nIn Dolanaar, Corithras Moonrage gathers the phials and pours them into the Filled Vessel for the journey to the capital. Together, the waters offer a sample of Teldrassil’s vitality. Arch Druid Fandral Staghelm studies them in the Cenarion Enclave, seeking a remedy for the Great Tree’s flaws.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_filled-vessel-f1f98e165c690cf9348a/1-0000.mp3", duration = 49.6065306, start = 0},
+    {file = "Audio/Transport/full_item_filled-vessel-3b2510316ce128ac3fce/1-0000.mp3", duration = 49.1363265, start = 0},
   },
 }
 P.transport["item:final-clue-to-sanders-treasure"] = {
@@ -1882,43 +1882,43 @@ P.transport["item:final-clue-to-sanders-treasure"] = {
   },
 }
 P.transport["item:fine-crab-chunks"] = {
-  hash = "530314",
-  fullHash = "530314",
-  text = "Fine Crab Chunks. Fine Crab Chunks come from the Reef Crawlers and Encrusted Tide Crawlers along Darkshore's coast. Gubber Blump seeks them for his cooking. Reef Crawlers and Encrusted Tide Crawlers roam Darkshore's shores. Travelers may see them as pests or dangers by the water, while cooks prize their meat. The chunks can be boiled, broiled, fried, or added to stews.",
+  hash = "ffe552",
+  fullHash = "ffe552",
+  text = "Fine Crab Chunks. Along Darkshore's coast, Reef Crawlers and Encrusted Tide Crawlers yield Fine Crab Chunks. Gubber Blump seeks them for his cooking. Reef Crawlers and Encrusted Tide Crawlers roam Darkshore's shores. By the water, travelers may find them pests or dangers, while cooks prize their meat. The chunks can be boiled, broiled, fried, or stirred into stews.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_fine-crab-chunks-6cd3d76328a40c818d5f/1-0000.mp3", duration = 23.0661224, start = 0},
+    {file = "Audio/Transport/full_item_fine-crab-chunks-0f73623706a2c5b03b9c/1-0000.mp3", duration = 24.1371429, start = 0},
   },
 }
 P.transport["item:fine-moonstalker-pelt"] = {
-  hash = "c5b356",
-  fullHash = "c5b356",
-  text = "Fine Moonstalker Pelt. In southern Darkshore, mature moonstalkers carry the hides Terenthis needs. Their Fine Moonstalker Pelt is thick and healthy enough for an enchanted cloak that helps searchers pass the region’s hostile beasts unnoticed. Moonstalker sires and matriarchs have coats dense and healthy enough to yield a fine pelt. They hold territories along the Wildbend River and farther south toward Ashenvale’s borders, where they hunt with patience. Common moonstalkers prowl across Darkshore’s forests, but their hides are not fine enough.",
+  hash = "ca190f",
+  fullHash = "ca190f",
+  text = "Fine Moonstalker Pelt. In southern Darkshore, Terenthis seeks the hides of mature moonstalkers. Their thick, healthy pelts can help make an enchanted cloak for those searching for Volcor. Moonstalker sires and matriarchs have coats dense and healthy enough to yield a fine pelt. They keep territory along the Wildbend River and farther south toward Ashenvale’s borders. There, they hunt with patience. Common moonstalkers roam Darkshore’s forests, but their hides are not fine enough.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_fine-moonstalker-pelt-ead08c8fe0ae23cfd8f8/1-0000.mp3", duration = 32.6530612, start = 0},
+    {file = "Audio/Transport/full_item_fine-moonstalker-pelt-530bbdcb19d3e8539f85/1-0000.mp3", duration = 28.9697959, start = 0},
   },
 }
 P.transport["item:fire-tar"] = {
-  hash = "bdf070",
-  fullHash = "bdf070",
-  text = "Fire Tar. Across the eastern Barrens, Razormane spellcasters carry Fire Tar. Horde shamans use it to brew the Fire Sapta, which lets them commune with fire spirits. Razormane geomancers, mystics, and thornweavers carry Fire Tar. The quilboar use the flame-tuned substance in their harsh magic and rituals. Shamanic instructors prize it as a worldly reagent that helps mortal senses reach the raw fury of the elements. Young orc and troll shamans travel to Telf Joolam, high among Durotar's crags, to forge their fire totems. Telf asks them for a reagent pouch taken from Burning Blade cultists and Fire Tar gathered from the Razormane. He brews the two ingredients into a fire sapta. Drinking it lets a shaman perceive the fire spirits waiting atop the nearby peaks.",
+  hash = "0f7072",
+  fullHash = "0f7072",
+  text = "Fire Tar. Across the eastern Barrens, Razormane spellcasters carry Fire Tar. Horde shamans bring it to Telf Joolam, who brews it into a Fire Sapta that lets them commune with fire spirits. Razormane geomancers, mystics, and thornweavers carry Fire Tar. The quilboar use it in their harsh magic and rituals, where its power is tuned to flame. Shamanic instructors prize the substance as a worldly reagent. It helps mortal senses reach the raw fury of the elements. Young orc and troll shamans travel high among Durotar's crags to Telf Joolam, where they forge their fire totems. Telf asks them to bring a reagent pouch taken from Burning Blade cultists and Fire Tar gathered from the Razormane. He brews the two ingredients into a fire sapta. A shaman who drinks it can perceive the fire spirits waiting atop the nearby peaks.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_fire-tar-b0d1b31c49061498b339/1-0000.mp3", duration = 49.4497959, start = 0},
+    {file = "Audio/Transport/full_item_fire-tar-32794509e5c61bb47ad7/1-0000.mp3", duration = 54.2040816, start = 0},
   },
 }
 P.transport["item:fizzle-s-claw"] = {
-  hash = "df51b7",
-  fullHash = "df51b7",
-  text = "Fizzle's Claw. In Thunder Ridge, Fizzle Darkstorm’s claw is carried to Razor Hill as proof of his death. The goblin warlock was a dangerous Burning Blade conspirator. Orgnil Soulscar sent forces to root out shadow cults threatening the orcish homeland. He identified Fizzle Darkstorm as an instigator spreading corruption in Thunder Ridge. The claw gives Horde commanders proof that the warlock, who operated under the Burning Blade’s banner, has been slain. Thunder Ridge lies just northwest of Razor Hill, close enough to threaten the surrounding lands. Horde scouts took Fizzle’s claw back to Razor Hill, confirming that his rituals and attempt to establish a Burning Blade foothold had been stopped.",
+  hash = "9f5167",
+  fullHash = "9f5167",
+  text = "Fizzle's Claw. In Thunder Ridge, Fizzle Darkstorm’s claw is carried to Razor Hill as proof of his death. The goblin warlock threatened the orcish homeland under the Burning Blade’s banner. Orgnil Soulscar sent forces to root out shadow cults threatening the orcish homeland. He named Fizzle Darkstorm as an instigator spreading corruption in Thunder Ridge. Fizzle served the Burning Blade as a warlock. His claw now proves to Horde commanders that he has been slain. Thunder Ridge lies just northwest of Razor Hill, close enough to threaten the surrounding lands. Horde scouts carried Fizzle’s claw back to Razor Hill. It confirms that his rituals and attempt to establish a Burning Blade foothold have been stopped.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_fizzle-s-claw-173d773731eefc0f6ed4/1-0000.mp3", duration = 41.6130612, start = 0},
+    {file = "Audio/Transport/full_item_fizzle-s-claw-fe8e55caf10a4e6f0767/1-0000.mp3", duration = 43.1020408, start = 0},
   },
 }
 P.transport["item:flagongut-s-fossil"] = {
-  hash = "53b282",
-  fullHash = "53b282",
-  text = "Flagongut's Fossil. At the Wetlands dig, Flagongut seeks answers in an ancient fossil. The Explorers' League keeps the specimen, and Flagongut believes the Stone of Relu can help him decipher its secrets. Prospector Whelgar keeps the fossil at his excavation site in the southern hills of the Wetlands. Dwarven expeditions across Khaz Modan unearthed it, and Archaeologist Flagongut believes its ancient stone holds forgotten powers. He sees a kinship with artifacts found across the sea in Darkshore.",
+  hash = "214430",
+  fullHash = "214430",
+  text = "Flagongut's Fossil. At the Wetlands dig, Flagongut seeks answers in an ancient fossil. The Explorers' League keeps the specimen. Flagongut believes the Stone of Relu can help him decipher its secrets. Prospector Whelgar keeps the fossil at his excavation site in the southern hills of the Wetlands. Dwarven expeditions across Khaz Modan unearthed it. Archaeologist Flagongut believes the ancient stone holds forgotten powers, and sees a kinship with artifacts found across the sea in Darkshore.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_flagongut-s-fossil-3777fdc3e7faa3200bd7/1-0000.mp3", duration = 30.3542857, start = 0},
+    {file = "Audio/Transport/full_item_flagongut-s-fossil-b10130b96050fd34e736/1-0000.mp3", duration = 31.4253061, start = 0},
   },
 }
 P.transport["item:flatland-cougar-femur"] = {
@@ -1938,35 +1938,35 @@ P.transport["item:flatland-prowler-claw"] = {
   },
 }
 P.transport["item:foreman-s-blackjack"] = {
-  hash = "69d01b",
-  fullHash = "69d01b",
-  text = "Foreman's Blackjack. Foreman's Blackjack keeps peons at work in Durotar's Valley of Trials. Foremen use the leather-wrapped cosh to wake laborers who fall asleep during the Horde's early construction. Durotar's rugged desert needs stockpiles of lumber for the Horde's new home. In the Valley of Trials, the work falls to the peons, and Foreman Thazz'ril keeps the crews moving with Foreman's Blackjack. The weighted bludgeon delivers a jarring wake-up call to laborers caught napping beneath the valley's shade trees, rather than a lethal blow. Peon life in the new Horde means grueling, unglamorous work under an iron fist.",
+  hash = "144470",
+  fullHash = "144470",
+  text = "Foreman's Blackjack. In the Valley of Trials, Foreman's Blackjack keeps Durotar's peons at work. Foremen use the leather-wrapped cosh to wake laborers who fall asleep during the Horde's early construction. Durotar needs stockpiles of lumber for the Horde's new home. In the Valley of Trials, peons do the work, and Foreman Thazz'ril keeps the crews moving with Foreman's Blackjack. Its weighted blow jolts laborers awake when they nap beneath the valley's shade trees. It is meant to wake them, not kill them. Peon life in the new Horde means hard, unglamorous work under an iron fist.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_foreman-s-blackjack-44cc86a1d911c27916b9/1-0000.mp3", duration = 38.8179592, start = 0},
+    {file = "Audio/Transport/full_item_foreman-s-blackjack-a8169b36877abb5a1bf0/1-0000.mp3", duration = 34.8212245, start = 0},
   },
 }
 P.transport["item:forged-steel-bars"] = {
-  hash = "ebbdab",
-  fullHash = "ebbdab",
-  text = "Forged Steel Bars. In the northern Barrens, Thun'grim Firegaze's steel bars are missing. Recovering them will prove a warrior's resolve to reclaim stolen property. Thun'grim Firegaze, a visually impaired orc smith, keeps a camp in the northern Barrens. Razormane quilboar took his iron chest during a night raid, distracting him with grunts and snorts while thieves slipped away. Unable to work fine steel, the quilboar left the unopened chest near a ruined wagon in their encampment to the northwest. The bars remain intact for warriors willing to recover them.",
+  hash = "6b24d5",
+  fullHash = "6b24d5",
+  text = "Forged Steel Bars. In the northern Barrens, Thun'grim Firegaze's forged steel bars are gone. Recovering them proves a warrior's resolve to reclaim stolen property. Thun'grim Firegaze is a visually impaired orc smith with a camp in the northern Barrens. During a night raid, Razormane quilboar took his iron chest. They distracted him with grunts and snorts while others slipped away with it.\n\nThe quilboar could not work fine steel, so they left the unopened chest near a ruined wagon in their encampment to the northwest. The bars remain intact for warriors willing to recover them.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_forged-steel-bars-748d36bc9fd9e56bcba7/1-0000.mp3", duration = 33.6195918, start = 0},
+    {file = "Audio/Transport/full_item_forged-steel-bars-d9d361ae05ec7f8965a5/1-0000.mp3", duration = 35.8138776, start = 0},
   },
 }
 P.transport["item:fragments-of-rok-alim"] = {
-  hash = "da3321",
-  fullHash = "da3321",
-  text = "Fragments of Rok'Alim. Fragments of Rok'Alim are the shattered stone remains of a primeval earth elemental roaming the canyons of Thousand Needles. Brought to Dorn Plainstalker at the Weathered Nook, they serve as undeniable physical proof that a warrior has bested an ancient terror in single combat. While most elementals faded from Azeroth following the banishment of the Old Gods, a handful possessed enough raw power to endure on the surface without being summoned by mortal magic. Rok'Alim the Pounder is one such survivor, wandering the canyon flats south of the main thoroughfare. Local centaur know him by the thunderous crashes of his stony fists pulverizing anything foolish enough to wander into his path. Striking down this living remnant of the primordial world yields jagged pieces of dense, animated rock—a trophy fit to prove unmatched physical prowess. For the tauren hermit Dorn Plainstalker, recovering the fragments is the decisive component of the Test of Strength. As part of a series of spiritual and martial rites conducted high within the Weathered Nook, the trial demands that an initiate face an entity of unyielding brute force. Delivering the battered rubble of Rok'Alim proves that an adventurer possesses the bravery and physical might required to survive the harshest perils of Kalimdor.",
+  hash = "018026",
+  fullHash = "018026",
+  text = "Fragments of Rok'Alim. Across Thousand Needles, Rok'Alim's stone fragments bear witness to a warrior's victory. Dorn Plainstalker at the Weathered Nook seeks them as proof Rok'Alim fell in single combat. Rok'Alim the Pounder still walks the canyon flats south of the main thoroughfare. Most elementals faded from Azeroth after the Old Gods were banished, though a few powerful ones endured without mortal summoning. The local centaur know Rok'Alim by the crashes of his stone fists as they crush anything in his path. Defeat leaves jagged pieces of dense, animated rock, proof of a warrior's might. Dorn Plainstalker needs the fragments for the Test of Strength. The tauren hermit holds spiritual and martial rites high in the Weathered Nook. An initiate must face a being of unyielding brute force. Bringing Dorn the battered pieces of Rok'Alim proves the bravery and might needed to survive Kalimdor's harshest perils.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_fragments-of-rok-alim-32ab5e3aba0b782e5ffe/1-0000.mp3", duration = 78.315102, start = 0},
+    {file = "Audio/Transport/full_item_fragments-of-rok-alim-dd6f0079a2790dba34d7/1-0000.mp3", duration = 55.8497959, start = 0},
   },
 }
 P.transport["item:frostwolf-banner"] = {
-  hash = "a2e362",
-  fullHash = "a2e362",
-  text = "Frostwolf Banner. In Alterac Valley, Horde initiates seek the Frostwolf Banner in Wildpaw Cavern. Recovering it is an ancestral rite of passage that awakens their battle spirit and earns their first clan insignia. Horde warriors seeking a place among the Frostwolf clan face a trial of grit in Alterac Valley. Warmaster Laggrond sends new recruits south into Wildpaw Cavern, where territorial gnolls fill the damp, hostile corridors. Reaching the hidden banner and bringing it back unbroken proves their courage and shows their battle rage has awakened. The trial earns each warrior the Frostwolf initiate's insignia.",
+  hash = "719c54",
+  fullHash = "719c54",
+  text = "Frostwolf Banner. In Alterac Valley, Horde initiates seek the Frostwolf Banner in Wildpaw Cavern. Bringing it back is an ancestral rite that awakens their battle spirit and earns their first clan insignia. In Alterac Valley, new warriors seeking a place among the Frostwolf clan face a trial of grit. Warmaster Laggrond sends them south into Wildpaw Cavern, where territorial gnolls fill the damp, hostile corridors. They must reach the hidden banner and bring it back unbroken. That proves their courage, awakens their battle rage, and earns each warrior the Frostwolf initiate's insignia.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_frostwolf-banner-523bfa33e2232236aab4/1-0000.mp3", duration = 37.8514286, start = 0},
+    {file = "Audio/Transport/full_item_frostwolf-banner-86b7d90778ebe2c6d7ca/1-0000.mp3", duration = 37.8514286, start = 0},
   },
 }
 P.transport["item:full-leaden-collection-phial"] = {
@@ -1978,11 +1978,11 @@ P.transport["item:full-leaden-collection-phial"] = {
   },
 }
 P.transport["item:fungal-spores"] = {
-  hash = "66da85",
-  fullHash = "66da85",
-  text = "Fungal Spores. Around the Barrens' oases, Fungal Spores gather in swollen mushrooms. The waters quicken the life around them, and the Royal Apothecary Society seeks the spores for its alchemy. The Barrens' oases bring unusual life to the dry plains. At the Forgotten Pools, the Lushwater Oasis, and the Stagnant Oasis, the water does more than ease thirst. It quickens and changes the plants and wildlife nearby. Mushrooms along the damp shores swell with spores, carrying the waters' concentrated power to spur growth. Naturalists study this change, while the Royal Apothecary Society gathers the mushrooms for its alchemy. Apothecaries abroad gather unusual local ingredients for their laboratories and colleagues. At the Crossroads, Apothecary Helbrim sends such reagents onward, including to Apothecary Zamah in Thunder Bluff. The spores are valuable for brewing potent chemical mixtures. Their natural properties have already been altered by the mysterious forces beneath Kalimdor's soil, making them useful to the Forsaken.",
+  hash = "c84b15",
+  fullHash = "c84b15",
+  text = "Fungal Spores. At the Barrens' oases, Fungal Spores swell within mushrooms along the shores. The waters quicken nearby life, and the Royal Apothecary Society gathers the spores for its alchemy. The Barrens' oases bring unusual life to the dry plains. At the Forgotten Pools, the Lushwater Oasis, and the Stagnant Oasis, the water does more than ease thirst. It quickens and changes nearby plants and wildlife. Along the damp shores, mushrooms swell with spores that carry the waters' concentrated power and spur growth. Naturalists study the change, while the Royal Apothecary Society gathers the mushrooms for its alchemy. Apothecaries abroad gather unusual local ingredients for their laboratories and colleagues. At the Crossroads, Apothecary Helbrim sends reagents onward, including to Apothecary Zamah in Thunder Bluff. The spores are valuable for brewing potent chemical mixtures. Mysterious forces beneath Kalimdor's soil have altered their natural properties, making them useful to the Forsaken.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_fungal-spores-f93c0ec219edb0a55d9d/1-0000.mp3", duration = 66.8734694, start = 0},
+    {file = "Audio/Transport/full_item_fungal-spores-ab9663486b4a734c0057/1-0000.mp3", duration = 63.2946939, start = 0},
   },
 }
 P.transport["item:furen-s-instructions"] = {
@@ -2018,27 +2018,27 @@ P.transport["item:furlbrow-s-pocket-watch"] = {
   },
 }
 P.transport["item:gaea-seed"] = {
-  hash = "dc24f1",
-  fullHash = "dc24f1",
-  text = "Gaea Seed. Along Mirkfallon Lake, Gaea Seeds offer a way to heal Stonetalon's wounded land. Tauren shamans value the hardy kernels for restoring places scarred by war and industry. Gaea Seeds wash ashore or grow along Mirkfallon Lake in the Stonetalon Mountains. Small and fibrous, they look like coconuts, yet endure harsh conditions. As conflict and industry scar the land, shamans see the seeds as a means to heal it.",
+  hash = "4e1e2e",
+  fullHash = "4e1e2e",
+  text = "Gaea Seed. Along Mirkfallon Lake, Gaea Seed offers hope for Stonetalon's wounded land. Tauren shamans value its hardy kernels for healing places scarred by war and industry. Gaea Seeds wash ashore or grow along Mirkfallon Lake in the Stonetalon Mountains. Small and fibrous, they resemble coconuts and endure harsh conditions. Conflict and industry have scarred the land, so shamans turn to the seeds to help heal it.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_gaea-seed-cacbdb7d52e7da351364/1-0000.mp3", duration = 29.6228571, start = 0},
+    {file = "Audio/Transport/full_item_gaea-seed-9c67eb2863ad4b9ac854/1-0000.mp3", duration = 28.2383673, start = 0},
   },
 }
 P.transport["item:gaffer-jack"] = {
-  hash = "233a7b",
-  fullHash = "233a7b",
-  text = "Gaffer Jack. Off Auberdine, Gaffer Jack parts lie beneath Darkshore's waves. Wizbang Cranktoggle lost a crate of them during his voyage across the sea. Gnome tinkerer Wizbang Cranktoggle booked passage to Auberdine, seeking quiet away from Ironforge's forge-works and taverns. During the voyage, he drank too much and fumbled an entire container of gaffer jacks over the railing. The small fasteners sank into Darkshore's coastal waters, leaving Wizbang without the parts he needed to tune his stintle pegs. The gaffer jacks sank in the surf along Darkshore's shore, where patient fishermen sometimes snag them on their hooks. Recovering the parts lets Wizbang assemble his strange contraptions. Finding tiny metal hardware in the open sea takes patience and luck.",
+  hash = "13f961",
+  fullHash = "13f961",
+  text = "Gaffer Jack. Off Auberdine, Gaffer Jack parts lie beneath Darkshore's waves. Wizbang Cranktoggle lost a crate during his voyage across the sea. Gnome tinkerer Wizbang Cranktoggle booked passage to Auberdine for quiet away from Ironforge's forge-works and taverns. During the voyage, he drank too much and fumbled a whole container of gaffer jacks over the railing. The small fasteners sank into Darkshore's coastal waters. Without them, Wizbang could not tune his stintle pegs. Gaffer jacks sank in the surf along Darkshore's shore, where patient fishermen sometimes catch them on their hooks. Recovering the parts lets Wizbang assemble his strange contraptions. Finding tiny metal hardware in the open sea takes patience and luck.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_gaffer-jack-213c5e2bfd82ac7415f8/1-0000.mp3", duration = 45.5314286, start = 0},
+    {file = "Audio/Transport/full_item_gaffer-jack-80a021fe6f001ef191bd/1-0000.mp3", duration = 44.8, start = 0},
   },
 }
 P.transport["item:gallywix-s-head"] = {
-  hash = "a1a4a1",
-  fullHash = "a1a4a1",
-  text = "Gallywix's Head. In Orgrimmar, Gallywix's Head proves that a Venture Company overseer was executed. The Shattered Hand demands the trophy as proof of the killing. Grand Foreman Puzik Gallywix directed the Venture Company's work from its tower north of the Sludge Fen. When word arrived that the Venture Co. planned something on a grand scale, the Shattered Hand sent operatives to dismantle the facility. Bringing Gallywix's head to Shenthul in Orgrimmar proves the overseer was executed and secures the rogue's standing within the guild.",
+  hash = "62df9a",
+  fullHash = "62df9a",
+  text = "Gallywix's Head. In Orgrimmar, the Shattered Hand awaits proof that Puzik Gallywix has been killed. His head will show the Venture Company overseer was executed. Grand Foreman Puzik Gallywix directed the Venture Company's work from a tower north of the Sludge Fen. When word came that the Venture Co. planned something on a grand scale, the Shattered Hand sent operatives to dismantle the facility. Bring Gallywix's head to Shenthul in Orgrimmar. It proves the overseer was executed and secures the rogue's standing within the guild.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_gallywix-s-head-ec4a7da4eb5e0a2e7e4a/1-0000.mp3", duration = 31.9477551, start = 0},
+    {file = "Audio/Transport/full_item_gallywix-s-head-69602144899e30946a5b/1-0000.mp3", duration = 33.3583673, start = 0},
   },
 }
 P.transport["item:galvanized-horn"] = {
@@ -2050,11 +2050,11 @@ P.transport["item:galvanized-horn"] = {
   },
 }
 P.transport["item:gargantuan-tumor"] = {
-  hash = "697532",
-  fullHash = "697532",
-  text = "Gargantuan Tumor. In Teldrassil, a great growth was torn from Oakenscowl, the corrupted timberling by Lake Al'Ameth. The tumor bears witness to sickness spreading among the creatures there. Oakenscowl lurks in a cavern near Lake Al'Ameth's southern bank. Once a noble timberling elder, the creature has fallen to a vile affliction. A huge growth poisoned Oakenscowl, warped its behavior, and spread taint through the surrounding wildlife. The tumor was severed to end the beast's rampage and give local researchers a chance to examine the blight. They hope to learn how the malady took root in the boughs of the newly grown World Tree.",
+  hash = "1a1435",
+  fullHash = "1a1435",
+  text = "Gargantuan Tumor. In Teldrassil, a great growth was cut from Oakenscowl near Lake Al'Ameth. Its blight marks the sickness spreading among the creatures there. Oakenscowl lurks in a cavern near the southern bank of Lake Al'Ameth. Once a noble timberling elder, it has fallen to a vile affliction. A huge growth poisoned Oakenscowl and warped its behavior. The tumor also spread taint through the surrounding wildlife.\n\nThe growth was severed to end Oakenscowl's rampage and give local researchers a chance to study the blight. They hope to learn how the malady took root in the boughs of the newly grown World Tree.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_gargantuan-tumor-bfb47ff9b0f933ac3006/1-0000.mp3", duration = 39.7583673, start = 0},
+    {file = "Audio/Transport/full_item_gargantuan-tumor-f3e2a50e29bad4368c0e/1-0000.mp3", duration = 37.3289796, start = 0},
   },
 }
 P.transport["item:garrick-s-head"] = {
@@ -2066,91 +2066,91 @@ P.transport["item:garrick-s-head"] = {
   },
 }
 P.transport["item:gazlowe-s-ledger"] = {
-  hash = "b59dca",
-  fullHash = "b59dca",
-  text = "Gazlowe's Ledger. In Ratchet, Gazlowe checks his trade records against the harbor manifest when a shipment from Booty Bay goes missing. Gazlowe tracks trade goods in Ratchet with a personal ledger. It records imported crates, outbound cargo, and warehouse stores. When a shipment from Booty Bay is missing, Gazlowe compares his expected inventory with the dock records kept by Wharfmaster Dizzywig.",
+  hash = "b60988",
+  fullHash = "b60988",
+  text = "Gazlowe's Ledger. A shipment from Booty Bay is missing, and Gazlowe checks his records against Ratchet's harbor manifest. Gazlowe keeps a personal ledger of trade goods in Ratchet. It records imported crates, outbound cargo, and what is stored in the warehouses. When a shipment from Booty Bay goes missing, he compares the goods he expected with the dock records kept by Wharfmaster Dizzywig.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_gazlowe-s-ledger-d93aab3300f99333c606/1-0000.mp3", duration = 24.1110204, start = 0},
+    {file = "Audio/Transport/full_item_gazlowe-s-ledger-685a641e57a410cb4655/1-0000.mp3", duration = 23.3534694, start = 0},
   },
 }
 P.transport["item:gem-of-anacondra"] = {
-  hash = "30a6dd",
-  fullHash = "30a6dd",
-  text = "Gem of Anacondra. The Gem of Anacondra is one of four dream gems held by the corrupted serpent leaders within the Wailing Caverns. Carried by Lady Anacondra, it serves as tangible proof of her defeat and the curbing of the Nightmare's spread over the Barrens. When Naralex entered his deep slumber to bring water and life back to the arid Barrens, the Emerald Nightmare invaded his thoughts and warped his closest disciples. Lady Anacondra and her fellow conspirators abandoned their traditional ways to become the Druids of the Fang, twisting their noble restorative purpose into a toxic delusion. The Gem of Anacondra is one of the four dream gems carried by these serpentine leaders, focusing their corrupted bond with the Emerald Dream and anchoring the nightmare within the cave system.",
+  hash = "93dbc7",
+  fullHash = "93dbc7",
+  text = "Gem of Anacondra. In the Wailing Caverns, Lady Anacondra bears one of four dream gems held by the corrupted serpent leaders. The stones are bound to the nightmare spreading through the Barrens. When Naralex fell into deep slumber, he sought to bring water and life back to the arid Barrens. Then the Emerald Nightmare entered his thoughts and twisted his closest disciples. Lady Anacondra and her fellow conspirators left their old ways and became the Druids of the Fang. Their purpose was to restore the land, but it turned into a toxic delusion.\n\nLady Anacondra carries one of four dream gems held by these serpent leaders. The gem focuses their corrupted bond with the Emerald Dream and anchors the nightmare within the cave system.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_gem-of-anacondra-33b3ea926c0905c52f73/1-0000.mp3", duration = 46.315102, start = 0},
+    {file = "Audio/Transport/full_item_gem-of-anacondra-668f63f500a3c9cacad6/1-0000.mp3", duration = 45.6620408, start = 0},
   },
 }
 P.transport["item:gem-of-cobrahn"] = {
-  hash = "ebf758",
-  fullHash = "ebf758",
-  text = "Gem of Cobrahn. The Gem of Cobrahn is a dream gem carried by Lord Cobrahn, one of the corrupt leaders of the Druids of the Fang within the Wailing Caverns. It serves as both a focus of his corrupted reverie and physical proof needed by Nara Wildmane to confirm his defeat. When the night elf druid Naralex entered the Emerald Dream to restore the barren plains of Kalimdor, his nightmare twisted both the Wailing Caverns and his disciples. Among them was Cobrahn, who abandoned the peaceful ways of the Cenarion Circle to take the shape of the serpent. Lord Cobrahn carries one of the four dream gems that anchor the leaders' hold over the subterranean waterways, using it to channel the twisted dreams that threaten to transform the Barrens into a venomous marsh.",
+  hash = "e4a279",
+  fullHash = "e4a279",
+  text = "Gem of Cobrahn. In the Wailing Caverns, Lord Cobrahn bears a dream gem shaped by corruption. Nara Wildmane needs it as proof of his defeat. Naralex entered the Emerald Dream to restore Kalimdor's barren plains. His nightmare twisted the Wailing Caverns and turned his disciples from their purpose. Cobrahn forsook the peaceful ways of the Cenarion Circle and took the shape of a serpent. He now carries one of four dream gems that anchor the leaders' hold over the subterranean waterways. Through it, he channels twisted dreams that threaten to make the Barrens a venomous marsh.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_gem-of-cobrahn-484b54575669185dc344/1-0000.mp3", duration = 45.6881633, start = 0},
+    {file = "Audio/Transport/full_item_gem-of-cobrahn-e840f34ab28d3ebe1151/1-0000.mp3", duration = 36.8326531, start = 0},
   },
 }
 P.transport["item:gem-of-pythas"] = {
-  hash = "21b460",
-  fullHash = "21b460",
-  text = "Gem of Pythas. The Gem of Pythas is one of four corrupted dream gems carried by the leaders of the Druids of the Fang within the Wailing Caverns. Held by Lord Pythas, it fuels the nightmare twisting the subterranean oasis and threatening the Barrens. When Naralex entered the Emerald Dream to restore the arid Barrens, his noble vision was twisted into a living nightmare. His foremost followers fell with him, styling themselves the Druids of the Fang and seeking to remake the surface world into a venomous jungle. Lord Pythas carries this resonant stone, one of four dream gems anchoring the corruption within the caverns. The gem serves as a conduit of their dark design and proof to the druids of Thunder Bluff that Pythas's twisted trance has finally been broken.",
+  hash = "fe778b",
+  fullHash = "fe778b",
+  text = "Gem of Pythas. In the Wailing Caverns, Lord Pythas bears one of four corrupted dream gems. Together, the gems feed the nightmare twisting the underground oasis and threaten the Barrens. Naralex entered the Emerald Dream to restore the arid Barrens. There, his vision became a living nightmare. His foremost followers fell with him and became the Druids of the Fang. Now they seek to remake the surface world as a venomous jungle.\n\nLord Pythas bears one of four dream gems that anchor the corruption in the caverns. The stone channels the druids’ dark design. It also proves to the druids of Thunder Bluff that Pythas’s twisted trance has been broken.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_gem-of-pythas-d17015023b69a6d78663/1-0000.mp3", duration = 45.5314286, start = 0},
+    {file = "Audio/Transport/full_item_gem-of-pythas-e82844bc27f3f9eb5fbf/1-0000.mp3", duration = 42.2661224, start = 0},
   },
 }
 P.transport["item:gem-of-serpentis"] = {
-  hash = "132e2c",
-  fullHash = "132e2c",
-  text = "Gem of Serpentis. The Gem of Serpentis is a dream gem carried by Lord Serpentis, one of the four leaders of the Druids of the Fang in the Wailing Caverns. It acts as a focal conduit for the twisted nightmare reshaping the cave network and threatening the Barrens. When Naralex's slumber inside the Wailing Caverns succumbed to the Emerald Nightmare, his most devoted followers were warped into the fanatical Druids of the Fang. Lord Serpentis is one of the cabal's four leaders. Like the other three, Serpentis carries an enchanted dream gem that anchors their collective will to the corrupted vision. Recovering this gem breaks Serpentis's hold over the cavern's ecosystem, striking directly at the leadership directing the corruption spreading across the Barrens.",
+  hash = "89e591",
+  fullHash = "89e591",
+  text = "Gem of Serpentis. Deep in the Wailing Caverns, Lord Serpentis keeps the Gem of Serpentis close. The enchanted dream gem binds his will to the corrupted vision reshaping the caverns and threatening the Barrens. Naralex fell into slumber in the Wailing Caverns, and the Emerald Nightmare reached him there. His most devoted followers became the fanatical Druids of the Fang. Lord Serpentis leads one part of the cabal, with three other leaders beside him. Each carries an enchanted dream gem, binding their shared will to the corrupted vision. Recovering Serpentis's gem breaks his hold over the caverns' life and strikes at the leaders directing corruption across the Barrens.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_gem-of-serpentis-6a49ad593758dbb0c1d6/1-0000.mp3", duration = 43.5461224, start = 0},
+    {file = "Audio/Transport/full_item_gem-of-serpentis-31da17236c826eb100b7/1-0000.mp3", duration = 42.2661224, start = 0},
   },
 }
 P.transport["item:gerenzo-s-mechanical-arm"] = {
-  hash = "9dab03",
-  fullHash = "9dab03",
-  text = "Gerenzo's Mechanical Arm. In the Stonetalon Mountains, goblin operatives seek Gerenzo's Mechanical Arm as proof while clearing out competition. Taken from rogue engineer Gerenzo Wrenchwhistle, the grafted limb marks his death. Above Cragpool Lake, rogue engineer Gerenzo Wrenchwhistle grafted whirring gears and metal onto his failing body. The renegade gnome replaced his natural limbs with intricate machinery. Goblin tinker Ziz Fizziks seeks Gerenzo's elimination to impress his superiors, and this distinctive arm is the trophy he needs as indisputable proof of the engineer's death.",
+  hash = "f2d6c0",
+  fullHash = "f2d6c0",
+  text = "Gerenzo's Mechanical Arm. In the Stonetalon Mountains, goblin operatives seek Gerenzo's Mechanical Arm to prove his death and clear out competition. The grafted limb belonged to rogue engineer Gerenzo Wrenchwhistle. Above Cragpool Lake, rogue engineer Gerenzo Wrenchwhistle grafted whirring gears and metal onto his failing body. The renegade gnome replaced his natural limbs with intricate machinery. Goblin tinker Ziz Fizziks wants Gerenzo eliminated to impress his superiors. The distinctive arm is the proof he needs of the engineer's death.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_gerenzo-s-mechanical-arm-77c7789e7f542c4b39c4/1-0000.mp3", duration = 36.4146939, start = 0},
+    {file = "Audio/Transport/full_item_gerenzo-s-mechanical-arm-f5780dff9ee2aa81439f/1-0000.mp3", duration = 32.4963265, start = 0},
   },
 }
 P.transport["item:ghost-hair-comb"] = {
-  hash = "d83a59",
-  fullHash = "d83a59",
-  text = "Ghost Hair Comb. Madame Eva sends Ghost Hair Comb to Blind Mary at her lonely home on Duskwood’s outskirts. The comb stirs grief, then yields ghostly hair for Eva to spin into thread. Madame Eva of Darkshire sends Ghost Hair Comb to Blind Mary, who lives in a lonely, dilapidated dwelling on Duskwood’s outskirts. At the sight of it, the ghost recoils in horror. She must face that she is no longer the lovely living woman she remembers. Grief-stricken, Mary thrusts the comb away, leaving strands of her ghostly hair tangled in its teeth.",
+  hash = "08a4d1",
+  fullHash = "08a4d1",
+  text = "Ghost Hair Comb. In Duskwood, Madame Eva sends Ghost Hair Comb to Blind Mary, whose grief leaves ghostly hair caught in its teeth. Madame Eva sends Ghost Hair Comb from Darkshire to Blind Mary, who lives in a lonely, dilapidated dwelling on Duskwood’s outskirts. At its sight, the ghost recoils in horror. Mary must face that she is no longer the lovely living woman she remembers. Grief-stricken, she thrusts the comb away, leaving strands of ghostly hair tangled in its teeth.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_ghost-hair-comb-d34f37d44a8f676d7c1c/1-0000.mp3", duration = 34.6644898, start = 0},
+    {file = "Audio/Transport/full_item_ghost-hair-comb-cc80ffd4649cc4218ad1/1-0000.mp3", duration = 29.675102, start = 0},
   },
 }
 P.transport["item:ghost-hair-thread"] = {
-  hash = "a556ea",
-  fullHash = "a556ea",
-  text = "Ghost Hair Thread. In Darkshire, Madame Eva spins Ghost Hair Thread from the spirit world. Its occult powers can bind spirits or stitch life into inanimate things. Abercrombie asks for it to ward his shack against restless ghosts. Madame Eva spins Ghost Hair Thread in Darkshire, where its strange powers are known. Eva says the spectral strand can bind malevolent spirits or stitch vitality into inanimate objects. In Duskwood, it can be used in rituals and wards.",
+  hash = "439244",
+  fullHash = "439244",
+  text = "Ghost Hair Thread. In Darkshire, Madame Eva spins Ghost Hair Thread from the spirit world. Its occult power can bind spirits or stitch life into inanimate things, and Abercrombie asks for it to ward his shack against restless ghosts. In Darkshire, Madame Eva spins Ghost Hair Thread, a spectral strand with strange powers. Eva says it can bind malevolent spirits or stitch vitality into inanimate objects. In Duskwood, people use it in rituals and wards.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_ghost-hair-thread-bc75206285a362b2906a/1-0000.mp3", duration = 28.5257143, start = 0},
+    {file = "Audio/Transport/full_item_ghost-hair-thread-45c4a019081e1bc59adc/1-0000.mp3", duration = 29.3093878, start = 0},
   },
 }
 P.transport["item:ghoul-fang"] = {
-  hash = "2c0885",
-  fullHash = "2c0885",
-  text = "Ghoul Fang. In Duskwood, Ghoul Fang is gathered from the undead for Madame Eva’s protective talismans. The fangs are essential to her work in Darkshire, where travelers face the forest’s encroaching darkness. Ravenous undead haunt Duskwood’s shadowed woods and graves. Flesh Eaters lurk near the burial grounds, while Rotted Ones roam among the trees. Taking a fang from these creatures is grim work, and proof of survival against the dead threatening Darkshire’s borders. Madame Eva, Darkshire’s fortune teller and mystic, sees terrible omens around travelers who cross Duskwood. She combines ghoul fangs with skeletal fingers and arachnid venom to enchant the Totem of Infliction. The charm turns the forest’s dark forces against violent assault, protecting the one who bears it.",
+  hash = "9412c5",
+  fullHash = "9412c5",
+  text = "Ghoul Fang. In Duskwood, travelers face the forest’s encroaching darkness, and Ghoul Fang is gathered for Madame Eva’s protective talismans. The fangs are essential to her work in Darkshire. Ravenous undead haunt Duskwood’s woods and graves. Flesh Eaters lurk near the burial grounds, while Rotted Ones roam among the trees. Taking a fang from these creatures is grim work. It proves survival against the dead threatening Darkshire’s borders. Madame Eva is Darkshire’s fortune teller and mystic. She sees terrible omens around travelers crossing Duskwood, so she enchants the Totem of Infliction with ghoul fangs, skeletal fingers, and arachnid venom. The charm turns the forest’s dark forces against violent assault and protects its bearer.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_ghoul-fang-2a7799853ca2db3cd503/1-0000.mp3", duration = 48.2481633, start = 0},
+    {file = "Audio/Transport/full_item_ghoul-fang-4fddf6b4569600a2217b/1-0000.mp3", duration = 47.3861224, start = 0},
   },
 }
 P.transport["item:ghoul-rib"] = {
-  hash = "6cb1d4",
-  fullHash = "6cb1d4",
-  text = "Ghoul Rib. In Duskwood, ghouls roam the groves and cemeteries, and Abercrombie asks for their ribs. The hermit says he needs them to build an effigy that will ward off the flesh-eating horrors near his shack. Ghouls haunt Duskwood, among them Flesh Eaters, Bone Chewers, Brain Eaters, Rotted Ones, and Plague Spreaders. Abercrombie lives alone in a shack north of Raven Hill Cemetery and asks travelers for their sturdy, rotted ribs. He says he lives beyond the Night Watch’s protection in Darkshire and needs a fearsome effigy to frighten the dead away from his home.",
+  hash = "75f7f7",
+  fullHash = "75f7f7",
+  text = "Ghoul Rib. In Duskwood, Abercrombie gathers Ghoul Rib to guard his shack from the dead. He says a fearsome effigy will frighten the flesh-eating horrors away from his home. Ghouls haunt Duskwood in many forms. Flesh Eaters, Bone Chewers, Brain Eaters, Rotted Ones and Plague Spreaders are among them.\n\nAbercrombie lives alone in a shack north of Raven Hill Cemetery. He asks travelers for their sturdy, rotted ribs. His home lies beyond the Night Watch’s protection in Darkshire, so he says he needs a fearsome effigy to frighten the dead away.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_ghoul-rib-7f90d70fdf4e64da651e/1-0000.mp3", duration = 35.4481633, start = 0},
+    {file = "Audio/Transport/full_item_ghoul-rib-16a4eccce8912cac28f4/1-0000.mp3", duration = 35.9967347, start = 0},
   },
 }
 P.transport["item:giant-crocolisk-skin"] = {
-  hash = "09cde9",
-  fullHash = "09cde9",
-  text = "Giant Crocolisk Skin. In the Wetlands, giant crocolisks yield thick hides that Menethil Harbor tradesmen need for leatherworking. Taking one is perilous work, and more than one hunter has been maimed. The Wetlands' bogs and waterways shelter enormous crocolisks with hides dense enough to resist the marsh's damp rot. In Menethil Harbor, artisans such as James Halloran rely on steady shipments of skins to make rugged leather goods. Reaching a full-grown giant crocolisk means braving deep water and facing a fierce swamp predator, so every hide comes hard-won.",
+  hash = "1a13fc",
+  fullHash = "1a13fc",
+  text = "Giant Crocolisk Skin. In the Wetlands, Menethil Harbor tradesmen need the thick hides of giant crocolisks. Taking one is perilous work, and hunters have been maimed. The Wetlands' bogs and waterways shelter enormous crocolisks whose hides resist the marsh's damp rot. Menethil Harbor artisans such as James Halloran rely on steady shipments to make rugged leather goods. Reaching a full-grown beast means braving deep water and facing a fierce predator, so every hide comes hard-won.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_giant-crocolisk-skin-fa88752c3969c46ab65a/1-0000.mp3", duration = 35.5265306, start = 0},
+    {file = "Audio/Transport/full_item_giant-crocolisk-skin-3bca95511ea02c1c8d8c/1-0000.mp3", duration = 30.0408163, start = 0},
   },
 }
 P.transport["item:gloom-weed"] = {
@@ -2162,35 +2162,35 @@ P.transport["item:gloom-weed"] = {
   },
 }
 P.transport["item:glowing-ember"] = {
-  hash = "0a8a69",
-  fullHash = "0a8a69",
-  text = "Glowing Ember. At the Shrine of Eternal Flame, a Glowing Ember kindles the brazier for a shaman's trial. It comes from a Minor Manifestation of Fire on Durotar's crags. A rising shaman drinks fire sapta to see the fiery spirits on the ridge near Telf Joolam. There, the initiate faces a Minor Manifestation of Fire. When the elemental falls, only a smoldering ember remains of its physical form. Raw elemental heat still pulses within it, carrying the living spark needed to awaken the sacred brazier at the Shrine of Eternal Flame.",
+  hash = "14605f",
+  fullHash = "14605f",
+  text = "Glowing Ember. At the Shrine of Eternal Flame, a Glowing Ember awakens the brazier for a shaman’s trial. It comes from a Minor Manifestation of Fire on Durotar’s crags. A rising shaman drinks fire sapta to see the fiery spirits on the ridge near Telf Joolam. There, the initiate faces a Minor Manifestation of Fire. When the elemental falls, its physical form leaves only a smoldering ember. Raw elemental heat still pulses within it, carrying the spark needed to awaken the sacred brazier at the Shrine of Eternal Flame.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_glowing-ember-c52c7b96c63c7cef6605/1-0000.mp3", duration = 33.6979592, start = 0},
+    {file = "Audio/Transport/full_item_glowing-ember-100c8f9ee4fa774bb64f/1-0000.mp3", duration = 33.1232653, start = 0},
   },
 }
 P.transport["item:glowing-fruit"] = {
-  hash = "fc132f",
-  fullHash = "fc132f",
-  text = "Glowing Fruit. On Teldrassil, a strange fruit glows beneath unusual fronds. Denalan at Lake Al'Ameth studies its strange reaction to the World Tree's soil. The Glowing Fruit hangs beneath unusual fronds on Teldrassil, bright and round. Botanist Denalan at Lake Al'Ameth recognizes it as foreign to the World Tree. He thinks its seeds came from distant lands across the sea. Its reaction to Teldrassil's rich, enchanted soil shows how foreign plants can affect the young World Tree.",
+  hash = "fe013c",
+  fullHash = "fe013c",
+  text = "Glowing Fruit. Beneath strange fronds on Teldrassil, Glowing Fruit shines with its own light. Denalan at Lake Al'Ameth studies how it reacts to the World Tree's soil. Beneath unusual fronds on Teldrassil, Glowing Fruit hangs bright and round. Botanist Denalan at Lake Al'Ameth knows it is foreign to the World Tree. He believes its seeds came from distant lands across the sea. Its reaction to Teldrassil's rich, enchanted soil shows how foreign plants can affect the young World Tree.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_glowing-fruit-51be67155e6879c23aab/1-0000.mp3", duration = 29.5444898, start = 0},
+    {file = "Audio/Transport/full_item_glowing-fruit-bf754ed226fe0f24464a/1-0000.mp3", duration = 29.962449, start = 0},
   },
 }
 P.transport["item:glowing-gem"] = {
-  hash = "a2a001",
-  fullHash = "a2a001",
-  text = "Glowing Gem. At Lake Falathim, the Glowing Gem lies among the murlocs after Teronis fell seeking it. The stone holds magic needed to restore Dartol's rod. Murlocs near Lake Falathim hold the Glowing Gem, a stone with latent magic. Teronis, a young night elf from Astranaar, went after it to find a way to push back the corruption spreading through Ashenvale's forests. Teronis died at the lake, but the stone remained intact among the scavengers along the shore.",
+  hash = "54e7e1",
+  fullHash = "54e7e1",
+  text = "Glowing Gem. At Lake Falathim, the Glowing Gem remains among the murlocs after Teronis died seeking it. Its magic may help restore Dartol's rod. Murlocs hold the Glowing Gem near Lake Falathim. The stone bears latent magic. Teronis came from Astranaar to seek a way to push back the corruption spreading through Ashenvale's forests. He died at the lake, and the gem stayed among the scavengers along the shore.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_glowing-gem-85e97be1ec01a356d0b3/1-0000.mp3", duration = 28.5257143, start = 0},
+    {file = "Audio/Transport/full_item_glowing-gem-56eb47244bac4be14857/1-0000.mp3", duration = 26.0179592, start = 0},
   },
 }
 P.transport["item:glowing-soul-gem"] = {
-  hash = "2a418d",
-  fullHash = "2a418d",
-  text = "Glowing Soul Gem. In Ordil'Aran, the Glowing Soul Gem serves the Cult of the Dark Strand's work in northern Ashenvale. Shadow sorcery fills the stone, which holds the spirit of an unwitting victim. Northeast of Maestra's Post, the ruins of Ordil'Aran shelter members of the Cult of the Dark Strand and their shadowy masters. The cult's operatives carry Glowing Soul Gems, enchanted vessels that trap and torment the souls of the dead. These stones channel magical energy and bind spirits to the cult's ends.",
+  hash = "b3bdbf",
+  fullHash = "b3bdbf",
+  text = "Glowing Soul Gem. In Ordil'Aran, the Glowing Soul Gem serves the Cult of the Dark Strand's work in northern Ashenvale. Shadow sorcery fills the stone, which holds the spirit of an unwitting victim. Northeast of Maestra's Post, the ruins of Ordil'Aran shelter the Cult of the Dark Strand and its shadowy masters. The cult's operatives carry Glowing Soul Gems, enchanted vessels that trap and torment the souls of the dead. The stones channel magical energy and bind spirits to the cult's ends.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_glowing-soul-gem-0057ce728a57c8922003/1-0000.mp3", duration = 30.6677551, start = 0},
+    {file = "Audio/Transport/full_item_glowing-soul-gem-7245da6c37b8192467b9/1-0000.mp3", duration = 31.3730612, start = 0},
   },
 }
 P.transport["item:glutton-shackle"] = {
@@ -2234,27 +2234,27 @@ P.transport["item:glyphic-scroll"] = {
   },
 }
 P.transport["item:glyphic-tablet"] = {
-  hash = "0453f8",
-  fullHash = "0453f8",
-  text = "Glyphic Tablet. In the Valley of Trials, Gornek gives the Glyphic Tablet to novice Darkspear troll mages. Its summons sends them to Mai'ah for instruction in arcane magic. New Darkspear initiates with an affinity for arcane power receive the Glyphic Tablet in the Valley of Trials. Gornek passes it to young recruits as they handle early tasks around the red canyons. On the slate, Mai'ah, a seasoned troll mage outside the Den, invites them to meet her. The Darkspear follow arcane traditions unlike the scholarly academies of humans or high elves. Mai'ah offers instruction and a solemn warning: raw magic corrupts and deceives, and its dangers to a mage's mind exceed those of any enemy soldier.",
+  hash = "5dc3f4",
+  fullHash = "5dc3f4",
+  text = "Glyphic Tablet. In the Valley of Trials, Gornek gives novice Darkspear troll mages the Glyphic Tablet. Its summons sends them to Mai'ah for instruction in arcane magic. Darkspear recruits with an affinity for arcane power receive the Glyphic Tablet in the Valley of Trials. Gornek hands it to young mages as they handle early tasks around the red canyons. On the slate, Mai'ah, a seasoned troll mage outside the Den, invites them to meet her.\n\nThe Darkspear follow arcane traditions unlike the scholarly academies of humans or high elves. Mai'ah offers instruction and a solemn warning. Raw magic corrupts and deceives, and its dangers to a mage's mind exceed those of any enemy soldier.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_glyphic-tablet-574dfcf24773f03b48e6/1-0000.mp3", duration = 45.7665306, start = 0},
+    {file = "Audio/Transport/full_item_glyphic-tablet-fdbc4f8d484bf8fc003e/1-0000.mp3", duration = 45.6881633, start = 0},
   },
 }
 P.transport["item:glyphs-of-summoning"] = {
-  hash = "b0c4ff",
-  fullHash = "b0c4ff",
-  text = "Glyphs of Summoning. In Orgrimmar, apprentice warlocks use the Glyphs of Summoning to call a voidwalker. Transcribed from the ancient Tablet of Verga, the inscriptions draw one from the Nether into a summoning circle and bind it to the warlock’s service. In the Cleft of Shadow, warlocks study the dark arts far from the prying eyes of the Warchief’s guards. For an aspiring warlock learning from Gan'rul Bloodeye, commanding a voidwalker marks an important step. The Glyphs of Summoning come from knowledge inscribed on the Tablet of Verga, and bridge Azeroth and the Nether. In Neeru Fireblade's tent, the warlock lays them within a summoning circle. They open a threshold and draw a creature of the Void into the mortal realm. Before Gan'rul teaches the final methods of binding, the warlock must defeat the summoned creature in combat.",
+  hash = "e6765a",
+  fullHash = "e6765a",
+  text = "Glyphs of Summoning. In Orgrimmar, warlocks prepare the Glyphs of Summoning to call a voidwalker. The inscriptions come from the ancient Tablet of Verga and draw a creature from the Nether into a summoning circle, where it can be bound to the warlock’s service. In the Cleft of Shadow, warlocks study the dark arts beyond the Warchief’s guards. For an aspiring warlock who learns from Gan'rul Bloodeye, commanding a voidwalker marks an important step. The Glyphs of Summoning draw on the Tablet of Verga and bridge Azeroth and the Nether.\n\nInside Neeru Fireblade's tent, the warlock lays the glyphs in a summoning circle. They open a threshold and draw a creature of the Void into the mortal realm. Before Gan'rul teaches the final methods of binding, the warlock must defeat the creature in combat.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_glyphs-of-summoning-2a6ae1966976cbad86b0/1-0000.mp3", duration = 50.2595918, start = 0},
+    {file = "Audio/Transport/full_item_glyphs-of-summoning-26ed9ba46273cb8fa95d/1-0000.mp3", duration = 49.5020408, start = 0},
   },
 }
 P.transport["item:gnoam-sprecklesprocket"] = {
-  hash = "caa455",
-  fullHash = "caa455",
-  text = "Gnoam Sprecklesprocket. Deep in the Deadmines, Gnoam Sprecklesprocket powers a plan to reach Gnomeregan. Shoni the Shilent seeks it for drilling machines that could breach the rock around the lost gnomish home. Sneed's shredder runs deep in the Defias stronghold. The goblin taskmaster Sneed pilots the machine, whose compact power core supplies energy for heavy logging and cutting blades. Its steady output makes the Gnoam Sprecklesprocket valuable salvage in the tunnels of Westfall. In Stormwind City, the gnomish inventor Shoni the Shilent has chosen the Deadmines shredder for a larger effort. Gnomish forces seek to reclaim Gnomeregan from the troggs who overran it, but sealed underground approaches block the way. Shoni plans to power heavy gyrodrillmatic excavationators with the Sprecklesprocket. They could bore through the bedrock around the lost techno-city and open an unexpected route for an underground assault.",
+  hash = "1b13f3",
+  fullHash = "1b13f3",
+  text = "Gnoam Sprecklesprocket. In the Deadmines, Shoni the Shilent seeks a power source for the effort to reach Gnomeregan. Gnoam Sprecklesprocket can drive drilling machines meant to breach the rock around the lost gnomish home. Deep in the Defias stronghold, Sneed's shredder cuts timber under the goblin taskmaster Sneed's hand. Its compact power core drives heavy logging and cutting blades. The Gnoam Sprecklesprocket gives the machine steady power, making it valuable salvage in Westfall's tunnels. In Stormwind City, the gnomish inventor Shoni the Shilent has chosen the Deadmines shredder for a greater effort. Gnomish forces seek to reclaim Gnomeregan from the troggs who overran it, but sealed underground approaches bar the way. Shoni plans to power heavy gyrodrillmatic excavationators with the Sprecklesprocket. The machines could bore through bedrock around the lost techno-city and open an unexpected route for an underground assault.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_gnoam-sprecklesprocket-9bb2f5e24031f4bbadec/1-0000.mp3", duration = 54.2563265, start = 0},
+    {file = "Audio/Transport/full_item_gnoam-sprecklesprocket-3f4b5c29efea40388a9b/1-0000.mp3", duration = 56.7118367, start = 0},
   },
 }
 P.transport["item:gnoll-paw"] = {
@@ -2274,11 +2274,11 @@ P.transport["item:gnomeregan-gumdrop"] = {
   },
 }
 P.transport["item:gnomish-tools"] = {
-  hash = "c2c334",
-  fullHash = "c2c334",
-  text = "Gnomish Tools. Along Durotar's coast, Gnomish Tools lie among the wrecks of Proudmoore's fleet. The Horde seeks the salvaged devices to study Alliance engineering and adapt its innovations for survival. Grand Admiral Daelin Proudmoore's fleet brought vast supplies of modern equipment to Durotar. Proudmoore led Kul Tiras and Alliance forces to its shores, with sophisticated gear made by their gnomish allies aboard. After the fleet was destroyed along the Scuttle Coast, east of Tiragarde Keep, the delicate mechanical kits sank beneath the waves. Waterproof toolboxes still lie among the rotting timbers and barnacle-encrusted hulls in the shallows. Gar'Thok, who oversees Razor Hill, sent Horde scouts to recover tools from the watery grave of Proudmoore's navy. The orcs know humans and gnomes are skilled in engineering, especially siege engines, shipwrighting, and clockwork mechanics. They send the kits by caravan to craftsmen and scholars in Orgrimmar. There, the Horde means to study Alliance contraptions, learn to counter enemy war machines, and adapt foreign innovations for its own survival.",
+  hash = "e741b0",
+  fullHash = "e741b0",
+  text = "Gnomish Tools. Along Durotar’s coast, Gnomish Tools from Proudmoore’s fleet are being recovered by the Horde. The salvaged devices may teach its craftsmen how Alliance engineering works and how to adapt it for survival. Grand Admiral Daelin Proudmoore’s fleet brought vast supplies of modern equipment to Durotar. Proudmoore led Kul Tiras and Alliance forces to its shores, with sophisticated gear made by their gnomish allies aboard. After the fleet was destroyed along the Scuttle Coast, east of Tiragarde Keep, delicate mechanical kits sank beneath the waves. Waterproof toolboxes still lie among the rotting timbers and barnacle-encrusted hulls in the shallows. Gar'Thok, who oversees Razor Hill, sent Horde scouts to recover tools from the watery grave of Proudmoore’s navy. The orcs know humans and gnomes are skilled in engineering, especially siege engines, shipwrighting, and clockwork mechanics. So the kits travel by caravan to craftsmen and scholars in Orgrimmar. There, the Horde intends to study Alliance contraptions, learn to counter enemy war machines, and adapt foreign innovations for its own survival.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_gnomish-tools-725505ff589e1a5e75b6/1-0000.mp3", duration = 68.1534694, start = 0},
+    {file = "Audio/Transport/full_item_gnomish-tools-132b82f61eea3e68df47/1-0000.mp3", duration = 69.642449, start = 0},
   },
 }
 P.transport["item:gold-dust"] = {
@@ -2314,11 +2314,11 @@ P.transport["item:grape-manifest"] = {
   },
 }
 P.transport["item:gray-bear-tongue"] = {
-  hash = "fcd0fb",
-  fullHash = "fcd0fb",
-  text = "Gray Bear Tongue. In Hillsbrad Foothills, gray bear tongues are raw reagents sought by the Royal Apothecary Society in Tarren Mill for experimental toxins. Gray bears roam the wilds around Tarren Mill in several sturdy varieties. Their tongues hold heavy muscular tissue and fluids that Apothecary Lydon uses as a base ingredient for lethal solutions, including the Elixir of Suffering.",
+  hash = "5ca414",
+  fullHash = "5ca414",
+  text = "Gray Bear Tongue. In Hillsbrad Foothills, Apothecary Lydon seeks gray bear tongues for the Royal Apothecary Society's experiments. Gray bears roam the wilds around Tarren Mill in several sturdy varieties. Apothecary Lydon uses their tongues as a base ingredient for lethal solutions, including the Elixir of Suffering.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_gray-bear-tongue-70ed244bae306d55c433/1-0000.mp3", duration = 23.4840816, start = 0},
+    {file = "Audio/Transport/full_item_gray-bear-tongue-48ec5da54aa9001d9fb2/1-0000.mp3", duration = 20.2710204, start = 0},
   },
 }
 P.transport["item:gregor-s-remains"] = {
@@ -2346,27 +2346,27 @@ P.transport["item:grelin-whitebeard-s-journal"] = {
   },
 }
 P.transport["item:grell-earring"] = {
-  hash = "6ecfcf",
-  fullHash = "6ecfcf",
-  text = "Grell Earring. In Bashal'Aran, Grell Earring carries traces of the seal binding Asterion. Wild Grells and Vile Sprites in Bashal'Aran gather scraps among the ruins and make earrings from them. Most mortals see only worthless trinkets. Asterion, an ancient night elf bound there as a tormented phantom, studies the magic lingering on the earrings. He hopes those traces will lead him to the ancient seal that imprisons him.",
+  hash = "aa0454",
+  fullHash = "aa0454",
+  text = "Grell Earring. In Bashal'Aran, Grell Earring bears traces of the seal that binds Asterion. Wild Grells and Vile Sprites gather scraps among Bashal'Aran's ruins and shape them into earrings. Most mortals see only trinkets without worth. But Asterion, an ancient night elf bound there as a tormented phantom, studies the magic they retain. He hopes those traces will lead him to the ancient seal that imprisons him.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_grell-earring-86722b8332dbc1d7c8c5/1-0000.mp3", duration = 24.8163265, start = 0},
+    {file = "Audio/Transport/full_item_grell-earring-f1f44c9b160259a64529/1-0000.mp3", duration = 26.6710204, start = 0},
   },
 }
 P.transport["item:grenka-s-claw"] = {
-  hash = "e7c79f",
-  fullHash = "e7c79f",
-  text = "Grenka's Claw. Grenka's Claw is a physical trophy taken from the formidable harpy Grenka Bloodscreech in the depths of Roguefeather Den. Presented to Dorn Plainstalker at the Weathered Nook, it serves as undeniable proof that an aspiring adventurer has endured a grueling physical trial in the canyon heights. Within the winding caverns of Roguefeather Den, west of Freewind Post, harpies cache food and violently defend their territory against outsiders. To test the physical resilience of young champions, Dorn Plainstalker tasks them with invading the deep roosts and destroying the flock's food reserves. Such brazen provocation inevitably draws the fury of Grenka Bloodscreech. Severing and returning her wicked talon proves that a warrior can withstand wave after wave of enraged harpies and survive the vicious onslaught of their matriarch.",
+  hash = "43b3bc",
+  fullHash = "43b3bc",
+  text = "Grenka's Claw. In Thousand Needles, Grenka's Claw marks survival in the depths of Roguefeather Den. At the Weathered Nook, Dorn Plainstalker receives it as proof of an aspiring adventurer's endurance in the canyon heights. Harpies cache food in Roguefeather Den, west of Freewind Post, and fiercely guard their territory. Dorn Plainstalker sends young champions into the deep roosts to destroy the flock's food reserves and test their strength. Such an intrusion draws Grenka Bloodscreech's fury. Returning her wicked talon proves a warrior endured wave after wave of enraged harpies and survived their matriarch's vicious assault.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_grenka-s-claw-5ea25428d1fee9df9407/1-0000.mp3", duration = 52.5061224, start = 0},
+    {file = "Audio/Transport/full_item_grenka-s-claw-4d063ab2783e7400a5d1/1-0000.mp3", duration = 37.5640816, start = 0},
   },
 }
 P.transport["item:grimtotem-satchel"] = {
-  hash = "0bdb5b",
-  fullHash = "0bdb5b",
-  text = "Grimtotem Satchel. Deep beneath Orgrimmar, Grimtotem Satchel remains in Maur Grimtotem’s grasp. Troggs killed the tauren in Ragefire Chasm, but he shielded the pouch as he died. Its return to Thunder Bluff brings Magatha Grimtotem’s interest to light. Maur Grimtotem fell to troggs deep inside Ragefire Chasm, beneath Orgrimmar. The tauren still clutched the simple leather pack when his body was found. He had fought to protect it while the troggs surrounded him. What could it hold that made him guard it with his life?",
+  hash = "b9dfda",
+  fullHash = "b9dfda",
+  text = "Grimtotem Satchel. Deep beneath Orgrimmar, Grimtotem Satchel stays in Maur Grimtotem’s grasp. Troggs killed the tauren in Ragefire Chasm, but he shielded the pouch as he died. Its return to Thunder Bluff draws Magatha Grimtotem’s attention. Troggs killed Maur Grimtotem deep inside Ragefire Chasm, beneath Orgrimmar. When his body was found, the tauren still clutched a simple leather pack. He had fought to guard it as the troggs closed around him. What could it hold that made him defend it with his life?",
   ["1"] = {
-    {file = "Audio/Transport/full_item_grimtotem-satchel-08d2b4cc1a52f6286eba/1-0000.mp3", duration = 31.6081633, start = 0},
+    {file = "Audio/Transport/full_item_grimtotem-satchel-93d954021c094a128f97/1-0000.mp3", duration = 33.28, start = 0},
   },
 }
 P.transport["item:grizzled-bear-heart"] = {
@@ -2378,19 +2378,19 @@ P.transport["item:grizzled-bear-heart"] = {
   },
 }
 P.transport["item:grizzled-scalp"] = {
-  hash = "fa0eb4",
-  fullHash = "fa0eb4",
-  text = "Grizzled Scalp. In southern Darkshore, grizzled thistle bears roam the forests south of Auberdine. Their thick, furred hides reach Wizbang Cranktoggle, a gnome tinkerer with a use for them.",
+  hash = "4fb417",
+  fullHash = "4fb417",
+  text = "Grizzled Scalp. South of Auberdine, grizzled thistle bears roam Darkshore’s forests, and their thick hides find a use with Wizbang Cranktoggle.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_grizzled-scalp-2243a4805c87bf7978f5/1-0000.mp3", duration = 11.9379592, start = 0},
+    {file = "Audio/Transport/full_item_grizzled-scalp-01c742b6d441aa01e204/1-0000.mp3", duration = 8.72489796, start = 0},
   },
 }
 P.transport["item:gryshka-s-letter"] = {
-  hash = "3b5571",
-  fullHash = "3b5571",
-  text = "Gryshka's Letter. Innkeeper Gryshka sends a note of thanks to Zargh at the Crossroads after receiving fresh meat. The letter also introduces young Horde couriers to the wind rider flight network. Innkeeper Gryshka thanks Zargh for the steaks he sends from the Barrens to Orgrimmar's central tavern. She recalls the time he lost a finger while preparing meat, then teases that he looks handsome even when bloodied by his trade. To return Gryshka's Letter to the Crossroads, you report to Doras, the wind rider master atop Orgrimmar's plateau. Show him that you have already checked in with Devrak at the Crossroads, and Doras introduces young couriers to the wyvern flight paths linking settlements in Durotar and the Barrens.",
+  hash = "3c8476",
+  fullHash = "3c8476",
+  text = "Gryshka's Letter. Innkeeper Gryshka sends Zargh a note of thanks after receiving fresh meat from the Barrens. Her letter also introduces young Horde couriers to the wind rider routes. Innkeeper Gryshka thanks Zargh for the steaks he sends from the Barrens to Orgrimmar. She remembers when he lost a finger preparing meat. Even bloodied by his trade, she tells him, he still looks handsome. To return Gryshka's Letter to the Crossroads, you report to Doras, the wind rider master atop Orgrimmar's plateau. Show him you have already checked in with Devrak at the Crossroads. Then Doras introduces young couriers to the wyvern flight paths linking settlements in Durotar and the Barrens.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_gryshka-s-letter-33e68a34885282193e28/1-0000.mp3", duration = 43.0497959, start = 0},
+    {file = "Audio/Transport/full_item_gryshka-s-letter-5dcc3da3d64c3ab23054/1-0000.mp3", duration = 41.1689796, start = 0},
   },
 }
 P.transport["item:gunther-s-spellbook"] = {
@@ -2434,27 +2434,27 @@ P.transport["item:hallowed-scroll"] = {
   },
 }
 P.transport["item:hallowed-sigil"] = {
-  hash = "53acab",
-  fullHash = "53acab",
-  text = "Hallowed Sigil. In Shadowglen, the Hallowed Sigil summons young night elf initiates to Aldrassil. Shanda sends it to call them into service to Elune. Young night elf priests in Shadowglen receive the Hallowed Sigil from a woodland messenger. Holy markings are engraved on the token, which carries a personal summons from Shanda, the priest trainer at Aldrassil. Read it, then go up to the great hollow of Aldrassil. There, the summons brings the acolyte to the Sisterhood of Elune and begins their service to the Kaldorei as new travelers arrive across Teldrassil.",
+  hash = "832293",
+  fullHash = "832293",
+  text = "Hallowed Sigil. In Shadowglen, the Hallowed Sigil calls young night elf initiates to Aldrassil. Shanda sends it to summon them into service to Elune. Young night elf priests in Shadowglen receive the Hallowed Sigil from a woodland messenger. Holy markings cover the token, which bears a personal summons from Shanda, the priest trainer at Aldrassil. Read the message, then climb to Aldrassil’s great hollow. There, the summons brings the acolyte to the Sisterhood of Elune and begins their service to the Kaldorei as new travelers arrive across Teldrassil.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_hallowed-sigil-a4c85aba87707ed15883/1-0000.mp3", duration = 34.9779592, start = 0},
+    {file = "Audio/Transport/full_item_hallowed-sigil-e43344cdf6620b50fa87/1-0000.mp3", duration = 34.8995918, start = 0},
   },
 }
 P.transport["item:hallowed-tablet"] = {
-  hash = "6849df",
-  fullHash = "6849df",
-  text = "Hallowed Tablet. In the Valley of Trials, the Hallowed Tablet calls young Darkspear priests to Ken'jai. Its words begin their lessons in communing with the spirits. Gornek gives the Hallowed Tablet to a promising troll priest taking their first steps through the Valley of Trials. The words carry a personal invitation from Ken'jai, the priest trainer outside the Den. Ken'jai reads signs and hears the spirits' whispers, sensing when young Darkspear with spiritual potential arrive in Durotar. The tablet tells the initiate to read its message and seek Ken'jai's guidance in channeling spiritual authority.",
+  hash = "e25f30",
+  fullHash = "e25f30",
+  text = "Hallowed Tablet. In the Valley of Trials, the Hallowed Tablet calls young Darkspear priests to Ken'jai. Its words begin their lessons in communing with the spirits. Gornek gives the Hallowed Tablet to a promising troll priest taking their first steps through the Valley of Trials. A personal invitation from Ken'jai, the priest trainer outside the Den, is written upon it. Ken'jai reads signs and hears the spirits' whispers.\n\nSo when young Darkspear with spiritual potential arrive in Durotar, the spirits make their coming known to him. The tablet tells the initiate to read its message and seek Ken'jai's guidance in channeling spiritual authority.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_hallowed-tablet-aac987f86fe4e644376b/1-0000.mp3", duration = 37.2244898, start = 0},
+    {file = "Audio/Transport/full_item_hallowed-tablet-5a937fbdf4cb20ca8aa8/1-0000.mp3", duration = 40.8032653, start = 0},
   },
 }
 P.transport["item:hand-of-dextren-ward"] = {
-  hash = "b0ad71",
-  fullHash = "b0ad71",
-  text = "Hand of Dextren Ward. Darkshire demands proof that Dextren Ward has been executed in the Stormwind Stockade. The severed hand is bound for town, where grieving families await justice for their dead. Dextren Ward was sentenced to death by Lord Ebonlocke after he was caught digging up bodies in Duskwood cemeteries and selling them to the necromancer Morbent Fel. Stormwind intervened before the town could execute him and took him to the Stockade. For Darkshire's grieving families, Ward's hand proves the defiler has been executed, despite the House of Nobles' unwanted leniency.",
+  hash = "5396bb",
+  fullHash = "5396bb",
+  text = "Hand of Dextren Ward. In Darkshire, grieving families await proof that Dextren Ward has been executed in the Stormwind Stockade. His severed hand is bound for town as a sign that justice has reached him. Lord Ebonlocke sentenced Dextren Ward to death after he caught him digging up bodies in Duskwood cemeteries. Ward sold those bodies to the necromancer Morbent Fel. Stormwind intervened before Darkshire could execute him and took him to the Stockade. For the grieving families, Ward's hand proves the defiler has been executed, despite the House of Nobles' unwanted leniency.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_hand-of-dextren-ward-a02e3b8d095545862a9d/1-0000.mp3", duration = 32.6530612, start = 0},
+    {file = "Audio/Transport/full_item_hand-of-dextren-ward-4907647603299606d87a/1-0000.mp3", duration = 35.5787755, start = 0},
   },
 }
 P.transport["item:handful-of-oats-classic"] = {
@@ -2466,19 +2466,19 @@ P.transport["item:handful-of-oats-classic"] = {
   },
 }
 P.transport["item:handful-of-stardust"] = {
-  hash = "5c8ed9",
-  fullHash = "5c8ed9",
-  text = "Handful of Stardust. In the Ruins of Stardust, a pale frost gathers on the bushes south of Astranaar. Night elven healers use the powder to cool intense fevers. Stardust clings to shrubs in the Ruins of Stardust, south of Astranaar. The fine powder shines like frost. Lingering elemental spirits haunt the ruins, yet plants thrive among the broken stones and take in a rare glow. Night elven healers make the residue into poultices for dangerous, persistent fevers. They turn to it when ordinary salves and moonwell waters bring no full relief.",
+  hash = "6cc6a2",
+  fullHash = "6cc6a2",
+  text = "Handful of Stardust. In the Ruins of Stardust, frost gathers on bushes south of Astranaar. Night elven healers use the powder to cool intense fevers. Stardust clings to shrubs in the Ruins of Stardust, south of Astranaar. Its fine powder shines like frost. Elemental spirits linger among the broken stones, yet plants thrive there and take in a rare glow. Night elven healers make the residue into poultices for dangerous, persistent fevers. They use it when ordinary salves and moonwell waters bring no full relief.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_handful-of-stardust-f19ff86ca68b90f0237a/1-0000.mp3", duration = 34.9779592, start = 0},
+    {file = "Audio/Transport/full_item_handful-of-stardust-db2a37135951d80f032b/1-0000.mp3", duration = 33.2538776, start = 0},
   },
 }
 P.transport["item:hardened-tortoise-shell"] = {
-  hash = "b3a140",
-  fullHash = "b3a140",
-  text = "Hardened Tortoise Shell. Hardened Tortoise Shells are remarkably durable carapaces harvested from the sparkleshell tortoises wandering the Shimmering Flats. Coveted by gnomish racers at the Mirage Raceway, these rugged organic plates offer unmatched resistance against volatile and corrosive experimental fuels. The sun-scorched expanse of the Shimmering Flats is home to various breeds of sparkleshell tortoises, including snappers and borers, whose carapaces have evolved into exceptionally tough defenses against the harsh desert salt and wandering predators. Out on the salt flats, standard metal alloy fuel tanks frequently corrode or rupture under the strain of gnomish experimental chemistry. Mechanics like Wizzle Brassbolts prize these shells not for armor or shields, but as organic raw material tough enough to be retrofitted into makeshift, acid-resistant fuel tanks capable of containing volatile rocket propellants.",
+  hash = "7fcbc1",
+  fullHash = "7fcbc1",
+  text = "Hardened Tortoise Shell. Across the Shimmering Flats, racers seek shells tough enough for dangerous fuel. Gnomish racers at the Mirage Raceway prize Hardened Tortoise Shells from sparkleshell tortoises because they resist volatile, corrosive experimental fuels. Sparkleshell tortoises, from snappers to borers, roam the salt flats. Their carapaces shield them from the salt and wandering predators. Gnomish experimental chemistry can corrode or rupture metal fuel tanks. So mechanics such as Wizzle Brassbolts prize the shells as raw material for makeshift tanks that resist acid and hold volatile rocket propellants.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_hardened-tortoise-shell-4d9680d355c237ee4c02/1-0000.mp3", duration = 57.3387755, start = 0},
+    {file = "Audio/Transport/full_item_hardened-tortoise-shell-6050f13ca68476f9eff8/1-0000.mp3", duration = 39.6538776, start = 0},
   },
 }
 P.transport["item:hardened-tumor"] = {
@@ -2490,43 +2490,43 @@ P.transport["item:hardened-tumor"] = {
   },
 }
 P.transport["item:harpy-lieutenant-ring"] = {
-  hash = "58bf8a",
-  fullHash = "58bf8a",
-  text = "Harpy Lieutenant Ring. In the Dry Hills, Harpy Lieutenant Rings mark the Witchwing Slayers who command the flock. Darsok Swiftdagger at the Crossroads asks for them as proof of death. Witchwing Slayers direct attacks on Horde travelers in the Barrens. Their rings mark their place among the flock’s leaders, above the ordinary raiders who fight with little coordination. At the Crossroads, Darsok Swiftdagger and the defenders need the rings taken from fallen slayers to confirm that this part of the harpies’ leadership has been broken.",
+  hash = "17b283",
+  fullHash = "17b283",
+  text = "Harpy Lieutenant Ring. In the Dry Hills, Harpy Lieutenant Ring marks the rank of Witchwing Slayers who command the flock. Darsok Swiftdagger at the Crossroads asks for the rings as proof of their deaths. Witchwing Slayers direct attacks on Horde travelers in the Barrens. Their rings mark them as leaders above the ordinary raiders, who fight with little coordination. Darsok Swiftdagger and the defenders at the Crossroads need rings taken from fallen slayers. The rings confirm that part of the harpies’ leadership has been broken.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_harpy-lieutenant-ring-cda3fe35284a565a4c96/1-0000.mp3", duration = 31.9216327, start = 0},
+    {file = "Audio/Transport/full_item_harpy-lieutenant-ring-346b9cb98b5874db24b2/1-0000.mp3", duration = 29.8318367, start = 0},
   },
 }
 P.transport["item:head-of-arugal"] = {
-  hash = "b72381",
-  fullHash = "b72381",
-  text = "Head of Arugal. At Shadowfang Keep, Head of Arugal is taken from the mad archmage who commands the worgen. The Forsaken at the Sepulcher seek it as proof that he has fallen. Archmage Arugal commands the worgen from Shadowfang Keep in Silverpine Forest. Dalar Dawnweaver at the Sepulcher gives the order to claim his severed head. The Forsaken see Arugal's fall as a blow against the beasts that hinder Lady Sylvanas's hold over Silverpine. Bringing the head to Dawnweaver proves the archmage's sorcery has been cut from the land.",
+  hash = "150ea7",
+  fullHash = "150ea7",
+  text = "Head of Arugal. At Shadowfang Keep, Head of Arugal is claimed from the mad archmage who commands the worgen. The Forsaken at the Sepulcher seek it as proof of his fall. Archmage Arugal commands the worgen from Shadowfang Keep in Silverpine Forest. At the Sepulcher, Dalar Dawnweaver orders his severed head claimed. The Forsaken see Arugal's fall as a blow against the beasts that hinder Lady Sylvanas's hold over Silverpine. Bring the head to Dawnweaver, and it proves Arugal's sorcery has been cut from the land.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_head-of-arugal-c41e1110fbd5b329a0f9/1-0000.mp3", duration = 30.7461224, start = 0},
+    {file = "Audio/Transport/full_item_head-of-arugal-e0efb703329ddacae885/1-0000.mp3", duration = 31.8693878, start = 0},
   },
 }
 P.transport["item:head-of-bazil-thredd"] = {
-  hash = "5353b2",
-  fullHash = "5353b2",
-  text = "Head of Bazil Thredd. Warden Thelwater demands proof that the Stockade uprising has been crushed. The severed head of Bazil Thredd is meant to show that the rebellion's leader is dead and Defias control of Stormwind's prison has ended. Bazil Thredd led the uprising in the Stockade beneath Stormwind City. From his cell block, he directed the riots with the help of loyal Defias inmates. Warden Thelwater distrusts outsiders and struggles to keep order. He demands Thredd's head as proof that the ringleader is dead and to test the adventurer's allegiance to Stormwind.",
+  hash = "692d02",
+  fullHash = "692d02",
+  text = "Head of Bazil Thredd. Warden Thelwater demands proof that the Stockade uprising has been crushed. Bazil Thredd’s severed head is meant to prove the rebel leader is dead and Defias control of Stormwind’s prison has ended. Bazil Thredd led the uprising in the Stockade beneath Stormwind City. From his cell block, he directed the riots with help from loyal Defias inmates. Warden Thelwater distrusts outsiders and struggles to keep order. He demands Thredd’s head to prove the ringleader is dead and test the adventurer’s allegiance to Stormwind.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_head-of-bazil-thredd-8a0f9445096cfe0becb8/1-0000.mp3", duration = 31.6865306, start = 0},
+    {file = "Audio/Transport/full_item_head-of-bazil-thredd-1455fa18f258f498c72a/1-0000.mp3", duration = 32.0783673, start = 0},
   },
 }
 P.transport["item:head-of-deepfury"] = {
-  hash = "b3af5d",
-  fullHash = "b3af5d",
-  text = "Head of Deepfury. At the Stormwind Stockade, Kam Deepfury’s severed head marks the end of a Dark Iron conspirator. His death in the prison riots answers the grievance of the dwarven defenders at Dun Modr. Kam Deepfury was held in the Stormwind Stockade for political reasons, spared immediate execution by human diplomacy. Roggo uncovered that Deepfury had orchestrated the attack on the Thandol Span, which cost the lives of King Magni’s soldiers and Longbraid the Grim’s kin. The Ironforge mountaineers at Dun Modr could not accept his continued imprisonment. Bound to his post, Motley Garmason sent Alliance champions into the rioting prison to take Deepfury’s head and deliver dwarven vengeance.",
+  hash = "ed0839",
+  fullHash = "ed0839",
+  text = "Head of Deepfury. In the Stormwind Stockade, Kam Deepfury’s death in the prison riots answers the grievance of Dun Modr’s dwarven defenders. His severed head marks the end of a Dark Iron conspirator. Kam Deepfury was held in the Stormwind Stockade for political reasons, spared execution through human diplomacy. Roggo uncovered that Deepfury had planned the attack on the Thandol Span, where King Magni’s soldiers and Longbraid the Grim’s kin died. The Ironforge mountaineers at Dun Modr could not accept that he remained imprisoned. Bound to his post, Motley Garmason sent Alliance champions into the rioting prison to take Deepfury’s head and deliver dwarven vengeance.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_head-of-deepfury-d885b5c6dd6a7909e40b/1-0000.mp3", duration = 42.7363265, start = 0},
+    {file = "Audio/Transport/full_item_head-of-deepfury-2e450ae44c4338f64350/1-0000.mp3", duration = 40.3330612, start = 0},
   },
 }
 P.transport["item:head-of-gath-ilzogg"] = {
-  hash = "a5dab9",
-  fullHash = "a5dab9",
-  text = "Head of Gath'Ilzogg. Claiming Gath'Ilzogg's severed head proves the Blackrock warlord has been slain. His fall breaks the leadership behind the siege of Stonewatch Keep and brings desperate relief to Lakeshire. Gath'Ilzogg led the Blackrock assault that took Stonewatch Keep, drove out its defenders, and left the valley under constant raids. Lakeshire stood near ruin, while Stormwind sent almost no military help. Magistrate Solomon offered a bounty on the warlord. Gath'Ilzogg fell in the keep's fortified upper levels, and claiming his head breaks the local Blackrock leadership. For Lakeshire, it is the first step toward reclaiming the keep for the kingdom.",
+  hash = "cd32c1",
+  fullHash = "cd32c1",
+  text = "Head of Gath'Ilzogg. In Redridge, Gath'Ilzogg's fall breaks the Blackrock leadership behind Stonewatch Keep's siege and brings Lakeshire desperate relief. Gath'Ilzogg led the Blackrock assault that seized Stonewatch Keep and drove out its defenders. From there, the valley suffered constant raids. Lakeshire stood near ruin, and Stormwind sent almost no military help. So Magistrate Solomon offered a bounty on the warlord.\n\nGath'Ilzogg fell in the keep's fortified upper levels. His death breaks the local Blackrock leadership. For Lakeshire, it is the first step toward reclaiming the keep for the kingdom.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_head-of-gath-ilzogg-22c4af4ac4ff55801f9f/1-0000.mp3", duration = 40.8816327, start = 0},
+    {file = "Audio/Transport/full_item_head-of-gath-ilzogg-861d9226673a61213a1c/1-0000.mp3", duration = 39.157551, start = 0},
   },
 }
 P.transport["item:head-of-grimson"] = {
@@ -2538,35 +2538,35 @@ P.transport["item:head-of-grimson"] = {
   },
 }
 P.transport["item:head-of-kelris"] = {
-  hash = "ee2d0b",
-  fullHash = "ee2d0b",
-  text = "Head of Kelris. Agents of the Argent Dawn seek Kelris's severed head to confirm his fall and the end of his sacrifices. In Blackfathom Deeps, Twilight Lord Kelris led sacrifices to Aku'mai, a monstrous servant of an Old God. Taking his head marks the end of his rule over the Twilight's Hammer cultists and their naga allies in the cavern. The head must reach the surface so leaders can know his bloody ceremonies have ended. The Argent Dawn had presumed Kelris dead or lost for months before his influence returned with Kalimdor's encroaching shadows. His head, brought to agents in Darnassus or Thunder Bluff, settles lingering bounties and confirms that his attempt to plunge the world into primeval chaos has been stopped.",
+  hash = "454da4",
+  fullHash = "454da4",
+  text = "Head of Kelris. At Blackfathom Deeps, the Argent Dawn seeks Kelris's severed head to confirm his fall and the end of his sacrifices. In Blackfathom Deeps, Twilight Lord Kelris led sacrifices to Aku'mai, a monstrous servant of an Old God. Taking his head marks the end of his rule over the Twilight's Hammer cultists and their naga allies in the cavern. The head must reach the surface so leaders can know his bloody ceremonies have ended. For months, the Argent Dawn believed Kelris dead or lost. Then his influence returned with Kalimdor's encroaching shadows. His head, brought to agents in Darnassus or Thunder Bluff, settles lingering bounties and confirms his attempt to plunge the world into primeval chaos has been stopped.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_head-of-kelris-ec41d4ffbcb5e050b069/1-0000.mp3", duration = 43.284898, start = 0},
+    {file = "Audio/Transport/full_item_head-of-kelris-6e804bbbaac2dbce4b55/1-0000.mp3", duration = 47.3077551, start = 0},
   },
 }
 P.transport["item:head-of-targorr"] = {
-  hash = "54c9b1",
-  fullHash = "54c9b1",
-  text = "Head of Targorr. In the Stormwind Stockade, Targorr the Dread awaits an execution stopped by nobles in Stormwind. Once Gath'Ilzogg's supreme executioner in the Redridge Mountains, the captured orc is now the subject of Guard Berton's demand for proof of his death in Lakeshire. Targorr the Dread earned infamy across Redridge as the Blackrock clan warlord Gath'Ilzogg's brutal executioner. He tortured and slaughtered defenders of the Kingdom of Stormwind before his capture and death sentence in the Stormwind Stockade. Stormwind nobles intervened and mysteriously suspended the sentence. Guardsmen like Berton suspect foul play and corruption in the capital. Guard Berton fears Targorr could become a political pawn or arrange an escape, so he hires an outside champion to enter the volatile prison and finish what the courts delayed. Taking Targorr's head bypasses the stalled legal system and gives closure to grieving families and Lakeshire's besieged defenders, who suffered under the executioner's blades.",
+  hash = "dec50c",
+  fullHash = "dec50c",
+  text = "Head of Targorr. In the Stormwind Stockade, nobles have halted Targorr's execution. The orc once served Gath'Ilzogg in the Redridge Mountains, and Guard Berton in Lakeshire now demands proof of his death. Targorr the Dread was the Blackrock clan warlord Gath'Ilzogg's feared executioner in Redridge. Before his capture, he tortured and slaughtered defenders of the Kingdom of Stormwind. Sentenced to die in the Stormwind Stockade, he was spared when Stormwind nobles intervened. Guardsmen like Berton suspect foul play and corruption in the capital. Guard Berton fears Targorr could become a political pawn or arrange an escape. So he hires an outside champion to enter the volatile prison and finish what the courts delayed. Taking Targorr's head bypasses the stalled legal system. It also gives closure to grieving families and Lakeshire's besieged defenders, who suffered under the executioner's blades.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_head-of-targorr-56d7b3d25ae66ff3e354/1-0000.mp3", duration = 58.4881633, start = 0},
+    {file = "Audio/Transport/full_item_head-of-targorr-0241d392209e6ea0dbf3/1-0000.mp3", duration = 56.7118367, start = 0},
   },
 }
 P.transport["item:head-of-vancleef"] = {
-  hash = "8d18c1",
-  fullHash = "8d18c1",
-  text = "Head of VanCleef. At Sentinel Hill, VanCleef's severed head proves the Defias leader has fallen. Carried from the depths of the Deadmines, it brings the People's Militia hard-won vengeance. Westfall's settlers need proof that their danger has passed. For months, Edwin VanCleef directed the Defias Brotherhood's terror from the deepest sanctum of the Deadmines, guarded by armed outlaws, goblin engineers, and a massive war juggernaut. Gryan Stoutmantle, leader of the People's Militia, demands physical proof before declaring the countryside safe. VanCleef's severed head, brought out into daylight, assures the exhausted defenders that the architect of their ruin can no longer threaten Westfall.",
+  hash = "e0884e",
+  fullHash = "e0884e",
+  text = "Head of VanCleef. At Sentinel Hill, VanCleef's severed head gives Westfall proof that the Defias leader has fallen. Carried from the Deadmines, it brings the People's Militia a hard-won victory. Westfall's settlers need proof that the danger has passed. For months, Edwin VanCleef directed the Defias Brotherhood's terror from the deepest sanctum of the Deadmines. Armed outlaws, goblin engineers, and a massive war juggernaut guarded him there.\n\nGryan Stoutmantle leads the People's Militia and demands physical proof before he declares the countryside safe. VanCleef's severed head comes out into daylight. It assures the exhausted defenders that the architect of their ruin can no longer threaten Westfall.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_head-of-vancleef-c050358b5bf9e43b8fab/1-0000.mp3", duration = 43.8595918, start = 0},
+    {file = "Audio/Transport/full_item_head-of-vancleef-3223f8b128e2a0020f8d/1-0000.mp3", duration = 45.7665306, start = 0},
   },
 }
 P.transport["item:heart-of-isha-awak"] = {
-  hash = "5e0760",
-  fullHash = "5e0760",
-  text = "Heart of Isha Awak. Hunters seek Isha Awak’s heart along the Merchant Coast south of Ratchet. Mahren Skyseer wants it as proof that the Deep Doom has been overcome. Isha Awak prowls the sea off the Merchant Coast, south of Ratchet. Sailors and coastal folk revere and fear the massive thresher, known as the Deep Doom. It has killed many human trespassers along the shore. Mahren Skyseer, a tauren mystic, sees an honorable predator, not a mindless menace. She believes its fierce spirit dwells in its heart. Mahren charges brave hunters to plunge into the waves, defeat Isha Awak in its own domain, and claim the heart as both trophy and spiritual offering.",
+  hash = "6f7b6b",
+  fullHash = "6f7b6b",
+  text = "Heart of Isha Awak. Along the Merchant Coast south of Ratchet, hunters seek Isha Awak’s heart. Mahren Skyseer wants it as proof that the Deep Doom has been overcome. Isha Awak prowls the sea off the Merchant Coast, south of Ratchet. Sailors and coastal folk both revere and fear the massive thresher called the Deep Doom. It has killed many human trespassers along the shore.\n\nMahren Skyseer, a tauren mystic, sees an honorable predator rather than a mindless menace. She believes its fierce spirit dwells in its heart. So she sends brave hunters into the waves to defeat Isha Awak in its own domain and claim the heart as a trophy and spiritual offering.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_heart-of-isha-awak-74efc7cd2d0e4fbaedc1/1-0000.mp3", duration = 40.5681633, start = 0},
+    {file = "Audio/Transport/full_item_heart-of-isha-awak-d620cd7f5a5c2f660d4c/1-0000.mp3", duration = 41.5869388, start = 0},
   },
 }
 P.transport["item:heartswood"] = {
@@ -2594,11 +2594,11 @@ P.transport["item:heavy-leaden-collection-phial"] = {
   },
 }
 P.transport["item:hezrul-s-head"] = {
-  hash = "1314e7",
-  fullHash = "1314e7",
-  text = "Hezrul's Head. At Lushwater Oasis, Hezrul Bloodmark leads the Kolkar centaur in the Barrens. His head is carried to Regthar Deathgate west of the Crossroads as proof their chieftain has fallen. Hezrul Bloodmark leads his Kolkar centaur clan from Lushwater Oasis, south of the Crossroads. The Kolkar hold the Barrens' oases and threaten Horde supply routes and young settlements. Regthar Deathgate, an orc veteran charged with securing the land west of the Crossroads, sees their fierce rage but little discipline. He demands Hezrul's severed head to break the clan's command and throw its surviving fighters into disarray, weakening their attacks on the Horde.",
+  hash = "526e18",
+  fullHash = "526e18",
+  text = "Hezrul's Head. At Lushwater Oasis, Hezrul Bloodmark commands the Kolkar centaur of the Barrens. His head goes to Regthar Deathgate, west of the Crossroads, as proof their chieftain has fallen. Hezrul Bloodmark leads his Kolkar clan from Lushwater Oasis, south of the Crossroads. The centaur hold the Barrens' oases and threaten Horde supply routes and young settlements.\n\nRegthar Deathgate is an orc veteran charged with securing the land west of the Crossroads. He sees fierce rage in the Kolkar, but little discipline. So he demands Hezrul's severed head to break the clan's command and scatter its surviving fighters, weakening their attacks on the Horde.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_hezrul-s-head-75a9f79aeceb2d5632a7/1-0000.mp3", duration = 39.3665306, start = 0},
+    {file = "Audio/Transport/full_item_hezrul-s-head-5761645011571e9298fc/1-0000.mp3", duration = 41.195102, start = 0},
   },
 }
 P.transport["item:high-potency-radioactive-fallout"] = {
@@ -2610,27 +2610,27 @@ P.transport["item:high-potency-radioactive-fallout"] = {
   },
 }
 P.transport["item:highborne-relic-classic"] = {
-  hash = "8657da",
-  fullHash = "8657da",
-  text = "Highborne Relic (Classic). In Darkshore, Highborne Relics remain in the hands of spirits haunting Ameth'Aran. Night elf scholars seek them for destruction before their dormant magic can cause more harm. Ten thousand years ago, the Highborne caste brought ruin upon ancient Kalimdor through reckless arcane magic. Their estates lie in shattered ruins across Darkshore. At Ameth'Aran, wailing apparitions wander among the crumbling columns, still clutching the implements of their old sorcery. The relics bind arcane taint to the spirits, who will not release the objects tied to their undoing. Night elf society largely renounced arcane magic after the Great Sundering, and scholars see these relics as a grave hazard. Acting on reports from the Sentinels, Thundris Windweaver in Auberdine sends travelers to wrest them from the cursed spirits. Once gathered, the relics are destroyed so the Highborne's ancient evils and catastrophic mistakes cannot be repeated.",
+  hash = "f2a778",
+  fullHash = "f2a778",
+  text = "Highborne Relic (Classic). In Darkshore, spirits still clutch Highborne Relics, and night elf scholars seek to destroy them. Their dormant magic may bring further harm. Ten thousand years ago, the Highborne caste brought ruin to ancient Kalimdor with reckless arcane magic. Across Darkshore, their estates lie in shattered ruins. At Ameth'Aran, wailing apparitions wander among crumbling columns, still clutching the tools of their old sorcery. Arcane taint binds the relics to these spirits, who will not let go of the objects tied to their undoing. After the Great Sundering, most night elves turned away from arcane magic. Their scholars now see the relics as a grave hazard. Reports from the Sentinels reached Thundris Windweaver in Auberdine, who sends travelers to wrest the relics from the cursed spirits. Once gathered, the relics are destroyed, so the Highborne's ancient evils and catastrophic mistakes cannot be repeated.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_highborne-relic-classic-6c8b0a9e5a99cb6fc5ee/1-0000.mp3", duration = 59.0628571, start = 0},
+    {file = "Audio/Transport/full_item_highborne-relic-classic-a37a2b687d87c3ff4bcc/1-0000.mp3", duration = 60.7869388, start = 0},
   },
 }
 P.transport["item:highperch-venom-sac"] = {
-  hash = "4c89d7",
-  fullHash = "4c89d7",
-  text = "Highperch Venom Sac. Highperch Venom Sacs are harvested from the wild wyverns nesting upon the towering spires of Highperch in Thousand Needles. While orcs prize wyverns as aerial mounts, select apothecaries and traders value their potent stingers even more than the living beasts. The high spires of Thousand Needles house thriving prides of wild wyverns, particularly around the elevated crags of Highperch. These winged predators rely on powerful venom delivered through their barbed tails to paralyze and kill prey. While the Horde often domesticates these creatures as loyal wind riders, their venom sacs command a remarkably high price among alchemists, hunters, and opportunistic merchants across Kalimdor. Though native to the deep canyons of central Kalimdor, this venom draws interest far beyond them. In the port town of Theramore, the high elf Fiora Longears pays handsomely for fresh sacs collected from Highperch's broods. She seeks samples swollen with venom—typically found only on young wyverns or fertile females—fueling trade in dangerous reagents far from the beasts' natural desert habitat.",
+  hash = "b400d0",
+  fullHash = "b400d0",
+  text = "Highperch Venom Sac. At Highperch, wyverns carry venom that buyers seek across Kalimdor. Their sacs draw trade even where the beasts do not fly. Wild wyverns nest among Highperch's crags in Thousand Needles. Their barbed tails deliver venom that can paralyze or kill prey. The Horde often domesticates wyverns as wind riders. Across Kalimdor, alchemists, hunters, and merchants pay well for the venom sacs. Highperch venom reaches buyers far from central Kalimdor. In Theramore, the high elf Fiora Longears pays well for fresh sacs gathered from Highperch broods. She seeks sacs swollen with venom, most often found on young wyverns or fertile females. Far from their desert home, she trades these dangerous reagents.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_highperch-venom-sac-cc971c7d526423fa1f0f/1-0000.mp3", duration = 65.9853061, start = 0},
+    {file = "Audio/Transport/full_item_highperch-venom-sac-2b4430c1d78f0f93f595/1-0000.mp3", duration = 46.0277551, start = 0},
   },
 }
 P.transport["item:highperch-wyvern-egg"] = {
-  hash = "e9d223",
-  fullHash = "e9d223",
-  text = "Highperch Wyvern Egg. Highperch Wyvern Eggs are clutch eggs gathered from the nesting grounds atop the high mesas of Thousand Needles. They are sought after by aspiring Horde wind riders to raise and train new aerial mounts. The high plateau of Highperch in Thousand Needles provides a natural sanctuary for native wyverns to roost and raise their young. Accessible only via steep winding paths up the canyon walls, these nesting grounds are fiercely guarded by adult beasts. The eggs laid among these roosts are sturdy and warm, holding developing hatchlings capable of adapting to the harsh skies of Kalimdor. Across Kalimdor, the demand for trained wyverns continually outstrips supply as the Horde expands its courier and scouting networks. At Freewind Post, trainees like the tauren Elu seek out intact eggs directly from wild aeries. By raising the hatchlings from their shells, handlers hope to forge the deep bonds required to train trustworthy winged mounts for the Horde's wind riders.",
+  hash = "c8438e",
+  fullHash = "c8438e",
+  text = "Highperch Wyvern Egg. At Highperch, Horde trainees seek wyvern eggs to raise as mounts. The nests lie above the mesas of Thousand Needles. Highperch gives native wyverns a place to roost and raise their young above Thousand Needles. Steep paths wind up the canyon walls to the nesting grounds, where adult wyverns guard their nests. Within sturdy, warm shells, hatchlings wait to face Kalimdor's harsh skies. The Horde needs more trained wyverns for its courier and scouting networks across Kalimdor. At Freewind Post, trainees such as the tauren Elu seek intact eggs from wild nests. They raise the hatchlings from the shell, hoping to form the bond that makes a trustworthy mount for a wind rider.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_highperch-wyvern-egg-9a6cf08ac3a877d5668c/1-0000.mp3", duration = 59.5853061, start = 0},
+    {file = "Audio/Transport/full_item_highperch-wyvern-egg-e0fa88f092a8e3f5695b/1-0000.mp3", duration = 44.1991837, start = 0},
   },
 }
 P.transport["item:hildelve-s-journal"] = {
@@ -2642,27 +2642,27 @@ P.transport["item:hildelve-s-journal"] = {
   },
 }
 P.transport["item:hillsbrad-human-skull"] = {
-  hash = "2140a9",
-  fullHash = "2140a9",
-  text = "Hillsbrad Human Skull. Across the Hillsbrad Foothills, Forsaken gather the skulls of slain humans. At Tarren Mill, they keep them as grim mementos of the assault on local settlements. Forsaken forces from Tarren Mill fight the humans of Southshore and nearby settlements. During the Battle of Hillsbrad, Deathstalkers and soldiers carry out the purge Darthalia ordered. Guards left on watch want a share of the slaughter. Deathguard Samsa collects skulls from the fighters on the front lines, taking pleasure in keeping the remains of people the Forsaken once lived among. These trophies are proof of the killing as the conflict rages.",
+  hash = "b84763",
+  fullHash = "b84763",
+  text = "Hillsbrad Human Skull. In Hillsbrad, Forsaken gather the skulls of slain humans. At Tarren Mill, they keep them as grim reminders of the assault on local settlements. Forsaken forces from Tarren Mill fight the humans of Southshore and nearby settlements. During the Battle of Hillsbrad, Deathstalkers and soldiers carry out the purge ordered by Darthalia. Guards left on watch want their share of the slaughter.\n\nDeathguard Samsa gathers skulls from fighters on the front lines. He takes pleasure in keeping the remains of people the Forsaken once lived among. The trophies mark the killings as the conflict rages.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_hillsbrad-human-skull-a4024f60ec1de3172c88/1-0000.mp3", duration = 37.7730612, start = 0},
+    {file = "Audio/Transport/full_item_hillsbrad-human-skull-7a8849817184d2134afd/1-0000.mp3", duration = 37.3812245, start = 0},
   },
 }
 P.transport["item:hillsbrad-town-registry"] = {
-  hash = "ed1957",
-  fullHash = "ed1957",
-  text = "Hillsbrad Town Registry. In Hillsbrad Fields, the town hall keeps a ledger of the settlement's surviving citizens and landowners. The Hillsbrad Town Registry records civic matters, and the Forsaken seek it during their offensive against the human stronghold. The Hillsbrad Town Registry records the town's people and rights. It rests in the town hall near the podium of Magistrate Burnside. From Tarren Mill, the Forsaken press to break human resistance in the foothills. Darthalia sends Horde champions into the town hall to kill the council and seize the ledger. Its records cover Hillsbrad's population, households, and administrative rights. The registry would strip the town of its civic order and give the Undercity intelligence on the surviving population and their assets.",
+  hash = "888480",
+  fullHash = "888480",
+  text = "Hillsbrad Town Registry. In Hillsbrad Fields, the town hall keeps the names and land rights of those who remain. The Hillsbrad Town Registry records the town's civic order, and the Forsaken seek it as they attack the human stronghold. The Hillsbrad Town Registry holds the town's names and rights. It lies in the town hall near Magistrate Burnside's podium. From Tarren Mill, the Forsaken press to break human resistance in the foothills. Darthalia sends Horde champions into the hall to kill the council and seize the ledger.\n\nIts pages record Hillsbrad's population, households, and administrative rights. The Forsaken would use them to undo the town's civic order and learn about its surviving people and their assets.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_hillsbrad-town-registry-5a5acbd9740e96b1a187/1-0000.mp3", duration = 42.8930612, start = 0},
+    {file = "Audio/Transport/full_item_hillsbrad-town-registry-91e8884074729b32a9b0/1-0000.mp3", duration = 44.5387755, start = 0},
   },
 }
 P.transport["item:hollow-vulture-bone"] = {
-  hash = "58f904",
-  fullHash = "58f904",
-  text = "Hollow Vulture Bone. Hollow Vulture Bones are lightweight, durable skeletal remains harvested from the scavengers of the Shimmering Flats. At the Mirage Raceway, goblin mechanics prize them as specialized building materials to lighten their rocket cars without sacrificing structural integrity. Speed is everything out on the salt, and weight is the enemy of speed. While standard engineering leans heavily on iron and copper, the goblin pit crews at the Mirage Raceway turn to whatever the desert provides to gain an edge. Vulture bones are naturally hollow yet remarkably sturdy, providing the perfect strength-to-weight ratio for internal brackets, steering rigs, and minor structural supports. For chief tinkerers like Pozzik, harvesting bones from local scavengers is a practical and cheap shortcut to shaved seconds on the track.",
+  hash = "d29045",
+  fullHash = "d29045",
+  text = "Hollow Vulture Bone. Across the Shimmering Flats, vultures circle the salt while goblin crews gather their bones. At the Mirage Raceway, mechanics use the hollow remains to lighten rocket cars without weakening them. At the Mirage Raceway, goblin pit crews look for every way to make their rocket cars faster. Weight slows a car, so they use what the desert provides alongside iron and copper. Hollow vulture bones are light yet sturdy enough for steering rigs, internal brackets, and small supports. Pozzik and the other chief tinkerers gather them from local scavengers to save seconds on the track.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_hollow-vulture-bone-a8a5902b6de6b98fdfa8/1-0000.mp3", duration = 48.7444898, start = 0},
+    {file = "Audio/Transport/full_item_hollow-vulture-bone-6364fab505418d41c07a/1-0000.mp3", duration = 35.3697959, start = 0},
   },
 }
 P.transport["item:honorary-picks"] = {
@@ -2682,19 +2682,19 @@ P.transport["item:horn-of-arra-chea"] = {
   },
 }
 P.transport["item:horn-of-awakening"] = {
-  hash = "67ac6f",
-  fullHash = "67ac6f",
-  text = "Horn of Awakening. In southern Darkshore, Kerlonian Evershade keeps a horn close at hand. It rouses him whenever sleep overtakes him on the road to Ashenvale. Kerlonian Evershade has only recently awakened from centuries in the Emerald Dream, and wakefulness still weighs on him. The Druid of the Claw travels south toward Maestra's Post and entrusts the horn to travelers willing to escort him. When exhaustion takes him along the wilderness trail, a clear blast jolts him awake and gets him back on his feet before wild beasts or cultists can reach him.",
+  hash = "e2a0ca",
+  fullHash = "e2a0ca",
+  text = "Horn of Awakening. On the road to Ashenvale, Kerlonian Evershade carries the Horn of Awakening. It stirs him whenever sleep overtakes him. Kerlonian Evershade has only lately awakened from centuries in the Emerald Dream. Still, wakefulness weighs on him. The Druid of the Claw travels south toward Maestra's Post and entrusts the horn to travelers willing to escort him.\n\nWhen exhaustion takes Kerlonian on the wilderness trail, a clear blast jolts him awake. He gets back on his feet before wild beasts or cultists can reach him.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_horn-of-awakening-a2a547d3baa69a41c735/1-0000.mp3", duration = 33.28, start = 0},
+    {file = "Audio/Transport/full_item_horn-of-awakening-4bad79a7cb732b0548b5/1-0000.mp3", duration = 33.5673469, start = 0},
   },
 }
 P.transport["item:horn-of-echeyakee"] = {
-  hash = "362c44",
-  fullHash = "362c44",
-  text = "Horn of Echeyakee. At the Crossroads, Sergra Darkthorn gives hunters the Horn of Echeyakee. Sounded among the ancient kodo remains northeast of the settlement, it calls the legendary white predator of the Barrens. Hunters who are being tested in the hunt receive the horn. Its call summons Echeyakee, whose name means “Whitemist” in Taur-ahe. Taure n hunters revere the king of the savannah cats as both mercy and death. He strikes so swiftly that his quarry feels neither terror nor suffering. The horn belongs at the predator’s lair, among giant kodo bones behind the hills northeast of the Crossroads.",
+  hash = "64c71b",
+  fullHash = "64c71b",
+  text = "Horn of Echeyakee. At the Crossroads, Sergra Darkthorn gives hunters the Horn of Echeyakee to sound among the ancient kodo remains northeast of the settlement. Its call brings forth the legendary white predator of the Barrens. Hunters receive the horn when they are tested in the hunt. Its call summons Echeyakee, whose name means “Whitemist” in Taur-ahe. Tauren hunters revere the king of the savannah cats as mercy and death. His swift strike leaves his quarry no time for terror or suffering. The horn belongs at his lair, among the giant kodo bones behind the hills northeast of the Crossroads.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_horn-of-echeyakee-da9e977a9d647964235a/1-0000.mp3", duration = 38.3216327, start = 0},
+    {file = "Audio/Transport/full_item_horn-of-echeyakee-5bd66c66e1c603005bd1/1-0000.mp3", duration = 37.355102, start = 0},
   },
 }
 P.transport["item:huge-gnoll-claw"] = {
@@ -2706,51 +2706,51 @@ P.transport["item:huge-gnoll-claw"] = {
   },
 }
 P.transport["item:humbert-s-sword"] = {
-  hash = "4ad2a9",
-  fullHash = "4ad2a9",
-  text = "Humbert's Sword. At Dun Garok, Humbert's Sword lies among the dwarves who took it from his camp. Deathguard Humbert left his post to gather firewood while scouting the stronghold. Deathguard Humbert left his hidden post near Dun Garok one morning to gather firewood for boiling water. High Executor Darthalia had sent him to watch the dwarven presence there. While he was away, a dwarven patrol found his campsite and plundered his gear, including his personal blade. With so many dwarves to search, Humbert needs Horde agents to enter the fortress and recover it. Dun Garok's defenders carried Humbert's belongings behind the stronghold's barricades. Riflemen, mountaineers, and priests pass supplies around the garrison. Finding the thief means searching among the defenders in the trenches and redoubts.",
+  hash = "0b3e9b",
+  fullHash = "0b3e9b",
+  text = "Humbert's Sword. At Dun Garok, Humbert's Sword rests among the dwarves who took it from his camp. Deathguard Humbert left his post to gather firewood while scouting the stronghold. Deathguard Humbert left his hidden post near Dun Garok one morning to gather firewood for boiling water. High Executor Darthalia had sent him to watch the dwarven presence there. While he was away, a dwarven patrol found his campsite and plundered his gear, including his personal blade. Now Humbert needs Horde agents to search the fortress and recover it. Dun Garok's defenders carried Humbert's belongings behind the stronghold's barricades. Riflemen, mountaineers, and priests pass supplies around the garrison. To find the thief, the search must reach the defenders in the trenches and redoubts.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_humbert-s-sword-b21e7351b4b731d7b90f/1-0000.mp3", duration = 46.315102, start = 0},
+    {file = "Audio/Transport/full_item_humbert-s-sword-b2b17c507f53abe521a8/1-0000.mp3", duration = 47.2032653, start = 0},
   },
 }
 P.transport["item:hyacinth-mushroom"] = {
-  hash = "19ec6a",
-  fullHash = "19ec6a",
-  text = "Hyacinth Mushroom. In Shadowglen, Hyacinth Mushrooms grow at the roots of trees across Teldrassil. Night elf herbalists use them for medicine, and grell and grellkin forage for them. Hyacinth Mushrooms grow in Shadowglen among the trees and roots of Aldrassil. Forest healers use them in remedies for young night elf sentinels and trainees harmed by venomous creatures. The spiders of Shadowthread Cave are among the dangers they face, and the mushrooms go into soothing draughts and antivenoms. Corrupted grell also hoard them.",
+  hash = "fd6c70",
+  fullHash = "fd6c70",
+  text = "Hyacinth Mushroom. In Shadowglen, Hyacinth Mushrooms grow among Teldrassil’s trees and roots. Night elf herbalists use them in medicine, while grell and grellkin forage for them. Among the trees and roots of Aldrassil in Shadowglen, Hyacinth Mushrooms help forest healers treat young night elf sentinels and trainees harmed by venomous creatures. The spiders of Shadowthread Cave are among the dangers they face. Healers use the mushrooms in soothing draughts and antivenoms. Corrupted grell also hoard them.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_hyacinth-mushroom-681bf8b93a5002657dea/1-0000.mp3", duration = 32.8881633, start = 0},
+    {file = "Audio/Transport/full_item_hyacinth-mushroom-93cc12d57efe804eaba5/1-0000.mp3", duration = 32.7053061, start = 0},
   },
 }
 P.transport["item:hypercapacitor-gizmo"] = {
-  hash = "9e5c90",
-  fullHash = "9e5c90",
-  text = "Hypercapacitor Gizmo. The Hypercapacitor Gizmo is an eccentric piece of engineering recovered from the canyon floor of Thousand Needles. Once dangling from the neck of a caged beast in a ruined caravan, its true purpose remains a mystery even to the tinkerer who claims to own it. When centaur marauders ambushed a goblin caravan traveling through Thousand Needles, they plundered nearly everything in sight. The sole survivor, Wizlo Bearingshiner, managed to crawl his way to safety at Whitereach Post, leaving behind his best gizmo: the Hypercapacitor Gizmo. Strangely, the gadget wound up secured around the neck of a ferocious, enraged panther locked inside a transport cage. The raiding centaur feared the beast enough to leave the cage entirely alone amidst the burning wreckage, unwittingly preserving Wizlo's odd machine. While Wizlo proudly calls the device his best gizmo, he admits upon its recovery that he has no real idea what it actually does. Like many goblin contraptions, the Hypercapacitor Gizmo is a tangled mass of ambition and volatile parts, destined to keep its owner occupied with endless tinkering rather than serving any practical, understood function.",
+  hash = "9750a8",
+  fullHash = "9750a8",
+  text = "Hypercapacitor Gizmo. In Thousand Needles, the Hypercapacitor Gizmo lies among the wreckage of a goblin caravan. A caged panther wore it around its neck, and even its owner does not know what it does. Centaur marauders ambushed a goblin caravan crossing Thousand Needles and plundered nearly everything. Wizlo Bearingshiner, the lone survivor, crawled to safety at Whitereach Post. He left his best gizmo behind, fastened around the neck of a ferocious, enraged panther locked in a transport cage. The centaur feared the beast and left the cage untouched in the burning wreckage. Wizlo proudly calls the Hypercapacitor Gizmo his best gizmo, though he admits he has no idea what it does. The device tangles ambition with volatile parts. Wizlo can only keep tinkering, unsure what practical use it might have.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_hypercapacitor-gizmo-bf642e831d8036d1d7ea/1-0000.mp3", duration = 70.8702041, start = 0},
+    {file = "Audio/Transport/full_item_hypercapacitor-gizmo-d89d58f2806435740b1d/1-0000.mp3", duration = 50.155102, start = 0},
   },
 }
 P.transport["item:ignition-key"] = {
-  hash = "12f35f",
-  fullHash = "12f35f",
-  text = "Ignition Key. At Sludge Fen, the Ignition Key is held by Supervisor Lugwizzle at the Venture Company drilling operation. Wizzlecrank needs it to unlock an advanced shredder's movement column and activate its controls. Sputtervalve of Ratchet sent an operative to steal a Venture Company shredder from Sludge Fen, but the plan stalled. The undercover pilot, Wizzlecrank, climbed into the cockpit and found the movement column locked. He pretended the machine had mechanical trouble so the foremen would not grow suspicious while he waited for someone to fetch the Ignition Key. Supervisor Lugwizzle keeps the key high atop the central oil derrick, where access to the shredder's arm, speed, and rotation controls is held.",
+  hash = "863164",
+  fullHash = "863164",
+  text = "Ignition Key. At Sludge Fen, Wizzlecrank waits for the Ignition Key to free a stolen shredder. Wizzlecrank, Sputtervalve of Ratchet's operative, waits inside a Venture Company shredder at Sludge Fen. Sent to steal the machine, he found its movement column locked. So he feigned mechanical trouble while the foremen watched, hoping someone would fetch the Ignition Key.\n\nSupervisor Lugwizzle keeps the key atop the central oil derrick. It unlocks the shredder's movement column and gives Wizzlecrank control of its arm, speed, and rotation.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_ignition-key-edda80e38ed051dd0d30/1-0000.mp3", duration = 41.5346939, start = 0},
+    {file = "Audio/Transport/full_item_ignition-key-4ea082587807c0e89a30/1-0000.mp3", duration = 34.1681633, start = 0},
   },
 }
 P.transport["item:ilkrud-magthrull-s-tome"] = {
-  hash = "3fc5d7",
-  fullHash = "3fc5d7",
-  text = "Ilkrud Magthrull's Tome. At Fire Scar Shrine, Ilkrud Magthrull's Tome draws Delgren the Purifier's attention. Its pages connect the warlock to the cultists at the Tower of Althalaxx. Ilkrud Magthrull holds the Fire Scar Shrine in southwestern Ashenvale, where demonic influence has poisoned the site. The formidable orc warlock is surrounded by summoned minions. His personal tome records foul rituals and shadowy communications. The Argent Dawn paladin Delgren the Purifier has long known of Magthrull's presence, but the ties between the warlock and the dark cultists gathering at the Tower of Althalaxx make the book urgent to recover.",
+  hash = "153d27",
+  fullHash = "153d27",
+  text = "Ilkrud Magthrull's Tome. At Fire Scar Shrine, Delgren the Purifier turns his attention to Ilkrud Magthrull's Tome. Its pages link the warlock to the cultists at the Tower of Althalaxx. At Fire Scar Shrine in southwestern Ashenvale, Ilkrud Magthrull holds ground poisoned by demonic influence. The formidable orc warlock is surrounded by summoned minions. His personal tome records foul rituals and shadowy communications. Delgren the Purifier, an Argent Dawn paladin, has long known Magthrull is there. The book is urgent to recover because it links the warlock to the dark cultists gathering at the Tower of Althalaxx.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_ilkrud-magthrull-s-tome-b1f8ece26a73552b1041/1-0000.mp3", duration = 39.3665306, start = 0},
+    {file = "Audio/Transport/full_item_ilkrud-magthrull-s-tome-c4ff19e41f0f903a4be0/1-0000.mp3", duration = 39.2097959, start = 0},
   },
 }
 P.transport["item:incantations-from-the-nether"] = {
-  hash = "240e9e",
-  fullHash = "240e9e",
-  text = "Incantations from the Nether. Beneath Orgrimmar, Searing Blade cultists hold Incantations from the Nether, a grimoire of demonic magic. Sylvanas Windrunner and Varimathras seek its fel knowledge for the Forsaken. The Searing Blade is a subterranean sect tied to the Shadow Council, working in the fiery tunnels of Ragefire Chasm beneath Orgrimmar's red stone streets. Its cultists prize Incantations from the Nether, a spellbook of demonic rites given by agents of the Burning Legion. They use its secrets to plot treason in the Orcish capital. Word of the tome has reached the royal quarters of Undercity.",
+  hash = "8d5a40",
+  fullHash = "8d5a40",
+  text = "Incantations from the Nether. Beneath Orgrimmar, the Searing Blade holds Incantations from the Nether, a grimoire of demonic magic. Sylvanas Windrunner and Varimathras seek its fel knowledge for the Forsaken. The Searing Blade works in the fiery tunnels of Ragefire Chasm beneath Orgrimmar's red stone streets. The subterranean sect is tied to the Shadow Council. Its cultists prize Incantations from the Nether, a spellbook of demonic rites given by agents of the Burning Legion. They use its secrets to plot treason in the Orcish capital. Word of the tome has reached the royal quarters of Undercity.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_incantations-from-the-nether-1702bdede0fb40dc0564/1-0000.mp3", duration = 38.0865306, start = 0},
+    {file = "Audio/Transport/full_item_incantations-from-the-nether-7607a21986294182de0b/1-0000.mp3", duration = 37.2506122, start = 0},
   },
 }
 P.transport["item:incendia-agave"] = {
@@ -2770,35 +2770,35 @@ P.transport["item:incendia-powder"] = {
   },
 }
 P.transport["item:insane-scribbles"] = {
-  hash = "860e9c",
-  fullHash = "860e9c",
-  text = "Insane Scribbles. In Darkshore, cultists carry Insane Scribbles torn from the Twilight Tome, a fragment of dark literature. The dancing text and distorted scrollwork cause dizziness and mental strain. Ancient forest protectors study the fragments to learn the Twilight's Hammer's motives. Reading the Twilight Tome can endanger a mortal's sanity. Its script writhes across the parchment, and graceful scrollwork warps into grotesque images before the reader's eyes. Tearing out even one sheet, called Insane Scribbles, leaves the bearer lightheaded and disoriented. Though the writing makes little sense, the parchment hums with primal, deeply ancient magic tied to dark powers long buried beneath Azeroth.",
+  hash = "73bf01",
+  fullHash = "73bf01",
+  text = "Insane Scribbles. In Darkshore, cultists carry Insane Scribbles torn from the Twilight Tome, a fragment of dark literature. The dancing script and warped designs unsettle the mind. Ancient forest protectors study the pages to learn the Twilight's Hammer's purpose. The Twilight Tome can put a mortal's sanity at risk. Its script writhes across the parchment, and graceful scrollwork warps into grotesque images before the reader's eyes. Even one torn sheet, called Insane Scribbles, leaves its bearer lightheaded and disoriented. The writing makes little sense, yet the parchment hums with primal, deeply ancient magic tied to dark powers buried beneath Azeroth.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_insane-scribbles-ecec235d96a715fed810/1-0000.mp3", duration = 43.0497959, start = 0},
+    {file = "Audio/Transport/full_item_insane-scribbles-2463414a1d94923bcdf0/1-0000.mp3", duration = 43.1542857, start = 0},
   },
 }
 P.transport["item:inscribed-bark"] = {
-  hash = "e27510",
-  fullHash = "e27510",
-  text = "Inscribed Bark. In Teldrassil, Inscribed Bark carries word of the World Tree's state to Arch Druid Fandral Staghelm. The Oracle Tree entrusts it with news of the boughs and the threats troubling the woods. The Oracle Tree sends Inscribed Bark to the Cenarion Circle in Darnassus. After you drive the harpies from their nests, the ancient tree gives you its message, wary of sending ordinary couriers along Teldrassil's tainted paths. The report tells Arch Druid Fandral Staghelm of recent victories and the deeper blight still gripping the woods.",
+  hash = "bd239e",
+  fullHash = "bd239e",
+  text = "Inscribed Bark. In Teldrassil, Inscribed Bark bears the Oracle Tree's report to Arch Druid Fandral Staghelm. It tells of the boughs' health and the threats still troubling the woods. The Oracle Tree sends Inscribed Bark to the Cenarion Circle in Darnassus. After you drive the harpies from their nests, the ancient tree gives you its message. It fears the tainted paths through Teldrassil are unsafe for ordinary couriers. The report tells Arch Druid Fandral Staghelm of recent victories and the deeper blight still gripping the woods.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_inscribed-bark-b54a54758d0f5bb254ab/1-0000.mp3", duration = 32.4963265, start = 0},
+    {file = "Audio/Transport/full_item_inscribed-bark-07db3eb795bb80e21ab2/1-0000.mp3", duration = 33.7240816, start = 0},
   },
 }
 P.transport["item:intact-raptor-horn"] = {
-  hash = "3cc5d2",
-  fullHash = "3cc5d2",
-  text = "Intact Raptor Horn. Across the Barrens savannas, raptors are hunted for their intact horns. Mebok Mizzyrix of Ratchet wants them for a scheme built on rumors of raptor intelligence. Hunters prize raptor hides, talons, and trophies, but whole horns are harder to take in the field. Mebok Mizzyrix, an eccentric goblin alchemist in Ratchet, believes the Barrens raptors are more cunning than their kin elsewhere. He suspects their intellect lies in their horns. By grinding whole horns and brewing them into tonics, Mebok hopes to bottle that supposed genius in commercial drinks. A horn fit for brewing must come from a particularly vicious predator, not just any young raptor. Sunscale Scytheclaws prowl the southern plains and the northern borders near Ashenvale. Takk the Leaper and the elusive Ishamuhale are notable terrors of the veldt, and their stout horns can survive the clash of the hunt intact.",
+  hash = "55be5f",
+  fullHash = "55be5f",
+  text = "Intact Raptor Horn. Across the Barrens, hunters seek whole raptor horns. Mebok Mizzyrix of Ratchet hopes to make tonics from them, trusting rumors that these raptors are clever. Hunters prize raptor hides, talons, and trophies, yet whole horns are harder to take in the field. Mebok Mizzyrix is an eccentric goblin alchemist in Ratchet. He believes Barrens raptors are more cunning than their kin elsewhere, and suspects their intellect lies in their horns. So he hopes to grind whole horns into tonics and bottle that supposed genius in drinks for sale. A horn fit for brewing must come from a particularly vicious predator, not just any young raptor. Sunscale Scytheclaws prowl the southern plains and the northern borders near Ashenvale. Takk the Leaper and the elusive Ishamuhale are notable terrors of the veldt. Their stout horns can survive the clash of the hunt intact.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_intact-raptor-horn-79680047a01d7574d06d/1-0000.mp3", duration = 54.5697959, start = 0},
+    {file = "Audio/Transport/full_item_intact-raptor-horn-a32e1b78023351ab0c71/1-0000.mp3", duration = 54.8832653, start = 0},
   },
 }
 P.transport["item:intrepid-strongbox-key"] = {
-  hash = "beca99",
-  fullHash = "beca99",
-  text = "Intrepid Strongbox Key. On the wreck of the Intrepid, Captain Halyndor still guards the key to his strongbox. The rusted iron key once kept a mysterious item locked away aboard the doomed Alliance vessel off the Wetlands. The Intrepid was wrecked with the Third Fleet off the Wetlands, and its crew became restless, cursed spirits. Captain Halyndor watched over a mysterious item inside the ship’s heavy strongbox. Now his ghost prowls the waterlogged deck, still clutching the rusted key that opens it.",
+  hash = "feb3d5",
+  fullHash = "feb3d5",
+  text = "Intrepid Strongbox Key. On the Intrepid's wreck, Captain Halyndor still carries the key to his strongbox. The rusted iron key once kept a mysterious item locked aboard the doomed Alliance vessel off the Wetlands. The Intrepid sank with the Third Fleet off the Wetlands. Its crew became restless, cursed spirits. Captain Halyndor watched over a mysterious item inside the ship’s heavy strongbox. Now his ghost prowls the waterlogged deck with the rusted key that opens it.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_intrepid-strongbox-key-f3bc0024daf0a4fed13c/1-0000.mp3", duration = 27.7942857, start = 0},
+    {file = "Audio/Transport/full_item_intrepid-strongbox-key-265304d81cc25c4db92f/1-0000.mp3", duration = 29.3616327, start = 0},
   },
 }
 P.transport["item:invisibility-liquor"] = {
@@ -2810,35 +2810,35 @@ P.transport["item:invisibility-liquor"] = {
   },
 }
 P.transport["item:iron-pike"] = {
-  hash = "dc2c49",
-  fullHash = "dc2c49",
-  text = "Iron Pike. In Lakeshire, Iron Pike supplies are needed to repair the Everstill Bridge. The shipment from Stormwind was seized by Redridge gnolls, leaving the town short of iron. Lakeshire spent its metal reserves forging armor, blades, and ammunition after recent attacks by the Blackrock orcs. Builders requested more iron from Stormwind City, but Redridge gnolls hijacked the caravan on the road. They carried crates of iron pikes and rivets north into the hills, stopping repairs on the Everstill Bridge. Foreman Oslow oversees the bridge's reconstruction and needs the stolen hardware back. Without the heavy pikes to reinforce its stone and timber frame, the bridge leaves Lakeshire partly cut off from the northern road and open to further incursions.",
+  hash = "6d8abb",
+  fullHash = "6d8abb",
+  text = "Iron Pike. In Lakeshire, builders need Iron Pike supplies to repair the Everstill Bridge. Redridge gnolls seized the shipment from Stormwind, leaving the town short of iron. After Blackrock orc attacks, Lakeshire spent its metal reserves on armor, blades, and ammunition. Builders then asked Stormwind City for more iron, but Redridge gnolls hijacked the caravan on the road. They took crates of iron pikes and rivets north into the hills, and work on the Everstill Bridge stopped. Foreman Oslow oversees the bridge's reconstruction and needs the stolen hardware. Without the heavy pikes to strengthen its stone and timber frame, the bridge leaves Lakeshire partly cut off from the northern road. It also leaves the town open to further incursions.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_iron-pike-a63290615d4dba30a414/1-0000.mp3", duration = 44.6693878, start = 0},
+    {file = "Audio/Transport/full_item_iron-pike-f5863f8b3d84fa8f31e4/1-0000.mp3", duration = 46.6285714, start = 0},
   },
 }
 P.transport["item:iron-pommel"] = {
-  hash = "0a51b6",
-  fullHash = "0a51b6",
-  text = "Iron Pommel. In Ashenvale, the Iron Pommel is the last missing piece of Dartol's Rod. The long-dead wizard Dartol made the rod, and the night elves of Astranaar seek it to slow the furbolg attacks on their people. Druids at Dor'Danil Barrow Den kept the pommel safe until their sanctuary was overrun and they were slaughtered. Dartol's Rod was split apart and scattered across Ashenvale to guard its mystic power. Night elf druids near the road south toward the Barrens took charge of the Iron Pommel. Their circle was massacred at Dor'Danil Barrow Den, and their shelter fell silent in ruins. The pommel vanished amid the destruction, swallowed by the bubbling oozes now moving through the defiled glade.",
+  hash = "f0e60f",
+  fullHash = "f0e60f",
+  text = "Iron Pommel. In Ashenvale, the Iron Pommel remains the last piece missing from Dartol's Rod. The long-dead wizard Dartol made the rod, and the night elves of Astranaar seek it to slow the furbolg attacks. Druids at Dor'Danil Barrow Den guarded the pommel until their sanctuary was overrun and they were slaughtered. Dartol's Rod was broken apart and scattered across Ashenvale to guard its mystic power. Night elf druids near the road south toward the Barrens took charge of the Iron Pommel. Their circle was massacred at Dor'Danil Barrow Den, and their shelter fell silent among the ruins. In the destruction, the pommel vanished. Bubbling oozes now move through the defiled glade.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_iron-pommel-178d402016f749e8c92a/1-0000.mp3", duration = 43.284898, start = 0},
+    {file = "Audio/Transport/full_item_iron-pommel-8dffe52a3b6b39773fc8/1-0000.mp3", duration = 40.7771429, start = 0},
   },
 }
 P.transport["item:iron-rivet"] = {
-  hash = "9ba6d1",
-  fullHash = "9ba6d1",
-  text = "Iron Rivet. Iron Rivet shipments from Stormwind now lie in gnoll camps north of Lake Everstill. Foreman Oslow needs them to mend Lakeshire's damaged bridge. Lakeshire's iron stores went into weapons and armor when Blackrock orcs attacked. After the assaults eased, Foreman Oslow asked Stormwind for supplies to mend the damaged Everstill Bridge. Redridge gnolls ambushed the caravan before it reached town. They dragged its wagons and pack beasts into the hills north of Lake Everstill, scattering iron rivets and pikes among their camps. The Everstill Bridge needs heavy iron rivets to hold its stone and timber framework together under the weight of carts and travelers. Foreman Oslow cannot safely carry out repairs without them. The bridge links Lakeshire to the western valleys, and its repair will help secure the town's perimeter against further incursions.",
+  hash = "f2926e",
+  fullHash = "f2926e",
+  text = "Iron Rivet. North of Lake Everstill, Iron Rivet shipments from Stormwind lie in gnoll camps. Foreman Oslow needs them to mend Lakeshire's damaged bridge. Lakeshire spent its iron making weapons and armor when Blackrock orcs attacked. After the assaults eased, Foreman Oslow asked Stormwind for supplies to mend the damaged Everstill Bridge. Redridge gnolls ambushed the caravan before it reached town. They hauled its wagons and pack beasts into the hills north of Lake Everstill, scattering iron rivets and pikes among their camps. Heavy iron rivets hold the Everstill Bridge's stone and timber frame together under carts and travelers. Foreman Oslow cannot safely repair it without them. The bridge links Lakeshire to the western valleys. Mending it will help secure the town's perimeter against further incursions.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_iron-rivet-126ea4add7aca6af912f/1-0000.mp3", duration = 52.7412245, start = 0},
+    {file = "Audio/Transport/full_item_iron-rivet-060efabb5ca5da60e79e/1-0000.mp3", duration = 50.964898, start = 0},
   },
 }
 P.transport["item:iron-shaft"] = {
-  hash = "5611d5",
-  fullHash = "5611d5",
-  text = "Iron Shaft. Near Felwood, the Iron Shaft waits in a locked chest. It is one piece of Dartol's Rod, sought by Teronis to slow the furbolg assaults on Ashenvale. Dartol made the rod, then its pieces were scattered across Ashenvale. One was placed in the care of the druids of Dor'Danil. The Iron Shaft is the rod's sturdy metal core, kept in a locked chest in a glade near Ashenvale's northern border, close to Felwood.",
+  hash = "a4dcd5",
+  fullHash = "a4dcd5",
+  text = "Iron Shaft. Near Felwood, the Iron Shaft remains locked away. Teronis seeks it as one piece of Dartol's Rod, hoping to slow the furbolg assaults on Ashenvale. Dartol made the rod, and its pieces were scattered across Ashenvale. One was entrusted to the druids of Dor'Danil. The Iron Shaft is the rod's sturdy metal core, locked in a chest in a glade near Ashenvale's northern border, close to Felwood.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_iron-shaft-6333779dcb25753bcf32/1-0000.mp3", duration = 27.5591837, start = 0},
+    {file = "Audio/Transport/full_item_iron-shaft-6644e8600389711953e4/1-0000.mp3", duration = 26.2791837, start = 0},
   },
 }
 P.transport["item:ironband-s-progress-report"] = {
@@ -2850,11 +2850,11 @@ P.transport["item:ironband-s-progress-report"] = {
   },
 }
 P.transport["item:ishamuhale-s-fang"] = {
-  hash = "14c514",
-  fullHash = "14c514",
-  text = "Ishamuhale's Fang. At Camp Taurajo, Jorn Skyseer awaits Ishamuhale's Fang from the feared sunscale raptor Speartooth of the Barrens. The tooth proves the hunter bested one of Kalimdor's deadliest natural predators. Across the central savanna, hunters fear Ishamuhale, the fiercest sunscale raptor alive. Some say the apex hunter kills from predatory passion, not hunger. Fresh zhevra meat draws the beast into the open beside a withered tree northwest of Ratchet, where it gives no quarter. Taking its massive fang proves to the Horde's hunting instructors that a traveler has overcome the savagery of the plains.",
+  hash = "a8d1bd",
+  fullHash = "a8d1bd",
+  text = "Ishamuhale's Fang. At Camp Taurajo, Jorn Skyseer awaits Ishamuhale's Fang, taken from Speartooth, a feared sunscale raptor of the Barrens. The tooth proves a hunter bested one of Kalimdor's deadliest natural predators. Across the central savanna, hunters fear Ishamuhale, the fiercest sunscale raptor alive. Some say the great hunter kills from predatory passion, not hunger. Fresh zhevra meat draws the beast into the open beside a withered tree northwest of Ratchet. There, Ishamuhale gives no quarter.\n\nTaking the massive fang proves to the Horde's hunting instructors that a traveler has overcome the savagery of the plains.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_ishamuhale-s-fang-ffcfee5d87651a74a09f/1-0000.mp3", duration = 35.7093878, start = 0},
+    {file = "Audio/Transport/full_item_ishamuhale-s-fang-66571d6d2ca48af36dfa/1-0000.mp3", duration = 41.7436735, start = 0},
   },
 }
 P.transport["item:ivar-s-head"] = {
@@ -2866,19 +2866,19 @@ P.transport["item:ivar-s-head"] = {
   },
 }
 P.transport["item:iverron-s-antidote-item"] = {
-  hash = "a48356",
-  fullHash = "a48356",
-  text = "Iverron's Antidote (item). In Shadowglen, Iverron's Antidote must reach a young night elf before it spoils. Dirania Silvershine brews it to counter the lethal venom of local Webwood spiders, but it lasts only five minutes. Dirania Silvershine brews the antidote in Aldrassil for Iverron, a young night elf bitten by Webwood spiders. Its volatile ingredients and herbal catalysts give the draught a shelf life of only five minutes. Couriers must hurry north to the Webwood cave and deliver it before it spoils.",
+  hash = "bca7a1",
+  fullHash = "bca7a1",
+  text = "Iverron's Antidote (item). In Shadowglen, Iverron's Antidote must reach a young night elf before it spoils. Dirania Silvershine brews the draught to counter the lethal venom of local Webwood spiders, but it lasts only five minutes. Dirania Silvershine brews Iverron's Antidote in Aldrassil for Iverron, a young night elf bitten by Webwood spiders. Its volatile ingredients and herbal catalysts give the draught a shelf life of only five minutes. Couriers must hurry north to the Webwood cave and deliver it before it spoils.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_iverron-s-antidote-item-fcc5f6272a7956f4db0e/1-0000.mp3", duration = 29.7012245, start = 0},
+    {file = "Audio/Transport/full_item_iverron-s-antidote-item-0cd948215f68258937bf/1-0000.mp3", duration = 33.4367347, start = 0},
   },
 }
 P.transport["item:jade-phial"] = {
-  hash = "487eb2",
-  fullHash = "487eb2",
-  text = "Jade Phial. In Dolanaar, Corithras Moonrage entrusts the Jade Phial to young initiates. It carries sacred water from Teldrassil’s moonwells to replenish the druids’ central well in Darnassus. The Jade Phial gathers water from a moonwell near Starbreeze Village. Teldrassil’s many moonwells channel lunar and natural energies that matter to night elf society and druidic worship. From time to time, the druids replenish their central moonwell in Darnassus with water from wells across the great bough. Corithras Moonrage entrusts the phial to young initiates, who use it to collect pure water without disturbing the moonwell’s spiritual potency.",
+  hash = "6c3ac0",
+  fullHash = "6c3ac0",
+  text = "Jade Phial. In Dolanaar, Corithras Moonrage entrusts young initiates with the Jade Phial. They carry sacred water from Teldrassil’s moonwells to replenish the druids’ central well in Darnassus. The Jade Phial gathers water from a moonwell near Starbreeze Village. Across Teldrassil, moonwells channel lunar and natural energies that matter to night elf society and druidic worship.\n\nFrom time to time, druids replenish their central moonwell in Darnassus with water from wells across the great bough. Corithras Moonrage entrusts the phial to young initiates, who collect pure water without disturbing the moonwell’s spiritual potency.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_jade-phial-e3a9f1009914efa1e512/1-0000.mp3", duration = 38.0865306, start = 0},
+    {file = "Audio/Transport/full_item_jade-phial-b12043fee238d34a3a7a/1-0000.mp3", duration = 42.8930612, start = 0},
   },
 }
 P.transport["item:jennea-s-flask"] = {
@@ -2890,11 +2890,11 @@ P.transport["item:jennea-s-flask"] = {
   },
 }
 P.transport["item:jitters-completed-journal"] = {
-  hash = "16873b",
-  fullHash = "16873b",
-  text = "Jitters' Completed Journal. Jitters gives up his completed journal, hoping to clear his name and expose the sinister forces haunting Duskwood. The reclusive man fears Sven Yorgen's vengeance after fleeing the massacre at Sven's farm.",
+  hash = "928421",
+  fullHash = "928421",
+  text = "Jitters' Completed Journal. In Duskwood, Jitters gives up his completed journal and hopes it will clear his name. He fears Sven Yorgen's vengeance after fleeing the massacre at Sven's farm.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_jitters-completed-journal-b0e3fa710f3d9c5cfeda/1-0000.mp3", duration = 13.7142857, start = 0},
+    {file = "Audio/Transport/full_item_jitters-completed-journal-f53cb833e45fe22bac21/1-0000.mp3", duration = 10.7885714, start = 0},
   },
 }
 P.transport["item:johaan-s-findings"] = {
@@ -2938,35 +2938,35 @@ P.transport["item:jordan-s-smithing-hammer"] = {
   },
 }
 P.transport["item:kadrak-s-flag"] = {
-  hash = "e9dc05",
-  fullHash = "e9dc05",
-  text = "Kadrak's Flag. At the edge of the Barrens and Ashenvale, Kadrak gives the Horde a mark to carry into enemy ground. The flag is planted in the Talon Den after Keymaster Rynthariel is killed. Kadrak sends the Horde flag into the Talon Den on Stonetalon Peak. The dryad Rynthariel, Keymaster of the Den, has sent communications across the border, and Kadrak decides her death alone will not answer them. He gives you the crimson banner to plant deep inside the Den. The Horde colors there carry a warning to the night elves and dryads: incursions across the Barrens will meet retaliation on Alliance soil.",
+  hash = "aa2e69",
+  fullHash = "aa2e69",
+  text = "Kadrak's Flag. At the Barrens border, Kadrak sends the Horde's colors into enemy ground. The banner is planted in the Talon Den after Rynthariel is killed. Kadrak sends the Horde flag into the Talon Den on Stonetalon Peak. Rynthariel, the Den's dryad Keymaster, has sent messages across the border. Kadrak decides her death alone will not answer them. He gives you a crimson banner to plant deep inside the Den. There, the Horde colors warn the night elves and dryads that incursions across the Barrens will meet retaliation on Alliance soil.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_kadrak-s-flag-470fd59534a69772f765/1-0000.mp3", duration = 37.3028571, start = 0},
+    {file = "Audio/Transport/full_item_kadrak-s-flag-18aeed6f84d3b95bcd83/1-0000.mp3", duration = 33.0710204, start = 0},
   },
 }
 P.transport["item:keg-of-shindigger-stout"] = {
-  hash = "8ec0b7",
-  fullHash = "8ec0b7",
-  text = "Keg of Shindigger Stout. In Dun Garok, Shindigger Stout fills the dwarves’ kegs and draws interest from Tarren Mill. The Royal Apothecary Society wants the ale for a purpose far darker than drink. Dwarves of Ironforge hold Dun Garok in the southeastern Hillsbrad Foothills. Within its barracks and mess halls, defenders share Shindigger Stout through the cold and the siege against their regional enemies. The brew is a staple of the garrison’s daily life.",
+  hash = "4c945a",
+  fullHash = "4c945a",
+  text = "Keg of Shindigger Stout. In Dun Garok, Shindigger Stout fills the dwarves’ kegs and draws interest from Tarren Mill. The Royal Apothecary Society seeks the ale for a purpose darker than drink. Dwarves of Ironforge hold Dun Garok in the southeastern Hillsbrad Foothills. In its barracks and mess halls, defenders share Shindigger Stout through the cold and the siege against their regional enemies. The brew is part of the garrison’s daily life.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_keg-of-shindigger-stout-7000d6f5716814097199/1-0000.mp3", duration = 26.5926531, start = 0},
+    {file = "Audio/Transport/full_item_keg-of-shindigger-stout-8ae75eb7e0d6bccabcef/1-0000.mp3", duration = 27.0367347, start = 0},
   },
 }
 P.transport["item:ken-zigla-s-draught"] = {
-  hash = "e5b04f",
-  fullHash = "e5b04f",
-  text = "Ken'zigla's Draught. In the Stonetalon Mountains, Ken'zigla prepares a bitter draught for the gravely wounded. A careful half dose restores enough strength to move, while more can make a patient bleed out. Ken'zigla prepares the draught in the Stonetalon Mountains for those near death. Its strength must be measured with care: more than half a dose at once can make the patient bleed out as their circulation surges. Half a dose gives a wounded person enough vigor to move and flee danger. The rest must wait until the body steadies after a full night's rest.",
+  hash = "1cd273",
+  fullHash = "1cd273",
+  text = "Ken'zigla's Draught. In the Stonetalon Mountains, Ken'zigla prepares a bitter draught for the gravely wounded. Half a dose can restore enough strength to move, but more may make a patient bleed out. Ken'zigla prepares the draught in the Stonetalon Mountains for those near death. Its strength calls for care. More than half a dose at once can make a patient bleed out as their circulation surges. Half a dose gives a wounded person enough vigor to move and flee danger. The rest must wait until the body steadies after a full night's rest.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_ken-zigla-s-draught-963ec8b7577bd37c92e5/1-0000.mp3", duration = 30.0146939, start = 0},
+    {file = "Audio/Transport/full_item_ken-zigla-s-draught-296f7216decd3e9dd293/1-0000.mp3", duration = 30.5893878, start = 0},
   },
 }
 P.transport["item:khazgorm-s-journal"] = {
-  hash = "2943f8",
-  fullHash = "2943f8",
-  text = "Khazgorm's Journal. At Bael Modan, Prospector Khazgorm leads the Ironforge dwarven excavation in the southern Barrens. His field ledger records the Explorers' League's work on lands claimed by the Stonespire tauren. Prospector Khazgorm directs the heavy machinery and blasting that cut into the southern Barrens hillsides. His notes show an excavation far from the Explorers' League's promised search for knowledge: its work has displaced the Stonespire tribe. The tauren tried to settle matters peacefully, but the dwarves refused. Gann Stonespire wants the journal to understand the Ironforge presence in his homeland and find a way to break it.",
+  hash = "122d4a",
+  fullHash = "122d4a",
+  text = "Khazgorm's Journal. At Bael Modan, Prospector Khazgorm leads Ironforge's excavation in the southern Barrens. His journal records the Explorers' League's work on lands claimed by the Stonespire tauren. Prospector Khazgorm directs the machinery and blasting that cut into the southern Barrens hillsides. The excavation has strayed far from the Explorers' League's promised search for knowledge. Its work has displaced the Stonespire tribe. The tauren sought a peaceful settlement, but the dwarves refused. Gann Stonespire wants the journal to learn why Ironforge is in his homeland and how to drive the expedition out.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_khazgorm-s-journal-dca841fe4d2f4b907e27/1-0000.mp3", duration = 38.635102, start = 0},
+    {file = "Audio/Transport/full_item_khazgorm-s-journal-887d0c4345380262c009/1-0000.mp3", duration = 37.0677551, start = 0},
   },
 }
 P.transport["item:klaven-mortwake-s-journal"] = {
@@ -2978,43 +2978,43 @@ P.transport["item:klaven-mortwake-s-journal"] = {
   },
 }
 P.transport["item:kodo-horn"] = {
-  hash = "8f04e8",
-  fullHash = "8f04e8",
-  text = "Kodo Horn. In the Barrens, Kodo Horns are gathered from the roaming kodos. Tonga Runetotem uses them in herbal remedies for poisoned wildlife. Across the Barrens, Tonga Runetotem uses intact kodo horns in his herbal remedies. He works from the Crossroads, where the horns help strengthen his salves. Chips and fragments lack the strength he needs, so he gathers whole horns from mature kodos wandering the plains.",
+  hash = "ba06dc",
+  fullHash = "ba06dc",
+  text = "Kodo Horn. Across the Barrens, Kodo Horns are gathered for Tonga Runetotem's remedies. He uses them to treat poisoned wildlife. Across the Barrens, Tonga Runetotem uses whole kodo horns in his herbal remedies. He works from the Crossroads, where the horns strengthen his salves. Chips and fragments lack the strength he needs, so he gathers intact horns from mature kodos roaming the plains.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_kodo-horn-c20a6cf4fce7f6d98c21/1-0000.mp3", duration = 24.9208163, start = 0},
+    {file = "Audio/Transport/full_item_kodo-horn-969e40950c913009a3f2/1-0000.mp3", duration = 24.6857143, start = 0},
   },
 }
 P.transport["item:kodo-liver"] = {
-  hash = "7d8d8b",
-  fullHash = "7d8d8b",
-  text = "Kodo Liver. In Ratchet, Brewmaster Drohn needs Kodo Liver for a strange ale. He learned to brew trogg ale from the wandering brewmaster Chen Stormstout. Kodos roam the Barrens, where tauren and predators hunt them for their hides and meat. In Ratchet, Brewmaster Drohn uses a fresh Kodo Liver with thunderhawk saliva glands and lightning glands to make trogg ale. Chen Stormstout taught Drohn the recipe, and Drohn says the blend packs a potent kick for adventurous travelers. The ingredients come from the wilds of central Kalimdor.",
+  hash = "cdee62",
+  fullHash = "cdee62",
+  text = "Kodo Liver. In Ratchet, Brewmaster Drohn needs Kodo Liver for a strange ale. The wandering brewmaster Chen Stormstout taught him to brew it. Kodos roam the Barrens, hunted by tauren and predators for their hides and meat. In Ratchet, Brewmaster Drohn blends a fresh Kodo Liver with thunderhawk saliva glands and lightning glands to make trogg ale. Chen Stormstout taught him the recipe, and Drohn says the brew has a potent kick for adventurous travelers. Its ingredients come from the wilds of central Kalimdor.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_kodo-liver-82363a1eabd97a581f7e/1-0000.mp3", duration = 35.2130612, start = 0},
+    {file = "Audio/Transport/full_item_kodo-liver-1583d6720d90ffd8f48e/1-0000.mp3", duration = 32.9404082, start = 0},
   },
 }
 P.transport["item:kodobane-s-head"] = {
-  hash = "e4802a",
-  fullHash = "e4802a",
-  text = "Kodobane's Head. Near the Forgotten Pools, Barak Kodobane's severed head proves the cunning chieftain's death. The orc warlord Regthar Deathgate receives it as proof that the centaur threat there has been broken. Kolkar bands in the Barrens have long been divided, but ambitious warlords now threaten to gather them into an army. Barak Kodobane made his camp by the lush waters of the Forgotten Pools, where the oasis offers vital resources and nearby paths lie open to raids. Regthar Deathgate, stationed in a bunker west of the Crossroads, demands Kodobane's severed head as proof that this commander can no longer rally his kin against the Horde.",
+  hash = "dd8a38",
+  fullHash = "dd8a38",
+  text = "Kodobane's Head. Near the Forgotten Pools, Barak Kodobane's severed head proves the chieftain is dead. Regthar Deathgate receives it as proof that the centaur threat there has been broken. Kolkar bands in the Barrens have long been divided. Now ambitious warlords threaten to gather them into an army. Barak Kodobane camps by the waters of the Forgotten Pools, where the oasis offers vital resources and nearby paths lie open to raids. Regthar Deathgate is stationed in a bunker west of the Crossroads. He demands Kodobane's severed head to prove the commander can no longer rally his kin against the Horde.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_kodobane-s-head-e579a9ff59045075c31d/1-0000.mp3", duration = 38.9746939, start = 0},
+    {file = "Audio/Transport/full_item_kodobane-s-head-c88b6f62b16724e87b82/1-0000.mp3", duration = 34.8995918, start = 0},
   },
 }
 P.transport["item:kravel-s-crate"] = {
-  hash = "770592",
-  fullHash = "770592",
-  text = "Kravel's Crate. Kravel's Crate is a heavy package dispatched by Kravel Koalbeard from the Mirage Raceway in the Shimmering Flats. Destined for the Nesingwary expedition in Stranglethorn Vale, it contains specialized hunting ammunition designed to bring down the jungle's deadliest game. Handed out by the shrewd entrepreneur Kravel Koalbeard at the Mirage Raceway, Kravel's Crate represents an unfinished business transaction across continents. Ordered weeks prior by a wealthy dwarven patron, the shipment was delayed long enough for its buyer to depart Kalimdor entirely. Rather than lose out on the favor of a wealthy customer who already paid for forwarding, Kravel entrusts passing adventurers to haul the crate all the way to northern Stranglethorn Vale. Despite its nondescript appearance and the crust of salt dust it gathers in the Shimmering Flats, the crate carries lethal cargo: heavy, special-gauge ammunition tailored specifically for hunting rifles. When received at the expedition camp north of Grom'gol, the recipient notes that the potent rounds are prized by big-game hunters and vital for survival against the predators roaming the jungle canopy.",
+  hash = "f767aa",
+  fullHash = "f767aa",
+  text = "Kravel's Crate. At the Mirage Raceway, Kravel Koalbeard has a crate to send to the Nesingwary expedition in Stranglethorn Vale. It holds specialized ammunition for hunting the jungle’s deadliest game. At the Mirage Raceway, Kravel Koalbeard hands the crate to travelers. A wealthy dwarven patron ordered it weeks ago, but the shipment was delayed until the buyer had left Kalimdor. The patron had paid for forwarding, and Kravel wants to keep the favor of a wealthy customer. So he trusts passing travelers to carry it across continents to northern Stranglethorn Vale. Salt dust gathers on the crate as it waits in the Shimmering Flats. Inside are heavy, special-gauge rounds made for hunting rifles. The travelers deliver them to the expedition camp north of Grom'gol. The recipient says big-game hunters prize the potent ammunition. Against the predators roaming the jungle canopy, it is vital for survival.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_kravel-s-crate-de0d0054f7f6736f7e64/1-0000.mp3", duration = 67.604898, start = 0},
+    {file = "Audio/Transport/full_item_kravel-s-crate-5b806f5cb4a171d712d5/1-0000.mp3", duration = 55.6146939, start = 0},
   },
 }
 P.transport["item:kreenig-snarlsnout-s-tusk"] = {
-  hash = "76f4cb",
-  fullHash = "76f4cb",
-  text = "Kreenig Snarlsnout's Tusk. At the Crossroads, Thork seeks proof that Kreenig Snarlsnout has fallen. His tusk marks the end of the Razormane leader's attacks on Horde caravans in the northern Barrens. Horde caravans traveling west from Durotar face constant attacks in the Barrens. Those raids grew bolder under Kreenig Snarlsnout, a fierce Razormane leader. Thork, commander of the Crossroads watch, ordered Kreenig killed to disrupt the quilboars' coordination. His tusk offers proof that the leader is dead and insults the Razormane, weakening their resolve and leaving their fighters without central direction.",
+  hash = "00f577",
+  fullHash = "00f577",
+  text = "Kreenig Snarlsnout's Tusk. At the Crossroads, Thork awaits proof that Kreenig Snarlsnout has fallen. The tusk marks the end of the Razormane leader's attacks on Horde caravans in the northern Barrens. Horde caravans traveling west from Durotar face constant attacks in the Barrens. Under Kreenig Snarlsnout, a fierce Razormane leader, those raids grew bolder. So Thork, commander of the Crossroads watch, ordered Kreenig killed to disrupt the quilboars' coordination.\n\nKreenig's tusk proves the leader is dead and insults the Razormane. Their resolve weakens, and their fighters are left without central direction.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_kreenig-snarlsnout-s-tusk-9e0a21b76cdeef5e9a35/1-0000.mp3", duration = 37.5379592, start = 0},
+    {file = "Audio/Transport/full_item_kreenig-snarlsnout-s-tusk-33616e95e9a72ad14a51/1-0000.mp3", duration = 38.8179592, start = 0},
   },
 }
 P.transport["item:kron-s-amulet"] = {
@@ -3026,11 +3026,11 @@ P.transport["item:kron-s-amulet"] = {
   },
 }
 P.transport["item:kuz-s-skull"] = {
-  hash = "25f029",
-  fullHash = "25f029",
-  text = "Kuz's Skull. In the southern Barrens, Kuz's Skull marks the end of a feared Razormane raider. Kuz came from Razorfen Kraul and helped lead attacks on Horde outposts before a captive former kin sought vengeance. Kuz, Nak, and their chieftain Lok Orcbane led Razormane attacks across the southern Barrens. Sent from Razorfen Kraul, the three raiders struck travelers and settlements such as the Crossroads. Their betrayal of Mangletooth, a fellow quilboar, turned one of their own against them. They left Mangletooth to rot in a cage at Camp Taurajo. From that cage, he revealed Kuz's location to Horde champions willing to kill the raider and take her head.",
+  hash = "aee366",
+  fullHash = "aee366",
+  text = "Kuz's Skull. In the southern Barrens, Kuz's Skull marks the fall of a feared Razormane raider. From Razorfen Kraul, Kuz helped lead attacks on Horde outposts until a captive former kin sought vengeance. Kuz, Nak, and their chieftain Lok Orcbane led Razormane attacks across the southern Barrens. Sent from Razorfen Kraul, the three raiders struck travelers and settlements such as the Crossroads. They betrayed Mangletooth, a fellow quilboar, and left him to rot in a cage at Camp Taurajo. From there, Mangletooth revealed Kuz's location to Horde champions willing to kill the raider and take her head.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_kuz-s-skull-574f3697e8be73ad31e4/1-0000.mp3", duration = 40.8032653, start = 0},
+    {file = "Audio/Transport/full_item_kuz-s-skull-d16c3858152885869fa2/1-0000.mp3", duration = 36.8065306, start = 0},
   },
 }
 P.transport["item:laced-pumpkin"] = {
@@ -3042,11 +3042,11 @@ P.transport["item:laced-pumpkin"] = {
   },
 }
 P.transport["item:laird-s-response"] = {
-  hash = "0f3e3f",
-  fullHash = "0f3e3f",
-  text = "Laird's Response. Along Teldrassil's shores, Laird's Response carries a puzzle for Nessa Shadowsong. The fish there are larger and more plentiful than those along mainland Darkshore. Laird compares catches from across the Veiled Sea. Fish from Teldrassil's coast are larger and more plentiful than those from Darkshore's mainland beaches. In his reply to Nessa Shadowsong, Laird of Auberdine offers a theory: the newly planted World Tree's unusual presence and vitality may be changing the surrounding sea life. Travelers carry his letter across the water to Rut'theran Village, where the fisherfolk greet the news with wonder and quiet curiosity.",
+  hash = "391650",
+  fullHash = "391650",
+  text = "Laird's Response. Along Teldrassil's shore, Laird sends Nessa Shadowsong a curious report. The fish there are larger and more plentiful than those along mainland Darkshore. Laird compares the catches from both sides of the Veiled Sea. Fish from Teldrassil's coast are larger and more plentiful than those from Darkshore's mainland beaches.\n\nIn his reply to Nessa Shadowsong, Laird of Auberdine wonders if the newly planted World Tree's unusual presence and vitality are changing the sea life nearby. Travelers carry his letter across the water to Rut'theran Village, where the fisherfolk meet the news with wonder and quiet curiosity.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_laird-s-response-056b0be05edcaef15c55/1-0000.mp3", duration = 37.9297959, start = 0},
+    {file = "Audio/Transport/full_item_laird-s-response-c56d2c02f33bb36261a7/1-0000.mp3", duration = 39.4710204, start = 0},
   },
 }
 P.transport["item:lake-creeper-moss"] = {
@@ -3074,43 +3074,43 @@ P.transport["item:large-candle"] = {
   },
 }
 P.transport["item:large-soran-ruk-fragment"] = {
-  hash = "36d915",
-  fullHash = "36d915",
-  text = "Large Soran'ruk Fragment. The Large Soran'ruk Fragment rests in Shadowfang Keep, far from the other shards. Its broken orb once held a disgraced demon of the Burning Legion. Disgraced demons of the Burning Legion may be condemned to imprisonment in enchanted orbs. Mages and warlocks aligned with the Legion receive these vessels and draw on the fel forces trapped within. Even when an orb is shattered, its bound fiend's lingering essence still radiates power. Each fragment draws ambitious practitioners of shadow magic. The orb of Soran'ruk was cracked into two halves long ago. Cultists elsewhere scattered one half into smaller pieces. A sorcerer in the cursed Shadowfang Keep claimed the larger half. The Shadowfang Darksouls carry the Large Soran'ruk Fragment, which holds the bound spirit until someone seeks to reforge the ancient vessel.",
+  hash = "77e97d",
+  fullHash = "77e97d",
+  text = "Large Soran'ruk Fragment. In Shadowfang Keep, the Large Soran'ruk Fragment lies far from the other shards. Its broken orb once held a disgraced demon of the Burning Legion. Disgraced demons of the Burning Legion may be imprisoned in enchanted orbs. Mages and warlocks aligned with the Legion receive these vessels and draw upon the fel forces within. Even shattered, an orb's bound fiend leaves an essence that still radiates power. So fragments draw those who seek mastery of shadow magic. The orb of Soran'ruk was cracked into two halves long ago. Cultists elsewhere scattered one half into smaller pieces, while a sorcerer in the cursed Shadowfang Keep claimed the larger half. Shadowfang Darksouls carry the Large Soran'ruk Fragment. Its bound spirit remains within, until someone seeks to reforge the ancient vessel.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_large-soran-ruk-fragment-8cdf89528ac0119c9f2d/1-0000.mp3", duration = 51.2, start = 0},
+    {file = "Audio/Transport/full_item_large-soran-ruk-fragment-6ccf6c89b24a21ed4b4a/1-0000.mp3", duration = 51.4089796, start = 0},
   },
 }
 P.transport["item:laughing-sister-s-hair"] = {
-  hash = "df6ec5",
-  fullHash = "df6ec5",
-  text = "Laughing Sister's Hair. In Ashenvale, laughing sisters' hair draws weavers seeking its natural magic. Kil'hala at the Crossroads uses the gathered locks to make enchanted robes. Near Raynewood Retreat in Ashenvale, laughing sisters are dryads whose hair holds natural magic. Dryads protect the woods and are linked to Cenarius and the night elves. Horde craftsmen prize their hair as a potent crafting material. Kil'hala, a troll tailor at the Crossroads, spins the locks into enchanted robes for Deino's promising pupils of the arcane.",
+  hash = "40e18e",
+  fullHash = "40e18e",
+  text = "Laughing Sister's Hair. In Ashenvale, weavers seek the natural magic in laughing sisters' hair. Kil'hala at the Crossroads uses the locks to make enchanted robes. Near Raynewood Retreat, laughing sisters are dryads whose hair holds natural magic. They guard the woods and are linked to Cenarius and the night elves. Horde craftsmen prize their hair as a potent material.\n\nKil'hala, a troll tailor at the Crossroads, spins the locks into enchanted robes for Deino's promising pupils of the arcane.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_laughing-sister-s-hair-d2f0eddd97c546f7fdd8/1-0000.mp3", duration = 34.0114286, start = 0},
+    {file = "Audio/Transport/full_item_laughing-sister-s-hair-c48145b15f97a47d02d5/1-0000.mp3", duration = 31.4253061, start = 0},
   },
 }
 P.transport["item:legacy-of-the-aspects"] = {
-  hash = "21b767",
-  fullHash = "21b767",
-  text = "Legacy of the Aspects. Legacy of the Aspects is an ancient tome hidden deep within the Dor'Danil Barrow Den in southern Ashenvale. Retrieved during a Horde trial of the intellect, the volume contains essential lore concerning the Great Aspects that shaped ancient Azeroth. While earlier trials set forth by tauren elders test physical endurance and resolve, the pursuit of Legacy of the Aspects is designed to challenge the mind. Tasked by Braug Dimspirit at the entrance to the Talondeep Path in the Stonetalon Mountains, an aspirant must delve into the haunted barrow dens of Dor'Danil. Guarded by the restless spirits of fallen druids and the vicious creatures that slew them, the ancient text rests upon a stone pedestal. Claiming the volume is only the first step; the seeker must commit its contents to memory before relinquishing the book, as they are tested on its historical lessons.",
+  hash = "481412",
+  fullHash = "481412",
+  text = "Legacy of the Aspects. In the Horde trial, seekers must find Legacy of the Aspects and remember its lessons. The ancient tome lies in Dor'Danil Barrow Den in southern Ashenvale, where it holds lore about the Great Aspects who shaped ancient Azeroth. Braug Dimspirit sends aspirants to seek Legacy of the Aspects. Earlier trials set by tauren elders test endurance and resolve. This trial tests the mind. Braug waits at the entrance to the Talondeep Path in the Stonetalon Mountains, while the tome lies in the haunted barrow dens of Dor'Danil.\n\nRestless spirits of fallen druids and the vicious creatures that slew them guard the ancient text. It rests on a stone pedestal. Finding the volume is only the beginning. Before returning it, the seeker must commit its contents to memory. Then Braug tests them on its lessons in history.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_legacy-of-the-aspects-13361ebbca27e94de011/1-0000.mp3", duration = 51.5395918, start = 0},
+    {file = "Audio/Transport/full_item_legacy-of-the-aspects-fba79fa6061219b91fe0/1-0000.mp3", duration = 52.9240816, start = 0},
   },
 }
 P.transport["item:letter-to-delgren"] = {
-  hash = "c940cf",
-  fullHash = "c940cf",
-  text = "Letter to Delgren. Balthule Shadowstrike sends a warning from the Tower of Althalaxx in northern Darkshore. His letter to Delgren the Purifier describes the Dark Strand cult's demonic work and must reach Maestra's Post in Ashenvale. Balthule Shadowstrike watches the Dark Strand cult gather around the Tower of Althalaxx ruins. He cannot destroy the cult alone, so he writes to Delgren the Purifier, his tutor in the Holy Light, asking for aid. The cult's foul rites threaten more than Darkshore's coast. The letter must travel south through the region into western Ashenvale, where Delgren works with night elf Sentinels against demonic and undead threats.",
+  hash = "e759c4",
+  fullHash = "e759c4",
+  text = "Letter to Delgren. Balthule Shadowstrike sends word from the Tower of Althalaxx in northern Darkshore. His letter warns Delgren the Purifier of the Dark Strand cult's demonic work and must reach Maestra's Post in Ashenvale. At the Tower of Althalaxx ruins, Balthule Shadowstrike watches the Dark Strand cult gather. He cannot destroy them alone, so he writes to Delgren the Purifier, his tutor in the Holy Light, and asks for aid. Their foul rites threaten more than Darkshore's coast. The letter must travel south through Darkshore into western Ashenvale. There, Delgren works with night elf Sentinels against demonic and undead threats.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_letter-to-delgren-1b4d3267de71cf53eca0/1-0000.mp3", duration = 38.4, start = 0},
+    {file = "Audio/Transport/full_item_letter-to-delgren-17796e4dd16e12340afe/1-0000.mp3", duration = 40.8032653, start = 0},
   },
 }
 P.transport["item:letter-to-jin-zil"] = {
-  hash = "5f9ee6",
-  fullHash = "5f9ee6",
-  text = "Letter to Jin'Zil. At the Crossroads, Letter to Jin'Zil carries word of Serena Bloodfeather's defeat. Darsok Swiftdagger sends it to the Darkspear witch doctor in the Stonetalon Mountains, telling him the northern Barrens are free of the Bloodfeather threat. After the harpies at the Dry Hills are wiped out and Serena Bloodfeather is slain, Darsok Swiftdagger writes to an old comrade. The harpies of the Barrens first roosted in the peaks of the Stonetalon Mountains. Darsok sends news of the fallen matron to Jin'Zil, a witch doctor, and introduces a promising warrior to the wider frontier.",
+  hash = "af7cfb",
+  fullHash = "af7cfb",
+  text = "Letter to Jin'Zil. At the Crossroads, Darsok Swiftdagger sends Jin'Zil news from the northern Barrens. Serena Bloodfeather is dead, and the Bloodfeather threat there has ended. After the harpies at the Dry Hills are wiped out and Serena Bloodfeather is slain, Darsok Swiftdagger writes to an old comrade. The Barrens harpies first roosted in the peaks of the Stonetalon Mountains. Darsok sends word of their fallen matron to Jin'Zil, a witch doctor, and introduces a promising warrior to the wider frontier.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_letter-to-jin-zil-d9d1c52ef1e13a627e59/1-0000.mp3", duration = 35.4481633, start = 0},
+    {file = "Audio/Transport/full_item_letter-to-jin-zil-39de959bc3352b5948f5/1-0000.mp3", duration = 31.3991837, start = 0},
   },
 }
 P.transport["item:letter-to-jorgen"] = {
@@ -3138,51 +3138,51 @@ P.transport["item:lieutenant-s-insignia"] = {
   },
 }
 P.transport["item:lightning-gland"] = {
-  hash = "3eb063",
-  fullHash = "3eb063",
-  text = "Lightning Gland. In the Barrens, Lightning Glands are taken from stormhides roaming the plains. Brewmaster Drohn in Ratchet needs them for trogg ale, a fiery brew Chen Stormstout taught him to make. Stormhides roam the Barrens savannas among other predators touched by the elements. Their flesh holds lightning glands, organs charged with latent electricity. These glands are poor fare on their own, but brewers prize them for the sting they bring to a brew. Brewmaster Drohn keeps Chen Stormstout’s brewing traditions alive in Ratchet. To make trogg ale, a potent brew, Drohn needs five lightning glands, a thunderhawk saliva gland, and a fresh kodo liver. The finished drink has a sharp kick that adventurers find invigorating and potent.",
+  hash = "27bb57",
+  fullHash = "27bb57",
+  text = "Lightning Gland. Across the Barrens, stormhides carry Lightning Glands that Brewmaster Drohn needs in Ratchet. Chen Stormstout taught Drohn to make trogg ale, a fiery brew. Stormhides roam the Barrens savannas among other predators touched by the elements. Their flesh holds Lightning Glands charged with latent electricity. The glands make poor fare on their own, but brewers prize the sting they bring to a brew. In Ratchet, Brewmaster Drohn keeps Chen Stormstout’s brewing traditions alive. For trogg ale, a potent brew, he needs five Lightning Glands, a thunderhawk saliva gland, and a fresh kodo liver. The finished drink has a sharp kick that adventurers find invigorating and potent.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_lightning-gland-612d42059fa61039b905/1-0000.mp3", duration = 46.7330612, start = 0},
+    {file = "Audio/Transport/full_item_lightning-gland-5c0dd954a4b593913194/1-0000.mp3", duration = 45.1134694, start = 0},
   },
 }
 P.transport["item:logging-rope"] = {
-  hash = "f3bece",
-  fullHash = "f3bece",
-  text = "Logging Rope. At the Warsong Lumber Camp, Logging Rope keeps the mills and machinery supplied. Furbolg tribes have stolen shipments across Ashenvale, leaving the Warsong to recover the line they need. Logging Rope shipments meant for the Warsong Lumber Camp have been stolen. The Foulweald and Thistlefur furbolgs intercepted the line before it reached the loggers. The tribes keep the ropes in their encampments across northern and central Ashenvale. Corruption has driven the furbolgs mad, and they fiercely defend their ancestral woods. Locke Okarr at Splintertree Post seeks to recover the stolen supplies before work at the Warsong Lumber Camp stops. The heavy rope lets the Horde secure timber, bind logs, and rig saw machinery. Furbolg resistance continues across the forest.",
+  hash = "0e8cff",
+  fullHash = "0e8cff",
+  text = "Logging Rope. At the Warsong Lumber Camp, Logging Rope keeps the mills and machinery supplied. Furbolg tribes have stolen shipments across Ashenvale, and the Warsong must recover the line they need. Foulweald and Thistlefur furbolgs have stolen Logging Rope shipments meant for the Warsong Lumber Camp. They intercepted the line before it could reach the loggers. The ropes are kept in village dens and encampments across northern and central Ashenvale. Corruption has driven the furbolgs mad, and they fiercely defend their ancestral woods. At Splintertree Post, Locke Okarr seeks to recover the stolen supplies before work at the Warsong Lumber Camp stops. The heavy rope secures timber, binds logs, and rigs saw machinery. Furbolg resistance continues across the forest.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_logging-rope-7aa2322cbc899c3ca1ae/1-0000.mp3", duration = 48.4832653, start = 0},
+    {file = "Audio/Transport/full_item_logging-rope-e29bb5f85c79b1ff64c8/1-0000.mp3", duration = 48.3004082, start = 0},
   },
 }
 P.transport["item:lok-s-skull"] = {
-  hash = "6741e6",
-  fullHash = "6741e6",
-  text = "Lok's Skull. In the southern Barrens, Lok's Skull marks the fall of a feared Razormane leader. Lok Orcbane led fierce quilboar raids against Horde supply routes, and the skull is his severed head. Lok Orcbane led aggressive Razormane assaults on Horde supply lines in the southern Barrens. He emerged from Razorfen Kraul with his lieutenants Nak and Kuz. After betraying Mangletooth and leaving him captive at Camp Taurajo, Lok became known to orcish defenders for ruthless raids they struggled to contain. Mangletooth directs Horde champions to Lok's camp, where claiming Lok's skull avenges the captive and strikes at the leadership driving the Razormane offensive.",
+  hash = "7510b1",
+  fullHash = "7510b1",
+  text = "Lok's Skull. In the southern Barrens, Lok's Skull marks the fall of a feared Razormane leader. Lok Orcbane led fierce quilboar raids against Horde supply routes, and the skull is his severed head. Lok Orcbane led aggressive Razormane assaults on Horde supply lines in the southern Barrens. He emerged from Razorfen Kraul with his lieutenants Nak and Kuz. After betraying Mangletooth and leaving him captive at Camp Taurajo, Lok became known to orcish defenders for ruthless raids they struggled to contain. Mangletooth directs Horde champions to Lok's camp. Claiming Lok's skull avenges the captive and strikes at the leaders driving the Razormane offensive.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_lok-s-skull-ac93a7bd6c3dcf8b0896/1-0000.mp3", duration = 40.8293878, start = 0},
+    {file = "Audio/Transport/full_item_lok-s-skull-388137ffe375a1ee7f81/1-0000.mp3", duration = 40.1763265, start = 0},
   },
 }
 P.transport["item:lonebrow-s-journal"] = {
-  hash = "a8c9c9",
-  fullHash = "a8c9c9",
-  text = "Lonebrow's Journal. Lonebrow's Journal is a weathered diary found clutched in the skeletal remains of the dwarven explorer Henrig Lonebrow at the base of the Great Lift. Its pages detail the final grim journey of Lonebrow through the Barrens and point toward dangers lurking within Razorfen Kraul. Henrig Lonebrow met an unfortunate end near the base of the Great Lift connecting the Barrens to Thousand Needles. Lying abandoned on a rocky ledge, his skeletal remains still grip this weathered journal. The diary serves as a testament to his final travels and directs whoever discovers it to bring word to the night elf druid Falfindel Waywarder at Thalanaar, the border outpost leading into Feralas. Lonebrow's notes shed critical light on the quilboar menace brewing in the southern barrens.",
+  hash = "1ae4cb",
+  fullHash = "1ae4cb",
+  text = "Lonebrow's Journal. At the base of the Great Lift, Henrig Lonebrow's journal records his final journey. He crossed the Barrens as danger gathered at Razorfen Kraul. Henrig Lonebrow died near the base of the Great Lift, the passage between the Barrens and Thousand Needles. His bones rest on a rocky ledge with the weathered journal still in his grasp.\n\nThe pages recount his last travels and ask the finder to carry word to Falfindel Waywarder, a night elf druid at Thalanaar. The outpost lies on the border of Feralas. Lonebrow's notes warn of the quilboar threat growing in the southern Barrens.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_lonebrow-s-journal-d914cb228bd13b0ce268/1-0000.mp3", duration = 45.7665306, start = 0},
+    {file = "Audio/Transport/full_item_lonebrow-s-journal-edfdde1e82ef0c20a1a1/1-0000.mp3", duration = 36.8065306, start = 0},
   },
 }
 P.transport["item:lorgalis-manuscript"] = {
-  hash = "da3822",
-  fullHash = "da3822",
-  text = "Lorgalis Manuscript. The Lorgalis Manuscript lies hidden beneath Ashenvale in the sunken ruins of Blackfathom Deeps. The ancient text concerns the Old Gods, and dark scholars covet its words about powers that sleep. The Lorgalis Manuscript lies at the bottom of Blackfathom Deeps, where long-dead elves once lived before their city fell. Lorgalis wrote of the Old Gods, who raged across Azeroth when the world was new and now lie chained and sleeping. The text praises Aku'mai, a servant of the Old Gods who dwells in the Deeps. Its lore is said to open mystical doorways and stir ancient beings sleeping deep beneath the world. The manuscript rests in a pitted iron chest among the flooded corridors, drawing the attention of cultists and shadow scholars alike.",
+  hash = "d97ff4",
+  fullHash = "d97ff4",
+  text = "Lorgalis Manuscript. Beneath Ashenvale, the Lorgalis Manuscript lies in the sunken ruins of Blackfathom Deeps. The ancient text speaks of the Old Gods, and dark scholars covet its words about sleeping powers. The Lorgalis Manuscript lies at the bottom of Blackfathom Deeps, among the ruins where long-dead elves once lived. Lorgalis wrote of the Old Gods, who raged across Azeroth when the world was new and now lie chained in sleep. The text praises Aku'mai, servant of the Old Gods, who dwells in the Deeps.\n\nIts lore is said to open mystical doorways and stir ancient beings sleeping deep beneath the world. The manuscript rests in a pitted iron chest among the flooded corridors. Cultists and shadow scholars alike seek its words.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_lorgalis-manuscript-755f4a1224018c37a116/1-0000.mp3", duration = 48.1697959, start = 0},
+    {file = "Audio/Transport/full_item_lorgalis-manuscript-5e6192e82d5f6a2ce5eb/1-0000.mp3", duration = 49.684898, start = 0},
   },
 }
 P.transport["item:lunar-fungus"] = {
-  hash = "092db0",
-  fullHash = "092db0",
-  text = "Lunar Fungus. Lunar Fungus grows in Darkshore's caves, where druids gather it for healing. Mixed with Earthroot and water, it helps make a salve for sick deer. Lunar Fungus grows from Lunar Fungal Blooms in Darkshore's underground caverns. The Cenarion Circle values its amplifying effects. Mixed with soothing water and common Earthroot, it lends potency to a salve that counters debilitating afflictions. Damp caves where it grows are also frequented by territorial moonkin, so gathering it means navigating carefully. In Auberdine, Alanndarian Nightsong has young druids gather Lunar Fungus as part of their studies in nature's healing arts. They see how physical ingredients such as this fungus can counter poisons in local deer. By learning how herbal remedies work, initiates prepare to channel natural antidotes through shapeshifting and spiritual power.",
+  hash = "d1af80",
+  fullHash = "d1af80",
+  text = "Lunar Fungus. In Darkshore's caves, druids gather Lunar Fungus to help heal sick deer. Mixed with Earthroot and water, it strengthens a healing salve. Lunar Fungus grows from Lunar Fungal Blooms in Darkshore's underground caverns. The Cenarion Circle values its power to strengthen remedies. Mixed with soothing water and common Earthroot, it lends strength to a salve that counters debilitating afflictions. Territorial moonkin frequent the damp caves, so gathering the fungus takes care. In Auberdine, Alanndarian Nightsong has young druids gather Lunar Fungus as they study nature's healing arts. They learn how physical ingredients such as the fungus can counter poisons in local deer. By studying herbal remedies, initiates prepare to channel natural antidotes through shapeshifting and spiritual power.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_lunar-fungus-75562561f968f49f1f65/1-0000.mp3", duration = 53.995102, start = 0},
+    {file = "Audio/Transport/full_item_lunar-fungus-daaa1796c4b19eda2ebe/1-0000.mp3", duration = 50.7036735, start = 0},
   },
 }
 P.transport["item:lurker-venom"] = {
@@ -3210,11 +3210,11 @@ P.transport["item:macgrann-s-dried-meats"] = {
   },
 }
 P.transport["item:mackreel-s-moonshine"] = {
-  hash = "633975",
-  fullHash = "633975",
-  text = "MacKreel's Moonshine. On the broken Thandol Span, Foggy MacKreel brews moonshine strong enough to fell a sentry. Brewmeister Bilger in Southshore takes a batch to settle Foggy's debt. Foggy MacKreel brews his moonshine while stationed as a guard on the Thandol Span. The liquor has a fierce reputation, and even hardened dwarven sentries can be laid low after a night of drinking it. They wake with headaches like siege engines rolling overhead. Travelers value its warmth against the damp chill of Lordaeron and Khaz Modan. Foggy MacKreel owed an unsettled debt to Brewmeister Bilger, Southshore's tavern keeper and master brewer. He sent a batch of moonshine instead of coin to clear his tab. Bilger accepts the liquor in place of gold and adds MacKreel's potent brew to his stock for the chilly coastal days of the Hillsbrad Foothills.",
+  hash = "651662",
+  fullHash = "651662",
+  text = "MacKreel's Moonshine. On the broken Thandol Span, Foggy MacKreel brews moonshine strong enough to fell a sentry. Brewmeister Bilger in Southshore takes a batch to settle Foggy's debt. Foggy MacKreel brews moonshine while guarding the Thandol Span. Even hardened dwarven sentries can be laid low after a night of drinking it. They wake with headaches like siege engines rolling overhead. Travelers prize its warmth against the damp chill of Lordaeron and Khaz Modan. Foggy MacKreel owed a debt to Brewmeister Bilger, Southshore's tavern keeper and master brewer. He sent a batch of moonshine instead of coin to clear his tab. Bilger accepts the liquor in place of gold and adds MacKreel's potent brew to his stock for the chilly coastal days of the Hillsbrad Foothills.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_mackreel-s-moonshine-993bdec282e6c9a631d0/1-0000.mp3", duration = 51.9314286, start = 0},
+    {file = "Audio/Transport/full_item_mackreel-s-moonshine-9cfd53966bd0a398e705/1-0000.mp3", duration = 46.8114286, start = 0},
   },
 }
 P.transport["item:maggot-eye-s-paw"] = {
@@ -3226,11 +3226,11 @@ P.transport["item:maggot-eye-s-paw"] = {
   },
 }
 P.transport["item:maggran-s-reserve-letter"] = {
-  hash = "81920c",
-  fullHash = "81920c",
-  text = "Maggran's Reserve Letter. At Sun Rock Retreat, Maggran Earthbinder sends orders to relieve a guard at the Great Lift. The letter promises Grish Longrunner leave to visit his family. Maggran Earthbinder sends orders from Sun Rock Retreat to the Great Lift. Grish Longrunner, a Horde sentry at the post, is to be relieved by a replacement warrior. The Great Lift's wooden winches stand far to the south, where Grish has kept watch. With the new warrior taking his place, he can leave his post and return home to visit his family.",
+  hash = "70dc11",
+  fullHash = "70dc11",
+  text = "Maggran's Reserve Letter. At Sun Rock Retreat, Maggran Earthbinder sends a reserve warrior south to relieve Grish Longrunner at the Great Lift. The orders let Grish return home and visit his family. From Sun Rock Retreat, Maggran Earthbinder sends orders to the Great Lift. Grish Longrunner, a Horde sentry there, is to be relieved by a replacement warrior.\n\nThe Great Lift's wooden winches stand far to the south. Grish has kept watch there, but now the new warrior takes his place. Grish can leave his post and return home to visit his family.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_maggran-s-reserve-letter-65a2e1a22c424298f6d7/1-0000.mp3", duration = 30.484898, start = 0},
+    {file = "Audio/Transport/full_item_maggran-s-reserve-letter-599162a596c1f9b99eda/1-0000.mp3", duration = 33.6457143, start = 0},
   },
 }
 P.transport["item:mangy-claw"] = {
@@ -3250,51 +3250,51 @@ P.transport["item:marshal-haggard-s-badge"] = {
   },
 }
 P.transport["item:mary-s-looking-glass"] = {
-  hash = "621fa8",
-  fullHash = "621fa8",
-  text = "Mary's Looking Glass. In Duskwood, Mary’s discarded looking glass passes from a ghoul to a stargazer. Blind Mary once treasured the polished mirror. After her death and the loss of her eyes, her reflection became an agonizing reminder of what she had lost. She cast the looking glass away behind her barn, where Duskwood's gloom closed in. An Insane Ghoul found it among the ruined outskirts and carried it south to the crypts of Tranquil Gardens Cemetery. In Darkshire, the stargazer Viktori Prism'Antras dreams of seeing through Duskwood's eternal twilight to the clear heavens above. His telescope needs special optical lenses and reflective glass. Mary sends adventurers after the feral undead in the cemetery's ruined chapel to recover her looking glass. Viktori needs it as a reflector in his machine for viewing the stars.",
+  hash = "d2657d",
+  fullHash = "d2657d",
+  text = "Mary's Looking Glass. In Duskwood, Mary's discarded looking glass passes from a ghoul to a stargazer. Blind Mary once treasured the polished mirror. After her death and the loss of her eyes, her reflection became a painful reminder of what she had lost. She threw the looking glass behind her barn. Duskwood's gloom gathered around it, until an Insane Ghoul found it among the ruined outskirts and carried it south to the crypts of Tranquil Gardens Cemetery. In Darkshire, the stargazer Viktori Prism'Antras dreams of looking past Duskwood's eternal twilight to the clear heavens above. His telescope needs special optical lenses and reflective glass. Mary sends adventurers to the ruined chapel in the cemetery, where feral undead hold her looking glass. Viktori needs it as a reflector in his machine for viewing the stars.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_mary-s-looking-glass-1b288d44ac3db717926e/1-0000.mp3", duration = 51.3828571, start = 0},
+    {file = "Audio/Transport/full_item_mary-s-looking-glass-6d796b9f0a6c893ceefa/1-0000.mp3", duration = 51.0693878, start = 0},
   },
 }
 P.transport["item:mathystra-relic"] = {
-  hash = "0aca17",
-  fullHash = "0aca17",
-  text = "Mathystra Relic. Among Mathystra’s overgrown ruins in northern Darkshore, ancient night elven relics still hold traces of magic. The Twilight's Hammer cult has taken an interest in them. Mathystra once stood on the Kalimdor coast as a city and bastion of elven civilization. Before the Great Sundering, it was a proud place. Now toppled columns and cracked stones lie half-swallowed by brush and sea mist, with restless spirits and lurking beasts among them. Relics from that age are scattered through the ruins. Ten thousand years of neglect have worn them, but traces of elven arcane craft remain, and they are dangerous in careless hands.",
+  hash = "f4904a",
+  fullHash = "f4904a",
+  text = "Mathystra Relic. In northern Darkshore, Mathystra's ancient relics still bear traces of magic. The Twilight's Hammer has taken an interest in them. Mathystra once stood on the Kalimdor coast as a city and bastion of elven civilization. Before the Great Sundering, it was a proud place. Now toppled columns and cracked stones lie half-swallowed by brush and sea mist. Restless spirits and lurking beasts move among them.\n\nRelics from that age lie scattered through the ruins. Ten thousand years of neglect have worn them, yet traces of elven arcane craft remain. In careless hands, these relics are dangerous.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_mathystra-relic-4c00b76a8ad3aa724f97/1-0000.mp3", duration = 39.6016327, start = 0},
+    {file = "Audio/Transport/full_item_mathystra-relic-672d1e128cfea7a79a4a/1-0000.mp3", duration = 38.8179592, start = 0},
   },
 }
 P.transport["item:melenas-head"] = {
-  hash = "2a0257",
-  fullHash = "2a0257",
-  text = "Melenas' Head. At Fel Rock, Melenas' Head marks the end of a lingering demonic threat on Teldrassil. Taken as a bounty from Lord Melenas, the satyr commander encamped there, it is proof of his death. Satyrs on Teldrassil’s new World Tree shame the night elves who guard Shadowglen and the surrounding reaches. Lord Melenas made his lair in Fel Rock’s twisted caverns, just north of the elven settlements, and rallied aggressive grell warriors to his banner. The kaldorei prize discretion when dealing with corruption so close to their heartlands. Melenas' Head is private proof that his schemes have ended before his influence could spread.",
+  hash = "b0efc6",
+  fullHash = "b0efc6",
+  text = "Melenas' Head. At Fel Rock, Melenas' Head brings Lord Melenas' threat to an end. The satyr commander was encamped there, and the head is proof of his death. Satyrs on Teldrassil's new World Tree shame the night elves who guard Shadowglen and the lands around it. Lord Melenas made his lair in Fel Rock's twisted caverns, just north of the elven settlements. There he rallied aggressive grell warriors to his banner.\n\nThe kaldorei prize discretion when corruption draws so near their heartlands. Melenas' Head is private proof that his schemes ended before his influence could spread.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_melenas-head-6dd848f137ef5bdce709/1-0000.mp3", duration = 38.7395918, start = 0},
+    {file = "Audio/Transport/full_item_melenas-head-e31acb1880345148a369/1-0000.mp3", duration = 37.8514286, start = 0},
   },
 }
 P.transport["item:menethil-statuette"] = {
-  hash = "163305",
-  fullHash = "163305",
-  text = "Menethil Statuette. Off the Wetlands coast, the Menethil Statuette lies lost from a shipwreck. The rare silver likeness honors Lordaeron's fallen king. King Terenas Menethil II appears in his youth, a long-haired paladin lifting a hammer toward the heavens. He was humble and disliked personal monuments, so few statues or likenesses were made in his honor. The Scourge's fall of Lordaeron destroyed almost all of them. This surviving effigy is extraordinarily valuable to the Alliance. The Blind Princess carried the statuette toward the Alliance harbor of Menethil. Bluegill murlocs attacked the merchant vessel off the marshy coast, scattering its cargo. The statuette became trapped in a half-buried barrel on shore. With Dragonmaw orcs and other local threats nearby, defenders hurried to send the recovered icon south to Stormwind City. There, Highlord Bolvar Fordragon entrusted it to the Cathedral of Light.",
+  hash = "f9cbb8",
+  fullHash = "f9cbb8",
+  text = "Menethil Statuette. Off the Wetlands coast, the Menethil Statuette lies lost from a shipwreck. The rare silver likeness honors Lordaeron's fallen king. King Terenas Menethil II is shown as a young paladin, long-haired, with his hammer raised toward the heavens. Humble in life, he disliked monuments to himself, and few likenesses were made in his honor. When the Scourge brought down Lordaeron, almost all those likenesses were destroyed. This surviving effigy is precious to the Alliance. The Blind Princess was carrying the statuette toward the Alliance harbor of Menethil when Bluegill murlocs attacked off the marshy coast. The assault scattered the merchant vessel's cargo, and the statuette came to rest in a half-buried barrel on shore.\n\nDragonmaw orcs and other local threats remained nearby, so defenders hurried the recovered icon south to Stormwind City. There, Highlord Bolvar Fordragon entrusted it to the Cathedral of Light.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_menethil-statuette-c36f73600a848f282dab/1-0000.mp3", duration = 57.5216327, start = 0},
+    {file = "Audio/Transport/full_item_menethil-statuette-aae4bfd4a8305c031293/1-0000.mp3", duration = 60.5518367, start = 0},
   },
 }
 P.transport["item:merrin-s-letter"] = {
-  hash = "f487b2",
-  fullHash = "f487b2",
-  text = "Merrin's Letter. At the Whelgar's Excavation site, Merrin Rockweaver sends an urgent message from the Wetlands. Raptors have overrun the dig, but Merrin assures her loved ones that she survived. Merrin Rockweaver writes from the ruined dig at Whelgar's Excavation in the Wetlands. The dwarven expedition had been uncovering enormous prehistoric fossils and relics when they disturbed a nest of Mottled Raptors. The beasts swarmed the trenches, killed several workers, and cut off the surviving researchers. Amid the chaos, Merrin sends word to her husband Tarrel at Menethil Harbor. She, Prospector Whelgar, and Ormer Ironbraid survived behind a barricaded shelter.",
+  hash = "6ca655",
+  fullHash = "6ca655",
+  text = "Merrin's Letter. At Whelgar's Excavation, Merrin Rockweaver sends urgent word from the Wetlands. Raptors have overrun the dig, but she tells her loved ones she survived. Merrin Rockweaver writes from the ruined dig at Whelgar's Excavation in the Wetlands. The dwarven expedition had been uncovering enormous prehistoric fossils and relics when they disturbed a nest of Mottled Raptors. The beasts swarmed the trenches, killed several workers, and cut off the surviving researchers.\n\nAmid the chaos, Merrin sends word to her husband Tarrel at Menethil Harbor. She, Prospector Whelgar, and Ormer Ironbraid survived behind a barricaded shelter.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_merrin-s-letter-1cd7c0263fc19971defd/1-0000.mp3", duration = 41.7697959, start = 0},
+    {file = "Audio/Transport/full_item_merrin-s-letter-f4dc6fe2337d8c8a1227/1-0000.mp3", duration = 40.5420408, start = 0},
   },
 }
 P.transport["item:middle-of-gelkak-s-key"] = {
-  hash = "58537c",
-  fullHash = "58537c",
-  text = "Middle of Gelkak's Key. Off Darkshore, Gelkak Gyromast’s key lies in three pieces after threshadons sank his ship. Greymist murlocs took the middle fragment from the shore. Gelkak Gyromast’s winding key broke when threshadons dragged his ship beneath the waves. The gnome pirate came ashore with his belongings shattered on the rocky shoals. The specialized key was made for his mechanical first mate, but the wreck split it into three pieces scattered along the strand. Coastal beasts carried off the top and bottom. Greymist murlocs prowling the Darkshore surf took the middle piece and kept it in their camps and among the wreckage they hold.",
+  hash = "afb5ba",
+  fullHash = "afb5ba",
+  text = "Middle of Gelkak's Key. Off Darkshore, threshadons sank Gelkak Gyromast’s ship and scattered his key in three pieces. Greymist murlocs took the middle fragment. Gelkak Gyromast’s winding key broke when threshadons dragged his ship beneath the waves. The gnome pirate came ashore with his belongings shattered on the rocky shoals. His specialized key was made for his mechanical first mate, but the wreck split it into three pieces scattered along the strand. Coastal beasts carried off the top and bottom pieces. Greymist murlocs prowling the Darkshore surf took the middle piece and kept it in their camps and among the wreckage they hold.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_middle-of-gelkak-s-key-516055266561018a793d/1-0000.mp3", duration = 39.5232653, start = 0},
+    {file = "Audio/Transport/full_item_middle-of-gelkak-s-key-3216cb6959a43a607b21/1-0000.mp3", duration = 38.7918367, start = 0},
   },
 }
 P.transport["item:milly-s-harvest"] = {
@@ -3314,19 +3314,19 @@ P.transport["item:miners-gear"] = {
   },
 }
 P.transport["item:miners-union-card"] = {
-  hash = "598b55",
-  fullHash = "598b55",
-  text = "Miners' Union Card. In Moonbrook, union cards mark the laborers lost beneath the earth. Workers once carried them through the mines, and now the cards remain with skeletal dead in the dark drifts. Before the Defias Brotherhood took control of Moonbrook, miners worked below ground for the guild, drawing valuable ore for the kingdom. A tunnel collapse crushed a major shaft and killed dozens beneath the rock. The dead rose as skeletal miners, excavators, and dynamiters. Union cards remain in their bony pockets, the last proof of who they were. In Stormwind, surviving colleagues seek the cards to learn the dead workers' identities and bring closure to their families.",
+  hash = "b09712",
+  fullHash = "b09712",
+  text = "Miners' Union Card. In Moonbrook, union cards remain with the laborers lost beneath the earth. Workers once carried them through the mines, and now they lie with the skeletal dead in the dark drifts. Before the Defias Brotherhood took control of Moonbrook, miners worked below ground for the guild, drawing valuable ore for the kingdom. Then a tunnel collapsed, crushing a major shaft and killing dozens beneath the rock.\n\nThe dead rose as skeletal miners, excavators, and dynamiters. Their union cards remain in bony pockets, the last proof of who they were. In Stormwind, surviving colleagues seek the cards to learn the dead workers' identities and bring closure to their families.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_miners-union-card-0d12df6718f9821a2b79/1-0000.mp3", duration = 42.6579592, start = 0},
+    {file = "Audio/Transport/full_item_miners-union-card-81c460f94c53d7eb9934/1-0000.mp3", duration = 43.7028571, start = 0},
   },
 }
 P.transport["item:minshina-s-skull"] = {
-  hash = "aefe64",
-  fullHash = "aefe64",
-  text = "Minshina's Skull. On the Echo Isles, Minshina's Skull holds the bound soul of Minshina, a Darkspear troll and brother of Master Gadrin. Zalazane trapped him there after driving the tribe from the isles, and uses the skull to fuel dark rituals. Minshina was captured and slain when Zalazane seized the Echo Isles and drove out the Darkspear. The traitorous witch doctor bound his victim's soul to Minshina's severed skull instead of letting him pass into death. The skull lies within a circle of power on the southernmost isle, tethering Minshina to Zalazane's magic. Tormented by dreams of his brother calling to him, Master Gadrin seeks brave travelers to enter the occupied islands, reclaim the skull, and break Zalazane's hold over Minshina's spirit.",
+  hash = "964a5c",
+  fullHash = "964a5c",
+  text = "Minshina's Skull. On the Echo Isles, Minshina's soul remains bound to his skull by Zalazane's dark magic. Minshina was a Darkspear troll and Master Gadrin's brother. Zalazane seized the isles and drove the tribe away, then used Minshina's skull in his rituals. Minshina was captured and slain when Zalazane seized the Echo Isles and drove out the Darkspear. The traitorous witch doctor bound his soul to his severed skull instead of letting him pass into death. Now the skull lies within a circle of power on the southernmost isle, holding Minshina fast to Zalazane's magic.\n\nMaster Gadrin dreams of his brother calling to him, and seeks brave travelers to enter the occupied islands. He asks them to reclaim the skull and break Zalazane's hold over Minshina's spirit.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_minshina-s-skull-83158623d6bfb795363d/1-0000.mp3", duration = 46.9681633, start = 0},
+    {file = "Audio/Transport/full_item_minshina-s-skull-a5fc1bcf49662628d56d/1-0000.mp3", duration = 48.7967347, start = 0},
   },
 }
 P.transport["item:mirror-lake-water-sample"] = {
@@ -3338,11 +3338,11 @@ P.transport["item:mirror-lake-water-sample"] = {
   },
 }
 P.transport["item:mist-veil-s-lockbox"] = {
-  hash = "732895",
-  fullHash = "732895",
-  text = "Mist Veil's Lockbox. Off Darkshore, Mist Veil's Lockbox lies in the sunken night elven vessel. It holds the captain's log and personal effects, lost when coastal murlocs ambushed and sank the ship. The night elven vessel Mist Veil sank while sailing toward Auberdine. Coastal murlocs ambushed it alongside its sister ship, the Silver Dawning, and overwhelmed both vessels. The captain perished in the attack. Their logbook and personal belongings remain sealed in the lockbox in the flooded hold, surrounded by murlocs. Surviving sailors reached Auberdine, but the loss of their vessel and commander still grieves them. Gorbold Steelhand seeks Mist Veil's Lockbox so the captain's final effects can be honored and laid to rest. Recovering it from the flooded wreck may bring some solace to the survivors on the mainland.",
+  hash = "f5ec04",
+  fullHash = "f5ec04",
+  text = "Mist Veil's Lockbox. Off Darkshore, coastal murlocs ambushed the Mist Veil and sank it. The night elven vessel now rests beneath the waves with the captain’s log and personal effects in its lockbox. The night elven vessel Mist Veil sank while sailing toward Auberdine. Coastal murlocs overwhelmed it and its sister ship, the Silver Dawning. The captain perished, and the logbook and personal effects remain sealed in the lockbox in the flooded hold. Murlocs still surround the wreck. Surviving sailors reached Auberdine, but they still grieve for their lost vessel and commander. Gorbold Steelhand seeks Mist Veil's Lockbox so the captain's final effects can be honored and laid to rest. Recovering it from the flooded wreck may bring solace to the survivors on the mainland.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_mist-veil-s-lockbox-72cf03e19d3b3eb21b79/1-0000.mp3", duration = 50.0244898, start = 0},
+    {file = "Audio/Transport/full_item_mist-veil-s-lockbox-1ccccb7df1a55f6c6095/1-0000.mp3", duration = 48.1959184, start = 0},
   },
 }
 P.transport["item:mo-grosh-crystal"] = {
@@ -3354,11 +3354,11 @@ P.transport["item:mo-grosh-crystal"] = {
   },
 }
 P.transport["item:modr-fragment"] = {
-  hash = "7dba8a",
-  fullHash = "7dba8a",
-  text = "Modr Fragment. At Whelgar Excavation Site, Modr Fragment lies among the relics and loose earth of a raptor-overrun dig. The ancient Titan script on it is one of four missing pieces of the Goaz Stone. Prospector Whelgar uncovered the Goaz Stone, a massive tablet marked with ancient Titan writing, at his Wetlands dig. Vicious raptors drove the Explorers' League from the site before they could finish their work. The translated inscription broke off at four gaps, hiding warnings of a divine plan and a doomed prophecy. Modr Fragment is one of the missing pieces, left among the relics and overturned soil when the diggers fled for their lives.",
+  hash = "baaf67",
+  fullHash = "baaf67",
+  text = "Modr Fragment. At Whelgar Excavation Site, Modr Fragment lies among relics and loose earth in a raptor-overrun dig. Its ancient Titan script fills one of four gaps in the Goaz Stone. Prospector Whelgar uncovered the Goaz Stone at his Wetlands dig. The massive tablet bears ancient Titan writing. Vicious raptors drove the Explorers' League from the site before its members could finish their work. The translated inscription breaks off at four gaps, leaving warnings of a divine plan and a doomed prophecy unfinished. Modr Fragment is one of the missing pieces, left among relics and overturned soil when the diggers fled for their lives.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_modr-fragment-6a6f8b0b99185a4b70c7/1-0000.mp3", duration = 40.8032653, start = 0},
+    {file = "Audio/Transport/full_item_modr-fragment-21ebc2488dd6662e19e2/1-0000.mp3", duration = 39.8889796, start = 0},
   },
 }
 P.transport["item:moldy-tome"] = {
@@ -3378,43 +3378,43 @@ P.transport["item:moonpetal-lily"] = {
   },
 }
 P.transport["item:moonstalker-fang"] = {
-  hash = "dacd51",
-  fullHash = "dacd51",
-  text = "Moonstalker Fang. Near Auberdine, travelers gather Moonstalker Fangs for Wizbang Cranktoggle's sampling devices. The teeth come from the moonstalkers of Darkshore. Moonstalker Fangs come from saber cats that hunt along Darkshore’s forest fringes. Their long teeth can shear flesh and bone. Wizbang Cranktoggle, an eccentric gnome tinkerer, uses them in a different way. North of Auberdine, near the bridge, Buzzbox 323 crushes the durable fangs to dust for his ecological surveys.",
+  hash = "5468a0",
+  fullHash = "5468a0",
+  text = "Moonstalker Fang. Near Auberdine, travelers collect Moonstalker Fang for Wizbang Cranktoggle's sampling devices. The teeth come from Darkshore's moonstalkers. Moonstalker Fangs come from saber cats that hunt along Darkshore’s forest fringes. Their long teeth can shear flesh and bone. Wizbang Cranktoggle, an eccentric gnome tinkerer, puts them to another use. North of Auberdine near the bridge, Buzzbox 323 grinds the durable fangs to dust for his ecological surveys.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_moonstalker-fang-1c783a4dddedb02ba14a/1-0000.mp3", duration = 30.9028571, start = 0},
+    {file = "Audio/Transport/full_item_moonstalker-fang-41c30f8fd84f19ed1348/1-0000.mp3", duration = 30.8506122, start = 0},
   },
 }
 P.transport["item:moonwell-water-tube"] = {
-  hash = "0385d3",
-  fullHash = "0385d3",
-  text = "Moonwell Water Tube. At Auberdine, water from the moonwell carries purifying nature magic. The vial is used to test a mysterious red crystal set among Darkshore’s eastern ridges. Water from Auberdine’s moonwell fills the tube. The sacred pool is tied to Elune and holds restorative, purifying magic. Even a small amount can be used against corruption or to test strange mystical forces.",
+  hash = "b41922",
+  fullHash = "b41922",
+  text = "Moonwell Water Tube. In Auberdine, moonwell water carries purifying nature magic. The tube is used to test a mysterious red crystal among Darkshore’s eastern ridges. Water from Auberdine’s moonwell fills the tube. The sacred pool is tied to Elune and holds restorative, purifying magic. Even a little can be used against corruption or to test strange mystical forces.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_moonwell-water-tube-27eef06c89f5b6eea879/1-0000.mp3", duration = 23.6408163, start = 0},
+    {file = "Audio/Transport/full_item_moonwell-water-tube-d79ae50c4edce3877710/1-0000.mp3", duration = 24.4244898, start = 0},
   },
 }
 P.transport["item:mossy-tumor"] = {
-  hash = "ae480a",
-  fullHash = "ae480a",
-  text = "Mossy Tumor. Around Wellspring Lake, mossy tumors mark Teldrassil's spreading corruption. Carved from the bark and flesh of corrupted timberlings, these poisonous growths show the malevolence taking hold in the young World Tree. Teldrassil's timberlings were made to nurture and tend the great tree's boughs, but many have grown hostile and diseased. Mossy tumors are signs of that sickness made flesh. Thick with toxins, they spread across the Mire Beasts, Tramplers, and Elder Timberlings around Wellspring Lake. Rellian Greenspyre and the keepers in Darnassus send travelers to cut away the tumors and burn them thoroughly, so their poison cannot take deeper root in the island's soil.",
+  hash = "d634d9",
+  fullHash = "d634d9",
+  text = "Mossy Tumor. Around Wellspring Lake, mossy tumors spread through Teldrassil's timberlings. Cut from their bark and flesh, these poisonous growths show the corruption taking hold in the young World Tree. Teldrassil's timberlings once tended the great tree's boughs. Many are now hostile and diseased, and their mossy tumors make that sickness plain. Thick with toxins, the growths spread across Mire Beasts, Tramplers, and Elder Timberlings around Wellspring Lake. Rellian Greenspyre and the keepers in Darnassus send travelers to cut them away and burn them thoroughly. Their poison must not take deeper root in the island's soil.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_mossy-tumor-075488d5630eec981598/1-0000.mp3", duration = 41.4563265, start = 0},
+    {file = "Audio/Transport/full_item_mossy-tumor-8dad35f756d2325b7451/1-0000.mp3", duration = 41.9787755, start = 0},
   },
 }
 P.transport["item:mountain-lion-blood"] = {
-  hash = "a49bbe",
-  fullHash = "a49bbe",
-  text = "Mountain Lion Blood. Across Hillsbrad and Alterac, Mountain Lion Blood draws Apothecary Lydon’s interest. In Tarren Mill, Lydon seeks fresh blood to make the Royal Apothecary Society’s dreaded Elixir of Pain. Mountain lions prowl the highlands and foothills of Hillsbrad and Alterac. Hunters prize their pelts and claws, while the Forsaken of the Royal Apothecary Society seek the blood in their veins. Apothecary Lydon in Tarren Mill believes fresh mountain lion blood can form the base of a potent brew meant to bring misery to the living. Apothecary Lydon’s experiments in Tarren Mill support the Royal Apothecary Society’s work to perfect the Forsaken’s New Plague. Lydon gathers blood from vigorous wild beasts to refine a concoction called the Elixir of Pain, testing how local organic compounds can be turned against the enemies of the Dark Lady.",
+  hash = "f52f92",
+  fullHash = "f52f92",
+  text = "Mountain Lion Blood. In Hillsbrad and Alterac, Apothecary Lydon seeks Mountain Lion Blood. At Tarren Mill, he needs fresh blood for the Royal Apothecary Society’s Elixir of Pain. Mountain lions hunt across the highlands and foothills of Hillsbrad and Alterac. Hunters prize their pelts and claws, while Forsaken of the Royal Apothecary Society seek the blood in their veins. Apothecary Lydon in Tarren Mill believes fresh mountain lion blood can form the base of a potent brew. He means it to bring misery to the living. Apothecary Lydon’s work in Tarren Mill supports the Royal Apothecary Society’s effort to perfect the Forsaken’s New Plague. He gathers blood from vigorous wild beasts to refine a concoction called the Elixir of Pain. His experiments test how local organic compounds can be turned against the enemies of the Dark Lady.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_mountain-lion-blood-079fffeb4281c2229e87/1-0000.mp3", duration = 51.9314286, start = 0},
+    {file = "Audio/Transport/full_item_mountain-lion-blood-c3e73e0483d9532bd08e/1-0000.mp3", duration = 53.1069388, start = 0},
   },
 }
 P.transport["item:mudsnout-blossom"] = {
-  hash = "c05386",
-  fullHash = "c05386",
-  text = "Mudsnout Blossom. Mudsnout Blossoms grow in Nethander Stead, south of Tarren Mill. Mudsnout gnolls guard the foul, toxic mushrooms, and Apothecary Lydon seeks them for his elixir research. South of Tarren Mill, Mudsnout Blossoms grow in Nethander Stead. Despite their name, they are large, foul-smelling mushrooms that flourish in soiled dirt among the local Mudsnout gnolls' camps. The gnolls defend the territory fiercely. The mushrooms' spores and flesh poison living things, causing agony and rapid bodily decay.",
+  hash = "f2ec72",
+  fullHash = "f2ec72",
+  text = "Mudsnout Blossom. In Nethander Stead, Mudsnout Blossom spores and flesh poison the living. Mudsnout gnolls guard the mushrooms, and Apothecary Lydon seeks them for his elixir research. South of Tarren Mill, Mudsnout Blossoms grow in Nethander Stead. Their name suggests flowers, but they are large, foul-smelling mushrooms. They thrive in soiled dirt among the Mudsnout gnolls' camps, and the gnolls defend that ground fiercely. Their spores and flesh poison living things, bringing agony and rapid bodily decay.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_mudsnout-blossom-9ea4c73b1715bdcc4e76/1-0000.mp3", duration = 34.1159184, start = 0},
+    {file = "Audio/Transport/full_item_mudsnout-blossom-c3713dab94cb0d0a381f/1-0000.mp3", duration = 33.3583673, start = 0},
   },
 }
 P.transport["item:mudsnout-composite"] = {
@@ -3434,11 +3434,11 @@ P.transport["item:mudsnout-mixture"] = {
   },
 }
 P.transport["item:murloc-head"] = {
-  hash = "f744a8",
-  fullHash = "f744a8",
-  text = "Murloc Head. Along the Western Strand, Murloc Head is grim proof of a threat Southshore wants brought under control. Lieutenant Farren Orinelle collects the severed heads for Marshal Redpath, who requires evidence of the murlocs being culled. Southshore's fishermen and coastal travelers face an immediate threat from aggressive murlocs along the Western Strand. Alliance fighters often clear the beaches, but Marshal Marcus Redpath wants proof before he approves reports of the threat being reduced. Lieutenant Farren Orinelle hires fighters to bring him murloc heads. Farren finds the work repulsive, and the sight has spoiled his appetite for Southshore's seafood.",
+  hash = "28269c",
+  fullHash = "28269c",
+  text = "Murloc Head. Along the Western Strand, Murloc Head gives Southshore grim proof of a threat it wants controlled. Lieutenant Farren Orinelle gathers the severed heads for Marshal Redpath, who demands evidence that the murlocs are being culled. Aggressive murlocs threaten Southshore's fishermen and travelers on the Western Strand. Alliance fighters often clear the beaches, but Marshal Marcus Redpath wants proof before approving reports that the threat has been reduced.\n\nSo Lieutenant Farren Orinelle hires fighters to bring him murloc heads. Farren finds the work repulsive, and the sight has spoiled his appetite for Southshore's seafood.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_murloc-head-5cffbcc26a4a00d6ffc6/1-0000.mp3", duration = 40.8032653, start = 0},
+    {file = "Audio/Transport/full_item_murloc-head-efcf91a763045db9302f/1-0000.mp3", duration = 38.5828571, start = 0},
   },
 }
 P.transport["item:musquash-root"] = {
@@ -3450,43 +3450,43 @@ P.transport["item:musquash-root"] = {
   },
 }
 P.transport["item:mysterious-fossil"] = {
-  hash = "04f865",
-  fullHash = "04f865",
-  text = "Mysterious Fossil. Along Darkshore's coast, Prospector Remtravel uncovers the Mysterious Fossil. The Explorers' League sends it across the sea for study. Prospector Remtravel uncovers an unusual fossil while working along Darkshore's wild coast. He arranges for dwarven scholars to receive it instead of leaving it in the wilderness. In Darnassus, Chief Archaeologist Greywhisker sees an extraordinary find among the stones of Kalimdor.",
+  hash = "bf8b39",
+  fullHash = "bf8b39",
+  text = "Mysterious Fossil. Along Darkshore's coast, Prospector Remtravel uncovers the Mysterious Fossil. The Explorers' League sends it across the sea for study. Prospector Remtravel uncovers an unusual fossil along Darkshore's wild coast. He arranges for dwarven scholars to receive it rather than leave it in the wilderness. In Darnassus, Chief Archaeologist Greywhisker sees an extraordinary find among the stones of Kalimdor.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_mysterious-fossil-670f21ca2e479836f282/1-0000.mp3", duration = 27.8726531, start = 0},
+    {file = "Audio/Transport/full_item_mysterious-fossil-3172351a2f9f959f06b2/1-0000.mp3", duration = 25.9657143, start = 0},
   },
 }
 P.transport["item:nak-s-skull"] = {
-  hash = "369533",
-  fullHash = "369533",
-  text = "Nak's Skull. In the southern Barrens, Nak leads Razormane warbands against the Horde. His skull proves his defeat and gives Mangletooth a means to avenge betrayal by his former kin. Nak, Kuz, and Lok Orcbane lead raids from Razorfen Kraul across the Barrens. Their warbands strike Horde settlements and roads, while defenders at the Crossroads do not know the three commanders are planning attacks beyond ordinary tribal skirmishing. At Camp Taurajo, the captive Razormane Mangletooth has been left to die in a cage by his own people. He now seeks revenge against those former brethren. Mangletooth demands proof that Nak and his companions are dead: their severed skulls, delivered by Horde adventurers. He means to use that proof to break the southern raiding parties.",
+  hash = "680617",
+  fullHash = "680617",
+  text = "Nak's Skull. Nak's Skull carries weight in the southern Barrens, where Razormane raids trouble the Horde. At Camp Taurajo, Mangletooth seeks vengeance on the kin who left him to die. Nak, Kuz, and Lok Orcbane lead raids from Razorfen Kraul across the Barrens. Their warbands strike Horde settlements and roads, while Crossroads defenders know nothing of plans beyond ordinary tribal skirmishing.\n\nAt Camp Taurajo, the captive Razormane Mangletooth was left to die in a cage by his own people. He now seeks revenge on those former brethren. He demands Nak's, Kuz's, and Lok Orcbane's severed skulls as proof they are dead, delivered by Horde adventurers. With that proof, he means to break the southern raiding parties.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_nak-s-skull-7900a1536d4ea3c75d08/1-0000.mp3", duration = 46.08, start = 0},
+    {file = "Audio/Transport/full_item_nak-s-skull-f6b7a64b0444a8d792a8/1-0000.mp3", duration = 48.3787755, start = 0},
   },
 }
 P.transport["item:nek-rosh-s-head"] = {
-  hash = "88e537",
-  fullHash = "88e537",
-  text = "Nek'rosh's Head. In the Wetlands, Nek'rosh's Head proves the Dragonmaw chieftain has fallen. Captain Stoutfist receives it as proof that the threat to Menethil Harbor has been broken. The Dragonmaw clan gathers forces and siege weapons across the marshlands, threatening the Alliance port of Menethil Harbor. After the clan's catapults are burned, the port's defense depends on killing Chieftain Nek'rosh. His severed head gives Captain Stoutfist and the Ironforge authorities proof that the warlord's hold over the Wetlands is broken.",
+  hash = "c40a62",
+  fullHash = "c40a62",
+  text = "Nek'rosh's Head. In the Wetlands, Nek'rosh's Head reaches Captain Stoutfist as proof the Dragonmaw chieftain has fallen. Menethil Harbor's defenders can now see that the threat has been broken. Across the marshlands, the Dragonmaw clan gathers forces and siege weapons against the Alliance port of Menethil Harbor. After the clan's catapults burn, the port's defense depends on killing Chieftain Nek'rosh. His severed head gives Captain Stoutfist and the Ironforge authorities proof that the warlord's hold over the Wetlands is broken.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_nek-rosh-s-head-c2b399fa5855a0cf9186/1-0000.mp3", duration = 31.9216327, start = 0},
+    {file = "Audio/Transport/full_item_nek-rosh-s-head-80fecf638fe0fe8b4172/1-0000.mp3", duration = 30.7722449, start = 0},
   },
 }
 P.transport["item:neru-fragment"] = {
-  hash = "52986c",
-  fullHash = "52986c",
-  text = "Neru Fragment. Unearthed from disturbed earth, the Neru Fragment carries part of the Goaz Stone's ancient Titan script. The relic was discovered at Whelgar's Excavation in the Wetlands, and its words tell of Azeroth's primeval history. Prospector Whelgar led the dwarven expedition that discovered the Goaz Stone. The relic broke into four pieces: Ados, Modr, Golm, and Neru. Raptors overran the dig, halting the work, and the Neru Fragment remained beneath loose soil among the aggressive beasts. Once recovered, it can join the other pieces and restore the tablet. Its surviving words speak of a divine plan and a doomed prophecy, giving dwarven scholars a record to decipher.",
+  hash = "fbfc24",
+  fullHash = "fbfc24",
+  text = "Neru Fragment. At Whelgar's Excavation in the Wetlands, the Neru Fragment preserves part of the Goaz Stone's ancient Titan script. Its words tell of Azeroth's primeval history. Prospector Whelgar led the dwarven expedition that found the Goaz Stone. The relic broke into four pieces: Ados, Modr, Golm, and Neru. Then raptors overran the dig and halted the work. The Neru Fragment remained beneath loose soil among the aggressive beasts.\n\nOnce recovered, the fragment can join the others to restore the tablet. The surviving words speak of a divine plan and a doomed prophecy. Dwarven scholars have a record to decipher.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_neru-fragment-4ba129ac8e8d4f26e3af/1-0000.mp3", duration = 43.4416327, start = 0},
+    {file = "Audio/Transport/full_item_neru-fragment-bab8fc4e4b94f44c6f2f/1-0000.mp3", duration = 42.5012245, start = 0},
   },
 }
 P.transport["item:nessa-s-collection"] = {
-  hash = "79a4eb",
-  fullHash = "79a4eb",
-  text = "Nessa's Collection. At Rut'theran Village, fish bones and scales gathered from nearby waters are prepared for study by Laird in Auberdine. Nessa's Collection shows the great size of aquatic life around Teldrassil's roots. Nessa Shadowsong lives in Rut'theran Village at Teldrassil's base, where she gathered fish bones and scales to compare island sea life with that of mainland Kalimdor. Catches from the waters around the Great Tree grow to striking size. Nessa sent physical proof across the sea to Laird, a fish merchant along Auberdine's docks. The parcel travels through Vesprystus, Rut'theran's hippogryph master, and offers practical evidence of Teldrassil's growing vitality. In Darkshore, Laird finds that the specimens far outsize their mainland counterparts. The collection holds jawbones nearly twice the size of those from fish native to the Darkshore coast, and scales as large as a clenched fist. For coastal night elves, the package offers a clear look at how greatly the waters around Teldrassil differ from northern Kalimdor's somber shores.",
+  hash = "1fcc0b",
+  fullHash = "1fcc0b",
+  text = "Nessa's Collection. At Rut'theran Village, Nessa's Collection is bound for Laird in Auberdine, carrying proof of the great fish near Teldrassil's roots. Nessa Shadowsong lives in Rut'theran Village at Teldrassil's base. She gathered fish bones and scales to compare island sea life with mainland Kalimdor. Catches from the waters around the Great Tree grow to striking size. So Nessa sent proof across the sea to Laird, a fish merchant along Auberdine's docks. The parcel travels through Vesprystus, Rut'theran's hippogryph master, and shows Teldrassil's growing vitality. In Darkshore, Laird finds that these specimens far outsize their mainland counterparts. The collection holds jawbones nearly twice the size of those from fish native to the Darkshore coast. Its scales are as large as a clenched fist. For coastal night elves, the package shows how greatly Teldrassil's waters differ from northern Kalimdor's somber shores.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_nessa-s-collection-4ad6bbed11ab774aec17/1-0000.mp3", duration = 65.6718367, start = 0},
+    {file = "Audio/Transport/full_item_nessa-s-collection-6b2a88fe05f566bbea94/1-0000.mp3", duration = 55.9020408, start = 0},
   },
 }
 P.transport["item:nether-gem"] = {
@@ -3498,19 +3498,19 @@ P.transport["item:nether-gem"] = {
   },
 }
 P.transport["item:ng-5"] = {
-  hash = "33dd61",
-  fullHash = "33dd61",
-  text = "NG-5. In the Stonetalon Mountains, Gaxim Rustfizzle needs NG-5 for his explosive plans. The volatile chemical is Nitromirglyceronium, the ignition compound he needs to set off wagons loaded with dynamite as a distraction. Gaxim Rustfizzle, a gnome operative in the Stonetalon Mountains, needs NG-5 for his engineering plans. The compound is formally known as Nitromirglyceronium, a hazardous chemical solution that demands care—or reckless gnomish enthusiasm. Gaxim says it provides the reaction needed to detonate entire wagons loaded with dynamite, creating a massive explosion to distract his adversaries in the region.",
+  hash = "2825ef",
+  fullHash = "2825ef",
+  text = "NG-5. In the Stonetalon Mountains, Gaxim Rustfizzle prepares a distraction with NG-5. The volatile chemical, Nitromirglyceronium, is the ignition compound he needs for wagons loaded with dynamite. Gaxim Rustfizzle is a gnome operative in the Stonetalon Mountains, and NG-5 is the compound he needs for his engineering plans. Its full name is Nitromirglyceronium. The hazardous solution provides the reaction to detonate wagons loaded with dynamite, making a great explosion to distract his adversaries in the region.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_ng-5-88d21636c4f9107140d3/1-0000.mp3", duration = 40.6465306, start = 0},
+    {file = "Audio/Transport/full_item_ng-5-8bd8f80518ffd0ad5d19/1-0000.mp3", duration = 33.1232653, start = 0},
   },
 }
 P.transport["item:nida-s-necklace"] = {
-  hash = "668962",
-  fullHash = "668962",
-  text = "Hilary's Necklace. In Lakeshire, Hilary searches for the necklace she lost in Lake Everstill. Her father gave it to her when she was young, and it slipped beneath the water while she and the other children fished by the docks. Hilary lost her necklace while fishing with her friend Shawn along the Lakeshire shore. Her father had given it to her, and she treasures the gift. Fierce beasts and aggressive murlocs live in the lake's depths, so local children stay on the docks. The necklace remains beneath the water, buried in the lakebed silt.",
+  hash = "fe9bde",
+  fullHash = "fe9bde",
+  text = "Hilary's Necklace. In Lakeshire, Hilary searches Lake Everstill for the necklace her father gave her. It slipped beneath the water while she and the other children fished by the docks. Hilary lost her necklace while fishing with her friend Shawn along the Lakeshire shore. Her father gave it to her, and she treasures his gift.\n\nFierce beasts and aggressive murlocs live in the lake's depths, so local children stay on the docks. Hilary's necklace lies beneath the water, buried in the lakebed silt.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_nida-s-necklace-28de573eb50b1ec152fa/1-0000.mp3", duration = 31.6081633, start = 0},
+    {file = "Audio/Transport/full_item_nida-s-necklace-a1b14988f6a54b2c5c58/1-0000.mp3", duration = 30.1453061, start = 0},
   },
 }
 P.transport["item:nightmare-shard"] = {
@@ -3522,11 +3522,11 @@ P.transport["item:nightmare-shard"] = {
   },
 }
 P.transport["item:nightsaber-fang"] = {
-  hash = "78fd6d",
-  fullHash = "78fd6d",
-  text = "Nightsaber Fang. In Teldrassil, hunters take fangs from the nightsabers prowling the forest. Woodland residents also seek these teeth as reagents. Nightsabers hunt beneath Teldrassil’s canopy, among the deadliest natural predators of northern Kalimdor. Night elves revere them for their agility, ferocity, and deep spiritual bond with Elune. A hunter who kills one can take its sharp fangs as proof of skill. Some figures in the forest seek those fangs for darker rites.",
+  hash = "84694c",
+  fullHash = "84694c",
+  text = "Nightsaber Fang. In Teldrassil, hunters take fangs from nightsabers prowling the forest. Woodland residents seek the teeth as reagents. Beneath Teldrassil’s canopy, nightsabers hunt as some of northern Kalimdor’s deadliest natural predators. Night elves revere them for their agility, ferocity, and deep spiritual bond with Elune. A hunter who kills one may take its sharp fangs as proof of skill. Yet some figures in the forest seek those fangs for darker rites.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_nightsaber-fang-62db3a8e4a79b367f5c9/1-0000.mp3", duration = 27.8726531, start = 0},
+    {file = "Audio/Transport/full_item_nightsaber-fang-76183d6139af6646d9b2/1-0000.mp3", duration = 30.0930612, start = 0},
   },
 }
 P.transport["item:nissa-s-remains"] = {
@@ -3538,11 +3538,11 @@ P.transport["item:nissa-s-remains"] = {
   },
 }
 P.transport["item:nitroglycerin"] = {
-  hash = "45611d",
-  fullHash = "45611d",
-  text = "Nitroglycerin. At Bael Modan, Nitroglycerin helps the dwarves drive their excavation through tauren lands. Their soldiers and officers carry the volatile chemical, which can also be used against the fortress. Bael Modan's dwarves dig into the ancestral lands of the Stonespire tauren with heavy drillers and volatile chemicals. At the excavation site and its fortified keep, they keep nitroglycerin close to blast deep holes and break apart hills. Soldiers and officers, including Lord Cyrik Blackforge, carry vials of the fluid as the digging continues.",
+  hash = "7d981e",
+  fullHash = "7d981e",
+  text = "Nitroglycerin. At Bael Modan, Nitroglycerin lets dwarves press their excavation into tauren lands. Soldiers and officers carry the volatile chemical, which can also be turned against the fortress. At Bael Modan, dwarves dig into the ancestral lands of the Stonespire tauren. Heavy drillers and volatile chemicals help them drive the excavation forward. At the site and its fortified keep, they use nitroglycerin to blast deep holes and break apart hills. Soldiers and officers carry vials as the work continues, among them Lord Cyrik Blackforge.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_nitroglycerin-1b598939a1ff08a52631/1-0000.mp3", duration = 34.9779592, start = 0},
+    {file = "Audio/Transport/full_item_nitroglycerin-c26b8dce1d3ef8a946da/1-0000.mp3", duration = 35.082449, start = 0},
   },
 }
 P.transport["item:nondescript-letter"] = {
@@ -3578,11 +3578,11 @@ P.transport["item:nugget-slug"] = {
   },
 }
 P.transport["item:ogre-s-monocle"] = {
-  hash = "cbfc4c",
-  fullHash = "cbfc4c",
-  text = "Ogre's Monocle. In southern Duskwood, Zzarc'Vul wears an immense monocle. Its lens has the exact dimensions Viktori Prism'Antras needs for a stargazing telescope in Darkshire. Zzarc'Vul, an ogre, wears a huge monocle tailored to his massive stature. When Viktori Prism'Antras of Darkshire began building a stargazing instrument from blueprints by the gnome engineer Cog, ordinary lenses proved too small. Zzarc'Vul's eyewear is the only polished glass in the region with the size and curve needed to focus light through the finished telescope. The Vul'Gol Ogre Mound lies in the shadow of southern Duskwood, where Zzarc'Vul lives among his brute brethren. The brute shows little wish to give up his distinctive accessory. To claim the lens, you must defeat him on his own ground, then carry the glass back to Darkshire so Viktori can turn his gaze to the night skies.",
+  hash = "45e38d",
+  fullHash = "45e38d",
+  text = "Ogre's Monocle. In southern Duskwood, Zzarc'Vul wears a monocle Viktori Prism'Antras needs for a telescope. Its lens has the size and curve to focus light through the stargazing instrument in Darkshire. Zzarc'Vul, an ogre, wears a monocle made for his massive stature. When Viktori Prism'Antras of Darkshire began building a stargazing instrument from the gnome engineer Cog's blueprints, ordinary lenses proved too small. Zzarc'Vul's eyewear is the only polished glass in the region with the size and curve to focus light through the finished telescope. At the Vul'Gol Ogre Mound in southern Duskwood, Zzarc'Vul lives among his brute brethren. He shows little wish to give up his distinctive accessory. You must defeat him on his own ground to claim the lens, then carry it back to Darkshire so Viktori can turn his gaze to the night skies.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_ogre-s-monocle-eb0543d3465290d69fbb/1-0000.mp3", duration = 51.5395918, start = 0},
+    {file = "Audio/Transport/full_item_ogre-s-monocle-0ff621828302264bf88e/1-0000.mp3", duration = 52.48, start = 0},
   },
 }
 P.transport["item:okra"] = {
@@ -3594,27 +3594,27 @@ P.transport["item:okra"] = {
   },
 }
 P.transport["item:ordanus-head"] = {
-  hash = "1757b3",
-  fullHash = "1757b3",
-  text = "Ordanus' Head. At Raynewood Retreat, Ordanus' Head is claimed as proof that Keeper Ordanus has fallen. Blood elf magi Braelyn Firehand seeks it in Ashenvale. Keeper Ordanus was an ancient keeper of the grove and one of Cenarius's elder sons. Braelyn Firehand climbed the heights of Stonetalon Mountains on her master's orders, seeking to end the druids' stifling of magic at the peak and take vengeance on Ordanus. Before she could strike, the keeper was spirited away to the heart of Ashenvale. Braelyn used arcane scrying to peer through the forest canopy and found his sanctuary in the boughs of Raynewood Retreat. She demanded his severed head as proof that the wild demigod's arrogance had been answered.",
+  hash = "74390a",
+  fullHash = "74390a",
+  text = "Ordanus' Head. At Raynewood Retreat, Ordanus' Head is sought as proof that Keeper Ordanus has fallen. Braelyn Firehand, a blood elf magus, seeks it in Ashenvale. Keeper Ordanus was an ancient keeper of the grove and one of Cenarius's elder sons. His druids stifled magic at the peak of Stonetalon Mountains, and Braelyn Firehand climbed those heights on her master's orders. She meant to end their hold and take vengeance on Ordanus. Before she could strike, the keeper was spirited away to the heart of Ashenvale.\n\nBraelyn used arcane scrying to peer through the forest canopy and found Ordanus's sanctuary in the boughs of Raynewood Retreat. There she demanded his severed head as proof that the wild demigod's arrogance had been answered.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_ordanus-head-906f02f7dd0bf28a2532/1-0000.mp3", duration = 43.9379592, start = 0},
+    {file = "Audio/Transport/full_item_ordanus-head-8a831087111e6af28e9b/1-0000.mp3", duration = 45.4791837, start = 0},
   },
 }
 P.transport["item:orendil-s-cure"] = {
-  hash = "82bc7b",
-  fullHash = "82bc7b",
-  text = "Orendil's Cure. In northern Ashenvale, Orendil Broadleaf brews a draught for a child in Astranaar. He uses rare Bathran's Hair to treat Relara Whitemoon's mysterious, deathly sickness. Relara Whitemoon, still young, fell deathly ill in Astranaar, and ordinary remedies failed. Her father, Pelturas Whitemoon, sought help from Orendil Broadleaf, a hermit and master of natural medicine who lives in northern Ashenvale. Orendil used bundles of rare Bathran's Hair gathered from the haunted ruins of Bathran's Haunt to brew a draught for Relara. When the vial arrives, it gives Pelturas hope. Yet the cure only slows the disease, so he must seek the further remedies Orendil suggested.",
+  hash = "78e23e",
+  fullHash = "78e23e",
+  text = "Orendil's Cure. In northern Ashenvale, Orendil Broadleaf brews a draught for a sick child in Astranaar. Rare Bathran's Hair gives Pelturas Whitemoon hope for his daughter, Relara. Relara Whitemoon fell deathly ill while still young, and ordinary remedies failed her in Astranaar. Her father, Pelturas Whitemoon, sought help from Orendil Broadleaf, a hermit who lives in northern Ashenvale and masters natural medicine.\n\nOrendil gathered bundles of rare Bathran's Hair from the haunted ruins of Bathran's Haunt and brewed a draught for Relara. When the vial arrives, Pelturas has hope. Yet the cure only slows the disease, so he must seek the further remedies Orendil suggested.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_orendil-s-cure-b5748b670900c3846b09/1-0000.mp3", duration = 44.4081633, start = 0},
+    {file = "Audio/Transport/full_item_orendil-s-cure-34f5517db67b22a317d4/1-0000.mp3", duration = 43.7812245, start = 0},
   },
 }
 P.transport["item:oslow-s-toolbox"] = {
-  hash = "5feed4",
-  fullHash = "5feed4",
-  text = "Oslow's Toolbox. Foreman Oslow needs tools for Lakeshire's defenses, but they lie beneath Lake Everstill. Sent from Goldshire, the chest went down when Blackrock orcs struck its boat with a catapult. Foreman Oslow needs construction tools to keep Lakeshire's defenses and buildings in repair. Blackrock orcs besiege the Redridge Mountains, and the bridge into town lies destroyed. The tools came from Goldshire, so the shipment crossed Lake Everstill in a rowboat. Blackrock forces struck the vessel with a catapult, sending the boat and Oslow's heavy chest into the depths among the murlocs.",
+  hash = "d0de92",
+  fullHash = "d0de92",
+  text = "Oslow's Toolbox. Beneath Lake Everstill, Oslow's tools lie where Blackrock orcs sank the boat carrying them from Goldshire. Foreman Oslow needs construction tools to keep Lakeshire's defenses and buildings in repair. Blackrock orcs besiege the Redridge Mountains, and the bridge into town lies destroyed. So the shipment from Goldshire crossed Lake Everstill by rowboat.\n\nBlackrock forces struck the vessel with a catapult. The boat and Oslow's heavy chest sank into the depths among the murlocs.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_oslow-s-toolbox-77fec8bb0a7ca7da3154/1-0000.mp3", duration = 36.6497959, start = 0},
+    {file = "Audio/Transport/full_item_oslow-s-toolbox-994a1830563f5c74ee66/1-0000.mp3", duration = 32.0783673, start = 0},
   },
 }
 P.transport["item:osric-s-crate"] = {
@@ -3642,35 +3642,35 @@ P.transport["item:painted-gnoll-armband"] = {
   },
 }
 P.transport["item:panther-cage-key"] = {
-  hash = "6268e0",
-  fullHash = "6268e0",
-  text = "Panther Cage Key. The Panther Cage Key is a small metal key held by Wizlo Bearingshiner at Whitereach Post. It unlocks a reinforced cage holding an enraged, captive predator within the wreckage of an ambushed caravan in Thousand Needles. When a traveling caravan was attacked and ransacked by centaur raiders north of Whitereach Post, the goblin tinker Wizlo Bearingshiner barely escaped with his life. Amid the ruins of wagons and plundered cargo, the marauders left one thing entirely untouched: a sturdy cage housing a ferocious, rare panther. Around the predator's neck hung Wizlo's prized invention, a hypercapacitor gizmo. Unwilling to approach the snarling beast, the centaur gave the cage a wide berth, leaving Wizlo's key as the only way to open the door and retrieve the device.",
+  hash = "eee194",
+  fullHash = "eee194",
+  text = "Panther Cage Key. At Whitereach Post, Wizlo Bearingshiner guards the Panther Cage Key. It opens the cage left among the wrecked wagons of an ambushed caravan in Thousand Needles. Wizlo Bearingshiner is a goblin tinker who barely escaped a centaur attack on his caravan north of Whitereach Post. The raiders ransacked the wagons and cargo, yet left a sturdy cage untouched. A rare, ferocious panther waits inside. Around its neck hangs Wizlo’s prized invention, a hypercapacitor gizmo. The snarling beast kept the centaur at a distance, and only Wizlo’s key can open the cage and recover the device.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_panther-cage-key-509f9f64bbf3fdd106e0/1-0000.mp3", duration = 49.8677551, start = 0},
+    {file = "Audio/Transport/full_item_panther-cage-key-4fe428aa4593eceb96fa/1-0000.mp3", duration = 38.8963265, start = 0},
   },
 }
 P.transport["item:parker-s-lunch"] = {
-  hash = "f80a6e",
-  fullHash = "f80a6e",
-  text = "Parker's Lunch. Darcy packs Parker's Lunch in Lakeshire for Guard Parker's patrol. The meal offers a glimpse of the bonds and modest comforts among Redridge's defenders. Darcy, a waitress at the Lakeshire inn, packs a meal for Guard Parker. He patrols the exposed road south toward Duskwood while Redridge faces attacks from gnolls and Blackrock orcs. The garrison is stretched thin and cut off from Stormwind's aid, leaving guards to keep long, lonely watches. Darcy's small gesture keeps Parker fed and begins a bashful courtship between the two townspeople.",
+  hash = "882a71",
+  fullHash = "882a71",
+  text = "Parker's Lunch. In Lakeshire, Darcy packs Parker's Lunch for Guard Parker's patrol. The meal offers a glimpse of the bonds and modest comforts among Redridge's defenders. Darcy works as a waitress at the Lakeshire inn, where she packs a meal for Guard Parker. He patrols the exposed road south toward Duskwood as Redridge faces attacks from gnolls and Blackrock orcs. The garrison is stretched thin and cut off from Stormwind's aid, so its guards keep long, lonely watches. Darcy's small gesture feeds Parker and begins a bashful courtship between them.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_parker-s-lunch-40dfea31159c5271aac3/1-0000.mp3", duration = 37.8514286, start = 0},
+    {file = "Audio/Transport/full_item_parker-s-lunch-dded55016dca2b47066d/1-0000.mp3", duration = 34.1420408, start = 0},
   },
 }
 P.transport["item:partially-filled-vessel"] = {
-  hash = "dc2731",
-  fullHash = "dc2731",
-  text = "Partially Filled Vessel. Tenaron Stormgrip gives young night elf initiates the Partially Filled Vessel in Aldrassil. It carries blessed moonwell water from Shadowglen toward Dolanaar. Young kaldorei initiates gather blessed water from Shadowglen’s secluded moonwell. In Aldrassil, Tenaron Stormgrip pours a sample into the vessel for its journey across Teldrassil. More water from the tree’s moonwells must be gathered to tend to the island’s health. Carry the vessel south through the valley gates, then follow the cobblestone roads west to Dolanaar. The journey takes a young adventurer beyond Shadowglen’s protected nursery and into Teldrassil’s wider wilds. At Dolanaar’s central moonwell, Corithras Moonrage takes the vessel and directs the next part of the ritual.",
+  hash = "fd0ece",
+  fullHash = "fd0ece",
+  text = "Partially Filled Vessel. In Aldrassil, Tenaron Stormgrip gives young night elf initiates the Partially Filled Vessel. It carries blessed moonwell water from Shadowglen toward Dolanaar. Young kaldorei initiates gather blessed water from Shadowglen’s secluded moonwell. In Aldrassil, Tenaron Stormgrip pours a sample into the vessel for its journey across Teldrassil. More water from the tree’s moonwells is needed to tend the island’s health. Carry the vessel south through the valley gates, then follow the cobblestone roads west to Dolanaar. The journey leads beyond Shadowglen’s protected nursery and into Teldrassil’s wider wilds. At the central moonwell in Dolanaar, Corithras Moonrage takes the vessel and directs the next part of the ritual.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_partially-filled-vessel-e7a27d20037b182c8879/1-0000.mp3", duration = 47.5428571, start = 0},
+    {file = "Audio/Transport/full_item_partially-filled-vessel-64038456a1235dedeab5/1-0000.mp3", duration = 46.2106122, start = 0},
   },
 }
 P.transport["item:pendant-of-shadow"] = {
-  hash = "6be797",
-  fullHash = "6be797",
-  text = "Pendant of Shadow. At the Tower of Ilgalar, Morganth carries the Pendant of Shadow as he pursues the Scythe of Elune. Theocritus wants the talisman brought to the Tower of Azora as proof Morganth has been slain.",
+  hash = "62b94f",
+  fullHash = "62b94f",
+  text = "Pendant of Shadow. At the Tower of Ilgalar, Morganth bears the Pendant of Shadow while seeking the Scythe of Elune. Theocritus wants it brought to the Tower of Azora as proof Morganth has been slain.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_pendant-of-shadow-2efe465e598e60119043/1-0000.mp3", duration = 12.277551, start = 0},
+    {file = "Audio/Transport/full_item_pendant-of-shadow-8e270fd68298f8af2a5d/1-0000.mp3", duration = 11.6244898, start = 0},
   },
 }
 P.transport["item:pendant-of-the-sea-lion"] = {
@@ -3690,27 +3690,27 @@ P.transport["item:perenolde-tiara"] = {
   },
 }
 P.transport["item:phial-of-scrying"] = {
-  hash = "b7ad2e",
-  fullHash = "b7ad2e",
-  text = "Phial of Scrying. In Darkshore, scouts use the Phial of Scrying to reach Onu from afar. The ancient of lore provides the enchanted vessel, which calls forth a bowl for scrying across corrupted woodlands. The Phial of Scrying carries mystical waters that form a temporary bowl on the ground. Scouts investigating deep within Darkshore use it for long-distance divination. From perilous places such as the Master's Glaive, they can speak directly with Onu instead of returning to his grove.",
+  hash = "1737d7",
+  fullHash = "1737d7",
+  text = "Phial of Scrying. Across Darkshore, scouts reach Onu from perilous ground. Onu provides the Phial of Scrying, whose enchanted waters form a bowl for divination across the corrupted woodlands. Scouts deep in Darkshore use the Phial of Scrying for long-distance divination. Its mystical waters form a temporary bowl on the ground. From perilous places such as the Master's Glaive, they can speak with Onu without returning to his grove.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_phial-of-scrying-ece24f716c17d001276a/1-0000.mp3", duration = 29.0742857, start = 0},
+    {file = "Audio/Transport/full_item_phial-of-scrying-24c95e59e662d6c455ae/1-0000.mp3", duration = 26.9322449, start = 0},
   },
 }
 P.transport["item:piece-of-krom-zar-s-banner"] = {
-  hash = "eaef82",
-  fullHash = "eaef82",
-  text = "Piece of Krom'zar's Banner. At Regthar Deathgate's bunker west of the Crossroads, a torn banner marks the broken assault. Warlord Krom'zar led the Kolkar retaliatory force from Desolace. Warlord Krom'zar led a warband east from Desolace to strike back. Kolkar chieftains across the Barrens had fallen, and the furious centaurs attacked the defensive bunkers west of the Crossroads. A strip cut from Krom'zar's fallen standard gives Regthar Deathgate proof that the assault was crushed and the southern trade routes were preserved for the Horde.",
+  hash = "86710f",
+  fullHash = "86710f",
+  text = "Piece of Krom'zar's Banner. At Regthar Deathgate's bunker west of the Crossroads, a torn banner marks the failed assault. Warlord Krom'zar led the Kolkar retaliatory force east from Desolace. Warlord Krom'zar led his warband east from Desolace to strike back. Kolkar chieftains across the Barrens had fallen, and the enraged centaurs attacked the defensive bunkers west of the Crossroads. A strip cut from Krom'zar's fallen standard proves to Regthar Deathgate that the assault was crushed and the southern trade routes were preserved for the Horde.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_piece-of-krom-zar-s-banner-2e4087fcee5566ac187c/1-0000.mp3", duration = 32.7314286, start = 0},
+    {file = "Audio/Transport/full_item_piece-of-krom-zar-s-banner-292ae59b5a1d4717b75d/1-0000.mp3", duration = 31.5559184, start = 0},
   },
 }
 P.transport["item:plainstrider-beak"] = {
-  hash = "d3f9d5",
-  fullHash = "d3f9d5",
-  text = "Plainstrider Beak. Across the Barrens, hunters bring Plainstrider Beaks back to the Crossroads. Huntmasters use them as proof that birds threatening local provisions have been culled. Plainstriders forage around the Crossroads and threaten its supplies. Greater, fleeting, and ornery plainstriders roam the surrounding savannah. Sergra Darkthorn asks arriving hunters to bring back their beaks as proof that the flocks have been culled away from supply lines and storehouses.",
+  hash = "bde66c",
+  fullHash = "bde66c",
+  text = "Plainstrider Beak. Across the Barrens, hunters bring Plainstrider Beaks to the Crossroads as proof that threatening birds have been culled. Plainstriders forage near the Crossroads and threaten its supplies. Greater, fleeting, and ornery plainstriders roam the surrounding savannah. Sergra Darkthorn asks arriving hunters to bring back their beaks, proof that the flocks have been driven from supply lines and storehouses.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_plainstrider-beak-2bb3763a4fb07a5ae0f0/1-0000.mp3", duration = 25.2081633, start = 0},
+    {file = "Audio/Transport/full_item_plainstrider-beak-6927b229afd8c6e4696d/1-0000.mp3", duration = 23.5363265, start = 0},
   },
 }
 P.transport["item:plainstrider-feather"] = {
@@ -3722,11 +3722,11 @@ P.transport["item:plainstrider-feather"] = {
   },
 }
 P.transport["item:plainstrider-kidney"] = {
-  hash = "c8ebc5",
-  fullHash = "c8ebc5",
-  text = "Plainstrider Kidney. Across the Barrens, hunters harvest Plainstrider Kidney for Kalimdor's unusual brewing traditions. The organ is unappetizing to most travelers, yet essential to an exotic brew. The vast, arid plains of the Barrens are home to tall, flightless plainstriders. Hunters often take their feathers and meat for tools and simple rations, while Brewmaster Drohn in Ratchet seeks their internal organs for another purpose. Drohn says plainstrider kidneys are needed to recreate Chen Stormstout's legendary potent ale. He claims the kidneys give the brew a unique kick, in a tradition passed down through an unconventional line of brewmasters.",
+  hash = "53cb91",
+  fullHash = "53cb91",
+  text = "Plainstrider Kidney. Across the Barrens, hunters gather Plainstrider Kidney for Kalimdor’s unusual brewing traditions. Most travelers find the organ unappetizing, but it is essential to an exotic ale. Tall, flightless plainstriders roam the Barrens, and hunters take their feathers and meat for tools and simple rations. Brewmaster Drohn in Ratchet seeks their kidneys for a different purpose: he says they are needed to recreate Chen Stormstout’s legendary potent ale.\n\nDrohn says the kidneys give the brew a unique kick. The recipe belongs to an unconventional line of brewmasters, passed down through the years.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_plainstrider-kidney-e0939b27bacd6e4c7950/1-0000.mp3", duration = 39.2881633, start = 0},
+    {file = "Audio/Transport/full_item_plainstrider-kidney-45ad445f7a0cde6e9add/1-0000.mp3", duration = 37.7469388, start = 0},
   },
 }
 P.transport["item:plainstrider-meat"] = {
@@ -3770,11 +3770,11 @@ P.transport["item:pork-belly-pie"] = {
   },
 }
 P.transport["item:powdered-azurite"] = {
-  hash = "2c4cf5",
-  fullHash = "2c4cf5",
-  text = "Powdered Azurite. In Hillsbrad Foothills, Powdered Azurite is taken from the Azurelode Mine. Thun'grim Firegaze needs it to forge brutal armor for rising Horde warriors. Powdered Azurite comes from the mineral veins beneath Hillsbrad Foothills. Human workers dig the blue stone from Azurelode Mine, then grind and pack it for trade and metalworking. A skilled smith mixes the dust with dense metals to make armor more durable and resilient. Horde blacksmiths prize Powdered Azurite for its strength in metalworking, though it comes from human-held tunnels across the Great Sea. Thun'grim Firegaze, an aging orc armorer in the Barrens, asks for small amounts alongside refined iron and fiery reagents. Mixed into the smelt, the powder helps him hammer out the heavy plating of his Brutal Armor.",
+  hash = "2dc2e8",
+  fullHash = "2dc2e8",
+  text = "Powdered Azurite. In Hillsbrad Foothills, workers grind blue stone from Azurelode Mine into Powdered Azurite. Thun'grim Firegaze needs it to forge brutal armor for rising Horde warriors. Human workers dig blue stone from mineral veins beneath Hillsbrad Foothills. They grind and pack it for trade and metalworking. A skilled smith mixes the dust with dense metals, making armor more durable and resilient. Horde blacksmiths prize Powdered Azurite for its strength in metalworking, though the mineral comes from human-held tunnels across the Great Sea. Thun'grim Firegaze is an aging orc armorer in the Barrens. He asks for small amounts alongside refined iron and fiery reagents. Mixed into the smelt, the powder helps him hammer out the heavy plating of his Brutal Armor.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_powdered-azurite-63888c3cd7519dbb1709/1-0000.mp3", duration = 48.1697959, start = 0},
+    {file = "Audio/Transport/full_item_powdered-azurite-76058dfb1f2076db6879/1-0000.mp3", duration = 49.1363265, start = 0},
   },
 }
 P.transport["item:powers-of-the-void"] = {
@@ -3810,11 +3810,11 @@ P.transport["item:prairie-wolf-paw"] = {
   },
 }
 P.transport["item:pridewing-venom-sac"] = {
-  hash = "07b6f2",
-  fullHash = "07b6f2",
-  text = "Pridewing Venom Sac. Around Mirkfallon Lake, Pridewing Venom Sacs are sought by the night elves of Astranaar. Reports suggest Horde agents harvest the poison for covert attacks, and the Sentinels mean to deny them that supply. Pridewings hunt from the crags south of Ashenvale, especially around Mirkfallon Lake. These airborne predators are native to the Stonetalon Mountains, and their venom can be gathered from the glands in their bodies. Reports from Theramore suggest Horde assassins are taking that poison to coat blades for covert attacks on night elf settlements. In Astranaar, Sentinels send scouts to hunt the wyverns and collect their venom glands before Horde agents can claim them.",
+  hash = "90f13e",
+  fullHash = "90f13e",
+  text = "Pridewing Venom Sac. Around Mirkfallon Lake, pridewing venom draws the attention of Astranaar’s night elves. Reports say Horde agents gather it for covert attacks, and the Sentinels seek to deny them that poison. Pridewings hunt the crags south of Ashenvale, especially near Mirkfallon Lake. Though native to the Stonetalon Mountains, these flying predators range here, and their venom lies in glands within their bodies. Reports from Theramore say Horde assassins use the poison to coat blades for secret strikes on night elf settlements. So Astranaar’s Sentinels send scouts to hunt the wyverns and collect their glands before Horde agents can claim them.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_pridewing-venom-sac-fc4a79d5ffaa2f13fafb/1-0000.mp3", duration = 40.4114286, start = 0},
+    {file = "Audio/Transport/full_item_pridewing-venom-sac-0f576ec537d8e91a442d/1-0000.mp3", duration = 39.4187755, start = 0},
   },
 }
 P.transport["item:prismatic-punch-card"] = {
@@ -3834,11 +3834,11 @@ P.transport["item:pristine-spider-silk"] = {
   },
 }
 P.transport["item:prowler-claws"] = {
-  hash = "f53dec",
-  fullHash = "f53dec",
-  text = "Prowler Claws. Across the Barrens, Prowler Claws are carried back to Sergra Darkthorn at the Crossroads. They show that a hunter can track and defeat the prowlers stalking the plains. Savannah Prowlers hide in the Barrens’ tall grass, waiting to strike with patience and cunning. These large cats ambush creatures that enter their hunting grounds, unlike grazing plainstriders and zhevra. Taking their curved claws means facing predators that rely on stealth and defend their territory. For Horde warriors and scouts, the hunt tests whether they can track a stalker through its own ground and make it the prey. Sergra Darkthorn, the huntress at the Crossroads, asks initiates to bring back Prowler Claws before facing greater trials. The claws show that a hunter can follow tracks through the savannah grass and withstand a predator’s attack. Those who return with them have proved they can stay alert among the dangerous beasts of the plains.",
+  hash = "8f6688",
+  fullHash = "8f6688",
+  text = "Prowler Claws. Across the Barrens, Prowler Claws return to Sergra Darkthorn at the Crossroads. They prove a hunter can track and defeat the prowlers stalking the plains. Savannah Prowlers wait in the Barrens’ tall grass, ready to strike with patience and cunning. Unlike grazing plainstriders and zhevra, these large cats ambush creatures that enter their hunting grounds. Taking their curved claws means facing predators that rely on stealth and defend their territory. For Horde warriors and scouts, the hunt tests whether they can track a stalker across its own ground and make it the prey. Sergra Darkthorn, the huntress at the Crossroads, asks initiates to bring her Prowler Claws before they face greater trials. The claws prove a hunter can follow tracks through savannah grass and withstand a predator’s attack. Those who return with them have shown they can stay alert among the plains’ dangerous beasts.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_prowler-claws-ae2dd01ff5f1cf30ab00/1-0000.mp3", duration = 52.9763265, start = 0},
+    {file = "Audio/Transport/full_item_prowler-claws-a0e2e96b9f1158cf26d7/1-0000.mp3", duration = 52.1926531, start = 0},
   },
 }
 P.transport["item:pure-hearts"] = {
@@ -3882,27 +3882,27 @@ P.transport["item:quinn-s-potion"] = {
   },
 }
 P.transport["item:ran-bloodtooth-s-skull"] = {
-  hash = "156300",
-  fullHash = "156300",
-  text = "Ran Bloodtooth's Skull. In Ashenvale, Ran Bloodtooth's Skull bears proof that a corrupted furbolg chieftain has fallen. The night elves of Astranaar receive it as a sign that a fierce threat to their woodland realm has ended. The furbolgs of Ashenvale have fallen into murderous madness under demonic taint and wilderness corruption. Ran Bloodtooth led one of the fiercest tribes. His skull gives the night elf Sentinels proof that he has fallen and his hold over the local furbolgs is broken, bringing some respite to Astranaar.",
+  hash = "72d982",
+  fullHash = "72d982",
+  text = "Ran Bloodtooth's Skull. In Ashenvale, Ran Bloodtooth's Skull reaches the night elves of Astranaar as proof that a fierce threat has fallen. Demonic taint and wilderness corruption have driven Ashenvale's furbolgs into murderous madness. Ran Bloodtooth led one of the fiercest tribes. His skull proves to the night elf Sentinels that he has fallen and his hold over the local furbolgs is broken. Astranaar gains some respite.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_ran-bloodtooth-s-skull-3c819dcec7a14db27b29/1-0000.mp3", duration = 31.8693878, start = 0},
+    {file = "Audio/Transport/full_item_ran-bloodtooth-s-skull-14ce17c164a2d2e2d7d5/1-0000.mp3", duration = 26.2269388, start = 0},
   },
 }
 P.transport["item:raptor-head"] = {
-  hash = "28fd30",
-  fullHash = "28fd30",
-  text = "Raptor Head. Across the Barrens, Raptor Head trophies answer a bounty from Gazrog at the Crossroads. The guard payroll vanished from a watchtower, and a wild raptor was caught in the theft. A stolen chest of guard payroll has left the Crossroads watchtower without its silver. The defenders caught a wild raptor red-handed, to their disbelief. Gazrog has put a bounty on the cunning reptiles prowling the Barrens. Bring their severed heads to the outpost, and the predators will be culled before they can pilfer more Horde supplies.",
+  hash = "988e91",
+  fullHash = "988e91",
+  text = "Raptor Head. At the Crossroads, Raptor Head trophies answer Gazrog’s bounty. Guard payroll vanished from a watchtower, and a wild raptor was caught in the theft. A chest of guard payroll was stolen from the Crossroads watchtower, leaving its defenders without their silver. To their disbelief, they caught a wild raptor in the act. Gazrog now offers a bounty on the cunning reptiles prowling the Barrens. Bring their severed heads to the outpost, and the predators can be culled before they steal more Horde supplies.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_raptor-head-fb6a36bb1935b2726a81/1-0000.mp3", duration = 32.0261224, start = 0},
+    {file = "Audio/Transport/full_item_raptor-head-faa789b7c3f0bfa6bd24/1-0000.mp3", duration = 30.5632653, start = 0},
   },
 }
 P.transport["item:rare-earth"] = {
-  hash = "857390",
-  fullHash = "857390",
-  text = "Rare Earth. At Dolanaar, Rare Earth waits for delivery to Denalan's camp near Lake Al'Ameth. The mineral-rich soil came from Darnassus for his botanical experiments on Teldrassil. Rare Earth is late reaching Dolanaar from Darnassus. Denalan, an eccentric botanist on Lake Al'Ameth's eastern shore, requested the parcel to study plants in Teldrassil's young ecosystem. Herbalist Syral Bladeleaf now entrusts the soil to travelers heading south, hoping it reaches Denalan before its potency fades.",
+  hash = "6461e0",
+  fullHash = "6461e0",
+  text = "Rare Earth. At Dolanaar, Rare Earth awaits a traveler bound for Denalan's camp near Lake Al'Ameth. The soil came from Darnassus for his botanical experiments on Teldrassil. Rare Earth has arrived late in Dolanaar from Darnassus. Denalan, an eccentric botanist on Lake Al'Ameth's eastern shore, requested it to study plants in Teldrassil's young ecosystem. Herbalist Syral Bladeleaf now entrusts the soil to travelers heading south. She hopes it reaches Denalan before its potency fades.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_rare-earth-0b7dbe76963357fc9cae/1-0000.mp3", duration = 30.6416327, start = 0},
+    {file = "Audio/Transport/full_item_rare-earth-98b7e13c6744ac14b9db/1-0000.mp3", duration = 31.5297959, start = 0},
   },
 }
 P.transport["item:rattlecage-skull"] = {
@@ -3914,43 +3914,43 @@ P.transport["item:rattlecage-skull"] = {
   },
 }
 P.transport["item:raven-claw-talisman"] = {
-  hash = "6e2aa4",
-  fullHash = "6e2aa4",
-  text = "Raven Claw Talisman. In Ban'ethil Barrow Den, the Raven Claw Talisman is kept among relics needed to awaken sleeping druids. The sacred night elf relic is one of four Relics of Wakening used to guide the Druids of the Talon safely back from the Emerald Dream. The Raven Claw Talisman rests in a designated chest inside Ban'ethil Barrow Den, where Teldrassil's Druids of the Talon entered deep meditative sleep. Their hibernation is a delicate spiritual threshold. Without the proper ceremonial focus, a druid whose link to the waking world is broken may remain stranded in the Emerald Dream. Athridas Bearmantle in Dolanaar needs this talisman, the Black Feather Quill, the Sapphire of Sky, and the Rune of Nesting to perform the awakening ritual and bring the sleepers back safely. Corrupted Gnarlpine furbolgs have overrun Ban'ethil Barrow Den, putting its sacred chests and sleeping druids in peril. Their desecration has cut the sanctuary off from outside aid, and the relics may be lost or destroyed. Athridas Bearmantle calls on Teldrassil's defenders to brave the den's winding earthen corridors and secure the Raven Claw Talisman before the displaced druids are lost to the Dream forever.",
+  hash = "07e513",
+  fullHash = "07e513",
+  text = "Raven Claw Talisman. In Ban'ethil Barrow Den, the Raven Claw Talisman waits among relics meant to wake sleeping druids. It is one of four Relics of Wakening, used to guide the Druids of the Talon safely back from the Emerald Dream. The Raven Claw Talisman rests in a chest inside Ban'ethil Barrow Den. There, Teldrassil's Druids of the Talon entered a deep meditative sleep. Without the proper ceremonial focus, a druid cut off from the waking world may remain stranded in the Emerald Dream. Athridas Bearmantle in Dolanaar needs this talisman and three other relics to bring the sleepers back safely: the Black Feather Quill, the Sapphire of Sky, and the Rune of Nesting. Corrupted Gnarlpine furbolgs have overrun Ban'ethil Barrow Den. The sacred chests and sleeping druids are now in peril. Their desecration has cut the sanctuary off from outside aid, and the relics may be lost or destroyed. Athridas Bearmantle calls on Teldrassil's defenders to brave the den's winding earthen corridors and secure the Raven Claw Talisman before the displaced druids are lost to the Dream forever.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_raven-claw-talisman-de9f9a84443c3527556f/1-0000.mp3", duration = 73.5869388, start = 0},
+    {file = "Audio/Transport/full_item_raven-claw-talisman-b536ba2e2d0bf4b82d68/1-0000.mp3", duration = 67.1085714, start = 0},
   },
 }
 P.transport["item:razorflank-s-medallion"] = {
-  hash = "db7b91",
-  fullHash = "db7b91",
-  text = "Razorflank's Medallion. Charlga Razorflank's medallion lies deep within Razorfen Kraul, carried by the crone who rules the stronghold. Its return gives the night elf sentinels proof that she has fallen. Charlga Razorflank carries the medallion as the leader of the Razorfen quilboar. At Thalanaar, Falfindel Waywarder learns of fallen explorers such as Heralath and the dwarf Lonebrow, then sends Alliance adventurers against the quilboar leader. The medallion confirms Charlga's death to the night elf sentinels guarding Feralas's borders. They can know that the gathered forces within the Kraul have lost their leader.",
+  hash = "b05252",
+  fullHash = "b05252",
+  text = "Razorflank's Medallion. Deep within Razorfen Kraul, Charlga Razorflank carries the medallion that marks her rule. Its return gives the night elf sentinels proof that she has fallen. Charlga Razorflank leads the Razorfen quilboar and carries the medallion. At Thalanaar, Falfindel Waywarder hears of fallen explorers, including Heralath and the dwarf Lonebrow. He sends Alliance adventurers against the quilboar leader.\n\nThe medallion confirms Charlga's death to the night elf sentinels who guard Feralas's borders. The gathered forces within the Kraul have lost their leader.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_razorflank-s-medallion-af2ac98ccb157dcdf232/1-0000.mp3", duration = 36.4930612, start = 0},
+    {file = "Audio/Transport/full_item_razorflank-s-medallion-31c0363c6c484d368be9/1-0000.mp3", duration = 34.8734694, start = 0},
   },
 }
 P.transport["item:reagent-pouch-shaman"] = {
-  hash = "26537a",
-  fullHash = "26537a",
-  text = "Reagent Pouch (shaman). Burning Blade cultists in Durotar carry reagents for a shaman's first fire sapta. Telf Joolam uses them with fire tar from Razormane quilboar to make the draught that lets a young shaman see the realm of fire. Burning Blade cultists carry reagents for a young shaman's first fire sapta. The hermit Telf Joolam uses the powders and oils in their pouches with fire tar from Razormane quilboar. Together, these components make a draught that grants sight into the realm of fire and attunes the shaman to the spirits of flame. Burning Blade cultists turn flame toward destruction and fel sorcery, yet the elements in their pouches still belong to heat and combustion. Shaman teach that elemental forces exist in tension: fire creates as well as destroys. A shaman can take the cultists' tools and use those elements to awaken true communion with the spirits.",
+  hash = "a98d6e",
+  fullHash = "a98d6e",
+  text = "Reagent Pouch (shaman). In Durotar, Burning Blade cultists carry reagents for a shaman's first fire sapta. Telf Joolam mixes them with fire tar from Razormane quilboar to make a draught that lets a young shaman see the realm of fire. Burning Blade cultists carry reagents for a young shaman's first fire sapta. The hermit Telf Joolam mixes the powders and oils from their pouches with fire tar from Razormane quilboar. Together, these ingredients make a draught that grants sight into the realm of fire and attunes the shaman to the spirits of flame. Burning Blade cultists turn flame toward destruction and fel sorcery. Yet the elements in their pouches still belong to heat and combustion. Shaman teach that elemental forces exist in tension: fire creates as well as destroys. A shaman can use the cultists' tools to awaken true communion with the spirits.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_reagent-pouch-shaman-34eda9783b9f9a59f038/1-0000.mp3", duration = 54.3346939, start = 0},
+    {file = "Audio/Transport/full_item_reagent-pouch-shaman-2ccf4c65240955233ca1/1-0000.mp3", duration = 51.6702041, start = 0},
   },
 }
 P.transport["item:reconstructed-tome"] = {
-  hash = "3925d3",
-  fullHash = "3925d3",
-  text = "Reconstructed Tome. In warlocks’ hands, the Reconstructed Tome gathers the scattered teachings of the cabal. Its pages hold the rites for summoning and binding a felhunter from the Twisting Nether. Warlocks of the Alliance and Horde search for the torn leaves of the Tome of the Cabal. They piece the grimoire back together and consult occult scholars, who are eager to glimpse its rare teachings before the finished book is surrendered.",
+  hash = "73b7e6",
+  fullHash = "73b7e6",
+  text = "Reconstructed Tome. In warlocks’ hands, the Reconstructed Tome gathers the cabal’s scattered teachings. Its pages hold rites for summoning and binding a felhunter from the Twisting Nether. Warlocks of the Alliance and Horde seek the torn leaves of the Tome of the Cabal. Once they have pieced the grimoire together, they consult occult scholars. The scholars are eager to glimpse its rare teachings before the finished book is surrendered.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_reconstructed-tome-b23ad04a9ada6dfd58e8/1-0000.mp3", duration = 23.562449, start = 0},
+    {file = "Audio/Transport/full_item_reconstructed-tome-bae8a4fdf6b2fab412b6/1-0000.mp3", duration = 25.7306122, start = 0},
   },
 }
 P.transport["item:recruitment-letter"] = {
-  hash = "e9b099",
-  fullHash = "e9b099",
-  text = "Recruitment Letter. Takrin Pathseeker sends promising adventurers from Durotar west to serve in the Barrens. His letter directs able-bodied volunteers to the border outpost run by Kargal Battlescar. Takrin Pathseeker watches young warriors and scouts prove themselves around Razor Hill. He chooses those who seem strong enough for frontline service and gives them a letter for duty in the Barrens. Across the Southfury River bridge, recruits leave Durotar’s sheltered red dirt and join the Horde’s guard against quilboar, centaur, and Alliance scouts. Kargal Battlescar receives the recruits at the outpost just across the river. The grizzled veteran manages the post and evaluates each conscript before signing off on their enlistment. A signed recruit is soon sent farther west to the Crossroads, where the frontier outposts are stretched thin.",
+  hash = "e019d0",
+  fullHash = "e019d0",
+  text = "Recruitment Letter. In Durotar, Takrin Pathseeker sends promising adventurers west to serve in the Barrens. His letter directs able-bodied volunteers to Kargal Battlescar's border outpost. Around Razor Hill, Takrin Pathseeker watches young warriors and scouts prove themselves. He chooses those strong enough for frontline service and gives them a letter for duty in the Barrens. Recruits cross the Southfury River bridge, leave Durotar’s sheltered red dirt, and join the Horde’s guard against quilboar, centaur, and Alliance scouts. Just across the river, Kargal Battlescar receives recruits at the outpost. The grizzled veteran manages the post and evaluates each conscript before signing off on their enlistment. Those he signs are soon sent farther west to the Crossroads, where frontier outposts are stretched thin.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_recruitment-letter-12684fe5d88aad02e432/1-0000.mp3", duration = 51.0432653, start = 0},
+    {file = "Audio/Transport/full_item_recruitment-letter-2c065d13a533129fab12/1-0000.mp3", duration = 50.6253061, start = 0},
   },
 }
 P.transport["item:red-burlap-bandana"] = {
@@ -3978,19 +3978,19 @@ P.transport["item:red-linen-bandana"] = {
   },
 }
 P.transport["item:red-wool-bandana"] = {
-  hash = "9c73bc",
-  fullHash = "9c73bc",
-  text = "Red Wool Bandana. Inside the Stormwind Stockade, Red Wool Bandana scraps mark Defias brotherhood. Imprisoned cutthroats tear them from jailhouse wool blankets and wear them as emblems of defiance behind bars. In the Stormwind Stockade, Defias Brotherhood inmates hold fast to their identity. They secretly tear scraps from prison wool blankets and stitch them into red bandanas to wear as their colors. Guards treat the scarves as contraband, and their discovery can spark fatal mutinies. For the prisoners, each bandana declares that their brotherhood and rebellion endure, even in chains. Red Wool Bandanas became known for the death of Mac Raskol, a fourteen-year-old prison guard. He caught inmates shredding blankets to make the scarves and tried to discipline them. Defias convicts stabbed him in the back. His grieving grandmother, Nikova, now seeks adventurers to enter the rioting dungeon, cull the rioters, and bring back the crimson cloth as proof of vengeance.",
+  hash = "786e3a",
+  fullHash = "786e3a",
+  text = "Red Wool Bandana. In the Stormwind Stockade, Red Wool Bandana scraps mark the Defias Brotherhood. Prisoners tear wool from their blankets and wear the red cloth as emblems of defiance. In the Stormwind Stockade, Defias Brotherhood inmates keep their identity alive. They secretly tear scraps from prison wool blankets and stitch them into red bandanas. Guards treat the scarves as contraband, and finding them can spark fatal mutinies. Each bandana declares that the brotherhood and its rebellion endure, even in chains. Red Wool Bandanas are tied to the death of Mac Raskol, a fourteen-year-old prison guard. He caught inmates shredding blankets for scarves and tried to discipline them. Defias convicts stabbed him in the back. His grieving grandmother, Nikova, now seeks adventurers to enter the rioting dungeon, cull the rioters, and bring back a crimson cloth as proof of vengeance.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_red-wool-bandana-a021c4234c6819508120/1-0000.mp3", duration = 56.8946939, start = 0},
+    {file = "Audio/Transport/full_item_red-wool-bandana-3575c81f71720276f7db/1-0000.mp3", duration = 57.4432653, start = 0},
   },
 }
 P.transport["item:remaining-drops-of-purest-water"] = {
-  hash = "dec62b",
-  fullHash = "dec62b",
-  text = "Remaining Drops of Purest Water. Across Kalimdor and Lordaeron, shaman gather what Brine needs for a draught. Its last drops wait for a perilous journey. Brine prepares a water draught in the Barrens from water gathered across Kalimdor and Lordaeron. Part of it gives shaman vision of distant elements. The remaining drops are kept for a harder purpose. Shaman carry them to the coast of Silverpine Forest, near the Sepulcher, where the Brazier of Everfount stands. There, the drops are burned with the bracers of a fallen, tainted elemental. The pure water cuts through the undead plague’s corruption, calling an untainted water spirit to commune with the shaman and complete their communion with the element.",
+  hash = "9ef00b",
+  fullHash = "9ef00b",
+  text = "Remaining Drops of Purest Water. Across Kalimdor and Lordaeron, Remaining Drops of Purest Water wait for a perilous journey. Brine gathered the water for a draught meant to help shaman. In the Barrens, Brine prepares a draught from water gathered across Kalimdor and Lordaeron. Part of it gives shaman vision of distant elements. The drops left over have a harder purpose.\n\nShaman carry them to the coast of Silverpine Forest, near the Sepulcher, where the Brazier of Everfount stands. There, they burn the drops with the bracers of a fallen, tainted elemental. The pure water cuts through the undead plague’s corruption and calls an untainted water spirit to commune with the shaman. So their communion with the element is complete.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_remaining-drops-of-purest-water-41845f6b1452c0863288/1-0000.mp3", duration = 40.6465306, start = 0},
+    {file = "Audio/Transport/full_item_remaining-drops-of-purest-water-5f45efe3fa65bae686d0/1-0000.mp3", duration = 43.755102, start = 0},
   },
 }
 P.transport["item:remedy-of-arugal"] = {
@@ -4010,11 +4010,11 @@ P.transport["item:rendered-spores"] = {
   },
 }
 P.transport["item:renferrel-s-findings"] = {
-  hash = "87caa9",
-  fullHash = "87caa9",
-  text = "Renferrel's Findings. In Silverpine Forest, Renferrel's Findings carry research south to Tarren Mill. Apothecary Renferrel gathered the notes at the Sepulcher for Apothecary Lydon, who is helping brew the Forsaken's New Plague. At the Sepulcher, Apothecary Renferrel records his work on the New Plague. The Royal Apothecary Society labours under direct orders from Lady Sylvanas Windrunner, the Dark Lady. Researchers scattered across Lordaeron must work together to achieve a breakthrough. Renferrel sends his findings south to Tarren Mill, where fellow researchers can build on his results. The papers link Silverpine Forest to Hillsbrad Foothills and the Forsaken's alchemical network. Apothecary Lydon awaits Renferrel's notes in Tarren Mill, where he can compare them with his own work against the living and the Scourge. Reliable couriers must cross Hillsbrad's contested roads; without them, the Society's scattered research would quickly stall.",
+  hash = "0903bb",
+  fullHash = "0903bb",
+  text = "Renferrel's Findings. In Silverpine Forest, Renferrel's Findings carry his research south to Tarren Mill. Apothecary Renferrel gathered the notes at the Sepulcher for Apothecary Lydon, who is helping brew the Forsaken's New Plague. At the Sepulcher, Apothecary Renferrel records his work on the New Plague. The Royal Apothecary Society answers directly to Lady Sylvanas Windrunner, the Dark Lady. Researchers scattered across Lordaeron must join their work to find a breakthrough. So Renferrel sends his findings south to Tarren Mill, where fellow apothecaries can build on his results. Renferrel's papers link Silverpine Forest to Hillsbrad Foothills and the Forsaken's alchemical work. Apothecary Lydon awaits the notes in Tarren Mill, where he can compare them with his own research against the living and the Scourge. The roads through Hillsbrad are contested, so the Society depends on reliable couriers. Without them, its scattered research would soon stall.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_renferrel-s-findings-13d815496285d2e9eb04/1-0000.mp3", duration = 56.0065306, start = 0},
+    {file = "Audio/Transport/full_item_renferrel-s-findings-45cdff4ae1f5c7b1edfa/1-0000.mp3", duration = 59.1673469, start = 0},
   },
 }
 P.transport["item:report-on-the-defias-brotherhood"] = {
@@ -4026,11 +4026,11 @@ P.transport["item:report-on-the-defias-brotherhood"] = {
   },
 }
 P.transport["item:resonite-crystal"] = {
-  hash = "84ca6f",
-  fullHash = "84ca6f",
-  text = "Resonite Crystal. In Boulderslide Cavern, kobolds are digging frantically for Resonite Crystal. Their work has drawn Mor'rogal's concern at Sun Rock Retreat.",
+  hash = "2baf0f",
+  fullHash = "2baf0f",
+  text = "Resonite Crystal. In Boulderslide Cavern, kobolds dig frantically for Resonite Crystal. Their work has drawn Mor'rogal's concern at Sun Rock Retreat.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_resonite-crystal-a739af1f8bc0b2b36c2f/1-0000.mp3", duration = 9.87428571, start = 0},
+    {file = "Audio/Transport/full_item_resonite-crystal-64ad00f07236980742d5/1-0000.mp3", duration = 9.56081633, start = 0},
   },
 }
 P.transport["item:restabilization-cog"] = {
@@ -4042,11 +4042,11 @@ P.transport["item:restabilization-cog"] = {
   },
 }
 P.transport["item:ring-of-zoram"] = {
-  hash = "eb5720",
-  fullHash = "eb5720",
-  text = "Ring of Zoram. At Zoram, the ring of the city's rulers has surfaced again after millennia beneath the sea. The naga now hold it, and Talen seeks the key to an ancient statuette. Before the Well of Eternity collapsed, Zoram stood on Kalimdor's western coast as a jewel of the night elven empire. Its rulers wore the Ring of Zoram, whose inner band bears a strange code in the night elven language. The Great Sundering shattered the continent ten thousand years ago, and the ring sank with the city beneath the tides. It lies beneath the waters of what is now the Zoram Strand. For millennia, silt and ruins hid the ring. Then naga began scouring Ashenvale's coast, and Ruuzel, a naga leader who dwells on an islet off the northern strand, uncovered it among the sunken debris. The night elf scholar Talen seeks the ring for more than its age. It is the only key that can unlock relics salvaged from the depths, including ancient statuettes sealed on the sea floor.",
+  hash = "5ace07",
+  fullHash = "5ace07",
+  text = "Ring of Zoram. At Zoram, the ring worn by the city's rulers has surfaced again after millennia beneath the sea. The naga hold it, and Talen seeks the key to an ancient statuette. Before the Well of Eternity collapsed, Zoram stood on Kalimdor's western coast as a jewel of the night elven empire. Its rulers wore the Ring of Zoram, whose inner band bears a strange code in the night elven language. The Great Sundering shattered the continent ten thousand years ago. The ring sank with the city beneath the tides, and now lies beneath the waters of the Zoram Strand. For millennia, silt and ruins hid the ring. Then naga began scouring Ashenvale's coast, and Ruuzel, their leader on an islet off the northern strand, uncovered it among the sunken debris. The night elf scholar Talen seeks it for more than its age. The ring is the only key that can unlock relics salvaged from the depths, including ancient statuettes sealed on the sea floor.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_ring-of-zoram-624cc39275d795bd00c3/1-0000.mp3", duration = 58.0963265, start = 0},
+    {file = "Audio/Transport/full_item_ring-of-zoram-9b9dfb9566a1aa4da2ef/1-0000.mp3", duration = 60.8653061, start = 0},
   },
 }
 P.transport["item:robo-mechanical-guts"] = {
@@ -4058,19 +4058,19 @@ P.transport["item:robo-mechanical-guts"] = {
   },
 }
 P.transport["item:rocket-car-parts"] = {
-  hash = "bf7c74",
-  fullHash = "bf7c74",
-  text = "Rocket Car Parts. Rocket Car Parts are the scattered, twisted metal remains of high-speed collisions across the Shimmering Flats in Thousand Needles. Constantly generated by reckless gnome and goblin racers pushing experimental speeders past their limits, these salvaged scraps are harvested by opportunists looking to turn racetrack accidents into quick coin. The Mirage Raceway in the Shimmering Flats is the staging ground for an unending, combustible rivalry between goblin and gnome engineering. In their pursuit of unmatched land speed, racers regularly suffer catastrophic breakdowns, explosive misfires, and high-velocity crashes that scatter metal across the salt flats. These discarded remnants—ranging from bent cylinders and burnt gears to crushed sheet metal—do not stay abandoned for long. Scavengers and merchants, most notably the opportunistic dwarf Kravel Koalbeard, hire passing adventurers to comb the blinding white expanse and collect the debris. Because both racing teams are perpetually desperate for spare machinery to patch together their next prototype, scavenged wreckage can easily be resold directly back to the very teams that wrecked it.",
+  hash = "03bd7b",
+  fullHash = "03bd7b",
+  text = "Rocket Car Parts. Across the Shimmering Flats, Rocket Car Parts lie scattered after mishaps at the Mirage Raceway. Gnome and goblin racers push their experimental speeders hard, and merchants gather wreckage to sell back to the teams. At the Mirage Raceway in the Shimmering Flats, gnome and goblin engineers compete fiercely. Their racers chase greater speed on land. Breakdowns, misfires, and crashes scatter metal across the salt flats, where scavengers and merchants soon gather what remains.\n\nThe dwarf Kravel Koalbeard hires travelers to search the bright expanse and collect the debris. Both racing teams need spare machinery for their next prototypes, so wreckage can return to the teams whose cars left it behind.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_rocket-car-parts-856312bbf9e00e08569e/1-0000.mp3", duration = 68.2579592, start = 0},
+    {file = "Audio/Transport/full_item_rocket-car-parts-c299bbd2324a00bbf2e9/1-0000.mp3", duration = 45.1134694, start = 0},
   },
 }
 P.transport["item:rod-of-channeling"] = {
-  hash = "c4b0d7",
-  fullHash = "c4b0d7",
-  text = "Rod of Channeling. In the Wetlands, the Rod of Channeling is carried by Dragonmaw spellcasters. Warlocks seeking to summon a felhunter gather three for Strahad Farsan's acolytes to steady the ritual circle in Ratchet. Warlocks need more than willpower to bind a volatile felhunter. Strahad Farsan asks for three matched rods so his acolytes can channel magic together and steady the summoning circle while the warlock binds the beast. Dragonmaw darkcasters carry these rods for their own workings. Bonewarders and shadowwarders bear them at Angerfang Encampment and in the surrounding Wetlands ruins. Combat leaves the rods worn and nicked, but they still focus chaotic nether energy.",
+  hash = "bad12e",
+  fullHash = "bad12e",
+  text = "Rod of Channeling. In the Wetlands, Dragonmaw spellcasters carry the Rod of Channeling. Strahad Farsan needs three for his acolytes to steady a felhunter summoning circle in Ratchet. Warlocks need more than willpower to bind a felhunter. Strahad Farsan asks for three matched rods so his acolytes can channel magic together and steady the summoning circle as the warlock binds the beast. Dragonmaw darkcasters carry the rods for their own workings.\n\nAt Angerfang Encampment and in the surrounding Wetlands ruins, Dragonmaw Bonewarders and shadowwarders bear the rods. Combat leaves them worn and nicked, yet they still focus chaotic nether energy.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_rod-of-channeling-00ddde80f339aa22a36e/1-0000.mp3", duration = 41.5346939, start = 0},
+    {file = "Audio/Transport/full_item_rod-of-channeling-1ce8b7f926b8c6890433/1-0000.mp3", duration = 41.4040816, start = 0},
   },
 }
 P.transport["item:rolf-and-malakai-s-medallions"] = {
@@ -4082,11 +4082,11 @@ P.transport["item:rolf-and-malakai-s-medallions"] = {
   },
 }
 P.transport["item:rot-blossom"] = {
-  hash = "6d8ae2",
-  fullHash = "6d8ae2",
-  text = "Rot Blossom. Rot Blossoms grow among Duskwood's desecrated graves, fed by blighted soil and undead remains. Their foul alchemical properties make them sought after. In Duskwood, Rot Blossoms grow in the defiled earth of graveyards such as the Tranquil Gardens Cemetery. Local rumors say the blooms can take root inside the cracked skulls of Skeletal Horrors and Skeletal Fiends stalking the barrows. For people in Darkshire, gathering them is grim and dangerous. Disturbing the soil means facing the unrested dead. Rot Blossoms provide an ingredient for local brews. Their dark essences are needed to make Zombie Juice, a foul draft tied to Duskwood's efforts to survive. Those sent to gather the flowers often aid the Night Watch as they cut down restless skeletons wandering the haunted graves.",
+  hash = "dc4f61",
+  fullHash = "dc4f61",
+  text = "Rot Blossom. In Duskwood, Rot Blossoms rise from desecrated graves, fed by blighted soil and undead remains. Their foul alchemical properties make them sought after. In Duskwood, Rot Blossoms grow in defiled graveyard earth, including the Tranquil Gardens Cemetery. Local rumors say they take root inside the cracked skulls of Skeletal Horrors and Skeletal Fiends that stalk the barrows. Gathering them is grim work for people in Darkshire. Disturb the soil, and the unrested dead must be faced. Rot Blossoms provide an ingredient for local brews. Their dark essences are needed to make Zombie Juice, a foul draft tied to Duskwood's struggle to survive. Those sent to gather the flowers often aid the Night Watch by cutting down restless skeletons wandering the haunted graves.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_rot-blossom-dce3d68bd6f35fc0062e/1-0000.mp3", duration = 50.5730612, start = 0},
+    {file = "Audio/Transport/full_item_rot-blossom-416210f4fad34e4b1913/1-0000.mp3", duration = 50.2595918, start = 0},
   },
 }
 P.transport["item:rot-hide-ichor"] = {
@@ -4098,11 +4098,11 @@ P.transport["item:rot-hide-ichor"] = {
   },
 }
 P.transport["item:rough-quartz"] = {
-  hash = "dac35a",
-  fullHash = "dac35a",
-  text = "Rough Quartz. In Durotar, a Rough Quartz comes from a Minor Manifestation of Earth. A shaman brings the stone to an elder, who binds it into the first Earth Totem. Rough Quartz is a gift from a Minor Manifestation of Earth to a shaman who communes with the spirits in Durotar or Mulgore. To the untrained eye, it looks like an ordinary desert pebble. The stone represents endurance, patience, and unwavering strength. At the Valley of Trials, Canaga Earthcaller binds it into carved wood to make an Earth Totem. The quartz becomes the spiritual focus joining a young shaman to Azeroth's living soil.",
+  hash = "7ab6df",
+  fullHash = "7ab6df",
+  text = "Rough Quartz. In Durotar, a shaman receives Rough Quartz from a Minor Manifestation of Earth. An elder binds the stone into the shaman’s first Earth Totem. In Durotar or Mulgore, a Minor Manifestation of Earth gives Rough Quartz to a shaman who communes with the spirits. To an untrained eye, the stone looks like an ordinary desert pebble. It represents endurance, patience, and unwavering strength.\n\nAt the Valley of Trials, Canaga Earthcaller binds the quartz into carved wood to make an Earth Totem. The stone becomes the spiritual focus that joins a young shaman to Azeroth’s living soil.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_rough-quartz-94602fca9b8c296942d2/1-0000.mp3", duration = 37.3028571, start = 0},
+    {file = "Audio/Transport/full_item_rough-quartz-4ba7a51d3c2eba7c0a9a/1-0000.mp3", duration = 37.4334694, start = 0},
   },
 }
 P.transport["item:rumbleshot-s-ammo"] = {
@@ -4114,11 +4114,11 @@ P.transport["item:rumbleshot-s-ammo"] = {
   },
 }
 P.transport["item:rune-inscribed-parchment"] = {
-  hash = "ac0424",
-  fullHash = "ac0424",
-  text = "Rune-Inscribed Parchment. In the Valley of Trials, Gornek hands aspiring orc shamans a message from Shikrik. It calls them to become spiritual leaders and conduits for elemental spirits. New orc shamans begin training under veteran overseers in the Valley of Trials. While an initiate performs initial trials for Gornek, he hands them a rune-covered document sent by Shikrik, the local shamanic instructor. The message summons them to deeper communion with the elements. Among the orcs, shamans mediate between the living and their ancestors. The writ marks a move from brute strength toward disciplined reverence for ancestors.",
+  hash = "3e1884",
+  fullHash = "3e1884",
+  text = "Rune-Inscribed Parchment. In the Valley of Trials, Gornek gives aspiring orc shamans a summons from Shikrik. It calls them to guide their people and commune with elemental spirits. New orc shamans train under veteran overseers in the Valley of Trials. During an initiate’s first trials, Gornek gives them a rune-covered message from Shikrik, the local shamanic instructor. It calls them to deepen their bond with the elements.\n\nAmong the orcs, shamans mediate between the living and their ancestors. The message marks a turn from brute strength toward disciplined reverence for ancestral ways.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_rune-inscribed-parchment-d1504765bf1cd414d104/1-0000.mp3", duration = 38.3477551, start = 0},
+    {file = "Audio/Transport/full_item_rune-inscribed-parchment-758589cff9fc801e48f0/1-0000.mp3", duration = 36.362449, start = 0},
   },
 }
 P.transport["item:rune-inscribed-pendant"] = {
@@ -4130,19 +4130,19 @@ P.transport["item:rune-inscribed-pendant"] = {
   },
 }
 P.transport["item:rune-inscribed-tablet"] = {
-  hash = "ed59ea",
-  fullHash = "ed59ea",
-  text = "Rune-Inscribed Tablet. In the Valley of Trials, Gornek gives young Darkspear troll shamans a stone message. It sends promising mystics to Shikrik to begin formal communion with the elements. Gornek gives the rune-carved stone to initiates who prove their mettle in the Valley of Trials. The troll shaman Ishi-yo sent it to direct them to Shikrik, the shaman trainer. For Darkspear trolls, the tablet begins a shared path with the orcs, joining their old spiritual traditions with the shamanic heritage Warchief Thrall has renewed.",
+  hash = "0f9038",
+  fullHash = "0f9038",
+  text = "Rune-Inscribed Tablet. In the Valley of Trials, Gornek gives a stone message to young Darkspear troll shamans. It sends promising mystics to Shikrik for formal spiritual instruction. Gornek gives a rune-carved stone to initiates who prove their mettle in the Valley of Trials. The troll shaman Ishi-yo sends it to Shikrik, the shaman trainer. For Darkspear trolls, the tablet begins a shared path with the orcs. Their old spiritual traditions join the shamanic heritage Warchief Thrall has renewed.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_rune-inscribed-tablet-5347034408027f91eb56/1-0000.mp3", duration = 31.9216327, start = 0},
+    {file = "Audio/Transport/full_item_rune-inscribed-tablet-25c93d7e433ab635b50c/1-0000.mp3", duration = 29.962449, start = 0},
   },
 }
 P.transport["item:rune-of-nesting"] = {
-  hash = "96d681",
-  fullHash = "96d681",
-  text = "Rune of Nesting. At Ban'ethil Barrow Den, the Rune of Nesting lies among four sacred relics. It helps Athridas Bearmantle prepare the ritual that safely awakens the Druids of the Talon from the Emerald Dream. The Rune of Nesting lies in the Chest of Nesting, deep in the winding chambers of Ban'ethil Barrow Den. Night elf druids hibernate in underground barrow dens to commune with nature through the Emerald Dream. To return safely, the Druids of the Talon need a precise awakening ritual guided by sacred relics. The rune is one of four: the Raven Claw Talisman, the Black Feather Quill, the Sapphire of Sky, and the Rune of Nesting. Together, the relics help call the sleeping druids back to the waking world. Corrupted Gnarlpine furbolgs have overrun Ban'ethil Barrow Den, putting its sleeping defenders in peril. Without the relics, the druids risk remaining trapped in the Emerald Dream while invaders desecrate their sanctuary. Recovering the Rune of Nesting and its companion artifacts allows Athridas Bearmantle in Dolanaar to prepare the ritual that can safely awaken them.",
+  hash = "451479",
+  fullHash = "451479",
+  text = "Rune of Nesting. At Ban'ethil Barrow Den, the Rune of Nesting helps prepare a rite to wake the Druids of the Talon. They sleep in the Emerald Dream, and four sacred relics guide their safe return. Deep in the winding chambers of Ban'ethil Barrow Den, the Rune of Nesting lies in the Chest of Nesting. Night elf druids sleep in underground barrow dens and commune with nature through the Emerald Dream.\n\nTo return safely, the Druids of the Talon need a careful awakening ritual guided by sacred relics. The Rune of Nesting is one of four, alongside the Raven Claw Talisman, the Black Feather Quill, and the Sapphire of Sky. Together, the relics call the sleeping druids back to the waking world. Corrupted Gnarlpine furbolgs have overrun Ban'ethil Barrow Den, and its sleeping defenders are in peril. Without the relics, the druids may remain trapped in the Emerald Dream while invaders desecrate their sanctuary. Recovering the Rune of Nesting and its companion relics lets Athridas Bearmantle in Dolanaar prepare the rite that can wake them safely.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_rune-of-nesting-94c60332b63d34e4e17e/1-0000.mp3", duration = 70.6089796, start = 0},
+    {file = "Audio/Transport/full_item_rune-of-nesting-410183963e60d4294e47/1-0000.mp3", duration = 66.2204082, start = 0},
   },
 }
 P.transport["item:runes-of-summoning"] = {
@@ -4154,43 +4154,43 @@ P.transport["item:runes-of-summoning"] = {
   },
 }
 P.transport["item:sack-of-murloc-heads"] = {
-  hash = "8470ce",
-  fullHash = "8470ce",
-  text = "Sack of Murloc Heads. Along the Hillsbrad beaches, a gruesome sack of Murloc Heads is gathered as proof of military action against local shore pests. Lieutenant Farren Orinelle hands the bundle to passing adventurers for delivery to Marshal Redpath in Southshore. Southshore faces constant attacks from Syndicate outlaws, Forsaken skirmishers, and wild murlocs along the coast. Local officers must show town leaders that coastal threats are being culled to secure funding and favor. Lieutenant Farren Orinelle collects severed heads as proof, but finds the cargo distasteful. His squeamishness leads him to hand the sack to travelers instead of bringing the grisly evidence to Marshal Redpath himself.",
+  hash = "5e1798",
+  fullHash = "5e1798",
+  text = "Sack of Murloc Heads. Along the Hillsbrad beaches, a sack of Murloc Heads is gathered as proof that local shore threats are being culled. Lieutenant Farren Orinelle gives the bundle to passing adventurers for Marshal Redpath in Southshore. Southshore faces attacks from Syndicate outlaws, Forsaken skirmishers, and wild murlocs along the coast. Officers must show the town's leaders that coastal threats are being culled, so they can secure funding and favor. Lieutenant Farren Orinelle gathers severed heads as proof, though he finds the cargo distasteful. His squeamishness sends the sack with travelers to Marshal Redpath instead of carrying the grisly evidence himself.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_sack-of-murloc-heads-d2bbed73cc48a224e931/1-0000.mp3", duration = 41.2212245, start = 0},
+    {file = "Audio/Transport/full_item_sack-of-murloc-heads-d887c5dff74bda041413/1-0000.mp3", duration = 39.8367347, start = 0},
   },
 }
 P.transport["item:sack-of-supplies"] = {
-  hash = "785500",
-  fullHash = "785500",
-  text = "Sack of Supplies. A caravan shipment bound for Rezlak lies scattered among the harpy roosts of Razorwind Canyon. Dustwind harpies intercepted the goods as they crossed Durotar. Rezlak needs steady supplies for his work outside Orgrimmar. The goblin engineer, contracted from Ratchet by Gazlowe, builds for the Horde. A caravan carrying a promised shipment passed near the canyon road south of Orgrimmar, where Dustwind harpies ambushed it. They dragged the cargo into their roosts in Razorwind Canyon, scattering sacks among dirt and scree beside their nesting sites.",
+  hash = "10a4a1",
+  fullHash = "10a4a1",
+  text = "Sack of Supplies. Across Razorwind Canyon, the sacks of supplies bound for Rezlak lie scattered among harpy roosts. Dustwind harpies seized the goods as they crossed Durotar. Rezlak needs a steady supply of goods for his work outside Orgrimmar. Gazlowe contracted the goblin engineer from Ratchet to build for the Horde. A caravan carrying a promised shipment passed near the canyon road south of Orgrimmar. Dustwind harpies ambushed it and dragged the cargo into their roosts in Razorwind Canyon, scattering sacks beside their nests in the dirt and scree.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_sack-of-supplies-4da4b41638b49c6613ba/1-0000.mp3", duration = 33.9330612, start = 0},
+    {file = "Audio/Transport/full_item_sack-of-supplies-1d125425550721d42d10/1-0000.mp3", duration = 34.8995918, start = 0},
   },
 }
 P.transport["item:salty-scorpid-venom"] = {
-  hash = "63b9a2",
-  fullHash = "63b9a2",
-  text = "Salty Scorpid Venom. Salty Scorpid Venom is a caustic fluid harvested from the scorpids stalking the Shimmering Flats in Thousand Needles. Packed with natural salts from the desert floor, it is prized by gnomish rocket racers attempting to engineer volatile, ultra-hot fuel. The scorpids crawling the arid expanse of the Shimmering Flats have adapted to an intensely mineral-rich environment. Over generations, the venom of beasts like the Scorpid Reavers and Scorpid Terrors has absorbed enormous quantities of local salt. Rather than brewing antidotes or standard poisons, gnomish tinkers like Fizzle Brassbolts prize this caustic compound as a prospective additive for high-combustion engine fuel. Out at the Mirage Raceway, the engineering competition between gnomes and goblins drives inventors to test increasingly dangerous materials in their rocket cars. Fizzle Brassbolts believes boiling down the salted venom, treating it with specialized catalysts, and mixing it into propellant tanks will deliver the blazing heat necessary to outrun goblin racers on the salt pans.",
+  hash = "9e9031",
+  fullHash = "9e9031",
+  text = "Salty Scorpid Venom. Across Thousand Needles, Salty Scorpid Venom draws gnomes into a dangerous race for speed. Scorpids on the Shimmering Flats carry the desert floor's mineral salts in their venom, and gnomish racers seek it for fuel. Scorpids on the mineral-rich Shimmering Flats carry salt in their venom. Scorpid Reavers and Scorpid Terrors have absorbed those local salts over generations. Fizzle Brassbolts and other gnomish tinkers prize the caustic venom as a possible additive for high-combustion engine fuel, not for antidotes or ordinary poisons. At the Mirage Raceway, gnomes and goblins test ever more dangerous materials in their rocket cars. Fizzle Brassbolts believes boiling down the salted venom, treating it with specialized catalysts, and mixing it into propellant tanks will give his car the fierce heat it needs to outrun goblin racers on the salt pans.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_salty-scorpid-venom-f2d1aca7589ade8c8395/1-0000.mp3", duration = 63.764898, start = 0},
+    {file = "Audio/Transport/full_item_salty-scorpid-venom-e801499c2d08d8e5553b/1-0000.mp3", duration = 51.8008163, start = 0},
   },
 }
 P.transport["item:samophlange-item"] = {
-  hash = "b6f883",
-  fullHash = "b6f883",
-  text = "Samophlange (item). In the Barrens, Samophlange is hidden inside an automated control console. Goblin mechanics cannot explain what the strange component does. Samophlange lies inside a control console in the Barrens, behind a maze of wiring and hollow tubes. It takes careful searching to free the component from its housing. It looks like a vital part of clockwork and steam machinery, but goblin tinkerers cannot make sense of its purpose. They mean to send it to the Tinkers' Union in Undermine, though the fragile piece may not survive rough handling.",
+  hash = "40a87f",
+  fullHash = "40a87f",
+  text = "Samophlange (item). In the Barrens, Samophlange remains hidden in an automated control console. Goblin mechanics cannot explain what the strange component does. Samophlange lies within a Barrens control console, behind a maze of wiring and hollow tubes. Careful searching is needed to free it from its housing. It looks vital to clockwork and steam machinery, yet goblin tinkerers cannot learn its purpose. They plan to send it to the Tinkers' Union in Undermine, though rough handling may break the fragile piece.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_samophlange-item-dc1bb1a177862d697a3b/1-0000.mp3", duration = 33.6195918, start = 0},
+    {file = "Audio/Transport/full_item_samophlange-item-87d6df23ec7af49c877d/1-0000.mp3", duration = 30.7722449, start = 0},
   },
 }
 P.transport["item:samophlange-manual"] = {
-  hash = "b8cda3",
-  fullHash = "b8cda3",
-  text = "Samophlange Manual. In Orgrimmar, Rilli Greasygob seeks the scattered pages of the Samophlange Manual. The handbook holds instructions for repairing and operating the Venture Company's samophlange. Boss Copperplug guarded the Venture Company's knowledge of the samophlange. The ambitious overseer kept the manual's pages from most workers, giving scattered leaves only to his most loyal subordinates. When the device slipped from company hands, no one could repair it without gathering the torn documentation from Copperplug and his crew at the Boulder Lode Mine. Rilli Greasygob left the Venture Company and settled in Orgrimmar to learn how the samophlange was built. Copperplug had never favored him, so Rilli depends on enterprising travelers to retrieve the manual's cover and loose leaves. Reassembled, the handbook gives goblin tinkerers working alongside the Horde a rare look at Venture Company engineering.",
+  hash = "586e51",
+  fullHash = "586e51",
+  text = "Samophlange Manual. In Orgrimmar, Rilli Greasygob seeks the scattered pages of the Samophlange Manual. The handbook explains how to repair and operate the Venture Company's samophlange. Boss Copperplug kept the Venture Company's knowledge of the samophlange close. The ambitious overseer withheld the manual's pages from most workers. He gave loose leaves only to his most loyal subordinates. When the device left company hands, no one could repair it without recovering the torn pages from Copperplug and his crew at the Boulder Lode Mine. Rilli Greasygob left the Venture Company and settled in Orgrimmar to learn how the samophlange was built. Copperplug had never favored him, so Rilli relies on enterprising travelers to retrieve the manual's cover and loose leaves. Once reassembled, the handbook gives goblin tinkerers working with the Horde a rare look at Venture Company engineering.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_samophlange-manual-77ced5a2fd97c1a48777/1-0000.mp3", duration = 56.555102, start = 0},
+    {file = "Audio/Transport/full_item_samophlange-manual-2dce5c1e1d0f607d405b/1-0000.mp3", duration = 52.48, start = 0},
   },
 }
 P.transport["item:sample-ichor"] = {
@@ -4202,19 +4202,19 @@ P.transport["item:sample-ichor"] = {
   },
 }
 P.transport["item:sample-of-zanzil-s-altered-mixture"] = {
-  hash = "1d7356",
-  fullHash = "1d7356",
-  text = "Sample of Zanzil's Altered Mixture. A courier carries Sample of Zanzil's Altered Mixture across the sea to Tarren Mill. The brew came from the witch doctor Zanzil and leaves its carrier weakened. Serge Hinott may find a cure and uncover the poison's workings. An operative carries the mixture after infiltrating the Venture Company's tower near the Sludge Fen in the Barrens. The sample came from a cache in Gallywix's lockbox, and Zanzil's brew has left the agent afflicted. Shenthul sends the stricken operative across the Great Sea with the sample. At Tarren Mill in the Hillsbrad Foothills, apothecary Serge Hinott has the rare skill to isolate the toxin and learn its components.",
+  hash = "7132dc",
+  fullHash = "7132dc",
+  text = "Sample of Zanzil's Altered Mixture. Across the sea, Sample of Zanzil's Altered Mixture is bound for Tarren Mill. The brew came from the witch doctor Zanzil and leaves its carrier weakened. Serge Hinott may find a cure and learn how the poison works. An operative carries the mixture after entering the Venture Company's tower near the Sludge Fen in the Barrens. The sample came from a cache in Gallywix's lockbox, and Zanzil's brew has left the agent afflicted. Shenthul sends the stricken operative across the Great Sea with it. At Tarren Mill in the Hillsbrad Foothills, apothecary Serge Hinott can isolate the toxin and learn its components.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_sample-of-zanzil-s-altered-mixture-6cd62496c619b18e90ce/1-0000.mp3", duration = 39.0530612, start = 0},
+    {file = "Audio/Transport/full_item_sample-of-zanzil-s-altered-mixture-9c1b2301ce70325fcb5d/1-0000.mp3", duration = 36.3885714, start = 0},
   },
 }
 P.transport["item:sample-snapjaw-shell"] = {
-  hash = "e957d5",
-  fullHash = "e957d5",
-  text = "Sample Snapjaw Shell. Across the Barrens, Sample Snapjaw Shells carry lingering vitality from freshwater oases. Tauren druids send them across the Great Sea to help heal Silverpine Forest. Snapjaws thrive in the lush, strange oases of the Barrens. Their durable shells keep a faint inner glow and pulse with energy long after separation from the creature. Tauren druids watching the land's swift changes see in these carapaces the resilient spark of Kalimdor's wilderness. Their vigor shows how life can flourish even in harsh, arid surroundings. Tauren naturalists send couriers across the sea with shells for Mura Runetotem at the Sepulcher. Stationed in Silverpine Forest's blighted expanses, Mura seeks ways to help the Forsaken heal the northlands. She studies the life-force preserved in the snapjaw's armor, hoping to find what can renew an ailing forest and bring growth back to dying soil.",
+  hash = "baf519",
+  fullHash = "baf519",
+  text = "Sample Snapjaw Shell. Across the Barrens, snapjaw shells hold a spark of life from freshwater oases. Tauren druids send them across the Great Sea to aid Silverpine Forest. Snapjaws thrive in the Barrens' strange, lush oases. Their durable shells hold a faint glow and pulse with energy long after the creature is gone. Tauren druids watch the land change swiftly, and see in these shells a resilient spark of Kalimdor's wilderness. Their vigor shows how life can flourish even in harsh, arid lands. Tauren naturalists send couriers across the sea with shells for Mura Runetotem at the Sepulcher. She is stationed in Silverpine Forest's blighted expanses, seeking ways to help the Forsaken heal the northlands. Mura studies the life-force held in snapjaw armor, hoping it can show what will renew an ailing forest and bring growth back to dying soil.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_sample-snapjaw-shell-5b020887bac270225c73/1-0000.mp3", duration = 55.2228571, start = 0},
+    {file = "Audio/Transport/full_item_sample-snapjaw-shell-957f28083afdd1f148b5/1-0000.mp3", duration = 53.3681633, start = 0},
   },
 }
 P.transport["item:samuel-s-remains"] = {
@@ -4226,19 +4226,19 @@ P.transport["item:samuel-s-remains"] = {
   },
 }
 P.transport["item:sapphire-of-aku-mai"] = {
-  hash = "951cf7",
-  fullHash = "951cf7",
-  text = "Sapphire of Aku'Mai. Along Blackfathom Deeps, the naga are harvesting the glowing Sapphires of Aku'Mai. Water spirits cling to the crystals, and Je'neu Sancrea seeks help confiscating them before their arcane power can be exploited. Blackfathom Deeps holds Sapphires of Aku'Mai in its watery cavern entrances along Ashenvale's Zoram Strand. Water spirits cling to the crystalline formations, rich in elemental energy, making them potent aids in magical workings. When scouts reported the subterranean naga quarrying the gems from cavern walls, Je'neu Sancrea, a shaman, sought adventuring help to confiscate them. In naga hands, the stones could fuel devastating arcane rites.",
+  hash = "504408",
+  fullHash = "504408",
+  text = "Sapphire of Aku'Mai. Along Blackfathom Deeps, naga harvest the Sapphires of Aku'Mai. Water spirits cling to the crystals, and Je'neu Sancrea seeks help to seize them before their arcane power is used. At the watery entrances to Blackfathom Deeps, the walls along Ashenvale's Zoram Strand bear Sapphires of Aku'Mai. Water spirits cling to the crystals, whose elemental energy lends power to magic. When scouts reported naga quarrying the gems underground, Je'neu Sancrea, a shaman, sought travelers' help to seize them. In naga hands, the stones could fuel devastating arcane rites.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_sapphire-of-aku-mai-71c9e52f61089c519ebf/1-0000.mp3", duration = 42.3183673, start = 0},
+    {file = "Audio/Transport/full_item_sapphire-of-aku-mai-59f31c17a4b072c51891/1-0000.mp3", duration = 38.8702041, start = 0},
   },
 }
 P.transport["item:sapphire-of-sky"] = {
-  hash = "1b7c62",
-  fullHash = "1b7c62",
-  text = "Sapphire of Sky. In Ban'ethil Barrow Den, Sapphire of Sky helps call sleeping Druids of the Talon back from the Emerald Dream. It is one of four sacred Relics of Wakening kept by the night elves. Druids of the Talon sleep in hibernation within Ban'ethil Barrow Den, deep among Teldrassil's roots, while they commune with the wilds. Waking from that deep trance is perilous. Four sacred relics protect the passage: the Black Feather Quill, the Raven Claw Talisman, the Rune of Nesting, and the Sapphire of Sky. The gem completes the harmony needed to call the sleeping spirits back from the Emerald Dream. Without it, they risk being trapped there forever. Corrupted Gnarlpine furbolgs have overrun Ban'ethil Barrow Den, leaving the sacred relics in their repositories. The Sapphire of Sky is secured inside the Chest of the Sky, along the winding underground corridors. The druids still sleep as the furbolgs rampage around them. Athridas Bearmantle in Dolanaar needs the sapphire and its companion relics to wake the sleepers before they are lost forever.",
+  hash = "c6e03b",
+  fullHash = "c6e03b",
+  text = "Sapphire of Sky. In Ban'ethil Barrow Den, Sapphire of Sky helps call sleeping Druids of the Talon back from the Emerald Dream. Night elves keep it as one of four sacred Relics of Wakening. Druids of the Talon sleep in hibernation within Ban'ethil Barrow Den, deep among Teldrassil's roots. There, they commune with the wilds. Waking from that deep trance is perilous, so four sacred relics guard the passage: the Black Feather Quill, the Raven Claw Talisman, the Rune of Nesting, and the Sapphire of Sky. The gem completes the harmony needed to call the sleeping spirits back from the Emerald Dream. Without it, they may be trapped there forever. Corrupted Gnarlpine furbolgs have overrun Ban'ethil Barrow Den, leaving the sacred relics in their repositories. The Sapphire of Sky lies inside the Chest of the Sky, along the winding underground corridors. The druids still sleep as the furbolgs rampage around them. Athridas Bearmantle in Dolanaar needs the sapphire and its companion relics to wake the sleepers before they are lost forever.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_sapphire-of-sky-212fa2f4332de44f476c/1-0000.mp3", duration = 67.1869388, start = 0},
+    {file = "Audio/Transport/full_item_sapphire-of-sky-20dd4a2fc8ad4c3fa97a/1-0000.mp3", duration = 67.3959184, start = 0},
   },
 }
 P.transport["item:sara-balloo-s-plea"] = {
@@ -4250,59 +4250,59 @@ P.transport["item:sara-balloo-s-plea"] = {
   },
 }
 P.transport["item:sarilus-foulborne-s-head"] = {
-  hash = "5d96eb",
-  fullHash = "5d96eb",
-  text = "Sarilus Foulborne's Head. Across the border from the Barrens, Sarilus Foulborne's Head reaches Ashenvale as proof of the sorcerer's death. The undead mage defiled Ashenvale's waters, and the Sentinels demanded his head.",
+  hash = "ec5759",
+  fullHash = "ec5759",
+  text = "Sarilus Foulborne's Head. Across the border from the Barrens, Sarilus Foulborne's Head reaches Ashenvale as proof the sorcerer is dead. He defiled Ashenvale's waters, and the Sentinels demanded his head.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_sarilus-foulborne-s-head-ae1acb316699900a2f3c/1-0000.mp3", duration = 12.042449, start = 0},
+    {file = "Audio/Transport/full_item_sarilus-foulborne-s-head-e0150bb8a09568ddc8c5/1-0000.mp3", duration = 11.8334694, start = 0},
   },
 }
 P.transport["item:sarkoth-s-mangled-claw"] = {
-  hash = "e3c534",
-  fullHash = "e3c534",
-  text = "Sarkoth's Mangled Claw. Across the southern bluffs of the Valley of Trials, Sarkoth's Mangled Claw bears the mark of a wounded hunter. Hana'zua's crushing blow scarred the scorpid's pincer before its venomous sting struck him down. Hana'zua, a young Darkspear troll, met Sarkoth while hunting in the Valley of Trials. The massive scorpid's venomous stinger pierced his chest, leaving him bleeding beneath a nearby tree. Before the blow landed, Hana'zua crushed the beast's pincer. Its severed, battered claw proves Sarkoth has been slain. For the wounded hunter, that scar on the beast is proof his desperate strike left its mark, and a last hold on his warrior's honor as venom courses through his veins.",
+  hash = "6768d7",
+  fullHash = "6768d7",
+  text = "Sarkoth's Mangled Claw. Across the southern bluffs of the Valley of Trials, Sarkoth's Mangled Claw bears the mark of a wounded hunter. Hana'zua crushed the scorpid's pincer before its venomous sting struck him down. Hana'zua, a young Darkspear troll, met Sarkoth while hunting in the Valley of Trials. The massive scorpid pierced his chest with its venomous stinger, leaving him bleeding beneath a nearby tree.\n\nBefore the sting, Hana'zua crushed the beast's pincer. The battered claw proves Sarkoth has been slain. For the wounded hunter, its scar shows that his desperate strike found its mark and preserves his warrior's honor as venom courses through his veins.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_sarkoth-s-mangled-claw-2cc00f96c291c5d16d83/1-0000.mp3", duration = 44.6432653, start = 0},
+    {file = "Audio/Transport/full_item_sarkoth-s-mangled-claw-d3fc6edcdb08a8d3cd88/1-0000.mp3", duration = 41.4302041, start = 0},
   },
 }
 P.transport["item:sarltooth-s-talon"] = {
-  hash = "f52d60",
-  fullHash = "f52d60",
-  text = "Sarltooth's Talon. Above Whelgar's Excavation Site, Sarltooth's Talon marks the end of the raptor's attack. Ormer Ironbraid wants the claw as proof that the beast has been slain. Ormer Ironbraid watched from the ridge as raptors overran Whelgar's Excavation Site and butchered the dwarven expedition. He could not stop the slaughter. One massive raptor, Sarltooth, seemed to Ormer the likely pack leader. Seeking vengeance for his fallen kin, Ormer demanded the beast's death and one of its talons as proof. The claw marks the end of Sarltooth's reign over the ancient dwarven ruins.",
+  hash = "031005",
+  fullHash = "031005",
+  text = "Sarltooth's Talon. Above Whelgar's Excavation Site, Sarltooth's Talon is all that remains of the raptor's attack. Ormer Ironbraid wants the claw as proof the beast is dead. Ormer Ironbraid watched from the ridge as raptors overran Whelgar's Excavation Site and butchered the dwarven expedition. He could not stop them. One huge raptor, Sarltooth, seemed to him the pack's leader. Seeking vengeance for his fallen kin, Ormer demanded the beast's death and one of its talons as proof. The claw marks the end of Sarltooth's rule over the ancient dwarven ruins.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_sarltooth-s-talon-35fef9e708d3db6f252c/1-0000.mp3", duration = 37.8514286, start = 0},
+    {file = "Audio/Transport/full_item_sarltooth-s-talon-c28ae2804da29f51c60c/1-0000.mp3", duration = 35.2391837, start = 0},
   },
 }
 P.transport["item:sathrah-s-sacrifice"] = {
-  hash = "c36acf",
-  fullHash = "c36acf",
-  text = "Sathrah's Sacrifice. At the Temple of the Moon, Sathrah's Sacrifice offers Lady Sathrah's spirit a chance at peace. Her silvery spinnerets come from the mighty spider who dwells in Teldrassil. Lady Sathrah was a venerable creature of Teldrassil, until creeping madness and corruption spread through the great tree's boughs and took hold of her. The Sisterhood of Elune asks you to bring back her silvery spinnerets as a consecrated offering, not a trophy. At the fountain in the Temple of the Moon, the remains are bathed in holy water. The rite washes away the taint that poisoned Sathrah's mind and frees her troubled soul. Her spirit then appears peacefully within the sanctuary, with the promise of rebirth under Elune's grace.",
+  hash = "2de38f",
+  fullHash = "2de38f",
+  text = "Sathrah's Sacrifice. At the Temple of the Moon, Sathrah's Sacrifice offers Lady Sathrah's spirit a chance at peace. Her silvery spinnerets come from the mighty spider who dwells in Teldrassil. Lady Sathrah was a venerable creature of Teldrassil. Then creeping madness and corruption spread through the great tree's boughs and took hold of her. The Sisterhood of Elune asks you to bring back her silvery spinnerets as a consecrated offering. They are not a trophy.\n\nAt the fountain in the Temple of the Moon, her remains are bathed in holy water. The rite washes away the taint that poisoned Sathrah's mind and frees her troubled soul. Her spirit appears peacefully within the sanctuary, with the promise of rebirth under Elune's grace.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_sathrah-s-sacrifice-2b44f4dacffb2ab6452a/1-0000.mp3", duration = 44.9044898, start = 0},
+    {file = "Audio/Transport/full_item_sathrah-s-sacrifice-815499e7678ed7561811/1-0000.mp3", duration = 45.844898, start = 0},
   },
 }
 P.transport["item:satyr-horns"] = {
-  hash = "42bcc1",
-  fullHash = "42bcc1",
-  text = "Satyr Horns. In Ashenvale, Satyr Horns draw dryads seeking vengeance and traders bound for Ratchet. The horns come from satyrs whose corruption has taken root in the ancient forest. Ashenvale’s satyrs bear horns that mark their demonic corruption. At the Shrine of Aessina, the dryad Illiyana gathers them in grief and vengeance for her lost sister Anilia. Pixel, a traveling goblin resting at Splintertree Post, seeks them for trade. Demand for satyr horns has risen in Ratchet, where hunters can sell these remnants of slain demons. Satyr Horns must be cut from the beasts themselves; ordinary suppliers do not sell them. Satyrs hold strongholds across Ashenvale, including the corrupted groves of Xavian, the hollows of Satyrnaar, and the ruins of Night Run. Clearing these enclaves drives back the lingering demonic taint and supplies grieving guardians and eager merchants with proof of the cull.",
+  hash = "daac7b",
+  fullHash = "daac7b",
+  text = "Satyr Horns. In Ashenvale, Satyr Horns draw dryads seeking vengeance and traders bound for Ratchet. They come from satyrs whose corruption has taken root in the ancient forest. Ashenvale’s satyrs bear horns that mark their demonic corruption. At the Shrine of Aessina, the dryad Illiyana gathers them for vengeance over her lost sister, Anilia. Pixel, a traveling goblin resting at Splintertree Post, wants them for trade. Demand has risen in Ratchet, where hunters sell these remnants of slain demons. Satyr Horns must be cut from the satyrs themselves; ordinary suppliers do not sell them. Satyrs hold strongholds across Ashenvale, from the corrupted groves of Xavian to the hollows of Satyrnaar and the ruins of Night Run. Clearing these enclaves pushes back the lingering demonic taint. It also gives grieving guardians and eager merchants proof of the cull.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_satyr-horns-543e57d9e117ad74a09e/1-0000.mp3", duration = 55.2228571, start = 0},
+    {file = "Audio/Transport/full_item_satyr-horns-7b7ca087cbdebee5e5ad/1-0000.mp3", duration = 54.517551, start = 0},
   },
 }
 P.transport["item:savannah-lion-tusk"] = {
-  hash = "2f89c8",
-  fullHash = "2f89c8",
-  text = "Savannah Lion Tusk. In the Barrens, Savannah Lion Tusks go from hunting trophies to ingredients in Chen Stormstout's legendary potent ale. The great cats roaming the Barrens carry sharp, heavy tusks. Prowlers, huntresses, prides ruled by patriarchs, and beasts like Humar the Pridelord all bear them. Travelers often take the teeth as proof of a successful hunt. Brewmaster Drohn in Ratchet uses the tusks with plainstrider kidneys and thunder lizard horns to recreate Chen Stormstout's famous namesake brew, a potent ale with a legendary kick few mortal gullets can withstand.",
+  hash = "e172eb",
+  fullHash = "e172eb",
+  text = "Savannah Lion Tusk. Across the Barrens, Savannah Lion Tusks pass from hunting trophies into Chen Stormstout's legendary ale. Great cats of the Barrens carry sharp, heavy tusks. Prowlers, huntresses, prides led by patriarchs, and beasts like Humar the Pridelord all bear them. Travelers take the teeth as proof of a successful hunt. In Ratchet, Brewmaster Drohn uses the tusks with plainstrider kidneys and thunder lizard horns to recreate Chen Stormstout's famous brew. The potent ale has a legendary kick few mortal gullets can withstand.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_savannah-lion-tusk-e91e337cdec7312a967f/1-0000.mp3", duration = 35.604898, start = 0},
+    {file = "Audio/Transport/full_item_savannah-lion-tusk-c0784cb1242f41fa9e2e/1-0000.mp3", duration = 35.4742857, start = 0},
   },
 }
 P.transport["item:scaber-stalk"] = {
-  hash = "b5c9c8",
-  fullHash = "b5c9c8",
-  text = "Scaber Stalk. In Darkshore, Barithras Moonshade seeks Scaber Stalks from a hidden cavern behind Cliffspring Falls. Scaber Stalks grow in a subterranean cave behind Cliffspring Falls, among the northeastern mountains of Darkshore. The pale mushrooms thrive in the damp, secluded cave network, far from ordinary forest growth. Their remote, hazardous home makes them rare to gather, and Barithras Moonshade in Auberdine commissions scouts to brave its darkness.",
+  hash = "a4ea8f",
+  fullHash = "a4ea8f",
+  text = "Scaber Stalk. In Darkshore, Barithras Moonshade seeks Scaber Stalks from a cave behind Cliffspring Falls. Behind Cliffspring Falls, Scaber Stalks grow in a cave among Darkshore's northeastern mountains. The pale mushrooms thrive in its damp, secluded passages, far from the forest growth above. Few gather them from so remote a place. Barithras Moonshade in Auberdine sends scouts into the darkness for the rare stalks.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_scaber-stalk-377cce0cb967f2b33109/1-0000.mp3", duration = 28.3428571, start = 0},
+    {file = "Audio/Transport/full_item_scaber-stalk-1d8b5591311348246309/1-0000.mp3", duration = 27.2457143, start = 0},
   },
 }
 P.transport["item:scale-of-old-murk-eye"] = {
@@ -4362,27 +4362,27 @@ P.transport["item:scorched-spider-fang"] = {
   },
 }
 P.transport["item:scroll-of-messaging"] = {
-  hash = "0b8443",
-  fullHash = "0b8443",
-  text = "Scroll of Messaging. In Stonetalon, Gaxim Rustfizzle has a plan for the Scroll of Messaging. The gnome engineer means to use its sending spell to trigger remote explosives. Gaxim Rustfizzle plans to turn a message into a blast at the Venture Company's logging operation. He will combine the scroll's transmission incantation with volatile NG-5 charges. The explosion is meant to distract the guards, giving operatives time to slip past and steal engineering schematics and confidential correspondence.",
+  hash = "858812",
+  fullHash = "858812",
+  text = "Scroll of Messaging. In Stonetalon, Gaxim Rustfizzle prepares to send a message that will set off explosives from afar. At the Venture Company's logging operation, Gaxim Rustfizzle will turn a message into a blast. He plans to join the scroll's transmission incantation with volatile NG-5 charges. The explosion will draw the guards away. Then operatives can slip past and steal engineering schematics and confidential correspondence.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_scroll-of-messaging-c013062e52454225925b/1-0000.mp3", duration = 28.5257143, start = 0},
+    {file = "Audio/Transport/full_item_scroll-of-messaging-33d1ace1687d28c54920/1-0000.mp3", duration = 28.0555102, start = 0},
   },
 }
 P.transport["item:sea-creature-bones"] = {
-  hash = "1e6853",
-  fullHash = "1e6853",
-  text = "Sea Creature Bones. On Darkshore, Sea Creature Bones come from massive marine carcasses washed ashore. Gwennyth Bly'Leggonde gathers skeletal samples for the Temple of the Moon in Darnassus, where the cause of the strandings is under investigation. Massive sea creatures have begun flinging themselves onto Darkshore’s shallows, where they perish. Among them are giant threshers far larger than those native to the local waters. Night elves see the sudden increase as an ominous portent. Gwennyth Bly'Leggonde, sent by the Temple of the Moon to Auberdine, gathers bones from the beached creatures. Hippogryphs carry the specimens to Darnassus for close examination. The immense carcasses attract local scavengers. Greymist murlocs gather around the dead and dying creatures, feeding on their remains and fiercely defending the feeding grounds. The murlocs are too weak to hunt beasts of this size, but investigators and adventurers must fight through their packs along Mist's Edge to recover bone fragments for study.",
+  hash = "db986d",
+  fullHash = "db986d",
+  text = "Sea Creature Bones. On Darkshore, Sea Creature Bones wash ashore with the bodies of massive sea creatures. Gwennyth Bly'Leggonde gathers samples for the Temple of the Moon in Darnassus, where the cause of the strandings is under investigation. Massive sea creatures now fling themselves onto Darkshore’s shallows and perish there. Giant threshers among them are far larger than those native to these waters. To the night elves, this sudden increase is an ominous portent. Gwennyth Bly'Leggonde was sent by the Temple of the Moon to Auberdine to gather bones from the beached creatures. Hippogryphs carry the specimens to Darnassus for close examination. The immense carcasses draw local scavengers. Greymist murlocs gather to feed on the dead and dying creatures, then fiercely defend their feeding grounds. They are too weak to hunt beasts of this size. So investigators and adventurers must fight through their packs along Mist's Edge to recover bone fragments for study.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_sea-creature-bones-0595b7c44be803f6476c/1-0000.mp3", duration = 63.0334694, start = 0},
+    {file = "Audio/Transport/full_item_sea-creature-bones-64114552174beffa4af8/1-0000.mp3", duration = 56.4767347, start = 0},
   },
 }
 P.transport["item:sea-turtle-remains"] = {
-  hash = "915de9",
-  fullHash = "915de9",
-  text = "Sea Turtle Remains. Along Darkshore, giant sea turtles lie dead on the coast and beneath the waves. Their remains go to researchers in Auberdine, who study the growing number of strandings. Giant sea creatures are washing ashore along Darkshore, while others lie beneath the water near sunken wrecks. In Auberdine, Gwennyth Bly'Leggonde oversees the collection of bone fragments and tissue from the bodies. The Temple of the Moon in Darnassus urgently requests these samples. Its scholars and priestesses fear the creatures may be fleeing an unnatural disturbance in the waters around Teldrassil. Recovering the remains is dangerous. Murloc tribes along the coast routinely gather around the huge carcasses, picking bones clean and nesting beside them. Scholars need fresh bone fragments and tissue before the scavengers destroy evidence that could explain the creatures' fatal migration.",
+  hash = "2292cb",
+  fullHash = "2292cb",
+  text = "Sea Turtle Remains. Along Darkshore, Sea Turtle Remains gather on the coast and beneath the waves. Researchers in Auberdine study the growing number of dead sea turtles. Giant sea creatures wash ashore along Darkshore, while others lie beneath the water near sunken wrecks. In Auberdine, Gwennyth Bly'Leggonde gathers bone fragments and tissue from their bodies. The Temple of the Moon in Darnassus urgently asks for these samples. Its scholars and priestesses fear the creatures are fleeing an unnatural disturbance in the waters around Teldrassil. Recovering the remains is dangerous. Murloc tribes along the coast gather around the huge carcasses, picking their bones clean and nesting beside them. Scholars need fresh bone fragments and tissue before the scavengers destroy evidence that might explain the creatures' fatal migration.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_sea-turtle-remains-e32b81f4e320b32c5436/1-0000.mp3", duration = 51.8530612, start = 0},
+    {file = "Audio/Transport/full_item_sea-turtle-remains-a54e7fd2a48a9456268a/1-0000.mp3", duration = 51.7485714, start = 0},
   },
 }
 P.transport["item:sealed-description-of-thredd-s-visitor"] = {
@@ -4394,11 +4394,11 @@ P.transport["item:sealed-description-of-thredd-s-visitor"] = {
   },
 }
 P.transport["item:sealed-envelope"] = {
-  hash = "7aab3c",
-  fullHash = "7aab3c",
-  text = "Sealed Envelope. Fizziks has sealed Venture Company secrets inside the Sealed Envelope for delivery to Sputtervalve in Ratchet. After the Venture Company cast goblin engineer Fizziks out of its logging operations in the Stonetalon Mountains, he smuggled out company secrets. The envelope holds internal manuals, operating procedures, and technical specifications. Among them are schematics for the Super Reaper 6000, a machine built for industrial clear-cutting. Fizziks sends the documents south to Sputtervalve, an engineer in the neutral goblin port of Ratchet. The Steamwheedle Cartel's business rivals have little personal love or trust for Fizziks, yet the designs have undeniable engineering value. They reveal Venture Company mechanical ingenuity and give independent engineers a chance to exploit its advanced logging technologies.",
+  hash = "d728ae",
+  fullHash = "d728ae",
+  text = "Sealed Envelope. In Stonetalon, Fizziks has sealed Venture Company secrets in the Sealed Envelope for Sputtervalve in Ratchet. Cast out of the Venture Company's logging operations in the Stonetalon Mountains, goblin engineer Fizziks smuggled away its secrets. Inside the envelope are company manuals, operating procedures, and technical plans. Among them are schematics for the Super Reaper 6000, a machine built for industrial clear-cutting. Fizziks sends the documents south to Sputtervalve, an engineer in Ratchet's neutral goblin port. The Steamwheedle Cartel's rivals have little love or trust for Fizziks. Yet the designs hold clear engineering value. They reveal the Venture Company's mechanical skill and give independent engineers a chance to use its advanced logging methods.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_sealed-envelope-f0b7352b8c09bbc051d4/1-0000.mp3", duration = 49.2146939, start = 0},
+    {file = "Audio/Transport/full_item_sealed-envelope-7a8b44c8eb16e3f67733/1-0000.mp3", duration = 47.2032653, start = 0},
   },
 }
 P.transport["item:sealed-note-to-elling"] = {
@@ -4418,11 +4418,11 @@ P.transport["item:sealed-note-to-watcher-backus"] = {
   },
 }
 P.transport["item:searing-collar"] = {
-  hash = "b89366",
-  fullHash = "b89366",
-  text = "Searing Collar. At Skull Rock in Durotar, Burning Blade cultists wear Searing Collars in their rites. The heated torcs burn their flesh as the cultists attune themselves to demonic power. The Burning Blade gathers for dark rites in Skull Rock, just east of Orgrimmar. Cultists, neophytes, and thugs wear Searing Collars around their necks, enduring heat that brands and sears their skin. Margoz, a hermit, studies the cruel devices. He suspects the burning and the enchantments bound to the metal attune the wearers to demonic energies. What part do these collars play in the corruption spreading through orc society under the Horde’s nose?",
+  hash = "ab9c26",
+  fullHash = "ab9c26",
+  text = "Searing Collar. At Skull Rock in Durotar, Searing Collars burn the Burning Blade cultists who wear them. The heated torcs help attune them to demonic power. The Burning Blade gathers at Skull Rock, just east of Orgrimmar, for dark rites. Cultists, neophytes, and thugs wear Searing Collars around their necks. The metal brands and sears their skin as they endure its heat.\n\nMargoz, a hermit, studies the cruel devices. He suspects their burning and enchantments attune the wearers to demonic energies. What part do the collars play in the corruption spreading through orc society under the Horde’s nose?",
   ["1"] = {
-    {file = "Audio/Transport/full_item_searing-collar-625430fc37ef964ece24/1-0000.mp3", duration = 40.0195918, start = 0},
+    {file = "Audio/Transport/full_item_searing-collar-24197faca89ae1718d56/1-0000.mp3", duration = 38.7395918, start = 0},
   },
 }
 P.transport["item:searing-coral"] = {
@@ -4434,11 +4434,11 @@ P.transport["item:searing-coral"] = {
   },
 }
 P.transport["item:secure-crate"] = {
-  hash = "104267",
-  fullHash = "104267",
-  text = "Secure Crate. In the Barrens, a Secure Crate waits for a traveler to carry it to Ratchet. Potions and alchemical goods inside are bound for the Eastern Kingdoms. Couriers, caravans, and goblin ships carry trade between Kalimdor and the Eastern Kingdoms. When a Barrens caravan misses its departure, travelers take fragile cargo like this Secure Crate down to the coast. It holds potions, alchemical goods, and reagents for associates across the Great Sea. The crate is sealed against the Barrens trails and the sea spray on its voyage. The crate’s land journey ends at the Ratchet docks, where Wharfmaster Dizzywig oversees shipping. Ratchet is a neutral port for goods crossing the sea, including cargo bound for Blackwater Cove. Dizzywig works under the Steamwheedle Cartel’s ledger, recording parcels and freight before loading them onto the next departing vessel. Ratchet links the Old World with the frontier.",
+  hash = "5333b3",
+  fullHash = "5333b3",
+  text = "Secure Crate. In the Barrens, a Secure Crate is bound for Ratchet. Potions and alchemical goods inside are headed across the sea to the Eastern Kingdoms. Couriers, caravans, and goblin ships carry trade between Kalimdor and the Eastern Kingdoms. When a Barrens caravan misses its departure, travelers carry fragile cargo like this Secure Crate down to the coast. Inside are potions, alchemical goods, and reagents for associates across the Great Sea. Its seal protects the crate along the Barrens trails and during the sea voyage. The crate’s land journey ends at the Ratchet docks, where Wharfmaster Dizzywig oversees shipping. Ratchet is a neutral port for goods crossing the sea, including cargo bound for Blackwater Cove. Dizzywig works under the Steamwheedle Cartel’s ledger, recording parcels and freight before loading them onto the next departing vessel. Ratchet links the Old World with the frontier.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_secure-crate-09205f19b23ee9727bf1/1-0000.mp3", duration = 53.3681633, start = 0},
+    {file = "Audio/Transport/full_item_secure-crate-0fa577b450af08b40c6e/1-0000.mp3", duration = 54.5436735, start = 0},
   },
 }
 P.transport["item:senir-s-report"] = {
@@ -4450,27 +4450,27 @@ P.transport["item:senir-s-report"] = {
   },
 }
 P.transport["item:serena-s-head"] = {
-  hash = "acc35b",
-  fullHash = "acc35b",
-  text = "Serena's Head. At the Dry Hills in the northern Barrens, Serena Bloodfeather's head is sought as proof of her death. Darsok Swiftdagger plans to display it on a Horde supply wagon as a warning against further harpy raids.",
+  hash = "3a9ce9",
+  fullHash = "3a9ce9",
+  text = "Serena's Head. At the Dry Hills, Darsok Swiftdagger seeks Serena Bloodfeather's head as proof of her death. He plans to display it on a Horde supply wagon to warn against further harpy raids.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_serena-s-head-ff5444bffbd44175f8eb/1-0000.mp3", duration = 12.6693878, start = 0},
+    {file = "Audio/Transport/full_item_serena-s-head-bdb9ef77068fc8f56032/1-0000.mp3", duration = 11.3371429, start = 0},
   },
 }
 P.transport["item:serpentbloom"] = {
-  hash = "5cd3d2",
-  fullHash = "5cd3d2",
-  text = "Serpentbloom. Serpentbloom is a rare, subterranean herb found growing only in the dark depths of the Wailing Caverns. Its potent natural properties have drawn the keen interest of the Forsaken's Royal Apothecary Society. Serpentbloom grows exclusively within the damp, shadowy tunnels of the Wailing Caverns beneath the Barrens. Rooted in an ecosystem warped by unrestrained Emerald Dream energies, the plant thrives far from sunlight and often harbors venomous serpents nesting among its stems. Because the cave system is overrun with hostile beasts and corrupted druids, few who venture inside ever return with viable specimens. Operating from the Pools of Vision beneath Thunder Bluff, Apothecary Zamah collects Serpentbloom on behalf of the Royal Apothecary Society of Undercity. The Forsaken continuously seek out virulent, strange, and chemically potent vegetation across Kalimdor to fuel their research for the Dark Lady. Zamah believes that harvesting Serpentbloom in significant quantities could yield valuable breakthroughs for Forsaken alchemy.",
+  hash = "5ea6c6",
+  fullHash = "5ea6c6",
+  text = "Serpentbloom. Deep in the Wailing Caverns, Serpentbloom has drawn the Royal Apothecary Society’s keen interest for its potent natural properties. In the Barrens, Serpentbloom thrives in the shadowy, damp tunnels of the Wailing Caverns. Unrestrained Emerald Dream energies have warped the caverns’ ecosystem. Venomous serpents often nest among the herb’s stems.\n\nHostile beasts and corrupted druids overrun the caves. Few who venture inside return with viable specimens. At the Pools of Vision beneath Thunder Bluff, Apothecary Zamah gathers Serpentbloom for the Royal Apothecary Society in Undercity. The Forsaken seek virulent, strange, chemically potent plants across Kalimdor to fuel research for the Dark Lady.\n\nZamah believes a harvest of Serpentbloom in significant quantities could bring valuable breakthroughs in Forsaken alchemy.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_serpentbloom-184f2e1016cb55d9a86d/1-0000.mp3", duration = 63.5820408, start = 0},
+    {file = "Audio/Transport/full_item_serpentbloom-8dbd955bff220d9d2a0a/1-0000.mp3", duration = 55.8236735, start = 0},
   },
 }
 P.transport["item:sethir-s-journal"] = {
-  hash = "3e95b6",
-  fullHash = "3e95b6",
-  text = "Sethir's Journal. On Teldrassil, Sethir's Journal was recovered through stealth. Its pages confirm that corruption from mainland Kalimdor has reached the World Tree.",
+  hash = "4015ce",
+  fullHash = "4015ce",
+  text = "Sethir's Journal. On Teldrassil, Sethir's Journal was recovered through stealth. Its pages show that corruption from mainland Kalimdor has reached the World Tree.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_sethir-s-journal-e4b6528baba40eef5149/1-0000.mp3", duration = 9.71755102, start = 0},
+    {file = "Audio/Transport/full_item_sethir-s-journal-40ba4bac6b3697e5b402/1-0000.mp3", duration = 9.19510204, start = 0},
   },
 }
 P.transport["item:sevren-s-orders"] = {
@@ -4482,27 +4482,27 @@ P.transport["item:sevren-s-orders"] = {
   },
 }
 P.transport["item:shadowhide-pendant"] = {
-  hash = "be2e8c",
-  fullHash = "be2e8c",
-  text = "Shadowhide Pendant. In Redridge, Shadowhide Pendant charms pass among gnolls working with Morganth. Lakeshire accepts ten as proof that its law has been enforced. Shadowhide Pendant charms pass among the Shadowhide warriors, brutes, and spellcasters. Deep in Redridge's hills, the clan has gathered under Lieutenant Fangore and fallen under the sway of Morganth, a rogue wielder of the Arcane. To Lakeshire's townspeople, the crude charms mark an organized threat harassing settlements for an enemy of the Crown. Stormwind law, upheld by Magistrate Solomon, sets death as the sentence for actively aiding a known criminal of the realm. Royal reinforcements are too few, so Bailiff Conacher at Lakeshire Town Hall relies on adventurers to keep the peace. Ten Shadowhide Pendants prove that gnolls obeying Morganth's orders have faced frontier justice.",
+  hash = "d20fba",
+  fullHash = "d20fba",
+  text = "Shadowhide Pendant. In Redridge, Shadowhide Pendant charms mark gnolls serving Morganth. Lakeshire takes ten as proof that its law has been upheld. Shadowhide Pendant charms hang from the Shadowhide warriors, brutes, and spellcasters. Deep in the hills of Redridge, Lieutenant Fangore leads the clan, now under Morganth's sway. Morganth is a rogue wielder of the Arcane. To Lakeshire's townspeople, the crude charms mark an organized threat harassing settlements for an enemy of the Crown. Magistrate Solomon upholds Stormwind law, which sets death as the sentence for actively aiding a known criminal of the realm. Royal reinforcements are too few, so Bailiff Conacher at Lakeshire Town Hall relies on adventurers to keep the peace. Ten Shadowhide Pendants prove that gnolls obeying Morganth's orders have faced frontier justice.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_shadowhide-pendant-c72bbda63aa1a21115e7/1-0000.mp3", duration = 51.9314286, start = 0},
+    {file = "Audio/Transport/full_item_shadowhide-pendant-1079e2e7732815d82976/1-0000.mp3", duration = 53.524898, start = 0},
   },
 }
 P.transport["item:shaman-voodoo-charm"] = {
-  hash = "30a8be",
-  fullHash = "30a8be",
-  text = "Shaman Voodoo Charm. In Ban'ethil Barrow Den, Gnarlpine shamans wield the Shaman Voodoo Charm. Its vile magic can sever a sleeping druid's spirit from the body. The Gnarlpine tribe has fallen into madness and corruption on Teldrassil. Within Ban'ethil Barrow Den, its shamans wield magic beyond ordinary wilderness sorcery. Their voodoo charms let them tear a sleeping druid's consciousness from the mortal realm and trap it in the Emerald Dream. The furbolgs then animate the empty body. Night elf protectors become mindless guardians, killing anyone who enters the barrows.",
+  hash = "ab8848",
+  fullHash = "ab8848",
+  text = "Shaman Voodoo Charm. In Ban'ethil Barrow Den, Gnarlpine shamans wield the Shaman Voodoo Charm. Its magic can sever a sleeping druid's spirit from the body. On Teldrassil, the Gnarlpine tribe has fallen into madness and corruption. In Ban'ethil Barrow Den, its shamans wield magic beyond ordinary wilderness sorcery. Their charms tear a sleeping druid's consciousness from the mortal realm and trap it in the Emerald Dream. The furbolgs then animate the empty body. Night elf protectors become mindless guardians who kill anyone entering the barrows.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_shaman-voodoo-charm-38a0390c8cd2e5e6beec/1-0000.mp3", duration = 36.4146939, start = 0},
+    {file = "Audio/Transport/full_item_shaman-voodoo-charm-aadafb727c63f54b9b34/1-0000.mp3", duration = 33.6457143, start = 0},
   },
 }
 P.transport["item:shard-of-water"] = {
-  hash = "7f8858",
-  fullHash = "7f8858",
-  text = "Shard of Water. Along the Barrens coast, Islen Waterseer receives the Shard of Water from a shaman who has faced corruption. Shamans must understand balance, life, and preservation to master water. In the Call of Water, they travel to corrupted springs, even crossing the sea to blighted Silverpine Forest. After purifying the tainted waters, a shaman receives the Shard of Water. Returning the crystal token to Islen Waterseer on the rocky Barrens shore proves the initiate's worth and provides the final key to forge a Water Totem.",
+  hash = "33e805",
+  fullHash = "33e805",
+  text = "Shard of Water. Along the Barrens coast, Islen Waterseer receives the Shard of Water from a shaman who has faced corruption. To master water, a shaman must understand balance, life, and preservation. During the Call of Water, you travel to corrupted springs, crossing the sea to blighted Silverpine Forest. There, you purify the tainted waters and receive the Shard of Water. Then you return the crystal token to Islen Waterseer on the rocky Barrens shore. It proves your worth and provides the final key to forge a Water Totem.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_shard-of-water-9783fe75e394539538c7/1-0000.mp3", duration = 34.4816327, start = 0},
+    {file = "Audio/Transport/full_item_shard-of-water-8eff359cb3ad88f55ee7/1-0000.mp3", duration = 32.0261224, start = 0},
   },
 }
 P.transport["item:shaw-s-report"] = {
@@ -4514,11 +4514,11 @@ P.transport["item:shaw-s-report"] = {
   },
 }
 P.transport["item:shimmering-frond"] = {
-  hash = "f90dd9",
-  fullHash = "f90dd9",
-  text = "Shimmering Frond. In the Oracle Glade, a strange plant casts a twisting, shimmering aura. Its fronds come from a species native to the Swamp of Sorrows, far across the Great Sea. A radiant plant grows among the trees near the Oracle Glade. Its aura pulses, and its fronds shimmer in the woodland light. Denalan, who tends planters beside Lake Al'Ameth, recognizes the leaves as belonging to a species from the Swamp of Sorrows in the Eastern Kingdoms. How seeds from that distant marsh crossed the Great Sea and took root on Teldrassil remains a mystery. Denalan is growing specimens in his own soil to study them.",
+  hash = "7c0545",
+  fullHash = "7c0545",
+  text = "Shimmering Frond. In the Oracle Glade, a plant from beyond the Great Sea casts a twisting, shimmering aura. Its fronds belong to a species native to the Swamp of Sorrows. Near the Oracle Glade, a radiant plant grows among the trees. Its aura pulses, and its fronds shimmer in the woodland light. Denalan tends planters beside Lake Al'Ameth. He recognizes the leaves as a species from the Swamp of Sorrows in the Eastern Kingdoms. How seeds from that distant marsh crossed the Great Sea and took root on Teldrassil remains a mystery. Denalan is growing specimens in his own soil to study them.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_shimmering-frond-9a59eff2543e8b635d51/1-0000.mp3", duration = 39.444898, start = 0},
+    {file = "Audio/Transport/full_item_shimmering-frond-5c99db37e78ff9f7cd14/1-0000.mp3", duration = 37.1983673, start = 0},
   },
 }
 P.transport["item:shimmerweed"] = {
@@ -4530,27 +4530,27 @@ P.transport["item:shimmerweed"] = {
   },
 }
 P.transport["item:shindrell-s-note"] = {
-  hash = "f4ff7c",
-  fullHash = "f4ff7c",
-  text = "Shindrell's Note. In Astranaar, Shindrell Swiftfire writes a missive about corruption near the town and along Ashenvale's coast. She sends the intelligence report east through the forest to Kayneth Stillwind. Sentinels and druids coordinate to watch Ashenvale's borders as unrest spreads through the forest. In Astranaar, Sentinel Shindrell Swiftfire writes of troubling disturbances along the western coast and among the central canopies. She addresses her report to Kayneth Stillwind, a druid at the shrine of Forest Song in the Nightsong Woods to the east. Couriers carry Shindrell's firsthand observations to aid Kayneth's investigation of corruption creeping through the sacred groves.",
+  hash = "6c5a7a",
+  fullHash = "6c5a7a",
+  text = "Shindrell's Note. In Astranaar, Shindrell Swiftfire sends word of corruption near town and along Ashenvale's coast. Her report travels east through the forest to Kayneth Stillwind. Sentinels and druids watch Ashenvale's borders together as unrest spreads through the forest. From Astranaar, Sentinel Shindrell Swiftfire reports troubling disturbances along the western coast and among the central canopies.\n\nHer report is addressed to Kayneth Stillwind, a druid at the shrine of Forest Song in the Nightsong Woods to the east. Couriers carry Shindrell's firsthand observations to aid his search for corruption in the sacred groves.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_shindrell-s-note-3f9ce4d5420f364ef3a6/1-0000.mp3", duration = 39.9412245, start = 0},
+    {file = "Audio/Transport/full_item_shindrell-s-note-ff67da32425b864c22d9/1-0000.mp3", duration = 38.8179592, start = 0},
   },
 }
 P.transport["item:shipment-of-boots"] = {
-  hash = "c19d2d",
-  fullHash = "c19d2d",
-  text = "Shipment of Boots. Off the Barrens coast, Shipment of Boots lies in a Southsea encampment south of Ratchet. Drizzlik sent the crate from Booty Bay for Gazlowe's trade network, but the pirates seized it before it reached port. Gazlowe arranged for Drizzlik, a clothing merchant in Booty Bay, to send boots to Ratchet. Southsea Freebooters patrolling the Merchant Coast ambushed the ship and carried the crates to their beach encampments south of the harbor. They scattered the stolen goods among their tents and shanties, and the shipment remains there, far from Ratchet's docks.",
+  hash = "b5980d",
+  fullHash = "b5980d",
+  text = "Shipment of Boots. Along the Barrens coast, the Shipment of Boots remains in a Southsea encampment south of Ratchet. Drizzlik sent the crate from Booty Bay for Gazlowe's trade network, but pirates seized it before it reached port. Gazlowe arranged for Drizzlik, a clothing merchant in Booty Bay, to send boots to Ratchet. Southsea Freebooters ambushed the ship while patrolling the Merchant Coast. They carried the crates to beach encampments south of the harbor and scattered the stolen goods among their tents and shanties. The shipment remains there, far from Ratchet's docks.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_shipment-of-boots-fccfed1755abdb09c252/1-0000.mp3", duration = 33.28, start = 0},
+    {file = "Audio/Transport/full_item_shipment-of-boots-bf4a78cd2772ae0f9e71/1-0000.mp3", duration = 33.3061224, start = 0},
   },
 }
 P.transport["item:shipment-of-iron"] = {
-  hash = "e77ecf",
-  fullHash = "e77ecf",
-  text = "Shipment of Iron. In Hillsbrad Fields, a crate of raw iron waits at the human smithy. The metal feeds local arms production, making the shipment a target for Forsaken forces seeking to cut the supply lines that arm the townsfolk. Across the Hillsbrad Foothills, human peasants have mounted stiff resistance against Tarren Mill. Much of their strength comes from the smithy at the southwestern edge of Hillsbrad Fields, where Blacksmith Verringtan and his apprentices work round the clock, making weapons and armor from heavy shipments of iron. Forsaken commanders ordered the forge put out, its smiths killed, and its stored metal seized for the Horde war effort, hoping to break the farmers’ resolve.",
+  hash = "ab02ce",
+  fullHash = "ab02ce",
+  text = "Shipment of Iron. In Hillsbrad Fields, raw iron waits at the human smithy, where it arms the townsfolk against the Forsaken. Human peasants across the Hillsbrad Foothills resist Tarren Mill. Much of their strength comes from the smithy at the southwestern edge of Hillsbrad Fields. Blacksmith Verringtan and his apprentices turn heavy shipments of iron into weapons and armor, working round the clock.\n\nForsaken commanders have ordered the forge put out, its smiths killed, and its stored metal seized for the Horde war effort. They hope to break the farmers’ resolve.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_shipment-of-iron-7d16284ac64d312f9973/1-0000.mp3", duration = 43.284898, start = 0},
+    {file = "Audio/Transport/full_item_shipment-of-iron-53614e21c7df6511ee02/1-0000.mp3", duration = 35.9706122, start = 0},
   },
 }
 P.transport["item:shipping-schedule"] = {
@@ -4562,51 +4562,51 @@ P.transport["item:shipping-schedule"] = {
   },
 }
 P.transport["item:sida-s-bag"] = {
-  hash = "196626",
-  fullHash = "196626",
-  text = "Sida's Bag. In the Wetlands, Sida's Bag lies swallowed in an ooze near Ironbeard's Tomb. Sida, a resident of Menethil Harbor, fled after throwing her satchel at one of the slimes during her weekly visit; the bag and its contents must be recovered from the acidic creatures. Sida visits Ironbeard's Tomb near Dun Modr each week. Dreadful, dripping oozes ambushed her there, and panic drove her to fling her satchel at one of them. The ooze absorbed the bag into its body. The distraction gave Sida time to escape alive and return to Menethil Harbor, while her possessions remained trapped inside an unknown slime. The oozes around Ironbeard's Tomb range from crimson to monstrous, and look much alike. Sida's Bag can be found by cutting down the marsh slimes until the swallowed satchel emerges intact. Acidic muck has soaked the durable sack, but its contents remain preserved. Sida reclaims her belongings, then discards the ruined, slime-coated exterior and offers the washed-out container to whoever braved the marsh on her behalf.",
+  hash = "09546a",
+  fullHash = "09546a",
+  text = "Sida's Bag. Near Ironbeard's Tomb, Sida's Bag lies swallowed by an ooze. Sida fled to Menethil Harbor after throwing her satchel at one of the slimes during her weekly visit. Now the acidic creatures must be searched for her belongings. Each week, Sida visits Ironbeard's Tomb near Dun Modr. Dreadful, dripping oozes ambushed her there, and panic made her hurl her satchel at one. The ooze swallowed the bag. That gave Sida time to escape alive and return to Menethil Harbor, while her possessions stayed trapped inside an unknown slime. The oozes around Ironbeard's Tomb range from crimson to monstrous, and look much alike. Cut down the marsh slimes until Sida's Bag emerges intact. Acidic muck soaked the durable sack, but its contents remain preserved. Sida reclaims her belongings, then discards the ruined, slime-coated exterior and offers the washed-out container to whoever braved the marsh for her.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_sida-s-bag-e02a71c78fb394cdfa81/1-0000.mp3", duration = 65.7502041, start = 0},
+    {file = "Audio/Transport/full_item_sida-s-bag-bea1c44ef7d2d773e2ad/1-0000.mp3", duration = 57.8089796, start = 0},
   },
 }
 P.transport["item:signed-recruitment-letter"] = {
-  hash = "396341",
-  fullHash = "396341",
-  text = "Signed Recruitment Letter. Kargal Battlescar sends the Signed Recruitment Letter west from the Far Watch Post. His mark directs new recruits to report for duty at the Crossroads. At the Far Watch Post, Kargal Battlescar prepares recruits for service in the Barrens. The post stands east of the Southfury River, where newcomers cross from Durotar. When a conscript proves ready to Kargal, he stamps and signs a letter of introduction. The orders send recruits west along the road to the Crossroads. There, Sergra Darkthorn coordinates supplies and the defense of the dry plains. Kargal's orders carry his personal contempt for the officer who awaits the recruit. He calls Sergra Darkthorn an abrasive shaman who talks in circles around soldiers. Kargal openly questions Warchief Thrall's high opinion of her. Even so, the dispatch must reach Sergra's hands before any further assignments at the Crossroads are granted.",
+  hash = "317cb6",
+  fullHash = "317cb6",
+  text = "Signed Recruitment Letter. From the Far Watch Post, Kargal Battlescar sends a signed letter west with recruits ready for duty. It directs them to report to Sergra Darkthorn at the Crossroads. At the Far Watch Post, Kargal Battlescar prepares recruits for service in the Barrens. The post lies east of the Southfury River, where newcomers cross from Durotar. When a conscript proves ready, Kargal stamps and signs a letter of introduction. Its orders send recruits west along the road to the Crossroads, where Sergra Darkthorn coordinates supplies and the defense of the dry plains. Kargal's orders carry his contempt for the officer awaiting the recruit. He calls Sergra Darkthorn an abrasive shaman who talks in circles around soldiers. Kargal openly questions Warchief Thrall's high opinion of her. Even so, the dispatch must reach Sergra before any further assignments at the Crossroads are granted.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_signed-recruitment-letter-32ec330d9c25fc8b49cf/1-0000.mp3", duration = 53.3681633, start = 0},
+    {file = "Audio/Transport/full_item_signed-recruitment-letter-cdbb8a6ba78e115b396f/1-0000.mp3", duration = 54.0734694, start = 0},
   },
 }
 P.transport["item:silithid-egg-the-barrens"] = {
-  hash = "844177",
-  fullHash = "844177",
-  text = "Silithid Egg (The Barrens). Across the Field of Giants, silithid eggs lie buried beneath the soil. Horde researchers gather them to learn about the swarm spreading through the southern Barrens. Silithid mounds rise from the Field of Giants as strange insect-like creatures churn the earth. Their eggs lie beneath the hardened soil, guarded by territorial silithid. The Horde knows little about these creatures, but scouts at the Crossroads have seen signs of coordination and intelligence beyond that of ordinary wild beasts. Unhatched eggs may help scholars in Orgrimmar learn about the silithid’s life cycle and nature. Silithid eggs must be dug from the mounds with an adapted digging claw. The creatures defend their underground nurseries fiercely, swarming anyone who threatens their unhatched young. Korran, a troll researcher, needs intact specimens for study before the swarm spreads farther across Kalimdor.",
+  hash = "6b7bf5",
+  fullHash = "6b7bf5",
+  text = "Silithid Egg (The Barrens). Across the Field of Giants, Silithid Egg lie buried beneath the soil. Horde researchers gather the eggs to learn about the swarm spreading through the southern Barrens. Silithid mounds rise across the Field of Giants as strange insect-like creatures churn the earth. Their eggs lie beneath hardened soil, guarded by territorial silithid. The Horde knows little of them, yet scouts at the Crossroads have seen signs of coordination and intelligence beyond ordinary wild beasts. Unhatched eggs may help scholars in Orgrimmar learn about the silithid’s life cycle and nature. An adapted digging claw is needed to pry Silithid Eggs from the mounds. The creatures defend their underground nurseries fiercely and swarm anyone who threatens their unhatched young. Korran, a troll researcher, needs intact specimens for study before the swarm spreads farther across Kalimdor.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_silithid-egg-the-barrens-9bdaef044b6376a0af90/1-0000.mp3", duration = 57.1297959, start = 0},
+    {file = "Audio/Transport/full_item_silithid-egg-the-barrens-534961d9c43d3a1ad268/1-0000.mp3", duration = 52.8195918, start = 0},
   },
 }
 P.transport["item:silixiz-s-tower-key"] = {
-  hash = "dfba90",
-  fullHash = "dfba90",
-  text = "Silixiz's Tower Key. Foreman Silixiz carries the key to the Venture Company tower near the Sludge Fen. Shattered Hand operatives must take it from his pocket as part of an undercover sabotage assignment. North of the Sludge Fen, the Venture Company keeps its tower under tight security. Grand Foreman Puzik Gallywix oversees the isolated lookout, while goblin mercenaries patrol the compound. Outside, Foreman Silixiz carries the tower key. A Shattered Hand operative from Orgrimmar must steal it and keep it. Force will not do: the operative must enter unseen and pick Silixiz's pocket, proving their stealth before climbing into the tower's toxic upper levels.",
+  hash = "25a4a7",
+  fullHash = "25a4a7",
+  text = "Silixiz's Tower Key. At the Venture Company tower near the Sludge Fen, Silixiz's Tower Key is in Foreman Silixiz's pocket. A Shattered Hand operative must steal it unseen as part of an undercover sabotage assignment. North of the Sludge Fen, the Venture Company guards its tower closely. Grand Foreman Puzik Gallywix oversees the isolated lookout, while goblin mercenaries patrol the compound. Foreman Silixiz carries the tower key outside.\n\nA Shattered Hand operative from Orgrimmar must steal the key and keep it. Force will not do. The operative must enter unseen and pick Silixiz's pocket, proving their stealth before climbing into the tower's toxic upper levels.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_silixiz-s-tower-key-186eeacc373197644bae/1-0000.mp3", duration = 39.0530612, start = 0},
+    {file = "Audio/Transport/full_item_silixiz-s-tower-key-b6ed8f178784c6a3d353/1-0000.mp3", duration = 42.8146939, start = 0},
   },
 }
 P.transport["item:silver-dawning-s-lockbox"] = {
-  hash = "feeab3",
-  fullHash = "feeab3",
-  text = "Silver Dawning's Lockbox. Off the Darkshore coast, Silver Dawning's Lockbox lies in the wreck of a ship lost to coastal murlocs. Inside are the fallen captain's personal effects and ship log. The Silver Dawning sailed across the sea toward Auberdine when coastal murlocs attacked. They drove the ship beneath the waves north of the harbor, and the captain died in the assault. The flooded hull still holds the captain's personal lockbox, with the ship's log and private belongings inside. Recovering them could bring a final measure of peace to the surviving crew ashore.",
+  hash = "cdf689",
+  fullHash = "cdf689",
+  text = "Silver Dawning's Lockbox. Off the Darkshore coast, Silver Dawning's Lockbox lies in a wreck north of Auberdine. Coastal murlocs sank the ship, and the box holds its captain's personal effects and ship log. The Silver Dawning was sailing toward Auberdine when coastal murlocs attacked. They drove the ship beneath the waves north of the harbor, and the captain died in the assault. The flooded hull still holds the captain's lockbox, with the ship's log and private belongings inside. Recovering them may bring some peace to the surviving crew ashore.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_silver-dawning-s-lockbox-9baa0a99d4f7dd862b05/1-0000.mp3", duration = 33.9330612, start = 0},
+    {file = "Audio/Transport/full_item_silver-dawning-s-lockbox-49a605b1ab8ec07c5481/1-0000.mp3", duration = 32.9665306, start = 0},
   },
 }
 P.transport["item:silvery-spinnerets"] = {
-  hash = "429816",
-  fullHash = "429816",
-  text = "Silvery Spinnerets. Near Wellspring Lake, Silvery Spinnerets are harvested from Lady Sathrah in northern Teldrassil. Her silver webs once gathered healing evening dew for the Temple of the Moon. The Sisterhood of Elune seeks the spinnerets for a sacred rite honoring her soul. Lady Sathrah once spun shimmering webs by moonlight near Wellspring Lake. Her silver silk gathered evening mist into healing dew prized by the Sisterhood of Elune in Darnassus. But corruption reached her in Teldrassil, driving her into violent madness. Sathrah threatened her brood and the surrounding forest. Priestess A'moora asks travelers to end her suffering and recover her spinnerets, bringing mercy to a once-revered creature of the great boughs.",
+  hash = "928159",
+  fullHash = "928159",
+  text = "Silvery Spinnerets. Near Wellspring Lake, Silvery Spinnerets are sought for a rite honoring Lady Sathrah. Her silver webs once gathered healing evening dew for the Sisterhood of Elune in Darnassus. By moonlight near Wellspring Lake, Lady Sathrah spun shimmering webs. Her silver silk gathered evening mist into healing dew, prized by the Sisterhood of Elune in Darnassus.\n\nThen corruption reached her in Teldrassil and drove her into violent madness. Sathrah threatened her brood and the surrounding forest. Priestess A'moora asks travelers to end her suffering and recover her spinnerets, showing mercy to a once-revered creature of the great boughs.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_silvery-spinnerets-81cf11f8d69d67c10056/1-0000.mp3", duration = 44.4081633, start = 0},
+    {file = "Audio/Transport/full_item_silvery-spinnerets-3a4d33b21ab9ca0ead15/1-0000.mp3", duration = 40.5159184, start = 0},
   },
 }
 P.transport["item:simple-memorandum"] = {
@@ -4626,43 +4626,43 @@ P.transport["item:simple-rune"] = {
   },
 }
 P.transport["item:simple-sigil"] = {
-  hash = "d06a9f",
-  fullHash = "d06a9f",
-  text = "Simple Sigil. In Shadowglen, a Simple Sigil calls novice night elf warriors to training with Alyissia. It marks their first step into Teldrassil’s defense. In Shadowglen, Conservator Ilthalaine guides young night elves as they seek their calling. A runner brings a Simple Sigil from the warrior trainer Alyissia, and Ilthalaine gives it to fledgling warriors. Its inscription tells each recruit to report for instruction. The token marks the start of their martial training as troubling times come to the World Tree. Alyissia uses the sigil to speak with recruits about the kaldorei’s pressing needs. Teldrassil’s recent growth, corruption spreading among forest beasts, and the rediscovery of distant lands such as Feralas have stretched night elven protectors thin. The sigil holds no power. It welcomes a recruit among the guardians charged with shielding their people from emerging threats.",
+  hash = "8c1e61",
+  fullHash = "8c1e61",
+  text = "Simple Sigil. In Shadowglen, a Simple Sigil calls novice night elf warriors to train with Alyissia. It marks their first step in Teldrassil’s defense. In Shadowglen, Conservator Ilthalaine guides young night elves as they seek their calling. A runner brings a Simple Sigil from Alyissia, the warrior trainer. Ilthalaine gives it to fledgling warriors, and its inscription directs each recruit to report for instruction. Their martial training begins as troubling times come to the World Tree. Alyissia uses the sigil to tell recruits what the kaldorei need. Teldrassil has grown recently, corruption is spreading among forest beasts, and the rediscovery of distant lands such as Feralas has stretched night elven protectors thin. The sigil holds no power. It welcomes each recruit among the guardians charged with shielding their people from emerging threats.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_simple-sigil-f9fc8596ddba5e9153a8/1-0000.mp3", duration = 53.2897959, start = 0},
+    {file = "Audio/Transport/full_item_simple-sigil-4aa47e443e2f5cb29932/1-0000.mp3", duration = 52.6628571, start = 0},
   },
 }
 P.transport["item:simple-tablet"] = {
-  hash = "cba972",
-  fullHash = "cba972",
-  text = "Simple Tablet. At the Valley of Trials, Gornek gives new troll warriors a message to take to Frang. Gornek gives new troll warriors a message from Tar'sere, addressed to Frang, the warrior trainer near the Den. It introduces the recruit to combat training in Durotar and asks them to present themselves to Frang. The message calls on them to take up weapons for the Horde.",
+  hash = "c85968",
+  fullHash = "c85968",
+  text = "Simple Tablet. At the Valley of Trials, Gornek gives new troll warriors a message to carry to Frang. Gornek gives new troll warriors a message from Tar'sere, addressed to Frang, the warrior trainer near the Den. It introduces the recruit to combat training in Durotar and asks them to present themselves to Frang. The message calls them to take up weapons for the Horde.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_simple-tablet-5ee19ae184bcb2a86b6e/1-0000.mp3", duration = 21.3159184, start = 0},
+    {file = "Audio/Transport/full_item_simple-tablet-26628fd6a10380e5a721/1-0000.mp3", duration = 22.517551, start = 0},
   },
 }
 P.transport["item:singed-scale"] = {
-  hash = "74b25f",
-  fullHash = "74b25f",
-  text = "Singed Scale. In Durotar, Singed Scale comes from the charred plates of electrified thunder lizards. Horde warriors bring the scales to prove their endurance and learn defensive combat. Horde veterans judge a warrior by the blows they can bear while shielding allies. In Thunder Ridge, a canyon in western Durotar, lightning hides and thunder lizards crackle with storm energy. Hunting these beasts means enduring relentless electrical shocks and crushing blows. Their blackened scales show that a fighter can withstand punishing assaults and hold firm under pressure. At the Far Watch Post, on the border between Durotar and the Barrens, the veteran warrior Uzzek asks initiates for five scales before teaching them. He believes they need physical toughness before they can learn stances and tactical defense. Bringing the scales proves they have the fortitude to join thick hide, heavy armor, and careful footwork into a firm defense against the Horde’s enemies.",
+  hash = "5a3fc5",
+  fullHash = "5a3fc5",
+  text = "Singed Scale. In Durotar, warriors bring Singed Scale from the charred plates of electrified thunder lizards to prove their endurance and learn defense. Horde veterans judge a warrior by the blows they endure while shielding allies. Thunder Ridge is a canyon in western Durotar, where lightning hides and thunder lizards crackle with storm energy. Hunting them means bearing relentless electrical shocks and crushing blows. Their blackened scales show a fighter can withstand punishing assaults and hold firm under pressure. At the Far Watch Post on the border between Durotar and the Barrens, veteran warrior Uzzek asks initiates for five scales before teaching them. He believes they need physical toughness before they can learn stances and tactical defense. Bringing the scales proves they have the fortitude to combine thick hide, heavy armor, and careful footwork into a firm defense against the Horde’s enemies.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_singed-scale-7abdcb653f69274503cf/1-0000.mp3", duration = 55.9542857, start = 0},
+    {file = "Audio/Transport/full_item_singed-scale-463fe61dd6910bcebc55/1-0000.mp3", duration = 53.3159184, start = 0},
   },
 }
 P.transport["item:skeleton-finger"] = {
-  hash = "55b269",
-  fullHash = "55b269",
-  text = "Skeleton Finger. In Duskwood, Skeleton Finger is gathered from the restless dead. Madame Eva of Darkshire collects these remains with ghoul fangs and spider venom to make protective talismans. The dead rise throughout Duskwood, from skeletal raiders and warriors to necrotic mages and fiends. Most travelers leave their foul remains untouched, but fortune tellers and mystics prize their cold essence. Madame Eva, the seer of Darkshire, gathers the bony fingers to bind their lingering necrotic energies into the Totem of Infliction, a ward that strikes back at attackers.",
+  hash = "1f37b7",
+  fullHash = "1f37b7",
+  text = "Skeleton Finger. In Duskwood, restless dead yield Skeleton Finger to Madame Eva of Darkshire. She gathers them with ghoul fangs and spider venom to make protective talismans. Skeletal raiders and warriors rise across Duskwood, along with necrotic mages and fiends. Most travelers leave their foul remains alone, but fortune tellers and mystics prize their cold essence. Madame Eva, the seer of Darkshire, gathers their bony fingers for the Totem of Infliction. She binds their lingering necrotic energies into a ward that strikes back at attackers.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_skeleton-finger-78bac4c3d0101a68ba2a/1-0000.mp3", duration = 36.3363265, start = 0},
+    {file = "Audio/Transport/full_item_skeleton-finger-8209fd6e387886218c5c/1-0000.mp3", duration = 33.3061224, start = 0},
   },
 }
 P.transport["item:skin-of-sweet-rum"] = {
-  hash = "c4041a",
-  fullHash = "c4041a",
-  text = "Skin of Sweet Rum. At the Lion's Pride Inn in Goldshire, Skin of Sweet Rum is bound for Lakeshire, where war has thinned the tavern's stores. Lakeshire's tavern supplies are running low as the Blackrock orc invasion cuts off the roads into the Redridge Mountains. Barkeep Daniels needs drink for the town guards and refugees, so he sends travelers to gather regional specialties. Among them is a waterskin of sweet rum from the Lion's Pride Inn in Goldshire.",
+  hash = "3d2b54",
+  fullHash = "3d2b54",
+  text = "Skin of Sweet Rum. At the Lion's Pride Inn in Goldshire, Skin of Sweet Rum is headed for Lakeshire, where war has thinned the tavern's stores. Lakeshire's tavern is running short of drink as the Blackrock orc invasion closes the roads into the Redridge Mountains. Barkeep Daniels needs drink for the town guards and refugees. So he sends travelers to gather regional specialties, including a waterskin of sweet rum from the Lion's Pride Inn in Goldshire.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_skin-of-sweet-rum-9b25fecc2f104facbde7/1-0000.mp3", duration = 28.4212245, start = 0},
+    {file = "Audio/Transport/full_item_skin-of-sweet-rum-0f4ede466a1b5aed783f/1-0000.mp3", duration = 27.7681633, start = 0},
   },
 }
 P.transport["item:skittering-blood"] = {
@@ -4674,83 +4674,83 @@ P.transport["item:skittering-blood"] = {
   },
 }
 P.transport["item:sleepers-key"] = {
-  hash = "1d3bfe",
-  fullHash = "1d3bfe",
-  text = "Sleepers' Key. At Stonetalon Peak, Sleepers' Key helps guard a sacred druidic vault. Night elf druids made it one of three enchanted keys for the Talon Den Hoard. The Talon Den rises on Stonetalon Peak as a redoubt and sanctum for the druids of Kalimdor. To guard sacred relics and potent treasures from unwanted attention, night elf keepers built a system of locks and hidden caches. Sleepers' Key is one of three keys that together form a protective ward. The key lies in a secluded cache deep in the den, opened with the Gatekeeper's Key hidden near the threshold. The Claw Key and the Barrow Key complete the set. Set all three into the Talon Den Hoard's stone locks, and the ward fades, revealing the ancient items within.",
+  hash = "33717e",
+  fullHash = "33717e",
+  text = "Sleepers' Key. At Stonetalon Peak, Sleepers' Key helps protect a sacred druidic vault. Night elf druids made it one of three enchanted keys for the Talon Den Hoard. The Talon Den is a redoubt and sanctum for the druids of Kalimdor on Stonetalon Peak. Night elf keepers built locks and hidden caches to guard sacred relics and potent treasures from unwanted attention. Sleepers' Key is one of three keys that form a protective ward.\n\nSleepers' Key rests in a secluded cache deep in the den. The Gatekeeper's Key, hidden near the threshold, opens that cache. The Claw Key and the Barrow Key complete the set. Set all three keys into the Talon Den Hoard's stone locks, and the ward fades. Ancient items lie within.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_sleepers-key-8e2ff98a8916100edd70/1-0000.mp3", duration = 46.0277551, start = 0},
+    {file = "Audio/Transport/full_item_sleepers-key-a4c3b08333dd47f182f6/1-0000.mp3", duration = 44.2253061, start = 0},
   },
 }
 P.transport["item:smoky-iron-ingot"] = {
-  hash = "9eadff",
-  fullHash = "9eadff",
-  text = "Smoky Iron Ingot. At the Windshear dig sites, kobolds smelt Smoky Iron Ingots from ore they pull from the Stonetalon Mountains. Orcish armorers prize the bars as raw material for sturdy mail gear for Horde warriors. Kobolds smelt Smoky Iron Ingots in the Windshear Crag tunnels of the Stonetalon Mountains. They dig ore from the rocky slopes and heat it over crude, smoking fires. Residue and charcoal cling to the bars, but the metal remains dense and strong. Thun'grim Firegaze, a near-blind orc armorer, works from a rugged camp overlooking the Barrens. He asks for these ingots to make armor for proven Horde warriors. Alongside refined iron bars, powdered azurite, and volatile phlogiston, the smoky metal forms a resilient core for Brutal Hauberks.",
+  hash = "3a0ba8",
+  fullHash = "3a0ba8",
+  text = "Smoky Iron Ingot. At Windshear, kobolds smelt Smoky Iron Ingots from ore dug in the Stonetalon Mountains. Orcish armorers prize the bars for sturdy mail gear made for Horde warriors. Kobolds smelt Smoky Iron Ingots in the Windshear Crag tunnels of the Stonetalon Mountains. They dig ore from the rocky slopes and heat it over crude, smoking fires. Residue and charcoal cling to the bars, yet the metal stays dense and strong. Thun'grim Firegaze is a near-blind orc armorer at a rugged camp overlooking the Barrens. He asks for these ingots to make armor for proven Horde warriors. With refined iron bars, powdered azurite, and volatile phlogiston, the smoky metal forms a resilient core for Brutal Hauberks.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_smoky-iron-ingot-89f8386a8be1d66e37ae/1-0000.mp3", duration = 48.9012245, start = 0},
+    {file = "Audio/Transport/full_item_smoky-iron-ingot-72d5e193d8c641fec579/1-0000.mp3", duration = 47.2816327, start = 0},
   },
 }
 P.transport["item:smoldering-embers"] = {
-  hash = "f324a7",
-  fullHash = "f324a7",
-  text = "Smoldering Embers. In the Charred Vale, Smoldering Embers remain after fire elementals are extinguished. Night elf Sentinels gather them as proof that the fires are being subdued. Venture Company logging and industry set the Charred Vale ablaze and stirred destructive forces from deep within the earth. Burning Ravagers, Burning Destroyers, and Rogue Flame Spirits then swept across the scorched basin. When an elemental is extinguished, its ash-covered core remains as a Smoldering Ember. These cinders show that the fires overrunning the vale are being brought under control.",
+  hash = "78cac3",
+  fullHash = "78cac3",
+  text = "Smoldering Embers. In the Charred Vale, Smoldering Embers remain when fire elementals are extinguished. Night elf Sentinels gather them as proof that the fires are being subdued. Venture Company logging and industry set the Charred Vale ablaze. Their work stirred destructive forces from deep within the earth. Burning Ravagers, Burning Destroyers, and Rogue Flame Spirits swept across the scorched basin. When a fire elemental is extinguished, an ash-covered core remains. That cinder is a Smoldering Ember, proof that the fires overrunning the vale are being brought under control.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_smoldering-embers-6e284c8628aff80a02f6/1-0000.mp3", duration = 33.8546939, start = 0},
+    {file = "Audio/Transport/full_item_smoldering-embers-baee98da7bcf3a304841/1-0000.mp3", duration = 35.8922449, start = 0},
   },
 }
 P.transport["item:snellig-s-snuffbox"] = {
-  hash = "07bb42",
-  fullHash = "07bb42",
-  text = "Snellig's Snuffbox. At the Lost Fleet, Snellig's Snuffbox remains with its undead owner among the wrecks. First Mate Fitzsimmons in Menethil Harbor wants it as proof his cursed crewmate has been put to rest. First Mate Snellig still clutches his snuffbox in a wreck off the northern Wetlands. When the Third Fleet of Kul Tiras ran aground there, its sailors and officers drowned beneath a mysterious power tied to a hidden treasure aboard the ships. Bound by that power, the drowned crew rose again as tortured spirits and skeletal undead. Snellig haunts the rotting hold of the wreck closest to the coastline. His snuffbox is a small, ordinary reminder of his mortal life at sea. First Mate Fitzsimmons, the disaster's sole living survivor, wants this possession returned as proof that at least one lost shipmate has found release from torment.",
+  hash = "d80ef4",
+  fullHash = "d80ef4",
+  text = "Snellig's Snuffbox. At the Lost Fleet, Snellig's Snuffbox stays with its undead owner among the wrecks. First Mate Fitzsimmons in Menethil Harbor wants it as proof that his cursed crewmate has found rest. First Mate Snellig still clutches his snuffbox in a wreck off the northern Wetlands. The Third Fleet of Kul Tiras ran aground there, and its sailors and officers drowned beneath a mysterious power tied to a hidden treasure aboard the ships. Bound to that power, the drowned crew rose again as tortured spirits and skeletal undead.\n\nSnellig haunts the rotting hold of the wreck closest to the coastline. His snuffbox is an ordinary keepsake from his mortal life at sea. First Mate Fitzsimmons, the disaster's sole living survivor, wants it returned as proof that at least one lost shipmate has found release from torment.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_snellig-s-snuffbox-ebe25260f4e345b54f4b/1-0000.mp3", duration = 51.9314286, start = 0},
+    {file = "Audio/Transport/full_item_snellig-s-snuffbox-e4b5666ef276fa7f0c24/1-0000.mp3", duration = 52.2710204, start = 0},
   },
 }
 P.transport["item:snufflenose-command-stick"] = {
-  hash = "ddcecd",
-  fullHash = "ddcecd",
-  text = "Snufflenose Command Stick. In Ratchet, Mebok Mizzyrix sends trained gophers after blueleaf tubers in Razorfen Kraul. Mebok Mizzyrix has trained snufflenose gophers to find blueleaf tubers deep in Razorfen Kraul. The roots lie hidden beneath the thorny tunnels, where finding them is nearly impossible without help. Mebok, a merchant in Ratchet, avoids entering the quilboar dens himself. He gives adventurers the Snufflenose Command Stick to direct the gophers. From up to fifty paces away, the stick guides them to sniff out and uncover the roots.",
+  hash = "b89a81",
+  fullHash = "b89a81",
+  text = "Snufflenose Command Stick. In Ratchet, Mebok Mizzyrix sends trained gophers into Razorfen Kraul to find blueleaf tubers. Mebok Mizzyrix has trained snufflenose gophers to seek blueleaf tubers deep in Razorfen Kraul. The roots hide beneath thorny tunnels, where finding them is nearly impossible without help. Mebok is a merchant in Ratchet, and he avoids entering the quilboar dens himself. So he gives adventurers the Snufflenose Command Stick to guide the gophers. From as far as fifty paces, the stick directs them to sniff out and uncover the roots.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_snufflenose-command-stick-f44edc2ad409d45fe0e3/1-0000.mp3", duration = 34.4032653, start = 0},
+    {file = "Audio/Transport/full_item_snufflenose-command-stick-4a421098275535d837dc/1-0000.mp3", duration = 32.7314286, start = 0},
   },
 }
 P.transport["item:snufflenose-owner-s-manual"] = {
-  hash = "55ddf0",
-  fullHash = "55ddf0",
-  text = "Snufflenose Owner's Manual. In Ratchet, Mebok Mizzyrix keeps Snufflenose Owner's Manual beside him. Marwig Rustbolt of Snuff Inc. wrote the booklet to explain how to send a trained Snufflenose Gopher after Blueleaf Tubers in Razorfen Kraul. Marwig Rustbolt, owner of Snuff Inc., wrote a guide to handling the company's trained snufflenose gophers. Their keen noses can detect Blueleaf Tubers buried underground from fifty paces away. The manual explains how to release a gopher from a ventilated crate and guide its rooting with a command stick. Prospectors direct it through Razorfen Kraul's thorns and quilboar tunnels to find the tubers.",
+  hash = "61d7d9",
+  fullHash = "61d7d9",
+  text = "Snufflenose Owner's Manual. Beside Mebok Mizzyrix in Ratchet, Snufflenose Owner's Manual shows how to send a trained gopher after Blueleaf Tubers in Razorfen Kraul. Marwig Rustbolt of Snuff Inc. wrote it for that purpose. Marwig Rustbolt of Snuff Inc. wrote the guide for handling the company's trained snufflenose gophers. Their keen noses can find Blueleaf Tubers buried underground from fifty paces away. The manual shows how to release a gopher from a ventilated crate and guide its rooting with a command stick. Prospectors lead it through Razorfen Kraul's thorns and quilboar tunnels in search of tubers.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_snufflenose-owner-s-manual-1e5dceed4bd3ece86adc/1-0000.mp3", duration = 37.9297959, start = 0},
+    {file = "Audio/Transport/full_item_snufflenose-owner-s-manual-cc482a8cc4bdf4b12ebb/1-0000.mp3", duration = 36.4669388, start = 0},
   },
 }
 P.transport["item:sodium-nitrate"] = {
-  hash = "44c3a7",
-  fullHash = "44c3a7",
-  text = "Sodium Nitrate. At Bael Modan, Sodium Nitrate helps the dwarves blast through the southern Barrens’ stone. Gann Stonespire seeks the chemical for charges against the fortress. Dwarven excavators at Bael Modan use Sodium Nitrate to break through the southern Barrens’ rock. The Bael'dun expedition entered the Stonespire tribe’s ancestral lands with earthmovers and blasting reagents. Riflemen, soldiers, and officers carry the chemical inside the excavation works and nearby fortress.",
+  hash = "4bd69f",
+  fullHash = "4bd69f",
+  text = "Sodium Nitrate. At Bael Modan, Sodium Nitrate goes into the charges the dwarves use against the southern Barrens’ stone. Gann Stonespire seeks the chemical for charges against the fortress. At Bael Modan, dwarven excavators use Sodium Nitrate to break through the southern Barrens’ rock. The Bael'dun expedition entered the Stonespire tribe’s ancestral lands with earthmovers and blasting reagents. Riflemen, soldiers, and officers carry the chemical inside the excavation works and nearby fortress.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_sodium-nitrate-1c2373ba12533f3a7b2c/1-0000.mp3", duration = 29.8840816, start = 0},
+    {file = "Audio/Transport/full_item_sodium-nitrate-60ff4514a7841b0ae9d3/1-0000.mp3", duration = 30.6416327, start = 0},
   },
 }
 P.transport["item:solomon-s-plea-to-darkshire"] = {
-  hash = "c8814d",
-  fullHash = "c8814d",
-  text = "Solomon's Plea to Darkshire. Magistrate Solomon asks Darkshire for aid as Lakeshire faces mounting threats. His urgent letter to Lord Ello Ebonlocke requests the Night Watch to help defend Redridge. Lakeshire faces attacks from Blackrock orcs, gnolls, and murlocs, with few reinforcements arriving from Stormwind. Magistrate Solomon sends a formal plea to Mayor Ello Ebonlocke in Darkshire, asking him to send Night Watch militia north into Redridge. With central military support failing across southern Azeroth, human settlements must seek help from one another to survive.",
+  hash = "78794b",
+  fullHash = "78794b",
+  text = "Solomon's Plea to Darkshire. Lakeshire turns to Darkshire as threats close in. Magistrate Solomon asks Lord Ello Ebonlocke to send the Night Watch north and help defend Redridge. Blackrock orcs, gnolls, and murlocs attack Lakeshire, while few reinforcements come from Stormwind. Magistrate Solomon sends a formal plea to Mayor Ello Ebonlocke in Darkshire, asking him to send Night Watch militia north into Redridge. With central military support failing across southern Azeroth, human settlements must seek help from one another to survive.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_solomon-s-plea-to-darkshire-86c93b1753c2ddd7d5a6/1-0000.mp3", duration = 35.6832653, start = 0},
+    {file = "Audio/Transport/full_item_solomon-s-plea-to-darkshire-68b957e745a8e2148b58/1-0000.mp3", duration = 35.082449, start = 0},
   },
 }
 P.transport["item:solomon-s-plea-to-westfall"] = {
-  hash = "cb6ed8",
-  fullHash = "cb6ed8",
-  text = "Solomon's Plea to Westfall. In Lakeshire, Magistrate Solomon sends an urgent appeal to Westfall for help against Blackrock orcs and gnolls. He asks Gryan Stoutmantle to send the People's Militia while Stormwind's royal army fails to answer. Blackrock orcs and hostile gnolls threaten Redridge, and Magistrate Solomon is isolated in Lakeshire. Stormwind's royal army has not arrived in force to defend the region's borders. With no time to wait for support from the capital, Solomon writes to seek help beyond the regular army. Word has reached him of a volunteer defense force forming in Elwynn to the west, so he appeals to the People's Militia. Solomon addresses his message to Gryan Stoutmantle, a veteran warrior organizing Westfall's frontier defense. He hopes Stoutmantle can spare fighters for Lakeshire until Stormwind sends regular reserves. An adventurer carries the document. With Stormwind's outlying territories poorly coordinated, local magistrates must arrange mutual aid on their own.",
+  hash = "c1b5ae",
+  fullHash = "c1b5ae",
+  text = "Solomon's Plea to Westfall. In Lakeshire, Magistrate Solomon calls on Westfall for help as Blackrock orcs and gnolls threaten Redridge. Stormwind's royal army has not answered, so he asks Gryan Stoutmantle to send the People's Militia. Blackrock orcs and hostile gnolls threaten Redridge, while Magistrate Solomon is isolated in Lakeshire. Stormwind's royal army has not arrived in force to defend the region's borders. With no time to wait for the capital, Solomon writes beyond the regular army. Word has reached him of a volunteer defense force forming in Elwynn to the west, so he appeals to the People's Militia. Solomon addresses his message to Gryan Stoutmantle, a veteran warrior organizing Westfall's frontier defense. He hopes Stoutmantle can spare fighters for Lakeshire until Stormwind sends regular reserves. An adventurer carries the document. Stormwind's outlying territories are poorly coordinated, so local magistrates must arrange mutual aid on their own.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_solomon-s-plea-to-westfall-ce7fc2145971acd36fd5/1-0000.mp3", duration = 62.3020408, start = 0},
+    {file = "Audio/Transport/full_item_solomon-s-plea-to-westfall-bd133957a8d0bfd94947/1-0000.mp3", duration = 59.8465306, start = 0},
   },
 }
 P.transport["item:soran-ruk-fragment"] = {
-  hash = "c03879",
-  fullHash = "c03879",
-  text = "Soran'ruk Fragment. In Blackfathom Deeps, cultists hold shards of Soran'ruk, a shattered prison orb. The pieces still carry fel energy from the demon once bound inside. Soran'ruk's prison orb was broken apart after the demon fell from favor with the Burning Legion. Demons who displease their masters may have their spirits sealed in orbs, then given to fel spellcasters as sources of power. The Twilight's Hammer cultists in the submerged ruins of Blackfathom Deeps possess smaller shards from one half of the orb. They draw on the lingering demonic essence for their own workings.",
+  hash = "bdc3e9",
+  fullHash = "bdc3e9",
+  text = "Soran'ruk Fragment. In Blackfathom Deeps, cultists draw on shards of Soran'ruk, a shattered prison orb. The pieces still hold fel energy from the demon once bound within. Soran'ruk's prison orb was shattered after its demon fell from favor with the Burning Legion. Demons who displease their masters may have their spirits sealed in orbs, then given to fel spellcasters as sources of power. In the submerged ruins of Blackfathom Deeps, Twilight's Hammer cultists possess smaller shards from one half of the orb. They draw on the lingering demonic essence for their own workings.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_soran-ruk-fragment-7e000fa666e247fdbbe8/1-0000.mp3", duration = 36.1795918, start = 0},
+    {file = "Audio/Transport/full_item_soran-ruk-fragment-dcf0946a0e87bbaadd7d/1-0000.mp3", duration = 36.1273469, start = 0},
   },
 }
 P.transport["item:southsea-treasure"] = {
@@ -4762,27 +4762,27 @@ P.transport["item:southsea-treasure"] = {
   },
 }
 P.transport["item:spectral-comb"] = {
-  hash = "beb91e",
-  fullHash = "beb91e",
-  text = "Spectral Comb. At a ruined farmstead south of Darkshire, the Spectral Comb gathers ghost hair from Blind Mary. Ghostly hair lies beyond the reach of ordinary combs, leaving mortal craftsmen few ways to gather such fibers. The Spectral Comb can pass through a spirit’s intangible tresses. Carried south of Darkshire to a ruined farmstead, it is offered to Blind Mary, a weeping ghost who wails alone. Grooming brings her solace, and she willingly uses the comb. The spectral fibers she leaves behind can be woven into Ghost Hair Thread.",
+  hash = "b79edd",
+  fullHash = "b79edd",
+  text = "Spectral Comb. South of Darkshire, the Spectral Comb gathers ghost hair from Blind Mary at a ruined farmstead. Ordinary combs cannot reach a spirit’s hair, so few mortal craftsmen can gather it. The Spectral Comb passes through those unseen tresses. At a ruined farmstead south of Darkshire, it is offered to Blind Mary, a weeping ghost who wails alone. Grooming brings her solace, and she willingly takes up the comb. The fibers she leaves behind can be woven into Ghost Hair Thread.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_spectral-comb-1a56adac30e80afcfec7/1-0000.mp3", duration = 33.3844898, start = 0},
+    {file = "Audio/Transport/full_item_spectral-comb-c7536b2aeea91555b2c4/1-0000.mp3", duration = 30.6938776, start = 0},
   },
 }
 P.transport["item:spells-of-shadow"] = {
-  hash = "c75f71",
-  fullHash = "c75f71",
-  text = "Spells of Shadow. Beneath Orgrimmar, Spells of Shadow rests in the hands of Searing Blade cultists. The Forsaken leadership in the Undercity wants the grimoire recovered. Searing Blade cultists keep Spells of Shadow among their guarded treasures in Ragefire Chasm. The splinter cult is tied to the Shadow Council, and its members wield dark rites granted by demon masters of the Burning Legion. The book holds shadow and fel sorcery. Cultists and warlocks keep it close as they plot beneath the Horde in Durotar. Word of the Searing Blade's demonic gifts reached the Undercity's royal quarters. Lady Sylvanas Windrunner and her dreadlord lieutenant, Varimathras, decided the relics were wasted on cultists with lesser vision. Varimathras sends Horde adventurers into Ragefire Chasm to seize Spells of Shadow and its companion tome, Incantations from the Nether. Their power is meant to serve the Forsaken cause against the Scourge and the Lich King.",
+  hash = "489ca5",
+  fullHash = "489ca5",
+  text = "Spells of Shadow. Beneath Orgrimmar, Spells of Shadow lies among the Searing Blade’s guarded treasures. The Forsaken leadership in the Undercity wants it recovered. In Ragefire Chasm, Searing Blade cultists guard Spells of Shadow among their treasures. The splinter cult is tied to the Shadow Council, and its members wield dark rites granted by demon masters of the Burning Legion. The book holds shadow and fel sorcery. Cultists and warlocks keep it close as they plot beneath the Horde in Durotar. Word of the Searing Blade’s demonic gifts reached the Undercity’s royal quarters. Lady Sylvanas Windrunner and her dreadlord lieutenant, Varimathras, judged the relics wasted on cultists with lesser vision. So Varimathras sends Horde adventurers into Ragefire Chasm to seize Spells of Shadow and its companion tome, Incantations from the Nether. Their power is meant to serve the Forsaken cause against the Scourge and the Lich King.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_spells-of-shadow-34ebd7a1e594231f7b9f/1-0000.mp3", duration = 58.2530612, start = 0},
+    {file = "Audio/Transport/full_item_spells-of-shadow-753b85e038ff9df17395/1-0000.mp3", duration = 58.4620408, start = 0},
   },
 }
 P.transport["item:spotted-sunfish"] = {
-  hash = "56db64",
-  fullHash = "56db64",
-  text = "Spotted Sunfish. At Lake Everstill, Spotted Sunfish draw fishers and hungry murlocs alike. The fish bring trade to Lakeshire, though murlocs make the shallows dangerous. Spotted Sunfish bring trade to the Lakeshire piers. Dockmaster Baren buys them from the lake's steady catch, supplying food and commerce to a town under strain. Aggressive murloc tribes prowl the shallows and disrupt fishing. They gather sunfish at their camps, where travelers can take the fish by force.",
+  hash = "e88bfd",
+  fullHash = "e88bfd",
+  text = "Spotted Sunfish. At Lake Everstill, Spotted Sunfish draw fishers and hungry murlocs. Their catch brings trade to Lakeshire, while murlocs make the shallows dangerous. Spotted Sunfish bring trade to the Lakeshire piers. Dockmaster Baren buys the lake’s steady catch, supplying food and commerce to a town under strain. Aggressive murloc tribes prowl the shallows and disrupt fishing. At their camps, travelers can take the sunfish they have gathered by force.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_spotted-sunfish-8776b90a50823be5393e/1-0000.mp3", duration = 26.9061224, start = 0},
+    {file = "Audio/Transport/full_item_spotted-sunfish-bd7d2287055b974d93fd/1-0000.mp3", duration = 28.2644898, start = 0},
   },
 }
 P.transport["item:stalker-claws"] = {
@@ -4810,35 +4810,35 @@ P.transport["item:steelsnap-s-rib"] = {
   },
 }
 P.transport["item:stolen-silver"] = {
-  hash = "7566d9",
-  fullHash = "7566d9",
-  text = "Stolen Silver. At the Crossroads, a strongbox of Horde silver has gone missing from the guard tower. Sunscale raptors carried the coins to their nests at the Raptor Grounds south of Ratchet. Sunscale raptors carried a strongbox of silver from the Crossroads guard tower. The coins were meant as pay for the garrison guards. The raptors dragged the lockbox to their communal nests at the Raptor Grounds, south of Ratchet. Gazrog and the other overseers cannot explain why the predators took it. The theft leaves them wondering whether the raptors prize shiny things or possess a cunning beyond that of ordinary wild beasts.",
+  hash = "e92a33",
+  fullHash = "e92a33",
+  text = "Stolen Silver. At the Crossroads, Stolen Silver has vanished from the guard tower. Sunscale raptors carried the coins south of Ratchet to their nests at the Raptor Grounds. Sunscale raptors carried a strongbox of silver from the Crossroads guard tower. The coins were meant to pay the garrison guards. The raptors dragged the lockbox to their communal nests at the Raptor Grounds, south of Ratchet. Gazrog and the other overseers cannot explain what drove the predators to take it. They wonder whether the raptors prize shiny things or are more cunning than ordinary wild beasts.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_stolen-silver-2029f02eace0b3e00100/1-0000.mp3", duration = 37.0416327, start = 0},
+    {file = "Audio/Transport/full_item_stolen-silver-3964e2c1fb2a3509ad3e/1-0000.mp3", duration = 34.1420408, start = 0},
   },
 }
 P.transport["item:stone-of-relu"] = {
-  hash = "ecf000",
-  fullHash = "ecf000",
-  text = "Stone of Relu. In the Wetlands, the Stone of Relu is lost to a raptor after an ambush. Archaeologist Flagongut believes it can unlock secrets within ancient fossils. Explorers' League work uncovered the Stone of Relu. Archaeologist Flagongut believes it can decipher prehistoric fossils gathered from Kalimdor and the Eastern Kingdoms. He means to use it on his Wetlands specimens and on the fossil Prospector Remtravel unearthed in Darkshore. Archaeologist Flagongut was traveling along the Wetlands roads to meet Prospector Whelgar when mottled raptors ambushed him. In the scramble, the relic was lost and swallowed by one of the beasts. The League now seeks the marsh raptors so the ancient stone can be cut from their gullets.",
+  hash = "48ff0d",
+  fullHash = "48ff0d",
+  text = "Stone of Relu. In the Wetlands, Stone of Relu is lost after raptors ambush Archaeologist Flagongut. He believes it can unlock secrets within ancient fossils. The Explorers' League uncovered Stone of Relu. Archaeologist Flagongut believes the artifact can decipher prehistoric fossils gathered from Kalimdor and the Eastern Kingdoms. He plans to study his Wetlands specimens and the fossil Prospector Remtravel unearthed in Darkshore. On a Wetlands road, Archaeologist Flagongut was traveling to meet Prospector Whelgar when mottled raptors ambushed him. In the scramble, the relic was lost, then swallowed by one of the beasts. Now the League seeks the marsh raptors, hoping to cut the ancient stone from their gullets.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_stone-of-relu-1de44c0cebca28907ffe/1-0000.mp3", duration = 44.0163265, start = 0},
+    {file = "Audio/Transport/full_item_stone-of-relu-51d500478ef467844758/1-0000.mp3", duration = 45.5314286, start = 0},
   },
 }
 P.transport["item:stonetalon-sap"] = {
-  hash = "5c99b5",
-  fullHash = "5c99b5",
-  text = "Stonetalon Sap. Near Mirkfallon Lake and Stonetalon Peak, sap beasts carry the sap Jin'Zil seeks. The Darkspear witch doctor uses it in a brew for his caged night elf prisoners.",
+  hash = "a68427",
+  fullHash = "a68427",
+  text = "Stonetalon Sap. Near Mirkfallon Lake and Stonetalon Peak, sap beasts carry Stonetalon Sap. Jin'Zil, the Darkspear witch doctor, seeks it for a brew meant for his caged night elf prisoners.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_stonetalon-sap-8b4e98d35e4a4aafcc30/1-0000.mp3", duration = 11.1542857, start = 0},
+    {file = "Audio/Transport/full_item_stonetalon-sap-c5153aaa3d6792589640/1-0000.mp3", duration = 12.042449, start = 0},
   },
 }
 P.transport["item:stormpike-banner"] = {
-  hash = "aa3e55",
-  fullHash = "aa3e55",
-  text = "Stormpike Banner. Alliance recruits enter Icewing Cavern to earn the Stormpike Banner. The trial lies southwest of Dun Baldar in Alterac Valley, where harpies guard the standard. Lieutenant Haggerdin sends new Alliance soldiers into Icewing Cavern southwest of Dun Baldar. Before they face the Frostwolf orcs, recruits must brave the harpies, seize the Stormpike Banner, and bring it back alive. Those who return earn the rank and insignia of an initiate in the Stormpike Guard.",
+  hash = "17db7b",
+  fullHash = "17db7b",
+  text = "Stormpike Banner. In Alterac Valley, Alliance recruits brave harpies to claim the Stormpike Banner. The trial lies southwest of Dun Baldar in Icewing Cavern. Lieutenant Haggerdin sends new Alliance soldiers into Icewing Cavern, southwest of Dun Baldar. Before facing the Frostwolf orcs, each recruit must brave the harpies and seize the Stormpike Banner. Those who bring it back earn the rank and insignia of an initiate in the Stormpike Guard.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_stormpike-banner-939057b04023187c4e28/1-0000.mp3", duration = 29.7012245, start = 0},
+    {file = "Audio/Transport/full_item_stormpike-banner-01c6c2151c3f552e7bc8/1-0000.mp3", duration = 28.9436735, start = 0},
   },
 }
 P.transport["item:stormpike-s-request"] = {
@@ -4874,19 +4874,19 @@ P.transport["item:strange-smelling-powder"] = {
   },
 }
 P.transport["item:strangely-marked-box"] = {
-  hash = "484012",
-  fullHash = "484012",
-  text = "Strangely Marked Box. Along Darkshore, a Strangely Marked Box is found among cargo on dead sea turtles. Its runes point to the naga and show that the turtles did not come ashore by chance. Dead sea turtles and other sea creatures wash up on Darkshore's beaches. Some carry broken harnesses and carriages strapped to their shells. Sealed boxes marked with foreign, winding runes lie among the wreckage. Greymist murlocs often shelter in the hollow ribs and broken wagons, feeding on the carcasses and guarding what remains.",
+  hash = "0bd92e",
+  fullHash = "0bd92e",
+  text = "Strangely Marked Box. On Darkshore, Strangely Marked Box runes point toward naga cargo washed ashore on dead sea turtles. Their presence hints that the turtles did not come ashore by chance. Dead sea turtles and other sea creatures wash onto Darkshore’s beaches. Some bear broken harnesses and carriages strapped to their shells. Among the wreckage lie sealed boxes marked with foreign, winding runes. Greymist murlocs shelter in hollow ribs and broken wagons, feeding on the carcasses and guarding what remains.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_strangely-marked-box-6101c0b694cb012baab2/1-0000.mp3", duration = 29.6228571, start = 0},
+    {file = "Audio/Transport/full_item_strangely-marked-box-ad2a87c2309456aeb118/1-0000.mp3", duration = 30.3281633, start = 0},
   },
 }
 P.transport["item:strigid-owl-feather"] = {
-  hash = "d7a0e3",
-  fullHash = "d7a0e3",
-  text = "Strigid Owl Feather. Strigid Owl Feathers are gathered from the owls in Teldrassil's boughs. Zenn Foulhoof seeks them for his covert dealings.",
+  hash = "6f7861",
+  fullHash = "6f7861",
+  text = "Strigid Owl Feather. In Teldrassil's boughs, owls leave Strigid Owl Feathers for the taking. Zenn Foulhoof seeks them for his covert dealings.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_strigid-owl-feather-b77ef281f1194a69c7db/1-0000.mp3", duration = 8.04571429, start = 0},
+    {file = "Audio/Transport/full_item_strigid-owl-feather-378fbc4d2afbd340e49e/1-0000.mp3", duration = 8.93387755, start = 0},
   },
 }
 P.transport["item:sturdy-dragonmaw-shinbone"] = {
@@ -4906,27 +4906,27 @@ P.transport["item:sully-balloo-s-letter"] = {
   },
 }
 P.transport["item:sunscorched-shell"] = {
-  hash = "315b27",
-  fullHash = "315b27",
-  text = "Sunscorched Shell. Beneath Highperch, wyvern eggs leave shells hardened by Thousand Needles' desert heat. Armorer Mathiel in Darnassus uses them to make lacquer for mail links. Highperch wyverns lay eggs on the mesa needles of southern Kalimdor. Beneath their roosts, discarded shell fragments bake in the desert sun and searing winds. Their brittle remains hold a natural resilience that draws the attention of skilled artisans. In Darnassus, armorer Mathiel studies methods pioneered by his colleague, the dwarf smith Furen Longbeard. Mathiel processes the shells into a fine lacquer for mail armor. Applied to the metal links, the coating strengthens them without burdening the wearer.",
+  hash = "ee1519",
+  fullHash = "ee1519",
+  text = "Sunscorched Shell. Beneath Highperch, the desert heat hardens wyvern eggshells. Armorer Mathiel in Darnassus uses them to make lacquer for mail links. Highperch wyverns lay eggs on the mesa needles of southern Kalimdor. Beneath their roosts, discarded shells bake in the desert sun and searing winds. Their brittle remains keep a natural strength that catches the eye of skilled artisans. In Darnassus, armorer Mathiel studies methods first tried by his colleague, the dwarf smith Furen Longbeard. He turns the shells into a fine lacquer for mail armor. The coating strengthens the metal links without burdening the wearer.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_sunscorched-shell-a177b9d67db86a414df5/1-0000.mp3", duration = 42.004898, start = 0},
+    {file = "Audio/Transport/full_item_sunscorched-shell-0f31265eec8718a19aea/1-0000.mp3", duration = 38.6873469, start = 0},
   },
 }
 P.transport["item:super-reaper-6000-blueprints"] = {
-  hash = "e8b252",
-  fullHash = "e8b252",
-  text = "Super Reaper 6000 Blueprints. In Windshear Crag, the Venture Company’s Super Reaper 6000 Blueprints are coveted by goblin rivals. They hold the technical schematics for an enormous mechanized woodcutter deployed in Stonetalon Mountains, designed under gnome engineer Gerenzo Wrenchwhistle’s supervision. Venture Company operators carry the Super Reaper 6000 Blueprints through Windshear Crag. The plans show how to build the massive mechanized lumber harvesters driving the company’s relentless clear-cutting. To the dismay of traditional goblin engineers, the Venture Company put Gerenzo, a gnome, in charge of designing the model. When goblin engineer Ziz Fizziks was ousted from the operation, Sputtervalve quickly hired him to steal the designs. Yet Gerenzo’s dense, eccentric gnomish notations are almost as hard to decipher as the plans are to take by force.",
+  hash = "70eeab",
+  fullHash = "70eeab",
+  text = "Super Reaper 6000 Blueprints. In Windshear Crag, goblin rivals covet the Venture Company’s Super Reaper 6000 Blueprints. They show how to build the mechanized woodcutter deployed in Stonetalon Mountains, under gnome engineer Gerenzo Wrenchwhistle’s supervision. Venture Company operators carry the Super Reaper 6000 Blueprints through Windshear Crag. The plans show how to build the great mechanized lumber harvesters behind the company’s clear-cutting. Goblin engineers resent that Gerenzo, a gnome, was put in charge of the design. After the company ousted goblin engineer Ziz Fizziks, Sputtervalve hired him to steal the plans. Yet Gerenzo’s dense, eccentric notes are nearly as hard to decipher as the blueprints are to seize by force.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_super-reaper-6000-blueprints-d19fbe0617ff6d42fbf1/1-0000.mp3", duration = 50.964898, start = 0},
+    {file = "Audio/Transport/full_item_super-reaper-6000-blueprints-aaf6b695461a06912a67/1-0000.mp3", duration = 45.6881633, start = 0},
   },
 }
 P.transport["item:supplies-for-sven"] = {
-  hash = "f857f7",
-  fullHash = "f857f7",
-  text = "Supplies for Sven. Darkshire sends provisions to Sven Yorgen's camp in northwestern Duskwood. The Carevin family keeps his small band supplied as they hold their watch against the shadows. Sven Yorgen and his few followers camp in the northwestern wilderness, far from Darkshire. Their numbers are too low, and their watch too demanding, to spare anyone for the journey into town. The Carevin family sends food, bandages, and other necessities to the isolated camp, helping the band hold its ground.",
+  hash = "7285e2",
+  fullHash = "7285e2",
+  text = "Supplies for Sven. In northwestern Duskwood, Sven Yorgen's camp depends on provisions from Darkshire. The Carevin family keeps his small band supplied as they hold their watch against the shadows. Sven Yorgen and his few followers keep camp in the northwestern wilderness, far from Darkshire. Their numbers are too small to leave the watch and make the journey into town. So the Carevin family sends food, bandages, and other necessities to help the band hold its ground.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_supplies-for-sven-8349f1f80bced20ebfde/1-0000.mp3", duration = 29.7012245, start = 0},
+    {file = "Audio/Transport/full_item_supplies-for-sven-188557b3a870ba264574/1-0000.mp3", duration = 28.5779592, start = 0},
   },
 }
 P.transport["item:surena-s-choker"] = {
@@ -4946,27 +4946,27 @@ P.transport["item:swoop-gizzard"] = {
   },
 }
 P.transport["item:tablet-of-verga"] = {
-  hash = "279a5a",
-  fullHash = "279a5a",
-  text = "Tablet of Verga. In Skull Rock, the Tablet of Verga lies in Burning Blade hands, its demonic runes sought by warlocks in Orgrimmar. The Tablet of Verga bears ritual runes for summoning creatures of the Nether and bending them to a master's will. The Burning Blade cult stole the stone and hid it in a chest inside Skull Rock, just east of Orgrimmar. Warlocks in the Cleft of Shadow seek it to study the markings and learn to summon a voidwalker. Recovering it also keeps the cult from gaining that same advantage.",
+  hash = "8c6cdc",
+  fullHash = "8c6cdc",
+  text = "Tablet of Verga. In Skull Rock, the Tablet of Verga remains in Burning Blade hands, while Orgrimmar's warlocks seek its demonic runes. The Tablet of Verga bears ritual runes for summoning creatures from the Nether and bending them to a master's will. The Burning Blade stole the stone and hid it in a chest inside Skull Rock, just east of Orgrimmar.\n\nWarlocks in the Cleft of Shadow seek the tablet to study its markings and learn to summon a voidwalker. Recovering it also keeps the cult from gaining that same advantage.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_tablet-of-verga-d996ff45707e236d045d/1-0000.mp3", duration = 32.4440816, start = 0},
+    {file = "Audio/Transport/full_item_tablet-of-verga-cc46b54f8f23b363ddc0/1-0000.mp3", duration = 32.0261224, start = 0},
   },
 }
 P.transport["item:tainted-heart"] = {
-  hash = "6b6555",
-  fullHash = "6b6555",
-  text = "Tainted Heart. In Teldrassil, Denalan gives adventurers a heart still troubled by corruption. Though its outer foul moss is gone, lingering energies remain, and he seeks to cleanse them with rich soil. Teldrassil's natural balance is troubled by a malady that warps its plants and beasts. After foul moss is stripped from a blighted growth, Denalan gives adventurers the Tainted Heart within. Darkness still clings to its tissue. Denalan hopes specially prepared, nutrient-rich earth can counter the taint and restore what was corrupted.",
+  hash = "1f2be7",
+  fullHash = "1f2be7",
+  text = "Tainted Heart. In Teldrassil, Denalan tends a heart that still bears corruption. Its foul moss is gone, but taint remains, and he seeks to cleanse it with rich soil. A blight troubles Teldrassil's natural balance, warping its plants and beasts. Once the foul moss is stripped from a blighted growth, Denalan gives adventurers the Tainted Heart within. Darkness still clings to its tissue. He hopes specially prepared, nutrient-rich earth can counter the taint and restore what was corrupted.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_tainted-heart-01cb124b5020aa72fb0e/1-0000.mp3", duration = 33.9330612, start = 0},
+    {file = "Audio/Transport/full_item_tainted-heart-3b374e30f16dfd5dc3d0/1-0000.mp3", duration = 32.2612245, start = 0},
   },
 }
 P.transport["item:tainted-keg"] = {
-  hash = "0606eb",
-  fullHash = "0606eb",
-  text = "Tainted Keg. At Tarren Mill, Tainted Keg carries stolen dwarven stout laced with a lethal Forsaken brew made by Apothecary Lydon. Sent to imprisoned human farmers as refreshments, it tests poisons being developed by the Royal Apothecary Society. Dun Garok's dwarven riflemen lost a barrel of Shindigger Stout to thieves. Apothecary Lydon mixed the stout with his newly refined Elixir of Agony. The Forsaken chose an ordinary drink to carry the poison, hoping it would escape suspicion. A familiar ale became a swift death sentence.",
+  hash = "c3749a",
+  fullHash = "c3749a",
+  text = "Tainted Keg. At Tarren Mill, Tainted Keg carries a deadly brew made by Apothecary Lydon. Stolen dwarven stout bears the poison, bound for imprisoned human farmers as a test of the Royal Apothecary Society’s work. Dun Garok's dwarven riflemen lost a barrel of Shindigger Stout to thieves. Apothecary Lydon mixed it with his newly refined Elixir of Agony. The Forsaken chose an ordinary drink to carry the poison, hoping no one would suspect it. A familiar ale became a swift death sentence.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_tainted-keg-8f40acc4e410f693a71e/1-0000.mp3", duration = 34.324898, start = 0},
+    {file = "Audio/Transport/full_item_tainted-keg-b7fd5446df35dd294077/1-0000.mp3", duration = 32.6530612, start = 0},
   },
 }
 P.transport["item:tainted-letter"] = {
@@ -4986,27 +4986,27 @@ P.transport["item:tainted-memorandum"] = {
   },
 }
 P.transport["item:talisman-of-corruption"] = {
-  hash = "38663e",
-  fullHash = "38663e",
-  text = "Talisman of Corruption. In Darkshore, Xabraxxis uses the Talisman of Corruption to turn the Blackwood furbolgs against their former allies. The satyr keeps it in his personal pouch, where its magic binds the tribe to fel madness. Auberdine's night elves have long sought the cause of the Blackwood furbolgs' turn against their former allies. Thundris Windweaver found that satyrs had brought about the tribe's fall. With talismans like this, demonic agents spread corrupting sorcery through the wilderness, tainting food and twisting peaceful forest spirits into frenzied beasts. The devices channel fel magic that grips the minds and wills of local tribes.",
+  hash = "48a38d",
+  fullHash = "48a38d",
+  text = "Talisman of Corruption. In Darkshore, Xabraxxis turns the Blackwood furbolgs against their former allies with the Talisman of Corruption. He keeps it in his personal pouch, and its magic binds the tribe to fel madness. In Auberdine, the night elves seek the cause of the Blackwood furbolgs’ turn against their former allies. Thundris Windweaver found that satyrs brought about the tribe’s fall. Talismans like this carry corrupting sorcery through the wilderness. They taint food and twist peaceful forest spirits into frenzied beasts. Their fel magic grips the minds and wills of local tribes.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_talisman-of-corruption-17cefe0bdf49c01ce01a/1-0000.mp3", duration = 40.0979592, start = 0},
+    {file = "Audio/Transport/full_item_talisman-of-corruption-8f312d28a9dbb373ef2c/1-0000.mp3", duration = 34.324898, start = 0},
   },
 }
 P.transport["item:tallonkai-s-jewel"] = {
-  hash = "c2e4e6",
-  fullHash = "c2e4e6",
-  text = "Tallonkai's Jewel. On Teldrassil, Tallonkai's Jewel is lost from its druidic talisman. Ferocitas the Dream Eater prizes the emerald, which is needed to mend the Emerald Dreamcatcher. Tallonkai Swiftroot received the Emerald Dreamcatcher from Gaerolas Talvethen, warden of the druids in the Ban'ethil Barrow Den. The talisman is a powerful focus that draws energy from the Emerald Dream. When it was damaged, someone pried its radiant central emerald free and carried it into eastern Teldrassil. Ferocitas the Dream Eater, a corrupted Gnarlpine leader, took the jewel and made it into a necklace. Its green light glimmered in the forest gloom, but its harmony with the Emerald Dream meant nothing to the furbolg. To Ferocitas, it was only a trophy until it could be recovered.",
+  hash = "2e6402",
+  fullHash = "2e6402",
+  text = "Tallonkai's Jewel. On Teldrassil, the jewel is missing from Tallonkai's druidic talisman. Ferocitas the Dream Eater prizes the emerald, needed to mend the Emerald Dreamcatcher. Tallonkai Swiftroot received the Emerald Dreamcatcher from Gaerolas Talvethen, warden of the druids in the Ban'ethil Barrow Den. The talisman is a powerful focus that draws energy from the Emerald Dream. When it was damaged, someone pried out its radiant central emerald and carried it into eastern Teldrassil.\n\nFerocitas the Dream Eater, a corrupted Gnarlpine, took the jewel and made it into a necklace. Its green light glimmered in the forest gloom, but the furbolg cared nothing for its harmony with the Emerald Dream. To Ferocitas, it was only a trophy until it could be recovered.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_tallonkai-s-jewel-516ee68d1bd4288ddaa8/1-0000.mp3", duration = 48.64, start = 0},
+    {file = "Audio/Transport/full_item_tallonkai-s-jewel-7551fa8272df877a5137/1-0000.mp3", duration = 49.0057143, start = 0},
   },
 }
 P.transport["item:taming-rod"] = {
-  hash = "4ed613",
-  fullHash = "4ed613",
-  text = "Taming Rod. In Durotar, Taming Rods help novice hunters learn to command beasts. Trainers give them to students so they can practice before forming lasting bonds with animal companions. In Razor Hill, trainers such as Thotar give Taming Rods to aspiring orc and troll hunters. These enchanted tools help novices who cannot yet bind a wild creature permanently. A rod pacifies a regional predator, such as a dire mottled boar or an armored scorpid, so the hunter can practice giving commands and fighting beside an animal companion. The bond lasts only briefly, leaving the student free to learn without forming a lasting tie to the beast. Each Taming Rod's magic fades after a short while, and each is attuned to specific kinds of wild beasts. Novices face successive trials against different temperaments, from docile foragers to aggressive venomous hunters. When a student has shown they can command them, the rod goes back to the trainer. The trainer then teaches the student to tame, call, and dismiss lifelong companions without an artifact.",
+  hash = "e0d136",
+  fullHash = "e0d136",
+  text = "Taming Rod. In Durotar, Taming Rods help new hunters learn to command beasts. Trainers lend them to students for practice before they form lasting bonds with animal companions. In Razor Hill, trainers such as Thotar give Taming Rods to orc and troll hunters who are just beginning. The enchantment helps them practice before they can bind a wild creature for good. A rod pacifies a local predator, such as a dire mottled boar or an armored scorpid. The hunter learns to give commands and fight beside an animal companion, but the bond lasts only briefly. Each Taming Rod's magic fades after a short time, and each is attuned to certain kinds of wild beasts. Novices face trials against different temperaments, from docile foragers to aggressive venomous hunters. Once a student shows they can command these beasts, the rod goes back to the trainer. Then the trainer teaches them to tame, call, and dismiss lifelong companions without an artifact.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_taming-rod-67e167883738e1e4b7fd/1-0000.mp3", duration = 67.2653061, start = 0},
+    {file = "Audio/Transport/full_item_taming-rod-281826e90a035378a2aa/1-0000.mp3", duration = 57.5477551, start = 0},
   },
 }
 P.transport["item:taragaman-the-hungerer-s-heart"] = {
@@ -5026,19 +5026,19 @@ P.transport["item:tattered-manuscript"] = {
   },
 }
 P.transport["item:tazan-s-satchel"] = {
-  hash = "73a03c",
-  fullHash = "73a03c",
-  text = "Tazan's Satchel. Near Ratchet, Tazan carries a locked satchel as he deals with pirates along the coast. The Shattered Hand wants the secret information inside. Tazan deals with pirates camped along the Barrens coast near Ratchet. Therzok, a guild master of the Shattered Hand beneath Orgrimmar in the Cleft of Shadow, takes notice. The guild seeks covert power beyond Warchief Thrall's cautious diplomacy, and marks Tazan for elimination to seize the intelligence in his satchel.",
+  hash = "10f6dc",
+  fullHash = "10f6dc",
+  text = "Tazan's Satchel. Near Ratchet, Tazan faces pirates along the coast with a locked satchel in hand. The Shattered Hand wants the intelligence within. Near Ratchet, Tazan deals with pirates camped along the Barrens coast. Therzok, a guild master of the Shattered Hand beneath Orgrimmar in the Cleft of Shadow, has taken notice. The guild seeks power in secret beyond Warchief Thrall's cautious diplomacy. It has marked Tazan for elimination to seize the intelligence in his satchel.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_tazan-s-satchel-9e9f93d56ea1229cee9d/1-0000.mp3", duration = 30.3542857, start = 0},
+    {file = "Audio/Transport/full_item_tazan-s-satchel-9eff9d034cbb604e37b0/1-0000.mp3", duration = 30.2497959, start = 0},
   },
 }
 P.transport["item:tear-of-the-moons"] = {
-  hash = "cfff51",
-  fullHash = "cfff51",
-  text = "Tear of the Moons. At Bael Modan in the southern Barrens, dwarven excavators have unearthed the Tear of the Moons. Its strange power draws Feegly into obsession, while General Twinbraid fears what the crystal can do. Dwarven excavators unearthed the Tear of the Moons during the first digging at Bael Modan. The crystal's strange radiance captivated the miners, especially Feegly. He claimed it gave him great strength, then grew unstable and turned against his comrades. General Twinbraid, commander of the expedition, feared the relic's influence and declared it cursed. He took the crystal and locked it in his personal strongbox at Bael'dun Keep. Then he cast Feegly out into the Barrens.",
+  hash = "5d4b62",
+  fullHash = "5d4b62",
+  text = "Tear of the Moons. At Bael Modan in the southern Barrens, dwarven excavators have unearthed the Tear of the Moons. Its strange power grips Feegly, and General Twinbraid fears its influence. Dwarven excavators found the Tear of the Moons during the first digging at Bael Modan. Its strange light captivated the miners, especially Feegly. He said it gave him great strength, but soon grew unstable and turned against his comrades.\n\nGeneral Twinbraid, commander of the expedition, feared the relic's influence and called it cursed. He took the crystal and locked it in his personal strongbox at Bael'dun Keep. Then he cast Feegly out into the Barrens.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_tear-of-the-moons-10cd69487a2ab05f9f18/1-0000.mp3", duration = 41.5346939, start = 0},
+    {file = "Audio/Transport/full_item_tear-of-the-moons-39d294a5c3a57fec2348/1-0000.mp3", duration = 41.8742857, start = 0},
   },
 }
 P.transport["item:tear-of-tilloa"] = {
@@ -5058,43 +5058,43 @@ P.transport["item:techbot-s-memory-core"] = {
   },
 }
 P.transport["item:telescopic-lens"] = {
-  hash = "32d386",
-  fullHash = "32d386",
-  text = "Telescopic Lens. Gazlowe needs the Telescopic Lens to finish the observatory telescope above Ratchet’s harbor. Southsea pirates took it from a ship, and the lens remains in their camp south of town. Ratchet is known chiefly for ruthless commerce, but its overseer and chief engineer, Gazlowe, has greater mechanical ambitions. His observatory rises above the harbor to house a telescope for watching maritime traffic and the stars. The larger lens came safely overland from Durotar. The smaller, vital lens traveled by sea, where Southsea Freebooters prey on merchant lanes off the Barrens coast. The Southsea Freebooters took anything of value when they raided the transport ship, including the delicate optics. The pirates may have left the lens among the clutter of their beachside camp south of Ratchet because they could not appreciate its craft or did not know how to pawn it. Gazlowe needs the unblemished glass brought back so his observation deck can come into focus.",
+  hash = "f270e8",
+  fullHash = "f270e8",
+  text = "Telescopic Lens. Above Ratchet’s harbor, Gazlowe needs the Telescopic Lens to complete his observatory telescope. Southsea pirates took the lens from a ship, and it remains in their camp south of town. Ratchet is known for ruthless commerce, yet Gazlowe, its overseer and chief engineer, has greater mechanical ambitions. His observatory rises above the harbor, built to watch maritime traffic and the stars. The larger lens came safely overland from Durotar. The smaller, vital lens traveled by sea, where Southsea Freebooters prey on merchant lanes off the Barrens coast. When the Southsea Freebooters raided the transport ship, they took anything valuable, including the delicate optics. The lens may lie among the clutter of their beachside camp south of Ratchet. The pirates might not value its craft, or know how to pawn it. Gazlowe needs the unblemished glass returned so his observation deck can come into focus.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_telescopic-lens-de74b1f34da250d39e5f/1-0000.mp3", duration = 57.9395918, start = 0},
+    {file = "Audio/Transport/full_item_telescopic-lens-8252a35d9689f53cf027/1-0000.mp3", duration = 57.4693878, start = 0},
   },
 }
 P.transport["item:teronis-journal"] = {
-  hash = "df21fd",
-  fullHash = "df21fd",
-  text = "Teronis' Journal. Teronis' Journal follows a scout's search through Ashenvale for a gem tied to a rod he hoped could slow furbolg attacks. Teronis, a longtime friend of Raene Wolfrunner, aided the Sentinels and searched Ashenvale for a gem. He believed it belonged to a rod that could slow the furbolg attacks on his people. Near the shore, aggressive creatures brought his journey to an end. The journal was recovered from his personal effects in remarkably good condition. Its findings about a radiant gem that once formed part of the rod give Astranaar's defenders a trail to follow in his unfinished search.",
+  hash = "8b2313",
+  fullHash = "8b2313",
+  text = "Teronis' Journal. In Ashenvale, Teronis' Journal traces a scout's search for a gem tied to a rod he hoped could slow furbolg attacks. Teronis was a longtime friend of Raene Wolfrunner and aided the Sentinels. He searched Ashenvale for a gem he believed belonged to a rod that could slow the furbolg attacks on his people. Near the shore, aggressive creatures ended his journey.\n\nThe journal was recovered from his personal effects in remarkably good condition. Its findings about a radiant gem that once formed part of the rod give Astranaar's defenders a trail to follow in his unfinished search.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_teronis-journal-a052c3b40da2b2022994/1-0000.mp3", duration = 35.84, start = 0},
+    {file = "Audio/Transport/full_item_teronis-journal-6eb4d698b654df7a50c1/1-0000.mp3", duration = 35.5787755, start = 0},
   },
 }
 P.transport["item:tharil-zun-s-head"] = {
-  hash = "fc65ff",
-  fullHash = "fc65ff",
-  text = "Tharil'zun's Head. Tharil'zun's Head reaches Lakeshire as proof that the commander terrorizing the Redridge approaches is dead. He led the Blackrock Outrunners occupying Stonewatch. Blackrock orcs at Stonewatch Keep have pressed Lakeshire hard, raiding farms and ambushing travelers on the roads. Tharil'zun directed the Blackrock Outrunners at the head of these attacks. Lakeshire's garrison cannot risk acting on rumors or partial victories, so Marshal Marris demands proof that Tharil'zun is dead. His severed head shows that the Outrunners' coordinated ambushes from the keep have suffered a major blow.",
+  hash = "3741a5",
+  fullHash = "3741a5",
+  text = "Tharil'zun's Head. In Lakeshire, Tharil'zun's Head proves the commander who terrorized Redridge is dead. He led the Blackrock Outrunners occupying Stonewatch. Blackrock orcs at Stonewatch Keep have raided Lakeshire's farms and ambushed travelers on the roads. Tharil'zun led the Blackrock Outrunners behind those attacks.\n\nMarshal Marris will not risk acting on rumors or partial victories. He demands proof of Tharil'zun's death, and the severed head gives it. The Outrunners' coordinated ambushes from the keep have suffered a major blow.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_tharil-zun-s-head-60e5f4036b5e70c1e9bc/1-0000.mp3", duration = 36.4146939, start = 0},
+    {file = "Audio/Transport/full_item_tharil-zun-s-head-4956d640ba38b365aa7e/1-0000.mp3", duration = 33.1493878, start = 0},
   },
 }
 P.transport["item:tharnariun-s-hope"] = {
-  hash = "c66c5f",
-  fullHash = "c66c5f",
-  text = "Tharnariun's Hope. In Darkshore, Tharnariun Treetender seeks a way to study the sick thistle bears and find a cure. His trap calms them long enough to bring them to his camp. Tharnariun Treetender made a calming trap to study the sick thistle bears. Across Darkshore, a mysterious affliction has left the animals increasingly frenzied and violent. Tharnariun hopes to cure them rather than see them killed. Set on the ground, Tharnariun's Hope casts a soothing light. A rabid thistle bear that crosses it grows calm for a time and can follow a traveler back to Tharnariun's camp for treatment.",
+  hash = "fbc853",
+  fullHash = "fbc853",
+  text = "Tharnariun's Hope. In Darkshore, Tharnariun Treetender seeks a cure for the sick thistle bears. His trap calms them long enough to bring them to his camp. Tharnariun Treetender made a trap to calm the sick thistle bears. A mysterious affliction has made them more and more frenzied and violent across Darkshore. He hopes to cure them instead of seeing them killed. Set on the ground, Tharnariun's Hope shines with a soothing light. A rabid thistle bear that crosses it grows calm for a time and can follow a traveler back to Tharnariun's camp for treatment.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_tharnariun-s-hope-33a44564ae8f998f3295/1-0000.mp3", duration = 35.6832653, start = 0},
+    {file = "Audio/Transport/full_item_tharnariun-s-hope-2734a4b2ca38bce99411/1-0000.mp3", duration = 31.0334694, start = 0},
   },
 }
 P.transport["item:the-book-of-ur"] = {
-  hash = "c351df",
-  fullHash = "c351df",
-  text = "The Book of Ur. Ur's book now lies in Shadowfang Keep, where Archmage Arugal found it before Forsaken scholars in the Undercity took interest. The Dalaran mage wrote of strange beings from other planes. Ur was a Dalaran mage known for studying other planes and their creatures. Before the Scourge came, the Kirin Tor knew his work well. Ur was fascinated by magic beyond this world, yet he chose to write down his findings instead of breaking through the veil recklessly. Caution and restraint shaped his research. When the Scourge attacked Dalaran, neither his magic nor his care could save him.",
+  hash = "b0b74b",
+  fullHash = "b0b74b",
+  text = "The Book of Ur. In Shadowfang Keep, the Book of Ur draws the interest of Forsaken scholars. Archmage Arugal took it after Ur died. The Dalaran mage wrote of strange beings from other planes. Ur was a Dalaran mage who studied other planes and their creatures. Before the Scourge came, the Kirin Tor knew his work well. He longed to understand magic beyond this world, but wrote down what he found instead of recklessly breaking through the veil. Caution and restraint guided his research. When the Scourge attacked Dalaran, neither his magic nor his care could save him.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_the-book-of-ur-ef11977bcb6f9466ef97/1-0000.mp3", duration = 36.5714286, start = 0},
+    {file = "Audio/Transport/full_item_the-book-of-ur-4b1e2b54869dd46d9af7/1-0000.mp3", duration = 36.2579592, start = 0},
   },
 }
 P.transport["item:the-collector-s-schedule"] = {
@@ -5106,11 +5106,11 @@ P.transport["item:the-collector-s-schedule"] = {
   },
 }
 P.transport["item:the-embalmer-s-heart"] = {
-  hash = "5da75f",
-  fullHash = "5da75f",
-  text = "The Embalmer's Heart. In Duskwood, Eliza's buried corpse holds a heart that still beats. The Embalmer placed his own heart in his dead wife through dark magic, and it became the anchor of his power. Darkshire's tales remember the Embalmer as a gentle alchemist. When his wife Eliza died, grief shattered his mind. He turned to foul sorcery, cut out his own heart, and placed it in her lifeless chest. The magic stirred her corpse to unlife, but the return twisted Eliza into a ravenous creature with an insatiable hunger for living human flesh. Horrified by what he had done, the alchemist buried her again.",
+  hash = "25308f",
+  fullHash = "25308f",
+  text = "The Embalmer's Heart. In Duskwood, Eliza's buried corpse still holds a beating heart. The Embalmer placed his own heart in his dead wife through dark magic, and it became the anchor of his power. Darkshire remembers the Embalmer as a gentle alchemist. When his wife Eliza died, grief broke his mind. He turned to foul sorcery, cut out his own heart, and placed it in her lifeless chest. The magic stirred her corpse to unlife. But Eliza returned as a ravenous creature, hungry for living human flesh. Horrified by what he had done, the alchemist buried her again.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_the-embalmer-s-heart-2a8739384349ae134c50/1-0000.mp3", duration = 38.0081633, start = 0},
+    {file = "Audio/Transport/full_item_the-embalmer-s-heart-4a3ce2526e026d6f14d7/1-0000.mp3", duration = 35.7355102, start = 0},
   },
 }
 P.transport["item:the-general-s-response"] = {
@@ -5130,19 +5130,19 @@ P.transport["item:the-lich-s-spellbook"] = {
   },
 }
 P.transport["item:the-state-of-lakeshire"] = {
-  hash = "770ae3",
-  fullHash = "770ae3",
-  text = "The State of Lakeshire. In Lakeshire, Magistrate Solomon's report calls for help before the town falls. It urges General Marcus Jonathan in Stormwind to send royal army reinforcements against the crisis in Redridge. Magistrate Solomon writes of the attacks threatening Lakeshire. Blackrock orcs and gnolls press the town, whose defenders cannot hold the borders indefinitely. Couriers carry his dispatch west along the road to Elwynn Forest. Solomon asks the Stormwind Army to intervene and protect the kingdom's eastern reach. General Marcus Jonathan receives Solomon's report at Stormwind's gates. He respects the magistrate's standing and understands the danger, but cannot move the army on his own. Deployments need the crown's consent, so Lakeshire's plea must wait for a council with the young King and regent Bolvar Fordragon.",
+  hash = "2db518",
+  fullHash = "2db518",
+  text = "The State of Lakeshire. Lakeshire's defenders face attacks, and Magistrate Solomon calls on Stormwind for aid. His report urges General Marcus Jonathan to send royal reinforcements against the crisis in Redridge. Magistrate Solomon writes that attacks threaten Lakeshire. Blackrock orcs and gnolls press the town, and its defenders cannot hold the borders forever. Couriers carry his dispatch west along the road to Elwynn Forest. Solomon asks the Stormwind Army to protect the kingdom's eastern reach. At Stormwind's gates, General Marcus Jonathan receives Solomon's report. He respects the magistrate's standing and understands the danger, but cannot move the army alone. Deployments need the crown's consent. So Lakeshire's plea must wait for a council with the young King and regent Bolvar Fordragon.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_the-state-of-lakeshire-833728e1c61044888319/1-0000.mp3", duration = 49.0579592, start = 0},
+    {file = "Audio/Transport/full_item_the-state-of-lakeshire-65b9fb3302a64855f981/1-0000.mp3", duration = 51.4089796, start = 0},
   },
 }
 P.transport["item:theramore-medal"] = {
-  hash = "5638ec",
-  fullHash = "5638ec",
-  text = "Theramore Medal. At Northwatch Hold, Theramore Medal marks service among the marines and officers defending the outpost along the Merchant Coast. The insignia bears Theramore’s mark and identifies the Alliance garrison. Marines, marksmen, commandos, and officers serving from Northwatch Hold carry stamped medals bearing Theramore’s mark. The soldiers are loyal to Lady Jaina Proudmoore’s realm. For the human troops on the cliffs above the Barrens, the medals show that their service is legitimate and their authority comes from Theramore. Others see the tokens as trophies from an overzealous foreign garrison, one that treats every vessel approaching the coast as a mortal threat. Northwatch Hold’s gun batteries menace ships along the Merchant Coast, often bombarding privateers and merchantmen alike. After losing ships to the guns, Ratchet privateer Captain Thalo'thas Brightsun seeks the medals. He wants proof that Northwatch’s trigger-happy ranks have paid in blood for sinking his ships, and that the soldiers responsible have been slain in retribution.",
+  hash = "2f22e1",
+  fullHash = "2f22e1",
+  text = "Theramore Medal. At Northwatch Hold, the Theramore Medal marks service in the marines and officers defending the outpost on the Merchant Coast. Its mark identifies the Alliance garrison. Marines, marksmen, commandos, and officers serving from Northwatch Hold carry medals stamped with Theramore’s mark. They are loyal to Lady Jaina Proudmoore’s realm. For human troops on the cliffs above the Barrens, the medals show that their service is legitimate and their authority comes from Theramore.\n\nOthers see the tokens as trophies from an overzealous foreign garrison. Northwatch treats every vessel approaching the coast as a mortal threat. Northwatch Hold’s gun batteries menace ships along the Merchant Coast, often bombarding privateers and merchantmen alike. After losing ships to those guns, Ratchet privateer Captain Thalo'thas Brightsun seeks the medals.\n\nHe wants proof that Northwatch’s trigger-happy ranks have paid in blood for sinking his ships, and that the soldiers responsible have been slain in retribution.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_theramore-medal-3efed2b8527f5c166125/1-0000.mp3", duration = 64.4702041, start = 0},
+    {file = "Audio/Transport/full_item_theramore-medal-1e43a5c98d103cb24e6d/1-0000.mp3", duration = 64.5746939, start = 0},
   },
 }
 P.transport["item:thick-bear-fur"] = {
@@ -5154,19 +5154,19 @@ P.transport["item:thick-bear-fur"] = {
   },
 }
 P.transport["item:thistlenettle-s-badge"] = {
-  hash = "d23b03",
-  fullHash = "d23b03",
-  text = "Thistlenettle's Badge. Foreman Thistlenettle's badge is all that remains after the collapse in the Deadmines. Before the Defias Brotherhood sealed Moonbrook and the tunnels beneath it, dwarven prospectors from Ironforge's Explorers' League worked the old gold mines of Westfall. Foreman Thistlenettle and his crew were deep underground when a tunnel collapsed and split them apart. His brother Wilder escaped to Stormwind City, but the foreman and several laborers were left trapped below.",
+  hash = "3e4801",
+  fullHash = "3e4801",
+  text = "Thistlenettle's Badge. In the Deadmines, Thistlenettle's Badge is all that remains after a tunnel collapse. Before the Defias Brotherhood sealed Moonbrook and the tunnels beneath it, prospectors from Ironforge's Explorers' League worked Westfall's old gold mines. Foreman Thistlenettle and his crew were deep below when a tunnel collapsed and split them apart. His brother Wilder escaped to Stormwind City, but the foreman and several laborers remained trapped underground.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_thistlenettle-s-badge-814883fc4f4c1322fdf5/1-0000.mp3", duration = 25.8612245, start = 0},
+    {file = "Audio/Transport/full_item_thistlenettle-s-badge-80935a62767b98b99a34/1-0000.mp3", duration = 28.4473469, start = 0},
   },
 }
 P.transport["item:thresher-eye"] = {
-  hash = "f8db1a",
-  fullHash = "f8db1a",
-  text = "Thresher Eye. Along Darkshore, Wizbang Cranktoggle wants Thresher Eyes for his Buzzboxes. He uses them to repair Buzzbox 411 on the beach north of Auberdine. Darkshore Threshers hunt the surf and outer shallows off Darkshore. They threaten local fishermen and travelers, and their large eyes have caught the interest of Wizbang Cranktoggle. The gnome engineer is stationed nearby and fond of crawler wine. He needs the eyes to repair Buzzbox 411, a far-speaking communication machine on the beach north of Auberdine. Wizbang does not explain how the slimy eyes repair delicate machinery. They might serve as crude lenses, chemical agents, or biological gears. Whatever the method, three eyes placed in Buzzbox 411's maintenance hatch restore its communication link, and Wizbang sends supplies through static-choked transmissions.",
+  hash = "645de1",
+  fullHash = "645de1",
+  text = "Thresher Eye. Along Darkshore, Wizbang Cranktoggle needs Thresher Eyes for his Buzzboxes. He uses them to repair Buzzbox 411, a communication machine on the beach north of Auberdine. Darkshore Threshers hunt the surf and outer shallows off Darkshore. They threaten local fishermen and travelers, and their large eyes have drawn the interest of Wizbang Cranktoggle. The gnome engineer is stationed nearby and fond of crawler wine. He needs the eyes to repair Buzzbox 411, a communication machine on the beach north of Auberdine. Wizbang does not explain how slimy eyes repair delicate machinery. They might serve as crude lenses, chemical agents, or biological gears. Whatever the method, three eyes placed in Buzzbox 411's maintenance hatch restore its communication link. Wizbang then sends supplies through transmissions choked with static.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_thresher-eye-61f2091c7a4f286a3bbb/1-0000.mp3", duration = 52.8195918, start = 0},
+    {file = "Audio/Transport/full_item_thresher-eye-2f8d6f4f7ae7f0f3fd82/1-0000.mp3", duration = 54.1518367, start = 0},
   },
 }
 P.transport["item:thule-s-head"] = {
@@ -5178,35 +5178,35 @@ P.transport["item:thule-s-head"] = {
   },
 }
 P.transport["item:thunder-lizard-blood"] = {
-  hash = "63a95a",
-  fullHash = "63a95a",
-  text = "Thunder Lizard Blood. In the southern Barrens, hunters bring back Thunder Lizard Blood as proof of survival. The blood comes from the great beasts that roam the plains. Thunder lizards go by the names Stormsnouts, Stormhides, and Thunderheads across the plains. Their heavy steps shake the earth, and their crushing weight can flatten unwary hunters. Bringing back their blood shows the skill to hunt them and the endurance to survive beneath their thundering feet.",
+  hash = "c3e168",
+  fullHash = "c3e168",
+  text = "Thunder Lizard Blood. Hunters return with Thunder Lizard Blood from the southern Barrens. It comes from the great beasts roaming the plains. Stormsnouts, Stormhides, and Thunderheads are the names given to thunder lizards across the plains. Their heavy steps shake the earth, and their crushing weight can flatten an unwary hunter. Bringing back their blood shows the skill to hunt them and the strength to survive beneath their thundering feet.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_thunder-lizard-blood-bd4bcd7011f875bab343/1-0000.mp3", duration = 25.9395918, start = 0},
+    {file = "Audio/Transport/full_item_thunder-lizard-blood-c03d46c83b0fd23eaceb/1-0000.mp3", duration = 25.3910204, start = 0},
   },
 }
 P.transport["item:thunder-lizard-horn"] = {
-  hash = "1a0647",
-  fullHash = "1a0647",
-  text = "Thunder Lizard Horn. In the Barrens, Brewmaster Drohn seeks a Thunder Lizard Horn for Chen Stormstout's legendary brew. Thunder lizards roam the Barrens, their crested bodies crackling with lightning. Brewmaster Drohn in Ratchet values their horns as an ingredient for Stormstout ale. His mentor learned the recipe from the wandering pandaren Brewmaster Chen Stormstout and passed it down to Drohn. The horn gives the drink its potent kick.",
+  hash = "8bf683",
+  fullHash = "8bf683",
+  text = "Thunder Lizard Horn. In the Barrens, Brewmaster Drohn seeks a Thunder Lizard Horn for Chen Stormstout's legendary brew. Thunder lizards roam the Barrens with crested bodies crackling with lightning. In Ratchet, Brewmaster Drohn prizes their horns for Stormstout ale. His mentor learned the recipe from the wandering pandaren Brewmaster Chen Stormstout and passed it to Drohn. The horn gives the drink its potent kick.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_thunder-lizard-horn-6a47accfbf5f517f4d6d/1-0000.mp3", duration = 26.7493878, start = 0},
+    {file = "Audio/Transport/full_item_thunder-lizard-horn-2d7074de0b092a32857d/1-0000.mp3", duration = 25.1820408, start = 0},
   },
 }
 P.transport["item:thunderhawk-saliva-gland"] = {
-  hash = "2ae149",
-  fullHash = "2ae149",
-  text = "Thunderhawk Saliva Gland. Across the Barrens, greater thunderhawks yield a gland prized by Brewmaster Drohn. He needs it to recreate Chen Stormstout's fiery Trogg Ale. Greater thunderhawks hunt across the Barrens' arid savannas. These winged serpents are known for harnessing storms, and the older, more dangerous ones produce a saliva gland charged with natural potency. Travelers keep clear of the deadly beasts, but brewmasters value the gland as a rare base for exotic drinks. Brewmaster Drohn settled outside Ratchet after Chen Stormstout traveled through Kalimdor. Drohn studies the wandering brewmaster's fermentation methods and needs a fresh thunderhawk saliva gland, stormhide lightning glands, and kodo liver to brew Trogg Ale. The fiery spirit has an unmistakable kick and is meant to fortify hardy adventurers.",
+  hash = "a05cee",
+  fullHash = "a05cee",
+  text = "Thunderhawk Saliva Gland. Greater thunderhawks across the Barrens yield the gland Brewmaster Drohn needs to recreate Chen Stormstout's fiery Trogg Ale. Greater thunderhawks hunt across the Barrens' dry savannas. The winged serpents command storms, and the older, more dangerous ones produce a saliva gland rich in natural potency. Travelers steer clear of these deadly beasts. Brewmasters prize the gland as a rare base for exotic drinks. Brewmaster Drohn settled outside Ratchet after Chen Stormstout passed through Kalimdor. Drohn studies the wandering brewmaster's ways of fermentation. To brew Trogg Ale, he needs a fresh thunderhawk saliva gland, stormhide lightning glands, and kodo liver. The fiery spirit has a sure kick and is meant to fortify hardy adventurers.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_thunderhawk-saliva-gland-7cd2cf8d1fbbad971076/1-0000.mp3", duration = 53.4465306, start = 0},
+    {file = "Audio/Transport/full_item_thunderhawk-saliva-gland-9d79b6d5682bc68e37a2/1-0000.mp3", duration = 49.2146939, start = 0},
   },
 }
 P.transport["item:thunderhawk-wings"] = {
-  hash = "b4e89e",
-  fullHash = "b4e89e",
-  text = "Thunderhawk Wings. Across the central and southern Barrens, hunters claim Thunderhawk Wings from the wind serpents that soar overhead. At Camp Taurajo, Jorn Skyseer receives them as proof of a hunter’s strength, cunning, and endurance. Hunters stationed at Camp Taurajo prize a pair of intact Thunderhawk Wings. Wind serpents, whom local hunters call thunderhawks, are fierce winged reptiles that strike swiftly from above. Tracking them across the open plains and claiming their wings in combat tests a hunter’s skill. For an initiate, bringing back the wings proves readiness to follow the lifelong path of an accomplished hunter.",
+  hash = "794b19",
+  fullHash = "794b19",
+  text = "Thunderhawk Wings. Hunters bring Thunderhawk Wings to Camp Taurajo, where Jorn Skyseer receives them as proof of their strength, cunning, and endurance. At Camp Taurajo, hunters prize a pair of intact Thunderhawk Wings. Wind serpents, called thunderhawks by local hunters, strike swiftly from above. Tracking them across the open plains and taking their wings tests a hunter’s skill. For an initiate, returning with the wings proves readiness for the lifelong path of an accomplished hunter.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_thunderhawk-wings-3c1641cf19c4654beeb9/1-0000.mp3", duration = 37.4595918, start = 0},
+    {file = "Audio/Transport/full_item_thunderhawk-wings-be2e53e67de6dd6d0229/1-0000.mp3", duration = 30.197551, start = 0},
   },
 }
 P.transport["item:thunderhorn-cleansing-totem"] = {
@@ -5234,19 +5234,19 @@ P.transport["item:thurman-s-sewing-kit"] = {
   },
 }
 P.transport["item:timberling-seed"] = {
-  hash = "683a24",
-  fullHash = "683a24",
-  text = "Timberling Seed. Across Teldrassil, Timberling Seeds are gathered from plant spirits that have grown hostile. Naturalists and druids study them to learn why the forest's plant life has turned aggressive. Timberlings are nature elementals of Teldrassil, and their temper reflects the World Tree's balance. Lately they have grown hostile and angry, troubling the night elves who tend the boughs. Herbalists such as Denalan at Lake Al'Ameth suspect trouble in the soil. They gather seeds from wild timberlings, hoping that purified, carefully tended soil might let docile offspring sprout.",
+  hash = "145278",
+  fullHash = "145278",
+  text = "Timberling Seed. Across Teldrassil, Timberling Seed is gathered from plant spirits grown hostile. Naturalists and druids study the seeds to learn why the forest's plants have turned aggressive. Timberlings are nature elementals of Teldrassil, and their temper reflects the World Tree's balance. Lately they have grown angry and hostile, troubling the night elves who tend the boughs. Herbalists such as Denalan at Lake Al'Ameth suspect trouble in the soil. They gather seeds from wild timberlings, hoping purified, carefully tended soil might let docile offspring sprout.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_timberling-seed-dedfa8a891bdd97ad38e/1-0000.mp3", duration = 35.2914286, start = 0},
+    {file = "Audio/Transport/full_item_timberling-seed-a6da70ed5cc45f851e0a/1-0000.mp3", duration = 34.56, start = 0},
   },
 }
 P.transport["item:timberling-sprout"] = {
-  hash = "4e2796",
-  fullHash = "4e2796",
-  text = "Timberling Sprout. Along Lake Al'Ameth, Timberling Sprouts take root already touched by corruption. Night elf wardens pull them before they grow into aggressive timberlings. Timberlings are plant spirits bound to Teldrassil's natural vitality. Along Lake Al'Ameth, the night elves find seedlings that sprout tainted and aggressive instead of healthy and in harmony with the wild. The young sprouts seem beyond cleansing or natural healing, so the caretakers gather and destroy them. They hope to stop hostile timberlings from spreading across the fragile boughs of the newly planted World Tree.",
+  hash = "546519",
+  fullHash = "546519",
+  text = "Timberling Sprout. Along Lake Al'Ameth, Timberling Sprouts emerge tainted, and night elf caretakers pull them before they grow into aggressive timberlings. Timberlings are plant spirits bound to Teldrassil's natural vitality. Along Lake Al'Ameth, some seedlings sprout tainted and aggressive instead of healthy and in harmony with the wild. The young sprouts seem beyond cleansing or natural healing, so the caretakers gather and destroy them. They hope to keep hostile timberlings from spreading across the fragile boughs of the newly planted World Tree.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_timberling-sprout-2432ffffe4f971945cd3/1-0000.mp3", duration = 34.1681633, start = 0},
+    {file = "Audio/Transport/full_item_timberling-sprout-d35503c923e9eeba71e5/1-0000.mp3", duration = 34.7167347, start = 0},
   },
 }
 P.transport["item:tirisfal-pumpkin"] = {
@@ -5258,35 +5258,35 @@ P.transport["item:tirisfal-pumpkin"] = {
   },
 }
 P.transport["item:token-of-thievery"] = {
-  hash = "870a93",
-  fullHash = "870a93",
-  text = "Token of Thievery. In the Redridge Mountains, rogues face a test set by Lucius at Alther's Mill. A locked footlocker holds the Token of Thievery, proof of skill recovered during their training. In Lakeshire, Lucius tests promising rogues in the field. He hides the Token of Thievery in a locked footlocker among the ruins of Alther's Mill, where Blackrock orcs threaten the area. Recovering it tests whether an initiate can pick a lock under mortal danger. Success earns a Certificate of Thievery.",
+  hash = "5fce0f",
+  fullHash = "5fce0f",
+  text = "Token of Thievery. At Alther's Mill, Lucius puts rogue initiates to a dangerous test. They must recover the Token of Thievery from a locked footlocker among the ruins. Lucius tests promising rogues in the field from Lakeshire. Among the ruins of Alther's Mill, he hides the Token of Thievery in a locked footlocker. Blackrock orcs threaten the area, making each attempt a test of lockpicking under mortal danger. Success earns a Certificate of Thievery.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_token-of-thievery-30140f57f37e34ebe83b/1-0000.mp3", duration = 29.7273469, start = 0},
+    {file = "Audio/Transport/full_item_token-of-thievery-63db0a62907b47a24a44/1-0000.mp3", duration = 27.2195918, start = 0},
   },
 }
 P.transport["item:tome-of-the-cabal-quest-item"] = {
-  hash = "99d2ad",
-  fullHash = "99d2ad",
-  text = "Tome of the Cabal (quest item). Warlocks in Ratchet receive the Tome of the Cabal from Strahad Farsan after gathering dangerous components. Its pages hold the incantations for drawing a felhunter across the Twisting Nether and binding it. A felhunter is a vicious beast from the chaotic Twisting Nether, feared for devouring mana. Subduing one marks a passage for seasoned warlocks. The Tome of the Cabal holds the rites for opening a path to such a demon. Strahad Farsan, an experienced conjurer in Ratchet, gives the tome to an aspirant only after they gather the rare and dangerous components its magic requires. Strahad Farsan establishes the primary summoning circle in his sanctum, while his acolytes use rods of channeling to form a greater protective boundary. The warlock recites the tome's exact incantations and drags the felhunter into our world. The demon must be battled at once and subdued, binding it to the warlock's will.",
+  hash = "3b2fdd",
+  fullHash = "3b2fdd",
+  text = "Tome of the Cabal (quest item). In Ratchet, Strahad Farsan gives warlocks the Tome of the Cabal after they gather dangerous components. Its pages teach them to draw a felhunter through the Twisting Nether and bind it. A felhunter is a vicious beast from the chaotic Twisting Nether, feared for devouring mana. To subdue one is a trial for seasoned warlocks. The Tome of the Cabal holds the rites for opening a path to the demon. Strahad Farsan, an experienced conjurer in Ratchet, gives it to an aspirant after they gather the rare and dangerous components its magic requires. Strahad Farsan makes the primary summoning circle in his sanctum. His acolytes use rods of channeling to shape a greater protective boundary. The warlock recites the tome's exact incantations and drags the felhunter into our world. Then the demon must be fought at once and subdued, bound to the warlock's will.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_tome-of-the-cabal-quest-item-b16950bc5fb866b5f98f/1-0000.mp3", duration = 55.8236735, start = 0},
+    {file = "Audio/Transport/full_item_tome-of-the-cabal-quest-item-1e69a24278225cbab4cd/1-0000.mp3", duration = 55.8759184, start = 0},
   },
 }
 P.transport["item:top-of-gelkak-s-key"] = {
-  hash = "875381",
-  fullHash = "875381",
-  text = "Top of Gelkak's Key. A giant foreststrider carries the Top of Gelkak's Key into the woods near Darkshore. It is one of three broken pieces of a mechanical key belonging to the shipwrecked gnome Gelkak Gyromast. Threshadons attacked Gelkak Gyromast's ship off Darkshore and sent it beneath the waves. The gnome washed ashore with the winding key for his mechanical first mate. The impact against the coastal rocks broke it into three pieces. Before the dizzy pirate could gather his wits, beasts scavenged the wreckage. A giant foreststrider carried the ornate upper piece into the woods.",
+  hash = "e31a34",
+  fullHash = "e31a34",
+  text = "Top of Gelkak's Key. A giant foreststrider bears the Top of Gelkak's Key into the woods near Darkshore. The piece broke from a mechanical key that belongs to the shipwrecked gnome Gelkak Gyromast. Threshadons struck Gelkak Gyromast's ship off Darkshore and dragged it beneath the waves. Gelkak washed ashore with the winding key for his mechanical first mate. The coastal rocks broke the key into three pieces.\n\nBefore the dizzy pirate could gather his wits, beasts scavenged the wreckage. A giant foreststrider carried the ornate upper piece into the woods.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_top-of-gelkak-s-key-a2b3c8b05a61361d9210/1-0000.mp3", duration = 36.1534694, start = 0},
+    {file = "Audio/Transport/full_item_top-of-gelkak-s-key-99d5bd38d6980913ae04/1-0000.mp3", duration = 34.2987755, start = 0},
   },
 }
 P.transport["item:torch-of-the-dormant-flame"] = {
-  hash = "663326",
-  fullHash = "663326",
-  text = "Torch of the Dormant Flame. At the Shrine of the Dormant Flame, a shaman prepares to kindle the Torch of the Dormant Flame. The unlit torch waits for a fire spirit's ember, earned on a mountaintop in Durotar. A shaman seeking fire's favor carries the unlit Torch of the Dormant Flame up the peaks above Durotar. Fire sapta lets the shaman see a Minor Manifestation of Fire on the mountaintop and challenge it. When the spirit falls, its glowing ember goes into the weathered brazier at the Shrine of the Dormant Flame. The shaman touches the torch's head to the white-hot blaze, and the wood awakens as a burning emblem of elemental mastery.",
+  hash = "891bd5",
+  fullHash = "891bd5",
+  text = "Torch of the Dormant Flame. At the Shrine of the Dormant Flame, a shaman stands ready to kindle the Torch of the Dormant Flame. Its fire waits on an ember won atop a mountain in Durotar. A shaman carries the unlit Torch of the Dormant Flame up the peaks above Durotar, seeking fire's favor. With fire sapta, the shaman sees a Minor Manifestation of Fire atop the mountain and challenges it. When the spirit falls, its glowing ember is placed in the weathered brazier at the Shrine of the Dormant Flame. Then the shaman touches the torch's head to the white-hot blaze, and the wood awakens as a burning emblem of elemental mastery.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_torch-of-the-dormant-flame-827f12832f2acc39e7a7/1-0000.mp3", duration = 36.884898, start = 0},
+    {file = "Audio/Transport/full_item_torch-of-the-dormant-flame-08b9b218b1e80ebd8799/1-0000.mp3", duration = 37.12, start = 0},
   },
 }
 P.transport["item:torn-fin-eye"] = {
@@ -5322,27 +5322,27 @@ P.transport["item:tough-wolf-meat"] = {
   },
 }
 P.transport["item:tourmaline-phial"] = {
-  hash = "f1ed54",
-  fullHash = "f1ed54",
-  text = "Tourmaline Phial. At the Pools of Arlithrien, the Tourmaline Phial gathers blessed moonwell water for Teldrassil's rituals. Corithras Moonrage gives the Tourmaline Phial to travelers for rituals that tend the World Tree. Druids in Dolanaar use gemstone vials to collect pure moonwell water across Teldrassil. This phial is meant for the moonwell beside the Pools of Arlithrien, southeast of the road to Darnassus, where hostile Gnarlpine furbolgs are growing more troublesome.",
+  hash = "52268b",
+  fullHash = "52268b",
+  text = "Tourmaline Phial. At the Pools of Arlithrien, travelers gather blessed moonwell water in the Tourmaline Phial for Teldrassil's rituals. Corithras Moonrage gives travelers the Tourmaline Phial for rituals that tend the World Tree. Druids in Dolanaar use gemstone vials to gather pure moonwell water across Teldrassil. This phial is for the moonwell beside the Pools of Arlithrien, southeast of the road to Darnassus. Hostile Gnarlpine furbolgs are growing more troublesome there.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_tourmaline-phial-5f419811ff15c7355992/1-0000.mp3", duration = 27.3763265, start = 0},
+    {file = "Audio/Transport/full_item_tourmaline-phial-acf0929c182fe1cfa637/1-0000.mp3", duration = 30.4326531, start = 0},
   },
 }
 P.transport["item:toxic-fogger"] = {
-  hash = "4a6c98",
-  fullHash = "4a6c98",
-  text = "Toxic Fogger. In Stonetalon, the Toxic Fogger is bound for the Venture Company's air routes. The Forsaken Royal Apothecary Society filled the device with lethal poison to contaminate the company's flights. Apothecary Zamah sends the Toxic Fogger against the Venture Company's mining work. Apothecary Lydon brewed its toxin in Tarren Mill, and Zamah dispatched it from Thunder Bluff. She suspects the goblins use courier flying machines to carry messages and light cargo between Stonetalon and their headquarters. Her plan is to release the poison where those machines land and refuel. The Forsaken aim to strike the company's supply route instead of fighting its mercenary crews in drawn-out skirmishes.",
+  hash = "57d30d",
+  fullHash = "57d30d",
+  text = "Toxic Fogger. In Stonetalon, the Toxic Fogger is bound for Venture Company air routes. The Forsaken Royal Apothecary Society filled it with lethal poison to contaminate the company’s flights. Apothecary Zamah sends the Toxic Fogger against the Venture Company's mining work. Apothecary Lydon brewed its toxin in Tarren Mill, and Zamah sent it from Thunder Bluff. She suspects the goblins carry messages and light cargo between Stonetalon and their headquarters by courier flying machine.\n\nZamah plans to release the poison where those machines land and refuel. The Forsaken mean to strike the company's supply route instead of meeting its mercenary crews in drawn-out skirmishes.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_toxic-fogger-f893df70641a5c08ea4f/1-0000.mp3", duration = 42.9714286, start = 0},
+    {file = "Audio/Transport/full_item_toxic-fogger-68e941c3fe06d197d91d/1-0000.mp3", duration = 41.6914286, start = 0},
   },
 }
 P.transport["item:treshala-s-pendant"] = {
-  hash = "66ecd9",
-  fullHash = "66ecd9",
-  text = "Treshala's Pendant. In Razorfen Kraul, a pendant carries the bond between Treshala and Heralath Fallowbrook. Heralath brought it from their home in Darnassus into southern Kalimdor, where the quilboar tore it from him as he lay dying. Heralath Fallowbrook carried the pendant close when he left Teldrassil on perilous journeys. The necklace reminded him of home and of his beloved wife, Treshala, and the devotion they shared.",
+  hash = "1628f1",
+  fullHash = "1628f1",
+  text = "Treshala's Pendant. In Razorfen Kraul, Heralath's pendant bears the bond he shares with Treshala. He carried it from their home in Darnassus into southern Kalimdor, where the quilboar tore it from him as he lay dying. On perilous journeys from Teldrassil, Heralath Fallowbrook kept the pendant close. It brought his home to mind, along with his beloved wife, Treshala, and the devotion they shared.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_treshala-s-pendant-f412f8ead5fcbee73506/1-0000.mp3", duration = 26.5142857, start = 0},
+    {file = "Audio/Transport/full_item_treshala-s-pendant-3a8c365fceb2ef11e5fa/1-0000.mp3", duration = 25.2081633, start = 0},
   },
 }
 P.transport["item:trogg-stone-tooth"] = {
@@ -5354,11 +5354,11 @@ P.transport["item:trogg-stone-tooth"] = {
   },
 }
 P.transport["item:troll-charm"] = {
-  hash = "dbb096",
-  fullHash = "dbb096",
-  text = "Troll Charm. In Ashenvale, Troll Charms have been taken from fallen Darkspear travelers. The Thistlefur furbolgs seized the sacred amulets after ambushing the party on its way to Zoram'gar Outpost. Darkspear trolls carry spiritual charms as marks of dignity. Scout Mitsuwa says a troll without one is as diminished as an orc without battle scars. A party of Darkspear kin traveled through Ashenvale's canopy toward Zoram'gar Outpost when corrupted Thistlefur furbolgs ambushed and slaughtered them. Their spirits were commended to the afterlife, while the furbolgs took the charms as trophies and stashed them in chests deep within Thistlefur Hold.",
+  hash = "60761d",
+  fullHash = "60761d",
+  text = "Troll Charm. In Ashenvale, Troll Charms have been stolen from Darkspear travelers. The Thistlefur furbolgs took the sacred amulets after ambushing the party on its way to Zoram'gar Outpost. Darkspear trolls wear spiritual charms as marks of dignity. Scout Mitsuwa says a troll without one is as diminished as an orc without battle scars. A party of Darkspear kin traveled beneath Ashenvale's canopy toward Zoram'gar Outpost. Corrupted Thistlefur furbolgs ambushed and slaughtered them. Their spirits were commended to the afterlife, while the furbolgs took the charms as trophies and hid them in chests deep within Thistlefur Hold.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_troll-charm-4ad29767864e49e12e4e/1-0000.mp3", duration = 40.4114286, start = 0},
+    {file = "Audio/Transport/full_item_troll-charm-49bc70ef723bf7a97737/1-0000.mp3", duration = 37.5379592, start = 0},
   },
 }
 P.transport["item:trophy-swoop-quill"] = {
@@ -5370,67 +5370,67 @@ P.transport["item:trophy-swoop-quill"] = {
   },
 }
 P.transport["item:twilight-pendant"] = {
-  hash = "b49eac",
-  fullHash = "b49eac",
-  text = "Twilight Pendant. In Blackfathom Deeps, Twilight Pendants mark the cultists who serve the Twilight's Hammer. The Argent Dawn seeks them as proof of the cult's work along Ashenvale's coast. Beneath the drowned ruins of Blackfathom Deeps, the Twilight's Hammer gathers with the naga to honor the chaotic Old Gods. Shadowmages, aquamancers, reavers, and loreseekers all wear Twilight Pendants as signs of devotion to their shadowy patrons. The cult keeps to the ruins of the former night elf temple, so these pendants offer outsiders one of the few ways to learn how many cultists gather there and hinder their plans. Argent Guard Manados in Darnassus seeks Twilight Pendants as evidence that the growing darkness is being driven back. Blackfathom Deeps once held a pristine moonwell, and its desecration by void-worshipers threatens Kalimdor. Gathering the pendants shows that the Twilight's Hammer foothold in Ashenvale is being dismantled before its patrons can unleash greater terror.",
+  hash = "052b90",
+  fullHash = "052b90",
+  text = "Twilight Pendant. In Blackfathom Deeps, Twilight Pendants mark the Twilight's Hammer cultists who gather with the naga. The Argent Dawn seeks the pendants as proof of the cult's work along Ashenvale's coast. Beneath Blackfathom Deeps, the Twilight's Hammer gathers with the naga to honor the chaotic Old Gods. Shadowmages, aquamancers, reavers, and loreseekers wear Twilight Pendants to show devotion to their shadowy patrons. The cult keeps to the ruins of a former night elf temple. So the pendants give outsiders one of the few ways to learn how many cultists gather there and hinder their plans. In Darnassus, Argent Guard Manados seeks Twilight Pendants as evidence that the growing darkness is being driven back. Blackfathom Deeps once held a pristine moonwell, and void-worshipers have desecrated it. That threatens Kalimdor. Gathering the pendants shows the Twilight's Hammer foothold in Ashenvale is being dismantled before its patrons unleash greater terror.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_twilight-pendant-26436a6ede41bf76c8a6/1-0000.mp3", duration = 61.5183673, start = 0},
+    {file = "Audio/Transport/full_item_twilight-pendant-f46f7a1d43ba6bc31d34/1-0000.mp3", duration = 61.3355102, start = 0},
   },
 }
 P.transport["item:twilight-whisker"] = {
-  hash = "b40ac0",
-  fullHash = "b40ac0",
-  text = "Twilight Whisker. In Malaka'jin, Witch Doctor Jin'Zil gathers Twilight Whisker for his brew. Twilight runners carry the whiskers in the northern heights of the Stonetalon Mountains. Twilight runners prowl the high crags near Stonetalon Peak. Hunters prize their pelts, while Witch Doctor Jin'Zil of Malaka'jin wants their stiff whiskers for a darker purpose. He seeks vengeance on night elves captured after defending these woodlands. To mock and poison his captives, Jin'Zil gathers resinous sap, countless eyes, fey dragon scales, and Twilight Whisker for a lethal draught he calls forest magic.",
+  hash = "1255d1",
+  fullHash = "1255d1",
+  text = "Twilight Whisker. In Malaka'jin, Witch Doctor Jin'Zil gathers Twilight Whisker for his brew. Twilight runners carry the whiskers through the northern heights of the Stonetalon Mountains. Twilight runners prowl the high crags near Stonetalon Peak. Hunters prize their pelts, while Witch Doctor Jin'Zil of Malaka'jin seeks their stiff whiskers for a darker purpose. He seeks vengeance on the night elves captured after defending these woodlands. To mock and poison his captives, Jin'Zil gathers resinous sap, countless eyes, fey dragon scales, and Twilight Whisker for a lethal draught he calls forest magic.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_twilight-whisker-02a1ed9cf07d296f9c5e/1-0000.mp3", duration = 37.9297959, start = 0},
+    {file = "Audio/Transport/full_item_twilight-whisker-8acfd22c020258a0ccdf/1-0000.mp3", duration = 38.1126531, start = 0},
   },
 }
 P.transport["item:twitching-antenna"] = {
-  hash = "3bd2b2",
-  fullHash = "3bd2b2",
-  text = "Twitching Antenna. In the southern Barrens, silithid antennae still twitch after they are cut free. Ruga Ragetotem at Camp Taurajo seeks them as proof of a young warrior’s speed and skill in combat before the nerves go still. Silithid Grubs, Swarmers, Harvesters, and Creepers carry antennae that twitch after they are cut from the head. The spasms fade soon after the insects are slain. A young warrior must hunt silithid in the southern wastes and hurry back across the scrublands while the antennae still twitch. Bringing them back in time tests both speed and skill, making the hunt a rite of passage for Horde warriors. The silithid antennae also point to a threat that troubles Camp Taurajo’s hunters. Silithid are not native to the Barrens, and their new burrowing mounds at the Field of Giants unsettle the camp. Ruga Ragetotem wants the specimens to study the danger and prepare Horde warriors for the alien menace moving into the plains.",
+  hash = "0de649",
+  fullHash = "0de649",
+  text = "Twitching Antenna. In the southern Barrens, Twitching Antennae mark a hunt that tests a young warrior's speed and skill. Ruga Ragetotem at Camp Taurajo seeks them before their nerves go still. Silithid Grubs, Swarmers, Harvesters, and Creepers carry antennae that twitch after they are cut from the head. The spasms fade soon after the insects die. A young warrior must hunt silithid in the southern wastes, then hurry back across the scrublands while the antennae still twitch. The trial tests speed and skill, and marks a rite of passage for Horde warriors. Silithid antennae point to a danger troubling Camp Taurajo's hunters. The creatures are not native to the Barrens, and their new burrowing mounds at the Field of Giants unsettle the camp. Ruga Ragetotem wants the specimens to study the threat and prepare Horde warriors for the alien menace moving into the plains.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_twitching-antenna-a79a2a9b9ba4e8c2b5cf/1-0000.mp3", duration = 57.077551, start = 0},
+    {file = "Audio/Transport/full_item_twitching-antenna-baa5e8d60d813c353a48/1-0000.mp3", duration = 51.6179592, start = 0},
   },
 }
 P.transport["item:ukor-s-burden"] = {
-  hash = "252e36",
-  fullHash = "252e36",
-  text = "Ukor's Burden. At the Valley of Trials, Ukor's food is turned away, and he needs help bringing it back to Razor Hill. Ukor, an orc peon, rarely acts on his own, but he carried provisions from the inn in Razor Hill to help young recruits in the Valley of Trials. The journey led him through Durotar's red dust and dangerous wildlife. The overseers and instructors refused the food, believing hardship and hunger make true warriors. Now Ukor waits outside the canyon's mouth, afraid of the beasts along the trail back. He has entrusted the sack to passing travelers, asking them to return it to Innkeeper Grosk.",
+  hash = "462262",
+  fullHash = "462262",
+  text = "Ukor's Burden. At the Valley of Trials, Ukor’s rejected provisions leave him needing help to carry them back to Razor Hill. Ukor, an orc peon, rarely acts on his own. Yet he carried provisions from the inn in Razor Hill to feed young recruits in the Valley of Trials. The journey took him through Durotar’s red dust and dangerous wildlife.\n\nThe overseers and instructors refused the food, believing hardship and hunger make true warriors. Now Ukor waits outside the canyon’s mouth, afraid of the beasts on the trail back. He has entrusted the sack to passing travelers and asks them to return it to Innkeeper Grosk.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_ukor-s-burden-abdd144475db67569b9b/1-0000.mp3", duration = 38.0081633, start = 0},
+    {file = "Audio/Transport/full_item_ukor-s-burden-dd9e6868ee4d30de638e/1-0000.mp3", duration = 39.7844898, start = 0},
   },
 }
 P.transport["item:uncloven-satyr-hoof"] = {
-  hash = "a09186",
-  fullHash = "a09186",
-  text = "Uncloven Satyr Hoof. In Ashenvale, satyrs gorge themselves on the ancient forest’s magic. Their swollen hooves hold the power they steal, and Ula'elek uses it to forge armor in Sen'jin Village. Satyrs haunt the corrupted groves of northeastern Ashenvale, feeding on the ancient forest’s magical purity. The more they consume, the more corruption distorts their demonic bodies. Their hooves swell and lose their natural cleft, becoming dense stores of absorbed energy. Skilled shamans and leatherworkers can harvest that volatile power. At Sen'jin Village on Durotar’s coast, the troll armorer Ula'elek turns demonic corruption into strength for Horde champions. He takes hooves from satyrs that have fed on the forest and draws out their trapped magic. Then he channels that stolen power into brutal gauntlets, armor for young warriors facing the rigors of Kalimdor.",
+  hash = "b3921d",
+  fullHash = "b3921d",
+  text = "Uncloven Satyr Hoof. In Ashenvale, Uncloven Satyr Hooves hold the power satyrs steal from the ancient forest. Ula'elek uses that power to forge armor in Sen'jin Village. Satyrs haunt the corrupted groves of northeastern Ashenvale, feeding on the ancient forest’s magic. The more they consume, the more corruption twists their demonic bodies. Their hooves swell and lose their cleft, becoming dense stores of the energy they have absorbed. Skilled shamans and leatherworkers can harvest that volatile power. At Sen'jin Village on Durotar’s coast, Ula'elek turns demonic corruption into strength for Horde champions. The troll armorer takes hooves from satyrs that have fed on the forest and draws out their trapped magic. Then he channels that stolen power into brutal gauntlets, armor for young warriors facing the rigors of Kalimdor.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_uncloven-satyr-hoof-172835ae33aceb829b06/1-0000.mp3", duration = 55.1967347, start = 0},
+    {file = "Audio/Transport/full_item_uncloven-satyr-hoof-a91f85aebcc7d4f9e458/1-0000.mp3", duration = 50.7559184, start = 0},
   },
 }
 P.transport["item:underbelly-whelp-scale"] = {
-  hash = "61a08e",
-  fullHash = "61a08e",
-  text = "Underbelly Whelp Scale. South of Lake Everstill, Underbelly Whelp Scale trades hands among Redridge craftsmen. Black dragon whelps provide the pliable scales, and local artisans value them when coin is scarce. Black dragons bear tough scales, but facing a full-grown one is deadly for ordinary folk. South of Lake Everstill, black dragon whelps nest among the crags. Their back plates can be brittle or coarse, while the softer scales beneath their bellies bend more readily and still offer protection. Those qualities make Underbelly Whelp Scale valuable in local trade. Craftsmen prize it, and creditors can accept it in place of coin. In Lakeshire, craftsmen sometimes barter when coin runs short or trade routes are strained. Verner Osgood, the local blacksmith, owes a heavy debt to Argus, a blacksmith in Goldshire. The debt began with a shipment of shoes brought in from Goldshire. Argus favors rare trade goods, so Verner depends on travelers to gather underbelly whelp scales. They can help settle what he owes and keep his workshop in good standing.",
+  hash = "644d1b",
+  fullHash = "644d1b",
+  text = "Underbelly Whelp Scale. South of Lake Everstill, Redridge craftsmen trade Underbelly Whelp Scale. Black dragon whelps provide the pliable scales, valued by local artisans when coin runs short. Black dragons bear tough scales, but an ordinary person cannot safely face a full-grown one. South of Lake Everstill, black dragon whelps nest among the crags. Their back plates may be brittle or coarse, while the softer scales beneath their bellies bend more readily and still protect. So Underbelly Whelp Scale has value in local trade. Craftsmen prize it, and creditors may accept it in place of coin. When coin runs short or trade routes strain, Lakeshire craftsmen sometimes barter. Verner Osgood, the local blacksmith, owes a heavy debt to Argus, a blacksmith in Goldshire. The debt began with a shipment of shoes brought from Goldshire. Argus favors rare trade goods, so Verner relies on travelers to gather underbelly whelp scales. They can help settle what he owes and keep his workshop in good standing.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_underbelly-whelp-scale-e3e53ede641f99ae32c4/1-0000.mp3", duration = 66.0636735, start = 0},
+    {file = "Audio/Transport/full_item_underbelly-whelp-scale-3dc017da73b66b5ba458/1-0000.mp3", duration = 65.1232653, start = 0},
   },
 }
 P.transport["item:unidentified-ore"] = {
-  hash = "e44c30",
-  fullHash = "e44c30",
-  text = "Unidentified Ore. At Windshear Crag, Unidentified Ore draws the Venture Company's attention. Piznik recovered a sample and passed it to Ziz Fizziks for study in Undermine. The Venture Company's clear-cutting and strip mining at Windshear Crag exposed unusual mineral strata in the Stonetalon Mountains. The site's new boss, Gerenzo Wrenchwhistle, ordered large amounts of strange gold-green ore mined. Demoted goblin worker Piznik remained loyal to his fired former boss, Ziz Fizziks, and secured a sample while plotting his exit from the outfit. He handed it to a traveler bound for the crag's western ridge. Ziz planned to send most of the ore to Undermine for study and keep a small cut for personal profit.",
+  hash = "85190d",
+  fullHash = "85190d",
+  text = "Unidentified Ore. At Windshear Crag, Unidentified Ore has drawn the Venture Company's attention. Piznik recovered a sample and gave it to Ziz Fizziks for study in Undermine. The Venture Company has exposed unusual mineral strata in the Stonetalon Mountains through clear-cutting and strip mining at Windshear Crag. Its new boss, Gerenzo Wrenchwhistle, ordered large amounts of strange gold-green ore mined.\n\nDemoted goblin worker Piznik stayed loyal to his fired former boss, Ziz Fizziks. He secured a sample while planning his escape from the outfit, then gave it to a traveler bound for the crag's western ridge. Ziz plans to send most of the ore to Undermine for study and keep a small cut for himself.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_unidentified-ore-13bfb9ac7a5dace93d48/1-0000.mp3", duration = 44.0685714, start = 0},
+    {file = "Audio/Transport/full_item_unidentified-ore-47b1890167b7f82abb18/1-0000.mp3", duration = 43.4416327, start = 0},
   },
 }
 P.transport["item:unrefined-ore-sample"] = {
-  hash = "5ad5bb",
-  fullHash = "5ad5bb",
-  text = "Unrefined Ore Sample. In Thousand Needles, an unusual ore draws the Horde's attention. Tatternack Steelforge seeks a sample to judge whether the raw mineral can strengthen the weapons of Warchief Thrall's armies. South of the Barrens, Gravelsnout kobolds dig through the stone beneath the canyon walls of Thousand Needles. Travelers returning north found a curious mineral among slain vermin, unlike the usual veins of Kalimdor. They refused to surrender their prize to the Horde. The kobolds who dig and survey the depths carry raw chunks of the ore from their excavations. At Camp Taurajo, weaponsmith Tatternack Steelforge works under orders from Warchief Thrall to improve the Horde's arms. Travelers who kept knowledge of the deposit angered him; he saw their refusal as an insult to the Horde's war effort. With a raw sample, Tatternack plans to test the mineral's strength and temper, then smelt it and forge a prototype blade for Orgrimmar's approval.",
+  hash = "b6393d",
+  fullHash = "b6393d",
+  text = "Unrefined Ore Sample. In Thousand Needles, the Horde seeks a sample of unusual ore. Tatternack Steelforge wants to learn whether it can strengthen Warchief Thrall's armies. South of the Barrens, Gravelsnout kobolds dig beneath the canyon walls of Thousand Needles. Travelers returning north found a curious mineral among slain vermin. It was unlike the usual veins of Kalimdor. They refused to give their find to the Horde. The kobolds who dig and survey the depths carry raw chunks from their excavations. At Camp Taurajo, weaponsmith Tatternack Steelforge works under Warchief Thrall's orders to improve the Horde's arms. Travelers who knew of the deposit angered him by refusing to share it. He saw their refusal as an insult to the Horde's war effort. With a raw sample, Tatternack plans to test the ore's strength and temper. Then he will smelt it and forge a prototype blade for Orgrimmar's approval.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_unrefined-ore-sample-2ca91758eb8204fcb526/1-0000.mp3", duration = 57.364898, start = 0},
+    {file = "Audio/Transport/full_item_unrefined-ore-sample-639042a3e5b0e5ce0a35/1-0000.mp3", duration = 57.7567347, start = 0},
   },
 }
 P.transport["item:ur-s-treatise-on-shadow-magic"] = {
@@ -5442,11 +5442,11 @@ P.transport["item:ur-s-treatise-on-shadow-magic"] = {
   },
 }
 P.transport["item:urgent-message"] = {
-  hash = "e6c915",
-  fullHash = "e6c915",
-  text = "Urgent Message. The Urgent Message is a sealed dispatch penned by Brave Moonhorn warning Freewind Post of escalating centaur violence across Thousand Needles. Carried by travelers descending into the canyon, the letter alerts the tauren garrison that their supply lines and scouting parties are under immediate threat. Penned by Brave Moonhorn near the great lift that descends from the Barrens into Thousand Needles, the Urgent Message represents the first line of defense for travelers crossing the border. Moonhorn monitors the jagged canyons below, where aggressive centaur tribes have renewed their relentless raids against Horde travel. Addressed to Cliffwatcher Longhorn atop Freewind Post, the missive sounds the alarm about emboldened attackers striking dangerously close to crucial roadways, urging the local garrison to brace for sustained conflict and guard against secondary threats like the unpredictable Grimtotem clan.",
+  hash = "2446f7",
+  fullHash = "2446f7",
+  text = "Urgent Message. Brave Moonhorn warns Freewind Post that centaur raids are growing across Thousand Needles. Travelers and the roads are in danger. Near the Great Lift from the Barrens into Thousand Needles, Brave Moonhorn writes Urgent Message. From there, Moonhorn watches the jagged canyons below as centaur tribes renew their raids on Horde travelers.\n\nThe letter is bound for Cliffwatcher Longhorn atop Freewind Post. Moonhorn warns that attackers have grown bolder and strike near important roads. The garrison must prepare for more fighting and watch for the unpredictable Grimtotem clan.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_urgent-message-366d79b4988bd7ea1e85/1-0000.mp3", duration = 53.6032653, start = 0},
+    {file = "Audio/Transport/full_item_urgent-message-10b6ea0ca5dfa35c154f/1-0000.mp3", duration = 35.9183673, start = 0},
   },
 }
 P.transport["item:valdred-s-hands"] = {
@@ -5458,35 +5458,35 @@ P.transport["item:valdred-s-hands"] = {
   },
 }
 P.transport["item:velinde-s-journal"] = {
-  hash = "37fab5",
-  fullHash = "37fab5",
-  text = "Velinde's Journal. Velinde Starsong's personal journal records her duties and the mystery of her departure from Darnassus. The Night Elf priestess's journal is stored in the Sentinel bunkhouse. When Night Elf priestess Velinde Starsong left Darnassus, her belongings were locked in a footlocker at the Sentinels' bunkhouse in the Tradesmen's Terrace. Among them was her personal journal, a record of her responsibilities and duties. The Sentinels respected Velinde and believed she had left to attend to private matters. Her journal's contents suggest her unexplained absence is more troubling than they first believed.",
+  hash = "124dda",
+  fullHash = "124dda",
+  text = "Velinde's Journal. In Darnassus, Velinde Starsong's journal records her duties and the mystery of her departure. The Night Elf priestess's journal rests in the Sentinel bunkhouse. When Night Elf priestess Velinde Starsong left Darnassus, the Sentinels locked her belongings in a footlocker at their bunkhouse in the Tradesmen's Terrace. Her personal journal was among them, recording her responsibilities and duties. The Sentinels respected Velinde and believed she had gone to attend to private matters. But her words suggest her absence troubles them more than they first thought.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_velinde-s-journal-aa0beb1189b5d924b744/1-0000.mp3", duration = 35.1346939, start = 0},
+    {file = "Audio/Transport/full_item_velinde-s-journal-5d443a1ed78ad9593619/1-0000.mp3", duration = 34.7167347, start = 0},
   },
 }
 P.transport["item:velinde-s-key"] = {
-  hash = "c8b910",
-  fullHash = "c8b910",
-  text = "Velinde's Key. In Darnassus, Velinde's Key guards the writings of a vanished priestess. Thyn'tel Bladeweaver entrusts it to those who bring proof of their interest in Velinde Starsong's fate. Thyn'tel Bladeweaver keeps Velinde's Key in Darnassus. The simple key secures Priestess Velinde Starsong's personal belongings in a footlocker in the Sentinel bunkhouse above the Tradesmen's Terrace. Velinde left night elf lands without warning, and her possessions were set aside. Bladeweaver gives the key only to those who bring genuine evidence of their interest in learning her fate, such as revelations found in the Tome of Mel'Thandris.",
+  hash = "aa41fc",
+  fullHash = "aa41fc",
+  text = "Velinde's Key. In Darnassus, Thyn'tel Bladeweaver keeps Velinde's Key for those who seek the vanished priestess's fate. It guards her writings and belongings. Thyn'tel Bladeweaver keeps Velinde's Key in Darnassus. The simple key opens a footlocker holding Priestess Velinde Starsong's personal belongings. It rests in the Sentinel bunkhouse above the Tradesmen's Terrace. Velinde left night elf lands without warning, so her possessions were set aside. Bladeweaver lends the key only to those who bring genuine proof of their interest in her fate, such as revelations from the Tome of Mel'Thandris.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_velinde-s-key-f2a970e9ff1b4ad2cfae/1-0000.mp3", duration = 38.9746939, start = 0},
+    {file = "Audio/Transport/full_item_velinde-s-key-f43d7c1ed3df11c712ec/1-0000.mp3", duration = 36.3102041, start = 0},
   },
 }
 P.transport["item:venomtail-antidote"] = {
-  hash = "42ec3d",
-  fullHash = "42ec3d",
-  text = "Venomtail Antidote. In Durotar, Venomtail Antidote is urgently needed to save a scout from scorpid poison. Kor'ghan brews the remedy in Orgrimmar for Rhinag, who lies stricken near Durotar's northwestern border. Durotar's venomtail scorpids can kill a warrior within an hour of a deep sting. Rhinag, a troll scout, was envenomed near the northwestern border, far from aid. His only chance is a remedy from Kor'ghan, an apothecary in Orgrimmar's Cleft of Shadow. Finding Kor'ghan means making your way beneath Orgrimmar. He knows desert toxins and harsh remedies, and prepares a vial to purge the venom before it turns fatal. The draught stops the poison and spares Rhinag a humiliating death in the wilderness. Kor'ghan still demands further trials and hunts from the scout to atone for his carelessness.",
+  hash = "8d49c3",
+  fullHash = "8d49c3",
+  text = "Venomtail Antidote. In Durotar, Rhinag lies stricken by scorpid venom, and time is running short. Kor'ghan brews the antidote in Orgrimmar for the scout near the northwestern border. A deep sting from Durotar's venomtail scorpids can kill a warrior within an hour. Rhinag, a troll scout, was envenomed near the northwestern border, far from aid. His only hope is a remedy from Kor'ghan, an apothecary in Orgrimmar's Cleft of Shadow. Kor'ghan works beneath Orgrimmar, where he knows desert toxins and harsh remedies. He prepares a vial to purge the venom before it turns fatal. The draught stops the poison and spares Rhinag a humiliating death in the wilderness. Even so, Kor'ghan demands further trials and hunts from the scout to atone for his carelessness.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_venomtail-antidote-fa97e654c0209469be19/1-0000.mp3", duration = 51.7746939, start = 0},
+    {file = "Audio/Transport/full_item_venomtail-antidote-06a0b3de99ff55f8c38e/1-0000.mp3", duration = 48.1436735, start = 0},
   },
 }
 P.transport["item:venomtail-poison-sac"] = {
-  hash = "42b370",
-  fullHash = "42b370",
-  text = "Venomtail Poison Sac. In Durotar, a scorpion’s venom can bring a hunter near death, while its poison sac holds what alchemists need to make a cure. Scorpids roam Durotar’s red rocks, including Venomtail Scorpids, Corrupted Scorpids, and the Death Flayer. Their tail sacs hold a fast-acting venom that can overwhelm even seasoned warriors if left untreated. The same sacs contain the primary compounds alchemists need to make an antidote. When a scorpion stung the hunter Rhinag outside Orgrimmar, local alchemists needed four fresh poison sacs to make a remedy and neutralize the venom in his veins.",
+  hash = "56264b",
+  fullHash = "56264b",
+  text = "Venomtail Poison Sac. In Durotar, a scorpion's venom can bring a hunter near death, and its poison sac holds what alchemists need for a cure. Scorpids roam Durotar’s red rocks. Venomtail Scorpids, Corrupted Scorpids, and the Death Flayer all carry sacs filled with fast-acting venom. Left untreated, the poison can overwhelm even seasoned warriors. Yet those same sacs hold the chief compounds alchemists need for an antidote.\n\nWhen a scorpion stung the hunter Rhinag outside Orgrimmar, local alchemists needed four fresh poison sacs. They would use them to make a remedy and neutralize the venom in his veins.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_venomtail-poison-sac-63548a408645660e5b8e/1-0000.mp3", duration = 37.4595918, start = 0},
+    {file = "Audio/Transport/full_item_venomtail-poison-sac-6c984950edc85714c3d1/1-0000.mp3", duration = 41.2734694, start = 0},
   },
 }
 P.transport["item:venture-co-documents"] = {
@@ -5498,19 +5498,19 @@ P.transport["item:venture-co-documents"] = {
   },
 }
 P.transport["item:venture-co-engineering-plans"] = {
-  hash = "594760",
-  fullHash = "594760",
-  text = "Venture Co. Engineering Plans. At Windshear Crag, the Venture Co. Engineering Plans reveal how the logging machinery is built. Alliance operatives recover the schematics from the goblin mill. Inside the lumber mill south of Cragpool Lake, the Venture Co. Engineering Plans show the construction, strengths, and flaws of the timber-harvesting machines. The Venture Company uses those machines to strip the forests of Stonetalon, while smoke hangs over Windshear Crag.",
+  hash = "ecf277",
+  fullHash = "ecf277",
+  text = "Venture Co. Engineering Plans. At Windshear Crag, Alliance operatives seek the Venture Co. Engineering Plans inside the goblin mill. The schematics show how the logging machines are built. South of Cragpool Lake, inside the lumber mill, the Venture Co. Engineering Plans reveal how the timber machines are built. They show the machines’ strengths and flaws. The Venture Company uses them to strip the forests of Stonetalon, while smoke hangs over Windshear Crag.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_venture-co-engineering-plans-8150b57e986ee382b429/1-0000.mp3", duration = 26.6710204, start = 0},
+    {file = "Audio/Transport/full_item_venture-co-engineering-plans-ce6cfefcc5c938cdd8dd/1-0000.mp3", duration = 27.5591837, start = 0},
   },
 }
 P.transport["item:venture-co-letters"] = {
-  hash = "f4c358",
-  fullHash = "f4c358",
-  text = "Venture Co. Letters. At Windshear Mine, Venture Co. Letters carry word of the cartel's work in Stonetalon Mountains. Recovered amid explosive distractions, they give the night elf Sentinels intelligence on goblin operations. Venture Company machines cut timber and strip-mine the ancient woodland around Windshear Crag. Alliance operatives set off covert sabotage to distract the workers and enter Windshear Mine. The letters they recover hold private messages and logistical records of the company's local work. Sentinel leaders can learn how the defilers arrange their workforce and supply lines from those records.",
+  hash = "98d482",
+  fullHash = "98d482",
+  text = "Venture Co. Letters. At Windshear Mine, Venture Co. Letters carry word of the cartel’s work in Stonetalon Mountains. Recovered during a covert operation, they give the night elf Sentinels intelligence on goblin operations. Venture Company machines cut timber and strip-mine the ancient woodland around Windshear Crag. Alliance operatives set off covert sabotage to distract the workers and enter Windshear Mine. There, they recover letters with private messages and logistical records of the company’s local work. Sentinel leaders can use them to learn how the defilers arrange their workforce and supply lines.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_venture-co-letters-72bdb306a126594fef2d/1-0000.mp3", duration = 34.8212245, start = 0},
+    {file = "Audio/Transport/full_item_venture-co-letters-eed0a04d709dd82f4bf2/1-0000.mp3", duration = 37.5379592, start = 0},
   },
 }
 P.transport["item:verdant-note"] = {
@@ -5522,11 +5522,11 @@ P.transport["item:verdant-note"] = {
   },
 }
 P.transport["item:verdant-sigil"] = {
-  hash = "83912b",
-  fullHash = "83912b",
-  text = "Verdant Sigil. In Shadowglen, Conservator Ilthalaine gives young night elf druids the Verdant Sigil as a summons to begin training. Young night elves in Shadowglen who feel the call of the wild receive the Verdant Sigil from Conservator Ilthalaine. A messenger brings it from Mardant Strongoak, the druid trainer, and it directs novices to climb into Aldrassil's boughs. The token invites them to leave basic chores behind and begin serious study of communion with nature spirits and the mysteries of the Emerald Dream. Presenting the Verdant Sigil to Mardant Strongoak begins a young druid's lifelong craft. Novices are not yet ready to walk the sleeping trance of the Emerald Dream, but the token marks the start of their mentorship. Under Mardant's instruction, they learn to read the wilderness's whispers and practice early shapeshifting and healing arts in service of Teldrassil.",
+  hash = "6335f2",
+  fullHash = "6335f2",
+  text = "Verdant Sigil. In Shadowglen, Conservator Ilthalaine sends young night elf druids toward the start of their training with the Verdant Sigil. Young night elves in Shadowglen receive the Verdant Sigil when they feel the call of the wild. Conservator Ilthalaine gives it to them with a message from Mardant Strongoak, their druid trainer. It directs the novices to climb into Aldrassil's boughs and begin their serious study. There they leave basic chores behind to learn communion with nature spirits and the mysteries of the Emerald Dream. Presenting the Verdant Sigil to Mardant Strongoak begins a young druid's lifelong craft. Novices cannot yet walk the sleeping trance of the Emerald Dream, but the token marks the start of their mentorship. Under Mardant's instruction, they learn to read the wilderness's whispers. They also practice early shapeshifting and healing arts in service of Teldrassil.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_verdant-sigil-19fa2e607cea28ddf374/1-0000.mp3", duration = 54.0734694, start = 0},
+    {file = "Audio/Transport/full_item_verdant-sigil-52e6ffac8fc6829f60ff/1-0000.mp3", duration = 53.5771429, start = 0},
   },
 }
 P.transport["item:verna-s-westfall-stew-recipe"] = {
@@ -5538,19 +5538,19 @@ P.transport["item:verna-s-westfall-stew-recipe"] = {
   },
 }
 P.transport["item:verner-s-note"] = {
-  hash = "926576",
-  fullHash = "926576",
-  text = "Verner's Note. In Redridge, Verner Osgood sends a written requisition west to Smith Argus in Goldshire. It describes Lakeshire’s iron shortage and asks the Elwynn smith for horseshoes. Lakeshire’s defense has consumed nearly all of Verner Osgood’s iron. The town’s blacksmith has used his reserves to arm and armor the Stormwind Guard, who are stretched thin against invading gnolls and local perils. Meanwhile, Lakeshire’s stables have fallen into neglect, without even basic horseshoes for their mounts. Verner asks Smith Argus in Goldshire to send prepared shoes from Elwynn, so the town can shoe its horses.",
+  hash = "5598b9",
+  fullHash = "5598b9",
+  text = "Verner's Note. In Redridge, Verner Osgood sends a written requisition west to Smith Argus in Goldshire. It reports Lakeshire's iron shortage and asks for horseshoes from Elwynn. Lakeshire's defense has used nearly all Verner Osgood's iron. The town's blacksmith spent his reserves arming and armoring the Stormwind Guard, stretched thin against invading gnolls and local perils. Meanwhile, the stables have fallen into neglect, and their mounts lack even basic horseshoes. Verner asks Smith Argus in Goldshire to send prepared shoes from Elwynn, so Lakeshire can shoe its horses.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_verner-s-note-d98d1029538a5d41d124/1-0000.mp3", duration = 39.9412245, start = 0},
+    {file = "Audio/Transport/full_item_verner-s-note-7a2157e4f91bc676041f/1-0000.mp3", duration = 36.7804082, start = 0},
   },
 }
 P.transport["item:verog-s-head"] = {
-  hash = "3686e3",
-  fullHash = "3686e3",
-  text = "Verog's Head. Regthar Deathgate seeks Verog's Head as proof of the Kolkar leader's death. The chieftain commands forces around the Stagnant Oasis, and his defeat is meant to weaken the tribes threatening the Barrens. The Kolkar centaur threaten Horde travelers and supply routes across the northern Barrens. Verog the Dervish roams the arid scrubland, leaving his command tent at the Stagnant Oasis vulnerable. Horde operatives attack his forces around the pavilion until an alarm sounds. Verog rushes back to defend his camp, where he is slain and decapitated. Regthar Deathgate receives his head as proof that another dangerous Kolkar chieftain has fallen. Barak Kodobane's head is already on display beside it.",
+  hash = "230314",
+  fullHash = "230314",
+  text = "Verog's Head. Regthar Deathgate seeks Verog's Head as proof that the Kolkar leader has fallen. Verog commands forces around the Stagnant Oasis, and his defeat is meant to weaken the tribes threatening the Barrens. The Kolkar threaten Horde travelers and supply routes across the northern Barrens. Verog the Dervish roams the arid scrubland, leaving his command tent at the Stagnant Oasis vulnerable. Horde operatives attack his forces around the pavilion until an alarm sounds.\n\nVerog rushes back to defend his camp, where he is slain and decapitated. Regthar Deathgate receives his head as proof that another dangerous Kolkar chieftain has fallen. Barak Kodobane's head is already displayed beside it.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_verog-s-head-e9d7549e3c46d88405d7/1-0000.mp3", duration = 44.4865306, start = 0},
+    {file = "Audio/Transport/full_item_verog-s-head-e255cdf61ac888ba1cc1/1-0000.mp3", duration = 42.7102041, start = 0},
   },
 }
 P.transport["item:vial-of-innocent-blood"] = {
@@ -5570,19 +5570,19 @@ P.transport["item:vial-of-phlogiston"] = {
   },
 }
 P.transport["item:vial-of-purest-water"] = {
-  hash = "e03e60",
-  fullHash = "e03e60",
-  text = "Vial of Purest Water. In the southern Barrens, Brine blesses a vial of pure water for a shaman initiate. Its contents help Islen Waterseer prepare a water sapta for seeing elemental spirits. Brine guides the initiate through trials of patience and cleansing before sealing the water in the vial. The water holds an uncorrupted elemental purity. Carry it across the Barrens to Islen Waterseer, who keeps watch on a solitary shore. She needs it to brew a water sapta. Without such pure water, a shaman cannot commune with spiritual guardians in places far from the sunbaked flats.",
+  hash = "b1ea8d",
+  fullHash = "b1ea8d",
+  text = "Vial of Purest Water. In the southern Barrens, Brine blesses pure water for a shaman initiate. Islen Waterseer needs it to prepare a water sapta that lets the initiate see elemental spirits. Brine leads the initiate through trials of patience and cleansing, then seals the water in the vial. Its purity is untouched by corruption. Carry it across the Barrens to Islen Waterseer, who watches over a solitary shore. She needs the water to brew a water sapta, for only such pure water lets a shaman commune with spiritual guardians far from the sunbaked flats.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_vial-of-purest-water-fae9a90469d660bc5c68/1-0000.mp3", duration = 37.1983673, start = 0},
+    {file = "Audio/Transport/full_item_vial-of-purest-water-52eccaaeb4e942f3a87b/1-0000.mp3", duration = 34.5077551, start = 0},
   },
 }
 P.transport["item:vial-of-spider-venom"] = {
-  hash = "064746",
-  fullHash = "064746",
-  text = "Vial of Spider Venom. In Duskwood, spiders carry venom that Madame Eva needs for a protective ward. She gathers it with undead remains to make a Totem of Infliction. Duskwood's thickets shelter venomous spiders, from pygmy venom webs and green recluses to black widows and Naraxis. Their fangs carry poison potent enough to paralyze travelers and decay flesh. Those who kill the spiders can draw the fluid into intact vials. In Darkshire, fortune teller Madame Eva sees ominous portents for travelers setting out into the dark world. She needs five vials of spider venom, ghoul fangs, and skeleton fingers to craft a ward of retribution. Her craft turns the venom’s biting nature against attackers, making the Totem of Infliction return harm to anyone who strikes its bearer.",
+  hash = "758fe5",
+  fullHash = "758fe5",
+  text = "Vial of Spider Venom. In Duskwood, Madame Eva gathers venomous spiders' poison to make a ward against attackers. She needs it alongside undead remains for a Totem of Infliction. Duskwood's thickets shelter venomous spiders, from pygmy venom webs and green recluses to black widows and Naraxis. Their fangs carry poison potent enough to paralyze travelers and decay flesh. Those who kill the spiders can draw the fluid into intact vials. In Darkshire, fortune teller Madame Eva sees ominous portents for travelers setting out into the dark world. She needs five vials of spider venom, ghoul fangs, and skeleton fingers to craft a ward of retribution. Her craft turns the venom’s biting nature against attackers. The Totem of Infliction returns harm to anyone who strikes its bearer.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_vial-of-spider-venom-290d59e5d084c3734f83/1-0000.mp3", duration = 47.0465306, start = 0},
+    {file = "Audio/Transport/full_item_vial-of-spider-venom-cd598eb1243ae692a01b/1-0000.mp3", duration = 48.6661224, start = 0},
   },
 }
 P.transport["item:vicious-night-web-spider-venom"] = {
@@ -5594,11 +5594,11 @@ P.transport["item:vicious-night-web-spider-venom"] = {
   },
 }
 P.transport["item:vile-familiar-head"] = {
-  hash = "5cb478",
-  fullHash = "5cb478",
-  text = "Vile Familiar Head. Near the Burning Blade Coven, Vile Familiar Heads mark a grim test for young Horde warlocks. Under Ruzan's guidance, they gather the gruesome trophies as proof of readiness to bind their first demonic minions. The test demands discipline and respect for the lethality of the beings they mean to summon. In the sun-baked canyon of the Valley of Trials, Ruzan asks novices seeking to learn summoning to bring him six Vile Familiar Heads. Vile familiars are fiery imps with dangerous elemental cunning, found outside the Burning Blade Coven. Novices must face and defeat them, proving they can subdue demonic life rather than be overcome by it. Warlocks are barely tolerated within Thrall's Horde, so their training calls for care. A novice slain by a conjured creature only deepens the dishonor and suspicion cast upon practitioners of the dark arts.",
+  hash = "d76900",
+  fullHash = "d76900",
+  text = "Vile Familiar Head. Near the Burning Blade Coven, Vile Familiar Heads test young Horde warlocks. Under Ruzan's guidance, novices gather six gruesome trophies to prove they are ready to bind their first demonic minions. The trial calls for discipline and respect for the danger of the beings they mean to summon. In the Valley of Trials, Ruzan asks novices who seek to learn summoning to bring him six Vile Familiar Heads. The fiery imps called vile familiars lurk outside the Burning Blade Coven. Their elemental cunning makes them dangerous foes. To pass, novices must face and defeat them, proving they can master demonic life rather than be overcome by it.\n\nWarlocks are barely tolerated within Thrall's Horde, so their training demands care. A novice slain by a conjured creature would deepen the dishonor and suspicion cast upon those who practice the dark arts.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_vile-familiar-head-b703adabaa27be419658/1-0000.mp3", duration = 51.7746939, start = 0},
+    {file = "Audio/Transport/full_item_vile-familiar-head-64fff570bf5ee1d2a76e/1-0000.mp3", duration = 53.6032653, start = 0},
   },
 }
 P.transport["item:vile-fin-scale"] = {
@@ -5610,35 +5610,35 @@ P.transport["item:vile-fin-scale"] = {
   },
 }
 P.transport["item:voodoo-charm"] = {
-  hash = "d301d1",
-  fullHash = "d301d1",
-  text = "Voodoo Charm. In Teldrassil’s barrows, the Voodoo Charm can break the Gnarlpine enchantment holding Oben Rageclaw’s body.",
+  hash = "0e08ef",
+  fullHash = "0e08ef",
+  text = "Voodoo Charm. In Teldrassil’s barrows, Oben Rageclaw’s body remains bound by Gnarlpine enchantment. The Voodoo Charm can break that hold.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_voodoo-charm-20645aa9f9c1cd5e16a4/1-0000.mp3", duration = 7.39265306, start = 0},
+    {file = "Audio/Transport/full_item_voodoo-charm-c6e79d6ef38fe57ac33f/1-0000.mp3", duration = 8.8555102, start = 0},
   },
 }
 P.transport["item:wailing-essence"] = {
-  hash = "140853",
-  fullHash = "140853",
-  text = "Wailing Essence. Wailing Essence is a strange, concentrated substance found within the ectoplasms roaming deep inside the Wailing Caverns. Suspected of fueling the bizarre mutations spreading through the flora and fauna of the Barrens, it has drawn the attention of opportunistic alchemists eager to bottle its potent properties. The subterranean caverns beneath the central Barrens have grown thick with unnatural energy, warping beasts and giving rise to gelatinous ectoplasms. These oozing creatures concentrate a viscous substance known as Wailing Essence. While local druids observe these waters with growing dread, goblin entrepreneurs see only raw commercial opportunity. In the port town of Ratchet, an eccentric alchemist named Mebok Mizzyrix believes this essence is the missing active ingredient for a line of lucrative 'smart drinks' meant to enhance consumer intellect, utterly unconcerned with the nightmarish corruption it might actually harbor.",
+  hash = "4eab88",
+  fullHash = "4eab88",
+  text = "Wailing Essence. In the Wailing Caverns, Wailing Essence gathers within roaming ectoplasms. Alchemists seek its potent properties, while nearby druids dread the mutations spreading through the Barrens. Beneath the central Barrens, unnatural energy twists beasts and gives rise to gelatinous ectoplasms. Within them lies a viscous substance called Wailing Essence. Nearby druids watch the waters with growing dread, while goblin traders see a chance for profit.\n\nIn Ratchet, Mebok Mizzyrix believes the essence is the missing ingredient for a lucrative line of “smart drinks” meant to sharpen the mind. The eccentric alchemist gives little thought to the corruption they might carry.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_wailing-essence-bc65bc2c42a190d11c21/1-0000.mp3", duration = 55.3012245, start = 0},
+    {file = "Audio/Transport/full_item_wailing-essence-07a308a92e5a139ba006/1-0000.mp3", duration = 41.0383673, start = 0},
   },
 }
 P.transport["item:warsong-axe-shipment"] = {
-  hash = "1d44eb",
-  fullHash = "1d44eb",
-  text = "Warsong Axe Shipment. At Booty Bay, the Warsong Axe Shipment waits for its voyage to Ashenvale. The newly forged axes are bound for the Warsong Outriders and the work at their lumber camp. Axes for the Warsong Lumber Camp wait in Booty Bay. The camp’s woodcutters need a steady supply of durable tools, and not every tool can be forged on the front lines. Orders cross the Great Sea to this neutral goblin port, where the crate is stored near Wharfmaster Lozgil. The sharpened axes are meant for Splintertree Post, where they can be sent onward to the camp. Keeping distant frontier camps supplied takes a long journey across the sea.",
+  hash = "91daae",
+  fullHash = "91daae",
+  text = "Warsong Axe Shipment. In Booty Bay, the Warsong Axe Shipment waits to cross the Great Sea for Ashenvale. The newly forged axes are bound for the Warsong Outriders and the work at their lumber camp. Axes for the Warsong Lumber Camp wait in Booty Bay. The camp’s woodcutters need durable tools, and not every tool can be forged on the front lines. So their orders cross the Great Sea to this neutral goblin port, where the crate rests near Wharfmaster Lozgil. The sharpened axes are meant for Splintertree Post, then can travel onward to the camp. Keeping distant frontier camps supplied takes a long voyage.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_warsong-axe-shipment-d35d366f2e6a1058673d/1-0000.mp3", duration = 39.68, start = 0},
+    {file = "Audio/Transport/full_item_warsong-axe-shipment-5ecd554d43662c7a8c3b/1-0000.mp3", duration = 37.4595918, start = 0},
   },
 }
 P.transport["item:warsong-oil"] = {
-  hash = "adafb5",
-  fullHash = "adafb5",
-  text = "Warsong Oil. At the Warsong Lumber Camp, Warsong Oil keeps the logging machinery running. A satyr ambush has carried a shipment into corrupted forest enclaves. Warsong Oil keeps the Warsong Clan's logging machinery running in Ashenvale. Goblin-engineered shredders and massive sawmills need a steady supply of the lubricant. Without it, timber cutting could halt, slowing the lumber needed to build Orgrimmar and fortify Horde settlements across Durotar and the Barrens. Satyrs ambushed a shipment of Warsong Oil before it could reach Splintertree Post and the logging camps. They carried the containers into corrupted enclaves, including Night Run, Satyrnaar, and Xavian, where they use the flammable lubricant in their rituals.",
+  hash = "39f096",
+  fullHash = "39f096",
+  text = "Warsong Oil. At the Warsong Lumber Camp, Warsong Oil keeps the machinery turning. Satyrs have taken a shipment into their corrupted enclaves. Warsong Oil keeps the Warsong Clan’s logging machinery running in Ashenvale. Goblin-engineered shredders and great sawmills depend on its steady supply. Without the lubricant, timber cutting could stop. Then the lumber needed to build Orgrimmar and strengthen Horde settlements across Durotar and the Barrens would slow. Satyrs ambushed a shipment of Warsong Oil before it could reach Splintertree Post and the logging camps. They carried the containers into corrupted enclaves, including Night Run, Satyrnaar, and Xavian. There, the satyrs use the flammable lubricant in their rituals.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_warsong-oil-9df2b199cefc62ef348b/1-0000.mp3", duration = 44.2514286, start = 0},
+    {file = "Audio/Transport/full_item_warsong-oil-8116c627499a856918d9/1-0000.mp3", duration = 45.7404082, start = 0},
   },
 }
 P.transport["item:warsong-outrider-update"] = {
@@ -5650,27 +5650,27 @@ P.transport["item:warsong-outrider-update"] = {
   },
 }
 P.transport["item:warsong-runner-update"] = {
-  hash = "c15a04",
-  fullHash = "c15a04",
-  text = "Warsong Runner Update. At Zoram'gar Outpost, Warsong Runner Update carries reports from western Ashenvale to Kadrak. The Warsong runner at Zoram'gar Outpost watches the coast and nearby threats in western Ashenvale. The dispatch records observations gathered by scouts at the outpost and reports on local activity. It travels to Kadrak's watchtower on the Barrens border, helping Horde leaders strengthen their position and plan their movements into the elves' ancestral woods.",
+  hash = "9e2a24",
+  fullHash = "9e2a24",
+  text = "Warsong Runner Update. At Zoram'gar Outpost, Warsong Runner Update carries word from western Ashenvale to Kadrak. At Zoram'gar Outpost, the Warsong runner watches the coast and nearby threats in western Ashenvale. Scouts gather observations there, and the dispatch records what they see. It travels to Kadrak's watchtower on the Barrens border. The report helps Horde leaders strengthen their position and plan movements into the elves' ancestral woods.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_warsong-runner-update-3a012ea7a2b589241a68/1-0000.mp3", duration = 27.9510204, start = 0},
+    {file = "Audio/Transport/full_item_warsong-runner-update-dffbda97b9a59d3f0b0a/1-0000.mp3", duration = 28.3167347, start = 0},
   },
 }
 P.transport["item:warsong-saw-blades"] = {
-  hash = "164da8",
-  fullHash = "164da8",
-  text = "Warsong Saw Blades. Warsong Saw Blades keep the Horde's lumber machinery cutting in Ashenvale. The Warsong Clan relies on goblin-made machines for its logging, and these blades supply its clear-cutting work. In Ashenvale, the Warsong Clan's logging depends on heavy machinery supplied and maintained by goblin engineers. Axes alone cannot meet the Horde's demand for Kalimdor lumber, so steam engines and circular saws cut through raw timber. Ashenvale's ancient hardwood quickly dulls and breaks ordinary blades. Replacement saw blades must keep arriving for the mills at the Warsong Lumber Camp to keep running. Getting mechanical parts through disputed territory brings constant trouble. Hostile furbolgs and satyrs often intercept other logging supplies, while goblin contacts such as Pixel at Splintertree Post handle the saw blade shipments. Lumber master Locke Okarr gathers the blades with rope, oil, and axes to keep the camp operating despite sabotage from Ashenvale's defenders.",
+  hash = "0d2645",
+  fullHash = "0d2645",
+  text = "Warsong Saw Blades. At the Warsong Lumber Camp, saw blades keep the Horde's logging machines cutting in Ashenvale. The Warsong Clan depends on goblin-made machinery to harvest lumber across the forest. In Ashenvale, the Warsong Clan depends on heavy machinery supplied and maintained by goblin engineers. Axes cannot meet the Horde's demand for Kalimdor lumber, so steam engines and circular saws cut the timber. Ashenvale's ancient hardwood quickly dulls and breaks ordinary blades. Fresh saw blades must reach the mills at the Warsong Lumber Camp to keep them running. Parts must cross disputed territory, where hostile furbolgs and satyrs often intercept logging supplies. Goblin contacts such as Pixel at Splintertree Post handle the saw blade shipments. Lumber master Locke Okarr gathers blades with rope, oil, and axes, keeping the camp operating despite sabotage from Ashenvale's defenders.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_warsong-saw-blades-8c1b51879648f27f0131/1-0000.mp3", duration = 59.5853061, start = 0},
+    {file = "Audio/Transport/full_item_warsong-saw-blades-0210bb0fd6f5b35a4dd5/1-0000.mp3", duration = 54.8571429, start = 0},
   },
 }
 P.transport["item:warsong-scout-update"] = {
-  hash = "8062bb",
-  fullHash = "8062bb",
-  text = "Warsong Scout Update. At Splintertree Post, a Warsong scout records what the Horde needs to know about Ashenvale. Warsong scouts watch the woods as the Horde seeks timber and supply routes through Ashenvale. From Splintertree Post, a fortified encampment, they track night elf sentinels and movements across the territory. Their observations reach Kadrak at the Barrens-Ashenvale border among routine orders. He uses them to judge troop readiness and coordinate supplies and travel through the contested woods.",
+  hash = "ec6adf",
+  fullHash = "ec6adf",
+  text = "Warsong Scout Update. At Splintertree Post, Warsong scouts send the Horde word on Ashenvale. Warsong scouts watch the woods as the Horde seeks timber and supply routes through Ashenvale. From fortified Splintertree Post, they follow night elf sentinels and movements across the territory. Their observations reach Kadrak at the Barrens-Ashenvale border among routine orders. He uses them to judge troop readiness and coordinate supplies and travel through the contested woods.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_warsong-scout-update-4f234cd0346750e873dd/1-0000.mp3", duration = 30.197551, start = 0},
+    {file = "Audio/Transport/full_item_warsong-scout-update-42bd752827f08405e0b3/1-0000.mp3", duration = 27.637551, start = 0},
   },
 }
 P.transport["item:water-of-the-seers"] = {
@@ -5698,27 +5698,27 @@ P.transport["item:webwood-egg"] = {
   },
 }
 P.transport["item:webwood-ichor"] = {
-  hash = "7ccf80",
-  fullHash = "7ccf80",
-  text = "Webwood Ichor. In Shadowglen, Webwood spiders carry venom that has left Iverron gravely ill. Dirania Silvershine needs their ichor, hyacinth mushrooms, and moonpetal lilies to brew an antidote. Webwood spiders in Shadowglen carry venom that has left Iverron gravely ill. Dirania Silvershine asks for their ichor, hyacinth mushrooms, and moonpetal lilies to prepare an antidote.",
+  hash = "57254c",
+  fullHash = "57254c",
+  text = "Webwood Ichor. In Shadowglen, Webwood Ichor is needed to save Iverron from spider venom. Dirania Silvershine needs it with hyacinth mushrooms and moonpetal lilies to brew an antidote. Webwood spiders in Shadowglen carry venom that has left Iverron gravely ill. Dirania Silvershine asks for their ichor, hyacinth mushrooms, and moonpetal lilies to brew an antidote.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_webwood-ichor-c79b3c59be916434cc15/1-0000.mp3", duration = 24.1110204, start = 0},
+    {file = "Audio/Transport/full_item_webwood-ichor-684b72d4931c8f949773/1-0000.mp3", duration = 22.8571429, start = 0},
   },
 }
 P.transport["item:webwood-spider-silk"] = {
-  hash = "b19790",
-  fullHash = "b19790",
-  text = "Webwood Spider Silk. Webwood Spider Silk is gathered from Webwood Lurkers in the woods of Teldrassil. Crafters use spider silk in many ways, but these swatches draw the interest of suspicious figures among the World Tree’s boughs. Webwood Lurkers around Dolanaar spin a fine, strong thread that is dangerous to gather. Zenn Foulhoof, a satyr along the forest road, asks young adventurers to collect the silk with nightsaber fangs and strigid owl feathers. He says these rare reagents are needed for his forest business, and newcomers gather them without asking about his corrupt nature or true motives.",
+  hash = "283c07",
+  fullHash = "283c07",
+  text = "Webwood Spider Silk. Among Teldrassil’s boughs, Webwood Spider Silk draws the interest of suspicious figures. Webwood Lurkers spin it in the woods, and crafters put spider silk to many uses. Webwood Lurkers near Dolanaar spin a fine, strong thread that is perilous to gather. Zenn Foulhoof, a satyr along the forest road, asks young adventurers for the silk, nightsaber fangs, and strigid owl feathers. He claims these rare reagents serve his forest business. Newcomers gather them without asking about his corrupt nature or true motives.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_webwood-spider-silk-8911fdb113df52ff6998/1-0000.mp3", duration = 36.3363265, start = 0},
+    {file = "Audio/Transport/full_item_webwood-spider-silk-9d612e4d94220d8d9733/1-0000.mp3", duration = 34.9779592, start = 0},
   },
 }
 P.transport["item:webwood-venom-sac"] = {
-  hash = "57be61",
-  fullHash = "57be61",
-  text = "Webwood Venom Sac. In Shadowglen, Webwood Venom Sacs draw the attention of naturalists studying Teldrassil's growth. The sacs come from overgrown spiders, and their venom may show how the new World Tree has changed local wildlife. Webwood spiders live around and within Shadowthread Cave, and they are cousins to a much smaller breed found elsewhere. Their sudden growth and predatory aggression worry night elf researchers. Naturalists such as Gilshalan Windwalker study the venom in their sacs, examining its strength and composition. They hope to learn how Teldrassil's rapid, unblessed growth is changing the creatures that live on its boughs.",
+  hash = "edd6cc",
+  fullHash = "edd6cc",
+  text = "Webwood Venom Sac. In Shadowglen, naturalists study Webwood Venom Sacs to learn how Teldrassil's growth has changed local wildlife. The sacs come from overgrown spiders, and their venom may offer clues. Webwood spiders haunt Shadowthread Cave and the ground around it. They are cousins to a much smaller breed found elsewhere. Their sudden growth and predatory aggression trouble night elf researchers. Naturalists such as Gilshalan Windwalker study the venom's strength and composition, hoping to learn how Teldrassil's rapid, unblessed growth is changing the creatures on its boughs.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_webwood-venom-sac-6ea7a59c542e8cfb55da/1-0000.mp3", duration = 40.0195918, start = 0},
+    {file = "Audio/Transport/full_item_webwood-venom-sac-979d75f446a0544e469a/1-0000.mp3", duration = 34.5338776, start = 0},
   },
 }
 P.transport["item:well-stone"] = {
@@ -5786,19 +5786,19 @@ P.transport["item:winterhoof-cleansing-totem"] = {
   },
 }
 P.transport["item:witchwing-talon"] = {
-  hash = "5aa3b1",
-  fullHash = "5aa3b1",
-  text = "Witchwing Talon. In the northwestern Barrens, Witchwing Talons mark dead harpy raiders. Horde scouts at the Crossroads seek them as proof while they work to secure vital caravan routes. Witchwing harpies raid Horde supply caravans from their roosts northwest of the Crossroads. Scout Darsok Swiftdagger coordinates strikes against the flock's hierarchy. Darsok requires physical proof of each dead scavenger, and the talons provide it. With proof that raiders have fallen, the scouts can weaken the flock's ranks before striking higher in its command.",
+  hash = "313ae6",
+  fullHash = "313ae6",
+  text = "Witchwing Talon. In the northwestern Barrens, Witchwing Talons mark fallen harpy raiders. At the Crossroads, Horde scouts seek them as proof while working to secure vital caravan routes. Witchwing harpies raid Horde supply caravans from roosts northwest of the Crossroads. Scout Darsok Swiftdagger coordinates strikes against the flock's hierarchy. He requires proof that each scavenger has been killed, and the talons provide it. With proof of their fall, the scouts can thin the flock before striking higher in its command.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_witchwing-talon-89978e376b0b12fa524b/1-0000.mp3", duration = 33.8546939, start = 0},
+    {file = "Audio/Transport/full_item_witchwing-talon-7391e632f097dd009b33/1-0000.mp3", duration = 32.0261224, start = 0},
   },
 }
 P.transport["item:wolf-heart-sample"] = {
-  hash = "151169",
-  fullHash = "151169",
-  text = "Wolf Heart Sample. Wolf Heart Sample is bound for the Crossroads, carrying diseased wolf tissue from Lordaeron to Kalimdor. The Royal Apothecary Society seeks to learn what northern toxins do to the Barrens’ native beasts. Wolf Heart Sample began with plagued wolves in Lordaeron’s ruins. Apothecary Renferrel gathered the hearts, and they were packed for the journey across the Great Sea. The Forsaken’s Royal Apothecary Society seeks greater knowledge of venom, blights, and biological reagents. A courier carries the parcel to the Crossroads in the Barrens, linking Undercity’s experiments in the scarred Eastern Kingdoms with Kalimdor’s frontier outposts. At the Crossroads, Apothecary Helbrim receives Wolf Heart Sample. Helbrim studies how toxins from Lordaeron’s Scourge-ravaged lands affect the native wildlife of Kalimdor. The toxicity preserved in the wolf hearts may reveal properties that can improve Forsaken poisons and elixirs far from home.",
+  hash = "efb104",
+  fullHash = "efb104",
+  text = "Wolf Heart Sample. In the Barrens, Wolf Heart Sample carries diseased wolf tissue from Lordaeron to the Crossroads. The Royal Apothecary Society studies what northern toxins do to Kalimdor’s native beasts. Plagued wolves in Lordaeron’s ruins gave Apothecary Renferrel the hearts packed into Wolf Heart Sample. They crossed the Great Sea for the Forsaken’s Royal Apothecary Society, which studies venom, blights and biological reagents. A courier carries them to the Crossroads, joining Undercity’s experiments in the scarred Eastern Kingdoms to Kalimdor’s frontier outposts. At the Crossroads, Apothecary Helbrim receives Wolf Heart Sample. He studies how toxins from Lordaeron’s Scourge-ravaged lands affect Kalimdor’s native wildlife. The hearts’ preserved toxicity may reveal properties that improve Forsaken poisons and elixirs far from home.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_wolf-heart-sample-01e37fef626d41731b76/1-0000.mp3", duration = 58.7232653, start = 0},
+    {file = "Audio/Transport/full_item_wolf-heart-sample-2e7ad18c3b4d67fda03f/1-0000.mp3", duration = 53.76, start = 0},
   },
 }
 P.transport["item:wolf-heart-samples"] = {
@@ -5810,35 +5810,35 @@ P.transport["item:wolf-heart-samples"] = {
   },
 }
 P.transport["item:wood-pulp"] = {
-  hash = "b66664",
-  fullHash = "b66664",
-  text = "Wood Pulp. At Bael Modan, Wood Pulp helps the dwarves prepare their blasting charges. The dwarven personnel stationed in the southern Barrens carry it as an absorbent base for stabilizing liquid explosives. At Bael Modan, Ironforge dwarves use earth-moving equipment and chemical explosives to tear into ancestral tauren hunting grounds. Liquid nitroglycerin is unstable on its own, so dwarven engineers soak it into porous wood pulp with sodium nitrate to make stable charges for excavation and combat. Riflemen, soldiers, and officers carry bundles for sapping and field munitions.",
+  hash = "6177a5",
+  fullHash = "6177a5",
+  text = "Wood Pulp. At Bael Modan, Wood Pulp helps dwarven forces prepare their blasting charges. They carry it as an absorbent base for stabilizing liquid explosives. At Bael Modan, Ironforge dwarves use earth-moving equipment and chemical explosives to cut into ancestral tauren hunting grounds. Liquid nitroglycerin is unstable alone, so engineers soak it into porous wood pulp with sodium nitrate. The mixture makes stable charges for excavation and combat. Riflemen, soldiers, and officers carry bundles for sapping and field munitions.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_wood-pulp-8a67b150f7273058b1bc/1-0000.mp3", duration = 36.9893878, start = 0},
+    {file = "Audio/Transport/full_item_wood-pulp-51dbfcc6aec7560c5d08/1-0000.mp3", duration = 34.2465306, start = 0},
   },
 }
 P.transport["item:wooden-key"] = {
-  hash = "e4d890",
-  fullHash = "e4d890",
-  text = "Wooden Key. In northern Ashenvale, the Wooden Key rests in the hands of maddened ancients near Felwood’s border. It opens a concealed chest with a remnant of Dartol's Rod. Crazed and Withered Ancients carry the Wooden Key along the shaded trails north of Raynewood Retreat. Shael'dryn once knew the local treants, but now says corruption has twisted their nature. One carries the key to a chest holding a piece of Dartol's Rod.",
+  hash = "82f9dc",
+  fullHash = "82f9dc",
+  text = "Wooden Key. North of Raynewood Retreat, the Wooden Key passes through the hands of maddened ancients near Felwood. It opens a hidden chest with a piece of Dartol's Rod. Crazed and Withered Ancients carry the Wooden Key along shaded trails north of Raynewood Retreat. Shael'dryn once knew the local treants, but now says corruption has twisted them. One of the ancients carries the key to a chest with a piece of Dartol's Rod.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_wooden-key-c7b957970248caf76191/1-0000.mp3", duration = 25.077551, start = 0},
+    {file = "Audio/Transport/full_item_wooden-key-65449331affee77f991b/1-0000.mp3", duration = 25.3910204, start = 0},
   },
 }
 P.transport["item:worn-parchment"] = {
-  hash = "46f596",
-  fullHash = "46f596",
-  text = "Worn Parchment. At the Tower of Althalaxx in northern Darkshore, Worn Parchment scraps offer clues to the cultists gathered there. North along Darkshore’s mist-shrouded coast, dark spellcasters and their followers have seized the ruined Tower of Althalaxx. Dark Strand Fanatics patrol the grounds outside and carry scraps of worn parchment among their belongings. One scrap holds only scattered writing and strange symbols. Gathered together, the fragments reveal a previously unknown organization called the Cult of the Dark Strand.",
+  hash = "ae4437",
+  fullHash = "ae4437",
+  text = "Worn Parchment. At the Tower of Althalaxx in northern Darkshore, cultists gather and leave scraps of worn parchment in their belongings. North along Darkshore’s mist-shrouded coast, dark spellcasters and their followers have seized the ruined Tower of Althalaxx. Dark Strand Fanatics patrol the grounds and carry scraps of worn parchment among their belongings. One scrap holds only scattered writing and strange symbols. Gathered together, the fragments reveal an organization called the Cult of the Dark Strand.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_worn-parchment-e897c8851d81c6c9f8cb/1-0000.mp3", duration = 33.9330612, start = 0},
+    {file = "Audio/Transport/full_item_worn-parchment-a5e9e19456043f5b8ba0/1-0000.mp3", duration = 30.9028571, start = 0},
   },
 }
 P.transport["item:worn-stone-token"] = {
-  hash = "6514a3",
-  fullHash = "6514a3",
-  text = "Worn Stone Token. Across the Alterac Mountains, Worn Stone Token enchantments have faded, though Dalaran crafted them to command elementals. The tokens remain with Dalaran personnel, from mages to laborers. Dalaran’s magi command elementals with talismans that bend beings from other realms to their will. Worn Stone Tokens are depleted versions of these implements. Theurgists and summoners carry them, as do Dalaran laborers and guards stationed around the ruins and internment camps of Alterac. Their presence shows how deeply elemental binding reaches into Dalaran’s daily work. At Tarren Mill, the Forsaken watch the nearby wizards. Magus Voidglare seeks Worn Stone Tokens to study Dalaran’s methods of enslaving elementals. Keeper Bel'varil directs agents to gather worn, inert tokens first. These let the Magus examine basic enchanting techniques safely before attempting more potent, volatile conduits.",
+  hash = "7de654",
+  fullHash = "7de654",
+  text = "Worn Stone Token. Across the Alterac Mountains, Worn Stone Tokens still bear the faded enchantments Dalaran made to command elementals. They remain in the hands of Dalaran's people, from mages to laborers. Dalaran's magi use talismans to bend elementals from other realms to their will. Worn Stone Tokens are spent examples of these tools. Theurgists and summoners carry them, along with Dalaran laborers and guards stationed around the ruins and internment camps of Alterac. Elemental binding reaches deep into Dalaran's daily work. At Tarren Mill, the Forsaken watch the nearby wizards. Magus Voidglare wants Worn Stone Tokens to study how Dalaran enslaves elementals. Keeper Bel'varil directs agents to gather worn, inert tokens first. They let the Magus examine basic enchanting safely before trying more potent, volatile conduits.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_worn-stone-token-d5c55ee6a2bbcd3111cb/1-0000.mp3", duration = 57.1297959, start = 0},
+    {file = "Audio/Transport/full_item_worn-stone-token-01a81619ed27047a67d7/1-0000.mp3", duration = 55.0922449, start = 0},
   },
 }
 P.transport["item:woven-wand"] = {
@@ -5850,35 +5850,35 @@ P.transport["item:woven-wand"] = {
   },
 }
 P.transport["item:xavian-water-sample"] = {
-  hash = "36246b",
-  fullHash = "36246b",
-  text = "Xavian Water Sample. At Xavian, ancient waters hold arcane power sought by Horde mages in Orgrimmar. They seek it to unravel the latent magic preserved in Ashenvale's oldest sacred sites. Xavian was a fabled ancient elven city, and its old knowledge remains known among the learned. Even in ruin, its waters are said to hold great magical power. Deino, an arcane instructor in Orgrimmar, sends rising mages deep into Ashenvale to draw fresh water from the pool beneath Xavian's tallest waterfall. They must cross dangerous ground, for corrupt satyrs now guard the ruins fiercely and oppose spellcasters who meddle there.",
+  hash = "023dda",
+  fullHash = "023dda",
+  text = "Xavian Water Sample. At Xavian, Horde mages in Orgrimmar seek waters rich in arcane power. They hope to unravel the latent magic preserved in Ashenvale's oldest sacred sites. Xavian was once a fabled ancient elven city, and the learned still know its old wisdom. Though the city lies in ruin, its waters are said to hold great magical power. Deino, an arcane instructor in Orgrimmar, sends rising mages deep into Ashenvale to draw fresh water from the pool beneath Xavian's tallest waterfall. They must cross dangerous ground, where corrupt satyrs now guard the ruins fiercely and oppose spellcasters who meddle there.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_xavian-water-sample-e153cd357d5857bf98dc/1-0000.mp3", duration = 39.444898, start = 0},
+    {file = "Audio/Transport/full_item_xavian-water-sample-e3091e102e090d66f74e/1-0000.mp3", duration = 39.2620408, start = 0},
   },
 }
 P.transport["item:young-crocolisk-skin"] = {
-  hash = "c6b8f8",
-  fullHash = "c6b8f8",
-  text = "Young Crocolisk Skin. In the Wetlands, young crocolisks provide hides for trade from Menethil Harbor. Their softer skins are cured by local tanner James Halloran and shipped to distant ports. Menethil Harbor sends marsh goods to distant ports from the western coast of Khaz Modan. The town’s resident tanner, James Halloran, cures hides among its most lucrative exports. Full-grown crocolisks have thick, tough scales, while their young provide softer leather that is easier to work. The delicate skins are in high demand, so Halloran depends on local hunters and passing travelers to search the boggy marshes just outside town and keep his curing racks stocked.",
+  hash = "a4ce6b",
+  fullHash = "a4ce6b",
+  text = "Young Crocolisk Skin. In the Wetlands, young crocolisks supply hides for trade from Menethil Harbor. James Halloran cures their softer skins and sends them to distant ports. Menethil Harbor ships marsh goods from the western coast of Khaz Modan. Hides are among its most lucrative exports, cured by the town’s resident tanner, James Halloran. Full-grown crocolisks have thick, tough scales, while the young provide softer leather that is easier to work.\n\nThe delicate skins are in high demand. Halloran depends on local hunters and passing travelers to search the boggy marshes just outside town and keep his curing racks stocked.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_young-crocolisk-skin-90deed2c9d7313087adf/1-0000.mp3", duration = 39.2097959, start = 0},
+    {file = "Audio/Transport/full_item_young-crocolisk-skin-e2f15db8e3abb84dc892/1-0000.mp3", duration = 40.3330612, start = 0},
   },
 }
 P.transport["item:yowler-s-paw"] = {
-  hash = "47773a",
-  fullHash = "47773a",
-  text = "Yowler's Paw. In Lakeshire, Yowler's Paw is brought to Verner Osgood as proof the feared gnoll leader is dead. Yowler leads the packs menacing the hills above Lakeshire. Yowler leads the Redridge gnolls that terrorize the heights around Lake Everstill, their howls reaching Lakeshire. He is feared above all, a ruthless alpha driving the packs' expansion. Verner Osgood asks brave adventurers to bring him Yowler's paw, the customary proof of a bounty across human territories. Taking the paw marks the death of an unusually cunning predator and a blow against the chain of command among his disorganized followers. Yowler's Paw points to the danger facing Lakeshire. The Stormwind Army is consumed by the Blackrock orc threat entrenched around Stonewatch Keep, leaving civil authorities and townspeople to hire passing mercenaries for defense. Without regular royal garrisons, settlers such as Verner Osgood rely on proof that threats have been dealt with to keep local roads marginally safe for trade and travel.",
+  hash = "432ef1",
+  fullHash = "432ef1",
+  text = "Yowler's Paw. In Lakeshire, Verner Osgood receives Yowler's Paw as proof that the feared gnoll leader is dead. Yowler leads the packs that menace the hills above the town. Yowler leads the Redridge gnolls that terrorize the heights around Lake Everstill. Their howls reach Lakeshire. Feared above all, Yowler is a ruthless alpha who drives the packs' expansion. Verner Osgood asks for his paw as the customary proof of a bounty across human territories. The trophy marks the death of an unusually cunning predator and strikes at the command of his disorganized followers. Lakeshire faces danger with little help from Stormwind. The Stormwind Army is consumed by the Blackrock orc threat entrenched around Stonewatch Keep. Civil authorities and townspeople must hire passing mercenaries for defense. Without regular royal garrisons, settlers such as Verner Osgood rely on proof that threats have been dealt with, keeping local roads marginally safe for trade and travel.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_yowler-s-paw-6c0720a10b15c23602c9/1-0000.mp3", duration = 62.955102, start = 0},
+    {file = "Audio/Transport/full_item_yowler-s-paw-215f3dec41704a79e0a8/1-0000.mp3", duration = 61.2571429, start = 0},
   },
 }
 P.transport["item:zalazane-s-head"] = {
-  hash = "823470",
-  fullHash = "823470",
-  text = "Zalazane's Head. Master Gadrin awaits proof that Zalazane has fallen. The Darkspear seek relief from the witch doctor who drove them from the Echo Isles. Master Gadrin asks for proof that Zalazane is dead. The witch doctor betrayed the Darkspear and seized control of their island home with mind-enslaving hexes. His magic drove Vol'jin's people to the shores of Durotar. From the Echo Isles, Zalazane still sends hexed thralls across the water to seize more victims. Sen'jin Village needs proof that his rule has ended. Returning Zalazane's severed head confirms his defeat and gives the displaced tribe a measure of peace, with hope of reclaiming their stolen islands one day.",
+  hash = "27af85",
+  fullHash = "27af85",
+  text = "Zalazane's Head. Master Gadrin seeks proof that Zalazane has fallen. The Darkspear long for relief from the witch doctor who drove them from the Echo Isles. Master Gadrin asks you to prove that Zalazane is dead. The witch doctor betrayed the Darkspear and seized their island home with hexes that enslaved minds. His magic drove Vol'jin's people to Durotar's shores.\n\nFrom the Echo Isles, Zalazane still sends hexed thralls across the water to seize more victims. Sen'jin Village needs proof that his rule has ended. His severed head confirms his defeat and brings the displaced tribe some peace, with hope of reclaiming their stolen islands one day.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_zalazane-s-head-1c533eef2a470cb3dfaf/1-0000.mp3", duration = 39.2881633, start = 0},
+    {file = "Audio/Transport/full_item_zalazane-s-head-25afbab158eebe402d7a/1-0000.mp3", duration = 40.6204082, start = 0},
   },
 }
 P.transport["item:zamah-s-note"] = {
@@ -5890,18 +5890,18 @@ P.transport["item:zamah-s-note"] = {
   },
 }
 P.transport["item:zargh-s-meats"] = {
-  hash = "85f987",
-  fullHash = "85f987",
-  text = "Zargh's Meats. At the Crossroads, Zargh prepares fresh meat for Gryshka in Orgrimmar. The parcel gives young Horde travelers a reason to learn the wind rider route. Zargh, an orc butcher and hunter at the Crossroads in the Barrens, prepares fresh cuts for Gryshka, the innkeeper in Orgrimmar's Valley of Strength. The heat across the savannas can spoil fresh game quickly, so the parcel goes with couriers bound for the Crossroads roost. Wind Rider Master Devrak arranges a wyvern flight to Orgrimmar's Skytower, sparing travelers the long overland journey through Durotar. Zargh's delivery carries a personal sentiment along with its provisions. When Gryshka receives the meat, she recognizes Zargh's knack for winning a lady's favor with quality game. She is eager to prepare the cuts for the inn's patrons and guests. For newly arrived orc and troll travelers, the delivery offers an introduction to long-distance flight between Kalimdor's Horde settlements.",
+  hash = "193b62",
+  fullHash = "193b62",
+  text = "Zargh's Meats. At the Crossroads, Zargh prepares fresh meat for Gryshka in Orgrimmar. The parcel gives young Horde travelers a reason to learn the wind rider route. Zargh hunts and butchers at the Crossroads in the Barrens, preparing fresh cuts for Gryshka, the innkeeper in Orgrimmar's Valley of Strength. The savanna heat can spoil game quickly, so couriers carry the parcel to the Crossroads roost. There, Wind Rider Master Devrak arranges a wyvern flight to Orgrimmar's Skytower. The flight spares travelers the long overland journey through Durotar. Zargh sends more than provisions with his delivery. When Gryshka receives the meat, she recognizes his knack for winning a lady's favor with quality game. She is eager to prepare the cuts for the inn's patrons and guests. For newly arrived orc and troll travelers, the delivery gives a reason to learn long-distance flight between Kalimdor's Horde settlements.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_zargh-s-meats-9843409eeb0ac4945d04/1-0000.mp3", duration = 60.3167347, start = 0},
+    {file = "Audio/Transport/full_item_zargh-s-meats-32d408978912ec4c604e/1-0000.mp3", duration = 55.6669388, start = 0},
   },
 }
 P.transport["item:zhevra-hooves"] = {
-  hash = "7cef1c",
-  fullHash = "7cef1c",
-  text = "Zhevra Hooves. Across the Barrens, zhevras graze in the open savannah. Their hooves prove a hunter can face swift, powerful prey. Zhevras graze across the Barrens, but their compact, muscular legs can strike hard. Sergra Darkthorn, the orc shaman in charge of the Crossroads, sends aspiring Horde scouts to gather hooves from zhevra runners. The hunt sharpens a fledgling hunter's instincts and resilience. A panicked runner can kick even a sturdy tauren flat. Intact hooves show a hunter can handle swift, kicking quarry before taking on Kalimdor's deadliest predators.",
+  hash = "5bef5d",
+  fullHash = "5bef5d",
+  text = "Zhevra Hooves. Across the Barrens, zhevras graze the open savannah, swift prey with a powerful kick. Their hooves show that a hunter can face them. Zhevras roam the Barrens on compact, muscular legs that can strike hard. Sergra Darkthorn, the orc shaman in charge of the Crossroads, sends new Horde scouts to gather the hooves of zhevra runners. The hunt tests a young hunter's instincts and resilience. A panicked runner can knock even a sturdy tauren flat.\n\nIntact hooves show a hunter can handle swift, kicking prey before facing Kalimdor's deadliest predators.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_zhevra-hooves-53ef26a7f782761f3c09/1-0000.mp3", duration = 34.9779592, start = 0},
+    {file = "Audio/Transport/full_item_zhevra-hooves-fb12f58bd41602fe28d4/1-0000.mp3", duration = 34.9779592, start = 0},
   },
 }

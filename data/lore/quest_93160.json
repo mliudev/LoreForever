@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Gathering Shadowgale acorns showcases how local wild nuts can be roasted into simple forest fare, making it of keen interest to culinary foragers."
+   "text": "As a cook, you can roast Shadowgale acorns into simple forest fare."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "who wants acorns",
     "quest giver forests bounty"
    ],
-   "answer": "A nervous forager resting near Shadowgale Forest requests assistance. Having collected all the safe acorns nearby, they need a hardy adventurer to venture deeper into the woods where dangerous wildlife roams.",
+   "answer": "A nervous forager near Shadowgale Forest asks you to gather acorns. They have collected those nearby, but need help reaching woods where dangerous wildlife roams.",
    "q": "Who asks you to gather the acorns?"
   },
   {
@@ -33,7 +33,7 @@
     "acorn location",
     "shadowgale forest acorns"
    ],
-   "answer": "Shadowgale Acorns are scattered across the ground beneath the canopy of Shadowgale Forest. Foragers must search the forest floor while staying watchful for hostile predators lurking among the trees.",
+   "answer": "Shadowgale Acorns lie scattered beneath Shadowgale Forest's canopy. Search the forest floor and watch for predators among the trees.",
    "q": "Where are the acorns found?"
   },
   {
@@ -42,7 +42,7 @@
     "what raptor birds",
     "why is gathering acorns dangerous"
    ],
-   "answer": "The forest floor is prowled by predatory raptor-like birds. These aggressive creatures make straying far from camp extremely hazardous for ordinary folk who lack martial training to defend themselves.",
+   "answer": "Predatory, raptor-like birds prowl the forest floor. Without martial training, ordinary folk risk danger if they stray far from camp.",
    "q": "Why is collecting acorns dangerous here?"
   },
   {
@@ -51,7 +51,7 @@
     "roasted acorns",
     "why gather acorns"
    ],
-   "answer": "The acorns serve as a hearty wild food source. Once collected, they are meant to be roasted over a fire into a warm, nutty snack to share with those willing to brave the forest beasts.",
+   "answer": "The acorns are hearty wild food. Roast them over a fire for a warm snack to share with those willing to brave the forest beasts.",
    "q": "What are the acorns used for?"
   },
   {
@@ -60,7 +60,7 @@
     "raptor birds in shadowgale",
     "forest raptors"
    ],
-   "answer": "The quest giver describes them as dangerous 'raptor-bird things' hunting in Shadowgale Forest. These avian or reptilian predators are large enough and vicious enough to view an unwary traveler as their next meal.",
+   "answer": "The forager describes dangerous “raptor-bird things” hunting in Shadowgale Forest. These avian or reptilian predators are large and vicious enough to prey on an unwary traveler.",
    "q": "What are the raptor-bird creatures mentioned in the forest?"
   },
   {
@@ -69,7 +69,7 @@
     "how to cook shadowgale acorns",
     "eating forest acorns"
    ],
-   "answer": "While tough or bitter off the ground, the forager specifically notes that Shadowgale Acorns become a delicious treat once properly roasted over heat.",
+   "answer": "Shadowgale Acorns can be tough or bitter raw. Roasting them over heat makes them a delicious treat.",
    "q": "How are the acorns prepared for eating?"
   }
  ],
@@ -85,18 +85,19 @@
  "related": [],
  "sections": [
   {
-   "body": "A cautious forager seeking food in Shadowgale Forest finds themselves in a bind. While acorns lie scattered across the woodland floor, the surrounding trees are prowled by fierce, raptor-like creatures. Having gathered whatever fell near safety, the forager depends on passing travelers to venture into the wilder groves so that neither goes hungry.",
+   "body": "A cautious forager in Shadowgale Forest has gathered the acorns near safety. Fierce, raptor-like creatures prowl among the trees and keep the forager from reaching the wilder groves. So passing travelers are needed to gather what lies deeper in the woods, and help ensure neither goes hungry.",
    "spoiler": 0,
    "title": "A Perilous Foraging Run"
   },
   {
-   "body": "Shadowgale Acorns provide hearty sustenance for those who know how to prepare them. Though bitter or tough in the raw, roasting them over a crackling fire transforms the wild harvest into a rich, roasted treat. Braving the predatory birds among the timber turns a simple woodland scavenge into a warm meal shared in the wilderness.",
+   "body": "Shadowgale Acorns make hearty food when prepared with care. Raw, they can be bitter or tough, but roasting them over a fire turns the wild harvest into a rich treat. To gather them, you must brave the timber where predatory birds prowl.",
    "spoiler": 0,
    "title": "Roasting the Harvest"
   }
  ],
- "summary": "The Forest's Bounty is a local quest in Shadowgale Forest where a timid forager asks for help collecting fallen acorns. Fierce predatory raptor-birds prowl the deeper woods, making harvesting too perilous without an adventurer's protection. The gathered acorns are then roasted into a tasty forest meal.",
+ "summary": "In Shadowgale Forest, a forager needs help gathering fallen acorns. Raptor-like predators prowl the deeper woods, and the harvest can be roasted into a forest meal.",
  "attribution": [
   "In-game quest text: The Forest's Bounty"
- ]
+ ],
+ "style": 2
 }

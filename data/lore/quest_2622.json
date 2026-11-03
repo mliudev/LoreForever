@@ -24,16 +24,16 @@
    "You Are Rakh'likh, Demon"
   ]
  },
- "summary": "Dispatch Commander Ruag bristles when asked about the missing orders, insisting they were relayed. Ruag says the soldiers carrying them were ambushed by murlocs and only one lived, and sends you to speak with Bengor.",
+ "summary": "Dispatch Commander Ruag sends you to find Bengor after the orders go missing.",
  "sections": [
   {
    "title": "Ruag's Account",
-   "body": "Ruag takes offence at the question and insists the orders were relayed. The soldiers sent with them were, Ruag says, ambushed and brutally beaten by murlocs, and only one lived, if that can be called living. The survivor can barely speak, cannot walk and is fed through a tube. To learn what became of the orders, Ruag says, speak with Bengor, who is around here somewhere, and adds a warning to mind what you poke your nose into, lest it get bitten off.",
+   "body": "Dispatch Commander Ruag bristles when you ask about the missing orders. He says they went with the soldiers sent to carry them. Murlocs ambushed and brutally beat the soldiers, and only one survived. Bengor can barely speak, cannot walk, and is fed through a tube. Ruag sends you to find him nearby, then warns you to mind what you poke your nose into.",
    "spoiler": 0
   },
   {
    "title": "Bengor's Halting Words",
-   "body": "When you find Bengor, only broken scraps of speech come out, and among them you catch the words swamp talker.",
+   "body": "Bengor can manage only broken scraps of speech. Among them, you catch the words swamp talker.",
    "spoiler": 1
   }
  ],
@@ -44,7 +44,7 @@
     "who gave missing orders",
     "who lost the orders"
    ],
-   "answer": "Dispatch Commander Ruag says the orders were relayed with the soldiers sent out, and grows defensive when asked what became of them."
+   "answer": "Dispatch Commander Ruag says the orders went with the soldiers sent out. He grows defensive when you ask what became of them."
   },
   {
    "q": "What happened to the soldiers carrying the orders?",
@@ -52,7 +52,7 @@
     "what happened to couriers",
     "how were the orders lost"
    ],
-   "answer": "According to Dispatch Commander Ruag, murlocs ambushed and brutally beat them, and only one lived."
+   "answer": "Dispatch Commander Ruag says murlocs ambushed and brutally beat the soldiers carrying the orders. Only one survived."
   },
   {
    "q": "Who is Bengor?",
@@ -60,7 +60,7 @@
     "who is the survivor",
     "bengor lore"
    ],
-   "answer": "Bengor is the one survivor of the ambush. He can barely speak, cannot walk and is fed through a tube."
+   "answer": "Bengor is the sole survivor of the ambush. He can barely speak, cannot walk, and is fed through a tube."
   },
   {
    "q": "Where can Bengor be found?",
@@ -68,7 +68,7 @@
     "bengor location",
     "where is bengor"
    ],
-   "answer": "Dispatch Commander Ruag says only that Bengor is around here somewhere."
+   "answer": "Dispatch Commander Ruag says Bengor is somewhere nearby."
   }
  ],
  "angles": [],
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "The Missing Orders"
- ]
+ ],
+ "style": 2
 }

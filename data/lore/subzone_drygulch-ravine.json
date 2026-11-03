@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Drygulch Ravine"
  },
- "summary": "Dustwind harpies hold Drygulch Ravine, where they menace nearby supply caravans. The gorge lies among eastern Durotar's rocky bluffs, reached by a cave passage from Razorwind Canyon or a perilous drop from above.",
+ "summary": "Dustwind harpies prey on supply caravans at Drygulch Ravine in eastern Durotar. Reach their rocky refuge through a cave from Razorwind Canyon or by a perilous leap from above.",
  "sections": [
   {
    "title": "A Bandit Haven in the Red Rocks",
-   "body": "In the crags east of Orgrimmar, Drygulch Ravine forms a sheltered depression and a lawless pocket of Durotar. A cramped natural tunnel from Razorwind Canyon is its only ground-level route. Dustwind harpies roost along the steep cliffs, where they nest their broods and stockpile goods stolen from Horde supply trains on the regional trails.",
+   "body": "East of Orgrimmar, Drygulch Ravine lies sheltered among Durotar's rocky crags. A cramped natural tunnel from Razorwind Canyon is the only way in at ground level. Dustwind harpies roost along the steep cliffs, where they keep their broods and pile up goods stolen from Horde supply trains on the regional trails.",
    "spoiler": 0
   },
   {
    "title": "A Thorn in Durotar's Side",
-   "body": "Dustwind harpies are the ravine's immediate danger. Their matriarchs fiercely defend clutches of eggs tucked along the high ledges. Horde scouts often send young warriors to thin the flock, recover plundered trade crates, and break the harpies' hold on the ravine.",
+   "body": "The Dustwind harpies are the ravine's chief danger. Their matriarchs fiercely guard eggs tucked along the high ledges. Horde scouts often send young warriors to thin the flock, recover stolen trade crates, and break the harpies' hold on the ravine.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "how to enter drygulch",
     "where is the cave to drygulch"
    ],
-   "answer": "You can reach the ravine by surviving a leap from the high cliffs above or by taking the small cave entrance in neighboring Razorwind Canyon."
+   "answer": "You can reach the ravine by leaping from the high cliffs above, if you survive, or through the small cave entrance in neighboring Razorwind Canyon."
   },
   {
    "q": "What creatures live in Drygulch Ravine?",
@@ -37,7 +37,7 @@
     "what is in drygulch ravine",
     "who lives in drygulch"
    ],
-   "answer": "Dustwind harpies dominate the ravine, nesting, laying eggs, and stashing stolen caravan supplies along its craggy rock shelves."
+   "answer": "Dustwind harpies rule the ravine. They nest, lay eggs, and stash stolen caravan supplies along its craggy rock shelves."
   },
   {
    "q": "Why does the Horde care about this ravine?",
@@ -46,17 +46,17 @@
     "drygulch ravine quests",
     "horde interest in drygulch"
    ],
-   "answer": "The Dustwind harpies raid Durotar's vital trade trails and hoard stolen cargo in the gorge. Authorities in Razor Hill regularly send recruits to recover provisions and thin the flock."
+   "answer": "Dustwind harpies raid Durotar's trade trails and hoard stolen cargo in the gorge. Authorities in Razor Hill regularly send recruits to recover provisions and thin the flock."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Securing the ravine's roosts and recovering stolen supplies helps protect Durotar's internal trade routes from constant banditry."
+   "text": "Securing the harpies' roosts and recovering stolen supplies helps protect Durotar's trade routes from constant banditry."
   },
   {
    "target": "race:Orc",
-   "text": "As a young orc, you can prove your mettle against the ferocious harpies perched on your homeland's rocky bluffs."
+   "text": "As a young orc, you can prove your mettle against the fierce harpies perched on your homeland's rocky bluffs."
   }
  ],
  "keywords": [
@@ -78,5 +78,5 @@
  "attribution": [
   "Drygulch Ravine"
  ],
- "style": 1
+ "style": 2
 }

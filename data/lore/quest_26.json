@@ -17,16 +17,16 @@
   "wiki": "A Lesson to Learn (Alliance)",
   "chain": []
  },
- "summary": "Mathrengyl Bearwalker sends young druids from Darnassus to Moonglade to learn the ways of water. There, they meet an elder of the Cenarion Circle and begin training in their aquatic aspect.",
+ "summary": "In Darnassus, Mathrengyl Bearwalker sends young druids to Moonglade to learn the ways of water. There, an elder of the Cenarion Circle guides their first steps toward aquatic form.",
  "sections": [
   {
    "title": "The Call of the Wild",
-   "body": "Mathrengyl Bearwalker guides young night elf druids as they practice among Darnassus’s boughs. When an initiate shows a firm bond with nature and readiness for greater responsibility, Mathrengyl sends them toward mastery of the waters. Cenarius’s gifts demand focus, and learning to cross the depths without drowning calls for guidance from the Cenarion Circle’s elders.",
+   "body": "Mathrengyl Bearwalker guides young night elf druids as they practice among Darnassus’s boughs. When an initiate shows a firm bond with nature and is ready for greater responsibility, Mathrengyl sends them to master the waters. Cenarius’s gifts demand focus. To cross the depths without drowning, young druids need the guidance of the Cenarion Circle’s elders.",
    "spoiler": 0
   },
   {
    "title": "Journey to Nighthaven",
-   "body": "The initiate leaves Darnassus for Moonglade, an ancient sanctuary beneath Mount Hyjal. In Nighthaven, Dendrite Starblaze waits as an elder mentor of the Cenarion Circle. Starblaze judges whether young shapeshifters are ready for the trials that lead to aquatic form. Mastering water takes both physical resilience and mental resolve.",
+   "body": "You leave Darnassus for Moonglade, an ancient sanctuary beneath Mount Hyjal. In Nighthaven, Dendrite Starblaze waits as an elder mentor of the Cenarion Circle. Starblaze judges whether young shapeshifters are ready for the trials that lead to aquatic form. Mastering water takes physical resilience and mental resolve.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "aquatic form intro",
     "what do i get"
    ],
-   "answer": "This begins a druid’s path toward aquatic form. You travel to Moonglade for instruction and trials from the elder Dendrite Starblaze."
+   "answer": "You begin the path toward aquatic form by traveling to Moonglade for instruction and trials from the elder Dendrite Starblaze."
   },
   {
    "q": "Where is Dendrite Starblaze located?",
@@ -64,7 +64,7 @@
     "how to get to moonglade",
     "getting to nighthaven"
    ],
-   "answer": "Druids can use Teleport: Moonglade to travel directly to the sacred grove, guided by their spiritual attunement."
+   "answer": "You can use Teleport: Moonglade to travel directly to the sacred grove, guided by your spiritual attunement."
   },
   {
    "q": "What comes after speaking to Dendrite Starblaze?",
@@ -73,17 +73,17 @@
     "what's next",
     "after a lesson to learn"
    ],
-   "answer": "After you speak with Dendrite Starblaze, he sends you to the Trial of the Lake, where your endurance and clarity beneath the water will be tested."
+   "answer": "After you speak with Dendrite Starblaze, he sends you to the Trial of the Lake. There, your endurance and clarity beneath the water will be tested."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid, this marks a milestone in your training and opens the way to commune with Cenarius's gifts beneath the waves."
+   "text": "As a druid, you reach a milestone in your training and open the way to commune with Cenarius's gifts beneath the waves."
   },
   {
    "target": "race:NightElf",
-   "text": "As a kaldorei of Darnassus, answering the Cenarion Circle’s call in Moonglade honors tradition and connects you with your ancient teachers."
+   "text": "As a kaldorei of Darnassus, you honor tradition by answering the Cenarion Circle’s call in Moonglade and connect with your ancient teachers."
   }
  ],
  "keywords": [
@@ -109,5 +109,5 @@
  "attribution": [
   "A Lesson to Learn (Alliance)"
  ],
- "style": 1
+ "style": 2
 }

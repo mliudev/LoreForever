@@ -10,16 +10,16 @@
    "quest:928"
   ]
  },
- "summary": "Tenaron Stormgrip gives young night elf initiates the Partially Filled Vessel in Aldrassil. It carries blessed moonwell water from Shadowglen toward Dolanaar.",
+ "summary": "In Aldrassil, Tenaron Stormgrip gives young night elf initiates the Partially Filled Vessel. It carries blessed moonwell water from Shadowglen toward Dolanaar.",
  "sections": [
   {
    "title": "A Sacred Delivery",
-   "body": "Young kaldorei initiates gather blessed water from Shadowglen’s secluded moonwell. In Aldrassil, Tenaron Stormgrip pours a sample into the vessel for its journey across Teldrassil. More water from the tree’s moonwells must be gathered to tend to the island’s health.",
+   "body": "Young kaldorei initiates gather blessed water from Shadowglen’s secluded moonwell. In Aldrassil, Tenaron Stormgrip pours a sample into the vessel for its journey across Teldrassil. More water from the tree’s moonwells is needed to tend the island’s health.",
    "spoiler": 0
   },
   {
    "title": "Onward to Dolanaar",
-   "body": "Carry the vessel south through the valley gates, then follow the cobblestone roads west to Dolanaar. The journey takes a young adventurer beyond Shadowglen’s protected nursery and into Teldrassil’s wider wilds. At Dolanaar’s central moonwell, Corithras Moonrage takes the vessel and directs the next part of the ritual.",
+   "body": "Carry the vessel south through the valley gates, then follow the cobblestone roads west to Dolanaar. The journey leads beyond Shadowglen’s protected nursery and into Teldrassil’s wider wilds. At the central moonwell in Dolanaar, Corithras Moonrage takes the vessel and directs the next part of the ritual.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "vessel contents",
     "what water is in it"
    ],
-   "answer": "The vessel holds pure water from Shadowglen’s sacred moonwell, poured in by the druid Tenaron Stormgrip."
+   "answer": "Druid Tenaron Stormgrip pours pure water from Shadowglen’s sacred moonwell into the vessel."
   },
   {
    "q": "Why is it only partially filled?",
@@ -39,7 +39,7 @@
     "why partly filled",
     "why is it not full"
    ],
-   "answer": "Shadowglen’s moonwell supplies only the first sample. Caring for Teldrassil requires water from several moonwells before the vessel is full."
+   "answer": "Shadowglen’s moonwell provides only the first sample. Caring for Teldrassil requires water from several moonwells before the vessel is full."
   },
   {
    "q": "Who do I take this vessel to?",
@@ -48,7 +48,7 @@
     "where do i bring it",
     "vessel turn in"
    ],
-   "answer": "Carry the vessel south out of Shadowglen, then follow the cobblestone road west to Dolanaar. Deliver it to Corithras Moonrage, who tends the town’s moonwell."
+   "answer": "Carry the vessel south out of Shadowgl en, then follow the cobblestone road west to Dolanaar. Deliver it to Corithras Moonrage, who tends the town’s moonwell."
   },
   {
    "q": "Why is moonwell water being moved around Teldrassil?",
@@ -63,7 +63,7 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a young night elf, carrying this vessel marks a passage from Shadowglen’s sanctuary to the wider work of caring for Teldrassil."
+   "text": "As a young night elf, carrying this vessel takes you from Shadowglen’s sanctuary to the wider work of caring for Teldrassil."
   },
   {
    "target": "class:Druid",
@@ -95,5 +95,5 @@
   "Partially Filled Vessel",
   "Crown of the Earth (2)"
  ],
- "style": 1
+ "style": 2
 }

@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Llane Beshere serves as the resident warrior trainer at Northshire Abbey, making this simple letter the initial summons to martial discipline for newly arrived fighters."
+   "text": "At Northshire Abbey, Llane Beshere trains warriors. The letter calls newly arrived fighters to begin martial training."
   },
   {
    "target": "race:Human",
-   "text": "Northshire Abbey is the cradle of human adventurers setting forth into Elwynn Forest, where local recruits receive their opening guidance."
+   "text": "As a human, you receive your first guidance at Northshire Abbey before setting out into Elwynn Forest."
   },
   {
    "target": "faction:Alliance",
-   "text": "Even within the relative sanctuary protected by the Silver Hand, fresh recruits are immediately called upon to aid the troubled citizens of the Alliance."
+   "text": "As an Alliance recruit, you are called to aid troubled residents beyond the Silver Hand's shelter at Northshire Abbey."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "simple letter quest",
     "starter letter human warrior"
    ],
-   "answer": "The Simple Letter is an introductory missive handed to warriors in Northshire Valley once they return from the kobold camps. It directs them to introduce themselves to the local warrior trainer, Llane Beshere, to begin their formal martial training.",
+   "answer": "Warriors returning from the kobold camps receive the Simple Letter in Northshire Valley. It sends them to Llane Beshere, the local trainer, to begin martial instruction.",
    "q": "What is the Simple Letter?"
   },
   {
@@ -41,7 +41,7 @@
     "beshere location",
     "where is warrior trainer northshire"
    ],
-   "answer": "Llane Beshere is the warrior trainer stationed in Northshire Abbey. He instructs novice warriors in combat techniques, welcoming recruits who arrive in the valley bearing orders or recommendations to seek him out.",
+   "answer": "Llane Beshere trains warriors at Northshire Abbey. He teaches novices combat and welcomes recruits sent to him with orders or recommendations.",
    "q": "Who is Llane Beshere?"
   },
   {
@@ -50,7 +50,7 @@
     "simple letter hand in",
     "llane beshere location"
    ],
-   "answer": "The letter is brought directly to Llane Beshere, who can be found in Northshire Abbey within Northshire Valley, surrounded by the sheltered grounds protected by the holy order.",
+   "answer": "Bring the letter to Llane Beshere at Northshire Abbey in Northshire Valley. The holy order protects the abbey grounds.",
    "q": "Where do I deliver the Simple Letter?"
   },
   {
@@ -59,7 +59,7 @@
     "silver hand northshire abbey",
     "paladins elwynn"
    ],
-   "answer": "The Knights of the Silver Hand help guard Northshire Valley, keeping the abbey and its immediate perimeter relatively secure so that recruits, farmers, and clergy can go about their duties despite growing local tensions.",
+   "answer": "The Knights of the Silver Hand guard Northshire Valley. Their protection keeps the abbey and its immediate grounds relatively secure while recruits, farmers, and clergy carry on amid growing local tensions.",
    "q": "What role do the Knights of the Silver Hand play in Northshire?"
   },
   {
@@ -68,7 +68,7 @@
     "northshire problems",
     "who needs help northshire"
    ],
-   "answer": "While the abbey itself remains fairly defended, local residents face constant encroachments and shortages. Beshere advises new arrivals to explore the surrounding land and lend their martial strength to those in need.",
+   "answer": "Local residents face encroachments and shortages, though the abbey itself is fairly well defended. Llane Beshere urges new arrivals to explore the surrounding land and lend strength to those in need.",
    "q": "Why are the local citizens in need of assistance?"
   },
   {
@@ -77,7 +77,7 @@
     "more warrior training northshire",
     "beshere training"
    ],
-   "answer": "Llane Beshere remains available at the abbey day and night, ready to instruct warriors as they gain combat experience and require advanced martial skills.",
+   "answer": "Llane Beshere is at the abbey day and night, training warriors as they gain combat experience and need more advanced martial skills.",
    "q": "When should I return to Llane Beshere after delivering the letter?"
   }
  ],
@@ -96,18 +96,19 @@
  ],
  "sections": [
   {
-   "body": "The Simple Letter serves as an initial introduction for aspiring warriors arriving in Northshire Valley. Directed to Llane Beshere, the resident warrior trainer at Northshire Abbey, the letter prompts newly arrived fighters to make contact with their instructor, familiarize themselves with their surroundings, and prepare for the demands of martial life.",
+   "body": "New warriors arriving in Northshire Valley are directed by letter to Llane Beshere, the trainer at Northshire Abbey. They are to meet their instructor and learn the lay of the surrounding land. Then they can prepare for the demands of martial life.",
    "spoiler": 0,
    "title": "A Call to Arms"
   },
   {
-   "body": "Although Northshire Abbey enjoys protection under the watchful presence of the Knights of the Silver Hand, the peaceful facade of the valley belies deeper trouble. As Beshere notes upon receiving the letter, the surrounding residents face numerous plights that require able-bodied protectors, urging fresh recruits to master their weapons and step forward in defense of the realm.",
+   "body": "The Knights of the Silver Hand guard Northshire Abbey, yet trouble reaches people beyond its protection. Llane Beshere tells new warriors that valley residents need able protectors. He urges them to master their weapons and defend those who live there.",
    "spoiler": 0,
    "title": "Securing the Valley"
   }
  ],
- "summary": "The Simple Letter is an introductory directive that guides novice warriors to trainer Llane Beshere at Northshire Abbey. It marks the beginning of their formal martial instruction and urges them to assist the troubled citizens of the valley.",
+ "summary": "At Northshire Abbey, new warriors are sent to Llane Beshere for training. Their letter calls them to aid the valley's troubled residents.",
  "attribution": [
   "In-game quest text: Simple Letter"
- ]
+ ],
+ "style": 2
 }

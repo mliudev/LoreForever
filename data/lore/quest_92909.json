@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Ozwin Ironsprocket exemplifies the quintessential gnomish ambition to tinker with complex machinery, even if underestimating mechanical aggression led to getting cornered in a farm stable."
+   "text": "As a gnome, Ozwin's ambition to tinker with complex machinery is familiar. He misjudged the machines' aggression and ended up cornered in a farm stable."
   },
   {
    "target": "profession:Engineering",
-   "text": "Harvesting complex parts like isosprings and gyrostabilizers from rogue harvest golems provides the critical raw components needed to invent a functional escape device."
+   "text": "As an engineer, you can salvage isosprings and gyrostabilizers from rogue harvest golems and use them as raw parts for an escape device."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance travelers visiting Saldean's Farm can aid a visiting gnome scholar whose miscalculated attempt to fix Westfall's mechanical plague left him stranded."
+   "text": "As an Alliance traveler at Saldean's Farm, you can help a visiting gnome scholar stranded after his attempt to fix Westfall's rogue harvesters went wrong."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "ozwin",
     "quest giver"
    ],
-   "answer": "Ozwin Ironsprocket is a gnome tinkerer who traveled from Ironforge to Westfall with the ambitious goal of recalibrating the rampaging harvest golems. However, their extreme hostility forced him to take refuge inside a stable at Saldean's Farm.",
+   "answer": "Ozwin Ironsprocket is a gnome tinkerer from Ironforge who came to Westfall to recalibrate the rampaging harvest golems. Their hostility drove him into a stable at Saldean's Farm.",
    "q": "Who is Ozwin Ironsprocket?"
   },
   {
@@ -41,7 +41,7 @@
     "why are golems aggressive",
     "what is wrong with harvesters"
    ],
-   "answer": "The mechanical harvest golems wandering Westfall's abandoned fields have become wildly aggressive and hostile to passersby. While Ozwin hoped their malfunction could be fixed with routine recalibration, their ferocity proved far worse than his calculations predicted.",
+   "answer": "The harvest golems in Westfall's abandoned fields are wildly aggressive toward passersby. Their ferocity far exceeds what Ozwin expected when he thought routine recalibration would fix them.",
    "q": "Why are the harvest golems so aggressive?"
   },
   {
@@ -50,7 +50,7 @@
     "where to turn in harvesting the harvesters",
     "ozwin location"
    ],
-   "answer": "Ozwin Ironsprocket is hiding inside a stable at Saldean's Farm in Westfall, taking cover from the dangerous harvest golems prowling nearby fields.",
+   "answer": "Ozwin Ironsprocket is hiding in a stable at Saldean's Farm in Westfall, sheltering from harvest golems in the nearby fields.",
    "q": "Where can Ozwin Ironsprocket be found?"
   },
   {
@@ -59,7 +59,7 @@
     "why collect isosprings",
     "escape device parts"
    ],
-   "answer": "Ozwin needs golem isosprings and harvester gyrostabilizers to construct an emergency mechanical contraption that will provide enough cover for him to safely flee the stable.",
+   "answer": "Ozwin needs golem isosprings and harvester gyrostabilizers to build a mechanical contraption that will let him flee the stable safely.",
    "q": "What does Ozwin intend to build with the collected parts?"
   },
   {
@@ -67,7 +67,7 @@
     "why did ozwin come to westfall",
     "why leave ironforge"
    ],
-   "answer": "Drawn by news of rogue machinery terrorizing the Westfall countryside, Ozwin journeyed all the way from the dwarven capital of Ironforge believing his tinkering expertise could successfully recalibrate the rogue automatons.",
+   "answer": "Ozwin traveled from Ironforge to Westfall after hearing that rogue machinery was terrorizing the countryside. He believed he could recalibrate the harvesters.",
    "q": "Why did Ozwin travel from Ironforge to Westfall?"
   },
   {
@@ -75,7 +75,7 @@
     "where do parts drop",
     "how to get isosprings and gyrostabilizers"
    ],
-   "answer": "The isosprings and gyrostabilizers are salvaged directly from the hostile harvest golems and harvesters prowling the agricultural fields of Westfall around Saldean's Farm.",
+   "answer": "The isosprings and gyrostabilizers come from the hostile harvest golems and harvesters in the fields around Saldean's Farm in Westfall.",
    "q": "Where do the required golem parts come from?"
   }
  ],
@@ -97,18 +97,19 @@
  ],
  "sections": [
   {
-   "body": "The agricultural flatlands of Westfall have descended into chaos, overrun not only by outlaws but by rampaging mechanical harvesters. Word of these haywire automatons reached the technological workshops of Ironforge, inspiring the gnomish engineer Ozwin Ironsprocket to journey south. Confident in his technical acumen, Ozwin believed he could diagnose and recalibrate the wayward farm machinery to restore peace to the region's beleaguered farmlands.",
+   "body": "Ozwin Ironsprocket came south from Ironforge when its workshops heard of haywire harvesters in Westfall. The gnomish engineer believed he could diagnose and recalibrate the farm machines. He hoped to bring peace to the region's farmlands, already troubled by outlaws and now overrun by rampaging harvesters.",
    "spoiler": 0,
    "title": "A Miscalculated Endeavor"
   },
   {
-   "body": "Upon arriving in the fields surrounding Saldean's Farm, Ozwin quickly discovered that the harvest golems were far more volatile and violent than theoretical schematics suggested. The razor-sharp blades and erratic swings of the machines sent the gnome fleeing for his life into a nearby stable. Trapped and unable to venture out into the fields, Ozwin relies on daring adventurers to salvage salvageable isosprings and gyrostabilizers from the mechanical terror so he can assemble a device to safely escape.",
+   "body": "Near Saldean's Farm, Ozwin found the harvest golems far more violent than his schematics suggested. Their sharp blades and erratic swings drove him into a nearby stable. Trapped there, he cannot safely return to the fields. He needs daring travelers to salvage isosprings and gyrostabilizers from the machines so he can build a device to escape.",
    "spoiler": 0,
    "title": "Pinned in the Stable"
   }
  ],
- "summary": "Harvesting the Harvesters is a local quest in Westfall where players assist Ozwin Ironsprocket, a visiting gnome tinkerer trapped inside a stable at Saldean's Farm. After underestimating the ferocity of the region's haywire harvest golems, Ozwin requires salvaged mechanical components to construct an escape contraption.",
+ "summary": "At Saldean's Farm in Westfall, Ozwin Ironsprocket is trapped by haywire harvest golems. The visiting gnome tinkerer needs salvaged parts to build a way out.",
  "attribution": [
   "In-game quest text: Harvesting the Harvesters"
- ]
+ ],
+ "style": 2
 }

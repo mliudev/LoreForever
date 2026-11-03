@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Highperch"
  },
- "summary": "Highperch is an elevated plateau in western Thousand Needles, towering high above the canyon floor. It is renowned as a primary nesting ground for wild wyverns and wind riders. The roost is home to fierce prides defending their young among the windswept crags.",
+ "summary": "Wild wyverns nest among the crags of Highperch, above the western Thousand Needles canyon. Their prides guard the heights and their young.",
  "sections": [
   {
    "title": "Aerie of the Wyverns",
-   "body": "Rising sharply out of the canyon floor, Highperch is a rugged sanctuary for Kalimdor's native wyverns. The plateau provides natural defense against predators and an unobstructed launch point for their hunting flights across Thousand Needles. Within its reaches, wyvern prides live under the protection of watchful patriarchs and matriarchs, guarding their nests. The beasts fiercely defend their territory against any intruders who manage to climb into their high domain.",
+   "body": "Highperch rises from the canyon floor, giving Kalimdor’s native wyverns a rugged refuge. Its height shields them from predators and offers a clear launch for hunts across Thousand Needles.\n\nWyvern prides guard their nests under watchful patriarchs and matriarchs. They fiercely defend their territory from any intruder who reaches their high domain.",
    "spoiler": 0
   },
   {
    "title": "A Refuge in the Heights",
-   "body": "While hostile to outsiders, the high cliffs occasionally attract travellers and hunters willing to brave the dangerous ascent. The tauren scout Pao'ka Swiftmountain is stranded on these perilous heights and needs help reaching Whitereach Post. For adventurers journeying through the canyon, scaling the ramp to Highperch means contending with dozens of razor-sharp talons and venomous tails.",
+   "body": "The cliffs draw a few travelers and hunters willing to brave the climb. Pao'ka Swiftmountain, a tauren scout, is stranded on the heights and needs help reaching Whitereach Post.\n\nThose who climb the cliffs face dozens of razor-sharp talons and venomous tails.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is at highperch",
     "highperch mobs"
    ],
-   "answer": "Highperch is inhabited exclusively by wild wyverns and wind riders. You will encounter protective patriarchs, consorts, soaring adults defending their clifftop nests."
+   "answer": "Wild wyverns and wind riders live at Highperch. Protective patriarchs, consorts, and soaring adults defend their clifftop nests."
   },
   {
    "q": "Where is Highperch located?",
@@ -37,7 +37,7 @@
     "how to find highperch",
     "where is highperch"
    ],
-   "answer": "Highperch is situated in western Thousand Needles, accessible via a winding ramp that leads up from the southern wall of the canyon floor."
+   "answer": "Highperch rises in western Thousand Needles. A winding ramp follows the canyon’s southern wall to the heights."
   },
   {
    "q": "Why is Highperch significant to the Horde?",
@@ -46,7 +46,7 @@
     "wyverns and horde",
     "why do orcs care about highperch"
    ],
-   "answer": "Wyverns, also known as wind riders, are the vital flying mounts of the Horde, having allied with the orcs during the Third War. Natural roosts like Highperch represent the wild heritage and thriving population of these loyal beasts."
+   "answer": "Wyverns, also called wind riders, are vital flying mounts of the Horde. They allied with the orcs during the Third War, and roosts like Highperch hold a thriving wild population."
   },
   {
    "q": "Who is Pao'ka Swiftmountain?",
@@ -55,17 +55,17 @@
     "tauren at highperch",
     "who got trapped at highperch"
    ],
-   "answer": "Pao'ka Swiftmountain is a tauren scout stranded amidst the deadly wyvern nests on Highperch. He needs an escort to Whitereach Post."
+   "answer": "Pao'ka Swiftmountain is a tauren scout stranded among Highperch’s wyvern nests. He needs an escort to Whitereach Post."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The wind riders nesting upon Highperch are close kin to the noble flying mounts that carry the Horde across Kalimdor, making the sanctuary an awe-inspiring sight for Horde champions."
+   "text": "As a Horde champion, you can see the wild kin of the wind riders that carry your people across Kalimdor."
   },
   {
    "target": "class:Hunter",
-   "text": "The sprawling aerie offers seasoned hunters a firsthand look at wild wyverns hunting and guarding their nests in their natural, untamed habitat."
+   "text": "As a hunter, you can watch wild wyverns hunt and guard their nests in their natural home."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Highperch"
- ]
+ ],
+ "style": 2
 }

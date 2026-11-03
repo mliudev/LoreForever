@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Timbermaw Post"
  },
- "summary": "Timbermaw Post is a small furbolg camp situated in the snowy expanse of Winterspring, nestled between Frostfire Hot Springs and Lake Kel'Theril. Despite bearing the name of the uncorrupted Timbermaw tribe, the encampment has fallen under the aggressive grip of the corrupted Winterfall furbolgs.",
+ "summary": "Winterfall furbolgs hold Timbermaw Post in central Winterspring. The camp lies southeast across the road from Frostfire Hot Springs and west of Lake Kel'Theril.",
  "sections": [
   {
    "title": "A Displaced Outpost",
-   "body": "Positioned just southeast across the road from Frostfire Hot Springs and west of the frozen Lake Kel'Theril, Timbermaw Post stands as a bitter reminder of the furbolgs' internal strife in Winterspring. Despite its Timbermaw name, travelers approaching the camp will find no friendly welcomes. The outpost is controlled by the hostile Winterfall tribe, driven mad and violent by demonic corruption. Now crowded with savage Winterfall furbolgs, the camp serves as an aggressive staging ground encroaching upon the central road.",
+   "body": "Winterfall furbolgs crowd Timbermaw Post in central Winterspring. You find the camp southeast across the road from Frostfire Hot Springs and west of frozen Lake Kel'Theril. Though it bears the Timbermaw name, the hostile Winterfall tribe controls the outpost. Demonic corruption has driven them mad and violent, and they press toward the central road.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "who owns timbermaw post",
     "timbermaw post furbolgs"
    ],
-   "answer": "Despite its name, the camp is controlled by the corrupted Winterfall tribe. Its founding history is not known."
+   "answer": "The corrupted Winterfall tribe controls the camp despite its name. No one knows its founding history."
   },
   {
    "q": "Where is Timbermaw Post located?",
@@ -32,7 +32,7 @@
     "where is timbermaw post",
     "timbermaw post map"
    ],
-   "answer": "It lies in central Winterspring, situated southeast across the main road from Frostfire Hot Springs and directly west of Lake Kel'Theril."
+   "answer": "Timbermaw Post lies in central Winterspring, southeast across the main road from Frostfire Hot Springs and directly west of Lake Kel'Theril."
   },
   {
    "q": "Are the furbolgs at Timbermaw Post hostile?",
@@ -41,13 +41,13 @@
     "timbermaw post friendly",
     "can i talk to timbermaw post"
    ],
-   "answer": "Yes. Even if you have earned peaceful standing with the actual Timbermaw tribe, the furbolgs inhabiting this post belong to the hostile Winterfall tribe and will attack intruders on sight."
+   "answer": "Yes. The furbolgs at Timbermaw Post belong to the hostile Winterfall tribe. Even if you have earned peaceful standing with the actual Timbermaw tribe, these furbolgs attack intruders on sight."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "For druids who revere the furbolgs as ancient stewards of nature, witnessing the camp occupied by madness-driven Winterfall furbolgs is a stark display of the Burning Legion's lingering taint."
+   "text": "As a druid who reveres the furbolgs as ancient stewards of nature, you find the camp held by Winterfall furbolgs. The Burning Legion's lingering taint has driven them mad."
   }
  ],
  "keywords": [
@@ -67,5 +67,6 @@
  ],
  "attribution": [
   "Timbermaw Post"
- ]
+ ],
+ "style": 2
 }

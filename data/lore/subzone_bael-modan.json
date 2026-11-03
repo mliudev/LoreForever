@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Bael Modan"
  },
- "summary": "Dwarven crews blast into the red earth at Bael Modan, searching for Titan relics. Their fortified outpost has driven the Stonespire tauren from their sacred land and kindled a bitter fight.",
+ "summary": "At Bael Modan, dwarven crews blast into the red earth in search of Titan relics. Their fortified outpost has driven the Stonespire tauren from sacred ground and kindled a bitter fight.",
  "sections": [
   {
    "title": "Unearthed Secrets and Bloodshed",
-   "body": "Bael Modan's walls guard Bael'dun Keep, siege cannons, gyrocopter landing pads, and a deep excavation pit. Dwarven prospectors came to Kalimdor convinced an ancient Titan facility lay beneath the red earth. Their blasting tore through sacred ground of the Stonespire tauren. The expedition answered no call to negotiate. Gunfire and explosives drove the tribe from its ancestral lands, leaving survivors scattered and vengeful.",
+   "body": "Bael Modan's walls enclose Bael'dun Keep, siege cannons, gyrocopter landing pads, and a deep excavation pit. Dwarven prospectors came to Kalimdor convinced an ancient Titan facility lay beneath the red earth. Their blasting broke into sacred Stonespire tauren ground. The expedition made no call to negotiate. Gunfire and explosives drove the tribe from its ancestral lands, leaving survivors scattered and vengeful.",
    "spoiler": 0
   },
   {
    "title": "The Price of Unearthed Relics",
-   "body": "The diggers have uncovered more than old stonework. Among their finds is the Tear of the Moons, an artifact that brings paranoia and madness to those near it. Feegly the Exiled, a prospector banished from the camp, fell wholly under its sway. When the stone returned to his grasp, he became a trogg. Outside the gates, enraged tauren seek retribution, while deadly relics threaten the dwarves within.",
+   "body": "The diggers have uncovered more than old stonework. One find is the Tear of the Moons, an artifact that brings paranoia and madness to those nearby. Feegly the Exiled, a prospector banished from the camp, fell wholly under its sway. When the stone returned to his grasp, he became a trogg. Outside the gates, enraged tauren seek retribution, while deadly relics threaten the dwarves within.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "bael modan purpose",
     "what are dwarves digging for"
    ],
-   "answer": "Dwarven crews search Kalimdor for ancient Titan structures and relics buried beneath the earth. They believe buried Titan research facilities hold clues to the origins of their race."
+   "answer": "Dwarven crews search Kalimdor for ancient Titan structures and relics beneath the earth. They believe buried Titan research facilities hold clues to the origins of their race."
   },
   {
    "q": "What happened to the tauren who used to live here?",
@@ -45,7 +45,7 @@
     "gann",
     "gann questgiver"
    ],
-   "answer": "Gann Stonespire is one of the few Stonespire survivors. After peaceful efforts failed, he made camp by the road outside Bael Modan and calls on Horde travelers to sabotage the dwarven flying machines and kill the officers who destroyed his people's home."
+   "answer": "Gann Stonespire is one of the few Stonespire survivors. After peaceful efforts failed, he made camp by the road outside Bael Modan. He calls on Horde travelers to sabotage the dwarven flying machines and kill the officers who destroyed his people's home."
   },
   {
    "q": "What is the Tear of the Moons?",
@@ -59,7 +59,7 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you see Bael Modan as an open wound, built over the Stonespire tribe's sacred grounds. Helping Gann Stonespire seek vengeance honors the tribe."
+   "text": "As a tauren, you see Bael Modan as an open wound over the Stonespire tribe's sacred grounds. Helping Gann Stonespire seek vengeance honors the tribe."
   },
   {
    "target": "race:Dwarf",
@@ -89,5 +89,5 @@
  "attribution": [
   "Bael Modan"
  ],
- "style": 1
+ "style": 2
 }

@@ -8,16 +8,16 @@
   "wiki": "Ogtinc",
   "refs": 4
  },
- "summary": "Ogtinc is an independent furbolg hunter perched on a high ridge overlooking the Ruins of Eldarath in Azshara. Having parted ways with his tribe to serve the balance of nature, he acts as a trusted ally and mentor for the Cenarion Circle. Skilled hunters seeking to test their craft against the fiercest beasts of Kalimdor often seek out his guidance.",
+ "summary": "High above the Ruins of Eldarath in Azshara, Ogtinc guides hunters who seek to test their craft against Kalimdor’s fiercest beasts. He left his tribe to serve nature and became a trusted ally and mentor to the Cenarion Circle.",
  "sections": [
   {
    "title": "A Furbolg Apart",
-   "body": "While most furbolg in Kalimdor remain fiercely bound to their tribes\u2014or have succumbed to corruption following the Third War\u2014Ogtinc chose a distinct path. Departing from his kin, he dedicated his bow and survival lore to aiding the Cenarion Circle. He makes his camp high on a bluff southeast of Timbermaw Hold, vigilantly watching over the ancient, shattered lands of Azshara.",
+   "body": "Ogtinc camps on a bluff southeast of Timbermaw Hold and keeps watch over Azshara’s shattered lands. He left his kin and gave his bow and knowledge of survival to the Cenarion Circle. Many furbolg remain bound to their tribes, while others fell to corruption after the Third War. Ogtinc chose another path.",
    "spoiler": 0
   },
   {
    "title": "Master of the Hunt",
-   "body": "Ogtinc is renowned among seasoned trackers for his intimate understanding of Kalimdor's wilderness. He tests hunters who have honed their skills across the continents, dispatching them to gather rare trophies\u2014such as the antlers of courser beasts, the scale of wave-thrashed sea serpents, and parts from green dragonkin. Through these trials, he teaches that true hunting honors the natural world and preserves balance rather than mindlessly taking life.",
+   "body": "Seasoned trackers know Ogtinc for his knowledge of Kalimdor’s wilderness. He tests hunters who have honed their skills across the continents, sending them after rare trophies: courser antlers, sea serpent scales, and parts of green dragonkin. Through these trials, hunters learn to honor the natural world and preserve its balance, rather than take life without thought.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "ogtinc lore",
     "furbolg in azshara"
    ],
-   "answer": "Ogtinc is an accomplished furbolg hunter stationed atop the cliffs of Azshara. Unlike most of his reclusive or corrupted brethren, he left his ancestral tribe behind to offer his tracking skills and wisdom to the druids of the Cenarion Circle."
+   "answer": "Ogtinc hunts in Azshara and lends his tracking skills and wisdom to the Cenarion Circle. He left his tribe and camps high on the cliffs."
   },
   {
    "q": "Where can Ogtinc be found?",
@@ -38,7 +38,7 @@
     "ogtinc location",
     "how to find ogtinc"
    ],
-   "answer": "He is located in Azshara, perched on a cliffside campsite that overlooks the ancient Ruins of Eldarath, just southeast of Timbermaw Hold."
+   "answer": "Ogtinc camps on a cliff in Azshara, overlooking the Ruins of Eldarath, southeast of Timbermaw Hold."
   },
   {
    "q": "Why did Ogtinc leave his tribe?",
@@ -47,7 +47,7 @@
     "ogtinc tribe",
     "is ogtinc timbermaw"
    ],
-   "answer": "Ogtinc left his kin specifically to aid the Cenarion Circle in their efforts to preserve nature. While his precise tribal origins remain unspecified, his clear mind and peaceable demeanor stand in stark contrast to the corrupted tribes elsewhere in northern Kalimdor."
+   "answer": "Ogtinc left his kin to help the Cenarion Circle preserve nature. His tribal origins are not given, and his clear mind and peaceful manner set him apart from the corrupted tribes elsewhere in northern Kalimdor."
   },
   {
    "q": "What role does Ogtinc play for hunters?",
@@ -56,7 +56,7 @@
     "hunter trainer ogtinc",
     "why visit ogtinc"
    ],
-   "answer": "Ogtinc serves as a master mentor for veteran hunters reaching the pinnacle of their training. He tasks them with tracking down fearsome beasts across Kalimdor\u2014from swift coursers to the brood of the Green Dragonflight\u2014to prove their mastery of the wild."
+   "answer": "Ogtinc mentors veteran hunters nearing the height of their training. He sends them after fearsome beasts across Kalimdor, from swift coursers to green dragonkin, to test their mastery of the wild."
   },
   {
    "q": "Is Ogtinc affiliated with Timbermaw Hold?",
@@ -65,7 +65,7 @@
     "timbermaw reputation ogtinc",
     "is ogtinc friendly"
    ],
-   "answer": "While he camps near Timbermaw Hold, Ogtinc acts independently in direct partnership with the Cenarion Circle. He is naturally friendly toward travelers who approach peacefully, regardless of their standing with the Timbermaw tribe."
+   "answer": "Ogtinc camps near Timbermaw Hold but works independently with the Cenarion Circle. He is friendly to peaceful travelers, whatever their standing with the Timbermaw tribe."
   },
   {
    "q": "Why does Ogtinc watch over the Ruins of Eldarath?",
@@ -74,17 +74,17 @@
     "eldarath ogtinc",
     "ogtinc cliff"
    ],
-   "answer": "His vantage point high above the ruins gives him an unobstructed view of the troubled wilderness below, where naga, elementals, and lingering magical echoes threaten the delicate balance of the coastal forest."
+   "answer": "Ogtinc watches from high above the Ruins of Eldarath, with a clear view of the wilderness below. Naga, elementals, and lingering magical echoes threaten the balance of the coastal forest."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "Ogtinc offers deep spiritual and practical trials for seasoned hunters, testing their marksmanship and survival skills against Kalimdor's deadliest creatures."
+   "text": "As a hunter, you receive spiritual and practical trials from Ogtinc. He tests your marksmanship and survival against Kalimdor’s deadliest creatures."
   },
   {
    "target": "class:Druid",
-   "text": "As a steadfast partner of the Cenarion Circle, Ogtinc represents a rare bridge between the wild wisdom of uncorrupted furbolgs and the stewardship of the druids."
+   "text": "As a druid, you can look to Ogtinc as a steadfast partner of the Cenarion Circle. He links the wild wisdom of uncorrupted furbolgs with the druids’ care for nature."
   }
  ],
  "keywords": [
@@ -105,5 +105,6 @@
  ],
  "attribution": [
   "Ogtinc"
- ]
+ ],
+ "style": 2
 }

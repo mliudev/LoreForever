@@ -8,11 +8,11 @@
   "wiki": "Keeper Albagorm",
   "refs": 2
  },
- "summary": "At Stonetalon Peak, Keeper Albagorm watches the Charred Vale burn and seeks help healing the wilds.",
+ "summary": "At Stonetalon Peak, Keeper Albagorm seeks aid as the Charred Vale burns and the wilds suffer.",
  "sections": [
   {
    "title": "A Guardian on the Peak",
-   "body": "Keeper Albagorm guards the night elven refuge at Stonetalon Peak. Like other sons of Cenarius, he feels the pain of the natural world. South of the peak, the Charred Vale lies scorched by a greedy mechanized army of industrialists. Bloodfury harpies now hold the ruins and prevent new growth. From his sanctuary, Albagorm works to halt the corruption and restore balance to the wounded forest.",
+   "body": "Keeper Albagorm guards the night elven refuge at Stonetalon Peak. As a son of Cenarius, he feels the pain of the natural world. South of the peak, the Charred Vale lies scorched by a greedy mechanized army of industrialists. Bloodfury harpies now hold the ruins and prevent new growth. From his sanctuary, Albagorm works to halt the corruption and restore balance to the wounded forest.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is albagorm",
     "albagorm stonetalon"
    ],
-   "answer": "Keeper Albagorm is a keeper of the grove, one of Cenarius's demigod offspring, stationed at Stonetalon Peak in the Stonetalon Mountains. He allies with the night elves and Kalimdor's natural guardians."
+   "answer": "Keeper Albagorm is a keeper of the grove and one of Cenarius's demigod offspring. He is stationed at Stonetalon Peak in the Stonetalon Mountains and allies with the night elves and Kalimdor's natural guardians."
   },
   {
    "q": "Where can I find Keeper Albagorm?",
@@ -48,11 +48,11 @@
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid, you share the Cenarion lineage with Albagorm, and his effort to cleanse the Charred Vale touches that bond."
+   "text": "As a druid, you share the Cenarion lineage with Albagorm. His effort to cleanse the Charred Vale touches that bond."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can find shelter and guidance from Albagorm while traveling through the night elven refuge at Stonetalon Peak."
+   "text": "As an Alliance member, you can find shelter and guidance from Albagorm at the night elven refuge of Stonetalon Peak."
   }
  ],
  "keywords": [
@@ -72,5 +72,5 @@
  "attribution": [
   "Keeper Albagorm"
  ],
- "style": 1
+ "style": 2
 }

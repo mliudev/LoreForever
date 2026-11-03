@@ -8,11 +8,11 @@
   "wiki": "Lar Prowltusk",
   "refs": 1
  },
- "summary": "Southwest of Sen'jin Village, Lar Prowltusk watches the Durotar frontier. He guards the young troll settlement and sends travelers against nearby threats.",
+ "summary": "Southwest of Sen'jin Village, Lar Prowltusk keeps watch over Durotar's frontier. He guards the young troll settlement and sends travelers against nearby threats.",
  "sections": [
   {
    "title": "Watcher on the Coast",
-   "body": "Lar Prowltusk watches the coast southwest of Sen'jin Village. As a Darkspear sentinel, he helps guard the tribe's new home after its people fled their sunken island chain. Hostile neighbors keep harassing Sen'jin Village as the trolls work to secure a permanent home. Lar directs scouts and warriors to watch the coast and curb these attacks, especially those by the Kolkar centaur, giving the settlement room to breathe.",
+   "body": "Lar Prowltusk watches the coast southwest of Sen'jin Village. As a Darkspear sentinel, he helps guard the tribe's new home after its people fled their sunken island chain. Hostile neighbors still harass Sen'jin Village as the trolls work to secure a permanent home.\n\nSo Lar directs scouts and warriors to watch the coast and curb these attacks. He pays special attention to the Kolkar centaur, giving the settlement room to breathe.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is lar prowltusk",
     "lar prowltusk durotar"
    ],
-   "answer": "Lar Prowltusk is a Darkspear troll sentinel southwest of Sen'jin Village in Durotar. He guards the settlement's outskirts by enlisting Horde travelers to strike at regional threats before they reach the village."
+   "answer": "Lar Prowltusk guards the outskirts of Sen'jin Village in Durotar. The Darkspear sentinel sends Horde travelers against regional threats before they reach the settlement."
   },
   {
    "q": "What threats does Lar Prowltusk focus on?",
@@ -32,7 +32,7 @@
     "lar prowltusk quests",
     "what does lar prowltusk want"
    ],
-   "answer": "Lar watches for dangers along Durotar's frontier, especially marauding Kolkar centaur packs pushing into troll territory."
+   "answer": "Lar Prowltusk watches Durotar's frontier for danger, especially marauding Kolkar centaur packs pushing into troll territory."
   },
   {
    "q": "Where can Lar Prowltusk be found?",
@@ -40,13 +40,13 @@
     "lar prowltusk location",
     "where is lar prowltusk"
    ],
-   "answer": "Lar keeps watch along the paths southwest of Sen'jin Village in southern Durotar."
+   "answer": "Lar Prowltusk keeps watch along the paths southwest of Sen'jin Village in southern Durotar."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "As a Darkspear troll, you rely on scouts like Lar Prowltusk to guard your tribe's fragile new home in Durotar from aggressive centaur clans and encroaching human forces."
+   "text": "As a Darkspear troll, you depend on scouts like Lar Prowltusk to guard your tribe's fragile new home in Durotar from aggressive centaur clans and encroaching human forces."
   },
   {
    "target": "faction:Horde",
@@ -72,5 +72,5 @@
  "attribution": [
   "Lar Prowltusk"
  ],
- "style": 1
+ "style": 2
 }

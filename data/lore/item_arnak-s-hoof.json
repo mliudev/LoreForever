@@ -10,11 +10,11 @@
    "quest:5147"
   ]
  },
- "summary": "Arnak's Hoof is the macabre proof of death taken from the criminal Arnak Grimtotem. Hunted down on the bluffs of Darkcloud Pinnacle, Arnak was marked for execution by the defenders of Freewind Post after murdering a fellow tauren and kidnapping his sister.",
+ "summary": "On Darkcloud Pinnacle, Arnak Grimtotem awaits execution for murder and kidnapping. Freewind Post's defenders marked him for death after he killed a fellow tauren and took the tauren's sister.",
  "sections": [
   {
    "title": "Bounty on an Outcast",
-   "body": "Arnak Grimtotem earned notoriety throughout Thousand Needles as an outlaw whose brutality crossed even the contentious lines of tauren clan politics. After murdering another tauren and abducting the victim's sister, Lakota Windsong, a formal bounty was posted for his death. Arnak holed up on the heights of Darkcloud Pinnacle, surrounded by Grimtotem guards. Slaying him and claiming his severed hoof serves as undeniable confirmation for Cliffwatcher Longhorn at Freewind Post that the murderer has finally answered for his crimes.",
+   "body": "Across Thousand Needles, Arnak Grimtotem is feared as an outlaw. His brutality has crossed even the bitter divisions among tauren clans. He murdered a fellow tauren and abducted the victim’s sister, Lakota Windsong.\n\nSo the defenders of Freewind Post marked him for execution and set a bounty on his death. Arnak took refuge on Darkcloud Pinnacle, guarded by Grimtotem. His severed hoof proves to Cliffwatcher Longhorn at Freewind Post that the murderer has answered for his crimes.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what do i do with arnak's hoof",
     "who wants arnak's hoof"
    ],
-   "answer": "Arnak's Hoof serves as physical proof of the death of the outlaw Arnak Grimtotem. It is turned in to Cliffwatcher Longhorn at Freewind Post to complete the wanted bounty and claim the promised reward."
+   "answer": "Arnak's Hoof proves that the outlaw Arnak Grimtotem is dead. You bring it to Cliffwatcher Longhorn at Freewind Post to fulfill the wanted bounty and claim the promised reward."
   },
   {
    "q": "Who was Arnak Grimtotem?",
@@ -35,7 +35,7 @@
     "arnak grimtotem lore",
     "why is arnak wanted"
    ],
-   "answer": "Arnak was a Grimtotem renegade wanted for murder and kidnapping. He slew a tauren tribesman and held the victim's sister, Lakota Windsong, captive on the bluffs of Darkcloud Pinnacle."
+   "answer": "Arnak Grimtotem was a Grimtotem renegade wanted for murder and kidnapping. He killed a fellow tauren and held the victim's sister, Lakota Windsong, captive on the bluffs of Darkcloud Pinnacle."
   },
   {
    "q": "Where is Arnak Grimtotem found?",
@@ -44,17 +44,17 @@
     "where is arnak",
     "how to find arnak"
    ],
-   "answer": "Arnak is located on the cliffs of Darkcloud Pinnacle in northern Thousand Needles, accessible via rope bridges near the crags approaching Razorfen Downs. He keeps his captive, Lakota Windsong, on the same bluff."
+   "answer": "You find Arnak on the cliffs of Darkcloud Pinnacle in northern Thousand Needles. Rope bridges near the crags approaching Razorfen Downs lead there. Lakota Windsong is held captive on the same bluff."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For the tauren of the plains, taking Arnak's hoof is an act of tribal justice against a renegade whose murderous conduct brought dishonor and bloodshed to Thousand Needles."
+   "text": "As a tauren of the plains, you bring tribal justice by taking Arnak's hoof. His murders brought dishonor and bloodshed to Thousand Needles."
   },
   {
    "target": "faction:Horde",
-   "text": "Eliminating Arnak secures Freewind Post's authority in Thousand Needles and weakens the treacherous Grimtotem influence threatening Horde supply routes."
+   "text": "By eliminating Arnak, you uphold Freewind Post's authority in Thousand Needles. You also weaken the treacherous Grimtotem influence threatening Horde supply routes."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  "attribution": [
   "Arnak's Hoof",
   "Wanted - Arnak Grimtotem"
- ]
+ ],
+ "style": 2
 }

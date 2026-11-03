@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Feathermoon Stronghold (Classic)"
  },
- "summary": "Feathermoon Stronghold is the premier night elf military base in southern Kalimdor, situated securely on Sardor Isle off the Forgotten Coast of Feralas. Commanded by General Shandris Feathermoon, this fortified outpost projects Sentinel strength across the wild forest and keeps watch over regional threats.",
+ "summary": "Sentinels watch southern Kalimdor from feathermoon stronghold, on sardor isle off Feralas. General Shandris Feathermoon commands the night elves along the Forgotten Coast.",
  "sections": [
   {
    "title": "Sentinel Bastion of the South",
-   "body": "Perched on Sardor Isle across the channel from Feralas's mainland, Feathermoon Stronghold serves as the primary strategic base for the Sentinels in southern Kalimdor. Built among ancient elven groves and supplied with a sacred moonwell, the fortress houses archers, huntresses, and support staff under the direct supervision of General Shandris Feathermoon. From this insular sanctuary, the night elves project their influence over the verdant interior of Feralas, guarding against demonic corruption, hostile wildlife, and encroaching Horde expeditions.",
+   "body": "Across the channel from Feralas, feathermoon stronghold guards the Sentinels’ southern base on sardor isle. Ancient elven groves surround the fortress, and a sacred moonwell lies within its grounds. Archers, huntresses, and support staff serve under General Shandris Feathermoon. From the island, the night elves watch Feralas and guard against demonic corruption, dangerous wildlife, and Horde expeditions.",
    "spoiler": 0
   },
   {
    "title": "A Safe Haven in the Wilds",
-   "body": "Because the mainland of Feralas is thick with savage beasts, Gordunni ogres, and the tainted shadows of Dire Maul, Sardor Isle provides an essential defensive buffer. Alliance travelers rely on the ferry crossing from the Forgotten Coast to reach its fortified docks, repair their gear, and gather intelligence. The presence of Shandris Feathermoon\u2014General of the Sentinels and High Priestess Tyrande Whisperwind's trusted right hand\u2014ensures that the stronghold remains an unassailable redoubt against all enemies of the kaldorei.",
+   "body": "Feralas’s mainland holds savage beasts, Gordunni ogres, and the tainted shadows of Dire Maul. Sardor Isle gives the stronghold a defensive buffer. Alliance travelers cross from the Forgotten Coast by ferry to its fortified docks, where they can repair their gear and gather intelligence.\n\nGeneral Shandris Feathermoon leads the Sentinels and is the trusted right hand of High Priestess Tyrande Whisperwind. Under her command, the stronghold holds against the enemies of the kaldorei.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "where is feathermoon",
     "how to get to feathermoon stronghold"
    ],
-   "answer": "Feathermoon Stronghold sits on Sardor Isle, an island positioned off the Forgotten Coast on the western edge of Feralas. Travelers must journey west across the forest to the coast and take a boat across the water to reach the island fortress."
+   "answer": "Feathermoon Stronghold stands on Sardor Isle, off the Forgotten Coast at Feralas’s western edge. Travel west through the forest to the coast, then take the ferry across to the island fortress."
   },
   {
    "q": "Who commands Feathermoon Stronghold?",
@@ -37,7 +37,7 @@
     "feathermoon leader",
     "shandris feathermoon base"
    ],
-   "answer": "The stronghold is commanded by General Shandris Feathermoon, supreme commander of the Sentinel army and right hand of High Priestess Tyrande Whisperwind. She oversees all kaldorei military efforts throughout southern Kalimdor from this outpost."
+   "answer": "General Shandris Feathermoon commands Feathermoon Stronghold. She is supreme commander of the Sentinel army and the right hand of High Priestess Tyrande Whisperwind. From the outpost, she oversees kaldorei military efforts throughout southern Kalimdor."
   },
   {
    "q": "Why is the stronghold located on an island instead of the mainland?",
@@ -45,7 +45,7 @@
     "why sardor isle",
     "why is feathermoon on an island"
    ],
-   "answer": "Sardor Isle offers natural oceanic defenses against the many dangers of mainland Feralas, which is overrun by savage beasts, Gordunni ogres, and lingering arcane and demonic perils. Positioning the fortress on an island provides a secure port that controls coastal waters while keeping mainland threats at bay."
+   "answer": "Sardor Isle gives Feathermoon Stronghold natural defenses against mainland Feralas’s dangers. Savage beasts, Gordunni ogres, and lingering arcane and demonic perils threaten the mainland. The island offers a secure port that controls coastal waters and keeps those threats at bay."
   },
   {
    "q": "Does Feathermoon Stronghold have a moonwell?",
@@ -53,17 +53,17 @@
     "feathermoon moonwell",
     "is there a moonwell at feathermoon"
    ],
-   "answer": "Yes, Feathermoon Stronghold maintains a sacred moonwell within its grounds. It provides spiritual focus, sustenance, and a source of holy water for the night elf garrison stationed far from their homeland in the north."
+   "answer": "Yes, Feathermoon Stronghold has a sacred moonwell within its grounds. Far from their northern homeland, the night elf garrison finds spiritual focus, sustenance, and holy water there."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For Alliance champions braving southern Kalimdor, Feathermoon Stronghold provides vital supplies, flight paths, and quest headquarters amidst the hostile wilderness of Feralas."
+   "text": "For Alliance champions braving southern Kalimdor, Feathermoon Stronghold offers vital supplies, flight paths, and a headquarters amid Feralas’s hostile wilderness."
   },
   {
    "target": "race:NightElf",
-   "text": "As the main Sentinel encampment south of Ashenvale, this fortress represents the resolve of the kaldorei to safeguard Kalimdor under the leadership of General Shandris Feathermoon."
+   "text": "As a night elf, you can see the kaldorei’s resolve to safeguard Kalimdor in Feathermoon Stronghold. General Shandris Feathermoon leads this Sentinel encampment south of Ashenvale."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Feathermoon Stronghold (Classic)"
- ]
+ ],
+ "style": 2
 }

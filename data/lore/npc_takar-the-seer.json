@@ -8,16 +8,16 @@
   "wiki": "Takar the Seer",
   "refs": 2
  },
- "summary": "East of Camp Taurajo, Takar the Seer keeps a lone camp in the Barrens. Though surrounded by Horde lands, he remains loyal to the Alliance and shares occult knowledge with certain travelers.",
+ "summary": "East of Camp Taurajo, Takar the Seer keeps to his lone camp in the Barrens. Though Horde lands surround him, he remains loyal to the Alliance and shares occult knowledge with certain travelers.",
  "sections": [
   {
    "title": "A Recluse in the Savannah",
-   "body": "Takar the Seer lives alone beneath a simple tent east of Camp Taurajo. Tauren braves and orc patrols watch the surrounding Barrens, yet leave his remote clearing undisturbed. He distrusts curious Horde visitors but rarely starts a fight, keeping watch on the horizon and to himself. His camp lies far from Stormwind's politics.",
+   "body": "East of Camp Taurajo, Takar the Seer lives alone beneath a simple tent. Tauren braves and orc patrols watch the Barrens around his camp, yet leave his remote clearing undisturbed. He distrusts curious Horde visitors but rarely starts a fight. Instead, he watches the horizon and keeps to himself, far from Stormwind's politics.",
    "spoiler": 0
   },
   {
    "title": "Occult Counsel",
-   "body": "Takar the Seer shares his knowledge with a few visitors from beyond his camp. Alliance warlocks who come from the Eastern Kingdoms seek his cryptic counsel when they try to bind dangerous beings from beyond this world. His understanding of hidden forces and the craft of souls draws these practitioners to his remote, perilous camp.",
+   "body": "A few visitors travel beyond Takar's camp to seek his knowledge. Alliance warlocks from the Eastern Kingdoms come for his cryptic counsel as they try to bind dangerous beings from beyond this world. His knowledge of hidden forces and the craft of souls draws these practitioners to his remote, perilous camp.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "what is takar doing here",
     "takar backstory"
    ],
-   "answer": "Takar has never said why he lives alone. His camp lies east of Camp Taurajo, far from any Alliance outpost, and warlocks visit for his knowledge of demons rather than his story."
+   "answer": "Takar has never said why he lives alone. His camp lies east of Camp Taurajo, far from any Alliance outpost, and warlocks seek his knowledge of demons rather than his story."
   },
   {
    "q": "Is Takar hostile to Horde players?",
@@ -47,7 +47,7 @@
     "why visit takar",
     "who talks to takar"
    ],
-   "answer": "Alliance seekers, especially warlocks, come to Takar for guidance in binding powerful demons such as the Succubus. He offers cryptic instructions and insight into the reagents needed to summon and dominate them."
+   "answer": "Alliance seekers, especially warlocks, come to Takar for guidance in binding powerful demons such as the Succubus. He gives cryptic instructions and insight into the reagents needed to summon and dominate them."
   }
  ],
  "angles": [
@@ -57,7 +57,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you can find a friendly human far within Horde territory, though Takar keeps to his solitary camp in central Kalimdor."
+   "text": "As an Alliance traveler, you can find a friendly human far within Horde territory. Takar keeps to his solitary camp in central Kalimdor."
   }
  ],
  "keywords": [
@@ -80,5 +80,5 @@
  "attribution": [
   "Takar the Seer"
  ],
- "style": 1
+ "style": 2
 }

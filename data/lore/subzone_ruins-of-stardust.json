@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Ruins of Stardust"
  },
- "summary": "On an island south of Astranaar, the Ruins of Stardust lie under Felwood's spreading corruption. Bog beasts prowl the fallen sanctuary, but stardust shrubs still grow among its stones with healing power.",
+ "summary": "South of Astranaar, corruption from Felwood reaches the island sanctuary at the Ruins of Stardust. Bog beasts prowl its fallen stones, while healing shrubs still grow among them.",
  "sections": [
   {
    "title": "A Blighted Sanctuary",
-   "body": "South of Astranaar, you find the Ruins of Stardust on a solitary island. The night elves once held this holy place in reverence. Now a sickly yellow-green hue clouds the water, stained by demonic rot draining south from Felwood, as at nearby Iris Lake. Local plant life has twisted into hostile bog beasts. They prowl the fallen masonry, their temperaments warped by the tainted lake.",
+   "body": "South of Astranaar, you find the Ruins of Stardust on a lone island. The night elves once revered this holy place. Now demonic rot spreads south from Felwood, turning the water sickly yellow-green, as it does at nearby Iris Lake. The corruption has twisted local plant life into hostile bog beasts. They prowl the fallen stones, warped by the tainted water.",
    "spoiler": 0
   },
   {
    "title": "The Enduring Stardust",
-   "body": "Stardust shrubs still bloom among the ruins, untouched by the corruption in the soil and along the shore. Their leaves and blossoms can cleanse and heal. Shamans, herbalists, and local night elf defenders seek them for remedies against Ashenvale's encroaching decay.",
+   "body": "Stardust shrubs still bloom among the ruins, untouched by corruption in the soil and along the shore. Their leaves and blossoms can cleanse and heal. Shamans, herbalists, and local night elf defenders seek them for remedies against Ashenvale's encroaching decay.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "stardust lore",
     "who built stardust"
    ],
-   "answer": "The night elves once tended the Ruins of Stardust as sacred holy ground. Its marble pillars and lakeside perch offered a tranquil place of reverence before demonic corruption took root in the forest."
+   "answer": "The night elves once kept the Ruins of Stardust as sacred ground. Its marble pillars and lakeside perch offered a quiet place for reverence before demonic corruption took root in the forest."
   },
   {
    "q": "Why is the water around the island discolored?",
@@ -37,7 +37,7 @@
     "why is the lake corrupted",
     "stardust water"
    ],
-   "answer": "Demonic corruption flows from Felwood's blighted peaks into Ashenvale's waterways and taints the lake. The water turns murky yellow-green, disturbing its natural balance."
+   "answer": "Demonic corruption flows from Felwood's blighted peaks into Ashenvale's waterways and taints the lake. The water turns murky yellow-green and disturbs its natural balance."
   },
   {
    "q": "What makes the stardust shrubs special?",
@@ -46,7 +46,7 @@
     "stardust plant",
     "stardust bushes"
    ],
-   "answer": "Stardust shrubs remain pure in soil soaked by demonic runoff. They resist the surrounding taint and can restore and heal, making them valuable in cleansing rituals."
+   "answer": "Stardust shrubs remain pure in soil soaked by demonic runoff. They resist the surrounding taint and can restore and heal, making them valuable in cleansing rites."
   },
   {
    "q": "What creatures wander the ruins?",
@@ -55,7 +55,7 @@
     "what monsters are here",
     "bog beasts"
    ],
-   "answer": "Large, corrupted bog beasts wander the island. The tainted water has warped these nature elementals from peaceful forest guardians into aggressive threats that lumber through the shallows."
+   "answer": "Large, corrupted bog beasts wander the island. Tainted water has warped these nature elementals from peaceful forest guardians into aggressive threats that lumber through the shallows."
   }
  ],
  "angles": [
@@ -89,5 +89,5 @@
  "attribution": [
   "Ruins of Stardust"
  ],
- "style": 1
+ "style": 2
 }

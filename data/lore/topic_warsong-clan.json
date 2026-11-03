@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Warsong clan"
  },
- "summary": "The Warsong clan is one of the most ferocious and legendary fighting forces among the orcs, formerly led by the revered chieftain Grommash Hellscream. Having survived exile, the internment camps, and demonic corruption, the clan now operates primarily in Ashenvale as the Warsong Outriders, fiercely securing lumber for the fledgling Horde while clashing ceaselessly with the night elves.",
+ "summary": "Across Kalimdor, the Warsong clan cuts timber for the young Horde. Once led by the revered chieftain Grommash Hellscream, the clan endured exile, internment camps, and demonic corruption. Now its Outriders work chiefly in Ashenvale, where they clash ceaselessly with the night elves.",
  "sections": [
   {
    "title": "A Legacy of Defiance",
-   "body": "Long before crossing into Azeroth, the Warsong forged their reputation across the open plains of Draenor through mobile wolf-rider tactics. After the Horde's defeat, while other orcs languished in Alliance internment camps, the Warsong evaded capture, wandering the wilderness and clinging to their warlike spirit until Thrall united with Hellscream to forge the New Horde.",
+   "body": "On Draenor's open plains, the Warsong earned their name through swift attacks by wolf riders. After the Horde fell, the clan evaded capture while other orcs languished in Alliance internment camps. The Warsong wandered the wilderness and kept to their warlike ways. At last, Thrall united with Hellscream, and together they forged the New Horde.",
    "spoiler": 0
   },
   {
    "title": "Blood and Redemption",
-   "body": "Upon arriving in Kalimdor during the Third War, Thrall ordered Hellscream and his clan into Ashenvale to harvest timber and establish an outpost. The intrusion enraged the night elves and the forest demigod Cenarius. Pushed to the brink of slaughter, the Warsong succumbed once more to the pit lord Mannoroth's demonic blood to prevail, slaying Cenarius in a frenzy of fel corruption. Thrall and his allies managed to purge Hellscream of the curse, culminating in a fateful showdown where Grom gave his life to destroy Mannoroth. His heroic sacrifice broke the demon blood curse forever, cementing the Warsong clan's place in Horde history.",
+   "body": "During the Third War, the Warsong reached Kalimdor. Thrall sent Hellscream and his clan into Ashenvale to cut timber and build an outpost. Their intrusion enraged the night elves and the forest demigod Cenarius. Facing slaughter, the Warsong drank once more from Mannoroth's demonic blood and killed Cenarius in a frenzy of fel corruption.\n\nThrall and his allies purged Hellscream of the curse. Grom then gave his life in a fateful fight that destroyed Mannoroth. His sacrifice broke the demon blood curse forever and secured the Warsong's place in Horde history.",
    "spoiler": 0
   },
   {
    "title": "The War for Ashenvale",
-   "body": "In the present day, the clan continues Grommash's mission under the banner of the Warsong Outriders. From strongholds like Splintertree Post and active logging encampments, they harvest timber crucial for building the young Horde nation in the arid wastes of Durotar. Their presence has sparked a bitter territorial war with the night elven Silverwing Sentinels. Driven by their ancestral zeal, the Warsong show no sign of relinquishing Warsong Gulch, cutting deep into the ancient forest despite endless ambushes.",
+   "body": "Today, the Warsong Outriders carry on Grommash's mission in Ashenvale. From Splintertree Post and logging camps, they cut timber for the young Horde in Durotar's arid wastes. Their presence has brought them into bitter conflict with the night elven Silverwing Sentinels. The Warsong hold Warsong Gulch and keep cutting into the ancient forest despite the endless ambushes.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "who is warsong chief",
     "current warsong chieftain"
    ],
-   "answer": "Following the death of Grommash Hellscream at the end of the Third War, the Warsong clan is largely integrated into Thrall's New Horde. Their operational forces in the field, particularly the Warsong Outriders in Ashenvale, answer to local commanders and the overall authority of Warchief Thrall."
+   "answer": "Since Grommash Hellscream died at the end of the Third War, the Warsong clan has largely joined Thrall's New Horde. In the field, Warsong Outriders in Ashenvale answer to local commanders and ultimately to Warchief Thrall."
   },
   {
    "q": "Why are the Warsong logging in Ashenvale?",
@@ -42,7 +42,7 @@
     "warsong lumber",
     "orcs cutting trees ashenvale"
    ],
-   "answer": "The New Horde is based in the arid plains of Durotar and the Barrens, lands barren of substantial timber. The Warsong were sent into the rich forests of Ashenvale to gather lumber essential for constructing cities like Orgrimmar, maintaining military fortifications, and sustaining the expanding Horde."
+   "answer": "The New Horde is based in the arid plains of Durotar and the Barrens, where substantial timber is scarce. The Warsong gather lumber in Ashenvale to build cities such as Orgrimmar, maintain military fortifications, and support the growing Horde."
   },
   {
    "q": "How did the Warsong kill Cenarius?",
@@ -51,7 +51,7 @@
     "who killed cenarius",
     "warsong vs cenarius"
    ],
-   "answer": "During the Third War, the demigod Cenarius led the night elves in a brutal defense of Ashenvale, driving the Warsong into desperation. The clan drank from a pool tainted with the blood of the pit lord Mannoroth, transforming into demon-maddened chaos orcs whose empowered fury was potent enough to overwhelm and slay Cenarius."
+   "answer": "During the Third War, Cenarius led the night elves in a fierce defense of Ashenvale and drove the Warsong to desperation. The clan drank from a pool tainted with the blood of the pit lord Mannoroth. The blood made them demon-maddened chaos orcs, whose empowered fury overwhelmed and killed Cenarius."
   },
   {
    "q": "How did the Warsong escape the internment camps after the Second War?",
@@ -60,7 +60,7 @@
     "grom evasion",
     "warsong escape"
    ],
-   "answer": "Unlike many orc clans that were captured when the Second War ended, Grommash Hellscream and the Warsong evaded Alliance capture by hiding in the remote wilderness of Lordaeron. They waged guerrilla warfare and maintained their fighting spirit until Thrall found them."
+   "answer": "After the Second War, Grommash Hellscream and the Warsong hid in Lordaeron's remote wilderness and evaded Alliance capture. They waged guerrilla warfare and kept their fighting spirit until Thrall found them."
   },
   {
    "q": "What is Warsong Gulch?",
@@ -69,7 +69,7 @@
     "what is warsong gulch",
     "warsong battlefield"
    ],
-   "answer": "Warsong Gulch is a canyon valley in southern Ashenvale where the Warsong Outriders clash directly with the night elven Silverwing Sentinels. The Outriders fight to secure their lumber operations, while the Sentinels battle to drive the orcs completely out of their sacred woodland."
+   "answer": "Warsong Gulch is a canyon valley in southern Ashenvale, where the Warsong Outriders clash with the night elven Silverwing Sentinels. The Outriders fight to protect their lumber operations, while the Sentinels seek to drive the orcs from their sacred woodland."
   },
   {
    "q": "Who was Grommash Hellscream?",
@@ -78,25 +78,25 @@
     "grom hellscream",
     "grommash"
    ],
-   "answer": "Grommash 'Grom' Hellscream was the legendary chieftain of the Warsong clan and a mentor to Thrall. Though he was the first orc to drink the demon blood on Draenor, he ultimately redeemed himself and freed all orcs from demonic bondage by slaying the pit lord Mannoroth, sacrificing his life in the deed."
+   "answer": "Grommash 'Grom' Hellscream was the legendary Warsong chieftain and a mentor to Thrall. He was the first orc to drink demon blood on Draenor, but later redeemed himself by slaying Mannoroth and freeing all orcs from demonic bondage. He gave his life in the deed."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "The Warsong represent both the greatest shame and highest redemption of the orcish people: the first to drink the blood of Mannoroth, but also the clan whose chieftain died to shatter the demon's hold over all orcs."
+   "text": "For orcs, the Warsong carry both their people's deepest shame and greatest redemption. They were the first to drink Mannoroth's blood, and their chieftain died to break the demon's hold over all orcs."
   },
   {
    "target": "race:NightElf",
-   "text": "The Warsong are viewed with intense hatred by the night elves, not only for deforesting sacred woodlands in Ashenvale, but for the unforgivable slaughter of the demigod Cenarius."
+   "text": "The night elves hate the Warsong for cutting sacred Ashenvale woodlands and killing the demigod Cenarius."
   },
   {
    "target": "faction:Horde",
-   "text": "Without the lumber harvested by the Warsong Outriders in Ashenvale, the New Horde would lack the raw materials necessary to fortify its settlements and expand its holdings in Kalimdor."
+   "text": "The New Horde depends on timber the Warsong Outriders cut in Ashenvale to fortify settlements and expand across Kalimdor."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Warsong embody the unrelenting aggression of the orcs, proving to many in the Alliance that peace between the two factions remains impossible so long as their axes swing in Ashenvale."
+   "text": "To many in the Alliance, the Warsong's relentless aggression shows that peace between the factions remains impossible while their axes swing in Ashenvale."
   }
  ],
  "keywords": [
@@ -121,5 +121,6 @@
  ],
  "attribution": [
   "Warsong clan"
- ]
+ ],
+ "style": 2
 }

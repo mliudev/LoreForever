@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Nethergarde Keep"
  },
- "summary": "Nethergarde Keep is a fortified Alliance stronghold perched high upon the bluffs along the road entering the Blasted Lands. Raised by the Alliance after the Second War, it stands as a vigilant sentinel over the dormant Dark Portal and the chaotic energies bleeding across the red wastes. Today, mages and garrisons supported by Stormwind continue their lonely vigil against demons and lingering corruption.",
+ "summary": "Nethergarde Keep watches the Dark Portal from the bluffs above the road into the Blasted Lands. The Alliance raised it after the Second War to guard the dormant gateway and the red wastes beyond. Mages and soldiers, supplied by Stormwind, keep watch against demons and lingering corruption.",
  "sections": [
   {
    "title": "A Sentinel Against the Red World",
-   "body": "Following the destruction of the Dark Portal at the end of the Second War, Archmage Khadgar and the leaders of the Alliance of Lordaeron recognized that Azeroth could never again leave the rift unguarded. Builders labored to raise towering bastions, barracks, and mage spires along the canyon pass into the Blasted Lands. Staffed by Kirin Tor sorcerers, its dual purpose was to keep constant watch on the shattered gateway and weave wards preventing the demonic blight of the scorched landscape from creeping northward into the human kingdoms.",
+   "body": "After the Dark Portal fell at the end of the Second War, Archmage Khadgar and the Alliance of Lordaeron knew the rift could not go unguarded. So the Alliance raised bastions, barracks, and mage spires along the canyon pass into the Blasted Lands. Kirin Tor sorcerers took their posts in the keep. They watched the shattered gateway and wove wards to keep demonic blight from creeping north into the human kingdoms.",
    "spoiler": 0
   },
   {
    "title": "The Lonely Vigil",
-   "body": "When the Dark Portal reopened and the Alliance Expedition ventured into Draenor, Khadgar and his companions sealed the gateway behind them, leaving Nethergarde to guard a silent remnant. For two decades, scholars from Dalaran and the Wizard's Sanctum have analyzed the portal's lingering energies, mutated local fauna, and demonic incursions. With Dalaran ravaged during the Third War, Nethergarde relies entirely on vital supply caravans from Stormwind City to sustain its soldiers and mages as they stand alone against the horrors haunting the wasteland.",
+   "body": "When the Dark Portal reopened, the Alliance Expedition crossed into Draenor. Khadgar and his companions sealed the gateway behind them, leaving Nethergarde to guard its silent remnant. For two decades, scholars from Dalaran and the Wizard's Sanctum have studied the portal's lingering energies, mutated local fauna, and demonic incursions.\n\nAfter Dalaran was ravaged during the Third War, Stormwind City became the keep's sole source of vital supply caravans. Its soldiers and mages now stand alone against the horrors haunting the wasteland.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why is nethergarde here",
     "nethergarde history"
    ],
-   "answer": "It was commissioned after the Second War by Archmage Khadgar and the Alliance of Lordaeron to guard against another orcish invasion from Draenor and contain the spreading demonic corruption of the Blasted Lands."
+   "answer": "After the Second War, Archmage Khadgar and the Alliance of Lordaeron commissioned Nethergarde Keep to guard against another orcish invasion from Draenor and contain demonic corruption spreading through the Blasted Lands."
   },
   {
    "q": "Who constructed the keep?",
@@ -36,7 +36,7 @@
     "who built nethergarde",
     "nethergarde builders"
    ],
-   "answer": "Nethergarde Keep was raised by the Alliance of Lordaeron at Archmage Khadgar's urging after the Second War, and it was staffed chiefly by the wizards of Dalaran's Kirin Tor."
+   "answer": "The Alliance of Lordaeron raised Nethergarde Keep at Archmage Khadgar's urging after the Second War. Wizards of Dalaran's Kirin Tor chiefly staffed it."
   },
   {
    "q": "Who commands and supplies the fortress now?",
@@ -45,7 +45,7 @@
     "nethergarde supplies",
     "stormwind nethergarde"
    ],
-   "answer": "Originally maintained by Dalaran's Kirin Tor, the fortress now relies primarily on the Kingdom of Stormwind for troops, regular supply caravans, and logistical support following Dalaran's fall to the Scourge and the Legion."
+   "answer": "Stormwind now provides Nethergarde Keep with troops, regular supply caravans, and logistical support. Dalaran's Kirin Tor once maintained the keep, but Dalaran fell to the Scourge and the Legion."
   },
   {
    "q": "What are the mages inside the keep studying?",
@@ -54,17 +54,17 @@
     "wizards sanctum nethergarde",
     "what are they researching"
    ],
-   "answer": "Researchers from the Wizard's Sanctum study the dormant energies of the Dark Portal, the strange mutations afflicting local wildlife, and methods to ward off the fel taint lingering over the red landscape."
+   "answer": "Researchers from the Wizard's Sanctum study the dormant energies of the Dark Portal, mutations afflicting local wildlife, and ways to ward off the fel taint lingering over the red landscape."
   }
  ],
  "angles": [
   {
    "target": "class:Mage",
-   "text": "For practitioners of the arcane, Nethergarde represents decades of Kirin Tor research into dimensional rifts, rift sealing, and holding back the entropic spread of fel corruption."
+   "text": "As a mage, you know Nethergarde as a place where Kirin Tor mages have spent decades studying dimensional rifts, sealing them, and holding back fel corruption."
   },
   {
    "target": "faction:Alliance",
-   "text": "The fortress stands as one of the Alliance's most vital forward bulwarks, paid for in blood and gold to ensure the horrors of the First and Second Wars never spill out of the portal again."
+   "text": "As an Alliance member, you know Nethergarde as a forward stronghold built with blood and gold to keep the horrors of the First and Second Wars from passing through the portal again."
   }
  ],
  "keywords": [
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Nethergarde Keep"
- ]
+ ],
+ "style": 2
 }

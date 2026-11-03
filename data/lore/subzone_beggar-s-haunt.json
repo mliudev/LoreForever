@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Beggar's Haunt"
  },
- "summary": "At Beggar's Haunt, Forsaken agents watch the eastern approaches from an old Stormwind tower. It rises on a hillside in northeastern Duskwood, near the mountain road to Deadwind Pass.",
+ "summary": "Forsaken agents watch the eastern approaches from Beggar's Haunt, an old Stormwind tower. It stands on a hillside in northeastern Duskwood, near the mountain road to Deadwind Pass.",
  "sections": [
   {
    "title": "A Watchtower in the Shadows",
-   "body": "Beggar's Haunt overlooks the hills east of Manor Mistmantle. Stormwind once kept guards in this tower to watch the kingdom's eastern approaches. As Duskwood fell into gloom, patrols withdrew to Darkshire and left the tower to the elements. Forsaken agents now use the ruins to study the region and watch it from within Alliance territory. They include members of the Royal Apothecary Society and the Deathstalkers.",
+   "body": "Beggar's Haunt looks over the hills east of Manor Mistmantle. Stormwind once kept guards here to watch the kingdom's eastern approaches. As Duskwood sank into gloom, the patrols withdrew to Darkshire and left the tower to weather and ruin. Now Forsaken agents study the region from within Alliance territory. Among them are members of the Royal Apothecary Society and the Deathstalkers.",
    "spoiler": 0
   },
   {
    "title": "Knight's Hollow and the Forgotten Dead",
-   "body": "A twisting path behind the tower descends to Knight's Hollow, a secluded pool and waterfall. An unmarked grave lies there between two hooded stone statues like the guardians beside the Dark Portal. Nearby graves include the burial place of an Unknown Soldier. They recall forgotten clashes along this frontier, fought long before the Forsaken took the watchtower.",
+   "body": "A winding path behind Beggar's Haunt descends to Knight's Hollow, where a secluded pool lies beneath a waterfall. An unmarked grave rests between two hooded stone statues, like the guardians beside the Dark Portal. Nearby graves include the resting place of an Unknown Soldier. These graves recall forgotten clashes along the frontier, fought long before the Forsaken took the watchtower.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "why is horde here",
     "undead at beggars haunt"
    ],
-   "answer": "Agents from the Undercity have claimed the abandoned tower, including Apothecary Faustin of the Royal Apothecary Society and Deathstalker Zraedus. They watch Alliance movements and quietly conduct experiments far to the south."
+   "answer": "Forsaken agents from the Undercity have claimed the abandoned tower. Among them are Apothecary Faustin of the Royal Apothecary Society and Deathstalker Zraedus. They watch Alliance movements and quietly conduct experiments far to the south."
   },
   {
    "q": "Was this tower originally built by the Forsaken?",
@@ -46,7 +46,7 @@
     "grave behind tower",
     "dark portal statues duskwood"
    ],
-   "answer": "Knight's Hollow lies down the path behind the haunt. Its secluded waterfall pool has an unmarked grave framed by hooded guardian statues like those beside the Dark Portal."
+   "answer": "Knight's Hollow lies down the path behind Beggar's Haunt. At its secluded waterfall pool, an unmarked grave rests between hooded guardian statues like those beside the Dark Portal."
   },
   {
    "q": "Is Beggar's Haunt hostile to Alliance travelers?",
@@ -55,17 +55,17 @@
     "beggars haunt guards",
     "is beggars haunt safe"
    ],
-   "answer": "Yes. The Forsaken agents at the tower are seasoned and will strike down Alliance travelers who come too close to their hillside refuge."
+   "answer": "Yes. The Forsaken agents at the tower are seasoned and strike down Alliance travelers who come too close to their hillside refuge."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Forsaken agents inside an old Stormwind scout tower just off the main road signal Horde infiltration on Darkshire's doorstep."
+   "text": "Forsaken agents in an old Stormwind scout tower just off the main road show that the Horde has reached Darkshire's doorstep."
   },
   {
    "target": "race:Undead",
-   "text": "As a Forsaken, you have a secluded, dangerous foothold deep in the human lands of the south."
+   "text": "As a Forsaken, you hold a secluded and dangerous foothold deep in the human lands of the south."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
  "attribution": [
   "Beggar's Haunt"
  ],
- "style": 1
+ "style": 2
 }

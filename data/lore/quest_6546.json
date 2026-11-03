@@ -17,16 +17,16 @@
   "wiki": "Warsong Outrider Update (quest)",
   "chain": []
  },
- "summary": "A Warsong scout keeps watch along eastern Ashenvale’s perilous paths. Warsong Outrider Update carries intelligence about nearby Alliance forces, entrenched satyr, and naga moving through neighboring Azshara.",
+ "summary": "Along eastern Ashenvale, the Warsong Outrider Update carries word of danger closing in on the Horde. Its report names Alliance forces, satyr entrenched in the forest, and naga moving through neighboring Azshara.",
  "sections": [
   {
    "title": "Eyes Along the Forest Edge",
-   "body": "A lone Warsong Outrider watches the contested eastern edge of Ashenvale. Horde supply lines face constant harassment here, so the outriders scout enemy movements before raiding parties can strike Mor'shan Rampart or Splintertree Post. Meeting one on patrol means the forest is under watch, and the report he carries may help decide whether a Horde fortification holds or falls to ambush.",
+   "body": "A lone Warsong Outrider watches Ashenvale’s contested eastern edge. Horde supply lines face constant harassment, so outriders track enemy movements before raiding parties can strike Mor'shan Rampart or Splintertree Post. Meet one on patrol and you know the forest is under watch. His report may decide whether a Horde fortification holds or falls to ambush.",
    "spoiler": 0
   },
   {
    "title": "Threats on Every Horizon",
-   "body": "A Warsong Outrider’s report describes danger across Kalimdor’s central forests. Night elves and the wider Alliance remain a threat, while cunning, demonic satyr haunt eastern Ashenvale. Scouts have also found a massive naga presence spreading through the ruined coastal lands of neighboring Azshara. The Horde faces hostile powers from almost every direction.",
+   "body": "A Warsong Outrider’s report tells of danger across Kalimdor’s central forests. Night elves and the wider Alliance remain a threat, while cunning, demonic satyr haunt eastern Ashenvale. Scouts have also found a massive naga presence spreading through the ruined coastal lands of neighboring Azshara. The Horde faces hostile powers from nearly every direction.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what does the report say",
     "scout report"
    ],
-   "answer": "The Warsong Report is an intelligence dispatch written by a Warsong Outrider about enemy positions and dangers in the region. It names nearby Alliance forces, active satyr covens in eastern Ashenvale, and newly discovered naga movements across Azshara."
+   "answer": "The Warsong Report is an intelligence dispatch from a Warsong Outrider about enemy positions and dangers in the region. It names nearby Alliance forces, active satyr covens in eastern Ashenvale, and newly discovered naga movements across Azshara."
   },
   {
    "q": "Who is Kadrak?",
@@ -56,7 +56,7 @@
     "why mention azshara",
     "azshara naga threat"
    ],
-   "answer": "Azshara borders eastern Ashenvale, and naga movements there could threaten the Horde’s flank. The outriders watch adjacent lands so the Horde is not surprised by a massive incursion while contending with the night elves."
+   "answer": "Azshara borders eastern Ashenvale, and naga movements there could threaten the Horde’s flank. Outriders watch nearby lands so the Horde is not surprised by a massive incursion while facing the night elves."
   },
   {
    "q": "What makes eastern Ashenvale so dangerous for the Horde?",
@@ -65,7 +65,7 @@
     "ashenvale threats",
     "satyr threat"
    ],
-   "answer": "Eastern Ashenvale puts the Horde between active Alliance detachments, ancient ruins infused with demonic corruption and inhabited by satyr, and untamed woodland beasts. Couriers and patrols risk ambush from every direction."
+   "answer": "In eastern Ashenvale, the Horde faces active Alliance detachments, ancient ruins filled with demonic corruption and satyr, and untamed woodland beasts. Couriers and patrols risk ambush from every direction."
   },
   {
    "q": "Who are the Warsong Outriders?",
@@ -82,7 +82,7 @@
     "why do i deliver report",
     "why not deliver himself"
    ],
-   "answer": "The outrider must keep watch on the trail and track hostile movements as they develop. If he leaves his vantage point, the frontline could miss an unexpected Alliance or satyr advance."
+   "answer": "The outrider must watch the trail and track hostile movements as they develop. If he leaves his vantage point, the frontline could miss an unexpected Alliance or satyr advance."
   }
  ],
  "angles": [
@@ -117,5 +117,5 @@
  "attribution": [
   "Warsong Outrider Update (quest)"
  ],
- "style": 1
+ "style": 2
 }

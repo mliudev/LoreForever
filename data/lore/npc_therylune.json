@@ -8,11 +8,11 @@
   "wiki": "Therylune",
   "refs": 1
  },
- "summary": "At the Master's Glaive in southern Darkshore, Therylune waits for a chance to escape her captors. Twilight's Hammer cultists have trapped the dryad at the ancient site, and she needs a traveler's help to reach safety.",
+ "summary": "At the Master's Glaive in southern Darkshore, Therylune waits for help to escape the Twilight's Hammer cultists who hold her captive.",
  "sections": [
   {
    "title": "Captive of the Cult",
-   "body": "Therylune is a dryad, a daughter of Cenarius who guards nature. She came from the tranquil woodlands of northern Kalimdor to the Master's Glaive in southern Darkshore. Twilight's Hammer cultists have gathered at the ancient excavation and ambushed her. Surrounded by their swarms, she cannot fight her way free alone. She needs an escort through the cultists and out to safety.",
+   "body": "Therylune is a dryad, a daughter of Cenarius who guards nature. She came from the tranquil woodlands of northern Kalimdor to the Master's Glaive in southern Darkshore. There, Twilight's Hammer cultists ambushed her at the ancient excavation. Surrounded by their swarms, she cannot fight her way free alone. She needs an escort through the cultists and out to safety.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "therylune lore",
     "what is therylune"
    ],
-   "answer": "Therylune is a dryad, one of the woodland daughters of the demigod Cenarius. Twilight's Hammer cultists have captured her at the Master's Glaive in southern Darkshore."
+   "answer": "Therylune is a dryad, one of the woodland daughters of the demigod Cenarius. Twilight's Hammer cultists hold her captive at the Master's Glaive in southern Darkshore."
   },
   {
    "q": "Why is Therylune trapped at the Master's Glaive?",
@@ -33,7 +33,7 @@
     "how did therylune get caught",
     "masters glaive cultists"
    ],
-   "answer": "Therylune was ambushed and pinned down by Twilight's Hammer cultists. They have established a dark camp around the giant petrified remains at the Master's Glaive."
+   "answer": "Twilight's Hammer cultists ambushed Therylune and pinned her down. They have established a dark camp around the giant petrified remains at the Master's Glaive."
   },
   {
    "q": "Does Therylune have any family?",
@@ -85,5 +85,5 @@
  "attribution": [
   "Therylune"
  ],
- "style": 1
+ "style": 2
 }

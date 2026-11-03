@@ -27,16 +27,16 @@
    "Lack of Surplus"
   ]
  },
- "summary": "After Tok'Kar sends you to speak with Katar, Katar makes plain a hatred of the sea. Watching the fish men die at the hands of anyone who does the Horde's will gives Katar some pleasure, and Katar asks how many you can slay and whether you would test yourself against their strongest kind.",
+ "summary": "Tok'Kar sends you to Katar in the Swamp of Sorrows. Katar hates the sea and takes pleasure in seeing fish men fall to those who serve the Horde. Now Katar asks how many you can slay and whether you can face their strongest kind.",
  "sections": [
   {
    "title": "A Grudge Against the Sea",
-   "body": "Katar bears no affection for the sea or for any creature that comes out of it, and calls it a mistress strong but blind, callous and brutal. Killing the fish men by the hundreds would delight Katar, were it possible, and watching them fall to those who serve the Horde gives a little satisfaction. Katar, in the Swamp of Sorrows, asks you to slay marsh murlocs, marsh inkspewers and marsh flesheaters.",
+   "body": "In the Swamp of Sorrows, Katar asks you to kill marsh murlocs, marsh inkspewers and marsh flesheaters. Katar despises the sea and every creature from it. To Katar, the sea is a strong but blind, callous and brutal mistress. Slaying fish men by the hundreds would delight Katar, if that were possible. For now, watching them fall to those who serve the Horde brings some satisfaction.",
    "spoiler": 0
   },
   {
    "title": "Katar's Verdict",
-   "body": "On your return, Katar says the sea may seem vast and relentless, yet her own offspring now bear your bloody mark. The fish men now know pain and must rebuild their ranks, which Katar finds good, and Katar will smile each time one is silenced. Katar invites you back to slay more.",
+   "body": "When you return, Katar says the sea may seem vast and relentless, yet its offspring now bear your bloody mark. The fish men know pain and must rebuild their ranks, which pleases Katar. Each time one is silenced, Katar will smile and invite you to slay more.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "katar murlocs",
     "why hate sea"
    ],
-   "answer": "Katar bears no love for the sea or what comes out of it, and would gladly see the fish men slain by the hundreds. Watching them die to those who do the Horde's will gives some pleasure."
+   "answer": "Katar hates the sea and every creature from it, and would gladly see fish men slain by the hundreds. Watching them die at the hands of those who serve the Horde gives Katar some pleasure."
   },
   {
    "q": "Where does this hunt take place?",
@@ -56,7 +56,7 @@
     "where are the marsh murlocs",
     "threat from the sea location"
    ],
-   "answer": "In the Swamp of Sorrows, among marsh murlocs, marsh inkspewers and marsh flesheaters."
+   "answer": "You hunt marsh murlocs, marsh inkspewers and marsh flesheaters in the Swamp of Sorrows."
   },
   {
    "q": "Who gives this hunt?",
@@ -64,7 +64,7 @@
     "who gives threat from the sea",
     "threat from the sea questgiver"
    ],
-   "answer": "Katar, whom Tok'Kar sent you to speak with in the Swamp of Sorrows."
+   "answer": "Katar gives the hunt in the Swamp of Sorrows, after Tok'Kar sends you to speak with Katar."
   },
   {
    "q": "What comes before this hunt?",
@@ -72,7 +72,7 @@
     "threat from the sea prerequisite",
     "threat from the sea previous quest"
    ],
-   "answer": "It follows the first Threat From the Sea, in which Tok'Kar sent you to speak with Katar."
+   "answer": "It follows the first Threat From the Sea, when Tok'Kar sent you to speak with Katar."
   }
  ],
  "angles": [],
@@ -93,5 +93,6 @@
  ],
  "attribution": [
   "Threat From the Sea (2)"
- ]
+ ],
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Dreadmist Peak"
  },
- "summary": "Red haze cloaks Dreadmist Peak, northwest of the Crossroads in the Barrens. The Burning Blade cult keeps a hidden refuge on its crags.",
+ "summary": "At Dreadmist Peak, a red haze hangs over the crags northwest of the Crossroads in the Barrens. The Burning Blade cult keeps a refuge hidden there.",
  "sections": [
   {
    "title": "A Den of Corruption",
-   "body": "Dreadmist Peak rises above the Barrens, its crags swallowed by a dense red haze that dims the sky. At the crest and in the hollows below, Burning Blade cultists shelter warlocks and toxicologists. They poison nearby water and scheme against the new powers claiming central Kalimdor.",
+   "body": "Red haze dims the sky above Dreadmist Peak. At the crest and in the hollows below, Burning Blade cultists shelter warlocks and toxicologists. They poison nearby water and scheme against the new powers claiming central Kalimdor.",
    "spoiler": 0
   },
   {
    "title": "A Convergence of Schemes",
-   "body": "Dreadmist Peak draws more than the Burning Blade. Sarilus Foulborne, a rogue Forsaken mage, has made camp on its heights. He bends elemental forces to corrupt water spirits as far north as Ashenvale.",
+   "body": "Sarilus Foulborne, a rogue Forsaken mage, has made camp on Dreadmist Peak. There he bends elemental forces to corrupt water spirits as far north as Ashenvale.",
    "spoiler": 1
   }
  ],
@@ -37,7 +37,7 @@
     "dreadmist peak enemies",
     "burning blade dreadmist"
    ],
-   "answer": "The Burning Blade cult controls Dreadmist Peak, watches its trails, and guards Dreadmist Den below. Sarilus Foulborne, a renegade undead mage, also occupies the mountain."
+   "answer": "The Burning Blade cult controls Dreadmist Peak. Its members watch the trails and guard Dreadmist Den below. Sarilus Foulborne, a renegade undead mage, also occupies the mountain."
   },
   {
    "q": "How do you reach Dreadmist Peak?",
@@ -46,7 +46,7 @@
     "dreadmist peak location",
     "dreadmist path"
    ],
-   "answer": "Follow the main road north from the Crossroads to the fork for Ashenvale and Stonetalon. Turn northwest toward the looming crag, then climb the path up its northern face for the safest route to the top."
+   "answer": "Follow the main road north from the Crossroads to the fork for Ashenvale and Stonetalon. Turn northwest toward the looming crag, then climb the path up its northern face. That is the safest route to the top."
   }
  ],
  "angles": [
@@ -79,5 +79,5 @@
  "attribution": [
   "Dreadmist Peak"
  ],
- "style": 1
+ "style": 2
 }

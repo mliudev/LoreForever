@@ -17,11 +17,11 @@
   "wiki": "Ormer's Revenge (3)",
   "chain": []
  },
- "summary": "In the Wetlands, Ormer's Revenge begins with a demand for Sarltooth's death. Ormer Ironbraid believes the raptor led the attack that slaughtered dwarven excavators at Whelgar Excavation Site, and asks you to bring back one of its talons as proof.",
+ "summary": "Ormer Ironbraid seeks vengeance at Whelgar Excavation Site. He believes Sarltooth led the raptor attack that slaughtered dwarven excavators, and asks you to bring back one of its talons as proof.",
  "sections": [
   {
    "title": "A Strike at the Pack Leader",
-   "body": "After the Explorer's League diggers were slaughtered at Whelgar Excavation Site, Ormer Ironbraid watched the raptors from his ridge. One beast stood larger than the rest. Sarltooth perched above the dig works, where Ormer saw it directing or leading the pack that drove the dwarves out. To Ormer, Sarltooth was more than a wild beast. He believed it had led the attack on King Magni Bronzebeard's subjects.",
+   "body": "After the Explorer's League diggers were slaughtered at Whelgar Excavation Site, Ormer Ironbraid watched the raptors from his ridge. One beast stood larger than the rest. Sarltooth perched above the dig works, where Ormer saw it lead the pack that drove the dwarves out. To Ormer, Sarltooth was more than a wild beast. He believed it had led the attack on King Magni Bronzebeard's subjects.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "who is the raptor boss",
     "sarltooth lore"
    ],
-   "answer": "Sarltooth is a large, menacing raptor leading the pack at Whelgar Excavation Site in the Wetlands. Ormer Ironbraid believes Sarltooth directed the assault that massacred the dwarven diggers."
+   "answer": "Sarltooth is a large raptor leading the pack at Whelgar Excavation Site in the Wetlands. Ormer Ironbraid believes Sarltooth directed the assault that massacred the dwarven diggers."
   },
   {
    "q": "Where is Sarltooth located?",
@@ -85,11 +85,11 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, avenging the Explorer's League crew slaughtered at Whelgar Excavation Site honors King Magni's fallen subjects."
+   "text": "As a dwarf, you honor King Magni's fallen subjects by avenging the Explorer's League crew slaughtered at Whelgar Excavation Site."
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you face one of the Wetlands' apex predators. Keen tracking skills will guide you up the ridge to the pack leader."
+   "text": "As a hunter, you face one of the Wetlands' apex predators. Keen tracking skills guide you up the ridge to the pack leader."
   },
   {
    "target": "faction:Alliance",
@@ -113,5 +113,5 @@
  "attribution": [
   "Ormer's Revenge (3)"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Dragonmurk"
  },
- "summary": "Dragonmurk is a sprawling, hazardous tract of southern Dustwallow Marsh swarming with black dragonspawn and hatchlings. Flanked by ancient ogre ruins and scorched caverns, it serves as the hostile outer perimeter for the brood of Onyxia.",
+ "summary": "In southern Dustwallow Marsh, black dragonspawn and hatchlings swarm Dragonmurk. Ancient ogre ruins and scorched caverns flank this dangerous tract, held by Onyxia's brood.",
  "sections": [
   {
    "title": "A Brood in the Bog",
-   "body": "Spanning the southern interior of Dustwallow Marsh, the Dragonmurk marks the threshold where damp wetlands give way to the dominion of the black dragonflight. The waterways and thick mud here crawl with black wyrmkins, dragonspawn, and ravenous whelps. The surrounding landscape has suffered deeply from their presence; adjacent territories such as the ruined village of Stonemaul and the scorched cavern known as the Den of Flame have both fallen completely under the flight's territorial grip.",
+   "body": "In southern Dustwallow Marsh, wet paths and thick mud teem with black wyrmkins, dragonspawn, and hungry whelps. The black dragonflight holds the land around Dragonmurk. Stonemaul, a ruined village, and the scorched Den of Flame both lie under its control.",
    "spoiler": 0
   },
   {
    "title": "Guarding the Broodmother",
-   "body": "The swarms of drakes and guards throughout the Dragonmurk are not random wanderers. Southern Dustwallow serves as the primary nesting ground in Kalimdor for Onyxia, the daughter of Deathwing. The wyrmkin patrol the mire aggressively, annihilating interlopers and protecting the clutch from both Theramore's scouts and the Horde's nearby encampments.",
+   "body": "Onyxia's black dragonspawn fill the mire, guarding her clutch. Southern Dustwallow is Onyxia's main nesting ground in Kalimdor. She is the daughter of Deathwing. Her wyrmkin patrol the marsh and destroy intruders, protecting the eggs from Theramore's scouts and nearby Horde camps.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "where is dragonmurk",
     "dragonmurk location"
    ],
-   "answer": "Dragonmurk is the southern region of Dustwallow Marsh that is heavily infested with whelps, drakes, and dragonspawn belonging to the black dragonflight."
+   "answer": "Dragonmurk is a southern stretch of Dustwallow Marsh overrun by black dragonflight whelps, drakes, and dragonspawn."
   },
   {
    "q": "Why are there so many black dragons here?",
@@ -37,7 +37,7 @@
     "who leads the dragons here",
     "onyxia dragons dustwallow"
    ],
-   "answer": "Southern Dustwallow Marsh contains the lair of Onyxia, a broodmother of the black dragonflight. Dragonmurk acts as a protective buffer where her offspring and servants can nest, mature, and ward off outside threats."
+   "answer": "Onyxia's lair lies in southern Dustwallow Marsh, where her offspring and servants nest, grow, and keep outside threats at bay."
   },
   {
    "q": "What landmarks are found near Dragonmurk?",
@@ -46,7 +46,7 @@
     "what is near dragonmurk",
     "places around dragonmurk"
    ],
-   "answer": "Dragonmurk encompasses and surrounds key sites including the Den of Flame and the Stonemaul Ruins, both of which have been overrun and occupied by black dragonspawn."
+   "answer": "The Den of Flame and the Stonemaul Ruins lie in and around Dragonmurk. Black dragonspawn occupy both."
   },
   {
    "q": "Is Dragonmurk safe for travelers?",
@@ -54,17 +54,17 @@
     "is dragonmurk dangerous",
     "can i walk through dragonmurk"
    ],
-   "answer": "Not at all. The dragonkin in Dragonmurk are uniformly hostile and aggressive, making it one of the most perilous wilderness regions in southern Kalimdor."
+   "answer": "No. Hostile, aggressive dragonkin make Dragonmurk one of southern Kalimdor's most perilous wilderness regions."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The dragons in Dragonmurk drove the Stonemaul ogres from their village and continually endanger Horde expeditions venturing deep into the marsh."
+   "text": "Black dragons drove the Stonemaul ogres from their village. They still threaten Horde expeditions that venture deep into the marsh."
   },
   {
    "target": "faction:Alliance",
-   "text": "Theramore keeps a wary eye on the Dragonmurk, knowing that an unchecked black dragon brood so close to the fortress could easily spell disaster."
+   "text": "Theramore watches Dragonmurk closely. An unchecked black dragon brood so near the fortress could spell disaster."
   }
  ],
  "keywords": [
@@ -85,5 +85,6 @@
  ],
  "attribution": [
   "Dragonmurk"
- ]
+ ],
+ "style": 2
 }

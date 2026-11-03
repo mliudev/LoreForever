@@ -10,11 +10,11 @@
    "quest:1221"
   ]
  },
- "summary": "In Ratchet, Mebok Mizzyrix sends trained gophers after blueleaf tubers in Razorfen Kraul.",
+ "summary": "In Ratchet, Mebok Mizzyrix sends trained gophers into Razorfen Kraul to find blueleaf tubers.",
  "sections": [
   {
    "title": "A Rod for Rodents",
-   "body": "Mebok Mizzyrix has trained snufflenose gophers to find blueleaf tubers deep in Razorfen Kraul. The roots lie hidden beneath the thorny tunnels, where finding them is nearly impossible without help. Mebok, a merchant in Ratchet, avoids entering the quilboar dens himself. He gives adventurers the Snufflenose Command Stick to direct the gophers. From up to fifty paces away, the stick guides them to sniff out and uncover the roots.",
+   "body": "Mebok Mizzyrix has trained snufflenose gophers to seek blueleaf tubers deep in Razorfen Kraul. The roots hide beneath thorny tunnels, where finding them is nearly impossible without help. Mebok is a merchant in Ratchet, and he avoids entering the quilboar dens himself. So he gives adventurers the Snufflenose Command Stick to guide the gophers. From as far as fifty paces, the stick directs them to sniff out and uncover the roots.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "what does command stick do",
     "command stick purpose"
    ],
-   "answer": "The Snufflenose Command Stick directs a trained snufflenose gopher to find hidden blueleaf tubers in Razorfen Kraul. Point it at a gopher, and it follows the scent and digs up the roots."
+   "answer": "The Snufflenose Command Stick guides a trained snufflenose gopher to hidden blueleaf tubers in Razorfen Kraul. Point it at a gopher, and it follows the scent to dig up the roots."
   },
   {
    "q": "Where do you obtain the Snufflenose Command Stick?",
@@ -52,7 +52,7 @@
     "can i keep command stick",
     "returning command stick"
    ],
-   "answer": "No. After gathering the requested tubers, you return the Snufflenose Command Stick and transport crate to Mebok in Ratchet with your harvest."
+   "answer": "No. After gathering the requested tubers, you return the Snufflenose Command Stick and transport crate with your harvest to Mebok in Ratchet."
   }
  ],
  "angles": [
@@ -85,5 +85,5 @@
   "Snufflenose Command Stick",
   "Blueleaf Tubers"
  ],
- "style": 1
+ "style": 2
 }

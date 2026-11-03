@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Crown Guard Tower"
  },
- "summary": "Crown Guard Tower is a ruined Lordaeron scout tower in the southern Eastern Plaguelands. The Scourge destroyed it during the invasion of Lordaeron in the Third War, and its broken stones have stood amid the blight ever since.",
+ "summary": "In the southern Eastern Plaguelands, blight surrounds Crown Guard Tower's ruins. The Scourge destroyed it during the invasion of Lordaeron in the Third War.",
  "sections": [
   {
    "title": "A Fallen Bulwark",
-   "body": "Once part of the Kingdom of Lordaeron's defenses, Crown Guard Tower was a scout tower watching over the lands of eastern Lordaeron. When the Scourge overran the kingdom, the tower was destroyed and left in ruins, one of several fallen towers scattered across what are now the Eastern Plaguelands. Its charred stones stand in a land the undead still hold.",
+   "body": "Crown Guard Tower once watched over eastern Lordaeron as part of the Kingdom's defenses. When the Scourge overran the kingdom, they destroyed the tower and left it in ruins. Several fallen towers lie scattered across what are now the Eastern Plaguelands. Charred stones remain here in a land still held by the undead.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "why was it built",
     "lordaeron tower"
    ],
-   "answer": "It served as a regional military watchtower and scout outpost for the human Kingdom of Lordaeron before the Third War, guarding the roads against incursions."
+   "answer": "Crown Guard Tower was built as a regional military watchtower and scout outpost for the human Kingdom of Lordaeron before the Third War. It guarded the roads against incursions."
   },
   {
    "q": "Why is the tower ruined?",
@@ -31,13 +31,13 @@
     "who destroyed crown guard tower",
     "what happened here"
    ],
-   "answer": "The tower was destroyed during the Scourge invasion of Lordaeron, when waves of undead overran the kingdom's defenses and left the structure in rubble."
+   "answer": "The Scourge destroyed Crown Guard Tower during their invasion of Lordaeron. Waves of undead overran the kingdom's defenses and left the structure in rubble."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, the ruined Crown Guard Tower is a reminder of how completely the Scourge broke the Kingdom of Lordaeron's defenses."
+   "text": "For the Alliance, Crown Guard Tower's ruins recall how completely the Scourge broke the Kingdom of Lordaeron's defenses."
   }
  ],
  "keywords": [
@@ -56,5 +56,6 @@
  ],
  "attribution": [
   "Crown Guard Tower"
- ]
+ ],
+ "style": 2
 }

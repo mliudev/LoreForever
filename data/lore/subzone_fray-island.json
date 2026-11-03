@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Fray Island"
  },
- "summary": "Warriors gather on Fray Island, just off the Merchant Coast of the Barrens. The rocky islet holds a rough training ring where fighters from across Azeroth test their skill.",
+ "summary": "Warriors gather on Fray Island, off the Merchant Coast of the Barrens. On this rocky islet, fighters from across Azeroth test their skill in a rough training ring.",
  "sections": [
   {
    "title": "A Proving Ground for Brawlers",
-   "body": "Fray Island lies off the eastern bluffs of the Barrens, beyond the watchful eyes of Orgrimmar and Theramore. Warriors of every race and creed train here. At the island's heart, Klannoc Macleod oversees a fighting arena where seasoned fighters and raw recruits meet in brutal brawls.",
+   "body": "Off the eastern bluffs of the Barrens, Fray Island lies beyond the watchful eyes of Orgrimmar and Theramore. Warriors of every race and creed train here. Klannoc Macleod oversees the fighting arena at the island’s heart. Seasoned fighters and raw recruits meet there in brutal brawls.",
    "spoiler": 0
   },
   {
    "title": "The Trial of the Affray",
-   "body": "The ring on Fray Island follows a simple code of martial combat, despite the hostile waters around it. Warriors come at their trainers' direction to face The Affray, a grueling gauntlet against waves of challengers that ends with a bout against champion Big Will. Here, Horde and Alliance allegiance gives way to strength and martial discipline.",
+   "body": "Despite the hostile waters around it, Fray Island’s ring follows a simple code of martial combat. At their trainers’ direction, warriors face The Affray, a grueling gauntlet against waves of challengers. The trial ends with a bout against champion Big Will. In the ring, Horde and Alliance allegiance gives way to strength and martial discipline.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "fray island purpose",
     "what is on fray island"
    ],
-   "answer": "Fray Island is a training ground for warriors and the site of The Affray, a brutal combat trial. Warriors from both factions come to test their endurance and master advanced stances."
+   "answer": "Fray Island is a training ground for warriors and the site of The Affray, a brutal combat trial. Warriors from both factions test their endurance and master advanced stances there."
   },
   {
    "q": "Who controls Fray Island?",
@@ -37,7 +37,7 @@
     "who lives on fray island",
     "fray island faction"
    ],
-   "answer": "No kingdom or faction rules Fray Island. Warriors of every race and creed train there, and Klannoc Macleod oversees the combat ring."
+   "answer": "No kingdom or faction rules Fray Island. Warriors of every race and creed train there, while Klannoc Macleod oversees the combat ring."
   },
   {
    "q": "How do I reach Fray Island?",
@@ -46,7 +46,7 @@
     "where is fray island",
     "how to get to fray island"
    ],
-   "answer": "Fray Island lies in the Great Sea, off the Barrens' eastern coast and south of Ratchet. Reaching it means swimming a long way from shore through waters filled with sharks and frenzy."
+   "answer": "Fray Island lies in the Great Sea, off the Barrens’ eastern coast and south of Ratchet. Reaching it means swimming a long way from shore through waters filled with sharks and frenzy."
   },
   {
    "q": "What is The Affray?",
@@ -55,13 +55,13 @@
     "fray island arena",
     "big will fight"
    ],
-   "answer": "The Affray is an endurance trial held in Fray Island's fighting cage. A warrior stands atop the grate and defeats successive waves of challengers before facing brawler Big Will."
+   "answer": "The Affray is an endurance trial held in Fray Island’s fighting cage. A warrior stands atop the grate and defeats successive waves of challengers before facing brawler Big Will."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a warrior, you can test your discipline and strength at Fray Island's training ground. Klannoc Macleod and The Affray test whether you can adopt the Berserker Stance."
+   "text": "As a warrior, you can test your discipline and strength at Fray Island’s training ground. Klannoc Macleod and The Affray test whether you can adopt the Berserker Stance."
   },
   {
    "target": "race:Human",
@@ -85,5 +85,5 @@
  "attribution": [
   "Fray Island"
  ],
- "style": 1
+ "style": 2
 }

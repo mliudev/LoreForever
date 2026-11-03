@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Iris Lake"
  },
- "summary": "In north-central Ashenvale, Iris Lake lies east of Astranaar, its waters turned yellow-green by corruption from Felwood. Bog beasts prowl its shores.",
+ "summary": "In north-central Ashenvale, Fel corruption has turned Iris Lake yellow-green. Bog beasts prowl its shores.",
  "sections": [
   {
    "title": "A Tainted Refuge",
-   "body": "Iris Lake lies between Astranaar and the moonwell tended by Shael'dryn, its waters fouled since the Third War. Fel energies drift south from the tainted heights of Felwood and poison the basin, turning clear water into a yellow-green mire. The corruption has twisted the native plants and water spirits, and aggressive bog beasts lash out at travelers who come near.",
+   "body": "Between Astranaar and Shael'dryn's moonwell, Iris Lake has been fouled since the Third War. Fel energies drift south from the tainted heights of Felwood and poison the basin. Clear water becomes a yellow-green mire, and the native plants and water spirits are twisted. Aggressive bog beasts lash out at travelers who come near.",
    "spoiler": 0
   },
   {
    "title": "Tears of the Goddess",
-   "body": "Pollution chokes Iris Lake, yet sacred remnants of the past linger along its edges. Rare crystalline stones called Elune's Tears sometimes rest on the muddy banks. Keepers of elven traditions, including Shael'dryn, seek the holy stones to help purify tainted moonwells and resist the demonic blight spreading across Ashenvale.",
+   "body": "Pollution chokes Iris Lake, yet sacred traces of the past remain along its edges. Rare crystalline stones called Elune's Tears sometimes lie on the muddy banks. Keepers of elven traditions, including Shael'dryn, seek these holy stones to help purify tainted moonwells and resist the demonic blight spreading across Ashenvale.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "iris lake water",
     "why is iris lake tainted"
    ],
-   "answer": "Demonic corruption from neighboring Felwood has tainted Iris Lake. The dark magic poisons the water, turning it yellow-green and twisting nearby wildlife into aggressive creatures."
+   "answer": "Demonic corruption from neighboring Felwood taints Iris Lake. Its dark magic poisons the water, turning it yellow-green and twisting nearby wildlife into aggressive creatures."
   },
   {
    "q": "What creatures roam around Iris Lake?",
@@ -37,7 +37,7 @@
     "iris lake mobs",
     "what attacks at iris lake"
    ],
-   "answer": "Corrupted bog beasts roam the lake and its shores. Fel energy has maddened these creatures of plant and mud, and they attack anyone who approaches the water."
+   "answer": "Corrupted bog beasts roam Iris Lake and its shores. Fel energy has maddened these creatures of plant and mud, and they attack anyone who approaches the water."
   },
   {
    "q": "What are Elune's Tears?",
@@ -61,11 +61,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Iris Lake shows the corruption threatening Ashenvale. Finding Elune's Tears along its fouled shores offers hope of cleansing the forest."
+   "text": "As a night elf, you can see the corruption threatening Ashenvale at Iris Lake. Finding Elune's Tears along its fouled shores offers hope of cleansing the forest."
   },
   {
    "target": "class:Druid",
-   "text": "The twisted bog beasts and corrupted waters show the harm demonic energy brings to nature when left unchecked."
+   "text": "As a druid, the twisted bog beasts and corrupted waters show the harm demonic energy brings to nature when left unchecked."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
  "attribution": [
   "Iris Lake"
  ],
- "style": 1
+ "style": 2
 }

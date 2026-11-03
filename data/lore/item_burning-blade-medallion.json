@@ -10,11 +10,11 @@
    "quest:794"
   ]
  },
- "summary": "Cultists in the Valley of Trials carry the Burning Blade Medallion. Yarrog Baneshadow holds it deep in the Burning Blade Coven, where its dark magic threatens Durotar's young warriors.",
+ "summary": "In Durotar, the Burning Blade Medallion threatens the Horde's young warriors. Cultists carry it in the Valley of Trials, and Yarrog Baneshadow holds it deep in the Burning Blade Coven.",
  "sections": [
   {
    "title": "A Mark of Corruption",
-   "body": "Zureetha Fargaze's divinations point to the medallion in the Burning Blade Coven. Yarrog Baneshadow, an agent of the Burning Blade cult, carries it deep inside the winding caverns. The trinket channels dark power among the cult's impish familiars and felstalkers. Defeating Yarrog and taking the medallion ends the cult's attempt to undermine the Horde's training grounds from within Durotar.",
+   "body": "Zureetha Fargaze's divinations lead to the medallion in the Burning Blade Coven. Yarrog Baneshadow serves the Burning Blade cult and carries it deep in the winding caverns. The trinket channels dark power among the cult's impish familiars and felstalkers. Defeating Yarrog and taking the medallion ends the cult's attempt to undermine the Horde's training grounds from within Durotar.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "coven medallion",
     "yarrog's medallion"
    ],
-   "answer": "Yarrog Baneshadow, an operative of the Burning Blade cult hiding in Durotar, carries the magical talisman. It focuses dark magic and marks the bearer’s allegiance to the cult."
+   "answer": "Yarrog Baneshadow, an operative of the Burning Blade cult hiding in Durotar, carries the magical talisman. It focuses dark magic and marks the bearer's allegiance to the cult."
   },
   {
    "q": "Who wants the medallion retrieved?",
@@ -52,13 +52,13 @@
     "why are cultists in valley of trials",
     "is burning blade in durotar"
    ],
-   "answer": "The medallion's presence confirms that the Burning Blade cult has placed operatives in the Horde's proving grounds. Its presence signals the cultists' broader, more dangerous ambitions across the orcish homeland."
+   "answer": "The medallion confirms that the Burning Blade cult has placed operatives in the Horde's proving grounds. Its presence signals the cultists' broader, more dangerous ambitions across the orcish homeland."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "For an orc, the medallion recalls the demonic corruption that once enslaved your race. That shadow now threatens young initiates before they leave the Valley of Trials."
+   "text": "As an orc, the medallion recalls the demonic corruption that once enslaved your race. That shadow now threatens young initiates before they leave the Valley of Trials."
   },
   {
    "target": "class:Warlock",
@@ -88,5 +88,5 @@
   "Burning Blade Medallion",
   "Burning Blade Medallion (Classic)"
  ],
- "style": 1
+ "style": 2
 }

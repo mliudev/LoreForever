@@ -17,16 +17,16 @@
   "wiki": "The Fury Runs Deep",
   "chain": []
  },
- "summary": "Motley Garmason seeks vengeance against Kam Deepfury, now held in Stormwind's Stockade. Deepfury planned the assault on the Thandol Span, where Bronzebeard defenders died, including Longbraid the Grim's brother. Stormwind keeps Deepfury as a political prisoner, so Motley turns to an adventurer to carry out dwarven justice.",
+ "summary": "Motley Garmason seeks vengeance against Kam Deepfury, held in Stormwind's Stockade. Deepfury planned the assault on the Thandol Span, where Bronzebeard defenders died, including Longbraid the Grim's brother. Stormwind keeps Deepfury as a political prisoner, so Motley asks an adventurer to carry out dwarven justice.",
  "sections": [
   {
    "title": "A Grudge Across Continents",
-   "body": "Clashes between Bronzebeard defenders at Dun Modr and Dark Iron insurgents keep the northern Wetlands in turmoil. When the Thandol Span came under attack, sabotage took the lives of several dwarves, including Longbraid the Grim's brother. Roggo gathered intelligence showing that Kam Deepfury planned the strike. Rather than face execution on the front lines, Deepfury was taken to the Stormwind Stockade as a political prisoner, not executed for murder.",
+   "body": "The Wetlands' northern reaches remain troubled by clashes between Bronzebeard defenders at Dun Modr and Dark Iron insurgents. When the Thandol Span came under attack, sabotage killed several dwarves, among them Longbraid the Grim's brother. Roggo uncovered intelligence showing Kam Deepfury planned the strike. Rather than face execution on the front lines, Deepfury was taken to Stormwind's Stockade as a political prisoner, not executed for murder.",
    "spoiler": 0
   },
   {
    "title": "Dwarven Retribution vs. Human Law",
-   "body": "Motley Garmason is stationed at Dun Modr and refuses to let Stormwind's political calculations shield a war criminal. To him, human law puts decorum before blood debts. Bound to remain beside Longbraid in the Wetlands, Motley sends trusted champions beneath the human capital, into the rioting Stockade, to take Deepfury's head and settle the clan's score.",
+   "body": "Motley Garmason is stationed at Dun Modr, and he will not let Stormwind's political calculations shield a war criminal. To him, human law puts decorum before blood debts. Bound to remain beside Longbraid in the Wetlands, Motley sends trusted champions into the rioting Stockade beneath the human capital. They are to take Deepfury's head and settle the clan's score.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "kam deepfury lore",
     "who is deepfury"
    ],
-   "answer": "Kam Deepfury is a Dark Iron dwarf who planned the attack on the Thandol Span. His plan led to the deaths of Ironforge dwarves guarding the crossing, and survivors in Dun Modr mark him as a target."
+   "answer": "Kam Deepfury is a Dark Iron dwarf who planned the attack on the Thandol Span. His plan killed Ironforge dwarves guarding the crossing, and survivors in Dun Modr mark him as a target."
   },
   {
    "q": "Why is Kam Deepfury imprisoned in Stormwind instead of Ironforge?",
@@ -78,7 +78,7 @@
     "stormwind know about hit",
     "is deepfury kill sanctioned"
    ],
-   "answer": "Motley's order is an unsanctioned dwarven vendetta. He bypasses human law, believing King Magni's soldiers have the right to execute the saboteur while the Stockade is in the grip of riots."
+   "answer": "Motley's order is an unsanctioned dwarven vendetta. He bypasses human law, believing King Magni's soldiers have the right to execute the saboteur while the Stockade is gripped by riots."
   }
  ],
  "angles": [
@@ -118,5 +118,5 @@
  "attribution": [
   "The Fury Runs Deep"
  ],
- "style": 1
+ "style": 2
 }

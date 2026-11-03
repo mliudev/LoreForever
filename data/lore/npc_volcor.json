@@ -8,16 +8,16 @@
   "wiki": "Volcor",
   "refs": 3
  },
- "summary": "Volcor lies wounded in Blackwood Den, deep in southern Darkshore. The night elf scout depends on his bear Grimclaw and Auberdine's defenders to escape the hostile furbolgs.",
+ "summary": "Deep in southern Darkshore, Volcor lies wounded in Blackwood Den. The night elf scout depends on his bear Grimclaw and Auberdine's defenders to escape the hostile furbolgs.",
  "sections": [
   {
    "title": "Trapped in the Den",
-   "body": "Volcor is a night elf scout wounded inside Blackwood Den. While tracking the corrupted Blackwood tribe through its underground lair, he was ambushed and badly hurt. He could not fight past the hostile furbolgs alone, so he sent Grimclaw, his loyal bear companion, into the wilds of Darkshore to seek help in Auberdine.",
+   "body": "Volcor, a wounded night elf scout, lies inside Blackwood Den. He was tracking the corrupted Blackwood tribe through its underground lair when the furbolgs ambushed him and badly hurt him. Unable to fight his way past them, he sent Grimclaw, his loyal bear companion, into the wilds of Darkshore to seek help in Auberdine.",
    "spoiler": 0
   },
   {
    "title": "A Way to Freedom",
-   "body": "Volcor offers his rescuer two ways out of the den, guided by their strengths. After scouts reach him with word from Terenthis, those who favor direct action can fight through the cave's defenders. Those skilled at subterfuge can instead move quietly past the sentries.",
+   "body": "Volcor offers his rescuer two ways out of the den. After scouts reach him with word from Terenthis, you can fight through the cave's defenders or move quietly past the sentries.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "where is volcor",
     "find volcor"
    ],
-   "answer": "Volcor is hidden deep inside Blackwood Den in southern Darkshore, near the Ashenvale border and not far from the road south of Auberdine."
+   "answer": "Volcor lies deep inside Blackwood Den in southern Darkshore, near the Ashenvale border and not far from the road south of Auberdine."
   },
   {
    "q": "Why is Volcor trapped in Blackwood Den?",
@@ -81,11 +81,11 @@
   },
   {
    "target": "class:Druid",
-   "text": "As a Druid, you know the bond between Volcor and Grimclaw reflects the connection druids share with nature's beasts. Their rescue touches the balance of nature."
+   "text": "As a Druid, you know the bond between Volcor and Grimclaw reflects the connection druids share with nature's beasts. Their rescue touches nature's balance."
   },
   {
    "target": "class:Rogue",
-   "text": "As a Rogue, you can use tactical finesse to slip quietly past the Blackwood guards instead of relying on brute force."
+   "text": "As a Rogue, you can slip quietly past the Blackwood guards through tactical finesse."
   }
  ],
  "keywords": [
@@ -112,5 +112,5 @@
  "attribution": [
   "Volcor"
  ],
- "style": 1
+ "style": 2
 }

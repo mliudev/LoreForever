@@ -17,21 +17,21 @@
   "wiki": "The Legend of Stalvan (6)",
   "chain": []
  },
- "summary": "In Stormwind, you search the Flintridge belongings for clues to Stalvan Mistmantle. Sealed crates by the canals hold the household’s remaining possessions, while restless spirits tied to the massacre guard what remains.",
+ "summary": "In Stormwind, you search for Stalvan Mistmantle among the Flintridge belongings. By the canals, sealed crates hold what remains of the household, watched over by restless spirits tied to the massacre.",
  "sections": [
   {
    "title": "Echoes of a Massacre",
-   "body": "You trace Stalvan’s path from Duskwood to Stormwind. Beside the city canals, Caretaker Folsom watches over what remains of the Flintridge household. His father served the estate before him and had to mop up blood after a massacre that claimed the household. The name Stalvan is somehow tied to that slaughter.",
+   "body": "You follow Stalvan’s path from Duskwood to Stormwind. Beside the city canals, Caretaker Folsom guards what remains of the Flintridge household. His father served the estate before him and had to mop up blood after a massacre claimed the household. Somehow, Stalvan’s name is tied to that slaughter.",
    "spoiler": 0
   },
   {
    "title": "The Auction of a Ruined House",
-   "body": "The Flintridge trust funds are gone, and royal tax collectors press the estate. Its surviving heirlooms and packed belongings are sealed inside shipping crates along the canal embankment, awaiting auction. You search the boxes for Stalvan’s trail before the family’s remaining goods are scattered to collectors across the kingdom.",
+   "body": "The Flintridge trust funds are gone, and royal tax collectors press the estate. Surviving heirlooms and packed belongings wait inside sealed shipping crates along the canal embankment, awaiting auction. You search them for Stalvan’s trail before the family’s remaining goods scatter to collectors across the kingdom.",
    "spoiler": 0
   },
   {
    "title": "A Restless Shade",
-   "body": "A Forlorn Spirit attacks anyone who disturbs the Flintridge crates. The trauma of the murders clings to the family’s salvaged possessions, and the weeping apparition is believed to be the shade of young Tilloa Flintridge. Her spirit remains bound to the relics of the life cut short.",
+   "body": "A Forlorn Spirit attacks anyone who disturbs the Flintridge crates. The trauma of the murders clings to the family’s salvaged possessions. Many believe the weeping apparition is the shade of young Tilloa Flintridge, still bound to relics of the life cut short.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "what was the massacre",
     "who killed the flintridge family"
    ],
-   "answer": "The wealthy Flintridge household was torn apart by a sudden massacre. Caretaker Folsom says his father had to mop up the blood afterward; who was responsible remains unclear."
+   "answer": "A sudden massacre tore apart the wealthy Flintridge household. Caretaker Folsom says his father had to mop up the blood afterward. Who was responsible remains unclear."
   },
   {
    "q": "Why are the family's possessions packed in crates along the canal?",
@@ -61,7 +61,7 @@
     "why are crates in the canals",
     "flintridge trust"
    ],
-   "answer": "The Flintridge trust funds ran dry after the tragedy. Their remaining belongings were crated and staged beside the canals for auction, under pressure from kingdom tax collectors."
+   "answer": "The Flintridge trust funds ran dry after the tragedy. Their remaining belongings were crated beside the canals for auction, under pressure from kingdom tax collectors."
   },
   {
    "q": "Why does a spirit attack when the crate is opened?",
@@ -79,7 +79,7 @@
     "why are we in stormwind for a duskwood quest",
     "legend of stalvan city connection"
    ],
-   "answer": "The investigation began in Darkshire as a search for the missing Stalvan Mistmantle. Tracing his history led to his time as tutor to the Flintridge family in Elwynn and Stormwind."
+   "answer": "The investigation began in Darkshire as a search for Stalvan Mistmantle. Tracing his history led to his time as tutor to the Flintridge family in Elwynn and Stormwind."
   },
   {
    "q": "What do you find inside the sealed crate?",
@@ -94,7 +94,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "The Flintridge tragedy unfolds in Stormwind, the kingdom’s capital, and shows how violence can undo even its most sheltered noble lines."
+   "text": "The Flintridge tragedy unfolds in Stormwind, the kingdom’s capital, where violence can undo even its most sheltered noble lines."
   },
   {
    "target": "class:Priest",
@@ -122,5 +122,5 @@
  "attribution": [
   "The Legend of Stalvan (6)"
  ],
- "style": 1
+ "style": 2
 }

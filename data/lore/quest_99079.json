@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "The Longwalkers are revered scouts answering directly to High Chieftain Cairne Bloodhoof, making their safety of paramount cultural and tactical concern to all tauren."
+   "text": "As a tauren, you know the Longwalkers answer directly to High Chieftain Cairne Bloodhoof. Their safety matters to your people and to Mulgore's defense."
   },
   {
    "target": "faction:Horde",
-   "text": "Assisting the leadership of Bloodhoof Village in locating missing border scouts helps secure Mulgore against external threats encroaching on Horde lands."
+   "text": "As a member of the Horde, you help Bloodhoof Village find missing border scouts and guard Mulgore against threats encroaching on Horde lands."
   },
   {
    "target": "class:Hunter",
-   "text": "Hunters respect the wilderness tracking skills and endurance required of the Longwalkers, who patrol the far edges of Mulgore on foot."
+   "text": "As a hunter, you respect the tracking skill and endurance it takes to patrol Mulgore's far edges on foot."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "malah lore",
     "longwalker malah identity"
    ],
-   "answer": "Longwalker Malah Longwind is an esteemed tauren scout serving the High Chieftain. She was dispatched on a reconnaissance mission near the eastern border of Mulgore, carrying the traditional headband and feathered staff emblematic of her order.",
+   "answer": "Longwalker Malah Longwind is a tauren scout serving the High Chieftain. She was sent to survey Mulgore's eastern border, wearing her order's traditional headband and carrying a feathered staff.",
    "q": "Who is Longwalker Malah?"
   },
   {
@@ -41,7 +41,7 @@
     "who are longwalkers",
     "tauren scouts"
    ],
-   "answer": "The Longwalkers are the tauren people's most trusted elite scouts and messengers. Their primary loyalty is pledged directly to the High Chieftain, though other tribal leaders such as young Baine Bloodhoof occasionally request their aid for crucial border intelligence.",
+   "answer": "The Longwalkers are the tauren people's elite scouts and messengers. They answer directly to the High Chieftain, though young Baine Bloodhoof sometimes asks for their help with border intelligence.",
    "q": "What are the Longwalkers?"
   },
   {
@@ -50,7 +50,7 @@
     "malah quest why",
     "where did malah go"
    ],
-   "answer": "Malah was sent to survey the eastern edges of Mulgore and was expected back within three days. When she failed to return, concerns arose in Bloodhoof Village that she may have met with trouble while patrolling the rugged frontier.",
+   "answer": "Malah was sent to survey Mulgore's eastern border and was expected back within three days. Her absence has raised concern in Bloodhoof Village that she may have met trouble on the frontier.",
    "q": "Why is Longwalker Malah being searched for?"
   },
   {
@@ -59,7 +59,7 @@
     "malah location",
     "find malah"
    ],
-   "answer": "Longwalker Malah was dispatched toward the eastern frontier of Mulgore, past Bloodhoof Village toward the boundary ridge. Travelers seeking her must search the borderlands east of the village.",
+   "answer": "Longwalker Malah was sent toward Mulgore's eastern frontier, past Bloodhoof Village toward the boundary ridge. Search the borderlands east of the village.",
    "q": "Where can Malah be found?"
   },
   {
@@ -68,7 +68,7 @@
     "how to recognize malah",
     "longwalker gear"
    ],
-   "answer": "Malah can be identified by the signature garments of the Longwalkers: a distinctive headband and a tall feathered staff carried by scouts of her esteemed order.",
+   "answer": "Malah wears a ceremonial headband and carries a feathered staff, the traditional marks of the Longwalkers.",
    "q": "How do you recognize Longwalker Malah?"
   },
   {
@@ -77,7 +77,7 @@
     "why baine involved",
     "baine bloodhoof scout"
    ],
-   "answer": "Although the Longwalkers report strictly to High Chieftain Cairne Bloodhoof, his son Baine oversees local matters in Bloodhoof Village and occasionally requests their tracking expertise to monitor border activity and ensure the safety of the valley.",
+   "answer": "The Longwalkers answer to High Chieftain Cairne Bloodhoof, but his son Baine Bloodhoof sometimes asks for their tracking skills. He oversees local matters in Bloodhoof Village and uses their help to watch border activity and protect the valley.",
    "q": "Why is Baine Bloodhoof involved with the Longwalkers?"
   }
  ],
@@ -97,18 +97,19 @@
  ],
  "sections": [
   {
-   "body": "The Longwalkers serve as the eyes and ears of the shu'halo, renowned across the plains for their tireless stride and survival prowess. Pledged directly to High Chieftain Cairne Bloodhoof, these elite scouts are tasked with traversing vast territories to gather intelligence and deliver vital messages. Though their ultimate loyalty lies with the High Chieftain alone, young Baine Bloodhoof occasionally calls upon their aid to safeguard the settlement of Bloodhoof Village and its surrounding pastures.",
+   "body": "Across the plains, the Longwalkers serve as the shu'halo's eyes and ears. Pledged to High Chieftain Cairne Bloodhoof, these elite scouts travel vast territories to gather intelligence and carry vital messages. Their loyalty belongs to the High Chieftain alone. Young Baine Bloodhoof sometimes asks for their help protecting Bloodhoof Village and its surrounding pastures.",
    "spoiler": 0,
    "title": "The High Chieftain's Eyes"
   },
   {
-   "body": "Dispatched to monitor Mulgore's eastern borders, Longwalker Malah Longwind ventured out on a routine three-day reconnaissance run. When she failed to return to Bloodhoof Village on schedule, concern spread among the village leadership. Given the vital intelligence Longwalkers carry and the ever-present dangers lurking along Mulgore's frontier cliffs, scouts and willing travelers are called upon to seek out her trail and confirm her safety. Malah can be recognized by the traditional markings of her order: a ceremonial headband and a feathered staff.",
+   "body": "Longwalker Malah Longwind was sent to watch Mulgore's eastern border on a three-day reconnaissance. She has not returned to Bloodhoof Village on schedule, and the village leadership is concerned. Longwalkers carry vital intelligence, while dangers line Mulgore's frontier cliffs. Scouts and willing travelers are called to follow Malah's trail and make sure she is safe. Her ceremonial headband and feathered staff mark her as one of the Longwalkers.",
    "spoiler": 0,
    "title": "Vanished on the Borderlands"
   }
  ],
- "summary": "Longwalker Malah is a missing tauren scout dispatched to survey the eastern borderlands of Mulgore on behalf of Bloodhoof Village. As an elite Longwalker answering directly to the High Chieftain, her sudden failure to return after three days prompts an urgent search to ensure both her survival and the safety of the valley.",
+ "summary": "In Mulgore, Bloodhoof Village awaits Longwalker Malah’s return from the eastern borderlands. Sent to survey the frontier, she has been missing for three days, and the village needs to know she is safe.",
  "attribution": [
   "In-game quest text: Longwalker Malah"
- ]
+ ],
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:1058"
   ]
  },
- "summary": "Coursers roam the highlands of Stonetalon, where Courser Eye is gathered for a troll witch doctor's brew. Witch Doctor Jin'Zil in Malaka'jin wants many eyes for a concoction he calls forest magic.",
+ "summary": "In Stonetalon's highlands, coursers are hunted for a brew Witch Doctor Jin'Zil calls forest magic. At Malaka'jin, he wants many eyes for his concoction.",
  "sections": [
   {
    "title": "A Troll's Concoction",
-   "body": "Witch Doctor Jin'Zil mixes tribal brews at Malaka'jin to fight the night elves contesting the region. Stag eyes are common in voodoo and folk alchemy, yet Jin'Zil demands thirty courser eyes at once, far more than ordinary spellcraft needs. He mixes them with fey dragon scales, sap, and feline whiskers. The brew is meant for the night elf prisoners held in cages at the back of his den.",
+   "body": "Witch Doctor Jin'Zil mixes tribal brews at Malaka'jin to fight the night elves contesting the region. Stag eyes are common in voodoo and folk alchemy, yet Jin'Zil demands thirty courser eyes at once. That is far more than ordinary spellcraft needs.\n\nHe mixes the eyes with fey dragon scales, sap, and feline whiskers. The brew is meant for the night elf prisoners held in cages at the back of his den.",
    "spoiler": 1
   }
  ],
@@ -26,7 +26,7 @@
     "where to get courser eye",
     "how to get courser eye"
    ],
-   "answer": "Courser eyes come from Antlered Coursers and Great Coursers in the higher reaches of Stonetalon Mountains, especially near Mirkfallon Lake and Stonetalon Peak."
+   "answer": "Antlered Coursers and Great Coursers roam the higher reaches of Stonetalon Mountains. They are found especially near Mirkfallon Lake and Stonetalon Peak."
   },
   {
    "q": "Why does Witch Doctor Jin'Zil need so many eyes?",
@@ -35,7 +35,7 @@
     "why does jinzil need eyes",
     "what does jinzil do with courser eyes"
    ],
-   "answer": "Jin'Zil says a proper brew can never have too many eyes. He mixes them with parts from local animals for the concoction he calls forest magic."
+   "answer": "Jin'Zil says a proper brew can never have too many eyes. He mixes them with parts from local animals for his concoction, which he calls forest magic."
   },
   {
    "q": "What happens when Jin'Zil completes his forest magic potion?",
@@ -79,5 +79,5 @@
   "Courser Eye",
   "Jin'Zil's Forest Magic"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Uther's Tomb"
  },
- "summary": "Uther's Tomb is the sacred resting place of Uther the Lightbringer, situated atop Sorrow Hill in the Western Plaguelands. Constructed by his surviving followers after his defeat at nearby Andorhal, this monument stands as one of the few remaining bastions of the Holy Light amidst a blighted and haunted region.",
+ "summary": "On Sorrow Hill in the Western Plaguelands, Uther's Tomb remains untouched by the blight. His followers raised it after Arthas slew him near Andorhal.",
  "sections": [
   {
    "title": "A Bastion in the Blight",
-   "body": "Perched south of the ruins of Andorhal at Sorrow Hill, Uther's Tomb marks the final resting place of the legendary paladin who founded the Knights of the Silver Hand. Following the collapse of Lordaeron, Uther made his last stand in Andorhal, defending the royal urn holding the ashes of King Terenas Menethil II against Prince Arthas Menethil and the Scourge. Arthas struck down his former mentor and desecrated the urn to carry Kel'Thuzad's remains. Surviving soldiers salvaged Uther's body, laying him to rest within a stone sanctuary. Despite the relentless corruption engulfing the surrounding lands, the tomb remains miraculously untouched by decay, held under the steadfast vigil of High Priest Thel'danis.",
+   "body": "South of Andorhal's ruins, Uther's Tomb marks the resting place of Uther, who founded the Knights of the Silver Hand. After Lordaeron fell, he made his last stand in Andorhal. There he defended King Terenas Menethil II's urn of ashes from Prince Arthas Menethil and the Scourge.\n\nArthas killed his former mentor and took the urn to carry Kel'Thuzad's remains. Surviving soldiers recovered Uther's body and laid him in a stone sanctuary. Though the surrounding land is corrupted, the tomb remains untouched by decay under High Priest Thel'danis's watch.",
    "spoiler": 0
   },
   {
    "title": "The Lightbringer's Legacy",
-   "body": "Approached via the Path of Uther, the monument centers on a grand stone effigy depicting the paladin with a tome of the Holy Light in one hand and his warhammer in the other. Pilgrims who travel these treacherous roads frequently seek out the tomb to pay homage, pray, or reflect upon the devotion that defined the first paladins.",
+   "body": "The Path of Uther leads to a grand stone effigy of the paladin. A tome of the Holy Light rests in one hand, and his warhammer in the other. Pilgrims brave these roads to pay homage, pray, or reflect on the devotion that shaped the first paladins.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who is buried here",
     "uther the lightbringer"
    ],
-   "answer": "Uther the Lightbringer is entombed here. He was the supreme commander and founder of the Knights of the Silver Hand, the first paladin order in human history, and served as Prince Arthas Menethil's mentor before Lordaeron fell to the Scourge."
+   "answer": "Uther the Lightbringer rests here. He founded and commanded the Knights of the Silver Hand, the first paladin order in human history. Before Lordaeron fell to the Scourge, he mentored Prince Arthas Menethil."
   },
   {
    "q": "How did Uther die?",
@@ -37,7 +37,7 @@
     "how did uther die",
     "arthas kills uther"
    ],
-   "answer": "Uther was slain in Andorhal by his former student, Arthas Menethil, who had returned from Northrend as a death knight. Uther fell while fiercely defending the urn containing the ashes of Arthas's father, King Terenas Menethil II."
+   "answer": "Uther fell in Andorhal, slain by his former student, Arthas Menethil. Arthas had returned from Northrend as a death knight. Uther died defending the urn that held the ashes of Arthas's father, King Terenas Menethil II."
   },
   {
    "q": "Who is High Priest Thel'danis?",
@@ -46,7 +46,7 @@
     "priest at uther's tomb",
     "who protects the tomb"
    ],
-   "answer": "High Priest Thel'danis is the devoted caretaker of the monument. He maintains a quiet, sacred vigil over Uther's resting place, braving the surrounding undead to ensure the shrine remains a sanctuary of the Light."
+   "answer": "High Priest Thel'danis cares for the monument and keeps a quiet, sacred vigil over Uther's resting place. He braves the surrounding undead to keep the shrine a sanctuary of the Light."
   },
   {
    "q": "Why isn't the tomb corrupted by the plague?",
@@ -54,17 +54,17 @@
     "why is uther's tomb clean",
     "why no plague at tomb"
    ],
-   "answer": "The persistent holiness of Uther's memory and the enduring power of the Holy Light consecrate the grounds. While the surrounding forests of Sorrow Hill have withered and fallen to rot, the shrine itself remains an unbroken sanctuary against the blight."
+   "answer": "Uther's memory and the enduring power of the Holy Light consecrate the grounds. Sorrow Hill's surrounding forests have withered and rotted, while the shrine remains an unbroken sanctuary against the blight."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Standing before Uther's statue is a profound pilgrimage for any paladin, honoring the father of their order whose sacrifice embodies the virtues of the Silver Hand."
+   "text": "As a paladin, standing before Uther's statue honors the father of the order. His sacrifice embodies the virtues of the Silver Hand."
   },
   {
    "target": "faction:Alliance",
-   "text": "The tomb serves as an enduring testament to Lordaeron's fallen legacy and a place of quiet reflection for Alliance travelers braving the horrors of the Plaguelands."
+   "text": "As an Alliance traveler, this tomb recalls Lordaeron's fallen legacy. It offers a place for quiet reflection amid the horrors of the Plaguelands."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Uther's Tomb"
- ]
+ ],
+ "style": 2
 }

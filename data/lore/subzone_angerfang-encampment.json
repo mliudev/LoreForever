@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Angerfang Encampment"
  },
- "summary": "Dragonmaw orcs gather at Angerfang Encampment in the central Wetlands, threatening nearby dwarven settlements. Chieftain Nek'rosh Skullcrusher leads the renegades as they prepare to strike Menethil Harbor.",
+ "summary": "At Angerfang Encampment, Dragonmaw orcs gather in the central Wetlands and threaten nearby dwarven settlements. Chieftain Nek'rosh Skullcrusher leads the renegades as they prepare to strike Menethil Harbor.",
  "sections": [
   {
    "title": "A Bastion in the Bogs",
-   "body": "Dragonmaw warriors hold the marsh around Angerfang Encampment in the central Wetlands. Barricades and watchtowers guard the camp, where warriors, bonewarders, and dark spellcasters loyal to the old ways gather. From these defenses, the clan raids travelers on the roads and menaces nearby dwarven digs, including Whelgar's Excavation Site.",
+   "body": "Dragonmaw warriors hold the marsh around Angerfang Encampment in the central Wetlands. Barricades and watchtowers guard their camp, where warriors, bonewarders, and dark spellcasters loyal to the old ways gather. From there, the clan raids travelers on the roads and menaces nearby dwarven digs, including Whelgar's Excavation Site.",
    "spoiler": 0
   },
   {
    "title": "Nek'rosh's Ambition",
-   "body": "Chieftain Nek'rosh Skullcrusher leads the Dragonmaw from Angerfang. He is the son of Nekros, the warlock who enslaved the red dragonflight at Grim Batol. Nek'rosh hates the Alliance and has gathered catapults and raised war banners for an assault on Menethil Harbor. Alliance commanders in the port city send champions into the camp to seize the banners, break the war machines, and kill Nek'rosh before his attack can set the harbor ablaze.",
+   "body": "Chieftain Nek'rosh Skullcrusher leads the Dragonmaw from Angerfang. His father, Nekros, was the warlock who enslaved the red dragonflight at Grim Batol. Nek'rosh hates the Alliance. He has gathered catapults and raised war banners for an assault on Menethil Harbor.\n\nAlliance commanders in the port city send champions into the camp to seize the banners, break the war machines, and kill Nek'rosh before his attack can set the harbor ablaze.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is in charge here",
     "nekrosh camp"
    ],
-   "answer": "Chieftain Nek'rosh Skullcrusher rules the Dragonmaw at Angerfang. He is the son of the notorious Dragonmaw warlock Nekros Skullcrusher, and directs regional raiding parties while planning to conquer Menethil Harbor."
+   "answer": "Chieftain Nek'rosh Skullcrusher rules the Dragonmaw at Angerfang. His father was the notorious Dragonmaw warlock Nekros Skullcrusher. Nek'rosh directs regional raiding parties and plans to conquer Menethil Harbor."
   },
   {
    "q": "Are the orcs here allied with Thrall's Horde?",
@@ -38,7 +38,7 @@
     "are angerfang friendly to horde",
     "is angerfang part of thralls horde"
    ],
-   "answer": "No. The Dragonmaw here remain independent of Thrall's New Horde and cling to the dark heritage of the Old Horde. They are hostile to Alliance and Horde travelers alike, and Thrall's warriors consider them feral outcasts and hunt them for armor crafting materials."
+   "answer": "No. The Dragonmaw here remain independent of Thrall's New Horde and cling to the dark heritage of the Old Horde. They are hostile to Alliance and Horde travelers alike. Thrall's warriors consider them feral outcasts and hunt them for armor crafting materials."
   },
   {
    "q": "Why is the Alliance focused on destroying this camp?",
@@ -47,7 +47,7 @@
     "captain stoutfist angerfang",
     "why kill nekrosh"
    ],
-   "answer": "Captain Stoutfist and Menethil Harbor's dwarven defenders learned that Nek'rosh had gathered catapults and a large force at Angerfang to bombard and conquer the harbor. The Alliance attacks first to break the siege before it begins."
+   "answer": "Captain Stoutfist and Menethil Harbor's dwarven defenders learned that Nek'rosh had gathered catapults and a large force at Angerfang to bombard and conquer the harbor. The Alliance strikes first to break the siege before it begins."
   },
   {
    "q": "Why do warlocks seek out this encampment?",
@@ -56,7 +56,7 @@
     "tome of the cabal wetlands",
     "rod of channeling angerfang"
    ],
-   "answer": "Dragonmaw dark spellcasters at Angerfang carry Rods of Channeling, dark ritual tools sought by practitioners of the demonic arts who need to complete the Tome of the Cabal."
+   "answer": "Dragonmaw dark spellcasters at Angerfang carry Rods of Channeling. Practitioners of the demonic arts seek these dark ritual tools to complete the Tome of the Cabal."
   }
  ],
  "angles": [
@@ -92,5 +92,5 @@
  "attribution": [
   "Angerfang Encampment"
  ],
- "style": 1
+ "style": 2
 }

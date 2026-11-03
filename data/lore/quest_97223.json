@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "race:Troll",
-   "text": "The Darkspear trolls of Sen'jin Village prize raptors as agile companions and war mounts, valuing the Bloodtalon lineage for its cunning and swiftness."
+   "text": "As a Darkspear troll, you know Sen'jin Village's handlers prize raptors as agile companions and war mounts. The Bloodtalon line is valued for cunning and speed."
   },
   {
    "target": "faction:Horde",
-   "text": "Raising local predators into loyal allies helps secure the Darkspear settlement and bolsters the Horde's presence on the Durotar coast."
+   "text": "As a member of the Horde, you know that raising local predators as loyal allies helps protect the Darkspear settlement and strengthen the Horde's presence on the Durotar coast."
   },
   {
    "target": "class:Hunter",
-   "text": "Hunters understand the difficulty of taming seasoned adult beasts and the necessity of raising predators from birth to forge a true bond."
+   "text": "As a hunter, you know how hard it is to tame a seasoned adult beast. Raising a predator from birth can forge a true bond."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "bloodtalon raptor matriarch",
     "matriarch raptor"
    ],
-   "answer": "The Bloodtalon Matriarch is a fierce, adult raptor whose pack is renowned for speed and cunning. While earlier efforts were made to capture and train her, she eventually grew far too dangerous to handle, prompting the Darkspear trolls to secure her eggs instead.",
+   "answer": "The Bloodtalon Matriarch is a fierce adult raptor whose pack is known for speed and cunning. Attempts to capture and train her failed as she grew too dangerous to handle. The Darkspear trolls seek to secure her eggs.",
    "q": "Who is the Bloodtalon Matriarch?"
   },
   {
@@ -41,7 +41,7 @@
     "why capture eggs",
     "why hunt the matriarch"
    ],
-   "answer": "Adult raptors are notoriously difficult to tame, and the Matriarch became too great a hazard to the local settlement. By subduing her and gathering her clutch, the handlers in Sen'jin Village can neutralize the danger while preserving her bloodline.",
+   "answer": "The Matriarch has become a danger to the surrounding territory, and adult raptors are difficult to tame. By quelling her and securing her clutch, handlers in Sen'jin Village can protect the tribe and preserve her bloodline.",
    "q": "Why must the Bloodtalon Matriarch be dealt with?"
   },
   {
@@ -49,7 +49,7 @@
     "can you tame adult raptors",
     "train adult raptor"
    ],
-   "answer": "Adult raptors possess fierce, untamable instincts that make them nearly impossible to train once full-grown. Handlers achieve far better success by taking eggs and raising the hatchlings directly alongside their future companions.",
+   "answer": "Full-grown raptors have stubborn, violent instincts and are nearly impossible to tame. Handlers can raise the young from eggs as loyal companions instead.",
    "q": "Why not tame the Matriarch instead?"
   },
   {
@@ -58,7 +58,7 @@
     "matriarch children",
     "raptors in senjin"
    ],
-   "answer": "The captured clutch is brought back to Sen'jin Village to be incubated and raised. The trolls intend to train the young raptors from infancy so they grow into reliable allies and mounts for the tribe.",
+   "answer": "The captured clutch is brought to Sen'jin Village to be incubated and raised. The trolls plan to train the young raptors from infancy as reliable allies and mounts for the tribe.",
    "q": "What will happen to the Matriarch's offspring?"
   },
   {
@@ -66,7 +66,7 @@
     "where is this quest handed in",
     "senjin village raptor quest"
    ],
-   "answer": "The quest centers around Sen'jin Village, the coastal haven of the Darkspear trolls in southern Durotar, where handlers work to breed and raise loyal raptors for their people.",
+   "answer": "The work centers near Sen'jin Village on the coast of Durotar. There, handlers seek to raise loyal raptors for the Darkspear tribe.",
    "q": "Where is this quest centered?"
   },
   {
@@ -74,7 +74,7 @@
     "bloodtalon raptor traits",
     "why bloodtalon raptors"
    ],
-   "answer": "The Bloodtalon raptors are prized specifically for their swiftness and intelligence. These traits make their lineage exceptionally desirable as companions and mounts, provided they are trained before their wild instincts take hold.",
+   "answer": "The Bloodtalon pack is prized for speed and cunning. Those traits make its young desirable as companions and mounts, while full-grown raptors resist taming.",
    "q": "What makes the Bloodtalon pack special?"
   }
  ],
@@ -94,18 +94,19 @@
  ],
  "sections": [
   {
-   "body": "The Bloodtalon pack is renowned along the coast of Durotar for its remarkable speed and keen cunning. Handlers in Sen'jin Village prize these traits above all else when seeking dependable mounts and companions for the Darkspear tribe. However, full-grown raptors possess stubborn and violent instincts, making adults almost impossible to domesticate once they have adapted to life in the wild.",
+   "body": "Along Durotar's coast, Bloodtalon raptors are prized for speed and cunning. Handlers in Sen'jin Village value those traits in dependable mounts and companions for the Darkspear tribe. Yet full-grown raptors have stubborn, violent instincts. Once grown, wild adults are scarcely tamed.",
    "spoiler": 0,
    "title": "The Bloodtalon Lineage"
   },
   {
-   "body": "Despite multiple attempts to capture and train the Matriarch directly, her escalating aggression turned her into an outright threat to the surrounding territory. To safeguard the tribe while ensuring her exceptional bloodline was not lost, the trolls resolved to quell the dangerous mother and salvage her clutch, ensuring the next generation can be raised as loyal allies from the egg.",
+   "body": "Repeated attempts to capture and train the Matriarch have only made her more aggressive. Now she threatens the surrounding territory. The trolls seek to protect their tribe and preserve her bloodline. They must quell the dangerous mother and save her clutch, so the next generation can be raised from the egg as loyal allies.",
    "spoiler": 0,
    "title": "Preserving the Bloodline"
   }
  ],
- "summary": "The Bloodtalon Matriarch is the formidable leader of a swift and cunning raptor pack near Sen'jin Village. After proving too dangerous and stubborn to tame as an adult, she must be confronted so her offspring can be raised from the egg as loyal companions for the Darkspear tribe.",
+ "summary": "Near Sen'jin Village, handlers face a threat from the Bloodtalon Matriarch as they seek her young. Her pack is prized for speed and cunning, but adults resist taming. The Darkspear seek to secure her clutch and raise loyal companions from the egg.",
  "attribution": [
   "In-game quest text: Bloodtalon Matriarch"
- ]
+ ],
+ "style": 2
 }

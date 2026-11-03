@@ -24,16 +24,16 @@
    "Tier 0.5 quests"
   ]
  },
- "summary": "Mux Manascrambler has the core to power his device and now needs a rod able to carry that power without melting. He once met an imp in Winterspring selling exotic goods, and wishes he had bought the elemental rod on offer. You look for the imp in a cave at the entrance to Darkwhisper Gorge and buy the Fel Elemental Rod.",
+ "summary": "In Gadgetzan, Mux Manascrambler has a core for his device but still needs a rod to carry its force without melting. He remembers an imp in Winterspring who offered an elemental rod, and regrets not buying it. You find the imp in a cave at Darkwhisper Gorge’s entrance and buy the Fel Elemental Rod.",
  "sections": [
   {
    "title": "The Imp in the Cave",
-   "body": "After A Portable Power Source, Mux Manascrambler turns to the next problem: a rod able to carry the core's power without melting. Mux met an imp in Winterspring selling all manner of exotic goods, and the imp's elemental rod would have done perfectly. Mux is kicking himself for not buying it. The imp lives inside a cave at the entrance to Darkwhisper Gorge in southern Winterspring. You find the imp, buy the Fel Elemental Rod, and bring it back to Mux in Gadgetzan. Mux insists the imp charge only forty gold, the price quoted to Mux.",
+   "body": "Mux Manascrambler has the core for his device, but still needs a rod that can carry its force without melting. After A Portable Power Source, he recalls an elemental rod an imp was selling in Winterspring. Mux regrets not buying it then.\n\nThe imp is in a cave at the entrance to Darkwhisper Gorge in southern Winterspring. You buy the Fel Elemental Rod and bring it to Mux in Gadgetzan. He says the imp quoted him forty gold and insists you pay no more.",
    "spoiler": 0
   },
   {
    "title": "The Rod Arrives",
-   "body": "Mux is delighted with the rod, saying it will do perfectly, and turns to putting everything together.",
+   "body": "Mux is delighted with the rod and says it will do perfectly. Then he turns to putting everything together.",
    "spoiler": 1
   }
  ],
@@ -44,7 +44,7 @@
     "who gives a shifty merchant",
     "quest giver a shifty merchant"
    ],
-   "answer": "Mux Manascrambler in Gadgetzan, in Tanaris."
+   "answer": "Mux Manascrambler in Gadgetzan, Tanaris, sends you to find the rod."
   },
   {
    "q": "What came before this step?",
@@ -52,7 +52,7 @@
     "previous quest",
     "prereq a shifty merchant"
    ],
-   "answer": "It follows A Portable Power Source."
+   "answer": "This follows A Portable Power Source."
   },
   {
    "q": "Where can the imp merchant be found?",
@@ -61,7 +61,7 @@
     "darkwhisper gorge imp location",
     "where is the merchant in winterspring"
    ],
-   "answer": "Inside a cave at the entrance to Darkwhisper Gorge, in southern Winterspring."
+   "answer": "The imp merchant is in a cave at the entrance to Darkwhisper Gorge in southern Winterspring."
   },
   {
    "q": "What item are you sent to purchase?",
@@ -69,7 +69,7 @@
     "what item do i buy",
     "what does the imp sell"
    ],
-   "answer": "A Fel Elemental Rod."
+   "answer": "You are sent to buy a Fel Elemental Rod."
   },
   {
    "q": "How much does the rod cost?",
@@ -78,7 +78,7 @@
     "how much gold for rod",
     "imp price"
    ],
-   "answer": "Forty gold is the price the imp quoted Mux, and Mux wants you charged no more."
+   "answer": "The imp quoted Mux forty gold, and Mux wants you charged no more."
   },
   {
    "q": "Why does Mux need this rod?",
@@ -86,7 +86,7 @@
     "why fel elemental rod",
     "what is the rod for"
    ],
-   "answer": "The core will give the device enough power, but Mux still needs a rod able to carry that power without melting."
+   "answer": "The core will power Mux’s device, but he still needs a rod that can carry its force without melting."
   }
  ],
  "angles": [],
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "A Shifty Merchant"
- ]
+ ],
+ "style": 2
 }

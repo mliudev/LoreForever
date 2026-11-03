@@ -8,16 +8,16 @@
   "wiki": "Great-father Winter",
   "refs": 3
  },
- "summary": "In Orgrimmar, Great-father Winter hears children's wishes during the Feast of Winter Veil. Hired by Smokywood Pastures, he brings holiday cheer near Grommash Hold in the Valley of Strength, though the work wears on him.",
+ "summary": "In Orgrimmar, Great-father Winter hears children's wishes during the Feast of Winter Veil. Smokywood Pastures hires him to bring cheer near Grommash Hold, though the long work wears on him.",
  "sections": [
   {
    "title": "A Hired Myth",
-   "body": "Greatfather Winter in the Valley of Strength is an orc performer hired by the Smokywood Pastures merchant company. Ancient lore tells of a majestic elemental spirit who wanders the land, bringing snow and seasonal renewal, but the figure in Orgrimmar promotes company wares and entertains Horde children. Some critics say the commercial mascot cheapens genuine seasonal traditions. Still, few deny the festive excitement he brings to the city streets.",
+   "body": "In the Valley of Strength, an orc hired by Smokywood Pastures performs as Greatfather Winter. Ancient lore tells of a majestic elemental spirit who wanders the land, bringing snow and seasonal renewal. But this figure promotes company wares and entertains Horde children. Some say the commercial show cheapens genuine seasonal traditions. Still, few deny the festive excitement he brings to Orgrimmar's streets.",
    "spoiler": 0
   },
   {
    "title": "Shift Work in the Valley of Strength",
-   "body": "Greatfather Winter works outside Grommash Hold, beneath decorated evergreens. Children climb onto his lap to tell him what gifts they want, while he promotes Smokywood Pastures discounts and offers holiday greetings. The long shift wears him down. He admits he keeps festive spirits in his pack to quiet the noise when work ends, and visiting adventurers bring him snacks to help him endure.",
+   "body": "Outside Grommash Hold, beneath decorated evergreens, Greatfather Winter hears children's wishes. They climb onto his lap and tell him what gifts they want. He promotes Smokywood Pastures discounts and offers holiday greetings, but the long shift wears him down. He says he keeps festive spirits in his pack to quiet the noise when work ends. Visiting adventurers bring him snacks to help him endure.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "great-father winter purpose",
     "winter veil quests"
    ],
-   "answer": "He entertains holiday-goers, listens to children's gift requests, gives out Smokywood Pastures promotional tasks, and hands out festive presents under the tree when the holiday peaks."
+   "answer": "He entertains holiday-goers and listens to children's gift requests. He gives out Smokywood Pastures promotional tasks and hands out festive presents under the tree when the holiday peaks."
   },
   {
    "q": "Why does he want gingerbread cookies and milk?",
@@ -56,7 +56,7 @@
     "why milk and cookies",
     "gingerbread quest"
    ],
-   "answer": "Loud crowds and children taking turns on his lap leave him drained. He asks for gingerbread cookies and milk to keep his energy up through the shift."
+   "answer": "The loud crowds and children taking turns on his lap leave him drained. He asks for gingerbread cookies and milk to keep his energy up through the shift."
   },
   {
    "q": "What does he think of his job?",
@@ -74,7 +74,7 @@
     "ironforge santa",
     "alliance counterpart"
    ],
-   "answer": "Yes. The Alliance's Greatfather Winter is an elderly dwarf employed by Smokywood Pastures, near the holiday tree in the Commons of Ironforge."
+   "answer": "Yes. The Alliance's Greatfather Winter is an elderly dwarf employed by Smokywood Pastures. Find him near the holiday tree in the Commons of Ironforge."
   }
  ],
  "angles": [
@@ -88,7 +88,7 @@
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, seeing one of your own reduced to a costumed mascot selling vendor discounts can test a traditionalist's patience, even though orcs revere seasonal shifts and the elements."
+   "text": "As an orc, seeing one of your own reduced to a costumed mascot selling vendor discounts can test a traditionalist's patience. Orcs revere seasonal shifts and the elements."
   }
  ],
  "keywords": [
@@ -113,5 +113,5 @@
  "attribution": [
   "Great-father Winter"
  ],
- "style": 1
+ "style": 2
 }

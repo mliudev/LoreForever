@@ -8,21 +8,21 @@
   "wiki": "Tammra Windfield",
   "refs": 3
  },
- "summary": "At Sun Rock Retreat, Tammra Windfield guides Horde travelers in honoring the land's renewal. The tauren watches over the wilderness and the safety of her kin in the Stonetalon Mountains.",
+ "summary": "At Sun Rock Retreat, Tammra Windfield guides Horde travelers in honoring the land's renewal. She watches over the Stonetalon wilderness and the safety of her kin.",
  "sections": [
   {
    "title": "A Warden of Sun Rock",
-   "body": "Sun Rock Retreat shelters the Horde among the crags of Stonetalon. Harpies, Venture Company loggers, and predators threaten the settlement. Tammra Windfield watches over the mountain wilderness and the travelers who enter. Her gentle manner carries the resolve needed to keep a home safe in such rugged country.",
+   "body": "Sun Rock Retreat shelters the Horde among the crags of Stonetalon. Harpies, Venture Company loggers, and predators threaten the settlement. Tammra Windfield watches over the mountain wilderness and the travelers who enter. Her gentle manner is matched by the resolve to keep a home safe in such rugged country.",
    "spoiler": 0
   },
   {
    "title": "Nurturing the Land",
-   "body": "Tammra honors the Earth Mother by watching nature's steady rhythm of growth and decay. She asks travelers to tend the cycle of rebirth and bring forth new life, working against the harm conflict and exploitation cause in Stonetalon. For Tammra, protecting the land means healing it so life can flourish in scarred mountain soil.",
+   "body": "Tammra honors the Earth Mother by tending to nature's steady rhythm of growth and decay. She asks travelers to help renew the land and bring forth new life. Conflict and exploitation have harmed Stonetalon, so she works to heal the mountain soil and let life flourish again.",
    "spoiler": 0
   },
   {
    "title": "Kinship and Vigilance",
-   "body": "Tammra's concern reaches beyond the wilds to the companions and kin who travel Stonetalon's dangerous trails. When word comes that travelers or family have vanished among the crags, she is among the first to seek reliable aid. Sun Rock Retreat endures through loyalty and mutual protection, as well as harmony with nature.",
+   "body": "Tammra's care reaches beyond the wilds to the companions and kin who travel Stonetalon's dangerous trails. When travelers or family vanish among the crags, she is among the first to seek reliable aid. Sun Rock Retreat endures through loyalty, mutual protection, and harmony with nature.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "tammra windfield",
     "sun rock retreat tammra"
    ],
-   "answer": "Tammra Windfield is a tauren at Sun Rock Retreat in the Stonetalon Mountains. She cares for the settlement, the mountain landscape's natural cycles, and the safety of her fellow travelers."
+   "answer": "Tammra Windfield is a tauren at Sun Rock Retreat in the Stonetalon Mountains. She cares for the settlement, the mountain's natural cycles, and the safety of her fellow travelers."
   },
   {
    "q": "Where can I find Tammra Windfield?",
@@ -51,7 +51,7 @@
     "tammra quests",
     "tammra windfield quest list"
    ],
-   "answer": "Tammra asks travelers to help with renewal and the welfare of her kin, including Cycle of Rebirth, New Life, and Kaya's Alive, where travelers report on kin's survival."
+   "answer": "Tammra asks travelers to help renew the land and protect her kin. Her requests include Cycle of Rebirth, New Life, and Kaya's Alive, where travelers report on kin's survival."
   },
   {
    "q": "What is Tammra's role in Sun Rock Retreat?",
@@ -59,7 +59,7 @@
     "what does tammra do",
     "tammra role"
    ],
-   "answer": "Tammra cares for the community and its spiritual life at Sun Rock Retreat. She directs travelers to restore the surrounding wilderness and protect the bonds that keep the outpost safe."
+   "answer": "Tammra cares for the community and its spiritual life at Sun Rock Retreat. She guides travelers in restoring the surrounding wilderness and protecting the bonds that keep the outpost safe."
   },
   {
    "q": "Why does Tammra care about the natural cycle?",
@@ -67,7 +67,7 @@
     "cycle of rebirth lore",
     "why rebirth stonetalon"
    ],
-   "answer": "Tauren believe balance depends on nurturing the Earth Mother's cycles of death and regeneration. With outside forces and mountain beasts threatening the region, Tammra seeks new life to heal the wounded wilderness."
+   "answer": "Tauren believe balance depends on nurturing the Earth Mother's cycles of death and regeneration. Outside forces and mountain beasts threaten the region, so Tammra seeks new life to heal the wounded wilderness."
   },
   {
    "q": "Is Tammra friendly to Alliance players?",
@@ -85,7 +85,7 @@
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you will recognize how Tammra's care for rebirth and new life echoes the heart of druidism."
+   "text": "As a druid, you can hear how Tammra's care for rebirth and new life echoes the heart of druidism."
   },
   {
    "target": "faction:Horde",
@@ -114,5 +114,5 @@
  "attribution": [
   "Tammra Windfield"
  ],
- "style": 1
+ "style": 2
 }

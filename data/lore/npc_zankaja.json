@@ -8,16 +8,16 @@
   "wiki": "Zankaja",
   "refs": 2
  },
- "summary": "In Orgrimmar, young orc woman Zankaja waits anxiously for word of her mate, Dogran. He was assigned to duty at the Crossroads, along the dangerous frontier of the Barrens.",
+ "summary": "In Orgrimmar, young Zankaja waits anxiously for word of her mate, Dogran. He serves at the Crossroads, along the dangerous frontier of the Barrens.",
  "sections": [
   {
    "title": "A Watchful Heart",
-   "body": "Zankaja waits for news of Dogran, her mate, in Orgrimmar. Dogran earned a promotion and went south to bolster the outpost at the Crossroads in the Barrens. The assignment honors a warrior, but the frontier is harsh, with quilboar, centaur, and aggressive beasts. When Dogran failed to send word or return as expected, Zankaja began asking travelers to seek news of him.",
+   "body": "In Orgrimmar, Zankaja waits for news of Dogran, her mate. After earning a promotion, he went south to strengthen the Crossroads outpost in the Barrens. The assignment honors a warrior, but the frontier is harsh. Quilboar, centaur, and aggressive beasts threaten those who serve there. When Dogran failed to send word or return as expected, Zankaja began asking travelers to seek news of him.",
    "spoiler": 0
   },
   {
    "title": "Tragic Tidings",
-   "body": "News from the Barrens brings Zankaja's worst fear: Dogran fell into the clutches of the quilboar. She still holds hope within Orgrimmar's canyon walls, though the frontier is unforgiving. The news travelers bring paints a grim picture of sacrifice on the Horde's perilous borders.",
+   "body": "Word from the Barrens brings Zankaja her worst fear: Dogran fell into the clutches of the quilboar. Within Orgrimmar's canyon walls, she still holds hope. Yet the frontier is unforgiving, and the reports travelers bring paint a grim picture of sacrifice on the Horde's perilous borders.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "dogran",
     "zankaja mate"
    ],
-   "answer": "Dogran is Zankaja's mate, an orc warrior whose recent promotion sent him to a station at the Crossroads in the Barrens."
+   "answer": "Dogran is Zankaja's mate, an orc warrior recently promoted and sent to a station at the Crossroads in the Barrens."
   },
   {
    "q": "Why is Zankaja worried?",
@@ -55,7 +55,7 @@
     "zankaja quest",
     "news of dogran quest"
    ],
-   "answer": "Zankaja asks passing adventurers heading out of Orgrimmar to visit Captain Gazrog at the Crossroads and ask about Dogran's whereabouts and wellbeing."
+   "answer": "Zankaja asks passing travelers heading out of Orgrimmar to visit Captain Gazrog at the Crossroads and ask about Dogran's whereabouts and wellbeing."
   },
   {
    "q": "What happened to Dogran in the Barrens?",
@@ -70,11 +70,11 @@
  "angles": [
   {
    "target": "race:Orc",
-   "text": "As an orc, you can see the personal cost to ordinary families in Durotar, where duty to the Warchief's new realm sends loved ones into untamed, lethal frontiers."
+   "text": "As an orc, you can see the personal cost to ordinary families in Durotar. Duty to the Warchief's new realm sends loved ones into untamed, lethal frontiers."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you can see in Zankaja's plea that holding outposts like the Crossroads costs real blood and sacrifice from the grunts stationed there."
+   "text": "As a member of the Horde, you can see in Zankaja's plea what it costs to hold outposts like the Crossroads. Grunts stationed there face real bloodshed and sacrifice."
   }
  ],
  "keywords": [
@@ -100,5 +100,5 @@
  "attribution": [
   "Zankaja"
  ],
- "style": 1
+ "style": 2
 }

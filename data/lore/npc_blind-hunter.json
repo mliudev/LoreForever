@@ -8,16 +8,16 @@
   "wiki": "Blind Hunter",
   "refs": 5
  },
- "summary": "Deep within Razorfen Kraul, the Blind Hunter roosts in the sunless depths. This elusive albino bat prowls the quilboar redoubt, far from common bats near the cavern entrances.",
+ "summary": "In the deepest reaches of Razorfen Kraul, the Blind Hunter roosts beyond the common bats. This pale albino bat prowls the quilboar redoubt, far from the cavern entrances.",
  "sections": [
   {
    "title": "Depths of the Kraul",
-   "body": "Razorfen Kraul winds through briars and dark caverns below ground. Common bats roost nearer the surface, where faint light reaches in from outside. The Blind Hunter keeps to the furthest, darkest alcoves of the tangle. Its pale hide and milky gaze may come from generations spent apart from natural sunlight.",
+   "body": "Razorfen Kraul winds through briars and dark caverns below ground. Common bats roost nearer the surface, where faint light reaches from outside. The Blind Hunter keeps to the furthest, darkest alcoves of the tangle. Its pale hide and milky gaze may come from generations spent apart from natural sunlight.",
    "spoiler": 0
   },
   {
    "title": "A Rare Quarry",
-   "body": "The Blind Hunter is thought to have lost most or all of its ordinary sight. Scholars and scouts believe it tracks prey through the gloom with keen hearing and echolocation. It rarely appears, hunting only now and then among the dense thickets. For cavern explorers, seeing this phantom beast is a rare encounter.",
+   "body": "The Blind Hunter is thought to have lost most or all of its ordinary sight. Scholars and scouts believe it tracks prey in the gloom with keen hearing and echolocation. It appears rarely, hunting only now and then among the dense thickets. For cavern explorers, a sighting of this phantom beast is rare.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "what is blind hunter",
     "blind hunter bat"
    ],
-   "answer": "The Blind Hunter is a rare albino bat in the deepest, darkest tunnels of Razorfen Kraul. Its pale coloring and elusive habits set it apart from the common bats nearer the entrance."
+   "answer": "The Blind Hunter is a rare albino bat in Razorfen Kraul's deepest, darkest tunnels. Its pale coloring and elusive habits set it apart from the common bats nearer the entrance."
   },
   {
    "q": "Where does the Blind Hunter appear?",
@@ -97,5 +97,5 @@
  "attribution": [
   "Blind Hunter"
  ],
- "style": 1
+ "style": 2
 }

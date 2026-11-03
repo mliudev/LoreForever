@@ -24,16 +24,16 @@
   ],
   "category": "Stranglethorn Vale"
  },
- "summary": "Privateer Bloads in Stranglethorn Vale needs a fresh bundle of akiris reeds transported across the sea to Dustwallow Marsh. A contact named Privateer Groy has a client in Theramore Isle who wants more right away, and Bloads himself will not be heading there for a week.",
+ "summary": "In Stranglethorn Vale, Bloads has a fresh bundle of akiris reeds bound for Theramore Isle. His contact, Privateer Groy, has a client eager for more, but Bloads cannot sail to Dustwallow Marsh for another week.",
  "sections": [
   {
    "title": "A Crossing to Theramore",
-   "body": "Word has arrived from across the sea while you were away. Privateer Groy in Theramore Isle sent word to Privateer Bloads expressing satisfaction with the prior shipment of akiris reeds, noting that an interested client demands more immediately. With Bloads not scheduled to sail for Dustwallow Marsh for another week, he entrusts you with the packaged parcel of reeds to deliver by hand.",
+   "body": "While you are away, word reaches you from across the sea. Privateer Groy in Theramore Isle is pleased with the last shipment of akiris reeds, and a client wants another bundle at once. Privateer Bloads cannot sail to Dustwallow Marsh for another week. So he gives you the parcel to carry across the sea by hand.",
    "spoiler": 0
   },
   {
    "title": "Delivery on the Docks",
-   "body": "Privateer Groy waits along the docks of Theramore. Though dismissive of strangers at first, Groy inspects the bundle carefully upon learning that Bloads arranged the delivery. Pleased with the quality of the reeds, he pays a cut of coin for the courier work and promptly warns travelers not to loiter around his docks.",
+   "body": "Privateer Groy waits on the docks of Theramore. He first dismisses strangers, but inspects the bundle closely when he learns Bloads arranged its delivery. Pleased with the reeds, he pays you a cut of coin for carrying them. Then he warns travelers not to linger around his docks.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "groy theramore",
     "privateer groy"
    ],
-   "answer": "Privateer Groy is a contact of Privateer Bloads in Theramore Isle in Dustwallow Marsh, who has a client wanting more akiris reeds."
+   "answer": "Privateer Groy is Privateer Bloads's contact in Theramore Isle, Dustwallow Marsh. Groy has a client who wants more akiris reeds."
   },
   {
    "q": "Why does Privateer Bloads need a courier?",
@@ -54,7 +54,7 @@
     "why theramore",
     "bloads delivery"
    ],
-   "answer": "Bloads received word that Groy has an urgent buyer waiting for another bundle of akiris reeds. Since Bloads is not scheduled to sail to Dustwallow Marsh for another week, he relies on a traveler to make the journey immediately."
+   "answer": "Bloads has heard that Groy's client urgently wants another bundle of akiris reeds. Bloads cannot sail to Dustwallow Marsh for another week, so he asks you to carry it across the sea."
   },
   {
    "q": "Where does this shipment need to go?",
@@ -63,7 +63,7 @@
     "akiris delivery location",
     "dustwallow marsh delivery"
    ],
-   "answer": "The bundle must be carried across the sea to Theramore Isle, an Alliance port located within Dustwallow Marsh."
+   "answer": "The bundle is bound for Theramore Isle, an Alliance port in Dustwallow Marsh."
   },
   {
    "q": "What came before this journey?",
@@ -72,13 +72,13 @@
     "akiris reed chain",
     "prerequisite"
    ],
-   "answer": "This delivery follows the initial harvesting effort in Stranglethorn Vale, where bundles of akiris reeds were first gathered and brought to Privateer Bloads."
+   "answer": "This delivery follows the first gathering of akiris reeds in Stranglethorn Vale, when bundles were brought to Privateer Bloads."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Theramore Isle is an Alliance stronghold in Dustwallow Marsh, though Privateer Bloads warns that visitors can still find trouble if they are the wrong kind of crowd."
+   "text": "Theramore Isle is an Alliance stronghold in Dustwallow Marsh. Bloads warns that visitors can still find trouble if they are the wrong kind of crowd."
   }
  ],
  "keywords": [
@@ -98,5 +98,6 @@
  ],
  "attribution": [
   "Akiris by the Bundle (2)"
- ]
+ ],
+ "style": 2
 }

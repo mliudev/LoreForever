@@ -22,21 +22,21 @@
    "High Inquisitor Whitemane"
   ]
  },
- "summary": "Perched in the northeastern hills of Tirisfal Glades, the Scarlet Monastery was once a peaceful sanctuary and center of learning for the Church of the Holy Light. Following the fall of Lordaeron, it was seized and heavily fortified by the Scarlet Crusade as their primary forward base in the west. Now, it stands as a sprawling stronghold divided into four wings, where fanatical zealots train, torture captives, and wage an uncompromising war against all outsiders.",
+ "summary": "In the northeastern hills of Tirisfal Glades, Scarlet Monastery shelters the Scarlet Crusade behind fortified walls. Once a peaceful sanctuary and a center of learning for the Church of the Holy Light, it now holds four wings where zealots train, torture captives, and wage war on outsiders.",
  "sections": [
   {
    "title": "A Fallen Sanctuary",
-   "body": "Before the Third War, the monastery served as a proud seat of Lordaeron's priesthood and a center for learning and enlightenment. Following the Scourge's devastation, surviving crusaders purged the halls of lingering undead and spiders, transforming the tranquil archives and courtyards into a fortified garrison. Driven by paranoia and grief, the Scarlet Crusade came to view all outsiders\u2014living or undead, human or otherwise\u2014as carriers of the plague who must be cleansed with fire.",
+   "body": "Before the Third War, the Scarlet Monastery was a proud seat of Lordaeron's priesthood, devoted to learning and enlightenment. Then the Scourge devastated the land. The surviving crusaders cleared the halls of undead and spiders, and made the archives and courtyards a fortified garrison.\n\nGrief and fear hardened into suspicion. The Scarlet Crusade came to see every outsider as a carrier of the plague, living or undead, human or otherwise. In their eyes, such foes must be cleansed with fire.",
    "spoiler": 0
   },
   {
    "title": "The Four Wings",
-   "body": "Past the monastery's Grand Vestibule lie four distinct quarters. The Graveyard is an unhallowed open-air terrace where fallen crusaders rise as undead abominations and torturers pry confessions from prisoners. The Library preserves precious theological texts and historical tomes, guarded by the renegade mage Arcanist Doan and his hounds. The Armory serves as a training ground where Scarlet weaponmasters like Herod drill fanatic recruits into ironclad warriors. Deepest within stands the Cathedral, the grand heart of the stronghold where the Crusade's leadership directs their crusade across the blighted north.",
+   "body": "Beyond the Grand Vestibule lie four wings. In the Graveyard, fallen crusaders rise as undead abominations, while torturers force confessions from prisoners. The Library holds theological and historical works, guarded by renegade mage Arcanist Doan and his hounds.\n\nIn the Armory, weaponmasters such as Herod train recruits to fight as disciplined warriors. Deep within the stronghold lies the Cathedral, the Crusade's heart. There, its leaders direct their campaign across the blighted north.",
    "spoiler": 0
   },
   {
    "title": "The Fall of the High Inquisitor",
-   "body": "The inner sanctum of the Cathedral is commanded by Scarlet Commander Mograine and the monastery's true master, High Inquisitor Whitemane. Defeating Whitemane strikes a critical blow to the Crusade's operational command in Tirisfal Glades. Her ability to channel blinding Holy Light and resurrect fallen champions made the garrison seem invincible to its devotees. Slaying her shatters the aura of divine mandate that fueled the monastery's zealotry, exposing the Crusade's leadership as mortal and severely weakening their campaign against the Forsaken and the neighboring lands.",
+   "body": "Scarlet Commander Mograine commands the Cathedral's inner sanctum beside the monastery's true master, High Inquisitor Whitemane. Whitemane channels the Holy Light and can raise fallen champions. To her devotees, that power makes the garrison seem invincible.\n\nDefeating Whitemane strikes at the Crusade's command in Tirisfal Glades. It breaks the aura of divine authority behind the monastery's zealotry. The Crusade's leaders are mortal, and its campaign against the Forsaken and neighboring lands is badly weakened.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "scarlet crusade hostile alliance",
     "why are they mad"
    ],
-   "answer": "The Crusade has succumbed to extreme madness and paranoia. In their eyes, anyone who does not wear their crimson tabard is a potential carrier of the Scourge plague. They no longer make distinctions between friend or foe, viewing all outsiders as tainted beings who must be purged before they can spread corruption."
+   "answer": "The Scarlet Crusade has fallen into madness and paranoia. Its members see anyone without a crimson tabard as a possible carrier of the Scourge plague. They make no distinction between friend and foe, believing every outsider tainted and in need of purging before spreading corruption."
   },
   {
    "q": "What happens when you defeat High Inquisitor Whitemane?",
@@ -57,7 +57,7 @@
     "whitemane defeated lore",
     "cathedral ending"
    ],
-   "answer": "Defeating High Inquisitor Whitemane decapitates the Scarlet Crusade's western military leadership. As the spiritual leader of the monastery, her miraculous resurrection powers maintained troop morale and kept Commander Mograine fighting at her side. Her death removes the Crusade's most potent priestess in Tirisfal Glades, leaving the garrison disordered and severely diminishing their threat to the surrounding region."
+   "answer": "Defeating High Inquisitor Whitemane deals a severe blow to the Scarlet Crusade's western leadership. As the monastery's spiritual leader, she raises the fallen and keeps Commander Mograine fighting at her side. Her death leaves the garrison disordered and weakens its threat to the surrounding region."
   },
   {
    "q": "What is the Scarlet Key and where is it found?",
@@ -66,7 +66,7 @@
     "how to unlock armory and cathedral",
     "monastery key"
    ],
-   "answer": "The Scarlet Key is held deep within the Library wing of the monastery, kept inside Arcanist Doan's strongbox behind his personal study. Possessing this key is necessary to unlock the outer gates of both the Armory and the Cathedral wings."
+   "answer": "Arcanist Doan keeps the Scarlet Key in his strongbox, deep in the Library wing behind his study. The key opens the outer gates of both the Armory and the Cathedral wings."
   },
   {
    "q": "Why is Arcanist Doan in the Scarlet Monastery?",
@@ -75,7 +75,7 @@
     "doan lore",
     "mage in library"
    ],
-   "answer": "Arcanist Doan is a powerful human mage who serves the Scarlet Crusade, convinced that arcane magic is a weapon needed to cleanse the Scourge from Lordaeron. He keeps the monastery's extensive Library wing and guards the Scarlet Key in his study."
+   "answer": "Arcanist Doan is a powerful human mage who serves the Scarlet Crusade. He believes arcane magic is needed to cleanse the Scourge from Lordaeron. In his study, he guards the monastery's Library and the Scarlet Key."
   },
   {
    "q": "Who was Alexandros Mograine and how is he connected here?",
@@ -84,7 +84,7 @@
     "ashbringer monastery",
     "renault mograine father"
    ],
-   "answer": "Alexandros Mograine, the famed Ashbringer, was a legendary paladin of the Silver Hand and, with High General Abbendis and Grand Inquisitor Isillien, one of the founders of the Scarlet Crusade. His son Renault now commands the Cathedral alongside High Inquisitor Whitemane."
+   "answer": "Alexandros Mograine, the famed Ashbringer, was a legendary paladin of the Silver Hand and one of the Scarlet Crusade's founders. He founded it alongside High General Abbendis and Grand Inquisitor Isillien. His son Renault now commands the Cathedral with High Inquisitor Whitemane."
   },
   {
    "q": "What makes the Graveyard wing so different from the rest of the monastery?",
@@ -93,25 +93,25 @@
     "thalnos lore",
     "interrogator vishas"
    ],
-   "answer": "While the rest of the monastery maintains an outward appearance of pristine devotion, the Graveyard is where the Crusade's fanaticism rots from within. It holds their brutal torture chambers run by Interrogator Vishas, while neglected crypts and restless dead are harvested or manipulated by fallen casters like Bloodmage Thalnos."
+   "answer": "The Graveyard reveals the monastery's fanaticism in a harsher light. Interrogator Vishas runs its torture chambers. In neglected crypts, fallen casters such as Bloodmage Thalnos harvest or manipulate the restless dead."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "The monastery was once a sacred seat of Lordaeron's priesthood, making its descent into crimson zealotry a tragic reminder of how devotion can curdle into madness."
+   "text": "The Scarlet Monastery was once a sacred seat of Lordaeron's priesthood and a center of learning. Its fall to crimson zealotry shows how devotion can curdle into madness."
   },
   {
    "target": "class:Priest",
-   "text": "Originally a seat of the Church of the Holy Light, its grand chapels demonstrate how holy power can still be wielded by mortals twisted by hatred and vengeance."
+   "text": "The Scarlet Monastery began as a seat of the Church of the Holy Light. Its grand chapels show holy power wielded by mortals twisted by hatred and vengeance."
   },
   {
    "target": "race:Undead",
-   "text": "Perched on the border of Tirisfal Glades, the Scarlet Monastery represents an existential threat to the Forsaken, staging spies into Deathknell and torturing captured undead within its dungeons."
+   "text": "On the border of Tirisfal Glades, the Scarlet Monastery threatens the Forsaken. Its spies reach Deathknell, and its dungeons hold captured undead who are tortured."
   },
   {
    "target": "class:Mage",
-   "text": "The Library wing houses rare historical and theological tomes guarded by Arcanist Doan, the Crusade's foremost arcanist."
+   "text": "The Library wing holds rare historical and theological works. Arcanist Doan, the Crusade's foremost arcanist, guards them."
   }
  ],
  "keywords": [
@@ -140,5 +140,6 @@
  "attribution": [
   "Scarlet Monastery",
   "Scarlet Monastery"
- ]
+ ],
+ "style": 2
 }

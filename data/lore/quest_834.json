@@ -17,16 +17,16 @@
   "wiki": "Winds in the Desert",
   "chain": []
  },
- "summary": "A stolen supply caravan leaves Rezlak waiting in Durotar. Dustwind harpies ambushed it in Razorwind Canyon, scattering the construction materials among the cliffs.",
+ "summary": "Rezlak waits in Durotar for a stolen supply caravan. Dustwind harpies ambushed it in Razorwind Canyon and scattered the building materials among the cliffs.",
  "sections": [
   {
    "title": "A Goblin on a Deadline",
-   "body": "Rezlak came directly from Ratchet, sent by Chief Engineer Gazlowe to help the Horde build across Durotar. The harsh, barren land already makes fortification work hard. Now shipments keep vanishing before they reach the building sites, and without the cargo, work stops. The irritable goblin supervisor has nothing to build with.",
+   "body": "Rezlak came from Ratchet at Chief Engineer Gazlowe's command, to help the Horde build across Durotar. The harsh, barren land makes fortification work hard enough. Now shipments vanish before they reach the building sites, and without the cargo, work stops. The irritable goblin supervisor has nothing to build with.",
    "spoiler": 0
   },
   {
    "title": "Ambush in the Canyon",
-   "body": "Dustwind harpies ambushed the latest supply run in Razorwind Canyon. They roost along the high ravines beside the road from Razor Hill to Orgrimmar, then swoop on passing wagons. These scavengers do not eat or destroy the freight. They hoard the crates and sacks near their nests, where the supplies remain for anyone willing to fight through their territory.",
+   "body": "Dustwind harpies ambushed the latest supply run in Razorwind Canyon. They roost in the high ravines beside the road from Razor Hill to Orgrimmar, then swoop on passing wagons. They neither eat nor destroy the freight. Instead, they hoard crates and sacks near their nests, where the supplies wait for anyone willing to fight through their territory.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is rezlak",
     "who gave this quest"
    ],
-   "answer": "Rezlak is a goblin worker employed by Gazlowe, the boss of Ratchet. Gazlowe sent him to Durotar to help the orcs with construction outside Orgrimmar's gates."
+   "answer": "Rezlak is a goblin worker employed by Gazlowe, the boss of Ratchet. Gazlowe sent him to Durotar to help the orcs build outside Orgrimmar's gates."
   },
   {
    "q": "Why are goblins helping build in Durotar?",
@@ -47,7 +47,7 @@
     "gazlowe durotar",
     "goblin horde cooperation"
    ],
-   "answer": "Gazlowe and the Steamwheedle Cartel have a commercial and engineering partnership with Warchief Thrall. Goblin engineers and machines helped lay Orgrimmar's foundations, and Gazlowe still supplies contracted labor and materials to the Horde."
+   "answer": "Gazlowe and the Steamwheedle Cartel have a commercial and engineering partnership with Warchief Thrall. Goblin engineers and machines helped lay Orgrimmar's foundations. Gazlowe still supplies contracted labor and materials to the Horde."
   },
   {
    "q": "Where did the supplies come from?",
@@ -96,7 +96,7 @@
   },
   {
    "target": "profession:Engineering",
-   "text": "As an engineer, you can understand why Rezlak prizes sound plans and on-time deliveries, even with local wildlife causing trouble."
+   "text": "As an engineer, you can understand why Rezlak prizes sound plans and on-time deliveries, even when local wildlife causes trouble."
   }
  ],
  "keywords": [
@@ -121,5 +121,5 @@
  "attribution": [
   "Winds in the Desert"
  ],
- "style": 1
+ "style": 2
 }

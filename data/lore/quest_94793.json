@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "This quest marks a vital rite of passage for developing hunters, transitioning from merely capturing beasts to forging an enduring, disciplined bond through feeding, reviving, and training them."
+   "text": "As a hunter, you move beyond capturing beasts to build a lasting, disciplined bond. Feed, revive, and train your companion."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance hunters operating in Elwynn Forest rely on veteran woodsmen like Isaac Chan in Goldshire to master the fundamentals of beast handling."
+   "text": "As an Alliance hunter in Elwynn Forest, you can learn the basics of beast handling from veteran woodsmen like Isaac Chan in Goldshire."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "goldshire beast trainer",
     "isaac chan lore"
    ],
-   "answer": "Isaac Chan is a seasoned, lifelong woodsman residing in Goldshire within Elwynn Forest. Respected for his deep understanding of wildlife and wilderness survival, he teaches novice hunters how to properly guide, feed, revive, and teach abilities to their animal companions.",
+   "answer": "Isaac Chan is a lifelong woodsman who lives in Goldshire, in Elwynn Forest. He knows wildlife and wilderness survival, and teaches novice hunters to guide, feed, revive, and teach abilities to their animal companions.",
    "q": "Who is Isaac Chan?"
   },
   {
@@ -37,7 +37,7 @@
     "why train beast",
     "purpose of training the beast"
    ],
-   "answer": "While a hunter may already know how to tame a beast, this quest provides the essential knowledge to maintain that bond. It instructs the hunter in feeding their companion, reviving it if it falls in battle, and teaching it new combat abilities.",
+   "answer": "Hunters learn to care for a tamed beast and maintain their bond. Isaac Chan teaches them to feed their companion, revive it if it falls in battle, and teach it new combat abilities.",
    "q": "What is the purpose of Training the Beast?"
   },
   {
@@ -46,7 +46,7 @@
     "where do i turn this in",
     "isaac chan location"
    ],
-   "answer": "Isaac Chan is located in Goldshire, the central township of Elwynn Forest just south of Northshire Valley and southwest of Stormwind City.",
+   "answer": "Isaac Chan lives in Goldshire, the central township of Elwynn Forest, south of Northshire Valley and southwest of Stormwind City.",
    "q": "Where can Isaac Chan be found?"
   },
   {
@@ -55,7 +55,7 @@
     "pet abilities learned",
     "what does isaac chan teach"
    ],
-   "answer": "Isaac Chan imparts the core principles of pet care and training. This encompasses feeding your beast to sustain its wellbeing, reviving it should it perish in combat, and teaching it new abilities as it grows alongside you.",
+   "answer": "Isaac Chan teaches the basics of caring for and training an animal companion. You learn to feed your beast, revive it if it falls in combat, and teach it new abilities as it grows alongside you.",
    "q": "What skills does Isaac Chan teach?"
   },
   {
@@ -63,7 +63,7 @@
     "why respect nature",
     "respect the balance hunter"
    ],
-   "answer": "Isaac Chan emphasizes that mastering wild beasts requires humility rather than domination. He urges hunters to honor the balance of the natural world and live in awe of surrounding nature, ensuring that the partnership between hunter and beast is built on stewardship rather than exploitation.",
+   "answer": "Isaac Chan teaches hunters humility before the wild. He asks them to honor nature's balance and live in awe of the world around them, so their bond with a beast rests on stewardship rather than exploitation.",
    "q": "Why does Isaac Chan remind hunters to respect nature?"
   },
   {
@@ -71,7 +71,7 @@
     "who can do this quest",
     "is training the beast hunter only"
    ],
-   "answer": "Training the Beast is tailored specifically for hunters who have acquired the initial ability to tame beasts and need the woodland discipline required to sustain and train an animal companion.",
+   "answer": "Hunters who can already tame beasts seek Isaac Chan's woodland discipline to sustain and train an animal companion.",
    "q": "Who undertakes this quest?"
   }
  ],
@@ -91,18 +91,19 @@
  ],
  "sections": [
   {
-   "body": "Learning to tame a wild creature is only the initial step for an aspiring hunter; maintaining a lasting partnership demands discipline and knowledge. The quest directs fledgling hunters to seek out Isaac Chan, an experienced woodsman stationed in Goldshire, to acquire the essential craft of beast training. Without proper guidance, a tamed beast remains an unruly wild animal rather than a steadfast ally in the wilderness.",
+   "body": "You seek Isaac Chan, an experienced woodsman in Goldshire, to learn how to train your beast. A tamed creature needs care and discipline before it can become a steady ally. Without Chan's guidance, your companion may remain unruly in the wilderness.",
    "spoiler": 0,
    "title": "The Responsibilities of the Hunt"
   },
   {
-   "body": "Upon arriving in Goldshire, Isaac Chan bestows the skills necessary to care for an animal companion. This instruction goes beyond simple combat commands, encompassing the vital duties of feeding the companion to keep it satisfied and learning the rites to revive it should it fall in battle. Chan reminds his pupils that wielding power over wildlife comes with the duty to respect natural balance and live in awe of the surrounding world.",
+   "body": "Isaac Chan teaches you to care for your animal companion. You learn to feed it and revive it if it falls in battle. He also teaches commands that help it fight, and reminds you that power over wildlife calls for respect. Honor nature's balance and live in awe of the world around you.",
    "spoiler": 0,
    "title": "A Woodsman's Guidance"
   }
  ],
- "summary": "Training the Beast is a foundational quest for young hunters, directing them to seek out the veteran woodsman Isaac Chan in Goldshire. By completing this step, hunters learn to properly train, nourish, and revive their animal companions, transforming a freshly tamed beast into a loyal combat partner.",
+ "summary": "In Goldshire, Training the Beast shows young hunters how to care for a tamed companion. Isaac Chan teaches them to feed and revive their beasts, then train them for life at their side.",
  "attribution": [
   "In-game quest text: Training the Beast"
- ]
+ ],
+ "style": 2
 }

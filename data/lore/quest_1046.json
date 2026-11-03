@@ -17,16 +17,16 @@
   "wiki": "Raene's Cleansing (11)",
   "chain": []
  },
- "summary": "In Astranaar, Raene's Cleansing reaches its end as you return with Ran Bloodtooth's skull. The search began with Teronis and now leaves Ashenvale's furbolg threat diminished.",
+ "summary": "In Astranaar, you bring Raene's Cleansing to its end with Ran Bloodtooth's skull. The search began with Teronis, and Ashenvale's furbolg threat is now diminished.",
  "sections": [
   {
    "title": "A Bitter Trophy",
-   "body": "After Ran Bloodtooth falls, Krolg sends you back to Astranaar. You carry the chieftain's severed skull to Sentinel Raene Wolfrunner, proof that the threat prowling the forest depths has been struck down.",
+   "body": "Krolg sends you back to Astranaar after Ran Bloodtooth falls. You carry the chieftain's severed skull to Sentinel Raene Wolfrunner. It proves that the threat prowling the forest depths has been struck down.",
    "spoiler": 0
   },
   {
    "title": "In Memory of Teronis",
-   "body": "Raene Wolfrunner sets Ran Bloodtooth's skull beside Dartol's Rod in a place of reverence. The grim token honors Teronis, whose investigation into cleansing the corrupted furbolgs began this desperate effort.",
+   "body": "Raene Wolfrunner places Ran Bloodtooth's skull beside Dartol's Rod in a place of reverence. The grim token honors Teronis, whose investigation into cleansing the corrupted furbolgs began this desperate effort.",
    "spoiler": 1
   }
  ],
@@ -56,7 +56,7 @@
     "who is teronis",
     "teronis proud"
    ],
-   "answer": "Teronis was a night elf investigator whose death early in the search spurred the hunt for the cleansing gemstones and Dartol's Rod. Finishing the work carries forward his unfinished mission."
+   "answer": "Teronis was a night elf investigator whose death early in the search spurred the hunt for the cleansing gemstones and Dartol's Rod. Finishing the work carries his unfinished mission forward."
   },
   {
    "q": "Where does this quest end?",
@@ -65,7 +65,7 @@
     "where is raene",
     "raene wolfrunner location"
    ],
-   "answer": "You complete the work in Astranaar by speaking with Sentinel Raene Wolfrunner, in Ashenvale's main night elf settlement."
+   "answer": "You finish the work in Astranaar, where you speak with Sentinel Raene Wolfrunner. It is Ashenvale's main night elf settlement."
   },
   {
    "q": "Who is Krolg?",
@@ -74,7 +74,7 @@
     "who gives quest",
     "npc krolg"
    ],
-   "answer": "Krolg is an ally who sends you to carry Ran Bloodtooth's severed skull back to Astranaar, where your people can recognize the victory."
+   "answer": "Krolg is an ally who sends you to carry Ran Bloodtooth's severed skull back to Astranaar. There, your people can recognize the victory."
   },
   {
    "q": "What is Dartol's Rod?",
@@ -83,7 +83,7 @@
     "rod of transformation",
     "furbolg rod"
    ],
-   "answer": "Dartol's Rod is an enchanted relic assembled during the chain of events. It has deep magical ties to furbolg nature and cleansing."
+   "answer": "Dartol's Rod is an enchanted relic assembled during these events. It has deep magical ties to furbolg nature and cleansing."
   }
  ],
  "angles": [
@@ -119,5 +119,5 @@
  "attribution": [
   "Raene's Cleansing (11)"
  ],
- "style": 1
+ "style": 2
 }

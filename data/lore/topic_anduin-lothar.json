@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Anduin Lothar"
  },
- "summary": "Sir Anduin Lothar, known as the Lion of Stormwind, was the last descendant of the ancient Arathi bloodline and the Supreme Commander of the Alliance of Lordaeron. A childhood companion of King Llane Wrynn and the Guardian Medivh, Lothar led humanity through the horrors of the First War and rallied the northern nations during the Second War before falling at Blackrock Mountain.",
+ "summary": "In Stormwind's royal court, Anduin Lothar grew up beside Prince Llane Wrynn and Medivh. Last of the ancient Arathi bloodline, he led humanity through the First War and united the northern nations in the Second War as Supreme Commander of the Alliance of Lordaeron. His campaign ended at Blackrock Mountain.",
  "sections": [
   {
    "title": "The Lion's Youth",
-   "body": "Carrying the ancient bloodline of the Arathi kings, Lothar grew up within Stormwind's royal court alongside Prince Llane Wrynn and Medivh. The trio embarked on reckless excursions into the wilderness, skirmishing with Gurubashi trolls in Stranglethorn Vale. Lothar rose rapidly through Stormwind's martial ranks, joining the King's Honor Guard and earning renown as an Armsman of the Brotherhood of the Horse.",
+   "body": "Anduin Lothar grew up in Stormwind's royal court, heir to the bloodline of the Arathi kings. He shared his youth with Prince Llane Wrynn and Medivh. Together, the three ventured recklessly into the wilderness and skirmished with Gurubashi trolls in Stranglethorn Vale. Lothar rose through Stormwind's martial ranks and joined the King's Honor Guard. He also earned renown as an Armsman of the Brotherhood of the Horse.",
    "spoiler": 0
   },
   {
    "title": "The Fall of Stormwind",
-   "body": "When mysterious green-skinned invaders poured from the Black Morass, King Llane named Lothar the King's Champion to mount the kingdom's defense. Lothar pioneered devastating ambushes against orcish raiding parties across Westfall, the Redridge Mountains, and Elwynn Forest, outmaneuvering Warchief Blackhand and breaking the first siege of Stormwind City. Yet betrayal doomed the kingdom from within: Medivh was revealed as the architect who opened the Dark Portal, compelling Lothar and the apprentice Khadgar to storm Karazhan and execute the corrupted Guardian. Returning to find King Llane assassinated and Stormwind burning, Lothar gathered the survivors\u2014including young Prince Varian\u2014and evacuated them north across the Great Sea.",
+   "body": "When green-skinned invaders poured from the Black Morass, King Llane named Lothar the King's Champion and charged him with defending the kingdom. Lothar ambushed orcish raiding parties in Westfall, the Redridge Mountains, and Elwynn Forest. He outmaneuvered Warchief Blackhand and broke the first siege of Stormwind City.\n\nThen Medivh was revealed as the one who had opened the Dark Portal. Lothar and the apprentice Khadgar stormed Karazhan and executed the corrupted Guardian. They returned to find King Llane assassinated and Stormwind burning. Lothar gathered the survivors, including young Prince Varian, and led them north across the Great Sea.",
    "spoiler": 1
   },
   {
    "title": "Supreme Commander and Blackrock Mountain",
-   "body": "Arriving on the shores of Lordaeron, Lothar presented the grim reality of the Horde to King Terenas Menethil II. Invoking his ancestral Arathi lineage and diplomatic gravitas, he unified the human realms, Ironforge dwarves, and high elves into the Grand Alliance of Lordaeron. Named Supreme Commander of the united forces, Lothar spearheaded the campaign that pushed the Horde back south to the foot of Blackrock Mountain. There, in a fateful clash near the end of the Second War, Lothar was slain by Warchief Orgrim Doomhammer. His death did not shatter the Alliance; instead, it galvanized his lieutenant, Turalyon, to lead the charge that broke the Horde forever.",
+   "body": "On Lordaeron's shores, Lothar brought King Terenas Menethil II grim news of the Horde. His Arathi lineage and standing as a diplomat helped unite the human realms, Ironforge dwarves, and high elves as the Grand Alliance of Lordaeron. Named Supreme Commander, he led the campaign that drove the Horde south to the foot of Blackrock Mountain.\n\nNear the end of the Second War, Warchief Orgrim Doomhammer slew Lothar in a clash there. His death did not break the Alliance. His lieutenant Turalyon took command and led the charge that broke the Horde forever.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "who was lothar",
     "lion of stormwind lore"
    ],
-   "answer": "Sir Anduin Lothar was a knight of Stormwind and the last descendant of the Arathi bloodline. He served as King's Champion during the First War and later became the Supreme Commander of the Alliance of Lordaeron during the Second War. He is remembered as one of the greatest heroes and tacticians in human history."
+   "answer": "Anduin Lothar was a Stormwind knight and the last descendant of the Arathi bloodline. He served as King's Champion during the First War and became Supreme Commander of the Alliance of Lordaeron in the Second War. Humanity remembers him among its great heroes and tacticians."
   },
   {
    "q": "How did Lothar die?",
@@ -42,7 +42,7 @@
     "how lothar died",
     "who killed lothar"
    ],
-   "answer": "Lothar was slain during the climax of the Second War at the base of Blackrock Mountain. He fought Warchief Orgrim Doomhammer in single combat and fell just before Alliance forces under Turalyon routed the Horde and pursued them to the Dark Portal."
+   "answer": "Near the end of the Second War, Warchief Orgrim Doomhammer slew Lothar at the foot of Blackrock Mountain. Afterward, Alliance forces under Turalyon routed the Horde and pursued them to the Dark Portal."
   },
   {
    "q": "Why is the current prince named Anduin?",
@@ -50,7 +50,7 @@
     "why is anduin named anduin",
     "anduin wrynn name origin"
    ],
-   "answer": "King Varian Wrynn named his young son, Prince Anduin Wrynn, in honor of Sir Anduin Lothar. Lothar rescued Varian as a child from the ruins of Stormwind, protected him in exile, and reclaimed their homeland through his sacrifice in the Second War."
+   "answer": "King Varian Wrynn named his young son, Prince Anduin Wrynn, to honor Sir Anduin Lothar. Lothar rescued Varian from Stormwind's ruins, protected him in exile, and gave his life in the Second War as their homeland was reclaimed."
   },
   {
    "q": "What was Lothar's connection to Medivh and King Llane?",
@@ -58,7 +58,7 @@
     "lothar medivh llane",
     "lothar childhood friends"
    ],
-   "answer": "Lothar, Prince Llane Wrynn, and the young mage Medivh were inseparable childhood friends in the royal court of Stormwind. They explored Azeroth together in their youth, fighting trolls and beasts. Tragically, Lothar was later forced to lead the strike against Medivh at Karazhan after discovering his friend had betrayed the realm and summoned the Horde."
+   "answer": "Lothar, Prince Llane Wrynn, and the young mage Medivh were childhood friends in Stormwind's royal court. They explored Azeroth and fought trolls and beasts together. Later, Lothar led the strike at Karazhan after Medivh was revealed as the one who opened the Dark Portal and betrayed the realm."
   },
   {
    "q": "Why is Lothar called the 'Last of the Arathi'?",
@@ -66,7 +66,7 @@
     "lothar arathi bloodline",
     "arathi descendant"
    ],
-   "answer": "Lothar was the final direct scion of the ancient Arathi line, the dynasty that originally united humanity and founded the empire of Arathor millennia ago. This prestigious heritage gave him immense diplomatic standing when uniting the squabbling northern kings under the Alliance banner in Lordaeron."
+   "answer": "Lothar was the last direct descendant of the ancient Arathi line, the dynasty that united humanity and founded the empire of Arathor millennia ago. That heritage gave him standing with the northern kings when he united them under the Alliance banner in Lordaeron."
   },
   {
    "q": "What was Lothar's role in the Brotherhood of the Horse?",
@@ -74,25 +74,25 @@
     "brotherhood of the horse lothar",
     "knights of stormwind lothar"
    ],
-   "answer": "Lothar was knighted early in his career and rose to the position of Armsman within the Brotherhood of the Horse, Stormwind's elite order of mounted knights. He utilized their disciplined cavalry charges to repeatedly outflank and disrupt Horde formations throughout the First War."
+   "answer": "Lothar joined the Brotherhood of the Horse and earned renown as an Armsman. During the First War, he used the order's disciplined cavalry charges to outflank and disrupt Horde formations."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "To humanity, Lothar is the ultimate paragon of sacrifice and honor. His Arathi blood brought the disparate human kingdoms together, and his tragic death at Blackrock Mountain sealed the kingdom's liberation."
+   "text": "To humanity, Lothar is a model of sacrifice and honor. His Arathi blood helped unite the human kingdoms, and he died at Blackrock Mountain as the kingdom was liberated."
   },
   {
    "target": "faction:Alliance",
-   "text": "Lothar was the foundational architect and first Supreme Commander of the Alliance, uniting elves, dwarves, and humans to push the Horde out of the Eastern Kingdoms."
+   "text": "Lothar united elves, dwarves, and humans as the Alliance's first Supreme Commander. He led them against the Horde in the Eastern Kingdoms."
   },
   {
    "target": "class:Warrior",
-   "text": "Regarded as one of the finest armsmen and battlefield commanders who ever lived, Lothar's mastery of mounted tactics and sheer martial resolve serve as an inspiration to warriors across Azeroth."
+   "text": "Lothar was renowned as an armsman and battlefield commander. His mounted tactics and martial resolve inspire warriors across Azeroth."
   },
   {
    "target": "class:Paladin",
-   "text": "Lothar embraced the nascent Knights of the Silver Hand during the Second War, placing his trust in paladins like Turalyon, who took up Lothar's shattered sword after his fall to lead the Alliance to victory."
+   "text": "Lothar trusted the paladins of the Knights of the Silver Hand, including Turalyon. After Lothar fell, Turalyon took up his shattered sword and led the Alliance to victory."
   }
  ],
  "keywords": [
@@ -117,5 +117,6 @@
  ],
  "attribution": [
   "Anduin Lothar"
- ]
+ ],
+ "style": 2
 }

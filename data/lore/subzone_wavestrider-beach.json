@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Wavestrider Beach"
  },
- "summary": "Wavestrider Beach is the sun-scorched coastal strip lining the eastern edge of Tanaris. Stretching between Steamwheedle Port and the pirate stronghold at Lost Rigger Cove, its sands are inhabited by aggressive crustacean wildlife and overlook distant naval skirmishes out at sea.",
+ "summary": "Burning ships still clash offshore from Wavestrider Beach on Tanaris's eastern coast. The shore stretches between Steamwheedle Port and Lost Rigger Cove, where crustaceans roam the sand and pirates command the nearby waters.",
  "sections": [
   {
    "title": "A Treacherous Coastline",
-   "body": "Running along the ocean border of eastern Tanaris, Wavestrider Beach connects the goblin settlement of Steamwheedle Port in the north to the cliffs guarding Lost Rigger Cove to the south. Rather than a gentle resort, the shoreline is plagued by vicious Steeljaw Snappers and Desert Crawlers scuttling across the baking sand. Out in the deep water just offshore, burning vessels remain locked in a perpetual naval clash, serving as a grim warning of the piratical violence that dominates these coastal waters.",
+   "body": "Steeljaw Snappers and Desert Crawlers scuttle over the baking sand. Wavestrider Beach follows eastern Tanaris from Steamwheedle Port in the north to the cliffs above Lost Rigger Cove. Offshore, burning vessels remain locked in combat. Their flames mark the violence that grips these pirate waters.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is wavestrider beach",
     "wavestrider beach tanaris"
    ],
-   "answer": "Wavestrider Beach lies along the eastern coastline of Tanaris, stretching directly between the docks of Steamwheedle Port to the north and the mouth of Lost Rigger Cove to the south."
+   "answer": "Wavestrider Beach follows Tanaris's eastern coast, from Steamwheedle Port in the north to Lost Rigger Cove in the south."
   },
   {
    "q": "What creatures wander the sands here?",
@@ -31,7 +31,7 @@
     "wavestrider beach mobs",
     "crabs on wavestrider beach"
    ],
-   "answer": "The beach is primarily overrun by aggressive marine scavengers, including native Desert Crawlers and heavily armored Steeljaw Snappers prowling the surf."
+   "answer": "Desert Crawlers and Steeljaw Snappers roam the sand and surf."
   },
   {
    "q": "What are the burning ships visible offshore?",
@@ -39,7 +39,7 @@
     "burning ships tanaris",
     "ships on fire wavestrider beach"
    ],
-   "answer": "Looking out to sea from the beach, travelers can spot two blazing vessels engaged in ongoing combat. They reflect the rampant pirate activity that plagues the waters surrounding the Southsea Freebooters' hideouts."
+   "answer": "Two blazing vessels remain locked in combat offshore, reflecting the pirate activity around the Southsea Freebooters' hideouts."
   },
   {
    "q": "Is Wavestrider Beach safe to travel through?",
@@ -47,7 +47,7 @@
     "is wavestrider beach dangerous",
     "wavestrider beach safety"
    ],
-   "answer": "It is relatively hazardous. Between the aggressive snapjaws and crabs along the water's edge and its close proximity to Southsea pirate territory, unwary explorers can quickly find themselves overwhelmed."
+   "answer": "The shore is hazardous, with aggressive crabs and snapjaws by the water and Southsea pirates nearby. Unwary travelers can quickly be overwhelmed."
   }
  ],
  "angles": [],
@@ -68,5 +68,6 @@
  ],
  "attribution": [
   "Wavestrider Beach"
- ]
+ ],
+ "style": 2
 }

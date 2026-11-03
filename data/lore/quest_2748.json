@@ -24,16 +24,16 @@
    "The Super Egg-O-Matic"
   ]
  },
- "summary": "Curgle Cranklehop speaks of the fine egg, which stands a chance of hatching free of the Gordunni ogres' evil incantations.",
+ "summary": "Curgle Cranklehop speaks of an egg that may hatch free of the Gordunni ogres’ evil incantations.",
  "sections": [
   {
    "title": "What Makes It Fine",
-   "body": "Curgle Cranklehop describes a fine egg as one with a good chance of hatching untouched by the wicked chanting of the Gordunni ogres, provided conditions are ideal.",
+   "body": "Curgle Cranklehop says an egg has a good chance of hatching untouched by the Gordunni ogres’ wicked chanting, if conditions are ideal.",
    "spoiler": 0
   },
   {
    "title": "What Curgle Does Next",
-   "body": "Curgle takes the egg and plans to send it to Darnassus, where it is hoped that it will soon hatch.",
+   "body": "Curgle takes the egg and plans to send it to Darnassus. There, it is hoped to hatch soon.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "fine egg lore",
     "why fine egg"
    ],
-   "answer": "With ideal conditions it can hatch free of the evil that Gordunni ogre incantations bring."
+   "answer": "Under ideal conditions, an egg may hatch free of the evil brought by Gordunni ogre incantations."
   },
   {
    "q": "What came before this step?",
@@ -53,7 +53,7 @@
     "fine egg prerequisite",
     "previous quest fine egg"
    ],
-   "answer": "It follows The Super Egg-O-Matic."
+   "answer": "The Super Egg-O-Matic came before this step."
   }
  ],
  "angles": [],
@@ -73,5 +73,6 @@
  ],
  "attribution": [
   "A Fine Egg"
- ]
+ ],
+ "style": 2
 }

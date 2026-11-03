@@ -19,7 +19,7 @@
     "vaaniel lore",
     "peacekeeper vaaniel"
    ],
-   "answer": "Peacekeeper Vaaniel is the officer in charge of the peacekeepers holding the western watchtower. With cultists attacking the tower, you are sent to find him and tell him to bring his garrison back to the village as quickly as possible.",
+   "answer": "Peacekeeper Vaaniel commands the peacekeepers at the western watchtower. Cultists are attacking, and you are sent to find him and tell him to bring his garrison back to the village quickly.",
    "q": "Who is Peacekeeper Vaaniel?"
   },
   {
@@ -28,7 +28,7 @@
     "why leave watchtower",
     "western watch order"
    ],
-   "answer": "Local leadership recognized that holding the outlying western watchtower was costing too many lives against relentless cult assaults. The decision was made to withdraw the garrison so defenders could consolidate at the village and protect its civilian population.",
+   "answer": "Local leaders ordered the peacekeepers to leave because the cult assaults were costing too many lives. They want the defenders gathered at the village to protect its people.",
    "q": "Why were the peacekeepers ordered to abandon the watchtower?"
   },
   {
@@ -37,7 +37,7 @@
     "who killed vaaniel",
     "peacekeeper killed by what"
    ],
-   "answer": "Peacekeeper Vaaniel was slain by storm-wielding cult spellcasters. Fresh burn and scorch marks left across his body reveal that lightning and raw elemental magic were used to strike down the tower's defenders.",
+   "answer": "Storm-wielding cult spellcasters killed Peacekeeper Vaaniel. Lightning and elemental magic left burns and scorch marks on him and the tower's defenders.",
    "q": "What killed Peacekeeper Vaaniel?"
   },
   {
@@ -46,7 +46,7 @@
     "cult attack western tower",
     "what cult is this"
    ],
-   "answer": "The assault was mounted by a hostile cult employing destructive storm magic. Their exact motives for taking the watchtower remain unclear to local commanders, but their aggressive offensive posed an immediate danger to nearby settlements.",
+   "answer": "A hostile cult attacked the western watchtower with destructive storm magic. Local commanders do not know why the cult wants the tower, but the attack threatens nearby settlements.",
    "q": "Who attacked the western watchtower?"
   },
   {
@@ -54,7 +54,7 @@
     "where is the watchtower",
     "western watchtower location"
    ],
-   "answer": "The watchtower stands to the southwest of the local settlement. It serves as an outpost guarding the western approaches, though its isolated position made it vulnerable to coordinated cult assaults.",
+   "answer": "The western watchtower stands southwest of the local settlement, guarding the western approaches. Its isolation left it vulnerable to cult assaults.",
    "q": "Where is the western watchtower located?"
   },
   {
@@ -63,7 +63,7 @@
     "watchtower outcome",
     "did any peacekeepers survive"
    ],
-   "answer": "By the time runners arrived with orders to evacuate back to the settlement, the watchtower had already fallen. Peacekeeper Vaaniel and his outpost defenders were overwhelmed and killed by the cult's spellcasters shortly before aid could arrive.",
+   "answer": "The watchtower had fallen by the time runners arrived with orders to evacuate. Cult spellcasters killed Peacekeeper Vaaniel and the other defenders shortly before aid could reach them.",
    "q": "What happened to the garrison at the tower?"
   }
  ],
@@ -79,18 +79,19 @@
  "related": [],
  "sections": [
   {
-   "body": "The western watchtower stands southwest of the settlement as an outpost guarding the frontier. Facing renewed pressure from hostile cultists, local leaders judged the isolated structure too costly to defend. Rather than sacrifice more lives trying to maintain an exposed position, orders were drafted to recall the peacekeepers and concentrate all available military forces on shielding the village and its citizens.",
+   "body": "The western watchtower guards the frontier southwest of the settlement. Cultists have renewed their assault, and local leaders decide the isolated post costs too many lives to defend. So they prepare orders recalling the peacekeepers. They hope to spare more lives and gather every defender to protect the village and its people.",
    "spoiler": 0,
    "title": "A Costly Outpost"
   },
   {
-   "body": "Peacekeeper Vaaniel led the garrison assigned to hold the western watch against incoming threats. Unfortunately, the withdrawal directive arrived too late. By the time messengers reached the fortification, the cult's storm-wielding spellcasters had already overrun the tower, leaving Peacekeeper Vaaniel and his cohort dead amid scorched stone and lightning burns.",
+   "body": "Peacekeeper Vaaniel commanded the garrison at the western watch. The withdrawal order arrived too late. Storm-wielding cult spellcasters had overrun the tower before messengers reached it. Vaaniel and his garrison lay dead among scorched stone and lightning burns.",
    "spoiler": 1,
    "title": "Too Late to Retreat"
   }
  ],
- "summary": "The Western Watch is an urgent mission to recall Peacekeeper Vaaniel and the garrison from an isolated southwest outpost under siege by cultists. Recognizing that holding the fortification is not worth the lives it demands, local leadership seeks to pull defenders back to safeguard the main settlement.",
+ "summary": "At the outpost southwest of the settlement, cultists press the defenders, and local leaders call them back. They judge the tower too costly to hold and turn to protecting the village.",
  "attribution": [
   "In-game quest text: The Western Watch"
- ]
+ ],
+ "style": 2
 }

@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "Dun Morogh's mountaineers maintain vigilant patrols across snowy ridges and perilous caves, making reliable reconnaissance vital to keeping dwarven settlements safe."
+   "text": "As a dwarf, you rely on Dun Morogh's mountaineers to patrol snowy ridges and perilous caves. Their reports help keep dwarven settlements safe."
   },
   {
    "target": "faction:Alliance",
-   "text": "Assisting local dwarven patrols around Kharanos reinforces defensive coordination throughout the snowy heart of Khaz Modan."
+   "text": "As an Alliance member, you help local dwarven patrols around Kharanos coordinate defenses across the snowy heart of Khaz Modan."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "secure the mountain questgiver",
     "who starts secure the mountain"
    ],
-   "answer": "The quest is given by Senir Whitebeard in Kharanos, referred to by Mountaineer Gretchen as 'Ol' Whitebeard.' His duty involves compiling official reports on local wilderness threats and dispatching them to the dwarven leadership in Ironforge.",
+   "answer": "Senir Whitebeard gives the request in Kharanos. Mountaineer Gretchen calls him 'Ol' Whitebeard.' He gathers reports on wilderness threats and sends them to Ironforge's dwarven leaders.",
    "q": "Who gives the quest Secure the Mountain?"
   },
   {
@@ -37,7 +37,7 @@
     "mountaineer gretchen location",
     "find mountaineer gretchen"
    ],
-   "answer": "Mountaineer Gretchen is stationed just west of the town of Kharanos in Dun Morogh, watching over the local wendigo threat near the mountainsides and nearby caves.",
+   "answer": "Mountaineer Gretchen is just west of Kharanos in Dun Morogh. She is near the mountainsides and caves where wendigos threaten the area.",
    "q": "Where can Mountaineer Gretchen be found?"
   },
   {
@@ -46,7 +46,7 @@
     "why does whitebeard need help",
     "why check on gretchen"
    ],
-   "answer": "The questgiver is responsible for sending intelligence back to Ironforge, but the scout dispatched to investigate local wendigo activity failed to report back in time. Running behind schedule and avoiding dangerous cave exploration, he asks a passing adventurer to check in on Mountaineer Gretchen.",
+   "answer": "Senir Whitebeard sends intelligence to Ironforge, but a scout investigating the wendigos has not reported back on time. He is behind schedule and will not enter dangerous caves, so he asks you to check on Mountaineer Gretchen.",
    "q": "Why is the questgiver looking for Mountaineer Gretchen?"
   },
   {
@@ -55,7 +55,7 @@
     "what are wendigos doing",
     "why wendigo problem"
    ],
-   "answer": "Wendigos inhabit the rocky foothills and dark caves surrounding Kharanos. Their aggressive presence poses a direct threat to travelers and local outposts, prompting Ironforge scouts to monitor their movements closely.",
+   "answer": "Wendigos live in the rocky foothills and dark caves around Kharanos. Their aggression threatens travelers and local outposts, so Ironforge scouts watch their movements closely.",
    "q": "What wendigo problem is threatening the area?"
   },
   {
@@ -64,7 +64,7 @@
     "secure the mountain turn in",
     "gretchen report status"
    ],
-   "answer": "Upon reaching Mountaineer Gretchen west of town, she confirms receipt of Whitebeard's inquiries and grimly notes that the entire situation regarding the nearby wendigos has become a serious mess.",
+   "answer": "West of town, Mountaineer Gretchen confirms she received Whitebeard's inquiries. She says the nearby wendigos have made a serious mess of things.",
    "q": "What does Mountaineer Gretchen report upon arrival?"
   },
   {
@@ -73,7 +73,7 @@
     "ironforge mountaineer patrol",
     "what do mountaineers do"
    ],
-   "answer": "Mountaineers serve as the primary border guards, trackers, and scout forces of the Ironforge dwarves, surveying remote passes, dark caves, and snowy trails across Dun Morogh to protect towns like Kharanos.",
+   "answer": "Mountaineers guard borders, track threats, and scout for the Ironforge dwarves. They survey remote passes, dark caves, and snowy trails across Dun Morogh to protect towns like Kharanos.",
    "q": "What role do mountaineers play around Kharanos?"
   }
  ],
@@ -93,18 +93,19 @@
  ],
  "sections": [
   {
-   "body": "Tasked with compiling local military intelligence for the high seat of Ironforge, an official in Kharanos finds his routine correspondence interrupted. A mountaineer team sent to assess nearby wendigo activity has failed to return with updates. Rather than spelunking through icy caverns himself, the bureaucrat enlists capable travelers to venture just west of town and determine the scouts' status.",
+   "body": "Senir Whitebeard gathers military reports for Ironforge. A team of mountaineers went to study the wendigos nearby, but they have not returned with news. Whitebeard will not enter the icy caves himself. So he asks you to travel just west of town and learn what became of the scouts.",
    "spoiler": 0,
    "title": "An Overdue Report"
   },
   {
-   "body": "Upon tracking down Mountaineer Gretchen west of Kharanos, the quiet routine of regional surveillance gives way to alarm. Gretchen confirms that Whitebeard's inquiries reached her, but reveals that the wendigo disturbance in the surrounding mountain crags is far more volatile than initial dispatches suggested, setting the stage for deeper reconnaissance into the nearby wilds.",
+   "body": "West of Kharanos, Mountaineer Gretchen has received Senir Whitebeard's inquiries. She says the wendigos in the mountain crags are more volatile than the first reports claimed. The danger now calls for closer scouting in the nearby wilds.",
    "spoiler": 1,
    "title": "Trouble on the Western Ridge"
   }
  ],
- "summary": "Secure the Mountain is an Alliance quest originating in Kharanos, Dun Morogh. A local official compiling intelligence for Ironforge sends adventurers west of town to check on Mountaineer Gretchen after scouts investigating aggressive wendigos fail to report back.",
+ "summary": "Senir Whitebeard needs news from Mountaineer Gretchen, west of Kharanos. The scouts he sent to investigate aggressive wendigos have not reported back.",
  "attribution": [
   "In-game quest text: Secure the Mountain"
- ]
+ ],
+ "style": 2
 }

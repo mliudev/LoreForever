@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Den of Flame"
  },
- "summary": "The Den of Flame is a fortified cavern in western Dustwallow Marsh, situated just west of the Stonemaul Ruins. Originally constructed by the Stonemaul ogres as their mound, it has since been overrun by the dragonkin of the black dragonflight serving Onyxia.",
+ "summary": "Black dragonkin hold the Den of Flame in western Dustwallow Marsh, west of the Stonemaul Ruins. The Stonemaul ogres raised it as their mound, but Onyxia’s brood has driven them out.",
  "sections": [
   {
    "title": "A Conquered Mound",
-   "body": "Built by the Stonemaul ogres to serve as their main mound and sanctuary, the Den of Flame bears the unmistakable, rough-hewn stone architecture of ogre masonry. However, when the black dragonflight laid waste to the Stonemaul clan's settlement, the brood did not merely scatter the ogres\u2014they seized the stronghold for themselves. Today, black dragonspawn patrol the burning perimeter and cavern entrance under the shadow of Onyxia's nearby lair.",
+   "body": "Black dragonspawn patrol the burning edge of the Den of Flame and guard its cavern entrance. The Stonemaul ogres built the rough stone stronghold as their main mound and sanctuary. Then the black dragonflight laid waste to the clan’s settlement. The brood scattered the ogres and seized the mound, where dragonspawn now keep watch beneath the shadow of Onyxia’s nearby lair.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "den of flame origin",
     "ogre mound dustwallow"
    ],
-   "answer": "The structure was originally built by the Stonemaul ogres to serve as their clan's primary mound. Its stonework and layout mirror classic ogre clan architecture."
+   "answer": "The Stonemaul ogres built the Den of Flame as their clan’s main mound. Its stonework and layout follow ogre clan architecture."
   },
   {
    "q": "Why are black dragonkin infesting this mound?",
@@ -32,20 +32,20 @@
     "who lives in den of flame",
     "dragonspawn dustwallow"
    ],
-   "answer": "The great black dragon Onyxia established her lair in the marsh nearby. Her dragonkin drove the Stonemaul ogres out of their settlement and claimed the cavern as a forward outpost for the brood."
+   "answer": "Onyxia established her lair nearby in the marsh. Her dragonkin drove the Stonemaul ogres from their settlement and claimed the cavern as a forward outpost for the brood."
   },
   {
    "q": "Can the Stonemaul ogres reclaim the cave?",
    "aliases": [
     "reclaiming the den"
    ],
-   "answer": "Not for now. The surviving Stonemaul ogres have settled at Brackenwall Village alongside the Horde, while the black dragonspawn hold their old mound in force."
+   "answer": "Not for now. The surviving Stonemaul ogres have settled at Brackenwall Village alongside the Horde. Black dragonspawn hold their old mound in force."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The Stonemaul ogres are sworn allies of the Horde; clearing out the dragonkin in the Den of Flame helps avenge their fallen settlement."
+   "text": "The Stonemaul ogres are sworn allies of the Horde. Clearing dragonkin from the Den of Flame helps avenge their fallen settlement."
   }
  ],
  "keywords": [
@@ -64,5 +64,6 @@
  ],
  "attribution": [
   "Den of Flame"
- ]
+ ],
+ "style": 2
 }

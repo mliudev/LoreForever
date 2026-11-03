@@ -8,11 +8,11 @@
   "wiki": "Grunt Logmar",
   "refs": 2
  },
- "summary": "At Camp Taurajo, Grunt Logmar watches the southern Barrens frontier for the Horde. He tracks threats near the camp and seeks aid for missing scouts.",
+ "summary": "At Camp Taurajo, Grunt Logmar watches the Horde's southern Barrens frontier. He tracks nearby threats and seeks aid for scouts who have gone missing.",
  "sections": [
   {
    "title": "Duty at Camp Taurajo",
-   "body": "At Camp Taurajo, Grunt Logmar guards the Horde's southern Barrens frontier. The camp lies among the tauren, near hostile quilboar grounds and the mountain passes into Stonetalon and Mulgore. Logmar keeps watch over these dangers and coordinates scouting reports. When his comrades are ambushed or captured by local hostiles, he calls on capable Horde travelers to help find and aid them.",
+   "body": "At Camp Taurajo, Grunt Logmar guards the Horde's southern frontier in the Barrens. The camp lies among the tauren, near hostile quilboar grounds and mountain passes into Stonetalon and Mulgore. Logmar watches these dangers and gathers reports from scouts. When local hostiles ambush or capture his comrades, he calls on capable Horde travelers to find and aid them.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is logmar",
     "logmar barrens"
    ],
-   "answer": "Grunt Logmar is an orc soldier at Camp Taurajo in the southern Barrens. He guards the settlement for the Horde and oversees rescue and scouting efforts."
+   "answer": "At Camp Taurajo in the southern Barrens, Grunt Logmar guards the settlement for the Horde. He also directs scouting and rescue efforts."
   },
   {
    "q": "Where can Grunt Logmar be found?",
@@ -42,13 +42,13 @@
     "what does logmar want",
     "dogran rescue"
    ],
-   "answer": "Logmar oversees the safety of missing Horde scouts. He sends travelers to investigate the disappearance and captivity of fellow grunt Dogran and recover vital supplies such as Ken'zigla's draught."
+   "answer": "Logmar watches over missing Horde scouts. He sends travelers to investigate the disappearance and captivity of fellow grunt Dogran, and to recover vital supplies such as Ken'zigla's draught."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Logmar is a frontline Horde soldier supporting the tauren in the Barrens. He relies on Horde champions to aid fallen and captured scouts."
+   "text": "Logmar is a frontline Horde soldier who supports the tauren in the Barrens. He relies on Horde champions to aid fallen and captured scouts."
   },
   {
    "target": "race:Orc",
@@ -75,5 +75,5 @@
  "attribution": [
   "Grunt Logmar"
  ],
- "style": 1
+ "style": 2
 }

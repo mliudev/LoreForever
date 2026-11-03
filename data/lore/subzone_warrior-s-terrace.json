@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Warrior's Terrace"
  },
- "summary": "At Darnassus's eastern edge, Sentinels patrol the Warrior's Terrace and its fortified gate. The district houses battlemasters and warrior trainers, with open plazas for drills and duels overlooking the road into greater Teldrassil.",
+ "summary": "Sentinels guard the eastern gate at Warrior's Terrace, where drills and duels fill the plazas. The district is Darnassus's military heart, with battlemasters and warrior trainers overlooking the road into greater Teldrassil.",
  "sections": [
   {
    "title": "Shield of Darnassus",
-   "body": "Sentinels guard Darnassus at the Warrior's Terrace, also called the Hall of Justice. Mounted on nightsabers, they watch the high arched gates for travelers coming from the Teldrassil wilds. In the open-air plazas, aspiring combatants drill beside seasoned veterans on dueling grounds and target ranges. Weapon smiths and armorers meet practical military needs, while battlemasters coordinate night elf forces across the wider world.",
+   "body": "Sentinels guard Darnassus from the Warrior's Terrace, also called the Hall of Justice. Mounted on nightsabers, they watch the high arched gates for travelers from Teldrassil's wilds. In the open plazas, aspiring combatants drill beside seasoned veterans on dueling grounds and target ranges.\n\nWeapon smiths and armorers serve practical military needs. Battlemasters coordinate night elf forces across the wider world.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "warriors terrace purpose",
     "why warriors terrace"
    ],
-   "answer": "The Warrior's Terrace is Darnassus's military heart and its main defensive gateway. Martial trainers and battlemasters work there, combatants use the dueling grounds and target ranges, and Sentinels guard the eastern gate toward greater Teldrassil."
+   "answer": "The Warrior's Terrace is Darnassus's military heart and its main defensive gateway. Martial trainers and battlemasters work there, while combatants use the dueling grounds and target ranges. Sentinels guard the eastern gate toward greater Teldrassil."
   },
   {
    "q": "Where does the road through the eastern gate lead?",
@@ -56,7 +56,7 @@
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a warrior training in the night elf capital, you can find martial instructors, dueling areas, and battlemasters at the Warrior's Terrace."
+   "text": "As a warrior in the night elf capital, you can find martial instructors, dueling areas, and battlemasters at the Warrior's Terrace."
   },
   {
    "target": "profession:Blacksmithing",
@@ -85,5 +85,5 @@
  "attribution": [
   "Warrior's Terrace"
  ],
- "style": 1
+ "style": 2
 }

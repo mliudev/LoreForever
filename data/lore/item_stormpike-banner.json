@@ -10,11 +10,11 @@
    "quest:7162"
   ]
  },
- "summary": "Alliance recruits enter Icewing Cavern to earn the Stormpike Banner. The trial lies southwest of Dun Baldar in Alterac Valley, where harpies guard the standard.",
+ "summary": "In Alterac Valley, Alliance recruits brave harpies to claim the Stormpike Banner. The trial lies southwest of Dun Baldar in Icewing Cavern.",
  "sections": [
   {
    "title": "A Rite of Induction",
-   "body": "Lieutenant Haggerdin sends new Alliance soldiers into Icewing Cavern southwest of Dun Baldar. Before they face the Frostwolf orcs, recruits must brave the harpies, seize the Stormpike Banner, and bring it back alive. Those who return earn the rank and insignia of an initiate in the Stormpike Guard.",
+   "body": "Lieutenant Haggerdin sends new Alliance soldiers into Icewing Cavern, southwest of Dun Baldar. Before facing the Frostwolf orcs, each recruit must brave the harpies and seize the Stormpike Banner. Those who bring it back earn the rank and insignia of an initiate in the Stormpike Guard.",
    "spoiler": 0
   }
  ],
@@ -35,7 +35,7 @@
     "why get banner",
     "haggerdin quest"
    ],
-   "answer": "Lieutenant Haggerdin asks Alliance recruits to prove their courage before joining the battle lines. Bringing back the banner earns them their initial Stormpike Insignia."
+   "answer": "Lieutenant Haggerdin asks Alliance recruits to prove their courage before joining the battle lines. Bringing back the banner earns them their first Stormpike Insignia."
   },
   {
    "q": "What threats guard the banner inside the cave?",
@@ -43,7 +43,7 @@
     "monsters near banner",
     "icewing cavern enemies"
    ],
-   "answer": "Savage local harpies guard Icewing Cavern and attack trespassers seeking the banner."
+   "answer": "Savage local harpies guard Icewing Cavern and attack anyone who enters seeking the banner."
   },
   {
    "q": "Who do I return the banner to once found?",
@@ -83,5 +83,5 @@
   "Stormpike Banner",
   "Proving Grounds (Alterac Valley) (Alliance)"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Zenn's Bidding",
   "chain": []
  },
- "summary": "Zenn Foulhoof draws newcomers into his schemes north of the road from Shadowglen to Dolanaar. The solitary satyr asks them to gather animal parts, preying on their trust and naivety.",
+ "summary": "Zenn Foulhoof draws newcomers into his schemes north of the road from Shadowglen to Dolanaar. The solitary satyr asks them to gather animal parts, counting on their trust and inexperience.",
  "sections": [
   {
    "title": "A Dubious Bargain",
-   "body": "Travelers on the path from Shadowglen to Dolanaar may find Zenn Foulhoof beneath the Great Tree. The satyr offers material rewards and secrets for simple work, asking for nightsaber fangs, strigid owl feathers, and webwood spider silk from the surrounding woods. He whispers conspiratorially, urging travelers to keep their bargain between themselves.",
+   "body": "Travelers on the path from Shadowglen to Dolanaar may find Zenn Foulhoof beneath the Great Tree. He offers material rewards and secrets in return for simple work. From the surrounding woods, he asks for nightsaber fangs, strigid owl feathers, and webwood spider silk. Then he whispers that their bargain should stay between them.",
    "spoiler": 0
   },
   {
    "title": "The Satyr's Joke",
-   "body": "Satyrs have been ancient enemies of the kaldorei since demonic magic corrupted them during the War of the Ancients. Zenn’s presence on Teldrassil is an outrage. After the traveler completes his errand, Zenn laughs at their gullibility and offers no treasures or insights. He celebrates fooling a naive stranger into doing his dirty work.",
+   "body": "Satyrs have been ancient enemies of the kaldorei since demonic magic corrupted them during the War of the Ancients. Zenn's presence on Teldrassil is an outrage. Once you finish his errand, Zenn laughs at your gullibility and offers neither treasure nor insight. He delights in fooling a naive stranger into doing his dirty work.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "zenn foulhoof lore",
     "satyr questgiver"
    ],
-   "answer": "Zenn Foulhoof is a sly satyr beside the path west of Shadowglen, on the way to Dolanaar. He uses smooth talk and false promises to manipulate naive travelers into doing chores for him, rather than attacking openly."
+   "answer": "Zenn Foulhoof is a sly satyr beside the path west of Shadowglen, on the way to Dolanaar. He uses smooth talk and false promises to draw naive travelers into chores rather than attack them openly."
   },
   {
    "q": "Why is a satyr giving quests in Teldrassil?",
@@ -47,7 +47,7 @@
     "why can i talk to zenn",
     "satyr in teldrassil"
    ],
-   "answer": "Zenn acts harmless to dupe newcomers who do not yet understand the treacherous, corrupt nature of satyrs. He exploits their eagerness for work and silver to gather reagents without drawing the Sentinels’ ire by hunting openly himself."
+   "answer": "Zenn acts harmless to dupe newcomers who do not yet understand the treacherous, corrupt nature of satyrs. He exploits their eagerness for work and silver to gather reagents without drawing the Sentinels' ire by hunting openly himself."
   },
   {
    "q": "What does Zenn do with the fangs, feathers, and silk?",
@@ -56,7 +56,7 @@
     "zenn's reagents",
     "what are the animal parts for"
    ],
-   "answer": "Zenn claims the fangs, feathers, and silk are reagents for his mysterious business in the forest. He relishes his influence over mortals, using their labor for his corrupt ends while privately mocking their gullibility."
+   "answer": "Zenn claims the fangs, feathers, and silk are reagents for his mysterious business in the forest. He relishes his influence over mortals, using their labor for corrupt ends while privately mocking their gullibility."
   },
   {
    "q": "Why shouldn't night elves trust Zenn Foulhoof?",
@@ -65,7 +65,7 @@
     "night elf satyr history",
     "are satyrs evil"
    ],
-   "answer": "Satyrs were night elves transformed by the Burning Legion’s demonic power during the War of the Ancients. They are ancient enemies of the kaldorei and carriers of corruption, making any bargain with one dangerous and disgraceful."
+   "answer": "Satyrs were night elves transformed by the Burning Legion's demonic power during the War of the Ancients. They are ancient enemies of the kaldorei and carriers of corruption, making any bargain with one dangerous and disgraceful."
   },
   {
    "q": "What happens after completing Zenn's Bidding?",
@@ -74,7 +74,7 @@
     "seek redemption quest",
     "what next after zenn"
    ],
-   "answer": "After you hand over the items, Zenn openly mocks you for obeying a satyr. Adventurers realize they were deceived and feel the shame of aiding such a creature; they are then directed to seek redemption for their mistake."
+   "answer": "After you hand over the items, Zenn openly mocks you for obeying a satyr. Adventurers realize they were deceived and feel the shame of aiding such a creature. Then they are directed to seek redemption for their mistake."
   },
   {
    "q": "Where is Zenn Foulhoof located?",
@@ -89,11 +89,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For a young night elf, taking orders from a satyr is deeply shameful. Satyrs are ancestral traitors corrupted by the Burning Legion, and aiding one among Teldrassil’s boughs offends nature and kaldorei heritage."
+   "text": "For a young night elf, taking orders from a satyr brings deep shame. Satyrs are ancestral traitors corrupted by the Burning Legion, and aiding one among Teldrassil's boughs offends nature and kaldorei heritage."
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, you are pledged to preserve nature’s balance. Poaching nightsabers, owls, and spiders for a twisted creature of corruption affronts Cenarion teachings."
+   "text": "As a druid, you are pledged to preserve nature's balance. Poaching nightsabers, owls, and spiders for a twisted creature of corruption affronts Cenarion teachings."
   }
  ],
  "keywords": [
@@ -120,5 +120,5 @@
  "attribution": [
   "Zenn's Bidding"
  ],
- "style": 1
+ "style": 2
 }

@@ -8,16 +8,16 @@
   "wiki": "Pozzik",
   "refs": 3
  },
- "summary": "Pozzik is an esteemed goblin tinkerer and racer stationed at the Mirage Raceway on the Shimmering Flats in Thousand Needles. Once one of the most respected engineers in Undermine, he now dedicates his technical genius to constructing experimental rocket cars and settling the ultimate debate of engineering supremacy against his gnome counterpart.",
+ "summary": "At the Mirage Raceway, Pozzik tests goblin engineering against a gnome rival. Once among Undermine’s most respected engineers, he now builds experimental rocket cars on the Shimmering Flats in Thousand Needles.",
  "sections": [
   {
    "title": "A Master of Undermine",
-   "body": "Before retiring to the harsh salt flats of Thousand Needles, Pozzik built a legendary reputation among the goblins. As one of the most respected tinkerers out of Undermine, his technical expertise spans complex internal combustion, propulsion, and hazardous chassis construction. Rather than settling into comfortable obscurity, however, Pozzik took his mechanical mastery into the desert to push high-speed machinery far past its breaking point.",
+   "body": "Pozzik made his name among goblin tinkerers before settling in Thousand Needles. He was one of Undermine’s most respected engineers, mastering complex internal combustion, propulsion, and dangerous chassis construction. He left that reputation behind for the salt flats, where he pushes high-speed machines to their limits.",
    "spoiler": 0
   },
   {
    "title": "The Duel on the Salt Flats",
-   "body": "At the Mirage Raceway, Pozzik teamed up with his perennial gnome counterpart, Fizzle Brassbolts. Despite the historic rivalry between goblin explosives and delicate gnomish calibration, the two worked together to construct the sprawling racetrack across the dried lakebed. They field opposing racing outfits, testing prototype rocket cars to definitively prove whose racial design philosophy dominates the track. Naturally, Pozzik is always on the lookout for resourceful adventurers willing to acquire parts and shave weight off his designs.",
+   "body": "At the Mirage Raceway, Pozzik works with Fizzle Brassbolts, his longtime gnome counterpart. Goblin explosives and gnomish calibration have long stood as rivals, yet the two built a sprawling track across a dried lakebed. Now their racing outfits test prototype rocket cars to prove whose engineering rules the track. Pozzik seeks resourceful adventurers to find parts and lighten his designs.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "who is pozzik",
     "pozzik lore"
    ],
-   "answer": "Pozzik is a veteran goblin tinkerer formerly from Undermine, now leading one side of the rocket-racing competition at the Mirage Raceway in Thousand Needles."
+   "answer": "Pozzik is a veteran goblin engineer from Undermine who now leads one side of the rocket car competition at the Mirage Raceway in Thousand Needles."
   },
   {
    "q": "Why is Pozzik out in Thousand Needles?",
@@ -37,7 +37,7 @@
     "why is pozzik here",
     "pozzik shimmering flats"
    ],
-   "answer": "After retiring from formal work in Undermine, Pozzik came to the Shimmering Flats to build and race experimental rocket cars across the vast, uninterrupted salt flats."
+   "answer": "Pozzik left formal work in Undermine and came to the Shimmering Flats to build and race experimental rocket cars across the salt flats."
   },
   {
    "q": "What is his relationship with Fizzle Brassbolts?",
@@ -45,7 +45,7 @@
     "pozzik and fizzle",
     "pozzik gnome rival"
    ],
-   "answer": "Fizzle Brassbolts is Pozzik's longstanding gnomish rival and racetrack co-founder. Though they work side-by-side maintaining the Mirage Raceway, they constantly compete to prove goblin engineering is superior to gnomish craftsmanship."
+   "answer": "Fizzle Brassbolts is Pozzik’s longtime gnomish rival and co-founder of the Mirage Raceway. They maintain the track together and compete to prove goblin engineering superior to gnomish craftsmanship."
   },
   {
    "q": "Does Pozzik work for the Horde or the Alliance?",
@@ -53,7 +53,7 @@
     "is pozzik neutral",
     "pozzik faction"
    ],
-   "answer": "Pozzik is entirely neutral, working as an independent goblin entrepreneur at the raceway. He is willing to do business and offer tasks to both Alliance and Horde travelers."
+   "answer": "Pozzik works independently at the raceway and does business with both Alliance and Horde travelers."
   },
   {
    "q": "What kind of projects is Pozzik working on right now?",
@@ -61,17 +61,17 @@
     "pozzik quests",
     "what does pozzik build"
    ],
-   "answer": "Pozzik is obsessed with squeezing more speed out of his rocket cars. He develops multi-engine racing chassis, gathers rare lightweight ores, and sends explorers out for salvaged parts and components."
+   "answer": "Pozzik works to make his rocket cars faster. He develops multi-engine racing chassis, gathers rare lightweight ores, and sends explorers to recover salvaged parts and components."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "For engineers of either persuasion\u2014goblin or gnomish\u2014Pozzik represents the absolute pinnacle of high-risk, high-velocity applied mechanics."
+   "text": "For goblin and gnomish engineers, Pozzik shows how far high-risk, high-speed mechanics can go."
   },
   {
    "target": "race:Gnome",
-   "text": "Gnomes visiting the track will find in Pozzik their favorite foil: a boisterous goblin engineer convinced that brute thrust outmatches delicate precision."
+   "text": "At the track, gnomes meet their favorite foil in Pozzik, a loud goblin engineer who believes brute thrust beats careful precision."
   }
  ],
  "keywords": [
@@ -94,5 +94,6 @@
  ],
  "attribution": [
   "Pozzik"
- ]
+ ],
+ "style": 2
 }

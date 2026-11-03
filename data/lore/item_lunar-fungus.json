@@ -10,16 +10,16 @@
    "quest:6123"
   ]
  },
- "summary": "Lunar Fungus grows in Darkshore's caves, where druids gather it for healing. Mixed with Earthroot and water, it helps make a salve for sick deer.",
+ "summary": "In Darkshore's caves, druids gather Lunar Fungus to help heal sick deer. Mixed with Earthroot and water, it strengthens a healing salve.",
  "sections": [
   {
    "title": "Properties and Ecology",
-   "body": "Lunar Fungus grows from Lunar Fungal Blooms in Darkshore's underground caverns. The Cenarion Circle values its amplifying effects. Mixed with soothing water and common Earthroot, it lends potency to a salve that counters debilitating afflictions. Damp caves where it grows are also frequented by territorial moonkin, so gathering it means navigating carefully.",
+   "body": "Lunar Fungus grows from Lunar Fungal Blooms in Darkshore's underground caverns. The Cenarion Circle values its power to strengthen remedies. Mixed with soothing water and common Earthroot, it lends strength to a salve that counters debilitating afflictions. Territorial moonkin frequent the damp caves, so gathering the fungus takes care.",
    "spoiler": 0
   },
   {
    "title": "A Lesson in Healing",
-   "body": "In Auberdine, Alanndarian Nightsong has young druids gather Lunar Fungus as part of their studies in nature's healing arts. They see how physical ingredients such as this fungus can counter poisons in local deer. By learning how herbal remedies work, initiates prepare to channel natural antidotes through shapeshifting and spiritual power.",
+   "body": "In Auberdine, Alanndarian Nightsong has young druids gather Lunar Fungus as they study nature's healing arts. They learn how physical ingredients such as the fungus can counter poisons in local deer. By studying herbal remedies, initiates prepare to channel natural antidotes through shapeshifting and spiritual power.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what does lunar fungus do",
     "why collect lunar fungus"
    ],
-   "answer": "Lunar Fungus adds curative potency to a restorative salve. Alanndarian Nightsong mixes it with Earthroot and clean water to treat sick deer in Darkshore."
+   "answer": "Lunar Fungus strengthens a healing salve. Alanndarian Nightsong mixes it with Earthroot and clean water to treat sick deer in Darkshore."
   },
   {
    "q": "Where does Lunar Fungus grow?",
@@ -48,7 +48,7 @@
     "who needs lunar fungus",
     "auberdine herbal quest"
    ],
-   "answer": "Alanndarian Nightsong asks students of the wild to gather Lunar Fungus as part of their training. The fungus is used to make remedies for ailing forest animals."
+   "answer": "Alanndarian Nightsong asks students of the wild to gather Lunar Fungus as part of their training. The fungus goes into remedies for ailing forest animals."
   },
   {
    "q": "Why do druid initiates have to gather physical herbs to cure poison?",
@@ -56,7 +56,7 @@
     "why druids gather herbs",
     "druid poison cure training"
    ],
-   "answer": "Learning how physical antidotes work is a fundamental part of druidic education. Gathering reagents such as Lunar Fungus and seeing how ingredients counter toxins teaches students the principles of healing before they learn to purge poison through spiritual magic."
+   "answer": "Learning how physical antidotes work is a fundamental part of druidic education. Gathering herbs such as Lunar Fungus and seeing how they counter toxins teaches students the principles of healing before they learn to purge poison through spiritual magic."
   }
  ],
  "angles": [
@@ -66,7 +66,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you help tend the corrupted woodland creatures around Auberdine with native remedies such as Lunar Fungus."
+   "text": "As a night elf, you help tend corrupted woodland creatures around Auberdine with native remedies such as Lunar Fungus."
   }
  ],
  "keywords": [
@@ -91,5 +91,5 @@
   "Lunar Fungus",
   "Gathering the Cure (Alliance)"
  ],
- "style": 1
+ "style": 2
 }

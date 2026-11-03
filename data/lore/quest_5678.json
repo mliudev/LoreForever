@@ -17,16 +17,16 @@
   "wiki": "Arcane Feedback (Darnassus)",
   "chain": []
  },
- "summary": "In Darnassus, Arcane Feedback sends human priests back to Stormwind. Priestess Alathea at the Temple of the Moon reluctantly honors the Alliance summons. There, High Priestess Laurena prepares the acolyte for deeper instruction.",
+ "summary": "Human priests are being called from Darnassus to Stormwind. At the Temple of the Moon, Priestess Alathea reluctantly honors the Alliance summons. High Priestess Laurena waits at the Cathedral of Light to prepare the acolyte for deeper instruction.",
  "sections": [
   {
    "title": "A Reluctant Summons",
-   "body": "Priestess Alathea oversees visiting priests in the Temple of the Moon in Darnassus. She recognizes the formal alliance between the kaldorei and Stormwind, yet distrusts human magical and spiritual practices. Night elves see arcane power as volatile and dangerous, a view shaped by ten millennia of grief since the War of the Ancients. Even human divine rites trouble the night elf clergy when they blur radiant faith with arcane workings.",
+   "body": "Priestess Alathea oversees visiting priests at Darnassus's Temple of the Moon. She honors the formal alliance between the kaldorei and Stormwind, yet distrusts human ways of magic and faith. For ten millennia, grief from the War of the Ancients has shaped the night elves' fear of arcane power. Even human divine rites trouble the clergy when radiant faith blurs with arcane workings.",
    "spoiler": 0
   },
   {
    "title": "Return to the Cathedral",
-   "body": "Alathea honors the bond between the Alliance races and sends you to answer a recall from the Cathedral of Light. High Priestess Laurena has sent couriers across the seas to gather human priests for advanced training. In Stormwind, you leave Elune's moonlit groves behind for the grand stone sanctuaries and golden radiance of the Holy Light.",
+   "body": "Alathea honors the bond between the Alliance races and sends you to answer a recall from the Cathedral of Light. High Priestess Laurena has sent couriers across the seas to gather human priests for advanced training. In Stormwind, you leave Elune's moonlit groves for grand stone sanctuaries and the golden radiance of the Holy Light.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "why return to stormwind",
     "alathea arcane feedback"
    ],
-   "answer": "Priestess Alathea sends you home at the request of your superiors in Stormwind, though human theology also makes her uneasy. She distrusts arcane magic, even when tied to divine practice, and is glad to send human acolytes back to their own cathedrals."
+   "answer": "Priestess Alathea sends you home at the request of your Stormwind superiors, though human theology also troubles her. She distrusts arcane magic even when it touches divine practice, and gladly sends human acolytes back to their own cathedrals."
   },
   {
    "q": "Why do night elves distrust human priestly magic?",
@@ -47,7 +47,7 @@
     "night elf arcane distrust",
     "elune vs holy light"
    ],
-   "answer": "Night elves distrust human priestly magic because their culture bears the grief of the Sundering, caused by reckless arcane spellcraft ten thousand years ago. Kaldorei worship centers on Elune, and its priestesses mistrust traditions that border on or use arcane power, even among allies who follow the Holy Light."
+   "answer": "Night elves distrust human priestly magic because their culture carries grief from the Sundering, caused by reckless arcane spellcraft ten thousand years ago. Kaldorei worship centers on Elune. Her priestesses mistrust traditions that border on or use arcane power, even among allies who follow the Holy Light."
   },
   {
    "q": "Who is High Priestess Laurena?",
@@ -63,17 +63,17 @@
     "what comes after arcane feedback",
     "arcane feedback reward lore"
    ],
-   "answer": "Reporting to High Priestess Laurena begins your advanced training as a human priest in Stormwind, where you learn the discipline and blessings of human adherents of the Holy Light."
+   "answer": "Reporting to High Priestess Laurena begins your advanced training as a human priest in Stormwind. There you learn the discipline and blessings of human adherents of the Holy Light."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "As a priest, your return marks a threshold in your spiritual path and reveals the sharp divide between Elune's sisterhood and the teachings of the Holy Light."
+   "text": "As a priest, your return marks a threshold in your spiritual path. You see the sharp divide between Elune's sisterhood and the teachings of the Holy Light."
   },
   {
    "target": "race:Human",
-   "text": "As a human, you return to Stormwind, home of the Church of the Holy Light, after leaving the cloistered, skeptical kaldorei priesthood."
+   "text": "As a human, you return to Stormwind, home of the Church of the Holy Light. You leave behind the cloistered and skeptical kaldorei priesthood."
   },
   {
    "target": "race:NightElf",
@@ -100,5 +100,5 @@
  "attribution": [
   "Arcane Feedback (Darnassus)"
  ],
- "style": 1
+ "style": 2
 }

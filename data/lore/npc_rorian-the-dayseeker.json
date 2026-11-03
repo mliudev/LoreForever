@@ -8,16 +8,16 @@
   "wiki": "Rorian the Dayseeker",
   "refs": 12
  },
- "summary": "Rorian the Dayseeker is an elder Skyborne figure situated in Thendal Village on Zephras Isle. He oversees the initiation of young fledglings as they discover their calling, step into maturity, and attune themselves to the natural elements of their homeland. Under his watchful guidance, newcomers learn the fundamentals of survival, tradition, and service to their community.",
+ "summary": "In Thendal Village, young Skyborne look to Rorian the Dayseeker as they approach adulthood. He teaches them to survive, honor tradition, and serve their island home.",
  "sections": [
   {
    "title": "Elder of Thendal Village",
-   "body": "Within the serene confines of Thendal Village on Zephras Isle, Rorian the Dayseeker stands as one of the primary mentors for the fledgling Skyborne. Revered for his experience and calm wisdom, Rorian directs youth during their crucial transition into adulthood. It is under his instruction that initiates undertake their traditional rite of passage, marking their readiness to defend and support their island home.",
+   "body": "In Thendal Village on Zephras Isle, Rorian the Dayseeker guides young Skyborne through the passage into adulthood. Under his calm instruction, fledglings face a traditional rite that marks their readiness to defend and support their island home.",
    "spoiler": 0
   },
   {
    "title": "Guiding the New Callings",
-   "body": "Beyond fundamental trials, Rorian points promising initiates toward specialized paths suited to their talents. Whether an aspiring warrior, hunter, rogue, mage, shaman, or druid, fledglings are directed by Rorian to dedicated trainers across the isle. He also alerts them to elemental disturbances disrupting the island's harmony, instilling an enduring duty to preserve balance across the windswept heights.",
+   "body": "Rorian also directs promising fledglings toward callings suited to their talents. Aspiring warriors, hunters, rogues, mages, shamans, and druids find trainers across the isle through his guidance. When elemental disturbances trouble the island, he alerts them and teaches them to preserve its balance.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "rorian role",
     "what does rorian do"
    ],
-   "answer": "Rorian the Dayseeker is an elder Skyborne leader found in Thendal Village on Zephras Isle. He serves as the primary mentor for novice adventurers and fledgling Skyborne embarking on their early trials."
+   "answer": "Rorian the Dayseeker is an elder Skyborne leader in Thendal Village on Zephras Isle. He guides young Skyborne through their early trials."
   },
   {
    "q": "Where can Rorian the Dayseeker be found?",
@@ -38,7 +38,7 @@
     "rorian location",
     "find rorian"
    ],
-   "answer": "He is located in Thendal Village, the starting settlement for the Skyborne on Zephras Isle."
+   "answer": "Rorian is in Thendal Village, the Skyborne starting settlement on Zephras Isle."
   },
   {
    "q": "What is Rorian's role in the Skyborne coming of age?",
@@ -46,7 +46,7 @@
     "rorian coming of age",
     "skyborne trial mentor"
    ],
-   "answer": "Rorian oversees the initial rites of passage that mark a fledgling's transition into adulthood. He tests their mettle and attunement to island life before directing them outward to serve the wider settlement."
+   "answer": "Rorian guides fledglings through rites of passage into adulthood. He tests their mettle and attunement to island life, then sends them to serve the wider settlement."
   },
   {
    "q": "How does Rorian direct new trainees into their classes?",
@@ -54,7 +54,7 @@
     "class quests rorian",
     "choosing a class with rorian"
    ],
-   "answer": "Once a novice proves their worth, Rorian advises them on where to pursue advanced training, offering guidance toward the paths of the warrior, hunter, rogue, mage, shaman, or druid."
+   "answer": "Once a novice proves their worth, Rorian points them toward advanced training as a warrior, hunter, rogue, mage, shaman, or druid."
   },
   {
    "q": "Why does Rorian send adventurers to deal with elementals?",
@@ -62,7 +62,7 @@
     "elemental unrest rorian",
     "why fight elementals zephras"
    ],
-   "answer": "The natural balance around Zephras Isle is vulnerable to agitation. Rorian tasks capable initiates with investigating and calming elemental unrest so that Thendal Village and the surrounding wildlands remain in harmony."
+   "answer": "Rorian sends capable initiates to investigate and calm elemental unrest. Their efforts help preserve harmony in Thendal Village and the surrounding wildlands."
   },
   {
    "q": "Who is Aetheen of the Gales?",
@@ -70,25 +70,25 @@
     "aetheen rorian",
     "aetheen of the gales"
    ],
-   "answer": "Aetheen of the Gales is an individual on Zephras Isle to whom Rorian directs fledglings as they progress through their island responsibilities and training."
+   "answer": "Aetheen of the Gales is on Zephras Isle. Rorian directs fledglings to them as they progress through their island responsibilities and training."
   }
  ],
  "angles": [
   {
    "target": "race:Skyborne",
-   "text": "For every fledgling Skyborne, Rorian the Dayseeker represents the first threshold of duty and tradition, guiding your transition into adulthood in Thendal Village."
+   "text": "As a fledgling Skyborne, you meet Rorian the Dayseeker at the first threshold of duty and tradition. He guides your passage into adulthood in Thendal Village."
   },
   {
    "target": "class:Warrior",
-   "text": "Rorian recognizes the physical dedication of aspiring fighters, pointing aspiring warriors toward the mentors who teach discipline on the battlefield."
+   "text": "Rorian sees your dedication as an aspiring warrior and points you toward mentors who teach battlefield discipline."
   },
   {
    "target": "class:Mage",
-   "text": "Novice arcanists find an understanding guide in Rorian, who directs budding scholars of the arcane toward teachers capable of honing raw magical potential."
+   "text": "As a novice arcanist, you find an understanding guide in Rorian. He directs you toward teachers who can hone your magical potential."
   },
   {
    "target": "class:Shaman",
-   "text": "Rorian places heavy emphasis on the island's harmony, dispatching fledglings to soothe agitated elementals and connect with ancestral traditions."
+   "text": "Rorian stresses the island's harmony and sends you to soothe agitated elementals and connect with ancestral traditions."
   }
  ],
  "keywords": [
@@ -112,5 +112,6 @@
  ],
  "attribution": [
   "Rorian the Dayseeker"
- ]
+ ],
+ "style": 2
 }

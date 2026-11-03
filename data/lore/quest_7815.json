@@ -15,11 +15,11 @@
   "previous": "",
   "next": ""
  },
- "summary": "In the Hinterlands, Katoom the Angler of Revantusk Village can barely keep a line in the water because saltwater snapjaws keep wrecking it and stealing his bait. He wants fifteen of the turtles dead.",
+ "summary": "In Revantusk Village, Katoom the Angler asks you to deal with saltwater snapjaws ruining his fishing. He wants fifteen turtles killed.",
  "sections": [
   {
    "title": "Trouble on the Line",
-   "body": "Katoom urges you not to be taken in by the snapjaws' large eyes and calls the turtles a menace. By his account, he cannot fish for even five minutes before one of them tears his line and makes off with his bait. He asks you, as a favor to himself and to his neighbours in the village, to wipe out the whole lot; the count is fifteen.",
+   "body": "Katoom the Angler asks you to help him and his neighbours in Revantusk Village. Saltwater snapjaws may look harmless, but they make fishing hard. One tears his line and steals his bait before he can fish for five minutes. Katoom wants you to kill fifteen of the turtles.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "snapjaws mon quest giver",
     "katoom the angler"
    ],
-   "answer": "Katoom the Angler, a fisher of Revantusk in the Hinterlands."
+   "answer": "Katoom the Angler, a fisher in Revantusk Village in the Hinterlands, asks you to hunt the turtles."
   },
   {
    "q": "Why does Katoom want the saltwater snapjaws killed?",
@@ -40,7 +40,7 @@
     "turtle nuisance",
     "why kill turtles revantusk"
    ],
-   "answer": "Katoom says they break his fishing line and steal his bait, so he cannot fish for even five minutes in peace."
+   "answer": "Katoom says the saltwater snapjaws tear his fishing line and steal his bait. He can scarcely fish for five minutes before one interrupts him."
   },
   {
    "q": "How many snapjaws need to be slain?",
@@ -49,7 +49,7 @@
     "snapjaw count",
     "snapjaws mon count"
    ],
-   "answer": "Fifteen saltwater snapjaw turtles."
+   "answer": "You need to kill fifteen saltwater snapjaw turtles."
   }
  ],
  "angles": [],
@@ -68,5 +68,6 @@
  ],
  "attribution": [
   "Classic quest text: Snapjaws, Mon!"
- ]
+ ],
+ "style": 2
 }

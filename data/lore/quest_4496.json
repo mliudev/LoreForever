@@ -24,16 +24,16 @@
    "Rise of the Silithid"
   ]
  },
- "summary": "Alchemist Pestlezugg in Gadgetzan has studied the silithid and likens them to bees, with the queen as the weak point. A lure must draw her out, and it calls for a scent gland and soil from Un'Goro Crater, to the west.",
+ "summary": "In Gadgetzan, Alchemist Pestlezugg studies the silithid and likens them to bees. He believes their queen is the weak point, and needs scent and soil from Un'Goro Crater to the west.",
  "sections": [
   {
    "title": "A Lure for the Queen",
-   "body": "Pestlezugg's research compares the silithid to bees. Destroy the hive's queen, and the rest should be thrown into disarray. A lure will be brewed to bring the queen out, and once she is summoned, you are the one to take her down.",
+   "body": "Alchemist Pestlezugg likens the silithid to bees. He believes that if their queen is destroyed, the rest will fall into disarray. A lure can draw her out. You are to bring her down when she appears.",
    "spoiler": 0
   },
   {
    "title": "Reagents from Un'Goro",
-   "body": "Before the lure can be brewed, Pestlezugg needs reagents. The silithid hive lies west in Un'Goro Crater, and a scent gland must come from one of the bugs there. The gland cannot be damaged. Pestlezugg also needs five samples of the native Un'Goro soil.",
+   "body": "To make the lure, Pestlezugg needs reagents from Un'Goro Crater. The silithid hive lies west of Gadgetzan. He asks you to bring an undamaged scent gland from one of the bugs and five samples of the native soil.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "where is pestlezugg",
     "bungle in the jungle questgiver"
    ],
-   "answer": "Alchemist Pestlezugg, in Gadgetzan."
+   "answer": "Alchemist Pestlezugg asks for them in Gadgetzan."
   },
   {
    "q": "What does Pestlezugg need for the lure?",
@@ -54,7 +54,7 @@
     "what reagents does pestlezugg need",
     "scent gland and soil"
    ],
-   "answer": "One undamaged Gorishi scent gland, taken from one of the silithid bugs, and five samples of the native Un'Goro soil."
+   "answer": "Pestlezugg needs one undamaged Gorishi scent gland from a silithid bug and five samples of native Un'Goro soil."
   },
   {
    "q": "Where is the silithid hive?",
@@ -63,7 +63,7 @@
     "where is the silithid hive",
     "where is un'goro soil found"
    ],
-   "answer": "In Un'Goro Crater, to the west of Gadgetzan."
+   "answer": "The silithid hive is in Un'Goro Crater, west of Gadgetzan."
   },
   {
    "q": "Why does Pestlezugg want to bring out the hive queen?",
@@ -72,7 +72,7 @@
     "pestlezugg plan",
     "silithid bee theory"
    ],
-   "answer": "Pestlezugg's research compares the silithid to bees, so with their queen gone the rest should fall into disarray."
+   "answer": "Pestlezugg likens the silithid to bees and believes that without their queen, the rest will fall into disarray."
   }
  ],
  "angles": [],
@@ -94,5 +94,6 @@
  ],
  "attribution": [
   "Bungle in the Jungle"
- ]
+ ],
+ "style": 2
 }

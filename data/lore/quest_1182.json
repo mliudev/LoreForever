@@ -27,16 +27,16 @@
    "Goblin Sponsorship"
   ]
  },
- "summary": "Baron Revilgaz tells you the Venture Company shredders at Lake Nazferiti in northern Stranglethorn have a new model fuel regulator that Pozzik could use. Foreman Cozzle has proven cleverer than the Baron expected, so Revilgaz sends you to find the blueprints.",
+ "summary": "Baron Revilgaz is seeking the Venture Company’s new fuel regulator plans for Pozzik at Lake Nazferiti. Foreman Cozzle has outsmarted him, so the Baron sends you after the blueprints.",
  "sections": [
   {
    "title": "The Foreman's Blueprints",
-   "body": "Baron Revilgaz explains that the Venture Company's shredders at Lake Nazferiti, in northern Stranglethorn, carry a new model of fuel regulator. Pozzik could take advantage of it if he had the details, but Cozzle, the foreman there, is cleverer than Revilgaz gave him credit for. You might have better luck. Revilgaz knows the blueprints are kept in Cozzle's house, almost certainly under lock and key. The Venture Company is based around Lake Nazferiti, in the vale's north-eastern corner. The key is with Foreman Cozzle in the cabin atop the oil tower, and the box holding the blueprints is in the small house near the tower's base. Revilgaz admits the gnome team out there is pretty good, and says the team needs every advantage it can find.",
+   "body": "Baron Revilgaz says the Venture Company’s shredders at Lake Nazferiti in northern Stranglethorn carry a new model of fuel regulator. Pozzik could use its details, but Foreman Cozzle has proved cleverer than the Baron expected. So Revilgaz believes you may have better luck finding the plans.\n\nThe blueprints are kept in Cozzle’s house, almost certainly under lock and key. The Venture Company’s base lies around Lake Nazferiti, in the vale’s north-eastern corner. Cozzle keeps the key in his cabin atop the oil tower. The box of blueprints is in the small house near the tower’s base. Revilgaz admits the gnome team there is good, and his team needs every advantage it can find.",
    "spoiler": 0
   },
   {
    "title": "A Copy for the Baron",
-   "body": "With the blueprints in hand, Revilgaz wants a copy for his own notes, and then sends you on to Pozzik, so Pozzik does not think one of his sponsors has abandoned him.",
+   "body": "Revilgaz wants a copy of the blueprints for his own notes. Then he sends you to Pozzik, so the goblin does not think one of his sponsors has abandoned him.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "why fuel regulator",
     "revilgaz motive"
    ],
-   "answer": "The Venture Company's shredders at Lake Nazferiti have a new model fuel regulator, and Revilgaz thinks Pozzik could take advantage of it if he had the details."
+   "answer": "The Venture Company’s shredders at Lake Nazferiti carry a new model of fuel regulator. Revilgaz believes Pozzik could use the details."
   },
   {
    "q": "Where are the blueprints kept?",
@@ -57,7 +57,7 @@
     "fuel regulator blueprints location",
     "cozzle house"
    ],
-   "answer": "In a box inside a small house at the foot of the oil tower, at the Venture Company's base at Lake Nazferiti, in northern Stranglethorn."
+   "answer": "The blueprints are in a box inside a small house at the foot of the oil tower, at the Venture Company’s base by Lake Nazferiti in northern Stranglethorn."
   },
   {
    "q": "Who holds the key?",
@@ -66,7 +66,7 @@
     "where is key",
     "how to open chest"
    ],
-   "answer": "Foreman Cozzle carries it, and works in the cabin atop the oil tower."
+   "answer": "Foreman Cozzle carries the key and works in the cabin atop the oil tower."
   },
   {
    "q": "Where does this step fit in the chain?",
@@ -75,13 +75,13 @@
     "what quest is next",
     "goblin sponsorship chain"
    ],
-   "answer": "It follows Goblin Sponsorship (3), in which Wharfmaster Lozgil sent you to the Baron. The next step is Goblin Sponsorship (5)."
+   "answer": "Wharfmaster Lozgil sent you to Baron Revilgaz in the previous step, Goblin Sponsorship number three. Goblin Sponsorship number five comes next."
   }
  ],
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "A Rogue can pick the lock on the box holding the blueprints without needing the foreman's key."
+   "text": "As a Rogue, you can pick the lock on the blueprints box without Cozzle’s key."
   }
  ],
  "keywords": [
@@ -109,5 +109,6 @@
  ],
  "attribution": [
   "Goblin Sponsorship (4)"
- ]
+ ],
+ "style": 2
 }

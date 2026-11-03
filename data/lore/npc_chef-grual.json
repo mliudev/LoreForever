@@ -12,12 +12,12 @@
  "sections": [
   {
    "title": "Cooking Under Siege",
-   "body": "Darkshire's cook works with scarce supplies. Highwaymen, wolves, and undead harass the roads from Westfall and Stormwind, leaving fresh provisions hard to find. Grual makes do with what the wilderness offers. He cooks wolf flank and meat scavenged by local adventurers, using whatever reaches his kitchen.",
+   "body": "Darkshire's cook works with scarce supplies. Highwaymen, wolves, and undead trouble the roads from Westfall and Stormwind, so fresh provisions are hard to find. Grual makes do with what the wilderness offers. He cooks wolf flank and meat scavenged by local adventurers, using whatever reaches his kitchen.",
    "spoiler": 0
   },
   {
    "title": "Secret Ingredients",
-   "body": "Chef Grual is known for Dusky Crab Cakes and seasoned wolf kabobs. Duskwood lies far from the coast, so his crab cakes contain gooey legs from the local Venom Web Spiders. Whether patrons know what they are eating or prefer not to ask, Grual keeps the kitchen running without apology.",
+   "body": "Chef Grual is known for Dusky Crab Cakes and seasoned wolf kabobs. Duskwood lies far from the coast, so he makes his crab cakes with gooey legs from the local Venom Web Spiders. Whether patrons know what they are eating or prefer not to ask, Grual keeps the kitchen working without apology.",
    "spoiler": 1
   }
  ],
@@ -111,5 +111,5 @@
  "attribution": [
   "Chef Grual"
  ],
- "style": 1
+ "style": 2
 }

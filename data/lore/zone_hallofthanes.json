@@ -17,21 +17,21 @@
    "Durgen Dirgehammer"
   ]
  },
- "summary": "Deep beneath the bustling city of Ironforge lies the Hall of Thanes, an ancient subterranean complex steeped in dwarven history. Intended for early Alliance adventurers, this secluded dungeon holds relics of the mountain kingdom's past that have fallen into peril. Gaining entry requires unearthing forgotten routes through the mountain itself.",
+ "summary": "Alliance defenders now seek a way into the Hall of Thanes, deep beneath Ironforge. Its old vaults hold dwarven relics, and danger has reached those depths.",
  "sections": [
   {
    "title": "Secrets Beneath the Mountain",
-   "body": "While Ironforge hums with the ringing of hammers in the Great Forge, forgotten halls delve far deeper beneath the stone. The Hall of Thanes represents one of these venerable subterranean reaches. Long tied to ancestral dwarven bloodlines and relics of stonecraft, it now requires intrepid Alliance champions to venture into its shadowed vaults to secure the depths.",
+   "body": "Hammers ring in Ironforge's Great Forge, but forgotten halls run deeper beneath the stone. The Hall of Thanes lies in those ancient reaches, tied to dwarven bloodlines and relics of stonecraft. Now Alliance champions must enter its shadowed vaults and guard the depths.",
    "spoiler": 0
   },
   {
    "title": "Uncovering the Path",
-   "body": "Accessing the Hall of Thanes is no casual feat. The corridors leading to these ancient vaults have been sealed away or hidden from everyday travelers in Ironforge. Adventurers must decipher forgotten charting, beginning with recovering an Underground Map, before they can navigate the deeper tunnels and breach the threshold of the dungeon.",
+   "body": "The route into the Hall of Thanes is hidden from Ironforge's everyday travelers. Its corridors have been sealed or concealed. To find a way through, recover an Underground Map and use forgotten charts to navigate the deeper tunnels to the entrance.",
    "spoiler": 0
   },
   {
    "title": "The Threat of Dirgehammer",
-   "body": "Within the heart of the complex lies a formidable assembly of threats, from enchanted guardians like Plunder and the fiery brute Magmatus to rogue figures of ancient dwarven lineage such as Faldrim Anvilmar. Presiding over the inner sanctuary is Durgen Dirgehammer, whose defeat finally quells the growing unrest simmering beneath the city floor and secures the sacred dwarven halls from subversion.",
+   "body": "Durgen Dirgehammer commands the inner sanctuary of the Hall of Thanes. Plunder, an enchanted guardian, and the fiery brute Magmatus threaten its halls. Faldrim Anvilmar comes from an ancient dwarven lineage. Defeating Durgen ends the unrest beneath the city and protects the sacred halls from subversion.",
    "spoiler": 1
   }
  ],
@@ -43,7 +43,7 @@
     "where is hall of thanes",
     "ironforge dungeon location"
    ],
-   "answer": "The Hall of Thanes is located beneath the dwarven capital of Ironforge. It is tucked away in the mountain's deeper, restricted subterranean sectors rather than the main city thoroughfares."
+   "answer": "The Hall of Thanes lies beneath Ironforge, in the mountain's deeper, restricted passages, away from the main city thoroughfares."
   },
   {
    "q": "How do I gain access to the Hall of Thanes?",
@@ -52,7 +52,7 @@
     "hall of thanes attunement",
     "underground map quest"
    ],
-   "answer": "Its quest chain starts with Earthseer Farsen, who keeps watch over Gol'Bolar Quarry in Dun Morogh, and leads through 'Underground Map' to 'Old Ironforge Incursion', which sends you into the Hall of Thanes."
+   "answer": "Earthseer Farsen watches Gol'Bolar Quarry in Dun Morogh and begins the route. Recover the Underground Map, then follow Old Ironforge Incursion into the Hall of Thanes."
   },
   {
    "q": "What bosses are inside the Hall of Thanes?",
@@ -61,7 +61,7 @@
     "who are the bosses",
     "hall of thanes bosses"
    ],
-   "answer": "The expedition challenges four major threats: Faldrim Anvilmar, the volcanic behemoth Magmatus, an enchanted golem named Plunder, and the final adversary, Durgen Dirgehammer."
+   "answer": "Four major threats await inside: Faldrim Anvilmar, Magmatus, the enchanted golem Plunder, and Durgen Dirgehammer."
   },
   {
    "q": "What level range is recommended for this dungeon?",
@@ -69,7 +69,7 @@
     "what level is hall of thanes",
     "hall of thanes level range"
    ],
-   "answer": "The dungeon is tailored for Alliance adventurers between levels 13 and 18, serving as an early subterranean challenge alongside Ironforge's deep network."
+   "answer": "The Hall of Thanes is built for Alliance adventurers between levels 13 and 18, an early challenge deep beneath Ironforge."
   },
   {
    "q": "Can Horde players enter the Hall of Thanes?",
@@ -77,7 +77,7 @@
     "can horde do hall of thanes",
     "is hall of thanes alliance only"
    ],
-   "answer": "No. The Hall of Thanes is an Alliance-exclusive dungeon situated directly beneath the Alliance capital of Ironforge."
+   "answer": "No. The Hall of Thanes is for the Alliance and lies beneath their capital, Ironforge."
   },
   {
    "q": "What does defeating Durgen Dirgehammer achieve?",
@@ -86,21 +86,21 @@
     "final boss story",
     "durgen dirgehammer lore"
    ],
-   "answer": "Overcoming Durgen Dirgehammer breaks the grip of rogue dwarven forces and their summoned constructs deep within Ironforge's foundations. Striking him down restores safety to the ancient ancestral vaults beneath the Great Forge."
+   "answer": "Defeating Durgen Dirgehammer breaks the hold of rogue dwarven forces and their summoned constructs beneath Ironforge. The ancestral vaults below the Great Forge are safe again."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "For dwarves, entering the Hall of Thanes is a journey into the ancestral bedrock of Dun Morogh, purging defilers from sacred halls that bear legendary clan names."
+   "text": "As a dwarf, you enter Dun Morogh's ancestral bedrock and drive defilers from sacred halls bearing legendary clan names."
   },
   {
    "target": "faction:Alliance",
-   "text": "The stability of Ironforge directly bolsters the Alliance, making the cleansing of these deep caverns vital to securing the High Seat."
+   "text": "As an Alliance member, you help protect Ironforge's stability by clearing deep caverns and securing the High Seat."
   },
   {
    "target": "race:Gnome",
-   "text": "As close allies living within Ironforge, gnomes share an urgent interest in neutralizing mechanical constructs like Plunder that threaten their shared refuge."
+   "text": "As a gnome living alongside your close allies in Ironforge, you have reason to help stop mechanical constructs like Plunder from threatening your shared refuge."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Hall of Thanes (instance)"
- ]
+ ],
+ "style": 2
 }

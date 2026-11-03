@@ -14,7 +14,7 @@
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "Cooking and wilderness survival go hand in hand; as Mendalass notes, setting up a proper campsite requires a basic campfire, a skill traditionally taught by culinary trainers."
+   "text": "Cooking and wilderness survival go hand in hand. A campsite needs a campfire, a skill culinary trainers traditionally teach."
   }
  ],
  "faq": [
@@ -24,7 +24,7 @@
     "camping 101 purpose",
     "why do this quest"
    ],
-   "answer": "Camping 101: Skinning directs skilled skinners to Mendalass Tattermend in Shen'dar Village. By completing this training, adventurers learn how to repurpose harvested hides into a practical Camp Chair for field rest and recuperation.",
+   "answer": "In Shen'dar Village, Mendalass Tattermend teaches skinners to make a Camp Chair from harvested hides. It gives you a place to rest while camping in the wilds.",
    "q": "What is Camping 101: Skinning about?"
   },
   {
@@ -33,7 +33,7 @@
     "who teaches camp chair",
     "mendalass tattermend"
    ],
-   "answer": "Mendalass Tattermend is a skinning trainer located in Shen'dar Village. He teaches proficient skinners how to stitch harvested hides into comfortable field seating for wilderness camps.",
+   "answer": "Mendalass Tattermend is a skinning trainer in Shen'dar Village. The trainer teaches proficient skinners to make field seating from harvested hides.",
    "q": "Who is Mendalass Tattermend?"
   },
   {
@@ -42,7 +42,7 @@
     "where is shendar village",
     "where do i turn this in"
    ],
-   "answer": "Mendalass Tattermend resides in Shen'dar Village, where adventurers must travel to demonstrate their skill and learn the art of crafting camp gear.",
+   "answer": "Mendalass Tattermend is in Shen'dar Village, where skinners can show their skill and learn to make camp gear.",
    "q": "Where can Mendalass Tattermend be found?"
   },
   {
@@ -51,7 +51,7 @@
     "camp chair recipe",
     "what item do i get"
    ],
-   "answer": "Skinners learn the pattern to fashion a Camp Chair using the hides and pelts gathered from fallen beasts, providing a comfortable seat to rest upon while out in the wild.",
+   "answer": "Skinners learn to make a Camp Chair from hides gathered from fallen beasts. It gives you a place to rest in the wilds.",
    "q": "What item does this quest teach you to make?"
   },
   {
@@ -60,7 +60,7 @@
     "where can i pitch camp",
     "where to use camp chair"
    ],
-   "answer": "Townsfolk frown upon setting up camp in the middle of settlements. Camps and camp chairs are meant to be pitched out in the wilderness away from city centers.",
+   "answer": "No. Towns forbid camps within their limits, so camps and chairs belong in the wilderness.",
    "q": "Can you set up camp inside a town?"
   },
   {
@@ -69,7 +69,7 @@
     "campfire needed",
     "camp requirements"
    ],
-   "answer": "Every proper campsite requires a crackling campfire before it is complete. Adventurers who have not yet mastered starting fires are advised to consult a cooking trainer to learn the basics.",
+   "answer": "A proper campsite needs a campfire. Culinary trainers traditionally teach the basics of starting one.",
    "q": "What else is required to make a proper camp?"
   }
  ],
@@ -86,18 +86,19 @@
  "related": [],
  "sections": [
   {
-   "body": "Harvesting hides from fallen beasts is an essential survival skill across Azeroth, but its utility extends far beyond simple armor crafting. Through Camping 101: Skinning, gatherers learn to direct their trade toward wilderness survival by crafting a portable Camp Chair. Taking time to rest upon a comfortable seat out in the wilds allows weary adventurers to regain their strength and remain in peak fighting condition before their next battle.",
+   "body": "You can shape hides from fallen beasts into more than armor. Mendalass Tattermend shows you how to make a portable Camp Chair, so you can rest in the wilds and regain your strength before battle.",
    "spoiler": 0,
    "title": "Comfort in the Wilds"
   },
   {
-   "body": "To master this pattern, adventurers are sent to Shen'dar Village to meet with Mendalass Tattermend once they have proven their proficiency with a skinning knife. Mendalass instructs travelers on assembling durable seating from collected pelts. However, establishing a campsite requires more than just furniture: settlements will not tolerate impromptu camps within town limits, and no site is truly finished without a crackling campfire, a skill traditionally picked up from local culinary instructors.",
+   "body": "In Shen'dar Village, Mendalass Tattermend teaches proven skinners to make sturdy seats from collected pelts. Towns forbid camps within their limits. A campsite also needs a campfire, a skill local culinary instructors have traditionally taught.",
    "spoiler": 0,
    "title": "The Teachings of Shen'dar Village"
   }
  ],
- "summary": "Camping 101: Skinning instructs adventurers in turning harvested pelts into a functional Camp Chair for field camps. Guided by Mendalass Tattermend in Shen'dar Village, skinners learn to combine their harvesting craft with wilderness survival and campfire relaxation.",
+ "summary": "In Shen'dar Village, Mendalass Tattermend shows skinners how to prepare for rest in the wilds. The lesson joins skinning with survival and a place to sit at camp.",
  "attribution": [
   "In-game quest text: Camping 101: Skinning"
- ]
+ ],
+ "style": 2
 }

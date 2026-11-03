@@ -17,16 +17,16 @@
   "wiki": "Covert Ops - Alpha",
   "chain": []
  },
- "summary": "Alliance agents work under Gaxim Rustfizzle in the Stonetalon Mountains. From the peaks, they enter the Venture Company lumber mill in Windshear Crag to recover engineering schematics.",
+ "summary": "Alliance agents move against the Venture Company in the Stonetalon Mountains. Under Gaxim Rustfizzle, they enter the lumber mill in Windshear Crag to recover its engineering schematics.",
  "sections": [
   {
    "title": "Sabotage and Espionage",
-   "body": "Gaxim Rustfizzle directs a covert effort from Windshear Crag against the Venture Company's aggressive logging. Goblin loggers cut timber south of Cragpool Lake, but destruction alone cannot stop them. Plan Alpha sends agents past the loggers and overseers to take the mill's technical schematics.",
+   "body": "From Windshear Crag, Gaxim Rustfizzle directs a covert effort against the Venture Company's aggressive logging. Goblin loggers cut timber south of Cragpool Lake. Destruction alone cannot stop them, so Plan Alpha sends agents past the loggers and overseers to take the mill's technical schematics.",
    "spoiler": 0
   },
   {
    "title": "Reverse Engineering",
-   "body": "The Venture Company's schematics interest gnomes for more than the night elves' forests. The plans show how goblin loggers, mechanical cutters and mechanized transports work. Alliance engineers can use them to find structural flaws and break up future operations, while adapting goblin designs for their own projects in Ironforge.",
+   "body": "The Venture Company's schematics interest gnomes for more than the night elves' forests. They reveal how goblin loggers, mechanical cutters and mechanized transports work. Alliance engineers can study their structural flaws to break up future operations. They can also adapt goblin designs for their own projects in Ironforge.",
    "spoiler": 0
   }
  ],
@@ -83,7 +83,7 @@
     "alliance venture co conflict",
     "stonetalon logging war"
    ],
-   "answer": "The Venture Company cuts forests and pollutes the land in Stonetalon. Alliance agents work to disrupt its industry and protect strategic territory in Kalimdor."
+   "answer": "The Venture Company cuts forests and pollutes the land in Stonetalon. Alliance agents disrupt its industry and protect strategic territory in Kalimdor."
   }
  ],
  "angles": [
@@ -93,7 +93,7 @@
   },
   {
    "target": "profession:Engineering",
-   "text": "The schematics reveal the gritty, high-combustion mechanisms used by the Venture Company and offer insight into industrial motor works."
+   "text": "The schematics reveal the Venture Company's gritty, high-combustion mechanisms and offer insight into industrial motor works."
   },
   {
    "target": "race:NightElf",
@@ -125,5 +125,5 @@
  "attribution": [
   "Covert Ops - Alpha"
  ],
- "style": 1
+ "style": 2
 }

@@ -8,16 +8,16 @@
   "wiki": "Bath'rah the Windwatcher",
   "refs": 1
  },
- "summary": "Bath'rah the Windwatcher is a solitary jungle troll shaman and weaponcrafter dwelling amidst the ruins near Chillwind Point. Far from his tropical homelands, he studies the tempestuous elements of the northern mountains, seeking champions powerful enough to help him craft formidable weapons of wind.",
+ "summary": "Near Chillwind Point, Bath'rah the Windwatcher studies the northern winds in the Alterac Mountains. Far from his tropical homeland, the jungle troll shaman seeks champions strong enough to shape the tempest into weapons.",
  "sections": [
   {
    "title": "Hermit of the Peaks",
-   "body": "While most jungle trolls keep to the warm forests and coasts of the south, Bath'rah has embraced the solitary life of a mountain hermit among the cold ruins of the Alterac Mountains. A seasoned shaman and craftsman, he devotes his days to listening to the howling winds and communing with nature spirits. His obsession is not merely philosophical; he seeks to bind the fury of violent elemental storms into tangible armaments for those who possess the strength to wield them.",
+   "body": "Bath'rah the Windwatcher keeps to the cold ruins of the Alterac Mountains. Jungle trolls usually dwell among warm forests and coasts, far from these peaks. A seasoned shaman and craftsman, he listens to the wind and communes with nature spirits. He means to bind violent storms into weapons for those strong enough to wield them.",
    "spoiler": 0
   },
   {
    "title": "Master of Cyclonian",
-   "body": "Bath'rah's greatest ambition revolves around Cyclonian, a monstrous wind elemental dwelling within the surrounding peaks. Unable to best such an entity alone, the Windwatcher enlists seasoned warriors and shamans to gather exotic elemental essences and call forth the beast. By slaying Cyclonian and claiming its elemental heart, Bath'rah harnesses raw tempests into legendary weapons renowned across Azeroth.",
+   "body": "Cyclonian is a monstrous wind elemental in the peaks around Bath'rah. He cannot defeat it alone, so he calls on seasoned warriors and shamans to gather exotic elemental essences and summon the creature. When Cyclonian is slain, Bath'rah claims its elemental heart. He uses it to make legendary weapons of raw tempest, renowned across Azeroth.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is bathrah",
     "windwatcher lore"
    ],
-   "answer": "Bath'rah is an eccentric jungle troll shaman and weaponcrafter living in seclusion among the ruins of the Alterac Mountains near Chillwind Point. He helps seasoned adventurers harness elemental powers into mighty weapons."
+   "answer": "Bath'rah is a jungle troll shaman and weaponcrafter living in seclusion among ruins near Chillwind Point in the Alterac Mountains. He helps seasoned adventurers harness elemental power in weapons."
   },
   {
    "q": "Why is a jungle troll living in Alterac?",
@@ -37,7 +37,7 @@
     "why is bathrah in alterac",
     "troll in alterac mountains"
    ],
-   "answer": "Bath'rah lives as a hermit near Chillwind Point, studying elemental power and helping capable adventurers forge weapons. His reasons for leaving his former homeland are not established."
+   "answer": "Bath'rah lives as a hermit near Chillwind Point, studying elemental power and helping capable adventurers forge weapons. The reason he left his homeland is not established."
   },
   {
    "q": "What is Cyclonian?",
@@ -45,7 +45,7 @@
     "who is cyclonian",
     "what does bathrah summon"
    ],
-   "answer": "Cyclonian is a massive, violent wind elemental haunting the ruins around Bath'rah's sanctuary. Bath'rah requires the creature's core to forge weapons infused with elemental wind."
+   "answer": "Cyclonian is a massive, violent wind elemental haunting the ruins around Bath'rah's sanctuary. Bath'rah needs its core to forge weapons infused with elemental wind."
   },
   {
    "q": "Why do warriors seek him out?",
@@ -53,7 +53,7 @@
     "bathrah warrior quest",
     "whirlwind axe guy"
    ],
-   "answer": "Warriors travel from all across the world to Bath'rah because he knows how to forge the iconic Whirlwind weapons. Defeating Cyclonian under his guidance yields arms infused with howling gales."
+   "answer": "Warriors travel from across the world to Bath'rah because he knows how to forge the Whirlwind weapons. Under his guidance, defeating Cyclonian yields arms infused with howling gales."
   },
   {
    "q": "Does Bath'rah only help members of the Horde?",
@@ -61,17 +61,17 @@
     "is bathrah hostile",
     "bathrah alliance"
    ],
-   "answer": "Bath'rah lives apart from major faction politics as a solitary hermit. He is primarily focused on elemental craftsmanship and will assist capable warriors and shamans who respect the spirits and aid his elemental work."
+   "answer": "Bath'rah lives apart from major faction politics as a solitary hermit. He focuses on elemental craft and helps capable warriors and shamans who respect the spirits and aid his elemental work."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Bath'rah is famous among veteran fighters for guiding them through the trials necessary to forge iconic Whirlwind armaments using the essence of the elemental Cyclonian."
+   "text": "Veteran fighters know Bath'rah for guiding them through the trials to forge Whirlwind weapons with the essence of Cyclonian, the wind elemental."
   },
   {
    "target": "class:Shaman",
-   "text": "As a fellow master of the elements, Bath'rah shares a deep spiritual connection with shamans pursuing deeper communion with the spirits of earth, water, and air."
+   "text": "As a fellow master of the elements, Bath'rah shares a deep spiritual connection with shamans seeking closer communion with the spirits of earth, water, and air."
   }
  ],
  "keywords": [
@@ -92,5 +92,6 @@
  ],
  "attribution": [
   "Bath'rah the Windwatcher"
- ]
+ ],
+ "style": 2
 }

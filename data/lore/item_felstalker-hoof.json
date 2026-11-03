@@ -10,11 +10,11 @@
    "quest:1516"
   ]
  },
- "summary": "In Durotar's Valley of Trials, young shaman face demonic felstalkers as a test of readiness. Their hooves are brought to Canaga Earthcaller before they learn to commune with the earth spirits.",
+ "summary": "In Durotar's Valley of Trials, young shaman face felstalkers to prove they are ready. Their hooves go to Canaga Earthcaller before they learn to commune with the earth spirits.",
  "sections": [
   {
    "title": "A Shaman's Trial",
-   "body": "Canaga Earthcaller sends young shaman against the demonic taint threatening Durotar. The Burning Blade Coven lies north in the Valley of Trials, where felstalkers roam among the coven's vile familiars. Taking a felstalker's hoof tests a shaman's endurance, resolve, and spirit. Those who subdue the beasts prove ready to receive the secrets of the earth and prepare the ceremonial sapta for communing with elemental spirits.",
+   "body": "Canaga Earthcaller sends young shaman to face the demonic taint threatening Durotar. North in the Valley of Trials, the Burning Blade Coven's vile familiars share the ground with roaming felstalkers. Taking a felstalker's hoof tests a shaman's endurance, resolve, and spirit. Those who subdue the beasts are ready to learn the secrets of the earth and prepare the ceremonial sapta for communing with elemental spirits.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "hoof quest item",
     "why get felstalker hooves"
    ],
-   "answer": "You bring two Felstalker Hooves to Canaga Earthcaller in the Valley of Trials. They prove a shaman initiate has the strength and spirit to begin communing with the earth element."
+   "answer": "You bring two Felstalker Hooves to Canaga Earthcaller in the Valley of Trials. They prove you have the strength and spirit to begin communing with the earth element."
   },
   {
    "q": "Where do these hooves come from?",
@@ -35,7 +35,7 @@
     "felstalker hoof location",
     "who drops hooves"
    ],
-   "answer": "The hooves come from demonic Felstalkers inside and around the Burning Blade Coven, in the northern Valley of Trials in Durotar."
+   "answer": "The hooves come from demonic Felstalkers inside and around the Burning Blade Coven, north in the Valley of Trials in Durotar."
   },
   {
    "q": "Who requires these hooves?",
@@ -89,5 +89,5 @@
   "Felstalker Hoof",
   "Call of Earth (Durotar)"
  ],
- "style": 1
+ "style": 2
 }

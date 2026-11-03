@@ -11,16 +11,16 @@
    "quest:957"
   ]
  },
- "summary": "The Ancient Moonstone Seal holds Asterion captive in the ruins of Bashal'Aran. Forged by the Highborne long before the Sundering, it binds his spirit with arcane magic.",
+ "summary": "In Bashal'Aran, the Ancient Moonstone Seal holds Asterion captive among the ruins. The Highborne forged it long before the Sundering, binding his spirit with arcane magic.",
  "sections": [
   {
    "title": "A Prison of Highborne Sorcery",
-   "body": "The Ancient Moonstone Seal binds Asterion's soul to the pillars of Bashal'Aran. His former master, the Highborne sorcerer Athrikus Narassin, forged it as an unbreakable anchor while the Well of Eternity still stood and Queen Azshara reigned. More than ten millennia later, Asterion remains a spirit bound by its magic. No strength or spell he commands can break the ward.",
+   "body": "Athrikus Narassin, Asterion's former master, forged the Ancient Moonstone Seal to bind his soul to Bashal'Aran's pillars. The Highborne sorcerer made it an unbreakable anchor while the Well of Eternity still stood and Queen Azshara reigned. More than ten millennia later, Asterion remains a spirit bound by its magic. No strength or spell he commands can break the ward.",
    "spoiler": 0
   },
   {
    "title": "Destruction in Ameth'Aran",
-   "body": "After the Great Sundering, the seal passed to the Deth'ryll satyrs in Darkshore's surrounding wilderness. Highborne enchanted stone cannot be harmed by ordinary force. To destroy the relic, it must meet the ancient blue flame that still burns in the twin ruins of Ameth'Aran to the south. The fire shatters Athrikus's binding ward and frees Asterion's spirit to enter the mortal realm.",
+   "body": "After the Great Sundering, the Deth'ryll satyrs took the seal into Darkshore's surrounding wilderness. Highborne enchanted stone yields to no ordinary force. To destroy the relic, it must meet the ancient blue flame still burning in Ameth'Aran's twin ruins to the south. That fire shatters Athrikus's binding ward and frees Asterion's spirit to enter the mortal realm.",
    "spoiler": 1
   }
  ],
@@ -41,7 +41,7 @@
     "where to find moonstone seal",
     "who drops moonstone seal"
    ],
-   "answer": "Before anyone recovers it, the Deth'ryll satyr in the ruins around Bashal'Aran holds the seal. Its presence lets the satyr command lesser grell minions."
+   "answer": "Before anyone recovers it, a Deth'ryll satyr in the ruins around Bashal'Aran holds the seal. Its presence lets the satyr command lesser grell minions."
   },
   {
    "q": "How can the seal be destroyed?",
@@ -64,11 +64,11 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For a Night Elf, the seal recalls the Highborne's arcane power and their cruel enslavement practices before the Great Sundering."
+   "text": "As a Night Elf, you can see in the seal the Highborne's arcane power and their cruel enslavement practices before the Great Sundering."
   },
   {
    "target": "class:Mage",
-   "text": "For a mage, the moonstone shows how ancient elven abjuration magic held its binding field for more than ten thousand years."
+   "text": "As a mage, you can see how ancient elven abjuration magic held its binding field for more than ten thousand years in the moonstone."
   }
  ],
  "keywords": [
@@ -95,5 +95,5 @@
   "Bashal'Aran (3)",
   "Bashal'Aran (4)"
  ],
- "style": 1
+ "style": 2
 }

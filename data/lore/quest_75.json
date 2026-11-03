@@ -17,16 +17,16 @@
   "wiki": "The Legend of Stalvan (8)",
   "chain": []
  },
- "summary": "In Elwynn, your search for Stalvan Mistmantle reaches Marshal Haggard's home. The aging veteran's eyesight has failed, and an upstairs chest holds papers left behind when he moved in.",
+ "summary": "In Elwynn, your search for The Legend of Stalvan leads you to Marshal Haggard's home. The veteran's failing eyesight left an upstairs chest of papers unread.",
  "sections": [
   {
    "title": "A Veteran's Attic",
-   "body": "Marshal Haggard lives on Elwynn Forest's southeastern edge, near Duskwood and Redridge. An old chest upstairs holds parchments he found when he moved into his secluded home. His failing eyesight kept him from reading them, and they remain untouched until you ask about Stalvan.",
+   "body": "Marshal Haggard lives near Elwynn Forest's southeastern edge, close to Duskwood and Redridge. Upstairs, an old chest holds parchments he found when he moved into his secluded home. His failing eyesight kept him from reading them, and they have remained untouched until you ask about Stalvan.",
    "spoiler": 0
   },
   {
    "title": "Lingering Shadows",
-   "body": "The papers in Haggard's upstairs chest stir a restless force tied to Stalvan's past. When his belongings are disturbed, a Forlorn Spirit appears. Among the papers, a journal page records Stalvan's own writings and shows that the reclusive scholar left his mark in Elwynn before vanishing.",
+   "body": "The papers in Haggard's upstairs chest stir a restless force tied to Stalvan's past. When you disturb his belongings, a Forlorn Spirit appears. Among the papers, a journal page bears Stalvan's own words and shows that the reclusive scholar left his mark in Elwynn before he vanished.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "haggard elwynn",
     "who is haggard"
    ],
-   "answer": "Marshal Haggard is an aging veteran who lives in a secluded cabin in southeastern Elwynn Forest. His house holds old papers that belonged to Stalvan Mistmantle."
+   "answer": "Marshal Haggard is an aging veteran who lives in a secluded cabin in southeastern Elwynn Forest. His home holds old papers that belonged to Stalvan Mistmantle."
   },
   {
    "q": "Why did the trail lead back to Elwynn Forest?",
@@ -47,7 +47,7 @@
     "stalvan elwynn",
     "why go to haggard"
    ],
-   "answer": "Clues from Darkshire and Moonbrook trace Stalvan's travels across southern Stormwind territory. Haggard's home held papers Stalvan left behind."
+   "answer": "Clues from Darkshire and Moonbrook trace Stalvan's travels across southern Stormwind territory. Haggard's home holds papers Stalvan left behind."
   },
   {
    "q": "What is inside the chest upstairs?",
@@ -65,7 +65,7 @@
     "why ghost attacks",
     "ghost in haggard house"
    ],
-   "answer": "A Forlorn Spirit haunts relics from Stalvan's past and attacks when an outsider disturbs his writings and memories."
+   "answer": "A Forlorn Spirit haunts relics from Stalvan's past. It attacks when an outsider disturbs his writings and memories."
   },
   {
    "q": "How does this advance the Stalvan investigation?",
@@ -74,7 +74,7 @@
     "what does the page reveal",
     "stalvan questline step"
    ],
-   "answer": "The faded page gives firsthand evidence in Stalvan's own hand, helping piece together his past."
+   "answer": "The faded page offers firsthand evidence in Stalvan's own hand, helping you piece together his past."
   },
   {
    "q": "Why couldn't Marshal Haggard read the papers himself?",
@@ -82,7 +82,7 @@
     "haggard blind",
     "why haggard needs help"
    ],
-   "answer": "Age has left Haggard's eyesight weak and clouded, so he could not read the small, weathered writing on the faded papers."
+   "answer": "Age has left Haggard's eyesight weak and clouded. He could not read the small, weathered writing on the faded papers."
   }
  ],
  "angles": [
@@ -111,5 +111,5 @@
  "attribution": [
   "The Legend of Stalvan (8)"
  ],
- "style": 1
+ "style": 2
 }

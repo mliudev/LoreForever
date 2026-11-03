@@ -12,7 +12,7 @@
  "sections": [
   {
    "title": "Escape from Dun Modr",
-   "body": "Harlo Barnaby fled Dun Modr when Dark Iron dwarves struck the northern stronghold without warning. In the chaos, a stray axe hit him square in the back. The blow knocked him unconscious, yet he survived the trek across the marshland. Harlo awoke bandaged in Menethil Harbor, alive but marked by his wounds and memories of the massacre. He cannot return to Dun Modr, so he urges Alliance adventurers to investigate the smoking ruins of his former home.",
+   "body": "Harlo Barnaby fled Dun Modr when Dark Iron dwarves struck the northern stronghold without warning. In the chaos, a stray axe hit him square in the back. The blow knocked him unconscious, yet he survived the trek across the marshland.\n\nHarlo awoke bandaged in Menethil Harbor, alive but marked by his wounds and memories of the massacre. Unable to return to Dun Modr, he urges Alliance adventurers to investigate the smoking ruins of his former home.",
    "spoiler": 0
   }
  ],
@@ -71,5 +71,5 @@
  "attribution": [
   "Harlo Barnaby"
  ],
- "style": 1
+ "style": 2
 }

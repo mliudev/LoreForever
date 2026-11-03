@@ -27,16 +27,16 @@
    "The Missing Courier"
   ]
  },
- "summary": "After Quintis's vision, Ginro Hearthkindle sends you to search the camps of the Woodpaw gnolls in southern Feralas for evidence of the courier or the courier's belongings. Ginro doubts the gnolls were Raschal's undoing, but they are the best place to start.",
+ "summary": "In southern Feralas, you search Woodpaw camps for Raschal, the courier. After Quintis's vision, Ginro Hearthkindle sends you to find him or his belongings, though Ginro doubts the gnolls were his undoing.",
  "sections": [
   {
    "title": "Where to Start Looking",
-   "body": "Ginro Hearthkindle allows that the Woodpaw, whom Ginro puts in quotation marks as friends, may have done for Raschal in the end, though something tells Ginro otherwise. Still, they are the best place to start. Ginro has no clearer plan than searching their camps, and knows gnolls keep what they scavenge and fight over it, so they may have come across the backpacks Quintis mentioned. In past searches Ginro steered clear of open fighting, but with the vision to go on now says to rip into them. The camps lie in southern Feralas.",
+   "body": "Ginro Hearthkindle admits the Woodpaw, whom Ginro calls “friends,” may have done for Raschal after all. Still, Ginro feels the gnolls were not responsible, and their camps are the best place to start. Ginro has no clearer plan than to search them.\n\nGnolls keep what they scavenge and fight over it, so they may have found the backpacks Quintis mentioned. Ginro once avoided open fighting during earlier searches. Now the vision guides you, and Ginro says to rip into them. The camps lie in southern Feralas.",
    "spoiler": 0
   },
   {
    "title": "At the Camps",
-   "body": "Two large leather backpacks are tacked to a nearby tree, and each carries a small insignia of Feathermoon Stronghold on its front. They are in the Lower Wilds.",
+   "body": "In the Lower Wilds, two large leather backpacks are tacked to a nearby tree. Each bears a small insignia of Feathermoon Stronghold on its front.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "woodpaw gnolls search target",
     "who is raschal"
    ],
-   "answer": "Raschal, the courier. Ginro Hearthkindle wants evidence of the courier or the courier's belongings."
+   "answer": "Ginro Hearthkindle is searching for Raschal, the courier. Ginro wants evidence of Raschal or his belongings."
   },
   {
    "q": "Why search the Woodpaw gnoll camps?",
@@ -57,7 +57,7 @@
     "why kill gnolls",
     "why search gnoll camps"
    ],
-   "answer": "Ginro says they are the best place to start. Gnolls keep what they scavenge and fight over it, so they may have come across the backpacks Quintis mentioned."
+   "answer": "Ginro says the Woodpaw camps are the best place to start. Gnolls keep what they scavenge and fight over it, so they may have found the backpacks Quintis mentioned."
   },
   {
    "q": "Where did the clue about the backpacks come from?",
@@ -66,7 +66,7 @@
     "quint vision backpacks",
     "how does ginro know about backpacks"
    ],
-   "answer": "Quintis Jonespyre mentioned them in the vision of Raschal taking two large leather backpacks from the boat."
+   "answer": "Quintis Jonespyre mentioned the backpacks in his vision of Raschal taking two large leather backpacks from the boat."
   },
   {
    "q": "Where are the Woodpaw camps?",
@@ -75,7 +75,7 @@
     "where are gnoll camps feralas",
     "woodpaw camps map"
    ],
-   "answer": "In southern Feralas."
+   "answer": "The Woodpaw camps lie in southern Feralas."
   }
  ],
  "angles": [],
@@ -98,5 +98,6 @@
  ],
  "attribution": [
   "The Woodpaw Gnolls"
- ]
+ ],
+ "style": 2
 }

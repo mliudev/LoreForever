@@ -24,16 +24,16 @@
   ],
   "category": "Stranglethorn Vale"
  },
- "summary": "A washed-up bottle found along the shores of Stranglethorn Vale holds an urgent plea for rescue. Its author claims to be held prisoner by a great beast on an isolated island in the South Seas.",
+ "summary": "Along Stranglethorn Vale's shore, Message in a Bottle bears a plea from someone held captive. The writer says a great beast keeps them on an isolated island in the South Seas.",
  "sections": [
   {
    "title": "A Plea from the Waves",
-   "body": "Inside a glass container half-buried in the sand lies a neatly penned note asking for immediate assistance. The captive reports being trapped on a foreign island beneath thick jungle canopies, held by a great Skymane. Glimpses through the trees offer only faint landmarks: the coast of Wild Shore lies visible to the northwest, while large sailing vessels drift to the southwest.",
+   "body": "A plea for rescue rests in a glass container, half-buried in the sand. The captive is trapped beneath thick jungle canopies on a foreign island, held by a great Skymane. Wild Shore lies to the northwest through the trees. Large sailing vessels drift to the southwest.",
    "spoiler": 0
   },
   {
    "title": "The Writer of the Note",
-   "body": "Following the nautical directions leads across the water to an offshore isle, where the message's writer awaits. The stranded captive is Princess Poobah, desperate for an adventurer to finally reach her and offer a chance at freedom.",
+   "body": "Across the water, the nautical directions point to an offshore isle where Princess Poobah waits. Stranded there, she is desperate for an adventurer to reach her and give her a chance at freedom.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "bottle note",
     "what is written in the bottle"
    ],
-   "answer": "The message is an urgent plea written in clear handwriting. It explains that the author is held prisoner by a great Skymane on an island in the South Seas and begs whoever discovers the note for rescue."
+   "answer": "The note is a neatly penned plea for rescue. Its writer says a great Skymane holds them prisoner on an island in the South Seas, and begs whoever finds the note to come to their aid."
   },
   {
    "q": "Where does the writer say the island is located?",
@@ -54,7 +54,7 @@
     "how to find the captive",
     "island landmarks"
    ],
-   "answer": "While jungle trees obscure the stars at night, the captive notes that on clear days the Wild Shore can be seen to the northwest, and large sailing vessels appear to the southwest."
+   "answer": "The captive says Wild Shore can be seen to the northwest on clear days, while large sailing vessels appear to the southwest. At night, jungle trees hide the stars."
   },
   {
    "q": "What is holding the author captive?",
@@ -63,7 +63,7 @@
     "what holds the author captive",
     "skymane captor"
    ],
-   "answer": "The note states that a creature called a great Skymane is holding the author prisoner upon the island."
+   "answer": "The note says a creature called a great Skymane holds its writer prisoner on the island."
   },
   {
    "q": "Does this lead to further adventures?",
@@ -72,7 +72,7 @@
     "is there a follow up",
     "what happens after this"
    ],
-   "answer": "Finding the sender is the first part of a two-step chain, leading directly into a second part upon locating the captive."
+   "answer": "Finding the sender begins a two-part chain. The second part follows when you locate the captive."
   }
  ],
  "angles": [],
@@ -92,5 +92,6 @@
  ],
  "attribution": [
   "Message in a Bottle (Classic)"
- ]
+ ],
+ "style": 2
 }

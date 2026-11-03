@@ -8,11 +8,11 @@
   "wiki": "Zureetha Fargaze",
   "refs": 2
  },
- "summary": "In the Valley of Trials, Zureetha Fargaze watches for threats to young Horde recruits. Alongside Foreman Thazz'ril in Durotar, she sends them to uncover and root out the Burning Blade cult hidden in the valley.",
+ "summary": "In the Valley of Trials, Zureetha Fargaze watches for threats to young Horde recruits. Alongside Foreman Thazz'ril, she sends them to uncover and root out the Burning Blade cult hidden in Durotar.",
  "sections": [
   {
    "title": "Eyes in the Valley",
-   "body": "Zureetha Fargaze watches for dangers beyond the work and discipline Foreman Thazz'ril oversees. The Burning Blade cult has secretly entered the Valley of Trials, corrupted lesser demons, and gathered strength in the nearby Burning Blade Coven. She sends untested adventurers to recover medallions from the cultists, confirm their presence, and disrupt their early efforts. Then she directs seasoned recruits farther into Durotar.",
+   "body": "Zureetha Fargaze watches for dangers beyond the work and discipline Foreman Thazz'ril oversees. The Burning Blade cult has entered the Valley of Trials in secret. It has corrupted lesser demons and gathered strength in the nearby Burning Blade Coven. She sends untested adventurers to recover medallions from cultists, confirm the danger and disrupt the cult's early efforts. Then she directs seasoned recruits farther into Durotar.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is zureetha",
     "fargaze valley of trials"
    ],
-   "answer": "Zureetha Fargaze watches over the Valley of Trials in Durotar. She stands near Foreman Thazz'ril and looks for hidden threats to the training grounds."
+   "answer": "Zureetha Fargaze watches over the Valley of Trials in Durotar. She keeps watch near Foreman Thazz'ril for threats to the training grounds."
   },
   {
    "q": "Why is she concerned about the Burning Blade?",
@@ -33,7 +33,7 @@
     "why does zureetha want medallions",
     "burning blade cult durotar"
    ],
-   "answer": "The Burning Blade cult has taken root in a nearby cave, where it gathers foul familiars and corrupts the peaceful trial grounds. Zureetha sends recruits to recover cultist medallions as proof and thin the cult's ranks."
+   "answer": "The Burning Blade cult has taken root in a nearby cave. It gathers foul familiars and corrupts the peaceful trial grounds, so Zureetha sends recruits to recover cultist medallions as proof and weaken its ranks."
   },
   {
    "q": "Where does she send recruits after their initial trials?",
@@ -42,7 +42,7 @@
     "zureetha next quest",
     "report to sen'jin"
    ],
-   "answer": "After young orcs and trolls prove themselves against local threats, Zureetha sends them southeast across the ridge to Sen'jin Village to aid the Darkspear tribe."
+   "answer": "After young orcs and trolls prove themselves against local threats, Zureetha sends them southeast across the ridge to Sen'jin Village. There they aid the Darkspear tribe."
   }
  ],
  "angles": [
@@ -52,7 +52,7 @@
   },
   {
    "target": "class:Warlock",
-   "text": "As a warlock in the Valley of Trials, you encounter Zureetha's early tasks and face the corrupt vile familiars tied to the Burning Blade's dark summonings."
+   "text": "As a warlock in the Valley of Trials, you encounter Zureetha's early tasks and face the vile familiars corrupted by the Burning Blade's dark summonings."
   }
  ],
  "keywords": [
@@ -71,5 +71,5 @@
  "attribution": [
   "Zureetha Fargaze"
  ],
- "style": 1
+ "style": 2
 }

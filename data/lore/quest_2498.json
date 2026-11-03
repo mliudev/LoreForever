@@ -17,16 +17,16 @@
   "wiki": "Return to Denalan",
   "chain": []
  },
- "summary": "At Lake Al'Ameth, Return to Denalan carries Rellian's alarming news to the botanist studying corruption in Teldrassil. After examining the mossy tumors on timberlings, you head south to help Denalan with his discovery.",
+ "summary": "At Lake Al'Ameth, you carry Rellian Greenspyre's alarming news to Denalan, the botanist studying corruption in Teldrassil. After examining the mossy tumors on timberlings, you head south to help Denalan with his discovery.",
  "sections": [
   {
    "title": "A Message Across the Boughs",
-   "body": "Rellian Greenspyre studies the mossy tumors afflicting Teldrassil's timberlings when urgent word arrives from his colleague Denalan. At his camp beside Lake Al'Ameth, Denalan has finally isolated the cause of these unnatural growths on the forest's nature spirits. Rellian recognizes the gravity of this discovery and sends you south at once to lend a hand.",
+   "body": "Rellian Greenspyre studies the mossy tumors afflicting Teldrassil's timberlings when urgent word comes from his colleague Denalan. At his camp beside Lake Al'Ameth, Denalan has finally isolated the cause of these unnatural growths on the forest's nature spirits. Rellian sees the gravity of this discovery and sends you south at once to lend a hand.",
    "spoiler": 0
   },
   {
    "title": "The Threat at the Lake",
-   "body": "At Lake Al'Ameth, Denalan faces blighted beings poisoning Teldrassil's boughs. His work begins with corrupted plants and diseased timberlings, then brings him into direct conflict with the corrupted timberling Oakenscowl.",
+   "body": "At Lake Al'Ameth, Denalan faces blighted beings that poison Teldrassil's boughs. His work begins with corrupted plants and diseased timberlings, then brings him into direct conflict with the corrupted timberling Oakenscowl.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "why go to denalan",
     "rellian greenspyre mission"
    ],
-   "answer": "Rellian receives word that Denalan has found the likely root cause of the tumors corrupting timberlings. The discovery is still unfolding rapidly and poses a growing danger to the forest, so Rellian sends you to help in the field at once."
+   "answer": "Rellian receives word that Denalan has found the likely root cause of the tumors corrupting timberlings. The discovery unfolds rapidly and threatens the forest, so Rellian sends you to help in the field at once."
   },
   {
    "q": "What are the tumors afflicting the timberlings?",
@@ -71,7 +71,7 @@
     "what comes next",
     "oakenscowl follow up"
    ],
-   "answer": "Denalan welcomes your help and says he has discovered something disturbing. He explains what comes next when you reach his camp."
+   "answer": "Denalan welcomes your help and says he has discovered something disturbing. When you reach his camp, he explains what comes next."
   },
   {
    "q": "How does this errand connect Rellian and Denalan?",
@@ -113,5 +113,5 @@
  "attribution": [
   "Return to Denalan"
  ],
- "style": 1
+ "style": 2
 }

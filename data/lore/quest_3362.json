@@ -18,16 +18,16 @@
   "chain": [],
   "category": "Tanaris"
  },
- "summary": "Tran'rek in Gadgetzan wants to get into Thistleshrub Valley, but the strange beasts there keep them away. Clear some of the thistleshrubs out, and Tran'rek might think about going back.",
+ "summary": "In Tanaris, strange beasts keep Tran'rek from entering Thistleshrub Valley. They hope to return once the creatures are cleared away.",
  "sections": [
   {
    "title": "A Dangerous Valley",
-   "body": "Thistleshrub Valley lies south-west of Gadgetzan, and Tran'rek calls it a mighty dangerous place. They do not trust the strange beasts there, gnarled thistleshrubs and thistleshrub rootshapers, and with so many around they will not go back.",
+   "body": "South-west of Gadgetzan, Tran'rek warns that Thistleshrub Valley is a dangerous place. Strange beasts roam there, including gnarled thistleshrubs and thistleshrub rootshapers. With so many about, Tran'rek will not return.",
    "spoiler": 0
   },
   {
    "title": "Thinning the Thistleshrubs",
-   "body": "Tran'rek wants eight gnarled thistleshrubs and eight thistleshrub rootshapers cleared out. There is one condition: Tran'rek wants a closer look at the cactus in the valley, so some of it must be left in one piece.",
+   "body": "Tran'rek asks you to clear out eight gnarled thistleshrubs and eight thistleshrub rootshapers. They also want a closer look at the cactus in the valley, so leave some of it in one piece.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "tran'rek location",
     "who offers thistleshrub valley"
    ],
-   "answer": "Tran'rek, who is in Gadgetzan."
+   "answer": "Tran'rek, in Gadgetzan, asks for help."
   },
   {
    "q": "Where is Thistleshrub Valley?",
@@ -48,7 +48,7 @@
     "where is valley",
     "find valley tanaris"
    ],
-   "answer": "It lies south-west of Gadgetzan."
+   "answer": "Thistleshrub Valley lies south-west of Gadgetzan."
   },
   {
    "q": "Which creatures need clearing out?",
@@ -57,7 +57,7 @@
     "what to kill",
     "which thistleshrubs"
    ],
-   "answer": "Eight gnarled thistleshrubs and eight thistleshrub rootshapers."
+   "answer": "Clear out eight gnarled thistleshrubs and eight thistleshrub rootshapers."
   },
   {
    "q": "Why does Tran'rek want some of the cactus left in one piece?",
@@ -66,7 +66,7 @@
     "why go to valley",
     "cacti interest"
    ],
-   "answer": "Tran'rek wants to take a closer look at the cactus in the valley, so some of it should be left in one piece."
+   "answer": "Tran'rek wants a closer look at the cactus in the valley, so leave some of it in one piece."
   }
  ],
  "angles": [],
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Thistleshrub Valley (quest)"
- ]
+ ],
+ "style": 2
 }

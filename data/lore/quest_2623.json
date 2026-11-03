@@ -24,16 +24,16 @@
    "You Are Rakh'likh, Demon"
   ]
  },
- "summary": "Bengor can barely speak, but he manages to tell what became of the orders. The dispatch commander gave them, and on the way to the Blasted Lands the group was ambushed by many murlocs. One of them, named Swamp Talker, took the orders from his hands. They must be recovered and brought to the Fallen Hero of the Horde.",
+ "summary": "Orders bound for the Blasted Lands vanish in a murloc ambush. Bengor tells you what happened before he loses consciousness.",
  "sections": [
   {
    "title": "Bengor's Broken Account",
-   "body": "Bengor says the dispatch commander gave out the orders and that his group was on its way to the Blasted Lands when many murlocs ambushed them. One of the murlocs, named Swamp Talker, took the orders from his hands as a spear was thrust into his skull. Bengor manages a word about a cave to the east before passing out. The orders must be recovered and brought to the Fallen Hero of the Horde.",
+   "body": "Bengor says the dispatch commander gave out the orders. His group was bound for the Blasted Lands when many murlocs fell upon them. One of them, Swamp Talker, seized the orders from Bengor as a spear struck his skull. Before he passes out, Bengor speaks of a cave to the east. Recover the orders and take them to the Fallen Hero of the Horde.",
    "spoiler": 0
   },
   {
    "title": "The Fallen Hero's Reckoning",
-   "body": "The Fallen Hero of the Horde finds it worse than imagined. Nineteen of the Hero's men could have been spared agony if the Hero had not acted so irrationally. Powerless to act, the Hero urges you to help those men.",
+   "body": "The Fallen Hero of the Horde finds the cost worse than imagined. Nineteen of the Hero's men might have been spared agony if the Hero had not acted so irrationally. Powerless to help them, the Hero asks you to aid those men.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "who is swamp talker",
     "who stole orders"
    ],
-   "answer": "A murloc named Swamp Talker took the orders from Bengor's hands during the ambush."
+   "answer": "During the ambush, a murloc named Swamp Talker took the orders from Bengor's hands."
   },
   {
    "q": "Where did the Swamp Talker go?",
@@ -54,7 +54,7 @@
     "swamp talker location",
     "where is the murloc cave"
    ],
-   "answer": "Bengor's fading words mention a cave to the east."
+   "answer": "As Bengor fades, he speaks of a cave to the east."
   },
   {
    "q": "Where were Bengor and his unit heading?",
@@ -63,7 +63,7 @@
     "where was bengor going",
     "bengor unit goal"
    ],
-   "answer": "They were on their way to the Blasted Lands, carrying orders from the dispatch commander, when the murlocs ambushed them."
+   "answer": "Bengor and his unit were carrying orders from the dispatch commander to the Blasted Lands when murlocs ambushed them."
   },
   {
    "q": "To whom should the orders be returned?",
@@ -72,7 +72,7 @@
     "where do i turn in the orders",
     "turn in swamp talker quest"
    ],
-   "answer": "They must be brought to the Fallen Hero of the Horde."
+   "answer": "Take the orders to the Fallen Hero of the Horde."
   }
  ],
  "angles": [],
@@ -95,5 +95,6 @@
  ],
  "attribution": [
   "The Swamp Talker"
- ]
+ ],
+ "style": 2
 }

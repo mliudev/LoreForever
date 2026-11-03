@@ -24,11 +24,11 @@
    "You Are Rakh'likh, Demon"
   ]
  },
- "summary": "With newly forged weapons in hand, you are directed back from Stranglethorn Vale to the Blasted Lands. The spirit of the Fallen Hero of the Horde awaits your return to set you against the demon Razelikh.",
+ "summary": "Galvan the Ancient sends you back to the Blasted Lands with your newly forged weapons. The Fallen Hero of the Horde waits there, ready to ask if you will face Razelikh.",
  "sections": [
   {
    "title": "A Call to Redemption",
-   "body": "Following the completion of your enchanted armaments, Galvan the Ancient proclaims that the hour of redemption is at hand. You carry the newly crafted weapons back to the Blasted Lands, seeking out the Fallen Hero of the Horde. The ghostly warrior asks whether you are prepared to face Razelikh and his minions.",
+   "body": "Galvan the Ancient says your hour of redemption has come. Your enchanted weapons are complete, so you carry them back to the Blasted Lands to find the Fallen Hero of the Horde. The ghostly warrior asks if you are ready to face Razelikh and his minions.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "quest giver",
     "galvan the ancient"
    ],
-   "answer": "Galvan the Ancient directs you to take your newly fashioned weaponry and return to the Blasted Lands."
+   "answer": "Galvan the Ancient forges your weapons, then sends you back with them to the Blasted Lands."
   },
   {
    "q": "Whom are you sent to meet in the Blasted Lands?",
@@ -49,7 +49,7 @@
     "where to turn in",
     "fallen hero"
    ],
-   "answer": "You are sent to speak once again with the Fallen Hero of the Horde, who awaits your arrival to reveal your final confrontation."
+   "answer": "You are sent to meet the Fallen Hero of the Horde again. He awaits your return and will reveal your final confrontation."
   },
   {
    "q": "What comes before this step?",
@@ -57,7 +57,7 @@
     "previous quest",
     "prerequisite"
    ],
-   "answer": "This step follows Enchanted Azsharite Fel Weaponry, in which your specialized weapons were completed."
+   "answer": "This follows Enchanted Azsharite Fel Weaponry, where your specialized weapons were completed."
   },
   {
    "q": "Who is the enemy awaiting you in the Blasted Lands?",
@@ -66,7 +66,7 @@
     "razelikh",
     "final boss"
    ],
-   "answer": "Upon your return, the Fallen Hero of the Horde asks if you are prepared to face Razelikh and his minions."
+   "answer": "The Fallen Hero of the Horde asks if you are ready to face Razelikh and his minions."
   }
  ],
  "angles": [],
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Return to the Blasted Lands"
- ]
+ ],
+ "style": 2
 }

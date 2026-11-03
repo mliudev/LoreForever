@@ -8,11 +8,11 @@
   "wiki": "Pao'ka Swiftmountain",
   "refs": 1
  },
- "summary": "Pao'ka Swiftmountain is a young tauren naturalist stranded among the wild wyverns of Highperch in Thousand Needles. Having traveled south under the guidance of Motega Firemane, his youthful curiosity got the better of him when he ventured too close to a nesting site and ended up cornered in the cliffs.",
+ "summary": "Among Highperch's cliffs, Pao'ka Swiftmountain is trapped by the wyverns he came to study. He traveled south with Motega Firemane, but curiosity brought him too near their nesting grounds.",
  "sections": [
   {
    "title": "A Naturalist in Trouble",
-   "body": "Pao'ka came to the canyon country of Thousand Needles alongside Motega Firemane, eager to catalog and study the dangerous beasts of the canyons. His father had been reluctant to let his son go on such a perilous journey, and Pao'ka's recent misadventure proves those concerns were warranted. Fascinated by the magnificent wyverns inhabiting Highperch, the young scholar crept up the mountain trail behind a solitary tauren totem. Unsurprisingly, the territorial beasts took offense to his intrusion, driving him deep into the crags where he found himself trapped and terrified, unable to slip past the swooping predators to return to Whitereach Post.",
+   "body": "Pao'ka came to Thousand Needles with Motega Firemane to study the canyon beasts. His father feared the journey was too perilous, and now Pao'ka's plight has proved him right.\n\nThe young scholar followed a mountain trail behind a solitary tauren totem, drawn by Highperch's wyverns. The territorial beasts drove him into the crags. Now he is trapped and terrified, with swooping wyverns barring his way back to Whitereach Post.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "paoka swiftmountain",
     "who is the tauren at highperch"
    ],
-   "answer": "Pao'ka is a young tauren scholar who accompanied Motega Firemane to Thousand Needles to study regional wildlife, only to become trapped by territorial wyverns on Highperch."
+   "answer": "Pao'ka is a young tauren scholar who came to Thousand Needles with Motega Firemane to study the region's wildlife. Territorial wyverns have trapped him on Highperch."
   },
   {
    "q": "Where can Pao'ka Swiftmountain be found?",
@@ -33,7 +33,7 @@
     "highperch path",
     "how to find paoka"
    ],
-   "answer": "He is stranded atop Highperch in Thousand Needles. Reaching him requires finding a towering tauren totem near the cliffs, where a narrow path behind it climbs up the mountainside into the wyvern roosts."
+   "answer": "Pao'ka is stranded atop Highperch in Thousand Needles. A narrow path climbs the mountainside behind a towering tauren totem near the cliffs and leads to the wyvern roosts."
   },
   {
    "q": "Why is he hiding in Highperch?",
@@ -41,7 +41,7 @@
     "why is paoka trapped",
     "why did wyverns attack paoka"
    ],
-   "answer": "His fascination with wyverns led him too close to one of their nests. The angry beasts chased him away and cut off his retreat, forcing him into hiding for several days."
+   "answer": "Pao'ka's fascination with wyverns brought him too close to one of their nests. The angry beasts drove him away and blocked his retreat, leaving him in hiding for several days."
   },
   {
    "q": "What happens after you help him escape?",
@@ -49,17 +49,17 @@
     "homeward bound outcome",
     "does paoka make it back"
    ],
-   "answer": "Once escorted safely out of the nesting grounds, Pao'ka flees back to Motega Firemane at Whitereach Post, desperately hoping his mentor will not report the blunder to his father."
+   "answer": "After you lead Pao'ka safely out of the nesting grounds, he flees to Motega Firemane at Whitereach Post. He hopes his mentor will keep the blunder from his father."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Pao'ka represents the next generation of tauren scholars exploring Kalimdor; keeping him alive maintains strong ties with the elders at Whitereach Post."
+   "text": "As a member of the Horde, you help keep Pao'ka alive and preserve strong ties with the elders at Whitereach Post. He belongs to a new generation of tauren scholars exploring Kalimdor."
   },
   {
    "target": "race:Tauren",
-   "text": "Wyverns are deeply revered by the tauren as allies and faithful mounts, making Pao'ka's poorly planned intrusion both embarrassing and dangerous."
+   "text": "As a tauren, you know wyverns are deeply revered as allies and faithful mounts. Pao'ka's poorly planned intrusion is embarrassing and dangerous."
   }
  ],
  "keywords": [
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Pao'ka Swiftmountain"
- ]
+ ],
+ "style": 2
 }

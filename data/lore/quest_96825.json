@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Securing sustainable food sources like hearty desert fruits is vital for sustaining the Orcish capital and nourishing the Horde's growing population."
+   "text": "As a member of the Horde, you know sustainable food sources like hearty desert fruits can help feed Orgrimmar and the Horde's growing population."
   },
   {
    "target": "profession:Cooking",
-   "text": "Prickly pears offer culinary potential in the arid climate of Durotar, serving as ingredients for tasty dishes and supplies for city residents."
+   "text": "As a cook, you can prepare prickly pears into dishes, and the fruit can also supply city residents."
   },
   {
    "target": "profession:Herbalism",
-   "text": "Harvesters and botanists understand the hardiness of desert flora and the effort required to gather spiny wild fruits for cultivation."
+   "text": "As a herbalist, you know how hardy desert plants can be and how much effort it takes to gather spiny wild fruits for cultivation."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "this fruit could bite back quest",
     "bite back fruit quest"
    ],
-   "answer": "This Fruit Could Bite Back is a task focused on gathering wild prickly pears in Durotar. The collected fruit is intended both for immediate cooking and for saving seeds to propagate across the dry terrain surrounding Orgrimmar.",
+   "answer": "You gather wild prickly pears in Durotar for cooking and save their seeds to plant across the dry land around Orgrimmar.",
    "q": "What is This Fruit Could Bite Back?"
   },
   {
@@ -41,7 +41,7 @@
     "prickly pear purpose",
     "what are prickly pears for"
    ],
-   "answer": "The gathered prickly pears serve a dual purpose: preparing delicious meals for local consumption and harvesting viable seeds. The long-term goal is cultivating prickly pears widely throughout the arid land around Orgrimmar.",
+   "answer": "Prickly pears provide food for local meals, and their seeds are saved for planting. The aim is to grow them across the arid land around Orgrimmar.",
    "q": "Why are prickly pears being gathered?"
   },
   {
@@ -49,7 +49,7 @@
     "where grow prickly pears",
     "prickly pear planting orgrimmar"
    ],
-   "answer": "The seeds salvaged from the gathered harvest are slated for planting throughout the outskirts and lands surrounding Orgrimmar, helping establish a resilient, self-sustaining food supply in the harsh desert soil.",
+   "answer": "The seeds are meant to be planted throughout the outskirts and lands around Orgrimmar, where they can help establish a resilient food supply in the harsh desert soil.",
    "q": "Where will the seeds be planted?"
   },
   {
@@ -57,7 +57,7 @@
     "who wants the prickly pears",
     "quest giver bite back"
    ],
-   "answer": "A local resident seeking to improve local food stores and cultivate crops in the harsh desert climate of Durotar requests the harvest to feed travelers and cultivate future crops.",
+   "answer": "A local resident wants the harvest to improve local food stores, feed travelers, and grow crops suited to Durotar's harsh desert climate.",
    "q": "Who wants these fruits gathered?"
   },
   {
@@ -65,7 +65,7 @@
     "why bite back",
     "why does fruit bite back"
    ],
-   "answer": "Prickly pears are covered in sharp spines and needles typical of hardy desert cacti, making harvesting them hazardous without proper care.",
+   "answer": "Prickly pears have sharp spines and needles like other hardy desert cacti, so gatherers must take care.",
    "q": "Why does the fruit 'bite back'?"
   },
   {
@@ -74,7 +74,7 @@
     "orgrimmar agriculture",
     "durotar farming"
    ],
-   "answer": "Durotar is predominantly arid and rocky, making conventional agriculture difficult. Establishing drought-tolerant crops like prickly pears helps provide sustainable sustenance for the capital city.",
+   "answer": "Durotar is mostly arid and rocky, making conventional farming difficult. Drought-tolerant prickly pears could help provide a lasting food supply for Orgrimmar.",
    "q": "Why is planting fruit around Orgrimmar important?"
   }
  ],
@@ -93,18 +93,19 @@
  ],
  "sections": [
   {
-   "body": "Durotar is a rugged, sun-baked landscape where traditional farming is nearly impossible. To support the burgeoning capital of Orgrimmar, resourceful inhabitants turn to native desert flora. The prickly pear, a hardy cactus fruit equipped with protective spines, thrives in the arid soil and provides much-needed nourishment when gathered with care.",
+   "body": "Durotar is rugged and sun-baked, where traditional farming is nearly impossible. Its hardy prickly pears thrive in the arid soil, so inhabitants gather them to help feed Orgrimmar. Their protective spines call for care, and their fruit brings needed nourishment.",
    "spoiler": 0,
    "title": "Harvesting the Arid Wastes"
   },
   {
-   "body": "Gathering prickly pears is not merely about providing an immediate meal. While the flesh of the fruit is prepared into tasty dishes, the harvested seeds are carefully preserved for cultivation. The ambition is to plant these resilient crops all around Orgrimmar, establishing an accessible and enduring food source right outside the fortress walls.",
+   "body": "Prickly pears feed people now and can help supply food in the years ahead. Their flesh is prepared for dishes, while their seeds are carefully preserved for planting. The aim is to grow this resilient crop around Orgrimmar, creating a lasting food source close outside the fortress walls.",
    "spoiler": 0,
    "title": "Cultivation and Sustenance"
   }
  ],
- "summary": "This Fruit Could Bite Back is a foraging quest focused on collecting wild prickly pears in the arid lands near Orgrimmar. The fruits are prepared into food while their seeds are saved for future planting, with the aim of cultivating a resilient desert crop to nourish the Horde capital.",
+ "summary": "In Durotar, prickly pears feed Orgrimmar and promise more food ahead. Gathered with care, these hardy fruits can nourish the Horde capital and provide seeds for future crops.",
  "attribution": [
   "In-game quest text: This Fruit Could Bite Back"
- ]
+ ],
+ "style": 2
 }

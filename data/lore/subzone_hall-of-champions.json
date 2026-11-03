@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Hall of Champions"
  },
- "summary": "The Hall of Champions is the inner sanctum of the Scarlet Monastery's armory wing. It serves as the seat of Herod, the Scarlet Champion, and a proving ground for the Scarlet Crusade's elite.",
+ "summary": "Within the Scarlet Monastery's armory wing, the Hall of Champions tests the Crusade's elite. Herod, the Scarlet Champion, leads its fiercest fighters from this inner sanctum.",
  "sections": [
   {
    "title": "Seat of the Scarlet Champion",
-   "body": "Situated past the Footman's Armory, the Hall of Champions lies at the heart of the monastery's armory wing. Here Herod, the Scarlet Champion, holds sway over the Crusade's fiercest fighters, and Scarlet trainees harden their resolve to purge Lordaeron of all undead and outsiders.",
+   "body": "Beyond the Footman's Armory, you come to the Hall of Champions at the heart of the monastery's armory wing. Herod, the Scarlet Champion, commands the Crusade's fiercest fighters here.\n\nScarlet trainees sharpen their resolve and skill for the Crusade's aim: to purge Lordaeron of all undead and outsiders.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "hall of champions purpose",
     "why are there statues here"
    ],
-   "answer": "The hall is the inner sanctum of the monastery's armory, where Herod, the Scarlet Champion, leads the Crusade's elite fighters and trainees hone their skills for the war against the undead."
+   "answer": "The Hall of Champions is the inner sanctum of the monastery's armory and a proving ground for the Scarlet Crusade's elite. Herod, the Scarlet Champion, leads its fighters while trainees hone their skills for the war against the undead."
   },
   {
    "q": "Who are the people immortalized in the statues?",
@@ -32,7 +32,7 @@
     "statue names hall of champions",
     "monastery statues"
    ],
-   "answer": "No champions memorialized here are named in the records of this era. The hall's most famous figure is a living one: Herod, the Scarlet Champion, who guards the chamber."
+   "answer": "No champions memorialized here are named in the records of this era. Herod, the Scarlet Champion, is the hall's best-known figure and guards the chamber."
   },
   {
    "q": "How does this hall differ from Stormwind's Champions' Hall?",
@@ -41,17 +41,17 @@
     "hall of champions vs champions hall",
     "pvp hall confusion"
    ],
-   "answer": "Despite the similar name, this chamber is located deep inside the Scarlet Monastery in Tirisfal Glades, dedicated to honored Scarlet figures. Stormwind City's Champions' Hall is a military garrison reserved for Alliance officers and PvP quartermasters."
+   "answer": "Though their names are similar, the Hall of Champions lies deep inside the Scarlet Monastery in Tirisfal Glades and honors Scarlet figures. Stormwind City's Champions' Hall is a military garrison reserved for Alliance officers and PvP quartermasters."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "For knights of the Holy Light, facing the Scarlet Champion Herod in his own hall is a somber reminder of how genuine virtue and faith can become twisted by zealotry."
+   "text": "As a knight of the Holy Light, facing Herod, the Scarlet Champion, in his own hall reminds you that genuine virtue and faith can twist into zealotry."
   },
   {
    "target": "race:Human",
-   "text": "Human travelers from Lordaeron may recognize among the Crusade's champions former defenders of the northern kingdoms who threw their lot in with the fanatical Crusade."
+   "text": "As a human traveler from Lordaeron, you may recognize former defenders of the northern kingdoms among the Crusade's champions. They have thrown their lot in with the fanatical Crusade."
   }
  ],
  "keywords": [
@@ -70,5 +70,6 @@
  ],
  "attribution": [
   "Hall of Champions"
- ]
+ ],
+ "style": 2
 }

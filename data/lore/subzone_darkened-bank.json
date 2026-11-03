@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Darkened Bank"
  },
- "summary": "At Duskwood’s northern edge, Darkened Bank follows the river beside Elwynn Forest. Its shore runs east toward the Redridge Mountains, between the safer north and the forest’s terrors.",
+ "summary": "At Duskwood’s northern edge, Darkened Bank runs beside Elwynn Forest. Its shore reaches east toward the Redridge Mountains, between safer ground and the forest’s terrors.",
  "sections": [
   {
    "title": "A Precarious Boundary",
-   "body": "Darkened Bank follows the river that separates Duskwood from Elwynn Forest. The shore runs from western river bends east toward the stone span leading to the Redridge Mountains. Under Duskwood’s gloomy canopy, it is often the first ground travelers reach when coming south from Elwynn. Near its western tip, a makeshift camp shelters displaced refugees Sven Yorgen and Lars, just beyond the deep woods.",
+   "body": "Darkened Bank follows the river that divides Duskwood from Elwynn Forest. Its shore stretches from the western bends to the stone span leading to the Redridge Mountains. Beneath Duskwood’s gloomy canopy, travelers coming south from Elwynn often reach this ground first. Near the western tip, a makeshift camp shelters the displaced Sven Yorgen and Lars, just beyond the deep woods.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is darkened bank",
     "darkened bank duskwood"
    ],
-   "answer": "Darkened Bank follows Duskwood’s northern shore along the river, across from Elwynn Forest. It runs from the far west of the zone east to the bridge crossing into the Redridge Mountains."
+   "answer": "Darkened Bank follows Duskwood’s northern shore along the river, opposite Elwynn Forest. It runs from the zone’s far west to the bridge crossing into the Redridge Mountains."
   },
   {
    "q": "Who lives along the Darkened Bank?",
@@ -40,13 +40,13 @@
     "how to get to darkened bank",
     "getting to darkened bank"
    ],
-   "answer": "You can reach the western shore by swimming south across the river from southwestern Elwynn Forest, or by following the southern riverbank west from the Redridge bridge."
+   "answer": "You can reach the western shore by swimming south across the river from southwestern Elwynn Forest. Or follow the southern riverbank west from the Redridge bridge."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance adventurer leaving Elwynn Forest, you can use Darkened Bank as your first stopping ground before heading deeper into Duskwood’s haunted heart."
+   "text": "As an Alliance adventurer leaving Elwynn Forest, you can stop first at Darkened Bank before heading deeper into Duskwood’s haunted heart."
   }
  ],
  "keywords": [
@@ -68,5 +68,5 @@
  "attribution": [
   "Darkened Bank"
  ],
- "style": 1
+ "style": 2
 }

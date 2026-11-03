@@ -19,16 +19,16 @@
    "WANTED: Baron Vardus"
   ]
  },
- "summary": "On Tarren Mill's bounty board, Lady Sylvanas's decree condemns every Syndicate member to death. The Forsaken seek to clear the brigands from Durnholde Keep's ruins before they threaten Horde operations in the foothills.",
+ "summary": "At Tarren Mill, Lady Sylvanas Windrunner's bounty calls for every Syndicate member's death. The Forsaken want the brigands driven from Durnholde Keep before they threaten Horde operations in the foothills.",
  "sections": [
   {
    "title": "A Standing Execution Order",
-   "body": "The Syndicate's sudden arrival southeast of Tarren Mill has drawn the Forsaken's attention. Lady Sylvanas Windrunner and her commanders see the Syndicate as an active pestilence, not displaced nobles to bargain with. The bounty orders immediate death. Any prisoners brought in will be executed without trial.",
+   "body": "The Syndicate's sudden arrival southeast of Tarren Mill has drawn the Forsaken's attention. Lady Sylvanas Windrunner and her commanders see the Syndicate as a plague, not displaced nobles to bargain with. Her bounty orders their immediate death. Any prisoners brought in will be executed without trial.",
    "spoiler": 0
   },
   {
    "title": "The Ruins of Durnholde",
-   "body": "Durnholde Keep, once an infamous internment fortress, now lies shattered and lawless. Syndicate Rogues and Watchmen have taken its crumbling ramparts and towers as an operations hub. High Executor Darthalia needs the armed bandits driven from the ruins to secure the road and protect Tarren Mill's southeastern approach.",
+   "body": "Durnholde Keep was once an infamous internment fortress. Now it lies shattered and lawless. Syndicate Rogues and Watchmen have taken its crumbling ramparts and towers as an operations hub. High Executor Darthalia needs the armed bandits driven out to secure the road and protect Tarren Mill's southeastern approach.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "who wants syndicate dead",
     "bounty poster"
    ],
-   "answer": "Lady Sylvanas Windrunner issued the bounty under her direct authority, and it is posted on Tarren Mill's notice board. High Executor Darthalia, the settlement's military commander, collects proof of execution."
+   "answer": "Lady Sylvanas Windrunner issued the bounty under her direct authority, and it hangs on Tarren Mill's notice board. High Executor Darthalia, the settlement's military commander, collects proof of execution."
   },
   {
    "q": "Where are these Syndicate members located?",
@@ -49,7 +49,7 @@
     "durnholde syndicate location",
     "where to find watchmen"
    ],
-   "answer": "Syndicate members gather among Durnholde Keep's shattered stones, southeast of Tarren Mill across the river, and around the ruined guard tower just south of the fortress."
+   "answer": "Syndicate members gather among Durnholde Keep's shattered stones, southeast of Tarren Mill across the river. Others are around the ruined guard tower just south of the fortress."
   },
   {
    "q": "Why do the Forsaken want them dead instead of captured?",
@@ -58,7 +58,7 @@
     "why no prisoners",
     "darthalia syndicate"
    ],
-   "answer": "The Forsaken see the Syndicate as treacherous pests and an armed threat on their territory. The decree orders any captured members executed without trial, so there is no point in taking them alive."
+   "answer": "The Forsaken see the Syndicate as treacherous pests and an armed threat on their territory. The decree orders captured members executed without trial, so there is no point in taking them alive."
   },
   {
    "q": "What is the Syndicate doing in Durnholde Keep?",
@@ -67,7 +67,7 @@
     "syndicate purpose hillsbrad",
     "durnholde keep occupiers"
    ],
-   "answer": "Made up mostly of disgraced Alteraci nobles and mercenaries, the Syndicate uses abandoned keeps, ruins, and towers across Lordaeron as bases to raid settlements, rob travelers, and rebuild its shattered power."
+   "answer": "The Syndicate is made up mostly of disgraced Alteraci nobles and mercenaries. Across Lordaeron, its members use abandoned keeps, ruins, and towers as bases to raid settlements, rob travelers, and rebuild their shattered power."
   },
   {
    "q": "What happens after culling these Syndicate operatives?",
@@ -82,15 +82,15 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, clearing Alterac's living noble remnants is a practical need if they are to hold the hills of Lordaeron without challenge."
+   "text": "As Forsaken, you have practical reason to clear Alterac's living noble remnants if you are to hold the hills of Lordaeron without challenge."
   },
   {
    "target": "faction:Horde",
-   "text": "Durnholde Keep carries grim memories for the Horde as the internment fortress where orcs were once held captive. Clearing the brigands from its ruins carries symbolic weight."
+   "text": "Durnholde Keep carries grim memories for the Horde. Orcs were once held captive in this internment fortress, so clearing its brigands carries symbolic weight."
   },
   {
    "target": "class:Rogue",
-   "text": "The Syndicate has skilled cutpurses and ambushers throughout Durnholde, bringing rival practitioners of stealth into direct conflict."
+   "text": "The Syndicate has skilled cutpurses and ambushers throughout Durnholde. You face rival practitioners of stealth."
   }
  ],
  "keywords": [
@@ -115,5 +115,5 @@
  "attribution": [
   "WANTED: Syndicate Personnel"
  ],
- "style": 1
+ "style": 2
 }

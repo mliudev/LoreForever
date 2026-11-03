@@ -10,16 +10,16 @@
    "quest:901"
   ]
  },
- "summary": "At the Venture Company digsite in the Barrens, Tinkerer Sniggles holds the Console Key. It unlocks the main control terminal and lets the samophlange be removed once the apparatus is shut down.",
+ "summary": "At the Venture Company digsite in the Barrens, Tinkerer Sniggles keeps the Console Key. It opens the main control terminal and frees the samophlange after the apparatus shuts down.",
  "sections": [
   {
    "title": "Securing the Apparatus",
-   "body": "The Venture Company runs an industrial outpost in the northern Barrens. Its steam-driven machinery depends on a device called a samophlange. The console is locked against unauthorized hands, and only Tinkerer Sniggles, the chief technician on site, carries the Console Key. The key opens the terminal casing so the rig can be powered down.",
+   "body": "The Venture Company runs an industrial outpost in the northern Barrens, powered by steam-driven machinery. At its heart is a device called a samophlange. The console is locked, and only Tinkerer Sniggles, the chief technician on site, carries the Console Key. It opens the terminal casing so the rig can be powered down.",
    "spoiler": 0
   },
   {
    "title": "Shutting Down the Rig",
-   "body": "After the auxiliary valves are turned and the apparatus cools to a stop, the Console Key cuts the final circuits. Turning it drains the terminal's remaining power and unlocks its housing, letting the samophlange be pried from the machinery.",
+   "body": "Once the auxiliary valves are turned and the apparatus cools to a stop, the Console Key cuts the final circuits. Turning it drains the terminal's remaining power and unlocks its housing. Then the samophlange can be pried from the machinery.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what does console key open",
     "console key use"
    ],
-   "answer": "The Console Key unlocks the main control console at the Venture Company rig in the northern Barrens. Once the machinery is idle, it drains power from the terminal and exposes the samophlange."
+   "answer": "The Console Key opens the main control console at the Venture Company rig in the northern Barrens. Once the machinery is idle, it drains power from the terminal and exposes the samophlange."
   },
   {
    "q": "Who carries the Console Key?",
@@ -48,7 +48,7 @@
     "why do i need a key",
     "why is samophlange locked"
    ],
-   "answer": "The Venture Company locks the terminal to keep rivals and unruly workers from interfering with its machinery or taking valuable parts like the samophlange."
+   "answer": "The Venture Company locks the terminal to keep rivals and unruly workers from interfering with its machinery or taking valuable parts such as the samophlange."
   },
   {
    "q": "Can you use the key before shutting down the valves?",
@@ -56,13 +56,13 @@
     "use key first",
     "can i just unlock console"
    ],
-   "answer": "Use the Console Key after the valves are shut down and the gauges read zero. Trying the active console risks a mechanical backfire."
+   "answer": "Use the Console Key after the valves are shut down and the gauges read zero. The active console can cause a mechanical backfire."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The Venture Company uses custom keyed locks to protect delicate engineering prototypes like the samophlange from competitors."
+   "text": "The Venture Company uses custom keyed locks to protect delicate engineering prototypes such as the samophlange from competitors."
   },
   {
    "target": "faction:Horde",
@@ -85,5 +85,5 @@
   "Console Key",
   "Samophlange (Classic 3)"
  ],
- "style": 1
+ "style": 2
 }

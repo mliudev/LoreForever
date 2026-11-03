@@ -10,16 +10,16 @@
    "quest:812"
   ]
  },
- "summary": "In Durotar, Venomtail Antidote is urgently needed to save a scout from scorpid poison. Kor'ghan brews the remedy in Orgrimmar for Rhinag, who lies stricken near Durotar's northwestern border.",
+ "summary": "In Durotar, Rhinag lies stricken by scorpid venom, and time is running short. Kor'ghan brews the antidote in Orgrimmar for the scout near the northwestern border.",
  "sections": [
   {
    "title": "A Race Against the Venom",
-   "body": "Durotar's venomtail scorpids can kill a warrior within an hour of a deep sting. Rhinag, a troll scout, was envenomed near the northwestern border, far from aid. His only chance is a remedy from Kor'ghan, an apothecary in Orgrimmar's Cleft of Shadow.",
+   "body": "A deep sting from Durotar's venomtail scorpids can kill a warrior within an hour. Rhinag, a troll scout, was envenomed near the northwestern border, far from aid. His only hope is a remedy from Kor'ghan, an apothecary in Orgrimmar's Cleft of Shadow.",
    "spoiler": 0
   },
   {
    "title": "Kor'ghan's Cure",
-   "body": "Finding Kor'ghan means making your way beneath Orgrimmar. He knows desert toxins and harsh remedies, and prepares a vial to purge the venom before it turns fatal. The draught stops the poison and spares Rhinag a humiliating death in the wilderness. Kor'ghan still demands further trials and hunts from the scout to atone for his carelessness.",
+   "body": "Kor'ghan works beneath Orgrimmar, where he knows desert toxins and harsh remedies. He prepares a vial to purge the venom before it turns fatal. The draught stops the poison and spares Rhinag a humiliating death in the wilderness. Even so, Kor'ghan demands further trials and hunts from the scout to atone for his carelessness.",
    "spoiler": 0
   }
  ],
@@ -49,7 +49,7 @@
     "how long does rhinag have",
     "venomtail poison timer"
    ],
-   "answer": "Venomtail poison can kill Rhinag within an hour of the sting. You must secure the antidote and rush it back across Durotar to prevent his death."
+   "answer": "Venomtail poison can kill Rhinag within an hour of the sting. You must secure the antidote and rush it back across Durotar to save his life."
   },
   {
    "q": "Why is Rhinag hesitant to seek help in Sen'jin Village?",
@@ -95,5 +95,5 @@
   "Venomtail Antidote",
   "Need for a Cure"
  ],
- "style": 1
+ "style": 2
 }

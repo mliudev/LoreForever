@@ -10,11 +10,11 @@
    "quest:1002"
   ]
  },
- "summary": "Near Auberdine, travelers gather Moonstalker Fangs for Wizbang Cranktoggle's sampling devices. The teeth come from the moonstalkers of Darkshore.",
+ "summary": "Near Auberdine, travelers collect Moonstalker Fang for Wizbang Cranktoggle's sampling devices. The teeth come from Darkshore's moonstalkers.",
  "sections": [
   {
    "title": "A Grinding Mechanism",
-   "body": "Moonstalker Fangs come from saber cats that hunt along Darkshore’s forest fringes. Their long teeth can shear flesh and bone. Wizbang Cranktoggle, an eccentric gnome tinkerer, uses them in a different way. North of Auberdine, near the bridge, Buzzbox 323 crushes the durable fangs to dust for his ecological surveys.",
+   "body": "Moonstalker Fangs come from saber cats that hunt along Darkshore’s forest fringes. Their long teeth can shear flesh and bone. Wizbang Cranktoggle, an eccentric gnome tinkerer, puts them to another use. North of Auberdine near the bridge, Buzzbox 323 grinds the durable fangs to dust for his ecological surveys.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who drops moonstalker fangs",
     "fang source"
    ],
-   "answer": "Moonstalker Fangs come from moonstalkers in Darkshore, including runts, adults, sires, matriarchs, and the prowler Shadowclaw."
+   "answer": "Moonstalker Fangs come from Darkshore's moonstalkers, from runts and adults to sires, matriarchs, and the prowler Shadowclaw."
   },
   {
    "q": "Who wants Moonstalker Fangs?",
@@ -74,5 +74,5 @@
   "Moonstalker Fang",
   "Buzzbox 323 (quest)"
  ],
- "style": 1
+ "style": 2
 }

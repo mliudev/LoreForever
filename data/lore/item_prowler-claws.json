@@ -10,16 +10,16 @@
    "quest:903"
   ]
  },
- "summary": "Across the Barrens, Prowler Claws are carried back to Sergra Darkthorn at the Crossroads. They show that a hunter can track and defeat the prowlers stalking the plains.",
+ "summary": "Across the Barrens, Prowler Claws return to Sergra Darkthorn at the Crossroads. They prove a hunter can track and defeat the prowlers stalking the plains.",
  "sections": [
   {
    "title": "Trophies of the Stalker",
-   "body": "Savannah Prowlers hide in the Barrens’ tall grass, waiting to strike with patience and cunning. These large cats ambush creatures that enter their hunting grounds, unlike grazing plainstriders and zhevra. Taking their curved claws means facing predators that rely on stealth and defend their territory. For Horde warriors and scouts, the hunt tests whether they can track a stalker through its own ground and make it the prey.",
+   "body": "Savannah Prowlers wait in the Barrens’ tall grass, ready to strike with patience and cunning. Unlike grazing plainstriders and zhevra, these large cats ambush creatures that enter their hunting grounds. Taking their curved claws means facing predators that rely on stealth and defend their territory. For Horde warriors and scouts, the hunt tests whether they can track a stalker across its own ground and make it the prey.",
    "spoiler": 0
   },
   {
    "title": "Proof for the Huntress",
-   "body": "Sergra Darkthorn, the huntress at the Crossroads, asks initiates to bring back Prowler Claws before facing greater trials. The claws show that a hunter can follow tracks through the savannah grass and withstand a predator’s attack. Those who return with them have proved they can stay alert among the dangerous beasts of the plains.",
+   "body": "Sergra Darkthorn, the huntress at the Crossroads, asks initiates to bring her Prowler Claws before they face greater trials. The claws prove a hunter can follow tracks through savannah grass and withstand a predator’s attack. Those who return with them have shown they can stay alert among the plains’ dangerous beasts.",
    "spoiler": 0
   }
  ],
@@ -54,11 +54,11 @@
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter, tracking down savannah prowlers and taking their claws tests your skill at stealth, tracking, and handling beasts at close range."
+   "text": "As a hunter, tracking savannah prowlers and taking their claws tests your skill at stealth, tracking, and handling beasts at close range."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, helping cull prowlers around the Crossroads protects messengers, caravans, and settlers on the central roads of Kalimdor."
+   "text": "As a member of the Horde, helping cull prowlers around the Crossroads protects messengers, caravans, and settlers on Kalimdor’s central roads."
   }
  ],
  "keywords": [
@@ -80,5 +80,5 @@
   "Prowler Claws",
   "Prowlers of the Barrens"
  ],
- "style": 1
+ "style": 2
 }

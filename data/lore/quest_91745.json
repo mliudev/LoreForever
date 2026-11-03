@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "Kelsey Fargo serves as a mining apprentice stationed right outside Echo Ridge Mine, offering a practical local contact for prospective miners seeking to understand mineral work and nearby conditions."
+   "text": "As a miner, you can speak with Kelsey Fargo, an apprentice stationed just outside Echo Ridge Mine. She is a local contact for learning about mineral work and conditions nearby."
   },
   {
    "target": "race:Human",
-   "text": "Northshire Valley is the training ground for new human adventurers, where securing the abbey's valuable archives and nearby mines against kobold intrusion is essential to regional stability."
+   "text": "As a human, you begin in Northshire Valley, a training ground for new adventurers. The abbey’s archives and nearby mines matter to the region, and kobolds threaten them both."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "kelsey fargo role",
     "mining apprentice northshire"
    ],
-   "answer": "Kelsey Fargo is an apprentice miner stationed just outside the entrance to Echo Ridge Mine in Northshire Valley. Because of her work post, she is in prime position to observe the unusual movements and habits of the local kobolds.",
+   "answer": "Kelsey Fargo is a mining apprentice stationed just outside Echo Ridge Mine in Northshire Valley. From her post, she can watch the local kobolds’ movements and habits.",
    "q": "Who is Kelsey Fargo?"
   },
   {
@@ -37,7 +37,7 @@
     "kobolds reading",
     "books in echo ridge mine"
    ],
-   "answer": "According to Kelsey Fargo, kobolds have been seen running back and forth while arguing and carrying books. She suspects they are stealing volumes directly from the library within Northshire Abbey, though their exact purpose remains a mystery.",
+   "answer": "Kelsey Fargo has seen kobolds running back and forth with books while arguing. She suspects they stole the volumes from the library inside Northshire Abbey, but their purpose is unknown.",
    "q": "Why are kobolds carrying books?"
   },
   {
@@ -45,7 +45,7 @@
     "where is echo ridge mine",
     "echo ridge mine location"
    ],
-   "answer": "Echo Ridge Mine is situated in northwestern Northshire Valley, tucked into the hills northwest of Northshire Abbey. It has become heavily infested with kobolds who disrupted mining operations.",
+   "answer": "Echo Ridge Mine lies in the hills northwest of Northshire Abbey, in northwestern Northshire Valley. Kobolds have heavily infested it and disrupted mining operations.",
    "q": "Where is Echo Ridge Mine?"
   },
   {
@@ -53,7 +53,7 @@
     "where do the books come from",
     "abbey library kobolds"
    ],
-   "answer": "The stolen books are believed to have been taken from the library inside Northshire Abbey, which holds records, scriptures, and historical volumes maintained by the local human clergy and scholars.",
+   "answer": "The books are believed to have come from the library inside Northshire Abbey. Local human clergy and scholars keep records, scriptures, and historical volumes there.",
    "q": "Where are the kobolds getting these books?"
   },
   {
@@ -61,7 +61,7 @@
     "mining consultant quest purpose",
     "why talk to kelsey"
    ],
-   "answer": "The task directs adventurers to check in with Kelsey Fargo outside the mine to investigate reports of peculiar kobold activities and learn what she has witnessed while stationed on-site.",
+   "answer": "You are sent to speak with Kelsey Fargo outside the mine about the strange kobold activity. From her post, she can tell you what she has witnessed.",
    "q": "What is the purpose of consulting the mining apprentice?"
   },
   {
@@ -69,7 +69,7 @@
     "what are the kobolds doing",
     "kobold behavior northshire"
    ],
-   "answer": "Beyond their standard territorial scavenging and digging, kobolds around Echo Ridge Mine have been observed yelling at each other and carting off written texts, demonstrating unusually erratic coordination.",
+   "answer": "Kobolds around Echo Ridge Mine have been seen yelling at one another and carrying off written texts. Their behavior is unusually erratic compared with their usual digging and defense of their territory.",
    "q": "What strange behavior have the kobolds exhibited?"
   }
  ],
@@ -90,18 +90,19 @@
  ],
  "sections": [
   {
-   "body": "The kobold infestation at Echo Ridge Mine has taken an unexpected turn. Rather than merely defending subterranean claims and gathering candles, the creatures have caught the attention of local authorities due to strange, coordinated disturbances. Adventurers are directed to seek out Kelsey Fargo, a mining apprentice stationed near the mine's entrance, to ascertain what she has witnessed from her vantage point outside the tunnels.",
+   "body": "Kobold trouble at Echo Ridge Mine has taken an odd turn. The creatures defend their underground claims and gather candles, but now their coordinated disturbances have caught the authorities’ attention. You are sent to Kelsey Fargo, a mining apprentice stationed near the entrance. From her post outside the tunnels, she has watched the kobolds closely.",
    "spoiler": 0,
    "title": "Trouble at the Mine"
   },
   {
-   "body": "Kelsey Fargo confirms that the mine's pests are displaying bizarre behavior: kobolds have been spotted scampering to and fro carrying heavy tomes and bickering amongst themselves. Kelsey deduces that these volumes were looted directly from the library housed within Northshire Abbey, raising concerns about what illiterate tunnel-dwellers could possibly want with stolen scholarly texts.",
+   "body": "Kelsey Fargo has seen kobolds scampering back and forth with heavy books and arguing as they go. She believes they stole the volumes from the library inside Northshire Abbey. What the tunnel dwellers want with books they cannot read remains unclear.",
    "spoiler": 1,
    "title": "Scholarly Scavengers"
   }
  ],
- "summary": "Mining Consultant is a Northshire Valley quest that sends adventurers to confer with Kelsey Fargo, a mining apprentice stationed outside Echo Ridge Mine. Her observations reveal an unusual development: the local kobolds have begun plundering books from Northshire Abbey's library.",
+ "summary": "At Echo Ridge Mine, Kelsey Fargo watches the kobolds from her post outside the entrance. Their strange movements have drawn local attention.",
  "attribution": [
   "In-game quest text: Mining Consultant"
- ]
+ ],
+ "style": 2
 }

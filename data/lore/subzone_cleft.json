@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Cleft"
  },
- "summary": "Gnarlpine furbolgs ambush travelers in the Cleft, northwest of Dolanaar.",
+ "summary": "Northwest of Dolanaar, Gnarlpine furbolgs ambush travelers in the Cleft.",
  "sections": [
   {
    "title": "A Den of Corruption",
-   "body": "The Cleft lies off the road between Dolanaar and Darnassus, where Gnarlpine furbolgs have made their den. Teldrassil’s spreading corruption has driven them mad, and they have fortified the hollow. From there, they threaten travelers on the main road and risk cutting Dolanaar off from Darnassus.",
+   "body": "Off the road between Dolanaar and Darnassus, Gnarlpine furbolgs have made their den in the Cleft. Teldrassil’s spreading corruption has driven them mad, and they have fortified the hollow. From there, they threaten travelers on the main road and may cut Dolanaar off from Darnassus.",
    "spoiler": 0
   },
   {
    "title": "The Roadway Ambushers",
-   "body": "Moon Priestess Amara and her sentinels keep watch outside the Cleft’s entrance. Their defense guards the main road linking Teldrassil’s villages with Darnassus, but the Gnarlpine still threaten its passage.",
+   "body": "Moon Priestess Amara and her sentinels watch the entrance to the Cleft. They guard the main road between Teldrassil’s villages and Darnassus, though the Gnarlpine still threaten the way.",
    "spoiler": 1
   }
  ],
@@ -87,5 +87,5 @@
  "attribution": [
   "Cleft"
  ],
- "style": 1
+ "style": 2
 }

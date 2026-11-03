@@ -10,16 +10,16 @@
    "quest:1094"
   ]
  },
- "summary": "Fizziks has sealed Venture Company secrets inside the Sealed Envelope for delivery to Sputtervalve in Ratchet.",
+ "summary": "In Stonetalon, Fizziks has sealed Venture Company secrets in the Sealed Envelope for Sputtervalve in Ratchet.",
  "sections": [
   {
    "title": "Corporate Espionage",
-   "body": "After the Venture Company cast goblin engineer Fizziks out of its logging operations in the Stonetalon Mountains, he smuggled out company secrets. The envelope holds internal manuals, operating procedures, and technical specifications. Among them are schematics for the Super Reaper 6000, a machine built for industrial clear-cutting.",
+   "body": "Cast out of the Venture Company's logging operations in the Stonetalon Mountains, goblin engineer Fizziks smuggled away its secrets. Inside the envelope are company manuals, operating procedures, and technical plans. Among them are schematics for the Super Reaper 6000, a machine built for industrial clear-cutting.",
    "spoiler": 0
   },
   {
    "title": "Delivery to Ratchet",
-   "body": "Fizziks sends the documents south to Sputtervalve, an engineer in the neutral goblin port of Ratchet. The Steamwheedle Cartel's business rivals have little personal love or trust for Fizziks, yet the designs have undeniable engineering value. They reveal Venture Company mechanical ingenuity and give independent engineers a chance to exploit its advanced logging technologies.",
+   "body": "Fizziks sends the documents south to Sputtervalve, an engineer in Ratchet's neutral goblin port. The Steamwheedle Cartel's rivals have little love or trust for Fizziks. Yet the designs hold clear engineering value. They reveal the Venture Company's mechanical skill and give independent engineers a chance to use its advanced logging methods.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what is in sealed envelope",
     "sealed envelope items"
    ],
-   "answer": "The envelope holds internal Venture Company documents, technical manuals, and schematics for the Super Reaper 6000, a wood-clearing machine. Fizziks stole them when he left the company in haste."
+   "answer": "The Sealed Envelope holds Venture Company manuals, technical documents, and schematics for the Super Reaper 6000, a wood-clearing machine. Fizziks stole them when he left the company in haste."
   },
   {
    "q": "Who prepared this packet?",
@@ -40,7 +40,7 @@
     "who gave sealed envelope",
     "fizziks envelope"
    ],
-   "answer": "Disgruntled goblin engineer Fizziks prepared the envelope after the Venture Company ejected him from its logging operation in the Stonetalon Mountains."
+   "answer": "Goblin engineer Fizziks prepared the envelope after the Venture Company cast him out of its logging operation in the Stonetalon Mountains."
   },
   {
    "q": "Who is intended to receive it?",
@@ -49,7 +49,7 @@
     "where does envelope go",
     "sputtervalve delivery"
    ],
-   "answer": "The envelope is meant for Sputtervalve, a goblin tinkerer in the port town of Ratchet, within the Barrens."
+   "answer": "The envelope is meant for Sputtervalve, a goblin tinkerer in Ratchet, the port town in the Barrens."
   },
   {
    "q": "Why does Sputtervalve want these documents?",
@@ -57,17 +57,17 @@
     "why sputtervalve wants it",
     "venture company tech ratchet"
    ],
-   "answer": "Sputtervalve dislikes the Venture Company, and the documents offer valuable improvements and schematics that let outside tinkerers understand and adopt its powerful mechanical designs."
+   "answer": "Sputtervalve dislikes the Venture Company, and the documents offer valuable improvements and schematics. They let outside tinkerers understand and adopt its powerful mechanical designs."
   }
  ],
  "angles": [
   {
    "target": "profession:Engineering",
-   "text": "The envelope holds technical drawings for the Super Reaper 6000, a destructive and lucrative machine devised by goblin hands."
+   "text": "For an engineer, the envelope holds technical drawings for the Super Reaper 6000, a destructive and lucrative machine devised by goblins."
   },
   {
    "target": "faction:Horde",
-   "text": "Carrying these papers south from Stonetalon aids the neutral goblins of Ratchet in undermining the Venture Company's aggressive, exploitative logging operations."
+   "text": "As a member of the Horde, carrying these papers south from Stonetalon helps Ratchet's neutral goblins undermine the Venture Company's aggressive, exploitative logging operations."
   }
  ],
  "keywords": [
@@ -94,5 +94,5 @@
   "Sealed Envelope",
   "Further Instructions"
  ],
- "style": 1
+ "style": 2
 }

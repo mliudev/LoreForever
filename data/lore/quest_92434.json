@@ -24,16 +24,16 @@
    "City of Dalaran quests"
   ]
  },
- "summary": "Dalaran's barrier has come down, and turmoil grips the city. With its patrols dealt with, Magus Wordeen Voidglare says there is no better time to slip inside and learn the mages' secrets. You are to carry the key from the internment camp to the city's sewers on its northern edge.",
+ "summary": "Turmoil grips Dalaran after its barrier comes down. Once the patrols are dealt with, Magus Wordeen Voidglare sees a chance for the Horde to enter and learn the mages' secrets. You carry a key from the internment camp to the sewers on the city's northern edge.",
  "sections": [
   {
    "title": "A Disagreeable Way In",
-   "body": "After Dalaran Patrols, Magus Wordeen Voidglare says that whatever lowered Dalaran's barrier has thrown the city into turmoil, so now is the time for the Horde to get inside and learn the mages' secrets. You are to take the key from the internment camp and look for the sewers on the city's northern edge, by Lordamere Lake. With luck, the mages saw no need to ward so disagreeable an entrance.",
+   "body": "With the patrols dealt with, Magus Wordeen Voidglare says turmoil grips Dalaran since its barrier came down. He urges the Horde to enter and learn the mages' secrets while they can. You carry the key from the internment camp to the sewers on Dalaran's northern edge, by Lordamere Lake. Perhaps the mages left that disagreeable entrance unwarded.",
    "spoiler": 0
   },
   {
    "title": "What Comes of the Key",
-   "body": "The Image of Archmage Modera tells you to stay your weapon. She says the key will not be enough to get past her wards, since the mages would not leave such a weakness open at a time like this. She says the Horde's interest in her city is no coincidence, that she was counting on it, and that she has a proposition for you.",
+   "body": "The Image of Archmage Modera tells you to lower your weapon. She says the key cannot get you past her wards; the mages would not leave such a weakness open now. She says the Horde's interest in her city is no coincidence. She counted on it and has a proposition for you.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "who gives blood in the streets",
     "wordeen voidglare quest"
    ],
-   "answer": "Magus Wordeen Voidglare, after the patrols have been dealt with."
+   "answer": "Once the patrols are dealt with, Magus Wordeen Voidglare sends you into Dalaran's sewers."
   },
   {
    "q": "Where is the entrance into Dalaran located?",
@@ -54,7 +54,7 @@
     "sewer entrance lordamere lake",
     "how to enter dalaran"
    ],
-   "answer": "Wordeen points you to the sewers on the northern edge of the city, by Lordamere Lake."
+   "answer": "The sewers lie on Dalaran's northern edge, by Lordamere Lake."
   },
   {
    "q": "What key is used to attempt entry?",
@@ -63,7 +63,7 @@
     "where did the key come from",
     "internment camp key"
    ],
-   "answer": "The grimy key from the internment camp."
+   "answer": "You carry the grimy key from the internment camp."
   },
   {
    "q": "Why is Dalaran vulnerable right now?",
@@ -71,7 +71,7 @@
     "why is dalaran barrier down",
     "what happened to dalaran shield"
    ],
-   "answer": "Its barrier has come down, and turmoil grips the city."
+   "answer": "Dalaran's barrier has come down, and turmoil grips the city."
   }
  ],
  "angles": [],
@@ -95,5 +95,6 @@
  ],
  "attribution": [
   "Blood in the Streets"
- ]
+ ],
+ "style": 2
 }

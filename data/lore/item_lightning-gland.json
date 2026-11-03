@@ -10,16 +10,16 @@
    "quest:822"
   ]
  },
- "summary": "In the Barrens, Lightning Glands are taken from stormhides roaming the plains. Brewmaster Drohn in Ratchet needs them for trogg ale, a fiery brew Chen Stormstout taught him to make.",
+ "summary": "Across the Barrens, stormhides carry Lightning Glands that Brewmaster Drohn needs in Ratchet. Chen Stormstout taught Drohn to make trogg ale, a fiery brew.",
  "sections": [
   {
    "title": "A Shocking Ingredient",
-   "body": "Stormhides roam the Barrens savannas among other predators touched by the elements. Their flesh holds lightning glands, organs charged with latent electricity. These glands are poor fare on their own, but brewers prize them for the sting they bring to a brew.",
+   "body": "Stormhides roam the Barrens savannas among other predators touched by the elements. Their flesh holds Lightning Glands charged with latent electricity. The glands make poor fare on their own, but brewers prize the sting they bring to a brew.",
    "spoiler": 0
   },
   {
    "title": "Drohn's Trogg Ale",
-   "body": "Brewmaster Drohn keeps Chen Stormstout’s brewing traditions alive in Ratchet. To make trogg ale, a potent brew, Drohn needs five lightning glands, a thunderhawk saliva gland, and a fresh kodo liver. The finished drink has a sharp kick that adventurers find invigorating and potent.",
+   "body": "In Ratchet, Brewmaster Drohn keeps Chen Stormstout’s brewing traditions alive. For trogg ale, a potent brew, he needs five Lightning Glands, a thunderhawk saliva gland, and a fresh kodo liver. The finished drink has a sharp kick that adventurers find invigorating and potent.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "who drops lightning gland",
     "stormhide lightning gland"
    ],
-   "answer": "Stormhides roaming the Barrens savannas carry lightning glands."
+   "answer": "Stormhides roaming the Barrens savannas carry Lightning Glands."
   },
   {
    "q": "Who wants lightning glands and why?",
@@ -40,7 +40,7 @@
     "lightning gland turn in",
     "lightning gland purpose"
    ],
-   "answer": "Brewmaster Drohn in Ratchet wants lightning glands for trogg ale, a recipe taught to him by the wandering brewmaster Chen Stormstout."
+   "answer": "Brewmaster Drohn in Ratchet wants Lightning Glands for trogg ale. Chen Stormstout, the wandering brewmaster, taught him the recipe."
   },
   {
    "q": "What else is needed alongside the lightning gland?",
@@ -48,13 +48,13 @@
     "drohn trogg ale ingredients",
     "chen's keg 3 items"
    ],
-   "answer": "Drohn needs five lightning glands, a thunderhawk saliva gland from greater thunderhawks, and a fresh kodo liver from the beasts of the Barrens."
+   "answer": "Drohn needs five Lightning Glands, a thunderhawk saliva gland from greater thunderhawks, and a fresh kodo liver from the beasts of the Barrens."
   }
  ],
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "As a cook, you can see how Brewmaster Drohn and Chen Stormstout use raw beast organs in spirits, though lightning glands are not ordinary food."
+   "text": "As a cook, you can see how Brewmaster Drohn and Chen Stormstout use raw beast organs in spirits. Lightning Glands are not ordinary food."
   }
  ],
  "keywords": [
@@ -79,5 +79,5 @@
   "Lightning Gland",
   "Chen's Empty Keg (3)"
  ],
- "style": 1
+ "style": 2
 }

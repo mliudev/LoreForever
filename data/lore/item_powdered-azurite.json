@@ -10,16 +10,16 @@
    "quest:1838"
   ]
  },
- "summary": "In Hillsbrad Foothills, Powdered Azurite is taken from the Azurelode Mine. Thun'grim Firegaze needs it to forge brutal armor for rising Horde warriors.",
+ "summary": "In Hillsbrad Foothills, workers grind blue stone from Azurelode Mine into Powdered Azurite. Thun'grim Firegaze needs it to forge brutal armor for rising Horde warriors.",
  "sections": [
   {
    "title": "A Rare Mineral Compound",
-   "body": "Powdered Azurite comes from the mineral veins beneath Hillsbrad Foothills. Human workers dig the blue stone from Azurelode Mine, then grind and pack it for trade and metalworking. A skilled smith mixes the dust with dense metals to make armor more durable and resilient.",
+   "body": "Human workers dig blue stone from mineral veins beneath Hillsbrad Foothills. They grind and pack it for trade and metalworking. A skilled smith mixes the dust with dense metals, making armor more durable and resilient.",
    "spoiler": 0
   },
   {
    "title": "Forging Brutal Armor",
-   "body": "Horde blacksmiths prize Powdered Azurite for its strength in metalworking, though it comes from human-held tunnels across the Great Sea. Thun'grim Firegaze, an aging orc armorer in the Barrens, asks for small amounts alongside refined iron and fiery reagents. Mixed into the smelt, the powder helps him hammer out the heavy plating of his Brutal Armor.",
+   "body": "Horde blacksmiths prize Powdered Azurite for its strength in metalworking, though the mineral comes from human-held tunnels across the Great Sea. Thun'grim Firegaze is an aging orc armorer in the Barrens. He asks for small amounts alongside refined iron and fiery reagents. Mixed into the smelt, the powder helps him hammer out the heavy plating of his Brutal Armor.",
    "spoiler": 0
   }
  ],
@@ -30,7 +30,7 @@
     "powdered azurite use",
     "what is powdered azurite"
    ],
-   "answer": "Thun'grim Firegaze uses Powdered Azurite with iron ingots and volatile reagents to forge pieces of Brutal Armor for Horde champions."
+   "answer": "Thun'grim Firegaze mixes Powdered Azurite with iron ingots and volatile reagents to forge pieces of Brutal Armor for Horde champions."
   },
   {
    "q": "Where can Powdered Azurite be found?",
@@ -39,7 +39,7 @@
     "powdered azurite location",
     "who drops powdered azurite"
    ],
-   "answer": "Human miners gather Powdered Azurite in Azurelode Mine, along the southern coast of the Hillsbrad Foothills in the Eastern Kingdoms."
+   "answer": "Human miners gather Powdered Azurite in Azurelode Mine, along the southern coast of Hillsbrad Foothills in the Eastern Kingdoms."
   },
   {
    "q": "Why does an armorer in the Barrens require reagents from Hillsbrad?",
@@ -47,17 +47,17 @@
     "why hillsbrad",
     "thungrim mineral source"
    ],
-   "answer": "Thun'grim Firegaze seeks fine materials for armor worthy of legendary warriors. Iron is easy to find, but the tempering qualities of Azurelode mineral make it worth sending his champions across the sea to obtain."
+   "answer": "Thun'grim Firegaze seeks fine materials for armor worthy of legendary warriors. Iron is easy to find, but Azurelode mineral tempers metal, so he sends his champions across the sea to obtain it."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "As a warrior, gathering Powdered Azurite tests your endurance abroad and brings Thun'grim Firegaze the reagents he needs to forge your armor of savage strength."
+   "text": "As a warrior, you test your endurance abroad while gathering Powdered Azurite for Thun'grim Firegaze. He needs the reagent to forge your armor of savage strength."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, claiming this refined dust means striking deep into the Eastern Kingdoms and taking resources from Alliance hands in Hillsbrad Foothills."
+   "text": "As a member of the Horde, you must strike deep into the Eastern Kingdoms and take refined dust from Alliance hands in Hillsbrad Foothills."
   }
  ],
  "keywords": [
@@ -83,5 +83,5 @@
   "Powdered Azurite",
   "Brutal Armor"
  ],
- "style": 1
+ "style": 2
 }

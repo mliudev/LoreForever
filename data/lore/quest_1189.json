@@ -24,21 +24,21 @@
    "Goblin Sponsorship"
   ]
  },
- "summary": "Shreev has done what Razzeric wanted with the seaforium booster, and you carry the modified booster back to Razzeric on the Shimmering Flats. Shreev's warning with it: be careful when setting it off, because one slip and Razzeric ends up a scorch mark on the track. This follows the first Safety First.",
+ "summary": "On the Shimmering Flats, you carry Shreev’s modified seaforium booster back to Razzeric. Shreev warns that one slip while setting it off could leave Razzeric a scorch mark on the track.",
  "sections": [
   {
    "title": "A Warning from Shreev",
-   "body": "Shreev hands over the modified booster, done as Razzeric asked. Shreev's warning with it: Razzeric needs to be careful when he sets it off. A single slip and he will not be racing ahead; he will be a scorch mark on the track. Shreev adds that it would be a shame, wondering whether the nineteenth driver would have been any good.",
+   "body": "Shreev hands you the modified booster, prepared as Razzeric asked. He warns that Razzeric must take care when setting it off. One slip, and Razzeric will be a scorch mark on the track instead of racing ahead. Shreev says that would be a shame. Then he wonders whether the nineteenth driver would have been any good.",
    "spoiler": 0
   },
   {
    "title": "Sand Under the Seat",
-   "body": "Back on the Shimmering Flats, Razzeric is grumbling about Pozzik, who loaded a bucket of sand onto the racer. How, Razzeric asks, is he meant to reach top speed with sand beneath the seat?",
+   "body": "Back on the Shimmering Flats, Razzeric grumbles that Pozzik loaded a bucket of sand onto his racer. How can he reach top speed with sand beneath the seat?",
    "spoiler": 0
   },
   {
    "title": "The Booster Returned",
-   "body": "Razzeric is pleased with the modified booster. He wishes he could watch the gnomes' faces when he sets it off, though he expects to be far too busy setting a new course record.",
+   "body": "Razzeric is pleased with the modified booster. He wishes he could see the gnomes’ faces when he sets it off. Yet he expects to be too busy setting a new course record.",
    "spoiler": 1
   }
  ],
@@ -50,7 +50,7 @@
     "shreev quest giver",
     "who modifies the booster"
    ],
-   "answer": "Shreev finishes the work on the seaforium booster in Gadgetzan and gives it to you to carry back to Razzeric on the Shimmering Flats."
+   "answer": "In Gadgetzan, Shreev finishes modifying the seaforium booster as Razzeric wanted. Then he gives it to you to carry back to Razzeric on the Shimmering Flats."
   },
   {
    "q": "What does Shreev warn about?",
@@ -59,7 +59,7 @@
     "shreev warning",
     "booster risk"
    ],
-   "answer": "Shreev says Razzeric should be careful when setting the booster off. A single slip and he will not race ahead; he will be a scorch mark on the track."
+   "answer": "Shreev warns Razzeric to take care when setting off the booster. One slip, and Razzeric will be a scorch mark on the track instead of racing ahead."
   },
   {
    "q": "Why is Razzeric upset about his vehicle?",
@@ -68,7 +68,7 @@
     "pozzik bucket of sand",
     "razzeric complaint"
    ],
-   "answer": "Pozzik loaded a bucket of sand onto the racer, and Razzeric asks how he can reach top speed with sand beneath the seat."
+   "answer": "Pozzik loaded a bucket of sand onto Razzeric’s racer. Razzeric wonders how he can reach top speed with sand beneath the seat."
   }
  ],
  "angles": [],
@@ -92,5 +92,6 @@
  ],
  "attribution": [
   "Safety First (2)"
- ]
+ ],
+ "style": 2
 }

@@ -8,11 +8,11 @@
   "wiki": "Grub",
   "refs": 1
  },
- "summary": "At a hut east of the Crossroads, Grub runs a roadside eatery with a cook and a baker. He is known for teaching travelers to cook with the Barrens' local vermin.",
+ "summary": "East of the Crossroads, Grub feeds travelers from a hut shared with a cook and a baker. He teaches them to make stew from the Barrens' dig rats.",
  "sections": [
   {
    "title": "A Frontier Appetite",
-   "body": "East of the Crossroads, Grub shares a hut with Duhng, his cook, and Tarban Hearthgrain, a baker. Grub makes use of the Barrens' dig rats instead of letting them go to waste. He offers travelers a recipe for simmering the rodents into stew.",
+   "body": "East of the Crossroads, Grub shares a hut with Duhng, his cook, and Tarban Hearthgrain, a baker. He puts the Barrens' dig rats to use instead of letting them go to waste. Travelers can learn his recipe for simmering the rodents into stew.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is grub",
     "orc east of crossroads"
    ],
-   "answer": "Grub is an orc who lives in a hut east of the Crossroads in the Barrens. He runs a small eatery with Duhng, his cook, and Tarban Hearthgrain, a baker, for travelers passing through."
+   "answer": "Grub is an orc who lives in a hut east of the Crossroads in the Barrens. He runs a small eatery there with Duhng, his cook, and Tarban Hearthgrain, a baker, serving travelers passing through."
   },
   {
    "q": "Where can I find Grub?",
@@ -33,7 +33,7 @@
     "where is grub",
     "grub hut"
    ],
-   "answer": "Find Grub in a small hut at the foot of the mountains, just east of the Crossroads in the Barrens, off the main path."
+   "answer": "Find Grub in a small hut at the foot of the mountains, just east of the Crossroads in the Barrens and off the main path."
   },
   {
    "q": "What does Grub need help with?",
@@ -51,7 +51,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As Horde, you can find Grub's roadside kitchen just outside the Crossroads, where he offers travelers food and a lesson in making use of what the plains provide."
+   "text": "As Horde, you can find Grub's roadside kitchen just outside the Crossroads. There, he offers travelers food and a lesson in making use of what the plains provide."
   }
  ],
  "keywords": [
@@ -70,5 +70,5 @@
  "attribution": [
   "Grub"
  ],
- "style": 1
+ "style": 2
 }

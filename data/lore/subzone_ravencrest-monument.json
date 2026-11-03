@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Ravencrest Monument"
  },
- "summary": "Perched upon the windswept cliffs of southern Azshara, the Ravencrest Monument marks the shattered remnant of an ancient night elven colossus. Once a towering tribute overlooking the Great Sea, the statue has long since broken apart, leaving only towering legs and scattered stone ruins now stalked by hostile Spitelash naga.",
+ "summary": "On southern Azshara’s windswept cliffs, Ravencrest Monument lies broken above the Great Sea. Hostile Spitelash naga stalk the remains of the ancient night elven colossus.",
  "sections": [
   {
    "title": "Ruins of a Colossus",
-   "body": "Standing high above the ocean southeast of the Ruins of Eldarath, the Ravencrest Monument was once an awe-inspiring marvel of Kaldorei stonework. Today, little remains of the majestic colossus beyond its pair of gigantic broken legs rooted to the stone plinth, with the shattered fragments of its torso and head either buried in the cliffside dirt or lost beneath the waves below. Reaching this remote coastal promontory requires trekking across the mainland bridges of Azshara, as sheer, rocky drops prevent any approach from the sea.",
+   "body": "Southeast of the Ruins of Eldarath, Ravencrest Monument rises above the ocean. The ancient colossus once showed the skill of Kaldorei stoneworkers. Now only its enormous legs remain, fixed to a stone base. Its torso and head lie in fragments, buried in the cliff dirt or lost beneath the waves.\n\nTo reach this remote coast, you must cross Azshara’s mainland bridges. Steep, rocky drops block any approach from the sea.",
    "spoiler": 0
   },
   {
    "title": "A Forgotten Legacy",
-   "body": "Scholars often speculate that the monument commemorates Lord Kur'talos Ravencrest, the famed noble who rallied and led the night elven host during the War of the Ancients after the fall of Zin-Azshari. However, its close proximity to the pre-Sundering city of Eldarath and ambiguous surviving stonework leave its true origins debated. Rather than pilgrims or night elven caretakers, the surrounding cliff is currently claimed by the serpentine Spitelash naga, who defend the fallen monument with vicious territorial aggression.",
+   "body": "Some scholars believe Ravencrest Monument honors Lord Kur'talos Ravencrest, the famed noble who rallied and led the night elven host after Zin-Azshari fell in the War of the Ancients. Its closeness to ancient Eldarath and the surviving stonework leave its origins uncertain.\n\nSpitelash naga now claim the cliff. They defend the fallen monument with fierce aggression, where pilgrims or night elven caretakers once might have stood.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "what is this statue",
     "giant legs azshara"
    ],
-   "answer": "It is the ruined base of a massive night elven colossus located on a coastal promontory in southern Azshara. Only its gigantic stone legs still stand upright, while the rest of the sculpture lies shattered and scattered across the clifftop."
+   "answer": "Ravencrest Monument is a ruined night elven colossus on a coastal promontory in southern Azshara. Only its enormous stone legs remain upright; the rest lies shattered across the clifftop."
   },
   {
    "q": "Who was the monument built to honor?",
@@ -37,7 +37,7 @@
     "who is the statue of",
     "kurtalos ravencrest"
    ],
-   "answer": "It bears the name of House Ravencrest, most famous for Lord Kur'talos Ravencrest, the noble commander who led the mortal resistance against the Burning Legion during the War of the Ancients. However, because it sits near the ancient ruins of Eldarath, it is unclear whether it honors Kur'talos directly or an earlier ancestor from before the Great Sundering."
+   "answer": "The monument’s name points to House Ravencrest, best known for Lord Kur'talos Ravencrest, who led mortal resistance against the Burning Legion during the War of the Ancients. Since the monument stands near Eldarath, it may honor Kur'talos or an earlier ancestor from before the Great Sundering."
   },
   {
    "q": "How do you reach the monument?",
@@ -46,7 +46,7 @@
     "ravencrest path",
     "ravencrest access"
    ],
-   "answer": "The monument cannot be climbed or entered from the sea due to sheer cliffs. Travelers must navigate through southern Azshara by land, crossing over stone bridges near the Ruins of Eldarath to reach the promontory."
+   "answer": "You must cross southern Azshara by land, using stone bridges near the Ruins of Eldarath to reach the promontory. Sheer cliffs block any approach from the sea."
   },
   {
    "q": "What creatures inhabit the monument today?",
@@ -55,17 +55,17 @@
     "monument enemies",
     "azshara naga"
    ],
-   "answer": "The clifftop and surrounding terraces are infested with the Spitelash naga, making any exploration of the ancient ruins perilous for solitary travelers."
+   "answer": "Spitelash naga inhabit the clifftop and surrounding terraces, making the ancient ruins perilous to explore alone."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For night elves, the monument is a sobering reminder of the ancient Kaldorei Empire and the noble lineage of Ravencrest, whose heroic resistance in the War of the Ancients saved Azeroth from demonic annihilation."
+   "text": "As a night elf, you can see Ravencrest Monument as a reminder of the ancient Kaldorei Empire and the Ravencrest noble line. The family’s resistance during the War of the Ancients saved Azeroth from demonic annihilation."
   },
   {
    "target": "class:Warrior",
-   "text": "The Ravencrest name carries mythic weight among battle commanders, as Kur'talos Ravencrest was the foremost general of the mortal forces during the catastrophic invasion of the Burning Legion."
+   "text": "As a warrior, you hear the weight of the Ravencrest name in the tale of Kur'talos Ravencrest, foremost general of the mortal forces during the Burning Legion’s catastrophic invasion."
   }
  ],
  "keywords": [
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Ravencrest Monument"
- ]
+ ],
+ "style": 2
 }

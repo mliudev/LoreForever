@@ -18,16 +18,16 @@
   "wiki": null,
   "next": ""
  },
- "summary": "Overlord Mok'Morokk scoffs at your challenge, promises to crush you and invites you to say when you are ready to be thrashed. Draz'Zilb in Brackenwall Village had hoped to see Mok'Morokk driven out of the village.",
+ "summary": "In Brackenwall Village, Overlord Mok'Morokk laughs at your challenge and vows to crush you. Draz'Zilb expected you to drive him from the village.",
  "sections": [
   {
    "title": "A Challenge to the Overlord",
-   "body": "You step up to Overlord Mok'Morokk, who laughs at your nerve, promises to crush you and tells you to speak up when you are ready for your beating. This follows The Brood of Onyxia. Draz'Zilb in Brackenwall Village expects to see Mok'Morokk chased from the village, and wonders why you would come back just to talk.",
+   "body": "After The Brood of Onyxia, you face Overlord Mok'Morokk. He laughs at your nerve and promises to crush you. Then he tells you to speak when you are ready for a beating. Draz'Zilb in Brackenwall Village expected you to chase Mok'Morokk from the village. Why have you returned only to talk?",
    "spoiler": 0
   },
   {
    "title": "Word for Draz'Zilb",
-   "body": "Once the fight is won, Draz'Zilb says Mok'Morokk ran off like a coward, and thanks you for a great service. With Mok'Morokk gone, the ogres can name a new leader who will aid them in taking back their old home for good.",
+   "body": "Draz'Zilb says Mok'Morokk fled like a coward after you won the fight. He thanks you for a great service. With Mok'Morokk gone, the ogres can choose a new leader to help them take back their old home for good.",
    "spoiler": 1
   }
  ],
@@ -39,7 +39,7 @@
     "challenge target",
     "who is mok'morokk"
    ],
-   "answer": "You challenge Overlord Mok'Morokk in Brackenwall Village. The Overlord answers with a laugh and a boast of crushing you."
+   "answer": "You challenge Overlord Mok'Morokk in Brackenwall Village. He laughs and boasts that he will crush you."
   },
   {
    "q": "What comes before this challenge?",
@@ -48,7 +48,7 @@
     "prerequisite quest",
     "previous quest"
    ],
-   "answer": "It follows The Brood of Onyxia."
+   "answer": "The Brood of Onyxia comes before your challenge."
   },
   {
    "q": "Who do you report to after the fight?",
@@ -57,7 +57,7 @@
     "turn in npc",
     "where to go after beating mok'morokk"
    ],
-   "answer": "Draz'Zilb in Brackenwall Village is the one to report to."
+   "answer": "After the fight, you report to Draz'Zilb in Brackenwall Village."
   },
   {
    "q": "What does Draz'Zilb expect of you?",
@@ -66,7 +66,7 @@
     "why challenge the overlord",
     "reason for the fight"
    ],
-   "answer": "Draz'Zilb expects to see Mok'Morokk chased from the village, and wonders why you would come back just to talk."
+   "answer": "Draz'Zilb expects you to chase Mok'Morokk from the village. He wonders why you returned only to talk."
   }
  ],
  "angles": [],
@@ -86,5 +86,6 @@
  ],
  "attribution": [
   "Classic quest text: Challenge Overlord Mok'Morokk"
- ]
+ ],
+ "style": 2
 }

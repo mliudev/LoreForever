@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Warrior"
  },
- "summary": "Warriors are the quintessential frontline combatants of Azeroth, mastering heavy plate armor, shields, and nearly every form of martial weaponry. Fueling their most devastating strikes with pure combat rage, they charge into the thick of battle to defend weaker allies or carve through enemy ranks. They are found across every race and civilization, serving as everything from stalwart city guards and royal champions to wandering mercenaries.",
+ "summary": "Across Azeroth, Warriors take their place at the front with steel, discipline, and battle rage. They wear heavy plate and wield many weapons, shielding allies or breaking enemy ranks. Every race and civilization has its Warriors, from city guards and royal champions to wandering mercenaries.",
  "sections": [
   {
    "title": "Masters of Steel and Shield",
-   "body": "Warriors rely neither on divine prayers nor arcane incantations. Their power stems entirely from physical endurance, battlefield discipline, and an exhaustive mastery of weaponry. Clad in the heaviest plate mail, they dictate the frontline. Some fight behind towering shields to withstand punishing assaults and draw peril away from spellcasters and archers. Others step forward with two-handed polearms, axes, and greatswords, or wade into melee wielding a blade in each hand to cleave through whole formations.",
+   "body": "Warriors rely on strength, discipline, and skill with weapons, not prayers or spells. Heavy plate helps them hold the front. Some brace behind tall shields, enduring blows and drawing danger away from spellcasters and archers. Others carry two-handed polearms, axes, or greatswords. Some fight with a blade in each hand and cut through enemy ranks.",
    "spoiler": 0
   },
   {
    "title": "The Power of Battle Rage",
-   "body": "In the furnace of battle, pain and blood ignite a warrior's inner fire. Known simply as rage, this resource swells as warriors inflict and absorb punishment. Rather than yielding to exhaustion or bleeding wounds, seasoned fighters channel this combat fury directly into bone-shattering strikes, sweeping whirlwinds of steel, and deafening battle cries that bolster nearby comrades while shattering enemy morale.",
+   "body": "In battle, pain and blood kindle a Warrior's rage. It grows as Warriors strike foes and endure their attacks. Skilled fighters shape that force into crushing blows and sweeping weapon strikes. Their battle cries hearten nearby allies and break enemy morale.",
    "spoiler": 0
   },
   {
    "title": "A Universal Tradition",
-   "body": "Unlike classes tied to specific creeds or elemental patrons, the warrior tradition is universal to every race on Azeroth. Stormwind relies on its disciplined knights and footmen, Ironforge marshals its stout mountain guard, and the Horde rallies around orcish blademasters, tauren braves, and Forsaken Deathguards. Whether driven by honor, territorial defense, or cold coin, those who answer the call of arms form the unbroken backbone of every standing army.",
+   "body": "Every race on Azeroth has its Warriors. Stormwind fields disciplined knights and footmen, while Ironforge calls on its stout mountain guard. The Horde rallies around orcish blademasters, tauren braves, and Forsaken Deathguards.\n\nHonor, defense of their lands, or the promise of coin can lead Warriors to arms. They form the backbone of every standing army.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "warrior resource",
     "what is rage"
    ],
-   "answer": "Warriors rely on martial skill, tactical training, and rage. Rage builds directly from the clash of combat\u2014both by striking enemies and absorbing incoming blows. This surging combat adrenaline fuels their most devastating maneuvers, such as sweeping weapon strikes, concussive shield bashes, and intimidating shouts."
+   "answer": "Warriors draw strength from martial skill, training, and rage. They build rage by striking foes and taking blows, then unleash it in sweeping attacks, shield strikes, and fierce shouts."
   },
   {
    "q": "What races can become warriors?",
@@ -42,7 +42,7 @@
     "warrior races",
     "can every race be warrior"
    ],
-   "answer": "Every playable race in Azeroth can be a warrior. The need for heavily armored frontline soldiers exists across all mortal cultures, from the stoic dwarven defenders of Khaz Modan to the savage orcish shock troops of Durotar."
+   "answer": "Every race in Azeroth can become a Warrior. All mortal cultures need armored fighters at the front, from the dwarven defenders of Khaz Modan to the orcish shock troops of Durotar."
   },
   {
    "q": "What role do warriors serve in a combat party?",
@@ -51,7 +51,7 @@
     "do warriors tank",
     "arms vs fury vs prot"
    ],
-   "answer": "Warriors typically lead from the front. Stalwart protection warriors use shields and plate armor to absorb punishment and keep dangerous foes focused on them. Offensive arms and fury warriors instead bring crushing two-handed weapons or paired blades to overwhelm enemies through brutal physical damage."
+   "answer": "Warriors usually fight at the front. Those who favor protection use plate and shields to endure attacks and keep dangerous foes focused on them. Those who favor arms or fury wield heavy two-handed weapons or paired blades to overwhelm enemies with physical force."
   },
   {
    "q": "What weapons are warriors able to wield?",
@@ -60,7 +60,7 @@
     "can warriors use bows",
     "what can warriors equip"
    ],
-   "answer": "Warriors are masters of almost every weapon known to mortal warfare. They can wield swords, maces, axes, polearms, daggers, and staves, in both one-handed and two-handed grips, as well as heavy shields and ranged weapons like bows, guns, and crossbows."
+   "answer": "Warriors wield almost every weapon used in mortal warfare: swords, maces, axes, polearms, daggers, and staves, either one-handed or two-handed. They also carry heavy shields and use bows, guns, and crossbows."
   },
   {
    "q": "Who are some famous warriors in Azeroth's history?",
@@ -69,7 +69,7 @@
     "legendary warriors",
     "who are warrior heroes"
    ],
-   "answer": "Renowned warriors include Lord Anduin Lothar, the Champion of Stormwind and Supreme Commander of the Alliance of Lordaeron; Grommash Hellscream, chieftain of the Warsong clan; and Cairne Bloodhoof, High Chieftain of the united tauren tribes."
+   "answer": "Renowned Warriors include Lord Anduin Lothar, Champion of Stormwind and Supreme Commander of the Alliance of Lordaeron; Grommash Hellscream, chieftain of the Warsong clan; and Cairne Bloodhoof, High Chieftain of the united tauren tribes."
   },
   {
    "q": "Where do new warriors receive their formal training?",
@@ -78,25 +78,25 @@
     "where do warriors learn",
     "warrior trainer locations"
    ],
-   "answer": "Warriors train anywhere soldiers gather. Human recruits drill in Northshire Abbey, dwarves and gnomes learn at Anvilmar in Coldridge Valley, night elves train in Shadowglen, orcs and trolls practice in the Valley of Trials, Forsaken fighters report to the Deathknell barracks, and the Skyborne begin on Zephras Isle."
+   "answer": "Warriors train wherever soldiers gather. Human recruits drill in Northshire Abbey; dwarves and gnomes learn at Anvilmar in Coldridge Valley; and night elves train in Shadowglen. Orcs and trolls practice in the Valley of Trials, Forsaken fighters report to the Deathknell barracks, and the Skyborne begin on Zephras Isle."
   }
  ],
  "angles": [
   {
    "target": "class:Warrior",
-   "text": "Every battle you fight tests your stamina and nerve; by turning the pain of incoming blows into pure rage, you control the front line."
+   "text": "Every battle tests your stamina and nerve. Turn the pain of incoming blows into rage, and you can hold the front line."
   },
   {
    "target": "profession:Blacksmithing",
-   "text": "Warriors rely entirely on blacksmiths to hammer out the heavy plate mail, sturdy bucklers, and honed blades necessary to survive mortal combat."
+   "text": "As a Warrior, you rely on blacksmiths for heavy plate, sturdy bucklers, and keen blades to help you survive combat."
   },
   {
    "target": "faction:Alliance",
-   "text": "The footmen and knights of the Alliance form the defensive vanguard protecting human kingdoms, dwarven mountain holds, and elven forests."
+   "text": "As an Alliance Warrior, you join the footmen and knights who defend human kingdoms, dwarven mountain holds, and elven forests."
   },
   {
    "target": "faction:Horde",
-   "text": "For the Horde, martial prowess is a way of life, with grunt shock troops and tauren warriors leading every territorial advance."
+   "text": "As a Horde Warrior, you join a martial way of life, where grunt shock troops and tauren fighters lead each territorial advance."
   }
  ],
  "keywords": [
@@ -122,5 +122,6 @@
  ],
  "attribution": [
   "Warrior"
- ]
+ ],
+ "style": 2
 }

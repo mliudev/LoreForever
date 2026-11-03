@@ -28,21 +28,21 @@
   ],
   "category": "Thousand Needles"
  },
- "summary": "Martek the Exiled says the Badlands hold a wealth of metal for anyone with the nerve to get it. Indurium is said to stand up to heat and stress, and Martek wants samples to test whether it could serve Fizzle's racecar. Stonevault troggs out in the Badlands are the ones carrying flakes of it.",
+ "summary": "In the Badlands, Martek the Exiled seeks metal samples for Fizzle's car. Indurium is said to endure heat and stress, and Stonevault troggs sometimes carry flakes.",
  "sections": [
   {
    "title": "A Metal Worth Testing",
-   "body": "Martek the Exiled tells you he is not out in the Badlands just to avoid company. The region holds indurium, a metal said to stand up to heat and stress, and it might do for Fizzle's car. Martek wants samples to test, and has the forge hot and waiting.",
+   "body": "Martek the Exiled stays in the Badlands for more than solitude. He thinks indurium might suit Fizzle's car because it is said to endure heat and stress. He wants samples for a test, with the forge ready.",
    "spoiler": 0
   },
   {
    "title": "Flakes from the Troggs",
-   "body": "The true ore is deep in Uldaman, but Stonevault troggs in the Badlands carry flakes of it now and then. Martek asks for ten. The troggs that have them roam the south-east slope of a rocky clump at Agmond's End, just south of the Valley of Fangs.",
+   "body": "True indurium ore lies deep in Uldaman, but Stonevault troggs in the Badlands sometimes carry flakes. Martek asks for ten. The troggs roam the south-east slope of a rocky clump at Agmond's End, just south of the Valley of Fangs.",
    "spoiler": 0
   },
   {
    "title": "The Forge Test",
-   "body": "Martek takes the flakes to the forge and turns up the heat in stages. They hold, and Martek swears by Orgrim that this indurium can withstand massive heat. The test is a success, and Martek calls the metal amazing stuff.",
+   "body": "Martek heats the flakes in his forge, raising the heat in stages. They hold firm, and he swears by Orgrim that indurium can withstand massive heat. The test succeeds. Martek calls the metal amazing stuff.",
    "spoiler": 1
   }
  ],
@@ -53,7 +53,7 @@
     "who gives indurium quest",
     "where to get indurium"
    ],
-   "answer": "Martek the Exiled, out in the central Badlands, asks for the samples. The chain that leads to him starts with Fizzle Brassbolts at the Mirage Raceway in Thousand Needles."
+   "answer": "Martek the Exiled, in the central Badlands, asks for indurium samples. The chain to him begins with Fizzle Brassbolts at the Mirage Raceway in Thousand Needles."
   },
   {
    "q": "Why does Martek need indurium?",
@@ -61,7 +61,7 @@
     "what is indurium used for",
     "why indurium"
    ],
-   "answer": "Martek thinks this metal, said to stand up to heat and stress, might work for Fizzle's car, and wants samples to put through his forge."
+   "answer": "Martek thinks indurium might suit Fizzle's car because it is said to endure heat and stress. He wants samples to test in his forge."
   },
   {
    "q": "Where can the indurium flakes be found?",
@@ -70,7 +70,7 @@
     "how to get flakes",
     "who drops indurium flakes"
    ],
-   "answer": "Stonevault troggs in the Badlands carry them now and then, on the south-east slope of a rocky clump at Agmond's End, just south of the Valley of Fangs."
+   "answer": "Stonevault troggs in the Badlands sometimes carry indurium flakes. They roam the south-east slope of a rocky clump at Agmond's End, just south of the Valley of Fangs."
   },
   {
    "q": "Where does true indurium ore come from?",
@@ -78,7 +78,7 @@
     "where is indurium ore",
     "where is indurium mined"
    ],
-   "answer": "Martek says the true ore is deep in Uldaman."
+   "answer": "Martek says true indurium ore lies deep in Uldaman."
   },
   {
    "q": "What comes before this?",
@@ -86,7 +86,7 @@
     "previous quest indurium",
     "how to start indurium"
    ],
-   "answer": "It follows Martek the Exiled, the first step of this chain, which starts with Fizzle Brassbolts at the Mirage Raceway."
+   "answer": "Martek the Exiled comes first in the chain, which begins with Fizzle Brassbolts at the Mirage Raceway."
   },
   {
    "q": "What comes after the flakes are delivered?",
@@ -120,5 +120,6 @@
  ],
  "attribution": [
   "Indurium"
- ]
+ ],
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Camp Wurg"
  },
- "summary": "Camp Wurg is an ogre encampment situated in the arid expanse of the Badlands. It serves as one of several outposts claimed by the territorial Dustbelcher ogres who dominate much of the Badlands.",
+ "summary": "Dustbelcher ogres hold Camp Wurg among the Badlands crags. Their camps reach across much of the harsh region.",
  "sections": [
   {
    "title": "A Dustbelcher Stronghold",
-   "body": "Tucked among the crags of the Badlands, Camp Wurg is one of four primary camps settled by the Dustbelcher ogres, alongside Camp Cagg, Camp Boff, and Camp Kosh. The ogres stationed here guard their rugged territory fiercely, scavenging what they can from the unforgiving desert wastes. While rank-and-file brutes and enforcers dwell around the crude fires and rough hides of Wurg, their chieftain, Boss Tho'grun, maintains no permanent seat here, instead roaming the Badlands trails to keep watch over all his encampments.",
+   "body": "Dustbelcher ogres guard Camp Wurg among the Badlands crags. It is one of their four main camps, with Camp Cagg, Camp Boff, and Camp Kosh. The ogres scavenge across the desert wastes and defend their rugged territory fiercely. Brutes and enforcers gather around crude fires and rough hides. Boss Tho'grun, their chieftain, has no permanent seat at Wurg. He roams the Badlands trails and watches over all four camps.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "who is at camp wurg",
     "who lives here"
    ],
-   "answer": "Camp Wurg is populated by the Dustbelcher ogres, a fierce and territorial tribe that has carved out settlements across the Badlands."
+   "answer": "Dustbelcher ogres live at Camp Wurg, one of their settlements across the Badlands."
   },
   {
    "q": "Where is the leader of the camp?",
@@ -32,7 +32,7 @@
     "boss thogrun location",
     "who leads camp wurg"
    ],
-   "answer": "The leader of the Dustbelcher ogres, Boss Tho'grun, does not stay confined to Camp Wurg. Instead, he patrols the open paths of the Badlands between Wurg, Cagg, Boff, and Kosh."
+   "answer": "Boss Tho'grun, chieftain of the Dustbelcher ogres, roams the Badlands trails between Camp Wurg, Camp Cagg, Camp Boff, and Camp Kosh."
   },
   {
    "q": "What other camps belong to this tribe?",
@@ -41,7 +41,7 @@
     "other ogre camps badlands",
     "ogre settlements badlands"
    ],
-   "answer": "The Dustbelchers control four main strongholds throughout the Badlands: Camp Wurg, Camp Cagg, Camp Boff, and Camp Kosh."
+   "answer": "The Dustbelcher ogres hold four main camps in the Badlands: Camp Wurg, Camp Cagg, Camp Boff, and Camp Kosh."
   }
  ],
  "angles": [],
@@ -61,5 +61,6 @@
  ],
  "attribution": [
   "Camp Wurg"
- ]
+ ],
+ "style": 2
 }

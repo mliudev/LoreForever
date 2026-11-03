@@ -25,11 +25,11 @@
   ],
   "category": "Feralas"
  },
- "summary": "Rok Orhan at Camp Mojache wants the Gordunni ogres pushed back before they spread further into Feralas. Following the river north leads to their outpost, where ogres, ogre-magi and brutes are to be thinned out.",
+ "summary": "At Camp Mojache, Rok Orhan calls for the Gordunni to be driven back. Their outpost lies up the river to the north.",
  "sections": [
   {
    "title": "The Mark of the Gordunni",
-   "body": "Rok Orhan points out that the Gordunni ogre tribe is hard to miss around here, since their very presence scars the land. They must be driven back before they reach deeper into Feralas. Their outpost lies up the river to the north. There you cut down ten Gordunni Ogres, ten Gordunni Ogre-Magi and five Gordunni Brutes, to show the tribe they are unwelcome.",
+   "body": "Rok Orhan says the Gordunni ogres scar the land around Camp Mojache. Drive the tribe back before it reaches deeper into Feralas. Follow the river north to find their outpost. There, slay ten Gordunni Ogres, ten Gordunni Ogre-Magi and five Gordunni Brutes to show the tribe they are unwelcome.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "quest giver",
     "rok orhan"
    ],
-   "answer": "Rok Orhan at Camp Mojache."
+   "answer": "Rok Orhan at Camp Mojache wants the Gordunni ogres driven back."
   },
   {
    "q": "Why does Rok Orhan want the Gordunni pushed back?",
@@ -50,7 +50,7 @@
     "gordunni motive",
     "why fight gordunni"
    ],
-   "answer": "Rok Orhan says their very presence scars the land, and they must be stopped before they expand further into Feralas."
+   "answer": "Rok Orhan says the Gordunni scar the land and must be stopped before they spread farther into Feralas."
   },
   {
    "q": "Where is the Gordunni outpost?",
@@ -59,7 +59,7 @@
     "where are the ogres",
     "gordunni location feralas"
    ],
-   "answer": "Follow the river north, says Rok Orhan, and the outpost will be found there."
+   "answer": "Follow the river north to find the Gordunni outpost."
   },
   {
    "q": "Which Gordunni must be slain?",
@@ -67,7 +67,7 @@
     "how many ogres",
     "gordunni kill count"
    ],
-   "answer": "Ten Gordunni Ogres, ten Gordunni Ogre-Magi and five Gordunni Brutes."
+   "answer": "Slay ten Gordunni Ogres, ten Gordunni Ogre-Magi and five Gordunni Brutes."
   },
   {
    "q": "What follows this quest?",
@@ -75,7 +75,7 @@
     "next quest ogres of feralas",
     "ogres of feralas chain"
    ],
-   "answer": "The chain goes on with The Ogres of Feralas (2)."
+   "answer": "The chain continues with The Ogres of Feralas two."
   }
  ],
  "angles": [],
@@ -94,5 +94,6 @@
  ],
  "attribution": [
   "The Ogres of Feralas (1)"
- ]
+ ],
+ "style": 2
 }

@@ -7,26 +7,26 @@
  "meta": {
   "wiki": "Stonemasons Guild"
  },
- "summary": "The Stonemasons Guild was the collective of master builders and artisans responsible for reconstructing Stormwind City after the Second War. Following a bitter dispute over payment with the House of Nobles that ended in deadly riots, the guild was forcibly dissolved, driving its disenfranchised members into exile while leaving the true fate of its scattered artisans an enduring mystery.",
+ "summary": "Stormwind's rebuilding ended in a bitter dispute between the Stonemasons Guild and the House of Nobles. Deadly riots followed, and the guild was dissolved. Its members went into exile, and the scattered artisans' fate remains a mystery.",
  "sections": [
   {
    "title": "Architects of the Realm",
-   "body": "Led by elected Guildmaster Edwin VanCleef, the artisans of the Stonemasons Guild demonstrated a mastery of masonry that rivaled the Royal Stonecutters Union of the dwarves. Following the devastation of the First and Second Wars, the House of Nobles hired the guild to embark upon the monumental task of rebuilding Stormwind City from ruins, trusting them to restore the capital to its ancient grandeur.",
+   "body": "Edwin VanCleef led the Stonemasons Guild as its elected Guildmaster. Its masons matched the skill of the dwarven Royal Stonecutters Union. After the First and Second Wars left Stormwind in ruins, the House of Nobles hired them to rebuild the city and restore the capital to its ancient grandeur.",
    "spoiler": 0
   },
   {
    "title": "Toil and Betrayal",
-   "body": "For years, VanCleef and an army of craftsmen toiled through Elwynn, raising the soaring spires of Stormwind Keep and the massive arches of the Cathedral of Light. However, royal finances collapsed under heavy military debts incurred in southern campaigns. Influenced by aristocratic politics, the House of Nobles refused to pay the guild their agreed salaries and fees. When VanCleef petitioned for restitution, the nobles answered by unilaterally disbanding the guild, sparking immense fury among the laborers who had bled to rebuild the city.",
+   "body": "For years, VanCleef and his craftsmen worked across Elwynn. They raised Stormwind Keep's soaring spires and the Cathedral of Light's great arches. Then royal finances collapsed under debts from military campaigns in the south. Guided by aristocratic politics, the House of Nobles refused to pay the agreed salaries and fees. When VanCleef sought restitution, the nobles disbanded the guild without its consent. Fury spread among the laborers who had bled to rebuild the city.",
    "spoiler": 0
   },
   {
    "title": "Blood in the Streets",
-   "body": "The wage dispute erupted into violent unrest throughout Stormwind. The Crown cracked down ruthlessly, capturing key conspirators like VanCleef's lieutenant, Bazil Thredd, while VanCleef and hundreds of ruined stonemasons fled into the countryside of Westfall. Exiled and branded as traitors, the desperate artisans transformed their trade union into the militant Defias Brotherhood.",
+   "body": "The wage dispute became violent unrest throughout Stormwind. The Crown cracked down, capturing key conspirators, including VanCleef's lieutenant, Bazil Thredd. VanCleef and hundreds of ruined stonemasons fled into the Westfall countryside. Branded traitors and forced into exile, the desperate artisans turned their trade union into the militant Defias Brotherhood.",
    "spoiler": 1
   },
   {
    "title": "The Hidden Hand",
-   "body": "The standoff between the nobility and the builders was not merely a matter of bankrupt coffers. Behind the scenes, the royal court advisor Lady Katrana Prestor actively fanned the embers of discord. She convinced the aristocracy that the Stonemasons' bills were extortionate and their work shoddy, while simultaneously provoking the craftsmen into outright rebellion. By paralyzing Stormwind with internal strife and cutting off supplies to Westfall, the black dragon Onyxia successfully fractured the kingdom from within.",
+   "body": "Lady Katrana Prestor, an advisor to the royal court, fed discord between the nobility and the builders. She persuaded the aristocracy that the Stonemasons' bills were extortionate and their work shoddy. At the same time, she provoked the craftsmen into open rebellion. By paralyzing Stormwind with strife and cutting off supplies to Westfall, the black dragon Onyxia fractured the kingdom from within.",
    "spoiler": 2
   }
  ],
@@ -38,7 +38,7 @@
     "stonemasons guild lore",
     "what did the stonemasons do"
    ],
-   "answer": "The Stonemasons Guild was an association of human artisans, architects, and stonecutters led by Guildmaster Edwin VanCleef. They were renowned for rebuilding Stormwind City after the Second War."
+   "answer": "The Stonemasons Guild was an association of human artisans, architects, and stonecutters led by elected Guildmaster Edwin VanCleef. Its members earned renown rebuilding Stormwind City after the Second War."
   },
   {
    "q": "Why did the Stonemasons Guild become the Defias Brotherhood?",
@@ -47,7 +47,7 @@
     "why did stonemasons turn evil",
     "origin of defias brotherhood"
    ],
-   "answer": "When the rebuilding of Stormwind was complete, the House of Nobles refused to pay the guild's wages due to crippling debt and court intrigue. The resulting protests turned into deadly riots, and the exiled workers organized the Defias Brotherhood to claim their stolen wealth by force."
+   "answer": "The House of Nobles refused to pay the guild's wages after Stormwind's rebuilding, amid crippling debt and court intrigue. Deadly protests drove the workers into exile, where they formed the Defias Brotherhood to claim their stolen wealth by force."
   },
   {
    "q": "Who was the leader of the Stonemasons Guild?",
@@ -56,7 +56,7 @@
     "vancleef guild",
     "who led the stonemasons"
    ],
-   "answer": "Edwin VanCleef served as the elected Guildmaster. Under his direction, the guild earned fame for its incredible stonework before he was exiled and founded the Defias Brotherhood."
+   "answer": "Edwin VanCleef was the guild's elected Guildmaster. Under his leadership, the masons became known for their stonework before he was exiled and founded the Defias Brotherhood."
   },
   {
    "q": "What notable structures did the Stonemasons build?",
@@ -64,7 +64,7 @@
     "what did stonemasons build",
     "did stonemasons build stormwind"
    ],
-   "answer": "The guild entirely rebuilt Stormwind City after the First War, including the Cathedral of Light and Stormwind Keep."
+   "answer": "The guild rebuilt Stormwind City after the First War, including the Cathedral of Light and Stormwind Keep."
   },
   {
    "q": "Did all the Stonemasons join the Defias Brotherhood?",
@@ -73,7 +73,7 @@
     "baros alexston stonemason",
     "did any stonemasons stay in stormwind"
    ],
-   "answer": "Not all joined the rebellion. Notably, master craftsman Baros Alexston broke ties with Edwin VanCleef and stayed in Stormwind to accept the post of City Architect, earning the enduring hatred of his former guildmates."
+   "answer": "Some stonemasons did not join the rebellion. Master craftsman Baros Alexston broke with Edwin VanCleef, remained in Stormwind, and became City Architect. His former guildmates hated him for it."
   },
   {
    "q": "What happened during the Stonemason riots?",
@@ -82,7 +82,7 @@
     "what happened in the riots",
     "stonemasons riot stormwind"
    ],
-   "answer": "When the nobles disbanded the guild instead of paying it, the stonemasons rioted in the streets of Stormwind. The Crown cracked down, capturing VanCleef's lieutenant Bazil Thredd, while VanCleef and the other masons fled into Westfall."
+   "answer": "When the nobles disbanded the guild instead of paying it, stonemasons rioted in Stormwind's streets. The Crown captured VanCleef's lieutenant Bazil Thredd, while VanCleef and the other masons fled to Westfall."
   },
   {
    "q": "Who was Bazil Thredd in the Stonemasons Guild?",
@@ -91,25 +91,25 @@
     "thredd stonemason",
     "vancleef lieutenant"
    ],
-   "answer": "Bazil Thredd was Edwin VanCleef's trusted assistant and chief lieutenant during their time in the guild. Unlike VanCleef, Thredd was apprehended during the aftermath of the riots and remains locked inside the Stormwind Stockade."
+   "answer": "Bazil Thredd was Edwin VanCleef's trusted assistant and chief lieutenant in the guild. The Crown captured him after the riots, and he remains locked inside the Stormwind Stockade."
   }
  ],
  "angles": [
   {
    "target": "race:Human",
-   "text": "The beautiful white stone of Stormwind stands as a bitter testament to the kingdom's greatest internal tragedy, reminding human travelers of the cost of aristocratic hubris."
+   "text": "Stormwind's beautiful white stone recalls a bitter tragedy within the kingdom and the cost of aristocratic pride for human travelers."
   },
   {
    "target": "race:Dwarf",
-   "text": "Dwarven masons deeply respected the Stonemasons Guild, noting that their precision and towering ramparts rivaled Ironforge's own Royal Stonecutters Union."
+   "text": "Dwarven masons respected the Stonemasons Guild. Its precision and towering ramparts rivaled those of Ironforge's Royal Stonecutters Union."
   },
   {
    "target": "class:Rogue",
-   "text": "The transformation of master tradesmen into deadly highwaymen, lockpicks, and assassins proves just how far VanCleef's tactical cunning reached."
+   "text": "VanCleef's cunning reached far: master tradesmen became deadly highwaymen, lockpicks, and assassins."
   },
   {
    "target": "faction:Alliance",
-   "text": "The collapse of the guild left the breadbasket of Westfall defenseless and overrun by outlaws, straining the Alliance's supply lines right outside the capital."
+   "text": "The guild's collapse left Westfall's breadbasket defenseless and overrun by outlaws. The Alliance's supply lines were strained just outside the capital."
   }
  ],
  "keywords": [
@@ -135,5 +135,6 @@
  ],
  "attribution": [
   "Stonemasons Guild"
- ]
+ ],
+ "style": 2
 }

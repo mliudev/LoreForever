@@ -30,21 +30,21 @@
   ],
   "category": "Desolace"
  },
- "summary": "Going on with the search of the Malems' wagon, you turn up a pendant and a trail of footprints heading south. Smoke rises from a big fort far off. Vahlarriel Demonslayer at Nijel's Point should be shown the pendant and told about the sign that the Malems may live.",
+ "summary": "In Desolace, Vahlarriel's Search follows a trail south from the Malems' wagon. A pendant lies there, and smoke rises from a large fort in the distance. At Nijel's Point, Vahlarriel Demonslayer needs the pendant and word that the Malems may still be alive.",
  "sections": [
   {
    "title": "Signs of Life",
-   "body": "Searching the wagon further, you turn up a pendant, and beyond it footprints leading south. Far off, smoke rises from a big fort. A tended fire makes it, not buildings burning, and your instincts say that if the Malems are still alive, they were taken that way.",
+   "body": "You find a pendant in the Malems' wagon and footprints leading south. Smoke rises from a large fort in the distance. A tended fire feeds it, rather than burning buildings. If the Malems are alive, the tracks suggest they were taken toward the fort.",
    "spoiler": 0
   },
   {
    "title": "Word for Vahlarriel",
-   "body": "Vahlarriel Demonslayer at Nijel's Point should see the Malem Pendant, and should hear of the footprints leading south.",
+   "body": "At Nijel's Point, Vahlarriel Demonslayer needs to see the Malem Pendant. Tell her about the footprints leading south.",
    "spoiler": 0
   },
   {
    "title": "What the Locals Say",
-   "body": "Vahlarriel is furious at the whole affair. The two Malems were warned how dangerous Desolace is, and now both are missing, or worse. Hearing of the tracks toward the fort nearby, Vahlarriel calls it the best lead there is. By the locals' account, that fortress is overrun with the Burning Blade, orcs given over to demonic causes. They do not speak for most of the Horde, yet they are evil, and anyone caught spying on them will be killed on sight.",
+   "body": "Vahlarriel is furious. The Malems were warned how dangerous Desolace is, and now both are missing or worse. Tracks toward the nearby fort offer the best lead. Locals say the fortress is overrun by the Burning Blade, orcs devoted to demonic causes. They do not speak for most of the Horde, yet they are evil. Anyone caught spying on them will be killed on sight.",
    "spoiler": 1
   }
  ],
@@ -56,7 +56,7 @@
     "wagon clues",
     "malem pendant"
    ],
-   "answer": "A pendant, and footprints leading off to the south. In the distance, smoke rises from a large fort."
+   "answer": "You find a pendant in the wagon and footprints leading south. Smoke rises from a large fort in the distance."
   },
   {
    "q": "Where do the tracks lead?",
@@ -65,7 +65,7 @@
     "where is the fort",
     "tracks direction"
    ],
-   "answer": "South, toward a large fort. The smoke over it is from a tended fire, not burning buildings, which suggests the Malems, should they be alive, were taken off in that direction."
+   "answer": "The tracks lead south toward a large fort. Smoke above it comes from a tended fire, not burning buildings. If the Malems are alive, they may have been taken that way."
   },
   {
    "q": "Where is Vahlarriel Demonslayer located?",
@@ -74,7 +74,7 @@
     "where to turn in malem pendant",
     "vahlarriel demonslayer spot"
    ],
-   "answer": "Vahlarriel Demonslayer is at Nijel's Point in Desolace. That is where the pendant and news of the tracks go."
+   "answer": "Vahlarriel Demonslayer is at Nijel's Point in Desolace. Bring the pendant and news of the tracks there."
   }
  ],
  "angles": [],
@@ -96,5 +96,6 @@
  ],
  "attribution": [
   "Vahlarriel's Search (2)"
- ]
+ ],
+ "style": 2
 }

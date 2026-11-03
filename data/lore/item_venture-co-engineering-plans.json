@@ -10,16 +10,16 @@
    "quest:1079"
   ]
  },
- "summary": "At Windshear Crag, the Venture Co. Engineering Plans reveal how the logging machinery is built. Alliance operatives recover the schematics from the goblin mill.",
+ "summary": "At Windshear Crag, Alliance operatives seek the Venture Co. Engineering Plans inside the goblin mill. The schematics show how the logging machines are built.",
  "sections": [
   {
    "title": "Industrial Secrets",
-   "body": "Inside the lumber mill south of Cragpool Lake, the Venture Co. Engineering Plans show the construction, strengths, and flaws of the timber-harvesting machines. The Venture Company uses those machines to strip the forests of Stonetalon, while smoke hangs over Windshear Crag.",
+   "body": "South of Cragpool Lake, inside the lumber mill, the Venture Co. Engineering Plans reveal how the timber machines are built. They show the machines’ strengths and flaws. The Venture Company uses them to strip the forests of Stonetalon, while smoke hangs over Windshear Crag.",
    "spoiler": 0
   },
   {
    "title": "Gnomish Espionage",
-   "body": "Gnome engineer Gaxim Rustfizzle directs a covert operation against the Venture Company's logging works and seeks the plans. Explosives can disrupt the mill at once, while the schematics let Alliance craftspeople exploit weaknesses in goblin equipment and adapt its designs for Alliance projects.",
+   "body": "Gnome engineer Gaxim Rustfizzle directs a covert operation against the Venture Company's logging works and seeks the plans. Explosives can disrupt the mill at once. The schematics also let Alliance craftspeople exploit weaknesses in goblin equipment and adapt its designs for Alliance projects.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "why steal the plans",
     "what do the plans do"
    ],
-   "answer": "The schematics reveal flaws in the Venture Company's logging machinery, helping operatives dismantle it and giving Alliance gnomes industrial designs to adapt for their own inventions."
+   "answer": "The schematics reveal flaws in the Venture Company's logging machinery, helping operatives dismantle it. They also give Alliance gnomes industrial designs to adapt for their inventions."
   },
   {
    "q": "What operation is tied to stealing these plans?",
@@ -56,7 +56,7 @@
     "covert ops alpha objective",
     "what quest is this for"
    ],
-   "answer": "Recovering the plans is the chief aim of Covert Ops - Alpha. Agents also plant detonators throughout the site, but returning with the blueprints marks the operation's success."
+   "answer": "Recovering the plans is the chief aim of Covert Ops - Alpha. Agents also plant detonators throughout the site, and returning with the blueprints marks the operation's success."
   }
  ],
  "angles": [
@@ -91,5 +91,5 @@
   "Venture Co. Engineering Plans",
   "Covert Ops - Alpha"
  ],
- "style": 1
+ "style": 2
 }

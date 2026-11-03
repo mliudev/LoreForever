@@ -19,7 +19,7 @@
     "where is naleeia tattermend",
     "camping 101 first aid turn in"
    ],
-   "answer": "You must seek out Naleeia Tattermend in Shen'dar Village. She possesses the knowledge required to craft specialized medical gear for wilderness camps.",
+   "answer": "Speak with Naleeia Tattermend in Shen'dar Village. She knows how to craft medical supplies for wilderness camps.",
    "q": "Who do I need to speak with for this quest?"
   },
   {
@@ -28,7 +28,7 @@
     "shen'dar village location",
     "shendar village first aid"
    ],
-   "answer": "Shen'dar Village is a village on Zephras Isle, where the medic Naleeia Tattermend resides. Practitioners seeking advanced wilderness first aid training travel there once they have honed their skills.",
+   "answer": "Shen'dar Village is on Zephras Isle, where Naleeia Tattermend lives. Practitioners travel there for further wilderness first aid training after honing their skills.",
    "q": "Where is Shen'dar Village located?"
   },
   {
@@ -37,7 +37,7 @@
     "first aid kit camp",
     "why craft first aid kit"
    ],
-   "answer": "The training allows you to craft a First Aid Kit tailored for an adventurer's campsite. In the wilds, having medical supplies readily available at camp provides vital healing between journeys and can mean the difference between life and death.",
+   "answer": "You learn to make a First Aid Kit for an adventurer's campsite. Supplies ready at camp let you treat injuries between journeys. They may mean the difference between life and death.",
    "q": "What is the purpose of crafting a First Aid Kit for camp?"
   },
   {
@@ -46,7 +46,7 @@
     "naleeia tattermend requirement",
     "camping 101 first aid requirement"
    ],
-   "answer": "Naleeia Tattermend requires that you demonstrate sufficient proficiency in First Aid before she agrees to share her crafting methods. You must practice the basic arts of bandaging and treatment before assembling field kits.",
+   "answer": "Naleeia Tattermend teaches you after you show enough skill in First Aid. Practice bandaging and treatment before making field kits.",
    "q": "When will Naleeia Tattermend teach me to craft the kit?"
   },
   {
@@ -55,7 +55,7 @@
     "first aid lore",
     "is first aid useful"
    ],
-   "answer": "Wounds and physical trauma are an inevitable hazard of adventuring across Azeroth. Bandages and medical treatments allow travelers of every discipline to tend to their own wounds and stabilize companions without solely relying on magical aid.",
+   "answer": "Wounds and physical trauma threaten travelers across Azeroth. Bandages and medical care let travelers of every discipline tend their own wounds and stabilize companions without relying only on magic.",
    "q": "Why is First Aid considered both honorable and pragmatic?"
   },
   {
@@ -63,7 +63,7 @@
     "can anyone learn this kit",
     "who can make first aid kit camp"
    ],
-   "answer": "Any adventurer who commits to the study of First Aid and proves their competence can learn to fashion a First Aid Kit for their camp from Naleeia Tattermend in Shen'dar Village.",
+   "answer": "Any adventurer who studies First Aid and proves their skill can learn from Naleeia Tattermend in Shen'dar Village to make a First Aid Kit for camp.",
    "q": "Can any adventurer craft a camping First Aid Kit?"
   }
  ],
@@ -80,18 +80,19 @@
  "related": [],
  "sections": [
   {
-   "body": "Life on the road across Azeroth is fraught with violence, wild beasts, and environmental hazards. For any traveler, learning First Aid is as practical as it is honorable, ensuring that bloodied cuts and broken bones can be bound without relying purely on spellcraft. Establishing a dedicated First Aid Kit at a wilderness camp provides a reliable center for healing, allowing exhausted adventurers to recover and tend to their companions before moving on.",
+   "body": "A journey across Azeroth can bring violence, wild beasts, and hazards of the land. First Aid lets you bind cuts and broken bones without relying only on spellcraft. A First Aid Kit at a wilderness camp gives you a place to tend injuries and help companions recover. Then you can prepare to travel on.",
    "spoiler": 0,
    "title": "Healing in the Wilderness"
   },
   {
-   "body": "Not every field medic knows how to properly assemble durable camp medical supplies. In Shen'dar Village, a specialist named Naleeia Tattermend instructs dedicated practitioners in the art of fashioning campsite First Aid Kits. Those seeking her guidance must first demonstrate their own proficiency in basic medical care before she reveals her techniques.",
+   "body": "In Shen'dar Village, Naleeia Tattermend teaches practitioners to make durable medical supplies for a campsite. She shares her techniques after you show that you know basic medical care.",
    "spoiler": 0,
    "title": "The Mentor of Shen'dar Village"
   }
  ],
- "summary": "Camping 101: First Aid directs travelers to Shen'dar Village to learn how to fashion essential medical supplies for a wilderness camp. By seeking out Naleeia Tattermend, skilled practitioners can create camp kits capable of treating injuries and saving lives far from civilization.",
+ "summary": "At Shen'dar Village, you seek care for injuries far from civilization. Naleeia Tattermend teaches skilled practitioners to prepare medical kits for a wilderness camp.",
  "attribution": [
   "In-game quest text: Camping 101: First Aid"
- ]
+ ],
+ "style": 2
 }

@@ -10,16 +10,16 @@
    "quest:502"
   ]
  },
- "summary": "Forsaken apothecaries at Tarren Mill brew the Elixir of Pain for dangerous experiments. The mixture tests biological agents meant to advance Lady Sylvanas's darker ambitions.",
+ "summary": "At Tarren Mill, Forsaken apothecaries brew the Elixir of Pain for dangerous trials. They test biological agents meant to advance Lady Sylvanas's darker ambitions.",
  "sections": [
   {
    "title": "Apothecary Experimentation",
-   "body": "The Royal Apothecary Society seeks formulas to strengthen the Forsaken against their mortal neighbors and the Scourge. The Elixir of Pain is one such trial, made with freshly harvested ingredients from around the Hillsbrad Foothills. Its living subjects matter little to its makers; the potion tests volatile substances meant to aid the Dark Lady.",
+   "body": "The Royal Apothecary Society seeks formulas to strengthen the Forsaken against their mortal neighbors and the Scourge. The Elixir of Pain is one trial, made with freshly gathered ingredients from the Hillsbrad Foothills. Its makers give little thought to the living subjects. They test volatile substances meant to aid the Dark Lady.",
    "spoiler": 0
   },
   {
    "title": "Field Testing on Stanley",
-   "body": "The apothecaries seek a quiet test before risking military assets or exposing their work to Hillsbrad's defenders. They give the Elixir of Pain to Stanley, Farmer Ray's seemingly harmless domestic dog at the northern farmstead of Hillsbrad Fields. The brew does not kill him quietly. It mutates Stanley into an enraged, monstrous beast.",
+   "body": "The apothecaries want a quiet trial before risking military assets or exposing their work to Hillsbrad's defenders. They give the Elixir of Pain to Stanley, Farmer Ray's seemingly harmless domestic dog at the northern farmstead of Hillsbrad Fields. The brew does not kill him quietly. It turns Stanley into an enraged, monstrous beast.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "elixir purpose",
     "what does the elixir do"
    ],
-   "answer": "The Elixir of Pain tests biological compounds for the Royal Apothecary Society. Its creators hope these mixtures will eventually yield devastating concoctions for Lady Sylvanas and secure Forsaken dominance."
+   "answer": "The Elixir of Pain tests biological compounds for the Royal Apothecary Society. Its makers hope the mixtures will yield devastating concoctions for Lady Sylvanas and secure Forsaken dominance."
   },
   {
    "q": "Who is Stanley?",
@@ -40,7 +40,7 @@
     "farmer ray dog",
     "stanley dog"
    ],
-   "answer": "Stanley is Farmer Ray's pet dog at the northern farm in Hillsbrad Fields. Forsaken apothecaries choose the seemingly harmless domestic dog as an unsuspecting subject for their new elixir."
+   "answer": "Stanley is Farmer Ray's pet dog at the northern farm in Hillsbrad Fields. Forsaken apothecaries choose the seemingly harmless dog as an unsuspecting subject for their new elixir."
   },
   {
    "q": "Why is the elixir tested on Stanley?",
@@ -49,7 +49,7 @@
     "does stanley die",
     "stanley wolf transformation"
    ],
-   "answer": "Apothecary Lydon wants to test his newly mixed elixir in the field, so he sends it to Farmer Ray's little dog Stanley to see how the animal responds."
+   "answer": "Apothecary Lydon wants to test his newly mixed elixir in the field. He sends it to Farmer Ray's little dog Stanley to see how the animal responds."
   },
   {
    "q": "Where is the elixir tested?",
@@ -64,11 +64,11 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "The Royal Apothecary Society's callous field trials show the Forsaken's willingness to use any means necessary to develop chemical weapons against the living."
+   "text": "For the Forsaken, the Royal Apothecary Society's callous field trials show a willingness to use any means necessary to develop chemical weapons against the living."
   },
   {
    "target": "faction:Horde",
-   "text": "Forsaken allies may witness the unsettling methods used by Tarren Mill's researchers during these grim tests."
+   "text": "As a Horde ally, you may witness the unsettling methods used by Tarren Mill's researchers during these grim trials."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
   "Elixir of Pain",
   "Elixir of Pain (2)"
  ],
- "style": 1
+ "style": 2
 }

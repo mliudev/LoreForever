@@ -21,11 +21,11 @@
    "Pool of Tears"
   ]
  },
- "summary": "An exiled Atal'ai in the Hinterlands has looked over the artifacts brought to them and calls them harmless. They have darker worries about Jammal'an the Prophet, and Fel'zerul in Stonard is to hear them.",
+ "summary": "In the Hinterlands, the Atal'ai Exile sends word to Fel'zerul in Stonard. The artifacts you brought are harmless, but the exile fears what Jammal'an the Prophet may do.",
  "sections": [
   {
    "title": "Words from an Exile",
-   "body": "The Atal'ai Exile once held Jammal'an the Prophet to be a worthy high priest. But the prophet's unyielding faith in the prophecy may doom the Atal'ai, if it has not done so already. Speaking up got the exile branded an infidel and driven out of the Temple of Atal'Hakkar. The artifacts you brought pose no harm. What frightens the exile is the chance that Jammal'an has found the right fetish enchantment for the summoning ritual, which would put the world in great peril. Fel'zerul in Stonard waits to hear what was learned.",
+   "body": "The Atal'ai Exile once held Jammal'an the Prophet worthy of the high priesthood. Now the exile fears his unyielding faith in the prophecy may doom the Atal'ai, if it has not already. Speaking out earned the exile the name infidel and banishment from the Temple of Atal'Hakkar.\n\nThe artifacts you brought are harmless. Yet danger may lie in the summoning ritual, for Jammal'an may have found the right fetish enchantment. The world could be in great peril. Fel'zerul in Stonard waits to hear what the exile learned.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "why is the exile in hinterlands",
     "atal'ai exile backstory"
    ],
-   "answer": "The exile spoke out about Jammal'an the Prophet's unyielding faith in his prophecy, which they believe will destroy the Atal'ai. For voicing those concerns they were called an infidel and driven out of the Temple of Atal'Hakkar."
+   "answer": "The Atal'ai Exile spoke against Jammal'an the Prophet's unyielding faith in his prophecy, which the exile fears may destroy the Atal'ai. The exile was called an infidel and banished from the Temple of Atal'Hakkar."
   },
   {
    "q": "Are the artifacts brought to the exile dangerous?",
@@ -54,7 +54,7 @@
     "are the artifacts harmful",
     "fetish artifacts danger"
    ],
-   "answer": "The exile says they are harmless. The worry is the summoning ritual, and whether Jammal'an has found the right fetish enchantment for it."
+   "answer": "The exile says the artifacts are harmless. The danger lies in the summoning ritual and whether Jammal'an has found the right fetish enchantment for it."
   }
  ],
  "angles": [],
@@ -75,5 +75,6 @@
  ],
  "attribution": [
   "Wowpedia: Return to Fel'Zerul"
- ]
+ ],
+ "style": 2
 }

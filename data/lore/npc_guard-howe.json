@@ -8,11 +8,11 @@
   "wiki": "Guard Howe",
   "refs": 1
  },
- "summary": "Near Lakeshire's bridge, Guard Howe watches the road and seeks fighters against the Blackrock orcs. A personal vendetta drives him to offer bounties for proof of their defeat.",
+ "summary": "On the bridge south of Lakeshire, Guard Howe watches the road and calls for fighters against the Blackrock orcs. A bitter grudge drives him to offer bounties for proof of their defeat.",
  "sections": [
   {
    "title": "A Grudge on the Bridge",
-   "body": "Guard Howe keeps watch just south of the stone bridge over Lake Everstill, near the heart of Lakeshire. Blackrock orcs press into the Redridge Mountains, and Howe sees them as a threat to the valley. He holds a bitter grudge against the clan and recruits passing fighters to hunt orcs in the eastern hills. In return, he offers pay for proof that they have been defeated.",
+   "body": "Guard Howe keeps watch just south of the stone bridge over Lake Everstill, near the heart of Lakeshire. Blackrock orcs press into the Redridge Mountains, and Howe sees them as a threat to the valley. He bears a bitter grudge against the clan and recruits passing fighters to hunt orcs in the eastern hills. For proof that they have been defeated, he offers pay.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "howe lakeshire",
     "who is howe"
    ],
-   "answer": "Guard Howe is a human town guard stationed just south of Lakeshire's bridge in the Redridge Mountains. He helps protect the settlement and sends fighters against the invading Blackrock orcs."
+   "answer": "Guard Howe guards the town just south of Lakeshire's bridge in the Redridge Mountains. He helps protect the settlement and sends fighters against the invading Blackrock orcs."
   },
   {
    "q": "Why does Guard Howe want Blackrock orcs killed?",
@@ -33,7 +33,7 @@
     "howe orcs",
     "why does howe hate orcs"
    ],
-   "answer": "Howe seeks vengeance against the Blackrock clan, whose forces have pushed deep into the Redridge Mountains and keep Lakeshire under pressure. He offers bounties to those who thin their ranks."
+   "answer": "Howe seeks vengeance against the Blackrock clan. Their forces have pushed deep into the Redridge Mountains and keep Lakeshire under pressure, so he offers bounties to those who thin their ranks."
   },
   {
    "q": "Is Guard Howe related to anyone else in the region?",
@@ -66,5 +66,5 @@
  "attribution": [
   "Guard Howe"
  ],
- "style": 1
+ "style": 2
 }

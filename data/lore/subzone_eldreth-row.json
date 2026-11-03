@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Eldreth Row"
  },
- "summary": "Eldreth Row comprises the soaring, ruined outer halls forming the western entrance to Dire Maul in Feralas. Once a grand threshold of ancient Eldre'Thalas, the area is now choked with overgrowth and fiercely patrolled by Gordunni ogres.",
+ "summary": "Gordunni ogres patrol Eldreth Row, the ruined western halls of Dire Maul. Overgrown stone once marked the outer threshold of ancient Eldre'Thalas.",
  "sections": [
   {
    "title": "The Threshold of Eldre'Thalas",
-   "body": "Standing as the outermost perimeter of ancient Eldre'Thalas, Eldreth Row is an imposing avenue of high-arched elven architecture that sits just outside the deeper quarters and the Broken Commons. Centuries of neglect have cracked its stonework, allowing the creeping flora of Feralas to reclaim its colonnades. Today, the pristine majesty of the Highborne has been replaced by the crude dominance of the Gordunni ogres, who use the halls as an outer staging ground, guarding the paths leading east toward the Warpwood Quarter and west past the Dire Pool.",
+   "body": "Eldreth Row opens onto the outer halls of ancient Eldre'Thalas. The avenue lies before the deeper quarters and the Broken Commons. Centuries of neglect have cracked the stone, and Feralas plants overrun its colonnades. The Highborne halls now serve the Gordunni ogres as a staging ground. Their patrols guard the paths east toward the Warpwood Quarter and west past the Dire Pool.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "what is this place",
     "dire maul entrance"
    ],
-   "answer": "Eldreth Row is the exterior entrance hall and perimeter of Dire Maul in Feralas, situated before the Broken Commons and the inner instance gateways."
+   "answer": "Eldreth Row is Dire Maul's outer entrance hall in Feralas. It lies before the Broken Commons and the inner gateways."
   },
   {
    "q": "Who controls Eldreth Row right now?",
@@ -32,7 +32,7 @@
     "who controls eldreth row",
     "eldreth row monsters"
    ],
-   "answer": "The area is occupied and patrolled by the Gordunni clan of ogres, who have fortified Dire Maul's ruins and wander its broken avenues."
+   "answer": "Gordunni ogres occupy Eldreth Row and patrol its broken avenues, guarding the Dire Maul ruins."
   },
   {
    "q": "Where does Eldreth Row lead?",
@@ -41,13 +41,13 @@
     "eldreth row exits",
     "dire maul paths"
    ],
-   "answer": "The avenue leads inward toward the Broken Commons and the main complexes of Dire Maul, with an entrance to the Warpwood Quarter on its far eastern flank and the Dire Pool located to the west."
+   "answer": "Eldreth Row leads inward toward the Broken Commons and Dire Maul's main complexes. The Warpwood Quarter lies to the east, and the Dire Pool to the west."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "Seeing the majestic masonry of ancient Eldre'Thalas desecrated by brutish ogres serves as a bitter reminder of the fall of the Highborne and the Sundering."
+   "text": "As a night elf, you may see in Eldre'Thalas's ancient masonry a reminder of the Highborne's fall and the Sundering. Ogres now hold the ruins."
   }
  ],
  "keywords": [
@@ -68,5 +68,6 @@
  ],
  "attribution": [
   "Eldreth Row"
- ]
+ ],
+ "style": 2
 }

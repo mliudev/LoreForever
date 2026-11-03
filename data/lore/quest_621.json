@@ -25,16 +25,16 @@
    "Errands for Kravel"
   ]
  },
- "summary": "In Booty Bay, the goblin Crank Fizzlebub has set his sights on the potent concoction brewed by the exiled troll Zanzil. Zanzil uses this botanical blend to dominate the minds and empower the bodies of his followers among the nearby jungle ruins. Believing such a substance holds immense value for anyone seeking to control others, Fizzlebub wants samples retrieved for his own uses.",
+ "summary": "Crank Fizzlebub seeks Zanzil's Secret in the ruins northeast of Booty Bay. The exiled troll's brew bends minds and strengthens bodies, and Crank wants samples for himself.",
  "sections": [
   {
    "title": "Mind-Bending Draughts",
-   "body": "Northeast of Booty Bay, the outcast troll known as Zanzil has made a haven in the ruins of Jubuwal and Aboraz. Cast out by his former tribal leaders because they feared his mastery over the minds of others, Zanzil commands a band of followers entirely through concoctions derived from jungle vegetation. These mixtures deaden their will while enhancing their physical might, turning them into docile yet sturdy thralls.",
+   "body": "Northeast of Booty Bay, Zanzil has made his home in the ruins of Jubuwal and Aboraz. His former tribal leaders cast him out, fearing his mastery over other minds. Now he rules followers with concoctions made from jungle plants. The mixtures dull their will and heighten their strength, leaving them docile but sturdy.",
    "spoiler": 0
   },
   {
    "title": "A Lucrative Mixture",
-   "body": "Crank Fizzlebub sees clear opportunity in the exile's craft. Anyone desiring dominance over others would pay handsomely for such an elixir, prompting the goblin to seek a supply directly from the ruins. Delivering enough samples secures not only standard coin but a quiet bonus, provided the carrier keeps quiet about the transaction.",
+   "body": "Crank Fizzlebub sees profit in Zanzil's craft. Those who want power over others might pay handsomely for such a brew, so the goblin wants a supply from the ruins. Deliver enough samples and Crank offers the usual coin, with a quiet bonus if you keep the bargain private.",
    "spoiler": 0
   }
  ],
@@ -46,7 +46,7 @@
     "zanzil lore",
     "why was zanzil exiled"
    ],
-   "answer": "Zanzil is a troll exile who dwells in the ruins northeast of Booty Bay. His own leaders banished him because they feared his hold over other people's minds."
+   "answer": "Zanzil is a troll exile who lives in the ruins northeast of Booty Bay. His leaders banished him because they feared his power over other minds."
   },
   {
    "q": "What does Zanzil's mixture actually do?",
@@ -55,7 +55,7 @@
     "effects of zanzils mixture",
     "zanzil potion effects"
    ],
-   "answer": "Brewed from native jungle plants, the concoction breaks and suppresses the free will of whoever drinks it while unnaturally bolstering their physical strength."
+   "answer": "Made from jungle plants, Zanzil's brew suppresses the drinker's free will and unnaturally strengthens the body."
   },
   {
    "q": "Where does Zanzil reside?",
@@ -64,7 +64,7 @@
     "where is zanzil",
     "where are the ruins"
    ],
-   "answer": "Zanzil and his followers dwell in the ruins of Jubuwal and Aboraz, situated northeast of Booty Bay in Stranglethorn Vale."
+   "answer": "Zanzil and his followers live in the ruins of Jubuwal and Aboraz, northeast of Booty Bay in Stranglethorn Vale."
   },
   {
    "q": "Why does Crank Fizzlebub want the mixture?",
@@ -72,7 +72,7 @@
     "why does crank want the mixture",
     "what will crank do with zanzils mixture"
    ],
-   "answer": "Crank Fizzlebub believes the mixture would fetch a high price among those who want to control others, and he intends to find a use for it."
+   "answer": "Crank Fizzlebub believes those who want power over others would pay well for the brew, and he has uses of his own in mind."
   },
   {
    "q": "Why did Crank pay extra upon delivery?",
@@ -80,7 +80,7 @@
     "crank fizzlebub extra pay",
     "discretion pay crank"
    ],
-   "answer": "Crank provides a bonus sum explicitly to buy discretion, ensuring that the acquisition of the mind-controlling brew remains a private business affair."
+   "answer": "Crank adds a bonus to buy your discretion and keep the acquisition of the mind-bending brew private."
   }
  ],
  "angles": [],
@@ -99,5 +99,6 @@
  ],
  "attribution": [
   "Zanzil's Secret (Classic)"
- ]
+ ],
+ "style": 2
 }

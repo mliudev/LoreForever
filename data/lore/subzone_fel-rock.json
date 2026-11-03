@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Fel Rock"
  },
- "summary": "North of Dolanaar, Fel Rock has fallen under a spreading corruption. Lord Melenas and his grells have turned the once-tranquil cavern into a threat within Teldrassil’s woods.",
+ "summary": "North of Dolanaar, corruption spreads through Fel Rock and threatens Teldrassil’s woods. Lord Melenas and his grells have made the once-tranquil cavern a danger.",
  "sections": [
   {
    "title": "A Den of Corruption",
-   "body": "North of Dolanaar, Fel Rock lies among Teldrassil’s forested hills. Once a peaceful cavern in wood and stone, it is now overtaken by twisted roots, unnatural shadows, wild grells and grellkin. The taint reaches into the world tree’s boughs.",
+   "body": "North of Dolanaar, Fel Rock lies among Teldrassil’s wooded hills. Once peaceful, the cavern is now choked by twisted roots and strange shadows. Wild grells and grellkin roam within. The taint reaches into the boughs of the world tree.",
    "spoiler": 0
   },
   {
    "title": "The Satyr's Hold",
-   "body": "Lord Melenas, a satyr, has claimed Fel Rock as his stronghold. From within the cavern, he spreads corruption beneath the watch of the night elf sentinels. Druids in Dolanaar, including Tallonkai Swiftroot, seek defenders to cleanse the cave and slay Melenas before the blight reaches farther into the surrounding woodlands.",
+   "body": "Lord Melenas, a satyr, has made Fel Rock his stronghold. From the cavern, he spreads corruption while night elf sentinels keep watch. Druids in Dolanaar, among them Tallonkai Swiftroot, seek defenders to cleanse the cave and slay Melenas. They must stop the blight before it reaches farther into the surrounding woods.",
    "spoiler": 0
   }
  ],
@@ -55,17 +55,17 @@
     "what is inside fel rock",
     "fel rock enemies"
    ],
-   "answer": "Fel Rock is home to aggressive grells, grellkin and their master, the satyr Lord Melenas."
+   "answer": "Aggressive grells and grellkin dwell in Fel Rock, along with their master, the satyr Lord Melenas."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For the Kaldorei, Lord Melenas and his hold so close to Dolanaar threaten Teldrassil and call for swift retribution."
+   "text": "For the Kaldorei, Lord Melenas and his stronghold near Dolanaar threaten Teldrassil and demand swift retribution."
   },
   {
    "target": "class:Druid",
-   "text": "As a druid of the Cenarion Circle, you see Fel Rock’s corruption as a wound in the young world tree, one that must be purged before the blight spreads."
+   "text": "As a druid of the Cenarion Circle, you see Fel Rock’s corruption as a wound in the young world tree. It must be purged before the blight spreads."
   }
  ],
  "keywords": [
@@ -90,5 +90,5 @@
  "attribution": [
   "Fel Rock"
  ],
- "style": 1
+ "style": 2
 }

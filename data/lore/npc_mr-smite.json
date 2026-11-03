@@ -8,16 +8,16 @@
   "wiki": "Mr. Smite",
   "refs": 5
  },
- "summary": "At Ironclad Cove, Mr. Smite keeps watch over the Defias ship and its crew. The tauren serves Captain Greenskin as first mate, guarding the docks where Edwin VanCleef's dreadnaught is being fitted out. Any intruder who meets him faces a changing array of weapons and formidable strength.",
+ "summary": "At Ironclad Cove, Mr. Smite guards the Defias ship and its crew. The tauren serves Captain Greenskin as first mate and watches the docks where Edwin VanCleef's dreadnaught is being fitted out. Intruders meet his great strength and a changing array of weapons.",
  "sections": [
   {
    "title": "First Mate of the Cove",
-   "body": "Mr. Smite keeps order on the docks of Ironclad Cove as first mate to the goblin Captain Greenskin. The Defias Brotherhood is made up mostly of disaffected humans and goblin tinkerers, yet Smite is a battle-hardened tauren far from Kalimdor's plains. He has charge of a rowdy pirate crew while they fit out Edwin VanCleef's secret dreadnaught, and he allows no disruption to the work.",
+   "body": "At Ironclad Cove, Mr. Smite keeps order on the docks as first mate to the goblin Captain Greenskin. Most of the Defias Brotherhood are disaffected humans and goblin tinkerers, but Smite is a battle-hardened tauren from far beyond Kalimdor's plains. He commands a rowdy pirate crew as they fit out Edwin VanCleef's secret dreadnaught. No one may disrupt their work.",
    "spoiler": 0
   },
   {
    "title": "A Deadly Weaponmaster",
-   "body": "Mr. Smite fights with more than brute force; he is a showman and a versatile weaponmaster. He toys with challengers, drawing out the fight and offering them a false hope of victory. When pressed, he stamps the ground with such force that foes are stunned, then searches a nearby chest for another weapon. He begins with a quick dueling blade, moves to twin cleaving reavers, and brings out a huge two-handed warhammer when pushed far enough.",
+   "body": "Mr. Smite is a showman and a versatile weaponmaster, not just a fighter of brute force. He toys with challengers and draws out the fight, leaving them a false hope of victory. When pressed, he stamps the ground hard enough to stun his foes, then searches a nearby chest for another weapon. First comes a quick dueling blade, then twin cleaving reavers, and at last a huge two-handed warhammer.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "mr smite lore",
     "tauren pirate"
    ],
-   "answer": "Most tauren live in Kalimdor with their Horde allies, but mercenary outcasts and wanderers sometimes travel east. Mr. Smite is Captain Greenskin's first mate, keeping the crew in line at Ironclad Cove as they ready the dreadnaught for sea."
+   "answer": "Most tauren live in Kalimdor with their Horde allies, though mercenary outcasts and wanderers sometimes travel east. At Ironclad Cove, Mr. Smite serves Captain Greenskin as first mate and keeps the crew in line as they ready the dreadnaught for sea."
   },
   {
    "q": "Who is Mr. Smite's superior?",
@@ -61,7 +61,7 @@
     "smite adds",
     "smite bodyguards"
    ],
-   "answer": "Mr. Smite has two Defias rogues hidden nearby, ready to ambush trespassers advancing along the pier toward the ship."
+   "answer": "Mr. Smite has two Defias rogues hidden nearby. They are ready to ambush trespassers advancing along the pier toward the ship."
   },
   {
    "q": "What makes Mr. Smite so dangerous in close quarters?",
@@ -69,21 +69,21 @@
     "smite stun",
     "smite war stomp"
    ],
-   "answer": "His tauren War Stomp sends shockwaves across the wooden dock and stuns the whole party, giving Mr. Smite time to rearm from his footlocker and return with heavier weapons."
+   "answer": "Mr. Smite's tauren War Stomp sends shockwaves across the wooden dock and stuns the whole party. That gives him time to rearm from his footlocker and return with heavier weapons."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "For a traveler from Mulgore, seeing a tauren serve as first mate among seafaring outlaws in the Eastern Kingdoms is jarring."
+   "text": "As a traveler from Mulgore, seeing a tauren serve as first mate among seafaring outlaws in the Eastern Kingdoms is jarring."
   },
   {
    "target": "class:Warrior",
-   "text": "Mr. Smite shows disciplined skill, moving from quick one-handed strikes to paired axes and punishing blows with a two-handed hammer."
+   "text": "Mr. Smite shows disciplined skill. He moves from quick one-handed strikes to paired axes, then delivers punishing blows with a two-handed hammer."
   },
   {
    "target": "faction:Alliance",
-   "text": "Mr. Smite blocks Alliance agents from reaching the gangplank and Captain Greenskin and Edwin VanCleef beyond it."
+   "text": "Mr. Smite blocks Alliance agents from reaching the gangplank, Captain Greenskin, and Edwin VanCleef beyond it."
   }
  ],
  "keywords": [
@@ -108,5 +108,5 @@
  "attribution": [
   "Mr. Smite"
  ],
- "style": 1
+ "style": 2
 }

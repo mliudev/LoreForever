@@ -7,26 +7,26 @@
  "meta": {
   "wiki": "Druid"
  },
- "summary": "Druids are guardians of the natural world who draw power directly from the wild spirits, the celestial bodies, and the Emerald Dream. Master shapeshifters, they adopt the forms of primal beasts to protect the land or mend grievous wounds. Practiced primarily by the night elves, newly revived among the tauren and kept alive by the Skyborne, druids place the preservation of nature above all mortal allegiance.",
+ "summary": "Across Kalimdor, Druid protect the wild and heal the wounded with nature’s power. They draw on wild spirits, the celestial bodies, and the Emerald Dream, and take beast forms to defend the land. Night elves have followed this path for ages, tauren have renewed it, and the Skyborne keep their own traditions.",
  "sections": [
   {
    "title": "Wardens of the Wilds",
-   "body": "Druidism is far more than a martial art; it is an ancient way of life rooted in deep communion with nature and the demigod Cenarius. Druids wield raw natural energies, commanding roots to entangle their foes, directing the celestial brilliance of the moon and stars, and invoking restorative flora to knit bone and flesh. Their duty is to preserve the cosmic balance and protect the unfettered wild from exploitation and corruption.",
+   "body": "Druidism binds its followers to nature and to the demigod Cenarius. Druids call up roots to hold their foes, draw power from the moon and stars, and use healing plants to mend bone and flesh. Their charge is to preserve the world’s balance and guard the wild from corruption and exploitation.",
    "spoiler": 0
   },
   {
    "title": "The Gift of Shapeshifting",
-   "body": "The defining hallmark of the druid is the supernatural art of shapeshifting. Through spiritual devotion, practitioners channel the primal aspects of Azeroth's beasts. They take on the thick hide of the bear to withstand crushing assaults, slip into the lithe form of the feline predator to strike from the shadows, or adopt aquatic and avian shapes to traverse sea and sky. While transformed, their animal mouths can rarely form mortal words, yet their physical prowess rivals the apex predators of the wild.",
+   "body": "Shapeshifting is the druid’s mark. Through spiritual devotion, druids channel the primal nature of Azeroth’s beasts. They take a bear’s thick hide to endure attacks, become lithe feline hunters to strike from shadow, or assume aquatic and avian forms to cross sea and sky. In animal form, their mouths rarely shape mortal words, yet their strength rivals the wild’s fiercest predators.",
    "spoiler": 0
   },
   {
    "title": "The Cenarion Circle",
-   "body": "First taught to Malfurion Stormrage by Cenarius ten thousand years ago, mortal druidism was later formalized under the Cenarion Circle. Headquartered in sacred Moonglade, the Circle watches over druidic practices across Kalimdor, standing independent of mortal factions and political squabbles. While long dominated solely by night elf men who spent centuries slumbering in the Emerald Dream, the aftermath of the Third War saw both night elf women and the tauren welcomed into its fold.",
+   "body": "Cenarius taught Malfurion Stormrage the druidic arts ten thousand years ago. Later, the Cenarion Circle gave mortal druidism its order. From sacred Moonglade, it watches over druids across Kalimdor, apart from mortal factions and political disputes. For ages, only night elf men belonged, spending centuries in the Emerald Dream. After the Third War, night elf women and tauren joined them.",
    "spoiler": 0
   },
   {
    "title": "Druids of the Skyborne",
-   "body": "Druidism reached the Skyborne long ago. When the Shal'nan's rebellion rose against Prince Tortheldrin in Eldre'Thalas, the common folk who joined it took up nature magic, influenced by the Cenarion Circle to the north, while Tortheldrin scorned it as beneath the Highborne. Their descendants still practice it: the Nightclaw Druids of Shadowgale Forest on Zephras Isle keep largely to themselves, apart from the other Skyborne factions.",
+   "body": "The Skyborne learned druidism long ago. When common folk joined the Shal'nan's rebellion against Prince Tortheldrin in Eldre'Thalas, they took up nature magic, influenced by the Cenarion Circle to the north. Tortheldrin scorned the practice as beneath the Highborne. Their descendants still follow that path: the Nightclaw Druids of Shadowgale Forest on Zephras Isle remain largely apart from other Skyborne factions.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who founded druidism",
     "malfurion first druid"
    ],
-   "answer": "Malfurion Stormrage was the first mortal to master the druidic arts under the direct tutelage of the demigod Cenarius, roughly ten thousand years ago prior to the War of the Ancients."
+   "answer": "Malfurion Stormrage was the first mortal to master druidic arts. He learned directly from the demigod Cenarius about ten thousand years ago, before the War of the Ancients."
   },
   {
    "q": "How can tauren become druids?",
@@ -47,7 +47,7 @@
     "why are tauren druids",
     "hamuul runetotem druid"
    ],
-   "answer": "Tauren druids learn the ways of the wild under Archdruid Hamuul Runetotem of Thunder Bluff, and the tauren now stand within the Cenarion Circle alongside the night elves."
+   "answer": "Tauren learn the ways of the wild under Archdruid Hamuul Runetotem of Thunder Bluff. They now belong to the Cenarion Circle alongside the night elves."
   },
   {
    "q": "What is the Cenarion Circle?",
@@ -55,7 +55,7 @@
     "cenarion circle lore",
     "what is moonglade order"
    ],
-   "answer": "The Cenarion Circle is the governing order of druids on Azeroth, founded to regulate wild practices and protect nature. Operating independently from both the Alliance and the Horde, its members answer to the Circle's archdruids and gather peacefully in sacred Moonglade."
+   "answer": "The Cenarion Circle guides druids across Azeroth and protects nature. It stands apart from the Alliance and the Horde. Its members answer to the Circle’s archdruids and gather in sacred Moonglade."
   },
   {
    "q": "Can druids speak while in animal form?",
@@ -63,7 +63,7 @@
     "can druids talk in bear form",
     "shapeshift talking lore"
    ],
-   "answer": "Generally, no. When shapeshifted into a beast, a druid's vocal anatomy reflects the animal, making normal mortal speech impossible, although a handful of rare, exceptionally powerful individuals have found magical ways around this limitation."
+   "answer": "Druids generally cannot speak normally in animal form because their voices reflect the beasts they have become. A few rare and exceptionally powerful druids have found magical ways around this limit."
   },
   {
    "q": "What is the Emerald Dream?",
@@ -71,7 +71,7 @@
     "emerald dream lore",
     "where do druids sleep"
    ],
-   "answer": "The Emerald Dream is a verdant, pristine realm that mirrors Azeroth as if it had never been touched by civilization. Night elf druids long entered centuries of hibernation to walk its pathways and commune with the spirits of nature."
+   "answer": "The Emerald Dream mirrors Azeroth as it might be without civilization’s touch. Night elf druids have spent centuries asleep as they walk its paths and commune with nature’s spirits."
   },
   {
    "q": "Why were druids originally sleeping for centuries?",
@@ -80,7 +80,7 @@
     "barrow dens sleeping",
     "long slumber"
    ],
-   "answer": "Following the World Tree Nordrassil's blessing, night elf druids entered the Barrow Dens to spend centuries wandering the Emerald Dream, aiding Ysera's green dragonflight in nurturing Azeroth's spiritual ecosystem until the Third War forced them awake."
+   "answer": "After the World Tree Nordrassil blessed them, night elf druids entered the Barrow Dens to wander the Emerald Dream for centuries. They aided Ysera’s green dragonflight in nurturing Azeroth’s spiritual ecosystem, until the Third War called them awake."
   },
   {
    "q": "Which races can be druids?",
@@ -89,25 +89,25 @@
     "druid races",
     "skyborne druid"
    ],
-   "answer": "Night elves and tauren, both bound to the Cenarion Circle, and the Skyborne, whose Nightclaw Druids keep their own traditions on Zephras Isle."
+   "answer": "Night elves and tauren belong to the Cenarion Circle, while the Skyborne keep their own druidic traditions. The Nightclaw Druids live on Zephras Isle."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "For ten millennia, kaldorei druids served as the quiet, sleeping guardians of Kalimdor, maintaining nature's balance under the guidance of Malfurion Stormrage and the demigod Cenarius."
+   "text": "For ten thousand years, kaldorei druids have guarded Kalimdor in quiet slumber. They keep nature’s balance under Malfurion Stormrage and the demigod Cenarius."
   },
   {
    "target": "race:Tauren",
-   "text": "Under Archdruid Hamuul Runetotem, the tauren have rekindled an ancient connection to the wilds, joining the Cenarion Circle in sacred Moonglade to walk the path of the Earth Mother."
+   "text": "Under Archdruid Hamuul Runetotem, tauren have renewed an ancient bond with the wilds. They have joined the Cenarion Circle in sacred Moonglade and follow the path of the Earth Mother."
   },
   {
    "target": "class:Druid",
-   "text": "As a protector of balance, a druid walks the fine line between animal fury, restorative life magic, and celestial devastation, drawing wisdom directly from Cenarius and the Emerald Dream."
+   "text": "As a Druid, you guard the balance with animal strength, healing magic, and celestial power. You draw wisdom from Cenarius and the Emerald Dream."
   },
   {
    "target": "race:Skyborne",
-   "text": "Skyborne druids descend from the common folk of Eldre'Thalas who took up nature magic during the Shal'nan's rebellion; the Nightclaw Druids of Shadowgale Forest still keep that path."
+   "text": "As a Skyborne druid, you follow the path taken by Eldre'Thalas common folk during the Shal'nan's rebellion. The Nightclaw Druids of Shadowgale Forest still keep that tradition."
   }
  ],
  "keywords": [
@@ -135,5 +135,6 @@
  ],
  "attribution": [
   "Druid"
- ]
+ ],
+ "style": 2
 }

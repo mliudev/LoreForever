@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "A sapta is an alchemical or ritual draught used by shamans to attune their spiritual senses to elemental spirits that remain invisible to ordinary sight."
+   "text": "As a shaman, you can use a sapta to attune your spiritual senses to elemental spirits hidden from ordinary sight."
   },
   {
    "target": "faction:Alliance",
-   "text": "Investigating corrupted waters within Westfall brings elemental cleansing rites into the heart of an Alliance realm."
+   "text": "As an Alliance member, you investigate corrupted waters in Westfall and bring elemental cleansing rites into Alliance lands."
   }
  ],
  "faq": [
@@ -28,7 +28,7 @@
     "water sapta purpose",
     "what does water sapta do"
    ],
-   "answer": "A water sapta is a specialized spiritual brew created for shamans to commune with the elements. Drinking or using a sapta temporarily opens one's perception to elemental entities and spiritual imbalances that are otherwise hidden from mortal eyes.",
+   "answer": "A Water Sapta is a ceremonial brew that attunes your spiritual sight to water spirits and disturbances hidden from mortal eyes.",
    "q": "What is a Water Sapta?"
   },
   {
@@ -37,7 +37,7 @@
     "tainted pond westfall",
     "tainted pond location"
    ],
-   "answer": "The tainted pond water is located within the lands of Westfall. Shamans are directed there while holding the water sapta to locate corrupted water sources and address whatever spiritual disturbance festers within the region.",
+   "answer": "The tainted pond lies within Westfall. The Water Sapta guides you there to find the corrupted water and address the spiritual disturbance.",
    "q": "Where is the tainted pond in Westfall?"
   },
   {
@@ -46,7 +46,7 @@
     "westfall water corruption",
     "why is westfall water tainted"
    ],
-   "answer": "Even in agrarian and drought-stricken human lands like Westfall, elemental waters can fall prey to pollution or dark corruptions. The quest tasks you with seeking out tainted pond water to investigate and restore balance to the troubled spirits residing there.",
+   "answer": "The Water Sapta leads you to Westfall because a pond there holds tainted water. You investigate the corruption and seek to restore balance to the troubled spirits.",
    "q": "Why does the water sapta lead to Westfall?"
   },
   {
@@ -55,7 +55,7 @@
     "who uses water sapta",
     "shaman sapta drink"
    ],
-   "answer": "Water saptas are entrusted to shamans undergoing trials of elemental communion. By partaking in the sapta, the practitioner attunes their senses to water spirits, allowing them to perceive hidden elementals or inspect tainted pools.",
+   "answer": "Shamans use Water Saptas during trials of elemental communion. The draught attunes their senses to water spirits, helping them perceive hidden elementals and inspect tainted pools.",
    "q": "Who uses the water sapta?"
   },
   {
@@ -63,7 +63,7 @@
     "what happens after using sapta",
     "sapta elemental sight"
    ],
-   "answer": "Upon using the water sapta near the tainted pond in Westfall, elemental sight is granted, revealing the spiritual state of the water or summoning hidden spirits tied to the local water trial.",
+   "answer": "Near the tainted pond in Westfall, the Water Sapta grants elemental sight. It reveals the water's spiritual state or summons hidden spirits tied to the local water trial.",
    "q": "What happens when you bring the sapta to the tainted pond?"
   },
   {
@@ -71,7 +71,7 @@
     "how do saptas work",
     "sapta lore"
    ],
-   "answer": "Saptas combine earthy reagents and elemental blessings into a ceremonial draught. Shamans rely on them during their trials to attune to specific elements\u2014earth, fire, water, or air\u2014bridging the gap between the physical world and the spirit realm.",
+   "answer": "Saptas are ceremonial draughts that attune shamans to an element and bridge the physical world and spirit realm. Shamans use them in trials for earth, fire, water, or air.",
    "q": "How do elemental saptas work in shamanic tradition?"
   }
  ],
@@ -90,18 +90,19 @@
  ],
  "sections": [
   {
-   "body": "In the elemental traditions of shamans, a sapta is a ceremonial concoction prepared to pierce the veil between the physical realm and the spirits. The Water Sapta attunes the senses specifically to the element of water, granting the spiritual vision necessary to perceive elemental disturbances and hidden spirits. Without such an attunement, ordinary travelers could look directly upon an elemental manifestation and see nothing more than ordinary ripples.",
+   "body": "Shamans prepare a sapta to let them see beyond the physical world. The Water Sapta attunes your senses to water, revealing disturbances and spirits hidden from ordinary travelers. Without that changed sight, an elemental presence might seem like no more than ripples.",
    "spoiler": 0,
    "title": "The Sight of the Waters"
   },
   {
-   "body": "The directive behind the Water Sapta sends the bearer to Westfall, an arid Alliance realm troubled by unrest and neglect. Within this windswept land lies a tainted pond whose waters suffer from spiritual pollution. Guided by the sapta's perception, the bearer must seek out these corrupted waters to uncover the disturbance and restore harmony to the local water spirits.",
+   "body": "The Water Sapta leads you to Westfall, an arid Alliance realm troubled by unrest and neglect. A pond there holds spiritually polluted water. With the sapta's sight, you seek the corrupted water, uncover the disturbance, and restore harmony to the local water spirits.",
    "spoiler": 0,
    "title": "Disturbance in Westfall"
   }
  ],
- "summary": "The Water Sapta is a ceremonial draught used to attune one's spiritual sight to the hidden spirits and corruptions of water. Entrusted with this preparation, the bearer is sent to locate tainted pond water within the fields of Westfall to investigate an elemental imbalance.",
+ "summary": "In Westfall, you take the Water Sapta to seek a troubled pond. The ceremonial draught sharpens your sight to water spirits and hidden corruption, so you can investigate the imbalance.",
  "attribution": [
   "In-game quest text: Water Sapta"
- ]
+ ],
+ "style": 2
 }

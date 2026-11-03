@@ -10,11 +10,11 @@
    "quest:129"
   ]
  },
- "summary": "Darcy packs Parker's Lunch in Lakeshire for Guard Parker's patrol. The meal offers a glimpse of the bonds and modest comforts among Redridge's defenders.",
+ "summary": "In Lakeshire, Darcy packs Parker's Lunch for Guard Parker's patrol. The meal offers a glimpse of the bonds and modest comforts among Redridge's defenders.",
  "sections": [
   {
    "title": "A Meal for the Road",
-   "body": "Darcy, a waitress at the Lakeshire inn, packs a meal for Guard Parker. He patrols the exposed road south toward Duskwood while Redridge faces attacks from gnolls and Blackrock orcs. The garrison is stretched thin and cut off from Stormwind's aid, leaving guards to keep long, lonely watches. Darcy's small gesture keeps Parker fed and begins a bashful courtship between the two townspeople.",
+   "body": "Darcy works as a waitress at the Lakeshire inn, where she packs a meal for Guard Parker. He patrols the exposed road south toward Duskwood as Redridge faces attacks from gnolls and Blackrock orcs. The garrison is stretched thin and cut off from Stormwind's aid, so its guards keep long, lonely watches. Darcy's small gesture feeds Parker and begins a bashful courtship between them.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "who gave me parker's lunch",
     "darcy redridge lunch"
    ],
-   "answer": "Darcy, a waitress at the Lakeshire inn, prepares Parker's Lunch for Guard Parker, who is out on patrol. A traveler carries it to him."
+   "answer": "Darcy, a waitress at the Lakeshire inn, prepares Parker's Lunch for Guard Parker while he is out on patrol. A traveler carries the meal to him."
   },
   {
    "q": "Where can Guard Parker be found?",
@@ -44,7 +44,7 @@
     "darcy and parker",
     "parker reaction to lunch"
    ],
-   "answer": "Parker is touched by Darcy's thoughtfulness and seeks a way to return her kindness. He arranges to send her fresh daffodils from the herbalist."
+   "answer": "Parker is touched by Darcy's thoughtfulness and looks for a way to return her kindness. He arranges to send her fresh daffodils from the herbalist."
   },
   {
    "q": "Why doesn't Darcy deliver the lunch herself?",
@@ -58,11 +58,11 @@
  "angles": [
   {
    "target": "profession:Cooking",
-   "text": "For frontier guards, a warm packed meal can be a comfort through long hours in the wilderness among hostile beasts."
+   "text": "For frontier guards, a warm packed meal brings comfort through long hours in the wilderness among hostile beasts."
   },
   {
    "target": "faction:Alliance",
-   "text": "With reinforcements from the capital slow to arrive, townspeople and the few remaining guards support one another to keep Lakeshire functioning."
+   "text": "With reinforcements from the capital slow to arrive, townspeople and the few remaining guards support one another to keep Lakeshire running."
   }
  ],
  "keywords": [
@@ -87,5 +87,5 @@
   "Parker's Lunch",
   "A Free Lunch"
  ],
- "style": 1
+ "style": 2
 }

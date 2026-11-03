@@ -17,16 +17,16 @@
   "wiki": "Sven's Revenge",
   "chain": []
  },
- "summary": "In southern Duskwood, grief sends Sven Yorgen from his ruined farm in pursuit of its killers. Now camped in the western hills, he asks travelers to return to the farmstead where a stranger buried something near the barn.",
+ "summary": "In Sven's Revenge, grief drives Sven Yorgen from his ruined farm in southern Duskwood to hunt its killers. Now camped in the western hills, he asks travelers to return to the farmstead, where a stranger buried something near the barn.",
  "sections": [
   {
    "title": "Tragedy at the Farmstead",
-   "body": "Hooded Dark Riders came down from Deadwind Pass and attacked Sven Yorgen's farm in southeastern Duskwood. While Sven was away, they killed his family. Returning to the slaughter, Sven saw an unknown figure skulking near the barn, hurriedly burying something. He left the hidden object behind and set out to hunt the killers.",
+   "body": "Hooded Dark Riders came from Deadwind Pass and attacked Sven Yorgen's farm in southeastern Duskwood. Sven was away, and they killed his family. When he returned to the slaughter, he saw an unknown figure skulking near the barn and hurriedly burying something. Sven left the object hidden and set out to hunt the killers.",
    "spoiler": 0
   },
   {
    "title": "Unearthing Secrets",
-   "body": "Sven Yorgen is camped in the western hills, consumed by wrath and seeking help at his farmstead. Between the farmhouse and ruined barn, behind an old tree stump, a mound of loose dirt marks where something was hastily buried. Recovering it may help explain why the shadowy riders targeted a quiet Duskwood farmer.",
+   "body": "Sven Yorgen is camped in the western hills, consumed by wrath and seeking help at his farmstead. Between the farmhouse and ruined barn, a mound of loose dirt behind an old tree stump marks where something was hastily buried. Recovering it may explain why the shadowy riders targeted a quiet Duskwood farmer.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "sven lore",
     "sven backstory"
    ],
-   "answer": "Sven Yorgen was a farmer in southeastern Duskwood, near the border of Deadwind Pass. After hooded riders murdered his family, he left his farm and became a recluse bent on vengeance."
+   "answer": "Sven Yorgen was a farmer in southeastern Duskwood near the border of Deadwind Pass. After hooded riders murdered his family, he left his farm and became a recluse bent on vengeance."
   },
   {
    "q": "What happened to Sven's farm?",
@@ -47,7 +47,7 @@
     "what happened to sven farm",
     "why is sven farm destroyed"
    ],
-   "answer": "Dark Riders from Deadwind Pass attacked Sven Yorgen's farmstead and killed his family. The property was left in ruins while Sven was away."
+   "answer": "Dark Riders from Deadwind Pass attacked Sven Yorgen's farmstead and killed his family. The property lay in ruins while Sven was away."
   },
   {
    "q": "Who buried something behind the barn?",
@@ -117,5 +117,5 @@
  "attribution": [
   "Sven's Revenge"
  ],
- "style": 1
+ "style": 2
 }

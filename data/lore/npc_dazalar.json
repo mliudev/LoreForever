@@ -8,16 +8,16 @@
   "wiki": "Dazalar",
   "refs": 4
  },
- "summary": "In Dolanaar, Dazalar trains young night elf hunters for the wilds of Teldrassil. He teaches them to aim true and form bonds with the beasts of the great boughs.",
+ "summary": "In Dolanaar, Dazalar prepares young night elf hunters for Teldrassil's wilds. He teaches steady aim and bonds with the beasts of the great boughs.",
  "sections": [
   {
    "title": "The Dolanaar Encampment",
-   "body": "Dazalar trains young hunters in Dolanaar after they leave Shadowglen. Night elf rangers and sentinels patrol the wilderness, and he teaches newcomers the patience and discipline needed to protect Teldrassil's fragile ecosystem.",
+   "body": "After leaving Shadowglen, young hunters train with Dazalar in Dolanaar. Night elf rangers and sentinels patrol the wilderness, so he teaches the patience and discipline needed to protect Teldrassil's fragile ecosystem.",
    "spoiler": 0
   },
   {
    "title": "Bonding with the Wild",
-   "body": "Dazalar teaches hunters to tame and care for beasts. The Kaldorei seek a pact with forest predators such as nightsabers, owls, and strigid hunters, training them to fight beside their companions with respect rather than force.",
+   "body": "Dazalar teaches hunters to tame and care for beasts. The Kaldorei seek a pact with forest predators such as nightsabers, owls, and strigid hunters. Their companions learn to fight beside them through respect, not force.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "dazalar lore",
     "dazalar identity"
    ],
-   "answer": "Dazalar trains night elf hunters in Dolanaar, teaching them combat skills and how to tame wild beasts."
+   "answer": "Dazalar trains night elf hunters in Dolanaar. He teaches combat skills and how to tame wild beasts."
   },
   {
    "q": "Where can I find Dazalar?",
@@ -47,7 +47,7 @@
     "dazalar skills",
     "hunter training dazalar"
    ],
-   "answer": "Dazalar teaches ranged attacks, traps, and survival skills. He also guides novice hunters through trials to master taming wilderness animals."
+   "answer": "Dazalar teaches ranged attacks, traps, and survival skills. He guides novice hunters through trials to master taming wilderness animals."
   },
   {
    "q": "Does Dazalar offer any special quests?",
@@ -65,7 +65,7 @@
     "why sentinels use hunters",
     "kaldorei hunters"
    ],
-   "answer": "Night elves have lived in harmony with Kalimdor's ancient forests for millennia. Archers and scouts form the backbone of the Sentinel army, using stealth, marksmanship, and animal allies to protect their lands without disrupting nature."
+   "answer": "Night elves have lived in harmony with Kalimdor's ancient forests for millennia. Archers and scouts form the backbone of the Sentinel army. They use stealth, marksmanship, and animal allies to protect their lands without disrupting nature."
   },
   {
    "q": "What kind of beasts does Dazalar send hunters to tame?",
@@ -74,17 +74,17 @@
     "dolanaar taming trial",
     "tame beasts teldrassil"
    ],
-   "answer": "Dazalar directs hunters to find native Teldrassil beasts, including local spiders, nightsabers, and birds of prey. The trials test their ability to approach and calm wild predators."
+   "answer": "Dazalar sends hunters to find native Teldrassil beasts, including local spiders, nightsabers, and birds of prey. The trials test their ability to approach and calm wild predators."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter, Dazalar guides you through the first trials of beast mastery and caring for an animal companion."
+   "text": "As a hunter, Dazalar guides you through your first trials in beast mastery and caring for an animal companion."
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you learn the traditions of the Kaldorei sentinels and scouts, and how to live in balance with nature's fierce predators."
+   "text": "As a night elf, you learn the Kaldorei traditions of sentinels and scouts, and how to live in balance with nature's fierce predators."
   }
  ],
  "keywords": [
@@ -109,5 +109,5 @@
  "attribution": [
   "Dazalar"
  ],
- "style": 1
+ "style": 2
 }

@@ -8,16 +8,16 @@
   "wiki": "Kin'weelay",
   "refs": 4
  },
- "summary": "Kin'weelay is a renowned Darkspear witch doctor stationed at Grom'gol Base Camp in Stranglethorn Vale. Dispatched directly from Orgrimmar, he offers mystical aid and counsel to the Horde vanguard in the jungle. His spiritual expertise is vital in unravelling dark mojo and aiding the rescue of young Yenniku.",
+ "summary": "At Grom'gol Base Camp, Kin'weelay brings Darkspear witchcraft to the Horde's effort to free young Yenniku. His knowledge of spirits guides the work in Stranglethorn Vale.",
  "sections": [
   {
    "title": "A Master of Darkspear Mojo",
-   "body": "Recognized among the Darkspear as one of their most powerful practitioners of traditional witchcraft, Kin'weelay commands deep knowledge of spirits, hexes, and soul magic. When matters involving ancestral spirits or hostile troll enchantments arise, Horde scouts in Stranglethorn Vale look to him to pierce the magical veil.",
+   "body": "Kin'weelay is a powerful Darkspear witch doctor who knows spirits, hexes, and soul magic. Horde scouts seek his counsel in Stranglethorn Vale when ancestral spirits stir or hostile troll enchantments block their way.",
    "spoiler": 0
   },
   {
    "title": "The Mission to Grom'gol",
-   "body": "Kin'weelay was sent south from the dusty streets of Orgrimmar specifically to support Nimboya at Grom'gol Base Camp. His purpose extends beyond simple military support; he focuses on breaking the sinister bindings placed upon Yenniku, the abducted son of Chieftain Vol'jin's trusted bloodline. To undo such dark craft, Kin'weelay seeks powerful reagents\u2014most notably the Mind's Eye\u2014to fashion a soul gem capable of freeing captured spirits.",
+   "body": "Kin'weelay was sent south from Orgrimmar to support Nimboya at Grom'gol Base Camp. He works to break the bindings on Yenniku, the abducted son of Chieftain Vol'jin's trusted bloodline.\n\nTo undo the dark craft, Kin'weelay seeks powerful reagents, especially the Mind's Eye. He means to shape a soul gem that can free captured spirits.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who is kin'weelay",
     "gromgol witch doctor"
    ],
-   "answer": "Kin'weelay is an esteemed Darkspear troll witch doctor stationed at Grom'gol Base Camp in northern Stranglethorn Vale. Known for his mastery of spiritual and soul magic, he was dispatched by the Horde leadership from Orgrimmar."
+   "answer": "At Grom'gol Base Camp in northern Stranglethorn Vale, Kin'weelay is a Darkspear troll witch doctor. Horde leaders sent him from Orgrimmar for his mastery of spiritual and soul magic."
   },
   {
    "q": "Why is Kin'weelay in Stranglethorn Vale?",
@@ -37,7 +37,7 @@
     "why is kinweelay in gromgol",
     "kinweelay purpose"
    ],
-   "answer": "He was sent to Grom'gol Base Camp to lend his mystical talents to Nimboya and the local Darkspear expedition, particularly in finding and restoring young Yenniku from the grip of hostile jungle trolls."
+   "answer": "Kin'weelay came to Grom'gol Base Camp to aid Nimboya and the local Darkspear expedition. He brings his mystical talents to the effort to find and restore young Yenniku from the hostile jungle trolls."
   },
   {
    "q": "What is Kin'weelay trying to create?",
@@ -45,7 +45,7 @@
     "kinweelay minds eye",
     "what does kinweelay make"
    ],
-   "answer": "Kin'weelay seeks to acquire a relic known as the Mind's Eye. With his witchcraft, he intends to refine it into a soul gem that can capture and safely preserve the soul of Yenniku, severing the dark control holding the boy."
+   "answer": "Kin'weelay seeks to make a soul gem from the Mind's Eye. He means it to capture and preserve Yenniku's soul, freeing the boy from the dark control upon him."
   },
   {
    "q": "Where does Kin'weelay come from?",
@@ -53,7 +53,7 @@
     "kinweelay background",
     "where did kinweelay come from"
    ],
-   "answer": "He traveled from Orgrimmar, where the Darkspear tribe has maintained strong ties and presence since joining the Horde and settling the Echo Isles."
+   "answer": "Kin'weelay came from Orgrimmar, where the Darkspear have had strong ties and a presence since joining the Horde and settling the Echo Isles."
   },
   {
    "q": "How does he view the other troll tribes of Stranglethorn?",
@@ -61,7 +61,7 @@
     "kinweelay other trolls",
     "kinweelay and bloodscalp"
    ],
-   "answer": "He views hostile jungle tribes, like the Bloodscalp and Skullsplitter, as dangerous rivals steeped in violent, corrupted rituals. He actively uses his craft to counter their charms and recover stolen Darkspear youth."
+   "answer": "Kin'weelay sees hostile jungle tribes such as the Bloodscalp and Skullsplitter as dangerous rivals. Their rituals are violent and corrupted, so he uses his craft against their charms and to recover stolen Darkspear youth."
   },
   {
    "q": "What kind of items does Kin'weelay study?",
@@ -69,17 +69,17 @@
     "kinweelay items",
     "singing crystals kinweelay"
    ],
-   "answer": "Kin'weelay investigates local curiosities possessing natural or hexed resonance, including the mysterious singing crystals and bone necklaces worn by hostile jungle trolls, studying their mojo to devise countermeasures."
+   "answer": "Kin'weelay studies local curiosities with natural or hexed resonance, including singing crystals and the bone necklaces worn by hostile jungle trolls. He examines their mojo to devise countermeasures."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For Darkspear trolls, Kin'weelay represents one of the tribe's most respected spiritual authorities, dedicated to undoing the cruel curses of their jungle kin."
+   "text": "As a Darkspear troll, you can look to Kin'weelay as one of your tribe's respected spiritual authorities. He works to undo the cruel curses of your jungle kin."
   },
   {
    "target": "faction:Horde",
-   "text": "Kin'weelay demonstrates the value of troll spiritualism to the Horde war effort, providing magical counter-strategies against threats that pure strength cannot break."
+   "text": "As a member of the Horde, you can see how troll spiritualism aids the war effort. Kin'weelay offers magical ways to counter threats that strength alone cannot break."
   }
  ],
  "keywords": [
@@ -102,5 +102,6 @@
  ],
  "attribution": [
   "Kin'weelay"
- ]
+ ],
+ "style": 2
 }

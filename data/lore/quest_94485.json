@@ -14,11 +14,11 @@
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "Herbalists and field healers value Lady's Tear for its sticky antiseptic secretions, which can quickly bind open flesh and prevent infection in wilderness emergencies."
+   "text": "As a herbalist, you know Lady's Tear for its sticky antiseptic secretion. It can bind open flesh and help prevent infection in wilderness emergencies."
   },
   {
    "target": "class:Priest",
-   "text": "While priests channel the Light to mend mortal injuries, natural poultices like Lady's Tear serve as crucial physical dressings for wounded survivors when magical relief is stretched thin."
+   "text": "As a priest, you channel the Light to mend mortal injuries. Natural poultices like Lady's Tear can dress wounds when magical relief is stretched thin."
   }
  ],
  "faq": [
@@ -27,7 +27,7 @@
     "what is tears of the lady",
     "tears of the lady quest info"
    ],
-   "answer": "Tears of the Lady is a recovery effort directed by Elegael in Shadowgale. Wounded comrades remain trapped in Nightclaw Den, and Elegael requires local flora to brew an urgent poultice to keep them alive.",
+   "answer": "Elegael needs help treating wounded companions trapped in Nightclaw Den. Gather Lady's Tear moss in Shadowgale so Elegael can prepare a poultice to keep them alive.",
    "q": "What is the quest Tears of the Lady about?"
   },
   {
@@ -36,7 +36,7 @@
     "ladys tear moss",
     "what is lady's tear moss"
    ],
-   "answer": "Lady's Tear is a spindly moss that grows near the bases of trees throughout the Shadowgale woods. It secretes a naturally sticky sap that serves as a powerful antiseptic, making it ideal for dressing and binding open wounds.",
+   "answer": "Lady's Tear is a spindly moss that grows near tree bases throughout Shadowgale. Its secretion is viscous and sticky, with natural antiseptic properties that can seal open wounds.",
    "q": "What is Lady's Tear?"
   },
   {
@@ -44,7 +44,7 @@
     "who is elegael",
     "quest giver tears of the lady"
    ],
-   "answer": "Elegael is the survivor who organizes the medical effort in Shadowgale. Having left wounded companions behind in the Nightclaw Den, Elegael gathers medicinal supplies to prepare treatments before returning to help them.",
+   "answer": "Elegael organizes medical aid in Shadowgale. Wounded companions are trapped in Nightclaw Den, and Elegael needs supplies to treat them.",
    "q": "Who is Elegael?"
   },
   {
@@ -52,7 +52,7 @@
     "what is nightclaw den",
     "where is nightclaw den"
    ],
-   "answer": "Nightclaw Den is a location near Shadowgale where several of Elegael's injured allies are stranded. Their condition is precarious, prompting the desperate rush to gather healing ingredients.",
+   "answer": "Nightclaw Den is where several of Elegael's injured allies are stranded near Shadowgale. Their condition is precarious as Elegael seeks healing ingredients.",
    "q": "What is the Nightclaw Den?"
   },
   {
@@ -60,7 +60,7 @@
     "why need ladys tear",
     "what does the moss do"
    ],
-   "answer": "The moss provides a crucial antiseptic secretion needed to compound a medical poultice. This sticky substance seals open gashes and fights off infection for the survivors left behind in the den.",
+   "answer": "Elegael needs Lady's Tear's antiseptic secretion to prepare a poultice. The viscous, sticky substance seals open gashes and protects traumatic wounds from worsening.",
    "q": "Why does Elegael need Lady's Tear moss?"
   },
   {
@@ -68,7 +68,7 @@
     "where does ladys tear grow",
     "finding ladys tear"
    ],
-   "answer": "Lady's Tear moss typically clings to the base of the trees throughout the Shadowgale forest. While Elegael gathered what was immediately reachable, more must be scavenged from the surrounding woods.",
+   "answer": "Lady's Tear clings to tree bases throughout Shadowgale. Elegael has gathered what was immediately reachable, and more moss lies in the surrounding woods.",
    "q": "Where is Lady's Tear moss found?"
   }
  ],
@@ -84,18 +84,19 @@
  "related": [],
  "sections": [
   {
-   "body": "In the shadowed depths of Shadowgale, Elegael urgently seeks aid to treat companions trapped within the Nightclaw Den. With critically injured allies awaiting rescue, conventional supplies are lacking, requiring field medicine scavenged directly from the surrounding wilderness. The effort hinges on securing natural remedies before time runs out for those left behind.",
+   "body": "Elegael needs your help in Shadowgale. Wounded companions are trapped inside Nightclaw Den, critically injured and waiting for aid. Ordinary supplies are scarce, so you gather medicine from the surrounding woods. Their wounds cannot wait.",
    "spoiler": 0,
    "title": "Desperate Remedies in Shadowgale"
   },
   {
-   "body": "The vital component of Elegael's planned poultice is Lady's Tear, a spindly moss clinging to tree bases across Shadowgale. The plant produces a viscous, sticky secretion with natural antiseptic properties, capable of sealing open gashes and shielding traumatic wounds from worsening in the damp wild. Delivering enough moss allows Elegael to prepare the dressings necessary to stabilize the fallen.",
+   "body": "Elegael needs Lady's Tear, a spindly moss clinging to tree bases across Shadowgale. Its secretion is viscous and sticky, with natural antiseptic properties. It seals open gashes and shields traumatic wounds from worsening in the damp wild. With enough moss, Elegael can prepare dressings to stabilize the fallen.",
    "spoiler": 0,
    "title": "The Healing Moss"
   }
  ],
- "summary": "Tears of the Lady is an urgent mercy task undertaken for Elegael in the forest of Shadowgale. To treat wounded comrades left stranded in the Nightclaw Den, travelers must scour local tree trunks for Lady's Tear, an antiseptic moss vital for binding severe wounds.",
+ "summary": "In Shadowgale, Lady's Tear moss may keep Elegael's wounded companions alive. They are trapped in Nightclaw Den, and Elegael needs medicine from nearby trees.",
  "attribution": [
   "In-game quest text: Tears of the Lady"
- ]
+ ],
+ "style": 2
 }

@@ -24,16 +24,16 @@
    "Service to the Horde"
   ]
  },
- "summary": "The jeweled pendant now sits with Zor Lonetree in Orgrimmar, delivered after Report to Zor, and Zor has one more word for you.",
+ "summary": "In Orgrimmar, Zor Lonetree has received the jeweled pendant and has more to tell you about your service to the Horde.",
  "sections": [
   {
    "title": "Zor Lonetree in Orgrimmar",
-   "body": "You carried the jeweled pendant to Zor Lonetree in Orgrimmar, and the pendant now sits with Zor. Return to Zor Lonetree and there is more to hear about what you have done for the Horde.",
+   "body": "The jeweled pendant now rests with Zor Lonetree in Orgrimmar. Return to him to hear more about your service to the Horde.",
    "spoiler": 0
   },
   {
    "title": "Zor's Last Word",
-   "body": "Zor says the scholars will need time to study the pendant. For your service to the Horde, Zor offers a small token, and says that what you have done brings honor to you and to the Horde.",
+   "body": "Zor says the scholars need time to study the pendant. He offers you a small token in recognition of your service to the Horde. Your deeds bring honor to you and to the Horde.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "who gives this quest",
     "zor lonetree role"
    ],
-   "answer": "Zor Lonetree in Orgrimmar, after you carried it there from Nazeer Bloodpike in Brackenwall Village."
+   "answer": "Zor Lonetree in Orgrimmar has the pendant. You brought it there from Nazeer Bloodpike in Brackenwall Village."
   },
   {
    "q": "What comes before this quest?",
@@ -54,7 +54,7 @@
     "service to the horde prerequisite",
     "previous quest"
    ],
-   "answer": "It follows Report to Zor, where you took the jeweled pendant to Zor Lonetree."
+   "answer": "Report to Zor comes first. You brought the jeweled pendant to Zor Lonetree."
   }
  ],
  "angles": [],
@@ -73,5 +73,6 @@
  ],
  "attribution": [
   "Service to the Horde"
- ]
+ ],
+ "style": 2
 }

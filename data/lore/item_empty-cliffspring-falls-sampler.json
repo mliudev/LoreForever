@@ -14,12 +14,12 @@
  "sections": [
   {
    "title": "Investigating the Tainted Waters",
-   "body": "Cliffspring Falls feeds northern Darkshore, so trouble in its headwaters threatens the local wildlife. When a wasting poison began killing the region’s deer, Dendrite Starblaze of the Cenarion Circle gave empty samplers to young druids sent from Moonglade. They must reach the cliffs by the falls and gather water at a cave entrance overrun by hostile naga.",
+   "body": "Cliffspring Falls feeds northern Darkshore. Poison in its headwaters puts the local wildlife at risk. When a wasting poison began killing the region’s deer, Dendrite Starblaze of the Cenarion Circle gave empty samplers to young druids from Moonglade. They must gather water at a cave entrance by the falls, overrun by hostile naga.",
    "spoiler": 0
   },
   {
    "title": "A Recipe for a Cure",
-   "body": "Alanndarian Nightsong receives the filled sampler in Auberdine. The polluted water confirms that foul agents are poisoning the water table. By studying the contamination, Alanndarian and the Cenarion druids can formulate an antidote and teach the initiate basic druidic healing rites.",
+   "body": "Alanndarian Nightsong receives the filled sampler in Auberdine. The polluted water confirms that foul agents are poisoning the water table. By studying the contamination, Alanndarian and the Cenarion druids can formulate an antidote. They can also teach the initiate basic druidic healing rites.",
    "spoiler": 1
   }
  ],
@@ -40,7 +40,7 @@
     "cliffspring sampler location",
     "fill sampler spot"
    ],
-   "answer": "The water is gathered at the mouth of the cave near Cliffspring Falls, high in Darkshore’s northeastern hills. Hostile naga guard the entrance."
+   "answer": "The water is gathered at the mouth of the cave near Cliffspring Falls, high in Darkshore’s northeastern hills. Hostile naga overrun the entrance."
   },
   {
    "q": "Who receives the filled container?",
@@ -49,7 +49,7 @@
     "where to turn in sampler",
     "alanndarian sampler"
    ],
-   "answer": "The filled sampler goes to Alanndarian Nightsong, a night elf healer and Cenarion representative in Auberdine."
+   "answer": "The filled sampler goes to Alanndarian Nightsong in Auberdine. She is a night elf healer and a Cenarion representative there."
   },
   {
    "q": "Why is Cliffspring Falls being sampled instead of other rivers?",
@@ -94,5 +94,5 @@
   "Empty Cliffspring Falls Sampler",
   "The Principal Source (Alliance)"
  ],
- "style": 1
+ "style": 2
 }

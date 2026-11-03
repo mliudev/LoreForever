@@ -10,16 +10,16 @@
    "quest:1088"
   ]
  },
- "summary": "At Raynewood Retreat, Ordanus' Head is claimed as proof that Keeper Ordanus has fallen. Blood elf magi Braelyn Firehand seeks it in Ashenvale.",
+ "summary": "At Raynewood Retreat, Ordanus' Head is sought as proof that Keeper Ordanus has fallen. Braelyn Firehand, a blood elf magus, seeks it in Ashenvale.",
  "sections": [
   {
    "title": "A Grudge from the Past",
-   "body": "Keeper Ordanus was an ancient keeper of the grove and one of Cenarius's elder sons. Braelyn Firehand climbed the heights of Stonetalon Mountains on her master's orders, seeking to end the druids' stifling of magic at the peak and take vengeance on Ordanus. Before she could strike, the keeper was spirited away to the heart of Ashenvale. Braelyn used arcane scrying to peer through the forest canopy and found his sanctuary in the boughs of Raynewood Retreat. She demanded his severed head as proof that the wild demigod's arrogance had been answered.",
+   "body": "Keeper Ordanus was an ancient keeper of the grove and one of Cenarius's elder sons. His druids stifled magic at the peak of Stonetalon Mountains, and Braelyn Firehand climbed those heights on her master's orders. She meant to end their hold and take vengeance on Ordanus. Before she could strike, the keeper was spirited away to the heart of Ashenvale.\n\nBraelyn used arcane scrying to peer through the forest canopy and found Ordanus's sanctuary in the boughs of Raynewood Retreat. There she demanded his severed head as proof that the wild demigod's arrogance had been answered.",
    "spoiler": 0
   },
   {
    "title": "The Price of Hubris",
-   "body": "Braelyn holds an old grievance against Ordanus, whom she knew long ago, and hates the druids who seek to stifle magic. In life, Ordanus considered himself superior even to the ancient Highborne nobility. By taking his head, Braelyn Firehand strikes back at the legacy of Cenarius and declares that no guardian of the wild can stem the return of raw magical power.",
+   "body": "Braelyn Firehand knew Ordanus long ago and holds an old grievance against him. She also hates the druids who seek to stifle magic. In life, Ordanus considered himself superior even to the ancient Highborne nobility.\n\nBy taking his head, Braelyn strikes back at the legacy of Cenarius. She declares that no guardian of the wild can stem the return of raw magical power.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "ordanus lore",
     "what is ordanus"
    ],
-   "answer": "Keeper Ordanus was an ancient keeper of the grove and an elder son of Cenarius. Long ago, he clashed with arcane practitioners among the night elven nobility and was known for deep arrogance toward those who practiced the arcane arts."
+   "answer": "Keeper Ordanus was an ancient keeper of the grove and an elder son of Cenarius. Long ago, he clashed with arcane practitioners among the night elven nobility and was deeply arrogant toward those who practiced the arcane arts."
   },
   {
    "q": "Where is this head collected?",
@@ -40,7 +40,7 @@
     "ordanus location",
     "raynewood retreat ordanus"
    ],
-   "answer": "The head is claimed from Keeper Ordanus atop the elevated wooden platform at Raynewood Retreat, a fortified night elven canopy enclave in central Ashenvale."
+   "answer": "Ordanus' Head is claimed from Keeper Ordanus atop the elevated wooden platform at Raynewood Retreat, a fortified night elven canopy enclave in central Ashenvale."
   },
   {
    "q": "Why does Braelyn Firehand want his head?",
@@ -49,7 +49,7 @@
     "braelyn grudge",
     "why kill ordanus"
    ],
-   "answer": "Braelyn Firehand knew Ordanus long ago and despised his arrogance; he held himself above even the Highborne. She also hates the druids and sons of Cenarius for trying to halt the flow of magic and for spiriting Ordanus away from the peak before she could reach him."
+   "answer": "Braelyn Firehand knew Ordanus long ago and despised his arrogance. He held himself above even the Highborne. She also hates the druids and sons of Cenarius for trying to halt the flow of magic and for spiriting Ordanus away from the peak before she could reach him."
   },
   {
    "q": "What happens after the head is delivered?",
@@ -58,17 +58,17 @@
     "after ordanus dies",
     "braelyn firehand quest reward"
    ],
-   "answer": "Delivering Ordanus' Head to Braelyn at Sunrock Retreat satisfies her blood debt, and she rewards the mercenary with the mighty gift she promised."
+   "answer": "Delivering Ordanus' Head to Braelyn at Sunrock Retreat satisfies her blood debt. She rewards the mercenary with the mighty gift she promised."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For a member of the Horde, striking down Ordanus and delivering his head to Braelyn helps cement the Horde's foothold across the contested borders of Stonetalon and Ashenvale, weakening local night elf leadership."
+   "text": "As a member of the Horde, striking down Ordanus and delivering his head to Braelyn helps cement the Horde's foothold across the contested borders of Stonetalon and Ashenvale. It weakens local night elf leadership."
   },
   {
    "target": "class:Druid",
-   "text": "As a druid, carrying the severed head of an elder son of Cenarius is a stark reminder of the bitter, bloody animosity arcane sorcerers still bear toward the protectors of the wild."
+   "text": "As a druid, carrying the severed head of an elder son of Cenarius is a stark reminder of the bitter animosity arcane sorcerers still bear toward the protectors of the wild."
   }
  ],
  "keywords": [
@@ -96,5 +96,5 @@
   "Ordanus' Head",
   "Ordanus (quest)"
  ],
- "style": 1
+ "style": 2
 }

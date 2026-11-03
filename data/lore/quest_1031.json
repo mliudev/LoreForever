@@ -20,21 +20,21 @@
    "The Branch of Cenarius (Classic)"
   ]
  },
- "summary": "In eastern Ashenvale, Anilia's final plea sends you after the Branch of Cenarius. Geltharis has taken the sacred relic, and Illiyana waits for its return.",
+ "summary": "In eastern Ashenvale, Anilia's final plea sends you to recover the Branch of Cenarius. Geltharis has taken the sacred relic, and Illiyana awaits its return.",
  "sections": [
   {
    "title": "A Dying Request",
-   "body": "You find Anilia near death while searching eastern Ashenvale for missing dryads. The wounded daughter of Cenarius points north, toward the satyr ruins. With her last breaths, she names Geltharis as the one who took the Branch of Cenarius and begs you to recover it.",
+   "body": "Near death, Anilia lies where you search eastern Ashenvale for missing dryads. Cenarius's wounded daughter points north toward the satyr ruins. With her last breaths, she names Geltharis as the one who took the Branch of Cenarius. She begs you to bring it back.",
    "spoiler": 0
   },
   {
    "title": "Corruption in the Ruins",
-   "body": "Geltharis hides among the ancient elven ruins of Xavian. The satyrs are ancient servants of the Burning Legion, and they prize relics tied to Cenarius as trophies to defile and mock. Taking the branch from Geltharis can answer Anilia's plea and help defend Ashenvale's sacred plants from the corruption these servants spread.",
+   "body": "Geltharis hides among the ancient elven ruins of Xavian. The satyrs are ancient servants of the Burning Legion. They prize relics tied to Cenarius as trophies, to defile and mock. Taking the branch from Geltharis answers Anilia's plea and helps defend Ashenvale's sacred plants from the corruption these servants spread.",
    "spoiler": 0
   },
   {
    "title": "Sorrow Among the Dryads",
-   "body": "You return the branch to Illiyana, but Anilia is gone. The sacred relic is safe from demonic corruption, while the news of Anilia's death grieves her surviving kin. The dryads of Ashenvale must face war and the corruption closing in around them.",
+   "body": "You return the branch to Illiyana, but Anilia is gone. The sacred relic is safe from demonic corruption, yet the news of Anilia's death grieves her surviving kin. War and corruption close in around the dryads of Ashenvale.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "what is the branch",
     "cenarius branch"
    ],
-   "answer": "The Branch of Cenarius is a sacred nature relic linked to the forest lord Cenarius and cherished by his dryad daughters. Satyrs took it, and Anilia was mortally wounded while leading her sisters in the effort to recover it; with her last breath, she named Geltharis as the thief."
+   "answer": "The Branch of Cenarius is a sacred nature relic linked to the forest lord Cenarius and cherished by his dryad daughters. Satyrs took it, and Anilia was mortally wounded while leading her sisters to recover it. With her last breath, she named Geltharis as the thief."
   },
   {
    "q": "Who killed Anilia?",
@@ -82,7 +82,7 @@
     "why steal cenarius branch",
     "why did geltharis take it"
    ],
-   "answer": "Satyrs are ancient night elves transformed by demonic pacts. They hate nature and Cenarius, and stealing or corrupting sacred relics serves their demonic masters and their spite against their former kin."
+   "answer": "Satyrs are ancient night elves transformed by demonic pacts. They hate nature and Cenarius. Stealing or corrupting sacred relics serves their demonic masters and their spite against their former kin."
   },
   {
    "q": "Who was Anilia to Illiyana?",
@@ -90,13 +90,13 @@
     "anilia and illiyana",
     "are the dryads sisters"
    ],
-   "answer": "Anilia and Illiyana were close dryad companions, sisters in spirit who spent countless days running and playing freely in Ashenvale's wilds before corruption's dangers took Anilia's life."
+   "answer": "Anilia and Illiyana were close dryad companions, sisters in spirit. They spent countless days running and playing freely in Ashenvale's wilds before corruption's dangers took Anilia's life."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you know Cenarius's daughters as beloved allies. Avenge Anilia and purge the satyrs defiling your ancestral forests."
+   "text": "As a night elf, you know Cenarius's daughters as beloved allies. Avenge Anilia and drive the satyrs from your ancestral forests."
   },
   {
    "target": "class:Druid",
@@ -126,5 +126,5 @@
  "attribution": [
   "The Branch of Cenarius (Classic)"
  ],
- "style": 1
+ "style": 2
 }

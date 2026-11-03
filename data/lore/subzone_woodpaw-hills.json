@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Woodpaw Hills"
  },
- "summary": "The Woodpaw Hills are a rugged, forested stretch of southeastern Feralas claimed by the Woodpaw gnolls. Once a dominant tribal territory, the hills have become an embattled frontline as insectoid terrors tunnel up from below and ancient stone giants stalk the canopy.",
+ "summary": "In southeastern Feralas, silithid swarms and mountain giants press into Woodpaw Hills. The Woodpaw gnolls have lost ground in their old territory.",
  "sections": [
   {
    "title": "A Beleaguered Stronghold",
-   "body": "The dense forests of the Woodpaw Hills serve as the historical territory of the Woodpaw gnoll clan. While the hyena-folk once roamed unchallenged across these slopes, their dominance has crumbled under pressure from multiple fronts. To their southeast, nightmarish silithid swarmers have breached the earth at the Writhing Deep, forcing the gnolls back and compelling their chieftains to retreat deeper into the Woodpaw Den. Adding to the peril, ancient mountain giants\u2014relics summoned down during the Third War to repel the Burning Legion\u2014now wander the hillside woods, crushing any travelers or Horde interlopers who stray into their path.",
+   "body": "Woodpaw gnolls hold the forests of Woodpaw Hills, though their grip on the slopes has weakened. Silithid swarmers broke through the earth at the Writhing Deep, southeast of the hills, and drove the clan back. Their chieftains have retreated deeper into Woodpaw Den.\n\nMountain giants also roam these woods. They were summoned from the mountains during the Third War to repel the Burning Legion. Now they crush travelers and Horde interlopers who cross their path.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "woodpaw hills enemies",
     "gnolls in feralas"
    ],
-   "answer": "The hills are primarily occupied by the Woodpaw clan of gnolls, who maintain defensive camps throughout the woods. Ancient mountain giants also patrol the slopes, while invasive silithid insects push in from the southeastern borders."
+   "answer": "The Woodpaw clan of gnolls lives in the hills and keeps defensive camps among the woods. Mountain giants patrol the slopes while silithid insects press in from the southeast."
   },
   {
    "q": "Why are mountain giants walking around this forest?",
@@ -32,7 +32,7 @@
     "why are there giants here",
     "mountain giant lore feralas"
    ],
-   "answer": "The mountain giants originally descended from the peaks to assist the night elves during the Third War when the Burning Legion invaded Kalimdor. Though the demonic invasion was broken, these hulking wardens remain in the woods, fiercely guarding the wild lands against intrusion."
+   "answer": "Mountain giants came down from the peaks to aid the night elves during the Burning Legion's invasion of Kalimdor in the Third War. The invasion was broken, but the giants remain in the woods, guarding the wild lands against intrusion."
   },
   {
    "q": "What is threatening the gnolls here?",
@@ -41,7 +41,7 @@
     "woodpaw troubles",
     "bugs attacking gnolls feralas"
    ],
-   "answer": "The Woodpaw clan is being displaced by a sudden eruption of insectoid silithid carving out hives at the Writhing Deep. The encroaching swarms have driven the gnolls out of several camps, forcing their strongest alphas to fortify their position inside the Woodpaw Den."
+   "answer": "Silithid swarms are driving the Woodpaw clan from its camps as they carve out hives at the Writhing Deep. The strongest alphas have retreated to Woodpaw Den and fortified their position."
   },
   {
    "q": "Where are the Woodpaw clan leaders?",
@@ -50,13 +50,13 @@
     "gnoll bosses feralas",
     "find woodpaw leader"
    ],
-   "answer": "Due to the encroaching silithid swarms across the hills, the tribal leadership has abandoned the open camps. The Woodpaw Alphas have retreated into the sheltered underground caves of the Woodpaw Den."
+   "answer": "The Woodpaw Alphas have left the open camps and retreated into the sheltered underground caves of Woodpaw Den as silithid swarms press across the hills."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Unlike the neutral cliff giants dwelling near the western coast, the mountain giants patrolling the Woodpaw Hills harbor intense hostility toward Horde members who venture inland."
+   "text": "As a member of the Horde, you face mountain giants hostile to you in Woodpaw Hills. Neutral cliff giants dwell near the western coast."
   }
  ],
  "keywords": [
@@ -78,5 +78,6 @@
  ],
  "attribution": [
   "Woodpaw Hills"
- ]
+ ],
+ "style": 2
 }

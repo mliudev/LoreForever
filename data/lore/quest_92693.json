@@ -19,7 +19,7 @@
     "quest giver standing our ground",
     "standing our ground npc"
    ],
-   "answer": "The quest is given by Aamelia Windfield, who prepares to face a looming bandit assault and offers you a final chance to back out before confronting their leader.",
+   "answer": "Aamelia Windfield gives you one last chance to retreat before you face the bandit leader.",
    "q": "Who gives the quest Standing Our Ground?"
   },
   {
@@ -28,7 +28,7 @@
     "standing our ground boss",
     "bandit leader standing our ground"
    ],
-   "answer": "The confrontation is against an encroaching bandit leader threatening the local defenders. Aamelia Windfield rallies her remaining resolve to march out and face this leader directly.",
+   "answer": "You face the bandit leader threatening the local defenders. Aamelia gathers her resolve and confronts the leader with you.",
    "q": "Who do you fight in Standing Our Ground?"
   },
   {
@@ -37,7 +37,7 @@
     "standing our ground retreat town",
     "valanaar quest"
    ],
-   "answer": "Valanaar is the nearby settlement mentioned by Aamelia Windfield as a place of retreat. She explicitly gives you the option to fall back to Valanaar if you do not wish to risk your life in the fight.",
+   "answer": "Valanaar is the nearby settlement where Aamelia offers you a chance to retreat if you do not want to risk your life in the fight.",
    "q": "What is Valanaar in relation to this quest?"
   },
   {
@@ -46,7 +46,7 @@
     "standing our ground story",
     "aamelia windfield struggle"
    ],
-   "answer": "Aamelia and her companions believe the odds are heavily stacked against them, viewing the standoff as a desperate last stand where surviving another day seems almost impossible without outside help.",
+   "answer": "Aamelia and her companions believe the odds are against them. They see the standoff as a desperate last stand, and survival seems almost impossible without outside help.",
    "q": "Why does Aamelia describe the battle as a lost cause?"
   },
   {
@@ -55,7 +55,7 @@
     "standing our ground turn in",
     "does aamelia survive"
    ],
-   "answer": "Against the odds, the bandit leader is defeated. Upon completion, Aamelia Windfield is left in shock and relief that the ordeal is finally over, struggling to steady her racing heart.",
+   "answer": "The bandit leader is defeated. Aamelia Windfield is shocked and relieved that the ordeal is over, and struggles to steady her racing heart.",
    "q": "What happens once the confrontation is over?"
   },
   {
@@ -63,7 +63,7 @@
     "standing our ground prerequisites",
     "quests before standing our ground"
    ],
-   "answer": "Before this quest, you aided the defenders with preparations that gave them a fighting chance against the bandit threat, paving the way for this decisive confrontation.",
+   "answer": "You helped the defenders prepare for the bandit threat, giving them a fighting chance before the final confrontation.",
    "q": "What leads up to this final stand?"
   }
  ],
@@ -80,18 +80,19 @@
  ],
  "sections": [
   {
-   "body": "Standing Our Ground marks the climax of a desperate struggle against a gang of bandits. Having helped prepare the local defenders for an inevitable clash, you are given one final opportunity to walk away and return safely to Valanaar rather than throw yourself into what appears to be a doomed last stand.",
+   "body": "Aamelia Windfield gives you one last chance to return safely to Valanaar. You have helped the local defenders prepare for the bandits, but the fight ahead looks grim. Will you stand with them, or leave before the clash?",
    "spoiler": 0,
    "title": "A Desperate Last Stand"
   },
   {
-   "body": "When you signal that you are ready, you step forward alongside Aamelia Windfield to directly confront the bandit leader. Defeating the brigand ends the imminent threat, leaving Aamelia breathless with shock and relief that their desperate gamble actually succeeded.",
+   "body": "When you signal that you are ready, you go with Aamelia Windfield to face the bandit leader. Defeating the brigand ends the immediate threat. Aamelia can hardly catch her breath, shocked and relieved that their gamble succeeded.",
    "spoiler": 1,
    "title": "Confronting the Bandit Leader"
   }
  ],
- "summary": "Standing Our Ground is a decisive quest where an adventurer stands alongside Aamelia Windfield in a desperate confrontation against a menacing bandit leader. Having prepared the defenders for battle, you face what seemed like a lost cause to secure safety from the brigands.",
+ "summary": "Aamelia Windfield gives you one last chance to retreat to Valanaar before the bandits close in. You have helped the local defenders prepare, yet the coming fight still seems doomed.",
  "attribution": [
   "In-game quest text: Standing Our Ground"
- ]
+ ],
+ "style": 2
 }

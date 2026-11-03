@@ -18,16 +18,16 @@
   "chain": [],
   "category": "Tanaris"
  },
- "summary": "Curgle Cranklehop gives you a crate of eggs and asks you to carry it to the druid Erelas Ambersky, who can be found in Rut'theran, a small village in Teldrassil.",
+ "summary": "Curgle Cranklehop sends a crate of eggs to a druid in Rut'theran. The village lies in Teldrassil.",
  "sections": [
   {
    "title": "A Crate of Eggs",
-   "body": "Curgle Cranklehop gives you a carefully packed crate of eggs. They are hippogryph eggs, and they are bound for a druid named Erelas Ambersky.",
+   "body": "Curgle Cranklehop entrusts you with a carefully packed crate for Erelas Ambersky. Hippogryph eggs lie inside, bound for the druid.",
    "spoiler": 0
   },
   {
    "title": "The Druid of Rut'theran",
-   "body": "Erelas Ambersky is a druid who cares for these eggs. He helps them hatch and then trains the young hippogryphs. Rut'theran Village is a small village in Teldrassil, to the south.",
+   "body": "Erelas Ambersky cares for hippogryph eggs in Rut'theran Village. He helps them hatch and trains the young hippogryphs. Rut'theran is a small village in southern Teldrassil.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "carefully packed crate contents",
     "what am i carrying"
    ],
-   "answer": "The carefully packed crate holds hippogryph eggs."
+   "answer": "Curgle Cranklehop's carefully packed crate holds hippogryph eggs."
   },
   {
    "q": "Where does the crate need to go?",
@@ -48,7 +48,7 @@
     "erelas ambersky location",
     "where is rut'theran village"
    ],
-   "answer": "The crate goes to the druid Erelas Ambersky, in the small village of Rut'theran in Teldrassil."
+   "answer": "Carry the crate to Erelas Ambersky, a druid in Rut'theran, a small village in Teldrassil."
   },
   {
    "q": "Who is Erelas Ambersky?",
@@ -57,7 +57,7 @@
     "ambersky lore",
     "who receives the eggs"
    ],
-   "answer": "Erelas Ambersky is a druid in Rut'theran Village. He looks after hippogryph eggs and trains the young hippogryphs once they hatch."
+   "answer": "Erelas Ambersky is a druid in Rut'theran Village. He cares for hippogryph eggs and trains the young hippogryphs after they hatch."
   }
  ],
  "angles": [],
@@ -75,5 +75,6 @@
  ],
  "attribution": [
   "Handle With Care (Tanaris)"
- ]
+ ],
+ "style": 2
 }

@@ -24,21 +24,21 @@
    "Again With the Zapped Giants"
   ]
  },
- "summary": "On the Forgotten Coast of Feralas, near the docks, Zorbin Fandazzle says the giants are bad for business. Zorbin has built a shrinking ray from a gnomish design, improved with goblin know-how, and hands you the Ultra-Shrinker to try on the giants of Feralas.",
+ "summary": "On Feralas's Forgotten Coast, Zorbin Fandazzle tests a shrinking ray on the giants near the docks. He built it from a gnomish design and improved it with goblin know-how, then gives you the Ultra-Shrinker to try on Feralas's giants.",
  "sections": [
   {
    "title": "A Shrinking Ray for the Giants",
-   "body": "Zorbin Fandazzle has to do something about the giants of Feralas, which are certainly no good for business if Zorbin is to remain out here. The remedy is a variant on a gnomish shrinking ray, built with what Zorbin proudly calls superior goblin advances. To avoid such inconveniences as death, Zorbin would rather you test it. You are to use the Ultra-Shrinker on giants such as Cliff Giants, Deep Striders, Wave Striders, Shore Striders or Land Walkers, and gather the miniaturization residue left on them once shrunk, to bring back to the docks.",
+   "body": "Zorbin Fandazzle needs the giants of Feralas dealt with so he can stay and keep his business. His answer is a shrinking ray based on a gnomish design, improved with what he calls superior goblin advances. He would rather you test it than risk his own life.\n\nUse the Ultra-Shrinker on Cliff Giants, Deep Striders, Wave Striders, Shore Striders or Land Walkers. Gather the miniaturization residue left behind when they shrink, then bring it back to the docks.",
    "spoiler": 0
   },
   {
    "title": "Why Zorbin Wants the Residue",
-   "body": "Zorbin calls miniaturization residue a valuable commodity in engineering, because it helps make sure the zapper will not do something as disappointing as exploding on the user. Zorbin then adds that this applies only to other zappers, not the one in your hands.",
+   "body": "Zorbin calls miniaturization residue valuable in engineering. It helps keep a zapper from exploding on its user. Then he adds that this applies only to other zappers, not the one in your hands.",
    "spoiler": 0
   },
   {
    "title": "Back at the Docks",
-   "body": "On your return Zorbin is delighted to see the residue and that you still have all your major appendages. Zorbin then insists the Ultra-Shrinker was never risky at all, and calls you a friend to goblins everywhere.",
+   "body": "Zorbin is delighted when you return with the residue and all your major appendages intact. He insists the Ultra-Shrinker was never risky and calls you a friend to goblins everywhere.",
    "spoiler": 1
   }
  ],
@@ -50,7 +50,7 @@
     "zorbin fandazzle quest giver",
     "where to start zapped giants"
    ],
-   "answer": "Zorbin Fandazzle, found by the docks on the Forgotten Coast in Feralas."
+   "answer": "Zorbin Fandazzle built the Ultra-Shrinker by the docks on Feralas's Forgotten Coast."
   },
   {
    "q": "Why does Zorbin want the giants shrunk?",
@@ -59,7 +59,7 @@
     "why shrink giants feralas",
     "zorbin fandazzle motivation"
    ],
-   "answer": "Zorbin says the giants are certainly not good for business if Zorbin stays out here, and a shrunken giant is far more manageable."
+   "answer": "Zorbin says the giants are bad for business if he is to stay there. Shrunken giants are far more manageable."
   },
   {
    "q": "Which giants can be shrunk?",
@@ -68,7 +68,7 @@
     "which giants count",
     "zapped giants targets"
    ],
-   "answer": "Any kind of giant in Feralas will do. Along the Forgotten Coast these include Cliff Giants, Deep Striders, Wave Striders, Shore Striders and Land Walkers."
+   "answer": "Any kind of giant in Feralas will do. Along the Forgotten Coast, you can find Cliff Giants, Deep Striders, Wave Striders, Shore Striders and Land Walkers."
   },
   {
    "q": "What is miniaturization residue?",
@@ -77,7 +77,7 @@
     "what does residue do",
     "zorbin residue purpose"
    ],
-   "answer": "It is found on a giant after it has been shrunk. Zorbin calls it a valuable commodity in engineering, and says it helps make sure the zapper will not explode on the user."
+   "answer": "Miniaturization residue is left on a giant after it shrinks. Zorbin calls it valuable in engineering because it helps keep a zapper from exploding on its user."
   }
  ],
  "angles": [],
@@ -99,5 +99,6 @@
  ],
  "attribution": [
   "Zapped Giants"
- ]
+ ],
+ "style": 2
 }

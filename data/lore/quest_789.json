@@ -14,15 +14,15 @@
  "angles": [
   {
    "target": "race:Orc",
-   "text": "For young orcs coming of age in the Valley of Trials, hunting venomous scorpids is an essential trial of endurance and battlefield awareness overseen by Gornek."
+   "text": "As a young orc coming of age in the Valley of Trials, you face an essential test of endurance and battlefield awareness under Gornek's eye."
   },
   {
    "target": "race:Troll",
-   "text": "Darkspear trolls training alongside the Horde in the Valley of Trials must also prove their prowess against the local scorpids before venturing deeper into Durotar."
+   "text": "As a Darkspear troll training alongside the Horde in the Valley of Trials, you prove your skill against local scorpids before venturing deeper into Durotar."
   },
   {
    "target": "class:Warrior",
-   "text": "Gornek treats the scorpid hunt as a fundamental lesson in martial resolve, reminding warriors that decisive strikes overcome tough carapaces and that arrogance against smaller foes invites defeat."
+   "text": "As a warrior, you learn from Gornek that decisive strikes can overcome tough carapaces. Arrogance toward smaller foes invites defeat."
   }
  ],
  "faq": [
@@ -32,7 +32,7 @@
     "scorpid quest giver",
     "gornek quest"
    ],
-   "answer": "Gornek, the battlemaster overseeing novice training at the Den in the Valley of Trials, tasks young warriors and adventurers with this trial.",
+   "answer": "Gornek oversees novice training at the Den in the Valley of Trials. He assigns the hunt to young warriors and adventurers.",
    "q": "Who assigns Sting of the Scorpid?"
   },
   {
@@ -41,7 +41,7 @@
     "scorpid location",
     "valley of trials scorpids"
    ],
-   "answer": "Scorpid workers dwell in large numbers directly northwest of the Den in the Valley of Trials, roaming the arid red canyon terrain.",
+   "answer": "Scorpid workers roam northwest of the Den in the Valley of Trials.",
    "q": "Where are the scorpids located?"
   },
   {
@@ -50,7 +50,7 @@
     "scorpid quest item",
     "scorpid tails"
    ],
-   "answer": "Gornek demands ten Scorpid Worker Tails as tangible proof that a recruit has faced the venomous beasts and emerged victorious in battle.",
+   "answer": "Gornek requires ten Scorpid Worker Tails as proof that a recruit has faced the venomous beasts and won.",
    "q": "What does Gornek require from the hunt?"
   },
   {
@@ -59,7 +59,7 @@
     "antidote lore",
     "how is scorpid antidote made"
    ],
-   "answer": "The antidote for scorpid stings is brewed directly from venom extracted from the creatures' own stingers. The Den keeps ample stores on hand to treat novices who underestimate their prey.",
+   "answer": "The Den brews antivenom from venom extracted from scorpid stingers. It keeps stores on hand to treat novices who underestimate their prey.",
    "q": "How is the antidote for scorpid venom created?"
   },
   {
@@ -68,7 +68,7 @@
     "why hunt scorpids",
     "scorpid trial purpose"
    ],
-   "answer": "Gornek uses the hunt to teach novice fighters that any opponent, large or small, possesses lethal potential. Overconfidence in battle against seemingly minor creatures can quickly prove fatal.",
+   "answer": "Gornek teaches recruits that any opponent, large or small, can be lethal. Overconfidence against a seemingly minor foe can prove fatal.",
    "q": "What lesson does Gornek want recruits to learn?"
   },
   {
@@ -77,7 +77,7 @@
     "gornek next quest",
     "does gornek teach more"
    ],
-   "answer": "Upon delivering the tails, Gornek declares he has nothing left to teach you at the Den, sending you forward into Durotar to continue your service to the Horde.",
+   "answer": "After you deliver the tails, Gornek says he has nothing left to teach you at the Den. He sends you onward into Durotar to serve the Horde.",
    "q": "Does Gornek offer further training after this hunt?"
   }
  ],
@@ -98,18 +98,19 @@
  ],
  "sections": [
   {
-   "body": "In the sun-baked canyon of the Valley of Trials, Gornek tests novice Horde recruits by sending them against the local wildlife. The venomous scorpids roaming the arid dirt northwest of the Den have humbled seasoned warriors and clumsy initiates alike. To prove their battlefield competence, young champions must venture into the rocks, slay scorpid workers, and return with ten of their severed tails as proof of prowess.",
+   "body": "Gornek tests novice Horde recruits against the Valley of Trials' wildlife. Scorpid workers roam the rocks northwest of the Den. Their venom has humbled seasoned warriors and clumsy initiates alike. Recruits must face them and bring back ten tails as proof of their skill.",
    "spoiler": 0,
    "title": "Trial of the Stinger"
   },
   {
-   "body": "While deadly, the venomous predators also supply the very salvation of injured initiates. The Den maintains stockpiles of antivenom brewed directly from extracted scorpid venom to treat fallen novices. Beyond surviving the venom, Gornek emphasizes a core tactical truth: in the chaos of battle, arrogance is fatal, and even the smallest foe wields enough lethal venom to bring down a mighty warrior.",
+   "body": "Scorpids are dangerous, yet their venom also helps save injured initiates. The Den keeps antivenom brewed from extracted scorpid venom to treat fallen novices. Gornek teaches recruits to stay watchful in battle. Even a small foe can wield enough venom to fell a mighty warrior.",
    "spoiler": 0,
    "title": "Venom and Vigilance"
   }
  ],
- "summary": "Sting of the Scorpid is an early trial assigned by Gornek to Horde recruits at the Den in the Valley of Trials. Novices are challenged to hunt venomous scorpid workers northwest of camp and return ten tails to prove their combat readiness. The task serves as a vital lesson in surviving battlefield hazards and respecting even the smallest adversaries.",
+ "summary": "At the Den in the Valley of Trials, Gornek sends new Horde recruits after scorpids northwest of camp. Ten tails will prove they can face danger in battle.",
  "attribution": [
   "In-game quest text: Sting of the Scorpid"
- ]
+ ],
+ "style": 2
 }

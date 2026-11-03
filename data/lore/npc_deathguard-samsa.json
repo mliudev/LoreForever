@@ -8,11 +8,11 @@
   "wiki": "Deathguard Samsa",
   "refs": 1
  },
- "summary": "In Tarren Mill, Deathguard Samsa watches the tense frontier and sends travelers against threats near the settlement.",
+ "summary": "In Tarren Mill, Deathguard Samsa watches the frontier and sends travelers against nearby threats.",
  "sections": [
   {
    "title": "Frontier Sentry of Tarren Mill",
-   "body": "Deathguard Samsa keeps watch in Tarren Mill, where the Forsaken hold their ground in the contested Hillsbrad Foothills. Horde sentries face pressure from Alliance outposts such as Southshore and from savage local wildlife. Samsa guards the perimeter and directs capable adventurers against threats before they endanger the encampment.",
+   "body": "Deathguard Samsa guards Tarren Mill, where the Forsaken hold their ground in the contested Hillsbrad Foothills. Horde sentries face pressure from Alliance outposts such as Southshore and from savage local wildlife. Samsa watches the perimeter and directs capable adventurers against dangers before they reach the settlement.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is samsa",
     "deathguard samsa role"
    ],
-   "answer": "Deathguard Samsa serves the Forsaken military in Tarren Mill. He guards the town and directs visiting adventurers to help secure the region from nearby dangers."
+   "answer": "Deathguard Samsa serves in the Forsaken military at Tarren Mill. He guards the town and sends visiting adventurers to help secure the region from nearby dangers."
   },
   {
    "q": "Where can I find Deathguard Samsa?",
@@ -41,7 +41,7 @@
     "samsa quests",
     "souvenirs of death quest giver"
    ],
-   "answer": "Samsa sends adventurers into the Hillsbrad wilderness, including to collect the skulls of Hillsbrad humans slain during the Horde's campaign against them."
+   "answer": "Samsa sends adventurers into the Hillsbrad wilderness. One task is to collect the skulls of Hillsbrad humans slain during the Horde's campaign against them."
   }
  ],
  "angles": [
@@ -73,5 +73,5 @@
  "attribution": [
   "Deathguard Samsa"
  ],
- "style": 1
+ "style": 2
 }

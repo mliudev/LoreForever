@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Burning Blade Coven"
  },
- "summary": "In the northern cliffs of the Valley of Trials, the Burning Blade Coven threatens the Horde’s newest recruits. Corrupted cultists and summoned demons haunt the old mineral caves, using them as a staging ground for dark magic on Durotar’s doorstep.",
+ "summary": "In the northern cliffs of the Valley of Trials, the Burning Blade Coven threatens new Horde recruits. Cultists and summoned demons haunt the old mineral caves, using them to practice dark magic on Durotar’s doorstep.",
  "sections": [
   {
    "title": "A Shadow Over the Proving Grounds",
-   "body": "Dark rituals now trouble the caves along the Valley of Trials’ northern edge. Imps and lesser fiends spill from the cavern mouth, stirring chaos and threatening the young orcs and Darkspear trolls who train here for service to the Horde. The Burning Blade cult has entrenched itself deep inside, led by the shadowy warlock Yarrog Baneshadow. What was a testing wilderness is now an active battleground against demonic corruption.",
+   "body": "Dark rituals now trouble the caves along the Valley of Trials’ northern edge. Imps and lesser fiends spill from the cavern mouth, stirring chaos among the young orcs and Darkspear trolls training here for the Horde. Yarrog Baneshadow leads the Burning Blade cult from deep inside the caves. What was once a testing wilderness is now a battleground against demonic corruption.",
    "spoiler": 0
   },
   {
    "title": "Corruption in the Rocks",
-   "body": "Before demons took root in the caves, local overseers hoped to harvest their raw materials for the settlement. Foreman Thazz'ril ventured inside on a mineral survey, but the cultists drove him out in haste, and he left valuable equipment behind. Driving back Baneshadow's coven is now the ultimate proving trial for aspiring warriors, rogues, and spellcasters before they are deemed ready to venture into greater Durotar.",
+   "body": "Before demons took root, local overseers hoped to harvest the caves’ raw materials for the settlement. Foreman Thazz'ril went inside to survey the minerals, but cultists drove him out in haste, leaving valuable equipment behind.\n\nNow, driving Baneshadow’s coven from the caves is the final proving trial for aspiring warriors, rogues, and spellcasters before they venture into greater Durotar.",
    "spoiler": 0
   }
  ],
@@ -55,17 +55,17 @@
     "coven purpose",
     "coven final test"
    ],
-   "answer": "New orc and troll adventurers brave the cave’s depths, recover lost tools such as Foreman Thazz'ril's pick, and slay Yarrog Baneshadow as their final initiation rite before leaving the valley."
+   "answer": "New orc and troll adventurers brave the cave’s depths to recover lost tools such as Foreman Thazz'ril's pick. They also slay Yarrog Baneshadow as their final initiation rite before leaving the valley."
   }
  ],
  "angles": [
   {
    "target": "class:Warlock",
-   "text": "As a warlock, you see an early cautionary glimpse of demonic imps and dark rituals here, where fel power is wielded recklessly."
+   "text": "As a warlock, you see an early warning in the demonic imps and dark rituals here, where fel power is wielded recklessly."
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, you can see the Burning Blade cult’s presence near the Valley of Trials as an intolerable insult to Thrall's new Horde and a stark reminder of the demon worship the orcs fought to leave behind."
+   "text": "As an orc, you can see the Burning Blade cult near the Valley of Trials as an intolerable insult to Thrall's new Horde. Their presence recalls the demon worship the orcs fought to leave behind."
   }
  ],
  "keywords": [
@@ -85,5 +85,5 @@
  "attribution": [
   "Burning Blade Coven"
  ],
- "style": 1
+ "style": 2
 }

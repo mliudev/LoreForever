@@ -17,16 +17,16 @@
   "wiki": "Body and Heart (Alliance)",
   "chain": []
  },
- "summary": "In Darnassus, a young night elf druid nears the end of initiation into the path of the claw. Mathrengyl Bearwalker sends the initiate into Darkshore to summon Lunaclaw and prove strength of body and heart before taking the form of the bear.",
+ "summary": "In Darnassus, a night elf initiate stands near the end of the path of the claw. Mathrengyl Bearwalker sends them to Darkshore, where Lunaclaw will test their body and heart before they take the form of the bear.",
  "sections": [
   {
    "title": "The Trial of Lunaclaw",
-   "body": "Mathrengyl Bearwalker sends night elf druid initiates east of Auberdine, the coastal settlement in Darkshore. A natural cavern there shelters wild moonkin and an ancient Moonkin Stone. Anointing the sacred stone with Cenarion Moondust awakens Lunaclaw, its ancient defender. The guardian challenges any initiate who seeks the sacred strength of the claw.",
+   "body": "Mathrengyl Bearwalker sends night elf initiates east of Auberdine, the coastal settlement in Darkshore. There, a natural cavern shelters wild moonkin and an ancient Moonkin Stone. Anointing the stone with Cenarion Moondust awakens Lunaclaw, its ancient defender. The guardian challenges each initiate who seeks the sacred strength of the claw.",
    "spoiler": 0
   },
   {
    "title": "Strength of Body and Heart",
-   "body": "The Great Bear Spirit teaches the first lessons of nature’s ferocity. Taking the form of the bear calls for more than brute force; Lunaclaw’s trial tests an initiate’s fortitude of heart. By defeating the guardian and heeding the spirit’s lingering wisdom, a druid proves ready to wield the bear form without losing themselves to beastly instinct.",
+   "body": "The Great Bear Spirit teaches the first lessons of nature’s ferocity. Taking the form of the bear calls for more than brute force. Lunaclaw’s trial tests an initiate’s fortitude of heart. By defeating the guardian and heeding the spirit’s lingering wisdom, a druid proves ready to wield the bear form without losing themselves to beastly instinct.",
    "spoiler": 1
   }
  ],
@@ -63,7 +63,7 @@
     "what is moondust",
     "cenarion moondust lore"
    ],
-   "answer": "Cenarion Moondust is a consecrated ritual powder given to initiates by their elders. Its magical properties awaken Lunaclaw when it is cast upon the Moonkin Stone, beginning the ritual combat."
+   "answer": "Cenarion Moondust is a consecrated ritual powder given to initiates by their elders. Cast upon the Moonkin Stone, its magic awakens Lunaclaw and begins the ritual combat."
   },
   {
    "q": "Where does this trial take place?",
@@ -79,7 +79,7 @@
     "what happens after killing lunaclaw",
     "spirit of lunaclaw"
    ],
-   "answer": "After Lunaclaw is defeated, the Spirit of Lunaclaw appears above its physical shell and bestows a blessing, recognizing the druid’s strength of heart and body before they return to Darnassus."
+   "answer": "After Lunaclaw is defeated, the Spirit of Lunaclaw appears above its physical shell and bestows a blessing. The blessing recognizes the druid’s strength of heart and body before they return to Darnassus."
   }
  ],
  "angles": [
@@ -113,5 +113,5 @@
  "attribution": [
   "Body and Heart (Alliance)"
  ],
- "style": 1
+ "style": 2
 }

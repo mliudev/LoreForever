@@ -17,16 +17,16 @@
   "wiki": "Egg Hunt (Classic)",
   "chain": []
  },
- "summary": "Across the Barrens, Korran seeks silithid eggs for study. The Horde scholar at the Crossroads has heard of intelligent insect creatures in the south and wants intact eggs brought to Orgrimmar.",
+ "summary": "Across the Barrens, Korran seeks silithid eggs for study. The Horde scholar at the Crossroads has heard of clever insect creatures in the south and wants their intact eggs brought to Orgrimmar.",
  "sections": [
   {
    "title": "Eyes in the Crossroads",
-   "body": "Korran watches the Barrens from the Crossroads and reports to Orgrimmar. While the Horde faces tribal conflicts and Alliance incursions, he studies strange changes in the land. Intelligent, hive-minded insect creatures have begun burrowing into the southern Barrens.",
+   "body": "From the Crossroads, Korran watches the Barrens and sends reports to Orgrimmar. The Horde faces tribal conflicts and Alliance incursions, yet the land itself is changing. In the southern Barrens, intelligent insects have begun to burrow. They move as one mind.",
    "spoiler": 0
   },
   {
    "title": "Excavating the Swarm",
-   "body": "Korran needs samples to learn where the silithid come from and what drives them. With an excavation claw, you go to the Field of Giants and take intact eggs from the dirt mounds. Disturbing a mound draws the nearby brood to defend it, showing the swarm's uncanny coordination.",
+   "body": "Korran needs samples to learn where the silithid come from and what drives them. With an excavation claw, you travel to the Field of Giants and lift intact eggs from the dirt mounds. Disturb one mound and the nearby brood comes to defend it. Their coordination is uncanny.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "where to find eggs",
     "field of giants eggs"
    ],
-   "answer": "Silithid eggs lie in dirt mounds at the Field of Giants in the southern Barrens. The mounds gather around hive tunnels in the land."
+   "answer": "Silithid eggs lie in dirt mounds at the Field of Giants in the southern Barrens. The mounds gather around tunnels beneath the land."
   },
   {
    "q": "What tool is needed to collect the eggs?",
@@ -114,5 +114,5 @@
  "attribution": [
   "Egg Hunt (Classic)"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Silverwind Refuge"
  },
- "summary": "Silverwind Refuge shelters travelers in south-central Ashenvale, just north of Mystral Lake. Sentinels guard this night elven settlement along the forest trails.",
+ "summary": "Sentinels guard Silverwind Refuge in south-central Ashenvale, just north of Mystral Lake. Travelers find shelter along the forest trails.",
  "sections": [
   {
    "title": "A Forest Sanctuary",
-   "body": "Silverwind Refuge rests between Mystral Lake and Iris Lake, to the north. Alongside Astranaar, it is one of central Ashenvale’s major night elven waystations. Craftsmen and wilderness trainers teach herbalism, alchemy, skinning, and hunting. Sentinels guard the refuge, where allies traveling through the ancient woods can rest.",
+   "body": "Silverwind Refuge lies between Mystral Lake and Iris Lake, with Iris Lake to the north. Alongside Astranaar, it is one of central Ashenvale’s chief night elven waystations. Craftsmen and wilderness trainers teach herbalism, alchemy, skinning, and hunting. Sentinels guard the refuge, where allies crossing the ancient woods can rest.",
    "spoiler": 0
   }
  ],
@@ -47,11 +47,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler crossing Ashenvale, you can rest at Silverwind Refuge, restock supplies, and improve your wilderness trades without going all the way to Astranaar."
+   "text": "As an Alliance traveler crossing Ashenvale, you can rest at Silverwind Refuge, replenish supplies, and improve your wilderness trades without traveling all the way to Astranaar."
   },
   {
    "target": "profession:Herbalism",
-   "text": "As an herbalist, you can train at Silverwind Refuge, a useful stop amid the flora around Mystral Lake."
+   "text": "As an herbalist, you can train at Silverwind Refuge, a useful stop among the plants around Mystral Lake."
   }
  ],
  "keywords": [
@@ -72,5 +72,5 @@
  "attribution": [
   "Silverwind Refuge"
  ],
- "style": 1
+ "style": 2
 }

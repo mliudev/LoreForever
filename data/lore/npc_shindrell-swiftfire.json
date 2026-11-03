@@ -8,16 +8,16 @@
   "wiki": "Shindrell Swiftfire",
   "refs": 4
  },
- "summary": "Astranaar’s defense reaches beyond Ashenvale’s forest. Shindrell Swiftfire, a night elf sentinel and scout, watches from the town at the heart of night elf operations in Ashenvale. Alert to changing dangers along Kalimdor’s western reaches, she directs capable Alliance adventurers toward threats on the coast and nearby mountain passes, helping coordinate local defense against dangers from sea and wilds.",
+ "summary": "From Astranaar, Shindrell Swiftfire watches the threats beyond Ashenvale. The night elf sentinel and scout directs Alliance adventurers toward dangers on the coast and in nearby mountain passes, helping defend the town and the western reaches of Kalimdor.",
  "sections": [
   {
    "title": "A Watchful Eye in Astranaar",
-   "body": "From Astranaar’s winding walkways, Shindrell Swiftfire watches the frontiers beyond Ashenvale. Sentinels face Horde logging incursions from the east and south, while Shindrell keeps watch beyond the woodland itself. Travelers arrive from Darkshore or set out toward Stonetalon’s jagged ridges, and she helps ensure Astranaar is not left undefended against danger from the flank.",
+   "body": "From Astranaar’s winding walkways, Shindrell Swiftfire watches beyond Ashenvale’s forest. Sentinels face Horde logging incursions from the east and south, while Shindrell keeps watch farther afield.\n\nTravelers arrive from Darkshore or set out for Stonetalon’s jagged ridges. Shindrell helps keep Astranaar defended against danger from the flank.",
    "spoiler": 0
   },
   {
    "title": "The Menace on the Coast",
-   "body": "On Ashenvale’s northwestern shore, the troubled Zoram Strand draws Shindrell’s attention. Hostile naga have emerged from the ocean depths, a grave mystery and a direct threat to Kaldorei settlements. Shindrell sends seasoned fighters to investigate the shoreline and coordinate with scouts near the coast, seeking to contain the serpentine invaders before they gain a lasting foothold on ancient night elf lands.",
+   "body": "On Ashenvale’s northwestern shore, the troubled Zoram Strand draws Shindrell’s attention. Hostile naga have risen from the ocean depths, threatening Kaldorei settlements. Their arrival is a grave mystery.\n\nShindrell sends seasoned fighters to investigate the shore and coordinate with scouts nearby. They seek to contain the serpentine invaders before the naga gain a lasting foothold on ancient night elf lands.",
    "spoiler": 0
   }
  ],
@@ -29,7 +29,7 @@
     "where is shindrell",
     "find shindrell swiftfire"
    ],
-   "answer": "Shindrell Swiftfire is stationed in Astranaar, the central night elf town in Ashenvale. Among its wooden walkways, she coordinates scouting and receives travelers."
+   "answer": "Shindrell Swiftfire is in Astranaar, the central night elf town in Ashenvale. Among its wooden walkways, she coordinates scouting and receives travelers."
   },
   {
    "q": "What is Shindrell's role in Astranaar?",
@@ -38,7 +38,7 @@
     "who is shindrell swiftfire",
     "shindrell purpose"
    ],
-   "answer": "In Astranaar, Shindrell coordinates scouts and gives Alliance adventurers directions toward threats beyond the town. These include naga on the western coast and wild beasts in nearby mountain ranges."
+   "answer": "In Astranaar, Shindrell coordinates scouts and directs Alliance adventurers toward threats beyond town. These include naga on the western coast and wild beasts in nearby mountain ranges."
   },
   {
    "q": "Why does she send scouts to the Zoram Strand?",
@@ -56,7 +56,7 @@
     "pridewings quest",
     "why stonetalon"
    ],
-   "answer": "Hidden sources in Theramore report that orc assassins gather venom from pridewings near Mirkfallon Lake in the Stonetalon Mountains for secret raids against the Alliance. Shindrell sends adventurers to collect the venom sacs and deny the Horde that poison."
+   "answer": "Hidden sources in Theramore report that orc assassins gather venom from pridewings near Mirkfallon Lake in the Stonetalon Mountains. They use it for secret raids against the Alliance, and Shindrell sends adventurers to collect the venom sacs and deny the Horde that poison."
   },
   {
    "q": "Does Shindrell have ties to Blackfathom Deeps?",
@@ -74,21 +74,21 @@
     "kayneth stillwind quest",
     "kayneth connection"
    ],
-   "answer": "Kayneth Stillwind is a druid at the shrine of Forest Song in eastern Ashenvale. Fearing corruption is moving through the forest, he asked Shindrell for a report on the coast and Astranaar; she sends adventurers to carry it to him."
+   "answer": "Kayneth Stillwind is a druid at the shrine of Forest Song in eastern Ashenvale. Fearing corruption is moving through the forest, he asked Shindrell for a report on the coast and Astranaar. She sends adventurers to carry it to him."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you see Shindrell as one of the vigilant Sentinels guarding Ashenvale’s fringes against ancient foes like the naga, while most of their forces face the Horde."
+   "text": "As a night elf, you see Shindrell as one of the vigilant Sentinels guarding Ashenvale’s fringes against ancient foes like the naga. Most of their forces face the Horde."
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance arrival in Astranaar, you can look to Shindrell as an operational bridge guiding you deeper into central Kalimdor’s contentious and dangerous terrain."
+   "text": "As an Alliance arrival in Astranaar, you can look to Shindrell for direction deeper into central Kalimdor’s contentious and dangerous terrain."
   },
   {
    "target": "class:Hunter",
-   "text": "As a hunter, you may recognize the value of tracking pridewings and assessing untamed coastlines, work suited to scouts and rangers who know how to survive in the wild."
+   "text": "As a hunter, you know the value of tracking pridewings and assessing untamed coastlines. Such work suits scouts and rangers who know how to survive in the wild."
   }
  ],
  "keywords": [
@@ -115,5 +115,5 @@
  "attribution": [
   "Shindrell Swiftfire"
  ],
- "style": 1
+ "style": 2
 }

@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Eastwall Tower"
  },
- "summary": "Eastwall Tower is a ruined Lordaeron scout tower situated in the Eastern Plaguelands near the eastern road. Sacked during the Third War when the Scourge swept across the kingdom, its remains overlook the Scourge-infested wilderness.",
+ "summary": "On the eastern road, Eastwall Tower watches over a wilderness still infested with Scourge. Built as a scout tower for Lordaeron, it fell when the Scourge swept across the kingdom during the Third War.",
  "sections": [
   {
    "title": "A Ruined Watch on the Border",
-   "body": "Built as a border sentinel for the kingdom of Lordaeron, Eastwall Tower once watched over travelers heading toward the far reaches of the realm. When the Scourge invaded during the Third War, the outpost was crushed along with the surrounding settlements, leaving shattered stone arches and burnt timber behind. Now, with the Lich King's armies still infesting the region, the tower's elevated position makes it an indispensable forward post. Its ruined ramparts overlook roads through the Scourge-infested countryside.",
+   "body": "Eastwall Tower's broken ramparts look down on roads through Scourge-infested countryside. Built to guard Lordaeron's border, it watched travelers bound for the far reaches of the realm. When the Scourge invaded during the Third War, the outpost fell with the settlements around it. Shattered stone arches and burnt timber remain.\n\nThe Lich King's armies still infest the region. From its high ground, the ruined tower overlooks the eastern roads.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "who built eastwall tower",
     "what was this place"
    ],
-   "answer": "Eastwall Tower was originally a defensive scout tower constructed by the Kingdom of Lordaeron. It formed part of the regional border watch network, safeguarding trade routes and outlying farms before the Third War brought about Lordaeron's fall."
+   "answer": "Before it fell, Eastwall Tower was a defensive scout tower built by the Kingdom of Lordaeron. It formed part of the border watch, guarding trade routes and outlying farms before the Third War brought Lordaeron's fall."
   },
   {
    "q": "Who destroyed the tower?",
@@ -31,7 +31,7 @@
     "how was eastwall tower ruined",
     "what happened to eastwall tower"
    ],
-   "answer": "The tower was destroyed by the Scourge during Prince Arthas Menethil's conquest and the subsequent undead ravaging of Lordaeron. Undead monstrosities smashed its defenses, leaving the defenders dead and the structure in ruins."
+   "answer": "The Scourge destroyed Eastwall Tower during Prince Arthas Menethil's conquest and the undead ravaging of Lordaeron that followed. Undead monstrosities smashed its defenses, killed the defenders and left the tower in ruins."
   },
   {
    "q": "Why is the tower strategically important?",
@@ -39,7 +39,7 @@
     "eastwall tower importance",
     "eastwall tower position"
    ],
-   "answer": "Even in ruins, the tower commands high ground along the eastern roadways of the Plaguelands, overlooking the Scourge-infested countryside."
+   "answer": "Even in ruins, Eastwall Tower commands high ground along the eastern roads of the Plaguelands. From there, it overlooks Scourge-infested countryside."
   },
   {
    "q": "Is the tower safe to rest at?",
@@ -47,13 +47,13 @@
     "can i rest here",
     "friendly guards"
    ],
-   "answer": "The ruined tower stands in Scourge-infested countryside and offers no secure refuge."
+   "answer": "Eastwall Tower stands in Scourge-infested countryside and offers no secure refuge."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, retaking Eastwall Tower honors the fallen soldiers of Lordaeron and secures the approach to Light's Hope Chapel against Scourge incursions."
+   "text": "For the Alliance, retaking Eastwall Tower honors Lordaeron's fallen soldiers and secures the approach to Light's Hope Chapel against Scourge incursions."
   },
   {
    "target": "faction:Horde",
@@ -77,5 +77,6 @@
  ],
  "attribution": [
   "Eastwall Tower"
- ]
+ ],
+ "style": 2
 }

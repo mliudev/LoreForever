@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Mast Room"
  },
- "summary": "Timber from Westfall reaches the Mast Room, deep in the Deadmines, where goblin woodcarvers shape it for the Defias.",
+ "summary": "In the Deadmines, timber from Westfall reaches the Mast Room, where goblin woodcarvers shape it for the Defias.",
  "sections": [
   {
    "title": "The Underground Sawmill",
-   "body": "The Mast Room turns timber from Westfall into parts for a warship. Deep in the Deadmines, the cavern holds felled logs, sawdust, and great cutting machines. Goblin woodcarvers shape the masts, ribs, and planks needed for the vessel hidden farther within Ironclad Cove. Sneed watches over their work as the Defias Brotherhood makes the wood serve its war.",
+   "body": "Deep in the Deadmines, the Mast Room turns timber from Westfall into parts for a warship. Felled logs, sawdust, and great cutting machines fill the cavern. Goblin woodcarvers shape the masts, ribs, and planks for the vessel hidden farther within Ironclad Cove. Sneed watches over their work as the Defias Brotherhood puts the timber to war.",
    "spoiler": 1
   },
   {
    "title": "Industrial Labor",
-   "body": "Sneed directs the goblin woodcarvers from atop a mechanical shredder. Logs rise and pass through the planers in a steady flow, while the workers meet his demanding quotas. The old gold mine now rings with the labor of a shipyard, where timber becomes the pieces of a vessel.",
+   "body": "From atop a mechanical shredder, Sneed directs the goblin woodcarvers. Logs rise and pass through the planers in a steady flow, while the workers meet his demanding quotas. The old gold mine rings with the labor of a shipyard, where timber becomes the pieces of a vessel.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "why wood in deadmines",
     "mast room purpose"
    ],
-   "answer": "The Defias Brotherhood is secretly building a great warship in the cove beneath the mines. The Mast Room shapes its masts, framing, and hull planks from timber smuggled in from Westfall."
+   "answer": "The Defias Brotherhood is secretly building a great warship in the cove beneath the mines. In the Mast Room, timber smuggled from Westfall becomes its masts, framing, and hull planks."
   },
   {
    "q": "Who runs the Mast Room?",
@@ -37,7 +37,7 @@
     "who leads mast room",
     "who is sneed"
    ],
-   "answer": "Sneed runs the Mast Room, directing goblin woodcarvers from a lethal mechanical lumber shredder."
+   "answer": "Sneed runs the Mast Room and directs goblin woodcarvers from atop a lethal mechanical lumber shredder."
   },
   {
    "q": "Why are goblins working here for the Defias?",
@@ -45,7 +45,7 @@
     "why are goblins in deadmines",
     "defias goblins"
    ],
-   "answer": "Edwin VanCleef hired goblin engineers and craftsmen for expertise human stonemasons lacked. In return for gold and profit, the goblins bring heavy machinery, explosives, and shipwright skills."
+   "answer": "Edwin VanCleef hired goblin engineers and craftsmen for expertise human stonemasons lacked. For gold and profit, the goblins bring heavy machinery, explosives, and shipwright skills."
   }
  ],
  "angles": [
@@ -74,5 +74,5 @@
  "attribution": [
   "Mast Room"
  ],
- "style": 1
+ "style": 2
 }

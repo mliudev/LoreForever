@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Bashal'Aran"
  },
- "summary": "Bashal'Aran lies in northern Darkshore, east of Auberdine, where satyrs and grells feed on lingering magic. A solitary elven ghost remains trapped by a centuries-old curse.",
+ "summary": "In northern Darkshore, Bashal'Aran's ruins draw satyrs and grells to lingering magic. A lone elven ghost remains bound by a curse centuries old.",
  "sections": [
   {
    "title": "A Shattered Twin City",
-   "body": "Before the Great Sundering shattered ancient Kalimdor ten thousand years ago, Queen Azshara settled favored Highborne in Bashal'Aran and its twin, Ameth'Aran. The powerful mage Athrikus Narassin governed both towns, whose splendid markets and temples honored Elune. When the Well of Eternity collapsed, the cataclysm destroyed the settlements. For reasons lost to time, Athrikus used his arcane mastery to bind his second-in-command, the mage Asterion, in a moonstone seal within Bashal'Aran. Asterion's body perished, but his ghost remained shackled to the ruined shrine.",
+   "body": "Before the Great Sundering shattered ancient Kalimdor ten thousand years ago, Queen Azshara settled favored Highborne in Bashal'Aran and its twin, Ameth'Aran. The mage Athrikus Narassin governed both towns. Their splendid markets and temples honored Elune.\n\nWhen the Well of Eternity collapsed, the cataclysm destroyed both settlements. For reasons lost to time, Athrikus used his arcane mastery to bind his second-in-command, the mage Asterion, inside a moonstone seal in Bashal'Aran. Asterion's body perished, but his ghost remained shackled to the ruined shrine.",
    "spoiler": 0
   },
   {
    "title": "Demonic Infestation",
-   "body": "Deth'ryll satyrs and grells now claim Bashal'Aran's crumbled stones. Drawn by magic lingering in the ancient masonry, these corrupted beings feed on its energy to strengthen their foul arts. They swarm the broken courtyards and terrorize travelers on Darkshore's forest paths, yet keep clear of the central shrine, where Asterion endures his endless vigil.",
+   "body": "Deth'ryll satyrs and grells claim Bashal'Aran's crumbled stones. Drawn by magic lingering in the ancient masonry, they feed on its energy to strengthen their foul arts. They swarm the broken courtyards and terrorize travelers on Darkshore's forest paths.\n\nYet the creatures keep clear of the central shrine, where Asterion endures his endless vigil.",
    "spoiler": 0
   }
  ],
@@ -37,7 +37,7 @@
     "bashal'aran ghost",
     "why is there a ghost"
    ],
-   "answer": "The ghost wandering the shrine is Asterion, a respected Highborne warrior-mage who once oversaw Bashal'Aran and Ameth'Aran. His governor, Athrikus Narassin, mysteriously betrayed him and bound him to the site with a moonstone seal. Asterion remains imprisoned beyond mortal death."
+   "answer": "Asterion's ghost wanders the shrine, where he remains imprisoned beyond mortal death. His governor, Athrikus Narassin, mysteriously betrayed him and bound him there with a moonstone seal."
   },
   {
    "q": "Why are satyrs inhabiting the ruins?",
@@ -55,7 +55,7 @@
     "twin cities darkshore",
     "ameth'aran bashal'aran"
    ],
-   "answer": "Bashal'Aran and Ameth'Aran were sister cities governed together under Queen Azshara. Asterion often journeyed between them to tend to the people's needs before the Sundering shattered both settlements."
+   "answer": "Bashal'Aran and Ameth'Aran were sister cities governed together under Queen Azshara. Before the Sundering shattered both settlements, Asterion often journeyed between them to tend to the people's needs."
   }
  ],
  "angles": [
@@ -92,5 +92,5 @@
  "attribution": [
   "Bashal'Aran"
  ],
- "style": 1
+ "style": 2
 }

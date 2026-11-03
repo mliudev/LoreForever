@@ -27,11 +27,11 @@
    "Big Game Hunter (Classic)"
   ]
  },
- "summary": "Sir S. J. Erlgadin has set the final trial of his panther hunt before you in northern Stranglethorn Vale. Having proven your skill against the region's panthers, you are challenged to seek out Bhag'thera, an elusive predator that has so far eluded the expedition's party. Bringing back the beast's fang will establish your standing as a true master of the hunt.",
+ "summary": "At Nesingwary's Expedition, Sir S. J. Erlgadin sets one final trial for you. You have hunted panthers before, but the expedition's party has failed to find Bhag'thera. Bring back the predator's fang to prove your skill as a master of the hunt.",
  "sections": [
   {
    "title": "The Elusive Prowler",
-   "body": "At Nesingwary's Expedition, Sir S. J. Erlgadin considers your trials nearly complete. One final quarry remains to prove your worth against the jungle's predators: a panther named Bhag'thera. The beast has so far eluded the expedition's own party as it prowls the wilds of Stranglethorn Vale. Erlgadin calls on you to track down this great stalker and claim the Fang of Bhag'thera as proof of your skill.",
+   "body": "At Nesingwary's Expedition, Sir S. J. Erlgadin sets one last test for you. Bhag'thera still prowls Stranglethorn Vale, beyond the expedition's party's reach. Track down the great panther and bring back its fang as proof of your skill.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "who gives panther mastery",
     "erlgadin quest"
    ],
-   "answer": "Sir S. J. Erlgadin gives this challenge at Nesingwary's Expedition in northern Stranglethorn Vale."
+   "answer": "Sir S. J. Erlgadin offers this hunt at Nesingwary's Expedition in northern Stranglethorn Vale."
   },
   {
    "q": "What beast are you hunting?",
@@ -52,7 +52,7 @@
     "who is bhag'thera",
     "panther target"
    ],
-   "answer": "The quarry is Bhag'thera, a great panther that prowls the jungle and has so far eluded the expedition's party."
+   "answer": "You are hunting Bhag'thera, a great panther that prowls the jungle and has eluded the expedition's party."
   },
   {
    "q": "What trophy is required?",
@@ -61,7 +61,7 @@
     "what item",
     "bhag'thera trophy"
    ],
-   "answer": "Sir S. J. Erlgadin requires the Fang of Bhag'thera as evidence of the beast's defeat."
+   "answer": "Sir S. J. Erlgadin requires the Fang of Bhag'thera as proof that you defeated the beast."
   },
   {
    "q": "What came before this hunt?",
@@ -69,7 +69,7 @@
     "previous quest",
     "panther mastery prerequisite"
    ],
-   "answer": "This challenge follows the third trial in the Panther Mastery line, building on the earlier panther hunts."
+   "answer": "This hunt follows the third trial in the Panther Mastery line and builds on your earlier panther hunts."
   }
  ],
  "angles": [],
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "Panther Mastery (4)"
- ]
+ ],
+ "style": 2
 }

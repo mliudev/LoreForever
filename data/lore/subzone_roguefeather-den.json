@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Roguefeather Den"
  },
- "summary": "Roguefeather Den is a cavern nestled in the south-central reaches of Thousand Needles. Infested with ferocious screeching harpies, the cave serves as a fortified roost where the flock hoards scavenged provisions deep within its shadowed recesses.",
+ "summary": "In the southern cliffs of Thousand Needles, Roguefeather harpies guard their roost. Deep in the cavern, they keep scavenged provisions and stolen supplies.",
  "sections": [
   {
    "title": "A Roost in the Canyons",
-   "body": "Carved into the sheer sandstone bluffs of southern Thousand Needles, Roguefeather Den is the foul nesting ground of local harpies. Known for their feral screeching and aggressive territorialism, the harpies treat the cavern as both a secure haven and a storehouse, vigilantly guarding the gathered food and stolen supplies they pile in the dark recesses at the back of the cave.",
+   "body": "Among the sandstone bluffs of southern Thousand Needles, Roguefeather harpies guard their roost. Their screeching carries through the cavern as they defend the food and stolen supplies gathered in its dark recesses.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "roguefeather den info",
     "where is roguefeather"
    ],
-   "answer": "It is a small cavern located along the southern cliffs of Thousand Needles, serving as a roost and supply stockpile for the territorial Roguefeather harpies."
+   "answer": "Along the southern cliffs of Thousand Needles, Roguefeather Den shelters a small cavern where Roguefeather harpies roost and store supplies."
   },
   {
    "q": "What creatures inhabit the cave?",
@@ -31,7 +31,7 @@
     "who lives in roguefeather den",
     "mobs in roguefeather den"
    ],
-   "answer": "The cavern is infested with hostile, screeching harpies who fiercely defend their nesting grounds and gathered food against any intruders."
+   "answer": "Hostile, screeching harpies inhabit the cavern. They fiercely defend their nesting grounds and gathered food."
   },
   {
    "q": "What is kept deep inside Roguefeather Den?",
@@ -39,13 +39,13 @@
     "what is in the back of the cave",
     "roguefeather food"
    ],
-   "answer": "Deep in the back of the cavern, the harpies hoard stores of scavenged and stolen food, which they protect with relentless aggression."
+   "answer": "Deep in the cavern, the harpies keep scavenged and stolen food. They guard it fiercely."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "For Horde travelers making the long trek toward the Shimmering Flats, the aggressive flock inhabiting Roguefeather Den represents a persistent aerial and ambush threat along the southern canyon floor."
+   "text": "As a Horde traveler heading toward the Shimmering Flats, you face an aggressive flock that threatens from the air. They can ambush you along the southern canyon floor."
   }
  ],
  "keywords": [
@@ -61,5 +61,6 @@
  ],
  "attribution": [
   "Roguefeather Den"
- ]
+ ],
+ "style": 2
 }

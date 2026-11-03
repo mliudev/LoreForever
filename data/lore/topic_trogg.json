@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Trogg"
  },
- "summary": "Troggs are brutish, subterranean humanoids descended from the earliest, failed titan-forged experiments sealed deep within the earth. Having recently clawed their way to the surface after dwarven excavations disturbed their ancient vaults, these relentless diggers have overrun dwarven quarries and driven the gnomes out of their beloved capital of Gnomeregan.",
+ "summary": "Deep beneath the earth, Troggs have clawed their way into the world above. Dwarven excavations disturbed their ancient vaults, and now they overrun quarries and hold Gnomeregan after driving its gnomes out.",
  "sections": [
   {
    "title": "The Flawed Predecessors",
-   "body": "Long before mortal races recorded history, the titan-forged keepers sought to fashion servants from stone. Their initial design went awry, yielding stone-skinned brutes of low intelligence and unbridled savagery. Distressed by their botched creations, the keepers refined the matrix into the earthen race, who would eventually become the ancestors of the dwarves. Unwilling to annihilate the imperfect troggs, the giantess Ironaya sealed them deep underground within the vault of Uldaman, intending for them to remain trapped in eternal stasis.",
+   "body": "The first stone servants were a flawed design. Long before mortal races kept records, titan-forged keepers tried to shape servants from stone. They made brutish creatures with stone skin, little sense, and savage tempers. The keepers refined their design into the earthen, ancestors of the dwarves. Ironaya, a giantess, spared the flawed troggs and sealed them deep within Uldaman, hoping they would sleep without end.",
    "spoiler": 0
   },
   {
    "title": "Awakened by the Pickaxe",
-   "body": "For countless millennia, the troggs lay dormant until the Explorers' League of Ironforge breached the ancient subterranean complexes of Khaz Modan. Waking in an unfamiliar era, swarms of furious troggs poured from the depths, pursuing their distant dwarven relatives with ancestral fury. Finding the surface bright and unwelcoming, they carved sprawling tunnel networks beneath Dun Morogh, Loch Modan, and the Badlands, quickly ambushing quarries, archaeological dig sites, and trade outposts.",
+   "body": "Dwarven excavations woke the troggs after countless millennia. The Explorers' League of Ironforge broke into ancient underground complexes in Khaz Modan, and furious swarms poured out to hunt their distant dwarven kin. The bright surface world drove them to dig tunnels beneath Dun Morogh, Loch Modan, and the Badlands. From below, they ambushed quarries, archaeological dig sites, and trade outposts.",
    "spoiler": 0
   },
   {
    "title": "The Catastrophe at Gnomeregan",
-   "body": "Guided by subterranean vibration and noise, trogg swarms tunneled directly up into Gnomeregan. Desperately outmatched by sheer numbers and savage strength, the gnomes fought a bitter war in the subterranean corridors. In a desperate gambit engineered by Mekgineer Thermaplugg, High Tinker Gelbin Mekkatorque unleashed radioactive venting to exterminate the infestation. Tragically, the irradiated gas killed roughly eighty percent of the gnomish populace while merely enraging the troggs, leaving the grand techno-city an irradiated trogg stronghold.",
+   "body": "Troggs followed underground vibrations and noise into Gnomeregan. Outnumbered and overpowered, the gnomes fought them through the city's corridors. Mekgineer Thermaplugg devised a desperate plan. High Tinker Gelbin Mekkatorque released radioactive gas to kill the invaders, but it killed roughly eighty percent of the gnomish people and only enraged the troggs. The great city was left irradiated and under trogg control.",
    "spoiler": 1
   }
  ],
@@ -33,7 +33,7 @@
     "what is a trogg",
     "trogg lore"
    ],
-   "answer": "Troggs are subterranean humanoids created as the first, flawed generation of stone servants by the titan-forged keepers. Distressed by their raw brutality, the keepers locked them in stasis vaults like Uldaman rather than destroying them, until dwarven miners inadvertently unearthed them thousands of years later."
+   "answer": "Troggs are underground humanoids, the first flawed stone servants made by the titan-forged keepers. The keepers sealed them in stasis vaults such as Uldaman instead of destroying them. Dwarven miners later unearthed them."
   },
   {
    "q": "Are troggs related to dwarves?",
@@ -41,7 +41,7 @@
     "are dwarves and troggs related",
     "trogg dwarf connection"
    ],
-   "answer": "Yes. Both races were shaped by the titans' keepers. Troggs represent the keepers' unrefined first draft, while the earthen\u2014the ancestors of the dwarves\u2014were the perfected second iteration."
+   "answer": "Yes. The titans' keepers shaped both races. Troggs were their crude first design, while the earthen, ancestors of the dwarves, were the refined design."
   },
   {
    "q": "How did troggs capture Gnomeregan?",
@@ -49,7 +49,7 @@
     "why are troggs in gnomeregan",
     "gnomeregan trogg attack"
    ],
-   "answer": "Drawn by the vibrations of heavy machinery, the troggs tunneled into Gnomeregan from below. Despite gnomish defensive inventions, the invaders overwhelmed the defenders through sheer numbers. A failed attempt to purge them with radioactive gas killed most of the gnomes instead, cementing trogg control over the city."
+   "answer": "Troggs followed the vibrations of heavy machinery and tunneled up into Gnomeregan. Their numbers overwhelmed the gnomes despite their defensive inventions. Radioactive gas meant to drive out the invaders killed most of the gnomes, leaving the city in trogg hands."
   },
   {
    "q": "Are troggs capable of speech or advanced culture?",
@@ -58,7 +58,7 @@
     "trogg culture",
     "trogg intelligence"
    ],
-   "answer": "Troggs possess very limited intellect, communicating mostly through guttural grunts and roaring. They value pure brute strength above all else, choosing tribal chieftains through violence. While some manifest rudimentary shamanistic spellcasting, their craftsmanship is crude, rarely advancing beyond crude clubs, stone arrows, and stolen relics."
+   "answer": "Troggs have little intellect and mostly communicate with grunts and roars. They prize brute strength and choose tribal chieftains through violence. Some show simple shamanistic magic, but their craft remains crude, from clubs and stone arrows to stolen relics."
   },
   {
    "q": "Why do troggs collect ancient relics?",
@@ -66,7 +66,7 @@
     "why do troggs hoard artifacts",
     "trogg treasure"
    ],
-   "answer": "Explorers believe their compulsion to hoard ancient titan relics is an instinctual remnant of their titan-forged origins. However, troggs rarely understand what they carry, using priceless artifacts as blunt cudgels or primitive good-luck charms."
+   "answer": "Explorers believe troggs hoard ancient titan relics because of an instinct left from their origins. Troggs rarely understand the objects, using priceless artifacts as clubs or simple charms for luck."
   },
   {
    "q": "Are there troggs outside of Khaz Modan?",
@@ -75,25 +75,25 @@
     "troggs in durotar",
     "troggs in kalimdor"
    ],
-   "answer": "Yes. Subterranean trogg clans have established nests across Azeroth, including the Ragefire troggs deep within Ragefire Chasm beneath Orgrimmar, the Gravelflint troggs in Darkshore, and groups throughout the Badlands and Alterac."
+   "answer": "Yes. Trogg clans live underground across Azeroth, including the Ragefire troggs deep in Ragefire Chasm beneath Orgrimmar, the Gravelflint troggs in Darkshore, and groups in the Badlands and Alterac."
   }
  ],
  "angles": [
   {
    "target": "race:Gnome",
-   "text": "Troggs are the bitter bane of your people, responsible for shattering your underground home and scattering the surviving gnomes to Tinker Town in Ironforge."
+   "text": "Troggs are the bitter bane of your people. They shattered your underground home and scattered the survivors to Tinker Town in Ironforge."
   },
   {
    "target": "race:Dwarf",
-   "text": "These savage cousins were unearthed by your own pickaxes in your quest to uncover titan ancestry, making their incursions across Khaz Modan a direct consequence of dwarven archaeology."
+   "text": "Your people unearthed these savage cousins while seeking titan ancestry. Their incursions across Khaz Modan followed from dwarven archaeology."
   },
   {
    "target": "profession:Mining",
-   "text": "Trogg nests frequently occupy rich mineral veins and deep mines like Gol'Bolar, forcing miners to defend their claims with pickaxes and hammers."
+   "text": "Troggs often occupy rich mineral veins and deep mines such as Gol'Bolar. Miners must defend their claims with pickaxes and hammers."
   },
   {
    "target": "faction:Alliance",
-   "text": "Clearing trogg infestations across Dun Morogh, Loch Modan, and Gnomeregan remains a vital defensive effort to keep the mountain kingdom and its refugees safe."
+   "text": "Defending Dun Morogh, Loch Modan, and Gnomeregan from trogg infestations helps protect the mountain kingdom and its refugees."
   }
  ],
  "keywords": [
@@ -119,5 +119,6 @@
  ],
  "attribution": [
   "Trogg"
- ]
+ ],
+ "style": 2
 }

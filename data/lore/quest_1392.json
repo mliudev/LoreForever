@@ -18,16 +18,16 @@
   "chain": [],
   "category": "Swamp of Sorrows"
  },
- "summary": "For months, Noboru has tormented the Draenei at the Harborage. Noboru's cudgel stands as a mark of the cruelty the lost ones have dealt them, and you are asked to bring it to the leader of the Harborage.",
+ "summary": "At the Harborage, the Draenei have endured Noboru the Cudgel’s torment for months. You carry his cudgel to their leader, a token of the cruelty the lost ones have dealt them.",
  "sections": [
   {
    "title": "A Symbol of Brutality",
-   "body": "Noboru has tormented the Harborage's Draenei for months. The cudgel has come to stand for the cruelty the lost ones have dealt them. With it in hand, you carry it to the leader of the Harborage.",
+   "body": "For months, Noboru has tormented the Draenei who live at the Harborage. His cudgel recalls the cruelty the lost ones have dealt them. You carry it to their leader.",
    "spoiler": 0
   },
   {
    "title": "Magtoor's Welcome",
-   "body": "Magtoor asks whether the weapon means Noboru is dead, and calls this a day of joy there. Noboru and his gang terrorized the Draenei, wandering the swamps and killing any who crossed their path. Noboru threatened their very survival, and they lacked the strength to face him.",
+   "body": "Magtoor asks whether the weapon means Noboru is dead. He calls it a day of joy for the Harborage. Noboru and his gang terrorized the Draenei as they wandered the swamps, killing anyone who crossed their path. Noboru threatened their very survival, and they lacked the strength to face him.",
    "spoiler": 1
   }
  ],
@@ -39,7 +39,7 @@
     "noboru lore",
     "noboru cudgel guy"
    ],
-   "answer": "One of the lost ones, who has tormented the Harborage's Draenei for months."
+   "answer": "Noboru is one of the lost ones who has tormented the Harborage’s Draenei for months."
   },
   {
    "q": "Why does the Harborage want Noboru's cudgel?",
@@ -48,7 +48,7 @@
     "noboru cudgel purpose",
     "why bring cudgel to magtoor"
    ],
-   "answer": "The cudgel stands for the cruelty that the lost ones have dealt the Draenei of the Harborage."
+   "answer": "The cudgel recalls the cruelty the lost ones have dealt the Draenei of the Harborage."
   },
   {
    "q": "Who receives the cudgel?",
@@ -56,7 +56,7 @@
     "who is magtoor",
     "where does the cudgel go"
    ],
-   "answer": "Magtoor, who leads the Harborage."
+   "answer": "Magtoor, the leader of the Harborage, receives the cudgel."
   },
   {
    "q": "Where is the Harborage located?",
@@ -64,7 +64,7 @@
     "where is harborage",
     "harborage location"
    ],
-   "answer": "In the Swamp of Sorrows, where the Draenei of the Harborage live."
+   "answer": "The Harborage is in the Swamp of Sorrows, where its Draenei live."
   }
  ],
  "angles": [],
@@ -83,5 +83,6 @@
  ],
  "attribution": [
   "Noboru the Cudgel (quest)"
- ]
+ ],
+ "style": 2
 }

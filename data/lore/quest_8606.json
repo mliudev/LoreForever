@@ -25,16 +25,16 @@
    "Azuregos's Magical Ledger"
   ]
  },
- "summary": "Narain Soothfancy has a plan for the ransom: a sack of rocks in place of money, and you in place of him. You carry his disguise to the handover spot the booknappers set down in Winterspring. This follows the ransom letter.",
+ "summary": "At the Winterspring handover, Narain Soothfancy means to deliver the ransom after a fashion. You carry Narain's disguise to the spot the booknappers named, following the ransom letter.",
  "sections": [
   {
    "title": "Narain's Scheme",
-   "body": "The ransom note said Narain should make the delivery himself, and he means to, after a fashion. He fills a sack with rocks, looks you up and down, and decides you will do. His special kit holds a turban, a robe and the sack, and you carry it to the handover spot the booknappers set down in Winterspring. When the booknappers show up for the goods, Narain wants them snuffed out, as a lesson in what comes of crossing him.",
+   "body": "The ransom note said Narain should make the delivery himself. He plans to do so after a fashion, and chooses you for the part. His special kit holds a turban, a robe, and a sack filled with rocks. You carry the disguise to the handover spot the booknappers named in Winterspring. When they arrive for the goods, Narain wants them snuffed out as a lesson in what comes of crossing him.",
    "spoiler": 0
   },
   {
    "title": "Narain's Verdict",
-   "body": "When you return, Narain admits that he and you may have underestimated these booknappers.",
+   "body": "When you return, Narain admits that he and you may have underestimated the booknappers.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "why the disguise",
     "why dress like narain"
    ],
-   "answer": "The ransom note said Narain should make the delivery himself. His plan is to send you in his place, with the turban and robe from his special kit."
+   "answer": "The ransom note said Narain should make the delivery himself. He means to do so after a fashion by sending you in his place, with the turban and robe from his special kit."
   },
   {
    "q": "Where does the handover take place?",
@@ -55,7 +55,7 @@
     "where do i take the bag",
     "drop off point location"
    ],
-   "answer": "At the handover spot in Winterspring that the booknappers set down, where the sack of rocks is to be left."
+   "answer": "The handover takes place at the spot in Winterspring that the booknappers named. That is where the sack of rocks is to be left."
   },
   {
    "q": "What is inside the ransom bag?",
@@ -64,7 +64,7 @@
     "is it real gold",
     "what did narain pack"
    ],
-   "answer": "Narain fills the sack with rocks rather than money."
+   "answer": "Narain fills the sack with rocks instead of money."
   },
   {
    "q": "What came before this quest?",
@@ -73,7 +73,7 @@
     "previous quest",
     "what led to this"
    ],
-   "answer": "The ransom letter came before, the note demanding money for Narain's stolen book that you carried back to him."
+   "answer": "Before this, the ransom letter demanded money for Narain's stolen book, which you carried back to him."
   }
  ],
  "angles": [],
@@ -92,5 +92,6 @@
  ],
  "attribution": [
   "Decoy!"
- ]
+ ],
+ "style": 2
 }

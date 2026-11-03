@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Gurubashi Arena"
  },
- "summary": "Gurubashi Arena is an ancient stone colosseum standing in southern Stranglethorn Vale, originally built by the mighty Gurubashi Empire. In the present day, it serves as a chaotic free-for-all proving ground where pirates and wandering brawlers shed blood over locked chests of treasure.",
+ "summary": "In southern Stranglethorn Vale, pirates and wandering brawlers gather at Gurubashi Arena. Fighters clash over locked chests of treasure in its ancient stone ring.",
  "sections": [
   {
    "title": "A Legacy of Blood",
-   "body": "Long before human or orc set foot in Stranglethorn Vale, the Gurubashi Arena\u2014known also as the Great Arena\u2014was built as a monument to martial strength by the sprawling Gurubashi troll empire. In ancient days, champions fought to the death upon its sands until the earth was slick with troll blood.",
+   "body": "Before humans or orcs came to Stranglethorn Vale, the Gurubashi troll empire raised the Gurubashi Arena, also called the Great Arena. It honored their martial strength. In ancient days, champions fought to the death on its sands, until troll blood slicked the earth.",
    "spoiler": 0
   },
   {
    "title": "The Booty Run",
-   "body": "Though the empire has long since fractured into warring tribes, the arena's floor never stays clean for long. Today, lawless buccaneers and ruffians oversee a different sort of bloody spectacle. A pirate named Short John Mithril oversees the grounds, where every few hours a chest of plundered booty is hauled into the center of the ring. Anyone who steps onto the floor is fair game\u2014faction allegiances vanish, and combatants must butcher their way to the prize against all comers.",
+   "body": "The Gurubashi Empire has fractured into warring tribes, yet bloodshed still comes to the arena floor. Now lawless buccaneers and ruffians gather for another spectacle. Short John Mithril, a pirate, oversees the grounds.\n\nEvery few hours, a chest of plundered booty is hauled to the ring's center. Anyone who steps onto the floor becomes fair game. Faction allegiances fall away, and every combatant must fight all comers to reach the prize.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "arena origin",
     "troll arena lore"
    ],
-   "answer": "It was constructed centuries ago by the Gurubashi Empire when they ruled the southern regions of the Eastern Kingdoms. It was designed as an enormous stadium for lethal trials of combat and ancient troll rituals honoring the loa."
+   "answer": "The Gurubashi Empire built the arena centuries ago, while it ruled the southern regions of the Eastern Kingdoms. The enormous stadium hosted lethal combat trials and ancient troll rituals honoring the loa."
   },
   {
    "q": "Why do people fight here now?",
@@ -37,7 +37,7 @@
     "gurubashi chest",
     "booty run lore"
    ],
-   "answer": "Local pirates use the arena for illicit entertainment. Every few hours, a pirate captain drags a treasure chest into the center of the sands, prompting a bloody free-for-all brawl among anyone daring enough to step into the ring and claim it."
+   "answer": "Local pirates use the arena for illicit entertainment. Every few hours, a pirate captain brings a treasure chest to the center of the sands, and anyone who dares enter the ring can fight to claim it."
   },
   {
    "q": "Who is Short John Mithril?",
@@ -45,7 +45,7 @@
     "short john mithril",
     "arena overseer"
    ],
-   "answer": "Short John Mithril is a pirate who oversees the arena and the regular chest deliveries. He rewards combatants who consistently survive the chaotic brawls and recover his arena treasures."
+   "answer": "Short John Mithril is the pirate who oversees the arena and its regular chest deliveries. He rewards combatants who survive the brawls and recover his arena treasures."
   },
   {
    "q": "Why can members of my own faction attack me here?",
@@ -54,17 +54,17 @@
     "friendly fire in gurubashi",
     "arena pvp rules"
    ],
-   "answer": "The floor of the arena operates under complete lawlessness. Once you cross onto the sands, all faction treaties and military alliances are suspended\u2014only those standing together in your immediate battle party are spared your blade."
+   "answer": "Once you cross onto the arena sands, faction treaties and military alliances are suspended. Only those fighting alongside you in your immediate battle party are spared your blade."
   }
  ],
  "angles": [
   {
    "target": "race:Troll",
-   "text": "For trolls, the arena is sacred ground rather than simple pirate sport, a monument of the old Gurubashi Empire where champions once shed blood upon the sands."
+   "text": "As a troll, you walk sacred ground, a monument to the old Gurubashi Empire. Champions once shed blood on these sands."
   },
   {
    "target": "class:Warrior",
-   "text": "The sands offer one of the purest martial crucibles in Azeroth, stripped bare of grand war politics and reduced entirely to personal grit and raw survival."
+   "text": "As a warrior, you face a test of martial skill on these sands. Grand war politics fall away, and personal grit and survival decide the fight."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Gurubashi Arena"
- ]
+ ],
+ "style": 2
 }

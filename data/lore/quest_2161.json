@@ -17,16 +17,16 @@
   "wiki": "A Peon's Burden",
   "chain": []
  },
- "summary": "Ukor waits on the trail outside the Valley of Trials with a load he cannot carry home. The recruits in the red canyon refused his provisions, and now he asks travelers to return them to Razor Hill.",
+ "summary": "Ukor waits outside the Valley of Trials with provisions he cannot carry home. The recruits in the red canyon refused his food, so he asks travelers to take it back to Razor Hill.",
  "sections": [
   {
    "title": "A Misplaced Delivery",
-   "body": "Ukor set out from Razor Hill with provisions for the fresh recruits training in the red canyon. He believed they needed the food, but the taskmasters turned him away. They keep supplies lean because they believe meager rations teach young Horde warriors discipline and endurance. Innkeeper Grosk later explains that this hardship is part of their training.",
+   "body": "Ukor left Razor Hill carrying provisions for the fresh recruits training in the red canyon. He thought they needed the food, but the taskmasters sent him away. They keep rations meager, believing hardship teaches young Horde warriors discipline and endurance. Innkeeper Grosk later explains that hunger is part of their training.",
    "spoiler": 0
   },
   {
    "title": "Perils of the Red Waste",
-   "body": "Ukor reached the pass, but fears the return trip across Durotar. Scorpids, venomous spiders, and prowling boars haunt the rocky trail. He has no weapons or armor, and lacks the fighting spirit expected of an orcish grunt. Waiting along the path, he asks travelers leaving the proving grounds to carry his heavy provisions back to the inn in Razor Hill.",
+   "body": "Ukor reached the pass, but fears crossing Durotar on the way back. Scorpids, venomous spiders, and prowling boars haunt the rocky trail. He has no weapons or armor, and lacks the fighting spirit expected of an orcish grunt.\n\nSo Ukor waits along the path and asks travelers leaving the proving grounds to carry his heavy provisions back to the inn in Razor Hill.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who is the peon on the road",
     "peon near valley of trials"
    ],
-   "answer": "Ukor is a well-meaning but timid orc peon waiting along the road out of the Valley of Trials. He set out from Razor Hill to deliver provisions, then realized he was too frightened of the local wildlife to make the return journey alone."
+   "answer": "Ukor is a timid orc peon waiting on the road out of the Valley of Trials. He set out from Razor Hill with provisions, but fears the local wildlife too much to make the return journey alone."
   },
   {
    "q": "Why didn't the trainers in the Valley of Trials want the food?",
@@ -47,7 +47,7 @@
     "why did ukor carry food",
     "innkeeper grosk starvation"
    ],
-   "answer": "The overseers believe discipline matters for fledgling recruits. Innkeeper Grosk explains that instructors keep the trainees hungry to test their mettle and build their spirit, so Ukor's shipment was unwelcome."
+   "answer": "The taskmasters keep the trainees hungry because they believe hardship teaches discipline and endurance. Innkeeper Grosk explains that meager rations are part of their training, so Ukor's provisions were refused."
   },
   {
    "q": "Where does this delivery need to go?",
@@ -56,7 +56,7 @@
     "who do i give the food to",
     "where to deliver ukor's burden"
    ],
-   "answer": "Carry the provisions north along Durotar's main thoroughfare to Razor Hill, then hand them to Innkeeper Grosk inside the settlement's tavern."
+   "answer": "Carry the provisions north along Durotar's main thoroughfare to Razor Hill. Give them to Innkeeper Grosk inside the settlement's tavern."
   },
   {
    "q": "What makes the journey dangerous for a peon?",
@@ -64,7 +64,7 @@
     "why is ukor scared",
     "durotar road dangers"
    ],
-   "answer": "Territorial scorpids, venomous crawler spiders, and wild boars roam Durotar's rocky wastes. Ukor is an unarmored, untrained laborer, while seasoned recruits can handle such vermin."
+   "answer": "Scorpids, venomous crawler spiders, and wild boars roam Durotar's rocky wastes. Ukor is an unarmored, untrained laborer, while seasoned recruits can handle such vermin."
   },
   {
    "q": "What is the role of peons in the Horde?",
@@ -73,7 +73,7 @@
     "peon status",
     "what are peons"
    ],
-   "answer": "Peons occupy the lowest rung of orcish society and handle menial labor, including hauling supplies, chopping timber, and erecting fortifications. Grunts and champions receive praise and glory, while peons are often overlooked despite keeping settlements fed and maintained."
+   "answer": "Peons hold the lowest place in orcish society and do menial work, from hauling supplies and chopping timber to raising fortifications. Grunts and champions receive praise and glory, while peons are often overlooked, though they keep settlements fed and maintained."
   },
   {
    "q": "Who is Innkeeper Grosk?",
@@ -82,17 +82,17 @@
     "grosk razor hill",
     "razor hill innkeeper"
    ],
-   "answer": "Innkeeper Grosk runs the inn in Razor Hill and manages the town's lodgings and supplies. He offers food, drink, and a hearth to traveling warriors, and reminds recruits to rest before facing the wider world."
+   "answer": "Innkeeper Grosk runs the inn in Razor Hill and manages its lodgings and supplies. He offers traveling warriors food, drink, and a hearth, and reminds recruits to rest before facing the wider world."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "Orcish culture prizes physical might and courage, leaving peons like Ukor at the bottom of the social hierarchy. Helping with his delivery shows how humble labor keeps the fledgling nation of Durotar functioning."
+   "text": "Orcish culture prizes physical might and courage, leaving peons like Ukor at the bottom of the social order. Helping with his delivery shows how humble labor keeps Durotar's fledgling nation working."
   },
   {
    "target": "faction:Horde",
-   "text": "You leave the proving grounds for Razor Hill, the central hub for Horde defense and logistics in southern Durotar."
+   "text": "You leave the proving grounds for Razor Hill, the center of Horde defense and supplies in southern Durotar."
   }
  ],
  "keywords": [
@@ -116,5 +116,5 @@
  "attribution": [
   "A Peon's Burden"
  ],
- "style": 1
+ "style": 2
 }

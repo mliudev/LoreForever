@@ -17,16 +17,16 @@
   "wiki": "Retrieval for Mauren",
   "chain": []
  },
- "summary": "In Stormwind, Collin Mauren asks travelers bound for Kalimdor to bring him rare basilisk scales. He wants scales from the Charred Vale in Stonetalon to grind into dust for his spellcraft.",
+ "summary": "In Stormwind, Collin Mauren asks travelers bound for Kalimdor to bring rare basilisk scales. He wants scales from the Charred Vale in Stonetalon, ground to dust for his spellcraft.",
  "sections": [
   {
    "title": "A Mage's Curious Reagents",
-   "body": "Collin Mauren, a wizard in Stormwind's Mage Quarter, listens to tales from wandering adventurers. He has heard that travelers are venturing deep into Kalimdor, where Stonetalon draws those seeking wild wyverns, unruly elementals, or deals and clashes with the Venture Company. Mauren is not after riches or glory. He wants to learn what rare natural wonders survive in the region's harshest corners.",
+   "body": "In Stormwind's Mage Quarter, wizard Collin Mauren listens to tales from wandering adventurers. He has heard that travelers venture deep into Kalimdor, where Stonetalon draws those seeking wild wyverns, unruly elementals, or dealings and clashes with the Venture Company. Mauren seeks neither riches nor glory. He wants to learn what rare natural wonders survive in the region's harshest corners.",
    "spoiler": 0
   },
   {
    "title": "The Glassy Beasts of the Vale",
-   "body": "The Charred Vale lies deep in Stonetalon, an ash-choked basin scarred by the Venture Company's devastation. Mauren's studies say a peculiar breed of basilisk once lived there. Their scales, crushed to a fine powder, can catalyze specialized arcane spells he has developed. He does not know whether the basilisks survived the Vale's harsh transformation, so he asks explorers to bring back fresh crystallised scales and learn whether the breed endures.",
+   "body": "Deep in Stonetalon, the Charred Vale is an ash-choked basin scarred by the Venture Company's devastation. Mauren's studies say a peculiar breed of basilisk once lived there. Ground to fine powder, their scales can catalyze specialized arcane spells he has devised. Mauren does not know whether the basilisks survived the Vale's harsh transformation. So he asks explorers to bring back fresh crystallised scales and learn whether the breed endures.",
    "spoiler": 0
   }
  ],
@@ -47,7 +47,7 @@
     "what are scales for",
     "crystallized scales use"
    ],
-   "answer": "Mauren grinds crystallised basilisk scales into fine dust to use as a catalyst for spells he has devised."
+   "answer": "Mauren grinds crystallised basilisk scales into fine dust to catalyze spells he has devised."
   },
   {
    "q": "Where is the Charred Vale located?",
@@ -65,7 +65,7 @@
     "charred vale fire",
     "charred vale destruction"
    ],
-   "answer": "The Venture Company's goblins devastated the Charred Vale. Their destruction enraged the vale's spirits and loosed elementals, leaving the ground blackened and smoldering, with hardy, twisted beasts roaming it."
+   "answer": "The Venture Company's goblins devastated the Charred Vale. Their destruction enraged the vale's spirits and loosed elementals. The ground lies blackened and smoldering, with hardy, twisted beasts roaming it."
   },
   {
    "q": "What creatures drop the scales needed for this task?",
@@ -82,7 +82,7 @@
     "why kalimdor",
     "why stonetalon for scales"
    ],
-   "answer": "Mauren needs the crystalline properties found on basilisks native to the Charred Vale. Crossing the Great Sea is perilous, so he asks seasoned travelers already bound for Kalimdor."
+   "answer": "Mauren needs the crystalline properties of basilisks native to the Charred Vale. Crossing the Great Sea is perilous, so he asks seasoned travelers already bound for Kalimdor."
   }
  ],
  "angles": [
@@ -92,7 +92,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you see Stormwind's interests and supply lines reaching deep into Kalimdor's wild territories."
+   "text": "As an Alliance traveler, you see Stormwind's interests and supply lines reach deep into Kalimdor's wild territories."
   }
  ],
  "keywords": [
@@ -115,5 +115,5 @@
  "attribution": [
   "Retrieval for Mauren"
  ],
- "style": 1
+ "style": 2
 }

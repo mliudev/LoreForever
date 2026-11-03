@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Vile Reef"
  },
- "summary": "The Vile Reef is a submerged, vibrant coral shelf lying off the western coast of Stranglethorn Vale near Grom'gol Base Camp. Beneath its waters, aggressive murlocs make their home among ancient sunken troll ruins, giant clams, and coastal shipwrecks.",
+ "summary": "Murlocs guard Vile Reef beneath the Great Sea, just off Stranglethorn Vale near Grom'gol Base Camp. Coral, troll ruins, shipwrecks, and giant clams fill its waters.",
  "sections": [
   {
    "title": "Sunken Stones and Coral Beds",
-   "body": "Stretching beneath the waves of the Great Sea just offshore from Grom'gol Base Camp, the Vile Reef is known for its vivid marine growth and perilous inhabitants. The seabed is dotted with the weathered stonework of submerged troll ruins alongside the enigmatic Altar of the Tides. Flocks of territorial murlocs lurk among the coral shelves and shattered timbers of passing vessels, fiercely defending the shallow waters and preying upon any diver who braves the deep in search of giant clams and rare blue pearls.",
+   "body": "Beneath the Great Sea, Vile Reef lies just offshore from Grom'gol Base Camp. Vivid coral grows across the seabed beside weathered troll ruins and the Altar of the Tides. Territorial murlocs lurk among the coral and shattered ship timbers. They defend the shallows and prey on divers seeking giant clams and rare blue pearls.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "where is vile reef",
     "how to find vile reef"
    ],
-   "answer": "The Vile Reef sits in the Great Sea off the western shores of Stranglethorn Vale, situated directly northwest of Grom'gol Base Camp."
+   "answer": "Vile Reef lies in the Great Sea off Stranglethorn Vale's western shore, directly northwest of Grom'gol Base Camp."
   },
   {
    "q": "What creatures inhabit the Vile Reef?",
@@ -32,7 +32,7 @@
     "monsters in vile reef",
     "who lives in vile reef"
    ],
-   "answer": "The reef is heavily infested with hostile murlocs that swim among the coral and sunken structures, alongside giant clams resting across the sea floor."
+   "answer": "Hostile murlocs swim among the coral and sunken structures. Giant clams rest on the sea floor."
   },
   {
    "q": "What ruins are found underwater here?",
@@ -41,7 +41,7 @@
     "sunken ruins stranglethorn",
     "altar of the tides location"
    ],
-   "answer": "The sea floor contains the remnants of ancient troll ruins and the Altar of the Tides, relics of troll civilization that were long ago swallowed by the ocean."
+   "answer": "Ancient troll ruins and the Altar of the Tides lie on the sea floor, remnants of troll civilization swallowed by the ocean."
   },
   {
    "q": "Why do adventurers dive into the Vile Reef?",
@@ -50,17 +50,17 @@
     "vile reef treasures",
     "blue pearls stranglethorn"
    ],
-   "answer": "Divers risk the murloc-infested waters to explore coastal shipwrecks, investigate the Altar of the Tides, and harvest the giant clams that sometimes conceal precious blue pearls."
+   "answer": "Divers brave the murlocs to explore shipwrecks, investigate the Altar of the Tides, and harvest giant clams that may conceal precious blue pearls."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "Resting just offshore from Grom'gol Base Camp, the reef poses a lingering maritime threat to Horde supply vessels and coastal patrols in Stranglethorn Vale."
+   "text": "Just offshore from Grom'gol Base Camp, Vile Reef remains a maritime threat to Horde supply vessels and coastal patrols in Stranglethorn Vale."
   },
   {
    "target": "race:Troll",
-   "text": "The sunken stonework and ancient Altar of the Tides serve as a somber reminder of the long-lost coastal territory once commanded by the jungle trolls."
+   "text": "The sunken stones and Altar of the Tides recall the long-lost coastal territory once commanded by the jungle trolls."
   }
  ],
  "keywords": [
@@ -80,5 +80,6 @@
  ],
  "attribution": [
   "Vile Reef"
- ]
+ ],
+ "style": 2
 }

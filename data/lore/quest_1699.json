@@ -17,16 +17,16 @@
   "wiki": "The Rethban Gauntlet",
   "chain": []
  },
- "summary": "In Lakeshire, Yorus Barleybrew sends challengers on a perilous run north and back. They drink his family's fiery Barleybrew Scalder, reach Rethban Caverns, and return within an hour.",
+ "summary": "In Lakeshire, Yorus Barleybrew sends runners north toward Rethban Caverns and back. They drink his family's fiery Barleybrew Scalder, then race to return within an hour.",
  "sections": [
   {
    "title": "A Dwarven Dare",
-   "body": "In Lakeshire, grim talk of gnoll raids and missing town guards fills the inn. The dwarf Yorus Barleybrew offers a different kind of diversion: a test of speed, courage, and endurance. Before setting out on foot for the northern foothills, challengers drink a draught of his family's Barleybrew Scalder.",
+   "body": "Lakeshire's inn is full of grim talk about gnoll raids and missing town guards. Yorus Barleybrew offers travelers another diversion: a test of speed, courage, and endurance. Before they set out on foot for the northern foothills, they drink a draught of his family's Barleybrew Scalder.",
    "spoiler": 0
   },
   {
    "title": "Running the Wild Hills",
-   "body": "Redridge gnolls roam the hills between Lakeshire and Rethban Caverns. Runners must fight or slip past their packs, reach the first fork inside the dark tunnels, then hurry back to Yorus within an hour. The fiery drink makes the run harder, leaving challengers staggering as they make their way through the hills.",
+   "body": "Redridge gnolls roam the hills between Lakeshire and Rethban Caverns. Runners must fight through their packs or slip past, reach the first fork in the dark tunnels, then hurry back to Yorus within an hour. The fiery drink makes the run harder, and challengers stagger through the hills.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "yorus barleybrew quest",
     "who starts the gauntlet"
    ],
-   "answer": "Yorus Barleybrew, a dwarven brewer staying in Lakeshire, challenges travelers to run the gauntlet and test their fortitude and his brew."
+   "answer": "Yorus Barleybrew, a dwarf brewer staying in Lakeshire, challenges travelers to run the gauntlet and test their fortitude and his brew."
   },
   {
    "q": "What makes this challenge particularly difficult?",
@@ -79,7 +79,7 @@
     "rethban gauntlet follow up",
     "what quest comes after rethban gauntlet"
    ],
-   "answer": "Surviving the gauntlet proves your endurance to Yorus Barleybrew and opens the way to further tasks in the region, such as seeking out the shieldsmith Furen Longbeard in Stormwind."
+   "answer": "Surviving the run proves your endurance to Yorus Barleybrew and opens the way to further work in the region, such as seeking out the shieldsmith Furen Longbeard in Stormwind."
   }
  ],
  "angles": [
@@ -89,7 +89,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance traveler, you can help Lakeshire face the gnoll threat by braving the gauntlet and thinning the enemy patrols near the northern caves."
+   "text": "As an Alliance traveler, you can help Lakeshire face the gnoll threat by braving the run and thinning the enemy patrols near the northern caves."
   }
  ],
  "keywords": [
@@ -114,5 +114,5 @@
  "attribution": [
   "The Rethban Gauntlet"
  ],
- "style": 1
+ "style": 2
 }

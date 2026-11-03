@@ -17,16 +17,16 @@
   "wiki": "Battle of Hillsbrad (2)",
   "chain": []
  },
- "summary": "In Hillsbrad, Forsaken forces press their assault south. After strikes on the northern farms, Horde operatives hunt the peasants fleeing to the orchards.",
+ "summary": "In Hillsbrad, Forsaken forces press south after strikes on the northern farms. Horde operatives now hunt the peasants who fled to the orchards.",
  "sections": [
   {
    "title": "Sowing Terror in the Fields",
-   "body": "The attack on Hillsbrad's human farms drives laborers south into the fields. After the northern farms are struck, many flee to the orchards and pastures of Hillsbrad Fields, hoping to escape the advancing undead. High Executor Darthalia sees their flight as a chance to break the township's remaining labor force and morale.",
+   "body": "Hillsbrad's human farms have come under attack, driving laborers south into the fields. After strikes on the northern farms, many flee to the orchards and pastures of Hillsbrad Fields. They hope to escape the advancing undead. High Executor Darthalia sees their flight as a chance to break the township's remaining labor force and morale.",
    "spoiler": 0
   },
   {
    "title": "The Dark Lady's Advance",
-   "body": "From Tarren Mill, High Executor Darthalia orders Horde forces to hunt the displaced laborers in the fields. The peasants have no protection, and their deaths choke Hillsbrad's food supply and weaken civilian resolve. For Darthalia and the Forsaken, each human killed tightens their hold over the surviving township and helps keep Lordaeron in Forsaken hands.",
+   "body": "From Tarren Mill, High Executor Darthalia orders Horde forces to hunt the displaced laborers in the fields. The peasants have no protection. Their deaths choke Hillsbrad's food supply and weaken civilian resolve. For Darthalia and the Forsaken, each human killed tightens their hold over the surviving township and helps keep Lordaeron in Forsaken hands.",
    "spoiler": 0
   }
  ],
@@ -79,7 +79,7 @@
     "why horde attacking hillsbrad",
     "forsaken vs hillsbrad war"
    ],
-   "answer": "The human town of Hillsbrad is one of the last Alliance strongholds in Lordaeron. The Forsaken claim the region as their sovereign territory and seek to drive out or kill Alliance enclaves that threaten their southern border."
+   "answer": "Hillsbrad is a human town and one of the last Alliance strongholds in Lordaeron. The Forsaken claim the region as their sovereign territory and seek to drive out or kill Alliance enclaves that threaten their southern border."
   }
  ],
  "angles": [
@@ -115,5 +115,5 @@
  "attribution": [
   "Battle of Hillsbrad (2)"
  ],
- "style": 1
+ "style": 2
 }

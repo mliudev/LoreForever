@@ -10,16 +10,16 @@
    "quest:1013"
   ]
  },
- "summary": "Ur's book now lies in Shadowfang Keep. Archmage Arugal took it after Ur died, and now Forsaken scholars in the Undercity take interest. The Dalaran mage wrote of strange beings from other planes.",
+ "summary": "In Shadowfang Keep, the Book of Ur draws the interest of Forsaken scholars. Archmage Arugal took it after Ur died. The Dalaran mage wrote of strange beings from other planes.",
  "sections": [
   {
    "title": "The Mage of Dalaran",
-   "body": "Ur was a Dalaran mage known for studying other planes and their creatures. Before the Scourge came, the Kirin Tor knew his work well. Ur was fascinated by magic beyond this world, yet he chose to write down his findings instead of breaking through the veil recklessly. Caution and restraint shaped his research. When the Scourge attacked Dalaran, neither his magic nor his care could save him.",
+   "body": "Ur was a Dalaran mage who studied other planes and their creatures. Before the Scourge came, the Kirin Tor knew his work well. He longed to understand magic beyond this world, but wrote down what he found instead of recklessly breaking through the veil. Caution and restraint guided his research. When the Scourge attacked Dalaran, neither his magic nor his care could save him.",
    "spoiler": 0
   },
   {
    "title": "Forsaken Ambition",
-   "body": "After Ur's death, Archmage Arugal took his writings and used them to summon worgen into Silverpine Forest. The book now rests on a shelf in Shadowfang Keep. Keeper Bel'dugur of the Undercity's Apothecarium has heard of it and wants Ur's work. The Forsaken have none of Ur's restraint; they will use dangerous magic in their struggle to survive and conquer.",
+   "body": "The Book of Ur holds the writings Archmage Arugal took after Ur died. Arugal used them to summon worgen into Silverpine Forest. Now the book rests on a shelf in Shadowfang Keep. Keeper Bel'dugur of the Undercity's Apothecarium has heard of it and wants Ur's work. The Forsaken have none of Ur's restraint. They will use dangerous magic to survive and conquer.",
    "spoiler": 1
   }
  ],
@@ -30,7 +30,7 @@
     "who wrote the book of ur",
     "ur dalaran mage"
    ],
-   "answer": "Ur was a human mage of Dalaran, known before the Third War for studying other dimensions and their creatures. He would not summon them, fearing the danger they posed."
+   "answer": "Ur was a human mage of Dalaran, known before the Third War for studying other dimensions and their creatures. He refused to summon them, fearing the danger they posed."
   },
   {
    "q": "Where is the Book of Ur located?",
@@ -91,5 +91,5 @@
   "The Book of Ur",
   "The Book of Ur (quest)"
  ],
- "style": 1
+ "style": 2
 }

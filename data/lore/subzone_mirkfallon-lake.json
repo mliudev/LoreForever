@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Mirkfallon Lake"
  },
- "summary": "In the Stonetalon Mountains, Mirkfallon Lake fills a basin beneath Windshear Crag. Native wildlife crowds its waters and banks, from aggressive slimes to thunder lizards and wyverns.",
+ "summary": "Mirkfallon Lake gathers wildlife beneath Windshear Crag in the Stonetalon Mountains. Thunder lizards and wyverns crowd its banks, while aggressive slimes make its waters dangerous.",
  "sections": [
   {
    "title": "A Highland Basin",
-   "body": "Mirkfallon Lake lies at the center of the Stonetalon range, between the passes to Webwinder Path in the south and Stonetalon Peak in the north. Runoff from the highlands feeds its waters, drawing thunder lizards down to drink and wyverns from their high roosts. Strange slimes bubble in the lake, making the crossing hazardous for travelers.",
+   "body": "Mirkfallon Lake gathers runoff at the heart of the Stonetalon range. It lies between Webwinder Path to the south and Stonetalon Peak to the north. Thunder lizards come down from the highlands to drink, and wyverns leave their roosts overhead. Strange slimes bubble in the water, making the crossing hazardous for travelers.",
    "spoiler": 0
   },
   {
    "title": "Crossroads of the Crag",
-   "body": "Paths cross the lake basin in every direction. To the east, rocky tracks climb into Windshear Crag and the logging operations deep in its forested valleys. North of the lake, travelers climb toward night elven sanctums and tauren heights. Southward, the route skirts venomous spider hollows. Explorers and scouts crossing the contested mountains must reckon with the shifting dangers around the lake.",
+   "body": "Paths meet across the lake basin. To the east, rocky tracks climb into Windshear Crag and the logging operations in its forested valleys. Northward, travelers climb toward night elven sanctums and tauren heights. Southward, the route skirts venomous spider hollows. Scouts and explorers crossing these contested mountains must reckon with dangers that shift around the lake.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "mirkfallon wildlife",
     "what is at mirkfallon lake"
    ],
-   "answer": "Thunder lizards roam the banks, noxious ooze slimes inhabit the shallows, and mountain wyverns hunt around the basin and nest in the heights overhead."
+   "answer": "Thunder lizards roam the banks, and noxious ooze slimes inhabit the shallows. Mountain wyverns hunt around the basin and nest in the heights above."
   },
   {
    "q": "Where does the lake lead?",
@@ -37,7 +37,7 @@
     "where does mirkfallon go",
     "mirkfallon lake directions"
    ],
-   "answer": "Northward, the route climbs toward Stonetalon Peak. Southward, it descends through Webwinder Path, while rocky tracks to the east wind up into Windshear Crag."
+   "answer": "Northward, the route climbs toward Stonetalon Peak. Southward, it descends through Webwinder Path. Rocky tracks to the east wind up into Windshear Crag."
   },
   {
    "q": "Is Mirkfallon Lake safe to fish in?",
@@ -45,13 +45,13 @@
     "fishing mirkfallon lake",
     "can i fish in mirkfallon"
    ],
-   "answer": "Sagefish and floating salvage tempt anglers, but aggressive slimes and wyverns frequent the shoreline and make quiet fishing difficult."
+   "answer": "Sagefish and floating salvage tempt anglers, but aggressive slimes and wyverns frequent the shoreline. Quiet fishing is difficult there."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid, you see wild beasts around Mirkfallon Lake in a delicate balance, uncomfortably close to the mechanical axes advancing in the crag above."
+   "text": "As a druid, you see wild beasts around Mirkfallon Lake in a delicate balance. Mechanical axes advancing in the crag above press uncomfortably close."
   }
  ],
  "keywords": [
@@ -70,5 +70,5 @@
  "attribution": [
   "Mirkfallon Lake"
  ],
- "style": 1
+ "style": 2
 }

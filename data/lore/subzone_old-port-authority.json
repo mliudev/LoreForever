@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Old Port Authority"
  },
- "summary": "The Old Port Authority is a bustling, multi-vendor warehouse nestled along the boardwalks of Booty Bay. Beneath its roof, travelers browse everything from exotic pets and firearms to hearty rations and finely crafted weapons.",
+ "summary": "In Booty Bay, the Old Port Authority draws travelers to its market stalls. Beneath its roof, they find exotic pets, firearms, hearty rations, and finely crafted weapons.",
  "sections": [
   {
    "title": "Commerce on the Boardwalk",
-   "body": "Perched inside the pirate haven of Booty Bay, the Old Port Authority serves as an indoor marketplace divided into distinct stalls, and its interior buzzes with brisk commerce. Merchants hawk general adventuring supplies, firearms, bows, food, and weapons to scoundrels and privateers alike. It also houses exotic imports, offering colorful birds and nautical oddities straight off the docks to anyone with coin.",
+   "body": "Beneath Booty Bay’s boardwalks, the Old Port Authority draws brisk trade in the pirate haven. Its stalls offer supplies, firearms, bows, food, and weapons to scoundrels and privateers. Nautical imports include colorful birds and oddities from the docks, all offered to anyone with coin.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "booty bay warehouse",
     "port authority booty bay"
    ],
-   "answer": "It is a prominent commercial warehouse in Booty Bay partitioned into several market stalls. Adventurers and buccaneers visit it to purchase food, ammunition, weapons, and trade sundries."
+   "answer": "In Booty Bay, the Old Port Authority is a prominent warehouse divided into several market stalls. Adventurers and buccaneers come for food, ammunition, weapons, and trade goods."
   },
   {
    "q": "What shops are found inside?",
@@ -32,7 +32,7 @@
     "shops in port authority",
     "what can i buy here"
    ],
-   "answer": "The warehouse contains five distinct merchant stalls: Nautical Needs, Good Food, Swift Flights, Boomstick Imports East, and Cuts-N-Bruises Incorporated, covering rations, weapons, pet birds, and basic provisions."
+   "answer": "Five stalls fill the warehouse: Nautical Needs, Good Food, Swift Flights, Boomstick Imports East, and Cuts-N-Bruises Incorporated. They sell rations, weapons, pet birds, and basic provisions."
   },
   {
    "q": "Can you buy pets here?",
@@ -41,17 +41,17 @@
     "parrots booty bay",
     "nautical needs vendor"
    ],
-   "answer": "Yes. Inside Nautical Needs, travelers can acquire exotic avian companions such as cockatiels and Senegal parrots, popular sidekicks among the local sailors and privateers."
+   "answer": "Yes. At Nautical Needs, you can acquire exotic birds such as cockatiels and Senegal parrots. Local sailors and privateers favor them as companions."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "The merchants at Boomstick Imports East make this building a dependable stop to restock shot and powder before setting out into the deep jungles of Stranglethorn."
+   "text": "As a hunter, you can restock shot and powder at Boomstick Imports East before heading into Stranglethorn’s deep jungles."
   },
   {
    "target": "profession:Cooking",
-   "text": "Culinary travelers can stop by Good Food to pick up regional cooking ingredients and provisions brought in by passing trading vessels."
+   "text": "At Good Food, you can find regional cooking ingredients and provisions brought by trading vessels passing through."
   }
  ],
  "keywords": [
@@ -70,5 +70,6 @@
  ],
  "attribution": [
   "Old Port Authority"
- ]
+ ],
+ "style": 2
 }

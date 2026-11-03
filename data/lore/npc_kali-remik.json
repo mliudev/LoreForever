@@ -8,11 +8,11 @@
   "wiki": "Kali Remik",
   "refs": 1
  },
- "summary": "In Sen'jin Village, Kali Remik guides young hunters toward their next training. She is a Darkspear troll hunter who knows the tracking and survival ways of Durotar.",
+ "summary": "In Sen'jin Village, Kali Remik sends young hunters on toward further training. She is a Darkspear troll hunter who knows Durotar's tracking and survival ways.",
  "sections": [
   {
    "title": "A Guide for the Hunt",
-   "body": "Kali Remik guides young scouts in Sen'jin Village, where they begin their lives beyond the Valley of Trials. A Darkspear troll tracker, she knows Durotar's dry lands and the Horde's settlements. When a novice is ready to leave the local training grounds, Kali sends promising hunters to Thotar in Razor Hill. There they begin learning to tame beasts, strengthening the Horde's frontier ranks.",
+   "body": "Kali Remik guides young scouts in Sen'jin Village, where they begin life beyond the Valley of Trials. A Darkspear troll tracker, she knows Durotar's dry lands and the Horde's settlements. When novices are ready to leave the local training grounds, she sends promising hunters to Thotar in Razor Hill. There they learn to tame beasts and strengthen the Horde's frontier ranks.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "kali remik location",
     "find kali remik"
    ],
-   "answer": "Kali Remik can be found in Durotar, notably around Sen'jin Village, aiding her people."
+   "answer": "Kali Remik can be found in Durotar, especially around Sen'jin Village, aiding her people."
   },
   {
    "q": "What guidance does she offer to hunters?",
@@ -42,13 +42,13 @@
     "kali remik hunter quest",
     "what does kali teach"
    ],
-   "answer": "Kali Remik directs young orc and troll hunters who have proven their basic skills to Razor Hill. There, Thotar sets them on the path to taming a beast companion."
+   "answer": "Kali Remik sends young orc and troll hunters who have proven their basic skills to Razor Hill. There, Thotar begins their training in taming a beast companion."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a young orc or troll hunter, you can look to Kali Remik for guidance when your skills outgrow village drills. She sends you to Thotar in Razor Hill."
+   "text": "As a young orc or troll hunter, you can turn to Kali Remik when your skills outgrow village drills. She sends you to Thotar in Razor Hill."
   },
   {
    "target": "race:Troll",
@@ -77,5 +77,5 @@
  "attribution": [
   "Kali Remik"
  ],
- "style": 1
+ "style": 2
 }

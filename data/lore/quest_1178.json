@@ -27,16 +27,16 @@
    "Goblin Sponsorship"
   ]
  },
- "summary": "Pozzik of the goblin racing team is waiting on a prototype fuel regulator that Gazlowe promised a few weeks ago, and it has not come. Gazlowe is usually very prompt, so Pozzik asks you to go to Ratchet and ask what happened, since the gnomes are gaining on the team.",
+ "summary": "The goblin racers are waiting on a promised part as the gnomes gain ground. Pozzik sends you to Ratchet to ask Gazlowe what happened.",
  "sections": [
   {
    "title": "A Promised Part",
-   "body": "Pozzik calls the racing team the pride of goblins, and says many people help it in one way or another. Gazlowe hunts down parts from all over the world for the team, and once even came to work on one of their rigs. A few weeks ago Gazlowe said a new prototype fuel regulator would be sent, but nothing has arrived, which is unlike him. With the gnomes gaining, Pozzik asks you to go to Ratchet and ask Gazlowe about it.",
+   "body": "Pozzik calls the racing team the pride of goblins. Many people help it in one way or another. Gazlowe searches the world for parts and once came to work on one of its rigs.\n\nWeeks ago, Gazlowe promised a new prototype fuel regulator, but it has not arrived. He is usually prompt, so Pozzik asks you to go to Ratchet and learn what happened. The gnomes are gaining.",
    "spoiler": 0
   },
   {
    "title": "Words About Pozzik",
-   "body": "When Gazlowe hears that Pozzik sent you, he remarks that Pozzik was counted among Undermine's most respected tinkerers before retiring to work on the racers. Pozzik's first act on joining the team was to design the two engine model racers. Gazlowe allows that business may suffer without Pozzik working with the Tinkers' Union, but says nothing beats the races.",
+   "body": "Before retiring to work with the racers, Pozzik was one of Undermine's most respected tinkerers, Gazlowe recalls. His first act on joining the team was to design its two engine model racers.\n\nGazlowe admits the Tinkers' Union may suffer without Pozzik. Still, he says nothing beats the races.",
    "spoiler": 1
   }
  ],
@@ -48,7 +48,7 @@
     "pozzik errand",
     "goblin sponsorship objective"
    ],
-   "answer": "Gazlowe said weeks ago that he would send a prototype fuel regulator, yet none has come. Pozzik asks you to go to Ratchet and ask him about it."
+   "answer": "Weeks ago, Gazlowe promised a prototype fuel regulator, but it has not arrived. Pozzik asks you to go to Ratchet and ask what happened."
   },
   {
    "q": "What does Gazlowe do for the racing team?",
@@ -57,7 +57,7 @@
     "gazlowe raceway sponsor",
     "is gazlowe a sponsor"
    ],
-   "answer": "He hunts down parts from all over the world for the team, and once even came to work on one of their rigs."
+   "answer": "Gazlowe searches the world for parts for the team. He once came to work on one of its rigs."
   },
   {
    "q": "What comes before this?",
@@ -73,7 +73,7 @@
     "why rush fuel regulator",
     "goblin vs gnome race"
    ],
-   "answer": "Pozzik says the gnomes are gaining on them."
+   "answer": "Pozzik says the gnomes are gaining on the goblin team."
   }
  ],
  "angles": [],
@@ -99,5 +99,6 @@
  ],
  "attribution": [
   "Goblin Sponsorship"
- ]
+ ],
+ "style": 2
 }

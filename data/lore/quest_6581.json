@@ -20,16 +20,16 @@
    "Warsong Saw Blades (quest)"
   ]
  },
- "summary": "At Splintertree Post, the Warsong loggers wait on blades from Ratchet. Pixel, their courier, will trade the shipment for a weapon to protect herself on Ashenvale's dangerous roads. The blades are needed to keep the Horde's lumber camps working.",
+ "summary": "At Splintertree Post, the Warsong loggers wait for blades brought from Ratchet. Their courier Pixel will trade the shipment for a weapon to guard herself on Ashenvale's dangerous roads. The blades keep the Horde's lumber camps at work.",
  "sections": [
   {
    "title": "A Courier's Shrewd Barter",
-   "body": "Pixel has brought heavy saw blades from Ratchet to Splintertree Post, but she will not hand them over for free. In Ashenvale's wilds, she values safety more than coin. She asks for a Deadly Blunderbuss in trade, so she can protect herself on her dangerous travels through hostile territory.",
+   "body": "Pixel has brought heavy saw blades from Ratchet to Splintertree Post, but she will not give them away. In Ashenvale's wilds, safety matters more to her than coin. She asks to trade them for a Deadly Blunderbuss, so she can defend herself on the dangerous roads through hostile territory.",
    "spoiler": 0
   },
   {
    "title": "Supplying the War Effort",
-   "body": "The Horde needs timber from Ashenvale to ease shortages across Durotar and the Barrens. Axes dull quickly against the ancient groves, so the Warsong loggers need goblin-forged blades. Pixel's shipment supplies the lumber camps, where the Horde cuts timber for outposts and war machines despite fierce resistance from the night elves.",
+   "body": "The Horde needs Ashenvale timber to ease shortages across Durotar and the Barrens. Axes dull quickly against the ancient groves, so the Warsong loggers rely on goblin-forged blades. Pixel's shipment supplies the lumber camps, where the Horde cuts timber for outposts and war machines despite fierce resistance from the night elves.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "pixie splintertree",
     "saw blade courier"
    ],
-   "answer": "Pixel is a courier at Splintertree Post who brought saw blades from Ratchet. She keeps the shipment until she can secure a weapon for her protection."
+   "answer": "Pixel is a courier at Splintertree Post who brought saw blades from Ratchet. She holds the shipment until she can secure a weapon for her protection."
   },
   {
    "q": "Why does Pixel want a Deadly Blunderbuss instead of gold?",
@@ -50,7 +50,7 @@
     "pixel gun trade",
     "why want a gun"
    ],
-   "answer": "Pixel considers personal safety more valuable than coin on the dangerous road from the Barrens into Ashenvale. She asks for a Deadly Blunderbuss to defend herself on her travels."
+   "answer": "On the dangerous road from the Barrens into Ashenvale, Pixel values safety more than coin. She asks for a Deadly Blunderbuss to defend herself on her travels."
   },
   {
    "q": "Why are these saw blades so important to the Horde?",
@@ -76,7 +76,7 @@
     "warsong supplies chain",
     "warsong saw blades prerequisite"
    ],
-   "answer": "The saw blades are one of the supplies needed to keep the Warsong lumber camps working in Ashenvale."
+   "answer": "The saw blades are among the supplies needed to keep the Warsong lumber camps working in Ashenvale."
   },
   {
    "q": "Can anyone make the weapon Pixel wants?",
@@ -122,5 +122,5 @@
  "attribution": [
   "Warsong Saw Blades (quest)"
  ],
- "style": 1
+ "style": 2
 }

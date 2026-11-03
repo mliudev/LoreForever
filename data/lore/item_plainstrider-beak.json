@@ -10,11 +10,11 @@
    "quest:844"
   ]
  },
- "summary": "Across the Barrens, hunters bring Plainstrider Beaks back to the Crossroads. Huntmasters use them as proof that birds threatening local provisions have been culled.",
+ "summary": "Across the Barrens, hunters bring Plainstrider Beaks to the Crossroads as proof that threatening birds have been culled.",
  "sections": [
   {
    "title": "A Measure of the Hunt",
-   "body": "Plainstriders forage around the Crossroads and threaten its supplies. Greater, fleeting, and ornery plainstriders roam the surrounding savannah. Sergra Darkthorn asks arriving hunters to bring back their beaks as proof that the flocks have been culled away from supply lines and storehouses.",
+   "body": "Plainstriders forage near the Crossroads and threaten its supplies. Greater, fleeting, and ornery plainstriders roam the surrounding savannah. Sergra Darkthorn asks arriving hunters to bring back their beaks, proof that the flocks have been driven from supply lines and storehouses.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "sergra plainstrider beak quest",
     "why beaks"
    ],
-   "answer": "Sergra Darkthorn asks hunters to cull plainstriders because the birds harass food supplies around the Crossroads. Their beaks show that the hunt has reduced the threat to local supplies."
+   "answer": "Sergra Darkthorn asks hunters to cull plainstriders because the birds harass food supplies around the Crossroads. Their beaks show the threat to local supplies has been reduced."
   },
   {
    "q": "Which creatures yield these beaks?",
@@ -43,17 +43,17 @@
     "why bad drop rate",
     "plainstrider beak not dropping"
    ],
-   "answer": "In the struggle, swift, thrashing birds can leave a beak cracked, shattered, or unusable as a clean trophy. Hunters gather only intact beaks."
+   "answer": "Swift, thrashing plainstriders can leave a beak cracked, shattered, or unusable as a clean trophy in the struggle. Hunters gather only intact beaks."
   }
  ],
  "angles": [
   {
    "target": "class:Hunter",
-   "text": "As a hunter, taking down plainstriders and gathering their beaks gives you an early lesson in stalking and securing prey across Kalimdor’s open plains."
+   "text": "As a hunter, you stalk plainstriders across Kalimdor’s open plains and gather their beaks, learning to secure your prey."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, culling the nuisance flocks east of the Crossroads helps protect the trade and supply routes that feed the outpost."
+   "text": "As a member of the Horde, you help protect the trade and supply routes that feed the outpost by culling nuisance flocks east of the Crossroads."
   }
  ],
  "keywords": [
@@ -73,5 +73,5 @@
   "Plainstrider Beak",
   "Plainstrider Menace (Classic)"
  ],
- "style": 1
+ "style": 2
 }

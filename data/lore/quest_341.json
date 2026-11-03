@@ -24,16 +24,16 @@
    "The Green Hills of Stranglethorn (Classic)"
   ]
  },
- "summary": "Barnil Stonepot is trying to reconstruct the third chapter of Hemet Nesingwary's hunting manuscript in Stranglethorn Vale. The section recounts the first kill made with a dwarven rifle by Sir Erlgadin and Lady Rouack, but four specific leaves were blown across the jungle.",
+ "summary": "Barnil Stonepot searches Stranglethorn Vale for the missing leaves of Hemet Nesingwary's hunting manuscript. Its third chapter tells of Sir Erlgadin and Lady Rouack's first kill with a dwarven rifle.",
  "sections": [
   {
    "title": "A Hunt Recorded",
-   "body": "Barnil Stonepot considers this portion of The Green Hills of Stranglethorn his personal favorite. The text recounts the early exploits of Sir Erlgadin and Lady Rouack, detailing their very first kill using a dwarven rifle. The chapter ends on a sharp cliffhanger.",
+   "body": "Barnil Stonepot favors this part of The Green Hills of Stranglethorn. It follows Sir Erlgadin and Lady Rouack in their early exploits, including their first kill with a dwarven rifle. Then the tale breaks off at a sharp cliffhanger.",
    "spoiler": 0
   },
   {
    "title": "Missing Leaves",
-   "body": "To piece the narrative together again, Barnil requires pages 18, 20, 21, and 24. These missing fragments were scattered into the wild, carried off across Stranglethorn Vale like the rest of the manuscript.",
+   "body": "Barnil needs four leaves to restore the story: pages eighteen, twenty, twenty-one, and twenty-four. They were carried off with the rest of the manuscript and scattered across Stranglethorn Vale.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "chapter 3 quest giver",
     "barnil stonepot chapter iii"
    ],
-   "answer": "Barnil Stonepot, who proofread Hemet Nesingwary's manuscript at the expedition camp in northern Stranglethorn Vale, is piecing together its missing pages."
+   "answer": "Barnil Stonepot is searching for Chapter III. He proofread Hemet Nesingwary's manuscript at the expedition camp in northern Stranglethorn Vale, and now he is trying to rebuild its missing pages."
   },
   {
    "q": "What happens in Chapter III of the book?",
@@ -54,7 +54,7 @@
     "chapter iii story",
     "erlgadin and rouack"
    ],
-   "answer": "The chapter recounts the first hunt that Sir Erlgadin and Lady Rouack undertook with a dwarven rifle, ending on an unresolved cliffhanger."
+   "answer": "Chapter III recounts Sir Erlgadin and Lady Rouack's first kill with a dwarven rifle. The tale ends on an unresolved cliffhanger."
   },
   {
    "q": "Which pages are needed to finish Chapter III?",
@@ -63,7 +63,7 @@
     "chapter iii pages needed",
     "pages for chapter 3"
    ],
-   "answer": "Barnil needs pages 18, 20, 21, and 24 to assemble Chapter III into one piece."
+   "answer": "Barnil needs pages eighteen, twenty, twenty-one, and twenty-four to assemble Chapter III."
   },
   {
    "q": "What came before this quest?",
@@ -71,7 +71,7 @@
     "chapter 3 prerequisite",
     "what leads to chapter iii"
    ],
-   "answer": "This effort follows the initial undertaking known as The Green Hills of Stranglethorn, where Barnil first explains the loss of Hemet Nesingwary's manuscript."
+   "answer": "This follows The Green Hills of Stranglethorn, when Barnil first explained how Hemet Nesingwary's manuscript was lost."
   }
  ],
  "angles": [],
@@ -94,5 +94,6 @@
  ],
  "attribution": [
   "Chapter III"
- ]
+ ],
+ "style": 2
 }

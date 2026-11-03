@@ -8,11 +8,11 @@
   "wiki": "Jen'shan",
   "refs": 2
  },
- "summary": "In the Valley of Trials, Jen'shan teaches young hunters the ways of the wild. The Darkspear jungle troll trains orc and troll marksmen in tracking, ranged combat, and survival.",
+ "summary": "In the Valley of Trials, Jen'shan prepares young hunters for the wild. The Darkspear jungle troll teaches orc and troll marksmen to track, fight at range, and survive.",
  "sections": [
   {
    "title": "Mentor of the Red Sands",
-   "body": "Jen'shan trains new hunters in the Valley of Trials. Young orcs and Darkspear trolls come to her with inscribed tablets and parchments that direct them to her. She teaches them archery, marksmanship, and wilderness survival, preparing them for the scorpids and boars on the canyon floor.",
+   "body": "Jen'shan trains new hunters in the Valley of Trials. Young orcs and Darkspear trolls find her by following inscribed tablets and parchments. She teaches archery, marksmanship, and wilderness survival, readying them for the scorpids and boars on the canyon floor.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "who is jenshan",
     "valley hunter trainer"
    ],
-   "answer": "Jen'shan is a Darkspear jungle troll who trains hunters in the Valley of Trials in Durotar. She teaches young Horde hunters tracking, wilderness lore, and ranged combat."
+   "answer": "Jen'shan is a Darkspear jungle troll who trains hunters in the Valley of Trials in Durotar. She teaches young Horde hunters to track, understand the wilderness, and fight at range."
   },
   {
    "q": "What quests involve Jen'shan?",
@@ -33,7 +33,7 @@
     "etched tablet jenshan",
     "etched parchment jenshan"
    ],
-   "answer": "Young hunters are sent to Jen'shan for introductory training. Orcs bring her an Etched Tablet, while trolls seek her out with an Etched Parchment."
+   "answer": "Young hunters go to Jen'shan for their first training. Orcs bring her an Etched Tablet, while trolls seek her with an Etched Parchment."
   },
   {
    "q": "Why is a troll training hunters in an orc proving ground?",
@@ -41,7 +41,7 @@
     "why is a troll in valley of trials",
     "troll trainer in durotar"
    ],
-   "answer": "The Valley of Trials is a proving ground for orc recruits and the Darkspear trolls who share Durotar. Troll scouts like Jen'shan train hunters and warriors of both races for service to the Horde."
+   "answer": "The Valley of Trials trains orc recruits and the Darkspear trolls who share Durotar. Troll scouts like Jen'shan prepare hunters and warriors of both races for service to the Horde."
   }
  ],
  "angles": [
@@ -51,7 +51,7 @@
   },
   {
    "target": "race:Troll",
-   "text": "As a troll, you see Jen'shan carry on the Darkspear tradition of tracking and scouting, teaching young trolls their ancestral hunting ways in their new home on this continent."
+   "text": "As a troll, you see Jen'shan carry on the Darkspear tradition of tracking and scouting. She teaches young trolls their ancestral hunting ways in their new home on this continent."
   }
  ],
  "keywords": [
@@ -75,5 +75,5 @@
  "attribution": [
   "Jen'shan"
  ],
- "style": 1
+ "style": 2
 }

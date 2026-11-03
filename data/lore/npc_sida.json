@@ -8,11 +8,11 @@
   "wiki": "Sida",
   "refs": 1
  },
- "summary": "In Menethil Harbor, Sida lives apart from her estranged husband, Einar Stonegrip. She spends her days in the Wetlands port and sometimes ventures into the marshes, where she recently lost her bag near Ironbeard's Tomb.",
+ "summary": "In Menethil Harbor, Sida lives apart from her estranged husband, Einar Stonegrip. She spends her days in the Wetlands port and sometimes ventures into the marsh, where she recently lost her bag near Ironbeard's Tomb.",
  "sections": [
   {
    "title": "A Harbor Resident",
-   "body": "Sida lives in Menethil Harbor, the Alliance port in the Wetlands, apart from Einar Stonegrip. Their marriage is strained, and Einar refuses to travel to Menethil while Sida remains there. She still sometimes ventures beyond the coastal settlement into the Wetlands. On a recent trip toward Ironbeard's Tomb, she lost her personal bag.",
+   "body": "Sida keeps to Menethil Harbor, the Alliance port on the Wetlands coast. Her marriage to Einar Stonegrip is strained, and he refuses to travel there while she remains. Still, she sometimes leaves the settlement and ventures into the marsh. On a recent trip toward Ironbeard's Tomb, she lost her personal bag.",
    "spoiler": 0
   }
  ],
@@ -56,7 +56,7 @@
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "As a dwarf, you see everyday town life in Menethil Harbor alongside domestic disputes and the dangers of the wilderness beyond its gates."
+   "text": "As a dwarf, you see everyday town life in Menethil Harbor, alongside domestic disputes and dangers in the wilderness beyond its gates."
   },
   {
    "target": "faction:Alliance",
@@ -83,5 +83,5 @@
  "attribution": [
   "Sida"
  ],
- "style": 1
+ "style": 2
 }

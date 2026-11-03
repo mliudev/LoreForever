@@ -14,12 +14,12 @@
  "sections": [
   {
    "title": "A Tainted Source",
-   "body": "Cliffspring Falls feeds much of Darkshore with water from the eastern highlands. Local deer have recently fallen ill with an unnatural sickness. At Dendrite Starblaze’s request in Moonglade, druidic initiates draw water from a cave mouth where hostile naga dwell. The liquid in the vial is visibly foul, showing that the fresh water supply is tainted.",
+   "body": "Cliffspring Falls carries water from the eastern highlands through much of Darkshore. Now local deer are falling ill with an unnatural sickness. At Dendrite Starblaze’s request in Moonglade, druidic initiates draw water from a cave mouth where hostile naga dwell. The vial holds visibly foul water, proof that the fresh supply is tainted.",
    "spoiler": 0
   },
   {
    "title": "Path to a Remedy",
-   "body": "Alanndarian Nightsong in Auberdine receives the foul water as proof for the Cenarion Circle to study. Alanndarian examines its poison rather than discarding it. Learning the sludge’s properties lets the druids make a curative salve, an essential step toward a rite that gives practitioners power over poison.",
+   "body": "Alanndarian Nightsong in Auberdine receives the foul water for the Cenarion Circle to study. Rather than discard it, Alanndarian examines its poison. By learning the sludge’s properties, the druids can make a curative salve. That is an essential step toward a rite that gives practitioners power over poison.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what water is in the vial",
     "what is in the sample"
    ],
-   "answer": "The sampler holds contaminated water taken from the mouth of a cavern near Cliffspring Falls in Darkshore. It is visibly discolored and carries the poison sickening local deer."
+   "answer": "The sampler holds contaminated water drawn from a cavern mouth near Cliffspring Falls in Darkshore. The water is visibly discolored and carries the poison sickening local deer."
   },
   {
    "q": "Who asks for this water sample?",
@@ -48,7 +48,7 @@
     "why cliffspring falls",
     "importance of cliffspring falls"
    ],
-   "answer": "Cliffspring Falls is the principal source of drinking water for Darkshore. Corruption in the falls spreads through local waterways and harms the wilderness."
+   "answer": "Cliffspring Falls is Darkshore’s principal source of drinking water. Corruption in the falls spreads through local waterways and harms the wilderness."
   },
   {
    "q": "What is causing the water to turn foul?",
@@ -57,13 +57,13 @@
     "why is the falls poisoned",
     "naga cliffspring falls"
    ],
-   "answer": "Hostile naga have overrun a cave near the headwaters, where the water is drawn. Their presence coincides with the fouling of the water and sickness among local animals."
+   "answer": "Hostile naga have overrun a cave near the headwaters, where the water is drawn. Their presence coincides with fouled water and sickness among local animals."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid, retrieving and studying this tainted water gives you a proving trial and lays the groundwork for mastering Cure Poison."
+   "text": "As a druid, retrieving and studying this tainted water gives you a proving trial. It also lays the groundwork for mastering Cure Poison."
   },
   {
    "target": "race:NightElf",
@@ -94,5 +94,5 @@
   "Filled Cliffspring Falls Sampler",
   "The Principal Source (Alliance)"
  ],
- "style": 1
+ "style": 2
 }

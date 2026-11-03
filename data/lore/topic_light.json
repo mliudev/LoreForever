@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Light"
  },
- "summary": "The Light is a boundless primal cosmic force whose energy connects and suffuses all living things across creation. Manifested in the mortal realm as Holy magic, it responds to willpower, meditation, and unyielding faith to mend flesh, shield allies, and purge darkness.",
+ "summary": "Across creation, Light flows through living things, and its power is called upon in Azeroth as Holy magic. Faith and will can turn it to healing, shelter, or a strike against darkness.",
  "sections": [
   {
    "title": "A Primal Force",
-   "body": "The Light is an omnipresent force of living energy. When brought into Azeroth, it manifests as Holy magic. Its power flows through living souls as a connective tissue, binding mortal hearts together. While mortals often personify it as a conscious protector, the Light fundamentally answers the absolute conviction of the soul calling upon it.",
+   "body": "Across creation, Light flows as living energy. In Azeroth, it takes the form of Holy magic, moving through living souls and binding mortal hearts. Mortals may picture it as a conscious protector. Yet Light answers the absolute conviction of the soul that calls upon it.",
    "spoiler": 0
   },
   {
    "title": "Instruments of Faith",
-   "body": "To channel the Light requires intense self-abnegation, disciplined meditation, and unshakable willpower. Practitioners\u2014most famously the priests of the Church of the Holy Light and the holy paladins\u2014train for years to become clear, empty vessels for its radiance. Through their devotion, the Light manifests as restorative warmth to mend mortal wounds, brilliant wards to shelter the innocent, or searing fire to strike down demons and the risen undead.",
+   "body": "Channeling Light calls for self-abnegation, disciplined meditation, and unshakable will. Priests of the Church of the Holy Light and holy paladins train for years to become clear vessels for its radiance. Through devotion, Light can mend wounds with restorative warmth and shelter the innocent with brilliant wards. It can also strike demons and the risen undead with searing fire.",
    "spoiler": 0
   },
   {
    "title": "Many Faces of Radiance",
-   "body": "While humanity and the dwarves revere the Light through formal scripture, other cultures access its brilliance through different spiritual traditions. The night elves channel sacred moonlight through devotion to the goddess Elune, weaving holy magic that cleanses and protects. The tauren honor the sun deity An'she in their own spiritual traditions.",
+   "body": "Humans and dwarves revere Light through formal scripture, while other peoples follow their own spiritual traditions. Night elves devote themselves to Elune and channel sacred moonlight, weaving holy magic to cleanse and protect. Tauren honor the sun deity An'she through their own spiritual traditions.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "what is the holy light",
     "the light explained"
    ],
-   "answer": "The Light is a fundamental cosmic energy that exists across all creation. It is the primal source of life and positive energy, binding sentient souls together. Mortals call upon it to produce Holy magic for healing, protection, and warfare."
+   "answer": "Light is a fundamental cosmic energy found across creation. As a primal source of life and positive energy, it binds sentient souls together. Mortals call upon it for Holy magic that heals, protects, and aids them in warfare."
   },
   {
    "q": "Does the Light have a conscious will or mind?",
@@ -42,7 +42,7 @@
     "does light have a mind",
     "is the light a god"
    ],
-   "answer": "The Light is a primal cosmic force rather than a god. While mortals frequently speak of the 'will of the Light' and treat it as a guiding patron, it does not possess mortal morality. It responds directly to the certainty, willpower, and faith of the caster."
+   "answer": "Light is a primal cosmic force rather than a god. Mortals may speak of its will and treat it as a guiding patron, but it does not share mortal morality. It answers the caster's certainty, willpower, and faith."
   },
   {
    "q": "Why can evil zealots still use the Light?",
@@ -51,7 +51,7 @@
     "can bad guys use the light",
     "evil paladins light"
    ],
-   "answer": "Because the Light answers conviction, not abstract righteousness. If a caster possesses absolute faith that their cause is just and their spirit remains undivided, the Light will flow through them\u2014even if their deeds are ruthless or misguided."
+   "answer": "Light answers conviction, not abstract righteousness. If a caster has absolute faith that their cause is just and an undivided spirit, Light can flow through them, even when their deeds are ruthless or misguided."
   },
   {
    "q": "How does the Light affect the undead?",
@@ -60,7 +60,7 @@
     "why does light hurt scourge",
     "can undead use light"
    ],
-   "answer": "Holy magic is a powerful weapon against the Scourge, but it can also heal undead bodies. Channeling the Light or receiving its healing causes undead intense pain; it does not automatically burn away their flesh."
+   "answer": "Holy magic is a powerful weapon against the Scourge, yet it can also heal undead bodies. Channeling Light or receiving its healing brings intense pain to the undead, but does not automatically burn away their flesh."
   },
   {
    "q": "How do priests and paladins learn to wield it?",
@@ -69,7 +69,7 @@
     "paladin magic source",
     "priest light training"
    ],
-   "answer": "Wielding the Light requires rigorous mental discipline, emotional clarity, and years of meditation. The caster must quiet their personal ego and focus their spirit entirely, acting as a clear conduit through which the Holy magic can pour into reality."
+   "answer": "Wielding Light takes rigorous mental discipline, emotional clarity, and years of meditation. A caster must quiet personal ego and focus their spirit entirely, becoming a clear conduit through which Holy magic pours into the world."
   },
   {
    "q": "Is Elune's magic connected to the Light?",
@@ -78,33 +78,33 @@
     "elune and the light",
     "moonlight holy light"
    ],
-   "answer": "Yes. The moonlight channeled by the priestesses of Elune manifests as a form of holy magic, sharing the same restorative, protective, and purifying capabilities as the spells wielded by paladins and church priests."
+   "answer": "Yes. The moonlight channeled by Elune's priestesses appears as holy magic. It can restore, protect, and purify, like the spells wielded by paladins and church priests."
   }
  ],
  "angles": [
   {
    "target": "class:Paladin",
-   "text": "Paladins do not merely cast spells; they infuse their martial discipline and mortal bodies with the Light, wielding its incandescent fury against the Scourge and demonic evil."
+   "text": "As a paladin, you join martial discipline and your mortal body with Light. You wield its incandescent fury against the Scourge and demonic evil."
   },
   {
    "target": "class:Priest",
-   "text": "Priests serve as spiritual shepherds and conduits, practicing profound meditation and prayer to mend flesh, steady broken spirits, and shield allies."
+   "text": "As a priest, you serve as a spiritual shepherd and conduit. Through deep meditation and prayer, you mend flesh, steady broken spirits, and shield allies."
   },
   {
    "target": "faction:Alliance",
-   "text": "The Church of the Holy Light forms the spiritual bedrock of Stormwind and Ironforge, offering hope in an era darkened by the fall of Lordaeron."
+   "text": "As an Alliance member, you find Stormwind and Ironforge's spiritual bedrock in the Church of the Holy Light. It offers hope in an era darkened by Lordaeron's fall."
   },
   {
    "target": "race:Undead",
-   "text": "For the Forsaken, channeling the Light or receiving its healing brings intense pain, even when the spell mends their bodies."
+   "text": "As Forsaken, channeling Light or receiving its healing brings you intense pain, even when the spell mends your body."
   },
   {
    "target": "race:NightElf",
-   "text": "Night elves channel holy energy not through church doctrine, but through reverence for the moon goddess Elune and her silver light."
+   "text": "As a night elf, you channel holy energy through reverence for the moon goddess Elune and her silver light, rather than church doctrine."
   },
   {
    "target": "race:Tauren",
-   "text": "Tauren revere An'she, the golden right eye of the Earth Mother, through their traditional sun worship."
+   "text": "As a tauren, you revere An'she, the golden right eye of the Earth Mother, through traditional sun worship."
   }
  ],
  "keywords": [
@@ -132,5 +132,6 @@
  ],
  "attribution": [
   "Light"
- ]
+ ],
+ "style": 2
 }

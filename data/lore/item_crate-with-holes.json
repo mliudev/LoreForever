@@ -10,11 +10,11 @@
    "quest:1221"
   ]
  },
- "summary": "In Ratchet, Mebok Mizzyrix prepares a crate for a Snufflenose Gopher.",
+ "summary": "In Ratchet, Mebok Mizzyrix readies a crate for a Snufflenose Gopher.",
  "sections": [
   {
    "title": "A Sniffer in a Box",
-   "body": "Mebok Mizzyrix sends trained Snufflenose Gophers to find Blueleaf Tubers in Razorfen Kraul. The gophers cannot follow an adventurer across the Barrens on foot, so Mebok places each one in a wooden crate with air holes. Inside the quilboar stronghold, the crate is opened and the gopher follows its keen nose toward the buried tubers.",
+   "body": "Mebok Mizzyrix sends trained Snufflenose Gophers into Razorfen Kraul to find Blueleaf Tubers. The gophers cannot cross the Barrens on foot beside an adventurer, so Mebok places each one in a wooden crate with air holes. Once inside the quilboar stronghold, the crate opens. The gopher follows its keen nose toward the buried tubers.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "crate contents",
     "what is inside"
    ],
-   "answer": "A living Snufflenose Gopher trained by Mebok Mizzyrix rides inside. Holes in the crate let it breathe as it travels across the Barrens."
+   "answer": "A living Snufflenose Gopher trained by Mebok Mizzyrix rides inside. Holes in the crate let it breathe on the journey across the Barrens."
   },
   {
    "q": "Where do I get the Crate With Holes?",
@@ -35,7 +35,7 @@
     "where to find crate with holes",
     "mebok crate"
    ],
-   "answer": "You can take a crate from the pile beside Mebok Mizzyrix in Ratchet, the port town on the Barrens' eastern coast."
+   "answer": "Take a crate from the pile beside Mebok Mizzyrix in Ratchet, the port town on the Barrens' eastern coast."
   },
   {
    "q": "How does the crate work inside Razorfen Kraul?",
@@ -79,5 +79,5 @@
   "Crate With Holes",
   "Blueleaf Tubers"
  ],
- "style": 1
+ "style": 2
 }

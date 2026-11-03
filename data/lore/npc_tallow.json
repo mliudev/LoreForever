@@ -8,11 +8,11 @@
   "wiki": "Tallow",
   "refs": 1
  },
- "summary": "At Tarren Mill, Tallow watches the contested front lines for the Dark Lady and the Horde. The Forsaken warrior helps organize strikes against Alliance threats in the Hillsbrad Foothills.",
+ "summary": "At Tarren Mill, Tallow watches the front lines for the Dark Lady and the Horde. The Forsaken warrior helps organize strikes against Alliance threats in the Hillsbrad Foothills.",
  "sections": [
   {
    "title": "A Blade in Tarren Mill",
-   "body": "Tallow stands with the Forsaken and Horde forces holding Tarren Mill in the Hillsbrad Foothills. Conflict stirs across the region, with Southshore humans nearby, Syndicate outlaws on the roads, and hostile wildlife beyond the town. Tallow sends capable adventurers against the Boulderfist ogres of the Arathi Highlands to test their strength. Then he directs them to aid the besieged outpost of Hammerfall.",
+   "body": "Tallow stands with the Forsaken and Horde forces holding Tarren Mill in the Hillsbrad Foothills. Conflict stirs across the region. Southshore humans are nearby, Syndicate outlaws prowl the roads, and hostile wildlife ranges beyond town.\n\nTallow sends capable adventurers against the Boulderfist ogres of the Arathi Highlands to test their strength. Then he directs them to aid the besieged outpost of Hammerfall.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "tallow quests",
     "the hammer may fall quest"
    ],
-   "answer": "Tallow sends Horde adventurers to prove themselves against the Boulderfist ogres of the Arathi Highlands, then report to Drum Fel at besieged Hammerfall."
+   "answer": "Tallow sends Horde adventurers to prove themselves against the Boulderfist ogres of the Arathi Highlands. Then he directs them to report to Drum Fel at besieged Hammerfall."
   },
   {
    "q": "What is Tarren Mill's role in the conflict?",
@@ -81,5 +81,5 @@
  "attribution": [
   "Tallow"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,16 +10,16 @@
    "quest:388"
   ]
  },
- "summary": "Inside the Stormwind Stockade, Red Wool Bandana scraps mark Defias brotherhood. Imprisoned cutthroats tear them from jailhouse wool blankets and wear them as emblems of defiance behind bars.",
+ "summary": "In the Stormwind Stockade, Red Wool Bandana scraps mark the Defias Brotherhood. Prisoners tear wool from their blankets and wear the red cloth as emblems of defiance.",
  "sections": [
   {
    "title": "Stitched in Defiance",
-   "body": "In the Stormwind Stockade, Defias Brotherhood inmates hold fast to their identity. They secretly tear scraps from prison wool blankets and stitch them into red bandanas to wear as their colors. Guards treat the scarves as contraband, and their discovery can spark fatal mutinies. For the prisoners, each bandana declares that their brotherhood and rebellion endure, even in chains.",
+   "body": "In the Stormwind Stockade, Defias Brotherhood inmates keep their identity alive. They secretly tear scraps from prison wool blankets and stitch them into red bandanas. Guards treat the scarves as contraband, and finding them can spark fatal mutinies. Each bandana declares that the brotherhood and its rebellion endure, even in chains.",
    "spoiler": 0
   },
   {
    "title": "A Grandmother's Vengeance",
-   "body": "Red Wool Bandanas became known for the death of Mac Raskol, a fourteen-year-old prison guard. He caught inmates shredding blankets to make the scarves and tried to discipline them. Defias convicts stabbed him in the back. His grieving grandmother, Nikova, now seeks adventurers to enter the rioting dungeon, cull the rioters, and bring back the crimson cloth as proof of vengeance.",
+   "body": "Red Wool Bandanas are tied to the death of Mac Raskol, a fourteen-year-old prison guard. He caught inmates shredding blankets for scarves and tried to discipline them. Defias convicts stabbed him in the back. His grieving grandmother, Nikova, now seeks adventurers to enter the rioting dungeon, cull the rioters, and bring back a crimson cloth as proof of vengeance.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "stockade bandana source",
     "how do they make red bandanas"
    ],
-   "answer": "Defias inmates tear the bandanas from their prison-issue wool blankets. Disarmed and imprisoned, they turn their meager bedding into signs of defiance to wear inside the cells."
+   "answer": "Defias inmates tear the bandanas from their prison-issue wool blankets. Though disarmed and imprisoned, they turn their meager bedding into signs of defiance to wear in their cells."
   },
   {
    "q": "Who wants these bandanas collected?",
@@ -40,7 +40,7 @@
     "color of blood quest giver",
     "nikova raskol bandana"
    ],
-   "answer": "Nikova Raskol, a grieving grandmother in Stormwind, asks adventurers to collect the bandanas. Her fourteen-year-old grandson Mac guarded the Stockade and was murdered by prisoners after he caught them making the scarves."
+   "answer": "Nikova Raskol, a grieving grandmother in Stormwind, asks adventurers to collect the bandanas. Her fourteen-year-old grandson Mac guarded the Stockade, and prisoners murdered him after he caught them making the scarves."
   },
   {
    "q": "Why do the prisoners care so much about wearing red scarves?",
@@ -49,7 +49,7 @@
     "defias red symbol",
     "meaning of red bandana"
    ],
-   "answer": "The Defias Brotherhood uses red masks and bandanas as its gang colors and uniform. Behind bars, the scraps let inmates keep their rank, morale, and unity."
+   "answer": "The Defias Brotherhood wears red masks and bandanas as its gang colors and uniform. Behind bars, the scraps help inmates keep their rank, morale, and unity."
   },
   {
    "q": "Which inmates carry them?",
@@ -92,5 +92,5 @@
   "Red Wool Bandana",
   "The Color of Blood"
  ],
- "style": 1
+ "style": 2
 }

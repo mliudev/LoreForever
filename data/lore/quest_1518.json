@@ -21,16 +21,16 @@
    "Call of Earth (Durotar 3)"
   ]
  },
- "summary": "In Durotar, a young shaman communes with a manifestation of the earth spirit. The initiate returns to Canaga Earthcaller with rough quartz and receives a first elemental totem.",
+ "summary": "In Durotar, you seek the earth spirit’s favor and return to Canaga Earthcaller with rough quartz. He shapes it into your first elemental totem.",
  "sections": [
   {
    "title": "Heart of the Stone",
-   "body": "A novice shaman seeks communion with the earth through patience and humility, not brute strength. The Minor Manifestation of Earth grants the initiate a piece of rough quartz. The small stone proves the spirit has accepted the initiate’s pledge and remains a seed of power.",
+   "body": "A novice shaman seeks the earth through patience and humility. Brute strength will not win the spirit’s favor. The Minor Manifestation of Earth gives you rough quartz. That small stone proves the spirit has accepted your pledge, and it holds the seed of power.",
    "spoiler": 0
   },
   {
    "title": "The First of Four Paths",
-   "body": "You complete the trial by bringing the quartz to Canaga Earthcaller in the Valley of Trials. Canaga shapes it into an Earth Totem, the focus through which you channel the ground’s steadfast protection and strength. The rite begins your path through the four elemental disciplines and lays the foundation for a lifetime of communion with the natural world.",
+   "body": "You complete the trial when you bring the quartz to Canaga Earthcaller in the Valley of Trials. Canaga shapes it into an Earth Totem, the focus through which you channel the ground’s steadfast protection and strength.\n\nEarth begins your path through the four elemental disciplines. The rite lays the foundation for a lifetime of communion with the natural world.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "what does quartz do",
     "purpose of quartz"
    ],
-   "answer": "The rough quartz is a token from the Minor Manifestation of Earth, proof that you have communed with the spirit. Canaga Earthcaller sets it into your Earth Totem as its heart and as a focus for your earth spells."
+   "answer": "The rough quartz is a token from the Minor Manifestation of Earth and proof that you have communed with the spirit. Canaga Earthcaller sets it into your Earth Totem as its heart and as a focus for your earth spells."
   },
   {
    "q": "Who is Canaga Earthcaller?",
@@ -51,7 +51,7 @@
     "canaga earthcaller",
     "who is canaga"
    ],
-   "answer": "Canaga Earthcaller is a shaman trainer in the Valley of Trials in Durotar. He guides young orc and troll initiates through their earliest trials, preparing them to commune with elemental spirits and shaping their first totems."
+   "answer": "Canaga Earthcaller trains shaman in the Valley of Trials in Durotar. He guides young orc and troll initiates through their earliest trials, preparing them to commune with elemental spirits and shaping their first totems."
   },
   {
    "q": "Can tauren do this quest?",
@@ -60,7 +60,7 @@
     "tauren shaman durotar",
     "tauren call of earth"
    ],
-   "answer": "Yes. Tauren usually complete their trial of earth with their own elders at Red Cloud Mesa in Mulgore, but any Horde shaman who travels to the Valley of Trials can undergo the ritual with Canaga Earthcaller."
+   "answer": "Yes. Tauren usually complete their trial of earth with their own elders at Red Cloud Mesa in Mulgore. Any Horde shaman who travels to the Valley of Trials can undergo the ritual with Canaga Earthcaller."
   },
   {
    "q": "What does receiving the Earth Totem signify?",
@@ -76,7 +76,7 @@
     "earth spirit lessons",
     "what does earth ask"
    ],
-   "answer": "The spirit asks an initiate for patience, strength, and wisdom. It teaches that even the smallest pebble can outlast mountains through endurance, and urges shaman to respect the ground so it will support them in turn."
+   "answer": "The spirit asks an initiate for patience, strength, and wisdom. Even the smallest pebble can outlast mountains through endurance. The earth teaches shaman to respect the ground, so it will support them in turn."
   },
   {
    "q": "Where does the shaman path go after this?",
@@ -91,19 +91,19 @@
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "As a shaman, this rite gives you your first totem and unlocks the ability to ground yourself in the elements and call upon the soil for aid."
+   "text": "As a shaman, this rite gives you your first totem. It lets you ground yourself in the elements and call upon the soil for aid."
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, you take part in the revival of orcish shamanism in Durotar, turning back toward elemental balance after decades of demonic corruption."
+   "text": "As an orc, you take part in the revival of orcish shamanism in Durotar. You turn back toward elemental balance after decades of demonic corruption."
   },
   {
    "target": "race:Troll",
-   "text": "As a troll, you learn beside the orcs in the Valley of Trials, adapting Darkspear witch doctors’ and spiritualists’ traditional communion to include the four elemental paths."
+   "text": "As a troll, you learn beside the orcs in the Valley of Trials. You adapt the Darkspear witch doctors’ and spiritualists’ traditional communion to include the four elemental paths."
   },
   {
    "target": "faction:Horde",
-   "text": "As a member of the Horde, you know the elements of Kalimdor are wild and untamed. The bond Horde shaman forge with them is essential to the survival of their new settlements."
+   "text": "As a member of the Horde, you know Kalimdor’s elements are wild and untamed. The bond Horde shaman forge with them is essential to the survival of their new settlements."
   }
  ],
  "keywords": [
@@ -129,5 +129,5 @@
  "attribution": [
   "Call of Earth (Durotar 3)"
  ],
- "style": 1
+ "style": 2
 }

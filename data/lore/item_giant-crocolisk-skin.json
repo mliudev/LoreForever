@@ -10,16 +10,16 @@
    "quest:471"
   ]
  },
- "summary": "In the Wetlands, giant crocolisks yield thick hides that Menethil Harbor tradesmen need for leatherworking. Taking one is perilous work, and more than one hunter has been maimed.",
+ "summary": "In the Wetlands, Menethil Harbor tradesmen need the thick hides of giant crocolisks. Taking one is perilous work, and hunters have been maimed.",
  "sections": [
   {
    "title": "A Dangerous Trade",
-   "body": "The Wetlands' bogs and waterways shelter enormous crocolisks with hides dense enough to resist the marsh's damp rot. In Menethil Harbor, artisans such as James Halloran rely on steady shipments of skins to make rugged leather goods. Reaching a full-grown giant crocolisk means braving deep water and facing a fierce swamp predator, so every hide comes hard-won.",
+   "body": "The Wetlands' bogs and waterways shelter enormous crocolisks whose hides resist the marsh's damp rot. Menethil Harbor artisans such as James Halloran rely on steady shipments to make rugged leather goods. Reaching a full-grown beast means braving deep water and facing a fierce predator, so every hide comes hard-won.",
    "spoiler": 0
   },
   {
    "title": "The Apprentice's Folly",
-   "body": "Halloran's young apprentice once gathered the thick skins. Without the skill to defeat full-grown marsh beasts, the boy was ambushed along the northern coast. Giant crocolisks mauled him, and he now lies in a local midwife's care. She says he might pull through. After the attack, Halloran hired seasoned adventurers to hunt the predators and secure the skins he needs.",
+   "body": "Halloran's young apprentice once gathered the thick skins. Unable to defeat full-grown marsh beasts, the boy was ambushed along the northern coast. Giant crocolisks mauled him, and he now lies in a local midwife's care. She says he might pull through. After the attack, Halloran hired seasoned adventurers to hunt the predators and secure the skins he needs.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "why collect giant crocolisk skins",
     "halloran skin purpose"
    ],
-   "answer": "James Halloran, a tradesman in Menethil Harbor, uses Giant Crocolisk Skins to make sturdy leather goods that can endure the marshlands' damp climate."
+   "answer": "James Halloran, a tradesman in Menethil Harbor, uses Giant Crocolisk Skins to make sturdy leather goods that endure the marshlands' damp climate."
   },
   {
    "q": "Where are the crocolisks found that provide these skins?",
@@ -40,7 +40,7 @@
     "where to find giant crocolisks",
     "croc coast wetlands"
    ],
-   "answer": "Giant Wetlands Crocolisks roam the coast and inland marsh waters north of Menethil Harbor, in the shallows beyond local murloc settlements."
+   "answer": "Giant Wetlands Crocolisks roam the coast and inland marsh waters north of Menethil Harbor. They are found in the shallows beyond local murloc settlements."
   },
   {
    "q": "What happened to Halloran's apprentice?",
@@ -49,7 +49,7 @@
     "halloran apprentice",
     "who lost a leg"
    ],
-   "answer": "Halloran sent his apprentice alone to gather skins in the marsh. Giant crocolisks mauled the boy, and he now lies in a Menethil midwife's care. She says he might pull through."
+   "answer": "Halloran's apprentice went alone to gather skins in the marsh. Giant crocolisks mauled him, and he now lies in a Menethil midwife's care. She says he might pull through."
   },
   {
    "q": "How do these skins compare to young crocolisk skins?",
@@ -88,5 +88,5 @@
   "Giant Crocolisk Skin",
   "Apprentice's Duties"
  ],
- "style": 1
+ "style": 2
 }

@@ -8,11 +8,11 @@
   "wiki": "Baron Silverlaine",
   "refs": 5
  },
- "summary": "Baron Silverlaine's spirit lingers in the Great Hall above Pyrewood Village. He once ruled Silverlaine Keep, until Archmage Arugal unleashed worgen upon the region and they slaughtered him.",
+ "summary": "In the Great Hall above Pyrewood Village, Baron Silverlaine's spirit still lingers. He ruled Silverlaine Keep until Archmage Arugal unleashed worgen upon the region, and they slaughtered him.",
  "sections": [
   {
    "title": "The Fall of Silverlaine Keep",
-   "body": "Baron Silverlaine ruled a noble estate in the southern hills of Silverpine. His fortress guarded the surrounding lands and kept them safe. That peace ended when Archmage Arugal summoned worgen to fight the rampaging Scourge and unleashed them upon the region. The feral beasts could not be controlled. They stormed the stronghold, overwhelmed its guards, and butchered the baron.",
+   "body": "Baron Silverlaine ruled a noble estate in the southern hills of Silverpine. His fortress guarded the lands around it and kept them safe. Then Archmage Arugal summoned worgen to fight the rampaging Scourge and unleashed them upon the region. The feral beasts could not be controlled. They stormed the stronghold, overwhelmed its guards, and butchered the baron.",
    "spoiler": 0
   },
   {
@@ -38,7 +38,7 @@
     "is silverlaine dead",
     "silverlaine spirit"
    ],
-   "answer": "Worgen unleashed by Archmage Arugal slaughtered Silverlaine in his own home. Cursed in death, his ghost remains bound to the dining hall of his keep and cannot move on."
+   "answer": "Archmage Arugal unleashed worgen upon Silverlaine's home, and they slaughtered him. Cursed in death, his ghost remains bound to the keep's dining hall and cannot move on."
   },
   {
    "q": "Why does Silverlaine attack trespassers?",
@@ -47,7 +47,7 @@
     "silverlaine ghost",
     "silverlaine trespassers"
    ],
-   "answer": "Silverlaine's cursed spirit remains in his former home, where he attacks trespassers in the Great Hall."
+   "answer": "Silverlaine's cursed spirit remains in his former home. There, he attacks trespassers in the Great Hall."
   },
   {
    "q": "Where in the keep can he be found?",
@@ -56,7 +56,7 @@
     "baron silverlaine location",
     "silverlaine dining hall"
    ],
-   "answer": "Baron Silverlaine haunts the Great Hall, once the keep's lavish dining room, which was wrecked when his estate fell."
+   "answer": "Baron Silverlaine haunts the Great Hall, once the keep's lavish dining room. It was wrecked when his estate fell."
   },
   {
    "q": "What was Shadowfang Keep called before the worgen attack?",
@@ -65,7 +65,7 @@
     "keep silverlaine lore",
     "old name of shadowfang"
    ],
-   "answer": "Before the worgen attack, the fortress was called Silverlaine Keep, after the baron's noble family, who ruled it before Arugal took control."
+   "answer": "Before the worgen attack, the fortress was called Silverlaine Keep, after the baron's noble family. They ruled it before Arugal took control."
   },
   {
    "q": "Did anyone in Silverlaine's family survive?",
@@ -80,15 +80,15 @@
  "angles": [
   {
    "target": "race:Human",
-   "text": "For a human, Silverlaine's fate marks the fall of human noble authority on Gilneas's borders. His keep fell to the reckless magic of a Dalaran-trained wizard."
+   "text": "As a human, Silverlaine's fate marks the fall of human noble authority on Gilneas's borders. His keep fell to the reckless magic of a Dalaran-trained wizard."
   },
   {
    "target": "race:Undead",
-   "text": "For the Forsaken crossing Silverpine, Silverlaine's specter is another remnant of the old aristocracy to clear before they can break Arugal's hold on the keep."
+   "text": "For a Forsaken crossing Silverpine, Silverlaine's specter is another remnant of the old aristocracy to clear before breaking Arugal's hold on the keep."
   },
   {
    "target": "class:Mage",
-   "text": "For a mage, Silverlaine's fate warns of reckless magic. Archmage Arugal mishandled the summoner's art, destroying innocent lives and leaving lasting scars."
+   "text": "As a mage, Silverlaine's fate warns of reckless magic. Archmage Arugal mishandled the summoner's art, destroying innocent lives and leaving lasting scars."
   }
  ],
  "keywords": [
@@ -113,5 +113,5 @@
  "attribution": [
   "Baron Silverlaine"
  ],
- "style": 1
+ "style": 2
 }

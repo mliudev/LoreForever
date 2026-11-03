@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Stonewrought Pass"
  },
- "summary": "Stonewrought Pass is an underground tunnel cut directly through the southern mountains of Loch Modan into the blighted expanse of the Searing Gorge. Masterfully engineered by the famed architect Franclorn Forgewright, this passage connects the Valley of Kings directly to Dustfire Valley. Heavy iron gates secure both ends to protect peaceful dwarven lands from the volcanic terrors to the south.",
+ "summary": "Iron gates bar Stonewrought Pass between Loch Modan and Searing Gorge. Franclorn Forgewright cut the tunnel through the southern mountains, joining the Valley of Kings to Dustfire Valley and shielding dwarven lands from the volcanic dangers beyond.",
  "sections": [
   {
    "title": "A Gateway Carved in Stone",
-   "body": "Carved out of the bedrock by the legendary master architect Franclorn Forgewright\u2014famed also for the massive Stonewrought Dam\u2014the Stonewrought Pass serves as a direct corridor between the pastoral beauty of Loch Modan and the scorched wastes of Searing Gorge. Emerging in Loch Modan near the colossal Valley of Kings, it cuts straight through the mountain ridge down into Dustfire Valley. Because Searing Gorge is infested with Dark Iron dwarves and fiery beasts, the Ironforge mountaineers keep the passage locked tight behind heavy gates to prevent danger from spilling into the north.",
+   "body": "Franclorn Forgewright carved Stonewrought Pass through the bedrock. The master architect also built the massive Stonewrought Dam. The tunnel runs from Loch Modan near the Valley of Kings, through the mountain ridge, and down into Dustfire Valley. Dark Iron dwarves and fiery beasts threaten travelers in Searing Gorge. So the Ironforge mountaineers keep heavy gates locked at both ends, guarding the way north into Loch Modan.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "tunnel connection",
     "searing gorge to loch modan"
    ],
-   "answer": "The pass cuts directly through the mountain range, connecting the Valley of Kings on the southern edge of Loch Modan to Dustfire Valley within the northern reaches of Searing Gorge."
+   "answer": "Stonewrought Pass runs through the mountains from the Valley of Kings on Loch Modan’s southern edge to Dustfire Valley in northern Searing Gorge."
   },
   {
    "q": "Who designed this tunnel?",
@@ -32,7 +32,7 @@
     "architect of pass",
     "franclorn forgewright tunnel"
    ],
-   "answer": "It was designed by the master dwarven architect Franclorn Forgewright, the legendary artisan celebrated across Khaz Modan for designing the Stonewrought Dam and other monumental stone works."
+   "answer": "Franclorn Forgewright, the master dwarven architect, designed the tunnel. Across Khaz Modan, he is famed for the Stonewrought Dam and other monumental stone works."
   },
   {
    "q": "Why are the gates locked?",
@@ -41,17 +41,17 @@
     "why is pass locked",
     "how to open gate"
    ],
-   "answer": "The gates are heavily barred on both sides to keep the fiery monsters and hostile Dark Iron dwarves of Searing Gorge from invading the inhabited lands of Loch Modan. Mountaineer Pebblebitty guards the Loch Modan entrance and requires authorization before granting passage."
+   "answer": "Heavy gates bar the pass against Searing Gorge’s fiery monsters and hostile Dark Iron dwarves. Mountaineer Pebblebitty guards the Loch Modan entrance and requires authorization before allowing passage."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "The tunnel stands as a testament to the engineering brilliance of Franclorn Forgewright, though it now abuts the grim, conquered territory of your wayward Dark Iron kin."
+   "text": "As a dwarf, you can see Franclorn Forgewright’s skill in the tunnel’s stonework. The pass now borders territory conquered by your wayward Dark Iron kin."
   },
   {
    "target": "faction:Alliance",
-   "text": "Guarded by the dwarven Mountaineers, this locked passageway shields vulnerable settlements in Loch Modan from the volcanic threats festering in Searing Gorge."
+   "text": "Dwarven Mountaineers guard this locked passage, shielding Loch Modan’s vulnerable settlements from the volcanic threats in Searing Gorge."
   }
  ],
  "keywords": [
@@ -73,5 +73,6 @@
  ],
  "attribution": [
   "Stonewrought Pass"
- ]
+ ],
+ "style": 2
 }

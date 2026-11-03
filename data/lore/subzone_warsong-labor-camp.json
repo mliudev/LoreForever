@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Warsong Labor Camp"
  },
- "summary": "Warsong Labor Camp cuts Ashenvale timber for the growing Horde. Its Warsong loggers and orcish sentries work in southeastern Ashenvale, far from help and under threat from the forest's defenders.",
+ "summary": "Warsong loggers cut Ashenvale timber at Warsong Labor Camp to supply the growing Horde. They work in the southeast, far from help and under threat from the forest's defenders.",
  "sections": [
   {
    "title": "Timber for the Horde",
-   "body": "East of Fallen Sky Lake and southwest of the Dor'Danil Barrow Den, Warsong loggers cut Ashenvale's dense timber. Durotar's dry plains offer little wood for building cities such as Orgrimmar, so the Warsong clan has pushed into these contested woods. Loggers and orcish guards work far from other Horde settlements, felling ancient trees while night elf scouts and Alliance warbands threaten the camp.",
+   "body": "East of Fallen Sky Lake and southwest of the Dor'Danil Barrow Den, Warsong loggers cut Ashenvale's dense timber. Durotar's dry plains offer little wood for building cities such as Orgrimmar, so the Warsong clan has entered these contested woods. Far from other Horde settlements, loggers and orcish guards fell ancient trees while night elf scouts and Alliance warbands threaten the camp.",
    "spoiler": 0
   },
   {
    "title": "A Vulnerable Outpost",
-   "body": "Warsong Labor Camp lies far from the main road and fortified bases such as Splintertree Post. Alliance raiders strike its working peons and watchmen, knowing help may be slow to arrive. Night elves see each felled tree as a desecration, and the camp remains a point of conflict in the war.",
+   "body": "Warsong Labor Camp lies far from the main road and fortified bases such as Splintertree Post. Alliance raiders strike its working peons and watchmen, knowing help may be slow to arrive. Night elves see each felled tree as a desecration. So the camp remains a point of conflict in the war.",
    "spoiler": 0
   }
  ],
@@ -89,5 +89,5 @@
  "attribution": [
   "Warsong Labor Camp"
  ],
- "style": 1
+ "style": 2
 }

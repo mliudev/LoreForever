@@ -10,16 +10,16 @@
    "quest:1221"
   ]
  },
- "summary": "Beneath Razorfen Kraul, Blueleaf Tubers grow hidden from the surface. Their rarity draws wealthy gourmands and traders from across the world.",
+ "summary": "Deep beneath Razorfen Kraul, Blueleaf Tuber draws wealthy gourmands and traders from across the world.",
  "sections": [
   {
    "title": "A Rare Underground Delicacy",
-   "body": "Blueleaf Tubers grow beneath Razorfen Kraul in the Barrens. Dense roots and quilboar briars hide them from casual foragers. Though the ground is harsh, wealthy gourmands and traders across the world pay an exorbitant price for their distinct flavor.",
+   "body": "Blueleaf Tubers grow beneath Razorfen Kraul in the Barrens. Dense roots and quilboar briars keep them from casual foragers. The ground is harsh, yet wealthy gourmands and traders across the world pay an exorbitant price for their distinct flavor.",
    "spoiler": 0
   },
   {
    "title": "Gopher-Assisted Harvesting",
-   "body": "In Ratchet, the goblin Mebok Mizzyrix devised a way to find the hidden roots. He trains native snufflenose gophers to scent tubers from fifty paces away. Guided by specialized command sticks, adventurers can unearth them before quilboar patrols catch wind of the intrusion.",
+   "body": "In Ratchet, the goblin Mebok Mizzyrix devised a way to find the hidden roots. He trains native snufflenose gophers to scent tubers from fifty paces away. With specialized command sticks, adventurers guide the gophers and unearth the roots before quilboar patrols catch wind of the intrusion.",
    "spoiler": 0
   }
  ],
@@ -90,5 +90,5 @@
   "Blueleaf Tuber",
   "Blueleaf Tubers"
  ],
- "style": 1
+ "style": 2
 }

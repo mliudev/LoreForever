@@ -7,21 +7,21 @@
  "meta": {
   "wiki": "Dark Riders"
  },
- "summary": "The Dark Riders are a band of mysterious, hooded horsemen who terrorize Duskwood. Merciless hunters of magical relics, they strike from hiding and leave only slaughter in their wake.",
+ "summary": "In Duskwood, the Dark Riders hunt magical relics and terrorize the land. Hooded and merciless, they strike from hiding and leave slaughter behind.",
  "sections": [
   {
    "title": "Hunters in the Dark",
-   "body": "Little is known of the Dark Riders' origins. Witnesses describe hooded horsemen who speak in voices both harsh and shrill, and one was seen using a small gem to take orders from a master it called only its 'Lord'. They hunt objects of magical power across the kingdom, cutting down anyone who stands between them and their prize.",
+   "body": "Little is known of the Dark Riders' beginnings. Witnesses speak of hooded horsemen with harsh, shrill voices. One was seen using a small gem to receive orders from a master it called only its “Lord.” Across the kingdom, they hunt objects of magical power. Anyone who stands between them and their prize is cut down.",
    "spoiler": 0
   },
   {
    "title": "Slaughter at the Farmstead",
-   "body": "The Riders recently surged into Duskwood, drawn by space-warping tremors radiating from the Scythe of Elune. Unbeknownst to them, the miner Jitters had uncovered and promptly lost the ancient staff inside Roland's Doom. Tracking the magical signature to the nearby Yorgen Farmstead, the Riders demanded the artifact from Sven Yorgen's family. When the terrified settlers could give no answers, the horsemen butchered Sven's wife and children in cold blood, driving Sven into a vengeful madness.",
+   "body": "The Dark Riders came to Duskwood after strange tremors began radiating from the Scythe of Elune, warping space. The miner Jitters had found the ancient staff inside Roland's Doom, then promptly lost it. The horsemen followed its magical trace to nearby Yorgen Farmstead and demanded the artifact from Sven Yorgen's family. The terrified settlers had no answers. The Riders butchered Sven's wife and children, driving Sven into vengeful madness.",
    "spoiler": 1
   },
   {
    "title": "Shadows over Duskwood",
-   "body": "Whispers in Duskwood link the Riders' sinister hunts to the rogue necromancer Morbent Fel, though no one knows what binds the two together, or who the 'Lord' the Riders answer to may be.",
+   "body": "Whispers in Duskwood link the Dark Riders' sinister hunts to the rogue necromancer Morbent Fel. No one knows what binds them, or who the “Lord” they answer to may be.",
    "spoiler": 1
   }
  ],
@@ -33,7 +33,7 @@
     "what are the dark riders",
     "who are the riders in duskwood"
    ],
-   "answer": "They are a band of hooded horsemen who hunt objects of magical power, slaughtering anyone who stands in their way. Their origins, and the identity of the master they serve, remain a mystery."
+   "answer": "The Dark Riders are hooded horsemen who hunt objects of magical power. They slaughter anyone who stands in their way, while their origins and the identity of their master remain a mystery."
   },
   {
    "q": "What did they do to Sven Yorgen's family?",
@@ -42,7 +42,7 @@
     "what happened at yorgen farmstead",
     "why did riders kill svens family"
    ],
-   "answer": "They were hunting the Scythe of Elune, which had been unearthed nearby. When they interrogated Sven Yorgen's wife and children and found they knew nothing about the artifact, the Riders murdered them without mercy."
+   "answer": "The Dark Riders were hunting the Scythe of Elune, unearthed nearby. Sven Yorgen's wife and children knew nothing of the artifact, so the Riders murdered them without mercy."
   },
   {
    "q": "Why are the Dark Riders in Duskwood?",
@@ -51,7 +51,7 @@
     "dark riders scythe of elune",
     "what are they hunting"
    ],
-   "answer": "They were drawn to the dark forest by the temporal and magical disturbances caused by the Scythe of Elune, an ancient artifact unearthed in Roland's Doom."
+   "answer": "The Dark Riders came to Duskwood, drawn by temporal and magical disturbances from the Scythe of Elune. The ancient artifact had been unearthed in Roland's Doom."
   },
   {
    "q": "Are the Dark Riders undead?",
@@ -60,7 +60,7 @@
     "are the dark riders undead",
     "what are dark riders made of"
    ],
-   "answer": "No one knows. They speak in harsh, shrill voices and strike from hiding, but what lies beneath their hooded cloaks remains a mystery."
+   "answer": "No one knows whether the Dark Riders are undead. They speak in harsh, shrill voices and strike from hiding, but what lies beneath their hooded cloaks remains a mystery."
   },
   {
    "q": "Are they working with Morbent Fel?",
@@ -68,21 +68,21 @@
     "morbent fel and dark riders",
     "morbent fel alliance"
    ],
-   "answer": "The Night Watch has noted suspicious dealings between the Dark Riders and the necromancer Morbent Fel in Duskwood, though the exact terms of their alliance remain unknown."
+   "answer": "The Night Watch has noted suspicious dealings between the Dark Riders and the necromancer Morbent Fel in Duskwood. The exact terms of their alliance remain unknown."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "The Dark Riders' ruthless hunt for the Scythe of Elune poses a severe threat to the balance, as the weapon's feral energies can wreak havoc across Duskwood."
+   "text": "The Dark Riders' ruthless hunt for the Scythe of Elune threatens the balance. The weapon's feral energies can wreak havoc across Duskwood."
   },
   {
    "target": "faction:Alliance",
-   "text": "Striking just beyond Stormwind's borders, the Riders slaughter innocent homesteaders like Sven Yorgen's family, proving how far the kingdom's frontier has slipped from its grasp."
+   "text": "The Dark Riders strike just beyond Stormwind's borders and slaughter innocent homesteaders like Sven Yorgen's family. The kingdom's frontier has slipped far from its grasp."
   },
   {
    "target": "class:Mage",
-   "text": "Relentless hunters of magical relics, the Riders are a living warning of how much blood the pursuit of arcane power can cost."
+   "text": "Relentless hunters of magical relics, the Dark Riders show how much blood the pursuit of arcane power can cost."
   }
  ],
  "keywords": [
@@ -105,5 +105,6 @@
  ],
  "attribution": [
   "Dark Riders"
- ]
+ ],
+ "style": 2
 }

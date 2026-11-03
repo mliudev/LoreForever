@@ -10,16 +10,16 @@
    "quest:143"
   ]
  },
- "summary": "In Lakeshire, Magistrate Solomon sends an urgent appeal to Westfall for help against Blackrock orcs and gnolls. He asks Gryan Stoutmantle to send the People's Militia while Stormwind's royal army fails to answer.",
+ "summary": "In Lakeshire, Magistrate Solomon calls on Westfall for help as Blackrock orcs and gnolls threaten Redridge. Stormwind's royal army has not answered, so he asks Gryan Stoutmantle to send the People's Militia.",
  "sections": [
   {
    "title": "A Desperate Call for Aid",
-   "body": "Blackrock orcs and hostile gnolls threaten Redridge, and Magistrate Solomon is isolated in Lakeshire. Stormwind's royal army has not arrived in force to defend the region's borders. With no time to wait for support from the capital, Solomon writes to seek help beyond the regular army. Word has reached him of a volunteer defense force forming in Elwynn to the west, so he appeals to the People's Militia.",
+   "body": "Blackrock orcs and hostile gnolls threaten Redridge, while Magistrate Solomon is isolated in Lakeshire. Stormwind's royal army has not arrived in force to defend the region's borders. With no time to wait for the capital, Solomon writes beyond the regular army. Word has reached him of a volunteer defense force forming in Elwynn to the west, so he appeals to the People's Militia.",
    "spoiler": 0
   },
   {
    "title": "Reaching Across the Border",
-   "body": "Solomon addresses his message to Gryan Stoutmantle, a veteran warrior organizing Westfall's frontier defense. He hopes Stoutmantle can spare fighters for Lakeshire until Stormwind sends regular reserves. An adventurer carries the document. With Stormwind's outlying territories poorly coordinated, local magistrates must arrange mutual aid on their own.",
+   "body": "Solomon addresses his message to Gryan Stoutmantle, a veteran warrior organizing Westfall's frontier defense. He hopes Stoutmantle can spare fighters for Lakeshire until Stormwind sends regular reserves. An adventurer carries the document. Stormwind's outlying territories are poorly coordinated, so local magistrates must arrange mutual aid on their own.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "solomon plea to westfall letter",
     "lakeshire westfall letter"
    ],
-   "answer": "Magistrate Solomon of Lakeshire writes to Gryan Stoutmantle, asking the People's Militia in Westfall to send reinforcements for Redridge's defense."
+   "answer": "Magistrate Solomon of Lakeshire writes to Gryan Stoutmantle and asks the People's Militia in Westfall to send reinforcements for Redridge's defense."
   },
   {
    "q": "Why is Magistrate Solomon asking Westfall for help instead of Stormwind?",
@@ -40,7 +40,7 @@
     "why not ask stormwind",
     "why send plea to westfall"
    ],
-   "answer": "Stormwind's royal troops have not arrived in force as Lakeshire's danger grows. With no time to wait for the Crown, Solomon seeks help from a nearby fighting force."
+   "answer": "Stormwind's royal troops have not arrived in force as danger grows in Lakeshire. With no time to wait for the Crown, Solomon seeks help from a nearby fighting force."
   },
   {
    "q": "Who is Gryan Stoutmantle?",
@@ -56,17 +56,17 @@
     "why is lakeshire in danger",
     "what threatens redridge"
    ],
-   "answer": "Blackrock orcs are invading, and gnolls raid throughout the Redridge Mountains, straining Lakeshire's town guard."
+   "answer": "Blackrock orcs are invading, and gnolls raid throughout the Redridge Mountains. Their attacks strain Lakeshire's town guard."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For the Alliance, Solomon's appeal shows how outlying towns turn to local volunteers when royal troops do not arrive."
+   "text": "For the Alliance, Solomon's appeal shows outlying towns turning to local volunteers when royal troops do not arrive."
   },
   {
    "target": "race:Human",
-   "text": "As a human, you can see how strained rural settlements have become, with the missing king and political neglect leaving frontier lands vulnerable."
+   "text": "As a human, you can see how strained rural settlements have become. The missing king and political neglect leave frontier lands vulnerable."
   }
  ],
  "keywords": [
@@ -93,5 +93,5 @@
   "Solomon's Plea to Westfall",
   "Messenger to Westfall"
  ],
- "style": 1
+ "style": 2
 }

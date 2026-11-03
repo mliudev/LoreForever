@@ -17,16 +17,16 @@
   "wiki": "Elemental Unrest (quest)",
   "chain": []
  },
- "summary": "Elemental Unrest is an introductory task given by Rorian the Dayseeker on Zephras Isle. Following the departure of the island's sentient elemental benefactors, the lesser wind spirits near the Thendal Standing Stones have grown agitated and unpredictable. You are sent into Thendal Grove to find Rorian's apprentice, Yala Windwatcher, and discover what is unsettling the local breeze.",
+ "summary": "Near the Thendal Standing Stones, lesser wind spirits have grown restless. Their sentient elemental benefactors have departed Zephras Isle, and Rorian the Dayseeker sends you into Thendal Grove to find his apprentice, Yala Windwatcher, and learn what troubles the breeze.",
  "sections": [
   {
    "title": "A Change in the Wind",
-   "body": "For generations, the people of Zephras lived alongside powerful, sentient wind spirits who guided and protected them. With those elemental benefactors gone, the island has drifted into persistent imbalance. The air is no longer tended by benevolent minds, leaving only simple sprites that reflect the volatile emotions and forces lingering across the landscape.",
+   "body": "For generations, powerful wind spirits lived beside the people of Zephras. They were sentient, and they guided and protected the islanders. Now those elemental benefactors have departed, leaving Zephras in lasting imbalance. Without them to tend the air, simple sprites reflect the volatile feelings and forces that linger across the land.",
    "spoiler": 0
   },
   {
    "title": "The Thendal Standing Stones",
-   "body": "Northeast of Rorian's post, near the ancient Thendal Standing Stones, the air has grown sharply hostile. Because these lesser manifestations lack true self-awareness, their turbulence is not born of malice, but of reaction. Rorian sent his apprentice, Yala Windwatcher, to monitor their erratic behavior from the edge of the grove and deduce what unseen tension is disturbing them.",
+   "body": "Northeast of Rorian's post, the air near the ancient Thendal Standing Stones has turned hostile. The lesser wind spirits lack true self-awareness, so they act in reaction, not malice. Rorian sent his apprentice, Yala Windwatcher, to watch their erratic behavior from the grove's edge. She is to discover what unseen tension disturbs them.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "wind unrest cause",
     "sprites angry"
    ],
-   "answer": "Unlike the island's former elemental benefactors, these wind sprites lack true self-awareness. They instinctively mirror the emotions, intentions, and ambient magical forces of creatures and events around them, turning turbulent whenever the local environment falls out of balance."
+   "answer": "Wind sprites grow turbulent when their surroundings fall out of balance. Unlike the island's former elemental benefactors, they lack true self-awareness and instinctively mirror nearby emotions, intentions, and magical forces."
   },
   {
    "q": "Who are the elemental benefactors Rorian mentions?",
@@ -47,7 +47,7 @@
     "who left zephras",
     "wind spirits zephras"
    ],
-   "answer": "They were sentient, benevolent wind spirits who once coexisted with the inhabitants of Zephras. Since their departure, the island has suffered continuous unrest without their stabilizing influence."
+   "answer": "The elemental benefactors were sentient, benevolent wind spirits who once lived alongside the people of Zephras. Since they departed, the island has suffered continuous unrest without their steadying influence."
   },
   {
    "q": "Where can I find Yala Windwatcher?",
@@ -56,7 +56,7 @@
     "where is yala",
     "thendal grove apprentice"
    ],
-   "answer": "Yala Windwatcher is stationed in Thendal Grove to the northeast, overlooking the Thendal Standing Stones where the agitated wind sprites congregate."
+   "answer": "Yala Windwatcher is in Thendal Grove, northeast of Rorian's post, watching the agitated wind sprites near the Thendal Standing Stones."
   },
   {
    "q": "Who is Rorian the Dayseeker?",
@@ -64,7 +64,7 @@
     "who is rorian",
     "rorian dayseeker"
    ],
-   "answer": "Rorian the Dayseeker is an elder guide on Zephras Isle who watches over the island's spiritual balance and studies the ongoing disturbances among the local elementals."
+   "answer": "Rorian the Dayseeker is an elder guide on Zephras Isle. He watches over the island's spiritual balance and studies disturbances among its local elementals."
   },
   {
    "q": "What happens after finding Yala?",
@@ -73,7 +73,7 @@
     "what comes after elemental unrest",
     "yala follow up"
    ],
-   "answer": "Speaking with Yala leads directly into investigating the true cause behind the turbulence at the standing stones, beginning with the task 'Agitators'."
+   "answer": "Speaking with Yala leads into an investigation of what causes the turbulence at the standing stones, beginning with Agitators."
   },
   {
    "q": "Are the wind sprites dangerous?",
@@ -81,17 +81,17 @@
     "are sprites hostile",
     "elemental danger"
    ],
-   "answer": "While simple in nature, their agitated state makes them erratic and defensive. They react aggressively to intrusion as long as the underlying disturbance persists."
+   "answer": "The wind sprites are simple, but their agitation makes them erratic and defensive. They react aggressively to intruders while the disturbance lasts."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "The wind spirits of Zephras reflect the island's emotional climate like a mirror, making this disturbance a clear warning sign of deeper environmental disruption."
+   "text": "As a shaman, you can read the wind spirits' reflection of Zephras's emotional climate as a warning of deeper trouble in the land."
   },
   {
    "target": "race:Skyborne",
-   "text": "The departure of the elemental benefactors has left the winds unpredictable, demanding vigilance from those who depend on Zephras Isle's skies."
+   "text": "As a Skyborne, you depend on Zephras Isle's skies. Since the elemental benefactors departed, those skies have grown unpredictable. Stay vigilant."
   }
  ],
  "keywords": [
@@ -110,5 +110,6 @@
  ],
  "attribution": [
   "Elemental Unrest (quest)"
- ]
+ ],
+ "style": 2
 }

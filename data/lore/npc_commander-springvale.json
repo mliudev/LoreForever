@@ -8,21 +8,21 @@
   "wiki": "Commander Springvale (Classic)",
   "refs": 5
  },
- "summary": "At Shadowfang Keep, Commander Springvale's spirit guards the halls where he fell. Once a devoted paladin and commander, he was slain with his men by Arugal's worgen and remains to haunt the castle.",
+ "summary": "At Shadowfang Keep, Commander Springvale's spirit still guards the halls where he fell. Once a devoted paladin and commander, he was slain with his men by Arugal's worgen and now haunts the castle.",
  "sections": [
   {
    "title": "The Fallen Commander",
-   "body": "Commander Springvale led the garrison at Shadowfang Keep in Silverpine Forest. Before the keep's ruin, he was an honorable paladin devoted to the Holy Light. After Lordaeron fell to the Scourge, he oversaw the fortress's security through those troubled days.",
+   "body": "Commander Springvale led the garrison at Shadowfang Keep in Silverpine Forest. Before the keep fell into ruin, he was an honorable paladin devoted to the Holy Light. After Lordaeron fell to the Scourge, he kept watch over the fortress through those troubled days.",
    "spoiler": 0
   },
   {
    "title": "Arugal's Folly",
-   "body": "Archmage Arugal summoned extraplanar worgen to strengthen Dalaran's failing ranks against the undead Scourge. The wild beasts soon escaped his control and descended on Shadowfang Keep. They slaughtered Baron Silverlaine and his entire guard. Springvale died in the halls he had sworn to protect, his service cut short.",
+   "body": "Archmage Arugal summoned worgen from beyond this world to strengthen Dalaran's failing ranks against the undead Scourge. The wild beasts soon escaped his control and descended on Shadowfang Keep. They slaughtered Baron Silverlaine and his entire guard. Springvale died in the halls he had sworn to protect, his service cut short.",
    "spoiler": 0
   },
   {
    "title": "An Endless Vigil",
-   "body": "Death did not release Springvale. His ghost haunts the keep's council room with its spectral soldiers. He still wields paladin powers, including Holy Light and Hammer of Justice, against intruders.",
+   "body": "Death did not release Springvale. His ghost haunts the keep's council room alongside spectral soldiers. He still wields paladin powers against intruders, including Holy Light and Hammer of Justice.",
    "spoiler": 0
   }
  ],
@@ -34,7 +34,7 @@
     "who is commander springvale",
     "is springvale a paladin"
    ],
-   "answer": "Commander Springvale was a paladin devoted to the Holy Light and a commander at Shadowfang Keep. He died there when Arugal's worgen overran the fortress."
+   "answer": "Commander Springvale was a paladin devoted to the Holy Light and the commander of Shadowfang Keep. He died there when Arugal's worgen overran the fortress."
   },
   {
    "q": "How did Commander Springvale die?",
@@ -61,7 +61,7 @@
     "springvale unholy abilities",
     "corrupted paladin"
    ],
-   "answer": "Springvale retains paladin abilities in undeath. He heals with Holy Light and stuns enemies with Hammer of Justice."
+   "answer": "Springvale retains paladin abilities in death. He heals with Holy Light and stuns enemies with Hammer of Justice."
   },
   {
    "q": "Who was his master?",
@@ -89,7 +89,7 @@
   },
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can remember Springvale among the lost soldiers of Lordaeron and Gilneas. They fell to the reckless summonings meant to stop the Scourge, not to the Scourge itself."
+   "text": "As an Alliance member, you can remember Springvale among the lost soldiers of Lordaeron and Gilneas. They fell to reckless summonings meant to stop the Scourge, not to the Scourge itself."
   },
   {
    "target": "faction:Horde",
@@ -121,5 +121,5 @@
   "Commander Springvale (Classic)",
   "Commander Springvale"
  ],
- "style": 1
+ "style": 2
 }

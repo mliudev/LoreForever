@@ -8,21 +8,21 @@
   "wiki": "Naralex",
   "refs": 5
  },
- "summary": "Naralex is a night elf druid who sought to restore the parched Barrens to a lush forest using the powers of the Emerald Dream. Instead, his slumber was overtaken by a dark nightmare, twisting the Wailing Caverns beneath the earth and turning his followers into venomous fiends.",
+ "summary": "Beneath the Barrens, Naralex sleeps while his dream of green turns to nightmare. The night elf druid sought to restore the parched land through the Emerald Dream, but corruption overtook his slumber and twisted his followers into venomous fiends.",
  "sections": [
   {
    "title": "A Vision of Green",
-   "body": "Long before the Great Sundering, the sun-scorched plains of the Barrens were once a vibrant forest. Viewing this loss as a tragedy, Naralex journeyed to the Barrens with a cohort of devoted disciples to reverse the drought. Deep beneath the savannah, he discovered an intricate subterranean network of underground springs and rushing geysers, naming them the Wailing Caverns after the howling wind and steam that moaned through the rock. He believed that by entering a deep trance and channeling the pristine energies of the Emerald Dream into these subterranean waters, the life-giving flow would reach the surface and cause the entire wasteland to bloom.",
+   "body": "Naralex came to the Barrens with devoted disciples, hoping to restore the forest that covered the plains before the Great Sundering. Beneath the savannah, he found underground springs and rushing geysers. He named the caverns for the howling wind and steam that moaned through the rock. He believed a deep trance could channel the Emerald Dream into those waters, carrying life to the surface and making the wasteland bloom.",
    "spoiler": 0
   },
   {
    "title": "The Waking Nightmare",
-   "body": "Naralex seated himself in deep meditation deep within the subterranean caverns, but his noble design collapsed the moment his consciousness touched the realm of the Dream. Rather than finding peaceful fonts of wild nature, his mind was ensnared by a malignant, encroaching corruption\u2014an Emerald Nightmare. The festering corruption seized the sleeping druid's body, transforming him into an open conduit through which dark energies bled into the living world. The pristine springs turned foul, sprouting mutated fungal blooms and warping the native beasts of the caverns into ravenous deviate horrors.",
+   "body": "Deep in the caverns, Naralex entered meditation and reached toward the Emerald Dream. Corruption ensnared his mind instead of the peaceful wild nature he sought. The Emerald Nightmare seized the sleeping druid and made him a conduit for dark energies to enter the living world. Springs turned foul, fungal blooms mutated, and the caverns' beasts became ravenous horrors.",
    "spoiler": 0
   },
   {
    "title": "Fallen Disciples",
-   "body": "The nightmare did not stop with the wildlife. Naralex's own disciples, driven completely mad by the psychic backlash bleeding out of their master's trance, broke away from the traditions of the Cenarion Circle. Casting aside their reverence for balance, they took on serpent forms and renamed themselves the Druids of the Fang. Believing their twisted growth must spread across Kalimdor, they now guard Naralex's slumbering body to ensure he never wakes, leaving only a few loyal disciples searching for allies brave enough to break the trance.",
+   "body": "The Emerald Nightmare's corruption drove Naralex's disciples mad through the psychic backlash of his trance. They abandoned the Cenarion Circle's traditions, took serpent forms, and named themselves the Druids of the Fang. Believing their twisted growth should spread across Kalimdor, they guard Naralex's sleeping body to keep him from waking. A few loyal disciples still seek allies brave enough to break the trance.",
    "spoiler": 1
   }
  ],
@@ -34,7 +34,7 @@
     "who is the sleeping elf",
     "wailing caverns sleeper"
    ],
-   "answer": "Naralex is a night elf druid of the Cenarion Circle. He led an expedition into the Wailing Caverns with the goal of tapping into the Emerald Dream to turn the arid Barrens back into the lush forest it had been before the Sundering."
+   "answer": "Naralex is a night elf druid of the Cenarion Circle who led an expedition into the Wailing Caverns. He hoped to draw on the Emerald Dream and restore the arid Barrens to the forest that stood there before the Sundering."
   },
   {
    "q": "Why is Naralex asleep inside the Wailing Caverns?",
@@ -43,7 +43,7 @@
     "what is naralex doing",
     "naralex trance"
    ],
-   "answer": "He entered a meditative trance to channel energies directly from the Emerald Dream into the underground aquifers beneath the Barrens. However, an overwhelming nightmare seized his mind, trapping him in a fevered slumber that he cannot wake from on his own."
+   "answer": "Naralex entered a meditative trance to channel the Emerald Dream into aquifers beneath the Barrens. A nightmare seized his mind and trapped him in a fevered slumber he cannot escape alone."
   },
   {
    "q": "What created the Druids of the Fang?",
@@ -52,7 +52,7 @@
     "who are druids of the fang",
     "naralex disciples"
    ],
-   "answer": "They were originally Naralex's faithful disciples. When the Emerald Nightmare corrupted Naralex's dream connection, the leaking malice drove his followers insane. They abandoned the Cenarion Circle, embraced serpent totems, and now protect his slumber to keep the corruption spreading."
+   "answer": "The Druids of the Fang were once Naralex's faithful disciples. The Emerald Nightmare corrupted his connection to the Dream, and its malice drove them mad. They left the Cenarion Circle, took serpent forms, and guard Naralex's slumber so the corruption can spread."
   },
   {
    "q": "What caused the Wailing Caverns to mutate?",
@@ -61,7 +61,7 @@
     "deviate beasts origin",
     "wailing caverns fungus"
    ],
-   "answer": "Naralex's sleeping body became an open conduit for the Emerald Nightmare. The foul dream energies seeped directly into the subterranean river system, warping the caverns' plants, crocodiles, raptors, and serpents into aggressive deviate mutants."
+   "answer": "Naralex's sleeping body became a conduit for the Emerald Nightmare, whose foul energies seeped into the underground waters. The caverns' plants, crocodiles, raptors, and serpents were warped into aggressive deviate mutants."
   },
   {
    "q": "Can Naralex be awakened?",
@@ -70,7 +70,7 @@
     "waking naralex",
     "naralex quest"
    ],
-   "answer": "Yes, with outside help. A loyal Disciple of Naralex works with adventurers willing to enter the depths, slay the twisted Druids of the Fang, and perform a ritual to break the grip of the nightmare on Naralex's mind."
+   "answer": "Yes. A loyal Disciple of Naralex works with adventurers willing to enter the depths, defeat the twisted Druids of the Fang, and perform a ritual to break the nightmare's hold on Naralex's mind."
   },
   {
    "q": "Why did Naralex want to change the Barrens?",
@@ -79,25 +79,25 @@
     "naralex barrens goal",
     "why the barrens"
    ],
-   "answer": "Naralex learned that the Barrens was once a flourishing forest before the Great Sundering shattered Kalimdor. He saw its current arid condition as an ecological wound and wished to restore its ancient verdant canopy."
+   "answer": "Naralex learned that the Barrens had once been a flourishing forest before the Great Sundering shattered Kalimdor. He saw the arid land as a wound and hoped to restore its ancient forest."
   }
  ],
  "angles": [
   {
    "target": "class:Druid",
-   "text": "Naralex serves as a grim cautionary tale to druids: meddling blindly with primal natural states or tapping too deeply into the Dream without caution can unleash catastrophic perversions of the wild."
+   "text": "For druids, Naralex's story warns against meddling blindly with primal natural states or reaching too deeply into the Dream without caution. Either can unleash terrible distortions of the wild."
   },
   {
    "target": "race:NightElf",
-   "text": "While Naralex sought to heal Kalimdor, his unchecked ambition deep in Horde territory brought disgrace to the Cenarion Circle and spawned the treacherous Druids of the Fang."
+   "text": "As a night elf, you may see Naralex's effort to heal Kalimdor, yet his ambition in Horde territory disgraced the Cenarion Circle and gave rise to the treacherous Druids of the Fang."
   },
   {
    "target": "race:Tauren",
-   "text": "The twisted waters beneath the Barrens pose an immediate threat to the oasis pools and wildlife that sustain the tribes of Mulgore and the savannah."
+   "text": "As a tauren, you depend on the oasis pools and wildlife that sustain the tribes of Mulgore and the savannah. The twisted waters beneath the Barrens threaten them."
   },
   {
    "target": "faction:Horde",
-   "text": "A night elf's failed mystical experiment has polluted the heart of the Barrens, forcing Horde forces from the Crossroads to deal with the rampaging beasts boiling up from the cavern."
+   "text": "As a member of the Horde, you face a night elf's failed experiment that has polluted the heart of the Barrens. Horde forces from the Crossroads must contend with rampaging beasts emerging from the caverns."
   }
  ],
  "keywords": [
@@ -123,5 +123,6 @@
  ],
  "attribution": [
   "Naralex"
- ]
+ ],
+ "style": 2
 }

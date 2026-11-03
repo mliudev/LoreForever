@@ -2,6 +2,7 @@
 -- Sources: data/i18n/ruRU. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ruRU")
 local Po = P.search.post
+Po["новейший"] = "Ag9B"
 Po["новейшим"] = "DefBDlsBFJBB"
 Po["новейших"] = "CNuBCVkBEcOBEkOBE/FBFQqBFsaBF4LB"
 Po["новинках"] = "CnaB"
@@ -12001,4 +12002,3 @@ Po["отомстил"] = "AdvBAk/BBclBFA/B"
 Po["отомстили"] = "C5tB"
 Po["отомстите"] = "Aj/B"
 Po["отомстить"] = "AGbBAOkBAdqBAduBAj6BAngBAp7BAwEBAwMBA7dBA8nBBKcBBMdBBXqBBbpBBg7BBhyBBk5BBrUBBrYBBrkBBtpBBvdBBw3BBx4BBz1BB4CBB4rBB5VBB5ZDB67BB8JBCDSBCDrBCD1BCZVBCjEBCvzBCxaBCyYBCyeBCygBDO5BDPdBDR6BDY3BDg2BDlJBDnBBDpqBDteBDusBD0+BEBmBEBnBEQ+BETRBETVBEdYBEogBE7sBFbSCGG7BGHOBGI5BGOTBGOdBGQJBGczB"
-Po["отомститьpilot"] = "B5ZC"

@@ -8,11 +8,11 @@
   "wiki": "Rhinag",
   "refs": 1
  },
- "summary": "Among the rocks near Durotar's northwestern border, Rhinag waits, weakened by scorpids' venom. The Darkspear troll depends on passing travelers to find him a remedy in time.",
+ "summary": "Near Durotar’s northwestern border, Rhinag waits among the rocks, weakened by scorpids’ venom. The Darkspear troll needs a remedy from a passing traveler before the poison takes its toll.",
  "sections": [
   {
    "title": "A Venomous Peril",
-   "body": "Rhinag shelters among the rocks near Durotar's northwestern border after a Venomtail Scorpid stung him. The poison has left the Darkspear troll weak and isolated. He needs a venomtail antidote, and his survival depends on whether a passing traveler can find one before the toxins take their toll.",
+   "body": "Among the rocks near Durotar’s northwestern border, Rhinag lies weak after a Venomtail Scorpid stung him. The poison has left the Darkspear troll isolated. He needs a venomtail antidote, and his survival depends on whether a passing traveler can find one in time.",
    "spoiler": 0
   }
  ],
@@ -24,7 +24,7 @@
     "rhinag lore",
     "troll at rocktusk"
    ],
-   "answer": "Rhinag is a Darkspear jungle troll traveler, stranded and weakened near Durotar's northwestern border after a scorpion's sting."
+   "answer": "Rhinag is a Darkspear jungle troll traveler, stranded and weakened near Durotar’s northwestern border after a scorpion’s sting."
   },
   {
    "q": "Where can Rhinag be found?",
@@ -33,7 +33,7 @@
     "where is rhinag",
     "rocktusk farm troll"
    ],
-   "answer": "Rhinag rests among the rocks near Durotar's northwestern border."
+   "answer": "Rhinag rests among the rocks near Durotar’s northwestern border."
   },
   {
    "q": "What happened to him?",
@@ -48,7 +48,7 @@
  "angles": [
   {
    "target": "race:Troll",
-   "text": "As a troll, you may see a kinsman brought low by Durotar's native wildlife. The Darkspear tribe faces many trials as it makes a home alongside the Horde."
+   "text": "As a troll, you may find a kinsman brought low by Durotar’s native wildlife. The Darkspear tribe faces many trials as it makes a home alongside the Horde."
   }
  ],
  "keywords": [
@@ -66,5 +66,5 @@
  "attribution": [
   "Rhinag"
  ],
- "style": 1
+ "style": 2
 }

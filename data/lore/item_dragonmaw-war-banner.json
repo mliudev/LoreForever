@@ -10,16 +10,16 @@
    "quest:464"
   ]
  },
- "summary": "Dragonmaw War Banners rise over orc encampments in the Wetlands. Their clan markings give the dwarven defenders of Menethil Harbor proof of the growing threat.",
+ "summary": "Dragonmaw banners now rise over the orc camps in the Wetlands. Their markings show the dwarven defenders of Menethil Harbor how the threat is growing.",
  "sections": [
   {
    "title": "Emblems of an Enduring Threat",
-   "body": "After the Second War, the Dragonmaw clan was shattered when they lost control of their enslaved red dragons. The enraged drakes turned on their captors and drove the survivors from Grim Batol into the eastern hills. Now the remaining orcs gather strength under Chieftain Nek'rosh and raise their banners over camps northeast of Menethil Harbor. Those rough standards mark their defiance and threaten the settlements in the marsh.",
+   "body": "After the Second War, the Dragonmaw clan broke apart when its orcs lost control of their enslaved red dragons. The enraged drakes turned on their captors and drove the survivors from Grim Batol into the eastern hills. Now the remaining orcs gather strength under Chieftain Nek'rosh. Their banners rise over camps northeast of Menethil Harbor, warning the marsh settlements of their defiance.",
    "spoiler": 0
   },
   {
    "title": "Proof of Conquest",
-   "body": "Captain Stoutfist at Menethil Harbor sends Alliance adventurers into the marsh camps to bring back Dragonmaw banners. Raiders, centurions, and bone-warders carry these trophies, which confirm to the dwarven garrison that the camps are being broken before the clan can launch coordinated raids.",
+   "body": "Captain Stoutfist at Menethil Harbor sends Alliance adventurers into the marsh camps to bring back Dragonmaw banners. Raiders, centurions, and bone-warders carry these trophies. They prove to the dwarven garrison that the camps are being broken before the clan can launch coordinated raids.",
    "spoiler": 0
   }
  ],
@@ -91,5 +91,5 @@
   "Dragonmaw War Banner",
   "War Banners"
  ],
- "style": 1
+ "style": 2
 }

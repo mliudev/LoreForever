@@ -10,16 +10,16 @@
    "quest:1026"
   ]
  },
- "summary": "Near Felwood, the Iron Shaft waits in a locked chest. It is one piece of Dartol's Rod, sought by Teronis to slow the furbolg assaults on Ashenvale.",
+ "summary": "Near Felwood, the Iron Shaft remains locked away. Teronis seeks it as one piece of Dartol's Rod, hoping to slow the furbolg assaults on Ashenvale.",
  "sections": [
   {
    "title": "A Piece of Dartol's Rod",
-   "body": "Dartol made the rod, then its pieces were scattered across Ashenvale. One was placed in the care of the druids of Dor'Danil. The Iron Shaft is the rod's sturdy metal core, kept in a locked chest in a glade near Ashenvale's northern border, close to Felwood.",
+   "body": "Dartol made the rod, and its pieces were scattered across Ashenvale. One was entrusted to the druids of Dor'Danil. The Iron Shaft is the rod's sturdy metal core, locked in a chest in a glade near Ashenvale's northern border, close to Felwood.",
    "spoiler": 0
   },
   {
    "title": "The Forest's Blight",
-   "body": "The key to the Iron Shaft's chest lies with treants that once tended these woods. Demonic corruption from Felwood has driven the Crazed and Withered Ancients mad. Shael'dryn, a dryad, asks travelers to recover the shaft so Dartol's Rod can be reforged and Teronis's work completed.",
+   "body": "The chest key is held by treants that once tended these woods. Demonic corruption from Felwood has driven the Crazed and Withered Ancients mad. Shael'dryn, a dryad, asks travelers to recover the shaft so Dartol's Rod can be reforged and Teronis's work completed.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "what is this shaft",
     "why do i need iron shaft"
    ],
-   "answer": "The Iron Shaft is one piece of the broken Dartol's Rod. Shael'dryn seeks the pieces so the rod can be reassembled and Teronis's effort to slow the furbolg assaults on Ashenvale can be completed."
+   "answer": "The Iron Shaft is one piece of Dartol's broken Rod. Shael'dryn seeks the pieces so the rod can be reassembled and Teronis's effort to slow the furbolg assaults on Ashenvale can be completed."
   },
   {
    "q": "Where is the Iron Shaft found?",
@@ -57,13 +57,13 @@
     "who wants iron shaft",
     "iron shaft quest giver"
    ],
-   "answer": "Shael'dryn, a dryad at a moonwell in central Ashenvale, directs travelers to gather Dartol's Rod's pieces to help cleanse the forest."
+   "answer": "Shael'dryn, a dryad at a moonwell in central Ashenvale, directs travelers to gather the pieces of Dartol's Rod and help cleanse the forest."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a Night Elf, recovering the Iron Shaft means putting down forest treants you hold dear, corrupted by the demonic blight seeping from Felwood."
+   "text": "As a Night Elf, recovering the Iron Shaft means fighting forest treants you hold dear, corrupted by the demonic blight seeping from Felwood."
   },
   {
    "target": "class:Druid",
@@ -94,5 +94,5 @@
   "Iron Shaft",
   "Raene's Cleansing (4)"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Beached Sea Creature (4)",
   "chain": []
  },
- "summary": "Along Darkshore's rocky Twilight Shore, a colossal thresher lies stranded, far larger than any known local specimen. Its death and stranding add to the deep-sea troubles worrying the night elves.",
+ "summary": "A colossal thresher lies stranded on Darkshore's rocky Twilight Shore. Its death and stranding deepen the sea troubles worrying the night elves.",
  "sections": [
   {
    "title": "A Giant Cast Ashore",
-   "body": "You find driftwood and sea debris along the Twilight Shore in southern Darkshore, but one inlet holds the remains of an enormous thresher. Tides and scavengers have begun picking it apart, yet its skeleton dwarfs ordinary predators in these coastal shallows. The giant is an outsider to these waters. Sickness or disorientation may have driven it onto the rocks, or some deeper disturbance may lie out in the Veiled Sea.",
+   "body": "Along the Twilight Shore in southern Darkshore, driftwood and sea debris wash into the inlets. In one, you find the remains of an enormous thresher. Tides and scavengers have begun to pick it apart, yet its skeleton dwarfs the ordinary predators in these coastal shallows. The giant does not belong in these waters. Sickness or disorientation may have driven it onto the rocks, or a deeper disturbance may lie in the Veiled Sea.",
    "spoiler": 0
   },
   {
    "title": "The Temple's Vigil",
-   "body": "In Auberdine, priestesses of the Temple of the Moon study the dead giants washing ashore. Gwennyth Bly'Leggonde oversees the gathering of skeletal samples to learn why deep-dwelling predators are dying. Colossal threshers were once seen near Teldrassil's roots, but their numbers have fallen steadily. The priestesses fear the marine balance off Kalimdor's northern coast is unraveling.",
+   "body": "In Auberdine, priestesses of the Temple of the Moon study the dead giants washing ashore. Gwennyth Bly'Leggonde oversees the gathering of skeletal samples to learn why deep-dwelling predators are dying. Colossal threshers once appeared near the roots of Teldrassil, but their numbers have steadily fallen. The priestesses fear the balance of life in the sea off Kalimdor's northern coast is unraveling.",
    "spoiler": 1
   }
  ],
@@ -46,7 +46,7 @@
     "where do giant threshers live",
     "thresher origin"
    ],
-   "answer": "Gwennyth Bly'Leggonde says creatures of this immense size once roamed the waters near Teldrassil, but their numbers have steadily declined. This thresher is not native to Darkshore's immediate shallows."
+   "answer": "Gwennyth Bly'Leggonde says creatures of this immense size once roamed the waters near Teldrassil's roots, but their numbers have steadily declined. This thresher is not native to Darkshore's immediate shallows."
   },
   {
    "q": "Why is the Temple of the Moon studying these carcasses?",
@@ -72,7 +72,7 @@
     "thresher location darkshore",
     "twilight shore skeleton"
    ],
-   "answer": "The carcass lies in a rocky inlet along the Twilight Shore, Darkshore's southern coast."
+   "answer": "The carcass lies in a rocky inlet along the Twilight Shore, on Darkshore's southern coast."
   },
   {
    "q": "Are there other creatures beaching themselves in Darkshore?",
@@ -86,15 +86,15 @@
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "The unexplained decline and beaching of sea life near Teldrassil troubles the Kaldorei, who look to Elune and the Temple of the Moon for meaning in such omens."
+   "text": "The unexplained decline and beaching of sea life near Teldrassil troubles the Kaldorei. They look to Elune and the Temple of the Moon for meaning in such omens."
   },
   {
    "target": "class:Priest",
-   "text": "Gwennyth Bly'Leggonde studies the sea under the Temple of the Moon, seeking balance and divine insight through close inquiry into its waters."
+   "text": "Gwennyth Bly'Leggonde studies the sea under the Temple of the Moon. She seeks balance and divine insight through close inquiry into its waters."
   },
   {
    "target": "class:Druid",
-   "text": "The stranding of great sea predators signals an ecosystem in distress, a concern shared by the Cenarion Circle throughout Darkshore."
+   "text": "The stranding of great sea predators signals an ecosystem in distress. The Cenarion Circle shares this concern throughout Darkshore."
   }
  ],
  "keywords": [
@@ -120,5 +120,5 @@
  "attribution": [
   "Beached Sea Creature (4)"
  ],
- "style": 1
+ "style": 2
 }

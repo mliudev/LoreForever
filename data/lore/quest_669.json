@@ -27,11 +27,11 @@
    "Sunken Treasure"
   ]
  },
- "summary": "After the previous step in the Sunken Treasure chain, Shakes O'Breen is stuck where he is and needs word taken to Fleet Master Seahorn at Booty Bay. He asks you to carry a sample gem as proof of the find.",
+ "summary": "In Sunken Treasure, Shakes O'Breen is held back by the low tide and watchful creatures, so word must reach Booty Bay.",
  "sections": [
   {
    "title": "Word for Booty Bay",
-   "body": "Shakes O'Breen wants Fleet Master Seahorn to hear of the find right away, yet he cannot easily get away. The tide is too low, and the creatures they disturbed are watching every move. He asks you to help the Blackwater Raiders by telling Seahorn in Booty Bay that the treasure is found and more is being brought up. A sample elven gem goes with you as proof.",
+   "body": "Shakes O'Breen needs Fleet Master Seahorn in Booty Bay to hear of the find at once. The tide is too low for him to leave, and the creatures his crew disturbed watch every move. He asks you to tell Seahorn the treasure has been found and more is being brought up. You carry a sample elven gem as proof.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "why is shakes stuck",
     "why does shakes need a courier"
    ],
-   "answer": "The tide is too low for them to get away, and the creatures they disturbed are keeping a close eye on their movements."
+   "answer": "The tide is too low for Shakes O'Breen and his crew to leave, and the creatures they disturbed watch their movements."
   },
   {
    "q": "Who is Fleet Master Seahorn?",
@@ -51,7 +51,7 @@
     "who is seahorn",
     "where is fleet master seahorn"
    ],
-   "answer": "He is the Fleet Master in Booty Bay, whom O'Breen wants to hear of the find at once."
+   "answer": "Fleet Master Seahorn is in Booty Bay, and O'Breen wants him to hear of the find at once."
   },
   {
    "q": "What proof is being carried to Booty Bay?",
@@ -59,7 +59,7 @@
     "what is the proof",
     "what gem is delivered"
    ],
-   "answer": "A sample elven gem, which shows that the treasure was found and that more is being extracted."
+   "answer": "You carry a sample elven gem to prove the treasure was found and more is being brought up."
   }
  ],
  "angles": [],
@@ -79,5 +79,6 @@
  ],
  "attribution": [
   "Sunken Treasure (4)"
- ]
+ ],
+ "style": 2
 }

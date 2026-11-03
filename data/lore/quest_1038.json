@@ -17,16 +17,16 @@
   "wiki": "Velinde's Effects",
   "chain": []
  },
- "summary": "In Darnassus, Velinde's Effects draw the Sentinels into an inquiry. The search concerns Sentinel Velinde Starsong, who vanished after years of service, and the journal Thyn'tel Bladeweaver asks you to retrieve from the Sentinels' quarters.",
+ "summary": "In Darnassus, the Sentinels are searching into Velinde's disappearance. Sentinel Velinde Starsong vanished after many years of service, and Thyn'tel Bladeweaver asks you to retrieve her journal from the Sentinels' quarters.",
  "sections": [
   {
    "title": "A Trusted Sentinel",
-   "body": "Priestess Velinde Starsong served the night elves for many years and earned their deep trust. When she quietly vanished from her duties, the Sentinels believed she had left for personal reasons and expected her to return. Outsiders later found clues tied to the Tome of Mel'Thandris. Only then did Sentinel leaders allow an inquiry into Velinde's private belongings.",
+   "body": "Priestess Velinde Starsong served the night elves for many years and won their deep trust. When she quietly left her duties, the Sentinels thought she had personal reasons and expected her to return. Outsiders later found clues connected to the Tome of Mel'Thandris. Only then did Sentinel leaders permit a search of Velinde's private belongings.",
    "spoiler": 0
   },
   {
    "title": "The Chest in the Bunkhouse",
-   "body": "Thyn'tel Bladeweaver is stationed on Darnassus's Warrior's Terrace and gives you the key to Velinde's locked trunk. The trunk is kept in the Sentinels' bunkhouse on the Tradesmen's Terrace. Inside lies Velinde's personal journal, with accounts of her assignments and thoughts. Its pages trouble the Sentinels: they hint at secret affairs that drove Velinde to leave Teldrassil alone.",
+   "body": "Thyn'tel Bladeweaver is stationed on Darnassus's Warrior's Terrace and gives you the key to Velinde's locked trunk. It is kept in the Sentinels' bunkhouse on the Tradesmen's Terrace. Inside is Velinde's personal journal, with accounts of her assignments and thoughts. Its pages trouble the Sentinels, hinting at secret affairs that drove Velinde to leave Teldrassil alone.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "who is velinde",
     "velinde backstory"
    ],
-   "answer": "Velinde Starsong is a respected night elf priestess and Sentinel commander. Her devoted service earned deep respect from her peers before she vanished on an unexplained mission."
+   "answer": "Velinde Starsong is a respected night elf priestess and Sentinel commander. Her devoted service earned the deep respect of her peers before she vanished on an unexplained mission."
   },
   {
    "q": "Where is Velinde's chest located?",
@@ -55,7 +55,7 @@
     "why did sentinels ignore velinde",
     "why wasn't velinde reported missing"
    ],
-   "answer": "The Sentinels trusted Velinde's spotless reputation. Her commanders believed she had sound private reasons to leave and expected her to return when her business was done."
+   "answer": "The Sentinels trusted Velinde's spotless reputation. Her commanders believed she had sound private reasons to leave and expected her back when her business was done."
   },
   {
    "q": "What is discovered inside the journal?",
@@ -63,7 +63,7 @@
     "velindes journal contents",
     "what did velinde write"
    ],
-   "answer": "Velinde's journal shows her absence was more troubling than an ordinary leave. Thyn'tel Bladeweaver immediately seeks outside help to trace her route."
+   "answer": "Velinde's journal shows that her absence was more troubling than an ordinary leave. Thyn'tel Bladeweaver immediately seeks outside help to trace her route."
   },
   {
    "q": "How was Velinde connected to the Tome of Mel'Thandris?",
@@ -71,7 +71,7 @@
     "tome of melthandris velinde",
     "why the tome of mel'thandris"
    ],
-   "answer": "The ancient elven text contained references to Velinde's past inquiries and activities. Those references first drew researchers and adventurers to investigate where she had gone."
+   "answer": "The ancient elven text held references to Velinde's past inquiries and activities. Those references first drew researchers and adventurers to investigate where she had gone."
   },
   {
    "q": "Where does the investigation lead after finding her effects?",
@@ -79,13 +79,13 @@
     "where to go after velindes effects",
     "velindes effects next quest"
    ],
-   "answer": "The journal's clues lead toward the Barrens, following Velinde's steps south toward Kalimdor's transit hubs and ports."
+   "answer": "The journal's clues lead toward the Barrens, along Velinde's steps south toward Kalimdor's transit hubs and ports."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, Velinde Starsong's story recalls the quiet sacrifices of the Sisterhood of Elune and the Sentinels. Her sudden disappearance unsettles her kin in Darnassus."
+   "text": "As a night elf, you may see in Velinde Starsong's story the quiet sacrifices of the Sisterhood of Elune and the Sentinels. Her sudden disappearance unsettles her kin in Darnassus."
   },
   {
    "target": "faction:Alliance",
@@ -117,5 +117,5 @@
  "attribution": [
   "Velinde's Effects"
  ],
- "style": 1
+ "style": 2
 }

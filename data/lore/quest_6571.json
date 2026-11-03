@@ -17,16 +17,16 @@
   "wiki": "Warsong Supplies (quest)",
   "chain": []
  },
- "summary": "At Splintertree Post, Locke Okarr needs supplies to keep the Warsong Lumber Camp running. Some await in town, some in Booty Bay, and others lie in enemy hands across Ashenvale.",
+ "summary": "At Splintertree Post, Locke Okarr needs Warsong Supplies to keep the lumber camp working. Some wait in town, some in Booty Bay, and others lie in enemy hands across Ashenvale.",
  "sections": [
   {
    "title": "Keeping the Saws Spinning",
-   "body": "Locke Okarr works to keep the Warsong Lumber Camp supplied from Splintertree Post. The Warsong Clan needs a steady flow of heavy tools to harvest Ashenvale's ancient timber. Raids by furbolgs and satyrs have scattered or seized local supplies, leaving the camp short of vital gear.",
+   "body": "From Splintertree Post, Locke Okarr works to keep the Warsong Lumber Camp supplied. The Warsong Clan needs a steady flow of heavy tools to harvest Ashenvale's ancient timber. Furbolg and satyr raids have scattered or seized local supplies, leaving the camp short of vital gear.",
    "spoiler": 0
   },
   {
    "title": "A Scattered Logistics Chain",
-   "body": "You gather equipment from across Kalimdor and beyond. Pixel, the goblin courier at Splintertree Post, has circular saw blades, while Wharfmaster Lozgil in Booty Bay holds a crate of heavy axes. Foulweald and Thistlefur furbolgs have taken logging ropes, and satyrs at Night Run, Satyrnaar, and Xavian have stolen barrels of Warsong machinery oil for their profane rites.",
+   "body": "You gather equipment from across Kalimdor and beyond. Pixel, the goblin courier at Splintertree Post, has circular saw blades. In Booty Bay, Wharfmaster Lozgil holds a crate of heavy axes. Foulweald and Thistlefur furbolgs have taken logging ropes, while satyrs at Night Run, Satyrnaar, and Xavian stole barrels of Warsong machinery oil for their profane rites.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "what items needed",
     "supplies needed"
    ],
-   "answer": "Locke Okarr needs four items: Warsong Saw Blades held by Pixel, a crate of Warsong Axes shipped to Booty Bay, Logging Rope taken by local furbolgs, and Warsong Oil stolen by Ashenvale's satyrs."
+   "answer": "Locke Okarr needs four items: Warsong Saw Blades held by Pixel, a crate of Warsong Axes awaiting in Booty Bay, Logging Rope taken by local furbolgs, and Warsong Oil stolen by Ashenvale's satyrs."
   },
   {
    "q": "Who is Locke Okarr?",
@@ -56,7 +56,7 @@
     "booty bay axe shipment",
     "steamwheedle tools"
    ],
-   "answer": "The Horde uses neutral trade networks such as the Steamwheedle Cartel to import specialty goods that Durotar and the Barrens cannot easily forge in bulk. Goblin channels route the heavy lumbering axes through maritime hubs such as Booty Bay on their way to Ashenvale."
+   "answer": "The Horde uses neutral trade networks such as the Steamwheedle Cartel to import specialty goods that Durotar and the Barrens cannot easily forge in bulk. Goblin channels route heavy lumbering axes through maritime hubs such as Booty Bay on their way to Ashenvale."
   },
   {
    "q": "Why do the satyrs want Warsong Oil?",
@@ -65,7 +65,7 @@
     "why do satyrs have oil",
     "warsong oil rituals"
    ],
-   "answer": "Satyrs at Satyrnaar, Night Run, and Xavian divert the stolen industrial oil from machinery to corrupted rites dedicated to the Burning Legion and the spreading taint of Felwood."
+   "answer": "Satyrs at Satyrnaar, Night Run, and Xavian divert stolen industrial oil from machinery to corrupted rites dedicated to the Burning Legion and the spreading taint of Felwood."
   },
   {
    "q": "Which furbolgs stole the logging rope?",
@@ -125,5 +125,5 @@
  "attribution": [
   "Warsong Supplies (quest)"
  ],
- "style": 1
+ "style": 2
 }

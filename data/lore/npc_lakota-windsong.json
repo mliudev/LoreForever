@@ -8,16 +8,16 @@
   "wiki": "Lakota Windsong",
   "refs": 1
  },
- "summary": "Lakota Windsong is a young tauren held captive atop the bluffs of Darkcloud Pinnacle in Thousand Needles. After rejecting an unwanted proposal from Arnak Grimtotem, she was abducted by force and awaits rescue from the Grimtotem tribe's clutches.",
+ "summary": "At Darkcloud Pinnacle, Lakota Windsong waits under Grimtotem guard. Arnak Grimtotem took her after she refused his proposal.",
  "sections": [
   {
    "title": "A Deadly Courtship",
-   "body": "Not long after the Third War, Lakota Windsong was pursued by Arnak Grimtotem. Unwilling to join his clan or accept his courtship, she turned down his proposal. Arnak refused to take no for an answer; he returned under cover of night, slaughtered Lakota's brother when he tried to intervene, and carried her off into the jagged heights of Thousand Needles. Confined high above the canyon floor at Darkcloud Pinnacle, she remains trapped under heavy guard while Arnak still insists on making her his bride.",
+   "body": "Not long after the Third War, Arnak Grimtotem began courting Lakota Windsong. She refused him and would not join his clan, but Arnak would not accept her answer. Under cover of night, he returned and killed Lakota's brother when he tried to stop him. Then Arnak carried Lakota into the jagged heights of Thousand Needles. Now she is held high above the canyon floor at Darkcloud Pinnacle, under heavy guard. Arnak still insists she will be his bride.",
    "spoiler": 0
   },
   {
    "title": "Descent to Safety",
-   "body": "Surrounded by treacherous Grimtotem bandits, Lakota cannot fight her way down the cliffs alone. Only a brave escort can lead her across the suspension bridges and down the winding paths to the canyon basin below. Once she breaks free of Darkcloud Pinnacle, Lakota flees toward the safety of Freewind Post, carrying word of her rescue to Thalia Amberhide and the defenders stationed there.",
+   "body": "Grimtotem bandits surround Lakota, and she cannot descend the cliffs alone. An escort must guide her across the suspension bridges and down the winding paths to the canyon basin. From the base of Darkcloud Pinnacle, Lakota flees toward Freewind Post. There she tells Thalia Amberhide and the defenders at the post of her rescue.",
    "spoiler": 1
   }
  ],
@@ -29,7 +29,7 @@
     "who kidnapped lakota",
     "why is lakota in darkcloud pinnacle"
    ],
-   "answer": "She refused a marriage proposal from Arnak Grimtotem. Rather than accept her refusal, Arnak murdered her brother and abducted Lakota, dragging her to the Grimtotem stronghold at Darkcloud Pinnacle in hopes of forcing her hand."
+   "answer": "Lakota is held at Darkcloud Pinnacle because she refused Arnak Grimtotem's marriage proposal. He killed her brother and abducted her to the Grimtotem stronghold, hoping to force her hand."
   },
   {
    "q": "Where does Lakota go once she is rescued?",
@@ -38,7 +38,7 @@
     "where does she go after escort",
     "lakota destination"
    ],
-   "answer": "After reaching the base of Darkcloud Pinnacle safely, Lakota makes her way to Freewind Post, where she can find refuge among the Horde defenders and report her ordeal to Thalia Amberhide."
+   "answer": "After reaching the base of Darkcloud Pinnacle, Lakota makes her way to Freewind Post. There she finds refuge among the Horde defenders and reports her ordeal to Thalia Amberhide."
   },
   {
    "q": "Who is Arnak Grimtotem?",
@@ -47,17 +47,17 @@
     "who kidnapped her",
     "arnak lore"
    ],
-   "answer": "Arnak is a violent warrior of the treacherous Grimtotem clan who murdered Lakota's brother and abducted her when she declined to marry him."
+   "answer": "Arnak Grimtotem is a violent warrior of the treacherous Grimtotem clan. When Lakota refused to marry him, he murdered her brother and abducted her."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "Lakota's ordeal is a stark reminder of the treachery festering among the Grimtotem, whose defiance of Cairne Bloodhoof's leadership regularly turns violent."
+   "text": "As a tauren, you see the Grimtotem's treachery and their defiance of Cairne Bloodhoof's leadership, which often turns violent."
   },
   {
    "target": "faction:Horde",
-   "text": "Rescuing Lakota strikes a blow against Grimtotem dominance over Thousand Needles and secures safe passage for travelers resting at Freewind Post."
+   "text": "As a member of the Horde, you strike a blow against Grimtotem dominance over Thousand Needles when you rescue Lakota. You also help keep the way safe for travelers resting at Freewind Post."
   }
  ],
  "keywords": [
@@ -81,5 +81,6 @@
  ],
  "attribution": [
   "Lakota Windsong"
- ]
+ ],
+ "style": 2
 }

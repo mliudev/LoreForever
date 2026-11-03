@@ -10,16 +10,16 @@
    "quest:1358"
   ]
  },
- "summary": "Wolf Heart Sample is bound for the Crossroads, carrying diseased wolf tissue from Lordaeron to Kalimdor. The Royal Apothecary Society seeks to learn what northern toxins do to the Barrens’ native beasts.",
+ "summary": "In the Barrens, Wolf Heart Sample carries diseased wolf tissue from Lordaeron to the Crossroads. The Royal Apothecary Society studies what northern toxins do to Kalimdor’s native beasts.",
  "sections": [
   {
    "title": "A Toxic Export",
-   "body": "Wolf Heart Sample began with plagued wolves in Lordaeron’s ruins. Apothecary Renferrel gathered the hearts, and they were packed for the journey across the Great Sea. The Forsaken’s Royal Apothecary Society seeks greater knowledge of venom, blights, and biological reagents. A courier carries the parcel to the Crossroads in the Barrens, linking Undercity’s experiments in the scarred Eastern Kingdoms with Kalimdor’s frontier outposts.",
+   "body": "Plagued wolves in Lordaeron’s ruins gave Apothecary Renferrel the hearts packed into Wolf Heart Sample. They crossed the Great Sea for the Forsaken’s Royal Apothecary Society, which studies venom, blights and biological reagents. A courier carries them to the Crossroads, joining Undercity’s experiments in the scarred Eastern Kingdoms to Kalimdor’s frontier outposts.",
    "spoiler": 0
   },
   {
    "title": "Helbrim's Research",
-   "body": "At the Crossroads, Apothecary Helbrim receives Wolf Heart Sample. Helbrim studies how toxins from Lordaeron’s Scourge-ravaged lands affect the native wildlife of Kalimdor. The toxicity preserved in the wolf hearts may reveal properties that can improve Forsaken poisons and elixirs far from home.",
+   "body": "At the Crossroads, Apothecary Helbrim receives Wolf Heart Sample. He studies how toxins from Lordaeron’s Scourge-ravaged lands affect Kalimdor’s native wildlife. The hearts’ preserved toxicity may reveal properties that improve Forsaken poisons and elixirs far from home.",
    "spoiler": 0
   }
  ],
@@ -31,7 +31,7 @@
     "what is the sample",
     "what is in the package"
    ],
-   "answer": "Wolf Heart Sample is tissue preserved from blighted wolves in Lordaeron. Its lingering toxicity from the northern plagues gives the Royal Apothecary Society material for studying virulent poisons."
+   "answer": "Wolf Heart Sample holds tissue preserved from blighted wolves in Lordaeron. Lingering toxicity from the northern plagues gives the Royal Apothecary Society material for studying virulent poisons."
   },
   {
    "q": "Who sent this sample to the Barrens?",
@@ -49,7 +49,7 @@
     "helbrim research",
     "purpose of wolf heart"
    ],
-   "answer": "Helbrim studies how toxins from Lordaeron affect Kalimdor’s native beasts. He plans to examine the sample’s venomous properties to advance Forsaken alchemical compounds and poisons."
+   "answer": "Apothecary Helbrim studies how toxins from Lordaeron affect Kalimdor’s native beasts. He plans to examine the sample’s venomous properties to advance Forsaken alchemical compounds and poisons."
   },
   {
    "q": "Where does the sample need to be delivered?",
@@ -58,7 +58,7 @@
     "where is helbrim",
     "delivery location"
    ],
-   "answer": "Bring the sample to Apothecary Helbrim at the Crossroads, a major Horde settlement in the heart of the Barrens."
+   "answer": "Bring Wolf Heart Sample to Apothecary Helbrim at the Crossroads, a major Horde settlement in the heart of the Barrens."
   }
  ],
  "angles": [
@@ -94,5 +94,5 @@
   "Wolf Heart Sample",
   "Sample for Helbrim"
  ],
- "style": 1
+ "style": 2
 }

@@ -12,21 +12,21 @@
   "levels": "",
   "aliases": []
  },
- "summary": "Un'Goro Crater is a sunken, primordial jungle tucked between the arid wastes of Tanaris and Silithus. Dominated by roaming dinosaurs, living elementals, and a central volcano, this lush caldera is filled with ancient Titan relics and power crystals whose origins remain a profound mystery.",
+ "summary": "Un'Goro Crater draws travelers into a lush basin between the deserts of Tanaris and Silithus. Dinosaurs roam beneath a central volcano, among living elementals and ancient Titan relics. Colored power crystals lie across the basin, though their origins remain a mystery.",
  "sections": [
   {
    "title": "The God Lands",
-   "body": "Sandwiched between desert expanses, Un'Goro Crater defies the geography of southern Kalimdor. Ancient night elf records detailing the War of the Shifting Sands note that the insectoid Qiraji were turned back at the crater's edges, unable to penetrate what their tongue named the 'God Lands.' Scholars theorize the caldera served as a testing ground or ancient dwelling for the Titans during the shaping of Kalimdor. Stone pylons rise along the ridges, humming with energy, while crystal formations of blue, red, green, and yellow sprout through the primeval earth.",
+   "body": "Ancient night elf records of the War of the Shifting Sands say the Qiraji were turned back at Un'Goro Crater's edges. In their tongue, they called this place the 'God Lands.' Scholars believe the Titans may have used the caldera as a testing ground or dwelling while shaping Kalimdor. Stone pylons rise along the ridges and hum with energy. Blue, red, green, and yellow crystals emerge from the primeval earth.",
    "spoiler": 0
   },
   {
    "title": "A Savage Ecosystem",
-   "body": "Un'Goro contains no cities, towns, or native humanoid societies. Instead, life thrives in an untamed, primeval state. Apex devilsaurs stalk the flats of Terror Run, predatory bloodpetals lash out in the marshlands, and oozes creep across the tar pits of Lakkari. At the heart of the crater looms Fire Plume Ridge, an active volcanic peak teeming with hostile fire elementals led by the entity Blazerunner. For explorers and skinners, the basin offers unmatched natural wealth\u2014including the coveted hides of devilsaurs\u2014provided one survives the food chain.",
+   "body": "Un'Goro has no cities, towns, or native humanoid societies. Life thrives here in a wild, primeval state. Devilsaurs stalk the flats of Terror Run, bloodpetals lash out in the marshlands, and oozes creep across the tar pits of Lakkari. At the crater's heart, Fire Plume Ridge is an active volcano filled with hostile fire elementals led by Blazerunner. Explorers and skinners seek its natural wealth, including devilsaur hides, if they can survive the food chain.",
    "spoiler": 0
   },
   {
    "title": "Marshal's Refuge",
-   "body": "Civilized presence in the crater is limited almost entirely to Marshal's Refuge, an elevated camp tucked into the northern cliffs. Led by Williden Marshal, an expedition of scientists, naturalists, and fortune seekers attempted to catalogue the basin's treasures only to be battered by the monstrous wildlife and driven to high ground. Today, the refuge serves as an embattled staging ground for intrepid travelers studying the crater's mysterious power crystals, mapping volcanic activity, and keeping a watchful eye on encroaching silithid swarms breaching the southern ridges.",
+   "body": "Marshal's Refuge, an elevated camp in the northern cliffs, holds nearly all of Un'Goro's settled presence. Williden Marshal led scientists, naturalists, and fortune seekers here to catalogue the basin's treasures.\n\nMonstrous wildlife battered the expedition and drove its members to high ground. The refuge remains an embattled staging ground for travelers studying the mysterious power crystals, mapping volcanic activity, and watching silithid swarms encroach through the southern ridges.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "ungoro entrance",
     "how to reach ungoro crater"
    ],
-   "answer": "Travelers can enter via natural ramps leading down the crater walls: one accessible from the southwestern corner of Tanaris near Thistleshrub Valley, and another leading in from northeastern Silithus. While reckless adventurers sometimes leap down the cliffs, the fall is fatal without magical assistance. Marshal's Refuge in the north provides flight connections to Gadgetzan and Cenarion Hold."
+   "answer": "Natural ramps lead down the crater walls. One comes from southwestern Tanaris near Thistleshrub Valley, and another from northeastern Silithus. Without magical aid, a leap from the cliffs is fatal. Marshal's Refuge in the north has flight connections to Gadgetzan and Cenarion Hold."
   },
   {
    "q": "What are the colored power crystals used for?",
@@ -47,7 +47,7 @@
     "red blue green yellow crystals ungoro",
     "power pylons"
    ],
-   "answer": "Scattered across the jungle floor are red, blue, green, and yellow Power Crystals. With guidance from the gnome researcher J.D. Collie at Marshal's Refuge, explorers can decipher instructions for using these crystals at the Northern, Eastern, and Western Pylons. Combining specific colors at the appropriate pylons harnesses latent Titan energies to fashion defensive or restorative charms."
+   "answer": "Red, blue, green, and yellow Power Crystals lie across the jungle floor. Gnome researcher J.D. Collie at Marshal's Refuge can guide explorers in deciphering how to use them at the Northern, Eastern, and Western Pylons. Combine certain colors at the right pylons to harness latent Titan energies and make defensive or restorative charms."
   },
   {
    "q": "Why is Un'Goro lush despite being surrounded by deserts?",
@@ -56,7 +56,7 @@
     "ungoro desert connection",
     "how does ungoro have plants"
    ],
-   "answer": "Scholars believe Un'Goro's unnatural vibrancy is artificial, stemming from the Titans who shaped the world. Titanic conduits, warm volcanic geothermal activity from Fire Plume Ridge, and ancient ley energy nourish an isolated, hyper-accelerated ecosystem that resists the arid conditions of neighbouring Tanaris and Silithus."
+   "answer": "Scholars believe the Titans, who shaped the world, made Un'Goro's unnatural vibrancy. Titanic conduits, warmth from Fire Plume Ridge, and ancient ley energy nourish its isolated, fast-growing ecosystem. It resists the arid conditions of neighboring Tanaris and Silithus."
   },
   {
    "q": "Why did the Qiraji call this place the 'God Lands'?",
@@ -65,7 +65,7 @@
     "qiraji ungoro",
     "why couldn't silithid take ungoro"
    ],
-   "answer": "According to tablets translated from the War of the Shifting Sands, the insect swarms halted their advance at the crater's threshold. Geologist Larksbane, who translated the account, ties the name to theories that the Titans once dwelt in the crater, and wonders whether Aman'Thul himself watched over the God Lands."
+   "answer": "Tablets translated from the War of the Shifting Sands say the insect swarms halted at Un'Goro's threshold. In their tongue, they called it the 'God Lands.' Geologist Larksbane, who translated the account, connects the name to theories that the Titans once dwelt in the crater and wonders whether Aman'Thul himself watched over it."
   },
   {
    "q": "What is Un'Goro Soil used for?",
@@ -74,7 +74,7 @@
     "what does ungoro soil do",
     "morrowgrain soil"
    ],
-   "answer": "Piles of rich, potent dirt rest across the crater basin. When harvested, this soil can be paired with Tharlendris seeds in an Evergreen Pouch to cultivate Morrowgrain, a mystical herb intensely sought after by researchers in Thunder Bluff, Darnassus, and the Cenarion Circle."
+   "answer": "Rich, potent dirt lies across the crater basin. Pair harvested soil with Tharlendris seeds in an Evergreen Pouch to grow Morrowgrain, a mystical herb intensely sought by researchers in Thunder Bluff, Darnassus, and the Cenarion Circle."
   },
   {
    "q": "Are there any humanoid settlements or dungeons here?",
@@ -83,29 +83,29 @@
     "who lives in ungoro",
     "humanoids in ungoro"
    ],
-   "answer": "Un'Goro Crater holds a dungeon, the Shaper's Terrace, for about levels 58 to 60, but no indigenous humanoid societies. The only lasting settlement is Marshal's Refuge, a small expedition outpost on the northern rim. Beyond isolated hermit hunters or lost explorers, the rest of the caldera is entirely wild."
+   "answer": "Un'Goro Crater has the shaper's terrace, for those around 58 to 60, but no indigenous humanoid societies. Marshal's Refuge, a small expedition outpost on the northern rim, is the only lasting settlement. Aside from isolated hermit hunters or lost explorers, the caldera is entirely wild."
   }
  ],
  "angles": [
   {
    "target": "profession:Herbalism",
-   "text": "The rich moisture of the basin sustains rare flora, serving as one of the few places in Kalimdor where Blindweed, Dreamfoil, and Golden Sansam flourish together alongside Firebloom on the volcano's slopes."
+   "text": "The basin's rich moisture lets Blindweed, Dreamfoil, and Golden Sansam flourish alongside Firebloom on the volcano's slopes. Few places in Kalimdor have all four growing together."
   },
   {
    "target": "profession:Mining",
-   "text": "The sheer crater walls and the crags of Fire Plume Ridge are dense with Mithril Deposits and Rich Thorium Veins, making the zone a premier destination for high-end ore."
+   "text": "Mithril Deposits and Rich Thorium Veins are dense along the crater walls and the crags of Fire Plume Ridge. Un'Goro is a premier destination for high-end ore."
   },
   {
    "target": "class:Druid",
-   "text": "Cenarion Circle druids study Un'Goro's isolated ecosystem and harvest its rich soil to propagate Morrowgrain, seeking to understand the pure, untamed life force sustaining the caldera."
+   "text": "As a druid, you can study Un'Goro's isolated ecosystem with the Cenarion Circle and harvest its rich soil to grow Morrowgrain. The Circle seeks to understand the pure, untamed life force that sustains the caldera."
   },
   {
    "target": "faction:Alliance",
-   "text": "Alliance naturalists rally around Williden Marshal and J.D. Collie at Marshal's Refuge, racing to decipher the Titan pylons while safeguarding Darnassus researchers gathering soil samples."
+   "text": "As an Alliance naturalist, you can gather with Williden Marshal and J.D. Collie at Marshal's Refuge. Alliance naturalists race to decipher the Titan pylons while protecting Darnassus researchers who collect soil samples."
   },
   {
    "target": "faction:Horde",
-   "text": "Horde adventurers often arrive via Tanaris to test their prowess against legendary devilsaurs and assist the herbalists of Thunder Bluff in cultivating Morrowgrain from Un'Goro's primeval dirt."
+   "text": "As a Horde adventurer, you can come through Tanaris to test your prowess against legendary devilsaurs. You can also help Thunder Bluff herbalists cultivate Morrowgrain from Un'Goro's primeval dirt."
   }
  ],
  "keywords": [
@@ -132,5 +132,6 @@
  "attribution": [
   "Un'Goro Crater (Classic)",
   "Un'Goro Crater"
- ]
+ ],
+ "style": 2
 }

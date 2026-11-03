@@ -10,11 +10,11 @@
    "quest:529"
   ]
  },
- "summary": "In Hillsbrad Fields, a crate of raw iron waits at the human smithy. The metal feeds local arms production, making the shipment a target for Forsaken forces seeking to cut the supply lines that arm the townsfolk.",
+ "summary": "In Hillsbrad Fields, raw iron waits at the human smithy, where it arms the townsfolk against the Forsaken.",
  "sections": [
   {
    "title": "Fueling the Resistance",
-   "body": "Across the Hillsbrad Foothills, human peasants have mounted stiff resistance against Tarren Mill. Much of their strength comes from the smithy at the southwestern edge of Hillsbrad Fields, where Blacksmith Verringtan and his apprentices work round the clock, making weapons and armor from heavy shipments of iron. Forsaken commanders ordered the forge put out, its smiths killed, and its stored metal seized for the Horde war effort, hoping to break the farmers’ resolve.",
+   "body": "Human peasants across the Hillsbrad Foothills resist Tarren Mill. Much of their strength comes from the smithy at the southwestern edge of Hillsbrad Fields. Blacksmith Verringtan and his apprentices turn heavy shipments of iron into weapons and armor, working round the clock.\n\nForsaken commanders have ordered the forge put out, its smiths killed, and its stored metal seized for the Horde war effort. They hope to break the farmers’ resolve.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "where is the iron",
     "hillsbrad iron location"
    ],
-   "answer": "The shipment is kept inside the blacksmith workshop at the southwestern edge of Hillsbrad Fields. Blacksmith Verringtan and his apprentices guard it closely."
+   "answer": "The iron is kept inside the blacksmith workshop at the southwestern edge of Hillsbrad Fields. Blacksmith Verringtan and his apprentices guard it closely."
   },
   {
    "q": "Why does the Forsaken want this iron?",
@@ -35,7 +35,7 @@
     "tarren mill iron",
     "battle of hillsbrad iron purpose"
    ],
-   "answer": "The iron arms the local human militia, and the Forsaken want to cut off that supply. High Executor Darthalia also means to use the stockpiles for the Horde war machine when the offensive turns toward razing Southshore."
+   "answer": "The iron arms the local human militia, and the Forsaken want to cut off that supply. High Executor Darthalia also means to use the stockpiles for the Horde war effort when the offensive turns toward razing Southshore."
   },
   {
    "q": "Who was using this iron originally?",
@@ -44,7 +44,7 @@
     "verringtan iron",
     "hillsbrad blacksmiths"
    ],
-   "answer": "Blacksmith Verringtan and his four apprentice smiths used the iron to arm the townspeople and field workers, turning simple farmers into a local defense force against the undead."
+   "answer": "Blacksmith Verringtan and his four apprentice smiths used the iron to arm the townspeople and field workers. They turned simple farmers into a local defense force against the undead."
   },
   {
    "q": "Who orders the retrieval of the iron shipment?",
@@ -52,7 +52,7 @@
     "who gives the quest",
     "darthalia iron quest"
    ],
-   "answer": "High Executor Darthalia, commanding Forsaken operations out of Tarren Mill, orders the smiths slain and the iron claimed during the Battle of Hillsbrad."
+   "answer": "High Executor Darthalia commands Forsaken operations out of Tarren Mill. During the Battle of Hillsbrad, she orders the smiths slain and the iron claimed."
   }
  ],
  "angles": [
@@ -85,5 +85,5 @@
   "Shipment of Iron",
   "Battle of Hillsbrad (3)"
  ],
- "style": 1
+ "style": 2
 }

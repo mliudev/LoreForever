@@ -20,16 +20,16 @@
    "New Life"
   ]
  },
- "summary": "At Sun Rock Retreat, Tammra Windfield seeks Gaea seeds to help heal Stonetalon. She asks the Horde to gather the rare seeds from Mirkfallon Lake, hoping to bless them and restore the mountain’s damaged soil.",
+ "summary": "At Sun Rock Retreat, Tammra Windfield seeks Gaea seeds to heal Stonetalon. She asks the Horde to gather them from Mirkfallon Lake, so she can bless them and restore the mountain’s damaged soil.",
  "sections": [
   {
    "title": "A Scarred Wilderness",
-   "body": "Stonetalon’s peaks bear wounds from commercial exploitation and regional conflict. Logging and clashes between rival factions have left forests scorched, cut down, or reduced to ash. For the tauren stationed at Sun Rock Retreat, the rapid destruction of the natural world is a grievous wound. Shamans like Tammra Windfield seek the Earthmother’s restorative cycle as they work to mend the land.",
+   "body": "Logging and clashes between rival factions have scarred Stonetalon’s peaks. Forests have been scorched, cut down, or reduced to ash. For the tauren at Sun Rock Retreat, the swift ruin of the natural world is a grievous wound. Shamans such as Tammra Windfield turn to the Earthmother’s renewing cycle as they work to mend the land.",
    "spoiler": 0
   },
   {
    "title": "The Seeds of Mirkfallon",
-   "body": "Tammra seeks rare Gaea seeds around Mirkfallon Lake, north of Sun Rock Retreat. The lake’s banks nurture sturdy seed pods along the water’s edge. These seeds have a resilience unique to Stonetalon, though danger surrounds the region. Once they are gathered, Tammra channels ancestral shamanistic blessings into each kernel, awakening its power to speed its growth.",
+   "body": "Tammra seeks rare Gaea seeds along Mirkfallon Lake, north of Sun Rock Retreat. Sturdy seed pods grow on the banks by the water, holding a resilience found only in Stonetalon. Once gathered, Tammra gives each kernel an ancestral shamanistic blessing. The blessing awakens its power and hastens its growth.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "what are gaea seeds for",
     "cycle of rebirth purpose"
    ],
-   "answer": "Gaea seeds have the vitality Tammra Windfield seeks for restoring damaged land. She gathers them to bless with the Earthmother’s power, preparing them to sprout quickly and replenish parts of Stonetalon ruined by industry and war."
+   "answer": "Gaea seeds carry the vitality Tammra Windfield needs to restore damaged land. She blesses them with the Earthmother’s power so they can sprout quickly and replenish parts of Stonetalon ruined by industry and war."
   },
   {
    "q": "Where are the Gaea seeds located?",
@@ -50,7 +50,7 @@
     "where to find gaea seeds",
     "mirkfallon lake seeds"
    ],
-   "answer": "Gaea seeds lie along Mirkfallon Lake’s shoreline, north of Sun Rock Retreat in the Stonetalon Mountains. They can be found in the dirt near the water’s edge around the lake."
+   "answer": "Gaea seeds grow along Mirkfallon Lake’s shoreline, north of Sun Rock Retreat in the Stonetalon Mountains. Look in the dirt near the water’s edge around the lake."
   },
   {
    "q": "Who is Tammra Windfield?",
@@ -58,7 +58,7 @@
     "who is tammra",
     "tammra windfield lore"
    ],
-   "answer": "Tammra Windfield is a tauren shaman at Sun Rock Retreat. Logging and wartime conflict have devastated Stonetalon, and she works to heal the land with Earthmother blessings."
+   "answer": "Tammra Windfield is a tauren shaman at Sun Rock Retreat. She works to heal Stonetalon with Earthmother blessings after logging and wartime conflict devastate the land."
   },
   {
    "q": "What does Tammra do once the seeds are returned?",
@@ -66,7 +66,7 @@
     "what happens to seeds",
     "turn in cycle of rebirth"
    ],
-   "answer": "When Tammra receives the ten Gaea seeds, she chants to infuse them with shamanistic energy and quicken their growth, preparing them for planting in devastated places."
+   "answer": "When Tammra receives the ten Gaea seeds, she chants over them and fills them with shamanistic energy. This quickens their growth and prepares them for planting in devastated places."
   },
   {
    "q": "What quest follows Cycle of Rebirth?",
@@ -75,7 +75,7 @@
     "next quest after cycle of rebirth",
     "what is after cycle of rebirth"
    ],
-   "answer": "Cycle of Rebirth leads to New Life, when the blessed seeds are carried into the devastated Charred Vale to begin restoring plant life."
+   "answer": "After Cycle of Rebirth comes New Life. The blessed seeds are carried into the devastated Charred Vale to begin restoring plant life."
   },
   {
    "q": "Why is the land of Stonetalon in need of healing?",
@@ -83,21 +83,21 @@
     "why is stonetalon ruined",
     "what happened to stonetalon"
    ],
-   "answer": "The Stonetalon Mountains have suffered damage from warfare and extensive clear-cutting by industrial lumber ventures. Scorched wastelands and scarred valleys struggle to regrow naturally."
+   "answer": "Warfare and extensive clear-cutting by industrial lumber ventures have damaged the Stonetalon Mountains. Scorched wastelands and scarred valleys struggle to regrow on their own."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "Tammra’s work reflects the shamanic calling to mend ecological imbalance. The spirits and the Earthmother can restore what industrial exploitation tears down."
+   "text": "Tammra’s work follows the shaman’s calling to mend ecological imbalance. The spirits and the Earthmother can restore what industrial exploitation tears down."
   },
   {
    "target": "race:Tauren",
-   "text": "For the Shu'halo, healing Stonetalon’s wounded soil is a spiritual duty to the Earthmother, answering the damage caused by reckless logging and factional warfare."
+   "text": "For the Shu'halo, healing Stonetalon’s wounded soil is a spiritual duty to the Earthmother. It answers the damage caused by reckless logging and factional warfare."
   },
   {
    "target": "class:Druid",
-   "text": "Druids may recognize the focus on natural cycles and seed cultivation. Restoring barren earth echoes Cenarion stewardship."
+   "text": "Druids may recognize the focus on natural cycles and cultivating seeds. Restoring barren earth echoes Cenarion stewardship."
   }
  ],
  "keywords": [
@@ -122,5 +122,5 @@
  "attribution": [
   "Cycle of Rebirth"
  ],
- "style": 1
+ "style": 2
 }

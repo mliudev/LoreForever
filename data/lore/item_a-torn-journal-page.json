@@ -10,16 +10,16 @@
    "quest:74"
   ]
  },
- "summary": "In Stormwind, A Torn Journal Page links an old crate to Stalvan Mistmantle's past. Its worn script points toward records kept in Elwynn Forest.",
+ "summary": "In Stormwind, A Torn Journal Page carries a clue to Stalvan Mistmantle's past. Its worn script points toward old records in Elwynn Forest.",
  "sections": [
   {
    "title": "A Clue in the Canals",
-   "body": "A Torn Journal Page lies in a sealed storage crate beside Stormwind City's canals. Old books, family heirlooms, and a ceramic vase surround the worn fragment among forgotten personal effects. Its distinct handwriting points to Stalvan Mistmantle's past, though the page is damaged and hard to read. Who in the kingdom might recognize the hand that wrote it?",
+   "body": "A Torn Journal Page rests in a sealed storage crate beside Stormwind City's canals. Forgotten personal effects surround it, including old books, family heirlooms, and a ceramic vase. The writing points to Stalvan Mistmantle's past, though the page is damaged and hard to read. Who in the kingdom might know that hand?",
    "spoiler": 0
   },
   {
    "title": "Tracing the Mistmantle Trail",
-   "body": "Marshal Haggard lives in Elwynn Forest, far from Stormwind. The aging officer's eyesight is failing, but he remembers the distinctive handwriting from an earlier chapter in the tragic Mistmantle saga. The weathered page must be brought to someone familiar with the kingdom's older records.",
+   "body": "Marshal Haggard lives in Elwynn Forest, far from Stormwind. The aging officer's eyesight is failing, yet he remembers the distinctive handwriting from an earlier chapter in the tragic Mistmantle saga. The weathered page must reach someone familiar with the kingdom's older records.",
    "spoiler": 1
   }
  ],
@@ -31,7 +31,7 @@
     "where to find torn journal page",
     "sealed crate stormwind"
    ],
-   "answer": "A Torn Journal Page lies inside a sealed storage crate beside Stormwind City's canals, beneath forgotten household items, hunting trophies, and an old ceramic vase."
+   "answer": "A Torn Journal Page lies in a sealed storage crate beside Stormwind City's canals. Forgotten household items, hunting trophies, and an old ceramic vase lie beneath it."
   },
   {
    "q": "Whose journal did this page come from?",
@@ -40,7 +40,7 @@
     "torn page author",
     "who is stalvan"
    ],
-   "answer": "The page came from Stalvan Mistmantle's personal writings. He was a former tutor whose dark past and sudden disappearance drew investigation across Duskwood and Elwynn Forest."
+   "answer": "The page came from Stalvan Mistmantle's personal writings. He was a former tutor whose dark past and sudden disappearance prompted an investigation across Duskwood and Elwynn Forest."
   },
   {
    "q": "Who can read the handwriting on the torn page?",
@@ -57,13 +57,13 @@
     "why duskwood care about journal",
     "stalvan connection duskwood"
    ],
-   "answer": "Finding the page matters because the Town Council of Darkshire is piecing together Stalvan Mistmantle's history to uncover the truth behind unsettling occurrences and long-buried crimes tied to him."
+   "answer": "The page matters because the Town Council of Darkshire is piecing together Stalvan Mistmantle's history. They seek the truth behind unsettling occurrences and long-buried crimes tied to him."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance member, you can see how unresolved crimes and forgotten records in Stormwind and Elwynn reach outward to haunt Duskwood's struggling frontier."
+   "text": "As an Alliance member, you can see how unresolved crimes and forgotten records in Stormwind and Elwynn reach outward to trouble Duskwood's struggling frontier."
   }
  ],
  "keywords": [
@@ -88,5 +88,5 @@
   "A Torn Journal Page",
   "The Legend of Stalvan (7)"
  ],
- "style": 1
+ "style": 2
 }

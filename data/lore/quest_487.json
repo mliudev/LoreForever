@@ -17,21 +17,21 @@
   "wiki": "The Road to Darnassus (Classic)",
   "chain": []
  },
- "summary": "Along Teldrassil’s western road, corrupted Gnarlpine furbolgs threaten the route from Dolanaar to Darnassus. Moon Priestess Amara coordinates scouts and travelers to keep this trade and messenger road clear of ambushes.",
+ "summary": "Travelers on Teldrassil’s western road face attacks from corrupted Gnarlpine furbolgs. Moon Priestess Amara coordinates scouts and travelers to keep the route from Dolanaar to Darnassus clear for trade and messages.",
  "sections": [
   {
    "title": "A Lifeline Under Siege",
-   "body": "You travel west from Dolanaar toward Darnassus on Teldrassil’s main overland road. Trade goods, political messages, and travelers use it each day to stay connected with the capital and the boughs of the great tree. Teldrassil is young and wild, so safe roads matter to its kaldorei communities.",
+   "body": "You travel west from Dolanaar toward Darnassus on Teldrassil’s main road. Goods, political messages, and travelers pass this way each day, linking the capital with the boughs of the great tree. Teldrassil is young and wild, so its kaldorei communities depend on safe roads.",
    "spoiler": 0
   },
   {
    "title": "The Gnarlpine Menace",
-   "body": "The Gnarlpine furbolgs of Teldrassil have fallen to a foul corruption. Driven mad by a sickness plaguing the boughs of the World Tree, they attack from hidden dens beneath the ridges. Gnarlpine ambushers stalk the tree line beside the road, preying on couriers and travelers and making the forest passage deadly.",
+   "body": "The Gnarlpine furbolgs have been driven mad by a sickness in the boughs of the World Tree. They attack from dens beneath the ridges. Along the road, ambushers stalk the tree line and prey on couriers and travelers, making the passage through the forest deadly.",
    "spoiler": 0
   },
   {
    "title": "The Sentinels' Vigil",
-   "body": "Moon Priestess Amara watches over the road outside Dolanaar. She joins the spiritual authority of Elune’s priesthood with the Sentinels’ vigilance, directing capable travelers to strike at ambushers near their dens below the road. The safety of the route to Darnassus’s gates depends on keeping them at bay.",
+   "body": "Moon Priestess Amara watches over the road outside Dolanaar. She joins the spiritual authority of Elune’s priesthood with the Sentinels’ vigilance. Amara directs capable travelers to strike at ambushers near their dens below the road. The route to Darnassus’s gates depends on keeping them at bay.",
    "spoiler": 0
   }
  ],
@@ -43,7 +43,7 @@
     "gnarlpine road attacks",
     "why is the road unsafe"
    ],
-   "answer": "Corrupted Gnarlpine furbolgs have made dens along the low ridges below the road. The corruption spreading through Teldrassil has driven them mad, and they attack travelers, couriers, and merchants from the underbrush."
+   "answer": "Corrupted Gnarlpine furbolgs have made dens along the low ridges below the road. Sickness spreading through Teldrassil has driven them mad, and they attack travelers, couriers, and merchants from the underbrush."
   },
   {
    "q": "Who is Moon Priestess Amara?",
@@ -52,7 +52,7 @@
     "amara nightwalker",
     "who is amara"
    ],
-   "answer": "Moon Priestess Amara, also addressed by her full name, Sentinel Amara Nightwalker, is a night elf commander stationed on Dolanaar’s western outskirts. She oversees the road’s security and coordinates efforts against the nearby Gnarlpine."
+   "answer": "Moon Priestess Amara, also addressed by her full name, Sentinel Amara Nightwalker, is a night elf commander on Dolanaar’s western outskirts. She oversees the road’s security and coordinates efforts against the nearby Gnarlpine."
   },
   {
    "q": "Why are the Gnarlpine furbolgs aggressive?",
@@ -61,7 +61,7 @@
     "furbolg corruption teldrassil",
     "are gnarlpine evil"
    ],
-   "answer": "Furbolgs were once peaceful allies and neighbors of the kaldorei. On Teldrassil, a strange malady infecting the World Tree has twisted the Gnarlpine, making them violent and driving them to attack anyone entering the forest."
+   "answer": "Furbolgs were once peaceful allies and neighbors of the kaldorei. A strange malady infecting the World Tree has twisted the Gnarlpine on Teldrassil, making them violent and driving them to attack anyone entering the forest."
   },
   {
    "q": "Where are the ambushers hiding?",
@@ -70,7 +70,7 @@
     "find ambushers",
     "ambusher den location"
    ],
-   "answer": "The ambushers hide below the bluffs and vantage points just off the main road west of Dolanaar. Their dens let them leap upon travelers heading toward Darnassus."
+   "answer": "The ambushers hide below the bluffs and vantage points just off the main road west of Dolanaar. From their dens, they can leap upon travelers heading toward Darnassus."
   },
   {
    "q": "Why doesn't Darnassus send a full Sentinel garrison to clear the road?",
@@ -98,7 +98,7 @@
   },
   {
    "target": "class:Priest",
-   "text": "As a priest, you aid Moon Priestess Amara and the Sisterhood of Elune, which gives spiritual leadership and martial defense to the young tree."
+   "text": "As a priest, you aid Moon Priestess Amara and the Sisterhood of Elune. The sisterhood gives spiritual leadership and martial defense to the young tree."
   },
   {
    "target": "faction:Alliance",
@@ -128,5 +128,5 @@
  "attribution": [
   "The Road to Darnassus (Classic)"
  ],
- "style": 1
+ "style": 2
 }

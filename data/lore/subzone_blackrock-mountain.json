@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Blackrock Mountain"
  },
- "summary": "Blackrock Mountain is a massive, active volcano that towers between the Burning Steppes and the Searing Gorge. Borne from the cataclysmic summoning of Ragnaros the Firelord, its hollowed depths house ancient dwarven masonry, warring armies, and smoldering horrors.",
+ "summary": "In Blackrock Mountain, rival armies fight above depths scarred by fire and war. Ragnaros's summoning raised the volcano between the Burning Steppes and the Searing Gorge, and its roots now hold dwarven halls.",
  "sections": [
   {
    "title": "A Cataclysmic Origin",
-   "body": "Blackrock Mountain did not exist until the climax of the War of the Three Hammers two and a half centuries ago. Facing annihilation by the united armies of Ironforge and the Wildhammer clan, Sorcerer-Thane Thaurissan reached into the depths of the earth for a weapon. His reckless spell shattered the dimensional barriers and summoned Ragnaros the Firelord into Azeroth. The resulting apocalypse tore the Redridge range apart, gouging out the Searing Gorge and Burning Steppes while thrusting a colossal volcano into the sky. Thaurissan perished in the blast, and the surviving Dark Iron clan was bound into eternal servitude to the Firelord, carving their capital, Shadowforge City, deep within the mountain's roots.",
+   "body": "Blackrock Mountain rose from the War of the Three Hammers two and a half centuries ago. The united armies of Ironforge and the Wildhammer clan threatened to destroy the Dark Iron dwarves. So Sorcerer-Thane Thaurissan reached into the earth for a weapon, and his spell broke the barriers between worlds. It brought Ragnaros the Firelord to Azeroth.\n\nThe blast tore apart the Redridge range, carved out the Searing Gorge and Burning Steppes, and hurled a vast volcano into the sky. Thaurissan died in the destruction. The surviving Dark Iron clan was bound to serve the Firelord forever. They carved Shadowforge City deep among the mountain's roots.",
    "spoiler": 0
   },
   {
    "title": "Citadel of Ash and Blood",
-   "body": "During the First and Second Wars, the mountain took on a grim new significance. Following the sack of Stormwind, Orgrim Doomhammer purged the Shadow Council and made Blackrock Spire the fortress capital of the Horde. Today, the mountain remains a vicious theater of war: the Dark Iron dwarves and their elemental master hold the fiery depths, while the rogue Blackrock orcs, dragonkin, and their dark masters occupy the spires above.",
+   "body": "Blackrock Mountain claimed a grim place in history during the First and Second Wars. After Stormwind was sacked, Orgrim Doomhammer purged the Shadow Council and made Blackrock Spire the Horde's fortress capital. The mountain remains a battlefield.\n\nDark Iron dwarves and their elemental master hold the fiery depths. Above, rogue Blackrock orcs, dragonkin, and their dark masters occupy the spires.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "who made blackrock mountain",
     "how did the volcano form"
    ],
-   "answer": "It was created roughly 250 years ago during the War of the Three Hammers. Desperate to defeat rival dwarven clans, Sorcerer-Thane Thaurissan attempted to unleash deep subterranean energies and accidentally summoned Ragnaros the Firelord, sparking an apocalyptic blast that raised the volcano."
+   "answer": "Blackrock Mountain rose about two hundred and fifty years ago during the War of the Three Hammers. Sorcerer-Thane Thaurissan sought power beneath the earth to defeat rival dwarven clans. His spell summoned Ragnaros the Firelord and unleashed the blast that raised the volcano."
   },
   {
    "q": "Why is it named Blackrock Mountain?",
@@ -36,7 +36,7 @@
     "blackrock name origin",
     "named after blackrock clan"
    ],
-   "answer": "The accounts of this era don't say who first gave the mountain its name. It shares that name with the Blackrock clan of orcs: Orgrim Doomhammer's Horde made Blackrock Spire its capital during the Second War, and Blackrock remnants still hold the spire today."
+   "answer": "No account names the first person to call it Blackrock Mountain. The name also belongs to the Blackrock orcs. During the Second War, Orgrim Doomhammer's Horde made Blackrock Spire its capital, and Blackrock remnants still hold it."
   },
   {
    "q": "Who controls Blackrock Mountain right now?",
@@ -44,7 +44,7 @@
     "who lives in blackrock",
     "who rules blackrock mountain"
    ],
-   "answer": "The mountain is divided in a brutal conflict. The enslaved Dark Iron dwarves control the subterranean halls of Shadowforge City in service to Ragnaros, while the remnants of the Blackrock clan and black dragonkin dominate the upper citadel of Blackrock Spire."
+   "answer": "Dark Iron dwarves hold the halls of Shadowforge City and serve Ragnaros. Above them, Blackrock remnants and black dragonkin dominate Blackrock Spire."
   },
   {
    "q": "What zones connect through Blackrock Mountain?",
@@ -52,17 +52,17 @@
     "how to get through blackrock",
     "blackrock mountain connections"
    ],
-   "answer": "The interior paths and chains of Blackrock Mountain serve as a direct passage between the Searing Gorge to the north and the Burning Steppes to the south."
+   "answer": "Interior paths and chains through Blackrock Mountain link the Searing Gorge to the north with the Burning Steppes to the south."
   }
  ],
  "angles": [
   {
    "target": "race:Dwarf",
-   "text": "The mountain represents the darkest chapter in dwarven history: the tragic folly of the Dark Iron clan that cost them their freedom and scarred the face of the Eastern Kingdoms."
+   "text": "For dwarves, Blackrock Mountain marks a dark chapter in their history. The Dark Iron clan's folly cost them their freedom and scarred the Eastern Kingdoms."
   },
   {
    "target": "faction:Horde",
-   "text": "For the modern Horde, Blackrock Spire is a symbol of their past bondage and bloodshed under Doomhammer, now contested by rogue orcs who reject Thrall's leadership."
+   "text": "For the Horde, Blackrock Spire recalls bondage and bloodshed under Doomhammer. Rogue orcs who reject Thrall's leadership now contest it."
   }
  ],
  "keywords": [
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "Blackrock Mountain"
- ]
+ ],
+ "style": 2
 }

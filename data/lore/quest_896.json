@@ -17,16 +17,16 @@
   "wiki": "Miner's Fortune (Classic)",
   "chain": []
  },
- "summary": "Wharfmaster Dizzywig has heard of a fist-sized emerald at the Venture Company's Boulder Lode Mine. He hires you to take the Cats Eye Emerald from the mine's supervisors and share the profits.",
+ "summary": "Wharfmaster Dizzywig has word of a great emerald at Boulder Lode Mine. He wants you to take it from the Venture Company's overseers and share the proceeds.",
  "sections": [
   {
    "title": "Eyes on the Docks",
-   "body": "Wharfmaster Dizzywig hears the merchants who pass through Ratchet's harbor on the routes between Ratchet and Booty Bay. Word reaches him of a huge gem found deep in the Boulder Lode Mine. The Venture Company strips the northern Barrens for its own gain, so few are likely to ask questions if its finest recent find disappears.",
+   "body": "Merchants sailing between Ratchet and Booty Bay bring news to Wharfmaster Dizzywig. Now word has reached him of a huge gem found deep in Boulder Lode Mine. The Venture Company strips the northern Barrens for its own gain, so few are likely to ask questions if its finest recent find vanishes.",
    "spoiler": 0
   },
   {
    "title": "A Cut of the Lode",
-   "body": "Northeast of the Sludge Fen, laborers fill the Boulder Lode Mine's rocky shaft. The Venture Co. Overseers and Enforcers have taken the Cats Eye Emerald, and an ordinary digger cannot claim a prize so rare. You need to face the armed managers, secure the stone, and bring it to Dizzywig. He can judge its value against the market in Undermine.",
+   "body": "Northeast of the Sludge Fen, laborers work the rocky shaft of Boulder Lode Mine. The Venture Co. Overseers and Enforcers hold the Cats Eye Emerald, and an ordinary digger cannot claim so rare a prize. Face the armed managers, take the stone, and bring it to Dizzywig. He can weigh its worth against the market in Undermine.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gives miners fortune",
     "ratchet wharfmaster"
    ],
-   "answer": "Wharfmaster Dizzywig is a goblin dock official in Ratchet. He oversees cargo and passengers traveling by sea to and from Booty Bay, and trades in gossip, rumors, and merchant information."
+   "answer": "Wharfmaster Dizzywig is a goblin dock official in Ratchet. He oversees cargo and passengers sailing to and from Booty Bay, and trades in gossip, rumors, and merchant news."
   },
   {
    "q": "Where is the Boulder Lode Mine located?",
@@ -47,7 +47,7 @@
     "where is the emerald",
     "venture co mine barrens"
    ],
-   "answer": "The Boulder Lode Mine lies in the northern Barrens, in the hills just northeast of the Sludge Fen's oil operation."
+   "answer": "Boulder Lode Mine lies in the northern Barrens, in the hills just northeast of the Sludge Fen's oil operation."
   },
   {
    "q": "Who holds the Cats Eye Emerald at the mine?",
@@ -56,7 +56,7 @@
     "cats eye emerald drop",
     "where is cats eye emerald"
    ],
-   "answer": "The Venture Co. Overseers and Venture Co. Enforcers hold the Cats Eye Emerald. They direct and guard the mining work at the Boulder Lode Mine."
+   "answer": "The Venture Co. Overseers and Venture Co. Enforcers hold the Cats Eye Emerald. They direct and guard the mining work at Boulder Lode Mine."
   },
   {
    "q": "What is the Venture Company's interest in the Barrens?",
@@ -80,13 +80,13 @@
     "does dizzywig split 50 50",
     "dizzywig payout"
    ],
-   "answer": "Dizzywig promises you half the estimated Undermine market value when you deliver the Cats Eye Emerald, and he honors the bargain."
+   "answer": "Dizzywig promises you half the estimated Undermine market value when you deliver the Cats Eye Emerald. He honors the bargain."
   }
  ],
  "angles": [
   {
    "target": "profession:Mining",
-   "text": "As a miner, you can recognize how rare a whole emerald the size of a fist is. Gems of that size almost never survive excavation without cracking or breaking."
+   "text": "As a miner, you know how rare a whole emerald the size of a fist must be. Gems that large almost never survive excavation without cracking or breaking."
   },
   {
    "target": "class:Rogue",
@@ -94,7 +94,7 @@
   },
   {
    "target": "faction:Horde",
-   "text": "As a Horde member, you strike at the Venture Company's managers at Boulder Lode Mine and disrupt an industrial cartel encroaching on Horde-held Barrens lands."
+   "text": "As a member of the Horde, you strike at the Venture Company's managers at Boulder Lode Mine. You disrupt an industrial cartel encroaching on Horde-held Barrens lands."
   }
  ],
  "keywords": [
@@ -120,5 +120,5 @@
  "attribution": [
   "Miner's Fortune (Classic)"
  ],
- "style": 1
+ "style": 2
 }

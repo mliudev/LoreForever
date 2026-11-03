@@ -8,11 +8,11 @@
   "wiki": "Teronis' Corpse",
   "refs": 2
  },
- "summary": "On an island in western Ashenvale, Teronis' Corpse lies in Lake Falathim. The night elf scout left Astranaar to find Dartol's Rod and help cleanse the forest.",
+ "summary": "On an island in western Ashenvale, Teronis' Corpse lies in Lake Falathim. The night elf scout left Astranaar seeking Dartol's Rod to help cleanse the forest.",
  "sections": [
   {
    "title": "A Scout's Grim Fate",
-   "body": "Teronis was sent from Astranaar to recover Dartol's Rod. Raene Wolfrunner gave the night elf scout this charge, seeking an ancient relic that could cleanse corrupted woodland magic. Teronis searched the waters of Lake Falathim, but hostile murlocs swarmed the island and killed him. His journal remains there, while the murlocs took the rod's radiant gemstone.",
+   "body": "Teronis was a night elf scout sent from Astranaar by Raene Wolfrunner to recover Dartol's Rod. The ancient relic could cleanse corrupted woodland magic. Teronis searched Lake Falathim, but hostile murlocs swarmed the island and killed him. His journal remains there, while the murlocs took the rod's radiant gemstone.",
    "spoiler": 0
   }
  ],
@@ -42,7 +42,7 @@
     "lost gem",
     "teronis gem"
    ],
-   "answer": "Local murlocs around Lake Falathim scavenged the glowing gemstone that crowned Dartol's Rod after Teronis was killed."
+   "answer": "Murlocs around Lake Falathim took the glowing gemstone that crowned Dartol's Rod after Teronis was killed."
   },
   {
    "q": "Why is recovering his mission so important to Astranaar?",
@@ -83,5 +83,5 @@
  "attribution": [
   "Teronis' Corpse"
  ],
- "style": 1
+ "style": 2
 }

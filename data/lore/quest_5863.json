@@ -18,16 +18,16 @@
   "chain": [],
   "category": "Tanaris"
  },
- "summary": "Andi Lynn in Gadgetzan warns of a large band of nomadic ogres that has lately arrived in Tanaris. South of town they have formed a compound, and Andi Lynn wants it destroyed before they can build up a force.",
+ "summary": "In the desert south of Gadgetzan, a growing ogre force has Andi Lynn afraid. She wants the compound destroyed before the ogres gather more strength.",
  "sections": [
   {
    "title": "Ogres in the Desert",
-   "body": "A large band of nomadic ogres has arrived in Tanaris of late. South of Gadgetzan they have seized a broad stretch of desert and formed the Dunemaul Compound. Several smaller bands wander the desert as well, and some have invaded the old troll ruins. Andi Lynn says the ogres cannot be allowed to build up a force.",
+   "body": "A large band of nomadic ogres has reached Tanaris. South of Gadgetzan, they have claimed a broad stretch of desert and made their compound. Smaller bands roam the desert, and some have entered the old troll ruins. Andi Lynn fears what may happen if the ogres grow stronger.",
    "spoiler": 0
   },
   {
    "title": "Cutting Off the Head",
-   "body": "Andi Lynn wants ten Dunemaul Brutes and ten Dunemaul Enforcers cut down. The leader of the band is Gor'marok the Ravager, and Andi Lynn believes that once he no longer commands, the ogres will begin to crumble.",
+   "body": "Andi Lynn wants ten Dunemaul Brutes and ten Dunemaul Enforcers cut down. Gor'marok the Ravager leads the band. Andi Lynn believes the ogres will begin to crumble once he no longer commands them.",
    "spoiler": 0
   }
  ],
@@ -39,7 +39,7 @@
     "who gives the quest",
     "quest giver"
    ],
-   "answer": "Andi Lynn, in Gadgetzan."
+   "answer": "Andi Lynn, in Gadgetzan, calls for the Dunemaul Compound to be destroyed."
   },
   {
    "q": "Where is the Dunemaul Compound?",
@@ -48,7 +48,7 @@
     "where are the ogres",
     "dunemaul location"
    ],
-   "answer": "South of Gadgetzan, in a large area of the desert the ogres have taken over."
+   "answer": "The ogres have claimed a large stretch of desert south of Gadgetzan."
   },
   {
    "q": "Who leads the Dunemaul ogres?",
@@ -57,7 +57,7 @@
     "who is gormarok",
     "gor'marok the ravager"
    ],
-   "answer": "Gor'marok the Ravager leads the band. Andi Lynn believes the ogres will start to fall once he is gone from command."
+   "answer": "Gor'marok the Ravager leads the Dunemaul ogres. Andi Lynn believes they will begin to fall once he no longer commands them."
   },
   {
    "q": "Why does Andi Lynn see the ogres as a danger?",
@@ -65,7 +65,7 @@
     "why kill the ogres",
     "ogre danger tanaris"
    ],
-   "answer": "Andi Lynn says the ogres cannot be allowed to build up a force. A large band holds a compound south of town, and smaller bands roam the desert, some of them in the old troll ruins."
+   "answer": "Andi Lynn fears the ogres will gather strength. A large band holds a compound south of Gadgetzan, while smaller bands roam the desert, and some have entered the old troll ruins."
   }
  ],
  "angles": [],
@@ -87,5 +87,6 @@
  ],
  "attribution": [
   "The Dunemaul Compound"
- ]
+ ],
+ "style": 2
 }

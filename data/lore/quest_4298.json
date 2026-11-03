@@ -24,16 +24,16 @@
    "Freedom for All Creatures"
   ]
  },
- "summary": "Agnar Beastamer in the Hinterlands has found the egg much further along than expected, and wants a word with you about it.",
+ "summary": "In the Hinterlands, Agnar Beastamer has news: the egg is further along than he expected. He wants to speak with you.",
  "sections": [
   {
    "title": "Sooner Than Expected",
-   "body": "Agnar Beastamer was not prepared for how ready the egg turned out to be. Speak with Agnar in the Hinterlands, where you have been bringing food for the hatchling.",
+   "body": "The egg has advanced further than Agnar Beastamer expected. You have brought food for the hatchling. Now speak with Agnar in the Hinterlands.",
    "spoiler": 0
   },
   {
    "title": "A Parent, of a Sort",
-   "body": "Agnar hands the egg over, so that it will bond to you and look to you as its parent. Agnar congratulates you on becoming a parent, of a sort.",
+   "body": "Agnar Beastamer gives you the egg so it can bond with you and look to you as its parent. He congratulates you on becoming a parent, of a sort.",
    "spoiler": 1
   }
  ],
@@ -45,7 +45,7 @@
     "becoming a parent quest giver",
     "agnar beastamer quest"
    ],
-   "answer": "Agnar Beastamer, who has been looking after the egg in the Hinterlands."
+   "answer": "Agnar Beastamer has news about the egg. He has been looking after it in the Hinterlands."
   },
   {
    "q": "Where do I find Agnar Beastamer?",
@@ -53,7 +53,7 @@
     "becoming a parent location",
     "where is agnar beastamer"
    ],
-   "answer": "Agnar is in the Hinterlands."
+   "answer": "Agnar Beastamer is in the Hinterlands."
   },
   {
    "q": "What came before this step?",
@@ -61,7 +61,7 @@
     "becoming a parent prerequisite",
     "previous quest becoming a parent"
    ],
-   "answer": "It follows Food for Baby, in which you gathered meat for the hatchling."
+   "answer": "Before this, you gathered meat for the hatchling in Food for Baby."
   }
  ],
  "angles": [],
@@ -82,5 +82,6 @@
  ],
  "attribution": [
   "Becoming a Parent"
- ]
+ ],
+ "style": 2
 }

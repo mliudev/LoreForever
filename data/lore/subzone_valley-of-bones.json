@@ -7,11 +7,11 @@
  "meta": {
   "wiki": "Valley of Bones"
  },
- "summary": "The Valley of Bones is a desolate canyon along the crags of Shen'dralas, choked with dust, ancient remains, and restless undead. Haunted by the lingering spirits of the Magram centaur clan and patrolled by dark necromancers, it is dominated by the colossal rib cages of mysterious ancient beasts known as the Dead Goliaths.",
+ "summary": "In Shen'dralas, the Valley of Bones lies choked with dust and ancient remains. Restless dead haunt its canyon, where centaur necromancers patrol among the colossal ribs of two Dead Goliaths.",
  "sections": [
   {
    "title": "A Canyon of the Restless Dead",
-   "body": "Tucked away in the southern reaches of the region, the Valley of Bones lives up to its grim name. Skeletal horrors walk the dusty ravines, raised and bound by centaur necromancers who draw upon dark sorceries. The spirits of deceased Magram centaur wander the wastes alongside them, bound to this barren earth long after their violent deaths. Adding to the canyon's ominous nature are the Dead Goliaths\u2014two immense skeletons slumped against the rocky cliffs whose true origin remains a total mystery to scholars and wanderers alike.",
+   "body": "Skeletal horrors walk the dusty ravines of the Valley of Bones, a canyon in the south. Centaur necromancers raise them with dark sorcery and command them. The spirits of the Magram centaur clan wander there too, bound to the barren earth long after their violent deaths. Two immense skeletons, called the Dead Goliaths, slump against the rocky cliffs. Scholars and travelers do not know where they came from.",
    "spoiler": 0
   }
  ],
@@ -23,7 +23,7 @@
     "huge skeletons desolace",
     "dead goliaths lore"
    ],
-   "answer": "The Dead Goliaths are the colossal remains of two massive, unidentified creatures resting against the canyon walls. Little is known about what species they belonged to or when they died, though their sheer scale suggests beasts from an ancient, forgotten era."
+   "answer": "The Dead Goliaths are the colossal remains of two unknown creatures against the canyon walls. Little is known of their kind or when they died, though their great size suggests beasts from a forgotten era."
   },
   {
    "q": "Why are there centaur ghosts here?",
@@ -32,7 +32,7 @@
     "why centaur spirits",
     "undead centaur"
    ],
-   "answer": "The spirits belong to the Magram clan, one of the violent centaur tribes native to these arid plains. Between the unending inter-clan warfare and the presence of centaur necromancers meddling with the dead, their spirits have been denied rest, haunting the canyon as wandering apparitions."
+   "answer": "The ghosts belong to the Magram, a violent centaur clan native to these arid plains. Unending war between centaur clans and the necromancers' meddling with the dead have denied the Magram spirits rest. They wander the canyon as apparitions."
   },
   {
    "q": "Who controls the skeletons in the valley?",
@@ -40,13 +40,13 @@
     "who commands skeletons",
     "necromancers valley of bones"
    ],
-   "answer": "Centaur necromancers practice dark rites within the canyon, raising and commanding skeletal minions to guard the crags and maintain their foothold among the dead."
+   "answer": "Centaur necromancers practice dark rites in the canyon. They raise skeletal servants and command them to guard the crags and hold their ground among the dead."
   }
  ],
  "angles": [
   {
    "target": "class:Priest",
-   "text": "The desecration of spirits in the valley is severe, as dark practitioners pervert the natural transition of death by binding Magram souls and raising twisted skeletal servitors."
+   "text": "As a priest, you witness the valley's desecration of spirits. Dark practitioners bind Magram souls and raise twisted skeletal servants, perverting death's natural passage."
   }
  ],
  "keywords": [
@@ -65,5 +65,6 @@
  ],
  "attribution": [
   "Valley of Bones"
- ]
+ ],
+ "style": 2
 }

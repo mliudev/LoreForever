@@ -20,16 +20,16 @@
    "Kill Grundig Darkcloud"
   ]
  },
- "summary": "At Grimtotem Post, Grundig Darkcloud leads the Grimtotem force that sacked Makaba Flathoof's home. After you strike down the ruffians and mercenaries, Makaba sends you after Grundig and his brutes.",
+ "summary": "At Grimtotem Post, Grundig Darkcloud waits after leading the force that sacked Makaba Flathoof's home. Makaba sends you after Grundig once you have struck down the ruffians and mercenaries.",
  "sections": [
   {
    "title": "The Butcher of the Path",
-   "body": "Makaba Flathoof survived the assault on his settlement along the Stonetalon trail, but his grief is still raw. After you prove yourself against Grimtotem foot soldiers, he points you toward Grundig Darkcloud, the one behind the bloodshed. Grundig commands a devoted band of brutes and led the slaughter that leveled the village.",
+   "body": "Makaba Flathoof survived the Grimtotem assault on his settlement along the Stonetalon trail, but grief still weighs on him. You have proved yourself against Grimtotem foot soldiers. Now Makaba points you toward Grundig Darkcloud, who led the slaughter that leveled the village and commands a devoted band of brutes.",
    "spoiler": 0
   },
   {
    "title": "Strike at Grimtotem Post",
-   "body": "Grundig camps at Grimtotem Post, farther up the mountain road to the west. To avenge Makaba's kin and protect the pass from more violence, you climb to the stronghold, fight through Grundig's brutes, and kill him before his raiders can descend on other vulnerable camps.",
+   "body": "Grundig camps at Grimtotem Post, farther up the mountain road to the west. You climb to the stronghold to avenge Makaba's kin and guard the pass from further violence. There you fight through Grundig's brutes and kill him before his raiders can descend on other vulnerable camps.",
    "spoiler": 0
   }
  ],
@@ -41,7 +41,7 @@
     "who is grundig",
     "grimtotem leader"
    ],
-   "answer": "Grundig Darkcloud is a Grimtotem commander at Grimtotem Post in southeastern Stonetalon Mountains. He led the attack that destroyed Makaba Flathoof's village."
+   "answer": "Grundig Darkcloud commands the Grimtotem at Grimtotem Post in southeastern Stonetalon Mountains. He led the attack that destroyed Makaba Flathoof's village."
   },
   {
    "q": "Where can Grundig Darkcloud be found?",
@@ -50,7 +50,7 @@
     "where is grundig",
     "grimtotem post location"
    ],
-   "answer": "Grundig Darkcloud is at Grimtotem Post, up the mountain trail to the west of Makaba Flathoof's camp near the Barrens border."
+   "answer": "Grundig Darkcloud is at Grimtotem Post, up the mountain trail west of Makaba Flathoof's camp near the Barrens border."
   },
   {
    "q": "What is Makaba Flathoof's motive for this task?",
@@ -59,7 +59,7 @@
     "makaba story",
     "makaba revenge"
    ],
-   "answer": "Makaba Flathoof saw the Grimtotem slaughter his home and clanmates. After you strike down their ruffians and mercenaries, he asks you to kill their leader, Grundig Darkcloud, for retribution."
+   "answer": "Makaba Flathoof saw the Grimtotem slaughter his home and clanmates. After you strike down their ruffians and mercenaries, he asks you to kill their leader, Grundig Darkcloud, in retribution."
   },
   {
    "q": "Why are the Grimtotem attacking peaceful settlements here?",
@@ -67,7 +67,7 @@
     "why grimtotem attack",
     "grimtotem hostility"
    ],
-   "answer": "The Grimtotem despise other tauren tribes, especially those allied with the Horde or following gentler paths. They use ambushes and raids to drive rival clans from lands they want to control."
+   "answer": "The Grimtotem despise other tauren tribes, especially those allied with the Horde or following gentler paths. They ambush and raid rival clans to drive them from lands the Grimtotem want to control."
   },
   {
    "q": "What comes after killing Grundig Darkcloud?",
@@ -75,7 +75,7 @@
     "what next after grundig",
     "flathoof chain continuation"
    ],
-   "answer": "After you kill Grundig Darkcloud and his brutes, Makaba Flathoof's vengeance is complete. Makaba can mourn his village knowing justice has been served."
+   "answer": "After you kill Grundig Darkcloud and his brutes, Makaba Flathoof's vengeance is complete. He can mourn his village knowing justice has been served."
   },
   {
    "q": "What is the prerequisite quest for this task?",
@@ -83,13 +83,13 @@
     "prereq kill grundig",
     "quest before grundig"
    ],
-   "answer": "First, complete Avenge My Village, where Makaba Flathoof tests your resolve by sending you against the Grimtotem ruffians and mercenaries camped just to the west."
+   "answer": "First, complete Avenge My Village. There, Makaba Flathoof tests your resolve by sending you against Grimtotem ruffians and mercenaries camped just to the west."
   }
  ],
  "angles": [
   {
    "target": "race:Tauren",
-   "text": "As a tauren, you see how Grundig's slaughter deepens the discord among your people. The Grimtotem oppose unity under the Horde with cutthroat force."
+   "text": "As a tauren, you see Grundig's slaughter deepen the discord among your people. The Grimtotem oppose unity under the Horde with cutthroat force."
   },
   {
    "target": "faction:Horde",
@@ -114,5 +114,5 @@
  "attribution": [
   "Kill Grundig Darkcloud"
  ],
- "style": 1
+ "style": 2
 }

@@ -10,11 +10,11 @@
    "quest:3741"
   ]
  },
- "summary": "In Lakeshire, Hilary searches for the necklace she lost in Lake Everstill. Her father gave it to her when she was young, and it slipped beneath the water while she and the other children fished by the docks.",
+ "summary": "In Lakeshire, Hilary searches Lake Everstill for the necklace her father gave her. It slipped beneath the water while she and the other children fished by the docks.",
  "sections": [
   {
    "title": "Lost in the Depths",
-   "body": "Hilary lost her necklace while fishing with her friend Shawn along the Lakeshire shore. Her father had given it to her, and she treasures the gift. Fierce beasts and aggressive murlocs live in the lake's depths, so local children stay on the docks. The necklace remains beneath the water, buried in the lakebed silt.",
+   "body": "Hilary lost her necklace while fishing with her friend Shawn along the Lakeshire shore. Her father gave it to her, and she treasures his gift.\n\nFierce beasts and aggressive murlocs live in the lake's depths, so local children stay on the docks. Hilary's necklace lies beneath the water, buried in the lakebed silt.",
    "spoiler": 0
   }
  ],
@@ -27,7 +27,7 @@
     "whose necklace is this",
     "hilary necklace owner"
    ],
-   "answer": "The necklace belongs to Hilary, a young girl who lives in Lakeshire in the Redridge Mountains. Her father gave it to her."
+   "answer": "Hilary, a young girl in Lakeshire in the Redridge Mountains, owns the necklace. Her father gave it to her."
   },
   {
    "q": "How did the necklace end up in Lake Everstill?",
@@ -54,7 +54,7 @@
     "nida cat",
     "hilary cat"
    ],
-   "answer": "Effsee is Hilary's pet cat. The cat stays by her side in Lakeshire and welcomes the necklace's return with its young owner."
+   "answer": "Effsee is Hilary's pet cat. Effsee stays by her side in Lakeshire and welcomes the necklace's return to its young owner."
   }
  ],
  "angles": [
@@ -83,5 +83,5 @@
   "Nida's Necklace",
   "Nida's Necklace (quest)"
  ],
- "style": 1
+ "style": 2
 }

@@ -17,16 +17,16 @@
   "wiki": "Samophlange (Classic 2)",
   "chain": []
  },
- "summary": "At the Sludge Fen, Samophlange machinery keeps the Venture Company's digging rig running. Three valves must be sealed before the central apparatus can be shut down safely.",
+ "summary": "At the Sludge Fen, Samophlange machinery keeps the Venture Company's digging rig running. Seal its three valves before the central apparatus can be shut down safely.",
  "sections": [
   {
    "title": "Taming the Apparatus",
-   "body": "At the Sludge Fen, the Venture Company's machinery is complex and dangerous. The central console makes clear that the core cannot be stopped with a single switch. Its feed lines must be handled by hand first, or the apparatus could fail or explode.",
+   "body": "At the Sludge Fen, the Venture Company's machinery is complex and dangerous. The central console shows that one switch cannot stop its core. First, the feed lines must be handled by hand. Otherwise, the apparatus could fail or explode.",
    "spoiler": 0
   },
   {
    "title": "The Three Valves",
-   "body": "Three valves control the flow into the rig: the Main Control Valve, the Fuel Control Valve, and the Regulator Valve. Each must be sealed by hand against high pressure. As they close, the console's green indicators fade to yellow, making it safe to engage the central shutoff.",
+   "body": "Three valves feed the rig: the Main Control Valve, the Fuel Control Valve, and the Regulator Valve. Each must be sealed by hand against high pressure. As they close, the console's green indicators fade to yellow. Then the central shutoff is safe to engage.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "samophlange valves purpose",
     "what do valves do"
    ],
-   "answer": "The valves seal the pressure and fuel lines before the apparatus is shut down. Closing them first helps prevent damage to the machine or a disaster."
+   "answer": "The valves seal the pressure and fuel lines before the apparatus is shut down. Closing them first helps prevent machine damage or disaster."
   },
   {
    "q": "What happens once all three valves are closed?",
@@ -46,7 +46,7 @@
     "console lights",
     "valves closed what next"
    ],
-   "answer": "With all three valves closed, the pressure falls and the fuel stops flowing. The console's blinking lights dim from green to yellow, and the main shutoff switch can move freely."
+   "answer": "Once all three valves are closed, the pressure falls and the fuel stops flowing. The console's blinking lights dim from green to yellow, and the main shutoff switch moves freely."
   },
   {
    "q": "Who built this machine?",
@@ -54,7 +54,7 @@
     "who made the samophlange",
     "venture co machine"
    ],
-   "answer": "The Venture Company built the apparatus. The goblin trading cartel extracts oil and raw resources from the northern Barrens."
+   "answer": "The Venture Company built the apparatus. This goblin trading cartel extracts oil and raw resources from the northern Barrens."
   },
   {
    "q": "Where are the valves located?",
@@ -106,5 +106,5 @@
  "attribution": [
   "Samophlange (Classic 2)"
  ],
- "style": 1
+ "style": 2
 }

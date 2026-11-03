@@ -17,16 +17,16 @@
   "wiki": "Encrypted Parchment (quest)",
   "chain": []
  },
- "summary": "In the Valley of Trials, Encrypted Parchment sends proven novice orc rogues into the Den. Its cipher points them to Rwag, an agent of the Shattered Hand.",
+ "summary": "In the Valley of Trials, Encrypted Parchment calls proven novice orc rogues toward the Den. Its cipher leads them to Rwag, an agent of the Shattered Hand.",
  "sections": [
   {
    "title": "A Coded Summons",
-   "body": "Gornek passes the coded parchment to novice orcs who have proved themselves against the local wildlife. Other trainers recruit pupils openly in the clearing, but rogue instructor Rwag sends his summons by cipher. The message directs you beyond the sunlit camp and deep into the cavern called the Den.",
+   "body": "Gornek gives the coded parchment to novice orcs who have proved themselves against the local wildlife. Other trainers recruit pupils openly in the clearing, but rogue instructor Rwag sends his summons by cipher. The message leads you past the sunlit camp and deep into the cavern called the Den.",
    "spoiler": 0
   },
   {
    "title": "Eyes in the Shadows",
-   "body": "Inside the Den, you find Rwag keeping watch among the rock. Warlocks lurk deeper in the cave, and he tells you he watches recruits for the Shattered Hand. While orcish society prizes open honor and glory in battle, the Shattered Hand works as the Horde's hidden network of spies, cutthroats, and gatherers of intelligence.",
+   "body": "You find Rwag watching among the rocks inside the Den. Warlocks lurk deeper in the cave, and Rwag tells you he watches recruits for the Shattered Hand. Orcish society prizes open honor and glory in battle. The Shattered Hand works in secret as the Horde's network of spies, cutthroats, and gatherers of intelligence.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "who gave me encrypted parchment",
     "who sent note"
    ],
-   "answer": "Rwag, the rogue trainer in the Valley of Trials, writes the parchment. He has Gornek deliver the coded message to promising young orcs after they complete their first trials."
+   "answer": "Rwag, the rogue trainer in the Valley of Trials, writes the parchment. He has Gornek deliver its coded message to promising young orcs after their first trials."
   },
   {
    "q": "What is the purpose of this quest?",
@@ -63,7 +63,7 @@
     "why cipher",
     "why is note coded"
    ],
-   "answer": "The cipher keeps wandering brutes and curious outsiders from reading the summons. It also tests whether the initiate can decode a covert message."
+   "answer": "The cipher keeps wandering brutes and curious outsiders from reading the summons. It also tests whether an initiate can decode a covert message."
   },
   {
    "q": "Who are the Shattered Hand?",
@@ -89,7 +89,7 @@
   },
   {
    "target": "race:Orc",
-   "text": "As an orc, you balance ancestral discipline with the quiet cunning demanded by the Shattered Hand, unlike warriors who seek open, bloodthirsty glory."
+   "text": "As an orc, you balance ancestral discipline with the quiet cunning demanded by the Shattered Hand. Warriors instead seek open, bloodthirsty glory."
   },
   {
    "target": "faction:Horde",
@@ -119,5 +119,5 @@
  "attribution": [
   "Encrypted Parchment (quest)"
  ],
- "style": 1
+ "style": 2
 }

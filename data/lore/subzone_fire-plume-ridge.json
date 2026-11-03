@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Fire Plume Ridge"
  },
- "summary": "Fire Plume Ridge is the active volcano rising directly from the center of Un'Goro Crater. Its searing slopes and subterranean magma channels fuel the crater's geysers and steam pools while playing host to fierce fire elementals.",
+ "summary": "Fire Plume Ridge burns at Un'Goro Crater's heart. Its magma warms the basin and feeds the geysers and steam pools. Fire elementals roam its slopes.",
  "sections": [
   {
    "title": "The Hearth of the Crater",
-   "body": "Towering over the primeval basin of Un'Goro, Fire Plume Ridge stands in sharp contrast to the surrounding lush jungle. Lava steadily cascades down its scorched rock faces, carving a landscape of ash and basalt. Subterranean magma arteries spiderweb outward beneath the soil from the ridge, fueling the bubbling geysers and hot springs scattered across the basin. The oppressive heat here is legendary\u2014far exceeding ordinary volcanic temperatures according to goblin measuring devices\u2014making it perilous for ill-prepared explorers to wander without ample water and shade.",
+   "body": "Lava runs down Fire Plume Ridge into Un'Goro Crater's jungle basin. Beneath the rock, magma channels spread under the soil and feed the geysers and hot springs. The heat is fierce, so travelers climbing the ridge need water and shade.",
    "spoiler": 0
   },
   {
    "title": "A Den of Elementals",
-   "body": "The volcano is an elemental furnace teeming with living flame. Living flares and roving fire elementals patrol the glowing flows, drawn to the concentration of pure subterranean heat. Deep within a cavern near the volcanic summit resides Blazerunner, the undisputed master among Un'Goro's elemental denizens. Venturing high up the ridge means navigating both lethal heat and volatile elemental spirits that aggressively defend their fiery domain.",
+   "body": "Fire elementals roam the glowing lava flows, drawn by the deep heat below the ridge. Blazerunner dwells in a cavern near the summit and rules Un'Goro's elementals. Those who climb toward the peak face scorching heat and spirits defending their fiery home.",
    "spoiler": 0
   }
  ],
@@ -28,7 +28,7 @@
     "volcano in center of ungoro",
     "fire plume ridge location"
    ],
-   "answer": "It is Fire Plume Ridge, an active volcano right in the center of Un'Goro Crater. Its molten channels feed the heat that warms the surrounding jungle and steam springs."
+   "answer": "Fire Plume Ridge rises at the center of Un'Goro Crater. Its magma channels warm the basin and feed its geysers and steam springs."
   },
   {
    "q": "Who rules the elementals at Fire Plume Ridge?",
@@ -37,7 +37,7 @@
     "blazerunner location",
     "fire elemental boss ungoro"
    ],
-   "answer": "The peak cavern is inhabited by Blazerunner, the most powerful fire elemental in Un'Goro Crater."
+   "answer": "Blazerunner rules Un'Goro's fire elementals from a cavern near the peak."
   },
   {
    "q": "Why is there an explorer stranded inside the ridge?",
@@ -46,7 +46,7 @@
     "ringo ungoro",
     "lost guy in volcano"
    ],
-   "answer": "A goblin-allied adventurer named Ringo ventured onto the volcano to explore, but succumbed to severe heat exhaustion inside one of the southern caves, unable to escape without assistance."
+   "answer": "Ringo, a goblin-allied adventurer, entered the volcano to explore. Severe heat exhaustion left him stranded in a southern cave, unable to escape alone."
   },
   {
    "q": "How does the volcano affect the rest of Un'Goro?",
@@ -55,17 +55,17 @@
     "crater geothermal activity",
     "shallow magma veins ungoro"
    ],
-   "answer": "Shallow veins of magma run out from beneath Fire Plume Ridge beneath the entire crater floor, warming the earth and creating the numerous geysers, thermal vents, and steam pools found throughout the basin."
+   "answer": "Magma channels run beneath Un'Goro's crater floor from Fire Plume Ridge. They warm the earth and feed the geysers, thermal vents, and steam pools."
   }
  ],
  "angles": [
   {
    "target": "class:Shaman",
-   "text": "The spirits of fire burn furiously across the ridge, offering a vivid glimpse into the restless elemental powers churning beneath Kalimdor's crust."
+   "text": "As a shaman, you see fire spirits raging across the ridge. They reveal the elemental powers beneath Kalimdor's crust."
   },
   {
    "target": "profession:Mining",
-   "text": "The crags and heat-hardened slopes of the ridge are rich with exposed minerals, notably veins of dense Thorium formed by volcanic pressure."
+   "text": "As a miner, you can find exposed minerals in the ridge's crags and heat-hardened slopes. Dense Thorium formed there under volcanic pressure."
   }
  ],
  "keywords": [
@@ -84,5 +84,6 @@
  ],
  "attribution": [
   "Fire Plume Ridge"
- ]
+ ],
+ "style": 2
 }

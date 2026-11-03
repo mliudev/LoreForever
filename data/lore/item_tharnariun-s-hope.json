@@ -10,16 +10,16 @@
    "quest:2118"
   ]
  },
- "summary": "In Darkshore, Tharnariun Treetender seeks a way to study the sick thistle bears and find a cure. His trap calms them long enough to bring them to his camp.",
+ "summary": "In Darkshore, Tharnariun Treetender seeks a cure for the sick thistle bears. His trap calms them long enough to bring them to his camp.",
  "sections": [
   {
    "title": "A Gentle Snare",
-   "body": "Tharnariun Treetender made a calming trap to study the sick thistle bears. Across Darkshore, a mysterious affliction has left the animals increasingly frenzied and violent. Tharnariun hopes to cure them rather than see them killed. Set on the ground, Tharnariun's Hope casts a soothing light. A rabid thistle bear that crosses it grows calm for a time and can follow a traveler back to Tharnariun's camp for treatment.",
+   "body": "Tharnariun Treetender made a trap to calm the sick thistle bears. A mysterious affliction has made them more and more frenzied and violent across Darkshore. He hopes to cure them instead of seeing them killed. Set on the ground, Tharnariun's Hope shines with a soothing light. A rabid thistle bear that crosses it grows calm for a time and can follow a traveler back to Tharnariun's camp for treatment.",
    "spoiler": 0
   },
   {
    "title": "The Elusive Remedy",
-   "body": "Tharnariun's healing magic cannot save the captured bear. The trap quiets the maddened animal without harming it, but the corruption proves more vicious than he expected. When he directs his healing into the bear, the magic clashes with the infection. The animal collapses and dies. Though his first attempt ends in heartbreak, Tharnariun remains determined to uncover the true nature of the forest's sickness.",
+   "body": "Tharnariun Treetender's healing magic cannot save a captured bear. The trap quiets the maddened animal without harming it, but the corruption is more vicious than he expected. When he directs his healing into the bear, his magic clashes with the infection. The animal collapses and dies. Though his first attempt ends in heartbreak, Tharnariun remains determined to learn the true nature of the forest's sickness.",
    "spoiler": 1
   }
  ],
@@ -40,7 +40,7 @@
     "why catch a rabid bear",
     "what does tharnariun want"
    ],
-   "answer": "Tharnariun believes the sickness afflicting Darkshore's wildlife can be cured, rather than answered with slaughter. He needs a living bear to test his cleansing remedies."
+   "answer": "Tharnariun believes the sickness afflicting Darkshore's wildlife can be cured instead of answered with slaughter. He needs a living bear to test his cleansing remedies."
   },
   {
    "q": "Can you get another trap if you lose it?",
@@ -91,5 +91,5 @@
   "Tharnariun's Hope",
   "Plagued Lands"
  ],
- "style": 1
+ "style": 2
 }

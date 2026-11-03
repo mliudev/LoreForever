@@ -10,16 +10,16 @@
    "quest:1060"
   ]
  },
- "summary": "At the Crossroads, Letter to Jin'Zil carries word of Serena Bloodfeather's defeat. Darsok Swiftdagger sends it to the Darkspear witch doctor in the Stonetalon Mountains, telling him the northern Barrens are free of the Bloodfeather threat.",
+ "summary": "At the Crossroads, Darsok Swiftdagger sends Jin'Zil news from the northern Barrens. Serena Bloodfeather is dead, and the Bloodfeather threat there has ended.",
  "sections": [
   {
    "title": "A Messenger to Stonetalon",
-   "body": "After the harpies at the Dry Hills are wiped out and Serena Bloodfeather is slain, Darsok Swiftdagger writes to an old comrade. The harpies of the Barrens first roosted in the peaks of the Stonetalon Mountains. Darsok sends news of the fallen matron to Jin'Zil, a witch doctor, and introduces a promising warrior to the wider frontier.",
+   "body": "After the harpies at the Dry Hills are wiped out and Serena Bloodfeather is slain, Darsok Swiftdagger writes to an old comrade. The Barrens harpies first roosted in the peaks of the Stonetalon Mountains. Darsok sends word of their fallen matron to Jin'Zil, a witch doctor, and introduces a promising warrior to the wider frontier.",
    "spoiler": 0
   },
   {
    "title": "Old Memories in Malaka'jin",
-   "body": "At the cave in Malaka'jin, Jin'Zil receives the news with nostalgic satisfaction. Serena's death recalls the founding of Durotar after the Third War, when Rokhan, Jin'Zil's friend, joined Rexxar, a half-ogre beastmaster, to kill Serena's elder sister, Bloodfeather. Serena has fallen too, and Jin'Zil believes the Bloodfeather line's vengeance is ended.",
+   "body": "At the cave in Malaka'jin, Jin'Zil receives the news with satisfaction and old memories. Serena's death brings back the founding of Durotar after the Third War. Then Rokhan, Jin'Zil's friend, joined Rexxar, a half-ogre beastmaster, to kill Serena's elder sister, Bloodfeather. Now Serena has fallen too, and Jin'Zil believes the Bloodfeather line's vengeance has ended.",
    "spoiler": 1
   }
  ],
@@ -57,13 +57,13 @@
     "bloodfeather history",
     "rokhan and bloodfeather"
    ],
-   "answer": "Jin'Zil remembers the founding of Durotar after the Third War, when his companion Rokhan and Rexxar, a half-ogre warrior, killed Serena's elder sister. Serena sought revenge against the Horde ever since, so her downfall brings a welcome resolution."
+   "answer": "Jin'Zil remembers the founding of Durotar after the Third War. His companion Rokhan and Rexxar, a half-ogre warrior, killed Serena's elder sister. Serena sought revenge against the Horde ever since, so her downfall brings a welcome resolution."
   }
  ],
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "As a Horde traveler, you carry news from defending the Barrens into the deeper conflicts of the Stonetalon Mountains."
+   "text": "As a Horde traveler, you carry news from the Barrens' defense into the deeper conflicts of the Stonetalon Mountains."
   },
   {
    "target": "race:Troll",
@@ -94,5 +94,5 @@
   "Letter to Jin'Zil",
   "Letter to Jin'Zil (quest)"
  ],
- "style": 1
+ "style": 2
 }

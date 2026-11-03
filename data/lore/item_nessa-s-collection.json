@@ -11,16 +11,16 @@
    "quest:6342"
   ]
  },
- "summary": "At Rut'theran Village, fish bones and scales gathered from nearby waters are prepared for study by Laird in Auberdine. Nessa's Collection shows the great size of aquatic life around Teldrassil's roots.",
+ "summary": "At Rut'theran Village, Nessa's Collection is bound for Laird in Auberdine, carrying proof of the great fish near Teldrassil's roots.",
  "sections": [
   {
    "title": "Bounty of the World Tree",
-   "body": "Nessa Shadowsong lives in Rut'theran Village at Teldrassil's base, where she gathered fish bones and scales to compare island sea life with that of mainland Kalimdor. Catches from the waters around the Great Tree grow to striking size. Nessa sent physical proof across the sea to Laird, a fish merchant along Auberdine's docks. The parcel travels through Vesprystus, Rut'theran's hippogryph master, and offers practical evidence of Teldrassil's growing vitality.",
+   "body": "Nessa Shadowsong lives in Rut'theran Village at Teldrassil's base. She gathered fish bones and scales to compare island sea life with mainland Kalimdor. Catches from the waters around the Great Tree grow to striking size. So Nessa sent proof across the sea to Laird, a fish merchant along Auberdine's docks. The parcel travels through Vesprystus, Rut'theran's hippogryph master, and shows Teldrassil's growing vitality.",
    "spoiler": 0
   },
   {
    "title": "A Curious Comparison",
-   "body": "In Darkshore, Laird finds that the specimens far outsize their mainland counterparts. The collection holds jawbones nearly twice the size of those from fish native to the Darkshore coast, and scales as large as a clenched fist. For coastal night elves, the package offers a clear look at how greatly the waters around Teldrassil differ from northern Kalimdor's somber shores.",
+   "body": "In Darkshore, Laird finds that these specimens far outsize their mainland counterparts. The collection holds jawbones nearly twice the size of those from fish native to the Darkshore coast. Its scales are as large as a clenched fist. For coastal night elves, the package shows how greatly Teldrassil's waters differ from northern Kalimdor's somber shores.",
    "spoiler": 0
   }
  ],
@@ -32,7 +32,7 @@
     "what is in the package",
     "fish bones parcel"
    ],
-   "answer": "The collection holds fish bones and scales, including jawbones nearly twice the size of those from fish native to the Darkshore coast and scales as large as a clenched fist. The fish were caught in the waters around Rut'theran Village."
+   "answer": "The collection holds fish bones and scales. Its jawbones are nearly twice the size of those from fish native to the Darkshore coast, and its scales are as large as a clenched fist. The fish came from the waters around Rut'theran Village."
   },
   {
    "q": "Who is the collection being sent to?",
@@ -41,7 +41,7 @@
     "who is laird",
     "delivery destination"
    ],
-   "answer": "Nessa sends the collection to Laird, a night elf fish vendor working along Auberdine's docks in Darkshore."
+   "answer": "Nessa sends the collection to Laird, a night elf fish vendor along Auberdine's docks in Darkshore."
   },
   {
    "q": "Why did Nessa gather these fish specimens?",
@@ -59,13 +59,13 @@
     "vesprystus delivery",
     "hippogryph parcel"
    ],
-   "answer": "You carry the package to Vesprystus, Rut'theran's hippogryph master, who arranges its passage across the water to Auberdine for delivery to Laird."
+   "answer": "You carry the package to Vesprystus, Rut'theran's hippogryph master. He arranges its passage across the water to Auberdine for delivery to Laird."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you can see through the collection how the waters around Teldrassil differ from those of the mainland."
+   "text": "As a night elf, you can see how the waters around Teldrassil differ from those of the mainland."
   }
  ],
  "keywords": [
@@ -93,5 +93,5 @@
   "The Bounty of Teldrassil",
   "Flight to Auberdine"
  ],
- "style": 1
+ "style": 2
 }

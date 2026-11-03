@@ -17,16 +17,16 @@
   "wiki": "Deliveries to Sven",
   "chain": []
  },
- "summary": "In Darkshire, Elaine Carevin sends aid to Sven Yorgen's camp in northwestern Duskwood. Sven and his few followers struggle against the dangers of the blighted woods.",
+ "summary": "In Darkshire, Elaine Carevin sends supplies to Sven Yorgen's camp in northwestern Duskwood. Sven and his few followers face the dangers of the blighted woods.",
  "sections": [
   {
    "title": "A Lifeline to the Wilderness",
-   "body": "Sven Yorgen and a few companions keep a camp on Duskwood's northwestern frontier. Darkshire faces wolves, spiders, and restless dead, yet Sven's band holds its ground beyond the town's walls. Constant danger leaves them unable to spare anyone for the perilous journey back to town for provisions. Elaine Carevin arranges for travelers to carry supplies so the fighters can keep going.",
+   "body": "Sven Yorgen and a few companions keep a camp on Duskwood's northwestern frontier. Wolves, spiders, and restless dead threaten Darkshire, yet Sven's band holds its ground beyond the town's walls. Danger keeps them from sparing anyone for the perilous journey back to town for provisions. Elaine Carevin arranges for travelers to carry supplies so the fighters can hold on.",
    "spoiler": 0
   },
   {
    "title": "The Carevin Connection",
-   "body": "The Carevin family respects Sven and sees his stand as devotion to the Light. Elaine organizes and sends supplies to support his camp. When Sven receives the crate, he recognizes the Carevins' support, though his attention remains on the battle at hand.",
+   "body": "The Carevin family respects Sven and sees his stand as devotion to the Light. Elaine organizes supplies and sends them to his camp. When Sven receives the crate, he knows the Carevins are supporting him. His attention stays on the battle at hand.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "sven lore",
     "sven yorgen info"
    ],
-   "answer": "Sven Yorgen is a frontiersman who keeps an armed camp on Duskwood's northwestern edge. Elaine Carevin regards him as an upright fighter serving the Light, and he and his small band face the terrors of the surrounding woods."
+   "answer": "Sven Yorgen is a frontiersman with an armed camp on Duskwood's northwestern edge. Elaine Carevin sees him as an upright fighter serving the Light. He and his small band face the terrors of the surrounding woods."
   },
   {
    "q": "Why does Sven need supplies brought to him?",
@@ -65,7 +65,7 @@
     "sven location",
     "sven camp"
    ],
-   "answer": "Sven's camp lies against the northwestern mountains of Duskwood, far past the road and north of the blighted farmland, on the edge of the wilderness."
+   "answer": "Sven's camp lies against Duskwood's northwestern mountains, far past the road and north of the blighted farmland, on the edge of the wilderness."
   },
   {
    "q": "Is this delivery mandatory before helping Sven further?",
@@ -83,17 +83,17 @@
     "after deliveries to sven",
     "sven next quest"
    ],
-   "answer": "Sven thanks the Carevin family for its support, then turns his attention to the threats facing his camp and his family's past. He seeks fighters to help him pursue vengeance."
+   "answer": "Sven thanks the Carevin family for its support, then turns to the threats facing his camp and his family's past. He seeks fighters to help him pursue vengeance."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Outlying sentinels like Sven show how far the Alliance's reach has frayed in Duskwood, where voluntary couriers bring supplies instead of regular garrison lines."
+   "text": "Outlying sentinels like Sven show how far the Alliance's reach has frayed in Duskwood. Voluntary couriers bring supplies where regular garrison lines no longer reach."
   },
   {
    "target": "class:Paladin",
-   "text": "Elaine sees Sven as a man doing the work of the Light. As a paladin, you can help a fellow fighter under siege."
+   "text": "Elaine sees Sven as a man doing the work of the Light. As a paladin, you can aid a fellow fighter under siege."
   },
   {
    "target": "race:Human",
@@ -119,5 +119,5 @@
  "attribution": [
   "Deliveries to Sven"
  ],
- "style": 1
+ "style": 2
 }

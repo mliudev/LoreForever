@@ -10,16 +10,16 @@
    "quest:868"
   ]
  },
- "summary": "Across the Field of Giants, silithid eggs lie buried beneath the soil. Horde researchers gather them to learn about the swarm spreading through the southern Barrens.",
+ "summary": "Across the Field of Giants, Silithid Egg lie buried beneath the soil. Horde researchers gather the eggs to learn about the swarm spreading through the southern Barrens.",
  "sections": [
   {
    "title": "A Mysterious Swarm",
-   "body": "Silithid mounds rise from the Field of Giants as strange insect-like creatures churn the earth. Their eggs lie beneath the hardened soil, guarded by territorial silithid. The Horde knows little about these creatures, but scouts at the Crossroads have seen signs of coordination and intelligence beyond that of ordinary wild beasts. Unhatched eggs may help scholars in Orgrimmar learn about the silithid’s life cycle and nature.",
+   "body": "Silithid mounds rise across the Field of Giants as strange insect-like creatures churn the earth. Their eggs lie beneath hardened soil, guarded by territorial silithid. The Horde knows little of them, yet scouts at the Crossroads have seen signs of coordination and intelligence beyond ordinary wild beasts. Unhatched eggs may help scholars in Orgrimmar learn about the silithid’s life cycle and nature.",
    "spoiler": 0
   },
   {
    "title": "Excavation and Danger",
-   "body": "Silithid eggs must be dug from the mounds with an adapted digging claw. The creatures defend their underground nurseries fiercely, swarming anyone who threatens their unhatched young. Korran, a troll researcher, needs intact specimens for study before the swarm spreads farther across Kalimdor.",
+   "body": "An adapted digging claw is needed to pry Silithid Eggs from the mounds. The creatures defend their underground nurseries fiercely and swarm anyone who threatens their unhatched young. Korran, a troll researcher, needs intact specimens for study before the swarm spreads farther across Kalimdor.",
    "spoiler": 0
   }
  ],
@@ -40,7 +40,7 @@
     "korran quest",
     "egg hunt questgiver"
    ],
-   "answer": "Korran, a troll researcher at the Crossroads, gathers the eggs for his masters in Orgrimmar, who want to study silithid biology and behavior."
+   "answer": "Korran, a troll researcher at the Crossroads, gathers the eggs for his masters in Orgrimmar. They want to study silithid biology and behavior."
   },
   {
    "q": "Why are the silithid being studied?",
@@ -49,7 +49,7 @@
     "silithid threat",
     "are silithid smart"
    ],
-   "answer": "The Horde knows little about the silithid. Korran has seen signs of intelligence and coordination beyond those of typical wild animals, troubling Horde leaders as the creatures appear in the Barrens."
+   "answer": "The Horde knows little about the silithid. Korran has seen signs of intelligence and coordination beyond those of typical wild animals. Their appearance in the Barrens troubles Horde leaders."
   },
   {
    "q": "How are the eggs gathered?",
@@ -58,7 +58,7 @@
     "digging claw",
     "harvest silithid eggs"
    ],
-   "answer": "An adapted digging claw is used to pry eggs from silithid mounds, while the aggressive swarm defends its nests."
+   "answer": "An adapted digging claw pries eggs from silithid mounds. The aggressive swarm defends its nests."
   }
  ],
  "angles": [
@@ -90,5 +90,5 @@
   "Silithid Egg (The Barrens)",
   "Egg Hunt (Classic)"
  ],
- "style": 1
+ "style": 2
 }

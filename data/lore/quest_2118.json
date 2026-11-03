@@ -21,21 +21,21 @@
    "Tharnariun's Hope (quest)"
   ]
  },
- "summary": "Corruption is spreading through Darkshore, where Tharnariun Treetender hopes to save the afflicted wildlife. He asks travelers to calm a rabid thistle bear with an enchanted relic and bring it back alive.",
+ "summary": "Darkshore's wildlife is falling to a creeping sickness, and Tharnariun Treetender seeks a way to save it. He asks you to calm a rabid thistle bear with an enchanted relic and bring it back alive.",
  "sections": [
   {
    "title": "A Blight on the Wilderness",
-   "body": "A creeping sickness twists Darkshore’s beasts into maddened, aggressive versions of themselves. Thistle bears suffer most, their rabid frenzy threatening travelers and the coast’s fragile balance. Night elf sentinels often answer with steel, while druids seek to understand the sickness and heal its cause.",
+   "body": "A creeping sickness twists Darkshore’s beasts into maddened, violent creatures. Thistle bears suffer most, and their frenzy threatens travelers and the coast’s fragile balance. Night elf sentinels answer with steel, while druids seek to understand the sickness and heal its cause.",
    "spoiler": 0
   },
   {
    "title": "Tharnariun's Hope",
-   "body": "Tharnariun Treetender refuses to kill the corrupted beasts without first trying to save them. He made a trap called Tharnariun’s Hope. Set on the forest floor, its soothing light briefly calms a raging thistle bear. Pacified, the bear follows the traveler back to Tharnariun’s outpost for study.",
+   "body": "Tharnariun Treetender will not kill the corrupted beasts before trying to save them. He made a trap called Tharnariun’s Hope. Set on the forest floor, its soothing light briefly calms a raging thistle bear. Pacified, the bear follows you back to Tharnariun’s outpost for study.",
    "spoiler": 0
   },
   {
    "title": "Tragic Medicine",
-   "body": "When an infected bear reaches camp, Tharnariun tries to purge its sickness with restorative magic. His first attempt ends in disaster: cleansing energies overwhelm the weakened animal, and it collapses and dies. The failure shows how deeply the dark plague has taken hold.",
+   "body": "When an infected bear reaches camp, Tharnariun tries to purge its sickness with restorative magic. His first attempt ends in disaster. The cleansing energies overwhelm the weakened animal, and it collapses and dies. The failure shows how deeply the dark plague has taken hold.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "tharnariun darkshore quest",
     "who starts plagued lands"
    ],
-   "answer": "Tharnariun Treetender, a night elf druid in Auberdine, gives this task. He seeks a cure for Darkshore’s afflicted wildlife."
+   "answer": "Tharnariun Treetender, a night elf druid in Auberdine, asks for your help. He seeks a cure for Darkshore’s afflicted wildlife."
   },
   {
    "q": "What is the objective of Plagued Lands?",
@@ -74,7 +74,7 @@
     "tharnariun's hope item",
     "bear cage darkshore"
    ],
-   "answer": "Tharnariun provides Tharnariun’s Hope, an enchanted trap whose calming light pacifies the enraged bear so it will follow you."
+   "answer": "Tharnariun provides Tharnariun’s Hope, an enchanted trap. Its calming light pacifies the enraged bear so it will follow you."
   },
   {
    "q": "What quest follows Plagued Lands?",
@@ -83,7 +83,7 @@
     "plagued lands chain",
     "tharnariun follow up"
    ],
-   "answer": "After Plagued Lands comes Cleansing of the Infected, followed by Tharnariun’s Hope."
+   "answer": "Cleansing of the Infected follows Plagued Lands, then comes Tharnariun’s Hope."
   },
   {
    "q": "Why are the thistle bears rabid?",
@@ -92,13 +92,13 @@
     "darkshore plague bears",
     "darkshore corruption"
    ],
-   "answer": "A creeping plague is spreading through Darkshore, poisoning local wildlife and driving the thistle bears into mindless aggression."
+   "answer": "A creeping plague is spreading through Darkshore, poisoning local wildlife and driving thistle bears into mindless aggression."
   }
  ],
  "angles": [
   {
    "target": "race:NightElf",
-   "text": "As a night elf, seeing Darkshore’s native flora and fauna decay into rabid madness is an affront to Cenarius and the balance of nature you are sworn to protect."
+   "text": "As a night elf, seeing Darkshore’s native flora and fauna fall to rabid madness affronts Cenarius and the balance of nature you are sworn to protect."
   },
   {
    "target": "class:Druid",
@@ -128,5 +128,5 @@
  "attribution": [
   "Plagued Lands"
  ],
- "style": 1
+ "style": 2
 }

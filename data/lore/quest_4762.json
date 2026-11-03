@@ -17,16 +17,16 @@
   "wiki": "The Cliffspring River",
   "chain": []
  },
- "summary": "In Darkshore, foul water now runs down the Cliffspring River toward Auberdine. Thundris Windweaver asks Alliance investigators to take a sample from the pool beneath a road bridge waterfall. He suspects the corruption began beyond the riverbanks.",
+ "summary": "Foul water now runs down the Cliffspring River toward Auberdine. Thundris Windweaver sends Alliance investigators to collect a sample from the pool beneath a road bridge waterfall. He suspects the corruption began beyond the riverbanks.",
  "sections": [
   {
    "title": "A Tainted Waterway",
-   "body": "The Cliffspring River runs from the eastern highlands to the coastal shoals of Mist's Edge, just north of Auberdine. Its waters have begun to carry an unnatural rot toward the night elf settlement. Thundris Windweaver fears the foul water will poison the shores and the town's supplies, so he sends scouts upriver to take samples from the waterfall pool beneath the road bridge.",
+   "body": "From the eastern highlands, the Cliffspring River runs to the coastal shoals of Mist's Edge, just north of Auberdine. Now its waters carry an unnatural rot toward the night elf settlement. Thundris Windweaver fears the foul water will poison the shores and the town's supplies. So he sends scouts upriver to take samples from the waterfall pool beneath the road bridge.",
    "spoiler": 0
   },
   {
    "title": "The Root in Felwood",
-   "body": "The Blackwood furbolgs have made camps along the river, and their agitation is plain. Thundris suspects they may be spreading the taint, but believes its true root lies elsewhere, in Felwood. He expects the water sample to confirm his suspicion. The forest to the east was scarred during the Third War. To cleanse the water, the corrupted furbolgs must be confronted and the land's ancient sources purified.",
+   "body": "The Blackwood furbolgs have made camps along the river, and their agitation is plain. Thundris suspects they may be spreading the taint, but believes its true root lies elsewhere, in Felwood. He expects the water sample to confirm his suspicion.\n\nThe forest to the east was scarred during the Third War. To cleanse the water, the corrupted furbolgs must be confronted and the land's ancient sources purified.",
    "spoiler": 1
   }
  ],
@@ -38,7 +38,7 @@
     "cliffspring river location",
     "waterfall pool location"
    ],
-   "answer": "From Auberdine, head north to the Cliffspring River's mouth at Mist's Edge. Follow the river inland to the first waterfall, beneath an overhead road bridge, and fill the sampling tube from the pool."
+   "answer": "From Auberdine, head north to the Cliffspring River's mouth at Mist's Edge. Follow the river inland to the first waterfall beneath an overhead road bridge, then fill the sampling tube from the pool."
   },
   {
    "q": "Why is the Cliffspring River turning foul?",
@@ -85,7 +85,7 @@
  "angles": [
   {
    "target": "class:Druid",
-   "text": "As a druid of the Cenarion Circle, you see clean woodland waters turned foul by lingering demonic taint and are called to cleanse Darkshore's wounded nature."
+   "text": "As a druid of the Cenarion Circle, you see clean woodland waters turned foul by lingering demonic taint. You are called to cleanse Darkshore's wounded nature."
   },
   {
    "target": "race:NightElf",
@@ -116,5 +116,5 @@
  "attribution": [
   "The Cliffspring River"
  ],
- "style": 1
+ "style": 2
 }

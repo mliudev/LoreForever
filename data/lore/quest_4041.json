@@ -19,16 +19,16 @@
   "repeatable": "Yes",
   "category": "Feralas"
  },
- "summary": "Gregan Brewspewer will make you a Videre Elixir, but only once an Evoroot is brought. Gregan also claims a great many things are known to him about herbs and alchemy.",
+ "summary": "Bring Gregan Brewspewer an Evoroot, and he can brew the Videre Elixir. He boasts of his knowledge of herbs and alchemy.",
  "sections": [
   {
    "title": "An Evoroot for the Brewer",
-   "body": "Gregan Brewspewer can make you a Videre Elixir as soon as an Evoroot is put in hand. Meanwhile Gregan boasts of knowing a great many things about herbs and alchemy, and begins a story about turning the cheese meant for lunch into gold, only to ask where you are going when you walk off. Gregan is the one to ask about where an Evoroot can be found.",
+   "body": "Gregan Brewspewer needs an Evoroot before he can brew your Videre Elixir. He boasts that he knows a great many things about herbs and alchemy, then begins a tale about turning the cheese meant for lunch into gold. When you walk away, he asks where you are going. Ask Gregan where to find an Evoroot.",
    "spoiler": 0
   },
   {
    "title": "When the Evoroot Arrives",
-   "body": "When you come back with the Evoroot, Gregan greets you by saying you pulled a fast one on old Miblon.",
+   "body": "When you return with the Evoroot, Gregan greets you with a claim: you pulled a fast one on old Miblon.",
    "spoiler": 1
   }
  ],
@@ -39,7 +39,7 @@
     "who gives the videre elixir",
     "where do i get videre elixir"
    ],
-   "answer": "Gregan Brewspewer, once you bring an Evoroot."
+   "answer": "Gregan Brewspewer can brew the Videre Elixir once you bring him an Evoroot."
   },
   {
    "q": "What ingredient is required to make the elixir?",
@@ -47,7 +47,7 @@
     "videre elixir ingredients",
     "what does gregan need"
    ],
-   "answer": "An Evoroot. Gregan can tell you where to find one."
+   "answer": "Gregan needs an Evoroot to make the elixir. Ask him where to find one."
   },
   {
    "q": "What does Gregan Brewspewer boast about?",
@@ -55,7 +55,7 @@
     "gregan brewspewer boasts",
     "gregan herbs and alchemy"
    ],
-   "answer": "Gregan boasts of knowing a great many things about herbs and alchemy, and starts a story about turning a lunchtime cheese into gold."
+   "answer": "Gregan boasts that he knows a great many things about herbs and alchemy. He begins a tale about turning a lunchtime cheese into gold."
   }
  ],
  "angles": [],
@@ -72,5 +72,6 @@
  ],
  "attribution": [
   "The Videre Elixir (2)"
- ]
+ ],
+ "style": 2
 }

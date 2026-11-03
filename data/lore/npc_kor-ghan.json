@@ -8,11 +8,11 @@
   "wiki": "Kor'ghan",
   "refs": 1
  },
- "summary": "In Orgrimmar’s Cleft of Shadow, Kor'ghan watches over remedies and toxins. The Darkspear troll stands outside Rekkul's Poisons and seeks help preparing antidotes for Durotar’s venomous predators.",
+ "summary": "In Orgrimmar’s Cleft of Shadow, Kor'ghan tends remedies and toxins. The Darkspear troll stands outside Rekkul's Poisons and asks for help making antidotes against Durotar’s venomous predators.",
  "sections": [
   {
    "title": "A Troll in the Shadows",
-   "body": "Kor'ghan keeps watch over remedies and toxins outside Rekkul's Poisons in Orgrimmar’s Cleft of Shadow. From the capital, he sends travelers into Durotar’s red canyons to gather venomous components from scorpids. He needs them to prepare antidotes for the dangers of the wilderness.",
+   "body": "Outside Rekkul's Poisons in Orgrimmar’s Cleft of Shadow, Kor'ghan tends remedies and toxins. He sends travelers from the capital into Durotar’s red canyons to gather venom from scorpids. Those venomous creatures provide what he needs to prepare antidotes for the dangers of the wild.",
    "spoiler": 0
   }
  ],
@@ -33,7 +33,7 @@
     "where is korghan",
     "find korghan"
    ],
-   "answer": "Find Kor'ghan in the Cleft of Shadow beneath central Orgrimmar, directly in front of Rekkul's Poisons."
+   "answer": "You can find Kor'ghan in the Cleft of Shadow beneath central Orgrimmar, directly in front of Rekkul's Poisons."
   },
   {
    "q": "What does Kor'ghan need help with?",
@@ -42,7 +42,7 @@
     "finding the antidote quest",
     "korghan venom"
    ],
-   "answer": "Kor'ghan needs travelers to gather poison sacs from venomtail scorpids near Orgrimmar’s entrance so he can formulate antidotes."
+   "answer": "Kor'ghan needs travelers to gather poison sacs from venomtail scorpids near Orgrimmar’s entrance so he can prepare antidotes."
   },
   {
    "q": "Was Kor'ghan ever found in Durotar?",
@@ -56,11 +56,11 @@
  "angles": [
   {
    "target": "class:Rogue",
-   "text": "As a rogue, you may see Kor'ghan outside Rekkul's Poisons in the Cleft of Shadow while visiting Orgrimmar’s underbelly for reagents and venoms."
+   "text": "As a rogue, you may find Kor'ghan outside Rekkul's Poisons in the Cleft of Shadow while visiting Orgrimmar’s underbelly for reagents and venoms."
   },
   {
    "target": "race:Troll",
-   "text": "As a troll, you share kinship with many Darkspear who have left Sen'jin Village. Kor'ghan puts his knowledge of Durotar’s wild hazards to use in the Horde’s fortified capital."
+   "text": "As a troll, you share kinship with many Darkspear who have left Sen'jin Village. Kor'ghan uses his knowledge of Durotar’s wild hazards in the Horde’s fortified capital."
   }
  ],
  "keywords": [
@@ -84,5 +84,5 @@
  "attribution": [
   "Kor'ghan"
  ],
- "style": 1
+ "style": 2
 }

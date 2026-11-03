@@ -17,16 +17,16 @@
   "wiki": "Inquire at the Inn",
   "chain": []
  },
- "summary": "In Darkshire, Clerk Daltry sends you to the Scarlet Raven Tavern with a journal from Sven Yorgen's ruined farm. He hopes someone there can tell you who owned it.",
+ "summary": "Clerk Daltry sends you from Darkshire to the Scarlet Raven Tavern with a journal from Sven Yorgen's ruined farm. He hopes someone there knows who owned it.",
  "sections": [
   {
    "title": "A Lead at the Scarlet Raven",
-   "body": "Clerk Daltry has finished examining the tattered book from Sven Yorgen's farm. He believes any stranger who visited Darkshire would have passed through its tavern. The Scarlet Raven Tavern is across town, the only gathering hall and lodging house in Darkshire. There, you may learn who came through and where they went.",
+   "body": "Clerk Daltry has finished examining the tattered book from Sven Yorgen's farm. He believes any stranger who came to Darkshire would have passed through its tavern. The Scarlet Raven Tavern stands across town as Darkshire's only gathering hall and lodging house. There, you may learn who came through and where they went.",
    "spoiler": 0
   },
   {
    "title": "The Paranoid Guest",
-   "body": "Tavernkeep Smitts recognizes the journal when you show it to him. Its owner rented a room for several days and spent evenings scribbling at the bar. Then the guest fled Darkshire in terror, convinced an unseen pursuer was hunting him. His path led west along the road toward Raven Hill.",
+   "body": "Tavernkeep Smitts recognizes the journal when you show it to him. Its owner rented a room for several days and spent his evenings scribbling at the bar. Then the guest fled Darkshire in terror, convinced an unseen pursuer was hunting him. The stranger took the road west toward Raven Hill.",
    "spoiler": 1
   }
  ],
@@ -56,7 +56,7 @@
     "innkeeper darkshire",
     "who is smitts"
    ],
-   "answer": "Tavernkeep Smitts runs the Scarlet Raven Tavern, where he serves drinks and rents rooms to travelers who venture into Duskwood."
+   "answer": "Tavernkeep Smitts runs the Scarlet Raven Tavern. He serves drinks and rents rooms to travelers who venture into Duskwood."
   },
   {
    "q": "What does Tavernkeep Smitts reveal about the guest?",
@@ -119,5 +119,5 @@
  "attribution": [
   "Inquire at the Inn"
  ],
- "style": 1
+ "style": 2
 }

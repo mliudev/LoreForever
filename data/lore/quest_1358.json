@@ -17,16 +17,16 @@
   "wiki": "Sample for Helbrim",
   "chain": []
  },
- "summary": "At the Crossroads, Apothecary Helbrim awaits a wolf heart from across the sea. Apothecary Zinge sends it from the Undercity to support the Forsaken's research in central Kalimdor.",
+ "summary": "At the Crossroads, Apothecary Helbrim waits for a wolf heart sent from across the sea. Apothecary Zinge has sent it from the Undercity to support the Forsaken's research in central Kalimdor.",
  "sections": [
   {
    "title": "A Contagion Across the Sea",
-   "body": "Apothecary Zinge sends a Wolf Heart Sample from the Undercity to Apothecary Helbrim in the Barrens. The Royal Apothecary Society's experiments reach beyond the ruins of Lordaeron. After Apothecary Renferrel in Silverpine sent tainted organs, Zinge sought to extend their research across the world. Now a courier carries the sample overseas to Helbrim, an alchemist stationed in the Barrens' dry savanna.",
+   "body": "Apothecary Zinge sends a Wolf Heart Sample from the Undercity to Apothecary Helbrim in the Barrens. The Royal Apothecary Society's experiments now reach beyond Lordaeron's ruins. Apothecary Renferrel in Silverpine sent tainted organs before Zinge sought to carry their research across the world. Now a courier bears the sample over the sea to Helbrim, an alchemist stationed in the Barrens' dry savanna.",
    "spoiler": 0
   },
   {
    "title": "Helbrim's Ambition",
-   "body": "At the Crossroads, Apothecary Helbrim studies how Kalimdor's native beasts react to compounds from the Plaguelands. The wolf heart could show how those toxins affect local creatures. Helbrim believes that dissecting and testing it alongside them will help the Forsaken master poisons and unnatural afflictions.",
+   "body": "At the Crossroads, Apothecary Helbrim studies how Kalimdor's native beasts react to compounds from the Plaguelands. The wolf heart may show how those toxins affect local creatures. Helbrim believes that dissecting and testing it alongside them will help the Forsaken master poisons and unnatural afflictions.",
    "spoiler": 0
   }
  ],
@@ -38,7 +38,7 @@
     "wolf heart package",
     "what did zinge give me"
    ],
-   "answer": "The package holds a Wolf Heart Sample, harvested by Apothecary Renferrel from Silverpine Forest's corrupted wolves and analyzed by Apothecary Zinge in the Undercity."
+   "answer": "The package holds a Wolf Heart Sample. Apothecary Renferrel harvested it from Silverpine Forest's corrupted wolves, and Apothecary Zinge analyzed it in the Undercity."
   },
   {
    "q": "Why does Apothecary Helbrim want a tainted wolf heart?",
@@ -65,7 +65,7 @@
     "how to get to helbrim",
     "undercity to barrens"
    ],
-   "answer": "Take the zeppelin from the tower outside Undercity to Orgrimmar in Durotar. Travel south through Durotar, cross the Southfury River into the Barrens, then follow the main road west to the Crossroads."
+   "answer": "Take the zeppelin from the tower outside Undercity to Orgrimmar in Durotar. Travel south through Durotar and cross the Southfury River into the Barrens. Then follow the main road west to the Crossroads."
   },
   {
    "q": "Who are Apothecary Renferrel and Apothecary Zinge?",
@@ -89,7 +89,7 @@
  "angles": [
   {
    "target": "race:Undead",
-   "text": "As an Undead, you carry the Royal Apothecary Society's tainted specimens across the world, part of its far-reaching effort to secure Forsaken dominance through chemical supremacy."
+   "text": "As an Undead, you carry the Royal Apothecary Society's tainted specimens across the world. You are part of its far-reaching effort to secure Forsaken dominance through chemical supremacy."
   },
   {
    "target": "faction:Horde",
@@ -119,5 +119,5 @@
  "attribution": [
   "Sample for Helbrim"
  ],
- "style": 1
+ "style": 2
 }

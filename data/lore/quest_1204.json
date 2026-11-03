@@ -27,21 +27,21 @@
    "Morgan Stern (quest)"
   ]
  },
- "summary": "In Theramore, Morgan Stern is working on a dish called Mudrock Soup and Bugs, which could be the next big thing at the inns of Stormwind City. Morgan Stern doubts they would survive a long trek through Dustwallow Marsh, and so asks you to gather tongues from the Mudrock turtles.",
+ "summary": "In Theramore, Morgan Stern hopes to win Stormwind City over with a new dish. The trek through Dustwallow Marsh is too much for Morgan Stern, so you gather Mudrock tongues for Mudrock Soup and Bugs.",
  "sections": [
   {
    "title": "A Dish in the Making",
-   "body": "Morgan Stern is working on a dish called Mudrock Soup and Bugs, and still needs the major ingredients. A long trek through Dustwallow Marsh is more than Morgan Stern expects to survive, so you are asked to do some hunting. First come the tongues of Mudrock turtles.",
+   "body": "Morgan Stern is gathering ingredients for a new dish in Theramore. A long trek through Dustwallow Marsh is more than Morgan Stern expects to survive, so you hunt Mudrock turtles. Their tongues are needed first.",
    "spoiler": 0
   },
   {
    "title": "Forked Tongues",
-   "body": "Mudrocks roam the coast, mostly around the bay. Morgan Stern wants no ordinary tongues. Word has reached Morgan Stern that some Mudrocks have forked tongues, and that these carry a distinct flavor wanted in the dish.",
+   "body": "Mudrock turtles roam the coast of Dustwallow Marsh, mostly around the bay. Morgan Stern wants forked tongues in particular, having heard they bring a distinct flavor to the dish.",
    "spoiler": 0
   },
   {
    "title": "Toward the Table",
-   "body": "Morgan Stern will try different ways of cooking the tongues, searching for what best brings out their taste. The hope is a dish fit to be served at the Blue Recluse in Stormwind.",
+   "body": "Morgan Stern will try different ways of cooking the tongues to find what best brings out their taste. Morgan Stern hopes to make a dish fit for the Blue Recluse in Stormwind.",
    "spoiler": 1
   }
  ],
@@ -52,7 +52,7 @@
     "who starts mudrock soup and bugs",
     "morgan stern theramore"
    ],
-   "answer": "Morgan Stern, in Theramore, who is working on a dish called Mudrock Soup and Bugs."
+   "answer": "Morgan Stern, in Theramore, is making a dish called Mudrock Soup and Bugs."
   },
   {
    "q": "Where can the Mudrock turtles be found?",
@@ -60,7 +60,7 @@
     "mudrock turtle location",
     "where are mudrocks"
    ],
-   "answer": "Along the coast of Dustwallow Marsh, mostly around the bay."
+   "answer": "Mudrock turtles roam along the coast of Dustwallow Marsh, mostly around the bay."
   },
   {
    "q": "Why does Morgan Stern want forked tongues specifically?",
@@ -68,7 +68,7 @@
     "why forked tongues",
     "forked mudrock tongues reason"
    ],
-   "answer": "Morgan Stern has heard they carry a distinct flavor, and wants that flavor in the dish."
+   "answer": "Morgan Stern has heard forked tongues carry a distinct flavor wanted in the dish."
   },
   {
    "q": "Why won't Morgan Stern gather the ingredients in person?",
@@ -76,7 +76,7 @@
     "why doesnt morgan stern hunt",
     "morgan stern marsh"
    ],
-   "answer": "Morgan Stern does not think they would survive a long trek through Dustwallow Marsh."
+   "answer": "Morgan Stern doubts they would survive a long trek through Dustwallow Marsh."
   },
   {
    "q": "What comes after this quest?",
@@ -106,5 +106,6 @@
  ],
  "attribution": [
   "Mudrock Soup and Bugs"
- ]
+ ],
+ "style": 2
 }

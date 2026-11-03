@@ -24,16 +24,16 @@
   ],
   "category": "Tanaris"
  },
- "summary": "Chief Engineer Bilgewhizzle in Gadgetzan now turns to the tougher Wastewander nomads: their rogues, assassins and shadow mages, to be found east and southeast of town. The fewer nomads left, the easier it will be to take back the water wells.",
+ "summary": "East and southeast of Gadgetzan, Bilgewhizzle now targets Wastewander rogues, assassins, and shadow mages. With fewer nomads left, the company can more easily reclaim the water wells.",
  "sections": [
   {
    "title": "The Stronger Ranks",
-   "body": "You have done a good job so far, in Bilgewhizzle's view, but taking back the wells is best done against as few nomads as possible. Now the targets are the nomads' rogues, assassins and shadow mages, east and southeast of Gadgetzan. Bilgewhizzle admits they are a nasty lot, but says the wells are rightfully the company's.",
+   "body": "Chief Engineer Bilgewhizzle says you have done well, but the company needs fewer nomads before it can reclaim the wells. Now you face their rogues, assassins, and shadow mages east and southeast of Gadgetzan. Bilgewhizzle calls them a nasty lot. He insists the wells rightfully belong to the company.",
    "spoiler": 0
   },
   {
    "title": "Taking the Fight to Them",
-   "body": "The nomad population is now thin enough that the company can take the fight to them. Bilgewhizzle suggests speaking to Spigot Operator Luglunket in town, who gives a bounty on any Wastewander water pouches that came your way while dealing with the nomads.",
+   "body": "With the nomad population thinned, the company can take the fight to them. Bilgewhizzle points you to Spigot Operator Luglunket in Gadgetzan. Luglunket offers a bounty for any Wastewander water pouches you collected while dealing with the nomads.",
    "spoiler": 1
   }
  ],
@@ -44,7 +44,7 @@
     "who gives more wastewander justice",
     "quest giver"
    ],
-   "answer": "Chief Engineer Bilgewhizzle of the Gadgetzan Water Company, in Gadgetzan."
+   "answer": "Chief Engineer Bilgewhizzle of the Gadgetzan Water Company asks you in Gadgetzan."
   },
   {
    "q": "Why does the Gadgetzan Water Company want these nomads removed?",
@@ -52,7 +52,7 @@
     "why kill wastewanders",
     "bilgewhizzle motive"
    ],
-   "answer": "The company means to take back the water wells, and that is easier against as few nomads as possible."
+   "answer": "The company wants to reclaim the water wells, and fewer nomads will make that easier."
   },
   {
    "q": "Where can the targeted nomads be found?",
@@ -60,7 +60,7 @@
     "where are wastewander rogues",
     "where to find shadow mages"
    ],
-   "answer": "Lying east and southeast of Gadgetzan, where the nomads are found."
+   "answer": "The targeted nomads are east and southeast of Gadgetzan."
   },
   {
    "q": "What comes before this step?",
@@ -68,7 +68,7 @@
     "prerequisite",
     "prior quest"
    ],
-   "answer": "It follows Wastewander Justice."
+   "answer": "This follows Wastewander Justice."
   }
  ],
  "angles": [],
@@ -88,5 +88,6 @@
  ],
  "attribution": [
   "More Wastewander Justice"
- ]
+ ],
+ "style": 2
 }

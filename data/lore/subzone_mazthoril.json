@@ -7,16 +7,16 @@
  "meta": {
   "wiki": "Mazthoril"
  },
- "summary": "Mazthoril is a massive, frostbitten cavern in central Winterspring that serves as the primary redoubt for the blue dragonflight in northern Kalimdor. Heavily guarded by dragonkin, spell-wielding wyrms, and arcane sentries, its winding ice tunnels conceal powerful magic and lead to the aerie of the reclusive blue matriarch Haleh.",
+ "summary": "In central Winterspring, Mazthoril shelters the blue dragonflight in a vast cavern. Its ice tunnels are guarded by dragonkin, spell-wielding wyrms, and arcane sentries, and lead to the aerie of Haleh, the reclusive blue matriarch.",
  "sections": [
   {
    "title": "A Bastion of Blue Dragons",
-   "body": "Carved into the frozen mountains just south of Everlook, Mazthoril houses an extensive brood answering to the Spell-Weaver, Malygos. The cavern and its surrounding crags are patrolled by vigilant dragonkin including Spellmaw, Azurous, and General Colbatann, while elite guardians watch the inner caverns. Intruders who wander into Mazthoril face dragonspawn thoroughly attuned to raw arcane energy, making any venture inside perilous without serious preparation.",
+   "body": "Just south of Everlook, Mazthoril is cut into the frozen mountains. A large brood lives within and answers to Malygos, the Spell-Weaver. Dragonkin patrol the cavern and the nearby crags, among them Spellmaw, Azurous, and General Colbatann.\n\nElite guardians keep watch over the inner caverns. The dragonspawn are attuned to raw arcane energy, so any journey inside is perilous without serious preparation.",
    "spoiler": 0
   },
   {
    "title": "The Teleportation Rune and the Matriarch",
-   "body": "Deep inside the frozen labyrinth lies a mystical floor rune watched closely by drakes Manaclaw and Scryer. Stepping upon this rune transports travelers to an isolated mountain aerie above the cavern. There resides Haleh, a matriarch of the flight who maintains the guise of a high elf. Though naturally cautious toward mortals, Haleh possesses deep lore concerning draconic lineage and plays a critical role in unlocking the hidden ward protecting Onyxia's Lair.",
+   "body": "Deep in Mazthoril's frozen labyrinth, the drakes Manaclaw and Scryer watch a mystical rune set in the floor. Step on it, and it carries travelers to an isolated mountain aerie above the cavern.\n\nHaleh lives there, a blue dragon matriarch who keeps the guise of a high elf. Cautious toward mortals, she holds deep lore about draconic lineage and has a vital part in unlocking the hidden ward that protects Onyxia's Lair.",
    "spoiler": 1
   }
  ],
@@ -28,7 +28,7 @@
     "who is the boss of mazthoril",
     "mazthoril matriarch"
    ],
-   "answer": "Mazthoril is overseen by Haleh, a powerful blue dragon matriarch. She resides in an isolated aerie high above the cave complex, accessible only by a magical teleportation rune situated in the depths of the tunnels. When greeting mortal visitors, she appears in the form of a high elven woman."
+   "answer": "Haleh, a powerful blue dragon matriarch, oversees Mazthoril. She lives in an isolated aerie high above the cavern, reached through a magical rune deep in the tunnels. When greeting mortal visitors, she appears as a high elven woman."
   },
   {
    "q": "Why are blue dragons living in Winterspring?",
@@ -37,7 +37,7 @@
     "why blue flight here",
     "malygos brood winterspring"
    ],
-   "answer": "The blue dragonflight, charged by the titans with guarding Azeroth's arcane magic, keeps a close watch on lingering fonts of ancient energy across the world. Winterspring holds remnants of the Highborne's ancient civilization around Lake Kel'Theril, making Mazthoril a natural stronghold for their sentinels in Kalimdor."
+   "answer": "The titans charged the blue dragonflight with guarding Azeroth's arcane magic. Its members watch lingering fonts of ancient energy across the world. Around Lake Kel'Theril, Winterspring holds remnants of the Highborne's ancient civilization, making Mazthoril a natural stronghold for the flight's sentinels in Kalimdor."
   },
   {
    "q": "How do you reach Haleh?",
@@ -47,7 +47,7 @@
     "teleport to haleh",
     "where is haleh"
    ],
-   "answer": "To reach Haleh, you must fight through the dragonkin to the back of Mazthoril's inner cavern. There, flanked by the drakes Manaclaw and Scryer, lies a glowing arcane rune on the floor. Stepping into the center of this rune teleports you to her high perch atop the mountain."
+   "answer": "Fight through the dragonkin to the back of Mazthoril's inner cavern. Between the drakes Manaclaw and Scryer, a glowing arcane rune marks the floor. Step into its center to reach Haleh's high perch atop the mountain."
   },
   {
    "q": "What role does Mazthoril play in entering Onyxia's Lair?",
@@ -56,17 +56,17 @@
     "onyxia attunement haleh",
     "drakefire amulet haleh"
    ],
-   "answer": "Alliance heroes investigating Onyxia's protections are sent to consult Haleh. Her part in that journey is explored in the protected section."
+   "answer": "Alliance heroes investigating the protections around Onyxia's Lair are sent to consult Haleh. Her part in that journey is revealed in a hidden passage."
   }
  ],
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "Alliance heroes investigating the black dragonflight seek out the matriarch Haleh in Mazthoril."
+   "text": "Alliance heroes investigating the black dragonflight seek Haleh, the matriarch, in Mazthoril."
   },
   {
    "target": "class:Mage",
-   "text": "As the realm of Malygos's servants, Mazthoril is teeming with creatures saturated in pure arcane power, making it a site of great interest to scholars of the arcane."
+   "text": "As a mage, you may find Mazthoril compelling. Malygos's realm teems with creatures saturated in pure arcane power, drawing any scholar of the arcane."
   }
  ],
  "keywords": [
@@ -89,5 +89,6 @@
  ],
  "attribution": [
   "Mazthoril"
- ]
+ ],
+ "style": 2
 }

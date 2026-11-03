@@ -26,16 +26,16 @@
    "The Karnitol Shipwreck/Chain"
   ]
  },
- "summary": "Kreldig Ungor sends you to Ironforge with Karnitol's satchel, to put it in the hands of Roetten Stonehammer, who will pay you for the work.",
+ "summary": "Karnitol's satchel waits in Ironforge for Roetten Stonehammer, who will pay you to carry it there.",
  "sections": [
   {
    "title": "Back to Ironforge",
-   "body": "Kreldig Ungor tells you to carry Karnitol's things back to Roetten Stonehammer in Ironforge, who will pay you for the work. With a laugh, Kreldig adds that Roetten may be so pleased that you get asked to join the Reclaimers full time. The way back should be made carefully and without dawdling, since Karnitol has little patience, though he is a generous man.",
+   "body": "Kreldig Ungor sends you to take Karnitol's things to Roetten Stonehammer in Ironforge. Roetten will pay you for the work. With a laugh, Kreldig says Roetten may be so pleased that he asks you to join the Reclaimers full time. Travel carefully and without delay. Karnitol has little patience, though he is generous.",
    "spoiler": 0
   },
   {
    "title": "In Ironforge",
-   "body": "Roetten Stonehammer greets the Karnitol business in Desolace with approval. The chest itself was wrecked, but everything that was in it is here, and Roetten leaves it to Karnitol to judge that. The Reclaimers are relied on to find what was lost, not to see that it returns looking fine and in good shape. Then Roetten sets about getting you paid.",
+   "body": "In Ironforge, Roetten Stonehammer approves of the Karnitol business in Desolace. The chest was wrecked, but everything it held is here. Roetten leaves it to Karnitol to judge. The Reclaimers are relied on to find what was lost, not return it in fine shape. Then Roetten sets about paying you.",
    "spoiler": 1
   }
  ],
@@ -47,7 +47,7 @@
     "turn in karnitol shipwreck",
     "who gets karnitol's satchel"
    ],
-   "answer": "Roetten Stonehammer, in Ironforge."
+   "answer": "Deliver Karnitol's satchel to Roetten Stonehammer in Ironforge."
   },
   {
    "q": "Who sends me back to Ironforge?",
@@ -55,7 +55,7 @@
     "who gives the quest",
     "quest giver karnitol shipwreck part 4"
    ],
-   "answer": "Kreldig Ungor, who has praise for the job you did."
+   "answer": "Kreldig Ungor sends you back to Ironforge and praises your work."
   },
   {
    "q": "Why is it important to deliver the satchel quickly?",
@@ -71,7 +71,7 @@
     "roetten stonehammer lore",
     "who is roetten"
    ],
-   "answer": "The Reclaimers' man in Ironforge. Business is booming for him, and he leaves smaller matters to his underlings."
+   "answer": "Roetten Stonehammer is the Reclaimers' man in Ironforge. Business is booming for him, and he leaves smaller matters to his underlings."
   }
  ],
  "angles": [],
@@ -93,5 +93,6 @@
  ],
  "attribution": [
   "The Karnitol Shipwreck (4)"
- ]
+ ],
+ "style": 2
 }

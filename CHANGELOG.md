@@ -7,6 +7,13 @@ wrap long bullets with an indented continuation line.
 
 ## Unreleased
 
+## 0.37.0 (2026-11-03)
+
+- **The rewritten lore is read aloud again:** the places, people, items and quests that were rewritten tell their new story in both narrators' voices, and their hidden passages are recorded too.
+
+- **Story names, read aloud:** in the first stories recorded, your narrator says the story's name before telling it. More follow.
+- **Spanish stays whole:** Spanish stories now show entirely in Spanish, never with English filled in, like the other translated languages.
+
 ## 0.36.0 (2026-11-02)
 
 - **Stories, retold and told once:** more rewritten places, people and quests are read aloud in both narrators' voices, and Listen starts where a story begins instead of repeating its summary first.
