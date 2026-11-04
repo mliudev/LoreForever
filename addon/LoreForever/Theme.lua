@@ -18,74 +18,74 @@ T.code = {
   blue = "|cff88ccff",
   link = "|cff88ccff",    -- clickable names in answers (≈ 9:1 on an answer card); its own role so it can be retuned
   white = "|cffffffff",
-  green = "|cff7fdf7f",   -- playing, queued
-  zone = "|cffe6cc80",    -- a zone's name (a chapter in Found)
-  heard = "|cffd8d8d8",   -- a story you've heard
-  faint = "|cff888888",   -- notes after a choice, a choice you can't pick (Options)
+  green = "|cff7fdf7f",   -- heard or done, only
+  zone = "|cffffd100",    -- a zone's name (a chapter in Found)
+  heard = "|cffcccccc",   -- a story you've heard
+  faint = "|cff9d9d9d",   -- notes after a choice, a choice you can't pick (Options)
   warn = "|cffff7070",    -- why something can't be used
-  stale = "|cffffb347",   -- outdated recordings
+  stale = "|cffff7070",   -- outdated recordings (warn: it can't be used as it is)
 }
 
 -- Colours as {r, g, b, a}.
 T.color = {
   gold = { 1, 0.82, 0, 1 },
   muted = { 0.8, 0.8, 0.8, 1 },          -- secondary text (notes, hints, empty states)
-  faint = { 0.53, 0.53, 0.53, 1 },       -- a setting that can't be used yet (Options: Willo's, without Willo)
+  faint = { 0.616, 0.616, 0.616, 1 },       -- a setting that can't be used yet (Options: Willo's, without Willo)
   rim = { 0.80, 0.62, 0.20, 0.95 },      -- button and panel rims
-  rimHover = { 1, 0.85, 0.35, 1 },
-  rimOff = { 0.45, 0.40, 0.32, 0.8 },    -- a disabled button's rim
+  rimHover = { 1, 0.82, 0, 1 },
+  rimOff = { 0.616, 0.616, 0.616, 0.6 },    -- a disabled button's rim
   rule = { 1, 0.82, 0, 0.35 },           -- the line under a heading
   divider = { 1, 0.82, 0, 0.25 },        -- between sidebar and conversation
   hover = { 1, 0.82, 0, 0.14 },          -- row highlight
   select = { 1, 0.82, 0, 0.18 },         -- type-ahead selection
   target = { 1, 0.82, 0, 0.10 },         -- your target's row
   flash = { 1, 0.82, 0, 0.35 },          -- something was added
-  window = { 0.07, 0.06, 0.045, 1 },     -- the window's ground where the stone texture is missing
+  window = { 0.059, 0.047, 0.035, 1 },     -- the window's ground where the stone texture is missing
   stoneWash = { 0.08, 0.06, 0.03, 0.40 },-- a warm darkening over the stone, so text stays readable on it
   vignette = { 0, 0, 0, 0.50 },          -- the window's edges, fading to nothing 70px in
   glow = { 0.45, 0.34, 0.16, 0.16 },     -- the warm light from the top left
   tabTop = { 1, 0.82, 0, 0.22 },         -- a selected tab's gold, fading down
-  tabText = { 0.85, 0.74, 0.48, 1 },     -- an unselected tab's label
-  disc = { 0.98, 0.76, 0.20, 1 },        -- the round play buttons
-  discRing = { 0.40, 0.26, 0.04, 1 },
-  discGlyph = { 0.16, 0.09, 0.01, 1 },   -- the play/pause/stop sign on them
+  tabText = { 0.8, 0.8, 0.8, 1 },        -- an unselected tab's label
+  disc = { 0.800, 0.620, 0.200, 1 },  -- the round play buttons: gilt, the one filled control
+  discRing = { 0.478, 0.349, 0.071, 1 },
+  discGlyph = { 0.071, 0.039, 0.016, 1 }, -- the play/pause/stop sign on them (ink)
   side = { 0, 0, 0, 0.35 },              -- the sidebar column
   bar = { 0, 0, 0, 0.30 },               -- behind the message box
-  tab = { 0.20, 0.16, 0.08, 0.35 },
-  tabOn = { 0.32, 0.24, 0.06, 0.75 },
-  row = { 0.20, 0.16, 0.08, 0.45 },      -- list rows (Journey, history)
-  chip = { 0.22, 0.17, 0.08, 0.60 },     -- suggested replies, "N more"
-  button = { 0.13, 0.10, 0.05, 0.95 },
-  buttonHi = { 0.30, 0.22, 0.06, 0.95 }, -- the primary button (Play)
-  add = { 0.20, 0.42, 0.14, 0.9 },       -- the green +
-  added = { 0.12, 0.12, 0.12, 0.9 },     -- the + once it's in
-  glyph = { 1, 1, 1, 0.9 },              -- the - and stop square drawn on it then
-  now = { 0.15, 0.35, 0.17, 0.45 },      -- what's playing, in the queue
-  sheet = { 0.07, 0.06, 0.04, 1 },       -- the queue over the sidebar: opaque, or the list underneath shows
-  overlay = { 0.04, 0.035, 0.03, 1 },    -- History and Journey over the conversation: opaque, or the chat shows through
-  dock = { 0.10, 0.08, 0.05, 0.96 },     -- the player
-  track = { 0.25, 0.20, 0.12, 1 },       -- the player's progress line, unfilled
+  tab = { 0.200, 0.161, 0.078, 0.35 },
+  tabOn = { 0.200, 0.161, 0.078, 0.9 },
+  row = { 0.200, 0.161, 0.078, 0.45 },      -- list rows (Journey, history)
+  chip = { 0.200, 0.161, 0.078, 0.60 },     -- suggested replies, "N more"
+  button = { 0.102, 0.078, 0.051, 0.95 },
+  buttonHi = { 0.200, 0.161, 0.078, 0.9 }, -- the primary button (Play)
+  now = { 1, 0.82, 0, 0.22 },               -- what's playing, in the queue: gold, as everything live
+  sheet = { 0.059, 0.047, 0.035, 1 },       -- the queue over the sidebar: opaque, or the list underneath shows
+  overlay = { 0.059, 0.047, 0.035, 1 },    -- History and Journey over the conversation: opaque, or the chat shows through
+  dock = { 0.102, 0.078, 0.051, 0.96 },     -- the player
+  track = { 0.200, 0.161, 0.078, 1 },       -- the player's progress line, unfilled
   fill = { 1, 0.82, 0, 0.9 },
-  toast = { 0.05, 0.04, 0.03, 0.95 },
-  popup = { 0.06, 0.05, 0.04, 0.96 },    -- type-ahead, menus
+  toast = { 0.059, 0.047, 0.035, 0.95 },
+  popup = { 0.059, 0.047, 0.035, 0.96 },    -- type-ahead, menus
   bubbleUser = { 0.45, 0.31, 0.12, 0.20 },  -- the conversation is on parchment: your question, a tan strip
-  bubbleLore = { 0.95, 0.89, 0.75, 0.55 },  -- an answer, a lighter card
-  bubbleHero = { 0.72, 0.56, 0.18, 0.28 },  -- the welcome card, gilt-tinted
-  bubbleEdge = { 0.63, 0.48, 0.27, 0.90 },  -- an answer's edge
+  bubbleLore = { 0.949, 0.890, 0.749, 0.55 },  -- an answer, a lighter card
+  bubbleHero = { 0.800, 0.620, 0.200, 0.28 },  -- the welcome card, gilt-tinted
+  bubbleEdge = { 0.631, 0.478, 0.271, 0.90 },  -- an answer's edge
   none = { 0, 0, 0, 0 },
   -- Tooltip lines (on the game's tooltip, not the panel).
   tipText = { 1, 1, 1, 1 },
-  tipDim = { 0.62, 0.62, 0.62, 1 },      -- hints: what a click does
-  tipGood = { 0.5, 0.87, 0.5, 1 },       -- narrated, heard, playing
+  tipDim = { 0.616, 0.616, 0.616, 1 },      -- hints: what a click does
+  tipGood = { 0.498, 0.875, 0.498, 1 }, -- heard or done, only
+  tipLive = { 1, 0.82, 0, 1 },             -- playing now, or new (gold: everything live)
   -- Elsewhere.
-  playing = { 0.35, 1, 0.35, 1 },        -- the minimap ring while something plays
+  playing = { 1, 0.82, 0, 1 },             -- the minimap ring while something plays
   mapMark = { 1, 0.92, 0.7, 0.9 },       -- marks on the journey map: the road
   mapEdge = { 0, 0, 0, 0.75 },           -- the road's soft dark edge
   mapBead = { 0, 0, 0, 0.65 },           -- the dark ring around a moment's bead
   mapShine = { 1, 1, 1, 0.55 },          -- the light on a bead, and its glow under the mouse
   mapRing = { 1, 1, 1, 0.9 },            -- the ring around the moment the map shows
   mapCount = { 0.08, 0.06, 0.02, 1 },    -- how many moments a bead stands for, on the bead
-  mapPin = { 0.45, 0.78, 1, 1 },         -- a spot pinned with Willo (LOR-672): her blue, in a white ring
+  mapPin = { 0.498, 0.878, 0.863, 1 },   -- a spot pinned with Willo (LOR-672): her teal, in a white ring
+  willo = { 0.498, 0.878, 0.863, 1 },    -- Willo, on the dark ground
+  inkWillo = { 0.114, 0.420, 0.400, 1 }, -- Willo, on parchment
   url = { 1, 1, 1, 1 },                  -- addresses to copy (Options)
 
   -- Ink on parchment: the book's pages (the "Illuminated Page" look) and what's written on them. Every ink below
@@ -100,51 +100,54 @@ T.color = {
   pageEdge = { 0.25, 0.14, 0.05, 0.26 }, -- a page's outer edges darken gently toward the edge (Media/Paper/EdgeX, EdgeY)
   pageGrain = { 0.30, 0.20, 0.10, 0.11 },-- a very light grain and a few fibres (Media/Paper/Grain)
   pageGround = { 0.12, 0.10, 0.07, 1 },  -- the window's ground at a page's rounded corners (Media/Paper/Corners)
-  ink = { 0.07, 0.04, 0.015, 1 },        -- body text, names
-  inkAccent = { 0.27, 0.065, 0.03, 1 },  -- titles, the row or tab you chose, what's yours
-  inkNote = { 0.18, 0.10, 0.035, 1 },    -- sub lines, counts, notes
-  inkFaded = { 0.25, 0.16, 0.065, 1 },   -- what isn't there yet (a blank page's kind), a row you can't use
-  inkGreen = { 0.037, 0.22, 0.033, 1 },  -- new, heard
-  inkLight = { 1, 0.93, 0.78, 1 },       -- text on an inked fill (a chosen chip, a ribbon)
-  inkLink = { 0.07, 0.20, 0.42, 1 },     -- a lore link in an answer, on parchment
-  inkHint = { 0.24, 0.15, 0.075, 1 },    -- a box's placeholder on parchment
+  pageFadeTop = { 0.808, 0.714, 0.549, 1 },  -- the page as it looks under the conversation's top edge (its fade)
+  pageFadeFoot = { 0.765, 0.671, 0.518, 1 }, -- and above its foot, where the page has darkened a little
+  ink = { 0.071, 0.039, 0.016, 1 },     -- body text, names
+  inkAccent = { 0.271, 0.067, 0.031, 1 }, -- titles, the row or tab you chose, what's yours (oxblood)
+  inkNote = { 0.180, 0.102, 0.035, 1 },  -- sub lines, counts, notes
+  inkFaded = { 0.251, 0.161, 0.067, 1 }, -- what isn't there yet (a blank page's kind), a row you can't use
+  inkGreen = { 0.037, 0.22, 0.033, 1 },  -- heard or done, only
+  inkLight = { 1, 0.929, 0.780, 1 },       -- text on an inked fill (a chosen chip, a ribbon)
+  inkLink = { 0.071, 0.200, 0.420, 1 },  -- a lore link in an answer, on parchment
+  inkHint = { 0.251, 0.161, 0.067, 1 },    -- a box's placeholder on parchment
   inkWarn = { 0.53, 0.14, 0.085, 1 },    -- why something can't be used, in words
-  inkRule = { 0.35, 0.16, 0.05, 0.35 },  -- a line on parchment
-  inkRim = { 0.63, 0.48, 0.27, 1 },      -- a card's edge on parchment
-  inkHover = { 0.42, 0.11, 0.05, 0.12 }, -- a row under the mouse, on parchment
-  inkSelect = { 0.42, 0.11, 0.05, 0.12 },-- the row you chose
-  inkTarget = { 0.42, 0.11, 0.05, 0.10 },-- your target's row
+  inkRule = { 0.631, 0.478, 0.271, 0.7 },  -- a line on parchment
+  inkRim = { 0.631, 0.478, 0.271, 1 },   -- a card's edge on parchment (the Line)
+  inkButton = { 0.180, 0.102, 0.035, 0.7 }, -- a paper button's edge: drawn in ink, so it reads as one to press (11/4)
+  inkHover = { 0.271, 0.067, 0.031, 0.12 }, -- a row under the mouse, on parchment
+  inkSelect = { 0.271, 0.067, 0.031, 0.12 },-- the row you chose
+  inkTarget = { 0.271, 0.067, 0.031, 0.10 },-- your target's row
   inkRow = { 0.45, 0.31, 0.12, 0.14 },   -- list rows on parchment
-  inkFlash = { 0.42, 0.11, 0.05, 0.25 }, -- something was added
-  inkNow = { 0.18, 0.48, 0.20, 0.12 },   -- what's playing, in the queue on parchment
-  cardFill = { 0.80, 0.71, 0.52, 0.85 }, -- a page's card in Found today (until the cards of V2)
-  cardBlank = { 0.86, 0.79, 0.62, 0.45 },
-  tileFill = { 0.95, 0.89, 0.75, 0.90 }, -- a found page's card
+  inkFlash = { 0.271, 0.067, 0.031, 0.25 }, -- something was added
+  inkNow = { 0.800, 0.620, 0.200, 0.25 },          -- what's playing, in the queue on parchment: gilt
+  cardFill = { 0.949, 0.890, 0.749, 0.85 }, -- a page's card in Found today (until the cards of V2)
+  cardBlank = { 0.949, 0.890, 0.749, 0.45 },
+  tileFill = { 0.949, 0.890, 0.749, 0.90 }, -- a found page's card
   tileBlank = { 0.35, 0.16, 0.05, 0.10 },-- a page not found yet
-  chipFill = { 0.74, 0.64, 0.44, 0.70 }, -- a filter chip on parchment
-  chipOn = { 0.42, 0.11, 0.05, 0.85 },   -- the chosen one
+  chipFill = { 0.741, 0.639, 0.439, 0.70 }, -- a filter chip on parchment
+  chipOn = { 0.271, 0.067, 0.031, 0.9 },   -- the chosen one
   meterTrack = { 0.35, 0.16, 0.05, 0.15 },
-  meterTrackDark = { 0.05, 0.04, 0.03, 1 },
-  wax = { 0.62, 0.16, 0.10, 1 },         -- the seal's wax (a sealed passage, every story heard)
-  waxHi = { 0.80, 0.30, 0.22, 1 },       -- its highlight
-  gilt = { 0.80, 0.62, 0.20, 1 },        -- the gold seal (every place found)
-  giltHi = { 0.92, 0.80, 0.44, 1 },
-  ringGreen = { 0.18, 0.48, 0.20, 1 },
-  newMark = { 0.86, 0.62, 0.10, 1 },     -- new: a card's ring, the count on a bookmark, the New pages row (gilt)
-  newMarkText = { 0.20, 0.11, 0.02, 1 }, -- a count on it
-  dotGreen = { 0.20, 0.50, 0.22, 1 },    -- a heard page's dot
-  dotRim = { 0.65, 0.94, 0.63, 1 },
+  meterTrackDark = { 0.059, 0.047, 0.035, 1 },
+  wax = { 0.620, 0.161, 0.102, 1 },         -- the seal's wax (a sealed passage, every story heard)
+  waxHi = { 0.800, 0.302, 0.220, 1 },       -- its highlight
+  gilt = { 0.800, 0.620, 0.200, 1 },        -- the gold seal (every place found)
+  giltHi = { 0.922, 0.800, 0.439, 1 },
+  ringGreen = { 0.180, 0.478, 0.200, 1 },
+  newMark = { 0.800, 0.620, 0.200, 1 },     -- new: a card's ring, the count on a bookmark, the New pages row (gilt)
+  newMarkText = { 0.071, 0.039, 0.016, 1 }, -- a count on it
+  dotGreen = { 0.180, 0.478, 0.200, 1 },  -- a heard page's dot (with a light tick on it)
+  dotTick = { 1, 0.929, 0.780, 1 },      -- the tick on it
   ribbon = { 0.48, 0.12, 0.08, 1 },      -- a bookmark's ribbon: red, and gold while it's the open one
   ribbonLo = { 0.35, 0.08, 0.05, 1 },
-  ribbonOn = { 0.69, 0.54, 0.16, 1 },
-  ribbonOnLo = { 0.48, 0.35, 0.07, 1 },
-  ribbonText = { 1, 0.91, 0.75, 1 },
-  meterRust = { 0.54, 0.16, 0.08, 1 },   -- pages found, on parchment
-  meterRustHi = { 0.76, 0.35, 0.18, 1 },
-  meterGreen = { 0.18, 0.48, 0.20, 1 },  -- pages heard
+  ribbonOn = { 0.800, 0.620, 0.200, 1 },
+  ribbonOnLo = { 0.478, 0.349, 0.071, 1 },
+  ribbonText = { 1, 0.929, 0.780, 1 },
+  meterRust = { 0.620, 0.161, 0.102, 1 },   -- pages found, on parchment
+  meterRustHi = { 0.800, 0.302, 0.220, 1 },
+  meterGreen = { 0.180, 0.478, 0.200, 1 },  -- pages heard
   meterGreenHi = { 0.42, 0.75, 0.35, 1 },
-  meterGold = { 0.72, 0.54, 0.05, 1 },   -- on the dark ground
-  meterGoldHi = { 1, 0.89, 0.48, 1 },
+  meterGold = { 0.800, 0.620, 0.200, 1 },   -- on the dark ground
+  meterGoldHi = { 1, 0.82, 0, 1 },
 }
 
 local function rgba(c) return c[1], c[2], c[3], c[4] or 1 end
@@ -178,6 +181,10 @@ T.font = {
   title = morpheus("LoreForeverFontTitle", 15, "GameFontNormal"),         -- the window's name in its banner
   place = morpheus("LoreForeverFontPlace", 18, "GameFontNormalLarge"),    -- where you are
   heading = morpheus("LoreForeverFontHeading", 15, "GameFontNormal"),     -- section headers, tabs
+  tab14 = morpheus("LoreForeverFontTab14", 14, "GameFontNormal"),         -- tabs whose labels are long (deDE): the
+  tab13 = morpheus("LoreForeverFontTab13", 13, "GameFontNormal"),         -- largest of these the four fit the book in
+  tab12 = morpheus("LoreForeverFontTab12", 12, "GameFontNormalSmall"),
+  tab11 = morpheus("LoreForeverFontTab11", 11, "GameFontNormalSmall"),
   answerTitle = morpheus("LoreForeverFontAnswer", 15, "GameFontNormal"),  -- an answer's first line
   initial = morpheus("LoreForeverFontInitial", 34, "GameFontNormalHuge"),  -- a paragraph's illuminated first letter
   control = "GameFontNormal",        -- gold labels that aren't headings (the player's title)
@@ -186,12 +193,26 @@ T.font = {
   label = "GameFontNormalSmall",
   hint = "GameFontDisable",          -- the message box placeholder only
 }
+-- The "10" inside the player's 10-second jumps: the game's small face, smaller (it sits inside a 26-unit ring).
+do
+  local base = _G.GameFontNormalSmall
+  if CreateFont and base and base.GetFont then
+    local file, _, flags = base:GetFont()
+    if file then
+      local f = _G.LoreForeverFontDigits or CreateFont("LoreForeverFontDigits")
+      if f.CopyFontObject then f:CopyFontObject(base) elseif f.SetFontObject then f:SetFontObject(base) end
+      f:SetFont(file, 8, flags or "")
+      T.font.digits = "LoreForeverFontDigits"
+    end
+  end
+  T.font.digits = T.font.digits or "GameFontNormalSmall"
+end
 
 -- The client's Morpheus Cyrillic face lacks Ukrainian і ї є ґ. Choose its Friz face after the reading language
 -- loads; a plain font object also replaces the family variants that CopyFontObject inherited from Morpheus.
 function T.SetLanguageFonts(locale)
   if locale ~= "ukUA" or not CreateFont then return end
-  for _, role in ipairs({ "title", "place", "heading", "answerTitle", "initial" }) do
+  for _, role in ipairs({ "title", "place", "heading", "tab14", "tab13", "tab12", "tab11", "answerTitle", "initial" }) do
     local name = T.font[role]
     local f = name:find("^LoreForeverFont") and _G[name]
     if f and f.GetFont then
@@ -374,9 +395,28 @@ local function setRim(b, c)
   for _, t in ipairs(b.rim or {}) do t:SetColorTexture(rgba(c)) end
 end
 
+-- A paper button's label: the game's button font in oxblood, no shadow; faded when it can't be pressed.
+function T.PaperButtonFont()
+  if T.paperFont or not (CreateFont and GameFontNormal) then return T.paperFont end
+  local function font(name, role)
+    local f = CreateFont(name)
+    f:CopyFontObject(GameFontNormal)
+    f:SetTextColor(rgba(T.color[role]))
+    if f.SetShadowColor then f:SetShadowColor(0, 0, 0, 0) end
+    return f
+  end
+  T.paperFont, T.paperFontOff = font("LoreForeverPaperButton", "inkAccent"), font("LoreForeverPaperButtonOff", "inkHint")
+  return T.paperFont
+end
+
+-- kind: nil (a dark stone button), "primary" (the raised one), or "paper" (a button with words on the book's page:
+-- no fill, a thin ink edge, an oxblood label, a faint oxblood wash under the mouse; the palette of 11/3; the edge in
+-- ink, not tan, since 11/4: a tan one read as switched off).
 function T.SkinButton(b, kind)
   if not b or b.themed then return b end
   b.themed = true
+  local paper = kind == "paper"
+  b.paper = paper
   -- The template's three-part art (parentKeys Left/Middle/Right), or its normal/pushed/disabled textures.
   for _, k in ipairs({ "Left", "Middle", "Right" }) do
     local t = rawget(b, k)
@@ -390,6 +430,7 @@ function T.SkinButton(b, kind)
   bg:SetPoint("TOPLEFT", 1, -1)
   bg:SetPoint("BOTTOMRIGHT", -1, 1)
   T.Fill(bg, kind == "primary" and "buttonHi" or "button")
+  bg:SetShown(not paper)
   b.skinBg = bg
   -- A soft top half, so it reads as raised rather than flat.
   local sheen = b:CreateTexture(nil, "BORDER")
@@ -397,6 +438,7 @@ function T.SkinButton(b, kind)
   sheen:SetPoint("RIGHT", -1, 0)
   sheen:SetPoint("BOTTOM", b, "CENTER", 0, 0)
   sheen:SetColorTexture(1, 1, 1, 0.04)
+  sheen:SetShown(not paper)
   -- A 1px gold rim.
   local top, bottom, left, right = rimTex(b), rimTex(b), rimTex(b), rimTex(b)
   top:SetPoint("TOPLEFT"); top:SetPoint("TOPRIGHT"); top:SetHeight(1)
@@ -404,15 +446,24 @@ function T.SkinButton(b, kind)
   left:SetPoint("TOPLEFT"); left:SetPoint("BOTTOMLEFT"); left:SetWidth(1)
   right:SetPoint("TOPRIGHT"); right:SetPoint("BOTTOMRIGHT"); right:SetWidth(1)
   b.rim = { top, bottom, left, right }
-  setRim(b, T.color.rim)
+  local on = paper and T.color.inkButton or (kind == "primary" and T.color.rimHover or T.color.rim)
+  local off = paper and T.color.inkRule or T.color.rimOff
+  setRim(b, on)
   local hl = b:CreateTexture(nil, "HIGHLIGHT")
   hl:SetPoint("TOPLEFT", 1, -1)
   hl:SetPoint("BOTTOMRIGHT", -1, 1)
-  T.Fill(hl, "hover")
+  local ox = T.color.inkAccent
+  if paper then hl:SetColorTexture(ox[1], ox[2], ox[3], 0.08) else T.Fill(hl, "hover") end
   if b.SetHighlightTexture then b:SetHighlightTexture(hl) end
+  -- (the label's font objects, so the game's hover and disabled fonts don't turn it gold or white again)
+  if paper and b.SetNormalFontObject and T.PaperButtonFont() then
+    b:SetNormalFontObject(T.paperFont)
+    if b.SetHighlightFontObject then b:SetHighlightFontObject(T.paperFont) end
+    if b.SetDisabledFontObject then b:SetDisabledFontObject(T.paperFontOff) end
+  end
   if b.HookScript then
-    b:HookScript("OnEnable", function(self) setRim(self, T.color.rim) end)
-    b:HookScript("OnDisable", function(self) setRim(self, T.color.rimOff) end)
+    b:HookScript("OnEnable", function(self) setRim(self, on) end)
+    b:HookScript("OnDisable", function(self) setRim(self, off) end)
   end
   return b
 end
@@ -440,6 +491,48 @@ function T.CoverChat(page)
     end
     UI.scroll:Show()
   end)
+end
+
+-- A list's scroll bar on the book's page (UIPanelScrollFrameTemplate's, redrawn; Design Lead, 11/4): one slim bar in
+-- ink, a tan track and a dark thumb, no arrows, `x` px right of the list (4 by default), and hidden while everything
+-- fits. The wheel and dragging the thumb work as before.
+function T.PaperScroll(sf, x)
+  local name = sf and sf.GetName and sf:GetName()
+  local bar = sf and (sf.ScrollBar or (name and _G[name .. "ScrollBar"]))
+  if type(bar) ~= "table" or bar.paper then return nil end
+  bar.paper = true
+  local bname = bar.GetName and bar:GetName()
+  for _, k in ipairs({ "ScrollUpButton", "ScrollDownButton" }) do
+    local b = bar[k] or (bname and _G[bname .. k])
+    if b then
+      b:SetAlpha(0)
+      if b.EnableMouse then b:EnableMouse(false) end
+    end
+  end
+  local thumb = bar.ThumbTexture or (bar.GetThumbTexture and bar:GetThumbTexture())
+  for _, r in ipairs({ bar:GetRegions() }) do
+    if r ~= thumb and r.GetObjectType and r:GetObjectType() == "Texture" then r:SetAlpha(0) end
+  end
+  local track = bar:CreateTexture(nil, "BACKGROUND", nil, 1)
+  track:SetPoint("TOP")
+  track:SetPoint("BOTTOM")
+  track:SetWidth(2)
+  T.Fill(track, "inkRim")
+  if thumb then
+    thumb:SetColorTexture(rgba(T.color.inkNote))
+    thumb:SetSize(5, 32)
+  end
+  bar:SetWidth(9)
+  bar:ClearAllPoints()
+  bar:SetPoint("TOPLEFT", sf, "TOPRIGHT", x or 4, -2)
+  bar:SetPoint("BOTTOMLEFT", sf, "BOTTOMRIGHT", x or 4, 2)
+  local function fit(self)
+    local r = self.GetVerticalScrollRange and tonumber(self:GetVerticalScrollRange()) or 0
+    bar:SetShown(r >= 1)
+  end
+  sf:HookScript("OnScrollRangeChanged", fit)
+  fit(sf)
+  return bar
 end
 
 -- An outline in a role, drawn inside the frame's edges (`thick` px wide, 1 by default). `grow` pushes it out past the
@@ -473,27 +566,54 @@ function T.TargetMark(row, ink)
   return wash
 end
 
+-- The row you chose in a list on parchment (Found's chapters, the Road's zones, Storylines): an oxblood wash and the
+-- oxblood bar down its left edge, the same in every list (Design Lead, 11/4). Show and hide it with T.ShowMark.
+function T.SelectMark(row)
+  local wash = T.Area(row, "inkSelect")
+  wash:SetAllPoints()
+  local bar = T.Area(row, "inkAccent", "BORDER")
+  bar:SetPoint("TOPLEFT")
+  bar:SetPoint("BOTTOMLEFT")
+  bar:SetWidth(2)
+  wash.bar = bar
+  T.ShowMark(wash, false)
+  return wash
+end
+
+-- Where you are, on a list of chapters (Found, Road): a thin tan bar down the row's left edge, no wash, so it never
+-- reads as a second selected row (Design Lead, 11/4); its tooltip says "You are here". Show it with T.ShowMark.
+function T.HereMark(row)
+  local bar = T.Area(row, "inkRim", "BORDER")
+  bar:SetPoint("TOPLEFT")
+  bar:SetPoint("BOTTOMLEFT")
+  bar:SetWidth(2)
+  bar:Hide()
+  return bar
+end
+
 function T.ShowMark(mark, shown)
   mark:SetShown(shown and true or false)
   if mark.bar then mark.bar:SetShown(shown and true or false) end
 end
 
 -- Sidebar tabs. Selected: gold fading down from its top, a gold rim and underline, gold text. The others: no fill,
--- muted gold text. T.TabDecor adds the pieces once; T.SetTabSelected switches them. `ink`: the same on parchment, in
--- ink red and brown.
+-- muted gold text. T.TabDecor adds the pieces once; T.SetTabSelected switches them. `ink`: a filter chip on
+-- parchment, as Found's are (a pick looks the same everywhere, the palette of 11/3): a tan chip, oxblood once picked,
+-- its label light on it.
 function T.TabDecor(tab, ink)
   if tab.top then return end
   tab.ink = ink and true or false
   local top = tab:CreateTexture(nil, "BACKGROUND", nil, 1)
   top:SetAllPoints()
   if ink then
-    local a = T.color.inkAccent
-    T.Gradient(top, "VERTICAL", { a[1], a[2], a[3], 0 }, "inkSelect")
+    T.Fill(top, "chipOn")
+    tab.chip = T.Area(tab, "chipFill", "BACKGROUND")
+    tab.chip:SetAllPoints()
   else
     T.Gradient(top, "VERTICAL", { 1, 0.82, 0, 0 }, "tabTop")
+    tab.rim = T.Outline(tab, "rule")
   end
   tab.top = top
-  tab.rim = T.Outline(tab, ink and "inkAccent" or "rule")
 end
 
 function T.SetTabSelected(tab, selected)
@@ -502,8 +622,9 @@ function T.SetTabSelected(tab, selected)
   if tab.top then tab.top:SetShown(selected) end
   if tab.rim then tab.rim:SetShown(selected) end
   if tab.on then tab.on:SetShown(selected) end
+  if tab.chip then tab.chip:SetShown(not selected) end
   if tab.text and tab.text.SetTextColor then
-    local role = tab.ink and (selected and "inkAccent" or "inkNote") or (selected and "gold" or "tabText")
+    local role = tab.ink and (selected and "inkLight" or "ink") or (selected and "gold" or "tabText")
     tab.text:SetTextColor(rgba(T.color[role]))
   end
   tab.selected = selected
@@ -518,17 +639,32 @@ function T.SetButtonSelected(b, selected)
   b.selected = selected
 end
 
+-- The light tick on a heard dot (our own art, Media/Paper/Tick), size px, centred on `parent`, over its green.
+-- (T.PAPER_ART is set further down: the path is looked up when a tick is made)
+function T.HeardTick(parent, size, layer)
+  local t = parent:CreateTexture(nil, layer or "OVERLAY", nil, 3)
+  t:SetTexture(T.PAPER_ART .. "Tick")
+  t:SetSize(size, size)
+  t:SetPoint("CENTER")
+  t:SetVertexColor(rgba(T.color.dotTick))
+  return t
+end
+
 -- A round icon button: a gold disc with a dark sign on it (play, pause or stop; T.SetIcon). The sign is drawn, so
 -- nothing but the disc depends on a texture; without that texture it's a gold square. `label` is a hidden text for
--- what it does (its tooltip says it too).
+-- what it does (its tooltip says it too). look "paper": drawn in the page's ink as the pill's one half is (T.Pill): a
+-- thin tan ring, no fill, an oxblood sign, a faint oxblood wash and an oxblood ring under the mouse; gilt with an ink
+-- stop square while it plays. look "stone": the pill's round half on the dark ground (the player's previous and next,
+-- the quest window's play on its dark title band): a dark fill in the gold rim, a gold sign; gilt with an ink stop
+-- square while it plays. The player's own play stays the plain gilt disc, its one filled control.
 T.DISC = "Interface\\CHARACTERFRAME\\TempPortraitAlphaMask"
 T.STATUSBAR = "Interface\\TargetingFrame\\UI-StatusBar"   -- the player's progress line
 T.ARROW = "Interface\\ChatFrame\\ChatFrameExpandArrow"
 
-function T.RoundButton(parent, size)
+function T.RoundButton(parent, size, look)
   local b = CreateFrame("Button", nil, parent)
   b:SetSize(size, size)
-  b.themed = true
+  b.themed, b.look = true, look
   local hasDisc = T.HasTexture(T.DISC)
   local function circle(layer, sub, inset, role)
     local t = b:CreateTexture(nil, layer, nil, sub)
@@ -566,6 +702,35 @@ function T.RoundButton(parent, size)
   square:SetSize(s * 0.34, s * 0.34)
   square:SetPoint("CENTER")
   b.signs = { play = { arrow }, pause = { bar1, bar2 }, stop = { square } }
+  -- Previous and next: the arrow (turned round for previous) against a bar.
+  if look == "stone" then
+    for _, dir in ipairs({ "prev", "next" }) do
+      local back = dir == "prev"
+      local a = b:CreateTexture(nil, "ARTWORK")
+      a:SetSize(s * 0.42, s * 0.42)
+      a:SetPoint("CENTER", (back and 1 or -1) * s * 0.06, 0)
+      if T.HasTexture(T.ARROW) then
+        a:SetTexture(T.ARROW)
+        if back then a:SetTexCoord(1, 0, 0, 1) end
+        if a.SetDesaturated then a:SetDesaturated(true) end
+        a.file = T.ARROW
+      end
+      local bar = b:CreateTexture(nil, "ARTWORK")
+      bar:SetSize(math.max(2, s * 0.09), s * 0.34)
+      bar:SetPoint("CENTER", (back and -1 or 1) * s * 0.17, 0)
+      b.signs[dir] = { a, bar }
+    end
+    -- The 10-second jumps: a curved arrow (ours, Media/Paper/Skip; turned round for forward) around a small "10".
+    for _, dir in ipairs({ "back10", "forward10" }) do
+      local a = b:CreateTexture(nil, "ARTWORK")
+      a:SetSize(s * 0.86, s * 0.86)
+      a:SetPoint("CENTER", 0, 0)
+      a:SetTexture(T.PAPER_ART .. "Skip")
+      if dir == "forward10" then a:SetTexCoord(1, 0, 0, 1) end
+      a.file = true
+      b.signs[dir] = { a }
+    end
+  end
   -- What it does, as text (hidden: the sign shows it; read by the tooltip and tests).
   local label = b:CreateFontString(nil, "OVERLAY", T.font.small)
   label:SetAlpha(0)
@@ -573,7 +738,22 @@ function T.RoundButton(parent, size)
   b.labelText = label
   b:SetScript("OnMouseDown", function(self) self.disc:SetPoint("TOPLEFT", 2.5, -2.5) end)
   b:SetScript("OnMouseUp", function(self) self.disc:SetPoint("TOPLEFT", 1.5, -1.5) end)
-  T.SetIcon(b, "play")
+  if look then
+    b.ring:SetTexture(T.RING)
+    b.ring:SetPoint("TOPLEFT")
+    b.ring:SetPoint("BOTTOMRIGHT")
+    b.disc:SetPoint("TOPLEFT", 1, -1)
+    b.disc:SetPoint("BOTTOMRIGHT", -1, 1)
+    hl:Hide()
+    if T.HasTexture(T.ARROW) then b.signs.play[1].file = T.ARROW end
+    b:SetScript("OnMouseDown", nil)
+    b:SetScript("OnMouseUp", nil)
+    b:HookScript("OnEnter", function(self) self.hover = true; T.SetIcon(self, self.icon) end)
+    b:HookScript("OnLeave", function(self) self.hover = false; T.SetIcon(self, self.icon) end)
+    b:HookScript("OnEnable", function(self) T.SetIcon(self, self.icon) end)
+    b:HookScript("OnDisable", function(self) T.SetIcon(self, self.icon) end)
+  end
+  T.SetIcon(b, look == "stone" and "next" or "play")
   return b
 end
 
@@ -582,6 +762,38 @@ function T.SetIcon(b, kind)
     for _, t in ipairs(parts) do t:SetShown(k == kind) end
   end
   b.icon = kind
+  if not b.look then return end
+  -- Paper: gilt with an ink sign while it plays (a stop), else no fill (a faint wash under the mouse), the page's ink.
+  -- Stone: a dark fill, the gold rim (brighter under the mouse), a gold sign, dimmed while it can't be pressed.
+  local C = T.color
+  local edge, fill, sign
+  if b.look == "stone" and kind == "stop" then
+    edge, fill, sign = C.discRing, C.gilt, C.ink
+  elseif b.look == "stone" then
+    edge, fill, sign = b.hover and C.rimHover or C.rim, C.button, C.gold
+  else
+    local playing, o = kind == "stop", C.inkAccent
+    edge = playing and C.ribbonOnLo or (b.hover and o or C.inkRim)
+    fill = playing and C.gilt or (b.hover and { o[1], o[2], o[3], 0.08 } or nil)
+    sign = playing and C.ink or o
+  end
+  b.ring:SetVertexColor(rgba(edge))
+  b.disc:SetShown(fill ~= nil)
+  if fill then b.disc:SetVertexColor(rgba(fill)) end
+  local off = b.IsEnabled and not b:IsEnabled()
+  for _, parts in pairs(b.signs) do
+    for _, t in ipairs(parts) do
+      if t.file then t:SetVertexColor(rgba(sign)) else t:SetColorTexture(rgba(sign)) end
+      t:SetAlpha(off and 0.35 or 1)
+    end
+  end
+end
+
+-- What a row that opens something ends in: "›" in oxblood. ▶ only ever means play (Design Lead, 11/4).
+function T.OpenMark(parent)
+  local fs = T.Ink(parent:CreateFontString(nil, "OVERLAY", T.font.body), "inkAccent")
+  fs:SetText("\226\128\186")
+  return fs
 end
 
 -- The book's kit (v2 "Your Chronicle"): parchment pages, ribbons, cards, meters, seals, chips and the illuminated
@@ -604,7 +816,7 @@ local ON_PAPER = {
   ["9d9d9d"] = T.code.inkNote, -- grey: notes, tags
   ["88ccff"] = T.code.inkLink, -- lore links
   ffffff = T.code.ink,         -- white: the text itself
-  ["7fdf7f"] = T.code.inkGreen,-- playing, queued
+  ["7fdf7f"] = T.code.inkGreen,-- heard or done
   e6cc80 = T.code.inkAccent,   -- a zone's name
   d8d8d8 = T.code.ink,         -- a story you've heard
   ["888888"] = T.code.inkFaded,-- what can't be picked
@@ -747,13 +959,16 @@ function T.KindIcon(kind)
   return T.HasTexture(path) and path or UNKNOWN_ICON
 end
 
--- A ribbon bookmark: a button standing on the book's edge, its label running down it (one line turned sideways; one
--- letter to a line where the client can't turn text), a count at its foot. Red when
--- it's off and gold, and a few px longer, while it's the open one (so it never reads by colour alone).
---   r:SetLabel(text)  r:SetOn(bool)  r:SetCount(n)   (n nil or 0 hides it; over 99 shows "99+")
--- Anchor it by its top left; it grows to the right when it turns on. `horizontal` writes the label across instead of
--- down, with the count after it (a narrow window).
-local RIBBON_PAD, RIBBON_EXTRA = 6, 5
+-- A bookmark tab on the book's edge (Mike's pick, 11/4, board 2 "Your pick"): the four are one size with even gaps
+-- (UI.FitRibbons sets the size), each label centred in the heading face, running down the tab (one line turned
+-- sideways; one letter to a line where the client can't turn text, and for CJK). The open one is the page's paper
+-- with an oxblood label, and joins the page; the others are stone in a gold rim with muted labels. "New" is one small
+-- gold dot near the tab's outer end, never a number, and it never moves the label.
+--   r:SetLabel(text)  r:SetOn(bool)  r:SetCount(n)  r:SetLength(px)   (n > 0 shows the dot; the count stays in Found)
+-- Anchor it by its top left. `horizontal` writes the label across instead of down (a narrow window).
+local RIBBON_PAD, RIBBON_W = 8, 26
+T.color.tabPaper = { 0.851, 0.788, 0.671, 1 }   -- the open tab: the page's paper (#d9c9ab)
+T.color.tabStone = { 0.200, 0.161, 0.078, 1 }   -- the others: stone (#332914)
 
 local function utf8Chars(s)
   local out = {}
@@ -779,64 +994,56 @@ end
 
 local RibbonMixin = {}
 
+-- Lays the label out and returns the length it needs (the tab's height is the set length, or that).
 function RibbonMixin:Fit()
-  local fs, count = self.text, self.count
-  local extra = self.on and RIBBON_EXTRA or 0
-  local n = self.countN or 0
-  local countText = n > 99 and "99+" or tostring(n)
+  local fs = self.text
+  -- The face: the heading's, or the largest smaller one the four fit the book in at one length (UI.FitRibbons). The
+  -- ink follows (a new face brings its own colour).
+  local face = self.tabFace or T.font.heading
+  if self.face ~= face then fs:SetFontObject(face); self.face = face end
+  fs:SetTextColor(rgba(T.color[self.on and "inkAccent" or "tabText"]))
+  fs:SetShadowColor(0, 0, 0, self.on and 0 or 0.8)
   if self.horizontal then
     fs:SetWidth(0)
-    fs:SetText(self.label .. (n > 0 and ("  " .. countText) or ""))
-    self:SetSize(math.max(22, math.floor((T.TextWidth(fs) or 30) + 14)) + extra, 22)
+    fs:SetText(self.label)
+    self:SetSize(math.max(22, math.floor((T.TextWidth(fs) or 30) + 18)), 22)
     fs:ClearAllPoints()
-    fs:SetPoint("CENTER", self, "CENTER", -extra / 2 + 1, 0)
-    self.countBg:SetShown(false)
-    count:SetShown(false)
+    fs:SetPoint("CENTER")
     return
   end
-  local pill = 0
-  if n > 0 then
-    count:SetText(countText)
-    pill = math.ceil((T.TextWidth(count) or 8) + 8)
-  end
-  local w = math.max(22, pill + 6)
+  local need
+  local pad = RIBBON_PAD
   local turned = fs.SetRotation and not isUpright(self.label)
   if turned then
-    -- One line of text turned a quarter, like a book's spine tab. The client lays text out unturned, so the ribbon is
-    -- sized by hand: its height from the string's width, its width from the line's height. The string's own box stays
-    -- the text's length and turns about its centre, which sits that far down from the ribbon's top.
+    -- One line of text turned a quarter, like a book's spine tab. The client lays text out unturned, so the tab is
+    -- sized by hand: its length from the string's width. The string's own box stays the text's length and turns about
+    -- its centre, which is the tab's centre.
     if fs.SetWordWrap then fs:SetWordWrap(false) end
     fs:SetWidth(0)
     fs:SetText(self.label)
-    local len = math.ceil(T.TextWidth(fs) or (#self.label * 6))
-    w = math.max(w, math.ceil(fs:GetStringHeight() or 12) + 6)
+    local len = math.ceil(T.TextWidth(fs) or (#self.label * 7))
     fs:SetWidth(len + 2)
     fs:SetRotation(RIBBON_TURN)
-    self:SetSize(w + extra, len + RIBBON_PAD * 2 + (n > 0 and 18 or 0))
-    fs:ClearAllPoints()
-    fs:SetPoint("CENTER", self, "TOP", -extra / 2 + 1, -(RIBBON_PAD + (len + 2) / 2))
+    need = len + pad * 2
   else
     -- Letters one to a line: for a client with no SetRotation, and for CJK, whose letters stand upright.
     if fs.SetRotation then fs:SetRotation(0) end
     if fs.SetWordWrap then fs:SetWordWrap(true) end
-    local chars = utf8Chars(self.label)
-    fs:SetWidth(30)
-    fs:SetText(table.concat(chars, "\n"))
-    local textH = math.ceil(fs:GetStringHeight() or (#chars * 11))
-    self:SetSize(w + extra, textH + RIBBON_PAD * 2 + (n > 0 and 18 or 0))
-    fs:ClearAllPoints()
-    fs:SetPoint("TOP", self, "TOP", -extra / 2 + 1, -RIBBON_PAD)
-    fs:SetWidth(w)
+    fs:SetWidth(RIBBON_W)
+    fs:SetText(table.concat(utf8Chars(self.label), "\n"))
+    need = math.ceil(fs:GetStringHeight() or (#utf8Chars(self.label) * 13)) + pad * 2
   end
-  self.countBg:SetShown(n > 0)
-  count:SetShown(n > 0)
-  if n > 0 then
-    self.countBg:SetSize(pill, 14)
-    self.countBg:ClearAllPoints()
-    self.countBg:SetPoint("BOTTOM", self, "BOTTOM", -extra / 2 + 1, 5)
-    count:ClearAllPoints()
-    count:SetPoint("CENTER", self.countBg, "CENTER", 0, 0)
-  end
+  self.need = need
+  self:SetSize(RIBBON_W, math.max(need, self.length or 0))
+  fs:ClearAllPoints()
+  fs:SetPoint("CENTER", self, "CENTER", 0, 0)
+  return need
+end
+
+-- The length every tab shares (UI.FitRibbons).
+function RibbonMixin:SetLength(px)
+  self.length = px
+  self:Fit()
 end
 
 function RibbonMixin:SetLabel(text)
@@ -846,14 +1053,31 @@ end
 
 function RibbonMixin:SetOn(on)
   self.on = on and true or false
-  T.Gradient(self.bg, "HORIZONTAL", self.on and "ribbonOnLo" or "ribbonLo", self.on and "ribbonOn" or "ribbon")
-  self.shine:SetShown(self.on)
+  T.Fill(self.bg, self.on and "tabPaper" or "tabStone")
+  self.join:SetShown(self.on)
+  for _, t in ipairs(self.rim) do T.Fill(t, self.on and "inkRim" or "rim") end
   self:Fit()
 end
 
 function RibbonMixin:SetCount(n)
   self.countN = tonumber(n) or 0
-  self:Fit()
+  self.dot:SetShown(self.countN > 0)
+end
+
+-- The "new" dot: small, gold, at the tab's outer corner (its top right), inside the padding above the label, so it
+-- never touches or moves it.
+function RibbonMixin:NewDot()
+  local d = self:CreateTexture(nil, "OVERLAY", nil, 2)
+  d:SetSize(5, 5)
+  d:SetPoint("TOPRIGHT", -3, -2)
+  if T.HasTexture(T.DISC) then
+    d:SetTexture(T.DISC)
+    d:SetVertexColor(rgba(T.color.newMark))
+  else
+    T.Fill(d, "newMark")
+  end
+  d:Hide()
+  return d
 end
 
 function T.Ribbon(parent, label, horizontal)
@@ -861,28 +1085,27 @@ function T.Ribbon(parent, label, horizontal)
   r.horizontal = horizontal and true or false
   r.bg = r:CreateTexture(nil, "BACKGROUND")
   r.bg:SetAllPoints()
-  -- The gilt edge: top, bottom and the free end (not the side that meets the book).
-  local top, bottom, right = T.Area(r, "gilt", "BORDER"), T.Area(r, "gilt", "BORDER"), T.Area(r, "gilt", "BORDER")
+  -- The open one joins the page: its paper runs a few px onto the page's edge, over the page's own rim.
+  r.join = r:CreateTexture(nil, "BACKGROUND")
+  r.join:SetPoint("TOPRIGHT", r, "TOPLEFT", 1, 0)
+  r.join:SetPoint("BOTTOMRIGHT", r, "BOTTOMLEFT", 1, 0)
+  r.join:SetWidth(4)
+  T.Fill(r.join, "tabPaper")
+  -- The rim: top, bottom and the free end (not the side that meets the book).
+  local top, bottom, right = r:CreateTexture(nil, "BORDER"), r:CreateTexture(nil, "BORDER"), r:CreateTexture(nil, "BORDER")
   top:SetPoint("TOPLEFT"); top:SetPoint("TOPRIGHT"); top:SetHeight(1)
   bottom:SetPoint("BOTTOMLEFT"); bottom:SetPoint("BOTTOMRIGHT"); bottom:SetHeight(1)
   right:SetPoint("TOPRIGHT"); right:SetPoint("BOTTOMRIGHT"); right:SetWidth(1)
-  -- The open one's lit upper edge.
-  r.shine = T.Area(r, "giltHi", "ARTWORK")
-  r.shine:SetPoint("TOPLEFT", 0, -1); r.shine:SetPoint("TOPRIGHT", 0, -1); r.shine:SetHeight(2)
+  r.rim = { top, bottom, right }
   local hl = r:CreateTexture(nil, "HIGHLIGHT")
   hl:SetAllPoints()
-  hl:SetColorTexture(1, 0.95, 0.75, 0.18)
-  r.text = r:CreateFontString(nil, "OVERLAY", T.font.label)
-  r.text:SetTextColor(rgba(T.color.ribbonText))
+  hl:SetColorTexture(1, 0.95, 0.75, 0.12)
+  r.text = r:CreateFontString(nil, "OVERLAY", T.font.heading)
   r.text:SetJustifyH("CENTER")
   if r.text.SetWordWrap then r.text:SetWordWrap(true) end
-  r.text:SetShadowColor(0, 0, 0, 0.8)
   r.text:SetShadowOffset(1, -1)
-  r.countBg = T.Area(r, "newMark", "ARTWORK")
-  r.count = r:CreateFontString(nil, "OVERLAY", T.font.label)
-  r.count:SetTextColor(rgba(T.color.newMarkText))
-  r.count:SetJustifyH("CENTER")
   for k, v in pairs(RibbonMixin) do r[k] = v end
+  r.dot = r:NewDot()
   r.label, r.countN, r.on = label or "", 0, false
   r:SetOn(false)
   return r
@@ -1183,21 +1406,18 @@ function T.Tile(parent, kind)
   hl:SetColorTexture(1, 0.95, 0.75, 0.30)
   -- New: a 2px gilt ring just outside the card.
   b.ring = T.Outline(b, "newMark", "OVERLAY", 2, 2)
-  -- Heard: a green dot in the top right corner (a light rim round a green centre).
+  -- Heard: a green dot with a light tick on it, in the top right corner (T.HeardTick).
   b.dot = CreateFrame("Frame", nil, b)
   b.dot:SetSize(11, 11)
   b.dot:SetPoint("TOPRIGHT", -2, -2)
-  local rim = b.dot:CreateTexture(nil, "OVERLAY", nil, 1)
-  rim:SetAllPoints()
-  local core = b.dot:CreateTexture(nil, "OVERLAY", nil, 2)
-  core:SetPoint("TOPLEFT", 1.5, -1.5)
-  core:SetPoint("BOTTOMRIGHT", -1.5, 1.5)
+  local core = b.dot:CreateTexture(nil, "OVERLAY", nil, 1)
+  core:SetAllPoints()
   if T.HasTexture(T.DISC) then
-    rim:SetTexture(T.DISC); rim:SetVertexColor(rgba(T.color.dotRim))
     core:SetTexture(T.DISC); core:SetVertexColor(rgba(T.color.dotGreen))
   else
-    T.Fill(rim, "dotRim"); T.Fill(core, "dotGreen")
+    T.Fill(core, "dotGreen")
   end
+  T.HeardTick(b.dot, 9)
   -- Sealed: a wax disc at the foot.
   b.wax = T.Seal(b, "wax", 12)
   b.wax:SetPoint("BOTTOM", 0, 3)
@@ -1281,7 +1501,8 @@ local SealMixin = {}
 
 function SealMixin:Layout()
   local size = math.min(tonumber(self:GetWidth()) or 14, tonumber(self:GetHeight()) or 14)
-  local inset = self.filled and 0 or math.floor(size * 0.22 + 0.5)
+  -- One size, earned or not, so a row's marks don't jump (Design Lead, 11/4): an empty seal is the ring it fills.
+  local inset = (self.filled or self.ring) and 0 or math.floor(size * 0.22 + 0.5)
   self.base:ClearAllPoints()
   self.base:SetPoint("TOPLEFT", inset, -inset)
   self.base:SetPoint("BOTTOMRIGHT", -inset, inset)
@@ -1297,7 +1518,7 @@ function SealMixin:SetKind(kind)
     self.base:SetVertexColor(base[1], base[2], base[3], 1)
   else
     local e = T.color.inkFaded   -- an empty seal is ink-coloured whichever kind: only a full one has its wax or gold
-    self.base:SetVertexColor(e[1], e[2], e[3], 0.6)
+    self.base:SetVertexColor(e[1], e[2], e[3], self.ring and 0.9 or 0.6)
   end
   self.shine:SetVertexColor(hi[1], hi[2], hi[3], 0.9)
 end
@@ -1305,6 +1526,9 @@ end
 function SealMixin:SetFilled(filled)
   self.filled = filled and true or false
   self.shine:SetShown(self.filled)
+  -- (the ring is our own art; without the disc art an empty seal stays the smaller square it was)
+  self.ring = not self.filled and T.HasTexture(T.DISC) and T.RING ~= nil
+  if T.HasTexture(T.DISC) then self.base:SetTexture(self.ring and T.RING or T.DISC) end
   self:SetKind(self.kind)
   self:Layout()
 end
@@ -1418,7 +1642,7 @@ function DropMixin:SetParagraph(text, width, lines)
     return
   end
   self.cap:SetText(first)
-  local capW = math.ceil(T.TextWidth(self.cap) or 24) + 6
+  local capW = math.ceil(T.TextWidth(self.cap) or 24) + 2   -- (close up to the letter: no gap before the word, 11/4)
   local lh = lineHeight(self.lead)
   local room = lines * lh
   self.lead:SetWidth(math.max(60, width - capW))
@@ -1469,21 +1693,227 @@ function T.DropCap(parent, bodyFont)
   return d
 end
 
--- The open bookmark (UI.lua): the kit's gold ribbon under its cream label read at about 3:1, so the open one is a
--- lighter gold with a dark ink label (7:1). The shape still tells it too: it's the longer one, with its lit upper edge.
-T.color.ribbonOpenLo = { 0.80, 0.62, 0.22, 1 }
-T.color.ribbonOpen = { 0.93, 0.78, 0.38, 1 }
-T.color.ribbonOpenInk = { 0.16, 0.08, 0.02, 1 }
 
-function T.StyleOpenRibbon(r, on)
-  if not (r and r.bg and r.text) then return r end
-  if on then
-    T.Gradient(r.bg, "HORIZONTAL", "ribbonOpenLo", "ribbonOpen")
-    r.text:SetTextColor(rgba(T.color.ribbonOpenInk))
-    r.text:SetShadowColor(0, 0, 0, 0)
-  else
-    r.text:SetTextColor(rgba(T.color.ribbonText))
-    r.text:SetShadowColor(0, 0, 0, 0.8)
+-- The Listen + playlist pill (Design Lead, 11/3, option D; Mike: "the colors are a bit too much"): one round-ended
+-- control, play on its left half and the playlist's list-plus on its right, under a thin edge with a divider between.
+-- On paper it's drawn in the page's ink: no fill, a tan edge, oxblood signs. On stone: a dark fill, the gold rim, gold
+-- signs. Under the mouse it washes faintly and its edge darkens; while its story plays its play half fills gilt with
+-- an ink stop square and the playlist half stays (T.SetPill). h: 30 by a heading, 24 on a row; each half at least 28 wide, so
+-- both stay easy to hit. p.play and p.add are its buttons: the caller gives them OnClick, and their tooltips as
+-- b.onEnter / b.onLeave (the pill keeps OnEnter for its hover). p.play.icon says "play" or "stop" as on T.RoundButton.
+-- The edge is our own art (Media/Paper/Ring), cut in halves for the ends.
+T.RING = T.PAPER_ART .. "Ring"
+
+-- A card with round corners, as the pages and the pill have (Design Lead, 11/4: one card radius): a fill and a 1px
+-- edge, each made of pieces that don't overlap (the corners are quarters of a disc and of our own ring,
+-- Media/Paper/CardRing; the rest plain). Returns fill, edge: each with SetColor(role) and SetShown(on).
+T.CARD_R = 8
+local QUARTERS = { { "TOPLEFT", 0, 0.5, 0, 0.5 }, { "TOPRIGHT", 0.5, 1, 0, 0.5 }, { "BOTTOMLEFT", 0, 0.5, 0.5, 1 },
+  { "BOTTOMRIGHT", 0.5, 1, 0.5, 1 } }
+function T.RoundBox(frame)
+  local r = T.CARD_R
+  local disc = T.HasTexture(T.DISC) and T.DISC or nil
+  local function group(layer, corner)
+    local g = { parts = {} }
+    local function piece(file)
+      local t = frame:CreateTexture(nil, layer)
+      if file then t:SetTexture(file) end
+      t.file = file
+      g.parts[#g.parts + 1] = t
+      return t
+    end
+    for _, q in ipairs(QUARTERS) do
+      local t = piece(corner)
+      t:SetSize(r, r)
+      t:SetPoint(q[1])
+      if corner then t:SetTexCoord(q[2], q[3], q[4], q[5]) end
+    end
+    g.piece = piece
+    function g:SetColor(role)
+      local c = T.color[role] or role
+      for _, t in ipairs(self.parts) do
+        if t.file then t:SetVertexColor(rgba(c)) else t:SetColorTexture(rgba(c)) end
+      end
+    end
+    function g:SetShown(on) for _, t in ipairs(self.parts) do t:SetShown(on and true or false) end end
+    return g
   end
-  return r
+  local fill = group("BACKGROUND", disc)
+  local mid = fill.piece()
+  mid:SetPoint("TOPLEFT", r, 0); mid:SetPoint("BOTTOMRIGHT", -r, 0)
+  local left, right = fill.piece(), fill.piece()
+  left:SetPoint("TOPLEFT", 0, -r); left:SetPoint("BOTTOMLEFT", 0, r); left:SetWidth(r)
+  right:SetPoint("TOPRIGHT", 0, -r); right:SetPoint("BOTTOMRIGHT", 0, r); right:SetWidth(r)
+  local edge = group("BORDER", T.PAPER_ART .. "CardRing")
+  local top, bottom, l, rr = edge.piece(), edge.piece(), edge.piece(), edge.piece()
+  top:SetPoint("TOPLEFT", r, 0); top:SetPoint("TOPRIGHT", -r, 0); top:SetHeight(1)
+  bottom:SetPoint("BOTTOMLEFT", r, 0); bottom:SetPoint("BOTTOMRIGHT", -r, 0); bottom:SetHeight(1)
+  l:SetPoint("TOPLEFT", 0, -r); l:SetPoint("BOTTOMLEFT", 0, r); l:SetWidth(1)
+  rr:SetPoint("TOPRIGHT", 0, -r); rr:SetPoint("BOTTOMRIGHT", 0, r); rr:SetWidth(1)
+  return fill, edge
+end
+
+-- A close × on the book's page (Design Lead, 11/4): the pill's thin tan ring with an oxblood cross in it (our own art,
+-- Media/Paper/Ring and Cross); under the mouse the ring turns oxblood over a faint wash. The game's red × stays on the
+-- stone frame and the floating player. The caller gives it OnClick and its tooltip.
+function T.InkClose(parent, size)
+  size = size or 20
+  local b = CreateFrame("Button", nil, parent)
+  b:SetSize(size, size)
+  local function tex(layer, file, role, inset)
+    local t = b:CreateTexture(nil, layer)
+    t:SetPoint("TOPLEFT", inset or 0, -(inset or 0))
+    t:SetPoint("BOTTOMRIGHT", -(inset or 0), inset or 0)
+    t:SetTexture(file)
+    t:SetVertexColor(rgba(T.color[role] or role))
+    return t
+  end
+  local o = T.color.inkAccent
+  b.ring = tex("BORDER", T.RING, "inkRim")
+  b.cross = tex("ARTWORK", T.PAPER_ART .. "Cross", "inkAccent", math.floor(size * 0.27))
+  tex("HIGHLIGHT", T.DISC, { o[1], o[2], o[3], 0.08 }, 1)
+  tex("HIGHLIGHT", T.RING, "inkAccent")
+  return b
+end
+
+local PILL_SIGN = { [30] = 14, [24] = 12, [18] = 10 }   -- the signs' box
+local function pillTint(t, c, file)
+  if file then t:SetVertexColor(rgba(c)) else t:SetColorTexture(rgba(c)) end
+  t:Show()
+end
+
+function T.Pill(parent, h, stone)
+  local p = CreateFrame("Frame", nil, parent)
+  p.h, p.half, p.stone = h, h >= 30 and 34 or 28, stone and true or false
+  p:SetSize(2 * p.half, h)
+  local disc = T.HasTexture(T.DISC) and T.DISC or nil
+  local function piece(layer, sub, file, left, right)
+    local t = p:CreateTexture(nil, layer, nil, sub)
+    if file then t:SetTexture(file); t:SetTexCoord(left, right, 0, 1) end
+    t.file = file
+    return t
+  end
+  p.fill = { piece("BACKGROUND", 0, disc, 0, 0.5), piece("BACKGROUND", 0), piece("BACKGROUND", 0, disc, 0.5, 1) }
+  -- (the gilt of the play half while it plays, over the fill: its round end, the run to the divider, and the other
+  -- round end when the play half is all there is)
+  p.lit = { piece("BACKGROUND", 1, disc, 0, 0.5), piece("BACKGROUND", 1), piece("BACKGROUND", 1, disc, 0.5, 1) }
+  -- (the straight run is the ring's middle column stretched, so its lines weigh what the round ends do)
+  p.edge = { piece("BORDER", 0, T.RING, 0, 0.5), piece("BORDER", 0, T.RING, 0.48, 0.52),piece("BORDER", 0, T.RING, 0.5, 1) }
+  p.divider = piece("BORDER", 1)
+  local function half()
+    local b = CreateFrame("Button", nil, p)
+    b:SetSize(p.half, h)
+    b:SetScript("OnEnter", function(self) p.hover = true; T.SetPill(p); if self.onEnter then self.onEnter(self) end end)
+    b:SetScript("OnLeave", function(self) p.hover = false; T.SetPill(p); if self.onLeave then self.onLeave(self) end end)
+    return b
+  end
+  local s = PILL_SIGN[h] or math.floor(h * 0.47)
+  -- Play: the arrow (texture, tinted), and the stop square.
+  p.play = half()
+  local arrow = p.play:CreateTexture(nil, "ARTWORK")
+  arrow:SetSize(s, s)
+  if T.HasTexture(T.ARROW) then
+    arrow:SetTexture(T.ARROW)
+    if arrow.SetDesaturated then arrow:SetDesaturated(true) end
+    arrow.file = T.ARROW
+  else
+    arrow:SetSize(s * 0.6, s * 0.6)
+  end
+  local square = p.play:CreateTexture(nil, "ARTWORK")
+  square:SetSize(math.floor(s * 0.6), math.floor(s * 0.6))
+  p.arrow, p.square = arrow, square
+  -- The playlist: three lines of a list (the last short) and a + beside them; queued, the + loses its upright (a -).
+  p.add = half()
+  local u = s / 14
+  local function bar(w, bh, x, y)
+    local t = p.add:CreateTexture(nil, "ARTWORK")
+    t:SetSize(w * u, bh * u)
+    t:SetPoint("TOPLEFT", p.add, "CENTER", (x - 7) * u, (7 - y) * u)
+    return t
+  end
+  p.list = { bar(7, 1.6, 1.2, 2.2), bar(7, 1.6, 1.2, 6.2), bar(4, 1.6, 1.2, 10.2), bar(5, 1.6, 7.7, 9.7) }
+  p.upright = bar(1.6, 5, 10.2, 7.2)
+  -- Queued: a tick where the + was (our own art, Media/Paper/Tick); clicking takes the story out (Design Lead, 11/4).
+  p.tick = bar(6.4, 6.4, 7.6, 6.6)
+  p.tick:SetTexture(T.PAPER_ART .. "Tick")
+  p.tick.file = true
+  p.signs = { arrow, square, p.upright, p.tick, unpack(p.list) }
+  T.SetPill(p, false, true, false)
+  return p
+end
+
+-- Sets a pill's state (any argument left out keeps what it was): playing, canAdd (the + is there at all), queued
+-- (the + is a tick) and canPlay (the play half is there; a row that can only be queued has none), then lays it out and
+-- colours it. Its width is two halves or one. While it plays it keeps its size and shape: its play half fills gilt
+-- with an ink stop square, and the playlist half stays (Mike's pick, 11/4, option A).
+function T.SetPill(p, playing, canAdd, queued, canPlay)
+  if playing ~= nil then p.playing = playing end
+  if canAdd ~= nil then p.canAdd = canAdd end
+  if queued ~= nil then p.queued = queued end
+  if canPlay ~= nil then p.canPlay = canPlay end
+  local h, r = p.h, p.h / 2
+  local hasPlay = p.playing or p.canPlay ~= false
+  local hasAdd = p.canAdd and true or false
+  local two = hasPlay and hasAdd
+  local w = two and 2 * p.half or p.half
+  p:SetWidth(w)
+  p.w = w   -- (its width, for callers laying text out beside it)
+  p.play:ClearAllPoints()
+  p.play:SetPoint("TOPLEFT")
+  p.play:SetWidth(p.half)
+  p.play:SetShown(hasPlay)
+  p.add:ClearAllPoints()
+  p.add:SetPoint("TOPRIGHT")
+  p.add:SetShown(hasAdd)
+  p.play.icon = p.playing and "stop" or "play"
+  -- The round ends, the straight run between them, and the divider.
+  local fl, fm, fr = p.fill[1], p.fill[2], p.fill[3]
+  local el, em, er = p.edge[1], p.edge[2], p.edge[3]
+  for _, t in ipairs({ fl, el }) do t:ClearAllPoints(); t:SetPoint("TOPLEFT"); t:SetSize(r, h) end
+  for _, t in ipairs({ fr, er }) do t:ClearAllPoints(); t:SetPoint("TOPRIGHT"); t:SetSize(r, h) end
+  for _, t in ipairs({ fm, em }) do t:ClearAllPoints(); t:SetPoint("TOPLEFT", r, 0); t:SetPoint("BOTTOMRIGHT", -r, 0) end
+  local run = w > h
+  p.divider:ClearAllPoints()
+  p.divider:SetSize(1, math.floor(h * 0.47 + 0.5))
+  p.divider:SetPoint("CENTER", p, "LEFT", p.half, 0)
+  -- Colours: the page's ink (paper) or gold on the dark (stone); while it plays, its play half gilt, an ink square.
+  local C = T.color
+  local edge, fill, sign
+  if p.stone then
+    edge, fill, sign = p.hover and C.rimHover or C.rim, C.button, C.gold
+  else
+    local o = C.inkAccent
+    edge, sign = p.hover and o or C.inkRim, o
+    fill = p.hover and { o[1], o[2], o[3], 0.08 } or nil
+  end
+  for _, t in ipairs(p.fill) do
+    if fill then pillTint(t, fill, t.file) else t:Hide() end
+  end
+  if not run then fm:Hide() end
+  local ll, lm, lr = p.lit[1], p.lit[2], p.lit[3]
+  for _, t in ipairs(p.lit) do t:Hide() end
+  if p.playing then
+    ll:ClearAllPoints(); ll:SetPoint("TOPLEFT"); ll:SetSize(r, h); pillTint(ll, C.gilt, ll.file)
+    local reach = two and p.half or w - r   -- (to the divider, or to the far round end)
+    if reach > r then
+      lm:ClearAllPoints(); lm:SetPoint("TOPLEFT", r, 0); lm:SetSize(reach - r, h); pillTint(lm, C.gilt)
+    end
+    if not two then
+      lr:ClearAllPoints(); lr:SetPoint("TOPRIGHT"); lr:SetSize(r, h); pillTint(lr, C.gilt, lr.file)
+    end
+  end
+  for _, t in ipairs(p.edge) do pillTint(t, edge, t.file) end
+  if not run then em:Hide() end
+  if two then pillTint(p.divider, edge) else p.divider:Hide() end
+  for _, t in ipairs(p.signs) do pillTint(t, sign, t.file) end
+  if p.playing then pillTint(p.square, C.ink) end
+  p.arrow:ClearAllPoints()
+  p.arrow:SetPoint("CENTER", p.play, "CENTER", p.arrow.file and 1 or 0, 0)   -- (the arrow art sits a little left)
+  p.square:ClearAllPoints()
+  p.square:SetPoint("CENTER", p.play, "CENTER")
+  p.arrow:SetShown(not p.playing)
+  p.square:SetShown(p.playing)
+  p.upright:SetShown(not p.queued)
+  p.list[4]:SetShown(not p.queued)
+  p.tick:SetShown(p.queued and true or false)
 end

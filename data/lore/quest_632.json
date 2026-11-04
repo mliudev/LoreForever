@@ -22,16 +22,16 @@
    "Plea To The Alliance"
   ]
  },
- "summary": "At the Thandol Span, Rhag Garmason waits for word from a missing scout. He sent adventurers to check on Ol' Ebenezer Rustlocke after the dwarf stopped reporting from the great stone crossing. The search beneath its arches reveals what happened to him and a threat to northern supply lines.",
+ "summary": "At the Thandol Span, Rhag Garmason waits for word from a missing scout. He sent adventurers to check on Ol' Ebenezer Rustlocke after the dwarf stopped reporting from the great stone crossing. The search beneath its arches may reveal a threat to northern supply lines.",
  "sections": [
   {
-   "title": "A Scout's Final Stand",
-   "body": "Longbraid the Grim sent Ebenezer Rustlocke to watch over the Thandol Span's structure and security. When the scout stopped reporting, foul play was feared. Beneath the crossing's arches, you find Rustlocke dead. Dark Iron invaders ambushed him from the shadows.",
+   "title": "Rustlocke's Watch",
+   "body": "Longbraid the Grim sent Ebenezer Rustlocke to watch over the Thandol Span's structure and security. When the scout stopped reporting, foul play was feared.",
    "spoiler": 0
   },
   {
    "title": "Deepfury's Orders",
-   "body": "A set of written orders bearing the name Deepfury lies near Rustlocke's clenched fingers. The parchment points to deliberate Dark Iron operations meant to destabilize the crossing, not a random robbery or isolated border skirmish. When you bring the evidence to Garmason, the garrison shifts from a routine search to urgent wartime defense.",
+   "body": "Beneath the crossing's arches, you find Rustlocke dead. Dark Iron invaders ambushed him from the shadows. A set of written orders bearing the name Deepfury lies near Rustlocke's clenched fingers. The parchment points to deliberate Dark Iron operations meant to destabilize the crossing, not a random robbery or isolated border skirmish. When you bring the evidence to Garmason, the garrison shifts from a routine search to urgent wartime defense.",
    "spoiler": 1
   }
  ],
@@ -117,5 +117,5 @@
  "attribution": [
   "The Thandol Span (2)"
  ],
- "style": 1
+ "style": 2
 }

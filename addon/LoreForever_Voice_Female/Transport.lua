@@ -126,7 +126,7 @@ P.transport["npc:dark-iron-ambassador"] = {
   fullHash = "e11f56",
   text = "Dark Iron Ambassador. Deep in Gnomeregan, the Dark Iron Ambassador moves among the ruined halls as an envoy of his clan. Why the clan has come to the fallen gnome capital remains unclear. In Gnomeregan’s irradiated halls, the Dark Iron Ambassador speaks for his clan. The purpose of his mission is unknown.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_dark-iron-ambassador-8606170e784aa319180b/1-0000.mp3", duration = 20.0097959, start = 0},
+    {file = "Audio/Transport/full_npc_dark-iron-ambassador-212f1a151a8832707c72/1-0000.mp3", duration = 21.2636735, start = 0},
   },
 }
 P.transport["npc:dextren-ward"] = {
@@ -150,7 +150,7 @@ P.transport["npc:electrocutioner-6000"] = {
   fullHash = "beffc7",
   text = "Electrocutioner 6000. In Gnomeregan's Launch Bay, Electrocutioner 6000 guards the upper platform. The spider tank fights for Mekgineer Thermaplugg and the irradiated leper gnomes who follow him. After Gnomeregan fell, Mekgineer Thermaplugg and the irradiated leper gnomes who follow him took control of the city's war machines. Electrocutioner 6000 guards the Launch Bay's upper platform. It strikes intruders with high-voltage current. Electrocutioner 6000 guards the Workshop Key, which opens Gnomeregan's back door into its workshops. Bring down the machine, and the key gives you a quicker route into the city's depths.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_electrocutioner-6000-06e2654bd094c73457c9/1-0000.mp3", duration = 39.0008163, start = 0},
+    {file = "Audio/Transport/full_npc_electrocutioner-6000-00f0f87f5d5de0e190cd/1-0000.mp3", duration = 41.9004082, start = 0},
   },
 }
 P.transport["npc:fenrus-the-devourer"] = {
@@ -414,7 +414,7 @@ P.transport["npc:viscous-fallout"] = {
   fullHash = "b9c35e",
   text = "Viscous Fallout. In Gnomeregan's lower passages, Viscous Fallout drifts through the toxic runoff. Radiation flooded Gnomeregan after Mekgineer Thermaplugg advised a treacherous plan to wipe out the invading troggs. The fallout filled the city's lower levels with toxic slime and contamination. Viscous Fallout is a water elemental, its substance thick with the city's toxic waste. Its origins before the fall are unknown. Viscous Fallout drifts through Gnomeregan's irradiated lower passages as a living pool of toxic sludge. It spews volleys of toxin, then lashes out at anything in its path. Those who enter the city to cleanse its tainted depths must destroy the creature.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_viscous-fallout-c260ed180675499f218e/1-0000.mp3", duration = 44.1208163, start = 0},
+    {file = "Audio/Transport/full_npc_viscous-fallout-bb5da815afe223ddfda1/1-0000.mp3", duration = 44.9044898, start = 0},
   },
 }
 P.transport["subzone:camp-narache"] = {
@@ -670,7 +670,7 @@ P.transport["topic:frostmane-tribe"] = {
   fullHash = "b3a7e6",
   text = "Frostmane tribe. Across Dun Morogh, the Frostmane tribe fights to reclaim the mountain home dwarves took from them. Driven into caves and remote ridges centuries ago, the ice trolls now wage war against the dwarves. Long before the Bronzebeard clan united under Ironforge, the Frostmane trolls ruled Dun Morogh’s snowy reaches. As the dwarven kingdom spread, it crushed their realm. The survivors fled into caves and across frozen ridges and crags.\n\nDefeat left the Frostmane with a hatred passed down through generations. They see every mountaineer, traveler, and homestead as an invader to drive out or slaughter. For decades, the Ironforge Senate treated the Frostmane as little more than a nuisance in the hills. Then the trogg menace emerged beneath Dun Morogh, and dwarven defenses fell into disarray. The mountaineers were overwhelmed while dwarven forces fought Alliance wars abroad.\n\nThe Frostmane seized their chance. From strongholds such as Frostmane Hold and Shimmer Ridge, they renewed their violent raids to reclaim their ancient lands.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_frostmane-tribe-e08226ad6a425fda2aac/1-0000.mp3", duration = 69.0155102, start = 0},
+    {file = "Audio/Transport/full_topic_frostmane-tribe-6ce24fd1ede84e34d7ff/1-0000.mp3", duration = 67.2130612, start = 0},
   },
 }
 P.transport["topic:gnoll"] = {
@@ -1286,7 +1286,7 @@ P.transport["zone:gnomeregan"] = {
   fullHash = "045cae",
   text = "Gnomeregan. In Dun Morogh, Gnomeregan lies ruined and quarantined after the gnomes' desperate defense against troggs. Once their underground capital and greatest technological wonder, it now holds irradiated halls, mutated troggs, deranged leper gnomes, and rogue mechanical sentries. Its surviving people live as refugees in nearby Ironforge. Beneath Dun Morogh, Gnomeregan gathered gnomish invention, competitive craft, and politics under one roof. With help from the nearby dwarves of Ironforge, its people built a vast mechanical complex, powered by grinding engines and whirring gears.\n\nIts intricate ventilation network took fifteen technicians working around the clock to keep fresh air moving. At Tinkers' Court, gnomes debated and competed as their capital grew into a marvel of industry. During the Second War, they sent the Alliance of Lordaeron siege engines, flying machines, and armaments. During the Third War, as the Scourge tore through Lordaeron, dwarven excavations at the ancient titan vault of Uldaman awakened primitive troggs beneath Dun Morogh. The creatures burrowed into Gnomeregan's lower foundations, and High Tinker Gelbin Mekkatorque led the defense.\n\nAs the city's defenses began to fail, Mekkatorque followed the counsel of his chief advisor, Mekgineer Thermaplugg. He ordered radioactive waste tanks vented into the lower levels to eradicate the invaders. The toxic gas spread beyond control. Nearly eighty percent of the gnomish population died within days.",
   ["1"] = {
-    {file = "Audio/Transport/full_zone_gnomeregan-8fc05911365657bcee6b/1-0000.mp3", duration = 96.0783673, start = 0},
+    {file = "Audio/Transport/full_zone_gnomeregan-4a679e7c7556bbffe384/1-0000.mp3", duration = 98.6383673, start = 0},
   },
 }
 P.transport["zone:hallofthanes"] = {
@@ -1326,7 +1326,7 @@ P.transport["zone:lochmodan"] = {
   fullHash = "2aebae",
   text = "Loch Modan. Loch Modan's great lake stands above the Wetlands, held back by the Stonewrought Dam. Around Thelsamar, troggs threaten the southern valleys, kobolds work the mines, and ogres hold the northeast highlands. Loch Modan's lake fills a green valley east of Dun Morogh. Pines and birches climb toward rugged peaks, and the Stonewrought Dam spans the northern rim. The dwarven town of Thelsamar draws mountaineers, hunters, and miners. Copper and tin run through the surrounding hills. Broken catapults and ballistae on the lake bed recall the Second War. The orcish Horde occupied Loch Modan then, until the dwarves drove them out. More recently, dwarven excavations opened underground chambers and released savage troggs. Their tribes, led by chieftains, overran the southern canyons of Stonesplinter Valley and the Valley of Kings. The Ironforge Mountaineers fight to defend the trade routes.",
   ["1"] = {
-    {file = "Audio/Transport/full_zone_lochmodan-be617fba97a885603ae8/1-0000.mp3", duration = 57.2342857, start = 0},
+    {file = "Audio/Transport/full_zone_lochmodan-f5bd0eb3560243f64c70/1-0000.mp3", duration = 59.3240816, start = 0},
   },
 }
 P.transport["zone:moonglade"] = {

@@ -318,7 +318,7 @@ P.transport["item:barrel-of-shimmer-stout"] = {
   fullHash = "aa968a",
   text = "Barrel of Shimmer Stout. In Dun Morogh, a barrel of Shimmer Stout is bound for the mountain watch. Rejold Barleybrew sends his experimental ale to the high passes, where drinkers say it brightens their vision. Rejold Barleybrew made Shimmer Stout from ingredients gathered across Dun Morogh. The recipe is the newest work of the Barleybrew family. Its dwarven brewers vie to make ales hearty enough for the mountain cold. Rejold brewed this stout to warm the gut and sharpen the senses of those posted in the wind. The barrel is bound for Mountaineer Wellart Barleybrew at the southern tower on the pass into Loch Modan. Mountaineers there endure cold and long watches between skirmishes with troggs and wildlife. A cask of family ale brings a taste of home. Its kick can leave a tired sentry feeling able to see clearly in the dark.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_barrel-of-shimmer-stout-8f091373d56105e70f72/1-0000.mp3", duration = 50.2334694, start = 0},
+    {file = "Audio/Transport/full_item_barrel-of-shimmer-stout-9b5652b4adc7f943e669/1-0000.mp3", duration = 47.6995918, start = 0},
   },
 }
 P.transport["item:barrel-of-thunder-ale"] = {
@@ -414,7 +414,7 @@ P.transport["item:bingles-blastencapper"] = {
   fullHash = "89c230",
   text = "Bingles' Blastencapper. Troggs hold Bingles' Blastencapper after his gyrocopter fell into the Loch. Without it, Bingles' plans to aid Gnomeregan's liberation are in danger. Bingles Blastenheimer built the Blastencapper to strike from the air at the troggs and leper gnomes who overran Gnomeregan. Mechanical failure sent his gyrocopter into the Loch, but Bingles survived. Troggs from the northern islands raided the wreckage and carried the volatile weapon to their camps. Bingles needs the Blastencapper to help retake Gnomeregan. The exiled gnomes are preparing to reclaim their radioactive home, and he counts on his gyrocopter and signature munitions for the air assault. In trogg hands, the explosive could accidentally cause a catastrophe in Loch Modan. Recovering it would preserve a valuable weapon for the gnomish resistance.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_bingles-blastencapper-975176957ca7b1b5af23/1-0000.mp3", duration = 50.2595918, start = 0},
+    {file = "Audio/Transport/full_item_bingles-blastencapper-1bb60ea432f1da94597a/1-0000.mp3", duration = 50.1028571, start = 0},
   },
 }
 P.transport["item:bingles-hammer"] = {
@@ -422,7 +422,7 @@ P.transport["item:bingles-hammer"] = {
   fullHash = "25318c",
   text = "Bingles' Hammer. At his crash site in Loch Modan, Bingles Blastenheimer needs Bingles' Hammer back from the troggs. With his gear restored, he can repair his flying machine and help free Gnomeregan. Troggs raided Bingles Blastenheimer's crash site on the freshwater islands. They took his hammer and high-potency explosives. The hammer is needed to repair the dented airframe and adjust the gyrocopter's mechanical parts. Without his equipment, Bingles cannot fly support runs for the gnome forces fighting to reclaim Gnomeregan.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_bingles-hammer-f919aa49d9d3b501a4ce/1-0000.mp3", duration = 33.3844898, start = 0},
+    {file = "Audio/Transport/full_item_bingles-hammer-c6f7804145362fd089b7/1-0000.mp3", duration = 33.6718367, start = 0},
   },
 }
 P.transport["item:bingles-screwdriver"] = {
@@ -430,7 +430,7 @@ P.transport["item:bingles-screwdriver"] = {
   fullHash = "01c6c2",
   text = "Bingles' Screwdriver. Across Loch Modan's northern islands, Bingles' Screwdriver lies among the gear lost in a crash. Troggs carried it off with the tools of pilot Bingles Blastenheimer. When Bingles Blastenheimer crashed into Loch Modan, he lost the tools needed to repair his gyrocopter. Troggs on nearby islands carried off his tool buckets, and the screwdriver was packed in one of them. Bingles needs it for fine adjustments as he repairs the craft and handles its armaments. Bingles works to free Gnomeregan from troggs and leper gnomes. He means to join his flying skill with volatile Blastencapper munitions in an aerial assault. The screwdriver, wrench, and hammer will help him rebuild his gyrocopter and keep the airborne counteroffensive alive.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_bingles-screwdriver-6dcd1860bf3b4a11f8c4/1-0000.mp3", duration = 45.844898, start = 0},
+    {file = "Audio/Transport/full_item_bingles-screwdriver-7cd66159d46a6a737c08/1-0000.mp3", duration = 46.602449, start = 0},
   },
 }
 P.transport["item:bingles-wrench"] = {
@@ -438,7 +438,7 @@ P.transport["item:bingles-wrench"] = {
   fullHash = "032235",
   text = "Bingles' Wrench. In the Loch, Bingles' Wrench is missing with the pilot's other tools. Troggs took it after Bingles Blastenheimer crash-landed his flying machine. Bingles Blastenheimer survived when his gyrocopter crashed into the Loch. Then the troggs raided the crash site on the small northern islands. They took his specialized supplies and scattered his tools among buckets in their camps.\n\nBingles' Wrench is one of three critical hand tools, alongside his high-yield Blastencapper explosives. Without the wrench, Bingles cannot repair his downed gyrocopter. His planned aerial offensive to aid the exiled gnomes fighting to reclaim Gnomeregan must wait.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_bingles-wrench-9013c7137afb18e58865/1-0000.mp3", duration = 40.3591837, start = 0},
+    {file = "Audio/Transport/full_item_bingles-wrench-377892ba4ab615b51fa4/1-0000.mp3", duration = 40.8032653, start = 0},
   },
 }
 P.transport["item:black-claw-stout"] = {
@@ -590,7 +590,7 @@ P.transport["item:brock-s-list"] = {
   fullHash = "805726",
   text = "Brock's List. At Thelsamar, Brock Stoneseeker sends a list of mining pupils honored with picks from Ironforge's guild halls. In Khaz Modan, apprentices must prove their skill before taking on serious work in the mines. Brock records those who excel in their lessons. He entrusts the list to travelers bound for Ironforge, where the honored names can be engraved on the picks. A gryphon carries Brock's List from Thelsamar's roost to Golnir Bouldertoe at the Deep Mountain Mining Guild in Ironforge's Great Forge. There, the students' names are engraved on their honorary picks.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_brock-s-list-dee540f31e3a2a73ef43/1-0000.mp3", duration = 37.7991837, start = 0},
+    {file = "Audio/Transport/full_item_brock-s-list-a9979d4f7cd35bdfd6ce/1-0000.mp3", duration = 36.8326531, start = 0},
   },
 }
 P.transport["item:broken-and-battered-samophlange"] = {
@@ -998,7 +998,7 @@ P.transport["item:crocolisk-tear-classic"] = {
   fullHash = "4aa5cd",
   text = "Crocolisk Tear (Classic). At the Stonewrought Dam, Chief Engineer Hinderweir needs Crocolisk Tear to counter Dark Iron explosives. Crocolisk Tears come from reptiles in Loch Modan's waters. Chief Engineer Hinderweir found another use for their secretions. Mixed with potent spider venom and resonant ogre minerals, a tear gains the chemical properties needed to counter the volatile Dark Iron demolition charges threatening the Stonewrought Dam.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_crocolisk-tear-classic-09372fe5a6f196f2faff/1-0000.mp3", duration = 26.357551, start = 0},
+    {file = "Audio/Transport/full_item_crocolisk-tear-classic-d11aed89c3a1aa4ed6a7/1-0000.mp3", duration = 27.4546939, start = 0},
   },
 }
 P.transport["item:crossroads-supply-crate"] = {
@@ -1254,7 +1254,7 @@ P.transport["item:disarming-mixture"] = {
   fullHash = "445c72",
   text = "Disarming Mixture. At Stonewrought Dam, Chief Engineer Hinderweir prepares Disarming Mixture to stop a Seaforium charge planted by Dark Iron saboteurs. The heavy Seaforium charge lies beneath the dam’s foundation, and no Mountaineers are close enough to help. Hinderweir turns to ingredients named by explosives expert Ashlan Stonesmirk. He stirs them into a chemical neutralizer, then mixes it with the powder keg underwater. The reactive compounds are neutralized, and the charge is left harmless.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_disarming-mixture-d7eb3af3187c09d614c5/1-0000.mp3", duration = 30.1191837, start = 0},
+    {file = "Audio/Transport/full_item_disarming-mixture-a08cd04a1366b753ef29/1-0000.mp3", duration = 30.3281633, start = 0},
   },
 }
 P.transport["item:divined-scroll"] = {
@@ -1478,7 +1478,7 @@ P.transport["item:empty-leaden-collection-phial"] = {
   fullHash = "2f9fd7",
   text = "Empty Leaden Collection Phial. Ozzie Togglevolt gathers Gnomeregan’s radioactive fallout in a leaden phial. He hopes the residue may help cure his afflicted kin, or make an extraordinarily potent drink. Ozzie Togglevolt made a leaden phial to gather the radiation left in Gnomeregan. The city’s vents once flooded its tunnels with toxic radiation to purge the trogg menace. The surviving defenders became leper gnomes, and the invading beasts were irradiated.\n\nGreen light still clings to Irradiated Invaders and Pillagers prowling the ruins. The lead shields the handler as the phial draws in the dangerous residue. Once sealed, the collection becomes a Full Leaden Collection Phial for Ozzie’s experiments.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_empty-leaden-collection-phial-225866989472692e5c32/1-0000.mp3", duration = 43.2065306, start = 0},
+    {file = "Audio/Transport/full_item_empty-leaden-collection-phial-f9159454f8d18ed74276/1-0000.mp3", duration = 43.3893878, start = 0},
   },
 }
 P.transport["item:empty-red-waterskin"] = {
@@ -1582,7 +1582,7 @@ P.transport["item:essential-artificial"] = {
   fullHash = "20dff7",
   text = "Essential Artificial. In Ironforge, Essential Artificial parts help gnomish tinkers and engineers rebuild after exile. The gnomes left stockpiles behind when they fled Gnomeregan. Before Gnomeregan fell, tinkers relied on the Essential Artificial as a component for many uses. Gnomish engineers fitted it into contraptions, clockwork wonders and heavy machinery throughout the subterranean halls. Its standard design let smiths and machinists exchange parts with confidence. The trogg invasion and radiation disaster drove the gnomes from Gnomeregan in a desperate rush. Large stores of Essential Artificial parts remained in heavy, steam-powered dispensers called artificial extrapolators, scattered through the deeper passages.\n\nIn Tinker Town, master craftsman Klockmort Spannerspan seeks daring adventurers to return to the contaminated ruins and recover the parts. He needs them so research and invention can continue.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_essential-artificial-5343fedfed4ace85064b/1-0000.mp3", duration = 58.3836735, start = 0},
+    {file = "Audio/Transport/full_item_essential-artificial-a97cf9c766a83933865d/1-0000.mp3", duration = 59.6636735, start = 0},
   },
 }
 P.transport["item:etched-note"] = {
@@ -1710,7 +1710,7 @@ P.transport["item:felix-s-box"] = {
   fullHash = "da3d3e",
   text = "Felix's Box. In Frostmane camps southwest of Anvilmar, Felix's Box lies far from the gnome refugee who lost it. Radiation swept through Gnomeregan during the failed attempt to purge the trogg menace. Felix Whindlebolt fled with the gnomes into Coldridge Valley, leaving his possessions and crafting gear along the snowy road to escape the fumes. Frostmane trolls plundered the goods before he could return. They carried his box, chest, and bucket of bolts to their settlements southwest of Anvilmar. Felix is unused to violence and poorly suited to Dun Morogh's wilderness. He needs passing adventurers in Anvilmar to help recover his belongings. Their return would restore some normalcy and give the displaced artisan the means to earn a living. He lost everything when Gnomeregan fell.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_felix-s-box-f2995707e58db252d447/1-0000.mp3", duration = 46.837551, start = 0},
+    {file = "Audio/Transport/full_item_felix-s-box-7d4cfdcc0873b5ee50bd/1-0000.mp3", duration = 48.64, start = 0},
   },
 }
 P.transport["item:felix-s-bucket-of-bolts"] = {
@@ -1718,7 +1718,7 @@ P.transport["item:felix-s-bucket-of-bolts"] = {
   fullHash = "c5eafb",
   text = "Felix's Bucket of Bolts. In Dun Morogh, Frostmane trolls carry Felix's Bucket of Bolts to their camps. Felix Whindlebolt is missing the tools he brought from Gnomeregan. Felix Whindlebolt fled Gnomeregan with his tools after the disaster with the troggs. Radiation drove thousands of gnomes into Dun Morogh's freezing wilds with whatever they could carry. Felix headed for Anvilmar, but Frostmane trolls from the crags southwest of town ambushed him. They seized his belongings, including his bucket of bolts and parts, leaving the artisan without the materials he needs for his craft in exile.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_felix-s-bucket-of-bolts-47b7691eefc5808d9e47/1-0000.mp3", duration = 35.2391837, start = 0},
+    {file = "Audio/Transport/full_item_felix-s-bucket-of-bolts-4eace16050429e085ac2/1-0000.mp3", duration = 34.8734694, start = 0},
   },
 }
 P.transport["item:felix-s-chest"] = {
@@ -1726,7 +1726,7 @@ P.transport["item:felix-s-chest"] = {
   fullHash = "1ef798",
   text = "Felix's Chest. In a Frostmane camp southwest of Anvilmar, Felix's Chest holds what he lost fleeing Gnomeregan. When troggs and toxic radioactive fallout drove the gnomes from Gnomeregan, refugees crossed snowy Dun Morogh carrying what they could. Frostmane trolls scavenged the roads and overtook scattered survivors. They took Felix Whindlebolt's sturdy chest to their camps in the crags, where his toolkits and personal belongings remain among their supplies.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_felix-s-chest-45c65137cf0beb5e5ec9/1-0000.mp3", duration = 29.2571429, start = 0},
+    {file = "Audio/Transport/full_item_felix-s-chest-df758c10027982d7ff2a/1-0000.mp3", duration = 28.9436735, start = 0},
   },
 }
 P.transport["item:felstalker-hoof"] = {
@@ -1806,7 +1806,7 @@ P.transport["item:filled-cursed-ooze-jar"] = {
   fullHash = "0f739c",
   text = "Filled Cursed Ooze Jar. In Felwood, a Filled Cursed Ooze Jar carries a sample for Laris Geardawdle in Ironforge. The gnome scholar seeks the ancient origins of slimes across Azeroth. Laris Geardawdle, a gnome researcher, sees mystery in the vile puddles and caustic slimes others pass by. Slimes thrive across Azeroth, and Forsaken apothecaries gather them with care. These sights led Geardawdle to a bold theory: oozes may be primordial secretions bound to Azeroth's creation. To gather a sample, brave Felwood's blighted woods and defeat a cursed ooze. Scoop its acidic remains into an empty jar before they dissolve. Laris Geardawdle hopes his ooze samples will bring knowledge and a lasting name. A major discovery could secure his reputation in the dwarven-led Explorers' League. Since Gnomeregan fell, many gnome refugees in Ironforge have felt pressed to prove their worth to their dwarven hosts. Geardawdle believes that uncovering ooze's ancient secrets will show them that welcoming gnomes was no mistake.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_filled-cursed-ooze-jar-4cfa17bfcb81f98c6dbb/1-0000.mp3", duration = 64.757551, start = 0},
+    {file = "Audio/Transport/full_item_filled-cursed-ooze-jar-335f01b8f5c69bfd175e/1-0000.mp3", duration = 65.6195918, start = 0},
   },
 }
 P.transport["item:filled-dreadmist-peak-sampler"] = {
@@ -1854,7 +1854,7 @@ P.transport["item:filled-tainted-ooze-jar"] = {
   fullHash = "84b501",
   text = "Filled Tainted Ooze Jar. In Felwood, a Filled Tainted Ooze Jar carries samples of corruption to Ironforge. The samples may help explain how life began on Azeroth. Across northern Kalimdor, tainted oozes bear Felwood’s lingering corruption. Gnomish researchers provide jars to hold them safely. Most travelers keep clear of these noxious creatures, yet their remains yield samples for natural philosophy and biological study far from the blighted woods. Laris Geardawdle, a gnome scholar with the Explorers' League in Ironforge, gathers the samples. The commonness of slimes fascinates him, and he has seen the Forsaken's Royal Apothecary Society take an interest in them too.\n\nMany scholars dismiss Geardawdle's theory. He believes slimes and oozes may be primal secretions tied to Azeroth's creation. He seeks proof, and a place among dwarven scholars after Gnomeregan's tragic fall.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_filled-tainted-ooze-jar-d5593b6c486c4a7a70b0/1-0000.mp3", duration = 59.1412245, start = 0},
+    {file = "Audio/Transport/full_item_filled-tainted-ooze-jar-4858ea3e96852875f2ab/1-0000.mp3", duration = 56.2677551, start = 0},
   },
 }
 P.transport["item:filled-tourmaline-phial"] = {
@@ -1974,7 +1974,7 @@ P.transport["item:full-leaden-collection-phial"] = {
   fullHash = "871638",
   text = "Full Leaden Collection Phial. In Kharanos, Ozzie Togglevolt seeks a sample from Gnomeregan’s troggs. He hopes it will cure irradiated leper gnomes, or perhaps make a dangerously potent rum. A lead lining shields the bearer from the volatile green fallout saturating Gnomeregan. High Tinker Mekkatorque’s advisors flooded the lower corridors with toxic radiation to stop the invading troggs. Instead, the disaster corrupted troggs and surviving gnomes into maddened, irradiated horrors.\n\nIrradiated Invaders and Pillagers leave fluid residue for refugee tinkerers in Kharanos. Ozzie Togglevolt and Razzle Sprysprocket use it as raw material in their experiments on remedies.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_full-leaden-collection-phial-b1faeba439565be0724a/1-0000.mp3", duration = 43.2065306, start = 0},
+    {file = "Audio/Transport/full_item_full-leaden-collection-phial-85239a11358cf92b7b8e/1-0000.mp3", duration = 41.4563265, start = 0},
   },
 }
 P.transport["item:fungal-spores"] = {
@@ -2222,7 +2222,7 @@ P.transport["item:glyphic-memorandum"] = {
   fullHash = "1df1de",
   text = "Glyphic Memorandum. In Coldridge Valley, the Glyphic Memorandum calls novice mages to Anvilmar. Marryk Nurribit wrote it to guide new spellcasters into formal arcane instruction. Novice spellcasters receive the Glyphic Memorandum after their first tasks in Coldridge Valley. Marryk Nurribit, the local mage trainer, summons them inside Anvilmar. He gives plain counsel: learn your incantations, save coin for training and tavern ale, and keep clear of Gnomeregan, ruined by radiation.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_glyphic-memorandum-93e0d212a31377e37a20/1-0000.mp3", duration = 31.9216327, start = 0},
+    {file = "Audio/Transport/full_item_glyphic-memorandum-223e7a1f5f7bcaec3721/1-0000.mp3", duration = 30.0146939, start = 0},
   },
 }
 P.transport["item:glyphic-scroll"] = {
@@ -2270,7 +2270,7 @@ P.transport["item:gnomeregan-gumdrop"] = {
   fullHash = "da3f42",
   text = "Gnomeregan Gumdrop. At Hallow's End, Gnomeregan Gumdrops reach travelers from the exiled gnomes. One sweet helps sick Jesper celebrate at the Stormwind orphanage. At Ironforge's Mystic Ward, Talvash del Kissel gives travelers Gnomeregan Gumdrops when they play along with his Hallow's End tricks. Alliance innkeepers offer treats from their own lands, but the exiled gnomes have no capital inn of their own. The radioactive disaster drove them from their underground kingdom. Still, they share their distinct sweets with the Alliance. Sick Jesper stays at the Stormwind orphanage in Cathedral Square and cannot travel the continents to trick-or-treat. So travelers gather four regional sweets from Alliance capitals and bring them to him: Gnomeregan Gumdrop, Stormwind Nougat, Ironforge Mint, and Darnassus Marzipan.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_gnomeregan-gumdrop-b43b1f29efd03f2868f2/1-0000.mp3", duration = 51.0432653, start = 0},
+    {file = "Audio/Transport/full_item_gnomeregan-gumdrop-09f78f3648ca8d54f325/1-0000.mp3", duration = 50.442449, start = 0},
   },
 }
 P.transport["item:gnomish-tools"] = {
@@ -2334,7 +2334,7 @@ P.transport["item:grelin-s-report"] = {
   fullHash = "aed143",
   text = "Grelin's Report. In Coldridge Valley, Grelin's Report carries word of the Frostmane trolls to Kharanos. It joins the scouts at Anvilmar with Senir Whitebeard and Ironforge. Grelin Whitebeard has watched the Frostmane trolls in Coldridge Valley and judges them no great threat. Mountaineers already stationed there can handle them, with mercenaries paid from Senate funds. So Grelin entrusts his report to a capable traveler instead of his fumbling apprentice. The journey leads through trogg-infested Coldridge Pass.\n\nThe paper shows Mountaineer Thalos that you travel on urgent business. With it, you may pass his blockade and enter the snowy reaches of Dun Morogh. At the Thunderbrew Distillery in Kharanos, Senir Whitebeard receives Grelin's field report for Ironforge. His brother has invoked King Magni Bronzebeard's name throughout the document, and Senir takes note with amused resignation. Grelin claims the King's sanction for his actions. Senir expects that appeal to royal authority to ruffle feathers in the Ironforge Senate.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_grelin-s-report-7e5c2a689ca358b9ad88/1-0000.mp3", duration = 63.8693878, start = 0},
+    {file = "Audio/Transport/full_item_grelin-s-report-08e73fe264b3742a4091/1-0000.mp3", duration = 61.8840816, start = 0},
   },
 }
 P.transport["item:grelin-whitebeard-s-journal"] = {
@@ -2406,7 +2406,7 @@ P.transport["item:gyromechanic-gear"] = {
   fullHash = "e7a472",
   text = "Gyromechanic Gear. In Kharanos, inventors seek Gyromechanic Gears for a bold experiment. They hope to reverse the mutations of leper gnomes. Radiation swept through Gnomeregan while gnomes fought to drive out the troggs. Many survivors became mad, irradiated leper gnomes. Ozzie Togglevolt and Razzle Sprysprocket will not abandon their twisted kin, so they have planned the Recombobulator. The machine is meant to undo radiation's effects.\n\nIts prototype needs precise mechanisms that can bear the volatile pressure inside, including Gyromechanic Gears and Restabilization Cogs. Gnomeregan's fall ended local manufacturing. Now the inventors must salvage these delicate parts from hostile leper gnomes roaming Dun Morogh.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_gyromechanic-gear-dc62f6016d18316922cc/1-0000.mp3", duration = 46.6546939, start = 0},
+    {file = "Audio/Transport/full_item_gyromechanic-gear-3dacf6069a0b82f65039/1-0000.mp3", duration = 47.0465306, start = 0},
   },
 }
 P.transport["item:hallowed-letter"] = {
@@ -2422,7 +2422,7 @@ P.transport["item:hallowed-rune"] = {
   fullHash = "3c00bf",
   text = "Hallowed Rune. In Coldridge Valley, Branstock Khalder sends novice priests the Hallowed Rune to begin their training at Anvilmar. The Hallowed Rune bears teachings of the Holy Light. A young priest proves their resolve by aiding the valley’s mountaineers and defenders. Then Branstock sends them to Anvilmar, where he teaches them to mend wounds and wield holy power against the troggs threatening Dun Morogh.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_hallowed-rune-c9aa8002b08c69e07846/1-0000.mp3", duration = 24.8163265, start = 0},
+    {file = "Audio/Transport/full_item_hallowed-rune-c674d7209dbb874e099e/1-0000.mp3", duration = 23.6146939, start = 0},
   },
 }
 P.transport["item:hallowed-scroll"] = {
@@ -2590,7 +2590,7 @@ P.transport["item:heavy-leaden-collection-phial"] = {
   fullHash = "2af96a",
   text = "Heavy Leaden Collection Phial. In Kharanos, Ozzie Togglevolt offers the Heavy Leaden Collection Phial for decontamination research. It is meant to draw in unstable irradiated discharge from mutants deep inside Gnomeregan and keep it contained. The Heavy Leaden Collection Phial draws volatile residue from living, irradiated creatures in Gnomeregan. Keeping the fallout inside is difficult. A suitable sample may take several attempts to collect. Ozzie Togglevolt provides the phial to help his research into reversing the terrible mutations afflicting leper gnomes. Earlier samples from surface troggs were too weak for useful chemical analysis.\n\nWith the leaden phial, researchers hope to gather samples from virulent beasts, including irradiated slimes and lurkers in the Hall of Gears. They seek the active elements in the city's toxic fallout, then hope to make an effective antidote.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_heavy-leaden-collection-phial-433e5c9950658aada4af/1-0000.mp3", duration = 55.7714286, start = 0},
+    {file = "Audio/Transport/full_item_heavy-leaden-collection-phial-1518b341ca4aeffa4aea/1-0000.mp3", duration = 55.1183673, start = 0},
   },
 }
 P.transport["item:hezrul-s-head"] = {
@@ -2606,7 +2606,7 @@ P.transport["item:high-potency-radioactive-fallout"] = {
   fullHash = "604dfa",
   text = "High Potency Radioactive Fallout. In Gnomeregan's depths, researchers seek potent radioactive fallout. They hope to learn how the sludge afflicted the leper gnomes and find a cure. Deep in the Hall of Gears, irradiated horrors, lurkers, and slimes roam Gnomeregan's lowest tiers. Researchers outside the fallen capital need fallout drawn from these living creatures. Samples scraped from contaminated scavengers outside are too weak for their work.\n\nThe sludge decays quickly. It must be sealed in a leaden phial and reach the researchers before its potency fades. Ozzie Togglevolt and his colleagues seek a cure for the leper gnomes. They believe the secrets of the irradiated sludge may show them the way. During the trogg invasion, toxic venting deformed these survivors and drove them mad.\n\nThe leper gnomes remain trapped in a living nightmare. For the researchers, dangerous expeditions into the ruins are worth the risk.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_high-potency-radioactive-fallout-9c27526476f7fa46253b/1-0000.mp3", duration = 59.8204082, start = 0},
+    {file = "Audio/Transport/full_item_high-potency-radioactive-fallout-01e9b979bd472dba89bf/1-0000.mp3", duration = 58.644898, start = 0},
   },
 }
 P.transport["item:highborne-relic-classic"] = {
@@ -2638,7 +2638,7 @@ P.transport["item:hildelve-s-journal"] = {
   fullHash = "a2fbf2",
   text = "Hildelve's Journal. In Dun Morogh, Hildelve's Journal bears the last words of a dwarf lost to a fierce bear. Its pages tell of the attack and his plea for vengeance. Dwarven pilot Hildelve went alone into Dun Morogh after his steam tank broke down. He left his partner, Hammerfoot, with the tanks and searched the snow-swept crags for rumored chiron ore. In his journal, Hildelve writes that Mangeclaw, a monstrous ice claw bear, stalked him for days before attacking.\n\nHildelve fought bravely and drove the bear off, but Mangeclaw mauled him and left him gravely wounded in the cold. His final hours were agonizing. Before the bear returned, Hildelve made one plea: whoever found his body should hunt Mangeclaw and avenge his death.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_hildelve-s-journal-b59a803187df50321fed/1-0000.mp3", duration = 48.0653061, start = 0},
+    {file = "Audio/Transport/full_item_hildelve-s-journal-28bdaa878ff741ba8424/1-0000.mp3", duration = 47.1771429, start = 0},
   },
 }
 P.transport["item:hillsbrad-human-skull"] = {
@@ -2670,7 +2670,7 @@ P.transport["item:honorary-picks"] = {
   fullHash = "9f4db6",
   text = "Honorary Picks. In Ironforge, Honorary Picks are bound for Brock Stoneseeker’s mining apprentices in Thelsamar. Gryphons carry the ceremonial tools to Loch Modan, where they mark students ready to work its ore veins. Mining keeps the great forges burning and brings dwarves the iron and stone they need. In Thelsamar, Brock Stoneseeker teaches young apprentices to mine. Honorary Picks from Ironforge mark the students ready to work the open ore deposits across Loch Modan. The picks travel through the Alliance gryphon network, linking Ironforge with its outlying settlements. At Ironforge’s Great Forge, Gryth Thurden receives the shipment. He sends it over the mountains to Thorgrum Borrelson in Thelsamar.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_honorary-picks-09874a0bf05d0c5497ec/1-0000.mp3", duration = 46.1322449, start = 0},
+    {file = "Audio/Transport/full_item_honorary-picks-20e143c0e9fe1fde17b3/1-0000.mp3", duration = 43.3632653, start = 0},
   },
 }
 P.transport["item:horn-of-arra-chea"] = {
@@ -2702,7 +2702,7 @@ P.transport["item:huge-gnoll-claw"] = {
   fullHash = "fc0329",
   text = "Huge Gnoll Claw. In southwestern Elwynn, Hogger's death is proven by his huge claw. Stormwind's authorities in Goldshire require it before paying the bounty. For months, Hogger has terrorized the southern woodlands of Forest's Edge. Patrols have failed to stop him, and the local garrison cannot corral or subdue the brute. The Stormwind Army is stretched thin across Elwynn, so it has posted an open bounty on his head. Marshal Dughan in Goldshire requires clear proof before paying. Hogger's oversized claw leaves no doubt that the notorious marauder has fallen.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_huge-gnoll-claw-e74b4acc1443adfdc36a/1-0000.mp3", duration = 34.9518367, start = 0},
+    {file = "Audio/Transport/full_item_huge-gnoll-claw-0737138bff7589c2cd80/1-0000.mp3", duration = 35.1608163, start = 0},
   },
 }
 P.transport["item:humbert-s-sword"] = {
@@ -3126,7 +3126,7 @@ P.transport["item:lewis-note"] = {
   fullHash = "284d05",
   text = "Lewis' Note. At Sentinel Hill, Quartermaster Lewis sends a courier by gryphon to seek armor for Westfall's garrison. The order goes to a private armorer in Stormwind. The People's Militia at Sentinel Hill receives little support from Stormwind's House of Nobles. Skirmishes with the Defias Brotherhood keep wearing down its small supply of gear. So Quartermaster Lewis turns to private trade to keep the defenders equipped. His order goes outside the kingdom's military channels. An Alliance courier must fly by gryphon to Old Town and present it to Osric Strang, who owns Limited Immunity.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_lewis-note-f5821abb8637c1a1246e/1-0000.mp3", duration = 36.4408163, start = 0},
+    {file = "Audio/Transport/full_item_lewis-note-110caac0c1edc1a036ac/1-0000.mp3", duration = 36.9110204, start = 0},
   },
 }
 P.transport["item:lieutenant-s-insignia"] = {
@@ -3190,7 +3190,7 @@ P.transport["item:lurker-venom"] = {
   fullHash = "1fe80e",
   text = "Lurker Venom. In Loch Modan, dwarven defenders need Lurker Venom to counter Dark Iron sabotage. Predatory spiders in the rocky hills and woods provide the toxin. Lurker Venom helps dwarves disarm explosives planted by the Dark Iron. Ashlan Stonesmirk, an explosives expert, named spider poison as an ingredient in the mixture Chief Engineer Hinderweir prepares. The solvent joins the venom with rare minerals and tears from the loch’s crocolisks. Together, they form a reactive compound that can disarm complex explosives.\n\nLurker spiders range from common wood lurkers to the matriarch Shanda the Spinner. Their bites threaten travelers and mountaineers across Loch Modan’s hills and crags.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_lurker-venom-d60faebdeed74b19bffc/1-0000.mp3", duration = 43.1542857, start = 0},
+    {file = "Audio/Transport/full_item_lurker-venom-5085a326f9ec7b71466c/1-0000.mp3", duration = 45.1395918, start = 0},
   },
 }
 P.transport["item:lydon-s-toxin"] = {
@@ -3206,7 +3206,7 @@ P.transport["item:macgrann-s-dried-meats"] = {
   fullHash = "8a71bc",
   text = "MacGrann's Dried Meats. In Dun Morogh, Old Icebeard has carried off Tundra MacGrann’s winter meat. Tundra MacGrann hunted game and salted it for the winter. He packed weeks of provisions into a sturdy chest inside a thorium meat locker, to keep scavenging bears and prowling predators from his homestead. Yet he never expected an intruder strong enough to carry away the whole chest. Old Icebeard raided MacGrann’s camp while the dwarf tracked deer. The yeti dragged the heavy chest to his den in Chill Breeze Valley. Its solid thorium plating holds, but MacGrann’s injured leg keeps him from making a swift rescue into the cavern. Without help retrieving his cache before winter, the stranded hunter faces starvation in the mountain snows.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_macgrann-s-dried-meats-22df55f7eb2fa6c54d6d/1-0000.mp3", duration = 45.1657143, start = 0},
+    {file = "Audio/Transport/full_item_macgrann-s-dried-meats-de1e49dbef3c396eb4ee/1-0000.mp3", duration = 43.9902041, start = 0},
   },
 }
 P.transport["item:mackreel-s-moonshine"] = {
@@ -3238,7 +3238,7 @@ P.transport["item:mangy-claw"] = {
   fullHash = "877d3d",
   text = "Mangy Claw. In Dun Morogh, Mangy Claw marks the end of a deadly hunt. The great ice claw bear Mangeclaw killed a stranded dwarven pilot, and the severed claw proves the beast was slain. Pilot Hildelve’s steam tank broke down in Dun Morogh’s frozen hills. He searched for ore on foot and faced the mountain wilderness alone. In his journal, he tells how he fought off Mangeclaw, an ice claw bear, but was savagely mauled. The bear returned and killed the weakened pilot. Hildelve’s final entry pleaded for vengeance. Taking Mangy Claw from the fallen bear fulfills his request.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_mangy-claw-218e13bfe08136cac741/1-0000.mp3", duration = 36.4930612, start = 0},
+    {file = "Audio/Transport/full_item_mangy-claw-4290fb521b40cf36f6b7/1-0000.mp3", duration = 36.8065306, start = 0},
   },
 }
 P.transport["item:marshal-haggard-s-badge"] = {
@@ -3246,7 +3246,7 @@ P.transport["item:marshal-haggard-s-badge"] = {
   fullHash = "895b67",
   text = "Marshal Haggard's Badge. In the hills of Elwynn Forest, Marshal Haggard lives retired from Stormwind's service. Dead-tooth Jack tricked him into surrendering his old badge, which the Defias could use to impersonate city officials. Dead-tooth Jack came to Haggard's farm one night in a Stormwind tabard. The Defias rogue pretended to be Marshal Dughan, Goldshire's garrison commander, and said Haggard's former peers needed the insignia for official business.\n\nThe aging marshal handed it over without suspicion. Jack fled into the woods before Haggard saw through the ruse. In Defias hands, the badge still carries the authority of Stormwind's marshals. Outlaws could use it to pass checkpoints or confuse local patrols.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_marshal-haggard-s-badge-79f7cbcc6e8f1dcac526/1-0000.mp3", duration = 43.7812245, start = 0},
+    {file = "Audio/Transport/full_item_marshal-haggard-s-badge-15c01029fadd9b655750/1-0000.mp3", duration = 42.3183673, start = 0},
   },
 }
 P.transport["item:mary-s-looking-glass"] = {
@@ -3622,7 +3622,7 @@ P.transport["item:osric-s-crate"] = {
   fullHash = "e06205",
   text = "Osric's Crate. At Sentinel Hill, Osric's Crate brings fresh armor from Stormwind to the People's Militia. The defenders face the Defias Brotherhood and marauding gnolls without the Stormwind army. Quartermaster Lewis receives the shipment and shares the protective gear among the volunteer fighters. The crown gives the People's Militia no formal support. These freshly made suits are meant to help the volunteers hold their position. From Dungar Longdrink's roost in Stormwind's Trade District, a gryphon carries the crate to Thor at Sentinel Hill. The flight avoids dangerous roads through Elwynn Forest and across the Westfall border, where bandits may ambush travelers. Gryphons help keep frontier garrisons supplied during wartime.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_osric-s-crate-b2b54e13556487a01942/1-0000.mp3", duration = 43.8334694, start = 0},
+    {file = "Audio/Transport/full_item_osric-s-crate-6675aa518e5ef8eec1e3/1-0000.mp3", duration = 42.7102041, start = 0},
   },
 }
 P.transport["item:package-of-empty-ooze-containers"] = {
@@ -3822,7 +3822,7 @@ P.transport["item:prismatic-punch-card"] = {
   fullHash = "d9fd96",
   text = "Prismatic Punch Card. In Gnomeregan, the Prismatic Punch Card bears the highest security clearance. Gnome refugees in Ironforge seek the records it unlocks. When the gnomes fled Gnomeregan, troggs and toxic irradiation drove them from the city. Vast stores of research and civic records remained in its depths. The gnomes guarded high-level systems behind tiers of clearance. To reach the Matrix Punchograph 3005-D in the lower Engineering Labs, a card must pass through a series of terminals.\n\nThe card begins white, then advances through yellow, blue, and red. At the final terminal, it is stamped Prismatic. Its encoded clearance is listed as awaiting the invention of an entirely new number.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_prismatic-punch-card-604a3d51498c5c0af89d/1-0000.mp3", duration = 44.1208163, start = 0},
+    {file = "Audio/Transport/full_item_prismatic-punch-card-d4a15d3db3451c17e64c/1-0000.mp3", duration = 43.8595918, start = 0},
   },
 }
 P.transport["item:pristine-spider-silk"] = {
@@ -4038,7 +4038,7 @@ P.transport["item:restabilization-cog"] = {
   fullHash = "c02a60",
   text = "Restabilization Cog. At Gnomeregan's gates, leper gnomes still carry Restabilization Cogs. In Kharanos, tinkerers need intact cogs for a machine meant to reverse leper mutation. Radiation flooded Gnomeregan in a failed attempt to wipe out the invading troggs. Countless gnomes fell sick and hostile, then fled their home as exiles. Even in their madness, they carry intricate gnomish machinery.\n\nOzzie Togglevolt and Razzle Sprysprocket believe the terrible change can be undone. Their prototype Recombobulation Device needs parts taken from the afflicted outside Gnomeregan's gates. Intact Restabilization Cogs will balance its inner combustion systems.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_restabilization-cog-f260d66a91b9a80912d7/1-0000.mp3", duration = 40.6726531, start = 0},
+    {file = "Audio/Transport/full_item_restabilization-cog-dc6dad6d13b2bf213698/1-0000.mp3", duration = 42.9453061, start = 0},
   },
 }
 P.transport["item:ring-of-zoram"] = {
@@ -4054,7 +4054,7 @@ P.transport["item:robo-mechanical-guts"] = {
   fullHash = "dcc6bf",
   text = "Robo-Mechanical Guts. In Stormwind, Shoni gathers parts from Gnomeregan’s roaming machines. She needs them to repair tunneling vehicles built to help reclaim the city in Dun Morogh. After High Tinker Gelbin Mekkatorque and the surviving gnomes fled Gnomeregan, thousands of machines remained behind. Automated mechanisms, clockwork sentries, and industrial robots still roam the radioactive city’s corridors.\n\nIn Stormwind City, tinker Shoni is assembling gyrodrillmatic excavationators to break through Gnomeregan’s defenses and reclaim the lost city. She sends adventurers into the contaminated halls to salvage working parts from the robots, including springs, wires, and gyro-components.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_robo-mechanical-guts-afbd9494527fc964430f/1-0000.mp3", duration = 44.1730612, start = 0},
+    {file = "Audio/Transport/full_item_robo-mechanical-guts-ae8b74c0c04464573290/1-0000.mp3", duration = 44.1991837, start = 0},
   },
 }
 P.transport["item:rocket-car-parts"] = {
@@ -4110,7 +4110,7 @@ P.transport["item:rumbleshot-s-ammo"] = {
   fullHash = "fae914",
   text = "Rumbleshot's Ammo. Near the Grizzled Den, Rumbleshot's Ammo lies abandoned in the snow. Its courier fled from hungry wendigos before the crate could reach gunsmith Hegnar Rumbleshot in Dun Morogh. Hegnar Rumbleshot keeps a roadside arms shop on the mountain path from Coldridge Pass toward Anvilmar. Ironforge riflemen, mountaineers, and dwarven mortar teams drill in the snowy heights, so his supplies run low as quickly as powder burns.\n\nLoslor sent the shot from Kharanos, but the shipment never reached the shelves. Its courier camped too close to the Grizzled Den. When the wendigos attacked, the courier fled in panic and left the heavy crate in their hunting grounds.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_rumbleshot-s-ammo-3e0044641641bf0ebaae/1-0000.mp3", duration = 42.7102041, start = 0},
+    {file = "Audio/Transport/full_item_rumbleshot-s-ammo-a60b1d8aa4c67e26fdd7/1-0000.mp3", duration = 41.5085714, start = 0},
   },
 }
 P.transport["item:rune-inscribed-parchment"] = {
@@ -4614,7 +4614,7 @@ P.transport["item:simple-memorandum"] = {
   fullHash = "76fd25",
   text = "Simple Memorandum. In Coldridge Valley, novice gnome warriors are sent to train with Thran Khorman in Anvilmar. They prepare for the war to take back Gnomeregan. Young gnome fighters face wildlife and troggs in Coldridge Valley with letters of introduction in hand. The Simple Memorandum directs its bearer to Thran Khorman, the warrior trainer in Anvilmar.\n\nGnomes bring intellect and contraptions to battle, but taking back Gnomeregan calls for strength and martial discipline. The memorandum sends its bearer beyond early training to learn the art of war from Thran.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_simple-memorandum-b55edbe4a65ab374c407/1-0000.mp3", duration = 33.9853061, start = 0},
+    {file = "Audio/Transport/full_item_simple-memorandum-365294e1e9c58866f15b/1-0000.mp3", duration = 35.3959184, start = 0},
   },
 }
 P.transport["item:simple-rune"] = {
@@ -4870,7 +4870,7 @@ P.transport["item:strange-smelling-powder"] = {
   fullHash = "c08095",
   text = "Strange Smelling Powder. In Loch Modan, Strange Smelling Powder has alarmed engineers investigating sabotage. Chief Engineer Hinderweir fears it may be explosive and seeks an expert's judgment. Strange Smelling Powder was found amid signs of sabotage against Loch Modan's infrastructure. Chief Engineer Hinderweir fears it may be an engineered explosive, unlike the powder usually used in mining. He cannot identify its mixture or origin, and will not tamper with it himself. Even a small spark could bring disaster.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_strange-smelling-powder-036cdadb4e70796e9f85/1-0000.mp3", duration = 31.4514286, start = 0},
+    {file = "Audio/Transport/full_item_strange-smelling-powder-da2376d132fd14221acc/1-0000.mp3", duration = 32.7314286, start = 0},
   },
 }
 P.transport["item:strangely-marked-box"] = {
@@ -4982,7 +4982,7 @@ P.transport["item:tainted-memorandum"] = {
   fullHash = "b8818f",
   text = "Tainted Memorandum. In Coldridge Valley, Alamar Grimm urges novice gnome warlocks to leave old paths behind and seek power through the dark arts. At Anvilmar, few celebrate fel practitioners, and many distrust them. Alamar Grimm gives the Tainted Memorandum to young gnomes who study forbidden arts. He rejects the Holy Light and ordinary weapons. To him, Gnomeregan’s fall proves that old ways and tinkering failed their people.\n\nGrimm sees reliance on dwarven charity as a dead end. He urges gnomes to claim undeniable power and summon minions who obey without question. Only then, he believes, can they secure their own future.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_tainted-memorandum-bb8bda19c59b69f003ba/1-0000.mp3", duration = 41.8220408, start = 0},
+    {file = "Audio/Transport/full_item_tainted-memorandum-229204f0b455c4b58390/1-0000.mp3", duration = 42.9714286, start = 0},
   },
 }
 P.transport["item:talisman-of-corruption"] = {
@@ -5054,7 +5054,7 @@ P.transport["item:techbot-s-memory-core"] = {
   fullHash = "d7a0e4",
   text = "Techbot's Memory Core. In Gnomeregan, Tinkmaster Overspark seeks Techbot's Memory Core to study the automaton's corrupted behavior. Before Gnomeregan fell, Techbot aided Tinkmaster Overspark and his fellow inventors with devices and knowledge. During the city's fall, an errant electrical discharge jolted Techbot and turned its positronic brain to a hostile negatronic state. Now the automaton wanders Gnomeregan's tainted halls and attacks anyone in sight. Overspark hopes the memory core will help him understand the fault and restore his creation to its senses.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_techbot-s-memory-core-95eb841d040eab4359c7/1-0000.mp3", duration = 35.2391837, start = 0},
+    {file = "Audio/Transport/full_item_techbot-s-memory-core-20114e3ee1c630b79596/1-0000.mp3", duration = 34.8995918, start = 0},
   },
 }
 P.transport["item:telescopic-lens"] = {
@@ -5102,7 +5102,7 @@ P.transport["item:the-collector-s-schedule"] = {
   fullHash = "6f5911",
   text = "The Collector's Schedule. Near the Brackwell Pumpkin Patch, The Collector's Schedule marks the passage of illicit gold shipments through Elwynn Forest. Gnolls carry its handwritten itinerary, and Marshal Dughan recognizes the name it records. Gold still leaves Elwynn's mines on a schedule, though Stormwind has not officially worked them for months. Banditry and creature incursions drove the miners away. The itinerary names the days and hours when a figure called The Collector receives each shipment.\n\nThe trail leads to a camp near the Brackwell Pumpkin Patch in eastern Elwynn Forest. Marshal Dughan recognizes the Collector's name when he sees the schedule. Who pays for the stolen gold remains unknown.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_the-collector-s-schedule-fbebbc090fd4946eb019/1-0000.mp3", duration = 42.3967347, start = 0},
+    {file = "Audio/Transport/full_item_the-collector-s-schedule-334b116005b19b15978e/1-0000.mp3", duration = 42.2138776, start = 0},
   },
 }
 P.transport["item:the-embalmer-s-heart"] = {
@@ -5150,7 +5150,7 @@ P.transport["item:thick-bear-fur"] = {
   fullHash = "4a5d41",
   text = "Thick Bear Fur. In Dun Morogh, Thick Bear Fur helps travelers and soldiers endure the mountain cold. Bears roam the snowfields, and their pelts make insulated clothing and bedding. Bears roam Dun Morogh's ridges through some of the harshest snowfields in the Eastern Kingdoms. Their thick coats shield them from blizzards, and locals and travelers put the pelts to use. Hunters gather them to line clothing, insulate drafty outposts, and pad cold sleeping rolls. Pilot Bellowfiz outfitted his siege tank, Jetsteam, at Steelgrill's Depot for a month in the field on a long mission for the Siege Brigade. Cold iron offered little comfort in the high snowbanks, so he hired local scouts to gather thick bear fur from the snowfields south of the Grizzled Den. The pelts would make warm bedding for his cabin quarters.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_thick-bear-fur-b195d7bf08b3522ca96a/1-0000.mp3", duration = 49.2669388, start = 0},
+    {file = "Audio/Transport/full_item_thick-bear-fur-183184740a1d90db4ff8/1-0000.mp3", duration = 50.2857143, start = 0},
   },
 }
 P.transport["item:thistlenettle-s-badge"] = {

@@ -2,6 +2,8 @@
 -- Sources: data/i18n/svSE. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_svSE")
 local Po = P.search.post
+Po["konspirationmessenger"] = "DroB"
+Po["konspirationsvisioner"] = "EusB"
 Po["konspiratör"] = "AdQBDupBG2kBHQbB"
 Po["konspiratören"] = "AmhBFgXBFgYBKWHB"
 Po["konspiratörer"] = "AqEBBdgBBw6BCbrBCnzBDI/BDtKBDuYBEYEBEojBE4EBFtdBGTWBGlyBGl4BG2nBI+wBJHpBJHzBKWOBKWPBKg8BKqxBKsCBLIgB"
@@ -12000,5 +12002,3 @@ Po["lotwil"] = "CaMECaNICaOKCaPHCaQGCaRBCaSBFnWCFnXDFnYIFnaHFnbDFncCG7EDG7FDG7GG
 Po["lotwilavslutar"] = "CaQC"
 Po["lotwilbojor"] = "G7SCHHcC"
 Po["lotwilbojorna"] = "G7SC"
-Po["lotwilgyro"] = "G7gB"
-Po["lotwilha"] = "G+FC"

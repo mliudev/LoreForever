@@ -2,6 +2,12 @@
 -- Sources: data/i18n/ruRU. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ruRU")
 local Po = P.search.post
+Po["проезжающим"] = "BjoBFSrB"
+Po["проезжающих"] = "BRlBB3zBB4fBB5GBCESBCFuBCLmBDhuBFO9BFVjB"
+Po["проезжего"] = "F0FB"
+Po["проезжие"] = "ByKBCdJBDD9BF0GB"
+Po["проезжим"] = "A+eBBGuBBj2BB0OBCtiBDAbBESIBFNgB"
+Po["проезжими"] = "DmkB"
 Po["проезжих"] = "AXaBAYWBBCNBBCUBBDoBBG2BBJaBBUBBBk6BBqgBByXBBzuBCRNBCdFCCdZBChRBChpBCh1BCnKBDJFBDKWBE/9BFIABFlMBF0KBGVoBGXnB"
 Po["проезжихпутников"] = "CdFC"
 Po["проект"] = "AhDBA3lBA3qBA/OCBU7DByXBCNmBCZpCCZuBCuCCC0BBC0MBDOVBD3bDEqqBFQmBFQpBFQqB"
@@ -11996,9 +12002,3 @@ Po["руинысейчас"] = "FEBC"
 Po["руиныстена"] = "GB/B"
 Po["руиныстоят"] = "Fi9C"
 Po["руинысухие"] = "FSoC"
-Po["руинытауриссана"] = "B9QGFzmDFznBFzoBFzpBFzqBGbdE"
-Po["руинытахонды"] = "F/UDF/VFF/WBF/XB"
-Po["руинытемной"] = "GKKB"
-Po["руинытитанов"] = "GP1C"
-Po["руиныткаши"] = "GDPDGDQDGDRFGDSB"
-Po["руинытроллей"] = "FIrBGDPB"

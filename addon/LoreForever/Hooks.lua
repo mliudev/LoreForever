@@ -675,12 +675,12 @@ local function loreButton(parent, name, drag)
   return b
 end
 
--- The play button beside the quest window's Lore button (Voice.PlayQuestPage): the gold play sign plays what the quest
--- giver says on this page (with Speak quest dialogue off too: it's pressed on purpose), a stop square stops it. Its tooltip says what plays: the quest giver's recorded words,
+-- The play button beside the quest window's Lore button (Voice.PlayQuestPage), the pill's round half on the window's dark
+-- title band (T.RoundButton's stone look; gilt while it plays): the play sign plays what the quest giver says on this page (with Speak quest dialogue off too: it's pressed on purpose), a stop square stops it. Its tooltip says what plays: the quest giver's recorded words,
 -- checked against this page's words. A page no voice recorded has no button. The quest log uses the same control.
 local function questPlayButton(parent, fromLog)
   local T = ns.Theme
-  local b = T.RoundButton(parent, 20)
+  local b = T.RoundButton(parent, 22, "stone")
   b:SetFrameLevel((parent:GetFrameLevel() or 1) + 5)
   b:SetScript("OnClick", function()
     if fromLog then
@@ -690,7 +690,7 @@ local function questPlayButton(parent, fromLog)
     else ns.Voice.PlayQuestPage() end
     Hooks.UpdateQuestPlayButton()
   end)
-  b:SetScript("OnEnter", function(self)
+  b:HookScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
     local state
     if fromLog then state = Hooks.QuestLogPageState() else state = ns.Voice.QuestPageState() end
@@ -711,7 +711,7 @@ local function questPlayButton(parent, fromLog)
     end
     GameTooltip:Show()
   end)
-  b:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  b:HookScript("OnLeave", function() GameTooltip:Hide() end)
   b:Hide()
   return b
 end

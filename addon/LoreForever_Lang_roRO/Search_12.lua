@@ -2,6 +2,9 @@
 -- Sources: data/i18n/roRO. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_roRO")
 local Po = P.search.post
+Po["solomonplea"] = "AppDApqDAprBApsBAptBApuFApvHApyDApzDAp0BAp1BAp2BAp3JAp4D"
+Po["solomonprimarie"] = "A3PBBYhBEwuB"
+Po["solomonraspunsul"] = "AN6CArBCAstC"
 Po["solomonredridge"] = "AWpCBwpCCRJBCl3BGReB"
 Po["solomonscopul"] = "BYpC"
 Po["solomonscrisoarea"] = "AN2CApqCApzCAswC"
@@ -11999,6 +12002,3 @@ Po["torgan"] = "EHjCEHnDEHqCEHrBEH2CEH4BEH5BEH6BEL+BEMCJEQcDEQdEEQfBEQgJEQhJEQiB
 Po["torganarathi"] = "EQcBEQdCEQmB"
 Po["torganbefouled"] = "EQyC"
 Po["torgancel"] = "EUtC"
-Po["torganfoul"] = "EQgBEQwB"
-Po["torganfuria"] = "EQgC"
-Po["torganfurie"] = "EQgC"

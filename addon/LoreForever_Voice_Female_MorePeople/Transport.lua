@@ -22,7 +22,7 @@ P.transport["npc:alamar-grimm"] = {
   fullHash = "c93ed3",
   text = "Alamar Grimm. At Anvilmar in Coldridge Valley, Alamar Grimm teaches young gnomes to wield fel magic. Since Gnomeregan fell, he has grown bitter toward outsiders and means to teach his students to summon an imp. At Anvilmar, Alamar Grimm still resents the fall of Gnomeregan. While other gnomes in Coldridge Valley work to recover and tinker, he distrusts ordinary adventurers and even the Ironforge dwarves sheltering his people. He grumbles that their allies care more for diplomacy with humans than for reclaiming the fallen city. Alamar seeks those who share his belief that his people may need ruthless power. Alamar Grimm guides young gnomes who take up fel magic. A tainted memorandum earns a rare warm welcome, and he begins teaching basic spells. Before sharing the dangerous knowledge needed to bind a demonic imp, he demands proof of each novice's magical and physical endurance. He sends them to retrieve strange feather charms carried by local Frostmane troll novices.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_alamar-grimm-b001905000c2da21aea0/1-0000.mp3", duration = 62.3804082, start = 0},
+    {file = "Audio/Transport/full_npc_alamar-grimm-4cb55d3cc1af6e45c7e6/1-0000.mp3", duration = 61.3093878, start = 0},
   },
 }
 P.transport["npc:altsoba-ragetotem"] = {
@@ -214,7 +214,7 @@ P.transport["npc:balir-frosthammer"] = {
   fullHash = "a1ca97",
   text = "Balir Frosthammer. In Coldridge Valley, Balir Frosthammer rallies recruits as Rockjaw troggs press into dwarven lands. Balir Frosthammer calls new recruits to defend Coldridge Valley. Dwarven and gnomish novices have long found safety and training there. But trouble underground has driven violent Rockjaw troggs to the surface. Balir is among the first to raise the alarm, urging recruits to thin their numbers before they push farther into Dun Morogh. Balir Frosthammer shares his name with Tannok Frosthammer of Kharanos. The two may belong to the same family, whose members stand by Ironforge. They help keep the cold mountain passes safe for travelers, miners, and mountaineers as threats grow across the region.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_balir-frosthammer-de110bda88f1a3326261/1-0000.mp3", duration = 44.9306122, start = 0},
+    {file = "Audio/Transport/full_npc_balir-frosthammer-db7127ac71b87850a2e0/1-0000.mp3", duration = 44.2253061, start = 0},
   },
 }
 P.transport["npc:barithras-moonshade"] = {
@@ -270,7 +270,7 @@ P.transport["npc:beldin-steelgrill"] = {
   fullHash = "45bdc2",
   text = "Beldin Steelgrill. At Steelgrill's Depot in Dun Morogh, Beldin Steelgrill keeps dwarven war machines running. Across Khaz Modan, he is renowned as a master technician, repairing siege engines and armored wagons with a steady supply of specialized tools. Just down the road from Kharanos, Steelgrill's Depot tests and services steam tanks and siege engines. The work strains heavy wrenches, cutters, and precision instruments against metal and rumbling boilers. Beldin needs replacements constantly, keeping local ironworkers busy at his bench.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_beldin-steelgrill-ab0bba16ae072c8c3eae/1-0000.mp3", duration = 33.5934694, start = 0},
+    {file = "Audio/Transport/full_npc_beldin-steelgrill-1eaf15d54d76e4cc9fb9/1-0000.mp3", duration = 33.515102, start = 0},
   },
 }
 P.transport["npc:bingles-blastenheimer"] = {
@@ -286,7 +286,7 @@ P.transport["npc:bink"] = {
   fullHash = "d3e548",
   text = "Bink. In Ironforge's Hall of Mysteries, Bink teaches aspiring mages the arcane arts. Her quick mind helps promising students find wizards across the Alliance. In Ironforge's Hall of Mysteries, Bink teaches the path of the mage. She works among the scholars, priests, and arcanists gathered in the Mystic Ward. Like many gnomes driven from Gnomeregan, she has made her home in the dwarven mountain stronghold. Her keen mind and skill in arcane craft guide those learning magic.\n\nBink knows wizards across the Eastern Kingdoms and Kalimdor. She points promising apprentices toward mentors such as High Sorcerer Andromath in Stormwind and Tabetha in Dustwallow Marsh.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_bink-bb528ee5825bba3690ac/1-0000.mp3", duration = 44.2514286, start = 0},
+    {file = "Audio/Transport/full_npc_bink-8d46dabc4459b7cbb16e/1-0000.mp3", duration = 44.2514286, start = 0},
   },
 }
 P.transport["npc:bishop-delavey"] = {
@@ -438,7 +438,7 @@ P.transport["npc:brother-sarno"] = {
   fullHash = "765e9a",
   text = "Brother Sarno. At the Cathedral of Light in Stormwind City, Brother Sarno welcomes visitors and worshipers. He also sends Alliance travelers to Ironforge, where Tinkmaster Overspark needs help reclaiming Gnomeregan. At the Cathedral of Light in Stormwind, Brother Sarno greets pilgrims and travelers at the entrance. A brother of the Church of the Holy Light, he welcomes those seeking prayer, comfort, or guidance. His kind manner puts visitors at ease amid the cathedral’s daily life. Brother Sarno also helps the Alliance beyond the cathedral. When word reached him that Tinkmaster Overspark in Ironforge needed help with his rogue invention, Techbot, in Gnomeregan, Sarno directed capable travelers toward Dun Morogh. His aid supports gnomes displaced from their home.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_brother-sarno-9606579681b0a0b0af15/1-0000.mp3", duration = 49.162449, start = 0},
+    {file = "Audio/Transport/full_npc_brother-sarno-1b93f1ac1df065f19f5c/1-0000.mp3", duration = 49.6587755, start = 0},
   },
 }
 P.transport["npc:brother-wilhelm"] = {
@@ -1002,11 +1002,11 @@ P.transport["npc:elder-bronzebeard"] = {
   },
 }
 P.transport["npc:elder-darkcore"] = {
-  hash = "fdf184",
-  fullHash = "fdf184",
-  text = "Elder Darkcore. During the Lunar Festival, Elder Darkcore keeps watch in the throne room above the Undercity. He honors the world's ancestors and blesses travelers who come to pay their respects. During the Lunar Festival, ancient elders appear across Azeroth to share their wisdom with travelers. Elder Darkcore keeps watch in the throne room of the Ruins of Lordaeron, directly above the Undercity entrance. King Terenas Menethil II fell on the blood-stained floor there. Those who enter the heart of Forsaken territory to pay their respects receive a Coin of Ancestry and his blessing.",
+  hash = "32a950",
+  fullHash = "32a950",
+  text = "Elder Darkcore. During the Lunar Festival, Elder Darkcore keeps watch in the throne room above the Undercity. He honors the world's ancestors and blesses travelers who come to pay their respects. Elder Darkcore is one of the ancient elders who appear across Azeroth during the Lunar Festival, sharing their wisdom with travelers. The throne room’s blood-stained floor marks the place where King Terenas Menethil II fell. Visitors who pay their respects there receive a Coin of Ancestry.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_elder-darkcore-eecfcb91b90fda0071d8/1-0000.mp3", duration = 35.0563265, start = 0},
+    {file = "Audio/Transport/full_npc_elder-darkcore-c5fa78f18f0d5f785285/1-0000.mp3", duration = 29.8840816, start = 0},
   },
 }
 P.transport["npc:elder-goldwell"] = {
@@ -1166,7 +1166,7 @@ P.transport["npc:felix-whindlebolt"] = {
   fullHash = "2a86f0",
   text = "Felix Whindlebolt. At Anvilmar in Coldridge Valley, Felix Whindlebolt seeks shelter after fleeing Gnomeregan's radiation. Frostmane trolls have taken his belongings. Felix Whindlebolt fled Gnomeregan when radiation flooded the city. In the rush, he left his belongings and tools behind.\n\nFrostmane ice trolls carried his chest, box and bucket of bolts to their camps southwest of Anvilmar. Without his gear, Felix depends on travelers to retrieve it.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_felix-whindlebolt-7149d7f5c84f93e2f47a/1-0000.mp3", duration = 28.8653061, start = 0},
+    {file = "Audio/Transport/full_npc_felix-whindlebolt-65d576b396d9b65b0a92/1-0000.mp3", duration = 29.3093878, start = 0},
   },
 }
 P.transport["npc:field-marshal-snowfall"] = {
@@ -1358,7 +1358,7 @@ P.transport["npc:gnoarn"] = {
   fullHash = "26dd01",
   text = "Gnoarn. In Ironforge, Gnoarn helps his scattered people find aid. After Gnomeregan fell, the exiled gnome made his home in Tinker Town and began directing travelers to fellow engineers and survivors. Troggs invaded Gnomeregan, and catastrophic radiation drove its people from the great underground city. The Bronzebeard dwarves gave Gnoarn refuge in Tinker Town. From there, he sends travelers to gnomes in need across Alliance lands, including the stranded pilot Bingles Blastenheimer in Loch Modan and the ambitious engineer Shoni the Shilent in Stormwind.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gnoarn-50b6b6e1bef82fa668ca/1-0000.mp3", duration = 35.9183673, start = 0},
+    {file = "Audio/Transport/full_npc_gnoarn-55fba5da65c6634908dd/1-0000.mp3", duration = 36.0489796, start = 0},
   },
 }
 P.transport["npc:godrick-farsan"] = {
@@ -1662,7 +1662,7 @@ P.transport["npc:hogger"] = {
   fullHash = "efef3c",
   text = "Hogger. In southwestern Elwynn Forest, Hogger leads the Riverpaw gnolls in raids on farms and travelers. The Stormwind Marshals have put a bounty on him for his violent attacks. Hogger commands the Riverpaw pack from Hogger Hill in southwestern Elwynn Forest. Since the Third War, the gnolls have grown bolder and more orderly in their raids on nearby homesteads. Now they fight beside the Defias Brotherhood, trading raw ferocity for arms, tactical direction, and magical support. To guard Elwynn's borders and trade routes from further bloodshed, Marshal Dughan has put a bounty on Hogger's head.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_hogger-a9592df3f313bf2f4649/1-0000.mp3", duration = 36.3102041, start = 0},
+    {file = "Audio/Transport/full_npc_hogger-4474154da537b9d7d4d3/1-0000.mp3", duration = 36.0489796, start = 0},
   },
 }
 P.transport["npc:holt-thunderhorn"] = {
@@ -1982,7 +1982,7 @@ P.transport["npc:kernobee"] = {
   fullHash = "d878d2",
   text = "Kernobee. In Gnomeregan, Kernobee lies trapped among the ruins. The goblin engineer found Dark Iron dwarves working on the great super rig, then was captured, beaten unconscious, and left among the troggs in the dormitory quarters. While doing business or scavenging in Gnomeregan, Kernobee learned that Dark Iron dwarves had helped build and operate the great super rig burrowing beneath the city. He knew the danger of that discovery and tried to flee to Ratchet. There he meant to warn his associate, Tinkerwiz. The Dark Irons caught him before he could escape. Kernobee's captors beat him unconscious and left him alive. They threw him into a small room along the dormitory corridor, opposite the Clean Zone. Feral troggs and radiation surround him. He needs help to wake, reach safety, and escape the ruins.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_kernobee-50102f6c742539af24ea/1-0000.mp3", duration = 52.0097959, start = 0},
+    {file = "Audio/Transport/full_npc_kernobee-3b7e345ecebd985ecb8a/1-0000.mp3", duration = 51.2261224, start = 0},
   },
 }
 P.transport["npc:keryn-sylvius"] = {
@@ -2214,7 +2214,7 @@ P.transport["npc:lomac-gearstrip"] = {
   fullHash = "913b73",
   text = "Lomac Gearstrip. In Ironforge's Tinker Town, Lomac Gearstrip pursues gnomish inventions. He formulated the NG-5 explosive and stays in contact with fellow researchers in Kalimdor. Lomac Gearstrip works on gnomish ordnance in Ironforge's Tinker Town. Like many gnomes who fled Gnomeregan's tragedy, he brought his tinkering operations to the dwarven capital. His workshop centers on volatile chemical mixtures and specialized munitions meant to overcome heavily defended enemy strongholds. Lomac's proudest contribution to combat engineering is the NG-5 explosive. The compound is made for great destructive force and demands precise handling and rare chemical reagents. To refine and use such hazardous inventions in the field, Lomac stays in touch with former colleagues in distant theaters. They exchange technical orders and dangerous supplies across the Great Sea.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lomac-gearstrip-81170250bbe6b0687c16/1-0000.mp3", duration = 56.5289796, start = 0},
+    {file = "Audio/Transport/full_npc_lomac-gearstrip-8a6208ac37f518bfbe7d/1-0000.mp3", duration = 55.4318367, start = 0},
   },
 }
 P.transport["npc:longbraid-the-grim"] = {
@@ -2350,7 +2350,7 @@ P.transport["npc:magis-sparkmantle"] = {
   fullHash = "d037c2",
   text = "Magis Sparkmantle. In Kharanos, Magis Sparkmantle teaches gnome mages inside the Thunderbrew Distillery. He guides new spellcasters who come from Coldridge Valley into Dun Morogh. Dwarves come to the Thunderbrew Distillery for ale, and Magis Sparkmantle teaches among its casks and kegs. Across Dun Morogh, gnome mages work closely with their dwarven allies. Magis helps new spellcasters deepen their knowledge of the arcane and put it to practice. Magis teaches beginners their first incantations, then points promising students toward broader studies of magic. When they outgrow his early lessons or need special guidance, he sends them to other practitioners, including Bink, or to mentors in the Alliance’s main hubs.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_magis-sparkmantle-96274846c6d6560fe0c1/1-0000.mp3", duration = 46.3934694, start = 0},
+    {file = "Audio/Transport/full_npc_magis-sparkmantle-747b923828a1e5146a26/1-0000.mp3", duration = 44.8783673, start = 0},
   },
 }
 P.transport["npc:magistrate-henry-maleb"] = {
@@ -2402,11 +2402,11 @@ P.transport["npc:mankrik"] = {
   },
 }
 P.transport["npc:marcus-redpath"] = {
-  hash = "5bbd5a",
-  fullHash = "5bbd5a",
-  text = "Marcus Redpath. In Southshore, Marshal Marcus Redpath holds Lordaeron's last southern bastion on the coast. He organizes patrols and bounty contracts against nearby ogres, murlocs, and naga. Marshal Marcus Redpath guards Southshore, the Alliance port on the southern coast of the Hillsbrad Foothills. The town endured the fall of Lordaeron's capital and the devastating Scourge invasion. Redpath now leads its defense, protecting the survivors who remain there. Southshore stands virtually alone against hostile forces pressing in from every side. Marshal Redpath coordinates the defense across the Hillsbrad Foothills and enlists seasoned adventurers to push back the Crushridge ogres advancing from Alterac. He also sends them against dangerous naga and murloc encampments along the coast. The Forsaken occupy the north, and nearby Tarren Mill is heavily fortified. Redpath's vigilance helps keep the Alliance presence in the region from collapsing.",
+  hash = "168635",
+  fullHash = "168635",
+  text = "Marcus Redpath. In Southshore, Marshal Marcus Redpath rallies patrols and bounty hunters to hold Lordaeron’s last southern coastal bastion. Ogres, murlocs, and naga press against the town. Marshal Marcus Redpath commands Southshore’s defense on the southern coast of the Hillsbrad Foothills. The Alliance port endured the fall of Lordaeron’s capital and the Scourge invasion. Redpath now protects the survivors who remain in town. Southshore stands nearly alone as hostile forces press in from every side. Marshal Redpath coordinates the defense across the Hillsbrad Foothills and calls on seasoned adventurers to drive back the Crushridge ogres advancing from Alterac. He also sends them against dangerous naga and murloc camps along the coast.\n\nThe Forsaken hold the north, and nearby Tarren Mill is heavily fortified. Redpath’s vigilance keeps the Alliance presence in the region from collapsing.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_marcus-redpath-83054101fc187531af81/1-0000.mp3", duration = 59.2195918, start = 0},
+    {file = "Audio/Transport/full_npc_marcus-redpath-0570124675578df65611/1-0000.mp3", duration = 56.555102, start = 0},
   },
 }
 P.transport["npc:mardant-strongoak"] = {
@@ -2446,7 +2446,7 @@ P.transport["npc:marryk-nurribit"] = {
   fullHash = "fc4e62",
   text = "Marryk Nurribit. At Anvilmar in Coldridge Valley, Marryk Nurribit teaches young gnomes the first steps in arcane magic. Local brews often draw his attention from lessons, and he asks pupils for spare coins to buy a drink. Every newly arrived gnome mage in Coldridge Valley starts out as Marryk's pupil. Yet a flagon of dwarven ale can win more of his attention than a lesson. He asks new pupils for spare pocket change, and warns aspiring spellcasters about Gnomeregan's radioactive, trogg-infested ruins beyond Coldridge Valley.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_marryk-nurribit-ffa09f1013c219547654/1-0000.mp3", duration = 33.0971429, start = 0},
+    {file = "Audio/Transport/full_npc_marryk-nurribit-e8ca703172c5b3c01faa/1-0000.mp3", duration = 33.3583673, start = 0},
   },
 }
 P.transport["npc:marshal-maxwell"] = {
@@ -2582,7 +2582,7 @@ P.transport["npc:milli-featherwhistle"] = {
   fullHash = "4c78f7",
   text = "Milli Featherwhistle. At Steelgrill's Depot, Milli Featherwhistle builds and maintains mechanostriders for Gnomeregan's displaced people. She sells these clockwork mounts to her kin and to trusted allies among the exiles. Just east of Kharanos, Milli works outdoors in Dun Morogh's biting chill. She tunes each mount's gears, pistons, and balancing gyros to carry riders across the snowy crags. Dwarves and night elves favor living mounts. For Gnomeregan's displaced people, Milli's clockwork steeds meet a different need. Milli follows the blueprints first drawn by High Tinker Gelbin Mekkatorque. She has improved each mechanostrider's performance by lightening its chassis and refining its exhaust vents. Yet she keeps to the High Tinker's original designs. Her work carries gnomish ambition forward, even in exile.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_milli-featherwhistle-e011b5c0ed8c8f159d41/1-0000.mp3", duration = 50.7297959, start = 0},
+    {file = "Audio/Transport/full_npc_milli-featherwhistle-9ac7571d97bdf466a61a/1-0000.mp3", duration = 51.1477551, start = 0},
   },
 }
 P.transport["npc:milton-sheaf"] = {
@@ -2678,7 +2678,7 @@ P.transport["npc:mountaineer-barleybrew"] = {
   fullHash = "162708",
   text = "Mountaineer Barleybrew. At South Gate Outpost, Mountaineer Barleybrew keeps watch over the pass from Dun Morogh to Loch Modan. Dwarven brews help sentries endure the cold. Mountaineer Wellart Barleybrew watches the snowy road to Loch Modan from South Gate Outpost. He serves in Ironforge's border watch. Like other mountaineers in Dun Morogh's bitter winds, he values fine dwarven drink. His name ties him to the renowned Barleybrew clan. He also helps send potent Shimmer Stout to watchmen who need warmth and stamina through long shifts in the mountain passes.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_mountaineer-barleybrew-7c1d3b1f7ac5e5e7e427/1-0000.mp3", duration = 34.8212245, start = 0},
+    {file = "Audio/Transport/full_npc_mountaineer-barleybrew-3c3614a0e9c617ce2ae3/1-0000.mp3", duration = 33.8808163, start = 0},
   },
 }
 P.transport["npc:mountaineer-kadrell"] = {
@@ -2806,7 +2806,7 @@ P.transport["npc:nogg"] = {
   fullHash = "f821fa",
   text = "Nogg. In Orgrimmar's Valley of Honor, Nogg puts his craft to work for the Horde. He studies strange mechanical salvage from deep within Gnomeregan. Nogg keeps an independent engineering workshop in Orgrimmar's Valley of Honor. Adventurers and craftsmen seek the mechanical skill of a goblin in a city famed for orcish steel and strength. He eagerly examines unusual devices and trinkets brought from Alliance lands or underground ruins. Salvage from Gnomeregan draws Nogg's special attention. Horde operatives recover intricate rings and other remnants from the fallen gnomish capital. Few minds in Durotar can take apart those strange clockwork devices, decipher them, and adapt them for Horde use.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_nogg-cf6e1ab6b7502a7ebf65/1-0000.mp3", duration = 45.7404082, start = 0},
+    {file = "Audio/Transport/full_npc_nogg-3d7082dfb306669a8071/1-0000.mp3", duration = 44.4081633, start = 0},
   },
 }
 P.transport["npc:nori-pridedrift"] = {
@@ -2958,7 +2958,7 @@ P.transport["npc:pilot-hammerfoot"] = {
   fullHash = "77a39f",
   text = "Pilot Hammerfoot. At North Gate Outpost, Pilot Hammerfoot watches the pass and searches for a missing fellow pilot. The Siege Brigade’s engines guard the route, but the mountain hills are dangerous. At North Gate Outpost, Pilot Hammerfoot watches the passes between Dun Morogh and Loch Modan. He guards Ironforge’s siege engines for the Siege Brigade. The rough mountain ground makes those engines dangerous to drive. Now one pilot is missing, and savage beasts roam the nearby hills. Finding him matters.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_pilot-hammerfoot-43499237ac7855ac17ab/1-0000.mp3", duration = 32.6791837, start = 0},
+    {file = "Audio/Transport/full_npc_pilot-hammerfoot-d149eae6a22d2c4f6de5/1-0000.mp3", duration = 33.1493878, start = 0},
   },
 }
 P.transport["npc:pilot-longbeard"] = {
@@ -2974,7 +2974,7 @@ P.transport["npc:pilot-stonegear"] = {
   fullHash = "139cf3",
   text = "Pilot Stonegear. At Steelgrill's Depot, Pilot Stonegear readies the Trollplow for battle. Called “Stone,” the dwarf mechanic and driver serves in the Ironforge Siege Brigade. He seeks rare materials to improve the machine's engine and armor, and travelers in Dun Morogh help him find them. At Steelgrill's Depot, Pilot Stonegear drives for Ironforge's Siege Brigade. His pride is Trollplow, a heavy siege tank built to break enemy lines. Stone knows a driver's life in battle depends on sound gears, strong plates, and steady steam pressure. So he keeps improving the tank's fighting power and making its cramped cockpit more livable. Off duty, Pilot Stonegear debates engineering plans with fellow pilots such as Pilot Bellowfiz. The depot's standard designs never satisfy him. He seeks unusual ores and volatile minerals to improve Trollplow's armor and munitions. Travelers cross Dun Morogh's snowy wilderness and dangerous caves to find the supplies he needs.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_pilot-stonegear-1ab3c0aac03cb51c632e/1-0000.mp3", duration = 63.3469388, start = 0},
+    {file = "Audio/Transport/full_npc_pilot-stonegear-77815bf0385f9f14432c/1-0000.mp3", duration = 62.1191837, start = 0},
   },
 }
 P.transport["npc:pixel"] = {
@@ -3086,7 +3086,7 @@ P.transport["npc:ragnar-thunderbrew"] = {
   fullHash = "4c63c4",
   text = "Ragnar Thunderbrew. At the Thunderbrew Distillery in Kharanos, Ragnar Thunderbrew keeps the family tavern supplied and its patrons fed. Across Dun Morogh, the dwarven brewer is known for the family's Beer Basted Boar Ribs. Ragnar Thunderbrew tends the kitchen and brewing work at the Thunderbrew Distillery in Kharanos. Mountaineers, travelers, and gnome refugees fleeing Gnomeregan gather there. His Beer Basted Boar Ribs, made with dwarven ale, are a Dun Morogh specialty.\n\nSupplies have grown hard to find since his usual meat provider enlisted in the King's Army. Ragnar now depends on wandering mountaineers and hunters to bring fresh crag boar flanks to the kitchen. Across Ironforge territory, the Thunderbrew name is known for dwarven drink and tavern life. Ragnar has kept the distillery running since his older brother, Grimbooze Thunderbrew, disappeared in a drunken haze a few harvests ago.\n\nHe guards the family's brewing heritage against thieves such as the Dark Iron dwarves, who stole the recipe for Thunderbrew Lager. With patrons restless, supplies scarce, and disputes breaking out in the tavern, Ragnar keeps the taps flowing and travelers fed in Kharanos.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_ragnar-thunderbrew-eb75e2a0f06e7eadd1d5/1-0000.mp3", duration = 75.8073469, start = 0},
+    {file = "Audio/Transport/full_npc_ragnar-thunderbrew-b06e438625a3b3a1b558/1-0000.mp3", duration = 74.3444898, start = 0},
   },
 }
 P.transport["npc:rahauro"] = {
@@ -3134,7 +3134,7 @@ P.transport["npc:razzle-sprysprocket"] = {
   fullHash = "c90b2d",
   text = "Razzle Sprysprocket. In Kharanos, Razzle Sprysprocket searches for the machinery lost when Gnomeregan fell. With Ozzie Togglevolt, he gathers parts scattered through Dun Morogh’s snowy hills. After Gnomeregan fell, Razzle found refuge in Dun Morogh and opened a workshop in Kharanos. Skilled with delicate mechanisms, he works beside fellow engineer Ozzie Togglevolt. Together, they seek gyro-mechanisms and cog assemblies lost or scavenged during the flight from their irradiated homeland. Wild beasts roam Dun Morogh’s frozen ridges, and Frostmane trolls raid the area. Their presence makes Razzle’s work dangerous. Still, he labors to keep gnomish contraptions working and recover the lost wonders of Gnomeregan.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_razzle-sprysprocket-f7cd9027b023d3baf802/1-0000.mp3", duration = 46.7330612, start = 0},
+    {file = "Audio/Transport/full_npc_razzle-sprysprocket-c648c6437be85c7789d8/1-0000.mp3", duration = 45.6097959, start = 0},
   },
 }
 P.transport["npc:red-jack-flint"] = {
@@ -3326,7 +3326,7 @@ P.transport["npc:scooty"] = {
   fullHash = "943a7c",
   text = "Scooty. From Booty Bay’s busy pirate port, Scooty keeps a teleport link to Gnomeregan. The goblin engineer trusts his craft and his transponders, though the experimental pad lies in the fallen gnome city. For the Horde, his device opens a perilous route into Dun Morogh. Among Booty Bay’s wharves and workshops, Scooty pursues ambitious tinkering for the Steamwheedle Cartel. While many goblins favor gunpowder and explosives, he works to move matter across great distances. His transponders keep a working link to a teleportation pad inside Gnomeregan. Horde forces rely on his craft to reach the subterranean gnome stronghold without crossing dangerous Alliance territory. Experimental goblin teleporters rarely run without a hitch. After hearing of a new gnomish rig in Gnomeregan, Scooty and his partner Sovik built the Transpolyporter 6000. Scooty cheerfully admits it has exploded a dozen or so times. Crossing continents as scattered matter carries clear physical dangers, yet Scooty remains sure of his genius. To him, every mechanical failure is a small obstacle on the road to innovation.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_scooty-d96cb44ebcc9f1683e85/1-0000.mp3", duration = 71.3404082, start = 0},
+    {file = "Audio/Transport/full_npc_scooty-f5918b2fd0cf334ff0aa/1-0000.mp3", duration = 71.68, start = 0},
   },
 }
 P.transport["npc:scout-riell"] = {
@@ -3526,7 +3526,7 @@ P.transport["npc:sicco-thermaplugg"] = {
   fullHash = "f719cb",
   text = "Mekgineer Thermaplugg. In ruined Gnomeregan, Mekgineer Thermaplugg rules from a massive mechanical battle suit. Once High Tinker Gelbin Mekkatorque’s trusted advisor, he brought about the city’s irradiation in a bid for power. The fallout made him a leper gnome and left him deranged, ruling the ruined halls. For many years, Mekgineer Thermaplugg advised High Tinker Gelbin Mekkatorque, who trusted him completely. Yet Thermaplugg secretly coveted the High Tinker’s office. Even Mekkatorque cannot say what drove his advisor to betray that trust. He can only wonder whether Thermaplugg sought power or wealth, both of which he would have had in time.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sicco-thermaplugg-6a121f8892a177ac4e6c/1-0000.mp3", duration = 38.8440816, start = 0},
+    {file = "Audio/Transport/full_npc_sicco-thermaplugg-ec83c3ff4d32c9d4d38e/1-0000.mp3", duration = 40.1502041, start = 0},
   },
 }
 P.transport["npc:sida"] = {
@@ -3702,7 +3702,7 @@ P.transport["npc:talvash-del-kissel"] = {
   fullHash = "1dedac",
   text = "Talvash del Kissel. In Ironforge's Mystic Ward, the gnome jeweler Talvash del Kissel is down on his luck. He fled Gnomeregan when the troggs overran it, then fell into debt amid rumors of questionable dealings. Now he turns to adventurers to recover lost treasures and restore shattered relics. His eye for gems and ancient baubles makes him a valued contact for those exploring Uldaman. Talvash once earned respect as a jeweler in Gnomeregan, until the troggs overran the city and destroyed his livelihood along with his home. He escaped with the surviving refugees to Ironforge and set up camp in the Mystic Ward. Yet relocation brought little relief.\n\nRumors of questionable dealings and unpaid obligations gathered around him, leaving the craftsman in deep financial distress. Unable to rebuild his trade through conventional means, he now relies on freelance adventurers to recover lost assets and salvage his reputation. Talvash has kept his precision with gems and his skill at judging their worth. When explorers in the Badlands uncover an ancient, shattered necklace deep in Uldaman's Titan vault, few craftsmen in the Eastern Kingdoms can make sense of its intricate enchantments. Restoring its power takes rare components and painstaking work. Talvash is eager to do it, both to clear his debts and prove his skill endures.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_talvash-del-kissel-b6eb2bf48a21d0ae395c/1-0000.mp3", duration = 83.0955102, start = 0},
+    {file = "Audio/Transport/full_npc_talvash-del-kissel-b59e171a827240c019f1/1-0000.mp3", duration = 81.9722449, start = 0},
   },
 }
 P.transport["npc:tammra-windfield"] = {
@@ -3830,7 +3830,7 @@ P.transport["npc:thor"] = {
   fullHash = "28701e",
   text = "Thor. At Sentinel Hill, Thor keeps Westfall linked to Stormwind by gryphon flight. His trained mounts carry travelers and urgent messages over dangerous roads. Thor tends the gryphon roost at Sentinel Hill, linking Westfall's defenders with the rest of the kingdom. On the ground, the People's Militia faces bandits, gnolls, and malfunctioning harvest golems. His gryphons carry travelers and military dispatches above those perilous roads. Reports from Gryan Stoutmantle and urgent requests for aid can reach the court in Stormwind far sooner than a messenger on foot.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_thor-c8430c2a3a39c3e0d0d0/1-0000.mp3", duration = 36.2057143, start = 0},
+    {file = "Audio/Transport/full_npc_thor-e05740df35049c4a1bc0/1-0000.mp3", duration = 35.8661224, start = 0},
   },
 }
 P.transport["npc:thorgas-grimson"] = {
@@ -3846,7 +3846,7 @@ P.transport["npc:thorgrum-borrelson"] = {
   fullHash = "702587",
   text = "Thorgrum Borrelson. Above Thelsamar, Thorgrum Borrelson keeps travelers flying across Loch Modan. His roost links the valley with Ironforge and the nearby mountain passes. Thorgrum Borrelson keeps the gryphon roost on the bluff above Thelsamar. His trained gryphons carry the Alliance across Loch Modan, where troggs and gnoll packs threaten the roads. They pass through South Gate Pass to the Great Forge in Dun Morogh, then fly onward toward the Wetlands and beyond.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_thorgrum-borrelson-f49302f4ce2359b3711f/1-0000.mp3", duration = 29.5183673, start = 0},
+    {file = "Audio/Transport/full_npc_thorgrum-borrelson-5522193ad3e87be8fae0/1-0000.mp3", duration = 29.4922449, start = 0},
   },
 }
 P.transport["npc:thorvald-deepforge"] = {
@@ -3882,11 +3882,11 @@ P.transport["npc:tommy-joe-stonefield"] = {
   },
 }
 P.transport["npc:tormus-deepforge"] = {
-  hash = "230fce",
-  fullHash = "230fce",
-  text = "Tormus Deepforge. At Ironforge's Great Forge, Tormus Deepforge keeps weapons flowing to the Alliance. He coordinates iron deliveries and arms defenses across Khaz Modan and beyond. Tormus Deepforge oversees the Bronzebeard clan's metalwork beside the Great Forge fires. He still hammers steel himself, but he also mourns Sturgy Ironband, his mentor. Dark Iron dwarves overran Sturgy's smithing compound south of Helm's Bed Lake in eastern Dun Morogh after a load of strange umbral ore arrived there.",
+  hash = "3e8f76",
+  fullHash = "3e8f76",
+  text = "Tormus Deepforge. At Ironforge’s Great Forge, Tormus Deepforge keeps weapons flowing to the Alliance. He forges weapons for young warriors and mourns his mentor, Sturgy Ironband. Beside the Great Forge fires, Tormus Deepforge oversees the Bronzebeard clan’s metalwork. He still hammers steel himself, though he mourns Sturgy Ironband, his mentor. Dark Iron dwarves overran Sturgy’s smithing compound south of Helm’s Bed Lake in eastern Dun Morogh. A load of strange umbral ore had arrived there.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_tormus-deepforge-a747f485b02b6bff9f6c/1-0000.mp3", duration = 31.2163265, start = 0},
+    {file = "Audio/Transport/full_npc_tormus-deepforge-570a42f50eb68c28bce2/1-0000.mp3", duration = 32.8881633, start = 0},
   },
 }
 P.transport["npc:torwa-pathfinder"] = {
@@ -4374,7 +4374,7 @@ P.transport["topic:alliance"] = {
   fullHash = "8185db",
   text = "Alliance. Across Azeroth, the Alliance now gathers its peoples around Stormwind. Its roots lie in Lordaeron's ruin, and its heart is Stormwind City, beside Ironforge's dwarves, the exiled gnomes, and Kalimdor's night elves. The modern Alliance descends from the Alliance of Lordaeron. During the Second War, Sir Anduin Lothar led Stormwind refugees north and united the Seven Kingdoms, dwarves, and high elves against the Old Horde.\n\nThe Scourge and the Third War ravaged the north. Lordaeron lay in ruins, and survivors were driven into scattered resistance. The restored Kingdom of Stormwind filled the void. Today it is the foremost seat of human leadership, carrying honor and faith into a fractured world. In the Eastern Kingdoms, the Alliance rests on the steadfast bond between humans and the dwarves of Ironforge, ruled by King Magni Bronzebeard. Gnomes also live among the dwarves, driven from Gnomeregan by a devastating trogg uprising.\n\nHigh Tinker Gelbin Mekkatorque guides the exiled gnomes. They bring their brilliant engineering to the Alliance war effort, believing the coalition must survive if they are ever to reclaim their irradiated home. Across the Great Sea, the reclusive night elves left millennia of isolation after the Battle of Mount Hyjal. They lost their immortality and now clash bitterly with the Horde over logging in Ashenvale. So the kaldorei allied with their newfound mortal companions.\n\nCultural friction remains. Some traditionalists condemn the presence of humans and dwarves in ancient forests. The Alliance offers vital military and diplomatic help to guard Kalimdor from demonic remnants and Horde expansion. The Alliance faces strains within its own ranks. King Varian Wrynn vanished under mysterious circumstances while traveling to a diplomatic summit. His young son Anduin took the throne under Highlord Bolvar Fordragon's regency.\n\nRelations with former human allies have also frayed. The maritime kingdom of Kul Tiras keeps its distance, while Sylvanas Windrunner's undead Forsaken hold the ruins of Lordaeron.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_alliance-435b973bdfd4ddceb15b/1-0000.mp3", duration = 135.523265, start = 0},
+    {file = "Audio/Transport/full_topic_alliance-5d1d225e901a5d249498/1-0000.mp3", duration = 134.765714, start = 0},
   },
 }
 P.transport["topic:brotherhood-of-northshire"] = {
@@ -4638,7 +4638,7 @@ P.transport["topic:warrior"] = {
   fullHash = "b24ef9",
   text = "Warrior. Across Azeroth, Warriors take their place at the front with steel, discipline, and battle rage. They wear heavy plate and wield many weapons, shielding allies or breaking enemy ranks. Every race and civilization has its Warriors, from city guards and royal champions to wandering mercenaries. Warriors rely on strength, discipline, and skill with weapons, not prayers or spells. Heavy plate helps them hold the front. Some brace behind tall shields, enduring blows and drawing danger away from spellcasters and archers. Others carry two-handed polearms, axes, or greatswords. Some fight with a blade in each hand and cut through enemy ranks. In battle, pain and blood kindle a Warrior's rage. It grows as Warriors strike foes and endure their attacks. Skilled fighters shape that force into crushing blows and sweeping weapon strikes. Their battle cries hearten nearby allies and break enemy morale. Every race on Azeroth has its Warriors. Stormwind fields disciplined knights and footmen, while Ironforge calls on its stout mountain guard. The Horde rallies around orcish blademasters, tauren braves, and Forsaken Deathguards.\n\nHonor, defense of their lands, or the promise of coin can lead Warriors to arms. They form the backbone of every standing army.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_warrior-a28e3aa72dbcba4e5101/1-0000.mp3", duration = 82.3640816, start = 0},
+    {file = "Audio/Transport/full_topic_warrior-182a7efcfc401c136907/1-0000.mp3", duration = 82.5208163, start = 0},
   },
 }
 P.transport["topic:warsong-clan"] = {

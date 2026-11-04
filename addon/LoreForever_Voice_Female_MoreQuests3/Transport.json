@@ -3383,9 +3383,9 @@
     "quest:2988": {
       "1": [
         {
-          "duration": 28.055510204081635,
-          "file": "Audio/Transport/full_quest_2988-d6ba26815e0d892ac3ae/1-0000.mp3",
-          "sha256": "a99416fd948c08f89633d9b375a675274e71350c4302a0808456986d746e7578",
+          "duration": 28.473469387755102,
+          "file": "Audio/Transport/full_quest_2988-fde4fe4f974132953d9e/1-0000.mp3",
+          "sha256": "a846ee766c157c4ee20335124b7633ffda81df9abc9b1f263555ebbd0c1d2d10",
           "start": 0
         }
       ],
@@ -3397,12 +3397,12 @@
         ]
       },
       "fullHash": "e32297",
-      "generation": "30ed041a2bbdf40e7e34",
+      "generation": "cc0f1e3f6a1070e4f74e",
       "hash": "e32297",
       "source": {
-        "duration": 28.081633,
+        "duration": 28.499592,
         "file": null,
-        "sha256": "d6ba26815e0d892ac3ae4a9b0e7c41b18a21e95c4fc773ba676ae1560132d297"
+        "sha256": "fde4fe4f974132953d9e2b3c3c55d5c3f7b412b5c04a7e298d65b8931ad29721"
       },
       "text": "Witherbark Cages. At Witherbark Cages, you search for Sharpbeak, heir of Swiftwing, whom Talonaxe calls the mightiest gryphon. Gryphon Master Talonaxe believes the trolls took the young gryphon. Gryphon Master Talonaxe asks you to find Sharpbeak, who went missing a few days ago while hunting with his parents. Talonaxe and the others believe the trolls took him. Three cages in the two Witherbark troll villages remain to be checked. Talonaxe awaits your findings."
     },
@@ -12111,6 +12111,11 @@
       741,
       1083
     ],
+    "a846ee766c157c4ee20335124b7633ffda81df9abc9b1f263555ebbd0c1d2d10": [
+      295,
+      473,
+      732
+    ],
     "a8d899ba130243be2cbd601c2787603ca77ffc091b1f5acf05534cd8e4dd4879": [
       313,
       498,
@@ -12123,11 +12128,6 @@
       208,
       343,
       521
-    ],
-    "a99416fd948c08f89633d9b375a675274e71350c4302a0808456986d746e7578": [
-      292,
-      469,
-      725
     ],
     "aa3e589aa04da513091358b7cbb23acb21c78693af1c5a8bf1aac48e4ac43c88": [
       225,
@@ -14124,14 +14124,14 @@
     "a7335655dc37e9a9d408a376230bfa290094750618fd09dc0a5e8d8e8c931d2c": {
       "349": 1
     },
+    "a846ee766c157c4ee20335124b7633ffda81df9abc9b1f263555ebbd0c1d2d10": {
+      "473": 1
+    },
     "a8d899ba130243be2cbd601c2787603ca77ffc091b1f5acf05534cd8e4dd4879": {
       "313": 1
     },
     "a97c040b7a3e784ce03a853958da6c08767a23440167ce82996152238bb33c15": {
       "208": 1
-    },
-    "a99416fd948c08f89633d9b375a675274e71350c4302a0808456986d746e7578": {
-      "469": 1
     },
     "aa3e589aa04da513091358b7cbb23acb21c78693af1c5a8bf1aac48e4ac43c88": {
       "225": 1

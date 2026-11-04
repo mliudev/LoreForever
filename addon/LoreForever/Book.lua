@@ -324,7 +324,7 @@ function Book.Filters()
     sort = Book.sort }
 end
 
--- What a chapter's green + adds: its found pages, places first, then people, items and quests, each in the order
+-- What a chapter's + adds: its found pages, places first, then people, items and quests, each in the order
 -- found (what can't be played or is queued already is skipped by UI.QueueGroup).
 function Book.QueueKeys(ck)
   local tiles = Book.Tiles(ck, {})
@@ -350,6 +350,7 @@ function Book.CreateSide(view)
   local content = CreateFrame("Frame", nil, sf)
   content:SetSize(SIDE_W - 40, 100)
   sf:SetScrollChild(content)
+  T.PaperScroll(sf)
   Book.sideContent, Book.sideRows = content, {}
   -- Search reads only the pages you've found: a name typed can never confirm a page you haven't.
   local search = UI.SearchBox(view, SIDE_W - 22, function(words)
@@ -368,7 +369,11 @@ function Book.CreateSide(view)
   note:SetWidth(SIDE_W - 40)
   note:SetJustifyH("LEFT")
   if note.SetWordWrap then note:SetWordWrap(true) end
-  note:SetText(L["Click a chapter to see its pages. Green + adds its stories to your playlist."])
+  -- It names the playlist button, not a "+" (Design Lead, 11/4). A pack with an older wording keeps its own words.
+  note:SetText(ns.Lang.Reworded("Click a chapter to see its pages. Its playlist button adds its stories to your playlist.",
+      "Click a chapter to see its pages. + adds its stories to your playlist.",
+      "Click a chapter to see its pages. Green + adds its stories to your playlist.")
+    or L["Click a chapter to see its pages. Its playlist button adds its stories to your playlist."])
   Book.sideScroll, Book.sideNote = sf, note
   Book.ClearHint(view, sf, note)
 end
@@ -404,38 +409,38 @@ local function sideRow(i)
   row.text:SetJustifyV("TOP")
   if row.text.SetWordWrap then row.text:SetWordWrap(false) end
   local count = T.Ink(row:CreateFontString(nil, "OVERLAY", T.font.small), "inkNote")
-  count:SetPoint("TOPRIGHT", -28, -3)
+  count:SetPoint("TOPRIGHT", -36, -3)
   count:SetJustifyH("RIGHT")
   row.count = count
-  row.sel = T.Area(row, "inkSelect")
-  row.sel:SetAllPoints()
-  row.mark = T.TargetMark(row, true)
+  row.sel = T.SelectMark(row)
+  row.mark = T.HereMark(row)
   row.meter = T.Meter(row, "found")
   row.meter:SetHeight(6)
   row.meter:SetPoint("BOTTOMLEFT", 6, 5)
-  row.meter:SetPoint("BOTTOMRIGHT", -58, 5)
-  row.gilt = T.Seal(row, "gilt", 12)
-  row.gilt:SetPoint("BOTTOMRIGHT", -40, 3)
+  row.meter:SetPoint("BOTTOMRIGHT", -66, 5)
+  row.gilt = T.Seal(row, "wax", 12)   -- (every place found; wax as every seal is, first of the two)
+  row.gilt:SetPoint("BOTTOMRIGHT", -48, 3)
   row.wax = T.Seal(row, "wax", 12)
-  row.wax:SetPoint("BOTTOMRIGHT", -26, 3)
+  row.wax:SetPoint("BOTTOMRIGHT", -34, 3)
   row.newBg = T.Area(row, "newMark", "ARTWORK")
   row.newBg:SetHeight(14)
   row.newBg:SetPoint("CENTER", count, "CENTER", 0, 0)
   row.newBg:Hide()
-  local all = UI.TextButton(row, 20, ROW_H - 4, T.font.body, T.color.add)
-  all.text:SetJustifyH("CENTER")
-  all.text:SetText("+")
-  all:SetPoint("RIGHT", -2, 0)
+  -- Add all: the pill's playlist half on its own (T.Pill: no play half), its list-plus sign.
+  local pill = T.Pill(row, 24)
+  T.SetPill(pill, false, true, false, false)
+  pill:SetPoint("RIGHT", -2, 0)
+  local all = pill.add
   all:SetScript("OnClick", function(self) UI.QueueGroup(Book.QueueKeys(self.ck), self.label, true) end)
-  all:SetScript("OnEnter", function(self)
+  all.onEnter = function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
     GameTooltip:AddLine(L["Add all to your playlist"])
     T.Tip(L["Adds the stories of the pages you've found here, places first, then people, items and quests."],
       "tipText", true)
     GameTooltip:Show()
-  end)
-  all:SetScript("OnLeave", function() GameTooltip:Hide() end)
-  row.all = all
+  end
+  all.onLeave = function() GameTooltip:Hide() end
+  row.all, row.allPill = all, pill
   row:SetScript("OnClick", function(self)
     if Book.search and Book.search:Active() then Book.search:Clear() end
     Book.chapter = self.ck
@@ -484,7 +489,7 @@ function Book.RefreshSide()
       row.count:SetTextColor(T.rgba(T.color.newMarkText))
       row.newBg:SetWidth(math.max(16, math.ceil((T.TextWidth(row.count) or 8) + 10)))
       row.newBg:Show()
-      row.all:Hide()
+      row.allPill:Hide()
       row.meter:Hide()
       row.gilt:Hide()
       row.wax:Hide()
@@ -496,15 +501,15 @@ function Book.RefreshSide()
       row.count:SetText(n.found .. "/" .. n.total)
       row.count:SetTextColor(T.rgba(NOTE))
       row.newBg:Hide()
-      row.all:Show()
+      row.allPill:Show()
       row.meter:Show()
       row.meter:SetProgress(n.found, n.total)
       row.gilt:SetShown(seals and seals.places.done or false)
       row.wax:SetShown(seals and seals.stories.done or false)
     end
     row:SetHeight(h)
-    row.sel:SetShown(it.ck == Book.chapter)
-    T.ShowMark(row.mark, it.here)
+    T.ShowMark(row.sel, it.ck == Book.chapter)
+    T.ShowMark(row.mark, it.here and it.ck ~= Book.chapter)
     row:Show()
     y = y + h + 2
   end
@@ -579,9 +584,9 @@ function Book.Create(f)
   Book.frame = p
   Book.kind, Book.pages, Book.story, Book.rarity, Book.sort = nil, "all", "any", "any", "found"
 
-  -- After a jump from another bookmark (a Road count, a page's storyline): a gold "‹ Back to ..." at the top right,
-  -- the sort to its left (Book.SetBackTo).
-  local back = T.Button(p, "", "primary")
+  -- After a jump from another bookmark (a Road count, a page's storyline): "‹ Back to ..." at the top right, the
+  -- sort to its left (Book.SetBackTo).
+  local back = T.Button(p, "", "paper")
   back:SetHeight(22)
   back:SetPoint("TOPRIGHT", -8, -8)
   back:SetScript("OnClick", function() Book.GoBack() end)
@@ -603,9 +608,26 @@ function Book.Create(f)
   -- what's new: the same for every New page. Shown when there's something to play, after the filters (made with
   -- them, below).
   local function playButton(label, tip, keysOf)
-    local b = T.Button(Book.chips, label, "primary")
+    local b = T.Button(Book.chips, label, "paper")
     b:SetHeight(22)
-    b:SetWidth(math.max(70, math.floor((T.TextWidth(b:GetFontString()) or 60) + 24)))
+    -- The play mark before the words, in the label's oxblood (the board's "▶ Play these"; Design Lead, 11/4).
+    local mark = b:CreateTexture(nil, "ARTWORK")
+    mark:SetSize(12, 12)
+    mark:SetPoint("LEFT", 9, 0)
+    if T.HasTexture(T.ARROW) then
+      mark:SetTexture(T.ARROW)
+      if mark.SetDesaturated then mark:SetDesaturated(true) end
+      mark:SetVertexColor(T.rgba(T.color.inkAccent))
+    else
+      mark:SetColorTexture(T.rgba(T.color.inkAccent))
+      mark:SetSize(7, 7)
+    end
+    local fs = b.GetFontString and b:GetFontString()
+    if fs then
+      fs:ClearAllPoints()
+      fs:SetPoint("LEFT", mark, "RIGHT", 3, 0)
+    end
+    b:SetWidth(math.max(70, math.floor((T.TextWidth(fs) or 60) + 36)))
     b:SetScript("OnClick", function() Book.Play(keysOf()) end)
     b:SetScript("OnEnter", function(self)
       GameTooltip:SetOwner(self, "ANCHOR_BOTTOM")
@@ -655,6 +677,7 @@ function Book.Create(f)
   local content = CreateFrame("Frame", nil, sf)
   content:SetSize(300, 100)
   sf:SetScrollChild(content)
+  T.PaperScroll(sf)
   Book.scroll, Book.content, Book.tiles, Book.heads = sf, content, {}, {}
   sf:HookScript("OnVerticalScroll", function() Book.UpdateFigures() end)
   -- The line at the foot of the page: how to read the cards, and the name of the card under the mouse.
@@ -759,17 +782,18 @@ local function makeTile(i)
   local b = T.Tile(Book.content, "place")
   b:SetSize(TILE_SIZE, TILE_SIZE)
   b:RegisterForClicks("LeftButtonUp", "RightButtonUp")
-  -- In your playlist: a small green square at the top left (a ring, a dot, a drop and a dashed edge say the rest).
+  -- In your playlist: a small oxblood square, edged light, at the top left (a ring, a dot, a drop and a dashed edge
+  -- say the rest). Oxblood: your picks (the palette of 11/3).
   -- (On the card's top frame: a person's figure is a frame of its own and draws over the card's textures.)
   b.queuedRim = b.over:CreateTexture(nil, "OVERLAY", nil, 1)
   b.queuedRim:SetSize(9, 9)
   b.queuedRim:SetPoint("TOPLEFT", 2, -2)
-  T.Fill(b.queuedRim, "dotRim")
+  T.Fill(b.queuedRim, "inkLight")
   b.queued = b.over:CreateTexture(nil, "OVERLAY", nil, 2)
   b.queued:SetSize(7, 7)
   b.queued:SetPoint("TOPLEFT", 3, -3)
-  T.Fill(b.queued, "add")
-  b.rarityEdge = T.Outline(b, "inkRim", "OVERLAY", 3)
+  T.Fill(b.queued, "inkAccent")
+  b.rarityEdge = T.Outline(b, "inkRim", "OVERLAY", 2, 1)   -- (over the card's own edge, so its cream mat stays: 11/4)
   b.rarityEdge:SetShown(false)
   b:SetScript("OnClick", function(self, button)
     if not self.found then return end
@@ -1018,20 +1042,15 @@ local function storyRow(i)
   r.tile:EnableMouse(false)
   r.text:ClearAllPoints()
   r.text:SetPoint("TOPLEFT", 44, -5)
-  r.text:SetPoint("RIGHT", -90, 0)
+  r.text:SetPoint("RIGHT", -66, 0)
   if r.text.SetWordWrap then r.text:SetWordWrap(false) end
   r.sub = ink(r:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall"), NOTE)
   r.sub:SetPoint("TOPLEFT", 44, -23)
-  r.sub:SetPoint("RIGHT", -90, 0)
+  r.sub:SetPoint("RIGHT", -66, 0)
   if r.sub.SetWordWrap then r.sub:SetWordWrap(false) end
-  r.listen = T.Button(r, L["Listen"])
-  r.listen:SetHeight(22)
-  r.listen:SetWidth(math.max(70, math.floor((T.TextWidth(r.listen:GetFontString()) or 50) + 24)))
-  r.listen:SetPoint("RIGHT", -4, 0)
-  r.listen:SetScript("OnClick", function(self)
-    if IsShiftKeyDown and IsShiftKeyDown() then return UI.DoQueueAction(self.key) end
-    UI.PlayEntry(self.key)
-  end)
+  -- Listen and the playlist: the row's pill, as on Here (one control wherever a story can be heard, 11/4).
+  r.pill = UI.RowPill(r)
+  r.pill:SetPoint("RIGHT", -4, 0)
   -- Click opens its page (Back comes back to this list), Shift-click adds it to the playlist, right-click: options.
   r:SetScript("OnClick", function(self, button)
     if button == "RightButton" then return Book.PageMenu(self, self.key, "found") end
@@ -1087,7 +1106,7 @@ local function refreshStoryline(ck)
   for i, k in ipairs(keys) do
     local e = entries()[k]
     local r = storyRow(i)
-    r.key, r.listen.key = k, k
+    r.key = k
     r:SetWidth(cw)
     r:ClearAllPoints()
     r:SetPoint("TOPLEFT", 0, -y)
@@ -1097,7 +1116,7 @@ local function refreshStoryline(ck)
     local z = e.z and zones()[e.z]
     local state = questState(k, done, inLog)
     r.sub:SetText(table.concat({ z and esc(z.n) or nil, state }, ns.Lang.Dotted(" · ")))
-    r.listen:SetShown(ns.UI.StoryAudio(k) and true or false)
+    ns.UI.SetRowPill(r.pill, k, nil, nil, ns.UI.StoryAudio(k) and true or false, k)
     r:Show()
     y = y + 46
   end

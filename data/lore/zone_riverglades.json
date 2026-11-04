@@ -37,7 +37,7 @@
     "what is this zone",
     "about riverglades"
    ],
-   "answer": "Riverglades lies east of the badlands and burning steppes, along the Forbidding Sea. Stormwind once claimed the region. Now the Alliance holds farholde keep while the Horde keeps rog'mar."
+   "answer": "Riverglades lies east of the Badlands and Burning Steppes, along the Forbidding Sea. Stormwind once claimed the region. Now the Alliance holds Farholde Keep while the Horde keeps Rog'mar."
   },
   {
    "q": "What happened to Sunnyglade?",
@@ -53,18 +53,18 @@
    "aliases": [
     "who leads farholde",
     "alliance in riverglades",
-    "brotherhood of the horse"
+    "Brotherhood of the Horse"
    ],
-   "answer": "Alliance loyalists hold farholde keep under Knight Commander Demar Brant of the brotherhood of the horse. His forces have spent years fighting to reclaim Riverglades after Stormwind gave the territory up as lost."
+   "answer": "Alliance loyalists hold Farholde Keep under Knight Commander Demar Brant of the Brotherhood of the Horse. His forces have spent years fighting to reclaim Riverglades after Stormwind gave the territory up as lost."
   },
   {
    "q": "How do you reach Tanaris from the Riverglades?",
    "aliases": [
     "boat to tanaris",
-    "powderfuse port boat",
+    "Powderfuse Port boat",
     "how to get to tanaris"
    ],
-   "answer": "From powderfuse port on Riverglades' eastern shore, a coastal boat runs regularly to steamwheedle port in Tanaris, crossing directly over the sea."
+   "answer": "From Powderfuse Port on Riverglades' eastern shore, a coastal boat runs regularly to Steamwheedle Port in Tanaris, crossing directly over the sea."
   },
   {
    "q": "What passes lead into other zones?",
@@ -88,11 +88,11 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance soldier, you find old wounds laid bare in Riverglades. Remnants of the brotherhood of the horse continue their quiet crusade to retake land Stormwind abandoned during the First War."
+   "text": "As an Alliance soldier, you find old wounds laid bare in Riverglades. Remnants of the Brotherhood of the Horse continue their quiet crusade to retake land Stormwind abandoned during the First War."
   },
   {
    "target": "faction:Horde",
-   "text": "For the Horde, outposts such as rog'mar secure a coastal foothold and keep pressure on the old human strongholds east of Redridge."
+   "text": "For the Horde, outposts such as Rog'mar secure a coastal foothold and keep pressure on the old human strongholds east of Redridge."
   },
   {
    "target": "race:Human",
@@ -101,14 +101,14 @@
  ],
  "keywords": [
   "blackrock pass",
-  "brotherhood of the horse",
+  "Brotherhood of the Horse",
   "demar brant",
-  "farholde keep",
+  "Farholde Keep",
   "krol'dok stronghold",
-  "powderfuse port",
+  "Powderfuse Port",
   "redridge pass",
   "riverglades",
-  "rog'mar",
+  "Rog'mar",
   "sunnyglade"
  ],
  "related": [

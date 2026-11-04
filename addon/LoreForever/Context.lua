@@ -261,7 +261,8 @@ function Context.Describe(ctx)
   -- The reading language's names for the place (Lang.PlaceNames); the client's own where it has none.
   local zone, sub = ns.Lang.PlaceNames(ctx)
   local where = zone or "?"
-  if sub and ctx.subzone ~= ctx.zone then where = where .. " - " .. sub end
+  -- (the place, then its zone: as the Here list names it, "Aldrassil, Teldrassil"; Design Lead, 11/4)
+  if sub and ctx.subzone ~= ctx.zone then where = sub .. ", " .. where end
   -- The same translated string the other level lines use, so every language pack already has it.
   local level = tonumber(ctx.level)
   local who = level and string.format(ns.L["Level %d %s %s"], level, ctx.raceName or "", ctx.className or "")

@@ -2,6 +2,10 @@
 -- Sources: data/i18n/ruRU. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ruRU")
 local Po = P.search.post
+Po["гноллысеребряного"] = "BElCGQgC"
+Po["гноллыслужат"] = "AynC"
+Po["гноллыслушаются"] = "C4cC"
+Po["гноллысобирают"] = "DpfC"
 Po["гноллысоюзники"] = "DkqC"
 Po["гноллыстраж"] = "DLuBDL2B"
 Po["гноллыстражник"] = "ChuB"
@@ -11998,7 +12002,3 @@ Po["дорого"] = "AKzBAdhBBGJBCq9BEOdBFbpBFsSB"
 Po["дорогого"] = "Cq8B"
 Po["дорогое"] = "BJDBBkaBCOxBDgIB"
 Po["дорогой"] = "AEEBBSeBBYsBBhmBB0WBB2hBCuOBCvxBDFiBDuBBDz6BDz9BD0CBElZBEqXBFE7CFM0BFNABFNEBFP9BFS6BFasBFbWBFcEBFsGBFuTBFy/BF2sBF6nBF6pBF9/BGEbBGIYBGJIBGS/BGbpBGcrBGdxBGgJB"
-Po["дорогостоящего"] = "EcGBFsPB"
-Po["дорогостоящее"] = "GYfB"
-Po["дорогостоящие"] = "DuYBGRpB"
-Po["дорогостоящую"] = "Dp+B"

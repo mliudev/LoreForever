@@ -25,7 +25,7 @@
  "sections": [
   {
    "title": "A Keepsake in Silverpine",
-   "body": "Scouts found a ring engraved with Deliah's name while investigating Rot Hide gnolls in northern Silverpine Forest. High Executor Hadrec sends you across the border to Brill with the ring. Magistrate Sevren keeps Tirisfal's civic records and burial registers, so he may identify Deliah. Hadrec doubts anyone among the Forsaken still cares about such keepsakes.",
+   "body": "Scouts searching for the Rot Hide gnolls in northern Silverpine Forest found Deliah's ring. Magistrate Sevren keeps Tirisfal's civic records and burial registers, though Hadrec doubts any Forsaken still cares for such keepsakes.",
    "spoiler": 0
   },
   {
@@ -125,5 +125,5 @@
  "attribution": [
   "The Engraved Ring"
  ],
- "style": 1
+ "style": 2
 }

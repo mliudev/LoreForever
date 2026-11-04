@@ -7,6 +7,22 @@ wrap long bullets with an indented continuation line.
 
 ## Unreleased
 
+## 1.0.0 (2026-11-04)
+
+- **Ready for WoW Forever's launch:** quest dialogue from level 1 to 60 is read aloud in both narrators' voices, from
+  your very first quest.
+- **The Defias Brotherhood and nine more stories:** held back until launch to keep their twists, they now join your
+  story catalog.
+- **Story cards read the way they sound:** a story that plays from its first section starts there on the page too,
+  Listen and Add to playlist share one quiet button by its title, and your storyline and progress sit under it.
+- **A calmer, cleaner book in a stone frame:** buttons drawn in the book's ink, gold only for what's playing or new,
+  green only for what you've heard, a clear paper message box, and History as a page of the book.
+- **Tidier tabs and player:** the bookmark tabs are one size with a small gold dot for new pages, and the player's
+  10-second jumps are round buttons like Previous and Next.
+- **The Road fits in German:** a zone's chapter shows as many of its newest moments as fit, and its link to the rest no
+  longer runs into the player.
+- Corrected lore in 129 entries.
+
 ## 0.37.0 (2026-11-03)
 
 - **The rewritten lore is read aloud again:** the places, people, items and quests that were rewritten tell their new story in both narrators' voices, and their hidden passages are recorded too.

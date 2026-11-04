@@ -2,6 +2,8 @@
 -- Sources: data/i18n/svSE. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_svSE")
 local Po = P.search.post
+Po["moonsköldpadda"] = "F2rC"
+Po["moonsmotiv"] = "HE1CHFCC"
 Po["moonspear"] = "E7mCE7nDE7oCE7rBE75CE79BE7+BE8BEE8CFE8ECE8FBE8GBFQPCFQQCFQREFQTBFQUBFofCFoiDFojB"
 Po["moonspearagainst"] = "FQRB"
 Po["moonspeardelivering"] = "E8BB"
@@ -12000,5 +12002,3 @@ Po["oneirosdreamers"] = "J9fC"
 Po["oneirosemerald"] = "J9eC"
 Po["oneirosfiender"] = "J9cC"
 Po["oneirosfinns"] = "J9fB"
-Po["oneiroshistoria"] = "J9dC"
-Po["oneiroshitta"] = "J9bC"

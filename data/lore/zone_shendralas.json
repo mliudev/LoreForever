@@ -37,7 +37,7 @@
     "shendralas location",
     "how to get to shendralas"
    ],
-   "answer": "Shen'dralas lies south east of desolace, between Feralas and Mulgore. Travelers on foot usually enter from Desolace through the valley of bones."
+   "answer": "Shen'dralas lies south east of Desolace, between Feralas and Mulgore. Travelers on foot usually enter from Desolace through the Valley of Bones."
   },
   {
    "q": "Is Shen'dralas controlled by the Alliance or the Horde?",
@@ -55,7 +55,7 @@
     "landmarks in shendralas",
     "points of interest shendralas"
    ],
-   "answer": "The main landmarks are the valley of bones, Bristleback Retreat, Evenshade Overlook, the Magram Front, Outcast Hideaway, and Shen'dralas's central expanse."
+   "answer": "The main landmarks are the Valley of Bones, Bristleback Retreat, Evenshade Overlook, the Magram Front, Outcast Hideaway, and Shen'dralas's central expanse."
   },
   {
    "q": "Why are there centaur here?",
@@ -80,7 +80,7 @@
     "lake dumont",
     "shendralas map history"
    ],
-   "answer": "Shen'dralas's wilderness crosses the mountainous territory where secluded Lake Dumont appears on old survey charts."
+   "answer": "There is no known connection. Shen'dralas has its own landmarks, such as the Valley of Bones and Outcast Hideaway."
   }
  ],
  "angles": [
@@ -111,7 +111,7 @@
   "mulgore",
   "outcast hideaway",
   "shendralas",
-  "valley of bones"
+  "Valley of Bones"
  ],
  "related": [
   "subzone:valley-of-bones",

@@ -108,6 +108,7 @@ local function list(view, name, top)
   local content = CreateFrame("Frame", nil, sf)
   content:SetSize(UI.SIDE_W - 40, 100)
   sf:SetScrollChild(content)
+  T.PaperScroll(sf)
   local note = T.Ink(view:CreateFontString(nil, "OVERLAY", T.font.small), "inkNote")
   note:SetPoint("BOTTOMLEFT", 16, UI.DOCK_H + 8)
   note:SetJustifyH("LEFT")
@@ -122,9 +123,8 @@ local function row(l, i, make)
   r = UI.TextButton(l.content, UI.SIDE_W - 40, ROW_H, T.font.small, nil, true)
   if r.text.SetWordWrap then r.text:SetWordWrap(false) end
   r.text:SetPoint("BOTTOMRIGHT", -44, 2)
-  r.sel = T.Area(r, "inkSelect")
-  r.sel:SetAllPoints()
-  r.mark = T.TargetMark(r, true)
+  r.sel = T.SelectMark(r)
+  r.mark = T.HereMark(r)
   r:SetScript("OnLeave", function() GameTooltip:Hide() end)
   make(r)
   l.rows[i] = r
@@ -151,7 +151,7 @@ function Road.RefreshSide()
   local function add(ck, label, seals, isHere)
     n = n + 1
     local r = row(l, n, function(r)
-      r.places = seal(r, r, -22, "gilt")
+      r.places = seal(r, r, -22, "wax")   -- (both seals wax: gold is for what's live; their order tells them apart)
       r.stories = seal(r, r, -4, "wax")
       r:SetScript("OnClick", function(self)
         Road.Open(self.ck)   -- (turns to the right page itself)
@@ -182,8 +182,8 @@ function Road.RefreshSide()
       r.places:SetFilled(seals.places.done)
       r.stories:SetFilled(seals.stories.done)
     end
-    r.sel:SetShown(ck == Road.chapter)
-    T.ShowMark(r.mark, isHere and true or false)
+    T.ShowMark(r.sel, ck == Road.chapter)
+    T.ShowMark(r.mark, isHere and ck ~= Road.chapter)
     r:Show()
     y = y + ROW_H + 2
   end
@@ -240,7 +240,8 @@ local function put(fs, page, x, y, w)
   if w then fs:SetWidth(math.max(10, w)) end
 end
 
--- A dot's pieces, on a frame: a dark ring, a light ring (heard), the colour, and a dashed ring (a place not found).
+-- A dot's pieces, on a frame: a dark ring, the colour, a light tick on it (heard), and a dashed ring (a place not
+-- found).
 local function dotArt(b)
   local disc = T.HasTexture(T.DISC)
   local function piece(layer, sub, size, role)
@@ -252,8 +253,8 @@ local function dotArt(b)
     return t
   end
   b.shadow = piece("BACKGROUND", 0, 15, "mapBead")
-  b.rim = piece("ARTWORK", 0, 13, "dotRim")
   b.core = piece("ARTWORK", 1, 9, "dotGreen")
+  b.rim = T.HeardTick(b, 9, "ARTWORK")
   b.dashes = {}
   for i = 1, DASHES do
     local d = T.Area(b, "ink", "ARTWORK")
@@ -265,7 +266,7 @@ local function dotArt(b)
   return b
 end
 
--- "heard", "found" or "unfound": the three differ by shape (a ringed dot, a plain one, a dashed ring), not by colour
+-- "heard", "found" or "unfound": the three differ by shape (a ticked dot, a plain one, a dashed ring), not by colour
 -- alone.
 local function setDot(b, state)
   b.state = state
@@ -331,7 +332,7 @@ local function chapterLine(d)
   local parts = {}
   if d.n then parts[#parts + 1] = string.format(L["Chapter %d of your road"], d.n) end
   if d.first then
-    local when = string.format(L["arrived %s"], date("%d %b", d.first))
+    local when = string.format(L["arrived %s"], ns.Lang.Date(d.first))
     parts[#parts + 1] = d.level and (when .. ", " .. string.format(L["level %d"], d.level)) or when
   end
   return table.concat(parts, ns.Lang.Dotted(" · "))
@@ -489,8 +490,8 @@ local function build()
   end
   c.sealHead = ink(p, T.font.small, "inkNote")
   c.sealHead:SetText(L["Seals"])
-  for i, kind in ipairs({ "gilt", "wax" }) do
-    c.seals[i] = { seal = T.Seal(p, kind, 16), text = ink(p, T.font.body, "ink") }
+  for i = 1, 2 do   -- (every place found, then every story heard: both wax, told apart by their place in the row)
+    c.seals[i] = { seal = T.Seal(p, "wax", 16), text = ink(p, T.font.body, "ink") }
   end
   -- Its newest moments, then "Every moment here ›": the journey page with only this zone's.
   c.momentHead = ink(p, T.font.small, "inkNote")
@@ -678,15 +679,19 @@ end
 
 -- A chapter's newest moments (Journey.List, the zone's only) as rows under the seals, then "Every moment here".
 -- A row doesn't repeat the zone: it is the chapter's. Clicking one with a page opens it in Found. Returns the y under it.
+-- As many as fit above the page's foot (at least one), so "Every moment here" never runs into the player when the
+-- counts above take two rows (German, a narrow window).
 function Road.LayoutMoments(c, ck, zoneName, y, w)
   local p, J = c.frame, ns.Journey
   local engine = ns.UI.engine
   local list = J.List and try(J.List, "all", function(_, _, zone)
     return zone ~= nil and engine and engine:ZoneKey(zone) == ck
   end) or {}
+  local most, room = MOMENTS, tonumber(p:GetHeight())
+  if room and room > 0 then most = math.max(1, math.min(MOMENTS, math.floor((room - y - 19 - 26 - 8) / 34))) end
   local shown = {}
   for _, it in ipairs(list) do
-    if it.ev and #shown < MOMENTS then shown[#shown + 1] = it end
+    if it.ev and #shown < most then shown[#shown + 1] = it end
   end
   c.momentHead:SetShown(#shown > 0)
   if #shown > 0 then
@@ -784,7 +789,7 @@ function Road.RefreshStories()
     r.ck, r.label, r.n = ck, sl.name, #sl.keys
     r.text:SetText(T.code.ink .. esc(sl.name) .. "|r")
     r.count:SetText(tostring(#sl.keys))
-    r.sel:SetShown(ck == Road.story)
+    T.ShowMark(r.sel, ck == Road.story)
     T.ShowMark(r.mark, false)
     r:Show()
     y = y + ROW_H + 2

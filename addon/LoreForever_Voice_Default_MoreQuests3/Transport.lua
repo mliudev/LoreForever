@@ -1046,7 +1046,7 @@ P.transport["quest:2988"] = {
   fullHash = "e32297",
   text = "Witherbark Cages. At Witherbark Cages, you search for Sharpbeak, heir of Swiftwing, whom Talonaxe calls the mightiest gryphon. Gryphon Master Talonaxe believes the trolls took the young gryphon. Gryphon Master Talonaxe asks you to find Sharpbeak, who went missing a few days ago while hunting with his parents. Talonaxe and the others believe the trolls took him. Three cages in the two Witherbark troll villages remain to be checked. Talonaxe awaits your findings.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2988-5b98bfb6b0023dcf59f6/1-0000.mp3", duration = 27.2195918, start = 0},
+    {file = "Audio/Transport/full_quest_2988-985a466d60d7b20140eb/1-0000.mp3", duration = 26.6187755, start = 0},
   },
 }
 P.transport["quest:2989"] = {
