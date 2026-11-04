@@ -1614,7 +1614,7 @@
       "zone:zephras#faq6": 13.635918
     }
   },
-  "core_version": "0.37.0",
+  "core_version": "1.0.0",
   "counts": {
     "compatible_current_entries": 699,
     "compatible_current_faq_answers": 109,
@@ -4848,15 +4848,15 @@
     },
     "LoreForever_Edition_Densuad_esES_Audio/Edition.lua": {
       "bytes": 331,
-      "sha256": "cf981d47eec38feb2613c48e323e0968d917314ae83b13e514d613724ba0da45"
+      "sha256": "4088af5d45ccc8b74999db1b9e267cbc0b97ea82a1655bf01eaac44218057d87"
     },
     "LoreForever_Edition_Densuad_esES_Audio/Edition.xml": {
       "bytes": 1510,
       "sha256": "09041deabf0cfc0916b173beba992e99c919f2db7fb1d0af928d26cca88d477c"
     },
     "LoreForever_Edition_Densuad_esES_Audio/LoreForever_Edition_Densuad_esES_Audio.toc": {
-      "bytes": 615,
-      "sha256": "892c037f8987ab84e1c1b4ba3adce8b23536a449090d22070cb4df9f86dd3945"
+      "bytes": 613,
+      "sha256": "f6eb7396c2b7c9d3e219c50515d2bd7a2a3769c6582f3a50f74959c1514dae6d"
     },
     "LoreForever_Edition_Densuad_esES_Audio/clips001.lua": {
       "bytes": 1646,
@@ -5028,15 +5028,15 @@
     },
     "LoreForever_Edition_Densuad_esES_Text/Edition.lua": {
       "bytes": 332,
-      "sha256": "11c3e3eb2d3e55bf64ec2003a3705a81687af2aa9df8c647e939b395f9412cdc"
+      "sha256": "30333ebcb2750df050aada929bb3b8fedb68a473a772e6d2864b23e9cc6ee7da"
     },
     "LoreForever_Edition_Densuad_esES_Text/Edition.xml": {
       "bytes": 1466,
       "sha256": "8b6e7e2f8ec95b19905b452ae50e76ff01fe142b96320c8eff4c37e8e6d135ad"
     },
     "LoreForever_Edition_Densuad_esES_Text/LoreForever_Edition_Densuad_esES_Text.toc": {
-      "bytes": 617,
-      "sha256": "be9b8379de710528020bcfb060895772e738fad8d72f4bbe05faead09fcc35af"
+      "bytes": 615,
+      "sha256": "8a1fe45411dd3b1cc92b192018e3ce6b5f465a6c1d38c4296cbb156032982333"
     },
     "LoreForever_Edition_Densuad_esES_Text/answerHash001.lua": {
       "bytes": 1406,
@@ -25729,5 +25729,5 @@
       }
     }
   },
-  "version": "5376ea5d3bd98c1f12ec484c325a670a73f5b071b906ee5248e3a3635f7374ed"
+  "version": "f98ead411ff5e18d7d3b9be0cc5acd375ffc0ecf35e20677193f50818cbd593e"
 }

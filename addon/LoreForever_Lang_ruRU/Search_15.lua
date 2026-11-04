@@ -2,6 +2,12 @@
 -- Sources: data/i18n/ruRU. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ruRU")
 local Po = P.search.post
+Po["монстрыкрипты"] = "GFcC"
+Po["монстрылагеря"] = "FI1CFJcC"
+Po["монстрыледополоха"] = "FfhC"
+Po["монстрылогова"] = "FtXCFxjC"
+Po["монстрыматистры"] = "FzUC"
+Po["монстрымельницы"] = "FI6C"
 Po["монстрыморлосаран"] = "FqIC"
 Po["монстрыморового"] = "Ft/C"
 Po["монстрынадела"] = "Fp5C"
@@ -11996,9 +12002,3 @@ Po["новаяжизнь"] = "CFABEKLBEMvCEMwBEMxBEMyBEMzBEM0BEM1B"
 Po["новаяорда"] = "BeDBEcHDEcIBEcJFEcKBEcLBEcMBEcNBGOtBGO9CGRcBGRdCGT4DGT5FGT6BGT7BGT8BGT9BGT+DGYVB"
 Po["новаяугроза"] = "BHBBCzzDCz0BCz1BCz2BCz3BCz4BCz5B"
 Po["новаяформула"] = "DN9DDN+FDN/DDOADDOBBDOCDDODB"
-Po["новаячума"] = "AMfBAa1BAgxBAg3BAihBAioBAtSBA0iBA/LBA/OCBNGBBwzBBw3CDetCDeuBDevBDewBDexBDeyBDezBDe2DDe3BDe4BDe5BDe6BDe7BDe8BDfIDDfJBDfKBDfLDDfMBDfNBDfOBDqJBDqNEDqcBDrJBDrPCD0yDD0zBD00BD01BD02BD03BD04BD08BD1yBD12ED3PBD3YBD3bED4jBD4mCEcrBEcuEEcwCFDEBFDHCF4TCGU8EGezB"
-Po["новаяэпоха"] = "DWiBGUFB"
-Po["новейшего"] = "CzFB"
-Po["новейшей"] = "D16B"
-Po["новейшему"] = "Ec4B"
-Po["новейшие"] = "AtTBCDFB"

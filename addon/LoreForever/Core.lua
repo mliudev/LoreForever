@@ -431,19 +431,19 @@ local function buttonTooltip(self, anchor)
   GameTooltip:SetOwner(self, anchor)
   GameTooltip:AddLine("Lore Forever")
   if ns.WhatsNew.Pending("card") then
-    T.Tip(string.format(L["New in %s: open Lore Forever to see what's new."], ns.WhatsNew.Version()), "tipGood")
+    T.Tip(string.format(L["New in %s: open Lore Forever to see what's new."], ns.WhatsNew.Version()), "tipLive")
   end
   local pages = ns.newPages or 0
   if pages > 0 then
     T.Tip(string.format(pages == 1 and L["%d new page in your chronicle: open Found to read it."]
-      or L["%d new pages in your chronicle: open Found to read them."], pages), "tipGood", true)
+      or L["%d new pages in your chronicle: open Found to read them."], pages), "tipLive", true)
   end
   local newer = ns.Updates.TooltipLine()
   if newer then T.Tip(newer, "gold") end
   if busy then
     local ours = pl.state == "playing" and cur
     T.Tip(ours and string.format(L["Now playing: %s (%d of %d)"], cur.label, pl.pos, n)
-      or string.format(L["Now playing: %s"], UI.playingLabel or L["narration"]), "tipGood")
+      or string.format(L["Now playing: %s"], UI.playingLabel or L["narration"]), "tipLive")
     local nxt = ours and pl.items[pl.pos + 1]
     if nxt then T.Tip(string.format(L["Up next: %s"], nxt.label), "tipDim") end
   elseif cur then
@@ -465,8 +465,8 @@ local function buttonTooltip(self, anchor)
   GameTooltip:Show()
 end
 
--- The "something is playing" look: the minimap button's ring turns green (a green copy of the gold ring, laid over
--- it), pulsing.
+-- The "something is playing" look: the minimap button's ring glows gold (a bright copy of the ring, laid over it),
+-- pulsing. Gold: everything live (the palette of 11/3).
 local function addPlayingIndicator(b)
   local glow = b:CreateTexture(nil, "OVERLAY", nil, 1)
   glow:SetTexture("Interface\\Minimap\\MiniMap-TrackingBorder")
@@ -486,11 +486,11 @@ local function addPlayingIndicator(b)
     end
   end
   b.glow, b.pulse = glow, pulse
-  -- New pages in your chronicle: the ring glows a steady green under the playing pulse (ns.SetButtonNew).
+  -- New pages in your chronicle: the ring glows a steady gold under the playing pulse (ns.SetButtonNew).
   local fresh = b:CreateTexture(nil, "OVERLAY")
   fresh:SetTexture("Interface\\Minimap\\MiniMap-TrackingBorder")
   if fresh.SetDesaturated then fresh:SetDesaturated(true) end
-  fresh:SetVertexColor(T.rgba(T.color.tipGood))
+  fresh:SetVertexColor(T.rgba(T.color.tipLive))
   fresh:SetSize(53, 53)
   fresh:SetPoint("TOPLEFT")
   fresh:Hide()
@@ -621,6 +621,25 @@ function ns.MinimapButton()
   ns.SetButtonNew(ns.newPages)
 end
 
+-- Names as players read them: the wiki's "(Classic)", "(kingdom)" and "(item)" come off every name the add-on shows
+-- (Design Lead, 11/4: "Stormwind (kingdom)"). A suffix that tells two places apart (Library Wing (Northshire)) stays,
+-- and so does a quest's own title ("Return to Quinn (Again)"). The old name still finds the entry.
+local WIKI_SUFFIX = { Classic = true, kingdom = true, item = true, ["quest item"] = true, subzone = true }
+local function plainNames(db)
+  local byName = db.index and db.index.name
+  for _, list in ipairs({ db.entries or {}, db.zones or {} }) do
+    for key, e in pairs(list) do
+      local base, tag
+      if type(e.n) == "string" then base, tag = e.n:match("^(.-)%s*%(([^()]+)%)$") end
+      if base and base ~= "" and WIKI_SUFFIX[tag] then
+        e.n = base
+        local low = ns.Engine.lower(base)
+        if byName and list == db.entries and not byName[low] then byName[low] = key end
+      end
+    end
+  end
+end
+
 events:SetScript("OnEvent", function(_, event, arg1, ...)
   if ns.dataMissing then return end   -- the lore didn't load: nothing here can work (dataMissing)
   if event == "ADDON_LOADED" and arg1 == addonName then
@@ -635,6 +654,7 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
       ns.dataMissing = true
       return sayDataMissing()
     end
+    plainNames(ns.DB)
     local english = ns.DB.search   -- the index the add-on ships: search's while a language pack's own is built
     ns.Lang.Init()   -- scans packs; the language pack, if any, goes in before the engine indexes the text
     setBindingNames()

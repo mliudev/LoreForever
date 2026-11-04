@@ -126,6 +126,15 @@ function Page.Narration(key)
   return narratorName(title), length
 end
 
+-- The same as one line, "narrator · m:ss" (the page's own, and the Listen icon's tooltip on a story card), or nil.
+function Page.NarrationLine(key)
+  local who, secs = Page.Narration(key)
+  local parts = {}
+  if who then parts[#parts + 1] = esc(who) end
+  if secs then parts[#parts + 1] = clock(secs) end
+  return parts[1] and table.concat(parts, ns.Lang.Dotted(" · ")) or nil
+end
+
 -- The page's own frame is only the book's outline; the two pages are on it. It lies over the whole book while it's
 -- open (the sidebar too: the story takes both pages), above the foot player and beside the ribbons.
 
@@ -148,7 +157,7 @@ function Page.Create(f)
   T.Parchment(rp, "right")
   Page.left, Page.right = lp, rp
 
-  local back = T.Button(lp, L["Back"])
+  local back = T.Button(lp, L["Back"], "paper")
   back:SetHeight(22)
   back:SetPoint("TOPRIGHT", -PAD - 4, -8)
   fitWidth(back, 70)
@@ -165,26 +174,34 @@ function Page.Create(f)
   sub:SetPoint("RIGHT", lp, "RIGHT", -PAD - 8, 0)
   Page.sub = sub
 
-  -- Listen: click plays it, Shift-click adds it to the playlist (the same meaning everywhere). The conversation's
-  -- Listen (one style in the book); who reads it and its length stand beside it.
-  local listen = T.Button(lp, L["Listen"])
-  listen:SetHeight(22)
-  fitWidth(listen, 70)
-  listen:SetPoint("TOPLEFT", sub, "BOTTOMLEFT", 0, -8)
-  listen:RegisterForClicks("LeftButtonUp")
-  listen:SetScript("OnClick", function()
+  -- Listen + playlist: the story card's pill (T.Pill, 30 tall by a heading): play (or stop), and + to add it to the
+  -- playlist (- to take it out); Shift-click on play adds it too (the same meaning everywhere). Who reads it and its
+  -- length stand after it as text (Page.UpdateListen keeps it in step with what plays and what's queued).
+  local listen = T.Pill(lp, 30)
+  listen:SetPoint("TOPLEFT", sub, "BOTTOMLEFT", -2, -6)
+  listen.play:SetScript("OnClick", function()
     local key = Page.key
     if not key then return end
     if IsShiftKeyDown and IsShiftKeyDown() then return UI.DoQueueAction(key) end
-    UI.PlayEntry(key)
+    if listen.playing then UI.StopAll() else UI.PlayEntry(key) end
   end)
-  listen:SetScript("OnEnter", function(self)
+  listen.play.onEnter = function(self)
     GameTooltip:SetOwner(self, "ANCHOR_BOTTOM")
-    GameTooltip:AddLine(Page.dialogue and L["Listen to the story"] or L["Listen"])   -- (the quest giver's Listen is on the right)
-    T.Tip(L["Shift-click: add to your playlist"], "tipDim", true)
+    if listen.playing then GameTooltip:AddLine(L["Stop"]) else
+      GameTooltip:AddLine(Page.dialogue and L["Listen to the story"] or L["Listen"])   -- (the quest giver's is on the right)
+      T.Tip(L["Shift-click: add to your playlist"], "tipDim", true)
+    end
     GameTooltip:Show()
-  end)
-  listen:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  end
+  listen.add:SetScript("OnClick", function() if Page.key then UI.DoQueueAction(Page.key) end end)
+  listen.add.onEnter = function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_BOTTOM")
+    local action = Page.key and UI.QueueAction(Page.key)
+    GameTooltip:AddLine(action == "remove" and L["Remove from playlist"] or L["Add to playlist"])
+    GameTooltip:Show()
+  end
+  listen.play.onLeave = function() GameTooltip:Hide() end
+  listen.add.onLeave = listen.play.onLeave
   Page.listen = listen
   local length = ink(lp:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall"), NOTE)
   length:SetPoint("LEFT", listen, "RIGHT", 8, 0)
@@ -215,7 +232,7 @@ function Page.Create(f)
   end)
   askIn:SetScript("OnLeave", function() GameTooltip:Hide() end)
   Page.askIn = askIn
-  local nxt = T.Button(foot, L["Next"] .. " \226\128\186")
+  local nxt = T.Button(foot, L["Next"] .. " \226\128\186", "paper")
   nxt:SetHeight(22)
   fitWidth(nxt, 60)
   nxt:SetPoint("BOTTOMRIGHT", 0, 0)
@@ -223,7 +240,7 @@ function Page.Create(f)
   local at = ink(foot:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall"), NOTE)
   if at.SetWordWrap then at:SetWordWrap(false) end
   at:SetPoint("RIGHT", nxt, "LEFT", -8, 0)
-  local prev = T.Button(foot, "\226\128\185 " .. L["Previous"])
+  local prev = T.Button(foot, "\226\128\185 " .. L["Previous"], "paper")
   prev:SetHeight(22)
   fitWidth(prev, 60)
   prev:SetPoint("RIGHT", at, "LEFT", -8, 0)
@@ -236,6 +253,7 @@ function Page.Create(f)
     local content = CreateFrame("Frame", nil, sf)
     content:SetSize(300, 100)
     sf:SetScrollChild(content)
+    T.PaperScroll(sf)   -- (the one slim ink bar, hidden while nothing scrolls: 11/4)
     return sf, content
   end
   Page.scroll, Page.content = body(lp)       -- the left page's (the story)
@@ -293,16 +311,12 @@ function Page.Place()
   return half, pw - half
 end
 
--- Your moment with it, as the chronicle recorded it: "Found 22 Oct at Sentinel Hill, level 14. While on "The People's
+-- Your moment with it, as the chronicle recorded it: "Found Oct 22 at Sentinel Hill, level 14. While on "The People's
 -- Militia"." Only what it knows is said; nil when it knows nothing (a page that isn't in the chronicle).
 function Page.Chronicle(key)
   local rec = ns.Collection and ns.Collection.Found(key)
   if not rec then return nil end
-  local when
-  if rec.t and rec.t > 0 then
-    local day, month = try(date, "%d", rec.t), try(date, "%b", rec.t)
-    when = day and month and string.format("%d %s", tonumber(day) or 0, month) or nil
-  end
+  local when = rec.t and rec.t > 0 and ns.Lang.Date(rec.t) or nil
   local place, lv = rec.place and esc(rec.place), rec.lv
   local line
   if when and place and lv then line = string.format(L["Found %s at %s, level %d."], when, place, lv)
@@ -421,10 +435,8 @@ local function roadCard(content)
   return r
 end
 
--- The story: its first paragraph under an illuminated initial, then its sections, each a heading and its words, or a
--- seal where a passage waits on a storyline you're on.
-local function story(content, width, y, key, e)
-  local text = tostring(e.s or "")
+-- A paragraph under the illuminated initial (plain where it opens on a code).
+local function capped(content, width, y, text)
   local first = text:match("^%s*(.)")
   if first and first ~= "|" and text:find("%S") then
     local d = Page.drop
@@ -434,16 +446,33 @@ local function story(content, width, y, key, e)
     d:SetPoint("TOPLEFT", content, "TOPLEFT", 0, y)
     d:SetParagraph(esc(text), width, 3)
     d:Show()
-    y = y - (d:GetHeight() or 40) - GAP
-  else
-    if Page.drop then Page.drop:Hide() end
-    y = textLine(content, width, y, esc(text), T.font.body, INK)
+    return y - (d:GetHeight() or 40) - GAP
   end
+  if Page.drop then Page.drop:Hide() end
+  return textLine(content, width, y, esc(text), T.font.body, INK)
+end
+
+-- The story: its first paragraph under an illuminated initial, then its sections, each a heading and its words, or a
+-- seal where a passage waits on a storyline you're on. It reads as Listen does (Mike, 11/3): a story heard from
+-- section 1 leaves its summary out (UI.ListenSkipsSummary), and the initial moves to section 1's first paragraph.
+local function story(content, width, y, key, e)
   local all, done = settings().showSpoilers, ns.Context.Done()
+  local opens, any = {}, false
   for i, sec in ipairs(e.sec or {}) do
-    if all or Page.revealed[i] or ns.UI.engine:Opens(key, sec, done) then
+    opens[i] = all or Page.revealed[i] or ns.UI.engine:Opens(key, sec, done)
+    any = any or opens[i]
+  end
+  local cap = any and ns.UI.ListenSkipsSummary(key)
+  if not cap then y = capped(content, width, y, tostring(e.s or "")) end
+  for i, sec in ipairs(e.sec or {}) do
+    if opens[i] then
       y = textLine(content, width, y, esc(sec.t), T.font.body, ACCENT) + GAP - 4
-      y = textLine(content, width, y, esc(sec.b), T.font.body, INK)
+      if cap then
+        y = capped(content, width, y, tostring(sec.b or ""))
+        cap = false
+      else
+        y = textLine(content, width, y, esc(sec.b), T.font.body, INK)
+      end
     else
       -- A seal: never the passage's title, only that it waits, and a way to read it anyway.
       local row = take(content, "seal", function(c)
@@ -452,7 +481,7 @@ local function story(content, width, y, key, e)
         r.text:SetPoint("TOPLEFT", 20, 0)
         r.wax = T.Seal(r, "wax", 14)
         r.wax:SetPoint("TOPLEFT", 0, 0)
-        r.read = T.Button(r, L["Read it anyway"])
+        r.read = T.Button(r, L["Read it anyway"], "paper")
         r.read:SetHeight(20)
         fitWidth(r.read, 60)
         r.read:SetScript("OnClick", function(self) Page.revealed[self.idx] = true; Page.Layout() end)
@@ -491,7 +520,7 @@ local function read(content, width, y, key, e)
   y = textLine(content, width, y, kept and L["What you read"] or L["What they said"], T.font.heading, ACCENT)
   if heard then
     local b = take(content, "dialogue", function(c)
-      local r = T.Button(c, L["Listen to the quest giver"])
+      local r = T.Button(c, L["Listen to the quest giver"], "paper")
       r:SetHeight(20)
       fitWidth(r, 60)
       r:SetScript("OnClick", function() if Page.qid then ns.UI.PlayQuestDialogue(Page.qid) end end)
@@ -645,14 +674,9 @@ function Page.Refresh()
   local target = ns.UI.EntryTarget(key)
   local voiced = target and ns.Voice.HasAudio(target.key) and true or false
   Page.listen:SetShown(voiced)
+  Page.UpdateListen()
   Page.length:SetShown(voiced)
-  if voiced then
-    local who, secs = Page.Narration(key)
-    local parts2 = {}
-    if who then parts2[#parts2 + 1] = esc(who) end
-    if secs then parts2[#parts2 + 1] = clock(secs) end
-    Page.length:SetText(table.concat(parts2, dot))
-  end
+  if voiced then Page.length:SetText(Page.NarrationLine(key) or "") end
   -- A recording planned that this player can't play (not recorded yet, or its voices aren't installed).
   local planned = not voiced and ns.Voice.Current() ~= "none" and (ns.DB.clipHash or {})[key]
   Page.unvoiced:SetText(planned and L["Not in your voices yet: read it here."] or "")
@@ -710,7 +734,7 @@ function Page.Step(d)
 end
 
 -- Back says where it goes: one page back ("Back"), or, with none behind, the bookmark the page was opened from
--- ("‹ Back to the conversation", "‹ Back to the Road"), gold so a jump between bookmarks reads as one.
+-- ("‹ Back to the conversation", "‹ Back to the Road").
 local BACK_TO = { here = "Back to the conversation", road = "Back to the Road", story = "Back to Storylines" }
 function Page.UpdateBack()
   local b = Page.backButton
@@ -721,8 +745,17 @@ function Page.UpdateBack()
     to = string.format(L["Back to %s"], esc(ns.Book.ChapterName(ns.Book.chapter)))
   end
   b:SetText(to and ("\226\128\185 " .. to) or L["Back"])
-  if b.skinBg then T.Fill(b.skinBg, to and "buttonHi" or "button") end
   fitWidth(b, 70)
+end
+
+-- The Listen pill follows what plays and what's queued (UI.UpdateListen): its play half a gilt stop while this
+-- page's story plays, the + a tick once it's in the playlist, and no + where it can't be queued.
+function Page.UpdateListen()
+  local p, key = Page.listen, Page.key
+  if not (p and key and p:IsShown()) then return end
+  local can = ns.UI.CanQueue(key) and true or false
+  local action = can and ns.UI.QueueAction(key)
+  T.SetPill(p, ns.UI.IsPlayingTarget(ns.UI.EntryTarget(key)) or action == "stop", can, action == "remove" or action == "stop")
 end
 
 -- The bookmark Back returns to once no page is behind it (UI.OpenChronicle, after the page opened).

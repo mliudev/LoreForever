@@ -393,9 +393,9 @@
     "npc:dark-iron-ambassador": {
       "1": [
         {
-          "duration": 18.207346938775512,
-          "file": "Audio/Transport/full_npc_dark-iron-ambassador-31b77932db91a358d48b/1-0000.mp3",
-          "sha256": "d093dc0cbda6ea1d20f997aef2cc721749a12f231dd3b847e33de60153638bb5",
+          "duration": 19.04326530612245,
+          "file": "Audio/Transport/full_npc_dark-iron-ambassador-b3f3f73e2593d4309f35/1-0000.mp3",
+          "sha256": "774299a724c3510a44d55ae88d043568de09b1264951e19435815152b865829f",
           "start": 0
         }
       ],
@@ -407,12 +407,12 @@
         ]
       },
       "fullHash": "e11f56",
-      "generation": "247388af803f0a46cc39",
+      "generation": "1a76e6b90d50480360fd",
       "hash": "e11f56",
       "source": {
-        "duration": 18.233469,
+        "duration": 19.069388,
         "file": null,
-        "sha256": "31b77932db91a358d48b17e3c4871adaf0e4006201c6d0273b3ce6b50a88d2e6"
+        "sha256": "b3f3f73e2593d4309f356833d7b28d857563a100ec1d8d509144570a63a20e90"
       },
       "text": "Dark Iron Ambassador. Deep in Gnomeregan, the Dark Iron Ambassador moves among the ruined halls as an envoy of his clan. Why the clan has come to the fallen gnome capital remains unclear. In Gnomeregan’s irradiated halls, the Dark Iron Ambassador speaks for his clan. The purpose of his mission is unknown."
     },
@@ -471,9 +471,9 @@
     "npc:electrocutioner-6000": {
       "1": [
         {
-          "duration": 38.347755102040814,
-          "file": "Audio/Transport/full_npc_electrocutioner-6000-f87c097c55f8ac3cc7b3/1-0000.mp3",
-          "sha256": "352f13410de5bf6bc8f79773d744a1ac8ac885032a7e5055eadcfc22ee3092d4",
+          "duration": 39.993469387755106,
+          "file": "Audio/Transport/full_npc_electrocutioner-6000-6cc791c4c66e1eeac590/1-0000.mp3",
+          "sha256": "24a23dfe1307ac24e66daaa1fc9c9231cac32ef25da4a6068494b5b74c0d52fa",
           "start": 0
         }
       ],
@@ -485,12 +485,12 @@
         ]
       },
       "fullHash": "beffc7",
-      "generation": "8835a04089fbf15572d4",
+      "generation": "b8a190dd4a8af5392312",
       "hash": "c648ee",
       "source": {
-        "duration": 38.373878,
+        "duration": 40.019592,
         "file": null,
-        "sha256": "f87c097c55f8ac3cc7b3e34a7ab6f17e411aa7a4d6b7eafb4335839085a7160d"
+        "sha256": "6cc791c4c66e1eeac590e0524ae067375f938a643e3ed62338a1b97cd714751a"
       },
       "text": "Electrocutioner 6000. In Gnomeregan's Launch Bay, Electrocutioner 6000 guards the upper platform. The spider tank fights for Mekgineer Thermaplugg and the irradiated leper gnomes who follow him. After Gnomeregan fell, Mekgineer Thermaplugg and the irradiated leper gnomes who follow him took control of the city's war machines. Electrocutioner 6000 guards the Launch Bay's upper platform. It strikes intruders with high-voltage current. Electrocutioner 6000 guards the Workshop Key, which opens Gnomeregan's back door into its workshops. Bring down the machine, and the key gives you a quicker route into the city's depths."
     },
@@ -1329,9 +1329,9 @@
     "npc:viscous-fallout": {
       "1": [
         {
-          "duration": 41.247346938775515,
-          "file": "Audio/Transport/full_npc_viscous-fallout-f498407362a8db234ce8/1-0000.mp3",
-          "sha256": "8efbcddc5c7d8c56aa037efea00a629bf53e4f0c54fb233802a6b8163e5bb9e2",
+          "duration": 41.37795918367347,
+          "file": "Audio/Transport/full_npc_viscous-fallout-879b95cc38211c324905/1-0000.mp3",
+          "sha256": "d430b55ef5e5b6a33d803f6928f87510672afb2de9a06da1d4c49965c1c13c6a",
           "start": 0
         }
       ],
@@ -1343,12 +1343,12 @@
         ]
       },
       "fullHash": "b9c35e",
-      "generation": "a7d39109cc08dca2d002",
+      "generation": "a8abe21204afe3a5ecef",
       "hash": "8e4d32",
       "source": {
-        "duration": 41.273469,
+        "duration": 41.377959,
         "file": null,
-        "sha256": "f498407362a8db234ce8a92a6f39a5ee750afd0ecf75a54d8f2f780b9cc55851"
+        "sha256": "879b95cc38211c324905e8b499d5e2a90612b6e49e68df4c093b9d0c73e9ded4"
       },
       "text": "Viscous Fallout. In Gnomeregan's lower passages, Viscous Fallout drifts through the toxic runoff. Radiation flooded Gnomeregan after Mekgineer Thermaplugg advised a treacherous plan to wipe out the invading troggs. The fallout filled the city's lower levels with toxic slime and contamination. Viscous Fallout is a water elemental, its substance thick with the city's toxic waste. Its origins before the fall are unknown. Viscous Fallout drifts through Gnomeregan's irradiated lower passages as a living pool of toxic sludge. It spews volleys of toxin, then lashes out at anything in its path. Those who enter the city to cleanse its tainted depths must destroy the creature."
     },
@@ -2161,9 +2161,9 @@
     "topic:frostmane-tribe": {
       "1": [
         {
-          "duration": 65.67183673469388,
-          "file": "Audio/Transport/full_topic_frostmane-tribe-6a976a0848b8e4729ef5/1-0000.mp3",
-          "sha256": "49248755c2fe56b7cd56617a29d1a746e75d89c52b6218870fdff9ee19762beb",
+          "duration": 65.75020408163266,
+          "file": "Audio/Transport/full_topic_frostmane-tribe-03ef01e4dc98198a45c0/1-0000.mp3",
+          "sha256": "a166d147feea5928c59c5da5a0e2d4497be4459e1f667072f7c52ea3b6b4b4e1",
           "start": 0
         }
       ],
@@ -2175,12 +2175,12 @@
         ]
       },
       "fullHash": "b3a7e6",
-      "generation": "a235fcd8783d27495e73",
+      "generation": "973b686105c53c27ac4a",
       "hash": "b3a7e6",
       "source": {
-        "duration": 65.697959,
+        "duration": 65.776327,
         "file": null,
-        "sha256": "6a976a0848b8e4729ef552ee1919fc38b978745bbbc5f07486f067b5d3b1a6fb"
+        "sha256": "03ef01e4dc98198a45c0ebf21103f87bd6c5fefd495702d758beaea06661de9e"
       },
       "text": "Frostmane tribe. Across Dun Morogh, the Frostmane tribe fights to reclaim the mountain home dwarves took from them. Driven into caves and remote ridges centuries ago, the ice trolls now wage war against the dwarves. Long before the Bronzebeard clan united under Ironforge, the Frostmane trolls ruled Dun Morogh’s snowy reaches. As the dwarven kingdom spread, it crushed their realm. The survivors fled into caves and across frozen ridges and crags.\n\nDefeat left the Frostmane with a hatred passed down through generations. They see every mountaineer, traveler, and homestead as an invader to drive out or slaughter. For decades, the Ironforge Senate treated the Frostmane as little more than a nuisance in the hills. Then the trogg menace emerged beneath Dun Morogh, and dwarven defenses fell into disarray. The mountaineers were overwhelmed while dwarven forces fought Alliance wars abroad.\n\nThe Frostmane seized their chance. From strongholds such as Frostmane Hold and Shimmer Ridge, they renewed their violent raids to reclaim their ancient lands."
     },
@@ -4163,9 +4163,9 @@
     "zone:gnomeregan": {
       "1": [
         {
-          "duration": 91.63755102040817,
-          "file": "Audio/Transport/full_zone_gnomeregan-87d8ceb8437d693986d3/1-0000.mp3",
-          "sha256": "d6be43b756b36d0eb87092ac5e87487358fb9a39010e93fef2a45a5afa684ccc",
+          "duration": 92.26448979591837,
+          "file": "Audio/Transport/full_zone_gnomeregan-870e9b32652fcddd01ea/1-0000.mp3",
+          "sha256": "658c9dafe489bd2e244e03a83be5db92da267e99f72ec81ef0c8a643e5a60795",
           "start": 0
         }
       ],
@@ -4177,12 +4177,12 @@
         ]
       },
       "fullHash": "045cae",
-      "generation": "2e3a7e3115332723eb51",
+      "generation": "e89e08f68b3df4be6b2b",
       "hash": "7af386",
       "source": {
-        "duration": 91.663673,
+        "duration": 92.290612,
         "file": null,
-        "sha256": "87d8ceb8437d693986d348759f66e372173016b7558e8372eca794b8dabbdac3"
+        "sha256": "870e9b32652fcddd01eacf0a829dd28b505489d16668040a726dfdaefafef9b8"
       },
       "text": "Gnomeregan. In Dun Morogh, Gnomeregan lies ruined and quarantined after the gnomes' desperate defense against troggs. Once their underground capital and greatest technological wonder, it now holds irradiated halls, mutated troggs, deranged leper gnomes, and rogue mechanical sentries. Its surviving people live as refugees in nearby Ironforge. Beneath Dun Morogh, Gnomeregan gathered gnomish invention, competitive craft, and politics under one roof. With help from the nearby dwarves of Ironforge, its people built a vast mechanical complex, powered by grinding engines and whirring gears.\n\nIts intricate ventilation network took fifteen technicians working around the clock to keep fresh air moving. At Tinkers' Court, gnomes debated and competed as their capital grew into a marvel of industry. During the Second War, they sent the Alliance of Lordaeron siege engines, flying machines, and armaments. During the Third War, as the Scourge tore through Lordaeron, dwarven excavations at the ancient titan vault of Uldaman awakened primitive troggs beneath Dun Morogh. The creatures burrowed into Gnomeregan's lower foundations, and High Tinker Gelbin Mekkatorque led the defense.\n\nAs the city's defenses began to fail, Mekkatorque followed the counsel of his chief advisor, Mekgineer Thermaplugg. He ordered radioactive waste tanks vented into the lower levels to eradicate the invaders. The toxic gas spread beyond control. Nearly eighty percent of the gnomish population died within days."
     },
@@ -5560,6 +5560,13 @@
       2672,
       2861
     ],
+    "24a23dfe1307ac24e66daaa1fc9c9231cac32ef25da4a6068494b5b74c0d52fa": [
+      204,
+      449,
+      679,
+      1080,
+      1345
+    ],
     "265b7ffbb122ebcf8aabdb03d75665563999d66e674463962a0ff5a2736a7caf": [
       200,
       461,
@@ -5731,14 +5738,6 @@
       1698,
       2115,
       2326
-    ],
-    "352f13410de5bf6bc8f79773d744a1ac8ac885032a7e5055eadcfc22ee3092d4": [
-      190,
-      430,
-      740,
-      903,
-      1041,
-      1293
     ],
     "3ad8713641dd746a7b53a089f40eafcf322f188dcd5b853b218419faee81c9a5": [
       236,
@@ -5912,18 +5911,6 @@
       3329,
       3501,
       3744
-    ],
-    "49248755c2fe56b7cd56617a29d1a746e75d89c52b6218870fdff9ee19762beb": [
-      227,
-      495,
-      793,
-      929,
-      1104,
-      1262,
-      1486,
-      1716,
-      1943,
-      2143
     ],
     "494becde734f3d97edf7e4bf45be1d85c636f9c9d367fc35e658466b1518780f": [
       143,
@@ -6176,6 +6163,20 @@
       4439,
       4756,
       4961
+    ],
+    "658c9dafe489bd2e244e03a83be5db92da267e99f72ec81ef0c8a643e5a60795": [
+      278,
+      657,
+      814,
+      969,
+      1422,
+      1651,
+      1875,
+      2143,
+      2545,
+      2807,
+      3078,
+      3264
     ],
     "6658f41eb59bfbc077d679f998d06d74af3ffbbe73bacd009a11b3cc54a17994": [
       211,
@@ -6453,6 +6454,10 @@
       2234,
       2521,
       2716
+    ],
+    "774299a724c3510a44d55ae88d043568de09b1264951e19435815152b865829f": [
+      253,
+      427
     ],
     "780d718119ce569621964b78d97bbf570a9d18a777dbe743012398a244ae1220": [
       242,
@@ -6743,14 +6748,6 @@
       1528,
       1711
     ],
-    "8efbcddc5c7d8c56aa037efea00a629bf53e4f0c54fb233802a6b8163e5bb9e2": [
-      214,
-      493,
-      672,
-      998,
-      1229,
-      1413
-    ],
     "8f530ae26115f62c79c81b8d833012722a7125083ca55bc08a6f85412703a7df": [
       211,
       577,
@@ -6870,6 +6867,18 @@
       1661,
       1920,
       2159
+    ],
+    "a166d147feea5928c59c5da5a0e2d4497be4459e1f667072f7c52ea3b6b4b4e1": [
+      233,
+      503,
+      792,
+      928,
+      1104,
+      1277,
+      1506,
+      1728,
+      1946,
+      2137
     ],
     "a4c1eac4484971ea1081d9af772bb59b1f21f684fd1e503e3eb3fbbf33a46ce5": [
       233,
@@ -7326,10 +7335,6 @@
       3208,
       3435
     ],
-    "d093dc0cbda6ea1d20f997aef2cc721749a12f231dd3b847e33de60153638bb5": [
-      232,
-      402
-    ],
     "d337060a399cda87085b0d9058c613c3e7e9f5f65448dce9e3e6a2cd74cc9556": [
       211,
       371,
@@ -7339,19 +7344,13 @@
       1227,
       1380
     ],
-    "d6be43b756b36d0eb87092ac5e87487358fb9a39010e93fef2a45a5afa684ccc": [
-      265,
-      651,
-      814,
-      977,
-      1432,
-      1662,
-      1879,
-      2126,
-      2505,
-      2762,
-      3033,
-      3238
+    "d430b55ef5e5b6a33d803f6928f87510672afb2de9a06da1d4c49965c1c13c6a": [
+      224,
+      488,
+      665,
+      978,
+      1233,
+      1410
     ],
     "d7c282c2d552650179af8e9ec336421fce18a1c00c564d12bac5a66e33fd84a5": [
       401,
@@ -7931,6 +7930,10 @@
       "1992": 2,
       "514": 1
     },
+    "24a23dfe1307ac24e66daaa1fc9c9231cac32ef25da4a6068494b5b74c0d52fa": {
+      "1080": 2,
+      "449": 1
+    },
     "265b7ffbb122ebcf8aabdb03d75665563999d66e674463962a0ff5a2736a7caf": {
       "1455": 2,
       "656": 1
@@ -7982,10 +7985,6 @@
     "334720e27333ef19226b6f767df4a590e59776973dd4ba3a378611cc3e80fd36": {
       "1698": 2,
       "521": 1
-    },
-    "352f13410de5bf6bc8f79773d744a1ac8ac885032a7e5055eadcfc22ee3092d4": {
-      "1041": 2,
-      "430": 1
     },
     "3ad8713641dd746a7b53a089f40eafcf322f188dcd5b853b218419faee81c9a5": {
       "1665": 2,
@@ -8047,10 +8046,6 @@
       "2107": 2,
       "3096": 3,
       "765": 1
-    },
-    "49248755c2fe56b7cd56617a29d1a746e75d89c52b6218870fdff9ee19762beb": {
-      "1486": 2,
-      "495": 1
     },
     "494becde734f3d97edf7e4bf45be1d85c636f9c9d367fc35e658466b1518780f": {
       "2024": 2,
@@ -8135,6 +8130,10 @@
       "2192": 2,
       "3799": 3,
       "803": 1
+    },
+    "658c9dafe489bd2e244e03a83be5db92da267e99f72ec81ef0c8a643e5a60795": {
+      "2143": 2,
+      "814": 1
     },
     "6658f41eb59bfbc077d679f998d06d74af3ffbbe73bacd009a11b3cc54a17994": {
       "1600": 2,
@@ -8234,6 +8233,9 @@
       "1900": 2,
       "753": 1
     },
+    "774299a724c3510a44d55ae88d043568de09b1264951e19435815152b865829f": {
+      "427": 1
+    },
     "780d718119ce569621964b78d97bbf570a9d18a777dbe743012398a244ae1220": {
       "1182": 2,
       "475": 1
@@ -8327,10 +8329,6 @@
     "8d490473c6c1fcf583fc5313e6ebc7d6403d8de1a057912790868cf8c7c70039": {
       "598": 1
     },
-    "8efbcddc5c7d8c56aa037efea00a629bf53e4f0c54fb233802a6b8163e5bb9e2": {
-      "214": 1,
-      "998": 2
-    },
     "8f530ae26115f62c79c81b8d833012722a7125083ca55bc08a6f85412703a7df": {
       "1917": 2,
       "2898": 3,
@@ -8368,6 +8366,10 @@
       "1192": 2,
       "1920": 3,
       "428": 1
+    },
+    "a166d147feea5928c59c5da5a0e2d4497be4459e1f667072f7c52ea3b6b4b4e1": {
+      "1506": 2,
+      "503": 1
     },
     "a4c1eac4484971ea1081d9af772bb59b1f21f684fd1e503e3eb3fbbf33a46ce5": {
       "2038": 2,
@@ -8511,16 +8513,13 @@
       "2643": 3,
       "555": 1
     },
-    "d093dc0cbda6ea1d20f997aef2cc721749a12f231dd3b847e33de60153638bb5": {
-      "402": 1
-    },
     "d337060a399cda87085b0d9058c613c3e7e9f5f65448dce9e3e6a2cd74cc9556": {
       "1380": 2,
       "645": 1
     },
-    "d6be43b756b36d0eb87092ac5e87487358fb9a39010e93fef2a45a5afa684ccc": {
-      "2126": 2,
-      "814": 1
+    "d430b55ef5e5b6a33d803f6928f87510672afb2de9a06da1d4c49965c1c13c6a": {
+      "224": 1,
+      "978": 2
     },
     "d7c282c2d552650179af8e9ec336421fce18a1c00c564d12bac5a66e33fd84a5": {
       "1769": 2,

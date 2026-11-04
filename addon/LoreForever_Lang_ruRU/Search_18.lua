@@ -2,6 +2,12 @@
 -- Sources: data/i18n/ruRU. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ruRU")
 local Po = P.search.post
+Po["поклониться"] = "FB2B"
+Po["поклонник"] = "COSB"
+Po["поклонниками"] = "AewBA8iB"
+Po["поклонники"] = "ExeBGLhB"
+Po["поклонников"] = "Bn1BEfDBFzZBGNDBGNEBGeaB"
+Po["поклоняется"] = "AfNBERyBE1sBE75CFB1CFSJBFnPBGLdBGOqCGUfC"
 Po["поклоняетсягеррик"] = "E75C"
 Po["поклоняетсядревним"] = "GUfC"
 Po["поклоняетсякульт"] = "FB1C"
@@ -11996,9 +12002,3 @@ Po["проезжал"] = "Au+B"
 Po["проезжают"] = "FFKB"
 Po["проезжающему"] = "Bd3B"
 Po["проезжающие"] = "Eg3BFJWBFJbBFvYB"
-Po["проезжающим"] = "BjoBFSrB"
-Po["проезжающих"] = "BRlBB3zBB4fBB5GBCESBCFuBCLmBDhuBFO9BFVjB"
-Po["проезжего"] = "F0FB"
-Po["проезжие"] = "ByKBCdJBDD9BF0GB"
-Po["проезжим"] = "A+eBBGuBBj2BB0OBCtiBDAbBESIBFNgB"
-Po["проезжими"] = "DmkB"

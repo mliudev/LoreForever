@@ -664,7 +664,8 @@ check("Options", {
     for _, cb in ipairs(p.checks or {}) do
       if ns.Options.DEFAULTS[cb.key] == nil then unknown[#unknown + 1] = cb.key end
       local shown = S()[cb.key]
-      -- The live-info box shows the setting or Willo's yes (Strip.Always), as Options.lua's OnShow does
+      -- The live-info boxes show the setting or Willo's yes (Strip.On, Strip.Always), as Options.lua's OnShow does
+      if cb.key == "liveStrip" and ns.Strip then shown = ns.Strip.On() end
       if cb.key == "liveStripAlways" and ns.Strip then shown = ns.Strip.Always() end
       if (cb:GetChecked() and true or false) ~= (shown and true or false) then wrong[#wrong + 1] = cb.key end
     end

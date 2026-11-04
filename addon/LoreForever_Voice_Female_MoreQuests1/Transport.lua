@@ -174,7 +174,7 @@ P.transport["quest:117"] = {
   fullHash = "28267e",
   text = "Thunderbrew. In Westfall, Grimbooze Thunderbrew gathers fresh hops for his next batch. Without them, his ale may turn thick as stew, so he shares kegs with those who bring what he needs. Far from Dun Morogh, Grimbooze keeps his family's brewing tradition alive. He insists on proper hops for his current brew, or it may turn to thick stew instead of refreshing ale. Grimbooze praises hops, barley, yeast, and malt in cheerful rhymes. Fresh hops let him finish fermentation on the spot. In return, he shares whole kegs of Thunderbrew Lager, known for its forceful taste.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_117-67264800224c3e723fcb/1-0000.mp3", duration = 39.4971429, start = 0},
+    {file = "Audio/Transport/full_quest_117-1e7465aae4f248860909/1-0000.mp3", duration = 38.7395918, start = 0},
   },
 }
 P.transport["quest:1174"] = {
@@ -246,7 +246,7 @@ P.transport["quest:123"] = {
   fullHash = "e119ae",
   text = "The Collector. In Elwynn Forest, gold shipments leave the abandoned mines under cover of gnoll raids. An intercepted dispatch names their overseer as 'The Collector' and points to an organized operation near Stormwind's garrison. Riverpaw gnolls in western Elwynn Forest carry a parchment called the Gold Pickup Schedule. It sets dates and times for gold taken from local mines. The intercepted note directs each shipment to an overseer known only as 'The Collector.' At the Lion's Pride Inn, Marshal Dughan learns that gold is still being mined and moved. Official mines across Elwynn have been closed for months because of gnoll attacks, kobold infestations, and roaming bandits. Gnolls with shipping schedules point to an organized criminal network stealing the kingdom's wealth.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_123-82e464ed4a0c9752b53d/1-0000.mp3", duration = 47.6473469, start = 0},
+    {file = "Audio/Transport/full_quest_123-dbb7dbfd65e2a7f102ed/1-0000.mp3", duration = 48.9534694, start = 0},
   },
 }
 P.transport["quest:125"] = {
@@ -385,6 +385,14 @@ P.transport["quest:141"] = {
     {file = "Audio/Transport/full_quest_141-11d964713fca0f15812c/1-0000.mp3", duration = 13.2179592, start = 0},
   },
 }
+P.transport["quest:142"] = {
+  hash = "c5aee6",
+  fullHash = "c5aee6",
+  text = "The Defias Brotherhood. Gryan Stoutmantle sends you after an elusive Defias courier, hoping to learn how the Brotherhood directs its forces. Gryan Stoutmantle's scouts have seen an elusive Defias Messenger traveling between Moonbrook, the Gold Coast Quarry, and the Jangolode Mine. Unlike the thugs who hold the countryside, this courier carries written orders across the region. Stoutmantle wants him captured or killed so the People's Militia can read his satchel and learn where the brotherhood directs its forces.",
+  ["1"] = {
+    {file = "Audio/Transport/full_quest_142-0966a57f0e8c980f3b18/1-0000.mp3", duration = 29.1265306, start = 0},
+  },
+}
 P.transport["quest:143"] = {
   hash = "20c9fe",
   fullHash = "20c9fe",
@@ -446,7 +454,7 @@ P.transport["quest:147"] = {
   fullHash = "6ed1d1",
   text = "Manhunt. In Elwynn Forest, Marshal Dughan sends you to find the Collector, a Defias bagman. He works from the overrun Brackwell Pumpkin Patch and sends stolen gold from the forest's mines to the Brotherhood. Marshal Dughan sends you to Brackwell Pumpkin Patch after Elwynn's gnolls are found carrying a schedule for gold pickups. Defias bandits and gnolls have taken over the once quiet homestead. The Collector hides among its overgrown vines, skimming ore from the kingdom's mines and arranging shipments for the growing rebellion.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_147-c167cd19c9d5bd4d4b43/1-0000.mp3", duration = 31.9477551, start = 0},
+    {file = "Audio/Transport/full_quest_147-f3c143fe7ccf91f2f96d/1-0000.mp3", duration = 32.1828571, start = 0},
   },
 }
 P.transport["quest:1470"] = {
@@ -830,7 +838,7 @@ P.transport["quest:1667"] = {
   fullHash = "3a323e",
   text = "Dead-tooth Jack. In eastern Elwynn Forest, retired Marshal Haggard needs your help: Dead-tooth Jack tricked him into giving up his badge. Jack wore a Stormwind tabard and pretended to be Marshal Dughan. Haggard fears the Defias Brotherhood will use the badge to impersonate Stormwind officials. At night, a figure wearing a Stormwind tabard came to Haggard's isolated cottage on Elwynn's eastern ridges. The stranger claimed to have official business and asked for Haggard's old marshal's badge. Haggard believed he was handing it to a fellow officer, so he gave it over. The figure laughed and vanished into the woods. He was a Defias rogue called Dead-tooth Jack. Marshal Haggard has retired, but his badge still carries Stormwind's legal authority. Defias bandits are creeping across Elwynn, Westfall, and Redridge. With the badge, they could pass guard checkpoints, redirect patrols, or take command of supplies. Jack retreated to a camp to the south and locked the badge in a strongbox. Haggard needs it back before the Defias cause serious harm.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1667-495bde497e6b4a919452/1-0000.mp3", duration = 62.3542857, start = 0},
+    {file = "Audio/Transport/full_quest_1667-b5a0cf18affce6c00a4d/1-0000.mp3", duration = 63.8955102, start = 0},
   },
 }
 P.transport["quest:1679"] = {
@@ -926,7 +934,7 @@ P.transport["quest:1715"] = {
   fullHash = "643dd0",
   text = "The Slaughtered Lamb. Gnome warlocks from Ironforge now seek their training in Stormwind. The Slaughtered Lamb gives them a place to learn from human warlocks, while King Magni Bronzebeard keeps watch over dark practitioners at home. Before Gnomeregan fell, Khaz Modan's aspiring warlocks studied with tinker-mages and demonic scholars in the techno-city. Then disaster scattered those schools and drove the gnomes into exile. The survivors crowded into Ironforge's underground caverns, where King Magni Bronzebeard and the dwarven guard watch them. They cannot openly practice demonic arts or perform dangerous rituals, so senior instructors like Lago Blackwrench send students away. From Ironforge, gnome students travel south to the Slaughtered Lamb in Stormwind's Mage Quarter. Twisting stone passages and stairs descend from the tavern's taproom to a hidden sanctum where human warlocks gather. Gakin the Darkbinder oversees them there. In its shadowed rooms, instructors can teach novices to summon and bind minor demons without drawing the city marshals' immediate anger. Stormwind's coven welcomes capable hands, though refugee novices bring new strain. Human mentors already risk discovery by the city's paladins and authorities. As more practitioners arrive from Khaz Modan, Gakin and his colleagues find their sanctuary growing crowded. The steady flow from the dwarven mountain could expose their hidden gathering. Yet neither the gnomes nor the human warlocks have an easier choice.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1715-85cd9f0853455be735a2/1-0000.mp3", duration = 90.3836735, start = 0},
+    {file = "Audio/Transport/full_quest_1715-e112f0eba1a910b8ea74/1-0000.mp3", duration = 94.2497959, start = 0},
   },
 }
 P.transport["quest:176"] = {
@@ -934,7 +942,7 @@ P.transport["quest:176"] = {
   fullHash = "423cb4",
   text = "Wanted: \"Hogger\". In southwestern Elwynn, Hogger has turned back every local attempt to bring him down. The Alliance bounty posted outside Goldshire seeks the head of this massive, savage gnoll chieftain. Banditry and kobold infestations trouble Elwynn Forest, while gnolls in the south grow bolder and more organized under Hogger's brutal leadership. Taller than typical Riverpaw gnolls, he has made camp near the Forest's Edge. From there, he ambushes travelers and overpowers the local militia patrols sent to subdue him. The Stormwind Army is stretched thin and cannot spare regular forces to police the capital's outskirts. So Marshal Dughan has taken the unusual step of posting an open bounty on Hogger. Hunting him means venturing into deeply hostile gnoll territory. His ferocity has earned him a fearsome reputation among novice adventurers in Elwynn.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_176-05b3187955422660a860/1-0000.mp3", duration = 51.4089796, start = 0},
+    {file = "Audio/Transport/full_quest_176-10c19684985e2b597cdc/1-0000.mp3", duration = 53.1591837, start = 0},
   },
 }
 P.transport["quest:179"] = {
@@ -1182,7 +1190,7 @@ P.transport["quest:2038"] = {
   fullHash = "bf87d5",
   text = "Bingles' Missing Supplies. On Loch Modan’s southeastern shore, Bingles Blastenheimer is stranded after troggs steal his gear. You can recover his tools and Blastencapper explosives so he can repair his gyrocopter and return to the fight for Gnomeregan. Bingles Blastenheimer crashes his gyrocopter into Loch Modan’s cold waters. He drags himself ashore, dazed, and troggs from the lake’s central islands swarm him. They steal his most valuable belongings. Troggs scatter Bingles’ gear among their island camps. The stolen things include a wrench, screwdriver, and hammer, along with his volatile, high-yield invention, the Blastenheimer Blastencapper. Left among troggs, the explosives put travelers in immediate danger. Bingles fights to free Gnomeregan, his homeland, from subterranean troggs and irradiated leper gnomes. He imagines a decisive aerial assault, but without his tools and Blastencappers he cannot rebuild his flying machine. His campaign remains grounded in the reeds.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2038-7d5840e8bb8b22a956ea/1-0000.mp3", duration = 62.197551, start = 0},
+    {file = "Audio/Transport/full_quest_2038-82fe3aa53d84292016ce/1-0000.mp3", duration = 62.8767347, start = 0},
   },
 }
 P.transport["quest:2039"] = {
@@ -1190,7 +1198,7 @@ P.transport["quest:2039"] = {
   fullHash = "67ac60",
   text = "Find Bingles. In Ironforge, Gnoarn starts a search for Find Bingles after more than a week without word. Bingles Blastenheimer vanished during a flight toward fallen Gnomeregan, and searchers are sent to Loch Modan's shores. There, Bingles is alive and needs mechanical salvage. Gnome aviator Bingles Blastenheimer was sent from Tinker Town in Ironforge to scout the irradiated ruins of Gnomeregan from the air. More than a week has passed without word. Gnoarn fears Bingles may have blown himself out of the sky, a danger of gnome engineering. His last report placed him somewhere above Loch Modan's waters. Searchers find Bingles alive along the Loch Modan shoreline, far from a tragic pile of wreckage. He is unfazed by his long absence and takes slight offense that anyone doubted his piloting. Rather than return promptly to report to Gnoarn, he asks his rescuer to recover tools and Blastencapper explosives stolen by troggs. He wants them so he can resume his duties for the gnomish movement.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2039-918fc1cfb29760de33b8/1-0000.mp3", duration = 64.2089796, start = 0},
+    {file = "Audio/Transport/full_quest_2039-ba5fbf1544c06f41bc86/1-0000.mp3", duration = 64.4440816, start = 0},
   },
 }
 P.transport["quest:2041"] = {
@@ -1198,7 +1206,7 @@ P.transport["quest:2041"] = {
   fullHash = "f424ca",
   text = "Speak with Shoni. In Ironforge, Alliance travelers are sent to Stormwind to find Shoni the Shilent, whose unit prepares for Gnomeregan. After Gnomeregan fell to radiation, surviving gnomes made an exile quarter in Ironforge. Its engineers, tinkers, and strategists keep seeking a way back into their lost home. Tinkertown directs the effort, but the preparations reach beyond Khaz Modan. Now adventurers are sent south to Stormwind, where military gear for fighting underground is being prepared. In Stormwind's Dwarven District, Shoni the Shilent commands an elite crew trained for underground assault. Her sappers need gyrodrillmatic excavationators to burrow toward the sectors held by troggs. The Deeprun Tram runs beneath the mountains between Ironforge and Stormwind, making the journey to Shoni straightforward.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2041-cf26511dfcae2c1c5c11/1-0000.mp3", duration = 51.3306122, start = 0},
+    {file = "Audio/Transport/full_quest_2041-5000fa27342e7c70895f/1-0000.mp3", duration = 52.0359184, start = 0},
   },
 }
 P.transport["quest:21"] = {
@@ -1306,11 +1314,11 @@ P.transport["quest:2205"] = {
   },
 }
 P.transport["quest:2206"] = {
-  hash = "db6992",
-  fullHash = "db6992",
-  text = "Snatch and Grab. Master Mathias Shaw sends agents to Jerod's Landing for shipping intelligence. The Defias Brotherhood uses the river dock to move supplies in secret. Master Mathias Shaw tests aspiring operatives who seek a place in Stormwind's covert intelligence wing. He asks for finesse and stealth, not brute force. SI:7 agents take down key figures quietly and recover important papers without drawing the realm into open scandal. Each new operative must prove they can work unseen. Jerod's Landing lies on the river in southern Elwynn, south of Goldshire and just east of the Maclure Vineyards. The Defias Brotherhood seized the once-quiet dock and made it an illicit route. Smuggled arms, supplies, and contraband cross the water from Redridge toward Westfall, beyond the reach of royal road patrols. Master Mathias Shaw warns agents that capture, compromise, or death leaves them without the Crown's support. Stormwind and its spymasters will deny knowing they ever existed. Recovering the Defias Dockmaster's schedule gives SI:7 proof of the Brotherhood's supply lines while keeping Stormwind's official involvement hidden.",
+  hash = "294a14",
+  fullHash = "294a14",
+  text = "Snatch and Grab. At Jerod's Landing, Master Mathias Shaw sends agents to learn how the Defias move their supplies. The Brotherhood uses the river dock to ship goods in secret. Master Mathias Shaw tests those who seek a place among Stormwind's covert agents. He asks for finesse and stealth, not brute force. SI:7 agents quietly take down key figures and recover important papers. They do this without drawing the realm into open scandal. Each new operative must prove they can work unseen. Jerod's Landing sits on the river in southern Elwynn, south of Goldshire and just east of the Maclure Vineyards. The Defias Brotherhood seized the once-quiet dock and turned it into an illicit route. Arms, supplies, and contraband cross the water from Redridge toward Westfall. Royal road patrols cannot reach them there. Master Mathias Shaw warns agents that capture, compromise, or death leaves them without the Crown's support. Stormwind and its spymasters will deny they ever existed. The Defias Dockmaster's schedule gives SI:7 proof of the Brotherhood's supply lines. Recovering it keeps Stormwind's official involvement hidden.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2206-1e6d55b68c61d3b6a825/1-0000.mp3", duration = 74.8669388, start = 0},
+    {file = "Audio/Transport/full_quest_2206-d0347ac82ec0fa7738c9/1-0000.mp3", duration = 74.8146939, start = 0},
   },
 }
 P.transport["quest:224"] = {
@@ -1374,7 +1382,7 @@ P.transport["quest:234"] = {
   fullHash = "3c5907",
   text = "Coldridge Valley Mail Delivery. In Coldridge Valley, a dispatch travels from Talin Keeneye's post to Grelin Whitebeard's camp. You carry it down the southeastern road, keeping the mountaineers in touch with Ironforge. Anvilmar is Coldridge Valley's center of rule. From there, field scouts and sentries carry dispatches along the trails between the high passes and Ironforge. Grelin Whitebeard keeps a small camp southeast of Talin Keeneye's post. Veteran mountaineers at these remote watchpoints face freezing drifts and steady trogg harassment. Regular letters keep them abreast of affairs across Dun Morogh and the kingdom beyond.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_234-5886e7e80243ab29b5a0/1-0000.mp3", duration = 38.164898, start = 0},
+    {file = "Audio/Transport/full_quest_234-e4c0ce72d0190110391d/1-0000.mp3", duration = 38.1910204, start = 0},
   },
 }
 P.transport["quest:237"] = {
@@ -1382,7 +1390,7 @@ P.transport["quest:237"] = {
   fullHash = "e8f2f2",
   text = "In Defense of the King's Lands. In southern Loch Modan, Mountaineer Gravelgaw calls for help against the Stonesplinter troggs. With dwarven forces committed to the Alliance front, local outposts rely on volunteers to hold the line. The Mountaineers guarding the southern pass into Dun Morogh are stretched thin. King Magni Bronzebeard has sent much of Ironforge's strength to the wider Alliance front, leaving the Valley of Kings towers short of regular infantry. So Mountaineer Gravelgaw calls on volunteers to strike Stonesplinter Valley and keep the troggs at bay. Reinforcements may never come. The Stonesplinter troggs are neither mindless nor aimless. Their war bands fight with brute force and crude elemental magic. Gravelgaw wants their veteran Skullthumpers and their Seers, who lead with mystic power, driven from the fight. Without those leaders, the tribe's southern camps lose their order and cannot mass against the Ironforge road.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_237-2ea1d9e5f6885357f46e/1-0000.mp3", duration = 58.8538776, start = 0},
+    {file = "Audio/Transport/full_quest_237-4db48a9bff34a9f3e67b/1-0000.mp3", duration = 57.9657143, start = 0},
   },
 }
 P.transport["quest:2378"] = {
@@ -1430,7 +1438,7 @@ P.transport["quest:239"] = {
   fullHash = "e93faa",
   text = "Westbrook Garrison Needs Help!. At Westbrook Garrison, Deputy Rainer and his guards face growing pressure with few soldiers to spare. Marshal Dughan sends available adventurers west to the outpost on Elwynn Forest's border with Westfall. Stormwind's army is stretched thin across the kingdom, leaving the garrison to contend with Riverpaw gnolls and wandering thieves without regular reinforcements. Westbrook Garrison guards Elwynn Forest's western edge, where settled woodland meets Westfall's troubled plains. Gnoll warbands and bandits grow bolder along the waterways and western roads, so the small garrison has asked for more men. Marshal Dughan and Goldshire's administration have no Stormwind soldiers to spare. Local commanders must hire traveling mercenaries and wandering adventurers. Deputy Rainer and his men face Riverpaw gnolls who harass travelers and nearby homesteads. The pack ranges through the borderlands between Elwynn and Westfall. Stormwind is distracted by political and military troubles, and the gnolls press deeper into inhabited lands. Westbrook Garrison guards against their unchecked advance into the heart of the forest.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_239-8687b9e07ee7cc47d10c/1-0000.mp3", duration = 68.597551, start = 0},
+    {file = "Audio/Transport/full_quest_239-ff29f09456d8d8fe19bd/1-0000.mp3", duration = 69.0938776, start = 0},
   },
 }
 P.transport["quest:2399"] = {
@@ -1662,7 +1670,7 @@ P.transport["quest:282"] = {
   fullHash = "671fda",
   text = "Senir's Observations. Grelin Whitebeard sends you east to Kharanos with his report for his brother Senir. Troggs have overrun the tunnel from Coldridge Valley, where Mountaineer Thalos guards the way. Grelin Whitebeard's report tells of Frostmane troll activity around Coldridge Valley. The trolls stole his journal, and you recovered it. Grelin judged the findings too important for an inexperienced apprentice to carry. So he entrusts the report to you, to deliver directly to his brother Senir in Kharanos. Troggs have overrun the eastern tunnel from Coldridge Valley into the rest of Dun Morogh. Mountaineer Thalos guards the entrance to keep civilians from danger. He lets travelers through only when they carry urgent official business.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_282-2fcf0a9c81463e83e346/1-0000.mp3", duration = 44.5910204, start = 0},
+    {file = "Audio/Transport/full_quest_282-4ae2f60ef9d91e4d284a/1-0000.mp3", duration = 42.8408163, start = 0},
   },
 }
 P.transport["quest:287"] = {
@@ -1686,7 +1694,7 @@ P.transport["quest:2948"] = {
   fullHash = "9c346e",
   text = "Gnome Improvement. In Ironforge, Talvash del Kissel offers to improve a ring he made in Gnomeregan. He needs silver and moss agate for a delicate lattice over its old band. Talvash del Kissel fled Gnomeregan after the trogg invasion and radiation brought the city down. Now the gnome refugee lives in Ironforge's Mystic Ward. The jeweler and tinkerer is short on coin and out of stock, but determined to prove his skills remain sharp in exile. Talvash is glad to see his simple ring design again, cleaned by the Sparklematic 5200. Yet he considers the old band dated. He offers to improve it with silver and moss agate lattice work, showing his skill with metal and gemstones.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2948-de2f5b8d76299ad67a8f/1-0000.mp3", duration = 45.6881633, start = 0},
+    {file = "Audio/Transport/full_quest_2948-366180a14ba3a8e644f5/1-0000.mp3", duration = 45.0089796, start = 0},
   },
 }
 P.transport["quest:2950"] = {
@@ -1902,7 +1910,7 @@ P.transport["quest:310"] = {
   fullHash = "4f8643",
   text = "Bitter Rivals. Marleth Barleybrew asks you to replace a cask of Thunder Ale at the Thunderbrew Distillery in Kharanos with her family's brew. The Barleybrews have long begrudged the Thunderbrews the fame of their distillery. Marleth respects its ale, but she cannot abide Dun Morogh knowing only Thunderbrew. She means to change local tastes with her family's fiery Barleybrew Scalder. Beneath the Thunderbrew Distillery in Kharanos, aging casks fill a basement storeroom. A guard watches near the Thunderbrews' prized reserve. Draw him away, then secretly switch the barrels.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_310-26c2d975e1f2b8d16c77/1-0000.mp3", duration = 36.1534694, start = 0},
+    {file = "Audio/Transport/full_quest_310-ded67e4474685f0673b6/1-0000.mp3", duration = 37.2244898, start = 0},
   },
 }
 P.transport["quest:3103"] = {
@@ -1934,7 +1942,7 @@ P.transport["quest:3106"] = {
   fullHash = "1b6f0d",
   text = "Simple Rune. At Anvilmar, Sten Stoutarm brings new dwarven warriors a summons from Thran Khorman. The rune calls them from Coldridge Valley's snowy paths to begin training. Veteran scouts watch recruits clear pests around Coldridge Valley, seeking promising fighters. Sten brings an inscribed stone from Thran Khorman. Its simple rune calls them from the snowy paths into Anvilmar's warm forge-hall, where they can pledge themselves to the warrior's trade. Thran speaks plainly about Dun Morogh's troubles. Gnomes displaced by the explosions that destroyed Gnomeregan seek refuge, while some dwarves take up foreign arcane arts or follow the human faith in the Holy Light. Troggs claw at the mountain borders after being disturbed deep underground. Thran believes firm martial discipline is needed to withstand these threats.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3106-a3995651df879ba3633b/1-0000.mp3", duration = 50.8081633, start = 0},
+    {file = "Audio/Transport/full_quest_3106-6d418636bf08945fc919/1-0000.mp3", duration = 50.3379592, start = 0},
   },
 }
 P.transport["quest:3107"] = {
@@ -1958,7 +1966,7 @@ P.transport["quest:3109"] = {
   fullHash = "90ce0c",
   text = "Encrypted Rune. In Coldridge Valley, Sten Stoutarm gives young rogues a coded rune and calls them into Anvilmar to meet Solm Hargrin. Sten says someone slipped him the etched stone to deliver. He suspects Solm Hargrin sent it. The rune tests whether a novice can keep a confidence, calling them inside without Solm announcing his need for scouts and scoundrels across the courtyard. Inside Anvilmar, Solm Hargrin welcomes the new rogues to their craft. He offers to teach the maneuvers, strikes, and subtle arts that keep them alive and earn them coin. He also reminds dwarf rogues to look after their displaced gnomish allies, still recovering from Gnomeregan's catastrophic fall.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3109-196bce01b4028297f5b5/1-0000.mp3", duration = 43.2326531, start = 0},
+    {file = "Audio/Transport/full_quest_3109-bd92dd8b445f1be1c20b/1-0000.mp3", duration = 42.0310204, start = 0},
   },
 }
 P.transport["quest:311"] = {
@@ -1982,7 +1990,7 @@ P.transport["quest:3112"] = {
   fullHash = "8b4cd0",
   text = "Simple Memorandum. In Coldridge Valley, gnome warriors receive a call to Anvilmar. Sten Stoutarm carries Thran Khorman’s summons to trained fighters, who are invited to learn the arts of war and prepare to reclaim Gnomeregan. You help Sten Stoutarm drive off troggs and boars in Coldridge Valley. Thran Khorman, a veteran trainer in Anvilmar, sees promise in the refugee recruit. He calls the recruit to the central hall for martial instruction. Dwarven trainers may tease gnome warriors about their size, but Thran Khorman takes their loss seriously. He asks them to imagine how dwarves would feel if Ironforge fell to the Dark Irons. Thran has pledged to help the exiled gnomes. He teaches them the arts of war until they are ready to reclaim their home.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3112-504e1191c16722ae3c72/1-0000.mp3", duration = 46.2889796, start = 0},
+    {file = "Audio/Transport/full_quest_3112-436042464ae6afcc3006/1-0000.mp3", duration = 46.315102, start = 0},
   },
 }
 P.transport["quest:3113"] = {
@@ -1990,7 +1998,7 @@ P.transport["quest:3113"] = {
   fullHash = "3bbe57",
   text = "Encrypted Memorandum. In Coldridge Valley, Sten Stoutarm gives new gnome rogues a folded note for Solm Hargrin inside Anvilmar. As you help the mountaineers face trogg threats, Sten gives you a parchment entrusted to him. It looks like an official memorandum. The note invites you to meet Solm Hargrin, the rogue trainer stationed inside Anvilmar. Gnome survivors share close quarters with their dwarven hosts after Gnomeregan's sudden fall drove them from their underground home. Solm Hargrin knows rogues draw suspicion when items go missing. So he urges them to stand together quietly and help each other survive.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3113-efdc38fbd53b145aaf3a/1-0000.mp3", duration = 37.3812245, start = 0},
+    {file = "Audio/Transport/full_quest_3113-3e9b712462e70b41b772/1-0000.mp3", duration = 39.2097959, start = 0},
   },
 }
 P.transport["quest:3114"] = {
@@ -1998,7 +2006,7 @@ P.transport["quest:3114"] = {
   fullHash = "f8450e",
   text = "Glyphic Memorandum. In Anvilmar, Mountaineer Sten Stoutarm gives you a memorandum from mage trainer Marryk Nurribit, who invites you to meet him. The summons is for you, a novice mage Sten assists in Coldridge Valley. Read it, then go inside Anvilmar to meet the gnome who wrote it. Your spellcraft studies begin there. Inside Anvilmar, gnome mage trainer Marryk Nurribit offers plain advice before your lessons. Keep out of serious trouble and save coin for training and tavern drinks. Stay clear of fallen Gnomeregan and its radioactive danger. Marryk is ready to teach you the arcane arts.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3114-b19244de843e4e4972fd/1-0000.mp3", duration = 37.5902041, start = 0},
+    {file = "Audio/Transport/full_quest_3114-77cbbaea25d8ccdbd5fb/1-0000.mp3", duration = 38.1387755, start = 0},
   },
 }
 P.transport["quest:3115"] = {
@@ -2006,7 +2014,7 @@ P.transport["quest:3115"] = {
   fullHash = "aaf56b",
   text = "Tainted Memorandum. In Coldridge Valley, Sten Stoutarm quietly sends you to Alamar Grimm in Anvilmar. Grimm urges you to trust dark power over your dwarven hosts. Warlocks face deep suspicion in Coldridge Valley. As you help Sten Stoutarm with local threats, he reluctantly slips you a note. His warning makes plain how little your kind is trusted here, even under the uneasy truce that allows warlocks to practice in Alliance lands. In Anvilmar, Alamar Grimm speaks of the gnomes’ plight. He believes ordinary magic and tinkering failed Gnomeregan, bringing their people near extinction and leaving them as second-class refugees dependent on dwarven goodwill. He urges you to trust neither the Holy Light nor dwarven politics. Instead, summon fiends and master them, for their obedience is unconditional.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3115-6f3fd516babd2d7ceb48/1-0000.mp3", duration = 51.0171429, start = 0},
+    {file = "Audio/Transport/full_quest_3115-7f27e21a6decc3176872/1-0000.mp3", duration = 52.7673469, start = 0},
   },
 }
 P.transport["quest:3116"] = {
@@ -2174,7 +2182,7 @@ P.transport["quest:3361"] = {
   fullHash = "cdc310",
   text = "A Refugee's Quandary. Gnomeregan's displaced gnomes flee into Dun Morogh after troggs and radiation drive them from their home. Near Anvilmar, engineer Felix Whindlebolt has lost his tools and belongings to Frostmane scavengers. Troggs overran Gnomeregan, the high-tech city beneath the earth. High Tinker Gelbin Mekkatorque and his advisors released radioactive gas to kill the invaders. The gas brought disaster instead. Thousands of innocents died, survivors became mindless leper gnomes, and the rest fled across Dun Morogh. Gnome engineers and tinkerers carried away the tools and blueprints they could save. Frostmane trolls prowl the icy mountain passes between Gnomeregan and Coldridge Valley. As Felix Whindlebolt hurried toward shelter at Anvilmar, Frostmane raiders took his tool chest, lockbox, and bucket of bolts. They carried his belongings to camps southwest of town.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3361-f019bb64386fb2cd9532/1-0000.mp3", duration = 56.2938776, start = 0},
+    {file = "Audio/Transport/full_quest_3361-4cd0aba55682acdfc9dc/1-0000.mp3", duration = 54.0212245, start = 0},
   },
 }
 P.transport["quest:3364"] = {
@@ -2190,7 +2198,7 @@ P.transport["quest:3365"] = {
   fullHash = "d87669",
   text = "Bring Back the Mug. Durnan Furcutter sends you back across Coldridge Valley with Nori Pridedrift's empty mug. Its return closes the Mornbrew delivery. After warming himself with the Mornbrew, Durnan leaves the tankard in your care. Cold bites hard in Dun Morogh, where hospitality depends on mutual respect. Good dishware should make it back too. Nori Pridedrift values sturdy drinkware. Mugs do not grow on trees, especially among the subzero crags of the dwarven homeland. Bring his mug back in one piece, and you show the local community that you can be trusted.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3365-46a4a19d1ab74e8ab563/1-0000.mp3", duration = 36.597551, start = 0},
+    {file = "Audio/Transport/full_quest_3365-edaeb88208a8e0c3e1c5/1-0000.mp3", duration = 34.9257143, start = 0},
   },
 }
 P.transport["quest:3376"] = {
@@ -2206,7 +2214,7 @@ P.transport["quest:35"] = {
   fullHash = "cb068a",
   text = "Further Concerns. East of Goldshire, Marshal Dughan sends you to check reports of danger. You cross Elwynn Forest to speak with Guard Thomas at the river crossing toward Redridge. Marshal Dughan commands Goldshire's garrison and takes reports of hostile creatures along Elwynn's riverbanks seriously. Bandits and vermin already trouble the forest's center, so he cannot spare guards from town. He sends you east to consult Guard Thomas, the sentry at the bridge toward Redridge. Guard Thomas has held the bridge outpost for more than a week and has seen the danger for himself. Hostile, semi-intelligent murlocs have made camps along eastern Elwynn's waterways. Stormwind's army is absent, and local garrisons guard town walls and supply lines. Rural bridge posts like Thomas's are left isolated as the danger grows.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_35-ae8c30f7514a3c47ce18/1-0000.mp3", duration = 49.92, start = 0},
+    {file = "Audio/Transport/full_quest_35-d96bb391c9f26704a7c3/1-0000.mp3", duration = 48.3787755, start = 0},
   },
 }
 P.transport["quest:3519"] = {
@@ -2518,7 +2526,7 @@ P.transport["quest:39"] = {
   fullHash = "60968a",
   text = "Deliver Thomas' Report. In eastern Elwynn, Guard Thomas sends word of two dead guards and rising danger. He asks you to carry the report to Marshal Dughan in Goldshire, where few hands remain to defend the roads. Guard Thomas watches the bridges into eastern Elwynn, where river traffic meets the wilderness. Aggressive murloc tribes have killed Guards Malakai and Rolf. Thomas has too few guards left to contain them, so he sends you down the road to Goldshire with an urgent report. Marshal Dughan receives Thomas' report in Goldshire, where he already struggles to keep patrols on the roads. Kobolds infest the area, Defias bandits threaten travelers, and Stormwind City has sent no reinforcements. The deaths of two experienced guards deepen his burden. Murlocs may soon threaten Goldshire itself, while the region's defenses grow ever thinner.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_39-33a95a41ff6d955db112/1-0000.mp3", duration = 53.5771429, start = 0},
+    {file = "Audio/Transport/full_quest_39-ae68217fadf448619f24/1-0000.mp3", duration = 52.244898, start = 0},
   },
 }
 P.transport["quest:3901"] = {
@@ -2614,7 +2622,7 @@ P.transport["quest:40"] = {
   fullHash = "bdaa5a",
   text = "A Fishy Peril. In eastern Elwynn, Remy \"Two Times\" fears a danger is spreading. Fishing has suffered and travelers face attacks, but he doubts the guard understands the trouble. In Goldshire seeking business, Remy grows uneasy as murlocs swim up streams and into inland shallows. He asks passersby to warn the township before the threat spreads further. Marshal Dughan hears the report but doubts it. His garrison is stretched thin, and without confirmed intelligence, he will not send scarce men after rumors of fish-men in the eastern streams.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_40-d868b56ce092a972286d/1-0000.mp3", duration = 33.515102, start = 0},
+    {file = "Audio/Transport/full_quest_40-4317009edfdbfc5041f7/1-0000.mp3", duration = 33.7763265, start = 0},
   },
 }
 P.transport["quest:400"] = {
@@ -2694,7 +2702,7 @@ P.transport["quest:412"] = {
   fullHash = "859ed8",
   text = "Operation Recombobulation. In Kharanos, Razzle Sprysprocket and Ozzie Togglevolt search for a cure for their kin. Their experimental Recombobulator needs parts taken from hostile leper gnomes outside Gnomeregan. Razzle and Ozzie are building a machine to restore their afflicted kin to health and sanity. Radiation changed most of Gnomeregan's gnomes into sickly, deranged leper gnomes. The inventors hope their Recombobulator can reverse that change. Razzle needs Restabilization Cogs and Gyromechanic Gears for the delicate prototype. The parts must come from hostile leper gnomes outside Gnomeregan's sealed gates. Debris from their altered kin may help undo the tragedy they share.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_412-8dcdefab499098b739cf/1-0000.mp3", duration = 42.5273469, start = 0},
+    {file = "Audio/Transport/full_quest_412-431c01b1c85ac4055e3d/1-0000.mp3", duration = 41.5346939, start = 0},
   },
 }
 P.transport["quest:413"] = {
@@ -2710,7 +2718,7 @@ P.transport["quest:414"] = {
   fullHash = "33d3b8",
   text = "Stout to Kadrell. A cask of Rejold Barleybrew’s new Shimmer Stout is headed east to Mountaineer Kadrell in Loch Modan. You carry it from Dun Morogh’s frozen heights to the warmer valley. From Dun Morogh’s eastern border post, Mountaineer Barleybrew watches the mountain passes and the kin guarding neighboring lands. The Mountaineers’ patrols can be cold and grueling, and a stout heart calls for stout drink. Rejold’s new Shimmer Stout is too good to keep in Dun Morogh. Barleybrew wants an honest opinion from a fellow patrolman, so he sends a cask east with travelers bound for Loch Modan. For young dwarven and gnomish adventurers, the road to Loch Modan is a rite of passage after their early days in Dun Morogh’s snowbound crags. You pass southeast through the South Gate Outpost, then follow long tunnels cut through the mountain bedrock. Beyond them lies Loch Modan’s warmer, wooded basin. Mountaineer Kadrell patrols the road through Thelsamar. He pauses to tap the cask and finds that Barleybrew’s new recipe has an astonishing kick.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_414-517e7d0547297c2ea4fd/1-0000.mp3", duration = 62.6938776, start = 0},
+    {file = "Audio/Transport/full_quest_414-8f3ddf4d49465878cf81/1-0000.mp3", duration = 63.1640816, start = 0},
   },
 }
 P.transport["quest:415"] = {
@@ -2905,6 +2913,14 @@ P.transport["quest:439"] = {
     {file = "Audio/Transport/full_quest_439-1593978443863a441249/1-0000.mp3", duration = 37.0155102, start = 0},
   },
 }
+P.transport["quest:440"] = {
+  hash = "858caf",
+  fullHash = "858caf",
+  text = "The Engraved Ring. High Executor Hadrec sends you across the border to Brill with a ring bearing Deliah's name. Magistrate Sevren searches the town records to learn who she was and where the ring came from. Scouts searching for the Rot Hide gnolls in northern Silverpine Forest found Deliah's ring. Magistrate Sevren keeps Tirisfal's civic records and burial registers, though Hadrec doubts any Forsaken still cares for such keepsakes.",
+  ["1"] = {
+    {file = "Audio/Transport/full_quest_440-777e0358726b035c5411/1-0000.mp3", duration = 27.1934694, start = 0},
+  },
+}
 P.transport["quest:441"] = {
   hash = "dfc96c",
   fullHash = "dfc96c",
@@ -3006,7 +3022,7 @@ P.transport["quest:4512"] = {
   fullHash = "2224a4",
   text = "A Little Slime Goes a Long Way. In Ironforge, Laris Geardawdle seeks ooze samples from Felwood for his studies. He hopes to learn why the Royal Apothecary Society gathers them and what interests the Undercity's alchemists. Laris Geardawdle studies oozes with the Explorers' League. Most of its scholars seek titan relics or dwarven genealogies, but these living puddles resist ordinary classification. They appear in wetlands, cursed woods, and damp ruins. Laris has seen Forsaken apothecaries collecting slime across Lordaeron, and wants to know what draws them to it. Laris believes oozes may be primordial secretions tied to Azeroth's creation. He thinks they are neither vermin nor magical byproducts. To test his theory, you travel across the ocean to Felwood's blighted canopy. There, you gather Cursed and Tainted Oozes in specially made jars. For Laris and many displaced gnomes, these studies carry personal weight. Since Gnomeregan fell to troggs and radiation, thousands have taken refuge in Ironforge's Great Forge. A discovery for the Explorers' League could answer dwarven skeptics. It could show that welcoming gnomes into the mountain city has become an enduring asset to Alliance science.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_4512-65934343f4a602d70d37/1-0000.mp3", duration = 77.5836735, start = 0},
+    {file = "Audio/Transport/full_quest_4512-e38852b6d984b985ffb0/1-0000.mp3", duration = 80.2742857, start = 0},
   },
 }
 P.transport["quest:4513"] = {
@@ -3070,7 +3086,7 @@ P.transport["quest:46"] = {
   fullHash = "673083",
   text = "Bounty on Murlocs. In eastern Elwynn, murlocs are spreading, and the Stormwind Army has set a bounty on them. With the garrison stretched thin, Guard Thomas turns to travelers to clear camps around Stone Cairn Lake and the southern waterways before murlocs overrun nearby farms and roads. Murlocs have made camps around Stone Cairn Lake and along the fork of the southern streams. Lurkers and foragers attack travelers and press toward human settlements. What began as a small nuisance now threatens eastern Elwynn, though the western roads remain comparatively secure. Guard Thomas is stationed at the eastern bridge beside the Redridge Mountains. Dangers beyond the bridge and disorder at home both call for his attention. King Varian Wrynn is missing, and bureaucracy weighs on Stormwind's military command. Town garrisons rarely receive the reinforcements they request. So Marshal Dughan and local officers offer public bounties, paying coin for murloc fins to slow the attacks along the waterways.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_46-787a4de65fcd82f5bf79/1-0000.mp3", duration = 59.5330612, start = 0},
+    {file = "Audio/Transport/full_quest_46-0f3e715c8531af0d37a0/1-0000.mp3", duration = 60.8914286, start = 0},
   },
 }
 P.transport["quest:460"] = {
@@ -3414,7 +3430,7 @@ P.transport["quest:5541"] = {
   fullHash = "f9383e",
   text = "Ammo for Rumbleshot. Outside Anvilmar, Hegnar Rumbleshot needs ammunition for the riflemen at practice. A courier fled wendigo near the Grizzled Den and left a crate behind. Loslor Rudge at Steelgrill's Depot supplies tradesmen across Dun Morogh, though wildlife often disrupts his shipments. His courier had camped near the Grizzled Den cave system when local wendigo crossed his path. He fled for his life and left the heavy wooden crate in the snow. Hegnar Rumbleshot runs a gun shop beside the main road leading away from Anvilmar. Ironforge riflemen, mountaineers, and dwarven mortar squads gather in the clearing outside his forge to sight their weapons and practice with live fire. Without regular deliveries of powder and lead from suppliers like Loslor, the riflemen's marksmanship practice soon comes to a halt.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_5541-05a3bf9b25e10779c035/1-0000.mp3", duration = 49.7893878, start = 0},
+    {file = "Audio/Transport/full_quest_5541-5451f25608a79fc3f67b/1-0000.mp3", duration = 49.8416327, start = 0},
   },
 }
 P.transport["quest:5545"] = {
@@ -3726,7 +3742,15 @@ P.transport["quest:59"] = {
   fullHash = "1c94bb",
   text = "Cloth and Leather Armor. In Goldshire, Cloth and Leather Armor sends a trusted traveler east for gear. Marshal Dughan issues an armor marker for Sara Timberlain at Eastvale Logging Camp. Beyond Guard Thomas's bridge, recruits seek armor for the realm's defense. Guard Thomas watches Elwynn's eastern river crossing, where murlocs and gnolls threaten the border. You carry his report to Goldshire, and Marshal Dughan marks your service with an official Stormwind Armor Marker. Goldshire's garrison has few stores, so Dughan gives you a marker instead of equipment. It is a military voucher recording your service to the crown. East of Guard Thomas's bridge lies Eastvale Logging Camp, Elwynn's main timber operation. Sara Timberlain works there under commission from the Stormwind Army, making cloth and leather gear. The kingdom's central armories are strained, so local artisans like Sara outfit troops and auxiliary scouts on the frontier.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_59-4933c2905353bfb02acc/1-0000.mp3", duration = 56.8685714, start = 0},
+    {file = "Audio/Transport/full_quest_59-ab08a0ddf33da91f5051/1-0000.mp3", duration = 57.2081633, start = 0},
+  },
+}
+P.transport["quest:590"] = {
+  hash = "1505bf",
+  fullHash = "1505bf",
+  text = "A Rogue's Deal. Calvin Montague offers newly awakened Forsaken work in Deathknell. He promises wealth for delivering a letter, but you do not know whether he will honor the bargain. Deathknell is a ruined village in southwestern Tirisfal Glades.",
+  ["1"] = {
+    {file = "Audio/Transport/full_quest_590-20f45fa2282d6af22575/1-0000.mp3", duration = 14.9420408, start = 0},
   },
 }
 P.transport["quest:5921"] = {
@@ -3838,7 +3862,7 @@ P.transport["quest:6064"] = {
   fullHash = "e3eb99",
   text = "Taming the Beast. In Dun Morogh, Taming the Beast sets a hunter on the first trial toward mastering companion beasts. In Kharanos, Grif Wildheart guides young trackers as they calm a Large Crag Boar with an enchanted taming rod. Dwarven mountaineers and trackers depend on guns, traps, and their wits in the wild. Yet a hunter's calling is to make a lifelong bond with a wild beast. Outside the Thunderbrew Distillery in Kharanos, Grif Wildheart oversees this rite. He tests novices against several species native to Dun Morogh before asking them to bind any beast for good. A Large Crag Boar is the first test for a young tracker. These thick-hided swine roam Dun Morogh's snowy foothills, where their bristling fur and tough flesh make them stubborn and fierce. Grif provides an enchanted Taming Rod. The hunter faces the boar's charge and tries to calm its fury until it submits to command.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6064-5993ec9d46326a74a305/1-0000.mp3", duration = 56.6073469, start = 0},
+    {file = "Audio/Transport/full_quest_6064-2eadf82f3f5d066d76ce/1-0000.mp3", duration = 55.4579592, start = 0},
   },
 }
 P.transport["quest:6065"] = {
@@ -3862,7 +3886,7 @@ P.transport["quest:6074"] = {
   fullHash = "15f9c7",
   text = "The Hunter's Path. In Dun Morogh, the trainers send ready hunters to Kharanos to begin learning how to tame wild beasts. Grif Wildheart oversees the trials there. Novice hunters cross Dun Morogh’s snowy crags alone until they learn to bond with beasts. Olmin Burningbeard and Tristane Shadowstone watch their pupils closely. They wait until a hunter can face a savage creature calmly and spare its life. Then the trainers send the disciplined novice down the mountain roads toward Kharanos. In Kharanos, Grif Wildheart oversees the final trials of dwarven huntsmanship. Taming a beast takes more than bringing it down for meat or pelt. A hunter needs patience, physical endurance, and an instinctive bond with the wild predators of the mountains. Wildheart prepares each hunter to test their will against Dun Morogh’s fiercest wildlife.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6074-d4d3c2b0347c2f87ff2b/1-0000.mp3", duration = 52.6367347, start = 0},
+    {file = "Audio/Transport/full_quest_6074-64474af42a42105886e8/1-0000.mp3", duration = 51.4612245, start = 0},
   },
 }
 P.transport["quest:6081"] = {
@@ -3902,7 +3926,7 @@ P.transport["quest:6085"] = {
   fullHash = "769d58",
   text = "Taming the Beast. In Dun Morogh, Grif Wildheart tests your control of an Ice Claw Bear east of Kharanos. With an enchanted rod, you subdue the bear and learn to understand it. Then you earn the power to tame, call, and dismiss a lasting wild companion. Dun Morogh’s mountaineers and scouts depend on hardy beasts in its freezing crags. You have practiced on swift, cunning predators. Now Grif Wildheart sends you to capture an Ice Claw Bear in the snowdrifts east of Kharanos. Its strength and endurance test the control every dwarven huntsman must learn. The Taming Rod keeps the bear docile while you learn how wild instincts answer to will and calm intent. Your bond lasts only for the trial, which teaches discipline. Return the rod to Grif and the trials are complete. He then teaches you to pacify a compatible wild creature and call it throughout your life of adventure.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6085-b0f79e8f86fb8323ba44/1-0000.mp3", duration = 55.1706122, start = 0},
+    {file = "Audio/Transport/full_quest_6085-89c67d38f620d6f1edf2/1-0000.mp3", duration = 52.8718367, start = 0},
   },
 }
 P.transport["quest:6086"] = {
@@ -3910,7 +3934,7 @@ P.transport["quest:6086"] = {
   fullHash = "2cd115",
   text = "Training the Beast. In Dun Morogh, Grif Wildheart sends young dwarven hunters to Ironforge to learn care for a lasting animal companion. After taming the mountain’s wild predators, they learn to feed and train their beasts. Young hunters finish their trial near Kharanos under Grif Wildheart’s watch. They have tamed large crag boars, snow leopards, and sturdy ice claw bears with a taming rod. Then Grif sends them up the mountain pass to Ironforge. They seek the Hall of Arms in the military district. Belia Thundergranite teaches animal care in Ironforge’s Hall of Arms. Revered among the dwarven kingdom’s master animal trainers, she shows young hunters how to nourish their pets and teach them new battlefield skills. She also teaches them to call their spirits back if they fall defending their master. Her lessons turn a frightened wild beast into a loyal partner. Dwarven tradition asks for respect between hunter and beast, never subjugation. Belia reminds young hunters that an animal companion reflects the care it receives. Fed well, respected, and properly trained, a beast will fight loyally against troggs, frost trolls, and any threat to Khaz Modan.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6086-b3850bb620f66b151d01/1-0000.mp3", duration = 74.0832653, start = 0},
+    {file = "Audio/Transport/full_quest_6086-d13672a07a8949acd5fc/1-0000.mp3", duration = 73.3257143, start = 0},
   },
 }
 P.transport["quest:6087"] = {
@@ -4054,7 +4078,7 @@ P.transport["quest:6181"] = {
   fullHash = "a6723d",
   text = "A Swift Message. Quartermaster Lewis needs armor for Westfall's militia, and he sends an urgent note to Stormwind by gryphon. With little help from the kingdom's forces, he asks you to take the requisition to Thor at Sentinel Hill for the flight to the capital. At Sentinel Hill, the People's Militia faces Defias outlaws and gnolls with little help from Stormwind's forces. Quartermaster Lewis relies on private contacts in the capital for weapons and armor. As the militia's supplies run low, he turns to Osric Strang, an armorer in Old Town. Lewis asks travelers to carry the urgent requisition note to Thor, Westfall's gryphon master. Gryphons carry people and messages swiftly across the Kingdom of Stormwind. Thor manages the air route to the capital from Sentinel Hill. When you give him Lewis's note, he carries the requisition to Stormwind by air. This route links Westfall's frontier garrison to the capital despite the lack of official aid.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6181-de5be72fb6a2bd92a80b/1-0000.mp3", duration = 58.0702041, start = 0},
+    {file = "Audio/Transport/full_quest_6181-bd23dd9c3c984b0195df/1-0000.mp3", duration = 54.2040816, start = 0},
   },
 }
 P.transport["quest:62"] = {
@@ -4062,7 +4086,7 @@ P.transport["quest:62"] = {
   fullHash = "e8eaf2",
   text = "The Fargodeep Mine. South of Goldshire, Marshal Dughan sends you to scout the kobold-held Fargodeep Mine. It lies between the Stonefield and Maclure farms, and its fall points to trouble beyond its tunnels. Kobolds have taken the Fargodeep Mine south of Goldshire, between the feuding Stonefield and Maclure homesteads. It once supplied stone and ore for the realm. Now shrill chattering echoes through its damp tunnels, where tallow candles burn. Marshal Dughan sends you to scout the depths and learn how bad the trouble is. When Dughan hears your report, he worries about other mineral sites, including the Jasperlode Mine to the northeast. The news adds to the Stormwind Guard's strain. Its troops are already stretched thin defending against Defias bandits and gnoll incursions, leaving too few to clear the tunnels.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_62-590dae3862193b1bbce1/1-0000.mp3", duration = 49.397551, start = 0},
+    {file = "Audio/Transport/full_quest_62-ffa76af611ac7a794ce0/1-0000.mp3", duration = 51.8269388, start = 0},
   },
 }
 P.transport["quest:6261"] = {
@@ -4070,7 +4094,7 @@ P.transport["quest:6261"] = {
   fullHash = "93dbaa",
   text = "Dungar Longdrink. At the roost in Stormwind's Trade District, Dungar Longdrink arranges swift gryphon flights for supplies bound to Westfall's defenders. Defias outlaws and feral harvest golems have brought Westfall close to breaking. Quartermaster Lewis and the People's Militia badly need provisions. Lewis sent word to the capital, and armorer Osric Strang packed the equipment they asked for. Carrying military cargo on foot through bandit-ridden Elwynn and Westfall takes precious time. Stormwind's new aerial routes offer a vital link to the frontier. In Stormwind's Trade District, the gryphon roost is where Dungar Longdrink coordinates courier and passenger flights. Wildhammer dwarves have long raised and handled these great beasts. Gryphons carry people and cargo across human lands when roosts at both ends know the route. Bringing Osric's heavy crate straight to Dungar shows how aerial transport works. It links the capital's stockpiles to frontier outposts such as Sentinel Hill.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6261-a7a5815ffcece989cc80/1-0000.mp3", duration = 61.44, start = 0},
+    {file = "Audio/Transport/full_quest_6261-a023da119500202d0202/1-0000.mp3", duration = 60.2122449, start = 0},
   },
 }
 P.transport["quest:6281"] = {
@@ -4078,7 +4102,7 @@ P.transport["quest:6281"] = {
   fullHash = "77db79",
   text = "Continue to Stormwind. You carry a requisition from Sentinel Hill to Stormwind by gryphon, where Osric Strang awaits in Old Town. Quartermaster Lewis prepares a requisition note at Sentinel Hill. Thor, the local gryphon master, offers you the fastest way out of the contested plains. For a modest fee, you ride one of the kingdom’s trained gryphons above dusty farmlands and Elwynn Forest’s river border. Then the gryphon carries you over Stormwind City’s high white ramparts. You land at the capital’s trade roosts, then make your way into Old Town. There you find Osric Strang at his shop, Limited Immunity. Osric supplies the frontier, yet his grim reception shows the growing rift between Westfall’s beleaguered People’s Militia and the distracted rulers in Stormwind Keep.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6281-96b7439cd9b86940a92b/1-0000.mp3", duration = 49.1363265, start = 0},
+    {file = "Audio/Transport/full_quest_6281-7b308e76724bc0b682cd/1-0000.mp3", duration = 48.0130612, start = 0},
   },
 }
 P.transport["quest:6285"] = {
@@ -4086,7 +4110,7 @@ P.transport["quest:6285"] = {
   fullHash = "93eac9",
   text = "Return to Lewis. A crate of armor is bound for the People's Militia at Sentinel Hill, and Dungar Longdrink sends it from Stormwind by gryphon. The flight crosses Elwynn and Westfall to reach defenders under pressure. Osric, an armorer in Stormwind's Old Town, has packed a heavy crate of armor for the People's Militia volunteers at Sentinel Hill. Defias bandits, hungry gnolls, and mechanical harvest reapers threaten Westfall. A lone wagon is an easy target on those roads, so the flight master network gives the armor a safer way to the defenders. Gryphons are loyal and well trained, but they need a known destination before they carry a rider there. Dungar Longdrink explains that they instinctively return to their capital roost in Stormwind. For a remote outpost, you first meet its flight master in person. You have already checked in with Thor at Sentinel Hill, opening the skies over the frontier to swift travel. At Sentinel Hill, Quartermaster Lewis receives the crate and begins distributing its armor among the frontier defenders. He outfits Gryan Stoutmantle's volunteer force. Each shipment helps the militia hold its ground against the Defias Brotherhood.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6285-72efab555d24f8fff971/1-0000.mp3", duration = 70.4783673, start = 0},
+    {file = "Audio/Transport/full_quest_6285-7023af6f19e9abce3002/1-0000.mp3", duration = 70.5828571, start = 0},
   },
 }
 P.transport["quest:6321"] = {
@@ -4222,7 +4246,7 @@ P.transport["quest:6387"] = {
   fullHash = "a5d1e6",
   text = "Honor Students. Brock Stoneseeker sends an order from Thelsamar to Ironforge for honorary mining picks. He asks you to enlist Thorgrum Borrelson to carry it there. Brock teaches new miners about rock composition and tunnel safety. He rewards the apprentices who distinguish themselves with honorary picks. Mining sustains Thelsamar, and dwarves take pride in the craft. Local supplies are limited, so the picks must come from Ironforge across Khaz Modan. Thorgrum tends the gryphon roost beside Thelsamar, linking the frontier to Ironforge through the kingdom's aerial courier network. Bring Brock's order to him, and he can arrange a swift courier run to the capital's foundries.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6387-072d6006498c317b7983/1-0000.mp3", duration = 43.2587755, start = 0},
+    {file = "Audio/Transport/full_quest_6387-27c03933368f92c7f886/1-0000.mp3", duration = 42.1093878, start = 0},
   },
 }
 P.transport["quest:6388"] = {
@@ -4230,7 +4254,7 @@ P.transport["quest:6388"] = {
   fullHash = "a703ce",
   text = "Gryth Thurden. In Ironforge, Gryth Thurden can send you back toward Loch Modan with a parcel. You carry the Honorary Picks from Golnir Bouldertoe for Brock Stoneseeker's mining apprentices, and the city's gryphon roost offers a way over the mountain roads. You have traveled from Loch Modan to the Great Forge, where Golnir Bouldertoe gives you Honorary Picks for Brock Stoneseeker's mining apprentices. He points you to Ironforge's gryphon network instead of the mountain passes on foot. Carry the bundle across the city to the master handler, who can arrange your flight back. Gryth Thurden oversees Ironforge's flight roosts in the great mountain hall. Gryphon routes link the city with dwarven settlements across Khaz Modan. After scouting the route and speaking with the local handler, you can ask Gryth to arrange transport back to Thorgrum Borrelson in Thelsamar. The picks are bound for Brock Stoneseeker's apprentices, and the route joins mountain settlements by air.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6388-26e530df15c04c464e27/1-0000.mp3", duration = 56.3461224, start = 0},
+    {file = "Audio/Transport/full_quest_6388-6bc821d8598441690dcd/1-0000.mp3", duration = 57.5738776, start = 0},
   },
 }
 P.transport["quest:6391"] = {
@@ -4238,7 +4262,7 @@ P.transport["quest:6391"] = {
   fullHash = "56c8bc",
   text = "Ride to Ironforge. Brock Stoneseeker sends you from Thelsamar to Ironforge with the names of his finest mining students. You carry his list to Golnir Bouldertoe at the Great Forge. Thorgrum Borrelson carries you from Thelsamar over Dun Morogh's snowy ridges to the mountain fortress. For many young mountaineers and travelers, this is their first flight on a gryphon. At the Great Forge, Golnir Bouldertoe carves the students' names into ceremonial honorary picks. These honors recognize their hard work in Loch Modan's quarries and mines.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6391-dbc05a2b851f8349563d/1-0000.mp3", duration = 33.4367347, start = 0},
+    {file = "Audio/Transport/full_quest_6391-be2fa242a1c3797c9c4d/1-0000.mp3", duration = 33.9853061, start = 0},
   },
 }
 P.transport["quest:6392"] = {
@@ -4246,7 +4270,7 @@ P.transport["quest:6392"] = {
   fullHash = "561a8c",
   text = "Return to Brock. You carry Brock Stoneseeker’s missive to Ironforge and receive Honorary Picks for his apprentices. Gryth Thurden can fly you back to Thelsamar. Gryth Thurden oversees Ironforge’s gryphon flights from the city’s central platform. To fly to Thelsamar, you first need to have met its handler, Thorgrum Borrelson. Then Gryth can carry you and the picks over the mountains, returning Brock’s message and tools to the Loch. Brock Stoneseeker teaches mining in Thelsamar and needs tools for his apprentices. The Honorary Picks will let young miners work the rich copper and tin veins in the hills around the Loch.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6392-40e896e685027fd46b3b/1-0000.mp3", duration = 38.4522449, start = 0},
+    {file = "Audio/Transport/full_quest_6392-1f5a5f4085d30b1ef8c8/1-0000.mp3", duration = 39.2097959, start = 0},
   },
 }
 P.transport["quest:6395"] = {
@@ -4542,7 +4566,7 @@ P.transport["quest:752"] = {
   fullHash = "d1b1c6",
   text = "A Humble Task. On the Red Cloud Mesa, Chief Hawkwind asks a young adventurer to check on his mother. His pressing tribal concerns keep him at Camp Narache, so he sends you southeast to the well where Greatmother Hawkwind went for water. Every member of the tribe is expected to share in its harmony and do their part. For young tauren, duty begins with care for the community, not only prowess against quilboars or predators. Chief Hawkwind is bound to his post by the work of leading and defending the camp. So he trusts young adventurers to watch over the elders. The wells beyond the encampment provide water for the Red Cloud Mesa. Greatmother Hawkwind left Camp Narache early in the morning to fetch fresh water from a spring southeast of the encampment. Territorial wildlife and Bristleback quilboars range across the land. When an elder is away for hours, Chief Hawkwind grows concerned and sends you to make sure she is unharmed.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_752-027fab7d136c51d3835d/1-0000.mp3", duration = 56.084898, start = 0},
+    {file = "Audio/Transport/full_quest_752-212f70aba3ef3f2ae5eb/1-0000.mp3", duration = 56.7379592, start = 0},
   },
 }
 P.transport["quest:753"] = {
@@ -4594,11 +4618,11 @@ P.transport["quest:759"] = {
   },
 }
 P.transport["quest:76"] = {
-  hash = "39fe90",
-  fullHash = "39fe90",
-  text = "The Jasperlode Mine. Kobolds have overrun the Jasperlode Mine in eastern Elwynn. Marshal Dughan sends scouts to learn how far the infestation has spread. After kobolds swarmed the Fargodeep tunnels south of Goldshire, Marshal Dughan feared they had reached other mines. Jasperlode lies in the rocky foothills northeast of the Tower of Azora and supplies raw stone and metal to the kingdom. Dughan cannot spare Stormwind guards from their town patrols, so he sends independent adventurers east to see whether kobolds have taken this mine too. Scouts who reach Jasperlode's chambers find kobolds have driven out the human miners and fortified the dark passages. Marshal Dughan faces another blow as the crisis grows. King Varian Wrynn is missing, and royal troops are withheld from outlying territories. The local garrison has too few soldiers to clear the mines, leaving the kingdom's heart short of minerals and hemmed in by threats.",
+  hash = "e39310",
+  fullHash = "e39310",
+  text = "The Jasperlode Mine. Scouts are bound for The Jasperlode Mine in eastern Elwynn, where kobolds may have spread. Marshal Dughan needs to know how far they have reached. After kobolds swarmed the Fargodeep tunnels south of Goldshire, Marshal Dughan feared they had reached other mines. Jasperlode lies in the rocky foothills northeast of the Tower of Azora. Its stone and metal supply the kingdom. With Stormwind guards needed on town patrols, Dughan sends independent adventurers east to learn whether kobolds have taken this mine too. Scouts reaching Jasperlode's chambers find kobolds have driven out the human miners and fortified the dark passages. Marshal Dughan faces another blow as the crisis grows. King Varian Wrynn is missing, and royal troops remain withheld from outlying lands. The local garrison has too few soldiers to clear the mine. The kingdom's heart is left short of minerals and hemmed in by threats.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_76-9e5ba1bcd1fbd3a8349c/1-0000.mp3", duration = 56.8685714, start = 0},
+    {file = "Audio/Transport/full_quest_76-a8c40cb7c8da4c5a0f3e/1-0000.mp3", duration = 56.0587755, start = 0},
   },
 }
 P.transport["quest:760"] = {
@@ -4622,7 +4646,7 @@ P.transport["quest:763"] = {
   fullHash = "7dd127",
   text = "Rites of the Earthmother. At Camp Narache, Chief Hawkwind sends you beyond Red Cloud Mesa to continue the Rites of the Earthmother. After the first trials, you carry a carved totem north to Bloodhoof Village and Baine Bloodhoof. Young tauren have tested their strength at Camp Narache on Red Cloud Mesa for generations. The first trials teach discipline and resolve. Yet the sacred Rites of the Earthmother reach beyond surviving the mesa's wildlife. Chief Hawkwind knows when an initiate is ready to leave the sheltered hunting grounds and join the wider community. Chief Hawkwind gives you a hand-carved totem to introduce you on the road from Narache to the central settlements. Carry it down the winding path to Bloodhoof Village and present yourself to Baine Bloodhoof, the young chieftain and son of High Chieftain Cairne Bloodhoof. The totem is your credential and seal of approval. It marks your readiness for the rites of spirit and wisdom ahead.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_763-cfcf0ceadb474123c1f9/1-0000.mp3", duration = 56.0587755, start = 0},
+    {file = "Audio/Transport/full_quest_763-ff925e578cf13299f180/1-0000.mp3", duration = 53.7077551, start = 0},
   },
 }
 P.transport["quest:764"] = {
@@ -4758,7 +4782,7 @@ P.transport["quest:780"] = {
   fullHash = "1b24ef",
   text = "The Battleboars. At Camp Narache, young tauren hunt battleboars to guard their lands and feed the tribe's youth. East of Red Cloud Mesa, Brambleblade Ravine lies in Bristleback quilboar hands. Tensions between the Shu'halo and the quilboar have grown into open war. The Bristlebacks train vicious battleboars to test tauren borders and trouble their old hunting grounds. Left unchecked, the beasts endanger game trails and Camp Narache alike. Hunting keeps the tauren safe and feeds the tribe. Grull Hawkwind asks the young hunters to bring back the battleboars' snouts and flanks. Even these beasts, trained by quilboar hands, are put to use. Their meat and gristle go into stew for the tribe's youth, turning a quilboar weapon into food for the next generation of tauren defenders.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_780-3d6f377444780a0d1633/1-0000.mp3", duration = 47.3338776, start = 0},
+    {file = "Audio/Transport/full_quest_780-0e08ee867b3de239d9ba/1-0000.mp3", duration = 48.4832653, start = 0},
   },
 }
 P.transport["quest:781"] = {
@@ -4766,7 +4790,7 @@ P.transport["quest:781"] = {
   fullHash = "d76a9a",
   text = "Attack on Camp Narache. At Camp Narache, you carry a warning that could give the tauren time to call for aid. The Bristleback quilboar are planning a siege, and Chief Hawkwind needs to know. In Brambleblade Ravine, you find a crude map on the cavern floor. Its dirt-stained markings reveal the Bristleback quilboar plan a long siege against Camp Narache. This is more than a string of scattered attacks. You bring the attack plans to Chief Hawkwind at Camp Narache. Few defenders guard the camp, which shelters young initiates, so Hawkwind prepares to send word to Bloodhoof Village for reinforcements. Your warning gives the camp time to prepare for the siege.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_781-15281bcbe86218ad9d48/1-0000.mp3", duration = 39.5232653, start = 0},
+    {file = "Audio/Transport/full_quest_781-227645928c09b4d11d84/1-0000.mp3", duration = 40.3330612, start = 0},
   },
 }
 P.transport["quest:783"] = {
@@ -4998,7 +5022,7 @@ P.transport["quest:8311"] = {
   fullHash = "46aecb",
   text = "Hallow's End Treats for Jesper!. During Hallow's End, Jesper lies sick in Stormwind and longs for treats and fun beyond the orphanage. Too ill to go out, he asks Alliance adventurers to gather sweets for him. Jesper lies sick in Stormwind's orphanage in Cathedral Square during Hallow's End. While the children gather sweets across Azeroth, he must stay inside. So he hopes passing adventurers will share the holiday spirit and bring him treats. To bring Jesper the sweets he hopes for, you travel beyond Elwynn Forest. You visit the innkeepers of Stormwind, Ironforge, and Darnassus, then the gnome exile Talvash del Kissel. Each asks you to perform before giving you a treat. You cluck like a chicken, dance, flex, or chug like a train, and earn regional sweets such as Stormwind Nougat and Gnomeregan Gumdrops.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_8311-34c9484a06c2ab58f323/1-0000.mp3", duration = 51.2, start = 0},
+    {file = "Audio/Transport/full_quest_8311-0693fb2eb6281a5d5df9/1-0000.mp3", duration = 53.237551, start = 0},
   },
 }
 P.transport["quest:832"] = {
@@ -5054,7 +5078,7 @@ P.transport["quest:8355"] = {
   fullHash = "21691c",
   text = "Incoming Gumdrop. Talvash del Kissel keeps a Gnomeregan Gumdrop in Ironforge for a sick child in Stormwind. To earn it, you must give him a convincing train impression. At Hallow’s End, trick-or-treaters visit the Alliance strongholds for treats. In Ironforge’s Mystic Ward, Talvash del Kissel keeps the Gnomeregan Gumdrop. He feels for the young orphan who hopes to receive it. Yet Talvash asks you to bring some mischief to the holiday with a convincing train impression. Jesper is an ailing orphan in Stormwind City, hoping for four treats from across the Alliance. He wants nougat from Stormwind, a mint from Ironforge, marzipan from Darnassus, and a gumdrop from Gnomeregan. Your locomotive impression entertains Talvash and earns you the gumdrop. It brings Jesper closer to his holiday wish.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_8355-80410b6fe7c36fcc11f8/1-0000.mp3", duration = 51.8269388, start = 0},
+    {file = "Audio/Transport/full_quest_8355-887aab9ca26c9f9b157c/1-0000.mp3", duration = 53.2897959, start = 0},
   },
 }
 P.transport["quest:8356"] = {
@@ -6238,7 +6262,7 @@ P.transport["quest:95041"] = {
   fullHash = "e13a5c",
   text = "Data Hoarders. Outside Gnomeregan, Jemma Quikswitch searches the snow for lost punch cards. The exiled gnome lives in Ironforge, and the cards hold her family's archives, from submarine designs to family recipes. Without them, the records she still has remain unreadable. When troggs invaded Gnomeregan and radiation struck, thousands of gnomes fled with what they could carry. A damaged satchel spilled several of Jemma's cards into the snow around the fallen city. Without them, her surviving records read as gibberish, and her family's knowledge risks being lost. The Quikswitch archives hold arcanotechnical field equations and submarine hull blueprints from the Second War. They also preserve Grandma Quikswitch's secret chili recipe. For refugees in Ironforge, the comforts of home matter as much as engineering marvels.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_95041-c16e3e30c30ac0d8828c/1-0000.mp3", duration = 53.1069388, start = 0},
+    {file = "Audio/Transport/full_quest_95041-ceb845cab97181cbb7f4/1-0000.mp3", duration = 53.6816327, start = 0},
   },
 }
 P.transport["quest:95065"] = {
@@ -6298,11 +6322,11 @@ P.transport["quest:956"] = {
   },
 }
 P.transport["quest:957"] = {
-  hash = "8967b4",
-  fullHash = "8967b4",
-  text = "Bashal'Aran. At Bashal'Aran, Asterion's spirit remains bound by an ancient seal. You carry the seal south to Ameth'Aran, where an old flame may break his bonds. Asterion's spirit remains chained in death at Bashal'Aran by an Ancient Moonstone Seal. Highborne sorcerers forged it before the Great Sundering, and no ordinary strength can break its power. Only an ancient flame still burning among Ameth'Aran's fallen stones to the south can destroy it. Bashal'Aran and Ameth'Aran were sister settlements of the kaldorei under Queen Azshara, when the Well of Eternity anchored their empire. Now both are overgrown, haunted ruins, where ghosts linger and arcane power remains volatile. In a stone gazebo at Ameth'Aran, a mystical brazier burns with cyan fire. Only this flame can consume Asterion's binding relic.",
+  hash = "8d0082",
+  fullHash = "8d0082",
+  text = "Bashal'Aran. At Bashal'Aran, Asterion's spirit remains bound by an ancient seal. You carry the seal south to Ameth'Aran, where an old flame may break his bonds. The Ancient Moonstone Seal was forged by Highborne sorcerers before the Great Sundering, and no ordinary strength can break its power. Bashal'Aran and Ameth'Aran were sister settlements of the kaldorei under Queen Azshara, when the Well of Eternity anchored their empire. Now both are overgrown, haunted ruins, where ghosts linger and arcane power remains volatile. At Ameth'Aran, a mystical brazier burns with cyan fire in a stone gazebo; that is the sole flame able to consume the Ancient Moonstone Seal.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_957-8e5fdbb2f2cdd942855b/1-0000.mp3", duration = 54.0473469, start = 0},
+    {file = "Audio/Transport/full_quest_957-06855e2a7af05a75211e/1-0000.mp3", duration = 45.5053061, start = 0},
   },
 }
 P.transport["quest:959"] = {
@@ -6326,7 +6350,7 @@ P.transport["quest:96047"] = {
   fullHash = "0e2ed3",
   text = "Camping 101: First Aid. In Kharanos, Thamner Pol teaches you to prepare First Aid Kits for camps in Dun Morogh. With these supplies, travelers can stay alive in the field. You can build on your basic bandaging skills by learning to prepare supplies for a resting site. Thamner Pol shows you how raw medical supplies become complete kits, ready for use at camp when travelers need care far from shelter. Thamner Pol teaches you practical ways to outfit expedition sites with emergency supplies. A proper field kit lets a group bind wounds and regain strength together by the hearth before heading back into the cold.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_96047-a49a9608bc525d317d0c/1-0000.mp3", duration = 38.6612245, start = 0},
+    {file = "Audio/Transport/full_quest_96047-7abcc4ff9c0d2e191011/1-0000.mp3", duration = 37.3028571, start = 0},
   },
 }
 P.transport["quest:96139"] = {
@@ -6358,7 +6382,7 @@ P.transport["quest:96390"] = {
   fullHash = "62d45d",
   text = "Nip 'Em in the Bud. Dark Iron spies move through Dun Morogh, and Earthseer Farsen calls for help. Near Ironband's Compound, their presence threatens the Bronzebeard homeland. Dark Iron spies have crossed Dun Morogh's high passes and snowy crags. They hide near settlements and excavations, where even a few watchers may signal a strike. Earthseer Farsen sees the danger and calls on Alliance defenders to find them before their plans advance.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_96390-2fd3a3fd49fd751cabd5/1-0000.mp3", duration = 27.924898, start = 0},
+    {file = "Audio/Transport/full_quest_96390-5856501c11324404bbd2/1-0000.mp3", duration = 28.6302041, start = 0},
   },
 }
 P.transport["quest:96391"] = {
@@ -6686,7 +6710,7 @@ P.transport["quest:991"] = {
   fullHash = "593c7d",
   text = "Raene's Cleansing. In Ashenvale, Raene Wolfrunner asks you to find Teronis in Raene's Cleansing. He set out toward Lake Falathim to recover a magic gemstone and find a way to halt the furbolgs' growing aggression. Raene Wolfrunner serves with the Sentinels in Astranaar, defending Ashenvale from mounting threats. Teronis was among her closest companions. He set out to find a strong defense against the furbolg tribes as they grew more violent. Days passed without his return, and Raene feared the worst while duty kept her at her post. Teronis followed rumors of a powerful rod forged by a wicked wizard who had died. He believed its magic could calm the furbolg fury. To restore the rod, he needed an enchanted gem hidden in an elven shrine at Lake Falathim, near the mountains to the west. Yet aggressive murloc tribes had recently taken the lake's once-tranquil waters.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_991-42aba033f703f9528f19/1-0000.mp3", duration = 52.1665306, start = 0},
+    {file = "Audio/Transport/full_quest_991-a1752a805eb6ca0e85c9/1-0000.mp3", duration = 53.8122449, start = 0},
   },
 }
 P.transport["quest:99134"] = {

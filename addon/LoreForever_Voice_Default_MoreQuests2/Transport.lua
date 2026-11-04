@@ -281,6 +281,14 @@ P.transport["quest:1043"] = {
     {file = "Audio/Transport/full_quest_1043-037917c80dd3f5ac1d34/1-0000.mp3", duration = 40.3069388, start = 0},
   },
 }
+P.transport["quest:1044"] = {
+  hash = "4105d5",
+  fullHash = "4105d5",
+  text = "Answered Questions. The search for Velinde Starsong carries you from Ashenvale to Darnassus, where a report awaits.",
+  ["1"] = {
+    {file = "Audio/Transport/full_quest_1044-bf1260599b4c8fe65d9b/1-0000.mp3", duration = 6.03428571, start = 0},
+  },
+}
 P.transport["quest:1045"] = {
   hash = "b4a7c9",
   fullHash = "b4a7c9",
@@ -2558,7 +2566,7 @@ P.transport["quest:1784"] = {
   fullHash = "887308",
   text = "The Tome of Divinity. In Dun Morogh, injured scouts need help exposing Dark Iron spies near Helm's Bed Lake. Their orders may persuade Ironforge's skeptical council to heed the danger. Young dwarven paladins answer the call to defend Dun Morogh when an expedition near Helm's Bed Lake goes wrong. Narm Faulk and Muiredon Battleforge set out to ambush Dark Iron scouts. Narm fell wounded, while Muiredon returned to Ironforge to recover. Rumors of Dark Iron infiltrators have reached Ironforge, yet some council members refuse to believe they have entered Dun Morogh. Near Helm's Bed, the paladin can track down the spies and recover a Dark Iron Script from their captain. The orders offer proof of enemy movements and plots near the capital's gates.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1784-a152f9cdd1ecb5844e4f/1-0000.mp3", duration = 45.5053061, start = 0},
+    {file = "Audio/Transport/full_quest_1784-d8454b99c95039d0fdaf/1-0000.mp3", duration = 45.5836735, start = 0},
   },
 }
 P.transport["quest:1785"] = {
@@ -3321,6 +3329,14 @@ P.transport["quest:251"] = {
     {file = "Audio/Transport/full_quest_251-21a5dd23ef6b7342d4d0/1-0000.mp3", duration = 53.9689796, start = 0},
   },
 }
+P.transport["quest:252"] = {
+  hash = "361032",
+  fullHash = "361032",
+  text = "Translation to Ello. In Duskwood, you carry Sirra Von'Indi's translation to Lord Ello Ebonlocke in Darkshire. It belongs to the Abercrombie story, and the letter bears news of the hermit's writings.",
+  ["1"] = {
+    {file = "Audio/Transport/full_quest_252-e9da4e0d6ea0e487cf2d/1-0000.mp3", duration = 11.7289796, start = 0},
+  },
+}
 P.transport["quest:253"] = {
   hash = "33206d",
   fullHash = "33206d",
@@ -3449,6 +3465,14 @@ P.transport["quest:277"] = {
     {file = "Audio/Transport/full_quest_277-6f03b8f95a60ef037de4/1-0000.mp3", duration = 54.2563265, start = 0},
   },
 }
+P.transport["quest:283"] = {
+  hash = "6b112d",
+  fullHash = "6b112d",
+  text = "A Dark Threat Looms. Chief Engineer Hinderweir the Seventh needs you at Stonewrought Dam, where Dark Iron saboteurs have planted a charge. Disarm it before the valley below is in danger. The Stonewrought Dam holds back the waters of the Loch above the lowlands of the Wetlands. Dark Iron saboteurs have planted an explosive charge inside it, putting the valley below at risk. You apply the Disarming Mixture, and the volatile keg fizzles harmlessly. The immediate danger to the dam and the lives downstream has passed.",
+  ["1"] = {
+    {file = "Audio/Transport/full_quest_283-56da84c65c61d9ede93a/1-0000.mp3", duration = 29.7795918, start = 0},
+  },
+}
 P.transport["quest:284"] = {
   hash = "32b735",
   fullHash = "32b735",
@@ -3510,7 +3534,7 @@ P.transport["quest:2904"] = {
   fullHash = "45c4fd",
   text = "A Fine Mess. In Gnomeregan, you find Kernobee battered among the troggs after a Dark Iron ambush. His rescue brings word of a drilling rig beneath Dun Morogh, bound for Booty Bay. You find Kernobee in Gnomeregan’s dormitory, beaten and groggy. Dark Iron dwarves ambushed the goblin and left him among the feral troggs. You guide him through the contaminated corridors toward safety.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2904-09f0b407a718eebd3607/1-0000.mp3", duration = 23.9804082, start = 0},
+    {file = "Audio/Transport/full_quest_2904-8bb6de16f4dac7ab32d2/1-0000.mp3", duration = 23.6146939, start = 0},
   },
 }
 P.transport["quest:292"] = {
@@ -3526,7 +3550,7 @@ P.transport["quest:2922"] = {
   fullHash = "512b84",
   text = "Save Techbot's Brain!. Tinkmaster Overspark sends you into Gnomeregan to save Techbot's Brain! and recover its memory core. The machine once aided researchers, but radiation filled the city and an electrical surge during its fall polarized its brain and made its behavior violent. Overspark hopes the core will help him reverse the damage and restore his creation. Before Gnomeregan fell, Techbot aided researchers with its devices and deep technical knowledge. Tinkmaster Overspark designed the mechanical assistant, and its built-in gizmos made it a marvel of gnomish ingenuity. Then the trogg invasion brought chaos, and toxic radiation filled the city. A stray electrical surge jolted Techbot's delicate workings and polarized its positronic brain into a volatile negatronic state. Tinkmaster Overspark needs you to recover Techbot's core, for the machine now wanders Gnomeregan's contaminated halls in a frenzy and attacks anyone in sight. Overspark refuses to abandon his prized assistant as scrap. He asks you to find the machine, remove its memory core from the metal chassis, and bring it to Ironforge. With the core, he hopes to understand the polarization and repair Techbot's mind.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2922-0087f2dba3cc2f20446d/1-0000.mp3", duration = 73.2473469, start = 0},
+    {file = "Audio/Transport/full_quest_2922-055a8f07e20ca9067bd9/1-0000.mp3", duration = 71.8106122, start = 0},
   },
 }
 P.transport["quest:2923"] = {
@@ -3534,7 +3558,7 @@ P.transport["quest:2923"] = {
   fullHash = "603a00",
   text = "Tinkmaster Overspark. In Stormwind, Brother Sarno hears that Techbot has failed and that Tinkmaster Overspark grieves in Ironforge. He sends Alliance adventurers to Tinker Town, where Overspark asks for help recovering Techbot's memory core from Gnomeregan. Brother Sarno tends to travelers in Stormwind City and speaks of trouble among the gnomish refugees. Tinkmaster Overspark, one of the minds behind Gnomeregan's wonders, grieves over Techbot's corruption. The mechanical servant once aided the tinkerers faithfully. Then the city fell into ruin. You take the Deeprun Tram from Stormwind to Ironforge's Tinker Town. There, Overspark seeks adventurers willing to help in Gnomeregan's irradiated halls. He asks them to salvage what remains of Techbot's faculties before the construct causes irreparable harm.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2923-53d9720737078f50f019/1-0000.mp3", duration = 48.7706122, start = 0},
+    {file = "Audio/Transport/full_quest_2923-1798dcf979c37e8832c3/1-0000.mp3", duration = 50.1812245, start = 0},
   },
 }
 P.transport["quest:2924"] = {
@@ -3542,7 +3566,7 @@ P.transport["quest:2924"] = {
   fullHash = "8ee567",
   text = "Essential Artificials. In Ironforge, Klockmort Spannerspan lacks the components his experiments need. Exiled gnomes fled Gnomeregan during the trogg invasion and radiation disaster, leaving essential artificials in the city's lower halls. When troggs overran Gnomeregan and radiation filled its corridors, the gnomes fled with only what they could reach. Essential artificials remained behind. These specialized mechanical parts work in nearly any device, and tinkers and crafters prize them. Now in Ironforge's Tinker Town, master tinker Klockmort Spannerspan cannot continue his new experiments without a supply. Deep inside Gnomeregan, the components rest in heavy, steam-powered containers called artificial extrapolators. To reach them, you cross irradiated halls where mutated leper gnomes, malfunctioning defense automatons, and feral troggs roam. Klockmort needs twelve components to continue his work, keeping gnomish invention moving through exile.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2924-8a37625481da9bbbe3c4/1-0000.mp3", duration = 58.88, start = 0},
+    {file = "Audio/Transport/full_quest_2924-f20b24cca4858123f242/1-0000.mp3", duration = 58.3053061, start = 0},
   },
 }
 P.transport["quest:2925"] = {
@@ -3550,7 +3574,7 @@ P.transport["quest:2925"] = {
   fullHash = "5a4452",
   text = "Klockmort's Essentials. In Darnassus, Mathiel carries Klockmort Spannerspan's urgent plea across the sea. Bound to his post, he asks Alliance travelers to find his gnome friend in Ironforge. From the Warrior's Terrace in Darnassus, Mathiel sends word to Dun Morogh. Klockmort Spannerspan needs bold allies for a venture into Gnomeregan, but Mathiel cannot leave his post to travel there. So he asks capable Alliance travelers passing through Darnassus to make the journey in his place. Klockmort Spannerspan works in Tinkertown, Ironforge's district for gnomes driven from their underground city. He plans to recover vital machinery from Gnomeregan's contaminated corridors. Mathiel's referral brings you to Klockmort's workshop, where he needs help reclaiming what was left behind.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2925-04e599adef4636bb3f99/1-0000.mp3", duration = 48.3265306, start = 0},
+    {file = "Audio/Transport/full_quest_2925-847cc99ee15344fce7e3/1-0000.mp3", duration = 47.4644898, start = 0},
   },
 }
 P.transport["quest:2926"] = {
@@ -3558,7 +3582,7 @@ P.transport["quest:2926"] = {
   fullHash = "a23761",
   text = "Gnogaine. In Kharanos, Ozzie Togglevolt sends adventurers toward Gnomeregan to gather radioactive fallout. He hopes to make a cure for the leper gnomes, though the brew may become potent drink. Since Gnomeregan fell, refugees such as Gnoarn have sought to kill the trogg invaders and reverse the sickness that changed their kin. Ozzie Togglevolt and his partner Razzle Sprysprocket have taken another path from their workshop in Kharanos. Ozzie says they are trying to make a cure for the leper gnomes. Their formula might instead become very strong rum. Ozzie and Razzle need toxic residue from the heart of the disaster. Ozzie gives adventurers a leaden collection phial and sends them toward Gnomeregan's breached tunnels. Irradiated Invaders and Irradiated Pillagers roam there, troggs saturated with leaking waste. The phial needs their green glow.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2926-e0f2a872b4cd9edd4fdf/1-0000.mp3", duration = 51.3306122, start = 0},
+    {file = "Audio/Transport/full_quest_2926-ada6ae74201e963a4b68/1-0000.mp3", duration = 50.964898, start = 0},
   },
 }
 P.transport["quest:2927"] = {
@@ -3566,7 +3590,7 @@ P.transport["quest:2927"] = {
   fullHash = "5b9d32",
   text = "The Day After. In Ironforge and Kharanos, Gnomeregan's survivors search for an answer to their city's ruin. Gnoarn sends travelers to Ozzie Togglevolt, who studies the contamination and hopes to find a solution. In Ironforge's Tinker Town, Gnoarn mourns Gnomeregan and the loss of his gnomefro. Trogg invaders took the mechanical city, and toxic fallout stripped away his prized mane. Fury toward the troggs and hope of reclaiming the city move him to send sympathetic travelers to colleagues who can salvage what remains. In Kharanos, inventive gnomes have begun to face the fallout. Gnoarn sends travelers to Ozzie Togglevolt, who works with his partner Razzle Sprysprocket. Ozzie remembers the catastrophe, when Gnoarn's locks fell out in clumps and madness and thirst for vengeance took hold. Now Ozzie studies the contamination in the snowbound town, using his engineering skill to seek an antidote.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2927-21f90f1d319352bafe5c/1-0000.mp3", duration = 56.2677551, start = 0},
+    {file = "Audio/Transport/full_quest_2927-9339b6141be6170309aa/1-0000.mp3", duration = 54.1518367, start = 0},
   },
 }
 P.transport["quest:2928"] = {
@@ -3574,7 +3598,7 @@ P.transport["quest:2928"] = {
   fullHash = "b2249c",
   text = "Gyrodrillmatic Excavationators. In Stormwind's Dwarven District, Shoni the Shilent readies tunneling machines for Dun Morogh. Short on parts, she sends you into Gnomeregan to salvage them from rogue automatons. In Stormwind's Dwarven District, Shoni the Shilent prepares gyrodrillmatic excavationators for Dun Morogh. Gnomish engineers there aid their displaced kin. The machines will carry people and supplies underground, but these massive rigs cannot work without the mechanical parts Shoni lacks. Gnomeregan once supplied gnomish high technology. Its ruined halls and nearby tunnels still hold machines worth salvaging, though malfunctioning defense bots, mechanical sentries, and clockwork laborers roam unchecked. Shoni sends you into the fallen city for two dozen bundles of robo-mechanical guts, to bring back to human lands. Two dozen bundles of mechanical guts provide enough scrap to repair one excavationator. Shoni still has nearly four hundred machines to prepare, so mass transport underground remains a slow undertaking. Each working machine is a small step toward regaining ground lost in Gnomeregan's fall.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2928-6681a25f9cfb83fe3108/1-0000.mp3", duration = 67.9706122, start = 0},
+    {file = "Audio/Transport/full_quest_2928-660c0c0c8a80a06f61e2/1-0000.mp3", duration = 66.6122449, start = 0},
   },
 }
 P.transport["quest:293"] = {
@@ -3590,7 +3614,7 @@ P.transport["quest:2930"] = {
   fullHash = "c12a8c",
   text = "Data Rescue. Master Mechanic Castpipe sends you into Gnomeregan to recover its records. Troggs and radiation drove the gnomes from the city, but the punchograph terminals still guard its archives behind layers of clearance. Troggs and radiation drove Gnomeregan's people from the city, leaving centuries of research, schematics, and civic records behind. Matrix Punchograph terminals still line its technological corridors. They manage security clearance and store files. Master Mechanic Castpipe in Ironforge's Tinker Town wants you to recover those punch-encoded archives from the city's depths. Gnomish mainframes demand clearance in stages. First, find a White Punch Card among the wreckage outside the inner gates. Insert it into the Matrix Punchograph 3005-A in the Train Depot to make a Yellow card. Then take that to the 3005-B terminal in the Dormitory for a Blue card. Model 3005-C advances it to Red. The final terminal, 3005-D, waits in the Engineering Labs, where the Red card becomes a Prismatic Punch Card.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2930-03a3e8991382c3e7bdcb/1-0000.mp3", duration = 63.9477551, start = 0},
+    {file = "Audio/Transport/full_quest_2930-23b48806a1a55ee1266e/1-0000.mp3", duration = 65.0710204, start = 0},
   },
 }
 P.transport["quest:2931"] = {
@@ -3598,7 +3622,7 @@ P.transport["quest:2931"] = {
   fullHash = "e475c1",
   text = "Castpipe's Task. In Ironforge, Master Mechanic Castpipe calls travelers to recover Gnomeregan's records. The ruined halls still hold vital mechanical and technical knowledge. After Gnomeregan fell and was sealed under radioactive quarantine, its surviving gnomes found refuge in Ironforge's Tinkertown. Troggs and irradiated constructs still overrun their old home. Deep within the city, computing arrays hold operational records and mechanical schematics. Castpipe seeks outsiders willing to brave the toxic halls and recover files that may explain what went wrong or help the gnomes return. Gaxim Rustfizzle of the Enlightened Assembly of Arcanology, Alchemy and Engineering Sciences spreads word of Castpipe's effort. Castpipe belongs to no academic body, yet his fellow gnomes respect his skill and support his work. Rustfizzle puts the operation's strategic value at an eighty-four percent chance. Travelers can report to Tinkertown for orders.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2931-8459b9370d909f21904c/1-0000.mp3", duration = 57.9657143, start = 0},
+    {file = "Audio/Transport/full_quest_2931-111467ec8329f99bf838/1-0000.mp3", duration = 58.4620408, start = 0},
   },
 }
 P.transport["quest:294"] = {
@@ -3614,7 +3638,7 @@ P.transport["quest:2945"] = {
   fullHash = "97883d",
   text = "Grime-Encrusted Ring. A Dark Iron dwarf in Gnomeregan carries a ring caked in toxic filth and hardened muck. The Sparklematic 5200 in the Clean Zone dormitory can scour it clean and reveal its markings. Fighting leaves Gnomeregan's corridors coated in toxic sludge, oil, and radioactive fallout. Dark Iron dwarves who infiltrate the city carry trinkets fouled by that filth. One ring bears a crust that ordinary washing cannot remove. Beneath it, the metal may be copper, gold, or junk.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2945-8cd5cd5cf755a03d0949/1-0000.mp3", duration = 31.0595918, start = 0},
+    {file = "Audio/Transport/full_quest_2945-3370f3253cb8a5b1e3ae/1-0000.mp3", duration = 31.7126531, start = 0},
   },
 }
 P.transport["quest:2947"] = {
@@ -3622,7 +3646,7 @@ P.transport["quest:2947"] = {
   fullHash = "0a8c92",
   text = "Return of the Ring. In Gnomeregan, a golden ring bears a maker’s mark that leads you to Ironforge. You place a grime-caked bauble in Gnomeregan’s Sparklematic 5200. The machine strips away years of irradiated grime, revealing a polished Brilliant Gold Ring that still hums with arcane power. Inside the band, three initials, “TdK,” sit beside Ironforge’s hallmark seal.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2947-6f920202b872b3d5e376/1-0000.mp3", duration = 24.1371429, start = 0},
+    {file = "Audio/Transport/full_quest_2947-7ef2ab05e0da49014c04/1-0000.mp3", duration = 24.8946939, start = 0},
   },
 }
 P.transport["quest:2949"] = {
@@ -3630,7 +3654,7 @@ P.transport["quest:2949"] = {
   fullHash = "821052",
   text = "Return of the Ring. A ring from Gnomeregan bears Orgrimmar's seal and the letters NOG. Its trail leads to Nogg, a goblin engineer with a theory about the ruins. You clean a ring from Gnomeregan in the Sparklematic 5200. The machine strips away the filth and reveals Orgrimmar's official seal, a surge of magical power, and the partly legible letters NOG. Gnomeregan lies deep in Khaz Modan, an Alliance city far from the Horde capital. The ring may have been made in Kalimdor or carried there on a doomed expedition, but its seal points back to Orgrimmar.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2949-e9c14deeabd013528d7f/1-0000.mp3", duration = 32.9665306, start = 0},
+    {file = "Audio/Transport/full_quest_2949-3aa770b882051f01e44f/1-0000.mp3", duration = 35.4742857, start = 0},
   },
 }
 P.transport["quest:295"] = {
@@ -3646,7 +3670,7 @@ P.transport["quest:2951"] = {
   fullHash = "86cec1",
   text = "The Sparklematic 5200!. In Gnomeregan, the Sparklematic 5200! keeps cleaning salvaged valuables for three silver coins. Gnomish ingenuity keeps it working amid the ruined city's chaos. A pocket of surviving gnomes holds a secure perimeter near the Sparklematic 5200! in Gnomeregan. The machine scrubs harsh subterranean filth from salvaged valuables. Troggs and other subterranean creatures pound on the bulkheads, yet it remains ready for what you bring. Place a grime-caked relic and three silver coins in the Sparklematic, and the cleaning begins. The iron machine groans and vibrates, lurching as it strips away toxic sludge, irradiated grease, and rock dust. Moments later, it expels what lay beneath the muck, from precious minerals to mechanical components.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2951-23ddb5ff15fd84aaa822/1-0000.mp3", duration = 51.4089796, start = 0},
+    {file = "Audio/Transport/full_quest_2951-f1ef1298cc4eea4a3cdf/1-0000.mp3", duration = 51.5657143, start = 0},
   },
 }
 P.transport["quest:2952"] = {
@@ -3654,7 +3678,7 @@ P.transport["quest:2952"] = {
   fullHash = "5f6177",
   text = "The Sparklematic 5200!. In Gnomeregan, the Sparklematic 5200! takes in soiled salvaged objects and cleans them. Its cycles scour away toxic grime, then wrap whatever remains in a gift box. Feed toxic and contaminated refuse into the Sparklematic 5200!, and its cycles scour away grime and caustic residue. Once loaded and paid, the machine rattles through its routine. A cheerful ding follows, then a bow-tied present holds whatever remains. When Gnomeregan fell to the troggs, radiation and industrial mire buried personal effects and scraps of technology. Feed grime-encrusted objects into the machine, and it may recover gemstones, raw ores and other valuables swallowed when the city was vented.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2952-6712640ecbb7ca041444/1-0000.mp3", duration = 45.4791837, start = 0},
+    {file = "Audio/Transport/full_quest_2952-9474e2526d21dfafd59f/1-0000.mp3", duration = 45.6097959, start = 0},
   },
 }
 P.transport["quest:2953"] = {
@@ -3662,7 +3686,7 @@ P.transport["quest:2953"] = {
   fullHash = "c44a34",
   text = "More Sparklematic Action. In Gnomeregan, the Sparklematic 5200 still cleans what can be saved. Left behind when the city was evacuated, it scrubs muck and radioactive sludge from curiosities for a small fee in silver. Before the trogg invasion and the fallout that followed, Gnomeregan's engineers installed automated devices throughout the city. Toxic waste and hostile automatons now fill its corridors. Yet the Sparklematic 5200 follows its exact programming: it needs three silver coins and an artifact caked in grime to begin. The Sparklematic lurches as it sprays an inserted relic with potent gnomish solvents and scrubs it clean. A cheerful chime marks the end of the cycle, and the machine dispenses a neatly packaged box. Inside is whatever salvage remained beneath corrosive trogg slime and toxic filth.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2953-2246cb9a8e9b666b3db4/1-0000.mp3", duration = 50.8342857, start = 0},
+    {file = "Audio/Transport/full_quest_2953-48b84987f415a43253e9/1-0000.mp3", duration = 52.6367347, start = 0},
   },
 }
 P.transport["quest:296"] = {
@@ -3678,7 +3702,7 @@ P.transport["quest:2962"] = {
   fullHash = "5423ac",
   text = "The Only Cure is More Green Glow. In Kharanos, Ozzie Togglevolt seeks a cure for the leper gnomes. He needs a pure sample of fallout from deep inside Gnomeregan. Ozzie Togglevolt's first tests outside Gnomeregan gave him no answers. The troggs in Dun Morogh carried too little residue, and what they bore was impure. Now, from his lab in Kharanos, Ozzie seeks a fresh, concentrated sample from deep inside the city. He hopes it will help him find a remedy for the leper gnomes. You need to gather potent fallout from inside Gnomeregan. Irradiated horrors, lurkers, and slimes fill the lower depths around the Hall of Gears and Clean Zone. Their unstable ooze must be carried in a heavy leaden phial, and the work is dangerous. The fallout quickly loses its potency, so you need to get it to Ozzie's lab in Kharanos in time.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2962-8816dbc45b6b9b6ea48b/1-0000.mp3", duration = 47.124898, start = 0},
+    {file = "Audio/Transport/full_quest_2962-1c755e5ca32c0a6cfb31/1-0000.mp3", duration = 50.2595918, start = 0},
   },
 }
 P.transport["quest:297"] = {
@@ -3766,7 +3790,7 @@ P.transport["quest:3091"] = {
   fullHash = "5842bd",
   text = "Simple Note. At Camp Narache, Harutt Thunderhorn calls young tauren warriors to defend their people. His summons reminds them that warriors stand beside druids and shamans in guarding the tribal borders from centaur. At Camp Narache, a messenger brings young warriors a summons from Harutt Thunderhorn. The veteran trainer calls each fighter to report and begin training to defend the tribe. The Shu'halo revere their spiritual leaders, yet Harutt teaches that warriors bear an equal burden. They patrol tribal borders and hunt predatory centaur packs to protect their peaceful kin from attack. Battle may bring glory, but warriors remain humble and complete the same traditional rites as shamans and druids.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3091-c865320f04fc807ef9a9/1-0000.mp3", duration = 41.3779592, start = 0},
+    {file = "Audio/Transport/full_quest_3091-7b8dc48452ea4d8721d7/1-0000.mp3", duration = 41.482449, start = 0},
   },
 }
 P.transport["quest:3095"] = {
@@ -4177,12 +4201,28 @@ P.transport["quest:416"] = {
     {file = "Audio/Transport/full_quest_416-1bd60c2aa5adb1a64931/1-0000.mp3", duration = 38.4, start = 0},
   },
 }
+P.transport["quest:434"] = {
+  hash = "a4f5fa",
+  fullHash = "a4f5fa",
+  text = "The Attack!. Tyrion and Elling Trias draw a traitor into a garden meeting inside Stormwind Keep. Their plan puts his Defias contact within reach. An engineered automaton disguised as Priestess Tyriona carries word into the library: Lescovar’s guest has arrived. Lord Gregor Lescovar sends his guards away before leaving for the quiet garden. Tyrion is a spy, and he has fed Marzon false information. Elling Trias earns his living as a cheese merchant. Marzon the Silent Blade is an assassin tied to the Defias Brotherhood.",
+  ["1"] = {
+    {file = "Audio/Transport/full_quest_434-cfafd5f4939c07bff9ee/1-0000.mp3", duration = 33.0710204, start = 0},
+  },
+}
 P.transport["quest:442"] = {
   hash = "00b110",
   fullHash = "00b110",
   text = "Assault on Fenris Isle. High Executor Hadrec sends Forsaken agents to Fenris Isle. They are to storm Fenris Keep and take the head of Thule Ravenclaw, the necromancer commanding the island stronghold in Lake Lordamere. The Forsaken hold the western roads and have made their presence known at the Sepulcher. Yet the Scourge remain entrenched in Fenris Keep, on an island in Lake Lordamere east of Silverpine Forest. Their forces threaten the forest and the southern waterways that lead toward the Undercity. High Executor Hadrec sees Thule Ravenclaw’s experiments as a danger to Forsaken control of Silverpine. From the keep, Thule commands the Scourge close to the Forsaken shore.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_442-d0864d05c3dc04772caa/1-0000.mp3", duration = 39.4187755, start = 0},
+  },
+}
+P.transport["quest:453"] = {
+  hash = "af4264",
+  fullHash = "af4264",
+  text = "Finding the Shadowy Figure. Sven Yorgen's farm has been devastated, and Finding the Shadowy Figure turns toward the stranger who fled it. Tavernkeep Smitts points the search west from Darkshire into Duskwood's haunted woods. Sven Yorgen pleads for help identifying the figure who fled his devastated homestead. The trail leads to the Scarlet Raven Tavern, where Tavernkeep Smitts offers several clues. The fugitive was a complete stranger to Darkshire, nervous and jittery, and left the faint lamps at the town's edge in haste. He vanished into the wilderness to the west.",
+  ["1"] = {
+    {file = "Audio/Transport/full_quest_453-96d98ef37a7171c3ee58/1-0000.mp3", duration = 32.4440816, start = 0},
   },
 }
 P.transport["quest:4542"] = {
@@ -4703,6 +4743,14 @@ P.transport["quest:522"] = {
   text = "Assassin's Contract. In Hillsbrad Foothills, a Shadowy Assassin bears a contract naming Magistrate Henry Maleb for death. You are to carry it to Maleb in Southshore, where red wax bears a distinctive signet ring's mark. A Shadowy Assassin carries a contract in Hillsbrad Foothills. It names Magistrate Henry Maleb for death, and a distinctive signet ring has marked the red wax. Bring the paper to Maleb in Southshore.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_522-d5f95eb2a702ddff9a91/1-0000.mp3", duration = 25.9395918, start = 0},
+  },
+}
+P.transport["quest:524"] = {
+  hash = "5be774",
+  fullHash = "5be774",
+  text = "Elixir of Agony. In Tarren Mill, Apothecary Lydon prepares a deadly poison for a cruel test. He plans to disguise it as stolen dwarven ale and use it on human prisoners. Apothecary Lydon gathers foul ingredients across the Hillsbrad Foothills and steals dwarven ale from Dun Garok. The Royal Apothecary Society has charged him with making a deadly brew called Elixir of Agony. Once mixed, the poison waits inside a keg that appears to hold ordinary mountain stout.",
+  ["1"] = {
+    {file = "Audio/Transport/full_quest_524-ad33ac33e53f42d1ad0c/1-0000.mp3", duration = 28.5518367, start = 0},
   },
 }
 P.transport["quest:525"] = {
@@ -5471,6 +5519,14 @@ P.transport["quest:631"] = {
   text = "The Thandol Span. At the Thandol Span, Rhag Garmason seeks a missing dwarf scout after a blast destroys the northern crossing. The Dark Iron clan has attacked Dun Modr, cutting off word and leaving its defenders without reinforcements. Ol' Rustlocke may know what caused the blast. A blast has torn through the bridge between Wetlands and the Arathi Highlands. Bronzebeard soldiers at the border were caught in the destruction when Dark Iron dwarves attacked Dun Modr. Their ranks are thin, and their strongholds are under siege. Longbraid the Grim leads the survivors as they hold their ground against the attackers. Longbraid sent veteran scout Ebenezer Rustlocke to inspect the eastern span. He was to learn whether a crossing or northern route remained usable. Days have passed without word from him. Dun Modr is under siege, and Rhag Garmason and the garrison have too few soldiers to search the enemy-held rubble.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_631-82f25cda210ec123acf4/1-0000.mp3", duration = 53.5771429, start = 0},
+  },
+}
+P.transport["quest:632"] = {
+  hash = "fac2dc",
+  fullHash = "fac2dc",
+  text = "The Thandol Span. At the Thandol Span, Rhag Garmason waits for word from a missing scout. He sent adventurers to check on Ol' Ebenezer Rustlocke after the dwarf stopped reporting from the great stone crossing. The search beneath its arches may reveal a threat to northern supply lines. Longbraid the Grim sent Ebenezer Rustlocke to watch over the Thandol Span's structure and security. When the scout stopped reporting, foul play was feared.",
+  ["1"] = {
+    {file = "Audio/Transport/full_quest_632-c20cda90a8408c6be009/1-0000.mp3", duration = 26.2530612, start = 0},
   },
 }
 P.transport["quest:633"] = {
@@ -6254,7 +6310,7 @@ P.transport["quest:7807"] = {
   fullHash = "6a142a",
   text = "A Donation of Wool. Across the realm, A Donation of Wool calls for aid to the Gnomeregan Exiles. Driven from Gnomeregan, they need wool cloth to sustain their displaced people. Sixty pieces earn formal recognition among the gnomes. Gnomeregan's fall to trogg invaders and radioactive contamination drove its surviving gnomes from their high-tech city. They now live as refugees, hosted chiefly by their dwarven cousins in Ironforge.\n\nOutside their ancestral halls, the Gnomeregan Exiles face severe strain in supplying their people. Regular drives for cloth and other basics help keep them clothed, supplied, and organized. The drive asks each volunteer for exactly sixty pieces of wool cloth. By gathering modest contributions from across the realm, the exiles can collect the textiles they need for bedding, bandages, and clothing without overburdening any one supplier. Those who aid their recovery receive formal recognition among their people.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_7807-52229f1a2801f185be73/1-0000.mp3", duration = 57.6783673, start = 0},
+    {file = "Audio/Transport/full_quest_7807-a37842143fdff1938d29/1-0000.mp3", duration = 58.5926531, start = 0},
   },
 }
 P.transport["quest:78124"] = {
@@ -6374,7 +6430,7 @@ P.transport["quest:79093"] = {
   fullHash = "f37d93",
   text = "Rumi of Gnomeregan: The Collected Works. A compiled work by Rumi of Gnomeregan is sought for a library’s collection. Its pages preserve gnomish writings and knowledge that might otherwise be lost. Gnomish writings were scattered, buried, or left in danger when troggs overran Gnomeregan. Now scholars and archivists seek surviving manuscripts, treatises, and compiled works. They hope to keep the wisdom and ingenuity of gnomish thinkers alive. When travelers find collected works in the field and bring them to the archives, curators add them to their growing collections. Each recovered manuscript widens what scholars can study. Archivists welcome more magical and historical texts, keeping them within reach of scholars, mages, and historians who guard Azeroth’s learning.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_79093-1c698fd4350b3318fd02/1-0000.mp3", duration = 45.8710204, start = 0},
+    {file = "Audio/Transport/full_quest_79093-718431c8de208d787810/1-0000.mp3", duration = 46.5240816, start = 0},
   },
 }
 P.transport["quest:79095"] = {
@@ -7294,7 +7350,7 @@ P.transport["quest:92642"] = {
   fullHash = "f43b7c",
   text = "Disrupting Logistics. At the Gustberry Lowlands, Al'Aketh cultists are pressing a full-scale assault. Their healers keep the brawlers fighting, and the defenders need help before their lines give way. A fierce assault is bearing down on the defenders above the Gustberry Lowlands. Enemy forces are gathering, and the local lines are near breaking. The commanders expected substantial reinforcements from Valennia, but they must rely on whatever capable hands arrive. Strikes against the enemy's support may be the only way to hold the defense together. Al'Aketh brawlers press forward in ranks, sustained by healers who mend their wounds. In the Gustberry Lowlands, taking out those healers can break the cultists' push. That gives the defenders a chance to rally and drive back the invasion.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_92642-508fea4cbba0fef98b60/1-0000.mp3", duration = 45.7665306, start = 0},
+    {file = "Audio/Transport/full_quest_92642-02fe9597c0e6819a31a1/1-0000.mp3", duration = 45.2963265, start = 0},
   },
 }
 P.transport["quest:92643"] = {
@@ -7318,7 +7374,7 @@ P.transport["quest:92645"] = {
   fullHash = "e084b2",
   text = "Breaking the Breaker. In the Gustberry Lowlands, cultists press the defenders hard. Commander Belguilos leads the assault from her hillside villa, and striking her there may be the defenders’ only chance to survive. Cultists assault the Gustberry Lowlands, driving the local defenders to the brink. Repelling them seems nearly impossible while Commander Belguilos directs the attack. All fear her as “the Breaker.”\n\nHer villa is the operation’s base. Slaying her there is perilous, near-suicidal, yet passivity leaves the defenders doomed. Before she commanded the cultists, Belguilos kept order as a peacekeeper. Even then, those around her found something deeply unsettling in her manner. When the cult’s influence spread beyond control, she embraced its extremism. Now she commands the cultists and is a terror.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_92645-ebcac6988e896f1a9b93/1-0000.mp3", duration = 51.1477551, start = 0},
+    {file = "Audio/Transport/full_quest_92645-beef0171d47b48f268e9/1-0000.mp3", duration = 49.2669388, start = 0},
   },
 }
 P.transport["quest:92646"] = {
@@ -7558,7 +7614,7 @@ P.transport["quest:93065"] = {
   fullHash = "427329",
   text = "Prepare for Battle. The Peacekeepers are gathering in town to march into the surrounding territory. You are called to make your final preparations and meet Valennia Stormfist in the Gustberry Lowlands before the company departs. The Peacekeepers, the local defense forces, have called their troops and volunteers to arms as tensions rise. Secure your equipment, ready your weapons, and join the company as it forms for an organized march into the surrounding territory. The company gathers along the eastern road leading north out of town into the Gustberry Lowlands. There, organizer Valennia Stormfist inspects the fighters and calls the roll. Then the company marches into danger.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_93065-e91d21d8beef1bf7914a/1-0000.mp3", duration = 38.6873469, start = 0},
+    {file = "Audio/Transport/full_quest_93065-98d023ad2b6553d96856/1-0000.mp3", duration = 39.2097959, start = 0},
   },
 }
 P.transport["quest:93089"] = {
@@ -7702,7 +7758,7 @@ P.transport["quest:93740"] = {
   fullHash = "76a86a",
   text = "Blood for Blood. Several Windshaper novices lie dead in the Highlands, and the Windshapers suspect the Al'Aketh. Ayessa sends you north to the Gustberry Lowlands to answer the killings and bring back the fallen cultists' windstone prayer charms. Several Windshaper novices have been found slain in the Highlands. Proof is scarce, yet the Windshapers suspect the Al'Aketh cultists. Their zealotry makes them the chief suspects. The Windshapers' creed demands an eye for an eye, so they will not let the killings go unanswered. Ayessa calls for you to strike at any Al'Aketh you find north in the Gustberry Lowlands. She asks you to bring back the windstone prayer charms carried by the fallen cultists, as proof of their deaths. The Windshapers see this strike as an answer to the cultists' long fanaticism.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_93740-a1e6c20f572654d755d5/1-0000.mp3", duration = 46.9942857, start = 0},
+    {file = "Audio/Transport/full_quest_93740-60ca6a8f0805bc7375d6/1-0000.mp3", duration = 46.8636735, start = 0},
   },
 }
 P.transport["quest:93791"] = {
@@ -7814,7 +7870,7 @@ P.transport["quest:94013"] = {
   fullHash = "83f8a2",
   text = "Taming the Beast. Quel'ana Quickgale gives you one last trial in taming a Vuldren Alpha. Mastering it prepares you for the deeper teachings of your class. Quel'ana gives you a Taming Rod and sends you to the Gustberry Lowlands. There, you are to tame a Vuldren Alpha. Then return the rod to him in Valanaar. This trial proves your mastery and prepares you for deeper class teachings.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_94013-8932c62766db3a850eaa/1-0000.mp3", duration = 21.1853061, start = 0},
+    {file = "Audio/Transport/full_quest_94013-5551ea266ecc4062720d/1-0000.mp3", duration = 21.3681633, start = 0},
   },
 }
 P.transport["quest:94050"] = {
@@ -8262,7 +8318,7 @@ P.transport["quest:94979"] = {
   fullHash = "00f20b",
   text = "Taming the Beast. In the Gustberry Lowlands, Quel'ana Quickgale asks you to tame a galestrider. Your skill on open ground will prepare you for trials ahead. You've already shown you can tame the river's crawler. Now Quel'ana Quickgale gives you a Taming Rod and sends you to the lowlands of Zephras. There, a proud, winged galestrider runs swiftly across the plains. Earn its trust and practice your skill. Then bring the rod back to Quel'ana in Valanaar.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_94979-81d0a1ac7b864d4f4e13/1-0000.mp3", duration = 26.8538776, start = 0},
+    {file = "Audio/Transport/full_quest_94979-52e1fa7ef22980dcb4a8/1-0000.mp3", duration = 26.8538776, start = 0},
   },
 }
 P.transport["quest:95"] = {
@@ -8382,7 +8438,7 @@ P.transport["quest:95214"] = {
   fullHash = "2e3548",
   text = "Stolen Blasting Powder. At Gol'Bolar Quarry, Stolen Blasting Powder has gone east with the troggs. Quarrymaster Thesten needs help recovering the missing munitions before the brutes set them off by accident. At Gol'Bolar Quarry in Dun Morogh, dwarves use heavy blasting charges to break stone and open deep veins. But primitive troggs from the nearby crags stole a bulk shipment of high-grade powder. Quarrymaster Thesten needs capable hands before the pack causes an accidental detonation. The missing keg holds enough force to reduce King Magni Bronzebeard's grand throne room to an open-air courtyard. The troggs carried the powder east to their rough foothill camps. Left alone, they may soon discover fire or strike stone against spark.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_95214-5662fc601f08a8046c41/1-0000.mp3", duration = 43.2587755, start = 0},
+    {file = "Audio/Transport/full_quest_95214-469c7bc5ea3b6cb662de/1-0000.mp3", duration = 43.3632653, start = 0},
   },
 }
 P.transport["quest:95216"] = {
@@ -8810,11 +8866,11 @@ P.transport["quest:96661"] = {
   },
 }
 P.transport["quest:96800"] = {
-  hash = "87aa1f",
-  fullHash = "87aa1f",
-  text = "Past Due. A scholar needs a missing tome from the Scarlet Monastery to study Grim Batol’s ancient Wildhammer runemasters. A scholar is writing a thesis on the ancient Wildhammer runemasters of Grim Batol. The old Dalaran library’s ledgers say Doan borrowed the tome before the Third War and never returned it. Now in the Scarlet Monastery in Tirisfal Glades, Doan still has the book, waiting to be recovered.",
+  hash = "430856",
+  fullHash = "430856",
+  text = "Past Due. A scholar needs a missing tome from the Scarlet Monastery to study Grim Batol’s ancient Wildhammer runemasters. The old Dalaran library’s ledgers show that Arcanist Doan borrowed the tome before the Third War and never returned it.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_96800-7624cb4787a40f482c4e/1-0000.mp3", duration = 25.1297959, start = 0},
+    {file = "Audio/Transport/full_quest_96800-f9dab9b9534eb1335505/1-0000.mp3", duration = 14.6546939, start = 0},
   },
 }
 P.transport["quest:96821"] = {
@@ -9774,7 +9830,7 @@ P.transport["quest:98246"] = {
   fullHash = "f8684c",
   text = "Trying Times. Before Howin Kindfeather can fly through the Wetlands, Bassbeak needs a meal. He seeks a dozen intact eggs from the fierce Razormaw raptors. Howin Kindfeather tends Bassbeak in the Wetlands. The dwarf will not fly with his gryphon until her hunger is eased. A hungry gryphon can be stubborn and unpredictable. She may lash out, so a proper meal must come before any flight through the marshes. Howin seeks food for Bassbeak among the Razormaw raptors. Their nests lie at Raptor Ridge to the northeast and Saltspray Glen to the northwest. Razormaw eggs have yolks as large as a gnome's head. Howin wants those substantial meals to satisfy Bassbeak before she faces the dangers of the Wetlands.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_98246-7a620066d7c506c08944/1-0000.mp3", duration = 43.1281633, start = 0},
+    {file = "Audio/Transport/full_quest_98246-ef1cb61eea425940f5cd/1-0000.mp3", duration = 43.6767347, start = 0},
   },
 }
 P.transport["quest:98248"] = {
@@ -9862,7 +9918,7 @@ P.transport["quest:98319"] = {
   fullHash = "d6a706",
   text = "Secure the Mountain. You face a growing danger in Dun Morogh: wendigos have overrun the Grizzled Den, and Whitebeard's report is missing. Cornelius entered the cavern while his partner waited outside. Wendigos are multiplying across the cold mountain slopes and crowding into the Grizzled Den to the north. Dwarven scouts already contend with Frostmane trolls. Now savage beasts make the crags perilous for patrols and couriers. Cornelius charged into the Grizzled Den to secure Whitebeard's vital report. His partner waits outside, seeking help to find the scout and thin the ferocious wendigos in the cave.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_98319-ba265cc2039136bcd786/1-0000.mp3", duration = 36.3363265, start = 0},
+    {file = "Audio/Transport/full_quest_98319-8dd72fe89b98f8ca5c88/1-0000.mp3", duration = 37.7208163, start = 0},
   },
 }
 P.transport["quest:98321"] = {
@@ -10018,11 +10074,11 @@ P.transport["quest:98430"] = {
   },
 }
 P.transport["quest:98435"] = {
-  hash = "3ca9da",
-  fullHash = "3ca9da",
-  text = "Thunderhorns Bericht. Mull sends you to carry Thunderhorn’s report to Archdruid Hamuul Runetotem in Thunder Bluff. The elders need to hear what your help has accomplished. You bring Thunderhorn’s report to Hamuul on the Elder Rise in eastern Thunder Bluff. The report concerns Mulgore’s springs, which sustain the tauren and the animals they rely on for food, clothing, and companionship.",
+  hash = "c5b003",
+  fullHash = "c5b003",
+  text = "Thunderhorns Bericht. Mull Thunderhorn sends you to carry his report to Archdruid Hamuul Runetotem in Thunder Bluff. The elders need to hear what your help has accomplished. Mull Thunderhorn’s report concerns the springs of Mulgore. Archdruid Hamuul Runetotem is on the Elder Rise in eastern Thunder Bluff, where those waters sustain the tauren and the animals they rely on for food, clothing, and companionship.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_98435-5b24866745e356bbdf3e/1-0000.mp3", duration = 21.4204082, start = 0},
+    {file = "Audio/Transport/full_quest_98435-f0377134a769f920c02d/1-0000.mp3", duration = 23.8759184, start = 0},
   },
 }
 P.transport["quest:98459"] = {

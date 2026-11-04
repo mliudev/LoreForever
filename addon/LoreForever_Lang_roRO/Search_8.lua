@@ -2,6 +2,7 @@
 -- Sources: data/i18n/roRO. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_roRO")
 local Po = P.search.post
+Po["malincreta"] = "A13B"
 Po["malincui"] = "A18C"
 Po["malinharta"] = "A17C"
 Po["malininsusi"] = "ESvC"
@@ -12001,4 +12002,3 @@ Po["nightlashoriginea"] = "APFC"
 Po["nightlashpiele"] = "APABDhMB"
 Po["nightlashpovestea"] = "APCCDhOC"
 Po["nightlashpraful"] = "APBC"
-Po["nightlashscopul"] = "DhUC"

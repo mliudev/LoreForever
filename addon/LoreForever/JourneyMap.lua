@@ -884,9 +884,12 @@ local function tip(self)
   GameTooltip:Show()
 end
 
--- A small square button in the panel's style, with a sign drawn on it (b.glyph: its parts, dimmed when it's off).
+-- A small square button with a sign drawn on it (b.glyph: its parts, dimmed when it's off), in the page's look (the
+-- palette of 11/3): a card fill, a thin tan edge, an oxblood sign.
 local function iconButton(parent, label, more, onClick)
-  local b = T.SkinButton(CreateFrame("Button", nil, parent))
+  local b = T.SkinButton(CreateFrame("Button", nil, parent), "paper")
+  b.skinBg:Show()
+  T.Fill(b.skinBg, "cardFill")
   b:SetSize(20, 20)
   b.tip, b.tip2, b.glyph = label, more, {}
   b:SetScript("OnClick", onClick)
@@ -896,7 +899,7 @@ local function iconButton(parent, label, more, onClick)
 end
 
 local function bar(b, w, h, x, y)
-  local t = T.Area(b, "gold", "ARTWORK")
+  local t = T.Area(b, "inkAccent", "ARTWORK")
   t:SetSize(w, h)
   t:SetPoint("CENTER", x or 0, y or 0)
   b.glyph[#b.glyph + 1] = t

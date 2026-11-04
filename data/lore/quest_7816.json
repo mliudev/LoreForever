@@ -41,7 +41,7 @@
     "katoom revantusk",
     "katoom location"
    ],
-   "answer": "Katoom the Angler fishes at Revantusk Village in the Hinterlands. He asks you to hunt Gammerita, Mon!."
+   "answer": "Katoom the Angler fishes at Revantusk Village in the Hinterlands. He asks you to hunt Gammerita."
   },
   {
    "q": "What is Gammerita?",
@@ -50,7 +50,7 @@
     "what is gammerita",
     "gammerita turtle"
    ],
-   "answer": "Gammerita, Mon! is no ordinary turtle. She leads the saltwater snapjaws, and Katoom calls her a thief."
+   "answer": "Gammerita is no ordinary turtle. She leads the saltwater snapjaws, and Katoom calls her a thief."
   },
   {
    "q": "Why does Katoom want Gammerita dead?",
@@ -59,7 +59,7 @@
     "what did gammerita steal",
     "katoom motive"
    ],
-   "answer": "Gammerita, Mon! snapped Katoom's best lure off his line, and the fish have not bitten as they once did. He wants it back from her stomach."
+   "answer": "Gammerita snapped Katoom's best lure off his line, and the fish have not bitten as they once did. He wants it back from her stomach."
   },
   {
    "q": "Where can Gammerita be found?",
@@ -68,7 +68,7 @@
     "gammerita location",
     "find gammerita"
    ],
-   "answer": "Gammerita, Mon! stays on the coast among the other saltwater snapjaw turtles."
+   "answer": "Gammerita stays on the coast among the other saltwater snapjaw turtles."
   }
  ],
  "angles": [],

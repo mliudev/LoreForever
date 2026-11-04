@@ -29,7 +29,7 @@
     "menethil ferries",
     "kalimdor boats"
    ],
-   "answer": "Ships from menethil harbor cross the Great Sea to Kalimdor. Passenger vessels sail regularly to theramore isle in dustwallow marsh, then north to southshore in the hillsbrad foothills and onward to the night elven haven of auberdine."
+   "answer": "Ships from Menethil Harbor cross the Great Sea to Kalimdor. Passenger vessels sail regularly to Theramore Isle in Dustwallow Marsh, then north to Southshore in the Hillsbrad Foothills and onward to the night elven haven of Auberdine."
   },
   {
    "q": "Who rules Menethil Harbor?",
@@ -62,7 +62,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "For an Alliance traveler heading west, Menethil Harbor is a vital staging ground and the sole maritime bridge linking the Eastern Kingdoms to theramore isle."
+   "text": "For an Alliance traveler heading west, Menethil Harbor is a vital staging ground and the sole maritime bridge linking the Eastern Kingdoms to Theramore Isle."
   },
   {
    "target": "race:Dwarf",

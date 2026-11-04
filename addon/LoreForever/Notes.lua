@@ -3,11 +3,15 @@
 
 local _, ns = ...
 ns.Notes = {
-  version = "0.37.0",
-  released = "2026-11-03",
+  version = "1.0.0",
+  released = "2026-11-04",
   items = {
-    { "The rewritten lore is read aloud again", "the places, people, items and quests that were rewritten tell their new story in both narrators' voices, and their hidden passages are recorded too.", "The rewritten lore is read aloud again:" },
-    { "Story names, read aloud", "in the first stories recorded, your narrator says the story's name before telling it. More follow.", "Story names, read aloud:" },
-    { "Spanish stays whole", "Spanish stories now show entirely in Spanish, never with English filled in, like the other translated languages.", "Spanish stays whole:" },
+    { "Ready for WoW Forever's launch", "quest dialogue from level 1 to 60 is read aloud in both narrators' voices, from your very first quest.", "Ready for WoW Forever's launch:" },
+    { "The Defias Brotherhood and nine more stories", "held back until launch to keep their twists, they now join your story catalog.", "The Defias Brotherhood and nine more stories:" },
+    { "Story cards read the way they sound", "a story that plays from its first section starts there on the page too, Listen and Add to playlist share one quiet button by its title, and your storyline and progress sit under it.", "Story cards read the way they sound:" },
+    { "A calmer, cleaner book in a stone frame", "buttons drawn in the book's ink, gold only for what's playing or new, green only for what you've heard, a clear paper message box, and History as a page of the book.", "A calmer, cleaner book in a stone frame:" },
+    { "Tidier tabs and player", "the bookmark tabs are one size with a small gold dot for new pages, and the player's 10-second jumps are round buttons like Previous and Next.", "Tidier tabs and player:" },
+    { "The Road fits in German", "a zone's chapter shows as many of its newest moments as fit, and its link to the rest no longer runs into the player.", "The Road fits in German:" },
+    { "", "Corrected lore in 129 entries.", "" },
   },
 }

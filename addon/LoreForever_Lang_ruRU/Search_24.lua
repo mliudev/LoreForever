@@ -2,6 +2,13 @@
 -- Sources: data/i18n/ruRU. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ruRU")
 local Po = P.search.post
+Po["эльфынеохотно"] = "CbxC"
+Po["эльфыобучать"] = "D/DC"
+Po["эльфыозеро"] = "GIlC"
+Po["эльфыоказались"] = "GA8C"
+Po["эльфыопасаются"] = "F3sC"
+Po["эльфыоставили"] = "DcIC"
+Po["эльфыотмеченные"] = "GXMC"
 Po["эльфыполучают"] = "ASUC"
 Po["эльфыпоместье"] = "Fu7B"
 Po["эльфыпотеряли"] = "EumCE0OCGUTC"

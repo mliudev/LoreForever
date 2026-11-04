@@ -1329,9 +1329,9 @@
     "item:bingles-blastencapper": {
       "1": [
         {
-          "duration": 46.23673469387755,
-          "file": "Audio/Transport/full_item_bingles-blastencapper-d292281746e50cb1c0b9/1-0000.mp3",
-          "sha256": "02de8a419ddb9fdc2076b129fad3eb6dee2ba3b885a256c0b778faf524314be4",
+          "duration": 49.371428571428574,
+          "file": "Audio/Transport/full_item_bingles-blastencapper-5505a07f56867330f2fc/1-0000.mp3",
+          "sha256": "7bde28ecf4eda38d4b20b8c4de987914b7f578d0ee97322f5be3125094a39d44",
           "start": 0
         }
       ],
@@ -1343,21 +1343,21 @@
         ]
       },
       "fullHash": "89c230",
-      "generation": "56d61e714a73750f9847",
+      "generation": "5c8b6000a654e637d67a",
       "hash": "89c230",
       "source": {
-        "duration": 46.262857,
+        "duration": 49.397551,
         "file": null,
-        "sha256": "d292281746e50cb1c0b9924fd59573606230281d8db0b2c2e6c7367fea7491df"
+        "sha256": "5505a07f56867330f2fc5c12039d846b40068a228ceebcb6672fe58b5ace8aa8"
       },
       "text": "Bingles' Blastencapper. Troggs hold Bingles' Blastencapper after his gyrocopter fell into the Loch. Without it, Bingles' plans to aid Gnomeregan's liberation are in danger. Bingles Blastenheimer built the Blastencapper to strike from the air at the troggs and leper gnomes who overran Gnomeregan. Mechanical failure sent his gyrocopter into the Loch, but Bingles survived. Troggs from the northern islands raided the wreckage and carried the volatile weapon to their camps. Bingles needs the Blastencapper to help retake Gnomeregan. The exiled gnomes are preparing to reclaim their radioactive home, and he counts on his gyrocopter and signature munitions for the air assault. In trogg hands, the explosive could accidentally cause a catastrophe in Loch Modan. Recovering it would preserve a valuable weapon for the gnomish resistance."
     },
     "item:bingles-hammer": {
       "1": [
         {
-          "duration": 31.216326530612246,
-          "file": "Audio/Transport/full_item_bingles-hammer-988cd9cab66ec9d35003/1-0000.mp3",
-          "sha256": "30709fe4c7d5958c027a1ac2e12c56a8b3389fa7487adc0b8c707ba853a99f31",
+          "duration": 31.477551020408164,
+          "file": "Audio/Transport/full_item_bingles-hammer-7109702676f0a03fea76/1-0000.mp3",
+          "sha256": "046ee2336f7d62bee2228149392f0e2d804f7378879cfcad258efc3f9208242c",
           "start": 0
         }
       ],
@@ -1369,21 +1369,21 @@
         ]
       },
       "fullHash": "25318c",
-      "generation": "3621c88b70fe031abfbe",
+      "generation": "5fd392598401ef8f7018",
       "hash": "25318c",
       "source": {
-        "duration": 31.242449,
+        "duration": 31.477551,
         "file": null,
-        "sha256": "988cd9cab66ec9d35003545aa893ba8fb6eb59740914207b1fc3d4c5bbb4e5fe"
+        "sha256": "7109702676f0a03fea76aaa84505b6fcc556fd483a6360753f6d79e9ce3b0b40"
       },
       "text": "Bingles' Hammer. At his crash site in Loch Modan, Bingles Blastenheimer needs Bingles' Hammer back from the troggs. With his gear restored, he can repair his flying machine and help free Gnomeregan. Troggs raided Bingles Blastenheimer's crash site on the freshwater islands. They took his hammer and high-potency explosives. The hammer is needed to repair the dented airframe and adjust the gyrocopter's mechanical parts. Without his equipment, Bingles cannot fly support runs for the gnome forces fighting to reclaim Gnomeregan."
     },
     "item:bingles-screwdriver": {
       "1": [
         {
-          "duration": 43.49387755102041,
-          "file": "Audio/Transport/full_item_bingles-screwdriver-c2a0ea3a648d82478954/1-0000.mp3",
-          "sha256": "028507e668d56999362df49a1fd99234aafc3ca79c315a83a7abab3ab9dd24fd",
+          "duration": 46.158367346938775,
+          "file": "Audio/Transport/full_item_bingles-screwdriver-1c1e8b88f569eb0b6192/1-0000.mp3",
+          "sha256": "60d0be4a51508d585532898de50e21d5c3bdc3819f9e86c938776236f97db15d",
           "start": 0
         }
       ],
@@ -1395,21 +1395,21 @@
         ]
       },
       "fullHash": "01c6c2",
-      "generation": "236fb76fac30d07818f4",
+      "generation": "8aeca9724619365f2fbb",
       "hash": "01c6c2",
       "source": {
-        "duration": 43.52,
+        "duration": 46.18449,
         "file": null,
-        "sha256": "c2a0ea3a648d824789544d1219ea5a66fd69e7f70367a18fa50cb88d93ae3813"
+        "sha256": "1c1e8b88f569eb0b619215c949663cd3a69026444a4c427ac1ed6dd714767211"
       },
       "text": "Bingles' Screwdriver. Across Loch Modan's northern islands, Bingles' Screwdriver lies among the gear lost in a crash. Troggs carried it off with the tools of pilot Bingles Blastenheimer. When Bingles Blastenheimer crashed into Loch Modan, he lost the tools needed to repair his gyrocopter. Troggs on nearby islands carried off his tool buckets, and the screwdriver was packed in one of them. Bingles needs it for fine adjustments as he repairs the craft and handles its armaments. Bingles works to free Gnomeregan from troggs and leper gnomes. He means to join his flying skill with volatile Blastencapper munitions in an aerial assault. The screwdriver, wrench, and hammer will help him rebuild his gyrocopter and keep the airborne counteroffensive alive."
     },
     "item:bingles-wrench": {
       "1": [
         {
-          "duration": 39.3665306122449,
-          "file": "Audio/Transport/full_item_bingles-wrench-c3aa2f382775691893cf/1-0000.mp3",
-          "sha256": "719902f460c3ff2f243d8e4e4fcef750acb886120157e36aaee8636253b19b4f",
+          "duration": 39.23591836734694,
+          "file": "Audio/Transport/full_item_bingles-wrench-bb36abe1bdb1bf639c1f/1-0000.mp3",
+          "sha256": "33ea39f9d6a0e701f88220c307900b70ac7c795f5d14238f518fa8f9420bd504",
           "start": 0
         }
       ],
@@ -1421,12 +1421,12 @@
         ]
       },
       "fullHash": "032235",
-      "generation": "8df11d0460cc694dc301",
+      "generation": "3d571e845a096065dd03",
       "hash": "032235",
       "source": {
-        "duration": 39.366531,
+        "duration": 39.262041,
         "file": null,
-        "sha256": "c3aa2f382775691893cf1d3c3107d1c7f6bc8a91b96053ef41b169ca7a238a5e"
+        "sha256": "bb36abe1bdb1bf639c1f9a57f4a56ad34e3758cabcd593040b3e5d8aaf8223a6"
       },
       "text": "Bingles' Wrench. In the Loch, Bingles' Wrench is missing with the pilot's other tools. Troggs took it after Bingles Blastenheimer crash-landed his flying machine. Bingles Blastenheimer survived when his gyrocopter crashed into the Loch. Then the troggs raided the crash site on the small northern islands. They took his specialized supplies and scattered his tools among buckets in their camps.\n\nBingles' Wrench is one of three critical hand tools, alongside his high-yield Blastencapper explosives. Without the wrench, Bingles cannot repair his downed gyrocopter. His planned aerial offensive to aid the exiled gnomes fighting to reclaim Gnomeregan must wait."
     },
@@ -1901,9 +1901,9 @@
     "item:brock-s-list": {
       "1": [
         {
-          "duration": 34.89959183673469,
-          "file": "Audio/Transport/full_item_brock-s-list-6e20c3953f0ee80d57c0/1-0000.mp3",
-          "sha256": "0c5f7e6d84ee00c8f69e627af4c6b573e2e9ce50a5fb3e6c511ba69b5ea66e94",
+          "duration": 34.63836734693878,
+          "file": "Audio/Transport/full_item_brock-s-list-de27fd1abc31b7b57bff/1-0000.mp3",
+          "sha256": "0b39f8719cd287fd72e388ad043fa2193749bf9350230fba0109f9adb681aba7",
           "start": 0
         }
       ],
@@ -1915,12 +1915,12 @@
         ]
       },
       "fullHash": "805726",
-      "generation": "8219d27dde31e365553c",
+      "generation": "a402934bbe37dad3839d",
       "hash": "805726",
       "source": {
-        "duration": 34.925714,
+        "duration": 34.66449,
         "file": null,
-        "sha256": "6e20c3953f0ee80d57c0c57d0646efa8935b45dde73851343a13a8e7c911f186"
+        "sha256": "de27fd1abc31b7b57bff9c250e3bf588f9dfa6d98ee586b61a861ac5df621f27"
       },
       "text": "Brock's List. At Thelsamar, Brock Stoneseeker sends a list of mining pupils honored with picks from Ironforge's guild halls. In Khaz Modan, apprentices must prove their skill before taking on serious work in the mines. Brock records those who excel in their lessons. He entrusts the list to travelers bound for Ironforge, where the honored names can be engraved on the picks. A gryphon carries Brock's List from Thelsamar's roost to Golnir Bouldertoe at the Deep Mountain Mining Guild in Ironforge's Great Forge. There, the students' names are engraved on their honorary picks."
     },
@@ -3227,9 +3227,9 @@
     "item:crocolisk-tear-classic": {
       "1": [
         {
-          "duration": 25.077551020408166,
-          "file": "Audio/Transport/full_item_crocolisk-tear-classic-5271644e6ef0d5c01a4e/1-0000.mp3",
-          "sha256": "09815f9586043adf3bf3c7d833df8ab12965a29dbfdf04b94d1b900613199181",
+          "duration": 25.129795918367346,
+          "file": "Audio/Transport/full_item_crocolisk-tear-classic-618bcbabea76cb858912/1-0000.mp3",
+          "sha256": "e31b1eb1657826074e3625686ea59a6b0fd01d3997ae8783c7987beb10db6a9a",
           "start": 0
         }
       ],
@@ -3241,12 +3241,12 @@
         ]
       },
       "fullHash": "4aa5cd",
-      "generation": "b6670c4d831cfaa86953",
+      "generation": "cb6243edea516ed920c6",
       "hash": "4aa5cd",
       "source": {
-        "duration": 25.103673,
+        "duration": 25.155918,
         "file": null,
-        "sha256": "5271644e6ef0d5c01a4ee984a1d672544f939df6e45788b7d02db365d6c2d873"
+        "sha256": "618bcbabea76cb858912c801209caa6cc1340f11804325092c7d3ec838adf127"
       },
       "text": "Crocolisk Tear (Classic). At the Stonewrought Dam, Chief Engineer Hinderweir needs Crocolisk Tear to counter Dark Iron explosives. Crocolisk Tears come from reptiles in Loch Modan's waters. Chief Engineer Hinderweir found another use for their secretions. Mixed with potent spider venom and resonant ogre minerals, a tear gains the chemical properties needed to counter the volatile Dark Iron demolition charges threatening the Stonewrought Dam."
     },
@@ -4059,9 +4059,9 @@
     "item:disarming-mixture": {
       "1": [
         {
-          "duration": 28.99591836734694,
-          "file": "Audio/Transport/full_item_disarming-mixture-4c11339c4b55cc731b9a/1-0000.mp3",
-          "sha256": "e131ebd1138ad25b95977b18b2d7fe160bdc1e25da132d78da18e40acc932ee8",
+          "duration": 28.57795918367347,
+          "file": "Audio/Transport/full_item_disarming-mixture-c5daf9a343aa259a194c/1-0000.mp3",
+          "sha256": "8d3d342063a4c517af71406f2bbb1443ad9caa77c43d29a27c5d332e22a78fc4",
           "start": 0
         }
       ],
@@ -4073,12 +4073,12 @@
         ]
       },
       "fullHash": "445c72",
-      "generation": "3652130e7b625f997d9f",
+      "generation": "df13212c93601d6d08b2",
       "hash": "445c72",
       "source": {
-        "duration": 29.022041,
+        "duration": 28.604082,
         "file": null,
-        "sha256": "4c11339c4b55cc731b9af232b38dea71793be76bd001399b156f801e60f8e6e0"
+        "sha256": "c5daf9a343aa259a194c51821096629c2361ad9e4768598f16499753bb281909"
       },
       "text": "Disarming Mixture. At Stonewrought Dam, Chief Engineer Hinderweir prepares Disarming Mixture to stop a Seaforium charge planted by Dark Iron saboteurs. The heavy Seaforium charge lies beneath the dam’s foundation, and no Mountaineers are close enough to help. Hinderweir turns to ingredients named by explosives expert Ashlan Stonesmirk. He stirs them into a chemical neutralizer, then mixes it with the powder keg underwater. The reactive compounds are neutralized, and the charge is left harmless."
     },
@@ -4787,9 +4787,9 @@
     "item:empty-leaden-collection-phial": {
       "1": [
         {
-          "duration": 41.822040816326535,
-          "file": "Audio/Transport/full_item_empty-leaden-collection-phial-d56148855c5cffe0bd8d/1-0000.mp3",
-          "sha256": "dbbf6cc71f7de569ba49b2526fb31fa9f234a6cda7cce02bebfe1598839e1466",
+          "duration": 41.40408163265306,
+          "file": "Audio/Transport/full_item_empty-leaden-collection-phial-daf373ee4bc59ab002dc/1-0000.mp3",
+          "sha256": "2cfe585de6c5da3635fa71f3fac1bd1e401141613f4c009b51bdd3298883046a",
           "start": 0
         }
       ],
@@ -4801,12 +4801,12 @@
         ]
       },
       "fullHash": "2f9fd7",
-      "generation": "6c30c77d2d081cfccf1d",
+      "generation": "d2f8fb46d4f93b64c904",
       "hash": "2f9fd7",
       "source": {
-        "duration": 41.848163,
+        "duration": 41.430204,
         "file": null,
-        "sha256": "d56148855c5cffe0bd8d1c5a4768d9bf22105fcc2c75e8022e7dde53dc4f22d2"
+        "sha256": "daf373ee4bc59ab002dc37fb5dd1e4444aae4953f4a4d8bf0c4d8f4e6340ebbe"
       },
       "text": "Empty Leaden Collection Phial. Ozzie Togglevolt gathers Gnomeregan’s radioactive fallout in a leaden phial. He hopes the residue may help cure his afflicted kin, or make an extraordinarily potent drink. Ozzie Togglevolt made a leaden phial to gather the radiation left in Gnomeregan. The city’s vents once flooded its tunnels with toxic radiation to purge the trogg menace. The surviving defenders became leper gnomes, and the invading beasts were irradiated.\n\nGreen light still clings to Irradiated Invaders and Pillagers prowling the ruins. The lead shields the handler as the phial draws in the dangerous residue. Once sealed, the collection becomes a Full Leaden Collection Phial for Ozzie’s experiments."
     },
@@ -5125,9 +5125,9 @@
     "item:essential-artificial": {
       "1": [
         {
-          "duration": 56.267755102040816,
-          "file": "Audio/Transport/full_item_essential-artificial-d310c2351cf14b10ea38/1-0000.mp3",
-          "sha256": "378377f4599c27ca455743d8868b608d851b05409e76ab302e2b376538fd52ce",
+          "duration": 57.208163265306126,
+          "file": "Audio/Transport/full_item_essential-artificial-7cc2d0ea16df91f208f9/1-0000.mp3",
+          "sha256": "436a73e28f531c870fede00955d924509a4416d7176987672514d704d899a929",
           "start": 0
         }
       ],
@@ -5139,12 +5139,12 @@
         ]
       },
       "fullHash": "20dff7",
-      "generation": "679e47925a2574ef61b4",
+      "generation": "b2355ee166774f193212",
       "hash": "20dff7",
       "source": {
-        "duration": 56.293878,
+        "duration": 57.234286,
         "file": null,
-        "sha256": "d310c2351cf14b10ea387c0de5f73a70e19446d489cbf3605b991f3f20e718b1"
+        "sha256": "7cc2d0ea16df91f208f9e56f299a0ce485da4b217d52a300114df0c9feb8e72c"
       },
       "text": "Essential Artificial. In Ironforge, Essential Artificial parts help gnomish tinkers and engineers rebuild after exile. The gnomes left stockpiles behind when they fled Gnomeregan. Before Gnomeregan fell, tinkers relied on the Essential Artificial as a component for many uses. Gnomish engineers fitted it into contraptions, clockwork wonders and heavy machinery throughout the subterranean halls. Its standard design let smiths and machinists exchange parts with confidence. The trogg invasion and radiation disaster drove the gnomes from Gnomeregan in a desperate rush. Large stores of Essential Artificial parts remained in heavy, steam-powered dispensers called artificial extrapolators, scattered through the deeper passages.\n\nIn Tinker Town, master craftsman Klockmort Spannerspan seeks daring adventurers to return to the contaminated ruins and recover the parts. He needs them so research and invention can continue."
     },
@@ -5541,9 +5541,9 @@
     "item:felix-s-box": {
       "1": [
         {
-          "duration": 45.79265306122449,
-          "file": "Audio/Transport/full_item_felix-s-box-08174ff9abdd9d38b5a6/1-0000.mp3",
-          "sha256": "db7c8d38f93a8f4fee1b79f2accfe28cb10625d3573740101025b8bd71b96447",
+          "duration": 46.419591836734696,
+          "file": "Audio/Transport/full_item_felix-s-box-c2537f8c520dea2cb858/1-0000.mp3",
+          "sha256": "604fb2024f4fb9d1a2e129bd284f6dfa6c9ae71801d61adaf376324d189e1e4e",
           "start": 0
         }
       ],
@@ -5555,21 +5555,21 @@
         ]
       },
       "fullHash": "da3d3e",
-      "generation": "b201dbb250cfe1af1de4",
+      "generation": "dfebc6ac2db81b0f2912",
       "hash": "da3d3e",
       "source": {
-        "duration": 45.792653,
+        "duration": 46.445714,
         "file": null,
-        "sha256": "08174ff9abdd9d38b5a6cced64810100c2b52d156be2f148990e846f6f8556d7"
+        "sha256": "c2537f8c520dea2cb8588d7f506286a8493cfdb7f61c89b3bbecb6b7551a5d81"
       },
       "text": "Felix's Box. In Frostmane camps southwest of Anvilmar, Felix's Box lies far from the gnome refugee who lost it. Radiation swept through Gnomeregan during the failed attempt to purge the trogg menace. Felix Whindlebolt fled with the gnomes into Coldridge Valley, leaving his possessions and crafting gear along the snowy road to escape the fumes. Frostmane trolls plundered the goods before he could return. They carried his box, chest, and bucket of bolts to their settlements southwest of Anvilmar. Felix is unused to violence and poorly suited to Dun Morogh's wilderness. He needs passing adventurers in Anvilmar to help recover his belongings. Their return would restore some normalcy and give the displaced artisan the means to earn a living. He lost everything when Gnomeregan fell."
     },
     "item:felix-s-bucket-of-bolts": {
       "1": [
         {
-          "duration": 32.522448979591836,
-          "file": "Audio/Transport/full_item_felix-s-bucket-of-bolts-5987fb34a7067896aebf/1-0000.mp3",
-          "sha256": "bdee64bd0357db79fb98c398943e2a11bbd66769d1db9e8997852b8c523f0e00",
+          "duration": 34.586122448979594,
+          "file": "Audio/Transport/full_item_felix-s-bucket-of-bolts-9e2d570d08ee4df7c314/1-0000.mp3",
+          "sha256": "8b608b0434c80b13ff6fe935c80c181f60f1fda5f5ea3c338956d4d5bdbb4977",
           "start": 0
         }
       ],
@@ -5581,21 +5581,21 @@
         ]
       },
       "fullHash": "c5eafb",
-      "generation": "e6bd3929c0b9141c70ef",
+      "generation": "a275dc5ae00200982560",
       "hash": "c5eafb",
       "source": {
-        "duration": 32.548571,
+        "duration": 34.612245,
         "file": null,
-        "sha256": "5987fb34a7067896aebf5da365c989584325f275ca382ebfdd62d63e147d9003"
+        "sha256": "9e2d570d08ee4df7c314b17d8ddbe2058109ff4b7c90826a99f6056b5fcd0c68"
       },
       "text": "Felix's Bucket of Bolts. In Dun Morogh, Frostmane trolls carry Felix's Bucket of Bolts to their camps. Felix Whindlebolt is missing the tools he brought from Gnomeregan. Felix Whindlebolt fled Gnomeregan with his tools after the disaster with the troggs. Radiation drove thousands of gnomes into Dun Morogh's freezing wilds with whatever they could carry. Felix headed for Anvilmar, but Frostmane trolls from the crags southwest of town ambushed him. They seized his belongings, including his bucket of bolts and parts, leaving the artisan without the materials he needs for his craft in exile."
     },
     "item:felix-s-chest": {
       "1": [
         {
-          "duration": 27.29795918367347,
-          "file": "Audio/Transport/full_item_felix-s-chest-aa72b23035eceb86fe31/1-0000.mp3",
-          "sha256": "45b07e0157cef5319a991da54606e399726b24115edb230a65345ec47cbe6a37",
+          "duration": 26.383673469387755,
+          "file": "Audio/Transport/full_item_felix-s-chest-289d9acf77f04fbd8534/1-0000.mp3",
+          "sha256": "98436d9750936a8d39d8a51b043c04d9389726f79e31f50266e8698ccc5deeb6",
           "start": 0
         }
       ],
@@ -5607,12 +5607,12 @@
         ]
       },
       "fullHash": "1ef798",
-      "generation": "e1146a2a57cc16dc8680",
+      "generation": "8be27d23865d533cb060",
       "hash": "1ef798",
       "source": {
-        "duration": 27.324082,
+        "duration": 26.409796,
         "file": null,
-        "sha256": "aa72b23035eceb86fe31f7a62cf11d256036816577b06dc1ddd0db085928d20b"
+        "sha256": "289d9acf77f04fbd8534b51158ab078fc7f2dc71e93af8104533ed6a75c464cb"
       },
       "text": "Felix's Chest. In a Frostmane camp southwest of Anvilmar, Felix's Chest holds what he lost fleeing Gnomeregan. When troggs and toxic radioactive fallout drove the gnomes from Gnomeregan, refugees crossed snowy Dun Morogh carrying what they could. Frostmane trolls scavenged the roads and overtook scattered survivors. They took Felix Whindlebolt's sturdy chest to their camps in the crags, where his toolkits and personal belongings remain among their supplies."
     },
@@ -5853,9 +5853,9 @@
     "item:filled-cursed-ooze-jar": {
       "1": [
         {
-          "duration": 62.48489795918368,
-          "file": "Audio/Transport/full_item_filled-cursed-ooze-jar-bbaa7a4b32353c2bc91f/1-0000.mp3",
-          "sha256": "9b28b7c79afce0e913f6c37390b73994566f2ea47768438707a128fd5ba0303e",
+          "duration": 62.928979591836736,
+          "file": "Audio/Transport/full_item_filled-cursed-ooze-jar-9e2639c332cf0f96f806/1-0000.mp3",
+          "sha256": "18a681d97d02b65f41f4c723a8216e2ae06122dd5422c7aceb7d7190b50ffbd0",
           "start": 0
         }
       ],
@@ -5867,12 +5867,12 @@
         ]
       },
       "fullHash": "0f739c",
-      "generation": "270649bb0327d81bb91b",
+      "generation": "e68496e74b531ed4a229",
       "hash": "0f739c",
       "source": {
-        "duration": 62.51102,
+        "duration": 62.955102,
         "file": null,
-        "sha256": "bbaa7a4b32353c2bc91f68b2300a3c9057bba2b34dd0853f003d425bc6377da6"
+        "sha256": "9e2639c332cf0f96f806bb2538ed405e909a6732e1617c3d84706211fe6028d5"
       },
       "text": "Filled Cursed Ooze Jar. In Felwood, a Filled Cursed Ooze Jar carries a sample for Laris Geardawdle in Ironforge. The gnome scholar seeks the ancient origins of slimes across Azeroth. Laris Geardawdle, a gnome researcher, sees mystery in the vile puddles and caustic slimes others pass by. Slimes thrive across Azeroth, and Forsaken apothecaries gather them with care. These sights led Geardawdle to a bold theory: oozes may be primordial secretions bound to Azeroth's creation. To gather a sample, brave Felwood's blighted woods and defeat a cursed ooze. Scoop its acidic remains into an empty jar before they dissolve. Laris Geardawdle hopes his ooze samples will bring knowledge and a lasting name. A major discovery could secure his reputation in the dwarven-led Explorers' League. Since Gnomeregan fell, many gnome refugees in Ironforge have felt pressed to prove their worth to their dwarven hosts. Geardawdle believes that uncovering ooze's ancient secrets will show them that welcoming gnomes was no mistake."
     },
@@ -6009,9 +6009,9 @@
     "item:filled-tainted-ooze-jar": {
       "1": [
         {
-          "duration": 55.04,
-          "file": "Audio/Transport/full_item_filled-tainted-ooze-jar-3398df73a9514c97fd34/1-0000.mp3",
-          "sha256": "21bf1ed2becab756262a5e529c46bd402d919aaf9cdfb6d8ad0121ab00e555f0",
+          "duration": 54.7265306122449,
+          "file": "Audio/Transport/full_item_filled-tainted-ooze-jar-9f051328182221636a83/1-0000.mp3",
+          "sha256": "5ce8a5a5df3e0efd5262bdc83297240fa0d41480ee4576c1fb7db76a26f916e2",
           "start": 0
         }
       ],
@@ -6023,12 +6023,12 @@
         ]
       },
       "fullHash": "84b501",
-      "generation": "4c23a8d52cfee70e87ba",
+      "generation": "760cd99cc872977b3820",
       "hash": "84b501",
       "source": {
-        "duration": 55.066122,
+        "duration": 54.752653,
         "file": null,
-        "sha256": "3398df73a9514c97fd34fffe24b1fa8dca41f2a34bc791dfe51a6131599cdac3"
+        "sha256": "9f051328182221636a83d39994e36591a62413a4cab15845376cf57c68093b2b"
       },
       "text": "Filled Tainted Ooze Jar. In Felwood, a Filled Tainted Ooze Jar carries samples of corruption to Ironforge. The samples may help explain how life began on Azeroth. Across northern Kalimdor, tainted oozes bear Felwood’s lingering corruption. Gnomish researchers provide jars to hold them safely. Most travelers keep clear of these noxious creatures, yet their remains yield samples for natural philosophy and biological study far from the blighted woods. Laris Geardawdle, a gnome scholar with the Explorers' League in Ironforge, gathers the samples. The commonness of slimes fascinates him, and he has seen the Forsaken's Royal Apothecary Society take an interest in them too.\n\nMany scholars dismiss Geardawdle's theory. He believes slimes and oozes may be primal secretions tied to Azeroth's creation. He seeks proof, and a place among dwarven scholars after Gnomeregan's tragic fall."
     },
@@ -6399,9 +6399,9 @@
     "item:full-leaden-collection-phial": {
       "1": [
         {
-          "duration": 40.85551020408163,
-          "file": "Audio/Transport/full_item_full-leaden-collection-phial-7e0d12b386cc0971cb01/1-0000.mp3",
-          "sha256": "ac6fc7e27053d0ecc2cc6b4ceddd23055fd936e9cc584ff8a7325ed1e84567de",
+          "duration": 39.47102040816327,
+          "file": "Audio/Transport/full_item_full-leaden-collection-phial-6da8f73fcc12df5c2b97/1-0000.mp3",
+          "sha256": "a2b6fa0cc205921efc0aa62c46067c315a1417c914daeba5783fd372430b74b2",
           "start": 0
         }
       ],
@@ -6413,12 +6413,12 @@
         ]
       },
       "fullHash": "871638",
-      "generation": "60352a77223870d69887",
+      "generation": "b0475585669a8c30421e",
       "hash": "871638",
       "source": {
-        "duration": 40.881633,
+        "duration": 39.497143,
         "file": null,
-        "sha256": "7e0d12b386cc0971cb0166e965d38cd209d995fe9b234fbf1644696716118dd0"
+        "sha256": "6da8f73fcc12df5c2b97b54a988ec1994d93482ddbc4ac5674ff2a24626dd09f"
       },
       "text": "Full Leaden Collection Phial. In Kharanos, Ozzie Togglevolt seeks a sample from Gnomeregan’s troggs. He hopes it will cure irradiated leper gnomes, or perhaps make a dangerously potent rum. A lead lining shields the bearer from the volatile green fallout saturating Gnomeregan. High Tinker Mekkatorque’s advisors flooded the lower corridors with toxic radiation to stop the invading troggs. Instead, the disaster corrupted troggs and surviving gnomes into maddened, irradiated horrors.\n\nIrradiated Invaders and Pillagers leave fluid residue for refugee tinkerers in Kharanos. Ozzie Togglevolt and Razzle Sprysprocket use it as raw material in their experiments on remedies."
     },
@@ -6503,9 +6503,9 @@
     "item:furlbrow-s-deed": {
       "1": [
         {
-          "duration": 35.44816326530612,
-          "file": "Audio/Transport/full_item_furlbrow-s-deed-d9868b1ddeea1d5767f2/1-0000.mp3",
-          "sha256": "a19c9cb106ffc5ed71f84ef4a99e690316ab65ffe42b95e215f3bece25d930e8",
+          "duration": 34.795102040816325,
+          "file": "Audio/Transport/full_item_furlbrow-s-deed-56ec526d5996467506d1/1-0000.mp3",
+          "sha256": "9bc42f4033cb46dabf1fd5dd1e24ffa4fbd02f89ee93ec1337a43d9af9a52cd2",
           "start": 0
         }
       ],
@@ -6517,21 +6517,21 @@
         ]
       },
       "fullHash": "fa45d9",
-      "generation": "e57375df66c78c5414bc",
+      "generation": "15198e77da6f0af1ec9a",
       "hash": "fa45d9",
       "source": {
-        "duration": 35.474286,
+        "duration": 34.821224,
         "file": null,
-        "sha256": "d9868b1ddeea1d5767f241f9f4937930b3369448959dcd869747d6e11c8aa5ba"
+        "sha256": "56ec526d5996467506d1e2301181f538d998bfc66b4935ed7d656e5b7909bd8b"
       },
       "text": "Furlbrow's Deed. Beside their broken wagon near Westfall's border, Theodore and Verna Furlbrow have lost their farm to the Defias Brotherhood. Their land deed is in bandit hands, and with it went their home and livelihood. Theodore Furlbrow and Verna signed the deed to secure their family farm in Westfall. After the Defias Brotherhood overran the region, bandits drove them from home and carried the deed into Elwynn Forest. Notes on its back show the thieves planned to copy it and forge claims to other properties. The Furlbrows lost their livelihood and took to the road, with no home to return to."
     },
     "item:furlbrow-s-pocket-watch": {
       "1": [
         {
-          "duration": 31.320816326530615,
-          "file": "Audio/Transport/full_item_furlbrow-s-pocket-watch-e0944ca5bc20bd2db895/1-0000.mp3",
-          "sha256": "38a804bda5e13ba1beadd7be99721e075d515039a29371698473ceaf403f3175",
+          "duration": 31.373061224489796,
+          "file": "Audio/Transport/full_item_furlbrow-s-pocket-watch-0b884190935e8b5ec09f/1-0000.mp3",
+          "sha256": "6d8e1cd06ae6942b6b41573784c646553548d9196abd49f76c0023f1f5a84d8c",
           "start": 0
         }
       ],
@@ -6543,12 +6543,12 @@
         ]
       },
       "fullHash": "24f3f3",
-      "generation": "4c3ee749a13793812f68",
+      "generation": "c765890287d558d50d61",
       "hash": "24f3f3",
       "source": {
-        "duration": 31.346939,
+        "duration": 31.399184,
         "file": null,
-        "sha256": "e0944ca5bc20bd2db895a5b42d607a370a0ed1f7498d2a0b5ca96116b839cba6"
+        "sha256": "0b884190935e8b5ec09ff3f7a51f74617d45daafdb53efba251bab0545f9308b"
       },
       "text": "Furlbrow's Pocket Watch. In Westfall, Farmer Furlbrow searches for the pocket watch he lost when Defias bandits drove him from home. Verna’s father gave it to him on their wedding day. Defias bandits drove Farmer Furlbrow and Verna from their home at the Furlbrow Pumpkin Patch in the night. In their flight, he left the watch in a wardrobe in the overrun farmhouse. Benny Blaanco and his cutthroats keep watch nearby.\n\nThe couple now camps along the road. The watch is one of the few pieces of their former life the outlaws have not ruined."
     },
@@ -7205,9 +7205,9 @@
     "item:glyphic-memorandum": {
       "1": [
         {
-          "duration": 29.936326530612245,
-          "file": "Audio/Transport/full_item_glyphic-memorandum-3e4804398993851b26c1/1-0000.mp3",
-          "sha256": "70f976492ca67be5e5963698e7643d59d088d50e4af6a7f4057b6f784861cc69",
+          "duration": 28.83918367346939,
+          "file": "Audio/Transport/full_item_glyphic-memorandum-29948dc0784bcc50f4e6/1-0000.mp3",
+          "sha256": "da3bdf52578cc387e116b8d00c15045e9a0f9a503473c4922fc5471a8580ffd4",
           "start": 0
         }
       ],
@@ -7219,12 +7219,12 @@
         ]
       },
       "fullHash": "1df1de",
-      "generation": "bdac2bd9c80f27db1ac8",
+      "generation": "b839dc81029b892a85b2",
       "hash": "1df1de",
       "source": {
-        "duration": 29.962449,
+        "duration": 28.865306,
         "file": null,
-        "sha256": "3e4804398993851b26c168395386df16e4392733f4b499586e3d30a963163802"
+        "sha256": "29948dc0784bcc50f4e60e722f690061a5f90f0ac75b108929ebc5522c3520ed"
       },
       "text": "Glyphic Memorandum. In Coldridge Valley, the Glyphic Memorandum calls novice mages to Anvilmar. Marryk Nurribit wrote it to guide new spellcasters into formal arcane instruction. Novice spellcasters receive the Glyphic Memorandum after their first tasks in Coldridge Valley. Marryk Nurribit, the local mage trainer, summons them inside Anvilmar. He gives plain counsel: learn your incantations, save coin for training and tavern ale, and keep clear of Gnomeregan, ruined by radiation."
     },
@@ -7361,9 +7361,9 @@
     "item:gnomeregan-gumdrop": {
       "1": [
         {
-          "duration": 47.986938775510204,
-          "file": "Audio/Transport/full_item_gnomeregan-gumdrop-1f81f4d7f4672bec3840/1-0000.mp3",
-          "sha256": "d01ee66f9bb521d1b2cc18b290475ec7592c855bb9bef2882aa4bfc7437989f4",
+          "duration": 49.18857142857143,
+          "file": "Audio/Transport/full_item_gnomeregan-gumdrop-174c74fe3adfe795daa7/1-0000.mp3",
+          "sha256": "107fc72543f644dcaea6cf76b86fd33816fff63034929db2676c80c143e58ea5",
           "start": 0
         }
       ],
@@ -7375,12 +7375,12 @@
         ]
       },
       "fullHash": "da3f42",
-      "generation": "544aa8c0af5c8bd7f64b",
+      "generation": "5756d638ba15a257adf1",
       "hash": "da3f42",
       "source": {
-        "duration": 48.013061,
+        "duration": 49.214694,
         "file": null,
-        "sha256": "1f81f4d7f4672bec3840115741996c9a60f3628d867b9d959dd7a5e4ef7abb13"
+        "sha256": "174c74fe3adfe795daa71f5cb3e151336aaa287a588fdd2e1737fb78f986258e"
       },
       "text": "Gnomeregan Gumdrop. At Hallow's End, Gnomeregan Gumdrops reach travelers from the exiled gnomes. One sweet helps sick Jesper celebrate at the Stormwind orphanage. At Ironforge's Mystic Ward, Talvash del Kissel gives travelers Gnomeregan Gumdrops when they play along with his Hallow's End tricks. Alliance innkeepers offer treats from their own lands, but the exiled gnomes have no capital inn of their own. The radioactive disaster drove them from their underground kingdom. Still, they share their distinct sweets with the Alliance. Sick Jesper stays at the Stormwind orphanage in Cathedral Square and cannot travel the continents to trick-or-treat. So travelers gather four regional sweets from Alliance capitals and bring them to him: Gnomeregan Gumdrop, Stormwind Nougat, Ironforge Mint, and Darnassus Marzipan."
     },
@@ -7803,9 +7803,9 @@
     "item:gyromechanic-gear": {
       "1": [
         {
-          "duration": 42.396734693877555,
-          "file": "Audio/Transport/full_item_gyromechanic-gear-693d4fb881a3fb49e863/1-0000.mp3",
-          "sha256": "b67bfa77e0721be23a93e833b8e8ddbff980ae24e445ac67154f38bfacad30cb",
+          "duration": 44.904489795918366,
+          "file": "Audio/Transport/full_item_gyromechanic-gear-c375507e5ff7bd6060db/1-0000.mp3",
+          "sha256": "cfcd2df804d53ebb761ab7bc50343f8c73834c3890ee8a7b8e04b65b4c0af26e",
           "start": 0
         }
       ],
@@ -7817,12 +7817,12 @@
         ]
       },
       "fullHash": "e7a472",
-      "generation": "33b0b8176977fdd05ed9",
+      "generation": "6a534acf7d775ead131f",
       "hash": "e7a472",
       "source": {
-        "duration": 42.422857,
+        "duration": 44.930612,
         "file": null,
-        "sha256": "693d4fb881a3fb49e8632040028b9dde2a580daca7ba41c8c672ca969df42ec1"
+        "sha256": "c375507e5ff7bd6060db4352e3a11b1ffe0af9118473b127e5052942b3aac674"
       },
       "text": "Gyromechanic Gear. In Kharanos, inventors seek Gyromechanic Gears for a bold experiment. They hope to reverse the mutations of leper gnomes. Radiation swept through Gnomeregan while gnomes fought to drive out the troggs. Many survivors became mad, irradiated leper gnomes. Ozzie Togglevolt and Razzle Sprysprocket will not abandon their twisted kin, so they have planned the Recombobulator. The machine is meant to undo radiation's effects.\n\nIts prototype needs precise mechanisms that can bear the volatile pressure inside, including Gyromechanic Gears and Restabilization Cogs. Gnomeregan's fall ended local manufacturing. Now the inventors must salvage these delicate parts from hostile leper gnomes roaming Dun Morogh."
     },
@@ -7855,9 +7855,9 @@
     "item:hallowed-rune": {
       "1": [
         {
-          "duration": 22.517551020408163,
-          "file": "Audio/Transport/full_item_hallowed-rune-9c76b00ddefa68da10d0/1-0000.mp3",
-          "sha256": "7742096bddb8b6361717eb7719820369f3bf955c3b42aaba9414883c505841ff",
+          "duration": 22.20408163265306,
+          "file": "Audio/Transport/full_item_hallowed-rune-48ad357d37383eca2619/1-0000.mp3",
+          "sha256": "e05414f0053aa914f676aaea97972de81516f79357e013e1ac639fa570ec0faf",
           "start": 0
         }
       ],
@@ -7869,12 +7869,12 @@
         ]
       },
       "fullHash": "3c00bf",
-      "generation": "5e8d66c862c5ff84bbb8",
+      "generation": "ad9dff476d742849de03",
       "hash": "3c00bf",
       "source": {
-        "duration": 22.543673,
+        "duration": 22.230204,
         "file": null,
-        "sha256": "9c76b00ddefa68da10d0f64746a6f80d1ca0925eb77b60eb0ded77bbefae0e6d"
+        "sha256": "48ad357d37383eca261903064c52fe1ad88eca7a5e1944336bd40fdade5d3e7b"
       },
       "text": "Hallowed Rune. In Coldridge Valley, Branstock Khalder sends novice priests the Hallowed Rune to begin their training at Anvilmar. The Hallowed Rune bears teachings of the Holy Light. A young priest proves their resolve by aiding the valley’s mountaineers and defenders. Then Branstock sends them to Anvilmar, where he teaches them to mend wounds and wield holy power against the troggs threatening Dun Morogh."
     },
@@ -7985,9 +7985,9 @@
     "item:handful-of-oats-classic": {
       "1": [
         {
-          "duration": 25.57387755102041,
-          "file": "Audio/Transport/full_item_handful-of-oats-classic-deaaf28b2ee817c23a82/1-0000.mp3",
-          "sha256": "09d93cdefc718224e8166f6d9a4060e34f2d29fae697680657d00a5c2e841333",
+          "duration": 25.782857142857143,
+          "file": "Audio/Transport/full_item_handful-of-oats-classic-342d7a8777af536a1ddd/1-0000.mp3",
+          "sha256": "711656a29b3a463d26d135d30e412496dc0c5532cd11455fd4f8f43f9d4a9c3b",
           "start": 0
         }
       ],
@@ -7999,12 +7999,12 @@
         ]
       },
       "fullHash": "9ed943",
-      "generation": "c4ba2628ab0fe0b572f0",
+      "generation": "03ee032c9e3902e0ed8c",
       "hash": "9ed943",
       "source": {
-        "duration": 25.573878,
+        "duration": 25.80898,
         "file": null,
-        "sha256": "deaaf28b2ee817c23a82ee739ef33e9ca852a2711046306c28ae1066c08718c7"
+        "sha256": "342d7a8777af536a1ddd323c233fcf5030d30c4583ac52be7361e38e949f0a73"
       },
       "text": "Handful of Oats (Classic). In Westfall, Old Blanchy needs oats after the Furlbrows' wagon breaks down. Westfall once fed the Kingdom of Stormwind. Now its farms lie overgrown or under the control of Defias bandits and rogue harvest golems. Sacks of grain and oats remain by barns and outbuildings, and in overgrown fields. Travelers and refugees whose wagons break down along the dusty roads can gather the leftover oats for their weary draft horses."
     },
@@ -8401,9 +8401,9 @@
     "item:heavy-leaden-collection-phial": {
       "1": [
         {
-          "duration": 50.520816326530614,
-          "file": "Audio/Transport/full_item_heavy-leaden-collection-phial-dec6d2c84b3cfe608f16/1-0000.mp3",
-          "sha256": "83402534a97818dc2b0485ac73a1ab1e04634833d630b05f426354594e39e421",
+          "duration": 51.25224489795919,
+          "file": "Audio/Transport/full_item_heavy-leaden-collection-phial-08a4de006466fdf63158/1-0000.mp3",
+          "sha256": "518d7035cb298a4a79ecbeed85dc0897b5354ab0348bf42133c2dd3939f4c8b2",
           "start": 0
         }
       ],
@@ -8415,12 +8415,12 @@
         ]
       },
       "fullHash": "2af96a",
-      "generation": "ae16a9e547c9524481d0",
+      "generation": "765a0afcf2246d69838f",
       "hash": "2af96a",
       "source": {
-        "duration": 50.546939,
+        "duration": 51.252245,
         "file": null,
-        "sha256": "dec6d2c84b3cfe608f166a4a1400525864c5e76857d5da89b0f6767e0cff0201"
+        "sha256": "08a4de006466fdf63158ee7cf9279726d87af7b2fead460e34b16afdf3a554ae"
       },
       "text": "Heavy Leaden Collection Phial. In Kharanos, Ozzie Togglevolt offers the Heavy Leaden Collection Phial for decontamination research. It is meant to draw in unstable irradiated discharge from mutants deep inside Gnomeregan and keep it contained. The Heavy Leaden Collection Phial draws volatile residue from living, irradiated creatures in Gnomeregan. Keeping the fallout inside is difficult. A suitable sample may take several attempts to collect. Ozzie Togglevolt provides the phial to help his research into reversing the terrible mutations afflicting leper gnomes. Earlier samples from surface troggs were too weak for useful chemical analysis.\n\nWith the leaden phial, researchers hope to gather samples from virulent beasts, including irradiated slimes and lurkers in the Hall of Gears. They seek the active elements in the city's toxic fallout, then hope to make an effective antidote."
     },
@@ -8453,9 +8453,9 @@
     "item:high-potency-radioactive-fallout": {
       "1": [
         {
-          "duration": 56.267755102040816,
-          "file": "Audio/Transport/full_item_high-potency-radioactive-fallout-d752f60ea60f08403022/1-0000.mp3",
-          "sha256": "6b97236c0be09c8bf3812705baa41aee08970d8eaf81da1579e7dd5be7883bd3",
+          "duration": 56.47673469387755,
+          "file": "Audio/Transport/full_item_high-potency-radioactive-fallout-1e1703cf568b33cfd8e1/1-0000.mp3",
+          "sha256": "268da35ff96733ddef64475991a0499463ebccbcaa9ff12865ee8cda138796c1",
           "start": 0
         }
       ],
@@ -8467,12 +8467,12 @@
         ]
       },
       "fullHash": "604dfa",
-      "generation": "1946d2e97e75bca13c12",
+      "generation": "36ca7fa1b9934e4d6c34",
       "hash": "604dfa",
       "source": {
-        "duration": 56.293878,
+        "duration": 56.502857,
         "file": null,
-        "sha256": "d752f60ea60f0840302279db80d0ca9bc4fc1ba70af4f85bca04a7cd591b810e"
+        "sha256": "1e1703cf568b33cfd8e11867dc51d224e2784fbd70e3ca9bef27588a2d1f3d86"
       },
       "text": "High Potency Radioactive Fallout. In Gnomeregan's depths, researchers seek potent radioactive fallout. They hope to learn how the sludge afflicted the leper gnomes and find a cure. Deep in the Hall of Gears, irradiated horrors, lurkers, and slimes roam Gnomeregan's lowest tiers. Researchers outside the fallen capital need fallout drawn from these living creatures. Samples scraped from contaminated scavengers outside are too weak for their work.\n\nThe sludge decays quickly. It must be sealed in a leaden phial and reach the researchers before its potency fades. Ozzie Togglevolt and his colleagues seek a cure for the leper gnomes. They believe the secrets of the irradiated sludge may show them the way. During the trogg invasion, toxic venting deformed these survivors and drove them mad.\n\nThe leper gnomes remain trapped in a living nightmare. For the researchers, dangerous expeditions into the ruins are worth the risk."
     },
@@ -8661,9 +8661,9 @@
     "item:honorary-picks": {
       "1": [
         {
-          "duration": 43.755102040816325,
-          "file": "Audio/Transport/full_item_honorary-picks-110fed8fc2999deed373/1-0000.mp3",
-          "sha256": "37e9c2c7a3db6ad4240e39db29f77dffc4a55bc2bde0dee3b7898803792a6ac9",
+          "duration": 42.34448979591837,
+          "file": "Audio/Transport/full_item_honorary-picks-b7b48b4baab450030695/1-0000.mp3",
+          "sha256": "139420497c44888e284c31b88e7d62fa01a6ca4f8a55176bf23bad8bdb531838",
           "start": 0
         }
       ],
@@ -8675,12 +8675,12 @@
         ]
       },
       "fullHash": "9f4db6",
-      "generation": "2622a1d0c5433f3f74a2",
+      "generation": "fcff38f8399fa9172637",
       "hash": "9f4db6",
       "source": {
-        "duration": 43.781224,
+        "duration": 42.370612,
         "file": null,
-        "sha256": "110fed8fc2999deed37338f4292fa2341186105dbacda92abeb3fe1f0e4cca97"
+        "sha256": "b7b48b4baab450030695b19993780efdead0e76177a481302548ee4f3920db37"
       },
       "text": "Honorary Picks. In Ironforge, Honorary Picks are bound for Brock Stoneseeker’s mining apprentices in Thelsamar. Gryphons carry the ceremonial tools to Loch Modan, where they mark students ready to work its ore veins. Mining keeps the great forges burning and brings dwarves the iron and stone they need. In Thelsamar, Brock Stoneseeker teaches young apprentices to mine. Honorary Picks from Ironforge mark the students ready to work the open ore deposits across Loch Modan. The picks travel through the Alliance gryphon network, linking Ironforge with its outlying settlements. At Ironforge’s Great Forge, Gryth Thurden receives the shipment. He sends it over the mountains to Thorgrum Borrelson in Thelsamar."
     },
@@ -10143,9 +10143,9 @@
     "item:lewis-note": {
       "1": [
         {
-          "duration": 35.42204081632653,
-          "file": "Audio/Transport/full_item_lewis-note-6eda755e215047977975/1-0000.mp3",
-          "sha256": "b91512d2650b7a015dc1a950d1d8aded42021a2f4a3b8a0006a891975d476190",
+          "duration": 34.82122448979592,
+          "file": "Audio/Transport/full_item_lewis-note-4502880330d500158f5c/1-0000.mp3",
+          "sha256": "05cf53d0eff9b70978e228ec5fcb9bf2ed345045b3f2b49d75c32d444cf47326",
           "start": 0
         }
       ],
@@ -10157,12 +10157,12 @@
         ]
       },
       "fullHash": "284d05",
-      "generation": "699da13b3db38465b24f",
+      "generation": "ecde5a108bd950384d74",
       "hash": "284d05",
       "source": {
-        "duration": 35.448163,
+        "duration": 34.847347,
         "file": null,
-        "sha256": "6eda755e21504797797548649baec9afd114b0bea58b6df712cf73e2ce558622"
+        "sha256": "4502880330d500158f5c589fe8a6b615b6ffc0aa9fd1dda605740b378b7e4bc6"
       },
       "text": "Lewis' Note. At Sentinel Hill, Quartermaster Lewis sends a courier by gryphon to seek armor for Westfall's garrison. The order goes to a private armorer in Stormwind. The People's Militia at Sentinel Hill receives little support from Stormwind's House of Nobles. Skirmishes with the Defias Brotherhood keep wearing down its small supply of gear. So Quartermaster Lewis turns to private trade to keep the defenders equipped. His order goes outside the kingdom's military channels. An Alliance courier must fly by gryphon to Old Town and present it to Osric Strang, who owns Limited Immunity."
     },
@@ -10351,9 +10351,9 @@
     "item:lurker-venom": {
       "1": [
         {
-          "duration": 43.10204081632653,
-          "file": "Audio/Transport/full_item_lurker-venom-7ea6259d0d623724ba5c/1-0000.mp3",
-          "sha256": "edb621cff8e5d43b1acebde424ba987320a815e8271a557c5731b1c673db9d68",
+          "duration": 42.18775510204082,
+          "file": "Audio/Transport/full_item_lurker-venom-e33f986e76a92327afe7/1-0000.mp3",
+          "sha256": "ea10eb78755955ef94887a1749866fc872e945280030d2730e018949a84c5a1d",
           "start": 0
         }
       ],
@@ -10365,12 +10365,12 @@
         ]
       },
       "fullHash": "1fe80e",
-      "generation": "9c77e9e23003aa27c812",
+      "generation": "e00acdc2ee58c71cf8cd",
       "hash": "1fe80e",
       "source": {
-        "duration": 43.128163,
+        "duration": 42.187755,
         "file": null,
-        "sha256": "7ea6259d0d623724ba5c9a721f3446cd0e3c08f77744b3142023fdcc37850279"
+        "sha256": "e33f986e76a92327afe7f2dc36d81a8db82d145a4a444e4c49e38501520a34d5"
       },
       "text": "Lurker Venom. In Loch Modan, dwarven defenders need Lurker Venom to counter Dark Iron sabotage. Predatory spiders in the rocky hills and woods provide the toxin. Lurker Venom helps dwarves disarm explosives planted by the Dark Iron. Ashlan Stonesmirk, an explosives expert, named spider poison as an ingredient in the mixture Chief Engineer Hinderweir prepares. The solvent joins the venom with rare minerals and tears from the loch’s crocolisks. Together, they form a reactive compound that can disarm complex explosives.\n\nLurker spiders range from common wood lurkers to the matriarch Shanda the Spinner. Their bites threaten travelers and mountaineers across Loch Modan’s hills and crags."
     },
@@ -11755,9 +11755,9 @@
     "item:osric-s-crate": {
       "1": [
         {
-          "duration": 41.66530612244898,
-          "file": "Audio/Transport/full_item_osric-s-crate-b1cbf6b0a59f1e409c76/1-0000.mp3",
-          "sha256": "648c79ab58665390b78550a73a082a4fc040aebc6948be976152434e90e637ea",
+          "duration": 41.40408163265306,
+          "file": "Audio/Transport/full_item_osric-s-crate-ea096116bad7ad073ebe/1-0000.mp3",
+          "sha256": "9ab63aaca3aef85f0db62c2f815a173b6224a083064ebabd22bcbeb3f23d6da8",
           "start": 0
         }
       ],
@@ -11769,12 +11769,12 @@
         ]
       },
       "fullHash": "e06205",
-      "generation": "7048f1e6fca5da74c9e6",
+      "generation": "bd20d4e25ab0884b561c",
       "hash": "e06205",
       "source": {
-        "duration": 41.691429,
+        "duration": 41.430204,
         "file": null,
-        "sha256": "b1cbf6b0a59f1e409c763ea50028c80685900810d22e4c118e74626ea7fdb9b7"
+        "sha256": "ea096116bad7ad073ebe975bc2a58b31da347a71aab04e5b6cc30c4fa9362848"
       },
       "text": "Osric's Crate. At Sentinel Hill, Osric's Crate brings fresh armor from Stormwind to the People's Militia. The defenders face the Defias Brotherhood and marauding gnolls without the Stormwind army. Quartermaster Lewis receives the shipment and shares the protective gear among the volunteer fighters. The crown gives the People's Militia no formal support. These freshly made suits are meant to help the volunteers hold their position. From Dungar Longdrink's roost in Stormwind's Trade District, a gryphon carries the crate to Thor at Sentinel Hill. The flight avoids dangerous roads through Elwynn Forest and across the Westfall border, where bandits may ambush travelers. Gryphons help keep frontier garrisons supplied during wartime."
     },
@@ -12405,9 +12405,9 @@
     "item:prismatic-punch-card": {
       "1": [
         {
-          "duration": 42.8930612244898,
-          "file": "Audio/Transport/full_item_prismatic-punch-card-a13567442298fd2a9479/1-0000.mp3",
-          "sha256": "ed782591dfbf57ea5434c86441d1253fa06185d067121d4ab01cb0f9d0877188",
+          "duration": 42.91918367346939,
+          "file": "Audio/Transport/full_item_prismatic-punch-card-d51a9c0035b9e025b117/1-0000.mp3",
+          "sha256": "0cba22ce3a70dffdcea4308953b3fab838900d0b017a362eda2ddcc401da5d76",
           "start": 0
         }
       ],
@@ -12419,12 +12419,12 @@
         ]
       },
       "fullHash": "d9fd96",
-      "generation": "8dc91cc06b02ad4bd2de",
+      "generation": "cd5b9cb1ff626a020fca",
       "hash": "d9fd96",
       "source": {
-        "duration": 42.893061,
+        "duration": 42.945306,
         "file": null,
-        "sha256": "a13567442298fd2a94792f3d5ecc22c077cec3409d5dc56b52c9b0cddbad2585"
+        "sha256": "d51a9c0035b9e025b1172251ac97e250337c48af6f966392944ad91785f2c841"
       },
       "text": "Prismatic Punch Card. In Gnomeregan, the Prismatic Punch Card bears the highest security clearance. Gnome refugees in Ironforge seek the records it unlocks. When the gnomes fled Gnomeregan, troggs and toxic irradiation drove them from the city. Vast stores of research and civic records remained in its depths. The gnomes guarded high-level systems behind tiers of clearance. To reach the Matrix Punchograph 3005-D in the lower Engineering Labs, a card must pass through a series of terminals.\n\nThe card begins white, then advances through yellow, blue, and red. At the final terminal, it is stamped Prismatic. Its encoded clearance is listed as awaiting the invention of an entirely new number."
     },
@@ -13107,9 +13107,9 @@
     "item:restabilization-cog": {
       "1": [
         {
-          "duration": 39.758367346938776,
-          "file": "Audio/Transport/full_item_restabilization-cog-d961194aa0a70e427580/1-0000.mp3",
-          "sha256": "078595e6f7d882899f90e781d45094bceaa26dea115aa1e3b8c80612dac30b0c",
+          "duration": 40.93387755102041,
+          "file": "Audio/Transport/full_item_restabilization-cog-5121d545ae8710909690/1-0000.mp3",
+          "sha256": "6140f1ecd04cdcd536dfe28b837da561780356e4f55819a6f557ecc63a904174",
           "start": 0
         }
       ],
@@ -13121,12 +13121,12 @@
         ]
       },
       "fullHash": "c02a60",
-      "generation": "7e40b9aa00b6e280354a",
+      "generation": "111409255c68aa80cde5",
       "hash": "c02a60",
       "source": {
-        "duration": 39.78449,
+        "duration": 40.96,
         "file": null,
-        "sha256": "d961194aa0a70e427580dce029d83100cd414ea4b2ff65ca2bcd02e645d3e748"
+        "sha256": "5121d545ae87109096900ebe41d2bc28f0e2601a25034cb97faad0100ca21f68"
       },
       "text": "Restabilization Cog. At Gnomeregan's gates, leper gnomes still carry Restabilization Cogs. In Kharanos, tinkerers need intact cogs for a machine meant to reverse leper mutation. Radiation flooded Gnomeregan in a failed attempt to wipe out the invading troggs. Countless gnomes fell sick and hostile, then fled their home as exiles. Even in their madness, they carry intricate gnomish machinery.\n\nOzzie Togglevolt and Razzle Sprysprocket believe the terrible change can be undone. Their prototype Recombobulation Device needs parts taken from the afflicted outside Gnomeregan's gates. Intact Restabilization Cogs will balance its inner combustion systems."
     },
@@ -13159,9 +13159,9 @@
     "item:robo-mechanical-guts": {
       "1": [
         {
-          "duration": 42.08326530612245,
-          "file": "Audio/Transport/full_item_robo-mechanical-guts-20a7e7aefc299f49593a/1-0000.mp3",
-          "sha256": "98fb06e97769c67ec4441c4f0ab1b0bd7d981bbf2e7a672b1016d3f1ba8e2cb4",
+          "duration": 43.49387755102041,
+          "file": "Audio/Transport/full_item_robo-mechanical-guts-dc7e409fa1ed802d957a/1-0000.mp3",
+          "sha256": "f1aee9ee1b7e5babed4b5168ee3fef97cab2cf1018e232c8f80802ce6671c36d",
           "start": 0
         }
       ],
@@ -13173,12 +13173,12 @@
         ]
       },
       "fullHash": "dcc6bf",
-      "generation": "bf70644e19d373281801",
+      "generation": "baf67481d7d0108b9903",
       "hash": "dcc6bf",
       "source": {
-        "duration": 42.109388,
+        "duration": 43.52,
         "file": null,
-        "sha256": "20a7e7aefc299f49593a0d631861436251e1f52608e698cab88729df34083118"
+        "sha256": "dc7e409fa1ed802d957a0a85bd189e0af4f99791fb27ac82f1204d537f7cf8c0"
       },
       "text": "Robo-Mechanical Guts. In Stormwind, Shoni gathers parts from Gnomeregan’s roaming machines. She needs them to repair tunneling vehicles built to help reclaim the city in Dun Morogh. After High Tinker Gelbin Mekkatorque and the surviving gnomes fled Gnomeregan, thousands of machines remained behind. Automated mechanisms, clockwork sentries, and industrial robots still roam the radioactive city’s corridors.\n\nIn Stormwind City, tinker Shoni is assembling gyrodrillmatic excavationators to break through Gnomeregan’s defenses and reclaim the lost city. She sends adventurers into the contaminated halls to salvage working parts from the robots, including springs, wires, and gyro-components."
     },
@@ -13341,9 +13341,9 @@
     "item:rumbleshot-s-ammo": {
       "1": [
         {
-          "duration": 40.41142857142857,
-          "file": "Audio/Transport/full_item_rumbleshot-s-ammo-302cb85ea9a05bf91880/1-0000.mp3",
-          "sha256": "860c88e965ea22b9a7be0c292369697c4b29b41aa3f12619589017c627961440",
+          "duration": 39.0269387755102,
+          "file": "Audio/Transport/full_item_rumbleshot-s-ammo-547fdac4c39c71a17f58/1-0000.mp3",
+          "sha256": "905c46ff307d3b260d23b16e173e3a7f6ed724ae8144bb4ece322b39cf711ecb",
           "start": 0
         }
       ],
@@ -13355,12 +13355,12 @@
         ]
       },
       "fullHash": "fae914",
-      "generation": "8b49703c023b2425e36b",
+      "generation": "bbbbbce3c8e58292a41a",
       "hash": "fae914",
       "source": {
-        "duration": 40.437551,
+        "duration": 39.026939,
         "file": null,
-        "sha256": "302cb85ea9a05bf9188006b87cf10571187af89cf9327f1e16c282843b8a77e9"
+        "sha256": "547fdac4c39c71a17f589bf14f9d2a5e72529dfbb8330a1f1850bada66e34229"
       },
       "text": "Rumbleshot's Ammo. Near the Grizzled Den, Rumbleshot's Ammo lies abandoned in the snow. Its courier fled from hungry wendigos before the crate could reach gunsmith Hegnar Rumbleshot in Dun Morogh. Hegnar Rumbleshot keeps a roadside arms shop on the mountain path from Coldridge Pass toward Anvilmar. Ironforge riflemen, mountaineers, and dwarven mortar teams drill in the snowy heights, so his supplies run low as quickly as powder burns.\n\nLoslor sent the shot from Kharanos, but the shipment never reached the shelves. Its courier camped too close to the Grizzled Den. When the wendigos attacked, the courier fled in panic and left the heavy crate in their hunting grounds."
     },
@@ -14979,9 +14979,9 @@
     "item:simple-memorandum": {
       "1": [
         {
-          "duration": 32.6530612244898,
-          "file": "Audio/Transport/full_item_simple-memorandum-7f116ae24451ff11ad12/1-0000.mp3",
-          "sha256": "81ca4ea51e22fdfea55e53d0259ffd779b8b1280cc66486a8162c978c877ebc4",
+          "duration": 33.071020408163264,
+          "file": "Audio/Transport/full_item_simple-memorandum-cc950eeb8995e9cfbccd/1-0000.mp3",
+          "sha256": "34e677fc218993c59fd94080adae555d9155842573109c90cbe9829fd7fbdf5e",
           "start": 0
         }
       ],
@@ -14993,12 +14993,12 @@
         ]
       },
       "fullHash": "76fd25",
-      "generation": "ccb5e7914112344e44d2",
+      "generation": "db229648a0afaa071551",
       "hash": "76fd25",
       "source": {
-        "duration": 32.679184,
+        "duration": 33.097143,
         "file": null,
-        "sha256": "7f116ae24451ff11ad127e1f2fda31e6ee6246fdc10be880363a4880f56bbdff"
+        "sha256": "cc950eeb8995e9cfbccd630a652c21dae660e1d1360814899f9778828ac0e241"
       },
       "text": "Simple Memorandum. In Coldridge Valley, novice gnome warriors are sent to train with Thran Khorman in Anvilmar. They prepare for the war to take back Gnomeregan. Young gnome fighters face wildlife and troggs in Coldridge Valley with letters of introduction in hand. The Simple Memorandum directs its bearer to Thran Khorman, the warrior trainer in Anvilmar.\n\nGnomes bring intellect and contraptions to battle, but taking back Gnomeregan calls for strength and martial discipline. The memorandum sends its bearer beyond early training to learn the art of war from Thran."
     },
@@ -15811,9 +15811,9 @@
     "item:strange-smelling-powder": {
       "1": [
         {
-          "duration": 30.197551020408163,
-          "file": "Audio/Transport/full_item_strange-smelling-powder-8a9de63ad7e87fa6b593/1-0000.mp3",
-          "sha256": "12cc97ed87024d5f814eb546b6646a2f518e59a0b444ed753cc347b77a4f5bdf",
+          "duration": 30.667755102040818,
+          "file": "Audio/Transport/full_item_strange-smelling-powder-8fa73833e4fcb391fe85/1-0000.mp3",
+          "sha256": "5e6900f99076ec1758764ed3c96e01aa3587e5a818975b7f18b3ee629643b7b2",
           "start": 0
         }
       ],
@@ -15825,12 +15825,12 @@
         ]
       },
       "fullHash": "c08095",
-      "generation": "142f443174e31cdecdfd",
+      "generation": "dae94da03d196956ce5b",
       "hash": "c08095",
       "source": {
-        "duration": 30.197551,
+        "duration": 30.693878,
         "file": null,
-        "sha256": "8a9de63ad7e87fa6b593989c119884441e909c19e363af96bef23955ab7fc492"
+        "sha256": "8fa73833e4fcb391fe85bb2975574760443aae9991b7dacab311e6fc19843831"
       },
       "text": "Strange Smelling Powder. In Loch Modan, Strange Smelling Powder has alarmed engineers investigating sabotage. Chief Engineer Hinderweir fears it may be explosive and seeks an expert's judgment. Strange Smelling Powder was found amid signs of sabotage against Loch Modan's infrastructure. Chief Engineer Hinderweir fears it may be an engineered explosive, unlike the powder usually used in mining. He cannot identify its mixture or origin, and will not tamper with it himself. Even a small spark could bring disaster."
     },
@@ -16175,9 +16175,9 @@
     "item:tainted-memorandum": {
       "1": [
         {
-          "duration": 41.90040816326531,
-          "file": "Audio/Transport/full_item_tainted-memorandum-5daf7a851423b5f349bf/1-0000.mp3",
-          "sha256": "6c58f9a6fa9e3005bb04830351f327d7c734390f89b3017ab22a55761dd6f009",
+          "duration": 38.76571428571429,
+          "file": "Audio/Transport/full_item_tainted-memorandum-d4a0d5835a8ae3fdd6b7/1-0000.mp3",
+          "sha256": "dfd3b87c05d010defcb1695fb374f7aa4c012f8018d17813bc37666360b6f093",
           "start": 0
         }
       ],
@@ -16189,12 +16189,12 @@
         ]
       },
       "fullHash": "b8818f",
-      "generation": "d08ae13d9b3c0277edd0",
+      "generation": "6361e67d304608f26af8",
       "hash": "b8818f",
       "source": {
-        "duration": 41.926531,
+        "duration": 38.791837,
         "file": null,
-        "sha256": "5daf7a851423b5f349bff126e91c7421d11a008be637331850ead4c3639210c3"
+        "sha256": "d4a0d5835a8ae3fdd6b709753c0eec04538a7a641c609b57235f5f91cb2ba1c3"
       },
       "text": "Tainted Memorandum. In Coldridge Valley, Alamar Grimm urges novice gnome warlocks to leave old paths behind and seek power through the dark arts. At Anvilmar, few celebrate fel practitioners, and many distrust them. Alamar Grimm gives the Tainted Memorandum to young gnomes who study forbidden arts. He rejects the Holy Light and ordinary weapons. To him, Gnomeregan’s fall proves that old ways and tinkering failed their people.\n\nGrimm sees reliance on dwarven charity as a dead end. He urges gnomes to claim undeniable power and summon minions who obey without question. Only then, he believes, can they secure their own future."
     },
@@ -16409,9 +16409,9 @@
     "item:techbot-s-memory-core": {
       "1": [
         {
-          "duration": 33.462857142857146,
-          "file": "Audio/Transport/full_item_techbot-s-memory-core-6efb7f40beded0ccf508/1-0000.mp3",
-          "sha256": "b1cafb376c812ec5ae0edbc63e129311f404dbb24e083010e5aabb9472ca2dcb",
+          "duration": 32.73142857142857,
+          "file": "Audio/Transport/full_item_techbot-s-memory-core-960dc269e4de99b7738d/1-0000.mp3",
+          "sha256": "dce50e96c2d60fa628c60fabca6cfd9026a544faeea8ac894d63ce7f2dd7734d",
           "start": 0
         }
       ],
@@ -16423,12 +16423,12 @@
         ]
       },
       "fullHash": "d7a0e4",
-      "generation": "32eeaf911f6896b08898",
+      "generation": "8d8a2575e50ca145934b",
       "hash": "d7a0e4",
       "source": {
-        "duration": 33.48898,
+        "duration": 32.757551,
         "file": null,
-        "sha256": "6efb7f40beded0ccf50877f0b7749693dab23b0dea936b3afda2b4b715c29125"
+        "sha256": "960dc269e4de99b7738d1040de596111213de26b5342168f324c1355407a2a9f"
       },
       "text": "Techbot's Memory Core. In Gnomeregan, Tinkmaster Overspark seeks Techbot's Memory Core to study the automaton's corrupted behavior. Before Gnomeregan fell, Techbot aided Tinkmaster Overspark and his fellow inventors with devices and knowledge. During the city's fall, an errant electrical discharge jolted Techbot and turned its positronic brain to a hostile negatronic state. Now the automaton wanders Gnomeregan's tainted halls and attacks anyone in sight. Overspark hopes the memory core will help him understand the fault and restore his creation to its senses."
     },
@@ -17969,9 +17969,9 @@
     "item:verna-s-westfall-stew-recipe": {
       "1": [
         {
-          "duration": 38.0865306122449,
-          "file": "Audio/Transport/full_item_verna-s-westfall-stew-recipe-72a0e4c0f6054c0223e8/1-0000.mp3",
-          "sha256": "2c5ce155df1e847836fd874aafdebbe6fe6d3a780059723d84698be9d427d73a",
+          "duration": 37.564081632653064,
+          "file": "Audio/Transport/full_item_verna-s-westfall-stew-recipe-609007ca891c1ce51498/1-0000.mp3",
+          "sha256": "10d739509708eb830e2b81e258b15270df093d6f6e46c20e2413bb251a130028",
           "start": 0
         }
       ],
@@ -17983,12 +17983,12 @@
         ]
       },
       "fullHash": "925537",
-      "generation": "429f1135de5e761a3648",
+      "generation": "ba8e8abbef51c85e4dd1",
       "hash": "925537",
       "source": {
-        "duration": 38.112653,
+        "duration": 37.590204,
         "file": null,
-        "sha256": "72a0e4c0f6054c0223e8dfa1b64dab584bb78e76fbd53567006ff8fb134a6f26"
+        "sha256": "609007ca891c1ce5149880950acb633eeaba5531bc8e4a2d0d016c9835242423"
       },
       "text": "Verna's Westfall Stew Recipe. As the Furlbrows prepare to leave their Westfall farm, Verna sends her stew recipe to Salma Saldean. Its familiar comfort may remain for those who stay. Verna and Farmer Furlbrow have made their home in Westfall for years. Now the Defias Brotherhood and rogue harvest golems run rampant across the countryside. The Furlbrows wait for their wagon to be repaired so they can flee toward Stormwind.\n\nWhile they wait, Verna writes down her beloved Westfall Stew formula. She entrusts it to travelers bound for her neighboring friend, Salma Saldean. That way, those left behind may still know the stew's familiar comfort."
     },
@@ -19247,24 +19247,6 @@
       910,
       1065
     ],
-    "028507e668d56999362df49a1fd99234aafc3ca79c315a83a7abab3ab9dd24fd": [
-      237,
-      402,
-      639,
-      849,
-      1038,
-      1188,
-      1393
-    ],
-    "02de8a419ddb9fdc2076b129fad3eb6dee2ba3b885a256c0b778faf524314be4": [
-      177,
-      366,
-      618,
-      800,
-      995,
-      1425,
-      1603
-    ],
     "02e8c7b8da435ab08fc3a6337c9f7b4794f91461e13c4454617de87bef924402": [
       531,
       768
@@ -19288,6 +19270,12 @@
       434,
       620,
       811
+    ],
+    "046ee2336f7d62bee2228149392f0e2d804f7378879cfcad258efc3f9208242c": [
+      248,
+      453,
+      634,
+      961
     ],
     "0483ca2192718f8371aa7cd00c14e86bea7b5e8db5b7e32cfda8e4a45592da8f": [
       301,
@@ -19314,6 +19302,13 @@
       718,
       880
     ],
+    "05cf53d0eff9b70978e228ec5fcb9bf2ed345045b3f2b49d75c32d444cf47326": [
+      252,
+      392,
+      602,
+      778,
+      949
+    ],
     "06cf7c519bd5e1e41642b990954d00dac045ef59cc3a00062d0d0c5788feb5d1": [
       306,
       621,
@@ -19335,15 +19330,6 @@
       379,
       525,
       940
-    ],
-    "078595e6f7d882899f90e781d45094bceaa26dea115aa1e3b8c80612dac30b0c": [
-      182,
-      395,
-      592,
-      782,
-      927,
-      1122,
-      1344
     ],
     "07ab9070c978009ea3955859fa08bca73e295fdfb0918ebb22e01d379bbc735f": [
       243,
@@ -19375,11 +19361,6 @@
       197,
       413
     ],
-    "09815f9586043adf3bf3c7d833df8ab12965a29dbfdf04b94d1b900613199181": [
-      266,
-      415,
-      550
-    ],
     "09ac4f7449c3f1580ea0b3166716a6fa4eecca421b9cac4bff7d5f48ec7e672c": [
       257,
       469,
@@ -19394,11 +19375,6 @@
       793,
       1022,
       1233
-    ],
-    "09d93cdefc718224e8166f6d9a4060e34f2d29fae697680657d00a5c2e841333": [
-      210,
-      525,
-      703
     ],
     "0a1bfaafc40a630839e889aab9af51fe7c0bed06925a80d25e4cc1e4116bbaef": [
       430,
@@ -19443,6 +19419,11 @@
       1401,
       1680
     ],
+    "0b39f8719cd287fd72e388ad043fa2193749bf9350230fba0109f9adb681aba7": [
+      282,
+      513,
+      874
+    ],
     "0b79f304f3504354a25d413ff7340129159146f3d0f99eb5a8d1531e40a7db49": [
       223,
       527,
@@ -19474,11 +19455,13 @@
       508,
       702
     ],
-    "0c5f7e6d84ee00c8f69e627af4c6b573e2e9ce50a5fb3e6c511ba69b5ea66e94": [
-      290,
-      512,
-      871,
-      1181
+    "0cba22ce3a70dffdcea4308953b3fab838900d0b017a362eda2ddcc401da5d76": [
+      194,
+      364,
+      566,
+      724,
+      868,
+      1169
     ],
     "0d65b1ec079d0a111992b4cb8c911a13c1440b55188a1ac6b78871ff8bc3e9fb": [
       291,
@@ -19531,6 +19514,22 @@
       765,
       1028
     ],
+    "107fc72543f644dcaea6cf76b86fd33816fff63034929db2676c80c143e58ea5": [
+      199,
+      356,
+      661,
+      908,
+      1054,
+      1196
+    ],
+    "10d739509708eb830e2b81e258b15270df093d6f6e46c20e2413bb251a130028": [
+      377,
+      539,
+      732,
+      923,
+      1097,
+      1271
+    ],
     "10f5ccf6213140c276ac39f8c1251ba139165060af10343b66cfeb756f76f6ba": [
       275,
       785
@@ -19563,12 +19562,6 @@
       1123,
       1442
     ],
-    "12cc97ed87024d5f814eb546b6646a2f518e59a0b444ed753cc347b77a4f5bdf": [
-      223,
-      432,
-      640,
-      864
-    ],
     "130041919b4694b6b8c9cd1fdba9e71e39d3e093cec431c0d6c0a823b0649d45": [
       342,
       665
@@ -19583,6 +19576,15 @@
       885,
       1054,
       1432
+    ],
+    "139420497c44888e284c31b88e7d62fa01a6ca4f8a55176bf23bad8bdb531838": [
+      219,
+      461,
+      654,
+      827,
+      1061,
+      1298,
+      1463
     ],
     "13c710d461e56c5149f02ef28232243c20c92312bd09aec596dee39cb6f0e850": [
       349,
@@ -19691,6 +19693,18 @@
     ],
     "18822974ed1c72faea52ba5de91ea9f555b73998f925029141d608566b0706b2": [
       152
+    ],
+    "18a681d97d02b65f41f4c723a8216e2ae06122dd5422c7aceb7d7190b50ffbd0": [
+      253,
+      435,
+      715,
+      911,
+      1168,
+      1380,
+      1535,
+      1717,
+      1896,
+      2168
     ],
     "18c0d781758ad3284f55351655857118f9a6cc3358fbc03d254052e46e3275ca": [
       275,
@@ -19981,14 +19995,6 @@
       1594,
       1734
     ],
-    "21bf1ed2becab756262a5e529c46bd402d919aaf9cdfb6d8ad0121ab00e555f0": [
-      364,
-      542,
-      1051,
-      1290,
-      1584,
-      1892
-    ],
     "21d4cb5d567bac9855aea98806b1170a2717bb81fa0c2cec065109a42d083286": [
       253,
       464,
@@ -20085,6 +20091,17 @@
       602,
       900
     ],
+    "268da35ff96733ddef64475991a0499463ebccbcaa9ff12865ee8cda138796c1": [
+      181,
+      354,
+      624,
+      802,
+      1003,
+      1296,
+      1466,
+      1626,
+      1855
+    ],
     "26ef369aada525e4ba0ee97fa2255a68ef56d2e341fb96dc6431253d32412e6a": [
       439
     ],
@@ -20177,14 +20194,6 @@
       458,
       773
     ],
-    "2c5ce155df1e847836fd874aafdebbe6fe6d3a780059723d84698be9d427d73a": [
-      145,
-      405,
-      563,
-      924,
-      1095,
-      1288
-    ],
     "2c80306df997035b1b18b63ebc414ee6c001df348e6ed83d5965726f0ec73713": [
       381
     ],
@@ -20195,6 +20204,15 @@
       1180,
       1320,
       1592
+    ],
+    "2cfe585de6c5da3635fa71f3fac1bd1e401141613f4c009b51bdd3298883046a": [
+      187,
+      423,
+      614,
+      810,
+      1014,
+      1207,
+      1372
     ],
     "2d792b428cdc455b20ff896a1cb846c84222e953d4bb056fd1c07e9e46e5bf91": [
       542,
@@ -20239,12 +20257,6 @@
       811,
       1103,
       1373
-    ],
-    "30709fe4c7d5958c027a1ac2e12c56a8b3389fa7487adc0b8c707ba853a99f31": [
-      243,
-      434,
-      619,
-      954
     ],
     "30d7d37579355b23f42fff0684a87636698786b8b700ec5eb40daaa2f81e3724": [
       170,
@@ -20320,6 +20332,14 @@
       802,
       1102
     ],
+    "33ea39f9d6a0e701f88220c307900b70ac7c795f5d14238f518fa8f9420bd504": [
+      162,
+      361,
+      528,
+      862,
+      1118,
+      1284
+    ],
     "33ef9c6170b9619b39ca090b569d485674cf837d584fe3d4dda9b17731f99962": [
       155,
       472,
@@ -20341,6 +20361,12 @@
       686,
       867,
       1031
+    ],
+    "34e677fc218993c59fd94080adae555d9155842573109c90cbe9829fd7fbdf5e": [
+      341,
+      551,
+      768,
+      1050
     ],
     "35000164b0ab24b1115801add95595639da5ed40411ebc1ff4eec2f35f8ce0b1": [
       232,
@@ -20390,25 +20416,8 @@
       1620,
       1785
     ],
-    "378377f4599c27ca455743d8868b608d851b05409e76ab302e2b376538fd52ce": [
-      267,
-      425,
-      652,
-      925,
-      1109,
-      1331,
-      1681
-    ],
     "37ac76f572996cfde59a1a41f300a0fa7ed45e0442d1a23fdef865821a41e343": [
       166
-    ],
-    "37e9c2c7a3db6ad4240e39db29f77dffc4a55bc2bde0dee3b7898803792a6ac9": [
-      244,
-      514,
-      715,
-      877,
-      1142,
-      1361
     ],
     "387e976f276a4994bf0bb7dd9b84e7bdf43b4a67a41327c046aa228506e62436": [
       546
@@ -20421,12 +20430,6 @@
       1355,
       1501,
       1661
-    ],
-    "38a804bda5e13ba1beadd7be99721e075d515039a29371698473ceaf403f3175": [
-      380,
-      601,
-      784,
-      931
     ],
     "38c621cadf20a106708e047dfafe5b618d7a06f4a5bb318f5706489bd9ae3299": [
       399,
@@ -20615,6 +20618,15 @@
       1791,
       1936
     ],
+    "436a73e28f531c870fede00955d924509a4416d7176987672514d704d899a929": [
+      245,
+      420,
+      667,
+      940,
+      1141,
+      1364,
+      1632
+    ],
     "43cd8314a11699d9b8a3b8c9884ac4a21927a95dcb62e5ebf5d8f5d87c5fdab4": [
       172,
       360,
@@ -20628,11 +20640,6 @@
     ],
     "450b1f2e21e7919012d8360290bbdbb13593f4929fa1e2b8495f6d5cb2646ce5": [
       448
-    ],
-    "45b07e0157cef5319a991da54606e399726b24115edb230a65345ec47cbe6a37": [
-      280,
-      599,
-      755
     ],
     "471337eb91a088ef150bfedd3f96f319f6b89e171385059af4531a38984a242d": [
       526,
@@ -20872,6 +20879,13 @@
       1421,
       1567
     ],
+    "518d7035cb298a4a79ecbeed85dc0897b5354ab0348bf42133c2dd3939f4c8b2": [
+      512,
+      757,
+      983,
+      1428,
+      1748
+    ],
     "51d0f9ad99ccc04d4e4ea070e91ed62d204c4d80679f1493e36922c470db5aad": [
       238,
       403,
@@ -20928,6 +20942,9 @@
       606,
       857,
       1099
+    ],
+    "5551d9c74889b22a8d1719516efa26d506e644a2470a552ec616a9252de2846d": [
+      523
     ],
     "5577c0442159db9a340344e4230ad44617595fd90d5f1c2432e31849603c034b": [
       176,
@@ -21068,6 +21085,15 @@
       1054,
       1334
     ],
+    "5ce8a5a5df3e0efd5262bdc83297240fa0d41480ee4576c1fb7db76a26f916e2": [
+      374,
+      560,
+      698,
+      1068,
+      1285,
+      1574,
+      1882
+    ],
     "5d56e590cb7c4e8d65006d6ef5122ed739f7379773316f9f70b274270369ff6b": [
       601,
       860
@@ -21099,6 +21125,12 @@
       932,
       1409
     ],
+    "5e6900f99076ec1758764ed3c96e01aa3587e5a818975b7f18b3ee629643b7b2": [
+      226,
+      446,
+      652,
+      883
+    ],
     "5e77a93e5093985a911fbaa741f63f567f2494ad82b3dbdb12db94f48f911252": [
       207,
       366,
@@ -21129,6 +21161,23 @@
       407,
       652
     ],
+    "604fb2024f4fb9d1a2e129bd284f6dfa6c9ae71801d61adaf376324d189e1e4e": [
+      270,
+      461,
+      768,
+      1129,
+      1296,
+      1453
+    ],
+    "60d0be4a51508d585532898de50e21d5c3bdc3819f9e86c938776236f97db15d": [
+      240,
+      411,
+      656,
+      884,
+      1098,
+      1249,
+      1473
+    ],
     "6140bd7e1002c4ab113afbb4765281e44eaed84833c72c014f1f3a4f439dd654": [
       309,
       503,
@@ -21137,6 +21186,15 @@
       1179,
       1368,
       1596
+    ],
+    "6140f1ecd04cdcd536dfe28b837da561780356e4f55819a6f557ecc63a904174": [
+      210,
+      430,
+      619,
+      795,
+      951,
+      1143,
+      1394
     ],
     "61887d4108fc69ac1197522696d2a23f06fba9b522d14e35de3823c872b1a10e": [
       184,
@@ -21211,14 +21269,6 @@
       1222,
       1443,
       1642
-    ],
-    "648c79ab58665390b78550a73a082a4fc040aebc6948be976152434e90e637ea": [
-      206,
-      420,
-      636,
-      933,
-      1176,
-      1366
     ],
     "64c1469ec43c2d47d9dfa839738a2c3471efb6d391431c791c4174b5e737ab74": [
       601
@@ -21362,17 +21412,6 @@
       1232,
       1490
     ],
-    "6b97236c0be09c8bf3812705baa41aee08970d8eaf81da1579e7dd5be7883bd3": [
-      174,
-      361,
-      610,
-      803,
-      1005,
-      1303,
-      1464,
-      1631,
-      1854
-    ],
     "6bb03c44121129a06aa95bf0dbf3d8fa76fc0ea14d1cad3584559f0a85c8f1aa": [
       204,
       379,
@@ -21399,14 +21438,6 @@
       768,
       947
     ],
-    "6c58f9a6fa9e3005bb04830351f327d7c734390f89b3017ab22a55761dd6f009": [
-      350,
-      547,
-      742,
-      1091,
-      1232,
-      1442
-    ],
     "6c632f9d727f84351f64286547c752808f73ef62aacbb4a6c41a02559ff3aecf": [
       219,
       405,
@@ -21421,6 +21452,11 @@
       680,
       842,
       1011
+    ],
+    "6d8e1cd06ae6942b6b41573784c646553548d9196abd49f76c0023f1f5a84d8c": [
+      401,
+      788,
+      1005
     ],
     "6d9f78b41f041d47299a2fcf47b449e3a8f0d7f4d9c353a234e7be7950aa36bf": [
       176,
@@ -21485,19 +21521,10 @@
       962,
       1145
     ],
-    "70f976492ca67be5e5963698e7643d59d088d50e4af6a7f4057b6f784861cc69": [
-      203,
-      421,
-      629,
-      809
-    ],
-    "719902f460c3ff2f243d8e4e4fcef750acb886120157e36aaee8636253b19b4f": [
-      153,
-      354,
-      522,
-      667,
-      863,
-      1291
+    "711656a29b3a463d26d135d30e412496dc0c5532cd11455fd4f8f43f9d4a9c3b": [
+      212,
+      525,
+      718
     ],
     "719c6279a919706bf45e3bdd2ceeb2d4ca83b5d0793926d27e420e516b601e5c": [
       208,
@@ -21636,9 +21663,8 @@
       603,
       793
     ],
-    "7742096bddb8b6361717eb7719820369f3bf955c3b42aaba9414883c505841ff": [
-      278,
-      568
+    "7740874820ad07533f94575d42a402313d7ce2cdbb93d77ada3efab839eca7cb": [
+      457
     ],
     "7748b149f6a2855d922f95ee585cd58df1f34f476a3881f36c3944fac6102d0f": [
       217,
@@ -21790,6 +21816,15 @@
       1252,
       1607
     ],
+    "7bde28ecf4eda38d4b20b8c4de987914b7f578d0ee97322f5be3125094a39d44": [
+      384,
+      664,
+      850,
+      1066,
+      1213,
+      1523,
+      1718
+    ],
     "7bde2e1e6fd758b2789f7e57c0830d2a37e38a26d6c965bf11bf094827dc8222": [
       245,
       501,
@@ -21930,11 +21965,6 @@
       1033,
       1263
     ],
-    "81ca4ea51e22fdfea55e53d0259ffd779b8b1280cc66486a8162c978c877ebc4": [
-      320,
-      538,
-      771
-    ],
     "81d0df2bfa6086669939dc3162127e52853c6f956668286de5010560b81e1493": [
       190,
       334,
@@ -22002,15 +22032,6 @@
       709,
       928
     ],
-    "83402534a97818dc2b0485ac73a1ab1e04634833d630b05f426354594e39e421": [
-      244,
-      511,
-      752,
-      982,
-      1241,
-      1415,
-      1727
-    ],
     "8343d6d2676161fb4cfcc4e6929d803a59d72e5809a30c38d7e010e566e1a3de": [
       195,
       367,
@@ -22056,13 +22077,6 @@
       1431,
       1600,
       1901
-    ],
-    "860c88e965ea22b9a7be0c292369697c4b29b41aa3f12619589017c627961440": [
-      194,
-      477,
-      711,
-      1040,
-      1217
     ],
     "86316effedd8cece86924f8c4106eb86bad3435d630ebbeb7edfe7a9f0084ca7": [
       251
@@ -22216,6 +22230,13 @@
       1630,
       1767
     ],
+    "8b608b0434c80b13ff6fe935c80c181f60f1fda5f5ea3c338956d4d5bdbb4977": [
+      201,
+      362,
+      565,
+      781,
+      1007
+    ],
     "8bbc36b83ca7674d7248a1ed53334ea4f72ccc1cc2c90f23299cede2622b91c0": [
       275,
       432,
@@ -22242,6 +22263,11 @@
       186,
       465,
       900
+    ],
+    "8d3d342063a4c517af71406f2bbb1443ad9caa77c43d29a27c5d332e22a78fc4": [
+      340,
+      564,
+      936
     ],
     "8d486572b7dc4c70f25e051021a952ad5f5e3fb5e75f3c2d1178e62e4aa7eaaa": [
       257,
@@ -22282,6 +22308,13 @@
       744,
       969,
       1180
+    ],
+    "905c46ff307d3b260d23b16e173e3a7f6ed724ae8144bb4ece322b39cf711ecb": [
+      177,
+      421,
+      646,
+      961,
+      1151
     ],
     "908727a296ad58ff48db34360066867e7ef612de2885fbac7d86ebd6f5ecc85b": [
       178,
@@ -22496,6 +22529,11 @@
     "9800851855aeeca61c8b6ff8d6dc1964488bf46a0e49b3a1920760eb72d3d2b6": [
       384
     ],
+    "98436d9750936a8d39d8a51b043c04d9389726f79e31f50266e8698ccc5deeb6": [
+      256,
+      558,
+      721
+    ],
     "986936809e0220f375d7aa1c61e4a81c9c374d99cc1021b0d05ca6746dd6fdf5": [
       212,
       439,
@@ -22532,13 +22570,6 @@
       1130,
       1293
     ],
-    "98fb06e97769c67ec4441c4f0ab1b0bd7d981bbf2e7a672b1016d3f1ba8e2cb4": [
-      170,
-      397,
-      571,
-      946,
-      1288
-    ],
     "9985b0f7131af4fbf2c713c93242e724497c0de886bf033f4ddc4ede2e2c668d": [
       220,
       497,
@@ -22563,17 +22594,12 @@
       1781,
       1931
     ],
-    "9b28b7c79afce0e913f6c37390b73994566f2ea47768438707a128fd5ba0303e": [
-      252,
-      432,
-      702,
-      901,
-      1169,
-      1356,
-      1519,
-      1712,
-      1892,
-      2150
+    "9ab63aaca3aef85f0db62c2f815a173b6224a083064ebabd22bcbeb3f23d6da8": [
+      410,
+      625,
+      904,
+      1153,
+      1427
     ],
     "9b2c4b23b0a9c574cf5216cd5be69054311f71890eaaf9d776c05d08bde6b072": [
       484
@@ -22598,6 +22624,12 @@
       534,
       803,
       962
+    ],
+    "9bc42f4033cb46dabf1fd5dd1e24ffa4fbd02f89ee93ec1337a43d9af9a52cd2": [
+      492,
+      684,
+      951,
+      1139
     ],
     "9c0f16e28d65835e857638dbe8716ee7dfda9dbceecf55fa04bb00fcdb4bedda": [
       473
@@ -22676,13 +22708,6 @@
       1458,
       1739
     ],
-    "a19c9cb106ffc5ed71f84ef4a99e690316ab65ffe42b95e215f3bece25d930e8": [
-      289,
-      480,
-      675,
-      958,
-      1156
-    ],
     "a1d813073dbcf4bf24313dbfb91fc869a5b7299935c5894400d25a057546b10c": [
       310,
       487,
@@ -22722,6 +22747,14 @@
       466,
       613,
       841
+    ],
+    "a2b6fa0cc205921efc0aa62c46067c315a1417c914daeba5783fd372430b74b2": [
+      180,
+      386,
+      595,
+      836,
+      1075,
+      1286
     ],
     "a2ddcda1d7600fa1f64716b3067722564be8b8b0a18949ae82500b1e1821725d": [
       198,
@@ -22856,9 +22889,6 @@
       1131,
       1265
     ],
-    "a8b83fd2d461266ec1dcc95799f2d3f4b14c58653b22bbeb5a442a5d68ba8a66": [
-      460
-    ],
     "a900e72da9e143dfbb79c16c77d68125352905094718fb443ed8321dfeb05d46": [
       185,
       397,
@@ -22934,14 +22964,6 @@
       652,
       859,
       1182
-    ],
-    "ac6fc7e27053d0ecc2cc6b4ceddd23055fd936e9cc584ff8a7325ed1e84567de": [
-      181,
-      411,
-      624,
-      871,
-      1116,
-      1335
     ],
     "acab7438356f0a0159f52506889a439e2ad25ae74ab31c350cf1d0386028f16c": [
       293,
@@ -23059,12 +23081,6 @@
       1273,
       1480
     ],
-    "b1cafb376c812ec5ae0edbc63e129311f404dbb24e083010e5aabb9472ca2dcb": [
-      280,
-      547,
-      860,
-      1044
-    ],
     "b1d83fccdb080fae4f599930c4cdb21d2b2e08eda64c1824e8e6502b9f40e9d7": [
       255,
       410,
@@ -23160,13 +23176,6 @@
       796,
       1120
     ],
-    "b67bfa77e0721be23a93e833b8e8ddbff980ae24e445ac67154f38bfacad30cb": [
-      318,
-      483,
-      779,
-      988,
-      1304
-    ],
     "b76f99742b50fda764c16a5696efdcf93bd74a87b82275f28d621621ba56abc5": [
       175,
       444,
@@ -23218,13 +23227,6 @@
       1100,
       1295,
       1591
-    ],
-    "b91512d2650b7a015dc1a950d1d8aded42021a2f4a3b8a0006a891975d476190": [
-      250,
-      394,
-      620,
-      799,
-      962
     ],
     "b98e4347b4f4a405395014a8959745932d28f517ed2e7f35fc3d392d2aae3f3d": [
       254,
@@ -23325,13 +23327,6 @@
       441,
       758,
       1020
-    ],
-    "bdee64bd0357db79fb98c398943e2a11bbd66769d1db9e8997852b8c523f0e00": [
-      195,
-      340,
-      524,
-      740,
-      953
     ],
     "bdef54e3001c76359d43b936b198ffda90da84a58f6e0dc007fba21672decaab": [
       195,
@@ -23644,12 +23639,11 @@
       312,
       549
     ],
-    "d01ee66f9bb521d1b2cc18b290475ec7592c855bb9bef2882aa4bfc7437989f4": [
-      366,
-      650,
-      1174,
-      1332,
-      1623
+    "cfcd2df804d53ebb761ab7bc50343f8c73834c3890ee8a7b8e04b65b4c0af26e": [
+      335,
+      515,
+      922,
+      1380
     ],
     "d0aa279dee2b2f2075d4363e60a08ae9674a8921276653aeb65bf720658fd1f7": [
       357,
@@ -23862,6 +23856,12 @@
     "d9a3a7345ca0238e9b8324de8cf4672cdb317d844bf08057072b9c0b27a480ba": [
       500
     ],
+    "da3bdf52578cc387e116b8d00c15045e9a0f9a503473c4922fc5471a8580ffd4": [
+      200,
+      395,
+      609,
+      776
+    ],
     "da4fa56dc360ebf44c0bfb9d34a4c53e32228a990afafba886628e0211e1eb15": [
       219,
       375,
@@ -23876,21 +23876,6 @@
       782,
       924,
       1079
-    ],
-    "db7c8d38f93a8f4fee1b79f2accfe28cb10625d3573740101025b8bd71b96447": [
-      275,
-      462,
-      778,
-      1123
-    ],
-    "dbbf6cc71f7de569ba49b2526fb31fa9f234a6cda7cce02bebfe1598839e1466": [
-      191,
-      422,
-      607,
-      817,
-      1042,
-      1234,
-      1389
     ],
     "dbc14b29d0740868e23acff609d20bd845841bb31502e6d814593871f610ee88": [
       201,
@@ -23933,6 +23918,12 @@
       207,
       481,
       633
+    ],
+    "dce50e96c2d60fa628c60fabca6cfd9026a544faeea8ac894d63ce7f2dd7734d": [
+      287,
+      558,
+      841,
+      1034
     ],
     "dd3e0a7ce4a53e3714f1e51eeabd517f43f2b94f1c2053645a2d512e19c4179c": [
       236,
@@ -24008,6 +23999,13 @@
       1004,
       1197
     ],
+    "dfd3b87c05d010defcb1695fb374f7aa4c012f8018d17813bc37666360b6f093": [
+      335,
+      508,
+      695,
+      1019,
+      1157
+    ],
     "e01a9dba2e0cb22109233b9d53fe28e5c3102f7f643e77f9161848f6186a80b6": [
       427,
       579,
@@ -24023,6 +24021,10 @@
       1226,
       1445
     ],
+    "e05414f0053aa914f676aaea97972de81516f79357e013e1ac639fa570ec0faf": [
+      272,
+      555
+    ],
     "e056c264558aec5c652d30ad91cbd01783b42ae6f60cd2c14e02182ffb4245e0": [
       181,
       431,
@@ -24034,11 +24036,6 @@
       264,
       417,
       558
-    ],
-    "e131ebd1138ad25b95977b18b2d7fe160bdc1e25da132d78da18e40acc932ee8": [
-      326,
-      565,
-      749
     ],
     "e194b75c10a2b7f3eb621a49317ea046977234ae866510f2f51fbb28bbbb0d46": [
       218,
@@ -24080,6 +24077,9 @@
       535,
       717,
       1014
+    ],
+    "e31b1eb1657826074e3625686ea59a6b0fd01d3997ae8783c7987beb10db6a9a": [
+      249
     ],
     "e338a46f749f0457fce7b08bb1a8c270597dc4d5ae715edf241785190f2c5fb6": [
       198,
@@ -24236,6 +24236,14 @@
       1526,
       1755
     ],
+    "ea10eb78755955ef94887a1749866fc872e945280030d2730e018949a84c5a1d": [
+      207,
+      365,
+      850,
+      1030,
+      1219,
+      1405
+    ],
     "ea7970af7560bf720c2b3c48f2898a039800df52ea137879b165b3932f88174f": [
       232,
       402,
@@ -24284,14 +24292,6 @@
       682,
       822
     ],
-    "ed782591dfbf57ea5434c86441d1253fa06185d067121d4ab01cb0f9d0877188": [
-      351,
-      545,
-      714,
-      1054,
-      1242,
-      1455
-    ],
     "edab5fa324517d61611b0ab77db77fd744bea0c7d3bf642b908eed362c8c57b3": [
       248,
       426,
@@ -24300,15 +24300,6 @@
       1046,
       1272,
       1492
-    ],
-    "edb621cff8e5d43b1acebde424ba987320a815e8271a557c5731b1c673db9d68": [
-      224,
-      389,
-      572,
-      876,
-      1047,
-      1234,
-      1436
     ],
     "ee19cbd5115f59a4c048b73abc3e23695c4b620ad8d456813f7c39b460c48fe1": [
       378,
@@ -24373,6 +24364,13 @@
       851,
       1178,
       1405
+    ],
+    "f1aee9ee1b7e5babed4b5168ee3fef97cab2cf1018e232c8f80802ce6671c36d": [
+      179,
+      411,
+      718,
+      1007,
+      1349
     ],
     "f1d9f75337dbba8fe4942f6b44cfc2121e70f4ba2997f224d00d3f416358a55a": [
       229,
@@ -24727,14 +24725,6 @@
     "027f0c0c0076f83e5f7fcc022cd6fd114aef03a0468e25786e96290a94781198": {
       "330": 1
     },
-    "028507e668d56999362df49a1fd99234aafc3ca79c315a83a7abab3ab9dd24fd": {
-      "1038": 2,
-      "402": 1
-    },
-    "02de8a419ddb9fdc2076b129fad3eb6dee2ba3b885a256c0b778faf524314be4": {
-      "366": 1,
-      "995": 2
-    },
     "02e8c7b8da435ab08fc3a6337c9f7b4794f91461e13c4454617de87bef924402": {
       "531": 1
     },
@@ -24746,6 +24736,9 @@
     },
     "0458d956a05306fa600aecfb650a125831e864ffade2d74c1f3db3bb15945e22": {
       "434": 1
+    },
+    "046ee2336f7d62bee2228149392f0e2d804f7378879cfcad258efc3f9208242c": {
+      "453": 1
     },
     "0483ca2192718f8371aa7cd00c14e86bea7b5e8db5b7e32cfda8e4a45592da8f": {
       "301": 1
@@ -24759,6 +24752,9 @@
     "059ca307713dfcda97ad506acbafd0d3a7be5f4420772424d6d0ef9f99a43d9d": {
       "417": 1
     },
+    "05cf53d0eff9b70978e228ec5fcb9bf2ed345045b3f2b49d75c32d444cf47326": {
+      "392": 1
+    },
     "06cf7c519bd5e1e41642b990954d00dac045ef59cc3a00062d0d0c5788feb5d1": {
       "1366": 2,
       "621": 1
@@ -24768,9 +24764,6 @@
     },
     "0774c20b88fa99312c1af22a0f286b4fb3b89c8b0d504bbd99b4a71b7d9b0ded": {
       "379": 1
-    },
-    "078595e6f7d882899f90e781d45094bceaa26dea115aa1e3b8c80612dac30b0c": {
-      "395": 1
     },
     "07ab9070c978009ea3955859fa08bca73e295fdfb0918ebb22e01d379bbc735f": {
       "397": 1
@@ -24784,17 +24777,11 @@
     "0944f84acf05dc5e0213b02cd143a4b0f340e7a9edcd3a7ef1cd492893c58e87": {
       "413": 1
     },
-    "09815f9586043adf3bf3c7d833df8ab12965a29dbfdf04b94d1b900613199181": {
-      "266": 1
-    },
     "09ac4f7449c3f1580ea0b3166716a6fa4eecca421b9cac4bff7d5f48ec7e672c": {
       "469": 1
     },
     "09b5620782475443ad86fb3393f97487110a677fd0d128541ce1d64024a65c80": {
       "456": 1
-    },
-    "09d93cdefc718224e8166f6d9a4060e34f2d29fae697680657d00a5c2e841333": {
-      "210": 1
     },
     "0a1bfaafc40a630839e889aab9af51fe7c0bed06925a80d25e4cc1e4116bbaef": {
       "1233": 2,
@@ -24814,6 +24801,10 @@
       "1186": 2,
       "382": 1
     },
+    "0b39f8719cd287fd72e388ad043fa2193749bf9350230fba0109f9adb681aba7": {
+      "282": 1,
+      "874": 2
+    },
     "0b79f304f3504354a25d413ff7340129159146f3d0f99eb5a8d1531e40a7db49": {
       "1230": 2,
       "527": 1
@@ -24827,9 +24818,8 @@
     "0c5d1ba2150df627799ef0a2ccb8a8153d2c7fba62d383383b74c89a90842587": {
       "327": 1
     },
-    "0c5f7e6d84ee00c8f69e627af4c6b573e2e9ce50a5fb3e6c511ba69b5ea66e94": {
-      "290": 1,
-      "871": 2
+    "0cba22ce3a70dffdcea4308953b3fab838900d0b017a362eda2ddcc401da5d76": {
+      "364": 1
     },
     "0d65b1ec079d0a111992b4cb8c911a13c1440b55188a1ac6b78871ff8bc3e9fb": {
       "447": 1
@@ -24854,6 +24844,13 @@
     "0fc307f77513c8e3e94a0eaddcf78bdcd93f5dfee57bf60b6d989991d1b54ba4": {
       "441": 1
     },
+    "107fc72543f644dcaea6cf76b86fd33816fff63034929db2676c80c143e58ea5": {
+      "1196": 2,
+      "356": 1
+    },
+    "10d739509708eb830e2b81e258b15270df093d6f6e46c20e2413bb251a130028": {
+      "377": 1
+    },
     "10f5ccf6213140c276ac39f8c1251ba139165060af10343b66cfeb756f76f6ba": {
       "275": 1
     },
@@ -24868,11 +24865,12 @@
       "369": 1,
       "975": 2
     },
-    "12cc97ed87024d5f814eb546b6646a2f518e59a0b444ed753cc347b77a4f5bdf": {
-      "432": 1
-    },
     "13871136f5bfaeda177f163164e80e537d417d6021f938d40ab28d49fd95bba9": {
       "366": 1
+    },
+    "139420497c44888e284c31b88e7d62fa01a6ca4f8a55176bf23bad8bdb531838": {
+      "1061": 2,
+      "461": 1
     },
     "13c710d461e56c5149f02ef28232243c20c92312bd09aec596dee39cb6f0e850": {
       "349": 1
@@ -24914,6 +24912,10 @@
     },
     "17b141357755c130310abbafadfbde844fcb58b4b63a4e6c3dab09a7d2d763f8": {
       "355": 1
+    },
+    "18a681d97d02b65f41f4c723a8216e2ae06122dd5422c7aceb7d7190b50ffbd0": {
+      "1535": 2,
+      "435": 1
     },
     "18c0d781758ad3284f55351655857118f9a6cc3358fbc03d254052e46e3275ca": {
       "1290": 2,
@@ -25033,10 +25035,6 @@
       "1250": 2,
       "389": 1
     },
-    "21bf1ed2becab756262a5e529c46bd402d919aaf9cdfb6d8ad0121ab00e555f0": {
-      "1051": 2,
-      "364": 1
-    },
     "21d4cb5d567bac9855aea98806b1170a2717bb81fa0c2cec065109a42d083286": {
       "464": 1
     },
@@ -25079,6 +25077,10 @@
     "2675e7f1540ffaf944ede61d69d892ed70f162bd3dcfb60dc501f6ffba438169": {
       "413": 1
     },
+    "268da35ff96733ddef64475991a0499463ebccbcaa9ff12865ee8cda138796c1": {
+      "1296": 2,
+      "354": 1
+    },
     "2729dbc0b73f2aa13d322a682e2ea59af2a4dcae4331fad4a52af8f7a3ae8642": {
       "378": 1
     },
@@ -25117,12 +25119,12 @@
     "2b6884fce67392ec58c8804d46771eed1c747a6f239aa898feb3e732f40a2f0e": {
       "371": 1
     },
-    "2c5ce155df1e847836fd874aafdebbe6fe6d3a780059723d84698be9d427d73a": {
-      "405": 1
-    },
     "2c9464614ee7515c906e4f87fcb1f83d5bf5d1ddfaf5e743c28dba323032883c": {
       "304": 1,
       "987": 2
+    },
+    "2cfe585de6c5da3635fa71f3fac1bd1e401141613f4c009b51bdd3298883046a": {
+      "423": 1
     },
     "2d792b428cdc455b20ff896a1cb846c84222e953d4bb056fd1c07e9e46e5bf91": {
       "542": 1
@@ -25145,9 +25147,6 @@
     },
     "2fe24a20f354aeb35515518703aa0aaaf0a07d60155a6b8dce964219bf48596a": {
       "381": 1
-    },
-    "30709fe4c7d5958c027a1ac2e12c56a8b3389fa7487adc0b8c707ba853a99f31": {
-      "434": 1
     },
     "30d7d37579355b23f42fff0684a87636698786b8b700ec5eb40daaa2f81e3724": {
       "1207": 2,
@@ -25181,6 +25180,9 @@
     "334d597bf9d34bb8ea65e8ec9ff294ec32af55fc7a7d09e48f480848465aa8c5": {
       "356": 1
     },
+    "33ea39f9d6a0e701f88220c307900b70ac7c795f5d14238f518fa8f9420bd504": {
+      "361": 1
+    },
     "33ef9c6170b9619b39ca090b569d485674cf837d584fe3d4dda9b17731f99962": {
       "472": 1
     },
@@ -25190,6 +25192,9 @@
     },
     "349569f1ff6a8e10b7c4975a7c38a0231deb0df4fb4b3547db6d07eaf6934eab": {
       "439": 1
+    },
+    "34e677fc218993c59fd94080adae555d9155842573109c90cbe9829fd7fbdf5e": {
+      "341": 1
     },
     "35000164b0ab24b1115801add95595639da5ed40411ebc1ff4eec2f35f8ce0b1": {
       "402": 1
@@ -25212,20 +25217,9 @@
       "1286": 2,
       "382": 1
     },
-    "378377f4599c27ca455743d8868b608d851b05409e76ab302e2b376538fd52ce": {
-      "1109": 2,
-      "425": 1
-    },
-    "37e9c2c7a3db6ad4240e39db29f77dffc4a55bc2bde0dee3b7898803792a6ac9": {
-      "1142": 2,
-      "514": 1
-    },
     "388592aa6e993ff14970912cdc14b10f4a7537c35e6c4f22996281364577d255": {
       "1114": 2,
       "289": 1
-    },
-    "38a804bda5e13ba1beadd7be99721e075d515039a29371698473ceaf403f3175": {
-      "380": 1
     },
     "38ce6939b5c5002f5f554ef72a9562ce8d1f072ab4d1167d656b5e3cbb66cdc0": {
       "327": 1
@@ -25303,14 +25297,15 @@
       "1362": 2,
       "456": 1
     },
+    "436a73e28f531c870fede00955d924509a4416d7176987672514d704d899a929": {
+      "1141": 2,
+      "420": 1
+    },
     "43cd8314a11699d9b8a3b8c9884ac4a21927a95dcb62e5ebf5d8f5d87c5fdab4": {
       "360": 1
     },
     "447e51ebd4c04b301e964f626234c812c9dcaa0ab7bca0c43caf5566643d9740": {
       "289": 1
-    },
-    "45b07e0157cef5319a991da54606e399726b24115edb230a65345ec47cbe6a37": {
-      "280": 1
     },
     "47481424af5ebce0d493307b953808cea8b63afff7b0413d0c21b8a341b22019": {
       "1264": 2,
@@ -25409,6 +25404,10 @@
       "1223": 2,
       "457": 1
     },
+    "518d7035cb298a4a79ecbeed85dc0897b5354ab0348bf42133c2dd3939f4c8b2": {
+      "512": 1,
+      "983": 2
+    },
     "51d0f9ad99ccc04d4e4ea070e91ed62d204c4d80679f1493e36922c470db5aad": {
       "403": 1
     },
@@ -25492,6 +25491,10 @@
     "5cd0cd6899f898213bcb06968e55c8d1783977ce4f1d05211275dee05f4d152f": {
       "476": 1
     },
+    "5ce8a5a5df3e0efd5262bdc83297240fa0d41480ee4576c1fb7db76a26f916e2": {
+      "1068": 2,
+      "374": 1
+    },
     "5e013b51030e371def8a9e9a130d0b3161a925033144508bd8b06220e475c053": {
       "417": 1
     },
@@ -25503,6 +25506,9 @@
     },
     "5e1ed5e342f31c3840d58baf0bb27ace399a64061aee459b0f9e21622072e27e": {
       "379": 1
+    },
+    "5e6900f99076ec1758764ed3c96e01aa3587e5a818975b7f18b3ee629643b7b2": {
+      "446": 1
     },
     "5e77a93e5093985a911fbaa741f63f567f2494ad82b3dbdb12db94f48f911252": {
       "207": 1
@@ -25516,9 +25522,20 @@
     "60354eb9c412c74879ddb605bcbfe5a4a1864e08a07e506bc38d67791de6efb5": {
       "270": 1
     },
+    "604fb2024f4fb9d1a2e129bd284f6dfa6c9ae71801d61adaf376324d189e1e4e": {
+      "1129": 2,
+      "270": 1
+    },
+    "60d0be4a51508d585532898de50e21d5c3bdc3819f9e86c938776236f97db15d": {
+      "1098": 2,
+      "411": 1
+    },
     "6140bd7e1002c4ab113afbb4765281e44eaed84833c72c014f1f3a4f439dd654": {
       "1179": 2,
       "309": 1
+    },
+    "6140f1ecd04cdcd536dfe28b837da561780356e4f55819a6f557ecc63a904174": {
+      "430": 1
     },
     "61887d4108fc69ac1197522696d2a23f06fba9b522d14e35de3823c872b1a10e": {
       "413": 1
@@ -25548,10 +25565,6 @@
     "647f6975b9315b2742872c1061b796d79672d166ed9b66c3ce9fe7acf72e87f4": {
       "1222": 2,
       "383": 1
-    },
-    "648c79ab58665390b78550a73a082a4fc040aebc6948be976152434e90e637ea": {
-      "420": 1,
-      "933": 2
     },
     "64c42cf5cd5940292201531b5c748c4fe5fa901eaadbe964b9943f13347209c8": {
       "207": 1
@@ -25618,10 +25631,6 @@
       "332": 1,
       "893": 2
     },
-    "6b97236c0be09c8bf3812705baa41aee08970d8eaf81da1579e7dd5be7883bd3": {
-      "1303": 2,
-      "361": 1
-    },
     "6bb03c44121129a06aa95bf0dbf3d8fa76fc0ea14d1cad3584559f0a85c8f1aa": {
       "1465": 2,
       "379": 1
@@ -25633,14 +25642,14 @@
     "6c1cb5a6c912b5acb08a4bf15c5d9f47a4f4bae2b21dd301e47a24c47028e660": {
       "395": 1
     },
-    "6c58f9a6fa9e3005bb04830351f327d7c734390f89b3017ab22a55761dd6f009": {
-      "350": 1
-    },
     "6c632f9d727f84351f64286547c752808f73ef62aacbb4a6c41a02559ff3aecf": {
       "405": 1
     },
     "6d60cadab9a3ce6743557787c61c31a80431d1fcdbafb644ee44b898a8b98b0e": {
       "390": 1
+    },
+    "6d8e1cd06ae6942b6b41573784c646553548d9196abd49f76c0023f1f5a84d8c": {
+      "401": 1
     },
     "6d9f78b41f041d47299a2fcf47b449e3a8f0d7f4d9c353a234e7be7950aa36bf": {
       "1259": 2,
@@ -25669,11 +25678,8 @@
     "70e5c91d78e1b20c004293af6ee8ddebe9600c1cb3ad88d360383407276f2241": {
       "306": 1
     },
-    "70f976492ca67be5e5963698e7643d59d088d50e4af6a7f4057b6f784861cc69": {
-      "421": 1
-    },
-    "719902f460c3ff2f243d8e4e4fcef750acb886120157e36aaee8636253b19b4f": {
-      "354": 1
+    "711656a29b3a463d26d135d30e412496dc0c5532cd11455fd4f8f43f9d4a9c3b": {
+      "212": 1
     },
     "719c6279a919706bf45e3bdd2ceeb2d4ca83b5d0793926d27e420e516b601e5c": {
       "208": 1
@@ -25728,9 +25734,6 @@
     },
     "772ac74723d6c766d432029362fecf3ceb14c39da3bc8ecb36859f787caf9816": {
       "371": 1
-    },
-    "7742096bddb8b6361717eb7719820369f3bf955c3b42aaba9414883c505841ff": {
-      "278": 1
     },
     "7748b149f6a2855d922f95ee585cd58df1f34f476a3881f36c3944fac6102d0f": {
       "472": 1
@@ -25796,6 +25799,10 @@
       "1252": 2,
       "374": 1
     },
+    "7bde28ecf4eda38d4b20b8c4de987914b7f578d0ee97322f5be3125094a39d44": {
+      "1066": 2,
+      "384": 1
+    },
     "7bde2e1e6fd758b2789f7e57c0830d2a37e38a26d6c965bf11bf094827dc8222": {
       "1364": 2,
       "501": 1
@@ -25852,9 +25859,6 @@
     "81c7c58e49446265b138dc0c575dbfb0c604ae63d52da125377030264c80523f": {
       "427": 1
     },
-    "81ca4ea51e22fdfea55e53d0259ffd779b8b1280cc66486a8162c978c877ebc4": {
-      "320": 1
-    },
     "81d0df2bfa6086669939dc3162127e52853c6f956668286de5010560b81e1493": {
       "1073": 2,
       "334": 1
@@ -25883,10 +25887,6 @@
     "8301adcc25e4dcb4b41522e0246098d9bb470fc062535d3727a29699d4d7c6fd": {
       "457": 1
     },
-    "83402534a97818dc2b0485ac73a1ab1e04634833d630b05f426354594e39e421": {
-      "511": 1,
-      "982": 2
-    },
     "8343d6d2676161fb4cfcc4e6929d803a59d72e5809a30c38d7e010e566e1a3de": {
       "367": 1
     },
@@ -25905,9 +25905,6 @@
     "8572803c5594741b0e52521910d7ef856400421e869668c75676a0a2fd4702d3": {
       "1431": 2,
       "530": 1
-    },
-    "860c88e965ea22b9a7be0c292369697c4b29b41aa3f12619589017c627961440": {
-      "477": 1
     },
     "86a43d635e227b6e038b62e04bd7bc1628e20a5cd98a1e608e12b5b09415414c": {
       "342": 1
@@ -25970,6 +25967,9 @@
       "1630": 2,
       "454": 1
     },
+    "8b608b0434c80b13ff6fe935c80c181f60f1fda5f5ea3c338956d4d5bdbb4977": {
+      "362": 1
+    },
     "8bbc36b83ca7674d7248a1ed53334ea4f72ccc1cc2c90f23299cede2622b91c0": {
       "275": 1
     },
@@ -25981,6 +25981,9 @@
     },
     "8d290b0467e36ff4d50a92af9aa3dda2aacf198bc830065d077ebde054d9b0ca": {
       "465": 1
+    },
+    "8d3d342063a4c517af71406f2bbb1443ad9caa77c43d29a27c5d332e22a78fc4": {
+      "340": 1
     },
     "8d486572b7dc4c70f25e051021a952ad5f5e3fb5e75f3c2d1178e62e4aa7eaaa": {
       "433": 1
@@ -25998,6 +26001,9 @@
     },
     "8fa7952d690f2651fdbe669c854c8f1ebbe194eafea5de4f70d0f5a400796c41": {
       "543": 1
+    },
+    "905c46ff307d3b260d23b16e173e3a7f6ed724ae8144bb4ece322b39cf711ecb": {
+      "421": 1
     },
     "908727a296ad58ff48db34360066867e7ef612de2885fbac7d86ebd6f5ecc85b": {
       "363": 1
@@ -26087,6 +26093,9 @@
       "1358": 2,
       "349": 1
     },
+    "98436d9750936a8d39d8a51b043c04d9389726f79e31f50266e8698ccc5deeb6": {
+      "256": 1
+    },
     "986936809e0220f375d7aa1c61e4a81c9c374d99cc1021b0d05ca6746dd6fdf5": {
       "1230": 2,
       "439": 1
@@ -26101,9 +26110,6 @@
     "98ce1daaf1b513c3ba66856045604338ae24bb734cb8ebaf23fc3f7f69ef470a": {
       "436": 1
     },
-    "98fb06e97769c67ec4441c4f0ab1b0bd7d981bbf2e7a672b1016d3f1ba8e2cb4": {
-      "397": 1
-    },
     "9985b0f7131af4fbf2c713c93242e724497c0de886bf033f4ddc4ede2e2c668d": {
       "497": 1
     },
@@ -26114,9 +26120,9 @@
       "1306": 2,
       "412": 1
     },
-    "9b28b7c79afce0e913f6c37390b73994566f2ea47768438707a128fd5ba0303e": {
-      "1519": 2,
-      "432": 1
+    "9ab63aaca3aef85f0db62c2f815a173b6224a083064ebabd22bcbeb3f23d6da8": {
+      "410": 1,
+      "904": 2
     },
     "9b39f4c9a7dc2641b4adcbd07137be7989fe77a016e389dd81df1b806488dce1": {
       "399": 1
@@ -26127,6 +26133,9 @@
     },
     "9b9e17e0ca6f09fcb769ca4d5163c001dcc9f213ac666cdaaa73417a03d00ed4": {
       "326": 1
+    },
+    "9bc42f4033cb46dabf1fd5dd1e24ffa4fbd02f89ee93ec1337a43d9af9a52cd2": {
+      "492": 1
     },
     "9c5b34655c9993db38dfc9e0d3cda7f617e76b4b3f7403785c199b20d22a76d9": {
       "1200": 2,
@@ -26156,9 +26165,6 @@
       "1164": 2,
       "332": 1
     },
-    "a19c9cb106ffc5ed71f84ef4a99e690316ab65ffe42b95e215f3bece25d930e8": {
-      "480": 1
-    },
     "a1d813073dbcf4bf24313dbfb91fc869a5b7299935c5894400d25a057546b10c": {
       "310": 1
     },
@@ -26180,6 +26186,9 @@
     },
     "a2b207ec3214caac2563d3024cd6ca3da3400f560ae53474b86a7109a68a2205": {
       "214": 1
+    },
+    "a2b6fa0cc205921efc0aa62c46067c315a1417c914daeba5783fd372430b74b2": {
+      "386": 1
     },
     "a2ddcda1d7600fa1f64716b3067722564be8b8b0a18949ae82500b1e1821725d": {
       "395": 1
@@ -26275,9 +26284,6 @@
     "ac21c1a5019c575be38ac331a59bc579596b0095fd126fcac3a0e060629e31b9": {
       "474": 1
     },
-    "ac6fc7e27053d0ecc2cc6b4ceddd23055fd936e9cc584ff8a7325ed1e84567de": {
-      "411": 1
-    },
     "acab7438356f0a0159f52506889a439e2ad25ae74ab31c350cf1d0386028f16c": {
       "293": 1
     },
@@ -26328,9 +26334,6 @@
       "1083": 2,
       "366": 1
     },
-    "b1cafb376c812ec5ae0edbc63e129311f404dbb24e083010e5aabb9472ca2dcb": {
-      "280": 1
-    },
     "b1d83fccdb080fae4f599930c4cdb21d2b2e08eda64c1824e8e6502b9f40e9d7": {
       "410": 1
     },
@@ -26372,9 +26375,6 @@
       "1120": 2,
       "430": 1
     },
-    "b67bfa77e0721be23a93e833b8e8ddbff980ae24e445ac67154f38bfacad30cb": {
-      "318": 1
-    },
     "b76f99742b50fda764c16a5696efdcf93bd74a87b82275f28d621621ba56abc5": {
       "444": 1
     },
@@ -26396,9 +26396,6 @@
     "b8bb0f6661389784e84c8786843889479ec08338e396d2fd0641f5dd1a782aea": {
       "1295": 2,
       "440": 1
-    },
-    "b91512d2650b7a015dc1a950d1d8aded42021a2f4a3b8a0006a891975d476190": {
-      "394": 1
     },
     "b98e4347b4f4a405395014a8959745932d28f517ed2e7f35fc3d392d2aae3f3d": {
       "506": 1
@@ -26432,9 +26429,6 @@
     },
     "bdcb6814467ddd6f16a083e4989e2d56790cd15c2367dde5c783e57a2e250f31": {
       "441": 1
-    },
-    "bdee64bd0357db79fb98c398943e2a11bbd66769d1db9e8997852b8c523f0e00": {
-      "340": 1
     },
     "bdef54e3001c76359d43b936b198ffda90da84a58f6e0dc007fba21672decaab": {
       "350": 1
@@ -26571,9 +26565,8 @@
     "cfae23553389bb63141160db08ee7facefcd5014cfe0da8b9ea835219ad9e02c": {
       "312": 1
     },
-    "d01ee66f9bb521d1b2cc18b290475ec7592c855bb9bef2882aa4bfc7437989f4": {
-      "1174": 2,
-      "366": 1
+    "cfcd2df804d53ebb761ab7bc50343f8c73834c3890ee8a7b8e04b65b4c0af26e": {
+      "335": 1
     },
     "d0aa279dee2b2f2075d4363e60a08ae9674a8921276653aeb65bf720658fd1f7": {
       "357": 1
@@ -26666,19 +26659,15 @@
     "d9805ebe381e7ae3049453719d84ba015844f2879257367628bc23a07439f42a": {
       "693": 1
     },
+    "da3bdf52578cc387e116b8d00c15045e9a0f9a503473c4922fc5471a8580ffd4": {
+      "395": 1
+    },
     "da4fa56dc360ebf44c0bfb9d34a4c53e32228a990afafba886628e0211e1eb15": {
       "1037": 2,
       "375": 1
     },
     "da9774e66ffe91f41bdbf740ee287fe21d206859e58749225660282af56e22c7": {
       "358": 1
-    },
-    "db7c8d38f93a8f4fee1b79f2accfe28cb10625d3573740101025b8bd71b96447": {
-      "1123": 2,
-      "275": 1
-    },
-    "dbbf6cc71f7de569ba49b2526fb31fa9f234a6cda7cce02bebfe1598839e1466": {
-      "422": 1
     },
     "dbc14b29d0740868e23acff609d20bd845841bb31502e6d814593871f610ee88": {
       "437": 1
@@ -26698,6 +26687,9 @@
     },
     "dcbc6d747c4b2c35c9e0d8d570f2336e363eb76864f87cb106e88944a955de82": {
       "481": 1
+    },
+    "dce50e96c2d60fa628c60fabca6cfd9026a544faeea8ac894d63ce7f2dd7734d": {
+      "287": 1
     },
     "dd3e0a7ce4a53e3714f1e51eeabd517f43f2b94f1c2053645a2d512e19c4179c": {
       "1642": 2,
@@ -26731,6 +26723,9 @@
     "dee42e91c59bf2ad0d1a054d6920fc83ef0f5452c0a571f4b91fb474d2da4271": {
       "447": 1
     },
+    "dfd3b87c05d010defcb1695fb374f7aa4c012f8018d17813bc37666360b6f093": {
+      "335": 1
+    },
     "e01a9dba2e0cb22109233b9d53fe28e5c3102f7f643e77f9161848f6186a80b6": {
       "1246": 2,
       "427": 1
@@ -26739,14 +26734,14 @@
       "1226": 2,
       "436": 1
     },
+    "e05414f0053aa914f676aaea97972de81516f79357e013e1ac639fa570ec0faf": {
+      "272": 1
+    },
     "e056c264558aec5c652d30ad91cbd01783b42ae6f60cd2c14e02182ffb4245e0": {
       "431": 1
     },
     "e0a98fe8f1a9174c6627834b81f52107a56a49ce9c42b8062091a0eda1274173": {
       "264": 1
-    },
-    "e131ebd1138ad25b95977b18b2d7fe160bdc1e25da132d78da18e40acc932ee8": {
-      "326": 1
     },
     "e194b75c10a2b7f3eb621a49317ea046977234ae866510f2f51fbb28bbbb0d46": {
       "477": 1
@@ -26762,6 +26757,9 @@
     },
     "e30e26977872f94e0f42586dd7591c01def724e55ef334f6425b1bbdf721fee5": {
       "535": 1
+    },
+    "e31b1eb1657826074e3625686ea59a6b0fd01d3997ae8783c7987beb10db6a9a": {
+      "249": 1
     },
     "e338a46f749f0457fce7b08bb1a8c270597dc4d5ae715edf241785190f2c5fb6": {
       "471": 1
@@ -26820,6 +26818,9 @@
       "1254": 2,
       "423": 1
     },
+    "ea10eb78755955ef94887a1749866fc872e945280030d2730e018949a84c5a1d": {
+      "365": 1
+    },
     "ea7970af7560bf720c2b3c48f2898a039800df52ea137879b165b3932f88174f": {
       "1026": 2,
       "402": 1
@@ -26843,15 +26844,9 @@
     "ed616dfaf126892afcfae98cb22566f71ce8a302915bdbd5f45d5b03aab82722": {
       "471": 1
     },
-    "ed782591dfbf57ea5434c86441d1253fa06185d067121d4ab01cb0f9d0877188": {
-      "351": 1
-    },
     "edab5fa324517d61611b0ab77db77fd744bea0c7d3bf642b908eed362c8c57b3": {
       "1046": 2,
       "426": 1
-    },
-    "edb621cff8e5d43b1acebde424ba987320a815e8271a557c5731b1c673db9d68": {
-      "389": 1
     },
     "ee19cbd5115f59a4c048b73abc3e23695c4b620ad8d456813f7c39b460c48fe1": {
       "378": 1
@@ -26881,6 +26876,9 @@
     },
     "f1689229af023f4e0162cabf32c79e07d876f371548321c478800f57494afe65": {
       "439": 1
+    },
+    "f1aee9ee1b7e5babed4b5168ee3fef97cab2cf1018e232c8f80802ce6671c36d": {
+      "411": 1
     },
     "f1d9f75337dbba8fe4942f6b44cfc2121e70f4ba2997f224d00d3f416358a55a": {
       "391": 1

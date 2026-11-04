@@ -2,6 +2,8 @@
 -- Sources: data/i18n/svSE. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_svSE")
 local Po = P.search.post
+Po["lotwilgyro"] = "G7gB"
+Po["lotwilha"] = "G+FC"
 Po["lotwilkharanos"] = "G7hC"
 Po["lotwillotwil"] = "CaNCCaOBHHcCHHgC"
 Po["lotwillotwils"] = "FnYC"
@@ -12000,5 +12002,3 @@ Po["moonsilvervapen"] = "IQMC"
 Po["moonsister"] = "EywC"
 Po["moonsisterhood"] = "EypBGL3BGQbB"
 Po["moonskallelse"] = "GMKB"
-Po["moonsköldpadda"] = "F2rC"
-Po["moonsmotiv"] = "HE1CHFCC"

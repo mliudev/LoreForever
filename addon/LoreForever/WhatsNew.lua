@@ -22,7 +22,7 @@ local GOLD = T.code.gold
 local HIGHLIGHTS = 3   -- the headline changes: the first ones with a lead-in, as on the website
 -- The pages a "New" can sit on, and the word in the headline changes that puts it there (the notes are English).
 local PAGES = { journey = "Journey", found = "Found", history = "History" }
-local NEW_COLOR = { 0.12, 1, 0, 1 }   -- the game's uncommon green, as the site's "New" tags
+local NEW_COLOR = { 1, 0.82, 0, 1 }   -- gold: new, as everything live (the palette of 11/3)
 
 local function S() return LoreForeverDB.settings end
 
@@ -180,7 +180,7 @@ function WN.OptionIsNew(label)
   return false
 end
 
--- A small green "New" on `parent`, anchored with `point` to `relPoint` of `anchor`; hidden until shown.
+-- A small gold "New" on `parent`, anchored with `point` to `relPoint` of `anchor`; hidden until shown.
 function WN.Tag(parent, anchor, point, relPoint, x, y)
   local t = parent:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
   t:SetText(L["New"])
@@ -190,35 +190,13 @@ function WN.Tag(parent, anchor, point, relPoint, x, y)
   return t
 end
 
--- A green dot at a tab's top right corner (a tab's label fills it, so a word wouldn't fit); hidden until shown. On a
--- ribbon (the book's bookmarks: red, or gold while open) it stands on the ribbon's top right corner as a round disc with a
--- pale ring, so it reads on both; it's round where the count beside it is a pill.
+-- A gilt dot (new: gold, as everything live) at a tab's top right corner (a tab's label fills it, so a word wouldn't
+-- fit); hidden until shown. A bookmark tab draws its own (T.Ribbon), the same as its new-pages dot.
 function WN.Dot(tab)
-  if tab.countBg then
-    local d = CreateFrame("Frame", nil, tab)
-    d:SetSize(12, 12)
-    d:SetPoint("CENTER", tab, "TOPRIGHT", 0, 0)
-    d:SetFrameLevel((tab:GetFrameLevel() or 1) + 2)
-    local disc = T.HasTexture(T.DISC)
-    local function layer(inset, role, sub)
-      local t = d:CreateTexture(nil, "OVERLAY", nil, sub)
-      t:SetPoint("TOPLEFT", inset, -inset)
-      t:SetPoint("BOTTOMRIGHT", -inset, inset)
-      if disc then
-        t:SetTexture(T.DISC)
-        t:SetVertexColor(T.rgba(T.color[role]))
-      else
-        T.Fill(t, role)
-      end
-    end
-    layer(0, "dotRim", 0)
-    layer(2, "dotGreen", 1)
-    d:Hide()
-    return d
-  end
+  if tab.NewDot then return tab:NewDot() end   -- a bookmark tab: its own small gold dot
   local d = tab:CreateTexture(nil, "OVERLAY")
   d:SetTexture("Interface\\Buttons\\WHITE8X8")
-  d:SetVertexColor(T.rgba(T.color.inkGreen))   -- the tabs are parchment: the ink's green, not the game's bright one
+  d:SetVertexColor(T.rgba(T.color.newMark))   -- the tabs are parchment: gilt, not the game's bright gold
   d:SetSize(6, 6)
   d:SetPoint("TOPRIGHT", -3, -3)
   d:Hide()

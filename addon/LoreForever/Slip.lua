@@ -48,27 +48,21 @@ local function create()
   tile:SetPoint("LEFT", 14, 0)
   tile:EnableMouse(false)
   tile:SetState("new")
-  -- Listen: plays the page's story now (shown only when it has one).
-  local listen = T.Button(f, L["Listen"], "primary")
-  listen:SetHeight(22)
-  listen:SetWidth(math.max(60, math.floor((T.TextWidth(listen:GetFontString()) or 40) + 24)))
-  listen:SetPoint("RIGHT", -12, 0)
-  listen:SetScript("OnClick", function()
-    local key = f.key
-    if not key then return end
-    Slip.Hide()
-    ns.UI.PlayEntry(key)
-  end)
+  -- Listen and the playlist: the pill every story has (11/4). Play plays the page's story now and puts the note away;
+  -- the playlist half adds it. Shown only when it has a story.
+  local pill = ns.UI.RowPill(f)
+  pill:SetPoint("RIGHT", -12, 0)
+  pill.play:HookScript("OnClick", function() Slip.Hide() end)
   local label = ink(f:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall"), ACCENT)
   label:SetPoint("TOPLEFT", tile, "TOPRIGHT", 12, 1)
-  label:SetPoint("RIGHT", listen, "LEFT", -8, 0)
+  label:SetPoint("RIGHT", pill, "LEFT", -8, 0)
   local name = ink(f:CreateFontString(nil, "OVERLAY", "GameFontNormal"), INK)
   name:SetPoint("TOPLEFT", label, "BOTTOMLEFT", 0, -2)
-  name:SetPoint("RIGHT", listen, "LEFT", -8, 0)
+  name:SetPoint("RIGHT", pill, "LEFT", -8, 0)
   local sub = ink(f:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall"), NOTE)
   sub:SetPoint("TOPLEFT", name, "BOTTOMLEFT", 0, -2)
-  sub:SetPoint("RIGHT", listen, "LEFT", -8, 0)
-  f.tile, f.listen, f.label, f.name, f.sub = tile, listen, label, name, sub
+  sub:SetPoint("RIGHT", pill, "LEFT", -8, 0)
+  f.tile, f.pill, f.listen, f.label, f.name, f.sub = tile, pill, pill.play, label, name, sub
   f:SetScript("OnClick", function(self, button)
     local key = self.key
     if not key then return end
@@ -132,9 +126,10 @@ function Slip.Flush()
   end
   f.sub:SetText(esc(standing))
   local canListen = ns.UI.StoryAudio(key) and true or false
-  f.listen:SetShown(canListen)
+  ns.UI.SetRowPill(f.pill, key, nil, nil, canListen, key)
+  local pill = f.pill:IsShown()
   for _, fs in ipairs({ f.label, f.name, f.sub }) do
-    if canListen then fs:SetPoint("RIGHT", f.listen, "LEFT", -8, 0) else fs:SetPoint("RIGHT", f, "RIGHT", -14, 0) end
+    if pill then fs:SetPoint("RIGHT", f.pill, "LEFT", -8, 0) else fs:SetPoint("RIGHT", f, "RIGHT", -14, 0) end
   end
   f:Show()
 end

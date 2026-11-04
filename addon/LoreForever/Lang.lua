@@ -66,6 +66,35 @@ ns.L = setmetatable({}, { __index = function(_, k)
 end })
 local L = ns.L
 
+-- The one way a date reads, everywhere (Design Lead, 11/4): "Sep 21"; how "time": "Sep 21 14:51", "year": "Sep 21,
+-- 2026", "full": "Sep 21, 2026 14:51". In US English; every other language puts the day first ("21 Sep", "21 Sep
+-- 2026"), as the dates read before. The month's short name is the client's own. nil for no time.
+function Lang.Date(t, how)
+  if type(t) ~= "number" then return nil end
+  local ok, month, day = pcall(function() return date("%b", t), tonumber(date("%d", t)) end)
+  if not (ok and month and day) then return nil end
+  local loc = (ns.lang and ns.lang.locale) or Lang.ClientLocale()
+  local us = loc == "enUS"
+  local s = us and (month .. " " .. day) or (day .. " " .. month)
+  local year = us and (", " .. date("%Y", t)) or (" " .. date("%Y", t))
+  if how == "time" then return s .. " " .. date("%H:%M", t) end
+  if how == "year" then return s .. year end
+  if how == "full" then return s .. year .. " " .. date("%H:%M", t) end
+  return s
+end
+
+-- A line reworded in English: a pack with the new wording shows it; one with only an older wording keeps its own
+-- words until it's translated again, never English (11/1: translations stay whole). nil: the pack has neither, so
+-- the caller's `or L[new]` gives English (and keeps the string where the extractor finds it).
+function Lang.Reworded(new, ...)
+  local have = rawget(L, new)
+  if have then return have end
+  for i = 1, select("#", ...) do
+    local old = rawget(L, (select(i, ...)))
+    if old then return old end
+  end
+end
+
 local ENGLISH = { enUS = true, enGB = true }
 local ZONE_TYPES = { zone = true, city = true, dungeon = true }
 

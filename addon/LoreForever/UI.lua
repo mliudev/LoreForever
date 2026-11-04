@@ -9,9 +9,9 @@ local function faqID(key, idx) return ns.Lang.FaqID(key, idx) end
 local function faqIndex(key, original) return ns.Lang.FaqIndex(key, original) end
 local T = ns.Theme   -- colours, fonts, borders and the themed button (Theme.lua)
 
-local GOLD, GREY, BLUE, WHITE, GREEN = T.code.gold, T.code.grey, T.code.blue, T.code.white, T.code.green
+local GOLD, GREY, BLUE, WHITE = T.code.gold, T.code.grey, T.code.blue, T.code.white
 -- The sidebar's inks: its pages are parchment now, so names are written in ink, not light on dark.
-local INK, INK_ACCENT, INK_FADED, INK_GREEN = T.code.ink, T.code.inkAccent, T.code.inkFaded, T.code.inkGreen
+local INK, INK_ACCENT, INK_FADED = T.code.ink, T.code.inkAccent, T.code.inkFaded
 -- Score thresholds. Real lore questions score 15+ with the tuned engine (tests/retrieval_check.py); these only catch
 -- matches on a stray common word. Gameplay questions can't be told apart by score (they name real NPCs and quests),
 -- so they're caught by wording instead (GAMEPLAY below).
@@ -25,6 +25,7 @@ local BOOK_R = 36                           -- the book's right edge, from the w
 local SHIFT_R = BOOK_R - 12                 -- how far that pulls in what used to reach the window's right edge
 local CHAT_W = W - CHAT_X - 40 - SHIFT_R    -- conversation width (the scroll bar takes the rest)
 local PAD = 8                               -- bubble padding
+local PILL_TOP = 4                          -- a story card's Listen + playlist pill, from the card's top
 local PLAYER_H = 72                         -- the floating player (a box of its own, two rows)
 local DOCK_PLAYER_H = 40                    -- the docked player: one row across the foot of the book
 local DOCK_H = DOCK_PLAYER_H + 8            -- what the book keeps free for it (its bottom inset included)
@@ -32,7 +33,8 @@ local FOOT = DOCK_H - 8                     -- how far the foot raises everythin
 local BOOK_TOP = 60                         -- the book's top edge, under the title bar
 
 local HERE_ROW, HERE_STEP = 22, 24          -- the Here list's one-line rows, and row to row (a dungeon's 9 bosses fit)
-local HERE_INDENT = 26                      -- where Here names start: after the play arrow's slot
+local HERE_INDENT = 6                       -- where Here names start (their pill is at the row's right end)
+local HERE_LINE = 13                        -- a second line, for a Here question too long for one
 local HERE_TOP = 70                         -- the Here heading's top, from the window's top (the page starts at 60)
 local N_NEXT, N_COMPLETE = 3, 6
 
@@ -111,63 +113,52 @@ local function queueTooltip(id)
   end
 end
 
--- The small playlist button on a row: a green "+" adds a recorded story or answer; once it's queued a "-" takes it
--- out again, and while it plays a square stops it. SetQueueButton points it at a story (idx nil) or answer and
--- returns whether it can be queued at all.
-local function QueueButton(parent, height, deferStart)
-  local add = TextButton(parent, 20, height, T.font.body, T.color.add)
-  add.text:SetJustifyH("CENTER")
-  add.text:SetText("+")
-  local minus = T.Area(add, "glyph", "OVERLAY")
-  minus:SetSize(10, 2)
-  minus:SetPoint("CENTER")
-  add.minus = minus
-  local stop = T.Area(add, "glyph", "OVERLAY")
-  stop:SetSize(8, 8)
-  stop:SetPoint("CENTER")
-  add.stop = stop
-  add:SetScript("OnClick", function(self) UI.DoQueueAction(self.key, self.idx, deferStart) end)
-  add:SetScript("OnEnter", function(self)
-    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-    queueTooltip(self.id)
-    GameTooltip:Show()
-  end)
-  add:SetScript("OnLeave", function() GameTooltip:Hide() end)
-  add:Hide()
-  return add
-end
-
-local function SetQueueButton(add, key, idx)
-  local can = UI.CanQueue(key, idx) and true or false
-  add:SetShown(can)
-  if not can then return false end
-  add.id, add.key, add.idx = idx and (faqID(key, idx)) or key, key, idx
-  local action = UI.QueueAction(add.id)
-  add.action = action
-  add.text:SetShown(action == "add")
-  add.minus:SetShown(action == "remove")
-  add.stop:SetShown(action == "stop")
-  -- Green while it can be added; a plain dark square once it's in.
-  T.Fill(add.bg, action == "add" and "add" or "added")
-  return true
-end
-
--- The small play arrow on rows with a recorded story or answer (play.idx set): plays it (and posts it in the chat),
--- or stops it.
-local function PlayButton(parent)
-  local play = T.RoundButton(parent, 22)   -- a gold disc with a dark arrow
-  play:SetScript("OnClick", function(self)
+-- A row's Listen + playlist pill (T.Pill on paper, 24 tall; Design Lead, 11/3): play for a recorded story or answer
+-- (it plays it and posts it in the chat, or stops it), + to queue it, - to take it out again; while it plays, one gilt
+-- stop. SetRowPill points it at a story (idx nil) or answer. deferStart: queueing doesn't start the playlist. stone:
+-- the dark ground's pill (the chat's suggestions).
+local function RowPill(parent, deferStart, stone, h)
+  local p = T.Pill(parent, h or 24, stone)
+  p.play:SetScript("OnClick", function(self)
+    -- (its queued item playing: the stop is the queue's)
+    if p.playing and p.add.action == "stop" then return UI.DoQueueAction(p.add.key, p.add.idx, deferStart) end
     if self.idx then UI.PlayFaq(self.key, self.idx) else UI.PlayEntry(self.key, self.label) end
   end)
-  play:SetScript("OnEnter", function(self)
+  p.play.onEnter = function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
     local id = self.idx and (faqID(self.key, self.idx)) or self.key
     GameTooltip:AddLine((UI.speaking and UI.playingId == id) and L["Stop narration"] or L["Play narration"])
     GameTooltip:Show()
-  end)
-  play:SetScript("OnLeave", function() GameTooltip:Hide() end)
-  play:Hide()
-  return play
+  end
+  p.add:SetScript("OnClick", function(self) UI.DoQueueAction(self.key, self.idx, deferStart) end)
+  p.add.onEnter = function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    queueTooltip(self.id)
+    GameTooltip:Show()
+  end
+  p.play.onLeave = function() GameTooltip:Hide() end
+  p.add.onLeave = p.play.onLeave
+  p:Hide()
+  return p
+end
+
+-- Points a row's pill at what it plays (key, idx, label for the chat; playable: a voice recorded it) and what it
+-- queues (queueKey, the same idx; nil: nothing). Called again with no arguments, it refreshes for what's playing and
+-- queued now. Returns whether the + is there.
+local function SetRowPill(p, key, idx, label, playable, queueKey)
+  if key ~= nil or queueKey ~= nil or playable ~= nil then
+    p.play.key, p.play.idx, p.play.label, p.playable = key, idx, label, playable and true or false
+    p.add.key, p.add.idx = queueKey, queueKey and idx or nil
+  end
+  local add = p.add
+  local can = add.key and UI.CanQueue(add.key, add.idx) and true or false
+  add.id = add.key and (add.idx and (faqID(add.key, add.idx)) or add.key) or nil
+  add.action = can and UI.QueueAction(add.id) or nil
+  local id = p.play.key and (p.play.idx and (faqID(p.play.key, p.play.idx)) or p.play.key)
+  local playing = p.playable and UI.speaking and id ~= nil and UI.playingId == id or add.action == "stop"
+  T.SetPill(p, playing and true or false, can, add.action == "remove" or add.action == "stop", p.playable)
+  p:SetShown(p.playable or can)
+  return can
 end
 
 -- A boss's name as players know it ("Ghamoo-ra (Classic)" is "Ghamoo-ra").
@@ -432,8 +423,9 @@ end
 
 -- Shared with the journey page (Journey.lua), so its rows and headers look like the rest of the panel.
 UI.TextButton, UI.Header, UI.SIDE_W, UI.CHAT_X, UI.DOCK_H = TextButton, Header, SIDE_W, CHAT_X, DOCK_H
+UI.RowPill, UI.SetRowPill = RowPill, SetRowPill
 UI.BOOK_TOP, UI.BOOK_R, UI.MIN_W = BOOK_TOP, BOOK_R, MIN_W
-UI.QueueButton, UI.SetQueueButton = QueueButton, SetQueueButton
+UI.RowPill, UI.SetRowPill = RowPill, SetRowPill
 
 -- The playlist (see "Playlist" below): items {id, key, idx, label}, pos = the current item, and state:
 --   "playing"  the clip playing is items[pos] (or it's in the short gap before the next one)
@@ -455,6 +447,8 @@ function UI.Create(engine)
   f:SetFrameStrata("HIGH")
   f:SetToplevel(true)
   f:SetClampedToScreen(true)
+  -- (the title banner stands 12px over the frame's top edge: it stays on screen too; Design Lead, 11/4)
+  if f.SetClampRectInsets then f:SetClampRectInsets(0, 0, 14, 0) end
   f:SetMovable(true)
   f:EnableMouse(true)
   f:RegisterForDrag("LeftButton")
@@ -509,9 +503,23 @@ function UI.Create(engine)
   -- Options (the PM's pick, LOR-673): a gear at the end of the title bar opens them on click, as a right-click on the
   -- minimap button does. Before, only that, the add-on menu and /lore options reached them, and players who hide the
   -- minimap button had no way to see there was any.
-  local gear = PanelButton(f)
-  gear:SetSize(26, 22)
-  gear:SetPoint("TOPRIGHT", -14, -30)
+  -- Round, in the gold rim on a dark fill, as Willo's orb beside it is (Design Lead, 11/4: one shape for the icons).
+  local gear = CreateFrame("Button", nil, f)
+  gear:SetSize(26, 26)
+  gear:SetPoint("TOPRIGHT", -14, -28)
+  local gearFill = gear:CreateTexture(nil, "BACKGROUND")
+  gearFill:SetPoint("TOPLEFT", 1, -1)
+  gearFill:SetPoint("BOTTOMRIGHT", -1, 1)
+  gearFill:SetTexture(T.DISC)
+  gearFill:SetVertexColor(T.rgba(T.color.button))
+  local gearRing = gear:CreateTexture(nil, "BORDER")
+  gearRing:SetAllPoints()
+  gearRing:SetTexture(T.RING)
+  gearRing:SetVertexColor(T.rgba(T.color.rim))
+  local gearHi = gear:CreateTexture(nil, "HIGHLIGHT")
+  gearHi:SetAllPoints()
+  gearHi:SetTexture(T.RING)
+  gearHi:SetVertexColor(T.rgba(T.color.rimHover))
   local cog = gear:CreateTexture(nil, "ARTWORK")
   cog:SetTexture("Interface\\Icons\\INV_Misc_Gear_01")
   cog:SetTexCoord(0.08, 0.92, 0.08, 0.92)
@@ -576,19 +584,14 @@ function UI.Create(engine)
 
   -- The bookmarks: ribbons down the right edge of the book, on the window's ground beside it. "Here" (this place and
   -- your quests), "Found" (your chronicle's pages by chapter, Book.lua; it took the Library's place), "Road" (the journey
-  -- page, zones as chapters, Road.lua) and "Storylines" (the storylines you're on). The open one is gold and a little
-  -- longer; Found carries how many pages are new. The playlist is the player's (the foot of the book), not a bookmark.
+  -- page, zones as chapters, Road.lua) and "Storylines" (the storylines you're on). The open one is the page's paper
+  -- and joins it; a gold dot on Found says pages are new. One size, even gaps (UI.FitRibbons; Mike's pick, 11/4). The
+  -- playlist is the player's (the foot of the book), not a bookmark.
   UI.tabs = {}
   local specs = { { "here", L["Here"] }, { "found", L["Found"] }, { "road", L["Road"] }, { "story", L["Storylines"] } }
   for i, spec in ipairs(specs) do
     local tab = T.Ribbon(f, spec[2])
     tab:SetFrameLevel((f:GetFrameLevel() or 1) + 26)
-    -- The open one is a lighter gold with a dark label (cream on the kit's gold read at 3:1).
-    local setOn = tab.SetOn
-    function tab:SetOn(on)
-      setOn(self, on)
-      T.StyleOpenRibbon(self, self.on)
-    end
     if i == 1 then tab:SetPoint("TOPLEFT", f, "TOPRIGHT", -BOOK_R, -(BOOK_TOP + 10))
     else tab:SetPoint("TOPLEFT", UI.tabs[i - 1], "BOTTOMLEFT", 0, -6) end
     tab.view = spec[1]
@@ -649,18 +652,15 @@ function UI.Create(engine)
   -- The journey page is the Road's: opened any way (the welcome back, /lore journey), the Road bookmark shows.
   UI.journeyPage:HookScript("OnShow", function() if UI.tab ~= "road" then UI.ShowTab("road", true) end end)
 
-  -- The Here list, as in the mockups Mike picked (navigation option A, Gilded Night look): one-line rows, the play
-  -- arrow on the left of anything narrated, a + on the right of anything that can be queued, then your quests.
-  -- Names line up after the play arrow's slot whether or not a row has one.
+  -- The Here list, as in the mockups Mike picked (navigation option A): one-line rows, each with its Listen +
+  -- playlist pill at its right end (the palette of 11/3), then your quests.
   local function hereRow()
     local b = TextButton(hereView, SIDE_W - 16, HERE_ROW, nil, T.color.inkRow, true)
     if b.text.SetWordWrap then b.text:SetWordWrap(false) end
     b.text:SetPoint("TOPLEFT", HERE_INDENT, -2)
-    b.play = PlayButton(b)
-    b.play:SetSize(20, 20)
-    b.play:SetPoint("LEFT", 2, 0)
-    b.add = QueueButton(b, HERE_ROW - 4)
-    b.add:SetPoint("RIGHT", -2, 0)
+    b.pill = RowPill(b, nil, nil, HERE_ROW - 4)   -- (shorter than its row, so rows' pills never touch: 11/4)
+    b.pill:SetPoint("RIGHT", -2, 0)
+    b.play, b.add = b.pill.play, b.pill.add
     -- Your target (or the boss you're on): a gold wash and bar, so it's clear why it leads the list.
     b.mark = T.TargetMark(b, true)
     b:SetScript("OnLeave", function() GameTooltip:Hide() end)
@@ -714,14 +714,10 @@ function UI.Create(engine)
 
   -- Inside a dungeon: its bosses in encounter order, each opening its story, with play, + and "Add all".
   UI.bossHeader = Header(hereView, L["Bosses, in order"], true)
-  local queueAll = TextButton(hereView, 70, 16, T.font.small, T.color.add)
-  queueAll.text:SetJustifyH("CENTER")
-  queueAll.text:SetPoint("TOPLEFT", 2, -1)
-  queueAll.text:SetPoint("BOTTOMRIGHT", -2, 1)
-  if queueAll.text.SetWordWrap then queueAll.text:SetWordWrap(false) end
-  queueAll.text:SetText(L["Add all"])
-  local qaw = T.TextWidth(queueAll.text)
-  if qaw and qaw > 0 then queueAll:SetWidth(math.max(70, math.min(130, qaw + 10))) end
+  local queueAll = T.Button(hereView, L["Add all"], "paper")
+  queueAll:SetHeight(18)
+  local qaw = T.TextWidth(queueAll:GetFontString())
+  queueAll:SetWidth(math.max(70, math.min(130, (qaw or 50) + 16)))
   queueAll:SetPoint("BOTTOMRIGHT", UI.bossHeader.rule, "TOPRIGHT", 0, 2)
   queueAll:SetScript("OnClick", function() UI.QueueBosses(UI.hereBosses) end)
   queueAll:SetScript("OnEnter", function(self)
@@ -751,7 +747,8 @@ function UI.Create(engine)
   questHeader:SetPoint("TOPLEFT", 16, -(HERE_TOP + 20) - 5 * HERE_STEP - 10)
   UI.questHeader = questHeader
   -- How many quests are in your log, small at the header's right.
-  local questCount = Faint(hereView:CreateFontString(nil, "OVERLAY", T.font.small))
+  -- (in the heading's face, so the count stands on the heading's baseline, not below it; 11/4)
+  local questCount = Faint(hereView:CreateFontString(nil, "OVERLAY", T.font.heading))
   questCount:SetPoint("BOTTOMRIGHT", questHeader.rule, "TOPRIGHT", 0, 3)
   questCount:SetJustifyH("RIGHT")
   UI.questCount = questCount
@@ -813,6 +810,32 @@ function UI.Create(engine)
   content:SetSize(CHAT_W, 100)
   sf:SetScrollChild(content)
   UI.scroll, UI.content = sf, content
+  T.PaperScroll(sf, 6)
+  -- Its top and bottom edges fade into the page while there's more past them, so a line the edge cuts never shows by
+  -- halves (Design Lead, 11/4). Under the toast, over the cards.
+  local fades = CreateFrame("Frame", nil, sf)
+  fades:SetAllPoints()
+  fades:SetFrameLevel((f:GetFrameLevel() or 1) + 9)
+  local function fade(top)
+    local t = fades:CreateTexture(nil, "OVERLAY")
+    t:SetPoint(top and "TOPLEFT" or "BOTTOMLEFT")
+    t:SetPoint(top and "TOPRIGHT" or "BOTTOMRIGHT")
+    t:SetHeight(24)
+    local c = T.color[top and "pageFadeTop" or "pageFadeFoot"]
+    local clear = { c[1], c[2], c[3], 0 }
+    if top then T.Gradient(t, "VERTICAL", clear, c) else T.Gradient(t, "VERTICAL", c, clear) end
+    t:Hide()
+    return t
+  end
+  local fadeTop, fadeFoot = fade(true), fade(false)
+  local function edges(self)
+    local v, r = tonumber(self:GetVerticalScroll()) or 0, tonumber(self:GetVerticalScrollRange()) or 0
+    fadeTop:SetShown(v > 1)
+    fadeFoot:SetShown(r - v > 1)
+  end
+  sf:HookScript("OnVerticalScroll", edges)
+  sf:HookScript("OnScrollRangeChanged", edges)
+  UI.chatFades = { top = fadeTop, foot = fadeFoot }
 
   UI.CreateHistory(f)
   -- The Journey and History buttons look selected exactly while their page is open, whatever opened or closed it.
@@ -862,17 +885,28 @@ function UI.Create(engine)
     UI.nextButtons[i] = b
   end
 
-  -- Message box
-  local bar = Area(UI.chatDecor, "inkRow")
-  bar:SetPoint("BOTTOMLEFT", CHAT_X - 4, 10 + FOOT)
-  bar:SetPoint("TOPRIGHT", f, "BOTTOMRIGHT", -BOOK_R, 44 + FOOT)
-  UI.msgBar = bar
+  -- Message box: a paper field (a card's fill in a tan edge, ink text) with an ink Send beside it. The template's own
+  -- art is a dark grey bar that all but vanishes on the page in game, so it's hidden (Design Lead, 11/4).
   local eb = CreateFrame("EditBox", "LoreForeverInput", f, "InputBoxTemplate")
   eb:SetPoint("BOTTOMLEFT", CHAT_X + 8, 16 + FOOT)
   eb:SetPoint("BOTTOMRIGHT", f, "BOTTOMRIGHT", -96 - SHIFT_R, 16 + FOOT)
   eb:SetHeight(24)
   eb:SetAutoFocus(false)
   eb:SetMaxLetters(240)
+  for _, k in ipairs({ "Left", "Middle", "Right" }) do
+    local t = rawget(eb, k) or _G["LoreForeverInput" .. k]
+    if type(t) == "table" and t.SetAlpha then t:SetAlpha(0) end
+  end
+  local field = Area(eb, "tileFill", "BACKGROUND")
+  field:SetPoint("TOPLEFT", -6, 2)
+  field:SetPoint("BOTTOMRIGHT", 4, -2)
+  field:SetColorTexture(T.color.tileFill[1], T.color.tileFill[2], T.color.tileFill[3], 1)
+  local fieldEdge = CreateFrame("Frame", nil, eb)
+  fieldEdge:SetAllPoints(field)
+  T.Outline(fieldEdge, "inkRim")
+  UI.msgBar = field
+  eb:SetTextColor(T.rgba(T.color.ink))
+  if eb.SetShadowColor then eb:SetShadowColor(0, 0, 0, 0) end
   eb:SetScript("OnEnterPressed", function(self)
     local c = UI.completion
     local pick = c and c:IsShown() and UI.completionSel and c.rows[UI.completionSel]
@@ -894,7 +928,7 @@ function UI.Create(engine)
     f:Hide()
   end)
   -- Placeholder hint inside the box while it's empty.
-  local hintText = eb:CreateFontString(nil, "OVERLAY", T.font.hint)
+  local hintText = T.Ink(eb:CreateFontString(nil, "OVERLAY", T.font.small), "inkHint")
   hintText:SetPoint("LEFT", 4, 0)
   hintText:SetPoint("RIGHT", -4, 0)
   hintText:SetJustifyH("LEFT")
@@ -918,7 +952,7 @@ function UI.Create(engine)
     C_Timer.After(0.2, UI.HideCompletion)
   end)
   UI.input = eb
-  local send = PanelButton(f)
+  local send = PanelButton(f, "paper")
   send:SetSize(56, 24)
   send:SetPoint("BOTTOMRIGHT", f, "BOTTOMRIGHT", -30 - SHIFT_R, 16 + FOOT)
   UI.sendButton = send
@@ -969,8 +1003,24 @@ function UI.FitRibbons()
   if not (f and tabs and #tabs > 1) then return end
   local fh = tonumber(f:GetHeight()) or H
   local room = fh - (BOOK_TOP + 10) - DOCK_H - 4
-  local sum = 0
-  for _, t in ipairs(tabs) do sum = sum + (tonumber(t:GetHeight()) or 0) end
+  -- One size: the longest label's plus its ends, so every tab is that long (Mike's pick, 11/4: one size, even gaps).
+  -- The labels keep the heading's face unless four of that length can't fit the book with their gaps (German's
+  -- "Handlungsstränge" needs 540 of 452): then all four take the largest smaller face that fits.
+  local function longest(face)
+    local long = 0
+    for _, t in ipairs(tabs) do
+      t.length, t.tabFace = nil, face
+      long = math.max(long, t:Fit() or tonumber(t:GetHeight()) or 0)
+    end
+    return long
+  end
+  local long
+  for _, face in ipairs({ T.font.heading, T.font.tab14, T.font.tab13, T.font.tab12, T.font.tab11 }) do
+    long = longest(face)
+    if long * #tabs + 6 * (#tabs - 1) <= room then break end
+  end
+  for _, t in ipairs(tabs) do t:SetLength(long) end
+  local sum = long * #tabs
   local gap = math.max(1, math.min(6, math.floor((room - sum) / (#tabs - 1))))
   for i = 2, #tabs do
     tabs[i]:ClearAllPoints()
@@ -1021,12 +1071,13 @@ function UI.CreateCompletion(parent, eb)
     b.read.text:SetText(L["Read"])
     b.read.text:SetJustifyH("CENTER")
     b.read:SetScript("OnClick", function() UI.OpenCompletion(b) end)
-    b.listen = PanelButton(b)
-    b.listen:SetSize(84, 22)
+    -- Listen + playlist: the dark ground's pill. Its play is the story's full listen (UI.ListenTo), or its stop.
+    b.pill = RowPill(b, true, true)
+    b.listen, b.add = b.pill.play, b.pill.add
     b.listen:SetScript("OnClick", function()
       if UI.StoryAudio(b.key) then UI.ListenTo(UI.EntryTarget(b.key)) end
+      UI.LayoutCompletion()
     end)
-    b.add = QueueButton(b, 22, true)
     b:SetScript("OnClick", function(self)
       UI.OpenCompletion(self)
     end)
@@ -1099,16 +1150,14 @@ function UI.LayoutCompletion()
         b.read:ClearAllPoints()
         b.read:SetPoint("TOPLEFT", 6, -th - 6)
         b.read:Show()
-        b.listen:ClearAllPoints()
-        b.listen:SetPoint("LEFT", b.read, "RIGHT", 6, 0)
-        b.listen:SetText(UI.IsPlayingTarget(UI.EntryTarget(b.key)) and L["Stop"] or L["Listen"])
-        b.listen:SetWidth(math.max(72, (tonumber(b.listen:GetTextWidth()) or 52) + 20))
-        b.listen:SetShown(playable)
-        b.add:ClearAllPoints()
-        b.add:SetPoint("LEFT", playable and b.listen or b.read, "RIGHT", 6, 0)
-        SetQueueButton(b.add, b.key)
+        b.pill:ClearAllPoints()
+        b.pill:SetPoint("LEFT", b.read, "RIGHT", 6, 0)
+        SetRowPill(b.pill, b.key, nil, nil, playable, b.key)
+        if playable then T.SetPill(b.pill, UI.IsPlayingTarget(UI.EntryTarget(b.key))) end
       else
-        b.read:Hide(); b.listen:Hide(); b.add:Hide()
+        b.read:Hide()
+        T.SetPill(b.pill, false, false, false, false)
+        b.pill:Hide()
       end
       b:SetHeight(rowHeight)
       if y + rowHeight + 36 > maxHeight then
@@ -1260,6 +1309,15 @@ local function sectionOne(target)
   local row = ns.Voice.StoryPieces(target.key)
   local at = row and UI.StoryFrom(target, row) or 0
   if at > 0 then return { offset = at, pack = row.pack, hash = row.hash, fullHash = row.fullHash, section = true } end
+end
+
+-- Whether a story's card and page leave its summary out: Listen starts it at section 1, so the card shows what Listen
+-- reads (Mike, 11/3: "auto hide the summary in this case and read from where it starts"). It stays with no recording,
+-- or where Listen reads the summary too.
+function UI.ListenSkipsSummary(key)
+  if not (ns.Voice.HasAudio(key) and ns.Voice.CanPlay(key)) then return false end
+  local target = UI.EntryTarget(key)
+  return target ~= nil and sectionOne(target) ~= nil
 end
 
 -- A FAQ answer as something to play; the starting zones and capitals have these recorded ("zone:elwynn#faq2").
@@ -1773,26 +1831,37 @@ function UI.UpdateListen()
   if UI.speaking and UI.playingKey and not ns.Voice.CanPlay(UI.playingKey) then return UI.StopAll() end
   UI.UpdateNowPlaying()
   if UI.completion and UI.completion:IsShown() then UI.LayoutCompletion() end
+  if ns.Page and ns.Page.UpdateListen then ns.Page.UpdateListen() end
   ns.Book.Changed()   -- heard: not new any more
-  -- The Here tab's playlist buttons follow the playlist (+, then -, or a stop square while it plays).
-  for _, b in ipairs(UI.bossButtons or {}) do
-    if b:IsShown() and b.add:IsShown() then SetQueueButton(b.add, b.key) end
-  end
-  for _, list in ipairs({ UI.suggestions or {}, UI.questButtons or {} }) do
+  -- The Here tab's pills follow the playlist (+, then -, or one stop while it plays).
+  for _, list in ipairs({ UI.bossButtons or {}, UI.suggestions or {}, UI.questButtons or {} }) do
     for _, b in ipairs(list) do
-      if b:IsShown() and b.add:IsShown() then SetQueueButton(b.add, b.add.key, b.add.idx) end
+      if b:IsShown() and b.pill then SetRowPill(b.pill) end
     end
   end
   for _, b in ipairs(UI.bubbles or {}) do
     for _, r in ipairs(b.rows) do
-      if r:IsShown() then SetQueueButton(r.add, r.key) end
+      if r:IsShown() then SetRowPill(r.pill) end
     end
   end
   for _, b in ipairs(UI.bubbles or {}) do
     -- Listen only where a voice recorded the answer: the rest stays as text (no game voice, Mike 2026-10-05). Heroes
     -- (the welcome card) use their big action button instead.
     local t = b.listen.target
-    if b.frame:IsShown() and t and not b.isHero then
+    if b.icons and b.frame:IsShown() and t then
+      -- A story card's pill: play or stop; the + adds or takes out (a tick once it's in the playlist, playing or not:
+      -- the pill keeps its shape while it plays).
+      local recorded = ns.Voice.HasAudio(t.key) and ns.Voice.CanPlay(t.key)
+      b.pill:SetShown(recorded)
+      local qk, qi = UI.QueueRef(t)
+      local can = recorded and qk and UI.CanQueue(qk, qi) and true or false
+      local add = b.add
+      add.key, add.idx = qk, qi
+      add.id = qi and (faqID(qk, qi)) or qk
+      add.action = can and UI.QueueAction(add.id) or nil
+      T.SetPill(b.pill, UI.IsPlayingTarget(t), can, add.action == "remove" or add.action == "stop")
+      b.queue:Hide()
+    elseif b.frame:IsShown() and t and not b.isHero then
       local recorded = ns.Voice.HasAudio(t.key) and ns.Voice.CanPlay(t.key)
       local playing = UI.IsPlayingTarget(t)
       b.listen:SetText(playing and L["Stop"] or L["Listen"])
@@ -1917,12 +1986,20 @@ local function Mark(b, kind, size)
   return icon
 end
 
--- Faint sepia, or (lit: under the mouse, or your answer) the mark's own colours.
+-- At rest, a thin ring with the sign in the page's ink (Design Lead, 11/3, option D); lit (under the mouse, or your
+-- answer), the mark in its own colours on its dark disc.
 local function MarkLit(b, lit)
   b.icon:SetDesaturated(not lit)
   b.icon:SetVertexColor(lit and 1 or SEPIA[1], lit and 1 or SEPIA[2], lit and 1 or SEPIA[3], 1)
   b.icon:SetAlpha(lit and 0.9 or b.mark.rest)
+  if not b.ring then return end   -- (a mark with no ring of its own: as it was)
+  b.icon:SetShown(lit)
+  b.back:SetShown(lit)
+  b.ring:SetShown(not lit)
+  b.sign:SetShown(not lit)
 end
+
+local RATE_ANSWERS = false   -- the "Right answer?" marks under answers (off: Mike, 11/4)
 
 local function SetRating(b, log)
   local show = log ~= nil
@@ -1941,7 +2018,7 @@ local function RateButtons(parent)
     local b = CreateFrame("Button", nil, parent)
     b:SetSize(18, 18)
     b:SetHitRectInsets(-3, -3, -4, -4)   -- a 24px target around the 18px button (the two sit 6px apart)
-    -- A dark disc under the mark, so it reads on parchment.
+    -- A dark disc under the lit mark, so it reads on parchment.
     local back = b:CreateTexture(nil, "BACKGROUND")
     back:SetSize(21, 21)
     back:SetPoint("CENTER")
@@ -1952,6 +2029,19 @@ local function RateButtons(parent)
       round:SetAllPoints(back)
       back:AddMaskTexture(round)
     end
+    b.back = back
+    -- At rest: the ring and its sign (a small ring for right, a slash for not right; Media/Paper).
+    local ring = b:CreateTexture(nil, "BACKGROUND")
+    ring:SetSize(21, 21)
+    ring:SetPoint("CENTER")
+    ring:SetTexture(T.RING)
+    ring:SetVertexColor(unpack(T.color.inkRim))
+    local sign = b:CreateTexture(nil, "ARTWORK")
+    sign:SetSize(11, 11)
+    sign:SetPoint("CENTER")
+    sign:SetTexture(T.PAPER_ART .. (kind == "seal" and "MarkRing" or "MarkSlash"))
+    sign:SetVertexColor(unpack(T.color.inkAccent))
+    b.ring, b.sign = ring, sign
     Mark(b, kind, 16)
     b:SetScript("OnClick", onClick)
     b:SetScript("OnEnter", function(self)
@@ -2001,9 +2091,9 @@ local function bubbleAt(i)
     f:SetScript("OnHyperlinkClick", function(self, link, _, button) UI.OnLoreLink(self, link, button) end)
     f:SetScript("OnHyperlinkEnter", function(self, link) UI.LoreLinkTooltip(self, link) end)
     f:SetScript("OnHyperlinkLeave", function() GameTooltip:Hide() end)
-    local bg = f:CreateTexture(nil, "BACKGROUND")
-    bg:SetAllPoints()
-    local edge = T.Outline(f, "bubbleEdge")   -- answers only (Render)
+    -- Round corners, one radius for every card (T.RoundBox); the edge on answers only (Render).
+    local bg, edge = T.RoundBox(f)
+    edge:SetColor("bubbleEdge")
     -- An answer's first line (its gold title) in the heading face, above the text (Render, splitHead).
     local head = T.PaperText(f:CreateFontString(nil, "OVERLAY", T.font.answerTitle), "inkAccent")
     head:SetJustifyH("LEFT")
@@ -2019,7 +2109,7 @@ local function bubbleAt(i)
     fs:SetJustifyH("LEFT")
     fs:SetJustifyV("TOP")
     if fs.SetSpacing then fs:SetSpacing(2) end
-    local listen = PanelButton(f)
+    local listen = PanelButton(f, "paper")
     listen:SetSize(84, 18)
     listen:SetPoint("BOTTOMRIGHT", -6, 6)
     listen:SetText(L["Listen"])
@@ -2031,7 +2121,7 @@ local function bubbleAt(i)
       GameTooltip:Show()
     end)
     listen:SetScript("OnLeave", function() GameTooltip:Hide() end)
-    local queue = PanelButton(f)
+    local queue = PanelButton(f, "paper")
     queue:SetSize(110, 18)
     queue:SetPoint("RIGHT", listen, "LEFT", -4, 0)
     queue:SetText(L["Add to playlist"])
@@ -2047,8 +2137,31 @@ local function bubbleAt(i)
     end)
     queue:SetScript("OnLeave", function() GameTooltip:Hide() end)
     queue:Hide()
+    -- A story card's Listen and Add to playlist instead: one quiet pill at the right of its title (Mike, 11/3: "most
+    -- people know what the play button and playlist add buttons look like that way they can be more subtle", then
+    -- option D: "the colors are a bit too much").
+    local pill = T.Pill(f, 30)
+    pill:SetPoint("TOPRIGHT", f, "TOPRIGHT", -PAD + 2, -PILL_TOP)
+    local play, add = pill.play, pill.add
+    play:SetScript("OnClick", function(self) UI.ListenTo(self.target) end)
+    play.onEnter = function(self)
+      GameTooltip:SetOwner(self, "ANCHOR_TOP")
+      GameTooltip:AddLine(UI.IsPlayingTarget(self.target) and L["Stop"] or L["Listen"])
+      local line = self.target and ns.Page and ns.Page.NarrationLine(self.target.key)
+      if line then T.Tip(line, "tipText", true) end
+      GameTooltip:Show()
+    end
+    add:SetScript("OnClick", function(self) UI.DoQueueAction(self.key, self.idx) end)
+    add.onEnter = function(self)
+      GameTooltip:SetOwner(self, "ANCHOR_TOP")
+      queueTooltip(self.id)
+      GameTooltip:Show()
+    end
+    play.onLeave = function() GameTooltip:Hide() end
+    add.onLeave = play.onLeave
+    pill:Hide()
     -- The welcome card's big "hear the story" button; on a card from UI.AddCard, its own action.
-    local action = PanelButton(f, "primary")
+    local action = PanelButton(f, "paper")
     action:SetSize(300, 26)
     action:SetPoint("BOTTOMLEFT", PAD, 8)
     action:SetScript("OnClick", function(self)
@@ -2057,10 +2170,8 @@ local function bubbleAt(i)
     end)
     action:Hide()
     -- A card that can be put away (the What's new card): × at its top right.
-    local close = PanelButton(f)
-    close:SetSize(22, 22)
+    local close = T.InkClose(f, 20)
     close:SetPoint("TOPRIGHT", -6, -6)
-    close:SetText("\195\151")   -- ×
     close:SetScript("OnClick", function() UI.RemoveMessage(f.msg) end)
     close:SetScript("OnEnter", function(self)
       GameTooltip:SetOwner(self, "ANCHOR_TOP")
@@ -2070,7 +2181,7 @@ local function bubbleAt(i)
     close:SetScript("OnLeave", function() GameTooltip:Hide() end)
     close:Hide()
     b = { frame = f, bg = bg, edge = edge, head = head, chips = chips, fs = fs, listen = listen, queue = queue, action = action,
-      close = close, rows = {} }
+      close = close, pill = pill, play = play, add = add, rows = {} }
     b.up, b.down = RateButtons(f)
     UI.bubbles[i] = b
   end
@@ -2089,10 +2200,9 @@ local function bossRow(parent)
     GameTooltip:Show()
   end)
   r:SetScript("OnLeave", function() GameTooltip:Hide() end)
-  r.play = PlayButton(r)
-  r.play:SetPoint("TOPRIGHT", -2, 0)
-  r.add = QueueButton(r, 16)
-  r.add:SetPoint("TOPRIGHT", -26, -2)
+  r.pill = RowPill(r, nil, nil, 16)   -- (4 shorter than its row: 11/4)
+  r.pill:SetPoint("TOPRIGHT", -2, -2)
+  r.play, r.add = r.pill.play, r.pill.add
   return r
 end
 
@@ -2104,15 +2214,13 @@ local function layoutRows(b, m, w, h)
     b.rows[j] = r
     r.key, r.asked = row.key, string.format(L["Who is %s?"], row.name)
     r:SetWidth(w - 2 * PAD + 8)
-    r.text:SetWidth(w - 2 * PAD - 52)
+    r.text:SetWidth(w - 2 * PAD - 70)
     r.text:SetText(GREY .. j .. ".|r " .. GOLD .. esc(row.name) .. "|r " .. WHITE .. esc(row.hook or "") .. "|r")
     local rh = math.max(22, (tonumber(r.text:GetStringHeight()) or 14) + 6)
     r:SetHeight(rh)
     r:ClearAllPoints()
     r:SetPoint("TOPLEFT", b.frame, "TOPLEFT", PAD - 6, -y)
-    r.play.key, r.play.label = row.key, r.asked
-    r.play:SetShown(ns.Voice.HasAudio(row.key))
-    SetQueueButton(r.add, row.key)
+    SetRowPill(r.pill, row.key, nil, r.asked, ns.Voice.HasAudio(row.key), row.key)
     r:Show()
     y = y + rh
   end
@@ -2169,51 +2277,51 @@ function UI.Render(keepScroll)
       w = math.min(maxW, (tonumber(tw) or maxW) + 2 * PAD + 4)
       fs:SetWidth(w - 2 * PAD)
       f:SetPoint("TOPRIGHT", UI.content, "TOPRIGHT", -4, -y)
-      T.Fill(b.bg, "bubbleUser")
+      b.bg:SetColor("bubbleUser")
     elseif m.role == "lore" then
-      w = CHAT_W - 28
+      w = CHAT_W - 8   -- (one width for every card: the welcome's and What's new's; 11/4)
       fs:SetWidth(w - 2 * PAD)
       f:SetPoint("TOPLEFT", UI.content, "TOPLEFT", 2, -y)
-      T.Fill(b.bg, "bubbleLore")
+      b.bg:SetColor("bubbleLore")
     elseif m.role == "hero" then
       w = CHAT_W - 8
       fs:SetWidth(w - 2 * PAD)
       f:SetPoint("TOPLEFT", UI.content, "TOPLEFT", 2, -y)
-      T.Fill(b.bg, "bubbleHero")
+      b.bg:SetColor("bubbleHero")
     else
       w = CHAT_W - 8
       fs:SetWidth(w - 2 * PAD)
       f:SetPoint("TOPLEFT", UI.content, "TOPLEFT", 2, -y)
-      T.Fill(b.bg, "none")
+      b.bg:SetColor("none")
     end
     -- A faint edge sets answers off from the page; your questions and notes don't need one.
     b.edge:SetShown(m.role == "lore" or m.role == "hero")
     local top = PAD
     local story = m.role == "lore" and m.target and m.target.story == m.target.key
     local canPlay = m.target and ns.Voice.HasAudio(m.target.key) and ns.Voice.CanPlay(m.target.key)
-    b.listen:ClearAllPoints()
+    -- A recorded story's or answer's card: Listen and the playlist as the pill at the right of its title (UpdateListen
+    -- sets it). One control wherever a story can be heard, never the word buttons (Design Lead, 11/4).
+    b.icons = m.role == "lore" and canPlay and true or false
+    b.play.target = b.icons and m.target or nil
+    b.pill:SetShown(b.icons)
     if head then
-      b.head:SetWidth(w - 2 * PAD)
+      b.head:SetWidth(w - 2 * PAD - (b.icons and (2 * b.pill.half + 8) or 0))
       b.head:SetText(head)
       b.head:ClearAllPoints()
       b.head:SetPoint("TOPLEFT", f, "TOPLEFT", PAD, -PAD)
       b.head:Show()
       top = PAD + (tonumber(b.head:GetStringHeight()) or 16) + 4
-      if story and canPlay then
-        b.listen:SetPoint("TOPLEFT", f, "TOPLEFT", PAD, -top)
-        b.listen:SetHeight(24)
-        top = top + 30
-      end
+      -- (the pill stands taller than one title line: the text starts under it)
+      if b.icons then top = math.max(top, PILL_TOP + b.pill.h + 2) end
     else
       b.head:Hide()
+      if b.icons then top = PILL_TOP + b.pill.h + 2 end   -- (no title: the text starts under the pill)
     end
-    if not story or not head then
-      b.listen:SetPoint("BOTTOMRIGHT", -6, 6)
-      b.listen:SetHeight(18)
-    end
+    b.listen:ClearAllPoints()
+    b.listen:SetPoint("BOTTOMRIGHT", -6, 6)
+    b.listen:SetHeight(18)
     b.queue:ClearAllPoints()
-    if story and head then b.queue:SetPoint("BOTTOMRIGHT", -6, 6)
-    else b.queue:SetPoint("RIGHT", b.listen, "LEFT", -4, 0) end
+    b.queue:SetPoint("RIGHT", b.listen, "LEFT", -4, 0)
     fs:SetPoint("TOPLEFT", f, "TOPLEFT", PAD, -top)
     local h = (fs:GetStringHeight() or 14) + top + PAD
     -- The names the answer links that its text doesn't show ("In this answer: ..."), shown once it has typed in. A
@@ -2239,8 +2347,11 @@ function UI.Render(keepScroll)
     b.close:SetShown(m.closable and true or false)
     b.queue:Hide()   -- UpdateListen shows it on recorded answers
     -- Only reserve room for Listen when a voice recorded the answer (the rest stays as text).
-    if m.role == "lore" and canPlay then
-      h = h + 22   -- queue and rating retain their familiar footer below the story
+    if b.icons then
+      b.listen:Hide()
+      latestListen = b.play
+    elseif m.role == "lore" and canPlay then
+      h = h + 22   -- Listen, + and the rating share a footer below the answer
       b.listen:Show()
       latestListen = b.listen
     elseif b.isHero and (m.target or m.onAction) then
@@ -2252,9 +2363,10 @@ function UI.Render(keepScroll)
     else
       b.listen:Hide()
     end
-    -- Answers (and "I don't have that" replies) can be rated; they share the bottom row with Listen.
-    local rate = m.log and (m.role == "lore" or m.role == "note") and m.log or nil
-    if rate and not (m.role == "lore" and canPlay) then h = h + 22 end
+    -- Answers (and "I don't have that" replies) could be rated on a bottom row. Off for now (Mike, 11/4: "Remove the
+    -- right and wrong answer checks at this point"); /lore report still opens the report box for the newest answer.
+    local rate = RATE_ANSWERS and m.log and (m.role == "lore" or m.role == "note") and m.log or nil
+    if rate and (b.icons or not (m.role == "lore" and canPlay)) then h = h + 22 end
     SetRating(b, rate)
     f:SetSize(w, h)
     f:Show()
@@ -2372,7 +2484,10 @@ function UI.SetNext(items, label)
     if it then
       b.key, b.idx, b.via, b.section, b.live = it.key, it.idx, it.via, it.section, it.live
       b.everything = it.everything
-      local who = it.name and (GREY .. "  (" .. esc(it.name) .. ")|r") or ""
+      -- (whom it's about, unless the question names them already: never "Who is Ilthalaine? (Ilthalaine)")
+      local q = it.label or it.q
+      local named = it.name and UI.Fold(q or ""):find(UI.Fold(it.name), 1, true)
+      local who = it.name and not named and (GREY .. "  (" .. esc(it.name) .. ")|r") or ""
       b.text:SetText(WHITE .. esc(it.label or it.q) .. "|r" .. who)
       b:Show()
     else
@@ -2436,25 +2551,29 @@ function UI.Refresh()
   -- just above the player at the bottom (the panel can be resized taller for more).
   local fh = tonumber(UI.frame:GetHeight()) or H
   local bottom = -(fh - 8 - DOCK_H)
-  local y = -(HERE_TOP + 20)
+  local y = -(HERE_TOP + 24)   -- (under the heading's rule, as Your quests' rows are: the first row hid it; 11/4)
   for i, b in ipairs(UI.suggestions) do
     local s = here[i]
     if s then
       b.key, b.idx, b.primer, b.label, b.target = s.key, s.idx, s.primer, s.label, s.target
       b.full = s.name or s.label
       b.text:SetText((s.gold and INK_ACCENT or INK) .. esc(b.full) .. "|r")
-      -- Play on the left of anything narrated (stories and recorded answers), + on the right of what can be queued.
+      -- The pill: play on anything narrated (stories and recorded answers), + on what can be queued.
       local story = s.key or (s.primer and "zone:" .. s.primer)
       local clip = s.idx and (faqID(s.key, s.idx)) or story
-      b.play.key, b.play.idx, b.play.label = s.idx and s.key or story, s.idx, s.label
-      b.play:SetShown(ns.Voice.HasAudio(clip) and true or false)
-      local queue = s.key and SetQueueButton(b.add, s.key, s.idx)
-      if not queue then b.add:Hide() end
+      SetRowPill(b.pill, s.idx and s.key or story, s.idx, s.label, ns.Voice.HasAudio(clip), s.key)
       T.ShowMark(b.mark, s.target)
-      b.text:SetPoint("BOTTOMRIGHT", queue and -26 or -6, 2)
+      local right = b.pill:IsShown() and b.pill.w + 6 or 6
+      b.text:SetPoint("BOTTOMRIGHT", -right, 2)
+      -- A question too long for one line wraps to two (cut mid-word, it read as broken; 11/4).
+      local tw = T.TextWidth(b.text) or 0
+      local two = tw > SIDE_W - 16 - HERE_INDENT - right
+      if b.text.SetWordWrap then b.text:SetWordWrap(two) end
+      if b.text.SetMaxLines then b.text:SetMaxLines(two and 2 or 1) end
+      b:SetHeight(two and HERE_ROW + HERE_LINE or HERE_ROW)
       b:ClearAllPoints()
       b:SetPoint("TOPLEFT", 12, y)
-      y = y - HERE_STEP
+      y = y - HERE_STEP - (two and HERE_LINE or 0)
       b:Show()
     else
       b:Hide()
@@ -2476,12 +2595,10 @@ function UI.Refresh()
       b.key, b.name, b.hook = bk, name, e.h or e.s
       b.asked = string.format(L["Who is %s?"], name)
       b.text:SetText(INK_FADED .. i .. ".|r " .. (bk == targetKey and INK_ACCENT or INK) .. esc(name) .. "|r")
-      b.play.key, b.play.idx, b.play.label = bk, nil, b.asked
-      b.play:SetShown(ns.Voice.HasAudio(bk) and true or false)
-      local queue = SetQueueButton(b.add, bk)
+      local queue = SetRowPill(b.pill, bk, nil, b.asked, ns.Voice.HasAudio(bk), bk)
       anyQueue = anyQueue or queue
       T.ShowMark(b.mark, bk == targetKey)
-      b.text:SetPoint("BOTTOMRIGHT", queue and -26 or -6, 2)
+      b.text:SetPoint("BOTTOMRIGHT", b.pill:IsShown() and -(b.pill.w + 6) or -6, 2)
       b:ClearAllPoints()
       b:SetPoint("TOPLEFT", 12, y)
       y = y - HERE_STEP
@@ -2548,11 +2665,8 @@ function UI.Refresh()
     b.key, b.quest, b.shown = key, q, questShown(q, key)
     -- Quests without written lore still open: the game's own quest text plus the area's story.
     b.text:SetText((key and INK_ACCENT or INK_FADED) .. esc(b.shown) .. "|r")
-    b.play.key, b.play.idx, b.play.label = key, nil, b.shown
-    b.play:SetShown(key and ns.Voice.HasAudio(key) and true or false)
-    local queue = key and SetQueueButton(b.add, key)
-    if not queue then b.add:Hide() end
-    b.text:SetPoint("BOTTOMRIGHT", queue and -26 or -6, 2)
+    SetRowPill(b.pill, key, nil, b.shown, key and ns.Voice.HasAudio(key), key)
+    b.text:SetPoint("BOTTOMRIGHT", b.pill:IsShown() and -(b.pill.w + 6) or -6, 2)
     b:ClearAllPoints()
     b:SetPoint("TOPLEFT", 12, y)
     y = y - HERE_STEP
@@ -2696,8 +2810,9 @@ function UI.HereItems(ctx)
   elseif ctx.targetName then
     local tkey, how = eng:KeyForName(ctx.targetName)
     if tkey then
+      -- (the row shows the story's name, as its card and the player do: "Sentinels", not "About the Sentinels")
       add({ key = tkey, label = how == "mob" and string.format(L["About the %s"], db.entries[tkey].n)
-        or string.format(L["Who is %s?"], ctx.targetName) })
+        or string.format(L["Who is %s?"], ctx.targetName), name = bossName(db.entries[tkey]) })
     end
   end
   if z and z.t == "dungeon" and zkey then
@@ -3119,7 +3234,7 @@ local function addItem(it, quiet, deferStart)
   UI.miniClosed = nil   -- the floating player's X put it away until something joins the queue (UI.ClosePlayer)
   if not quiet then
     UI.FlashPlayer()
-    showToast(GREEN .. L["Added to your playlist:"] .. "|r " .. WHITE .. esc(it.label) .. "|r"
+    showToast(GOLD .. L["Added to your playlist:"] .. "|r " .. WHITE .. esc(it.label) .. "|r"
       .. GREY .. "  (" .. string.format(L["%d of %d"], #pl.items, #pl.items) .. ")|r")
   end
   if #pl.items == 1 then
@@ -3254,7 +3369,7 @@ function UI.QueueHere()
   if n > 0 then
     ns.Log.Use("pl", "here")
     UI.FlashPlayer()
-    showToast(GREEN .. L["Playing everything narrated here:"] .. "|r " .. WHITE .. esc(place or "") .. "|r"
+    showToast(GOLD .. L["Playing everything narrated here:"] .. "|r " .. WHITE .. esc(place or "") .. "|r"
       .. GREY .. "  (" .. string.format(n == 1 and L["%d narration"] or L["%d narrations"], n) .. ")|r")
   end
   return n
@@ -3277,7 +3392,7 @@ function UI.QueueGroup(keys, label, exact)
   if n > 0 then
     ns.Log.Use("pl", "add")
     UI.FlashPlayer()
-    showToast(GREEN .. L["Added to your playlist:"] .. "|r " .. WHITE .. esc(label or "") .. "|r"
+    showToast(GOLD .. L["Added to your playlist:"] .. "|r " .. WHITE .. esc(label or "") .. "|r"
       .. GREY .. "  (" .. string.format(n == 1 and L["%d narration"] or L["%d narrations"], n) .. ")|r")
   else
     note(L["Everything here is already in your playlist."])
@@ -3421,9 +3536,16 @@ function UI.CreatePlaylist(view)
   -- What's written on it goes on a frame over it (a frame's own text and lines draw under its child frames).
   local page = CreateFrame("Frame", nil, view)
   page:SetAllPoints(view)
-  local close = CreateFrame("Button", nil, view, "UIPanelCloseButton")
-  close:SetPoint("TOPRIGHT", view, "TOPLEFT", SIDE_W + 2, -58)
+  local close = T.InkClose(view, 20)   -- (on paper: the ink ×, not the game's red one; 11/4)
+  close:SetPoint("TOPRIGHT", view, "TOPLEFT", SIDE_W - 10, -70)
+  close:SetFrameLevel((sheet:GetFrameLevel() or 1) + 5)
   close:SetScript("OnClick", function() UI.ShowQueue(false) end)
+  close:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_TOP")
+    GameTooltip:AddLine(L["Close"])
+    GameTooltip:Show()
+  end)
+  close:SetScript("OnLeave", function() GameTooltip:Hide() end)
 
   local head = Header(page, L["Now playing"], true)
   head:SetPoint("TOPLEFT", 16, -72)
@@ -3453,7 +3575,7 @@ function UI.CreatePlaylist(view)
 
   local upHead = Header(page, L["Up next"], true)
   upHead:SetPoint("TOPLEFT", 16, -130)
-  local clear = PanelButton(view)
+  local clear = PanelButton(view, "paper")
   clear:SetHeight(20)
   clear:SetText(L["Clear all"])
   local cw = clear.GetTextWidth and tonumber(clear:GetTextWidth())
@@ -3473,6 +3595,7 @@ function UI.CreatePlaylist(view)
   local content = CreateFrame("Frame", nil, sf)
   content:SetSize(SIDE_W - 40, 100)
   sf:SetScrollChild(content)
+  T.PaperScroll(sf)
 
   -- Empty state: what the queue is for and how to fill it.
   local empty = CreateFrame("Frame", nil, view)
@@ -3486,7 +3609,7 @@ function UI.CreatePlaylist(view)
   e2:SetWidth(SIDE_W - 40)
   e2:SetJustifyH("CENTER")
   e2:SetText(L["Press + on any narration to add it here, or Shift-click it. They play in order, one after another."])
-  local go = PanelButton(empty)
+  local go = PanelButton(empty, "paper")
   go:SetHeight(22)
   go:SetText(L["Open Found"])
   local gw = go.GetTextWidth and tonumber(go:GetTextWidth())
@@ -3498,7 +3621,9 @@ function UI.CreatePlaylist(view)
   note:SetPoint("BOTTOMLEFT", 16, DOCK_H + 8)
   note:SetWidth(SIDE_W - 20)
   note:SetJustifyH("LEFT")   -- two lines in some languages, growing upwards
-  note:SetText(L["Add more with + on the pages in Found."])
+  -- (it names the playlist button, not a "+"; a pack with the older wording keeps its own words: 11/4)
+  note:SetText(ns.Lang.Reworded("Add more with the playlist button on the pages in Found.",
+    "Add more with + on the pages in Found.") or L["Add more with the playlist button on the pages in Found."])
 
   -- Over "Up next" once the queue is long (UI.RefreshPlaylist): filters Up next and Earlier by title.
   local search = UI.SearchBox(view, SIDE_W - 24, function() UI.RefreshPlaylist() end, sf, true)
@@ -3528,11 +3653,20 @@ local function playlistRow(i)
     GameTooltip:Show()
   end)
   row:SetScript("OnLeave", function() GameTooltip:Hide() end)
-  local function small(texture, onClick, tip)
+  -- Move up, move down and remove: small signs drawn in the page's ink (our own art, Media/Paper: Up, flipped for
+  -- down, and Cross), a faint oxblood wash under the mouse (the palette of 11/3).
+  local function small(art, onClick, tip, flip)
     local b = CreateFrame("Button", nil, row)
     b:SetSize(20, 20)
-    b:SetNormalTexture(texture)
-    b:SetHighlightTexture("Interface\\Buttons\\UI-Common-MouseHilight", "ADD")
+    local sign = b:CreateTexture(nil, "ARTWORK")
+    sign:SetTexture(T.PAPER_ART .. art)
+    sign:SetSize(14, 14)
+    sign:SetPoint("CENTER")
+    if flip then sign:SetTexCoord(0, 1, 1, 0) end
+    sign:SetVertexColor(T.rgba(T.color.inkAccent))
+    local hl = b:CreateTexture(nil, "HIGHLIGHT")
+    hl:SetAllPoints()
+    T.Fill(hl, "inkHover")
     b:SetScript("OnClick", function(self) onClick(self.index) end)
     b:SetScript("OnEnter", function(self)
       GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
@@ -3542,14 +3676,11 @@ local function playlistRow(i)
     b:SetScript("OnLeave", function() GameTooltip:Hide() end)
     return b
   end
-  row.remove = small("Interface\\Buttons\\UI-GroupLoot-Pass-Up", function(at) UI.PlaylistRemove(at) end,
-    L["Remove from playlist"])
+  row.remove = small("Cross", function(at) UI.PlaylistRemove(at) end, L["Remove from playlist"])
   row.remove:SetPoint("RIGHT", -2, 0)
-  row.down = small("Interface\\Buttons\\UI-ScrollBar-ScrollDownButton-Up", function(at) UI.PlaylistMove(at, 1) end,
-    L["Move down"])
+  row.down = small("Up", function(at) UI.PlaylistMove(at, 1) end, L["Move down"], true)
   row.down:SetPoint("RIGHT", row.remove, "LEFT", -2, 0)
-  row.up = small("Interface\\Buttons\\UI-ScrollBar-ScrollUpButton-Up", function(at) UI.PlaylistMove(at, -1) end,
-    L["Move up"])
+  row.up = small("Up", function(at) UI.PlaylistMove(at, -1) end, L["Move up"])
   row.up:SetPoint("RIGHT", row.down, "LEFT", -2, 0)
   P.rows[i] = row
   return row
@@ -3586,13 +3717,13 @@ function UI.RefreshPlaylist()
     P.head:SetText(UI.speaking and L["Now playing"] or L["Paused"])
     P.count:SetText("")
     P.now.full = solo.label
-    P.now.text:SetText((UI.speaking and INK_GREEN or INK) .. esc(solo.label) .. "|r")
+    P.now.text:SetText(INK .. esc(solo.label) .. "|r")   -- (on its gilt row: inkNow)
   else
     local ours = pl.state == "playing" or pl.state == "waiting"
     P.head:SetText(pl.state == "playing" and L["Now playing"] or (pl.state == "waiting" and L["Plays next"] or L["Paused"]))
     P.count:SetText(string.format(L["%d of %d"], pl.pos, n))
     P.now.full = cur.label
-    P.now.text:SetText((ours and INK_GREEN or INK) .. esc(cur.label) .. "|r")
+    P.now.text:SetText(INK .. esc(cur.label) .. "|r")
   end
 
   -- Up next (numbered, with reorder and remove), then the earlier ones, played or skipped (greyed; click to hear one).
@@ -3680,20 +3811,28 @@ local function fitButton(b, min)
   b:SetWidth(math.max(min, (tw or min - 20) + 20))
 end
 
+-- The player's previous and next, and its 10-second jumps: round, a dark fill in the gold rim, a gold sign (the
+-- palette of 11/3), all one size (Design Lead, 11/4). A jump's sign is a curved arrow round a small gold "10".
+local TRANSPORT, TRANSPORT_GAP = 26, 6
 local function arrowButton(parent, dir, tip, onClick)
-  local b = CreateFrame("Button", nil, parent)
-  b:SetSize(26, 26)
-  b:SetNormalTexture("Interface\\Buttons\\UI-SpellbookIcon-" .. dir .. "Page-Up")
-  b:SetPushedTexture("Interface\\Buttons\\UI-SpellbookIcon-" .. dir .. "Page-Down")
-  b:SetDisabledTexture("Interface\\Buttons\\UI-SpellbookIcon-" .. dir .. "Page-Disabled")
-  b:SetHighlightTexture("Interface\\Buttons\\UI-Common-MouseHilight", "ADD")
+  local b = T.RoundButton(parent, TRANSPORT, "stone")
+  T.SetIcon(b, dir == "Prev" and "prev" or dir == "Next" and "next" or dir)
+  if dir == "back10" or dir == "forward10" then
+    local ten = b:CreateFontString(nil, "OVERLAY", T.font.digits)
+    ten:SetText("10")
+    ten:SetTextColor(T.rgba(T.color.gold))
+    if ten.SetShadowColor then ten:SetShadowColor(0, 0, 0, 0) end
+    ten:SetPoint("CENTER", 0.5, -1)
+    b.ten = ten
+  end
   b:SetScript("OnClick", onClick)
-  b:SetScript("OnEnter", function(self)
+  b:HookScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_TOP")
     GameTooltip:AddLine(tip)
+    if self.tip2 then T.Tip(self.tip2, "tipText", true) end
     GameTooltip:Show()
   end)
-  b:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  b:HookScript("OnLeave", function() GameTooltip:Hide() end)
   return b
 end
 
@@ -3924,20 +4063,22 @@ end
 -- The docked player is one row across the foot of the book (the floating one keeps its box of two rows): Prev, Play and
 -- Next (and the 10-second jumps, when the recording has them), then what plays with its line under it and "2 of 4"
 -- beside it, the report quill and the Playlist button. Placed again when the jumps appear or go.
-local DOCK_LEFT, DOCK_LEFT_JUMPS = 96, 172   -- where the controls end (without and with the jumps)
+-- where the controls end (without and with the jumps): 8 in, then the buttons with even gaps
+local DOCK_LEFT = 8 + 2 * TRANSPORT + 28 + 2 * TRANSPORT_GAP
+local DOCK_LEFT_JUMPS = DOCK_LEFT + 2 * (TRANSPORT + TRANSPORT_GAP)
 
 local function dockLayout(p, jumps)
   p.dockJumps = jumps and true or false
   p.prev:ClearAllPoints()
   p.prev:SetPoint("LEFT", p, "LEFT", 8, 0)
   p.play:ClearAllPoints()
-  p.play:SetPoint("LEFT", p.prev, "RIGHT", 4, 0)
+  p.play:SetPoint("LEFT", p.prev, "RIGHT", TRANSPORT_GAP, 0)
   p.next:ClearAllPoints()
-  p.next:SetPoint("LEFT", p.play, "RIGHT", 4, 0)
+  p.next:SetPoint("LEFT", p.play, "RIGHT", TRANSPORT_GAP, 0)
   p.back:ClearAllPoints()
-  p.back:SetPoint("LEFT", p.next, "RIGHT", 6, 0)
+  p.back:SetPoint("LEFT", p.next, "RIGHT", TRANSPORT_GAP, 0)
   p.forward:ClearAllPoints()
-  p.forward:SetPoint("LEFT", p.back, "RIGHT", 2, 0)
+  p.forward:SetPoint("LEFT", p.back, "RIGHT", TRANSPORT_GAP, 0)
   local mid = p.mid
   mid:ClearAllPoints()
   mid:SetPoint("TOPLEFT", p, "TOPLEFT", (jumps and DOCK_LEFT_JUMPS or DOCK_LEFT) + 10, -4)
@@ -4108,16 +4249,16 @@ function UI.CreatePlayer(parent, floating)
   end)
   p.play:SetScript("OnLeave", function() GameTooltip:Hide() end)
   p.play:SetText(L["Play"])
-  p.play:SetPoint("LEFT", p.prev, "RIGHT", 4, 0)
+  p.play:SetPoint("LEFT", p.prev, "RIGHT", TRANSPORT_GAP, 0)
   p.next = arrowButton(p, "Next", L["Next narration"], function() UI.PlayerNext() end)
-  p.next:SetPoint("LEFT", p.play, "RIGHT", 4, 0)
+  p.next:SetPoint("LEFT", p.play, "RIGHT", TRANSPORT_GAP, 0)
   -- Bottom right: the quill from under answers, to report the recording (ClipReport.lua, LOR-232). With
   -- Options > Show the report button on the narration player (reportCross, on by default), it shows while a
   -- recording plays, or after one played (UI.ReportableClip). The right-click menu offers the same box either way.
   local report = CreateFrame("Button", nil, p)
   report:SetSize(14, 14)
   report:SetHitRectInsets(-4, -4, -5, -5)
-  report:SetPoint("BOTTOMRIGHT", -7, 11)
+  report:SetPoint("BOTTOMRIGHT", -14, 11)   -- (clear of the rim: its nib was cut at the edge; 11/4)
   Mark(report, "quill", 14)
   MarkLit(report, false)
   report:SetScript("OnClick", function() UI.ShowClipReport() end)
@@ -4135,12 +4276,10 @@ function UI.CreatePlayer(parent, floating)
   report:Hide()
   p.report = report
   -- These buttons exist only for recordings with validated real segment files.
-  p.back = playerButton(p, "−10s", function() UI.Seek(-10) end, L["Back 10 seconds"])
-  p.back:SetSize(34, 22)
-  p.back:SetPoint("LEFT", p.next, "RIGHT", 4, 0)
-  p.forward = playerButton(p, "+10s", function() UI.Seek(10) end, L["Forward 10 seconds"])
-  p.forward:SetSize(34, 22)
-  p.forward:SetPoint("LEFT", p.back, "RIGHT", 2, 0)
+  p.back = arrowButton(p, "back10", L["Back 10 seconds"], function() UI.Seek(-10) end)
+  p.back:SetPoint("LEFT", p.next, "RIGHT", TRANSPORT_GAP, 0)
+  p.forward = arrowButton(p, "forward10", L["Forward 10 seconds"], function() UI.Seek(10) end)
+  p.forward:SetPoint("LEFT", p.back, "RIGHT", TRANSPORT_GAP, 0)
   for _, b in ipairs({ p.back, p.forward }) do b:Hide() end
   local progress = CreateFrame("Frame", nil, p)
   progress:SetPoint("TOPLEFT", 9, -30)
@@ -4187,7 +4326,7 @@ local function updatePlayer(p)
   local title, full, state, button, tip
   if oneOff then
     full = UI.playingLabel or L["narration"]
-    title = GREEN .. esc(full) .. "|r"
+    title = GOLD .. esc(full) .. "|r"
     state = list and (pl.state == "waiting" and L["then your playlist"] or L["playlist paused"]) or ""
     button, tip = transport and L["Pause"] or L["Stop"], transport and L["Pause"] or L["Stop narration"]
   elseif not playing and transport and not transport.target.fromPlaylist then
@@ -4234,7 +4373,9 @@ local function updatePlayer(p)
   p.play:SetText(button)   -- hidden; the sign shows it
   p.play.tip = tip
   T.SetIcon(p.play, button == L["Pause"] and "pause" or (button == L["Stop"] and "stop" or "play"))
-  p.queue:SetText(list and (L["Playlist"] .. " " .. GREEN .. n .. "|r") or L["Playlist"])
+  -- (just its name by the list sign: a count after it read as part of the name, "Playlist 1"; the playlist itself
+  -- says "1 of 4". Design Lead, 11/4)
+  p.queue:SetText(L["Playlist"])
   fitButton(p.queue, 58)
   p.queue:SetWidth((tonumber(p.queue:GetWidth()) or 58) + 12)   -- room for the list sign
   local open = not p.floating and UI.plView and UI.plView:IsShown()
@@ -4404,27 +4545,27 @@ function UI.CreateHistory(f)
   h:SetPoint("BOTTOMRIGHT", -BOOK_R, DOCK_H)   -- down over the suggestions and message box, so none of the chat shows
   h:SetFrameLevel((f:GetFrameLevel() or 1) + 20)
   h:EnableMouse(true)
-  local bg = T.Area(h, "overlay")
-  bg:SetAllPoints()
+  -- A page of the book like every other (Design Lead, 11/4): parchment, ink, card rows, an ink Back.
+  T.Parchment(h, "right")
   T.CoverChat(h)
-  local title = Header(h, L["Past chats"])
+  local title = Header(h, L["Past chats"], true)
   title:SetPoint("TOPLEFT", 10, -8)
-  local close = PanelButton(h)
+  local close = PanelButton(h, "paper")
   close:SetSize(70, 20)
   close:SetPoint("TOPRIGHT", -8, -6)
   close:SetText(L["Back"])
   close:SetScript("OnClick", function() h:Hide() end)
   h.back = close   -- /lore qa presses it (SelfTest.lua)
   -- Search past chats: what you asked, where, and what the answers said.
-  h.search = UI.SearchBox(h, 170, function() UI.RefreshHistory() end)
+  h.search = UI.SearchBox(h, 170, function() UI.RefreshHistory() end, nil, true)
   h.search:SetPoint("RIGHT", close, "LEFT", -8, 0)
-  h.empty = Muted(h:CreateFontString(nil, "OVERLAY", T.font.body))
+  h.empty = Faint(h:CreateFontString(nil, "OVERLAY", T.font.body))
   h.empty:SetPoint("TOPLEFT", 10, -36)
   h.empty:SetPoint("RIGHT", -10, 0)
   h.empty:SetJustifyH("LEFT")
   h.rows = {}
   for i = 1, HISTORY_ROWS do
-    local b = TextButton(h, CHAT_W, 24, T.font.small, T.color.row)
+    local b = TextButton(h, CHAT_W, 24, T.font.small, T.color.cardFill, true)
     b:SetPoint("TOPLEFT", 8, -32 - (i - 1) * 26)
     b:SetScript("OnClick", function(self) UI.RestoreHistory(self.index) end)
     h.rows[i] = b
@@ -4488,7 +4629,8 @@ function UI.RefreshHistory()
     local c = i and store[i]
     if c then
       b.index = i
-      b.text:SetText(WHITE .. esc(c.title) .. "|r  " .. GREY .. esc(c.zone or "") .. " - " .. ago(c.t) .. "|r")
+      b.text:SetText(INK .. esc(c.title) .. "|r  " .. T.code.inkNote .. esc(c.zone or "") .. ns.Lang.Dotted(" · ")
+        .. ago(c.t) .. "|r")
       b:Show()
     else
       b:Hide()
@@ -5077,7 +5219,9 @@ end
 
 -- Entry overview: summary plus spoiler-free sections; its questions become the suggestions. `asked` is the
 -- sidebar label that led here, shown as your side of the conversation. The parts still held back are one line with no
--- titles (a title can spoil: Design Lead, 10/25), and one Show shows them all.
+-- titles (a title can spoil: Design Lead, 10/25), and one Show shows them all. The card reads as Listen does (Mike,
+-- 11/3): a story heard from section 1 leaves its summary out (UI.ListenSkipsSummary), and what isn't the story (its
+-- storyline, what you did, its page in Found) waits under it in grey, not above the narration.
 function UI.ShowEntry(key, via, asked)
   if not ns.Lang.ValidateEdition() then return end
   local e = UI.engine.db.entries[key]
@@ -5085,27 +5229,32 @@ function UI.ShowEntry(key, via, asked)
   if UI.HERE_VIA[via] and UI.tab ~= "here" and UI.ShowTab then UI.ShowTab("here") end
   UI.engine.lastKey = key
   local link, linked = UI.Linker(key)
-  local parts = { WHITE .. link(esc(e.s)) .. "|r" }
   local all, done = settings().showSpoilers, ns.Context.Done()
-  local held = 0
+  local shown, held = {}, 0
   for _, sec in ipairs(e.sec or {}) do
-    if all or UI.engine:Opens(key, sec, done) then
-      parts[#parts + 1] = GOLD .. esc(sec.t) .. "|r\n" .. WHITE .. link(esc(sec.b)) .. "|r"
-    else
-      held = held + 1
-    end
+    if all or UI.engine:Opens(key, sec, done) then shown[#shown + 1] = sec else held = held + 1 end
+  end
+  -- (linked in reading order: a name links where it's first read)
+  local parts = {}
+  if not (shown[1] and UI.ListenSkipsSummary(key)) then parts[1] = WHITE .. link(esc(e.s)) .. "|r" end
+  for _, sec in ipairs(shown) do
+    parts[#parts + 1] = GOLD .. esc(sec.t) .. "|r\n" .. WHITE .. link(esc(sec.b)) .. "|r"
   end
   if held > 0 then
     parts[#parts + 1] = GREY .. string.format(held == 1 and L["%d more part, held back until you reach it"]
       or L["%d more parts, held back until you reach them"], held) .. ns.Lang.Dotted(" · ") .. "|r" .. revealLink(key, 0)
   end
-  parts[#parts + 1] = foundLink(key)
+  -- A quest in a storyline: where it sits (Storyline.Line; nothing for other quests). Then you, then Found's page.
+  local foot = {}
+  local story = e.t == "quest" and e.m and e.m.id and ns.Storyline.Line(e.m.id)
+  if story then foot[#foot + 1] = GREY .. esc(story) .. "|r" end
+  local you = youText(key)
+  if you ~= "" then foot[#foot + 1] = you:sub(1, -2) end   -- (without its line break)
+  foot[#foot + 1] = foundLink(key)
+  if foot[1] then parts[#parts + 1] = table.concat(foot, "\n") end
   if asked then UI.AddMessage("user", WHITE .. esc(asked) .. "|r") end
   local target = UI.EntryTarget(key)
-  -- A quest in a storyline: where it sits, first (Storyline.Line; nothing for other quests).
-  local story = e.t == "quest" and e.m and e.m.id and ns.Storyline.Line(e.m.id)
-  story = story and (GOLD .. esc(story) .. "|r\n") or ""
-  local text = GOLD .. esc(e.n) .. "|r\n" .. story .. youText(key) .. table.concat(parts, "\n\n")
+  local text = GOLD .. esc(e.n) .. "|r\n" .. table.concat(parts, "\n\n")
   UI.lastLog = ns.Log.Question("[open] " .. e.n, UI.ctx or ns.Context.Snapshot(), { { key = key, kind = "summary", title = e.n } }, via)
   UI.AddMessage("lore", text, target, nil, nil, UI.lastLog, key, linked, true)
   UI.SetNext(followUps(key, nil))
@@ -5488,7 +5637,7 @@ function UI.LoreLinkTooltip(owner, link)
   local where = z and z.n ~= e.n and z.n or nil
   T.Tip(where and (kind .. " - " .. where) or kind, "tipDim")
   T.Tip(e.h or e.s, "tipText", true)
-  if ns.Voice.HasAudio(key) then T.Tip(L["Narrated"], "tipGood") end
+  if ns.Voice.HasAudio(key) then T.Tip(L["Narrated"], "tipText") end
   T.Tip(L["Click to open. Shift-click adds it to your playlist."], "tipDim", true)
   GameTooltip:Show()
 end
@@ -5554,11 +5703,6 @@ function UI.PlaceChat(top)
   UI.scroll:SetPoint("BOTTOMRIGHT", UI.frame, "BOTTOMRIGHT", -34 - SHIFT_R, 128 + FOOT)
   -- The message box starts where the conversation does.
   local f = UI.frame
-  if UI.msgBar then
-    UI.msgBar:ClearAllPoints()
-    UI.msgBar:SetPoint("BOTTOMLEFT", f, "BOTTOMLEFT", CHAT_X - 4, 10 + FOOT)
-    UI.msgBar:SetPoint("TOPRIGHT", f, "BOTTOMRIGHT", -BOOK_R, 44 + FOOT)
-  end
   if UI.input then
     UI.input:ClearAllPoints()
     UI.input:SetPoint("BOTTOMLEFT", f, "BOTTOMLEFT", CHAT_X + 8, 16 + FOOT)

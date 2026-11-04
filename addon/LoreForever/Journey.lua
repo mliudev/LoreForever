@@ -911,9 +911,18 @@ do
       return table.concat(parts, ns.Lang.Dotted("  ·  "))
     end
     local with = type(e.pt) == "table" and #e.pt > 0 and string.format(L["with %s"], table.concat(e.pt, ", ")) or nil
-    if e.k == "qt" then return e.q or string.format(L["Quest %d"], e.id or 0), sub(L["Quest done"], with or where)
-    elseif e.k == "qa" then return e.q or string.format(L["Quest %d"], e.id or 0), sub(L["Quest accepted"], where)
-    elseif e.k == "qx" then return e.q or string.format(L["Quest %d"], e.id or 0), sub(L["Quest abandoned"], where)
+    if e.k == "qt" or e.k == "qa" or e.k == "qx" then
+      -- The quest's name: as kept, else its page's or the one the quest log kept. With none, what happened is the title
+      -- ("Quest 102" read as raw data; 11/4).
+      local id = tonumber(e.id)
+      local key = id and ns.DB and ns.DB.index and ns.DB.index.quest and ns.DB.index.quest[id]
+      local page = key and ns.DB.entries[key]
+      local kept = id and type(LoreForeverDB.quests) == "table" and LoreForeverDB.quests[id]
+      local name = e.q or (page and page.n) or (type(kept) == "table" and kept.title ~= "" and kept.title) or nil
+      local label = e.k == "qt" and L["Quest done"] or e.k == "qa" and L["Quest accepted"] or L["Quest abandoned"]
+      local place = e.k == "qt" and (with or where) or where
+      if not name then return label, sub(place) end
+      return name, sub(label, place)
     elseif e.k == "zone" then
       -- In a dungeon, an event that isn't a new place is an entry; a new room inside isn't.
       local entry = e.inst and (e.how == "instance" or not e.new)
@@ -1043,7 +1052,7 @@ do
     local d = date("%Y-%m-%d", t)
     if d == date("%Y-%m-%d", time()) then return L["Today"] end
     if d == date("%Y-%m-%d", time() - 86400) then return L["Yesterday"] end
-    return date("%b %d", t)
+    return ns.Lang.Date(t)
   end
 
   local function levelsText(lv1, lv2)
@@ -1105,7 +1114,7 @@ do
       if #bosses > 0 then
         items[#items + 1] = { head = L["Bosses defeated"] }
         for _, b in ipairs(bosses) do
-          items[#items + 1] = { title = b.name, sub = date("%b %d", b.t), key = loreKey({ k = "boss", n = b.name }) }
+          items[#items + 1] = { title = b.name, sub = ns.Lang.Date(b.t), key = loreKey({ k = "boss", n = b.name }) }
         end
       end
       local foes = {}
@@ -1264,7 +1273,7 @@ do
     local groups, order, listed, more = {}, {}, 0, 0
     for _, q in ipairs(Journey.Completed()) do
       local zone = q.z or L["Other quests"]
-      local sub = joined(q.t and date("%b %d", q.t) or L["Done earlier"], q.t and levelsText(tonumber(q.lv), tonumber(q.lv)),
+      local sub = joined(q.t and ns.Lang.Date(q.t) or L["Done earlier"], q.t and levelsText(tonumber(q.lv), tonumber(q.lv)),
         q.s ~= q.z and q.s or nil, q.text and L["quest text"] or nil)
       if not q.title then
         if not match then more = more + 1 end
@@ -1311,7 +1320,7 @@ do
     local when
     if q.t then
       local with = type(q.pt) == "table" and #q.pt > 0 and string.format(L["with %s"], table.concat(q.pt, ", ")) or nil
-      when = joined(string.format(L["Completed %s"], date("%b %d, %Y", q.t)), levelsText(tonumber(q.lv), tonumber(q.lv)),
+      when = joined(string.format(L["Completed %s"], ns.Lang.Date(q.t, "year")), levelsText(tonumber(q.lv), tonumber(q.lv)),
         q.s and q.s ~= q.z and (q.s .. ", " .. (q.z or "")) or q.z, with)
     else
       when = L["Completed before Lore Forever began your journey record."]
@@ -1413,7 +1422,7 @@ do
     local head = UI.Header(view, L["Your journey"], true)
     head:SetPoint("TOPLEFT", 10, -8)
     Journey.head = head
-    local close = ns.Theme.Button(view)
+    local close = ns.Theme.Button(view, nil, "paper")
     close:SetHeight(22)
     close:SetPoint("TOPRIGHT", -8, -6)
     close:SetText(L["Back"])
@@ -1484,7 +1493,7 @@ do
 
     -- The footer: when it was saved, then Copy my journey record (JourneyRecord.lua, a link) and Update my journey, each as
     -- wide as its label, clear of the panel's resize grip (it sits over this corner and takes clicks 28 in from it).
-    local sync = ns.Theme.SkinButton(CreateFrame("Button", "LoreForeverJourneySync", view, "UIPanelButtonTemplate"))
+    local sync = ns.Theme.SkinButton(CreateFrame("Button", "LoreForeverJourneySync", view, "UIPanelButtonTemplate"), "paper")
     sync:SetSize(150, 22)
     sync:SetPoint("BOTTOMRIGHT", -18, 8)
     sync:SetText(L["Update my journey"])
@@ -1527,6 +1536,7 @@ do
     local content = CreateFrame("Frame", nil, sf)
     content:SetSize(pageSize() - 36, 100)
     sf:SetScrollChild(content)
+    T.PaperScroll(sf)
     Journey.scroll, Journey.content, Journey.rows = sf, content, {}
 
     -- The journey map, right of the list (JourneyMap.lua). Whole journey switches it between zone and continent.
@@ -1802,9 +1812,9 @@ do
       if m.sub and m.sub ~= "" then T.Tip(esc(m.sub), "tipText") end
     end
     local t, lv = tonumber(e.t), tonumber(e.lv)
-    if t then T.Tip(joined(date("%b %d %H:%M", t), lv and string.format(L["level %d"], lv)), "tipDim") end
+    if t then T.Tip(joined(ns.Lang.Date(t, "time"), lv and string.format(L["level %d"], lv)), "tipDim") end
     local rel = Journey.Related(m)
-    if rel then T.Tip(esc(joined(rel.label, rel.where, rel.t and date("%b %d %H:%M", rel.t))), "tipDim") end
+    if rel then T.Tip(esc(joined(rel.label, rel.where, rel.t and ns.Lang.Date(rel.t, "time"))), "tipDim") end
     local n = (e.k == "kill" or e.k == "boss") and e.n and char and type(char.kills) == "table" and tonumber(char.kills[e.n])
     if n and n > 1 then T.Tip(string.format(L["%d defeated"], n), "tipDim") end
     local pic = Journey.Picture(e)
@@ -1917,11 +1927,8 @@ do
     link.text:SetPoint("LEFT", 8, 0)
     link.text:SetPoint("RIGHT", -20, 0)
     if link.text.SetWordWrap then link.text:SetWordWrap(false) end
-    local arrow = link:CreateTexture(nil, "OVERLAY")
-    arrow:SetTexture(T.ARROW)
-    arrow:SetSize(10, 10)
-    arrow:SetPoint("RIGHT", -7, 0)
-    arrow:SetVertexColor(T.rgba(T.color.inkAccent))
+    local arrow = T.OpenMark(link)
+    arrow:SetPoint("RIGHT", -7, 1)
     link:SetScript("OnClick", function(self) Journey.OpenEntry(self.moment, IsShiftKeyDown and IsShiftKeyDown()) end)
     link:SetScript("OnEnter", function(self)
       GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
@@ -1944,9 +1951,9 @@ do
     c.title:SetTextColor(col[1], col[2], col[3], 1)
     c.sub:SetText(m and esc(m.sub or "") or "")
     local t, lv = tonumber(e.t), tonumber(e.lv)
-    c.when:SetText(t and esc(joined(date("%b %d %H:%M", t), lv and string.format(L["level %d"], lv))) or "")
+    c.when:SetText(t and esc(joined(ns.Lang.Date(t, "time"), lv and string.format(L["level %d"], lv))) or "")
     local rel = m and Journey.Related(m)
-    c.rel:SetText(rel and esc(joined(rel.label, rel.where, rel.t and date("%b %d %H:%M", rel.t))) or "")
+    c.rel:SetText(rel and esc(joined(rel.label, rel.where, rel.t and ns.Lang.Date(rel.t, "time"))) or "")
     local room = tonumber(c:GetWidth())
     room = (room and room > 0) and room or nil
     -- A picture moment: its picture at the right, as large as fits (at most 160 wide and 0.45 of the card) in its own
@@ -2137,7 +2144,7 @@ do
       win.pic:SetSize(w, h)
       local t, lv = tonumber(e.t), tonumber(e.lv)
       win.where:SetText(esc(e.s and e.s ~= e.z and (e.s .. ", " .. (e.z or "")) or e.z or L["Picture"]))
-      win.when:SetText(esc(joined(t and date("%b %d, %Y %H:%M", t), lv and string.format(L["level %d"], lv))))
+      win.when:SetText(esc(joined(t and ns.Lang.Date(t, "full"), lv and string.format(L["level %d"], lv))))
       win.cap:SetText(p.cap and esc(p.cap) or "")
       win.cap:SetShown(p.cap ~= nil)
       local textH = 0
@@ -2177,11 +2184,8 @@ do
     r.dot:SetPoint("TOPLEFT", 5, -7)
     -- The row the map shows: a gold wash and bar. A row that opens something ends in a small gold arrow.
     r.mark = T.TargetMark(r, true)
-    r.link = r:CreateTexture(nil, "OVERLAY")
-    r.link:SetTexture(T.ARROW)
-    r.link:SetSize(10, 10)
-    r.link:SetPoint("RIGHT", -6, 0)
-    r.link:SetVertexColor(T.rgba(T.color.inkAccent))
+    r.link = T.OpenMark(r)
+    r.link:SetPoint("RIGHT", -6, 1)
     -- Keep the screenshot beside its own moment even when the map/card is hidden on a narrow panel.
     local thumb = CreateFrame("Button", nil, r)
     thumb.tex = thumb:CreateTexture(nil, "ARTWORK")
@@ -2290,7 +2294,7 @@ do
     end
     local who = char and string.format(L["Level %d %s %s"], tonumber(char.level) or 0, char.raceName or "",
       char.className or "")
-    Journey.whoLine:SetText(who and esc(joined(who, char.first and string.format(L["since %s"], date("%b %d", char.first))))
+    Journey.whoLine:SetText(who and esc(joined(who, char.first and string.format(L["since %s"], ns.Lang.Date(char.first))))
       or "")
 
     -- The filter chips.
@@ -2399,7 +2403,7 @@ do
     local last = not ns.Companion.Installed() and char and char.lastSync
     Journey.note:SetText((ns.HistoryArchive and ns.HistoryArchive.StatusText())
       or (not on and #items > 0 and L["Remember my journey is off (/lore options)."])
-      or (last and string.format(L["Saved %s."], date("%b %d %H:%M", last)))
+      or (last and string.format(L["Saved %s."], ns.Lang.Date(last, "time")))
       or L["Saved when you log out, or now with Update my journey."])
     if Journey.archiveNote then
       Journey.archiveNote:SetShown(ns.HistoryArchive and ns.HistoryArchive.On() and true or false)

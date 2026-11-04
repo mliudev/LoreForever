@@ -438,7 +438,7 @@ P.transport["subzone:clockwerk-run"] = {
   fullHash = "aa818f",
   text = "Clockwerk Run. In Gnomeregan, toxic fumes and irradiated troggs choke Clockwerk Run between the Train Depot and the Hall of Gears. Clockwerk Run carries you from the outer Train Depot into Gnomeregan. Once, gnomish traffic and supplies passed through this corridor. Then High Tinker Mekkatorque ordered radioactive waste vented to stop the trogg invasion. The waste turned the passage into a deadly trap.\n\nThe blast and the fighting that followed brought parts of the hallway down. Toxic fumes and irradiated troggs now block the way to the upper Hall of Gears.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_clockwerk-run-0fc32dd344be5bc70d56/1-0000.mp3", duration = 35.8661224, start = 0},
+    {file = "Audio/Transport/full_subzone_clockwerk-run-90d970aebecb37337351/1-0000.mp3", duration = 34.6644898, start = 0},
   },
 }
 P.transport["subzone:corin-s-crossing"] = {
@@ -1054,7 +1054,7 @@ P.transport["subzone:gnomeregan"] = {
   fullHash = "ce40b5",
   text = "Gnomeregan. Troggs and leper gnomes roam Gnomeregan’s poisoned halls among the broken defenses. The city was once the gnomes’ underground capital, until a desperate defense ended in catastrophe. Gnomeregan’s halls once rang with the work of gnomish engineers. Ironforge dwarves helped build the city centuries ago, carving it into the snowy crags of western Dun Morogh. Steam-driven gears, copper pipes, and vast assembly halls made it the heart of gnomish industry and invention. During the Second War, its designs, flying machines, and complex weapons supplied the Alliance. Even Orgrim Doomhammer’s Horde could not break the city during its siege. During the Third War, troggs surged up from deep underground and broke into Gnomeregan’s lowest chambers. High Tinker Gelbin Mekkatorque chose to face the invasion alone, unwilling to draw Alliance armies away from the slaughter in Lordaeron.\n\nOn the advice of chief engineer Mekgineer Thermaplugg, he ordered radioactive gas released through the lower chambers to wipe out the troggs. Instead, the gas empowered many troggs and killed nearly eighty percent of the gnomish people. Survivors exposed to it became twisted leper gnomes, and Thermaplugg took control of the poisoned ruins.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_gnomeregan-e745b6cb070be5dc04b9/1-0000.mp3", duration = 78.5240816, start = 0},
+    {file = "Audio/Transport/full_subzone_gnomeregan-4b4abba538652a0770d2/1-0000.mp3", duration = 77.0873469, start = 0},
   },
 }
 P.transport["subzone:go-shek-farm"] = {
@@ -1270,7 +1270,7 @@ P.transport["subzone:ironforge"] = {
   fullHash = "5f0d74",
   text = "Ironforge. Beneath Dun Morogh, Ironforge’s Great Forge still burns at the heart of dwarven rule and Alliance trade. Deep within Ironforge Mountain, the city anchors Khaz Modan and guards the Alliance. Ironforge fills the deep halls of Ironforge Mountain, with stone rings circling the Great Forge. Dwarves founded the city millennia ago, after awakening and migrating from Uldaman. It has endured ages of history, including the War of the Three Hammers, which left the Bronzebeard clan in sole control.\n\nNatural magma pours through the mountain and powers the city. Massive stone gates guard its halls. Dwarven craftsmen and warriors share them with many exiled gnomes, who arrived after Gnomeregan fell recently. Ironforge is one of the Alliance’s busiest centers of commerce and industry. From the High Seat, King Magni Bronzebeard rules Khaz Modan. Dwarven prospectors, miners, and engineers work beside gnome refugees in Tinker Town.\n\nBeneath the mountains, the Deeprun Tram runs to Stormwind City. It carries trade and troops at high speed, keeping the capitals linked in mutual defense.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ironforge-ad7392ba11b316cde16b/1-0000.mp3", duration = 75.284898, start = 0},
+    {file = "Audio/Transport/full_subzone_ironforge-39a01ac1d8810196c282/1-0000.mp3", duration = 76.2514286, start = 0},
   },
 }
 P.transport["subzone:ironstone-camp"] = {
@@ -1454,7 +1454,7 @@ P.transport["subzone:launch-bay"] = {
   fullHash = "38dde1",
   text = "Launch Bay. Hostile leper gnomes and corrupted machines hold Launch Bay beyond the Hall of Gears. Once Gnomeregan’s airfield for flying machines and bombers, this hangar lies deep beneath the city. Two tiers once held Gnomeregan’s aerial fleet. Ramps from the upper walkway lead to a central platform, where flying machines and heavy bombers remain parked. They were left behind before the city was evacuated.\n\nCrazed leper gnomes now roam the flight decks. They maintain and guard the idle war machines where skilled pilots once served. Launch Bay joins several parts of the complex. Ramps from its southeastern corridor descend into the Engineering Labs.\n\nOn the lower deck, invading Dark Iron dwarves choke the southern passage. That tunnel offers a perilous route toward Tinkers' Court, deep in the city.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_launch-bay-d01b7dc1e297a7e1ee11/1-0000.mp3", duration = 53.76, start = 0},
+    {file = "Audio/Transport/full_subzone_launch-bay-4fb5aafc777292032dde/1-0000.mp3", duration = 53.5510204, start = 0},
   },
 }
 P.transport["subzone:lethlor-ravine"] = {
@@ -1486,7 +1486,7 @@ P.transport["subzone:loading-room"] = {
   fullHash = "529929",
   text = "Loading Room. In Gnomeregan's depths, the Loading Room lies amid danger. It once staged cargo for the city's transit networks. Now radioactive fallout and rogue machinery threaten all who enter. Cargo once passed through the Loading Room on its way across Gnomeregan's underground transit network. Goods gathered in its staging bay before the trains carried them through the tinker capital.\n\nNow ruin has overtaken the chamber. Radioactive fallout, invading troggs, and failing machinery make it perilous. Techbot, a rogue mechanized construct, guards the vicinity. Gnome survivors and Alliance reclaimers who try to secure the perimeter must face that danger.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_loading-room-0c7da9176f4db562f288/1-0000.mp3", duration = 43.1804082, start = 0},
+    {file = "Audio/Transport/full_subzone_loading-room-f62747e48ef271aad044/1-0000.mp3", duration = 41.9526531, start = 0},
   },
 }
 P.transport["subzone:lordamere-internment-camp"] = {
@@ -3198,7 +3198,7 @@ P.transport["subzone:workshop-entrance"] = {
   fullHash = "9f0056",
   text = "Workshop Entrance. Past the Train Depot, Workshop Entrance offers another way into Gnomeregan. The passage skirts the front gates and reaches the Engineering Labs in the irradiated city. Past the Train Depot, Workshop Entrance crosses the cavernous workshop floor toward Gnomeregan’s industrial heart. The opening to the Loading Room lies on one side. The passage runs straight to the Engineering Labs, away from the fortified gates near the surface. There, leper gnomes and troggs contest the way. Those seeking to reclaim the underground capital can use this side door to bypass the first perimeter.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_workshop-entrance-d24babc4437cc0564c2f/1-0000.mp3", duration = 36.7020408, start = 0},
+    {file = "Audio/Transport/full_subzone_workshop-entrance-ed73825c53ab4413a991/1-0000.mp3", duration = 35.3697959, start = 0},
   },
 }
 P.transport["subzone:writhing-deep"] = {

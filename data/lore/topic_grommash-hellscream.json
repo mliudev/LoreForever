@@ -33,7 +33,7 @@
     "who was hellscream",
     "grom hellscream backstory"
    ],
-   "answer": "Grommash Hellscream led the warsong clan and served as Thrall's trusted lieutenant. Famous for Gorehowl, he was the first orc to drink mannoroth's blood and accept the demonic pact. He redeemed his legacy by slaying mannoroth in Kalimdor and freeing the orcs from the blood curse."
+   "answer": "Grommash Hellscream led the Warsong clan and served as Thrall's trusted lieutenant. Famous for Gorehowl, he was the first orc to drink Mannoroth's blood and accept the demonic pact. He redeemed his legacy by slaying Mannoroth in Kalimdor and freeing the orcs from the Blood Curse."
   },
   {
    "q": "How did Grom die?",
@@ -42,7 +42,7 @@
     "how did grom hellscream die",
     "who killed grom"
    ],
-   "answer": "Grom died in Demon Fall Canyon in ashenvale, where he faced the pit lord mannoroth. He leapt into the air and cleaved the demon's chest with Gorehowl, shattering its heart. The burst of demonic hellfire fatally wounded him, and Grom died declaring that he had freed himself and his people."
+   "answer": "Grom died in Demon Fall Canyon in Ashenvale, where he faced the pit lord Mannoroth. He leapt into the air and cleaved the demon's chest with Gorehowl, shattering its heart. The burst of demonic hellfire fatally wounded him, and Grom died declaring that he had freed himself and his people."
   },
   {
    "q": "What is Grom's connection to Thrall?",
@@ -69,7 +69,7 @@
     "grom chaos orcs",
     "grom drank blood twice"
    ],
-   "answer": "Grom drank demon blood again to save his clan after night elves and the demigod Cenarius decimated it while it harvested lumber in ashenvale. Cenarius was nearly invincible against mortal weapons. Grom found a pool corrupted by mannoroth's blood and drank, knowing the dreadful cost, to gain the demonic fury to defeat him."
+   "answer": "Grom drank demon blood again to save his clan after night elves and the demigod Cenarius decimated it while it harvested lumber in Ashenvale. Cenarius was nearly invincible against mortal weapons. Grom found a pool corrupted by Mannoroth's blood and drank, knowing the dreadful cost, to gain the demonic fury to defeat him."
   },
   {
    "q": "Where is Grommash buried?",
@@ -78,13 +78,13 @@
     "grom monument",
     "where is groms tomb"
    ],
-   "answer": "Grommash rests in Demon Fall Canyon in southeastern ashenvale, where he struck down mannoroth. A stone monument marks his burial site, with an epitaph by Thrall honoring Grom's courage and ultimate sacrifice for the Horde."
+   "answer": "Grommash rests in Demon Fall Canyon in southeastern Ashenvale, where he struck down Mannoroth. A stone monument marks his burial site, with an epitaph by Thrall honoring Grom's courage and ultimate sacrifice for the Horde."
   }
  ],
  "angles": [
   {
    "target": "race:Orc",
-   "text": "As an orc, you revere Grommash as your people's savior. His sacrifice in ashenvale broke the demonic blood curse that held the orcs for generations, allowing the New Horde to live with pride and free will."
+   "text": "As an orc, you revere Grommash as your people's savior. His sacrifice in Ashenvale broke the demonic Blood Curse that held the orcs for generations, allowing the New Horde to live with pride and free will."
   },
   {
    "target": "faction:Horde",
@@ -92,7 +92,7 @@
   },
   {
    "target": "race:NightElf",
-   "text": "As a night elf, you may remember Grom with bitterness. He invaded ashenvale in a demonic frenzy, defiled its sacred groves, and killed the demigod Cenarius."
+   "text": "As a night elf, you may remember Grom with bitterness. He invaded Ashenvale in a demonic frenzy, defiled its sacred groves, and killed the demigod Cenarius."
   },
   {
    "target": "class:Warrior",

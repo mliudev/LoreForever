@@ -2,6 +2,12 @@
 -- Sources: data/i18n/ruRU. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ruRU")
 local Po = P.search.post
+Po["новаячума"] = "AMfBAa1BAgxBAg3BAihBAioBAtSBA0iBA/LBA/OCBNGBBwzBBw3CDetCDeuBDevBDewBDexBDeyBDezBDe2DDe3BDe4BDe5BDe6BDe7BDe8BDfIDDfJBDfKBDfLDDfMBDfNBDfOBDqJBDqNEDqcBDrJBDrPCD0yDD0zBD00BD01BD02BD03BD04BD08BD1yBD12ED3PBD3YBD3bED4jBD4mCEcrBEcuEEcwCFDEBFDHCF4TCGU8EGezB"
+Po["новаяэпоха"] = "DWiBGUFB"
+Po["новейшего"] = "CzFB"
+Po["новейшей"] = "D16B"
+Po["новейшему"] = "Ec4B"
+Po["новейшие"] = "AtTBCDFB"
 Po["новейший"] = "Ag9B"
 Po["новейшим"] = "DefBDlsBFJBB"
 Po["новейших"] = "CNuBCVkBEcOBEkOBE/FBFQqBFsaBF4LB"
@@ -11996,9 +12002,3 @@ Po["отозван"] = "DKYB"
 Po["отозваны"] = "DJ/B"
 Po["отойти"] = "AZFBCLRBCLWBCfwBE/YBGE/B"
 Po["отомером"] = "CaNB"
-Po["отомсти"] = "EQ+DEQ/BERABERBBERCBERDDEREBETPB"
-Po["отомстив"] = "ETMBEdQB"
-Po["отомстил"] = "AdvBAk/BBclBFA/B"
-Po["отомстили"] = "C5tB"
-Po["отомстите"] = "Aj/B"
-Po["отомстить"] = "AGbBAOkBAdqBAduBAj6BAngBAp7BAwEBAwMBA7dBA8nBBKcBBMdBBXqBBbpBBg7BBhyBBk5BBrUBBrYBBrkBBtpBBvdBBw3BBx4BBz1BB4CBB4rBB5VBB5ZDB67BB8JBCDSBCDrBCD1BCZVBCjEBCvzBCxaBCyYBCyeBCygBDO5BDPdBDR6BDY3BDg2BDlJBDnBBDpqBDteBDusBD0+BEBmBEBnBEQ+BETRBETVBEdYBEogBE7sBFbSCGG7BGHOBGI5BGOTBGOdBGQJBGczB"

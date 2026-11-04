@@ -42,7 +42,7 @@
     "who is the leader",
     "thrall's role"
    ],
-   "answer": "Thrall, son of Durotan, leads the New Horde as warchief. From the Valley of Wisdom in Orgrimmar, he works in close council with high chieftain cairne bloodhoof of the tauren and Shadow Hunter Vol'jin of the Darkspear trolls."
+   "answer": "Thrall, son of Durotan, leads the New Horde as warchief. From the Valley of Wisdom in Orgrimmar, he works in close council with High Chieftain Cairne Bloodhoof of the tauren and Shadow Hunter Vol'jin of the Darkspear trolls."
   },
   {
    "q": "Which races belong to the New Horde right now?",
@@ -51,7 +51,7 @@
     "who is in the horde",
     "horde members"
    ],
-   "answer": "The New Horde's core is made up of orcs, the Darkspear tribe of trolls, and the tauren of Mulgore. In the Eastern Kingdoms, the undead Forsaken under lady sylvanas windrunner belong through a pragmatic military alliance."
+   "answer": "The New Horde's core is made up of orcs, the Darkspear tribe of trolls, and the tauren of Mulgore. In the Eastern Kingdoms, the undead Forsaken under Lady Sylvanas Windrunner belong through a pragmatic military alliance."
   },
   {
    "q": "Why did the Forsaken join the New Horde?",
@@ -84,7 +84,7 @@
  "angles": [
   {
    "target": "faction:Horde",
-   "text": "The New Horde offers outcasts sanctuary, mutual defense, and a chance to preserve their cultures. Its members share an oath of honor under warchief thrall."
+   "text": "The New Horde offers outcasts sanctuary, mutual defense, and a chance to preserve their cultures. Its members share an oath of honor under Warchief Thrall."
   },
   {
    "target": "faction:Alliance",

@@ -890,6 +890,13 @@ function Capture.Share(line)
   local link, whole = Capture.Link(line)
   f.link, f.line = link, line
   local preview = (line.text or ""):gsub("%s+", " ")
+  -- (on screen the placeholders read as this character, as the game shows them; the link keeps $N: 11/4)
+  local me = ns.Context and ns.Context.Character and ns.Context.Character() or {}
+  local fill = { N = me.name, C = me.className, R = me.raceName }
+  preview = preview:gsub("%$([NnCcRr])", function(c)
+    local v = fill[c:upper()]
+    return type(v) == "string" and v ~= "" and v or nil
+  end)
   f.what:SetText(what(line.kind) .. (line.label and (": " .. line.label) or "")
     .. " - " .. preview:sub(1, 80))
   f.hint:SetText(whole
