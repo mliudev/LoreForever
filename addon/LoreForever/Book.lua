@@ -324,21 +324,6 @@ function Book.Filters()
     sort = Book.sort }
 end
 
--- What a chapter's + adds: its found pages, places first, then people, items and quests, each in the order
--- found (what can't be played or is queued already is skipped by UI.QueueGroup).
-function Book.QueueKeys(ck)
-  local tiles = Book.Tiles(ck, {})
-  local keys = {}
-  for _, t in ipairs(tiles) do if t.found then keys[#keys + 1] = t end end
-  table.sort(keys, function(a, b)
-    if a.kind ~= b.kind then return KIND_ORDER[a.kind] < KIND_ORDER[b.kind] end
-    if a.t ~= b.t then return a.t < b.t end
-    return a.key < b.key
-  end)
-  for i, t in ipairs(keys) do keys[i] = t.key end
-  return keys
-end
-
 -- The sidebar view ------------------------------------------------------------------------------------------------
 
 function Book.CreateSide(view)
@@ -369,11 +354,7 @@ function Book.CreateSide(view)
   note:SetWidth(SIDE_W - 40)
   note:SetJustifyH("LEFT")
   if note.SetWordWrap then note:SetWordWrap(true) end
-  -- It names the playlist button, not a "+" (Design Lead, 11/4). A pack with an older wording keeps its own words.
-  note:SetText(ns.Lang.Reworded("Click a chapter to see its pages. Its playlist button adds its stories to your playlist.",
-      "Click a chapter to see its pages. + adds its stories to your playlist.",
-      "Click a chapter to see its pages. Green + adds its stories to your playlist.")
-    or L["Click a chapter to see its pages. Its playlist button adds its stories to your playlist."])
+  note:SetText(L["Click a chapter to see its pages."])
   Book.sideScroll, Book.sideNote = sf, note
   Book.ClearHint(view, sf, note)
 end
@@ -405,11 +386,11 @@ local function sideRow(i)
   row = UI.TextButton(Book.sideContent, UI.SIDE_W - 40, ROW_H, T.font.small, nil, true)
   row.text:ClearAllPoints()
   row.text:SetPoint("TOPLEFT", 6, -3)
-  row.text:SetPoint("TOPRIGHT", -78, -3)
+  row.text:SetPoint("TOPRIGHT", -48, -3)
   row.text:SetJustifyV("TOP")
   if row.text.SetWordWrap then row.text:SetWordWrap(false) end
   local count = T.Ink(row:CreateFontString(nil, "OVERLAY", T.font.small), "inkNote")
-  count:SetPoint("TOPRIGHT", -36, -3)
+  count:SetPoint("TOPRIGHT", -6, -3)
   count:SetJustifyH("RIGHT")
   row.count = count
   row.sel = T.SelectMark(row)
@@ -417,30 +398,17 @@ local function sideRow(i)
   row.meter = T.Meter(row, "found")
   row.meter:SetHeight(6)
   row.meter:SetPoint("BOTTOMLEFT", 6, 5)
-  row.meter:SetPoint("BOTTOMRIGHT", -66, 5)
+  row.meter:SetPoint("BOTTOMRIGHT", -38, 5)
   row.gilt = T.Seal(row, "wax", 12)   -- (every place found; wax as every seal is, first of the two)
-  row.gilt:SetPoint("BOTTOMRIGHT", -48, 3)
+  row.gilt:SetPoint("BOTTOMRIGHT", -22, 3)
   row.wax = T.Seal(row, "wax", 12)
-  row.wax:SetPoint("BOTTOMRIGHT", -34, 3)
+  row.wax:SetPoint("BOTTOMRIGHT", -4, 3)
+  ns.Road.SealHover(row.gilt, row, "places")
+  ns.Road.SealHover(row.wax, row, "stories")
   row.newBg = T.Area(row, "newMark", "ARTWORK")
   row.newBg:SetHeight(14)
   row.newBg:SetPoint("CENTER", count, "CENTER", 0, 0)
   row.newBg:Hide()
-  -- Add all: the pill's playlist half on its own (T.Pill: no play half), its list-plus sign.
-  local pill = T.Pill(row, 24)
-  T.SetPill(pill, false, true, false, false)
-  pill:SetPoint("RIGHT", -2, 0)
-  local all = pill.add
-  all:SetScript("OnClick", function(self) UI.QueueGroup(Book.QueueKeys(self.ck), self.label, true) end)
-  all.onEnter = function(self)
-    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-    GameTooltip:AddLine(L["Add all to your playlist"])
-    T.Tip(L["Adds the stories of the pages you've found here, places first, then people, items and quests."],
-      "tipText", true)
-    GameTooltip:Show()
-  end
-  all.onLeave = function() GameTooltip:Hide() end
-  row.all, row.allPill = all, pill
   row:SetScript("OnClick", function(self)
     if Book.search and Book.search:Active() then Book.search:Clear() end
     Book.chapter = self.ck
@@ -479,7 +447,6 @@ function Book.RefreshSide()
     row:ClearAllPoints()
     row:SetPoint("TOPLEFT", 0, -y)
     row.ck, row.label, row.c, row.here = it.ck, it.label, it.count, it.here
-    row.all.ck, row.all.label = it.ck, it.label
     local h = ROW_H
     if it.new then
       h = 22
@@ -489,7 +456,6 @@ function Book.RefreshSide()
       row.count:SetTextColor(T.rgba(T.color.newMarkText))
       row.newBg:SetWidth(math.max(16, math.ceil((T.TextWidth(row.count) or 8) + 10)))
       row.newBg:Show()
-      row.allPill:Hide()
       row.meter:Hide()
       row.gilt:Hide()
       row.wax:Hide()
@@ -501,7 +467,6 @@ function Book.RefreshSide()
       row.count:SetText(n.found .. "/" .. n.total)
       row.count:SetTextColor(T.rgba(NOTE))
       row.newBg:Hide()
-      row.allPill:Show()
       row.meter:Show()
       row.meter:SetProgress(n.found, n.total)
       row.gilt:SetShown(seals and seals.places.done or false)
@@ -769,7 +734,9 @@ local function footHint(key)
     foot:SetText(esc(e.n) .. ns.Lang.Dotted(" · ") .. esc(ns.Page.KindLabel(e.t)))
     Book.NameInk(foot, key, INK)
   else
-    foot:SetText(L["Hover a page for its name. A blank page is still out there."])
+    -- (a storyline's list has no blank pages)
+    local storyline = Book.extra[Book.chapter] or Book.chapter == Book.NONE
+    foot:SetText(storyline and "" or L["Hover a page for its name. A blank page is still out there."])
     Book.NameInk(foot, nil, NOTE)
   end
 end
@@ -1042,11 +1009,11 @@ local function storyRow(i)
   r.tile:EnableMouse(false)
   r.text:ClearAllPoints()
   r.text:SetPoint("TOPLEFT", 44, -5)
-  r.text:SetPoint("RIGHT", -66, 0)
+  r.text:SetPoint("RIGHT", -54, 0)
   if r.text.SetWordWrap then r.text:SetWordWrap(false) end
   r.sub = ink(r:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall"), NOTE)
   r.sub:SetPoint("TOPLEFT", 44, -23)
-  r.sub:SetPoint("RIGHT", -66, 0)
+  r.sub:SetPoint("RIGHT", -54, 0)
   if r.sub.SetWordWrap then r.sub:SetWordWrap(false) end
   -- Listen and the playlist: the row's pill, as on Here (one control wherever a story can be heard, 11/4).
   r.pill = UI.RowPill(r)
@@ -1115,7 +1082,11 @@ local function refreshStoryline(ck)
     r.text:SetText(T.code.inkAccent .. esc(e.n) .. "|r")
     local z = e.z and zones()[e.z]
     local state = questState(k, done, inLog)
-    r.sub:SetText(table.concat({ z and esc(z.n) or nil, state }, ns.Lang.Dotted(" · ")))
+    -- Either can be missing: a quest in the "general" zone has no zone name, and one not yet taken has no state.
+    local parts = {}
+    if z then parts[#parts + 1] = esc(z.n) end
+    if state then parts[#parts + 1] = state end
+    r.sub:SetText(table.concat(parts, ns.Lang.Dotted(" · ")))
     ns.UI.SetRowPill(r.pill, k, nil, nil, ns.UI.StoryAudio(k) and true or false, k)
     r:Show()
     y = y + 46

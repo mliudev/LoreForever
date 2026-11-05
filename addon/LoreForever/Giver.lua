@@ -21,7 +21,8 @@ end
 
 -- "Creature-0-4372-0-12-197-0000123456" -> "npc", 197; a game object -> "object", id. Players, pets and items -> nil.
 function Giver.ParseGUID(guid)
-  if type(guid) ~= "string" then return nil end
+  local usable = ns.Context and ns.Context.Usable
+  if type(guid) ~= "string" or (usable and not usable(guid)) then return nil end   -- a hidden one too (LOR-1170)
   local parts = {}
   for p in guid:gmatch("[^-]+") do parts[#parts + 1] = p end
   local kind, id = KINDS[parts[1]], tonumber(parts[6])

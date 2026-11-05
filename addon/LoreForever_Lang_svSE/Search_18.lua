@@ -2,6 +2,8 @@
 -- Sources: data/i18n/svSE. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_svSE")
 local Po = P.search.post
+Po["tormentlämna"] = "IkJCIkbC"
+Po["tormentor"] = "Il1B"
 Po["tormentstarta"] = "IkgC"
 Po["tormentstyggelse"] = "IkNBIkWB"
 Po["tormentunending"] = "IkDBIkKBIkNBIkWBIkXCIkYBIkbBIkfBIkgBIkpB"
@@ -12000,5 +12002,3 @@ Po["vaktarmorshan"] = "J4cC"
 Po["vaktarmudsnout"] = "GBuE"
 Po["vaktarmuren"] = "Jk8C"
 Po["vaktarnorth"] = "J7KCJ7NC"
-Po["vaktarodöda"] = "J0AC"
-Po["vaktarområdet"] = "JP7CJj/C"

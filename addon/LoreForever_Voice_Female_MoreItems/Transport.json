@@ -3877,9 +3877,9 @@
     "item:defias-tower-key": {
       "1": [
         {
-          "duration": 35.55265306122449,
-          "file": "Audio/Transport/full_item_defias-tower-key-bad4761661229168b95a/1-0000.mp3",
-          "sha256": "6e5ab48cf29502b6f20c681d504b3615b35dfd09212c7130f5822cb72f3e3768",
+          "duration": 34.220408163265304,
+          "file": "Audio/Transport/full_item_defias-tower-key-23ddb2b85eef4f9b160d/1-0000.mp3",
+          "sha256": "2c655d5a9f42bfa580b375366abb8a731ba262fe7967940606535ad568f8c065",
           "start": 0
         }
       ],
@@ -3891,12 +3891,12 @@
         ]
       },
       "fullHash": "3e197d",
-      "generation": "49e549f9f8220c70af8e",
+      "generation": "2d34950c18fc0a053d27",
       "hash": "3e197d",
       "source": {
-        "duration": 35.578776,
+        "duration": 34.246531,
         "file": null,
-        "sha256": "bad4761661229168b95a3d3ad9796391bfa2a5e1c189719b77ef469697031a38"
+        "sha256": "23ddb2b85eef4f9b160d5fba23c54dee5a23c7e79a17401814668a7bb59fbbd8"
       },
       "text": "Defias Tower Key. In Westfall, the Defias Tower Key marks a quiet passage past Klaven's Tower's sentries. Stormwind operatives need it as proof that an infiltrator slipped by unseen. Klaven's Tower is a Defias Brotherhood stronghold on the Westfall coast. Recent shipments from Duskwood brought malformed Defias drones to guard it. The drones are undead and covered in spikes.\n\nSI:7 watchers direct field agents to pick the sentries' pockets instead of fighting them. That way, no alarm sounds as the tower's defenses are breached."
     },
@@ -9649,9 +9649,9 @@
     "item:klaven-mortwake-s-journal": {
       "1": [
         {
-          "duration": 34.142040816326535,
-          "file": "Audio/Transport/full_item_klaven-mortwake-s-journal-16aaf488b8888d338ea6/1-0000.mp3",
-          "sha256": "2c618ced6a4863ce77b6a411f8e985c648c48e6fb2d7ad2b93affbef26f61866",
+          "duration": 32.36571428571429,
+          "file": "Audio/Transport/full_item_klaven-mortwake-s-journal-04a9a004d18bfb2ddb45/1-0000.mp3",
+          "sha256": "c0e9dc0d6bdc2d728e8ee43b3c5218a4ae900fadd236ddb18312d4922389afcc",
           "start": 0
         }
       ],
@@ -9663,12 +9663,12 @@
         ]
       },
       "fullHash": "6936ae",
-      "generation": "49c8b10105293c290bae",
+      "generation": "e0d11f2e602a10872d7a",
       "hash": "6936ae",
       "source": {
-        "duration": 34.168163,
+        "duration": 32.391837,
         "file": null,
-        "sha256": "16aaf488b8888d338ea676c263a841c2ed37b2695c779e71cf59934e3193f785"
+        "sha256": "04a9a004d18bfb2ddb453bf2643c66c483352f7437f9aa8a85f3208a5f865518"
       },
       "text": "Klaven Mortwake's Journal. SI:7 operatives recover Klaven Mortwake's Journal from the Defias tower. It records the Brotherhood's search for a way to raise the dead. Master Mathias Shaw leads Stormwind's intelligence service, SI:7. He sought Mortwake's journal to trace the Brotherhood's wider alliances. The notes confirm experiments in reanimation and illicit support linking Duskwood, the Venture Company, and the Defias. For rogues serving the crown, recovering the research is a step toward mastering poisons."
     },
@@ -10087,6 +10087,32 @@
         "sha256": "17796e4dd16e12340afef3c441f3eeaab17c3fa47ba6e68368ab0e6b5916e6eb"
       },
       "text": "Letter to Delgren. Balthule Shadowstrike sends word from the Tower of Althalaxx in northern Darkshore. His letter warns Delgren the Purifier of the Dark Strand cult's demonic work and must reach Maestra's Post in Ashenvale. At the Tower of Althalaxx ruins, Balthule Shadowstrike watches the Dark Strand cult gather. He cannot destroy them alone, so he writes to Delgren the Purifier, his tutor in the Holy Light, and asks for aid. Their foul rites threaten more than Darkshore's coast. The letter must travel south through Darkshore into western Ashenvale. There, Delgren works with night elf Sentinels against demonic and undead threats."
+    },
+    "item:letter-to-ello": {
+      "1": [
+        {
+          "duration": 37.25061224489796,
+          "file": "Audio/Transport/full_item_letter-to-ello-06748d012f3f3f333b00/1-0000.mp3",
+          "sha256": "f5fafddc7815282405c460a612bc88e6d2245ed1405733eea67a555d78ca1c37",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "517f71",
+      "generation": "410fa0db3cb24d5037c0",
+      "hash": "517f71",
+      "source": {
+        "duration": 37.276735,
+        "file": null,
+        "sha256": "06748d012f3f3f333b007eb0ec36db29d0ee040c47705f767ee876d89db95f2d"
+      },
+      "text": "Letter to Ello. Abercrombie sends a sealed letter to Mayor Ello Ebonlocke in Darkshire. The hermit lives in a shack just north of Raven Hill Cemetery, claims an old friendship, and writes the missive in an archaic script. After you help Abercrombie with tasks around Duskwood, the old recluse gives you a note for Mayor Ello Ebonlocke. He says the mayor is an old friend who will celebrate what you have accomplished. When Ello breaks the seal, he has no recollection of anyone named Abercrombie and cannot read a single phrase of the archaic script. He sends the note to Darkshire scholar Sirra Von'Indi for translation."
     },
     "item:letter-to-jin-zil": {
       "1": [
@@ -11075,6 +11101,32 @@
         "sha256": "c3e73e0483d9532bd08e3c479f7d484bbc07549b0179042531a6f08a759431cc"
       },
       "text": "Mountain Lion Blood. In Hillsbrad and Alterac, Apothecary Lydon seeks Mountain Lion Blood. At Tarren Mill, he needs fresh blood for the Royal Apothecary Society’s Elixir of Pain. Mountain lions hunt across the highlands and foothills of Hillsbrad and Alterac. Hunters prize their pelts and claws, while Forsaken of the Royal Apothecary Society seek the blood in their veins. Apothecary Lydon in Tarren Mill believes fresh mountain lion blood can form the base of a potent brew. He means it to bring misery to the living. Apothecary Lydon’s work in Tarren Mill supports the Royal Apothecary Society’s effort to perfect the Forsaken’s New Plague. He gathers blood from vigorous wild beasts to refine a concoction called the Elixir of Pain. His experiments test how local organic compounds can be turned against the enemies of the Dark Lady."
+    },
+    "item:muddy-journal-pages": {
+      "1": [
+        {
+          "duration": 14.759183673469389,
+          "file": "Audio/Transport/full_item_muddy-journal-pages-a06fac8b1e83035df54a/1-0000.mp3",
+          "sha256": "115bc8f7f829419a3bb5c55f1667c8ce5228235a9506c19f0613cedf866c5a65",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "4bab43",
+      "generation": "e30401687d519ad1c64c",
+      "hash": "4bab43",
+      "source": {
+        "duration": 14.785306,
+        "file": null,
+        "sha256": "a06fac8b1e83035df54a3cbb12549908d7eb2890034f334a775f4544d4992eb3"
+      },
+      "text": "Muddy Journal Pages. Muddy Journal Pages were recovered from a murder scene in Duskwood years ago. Weathered and stained with soil, they remain with Tavernkeep Smitts, who kept them without proof of authorship as evidence in an unresolved local investigation."
     },
     "item:mudsnout-blossom": {
       "1": [
@@ -17342,6 +17394,32 @@
       },
       "text": "Toxic Fogger. In Stonetalon, the Toxic Fogger is bound for Venture Company air routes. The Forsaken Royal Apothecary Society filled it with lethal poison to contaminate the company’s flights. Apothecary Zamah sends the Toxic Fogger against the Venture Company's mining work. Apothecary Lydon brewed its toxin in Tarren Mill, and Zamah sent it from Thunder Bluff. She suspects the goblins carry messages and light cargo between Stonetalon and their headquarters by courier flying machine.\n\nZamah plans to release the poison where those machines land and refuel. The Forsaken mean to strike the company's supply route instead of meeting its mercenary crews in drawn-out skirmishes."
     },
+    "item:translated-letter": {
+      "1": [
+        {
+          "duration": 9.95265306122449,
+          "file": "Audio/Transport/full_item_translated-letter-cc05615ed52377258877/1-0000.mp3",
+          "sha256": "7c44441ccb7e4c2b17e569f23d0d73249608ebbf66f7bf8ab929952c34e1e75c",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "ca7f1c",
+      "generation": "e27653be0eb7a97e012a",
+      "hash": "ca7f1c",
+      "source": {
+        "duration": 9.978776,
+        "file": null,
+        "sha256": "cc05615ed523772588774dcf21ce5b980cad209e2c472cf8dc3eb71994a95709"
+      },
+      "text": "Translated Letter. In Darkshire, Sirra Von'Indi translates Abercrombie's letter for Mayor Ello Ebonlocke. The message sheds light on the hermit's dealings with the town."
+    },
     "item:treshala-s-pendant": {
       "1": [
         {
@@ -19596,6 +19674,9 @@
       1182,
       1379
     ],
+    "115bc8f7f829419a3bb5c55f1667c8ce5228235a9506c19f0613cedf866c5a65": [
+      190
+    ],
     "121918448965091e578e78e74890cc4a8ed1b69d4fa1ebac2279a3467deb5ac9": [
       236,
       452,
@@ -19835,6 +19916,10 @@
       682,
       1008,
       1217
+    ],
+    "1ac7210053ea3f7d8c1229d804077701a6f055e1a535c251514325baa467bf19": [
+      478,
+      1091
     ],
     "1ad3d1c0727c64b6655e89210216fc7930c558c1002f8aa19e44f626f20650a1": [
       433,
@@ -20182,10 +20267,6 @@
       869,
       1014
     ],
-    "27fa2e45cef7f7f00495e4c4da83272c9481dc42d163c41eb9d17a68fac0c4e8": [
-      816,
-      1047
-    ],
     "282eec23818157fcb23f26ae6af9df0953713e80eebcb5e5af1b41de4ca317a4": [
       191,
       510,
@@ -20290,12 +20371,12 @@
       301,
       464
     ],
-    "2c618ced6a4863ce77b6a411f8e985c648c48e6fb2d7ad2b93affbef26f61866": [
-      202,
-      359,
-      587,
-      792,
-      995
+    "2c655d5a9f42bfa580b375366abb8a731ba262fe7967940606535ad568f8c065": [
+      232,
+      442,
+      626,
+      809,
+      1156
     ],
     "2c75c09c0615d0bc527d3e97e7b803feb335ddc13db52a60cebc733e7875f53a": [
       242,
@@ -20420,6 +20501,10 @@
       1604,
       1827,
       2093
+    ],
+    "3112f3036fcf3843483846601a2b5d628d13b48956275cd876a963a608f05863": [
+      257,
+      729
     ],
     "3145fc915834ac0bccc136b976fc82ceb2b4a1e88d650d4a0f0b5eb52a00c23f": [
       201,
@@ -21756,13 +21841,6 @@
       1133,
       1531
     ],
-    "6e5ab48cf29502b6f20c681d504b3615b35dfd09212c7130f5822cb72f3e3768": [
-      259,
-      477,
-      652,
-      834,
-      1195
-    ],
     "6f2b35c1c98e28cd476ef0afffb351c5332c81ec7777d2822c0b166ec94faac1": [
       198,
       443,
@@ -22149,6 +22227,9 @@
       288,
       620,
       797
+    ],
+    "7f8c1644f4de523ec9231d0e17e12dc80970de3bc0c737e57eea1ebbc123ebd8": [
+      514
     ],
     "7fcf07a0c1131145ea8ffe33054d2dcf001fcd210602ec40c347a2415760d0d5": [
       678
@@ -22681,6 +22762,9 @@
       459,
       668,
       869
+    ],
+    "975a09dbf7317972cc133ff766d50bfba50f025a5e8cf1848cf03259ab1b638a": [
+      515
     ],
     "97ffdb206e580bcd26ec93d0f05a05a90425413954bf845a96a26689fcaa8971": [
       308,
@@ -23575,6 +23659,13 @@
       1281,
       1581,
       1790
+    ],
+    "c0e9dc0d6bdc2d728e8ee43b3c5218a4ae900fadd236ddb18312d4922389afcc": [
+      214,
+      366,
+      586,
+      750,
+      1024
     ],
     "c11fbe8a31994f2ae367fced12852f1d87cd68090f6000f7814c6bcb6bf9c82a": [
       323,
@@ -24731,6 +24822,13 @@
       822,
       963
     ],
+    "f5fafddc7815282405c460a612bc88e6d2245ed1405733eea67a555d78ca1c37": [
+      186,
+      510,
+      793,
+      952,
+      1249
+    ],
     "f69206b60f30d40e36490e37fb784a73a3e3bd36ac0ee2d5107b3be56fea9f7e": [
       461,
       699
@@ -25405,8 +25503,8 @@
     "2c4fa99beb35c1a40f615a64a78fb1a9586be067148db4c90bf66bbc1605a9f1": {
       "301": 1
     },
-    "2c618ced6a4863ce77b6a411f8e985c648c48e6fb2d7ad2b93affbef26f61866": {
-      "359": 2
+    "2c655d5a9f42bfa580b375366abb8a731ba262fe7967940606535ad568f8c065": {
+      "442": 1
     },
     "2c75c09c0615d0bc527d3e97e7b803feb335ddc13db52a60cebc733e7875f53a": {
       "242": 1
@@ -25992,9 +26090,6 @@
     },
     "6dbe66827be3f9812d86738c491eccb6e881baf4017a0e37ece2be984a10a4f7": {
       "404": 1
-    },
-    "6e5ab48cf29502b6f20c681d504b3615b35dfd09212c7130f5822cb72f3e3768": {
-      "477": 1
     },
     "6f2b35c1c98e28cd476ef0afffb351c5332c81ec7777d2822c0b166ec94faac1": {
       "443": 1
@@ -26729,6 +26824,9 @@
       "1281": 2,
       "379": 1
     },
+    "c0e9dc0d6bdc2d728e8ee43b3c5218a4ae900fadd236ddb18312d4922389afcc": {
+      "366": 2
+    },
     "c11fbe8a31994f2ae367fced12852f1d87cd68090f6000f7814c6bcb6bf9c82a": {
       "323": 1
     },
@@ -27186,6 +27284,9 @@
     },
     "f4b62a199d716aa41032f48d05b6cfbc4316e9562d1f534c8a4430e8e625af70": {
       "411": 1
+    },
+    "f5fafddc7815282405c460a612bc88e6d2245ed1405733eea67a555d78ca1c37": {
+      "510": 1
     },
     "f6b151a5c7c2e8fb3f9c17b408acbca4e2978823435c9e5f69c3c42d9763145f": {
       "443": 1

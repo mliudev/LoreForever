@@ -2,6 +2,7 @@
 -- Sources: data/i18n/ptBR. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ptBR")
 local Po = P.search.post
+Po["permitebruxos"] = "FKVCHT+CK/MC"
 Po["permitecavernas"] = "KAPC"
 Po["permitem"] = "AMDBAOxBAUKBAhwBAiUBAqNBA6uBBDsBBEGBBELBDBeBDG/BDNIBDU9BDawBDcBBD+KBETVBEcVBEgsBE1GBFFlBF1SBF8UBGMBBGW3BGkbBGuhBHOfBHRmBHRrBHToBHoiBIXBBIYBCIbHBIbZBIdyBIrTBJNXBJbTBKDxBKFWBKi8BKk9BKpABKvWBKvbBK3cBK75BLIiBLKBBLReC"
 Po["permitemoutros"] = "LReC"
@@ -12001,4 +12002,3 @@ Po["realmentecurar"] = "Ak7CA+SC"
 Po["realmentedeixam"] = "AqvC"
 Po["realmentederrotou"] = "GMgC"
 Po["realmentedevolvendo"] = "IaDC"
-Po["realmentedispensar"] = "BIxC"

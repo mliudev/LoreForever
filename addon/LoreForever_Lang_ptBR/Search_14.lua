@@ -2,6 +2,10 @@
 -- Sources: data/i18n/ptBR. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_ptBR")
 local Po = P.search.post
+Po["senjinmontarias"] = "Ig/B"
+Po["senjinmotivo"] = "DFFC"
+Po["senjinnadar"] = "KKtC"
+Po["senjinordens"] = "HQNC"
 Po["senjinorgulho"] = "BUaC"
 Po["senjinpassado"] = "KKvC"
 Po["senjinpele"] = "AUHBHRiB"
@@ -303,7 +307,7 @@ Po["separada"] = "ABoBA4pBBA7BBS/BCg2BChfBC5KBDlxBDqLBEXHBEaOBEatBErRBE3IBE3QBF0
 Po["separadamente"] = "BYKBJlUB"
 Po["separado"] = "AMcBBOmBBjVBCdcBCdgBCdjBCoeBCoxBDDNBDVfBDXcCDjXBEMyBEPOBEPtBEfNBEniBEzrBE0JBE0KBF9kBF+YBGAeBGAjBGBRBGQCBGVgBHYuBH6zBIg9BIjIBI9PBI9VBJE/BJM5BJOgBJVBBJWWBJWYBJcCBJcEBJfBBJr2BKQ9BKyTBK0EBK6MBK8GBK/JBLPvBLTtB"
 Po["separafuga"] = "I9jB"
-Po["separam"] = "DXgBEMfBEvABFcXBFjQBF62BGgCBHRfBHRwBHgIBJYpBJr0BJ3JBJ4NBKNjBKNnBKQiBKafBKnBBKvhB"
+Po["separam"] = "DXgBEMfBEvABFcXBFjQBF62BGgCBHRfBHRwBHgIBHu6BJYpBJr0BJ3JBJ4NBKNjBKNnBKQiBKafBKnBBKvhB"
 Po["separando"] = "E0KBFdIBF9pBHsZBJK3BJWUBJ7TBKRIBK5fB"
 Po["separar"] = "ABFBABKBASmBBFGBBFLBBFMBBWoBDgGBECbBEVHBEzqBE0WBFdHBFyZCF5xBF6yBHV7BIELBIEMBIjoBJWXBJWZBJmjB"
 Po["separaram"] = "Bt4BB66BDVhBEziBIEUBJUSBJxVBKq7BKq8BKtzBKwRBK6EBLMBBLMfBLTrB"
@@ -11998,7 +12002,3 @@ Po["taurenspermitiram"] = "HDcC"
 Po["taurenspirit"] = "B4GB"
 Po["taurensplanícies"] = "JjoC"
 Po["taurenspodem"] = "CXlCEE+CGcmCGfGCKupCK9TCK9VE"
-Po["taurenspoço"] = "KnxB"
-Po["taurensprecisam"] = "Ab4C"
-Po["taurensprotegem"] = "HU8C"
-Po["taurenspurificação"] = "HC2B"

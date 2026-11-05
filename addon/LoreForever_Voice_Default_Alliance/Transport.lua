@@ -2438,7 +2438,7 @@ P.transport["subzone:si-7-stormwind-city"] = {
   fullHash = "0df6d1",
   text = "SI:7 (Stormwind City). In Old Town, SI:7 watches for threats to Stormwind from a fortified stone manor. Master Mathias Shaw directs the kingdom’s intelligence service from behind its heavy doors. In Old Town, SI:7 works from a fortified stone manor. From the street, it could pass for an ordinary home or military barracks. Master Mathias Shaw directs Stormwind Intelligence, Section 7. Its agents gather intelligence, watch suspected threats and carry out secret operations to guard the kingdom from subversion.\n\nThe city guard patrols Stormwind’s streets, while the Royal Guard protects Stormwind Keep. SI:7 trains handlers and sends covert agents against foreign enemies, saboteurs and unrest within the kingdom.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_si-7-stormwind-city-2d54d11f2ebd179c96fd/1-0000.mp3", duration = 46.3412245, start = 0},
+    {file = "Audio/Transport/full_subzone_si-7-stormwind-city-26faeb4c3d51a03caaa1/1-0000.mp3", duration = 44.8783673, start = 0},
   },
 }
 P.transport["subzone:silver-stream-mine"] = {

@@ -646,7 +646,7 @@ function Journey.OfferPictureKeyHint()
       and ns.BindingsLoaded()) then return end
   if key and settings().pictureKeyHint ~= key then
     settings().pictureKeyHint = key
-    say(string.format(L["Press %s or Ctrl-click the minimap book to take a journey picture. Change the key in Key Bindings > AddOns."], esc(key)))
+    say(string.format(L["Press %s or Ctrl-click the minimap book to take a journey picture. Change the key in Lore Forever's Options."], esc(key)))
   end
 end
 
@@ -1207,14 +1207,7 @@ do
 
   -- The game's quest templates name you $N, your class $C and your race $R (Capture.Placeholders; 0.7.0 wrote <name>):
   -- shown here as this character's. Only ever on screen.
-  local function personal(text)
-    local me = ns.Context.Character()
-    local fill = { N = me.name, C = me.className, R = me.raceName }
-    return (text:gsub("<name>", "$N"):gsub("%$([NnCcRr])", function(c)
-      local v = fill[c:upper()]
-      return usable(v) and v or nil
-    end))
-  end
+  local function personal(text) return ns.Capture.Personal(text) end
 
   -- What the player read of quest id, as the game showed it and Capture.lua kept it: { { part, label, text }, ... } in
   -- reading order (Description, Objectives, Progress, Completion), with the character's name, class and race put back;
@@ -1491,7 +1484,7 @@ do
     -- The filters: chips, each with its colour's dot (All has none).
     Journey.chips = chipRow(view, 10, -66, FILTERS, true)
 
-    -- The footer: when it was saved, then Copy my journey record (JourneyRecord.lua, a link) and Update my journey, each as
+    -- The footer: when it was saved, then Copy my journey record (JourneyRecord.lua) and Update my journey, each as
     -- wide as its label, clear of the panel's resize grip (it sits over this corner and takes clicks 28 in from it).
     local sync = ns.Theme.SkinButton(CreateFrame("Button", "LoreForeverJourneySync", view, "UIPanelButtonTemplate"), "paper")
     sync:SetSize(150, 22)
@@ -1822,16 +1815,23 @@ do
   end
 
   -- What a click opens, by name, and how. qid: the quest it's about (Journey.QuestOf), which Shift-click queues.
-  local function linkLines(key, qid, moment)
+  -- `place`: the key is only where it happened (a first kill has no page of its own), so the line says where it goes
+  -- (Mike, 11/4: "That's not obvious to me why").
+  local function linkLines(key, qid, moment, place)
     -- A screenshot's click shows the screenshot (Journey.OpenMoment).
     if moment and Journey.Picture(moment.ev) then
       T.Tip(L["Click to see it larger."], "tipDim", true)
       return
     end
     local entry = key and ns.DB and ns.DB.entries[key]
+    local queue = (entry or qid) and (qid and ns.UI.CanQueueQuest(qid) or (not qid and ns.UI.CanQueue(key)))
+    if place and entry then
+      T.Tip(string.format(queue and L["Click to read about %s. Shift-click adds it to your playlist."]
+        or L["Click to read about %s."], esc(entry.n)), "tipDim", true)
+      return
+    end
     if entry then GameTooltip:AddLine(T.code.link .. esc(entry.n) .. "|r") end
     if not (entry or qid) then return end
-    local queue = qid and ns.UI.CanQueueQuest(qid) or (not qid and ns.UI.CanQueue(key))
     local how = queue and L["Click to open. Shift-click adds it to your playlist."]
       or (key and key:find("^npc:") and L["Click to open their story"]) or L["Click to open its story"]
     T.Tip(how, "tipDim", true)
@@ -1843,7 +1843,7 @@ do
     GameTooltip:SetOwner(owner, "ANCHOR_RIGHT")
     if #list == 1 then
       momentLines(list[1], true)
-      linkLines(list[1].key or list[1].place, Journey.QuestOf(list[1]), list[1])
+      linkLines(list[1].key or list[1].place, Journey.QuestOf(list[1]), list[1], not list[1].key)
     else
       T.Tip(string.format(L["%d moments here"], #list), "gold")
       for i = 1, math.min(6, #list) do
@@ -1853,7 +1853,7 @@ do
       end
       if #list > 6 then T.Tip(string.format(L["%d more"], #list - 6), "tipDim") end
       if canZoom then T.Tip(L["Click to zoom in"], "tipDim")
-      else linkLines(list[1].key or list[1].place, Journey.QuestOf(list[1]), list[1]) end
+      else linkLines(list[1].key or list[1].place, Journey.QuestOf(list[1]), list[1], not list[1].key) end
     end
     GameTooltip:Show()
   end
@@ -1863,7 +1863,7 @@ do
     if not (r.moment or r.quest or (key and ns.DB.entries[key])) then return end
     GameTooltip:SetOwner(r, "ANCHOR_LEFT")
     if r.moment then momentLines(r.moment, true) else GameTooltip:AddLine(esc(r.title or "")) end
-    linkLines(key, Journey.QuestOf(r), r.moment)
+    linkLines(key, Journey.QuestOf(r), r.moment, not r.key)
     GameTooltip:Show()
   end
 
@@ -1927,12 +1927,12 @@ do
     link.text:SetPoint("LEFT", 8, 0)
     link.text:SetPoint("RIGHT", -20, 0)
     if link.text.SetWordWrap then link.text:SetWordWrap(false) end
-    local arrow = T.OpenMark(link)
+    local arrow = T.OpenMark(link, "inkAccent")
     arrow:SetPoint("RIGHT", -7, 1)
     link:SetScript("OnClick", function(self) Journey.OpenEntry(self.moment, IsShiftKeyDown and IsShiftKeyDown()) end)
     link:SetScript("OnEnter", function(self)
       GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-      linkLines(self.key, Journey.QuestOf(self.moment))
+      linkLines(self.key, Journey.QuestOf(self.moment), nil, not self.moment.key)
       GameTooltip:Show()
     end)
     link:SetScript("OnLeave", function() GameTooltip:Hide() end)
@@ -1979,7 +1979,7 @@ do
     c.link:SetPoint("TOPLEFT", rel and c.rel or c.when, "BOTTOMLEFT", -2, -6)
     c.link:SetShown(entry ~= nil)
     if entry then
-      c.link.text:SetText(T.code.inkAccent .. esc(entry.n) .. "|r")
+      c.link.text:SetText(T.code.inkAccent .. string.format(L["Read about %s"], esc(entry.n)) .. "|r")
       local w = math.floor((T.TextWidth(c.link.text) or 80) + 30)
       c.link:SetWidth(math.max(60, room and math.min(w, room - picW) or w))
       c.link.moment, c.link.key = m, key
@@ -2050,8 +2050,9 @@ do
   -- The picture book: the companion makes game textures of your newest pictures (the picture key's, and screenshots it
   -- matched to a shot moment), in LoreForever_Willo\Pictures, and lists them per character in LoreForeverJourneyData:
   -- pictures = { { t, file, w, h, cap }, ... }. t is the shot moment's t (a picture is looked up by it, exactly); file is
-  -- "<id>.tga"; w and h are the picture's size in pixels, at the top left of a 512x256 canvas (black around it); cap is
-  -- the companion's caption, when it wrote one. A shot moment with a picture is a "Picture in ...", with the picture on
+  -- "<id>.tga"; w and h are the picture's size at the top left of a 512x256 canvas (black around it); scale is how many
+  -- of the texture's real pixels each of those is (2: a 1024x512 texture; a Willo before it and older pictures say 1 or
+  -- nothing); cap is the companion's caption, when it wrote one. A shot moment with a picture is a "Picture in ...", with the picture on
   -- the card under the map; a click opens it in the picture viewer, a window over the panel with where, when and at
   -- what level, and the caption under it. Esc closes the viewer and only it (like the large map). A picture the game
   -- won't load changes nothing: the moment stays as it was.
@@ -2082,7 +2083,7 @@ do
           -- A plain file name (no folders) and a size on the canvas.
           if pt and w and h and w >= 1 and h >= 1 and type(p.file) == "string" and p.file:match("^[%w_%-%.]+$") then
             byT[pt] = { t = pt, file = p.file, w = math.min(w, CANVAS_W), h = math.min(h, CANVAS_H),
-              cap = usable(p.cap) and p.cap or nil }
+              scale = tonumber(p.scale) == 2 and 2 or 1, cap = usable(p.cap) and p.cap or nil }
           end
         end
       end
@@ -2130,8 +2131,9 @@ do
       return win
     end
 
-    -- Open the picture of moment m (a moment, or a shot event) in the viewer, as large as the screen allows, up to twice
-    -- its size. Nothing happens without a picture, or when the game won't load it.
+    -- Open the picture of moment m (a moment, or a shot event) in the viewer, as large as the screen allows but never
+    -- larger than its real pixels: one of the texture's to one of the screen's, or it looks low res (Mike, 11/4). Nothing
+    -- happens without a picture, or when the game won't load it.
     function Journey.ShowPicture(m)
       local e = type(m) == "table" and (type(m.ev) == "table" and m.ev or m) or nil
       local p = Journey.Picture(e)
@@ -2139,7 +2141,10 @@ do
       local win = viewer()
       if not Journey.SetPicture(win.pic, p) then win:Hide(); return false end
       local sw, sh = tonumber(UIParent:GetWidth()) or 1024, tonumber(UIParent:GetHeight()) or 768
-      local s = math.max(0.25, math.min(2, (sw - 120) / p.w, (sh - 240) / p.h))
+      local _, screenH
+      if GetPhysicalScreenSize then _, screenH = GetPhysicalScreenSize() end
+      local real = p.scale * sh / (tonumber(screenH) or sh)   -- (the screen's pixels are smaller than the UI's units)
+      local s = math.max(0.25, math.min(real, (sw - 120) / p.w, (sh - 240) / p.h))
       local w, h = math.floor(p.w * s), math.floor(p.h * s)
       win.pic:SetSize(w, h)
       local t, lv = tonumber(e.t), tonumber(e.lv)
@@ -3592,6 +3597,10 @@ local handlers = {
     if ns.Stock then pcall(ns.Stock.Take, char, true) end   -- what Willo's goals count, as the game saves (Stock.lua)
     if ns.Screen then pcall(ns.Screen.Take, char) end   -- where the frames sit, what the bars hold (Screen.lua, LOR-802)
     add("logout")
+    -- Where they stand as the game saves, for Willo's place reminders (core._where_now, LOR-1094). Beside the events, not
+    -- one of them: back in a place they know, nothing else says they're there, and an event would be read as a moment.
+    local z, s = here()
+    if char and usable(z) then char.lastPlace = { z = z, s = s, t = time() } end
     countOnline()
     pcall(countStory)
     if ns.HistoryArchive then ns.HistoryArchive.Save() end

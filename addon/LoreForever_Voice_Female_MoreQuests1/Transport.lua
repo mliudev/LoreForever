@@ -1318,7 +1318,7 @@ P.transport["quest:2206"] = {
   fullHash = "294a14",
   text = "Snatch and Grab. At Jerod's Landing, Master Mathias Shaw sends agents to learn how the Defias move their supplies. The Brotherhood uses the river dock to ship goods in secret. Master Mathias Shaw tests those who seek a place among Stormwind's covert agents. He asks for finesse and stealth, not brute force. SI:7 agents quietly take down key figures and recover important papers. They do this without drawing the realm into open scandal. Each new operative must prove they can work unseen. Jerod's Landing sits on the river in southern Elwynn, south of Goldshire and just east of the Maclure Vineyards. The Defias Brotherhood seized the once-quiet dock and turned it into an illicit route. Arms, supplies, and contraband cross the water from Redridge toward Westfall. Royal road patrols cannot reach them there. Master Mathias Shaw warns agents that capture, compromise, or death leaves them without the Crown's support. Stormwind and its spymasters will deny they ever existed. The Defias Dockmaster's schedule gives SI:7 proof of the Brotherhood's supply lines. Recovering it keeps Stormwind's official involvement hidden.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2206-d0347ac82ec0fa7738c9/1-0000.mp3", duration = 74.8146939, start = 0},
+    {file = "Audio/Transport/full_quest_2206-7332e131f2333bd5252d/1-0000.mp3", duration = 72.6204082, start = 0},
   },
 }
 P.transport["quest:224"] = {
@@ -1358,7 +1358,7 @@ P.transport["quest:2281"] = {
   fullHash = "0b536d",
   text = "Redridge Rendezvous. In Lakeshire, promising Alliance rogues train for dangerous work under seasoned operatives. SI:7 sends them east from Stormwind’s intelligence headquarters to prepare for the field. Renzik 'The Shiv', SI:7’s second-in-command in Stormwind, knows that untrained rogues rarely survive dangerous operations. Sending raw recruits into hostile territory brings casualties instead of intelligence. So SI:7 sends promising agents east to the Redridge Mountains. There, Lucius trains them among Lakeshire’s docks. Lakeshire gives Lucius good ground for clandestine training. Gnolls and Blackrock orcs threaten the frontier town. Its piers let him test a rogue’s stealth, reflexes, and lockpicking without drawing the notice of townspeople or guards.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2281-215b7479ac55d5194838/1-0000.mp3", duration = 50.8342857, start = 0},
+    {file = "Audio/Transport/full_quest_2281-e9e54faff98b78aae65e/1-0000.mp3", duration = 50.5991837, start = 0},
   },
 }
 P.transport["quest:2300"] = {
@@ -4337,6 +4337,14 @@ P.transport["quest:6462"] = {
     {file = "Audio/Transport/full_quest_6462-f4e5373794d265f504c8/1-0000.mp3", duration = 60.2383673, start = 0},
   },
 }
+P.transport["quest:6482"] = {
+  hash = "7da036",
+  fullHash = "7da036",
+  text = "Freedom to Ruul. In northern Ashenvale, Ruul waits in a cage deep inside Thistlefur Hold. He needs a Horde ally to help him fight through the corrupted furbolg den and reach safety. Ruul Snowhoof, a druid, is trapped in Thistlefur Hold. While exploring the corrupted woods of northern Ashenvale in bear form, he strayed too close to the den. The corrupted furbolgs had lost their ancestral wisdom and, driven by feral paranoia, mistook him for an ordinary beast. They caged and starved him instead of honoring him, draining his magic until he could no longer break free alone.",
+  ["1"] = {
+    {file = "Audio/Transport/full_quest_6482-87cb2184154d5a3a13fd/1-0000.mp3", duration = 37.4334694, start = 0},
+  },
+}
 P.transport["quest:65"] = {
   hash = "b6e036",
   fullHash = "b6e036",
@@ -4479,6 +4487,14 @@ P.transport["quest:7025"] = {
   text = "Treats for Greatfather Winter. In Ironforge, the dwarf playing Greatfather Winter asks you for a holiday treat. Bring five freshly baked gingerbread cookies and ice cold milk, and he thanks you with a festive gift. Smokywood Pastures sponsors the Winter Veil festivities in Ironforge. By the holiday tree in the Commons, a performer sits dressed as Greatfather Winter. For hours, he hears holiday wishes from citizens and eager children. He wears the guise of an immortal figure from ancient titan lore and dwarven myth. After hearing requests for gifts all day, the performer grows hungry. He asks for five freshly baked gingerbread cookies and ice cold milk. The simple meal gives the exhausted festival worker a moment of relief. Your kindness spreads goodwill through Ironforge.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_7025-0e5066ce6a107db5ce7f/1-0000.mp3", duration = 48.1697959, start = 0},
+  },
+}
+P.transport["quest:71"] = {
+  hash = "33b58e",
+  fullHash = "33b58e",
+  text = "Report to Thomas. Guard Thomas waits at the eastern bridge between Goldshire and the Eastvale Logging Camp. The fate of his missing men may show whether the river murlocs threaten more than scouts. With few men to spare at the crossing, Thomas had hoped Malakai and Rolf were only cut off or delayed in the riverlands. Their recovered service medallions leave no such hope. Both guards were slain near the waterways. For months, Stormwind's leaders have treated murlocs as nuisance river-dwellers, focusing instead on bandits and the kingdom's wider borders. Now two armed Stormwind guards have been slaughtered along the inland streams. The medallions show Thomas that Elwynn's eastern frontier faces an active assault, and he calls for a response before the logging routes and settlements are overwhelmed.",
+  ["1"] = {
+    {file = "Audio/Transport/full_quest_71-6c389c9718b199fde953/1-0000.mp3", duration = 48.7183673, start = 0},
   },
 }
 P.transport["quest:730"] = {
@@ -6054,7 +6070,7 @@ P.transport["quest:92751"] = {
   fullHash = "565cfa",
   text = "Detonation at a Distance. In Moonbrook, blasts beneath Westfall have drawn SI:7's attention. Jasper Fel, a Stormwind operative, sends a remote detonator kit to let you handle the work from a safe distance. Jasper Fel and SI:7 watch events across Stormwind's lands, including Westfall's troubled border. When word reaches him of explosive work in Moonbrook, Fel already knows what is happening in the abandoned mining tunnels beneath the countryside.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_92751-688c5eedca371fdb9658/1-0000.mp3", duration = 28.8914286, start = 0},
+    {file = "Audio/Transport/full_quest_92751-e0fa2acab7124f6c8794/1-0000.mp3", duration = 27.5330612, start = 0},
   },
 }
 P.transport["quest:92752"] = {

@@ -93,26 +93,57 @@ end
 
 -- The sidebar lists ------------------------------------------------------------------------------------------------
 
+local function sealText(kind, s)
+  if kind == "places" then
+    return s.done and L["Every place found: sealed"] or string.format(L["Every place found: %d left"], s.total - s.found)
+  end
+  if s.total == 0 then return L["Every story heard: nothing recorded here yet"] end
+  return s.done and L["Every story heard: sealed"] or string.format(L["Every story heard: %d left"], s.total - s.heard)
+end
+
+-- A row's seal says what it is under the mouse (Mike, 11/4: "what does this mean, these two little dots"): `which` is
+-- "places" or "stories", of row.seals (Road.Seals). A click on it is the row's.
+function Road.SealHover(s, row, which)
+  s:EnableMouse(true)
+  if s.SetHitRectInsets then s:SetHitRectInsets(-2, -2, -5, -5) end
+  s:SetScript("OnEnter", function(self)
+    local seals = row.seals
+    if not seals then return end
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    T.Tip(sealText(which, seals[which]), seals[which].done and "tipGood" or "tipText")
+    GameTooltip:Show()
+  end)
+  s:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  s:SetScript("OnMouseUp", function(_, button) row:Click(button) end)
+end
+
 -- A seal at the row's right: gold for every place found, wax for every story heard, bright when earned.
-local function seal(row, anchor, x, kind)
+local function seal(row, anchor, x, kind, which)
   local s = T.Seal(row, kind, SEAL)
   s:SetPoint("RIGHT", anchor, "RIGHT", x, 0)
+  Road.SealHover(s, row, which)
   return s
 end
 
-local function list(view, name, top)
+-- `inline`: its note is the list's own last line (the caller places it), not a line under the list.
+local function list(view, name, top, inline)
   local UI = ns.UI
   local sf = CreateFrame("ScrollFrame", name, view, "UIPanelScrollFrameTemplate")
   sf:SetPoint("TOPLEFT", 10, top)
-  sf:SetPoint("BOTTOMRIGHT", view, "BOTTOMLEFT", UI.SIDE_W - 26, UI.DOCK_H + 46)   -- (ClearHint below sets it from the hint)
+  sf:SetPoint("BOTTOMRIGHT", view, "BOTTOMLEFT", UI.SIDE_W - 26, UI.DOCK_H + (inline and 8 or 46))   -- (ClearHint below sets it from the hint)
   local content = CreateFrame("Frame", nil, sf)
   content:SetSize(UI.SIDE_W - 40, 100)
   sf:SetScrollChild(content)
   T.PaperScroll(sf)
-  local note = T.Ink(view:CreateFontString(nil, "OVERLAY", T.font.small), "inkNote")
-  note:SetPoint("BOTTOMLEFT", 16, UI.DOCK_H + 8)
+  local note = T.Ink((inline and content or view):CreateFontString(nil, "OVERLAY", T.font.small), "inkNote")
   note:SetJustifyH("LEFT")
-  ns.Book.ClearHint(view, sf, note)   -- wraps, and the list ends above it (Book.lua)
+  if inline then
+    if note.SetWordWrap then note:SetWordWrap(true) end
+    note:SetWidth(UI.SIDE_W - 52)
+  else
+    note:SetPoint("BOTTOMLEFT", 16, UI.DOCK_H + 8)
+    ns.Book.ClearHint(view, sf, note)   -- wraps, and the list ends above it (Book.lua)
+  end
   return { content = content, rows = {}, note = note, scroll = sf }
 end
 
@@ -138,7 +169,7 @@ end
 
 -- The Road: "The whole road", then each zone with its two seals.
 function Road.CreateSide(view)
-  local l = list(view, "LoreForeverRoadScroll", -92)
+  local l = list(view, "LoreForeverRoadScroll", -92, true)
   l.note:SetText(L["Each zone has two seals: every place found, and every story heard."])
   Road.side = l
 end
@@ -151,8 +182,8 @@ function Road.RefreshSide()
   local function add(ck, label, seals, isHere)
     n = n + 1
     local r = row(l, n, function(r)
-      r.places = seal(r, r, -22, "wax")   -- (both seals wax: gold is for what's live; their order tells them apart)
-      r.stories = seal(r, r, -4, "wax")
+      r.places = seal(r, r, -22, "wax", "places")   -- (both seals wax: gold is for what's live; their order tells them apart)
+      r.stories = seal(r, r, -4, "wax", "stories")
       r:SetScript("OnClick", function(self)
         Road.Open(self.ck)   -- (turns to the right page itself)
       end)
@@ -189,7 +220,12 @@ function Road.RefreshSide()
   end
   add(nil, L["The whole road"], nil, false)
   for _, c in ipairs(chapters) do add(c.ck, c.label, Road.Seals(c.ck), c.ck == here) end
-  finish(l, n, y)
+  -- What the rings mean, directly under the last zone: where you're looking at them (Design Lead, 11/4).
+  local note = l.note
+  note:ClearAllPoints()
+  note:SetPoint("TOPLEFT", l.content, "TOPLEFT", 6, -(y + 4))
+  note:SetShown(chapters[1] ~= nil)
+  finish(l, n, chapters[1] and y + 4 + (tonumber(note:GetStringHeight()) or 28) + 6 or y)
 end
 
 -- A zone's chapter page ------------------------------------------------------------------------------------------------
@@ -336,14 +372,6 @@ local function chapterLine(d)
     parts[#parts + 1] = d.level and (when .. ", " .. string.format(L["level %d"], d.level)) or when
   end
   return table.concat(parts, ns.Lang.Dotted(" · "))
-end
-
-local function sealText(kind, s)
-  if kind == "places" then
-    return s.done and L["Every place found: sealed"] or string.format(L["Every place found: %d left"], s.total - s.found)
-  end
-  if s.total == 0 then return L["Every story heard: nothing recorded here yet"] end
-  return s.done and L["Every story heard: sealed"] or string.format(L["Every story heard: %d left"], s.total - s.heard)
 end
 
 -- The map's pieces, made when the first chapter with art opens.

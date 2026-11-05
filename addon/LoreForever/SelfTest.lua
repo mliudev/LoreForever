@@ -664,15 +664,17 @@ check("Options", {
     for _, cb in ipairs(p.checks or {}) do
       if ns.Options.DEFAULTS[cb.key] == nil then unknown[#unknown + 1] = cb.key end
       local shown = S()[cb.key]
-      -- The live-info boxes show the setting or Willo's yes (Strip.On, Strip.Always), as Options.lua's OnShow does
-      if cb.key == "liveStrip" and ns.Strip then shown = ns.Strip.On() end
-      if cb.key == "liveStripAlways" and ns.Strip then shown = ns.Strip.Always() end
       if (cb:GetChecked() and true or false) ~= (shown and true or false) then wrong[#wrong + 1] = cb.key end
     end
     expect("Options: tick boxes show the settings", #wrong == 0 and #unknown == 0 and #(p.checks or {}) > 0,
       (#wrong > 0 and ("wrong: " .. table.concat(wrong, ", ")) or "")
         .. (#unknown > 0 and (" unknown: " .. table.concat(unknown, ", ")) or "")
         .. ((#wrong + #unknown == 0) and (#p.checks .. " tick boxes") or ""))
+    if ns.Companion.Installed() or ns.Companion.OFFER_WILLO then
+      expect("Options: Live game info's line shows it as it is", p.liveLine:GetText() == (not ns.Strip.On()
+        and ns.L["Live game info: off"] or ns.Strip.Always() and ns.L["Live game info: on, sky kept up"]
+        or ns.L["Live game info: on, sky hidden until you talk to %s"]:format(ns.COMPANION_NAME)), p.liveLine:GetText())
+    end
     local v = p.voice
     local row = v and v.rows and v.rows[1]
     widgets("Options: narration voices", { { "first voice", row }, { "its name", row and row.name, true },

@@ -2,6 +2,8 @@
 -- Sources: data/i18n/svSE. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_svSE")
 local Po = P.search.post
+Po["smooth"] = "Ik8B"
+Po["smoothboulders"] = "Ik8B"
 Po["smott"] = "GhqEGhrBGhtBGhvBGh7CGh8FGh/BHZhFHZiJHZjCHZkBHZlFHZmCHZnDHZoCHZpBHZtCHZuFHZvGHZwDHZxCHZzDHZ0C"
 Po["smottsandra"] = "HZvC"
 Po["smottscutlass"] = "GhqB"
@@ -12000,5 +12002,3 @@ Po["stördegravarna"] = "IZqC"
 Po["stördfärdväg"] = "EkjB"
 Po["stördgrav"] = "EzbB"
 Po["stördslummer"] = "EznB"
-Po["störhamish"] = "HruC"
-Po["störinstrumenten"] = "HruC"

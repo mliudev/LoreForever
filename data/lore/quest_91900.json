@@ -81,18 +81,19 @@
  "related": [],
  "sections": [
   {
-   "body": "Trade across the lands has grown increasingly dangerous due to a surge in banditry and roadside thefts. Caravans and couriers regularly face ambushes along established commercial highways, resulting in abandoned wagons and lost shipments scattered across the wilderness. To prevent these valuable goods from vanishing entirely, merchants and depot keepers rely on traveling adventurers to recover waylaid crates and return them safely.",
+   "body": "Caravans and couriers now face ambushes along the old trade highways. Many leave wagons and crates behind when they flee, and the goods sit in the brush until someone finds them. Merchants and depot keepers depend on travelers to bring that cargo home.",
    "spoiler": 0,
    "title": "Disrupted Trade Routes"
   },
   {
-   "body": "Recovering a sealed crate and bringing it to designated receiving depots earns an immediate bounty. Handlers consolidate the retrieved freight and handle proper sorting and redistribution, keeping commerce flowing despite the constant threat posed by local brigands and thieves. As long as the roads remain contested, returning lost cargo remains vital work for any traveler passing through.",
+   "body": "Carry a sealed crate to a receiving depot and you earn a bounty on the spot. Handlers sort the freight and send it on its way, so commerce keeps moving despite the brigands. While the roads stay contested, lost cargo remains steady work for any traveler passing through.",
    "spoiler": 0,
    "title": "Cargo Recovery"
   }
  ],
- "summary": "A Sealed Crate represents trade cargo recovered from disrupted commercial routes. With bandits and thieves increasingly raiding roadways, local merchants rely on traveling adventurers to return abandoned shipments in exchange for payment.",
+ "summary": "Bandits and thieves are raiding the roads, and lost shipments lie scattered across the wilds. Local merchants will pay you to bring a sealed crate back.",
  "attribution": [
   "In-game quest text: A Sealed Crate"
- ]
+ ],
+ "style": 2
 }

@@ -3105,6 +3105,14 @@ P.transport["item:letter-to-delgren"] = {
     {file = "Audio/Transport/full_item_letter-to-delgren-74d07a530c8df86e1a20/1-0000.mp3", duration = 39.2097959, start = 0},
   },
 }
+P.transport["item:letter-to-ello"] = {
+  hash = "517f71",
+  fullHash = "517f71",
+  text = "Letter to Ello. Abercrombie sends a sealed letter to Mayor Ello Ebonlocke in Darkshire. The hermit lives in a shack just north of Raven Hill Cemetery, claims an old friendship, and writes the missive in an archaic script. After you help Abercrombie with tasks around Duskwood, the old recluse gives you a note for Mayor Ello Ebonlocke. He says the mayor is an old friend who will celebrate what you have accomplished. When Ello breaks the seal, he has no recollection of anyone named Abercrombie and cannot read a single phrase of the archaic script. He sends the note to Darkshire scholar Sirra Von'Indi for translation.",
+  ["1"] = {
+    {file = "Audio/Transport/full_item_letter-to-ello-7e4f39590a5c9118dfab/1-0000.mp3", duration = 34.2204082, start = 0},
+  },
+}
 P.transport["item:letter-to-jin-zil"] = {
   hash = "af7cfb",
   fullHash = "af7cfb",
@@ -3407,6 +3415,14 @@ P.transport["item:mountain-lion-blood"] = {
   text = "Mountain Lion Blood. In Hillsbrad and Alterac, Apothecary Lydon seeks Mountain Lion Blood. At Tarren Mill, he needs fresh blood for the Royal Apothecary Society’s Elixir of Pain. Mountain lions hunt across the highlands and foothills of Hillsbrad and Alterac. Hunters prize their pelts and claws, while Forsaken of the Royal Apothecary Society seek the blood in their veins. Apothecary Lydon in Tarren Mill believes fresh mountain lion blood can form the base of a potent brew. He means it to bring misery to the living. Apothecary Lydon’s work in Tarren Mill supports the Royal Apothecary Society’s effort to perfect the Forsaken’s New Plague. He gathers blood from vigorous wild beasts to refine a concoction called the Elixir of Pain. His experiments test how local organic compounds can be turned against the enemies of the Dark Lady.",
   ["1"] = {
     {file = "Audio/Transport/full_item_mountain-lion-blood-3192590519ad3453dd2e/1-0000.mp3", duration = 50.7820408, start = 0},
+  },
+}
+P.transport["item:muddy-journal-pages"] = {
+  hash = "4bab43",
+  fullHash = "4bab43",
+  text = "Muddy Journal Pages. Muddy Journal Pages were recovered from a murder scene in Duskwood years ago. Weathered and stained with soil, they remain with Tavernkeep Smitts, who kept them without proof of authorship as evidence in an unresolved local investigation.",
+  ["1"] = {
+    {file = "Audio/Transport/full_item_muddy-journal-pages-280566e9aaac17916d0f/1-0000.mp3", duration = 13.4530612, start = 0},
   },
 }
 P.transport["item:mudsnout-blossom"] = {
@@ -5335,6 +5351,14 @@ P.transport["item:toxic-fogger"] = {
   text = "Toxic Fogger. In Stonetalon, the Toxic Fogger is bound for Venture Company air routes. The Forsaken Royal Apothecary Society filled it with lethal poison to contaminate the company’s flights. Apothecary Zamah sends the Toxic Fogger against the Venture Company's mining work. Apothecary Lydon brewed its toxin in Tarren Mill, and Zamah sent it from Thunder Bluff. She suspects the goblins carry messages and light cargo between Stonetalon and their headquarters by courier flying machine.\n\nZamah plans to release the poison where those machines land and refuel. The Forsaken mean to strike the company's supply route instead of meeting its mercenary crews in drawn-out skirmishes.",
   ["1"] = {
     {file = "Audio/Transport/full_item_toxic-fogger-776e9088c7715afc3b7f/1-0000.mp3", duration = 39.9673469, start = 0},
+  },
+}
+P.transport["item:translated-letter"] = {
+  hash = "ca7f1c",
+  fullHash = "ca7f1c",
+  text = "Translated Letter. In Darkshire, Sirra Von'Indi translates Abercrombie's letter for Mayor Ello Ebonlocke. The message sheds light on the hermit's dealings with the town.",
+  ["1"] = {
+    {file = "Audio/Transport/full_item_translated-letter-c0f63ed1d853e3e932fa/1-0000.mp3", duration = 9.69142857, start = 0},
   },
 }
 P.transport["item:treshala-s-pendant"] = {

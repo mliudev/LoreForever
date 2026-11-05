@@ -2,6 +2,8 @@
 -- Sources: data/i18n/svSE. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_svSE")
 local Po = P.search.post
+Po["scrollelementalarmskenor"] = "ATLB"
+Po["scrollelementalbracers"] = "ATUB"
 Po["scrollen"] = "ATQBATRBATaEFLJC"
 Po["scrollencrypted"] = "AXoBAXtBFK6BFK7B"
 Po["scrollendivining"] = "ATaC"
@@ -12000,5 +12002,3 @@ Po["smolderingember"] = "BINC"
 Po["smolderingembers"] = "BIJDBIKJBILDBIMBBINHDbWBDbaE"
 Po["smolderingincense"] = "IU9B"
 Po["smolderingruins"] = "CyaC"
-Po["smooth"] = "Ik8B"
-Po["smoothboulders"] = "Ik8B"

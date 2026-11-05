@@ -7,12 +7,13 @@ local L = ns.L
 local function setBindingNames()
   BINDING_HEADER_LOREFOREVER = "Lore Forever"
   BINDING_NAME_LOREFOREVER_TOGGLE = L["Toggle Lore Forever panel"]
-  BINDING_NAME_LOREFOREVER_NARRATE = L["Play narration (what you hover or target, or where you are)"]
+  BINDING_NAME_LOREFOREVER_NARRATE = L["Hear this next (what you hover or target, or where you are)"]
   BINDING_NAME_LOREFOREVER_PLAYLIST = L["Play/pause narration playlist"]
   BINDING_NAME_LOREFOREVER_PLAYLIST_NEXT = L["Next narration"]
   BINDING_NAME_LOREFOREVER_PICTURE = L["Take a journey picture"]
   BINDING_NAME_LOREFOREVER_ASKWILLO = L["Ask %s (hold: live game info shows meanwhile)"]:format(ns.COMPANION_NAME)
   BINDING_NAME_LOREFOREVER_ASKTARGET = L["Ask who you're targeting (hold: live game info shows meanwhile)"]
+  BINDING_NAME_LOREFOREVER_SKY = L["Show %s's sky"]:format(ns.COMPANION_NAME)
 end
 setBindingNames()
 
@@ -98,8 +99,10 @@ end
 
 -- The narration key: the NPC (or item) you're hovering if it has lore, else the one you've targeted (LOR-180: a
 -- player wanted to select an NPC and press one key, not open the panel and click Play), otherwise the place you're in.
--- Pressing it again while it plays stops it. With the panel open the story also appears in the chat; closed, a chat
--- line says what's playing, or that it isn't narrated (only recordings play: the rest stays as text).
+-- Pressing it again while it plays stops it. While anything else plays it never cuts in: this goes next in the queue
+-- (UI.PlayNext). With nothing playing it plays now, and a paused queue keeps its place. With the panel open the story
+-- also appears in the chat; closed, a chat line says what's playing, or that it isn't narrated (only recordings play:
+-- the rest stays as text).
 function LoreForever_Narrate()
   local UI = ns.UI
   if not UI.frame then return end
@@ -112,9 +115,11 @@ function LoreForever_Narrate()
   end
   local target = (key and UI.EntryTarget(key)) or UI.ZoneTarget()
   if not target then return say(L["there's no narration for this place yet."]) end
-  if UI.speaking and UI.playingId == target.id then return UI.ListenTo(target) end
+  if UI.speaking and (UI.playingId == target.id or UI.IsPlayingTarget(target)) then return UI.StopAll() end
   local name = ns.DB.entries[target.key].n
-  if UI.frame:IsShown() then
+  if UI.IsBusy() or UI.pl.state == "waiting" then
+    if not UI.PlayNext(target.key) then say(string.format(L["%s isn't narrated yet."], name)) end
+  elseif UI.frame:IsShown() then
     UI.PlayEntry(target.key, string.format(L["Tell me the story of %s"], name))
   else
     UI.ListenTo(target)
@@ -407,8 +412,12 @@ end
 --   shift-click        play/pause: stop whatever plays (a playlist keeps its place), else pick up what you stopped,
 --                      else play the playlist, or with an empty playlist everything narrated where you are
 --   shift-right-click  next narration in the playlist
+--   ctrl-right-click   with Live game info on: keep Willo's sky up, or hide it (LOR-1126)
 local function buttonClick(button)
   local UI = ns.UI
+  if button == "RightButton" and IsControlKeyDown and IsControlKeyDown() and ns.Strip.On() then
+    return ns.Strip.ToggleSky()
+  end
   if button == "LeftButton" and IsControlKeyDown and IsControlKeyDown() and ns.Journey.PictureShortcutsOn() then
     return LoreForever_Picture()
   end
@@ -458,6 +467,10 @@ local function buttonTooltip(self, anchor)
   if ns.Journey.PictureShortcutsOn() then
     T.Tip(L["Ctrl-click: take a journey picture"], "tipText")
   end
+  if ns.Strip.On() then
+    T.Tip((ns.Strip.Always() and L["Ctrl-right-click: hide %s's sky"] or L["Ctrl-right-click: keep %s's sky up"])
+      :format(ns.COMPANION_NAME), "tipText")
+  end
   if n == 0 and not busy and not UI.HasStopped() then
     T.Tip(L["Your playlist is empty: Shift-click plays everything narrated here."], "tipDim", true)
   end
@@ -495,7 +508,11 @@ local function addPlayingIndicator(b)
   fresh:SetPoint("TOPLEFT")
   fresh:Hide()
   b.fresh = fresh
-  b:SetScript("OnClick", function(_, button) buttonClick(button) end)
+  b:SetScript("OnClick", function(self, button)
+    buttonClick(button)
+    -- Right after Ctrl-right-click the tooltip says what the next click does.
+    if button == "RightButton" and GameTooltip:IsOwned(self) then buttonTooltip(self, "ANCHOR_LEFT") end
+  end)
 end
 
 -- How many pages are new (Book.UpdateBadge): the minimap book glows while any are.
@@ -669,7 +686,7 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     ns.Voice.Init()
     ns.WhatsNew.Init()   -- the first login of a new version: what's new in it (WhatsNew.lua)
     ns.Strip.SyncWillo()   -- Willo's newer Live game info choice beats an older one made here (Strip.lua, LOR-676)
-    ns.Voice.SyncWillo()   -- and her newer Speak quest dialogue choice
+    ns.Strip.HideOnce()    -- whoever kept the sky up goes hidden once, and is told (LOR-1126)
     ns.UI.Create(ns.engine)
     ns.Hooks.Init()
     ns.Options.Create()
@@ -945,8 +962,13 @@ SlashCmdList.LOREFOREVER = function(msg)
       or L["Narration plays by itself again, as your options say."])
   elseif cmd == "live" then
     ns.Strip.Choose(not ns.Strip.On())   -- (on from Willo's yes: this turns it off, and the add-on's choice wins)
+    if ns.Options.panel and ns.Options.panel.updateWillo then ns.Options.panel.updateWillo() end
     say(string.format(ns.Strip.On() and L["%s on"] or L["%s off"],
       string.format(L["live game info for %s"], ns.COMPANION_NAME)))
+    if ns.Strip.On() then   -- a yes under its explanation, as the tick it replaces had (Willo takes it: core._adopt_live_game)
+      say(L["While you hold %s's talk key to ask a question, rings of stars in a blue mist show over your minimap. %s reads this little sky to know where you are, who you're targeting and your tracked quest. Only %s, on this PC, reads it. It isn't a hack: it doesn't read the game's memory, never presses keys or clicks, and sends nothing online."]:format(ns.COMPANION_NAME, ns.COMPANION_NAME, ns.COMPANION_NAME)
+        .. " " .. L["Type /lore live to turn it off."])
+    end
   elseif cmd == "sky" or cmd == "sky move" then
     ns.Sky.Move(not ns.Sky.Moving())   -- again (or Done) when it's where they want it (LOR-530)
   elseif cmd == "sky reset" or cmd == "sky back" then

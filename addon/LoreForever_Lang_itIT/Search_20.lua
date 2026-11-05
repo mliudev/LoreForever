@@ -2,6 +2,8 @@
 -- Sources: data/i18n/itIT. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_itIT")
 local Po = P.search.post
+Po["slag"] = "FEPBGxlBGyPBGyzBJ6EDKuqB"
+Po["slagpit"] = "FEPBGxlBGyPBGyzBJ6EDKuqB"
 Po["slagtree"] = "G32C"
 Po["slagtreelost"] = "G32B"
 Po["slake"] = "HD5BHD6B"
@@ -12000,5 +12002,3 @@ Po["sudche"] = "A7rDBZKCJ7hDJ7iBJ7rDJ8fBJ8pDJ8qC"
 Po["sudchi"] = "A7nCBd1CCHQBCL/CF2lBF4VBF7uBF8oBGZVBHDdCJNUBJ7eDJ7qCJ8FCJ8GBJ8dCJ8lDJ8vB"
 Po["sudci"] = "J7qB"
 Po["sudcittà"] = "J7qCJ8fC"
-Po["sudcome"] = "I35CJ6mCJ7iCJ7kCJ8HC"
-Po["sudcommercio"] = "J7eC"

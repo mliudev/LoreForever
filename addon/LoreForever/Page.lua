@@ -174,10 +174,10 @@ function Page.Create(f)
   sub:SetPoint("RIGHT", lp, "RIGHT", -PAD - 8, 0)
   Page.sub = sub
 
-  -- Listen + playlist: the story card's pill (T.Pill, 30 tall by a heading): play (or stop), and + to add it to the
+  -- Listen + playlist: the story card's pill (T.Pill, 24 tall by a heading): play (or stop), and + to add it to the
   -- playlist (- to take it out); Shift-click on play adds it too (the same meaning everywhere). Who reads it and its
   -- length stand after it as text (Page.UpdateListen keeps it in step with what plays and what's queued).
-  local listen = T.Pill(lp, 30)
+  local listen = T.Pill(lp, 24)
   listen:SetPoint("TOPLEFT", sub, "BOTTOMLEFT", -2, -6)
   listen.play:SetScript("OnClick", function()
     local key = Page.key

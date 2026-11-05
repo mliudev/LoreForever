@@ -4267,9 +4267,9 @@
     "quest:2206": {
       "1": [
         {
-          "duration": 74.81469387755102,
-          "file": "Audio/Transport/full_quest_2206-d0347ac82ec0fa7738c9/1-0000.mp3",
-          "sha256": "76018b65add558ce2a6a3998f3eaf61e1241bc5dd13cb91f663775cbecd0a356",
+          "duration": 72.62040816326531,
+          "file": "Audio/Transport/full_quest_2206-7332e131f2333bd5252d/1-0000.mp3",
+          "sha256": "94fff8274e3493fc9ad96ca20a6d75e296bf042e8c246df58bee109b3b75acd0",
           "start": 0
         }
       ],
@@ -4281,12 +4281,12 @@
         ]
       },
       "fullHash": "294a14",
-      "generation": "cd300e3926bd5a1c749e",
+      "generation": "bb8a557d88cf1d38d847",
       "hash": "294a14",
       "source": {
-        "duration": 74.840816,
+        "duration": 72.646531,
         "file": null,
-        "sha256": "d0347ac82ec0fa7738c911f406916011804e2d812711ea036a68da31845ffaae"
+        "sha256": "7332e131f2333bd5252d5c62d0433e47db3f6f655cd56e82669b1ca557879b5a"
       },
       "text": "Snatch and Grab. At Jerod's Landing, Master Mathias Shaw sends agents to learn how the Defias move their supplies. The Brotherhood uses the river dock to ship goods in secret. Master Mathias Shaw tests those who seek a place among Stormwind's covert agents. He asks for finesse and stealth, not brute force. SI:7 agents quietly take down key figures and recover important papers. They do this without drawing the realm into open scandal. Each new operative must prove they can work unseen. Jerod's Landing sits on the river in southern Elwynn, south of Goldshire and just east of the Maclure Vineyards. The Defias Brotherhood seized the once-quiet dock and turned it into an illicit route. Arms, supplies, and contraband cross the water from Redridge toward Westfall. Royal road patrols cannot reach them there. Master Mathias Shaw warns agents that capture, compromise, or death leaves them without the Crown's support. Stormwind and its spymasters will deny they ever existed. The Defias Dockmaster's schedule gives SI:7 proof of the Brotherhood's supply lines. Recovering it keeps Stormwind's official involvement hidden."
     },
@@ -4397,9 +4397,9 @@
     "quest:2281": {
       "1": [
         {
-          "duration": 50.83428571428571,
-          "file": "Audio/Transport/full_quest_2281-215b7479ac55d5194838/1-0000.mp3",
-          "sha256": "0933e05d14f901941dc70eb8a5b85cabcb12da663d420714d5bc7c6fed9a5f97",
+          "duration": 50.59918367346939,
+          "file": "Audio/Transport/full_quest_2281-e9e54faff98b78aae65e/1-0000.mp3",
+          "sha256": "01bed992a3e5557dca7261a44312f94fab6c6b4d63791c2a1ed3cd54b04276bf",
           "start": 0
         }
       ],
@@ -4411,12 +4411,12 @@
         ]
       },
       "fullHash": "0b536d",
-      "generation": "ad63c8724ed1e5733815",
+      "generation": "6331d37c852acc493dea",
       "hash": "0b536d",
       "source": {
-        "duration": 50.860408,
+        "duration": 50.625306,
         "file": null,
-        "sha256": "215b7479ac55d519483805150a0e5de95c25c1779212dbab1a0f019d35a342a1"
+        "sha256": "e9e54faff98b78aae65ed2770567568e7896fdd8a717ba88253bf27ceb0c2ce5"
       },
       "text": "Redridge Rendezvous. In Lakeshire, promising Alliance rogues train for dangerous work under seasoned operatives. SI:7 sends them east from Stormwind’s intelligence headquarters to prepare for the field. Renzik 'The Shiv', SI:7’s second-in-command in Stormwind, knows that untrained rogues rarely survive dangerous operations. Sending raw recruits into hostile territory brings casualties instead of intelligence. So SI:7 sends promising agents east to the Redridge Mountains. There, Lucius trains them among Lakeshire’s docks. Lakeshire gives Lucius good ground for clandestine training. Gnolls and Blackrock orcs threaten the frontier town. Its piers let him test a rogue’s stealth, reflexes, and lockpicking without drawing the notice of townspeople or guards."
     },
@@ -14092,6 +14092,32 @@
       },
       "text": "Troll Charm. At Zoram'gar Outpost, Mitsuwa mourns kin slain on the road and seeks their stolen sacred charms. The Thistlefur furbolgs took the talismans into their den. You are at Zoram'gar Outpost, a remote Horde refuge on Ashenvale's western coast. Woodland paths make the way dangerous. A party of Darkspear trolls never arrived after the Thistlefur furbolgs ambushed them. Mitsuwa accepts that his kin have died and will meet him in the afterlife. Yet the furbolgs stole their sacred charms, and he cannot abide the insult. Troll charms and talismans mark identity, give spiritual protection, and bind their bearers to the Loa. Mitsuwa sees a troll without her charm as hollow and worthless, like an orc without battle scars. The Thistlefur furbolgs carried the stolen charms to Thistlefur Hold, deep in the caves beyond Thistlefur Village. There they hid the talismans in chests, far from their rightful owners."
     },
+    "quest:6482": {
+      "1": [
+        {
+          "duration": 37.4334693877551,
+          "file": "Audio/Transport/full_quest_6482-87cb2184154d5a3a13fd/1-0000.mp3",
+          "sha256": "c0779be142b3c9aad429bbf81967290d8ae7ab43f68ca29c147fd5b48a2a528e",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "7da036",
+      "generation": "9c38e40691f52de8c9bf",
+      "hash": "7da036",
+      "source": {
+        "duration": 37.459592,
+        "file": null,
+        "sha256": "87cb2184154d5a3a13fd950a4ab60e0beb2d8e06b26e2bb4ba6fb6b9734e7f26"
+      },
+      "text": "Freedom to Ruul. In northern Ashenvale, Ruul waits in a cage deep inside Thistlefur Hold. He needs a Horde ally to help him fight through the corrupted furbolg den and reach safety. Ruul Snowhoof, a druid, is trapped in Thistlefur Hold. While exploring the corrupted woods of northern Ashenvale in bear form, he strayed too close to the den. The corrupted furbolgs had lost their ancestral wisdom and, driven by feral paranoia, mistook him for an ordinary beast. They caged and starved him instead of honoring him, draining his magic until he could no longer break free alone."
+    },
     "quest:65": {
       "1": [
         {
@@ -14559,6 +14585,32 @@
         "sha256": "0e5066ce6a107db5ce7f7a31d569eaf28b64cfb436df89aa0318b312260cc24d"
       },
       "text": "Treats for Greatfather Winter. In Ironforge, the dwarf playing Greatfather Winter asks you for a holiday treat. Bring five freshly baked gingerbread cookies and ice cold milk, and he thanks you with a festive gift. Smokywood Pastures sponsors the Winter Veil festivities in Ironforge. By the holiday tree in the Commons, a performer sits dressed as Greatfather Winter. For hours, he hears holiday wishes from citizens and eager children. He wears the guise of an immortal figure from ancient titan lore and dwarven myth. After hearing requests for gifts all day, the performer grows hungry. He asks for five freshly baked gingerbread cookies and ice cold milk. The simple meal gives the exhausted festival worker a moment of relief. Your kindness spreads goodwill through Ironforge."
+    },
+    "quest:71": {
+      "1": [
+        {
+          "duration": 48.71836734693878,
+          "file": "Audio/Transport/full_quest_71-6c389c9718b199fde953/1-0000.mp3",
+          "sha256": "887effa43a99a4898ac245b38eda8ebe01f901ecca08726cb0d5434c650bf3c2",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "33b58e",
+      "generation": "57b650aac4138c41b47c",
+      "hash": "33b58e",
+      "source": {
+        "duration": 48.74449,
+        "file": null,
+        "sha256": "6c389c9718b199fde953d28f7c99a810323f85be89b051e4104b63baaa85fb32"
+      },
+      "text": "Report to Thomas. Guard Thomas waits at the eastern bridge between Goldshire and the Eastvale Logging Camp. The fate of his missing men may show whether the river murlocs threaten more than scouts. With few men to spare at the crossing, Thomas had hoped Malakai and Rolf were only cut off or delayed in the riverlands. Their recovered service medallions leave no such hope. Both guards were slain near the waterways. For months, Stormwind's leaders have treated murlocs as nuisance river-dwellers, focusing instead on bandits and the kingdom's wider borders. Now two armed Stormwind guards have been slaughtered along the inland streams. The medallions show Thomas that Elwynn's eastern frontier faces an active assault, and he calls for a response before the logging routes and settlements are overwhelmed."
     },
     "quest:730": {
       "1": [
@@ -19659,9 +19711,9 @@
     "quest:92751": {
       "1": [
         {
-          "duration": 28.891428571428573,
-          "file": "Audio/Transport/full_quest_92751-688c5eedca371fdb9658/1-0000.mp3",
-          "sha256": "250bbb50923a33d66c9525e65bdaf8b5b3f9cd08e2df889e0d051eb6a294dd17",
+          "duration": 27.533061224489796,
+          "file": "Audio/Transport/full_quest_92751-e0fa2acab7124f6c8794/1-0000.mp3",
+          "sha256": "b3aa849e09c1b54e058eb3c16b381cb6be0f5e9743c9dee7f1b59b755a1d8a67",
           "start": 0
         }
       ],
@@ -19673,12 +19725,12 @@
         ]
       },
       "fullHash": "565cfa",
-      "generation": "541b1c28a676f155a2c5",
+      "generation": "147208c4338c866e4b26",
       "hash": "565cfa",
       "source": {
-        "duration": 28.917551,
+        "duration": 27.559184,
         "file": null,
-        "sha256": "688c5eedca371fdb9658b70f048daca07c1fd317a5b75e49fb147b9585d7f1d4"
+        "sha256": "e0fa2acab7124f6c879411a64a7583622cc82596887a6a15bb906a8eead66f24"
       },
       "text": "Detonation at a Distance. In Moonbrook, blasts beneath Westfall have drawn SI:7's attention. Jasper Fel, a Stormwind operative, sends a remote detonator kit to let you handle the work from a safe distance. Jasper Fel and SI:7 watch events across Stormwind's lands, including Westfall's troubled border. When word reaches him of explosive work in Moonbrook, Fel already knows what is happening in the abandoned mining tunnels beneath the countryside."
     },
@@ -22158,6 +22210,16 @@
       1717,
       1896
     ],
+    "01bed992a3e5557dca7261a44312f94fab6c6b4d63791c2a1ed3cd54b04276bf": [
+      245,
+      474,
+      843,
+      1057,
+      1228,
+      1368,
+      1525,
+      1661
+    ],
     "01cf888105dd60a2dbe0fad7e13fd4145f20e1197bc852154c4ad49880a2a5a9": [
       371,
       753
@@ -22421,16 +22483,6 @@
       1380,
       1596,
       1899
-    ],
-    "0933e05d14f901941dc70eb8a5b85cabcb12da663d420714d5bc7c6fed9a5f97": [
-      247,
-      505,
-      853,
-      1052,
-      1227,
-      1377,
-      1532,
-      1668
     ],
     "093b66c56a537b9bd64b73cd9275c5529401c5df89c2f76cd5efdcebe4df9b0d": [
       199,
@@ -23470,11 +23522,6 @@
       1398,
       1574
     ],
-    "250bbb50923a33d66c9525e65bdaf8b5b3f9cd08e2df889e0d051eb6a294dd17": [
-      203,
-      492,
-      799
-    ],
     "2521b15c27b2af6dd976fa1f2f931eea8a7958ea8c4a8e2ac6369e6e5e430d05": [
       211,
       373,
@@ -24026,6 +24073,9 @@
     ],
     "3449eb1e78e29809c9d122f74200f26e1b0b24d364a72257d9086ac55a28fb1c": [
       554
+    ],
+    "347a3b609ec6711213d29a9c2c430e88c94c9ea4ec774f3045ce205b9653dbf3": [
+      460
     ],
     "3493d0cc463262287adbf9ac58cc6c0285655ab490cdc0be6374e0ebadcc7ea4": [
       244,
@@ -25861,6 +25911,9 @@
       1173,
       1722
     ],
+    "6a2089bcf13b6e8f2cab7ebbd475855179841fa98d1875c72dd5ea12221aaa0f": [
+      428
+    ],
     "6a26619cb9ca12b2c3f9b1415355865eb61c0ed7f0420b22bfb08ff68af57986": [
       243,
       454,
@@ -26212,19 +26265,6 @@
     "75f4b3af764361ba8b9361cce18cf1d37df92d998f012c47fe66b1d5b4365658": [
       448,
       1074
-    ],
-    "76018b65add558ce2a6a3998f3eaf61e1241bc5dd13cb91f663775cbecd0a356": [
-      266,
-      418,
-      616,
-      751,
-      967,
-      1255,
-      1537,
-      1745,
-      2058,
-      2342,
-      2505
     ],
     "762a408ad5fa43bcd3b265359cf7c57fe72db64c0d414120fdc56df89441be3c": [
       276,
@@ -26833,6 +26873,15 @@
       1115,
       1385
     ],
+    "887effa43a99a4898ac245b38eda8ebe01f901ecca08726cb0d5434c650bf3c2": [
+      232,
+      443,
+      739,
+      970,
+      1311,
+      1499,
+      1684
+    ],
     "88a146d2058ada01f97edbcadccb96e5243e30240d96a5f438f7623a0cf6ef11": [
       584,
       967
@@ -27203,6 +27252,19 @@
     ],
     "9470fe9378bb42c640a5d2af4b09e12c644aad396d0034bf11addb21b02e972c": [
       986
+    ],
+    "94fff8274e3493fc9ad96ca20a6d75e296bf042e8c246df58bee109b3b75acd0": [
+      263,
+      418,
+      630,
+      766,
+      951,
+      1207,
+      1489,
+      1684,
+      1990,
+      2275,
+      2427
     ],
     "950ab0166883acce0d6784ae0fa6eb996cc4ab919f2d0d54de619026fa4c7c6a": [
       254,
@@ -28208,6 +28270,11 @@
       278,
       881
     ],
+    "b3aa849e09c1b54e058eb3c16b381cb6be0f5e9743c9dee7f1b59b755a1d8a67": [
+      203,
+      496,
+      752
+    ],
     "b3abec63f3a531aca3bd84afe9de6d6742eafbc4b93074db3a7975b65484a93d": [
       161,
       473,
@@ -28642,6 +28709,13 @@
       1265,
       1449,
       1720
+    ],
+    "c0779be142b3c9aad429bbf81967290d8ae7ab43f68ca29c147fd5b48a2a528e": [
+      207,
+      443,
+      642,
+      885,
+      1180
     ],
     "c095fd619d65650f2cfed51e8d36339ce2570400b4d095e32b2fbe65d8a8e56d": [
       701,
@@ -30017,6 +30091,10 @@
       2001,
       2174
     ],
+    "ec090e322e3010619e40fb38fa9fa18a03e8648428706986d3c855b36416229a": [
+      228,
+      499
+    ],
     "ec1f799f5400d5400fdcae35b7714fa46110c7fea4dcdc45f8569dbb4f0c76c4": [
       290,
       468,
@@ -30801,6 +30879,10 @@
       "1473": 2,
       "574": 1
     },
+    "01bed992a3e5557dca7261a44312f94fab6c6b4d63791c2a1ed3cd54b04276bf": {
+      "1368": 2,
+      "474": 1
+    },
     "01f71f163b7f81cc81e79451d105251495fecaf03e567bd0ac91b12e0c5793b1": {
       "393": 1
     },
@@ -30891,10 +30973,6 @@
     "092d190e100fe821ddf1b7b54c7967f342bc53152d1f7a8937675a33ab6fa723": {
       "1380": 2,
       "536": 1
-    },
-    "0933e05d14f901941dc70eb8a5b85cabcb12da663d420714d5bc7c6fed9a5f97": {
-      "1377": 2,
-      "505": 1
     },
     "093b66c56a537b9bd64b73cd9275c5529401c5df89c2f76cd5efdcebe4df9b0d": {
       "1271": 2,
@@ -31274,9 +31352,6 @@
     "2503458ddd389852733967a8dc325cb8c736887c9af1847e1aed614bc1a671c8": {
       "1152": 2,
       "493": 1
-    },
-    "250bbb50923a33d66c9525e65bdaf8b5b3f9cd08e2df889e0d051eb6a294dd17": {
-      "492": 1
     },
     "2521b15c27b2af6dd976fa1f2f931eea8a7958ea8c4a8e2ac6369e6e5e430d05": {
       "1270": 2,
@@ -32315,11 +32390,6 @@
       "1557": 2,
       "628": 1
     },
-    "76018b65add558ce2a6a3998f3eaf61e1241bc5dd13cb91f663775cbecd0a356": {
-      "1255": 2,
-      "2058": 3,
-      "418": 1
-    },
     "762a408ad5fa43bcd3b265359cf7c57fe72db64c0d414120fdc56df89441be3c": {
       "276": 1,
       "810": 2
@@ -32555,6 +32625,10 @@
       "424": 1,
       "777": 2
     },
+    "887effa43a99a4898ac245b38eda8ebe01f901ecca08726cb0d5434c650bf3c2": {
+      "443": 1,
+      "970": 2
+    },
     "88c852bc1f670c938f54cb889a83ada4cf3c13103d05d99a1e5b112ed864aaed": {
       "1041": 2,
       "453": 1
@@ -32698,6 +32772,11 @@
     "9415d0c2d64226b043c8ab3db8668bc97683af321080bc76ab867745872ca7bb": {
       "1145": 2,
       "469": 1
+    },
+    "94fff8274e3493fc9ad96ca20a6d75e296bf042e8c246df58bee109b3b75acd0": {
+      "1207": 2,
+      "1990": 3,
+      "418": 1
     },
     "950ab0166883acce0d6784ae0fa6eb996cc4ab919f2d0d54de619026fa4c7c6a": {
       "1932": 2,
@@ -33066,6 +33145,9 @@
     "b342fffe95d34bd32bc8217df8650cc42f5759f0de304db88e4533d7a7783c48": {
       "506": 1
     },
+    "b3aa849e09c1b54e058eb3c16b381cb6be0f5e9743c9dee7f1b59b755a1d8a67": {
+      "496": 1
+    },
     "b3abec63f3a531aca3bd84afe9de6d6742eafbc4b93074db3a7975b65484a93d": {
       "1336": 2,
       "473": 1
@@ -33235,6 +33317,9 @@
     "c06da2396cf143d2d044f2b42daeee284cc32bf5ae70284c19a1820f426554e9": {
       "1449": 2,
       "589": 1
+    },
+    "c0779be142b3c9aad429bbf81967290d8ae7ab43f68ca29c147fd5b48a2a528e": {
+      "443": 1
     },
     "c0a9ee7089e7cd35a52e774d277a57b02d8cc7f0c4f9950658ad3b3a68518790": {
       "1217": 2,

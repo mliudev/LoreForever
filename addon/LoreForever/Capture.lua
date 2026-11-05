@@ -173,6 +173,17 @@ function Capture.Placeholders(text)
   return out
 end
 
+-- The other way, for the screen only: $N, $C and $R (and 0.7.0's <name>) read as this character, as the game shows them.
+function Capture.Personal(text)
+  if type(text) ~= "string" then return text end
+  local me = ns.Context and ns.Context.Character and ns.Context.Character() or {}
+  local fill = { N = me.name, C = me.className, R = me.raceName }
+  return (text:gsub("<name>", "$N"):gsub("%$([NnCcRr])", function(c)
+    local v = fill[c:upper()]
+    return usable(v) and v or nil
+  end))
+end
+
 -- Whether two kept texts are the same words, whoever saw them: placeholders ($N, $C, $R, and 0.7.0's <name>) and this
 -- character's own name, class and race don't count (Voice.QuestFingerprints: letters and digits only).
 function Capture.SameText(a, b)
@@ -889,14 +900,8 @@ function Capture.Share(line)
   local f = shareWindow()
   local link, whole = Capture.Link(line)
   f.link, f.line = link, line
-  local preview = (line.text or ""):gsub("%s+", " ")
-  -- (on screen the placeholders read as this character, as the game shows them; the link keeps $N: 11/4)
-  local me = ns.Context and ns.Context.Character and ns.Context.Character() or {}
-  local fill = { N = me.name, C = me.className, R = me.raceName }
-  preview = preview:gsub("%$([NnCcRr])", function(c)
-    local v = fill[c:upper()]
-    return type(v) == "string" and v ~= "" and v or nil
-  end)
+  -- (on screen the placeholders read as this character; the link keeps $N: 11/4)
+  local preview = Capture.Personal((line.text or ""):gsub("%s+", " "))
   f.what:SetText(what(line.kind) .. (line.label and (": " .. line.label) or "")
     .. " - " .. preview:sub(1, 80))
   f.hint:SetText(whole

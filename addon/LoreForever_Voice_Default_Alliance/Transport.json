@@ -7907,9 +7907,9 @@
     "subzone:si-7-stormwind-city": {
       "1": [
         {
-          "duration": 46.34122448979592,
-          "file": "Audio/Transport/full_subzone_si-7-stormwind-city-2d54d11f2ebd179c96fd/1-0000.mp3",
-          "sha256": "e6f1ffa7d4249208acc5ee8c546ed3bac96d17dee0f15e2a904d4725f7cb2623",
+          "duration": 44.87836734693878,
+          "file": "Audio/Transport/full_subzone_si-7-stormwind-city-26faeb4c3d51a03caaa1/1-0000.mp3",
+          "sha256": "200f276019494df8e515c778158c7797e121d52465474678756c616443d7cc9d",
           "start": 0
         }
       ],
@@ -7921,12 +7921,12 @@
         ]
       },
       "fullHash": "0df6d1",
-      "generation": "5f0893adc7ae1f78d1ba",
+      "generation": "3a6a2a5f631def8e4cea",
       "hash": "0df6d1",
       "source": {
-        "duration": 46.367347,
+        "duration": 44.90449,
         "file": null,
-        "sha256": "2d54d11f2ebd179c96fdd4c1111b6d459360e605333b81ec3cad48cdd6f83d17"
+        "sha256": "26faeb4c3d51a03caaa17cf525fc3a4e20b4fc4124e98bd266b5e65f5af6b8a2"
       },
       "text": "SI:7 (Stormwind City). In Old Town, SI:7 watches for threats to Stormwind from a fortified stone manor. Master Mathias Shaw directs the kingdom’s intelligence service from behind its heavy doors. In Old Town, SI:7 works from a fortified stone manor. From the street, it could pass for an ordinary home or military barracks. Master Mathias Shaw directs Stormwind Intelligence, Section 7. Its agents gather intelligence, watch suspected threats and carry out secret operations to guard the kingdom from subversion.\n\nThe city guard patrols Stormwind’s streets, while the Royal Guard protects Stormwind Keep. SI:7 trains handlers and sends covert agents against foreign enemies, saboteurs and unrest within the kingdom."
     },
@@ -10375,6 +10375,15 @@
       779,
       946,
       1104
+    ],
+    "200f276019494df8e515c778158c7797e121d52465474678756c616443d7cc9d": [
+      207,
+      421,
+      604,
+      770,
+      935,
+      1234,
+      1443
     ],
     "21358776b88d1b04c359b9ee3c120a41afe2909a7c8e74e0d5a83e79209251c8": [
       309,
@@ -12931,15 +12940,6 @@
       1715,
       1933
     ],
-    "e6f1ffa7d4249208acc5ee8c546ed3bac96d17dee0f15e2a904d4725f7cb2623": [
-      239,
-      451,
-      622,
-      786,
-      975,
-      1264,
-      1467
-    ],
     "e75d9319899d237da5721b5cf762b6876884b372d577934f00b2613c0ab8d72c": [
       200,
       409,
@@ -13387,6 +13387,9 @@
     },
     "200a81d4459815ba7ba914ad73b01b911581e13434f0d5cd69eee7dc683f5e47": {
       "468": 1
+    },
+    "200f276019494df8e515c778158c7797e121d52465474678756c616443d7cc9d": {
+      "421": 1
     },
     "21358776b88d1b04c359b9ee3c120a41afe2909a7c8e74e0d5a83e79209251c8": {
       "1276": 2,
@@ -14463,9 +14466,6 @@
     "e68fd23d116cc0795e135c35d08593cb66452e042ef8c85a161bd54c690ad9fd": {
       "1543": 2,
       "410": 1
-    },
-    "e6f1ffa7d4249208acc5ee8c546ed3bac96d17dee0f15e2a904d4725f7cb2623": {
-      "451": 1
     },
     "e75d9319899d237da5721b5cf762b6876884b372d577934f00b2613c0ab8d72c": {
       "1248": 2,

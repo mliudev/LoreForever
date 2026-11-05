@@ -2,6 +2,8 @@
 -- Sources: data/i18n/svSE. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_svSE")
 local Po = P.search.post
+Po["vaktarodöda"] = "J0AC"
+Po["vaktarområdet"] = "JP7CJj/C"
 Po["vaktarorcher"] = "JdAC"
 Po["vaktaroslows"] = "A3mC"
 Po["vaktarpasset"] = "J7KC"
@@ -12000,5 +12002,3 @@ Po["wrynncathedral"] = "LPFB"
 Po["wrynnfirst"] = "K0dBK8sB"
 Po["wrynnförsvunnen"] = "FliCLPHC"
 Po["wrynnhistoria"] = "K0eC"
-Po["wrynnking"] = "K+gB"
-Po["wrynnlothar"] = "KqjB"

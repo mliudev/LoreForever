@@ -488,17 +488,21 @@ def bundle_file(project: dict, projects: list[dict], out: Path, version: str) ->
     return out
 
 
-def prepare(projects: list[dict], source_dir: Path, work: Path, version: str) -> list[dict]:
+def prepare(projects: list[dict], source_dir: Path, work: Path, version: str,
+            every: list[dict] | None = None) -> list[dict]:
     """Each project with an id: its file (its folders, from its release zips), or why there isn't one. A release
     without any of the project's zips is "absent" (a pack is only built once its folder exists), not an error; with
-    some of them, the file has the folders those hold. A bundle's file is made here, once one project it brings is live."""
+    some of them, the file has the folders those hold. A bundle's file is made here, once one project it brings is live.
+    `every` is the whole config: a bundle looks up what it brings there, since `projects` may hold only the changed
+    ones (1.0.0's upload failed on a bundle whose female-horde project hadn't changed)."""
+    every = every or projects
     steps = []
     for p in projects:
         if not p.get("id"):
             continue
         if p.get("bundle"):
-            if brings(p, projects):
-                steps.append({"project": p, "zip": bundle_file(p, projects, work / f"{p['folders'][0]}-{version}.zip",
+            if brings(p, every):
+                steps.append({"project": p, "zip": bundle_file(p, every, work / f"{p['folders'][0]}-{version}.zip",
                                                                version)})
             else:
                 steps.append({"project": p, "absent": "none of the projects it brings is live yet"})
@@ -769,7 +773,8 @@ def cmd_upload(args) -> int:
             source_dir.mkdir(parents=True, exist_ok=True)
             if todo:
                 fetch({s for p in todo for s in sources(p, version)}, "languages" if args.languages else tag, source_dir)
-        steps = unchanged + (plan(prepare(todo, source_dir, Path(tmp, "files"), version), state) if todo else [])
+        steps = unchanged + (plan(prepare(todo, source_dir, Path(tmp, "files"), version, projects), state)
+                             if todo else [])
         return send(steps, projects, state, version, token, args.dry_run, source=tag or str(source_dir),
                     state_file=state_file)
 
