@@ -2,6 +2,9 @@
 -- Sources: data/i18n/itIT. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_itIT")
 local Po = P.search.post
+Po["traboccare"] = "DjuB"
+Po["traboccava"] = "J5SB"
+Po["traborgolago"] = "DZlC"
 Po["traboscovespro"] = "FOXC"
 Po["tracacciatori"] = "GB5B"
 Po["tracce"] = "AAJBAAKBAANBAAPBABFBABHBAFFBAFYBAGLBAGNBAGWBAH2BAJXBALlBALmBAPpBAQfBAQgBAW7BAW/CAb2BAb3BAb5BAcGBAcKBAhsBAkLBAk7BAlABAxCBA2aBA3RBA6ABA6zBA/ABBRKBBS9BBYeBBeQBBf6BBi+BB1tBB3/BB4gBB6+BB/vBCR8BCTqBClSBCpPBCpRBCyABCyBCC35BDEQBDESBDEUBDEgBDEpBDFKBDFQCDMYBDbCBDcQBDcVBDcbBDciBDcmBDc6BDdBBDdSCDdWBDdXBDddBDdeBDe4BDe6BDe/CDfBCDfDBDgUCDgWCDmFBDsAEDsBBDsEBDyxBEK9BEi8BEjfBEkWBEkfBEkgBEmgBEpQBEpSBEpVBE7nBFWqBFYEBFaNBFbeBFehBFeoDFepBFeqBFgCBFgKBFuMBFu2BGH7BGLuBGO9BGP5BGQABGYDBGhnBGhvBGi5BGkVBGkWCGkcBGmlBGpZBGqxCGroBGrtBGs8BGttCGuDCGv/BG0XBG6CBG88BHH1BHIrBHIsBHORBHVoBHaTBHaVBHaYBHaZFHadBHclBHoCBHqcBHqjBHuaBHwFBHwJBHzsBH8fBH+vBH/EBH/QBH/XBH/aBIAMBIAOBIAQBIBeBIGaBIKKBIQZBIeXBIe2BIe7BIjLBIkIBIkiBIknBIyXBIypBJIdBJfPBJhTBJmNBJmxBJm1BJrIBJrOBJ4WBKatCKazBKa2BKa4BKa5BKdCBKnIB"
@@ -11999,6 +12002,3 @@ Po["vallosi"] = "JzqC"
 Po["valnordia"] = "JmoEJmpKJmqFJmrHJmsKJmtBJmuB"
 Po["valnordiacosa"] = "JmpBJmqCJmrC"
 Po["valnordiacosè"] = "JmpC"
-Po["valnordiadove"] = "JmsD"
-Po["valnordianemici"] = "JmrC"
-Po["valnordianorthdale"] = "JmoB"

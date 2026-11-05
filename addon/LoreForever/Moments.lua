@@ -9,7 +9,7 @@
 -- A level and a rough patch come from the game's own events; the rest from the journey as it records them (with
 -- "Remember my journey" off, only those two). Never mid-fight: a moment waits while the player fights, is dead,
 -- watches a cutscene, hears a Lore Forever narration, asks Willo or hears her answer, takes a journey picture, moves
--- the sky, sits at a loading screen or has the interface hidden, and for a quest page going round for Willo. One at a
+-- the sky, sits at a loading screen or has the interface hidden. One at a
 -- time, the biggest; one per GAP and HOUR_MAX an hour (Willo counts the same: about one an hour in real play); one
 -- that waited too long is let go.
 
@@ -77,7 +77,6 @@ local function held()
   if J and J.TakingPicture and J.TakingPicture() then return "picture" end
   if ns.Sky and ns.Sky.Moving and ns.Sky.Moving() then return "moving the sky" end
   if (Strip.Asking and Strip.Asking()) or (C and C.Sending and C.Sending()) then return "asking Willo" end
-  if Strip.QuestPageUp and Strip.QuestPageUp() then return "quest page" end
 end
 Moments.Held = held
 

@@ -2,6 +2,8 @@
 -- Sources: data/i18n/itIT. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_itIT")
 local Po = P.search.post
+Po["scalfire"] = "GiABH/ZB"
+Po["scalfisce"] = "EEABGHOB"
 Po["scalfito"] = "KUsB"
 Po["scali"] = "FM5B"
 Po["scalinata"] = "B9LCB9MDB9OBB9SDB9TCJRWBKHsEKHtKKHuHKHvIKHwHKHxLKHyKKHzB"
@@ -12000,5 +12002,3 @@ Po["skywallwindshaper"] = "HnWB"
 Po["skywallwindshapers"] = "HjfBINPBKilB"
 Po["slab"] = "GoMC"
 Po["slabsrock"] = "GoMB"
-Po["slag"] = "FEPBGxlBGyPBGyzBJ6EDKuqB"
-Po["slagpit"] = "FEPBGxlBGyPBGyzBJ6EDKuqB"

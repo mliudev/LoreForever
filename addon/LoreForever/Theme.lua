@@ -789,9 +789,14 @@ function T.SetIcon(b, kind)
   end
 end
 
--- What a row that opens something ends in: "›" in oxblood. ▶ only ever means play (Design Lead, 11/4).
-function T.OpenMark(parent)
-  local fs = T.Ink(parent:CreateFontString(nil, "OVERLAY", T.font.body), "inkAccent")
+-- What a row that opens something ends in: "›" in the ink of the label beside it (`role`, plain ink by default). A
+-- shadow of that same ink a pixel over thickens its stroke: the thin glyph alone reads paler than the word next to it
+-- (Mike, 11/4). ▶ only ever means play (Design Lead, 11/4).
+function T.OpenMark(parent, role)
+  role = role or "ink"
+  local fs = T.Ink(parent:CreateFontString(nil, "OVERLAY", T.font.body), role)
+  if fs.SetShadowColor then fs:SetShadowColor(rgba(T.color[role])) end
+  if fs.SetShadowOffset then fs:SetShadowOffset(1, 0) end
   fs:SetText("\226\128\186")
   return fs
 end
@@ -961,13 +966,13 @@ end
 
 -- A bookmark tab on the book's edge (Mike's pick, 11/4, board 2 "Your pick"): the four are one size with even gaps
 -- (UI.FitRibbons sets the size), each label centred in the heading face, running down the tab (one line turned
--- sideways; one letter to a line where the client can't turn text, and for CJK). The open one is the page's paper
--- with an oxblood label, and joins the page; the others are stone in a gold rim with muted labels. "New" is one small
+-- sideways; one letter to a line where the client can't turn text, and for CJK). The open one is the page's own paper
+-- (RibbonSheet) with an oxblood label, and joins the page; the others are stone in a gold rim with muted labels. "New" is one small
 -- gold dot near the tab's outer end, never a number, and it never moves the label.
 --   r:SetLabel(text)  r:SetOn(bool)  r:SetCount(n)  r:SetLength(px)   (n > 0 shows the dot; the count stays in Found)
 -- Anchor it by its top left. `horizontal` writes the label across instead of down (a narrow window).
 local RIBBON_PAD, RIBBON_W = 8, 26
-T.color.tabPaper = { 0.851, 0.788, 0.671, 1 }   -- the open tab: the page's paper (#d9c9ab)
+local RIBBON_JOIN = 3                           -- how far the open tab's paper runs onto the page, over the page's rim
 T.color.tabStone = { 0.200, 0.161, 0.078, 1 }   -- the others: stone (#332914)
 
 local function utf8Chars(s)
@@ -1053,8 +1058,8 @@ end
 
 function RibbonMixin:SetOn(on)
   self.on = on and true or false
-  T.Fill(self.bg, self.on and "tabPaper" or "tabStone")
-  self.join:SetShown(self.on)
+  self.bg:SetShown(not self.on)
+  for _, t in ipairs(self.sheet) do t:SetShown(self.on) end
   for _, t in ipairs(self.rim) do T.Fill(t, self.on and "inkRim" or "rim") end
   self:Fit()
 end
@@ -1080,17 +1085,43 @@ function RibbonMixin:NewDot()
   return d
 end
 
+-- The open tab's paper: T.Parchment's own layers, so it matches the page in game whatever the page's art does (a flat
+-- colour matched it only in renders: Mike, 11/4): a strip of the art at about the page's scale, its tint, its wash, the
+-- page's edge at its darkest (as the page is where the two meet) and the grain. It runs RIBBON_JOIN onto the page and
+-- covers the page's rim there, so the tab and the page are one sheet.
+local function RibbonSheet(r)
+  local out = {}
+  local function layer(sub)
+    local t = r:CreateTexture(nil, "BACKGROUND", nil, sub)
+    t:SetPoint("TOPLEFT", -RIBBON_JOIN, 0)
+    t:SetPoint("BOTTOMRIGHT")
+    t:Hide()
+    out[#out + 1] = t
+    return t
+  end
+  T.Fill(layer(0), "parchment")
+  if T.HasTexture(T.PAPER) then
+    local paper = layer(1)
+    paper:SetTexture(T.PAPER)
+    paper:SetTexCoord(0.50, 0.536, 0.20, 0.31)
+    paper:SetVertexColor(rgba(T.color.paperTint))
+    T.Fill(layer(2), "paperWash")
+  end
+  T.Fill(layer(4), "pageEdge")
+  local grain = layer(5)
+  grain:SetTexture(T.PAPER_ART .. "Grain", "REPEAT", "REPEAT")
+  grain:SetVertexColor(rgba(T.color.pageGrain))
+  if grain.SetHorizTile then grain:SetHorizTile(true) end
+  if grain.SetVertTile then grain:SetVertTile(true) end
+  return out
+end
+
 function T.Ribbon(parent, label, horizontal)
   local r = CreateFrame("Button", nil, parent)
   r.horizontal = horizontal and true or false
-  r.bg = r:CreateTexture(nil, "BACKGROUND")
+  r.bg = T.Area(r, "tabStone")
   r.bg:SetAllPoints()
-  -- The open one joins the page: its paper runs a few px onto the page's edge, over the page's own rim.
-  r.join = r:CreateTexture(nil, "BACKGROUND")
-  r.join:SetPoint("TOPRIGHT", r, "TOPLEFT", 1, 0)
-  r.join:SetPoint("BOTTOMRIGHT", r, "BOTTOMLEFT", 1, 0)
-  r.join:SetWidth(4)
-  T.Fill(r.join, "tabPaper")
+  r.sheet = RibbonSheet(r)
   -- The rim: top, bottom and the free end (not the side that meets the book).
   local top, bottom, right = r:CreateTexture(nil, "BORDER"), r:CreateTexture(nil, "BORDER"), r:CreateTexture(nil, "BORDER")
   top:SetPoint("TOPLEFT"); top:SetPoint("TOPRIGHT"); top:SetHeight(1)
@@ -1698,8 +1729,8 @@ end
 -- control, play on its left half and the playlist's list-plus on its right, under a thin edge with a divider between.
 -- On paper it's drawn in the page's ink: no fill, a tan edge, oxblood signs. On stone: a dark fill, the gold rim, gold
 -- signs. Under the mouse it washes faintly and its edge darkens; while its story plays its play half fills gilt with
--- an ink stop square and the playlist half stays (T.SetPill). h: 30 by a heading, 24 on a row; each half at least 28 wide, so
--- both stay easy to hit. p.play and p.add are its buttons: the caller gives them OnClick, and their tooltips as
+-- an ink stop square and the playlist half stays (T.SetPill). h: 24 by a heading (56 wide), 18 on a row (44 wide): Mike,
+-- 11/4, "a bit big". p.play and p.add are its buttons: the caller gives them OnClick, and their tooltips as
 -- b.onEnter / b.onLeave (the pill keeps OnEnter for its hover). p.play.icon says "play" or "stop" as on T.RoundButton.
 -- The edge is our own art (Media/Paper/Ring), cut in halves for the ends.
 T.RING = T.PAPER_ART .. "Ring"
@@ -1776,7 +1807,7 @@ function T.InkClose(parent, size)
   return b
 end
 
-local PILL_SIGN = { [30] = 14, [24] = 12, [18] = 10 }   -- the signs' box
+local PILL_SIGN = { [24] = 12, [18] = 10 }   -- the signs' box
 local function pillTint(t, c, file)
   if file then t:SetVertexColor(rgba(c)) else t:SetColorTexture(rgba(c)) end
   t:Show()
@@ -1784,7 +1815,7 @@ end
 
 function T.Pill(parent, h, stone)
   local p = CreateFrame("Frame", nil, parent)
-  p.h, p.half, p.stone = h, h >= 30 and 34 or 28, stone and true or false
+  p.h, p.half, p.stone = h, h >= 24 and 28 or 22, stone and true or false
   p:SetSize(2 * p.half, h)
   local disc = T.HasTexture(T.DISC) and T.DISC or nil
   local function piece(layer, sub, file, left, right)

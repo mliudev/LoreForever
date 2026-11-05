@@ -2990,6 +2990,32 @@
       },
       "text": "Test of Lore. Across the Great Sea, Horde seekers now carry the Test of Lore to the ruins of Lordaeron. You have answered Braug Dimspirit's first riddle in the Stonetalon Mountains. Now he sends you to a former human scholar among the Forsaken in Undercity. After you prove your mettle and learn the Dragon Aspects' history in the Legacy of the Aspects, Braug Dimspirit admits his knowledge has limits. The trial now reaches beyond Kalimdor and shows the Horde's far-reaching ties. So Braug sends you toward the undead capital beneath the ruins of Lordaeron. Parqual Fintallas lives in the damp corridors of the Apothecarium. Once a respected human chronicler of the northern kingdoms, he kept seeking knowledge through the Scourge and his transformation into one of the Forsaken. You arrive as an outsider, claiming to have completed the spiritual and physical trials of Thousand Needles. Parqual doubts you are more than an opportunistic mercenary, and expects you to prove your worth to him."
     },
+    "quest:1164": {
+      "1": [
+        {
+          "duration": 29.70122448979592,
+          "file": "Audio/Transport/full_quest_1164-e20ebd8ad4740b1cbd1a/1-0000.mp3",
+          "sha256": "632a3ea91b43e87ea2368ca408577c132351cf1bb9f27c5a295103f8132512b3",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "e27851",
+      "generation": "ee7060b995e40ca96c7f",
+      "hash": "e27851",
+      "source": {
+        "duration": 29.727347,
+        "file": null,
+        "sha256": "e20ebd8ad4740b1cbd1a9ff0f37ddc8292c3e8dd62bf452b28fb6d0ac46d72b5"
+      },
+      "text": "To Steal From Thieves. Genavie Callow in Undercity asks you to confront the Dabyrie family at their farmstead in Arathi. Her grievance turns a dispute over stolen belongings into a demand for vengeance. Genavie Callow says the plague took her family and the war left her estate looted and burned. She accuses Kenata and her children of taking the few belongings she still treasured. Now she asks you to bring her the heads of Kenata, Fardel, and Marcel Dabyrie from the Dabyrie Farmstead in Arathi."
+    },
     "quest:1167": {
       "1": [
         {
@@ -10429,9 +10455,9 @@
     "quest:2360": {
       "1": [
         {
-          "duration": 27.324081632653062,
-          "file": "Audio/Transport/full_quest_2360-06a25def106034a732ed/1-0000.mp3",
-          "sha256": "70beacd7e6a68fd4c484634ff8ea5258bb0e22037215c1111ea8133068650745",
+          "duration": 25.965714285714288,
+          "file": "Audio/Transport/full_quest_2360-7c662b9262406032d860/1-0000.mp3",
+          "sha256": "4a5840824d2a584a9f65541774faafaa04338a7a18717d2b6af6c71dece73ead",
           "start": 0
         }
       ],
@@ -10443,12 +10469,12 @@
         ]
       },
       "fullHash": "33351c",
-      "generation": "d8d91cd398b9dd4239c1",
+      "generation": "66c6fdf0d5e2a9581489",
       "hash": "33351c",
       "source": {
-        "duration": 27.350204,
+        "duration": 25.991837,
         "file": null,
-        "sha256": "06a25def106034a732ed1e5cb67177541a2be30c87d02285e0f1fafa47445343"
+        "sha256": "7c662b9262406032d860a2cadd4e941ea38fdea64227aa2b6954901cbf5a3493"
       },
       "text": "Mathias and the Defias. In Westfall, SI:7 has found the Defias unusually active. You are sent to Agent Kearnen near an abandoned Alliance watch tower for a debriefing. The Defias have seized an abandoned Alliance watch tower southeast of Sentinel Hill. SI:7 reports they use it as a base to smuggle goods from the Redridge supply route. You are sent to Westfall to find Agent Kearnen, hidden near the tower, and hear her debriefing."
     },
@@ -22984,6 +23010,32 @@
       },
       "text": "A Sealed Crate. Trade handlers seek lost cargo as bandits disrupt the roads. You can recover sealed crates from the wilderness and outlaw camps to help keep supplies moving. Highway crime has risen of late. Organized bandits and rogue thieves prey on trade routes, ambushing wagons, pack trains, and lone couriers. Their cargo is scattered across wilderness roads or carried off to outlaw camps. These raids threaten the supply lines between settlements. Traders and cargo handlers rely on independent adventurers to recover lost freight and keep supplies moving. Sealed crates rescued from bandits or found abandoned in the brush can be brought to trade handlers. There, the goods help secure supplies, curb illicit trade, and restore safety to regional commerce."
     },
+    "quest:91900": {
+      "1": [
+        {
+          "duration": 40.17632653061224,
+          "file": "Audio/Transport/full_quest_91900-2b96a0e07963a98b925f/1-0000.mp3",
+          "sha256": "466cd687d6b086589defc302266c5f905899abad68e78584a920fbe7f9996edb",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "b1784a",
+      "generation": "2ad6e4eb1615865e431e",
+      "hash": "b1784a",
+      "source": {
+        "duration": 40.202449,
+        "file": null,
+        "sha256": "2b96a0e07963a98b925f5b20738198762698d482d3857ab8fdb2ac9f5738b6a3"
+      },
+      "text": "A Sealed Crate. Bandits and thieves are raiding the roads, and lost shipments lie scattered across the wilds. Local merchants will pay you to bring a sealed crate back. Caravans and couriers now face ambushes along the old trade highways. Many leave wagons and crates behind when they flee, and the goods sit in the brush until someone finds them. Merchants and depot keepers depend on travelers to bring that cargo home. Carry a sealed crate to a receiving depot and you earn a bounty on the spot. Handlers sort the freight and send it on its way, so commerce keeps moving despite the brigands. While the roads stay contested, lost cargo remains steady work for any traveler passing through."
+    },
     "quest:91904": {
       "1": [
         {
@@ -26415,6 +26467,32 @@
         "sha256": "2692ccfccf30992ccd20b6848b5255097b8e57f6179f69a5aa702800d0279586"
       },
       "text": "The Fate of the Den. At the druid den, survivors mourn their fallen after the cultist assault. The Fate of the Den reaches Lotheluum in Valanaar with a recovered missive and word of heavy losses. The dispatch reveals that someone in Valanaar has been feeding vital information to the enemy. Cultists struck the druid den and left its defenders battered and grieving for fallen comrades. Outside aid brought the immediate danger under control, but the physical and emotional devastation remains immense. The dead cannot be brought back, and the wounded survivors are too weak for the long trek. Lingering cultists still roam nearby."
+    },
+    "quest:94493": {
+      "1": [
+        {
+          "duration": 29.59673469387755,
+          "file": "Audio/Transport/full_quest_94493-0e9f8f089f8907beb15e/1-0000.mp3",
+          "sha256": "25d5caa5321793f5f0b7c36417d629d73000e7c36169049d11a1f78b6c67ac80",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "abe5a7",
+      "generation": "2a11c54368333c2c93f1",
+      "hash": "abe5a7",
+      "source": {
+        "duration": 29.622857,
+        "file": null,
+        "sha256": "0e9f8f089f8907beb15ea0eabd9804e69971789e3cb6128c79c7b95503027f90"
+      },
+      "text": "A Sacrifice in Vain. Elegael Thornpaw fears the Al'Aketh Cultists will overwhelm the wounded in her den. A message meant for Valanaar has not reached them, leaving her to ask for help. The Al'Aketh Cultists fell upon Elegael Thornpaw's fellows with almost no warning. Many in her den are wounded or dying, and she does not know how long they can survive the attack. She had tried to send word to Valanaar, but the message did not get through. With no reinforcements in sight, Elegael asks you to help."
     },
     "quest:94494": {
       "1": [
@@ -32750,15 +32828,15 @@
           "1"
         ]
       },
-      "fullHash": "c5b003",
-      "generation": "03517d15846e93dbd87f",
-      "hash": "c5b003",
+      "fullHash": "c515fc",
+      "generation": "bfc3ce2ef30e5a5ffc85",
+      "hash": "c515fc",
       "source": {
         "duration": 24.737959,
         "file": null,
         "sha256": "37cb28e6ad7ce1c116e3af4d47bafe1e4812037321d76ac4e17cd4aa342aa173"
       },
-      "text": "Thunderhorns Bericht. Mull Thunderhorn sends you to carry his report to Archdruid Hamuul Runetotem in Thunder Bluff. The elders need to hear what your help has accomplished. Mull Thunderhorn’s report concerns the springs of Mulgore. Archdruid Hamuul Runetotem is on the Elder Rise in eastern Thunder Bluff, where those waters sustain the tauren and the animals they rely on for food, clothing, and companionship."
+      "text": "Thunderhorn's Report. Mull Thunderhorn sends you to carry his report to Archdruid Hamuul Runetotem in Thunder Bluff. The elders need to hear what your help has accomplished. Mull Thunderhorn’s report concerns the springs of Mulgore. Archdruid Hamuul Runetotem is on the Elder Rise in eastern Thunder Bluff, where those waters sustain the tauren and the animals they rely on for food, clothing, and companionship."
     },
     "quest:98459": {
       "1": [
@@ -34769,6 +34847,9 @@
       2153,
       2326
     ],
+    "12f4052a56699f7d700faf95ee7014c9e3b1cea5e7db6d898e03eea48b5ac7f7": [
+      503
+    ],
     "1308338b75d7f978ee7649bf20498eeb08cb9812da9f129fdf455665bd7438d4": [
       491,
       801
@@ -35696,6 +35777,10 @@
       962,
       1324
     ],
+    "23f3f8219508592cf543ffb18f975c96f1272a53b719804fdc93cc8c348a7eb0": [
+      512,
+      805
+    ],
     "23fc46049213b98d936a3f1e0512e8c1d520f35b26af110db1a1c51fa21a01f2": [
       181,
       503,
@@ -35744,6 +35829,13 @@
       212,
       397,
       724
+    ],
+    "25d5caa5321793f5f0b7c36417d629d73000e7c36169049d11a1f78b6c67ac80": [
+      210,
+      399,
+      588,
+      804,
+      974
     ],
     "25ea380e76975467cc8623d85ab36cf6d035c6548e17c563a544e4ded38bcb51": [
       702
@@ -35946,6 +36038,9 @@
       2868,
       3042,
       3233
+    ],
+    "291a158c2050223bd1db91d8012368bbf6f170bb8858558f9d6387312b38d756": [
+      459
     ],
     "295859d0b8921f3c8cb0273713248bde18f9dd0922663f72695732f37d73245c": [
       400,
@@ -36205,6 +36300,9 @@
       859,
       1027
     ],
+    "2ee7b3f5fbb6a732d937f25c2296258a8baf31b5451ad81f31cfb5fb3faf42ea": [
+      592
+    ],
     "2f5e626655247c7163e504d863b537dddcc7cd94b76b22c39352470485524847": [
       227,
       457,
@@ -36301,6 +36399,9 @@
       828,
       1047,
       1190
+    ],
+    "3274b6d35648402bc062be072d7437e7676c904ecc73c07663e93a63cb127683": [
+      424
     ],
     "32ce7d8d3570a67d7af699e095b6a4c5886af91403145a18945bcfa7f5781b36": [
       181,
@@ -37098,6 +37199,15 @@
       825,
       1068
     ],
+    "466cd687d6b086589defc302266c5f905899abad68e78584a920fbe7f9996edb": [
+      230,
+      371,
+      556,
+      797,
+      976,
+      1139,
+      1327
+    ],
     "466d7748dcd816293ceb045f4b63894d6e38959825012cf4edabff7cff6131f6": [
       207,
       380,
@@ -37328,6 +37438,12 @@
       189,
       373,
       528
+    ],
+    "4a5840824d2a584a9f65541774faafaa04338a7a18717d2b6af6c71dece73ead": [
+      170,
+      368,
+      584,
+      768
     ],
     "4a5a5f670deff690a3cf44b48f94354cbb552d4d665d87499e9cb7abd9d0840e": [
       271,
@@ -38408,6 +38524,12 @@
       747,
       989
     ],
+    "632a3ea91b43e87ea2368ca408577c132351cf1bb9f27c5a295103f8132512b3": [
+      242,
+      445,
+      674,
+      853
+    ],
     "6361c69004763068ec2a0ba8bb3abaecd2ce9b0b83e12077e13c67711b7fd946": [
       595
     ],
@@ -38875,6 +38997,10 @@
       1507,
       1745
     ],
+    "6c685fee5b29907436d41ac3e35020357b9ca33d75a654c70beb60c38fb380ba": [
+      505,
+      819
+    ],
     "6c81ff9ba19ed63d3c6821827839485f0ce467cddc3f9361914331e0ff1e33eb": [
       140,
       352,
@@ -39010,12 +39136,6 @@
       1627,
       1839,
       1981
-    ],
-    "70beacd7e6a68fd4c484634ff8ea5258bb0e22037215c1111ea8133068650745": [
-      187,
-      394,
-      619,
-      817
     ],
     "70c3932abccbd9d130bacd712e5e9905f7caeab387f5def14601f840da22e13a": [
       191,
@@ -39978,6 +40098,9 @@
       1171,
       1449,
       1625
+    ],
+    "86d276b1e10cc3b468bd7f8c93ee086ab152e9dce9bd2cfb29f671a433b4cdff": [
+      313
     ],
     "86dcbd48308f07c0ca2f3bd0ee7d125ac566bfddff5b8df5588c5efdd05937d5": [
       174,
@@ -41668,6 +41791,10 @@
       804,
       940,
       1233
+    ],
+    "ab264f80cffb1fa5031663db6a831412e041d0e8ca9cd4d92a5ff31587651ad8": [
+      458,
+      760
     ],
     "ab2cbcbeec27fa06ec405544334e4ab25add459d7d7bee8c140b27c1ab003bd1": [
       208,
@@ -45111,6 +45238,9 @@
       1262,
       1667
     ],
+    "fdf6a8c479214457c56abf1200e6f0741b7a2174b3b1828c68718e2c50786b69": [
+      341
+    ],
     "fe2388bb4992aeb6054d176daad0be8f1269124502e43799de08234e3ff6a21b": [
       278,
       462,
@@ -45909,6 +46039,9 @@
     "25c88e230977a90e34927c142b5b8f30f9b71307df32d3103f791f0fef769ec2": {
       "397": 1
     },
+    "25d5caa5321793f5f0b7c36417d629d73000e7c36169049d11a1f78b6c67ac80": {
+      "399": 1
+    },
     "25efbf847bfe79c385c0902f40c1ee0697c19ada128c8ad83e59c5516d8e6c22": {
       "498": 1
     },
@@ -46500,6 +46633,10 @@
     "466b8a4cbf551d1410c4441e9270e3c51354c92f2f3336ac1d7639edb1f4e627": {
       "557": 1
     },
+    "466cd687d6b086589defc302266c5f905899abad68e78584a920fbe7f9996edb": {
+      "371": 1,
+      "976": 2
+    },
     "466d7748dcd816293ceb045f4b63894d6e38959825012cf4edabff7cff6131f6": {
       "1154": 2,
       "380": 1
@@ -46597,6 +46734,9 @@
     },
     "4a5432f160f2cb59254f0b058d911da152b468de829d8caf2d008547a9b64baf": {
       "189": 1
+    },
+    "4a5840824d2a584a9f65541774faafaa04338a7a18717d2b6af6c71dece73ead": {
+      "368": 1
     },
     "4a5a5f670deff690a3cf44b48f94354cbb552d4d665d87499e9cb7abd9d0840e": {
       "572": 1
@@ -47071,6 +47211,9 @@
     "62ce7a64fbbadd694c18fedec7c7f3afdb893fb8783ad67ff23df476d7af183c": {
       "504": 1
     },
+    "632a3ea91b43e87ea2368ca408577c132351cf1bb9f27c5a295103f8132512b3": {
+      "445": 1
+    },
     "637e8ff08cf2acaa0e997ad3b57546f3ddeaa767290c1d34d199ef59175bc0f0": {
       "440": 1,
       "928": 2
@@ -47343,9 +47486,6 @@
     "7059864c2b41ff034ca72e1ac391c655763743cf3e3451acdd28d647c34fb84b": {
       "1432": 2,
       "514": 1
-    },
-    "70beacd7e6a68fd4c484634ff8ea5258bb0e22037215c1111ea8133068650745": {
-      "394": 1
     },
     "70c3932abccbd9d130bacd712e5e9905f7caeab387f5def14601f840da22e13a": {
       "381": 1,

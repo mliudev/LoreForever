@@ -20,4 +20,7 @@
   <Binding name="LOREFOREVER_ASKTARGET" category="ADDONS" runOnUp="true">
     LoreForever_AskTarget(keystate)
   </Binding>
+  <Binding name="LOREFOREVER_SKY" category="ADDONS">
+    LoreForever_ToggleSky()
+  </Binding>
 </Bindings>

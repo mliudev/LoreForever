@@ -48,9 +48,9 @@ Options.DEFAULTS = {
   automaticPictures = true,
   capture = true,          -- keep the quest, gossip and book text Forever shows, to share at /contribute (Capture.lua)
   -- Live game info: Willo's sky, star rings over the minimap that the companion app reads (Strip.lua, Sky.lua,
-  -- LOR-416). Opt-in: on only after an explained yes, here or in Willo (her liveGame: one switch for both apps,
-  -- LOR-544); the player's own tick or untick here (liveStripChosen) wins over hers (Strip.On). It shows only while
-  -- the Lore Forever panel is open, unless liveStripAlways.
+  -- LOR-416). Opt-in: on only after an explained yes, in Willo (her liveGame: one switch for both apps, LOR-544) or
+  -- with /lore live, which says what it is; a choice made here (liveStripChosen) wins over hers (Strip.On). It shows
+  -- only when it's needed, unless liveStripAlways (Strip.Showing).
   liveStrip = false,
   liveStripAlways = false,
   -- The small Contribute button on quest, gossip and book windows (Capture.lua). Defaults are written into
@@ -358,7 +358,7 @@ function Options.VoiceSection(c, anchor)
     return b, text, n
   end
   local function revoice()
-    ns.Voice.Refresh()
+    ns.Voice.Refresh(true)
     if ns.UI and ns.UI.OnVoiceChanged then ns.UI.OnVoiceChanged() end
   end
   local fillGender, _, fillGenderNote = tick(L["Let a man's and a woman's narrator fill in for each other"],
@@ -402,7 +402,7 @@ function Options.VoiceSection(c, anchor)
   end)
   local willoHead = heading(c, L["Willo's voice"], genderNote, 16)
   willoHead:SetPoint("TOPLEFT", genderNote, "BOTTOMLEFT", -26, -16)
-  local willoNote = note(c, L["Willo speaks in her own voice, picked in Willo. She can also read quest pages no one recorded, when you press the play button on the quest window or with Speak quest dialogue on."], willoHead, 6)
+  local willoNote = note(c, L["Willo speaks in her own voice, picked in Willo."], willoHead, 6)
   -- "New" after an update, when this version's notes name one of the two (WhatsNew.lua; section.ShowNew).
   local raceNew = ns.WhatsNew.Tag(c, raceText, "LEFT", "RIGHT", 8, 0)
   local genderNew = ns.WhatsNew.Tag(c, genderText, "LEFT", "RIGHT", 8, 0)
@@ -666,7 +666,10 @@ local function rows()
     { "onDemand", L["Narration: only when I press Play"], L["Nothing plays by itself: not as you arrive, on flights, at quest givers or in books. Play buttons, the Narrate key and your playlist still work."] },
     { "narrateFlights", L["Narrate flights"], L["Read the story of each zone aloud while on a flight path."] },
     { "autoZone", L["Play narrations as you arrive"], L["When you reach a zone or place with a recorded narration, play it. Storyline recaps and the story passages your quests open play by themselves under this too. Never during combat or a flight, and never over something already playing."] },
-    { "questDialogue", L["Speak quest dialogue"], L["Hear each quest page as you open it. When it's off, press the play button next to Lore on the quest window. Leave it off if another add-on reads your quests. The same switch as in Willo."] },
+    -- (a community pack frozen before this wording, Italian and Romanian, still has the line as it was: its own words over English)
+    { "questDialogue", L["Speak quest dialogue"], rawget(L, "Hear each quest page as you open it. When it's off, press the play button next to Lore on the quest window. Leave it off if another add-on reads your quests.")
+      or rawget(L, "Hear each quest page as you open it. When it's off, press the play button next to Lore on the quest window. Leave it off if another add-on reads your quests. The same switch as in Willo.")
+      or L["Hear each quest page as you open it. When it's off, press the play button next to Lore on the quest window. Leave it off if another add-on reads your quests."] },
     { "skipHeard", L["Skip what you've heard"], L["Don't play a narration by itself again once this character has heard it. You can still play it any time; Found ticks the ones you've heard."] },
     { "packHints", L["Narration pack hints"], L["When you enter a zone whose places and people are narrated in a voice pack you don't have, say so once."] },
     { "journey", L["Remember my journey"], L["Keep track of the places you discover, the people you meet, the foes you defeat and the quests you finish, for your journey page. It stays on your PC."] },
@@ -689,10 +692,7 @@ end
 -- alone, and journey pictures reach the journey through Willo's picture book.
 local function willoRows()
   local out = {
-    { "liveStrip", L["Live game info for %s"]:format(ns.COMPANION_NAME), L["While the Lore Forever window is open, or while you hold %s's talk key to ask a question, rings of stars in a blue mist show over your minimap. %s reads this little sky to know where you are, who you're targeting and your tracked quest. Only %s, on this PC, reads it. It isn't a hack: it doesn't read the game's memory, never presses keys or clicks, and sends nothing online. Untick to turn it off."]:format(ns.COMPANION_NAME, ns.COMPANION_NAME, ns.COMPANION_NAME)
-      .. " " .. L["When something big happens, like a new level, the stars twinkle for a moment so %s can notice."]:format(ns.COMPANION_NAME) },
-    { "liveStripAlways", L["Live game info: show it all the time"], L["Keep the sky over your minimap while the Lore Forever window is closed too, so %s always knows where you are. Only matters with Live game info on."]:format(ns.COMPANION_NAME) },
-    { "pictureHideUI", L["Hide the interface when taking a journey picture"], L["Print Screen takes a normal WoW screenshot. For a journey picture, use /lore picture or set Take a journey picture in Key Bindings, AddOns. This option hides your interface for a moment, except in combat. Turn on Picture book in %s to keep your journey pictures."]:format(ns.COMPANION_NAME) },
+    { "pictureHideUI", L["Hide the interface when taking a journey picture"], L["Print Screen takes a normal WoW screenshot. For a journey picture, use /lore picture or give Take a journey picture a key under Keys, above. This option hides your interface for a moment, except in combat. Turn on Picture book in %s to keep your journey pictures."]:format(ns.COMPANION_NAME) },
   }
   if ns.Journey and ns.Journey.PictureBookOn() then
     out[#out + 1] = { "automaticPictures", L["Automatic journey pictures"],
@@ -899,7 +899,6 @@ function Options.Create()
     cb.desc = desc
     cb:SetScript("OnClick", function(self)
       LoreForeverDB.settings[key] = self:GetChecked() and true or false
-      if key == "liveStripAlways" then LoreForeverDB.settings.liveStripAlwaysOwn = true end   -- wins over Willo's yes
       if key == "showSpoilers" and ns.UI and ns.UI.UpdateListen then ns.UI.UpdateListen() end
       if key == "minimap" and ns.MinimapButton then ns.MinimapButton() end
       if key == "questButton" and ns.Hooks then
@@ -912,11 +911,6 @@ function Options.Create()
       if key == "getWillo" and ns.UI.UpdateWilloIcon then ns.UI.UpdateWilloIcon() end
       if key == "questDialogue" then ns.Voice.SetQuestDialogue(self:GetChecked()) end
       if key == "journey" and ns.Journey then ns.Journey.OnToggle() end
-      if key == "liveStrip" then   -- the player's own choice, over Willo's yes from now on (Strip.On)
-        LoreForeverDB.settings.liveStripChosen = true
-        if p.updateWillo then p.updateWillo() end
-      end
-      if (key == "liveStrip" or key == "liveStripAlways") and ns.Strip then ns.Strip.Update() end
       if key == "storylines" and ns.UI and ns.UI.Refresh then ns.UI.Refresh() end
       if key == "storylines" and ns.Hooks and ns.Hooks.RefreshQuestStory then ns.Hooks.RefreshQuestStory() end
       if key == "contributeButtons" and ns.Capture then ns.Capture.UpdateAll() end
@@ -926,22 +920,10 @@ function Options.Create()
     return desc, cb
   end
   for i, row in ipairs(rows()) do last = check(row, last, i == 1) end
-  local keyBtn = CreateFrame("Button", nil, c, "UIPanelButtonTemplate")
-  keyBtn:SetSize(160, 24)
-  keyBtn:SetPoint("TOPLEFT", last, "BOTTOMLEFT", -26, -16)
-  keyBtn:SetText(L["Set panel key..."])
-  fit(keyBtn, 160)
-  keyBtn:SetScript("OnClick", function() ns.Hooks.KeyPrompt("toggle"):Show() end)
-  local narrBtn = CreateFrame("Button", nil, c, "UIPanelButtonTemplate")
-  narrBtn:SetSize(180, 24)
-  narrBtn:SetPoint("LEFT", keyBtn, "RIGHT", 10, 0)
-  narrBtn:SetText(L["Set narration key..."])
-  fit(narrBtn, 180)
-  narrBtn:SetScript("OnClick", function() ns.Hooks.KeyPrompt("narrate"):Show() end)
   -- Forget what this character has heard, so narrations and quest text play by themselves again.
   local resetBtn = CreateFrame("Button", nil, c, "UIPanelButtonTemplate")
   resetBtn:SetSize(200, 24)
-  resetBtn:SetPoint("TOPLEFT", keyBtn, "BOTTOMLEFT", 0, -8)
+  resetBtn:SetPoint("TOPLEFT", last, "BOTTOMLEFT", -26, -16)
   resetBtn:SetText(L["Reset heard narrations"])
   fit(resetBtn, 200)
   resetBtn:SetScript("OnClick", function()
@@ -1004,15 +986,76 @@ function Options.Create()
   questBtn:SetScript("OnLeave", function() GameTooltip:Hide() end)
   questBtn:SetScript("OnClick", function() ns.Hooks.ResetQuestButton() end)
   p.resetQuestButton = questBtn
+  -- Every key in one place (LOR-1158; Mike: "Sometimes it lets you set keys and sometimes you have to go to keybindings
+  -- and then addons."): what it is now or None, and Set... through the prompt, with its warning and combat refusal.
+  -- Willo's two are set in her window (LOR-1116), so they only say so; those and her sky's show with Willo installed.
+  local keysHead = heading(c, L["Keys"], windowsBtn, 24)
+  local keyRows, lastKey = {}, keysHead
+  local function keyRow(label, binding, which, willoOnly)
+    local name = c:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+    name:SetPoint("TOPLEFT", lastKey, "BOTTOMLEFT", 0, lastKey == keysHead and -12 or -14)
+    name:SetWidth(240)
+    name:SetJustifyH("LEFT")
+    name:SetWordWrap(false)
+    name:SetText(label)
+    local shown = c:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+    shown:SetPoint("LEFT", name, "LEFT", 250, 0)
+    shown:SetWidth(130)
+    shown:SetJustifyH("LEFT")
+    shown:SetWordWrap(false)
+    local set
+    if which then
+      set = CreateFrame("Button", nil, c, "UIPanelButtonTemplate")
+      set:SetSize(70, 22)
+      set:SetText(L["Set..."])
+      fit(set, 70)
+      set:SetScript("OnClick", function() ns.Hooks.KeyPrompt(which):Show() end)
+    else
+      set = c:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
+      set:SetTextColor(T.rgba(T.color.muted))
+      set:SetText(L["Set in %s"]:format(ns.COMPANION_NAME))
+    end
+    set:SetPoint("LEFT", shown, "LEFT", 140, 0)
+    keyRows[#keyRows + 1] = { name = name, shown = shown, set = set, binding = binding, willoOnly = willoOnly }
+    lastKey = name
+  end
+  keyRow(L["Toggle Lore Forever panel"], "LOREFOREVER_TOGGLE", "toggle")
+  keyRow(L["Play narration"], "LOREFOREVER_NARRATE", "narrate")
+  keyRow(L["Play/pause narration playlist"], "LOREFOREVER_PLAYLIST", "playlist")
+  keyRow(L["Next narration"], "LOREFOREVER_PLAYLIST_NEXT", "playlistNext")
+  keyRow(L["Take a journey picture"], "LOREFOREVER_PICTURE", "picture")
+  keyRow(L["Show %s's sky"]:format(ns.COMPANION_NAME), "LOREFOREVER_SKY", "sky", true)
+  keyRow(L["Talk to %s"]:format(ns.COMPANION_NAME), "LOREFOREVER_ASKWILLO", nil, true)
+  keyRow(L["Their key"], "LOREFOREVER_ASKTARGET", nil, true)
   -- Willo's settings (willoRows), together under their own heading. Without Willo they're greyed out and can't be
-  -- changed, under a note saying where to get it (LOR-459), except that Live game info's, still ticked, can be
-  -- unticked (LOR-541: the sky kept painting with its box greyed out); with it they work as the others do. Installed is
+  -- changed, under a note saying where to get it (LOR-459); with it they work as the others do. Installed is
   -- Companion.Installed: Willo's LoreForever_Willo add-on, loaded at login, so a new install shows after a /reload.
   -- Until Willo launches (Companion.OFFER_WILLO off) the section shows only to players who have Willo already.
-  local willoHead = heading(c, ns.COMPANION_NAME, windowsBtn, 24)
+  local willoHead = heading(c, ns.COMPANION_NAME, lastKey, 24)
+  function p.updateKeys()
+    local installed, lowest = ns.Companion.Installed(), keysHead
+    for _, row in ipairs(keyRows) do
+      local on = installed or not row.willoOnly
+      row.name:SetShown(on)
+      row.shown:SetShown(on)
+      row.set:SetShown(on)
+      if on then lowest = row.name end
+      local key = GetBindingKey and GetBindingKey(row.binding)
+      local text = key and GetBindingText and GetBindingText(key) or key
+      row.shown:SetText(text and text:gsub("|", "||") or L["None"])
+      row.shown:SetTextColor(T.rgba(key and T.color.tipText or T.color.muted))
+    end
+    willoHead:ClearAllPoints()   -- straight under the last row showing
+    willoHead:SetPoint("TOPLEFT", lowest, "BOTTOMLEFT", 0, -24)
+  end
   local willoNote = note(c, "", willoHead, 6)
   p.willoChecks = {}
-  last = willoNote
+  -- Live game info as it is (Strip.On) and where it's set: one home, Willo's Settings (LOR-1116). /lore live still
+  -- works, and a choice made here stands until they say yes in Willo (Strip.SyncWillo).
+  local liveLine = note(c, "", willoNote, 10, "GameFontHighlight")
+  local liveWhere = note(c, "", liveLine, 3)
+  p.liveLine = liveLine
+  last = liveWhere
   for i, row in ipairs(willoRows()) do
     local cb
     last, cb = check(row, last, i == 1)
@@ -1045,27 +1088,24 @@ function Options.Create()
     willoNote:SetText(on and string.format(L["These work with %s, Lore Forever's companion app on this PC."], ns.COMPANION_NAME)
       or string.format(L["Needs %s, Lore Forever's free companion app (%s). Installed it? Type /reload."],
         ns.COMPANION_NAME, ns.Companion.WILLO_URL))
+    local live = ns.Strip.On()
+    liveLine:SetText(not live and L["Live game info: off"]
+      or ns.Strip.Always() and L["Live game info: on, sky kept up"]
+      or L["Live game info: on, sky hidden until you talk to %s"]:format(ns.COMPANION_NAME))
+    -- On with no yes from Willo (no Willo, or /lore live or an old tick, and her switch off): the sky still paints and
+    -- her switch wouldn't stop it, so the way off is here (LOR-541). Turned off here with her yes standing: her switch
+    -- shows on, so her Settings wouldn't help.
+    liveWhere:SetText(live and (not on or not ns.Strip.OnFromWillo()) and L["Type /lore live to turn it off."]
+      or not live and ns.Strip.OnFromWillo() and L["You turned it off in the game. Type /lore live to turn it back on."]
+      or L["You set this in %s: Settings › Basics."]:format(ns.COMPANION_NAME))
+    liveLine:SetShown(shown)
+    liveWhere:SetShown(shown)
     for _, cb in ipairs(p.willoChecks) do
-      if cb.key == "liveStrip" then   -- on from Willo's yes (LOR-544): say so, and that unticking here wins
-        local s = LoreForeverDB.settings
-        cb.tip = cb.tip or cb.desc:GetText()
-        cb.desc:SetText(ns.Strip.OnFromWillo() and not s.liveStripChosen and not s.liveStrip
-          and (cb.tip .. " " .. string.format(L["Turned on in %s. Untick to turn it off here."], ns.COMPANION_NAME))
-          or cb.tip)
-      end
       cb:SetShown(shown)
       cb.desc:SetShown(shown)
-      -- Without Willo, Live game info's boxes still do something (the sky paints), so one ticked stays clickable.
-      local usable = on or (cb:GetChecked() and (cb.key == "liveStrip" or cb.key == "liveStripAlways"))
-      if usable then cb:Enable() else cb:Disable() end
-      cb.label:SetTextColor(T.rgba(usable and T.color.tipText or T.color.faint))
-      cb.desc:SetTextColor(T.rgba(usable and T.color.muted or T.color.faint))
-      if cb.key == "liveStripAlways" then   -- on from Willo's yes: say so, and that unticking here wins
-        cb.tip = cb.tip or cb.desc:GetText()
-        local fromWillo = ns.Strip.AlwaysFromWillo() and not LoreForeverDB.settings.liveStripAlwaysOwn
-        cb.desc:SetText(fromWillo and (cb.tip .. " " .. string.format(L["Turned on in %s. Untick to turn it off here."],
-          ns.COMPANION_NAME)) or cb.tip)
-      end
+      if on then cb:Enable() else cb:Disable() end
+      cb.label:SetTextColor(T.rgba(on and T.color.tipText or T.color.faint))
+      cb.desc:SetTextColor(T.rgba(on and T.color.muted or T.color.faint))
     end
   end
   p.willoNote = willoNote
@@ -1082,15 +1122,11 @@ function Options.Create()
   p.voice.MakeRows(#ns.Packs.List("voice") + 1)
   p:SetScript("OnShow", function(self)
     for _, cb in ipairs(self.checks) do
-      local ticked = LoreForeverDB.settings[cb.key]
-      if cb.key == "liveStripAlways" and ns.Strip then ticked = ns.Strip.Always() end
-      cb:SetChecked(ticked and true or false)
+      cb:SetChecked(LoreForeverDB.settings[cb.key] and true or false)
       cb.newTag:SetShown(ns.WhatsNew.OptionIsNew(cb.english))
     end
-    for _, cb in ipairs(self.willoChecks) do   -- Live game info as it is, Willo's yes included (Strip.On, LOR-544)
-      if cb.key == "liveStrip" then cb:SetChecked(ns.Strip.On()) end
-    end
     self.updateWillo()
+    self.updateKeys()
     self.voice.ShowNew()
     ns.WhatsNew.Seen("options")   -- shown this once; gone the next time Options opens
     self.updateLanguage()

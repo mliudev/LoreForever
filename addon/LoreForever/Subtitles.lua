@@ -141,7 +141,8 @@ local function questText(target, kind)
   end
   local saved = qid and LoreForeverDB and type(LoreForeverDB.quests) == "table" and LoreForeverDB.quests[qid]
   local text = type(saved) == "table" and saved[QUEST_FIELD[kind]]
-  if type(text) == "string" and text:find("%S") then return text end
+  -- (kept text says $N where the game said the player's name, LOR-1127)
+  if type(text) == "string" and text:find("%S") then return ns.Capture.Personal(text) end
   -- The target's own words: the quest log's offer is its text and then its objectives.
   return target.text
 end

@@ -1198,7 +1198,7 @@ P.transport["item:defias-tower-key"] = {
   fullHash = "3e197d",
   text = "Defias Tower Key. In Westfall, the Defias Tower Key marks a quiet passage past Klaven's Tower's sentries. Stormwind operatives need it as proof that an infiltrator slipped by unseen. Klaven's Tower is a Defias Brotherhood stronghold on the Westfall coast. Recent shipments from Duskwood brought malformed Defias drones to guard it. The drones are undead and covered in spikes.\n\nSI:7 watchers direct field agents to pick the sentries' pockets instead of fighting them. That way, no alarm sounds as the tower's defenses are breached.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_defias-tower-key-bad4761661229168b95a/1-0000.mp3", duration = 35.5526531, start = 0},
+    {file = "Audio/Transport/full_item_defias-tower-key-23ddb2b85eef4f9b160d/1-0000.mp3", duration = 34.2204082, start = 0},
   },
 }
 P.transport["item:deliah-s-ring"] = {
@@ -2974,7 +2974,7 @@ P.transport["item:klaven-mortwake-s-journal"] = {
   fullHash = "6936ae",
   text = "Klaven Mortwake's Journal. SI:7 operatives recover Klaven Mortwake's Journal from the Defias tower. It records the Brotherhood's search for a way to raise the dead. Master Mathias Shaw leads Stormwind's intelligence service, SI:7. He sought Mortwake's journal to trace the Brotherhood's wider alliances. The notes confirm experiments in reanimation and illicit support linking Duskwood, the Venture Company, and the Defias. For rogues serving the crown, recovering the research is a step toward mastering poisons.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_klaven-mortwake-s-journal-16aaf488b8888d338ea6/1-0000.mp3", duration = 34.1420408, start = 0},
+    {file = "Audio/Transport/full_item_klaven-mortwake-s-journal-04a9a004d18bfb2ddb45/1-0000.mp3", duration = 32.3657143, start = 0},
   },
 }
 P.transport["item:kodo-horn"] = {
@@ -3103,6 +3103,14 @@ P.transport["item:letter-to-delgren"] = {
   text = "Letter to Delgren. Balthule Shadowstrike sends word from the Tower of Althalaxx in northern Darkshore. His letter warns Delgren the Purifier of the Dark Strand cult's demonic work and must reach Maestra's Post in Ashenvale. At the Tower of Althalaxx ruins, Balthule Shadowstrike watches the Dark Strand cult gather. He cannot destroy them alone, so he writes to Delgren the Purifier, his tutor in the Holy Light, and asks for aid. Their foul rites threaten more than Darkshore's coast. The letter must travel south through Darkshore into western Ashenvale. There, Delgren works with night elf Sentinels against demonic and undead threats.",
   ["1"] = {
     {file = "Audio/Transport/full_item_letter-to-delgren-17796e4dd16e12340afe/1-0000.mp3", duration = 40.8032653, start = 0},
+  },
+}
+P.transport["item:letter-to-ello"] = {
+  hash = "517f71",
+  fullHash = "517f71",
+  text = "Letter to Ello. Abercrombie sends a sealed letter to Mayor Ello Ebonlocke in Darkshire. The hermit lives in a shack just north of Raven Hill Cemetery, claims an old friendship, and writes the missive in an archaic script. After you help Abercrombie with tasks around Duskwood, the old recluse gives you a note for Mayor Ello Ebonlocke. He says the mayor is an old friend who will celebrate what you have accomplished. When Ello breaks the seal, he has no recollection of anyone named Abercrombie and cannot read a single phrase of the archaic script. He sends the note to Darkshire scholar Sirra Von'Indi for translation.",
+  ["1"] = {
+    {file = "Audio/Transport/full_item_letter-to-ello-06748d012f3f3f333b00/1-0000.mp3", duration = 37.2506122, start = 0},
   },
 }
 P.transport["item:letter-to-jin-zil"] = {
@@ -3407,6 +3415,14 @@ P.transport["item:mountain-lion-blood"] = {
   text = "Mountain Lion Blood. In Hillsbrad and Alterac, Apothecary Lydon seeks Mountain Lion Blood. At Tarren Mill, he needs fresh blood for the Royal Apothecary Society’s Elixir of Pain. Mountain lions hunt across the highlands and foothills of Hillsbrad and Alterac. Hunters prize their pelts and claws, while Forsaken of the Royal Apothecary Society seek the blood in their veins. Apothecary Lydon in Tarren Mill believes fresh mountain lion blood can form the base of a potent brew. He means it to bring misery to the living. Apothecary Lydon’s work in Tarren Mill supports the Royal Apothecary Society’s effort to perfect the Forsaken’s New Plague. He gathers blood from vigorous wild beasts to refine a concoction called the Elixir of Pain. His experiments test how local organic compounds can be turned against the enemies of the Dark Lady.",
   ["1"] = {
     {file = "Audio/Transport/full_item_mountain-lion-blood-c3e73e0483d9532bd08e/1-0000.mp3", duration = 53.1069388, start = 0},
+  },
+}
+P.transport["item:muddy-journal-pages"] = {
+  hash = "4bab43",
+  fullHash = "4bab43",
+  text = "Muddy Journal Pages. Muddy Journal Pages were recovered from a murder scene in Duskwood years ago. Weathered and stained with soil, they remain with Tavernkeep Smitts, who kept them without proof of authorship as evidence in an unresolved local investigation.",
+  ["1"] = {
+    {file = "Audio/Transport/full_item_muddy-journal-pages-a06fac8b1e83035df54a/1-0000.mp3", duration = 14.7591837, start = 0},
   },
 }
 P.transport["item:mudsnout-blossom"] = {
@@ -5335,6 +5351,14 @@ P.transport["item:toxic-fogger"] = {
   text = "Toxic Fogger. In Stonetalon, the Toxic Fogger is bound for Venture Company air routes. The Forsaken Royal Apothecary Society filled it with lethal poison to contaminate the company’s flights. Apothecary Zamah sends the Toxic Fogger against the Venture Company's mining work. Apothecary Lydon brewed its toxin in Tarren Mill, and Zamah sent it from Thunder Bluff. She suspects the goblins carry messages and light cargo between Stonetalon and their headquarters by courier flying machine.\n\nZamah plans to release the poison where those machines land and refuel. The Forsaken mean to strike the company's supply route instead of meeting its mercenary crews in drawn-out skirmishes.",
   ["1"] = {
     {file = "Audio/Transport/full_item_toxic-fogger-68e941c3fe06d197d91d/1-0000.mp3", duration = 41.6914286, start = 0},
+  },
+}
+P.transport["item:translated-letter"] = {
+  hash = "ca7f1c",
+  fullHash = "ca7f1c",
+  text = "Translated Letter. In Darkshire, Sirra Von'Indi translates Abercrombie's letter for Mayor Ello Ebonlocke. The message sheds light on the hermit's dealings with the town.",
+  ["1"] = {
+    {file = "Audio/Transport/full_item_translated-letter-cc05615ed52377258877/1-0000.mp3", duration = 9.95265306, start = 0},
   },
 }
 P.transport["item:treshala-s-pendant"] = {

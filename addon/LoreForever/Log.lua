@@ -43,6 +43,7 @@ function Log.Init()
   -- Direct quest dialogue is a fresh opt-in, even when an older install saved autoQuest = true.
   -- The new questDialogue choice persists; the old automatic-only setting cannot enable it.
   db.settings.autoQuest = nil
+  db.settings.questPagesSeen = nil   -- Willo's copy of Speak quest dialogue is gone (LOR-1157)
   -- The book button beside the menu bar is gone (Mike, 2026-10-02: the key, the minimap button and /lore all open the
   -- panel, and the floating player stops narration). Forget its settings.
   db.settings.launcher, db.settings.launcherPos, db.settings.launcherOff = nil, nil, nil

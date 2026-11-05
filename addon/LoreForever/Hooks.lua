@@ -164,11 +164,22 @@ function Hooks.UnitLine(name)
   return loreTag() .. text, key
 end
 
-local function bindHint(tooltip)
+-- The narration key's half says what a press would do for this story now: stop it, queue it next, or play it
+-- (LoreForever_Narrate).
+local function bindHint(tooltip, key)
   local k = GetBindingKey and GetBindingKey("LOREFOREVER_TOGGLE")
   local n = GetBindingKey and GetBindingKey("LOREFOREVER_NARRATE")
-  local line = (k and n and string.format(L["Press %s for more, %s to listen"], k, n))
-    or (k and string.format(L["Press %s for more"], k)) or (n and string.format(L["Press %s to listen"], n))
+  local UI = ns.UI
+  local line
+  if n and UI and UI.speaking and UI.playingId == key then
+    line = k and string.format(L["Press %s for more, %s to stop"], k, n) or string.format(L["Press %s to stop"], n)
+  elseif n and UI and (UI.IsBusy() or UI.pl.state == "waiting") then
+    line = k and string.format(L["Press %s for more, %s to hear it next"], k, n)
+      or string.format(L["Press %s to hear it next"], n)
+  else
+    line = (k and n and string.format(L["Press %s for more, %s to listen"], k, n))
+      or (k and string.format(L["Press %s for more"], k)) or (n and string.format(L["Press %s to listen"], n))
+  end
   if line then tooltip:AddLine(line, 0.5, 0.5, 0.5) end
 end
 
@@ -194,7 +205,7 @@ local function onUnitTooltip(tooltip)
   local line, key = Hooks.UnitLine(name)
   if not line then return end
   tooltip:AddLine(line, 0.85, 0.85, 0.85, true)
-  bindHint(tooltip)
+  bindHint(tooltip, key)
   chronicleLine(tooltip, key)
   tooltip:Show()
 end
@@ -222,7 +233,7 @@ local function onItemTooltip(tooltip)
   -- An item with a story of its own: the keys that open it and read it aloud, as for a person (only when asked).
   local key = Hooks.ItemKey(name)
   if key then
-    bindHint(tooltip)
+    bindHint(tooltip, key)
     chronicleLine(tooltip, key)
   end
   if #lines > 0 then tooltip:Show() end
@@ -247,7 +258,9 @@ end
 -- log (QuestMapFrame.DetailsFrame) has a bar above the quest's text with the game's Back button at its left end
 -- (BackFrame): the Lore button at its right end level with Back, play and Contribute beside it. The map's title bar
 -- above that bar draws over anything of ours. The storyline is part of the quest's text (Hooks.QuestInfoStory).
-local QUEST_END, QUEST_MID = -28, -35   -- the quest window's row: its right end and middle, from the top right corner
+-- The quest window's row: its right end and middle, from the top right corner. The dark band runs from 25 to 62 down,
+-- so its middle keeps the row clear of the top bar and the parchment (Mike's note, 11/5).
+local QUEST_END, QUEST_MID = -28, -44
 local LOG_END = -11                     -- the log's bar: our row ends as far in as Back starts (LEFT 11, 4)
 
 -- Other add-ons' buttons in that row (AstroCat's reports: Spoken's Contribute, 10/2; Chronicle's Listen, 10/12). Add-ons
@@ -406,8 +419,14 @@ local function contribute(key) return ns.Capture and ns.Capture.buttons and ns.C
 Hooks.questRow = nil
 Hooks.logRow = nil
 
+-- A row the player moved along the band stays past the portrait: the pill reaches further left than the button did.
+local function pastPortrait(x, y, width, w)
+  if w > 0 and y - ROW_H / 2 > -QUEST_LEFT then return math.max(QUEST_LEFT + width - w, x) end
+  return x
+end
+
 -- The place the player picked for the quest window's row (settings.questButtonPos), kept on the window; nil if none.
-local function savedQuestRow()
+local function savedQuestRow(width)
   local p = S().questButtonPos
   if type(p) ~= "table" or type(p.x) ~= "number" or type(p.y) ~= "number" then return nil end
   local w = tonumber(QuestFrame:GetWidth()) or 0
@@ -415,7 +434,7 @@ local function savedQuestRow()
   local x, y = p.x, p.y
   if w > 0 then x = math.max(60 - w, math.min(0, x)) end
   if h > 0 then y = math.max(ROW_H / 2 - h, math.min(QUEST_MID, y)) end
-  return { x = x, y = y, how = "saved" }
+  return { x = pastPortrait(x, y, width, w), y = y, how = "saved" }
 end
 
 local function anchorQuestRow()
@@ -443,7 +462,7 @@ function Hooks.PlaceQuestRow(look)
   local shown = lore and lore:IsShown() or false
   local old = Hooks.questRow
   if not look and old and old.width == width and old.lore == shown then return end
-  local row = savedQuestRow()
+  local row = savedQuestRow(width)
   if not row then
     local top = qf.GetTop and qf:GetTop()
     local keep = look == "keep" and old and old.y == QUEST_MID and old.x or nil
@@ -554,8 +573,8 @@ function Hooks.DragQuestRow(b)
   local y = cy - grab[2] - (tonumber(QuestFrame:GetTop()) or 0)
   x = math.max(bw - w, math.min(0, x))
   y = math.max(ROW_H / 2 - h, math.min(QUEST_MID, y))   -- (no higher than the band: the title bar draws over it)
-  Hooks.questRow = { x = x, y = y, how = "saved",
-    width = rowWidth(Hooks.questDialogButton, Hooks.questDialogPlay, contribute("quest")) }
+  local width = rowWidth(Hooks.questDialogButton, Hooks.questDialogPlay, contribute("quest"))
+  Hooks.questRow = { x = pastPortrait(x, y, width, w), y = y, how = "saved", width = width }
   anchorQuestRow()
 end
 
@@ -616,7 +635,7 @@ local function gameQuestLevel(id)
   end
 end
 
--- The line a quest's play or Lore button tooltip ends with when its voices are a download the player hasn't got
+-- The line a quest's Lore button tooltip ends with when its voices are a download the player hasn't got
 -- (Voice.QuestPackHint). Always a hint, never an action: it only shows when the player hovers.
 local function packHint(id)
   local ok, line = pcall(function() return ns.Voice.QuestPackHint(gameQuestLevel(id)) end)
@@ -641,9 +660,9 @@ local function loreButton(parent, name, drag)
       ns.Theme.Tip(L["Click to open. Shift-click adds it to your playlist."], "tipDim", true)
     end
     if drag then ns.Theme.Tip(L["Shift-drag to move it. Right-click for options."], "tipDim", true) end
-    -- (on the play button's tooltip when that shows; here when the page has no play button)
+    -- (a page with a play button has its recording, so there's nothing to download for it)
     local play = self.via == "questdialog" and Hooks.questDialogPlay or self.via == "questlog" and Hooks.questLogPlay
-    local hint = not (play and play:IsShown()) and packHint(self.quest)
+    local hint = not (play and play:IsShown() and play.play:IsShown()) and packHint(self.quest)
     if hint then
       GameTooltip:AddLine(" ")   -- (a note of its own, not one more thing to click)
       ns.Theme.Tip(hint, "tipDim", true)
@@ -675,13 +694,18 @@ local function loreButton(parent, name, drag)
   return b
 end
 
--- The play button beside the quest window's Lore button (Voice.PlayQuestPage), the pill's round half on the window's dark
--- title band (T.RoundButton's stone look; gilt while it plays): the play sign plays what the quest giver says on this page (with Speak quest dialogue off too: it's pressed on purpose), a stop square stops it. Its tooltip says what plays: the quest giver's recorded words,
--- checked against this page's words. A page no voice recorded has no button. The quest log uses the same control.
-local function questPlayButton(parent, fromLog)
+-- The play-and-add pill beside the quest window's Lore button, on the window's dark band (T.Pill's stone look, Lore's
+-- height; Mike's pick, 11/5). Its play half (Voice.PlayQuestPage) plays what the quest giver says on this page (with
+-- Speak quest dialogue off too: it's pressed on purpose), and a stop square stops it. Its tooltip says what plays: the
+-- quest giver's recorded words, checked against this page's words. Its + puts that page in the playlist, and takes it
+-- out again (UI.DoQueueQuest). A page no voice recorded has no play half, and a quest with nothing recorded has no +.
+-- The quest log uses the same control.
+local function questPlayPill(parent, fromLog)
   local T = ns.Theme
-  local b = T.RoundButton(parent, 22, "stone")
-  b:SetFrameLevel((parent:GetFrameLevel() or 1) + 5)
+  local p = T.Pill(parent, ROW_H, true)
+  local b = p.play
+  p:SetFrameLevel((parent:GetFrameLevel() or 1) + 5)
+  local function loreOf() return fromLog and Hooks.questLogButton or Hooks.questDialogButton end
   b:SetScript("OnClick", function()
     if fromLog then
       local t = ns.UI.QuestLogTarget(Hooks.questLogButton.quest)
@@ -690,7 +714,7 @@ local function questPlayButton(parent, fromLog)
     else ns.Voice.PlayQuestPage() end
     Hooks.UpdateQuestPlayButton()
   end)
-  b:HookScript("OnEnter", function(self)
+  b.onEnter = function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
     local state
     if fromLog then state = Hooks.QuestLogPageState() else state = ns.Voice.QuestPageState() end
@@ -699,21 +723,35 @@ local function questPlayButton(parent, fromLog)
     else
       GameTooltip:AddLine(L["Play narration"])
       if state == "listen" then T.Tip(L["What the quest giver says, in the narrator's voice."], "tipText", true) end
-      if state == "willo" then T.Tip(string.format(L["%s reads this page aloud."], ns.COMPANION_NAME), "tipText", true) end
-    end
-    -- Only where the page isn't the quest giver's own recording (from any installed pack) that plays or would: Willo
-    -- reading it is the case, and the hint says why there's no narrator.
-    local lore = fromLog and Hooks.questLogButton or Hooks.questDialogButton
-    local hint = state == "willo" and packHint(lore and lore.quest)
-    if hint then
-      GameTooltip:AddLine(" ")
-      T.Tip(hint, "tipDim", true)
     end
     GameTooltip:Show()
+  end
+  b.onLeave = function() GameTooltip:Hide() end
+  p.add:SetScript("OnClick", function()
+    local lore = loreOf()
+    ns.UI.DoQueueQuest(lore.quest, lore.title, p.page)
+    Hooks.UpdateQuestPlayButton()
   end)
-  b:HookScript("OnLeave", function() GameTooltip:Hide() end)
-  b:Hide()
-  return b
+  p.add.onEnter = function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    ns.UI.QueueTooltip(ns.UI.QuestItemId(loreOf().quest))
+    GameTooltip:Show()
+  end
+  p.add.onLeave = b.onLeave
+  p:Hide()
+  return p
+end
+
+-- A pill follows its page and what plays. state: "listen" or "stop" for a recording; anything else has no play half.
+-- page: the page that recording plays, which its + queues; with none, the + queues the quest as Shift-click on Lore
+-- does (its other pages, or its story).
+local function setQuestPill(p, lore, state, page)
+  local UI, quest = ns.UI, lore and lore.quest
+  local recorded = state == "listen" or state == "stop"
+  local can = quest ~= nil and (recorded or UI.CanAddQuest(quest))
+  p.page = recorded and page or nil
+  ns.Theme.SetPill(p, state == "stop", can, can and UI.PlaylistIndex(UI.QuestItemId(quest)) ~= nil, recorded)
+  p:SetShown(recorded or can)
 end
 
 -- The storyline in the quest's own text (LOR-198, LOR-284): "Storyline · Tirisfal Glades: At War With The Scarlet
@@ -848,7 +886,7 @@ function Hooks.QuestFrames()
     Hooks.questDialogButton = loreButton(QuestFrame, "LoreForeverQuestDialogButton", true)
     Hooks.AtQuestRow(Hooks.questDialogButton)
     Hooks.questDialogButton.via = "questdialog"
-    Hooks.questDialogPlay = Hooks.Mine(questPlayButton(QuestFrame))
+    Hooks.questDialogPlay = Hooks.Mine(questPlayPill(QuestFrame))
     Hooks.lookAgain = watcher(QuestFrame, Hooks.PlaceQuestRow)
     -- The floating player steps out from under the quest window while it's open (UI.KeepPlayerClear).
     if QuestFrame.HookScript then
@@ -863,7 +901,7 @@ function Hooks.QuestFrames()
     Hooks.questLogButton = loreButton(details, "LoreForeverQuestLogButton")
     Hooks.AtLogRow(Hooks.questLogButton)
     Hooks.questLogButton.via = "questlog"
-    Hooks.questLogPlay = Hooks.Mine(questPlayButton(details, true))
+    Hooks.questLogPlay = Hooks.Mine(questPlayPill(details, true))
     Hooks.lookAgainLog = watcher(details, Hooks.PlaceLogRow)
     if hooksecurefunc and _G.QuestMapFrame_ShowQuestDetails then
       hooksecurefunc("QuestMapFrame_ShowQuestDetails", function(questID) Hooks.UpdateQuestLogButton(questID) end)
@@ -872,7 +910,7 @@ function Hooks.QuestFrames()
     Hooks.questLogButton = loreButton(QuestLogFrame, "LoreForeverQuestLogButton")
     Hooks.questLogButton:SetPoint("TOPRIGHT", QuestLogFrame, "TOPRIGHT", -40, -44)
     Hooks.questLogButton.via = "questlog"
-    Hooks.questLogPlay = questPlayButton(QuestLogFrame, true)
+    Hooks.questLogPlay = questPlayPill(QuestLogFrame, true)
     if hooksecurefunc and _G.SelectQuestLogEntry then
       hooksecurefunc("SelectQuestLogEntry", function() Hooks.UpdateQuestLogButton() end)
     end
@@ -960,17 +998,16 @@ function Hooks.UpdateQuestDialogButton()
   if Hooks.lookAgain then Hooks.lookAgain() end
 end
 
--- The play button follows the page and what plays (UI.UpdateNowPlaying calls this): beside Lore, or in its place when
--- the quest has no story; hidden when nothing can play.
+-- The pill follows the page and what plays (UI.UpdateNowPlaying calls this): beside Lore, or in its place when the
+-- quest has no story; hidden when there's nothing to play or to add.
 function Hooks.UpdateQuestPlayButton()
   Hooks.UpdateQuestLogPlayButton()
   local b = Hooks.questDialogPlay
   if not b then return end
-  local state = _G.QuestFrame and QuestFrame:IsShown() and ns.Voice.QuestPageState() or nil
-  b:SetShown(state ~= nil)
-  if state then
-    ns.Theme.SetIcon(b, state == "stop" and "stop" or "play")
-    b:SetText(state == "stop" and L["Stop"] or L["Listen"])   -- hidden; the sign shows it
+  if _G.QuestFrame and QuestFrame:IsShown() then
+    setQuestPill(b, Hooks.questDialogButton, ns.Voice.QuestPageState(), ns.Voice.questKind)
+  else
+    b:Hide()
   end
   Hooks.PlaceQuestRow()
 end
@@ -987,14 +1024,13 @@ function Hooks.UpdateQuestLogPlayButton()
   local b, lore = Hooks.questLogPlay, Hooks.questLogButton
   if not b then return end
   local parent = (_G.QuestMapFrame and QuestMapFrame.DetailsFrame) or _G.QuestLogFrame
-  local state = parent and parent:IsShown() and Hooks.QuestLogPageState() or nil
-  b:SetShown(state ~= nil)
-  if state then
-    ns.Theme.SetIcon(b, state == "stop" and "stop" or "play")
-    b:SetText(state == "stop" and L["Stop"] or L["Listen"])
+  if parent and parent:IsShown() then
+    setQuestPill(b, lore, Hooks.QuestLogPageState(), "detail")
+  else
+    b:Hide()
   end
   if logBar() then return Hooks.PlaceLogRow() end
-  if not state then return end
+  if not b:IsShown() then return end
   if lore and lore:IsShown() then   -- (the classic quest log)
     b:ClearAllPoints()
     b:SetPoint("RIGHT", lore, "LEFT", -ROW_GAP, 0)
@@ -1081,9 +1117,10 @@ for n = 5, 24 do WILLO_KEYS["F" .. n] = true end
 -- The mouse buttons the prompt takes for Willo's key (the side buttons and the middle one), as the game names them.
 local MOUSE_KEYS = { MiddleButton = "BUTTON3", Button4 = "BUTTON4", Button5 = "BUTTON5" }
 
--- The bindable actions: open the panel, play the narration for what you hover or where you are, and the key you hold
--- to talk to Willo (Ask Willo, Strip.Ask; /lore key willo when Willo's own talk key does something else in the game,
--- LOR-528: only a key she can hear, `takes`). Their texts are looked up when shown, after the language pack has loaded.
+-- The bindable actions: open the panel, play the narration for what you hover or where you are, the playlist, a journey
+-- picture, Willo's sky, and the key you hold to talk to Willo (Ask Willo, Strip.Ask; /lore key willo when Willo's own
+-- talk key does something else in the game, LOR-528: only a key she can hear, `takes`). Options' Keys section sets them
+-- (LOR-1158). Their texts are looked up when shown, after the language pack has loaded.
 local ACTIONS = {
   toggle = {
     binding = "LOREFOREVER_TOGGLE",
@@ -1094,9 +1131,38 @@ local ACTIONS = {
   },
   narrate = {
     binding = "LOREFOREVER_NARRATE",
-    ask = function() return L["Pick a key to play the narration for where you are, or for what you're hovering."] end,
+    ask = function() return L["Pick a key to hear where you are or what you're hovering. If something's playing, it goes next."] end,
     done = function(key)
-      return string.format(L["press %s to hear the narration for where you are or what you hover. Change it any time with /lore key narrate."], key)
+      return string.format(L["press %s to hear where you are or what you hover, next if something's playing. Change it any time with /lore key narrate."], key)
+    end,
+  },
+  playlist = {
+    binding = "LOREFOREVER_PLAYLIST",
+    ask = function() return L["Pick a key to play or pause your narration playlist."] end,
+    done = function(key)
+      return string.format(L["press %s to play or pause your narration playlist. Change it any time in Options."], key)
+    end,
+  },
+  playlistNext = {
+    binding = "LOREFOREVER_PLAYLIST_NEXT",
+    ask = function() return L["Pick a key to skip to the next narration in your playlist."] end,
+    done = function(key)
+      return string.format(L["press %s to skip to the next narration. Change it any time in Options."], key)
+    end,
+  },
+  picture = {
+    binding = "LOREFOREVER_PICTURE",
+    ask = function() return L["Pick a key to take a journey picture."] end,
+    done = function(key)
+      return string.format(L["press %s to take a journey picture. Change it any time in Options."], key)
+    end,
+  },
+  sky = {
+    binding = "LOREFOREVER_SKY",
+    ask = function() return string.format(L["Pick a key to keep %s's sky up or hide it."], ns.COMPANION_NAME) end,
+    done = function(key)
+      return string.format(L["press %s to keep %s's sky up or hide it. Change it any time in Options."], key,
+        ns.COMPANION_NAME)
     end,
   },
   willo = {
@@ -1137,6 +1203,8 @@ local function bind(combo, which)
     SaveBindings(GetCurrentBindingSet())
   end
   say(a.done(GOLD .. combo .. "|r"))
+  local panel = ns.Options and ns.Options.panel
+  if panel and panel.updateKeys then panel.updateKeys() end
   -- Gamepad players can't click chat links: point them at the narration key once the panel key is set (LOR-89).
   if which == "toggle" and not Hooks.CurrentKey("narrate") then
     say(L["Tip: a second key can play the narration for where you are or what you hover, handy on a controller. Set it with /lore key narrate."])
@@ -1144,7 +1212,7 @@ local function bind(combo, which)
   return true
 end
 
--- which: "toggle" (default), "narrate" or "willo".
+-- which: a key of ACTIONS, "toggle" by default.
 function Hooks.KeyPrompt(which)
   which = which or "toggle"
   if Hooks.keyFrame then

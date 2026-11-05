@@ -17,11 +17,11 @@
   "wiki": "Report to Thomas",
   "chain": []
  },
- "summary": "Guard Thomas is waiting at the eastern bridge for news of his missing men. He holds the crossing between Goldshire and the Eastvale Logging Camp with few guards to spare, and needs to know what happened along the river.",
+ "summary": "Guard Thomas waits at the eastern bridge between Goldshire and the Eastvale Logging Camp. The fate of his missing men may show whether the river murlocs threaten more than scouts.",
  "sections": [
   {
    "title": "A Grim Confirmation",
-   "body": "Guard Thomas holds the crossing between Goldshire and the Eastvale Logging Camp with few men to spare. When Malakai and Rolf vanished into the riverlands, he hoped they had only been cut off or delayed. Their recovered service medallions leave no such hope. Both guards were slain near the waterways.",
+   "body": "With few men to spare at the crossing, Thomas had hoped Malakai and Rolf were only cut off or delayed in the riverlands. Their recovered service medallions leave no such hope. Both guards were slain near the waterways.",
    "spoiler": 0
   },
   {
@@ -115,5 +115,5 @@
  "attribution": [
   "Report to Thomas"
  ],
- "style": 1
+ "style": 2
 }

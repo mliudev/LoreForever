@@ -10088,6 +10088,32 @@
       },
       "text": "Letter to Delgren. Balthule Shadowstrike sends word from the Tower of Althalaxx in northern Darkshore. His letter warns Delgren the Purifier of the Dark Strand cult's demonic work and must reach Maestra's Post in Ashenvale. At the Tower of Althalaxx ruins, Balthule Shadowstrike watches the Dark Strand cult gather. He cannot destroy them alone, so he writes to Delgren the Purifier, his tutor in the Holy Light, and asks for aid. Their foul rites threaten more than Darkshore's coast. The letter must travel south through Darkshore into western Ashenvale. There, Delgren works with night elf Sentinels against demonic and undead threats."
     },
+    "item:letter-to-ello": {
+      "1": [
+        {
+          "duration": 34.220408163265304,
+          "file": "Audio/Transport/full_item_letter-to-ello-7e4f39590a5c9118dfab/1-0000.mp3",
+          "sha256": "45b4d95112e6637a9d8045e2e9b8546bfe1c47367d84d40c7889f98ed18cc728",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "517f71",
+      "generation": "e0a696bae7c1ef705033",
+      "hash": "517f71",
+      "source": {
+        "duration": 34.246531,
+        "file": null,
+        "sha256": "7e4f39590a5c9118dfabf145fd60fc5ad1c4015fbb52f60ce0c8a7d0f3ba54f6"
+      },
+      "text": "Letter to Ello. Abercrombie sends a sealed letter to Mayor Ello Ebonlocke in Darkshire. The hermit lives in a shack just north of Raven Hill Cemetery, claims an old friendship, and writes the missive in an archaic script. After you help Abercrombie with tasks around Duskwood, the old recluse gives you a note for Mayor Ello Ebonlocke. He says the mayor is an old friend who will celebrate what you have accomplished. When Ello breaks the seal, he has no recollection of anyone named Abercrombie and cannot read a single phrase of the archaic script. He sends the note to Darkshire scholar Sirra Von'Indi for translation."
+    },
     "item:letter-to-jin-zil": {
       "1": [
         {
@@ -11075,6 +11101,32 @@
         "sha256": "3192590519ad3453dd2e7d63bbb745210fc65ec1f9fb7fe9777ca6473783f2ef"
       },
       "text": "Mountain Lion Blood. In Hillsbrad and Alterac, Apothecary Lydon seeks Mountain Lion Blood. At Tarren Mill, he needs fresh blood for the Royal Apothecary Society’s Elixir of Pain. Mountain lions hunt across the highlands and foothills of Hillsbrad and Alterac. Hunters prize their pelts and claws, while Forsaken of the Royal Apothecary Society seek the blood in their veins. Apothecary Lydon in Tarren Mill believes fresh mountain lion blood can form the base of a potent brew. He means it to bring misery to the living. Apothecary Lydon’s work in Tarren Mill supports the Royal Apothecary Society’s effort to perfect the Forsaken’s New Plague. He gathers blood from vigorous wild beasts to refine a concoction called the Elixir of Pain. His experiments test how local organic compounds can be turned against the enemies of the Dark Lady."
+    },
+    "item:muddy-journal-pages": {
+      "1": [
+        {
+          "duration": 13.453061224489796,
+          "file": "Audio/Transport/full_item_muddy-journal-pages-280566e9aaac17916d0f/1-0000.mp3",
+          "sha256": "e3f5cc8437cf680925e1348671e773034fe203c9a205cf990d6d9bffbb21c588",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "4bab43",
+      "generation": "58287602c1b6da792842",
+      "hash": "4bab43",
+      "source": {
+        "duration": 13.479184,
+        "file": null,
+        "sha256": "280566e9aaac17916d0fb6f6a97e25999ba12e9bc0de687f3de906239ffa2dd8"
+      },
+      "text": "Muddy Journal Pages. Muddy Journal Pages were recovered from a murder scene in Duskwood years ago. Weathered and stained with soil, they remain with Tavernkeep Smitts, who kept them without proof of authorship as evidence in an unresolved local investigation."
     },
     "item:mudsnout-blossom": {
       "1": [
@@ -17342,6 +17394,32 @@
       },
       "text": "Toxic Fogger. In Stonetalon, the Toxic Fogger is bound for Venture Company air routes. The Forsaken Royal Apothecary Society filled it with lethal poison to contaminate the company’s flights. Apothecary Zamah sends the Toxic Fogger against the Venture Company's mining work. Apothecary Lydon brewed its toxin in Tarren Mill, and Zamah sent it from Thunder Bluff. She suspects the goblins carry messages and light cargo between Stonetalon and their headquarters by courier flying machine.\n\nZamah plans to release the poison where those machines land and refuel. The Forsaken mean to strike the company's supply route instead of meeting its mercenary crews in drawn-out skirmishes."
     },
+    "item:translated-letter": {
+      "1": [
+        {
+          "duration": 9.691428571428572,
+          "file": "Audio/Transport/full_item_translated-letter-c0f63ed1d853e3e932fa/1-0000.mp3",
+          "sha256": "92adf8c3bd8bf03910e1c36f96c115f8199411c69d1696ff1abb19c0fc35d049",
+          "start": 0
+        }
+      ],
+      "config": {
+        "bitrate": "48k",
+        "mode": "whole-recording-v1",
+        "rates": [
+          "1"
+        ]
+      },
+      "fullHash": "ca7f1c",
+      "generation": "367cecb37c00c896c937",
+      "hash": "ca7f1c",
+      "source": {
+        "duration": 9.717551,
+        "file": null,
+        "sha256": "c0f63ed1d853e3e932fa3e8f6e6589748c8d8a91f5c4c89cd982c70386f98b45"
+      },
+      "text": "Translated Letter. In Darkshire, Sirra Von'Indi translates Abercrombie's letter for Mayor Ello Ebonlocke. The message sheds light on the hermit's dealings with the town."
+    },
     "item:treshala-s-pendant": {
       "1": [
         {
@@ -19602,9 +19680,6 @@
       1572,
       1900
     ],
-    "14433401a7c24b3de07d9c7a406945bb491f97e5e95604e015edfd0dbda488f6": [
-      776
-    ],
     "148aba0e6ad3012a04e0353c514f4c8d4c82e39f534d9dae2ca99fdc07388bd6": [
       220,
       354,
@@ -20577,6 +20652,10 @@
       579,
       807
     ],
+    "416b89c03e30140080870021b5df15387c72402589672f54787688990f0e6de0": [
+      520,
+      914
+    ],
     "41758159c7768ff31d877b9e2378c8a709578e3407888cb4a377d9f9bbab217d": [
       172,
       407,
@@ -20640,6 +20719,13 @@
     ],
     "450b1f2e21e7919012d8360290bbdbb13593f4929fa1e2b8495f6d5cb2646ce5": [
       448
+    ],
+    "45b4d95112e6637a9d8045e2e9b8546bfe1c47367d84d40c7889f98ed18cc728": [
+      180,
+      473,
+      726,
+      869,
+      1147
     ],
     "471337eb91a088ef150bfedd3f96f319f6b89e171385059af4531a38984a242d": [
       526,
@@ -22841,6 +22927,9 @@
       655,
       934
     ],
+    "a631920413be225005bb636eabff10569eb198100b8a61f8dbf79d75677a56f9": [
+      448
+    ],
     "a649973094e2369dd5ab7318c1e39cb65cd0abdc02eb56d94044e0644e45e2fe": [
       500
     ],
@@ -23679,6 +23768,9 @@
       1017,
       1458
     ],
+    "d1c639affce8589815633f7e4c6c885be302e6f6a22c27f02f7307c17c8c234b": [
+      663
+    ],
     "d220070fb5fd60556c1b95c258d5bb4e10f5078c28a5445b21aa4cdb065a20b6": [
       263,
       428,
@@ -24110,6 +24202,9 @@
     ],
     "e3e9821a0242acfc558e171ffe7eea58263f5d5d9a25dbcf1d8eb67a4fe6abd4": [
       534
+    ],
+    "e3f5cc8437cf680925e1348671e773034fe203c9a205cf990d6d9bffbb21c588": [
+      173
     ],
     "e3f9b0f128eec0f9f24dacfa4d7847fe8b3fc72b51930911bd46ffd956cb2dc7": [
       187,
@@ -25306,6 +25401,9 @@
     },
     "447e51ebd4c04b301e964f626234c812c9dcaa0ab7bca0c43caf5566643d9740": {
       "289": 1
+    },
+    "45b4d95112e6637a9d8045e2e9b8546bfe1c47367d84d40c7889f98ed18cc728": {
+      "473": 1
     },
     "47481424af5ebce0d493307b953808cea8b63afff7b0413d0c21b8a341b22019": {
       "1264": 2,
@@ -27026,5 +27124,6 @@
     }
   },
   "pack": "LoreForever_Voice_Default_MoreItems",
+  "retired": [],
   "version": 1
 }

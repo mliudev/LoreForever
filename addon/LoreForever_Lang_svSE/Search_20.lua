@@ -2,6 +2,8 @@
 -- Sources: data/i18n/svSE. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_svSE")
 local Po = P.search.post
+Po["wrynnking"] = "K+gB"
+Po["wrynnlothar"] = "KqjB"
 Po["wrynnläser"] = "A+CB"
 Po["wrynnmara"] = "KEtB"
 Po["wrynnmedivh"] = "KwAB"

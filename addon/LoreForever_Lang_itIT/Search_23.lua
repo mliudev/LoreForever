@@ -2,6 +2,9 @@
 -- Sources: data/i18n/itIT. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_itIT")
 local Po = P.search.post
+Po["valnordiadove"] = "JmsD"
+Po["valnordianemici"] = "JmrC"
+Po["valnordianorthdale"] = "JmoB"
 Po["valnordiaperché"] = "JmpC"
 Po["valnordiaposizione"] = "JmsC"
 Po["valnordiaquale"] = "JmqB"
@@ -11999,6 +12002,3 @@ Po["zannatruce"] = "C4YFC4ZKC4aHC4bGC4cGC4dCC4eBHosDKnwBKnxB"
 Po["zannatrucebadlands"] = "C4ZC"
 Po["zannatruceblackrock"] = "C4YB"
 Po["zannatrucechi"] = "C4ZCHosB"
-Po["zannatruceconsulta"] = "C4cC"
-Po["zannatrucedoveri"] = "C4aC"
-Po["zannatruceed"] = "C4cC"

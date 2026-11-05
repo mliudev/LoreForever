@@ -911,7 +911,7 @@ local function arrow(parent, dir, label, onClick)
   b:SetSize(20, 20)
   b:SetNormalTexture(ARROW .. dir .. "Page-Up")
   b:SetPushedTexture(ARROW .. dir .. "Page-Down")
-  b:SetDisabledTexture(ARROW .. dir .. "Page-Disabled")
+  b:SetDisabledTexture(ARROW .. dir .. "Page-Up")   -- (the same art, dimmed by Map.SetSteps: Design Lead, 11/4)
   b:SetHighlightTexture("Interface\\Buttons\\UI-Common-MouseHilight", "ADD")
   b.tip = label
   b:SetScript("OnClick", onClick)
@@ -1118,6 +1118,8 @@ function Map.SetSteps(f, earlier, later)
   if not (f and f.prevButton) then return end
   f.prevButton:SetEnabled(earlier and true or false)
   f.nextButton:SetEnabled(later and true or false)
+  f.prevButton:SetAlpha(earlier and 1 or 0.35)
+  f.nextButton:SetAlpha(later and 1 or 0.35)
 end
 
 -- Show `moments` (oldest first: { kind, color, spot = Map.Place(...) or nil, zoneName, title, ev }) on the zone of

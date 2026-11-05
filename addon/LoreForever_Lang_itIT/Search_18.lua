@@ -2,6 +2,8 @@
 -- Sources: data/i18n/itIT. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_itIT")
 local Po = P.search.post
+Po["ricevose"] = "HCOC"
+Po["ricevowater"] = "EN3B"
 Po["ricevuta"] = "Aj/BAvCBCIJHD4kBE1pBGRXBG2fBHrIBH51BIaABIh0B"
 Po["ricevutadacquisto"] = "CIJE"
 Po["ricevutadi"] = "CIJC"
@@ -12000,5 +12002,3 @@ Po["scaletempio"] = "Jw4C"
 Po["scaleunderbelly"] = "BFuB"
 Po["scalevile"] = "BI1B"
 Po["scalevillaggio"] = "AseB"
-Po["scalfire"] = "GiABH/ZB"
-Po["scalfisce"] = "EEABGHOB"

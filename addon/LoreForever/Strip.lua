@@ -1,8 +1,8 @@
 -- Live game info for the companion app (LOR-416): Willo's sky, rings of stars in a blue mist over the minimap
 -- (Sky.lua), that the Lore Forever companion on this PC reads several times a second, so Willo knows where you are and
--- what you're fighting right away instead of after a /reload. Off until the player ticks Options > Live game info, and
--- then shown only while the Lore Forever panel is open or while they hold Willo's talk key to ask (Strip.Ask), unless
--- they also tick "show it all the time", or said yes in Willo to letting her see the game all the time (Strip.Always).
+-- what you're fighting right away instead of after a /reload. Off until the player turns on Live game info in Willo, and
+-- then hidden until it's needed: while they hold Willo's talk key to ask (Strip.Ask), for a big moment, or while
+-- something goes round the ring to her (Strip.SetRing), unless they keep it up (Strip.Always, LOR-1126).
 -- (LOR-57: SavedVariables reach the disk only on /reload or logout, the chat log only at logout, and add-ons can't
 -- follow the combat log, so nothing else gets game state out while you play.)
 --
@@ -388,6 +388,13 @@ local scanTip
 local function titleOfTarget()
   if scanTip == nil then
     scanTip = try(CreateFrame, "GameTooltip", "LoreForeverRoleTip", nil, "GameTooltipTemplate") or false
+    -- The template's health bar never shows here, but SetUnit from our code hands it the target's health, and its own
+    -- script compares that: a Lua error when the health is a secret number (LOR-1105). pcall can't catch it.
+    local bar = scanTip and (scanTip.StatusBar or _G.LoreForeverRoleTipStatusBar)
+    if bar then
+      try(bar.SetScript, bar, "OnValueChanged", nil)
+      try(bar.SetScript, bar, "OnUpdate", nil)
+    end
   end
   if not scanTip then return nil end
   local ok = pcall(function()
@@ -628,10 +635,8 @@ function Strip.Touch() stale = true end
 function Strip.SetRing(bytes)
   ring = type(bytes) == "table" and bytes or nil
   stale = true
+  if Strip.Showing() ~= showing then Strip.Update() end   -- the sky comes up to carry them, and goes with them
 end
-
--- A quest page is going round for Willo to read (Companion.ReadQuestPage): a big moment waits for it.
-function Strip.QuestPageUp() return ring ~= nil and ring[1] == 0xC4 end
 
 local function endMoment(m, cut)
   if moment ~= m then return end
@@ -704,10 +709,10 @@ function Strip.OnFromWillo()
   return type(data) == "table" and data.liveGame == true
 end
 
--- Whether Live game info is on: one switch for both apps (LOR-544). The player's own tick or untick in the add-on
--- (Options or /lore live: liveStripChosen) wins, until Willo answers again (Strip.SyncWillo); until they make one,
--- Willo's explained yes counts too (Strip.OnFromWillo). A player who ticked it before the choice was recorded keeps
--- it on. Defaults write liveStrip = false, so that alone isn't a choice.
+-- Whether Live game info is on: one switch for both apps (LOR-544). A choice made in the add-on (/lore live, or an old
+-- tick: liveStripChosen) wins, until Willo answers again (Strip.SyncWillo); until they make one, Willo's explained yes
+-- counts too (Strip.OnFromWillo). A player who ticked it before the choice was recorded keeps it on. Defaults write
+-- liveStrip = false, so that alone isn't a choice.
 function Strip.On()
   local s = S()
   if s.liveStripChosen then return s.liveStrip == true end
@@ -726,9 +731,39 @@ end
 -- whose release the game never saw (let go in another window) stops counting after ASK_MAX.
 local ASK_AFTER, ASK_MAX = 2.5, 30
 local askDown, askUntil = nil, 0
+-- Two quick presses of her talk key keep her microphone on until the next press, 2 minutes at most (talk/ptt.py's
+-- MIN_HOLD and DOUBLE_PRESS, talk/talker.py's KEPT_MOST, LOR-1150): the sky stays and narration waits, as while it's
+-- held. The game can't see the times she stops by herself, so the sky can outlast those.
+local ASK_TAP, ASK_PAIR, ASK_KEPT = 0.25, 0.4, 120
+local tapEnded, secondPress, keptUntil, endingKept = nil, false, 0, false
 
-function Strip.Ask(down)
+-- talkKey: her own key, not the one for who you target, which stays hold to talk. Returns how long her microphone stays
+-- on when this release kept it on.
+local function keptOn(down, talkKey, t, pressed)
+  if not talkKey then return nil end
+  if down then
+    if t < keptUntil then
+      keptUntil, endingKept = 0, true
+    else
+      secondPress = tapEnded ~= nil and t - tapEnded <= ASK_PAIR
+    end
+    tapEnded = nil
+    return nil
+  end
+  local ending, second = endingKept, secondPress
+  endingKept, secondPress = false, false
+  if ending or not pressed or t - pressed >= ASK_TAP then return nil end
+  if second then
+    keptUntil = t + ASK_KEPT
+    return ASK_KEPT
+  end
+  tapEnded = t
+  return nil
+end
+
+function Strip.Ask(down, talkKey)
   local t = now()
+  local keep = keptOn(down, talkKey, t, askDown)
   if down then
     askDown = t
   elseif askDown then
@@ -736,18 +771,18 @@ function Strip.Ask(down)
   end
   -- Willo is about to answer out loud: narration that started by itself makes way (Voice.OnWilloAsked, LOR-471).
   -- With Live game info off too: nothing leaves the game for this.
-  if ns.Voice and ns.Voice.OnWilloAsked then pcall(ns.Voice.OnWilloAsked, down) end
-  if C_Timer and C_Timer.After then C_Timer.After((down and ASK_MAX or ASK_AFTER) + 0.05, Strip.Update) end
+  if ns.Voice and ns.Voice.OnWilloAsked then pcall(ns.Voice.OnWilloAsked, down, keep) end
+  if C_Timer and C_Timer.After then C_Timer.After((keep or (down and ASK_MAX or ASK_AFTER)) + 0.05, Strip.Update) end
   Strip.Update()
 end
-_G.LoreForever_AskWillo = function(keystate) Strip.Ask(keystate ~= "up") end
+_G.LoreForever_AskWillo = function(keystate) Strip.Ask(keystate ~= "up", true) end
 -- The key for asking the one you're targeting (LOR-658: the talk key always reaches Willo, and the character you target
 -- answers on this one): the sky shows the same way, so Willo reads who that is.
 _G.LoreForever_AskTarget = function(keystate) Strip.Ask(keystate ~= "up") end
 
 local function asking()
   local t = now()
-  return (askDown ~= nil and t - askDown < ASK_MAX) or t < askUntil
+  return (askDown ~= nil and t - askDown < ASK_MAX) or t < askUntil or t < keptUntil
 end
 Strip.Asking = asking   -- (a big moment waits while the player asks Willo, Moments.lua)
 
@@ -758,18 +793,18 @@ function Strip.AlwaysFromWillo()
   return type(data) == "table" and data.skyAlways == true
 end
 
--- "Live game info: show it all the time": the player's tick in Options, or Willo's yes (Strip.AlwaysFromWillo) until
--- they tick or untick it here themselves (liveStripAlwaysOwn): their choice in the add-on wins, until Willo answers
--- again (Strip.SyncWillo). It only matters with Live game info on (Strip.On), which nothing turns on but the player
--- (10/12).
+-- All the time: Willo's yes (Strip.AlwaysFromWillo), or a tick or untick made in the add-on before that moved to Willo
+-- (liveStripAlwaysOwn), which wins until she answers again (Strip.SyncWillo); then only her switch counts, so an old
+-- tick can always be turned off there. It only matters with Live game info on (Strip.On), which nothing turns on but
+-- the player (10/12).
 function Strip.Always()
   local s = S()
   if s.liveStripAlwaysOwn then return s.liveStripAlways == true end
-  return s.liveStripAlways == true or Strip.AlwaysFromWillo()
+  return Strip.AlwaysFromWillo()
 end
 
--- The newer choice wins, Willo's or the player's here. A tick or untick in the add-on (liveStripChosen,
--- liveStripAlwaysOwn) only beats Willo's answer as she gave it then: at login this remembers what she said
+-- The newer choice wins, Willo's or the player's here. A choice in the add-on (liveStripChosen, liveStripAlwaysOwn)
+-- only beats Willo's answer as she gave it then: at login this remembers what she said
 -- (liveStripSeen, liveStripAlwaysSeen), and when she has said something else since, hers counts again. Without it
 -- an old untick here beat her newer yes for good, and the sky showed only while talking to her (LOR-676). For "all
 -- the time", nothing remembered counts as "no", so a player stuck that way gets it back on the first login with this.
@@ -778,22 +813,58 @@ end
 function Strip.SyncWillo()
   local s = S()
   if s.liveStripSeen == nil then s.liveStripSeen = Strip.OnFromWillo() end
-  for _, k in ipairs({ { "liveStripSeen", "liveStripChosen", Strip.OnFromWillo() },
-                       { "liveStripAlwaysSeen", "liveStripAlwaysOwn", Strip.AlwaysFromWillo() } }) do
-    local seen, own, willo = k[1], k[2], k[3]
-    if (s[seen] == true) ~= willo then s[own], s[seen] = nil, willo end
+  for _, k in ipairs({ { "liveStripSeen", "liveStripChosen", Strip.OnFromWillo(), "liveStrip" },
+                       { "liveStripAlwaysSeen", "liveStripAlwaysOwn", Strip.AlwaysFromWillo(), "liveStripAlways" } }) do
+    local seen, own, willo, setting = k[1], k[2], k[3], k[4]
+    if (s[seen] == true) ~= willo then
+      s[own], s[seen] = nil, willo
+      if not willo then s[setting] = false end   -- her no turns it off here too, whoever turned it on (#2791)
+    end
   end
 end
 
--- Whether the sky is on screen now: with Live game info on, only while the Lore Forever panel is open or while the
--- player asks Willo, unless they chose to show it all the time (Strip.Always). Some players took a block of squares
--- that's always there for something hacking the game; this way it shows only while they're using Lore Forever.
+-- Whether the sky is on screen now: with Live game info on, only when it's needed (Mike, LOR-1126: "easily hiding it
+-- and only showing it when necessary"; players took it for a quest area, and it hid their map): while the player asks
+-- Willo, for a big moment, or while something goes round the ring to her (a typed question: SetRing),
+-- unless they keep it up (Strip.Always). The Lore Forever window being open is no reason of its own.
 function Strip.Showing()
   if ns.Sky.Moving() then return true end   -- the player is dragging it somewhere (Sky.Move), until they click Done
   if not Strip.On() then return false end
-  if Strip.Always() or asking() or moment then return true end
-  local UI = ns.UI
-  return UI and UI.frame and yes(try(UI.frame.IsShown, UI.frame)) or false
+  return (Strip.Always() or asking() or moment ~= nil or ring ~= nil) and true or false
+end
+
+local function tell(line) DEFAULT_CHAT_FRAME:AddMessage(ns.Theme.CHAT_PREFIX .. line) end
+
+-- Keep the sky up, or hide it until it's needed: at once, with no /reload. One switch with three doors, Ctrl-right-click
+-- on the icon, the Show Willo's sky key, and Willo's row or a yes to her (Strip.SyncWillo): the newest wins. Willo takes
+-- this one from the next save (core._adopt_sky_always).
+function Strip.ToggleSky()
+  local L, name = ns.L, ns.COMPANION_NAME
+  if not Strip.On() then
+    tell(L["%s's sky needs Live game info: turn it on in %s's Settings, or type /lore live."]:format(name, name))
+    return
+  end
+  local s = S()
+  s.liveStripAlways, s.liveStripAlwaysOwn = not Strip.Always(), true
+  Strip.Update()
+  if ns.Options.panel and ns.Options.panel.updateWillo then ns.Options.panel.updateWillo() end
+  tell(s.liveStripAlways and L["%s's sky stays up now."]:format(name)
+    or L["%s's sky is hidden until you talk to her."]:format(name))
+end
+_G.LoreForever_ToggleSky = Strip.ToggleSky
+
+-- Once, at the update that hid the sky (LOR-1126): whoever kept it up goes hidden and is told how to get it back. After
+-- SyncWillo, so her yes counts as on. A choice made after this stands.
+function Strip.HideOnce()
+  local s = S()
+  if s.skyHiddenOnce then return end
+  s.skyHiddenOnce = true
+  if not Strip.Always() then return end
+  s.liveStripAlways, s.liveStripAlwaysOwn = false, true
+  if not Strip.On() then return end
+  local line = ns.L["%s's sky now stays hidden until you talk to her. Ctrl-right-click the Lore Forever button by your minimap to keep it up."]
+    :format(ns.COMPANION_NAME)
+  if C_Timer and C_Timer.After then C_Timer.After(6, function() tell(line) end) else tell(line) end
 end
 
 -- Bind Willo's talk key (LoreForeverJourneyData.talkKey, written by the companion while talking is on) to Ask Willo,

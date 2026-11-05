@@ -921,6 +921,14 @@ P.transport["quest:1159"] = {
     {file = "Audio/Transport/full_quest_1159-0e4fa0a61f99535e22dc/1-0000.mp3", duration = 61.1526531, start = 0},
   },
 }
+P.transport["quest:1164"] = {
+  hash = "e27851",
+  fullHash = "e27851",
+  text = "To Steal From Thieves. Genavie Callow in Undercity asks you to confront the Dabyrie family at their farmstead in Arathi. Her grievance turns a dispute over stolen belongings into a demand for vengeance. Genavie Callow says the plague took her family and the war left her estate looted and burned. She accuses Kenata and her children of taking the few belongings she still treasured. Now she asks you to bring her the heads of Kenata, Fardel, and Marcel Dabyrie from the Dabyrie Farmstead in Arathi.",
+  ["1"] = {
+    {file = "Audio/Transport/full_quest_1164-e20ebd8ad4740b1cbd1a/1-0000.mp3", duration = 29.7012245, start = 0},
+  },
+}
 P.transport["quest:1167"] = {
   hash = "1530d7",
   fullHash = "1530d7",
@@ -3214,7 +3222,7 @@ P.transport["quest:2360"] = {
   fullHash = "33351c",
   text = "Mathias and the Defias. In Westfall, SI:7 has found the Defias unusually active. You are sent to Agent Kearnen near an abandoned Alliance watch tower for a debriefing. The Defias have seized an abandoned Alliance watch tower southeast of Sentinel Hill. SI:7 reports they use it as a base to smuggle goods from the Redridge supply route. You are sent to Westfall to find Agent Kearnen, hidden near the tower, and hear her debriefing.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2360-06a25def106034a732ed/1-0000.mp3", duration = 27.3240816, start = 0},
+    {file = "Audio/Transport/full_quest_2360-7c662b9262406032d860/1-0000.mp3", duration = 25.9657143, start = 0},
   },
 }
 P.transport["quest:2383"] = {
@@ -7073,6 +7081,14 @@ P.transport["quest:91899"] = {
     {file = "Audio/Transport/full_quest_91899-28c52abc3db93584f18c/1-0000.mp3", duration = 47.5428571, start = 0},
   },
 }
+P.transport["quest:91900"] = {
+  hash = "b1784a",
+  fullHash = "b1784a",
+  text = "A Sealed Crate. Bandits and thieves are raiding the roads, and lost shipments lie scattered across the wilds. Local merchants will pay you to bring a sealed crate back. Caravans and couriers now face ambushes along the old trade highways. Many leave wagons and crates behind when they flee, and the goods sit in the brush until someone finds them. Merchants and depot keepers depend on travelers to bring that cargo home. Carry a sealed crate to a receiving depot and you earn a bounty on the spot. Handlers sort the freight and send it on its way, so commerce keeps moving despite the brigands. While the roads stay contested, lost cargo remains steady work for any traveler passing through.",
+  ["1"] = {
+    {file = "Audio/Transport/full_quest_91900-2b96a0e07963a98b925f/1-0000.mp3", duration = 40.1763265, start = 0},
+  },
+}
 P.transport["quest:91904"] = {
   hash = "1e8252",
   fullHash = "1e8252",
@@ -8127,6 +8143,14 @@ P.transport["quest:94491"] = {
   text = "The Fate of the Den. At the druid den, survivors mourn their fallen after the cultist assault. The Fate of the Den reaches Lotheluum in Valanaar with a recovered missive and word of heavy losses. The dispatch reveals that someone in Valanaar has been feeding vital information to the enemy. Cultists struck the druid den and left its defenders battered and grieving for fallen comrades. Outside aid brought the immediate danger under control, but the physical and emotional devastation remains immense. The dead cannot be brought back, and the wounded survivors are too weak for the long trek. Lingering cultists still roam nearby.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_94491-2692ccfccf30992ccd20/1-0000.mp3", duration = 37.0155102, start = 0},
+  },
+}
+P.transport["quest:94493"] = {
+  hash = "abe5a7",
+  fullHash = "abe5a7",
+  text = "A Sacrifice in Vain. Elegael Thornpaw fears the Al'Aketh Cultists will overwhelm the wounded in her den. A message meant for Valanaar has not reached them, leaving her to ask for help. The Al'Aketh Cultists fell upon Elegael Thornpaw's fellows with almost no warning. Many in her den are wounded or dying, and she does not know how long they can survive the attack. She had tried to send word to Valanaar, but the message did not get through. With no reinforcements in sight, Elegael asks you to help.",
+  ["1"] = {
+    {file = "Audio/Transport/full_quest_94493-0e9f8f089f8907beb15e/1-0000.mp3", duration = 29.5967347, start = 0},
   },
 }
 P.transport["quest:94494"] = {
@@ -10074,9 +10098,9 @@ P.transport["quest:98430"] = {
   },
 }
 P.transport["quest:98435"] = {
-  hash = "c5b003",
-  fullHash = "c5b003",
-  text = "Thunderhorns Bericht. Mull Thunderhorn sends you to carry his report to Archdruid Hamuul Runetotem in Thunder Bluff. The elders need to hear what your help has accomplished. Mull Thunderhorn’s report concerns the springs of Mulgore. Archdruid Hamuul Runetotem is on the Elder Rise in eastern Thunder Bluff, where those waters sustain the tauren and the animals they rely on for food, clothing, and companionship.",
+  hash = "c515fc",
+  fullHash = "c515fc",
+  text = "Thunderhorn's Report. Mull Thunderhorn sends you to carry his report to Archdruid Hamuul Runetotem in Thunder Bluff. The elders need to hear what your help has accomplished. Mull Thunderhorn’s report concerns the springs of Mulgore. Archdruid Hamuul Runetotem is on the Elder Rise in eastern Thunder Bluff, where those waters sustain the tauren and the animals they rely on for food, clothing, and companionship.",
   ["1"] = {
     {file = "Audio/Transport/full_quest_98435-37cb28e6ad7ce1c116e3/1-0000.mp3", duration = 24.7379592, start = 0},
   },

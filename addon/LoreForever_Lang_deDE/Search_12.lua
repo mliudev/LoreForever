@@ -2,6 +2,7 @@
 -- Sources: data/i18n/deDE. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_deDE")
 local Po = P.search.post
+Po["mannekmani"] = "J5sC"
 Po["mannekroshs"] = "A1cCA1dC"
 Po["mannetherflügel"] = "D9RC"
 Po["manneuigkeiten"] = "Di/C"
@@ -12001,4 +12002,3 @@ Po["nachwirkungenheilmittel"] = "HQ7B"
 Po["nachwirkungenheilt"] = "H9nB"
 Po["nachwirkungenstoppt"] = "HMZC"
 Po["nachwuch"] = "BaiBEoWBEynBHKuBHKxBH+ZBJW+B"
-Po["nachwuchsfeldmesser"] = "DO7BDO9EDPAB"

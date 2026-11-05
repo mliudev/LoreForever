@@ -41,7 +41,7 @@ MONTHS = ["January", "February", "March", "April", "May", "June", "July", "Augus
 HIGHLIGHTS = 3   # how many changes the strip and the What's new page lead with
 # The add-on never talks about plans (LOR-790): its card leaves out a change that names a plan, a price or a Willo
 # account; the website, GitHub and CurseForge keep it. The plan names are the site's (site/lib/billing.js PLANS; the
-# public repo this also runs in has no site, so they're here, and test_changelog checks they still match).
+# public repo this also runs in has no site, so they're here: keep them the same).
 PLAN_NAMES = ("Adventurer", "Hero", "Champion", "Legend")
 NOT_FOR_ADDON = (re.compile(r"\b(?:" + "|".join(PLAN_NAMES) + r")\b"),
                  re.compile(r"\$\d|\bprices?\b|\bsubscri|\bplans?\b|\bper month\b|\bfree (?:answers|months?|trial)\b"

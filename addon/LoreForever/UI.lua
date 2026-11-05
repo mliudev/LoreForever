@@ -112,13 +112,14 @@ local function queueTooltip(id)
     T.Tip(L["Adds this narration after the others in your playlist (Playlist, bottom left)."], "tipText", true)
   end
 end
+UI.QueueTooltip = queueTooltip
 
--- A row's Listen + playlist pill (T.Pill on paper, 24 tall; Design Lead, 11/3): play for a recorded story or answer
+-- A row's Listen + playlist pill (T.Pill on paper, 18 tall; Design Lead, 11/3 and 11/4): play for a recorded story or answer
 -- (it plays it and posts it in the chat, or stops it), + to queue it, - to take it out again; while it plays, one gilt
 -- stop. SetRowPill points it at a story (idx nil) or answer. deferStart: queueing doesn't start the playlist. stone:
 -- the dark ground's pill (the chat's suggestions).
-local function RowPill(parent, deferStart, stone, h)
-  local p = T.Pill(parent, h or 24, stone)
+local function RowPill(parent, deferStart, stone)
+  local p = T.Pill(parent, 18, stone)
   p.play:SetScript("OnClick", function(self)
     -- (its queued item playing: the stop is the queue's)
     if p.playing and p.add.action == "stop" then return UI.DoQueueAction(p.add.key, p.add.idx, deferStart) end
@@ -431,6 +432,7 @@ UI.RowPill, UI.SetRowPill = RowPill, SetRowPill
 --   "playing"  the clip playing is items[pos] (or it's in the short gap before the next one)
 --   "waiting"  started while something else played; items[pos] begins when that ends
 --   "paused"   stopped at items[pos]; Play starts it again from the top (WoW can't resume a sound)
+-- holdAt: the item a paused queue stops at again after what the narration key put in front of it (UI.PlayNext).
 -- Session only: /reload and logging out clear it.
 UI.pl = { items = {}, pos = 0, state = "paused" }
 
@@ -658,7 +660,7 @@ function UI.Create(engine)
     local b = TextButton(hereView, SIDE_W - 16, HERE_ROW, nil, T.color.inkRow, true)
     if b.text.SetWordWrap then b.text:SetWordWrap(false) end
     b.text:SetPoint("TOPLEFT", HERE_INDENT, -2)
-    b.pill = RowPill(b, nil, nil, HERE_ROW - 4)   -- (shorter than its row, so rows' pills never touch: 11/4)
+    b.pill = RowPill(b)
     b.pill:SetPoint("RIGHT", -2, 0)
     b.play, b.add = b.pill.play, b.pill.add
     -- Your target (or the boss you're on): a gold wash and bar, so it's clear why it leads the list.
@@ -885,8 +887,10 @@ function UI.Create(engine)
     UI.nextButtons[i] = b
   end
 
-  -- Message box: a paper field (a card's fill in a tan edge, ink text) with an ink Send beside it. The template's own
-  -- art is a dark grey bar that all but vanishes on the page in game, so it's hidden (Design Lead, 11/4).
+  -- Message box: the Search box's paper field (UI.SearchBox: a card's fill in an ink edge, ink text) with an ink Send
+  -- beside it. The template's own art is a dark grey bar that all but vanishes on the page in game, so it's hidden
+  -- (Design Lead, 11/4). The field and the box stand on frame levels over the page's: at the page's own level the page's
+  -- art covered the fill in game, leaving the page with a thin line round it (Mike's frames, 11/4).
   local eb = CreateFrame("EditBox", "LoreForeverInput", f, "InputBoxTemplate")
   eb:SetPoint("BOTTOMLEFT", CHAT_X + 8, 16 + FOOT)
   eb:SetPoint("BOTTOMRIGHT", f, "BOTTOMRIGHT", -96 - SHIFT_R, 16 + FOOT)
@@ -897,13 +901,14 @@ function UI.Create(engine)
     local t = rawget(eb, k) or _G["LoreForeverInput" .. k]
     if type(t) == "table" and t.SetAlpha then t:SetAlpha(0) end
   end
-  local field = Area(eb, "tileFill", "BACKGROUND")
-  field:SetPoint("TOPLEFT", -6, 2)
-  field:SetPoint("BOTTOMRIGHT", 4, -2)
-  field:SetColorTexture(T.color.tileFill[1], T.color.tileFill[2], T.color.tileFill[3], 1)
-  local fieldEdge = CreateFrame("Frame", nil, eb)
-  fieldEdge:SetAllPoints(field)
-  T.Outline(fieldEdge, "inkRim")
+  local field = T.Backdrop(CreateFrame("Frame", nil, f, T.BACKDROP_TEMPLATE), "paper")
+  field:SetPoint("TOPLEFT", eb, "TOPLEFT", -6, 2)
+  field:SetPoint("BOTTOMRIGHT", eb, "BOTTOMRIGHT", 4, -2)
+  field:SetFrameLevel((f:GetFrameLevel() or 1) + 3)
+  eb:SetFrameLevel((f:GetFrameLevel() or 1) + 4)
+  local fieldFill = Area(field, "tileFill", "BACKGROUND")
+  fieldFill:SetPoint("TOPLEFT", 3, -3)
+  fieldFill:SetPoint("BOTTOMRIGHT", -3, 3)
   UI.msgBar = field
   eb:SetTextColor(T.rgba(T.color.ink))
   if eb.SetShadowColor then eb:SetShadowColor(0, 0, 0, 0) end
@@ -960,9 +965,8 @@ function UI.Create(engine)
   send:SetScript("OnClick", function() eb:GetScript("OnEnterPressed")(eb) end)
   UI.CreateCompletion(f, eb)
 
-  f:SetScript("OnShow", function()   -- a voice sample from Options ends; live game info shows while the panel is open
+  f:SetScript("OnShow", function()   -- a voice sample from Options ends
     ns.Voice.StopPreview(); UI.Refresh(); ns.Log.Use("panel")
-    if ns.Strip then ns.Strip.Update() end
   end)
   -- The floating player stands in for the docked one while the panel is closed.
   -- Closing the panel closes its Journey and History pages too, so it opens on the chat next time.
@@ -972,7 +976,6 @@ function UI.Create(engine)
     if UI.historyFrame then UI.historyFrame:Hide() end
     UI.SyncPageButtons()
     UI.UpdateNowPlaying()
-    if ns.Strip then ns.Strip.Update() end
   end)
   UI.mini = UI.CreatePlayer(UIParent, true)
   UI.CreateBook()
@@ -1733,8 +1736,10 @@ function UI.IsPlayingTarget(t)
   return t.key ~= t.id and UI.playingKey == t.key and ns.Voice.HasAudio(t.key)
 end
 
--- Play a target. Pressing the one that's playing stops it; pressing anything else switches to it. Playing
--- something by hand pauses a playing playlist, except the playlist's own current item, which resumes it.
+-- Play a target. Pressing the one that's playing stops it; pressing anything else switches to it. A playing playlist
+-- carries on by itself after something played by hand (LOR-1176; Mike, 11/5: "Should carry on by itself"), and a paused
+-- one stays paused. The playlist's own current item resumes it. What starts by itself never comes over a playing
+-- playlist (Voice.lua's rules), and pauses it if it ever does.
 function UI.ListenTo(target)
   if not target then return end
   local pl = UI.pl
@@ -1745,8 +1750,10 @@ function UI.ListenTo(target)
     pl.state = "playing"
     if not startTarget(target) then pl.state = "paused" end
   else
-    if pl.state == "playing" then pl.state = "paused" end
-    startTarget(target)
+    local wasPlaying = pl.state == "playing"
+    if wasPlaying then pl.state = target.byItself and "paused" or "waiting" end
+    -- (nothing to play: the playlist's clip plays on, if it's still going)
+    if not startTarget(target) and wasPlaying then pl.state = UI.speaking and "playing" or "paused" end
   end
   UI.UpdateListen()
 end
@@ -1759,7 +1766,7 @@ function UI.StopAll()
   local t = UI.activeTarget
   if UI.speaking and t and not t.fromPlaylist and not ns.Voice.transport then UI.stoppedTarget = t end
   ns.Voice.Stop()
-  UI.playToken, UI.pl.token = nil, nil
+  UI.playToken, UI.pl.token, UI.pl.holdAt = nil, nil, nil   -- (the queue is paused here now: UI.PlayNext's hold is over)
   UI.speaking, UI.playingId = false, nil
   if UI.pl.state ~= "paused" then UI.pl.state = "paused" end
   UI.UpdateListen()
@@ -2140,7 +2147,7 @@ local function bubbleAt(i)
     -- A story card's Listen and Add to playlist instead: one quiet pill at the right of its title (Mike, 11/3: "most
     -- people know what the play button and playlist add buttons look like that way they can be more subtle", then
     -- option D: "the colors are a bit too much").
-    local pill = T.Pill(f, 30)
+    local pill = T.Pill(f, 24)
     pill:SetPoint("TOPRIGHT", f, "TOPRIGHT", -PAD + 2, -PILL_TOP)
     local play, add = pill.play, pill.add
     play:SetScript("OnClick", function(self) UI.ListenTo(self.target) end)
@@ -2200,8 +2207,8 @@ local function bossRow(parent)
     GameTooltip:Show()
   end)
   r:SetScript("OnLeave", function() GameTooltip:Hide() end)
-  r.pill = RowPill(r, nil, nil, 16)   -- (4 shorter than its row: 11/4)
-  r.pill:SetPoint("TOPRIGHT", -2, -2)
+  r.pill = RowPill(r)
+  r.pill:SetPoint("RIGHT", -2, 0)
   r.play, r.add = r.pill.play, r.pill.add
   return r
 end
@@ -3132,6 +3139,7 @@ local function playCurrent(byHand)
   end
   if not it then return UI.PlaylistClear() end
   pl.token = nil
+  if byHand then pl.holdAt = nil end   -- you pressed Play or Next: the whole queue goes on (UI.PlayNext)
   -- Recorded narrations only (the voice may have changed since it was queued: then it has nothing to play).
   local target = itemTarget(it)
   if not target then
@@ -3155,6 +3163,11 @@ function UI.OnClipEnded()
       it.page = (it.page or 1) + 1
     else
       if pl.pos >= #pl.items then return UI.PlaylistClear() end   -- that was the last one: the playlist is done
+      -- The queue was paused here (UI.PlayNext): it stays paused, at its place and without losing a saved position.
+      if pl.items[pl.pos + 1] == pl.holdAt then
+        pl.pos, pl.state, pl.holdAt = pl.pos + 1, "paused", nil
+        return UI.UpdateListen()
+      end
       goTo(pl.pos + 1)
     end
     UI.UpdateListen()
@@ -3200,12 +3213,15 @@ end
 -- The playlist item for quest qid, or nil when nothing of it is recorded: its quest giver's pages (UI.QuestPages) when
 -- a voice has them, else its story when that's narrated. key: its lore entry (by default the quest's); title: its name
 -- as the game shows it. asked: the player pressed Listen for its quest giver's words (UI.PlayQuestDialogue): only those.
-local function questItem(qid, title, key, asked)
+-- page: only this page of theirs, as the quest window's and the log's + queues what their play plays.
+local function questItem(qid, title, key, asked, page)
   local db = UI.engine.db
   key = key or db.index.quest[qid]
   if not (key and db.entries[key]) then key = nil end
   local it = { id = key or ("quest:" .. qid), key = key, quest = qid, label = title or questName(qid, key) }
-  local pages = UI.QuestPages(qid, false, asked)
+  if page then asked = true end
+  local pages = not page and UI.QuestPages(qid, false, asked) or {}
+  if page and UI.QuestPageClip(qid, page, false, true) then pages[1] = page end
   if #pages > 0 then
     it.pages = pages
     it.asked = asked or nil
@@ -3258,8 +3274,9 @@ end
 -- Shift-click on a quest wherever the add-on lists one (its Lore button in the quest log and the quest window, Your
 -- quests, the Journey page and its Completed list, the player while its quest giver speaks): its narration joins the
 -- playlist (questItem), or a short note says it's there already, or that nothing of it is recorded: never a silent
--- item, since the playlist plays recordings only. title: its name as the game shows it. Returns true if it was added.
-function UI.QueueQuest(qid, title)
+-- item, since the playlist plays recordings only. title: its name as the game shows it. page: only that page of its
+-- quest giver's (questItem). Returns true if it was added.
+function UI.QueueQuest(qid, title, page)
   qid = tonumber(qid)
   if not (qid and UI.engine) then return false end
   local key = UI.engine.db.index.quest[qid]
@@ -3269,7 +3286,7 @@ function UI.QueueQuest(qid, title)
     note(string.format(L["%s is already in your playlist."], esc(label)))
     return false
   end
-  local it = questItem(qid, title, key)
+  local it = questItem(qid, title, key, nil, page)
   if not (it and addItem(it)) then
     note(string.format(L["%s isn't narrated yet."], esc(label)))
     return false
@@ -3281,6 +3298,28 @@ function UI.QueueQuest(qid, title)
       .. "|r")
   end
   return true
+end
+
+-- Whether adding quest qid would work now, words checked as adding checks them: the quest window's and the log's + only
+-- shows then, so it never just says it isn't narrated.
+function UI.CanAddQuest(qid)
+  qid = tonumber(qid)
+  return qid ~= nil and UI.engine ~= nil and questItem(qid) ~= nil
+end
+
+-- The id quest qid's item has in the playlist (questItem).
+function UI.QuestItemId(qid)
+  local key = UI.engine.db.index.quest[tonumber(qid)]
+  return UI.engine.db.entries[key or ""] and key or ("quest:" .. tostring(qid))
+end
+
+-- The + on a quest's pill, as UI.DoQueueAction on a row's: adds it (only `page`, if given), takes it out, or stops it.
+function UI.DoQueueQuest(qid, title, page)
+  local id = UI.QuestItemId(qid)
+  local action = UI.QueueAction(id)
+  if action == "add" then UI.QueueQuest(qid, title, page)
+  elseif action == "stop" then UI.StopAll()
+  else UI.PlaylistRemove(UI.PlaylistIndex(id)) end
 end
 
 -- Whether quest qid can go in the playlist, at a quick look (tooltips and the +; adding checks its words against the
@@ -3346,6 +3385,41 @@ function UI.PlaylistAddFlight(key)
   local it = newItem(key)
   if it then it.flight = true end
   return addItem(it)
+end
+
+-- The narration key while something else plays (LOR-1176; Mike, 11/5: "just move it up to the beginning of the queue.
+-- I don't think anyone really wants their recording to be interrupted"): what plays carries on to its end and this
+-- story goes right after it, moved up if it's queued already, never in twice. A story playing outside a paused queue:
+-- this one plays after it, then the queue stops again at the place it was paused (pl.holdAt, OnClipEnded). Returns
+-- true, with a short note, when it's next; false when it has no recording to queue.
+function UI.PlayNext(key)
+  local pl = UI.pl
+  local at = UI.PlaylistIndex(key)
+  local it = at and pl.items[at] or newItem(key)
+  if not it then return false end
+  if pl.state == "paused" then
+    pl.holdAt = pl.holdAt or pl.items[pl.pos]
+    pl.state = "waiting"
+  end
+  -- The hold marks the first of what was paused: this story leaving that spot hands it to the one behind.
+  if at and it == pl.holdAt then pl.holdAt = pl.items[at + 1] end
+  -- Playing, items[pos] is what plays, so this goes after it. Waiting, or in the gap between two, items[pos] only
+  -- begins next, so this goes in its place: what the note says is what plays.
+  local slot = pl.state == "playing" and UI.speaking and pl.pos + 1 or math.max(pl.pos, 1)
+  if not at then
+    table.insert(pl.items, slot, it)
+  elseif at ~= pl.pos and at ~= slot then
+    table.remove(pl.items, at)
+    if at < pl.pos then pl.pos, slot = pl.pos - 1, slot - 1 end
+    table.insert(pl.items, slot, it)
+  end
+  pl.pos = math.max(pl.pos, 1)
+  UI.miniClosed = nil   -- (joining the queue brings a closed player back, as addItem)
+  ns.Log.Use("pl", "add")
+  UI.FlashPlayer()
+  note(string.format(L["%s plays next."], esc(it.label)))
+  UI.UpdateListen()
+  return true
 end
 
 -- Shift-click or the play key with an empty playlist (Mike, 2026-09-30): queue everything narrated where you are
@@ -3452,7 +3526,7 @@ function UI.PlaylistClear()
     UI.progress[UI.resumeTarget.key], UI.resumeTarget = nil, nil
   end
   if UI.activeTarget and UI.activeTarget.fromPlaylist then UI.activeTarget = nil end
-  pl.items, pl.pos, pl.state, pl.token = {}, 0, "paused", nil
+  pl.items, pl.pos, pl.state, pl.token, pl.holdAt = {}, 0, "paused", nil, nil
   UI.UpdateListen()
 end
 
@@ -3475,6 +3549,7 @@ function UI.PlaylistRemove(i)
   local wasPlaying = i == pl.pos and pl.state == "playing"
   if #pl.items == 1 then return UI.PlaylistClear() end
   if i == pl.pos and i == #pl.items then return UI.PlaylistClear() end   -- nothing after it: the playlist is done
+  if pl.items[i] == pl.holdAt then pl.holdAt = pl.items[i + 1] end
   table.remove(pl.items, i)
   if i < pl.pos then
     pl.pos = pl.pos - 1
@@ -4327,7 +4402,9 @@ local function updatePlayer(p)
   if oneOff then
     full = UI.playingLabel or L["narration"]
     title = GOLD .. esc(full) .. "|r"
-    state = list and (pl.state == "waiting" and L["then your playlist"] or L["playlist paused"]) or ""
+    -- (a hold: the queue plays what the narration key put in front of it, then stays paused, so it isn't "next")
+    local carriesOn = pl.state == "waiting" and not pl.holdAt
+    state = list and (carriesOn and L["Your playlist is next"] or L["playlist paused"]) or ""
     button, tip = transport and L["Pause"] or L["Stop"], transport and L["Pause"] or L["Stop narration"]
   elseif not playing and transport and not transport.target.fromPlaylist then
     full = transport.target.label

@@ -3,15 +3,16 @@
 
 local _, ns = ...
 ns.Notes = {
-  version = "1.0.0",
-  released = "2026-11-04",
+  version = "1.1.0",
+  released = "2026-11-05",
   items = {
-    { "Ready for WoW Forever's launch", "quest dialogue from level 1 to 60 is read aloud in both narrators' voices, from your very first quest.", "Ready for WoW Forever's launch:" },
-    { "The Defias Brotherhood and nine more stories", "held back until launch to keep their twists, they now join your story catalog.", "The Defias Brotherhood and nine more stories:" },
-    { "Story cards read the way they sound", "a story that plays from its first section starts there on the page too, Listen and Add to playlist share one quiet button by its title, and your storyline and progress sit under it.", "Story cards read the way they sound:" },
-    { "A calmer, cleaner book in a stone frame", "buttons drawn in the book's ink, gold only for what's playing or new, green only for what you've heard, a clear paper message box, and History as a page of the book.", "A calmer, cleaner book in a stone frame:" },
-    { "Tidier tabs and player", "the bookmark tabs are one size with a small gold dot for new pages, and the player's 10-second jumps are round buttons like Previous and Next.", "Tidier tabs and player:" },
-    { "The Road fits in German", "a zone's chapter shows as many of its newest moments as fit, and its link to the rest no longer runs into the player.", "The Road fits in German:" },
-    { "", "Corrected lore in 129 entries.", "" },
+    { "Stories where you are", "riding the Deeprun Tram plays the tram's story, Ironforge's waits until you walk in, and places like Blackrock Mountain, Dun Algaz and Scholomance play their own story.", "Stories where you are:" },
+    { "Your narration key never cuts in", "while something plays, what you hover, target or stand in goes next in your playlist. With nothing playing it plays right away.", "Your narration key never cuts in:" },
+    { "Your playlist carries on", "after you press Listen on something else, unless you stopped it yourself.", "Your playlist carries on" },
+    { "Every Lore Forever key in one place", "Options has a Keys section with a Set... button for each, so you no longer need the game's Key Bindings menu.", "Every Lore Forever key in one place:" },
+    { "Quest windows say what's there", "no play button on a quest with no recording, the Lore button's tooltip names the pack to download, and the quest window and log have the play-and-add pill.", "Quest windows say what's there:" },
+    { "A tidier book", "smaller Play and playlist buttons, tabs that match their page, and journey rings that say what they mean. New journey pictures are sharper.", "A tidier book:" },
+    { "Willo's sky stays hidden", "until she needs it, so it no longer covers your minimap. To keep it up, Ctrl-right-click the Lore Forever button by your minimap.", "Willo's sky stays hidden" },
+    { "", "Subtitles show your name, class and race instead of a code like $N, changing your narrators no longer freezes the game, and Lua errors at some quest windows and on Storylines are fixed.", "" },
   },
 }

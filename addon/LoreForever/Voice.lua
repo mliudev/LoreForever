@@ -426,10 +426,24 @@ local function scopedIds(pack, into)
   end
 end
 
+-- What a list change reuses (Voice.Refresh(true)); a full Refresh forgets it all. The stamp catches what can change
+-- without one: a recording that failed to play (Voice.brokenTransport), or our data replaced under the packs.
+local voiceMemo, questMemo, countMemo, packMemo = {}, {}, {}, {}
+local function clipsStamp()
+  local db, broken = ns.DB or {}, 0
+  for _ in pairs(Voice.brokenTransport) do broken = broken + 1 end
+  return table.concat({ tostring(db.clipHash), tostring(db.questClip), tostring(db.questVoice), tostring(db.fullclips),
+    tostring(db.entries), broken, readingLocale() }, "|")
+end
+
 -- Count distinct lore recording IDs across a narrator's packs. A current copy wins over an outdated duplicate.
 function Voice.Count(name)
   local hashes, current, old = (ns.DB and ns.DB.clipHash) or {}, {}, {}
-  for _, pack in ipairs(withExtensions(name)) do
+  local packs = withExtensions(name)
+  local key = table.concat(packs, ",") .. "|" .. clipsStamp()
+  local memo = countMemo[name]
+  if memo and memo.key == key then return memo.have, memo.stale end
+  for _, pack in ipairs(packs) do
     local data = ns.Packs.data[pack]
     for id, h in pairs(data and data.clips or {}) do
       if Voice.ClipCurrent(id, pack, hashes[id]) or (hashes[id] and Voice.Transport and Voice.Transport(id, pack, true)) then
@@ -440,6 +454,7 @@ function Voice.Count(name)
   local have, stale = 0, 0
   for _ in pairs(current) do have = have + 1 end
   for id in pairs(old) do if not current[id] then stale = stale + 1 end end
+  countMemo[name] = { key = key, have = have, stale = stale }
   return have, stale
 end
 
@@ -447,7 +462,7 @@ end
 -- language tables are never loaded or applied here. Counts describe recording IDs, not verified audio files. Not the
 -- retired answers packs (below, Voice.Refresh): they play nothing, so they'd only be a puzzle on the list (LOR-787).
 function Voice.InstalledPacks()
-  local out, s = {}, prefs()
+  local out, s, stamp = {}, prefs(), clipsStamp()
   for _, rec in ipairs(ns.Packs.registry) do
     local transport = rec.transportFor or rec.name:find("_Transport_", 1, true)
     local it = { name = rec.name, title = rec.title, kind = rec.kind, locale = rec.locale,
@@ -501,6 +516,9 @@ function Voice.InstalledPacks()
         end
         it.support = count
       end
+    elseif rec.kind == "voice" and data and packMemo[rec.name] and packMemo[rec.name].key == stamp .. tostring(other) then
+      local memo = packMemo[rec.name]
+      it.counts, it.stale, it.recorded, it.questPageCheck = memo.counts, memo.stale, memo.recorded, memo.questPageCheck
     elseif rec.kind == "voice" and data then
       it.counts = { lore = 0, quest = 0, answer = 0, unknown = 0 }
       it.stale, it.recorded = 0, 0
@@ -531,6 +549,8 @@ function Voice.InstalledPacks()
           it.counts.unknown = it.counts.unknown + 1
         end
       end
+      packMemo[rec.name] = { key = stamp .. tostring(other), counts = it.counts, stale = it.stale, recorded = it.recorded,
+        questPageCheck = it.questPageCheck }
     elseif data and (rec.kind == "lang" or rec.kind == "lang-overlay") then
       it.entries, it.strings = 0, 0
       -- (a malformed pack's fields may be anything: Options lists it, counting what's a table)
@@ -546,9 +566,15 @@ end
 
 -- The clip a voice should keep together with this one (voiceGroup): its story's main clip ("story": the entry, for
 -- its #faq clips), its zone's story ("zone": a zone's places and people follow it), or none ("line").
+local stories = {}
 local function storyOf(id)
-  return id:match("^(.-)#faq%d+$") or id:match("^(.-)#section%d+$") or id:match("^(.-)#title$")
-    or id:match("^(.-)#head%d+$") or id
+  local story = stories[id]
+  if not story then
+    story = id:match("^(.-)#faq%d+$") or id:match("^(.-)#section%d+$") or id:match("^(.-)#title$")
+      or id:match("^(.-)#head%d+$") or id
+    stories[id] = story
+  end
+  return story
 end
 local function anchorOf(id, mode)
   if mode == "story" then return storyOf(id) end
@@ -633,14 +659,74 @@ local function englishFill(s, ranked, fits)
   return out
 end
 
+-- What one voice has: { rows = id -> { voice, its paths }, provided = its clips, current or not, have, stale }. Walks
+-- each pack's own clips. Where a voice sits in the list can't change any of this, so a list change reuses it: rebuilding
+-- it for every clip against every pack froze the game for over a second at each move up (LOR-1090). Rows are shared
+-- from one Refresh to the next; nothing changes them.
+local function voiceClips(name, packs, hashes, scoped, stamp)
+  local key = table.concat(packs, ",") .. "|" .. stamp
+  local held = voiceMemo[name]
+  if held and held.key == key then return held end
+  local has, provided, stale = {}, {}, 0
+  for _, pack in ipairs(packs) do
+    local data = ns.Packs.data[pack]
+    local function look(id, h)
+      local hash = hashes[id]
+      if hash == nil and not scoped[id] then return end
+      if h then provided[id] = true end
+      if Voice.ClipCurrent(id, pack, hash) or (Voice.Transport and Voice.Transport(id, pack, true)) then
+        local paths = has[id]
+        if not paths then paths = {}; has[id] = paths end
+        paths[#paths + 1] = Voice.ClipPath(pack, id, data.ext)
+      elseif h then
+        stale = stale + 1
+      end
+    end
+    for id, h in pairs(data and data.clips or {}) do look(id, h) end
+    -- (A pack's own words with no recording listed beside them: scopedIds counted them too.)
+    if data and data.scopedVersion == 1 and type(data.scopedClips) == "table" then
+      for id in pairs(data.scopedClips) do
+        if data.clips[id] == nil then look(id, nil) end
+      end
+    end
+  end
+  held = { key = key, rows = {}, provided = provided, have = 0, stale = stale }
+  for id, paths in pairs(has) do
+    held.have = held.have + 1
+    held.rows[id] = { name, paths }
+  end
+  voiceMemo[name] = held
+  return held
+end
+
+-- A voice's quest dialogue, for Voice.Refresh (the first of its packs with each page): id -> its row in questRanked.
+local function voiceQuestClips(name, packs, questHash, stamp)
+  local key = table.concat(packs, ",") .. "|" .. stamp
+  local held = questMemo[name]
+  if held and held.key == key then return held.rows end
+  local rows = {}
+  for _, pack in ipairs(packs) do
+    local data = ns.Packs.data[pack]
+    local own = data and type(data.questVoice) == "table" and data.questVoice or nil
+    for id, h in pairs(data and data.clips or {}) do
+      if not rows[id] and (own and isQuestClip(id) or questHash[id] == h) then
+        rows[id] = { name, Voice.ClipPath(pack, id, data.ext), own or ns.DB.questVoice, own and pack or nil }
+      end
+    end
+  end
+  questMemo[name] = { key = key, rows = rows }
+  return rows
+end
+
 -- Rebuild Voice.active (clip id -> the paths to try, in order) from the voice list. Each voice in the chain brings
 -- its installed lands packs; their counts go to the voice they extend. For each clip the voices with a current
 -- recording are ranked in list order, except that the voice playing the clip's anchor (anchorOf) goes first when it
 -- has the clip too, so a story's questions don't switch narrator. The rest stay behind it as fallbacks for a file
 -- that won't play. Voice.servedBy[id] is the voice that plays a clip; Voice.stats[voice] = {have, stale, plays}.
 -- Voice.provided marks every clip some pack in the chain has (current or not), for the "narrated in a pack you
--- don't have" hint.
-function Voice.Refresh()
+-- don't have" hint. `sameClips`: only the list or its settings changed, so what each voice has is reused (voiceClips).
+function Voice.Refresh(sameClips)
+  if not (sameClips and Voice.ready) then voiceMemo, questMemo, countMemo, packMemo = {}, {}, {}, {} end
   local edition = ns.lang and ns.lang.edition
   if edition then
     local valid = ns.Lang.ValidateEdition()
@@ -690,34 +776,28 @@ function Voice.Refresh()
   local fits, questFits = familyOf(chain[1] or questChain[1], s), familyOf(questChain[1], s)
   -- Every clip our data has a hash for, and every one a community pack in the chain brings its own words for (the
   -- text it was recorded from: Voice.ScopedClip), even where our English or translation no longer has one.
-  local hashes, ids = (ns.DB and ns.DB.clipHash) or {}, {}
-  for id in pairs(hashes) do ids[id] = true end
+  local hashes, scoped = (ns.DB and ns.DB.clipHash) or {}, {}
   for _, name in ipairs(chain) do
-    for _, pack in ipairs(packsOf[name]) do scopedIds(pack, ids) end
+    for _, pack in ipairs(packsOf[name]) do scopedIds(pack, scoped) end
   end
-  for id in pairs(ids) do
-    local hash = hashes[id]
-    total = total + 1
-    for _, name in ipairs(chain) do
-      local paths
-      for _, pack in ipairs(packsOf[name]) do
-        local data = ns.Packs.data[pack]
-        local h = data and data.clips[id]
-        if h then provided[id] = true end
-        local whole = Voice.Transport and Voice.Transport(id, pack, true)
-        if Voice.ClipCurrent(id, pack, hash) or whole then
-          paths = paths or {}
-          paths[#paths + 1] = Voice.ClipPath(pack, id, data.ext)
-        elseif h then
-          stats[name].stale = stats[name].stale + 1
-        end
-      end
-      if paths then
-        stats[name].have = stats[name].have + 1
-        if fits(name) then
-          ranked[id] = ranked[id] or {}
-          table.insert(ranked[id], { name, paths })
-        end
+  local extra = {}   -- (the only part of `scoped` that can change what another voice has)
+  for _ in pairs(hashes) do total = total + 1 end
+  for id in pairs(scoped) do
+    if hashes[id] == nil then
+      total = total + 1
+      extra[#extra + 1] = id
+    end
+  end
+  table.sort(extra)
+  local stamp = clipsStamp() .. "|" .. table.concat(extra, ",")
+  for _, name in ipairs(chain) do
+    local held = voiceClips(name, packsOf[name], hashes, scoped, stamp)
+    stats[name].have, stats[name].stale = held.have, held.stale
+    for id in pairs(held.provided) do provided[id] = true end
+    if fits(name) then
+      for id, row in pairs(held.rows) do
+        local list = ranked[id]
+        if list then list[#list + 1] = row else ranked[id] = { row } end
       end
     end
   end
@@ -749,16 +829,19 @@ function Voice.Refresh()
   for id, list in pairs(ranked) do first[id] = list[1][1] end
   local active, servedBy = {}, {}
   for id, list in pairs(ranked) do
-    local anchor = anchorOf(id, mode)
-    local keep = anchor and anchor ~= id and first[anchor]
-    if keep and keep ~= list[1][1] then
-      for i = 2, #list do
-        if list[i][1] == keep then table.insert(list, 1, table.remove(list, i)) break end
+    local paths = list[1][2]   -- (one voice has it: nothing to rank, its own list of paths will do)
+    if list[2] then
+      local anchor = anchorOf(id, mode)
+      local keep = anchor and anchor ~= id and first[anchor]
+      if keep and keep ~= list[1][1] then
+        for i = 2, #list do
+          if list[i][1] == keep then table.insert(list, 1, table.remove(list, i)) break end
+        end
       end
-    end
-    local paths = {}
-    for _, voice in ipairs(list) do
-      for _, p in ipairs(voice[2]) do paths[#paths + 1] = p end
+      paths = {}
+      for _, voice in ipairs(list) do
+        for _, p in ipairs(voice[2]) do paths[#paths + 1] = p end
+      end
     end
     active[id], servedBy[id] = paths, list[1][1]
     stats[list[1][1]].plays = stats[list[1][1]].plays + 1
@@ -772,18 +855,11 @@ function Voice.Refresh()
   -- (P.questVoice: only the parts it recorded from the current text), since the add-on's data has only the English.
   local questRanked, questHash = {}, (ns.DB and ns.DB.questClip) or {}
   for _, name in ipairs(questChain) do
-    local seen = {}
     -- (Every ticked narrator's quest pages, when the speaker's gender picks among them: Voice.QuestClip.)
-    for _, pack in ipairs((s.voiceMatchGender ~= false or questFits(name)) and packsOf[name] or {}) do
-      local data = ns.Packs.data[pack]
-      local own = data and type(data.questVoice) == "table" and data.questVoice or nil
-      for id, h in pairs(data and data.clips or {}) do
-        if not seen[id] and (own and isQuestClip(id) or questHash[id] == h) then
-          seen[id] = true
-          questRanked[id] = questRanked[id] or {}
-          table.insert(questRanked[id], { name, Voice.ClipPath(pack, id, data.ext), own or ns.DB.questVoice,
-            own and pack or nil })
-        end
+    if s.voiceMatchGender ~= false or questFits(name) then
+      for id, row in pairs(voiceQuestClips(name, packsOf[name], questHash, stamp)) do
+        local list = questRanked[id]
+        if list then list[#list + 1] = row else questRanked[id] = { row } end
       end
     end
   end
@@ -1252,7 +1328,7 @@ end
 -- Changes to the list take effect at once. In combat, packs that aren't loaded yet join when it ends (Refresh sets
 -- Voice.deferred), and the status line says so.
 local function listChanged()
-  Voice.Refresh()
+  Voice.Refresh(true)
   if ns.UI and ns.UI.OnVoiceChanged then ns.UI.OnVoiceChanged() end
 end
 
@@ -1319,7 +1395,7 @@ function Voice.SetPack(value)
     if why then return false, why end
   end
   apply(prefs(), value)
-  Voice.Refresh()
+  Voice.Refresh(true)
   if ns.UI and ns.UI.OnVoiceChanged then ns.UI.OnVoiceChanged() end
   return true
 end
@@ -1871,25 +1947,8 @@ function Voice.OnDemand() return S().onDemand == true end
 
 -- Direct quest pages are independent of Lore Forever's stories and answers, and require an explicit opt-in: what
 -- plays by itself at a quest giver (Mike, 10/25: our quest-giver voices aren't as good as Spoken's yet). Listen beside
--- the quest window plays a page with it off too (Voice.PlayQuestPage). One switch for both apps: Willo's own
--- "Speak quest dialogue" (Voice.SyncWillo).
+-- the quest window plays a page with it off too (Voice.PlayQuestPage).
 function Voice.QuestDialogue() return S().questDialogue == true end
-
--- Willo's "Speak quest dialogue" (LoreForeverJourneyData.questPages, written by Willo), or nil when she doesn't say.
-local function questPagesFromWillo()
-  local data = _G.LoreForeverJourneyData
-  if type(data) == "table" and type(data.questPages) == "boolean" then return data.questPages end
-end
-
--- At login, the newer choice wins: when Willo's answer changed since the last login (questPagesSeen), it was made
--- there, and the add-on takes it. A tick or untick here is saved as ever, and Willo takes it from the save. The first
--- login with a Willo that says only remembers her answer, so a player who turned it on here keeps it on.
-function Voice.SyncWillo()
-  local s, willo = S(), questPagesFromWillo()
-  if willo == nil then return end
-  if s.questPagesSeen ~= nil and s.questPagesSeen ~= willo then s.questDialogue = willo end
-  s.questPagesSeen = willo
-end
 
 -- The game's own cutscenes and voiced dialog: a cinematic, a movie, or a talking head (on clients that have one).
 -- Nothing starts by itself over them, and what started by itself stops when one begins (Voice.OnGameTalk).
@@ -1964,11 +2023,11 @@ end
 -- plays it, once per character (or once a session with "Skip what you've heard" off). Arrivals settle for a moment
 -- first, so a loading screen or hopping back and forth across a zone line plays only where you end up.
 --
--- What plays by itself, and when (Mike on stream, 2026-10-04: "the behavior needs to be better specified"). The
--- tests follow these rules one by one: wow_sim.py's arrival_queue_tests and arrival_once_tests.
+-- What plays by itself, and when (Mike on stream, 2026-10-04: "the behavior needs to be better specified").
 --   What can cut off what
---   - Whatever you play yourself (a play button, Listen, the Narrate key, your playlist's Play or Next) replaces what
---     plays. Adding to the playlist queues behind it.
+--   - Whatever you play yourself (a play button, Listen, your playlist's Play or Next) replaces what plays, and a
+--     playing playlist carries on after it (UI.ListenTo). Adding to the playlist queues behind it, and so does the
+--     Narrate key: it never cuts in, it goes next (UI.PlayNext).
 --   - A quest giver's page cuts off an arrival story or the last quest's page (Voice.OnQuestFrame). The game's own
 --     cutscenes, movies and talking heads stop whatever started by itself (Voice.OnGameTalk), and so does a fight in a
 --     group dungeon or raid (Voice.OnCombatStart, LOR-659).
@@ -2074,6 +2133,19 @@ end
 -- Inside some buildings Forever names the building as the zone and gives no subzone ("Darkshire Town Hall"): that's
 -- one of the places you're in, and its entry says the zone. The subzone is your own zone's (Engine:SubzoneKey): the
 -- client calls Undercity's canals "Canals" and Stormwind's "The Canals", and each city has its own story (LOR-518).
+-- The game names these as the zone too, but they aren't buildings in the zone their entry files them under. Some lie
+-- between zones: the tram runs between two cities and you may be nowhere near Ironforge (LOR-1144). Some are dungeons
+-- and raids on maps of their own. Each is a place with its own story, and no zone's story plays there.
+local OWN_PLACE = {
+  ["subzone:deeprun-tram"] = true, ["subzone:blackrock-mountain"] = true, ["subzone:dun-algaz"] = true,
+  ["subzone:thandol-span"] = true, ["subzone:thoradin-s-wall"] = true, ["subzone:lordamere-lake"] = true,
+  ["subzone:southfury-river"] = true,
+  ["subzone:demon-fall-canyon"] = true, ["subzone:dire-maul"] = true, ["subzone:manor-mistmantle"] = true,
+  ["subzone:razorfen-downs-classic"] = true, ["subzone:scholomance-classic"] = true, ["subzone:shadow-hold"] = true,
+  ["subzone:stratholme-classic"] = true, ["subzone:uldaman"] = true, ["subzone:zul-farrak"] = true,
+  ["subzone:zul-gurub"] = true,
+}
+
 local function where()
   local db, places = ns.DB or {}, {}
   local function place(k)
@@ -2085,14 +2157,18 @@ local function where()
   end
   local zone = GetRealZoneText and GetRealZoneText()
   local zk = type(zone) == "string" and zone ~= "" and ns.engine and ns.engine:ZoneKey(zone) or nil
+  local own
   if not zk then
     local k, e = place(named(zone))
-    if k then zk, places[k] = e.z, true end
+    if k then
+      places[k] = true
+      if OWN_PLACE[k] then own = k else zk = e.z end
+    end
   end
   local sub = GetSubZoneText and GetSubZoneText()
   local sk = place(type(sub) == "string" and sub ~= "" and ns.engine and ns.engine:SubzoneKey(sub, zone) or nil)
   if sk then places[sk] = true end
-  return zk, places, sk
+  return zk, places, sk or own
 end
 
 -- What to play where you are: the zone's story the first time you're there, then the place's. The one waiting its
@@ -2574,7 +2650,7 @@ function Voice.QuestClip(qid, kind, text, unchecked, peek)
     -- and only when it's an NPC: on a quest a party member shares, "npc" is that player (the audit, 10/20).
     -- Giver.Sex leaves out a gender the game hides (LOR-572): the data's decides then.
     local ok, guid = pcall(function() return UnitGUID and UnitGUID("npc") end)
-    local player = ok and type(guid) == "string" and guid:sub(1, 7) == "Player-"
+    local player = ok and ns.Context.Usable(guid) and type(guid) == "string" and guid:sub(1, 7) == "Player-"
     local sex = window and not player and ns.Giver and ns.Giver.Sex("npc") or nil
     local code = type(rec[5]) == "string" and rec[5]:sub(part - 1, part - 1) or ""
     want = (sex == 2 and "male") or (sex == 3 and "female") or GENDER_CODE[code]
@@ -2654,23 +2730,6 @@ function Voice.QuestClip(qid, kind, text, unchecked, peek)
   return id
 end
 
--- Whether the quest window's page is one the add-on's data has, word for word (ns.DB.questVoice's fingerprints of the
--- text on screen), with no recording a voice could play for it: what Willo may read (Companion.ReadQuestPage).
-function Voice.QuestPageKnown(qid, kind)
-  local part = QUEST_PART[kind]
-  local rec = part and ns.DB and ns.DB.questVoice and ns.DB.questVoice[qid]
-  local fps = type(rec) == "table" and rec[part]
-  if type(fps) ~= "string" or fps == "" then return false end
-  local f = _G[QUEST_TEXT[kind]]
-  local ok, words = false, nil
-  if f then ok, words = pcall(f) end
-  if not (ok and type(words) == "string" and words:find("%S")) then return false end
-  for _, fp in ipairs(Voice.QuestFingerprints(words)) do
-    if (" " .. fps .. " "):find(" " .. fp .. " ", 1, true) then return true end
-  end
-  return false
-end
-
 -- The page on screen as something to play ({id, key, label, text, story}): the quest giver's own words when a voice
 -- recorded them (Voice.QuestClip); nil when the page has no matching recording (the page stays as text).
 -- kind: "detail", "progress" or "complete"; recorded: the quest's lore entry, if it has one (story: what
@@ -2745,21 +2804,14 @@ function Voice.OnQuestFrame(kind, recorded)
   if UI.playingId == id then return end
   local fresh = not Voice.openPages[id] and not Voice.GameTalking()
   local target = fresh and questTarget(qid, kind, recorded) or nil
-  -- A recording waits while Willo talks: its turn comes when she's done (willoDone). A page for her to read doesn't:
-  -- the newest page is the one she reads, after her own answer (#1535).
+  -- A recording waits while Willo talks: its turn comes when she's done (willoDone).
   if target and willoAnswering() then return end
   if not target then
     -- Another page of this window has no recording: this window's page stops all the same. One still playing from a
     -- window you've closed plays on.
     if ours and not Voice.questLeftover then UI.StopAll() end
-    -- A page no recording has, whose words are the add-on's own: Willo reads it in the quest giver's voice (#1535).
-    if fresh and ns.Companion and Voice.QuestPageKnown(qid, kind) then
-      Voice.openPages[id] = true
-      ns.Companion.ReadQuestPage(qid, kind, questPage(kind))
-    end
     return
   end
-  if ns.Companion then ns.Companion.ClearQuestPage() end
   -- The place's story gives way to the quest giver, and waits to play again once you're done talking (once, and only
   -- while it's still in step: the rules above AUTO_SETTLE).
   if arrival then yieldArrival(arrival) end
@@ -2816,19 +2868,12 @@ end
 -- afterwards, once), and nothing starts by itself until WILLO_HOLD seconds after the key comes up: arrival stories,
 -- quest givers' and book pages and flights' zone stories all wait (LOR-532). The companion has no way to say when
 -- it's done, so it's a fixed allowance. What you start yourself always plays.
-function Voice.OnWilloAsked(down)
-  willoUntil = now() + (down and WILLO_KEY_MAX or WILLO_HOLD)
+-- kept: seconds her microphone may stay on after this release (two quick presses of her key, Strip.Ask).
+function Voice.OnWilloAsked(down, kept)
+  local wait = kept and (kept + WILLO_HOLD) or (down and WILLO_KEY_MAX or WILLO_HOLD)
+  willoUntil = now() + wait
   if down then Voice.OnGameTalk() end
-  if C_Timer and C_Timer.After then C_Timer.After((down and WILLO_KEY_MAX or WILLO_HOLD) + 0.1, willoDone) end
-end
-
--- Willo reads a quest page with no recording aloud (Companion.ReadQuestPage): what started by itself makes way, as for the talk key, and nothing starts by itself for `seconds`, the reading's length as the add-on reckons it
--- (a longer hold already running stays). What you start yourself always plays, and Willo doesn't read over it.
-function Voice.OnWilloReads(seconds)
-  local untilT = now() + seconds
-  if untilT > willoUntil then willoUntil = untilT end
-  Voice.OnGameTalk()
-  if C_Timer and C_Timer.After then C_Timer.After(seconds + 0.1, willoDone) end
+  if C_Timer and C_Timer.After then C_Timer.After(wait + 0.1, willoDone) end
 end
 
 -- It ended: the waiting arrival story's turn (after settling, as after combat), unless another one still shows.
@@ -2836,39 +2881,29 @@ function Voice.OnGameTalkOver()
   if not Voice.GameTalking() then Voice.OnTalkOver() end
 end
 
--- A page with no recording that Willo would read when asked (Companion.CanReadQuestPage, Voice.QuestPageKnown).
-local function willoReadsPage(qid, kind)
-  local C = ns.Companion
-  return C ~= nil and C.CanReadQuestPage ~= nil and C.CanReadQuestPage() and Voice.QuestPageKnown(qid, kind)
-end
-
 -- The quest window's play button (Listen): pressed on purpose, so it plays with Speak quest dialogue off too (that
--- setting is for what plays by itself, Mike 10/25). It plays the page shown, or stops it while it plays; a page no
--- voice recorded goes to Willo to read, when she reads quest pages. Returns true if it did any of these.
+-- setting is for what plays by itself, Mike 10/25). It plays the page shown, or stops it while it plays. Returns true
+-- if it did.
 function Voice.PlayQuestPage()
   local UI, qid = ns.UI, openQuest()
   if not (qid and UI and UI.frame) then return false end
   local kind = Voice.questKind
   local target = questTarget(qid, kind, Voice.questRecorded)
-  if target then
-    Voice.askedClips[target.key] = true   -- asked for (Voice.HasAudio)
-    Voice.openPages[target.id] = true
-    UI.ListenTo(target)
-    return true
-  end
-  if not willoReadsPage(qid, kind) then return false end
-  Voice.openPages[QUEST_PREFIX .. qid .. ":" .. kind] = true
-  return ns.Companion.ReadQuestPage(qid, kind, questPage(kind))
+  if not target then return false end
+  Voice.askedClips[target.key] = true   -- asked for (Voice.HasAudio)
+  Voice.openPages[target.id] = true
+  UI.ListenTo(target)
+  return true
 end
 
 -- What the play button does now: "stop" (its page plays, here or from the playlist), "listen" (the quest giver's
--- recorded words), "willo" (Willo reads a page no voice recorded), or nil when nothing can play (the button hides).
+-- recorded words), or nil when nothing can play (the button hides).
 function Voice.QuestPageState()
   local UI, qid = ns.UI, openQuest()
   if not (UI and qid) then return nil end
   if UI.speaking and UI.playingId == QUEST_PREFIX .. qid .. ":" .. Voice.questKind then return "stop" end
   local t = questTarget(qid, Voice.questKind, Voice.questRecorded)
-  if not t then return willoReadsPage(qid, Voice.questKind) and "willo" or nil end
+  if not t then return nil end
   if UI.IsPlayingTarget and UI.IsPlayingTarget(t) then return "stop" end
   return "listen"
 end
@@ -2886,10 +2921,10 @@ end
 
 -- The one line that tells a player their quest voices stop at the band they have (the English quest dialogue is three
 -- downloads by level: ns.DB.questBands, written by lore.voicepack.quest_bands from the pipeline's own level edges). For a
--- quest of this level (the game's, not the data's): when the narrator in use has some of its quest packs installed but not
--- the one this level needs, the name of that pack to download; nil otherwise (no quest pack at all, as with any voice not
--- installed, shows nothing; a pack that's installed but off or too new is not a missing download; a voice with no
--- quest packs, or a language other than English). Decided by the packs in the add-on list, never by whether a clip was
+-- quest of this level (the game's, not the data's): when the narrator in use hasn't the pack this level needs, the name
+-- of that pack to download, for a player with no quest pack yet too (LOR-1157: the main download leaves them out); nil
+-- otherwise (a pack that's installed but off or too new is not a missing download; a voice with no quest packs, or a
+-- language other than English). Decided by the packs in the add-on list, never by whether a clip was
 -- recorded, and whether "Speak quest dialogue" is on makes no difference. A tooltip line: no popup, no chat message. The
 -- pack's title is quoted: it has a colon of its own.
 local DASH = "\226\128\147"   -- an en dash
@@ -2901,14 +2936,13 @@ function Voice.QuestPackHint(level)
   end
   local voice = Voice.Current()
   voice = Voice.KeyOf(voice == AUTO and DEFAULT_PACK or voice)
-  local needed, owned
+  local needed
   for _, band in ipairs(bands) do
     local pack = band.voices and band.voices[voice]
     if not pack then return nil end   -- (not a narrator that has quest packs)
-    if ns.Packs.Get(pack.pack) then owned = true end
     if level >= band.from and level <= band.to and not ns.Packs.Get(pack.pack) then needed = { band, pack } end
   end
-  if not (owned and needed) then return nil end
+  if not needed then return nil end
   return string.format(L["Quest voices for levels %s are their own download: \"%s\", from wherever you got Lore Forever."],
     needed[1].from .. DASH .. needed[1].to, needed[2].title)
 end
@@ -2918,7 +2952,6 @@ end
 -- player's X still stop it. The next time the window opens its pages play again (Voice.openPages).
 function Voice.OnQuestClosed()
   closePages(QUEST_PREFIX)
-  if ns.Companion then ns.Companion.ClearQuestPage() end
   Voice.questKind, Voice.questRecorded = nil, nil
   local UI = ns.UI
   if UI and UI.speaking and isQuestText(UI.playingId) then Voice.questLeftover = true end

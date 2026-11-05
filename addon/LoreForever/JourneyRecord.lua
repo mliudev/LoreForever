@@ -481,34 +481,17 @@ function JR.WebLine(view)
   return b
 end
 
--- Called by Journey.CreateView: the way in for a player without Willo's profile link: a small link-style button left of
--- Update my journey, so the page's one real button is the save. It stays for everyone: the add-on can tell that Willo is
+-- Called by Journey.CreateView: the way in for a player without Willo's profile link: a word button left of Update my
+-- journey, the same ink-edged button at the same height (Mike, 11/4: "these two buttons look weird"). It stays for everyone: the add-on can tell that Willo is
 -- installed (her add-on's data) but not that she is connected to the player's profile, and a player whose Willo isn't
 -- connected has no other way to build the page (Mike, 2026-10-24). Its tooltip says what it does and when it isn't needed.
 function JR.Attach(view, sync)
   local T = ns.Theme
-  local b = CreateFrame("Button", "LoreForeverJourneyRecord", view, "UIPanelButtonTemplate")
-  for _, k in ipairs({ "Left", "Middle", "Right" }) do   -- the template's button art, as T.SkinButton hides it
-    local t = rawget(b, k)
-    if type(t) == "table" and t.SetAlpha then t:SetAlpha(0) end
-  end
+  local b = T.SkinButton(CreateFrame("Button", "LoreForeverJourneyRecord", view, "UIPanelButtonTemplate"), "paper")
   b:SetHeight(22)
   b:SetPoint("RIGHT", sync, "LEFT", -6, 0)
   b:SetText(L["Copy my journey record"])
-  local fs = b:GetFontString()
-  if fs then T.Ink(fs, "inkAccent") end
-  local tw = T.TextWidth and T.TextWidth(fs)
-  b:SetWidth((tw or 150) + 12)
-  local line = b:CreateTexture(nil, "ARTWORK")   -- the underline that makes it read as a link
-  line:SetHeight(1)
-  line:SetPoint("BOTTOMLEFT", 6, 3)
-  line:SetPoint("BOTTOMRIGHT", -6, 3)
-  T.Fill(line, "inkAccent")
-  b.underline = line
-  local hl = b:CreateTexture(nil, "HIGHLIGHT")
-  hl:SetAllPoints()
-  T.Fill(hl, "inkHover")
-  if b.SetHighlightTexture then b:SetHighlightTexture(hl) end
+  b:SetWidth((T.TextWidth and T.TextWidth(b:GetFontString()) or 150) + 24)
   b:SetScript("OnClick", function() JR.Copy() end)
   b:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_TOP")

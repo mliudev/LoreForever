@@ -14,7 +14,7 @@
 -- last (time()), and the add-on version it last happened in. The same message counts up instead of adding a row, and
 -- only the MAX most recently seen stay. The game writes it on /reload or logout, like the rest of LoreForeverDB.
 -- /lore errors (Core.lua) shows them in a box to copy into loreforeverwow.com/feedback or Discord; the first new one
--- in a session says so in chat, once. Nothing leaves the PC by itself. tests/errors_sim.py checks all of this.
+-- in a session says so in chat, once. Nothing leaves the PC by itself.
 
 local addonName, ns = ...
 local Errors = {}
@@ -165,8 +165,10 @@ end
 -- see; BLOCKED happens quietly (often in combat), so it's kept without a chat line.
 function Errors.OnBlocked(event, who, fn)
   if who ~= addonName then return end
-  pcall(keep, string.format("%s: %s tried to call %s()", tostring(event), addonName, tostring(fn or "?")), nil,
-    event == "ADDON_ACTION_FORBIDDEN")
+  -- The game fires these during the blocked call, so the stack shows the way there (LOR-1128). Level 3 skips this
+  -- function and Core's event handler. The message stays as it was: it's what groups a report with the older ones.
+  pcall(keep, string.format("%s: %s tried to call %s()", tostring(event), addonName, tostring(fn or "?")),
+    _G.debugstack and debugstack(3, STACK, 0) or nil, event == "ADDON_ACTION_FORBIDDEN")
 end
 
 -- What's kept, least recently seen first (the rows themselves: read only).

@@ -2,14 +2,6 @@
 -- Sources: data/i18n/zhCN. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_zhCN")
 local Po = P.search.post
-Po["鸟只"] = "HXpB"
-Po["鸟吗"] = "GbOEGdtC"
-Po["鸟和"] = "AozBA5JBA5NBA7RBCAaBCAbBCA0BCA2BCFHBCg8BDAIBDnUBHSLBHblBHcHBHkvBHpKBJjkBJ9GBKdXBLEnBLEoBLGpB"
-Po["鸟商"] = "CirC"
-Po["鸟喙"] = "A5IEA5JC"
-Po["鸟在"] = "A5NBCyRBEpmDEpqCGbQCG/8BHALBHXlEHXoBH6HEIO3C"
-Po["鸟型"] = "CivC"
-Po["鸟培"] = "CirB"
 Po["鸟外"] = "JKUB"
 Po["鸟大"] = "CizB"
 Po["鸟如"] = "CiuC"
