@@ -542,11 +542,17 @@ def receive(args):
     if args.timeout <= 0 or args.interval <= 0:
         raise Failure('Receive timeout and interval must be positive')
     bound, deadline = binding(args), time.monotonic() + args.timeout
+    started = api(args.repo, f'actions/runs/{args.run}/attempts/{args.attempt}').get('run_started_at') or ''
     while True:
         response = api(args.repo, f'actions/runs/{args.run}/artifacts?per_page=100')
         snapshot = api(args.repo, f'actions/runs/{args.run}/attempts/{args.attempt}/jobs?per_page=100')
         producer = next((j for j in snapshot['jobs'] if j['name'] == 'zip'), None)
         # If Linux is rerunning, wait for its new inputs. Installer-only retries reuse the successful earlier producer.
+        # A rerun of failed jobs lists the reused zip job too, under this attempt with a new id, but it keeps the start
+        # time it had: started before this attempt, it didn't run in it, so its inputs are an earlier attempt's (the
+        # 1.2.0 rerun waited 30 minutes for installer-inputs-2 that nothing would make, 11/6).
+        if producer and producer.get('started_at') and producer['started_at'] < started:
+            producer = None
         candidates = [a for a in response['artifacts'] if not a['expired']
                       and re.fullmatch(r'installer-inputs-[0-9]+', a['name'])
                       and int(a['name'].rsplit('-', 1)[1]) <= int(args.attempt)]

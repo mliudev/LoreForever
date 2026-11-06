@@ -93,13 +93,6 @@ jobs:
         shell: pwsh
         run: |
           if (-not (Test-Path "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe")) { choco install innosetup -y --no-progress }
-      - name: Azure login
-        if: vars.SIGNING_PROFILE != ''
-        uses: azure/login@v3
-        with:
-          client-id: ${{ vars.AZURE_CLIENT_ID }}
-          tenant-id: ${{ vars.AZURE_TENANT_ID }}
-          subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
       # The last run's lore vectors (its lore-vectors artifact, uploaded below), so this one works out only the entries the
       # lore changed since: seconds instead of minutes. Willo's own runs first; then the Release workflow's (it made this
       # artifact until Willo left it, 11/1), for the first Willo release after the switch. Each one's newest run may have
@@ -140,6 +133,15 @@ jobs:
           if-no-files-found: ignore
           retention-days: 90
           overwrite: true
+      # Logged in right before signing: the token is good for minutes, and the wait for the inputs or the build
+      # before it ran past that on 1.2.0 (AADSTS700024, 11/6).
+      - name: Azure login
+        if: vars.SIGNING_PROFILE != ''
+        uses: azure/login@v3
+        with:
+          client-id: ${{ vars.AZURE_CLIENT_ID }}
+          tenant-id: ${{ vars.AZURE_TENANT_ID }}
+          subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
       - name: Sign Willo
         if: vars.SIGNING_PROFILE != ''
         uses: azure/artifact-signing-action@v2
