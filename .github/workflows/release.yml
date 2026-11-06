@@ -240,13 +240,6 @@ jobs:
       # Code signing (Azure Artifact Signing). Skipped until SIGNING_PROFILE is set (after identity validation), so unsigned
       # releases keep working: AZURE_CLIENT_ID, AZURE_TENANT_ID, AZURE_SUBSCRIPTION_ID, SIGNING_ENDPOINT,
       # SIGNING_ACCOUNT, SIGNING_PROFILE.
-      - name: Azure login
-        if: vars.SIGNING_PROFILE != ''
-        uses: azure/login@v3
-        with:
-          client-id: ${{ vars.AZURE_CLIENT_ID }}
-          tenant-id: ${{ vars.AZURE_TENANT_ID }}
-          subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
       # Each file straight from the artifact's storage, several side by side (the whole zip through one stream if that
       # doesn't work), then every file checked against the contract.
       - name: Receive only verified installer inputs while Linux builds the other packs
@@ -267,6 +260,14 @@ jobs:
           & "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" /Q "/DAppVersion=${{ needs.prepare.outputs.version }}" `
             "/DSourceDir=$PWD\dist\stage" "/DOutputDir=$PWD\dist" @downloadArgs release\installer\LoreForever.iss
           if ($LASTEXITCODE) { exit $LASTEXITCODE }
+      # Logged in right before signing: its token expired during the wait for Linux's inputs (1.2.0, AADSTS700024).
+      - name: Azure login
+        if: vars.SIGNING_PROFILE != ''
+        uses: azure/login@v3
+        with:
+          client-id: ${{ vars.AZURE_CLIENT_ID }}
+          tenant-id: ${{ vars.AZURE_TENANT_ID }}
+          subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
       - name: Sign the installer
         if: vars.SIGNING_PROFILE != ''
         uses: azure/artifact-signing-action@v2
