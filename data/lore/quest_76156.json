@@ -1,0 +1,94 @@
+{
+ "key": "quest:76156",
+ "type": "quest",
+ "name": "Stalk With The Earthmother",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   76156
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Boarton Shadetotem sees a talent for subtlety in you and asks you to enter the Venture Company mine. He wants Seaforium Mining Charges taken from the mine\u2019s supply carts.",
+ "sections": [
+  {
+   "title": "A Subtle Approach",
+   "body": "Boarton Shadetotem, in Thunder Bluff, believes you can work with subtlety. He gives you a mask and asks you to enter the nearby Venture Company mine. There, you are to take Seaforium Mining Charges from carts of blasting supplies and bring them back to him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks me to enter the mine?",
+   "aliases": [
+    "who is Boarton",
+    "Boarton Shadetotem",
+    "who gave this"
+   ],
+   "answer": "Boarton Shadetotem in Thunder Bluff asks you to enter the Venture Company mine."
+  },
+  {
+   "q": "What am I looking for in the mine?",
+   "aliases": [
+    "what to steal",
+    "mine supplies",
+    "seaforium charges"
+   ],
+   "answer": "You are asked to take Seaforium Mining Charges from carts of blasting supplies."
+  },
+  {
+   "q": "Why does Boarton give me a mask?",
+   "aliases": [
+    "mask disguise",
+    "why the mask",
+    "infiltrate mine"
+   ],
+   "answer": "Boarton gives you a mask for entering the nearby Venture Company mine."
+  },
+  {
+   "q": "Where is the Venture Company mine?",
+   "aliases": [
+    "mine location",
+    "where is the mine",
+    "venture company mine"
+   ],
+   "answer": "The mine is southeast of Thunder Bluff."
+  },
+  {
+   "q": "Who are the supplies taken from?",
+   "aliases": [
+    "who owns supplies",
+    "venture company supplies",
+    "company mine"
+   ],
+   "answer": "The supplies are in the Venture Company mine."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "As a rogue, Boarton believes you have a talent for subtlety and asks you to enter the Venture Company mine."
+  }
+ ],
+ "keywords": [
+  "blasting supplies",
+  "boarton shadetotem",
+  "mask",
+  "mine",
+  "seaforium mining charges",
+  "subtlety",
+  "thunder bluff",
+  "venture company"
+ ],
+ "related": [
+  "zone:thunderbluff",
+  "topic:venture-company",
+  "topic:rogue"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Stalk With The Earthmother"
+ ]
+}

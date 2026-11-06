@@ -534,7 +534,7 @@ P.transport["subzone:beren-s-peril"] = {
   fullHash = "7fba1d",
   text = "Beren's Peril. At Beren's Peril, Scourge loyal to Thule Ravenclaw gather in the hills southwest of Ambermill and threaten the Forsaken. High in the crags southwest of Ambermill, a cave and mountain path lie hidden from the main road. Since the Third War, rogue Scourge have fortified the refuge under the renegade necromancer Thule Ravenclaw. They refused to serve the Dark Lady or flee north.\n\nRavenclaw's regents, guardians, and drudgers gathered in secret to prepare an assault on the Forsaken base at the Sepulcher. Forsaken scouts found them, and the quiet cliffs became a warzone. Now Horde fighters move against the undead before they can attack.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_beren-s-peril-5812f0b7ecf4b4789dab/1-0000.mp3", duration = 41.3257143, start = 0},
+    {file = "Audio/Transport/full_subzone_beren-s-peril-47dab2e93e3d587c0081/1-0000.mp3", duration = 41.4302041, start = 0},
   },
 }
 P.transport["subzone:blackthorn-ridge"] = {

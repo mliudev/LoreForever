@@ -20,13 +20,13 @@
  "summary": "Chief Engineer Hinderweir the Seventh needs you at Stonewrought Dam, where Dark Iron saboteurs have planted a charge. Disarm it before the valley below is in danger.",
  "sections": [
   {
-   "title": "Averted Catastrophe",
-   "body": "The Stonewrought Dam holds back the waters of the Loch above the lowlands of the Wetlands. Dark Iron saboteurs have planted an explosive charge inside it, putting the valley below at risk. You apply the Disarming Mixture, and the volatile keg fizzles harmlessly. The immediate danger to the dam and the lives downstream has passed.",
+   "title": "The Charge in the Dam",
+   "body": "The Stonewrought Dam holds back the waters of the Loch above the lowlands of the Wetlands. An explosive charge now sits inside it, a volatile keg left there by Dark Iron hands. If it goes off, the valley below and the lives downstream will pay for it. It falls to you to apply the Disarming Mixture before that happens, then bring word to Chief Engineer Hinderweir the Seventh.",
    "spoiler": 0
   },
   {
    "title": "Hinderweir's Relief",
-   "body": "Chief Engineer Hinderweir the Seventh welcomes your report with relief. He calls your intervention a victory for the Kingdom of Ironforge and the Alliance. Dark Iron infiltrators have reached deep into Khaz Modan, and their bitter cousins remain determined to ruin Ironforge's achievements.",
+   "body": "You apply the Disarming Mixture, and the volatile keg fizzles harmlessly. The immediate danger to the dam and the lives downstream has passed. Chief Engineer Hinderweir the Seventh welcomes your report with relief. He calls your intervention a victory for the Kingdom of Ironforge and the Alliance. Dark Iron infiltrators have reached deep into Khaz Modan, and their bitter cousins remain determined to ruin Ironforge's achievements.",
    "spoiler": 1
   }
  ],

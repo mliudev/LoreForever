@@ -1,0 +1,77 @@
+{
+ "key": "quest:86613",
+ "type": "quest",
+ "name": "Excavation Tools",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   86613
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Magmar Fellhew asks you to return tools abandoned when troggs drove the dwarves from their excavation. The tools can help the excavators resume work once the invasion is under control.",
+ "sections": [
+  {
+   "title": "Tools Left Behind",
+   "body": "Magmar Fellhew needs the excavation tools the dwarves left behind when troggs overran their camp. You can return them to the excavators, whose work has been stalled by the invasion.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Magmar need the excavation tools?",
+   "aliases": [
+    "why tools",
+    "magmar tools",
+    "excavation tools"
+   ],
+   "answer": "The dwarves left most of their tools behind when troggs overran their camp. The tools will help the excavators work again once the invasion is under control."
+  },
+  {
+   "q": "Who is Magmar Fellhew?",
+   "aliases": [
+    "who magmar",
+    "Magmar",
+    "tool guy"
+   ],
+   "answer": "Magmar Fellhew is the excavator who asks you to return the abandoned tools."
+  },
+  {
+   "q": "Why did the dwarves leave the tools?",
+   "aliases": [
+    "dwarves fled",
+    "why abandoned",
+    "troggs tools"
+   ],
+   "answer": "The dwarves had to leave most of their tools behind when troggs overran their camp."
+  },
+  {
+   "q": "What is the excavation's problem?",
+   "aliases": [
+    "dig site problem",
+    "what happened at camp",
+    "excavation issue"
+   ],
+   "answer": "Troggs overran the camp, forcing the dwarves to leave most of their tools behind and halt their work until the invasion is under control."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "camp",
+  "dig site",
+  "dwarves",
+  "excavation",
+  "excavation tools",
+  "magmar fellhew",
+  "troggs"
+ ],
+ "related": [
+  "topic:trogg"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Excavation Tools"
+ ]
+}

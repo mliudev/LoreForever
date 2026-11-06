@@ -1,0 +1,69 @@
+{
+ "key": "quest:98731",
+ "type": "quest",
+ "name": "Blessings of the Great Cat Spirit",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98731
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Dendrite asks you to return after receiving the Great Cat Spirit\u2019s blessing. He senses new cunning and ferocity in you, and says you can now learn to call upon the cat\u2019s spirit.",
+ "sections": [
+  {
+   "title": "Dendrite\u2019s Reading",
+   "body": "Dendrite greets you with a gesture in the air, and an aura of power comes over him. He senses the cat\u2019s cunning and ferocity in you, along with a new understanding of stealth and speed. Now he can teach you to focus that nature and call upon the cat\u2019s spirit.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Dendrite want to see me?",
+   "aliases": [
+    "why return to Dendrite",
+    "Dendrite cat blessing",
+    "what does Dendrite want"
+   ],
+   "answer": "Dendrite wants to guide you further after you receive the Great Cat Spirit\u2019s blessing."
+  },
+  {
+   "q": "What does Dendrite sense in me?",
+   "aliases": [
+    "what changed in me",
+    "cat spirit power",
+    "Dendrite senses what"
+   ],
+   "answer": "He senses the cat\u2019s cunning and ferocity, and believes you understand the stealth and speed needed to adopt its nature."
+  },
+  {
+   "q": "What can I learn from Dendrite now?",
+   "aliases": [
+    "call cat spirit",
+    "learn cat nature",
+    "what next with Dendrite"
+   ],
+   "answer": "Dendrite says you can learn to focus your cunning and call upon the cat\u2019s spirit."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blessing",
+  "cat spirit",
+  "cunning",
+  "dendrite",
+  "ferocity",
+  "great cat spirit",
+  "speed",
+  "stealth"
+ ],
+ "related": [
+  "quest:98393"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Blessings of the Great Cat Spirit"
+ ]
+}

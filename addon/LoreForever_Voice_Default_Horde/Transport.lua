@@ -86,7 +86,7 @@ P.transport["npc:canaga-earthcaller"] = {
   fullHash = "02ed12",
   text = "Canaga Earthcaller. In the Valley of Trials, Canaga Earthcaller guides new Horde shamans toward the land's spirits and their first totems. From the red bluffs of the Valley of Trials, Canaga Earthcaller guides Darkspear trolls and orcs as they begin the shaman’s path. He teaches them to quiet their minds and listen to Kalimdor’s rumblings. Then they prepare earth sapta to commune with the spirits. Canaga sends each novice to gather sacred reagents and travel to the local spirit rock in Durotar. There, they drink earth sapta and see the elemental spirits firsthand. With his guidance, they earn their Earth Totem.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_canaga-earthcaller-cf6dfc63102f0166ba68/1-0000.mp3", duration = 37.0155102, start = 0},
+    {file = "Audio/Transport/full_npc_canaga-earthcaller-d6875116bc2add7db5b7/1-0000.mp3", duration = 35.3697959, start = 0},
   },
 }
 P.transport["npc:carendin-halgar"] = {
@@ -346,11 +346,11 @@ P.transport["npc:shadow-priest-sarvis"] = {
   },
 }
 P.transport["npc:shael-dryn"] = {
-  hash = "409904",
-  fullHash = "409904",
-  text = "Shael'dryn. Shael'dryn is an inquisitive dryad residing beside the Moonwell of Purity, east of Iris Lake in Ashenvale. She serves as a vital contact for night elf scouts investigating forest corruption. She plays a pivotal role in aiding Astranaar's sentinels with cleansing relics to combat demonic and foul influences spreading across the wilderness. Stationed beside the Moonwell of Purity, Shael'dryn keeps watch alongside the night elf sentinels guarding the eastern approaches of the forest. When corruption surfaces among the local wildlife or tainted relics threaten the land's harmony, her deep natural understanding allows her to guide adventurers through the steps required to restore spiritual balance.",
+  hash = "cf873a",
+  fullHash = "cf873a",
+  text = "Shael'dryn. At the Moonwell of Purity, Shael'dryn watches corruption spread through Ashenvale. East of Iris Lake, she gives night elf scouts and Astranaar's sentinels relics tainted by demonic and foul influences. Shael'dryn keeps watch with the night elf sentinels over Ashenvale's eastern approaches. When corruption reaches local wildlife or tainted relics threaten the land's harmony, she draws on her knowledge of nature. Her guidance helps adventurers restore spiritual balance.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_shael-dryn-22d2737897674d1b38bc/1-0000.mp3", duration = 39.6277551, start = 0},
+    {file = "Audio/Transport/full_npc_shael-dryn-3edfb67bbda399c4b750/1-0000.mp3", duration = 29.1004082, start = 0},
   },
 }
 P.transport["npc:shenthul"] = {
@@ -674,11 +674,11 @@ P.transport["subzone:crag-of-the-everliving"] = {
   },
 }
 P.transport["subzone:cragpool-lake"] = {
-  hash = "20297c",
-  fullHash = "20297c",
-  text = "Cragpool Lake. Cragpool Lake is a body of water tucked inside Windshear Crag in the Stonetalon Mountains. Looming above its dark waters sits a massive timber structure erected by the Venture Company. Nestled within Windshear Crag, Cragpool Lake lies directly beneath the towering logging apparatus built by the Venture Company. An enormous wooden structure spans above the water, serving as the vantage point from which Gerenzo Wrenchwhistle oversees operations across the mountain valley. Venture Company workers occupy the platforms overhead.",
+  hash = "ce4a52",
+  fullHash = "ce4a52",
+  text = "Cragpool Lake. In Windshear Crag, the Venture Company’s timberworks hang above Cragpool Lake and its dark water. At Cragpool Lake, Venture Company platforms cross above the water beneath a vast timber structure. Gerenzo Wrenchwhistle watches operations across the mountain valley. Company workers occupy the platforms overhead.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_cragpool-lake-9b4be49d139897042572/1-0000.mp3", duration = 30.8244898, start = 0},
+    {file = "Audio/Transport/full_subzone_cragpool-lake-610e9c890305d17fcf53/1-0000.mp3", duration = 19.3567347, start = 0},
   },
 }
 P.transport["subzone:crossroads"] = {
@@ -1074,11 +1074,11 @@ P.transport["subzone:nightmare-vale"] = {
   },
 }
 P.transport["subzone:nightsong-woods"] = {
-  hash = "1708a3",
-  fullHash = "1708a3",
-  text = "Nightsong Woods. Nightsong Woods forms the embattled eastern expanse of Ashenvale, reaching from Raynewood Retreat toward the borders of Azshara. It serves as the primary battleground between the night elves defending their sacred forest and the Warsong clan harvesting lumber for the Horde. Across its shadowed glades, ancient groves clash with fortified encampments amidst persistent demonic corruption. Stretching eastward across Ashenvale to Azshara, Nightsong Woods is defined by escalating violence. The Falfarren River bisects the western reaches, creating a volatile boundary between Alliance settlements and Horde encroachments. Further east, the forest fractures into heavily disputed territories where Splintertree Post coordinates Horde campaigns against the Silverwing Sentinels. Orcish axes continuously clear southern groves to fuel the Horde's expansion, leaving clear-cut swaths that infuriate the Kaldorei. Adding to the peril, satyr strongholds like Satyrnaar and Xavian, alongside demonic remnants in Demon Fall Canyon and Felfire Hill, taint the eastern canopies.",
+  hash = "10a81c",
+  fullHash = "10a81c",
+  text = "Nightsong Woods. In eastern Ashenvale, Nightsong Woods is a forest where night elves and the Warsong clan fight over lumber and old corruption lingers. Nightsong Woods is Ashenvale’s eastern battleground. The Falfarren River cuts through the western forest, dividing Alliance settlements from Horde incursions. Farther east, Splintertree Post directs Horde campaigns against the Silverwing Sentinels.\n\nWarsong orcs fell the southern groves for lumber to fuel the Horde’s expansion, and the Kaldorei fight back. Satyr strongholds at Satyrnaar and Xavian taint the eastern forest, along with demonic remnants at Demon Fall Canyon and Felfire Hill.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_nightsong-woods-54edf191f37214dc9ddf/1-0000.mp3", duration = 62.955102, start = 0},
+    {file = "Audio/Transport/full_subzone_nightsong-woods-e9c109dcdfe8ca9e1b56/1-0000.mp3", duration = 39.0791837, start = 0},
   },
 }
 P.transport["subzone:north-coast"] = {

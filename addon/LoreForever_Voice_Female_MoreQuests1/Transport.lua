@@ -3350,7 +3350,7 @@ P.transport["quest:491"] = {
   fullHash = "eb8bc2",
   text = "Wand to Bethor. At Fenris Keep, the Woven Wand is bound for Bethor Iceshard in the Undercity. Three apprentice mages made it as a sign of fellowship, but Thule Ravenclaw hid it after choosing the Scourge. Its return brings a piece of Bethor's mortal youth back to the Magic Quarter. Before Lordaeron fell, three young mages joined their training wands into one: the Woven Wand. It marked their friendship and their shared hopes in the magical arts.\n\nThen Thule Ravenclaw gave his loyalty to the Lich King and embraced the Scourge. Their fellowship was broken. He came to despise the friendship they had shared, yet could neither destroy the wand nor leave it with his former companions.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_491-a3b23b674c9ce4c0050c/1-0000.mp3", duration = 43.4155102, start = 0},
+    {file = "Audio/Transport/full_quest_491-9aea3d8179b17655518b/1-0000.mp3", duration = 42.997551, start = 0},
   },
 }
 P.transport["quest:492"] = {
@@ -4770,11 +4770,11 @@ P.transport["quest:7781"] = {
   },
 }
 P.transport["quest:7782"] = {
-  hash = "49cf07",
-  fullHash = "49cf07",
-  text = "The Lord of Blackrock. At Stormwind's gates, the Alliance gathers to honor its victory over Blackrock. After you report to Grand Admiral Jes-Tereth in Stormwind Keep, the heroes make for the Valley of Heroes. Field Marshal Stonebridge is ready to lead the city's public commemoration. Field Marshal Stonebridge raises Nefarian's severed head above the great arches at Stormwind's main entrance. The sight carries across the city, and the Rallying Cry of the Dragonslayer inspires defenders, visiting dignitaries, and citizens. They know Deathwing's brood has suffered a crushing blow.",
+  hash = "c8ff2c",
+  fullHash = "c8ff2c",
+  text = "The Lord of Blackrock. At Stormwind's gates, the Alliance gathers to honor its victory over Blackrock. After you report to Highlord Bolvar Fordragon in Stormwind Keep, the heroes make for the Valley of Heroes. Field Marshal Stonebridge is ready to lead the city's public commemoration. Field Marshal Stonebridge raises Nefarian's severed head above the great arches at Stormwind's main entrance. The sight carries across the city, and the Rallying Cry of the Dragonslayer inspires defenders, visiting dignitaries, and citizens. They know Deathwing's brood has suffered a crushing blow.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_7782-8b1a1fa5def0504ab3da/1-0000.mp3", duration = 35.9183673, start = 0},
+    {file = "Audio/Transport/full_quest_7782-a11247690411d2bbafe6/1-0000.mp3", duration = 34.8473469, start = 0},
   },
 }
 P.transport["quest:7783"] = {

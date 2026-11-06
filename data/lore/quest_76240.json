@@ -1,0 +1,82 @@
+{
+ "key": "quest:76240",
+ "type": "quest",
+ "name": "Stalk With The Earthmother",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   76240
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Boarton Shadetotem asks you to fillet a Raw Brilliant Smallfish in Thunder Bluff. He hopes the exercise will reveal a talent for subtle arts.",
+ "sections": [
+  {
+   "title": "A Final Trial",
+   "body": "Boarton Shadetotem in Thunder Bluff asks you to show what comes naturally with his Knife Set. Bring him a Raw Brilliant Smallfish and fillet it before him. He hopes this less direct test will uncover hidden talent.",
+   "spoiler": 0
+  },
+  {
+   "title": "Parting Words",
+   "body": "Boarton Shadetotem sees that you lack the rogueish precision he sought. He offers a parting gift and sends you on your travels, wishing the Horde heroes like you.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to fillet a fish?",
+   "aliases": [
+    "who is boarton",
+    "boarton shadetotem",
+    "fish knife quest"
+   ],
+   "answer": "Boarton Shadetotem in Thunder Bluff asks you to fillet a Raw Brilliant Smallfish with his Knife Set."
+  },
+  {
+   "q": "Why does Boarton want me to fillet a fish?",
+   "aliases": [
+    "why fillet fish",
+    "what is boarton testing",
+    "smallfish test"
+   ],
+   "answer": "Boarton hopes the exercise will bring out a hidden talent for subtle arts."
+  },
+  {
+   "q": "What fish does Boarton ask for?",
+   "aliases": [
+    "which fish",
+    "raw smallfish",
+    "brilliant fish"
+   ],
+   "answer": "Boarton asks for a Raw Brilliant Smallfish."
+  },
+  {
+   "q": "Where do I fillet the fish?",
+   "aliases": [
+    "where fish task",
+    "thunder bluff fish",
+    "where use knife set"
+   ],
+   "answer": "Fillet the Raw Brilliant Smallfish in front of Boarton Shadetotem in Thunder Bluff."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "boarton shadetotem",
+  "knife set",
+  "raw brilliant smallfish",
+  "stalk with the earthmother",
+  "subtle arts",
+  "thunder bluff"
+ ],
+ "related": [
+  "zone:thunderbluff",
+  "topic:horde"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Stalk With The Earthmother"
+ ]
+}

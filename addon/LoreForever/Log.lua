@@ -454,23 +454,18 @@ end
 -- Quest text as the NPC offers it (QUEST_DETAIL), and progress/completion text later.
 -- The game writes the character's name, class and race into quest text; they're kept as $N, $C and $R
 -- (Capture.Placeholders), so nothing that feeds the lore pipeline or is shared at /contribute carries the name.
-local function nameOut(text, token)
-  if type(text) ~= "string" then return text end
-  local me = UnitName and UnitName("player")
-  if type(me) == "string" and me ~= "" then
-    text = text:gsub(me:gsub("%W", "%%%0"), token)
-  end
-  return text
-end
 local function scrub(text)
   if type(text) == "string" and ns.Capture then return ns.Capture.Placeholders(text) end
-  return nameOut(text, "$N")
+  return text
 end
 Log.Scrub = scrub   -- gossip and book text too (Journey.lua)
 
 -- Titles (a book's, a letter's) keep the form 0.7.0 gave them, the name only, as <name>: they're keys (texts.books,
 -- the journey's seen.book and its events), so they stay the same across versions and characters.
-function Log.ScrubName(text) return nameOut(text, "<name>") end
+function Log.ScrubName(text)
+  if type(text) == "string" and ns.Capture then return ns.Capture.NameOut(text, "<name>") end
+  return text
+end
 
 -- Options › Keep the quest text you see (Capture.lua): off keeps no new quest text.
 local function keeping() return not ns.Capture or ns.Capture.On() end

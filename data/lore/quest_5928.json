@@ -1,0 +1,87 @@
+{
+ "key": "quest:5928",
+ "type": "quest",
+ "name": "Heeding the Call",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5928
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Turak Runetotem calls you to begin learning the ways of the bear. He teaches that druids serve nature and preserve balance.",
+ "sections": [
+  {
+   "title": "A Call to Learn",
+   "body": "Turak Runetotem on Elder Rise in Thunder Bluff asks you to speak with him. He says the time has come for you to take a first step into a larger world.\n\nHe teaches that Cenarius' children serve nature, caring for animals and plants as friends and charges. Your first lesson is the ways of the bear, and strength of body and heart.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to come here?",
+   "aliases": [
+    "who sent me",
+    "turak who",
+    "who is turak"
+   ],
+   "answer": "Turak Runetotem asks you to speak with him on Elder Rise in Thunder Bluff."
+  },
+  {
+   "q": "What does Turak want me to learn?",
+   "aliases": [
+    "what am i learning",
+    "bear lesson",
+    "learn bear"
+   ],
+   "answer": "Turak says your first step is to learn the ways of the bear and strength of body and heart."
+  },
+  {
+   "q": "What does Turak say druids do?",
+   "aliases": [
+    "druid calling",
+    "serve nature",
+    "why nature"
+   ],
+   "answer": "Turak says Cenarius' children serve nature and preserve balance for the sake of animals, plants, and themselves."
+  },
+  {
+   "q": "Where do I speak with Turak?",
+   "aliases": [
+    "where is turak",
+    "elder rise",
+    "turak location"
+   ],
+   "answer": "Turak Runetotem is on Elder Rise in Thunder Bluff."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As a druid, Turak's teaching begins with service to nature and learning the ways of the bear."
+  }
+ ],
+ "keywords": [
+  "bear",
+  "cenarius",
+  "druid",
+  "elder rise",
+  "heeding the call",
+  "nature",
+  "thunder bluff",
+  "turak runetotem"
+ ],
+ "related": [
+  "quest:6001",
+  "npc:turak-runetotem",
+  "subzone:elder-rise",
+  "zone:thunderbluff",
+  "topic:cenarius"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Heeding the Call"
+ ]
+}

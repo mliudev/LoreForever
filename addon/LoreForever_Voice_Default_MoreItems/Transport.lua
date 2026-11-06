@@ -1198,7 +1198,7 @@ P.transport["item:defias-tower-key"] = {
   fullHash = "3e197d",
   text = "Defias Tower Key. In Westfall, the Defias Tower Key marks a quiet passage past Klaven's Tower's sentries. Stormwind operatives need it as proof that an infiltrator slipped by unseen. Klaven's Tower is a Defias Brotherhood stronghold on the Westfall coast. Recent shipments from Duskwood brought malformed Defias drones to guard it. The drones are undead and covered in spikes.\n\nSI:7 watchers direct field agents to pick the sentries' pockets instead of fighting them. That way, no alarm sounds as the tower's defenses are breached.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_defias-tower-key-5af21c185b54f3f078d0/1-0000.mp3", duration = 34.2987755, start = 0},
+    {file = "Audio/Transport/full_item_defias-tower-key-706b125a0d604435a67c/1-0000.mp3", duration = 32.2089796, start = 0},
   },
 }
 P.transport["item:deliah-s-ring"] = {
@@ -1774,7 +1774,7 @@ P.transport["item:filled-brown-waterskin"] = {
   fullHash = "c40ca6",
   text = "Filled Brown Waterskin. In the Barrens, the Filled Brown Waterskin brings fresh water from the pond below Brine's hut. Aspiring shaman carry it to her to begin brewing sapta, which lets them commune with water spirits. Below Brine's hut, a pond offers rare fresh water in the Barrens. Nearby quilboar fight fiercely over it. A novice shaman sees how scarcity drives creatures to defend what sustains them.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_filled-brown-waterskin-bc468ac8c5a40b190b9b/1-0000.mp3", duration = 23.3273469, start = 0},
+    {file = "Audio/Transport/full_item_filled-brown-waterskin-b5d452406642dd1c9723/1-0000.mp3", duration = 24.3722449, start = 0},
   },
 }
 P.transport["item:filled-cliffspring-falls-sampler"] = {
@@ -2974,7 +2974,7 @@ P.transport["item:klaven-mortwake-s-journal"] = {
   fullHash = "6936ae",
   text = "Klaven Mortwake's Journal. SI:7 operatives recover Klaven Mortwake's Journal from the Defias tower. It records the Brotherhood's search for a way to raise the dead. Master Mathias Shaw leads Stormwind's intelligence service, SI:7. He sought Mortwake's journal to trace the Brotherhood's wider alliances. The notes confirm experiments in reanimation and illicit support linking Duskwood, the Venture Company, and the Defias. For rogues serving the crown, recovering the research is a step toward mastering poisons.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_klaven-mortwake-s-journal-bf53222d3174612ce1f1/1-0000.mp3", duration = 31.3991837, start = 0},
+    {file = "Audio/Transport/full_item_klaven-mortwake-s-journal-a583ae7b597c496c30b4/1-0000.mp3", duration = 31.0595918, start = 0},
   },
 }
 P.transport["item:kodo-horn"] = {
@@ -5130,11 +5130,11 @@ P.transport["item:the-embalmer-s-heart"] = {
   },
 }
 P.transport["item:the-general-s-response"] = {
-  hash = "635ebf",
-  fullHash = "635ebf",
-  text = "The General's Response. In Lakeshire, General Marcus Jonathan answers a plea for aid as Redridge faces danger. His dispatch acknowledges Magistrate Solomon’s appeal against the Blackrock orcs and gnolls, but sends no immediate reinforcements from Stormwind. Magistrate Solomon asks Stormwind City for troops to defend Redridge from gathering Blackrock orc clans and Gnoll warbands. General Marcus Jonathan replies that he has sent the plea to the throne, but no soldiers are coming now. He orders the letter returned to Lakeshire. Solomon is troubled by the delay and suspects something is wrong with Stormwind’s leaders.",
+  hash = "52cd66",
+  fullHash = "52cd66",
+  text = "The General's Response. From Stormwind, General Marcus Jonathan answers Lakeshire's plea for aid as Redridge faces danger. His dispatch acknowledges Magistrate Solomon’s appeal against the Blackrock orcs and gnolls, but sends no immediate reinforcements from Stormwind. Magistrate Solomon asks Stormwind City for troops to defend Redridge from gathering Blackrock orc clans and Gnoll warbands. General Marcus Jonathan replies that he has sent the plea to the throne, but no soldiers are coming now. He orders the letter returned to Lakeshire. Solomon is troubled by the delay and suspects something is wrong with Stormwind’s leaders.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_the-general-s-response-d548883a07bd0029623a/1-0000.mp3", duration = 35.5004082, start = 0},
+    {file = "Audio/Transport/full_item_the-general-s-response-5e1404acf77f18512ed3/1-0000.mp3", duration = 36.3885714, start = 0},
   },
 }
 P.transport["item:the-lich-s-spellbook"] = {
@@ -5190,7 +5190,7 @@ P.transport["item:thule-s-head"] = {
   fullHash = "4a2843",
   text = "Thule's Head. At the Sepulcher, High Executor Hadrec seeks proof that Thule Ravenclaw is dead. His severed head confirms the Scourge commander on Fenris Isle has fallen and helps the Forsaken hold Silverpine Forest.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_thule-s-head-5f37ad6ac0784146df2c/1-0000.mp3", duration = 13.6620408, start = 0},
+    {file = "Audio/Transport/full_item_thule-s-head-e6eb0120030ded103e6f/1-0000.mp3", duration = 12.9567347, start = 0},
   },
 }
 P.transport["item:thunder-lizard-blood"] = {
@@ -5598,7 +5598,7 @@ P.transport["item:vial-of-purest-water"] = {
   fullHash = "b1ea8d",
   text = "Vial of Purest Water. In the southern Barrens, Brine blesses pure water for a shaman initiate. Islen Waterseer needs it to prepare a water sapta that lets the initiate see elemental spirits. Brine leads the initiate through trials of patience and cleansing, then seals the water in the vial. Its purity is untouched by corruption. Carry it across the Barrens to Islen Waterseer, who watches over a solitary shore. She needs the water to brew a water sapta, for only such pure water lets a shaman commune with spiritual guardians far from the sunbaked flats.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_vial-of-purest-water-e7076ef91fc706168166/1-0000.mp3", duration = 33.3583673, start = 0},
+    {file = "Audio/Transport/full_item_vial-of-purest-water-2deb56cc1172ec2b4e5a/1-0000.mp3", duration = 33.5934694, start = 0},
   },
 }
 P.transport["item:vial-of-spider-venom"] = {

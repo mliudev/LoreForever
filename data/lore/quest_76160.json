@@ -1,0 +1,74 @@
+{
+ "key": "quest:76160",
+ "type": "quest",
+ "name": "Stalk With The Earthmother",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   76160
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Boarton Shadetotem asks you to make a salve from Windfury Cones found north of Thunder Bluff. He hopes it will make a blade's wounds burn with bitter force.",
+ "sections": [
+  {
+   "title": "A Bitter Salve",
+   "body": "Boarton Shadetotem in Thunder Bluff wants a venomous salve, made from cones gathered near the Harpies' nests to the north. You are to crush the Windfury Cones with a mortar and pestle, then bring him the result. He warns that the finished salve may hurt even on the skin.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the salve?",
+   "aliases": [
+    "who wants the salve",
+    "Boarton Shadetotem request"
+   ],
+   "answer": "Boarton Shadetotem in Thunder Bluff asks you to prepare a salve from Windfury Cones."
+  },
+  {
+   "q": "Where do the Windfury Cones grow?",
+   "aliases": [
+    "where find cones",
+    "Windfury Cone location"
+   ],
+   "answer": "The Harpies north of Thunder Bluff nest in a tree that produces the toxic resin. Fallen cones lie around their nests."
+  },
+  {
+   "q": "What is the salve meant to do?",
+   "aliases": [
+    "what does salve do",
+    "poison blade salve"
+   ],
+   "answer": "Applied to a blade, the salve is meant to make an opponent's wounds burn and turn their blood to salt."
+  },
+  {
+   "q": "Why does Boarton warn about touching it?",
+   "aliases": [
+    "salve skin warning",
+    "is the salve dangerous"
+   ],
+   "answer": "Boarton says even skin contact with the finished salve could be painful."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "boarton shadetotem",
+  "harpies",
+  "mortar and pestle",
+  "salve",
+  "stalk with the earthmother",
+  "thunder bluff",
+  "windfury cones"
+ ],
+ "related": [
+  "zone:thunderbluff",
+  "topic:harpy"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Stalk With The Earthmother"
+ ]
+}

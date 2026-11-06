@@ -1,0 +1,95 @@
+{
+ "key": "quest:86758",
+ "type": "quest",
+ "name": "Twisting the Knife",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   86758
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Marek asks you to hunt Daggerfang, the crocolisk that took his knife. The beast prowls along the lake\u2019s edge, where other hunters may be at risk.",
+ "sections": [
+  {
+   "title": "Marek\u2019s Knife",
+   "body": "Marek tells you that a crocolisk nearly took his hand and left him scrambling from the lake. He thinks his knife is still somewhere nearby. He calls the beast Daggerfang and asks you to find it along the lake\u2019s edge, where other hunters may be in danger.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Daggerfang?",
+   "aliases": [
+    "daggerfang",
+    "daggerfang croc",
+    "big crocolisk"
+   ],
+   "answer": "Daggerfang is a crocolisk Marek says hunts along the edge of the lake."
+  },
+  {
+   "q": "What happened to Marek\u2019s knife?",
+   "aliases": [
+    "marek knife",
+    "lost knife",
+    "where knife"
+   ],
+   "answer": "Marek thinks he left his knife near the lake after using it against a crocolisk."
+  },
+  {
+   "q": "Why does Marek want Daggerfang hunted?",
+   "aliases": [
+    "why kill daggerfang",
+    "croc danger",
+    "hunt the croc"
+   ],
+   "answer": "Marek believes Daggerfang may threaten the other hunters near the lake."
+  },
+  {
+   "q": "Where is Daggerfang?",
+   "aliases": [
+    "daggerfang location",
+    "lake croc",
+    "where is the croc"
+   ],
+   "answer": "Marek says Daggerfang hunts along the edge of the lake."
+  },
+  {
+   "q": "What does Marek ask me to bring back?",
+   "aliases": [
+    "what to bring back",
+    "knife and croc",
+    "marek request"
+   ],
+   "answer": "Marek asks you to find and defeat Daggerfang and bring back his knife."
+  },
+  {
+   "q": "What does Marek say about the crocolisk?",
+   "aliases": [
+    "marek croc story",
+    "almost lost hand",
+    "knife in jaw"
+   ],
+   "answer": "Marek says the crocolisk nearly took his hand, and he used his knife against it to escape."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crocolisk",
+  "daggerfang",
+  "hunt",
+  "hunters",
+  "knife",
+  "lake",
+  "marek"
+ ],
+ "related": [
+  "topic:hunter"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Twisting the Knife"
+ ]
+}

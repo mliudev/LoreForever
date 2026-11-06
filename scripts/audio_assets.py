@@ -11,7 +11,8 @@ same as the private build that QA tested.
 
   audio_assets.py manifest                   write release/audio.json for the recordings in addon/ (no network)
   audio_assets.py upload [--repo OWNER/NAME] upload the zips release/audio.json names that the audio release doesn't
-                                             have yet (gh); --dry-run lists them, --out DIR writes them there instead
+                                             have yet (gh); --dry-run lists them, --out DIR writes them there instead,
+                                             --ahead uploads them for a candidate, and stands aside near GitHub's limit
   audio_assets.py fetch [--base URL]         put the recordings release/audio.json names into addon/<pack>/Audio/.
                                              A pack whose Audio/ has recordings already is left alone (tags from
                                              before LOR-133 kept them in git), and so is a pack this checkout lacks.
@@ -36,6 +37,7 @@ import contextlib
 import datetime
 import hashlib
 import json
+import multiprocessing
 import os
 import re
 import shutil
@@ -47,8 +49,10 @@ import time
 import urllib.parse
 import urllib.request
 import zipfile
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
 from pathlib import Path
+
+import build_jobs
 
 ROOT = Path(__file__).resolve().parents[1]
 ADDONS = ROOT / "addon"
@@ -62,9 +66,11 @@ CACHE_LIMIT = 8 * 1024**3
 LFS_POINTER = b"version https://git-lfs"
 PACK = r"LoreForever_(?:Voice_[A-Za-z0-9_]+|Edition_[A-Za-z0-9_]+_Audio)"
 KEEP_RELEASES = 10   # prune keeps every zip the last this many releases' tags name, so those can still be rebuilt
+AHEAD_MAX_ASSETS = 800   # upload --ahead leaves the rest of GitHub's 1,000 files per release to real releases
 GRACE = 24 * 3600    # and every zip uploaded within this many seconds: a release in progress uploads before it tags
 FETCH_WORKERS = 4    # packs fetched side by side
 UPLOAD_WORKERS = 4   # zips uploaded side by side
+VALIDATE_WORKER_MB = 200   # one worker of check_transport
 README = ("Which zip on the public repo's \"audio\" release holds each voice pack's recordings, which aren't in its "
           "git history (LOR-133). scripts/release.sh writes it with each release (scripts/audio_assets.py manifest); "
           "the release workflow puts the recordings back from it (fetch). Don't edit it by hand.")
@@ -278,14 +284,37 @@ def cached_bundle(pack: str, files: list[tuple[str, Path]], entry: dict, out: Pa
 
 # --- commands ------------------------------------------------------------------------------------------------------
 
+def check_transport(names: list[str]) -> None:
+    """transport_assets.validate on each pack, side by side: it reads every piece, about a minute one after another."""
+    from transport_assets import TransportError, validate
+    slot = build_jobs.reserve("audio_assets manifest", VALIDATE_WORKER_MB, tasks=len(names))
+    try:
+        # fork: workers that start from this process, scripts/ on their path. A failure reads as it did one by one: the
+        # first pack in order that has one.
+        with ProcessPoolExecutor(slot.workers, mp_context=multiprocessing.get_context("fork")) as pool:
+            try:
+                list(pool.map(validate, [ROOT / "addon" / pack for pack in names]))
+            except TransportError as e:
+                raise Failure(str(e)) from e
+    finally:
+        slot.release()
+
+
+def pack_fingerprint(pack: str, files: list[tuple[str, Path]], store: Path) -> str:
+    """fingerprint(files). For an asset-store pack, from the sha256s hydrate recorded, reading again only a file whose
+    size or time changed since: the same result without reading 15 GB of recordings at every stamp."""
+    if not store.is_file():
+        return fingerprint(files)
+    from audio_store import Stamp, current, fingerprint as from_sha256s
+    stamp = Stamp(ROOT, pack)
+    return from_sha256s({name: [current(path, name, stamp)] for name, path in files})
+
+
 def cmd_manifest(_args) -> int:
     packs = {}
-    for pack in shipped_packs():
-        from transport_assets import TransportError, validate
-        try:
-            validate(ROOT / "addon" / pack)
-        except TransportError as e:
-            raise Failure(str(e)) from e
+    names = shipped_packs()
+    check_transport(names)
+    for pack in names:
         files = recordings(pack)
         if not files:
             store = ROOT / "release" / "audio-store" / f"{pack}.json"
@@ -298,8 +327,8 @@ def cmd_manifest(_args) -> int:
                               f"Fetch them first: python3 scripts/audio_store.py hydrate --pack {pack}")
             continue   # build-release.sh refuses a shipped voice pack without recordings
         reject_pointers(pack, files)
-        fp = fingerprint(files)
         store = ROOT / "release" / "audio-store" / f"{pack}.json"
+        fp = pack_fingerprint(pack, files, store)
         if store.is_file():   # LOR-440: an asset-store pack must ship exactly the recordings its manifest names
             try:
                 named = json.loads(store.read_text(encoding="utf-8"))["fingerprint"]
@@ -335,6 +364,10 @@ def cmd_upload(args) -> int:
             have = None   # no audio release yet
         else:
             raise Failure(f"couldn't read {args.repo}'s {TAG} release: {r.stderr.strip()}")
+    # Only a release prunes (post-release.sh), so candidates between releases must never use up the room a release needs.
+    if args.ahead and have and len(have) + len(packs) > AHEAD_MAX_ASSETS:
+        print(f"recordings: not uploading ahead, the {TAG} release has {len(have)} files; the real run uploads them")
+        return 0
     todo = [(pack, e) for pack, e in packs.items() if e["asset"] not in (have or set())]
     size = sum(e["bytes"] for _, e in todo)
     if not todo:
@@ -599,6 +632,7 @@ def main(argv: list[str] | None = None) -> int:
     up = sub.add_parser("upload")
     up.add_argument("--repo", default=REPO)
     up.add_argument("--dry-run", action="store_true")
+    up.add_argument("--ahead", action="store_true", help="for a candidate: see AHEAD_MAX_ASSETS")
     up.add_argument("--out", help="write the zips here instead of uploading them")
     up.add_argument("--cache-dir", default=os.environ.get("LORE_AUDIO_CACHE_DIR") or str(
         Path(os.environ.get("XDG_CACHE_HOME") or Path.home() / ".cache") / "lore-forever" / "audio-bundles"),

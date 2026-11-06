@@ -1,0 +1,96 @@
+{
+ "key": "quest:97915",
+ "type": "quest",
+ "name": "Camping 101: Alchemy",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97915
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "An Alchemist can learn to craft a Mana Well from Alchemist Mallory near Stormwind. It gives healers and spellcasters a refreshing taste at camp.",
+ "sections": [
+  {
+   "title": "A Camp for Brews",
+   "body": "An Alchemist can ask Alchemist Mallory near Stormwind in Elwynn Forest to teach a camping craft. You need to show proficiency in your skill before learning to make a Mana Well. Healers and spellcasters can come to the camp for a refreshing taste.",
+   "spoiler": 0
+  },
+  {
+   "title": "Setting Up Camp",
+   "body": "Once you know the craft, you can make your own Mana Well. Camps belong in the wilderness, and a campfire is needed before you start one. Someone who trains cooks can teach you the basics of making a fire.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who teaches Alchemists to make a Mana Well?",
+   "aliases": [
+    "mana well trainer",
+    "alchemy camp craft",
+    "mallory alchemy"
+   ],
+   "answer": "Alchemist Mallory teaches the craft near Stormwind in Elwynn Forest, once you have shown proficiency in your skill."
+  },
+  {
+   "q": "What is a Mana Well for?",
+   "aliases": [
+    "mana well use",
+    "what does mana well do",
+    "alchemy camp item"
+   ],
+   "answer": "A Mana Well gives healers and spellcasters a refreshing taste at camp."
+  },
+  {
+   "q": "Where can I find Alchemist Mallory?",
+   "aliases": [
+    "mallory location",
+    "where is mallory",
+    "alchemy trainer elwynn"
+   ],
+   "answer": "Alchemist Mallory is near Stormwind in Elwynn Forest."
+  },
+  {
+   "q": "What do I need before starting a camp?",
+   "aliases": [
+    "campfire needed",
+    "how start camp",
+    "camp basics"
+   ],
+   "answer": "You need a campfire before starting your camp. Someone who trains cooks can teach you how to make a fire."
+  },
+  {
+   "q": "Where should I try out my Mana Well?",
+   "aliases": [
+    "mana well camping",
+    "camp in town",
+    "where test mana well"
+   ],
+   "answer": "Try it in the wilderness, since most folk do not care for camps in the center of town."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alchemist",
+  "alchemist mallory",
+  "alchemy",
+  "camp",
+  "campfire",
+  "camping",
+  "elwynn forest",
+  "healers",
+  "mana well",
+  "spellcasters",
+  "stormwind"
+ ],
+ "related": [
+  "zone:elwynn",
+  "topic:stormwind-kingdom"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Camping 101: Alchemy"
+ ]
+}

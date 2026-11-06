@@ -2,6 +2,7 @@
 -- Sources: data/i18n/roRO. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_roRO")
 local Po = P.search.post
+Po["restauratoare"] = "A65B"
 Po["restaurator"] = "EEyB"
 Po["restauratorii"] = "DxuB"
 Po["restaurattome"] = "Cq9B"
@@ -12001,4 +12002,3 @@ Po["solomonmorganth"] = "CquB"
 Po["solomonmotivatia"] = "BYpC"
 Po["solomonnevoie"] = "AN6CGRgC"
 Po["solomonoriginea"] = "ApuC"
-Po["solomonpeople"] = "ApyC"

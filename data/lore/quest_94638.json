@@ -1,0 +1,103 @@
+{
+ "key": "quest:94638",
+ "type": "quest",
+ "name": "Strength and Mercy",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94638
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Ur'endra's mate asks you to end her suffering after she loses herself to madness. Your resolve earns a blessing to take the shape of his kin.",
+ "sections": [
+  {
+   "title": "A Heavy Plea",
+   "body": "A druid asks you to end Ur'endra's suffering in the Shen'dar Highlands. She is his mate, but madness has turned her against her own kin. The loss of the winds' magic has driven many creatures to lose themselves, and Ur'endra is among them. Her lair lies in a cave west of here, along the bluffs between the Shen'dar Highlands and the Gustberry Lowlands.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Blessing",
+   "body": "In the Shen'dar Highlands, Ur'endra's mate grieves her loss and calls it necessary for the balance. He sees your resolve in accepting so terrible a price. He grants you a blessing that lets you take the shape of his kin, and charges you to aid those who lack strength and defend those in need.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ur'endra?",
+   "aliases": [
+    "ur'endra",
+    "urendra who",
+    "druid's mate"
+   ],
+   "answer": "Ur'endra is the mate of the druid who asks you to end her suffering."
+  },
+  {
+   "q": "Why is Ur'endra attacking her kin?",
+   "aliases": [
+    "why urendra mad",
+    "urendra attacking",
+    "what happened to urendra"
+   ],
+   "answer": "Ur'endra has lost herself to madness. The loss of the winds' magic has caused many creatures to lose themselves."
+  },
+  {
+   "q": "Where is Ur'endra's lair?",
+   "aliases": [
+    "urendra cave",
+    "where is urendra",
+    "shen'dar cave"
+   ],
+   "answer": "Ur'endra makes her lair in a cave west of the druid, in the bluffs between the Shen'dar Highlands and the Gustberry Lowlands."
+  },
+  {
+   "q": "What does the druid ask me to do?",
+   "aliases": [
+    "urendra task",
+    "what do i do",
+    "kill urendra"
+   ],
+   "answer": "The druid asks you to end Ur'endra's suffering."
+  },
+  {
+   "q": "What blessing does the druid grant?",
+   "aliases": [
+    "shape blessing",
+    "way of the claw",
+    "druid blessing"
+   ],
+   "answer": "The druid grants you a blessing that lets you take the shape of his kin."
+  },
+  {
+   "q": "Why does the druid ask for this?",
+   "aliases": [
+    "why kill urendra",
+    "why this is necessary",
+    "balance"
+   ],
+   "answer": "The druid considers ending Ur'endra's suffering necessary for the balance."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As a druid, you are asked to prove your resolve before receiving a blessing to take the shape of the druid's kin."
+  }
+ ],
+ "keywords": [
+  "druid blessing",
+  "gustberry lowlands",
+  "shape of the claw",
+  "shen'dar highlands",
+  "strength and mercy",
+  "ur'endra",
+  "winds' magic"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Strength and Mercy"
+ ]
+}

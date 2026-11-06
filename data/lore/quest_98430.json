@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "At Bleachmane Rock, Perith Stormhoof is trapped after a peace effort with the gnolls turned violent. Cairne Bloodhoof sent the scout, and his safe return matters to the Tauren people.",
+ "summary": "At Palemane Rock, Perith Stormhoof is trapped after a peace effort with the gnolls turned violent. Cairne Bloodhoof sent the scout, and his safe return matters to the Tauren people.",
  "sections": [
   {
    "title": "A Scout in Danger",
-   "body": "Cairne Bloodhoof sent Perith Stormhoof to meet the gnolls settled here. Perith is one of Cairne’s Long Runners, so he cannot speak of the full mission. The attempt at peace turned violent, and he fears the gnolls will eat him if he stays through the night. You are asked to help him escape Bleachmane Rock and report his safety to Cairne in Thunder Bluff.",
+   "body": "Cairne Bloodhoof sent Perith Stormhoof to meet the gnolls settled here. Perith is one of Cairne’s Longwalkers, so he cannot speak of the full mission. The attempt at peace turned violent, and he fears the gnolls will eat him if he stays through the night. You are asked to help him escape Palemane Rock and report his safety to Cairne in Thunder Bluff.",
    "spoiler": 0
   },
   {
@@ -30,15 +30,15 @@
    "aliases": [
     "perith who",
     "stormhoof scout",
-    "long runner guy"
+    "longwalker guy"
    ],
-   "answer": "Perith Stormhoof is one of Cairne Bloodhoof’s Long Runners, the chieftain’s scouts."
+   "answer": "Perith Stormhoof is one of Cairne Bloodhoof’s Longwalkers, the chieftain’s scouts."
   },
   {
-   "q": "Why is Perith at Bleachmane Rock?",
+   "q": "Why is Perith at Palemane Rock?",
    "aliases": [
     "why perith there",
-    "bleachmane rock",
+    "palemane rock",
     "perith mission"
    ],
    "answer": "Cairne sent Perith to meet the gnolls settled there, though Perith cannot discuss the full mission."
@@ -50,7 +50,7 @@
     "why is perith trapped",
     "peace with gnolls"
    ],
-   "answer": "The gnolls answered the Long Runners’ attempt at peace with violence, leaving Perith in danger."
+   "answer": "The gnolls answered the Longwalkers’ attempt at peace with violence, leaving Perith in danger."
   },
   {
    "q": "What does Cairne ask me to do?",
@@ -59,7 +59,7 @@
     "stormhoof task",
     "get him out"
    ],
-   "answer": "You are asked to help Perith escape Bleachmane Rock and tell Cairne in Thunder Bluff that he is safe."
+   "answer": "You are asked to help Perith escape Palemane Rock and tell Cairne in Thunder Bluff that he is safe."
   }
  ],
  "angles": [
@@ -69,10 +69,10 @@
   }
  ],
  "keywords": [
-  "bleachmane rock",
   "cairne bloodhoof",
   "gnolls",
-  "long runners",
+  "longwalkers",
+  "palemane rock",
   "peace effort",
   "perith stormhoof",
   "thunder bluff"

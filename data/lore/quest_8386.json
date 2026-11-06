@@ -1,0 +1,63 @@
+{
+ "key": "quest:8386",
+ "type": "quest",
+ "name": "Fight for Warsong Gulch",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   8386
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A call to fight for Warsong Gulch helps preserve Ashenvale's natural defenses. Your efforts keep them intact for another day.",
+ "sections": [
+  {
+   "title": "Ashenvale's Defenses",
+   "body": "In Ashenvale, you are asked to fight for Warsong Gulch. Your work helps keep the area's natural defenses intact for another day.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why fight for Warsong Gulch?",
+   "aliases": [
+    "warsong gulch fight",
+    "why warsong"
+   ],
+   "answer": "Your efforts help preserve Ashenvale's natural defenses for another day."
+  },
+  {
+   "q": "What does this help protect?",
+   "aliases": [
+    "what defenses",
+    "ashenvale protection"
+   ],
+   "answer": "The fight helps keep Ashenvale's natural defenses intact for another day."
+  },
+  {
+   "q": "Where is Warsong Gulch?",
+   "aliases": [
+    "warsong location",
+    "where warsong gulch"
+   ],
+   "answer": "Warsong Gulch is named in connection with Ashenvale's natural defenses."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ashenvale",
+  "defenses",
+  "fight for warsong gulch",
+  "natural defenses",
+  "warsong gulch"
+ ],
+ "related": [
+  "zone:ashenvale"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Fight for Warsong Gulch"
+ ]
+}

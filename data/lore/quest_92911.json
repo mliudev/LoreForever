@@ -1,0 +1,78 @@
+{
+ "key": "quest:92911",
+ "type": "quest",
+ "name": "Harvesting the Harvesters",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92911
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "At Saldean's Farm, Ozwin Ironsprocket needs parts for a device meant to briefly override the harvesters' systems. He continues working on the assembly while you gather what he needs.",
+ "sections": [
+  {
+   "title": "Parts for Ozwin",
+   "body": "Ozwin Ironsprocket at Saldean's Farm is studying what makes the harvesters work. He believes he can briefly override their systems. You are gathering parts for his device while he continues tinkering with the assembly.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Finished Device",
+   "body": "Ozwin completes the device and asks you to try it. He stays at the farm, which is beginning to feel like home to him.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for parts?",
+   "aliases": [
+    "who needs parts",
+    "ozwin parts"
+   ],
+   "answer": "Ozwin Ironsprocket at Saldean's Farm needs parts for a device."
+  },
+  {
+   "q": "What is Ozwin building?",
+   "aliases": [
+    "what device",
+    "harvester device"
+   ],
+   "answer": "Ozwin is building a device intended to briefly override the harvesters' systems."
+  },
+  {
+   "q": "What parts does Ozwin need?",
+   "aliases": [
+    "parts list",
+    "what does ozwin need"
+   ],
+   "answer": "Ozwin needs Golem Isosprings, Copper Modulators, and a Crude Scope."
+  },
+  {
+   "q": "Where is Ozwin working?",
+   "aliases": [
+    "where ozwin",
+    "ozwin location"
+   ],
+   "answer": "Ozwin Ironsprocket is working at Saldean's Farm."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "copper modulators",
+  "crude scope",
+  "device",
+  "golem isosprings",
+  "harvesters",
+  "harvesting the harvesters",
+  "ozwin ironsprocket"
+ ],
+ "related": [
+  "subzone:saldean-s-farm"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Harvesting the Harvesters"
+ ]
+}

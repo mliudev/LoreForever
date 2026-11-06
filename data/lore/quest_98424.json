@@ -1,7 +1,7 @@
 {
  "key": "quest:98424",
  "type": "quest",
- "name": "Fizsprockets Notizen",
+ "name": "Fizsprocket's Notes",
  "era": "forever",
  "zone": "general",
  "meta": {
@@ -27,7 +27,7 @@
     "notebook pages",
     "missing notes"
    ],
-   "answer": "You are looking for the remaining pages of Overseer Fizsprocket’s notebook."
+   "answer": "You are looking for the remaining pages of Supervisor Fizsprocket’s notebook."
   },
   {
    "q": "Where are the rest of the notes?",
@@ -72,6 +72,6 @@
  ],
  "style": 2,
  "attribution": [
-  "In-game quest text: Fizsprockets Notizen"
+  "In-game quest text: Fizsprocket's Notes"
  ]
 }

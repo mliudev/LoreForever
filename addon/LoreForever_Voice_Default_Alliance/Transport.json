@@ -2005,9 +2005,9 @@
     "npc:shael-dryn": {
       "1": [
         {
-          "duration": 29.466122448979593,
-          "file": "Audio/Transport/full_npc_shael-dryn-e6e601d6e501bdb35049/1-0000.mp3",
-          "sha256": "91db926d5426a7da375a2a3a48cd699676c98a6e0d2989d03aa6c7f69cdaabf4",
+          "duration": 29.100408163265307,
+          "file": "Audio/Transport/full_npc_shael-dryn-3edfb67bbda399c4b750/1-0000.mp3",
+          "sha256": "d699a978ddd316bdbe63f0af3589fdc15b7e1106bebf90f2ccd8a28cfc3f8bbc",
           "start": 0
         }
       ],
@@ -2019,12 +2019,12 @@
         ]
       },
       "fullHash": "cf873a",
-      "generation": "11ed2f914a687aaf54c4",
+      "generation": "63a08e4f65f40c23e9a9",
       "hash": "cf873a",
       "source": {
-        "duration": 29.492245,
+        "duration": 29.126531,
         "file": null,
-        "sha256": "e6e601d6e501bdb35049a09ab545ed5ce903fed46d8a30c05c1b44ed5bcb477c"
+        "sha256": "3edfb67bbda399c4b7505abd952bcdac2ab8eeb76f92c8aa6b7f745cd57bdf50"
       },
       "text": "Shael'dryn. At the Moonwell of Purity, Shael'dryn watches corruption spread through Ashenvale. East of Iris Lake, she gives night elf scouts and Astranaar's sentinels relics tainted by demonic and foul influences. Shael'dryn keeps watch with the night elf sentinels over Ashenvale's eastern approaches. When corruption reaches local wildlife or tainted relics threaten the land's harmony, she draws on her knowledge of nature. Her guidance helps adventurers restore spiritual balance."
     },
@@ -3591,9 +3591,9 @@
     "subzone:cragpool-lake": {
       "1": [
         {
-          "duration": 20.08816326530612,
-          "file": "Audio/Transport/full_subzone_cragpool-lake-9dc57990784b4a7037fe/1-0000.mp3",
-          "sha256": "e411790e5811e2350d76d2298061d817cfc4868397b1dbfd61bc59eb003e3768",
+          "duration": 19.356734693877552,
+          "file": "Audio/Transport/full_subzone_cragpool-lake-610e9c890305d17fcf53/1-0000.mp3",
+          "sha256": "246f0d65dd1a04826c2180bda0cc442fae38fd78643e16e8963ccd797c17986c",
           "start": 0
         }
       ],
@@ -3605,12 +3605,12 @@
         ]
       },
       "fullHash": "ce4a52",
-      "generation": "1485103c2f51b958163e",
+      "generation": "8d5978b48b38daaee0a0",
       "hash": "ce4a52",
       "source": {
-        "duration": 20.114286,
+        "duration": 19.382857,
         "file": null,
-        "sha256": "9dc57990784b4a7037fe7a699ea54f549532377a24dd92c54fa64d821a7647a6"
+        "sha256": "610e9c890305d17fcf53d04ff041137c38314168e7c0b8fd2e55d6f35956af83"
       },
       "text": "Cragpool Lake. In Windshear Crag, the Venture Company’s timberworks hang above Cragpool Lake and its dark water. At Cragpool Lake, Venture Company platforms cross above the water beneath a vast timber structure. Gerenzo Wrenchwhistle watches operations across the mountain valley. Company workers occupy the platforms overhead."
     },
@@ -6867,9 +6867,9 @@
     "subzone:nightsong-woods": {
       "1": [
         {
-          "duration": 38.844081632653065,
-          "file": "Audio/Transport/full_subzone_nightsong-woods-a8a3deb8a28d6e2b6891/1-0000.mp3",
-          "sha256": "3e69edee76aa8f7fef0eb27cbaa61dcbf808789bcf89a30dfb8b5fc5e0d24730",
+          "duration": 39.07918367346939,
+          "file": "Audio/Transport/full_subzone_nightsong-woods-e9c109dcdfe8ca9e1b56/1-0000.mp3",
+          "sha256": "fc95828592ca0a6500aa19488ceba1f84a1ab5f174c01e9d5df2dff147d5d18a",
           "start": 0
         }
       ],
@@ -6881,12 +6881,12 @@
         ]
       },
       "fullHash": "10a81c",
-      "generation": "6ec4d609858947780806",
+      "generation": "cd5c90a6814e25f5d7a1",
       "hash": "10a81c",
       "source": {
-        "duration": 38.870204,
+        "duration": 39.105306,
         "file": null,
-        "sha256": "a8a3deb8a28d6e2b689154be6148934a1944eb28cdda3ce9146f914eebb0ecba"
+        "sha256": "e9c109dcdfe8ca9e1b56120f1ed6bb55b43a3f5272423cec28e64e3a42adeceb"
       },
       "text": "Nightsong Woods. In eastern Ashenvale, Nightsong Woods is a forest where night elves and the Warsong clan fight over lumber and old corruption lingers. Nightsong Woods is Ashenvale’s eastern battleground. The Falfarren River cuts through the western forest, dividing Alliance settlements from Horde incursions. Farther east, Splintertree Post directs Horde campaigns against the Silverwing Sentinels.\n\nWarsong orcs fell the southern groves for lumber to fuel the Horde’s expansion, and the Kaldorei fight back. Satyr strongholds at Satyrnaar and Xavian taint the eastern forest, along with demonic remnants at Demon Fall Canyon and Felfire Hill."
     },
@@ -10422,6 +10422,9 @@
       1795,
       2119
     ],
+    "246f0d65dd1a04826c2180bda0cc442fae38fd78643e16e8963ccd797c17986c": [
+      256
+    ],
     "2613ed936951927b16d2551d291cf1b93aaa1327d73105c8b7f9918447b7c82b": [
       319,
       517,
@@ -10731,12 +10734,6 @@
       582,
       784,
       969
-    ],
-    "3e69edee76aa8f7fef0eb27cbaa61dcbf808789bcf89a30dfb8b5fc5e0d24730": [
-      324,
-      685,
-      909,
-      1171
     ],
     "3f48a01e905cb7857e30a75a4d900ee3dff5d69c9f085f477e765f30980bf83d": [
       288,
@@ -11729,12 +11726,6 @@
       1874,
       2051,
       2189
-    ],
-    "91db926d5426a7da375a2a3a48cd699676c98a6e0d2989d03aa6c7f69cdaabf4": [
-      203,
-      504,
-      698,
-      889
     ],
     "921df2506ef5eda649fd4578cc44c570dea01fea9c0031c02f978e9aa3409920": [
       170,
@@ -12731,6 +12722,11 @@
       1269,
       1511
     ],
+    "d699a978ddd316bdbe63f0af3589fdc15b7e1106bebf90f2ccd8a28cfc3f8bbc": [
+      203,
+      511,
+      698
+    ],
     "d7e2f8b757ff20a70e48881fc223ca2ab7646141be7a29e4c999900264ba6c00": [
       187,
       463,
@@ -12860,10 +12856,6 @@
       374,
       597,
       862
-    ],
-    "e411790e5811e2350d76d2298061d817cfc4868397b1dbfd61bc59eb003e3768": [
-      249,
-      483
     ],
     "e47b794a13bef069243bb4848c9a60335f38c5c62d7a361bad67f861c5d1d297": [
       213,
@@ -13197,6 +13189,12 @@
       692,
       846
     ],
+    "fc95828592ca0a6500aa19488ceba1f84a1ab5f174c01e9d5df2dff147d5d18a": [
+      340,
+      587,
+      935,
+      1176
+    ],
     "fca5e97ef4e7901efaab62aeb002c8019ad82aaf4b24ce3c64894be910121e52": [
       228,
       443,
@@ -13406,6 +13404,9 @@
       "1627": 2,
       "596": 1
     },
+    "246f0d65dd1a04826c2180bda0cc442fae38fd78643e16e8963ccd797c17986c": {
+      "256": 1
+    },
     "2613ed936951927b16d2551d291cf1b93aaa1327d73105c8b7f9918447b7c82b": {
       "319": 1
     },
@@ -13541,9 +13542,6 @@
     },
     "3d57a402b4dfcd5927a8b3ddb11b86fd9f2db3f3178fd1fcff67c5bb6731a32b": {
       "394": 1
-    },
-    "3e69edee76aa8f7fef0eb27cbaa61dcbf808789bcf89a30dfb8b5fc5e0d24730": {
-      "324": 1
     },
     "3f48a01e905cb7857e30a75a4d900ee3dff5d69c9f085f477e765f30980bf83d": {
       "1167": 2,
@@ -13969,9 +13967,6 @@
       "1399": 2,
       "465": 1
     },
-    "91db926d5426a7da375a2a3a48cd699676c98a6e0d2989d03aa6c7f69cdaabf4": {
-      "504": 1
-    },
     "921df2506ef5eda649fd4578cc44c570dea01fea9c0031c02f978e9aa3409920": {
       "488": 1
     },
@@ -14380,6 +14375,9 @@
       "1269": 2,
       "454": 1
     },
+    "d699a978ddd316bdbe63f0af3589fdc15b7e1106bebf90f2ccd8a28cfc3f8bbc": {
+      "511": 1
+    },
     "d7e2f8b757ff20a70e48881fc223ca2ab7646141be7a29e4c999900264ba6c00": {
       "1612": 2,
       "644": 1
@@ -14436,9 +14434,6 @@
     },
     "e37838dad9e1d4d373c6a035ad1d72d20f66923a45a229a1e46f23eeb112ed93": {
       "374": 1
-    },
-    "e411790e5811e2350d76d2298061d817cfc4868397b1dbfd61bc59eb003e3768": {
-      "249": 1
     },
     "e47b794a13bef069243bb4848c9a60335f38c5c62d7a361bad67f861c5d1d297": {
       "1563": 2,
@@ -14575,6 +14570,9 @@
     },
     "fc58c6c0f3e26242f6b173fa5c1b3a66ef247007eb60e65f0dd75ef1de62aaac": {
       "479": 1
+    },
+    "fc95828592ca0a6500aa19488ceba1f84a1ab5f174c01e9d5df2dff147d5d18a": {
+      "340": 1
     },
     "fca5e97ef4e7901efaab62aeb002c8019ad82aaf4b24ce3c64894be910121e52": {
       "1041": 2,

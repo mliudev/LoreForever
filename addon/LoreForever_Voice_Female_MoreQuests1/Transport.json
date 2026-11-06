@@ -10871,9 +10871,9 @@
     "quest:491": {
       "1": [
         {
-          "duration": 43.415510204081635,
-          "file": "Audio/Transport/full_quest_491-a3b23b674c9ce4c0050c/1-0000.mp3",
-          "sha256": "b545a4cf3a7b1ea7ffd61cb3fd408a558434337e13531d7ad823d38e0c7d60d0",
+          "duration": 42.99755102040817,
+          "file": "Audio/Transport/full_quest_491-9aea3d8179b17655518b/1-0000.mp3",
+          "sha256": "b31dd16e15ea4c2a6da27b450ef3e8ad5dde546a618713ca044a185ed1007e73",
           "start": 0
         }
       ],
@@ -10885,12 +10885,12 @@
         ]
       },
       "fullHash": "eb8bc2",
-      "generation": "5ecd848fb8540018061b",
+      "generation": "ae5d9e4a0b92c7f02b28",
       "hash": "eb8bc2",
       "source": {
-        "duration": 43.441633,
+        "duration": 43.023673,
         "file": null,
-        "sha256": "a3b23b674c9ce4c0050c47149e9462f516ce65d4b3a80f00e54ea974299bf6b6"
+        "sha256": "9aea3d8179b17655518b0e76a7005dabe0ae8c7eea409c5d4b22098fd148caac"
       },
       "text": "Wand to Bethor. At Fenris Keep, the Woven Wand is bound for Bethor Iceshard in the Undercity. Three apprentice mages made it as a sign of fellowship, but Thule Ravenclaw hid it after choosing the Scourge. Its return brings a piece of Bethor's mortal youth back to the Magic Quarter. Before Lordaeron fell, three young mages joined their training wands into one: the Woven Wand. It marked their friendship and their shared hopes in the magical arts.\n\nThen Thule Ravenclaw gave his loyalty to the Lich King and embraced the Scourge. Their fellowship was broken. He came to despise the friendship they had shared, yet could neither destroy the wand nor leave it with his former companions."
     },
@@ -15499,9 +15499,9 @@
     "quest:7782": {
       "1": [
         {
-          "duration": 35.91836734693878,
-          "file": "Audio/Transport/full_quest_7782-8b1a1fa5def0504ab3da/1-0000.mp3",
-          "sha256": "3946d4e4df9053df70e57665ded84c471ac8eaba8278dc2ae685d2d77b522b63",
+          "duration": 34.84734693877551,
+          "file": "Audio/Transport/full_quest_7782-a11247690411d2bbafe6/1-0000.mp3",
+          "sha256": "efbd79c6ef23a4cd0a6f23fcafa1cd7c07a68901c72d8c01cdeab866ea85c8c4",
           "start": 0
         }
       ],
@@ -15512,15 +15512,15 @@
           "1"
         ]
       },
-      "fullHash": "49cf07",
-      "generation": "2f996d4237c1ac348fa5",
-      "hash": "49cf07",
+      "fullHash": "c8ff2c",
+      "generation": "5d8c8252c9cd245ad957",
+      "hash": "c8ff2c",
       "source": {
-        "duration": 35.94449,
+        "duration": 34.847347,
         "file": null,
-        "sha256": "8b1a1fa5def0504ab3da4c1754be5363a0261fd824d367404dc8485e8876615a"
+        "sha256": "a11247690411d2bbafe6ddc20f6ab084058013b5eaa4a34507ae6a7816acf435"
       },
-      "text": "The Lord of Blackrock. At Stormwind's gates, the Alliance gathers to honor its victory over Blackrock. After you report to Grand Admiral Jes-Tereth in Stormwind Keep, the heroes make for the Valley of Heroes. Field Marshal Stonebridge is ready to lead the city's public commemoration. Field Marshal Stonebridge raises Nefarian's severed head above the great arches at Stormwind's main entrance. The sight carries across the city, and the Rallying Cry of the Dragonslayer inspires defenders, visiting dignitaries, and citizens. They know Deathwing's brood has suffered a crushing blow."
+      "text": "The Lord of Blackrock. At Stormwind's gates, the Alliance gathers to honor its victory over Blackrock. After you report to Highlord Bolvar Fordragon in Stormwind Keep, the heroes make for the Valley of Heroes. Field Marshal Stonebridge is ready to lead the city's public commemoration. Field Marshal Stonebridge raises Nefarian's severed head above the great arches at Stormwind's main entrance. The sight carries across the city, and the Rallying Cry of the Dragonslayer inspires defenders, visiting dignitaries, and citizens. They know Deathwing's brood has suffered a crushing blow."
     },
     "quest:7783": {
       "1": [
@@ -24246,12 +24246,6 @@
       1623,
       1900
     ],
-    "3946d4e4df9053df70e57665ded84c471ac8eaba8278dc2ae685d2d77b522b63": [
-      191,
-      361,
-      649,
-      916
-    ],
     "3949270bf70405d297dc4efd97f44191ebafefbafe6431a49c1d942d26742c77": [
       239,
       528,
@@ -25187,6 +25181,9 @@
       1549,
       1752
     ],
+    "5491ae54fd179746eebb2fa85e5a8fad049b0fcb20dc0fb51d4b8d823a939023": [
+      546
+    ],
     "549c2ab7c7cac01acec4ee05b30458ec2213eebb64f6894b61679ad3235b9fbb": [
       242,
       485,
@@ -25650,6 +25647,11 @@
       1325,
       1482,
       1733
+    ],
+    "62bc743af44a21609e8532873595d3852efc07a856d2125e27e9322bf40cf390": [
+      346,
+      999,
+      1384
     ],
     "62c9f43299fcd5b0b490a18bdaaf77ad01bc1f07bbe815bab9f416b7ee781c35": [
       573
@@ -26547,8 +26549,9 @@
       616,
       777
     ],
-    "7f4cb318ccbb1c046ff96aa521a14a919365e3d0a36350007a82d8724c4584ed": [
-      1094
+    "7f0373d094d805c07b3334898f5416958757d8b11573eafdd903e2fc83b4a302": [
+      577,
+      1097
     ],
     "7f7fe942f58fa88aed9f1e662b5f12930afe184eaa639c61914c07efbc659650": [
       206,
@@ -28259,6 +28262,14 @@
       1485,
       1777
     ],
+    "b31dd16e15ea4c2a6da27b450ef3e8ad5dde546a618713ca044a185ed1007e73": [
+      218,
+      465,
+      644,
+      895,
+      1074,
+      1278
+    ],
     "b342fffe95d34bd32bc8217df8650cc42f5759f0de304db88e4533d7a7783c48": [
       152,
       341,
@@ -28339,15 +28350,6 @@
       1688,
       1838
     ],
-    "b545a4cf3a7b1ea7ffd61cb3fd408a558434337e13531d7ad823d38e0c7d60d0": [
-      215,
-      475,
-      667,
-      931,
-      1108,
-      1310,
-      1501
-    ],
     "b57203b3f4afeb0d8e6b71897b74444d3910f30d0fbb06b73b68c6b1a363eed2": [
       355,
       988,
@@ -28419,11 +28421,6 @@
       747,
       889,
       1030
-    ],
-    "b75e54163ca19c4d4abe769fdf1fb4a7d0b6971bc5fa214b5f0dc1d9a7b75e6d": [
-      353,
-      1005,
-      1391
     ],
     "b7fbb255bb614aabc56c7ac5f2b43afbb4b21e2d81a47b86b5f823a9b9d12836": [
       296,
@@ -30244,6 +30241,12 @@
       1794,
       1950
     ],
+    "efbd79c6ef23a4cd0a6f23fcafa1cd7c07a68901c72d8c01cdeab866ea85c8c4": [
+      211,
+      478,
+      654,
+      902
+    ],
     "efe18d0d1c3d482ca324bb0e03cf5d916907309d7dfcfc869f043ed0ad9ca487": [
       229,
       584,
@@ -31616,9 +31619,6 @@
     "39105260efcb1774010663620ba8a372fe19802e7765db6832080a692b6c2f9a": {
       "1295": 2,
       "614": 1
-    },
-    "3946d4e4df9053df70e57665ded84c471ac8eaba8278dc2ae685d2d77b522b63": {
-      "649": 2
     },
     "3949270bf70405d297dc4efd97f44191ebafefbafe6431a49c1d942d26742c77": {
       "1328": 2,
@@ -33142,6 +33142,9 @@
       "1339": 2,
       "615": 1
     },
+    "b31dd16e15ea4c2a6da27b450ef3e8ad5dde546a618713ca044a185ed1007e73": {
+      "644": 1
+    },
     "b342fffe95d34bd32bc8217df8650cc42f5759f0de304db88e4533d7a7783c48": {
       "506": 1
     },
@@ -33175,9 +33178,6 @@
     "b528f16fd16fdf8643c0f9422351d11aa83ba3a5112e4e77f84454eb9837fe76": {
       "1243": 2,
       "482": 1
-    },
-    "b545a4cf3a7b1ea7ffd61cb3fd408a558434337e13531d7ad823d38e0c7d60d0": {
-      "667": 1
     },
     "b57203b3f4afeb0d8e6b71897b74444d3910f30d0fbb06b73b68c6b1a363eed2": {
       "355": 1,
@@ -33896,6 +33896,9 @@
     "ef9e4dfe73575644d5082ce8d31d8e34535e0478c201efbad0bc476eab92bb65": {
       "1499": 2,
       "504": 1
+    },
+    "efbd79c6ef23a4cd0a6f23fcafa1cd7c07a68901c72d8c01cdeab866ea85c8c4": {
+      "654": 2
     },
     "efe18d0d1c3d482ca324bb0e03cf5d916907309d7dfcfc869f043ed0ad9ca487": {
       "584": 1

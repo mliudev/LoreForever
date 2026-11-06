@@ -11,22 +11,22 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "You are ready to make a bandage pouch, and now you need a place to try it.",
+ "summary": "You are ready to make a First Aid Kit, and now you need a place to try it.",
  "sections": [
   {
    "title": "A Place to Camp",
-   "body": "You can make the pouch, but most people would rather not camp in the middle of town. So take it out into the wilderness. Before you set up camp, you need a campfire. Most cooks can teach you how to make one.",
+   "body": "You can make the kit, but most people would rather not camp in the middle of town. So take it out into the wilderness. Before you set up camp, you need a campfire. Most cooks can teach you how to make one.",
    "spoiler": 0
   }
  ],
  "faq": [
   {
-   "q": "Where can I try the bandage pouch?",
+   "q": "Where can I try the First Aid Kit?",
    "aliases": [
-    "where try pouch",
-    "bandage pouch place"
+    "where try kit",
+    "first aid kit place"
    ],
-   "answer": "Try the bandage pouch in the wilderness, where people are less likely to object to a camp."
+   "answer": "Try the First Aid Kit in the wilderness, where people are less likely to object to a camp."
   },
   {
    "q": "What do I need before setting up camp?",
@@ -47,11 +47,11 @@
  ],
  "angles": [],
  "keywords": [
-  "bandage pouch",
   "campfire",
   "camping",
   "cooking",
   "first aid",
+  "first aid kit",
   "wilderness"
  ],
  "related": [],

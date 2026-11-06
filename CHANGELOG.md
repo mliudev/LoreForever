@@ -7,6 +7,17 @@ wrap long bullets with an indented continuation line.
 
 ## Unreleased
 
+## 1.2.0 (2026-11-06)
+
+- **Willo learns where vendors and trainers stand:** when you speak to one Lore Forever has no place for, it notes
+  where you stood, so she can send others there. Nothing about you goes with it; it turns off in her Settings.
+- **German names leave English stories:** a few Mulgore and starter quests now use the game's names, like the Clearcutter
+  Key and Palemane Rock.
+- **More stories narrated:** English stories and quest lines that were missing a recording now have one, and the male
+  narrator says SI:7 right.
+- Sharing quest text no longer mangles ordinary words when your character's name is one of them or sits inside one.
+- Fixed a Lua error from Reset windows, and a stray stack of letters no longer shows on the subtitle bar.
+
 ## 1.1.0 (2026-11-05)
 
 - **Stories where you are:** riding the Deeprun Tram plays the tram's story, Ironforge's waits until you walk in, and

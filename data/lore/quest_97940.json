@@ -1,0 +1,83 @@
+{
+ "key": "quest:97940",
+ "type": "quest",
+ "name": "Camping 101: Enchanting",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97940
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A guide in the Oracle Glade points you toward learning an enchanting craft for camp. An Enchanted Lute can bring entertainment during a wilderness stay.",
+ "sections": [
+  {
+   "title": "A Camp Craft",
+   "body": "An enchanter can make a useful craft for your camp, and you are directed to Alanna Raveneye in the Oracle Glade. She can teach you to make an Enchanted Lute once you have shown proficiency in your skill. It is meant to bring entertainment during your downtime before you take to the trail again.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who can teach me the Enchanted Lute?",
+   "aliases": [
+    "alanna raveneye",
+    "who teaches lute",
+    "lute trainer"
+   ],
+   "answer": "Alanna Raveneye in the Oracle Glade can teach you to craft an Enchanted Lute once you have shown proficiency in your skill."
+  },
+  {
+   "q": "What is the Enchanted Lute for?",
+   "aliases": [
+    "lute purpose",
+    "camp lute",
+    "why enchanted lute"
+   ],
+   "answer": "The Enchanted Lute is a camping craft meant to provide entertainment during downtime in the wild."
+  },
+  {
+   "q": "Why are enchanters welcome at camps?",
+   "aliases": [
+    "enchanters camping",
+    "enchanting camp",
+    "camping enchanting"
+   ],
+   "answer": "Enchanters can make things better, so they are welcome at camps in the wild."
+  },
+  {
+   "q": "Where do I learn this camping craft?",
+   "aliases": [
+    "oracle glade trainer",
+    "where alanna",
+    "enchanting location"
+   ],
+   "answer": "You can learn from Alanna Raveneye in the Oracle Glade in Teldrassil."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "As an enchanter, you can learn to craft an Enchanted Lute for your camp after showing proficiency in your skill."
+  }
+ ],
+ "keywords": [
+  "alanna raveneye",
+  "camp craft",
+  "camping",
+  "enchanted lute",
+  "enchanting",
+  "oracle glade",
+  "teldrassil"
+ ],
+ "related": [
+  "subzone:oracle-glade",
+  "quest:940"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Camping 101: Enchanting"
+ ]
+}
