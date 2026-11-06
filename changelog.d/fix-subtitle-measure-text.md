@@ -1,0 +1,1 @@
+- Subtitles no longer show faint "Ag" lines through the band.
