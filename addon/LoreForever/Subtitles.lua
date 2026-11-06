@@ -594,6 +594,7 @@ local function layout(story)
   for _, p in ipairs(story.pages) do most = math.max(most, lines(p[1], p[2])) end
   m:SetText(string.rep("Ag\n", most - 1) .. "Ag")
   local wordsH = tonumber(m:GetStringHeight()) or most * lineH
+  m:SetText("")   -- done measuring: an unseen string can still show through, so leave none behind
   f.title:SetWidth(inner)
   f.title:SetText(T.code.gold .. esc(story.title or "") .. "|r" .. (story.speaker
     and (T.code.grey .. "  " .. (ns.Lang and ns.Lang.dot or "·") .. "  " .. esc(story.speaker) .. "|r") or ""))
