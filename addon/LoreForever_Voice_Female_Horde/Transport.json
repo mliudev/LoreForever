@@ -1719,9 +1719,9 @@
     "subzone:beren-s-peril": {
       "1": [
         {
-          "duration": 41.325714285714284,
-          "file": "Audio/Transport/full_subzone_beren-s-peril-5812f0b7ecf4b4789dab/1-0000.mp3",
-          "sha256": "b8e60039bd2f5097a1e321ad36183c2d3336c126562f72cb6c221ad9cf5977ef",
+          "duration": 41.43020408163265,
+          "file": "Audio/Transport/full_subzone_beren-s-peril-47dab2e93e3d587c0081/1-0000.mp3",
+          "sha256": "3dcf878270396966e8ec5c5d69a70476fed4f855efeea3ae0994ddc86a593f3f",
           "start": 0
         }
       ],
@@ -1733,12 +1733,12 @@
         ]
       },
       "fullHash": "7fba1d",
-      "generation": "89987a05c7a365bfd1b1",
+      "generation": "a92214d9e3bf0d6ec53f",
       "hash": "7fba1d",
       "source": {
-        "duration": 41.351837,
+        "duration": 41.456327,
         "file": null,
-        "sha256": "5812f0b7ecf4b4789dabcbdf743c3f53a71143d8a6bcaa3eda12c019e2f139c6"
+        "sha256": "47dab2e93e3d587c00817c2b872d7edd1c2eb6dfa9cd425c731a64c2b75b25cb"
       },
       "text": "Beren's Peril. At Beren's Peril, Scourge loyal to Thule Ravenclaw gather in the hills southwest of Ambermill and threaten the Forsaken. High in the crags southwest of Ambermill, a cave and mountain path lie hidden from the main road. Since the Third War, rogue Scourge have fortified the refuge under the renegade necromancer Thule Ravenclaw. They refused to serve the Dark Lady or flee north.\n\nRavenclaw's regents, guardians, and drudgers gathered in secret to prepare an assault on the Forsaken base at the Sepulcher. Forsaken scouts found them, and the quiet cliffs became a warzone. Now Horde fighters move against the undead before they can attack."
     },
@@ -5581,6 +5581,13 @@
       1325,
       1539
     ],
+    "3dcf878270396966e8ec5c5d69a70476fed4f855efeea3ae0994ddc86a593f3f": [
+      343,
+      579,
+      836,
+      970,
+      1262
+    ],
     "3e103224644777adfee14fe94bfe8e4e633a94c1238268bc0962aa0937826540": [
       370,
       1144,
@@ -6653,12 +6660,6 @@
       1456,
       1741
     ],
-    "b8e60039bd2f5097a1e321ad36183c2d3336c126562f72cb6c221ad9cf5977ef": [
-      328,
-      577,
-      847,
-      1260
-    ],
     "b8fe43e8d37907f61bbc67208e6d9ea2e2390d8f82d6ec0e5582d9606a43c4ce": [
       903,
       1671
@@ -7407,6 +7408,9 @@
     "3dcc096ab64eebb2c722b551db9b844f47d35602c228e6f2502e704571d189e5": {
       "428": 1
     },
+    "3dcf878270396966e8ec5c5d69a70476fed4f855efeea3ae0994ddc86a593f3f": {
+      "343": 1
+    },
     "3ee94c83e1569970ca9410425acb89f8c131b79a3aa04fe87bab53da0f2dd752": {
       "387": 1,
       "910": 2
@@ -7763,9 +7767,6 @@
     "b8a43a94c22cc50ba07d7930c49ec33bc7049b2413504075bf2a529f28b47739": {
       "1256": 2,
       "521": 1
-    },
-    "b8e60039bd2f5097a1e321ad36183c2d3336c126562f72cb6c221ad9cf5977ef": {
-      "328": 1
     },
     "ba8ca9b31fe2e8f8b40ef88e937e728986deee3e946beb05dda3ab61140dbe8a": {
       "407": 1

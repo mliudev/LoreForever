@@ -17,7 +17,10 @@
 --     "Human.WARRIOR.2" }: the race, class and gender of the character who saw each line, sent = { [line key] = true }:
 --     shared already ("Mark all as sent" in Options; a file upload leaves these out), copied = { [line key] = true }:
 --     its Contribute link was copied (the button hides for it), builds = { [line key] = "1.60.1.70707" }: the client
---     each line was seen in, game, toc, project, season: which game this client is (Capture.Game) }
+--     each line was seen in, game, toc, project, season: which game this client is (Capture.Game), spots = {
+--     ["merchant:254081"] = {id, role, name, title, zone, sub, map, x, y, build}: where a merchant or trainer Lore Forever
+--     has no place for stands (Capture.OnSpot, LOR-1175), which Willo sends unless "Send what's new in Forever automatically"
+--     is off (companion/lore_companion/contribute.py); at most MAX_SPOTS }
 -- Which game: the add-on also loads in Classic Era, its Anniversary, Season of Discovery and Hardcore realms and retail,
 -- whose text differs from Forever's (Mike, 11/1). Only Forever's text goes into Lore Forever: the site and the nightly
 -- import (lore.contrib) read each line's build, and keep out lines from any other client. A line keeps its own build
@@ -48,6 +51,8 @@ local MAX_CODE = 8000
 local SAY_PER_NPC, SAY_TOTAL = 12, 1500
 local MAX_QUESTS, MAX_TEXTS = 3000, 4000
 local SAY_KIND = { CHAT_MSG_MONSTER_SAY = "say", CHAT_MSG_MONSTER_YELL = "yell" }
+local SPOT_ROLE = { MERCHANT_SHOW = "merchant", TRAINER_SHOW = "trainer" }
+local MAX_SPOTS = 300
 local QUEST_FIELDS = { title = "title", text = "detail", objectives = "objectives", progress = "progress",
   completion = "complete" }
 local PART_FP = { detail = 2, progress = 3, complete = 4 }   -- ns.DB.questVoice[id][n]: that part's fingerprint
@@ -139,15 +144,30 @@ local function addresses(text, hit, byStart, byEnd)
   end
 end
 
--- The text with this character's name replaced by $N (as written, and in capitals as a yell has it; anywhere, even
--- glued to a dwarf's "-ama"), and their race and class, as whole words in any case, by $R and $C where the text speaks
--- to them (addresses): "Well met, Tauren!" -> "Well met, $R!", but "a wise tauren" stays.
+-- A character can be called one of these: the text keeps them, or a character called "The" makes every "the" a name.
+local ORDINARY = {}
+for w in ("the and for you not but are was were his her she him they them then this that these those with from have " ..
+  "has had one all any can may our out see who why yes"):gmatch("%a+") do ORDINARY[w] = true end
+
+-- The text with this character's name replaced by `token`: the whole word as written, and in capitals as a yell has it,
+-- also with a dwarf's "-ama" glued on ("Testerama"). Never inside another word: "There" for a character called "The".
+function Capture.NameOut(text, token)
+  local name = call(_G.UnitName, "player")
+  if type(text) ~= "string" or not usable(name) or #name < 2 or ORDINARY[name:lower()] then return text end
+  for _, form in ipairs({ { name, "ama" }, { name:upper(), "AMA" } }) do
+    local at = "%f[" .. WORD .. "]" .. literal(form[1])
+    text = text:gsub(at .. form[2] .. "%f[^" .. WORD .. "]", token .. form[2])
+    text = text:gsub(at .. "%f[^" .. WORD .. "]", token)
+  end
+  return text
+end
+
+-- The text with this character's name replaced by $N (Capture.NameOut), and their race and class, as whole words in
+-- any case, by $R and $C where the text speaks to them (addresses): "Well met, Tauren!" -> "Well met, $R!", but "a wise
+-- tauren" stays.
 function Capture.Placeholders(text)
   if type(text) ~= "string" or text == "" then return text end
-  local name = call(_G.UnitName, "player")
-  if usable(name) and #name >= 2 then
-    text = text:gsub(literal(name), "$N"):gsub(literal(name:upper()), "$N")
-  end
+  text = Capture.NameOut(text, "$N")
   local words = {}
   local race = call(_G.UnitRace, "player")
   if usable(race) then words[#words + 1] = { anyCase(race), "$R" } end
@@ -423,7 +443,9 @@ function Capture.Init()
   c.locale = call(_G.GetLocale) or c.locale or "enUS"
   c.version = ns.Log.Version()
   if type(c.install) ~= "string" or not c.install:match("^%x+$") then c.install = randomId() end
-  for _, k in ipairs({ "sent", "by", "copied", "missing", "builds" }) do c[k] = type(c[k]) == "table" and c[k] or {} end
+  for _, k in ipairs({ "sent", "by", "copied", "missing", "builds", "spots" }) do
+    c[k] = type(c[k]) == "table" and c[k] or {}
+  end
   Capture.Prune()
   Capture.Refresh()
   Capture.Hook()
@@ -516,6 +538,36 @@ function Capture.OnSay(event, text, sender, ...)
   said[id][h] = rec
   sayCount = sayCount + 1
   Capture.Note("say:" .. id .. "#" .. h, "say", id, true)
+end
+
+-- Where vendors and trainers stand ----------------------------------------------------------------------------------------
+
+-- ns.KnownSpots (KnownSpots.lua, generated): the ones Lore Forever has a place for, as ",123,456,".
+function Capture.KnownSpot(id)
+  local known = ns.KnownSpots
+  return type(known) == "string" and known:find("," .. tostring(id) .. ",", 1, true) ~= nil
+end
+
+-- A merchant or trainer window opened for an NPC we have no place for: keep who it is, as the game names it, and where
+-- you're standing, right beside it. Once per NPC and role; nothing about you. Nothing in a dungeon or on a flight
+-- (Journey.Here), and nothing from another version of WoW, whose NPCs stand elsewhere.
+function Capture.OnSpot(event)
+  local c, role = db(), SPOT_ROLE[event]
+  if not (c and role and Capture.On() and Capture.InForever()) or call(_G.UnitIsPlayer, "npc") then return end
+  local kind, id = ns.Giver.ParseGUID(call(_G.UnitGUID, "npc"))
+  if kind ~= "npc" or Capture.KnownSpot(id) then return end
+  local key = role .. ":" .. id
+  if c.spots[key] then return end
+  local map, x, y = tostring(ns.Journey.Here() or ""):match("^(%d+):(%d+):(%d+)$")
+  local name, place = call(_G.UnitName, "npc"), ns.Context.Place()
+  if not (map and usable(name) and usable(place.zone)) then return end
+  local title = ns.Strip.TitleOf("npc")
+  -- Willo keeps what has gone in its own ledger and can't change this file, so a full list makes room rather than stops.
+  if count(c.spots) >= MAX_SPOTS then c.spots[next(c.spots)] = nil end
+  c.spots[key] = { id = id, role = role, name = name, zone = place.zone,
+    title = title and not title:find("^Level%s") and title or nil,   -- an NPC with no title has its level there
+    sub = usable(place.subzone) and place.subzone or nil,
+    map = tonumber(map), x = tonumber(x) / 10, y = tonumber(y) / 10, build = c.build }
 end
 
 -- "Mark all as sent" -----------------------------------------------------------------------------------------------------
@@ -923,7 +975,7 @@ end
 local frame = CreateFrame("Frame")
 Capture.frame = frame
 for _, e in ipairs({ "CHAT_MSG_MONSTER_SAY", "CHAT_MSG_MONSTER_YELL", "QUEST_DETAIL", "QUEST_PROGRESS", "QUEST_COMPLETE",
-  "GOSSIP_SHOW", "ITEM_TEXT_READY" }) do
+  "GOSSIP_SHOW", "ITEM_TEXT_READY", "MERCHANT_SHOW", "TRAINER_SHOW" }) do
   pcall(frame.RegisterEvent, frame, e)
 end
 local PARTS = { QUEST_DETAIL = "detail", QUEST_PROGRESS = "progress", QUEST_COMPLETE = "complete" }
@@ -937,5 +989,7 @@ frame:SetScript("OnEvent", function(_, event, ...)
     pcall(Capture.UpdateGossip)
   elseif event == "ITEM_TEXT_READY" then
     pcall(Capture.UpdateBook)
+  elseif SPOT_ROLE[event] then
+    pcall(Capture.OnSpot, event)
   end
 end)

@@ -15,7 +15,7 @@
  "sections": [
   {
    "title": "A Threat to Home",
-   "body": "Morin has heard of the shredder described on a page. Such machines can bring down a forest far faster than axes and muscle. Groves that sheltered the children of the Earth Mother for ages can vanish in days. He asks you to gather allies, return to the mine in the northeast, and make sure the machine fells no more trees. Bring the Mechanoroderschlüssel to Morin at Bloodhoof Village.",
+   "body": "One of Fizsprocket's pages speaks of a shredder, and Morin has seen such machines on his travels. They can bring down a forest far faster than axes and muscle. Groves that sheltered the children of the Earth Mother for ages can vanish in days. Morin will not let that happen so close to where the young ones take their first steps. Bring the Clearcutter Key back to him outside Bloodhoof Village.",
    "spoiler": 0
   }
  ],
@@ -51,10 +51,10 @@
    "q": "What do I bring back to Morin?",
    "aliases": [
     "what item Morin",
-    "Mechanoroderschlüssel",
+    "Clearcutter Key",
     "key for Morin"
    ],
-   "answer": "Bring the Mechanoroderschlüssel to Morin Cloudstalker at Bloodhoof Village."
+   "answer": "Bring the Clearcutter Key to Morin Cloudstalker outside Bloodhoof Village."
   },
   {
    "q": "Who is Morin Cloudstalker?",
@@ -75,7 +75,7 @@
  "keywords": [
   "bloodhoof village",
   "children of the earth mother",
-  "mechanoroderschlüssel",
+  "clearcutter key",
   "mine",
   "morin cloudstalker",
   "northeast",

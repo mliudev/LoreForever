@@ -4540,7 +4540,7 @@ local OTHER_WINDOWS = { "LoreForeverExport", "LoreForeverReport", "LoreForeverCl
   "LoreForeverJourneyRecordBox", "LoreForeverLiveAnswers", "LoreForeverKeyPrompt" }
 
 local function recentre(f, w, h)
-  if not f then return end
+  if not f or not f:IsMovable() then return end   -- one that can't move is where it opens, and the game refuses the next line
   if f.SetUserPlaced then f:SetUserPlaced(false) end   -- the game's own layout cache mustn't put it back
   if w then f:SetSize(w, h) end
   f:ClearAllPoints()

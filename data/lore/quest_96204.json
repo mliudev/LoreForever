@@ -1,0 +1,93 @@
+{
+ "key": "quest:96204",
+ "type": "quest",
+ "name": "The Windshaper's Wrath",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96204
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Lumina Windsinger asks you to help her escape Fenris Keep. Your aid gives her reason to trust paladins.",
+ "sections": [
+  {
+   "title": "A Way Out",
+   "body": "Lumina Windsinger is free inside Fenris Keep, but she wants to leave with you. She means to make the creatures who held her regret crossing a Windshaper. Stay with her as she makes her escape.",
+   "spoiler": 0
+  },
+  {
+   "title": "A New Friend",
+   "body": "At Fenris Keep, Lumina tells you she has met Trevan and learned he sent you to find her. She has heard unkind things about paladins, but your help has changed her view. The Windshapers count you and your kind as friends.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Lumina Windsinger?",
+   "aliases": [
+    "lumina",
+    "who is lumina",
+    "windsinger"
+   ],
+   "answer": "Lumina Windsinger is a Windshaper who was held at Fenris Keep and seeks your help escaping."
+  },
+  {
+   "q": "Where is Lumina trying to escape from?",
+   "aliases": [
+    "lumina escape",
+    "fenris keep",
+    "get lumina out"
+   ],
+   "answer": "Lumina Windsinger is trying to escape Fenris Keep."
+  },
+  {
+   "q": "Who sent me to find Lumina?",
+   "aliases": [
+    "who sent me",
+    "trevan",
+    "lumina trail"
+   ],
+   "answer": "Lumina says Trevan sent you along her trail."
+  },
+  {
+   "q": "Why does Lumina mention paladins?",
+   "aliases": [
+    "paladin thing",
+    "lumina paladins",
+    "does she trust paladins"
+   ],
+   "answer": "Lumina has heard unkind things about paladins, but says those claims proved unfounded after your help."
+  },
+  {
+   "q": "What does Lumina think of me?",
+   "aliases": [
+    "lumina likes me",
+    "windshaper friend",
+    "what does lumina say"
+   ],
+   "answer": "Lumina says you and your kind have a friend among the Windshapers."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "As a paladin, Lumina has heard unkind things about your kind, but your help gives her cause to welcome you as a friend."
+  }
+ ],
+ "keywords": [
+  "escape",
+  "fenris keep",
+  "lumina windsinger",
+  "paladin",
+  "trevan",
+  "windshaper"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Windshaper's Wrath"
+ ]
+}

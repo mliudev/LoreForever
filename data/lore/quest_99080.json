@@ -15,7 +15,7 @@
  "sections": [
   {
    "title": "The Galak",
-   "body": "Baine asks you to kill six Galak centaurs and four Galak scouts. Then bring him Herak the Plunderer’s head. The village’s safety is at stake.",
+   "body": "Six Galak centaurs and four Galak outrunners must fall, and Herak the Pillager’s head must come back to Baine. The village’s safety is at stake.",
    "spoiler": 0
   },
   {
@@ -31,7 +31,7 @@
     "who gave this",
     "Baine task"
    ],
-   "answer": "Baine Bloodhoof asks you to confront the Galak centaurs and scouts. He also asks you to bring him Herak the Plunderer’s head."
+   "answer": "Baine Bloodhoof asks you to confront the Galak centaurs and outrunners. He also asks you to bring him Herak the Pillager’s head."
   },
   {
    "q": "What does Baine want from me?",
@@ -39,15 +39,15 @@
     "what do I do",
     "Galak job"
    ],
-   "answer": "Kill six Galak centaurs and four Galak scouts for Baine, then bring him Herak the Plunderer’s head."
+   "answer": "Kill six Galak centaurs and four Galak outrunners for Baine, then bring him Herak the Pillager’s head."
   },
   {
-   "q": "Who is Herak the Plunderer?",
+   "q": "Who is Herak the Pillager?",
    "aliases": [
     "Herak who",
-    "plunderer head"
+    "pillager head"
    ],
-   "answer": "Herak the Plunderer is a Galak whose head Baine asks you to bring."
+   "answer": "Herak the Pillager is a Galak whose head Baine asks you to bring."
   },
   {
    "q": "Why does this matter to the village?",
@@ -69,8 +69,8 @@
   "centaurs",
   "children",
   "galak",
-  "herak the plunderer",
-  "scouts",
+  "herak the pillager",
+  "outrunners",
   "village"
  ],
  "related": [

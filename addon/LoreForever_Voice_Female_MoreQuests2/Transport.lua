@@ -3474,11 +3474,11 @@ P.transport["quest:277"] = {
   },
 }
 P.transport["quest:283"] = {
-  hash = "6b112d",
-  fullHash = "6b112d",
-  text = "A Dark Threat Looms. Chief Engineer Hinderweir the Seventh needs you at Stonewrought Dam, where Dark Iron saboteurs have planted a charge. Disarm it before the valley below is in danger. The Stonewrought Dam holds back the waters of the Loch above the lowlands of the Wetlands. Dark Iron saboteurs have planted an explosive charge inside it, putting the valley below at risk. You apply the Disarming Mixture, and the volatile keg fizzles harmlessly. The immediate danger to the dam and the lives downstream has passed.",
+  hash = "940642",
+  fullHash = "940642",
+  text = "A Dark Threat Looms. Chief Engineer Hinderweir the Seventh needs you at Stonewrought Dam, where Dark Iron saboteurs have planted a charge. Disarm it before the valley below is in danger. The Stonewrought Dam holds back the waters of the Loch above the lowlands of the Wetlands. An explosive charge now sits inside it, a volatile keg left there by Dark Iron hands. If it goes off, the valley below and the lives downstream will pay for it. It falls to you to apply the Disarming Mixture before that happens, then bring word to Chief Engineer Hinderweir the Seventh.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_283-2ba7151a4cb3868ef299/1-0000.mp3", duration = 31.8693878, start = 0},
+    {file = "Audio/Transport/full_quest_283-31eea05c41192e47d5c3/1-0000.mp3", duration = 33.7502041, start = 0},
   },
 }
 P.transport["quest:284"] = {
@@ -3786,11 +3786,11 @@ P.transport["quest:306"] = {
   },
 }
 P.transport["quest:3090"] = {
-  hash = "24c596",
-  fullHash = "24c596",
-  text = "Tainted Parchment. A marked parchment waits for you after your absence, and your teacher Nartok asks to speak with you. Its words challenge Thrall’s rule and warn of the dangers warlocks face. The marked parchment is believed to come from Nartok, your new teacher. Read it, then speak with him in the Den in the Valley of Trials. He calls the orcs a proud people and says Thrall turns away from power that could make the land theirs.",
+  hash = "e3bfb6",
+  fullHash = "e3bfb6",
+  text = "Tainted Parchment. A tainted parchment waits for you after your absence, and your teacher Nartok asks to speak with you. Its words challenge Thrall’s rule and warn of the dangers warlocks face. The tainted parchment is believed to come from Nartok, your new teacher. Read it, then speak with him in the Den in the Valley of Trials. He calls the orcs a proud people and says Thrall turns away from power that could make the land theirs.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3090-ef00aa687c2b7a523077/1-0000.mp3", duration = 25.1820408, start = 0},
+    {file = "Audio/Transport/full_quest_3090-f6ef42dc1532339c74cc/1-0000.mp3", duration = 27.6114286, start = 0},
   },
 }
 P.transport["quest:3091"] = {
@@ -4210,11 +4210,11 @@ P.transport["quest:416"] = {
   },
 }
 P.transport["quest:434"] = {
-  hash = "a4f5fa",
-  fullHash = "a4f5fa",
-  text = "The Attack!. Tyrion and Elling Trias draw a traitor into a garden meeting inside Stormwind Keep. Their plan puts his Defias contact within reach. An engineered automaton disguised as Priestess Tyriona carries word into the library: Lescovar’s guest has arrived. Lord Gregor Lescovar sends his guards away before leaving for the quiet garden. Tyrion is a spy, and he has fed Marzon false information. Elling Trias earns his living as a cheese merchant. Marzon the Silent Blade is an assassin tied to the Defias Brotherhood.",
+  hash = "df2342",
+  fullHash = "df2342",
+  text = "The Attack!. Tyrion and Elling Trias draw a traitor into a garden meeting inside Stormwind Keep. Their plan puts his Defias contact within reach. Inside Stormwind Keep, an automaton disguised as Priestess Tyriona brings word to the library: Lescovar’s guest has arrived. Lord Gregor Lescovar sends his guards away and leaves for the quiet garden. The guest is Marzon the Silent Blade, an assassin tied to the Defias Brotherhood. But Tyrion, a spy working with the cheese merchant Elling Trias, has fed Marzon false information, and it has drawn him within their reach.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_434-09e2870a3cca3b260b9e/1-0000.mp3", duration = 34.56, start = 0},
+    {file = "Audio/Transport/full_quest_434-cc7b48afd168ece02acb/1-0000.mp3", duration = 37.5118367, start = 0},
   },
 }
 P.transport["quest:442"] = {
@@ -6258,11 +6258,11 @@ P.transport["quest:742"] = {
   },
 }
 P.transport["quest:744"] = {
-  hash = "fc44ed",
-  fullHash = "fc44ed",
-  text = "Preparation for Ceremony. You are preparing to appear before Chief Cairne Bloodhoof, and your sibling is making the headdress for the occasion. The tauren tradition calls for leather bands and vibrant feathers gathered from harpies beyond Thunder Bluff. Among the tauren, standing before Chief Cairne Bloodhoof brings pride and reverence. Your family honors the occasion by preparing proper attire. The traditional headdress is made from treated leather and symbolic plumage, with each part chosen to show dignity and respect before the leader of the united tribes. A ceremonial headdress needs a leather band and feathers for its crown. While the leather straps are tanned, long, pristine feathers must be gathered. Harpies roost in the craggy hills north and northwest of Thunder Bluff, so you must venture into their hostile nests to find feathers of the needed size and color.",
+  hash = "4dbbd5",
+  fullHash = "4dbbd5",
+  text = "Preparation for Ceremony. Eyahn Eagletalon is making a headdress for his brother, who soon stands before Chief Cairne Bloodhoof. He asks you to gather the vibrant feathers from harpies beyond Thunder Bluff while he tans the leather bands. Among the tauren, standing before Chief Cairne Bloodhoof brings pride and reverence. Families honor the occasion by preparing proper attire. The traditional headdress is made from treated leather and symbolic plumage, with each part chosen to show dignity and respect before the leader of the united tribes. A ceremonial headdress needs a leather band and feathers for its crown. While the leather straps are tanned, long, pristine feathers must be gathered. Harpies roost in the craggy hills north and northwest of Thunder Bluff, so you must venture into their hostile nests to find feathers of the needed size and color.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_744-b8a2b7966aed2a5cce77/1-0000.mp3", duration = 51.0171429, start = 0},
+    {file = "Audio/Transport/full_quest_744-8dc94ee9980b92f6bfb9/1-0000.mp3", duration = 49.7893878, start = 0},
   },
 }
 P.transport["quest:75"] = {
@@ -7642,11 +7642,11 @@ P.transport["quest:93089"] = {
   },
 }
 P.transport["quest:93090"] = {
-  hash = "0499f7",
-  fullHash = "0499f7",
-  text = "What Comes Next. On Zephras Isle, the expedition prepares to cross the skies for Kalimdor. The local cult is defeated, and High Elder Shadowsong has given her blessing. Skycutters now carry travelers between the island and Mulgore. High Elder Shadowsong has blessed the expedition's onward journey from Zephras Isle, where the local cult has been defeated and safety restored. The expedition now looks beyond the island, with its focus set on travel across the open skies toward Kalimdor. Ayessa Dawnsinger coordinates the final departure for those ready to leave. Muln worked to secure steady skycutter travel between Zephras Isle and Mulgore. Test voyages succeeded, and an advance party has already crossed over. They wait on the other side to make contact with the shaman of the Earthen Ring.",
+  hash = "6ec4dc",
+  fullHash = "6ec4dc",
+  text = "What Comes Next. On Zephras Isle, the expedition prepares to cross the skies for Kalimdor. The local cult is defeated, and High Elder Shadowsong has given his blessing. Skycutters now carry travelers between the island and Mulgore. High Elder Shadowsong has blessed the expedition's onward journey from Zephras Isle, where the local cult has been defeated and safety restored. The expedition now looks beyond the island, with its focus set on travel across the open skies toward Kalimdor. Ayessa Dawnsinger coordinates the final departure for those ready to leave. Muln worked to secure steady skycutter travel between Zephras Isle and Mulgore. Test voyages succeeded, and an advance party has already crossed over. They wait on the other side to make contact with the shaman of the Earthen Ring.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_93090-bef2354578327c5506ce/1-0000.mp3", duration = 49.162449, start = 0},
+    {file = "Audio/Transport/full_quest_93090-47d5838f1817cd11ea7c/1-0000.mp3", duration = 49.1363265, start = 0},
   },
 }
 P.transport["quest:93159"] = {
@@ -8290,11 +8290,11 @@ P.transport["quest:94897"] = {
   },
 }
 P.transport["quest:94911"] = {
-  hash = "90569c",
-  fullHash = "90569c",
-  text = "Child of Nature. In Thunder Bluff, a fellow Skyborne sees promise in your druidic arts and points you toward Turak Runetotem. He can teach you how to reach the Cenarion Circle’s stronghold in Moonglade. Your teacher believes the druids of the Cenarion Circle will welcome you and share their knowledge. Turak Runetotem in Thunder Bluff can show you how to reach their stronghold in Moonglade.",
+  hash = "b92daa",
+  fullHash = "b92daa",
+  text = "Child of Nature. A fellow Skyborne sees promise in your druidic arts and points you toward Turak Runetotem in Thunder Bluff. He can teach you how to reach the Cenarion Circle’s stronghold in Moonglade. Your teacher believes the druids of the Cenarion Circle will welcome you and share their knowledge. Turak Runetotem in Thunder Bluff can show you how to reach their stronghold in Moonglade.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_94911-4944ddf239c5479299ec/1-0000.mp3", duration = 22.5436735, start = 0},
+    {file = "Audio/Transport/full_quest_94911-2937bcaebe068cbc2978/1-0000.mp3", duration = 23.4057143, start = 0},
   },
 }
 P.transport["quest:94912"] = {
@@ -8578,11 +8578,11 @@ P.transport["quest:95697"] = {
   },
 }
 P.transport["quest:95737"] = {
-  hash = "0ceb07",
-  fullHash = "0ceb07",
-  text = "Seeking Caitlin. In Menethil Harbor, an alchemist waits for word about a rare grass. She asks you to find Caitlin Grassman, whose husband has not reported back from an excavation. The alchemist heard from Caitlin that her husband's excavation team found signs of a primordial grass. Caitlin does not know how much they found or whether it can be reached.\n\nNow the alchemist asks you to speak with Caitlin in Menethil Harbor. Both women are waiting to learn what happened to the promised seeds.",
+  hash = "fbe866",
+  fullHash = "fbe866",
+  text = "Seeking Caitlin. An alchemist waits for word about a rare grass. She asks you to find Caitlin Grassman in Menethil Harbor, whose husband has not reported back from an excavation. The alchemist heard from Caitlin that her husband's excavation team found signs of a primordial grass. Caitlin does not know how much they found or whether it can be reached.\n\nNow the alchemist asks you to speak with Caitlin in Menethil Harbor. Both women are waiting to learn what happened to the promised seeds.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_95737-27e7a81a9cbe8eb5f075/1-0000.mp3", duration = 29.8057143, start = 0},
+    {file = "Audio/Transport/full_quest_95737-7112b297e4f8db9b3bcb/1-0000.mp3", duration = 29.0481633, start = 0},
   },
 }
 P.transport["quest:95772"] = {
@@ -8894,7 +8894,7 @@ P.transport["quest:96800"] = {
   fullHash = "430856",
   text = "Past Due. A scholar needs a missing tome from the Scarlet Monastery to study Grim Batol’s ancient Wildhammer runemasters. The old Dalaran library’s ledgers show that Arcanist Doan borrowed the tome before the Third War and never returned it.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_96800-720dc241f7aee83e5203/1-0000.mp3", duration = 16.2481633, start = 0},
+    {file = "Audio/Transport/full_quest_96800-d7b4e20387fc6996b130/1-0000.mp3", duration = 16.2742857, start = 0},
   },
 }
 P.transport["quest:96821"] = {
@@ -9458,11 +9458,11 @@ P.transport["quest:97928"] = {
   },
 }
 P.transport["quest:97931"] = {
-  hash = "ee44b3",
-  fullHash = "ee44b3",
-  text = "Camping 101: First Aid. You are ready to make a bandage pouch, and now you need a place to try it. You can make the pouch, but most people would rather not camp in the middle of town. So take it out into the wilderness. Before you set up camp, you need a campfire. Most cooks can teach you how to make one.",
+  hash = "204236",
+  fullHash = "204236",
+  text = "Camping 101: First Aid. You are ready to make a First Aid Kit, and now you need a place to try it. You can make the kit, but most people would rather not camp in the middle of town. So take it out into the wilderness. Before you set up camp, you need a campfire. Most cooks can teach you how to make one.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_97931-75971659666d1fd733c3/1-0000.mp3", duration = 17.9722449, start = 0},
+    {file = "Audio/Transport/full_quest_97931-860d6787d085a6ce8266/1-0000.mp3", duration = 17.397551, start = 0},
   },
 }
 P.transport["quest:97932"] = {
@@ -10074,27 +10074,27 @@ P.transport["quest:98423"] = {
   },
 }
 P.transport["quest:98424"] = {
-  hash = "6a7703",
-  fullHash = "6a7703",
-  text = "Fizsprockets Notizen. In the Venture Co. mine, Morin Cloudstalker seeks the notebook pages still missing. They hold important information about the company's schemes in the region. Morin Cloudstalker waits at Bloodhoof Village for the pages still missing from Fizsprocket’s notebook. You have found folded pages in Fizsprocket’s pocket, and the remaining notes lie in the Venture Co. mine. Their information can guide what comes next.",
+  hash = "8f0116",
+  fullHash = "8f0116",
+  text = "Fizsprocket's Notes. In the Venture Co. mine, Morin Cloudstalker seeks the notebook pages still missing. They hold important information about the company's schemes in the region. Morin Cloudstalker waits at Bloodhoof Village for the pages still missing from Fizsprocket’s notebook. You have found folded pages in Fizsprocket’s pocket, and the remaining notes lie in the Venture Co. mine. Their information can guide what comes next.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_98424-cb689667db2f5fa33339/1-0000.mp3", duration = 25.5477551, start = 0},
+    {file = "Audio/Transport/full_quest_98424-e7e0c641119c268b34fe/1-0000.mp3", duration = 25.4693878, start = 0},
   },
 }
 P.transport["quest:98427"] = {
-  hash = "f31be6",
-  fullHash = "f31be6",
-  text = "Schluss damit!. Morin Cloudstalker calls for Schluss damit! before the shredder fells another tree. He asks you to gather allies, return to the mine in the northeast, and stop it from cutting more trees. Morin has heard of the shredder described on a page. Such machines can bring down a forest far faster than axes and muscle. Groves that sheltered the children of the Earth Mother for ages can vanish in days. He asks you to gather allies, return to the mine in the northeast, and make sure the machine fells no more trees. Bring the Mechanoroderschlüssel to Morin at Bloodhoof Village.",
+  hash = "e26edd",
+  fullHash = "e26edd",
+  text = "Ceasing Operations. Morin Cloudstalker calls on you to stop the shredder before it fells another tree. He asks you to gather allies, return to the mine in the northeast, and stop it from cutting more trees. One of Fizsprocket's pages speaks of a shredder, and Morin has seen such machines on his travels. They can bring down a forest far faster than axes and muscle. Groves that sheltered the children of the Earth Mother for ages can vanish in days. Morin will not let that happen so close to where the young ones take their first steps. Bring the Clearcutter Key back to him outside Bloodhoof Village.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_98427-7c8d9d3b77421285542a/1-0000.mp3", duration = 34.9518367, start = 0},
+    {file = "Audio/Transport/full_quest_98427-9092cd4a7e0892ab0d45/1-0000.mp3", duration = 34.1942857, start = 0},
   },
 }
 P.transport["quest:98430"] = {
-  hash = "bf67b4",
-  fullHash = "bf67b4",
-  text = "Die Langläufer. At Bleachmane Rock, Perith Stormhoof is trapped after a peace effort with the gnolls turned violent. Cairne Bloodhoof sent the scout, and his safe return matters to the Tauren people. Cairne Bloodhoof sent Perith Stormhoof to meet the gnolls settled here. Perith is one of Cairne’s Long Runners, so he cannot speak of the full mission. The attempt at peace turned violent, and he fears the gnolls will eat him if he stays through the night. You are asked to help him escape Bleachmane Rock and report his safety to Cairne in Thunder Bluff.",
+  hash = "6c7784",
+  fullHash = "6c7784",
+  text = "The Longwalkers. At Palemane Rock, Perith Stormhoof is trapped after a peace effort with the gnolls turned violent. Cairne Bloodhoof sent the scout, and his safe return matters to the Tauren people. Cairne Bloodhoof sent Perith Stormhoof to meet the gnolls settled here. Perith is one of Cairne’s Longwalkers, so he cannot speak of the full mission. The attempt at peace turned violent, and he fears the gnolls will eat him if he stays through the night. You are asked to help him escape Palemane Rock and report his safety to Cairne in Thunder Bluff.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_98430-50509468c2f89fdfb0c7/1-0000.mp3", duration = 31.5036735, start = 0},
+    {file = "Audio/Transport/full_quest_98430-5f21976945d608871367/1-0000.mp3", duration = 32.4440816, start = 0},
   },
 }
 P.transport["quest:98435"] = {
@@ -10298,19 +10298,19 @@ P.transport["quest:99079"] = {
   },
 }
 P.transport["quest:99080"] = {
-  hash = "9828b9",
-  fullHash = "9828b9",
-  text = "Vertreibt sie. Baine Bloodhoof asks you to clear the Galak centaurs from the village’s path. Their defeat could give the children a measure of safety. Baine asks you to kill six Galak centaurs and four Galak scouts. Then bring him Herak the Plunderer’s head. The village’s safety is at stake.",
+  hash = "7ccabd",
+  fullHash = "7ccabd",
+  text = "Drive Them Out. Baine Bloodhoof asks you to clear the Galak centaurs from the village’s path. Their defeat could give the children a measure of safety. Six Galak centaurs and four Galak outrunners must fall, and Herak the Pillager’s head must come back to Baine. The village’s safety is at stake.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_99080-11cb8c437e6baf053944/1-0000.mp3", duration = 18.3379592, start = 0},
+    {file = "Audio/Transport/full_quest_99080-4fbc817c4c916a6c43bc/1-0000.mp3", duration = 18.2334694, start = 0},
   },
 }
 P.transport["quest:99081"] = {
-  hash = "c650d4",
-  fullHash = "c650d4",
-  text = "Schwieriges Unterfangen. Langläuferin Malah’s report carries word of a new centaur camp in Mulgore. Kriegerheld Wildrunner needs to know what happened to her, who killed her, and why the camp points to a small raiding party entering the land. You bring Langläuferin Malah’s report to Kriegerheld Wildrunner in Bloodhoof Village. He needs to know what happened to Malah and who killed her. Her report brings troubling news, and Baine must hear it at once.",
+  hash = "811f5f",
+  fullHash = "811f5f",
+  text = "Grim Tidings. Malah’s report carries word of a new centaur camp in Mulgore. Brave Wildrunner needs to know what happened to her, who killed her, and why the camp points to a small raiding party entering the land. You bring Malah’s report to Brave Wildrunner in Bloodhoof Village. He needs to know what happened to Malah and who killed her. Her report brings troubling news, and Baine must hear it at once.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_99081-b4eab6bc10dbb300957f/1-0000.mp3", duration = 25.1297959, start = 0},
+    {file = "Audio/Transport/full_quest_99081-9a53ba5c243a1b1952cf/1-0000.mp3", duration = 24.1893878, start = 0},
   },
 }
 P.transport["quest:99082"] = {

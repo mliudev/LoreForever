@@ -1,0 +1,92 @@
+{
+ "key": "quest:91860",
+ "type": "quest",
+ "name": "A Grim Fate",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91860
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A patrol sighting on Fenris Isle raises concern for an elf and an Earthen Ring traveling party. You are asked to investigate the party\u2019s fate.",
+ "sections": [
+  {
+   "title": "A Pyre on the Shore",
+   "body": "A patrolman saw gnolls place a large body on a pyre along Fenris Isle\u2019s shore. He saw no elf or smaller bodies, and fears for the traveling party. You are asked to search the isle and learn what became of them.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Body",
+   "body": "On Fenris Isle, the body is Tauren, and it has been heavily gnawed. The elf woman is nowhere in sight. She may still be deeper in the nearby fortress, so her fate remains uncertain.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What did the patrolman see?",
+   "aliases": [
+    "patrol sighting",
+    "gnolls and a pyre",
+    "what was on the shore"
+   ],
+   "answer": "A patrolman saw gnolls placing a large body on a pyre on Fenris Isle\u2019s shore."
+  },
+  {
+   "q": "Who is the traveling party?",
+   "aliases": [
+    "earthen ring party",
+    "who was traveling",
+    "traveling group"
+   ],
+   "answer": "The party is described as an Earthen Ring traveling party."
+  },
+  {
+   "q": "Why am I being sent to Fenris Isle?",
+   "aliases": [
+    "why fenris isle",
+    "what am i looking for",
+    "a grim fate quest"
+   ],
+   "answer": "You are asked to investigate Fenris Isle and learn the fate of the Earthen Ring traveling party."
+  },
+  {
+   "q": "Was the elf seen on the shore?",
+   "aliases": [
+    "where is the elf",
+    "elf on fenris",
+    "did they see her"
+   ],
+   "answer": "The patrolman saw no elf among those at the pyre."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "As a paladin, the patrolman appeals to your sense of oaths, though he doubts this search is worth the danger."
+  }
+ ],
+ "keywords": [
+  "a grim fate",
+  "earthen ring",
+  "elf",
+  "fenris isle",
+  "gnolls",
+  "pyre",
+  "tauren",
+  "traveling party"
+ ],
+ "related": [
+  "quest:567",
+  "subzone:fenris-isle",
+  "topic:gnoll",
+  "topic:tauren",
+  "quest:95349"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Grim Fate"
+ ]
+}

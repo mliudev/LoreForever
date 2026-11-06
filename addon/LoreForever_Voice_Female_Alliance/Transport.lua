@@ -622,7 +622,7 @@ P.transport["npc:shael-dryn"] = {
   fullHash = "cf873a",
   text = "Shael'dryn. At the Moonwell of Purity, Shael'dryn watches corruption spread through Ashenvale. East of Iris Lake, she gives night elf scouts and Astranaar's sentinels relics tainted by demonic and foul influences. Shael'dryn keeps watch with the night elf sentinels over Ashenvale's eastern approaches. When corruption reaches local wildlife or tainted relics threaten the land's harmony, she draws on her knowledge of nature. Her guidance helps adventurers restore spiritual balance.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_shael-dryn-91f32895b6b2d1333bda/1-0000.mp3", duration = 30.0669388, start = 0},
+    {file = "Audio/Transport/full_npc_shael-dryn-c9dbdd1d7d15353f94b2/1-0000.mp3", duration = 30.4587755, start = 0},
   },
 }
 P.transport["npc:sprite-jumpsprocket"] = {
@@ -1110,7 +1110,7 @@ P.transport["subzone:cragpool-lake"] = {
   fullHash = "ce4a52",
   text = "Cragpool Lake. In Windshear Crag, the Venture Company’s timberworks hang above Cragpool Lake and its dark water. At Cragpool Lake, Venture Company platforms cross above the water beneath a vast timber structure. Gerenzo Wrenchwhistle watches operations across the mountain valley. Company workers occupy the platforms overhead.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_cragpool-lake-4f7b5fe8f580bfba6b80/1-0000.mp3", duration = 20.244898, start = 0},
+    {file = "Audio/Transport/full_subzone_cragpool-lake-2300daa9f63fd69151e1/1-0000.mp3", duration = 19.8269388, start = 0},
   },
 }
 P.transport["subzone:crystal-lake"] = {
@@ -2118,7 +2118,7 @@ P.transport["subzone:nightsong-woods"] = {
   fullHash = "10a81c",
   text = "Nightsong Woods. In eastern Ashenvale, Nightsong Woods is a forest where night elves and the Warsong clan fight over lumber and old corruption lingers. Nightsong Woods is Ashenvale’s eastern battleground. The Falfarren River cuts through the western forest, dividing Alliance settlements from Horde incursions. Farther east, Splintertree Post directs Horde campaigns against the Silverwing Sentinels.\n\nWarsong orcs fell the southern groves for lumber to fuel the Horde’s expansion, and the Kaldorei fight back. Satyr strongholds at Satyrnaar and Xavian taint the eastern forest, along with demonic remnants at Demon Fall Canyon and Felfire Hill.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_nightsong-woods-e870fd27f656203a961d/1-0000.mp3", duration = 40.5681633, start = 0},
+    {file = "Audio/Transport/full_subzone_nightsong-woods-0d0f46d00e1f4a296fc5/1-0000.mp3", duration = 40.724898, start = 0},
   },
 }
 P.transport["subzone:north-gate-outpost"] = {

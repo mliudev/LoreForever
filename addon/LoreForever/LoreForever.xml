@@ -24,6 +24,7 @@
   <Script file="Stock.lua"/>
   <Script file="Screen.lua"/>
   <Script file="Battle.lua"/>
+  <Script file="KnownSpots.lua"/>
   <Script file="Capture.lua"/>
   <Script file="JourneyMap.lua"/>
   <Script file="JourneyRecord.lua"/>

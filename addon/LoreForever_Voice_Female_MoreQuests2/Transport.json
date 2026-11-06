@@ -11287,9 +11287,9 @@
     "quest:283": {
       "1": [
         {
-          "duration": 31.869387755102043,
-          "file": "Audio/Transport/full_quest_283-2ba7151a4cb3868ef299/1-0000.mp3",
-          "sha256": "ce733d9fda54fb6a3c70808f5484c4f77686a56eb74979b72715a686537cbe0d",
+          "duration": 33.75020408163265,
+          "file": "Audio/Transport/full_quest_283-31eea05c41192e47d5c3/1-0000.mp3",
+          "sha256": "5eb102793a3dba9b30428129f93e238453dfb72b7cc85fdd7cc780f0c5c82aef",
           "start": 0
         }
       ],
@@ -11300,15 +11300,15 @@
           "1"
         ]
       },
-      "fullHash": "6b112d",
-      "generation": "2e80811945c5bddf63d6",
-      "hash": "6b112d",
+      "fullHash": "940642",
+      "generation": "4681fd393de8448d543d",
+      "hash": "940642",
       "source": {
-        "duration": 31.89551,
+        "duration": 33.776327,
         "file": null,
-        "sha256": "2ba7151a4cb3868ef299da8e0fa05f9d31b740c8b8f83af83a2f0093c60d9f4d"
+        "sha256": "31eea05c41192e47d5c3aab48ad2ac24fad0ce47bb2975ede068eef2851bb399"
       },
-      "text": "A Dark Threat Looms. Chief Engineer Hinderweir the Seventh needs you at Stonewrought Dam, where Dark Iron saboteurs have planted a charge. Disarm it before the valley below is in danger. The Stonewrought Dam holds back the waters of the Loch above the lowlands of the Wetlands. Dark Iron saboteurs have planted an explosive charge inside it, putting the valley below at risk. You apply the Disarming Mixture, and the volatile keg fizzles harmlessly. The immediate danger to the dam and the lives downstream has passed."
+      "text": "A Dark Threat Looms. Chief Engineer Hinderweir the Seventh needs you at Stonewrought Dam, where Dark Iron saboteurs have planted a charge. Disarm it before the valley below is in danger. The Stonewrought Dam holds back the waters of the Loch above the lowlands of the Wetlands. An explosive charge now sits inside it, a volatile keg left there by Dark Iron hands. If it goes off, the valley below and the lives downstream will pay for it. It falls to you to apply the Disarming Mixture before that happens, then bring word to Chief Engineer Hinderweir the Seventh."
     },
     "quest:284": {
       "1": [
@@ -12301,9 +12301,9 @@
     "quest:3090": {
       "1": [
         {
-          "duration": 25.18204081632653,
-          "file": "Audio/Transport/full_quest_3090-ef00aa687c2b7a523077/1-0000.mp3",
-          "sha256": "0e7c83f51656aa4d020f1d3960123c33c5f98f0aa00846f674a01565ad2a7030",
+          "duration": 27.611428571428572,
+          "file": "Audio/Transport/full_quest_3090-f6ef42dc1532339c74cc/1-0000.mp3",
+          "sha256": "c0145cb20442200b2e575e4898d0824715352acfe9487c42869321af933d82ff",
           "start": 0
         }
       ],
@@ -12314,15 +12314,15 @@
           "1"
         ]
       },
-      "fullHash": "24c596",
-      "generation": "ad8330d061e316eb559a",
-      "hash": "24c596",
+      "fullHash": "e3bfb6",
+      "generation": "3ec00b1dcc8a98e120c5",
+      "hash": "e3bfb6",
       "source": {
-        "duration": 25.208163,
+        "duration": 27.637551,
         "file": null,
-        "sha256": "ef00aa687c2b7a523077dc7cb9da36a4dc72ce9281dd3d73e43dbed7dad8ff7a"
+        "sha256": "f6ef42dc1532339c74ccfb230a1b87d6a9c5484ac7097755cad5c60c2354fe61"
       },
-      "text": "Tainted Parchment. A marked parchment waits for you after your absence, and your teacher Nartok asks to speak with you. Its words challenge Thrall’s rule and warn of the dangers warlocks face. The marked parchment is believed to come from Nartok, your new teacher. Read it, then speak with him in the Den in the Valley of Trials. He calls the orcs a proud people and says Thrall turns away from power that could make the land theirs."
+      "text": "Tainted Parchment. A tainted parchment waits for you after your absence, and your teacher Nartok asks to speak with you. Its words challenge Thrall’s rule and warn of the dangers warlocks face. The tainted parchment is believed to come from Nartok, your new teacher. Read it, then speak with him in the Den in the Valley of Trials. He calls the orcs a proud people and says Thrall turns away from power that could make the land theirs."
     },
     "quest:3091": {
       "1": [
@@ -13679,9 +13679,9 @@
     "quest:434": {
       "1": [
         {
-          "duration": 34.56,
-          "file": "Audio/Transport/full_quest_434-09e2870a3cca3b260b9e/1-0000.mp3",
-          "sha256": "2ecc6b23cc77ae6b2e4c36d1e6ff2292e6839f3ffa9b969e41123c59266969fb",
+          "duration": 37.51183673469388,
+          "file": "Audio/Transport/full_quest_434-cc7b48afd168ece02acb/1-0000.mp3",
+          "sha256": "b7c8f9fe2a073e5d9869f801b48f361312b39db1f345ab5accbb2ecc468b34ef",
           "start": 0
         }
       ],
@@ -13692,15 +13692,15 @@
           "1"
         ]
       },
-      "fullHash": "a4f5fa",
-      "generation": "f89b9037a7118a0f6ae8",
-      "hash": "a4f5fa",
+      "fullHash": "df2342",
+      "generation": "fe0cf5fb2068209a00ea",
+      "hash": "df2342",
       "source": {
-        "duration": 34.586122,
+        "duration": 37.537959,
         "file": null,
-        "sha256": "09e2870a3cca3b260b9e6a7323ab8c21089de890a48df934b22b2f17f3294741"
+        "sha256": "cc7b48afd168ece02acbe0808ed889301e804c753f9c751c921dae7dc84c7986"
       },
-      "text": "The Attack!. Tyrion and Elling Trias draw a traitor into a garden meeting inside Stormwind Keep. Their plan puts his Defias contact within reach. An engineered automaton disguised as Priestess Tyriona carries word into the library: Lescovar’s guest has arrived. Lord Gregor Lescovar sends his guards away before leaving for the quiet garden. Tyrion is a spy, and he has fed Marzon false information. Elling Trias earns his living as a cheese merchant. Marzon the Silent Blade is an assassin tied to the Defias Brotherhood."
+      "text": "The Attack!. Tyrion and Elling Trias draw a traitor into a garden meeting inside Stormwind Keep. Their plan puts his Defias contact within reach. Inside Stormwind Keep, an automaton disguised as Priestess Tyriona brings word to the library: Lescovar’s guest has arrived. Lord Gregor Lescovar sends his guards away and leaves for the quiet garden. The guest is Marzon the Silent Blade, an assassin tied to the Defias Brotherhood. But Tyrion, a spy working with the cheese merchant Elling Trias, has fed Marzon false information, and it has drawn him within their reach."
     },
     "quest:442": {
       "1": [
@@ -20335,9 +20335,9 @@
     "quest:744": {
       "1": [
         {
-          "duration": 51.01714285714286,
-          "file": "Audio/Transport/full_quest_744-b8a2b7966aed2a5cce77/1-0000.mp3",
-          "sha256": "ce5230789dbeae835c1d22dffcde74dd23dbfe5fa55b7611ff65ecc2c31400cc",
+          "duration": 49.78938775510204,
+          "file": "Audio/Transport/full_quest_744-8dc94ee9980b92f6bfb9/1-0000.mp3",
+          "sha256": "ab408d301e7e45fe72d4bb37485f13a437aa081218572b81fe979f63583eabe4",
           "start": 0
         }
       ],
@@ -20348,15 +20348,15 @@
           "1"
         ]
       },
-      "fullHash": "fc44ed",
-      "generation": "5affbc55c499c1a7f03d",
-      "hash": "fc44ed",
+      "fullHash": "4dbbd5",
+      "generation": "8a3ddb1492375910565b",
+      "hash": "4dbbd5",
       "source": {
-        "duration": 51.043265,
+        "duration": 49.81551,
         "file": null,
-        "sha256": "b8a2b7966aed2a5cce77336c045aee65fc45c11b3fcc997d19cc9a8e15bedd6d"
+        "sha256": "8dc94ee9980b92f6bfb9ad36ee08affced4561ecb851c5f3e2c3afa3c79ba443"
       },
-      "text": "Preparation for Ceremony. You are preparing to appear before Chief Cairne Bloodhoof, and your sibling is making the headdress for the occasion. The tauren tradition calls for leather bands and vibrant feathers gathered from harpies beyond Thunder Bluff. Among the tauren, standing before Chief Cairne Bloodhoof brings pride and reverence. Your family honors the occasion by preparing proper attire. The traditional headdress is made from treated leather and symbolic plumage, with each part chosen to show dignity and respect before the leader of the united tribes. A ceremonial headdress needs a leather band and feathers for its crown. While the leather straps are tanned, long, pristine feathers must be gathered. Harpies roost in the craggy hills north and northwest of Thunder Bluff, so you must venture into their hostile nests to find feathers of the needed size and color."
+      "text": "Preparation for Ceremony. Eyahn Eagletalon is making a headdress for his brother, who soon stands before Chief Cairne Bloodhoof. He asks you to gather the vibrant feathers from harpies beyond Thunder Bluff while he tans the leather bands. Among the tauren, standing before Chief Cairne Bloodhoof brings pride and reverence. Families honor the occasion by preparing proper attire. The traditional headdress is made from treated leather and symbolic plumage, with each part chosen to show dignity and respect before the leader of the united tribes. A ceremonial headdress needs a leather band and feathers for its crown. While the leather straps are tanned, long, pristine feathers must be gathered. Harpies roost in the craggy hills north and northwest of Thunder Bluff, so you must venture into their hostile nests to find feathers of the needed size and color."
     },
     "quest:75": {
       "1": [
@@ -24833,9 +24833,9 @@
     "quest:93090": {
       "1": [
         {
-          "duration": 49.16244897959184,
-          "file": "Audio/Transport/full_quest_93090-bef2354578327c5506ce/1-0000.mp3",
-          "sha256": "3bc5b1d502034d01abfd8eb63d811dfed436e16f3157acd34c710f74fa0d5a02",
+          "duration": 49.136326530612244,
+          "file": "Audio/Transport/full_quest_93090-47d5838f1817cd11ea7c/1-0000.mp3",
+          "sha256": "848b13a89daf71195239cd08a3391d3c5c9b3ed3ce6d9b78735a7e1134af9ffd",
           "start": 0
         }
       ],
@@ -24846,15 +24846,15 @@
           "1"
         ]
       },
-      "fullHash": "0499f7",
-      "generation": "1b7b019b60a11ef574a1",
-      "hash": "0499f7",
+      "fullHash": "6ec4dc",
+      "generation": "5c44a6da66ac334e27e3",
+      "hash": "6ec4dc",
       "source": {
         "duration": 49.162449,
         "file": null,
-        "sha256": "bef2354578327c5506ce4249f700649c7aac268d2b853499838c02b7df92918f"
+        "sha256": "47d5838f1817cd11ea7ce77a3d89e1ca937528dbb0573ec406ec9f6eef057522"
       },
-      "text": "What Comes Next. On Zephras Isle, the expedition prepares to cross the skies for Kalimdor. The local cult is defeated, and High Elder Shadowsong has given her blessing. Skycutters now carry travelers between the island and Mulgore. High Elder Shadowsong has blessed the expedition's onward journey from Zephras Isle, where the local cult has been defeated and safety restored. The expedition now looks beyond the island, with its focus set on travel across the open skies toward Kalimdor. Ayessa Dawnsinger coordinates the final departure for those ready to leave. Muln worked to secure steady skycutter travel between Zephras Isle and Mulgore. Test voyages succeeded, and an advance party has already crossed over. They wait on the other side to make contact with the shaman of the Earthen Ring."
+      "text": "What Comes Next. On Zephras Isle, the expedition prepares to cross the skies for Kalimdor. The local cult is defeated, and High Elder Shadowsong has given his blessing. Skycutters now carry travelers between the island and Mulgore. High Elder Shadowsong has blessed the expedition's onward journey from Zephras Isle, where the local cult has been defeated and safety restored. The expedition now looks beyond the island, with its focus set on travel across the open skies toward Kalimdor. Ayessa Dawnsinger coordinates the final departure for those ready to leave. Muln worked to secure steady skycutter travel between Zephras Isle and Mulgore. Test voyages succeeded, and an advance party has already crossed over. They wait on the other side to make contact with the shaman of the Earthen Ring."
     },
     "quest:93159": {
       "1": [
@@ -26939,9 +26939,9 @@
     "quest:94911": {
       "1": [
         {
-          "duration": 22.543673469387755,
-          "file": "Audio/Transport/full_quest_94911-4944ddf239c5479299ec/1-0000.mp3",
-          "sha256": "68e7c6e8eb8896b4c9b56f8190e577388073adcfc33a710a0b939046f5a61ca1",
+          "duration": 23.405714285714286,
+          "file": "Audio/Transport/full_quest_94911-2937bcaebe068cbc2978/1-0000.mp3",
+          "sha256": "6e240c82baac7ac9868fb80cc140171bd8dc3238441c69d829e2ba94a84bcd99",
           "start": 0
         }
       ],
@@ -26952,15 +26952,15 @@
           "1"
         ]
       },
-      "fullHash": "90569c",
-      "generation": "93902d486ed983aaf42a",
-      "hash": "90569c",
+      "fullHash": "b92daa",
+      "generation": "277f5444f6d3e37aed8e",
+      "hash": "b92daa",
       "source": {
-        "duration": 22.569796,
+        "duration": 23.431837,
         "file": null,
-        "sha256": "4944ddf239c5479299ecb99f04c9fb1041fd4b49ade59b7856dc607d17bb1153"
+        "sha256": "2937bcaebe068cbc2978fa2894d35bd059db6fedb7067641b280c62e01a81f6b"
       },
-      "text": "Child of Nature. In Thunder Bluff, a fellow Skyborne sees promise in your druidic arts and points you toward Turak Runetotem. He can teach you how to reach the Cenarion Circle’s stronghold in Moonglade. Your teacher believes the druids of the Cenarion Circle will welcome you and share their knowledge. Turak Runetotem in Thunder Bluff can show you how to reach their stronghold in Moonglade."
+      "text": "Child of Nature. A fellow Skyborne sees promise in your druidic arts and points you toward Turak Runetotem in Thunder Bluff. He can teach you how to reach the Cenarion Circle’s stronghold in Moonglade. Your teacher believes the druids of the Cenarion Circle will welcome you and share their knowledge. Turak Runetotem in Thunder Bluff can show you how to reach their stronghold in Moonglade."
     },
     "quest:94912": {
       "1": [
@@ -27875,9 +27875,9 @@
     "quest:95737": {
       "1": [
         {
-          "duration": 29.805714285714288,
-          "file": "Audio/Transport/full_quest_95737-27e7a81a9cbe8eb5f075/1-0000.mp3",
-          "sha256": "de9e85f9574606c92657d376f17012ab3f284c38ffbe0d1a98469ef019b16263",
+          "duration": 29.048163265306123,
+          "file": "Audio/Transport/full_quest_95737-7112b297e4f8db9b3bcb/1-0000.mp3",
+          "sha256": "2caacba6381ceb3d5d6903cefdabcb863aafb585ac2f72242f8d723987bdb169",
           "start": 0
         }
       ],
@@ -27888,15 +27888,15 @@
           "1"
         ]
       },
-      "fullHash": "0ceb07",
-      "generation": "ecf3a30bb26954c812a3",
-      "hash": "0ceb07",
+      "fullHash": "fbe866",
+      "generation": "48d0a6e893352b547293",
+      "hash": "fbe866",
       "source": {
-        "duration": 29.831837,
+        "duration": 29.074286,
         "file": null,
-        "sha256": "27e7a81a9cbe8eb5f07577bd529b5f5779f2434d06819c709d1b61540da7bee6"
+        "sha256": "7112b297e4f8db9b3bcbc94e9c1e9e0a1126e92c8bd62d327a0ac12029ef7341"
       },
-      "text": "Seeking Caitlin. In Menethil Harbor, an alchemist waits for word about a rare grass. She asks you to find Caitlin Grassman, whose husband has not reported back from an excavation. The alchemist heard from Caitlin that her husband's excavation team found signs of a primordial grass. Caitlin does not know how much they found or whether it can be reached.\n\nNow the alchemist asks you to speak with Caitlin in Menethil Harbor. Both women are waiting to learn what happened to the promised seeds."
+      "text": "Seeking Caitlin. An alchemist waits for word about a rare grass. She asks you to find Caitlin Grassman in Menethil Harbor, whose husband has not reported back from an excavation. The alchemist heard from Caitlin that her husband's excavation team found signs of a primordial grass. Caitlin does not know how much they found or whether it can be reached.\n\nNow the alchemist asks you to speak with Caitlin in Menethil Harbor. Both women are waiting to learn what happened to the promised seeds."
     },
     "quest:95772": {
       "1": [
@@ -28889,9 +28889,9 @@
     "quest:96800": {
       "1": [
         {
-          "duration": 16.248163265306122,
-          "file": "Audio/Transport/full_quest_96800-720dc241f7aee83e5203/1-0000.mp3",
-          "sha256": "c733674e6acc853c9f850d62ad1a8a0ab4a14d9f4aac930130a4df66ef8a02be",
+          "duration": 16.274285714285714,
+          "file": "Audio/Transport/full_quest_96800-d7b4e20387fc6996b130/1-0000.mp3",
+          "sha256": "6f97103a941e1a6208c2b1ed28b1f6a4154a1599d47999c4f153846ede206c56",
           "start": 0
         }
       ],
@@ -28903,12 +28903,12 @@
         ]
       },
       "fullHash": "430856",
-      "generation": "0b30a66ef00e2271509e",
+      "generation": "6079c8949dc5e7884110",
       "hash": "430856",
       "source": {
-        "duration": 16.274286,
+        "duration": 16.300408,
         "file": null,
-        "sha256": "720dc241f7aee83e5203a07a2f4e0c60c695b01985825039139277041f98d264"
+        "sha256": "d7b4e20387fc6996b1303097a22bdceaa9821db05dd9d4f9218f8adc39890e4c"
       },
       "text": "Past Due. A scholar needs a missing tome from the Scarlet Monastery to study Grim Batol’s ancient Wildhammer runemasters. The old Dalaran library’s ledgers show that Arcanist Doan borrowed the tome before the Third War and never returned it."
     },
@@ -30735,9 +30735,9 @@
     "quest:97931": {
       "1": [
         {
-          "duration": 17.972244897959186,
-          "file": "Audio/Transport/full_quest_97931-75971659666d1fd733c3/1-0000.mp3",
-          "sha256": "4a5432f160f2cb59254f0b058d911da152b468de829d8caf2d008547a9b64baf",
+          "duration": 17.397551020408162,
+          "file": "Audio/Transport/full_quest_97931-860d6787d085a6ce8266/1-0000.mp3",
+          "sha256": "34a59caa9a59b6541b4134c16de1e2e7bf00e5a30d8d8c01a66986b2f2026483",
           "start": 0
         }
       ],
@@ -30748,15 +30748,15 @@
           "1"
         ]
       },
-      "fullHash": "ee44b3",
-      "generation": "f6862e7d391f1d8196fd",
-      "hash": "ee44b3",
+      "fullHash": "204236",
+      "generation": "8e69d5930eca3d1e44ef",
+      "hash": "204236",
       "source": {
-        "duration": 17.998367,
+        "duration": 17.423673,
         "file": null,
-        "sha256": "75971659666d1fd733c360dc58a28e9031b6069cbb6670a2044fb10709f6e753"
+        "sha256": "860d6787d085a6ce82661621c2f4b27ee4f7360fff85aaa23b9e09ec65e11cde"
       },
-      "text": "Camping 101: First Aid. You are ready to make a bandage pouch, and now you need a place to try it. You can make the pouch, but most people would rather not camp in the middle of town. So take it out into the wilderness. Before you set up camp, you need a campfire. Most cooks can teach you how to make one."
+      "text": "Camping 101: First Aid. You are ready to make a First Aid Kit, and now you need a place to try it. You can make the kit, but most people would rather not camp in the middle of town. So take it out into the wilderness. Before you set up camp, you need a campfire. Most cooks can teach you how to make one."
     },
     "quest:97932": {
       "1": [
@@ -32737,9 +32737,9 @@
     "quest:98424": {
       "1": [
         {
-          "duration": 25.547755102040817,
-          "file": "Audio/Transport/full_quest_98424-cb689667db2f5fa33339/1-0000.mp3",
-          "sha256": "a58108beebdafaa9196f994e8c9f317e7ea6208543ee1b0085b024fde96ae5d8",
+          "duration": 25.46938775510204,
+          "file": "Audio/Transport/full_quest_98424-e7e0c641119c268b34fe/1-0000.mp3",
+          "sha256": "36c5ff3fb98fb31fd3237b0971b982550fb7bd0b25dac6496c925fb750c4f490",
           "start": 0
         }
       ],
@@ -32750,22 +32750,22 @@
           "1"
         ]
       },
-      "fullHash": "6a7703",
-      "generation": "5b35b4b8915eecc49e3c",
-      "hash": "6a7703",
+      "fullHash": "8f0116",
+      "generation": "94c9839f7e4af7634756",
+      "hash": "8f0116",
       "source": {
-        "duration": 25.573878,
+        "duration": 25.49551,
         "file": null,
-        "sha256": "cb689667db2f5fa33339453837c2411ddc5bdbc1bb22e116b7a3d09e933753a0"
+        "sha256": "e7e0c641119c268b34fedf17ff26bd1323a61b2de9df1f2e370bf80a124de680"
       },
-      "text": "Fizsprockets Notizen. In the Venture Co. mine, Morin Cloudstalker seeks the notebook pages still missing. They hold important information about the company's schemes in the region. Morin Cloudstalker waits at Bloodhoof Village for the pages still missing from Fizsprocket’s notebook. You have found folded pages in Fizsprocket’s pocket, and the remaining notes lie in the Venture Co. mine. Their information can guide what comes next."
+      "text": "Fizsprocket's Notes. In the Venture Co. mine, Morin Cloudstalker seeks the notebook pages still missing. They hold important information about the company's schemes in the region. Morin Cloudstalker waits at Bloodhoof Village for the pages still missing from Fizsprocket’s notebook. You have found folded pages in Fizsprocket’s pocket, and the remaining notes lie in the Venture Co. mine. Their information can guide what comes next."
     },
     "quest:98427": {
       "1": [
         {
-          "duration": 34.95183673469388,
-          "file": "Audio/Transport/full_quest_98427-7c8d9d3b77421285542a/1-0000.mp3",
-          "sha256": "276b3cce90c88dd7feb49bedf6d56a3ef32a04ddb3fe7efaf6bbfc3ec4d4494c",
+          "duration": 34.19428571428571,
+          "file": "Audio/Transport/full_quest_98427-9092cd4a7e0892ab0d45/1-0000.mp3",
+          "sha256": "1dd73fcd6cc1b92fb1990c0bfcec09be138de2118f316bbf7a2d8ebae5ccea7c",
           "start": 0
         }
       ],
@@ -32776,22 +32776,22 @@
           "1"
         ]
       },
-      "fullHash": "f31be6",
-      "generation": "b816f21d4f7a71afb369",
-      "hash": "f31be6",
+      "fullHash": "e26edd",
+      "generation": "594f1df4167b8eb12e3a",
+      "hash": "e26edd",
       "source": {
-        "duration": 34.977959,
+        "duration": 34.220408,
         "file": null,
-        "sha256": "7c8d9d3b77421285542a20d0b63e37dca7f4e647571b6d822e2da7b5de32fc89"
+        "sha256": "9092cd4a7e0892ab0d4575532f7c3a5400498b69afddb5b60164a77201344ad5"
       },
-      "text": "Schluss damit!. Morin Cloudstalker calls for Schluss damit! before the shredder fells another tree. He asks you to gather allies, return to the mine in the northeast, and stop it from cutting more trees. Morin has heard of the shredder described on a page. Such machines can bring down a forest far faster than axes and muscle. Groves that sheltered the children of the Earth Mother for ages can vanish in days. He asks you to gather allies, return to the mine in the northeast, and make sure the machine fells no more trees. Bring the Mechanoroderschlüssel to Morin at Bloodhoof Village."
+      "text": "Ceasing Operations. Morin Cloudstalker calls on you to stop the shredder before it fells another tree. He asks you to gather allies, return to the mine in the northeast, and stop it from cutting more trees. One of Fizsprocket's pages speaks of a shredder, and Morin has seen such machines on his travels. They can bring down a forest far faster than axes and muscle. Groves that sheltered the children of the Earth Mother for ages can vanish in days. Morin will not let that happen so close to where the young ones take their first steps. Bring the Clearcutter Key back to him outside Bloodhoof Village."
     },
     "quest:98430": {
       "1": [
         {
-          "duration": 31.503673469387756,
-          "file": "Audio/Transport/full_quest_98430-50509468c2f89fdfb0c7/1-0000.mp3",
-          "sha256": "50ea789d541fb6d18a57f4de790e4dd3bc95a53675b9da597fa0686683141185",
+          "duration": 32.44408163265306,
+          "file": "Audio/Transport/full_quest_98430-5f21976945d608871367/1-0000.mp3",
+          "sha256": "0520d1f0bdab796bafda4727debbf7f771c04f4d9f026794b3e35ac973b3bf3f",
           "start": 0
         }
       ],
@@ -32802,15 +32802,15 @@
           "1"
         ]
       },
-      "fullHash": "bf67b4",
-      "generation": "33df55189ad209c7d5f5",
-      "hash": "bf67b4",
+      "fullHash": "6c7784",
+      "generation": "6cfab0d29fc81bed8175",
+      "hash": "6c7784",
       "source": {
-        "duration": 31.529796,
+        "duration": 32.470204,
         "file": null,
-        "sha256": "50509468c2f89fdfb0c7a76c1d3d4f5666d2fbc008597825c28efe60d7fa02a3"
+        "sha256": "5f21976945d6088713675efa0fbd83cd5829f5f360bc67f74c042b4712cb3d66"
       },
-      "text": "Die Langläufer. At Bleachmane Rock, Perith Stormhoof is trapped after a peace effort with the gnolls turned violent. Cairne Bloodhoof sent the scout, and his safe return matters to the Tauren people. Cairne Bloodhoof sent Perith Stormhoof to meet the gnolls settled here. Perith is one of Cairne’s Long Runners, so he cannot speak of the full mission. The attempt at peace turned violent, and he fears the gnolls will eat him if he stays through the night. You are asked to help him escape Bleachmane Rock and report his safety to Cairne in Thunder Bluff."
+      "text": "The Longwalkers. At Palemane Rock, Perith Stormhoof is trapped after a peace effort with the gnolls turned violent. Cairne Bloodhoof sent the scout, and his safe return matters to the Tauren people. Cairne Bloodhoof sent Perith Stormhoof to meet the gnolls settled here. Perith is one of Cairne’s Longwalkers, so he cannot speak of the full mission. The attempt at peace turned violent, and he fears the gnolls will eat him if he stays through the night. You are asked to help him escape Palemane Rock and report his safety to Cairne in Thunder Bluff."
     },
     "quest:98435": {
       "1": [
@@ -33465,9 +33465,9 @@
     "quest:99080": {
       "1": [
         {
-          "duration": 18.33795918367347,
-          "file": "Audio/Transport/full_quest_99080-11cb8c437e6baf053944/1-0000.mp3",
-          "sha256": "01a5fa9626727539dd58155205b6d5f97a07a131d3241a673264147c28935bec",
+          "duration": 18.233469387755104,
+          "file": "Audio/Transport/full_quest_99080-4fbc817c4c916a6c43bc/1-0000.mp3",
+          "sha256": "4c37221750039201524497feccdcc0a60fe28f614917c7076105c9ea6edd4253",
           "start": 0
         }
       ],
@@ -33478,22 +33478,22 @@
           "1"
         ]
       },
-      "fullHash": "9828b9",
-      "generation": "b80e2f20dd5c72b22d21",
-      "hash": "9828b9",
+      "fullHash": "7ccabd",
+      "generation": "83b7996676425750fdd7",
+      "hash": "7ccabd",
       "source": {
-        "duration": 18.364082,
+        "duration": 18.259592,
         "file": null,
-        "sha256": "11cb8c437e6baf0539449c44fd8ef97a472f8ad1aa1f0cbe45747ba5274ed9c8"
+        "sha256": "4fbc817c4c916a6c43bc824e7acfd1b8eec7d407e29b7e9ce1fd742154485d08"
       },
-      "text": "Vertreibt sie. Baine Bloodhoof asks you to clear the Galak centaurs from the village’s path. Their defeat could give the children a measure of safety. Baine asks you to kill six Galak centaurs and four Galak scouts. Then bring him Herak the Plunderer’s head. The village’s safety is at stake."
+      "text": "Drive Them Out. Baine Bloodhoof asks you to clear the Galak centaurs from the village’s path. Their defeat could give the children a measure of safety. Six Galak centaurs and four Galak outrunners must fall, and Herak the Pillager’s head must come back to Baine. The village’s safety is at stake."
     },
     "quest:99081": {
       "1": [
         {
-          "duration": 25.129795918367346,
-          "file": "Audio/Transport/full_quest_99081-b4eab6bc10dbb300957f/1-0000.mp3",
-          "sha256": "39738de8a263df7b7f75d81a78f1127ff22fc6b3e23002abd4ff09e94e6d50b2",
+          "duration": 24.189387755102043,
+          "file": "Audio/Transport/full_quest_99081-9a53ba5c243a1b1952cf/1-0000.mp3",
+          "sha256": "a8dcd2ea9830d296b96b25548ea51f82eaaff57cdcde0c88717274b2e7667ccf",
           "start": 0
         }
       ],
@@ -33504,15 +33504,15 @@
           "1"
         ]
       },
-      "fullHash": "c650d4",
-      "generation": "0a53e7927da90be202e4",
-      "hash": "c650d4",
+      "fullHash": "811f5f",
+      "generation": "6f2d366c3383dcaf9f89",
+      "hash": "811f5f",
       "source": {
-        "duration": 25.155918,
+        "duration": 24.21551,
         "file": null,
-        "sha256": "b4eab6bc10dbb300957fffcdd383bf4360eccee8bb8c5caf2a9aeda308a680cc"
+        "sha256": "9a53ba5c243a1b1952cf82e241bfa497f697a3a554aee7f280673e102e334632"
       },
-      "text": "Schwieriges Unterfangen. Langläuferin Malah’s report carries word of a new centaur camp in Mulgore. Kriegerheld Wildrunner needs to know what happened to her, who killed her, and why the camp points to a small raiding party entering the land. You bring Langläuferin Malah’s report to Kriegerheld Wildrunner in Bloodhoof Village. He needs to know what happened to Malah and who killed her. Her report brings troubling news, and Baine must hear it at once."
+      "text": "Grim Tidings. Malah’s report carries word of a new centaur camp in Mulgore. Brave Wildrunner needs to know what happened to her, who killed her, and why the camp points to a small raiding party entering the land. You bring Malah’s report to Brave Wildrunner in Bloodhoof Village. He needs to know what happened to Malah and who killed her. Her report brings troubling news, and Baine must hear it at once."
     },
     "quest:99082": {
       "1": [
@@ -34223,10 +34223,6 @@
     "019fdbb52d773ed61b6e4dd04a04b24563501e9e4c1f88433d081d1d3e283d45": [
       524
     ],
-    "01a5fa9626727539dd58155205b6d5f97a07a131d3241a673264147c28935bec": [
-      316,
-      518
-    ],
     "01b11d3413b2248bdc03b6416f078c7f26902c14c88f85cdf5002f3d02d3635b": [
       232,
       430,
@@ -34365,6 +34361,13 @@
       863,
       1337,
       1541
+    ],
+    "0520d1f0bdab796bafda4727debbf7f771c04f4d9f026794b3e35ac973b3bf3f": [
+      248,
+      462,
+      634,
+      818,
+      1033
     ],
     "053ccce6c62e64108642a14e7ee3d0aebd5f86718571db61d632564ce524e776": [
       207,
@@ -34706,12 +34709,6 @@
       609,
       1019,
       1204
-    ],
-    "0e7c83f51656aa4d020f1d3960123c33c5f98f0aa00846f674a01565ad2a7030": [
-      244,
-      429,
-      585,
-      740
     ],
     "0e8a0a66e298c5f05f8ff8358131f588f56f5d28e5c5825bf6218ae7ec501f14": [
       404
@@ -35367,6 +35364,13 @@
       610,
       752
     ],
+    "1dd73fcd6cc1b92fb1990c0bfcec09be138de2118f316bbf7a2d8ebae5ccea7c": [
+      190,
+      440,
+      670,
+      820,
+      1004
+    ],
     "1df76e272406d98f566f2da4e1e1af4022c784d41ae5f62e7f4b6f86f944935c": [
       204,
       375,
@@ -35940,12 +35944,6 @@
       1065,
       1278
     ],
-    "276b3cce90c88dd7feb49bedf6d56a3ef32a04ddb3fe7efaf6bbfc3ec4d4494c": [
-      219,
-      470,
-      776,
-      949
-    ],
     "279d0b6fdf1397bba733438e59f8d6c159c8d7e800fbbbe6ab6f9a2402d1924f": [
       176,
       394,
@@ -36249,6 +36247,12 @@
       1328,
       1523
     ],
+    "2caacba6381ceb3d5d6903cefdabcb863aafb585ac2f72242f8d723987bdb169": [
+      402,
+      628,
+      796,
+      959
+    ],
     "2cb9079e90b6425def64ac9e1bc27a9916680e97b2e255f29c63fcd22fcf7b78": [
       210,
       457,
@@ -36292,13 +36296,6 @@
       1518,
       1836,
       2144
-    ],
-    "2ecc6b23cc77ae6b2e4c36d1e6ff2292e6839f3ffa9b969e41123c59266969fb": [
-      212,
-      360,
-      586,
-      859,
-      1027
     ],
     "2ee7b3f5fbb6a732d937f25c2296258a8baf31b5451ad81f31cfb5fb3faf42ea": [
       592
@@ -36495,6 +36492,11 @@
       202,
       343
     ],
+    "34a59caa9a59b6541b4134c16de1e2e7bf00e5a30d8d8c01a66986b2f2026483": [
+      195,
+      358,
+      507
+    ],
     "34b35104c9826b7618f94b5914b26c3b0cbd15f4bd1d121c119224390ba70da5": [
       251,
       620,
@@ -36595,6 +36597,11 @@
       1596,
       1818
     ],
+    "36c5ff3fb98fb31fd3237b0971b982550fb7bd0b25dac6496c925fb750c4f490": [
+      231,
+      396,
+      619
+    ],
     "36d01d4cec0f525ac117c3d617019171a015c1ca495aea2f441c0d1a238996c8": [
       204,
       498,
@@ -36688,11 +36695,6 @@
       159,
       295,
       527
-    ],
-    "39738de8a263df7b7f75d81a78f1127ff22fc6b3e23002abd4ff09e94e6d50b2": [
-      186,
-      495,
-      798
     ],
     "39a5e7ea76003d2736131585c17ab354496e101bcfdd1895ab301a07641149d3": [
       271,
@@ -36788,16 +36790,6 @@
       1189,
       1412,
       1633
-    ],
-    "3bc5b1d502034d01abfd8eb63d811dfed436e16f3157acd34c710f74fa0d5a02": [
-      198,
-      390,
-      555,
-      892,
-      1145,
-      1328,
-      1540,
-      1722
     ],
     "3bd7de06047d135dc12a8a3a9f8ffb7de921c9390f55d85f563f06e9036f805b": [
       254,
@@ -37434,11 +37426,6 @@
       1528,
       1753
     ],
-    "4a5432f160f2cb59254f0b058d911da152b468de829d8caf2d008547a9b64baf": [
-      189,
-      373,
-      528
-    ],
     "4a5840824d2a584a9f65541774faafaa04338a7a18717d2b6af6c71dece73ead": [
       170,
       368,
@@ -37584,6 +37571,10 @@
       919,
       1156,
       1403
+    ],
+    "4c37221750039201524497feccdcc0a60fe28f614917c7076105c9ea6edd4253": [
+      199,
+      336
     ],
     "4c43372ebb8fe607ffd0672d216c61181bc669dabaf5f2785b36414cb0dcb6fb": [
       461,
@@ -37788,13 +37779,6 @@
       702,
       852,
       987
-    ],
-    "50ea789d541fb6d18a57f4de790e4dd3bc95a53675b9da597fa0686683141185": [
-      242,
-      446,
-      614,
-      785,
-      1000
     ],
     "51969e0124594121a8180ada60b2a818ab49e988bce67f563669ee86bb9a3198": [
       282,
@@ -38330,6 +38314,12 @@
     "5ea5a3123eebf1782984cb05356378d3140becb58a5418c28e855dca9d405e35": [
       453
     ],
+    "5eb102793a3dba9b30428129f93e238453dfb72b7cc85fdd7cc780f0c5c82aef": [
+      407,
+      613,
+      843,
+      1023
+    ],
     "5ebace7363b50112619bd3d6acc512653e1f94a218e2256a53fe5c27d12c409b": [
       206,
       392,
@@ -38820,11 +38810,6 @@
       1189,
       1375
     ],
-    "68e7c6e8eb8896b4c9b56f8190e577388073adcfc33a710a0b939046f5a61ca1": [
-      285,
-      459,
-      665
-    ],
     "68f331769fc8419b70d917b1cd17320092c4cb3255424562e18683ee27f9d631": [
       222,
       524,
@@ -39056,6 +39041,10 @@
       1551,
       1875
     ],
+    "6e240c82baac7ac9868fb80cc140171bd8dc3238441c69d829e2ba94a84bcd99": [
+      447,
+      665
+    ],
     "6e3ba6a558dcaf5b63ca2808cb0ceb604665754a51e5fe0c9fdfe435a7bb21d5": [
       236,
       447,
@@ -39106,6 +39095,9 @@
       1325,
       1615,
       1817
+    ],
+    "6f97103a941e1a6208c2b1ed28b1f6a4154a1599d47999c4f153846ede206c56": [
+      289
     ],
     "7027274772b79c3e367e0568e5e130a7873b7e07082816d8e8416f0a1d54d306": [
       199,
@@ -39974,6 +39966,16 @@
       622,
       831,
       1161
+    ],
+    "848b13a89daf71195239cd08a3391d3c5c9b3ed3ce6d9b78735a7e1134af9ffd": [
+      207,
+      403,
+      577,
+      782,
+      1156,
+      1344,
+      1553,
+      1726
     ],
     "84accbb3f373d61dd3ba2c6dd2f2e2413ea5270768118857f7f19ac549907100": [
       234,
@@ -41534,11 +41536,6 @@
       1832,
       2170
     ],
-    "a58108beebdafaa9196f994e8c9f317e7ea6208543ee1b0085b024fde96ae5d8": [
-      238,
-      403,
-      610
-    ],
     "a5ade7c709ccf4a855f3bf64a92819863a1565184aae7eacc3909ec7b11e7972": [
       233,
       469,
@@ -41726,6 +41723,11 @@
       1750,
       1989
     ],
+    "a8dcd2ea9830d296b96b25548ea51f82eaaff57cdcde0c88717274b2e7667ccf": [
+      160,
+      464,
+      751
+    ],
     "a9964b9d1bacf907bc26518902537099d2bcce78db947f06f7687c0891df296f": [
       227,
       376,
@@ -41805,6 +41807,15 @@
       1362,
       1528,
       1771
+    ],
+    "ab408d301e7e45fe72d4bb37485f13a437aa081218572b81fe979f63583eabe4": [
+      252,
+      501,
+      838,
+      1206,
+      1362,
+      1532,
+      1696
     ],
     "ab46dd1bd4adae2fb88b7845dfbff13a278af3ca9ed659a3fd9c69eb1a4e1ad0": [
       516,
@@ -42428,6 +42439,13 @@
       1817,
       2007
     ],
+    "b7c8f9fe2a073e5d9869f801b48f361312b39db1f345ab5accbb2ecc468b34ef": [
+      212,
+      360,
+      697,
+      900,
+      1104
+    ],
     "b7dfa05ecbb9b24f2c1345f6faeda5f465fa4281511f2a45fb55b045993fc092": [
       196,
       495,
@@ -42790,6 +42808,12 @@
       976,
       1186
     ],
+    "c0145cb20442200b2e575e4898d0824715352acfe9487c42869321af933d82ff": [
+      236,
+      437,
+      641,
+      813
+    ],
     "c0998248be8f71a7ff6a6ca94ee4ca6e445d9e85a96673efc64f1db4cbdae524": [
       522
     ],
@@ -43063,9 +43087,6 @@
       459,
       658,
       937
-    ],
-    "c733674e6acc853c9f850d62ad1a8a0ab4a14d9f4aac930130a4df66ef8a02be": [
-      312
     ],
     "c73848acf0160d4d90e91566bd79314eecf05b1af76c27346ced62f7824e9c7a": [
       402,
@@ -43359,15 +43380,6 @@
       1472,
       1756
     ],
-    "ce5230789dbeae835c1d22dffcde74dd23dbfe5fa55b7611ff65ecc2c31400cc": [
-      245,
-      510,
-      712,
-      849,
-      1237,
-      1402,
-      1577
-    ],
     "ce541bedd04075daf67ec5711ae3dd83cae225f8142bb4cda93ec43f9bc417b2": [
       264,
       492,
@@ -43376,12 +43388,6 @@
       1269,
       1509,
       1757
-    ],
-    "ce733d9fda54fb6a3c70808f5484c4f77686a56eb74979b72715a686537cbe0d": [
-      407,
-      612,
-      776,
-      949
     ],
     "ce8ab32f4293c99a05b1249f027a541d84cfd07f1b5a81cbc931da38403465a0": [
       300,
@@ -43616,6 +43622,10 @@
       474,
       722,
       984
+    ],
+    "d4ac950b19f2de06d7fc7205c24ea1db4372d9659422ebe7c4328e09d743e97f": [
+      378,
+      711
     ],
     "d4bdb6428b4e12b2edd42f2eeeefa520eab3c830d0c78c12f40fcc60fa588fdd": [
       254,
@@ -43945,12 +43955,6 @@
       1161,
       1426,
       1591
-    ],
-    "de9e85f9574606c92657d376f17012ab3f284c38ffbe0d1a98469ef019b16263": [
-      185,
-      416,
-      829,
-      985
     ],
     "df6f017948b2c82d51b40ed50a09f121435066a2955b15ff201106d99a988893": [
       292,
@@ -45347,9 +45351,6 @@
     "01759cbdde4469232a5b161ed8a9ef0a39ace085f1a11d7b364291c01809a71b": {
       "405": 1
     },
-    "01a5fa9626727539dd58155205b6d5f97a07a131d3241a673264147c28935bec": {
-      "316": 1
-    },
     "01b11d3413b2248bdc03b6416f078c7f26902c14c88f85cdf5002f3d02d3635b": {
       "1191": 2,
       "430": 1
@@ -45409,6 +45410,9 @@
       "1337": 3,
       "351": 1,
       "863": 2
+    },
+    "0520d1f0bdab796bafda4727debbf7f771c04f4d9f026794b3e35ac973b3bf3f": {
+      "462": 1
     },
     "053ccce6c62e64108642a14e7ee3d0aebd5f86718571db61d632564ce524e776": {
       "1020": 2,
@@ -45565,9 +45569,6 @@
     "0d5503ccc117603b155f004b1511c6c6cc8a84e7629135e2eb197c348f3fc93d": {
       "1019": 2,
       "435": 1
-    },
-    "0e7c83f51656aa4d020f1d3960123c33c5f98f0aa00846f674a01565ad2a7030": {
-      "429": 1
     },
     "0e98a0b71f8f90b77bb3d017295976a547f2cd3365387eb6957ebe8310bf94d1": {
       "1135": 2,
@@ -45842,6 +45843,9 @@
     "1dc82d713c01b751efd67a91a19bb1dd11c5458cb310d1b87dc806508ebe13de": {
       "389": 1
     },
+    "1dd73fcd6cc1b92fb1990c0bfcec09be138de2118f316bbf7a2d8ebae5ccea7c": {
+      "440": 1
+    },
     "1df76e272406d98f566f2da4e1e1af4022c784d41ae5f62e7f4b6f86f944935c": {
       "375": 1,
       "791": 2
@@ -46087,9 +46091,6 @@
       "1065": 2,
       "479": 1
     },
-    "276b3cce90c88dd7feb49bedf6d56a3ef32a04ddb3fe7efaf6bbfc3ec4d4494c": {
-      "470": 1
-    },
     "279d0b6fdf1397bba733438e59f8d6c159c8d7e800fbbbe6ab6f9a2402d1924f": {
       "1701": 2,
       "394": 1
@@ -46217,6 +46218,9 @@
       "1164": 2,
       "545": 1
     },
+    "2caacba6381ceb3d5d6903cefdabcb863aafb585ac2f72242f8d723987bdb169": {
+      "402": 1
+    },
     "2cb9079e90b6425def64ac9e1bc27a9916680e97b2e255f29c63fcd22fcf7b78": {
       "1125": 2,
       "457": 1
@@ -46234,9 +46238,6 @@
     "2e58fe66cc66ef7cd2e4b00917525db349bfe680b88c1cb7471ee6c384894afe": {
       "1518": 2,
       "489": 1
-    },
-    "2ecc6b23cc77ae6b2e4c36d1e6ff2292e6839f3ffa9b969e41123c59266969fb": {
-      "360": 1
     },
     "2f5e626655247c7163e504d863b537dddcc7cd94b76b22c39352470485524847": {
       "1311": 2,
@@ -46325,6 +46326,9 @@
     "3482850f91f84a0796d9bf337c2c3cfdbd7efd80973af6714365cd2cfa658da9": {
       "343": 1
     },
+    "34a59caa9a59b6541b4134c16de1e2e7bf00e5a30d8d8c01a66986b2f2026483": {
+      "195": 1
+    },
     "34b35104c9826b7618f94b5914b26c3b0cbd15f4bd1d121c119224390ba70da5": {
       "620": 1
     },
@@ -46361,6 +46365,9 @@
     "36b6583ce32e4fe001261201617fb062677b75c6f5995a87064ba85aeff12b97": {
       "1141": 2,
       "390": 1
+    },
+    "36c5ff3fb98fb31fd3237b0971b982550fb7bd0b25dac6496c925fb750c4f490": {
+      "396": 1
     },
     "36d01d4cec0f525ac117c3d617019171a015c1ca495aea2f441c0d1a238996c8": {
       "498": 1
@@ -46408,9 +46415,6 @@
     "392d3c2b223b38d1831cfd9593d56704b5c8036d9b766519e620144d4cf40629": {
       "295": 1
     },
-    "39738de8a263df7b7f75d81a78f1127ff22fc6b3e23002abd4ff09e94e6d50b2": {
-      "495": 1
-    },
     "39a5e7ea76003d2736131585c17ab354496e101bcfdd1895ab301a07641149d3": {
       "491": 1
     },
@@ -46453,10 +46457,6 @@
     "3bc29c8b4161556798d7dc64acadf55b85fadbf8e0609fd7f640deed212a855f": {
       "1189": 2,
       "329": 1
-    },
-    "3bc5b1d502034d01abfd8eb63d811dfed436e16f3157acd34c710f74fa0d5a02": {
-      "1328": 2,
-      "555": 1
     },
     "3bd7de06047d135dc12a8a3a9f8ffb7de921c9390f55d85f563f06e9036f805b": {
       "1099": 2,
@@ -46732,9 +46732,6 @@
       "1072": 2,
       "409": 1
     },
-    "4a5432f160f2cb59254f0b058d911da152b468de829d8caf2d008547a9b64baf": {
-      "189": 1
-    },
     "4a5840824d2a584a9f65541774faafaa04338a7a18717d2b6af6c71dece73ead": {
       "368": 1
     },
@@ -46798,6 +46795,9 @@
     "4c25ec79a2147099a52046e0c4bb78ad648510245a7ba8b83c1570415dd2e437": {
       "1156": 2,
       "556": 1
+    },
+    "4c37221750039201524497feccdcc0a60fe28f614917c7076105c9ea6edd4253": {
+      "336": 1
     },
     "4cc5a34ee1e17f1010b4b86c53c082b2bb831124d7e76b44aea81fdf14838c3c": {
       "405": 1,
@@ -46889,9 +46889,6 @@
     },
     "5091f703cafc4a1a7e06b606d6717f5aeed61ce70ef780ee754ea4cf6afc3616": {
       "518": 1
-    },
-    "50ea789d541fb6d18a57f4de790e4dd3bc95a53675b9da597fa0686683141185": {
-      "446": 1
     },
     "51969e0124594121a8180ada60b2a818ab49e988bce67f563669ee86bb9a3198": {
       "282": 1
@@ -47128,6 +47125,9 @@
     "5e9b1c8cce0b95d38b433275381cd4a13a817068625a52d76dae019b79c2253b": {
       "401": 1
     },
+    "5eb102793a3dba9b30428129f93e238453dfb72b7cc85fdd7cc780f0c5c82aef": {
+      "407": 1
+    },
     "5ebace7363b50112619bd3d6acc512653e1f94a218e2256a53fe5c27d12c409b": {
       "392": 1
     },
@@ -47346,9 +47346,6 @@
       "1189": 2,
       "348": 1
     },
-    "68e7c6e8eb8896b4c9b56f8190e577388073adcfc33a710a0b939046f5a61ca1": {
-      "459": 1
-    },
     "68f331769fc8419b70d917b1cd17320092c4cb3255424562e18683ee27f9d631": {
       "1538": 2,
       "2485": 3,
@@ -47451,6 +47448,9 @@
       "1379": 2,
       "539": 1
     },
+    "6e240c82baac7ac9868fb80cc140171bd8dc3238441c69d829e2ba94a84bcd99": {
+      "447": 1
+    },
     "6e3ba6a558dcaf5b63ca2808cb0ceb604665754a51e5fe0c9fdfe435a7bb21d5": {
       "447": 1
     },
@@ -47474,6 +47474,9 @@
     "6f58054d491a46a8d5ef2aaab6a234f2ae3550c2de9b5c03092d699fd41d27c3": {
       "1325": 2,
       "493": 1
+    },
+    "6f97103a941e1a6208c2b1ed28b1f6a4154a1599d47999c4f153846ede206c56": {
+      "289": 1
     },
     "7027274772b79c3e367e0568e5e130a7873b7e07082816d8e8416f0a1d54d306": {
       "1012": 2,
@@ -47847,6 +47850,10 @@
     },
     "8484cd87cc27bc919f246dab4470f547dd3c91a5ab2a299e95137a1a7e0c97d1": {
       "431": 1
+    },
+    "848b13a89daf71195239cd08a3391d3c5c9b3ed3ce6d9b78735a7e1134af9ffd": {
+      "1344": 2,
+      "577": 1
     },
     "84accbb3f373d61dd3ba2c6dd2f2e2413ea5270768118857f7f19ac549907100": {
       "234": 1
@@ -48511,9 +48518,6 @@
       "1443": 2,
       "520": 1
     },
-    "a58108beebdafaa9196f994e8c9f317e7ea6208543ee1b0085b024fde96ae5d8": {
-      "403": 1
-    },
     "a5ade7c709ccf4a855f3bf64a92819863a1565184aae7eacc3909ec7b11e7972": {
       "1117": 2,
       "469": 1
@@ -48602,6 +48606,9 @@
       "1602": 2,
       "558": 1
     },
+    "a8dcd2ea9830d296b96b25548ea51f82eaaff57cdcde0c88717274b2e7667ccf": {
+      "464": 1
+    },
     "a9964b9d1bacf907bc26518902537099d2bcce78db947f06f7687c0891df296f": {
       "376": 1,
       "886": 2
@@ -48638,6 +48645,10 @@
     "ab2cbcbeec27fa06ec405544334e4ab25add459d7d7bee8c140b27c1ab003bd1": {
       "1362": 2,
       "635": 1
+    },
+    "ab408d301e7e45fe72d4bb37485f13a437aa081218572b81fe979f63583eabe4": {
+      "1206": 2,
+      "501": 1
     },
     "ab46dd1bd4adae2fb88b7845dfbff13a278af3ca9ed659a3fd9c69eb1a4e1ad0": {
       "1509": 2,
@@ -48903,6 +48914,9 @@
       "1178": 2,
       "407": 1
     },
+    "b7c8f9fe2a073e5d9869f801b48f361312b39db1f345ab5accbb2ecc468b34ef": {
+      "360": 1
+    },
     "b7dfa05ecbb9b24f2c1345f6faeda5f465fa4281511f2a45fb55b045993fc092": {
       "495": 1
     },
@@ -49056,6 +49070,9 @@
       "190": 1,
       "831": 2
     },
+    "c0145cb20442200b2e575e4898d0824715352acfe9487c42869321af933d82ff": {
+      "437": 1
+    },
     "c0b526d8cbdc2408299559774b915587077287273950d6e52d782a784c1e177f": {
       "1280": 3,
       "495": 1
@@ -49170,9 +49187,6 @@
     },
     "c6e1cf6536655c82428b232cd5c2a90fb0ae4329f4136caa2d20f58ffa3f8a97": {
       "459": 1
-    },
-    "c733674e6acc853c9f850d62ad1a8a0ab4a14d9f4aac930130a4df66ef8a02be": {
-      "312": 1
     },
     "c738dc10666d67208f2918a81315c244c7fa2f2e8e180d627414821af159ef3f": {
       "1569": 2,
@@ -49302,16 +49316,9 @@
       "1253": 2,
       "533": 1
     },
-    "ce5230789dbeae835c1d22dffcde74dd23dbfe5fa55b7611ff65ecc2c31400cc": {
-      "1237": 2,
-      "510": 1
-    },
     "ce541bedd04075daf67ec5711ae3dd83cae225f8142bb4cda93ec43f9bc417b2": {
       "1269": 2,
       "492": 1
-    },
-    "ce733d9fda54fb6a3c70808f5484c4f77686a56eb74979b72715a686537cbe0d": {
-      "407": 1
     },
     "ce8ab32f4293c99a05b1249f027a541d84cfd07f1b5a81cbc931da38403465a0": {
       "1192": 2,
@@ -49563,9 +49570,6 @@
     "de8af2d40c8f1f2a3cf5e4f340215898314a651e0d1eb6b894945e5009359ff0": {
       "1161": 2,
       "440": 1
-    },
-    "de9e85f9574606c92657d376f17012ab3f284c38ffbe0d1a98469ef019b16263": {
-      "416": 1
     },
     "df6f017948b2c82d51b40ed50a09f121435066a2955b15ff201106d99a988893": {
       "1212": 2,

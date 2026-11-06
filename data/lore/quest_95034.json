@@ -1,0 +1,94 @@
+{
+ "key": "quest:95034",
+ "type": "quest",
+ "name": "The Debt",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95034
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Lumina Windsinger in the Sepulcher recounts the attack that left Banon gravely wounded. Her account names a worgen as the creature that struck them on the road.",
+ "sections": [
+  {
+   "title": "A Wound on the Road",
+   "body": "Lumina Windsinger in the Sepulcher tells you what happened on the road. A giant, wolf-like worgen attacked her party and killed its guards. Banon stepped between the creature and Lumina, who drove it off with a spell. By then Banon was badly bitten. He urged her to leave him, but she stayed, and the two limped onward before gnolls found them.",
+   "spoiler": 0
+  },
+  {
+   "title": "Banon's Last Moments",
+   "body": "Banon in the Sepulcher was pierced by many gnoll blades before he turned on Lumina. She saw that he still recognized her, though he could not control himself. Lumina believes the worgen doomed him, and vows to kill it so it cannot bring the same horror to another living being.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who attacked Lumina and Banon on the road?",
+   "aliases": [
+    "what attacked them",
+    "worgen attack",
+    "road attacker"
+   ],
+   "answer": "A giant, wolf-like worgen attacked Lumina and Banon on the road."
+  },
+  {
+   "q": "What happened to the guards?",
+   "aliases": [
+    "guards fate",
+    "what about the guards",
+    "road guards"
+   ],
+   "answer": "The worgen dispatched the guards who accompanied Lumina and Banon."
+  },
+  {
+   "q": "How did Lumina drive off the worgen?",
+   "aliases": [
+    "how worgen flee",
+    "lumina spell",
+    "what scared it"
+   ],
+   "answer": "Lumina managed to cast a spell that startled the worgen and caused it to flee."
+  },
+  {
+   "q": "Why was Banon bitten?",
+   "aliases": [
+    "banon bite",
+    "how hurt banon",
+    "what happened to banon"
+   ],
+   "answer": "Banon threw himself in the worgen's path to protect Lumina, and the creature badly bit him."
+  },
+  {
+   "q": "Where does Lumina tell you what happened?",
+   "aliases": [
+    "where find lumina",
+    "lumina location",
+    "sepulcher"
+   ],
+   "answer": "Lumina Windsinger tells you her account in the Sepulcher."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "banon",
+  "gnolls",
+  "lumina windsinger",
+  "road attack",
+  "sepulcher",
+  "the debt",
+  "worgen"
+ ],
+ "related": [
+  "subzone:sepulcher",
+  "topic:worgen",
+  "topic:gnoll",
+  "quest:91862"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Debt"
+ ]
+}

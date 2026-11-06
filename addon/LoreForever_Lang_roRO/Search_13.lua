@@ -2,6 +2,7 @@
 -- Sources: data/i18n/roRO. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_roRO")
 local Po = P.search.post
+Po["torgancel"] = "EUtC"
 Po["torganfoul"] = "EQgBEQwB"
 Po["torganfuria"] = "EQgC"
 Po["torganfurie"] = "EQgC"
@@ -12001,4 +12002,3 @@ Po["whitebeardfactiunea"] = "BLEC"
 Po["whitebeardgrelin"] = "AU/BBK9BBK+BBLDB"
 Po["whitebeardgriknir"] = "BK9B"
 Po["whitebeardjurnalul"] = "BK9B"
-Po["whitebeardkharanos"] = "FmdC"

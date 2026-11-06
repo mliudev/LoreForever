@@ -1,0 +1,90 @@
+{
+ "key": "quest:97933",
+ "type": "quest",
+ "name": "Camping 101: Herbalism",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97933
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Komin Winterhoof in Thunder Bluff can teach you to craft an Incense Candle for your camp. Herbalism skill opens the way to a useful aid for healers and spellcasters.",
+ "sections": [
+  {
+   "title": "A Candle for Camp",
+   "body": "A teacher in Thunder Bluff asks you to put your herbalism skill to use in learning a camp craft. The Incense Candle can lift the spirits of healers and spellcasters. You leave with the knowledge to make one, but testing it calls for a camp beyond the town and a campfire to go with it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who teaches the camp craft?",
+   "aliases": [
+    "camping herbalism trainer",
+    "who teaches incense candle"
+   ],
+   "answer": "Komin Winterhoof in Thunder Bluff teaches you to craft an Incense Candle."
+  },
+  {
+   "q": "What does herbalism have to do with camping?",
+   "aliases": [
+    "herbalism camp item",
+    "herbalism camping"
+   ],
+   "answer": "Showing proficiency in herbalism lets you learn to craft an Incense Candle for your camp."
+  },
+  {
+   "q": "What is an Incense Candle for?",
+   "aliases": [
+    "incense candle use",
+    "camp candle"
+   ],
+   "answer": "An Incense Candle can boost the spirits of healers and spellcasters."
+  },
+  {
+   "q": "Where can I try the candle?",
+   "aliases": [
+    "where test incense candle",
+    "camp in town"
+   ],
+   "answer": "You need to head into the wilderness to test it, since most folk do not care for camps in the center of town."
+  },
+  {
+   "q": "Do I need anything else for camp?",
+   "aliases": [
+    "campfire needed",
+    "what else for camp"
+   ],
+   "answer": "A campfire is needed before you start your camp. Most cooks can teach you to make one."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "As a herbalist, your skill lets you learn to craft an Incense Candle for camp."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "As a cook, you can teach the basics of making a campfire, which a camp needs."
+  }
+ ],
+ "keywords": [
+  "campfire",
+  "camping",
+  "camping 101",
+  "herbalism",
+  "incense candle",
+  "komin winterhoof",
+  "thunder bluff"
+ ],
+ "related": [
+  "zone:thunderbluff"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Camping 101: Herbalism"
+ ]
+}

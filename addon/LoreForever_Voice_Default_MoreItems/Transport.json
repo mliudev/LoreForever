@@ -3877,9 +3877,9 @@
     "item:defias-tower-key": {
       "1": [
         {
-          "duration": 34.29877551020408,
-          "file": "Audio/Transport/full_item_defias-tower-key-5af21c185b54f3f078d0/1-0000.mp3",
-          "sha256": "18da1347e90e00ed4b60725f177646dd5fe9f21e920cbc7145bc8ff0f525f9e1",
+          "duration": 32.20897959183674,
+          "file": "Audio/Transport/full_item_defias-tower-key-706b125a0d604435a67c/1-0000.mp3",
+          "sha256": "430f1ea23d6bb27b2c65866021ffbec73a8196f059ab21037181af91388647b7",
           "start": 0
         }
       ],
@@ -3891,12 +3891,12 @@
         ]
       },
       "fullHash": "3e197d",
-      "generation": "3cb21b615355bc97399e",
+      "generation": "60df41b4c5730aeb5994",
       "hash": "3e197d",
       "source": {
-        "duration": 34.324898,
+        "duration": 32.235102,
         "file": null,
-        "sha256": "5af21c185b54f3f078d0cd271a13813185a41c425397e7af1992fc307354d2f4"
+        "sha256": "706b125a0d604435a67c23c9d89ab96cee88a7a3e0397781cc47d076c9fe2ecd"
       },
       "text": "Defias Tower Key. In Westfall, the Defias Tower Key marks a quiet passage past Klaven's Tower's sentries. Stormwind operatives need it as proof that an infiltrator slipped by unseen. Klaven's Tower is a Defias Brotherhood stronghold on the Westfall coast. Recent shipments from Duskwood brought malformed Defias drones to guard it. The drones are undead and covered in spikes.\n\nSI:7 watchers direct field agents to pick the sentries' pockets instead of fighting them. That way, no alarm sounds as the tower's defenses are breached."
     },
@@ -5749,9 +5749,9 @@
     "item:filled-brown-waterskin": {
       "1": [
         {
-          "duration": 23.327346938775513,
-          "file": "Audio/Transport/full_item_filled-brown-waterskin-bc468ac8c5a40b190b9b/1-0000.mp3",
-          "sha256": "dbc14b29d0740868e23acff609d20bd845841bb31502e6d814593871f610ee88",
+          "duration": 24.372244897959185,
+          "file": "Audio/Transport/full_item_filled-brown-waterskin-b5d452406642dd1c9723/1-0000.mp3",
+          "sha256": "fbbba2ac47264d0a5a2f58ec8efce12f6e4b374918ba5b5e4ec0821d19ac327d",
           "start": 0
         }
       ],
@@ -5763,12 +5763,12 @@
         ]
       },
       "fullHash": "c40ca6",
-      "generation": "9bf7a3ec36720817aaa8",
+      "generation": "8d7f96114ed74de04250",
       "hash": "c40ca6",
       "source": {
-        "duration": 23.353469,
+        "duration": 24.398367,
         "file": null,
-        "sha256": "bc468ac8c5a40b190b9b845ed6896135fb140113cb789e4d0570e22b9b3bfe5d"
+        "sha256": "b5d452406642dd1c9723b5183ce0b779ebae9291b39a05be0a8e69dd8317fd23"
       },
       "text": "Filled Brown Waterskin. In the Barrens, the Filled Brown Waterskin brings fresh water from the pond below Brine's hut. Aspiring shaman carry it to her to begin brewing sapta, which lets them commune with water spirits. Below Brine's hut, a pond offers rare fresh water in the Barrens. Nearby quilboar fight fiercely over it. A novice shaman sees how scarcity drives creatures to defend what sustains them."
     },
@@ -9649,9 +9649,9 @@
     "item:klaven-mortwake-s-journal": {
       "1": [
         {
-          "duration": 31.399183673469388,
-          "file": "Audio/Transport/full_item_klaven-mortwake-s-journal-bf53222d3174612ce1f1/1-0000.mp3",
-          "sha256": "d5cdf8a4b967fc6bf1d3d2c3435a36dd159ba068448fe426104e6229fee12ffc",
+          "duration": 31.059591836734693,
+          "file": "Audio/Transport/full_item_klaven-mortwake-s-journal-a583ae7b597c496c30b4/1-0000.mp3",
+          "sha256": "cb92803201baf8fdbcc33939587cd92270bd15d5875d139db1248040e311f269",
           "start": 0
         }
       ],
@@ -9663,12 +9663,12 @@
         ]
       },
       "fullHash": "6936ae",
-      "generation": "7cd1b52a4e1bf7a1345b",
+      "generation": "9abe29896db7861cf69f",
       "hash": "6936ae",
       "source": {
-        "duration": 31.425306,
+        "duration": 31.085714,
         "file": null,
-        "sha256": "bf53222d3174612ce1f1cc75b786ddab4d53b80b5834f220aee47ddd9f63ea68"
+        "sha256": "a583ae7b597c496c30b471aa68f9115410062ed62b93c7c4a949fa05d9f73171"
       },
       "text": "Klaven Mortwake's Journal. SI:7 operatives recover Klaven Mortwake's Journal from the Defias tower. It records the Brotherhood's search for a way to raise the dead. Master Mathias Shaw leads Stormwind's intelligence service, SI:7. He sought Mortwake's journal to trace the Brotherhood's wider alliances. The notes confirm experiments in reanimation and illicit support linking Duskwood, the Venture Company, and the Defias. For rogues serving the crown, recovering the research is a step toward mastering poisons."
     },
@@ -16669,9 +16669,9 @@
     "item:the-general-s-response": {
       "1": [
         {
-          "duration": 35.500408163265305,
-          "file": "Audio/Transport/full_item_the-general-s-response-d548883a07bd0029623a/1-0000.mp3",
-          "sha256": "d4bf0cfaf490e6de83c6140094ec3f3c6e494da32806c27f99fe7057f34c95f7",
+          "duration": 36.38857142857143,
+          "file": "Audio/Transport/full_item_the-general-s-response-5e1404acf77f18512ed3/1-0000.mp3",
+          "sha256": "86ede4f5b5713c9c927071dbf41ef7d1fcfce3de3af17677d649d9f7fc0663fe",
           "start": 0
         }
       ],
@@ -16682,15 +16682,15 @@
           "1"
         ]
       },
-      "fullHash": "635ebf",
-      "generation": "dc3c5d49a2d31c981cb7",
-      "hash": "635ebf",
+      "fullHash": "52cd66",
+      "generation": "7a26f0ea43a594fd08f1",
+      "hash": "52cd66",
       "source": {
-        "duration": 35.526531,
+        "duration": 36.414694,
         "file": null,
-        "sha256": "d548883a07bd0029623aa1f8974126e42898cbadc19463ec1718eb967e633d8b"
+        "sha256": "5e1404acf77f18512ed3fa1d96ec8fb3f56d6f708e894ffebbdda774228bd7c9"
       },
-      "text": "The General's Response. In Lakeshire, General Marcus Jonathan answers a plea for aid as Redridge faces danger. His dispatch acknowledges Magistrate Solomon’s appeal against the Blackrock orcs and gnolls, but sends no immediate reinforcements from Stormwind. Magistrate Solomon asks Stormwind City for troops to defend Redridge from gathering Blackrock orc clans and Gnoll warbands. General Marcus Jonathan replies that he has sent the plea to the throne, but no soldiers are coming now. He orders the letter returned to Lakeshire. Solomon is troubled by the delay and suspects something is wrong with Stormwind’s leaders."
+      "text": "The General's Response. From Stormwind, General Marcus Jonathan answers Lakeshire's plea for aid as Redridge faces danger. His dispatch acknowledges Magistrate Solomon’s appeal against the Blackrock orcs and gnolls, but sends no immediate reinforcements from Stormwind. Magistrate Solomon asks Stormwind City for troops to defend Redridge from gathering Blackrock orc clans and Gnoll warbands. General Marcus Jonathan replies that he has sent the plea to the throne, but no soldiers are coming now. He orders the letter returned to Lakeshire. Solomon is troubled by the delay and suspects something is wrong with Stormwind’s leaders."
     },
     "item:the-lich-s-spellbook": {
       "1": [
@@ -16851,9 +16851,9 @@
     "item:thule-s-head": {
       "1": [
         {
-          "duration": 13.662040816326531,
-          "file": "Audio/Transport/full_item_thule-s-head-5f37ad6ac0784146df2c/1-0000.mp3",
-          "sha256": "c8d44befea3905d051d25ad0dd612a99186246e16eb7934b94fb2f3349bd4563",
+          "duration": 12.956734693877552,
+          "file": "Audio/Transport/full_item_thule-s-head-e6eb0120030ded103e6f/1-0000.mp3",
+          "sha256": "8f1996c1f983bcea426bd6415b9e6b29c24e29bd2be20124490a4829a793537f",
           "start": 0
         }
       ],
@@ -16865,12 +16865,12 @@
         ]
       },
       "fullHash": "4a2843",
-      "generation": "da1b7adfc76f6e17ce51",
+      "generation": "dc9f6fb7167237bf18eb",
       "hash": "4a2843",
       "source": {
-        "duration": 13.688163,
+        "duration": 12.982857,
         "file": null,
-        "sha256": "5f37ad6ac0784146df2c0ffd8e9352de831195abebdca29aa3080114f68cc39d"
+        "sha256": "e6eb0120030ded103e6f3bf26afa1af4e3185cc0e34fe3cf04039222a178566c"
       },
       "text": "Thule's Head. At the Sepulcher, High Executor Hadrec seeks proof that Thule Ravenclaw is dead. His severed head confirms the Scourge commander on Fenris Isle has fallen and helps the Forsaken hold Silverpine Forest."
     },
@@ -18177,9 +18177,9 @@
     "item:vial-of-purest-water": {
       "1": [
         {
-          "duration": 33.35836734693878,
-          "file": "Audio/Transport/full_item_vial-of-purest-water-e7076ef91fc706168166/1-0000.mp3",
-          "sha256": "c9f765f85ec22f12f09b14d158a6c06a360a6c391ccedf771dc0fd67a4eaebea",
+          "duration": 33.5934693877551,
+          "file": "Audio/Transport/full_item_vial-of-purest-water-2deb56cc1172ec2b4e5a/1-0000.mp3",
+          "sha256": "1cf48c38831f86c7bf1d23608043d632d29ff5ac21486478831243db5460f424",
           "start": 0
         }
       ],
@@ -18191,12 +18191,12 @@
         ]
       },
       "fullHash": "b1ea8d",
-      "generation": "182ded629f8d7b1904eb",
+      "generation": "b53186a1ac07e0047f75",
       "hash": "b1ea8d",
       "source": {
-        "duration": 33.38449,
+        "duration": 33.593469,
         "file": null,
-        "sha256": "e7076ef91fc7061681660c0db5a3627d7a3fc53565b32127761b57e872ec2d92"
+        "sha256": "2deb56cc1172ec2b4e5ae9b3d924ba7495ac8b8a8797360619d447ee2b57c286"
       },
       "text": "Vial of Purest Water. In the southern Barrens, Brine blesses pure water for a shaman initiate. Islen Waterseer needs it to prepare a water sapta that lets the initiate see elemental spirits. Brine leads the initiate through trials of patience and cleansing, then seals the water in the vial. Its purity is untouched by corruption. Carry it across the Barrens to Islen Waterseer, who watches over a solitary shore. She needs the water to brew a water sapta, for only such pure water lets a shaman commune with spiritual guardians far from the sunbaked flats."
     },
@@ -19795,14 +19795,6 @@
       217,
       503
     ],
-    "18da1347e90e00ed4b60725f177646dd5fe9f21e920cbc7145bc8ff0f525f9e1": [
-      235,
-      450,
-      627,
-      792,
-      957,
-      1156
-    ],
     "1925ff72967afae90b236b889fd7e546e2dbf4096992b1c3e36a630fb1d55d80": [
       196,
       397,
@@ -19861,9 +19853,6 @@
       927,
       1079,
       1248
-    ],
-    "1ab50444199b25d4aaf252c279d8f09f99dfcb6ec854b0544f7ebb0fd74e1841": [
-      748
     ],
     "1ace66b951554af04ea18316a987d64c3d3a2c474146793019d4a9da335ef265": [
       229,
@@ -19944,6 +19933,12 @@
       972,
       1189,
       1342
+    ],
+    "1cf48c38831f86c7bf1d23608043d632d29ff5ac21486478831243db5460f424": [
+      178,
+      425,
+      764,
+      952
     ],
     "1d48d08ba5d0969581a997946b51d3da52f4423aeb6bdb15b91e561159b6f973": [
       447
@@ -20687,6 +20682,13 @@
       562,
       827
     ],
+    "430f1ea23d6bb27b2c65866021ffbec73a8196f059ab21037181af91388647b7": [
+      216,
+      397,
+      567,
+      750,
+      1076
+    ],
     "4340556cf0822fe40f290e3920316318018a1e13213700dfc436f29c19c61600": [
       241,
       456,
@@ -21170,6 +21172,9 @@
       746,
       1054,
       1334
+    ],
+    "5ce0972aa565b4eba9673c0eafec2df2f8ba4dd581e6b245fe25a871d365f235": [
+      515
     ],
     "5ce8a5a5df3e0efd5262bdc83297240fa0d41480ee4576c1fb7db76a26f916e2": [
       374,
@@ -22175,6 +22180,12 @@
       959,
       1211
     ],
+    "86ede4f5b5713c9c927071dbf41ef7d1fcfce3de3af17677d649d9f7fc0663fe": [
+      254,
+      593,
+      888,
+      1103
+    ],
     "87198794acc1d217a5c6c72ab54b1b51360ae828138cdb10831c5c737ed4a57f": [
       264,
       435,
@@ -22386,6 +22397,9 @@
       1164,
       1453,
       1738
+    ],
+    "8f1996c1f983bcea426bd6415b9e6b29c24e29bd2be20124490a4829a793537f": [
+      217
     ],
     "8fa7952d690f2651fdbe669c854c8f1ebbe194eafea5de4f70d0f5a400796c41": [
       141,
@@ -23331,10 +23345,6 @@
     "b99d2dfa4c6167c2cdfb7eaf9b7fb87dfa1b14dcecd646a45155c837b09118af": [
       393
     ],
-    "b9b1982773000835668dad76c7f97c694cc184dcaeef195c0fd2505ae3dc59b2": [
-      523,
-      978
-    ],
     "ba08d98bef3eeca995bbc178f3a65de3d3665e859d9385a87aded60866b684cb": [
       370,
       603
@@ -23452,6 +23462,9 @@
       1338,
       1578,
       1850
+    ],
+    "bf27c1c143964bb72416ecfdf34899db54e0e918b68f7f966a2a18312917e9c4": [
+      529
     ],
     "bf78df1f50321b9668a9f90a2be032afb14d85241d17027e8e2a852a9dc271b8": [
       745,
@@ -23589,9 +23602,6 @@
       518,
       754
     ],
-    "c8d44befea3905d051d25ad0dd612a99186246e16eb7934b94fb2f3349bd4563": [
-      221
-    ],
     "c92949bd79dadede6af98563d922fdd0b6ce8a9056a24a3eee3f210b138d4301": [
       240,
       413,
@@ -23610,12 +23620,6 @@
       471,
       613,
       802
-    ],
-    "c9f765f85ec22f12f09b14d158a6c06a360a6c391ccedf771dc0fd67a4eaebea": [
-      182,
-      410,
-      644,
-      934
     ],
     "ca11332faaf1f3c936aeaa38790920145026c60055c94048185473da2836f899": [
       194,
@@ -23644,6 +23648,13 @@
       1255,
       1426,
       1646
+    ],
+    "cb92803201baf8fdbcc33939587cd92270bd15d5875d139db1248040e311f269": [
+      206,
+      356,
+      558,
+      710,
+      981
     ],
     "cc340c1181f3242f89c55ae18897b2511fe0f5e8d5856795962ee152495d8856": [
       191,
@@ -23814,12 +23825,6 @@
       742,
       926
     ],
-    "d4bf0cfaf490e6de83c6140094ec3f3c6e494da32806c27f99fe7057f34c95f7": [
-      228,
-      567,
-      865,
-      1067
-    ],
     "d4dba80468f80c5f830e8c776c2f33e3b6547bf06c5cfaaecb26802570caaedc": [
       666
     ],
@@ -23860,13 +23865,6 @@
       238,
       472,
       740
-    ],
-    "d5cdf8a4b967fc6bf1d3d2c3435a36dd159ba068448fe426104e6229fee12ffc": [
-      211,
-      362,
-      556,
-      721,
-      996
     ],
     "d5d1b55c4ff2e5f1d695930e98d836c5ba9107cb7ab06b648beebb8d8fd27ae3": [
       219,
@@ -23968,11 +23966,6 @@
       782,
       924,
       1079
-    ],
-    "dbc14b29d0740868e23acff609d20bd845841bb31502e6d814593871f610ee88": [
-      201,
-      437,
-      608
     ],
     "dbd304d3ea5f0e8d42e2f8707e2002b361563a4dc1983fa51c7584ffa24b9fb2": [
       184,
@@ -24697,6 +24690,11 @@
       1647,
       1783
     ],
+    "fbbba2ac47264d0a5a2f58ec8efce12f6e4b374918ba5b5e4ec0821d19ac327d": [
+      221,
+      478,
+      641
+    ],
     "fc2c0b4c18ab81160d1845d8472e9c3bc6c4b99a3301bfd0dc5549da24f5763c": [
       147,
       362,
@@ -25019,9 +25017,6 @@
     "18c5b677051bfe69f853d16d65f28cfd27c10cfc746d136b402a77427f000359": {
       "217": 1
     },
-    "18da1347e90e00ed4b60725f177646dd5fe9f21e920cbc7145bc8ff0f525f9e1": {
-      "450": 1
-    },
     "1925ff72967afae90b236b889fd7e546e2dbf4096992b1c3e36a630fb1d55d80": {
       "397": 1
     },
@@ -25079,6 +25074,9 @@
     },
     "1c51a747dded46731d5fb02379bdddf5873a56d33c2f34c66803497c43848e1a": {
       "443": 1
+    },
+    "1cf48c38831f86c7bf1d23608043d632d29ff5ac21486478831243db5460f424": {
+      "425": 1
     },
     "1e7b8ac12161677c2fdac53c8a0f92434cc3f9cccca765caccd8a540c98c4ba7": {
       "507": 1
@@ -25387,6 +25385,9 @@
     },
     "4308f7529eed3a56f86ceafa504436503a0922f9e3b043411c29e58c0c132127": {
       "349": 1
+    },
+    "430f1ea23d6bb27b2c65866021ffbec73a8196f059ab21037181af91388647b7": {
+      "397": 1
     },
     "4340556cf0822fe40f290e3920316318018a1e13213700dfc436f29c19c61600": {
       "1362": 2,
@@ -26007,6 +26008,9 @@
     "86a43d635e227b6e038b62e04bd7bc1628e20a5cd98a1e608e12b5b09415414c": {
       "342": 1
     },
+    "86ede4f5b5713c9c927071dbf41ef7d1fcfce3de3af17677d649d9f7fc0663fe": {
+      "593": 1
+    },
     "87198794acc1d217a5c6c72ab54b1b51360ae828138cdb10831c5c737ed4a57f": {
       "264": 1
     },
@@ -26614,9 +26618,6 @@
     "c9c7331c638905614d12ec0a196f10cfba426dbbdc98d2efbc744cbd32011af7": {
       "300": 1
     },
-    "c9f765f85ec22f12f09b14d158a6c06a360a6c391ccedf771dc0fd67a4eaebea": {
-      "410": 1
-    },
     "ca11332faaf1f3c936aeaa38790920145026c60055c94048185473da2836f899": {
       "381": 1
     },
@@ -26629,6 +26630,9 @@
     "cb41e2a23508954449c10d3dd0cc392d67c2c0fb4ac92a67dbb334035a3ebb8a": {
       "1426": 2,
       "382": 1
+    },
+    "cb92803201baf8fdbcc33939587cd92270bd15d5875d139db1248040e311f269": {
+      "356": 2
     },
     "cc340c1181f3242f89c55ae18897b2511fe0f5e8d5856795962ee152495d8856": {
       "338": 1
@@ -26701,9 +26705,6 @@
     "d3d4444c334b8be265c9526b784b1d75ab97335d82e6eae75adaf06f636139a6": {
       "322": 1
     },
-    "d4bf0cfaf490e6de83c6140094ec3f3c6e494da32806c27f99fe7057f34c95f7": {
-      "567": 1
-    },
     "d4e408a850f6efa4c4ffd91a58f6b1564d1effc796faa60ba96d1bf863fa42b1": {
       "1178": 2,
       "432": 1
@@ -26720,9 +26721,6 @@
     },
     "d5c6bac5f9d5b68b0827218060f8885c58ab16a5deb78c0acb0d34b43daa5ca8": {
       "238": 1
-    },
-    "d5cdf8a4b967fc6bf1d3d2c3435a36dd159ba068448fe426104e6229fee12ffc": {
-      "362": 2
     },
     "d5d1b55c4ff2e5f1d695930e98d836c5ba9107cb7ab06b648beebb8d8fd27ae3": {
       "425": 1
@@ -26766,9 +26764,6 @@
     },
     "da9774e66ffe91f41bdbf740ee287fe21d206859e58749225660282af56e22c7": {
       "358": 1
-    },
-    "dbc14b29d0740868e23acff609d20bd845841bb31502e6d814593871f610ee88": {
-      "437": 1
     },
     "dbd304d3ea5f0e8d42e2f8707e2002b361563a4dc1983fa51c7584ffa24b9fb2": {
       "494": 1
@@ -27080,6 +27075,9 @@
       "1429": 2,
       "436": 1
     },
+    "fbbba2ac47264d0a5a2f58ec8efce12f6e4b374918ba5b5e4ec0821d19ac327d": {
+      "478": 1
+    },
     "fc2c0b4c18ab81160d1845d8472e9c3bc6c4b99a3301bfd0dc5549da24f5763c": {
       "362": 1
     },
@@ -27124,6 +27122,5 @@
     }
   },
   "pack": "LoreForever_Voice_Default_MoreItems",
-  "retired": [],
   "version": 1
 }

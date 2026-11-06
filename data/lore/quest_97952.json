@@ -1,0 +1,83 @@
+{
+ "key": "quest:97952",
+ "type": "quest",
+ "name": "Camping 101: Blacksmithing",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97952
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A Blacksmith can learn to craft a Sharpening Wheel for use at camp. Basil Frye in Undercity can teach you once you have shown proficiency in your skill.",
+ "sections": [
+  {
+   "title": "A Smith's Camp",
+   "body": "Someone asks you to speak with Basil Frye in Undercity about a camping item for your Blacksmithing. You need to show proficiency in your skill before he teaches you to craft a Sharpening Wheel. At camp, the wheel lets Warriors and Rogues nearby hone their weapons.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What can Basil Frye teach me?",
+   "aliases": [
+    "Basil Frye blacksmithing",
+    "sharpening wheel",
+    "camp blacksmith item"
+   ],
+   "answer": "Basil Frye can teach you to craft a Sharpening Wheel for use at camp, once you have shown proficiency in Blacksmithing."
+  },
+  {
+   "q": "What does a Sharpening Wheel do?",
+   "aliases": [
+    "what wheel do",
+    "sharpen weapons",
+    "sharpening wheel use"
+   ],
+   "answer": "A Sharpening Wheel at your camp lets nearby Warriors and Rogues hone their weapons."
+  },
+  {
+   "q": "Where do I find Basil Frye?",
+   "aliases": [
+    "Basil location",
+    "where is basil",
+    "Basil Frye Undercity"
+   ],
+   "answer": "Basil Frye is in Undercity."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "As a Blacksmith, you can learn to craft a Sharpening Wheel for use at camp."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "A Sharpening Wheel at camp lets you hone your weapon."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "A Sharpening Wheel at camp lets you hone your weapon."
+  }
+ ],
+ "keywords": [
+  "basil frye",
+  "blacksmithing",
+  "camp",
+  "rogue",
+  "sharpening wheel",
+  "undercity",
+  "warrior"
+ ],
+ "related": [
+  "zone:undercity",
+  "topic:warrior",
+  "topic:rogue"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Camping 101: Blacksmithing"
+ ]
+}

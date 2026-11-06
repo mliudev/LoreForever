@@ -438,7 +438,7 @@ P.transport["quest:1462"] = {
   fullHash = "e8e8aa",
   text = "Earth Sapta. At Camp Narache, Seer Ravenfeather prepares another Earth Sapta for a young shaman whose brew was lost before the rite was complete. The draught opens a novice’s sight to the spirits of stone, so the trial can continue. Young shaman begin by learning to sense forces beyond ordinary sight. To meet Mulgore’s earth elementals, an initiate drinks a sapta made from natural essences of stone and soil. The Earth Sapta lifts the veil between the physical and spiritual realms. Then a novice can see and commune with the spirits of the land. A novice may lose or spill the brew before reaching the stone monument for communion. Seer Ravenfeather waits at Camp Narache and prepares another vessel when a pupil needs one. With the draught restored, the novice can continue the rite and face the spirits.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1462-635adf76b35ead2016be/1-0000.mp3", duration = 48.3526531, start = 0},
+    {file = "Audio/Transport/full_quest_1462-1c54809f3086fb325d06/1-0000.mp3", duration = 48.9534694, start = 0},
   },
 }
 P.transport["quest:1463"] = {
@@ -622,7 +622,7 @@ P.transport["quest:1517"] = {
   fullHash = "c814da",
   text = "Call of Earth. At Spirit Rock, Canaga Earthcaller guides young shaman through their first communion with the elements. An Earth Sapta lets them see the Minor Manifestation of Earth on sacred ground. A sapta is a rare draught known to only a few shaman masters. Elemental magic lets it bridge mortal sight and the spiritual plane, granting Sapta Sight to the strong-willed. Since it binds the drinker's spirit directly to an element, tradition forbids drinking it outside consecrated holy ground. To commune with earth, you leave the Valley of Trials and climb the Hidden Path into Durotar's southern crags. Spirit Rock waits at the trail's end, an elevated sanctuary above the rugged wasteland. Drink the sapta there, and you can see what ordinary eyes cannot: an elemental presence among the stone. The Minor Manifestation of Earth asks for neither bloodshed nor submission. It asks only that you stand humbly before the world. Fire, water, and air bear turbulent, volatile, often chaotic spirits, while earth teaches steadiness. Mountains endure, and plains teach boundless patience.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1517-39dfdf1d5784b075f76d/1-0000.mp3", duration = 65.6195918, start = 0},
+    {file = "Audio/Transport/full_quest_1517-ebe8a5d4c4f05a2f4019/1-0000.mp3", duration = 66.3771429, start = 0},
   },
 }
 P.transport["quest:1518"] = {
@@ -646,7 +646,7 @@ P.transport["quest:1520"] = {
   fullHash = "8c1301",
   text = "Call of Earth. At Kodo Rock, you seek communion with earth through a sacred tauren rite. Drink an Earth Sapta to see a Minor Manifestation of Earth. Shamanic elders brew a sapta to join an initiate’s mortal spirit to a primal element. Ancestral magic guards the recipe, known to only a few tauren. Drink the draught at a sacred site, and your mind opens beyond the physical world. The veil parts, revealing the elements in their raw form. East of Camp Narache, Kodo Rock rises as a stone pillar and holy sanctuary. Drink the sapta there, and a Minor Manifestation of Earth appears before you. Other aspects of nature along the shaman’s path are volatile, fiery, or raging. Earth asks for quiet humility. Honor the land, and its spirit grants you the mountain’s enduring strength and the plains’ calm patience.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1520-8aa4ab4b482e2b92e72c/1-0000.mp3", duration = 49.9983673, start = 0},
+    {file = "Audio/Transport/full_quest_1520-8efbe5d30daaf0b349a1/1-0000.mp3", duration = 51.2522449, start = 0},
   },
 }
 P.transport["quest:1521"] = {
@@ -678,7 +678,7 @@ P.transport["quest:1526"] = {
   fullHash = "06d98e",
   text = "Call of Fire. On Durotar's peaks, Call of Fire puts a shaman to a trial of flame. Telf Joolam sends the initiate to drink fire sapta, face a Minor Manifestation of Fire, and claim its ember. On Durotar's summit, fire spirits remain hidden from untrained eyes. Drink fire sapta, a draught made from reagents gathered across the barrens and coast, and your senses sharpen to the unseen. Minor spirits and manifestations appear among the summit crags. A Minor Manifestation of Fire waits atop the mountain. Once the sapta takes hold, it knows you can see it and awaits your challenge. Fire answers strength and decisive action, so strike without delay. The longer the fight lasts, the more fiercely the elemental fire burns.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1526-935364b9bb0ed3cb9e8d/1-0000.mp3", duration = 45.0612245, start = 0},
+    {file = "Audio/Transport/full_quest_1526-0190d10c6bba033ca6b4/1-0000.mp3", duration = 46.6285714, start = 0},
   },
 }
 P.transport["quest:153"] = {
@@ -3094,7 +3094,7 @@ P.transport["quest:460"] = {
   fullHash = "5ac568",
   text = "Resting in Pieces. On Fenris Isle, Alaric's severed head calls for help from beyond the grave. He asks you to carry it across Fenris Keep to an unmarked grave near the stables, where his body lies. At Fenris Keep in Silverpine Forest, Alaric served Thule Ravenclaw as chief servant and personal bodyguard. Thule was a powerful mage aligned with the Scourge. When the Plague of Undeath swept through the region, he promised his sorcery would shield Alaric. Instead, the ward trapped him in endless agony and undeath, while his awareness remained in his severed parts. Thule made the rot hide gnolls by infecting local packs with necromantic decay. Then he turned on his own bodyguard. He cut off Alaric's head and threw it to the savage gnolls as a diversion. The rot hides dragged Alaric's body to a shallow grave they had hastily dug outside the keep's stables. They kept his speaking head as a grim plaything until an outsider intervened.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_460-38eb4cd7dc0b50d561ab/1-0000.mp3", duration = 55.797551, start = 0},
+    {file = "Audio/Transport/full_quest_460-3517b52991ba5cdeaad4/1-0000.mp3", duration = 56.9208163, start = 0},
   },
 }
 P.transport["quest:461"] = {
@@ -3350,7 +3350,7 @@ P.transport["quest:491"] = {
   fullHash = "eb8bc2",
   text = "Wand to Bethor. At Fenris Keep, the Woven Wand is bound for Bethor Iceshard in the Undercity. Three apprentice mages made it as a sign of fellowship, but Thule Ravenclaw hid it after choosing the Scourge. Its return brings a piece of Bethor's mortal youth back to the Magic Quarter. Before Lordaeron fell, three young mages joined their training wands into one: the Woven Wand. It marked their friendship and their shared hopes in the magical arts.\n\nThen Thule Ravenclaw gave his loyalty to the Lich King and embraced the Scourge. Their fellowship was broken. He came to despise the friendship they had shared, yet could neither destroy the wand nor leave it with his former companions.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_491-06fad09d534e1ac9aa8e/1-0000.mp3", duration = 42.4489796, start = 0},
+    {file = "Audio/Transport/full_quest_491-a27befb4df8ff60b3949/1-0000.mp3", duration = 40.9338776, start = 0},
   },
 }
 P.transport["quest:492"] = {
@@ -4770,11 +4770,11 @@ P.transport["quest:7781"] = {
   },
 }
 P.transport["quest:7782"] = {
-  hash = "49cf07",
-  fullHash = "49cf07",
-  text = "The Lord of Blackrock. At Stormwind's gates, the Alliance gathers to honor its victory over Blackrock. After you report to Grand Admiral Jes-Tereth in Stormwind Keep, the heroes make for the Valley of Heroes. Field Marshal Stonebridge is ready to lead the city's public commemoration. Field Marshal Stonebridge raises Nefarian's severed head above the great arches at Stormwind's main entrance. The sight carries across the city, and the Rallying Cry of the Dragonslayer inspires defenders, visiting dignitaries, and citizens. They know Deathwing's brood has suffered a crushing blow.",
+  hash = "c8ff2c",
+  fullHash = "c8ff2c",
+  text = "The Lord of Blackrock. At Stormwind's gates, the Alliance gathers to honor its victory over Blackrock. After you report to Highlord Bolvar Fordragon in Stormwind Keep, the heroes make for the Valley of Heroes. Field Marshal Stonebridge is ready to lead the city's public commemoration. Field Marshal Stonebridge raises Nefarian's severed head above the great arches at Stormwind's main entrance. The sight carries across the city, and the Rallying Cry of the Dragonslayer inspires defenders, visiting dignitaries, and citizens. They know Deathwing's brood has suffered a crushing blow.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_7782-2b676e27d18497721613/1-0000.mp3", duration = 33.9330612, start = 0},
+    {file = "Audio/Transport/full_quest_7782-cb72606044bf39d5c4f3/1-0000.mp3", duration = 34.2204082, start = 0},
   },
 }
 P.transport["quest:7783"] = {

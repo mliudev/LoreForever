@@ -5130,11 +5130,11 @@ P.transport["item:the-embalmer-s-heart"] = {
   },
 }
 P.transport["item:the-general-s-response"] = {
-  hash = "635ebf",
-  fullHash = "635ebf",
-  text = "The General's Response. In Lakeshire, General Marcus Jonathan answers a plea for aid as Redridge faces danger. His dispatch acknowledges Magistrate Solomon’s appeal against the Blackrock orcs and gnolls, but sends no immediate reinforcements from Stormwind. Magistrate Solomon asks Stormwind City for troops to defend Redridge from gathering Blackrock orc clans and Gnoll warbands. General Marcus Jonathan replies that he has sent the plea to the throne, but no soldiers are coming now. He orders the letter returned to Lakeshire. Solomon is troubled by the delay and suspects something is wrong with Stormwind’s leaders.",
+  hash = "52cd66",
+  fullHash = "52cd66",
+  text = "The General's Response. From Stormwind, General Marcus Jonathan answers Lakeshire's plea for aid as Redridge faces danger. His dispatch acknowledges Magistrate Solomon’s appeal against the Blackrock orcs and gnolls, but sends no immediate reinforcements from Stormwind. Magistrate Solomon asks Stormwind City for troops to defend Redridge from gathering Blackrock orc clans and Gnoll warbands. General Marcus Jonathan replies that he has sent the plea to the throne, but no soldiers are coming now. He orders the letter returned to Lakeshire. Solomon is troubled by the delay and suspects something is wrong with Stormwind’s leaders.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_the-general-s-response-69d8eb839fef675d53fd/1-0000.mp3", duration = 36.4669388, start = 0},
+    {file = "Audio/Transport/full_item_the-general-s-response-7293bd56eaa3c1a87ee7/1-0000.mp3", duration = 36.4669388, start = 0},
   },
 }
 P.transport["item:the-lich-s-spellbook"] = {

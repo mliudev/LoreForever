@@ -16670,8 +16670,8 @@
       "1": [
         {
           "duration": 36.46693877551021,
-          "file": "Audio/Transport/full_item_the-general-s-response-69d8eb839fef675d53fd/1-0000.mp3",
-          "sha256": "0ab200d4a34f329ff508b5fb37a772b81d2ef3763272c1efda08d1cae183703c",
+          "file": "Audio/Transport/full_item_the-general-s-response-7293bd56eaa3c1a87ee7/1-0000.mp3",
+          "sha256": "54de97dbe5fcc7acc0ad2374bede154941f90ff0054ca8d5397f2e853931d76f",
           "start": 0
         }
       ],
@@ -16682,15 +16682,15 @@
           "1"
         ]
       },
-      "fullHash": "635ebf",
-      "generation": "e42f4e4bbb9b5bdc4648",
-      "hash": "635ebf",
+      "fullHash": "52cd66",
+      "generation": "1b905eb6501f3a487048",
+      "hash": "52cd66",
       "source": {
         "duration": 36.493061,
         "file": null,
-        "sha256": "69d8eb839fef675d53fdc9b8978c59bf62e9a4d855bebb2d4f0e9b3cf562f97c"
+        "sha256": "7293bd56eaa3c1a87ee721b0ccf1bbbe961a7eab930d72d52e6d27aeddbca37d"
       },
-      "text": "The General's Response. In Lakeshire, General Marcus Jonathan answers a plea for aid as Redridge faces danger. His dispatch acknowledges Magistrate Solomon’s appeal against the Blackrock orcs and gnolls, but sends no immediate reinforcements from Stormwind. Magistrate Solomon asks Stormwind City for troops to defend Redridge from gathering Blackrock orc clans and Gnoll warbands. General Marcus Jonathan replies that he has sent the plea to the throne, but no soldiers are coming now. He orders the letter returned to Lakeshire. Solomon is troubled by the delay and suspects something is wrong with Stormwind’s leaders."
+      "text": "The General's Response. From Stormwind, General Marcus Jonathan answers Lakeshire's plea for aid as Redridge faces danger. His dispatch acknowledges Magistrate Solomon’s appeal against the Blackrock orcs and gnolls, but sends no immediate reinforcements from Stormwind. Magistrate Solomon asks Stormwind City for troops to defend Redridge from gathering Blackrock orc clans and Gnoll warbands. General Marcus Jonathan replies that he has sent the plea to the throne, but no soldiers are coming now. He orders the letter returned to Lakeshire. Solomon is troubled by the delay and suspects something is wrong with Stormwind’s leaders."
     },
     "item:the-lich-s-spellbook": {
       "1": [
@@ -19535,13 +19535,6 @@
       622,
       769
     ],
-    "0ab200d4a34f329ff508b5fb37a772b81d2ef3763272c1efda08d1cae183703c": [
-      226,
-      562,
-      875,
-      1022,
-      1203
-    ],
     "0add5e79ad4a7860c664e6727dc416abc979704629edae98305e3523973c4a44": [
       214,
       524,
@@ -19558,6 +19551,10 @@
     ],
     "0b4bf55fe9f7a5775de373fb5530b8c6ace8c35ff3440bf1f31a32b155a449f3": [
       521
+    ],
+    "0bd049b79d9f2de4459ea4ce9afca075cb6a0664bd5b1f8176654f4dee55d392": [
+      467,
+      955
     ],
     "0c389fee11a79dd1149fe1cb14794b640db49de3896c9ddf8348618934b31437": [
       212,
@@ -20529,10 +20526,6 @@
       878,
       1148
     ],
-    "3219ed8630496f8e58da257dbff6219685d648917b74279270a04c1b24afc408": [
-      323,
-      621
-    ],
     "326c8fda9c7dcf7d4759a434b1e730d00b4dd176c5ecb5450fbe686fa1a227d4": [
       329,
       699,
@@ -21272,6 +21265,13 @@
       736,
       895,
       1138
+    ],
+    "54de97dbe5fcc7acc0ad2374bede154941f90ff0054ca8d5397f2e853931d76f": [
+      240,
+      550,
+      865,
+      1017,
+      1210
     ],
     "54f4a8f650d7c410f12340f417f6aba29793b635684f20a2ecd82f3b6ac062fe": [
       280,
@@ -23316,10 +23316,6 @@
       683,
       915
     ],
-    "b2497982982366c9ff0f65d21684b9bd85518e8a497fffff71e6312976442bca": [
-      611,
-      888
-    ],
     "b340bca4beae6efcaaf64c03e2db171aed030288cfcfd4dc3baa1c8214f3b4ba": [
       332,
       539,
@@ -25159,9 +25155,6 @@
     "0a19020f36048f2e8b65a5f8f274b1760969771af05d4156f1b8909061dc1430": {
       "457": 1
     },
-    "0ab200d4a34f329ff508b5fb37a772b81d2ef3763272c1efda08d1cae183703c": {
-      "562": 1
-    },
     "0add5e79ad4a7860c664e6727dc416abc979704629edae98305e3523973c4a44": {
       "524": 1
     },
@@ -25856,6 +25849,9 @@
     },
     "54d4564c3ff670ca0c8b86a843c7c9f6a13765c939ae83fc86d2fee413ccd0d4": {
       "346": 1
+    },
+    "54de97dbe5fcc7acc0ad2374bede154941f90ff0054ca8d5397f2e853931d76f": {
+      "550": 1
     },
     "54f4a8f650d7c410f12340f417f6aba29793b635684f20a2ecd82f3b6ac062fe": {
       "1274": 2,

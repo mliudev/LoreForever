@@ -382,10 +382,10 @@ function Strip.Role(name, title)
   return t:find("^level ") and Strip.ROLES.untitled or 0
 end
 
--- The line under the target's name on its tooltip, read off a hidden tooltip of our own: "Gryphon Master", or "Level
+-- The line under a unit's name on its tooltip, read off a hidden tooltip of our own: "Gryphon Master", or "Level
 -- 55 Humanoid" for someone with none. nil when the client won't say.
 local scanTip
-local function titleOfTarget()
+function Strip.TitleOf(unit)
   if scanTip == nil then
     scanTip = try(CreateFrame, "GameTooltip", "LoreForeverRoleTip", nil, "GameTooltipTemplate") or false
     -- The template's health bar never shows here, but SetUnit from our code hands it the target's health, and its own
@@ -400,7 +400,7 @@ local function titleOfTarget()
   local ok = pcall(function()
     scanTip:SetOwner(_G.WorldFrame or UIParent, "ANCHOR_NONE")
     scanTip:ClearLines()
-    scanTip:SetUnit("target")
+    scanTip:SetUnit(unit)
   end)
   local line = ok and _G.LoreForeverRoleTipTextLeft2
   local text = type(line) == "table" and try(line.GetText, line) or nil
@@ -419,7 +419,7 @@ local function targetRole(has, isPlayer)
   if targetWork.guid ~= guid then
     local name = try(UnitName, "target")
     name = ns.Context.Usable(name) and type(name) == "string" and name or nil
-    local ok, role = pcall(Strip.Role, name, titleOfTarget())
+    local ok, role = pcall(Strip.Role, name, Strip.TitleOf("target"))
     targetWork.guid, targetWork.role = guid, ok and int(role, 255) or 0
   end
   return targetWork.role

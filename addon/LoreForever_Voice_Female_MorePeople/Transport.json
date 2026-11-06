@@ -11651,9 +11651,9 @@
     "npc:sprite-darter": {
       "1": [
         {
-          "duration": 60.26448979591837,
-          "file": "Audio/Transport/full_npc_sprite-darter-96f8237f9cd9719a8346/1-0000.mp3",
-          "sha256": "0b1451d1fbb283c0c6c2d73d12946f3d7c723598271189f635270b0bf143c618",
+          "duration": 60.21224489795919,
+          "file": "Audio/Transport/full_npc_sprite-darter-35dc2002e23f5785b1e1/1-0000.mp3",
+          "sha256": "3c72315d52c98098c4cd37a1b2a971a65661bb694303512d94eac5cd281217f4",
           "start": 0
         }
       ],
@@ -11665,12 +11665,12 @@
         ]
       },
       "fullHash": "a3b179",
-      "generation": "991ecf61cd56fe53db5a",
+      "generation": "fc2144e9e6422e27360d",
       "hash": "a3b179",
       "source": {
-        "duration": 60.290612,
+        "duration": 60.238367,
         "file": null,
-        "sha256": "96f8237f9cd9719a8346136de6a9d0a6cca754331c215086170b123f78b01c4a"
+        "sha256": "35dc2002e23f5785b1e11907bb2405c8075f93a2698743b56a386688744e86a2"
       },
       "text": "Sprite Darter. Among Feralas's ancient trees, Sprite Darters flit while the Grimtotem seek to capture them. These rare faerie dragons are revered for their spiritual and magical qualities. Sprite Darters glide through Feralas's ancient forests on iridescent wings. Shy and peaceful, these elusive woodland beasts draw the attention of those who study Kalimdor's wild places for their natural power and resistance to magic. The Grimtotem tauren of Feralas have begun rounding up and caging many Sprite Darters, though no one knows why. Kindal Moonweaver, a concerned night elf, seeks allies to break the cages and free the trapped hatchlings before the Grimtotem bend them to their will. Sprite Darters also interest those who study primal power. At Camp Mojache, Witch Doctor Uzer'i, a troll spiritualist, studies the natural energies and muisek within them. He seeks their essence to understand the unique magic thriving throughout Feralas."
     },
@@ -13601,9 +13601,9 @@
     "npc:witch-doctor-uzer-i": {
       "1": [
         {
-          "duration": 65.14938775510204,
-          "file": "Audio/Transport/full_npc_witch-doctor-uzer-i-f5265a6d96cb7a3db5fb/1-0000.mp3",
-          "sha256": "d2406d313b40f57a2fb1df386877b4b392ebe3444baaa5b98f06bd9244c6ac39",
+          "duration": 64.9665306122449,
+          "file": "Audio/Transport/full_npc_witch-doctor-uzer-i-507a4f098b41b6c4fb0c/1-0000.mp3",
+          "sha256": "b83916d751870ca82866ec316f952d90eb05ab6f532d144f3348c1d97003ce4c",
           "start": 0
         }
       ],
@@ -13615,12 +13615,12 @@
         ]
       },
       "fullHash": "02e0f9",
-      "generation": "1b89e8715b365c61adb5",
+      "generation": "2ae4561beb9067938646",
       "hash": "02e0f9",
       "source": {
-        "duration": 65.17551,
+        "duration": 64.992653,
         "file": null,
-        "sha256": "f5265a6d96cb7a3db5fb644c42d485c4fda8a079f81151d772b2bb68aecfc4ea"
+        "sha256": "507a4f098b41b6c4fb0c8d352ced264c4ff96556f9b1453c760860e00b156665"
       },
       "text": "Witch Doctor Uzer'i. At Camp Mojache, Witch Doctor Uzer'i seeks to bind the spirits of powerful natural creatures into weapons for the Horde. He calls those lingering spirits muisek and studies magic the night elves have used for millennia. Witch Doctor Uzer'i studies Feralas's natural magic through the old rites of troll spiritualism. Night elves have drawn on forest beast spirits for millennia, and Uzer'i believes the Horde should claim that power. He calls a creature's lingering spirit muisek. His vessels shrink fallen beings and trap their spirits before they escape, so he can store and study their essence. Capturing muisek is only the beginning of Uzer'i's ambition. He gathers sinew, enchanted minerals, and petrified splintered logs from the creatures whose spirits he traps. Then he joins those materials with bound muisek. Through his rites, he binds ancient forest spirits into weapons for the Horde. Uzer'i also follows rumors of hidden places of power across Azeroth, including the ancient, submerged Sunken Temple."
     },
@@ -15428,16 +15428,6 @@
       816,
       1085
     ],
-    "0b1451d1fbb283c0c6c2d73d12946f3d7c723598271189f635270b0bf143c618": [
-      243,
-      441,
-      636,
-      1042,
-      1321,
-      1663,
-      1817,
-      2116
-    ],
     "0b167e4ffc8b4ef8bfdf29fbc320650ef6661aa19bcc47ef724c2eb1955b5247": [
       223,
       517,
@@ -16475,6 +16465,16 @@
       853,
       1037
     ],
+    "3c72315d52c98098c4cd37a1b2a971a65661bb694303512d94eac5cd281217f4": [
+      252,
+      468,
+      662,
+      1045,
+      1310,
+      1660,
+      1814,
+      2002
+    ],
     "3c99f4429a202da9c1993a8b67bc712f0840e610c719dd766efad3ac765ffbf7": [
       270,
       464,
@@ -17088,10 +17088,6 @@
       1711,
       1875,
       2062
-    ],
-    "556e3917406351fdd775cb4b3b19e69ee363a5bb0799d4060c5242c58e5f10f4": [
-      386,
-      882
     ],
     "557b4e4510265c0363f27ffe8164371fd0c1014dbb8e65f18c44f0b9a7de783d": [
       687
@@ -18101,6 +18097,10 @@
       653,
       902
     ],
+    "82f7018481ed34d495e2a055915c853521f18f5abd8044bbdacd5ee203d1bf84": [
+      614,
+      881
+    ],
     "837e0cd3767e148d61900a6ad41415a22d8b1b6603f29771c789d5cd9662cabc": [
       225,
       438,
@@ -18322,9 +18322,6 @@
     ],
     "8cf427d2d24cd1e62ddfb2e33b56b84f444047b86e0884b6a210ce961a6b666b": [
       690
-    ],
-    "8d086863f3613135da39629d8af338f1f41ec51d31ca6f67bd596a9b408416a9": [
-      469
     ],
     "8d5bd04badca2615f6d331e9eb5f17b4531efad11806937af663a8914621bd9a": [
       171,
@@ -19187,6 +19184,18 @@
       665,
       997
     ],
+    "b83916d751870ca82866ec316f952d90eb05ab6f532d144f3348c1d97003ce4c": [
+      315,
+      548,
+      800,
+      941,
+      1184,
+      1462,
+      1620,
+      1892,
+      2028,
+      2216
+    ],
     "b88476de5402169cbf07e5c1febd1ed8e54cc09116f1e613a54e2af201fd8979": [
       251,
       428,
@@ -19738,6 +19747,9 @@
       1700,
       1878
     ],
+    "ce013c13e8dbc51c347a60d7ccb526d4cbbf43ac530467568e086b5698e448ea": [
+      507
+    ],
     "ce145785a104e8045659dd961ef3817c23fa4f4b6318726a78d1e69a6545e4f0": [
       240,
       436,
@@ -19813,16 +19825,6 @@
       682,
       923,
       1086
-    ],
-    "d2406d313b40f57a2fb1df386877b4b392ebe3444baaa5b98f06bd9244c6ac39": [
-      297,
-      547,
-      795,
-      1059,
-      1470,
-      1614,
-      1892,
-      2211
     ],
     "d2cc07be9557d5eafc3fc484aed9805981ab43a06948152d5767933a7bb32fd8": [
       768,
@@ -20864,11 +20866,6 @@
     "0ab187b9f6f7f329cb4040095c1af46aa9e1a209105c98a56e342157fa7e7faa": {
       "382": 1
     },
-    "0b1451d1fbb283c0c6c2d73d12946f3d7c723598271189f635270b0bf143c618": {
-      "1042": 2,
-      "1663": 3,
-      "441": 1
-    },
     "0b167e4ffc8b4ef8bfdf29fbc320650ef6661aa19bcc47ef724c2eb1955b5247": {
       "1180": 2,
       "517": 1
@@ -21250,6 +21247,11 @@
     },
     "3c55b615f18692eba7797a0acd3394c4db884cf0b9de072bd3c0795a4930350e": {
       "534": 1
+    },
+    "3c72315d52c98098c4cd37a1b2a971a65661bb694303512d94eac5cd281217f4": {
+      "1045": 2,
+      "1660": 3,
+      "468": 1
     },
     "3c99f4429a202da9c1993a8b67bc712f0840e610c719dd766efad3ac765ffbf7": {
       "464": 1
@@ -22218,6 +22220,10 @@
     "b833c9b411f19f3a7f4f4f5709279b110d0d78209ee28d37989f8e0516199a38": {
       "431": 1
     },
+    "b83916d751870ca82866ec316f952d90eb05ab6f532d144f3348c1d97003ce4c": {
+      "1462": 3,
+      "548": 1
+    },
     "b88476de5402169cbf07e5c1febd1ed8e54cc09116f1e613a54e2af201fd8979": {
       "251": 1
     },
@@ -22462,10 +22468,6 @@
     },
     "d10b19efe0f29ef1e1aefb83b31999d5a80f6a2b18b63bf38ef931a07ff74e79": {
       "493": 1
-    },
-    "d2406d313b40f57a2fb1df386877b4b392ebe3444baaa5b98f06bd9244c6ac39": {
-      "1470": 3,
-      "547": 1
     },
     "d2ded7b90d3ba7c2dad7d0969341278700aaad853b4bac508a7e1f94bcdd4a24": {
       "461": 1

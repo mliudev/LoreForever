@@ -1,0 +1,85 @@
+{
+ "key": "quest:94774",
+ "type": "quest",
+ "name": "Divine Grace",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94774
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "High Priestess Laurena calls you to Stormwind\u2019s Cathedral of Light because your superiors have approved further training. Your lessons in the ways of the Light are ready to begin.",
+ "sections": [
+  {
+   "title": "A Call to Stormwind",
+   "body": "Your superiors send you to the Cathedral of Light in Stormwind after judging that you have proven yourself. There, High Priestess Laurena is ready to guide your further training. She says there are lessons every servant of the Light must learn, and she is prepared to discuss them with you.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why am I being sent to Stormwind?",
+   "aliases": [
+    "why Stormwind",
+    "sent to Cathedral",
+    "why go there"
+   ],
+   "answer": "Your superiors believe you have proven yourself and have approved further training in the ways of the Light."
+  },
+  {
+   "q": "Who is High Priestess Laurena?",
+   "aliases": [
+    "Laurena who",
+    "who is Laurena",
+    "high priestess"
+   ],
+   "answer": "High Priestess Laurena is in the Cathedral of Light in Stormwind and is ready to guide your training."
+  },
+  {
+   "q": "Where do I find High Priestess Laurena?",
+   "aliases": [
+    "Laurena location",
+    "where is Laurena",
+    "cathedral location"
+   ],
+   "answer": "High Priestess Laurena is at the Cathedral of Light in Stormwind."
+  },
+  {
+   "q": "What training is Laurena offering?",
+   "aliases": [
+    "Light training",
+    "what lessons",
+    "learn the Light"
+   ],
+   "answer": "Laurena is prepared to discuss lessons that all servants of the Light must learn."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "As a priest, your superiors have approved further training in the ways of the Light."
+  }
+ ],
+ "keywords": [
+  "cathedral of light",
+  "divine grace",
+  "high priestess laurena",
+  "light",
+  "servant of the light",
+  "stormwind",
+  "training"
+ ],
+ "related": [
+  "subzone:cathedral-of-light",
+  "npc:high-priestess-laurena",
+  "topic:light",
+  "topic:stormwind-kingdom"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Divine Grace"
+ ]
+}
