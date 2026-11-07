@@ -1,0 +1,65 @@
+{
+ "key": "quest:2609",
+ "type": "quest",
+ "name": "The Touch of Zanzil",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2609
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Doc Mixilpixil asks you to gather supplies for the 'itis'. He says the ailment will not cure itself.",
+ "sections": [
+  {
+   "title": "A Doctor's Request",
+   "body": "Doc Mixilpixil needs you to bring him Simple Wildflowers, a Leaded Vial, a Bronze Tube, and a Spool of Light Chartreuse Silk Thread. He says the 'itis' needs a cure, and these are the supplies he asks you to bring.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for these supplies?",
+   "aliases": [
+    "who wants them",
+    "doc mixilpixil request"
+   ],
+   "answer": "Doc Mixilpixil asks you to bring the supplies."
+  },
+  {
+   "q": "What does Doc Mixilpixil need?",
+   "aliases": [
+    "what items",
+    "supplies list"
+   ],
+   "answer": "He needs Simple Wildflowers, a Leaded Vial, a Bronze Tube, and a Spool of Light Chartreuse Silk Thread."
+  },
+  {
+   "q": "What is the 'itis'?",
+   "aliases": [
+    "what illness",
+    "itis"
+   ],
+   "answer": "Doc Mixilpixil calls the ailment the 'itis'."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bronze tube",
+  "doc mixilpixil",
+  "itis",
+  "leaded vial",
+  "light chartreuse silk thread",
+  "simple wildflowers",
+  "zanzil"
+ ],
+ "related": [
+  "topic:light"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Touch of Zanzil"
+ ]
+}

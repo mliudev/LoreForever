@@ -1693,9 +1693,9 @@
     "subzone:dalaran": {
       "1": [
         {
-          "duration": 71.28816326530612,
-          "file": "Audio/Transport/full_subzone_dalaran-de3f8ed1b3795df3965a/1-0000.mp3",
-          "sha256": "7d2fc6ce9105aad50ea585f9106e1d8dd897be916ae1b021350bc7d09954c3d1",
+          "duration": 72.09795918367347,
+          "file": "Audio/Transport/full_subzone_dalaran-82d6f1aecd6cfa776761/1-0000.mp3",
+          "sha256": "4699ac00d4e339eb17b6516c744b8ec2f0c282d51079fe6b2528c36a82daac43",
           "start": 0
         }
       ],
@@ -1707,12 +1707,12 @@
         ]
       },
       "fullHash": "8b8874",
-      "generation": "c9eb848f819dc5c99269",
+      "generation": "1f0cfc83416d4aedb3b3",
       "hash": "8b8874",
       "source": {
-        "duration": 71.314286,
+        "duration": 72.124082,
         "file": null,
-        "sha256": "de3f8ed1b3795df3965a1865d9f511d4ecfa0bb0b0d702451a5705dbe468d916"
+        "sha256": "82d6f1aecd6cfa776761bb0b423b1525e28642e758c4eed6c7ac3e639bce92a6"
       },
       "text": "Dalaran. On Lordamere Lake, Dalaran's surviving magi are rebuilding their shattered city. Once the shining capital of the Kirin Tor, it fell to the Scourge and Archimonde during the Third War. Its protective violet shield has been removed. Dalaran began as a sanctuary for arcane study, founded by sorcerers of the Arathorian Empire after the ancient Troll Wars. For centuries, it was humanity's foremost center of magic. The Council of Six led the Kirin Tor, keeping vast archives and powerful artifacts in the Violet Citadel.\n\nThat age ended during the Third War. The traitor prince Arthas led the Scourge through the city gates to seize the Book of Medivh. Soon after, the demon lord Archimonde crushed Dalaran's soaring spires into rubble. After the Legion's defeat, the Kirin Tor's surviving wizards returned to their devastated homeland. They would not yield their ancestral ground to the Scourge or scavengers, and raised a shimmering violet barrier over the city's heart. The shield has since been removed, while rebuilding continues. The magi are restoring their fallen sanctuary, and Archmage Ansirem Runeweaver can be found in the Violet Citadel."
     },
@@ -8531,9 +8531,9 @@
     "subzone:stromgarde-keep": {
       "1": [
         {
-          "duration": 80.9795918367347,
-          "file": "Audio/Transport/full_subzone_stromgarde-keep-805734fad8524e663743/1-0000.mp3",
-          "sha256": "76055de8a5375632a3432802d9128886bdc78aa316bae9f141f84e01573783aa",
+          "duration": 81.08408163265307,
+          "file": "Audio/Transport/full_subzone_stromgarde-keep-e79b11264cac8aeaf01f/1-0000.mp3",
+          "sha256": "94e2ea2404fe949140a194b5f3af710e09c41c470e12269dc35f1557a6bdeb36",
           "start": 0
         }
       ],
@@ -8545,12 +8545,12 @@
         ]
       },
       "fullHash": "41de60",
-      "generation": "3cc1e103a8fcac1ef56f",
+      "generation": "6c55e64a6c7466e56835",
       "hash": "41de60",
       "source": {
-        "duration": 81.005714,
+        "duration": 81.084082,
         "file": null,
-        "sha256": "805734fad8524e663743ed38b3fdcbae7d243731322bbc6ed71a6d3abe3fb47b"
+        "sha256": "e79b11264cac8aeaf01fb8d995cda45d9beb69be3e8d888be8e706bdc6f63dd1"
       },
       "text": "Stromgarde Keep. In the Arathi Highlands, Stromgarde Keep is divided between its royal defenders, the Syndicate and Boulderfist ogres. The fallen kingdom's battered capital holds only part of its fortress. Strom began as the first capital of the unified human empire of Arathor. King Thoradin founded it nearly three millennia ago. From this fortress, humanity prepared its victory over the forest trolls. Here, high elven magi taught the first hundred human spellcasters and began the long history of human wizardry.\n\nDalaran, Lordaeron and Stormwind rose as younger sister kingdoms while Strom's influence waned. The stubborn Trollbane dynasty remained and renamed the city Stromgarde. Through the Second War, it stood as a proud warrior bastion and an anchor of the Alliance of Lordaeron against the Orcish Horde. The devastation of the Third War brought mounting disasters and treachery, and Stromgarde finally broke. Its majestic stone city is now split into three warring sectors. Aristocratic Syndicate traitors hold the grand inner keep, while Boulderfist ogres have overrun the former sanctum of the mage district.\n\nPrince Galen Trollbane and the battered Stromgarde military hold the remaining quarter. They wage a hard, bloody war on several fronts to keep their ancestral home from vanishing into memory."
     },
@@ -11735,6 +11735,18 @@
       1998,
       2194
     ],
+    "4699ac00d4e339eb17b6516c744b8ec2f0c282d51079fe6b2528c36a82daac43": [
+      207,
+      579,
+      879,
+      1026,
+      1283,
+      1624,
+      1851,
+      2077,
+      2361,
+      2506
+    ],
     "4713873d4d5a1301d95eafda9d59bfb8508493ee52f426d7e75b2ef916647b72": [
       228,
       447,
@@ -12384,21 +12396,6 @@
       819,
       1092
     ],
-    "76055de8a5375632a3432802d9128886bdc78aa316bae9f141f84e01573783aa": [
-      200,
-      463,
-      649,
-      793,
-      981,
-      1284,
-      1526,
-      1690,
-      1964,
-      2202,
-      2362,
-      2680,
-      2862
-    ],
     "76f4a127ddffe23d195e47bc8be521ccca96ac6a3c7cc77fe675eaf7950be245": [
       562,
       735,
@@ -12473,18 +12470,6 @@
       1757,
       1904,
       2191
-    ],
-    "7d2fc6ce9105aad50ea585f9106e1d8dd897be916ae1b021350bc7d09954c3d1": [
-      202,
-      549,
-      843,
-      989,
-      1257,
-      1561,
-      1837,
-      2061,
-      2211,
-      2473
     ],
     "7e88bcee83f64066d7bb3bb10884e9f95933e72455b17966c7dabff132a8b272": [
       204,
@@ -12797,6 +12782,20 @@
       692,
       862,
       1218
+    ],
+    "94e2ea2404fe949140a194b5f3af710e09c41c470e12269dc35f1557a6bdeb36": [
+      292,
+      465,
+      644,
+      940,
+      1245,
+      1490,
+      1672,
+      1954,
+      2185,
+      2351,
+      2660,
+      2862
     ],
     "94f2a20e10ee9b29186f37633dc0a02d93a2b48763bae81b02efaba6555cc6ba": [
       193,
@@ -13373,6 +13372,9 @@
     "b3defc4b1ad89b3c915a056298f57260ba1179c9b4e51667709e54f8c04c29fa": [
       147
     ],
+    "b48544efba8d91fbcf0c00ce4538e2276de72298b0b706c18abc85f0557dcd0d": [
+      637
+    ],
     "b4bd547d823937eda24a858fe25dd6a403cbfde37eeae7c672968a659c42bd39": [
       220,
       374,
@@ -13570,9 +13572,6 @@
       216,
       406,
       745
-    ],
-    "bc591eb92c0dbc01fb0e7aad267c25ad25a72bda4c177afc7899e274e72ab785": [
-      484
     ],
     "bc9b6897035a1a6df3f9fa799ee0bcbe7442910eaa86dd87163ec3bcacb1b40e": [
       245,
@@ -14950,6 +14949,10 @@
       "1477": 2,
       "433": 1
     },
+    "4699ac00d4e339eb17b6516c744b8ec2f0c282d51079fe6b2528c36a82daac43": {
+      "1851": 2,
+      "579": 1
+    },
     "4713873d4d5a1301d95eafda9d59bfb8508493ee52f426d7e75b2ef916647b72": {
       "1174": 2,
       "447": 1
@@ -15189,10 +15192,6 @@
       "1092": 2,
       "487": 1
     },
-    "76055de8a5375632a3432802d9128886bdc78aa316bae9f141f84e01573783aa": {
-      "1964": 2,
-      "463": 1
-    },
     "76f4a127ddffe23d195e47bc8be521ccca96ac6a3c7cc77fe675eaf7950be245": {
       "562": 1
     },
@@ -15223,10 +15222,6 @@
     "7cafdfb3a2acfb78e76eff8d9e01b3f5c8920b1a48ed7446d11a332f59773a31": {
       "1588": 2,
       "358": 1
-    },
-    "7d2fc6ce9105aad50ea585f9106e1d8dd897be916ae1b021350bc7d09954c3d1": {
-      "1837": 2,
-      "549": 1
     },
     "7e88bcee83f64066d7bb3bb10884e9f95933e72455b17966c7dabff132a8b272": {
       "693": 1
@@ -15346,6 +15341,10 @@
     },
     "948fa262b3a52d8cc0a59e3b44e184c281186beeca3ba73137820b0316ff0088": {
       "535": 1
+    },
+    "94e2ea2404fe949140a194b5f3af710e09c41c470e12269dc35f1557a6bdeb36": {
+      "1954": 2,
+      "465": 1
     },
     "94f2a20e10ee9b29186f37633dc0a02d93a2b48763bae81b02efaba6555cc6ba": {
       "1617": 2,

@@ -1,0 +1,84 @@
+{
+ "key": "quest:98251",
+ "type": "quest",
+ "name": "Never Coming Back",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98251
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Va'xug Firefure is trapped in an Ashenvale ravine and asks you to thin the nearby wildlife. The forest's confusing paths and the volatility of Va'xug's spells have left them angry.",
+ "sections": [
+  {
+   "title": "A Forest Snare",
+   "body": "Va'xug Firefure is gathering herbs in Ashenvale when the forest's paths leave them trapped in a ravine. They say their spells grow volatile when they are angry, and the nearby beasts only worsen their temper. Va'xug asks you to thin the wildlife around them.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Calmer Mood",
+   "body": "Va'xug Firefure thanks you after the nearby wildlife has been thinned. They say it seems to have helped, though their anger at the forest remains plain.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Va'xug Firefure?",
+   "aliases": [
+    "va'xug",
+    "firefure",
+    "who is va'xug"
+   ],
+   "answer": "Va'xug Firefure is gathering herbs in Ashenvale when they become trapped in a ravine."
+  },
+  {
+   "q": "Why is Va'xug angry?",
+   "aliases": [
+    "why mad",
+    "va'xug angry",
+    "hates ashenvale"
+   ],
+   "answer": "Va'xug is angry because Ashenvale's paths have left them trapped in a ravine, and the nearby beasts grate on them."
+  },
+  {
+   "q": "What does Va'xug ask me to do?",
+   "aliases": [
+    "what do i do",
+    "thin wildlife",
+    "kill beasts"
+   ],
+   "answer": "Va'xug asks you to thin the nearby wildlife."
+  },
+  {
+   "q": "Why are Va'xug's spells volatile?",
+   "aliases": [
+    "volatile spells",
+    "magic acting weird",
+    "spells different"
+   ],
+   "answer": "Va'xug says their spells grow volatile and behave differently when they are angry."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ashenvale",
+  "ashenvale bear",
+  "herbs",
+  "never coming back",
+  "ravine",
+  "shadowhorn stag",
+  "va'xug firefure",
+  "volatile spells"
+ ],
+ "related": [
+  "quest:1035",
+  "zone:ashenvale"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Never Coming Back"
+ ]
+}

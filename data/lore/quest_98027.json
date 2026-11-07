@@ -1,0 +1,106 @@
+{
+ "key": "quest:98027",
+ "type": "quest",
+ "name": "Gleaming Crescent Necklace",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98027
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A gleaming crescent necklace bears an inscription linking it to Maliynn in Astranaar. You can return the keepsake to its owner.",
+ "sections": [
+  {
+   "title": "The Inscription",
+   "body": "You examine a silver necklace shaped like a crescent moon. Its form recalls other night elf symbols you have seen, and an inscription on its reverse reads, \u201cAlor'lormah, Maliynn.\u201d The name points to Maliynn in Astranaar, where the necklace may find its owner.",
+   "spoiler": 0
+  },
+  {
+   "title": "Maliynn's Keepsake",
+   "body": "Maliynn in Astranaar recognizes the necklace as hers. She lost it while carrying supplies to an outpost, then searched along the road before giving up. Her late parents gave it to her, and its return means much to her.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who does the necklace belong to?",
+   "aliases": [
+    "who owns it",
+    "necklace owner",
+    "Maliynn necklace"
+   ],
+   "answer": "The inscription bears Maliynn's name, and she recognizes the necklace as hers in Astranaar."
+  },
+  {
+   "q": "What does the necklace look like?",
+   "aliases": [
+    "crescent necklace",
+    "what shape is it",
+    "silver necklace"
+   ],
+   "answer": "It is a silver necklace shaped like a small crescent moon."
+  },
+  {
+   "q": "What is written on the necklace?",
+   "aliases": [
+    "necklace inscription",
+    "what does it say",
+    "Alor'lormah"
+   ],
+   "answer": "The inscription reads \u201cAlor'lormah, Maliynn.\u201d"
+  },
+  {
+   "q": "Where can I bring the necklace?",
+   "aliases": [
+    "where to take it",
+    "Maliynn location",
+    "Astranaar necklace"
+   ],
+   "answer": "Bring the Crescent Necklace to Maliynn in Astranaar."
+  },
+  {
+   "q": "Why does the necklace matter to Maliynn?",
+   "aliases": [
+    "why is it important",
+    "Maliynn keepsake",
+    "parents gift"
+   ],
+   "answer": "It was a gift from her late parents."
+  },
+  {
+   "q": "How did Maliynn lose it?",
+   "aliases": [
+    "how necklace lost",
+    "where did she lose it",
+    "lost necklace"
+   ],
+   "answer": "Maliynn lost it while delivering supplies to one of her outposts. She searched along the road before giving up."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:NightElf",
+   "text": "As a night elf, you may recognize the crescent shape among the symbols you have seen."
+  }
+ ],
+ "keywords": [
+  "alor'lormah",
+  "astranaar",
+  "crescent necklace",
+  "gleaming crescent necklace",
+  "maliynn",
+  "night elf symbol",
+  "silver necklace"
+ ],
+ "related": [
+  "subzone:astranaar",
+  "topic:night-elf"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Gleaming Crescent Necklace"
+ ]
+}

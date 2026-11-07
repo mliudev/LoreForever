@@ -1,0 +1,80 @@
+{
+ "key": "quest:98284",
+ "type": "quest",
+ "name": "Camping 101: Enchanting",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98284
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Nasalanna Windsinger in Shen'dar Village can teach you to craft a camping item for your profession. Enchanters can learn to make an Enchanted Lute for entertainment on the trail.",
+ "sections": [
+  {
+   "title": "A Lute for Camp",
+   "body": "An enchanter can improve a camp in the wilds, and you are directed to Nasalanna Windsinger in Shen'dar Village. Once you have shown proficiency in your skill, Nasalanna can teach you to craft an Enchanted Lute. The enchanted instrument offers entertainment during downtime before you return to the trail.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who teaches me to make an Enchanted Lute?",
+   "aliases": [
+    "enchanted lute trainer",
+    "who teaches lute",
+    "Nasalanna camping"
+   ],
+   "answer": "Nasalanna Windsinger in Shen'dar Village can teach you to craft an Enchanted Lute once you have shown proficiency in your skill."
+  },
+  {
+   "q": "What is the Enchanted Lute for?",
+   "aliases": [
+    "lute use",
+    "camping lute",
+    "why enchanted lute"
+   ],
+   "answer": "The Enchanted Lute provides entertainment during downtime at a camp."
+  },
+  {
+   "q": "Why are enchanters welcome at camps?",
+   "aliases": [
+    "enchanter camping",
+    "why enchanters welcome",
+    "camping enchanting"
+   ],
+   "answer": "Enchanters can make things better at camps in the wilds, including an Enchanted Lute for entertainment."
+  },
+  {
+   "q": "When can I learn the camping craft?",
+   "aliases": [
+    "learn lute when",
+    "skill proficiency",
+    "camping craft requirement"
+   ],
+   "answer": "You can learn from Nasalanna Windsinger after you have shown proficiency in your skill."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "As an enchanter, you can learn to craft an Enchanted Lute for entertainment at camp."
+  }
+ ],
+ "keywords": [
+  "camping 101",
+  "camping item",
+  "enchanted lute",
+  "enchanter",
+  "enchanting",
+  "nasalanna windsinger",
+  "shen'dar village"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Camping 101: Enchanting"
+ ]
+}

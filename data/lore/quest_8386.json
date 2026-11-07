@@ -42,7 +42,7 @@
     "warsong location",
     "where warsong gulch"
    ],
-   "answer": "Warsong Gulch is named in connection with Ashenvale's natural defenses."
+   "answer": "Warsong Gulch is the battlefield that forms a natural barrier between Ashenvale and the Barrens."
   }
  ],
  "angles": [],
@@ -54,7 +54,8 @@
   "warsong gulch"
  ],
  "related": [
-  "zone:ashenvale"
+  "zone:ashenvale",
+  "zone:warsonggulch"
  ],
  "style": 2,
  "attribution": [

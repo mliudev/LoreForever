@@ -437,7 +437,7 @@ local function mergeWhole(db, w, merged, touched, keep)
     if t and t.fp ~= nil and not current then secFlags, faqFlags = translatedFlags(t.fp, t) end
     if t and (current or secFlags) and touched then touched[key] = true end
     if current then
-      merged[key] = true   -- (complete-story recordings need the current translation)
+      merged[key] = true
       mergeText(db, key, e, t)
       for i, s in ipairs(t.sec or {}) do
         if e.sec and e.sec[i] then e.sec[i].t, e.sec[i].b = s.t, s.b end
@@ -536,7 +536,7 @@ function Lang.MergeEntries(db, w, merged, touched, keep)
       -- one, which doesn't depend on the English text
       if t.n then mergeName(db, key, e, t.n) end
     else
-      if current then merged[key] = true end   -- (complete-story recordings need the current translation)
+      if current then merged[key] = true end
       mergeText(db, key, e, t)
       if current and t.sec and e.sec and #t.sec == #e.sec then
         for i, s in ipairs(t.sec) do
@@ -782,11 +782,13 @@ local function init(lang)
   db.englishClipHash = db.englishClipHash or db.clipHash
   db.clipHash = (tw and tw.clipHash) or {}
   db.answerHash = (tw and tw.answerHash) or {}
-  -- Complete stories have their own hash. Only translations that actually merged may validate a recording;
-  -- an overlay that changes narrated text cannot reuse a built complete-story receipt.
+  -- Complete stories have their own hash. Only a translation that merged, current or older but still shown (LOR-1054),
+  -- may validate a recording, and only while the shown text is that translation's, section by section: an overlay that
+  -- changes narrated text cannot reuse a built complete-story receipt. The pack's hash is over the sections that are
+  -- safe today, so a recording made when other sections were safe matches nothing.
   for key, hash in pairs((tw and tw.fullclips) or {}) do
     local entry, translated = db.entries[key], tw.entries and tw.entries[key]
-    if merged[key] and translated and entry and entry.n == translated.n and entry.s == translated.s then
+    if touched[key] and translated and entry and entry.n == translated.n and entry.s == translated.s then
       local same = type(entry.sec) == "table" and type(translated.sec) == "table" and #entry.sec == #translated.sec
       for i, section in ipairs(same and entry.sec or {}) do
         if (section.sp or 0) == 0 and section.b ~= translated.sec[i].b then same = false; break end

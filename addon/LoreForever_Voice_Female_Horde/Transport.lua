@@ -38,7 +38,7 @@ P.transport["npc:arugal"] = {
   fullHash = "c9cee9",
   text = "Arugal. In Shadowfang Keep, Arugal commands the worgen he summoned against the Scourge. Madness and grief have made the former Dalaran wizard their self-proclaimed father, and his power threatens Silverpine Forest. Before Lordaeron fell, Arugal served in the Kirin Tor. Some peers, among them Dalar Dawnweaver, called him a charlatan who hid weak spellcraft behind enchanted trinkets. When the Scourge swept across the north during the Third War, Arugal sought a weapon to halt the undead. He drew on research by the late Dalaran mage Ur and pierced the veil between realms to summon the worgen.\n\nThe ravenous beasts tore through the Scourge, but no one could contain their ferocity. Before long, their hunger turned against innocent mortals. The worgen slaughtered the Scourge, then attacked the wizards who had summoned them. They besieged the ancestral seat of Baron Silverlaine and took the keep with claws and fangs. Silverlaine and his retainers died in the massacre. Guilt shattered Arugal's mind, yet he stayed with his creation. He claimed the beasts as his offspring and renamed the fortress Shadowfang Keep.\n\nThere, Arugal holds the ramparts, surrounded by ghostly victims and loyal hound-packs.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_arugal-86439815dad6d40b1d43/1-0000.mp3", duration = 77.5314286, start = 0},
+    {file = "Audio/Transport/full_npc_arugal-043564e56876f732997f/1-0000.mp3", duration = 77.9755102, start = 0},
   },
 }
 P.transport["npc:baine-bloodhoof"] = {
@@ -118,7 +118,7 @@ P.transport["npc:dalar-dawnweaver"] = {
   fullHash = "b547f4",
   text = "Dalar Dawnweaver. At the Sepulcher, Dalar Dawnweaver turns his arcane learning against the Forsaken’s enemies. He was an archmage of Dalaran, slain when the Scourge destroyed the city, then freed from the Lich King’s control. Now he studies Dalaran’s lingering presence and seeks to end Archmage Arugal’s madness. Dalar Dawnweaver once held high rank among the Kirin Tor. He walked the Violet Citadel’s halls when Dalaran stood at the height of arcane mastery. The Scourge sacked the city to prepare for Archimonde’s summoning, and Dalar died there.\n\nRaised as a mindless thrall of the Lich King, Dalar broke free alongside Lady Sylvanas Windrunner when the Scourge’s grip faltered. Now he keeps an archmage’s keen intellect at the Sepulcher and devotes it to protecting the Forsaken realm. Dalar directs the Sepulcher’s arcane strategy against the many dangers facing Silverpine Forest. To the south, Dalaran wizards occupy Ambermill, pursuing matters he means to uncover and disrupt. Closer by, feral worgen prowl the woods around Shadowfang Keep.\n\nDalar knows his former colleague, Archmage Arugal, well. He carefully directs efforts to stop Arugal’s beastly creations before they overrun the region.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_dalar-dawnweaver-7ea16fd5ba35ac79037b/1-0000.mp3", duration = 80.5616327, start = 0},
+    {file = "Audio/Transport/full_npc_dalar-dawnweaver-035620483faa0a07d130/1-0000.mp3", duration = 80.0914286, start = 0},
   },
 }
 P.transport["npc:darsok-swiftdagger"] = {
@@ -270,7 +270,7 @@ P.transport["npc:master-apothecary-faranell"] = {
   fullHash = "a8207f",
   text = "Master Apothecary Faranell. In the Undercity, Faranell directs the Royal Apothecary Society from the depths of the Apothecarium. Once a respected Dalaran scholar, he now leads the Forsaken’s search for a New Plague to destroy the Scourge and the living. Before the Third War, Faranell spent decades studying alchemy beside Dalaran’s learned mages. In life, he sought cures, remedies, and potions to better mortal health. The Scourge plague killed him, but he rose again as a free-willed Forsaken. His curiosity turned cruel, and healing salves gave way to catastrophic reagents. His vast knowledge made him one of Queen Sylvanas Windrunner’s most valued researchers in the depths of Lordaeron’s fallen capital. From the Apothecarium, Faranell directs the Royal Apothecary Society’s far-reaching research. He oversees the making of lumbering abominations and guides apothecaries stationed throughout Lordaeron and beyond. Field researchers gather strange venom, tainted blood, and cursed flora across the continents. Each batch goes into his vats for distillation and refinement.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_master-apothecary-faranell-f5fee2354635becdac9d/1-0000.mp3", duration = 67.9967347, start = 0},
+    {file = "Audio/Transport/full_npc_master-apothecary-faranell-39d50d2e80b7e64b5743/1-0000.mp3", duration = 66.8473469, start = 0},
   },
 }
 P.transport["npc:master-gadrin"] = {
@@ -478,7 +478,7 @@ P.transport["subzone:ambermill"] = {
   fullHash = "296001",
   text = "Ambermill. In southeastern Silverpine Forest, Ambermill's wizards hold a fortified outpost southwest of Lordamere Lake. Once a quiet lumber village, it now shelters surviving wizards and apprentices from Dalaran as they resist the Forsaken to the south. Before the Third War, Ambermill was a quiet lumber town. After Lordaeron fell, surviving wizards of the Kirin Tor moved in and fortified it. Now Dalaran spellscribes, conjurors, and apprentices patrol its buildings and stables. They hold this forward redoubt against the undead.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ambermill-01dd24d2a88027158273/1-0000.mp3", duration = 35.2653061, start = 0},
+    {file = "Audio/Transport/full_subzone_ambermill-ee6940f90022da0aed34/1-0000.mp3", duration = 35.3436735, start = 0},
   },
 }
 P.transport["subzone:apothecarium"] = {
@@ -534,7 +534,7 @@ P.transport["subzone:beren-s-peril"] = {
   fullHash = "7fba1d",
   text = "Beren's Peril. At Beren's Peril, Scourge loyal to Thule Ravenclaw gather in the hills southwest of Ambermill and threaten the Forsaken. High in the crags southwest of Ambermill, a cave and mountain path lie hidden from the main road. Since the Third War, rogue Scourge have fortified the refuge under the renegade necromancer Thule Ravenclaw. They refused to serve the Dark Lady or flee north.\n\nRavenclaw's regents, guardians, and drudgers gathered in secret to prepare an assault on the Forsaken base at the Sepulcher. Forsaken scouts found them, and the quiet cliffs became a warzone. Now Horde fighters move against the undead before they can attack.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_beren-s-peril-47dab2e93e3d587c0081/1-0000.mp3", duration = 41.4302041, start = 0},
+    {file = "Audio/Transport/full_subzone_beren-s-peril-b46151c81ef7ba37034f/1-0000.mp3", duration = 41.4302041, start = 0},
   },
 }
 P.transport["subzone:blackthorn-ridge"] = {
@@ -1086,7 +1086,7 @@ P.transport["subzone:olsen-s-farthing"] = {
   fullHash = "6249cc",
   text = "Olsen's Farthing. Along Silverpine Forest's main trade road, Olsen's Farthing lies in ruin. Since the Third War, reanimated thralls have overrun its fields. Olsen's Farthing once worked the fields beside Silverpine's main trade road. Now weeds choke the farmland, and broken buildings mark the farmstead's fall. Undead thralls roam the grounds under Thule Ravenclaw's command. They serve him and raid the road, and travelers who stray too close risk slaughter.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_olsen-s-farthing-ff7df77e0bf322f22339/1-0000.mp3", duration = 28.9959184, start = 0},
+    {file = "Audio/Transport/full_subzone_olsen-s-farthing-60f70cdc4317ccadccca/1-0000.mp3", duration = 29.3355102, start = 0},
   },
 }
 P.transport["subzone:palemane-rock"] = {

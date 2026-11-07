@@ -414,7 +414,8 @@ check("packs", {
     if noVoice() then
       skip("narration voices", noVoice())
     else
-      local covered = count(V.servedBy)
+      local covered = 0
+      for id in pairs(V.servedBy) do if not V.PartOfStory(id) then covered = covered + 1 end end
       expect("narration voices", V.chain[1] ~= nil and covered > 0, string.format("%s; %d of %d narrations",
         #V.chain > 0 and table.concat(V.chain, ", ") or "no voice pack loaded", covered, V.total or 0))
     end

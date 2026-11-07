@@ -1,0 +1,70 @@
+{
+ "key": "quest:97972",
+ "type": "quest",
+ "name": "Camping 101: Tailoring",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97972
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A tailor can learn to make a Faction Banner for your camp. You need to show proficiency in Tailoring before Taleen Shimmerthread can teach you.",
+ "sections": [
+  {
+   "title": "A Banner for Camp",
+   "body": "Someone who can teach you to make a Faction Banner is in Shen'dar Village. Taleen Shimmerthread can show you how to craft this camping item once you have proved your Tailoring skill. An inspiring banner can help keep you energized on the battlefield.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who can teach me to make a Faction Banner?",
+   "aliases": [
+    "banner teacher",
+    "who teaches tailoring banner",
+    "taleen banner"
+   ],
+   "answer": "Taleen Shimmerthread in Shen'dar Village can teach you to craft a Faction Banner for your camp once you show proficiency in Tailoring."
+  },
+  {
+   "q": "What is the Faction Banner for?",
+   "aliases": [
+    "banner purpose",
+    "why make a banner",
+    "camp banner"
+   ],
+   "answer": "The Faction Banner is a camping item. An inspirational banner can help keep you energized on the battlefield."
+  },
+  {
+   "q": "What do I need before Taleen can teach me?",
+   "aliases": [
+    "tailoring requirement",
+    "how skilled for banner",
+    "banner skill"
+   ],
+   "answer": "You need to show proficiency in Tailoring before Taleen Shimmerthread can teach you to craft the Faction Banner."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "As a tailor, you can learn to craft a Faction Banner for your camp after showing proficiency in your skill."
+  }
+ ],
+ "keywords": [
+  "camping",
+  "faction banner",
+  "profession",
+  "shen'dar village",
+  "tailoring",
+  "taleen shimmerthread"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Camping 101: Tailoring"
+ ]
+}

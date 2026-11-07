@@ -671,6 +671,65 @@ local function momentFrame(t)
   return false
 end
 
+-- Arriving in a town or a city (entering a rest area), landing from a flight in one, or a new zone (LOR-1288; Mike's
+-- pick 11/7, "A seems like the most robust"): the sky shows for FLASH seconds, faded in and out like a big moment, so
+-- Willo sees where they are now and a reminder for that place speaks as they arrive, not at their next question.
+-- Hidden the rest of the time (LOR-1126). Two guards, for the sky not to flicker over the map again: one glance per
+-- GLANCE_GAP (a rest area's edge can fire every few steps along a town's border), and none in a fight: an arrival in
+-- one shows when it ends. The sky's own frame hears nothing while it's hidden, so a small frame of its own listens,
+-- only while Live game info is on.
+local ARRIVALS = { "PLAYER_UPDATE_RESTING", "ZONE_CHANGED_NEW_AREA", "PLAYER_CONTROL_GAINED", "PLAYER_REGEN_ENABLED" }
+local GLANCE_GAP = 60
+local glance, arrivals, lastGlance, arrivedInFight = nil, nil, -math.huge, false
+
+function Strip.Glance()
+  local t = now()
+  if glance or not Strip.On() or t - lastGlance < GLANCE_GAP then return end
+  lastGlance = t
+  local g = { from = t, till = t + FLASH, own = not Strip.Showing() }
+  glance = g
+  if g.own and not moment then ns.Sky.SetFade(0) end
+  Strip.Update()
+  if C_Timer and C_Timer.After then
+    C_Timer.After(FLASH + 0.05, function()
+      if glance ~= g then return end
+      glance = nil
+      if not moment then ns.Sky.SetFade(1) end
+      Strip.Update()
+    end)
+  end
+end
+
+local function glanceFrame(t)
+  local g = glance
+  if g and g.own and not moment and t < g.till then
+    ns.Sky.SetFade(math.min(1, (t - g.from) / FADE, (g.till - t) / FADE))
+  end
+end
+
+local function onArrival(_, event)
+  if event == "PLAYER_REGEN_ENABLED" then
+    if arrivedInFight then arrivedInFight = false; Strip.Glance() end
+    return
+  end
+  if yes(try(UnitOnTaxi, "player")) then return end   -- flying over a town is no arrival; the landing is
+  -- Entering a rest area, not leaving one; control back after a flight (or a stun) only counts in a town.
+  if event ~= "ZONE_CHANGED_NEW_AREA" and not yes(try(IsResting)) then return end
+  if yes(try(InCombatLockdown)) or yes(try(UnitAffectingCombat, "player")) then arrivedInFight = true; return end
+  Strip.Glance()
+end
+
+local function listenForArrivals(on)
+  if on and not arrivals then
+    arrivals = CreateFrame("Frame", nil, UIParent)
+    arrivals:SetScript("OnEvent", onArrival)
+  end
+  if not arrivals then return end
+  for _, e in ipairs(ARRIVALS) do
+    pcall(on and arrivals.RegisterEvent or arrivals.UnregisterEvent, arrivals, e)
+  end
+end
+
 local function onEvent(_, event, unit)
   if event == "PLAYER_MONEY" then purseDue = true end
   if (event == "UNIT_HEALTH" or event == "UNIT_MAXHEALTH") and unit ~= "player" and unit ~= "target" then return end
@@ -694,7 +753,9 @@ local function create()
   frame:SetScript("OnEvent", onEvent)
   frame:SetScript("OnUpdate", function()
     local t = now()
-    if momentFrame(t) or hiddenForShot or t - lastPaint < MIN_GAP then return end
+    if momentFrame(t) or hiddenForShot then return end
+    glanceFrame(t)
+    if t - lastPaint < MIN_GAP then return end
     if stale or t - lastPaint >= HEARTBEAT then
       if t - lastPaint >= HEARTBEAT then ns.Sky.Relayout() end   -- a resized window or a moved minimap, no event
       paint()
@@ -825,12 +886,13 @@ end
 
 -- Whether the sky is on screen now: with Live game info on, only when it's needed (Mike, LOR-1126: "easily hiding it
 -- and only showing it when necessary"; players took it for a quest area, and it hid their map): while the player asks
--- Willo, for a big moment, or while something goes round the ring to her (a typed question: SetRing),
--- unless they keep it up (Strip.Always). The Lore Forever window being open is no reason of its own.
+-- Willo, for a big moment, while something goes round the ring to her (a typed question: SetRing), or a moment on
+-- arriving somewhere (Strip.Glance), unless they keep it up (Strip.Always). The Lore Forever window being open is no
+-- reason of its own.
 function Strip.Showing()
   if ns.Sky.Moving() then return true end   -- the player is dragging it somewhere (Sky.Move), until they click Done
   if not Strip.On() then return false end
-  return (Strip.Always() or asking() or moment ~= nil or ring ~= nil) and true or false
+  return (Strip.Always() or asking() or moment ~= nil or ring ~= nil or glance ~= nil) and true or false
 end
 
 local function tell(line) DEFAULT_CHAT_FRAME:AddMessage(ns.Theme.CHAT_PREFIX .. line) end
@@ -974,6 +1036,7 @@ binder:SetScript("OnEvent", function() Strip.OfferAskKey() end)
 -- panel's OnShow and OnHide in UI.lua, the Ask Willo key); while it's hidden, nothing is registered and nothing runs.
 function Strip.Update()
   Strip.OfferAskKey()
+  listenForArrivals(Strip.On())
   if not Strip.Showing() then
     showing = false
     if frame then

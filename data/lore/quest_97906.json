@@ -1,0 +1,97 @@
+{
+ "key": "quest:97906",
+ "type": "quest",
+ "name": "Camping 101: Leatherworking",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97906
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "In Orgrimmar, Karolek can teach you to craft a leatherworker\u2019s tent once you have shown skill in your profession. A tent offers shelter on your travels, though setting camp also calls for a campfire.",
+ "sections": [
+  {
+   "title": "A Place to Camp",
+   "body": "A leatherworker in Orgrimmar points you to Karolek, who can teach you to make a tent for your travels. It offers shade on hot days and shelter from rain, giving you a place to rest while journeying. Once you have shown proficiency in leatherworking, Karolek can teach you to craft this camping item.",
+   "spoiler": 0
+  },
+  {
+   "title": "Campfire First",
+   "body": "Your tent is ready, but a campfire completes the camp. Cooks can teach you to make one, and a cooking trainer can show you the basics. To try your tent, leave the center of town and set it up in the wilderness.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who can teach me to make a leatherworker\u2019s tent?",
+   "aliases": [
+    "tent trainer",
+    "who teaches leatherworking tent",
+    "karolek tent"
+   ],
+   "answer": "Karolek in Orgrimmar can teach you to craft a tent after you show proficiency in leatherworking."
+  },
+  {
+   "q": "What does the tent do?",
+   "aliases": [
+    "what is the tent for",
+    "leatherworking camping item",
+    "tent use"
+   ],
+   "answer": "The tent gives you shelter from rain and shade on hot days, and offers a place to rest on your travels."
+  },
+  {
+   "q": "Can I set up my tent in town?",
+   "aliases": [
+    "tent in town",
+    "where can i camp",
+    "camping location"
+   ],
+   "answer": "The completion text says most people do not care for tents set up in the center of town, so you need to go into the wilderness to try it out."
+  },
+  {
+   "q": "What else do I need to start a camp?",
+   "aliases": [
+    "need campfire",
+    "camp fire how",
+    "what completes a camp"
+   ],
+   "answer": "You need a campfire as well as a tent. Cooks can teach you to make a fire."
+  },
+  {
+   "q": "Who can teach me the basics of cooking?",
+   "aliases": [
+    "cooking trainer",
+    "learn culinary arts",
+    "campfire trainer"
+   ],
+   "answer": "Someone who trains cooks can teach you the basics of the culinary arts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "As a cook, you can learn to make the campfire needed to complete a camp."
+  }
+ ],
+ "keywords": [
+  "campfire",
+  "camping 101",
+  "camping item",
+  "cooking",
+  "karolek",
+  "leatherworking",
+  "orgrimmar",
+  "tent"
+ ],
+ "related": [
+  "zone:orgrimmar"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Camping 101: Leatherworking"
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "key": "quest:96137",
+ "type": "quest",
+ "name": "Ira's Dagger",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96137
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Sirra Von'Indi asks you to look into Ira's dagger and the worgs still harming travelers. Ira's spirit may have unfinished business in the forest.",
+ "sections": [
+  {
+   "title": "A Ranger's Dagger",
+   "body": "Sirra Von'Indi in Darkshire asks you to deal with the worgs that continue to claim victims in the forest. Ira was a self-appointed ranger who kept the woods safe by stopping beasts from attacking travelers. Her spirit still wanders there, and the dagger belonged to her. Sirra seeks more information about the blade.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Ira?",
+   "aliases": [
+    "ira backstory",
+    "who is ira"
+   ],
+   "answer": "Ira was a self-appointed ranger who kept the forest safe by preventing beasts from attacking travelers."
+  },
+  {
+   "q": "Why does Ira's spirit wander the forest?",
+   "aliases": [
+    "ira ghost why",
+    "why is ira a ghost"
+   ],
+   "answer": "Ira's spirit still wanders the woods, and she may have unfinished business there."
+  },
+  {
+   "q": "What is Ira's dagger?",
+   "aliases": [
+    "ira dagger",
+    "dagger story"
+   ],
+   "answer": "It is a small dagger that belonged to Ira."
+  },
+  {
+   "q": "Why are you dealing with worgs?",
+   "aliases": [
+    "worgs in the forest",
+    "ira worg quest"
+   ],
+   "answer": "The worgs continue to claim victims throughout the forest, and Ira's unfinished business may be to clear them out."
+  },
+  {
+   "q": "Who asks about the dagger?",
+   "aliases": [
+    "sirra dagger",
+    "who wants ira's dagger"
+   ],
+   "answer": "Sirra Von'Indi in Darkshire asks you to return to her with the dagger for more information."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "black ravager",
+  "darkshire",
+  "ira",
+  "ira's dagger",
+  "ranger",
+  "sirra von'indi",
+  "spirit",
+  "worg",
+  "young black ravager"
+ ],
+ "related": [
+  "subzone:darkshire",
+  "npc:sirra-von-indi"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Ira's Dagger"
+ ]
+}

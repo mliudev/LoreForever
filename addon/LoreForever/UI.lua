@@ -587,12 +587,14 @@ function UI.Create(engine)
   -- The bookmarks: ribbons down the right edge of the book, on the window's ground beside it. "Here" (this place and
   -- your quests), "Found" (your chronicle's pages by chapter, Book.lua; it took the Library's place), "Road" (the journey
   -- page, zones as chapters, Road.lua) and "Storylines" (the storylines you're on). The open one is the page's paper
-  -- and joins it; a gold dot on Found says pages are new. One size, even gaps (UI.FitRibbons; Mike's pick, 11/4). The
-  -- playlist is the player's (the foot of the book), not a bookmark.
+  -- and joins it; a gold dot on Found says pages are new. One size, even gaps (UI.FitRibbons; Mike's pick, 11/4), a
+  -- drawn sign on each and its name on hover (LOR-1235, Mike's pick 11/6). The playlist is the player's (the foot of
+  -- the book), not a bookmark.
   UI.tabs = {}
-  local specs = { { "here", L["Here"] }, { "found", L["Found"] }, { "road", L["Road"] }, { "story", L["Storylines"] } }
+  local specs = { { "here", L["Here"], "TabHere" }, { "found", L["Found"], "TabFound" }, { "road", L["Road"], "TabRoad" },
+    { "story", L["Storylines"], "TabStorylines" } }
   for i, spec in ipairs(specs) do
-    local tab = T.Ribbon(f, spec[2])
+    local tab = T.Ribbon(f, spec[2], spec[3])
     tab:SetFrameLevel((f:GetFrameLevel() or 1) + 26)
     if i == 1 then tab:SetPoint("TOPLEFT", f, "TOPRIGHT", -BOOK_R, -(BOOK_TOP + 10))
     else tab:SetPoint("TOPLEFT", UI.tabs[i - 1], "BOTTOMLEFT", 0, -6) end
@@ -999,31 +1001,14 @@ function UI.CreateBook()
   UI.FitRibbons()
 end
 
--- The ribbons run down the book's edge from the top: when a language's labels are long enough that the four don't fit
--- the book's height with their usual gap, the gap closes up (to 1px) rather than a ribbon running off the foot.
+-- The ribbons run down the book's edge from the top, one size, with even gaps: if the book were ever too short for
+-- the four with their usual gap, the gap closes up (to 1px) rather than a ribbon running off the foot.
 function UI.FitRibbons()
   local f, tabs = UI.frame, UI.tabs
   if not (f and tabs and #tabs > 1) then return end
   local fh = tonumber(f:GetHeight()) or H
   local room = fh - (BOOK_TOP + 10) - DOCK_H - 4
-  -- One size: the longest label's plus its ends, so every tab is that long (Mike's pick, 11/4: one size, even gaps).
-  -- The labels keep the heading's face unless four of that length can't fit the book with their gaps (German's
-  -- "Handlungsstränge" needs 540 of 452): then all four take the largest smaller face that fits.
-  local function longest(face)
-    local long = 0
-    for _, t in ipairs(tabs) do
-      t.length, t.tabFace = nil, face
-      long = math.max(long, t:Fit() or tonumber(t:GetHeight()) or 0)
-    end
-    return long
-  end
-  local long
-  for _, face in ipairs({ T.font.heading, T.font.tab14, T.font.tab13, T.font.tab12, T.font.tab11 }) do
-    long = longest(face)
-    if long * #tabs + 6 * (#tabs - 1) <= room then break end
-  end
-  for _, t in ipairs(tabs) do t:SetLength(long) end
-  local sum = long * #tabs
+  local sum = T.RIBBON_H * #tabs
   local gap = math.max(1, math.min(6, math.floor((room - sum) / (#tabs - 1))))
   for i = 2, #tabs do
     tabs[i]:ClearAllPoints()
@@ -1674,10 +1659,21 @@ local function startTarget(target, fromPlaylist, keepProgress)
     return fromPlaylist and ns.Voice.Play(clipId, opts) or ns.Voice.Narrate(clipId, opts)
   end
   local started = play(options)
+  -- A title that won't start is left out: the story plays without it (LOR-1084: a broken or partial install).
+  if not started and lead then
+    lead, clipId, options, target.afterTitle = nil, target.key, target.afterTitle, nil
+    started = play(options)
+  end
   -- One that can't start at section 1 (a stale or broken piece) plays from its start, as before.
   if not started and options and options.section then started = play(nil) end
   if not started then return false end
   target.leading = lead and true or nil
+  -- A quest giver's page started for a quest with a Chronicle page (target.story, its lore entry): that page is heard,
+  -- as a story is once its recording starts (Voice.Play). The page's own clip isn't kept (Voice.ForgetQuestPages), so
+  -- a quest's page stayed new and unticked however often its words played, from Play what's new too (LOR-1193).
+  if target.story and target.story ~= target.key and (target.key or ""):find("^quest:%d+#%a+$") then
+    ns.Voice.MarkHeard(target.story)
+  end
   if fresh then
     local kind = ns.Log.NarrationKind(target.key)
     target.started = byItself and "auto" or "user"   -- (watchPlayback counts its end the same way)

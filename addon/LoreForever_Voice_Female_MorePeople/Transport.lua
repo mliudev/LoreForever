@@ -110,7 +110,7 @@ P.transport["npc:archmage-ansirem-runeweaver"] = {
   fullHash = "587630",
   text = "Archmage Ansirem Runeweaver. At the Violet Citadel, Archmage Ansirem Runeweaver oversees Kirin Tor work as Dalaran is rebuilt. A senior human wizard on the Council of Six, he survived the Scourge's destruction of the city. His willful daughter ran off to Booty Bay to become a pirate. Ansirem Runeweaver helped defend Dalaran for decades. He holds a seat on the Council of Six, which rules the Kirin Tor. He survived when Arthas Menethil and the Scourge marched on the city and Archimonde was summoned. After Dalaran fell, Ansirem joined the effort to rebuild it. The protective shield came down early, and he now works from the Violet Citadel. Ansirem's ties reach beyond the Alterac Mountains. His willful daughter, Catelyn, ran off to Booty Bay to become a pirate, taking an ancient troll dagger he found while researching in Stranglethorn. Ansirem has dealt with Baron Revilgaz there. He has also studied troll antiquities and keeps diplomatic conduits open across distant realms.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_archmage-ansirem-runeweaver-c8c8de4bf94e2b0d3083/1-0000.mp3", duration = 62.3281633, start = 0},
+    {file = "Audio/Transport/full_npc_archmage-ansirem-runeweaver-317a46942c4acd73749e/1-0000.mp3", duration = 62.484898, start = 0},
   },
 }
 P.transport["npc:archmage-malin"] = {
@@ -3590,7 +3590,7 @@ P.transport["npc:sprite-darter"] = {
   fullHash = "a3b179",
   text = "Sprite Darter. Among Feralas's ancient trees, Sprite Darters flit while the Grimtotem seek to capture them. These rare faerie dragons are revered for their spiritual and magical qualities. Sprite Darters glide through Feralas's ancient forests on iridescent wings. Shy and peaceful, these elusive woodland beasts draw the attention of those who study Kalimdor's wild places for their natural power and resistance to magic. The Grimtotem tauren of Feralas have begun rounding up and caging many Sprite Darters, though no one knows why. Kindal Moonweaver, a concerned night elf, seeks allies to break the cages and free the trapped hatchlings before the Grimtotem bend them to their will. Sprite Darters also interest those who study primal power. At Camp Mojache, Witch Doctor Uzer'i, a troll spiritualist, studies the natural energies and muisek within them. He seeks their essence to understand the unique magic thriving throughout Feralas.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sprite-darter-35dc2002e23f5785b1e1/1-0000.mp3", duration = 60.2122449, start = 0},
+    {file = "Audio/Transport/full_npc_sprite-darter-efb5ebd4e65b72415793/1-0000.mp3", duration = 59.8987755, start = 0},
   },
 }
 P.transport["npc:stitches"] = {
@@ -4190,7 +4190,7 @@ P.transport["npc:witch-doctor-uzer-i"] = {
   fullHash = "02e0f9",
   text = "Witch Doctor Uzer'i. At Camp Mojache, Witch Doctor Uzer'i seeks to bind the spirits of powerful natural creatures into weapons for the Horde. He calls those lingering spirits muisek and studies magic the night elves have used for millennia. Witch Doctor Uzer'i studies Feralas's natural magic through the old rites of troll spiritualism. Night elves have drawn on forest beast spirits for millennia, and Uzer'i believes the Horde should claim that power. He calls a creature's lingering spirit muisek. His vessels shrink fallen beings and trap their spirits before they escape, so he can store and study their essence. Capturing muisek is only the beginning of Uzer'i's ambition. He gathers sinew, enchanted minerals, and petrified splintered logs from the creatures whose spirits he traps. Then he joins those materials with bound muisek. Through his rites, he binds ancient forest spirits into weapons for the Horde. Uzer'i also follows rumors of hidden places of power across Azeroth, including the ancient, submerged Sunken Temple.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_witch-doctor-uzer-i-507a4f098b41b6c4fb0c/1-0000.mp3", duration = 64.9665306, start = 0},
+    {file = "Audio/Transport/full_npc_witch-doctor-uzer-i-107b4499481dcd6b3027/1-0000.mp3", duration = 64.9142857, start = 0},
   },
 }
 P.transport["npc:wizlo-bearingshiner"] = {
@@ -4230,7 +4230,7 @@ P.transport["npc:wynne-larson"] = {
   fullHash = "ef0e41",
   text = "Wynne Larson. In Stormwind's Mage Quarter, Wynne Larson supplies robes to mages across the kingdom. Since Dalaran and Quel'Thalas fell in the Third War, she relies on local craftsmen and points spellcasters toward rare materials for enchanted garments. Before the Third War, Dalaran and Quel'Thalas supplied the finest woven fabrics and enchanted vestments. Their destruction crippled the old trade routes and arcane textile making. Now Wynne Larson works with local tailors and enchanters such as Lucan Cordell in Stormwind's Mage Quarter. Together, they meet the city's growing need for robes and spellwoven gear. Novice and journeyman mages come to Wynne's shop for arcane garments. She knows what materials are needed for vestments such as Manaweave Robes and Astral Knot Garments. To find them, she sends spellcasters into dangerous places to recover rare reagents like pristine spider silk. Her work helps keep Stormwind's mages outfitted despite shortages from the north.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_wynne-larson-209e43764726b6645381/1-0000.mp3", duration = 60.4995918, start = 0},
+    {file = "Audio/Transport/full_npc_wynne-larson-9e149a18c10eda30f8f6/1-0000.mp3", duration = 62.0408163, start = 0},
   },
 }
 P.transport["npc:xavathras"] = {

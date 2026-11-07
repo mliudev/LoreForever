@@ -1,0 +1,84 @@
+{
+ "key": "quest:91858",
+ "type": "quest",
+ "name": "Diplomatic Incident",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91858
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Two Earthen Ring dignitaries have gone missing in Silverpine Forest while traveling to Tarren Mill. Danitha sends you to Trevan Rol at the Sepulcher to learn more and help secure the Horde\u2019s legitimacy.",
+ "sections": [
+  {
+   "title": "Missing Travelers",
+   "body": "Danitha sends you to Trevan Rol at the Sepulcher in Silverpine Forest. Two Earthen Ring dignitaries vanished while traveling toward Tarren Mill, and little is known beyond rumors of a diplomatic incident. Their recovery could help the Horde gain legitimacy. Trevan says you have walked into a serious mess.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who went missing in Silverpine?",
+   "aliases": [
+    "missing dignitaries",
+    "earthen ring travelers",
+    "who disappeared"
+   ],
+   "answer": "Two dignitaries from the Earthen Ring went missing in Silverpine Forest while traveling to Tarren Mill."
+  },
+  {
+   "q": "Where do I go for information?",
+   "aliases": [
+    "where is trevan rol",
+    "find trevan",
+    "sepulcher"
+   ],
+   "answer": "Danitha sends you to speak with Trevan Rol at the Sepulcher in Silverpine Forest."
+  },
+  {
+   "q": "Why does Danitha want the travelers found?",
+   "aliases": [
+    "why find them",
+    "horde legitimacy",
+    "diplomatic incident"
+   ],
+   "answer": "Recovering the missing Earthen Ring dignitaries could help the Horde gain legitimacy."
+  },
+  {
+   "q": "What happened to the dignitaries?",
+   "aliases": [
+    "what happened in silverpine",
+    "why are they missing",
+    "dignitaries whereabouts"
+   ],
+   "answer": "They went missing in Silverpine Forest while traveling toward Tarren Mill. Their whereabouts are unknown."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "danitha",
+  "dignitaries",
+  "diplomatic incident",
+  "earthen ring",
+  "horde",
+  "missing travelers",
+  "sepulcher",
+  "silverpine forest",
+  "tarren mill",
+  "trevan rol"
+ ],
+ "related": [
+  "zone:silverpine",
+  "subzone:sepulcher",
+  "subzone:tarren-mill",
+  "topic:horde",
+  "quest:95349"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Diplomatic Incident"
+ ]
+}

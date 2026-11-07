@@ -1,0 +1,69 @@
+{
+ "key": "quest:5658",
+ "type": "quest",
+ "name": "Touch of Weakness",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5658
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A priestess welcomes you back and offers a lesson in weakness. Her words make clear that she expects you to return ready to learn.",
+ "sections": [
+  {
+   "title": "A Lesson Offered",
+   "body": "A priestess greets you when you return and says she is glad to see you. She offers to teach you a lesson she expects you to remember. The lesson itself remains ahead, and she asks if you are ready.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to learn?",
+   "aliases": [
+    "who gives this",
+    "priestess lesson",
+    "touch of weakness giver"
+   ],
+   "answer": "A priestess welcomes you back and offers to teach you a lesson."
+  },
+  {
+   "q": "What does the priestess want to teach me?",
+   "aliases": [
+    "what lesson",
+    "weakness lesson",
+    "what is touch weakness"
+   ],
+   "answer": "She offers a lesson she says you would do well to remember."
+  },
+  {
+   "q": "What happens when I return?",
+   "aliases": [
+    "return to priestess",
+    "what happens here",
+    "touch of weakness"
+   ],
+   "answer": "The priestess is glad you have returned and asks whether you are ready for a lesson."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Priest",
+   "text": "As a priest, you are addressed as a young priestess and offered a lesson."
+  }
+ ],
+ "keywords": [
+  "lesson",
+  "priestess",
+  "return",
+  "touch of weakness",
+  "weakness"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Touch of Weakness"
+ ]
+}

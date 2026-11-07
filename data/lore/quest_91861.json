@@ -1,0 +1,85 @@
+{
+ "key": "quest:91861",
+ "type": "quest",
+ "name": "Into Fenris Keep",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91861
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A lone body leaves hope that a missing member of the Earthen Ring party may still be alive. You are asked to search Fenris Keep for the captive.",
+ "sections": [
+  {
+   "title": "A Search in Fenris Keep",
+   "body": "A member of the Earthen Ring party is missing, and you are asked to search Fenris Keep for them. Trevan and Hadrec described a High Elf inside the nearby fortress. Since only one body was found, there is hope the missing party member is still alive.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Plea for Help",
+   "body": "Inside Fenris Keep, you find the missing High Elf asking a Forsaken for help to escape. Time is short for the captive.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who am I looking for in Fenris Keep?",
+   "aliases": [
+    "missing person fenris",
+    "who is missing",
+    "earthen ring party"
+   ],
+   "answer": "You are searching for a missing member of the Earthen Ring party, described by Trevan and Hadrec as a High Elf."
+  },
+  {
+   "q": "Why is there hope the missing person is alive?",
+   "aliases": [
+    "only one body",
+    "is the elf alive",
+    "fenris keep body"
+   ],
+   "answer": "Only one body was found, leaving hope that the missing High Elf is still inside Fenris Keep."
+  },
+  {
+   "q": "Who asks me to search Fenris Keep?",
+   "aliases": [
+    "who sent me",
+    "who wants me to search",
+    "fenris keep request"
+   ],
+   "answer": "The request is to investigate Fenris Keep and try to locate the missing member of the Earthen Ring party."
+  },
+  {
+   "q": "What does the captive ask for?",
+   "aliases": [
+    "free me",
+    "help captive",
+    "what does the elf want"
+   ],
+   "answer": "The captive asks a Forsaken for help to get free, saying time is short."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "captive",
+  "earthen ring",
+  "fenris keep",
+  "hadrec",
+  "high elf",
+  "into fenris keep",
+  "missing member",
+  "trevan"
+ ],
+ "related": [
+  "subzone:fenris-keep",
+  "topic:forsaken",
+  "quest:95349"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Into Fenris Keep"
+ ]
+}

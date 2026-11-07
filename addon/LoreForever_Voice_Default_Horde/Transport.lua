@@ -118,7 +118,7 @@ P.transport["npc:dalar-dawnweaver"] = {
   fullHash = "b547f4",
   text = "Dalar Dawnweaver. At the Sepulcher, Dalar Dawnweaver turns his arcane learning against the Forsaken’s enemies. He was an archmage of Dalaran, slain when the Scourge destroyed the city, then freed from the Lich King’s control. Now he studies Dalaran’s lingering presence and seeks to end Archmage Arugal’s madness. Dalar Dawnweaver once held high rank among the Kirin Tor. He walked the Violet Citadel’s halls when Dalaran stood at the height of arcane mastery. The Scourge sacked the city to prepare for Archimonde’s summoning, and Dalar died there.\n\nRaised as a mindless thrall of the Lich King, Dalar broke free alongside Lady Sylvanas Windrunner when the Scourge’s grip faltered. Now he keeps an archmage’s keen intellect at the Sepulcher and devotes it to protecting the Forsaken realm. Dalar directs the Sepulcher’s arcane strategy against the many dangers facing Silverpine Forest. To the south, Dalaran wizards occupy Ambermill, pursuing matters he means to uncover and disrupt. Closer by, feral worgen prowl the woods around Shadowfang Keep.\n\nDalar knows his former colleague, Archmage Arugal, well. He carefully directs efforts to stop Arugal’s beastly creations before they overrun the region.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_dalar-dawnweaver-f99dfee2d5c0864dd295/1-0000.mp3", duration = 76.3297959, start = 0},
+    {file = "Audio/Transport/full_npc_dalar-dawnweaver-bcb564dea2adbb61efbf/1-0000.mp3", duration = 75.6244898, start = 0},
   },
 }
 P.transport["npc:darsok-swiftdagger"] = {
@@ -542,7 +542,7 @@ P.transport["subzone:beren-s-peril"] = {
   fullHash = "7fba1d",
   text = "Beren's Peril. At Beren's Peril, Scourge loyal to Thule Ravenclaw gather in the hills southwest of Ambermill and threaten the Forsaken. High in the crags southwest of Ambermill, a cave and mountain path lie hidden from the main road. Since the Third War, rogue Scourge have fortified the refuge under the renegade necromancer Thule Ravenclaw. They refused to serve the Dark Lady or flee north.\n\nRavenclaw's regents, guardians, and drudgers gathered in secret to prepare an assault on the Forsaken base at the Sepulcher. Forsaken scouts found them, and the quiet cliffs became a warzone. Now Horde fighters move against the undead before they can attack.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_beren-s-peril-881914fb7eb61a71c0e0/1-0000.mp3", duration = 40.4114286, start = 0},
+    {file = "Audio/Transport/full_subzone_beren-s-peril-e96e565c73e4e5a82751/1-0000.mp3", duration = 38.3216327, start = 0},
   },
 }
 P.transport["subzone:blackthorn-ridge"] = {

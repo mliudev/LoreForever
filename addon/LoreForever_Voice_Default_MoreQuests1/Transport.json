@@ -3695,9 +3695,9 @@
     "quest:1961": {
       "1": [
         {
-          "duration": 66.11591836734694,
-          "file": "Audio/Transport/full_quest_1961-f5ef4c7917955277bad8/1-0000.mp3",
-          "sha256": "f4c4f64a47da2b731fdb669d03cd412214e6026ad462c726c422e26fe72a8797",
+          "duration": 66.35102040816327,
+          "file": "Audio/Transport/full_quest_1961-738f2331eef7e4c2b69d/1-0000.mp3",
+          "sha256": "d254f3e2ed37dc72eab5d534b35da89bcda2e5ea537c9f0260a254f4cd431400",
           "start": 0
         }
       ],
@@ -3709,12 +3709,12 @@
         ]
       },
       "fullHash": "6dbdbc",
-      "generation": "30296481ef1cdba5d25c",
+      "generation": "1348f0415678558d15d7",
       "hash": "6dbdbc",
       "source": {
-        "duration": 66.142041,
+        "duration": 66.377143,
         "file": null,
-        "sha256": "f5ef4c7917955277bad8d281c99c87b592bc6b381bc0eaf3f93a9e046a5cbcc7"
+        "sha256": "738f2331eef7e4c2b69dcbd28904e591b49b745436ecc70b98247bda5d80e92c"
       },
       "text": "Gathering Materials. In the Undercity, Gathering Materials sends new Horde mages to Silverpine Forest for Dalaran mana gems. They need linen as well to make their first true mage's robes. Undercity initiates gather a bolt of simple linen and potent Dalaran mana gems for their first true robes. Those robes mark their station and personal worth. Anastasia Hartwell directs the novices to gather the raw materials for an enchanted weave. The mana gems cannot be bought or conjured. Dalaran mages are stationed across Silverpine Forest, especially near Ambermill, and the gems must be taken from them. Anastasia Hartwell says Dalaran's arcane philosophies mirror those of the Forsaken. Yet sentiment has no place in the Undercity. To the Forsaken, wizards too weak to defend their relics forfeit their treasures and their lives. Josef Gregorian is a tailor in the Undercity's Magic Quarter, where the gathered cloth and gems are brought. He lacks the magical talent to judge the pristine quality of Dalaran's enchanted stones. But he has the rare artisan skill to weave their raw power into the robes."
     },
@@ -29181,6 +29181,17 @@
       1113,
       1391
     ],
+    "d254f3e2ed37dc72eab5d534b35da89bcda2e5ea537c9f0260a254f4cd431400": [
+      257,
+      407,
+      666,
+      1000,
+      1389,
+      1587,
+      1918,
+      2154,
+      2351
+    ],
     "d25840479b00427d1e7d29a2d146bd96b27d41755c458f0eebc77bfbdd4c07af": [
       898
     ],
@@ -30177,17 +30188,6 @@
       1477,
       1661,
       1831
-    ],
-    "f4c4f64a47da2b731fdb669d03cd412214e6026ad462c726c422e26fe72a8797": [
-      255,
-      415,
-      670,
-      1010,
-      1395,
-      1604,
-      1934,
-      2162,
-      2360
     ],
     "f51ad9d55fba2e5afce93e4b6b1c7b77a3ff364fbc79da3692e6004eeeae3805": [
       170,
@@ -33301,6 +33301,11 @@
       "1113": 2,
       "446": 1
     },
+    "d254f3e2ed37dc72eab5d534b35da89bcda2e5ea537c9f0260a254f4cd431400": {
+      "1000": 2,
+      "1918": 3,
+      "407": 1
+    },
     "d3d94174372cb6a384fbb87e3827fca04990336dbdbe8a7cfd853a0b18699c99": {
       "1401": 2,
       "498": 1
@@ -33705,11 +33710,6 @@
     "f4bf45876ca11bc3a48b9d3010cc523d9f7d291c4884cdb7ac9e97d44b90bcea": {
       "1477": 2,
       "653": 1
-    },
-    "f4c4f64a47da2b731fdb669d03cd412214e6026ad462c726c422e26fe72a8797": {
-      "1010": 2,
-      "1934": 3,
-      "415": 1
     },
     "f51ad9d55fba2e5afce93e4b6b1c7b77a3ff364fbc79da3692e6004eeeae3805": {
       "390": 1,

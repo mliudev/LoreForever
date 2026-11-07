@@ -1150,7 +1150,7 @@ P.transport["quest:3124"] = {
   fullHash = "5a39b4",
   text = "Hippogryph Muisek. In the High Wilderness, Frayfeather hippogryphs carry spirits Uzer'i wants you to capture. Their muisek can escape unless you act quickly. Witch Doctor Uzer'i trusts you with the vessel and asks you to capture another creature's spirit. Hippogryphs have long been companions to the night elves, and their spirits are loyal and steadfast. You need ten Frayfeather hippogryphs of any kind. Kill each one, then quickly shrink and capture it with the vessel to preserve its muisek. Uzer'i places them in the High Wilderness, south of the camp.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3124-08e8fc268cd85d4480f8/1-0000.mp3", duration = 31.2163265, start = 0},
+    {file = "Audio/Transport/full_quest_3124-62aa09f6c684c7262091/1-0000.mp3", duration = 30.5893878, start = 0},
   },
 }
 P.transport["quest:3125"] = {
@@ -1158,7 +1158,7 @@ P.transport["quest:3125"] = {
   fullHash = "178bef",
   text = "Faerie Dragon Muisek. West of Witch Doctor Uzer'i, the Horde seeks the spirits of faerie dragons. Sprite darters and sprite dragons bear the strength Uzer'i hopes to capture. Witch Doctor Uzer'i sees strength in faerie dragons, though they look delicate. They have long been allies to the night elves, and Uzer'i wants the Horde to share their power. Uzer'i gives you a Muisek Vessel and sends you west. Slay eight sprite darters or sprite dragons, then use the vessel on each fallen faerie dragon to shrink and capture its spirit.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3125-30540b0df03e579681d5/1-0000.mp3", duration = 31.0595918, start = 0},
+    {file = "Audio/Transport/full_quest_3125-b6bf55d7da1fb2bc6450/1-0000.mp3", duration = 31.0857143, start = 0},
   },
 }
 P.transport["quest:3126"] = {
@@ -1166,7 +1166,7 @@ P.transport["quest:3126"] = {
   fullHash = "65dda2",
   text = "Treant Muisek. In Feralas, Witch Doctor Uzer'i turns your search to the wandering treants. After the faerie dragons, he sends you to find three forest walkers. The night elves have made treants their allies against the Horde. Uzer'i says they move slowly, yet none can deny their strength as protectors. He means to put that strength to work for the Horde. Uzer'i asks you to find and kill three wandering forest walkers. When each treant falls, use the Muisek Vessel to shrink and capture it.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3126-d0e23dc78a368179e235/1-0000.mp3", duration = 30.5632653, start = 0},
+    {file = "Audio/Transport/full_quest_3126-285f187aecf8dd3f3c5c/1-0000.mp3", duration = 30.955102, start = 0},
   },
 }
 P.transport["quest:3127"] = {
@@ -1174,7 +1174,7 @@ P.transport["quest:3127"] = {
   fullHash = "d9a577",
   text = "Mountain Giant Muisek. Northwest across Feralas, you face the last creatures Witch Doctor Uzer'i hopes to harness: mountain giants. Witch Doctor Uzer'i says mountain giants came down from the mountains to aid the night elves when the Burning Legion first arrived in the world. Their immense size marks them, and rocky ground trembles beneath their steps. Uzer'i hopes to harness power on that scale.\n\nSeven Land Walkers or Cliff Giants must fall. Then the Muisek Vessel can shrink and capture them.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3127-4c24a9a0cec72b668b31/1-0000.mp3", duration = 29.3877551, start = 0},
+    {file = "Audio/Transport/full_quest_3127-6e242e950b35e3461650/1-0000.mp3", duration = 30.197551, start = 0},
   },
 }
 P.transport["quest:3128"] = {
@@ -1190,7 +1190,7 @@ P.transport["quest:3129"] = {
   fullHash = "016cce",
   text = "Weapons of Spirit. Witch Doctor Uzer'i is preparing weapons for you in Feralas. The work takes time, so you wait while the spirits are bound. Witch Doctor Uzer'i has the materials and the spirits you captured. Imbuing weapons with muisek takes hard work, so Uzer'i asks you to wait while the weapons are prepared.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3129-f41d1d647f4e1325fb93/1-0000.mp3", duration = 18.3640816, start = 0},
+    {file = "Audio/Transport/full_quest_3129-a5829010b17f9dc4ba30/1-0000.mp3", duration = 17.9722449, start = 0},
   },
 }
 P.transport["quest:3130"] = {

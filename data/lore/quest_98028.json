@@ -1,0 +1,103 @@
+{
+ "key": "quest:98028",
+ "type": "quest",
+ "name": "Baron Marinous",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98028
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Onu seeks to learn what happened to a water globe left by an elemental guardian. You bring it to him at the Grove of the Ancients, where he recognizes a troubling sign.",
+ "sections": [
+  {
+   "title": "Onu's Counsel",
+   "body": "Onu at the Grove of the Ancients needs the Clouded Water Globe. The elemental guardian is defeated, but the globe remains clouded and whatever happened to the guardian and the ruins it guarded may still be active. You bring it to Onu, the one most likely to know more.",
+   "spoiler": 0
+  },
+  {
+   "title": "Onu's Concern",
+   "body": "At the Grove of the Ancients, Onu reacts with surprise to the globe and wonders whether there are stairs descending in Mathystra. He says he must confer with the others. He is glad you uncovered this before the naga or their cult allies, and notes that defeating the elemental guardian was no small feat.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Onu?",
+   "aliases": [
+    "onu",
+    "onu lore",
+    "ancient of lore"
+   ],
+   "answer": "Onu is the Ancient of Lore at the Grove of the Ancients in Darkshore."
+  },
+  {
+   "q": "What is the Clouded Water Globe?",
+   "aliases": [
+    "clouded globe",
+    "water globe",
+    "globe from elemental"
+   ],
+   "answer": "It is all that remains of a powerful elemental, a globe of water clouded by an unknown substance."
+  },
+  {
+   "q": "Why does the globe look clouded?",
+   "aliases": [
+    "what's in the globe",
+    "clouded water",
+    "why can't see inside"
+   ],
+   "answer": "An unknown substance clouds the globe and seems to prevent anyone from seeing inside."
+  },
+  {
+   "q": "Where do I take the globe?",
+   "aliases": [
+    "where is onu",
+    "grove location",
+    "take globe"
+   ],
+   "answer": "Bring the Clouded Water Globe to Onu at the Grove of the Ancients in Darkshore."
+  },
+  {
+   "q": "What happened to the elemental guardian?",
+   "aliases": [
+    "elemental fate",
+    "guardian dead",
+    "what happened to guardian"
+   ],
+   "answer": "The elemental guardian has been defeated, and the globe is all that remains of it."
+  },
+  {
+   "q": "What does Onu say about the naga?",
+   "aliases": [
+    "naga and globe",
+    "cult allies",
+    "why before naga"
+   ],
+   "answer": "Onu says it is good the globe was uncovered before the naga or their cult allies."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "baron marinous",
+  "clouded water globe",
+  "darkshore",
+  "elemental guardian",
+  "grove of the ancients",
+  "mathystra",
+  "naga",
+  "onu"
+ ],
+ "related": [
+  "quest:952",
+  "zone:darkshore",
+  "topic:naga"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Baron Marinous"
+ ]
+}

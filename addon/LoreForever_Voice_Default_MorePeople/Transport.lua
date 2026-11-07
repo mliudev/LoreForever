@@ -3590,7 +3590,7 @@ P.transport["npc:sprite-darter"] = {
   fullHash = "a3b179",
   text = "Sprite Darter. Among Feralas's ancient trees, Sprite Darters flit while the Grimtotem seek to capture them. These rare faerie dragons are revered for their spiritual and magical qualities. Sprite Darters glide through Feralas's ancient forests on iridescent wings. Shy and peaceful, these elusive woodland beasts draw the attention of those who study Kalimdor's wild places for their natural power and resistance to magic. The Grimtotem tauren of Feralas have begun rounding up and caging many Sprite Darters, though no one knows why. Kindal Moonweaver, a concerned night elf, seeks allies to break the cages and free the trapped hatchlings before the Grimtotem bend them to their will. Sprite Darters also interest those who study primal power. At Camp Mojache, Witch Doctor Uzer'i, a troll spiritualist, studies the natural energies and muisek within them. He seeks their essence to understand the unique magic thriving throughout Feralas.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sprite-darter-74f9477cf8d7ab7be48e/1-0000.mp3", duration = 55.8759184, start = 0},
+    {file = "Audio/Transport/full_npc_sprite-darter-e8e7cfbfdbdf195b1436/1-0000.mp3", duration = 54.5697959, start = 0},
   },
 }
 P.transport["npc:stitches"] = {

@@ -3305,10 +3305,9 @@ end
 -- Taking pictures -----------------------------------------------------------------------------------------------------
 -- The Take a journey picture key (Bindings.xml) and /lore picture: a screenshot of the world without the interface, for
 -- the picture book (Pictures, above). Out of combat, with Options › Hide the interface when taking a journey picture on
--- and the interface showing (not hidden with Alt-Z), UIParent hides, the picture is taken a moment later and the
--- interface comes back when the game says it saved it or failed (or after SAFETY seconds, whatever happens; when combat
--- starts first, at once: PLAYER_REGEN_DISABLED comes before the lockdown). In combat the interface can't be hidden or
--- shown, so the picture has it. The shot moment says the key took it (pic = 1) and f, the stem of the file name the
+-- and the interface showing (not hidden with Alt-Z), UIParent goes see-through (fadeOut, below), the picture is taken a
+-- moment later and the interface comes back when the game says it saved it or failed (or after SAFETY seconds,
+-- whatever happens; when combat starts first, at once). A picture started in combat keeps the interface. The shot moment says the key took it (pic = 1) and f, the stem of the file name the
 -- game gives it ("WoWScrnShot_" and the PC's clock), so the companion finds the file; clean = 1 only when the interface
 -- was hidden the moment it was taken (the companion shares only clean ones by itself). With Remember my journey off the
 -- picture is still taken and nothing is recorded. Every screenshot (Print Screen's too) is a shot moment, with what you
@@ -3318,7 +3317,8 @@ do
   local DELAY, SAFETY = 0.05, 3
   local DAILY, GAP = 10, 120
   local taking   -- the picture the key is taking, { stem }, until the game says it's saved or failed
-  local hid      -- the picture that hid the interface, until it's back
+  local hid      -- the picture that faded the interface out, until it's back
+  local hidAlpha -- the interface's alpha before that
   -- (the sky's twinkle for Willo waits for it: it would be in the picture, Moments.lua)
   function Journey.TakingPicture() return taking ~= nil or hid ~= nil end
 
@@ -3366,12 +3366,22 @@ do
     end
   end
 
-  -- The interface back, if a picture hid it. Not in combat (it's protected then): when combat ends.
+  -- The interface goes see-through for picture p, never hidden (LOR-1128). UIParent:Hide() and Show() from our code ran
+  -- every Blizzard window's own show and hide code as ours: the action bars' layout stayed tainted for the session, and
+  -- at each fight after, the game refused to move them and named Lore Forever (one PC: 1,328 times on launch day). An
+  -- alpha change runs no game code, so nothing is tainted, and the picture looks the same.
+  local function fadeOut(p)
+    local ok, alpha = pcall(UIParent.GetAlpha, UIParent)
+    alpha = ok and tonumber(alpha) or 1
+    if alpha > 0 and pcall(UIParent.SetAlpha, UIParent, 0) then hid, hidAlpha = p, alpha end
+  end
+
+  -- The interface back, if a picture faded it (in combat too: an alpha change isn't protected).
   function pictureBack()
-    if not hid or try(InCombatLockdown) then return end
-    if pcall(UIParent.Show, UIParent) and try(UIParent.IsShown, UIParent) then
+    if not hid then return end
+    if pcall(UIParent.SetAlpha, UIParent, hidAlpha or 1) then
       confirm(hid)
-      hid = nil
+      hid, hidAlpha = nil, nil
     end
   end
 
@@ -3392,17 +3402,16 @@ do
     if automatic and not automaticOK() then return end
     local p = {}
     taking = p
-    if canHideUI() and try(UIParent.IsShown, UIParent) then
-      if pcall(UIParent.Hide, UIParent) then hid = p end
-    end
+    if canHideUI() and try(UIParent.IsShown, UIParent) then fadeOut(p) end
     local function snap()
       if taking ~= p then return end
       -- A flight, combat or an opt-out can start during the short UI-hide delay: skip rather than take it anyway.
       if automatic and not automaticOK() then taking = nil; pictureBack(); return end
       p.stem = date("WoWScrnShot_%m%d%y_%H%M%S")
-      -- Clean: the main interface and chat are hidden now (by us, or with Alt-Z). World nameplates may still appear.
+      -- Clean: the main interface and chat are out of sight now (faded by us, or hidden with Alt-Z). World nameplates
+      -- may still appear.
       local ok, showing = pcall(UIParent.IsShown, UIParent)
-      p.clean = ok and not showing or nil
+      p.clean = (hid == p or (ok and not showing)) or nil
       if automatic and not p.clean then taking = nil; pictureBack(); return end
       if not pcall(Screenshot) then pictureDone()
       elseif automatic then

@@ -1142,7 +1142,7 @@ P.transport["quest:1961"] = {
   fullHash = "6dbdbc",
   text = "Gathering Materials. In the Undercity, Gathering Materials sends new Horde mages to Silverpine Forest for Dalaran mana gems. They need linen as well to make their first true mage's robes. Undercity initiates gather a bolt of simple linen and potent Dalaran mana gems for their first true robes. Those robes mark their station and personal worth. Anastasia Hartwell directs the novices to gather the raw materials for an enchanted weave. The mana gems cannot be bought or conjured. Dalaran mages are stationed across Silverpine Forest, especially near Ambermill, and the gems must be taken from them. Anastasia Hartwell says Dalaran's arcane philosophies mirror those of the Forsaken. Yet sentiment has no place in the Undercity. To the Forsaken, wizards too weak to defend their relics forfeit their treasures and their lives. Josef Gregorian is a tailor in the Undercity's Magic Quarter, where the gathered cloth and gems are brought. He lacks the magical talent to judge the pristine quality of Dalaran's enchanted stones. But he has the rare artisan skill to weave their raw power into the robes.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1961-37c2fe62ee27eb834601/1-0000.mp3", duration = 71.2620408, start = 0},
+    {file = "Audio/Transport/full_quest_1961-049924aef7f946a173b5/1-0000.mp3", duration = 69.642449, start = 0},
   },
 }
 P.transport["quest:1962"] = {
@@ -2974,7 +2974,7 @@ P.transport["quest:448"] = {
   fullHash = "19d65a",
   text = "Report to Hadrec. In Silverpine, Renferrel sends you to Hadrec as the Scourge threat grows. Renferrel and Bethor Iceshard have investigated the Scourge presence in Lake Lordamere, and High Executor Hadrec now directs preparations against Fenris Isle. Apothecary Renferrel and Bethor Iceshard have studied the danger posed by Thule Ravenclaw, a renegade necromancer. Yet study alone cannot break the Scourge stronghold rising on Fenris Isle. Ravenclaw binds the restless dead there, and Renferrel sees that alchemy and magic will not be enough. The Forsaken military must bring its steel and discipline to bear, so Renferrel sends you to its commander. High Executor Hadrec directs Silverpine Forest's strategic operations for the Dark Lady from the Sepulcher's crypts. Bethor's warnings about Ravenclaw reach him, and Hadrec knows a necromancer entrenched on Lordamere's western shore threatens Undercity's flank. He opens the local garrison's armory to equip the vanguard before sending them against the island fortress.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_448-9672af56b1072918bcdf/1-0000.mp3", duration = 65.1232653, start = 0},
+    {file = "Audio/Transport/full_quest_448-05011b66b6475468e2f5/1-0000.mp3", duration = 62.5110204, start = 0},
   },
 }
 P.transport["quest:449"] = {
@@ -3094,7 +3094,7 @@ P.transport["quest:460"] = {
   fullHash = "5ac568",
   text = "Resting in Pieces. On Fenris Isle, Alaric's severed head calls for help from beyond the grave. He asks you to carry it across Fenris Keep to an unmarked grave near the stables, where his body lies. At Fenris Keep in Silverpine Forest, Alaric served Thule Ravenclaw as chief servant and personal bodyguard. Thule was a powerful mage aligned with the Scourge. When the Plague of Undeath swept through the region, he promised his sorcery would shield Alaric. Instead, the ward trapped him in endless agony and undeath, while his awareness remained in his severed parts. Thule made the rot hide gnolls by infecting local packs with necromantic decay. Then he turned on his own bodyguard. He cut off Alaric's head and threw it to the savage gnolls as a diversion. The rot hides dragged Alaric's body to a shallow grave they had hastily dug outside the keep's stables. They kept his speaking head as a grim plaything until an outsider intervened.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_460-8d2ec9e59f804dc70e90/1-0000.mp3", duration = 59.6897959, start = 0},
+    {file = "Audio/Transport/full_quest_460-94a8e9f7ccdb811d4c4b/1-0000.mp3", duration = 59.8987755, start = 0},
   },
 }
 P.transport["quest:461"] = {
@@ -3102,7 +3102,7 @@ P.transport["quest:461"] = {
   fullHash = "34ab5e",
   text = "The Hidden Niche. In Fenris Keep, Alaric's memories guide you toward a hidden alcove. His remains point to a place of rest, and an old relic waits there. Alaric remembers Fenris Keep in its better days. Horde scouts lifted his bones from a shallow grave outside the stronghold, but he will not go quietly to the Sepulcher. He offers vital knowledge in return: a hidden niche in the keep's southwestern tower holds an item treasured by Thule Ravenclaw and his fellow mages.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_461-f216d822cf0a39768279/1-0000.mp3", duration = 29.8057143, start = 0},
+    {file = "Audio/Transport/full_quest_461-94acc2a66afddef972bf/1-0000.mp3", duration = 29.1526531, start = 0},
   },
 }
 P.transport["quest:4681"] = {
@@ -3350,7 +3350,7 @@ P.transport["quest:491"] = {
   fullHash = "eb8bc2",
   text = "Wand to Bethor. At Fenris Keep, the Woven Wand is bound for Bethor Iceshard in the Undercity. Three apprentice mages made it as a sign of fellowship, but Thule Ravenclaw hid it after choosing the Scourge. Its return brings a piece of Bethor's mortal youth back to the Magic Quarter. Before Lordaeron fell, three young mages joined their training wands into one: the Woven Wand. It marked their friendship and their shared hopes in the magical arts.\n\nThen Thule Ravenclaw gave his loyalty to the Lich King and embraced the Scourge. Their fellowship was broken. He came to despise the friendship they had shared, yet could neither destroy the wand nor leave it with his former companions.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_491-9aea3d8179b17655518b/1-0000.mp3", duration = 42.997551, start = 0},
+    {file = "Audio/Transport/full_quest_491-44221b4bd4dcddd090ab/1-0000.mp3", duration = 42.997551, start = 0},
   },
 }
 P.transport["quest:492"] = {

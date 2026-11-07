@@ -1,0 +1,79 @@
+{
+ "key": "quest:97899",
+ "type": "quest",
+ "name": "Camping 101: Alchemy",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97899
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "An alchemist in Orgrimmar can learn to craft a Mana Well for a camp. It offers healers and spellcasters a refreshing drink, while setting it up calls for a campfire.",
+ "sections": [
+  {
+   "title": "A Well for Camp",
+   "body": "Someone in Orgrimmar asks you to speak with Whuut once you have shown skill in alchemy. Whuut can teach you to craft a Mana Well, a camping item that draws healers and spellcasters seeking refreshment. To set up camp in the wilderness, you also need a campfire. A cooking trainer can teach you how to make one.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who can teach me to make a Mana Well?",
+   "aliases": [
+    "mana well trainer",
+    "whuut alchemy",
+    "who is whuut"
+   ],
+   "answer": "Whuut in Orgrimmar can teach you to craft a Mana Well once you have shown proficiency in alchemy."
+  },
+  {
+   "q": "What does a Mana Well do?",
+   "aliases": [
+    "mana well use",
+    "what is mana well",
+    "camp mana"
+   ],
+   "answer": "A Mana Well is a camping item that offers a refreshing taste to healers and spellcasters."
+  },
+  {
+   "q": "Can I set up camp in town?",
+   "aliases": [
+    "camp in orgrimmar",
+    "mana well town",
+    "camping town"
+   ],
+   "answer": "Most people do not care for camps set up in the center of town, so the completion text points you toward the wilderness to try out your Mana Well."
+  },
+  {
+   "q": "What else do I need for a camp?",
+   "aliases": [
+    "campfire needed",
+    "camp setup",
+    "fire for camp"
+   ],
+   "answer": "A campfire is needed as the basis of a camp. A cooking trainer can teach you to make one."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alchemist",
+  "alchemy",
+  "campfire",
+  "camping",
+  "healers",
+  "mana well",
+  "orgrimmar",
+  "spellcasters",
+  "whuut"
+ ],
+ "related": [
+  "zone:orgrimmar"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Camping 101: Alchemy"
+ ]
+}

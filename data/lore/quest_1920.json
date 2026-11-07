@@ -1,0 +1,91 @@
+{
+ "key": "quest:1920",
+ "type": "quest",
+ "name": "Investigate the Blue Recluse",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1920
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Jennea Cannon asks you to investigate strange invisible creatures in the Blue Recluse tavern. She fears a mana rift has opened there.",
+ "sections": [
+  {
+   "title": "At the Blue Recluse",
+   "body": "Jennea Cannon reports a disturbance at the Blue Recluse in the Mage Quarter. Invisible creatures now wander the tavern, and she fears a mana rift has formed. You are asked to make the creatures visible and capture them in containment coffers. Jennea needs the captured creatures for study.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is happening at the Blue Recluse?",
+   "aliases": [
+    "blue recluse disturbance",
+    "what's wrong at the tavern"
+   ],
+   "answer": "Invisible creatures are wandering the Blue Recluse, and Jennea Cannon fears a mana rift has formed there."
+  },
+  {
+   "q": "Who sent me to investigate?",
+   "aliases": [
+    "who asked me",
+    "jennea blue recluse"
+   ],
+   "answer": "Jennea Cannon asks you to investigate the disturbance at the Blue Recluse."
+  },
+  {
+   "q": "Why does Jennea want the creatures?",
+   "aliases": [
+    "why capture them",
+    "what are the creatures for"
+   ],
+   "answer": "Jennea wants to study the creatures to determine why they arrived."
+  },
+  {
+   "q": "How do I make the creatures visible?",
+   "aliases": [
+    "cantation use",
+    "make creatures visible"
+   ],
+   "answer": "The Cantation of Manifestation makes the creatures visible inside the tavern."
+  },
+  {
+   "q": "What does Jennea fear has happened?",
+   "aliases": [
+    "mana rift tavern",
+    "rift at blue recluse"
+   ],
+   "answer": "Jennea fears a mana rift has formed at the Blue Recluse."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "As a mage, you bring the captured creatures to Jennea Cannon so they can be studied."
+  }
+ ],
+ "keywords": [
+  "blue recluse",
+  "cantation of manifestation",
+  "containment coffer",
+  "invisible creatures",
+  "jennea cannon",
+  "mage quarter",
+  "mana rift"
+ ],
+ "related": [
+  "subzone:mage-quarter",
+  "npc:jennea-cannon",
+  "topic:mage",
+  "item:cantation-of-manifestation",
+  "item:chest-of-containment-coffers",
+  "item:filled-containment-coffer"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Investigate the Blue Recluse"
+ ]
+}

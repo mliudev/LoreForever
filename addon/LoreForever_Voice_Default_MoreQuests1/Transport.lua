@@ -1142,7 +1142,7 @@ P.transport["quest:1961"] = {
   fullHash = "6dbdbc",
   text = "Gathering Materials. In the Undercity, Gathering Materials sends new Horde mages to Silverpine Forest for Dalaran mana gems. They need linen as well to make their first true mage's robes. Undercity initiates gather a bolt of simple linen and potent Dalaran mana gems for their first true robes. Those robes mark their station and personal worth. Anastasia Hartwell directs the novices to gather the raw materials for an enchanted weave. The mana gems cannot be bought or conjured. Dalaran mages are stationed across Silverpine Forest, especially near Ambermill, and the gems must be taken from them. Anastasia Hartwell says Dalaran's arcane philosophies mirror those of the Forsaken. Yet sentiment has no place in the Undercity. To the Forsaken, wizards too weak to defend their relics forfeit their treasures and their lives. Josef Gregorian is a tailor in the Undercity's Magic Quarter, where the gathered cloth and gems are brought. He lacks the magical talent to judge the pristine quality of Dalaran's enchanted stones. But he has the rare artisan skill to weave their raw power into the robes.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1961-f5ef4c7917955277bad8/1-0000.mp3", duration = 66.1159184, start = 0},
+    {file = "Audio/Transport/full_quest_1961-738f2331eef7e4c2b69d/1-0000.mp3", duration = 66.3510204, start = 0},
   },
 }
 P.transport["quest:1962"] = {

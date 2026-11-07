@@ -526,7 +526,7 @@ P.transport["subzone:dalaran"] = {
   fullHash = "8b8874",
   text = "Dalaran. On Lordamere Lake, Dalaran's surviving magi are rebuilding their shattered city. Once the shining capital of the Kirin Tor, it fell to the Scourge and Archimonde during the Third War. Its protective violet shield has been removed. Dalaran began as a sanctuary for arcane study, founded by sorcerers of the Arathorian Empire after the ancient Troll Wars. For centuries, it was humanity's foremost center of magic. The Council of Six led the Kirin Tor, keeping vast archives and powerful artifacts in the Violet Citadel.\n\nThat age ended during the Third War. The traitor prince Arthas led the Scourge through the city gates to seize the Book of Medivh. Soon after, the demon lord Archimonde crushed Dalaran's soaring spires into rubble. After the Legion's defeat, the Kirin Tor's surviving wizards returned to their devastated homeland. They would not yield their ancestral ground to the Scourge or scavengers, and raised a shimmering violet barrier over the city's heart. The shield has since been removed, while rebuilding continues. The magi are restoring their fallen sanctuary, and Archmage Ansirem Runeweaver can be found in the Violet Citadel.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dalaran-de3f8ed1b3795df3965a/1-0000.mp3", duration = 71.2881633, start = 0},
+    {file = "Audio/Transport/full_subzone_dalaran-82d6f1aecd6cfa776761/1-0000.mp3", duration = 72.0979592, start = 0},
   },
 }
 P.transport["subzone:dalson-s-tears"] = {
@@ -2630,7 +2630,7 @@ P.transport["subzone:stromgarde-keep"] = {
   fullHash = "41de60",
   text = "Stromgarde Keep. In the Arathi Highlands, Stromgarde Keep is divided between its royal defenders, the Syndicate and Boulderfist ogres. The fallen kingdom's battered capital holds only part of its fortress. Strom began as the first capital of the unified human empire of Arathor. King Thoradin founded it nearly three millennia ago. From this fortress, humanity prepared its victory over the forest trolls. Here, high elven magi taught the first hundred human spellcasters and began the long history of human wizardry.\n\nDalaran, Lordaeron and Stormwind rose as younger sister kingdoms while Strom's influence waned. The stubborn Trollbane dynasty remained and renamed the city Stromgarde. Through the Second War, it stood as a proud warrior bastion and an anchor of the Alliance of Lordaeron against the Orcish Horde. The devastation of the Third War brought mounting disasters and treachery, and Stromgarde finally broke. Its majestic stone city is now split into three warring sectors. Aristocratic Syndicate traitors hold the grand inner keep, while Boulderfist ogres have overrun the former sanctum of the mage district.\n\nPrince Galen Trollbane and the battered Stromgarde military hold the remaining quarter. They wage a hard, bloody war on several fronts to keep their ancestral home from vanishing into memory.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stromgarde-keep-805734fad8524e663743/1-0000.mp3", duration = 80.9795918, start = 0},
+    {file = "Audio/Transport/full_subzone_stromgarde-keep-e79b11264cac8aeaf01f/1-0000.mp3", duration = 81.0840816, start = 0},
   },
 }
 P.transport["subzone:sundown-marsh"] = {

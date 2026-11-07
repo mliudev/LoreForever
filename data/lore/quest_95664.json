@@ -1,0 +1,71 @@
+{
+ "key": "quest:95664",
+ "type": "quest",
+ "name": "Elder Knowledge",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95664
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A strange Titan Relic scatters light like a living prism, yet its nature remains uncertain. You carry it to Elder Rise in Thunder Bluff to seek someone who can explain its ancient power.",
+ "sections": [
+  {
+   "title": "A Shard of Light",
+   "body": "The unusual composite shard in your keeping scatters light like a living prism. Its nature is uncertain, though its power feels ancient. You take the Titan Relic to Elder Rise in Thunder Bluff and seek someone who can tell you more.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Titan Relic?",
+   "aliases": [
+    "titan relic",
+    "what's the relic",
+    "prism shard"
+   ],
+   "answer": "It is an unusual composite shard that scatters light like a living prism. Its nature is uncertain, but its power feels ancient."
+  },
+  {
+   "q": "Where do I take the Titan Relic?",
+   "aliases": [
+    "where relic go",
+    "elder rise relic",
+    "thunder bluff shard"
+   ],
+   "answer": "Take the Titan Relic to Elder Rise in Thunder Bluff and look for someone who can explain it."
+  },
+  {
+   "q": "Why am I carrying the shard?",
+   "aliases": [
+    "why this relic",
+    "what do with shard",
+    "elder knowledge quest"
+   ],
+   "answer": "You are seeking someone at Elder Rise who can tell you more about the Titan Relic."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ancient power",
+  "composite shard",
+  "elder knowledge",
+  "elder rise",
+  "living prism",
+  "thunder bluff",
+  "titan relic"
+ ],
+ "related": [
+  "subzone:elder-rise",
+  "zone:thunderbluff",
+  "topic:titan",
+  "topic:light"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Elder Knowledge"
+ ]
+}

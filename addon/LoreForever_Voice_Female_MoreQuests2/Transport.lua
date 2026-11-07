@@ -2910,7 +2910,7 @@ P.transport["quest:1939"] = {
   fullHash = "622624",
   text = "High Sorcerer Andromath. At Stormwind’s Wizard’s Sanctum, promising Alliance mages are summoned to the tower’s summit. Andromath works among the kingdom’s foremost archmages beyond ruined Dalaran. Jennea Cannon, the apprentice coordinator in Stormwind’s Mage Quarter, sends promising casters to the summit of the Wizard’s Sanctum. High Sorcerer Andromath, one of the southern kingdoms’ most senior active practitioners of the arcane, has asked to meet magi ready for greater responsibilities. Dalaran’s magocracy was ruined in the Third War, and its surviving wizards are busy rebuilding. Without easy access to the Violet Citadel’s libraries, the Alliance relies on senior archmages in Stormwind to study ancient threats and guide research into shadowy, forbidden arts.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1939-e0cad596eeb07004e997/1-0000.mp3", duration = 49.2669388, start = 0},
+    {file = "Audio/Transport/full_quest_1939-cc352a097dc476836ae0/1-0000.mp3", duration = 46.2889796, start = 0},
   },
 }
 P.transport["quest:194"] = {
@@ -4222,7 +4222,7 @@ P.transport["quest:442"] = {
   fullHash = "00b110",
   text = "Assault on Fenris Isle. High Executor Hadrec sends Forsaken agents to Fenris Isle. They are to storm Fenris Keep and take the head of Thule Ravenclaw, the necromancer commanding the island stronghold in Lake Lordamere. The Forsaken hold the western roads and have made their presence known at the Sepulcher. Yet the Scourge remain entrenched in Fenris Keep, on an island in Lake Lordamere east of Silverpine Forest. Their forces threaten the forest and the southern waterways that lead toward the Undercity. High Executor Hadrec sees Thule Ravenclaw’s experiments as a danger to Forsaken control of Silverpine. From the keep, Thule commands the Scourge close to the Forsaken shore.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_442-56ead0288c4dfa9d5b2d/1-0000.mp3", duration = 40.1763265, start = 0},
+    {file = "Audio/Transport/full_quest_442-20e98237e3358d8e25e5/1-0000.mp3", duration = 40.2808163, start = 0},
   },
 }
 P.transport["quest:453"] = {
@@ -4726,7 +4726,7 @@ P.transport["quest:516"] = {
   fullHash = "0e0d5c",
   text = "Beren's Peril. In southern Silverpine Forest, Shadow Priest Allister moves against Scourge gathering in a hidden cave. The Forsaken hope to strike before the undead begin their offensive. Shadow Priest Allister has heard that servants of the Lich King gather deep in southern Silverpine Forest. Their growing numbers threaten Forsaken operations across the region. So Allister sends scouts to strike first and destroy the Scourge in their secluded lair before they can mobilize. South of Ambermill, the Dalaran-aligned settlement, a hidden cave cuts into the hills. Its rough slopes make the cavern easy to miss, and the approach runs around the hills’ southern face. Ravenclaw drudgers and guardians dwell within. Destroying these Scourge remnants helps the Forsaken hold their ground in the forest.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_516-cbaba1290d4dc5a0b241/1-0000.mp3", duration = 48.4310204, start = 0},
+    {file = "Audio/Transport/full_quest_516-62f4be3f5af25ea7a7c5/1-0000.mp3", duration = 49.397551, start = 0},
   },
 }
 P.transport["quest:517"] = {
@@ -4990,7 +4990,7 @@ P.transport["quest:555"] = {
   fullHash = "78e159",
   text = "Soothing Turtle Bisque. Chef Jessen wants Soothing Turtle Bisque back on Southshore's tavern menu. Unrest has cut off his snapjaw turtle meat, so he asks cooks to brave the northern waters near Dalaran and Lake Lordamere. Southshore is one of Lordaeron's last intact coastal towns held by the Alliance. Civilian life continues there amid growing strife. Chef Jessen says his cooking rivals any tavern north of Stormwind. Patrons supposedly come from Darkshire in Duskwood to taste his bisque. The rich soup calls for fresh meat from snapjaw turtles native to the rivers and lakes of the northern mountains. In calmer years, Jessen gathered turtle meat himself. He traveled past Dalaran to the eastern shore of Lordamere Lake. Now rising tensions, hostile wildlife, the Syndicate, and Forsaken incursions make the lands beyond town deadly for ordinary townsfolk. To keep the bisque on his menu, Jessen relies on armed travelers to gather meat from snapjaws along the riverbanks and northern shores.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_555-835ed66f48323746e92a/1-0000.mp3", duration = 62.0146939, start = 0},
+    {file = "Audio/Transport/full_quest_555-a101156d54b1cf4a5872/1-0000.mp3", duration = 63.0595918, start = 0},
   },
 }
 P.transport["quest:556"] = {
@@ -7638,7 +7638,7 @@ P.transport["quest:93089"] = {
   fullHash = "714db2",
   text = "What Comes Next. On Zephras Isle, the High Order seeks your blessing before departing with its Kirin Tor allies. Their expedition depends on finding an arcane answer to the island’s instability. High Elder Shadowsong has blessed the expedition, and its preparations are ready. Ansirem has worked to establish skycutter travel between Dalaran and Zephras Isle. Now the vanguard is preparing to depart. Speak with Elaadrin Evengale when you are ready to leave the island.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_93089-6cfe82ec2502c7e0914f/1-0000.mp3", duration = 29.6489796, start = 0},
+    {file = "Audio/Transport/full_quest_93089-c917ae25ecaf0e8906af/1-0000.mp3", duration = 30.3804082, start = 0},
   },
 }
 P.transport["quest:93090"] = {
@@ -8670,7 +8670,7 @@ P.transport["quest:95981"] = {
   fullHash = "2b795f",
   text = "Watching the Roads. Shadow Priest Allister sends the Forsaken against Kirin Tor patrols near Ambermill. With Dalaran's barrier down, their wizards and watchers guard the roads into Silverpine Forest while carrying magical goods into Forsaken lands. Near Ambermill, Kirin Tor wizards and sentries watch the roads into Silverpine Forest. Since the barrier around Dalaran fell, they have tightened their hold on travel across the border. From the Sepulcher, the Forsaken see the human magi using these roads to carry dangerous relics and enchanted pendants into contested lands. Shadow Priest Allister wants to stop the flow of Dalaran's magical goods at its source. He sends agents after the Kirin Tor escorts on the roads near Ambermill. By striking Dalaran Wizards and Dalaran Watchers, the Forsaken aim to break the Kirin Tor's hold on regional travel and guard their eastern frontier from outside arcane meddling.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_95981-58bb16b5deca678a3dbb/1-0000.mp3", duration = 58.1746939, start = 0},
+    {file = "Audio/Transport/full_quest_95981-e2d5b159d40dc1c1cb7c/1-0000.mp3", duration = 56.5289796, start = 0},
   },
 }
 P.transport["quest:95998"] = {
@@ -8894,7 +8894,7 @@ P.transport["quest:96800"] = {
   fullHash = "430856",
   text = "Past Due. A scholar needs a missing tome from the Scarlet Monastery to study Grim Batol’s ancient Wildhammer runemasters. The old Dalaran library’s ledgers show that Arcanist Doan borrowed the tome before the Third War and never returned it.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_96800-d7b4e20387fc6996b130/1-0000.mp3", duration = 16.2742857, start = 0},
+    {file = "Audio/Transport/full_quest_96800-2b21f6b4d4110d795cf2/1-0000.mp3", duration = 15.4644898, start = 0},
   },
 }
 P.transport["quest:96821"] = {
@@ -8998,7 +8998,7 @@ P.transport["quest:96986"] = {
   fullHash = "447d2b",
   text = "The Grave Knight. In Tarren Mill, Melisara sends you after Atrexis, who raises the dead beneath Dalaran. She sees his work as an affront to the Forsaken. Melisara calls Atrexis a traitor to the Forsaken. Beneath Dalaran, he raises an undead army. She asks you to defeat him, though she cares little for the mage city's fate. No one is beyond the Dark Lady's reach.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_96986-2a6eeb0962064fcff8c1/1-0000.mp3", duration = 25.2081633, start = 0},
+    {file = "Audio/Transport/full_quest_96986-bf7bef86272f3e2e4363/1-0000.mp3", duration = 25.3910204, start = 0},
   },
 }
 P.transport["quest:96988"] = {
@@ -9238,7 +9238,7 @@ P.transport["quest:97287"] = {
   fullHash = "52b78b",
   text = "Shrewd Negotiations. After your infiltration of the mages' city, Magus Wordeen Voidglare sends you to Dalaran. Carry the arcane mote to Archmage Celindra; Wordeen believes the Kirin Tor will give anything to recover it. Magus Wordeen Voidglare says no order on Azeroth matches the Kirin Tor in arcane knowledge. Even his brilliant work pales beside their ancient wisdom. He believes the Horde should gain access to their exclusive order. So he sends you to Archmage Celindra in Dalaran with the mote you acquired. Wordeen believes the Kirin Tor will give anything to get it back.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_97287-cfe8f0e9ade09faf7b8f/1-0000.mp3", duration = 35.9706122, start = 0},
+    {file = "Audio/Transport/full_quest_97287-0bb4ee793183a4226bd1/1-0000.mp3", duration = 35.2653061, start = 0},
   },
 }
 P.transport["quest:97288"] = {

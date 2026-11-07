@@ -1,0 +1,84 @@
+{
+ "key": "quest:30",
+ "type": "quest",
+ "name": "Trial of the Sea Lion",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   30
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Dendrite Starblaze asks you to seek two pendant halves in Moonglade and bring him the joined Pendant of the Sea Lion. Clues from the residents point toward the halves, and the Shrine of Remulos is where they can be joined.",
+ "sections": [
+  {
+   "title": "Dendrite's Request",
+   "body": "Dendrite Starblaze in Nighthaven asks you to find two halves of a pendant in Moonglade. The residents may know where the Half Pendant of Aquatic Agility and the Half Pendant of Aquatic Endurance can be found. Bring the joined Pendant of the Sea Lion back to Dendrite.",
+   "spoiler": 0
+  },
+  {
+   "title": "At the Shrine",
+   "body": "The two pendant halves can be joined near the Shrine of Remulos. Once formed, the Pendant of the Sea Lion is to be brought to Dendrite Starblaze in Nighthaven.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Dendrite Starblaze want?",
+   "aliases": [
+    "dendrite request",
+    "what does dendrite need"
+   ],
+   "answer": "Dendrite Starblaze asks you to find the two pendant halves in Moonglade, join them near the Shrine of Remulos, and bring him the Pendant of the Sea Lion."
+  },
+  {
+   "q": "Where can I find clues about the pendant halves?",
+   "aliases": [
+    "pendant clues",
+    "where are the halves"
+   ],
+   "answer": "The residents of Moonglade may have clues about where the Half Pendant of Aquatic Agility and the Half Pendant of Aquatic Endurance are located."
+  },
+  {
+   "q": "Where do I join the two halves?",
+   "aliases": [
+    "join pendant",
+    "shrine pendant"
+   ],
+   "answer": "The two pendant halves can be joined in proximity to the Shrine of Remulos."
+  },
+  {
+   "q": "Where is Dendrite Starblaze waiting?",
+   "aliases": [
+    "dendrite location",
+    "where is dendrite"
+   ],
+   "answer": "Dendrite Starblaze is in the village of Nighthaven in Moonglade."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "aquatic agility",
+  "aquatic endurance",
+  "dendrite starblaze",
+  "moonglade",
+  "nighthaven",
+  "pendant",
+  "sea lion",
+  "shrine of remulos",
+  "trial of the sea lion"
+ ],
+ "related": [
+  "quest:5921",
+  "subzone:nighthaven",
+  "npc:dendrite-starblaze",
+  "npc:remulos",
+  "item:pendant-of-the-sea-lion"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Trial of the Sea Lion"
+ ]
+}

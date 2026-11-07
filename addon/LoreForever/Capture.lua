@@ -641,7 +641,9 @@ local function speakerOf(unit)
   if who and kind and who.kind == kind and who.id == id then return who end
   if kind == "object" then return { kind = "object", id = id } end
   if kind == "npc" then
-    return { kind = "npc", id = id, name = call(_G.UnitName, unit), sex = ns.Giver.Sex(unit),
+    -- A secret name (in combat, an instance) would throw later in SpeakerField's tostring and concat (LOR-1257).
+    local name = call(_G.UnitName, unit)
+    return { kind = "npc", id = id, name = usable(name) and name or nil, sex = ns.Giver.Sex(unit),
       ctype = call(_G.UnitCreatureType, unit) }
   end
 end

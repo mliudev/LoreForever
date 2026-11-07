@@ -663,6 +663,14 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     ns.Log.Init()
     ns.Errors.Init()   -- the Lua errors kept while the add-on loaded go into LoreForeverDB.errors (Errors.lua)
     LoreForeverDB.addonVersion = ns.Log.Version()   -- which add-on wrote this saved data, for Willo to read
+  elseif event == "ADDON_LOADED" and arg1 == "LoreForever_Showcase" then
+    -- The developer showcase (LOR-1236: /lfs plays any feature from anywhere, for videos and QA) gets this add-on's
+    -- table, and a way to send this frame a game event (its fake arrival). No release has that folder (build-release.sh
+    -- zips only the ones it names), so for players this never runs.
+    local s = rawget(_G, "LoreForeverShowcase")
+    if type(s) == "table" and type(s.Attach) == "function" then
+      pcall(s.Attach, ns, function(e, ...) events:GetScript("OnEvent")(events, e, ...) end)
+    end
   elseif event == "ADDON_ACTION_FORBIDDEN" or event == "ADDON_ACTION_BLOCKED" then
     ns.Errors.OnBlocked(event, arg1, ...)
   elseif event == "PLAYER_LOGIN" then

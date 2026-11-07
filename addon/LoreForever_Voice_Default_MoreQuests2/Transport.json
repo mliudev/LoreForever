@@ -25093,9 +25093,9 @@
     "quest:93680": {
       "1": [
         {
-          "duration": 39.157551020408164,
-          "file": "Audio/Transport/full_quest_93680-de61587f62b361955026/1-0000.mp3",
-          "sha256": "6cf83599b6ed0308fb1e170df210993cde7cfc3823ae2d20d9630538e728e6d5",
+          "duration": 37.17224489795918,
+          "file": "Audio/Transport/full_quest_93680-68b33e3b7eddfa7306c1/1-0000.mp3",
+          "sha256": "e588910267da832615d396eb056b936088bf01530011075b468f118be8ac10c9",
           "start": 0
         }
       ],
@@ -25107,12 +25107,12 @@
         ]
       },
       "fullHash": "bb9d2c",
-      "generation": "6e7ac1223a91460e7382",
+      "generation": "4da9e699d481b088c991",
       "hash": "bb9d2c",
       "source": {
-        "duration": 39.183673,
+        "duration": 37.198367,
         "file": null,
-        "sha256": "de61587f62b3619550265bdd909262e925c39eb94eea4b1cfc60737b7b311690"
+        "sha256": "68b33e3b7eddfa7306c131e18114235823cae4a31c3fc94ff4afd93abdf3976e"
       },
       "text": "Key to the City. Wordeen seeks a way into Dalaran, now rebuilt on the Dark Lady’s doorstep. In Tarren Mill, Magus Wordeen Voidglare wants to learn more about the Kirin Tor. Their city, Dalaran, fell to the demonic Burning Legion in a single stroke from the arch demon Archimonde. The surviving mages became dispossessed vagabonds. Now they have rebuilt Dalaran on the Dark Lady’s very doorstep.\n\nWordeen sends you to search their camps. He hopes you will find an ancient tome, a secret relic, or something else that can get the Horde into the city unnoticed. What you bring back is a grimy Dalaran sewer key."
     },
@@ -38776,12 +38776,6 @@
       1147,
       1306
     ],
-    "6cf83599b6ed0308fb1e170df210993cde7cfc3823ae2d20d9630538e728e6d5": [
-      216,
-      420,
-      694,
-      979
-    ],
     "6d45863cc4a121dbe5ef3f6fdd1f6d219096e6c086ae6c0aa98f04e65ecf0bdb": [
       232,
       439,
@@ -43820,6 +43814,12 @@
       1263,
       1435
     ],
+    "e588910267da832615d396eb056b936088bf01530011075b468f118be8ac10c9": [
+      224,
+      411,
+      648,
+      941
+    ],
     "e5a6ab165e7d3e425f90504eafa28f53735890acc630cfe83ad036c65c3c6e26": [
       392
     ],
@@ -46997,9 +46997,6 @@
       "1147": 2,
       "509": 1
     },
-    "6cf83599b6ed0308fb1e170df210993cde7cfc3823ae2d20d9630538e728e6d5": {
-      "216": 1
-    },
     "6d45863cc4a121dbe5ef3f6fdd1f6d219096e6c086ae6c0aa98f04e65ecf0bdb": {
       "1245": 2,
       "439": 1
@@ -49242,6 +49239,9 @@
     "e5449fafd12d136fe2bbbeecd29824a49985ddc4c977a9e37b465dc17fe37adb": {
       "1045": 2,
       "403": 1
+    },
+    "e588910267da832615d396eb056b936088bf01530011075b468f118be8ac10c9": {
+      "224": 1
     },
     "e5ca53609fbd44486a96a2b548eaf56396bb7bafd574bbb5468b99494e2fda75": {
       "1235": 2,
