@@ -3487,9 +3487,9 @@
     "item:dalaran-mana-gem": {
       "1": [
         {
-          "duration": 53.7861224489796,
-          "file": "Audio/Transport/full_item_dalaran-mana-gem-a8fe94d2cce307111813/1-0000.mp3",
-          "sha256": "e48be814f539d9500253330d12be133f7fb0404dd854d712c2b93c17f0203503",
+          "duration": 48.953469387755106,
+          "file": "Audio/Transport/full_item_dalaran-mana-gem-07727a97943801362d62/1-0000.mp3",
+          "sha256": "17111fdc24727b988462e4f5d9c89c8116c66123532d29508717cff8c674a329",
           "start": 0
         }
       ],
@@ -3500,15 +3500,15 @@
           "1"
         ]
       },
-      "fullHash": "adb275",
-      "generation": "98613fba1831f92f3ec5",
-      "hash": "adb275",
+      "fullHash": "69ed0a",
+      "generation": "c3a25f3bc4bc468d7ea6",
+      "hash": "69ed0a",
       "source": {
-        "duration": 53.812245,
+        "duration": 48.979592,
         "file": null,
-        "sha256": "a8fe94d2cce3071118131a9a220ca12a719a501f4af2207cd5f752aae82a9f68"
+        "sha256": "07727a97943801362d623a7a73d0ad0599c65bffc8c9c0529ae54d60038c489d"
       },
-      "text": "Dalaran Mana Gem. Near Ambermill, Kirin Tor mages carry Dalaran Mana Gems to renew their arcane power. Forsaken tailors use the gems to weave enchanted robes. Around Ambermill, Kirin Tor mages, conjurors, and guards carry mana gems to focus and renew their arcane power. In the Undercity’s Magic Quarter, Forsaken practitioners prize the gems as a ready store of concentrated magic. Some undead mages share an academic heritage with Dalaran. Yet survival comes first, and the Forsaken see the Kirin Tor as rivals whose stores of magic can be taken. Forsaken bring mana gems taken from fallen Kirin Tor operatives to tailors such as Josef Gregorian in the Undercity. They bring simple linen as well. A tailor cannot channel arcane power directly, but can bind a gem into cloth. The magic strengthens the wearer’s connection to the arcane."
+      "text": "Dalaran Mana Gem. Near Ambermill, Kirin Tor mages carry Dalaran Mana Gems to renew their arcane power. Forsaken tailors use the gems to weave enchanted robes. The Kirin Tor’s conjurors and guards carry the gems as well. In the Undercity’s Magic Quarter, Forsaken practitioners prize the gems as a ready store of concentrated magic. Some undead mages share an academic heritage with Dalaran. Yet survival comes first, and the Forsaken see the Kirin Tor as rivals whose stores of magic can be taken. Forsaken bring mana gems taken from fallen Kirin Tor operatives to tailors such as Josef Gregorian in the Undercity. They bring simple linen as well. A tailor cannot channel arcane power directly, but can bind a gem into cloth. The magic strengthens the wearer’s connection to the arcane."
     },
     "item:dalaran-pendant": {
       "1": [
@@ -16851,9 +16851,9 @@
     "item:thule-s-head": {
       "1": [
         {
-          "duration": 12.956734693877552,
-          "file": "Audio/Transport/full_item_thule-s-head-e6eb0120030ded103e6f/1-0000.mp3",
-          "sha256": "8f1996c1f983bcea426bd6415b9e6b29c24e29bd2be20124490a4829a793537f",
+          "duration": 12.538775510204083,
+          "file": "Audio/Transport/full_item_thule-s-head-579938f35f9eb899be99/1-0000.mp3",
+          "sha256": "1f157b5ad392aca0f81b7ace4ed10286fd67fba60f7266ee9a3719bf99c271d4",
           "start": 0
         }
       ],
@@ -16865,12 +16865,12 @@
         ]
       },
       "fullHash": "4a2843",
-      "generation": "dc9f6fb7167237bf18eb",
+      "generation": "ecd982f4b68c998b8e9d",
       "hash": "4a2843",
       "source": {
-        "duration": 12.982857,
+        "duration": 12.538776,
         "file": null,
-        "sha256": "e6eb0120030ded103e6f3bf26afa1af4e3185cc0e34fe3cf04039222a178566c"
+        "sha256": "579938f35f9eb899be99f4645cfc6578e5520509ffe16d1f14c12cadccceac2e"
       },
       "text": "Thule's Head. At the Sepulcher, High Executor Hadrec seeks proof that Thule Ravenclaw is dead. His severed head confirms the Scourge commander on Fenris Isle has fallen and helps the Forsaken hold Silverpine Forest."
     },
@@ -19754,6 +19754,13 @@
       1142,
       1395
     ],
+    "17111fdc24727b988462e4f5d9c89c8116c66123532d29508717cff8c674a329": [
+      390,
+      533,
+      934,
+      1193,
+      1472
+    ],
     "1729ac52b95a8bb5a3a27a6a3e2ba0a3b440a90c6088d05b0ae0df03a5832862": [
       470
     ],
@@ -19953,6 +19960,9 @@
       810,
       967,
       1124
+    ],
+    "1f157b5ad392aca0f81b7ace4ed10286fd67fba60f7266ee9a3719bf99c271d4": [
+      206
     ],
     "1f268fb4825aaa133c33fe160c5abe1259450441ca7cd6bf5baa93df59002a34": [
       267,
@@ -21058,6 +21068,10 @@
     "559b50fb47554dbd2583a64f8227d9c11bbdf68c5d50193e02009a97efc14f2e": [
       491
     ],
+    "55a71d1b555b7d5e18ffeacd38d8d767232e178fb65086c0c96f2c35051dac8f": [
+      523,
+      826
+    ],
     "55e586765db4bd11f4a19cdca7f778b0a7460279e651709b59cc0b1ed883983b": [
       244,
       402,
@@ -21172,9 +21186,6 @@
       746,
       1054,
       1334
-    ],
-    "5ce0972aa565b4eba9673c0eafec2df2f8ba4dd581e6b245fe25a871d365f235": [
-      515
     ],
     "5ce8a5a5df3e0efd5262bdc83297240fa0d41480ee4576c1fb7db76a26f916e2": [
       374,
@@ -21380,6 +21391,9 @@
       585,
       813,
       1031
+    ],
+    "652b60730cc6ba2a1f0ce67118c672067a073d7ab797068639e78eca204aa2f1": [
+      715
     ],
     "6572fc191fe0b3632a2595f5d760f8a39eeb78035c6e18a6723fcd5aa9ee1bea": [
       196,
@@ -22397,9 +22411,6 @@
       1164,
       1453,
       1738
-    ],
-    "8f1996c1f983bcea426bd6415b9e6b29c24e29bd2be20124490a4829a793537f": [
-      217
     ],
     "8fa7952d690f2651fdbe669c854c8f1ebbe194eafea5de4f70d0f5a400796c41": [
       141,
@@ -23463,9 +23474,6 @@
       1578,
       1850
     ],
-    "bf27c1c143964bb72416ecfdf34899db54e0e918b68f7f966a2a18312917e9c4": [
-      529
-    ],
     "bf78df1f50321b9668a9f90a2be032afb14d85241d17027e8e2a852a9dc271b8": [
       745,
       1221
@@ -24211,15 +24219,6 @@
       523,
       832,
       1156
-    ],
-    "e48be814f539d9500253330d12be133f7fb0404dd854d712c2b93c17f0203503": [
-      246,
-      407,
-      706,
-      961,
-      1115,
-      1367,
-      1641
     ],
     "e50f2a7d5af2535c943a6e66cd111c407c477a2cb2e134dd25e606a2f46da3bf": [
       204,
@@ -25002,6 +25001,10 @@
     "170971503aae8601f2125ebec3a0bacdc340cff6b45f51134746390a1dc75364": {
       "1142": 2,
       "453": 1
+    },
+    "17111fdc24727b988462e4f5d9c89c8116c66123532d29508717cff8c674a329": {
+      "1193": 2,
+      "390": 1
     },
     "17b141357755c130310abbafadfbde844fcb58b4b63a4e6c3dab09a7d2d763f8": {
       "355": 1
@@ -26866,10 +26869,6 @@
     },
     "e44a0570631c9e76351f5ead82564154b762467d122fd0d14ecd365e312f3e7e": {
       "523": 1
-    },
-    "e48be814f539d9500253330d12be133f7fb0404dd854d712c2b93c17f0203503": {
-      "1367": 2,
-      "407": 1
     },
     "e50f2a7d5af2535c943a6e66cd111c407c477a2cb2e134dd25e606a2f46da3bf": {
       "1207": 2,

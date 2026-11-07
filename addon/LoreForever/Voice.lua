@@ -207,6 +207,13 @@ local function isQuestClip(id)
   return type(id) == "string" and id:find("^quest:%d+#%a+$") ~= nil and not id:find("#title$")
 end
 
+-- A story's spoken title or section heading (<key>#title, <key>#head<n>: lore.titles) is part of its story, never a
+-- recording of its own: no count includes it (LOR-1084; the site's counts leave them out too, #2537).
+function Voice.PartOfStory(id)
+  return type(id) == "string" and (id:find("#title$") or id:find("#head%d+$")) ~= nil
+end
+local partOfStory = Voice.PartOfStory
+
 -- The default pack for a language: LoreForever_Voice_Default_<locale>, or LoreForever_Voice_Default for its language.
 function Voice.DefaultPack(locale)
   locale = locale or readingLocale()
@@ -446,7 +453,9 @@ function Voice.Count(name)
   for _, pack in ipairs(packs) do
     local data = ns.Packs.data[pack]
     for id, h in pairs(data and data.clips or {}) do
-      if Voice.ClipCurrent(id, pack, hashes[id]) or (hashes[id] and Voice.Transport and Voice.Transport(id, pack, true)) then
+      if partOfStory(id) then
+        -- (counted with its story)
+      elseif Voice.ClipCurrent(id, pack, hashes[id]) or (hashes[id] and Voice.Transport and Voice.Transport(id, pack, true)) then
         current[id] = true
       elseif hashes[id] then old[id] = true end
     end
@@ -678,7 +687,7 @@ local function voiceClips(name, packs, hashes, scoped, stamp)
         local paths = has[id]
         if not paths then paths = {}; has[id] = paths end
         paths[#paths + 1] = Voice.ClipPath(pack, id, data.ext)
-      elseif h then
+      elseif h and not partOfStory(id) then
         stale = stale + 1
       end
     end
@@ -692,7 +701,7 @@ local function voiceClips(name, packs, hashes, scoped, stamp)
   end
   held = { key = key, rows = {}, provided = provided, have = 0, stale = stale }
   for id, paths in pairs(has) do
-    held.have = held.have + 1
+    if not partOfStory(id) then held.have = held.have + 1 end
     held.rows[id] = { name, paths }
   end
   voiceMemo[name] = held
@@ -732,7 +741,7 @@ function Voice.Refresh(sameClips)
     local valid = ns.Lang.ValidateEdition()
     local active, served, provided, total = {}, {}, {}, 0
     for id, h in pairs(valid and not S().editionVoiceOff and ns.DB.clipHash or {}) do
-      total = total + 1
+      if not partOfStory(id) then total = total + 1 end
       local recorded = edition.voice.clips[id]
       if recorded then provided[id] = true end
       if recorded == h then
@@ -781,9 +790,9 @@ function Voice.Refresh(sameClips)
     for _, pack in ipairs(packsOf[name]) do scopedIds(pack, scoped) end
   end
   local extra = {}   -- (the only part of `scoped` that can change what another voice has)
-  for _ in pairs(hashes) do total = total + 1 end
+  for id in pairs(hashes) do if not partOfStory(id) then total = total + 1 end end
   for id in pairs(scoped) do
-    if hashes[id] == nil then
+    if hashes[id] == nil and not partOfStory(id) then
       total = total + 1
       extra[#extra + 1] = id
     end
@@ -1272,7 +1281,7 @@ function Voice.Status(loreCounts)
   end
   if Voice.SoundOff() == "all" then lines[#lines + 1] = L["The game's sound is off, so recorded narrations can't play (System > Sound)."] end
   local covered = 0
-  for _ in pairs(Voice.servedBy) do covered = covered + 1 end
+  for id in pairs(Voice.servedBy) do if not partOfStory(id) then covered = covered + 1 end end
   local count = covered >= Voice.total and L["%d of %d narrations."] or L["%d of %d narrations; the rest show as text only."]
   if loreCounts then
     count = covered >= Voice.total and L["%d of %d lore recordings."] or L["%d of %d lore recordings; the rest show as text only."]
@@ -1550,7 +1559,7 @@ function Voice.Heard(id)
 end
 
 function Voice.MarkHeard(id)
-  if type(id) == "string" and (id:find("#title$") or id:find("#head%d+$")) then return end   -- (part of its story)
+  if partOfStory(id) then return end
   local t = id and heardStore()
   if t and t[id] == nil then t[id] = (time and time()) or 0 end
 end
@@ -1762,7 +1771,8 @@ local function beginTransport(row, options)
   local before = parts[index - 1]
   if options and options.section and before and before.heading and before.start == offset then index = index - 1 end
   local t = { row = row, parts = parts, rate = rate, index = index, lastTick = (GetTime and GetTime()) or 0 }
-  if not segment(t, index) then return false end
+  -- A heading that won't play is left out: its section plays without it (LOR-1084: a broken or partial install).
+  if not segment(t, index) and not (parts[index].heading and segment(t, index + 1)) then return false end
   Voice.transport, Voice.transportToken = t, {}
   local token = Voice.transportToken
   local function tick()
@@ -1794,7 +1804,12 @@ local function beginTransport(row, options)
     -- Give an initially delayed sound handle time to start. Once observed playing, no extra gap is needed.
     local stopped = playing == false and (t.seenPlaying or elapsed >= math.min(1, part.duration))
     if not stalled and stopped and elapsed < part.duration - 0.75 then
-      fail(part.path, part.start)
+      -- A heading that stops short is left out the same way: on to its section now.
+      if part.heading and segment(t, t.index + 1) then
+        C_Timer.After(0.05, tick)
+      else
+        fail(part.path, part.start)
+      end
       return
     end
     local last = t.index >= #t.parts
@@ -1803,8 +1818,13 @@ local function beginTransport(row, options)
       return
     end
     if not last and (elapsed >= part.duration - HANDOFF_EARLY or (stalled and playing ~= true)) then
-      local nextPart = t.parts[t.index + 1]
-      if not segment(t, t.index + 1, stalled and now or t.started + part.duration) then
+      local nextPart, at = t.parts[t.index + 1], stalled and now or t.started + part.duration
+      local handed = segment(t, t.index + 1, at)
+      if not handed and nextPart.heading and t.parts[t.index + 2] then   -- (a heading that won't play: its section)
+        nextPart = t.parts[t.index + 2]
+        handed = segment(t, t.index + 2, at)
+      end
+      if not handed then
         fail(nextPart.path, nextPart.start)
         return
       end
@@ -3058,12 +3078,18 @@ end
 
 -- Spoken's modules cover different text. Only its zone module competes with arrival lore; quest-only Spoken
 -- must leave Lore Forever's own stories playing. Books are left to its book module quietly.
+-- Its folders by both names: SpokenZones/SpokenBooks/SpokenQuest before its split, Spoken_Places/Spoken_Readables/
+-- Spoken_Quests after (rusty-key/spoken-wow, late October). Missing the new names, Lore Forever talked over it (LOR-1223).
+local function spokenZones(name) return name:find("^spokenzone") or name:find("^spoken_?places") end
+local function spokenBooks(name) return name:find("^spokenbook") or name:find("^spoken_?readables") end
+local function spokenQuests(name) return name:find("^spoken_?quest") end
+
 function Voice.CheckSpoken()
   local s = S()
-  if not s.spokenBooks and addOnLoaded(function(name) return name:find("^spokenbook") end) then
+  if not s.spokenBooks and addOnLoaded(spokenBooks) then
     s.readBooks, s.spokenBooks = false, true
   end
-  if s.spokenZonesChecked or not addOnLoaded(function(name) return name:find("^spokenzone") end) then return end
+  if s.spokenZonesChecked or not addOnLoaded(spokenZones) then return end
   s.spokenZonesChecked = true
   if s.autoZone == false then return end
   s.autoZone = false
@@ -3073,7 +3099,7 @@ end
 -- Other add-ons that voice quest dialogue (LOR-182), by the core folder their Forever builds install (their voice packs
 -- depend on it). folders: lower case, any one loaded counts; books: it reads books aloud too. None plays on arrival.
 local QUEST_VOICES = {
-  { id = "spokenquest", title = "Spoken Quest", match = function(name) return name:find("^spokenquest") end },
+  { id = "spokenquest", title = "Spoken Quests", match = spokenQuests },
   { id = "forevervo", title = "Forever Voiceover", folders = { forevervo = true } },
   { id = "chronicle", title = "Chronicle", folders = { foreverchronicle = true }, books = true },
   { id = "speakstone", title = "SpeakStone Forever", folders = { speakstone_forever_main = true }, books = true },

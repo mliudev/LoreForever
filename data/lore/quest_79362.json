@@ -1,0 +1,95 @@
+{
+ "key": "quest:79362",
+ "type": "quest",
+ "name": "Grant's Shield",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79362
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Sirra Von\u2019Indie seeks Grant Valor\u2019s mace in Raven Hill Cemetery, where his spirit still battles the undead. The weapons may help her learn more about the proud hero.",
+ "sections": [
+  {
+   "title": "A Fallen Hero",
+   "body": "Sirra Von\u2019Indie in Darkshire asks you to find Grant Valor\u2019s mace among the skeletons in Raven Hill Cemetery. Grant\u2019s shield was left behind by his specter, and his spirit still fights the undead there. The mace may point to the creature that injured him, and Sirra wants to study the weapons.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Weapons",
+   "body": "In Darkshire, Sirra Von\u2019Indie reflects on how a simple creature brought Grant Valor low. She says a single slip can cripple a person for life. The weapons, she believes, tell much about their owner, and she takes time to study them.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Grant Valor?",
+   "aliases": [
+    "grant valor",
+    "who is grant",
+    "grant backstory"
+   ],
+   "answer": "Grant Valor was the father of the Valor family and a hero of Raven Hill. His specter still battles the undead."
+  },
+  {
+   "q": "Where is Grant's mace?",
+   "aliases": [
+    "grant mace",
+    "find grant's mace",
+    "mace location"
+   ],
+   "answer": "Grant\u2019s mace is on one of the skeletons in Raven Hill Cemetery."
+  },
+  {
+   "q": "Why am I looking for Grant's mace?",
+   "aliases": [
+    "why find mace",
+    "grant shield quest",
+    "what does sirra want"
+   ],
+   "answer": "Sirra Von\u2019Indie asks you to find the mace so she can learn more from Grant\u2019s weapons."
+  },
+  {
+   "q": "Where do I take the mace?",
+   "aliases": [
+    "return mace",
+    "sirra location",
+    "where is von'indie"
+   ],
+   "answer": "Return Grant\u2019s mace to Sirra Von\u2019Indie in Darkshire."
+  },
+  {
+   "q": "What happened to Grant?",
+   "aliases": [
+    "grant injured",
+    "how was grant hurt",
+    "grant valor shield"
+   ],
+   "answer": "Grant was injured by a creature in Raven Hill Cemetery. His spirit still battles the undead there."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "darkshire",
+  "grant valor",
+  "grant's mace",
+  "grant's shield",
+  "raven hill cemetery",
+  "sirra von'indie",
+  "undead",
+  "valor family"
+ ],
+ "related": [
+  "quest:96139",
+  "subzone:raven-hill-cemetery",
+  "subzone:darkshire",
+  "topic:scourge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Grant's Shield"
+ ]
+}

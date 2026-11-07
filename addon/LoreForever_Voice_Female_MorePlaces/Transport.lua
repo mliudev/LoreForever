@@ -526,7 +526,7 @@ P.transport["subzone:dalaran"] = {
   fullHash = "8b8874",
   text = "Dalaran. On Lordamere Lake, Dalaran's surviving magi are rebuilding their shattered city. Once the shining capital of the Kirin Tor, it fell to the Scourge and Archimonde during the Third War. Its protective violet shield has been removed. Dalaran began as a sanctuary for arcane study, founded by sorcerers of the Arathorian Empire after the ancient Troll Wars. For centuries, it was humanity's foremost center of magic. The Council of Six led the Kirin Tor, keeping vast archives and powerful artifacts in the Violet Citadel.\n\nThat age ended during the Third War. The traitor prince Arthas led the Scourge through the city gates to seize the Book of Medivh. Soon after, the demon lord Archimonde crushed Dalaran's soaring spires into rubble. After the Legion's defeat, the Kirin Tor's surviving wizards returned to their devastated homeland. They would not yield their ancestral ground to the Scourge or scavengers, and raised a shimmering violet barrier over the city's heart. The shield has since been removed, while rebuilding continues. The magi are restoring their fallen sanctuary, and Archmage Ansirem Runeweaver can be found in the Violet Citadel.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dalaran-cd471edf6fc56344a600/1-0000.mp3", duration = 75.52, start = 0},
+    {file = "Audio/Transport/full_subzone_dalaran-aa4095a48aec79c73dde/1-0000.mp3", duration = 75.7812245, start = 0},
   },
 }
 P.transport["subzone:dalson-s-tears"] = {
@@ -2590,7 +2590,7 @@ P.transport["subzone:stormwind-city"] = {
   fullHash = "e8e13b",
   text = "Stormwind City. Stormwind City leads the Kingdom of Stormwind and the Alliance from its seat of power. Rebuilt after the First War, it is Azeroth's greatest remaining human stronghold since the northern kingdoms fell. Stormwind City rose over a thousand years ago, founded by Arathi descendants who migrated south. Its coastal ramparts sheltered a flourishing capital, where swift rivermills powered the city. In the First War, the Orcish Horde broke through its defenses and burned Stormwind to the ground.\n\nSir Anduin Lothar led the surviving refugees across the Great Sea to Lordaeron. After the Alliance won the Second War, the Stonemasons' Guild rebuilt the capital with white stone, canals and towering spires. The fortress now stands north of Elwynn Forest. Stormwind City is mankind's chief refuge and stronghold after the Scourge shattered Lordaeron and the Third War left Dalaran heavily ruined. The disciplined Stormwind City Guard patrols its broad avenues and defensive walls. The Cathedral of Light's spires guide faith across the southern kingdoms.\n\nYet political troubles linger beneath the orderly districts and ceremonial gates. King Varian Wrynn has mysteriously vanished, and his young son Anduin sits on the throne. Highlord Bolvar Fordragon governs as regent, with the whispered counsel of royal advisor Lady Katrana Prestor.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stormwind-city-ead6f779c76c24e3bac6/1-0000.mp3", duration = 85.0808163, start = 0},
+    {file = "Audio/Transport/full_subzone_stormwind-city-fdeac667fb04767a5fff/1-0000.mp3", duration = 86.6742857, start = 0},
   },
 }
 P.transport["subzone:stratholme"] = {

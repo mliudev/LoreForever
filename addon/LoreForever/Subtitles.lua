@@ -609,6 +609,23 @@ local function layout(story)
   story.page, story.word = nil, nil
 end
 
+-- A full listen from section 1 (UI.StoryFrom, from > 0 seconds in): the words after the story's summary, and their
+-- weight, when `words` open with it; else nil.
+local function afterSummary(key, words, from)
+  local e = from > 0 and entries()[key]
+  local summary = e and Sub.Words(Sub.Spoken(trim(e.s or "")))
+  local k = summary and #summary or 0
+  if not (k > 0 and k < #words and words[k].text == summary[k].text) then return nil end
+  local rest, total = {}, 0
+  for i = k + 1, #words do
+    local w = words[i]
+    rest[#rest + 1] = { text = w.text, stop = w.stop, phrase = w.phrase, weight = w.weight, t0 = total }
+    total = total + w.weight
+    rest[#rest].t1 = total
+  end
+  return rest, total
+end
+
 -- A recording started: its words, its timing and its pages.
 function Sub.Begin(target, clip)
   local title, text = Sub.TextFor(target, clip)
@@ -618,22 +635,20 @@ function Sub.Begin(target, clip)
   local V = ns.Voice
   local story = { key = target.key, target = target, clip = clip, title = title, text = text, words = words,
     weight = weight, started = (clip and clip.started) or now(), handle = V.handle, pack = clip and clip.pack }
+  local after = target.leading and target.afterTitle
   if V.transport and V.transport.row and V.transport.row.key == target.key then
     story.transport, story.duration = true, V.transport.row.duration
-    -- A full listen from section 1 (UI.StoryFrom): the band starts at its first word, its bar from there.
-    local from, e = ns.UI.StoryFrom(target, V.transport.row), entries()[target.key]
-    local summary = from > 0 and e and Sub.Words(Sub.Spoken(trim(e.s or "")))
-    local k = summary and #summary or 0
-    if k > 0 and k < #words and words[k].text == summary[k].text then
-      local rest, total = {}, 0
-      for i = k + 1, #words do
-        local w = words[i]
-        rest[#rest + 1] = { text = w.text, stop = w.stop, phrase = w.phrase, weight = w.weight, t0 = total }
-        total = total + w.weight
-        rest[#rest].t1 = total
-      end
-      story.words, story.weight, story.from, story.duration = rest, total, from, story.duration - from
-    end
+    -- A full listen from section 1: the band starts at its first word, its bar from there.
+    local from = ns.UI.StoryFrom(target, V.transport.row)
+    local rest, total = afterSummary(target.key, words, from)
+    if rest then story.words, story.weight, story.from, story.duration = rest, total, from, story.duration - from end
+  elseif after and after.section then
+    -- Its spoken title plays first (UI: target.leading), then the story from section 1 (target.afterTitle). The band
+    -- shows section 1's words already, held on the first until the story itself starts (then it begins again, above).
+    -- It showed the summary the voice skips (LOR-1207).
+    local rest, total = afterSummary(target.key, words, tonumber(after.offset) or 0)
+    if rest then story.words, story.weight = rest, total end
+    story.held, story.share, story.duration = true, 0, 1
   elseif clip and tonumber(clip.duration) and clip.duration > 0 then
     story.duration = clip.duration
   elseif clip and tonumber(clip.length) and clip.length > 0 then
@@ -646,7 +661,8 @@ function Sub.Begin(target, clip)
   if (target.key or ""):find("^quest:%d+#") and (target.id or ""):find("^questtext:")
       and _G.QuestFrame and QuestFrame:IsShown() and UnitName then
     local ok, name = pcall(UnitName, "npc")
-    if ok and type(name) == "string" and name ~= "" then story.speaker = name end
+    -- The game can hand back a secret name (in combat, an instance): comparing it errors, so check it first (LOR-1257).
+    if ok and ns.Context.Usable(name) and type(name) == "string" and name ~= "" then story.speaker = name end
   end
   Sub.story = story
   layout(story)
@@ -718,7 +734,7 @@ end
 -- voice's speed from it, and fade out now rather than when the player notices (up to a second later).
 local function checkEnd(story)
   local V = ns.Voice
-  if story.measuredEnd or story.transport or not story.handle or V.handle ~= story.handle then return end
+  if story.measuredEnd or story.transport or story.held or not story.handle or V.handle ~= story.handle then return end
   if not (_G.C_Sound and C_Sound.IsPlaying) then return end
   local ok, playing = pcall(C_Sound.IsPlaying, story.handle)
   if not ok or playing == nil then return end

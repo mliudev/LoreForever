@@ -1,0 +1,94 @@
+{
+ "key": "quest:87760",
+ "type": "quest",
+ "name": "Holy Diver",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   87760
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A Darnassian seeks your help stopping naga from controlling sea creatures near the Ruins of Mathystra. Find their beastmistress and recover the tool used to compel the creatures.",
+ "sections": [
+  {
+   "title": "A Beastmistress's Rod",
+   "body": "A Darnassian asks you to stop the naga in the Ruins of Mathystra, where they are seizing threshers from the shore. Animal samples showed that the naga forced sea creatures to serve as mounts and beasts of burden. Those they could not use were driven away. Find the Stormscale Beastmistress and bring back her Rod of Deep Dominion; the creatures remain under the naga's control until it is taken.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Creatures' Peace",
+   "body": "In the Ruins of Mathystra, you take the Rod of Deep Dominion from the naga. The Darnassian says it will be destroyed, so the threshers and sea turtles can live in peace.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the naga doing to the sea creatures?",
+   "aliases": [
+    "naga and threshers",
+    "sea creature mounts",
+    "what happened to the animals"
+   ],
+   "answer": "The naga compel sea creatures to serve as mounts and beasts of burden, and drive away those they cannot use."
+  },
+  {
+   "q": "Where are the naga forces?",
+   "aliases": [
+    "naga location",
+    "mathystra naga",
+    "where is beastmistress"
+   ],
+   "answer": "The naga have forces in the Ruins of Mathystra."
+  },
+  {
+   "q": "Who are you looking for?",
+   "aliases": [
+    "beastmistress",
+    "stormscale woman",
+    "who has the rod"
+   ],
+   "answer": "A Stormscale Beastmistress is the target named by the Darnassian."
+  },
+  {
+   "q": "What is the Rod of Deep Dominion?",
+   "aliases": [
+    "deep dominion rod",
+    "naga control tool",
+    "rod name"
+   ],
+   "answer": "It is the rod the naga use to compel sea creatures into their service."
+  },
+  {
+   "q": "Which creatures are affected?",
+   "aliases": [
+    "threshers and turtles",
+    "animals in danger",
+    "sea creatures"
+   ],
+   "answer": "The Darnassian names threshers and sea turtles as creatures that can live in peace once the rod is destroyed."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "holy diver",
+  "naga",
+  "rod of deep dominion",
+  "ruins of mathystra",
+  "sea creatures",
+  "sea turtles",
+  "stormscale beastmistress",
+  "threshers"
+ ],
+ "related": [
+  "subzone:ruins-of-mathystra",
+  "topic:naga",
+  "zone:darnassus"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Holy Diver"
+ ]
+}

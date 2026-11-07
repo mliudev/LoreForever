@@ -7726,7 +7726,7 @@ P.transport["quest:93680"] = {
   fullHash = "bb9d2c",
   text = "Key to the City. Wordeen seeks a way into Dalaran, now rebuilt on the Dark Lady’s doorstep. In Tarren Mill, Magus Wordeen Voidglare wants to learn more about the Kirin Tor. Their city, Dalaran, fell to the demonic Burning Legion in a single stroke from the arch demon Archimonde. The surviving mages became dispossessed vagabonds. Now they have rebuilt Dalaran on the Dark Lady’s very doorstep.\n\nWordeen sends you to search their camps. He hopes you will find an ancient tome, a secret relic, or something else that can get the Horde into the city unnoticed. What you bring back is a grimy Dalaran sewer key.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_93680-de61587f62b361955026/1-0000.mp3", duration = 39.157551, start = 0},
+    {file = "Audio/Transport/full_quest_93680-68b33e3b7eddfa7306c1/1-0000.mp3", duration = 37.1722449, start = 0},
   },
 }
 P.transport["quest:93735"] = {

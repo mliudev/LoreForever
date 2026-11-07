@@ -270,7 +270,7 @@ P.transport["item:ataeric-s-staff"] = {
   fullHash = "8457ee",
   text = "Ataeric's Staff. At the Sepulcher, Ataeric's Staff marks a victory over Dalaran's reach in Silverpine Forest. Archmage Ataeric wielded it to command the local ley lines. Shadow Priest Allister feared Dalaran's growing reach in magic, so he ordered Ataeric killed and demanded the staff. Once Ataeric was slain and the staff recovered, the concentrated ley energies sank back into dormancy.\n\nThe staff's arrival at the Sepulcher marked a clear victory over Dalaran's ambitions. Power still lies latent in the earth, and the Forsaken remain watchful.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_ataeric-s-staff-1014b6ded07924c5d88b/1-0000.mp3", duration = 37.877551, start = 0},
+    {file = "Audio/Transport/full_item_ataeric-s-staff-3d65ce5b5a3e43a94425/1-0000.mp3", duration = 36.0489796, start = 0},
   },
 }
 P.transport["item:athrikus-narassin-s-head"] = {
@@ -1074,11 +1074,11 @@ P.transport["item:dal-bloodclaw-s-skull"] = {
   },
 }
 P.transport["item:dalaran-mana-gem"] = {
-  hash = "adb275",
-  fullHash = "adb275",
-  text = "Dalaran Mana Gem. Near Ambermill, Kirin Tor mages carry Dalaran Mana Gems to renew their arcane power. Forsaken tailors use the gems to weave enchanted robes. Around Ambermill, Kirin Tor mages, conjurors, and guards carry mana gems to focus and renew their arcane power. In the Undercity’s Magic Quarter, Forsaken practitioners prize the gems as a ready store of concentrated magic. Some undead mages share an academic heritage with Dalaran. Yet survival comes first, and the Forsaken see the Kirin Tor as rivals whose stores of magic can be taken. Forsaken bring mana gems taken from fallen Kirin Tor operatives to tailors such as Josef Gregorian in the Undercity. They bring simple linen as well. A tailor cannot channel arcane power directly, but can bind a gem into cloth. The magic strengthens the wearer’s connection to the arcane.",
+  hash = "69ed0a",
+  fullHash = "69ed0a",
+  text = "Dalaran Mana Gem. Near Ambermill, Kirin Tor mages carry Dalaran Mana Gems to renew their arcane power. Forsaken tailors use the gems to weave enchanted robes. The Kirin Tor’s conjurors and guards carry the gems as well. In the Undercity’s Magic Quarter, Forsaken practitioners prize the gems as a ready store of concentrated magic. Some undead mages share an academic heritage with Dalaran. Yet survival comes first, and the Forsaken see the Kirin Tor as rivals whose stores of magic can be taken. Forsaken bring mana gems taken from fallen Kirin Tor operatives to tailors such as Josef Gregorian in the Undercity. They bring simple linen as well. A tailor cannot channel arcane power directly, but can bind a gem into cloth. The magic strengthens the wearer’s connection to the arcane.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_dalaran-mana-gem-89d6393b0805fa3b5e77/1-0000.mp3", duration = 55.4840816, start = 0},
+    {file = "Audio/Transport/full_item_dalaran-mana-gem-22d0049f9c0eb00ef44b/1-0000.mp3", duration = 50.2595918, start = 0},
   },
 }
 P.transport["item:dalaran-pendant"] = {
@@ -1086,7 +1086,7 @@ P.transport["item:dalaran-pendant"] = {
   fullHash = "197b1f",
   text = "Dalaran Pendant. In Ambermill, Dalaran Pendants focus the Kirin Tor's magic. The Forsaken seek them to slow the wizards and trace the source of their power. Kirin Tor sorcerers, conjurers, and protectors weave powerful spells in Ambermill. Their work threatens Forsaken control of southern Silverpine Forest. Each carries an attuned Dalaran Pendant. At the Sepulcher, Shadow Priest Allister sends Forsaken operatives to recover the pendants. He hopes to slow the mages and uncover who guides their magical weave.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_dalaran-pendant-0f2566a0ad39a99ac59b/1-0000.mp3", duration = 32.5746939, start = 0},
+    {file = "Audio/Transport/full_item_dalaran-pendant-7dee16b4fdbe9f3280e1/1-0000.mp3", duration = 32.235102, start = 0},
   },
 }
 P.transport["item:dalaran-status-report"] = {
@@ -1094,7 +1094,7 @@ P.transport["item:dalaran-status-report"] = {
   fullHash = "17771d",
   text = "Dalaran Status Report. At Ambermill, the Kirin Tor rebuild Dalaran in the open, while the Deathstalkers seek their report. During the Third War, the Scourge sacked Dalaran, and Archimonde brought down its towering spires. Early in the rebuilding, the surviving magi removed the city's protective shield and began their work in the open.\n\nThe Kirin Tor keeps enclaves such as Ambermill in southeastern Silverpine Forest. Its wizards compile the Dalaran Status Report, which records the city's condition. The Deathstalkers seek its intelligence.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_dalaran-status-report-02e148fbee5d9ecb3a44/1-0000.mp3", duration = 35.8922449, start = 0},
+    {file = "Audio/Transport/full_item_dalaran-status-report-3290f322402a2d164d74/1-0000.mp3", duration = 35.0302041, start = 0},
   },
 }
 P.transport["item:dalin-s-heart"] = {
@@ -5110,7 +5110,7 @@ P.transport["item:the-book-of-ur"] = {
   fullHash = "b0b74b",
   text = "The Book of Ur. In Shadowfang Keep, the Book of Ur draws the interest of Forsaken scholars. Archmage Arugal took it after Ur died. The Dalaran mage wrote of strange beings from other planes. Ur was a Dalaran mage who studied other planes and their creatures. Before the Scourge came, the Kirin Tor knew his work well. He longed to understand magic beyond this world, but wrote down what he found instead of recklessly breaking through the veil. Caution and restraint guided his research. When the Scourge attacked Dalaran, neither his magic nor his care could save him.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_the-book-of-ur-4b1e2b54869dd46d9af7/1-0000.mp3", duration = 36.2579592, start = 0},
+    {file = "Audio/Transport/full_item_the-book-of-ur-79f3da1d796a95525557/1-0000.mp3", duration = 36.0228571, start = 0},
   },
 }
 P.transport["item:the-collector-s-schedule"] = {
@@ -5190,7 +5190,7 @@ P.transport["item:thule-s-head"] = {
   fullHash = "4a2843",
   text = "Thule's Head. At the Sepulcher, High Executor Hadrec seeks proof that Thule Ravenclaw is dead. His severed head confirms the Scourge commander on Fenris Isle has fallen and helps the Forsaken hold Silverpine Forest.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_thule-s-head-b0143d2da45a202e0cca/1-0000.mp3", duration = 13.1395918, start = 0},
+    {file = "Audio/Transport/full_item_thule-s-head-918f2e4184d6afa1c1d6/1-0000.mp3", duration = 12.6693878, start = 0},
   },
 }
 P.transport["item:thunder-lizard-blood"] = {
@@ -5462,7 +5462,7 @@ P.transport["item:ur-s-treatise-on-shadow-magic"] = {
   fullHash = "de5f98",
   text = "Ur's Treatise on Shadow Magic. Stormwind's mages once guarded Ur's Treatise on Shadow Magic, fearing what its pages could bring. Now the tome lies hidden in the Tower of Ilgalar, stolen by Morganth. Ur of Dalaran wrote of shadow magic and its subtle, corruptive nature. The mages of Stormwind's Wizard's Sanctum feared these arts could bring doom to the unwary, so they sealed the volume against readers. After Morganth gave himself to dark arts and Stormwind's magical circle exiled him, he carried the tome east into the Redridge Mountains. There he made his stronghold in the Tower of Ilgalar.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_ur-s-treatise-on-shadow-magic-9cf2aaa8cf8db8ea522e/1-0000.mp3", duration = 38.0865306, start = 0},
+    {file = "Audio/Transport/full_item_ur-s-treatise-on-shadow-magic-0ffd7e0c1d0c59ba9d24/1-0000.mp3", duration = 36.7281633, start = 0},
   },
 }
 P.transport["item:urgent-message"] = {
@@ -5862,7 +5862,7 @@ P.transport["item:worn-stone-token"] = {
   fullHash = "7de654",
   text = "Worn Stone Token. Across the Alterac Mountains, Worn Stone Tokens still bear the faded enchantments Dalaran made to command elementals. They remain in the hands of Dalaran's people, from mages to laborers. Dalaran's magi use talismans to bend elementals from other realms to their will. Worn Stone Tokens are spent examples of these tools. Theurgists and summoners carry them, along with Dalaran laborers and guards stationed around the ruins and internment camps of Alterac. Elemental binding reaches deep into Dalaran's daily work. At Tarren Mill, the Forsaken watch the nearby wizards. Magus Voidglare wants Worn Stone Tokens to study how Dalaran enslaves elementals. Keeper Bel'varil directs agents to gather worn, inert tokens first. They let the Magus examine basic enchanting safely before trying more potent, volatile conduits.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_worn-stone-token-01a81619ed27047a67d7/1-0000.mp3", duration = 55.0922449, start = 0},
+    {file = "Audio/Transport/full_item_worn-stone-token-8eb50e014a4a8d671321/1-0000.mp3", duration = 55.04, start = 0},
   },
 }
 P.transport["item:woven-wand"] = {

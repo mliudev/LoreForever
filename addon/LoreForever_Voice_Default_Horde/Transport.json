@@ -367,9 +367,9 @@
     "npc:dalar-dawnweaver": {
       "1": [
         {
-          "duration": 76.32979591836735,
-          "file": "Audio/Transport/full_npc_dalar-dawnweaver-f99dfee2d5c0864dd295/1-0000.mp3",
-          "sha256": "aa126084b2e024225392efd774ab6581844f4c652599259ed7e9b27cffcd6490",
+          "duration": 75.62448979591836,
+          "file": "Audio/Transport/full_npc_dalar-dawnweaver-bcb564dea2adbb61efbf/1-0000.mp3",
+          "sha256": "04fa186fc6376c6959b040a32aa0d250a663fdc645cdfa0aaf63ef47dccc8861",
           "start": 0
         }
       ],
@@ -381,12 +381,12 @@
         ]
       },
       "fullHash": "b547f4",
-      "generation": "4e3746197b4a2f309b2e",
+      "generation": "1756d38396170fddc46a",
       "hash": "4185b6",
       "source": {
-        "duration": 76.355918,
+        "duration": 75.650612,
         "file": null,
-        "sha256": "f99dfee2d5c0864dd2954617d2830b89d98df29e373ab05e87d2c1d594cd769f"
+        "sha256": "bcb564dea2adbb61efbf1c0594a99dda3ed4a923f3187bd28a5c96c5b1ffb6cc"
       },
       "text": "Dalar Dawnweaver. At the Sepulcher, Dalar Dawnweaver turns his arcane learning against the Forsaken’s enemies. He was an archmage of Dalaran, slain when the Scourge destroyed the city, then freed from the Lich King’s control. Now he studies Dalaran’s lingering presence and seeks to end Archmage Arugal’s madness. Dalar Dawnweaver once held high rank among the Kirin Tor. He walked the Violet Citadel’s halls when Dalaran stood at the height of arcane mastery. The Scourge sacked the city to prepare for Archimonde’s summoning, and Dalar died there.\n\nRaised as a mindless thrall of the Lich King, Dalar broke free alongside Lady Sylvanas Windrunner when the Scourge’s grip faltered. Now he keeps an archmage’s keen intellect at the Sepulcher and devotes it to protecting the Forsaken realm. Dalar directs the Sepulcher’s arcane strategy against the many dangers facing Silverpine Forest. To the south, Dalaran wizards occupy Ambermill, pursuing matters he means to uncover and disrupt. Closer by, feral worgen prowl the woods around Shadowfang Keep.\n\nDalar knows his former colleague, Archmage Arugal, well. He carefully directs efforts to stop Arugal’s beastly creations before they overrun the region."
     },
@@ -1745,9 +1745,9 @@
     "subzone:beren-s-peril": {
       "1": [
         {
-          "duration": 40.41142857142857,
-          "file": "Audio/Transport/full_subzone_beren-s-peril-881914fb7eb61a71c0e0/1-0000.mp3",
-          "sha256": "1481e48e6185975b094fcdb5ecb51534c5d78b66d0d47e3bf270aaebbf0ea0f6",
+          "duration": 38.32163265306123,
+          "file": "Audio/Transport/full_subzone_beren-s-peril-e96e565c73e4e5a82751/1-0000.mp3",
+          "sha256": "62048078a9d12c2ffb5ab48ea6d22eb0dec19b7200ac8465425eef73e22f7477",
           "start": 0
         }
       ],
@@ -1759,12 +1759,12 @@
         ]
       },
       "fullHash": "7fba1d",
-      "generation": "1188ce7a7bc2e26d6ba6",
+      "generation": "dd11015ba08c5ad98afc",
       "hash": "7fba1d",
       "source": {
-        "duration": 40.437551,
+        "duration": 38.347755,
         "file": null,
-        "sha256": "881914fb7eb61a71c0e0838bf72f16a64e3d44f2ecaa6d1def9d0a1e445a268c"
+        "sha256": "e96e565c73e4e5a8275102eac0ee0c52c08a9575077a97ae9d8ba4804e0f7dae"
       },
       "text": "Beren's Peril. At Beren's Peril, Scourge loyal to Thule Ravenclaw gather in the hills southwest of Ambermill and threaten the Forsaken. High in the crags southwest of Ambermill, a cave and mountain path lie hidden from the main road. Since the Third War, rogue Scourge have fortified the refuge under the renegade necromancer Thule Ravenclaw. They refused to serve the Dark Lady or flee north.\n\nRavenclaw's regents, guardians, and drudgers gathered in secret to prepare an assault on the Forsaken base at the Sepulcher. Forsaken scouts found them, and the quiet cliffs became a warzone. Now Horde fighters move against the undead before they can attack."
     },
@@ -5150,6 +5150,20 @@
       714,
       917
     ],
+    "04fa186fc6376c6959b040a32aa0d250a663fdc645cdfa0aaf63ef47dccc8861": [
+      207,
+      463,
+      680,
+      828,
+      1029,
+      1251,
+      1576,
+      1831,
+      2071,
+      2335,
+      2534,
+      2684
+    ],
     "054bb8850303fa0d69a92eb04a1069baeaed55b83cda0e282d910b68bab018e0": [
       220,
       487,
@@ -5283,13 +5297,6 @@
       531,
       1001,
       1596
-    ],
-    "1481e48e6185975b094fcdb5ecb51534c5d78b66d0d47e3bf270aaebbf0ea0f6": [
-      324,
-      557,
-      816,
-      968,
-      1237
     ],
     "149fdc6335319723430fa2efd9c7443a00b55d573e43e72e9f5b1b4b51a51611": [
       336,
@@ -6020,6 +6027,12 @@
       1093,
       1363
     ],
+    "62048078a9d12c2ffb5ab48ea6d22eb0dec19b7200ac8465425eef73e22f7477": [
+      310,
+      527,
+      758,
+      1162
+    ],
     "62c2de7a0d5fbd1c39ab87c95c616208bc4bc9743f1f6752358c4429e953fdb3": [
       203,
       452,
@@ -6665,20 +6678,6 @@
       1364,
       1618
     ],
-    "aa126084b2e024225392efd774ab6581844f4c652599259ed7e9b27cffcd6490": [
-      226,
-      495,
-      724,
-      880,
-      1086,
-      1231,
-      1629,
-      1884,
-      2126,
-      2366,
-      2540,
-      2709
-    ],
     "ab02a438becad5411da8571e511f431e13fe42a8f37d7d2a050ee7ed0cfc1355": [
       202,
       451,
@@ -7316,6 +7315,10 @@
     "02a10bd47e76fdabd8a9e82bbb7c4540f524ad4a9a0e55efb757d9701d148844": {
       "561": 1
     },
+    "04fa186fc6376c6959b040a32aa0d250a663fdc645cdfa0aaf63ef47dccc8861": {
+      "1831": 2,
+      "680": 1
+    },
     "054bb8850303fa0d69a92eb04a1069baeaed55b83cda0e282d910b68bab018e0": {
       "487": 1
     },
@@ -7359,9 +7362,6 @@
     },
     "10e75a0305a44972541a51cdce80e5c5e1dca5893dd452788192a502092fff79": {
       "466": 1
-    },
-    "1481e48e6185975b094fcdb5ecb51534c5d78b66d0d47e3bf270aaebbf0ea0f6": {
-      "324": 1
     },
     "15d81d2eb95fdff105fe611db409ba2badd993c1e1dddd0478f1d270e3d0ff08": {
       "1331": 2,
@@ -7594,6 +7594,9 @@
     "5ecc2f0b2e3c06d566b4a9c402bcdcf626e1d5dfad7c45651e7390c21fa5fb32": {
       "212": 1
     },
+    "62048078a9d12c2ffb5ab48ea6d22eb0dec19b7200ac8465425eef73e22f7477": {
+      "310": 1
+    },
     "62c2de7a0d5fbd1c39ab87c95c616208bc4bc9743f1f6752358c4429e953fdb3": {
       "452": 1
     },
@@ -7803,10 +7806,6 @@
     },
     "a9a398888a103e33c75b3c44a2307cb19b8adbb82019a7490ed235ea2407a642": {
       "172": 1
-    },
-    "aa126084b2e024225392efd774ab6581844f4c652599259ed7e9b27cffcd6490": {
-      "1884": 2,
-      "724": 1
     },
     "ab02a438becad5411da8571e511f431e13fe42a8f37d7d2a050ee7ed0cfc1355": {
       "1484": 2,

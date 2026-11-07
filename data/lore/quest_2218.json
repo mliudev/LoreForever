@@ -1,0 +1,72 @@
+{
+ "key": "quest:2218",
+ "type": "quest",
+ "name": "Road to Salvation",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2218
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Hulfdan Blackbeard in Ironforge asks you to speak with him about the Hidden Circle. He tests whether you think yourself a scoundrel fit to join his chosen few.",
+ "sections": [
+  {
+   "title": "Hulfdan's Test",
+   "body": "Hulfdan Blackbeard in Ironforge wants to know whether you see yourself as a scoundrel. He is considering you for a place among the Hidden Circle's chosen few. His answer depends on how highly you think of yourself.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking to speak with me?",
+   "aliases": [
+    "who is hulfdan",
+    "hulfdan blackbeard"
+   ],
+   "answer": "Hulfdan Blackbeard in Ironforge asks you to speak with him."
+  },
+  {
+   "q": "What is the Hidden Circle?",
+   "aliases": [
+    "hidden circle",
+    "what circle"
+   ],
+   "answer": "The Hidden Circle is an organization with chosen members and officers. Hulfdan Blackbeard is looking for scoundrels to join its chosen few."
+  },
+  {
+   "q": "Why does Hulfdan call me a scoundrel?",
+   "aliases": [
+    "hulfdan scoundrel",
+    "why scoundrel"
+   ],
+   "answer": "Hulfdan asks whether you think yourself a scoundrel fit to join the Hidden Circle's chosen few."
+  },
+  {
+   "q": "What does Hulfdan want from me?",
+   "aliases": [
+    "what hulfdan wants",
+    "blackbeard recruit"
+   ],
+   "answer": "Hulfdan wants to speak with you about becoming one of the Hidden Circle's chosen few."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "chosen few",
+  "hidden circle",
+  "hulfdan blackbeard",
+  "ironforge",
+  "road to salvation",
+  "scoundrel"
+ ],
+ "related": [
+  "zone:ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Road to Salvation"
+ ]
+}

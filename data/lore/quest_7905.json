@@ -1,0 +1,61 @@
+{
+ "key": "quest:7905",
+ "type": "quest",
+ "name": "The Darkmoon Faire",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   7905
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "You carry a Free Ticket Voucher to Gelvas Grimgate inside the Darkmoon Faire carnival. The voucher is meant for him.",
+ "sections": [
+  {
+   "title": "A Voucher for Gelvas",
+   "body": "Gelvas Grimgate is inside the Darkmoon Faire carnival, and you carry a Free Ticket Voucher for him. The voucher awaits delivery.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the voucher for?",
+   "aliases": [
+    "voucher for who",
+    "Gelvas voucher"
+   ],
+   "answer": "The Free Ticket Voucher is for Gelvas Grimgate, who is inside the Darkmoon Faire carnival."
+  },
+  {
+   "q": "Where is Gelvas Grimgate?",
+   "aliases": [
+    "where's Gelvas",
+    "Gelvas location"
+   ],
+   "answer": "Gelvas Grimgate is inside the Darkmoon Faire carnival."
+  },
+  {
+   "q": "What do I bring to Gelvas?",
+   "aliases": [
+    "what voucher",
+    "ticket voucher"
+   ],
+   "answer": "Bring the Free Ticket Voucher to Gelvas Grimgate."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "carnival",
+  "darkmoon faire",
+  "free ticket voucher",
+  "gelvas grimgate",
+  "voucher"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Darkmoon Faire"
+ ]
+}

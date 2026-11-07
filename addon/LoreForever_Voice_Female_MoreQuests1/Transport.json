@@ -3695,9 +3695,9 @@
     "quest:1961": {
       "1": [
         {
-          "duration": 71.26204081632653,
-          "file": "Audio/Transport/full_quest_1961-37c2fe62ee27eb834601/1-0000.mp3",
-          "sha256": "ec1f799f5400d5400fdcae35b7714fa46110c7fea4dcdc45f8569dbb4f0c76c4",
+          "duration": 69.64244897959183,
+          "file": "Audio/Transport/full_quest_1961-049924aef7f946a173b5/1-0000.mp3",
+          "sha256": "55f2df094cb27b74dc473d4883673cf132ce8c3ff0a85202e8a5488999f2b86b",
           "start": 0
         }
       ],
@@ -3709,12 +3709,12 @@
         ]
       },
       "fullHash": "6dbdbc",
-      "generation": "2c5aace09ca877742aa3",
+      "generation": "b895afec7bb84c9268ba",
       "hash": "6dbdbc",
       "source": {
-        "duration": 71.288163,
+        "duration": 69.668571,
         "file": null,
-        "sha256": "37c2fe62ee27eb834601c01d5a3f47d22dc3b32366f26c1ef2dd1d2b0e9b4d8c"
+        "sha256": "049924aef7f946a173b5d15db62769c6a1a3649cffb4b2eb9fa34b4666c9de8a"
       },
       "text": "Gathering Materials. In the Undercity, Gathering Materials sends new Horde mages to Silverpine Forest for Dalaran mana gems. They need linen as well to make their first true mage's robes. Undercity initiates gather a bolt of simple linen and potent Dalaran mana gems for their first true robes. Those robes mark their station and personal worth. Anastasia Hartwell directs the novices to gather the raw materials for an enchanted weave. The mana gems cannot be bought or conjured. Dalaran mages are stationed across Silverpine Forest, especially near Ambermill, and the gems must be taken from them. Anastasia Hartwell says Dalaran's arcane philosophies mirror those of the Forsaken. Yet sentiment has no place in the Undercity. To the Forsaken, wizards too weak to defend their relics forfeit their treasures and their lives. Josef Gregorian is a tailor in the Undercity's Magic Quarter, where the gathered cloth and gems are brought. He lacks the magical talent to judge the pristine quality of Dalaran's enchanted stones. But he has the rare artisan skill to weave their raw power into the robes."
     },
@@ -9649,9 +9649,9 @@
     "quest:448": {
       "1": [
         {
-          "duration": 65.12326530612245,
-          "file": "Audio/Transport/full_quest_448-9672af56b1072918bcdf/1-0000.mp3",
-          "sha256": "91fbf5343b3f8f4bb8a1c208a1d02395888e6fd89fa5c98f2e72c0de3bb6e1a9",
+          "duration": 62.51102040816327,
+          "file": "Audio/Transport/full_quest_448-05011b66b6475468e2f5/1-0000.mp3",
+          "sha256": "1e98239a020d685b0083ec51ce0cc675ef35c3b2e8de73dd759c9eb0ded2842c",
           "start": 0
         }
       ],
@@ -9663,12 +9663,12 @@
         ]
       },
       "fullHash": "19d65a",
-      "generation": "f9f3feb956d72d76224f",
+      "generation": "b75ea5922725f21916f0",
       "hash": "19d65a",
       "source": {
-        "duration": 65.149388,
+        "duration": 62.537143,
         "file": null,
-        "sha256": "9672af56b1072918bcdfa129850e66d324ba14e9f325d4c3f37050474d2d505d"
+        "sha256": "05011b66b6475468e2f5f3c9951c1e26417c45aa4b424e201cfb4fb8038958bf"
       },
       "text": "Report to Hadrec. In Silverpine, Renferrel sends you to Hadrec as the Scourge threat grows. Renferrel and Bethor Iceshard have investigated the Scourge presence in Lake Lordamere, and High Executor Hadrec now directs preparations against Fenris Isle. Apothecary Renferrel and Bethor Iceshard have studied the danger posed by Thule Ravenclaw, a renegade necromancer. Yet study alone cannot break the Scourge stronghold rising on Fenris Isle. Ravenclaw binds the restless dead there, and Renferrel sees that alchemy and magic will not be enough. The Forsaken military must bring its steel and discipline to bear, so Renferrel sends you to its commander. High Executor Hadrec directs Silverpine Forest's strategic operations for the Dark Lady from the Sepulcher's crypts. Bethor's warnings about Ravenclaw reach him, and Hadrec knows a necromancer entrenched on Lordamere's western shore threatens Undercity's flank. He opens the local garrison's armory to equip the vanguard before sending them against the island fortress."
     },
@@ -10039,9 +10039,9 @@
     "quest:460": {
       "1": [
         {
-          "duration": 59.68979591836735,
-          "file": "Audio/Transport/full_quest_460-8d2ec9e59f804dc70e90/1-0000.mp3",
-          "sha256": "82143234445182af0362aca1430a19865b8a0bc5f8db81a33b9f23b0aed065a2",
+          "duration": 59.89877551020408,
+          "file": "Audio/Transport/full_quest_460-94a8e9f7ccdb811d4c4b/1-0000.mp3",
+          "sha256": "fb309d3a068e3230d64ee4fc7f146f2d3cf228e861295fb722b76a04cdd534ce",
           "start": 0
         }
       ],
@@ -10053,21 +10053,21 @@
         ]
       },
       "fullHash": "5ac568",
-      "generation": "08163f7ed9e82e26684e",
+      "generation": "94901b4c421a742690b0",
       "hash": "5ac568",
       "source": {
-        "duration": 59.715918,
+        "duration": 59.924898,
         "file": null,
-        "sha256": "8d2ec9e59f804dc70e90321f14fda3f6f7c34c07a1735580909c3b558bb616b9"
+        "sha256": "94a8e9f7ccdb811d4c4b43c3bbac26d5a1c3de9e381e509c171f9f2472fd9173"
       },
       "text": "Resting in Pieces. On Fenris Isle, Alaric's severed head calls for help from beyond the grave. He asks you to carry it across Fenris Keep to an unmarked grave near the stables, where his body lies. At Fenris Keep in Silverpine Forest, Alaric served Thule Ravenclaw as chief servant and personal bodyguard. Thule was a powerful mage aligned with the Scourge. When the Plague of Undeath swept through the region, he promised his sorcery would shield Alaric. Instead, the ward trapped him in endless agony and undeath, while his awareness remained in his severed parts. Thule made the rot hide gnolls by infecting local packs with necromantic decay. Then he turned on his own bodyguard. He cut off Alaric's head and threw it to the savage gnolls as a diversion. The rot hides dragged Alaric's body to a shallow grave they had hastily dug outside the keep's stables. They kept his speaking head as a grim plaything until an outsider intervened."
     },
     "quest:461": {
       "1": [
         {
-          "duration": 29.805714285714288,
-          "file": "Audio/Transport/full_quest_461-f216d822cf0a39768279/1-0000.mp3",
-          "sha256": "2b8bbf9f186f9fa24f4efe43ffba58325353b94f8bdd46ccbece17eee91ac004",
+          "duration": 29.15265306122449,
+          "file": "Audio/Transport/full_quest_461-94acc2a66afddef972bf/1-0000.mp3",
+          "sha256": "c296e084995f93c4f6aaec26a7d2347814eadd75bdc4c60ff94e10c32c3d16f6",
           "start": 0
         }
       ],
@@ -10079,12 +10079,12 @@
         ]
       },
       "fullHash": "34ab5e",
-      "generation": "bca40fcf76d57f5e5c8c",
+      "generation": "8b2ac15846b546cc4530",
       "hash": "34ab5e",
       "source": {
-        "duration": 29.831837,
+        "duration": 29.152653,
         "file": null,
-        "sha256": "f216d822cf0a39768279673d4b1f801a3375203508dac511d099189b013beb1e"
+        "sha256": "94acc2a66afddef972bf4ffe5417b2c41eb11c4f6aa8431b160041a335657cce"
       },
       "text": "The Hidden Niche. In Fenris Keep, Alaric's memories guide you toward a hidden alcove. His remains point to a place of rest, and an old relic waits there. Alaric remembers Fenris Keep in its better days. Horde scouts lifted his bones from a shallow grave outside the stronghold, but he will not go quietly to the Sepulcher. He offers vital knowledge in return: a hidden niche in the keep's southwestern tower holds an item treasured by Thule Ravenclaw and his fellow mages."
     },
@@ -10872,8 +10872,8 @@
       "1": [
         {
           "duration": 42.99755102040817,
-          "file": "Audio/Transport/full_quest_491-9aea3d8179b17655518b/1-0000.mp3",
-          "sha256": "b31dd16e15ea4c2a6da27b450ef3e8ad5dde546a618713ca044a185ed1007e73",
+          "file": "Audio/Transport/full_quest_491-44221b4bd4dcddd090ab/1-0000.mp3",
+          "sha256": "0a79468c10284c6a0b6a77c2adcc622d864c05dfa41049d6fcc2b3f7aa10dbe7",
           "start": 0
         }
       ],
@@ -10885,12 +10885,12 @@
         ]
       },
       "fullHash": "eb8bc2",
-      "generation": "ae5d9e4a0b92c7f02b28",
+      "generation": "eb1253cfeb85b131b988",
       "hash": "eb8bc2",
       "source": {
         "duration": 43.023673,
         "file": null,
-        "sha256": "9aea3d8179b17655518b0e76a7005dabe0ae8c7eea409c5d4b22098fd148caac"
+        "sha256": "44221b4bd4dcddd090abc9f972d3d86f35fef1e5c7ff02fce6287d5113c4d491"
       },
       "text": "Wand to Bethor. At Fenris Keep, the Woven Wand is bound for Bethor Iceshard in the Undercity. Three apprentice mages made it as a sign of fellowship, but Thule Ravenclaw hid it after choosing the Scourge. Its return brings a piece of Bethor's mortal youth back to the Magic Quarter. Before Lordaeron fell, three young mages joined their training wands into one: the Woven Wand. It marked their friendship and their shared hopes in the magical arts.\n\nThen Thule Ravenclaw gave his loyalty to the Lich King and embraced the Scourge. Their fellowship was broken. He came to despise the friendship they had shared, yet could neither destroy the wand nor leave it with his former companions."
     },
@@ -22581,6 +22581,14 @@
       1011,
       1266
     ],
+    "0a79468c10284c6a0b6a77c2adcc622d864c05dfa41049d6fcc2b3f7aa10dbe7": [
+      218,
+      465,
+      644,
+      835,
+      1074,
+      1278
+    ],
     "0a9175ec29bbba0dbea5449583c790b906d0831c703071e6674b301de4c9402a": [
       194,
       485,
@@ -23304,6 +23312,16 @@
       1425,
       1812
     ],
+    "1e98239a020d685b0083ec51ce0cc675ef35c3b2e8de73dd759c9eb0ded2842c": [
+      220,
+      590,
+      881,
+      1054,
+      1305,
+      1557,
+      1824,
+      2173
+    ],
     "1ed3a17a9a1847c2b7316563fd500b7d7ea7a7aa25978ba5f403239fc40a70b1": [
       422
     ],
@@ -23755,11 +23773,6 @@
     ],
     "2b077f5b28995d45a64c354248ec3e1cdfba431b6ffee2dd0c83b5fc335aaf95": [
       512
-    ],
-    "2b8bbf9f186f9fa24f4efe43ffba58325353b94f8bdd46ccbece17eee91ac004": [
-      181,
-      361,
-      779
     ],
     "2c0160d36eac80ea4b498320374e8d60f740d7da1a54d6f3d6b45562e002c80d": [
       213,
@@ -25181,9 +25194,6 @@
       1549,
       1752
     ],
-    "5491ae54fd179746eebb2fa85e5a8fad049b0fcb20dc0fb51d4b8d823a939023": [
-      546
-    ],
     "549c2ab7c7cac01acec4ee05b30458ec2213eebb64f6894b61679ad3235b9fbb": [
       242,
       485,
@@ -25273,6 +25283,17 @@
       432,
       759,
       992
+    ],
+    "55f2df094cb27b74dc473d4883673cf132ce8c3ff0a85202e8a5488999f2b86b": [
+      280,
+      442,
+      730,
+      1067,
+      1485,
+      1690,
+      2024,
+      2169,
+      2489
     ],
     "56071f69889d4e08fbf2ba223abf66783ecd286a547e162b85cdab1d9af2f5ed": [
       554
@@ -26632,16 +26653,6 @@
       1624,
       1884
     ],
-    "82143234445182af0362aca1430a19865b8a0bc5f8db81a33b9f23b0aed065a2": [
-      199,
-      479,
-      762,
-      1110,
-      1396,
-      1608,
-      1874,
-      2114
-    ],
     "824395f741d8c1019cbce8b6d3a4376bc58c6848338ddea1b7d7758e9e9c0a6b": [
       264,
       413,
@@ -27158,16 +27169,6 @@
       1346,
       1532,
       1753
-    ],
-    "91fbf5343b3f8f4bb8a1c208a1d02395888e6fd89fa5c98f2e72c0de3bb6e1a9": [
-      216,
-      606,
-      928,
-      1113,
-      1370,
-      1627,
-      1907,
-      2249
     ],
     "924e2a45bd1203c930d4547e060f1ddad65833b8683f8bd9a49c25c7b1ff0b1c": [
       303,
@@ -28262,14 +28263,6 @@
       1485,
       1777
     ],
-    "b31dd16e15ea4c2a6da27b450ef3e8ad5dde546a618713ca044a185ed1007e73": [
-      218,
-      465,
-      644,
-      895,
-      1074,
-      1278
-    ],
     "b342fffe95d34bd32bc8217df8650cc42f5759f0de304db88e4533d7a7783c48": [
       152,
       341,
@@ -28785,6 +28778,12 @@
       1614,
       1839,
       2060
+    ],
+    "c296e084995f93c4f6aaec26a7d2347814eadd75bdc4c60ff94e10c32c3d16f6": [
+      191,
+      382,
+      520,
+      780
     ],
     "c2f1beca630894a52b7844f5092b8bdb2052075ce364c5831fc2bd10f842979e": [
       223,
@@ -30092,17 +30091,6 @@
       228,
       499
     ],
-    "ec1f799f5400d5400fdcae35b7714fa46110c7fea4dcdc45f8569dbb4f0c76c4": [
-      290,
-      468,
-      766,
-      1120,
-      1449,
-      1761,
-      2114,
-      2348,
-      2555
-    ],
     "ec602530ed467506863cddc3c1a1738171cd3c1c92dec1c946a92bb2bf9e8edd": [
       166,
       444,
@@ -30322,6 +30310,10 @@
     "f20bb409f4fa4e7588351702dca6c848e9035a91f71a3a0bce755f124cfbe48d": [
       393,
       848
+    ],
+    "f22ec4c03451662e4f6547391e9fc1339a0afc7ee53e708cfca9de117ccde37d": [
+      293,
+      537
     ],
     "f281b96760f7b81ff6da48eafc68c1e1c9faf615ebbde8b23ea7bc41acd339c7": [
       211,
@@ -30646,6 +30638,16 @@
       1490,
       1643,
       1814
+    ],
+    "fb309d3a068e3230d64ee4fc7f146f2d3cf228e861295fb722b76a04cdd534ce": [
+      209,
+      494,
+      783,
+      1137,
+      1407,
+      1615,
+      1867,
+      2110
     ],
     "fb4ccf8f99dd1a3ec966e076f3867bbfdd421f8637a406807405581e22f3dd3b": [
       230,
@@ -31017,6 +31019,9 @@
       "335": 1,
       "865": 2
     },
+    "0a79468c10284c6a0b6a77c2adcc622d864c05dfa41049d6fcc2b3f7aa10dbe7": {
+      "644": 1
+    },
     "0a9175ec29bbba0dbea5449583c790b906d0831c703071e6674b301de4c9402a": {
       "1147": 2,
       "485": 1
@@ -31276,6 +31281,10 @@
       "1165": 2,
       "457": 1
     },
+    "1e98239a020d685b0083ec51ce0cc675ef35c3b2e8de73dd759c9eb0ded2842c": {
+      "1557": 2,
+      "590": 1
+    },
     "1ef38fddb29dfafec98af64aba182feccfee92075c818c34e11d725e9d587b21": {
       "1209": 2,
       "529": 1
@@ -31444,9 +31453,6 @@
     "2aebe668500c19ac7c451b241532925d71df9b41aea28373954ccec629ed60e9": {
       "1232": 2,
       "462": 1
-    },
-    "2b8bbf9f186f9fa24f4efe43ffba58325353b94f8bdd46ccbece17eee91ac004": {
-      "361": 1
     },
     "2c0160d36eac80ea4b498320374e8d60f740d7da1a54d6f3d6b45562e002c80d": {
       "1236": 2,
@@ -32012,6 +32018,11 @@
       "432": 1,
       "992": 2
     },
+    "55f2df094cb27b74dc473d4883673cf132ce8c3ff0a85202e8a5488999f2b86b": {
+      "1067": 2,
+      "2024": 3,
+      "442": 1
+    },
     "562647aa0f0e03a09f40e44895d803f025582ed37433ef8d587f5361529f5b3b": {
       "1188": 2,
       "381": 1
@@ -32526,10 +32537,6 @@
       "1374": 2,
       "560": 1
     },
-    "82143234445182af0362aca1430a19865b8a0bc5f8db81a33b9f23b0aed065a2": {
-      "1396": 2,
-      "479": 1
-    },
     "824395f741d8c1019cbce8b6d3a4376bc58c6848338ddea1b7d7758e9e9c0a6b": {
       "1369": 2,
       "413": 1
@@ -32734,10 +32741,6 @@
     "90f65a6a1752261a02f6a495d067b7df4d32d9aea45d30f4a0c31ef14a52ace5": {
       "1346": 2,
       "467": 1
-    },
-    "91fbf5343b3f8f4bb8a1c208a1d02395888e6fd89fa5c98f2e72c0de3bb6e1a9": {
-      "1627": 2,
-      "606": 1
     },
     "924e2a45bd1203c930d4547e060f1ddad65833b8683f8bd9a49c25c7b1ff0b1c": {
       "303": 1
@@ -33142,9 +33145,6 @@
       "1339": 2,
       "615": 1
     },
-    "b31dd16e15ea4c2a6da27b450ef3e8ad5dde546a618713ca044a185ed1007e73": {
-      "644": 1
-    },
     "b342fffe95d34bd32bc8217df8650cc42f5759f0de304db88e4533d7a7783c48": {
       "506": 1
     },
@@ -33345,6 +33345,9 @@
     "c1ffa4540b7d62bbc4f008e157e684f5892a99a8eb2f764522ae90b5f27cdaef": {
       "1449": 2,
       "565": 1
+    },
+    "c296e084995f93c4f6aaec26a7d2347814eadd75bdc4c60ff94e10c32c3d16f6": {
+      "382": 1
     },
     "c2f1beca630894a52b7844f5092b8bdb2052075ce364c5831fc2bd10f842979e": {
       "533": 1
@@ -33845,11 +33848,6 @@
       "1450": 2,
       "429": 1
     },
-    "ec1f799f5400d5400fdcae35b7714fa46110c7fea4dcdc45f8569dbb4f0c76c4": {
-      "1120": 2,
-      "2114": 3,
-      "468": 1
-    },
     "ec602530ed467506863cddc3c1a1738171cd3c1c92dec1c946a92bb2bf9e8edd": {
       "444": 1,
       "977": 2
@@ -34064,6 +34062,10 @@
     "fadc43abfbc6b33c9d004041391c7f5f9f4fef1d41a9fc6a52364ec62052c433": {
       "1331": 2,
       "510": 1
+    },
+    "fb309d3a068e3230d64ee4fc7f146f2d3cf228e861295fb722b76a04cdd534ce": {
+      "1407": 2,
+      "494": 1
     },
     "fb4ccf8f99dd1a3ec966e076f3867bbfdd421f8637a406807405581e22f3dd3b": {
       "1025": 2,

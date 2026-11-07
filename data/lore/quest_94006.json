@@ -1,0 +1,92 @@
+{
+ "key": "quest:94006",
+ "type": "quest",
+ "name": "The Great Ursera Spirit",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94006
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A druid sends you to meet Urs'endris, a spirit on Zephras who has taught druids the ursera shape for generations. His domain is withering, and Urs'endris can guide your studies further.",
+ "sections": [
+  {
+   "title": "The Great Spirit",
+   "body": "A druid sends you to Urs'endris near the falls northeast of Valanaar. Your druidic studies have brought you to a meeting with one of Zephras's great spirits. Urs'endris has taught druids to take the ursera shape for generations, and his domain is withering into the sky.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Urs'endris?",
+   "aliases": [
+    "urs'endris who",
+    "great spirit urs",
+    "ursera spirit"
+   ],
+   "answer": "Urs'endris is a wise spirit on Zephras who has taught druids to take the ursera shape for generations."
+  },
+  {
+   "q": "Where can I find Urs'endris?",
+   "aliases": [
+    "urs'endris location",
+    "where is urs'endris",
+    "meet the spirit"
+   ],
+   "answer": "Urs'endris is near the falls northeast of Valanaar, near the Shrine of Akir."
+  },
+  {
+   "q": "Why am I being sent to Urs'endris?",
+   "aliases": [
+    "why meet urs'endris",
+    "druid spirit quest",
+    "ursera studies"
+   ],
+   "answer": "Your druidic studies have progressed enough for you to meet one of Zephras's great spirits, and Urs'endris can instruct you further."
+  },
+  {
+   "q": "What is happening to Urs'endris's domain?",
+   "aliases": [
+    "withering domain",
+    "zephras falling",
+    "what's wrong there"
+   ],
+   "answer": "Urs'endris's domain has begun to wither and fall into the sky."
+  },
+  {
+   "q": "What is the ursera shape?",
+   "aliases": [
+    "ursera form",
+    "way of the claw",
+    "ursera"
+   ],
+   "answer": "The ursera shape is a form Urs'endris has taught druids to take for generations."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As a druid, your studies have brought you to Urs'endris, who has taught druids the ursera shape for generations."
+  }
+ ],
+ "keywords": [
+  "druid",
+  "falls",
+  "shrine of akir",
+  "spirit",
+  "urs'endris",
+  "ursera",
+  "valanaar",
+  "zephras"
+ ],
+ "related": [
+  "topic:druid"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Great Ursera Spirit"
+ ]
+}

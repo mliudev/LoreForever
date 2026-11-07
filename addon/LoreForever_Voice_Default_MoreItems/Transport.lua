@@ -1074,11 +1074,11 @@ P.transport["item:dal-bloodclaw-s-skull"] = {
   },
 }
 P.transport["item:dalaran-mana-gem"] = {
-  hash = "adb275",
-  fullHash = "adb275",
-  text = "Dalaran Mana Gem. Near Ambermill, Kirin Tor mages carry Dalaran Mana Gems to renew their arcane power. Forsaken tailors use the gems to weave enchanted robes. Around Ambermill, Kirin Tor mages, conjurors, and guards carry mana gems to focus and renew their arcane power. In the Undercity’s Magic Quarter, Forsaken practitioners prize the gems as a ready store of concentrated magic. Some undead mages share an academic heritage with Dalaran. Yet survival comes first, and the Forsaken see the Kirin Tor as rivals whose stores of magic can be taken. Forsaken bring mana gems taken from fallen Kirin Tor operatives to tailors such as Josef Gregorian in the Undercity. They bring simple linen as well. A tailor cannot channel arcane power directly, but can bind a gem into cloth. The magic strengthens the wearer’s connection to the arcane.",
+  hash = "69ed0a",
+  fullHash = "69ed0a",
+  text = "Dalaran Mana Gem. Near Ambermill, Kirin Tor mages carry Dalaran Mana Gems to renew their arcane power. Forsaken tailors use the gems to weave enchanted robes. The Kirin Tor’s conjurors and guards carry the gems as well. In the Undercity’s Magic Quarter, Forsaken practitioners prize the gems as a ready store of concentrated magic. Some undead mages share an academic heritage with Dalaran. Yet survival comes first, and the Forsaken see the Kirin Tor as rivals whose stores of magic can be taken. Forsaken bring mana gems taken from fallen Kirin Tor operatives to tailors such as Josef Gregorian in the Undercity. They bring simple linen as well. A tailor cannot channel arcane power directly, but can bind a gem into cloth. The magic strengthens the wearer’s connection to the arcane.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_dalaran-mana-gem-a8fe94d2cce307111813/1-0000.mp3", duration = 53.7861224, start = 0},
+    {file = "Audio/Transport/full_item_dalaran-mana-gem-07727a97943801362d62/1-0000.mp3", duration = 48.9534694, start = 0},
   },
 }
 P.transport["item:dalaran-pendant"] = {
@@ -5190,7 +5190,7 @@ P.transport["item:thule-s-head"] = {
   fullHash = "4a2843",
   text = "Thule's Head. At the Sepulcher, High Executor Hadrec seeks proof that Thule Ravenclaw is dead. His severed head confirms the Scourge commander on Fenris Isle has fallen and helps the Forsaken hold Silverpine Forest.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_thule-s-head-e6eb0120030ded103e6f/1-0000.mp3", duration = 12.9567347, start = 0},
+    {file = "Audio/Transport/full_item_thule-s-head-579938f35f9eb899be99/1-0000.mp3", duration = 12.5387755, start = 0},
   },
 }
 P.transport["item:thunder-lizard-blood"] = {

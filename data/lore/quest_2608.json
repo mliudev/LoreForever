@@ -1,0 +1,76 @@
+{
+ "key": "quest:2608",
+ "type": "quest",
+ "name": "The Touch of Zanzil",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2608
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Doc Mixilpixil examines you and seeks a cause for your alarming condition. He asks to draw blood before consulting his colleagues about a cure.",
+ "sections": [
+  {
+   "title": "The examination",
+   "body": "Doc Mixilpixil thinks you look worse than death and says he needs a blood sample to help you. You can lie down for his examination, though his warning suggests the treatment may hurt. Once he has examined you, he calls Dr. Montgomery and Mr. Noarm to confer about your case.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is examining me?",
+   "aliases": [
+    "doc mixilpixil",
+    "who's the doctor",
+    "mixilpixil"
+   ],
+   "answer": "Doc Mixilpixil examines you and asks to draw blood so he can look for the cause of your condition."
+  },
+  {
+   "q": "Why does Doc Mixilpixil want my blood?",
+   "aliases": [
+    "blood sample",
+    "why blood",
+    "draw blood"
+   ],
+   "answer": "Doc Mixilpixil says he needs a blood sample to find the cause and help you."
+  },
+  {
+   "q": "Who are Dr. Montgomery and Mr. Noarm?",
+   "aliases": [
+    "montgomery and noarm",
+    "doc's colleagues",
+    "noarm"
+   ],
+   "answer": "Dr. Montgomery and Mr. Noarm are Doc Mixilpixil's colleagues, whom he calls to confer about your case."
+  },
+  {
+   "q": "What happens after the examination?",
+   "aliases": [
+    "after the exam",
+    "what next",
+    "doctor conference"
+   ],
+   "answer": "After examining you, Doc Mixilpixil calls Dr. Montgomery and Mr. Noarm to confer."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blood",
+  "cure",
+  "doc mixilpixil",
+  "dr. montgomery",
+  "examination",
+  "mr. noarm",
+  "the touch of zanzil",
+  "zanzil"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Touch of Zanzil"
+ ]
+}

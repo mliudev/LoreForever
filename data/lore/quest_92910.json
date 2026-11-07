@@ -1,0 +1,69 @@
+{
+ "key": "quest:92910",
+ "type": "quest",
+ "name": "Harvesting the Harvesters",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92910
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A salvaged harvester part may interest someone who studies harvest golems. You are asked to bring it to Ozwin Ironsprocket at Saldean's Farm.",
+ "sections": [
+  {
+   "title": "A Salvaged Part",
+   "body": "Someone at Saldean's Farm may want to examine the part you salvaged from a harvester. It appears mostly intact, and Ozwin Ironsprocket is waiting to see it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What do I take to Ozwin?",
+   "aliases": [
+    "harvester part",
+    "what item",
+    "autocognition assembly"
+   ],
+   "answer": "You bring Ozwin Ironsprocket the Precessive Autocognition Assembly, a part salvaged from a harvester."
+  },
+  {
+   "q": "Where do I bring the salvaged part?",
+   "aliases": [
+    "where ozwin",
+    "saldean farm",
+    "where to take it"
+   ],
+   "answer": "Bring the Precessive Autocognition Assembly to Ozwin Ironsprocket at Saldean's Farm."
+  },
+  {
+   "q": "Why might someone want the part?",
+   "aliases": [
+    "why harvesters",
+    "who wants this",
+    "harvester interest"
+   ],
+   "answer": "The salvaged part appears mostly intact, and someone interested in harvest golems may want to see it."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "harvest golem",
+  "harvester",
+  "harvesting the harvesters",
+  "ozwin ironsprocket",
+  "precessive autocognition assembly",
+  "saldean's farm",
+  "salvaged part"
+ ],
+ "related": [
+  "quest:897",
+  "subzone:saldean-s-farm"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Harvesting the Harvesters"
+ ]
+}

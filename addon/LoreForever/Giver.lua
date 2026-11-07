@@ -115,7 +115,9 @@ function Giver.Identify(unit)
   unit = unit or "npc"
   local kind, id = Giver.ParseGUID(call(_G.UnitGUID, unit))
   if not kind then return nil end
-  local who = { kind = kind, id = id, name = call(_G.UnitName, unit) }
+  -- A secret name (in combat, an instance) errors wherever it is compared or joined, so it isn't kept (LOR-1257).
+  local name = call(_G.UnitName, unit)
+  local who = { kind = kind, id = id, name = ns.Context.Usable(name) and type(name) == "string" and name or nil }
   if kind == "npc" then
     who.sex = Giver.Sex(unit)
     who.ctype = call(_G.UnitCreatureType, unit)

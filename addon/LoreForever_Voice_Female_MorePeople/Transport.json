@@ -341,9 +341,9 @@
     "npc:archmage-ansirem-runeweaver": {
       "1": [
         {
-          "duration": 62.328163265306124,
-          "file": "Audio/Transport/full_npc_archmage-ansirem-runeweaver-c8c8de4bf94e2b0d3083/1-0000.mp3",
-          "sha256": "6971919e9ff1b709fda8c696f13778ea993e6a7f4c4e8d087c26daa992864caf",
+          "duration": 62.48489795918368,
+          "file": "Audio/Transport/full_npc_archmage-ansirem-runeweaver-317a46942c4acd73749e/1-0000.mp3",
+          "sha256": "d9f20f5f95c8ec48e963e10fafeea41858d645c9fd4679e5c01eeaa5a1ae9360",
           "start": 0
         }
       ],
@@ -355,12 +355,12 @@
         ]
       },
       "fullHash": "587630",
-      "generation": "7b57bf92b93fff0403b1",
+      "generation": "7f5511fa59a21eb77b66",
       "hash": "587630",
       "source": {
-        "duration": 62.354286,
+        "duration": 62.51102,
         "file": null,
-        "sha256": "c8c8de4bf94e2b0d30834689bdb3a8e33ce00577131cc85e642b78071ff3b232"
+        "sha256": "317a46942c4acd73749ed10b324ef5401805cca58bd4fb06b436e1362d458f1e"
       },
       "text": "Archmage Ansirem Runeweaver. At the Violet Citadel, Archmage Ansirem Runeweaver oversees Kirin Tor work as Dalaran is rebuilt. A senior human wizard on the Council of Six, he survived the Scourge's destruction of the city. His willful daughter ran off to Booty Bay to become a pirate. Ansirem Runeweaver helped defend Dalaran for decades. He holds a seat on the Council of Six, which rules the Kirin Tor. He survived when Arthas Menethil and the Scourge marched on the city and Archimonde was summoned. After Dalaran fell, Ansirem joined the effort to rebuild it. The protective shield came down early, and he now works from the Violet Citadel. Ansirem's ties reach beyond the Alterac Mountains. His willful daughter, Catelyn, ran off to Booty Bay to become a pirate, taking an ancient troll dagger he found while researching in Stranglethorn. Ansirem has dealt with Baron Revilgaz there. He has also studied troll antiquities and keeps diplomatic conduits open across distant realms."
     },
@@ -11651,9 +11651,9 @@
     "npc:sprite-darter": {
       "1": [
         {
-          "duration": 60.21224489795919,
-          "file": "Audio/Transport/full_npc_sprite-darter-35dc2002e23f5785b1e1/1-0000.mp3",
-          "sha256": "3c72315d52c98098c4cd37a1b2a971a65661bb694303512d94eac5cd281217f4",
+          "duration": 59.89877551020408,
+          "file": "Audio/Transport/full_npc_sprite-darter-efb5ebd4e65b72415793/1-0000.mp3",
+          "sha256": "66ae7dae4acf3ff6eb242446deb063bf9bbb9495d94ed2d40c7fba317ac6740a",
           "start": 0
         }
       ],
@@ -11665,12 +11665,12 @@
         ]
       },
       "fullHash": "a3b179",
-      "generation": "fc2144e9e6422e27360d",
+      "generation": "01fc22d0081a20c99681",
       "hash": "a3b179",
       "source": {
-        "duration": 60.238367,
+        "duration": 59.924898,
         "file": null,
-        "sha256": "35dc2002e23f5785b1e11907bb2405c8075f93a2698743b56a386688744e86a2"
+        "sha256": "efb5ebd4e65b7241579372ec651b90c0e2c7e0728755b232d4b0cabaea1d6f18"
       },
       "text": "Sprite Darter. Among Feralas's ancient trees, Sprite Darters flit while the Grimtotem seek to capture them. These rare faerie dragons are revered for their spiritual and magical qualities. Sprite Darters glide through Feralas's ancient forests on iridescent wings. Shy and peaceful, these elusive woodland beasts draw the attention of those who study Kalimdor's wild places for their natural power and resistance to magic. The Grimtotem tauren of Feralas have begun rounding up and caging many Sprite Darters, though no one knows why. Kindal Moonweaver, a concerned night elf, seeks allies to break the cages and free the trapped hatchlings before the Grimtotem bend them to their will. Sprite Darters also interest those who study primal power. At Camp Mojache, Witch Doctor Uzer'i, a troll spiritualist, studies the natural energies and muisek within them. He seeks their essence to understand the unique magic thriving throughout Feralas."
     },
@@ -13601,9 +13601,9 @@
     "npc:witch-doctor-uzer-i": {
       "1": [
         {
-          "duration": 64.9665306122449,
-          "file": "Audio/Transport/full_npc_witch-doctor-uzer-i-507a4f098b41b6c4fb0c/1-0000.mp3",
-          "sha256": "b83916d751870ca82866ec316f952d90eb05ab6f532d144f3348c1d97003ce4c",
+          "duration": 64.91428571428571,
+          "file": "Audio/Transport/full_npc_witch-doctor-uzer-i-107b4499481dcd6b3027/1-0000.mp3",
+          "sha256": "9c06181bd4800f289757c2b7a315df27e0a32e20043d4ec0c6bd5b55de584560",
           "start": 0
         }
       ],
@@ -13615,12 +13615,12 @@
         ]
       },
       "fullHash": "02e0f9",
-      "generation": "2ae4561beb9067938646",
+      "generation": "506d2e27419810a9af92",
       "hash": "02e0f9",
       "source": {
-        "duration": 64.992653,
+        "duration": 64.940408,
         "file": null,
-        "sha256": "507a4f098b41b6c4fb0c8d352ced264c4ff96556f9b1453c760860e00b156665"
+        "sha256": "107b4499481dcd6b3027ef3d232cba396238b77a6255aee82811fe221bd8cdac"
       },
       "text": "Witch Doctor Uzer'i. At Camp Mojache, Witch Doctor Uzer'i seeks to bind the spirits of powerful natural creatures into weapons for the Horde. He calls those lingering spirits muisek and studies magic the night elves have used for millennia. Witch Doctor Uzer'i studies Feralas's natural magic through the old rites of troll spiritualism. Night elves have drawn on forest beast spirits for millennia, and Uzer'i believes the Horde should claim that power. He calls a creature's lingering spirit muisek. His vessels shrink fallen beings and trap their spirits before they escape, so he can store and study their essence. Capturing muisek is only the beginning of Uzer'i's ambition. He gathers sinew, enchanted minerals, and petrified splintered logs from the creatures whose spirits he traps. Then he joins those materials with bound muisek. Through his rites, he binds ancient forest spirits into weapons for the Horde. Uzer'i also follows rumors of hidden places of power across Azeroth, including the ancient, submerged Sunken Temple."
     },
@@ -13731,9 +13731,9 @@
     "npc:wynne-larson": {
       "1": [
         {
-          "duration": 60.499591836734695,
-          "file": "Audio/Transport/full_npc_wynne-larson-209e43764726b6645381/1-0000.mp3",
-          "sha256": "26f814178b3dbee96188f44e01265eaf25b2d099d73cb4bbc536c4b3d5685e48",
+          "duration": 62.04081632653062,
+          "file": "Audio/Transport/full_npc_wynne-larson-9e149a18c10eda30f8f6/1-0000.mp3",
+          "sha256": "df6f3d2a1fe68ea4824c8a0fe00ec4f570f0bfa3aacad21236d3a9c4738cf04a",
           "start": 0
         }
       ],
@@ -13745,12 +13745,12 @@
         ]
       },
       "fullHash": "ef0e41",
-      "generation": "c32f3918fcd4686f8233",
+      "generation": "3857bdc242b4e8963b29",
       "hash": "ef0e41",
       "source": {
-        "duration": 60.525714,
+        "duration": 62.066939,
         "file": null,
-        "sha256": "209e43764726b66453817e409f83d309c991f47a70df8a25093dc62790183f2e"
+        "sha256": "9e149a18c10eda30f8f650c8a788d99db2084fc50b6fb02c3c117290b59f8285"
       },
       "text": "Wynne Larson. In Stormwind's Mage Quarter, Wynne Larson supplies robes to mages across the kingdom. Since Dalaran and Quel'Thalas fell in the Third War, she relies on local craftsmen and points spellcasters toward rare materials for enchanted garments. Before the Third War, Dalaran and Quel'Thalas supplied the finest woven fabrics and enchanted vestments. Their destruction crippled the old trade routes and arcane textile making. Now Wynne Larson works with local tailors and enchanters such as Lucan Cordell in Stormwind's Mage Quarter. Together, they meet the city's growing need for robes and spellwoven gear. Novice and journeyman mages come to Wynne's shop for arcane garments. She knows what materials are needed for vestments such as Manaweave Robes and Astral Knot Garments. To find them, she sends spellcasters into dangerous places to recover rare reagents like pristine spider silk. Her work helps keep Stormwind's mages outfitted despite shortages from the north."
     },
@@ -15997,18 +15997,6 @@
       383,
       1150
     ],
-    "26f814178b3dbee96188f44e01265eaf25b2d099d73cb4bbc536c4b3d5685e48": [
-      239,
-      374,
-      630,
-      872,
-      1043,
-      1281,
-      1477,
-      1658,
-      1868,
-      2122
-    ],
     "272963753bb096e85f76266275c531433995a7f23ed2f2c19bb6bfed9b94ed50": [
       170,
       550,
@@ -16464,16 +16452,6 @@
       534,
       853,
       1037
-    ],
-    "3c72315d52c98098c4cd37a1b2a971a65661bb694303512d94eac5cd281217f4": [
-      252,
-      468,
-      662,
-      1045,
-      1310,
-      1660,
-      1814,
-      2002
     ],
     "3c99f4429a202da9c1993a8b67bc712f0840e610c719dd766efad3ac765ffbf7": [
       270,
@@ -17089,6 +17067,9 @@
       1875,
       2062
     ],
+    "554c1f9d43dec349d84e6102e4e8984e01f595e6a4c83ed86420832682a7e98b": [
+      565
+    ],
     "557b4e4510265c0363f27ffe8164371fd0c1014dbb8e65f18c44f0b9a7de783d": [
       687
     ],
@@ -17453,6 +17434,16 @@
     "669a973a53a3d8ec492e8703227996432f32027013b3ba45fe5054e86f1a529f": [
       243
     ],
+    "66ae7dae4acf3ff6eb242446deb063bf9bbb9495d94ed2d40c7fba317ac6740a": [
+      241,
+      431,
+      627,
+      1008,
+      1291,
+      1652,
+      1803,
+      2112
+    ],
     "68a2c7ab205ab01e982b7d29acc752444348ef9383ede9c96d5f648b19109447": [
       231,
       430,
@@ -17489,18 +17480,6 @@
       511,
       786,
       1010
-    ],
-    "6971919e9ff1b709fda8c696f13778ea993e6a7f4c4e8d087c26daa992864caf": [
-      294,
-      519,
-      675,
-      836,
-      995,
-      1206,
-      1364,
-      1552,
-      1699,
-      2043
     ],
     "69fb602e6c43788eec2dc96d37d989ec87a8654681fd6de544f880fd00db0e14": [
       285,
@@ -18097,10 +18076,6 @@
       653,
       902
     ],
-    "82f7018481ed34d495e2a055915c853521f18f5abd8044bbdacd5ee203d1bf84": [
-      614,
-      881
-    ],
     "837e0cd3767e148d61900a6ad41415a22d8b1b6603f29771c789d5cd9662cabc": [
       225,
       438,
@@ -18576,6 +18551,17 @@
       976,
       1168,
       1396
+    ],
+    "9c06181bd4800f289757c2b7a315df27e0a32e20043d4ec0c6bd5b55de584560": [
+      302,
+      551,
+      811,
+      958,
+      1198,
+      1490,
+      1635,
+      1879,
+      2185
     ],
     "9cbfbe1d8439c36b1cbe2ddd8b1c006e29bccb7abfe28f3d95bd7b806d7387a6": [
       213,
@@ -19184,18 +19170,6 @@
       665,
       997
     ],
-    "b83916d751870ca82866ec316f952d90eb05ab6f532d144f3348c1d97003ce4c": [
-      315,
-      548,
-      800,
-      941,
-      1184,
-      1462,
-      1620,
-      1892,
-      2028,
-      2216
-    ],
     "b88476de5402169cbf07e5c1febd1ed8e54cc09116f1e613a54e2af201fd8979": [
       251,
       428,
@@ -19747,9 +19721,6 @@
       1700,
       1878
     ],
-    "ce013c13e8dbc51c347a60d7ccb526d4cbbf43ac530467568e086b5698e448ea": [
-      507
-    ],
     "ce145785a104e8045659dd961ef3817c23fa4f4b6318726a78d1e69a6545e4f0": [
       240,
       436,
@@ -20071,6 +20042,19 @@
     "d9aa02988ab185f602e764ba0284c93c99085ae2deb75985ecc52a888448d7a4": [
       433
     ],
+    "d9f20f5f95c8ec48e963e10fafeea41858d645c9fd4679e5c01eeaa5a1ae9360": [
+      305,
+      533,
+      687,
+      838,
+      994,
+      1141,
+      1378,
+      1580,
+      1720,
+      1896,
+      2060
+    ],
     "da6d30e5aa4a0c02684aba2248cf37ba107ab6443d66c1e0225e3d1440b8d9ac": [
       192,
       411,
@@ -20182,6 +20166,17 @@
       711,
       1027,
       1298
+    ],
+    "df6f3d2a1fe68ea4824c8a0fe00ec4f570f0bfa3aacad21236d3a9c4738cf04a": [
+      236,
+      622,
+      896,
+      1073,
+      1332,
+      1517,
+      1699,
+      1930,
+      2176
     ],
     "dfa0611894a70ec196f0bb2363bc4b38c6cf01c1f627b3c8b3978e2ceed787d0": [
       249,
@@ -21080,10 +21075,6 @@
     "2621bde671b72fd6aeb462c8813a5f407123ebe554d06658bda8cd42efd9bf15": {
       "541": 1
     },
-    "26f814178b3dbee96188f44e01265eaf25b2d099d73cb4bbc536c4b3d5685e48": {
-      "1477": 2,
-      "630": 1
-    },
     "272963753bb096e85f76266275c531433995a7f23ed2f2c19bb6bfed9b94ed50": {
       "550": 1
     },
@@ -21247,11 +21238,6 @@
     },
     "3c55b615f18692eba7797a0acd3394c4db884cf0b9de072bd3c0795a4930350e": {
       "534": 1
-    },
-    "3c72315d52c98098c4cd37a1b2a971a65661bb694303512d94eac5cd281217f4": {
-      "1045": 2,
-      "1660": 3,
-      "468": 1
     },
     "3c99f4429a202da9c1993a8b67bc712f0840e610c719dd766efad3ac765ffbf7": {
       "464": 1
@@ -21594,6 +21580,11 @@
     "6690c7d987d4d5f69d1062a9a87e5a7c331ad60b6580477a0c9bbd5bcf883b89": {
       "501": 1
     },
+    "66ae7dae4acf3ff6eb242446deb063bf9bbb9495d94ed2d40c7fba317ac6740a": {
+      "1008": 2,
+      "1652": 3,
+      "431": 1
+    },
     "68a2c7ab205ab01e982b7d29acc752444348ef9383ede9c96d5f648b19109447": {
       "1161": 2,
       "430": 1
@@ -21608,10 +21599,6 @@
     },
     "696db30f5529e1158a98608c2aecc9f2fd41b6c3fde288a875a9aa1d6080e098": {
       "511": 1
-    },
-    "6971919e9ff1b709fda8c696f13778ea993e6a7f4c4e8d087c26daa992864caf": {
-      "1552": 2,
-      "675": 1
     },
     "6a01c524e98626ff675d93fc646ab3db264818c83a8803a16056e5159a796dae": {
       "334": 1
@@ -21996,6 +21983,10 @@
     "9bdf6aa2d208d271463b82846338987ecada30f573c22814e430c6b04f52a84b": {
       "684": 1
     },
+    "9c06181bd4800f289757c2b7a315df27e0a32e20043d4ec0c6bd5b55de584560": {
+      "1490": 3,
+      "551": 1
+    },
     "9cbfbe1d8439c36b1cbe2ddd8b1c006e29bccb7abfe28f3d95bd7b806d7387a6": {
       "1154": 2,
       "364": 1
@@ -22219,10 +22210,6 @@
     },
     "b833c9b411f19f3a7f4f4f5709279b110d0d78209ee28d37989f8e0516199a38": {
       "431": 1
-    },
-    "b83916d751870ca82866ec316f952d90eb05ab6f532d144f3348c1d97003ce4c": {
-      "1462": 3,
-      "548": 1
     },
     "b88476de5402169cbf07e5c1febd1ed8e54cc09116f1e613a54e2af201fd8979": {
       "251": 1
@@ -22553,6 +22540,10 @@
     "d98c3cc025dc629d607df2521a6a72fc0bfd2d0287b235d10140067b8cf4a11b": {
       "522": 1
     },
+    "d9f20f5f95c8ec48e963e10fafeea41858d645c9fd4679e5c01eeaa5a1ae9360": {
+      "1580": 2,
+      "687": 1
+    },
     "da6d30e5aa4a0c02684aba2248cf37ba107ab6443d66c1e0225e3d1440b8d9ac": {
       "411": 1
     },
@@ -22592,6 +22583,10 @@
     },
     "df3ba4a7561e87217a4f17b7e7f8d12d88cc0563c949086c52d444d9cda1c4d8": {
       "479": 1
+    },
+    "df6f3d2a1fe68ea4824c8a0fe00ec4f570f0bfa3aacad21236d3a9c4738cf04a": {
+      "1517": 2,
+      "622": 1
     },
     "dfa0611894a70ec196f0bb2363bc4b38c6cf01c1f627b3c8b3978e2ceed787d0": {
       "1811": 2,

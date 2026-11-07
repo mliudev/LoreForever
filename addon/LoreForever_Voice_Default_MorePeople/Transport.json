@@ -11651,9 +11651,9 @@
     "npc:sprite-darter": {
       "1": [
         {
-          "duration": 55.87591836734694,
-          "file": "Audio/Transport/full_npc_sprite-darter-74f9477cf8d7ab7be48e/1-0000.mp3",
-          "sha256": "000ed042e10671d6e7cd8d4a3aec0ea18ed9e0d791b805a35645109873719275",
+          "duration": 54.56979591836735,
+          "file": "Audio/Transport/full_npc_sprite-darter-e8e7cfbfdbdf195b1436/1-0000.mp3",
+          "sha256": "0dbcc30e51a6acaceda9cd354c2275188622b02a3b954c4261aed8d7df13abbe",
           "start": 0
         }
       ],
@@ -11665,12 +11665,12 @@
         ]
       },
       "fullHash": "a3b179",
-      "generation": "abed361259fa02097303",
+      "generation": "4d0862a04f8fb9c5a33a",
       "hash": "a3b179",
       "source": {
-        "duration": 55.902041,
+        "duration": 54.595918,
         "file": null,
-        "sha256": "74f9477cf8d7ab7be48ea356034af4c39b70a556e65c6e208fce18a73b10755c"
+        "sha256": "e8e7cfbfdbdf195b14363ac8047d92dcbe60f0491ad9a9822b26de7f007bc709"
       },
       "text": "Sprite Darter. Among Feralas's ancient trees, Sprite Darters flit while the Grimtotem seek to capture them. These rare faerie dragons are revered for their spiritual and magical qualities. Sprite Darters glide through Feralas's ancient forests on iridescent wings. Shy and peaceful, these elusive woodland beasts draw the attention of those who study Kalimdor's wild places for their natural power and resistance to magic. The Grimtotem tauren of Feralas have begun rounding up and caging many Sprite Darters, though no one knows why. Kindal Moonweaver, a concerned night elf, seeks allies to break the cages and free the trapped hatchlings before the Grimtotem bend them to their will. Sprite Darters also interest those who study primal power. At Camp Mojache, Witch Doctor Uzer'i, a troll spiritualist, studies the natural energies and muisek within them. He seeks their essence to understand the unique magic thriving throughout Feralas."
     },
@@ -15160,14 +15160,6 @@
     }
   },
   "cuts": {
-    "000ed042e10671d6e7cd8d4a3aec0ea18ed9e0d791b805a35645109873719275": [
-      228,
-      419,
-      956,
-      1207,
-      1540,
-      1961
-    ],
     "002a36b6cb7f0451ba21cd844f44d2880dbbd5099ba9d00ab073a46b0079c9b8": [
       204,
       351
@@ -15435,6 +15427,16 @@
       543,
       823,
       1222
+    ],
+    "0dbcc30e51a6acaceda9cd354c2275188622b02a3b954c4261aed8d7df13abbe": [
+      216,
+      400,
+      585,
+      926,
+      1117,
+      1524,
+      1662,
+      1914
     ],
     "0df1d4cce7689b0ccc7f70143818703ce9b4cc18a3ab17d06bc999bffb34f9f3": [
       181,
@@ -20550,11 +20552,6 @@
     ]
   },
   "heads": {
-    "000ed042e10671d6e7cd8d4a3aec0ea18ed9e0d791b805a35645109873719275": {
-      "1540": 3,
-      "419": 1,
-      "956": 2
-    },
     "002a36b6cb7f0451ba21cd844f44d2880dbbd5099ba9d00ab073a46b0079c9b8": {
       "351": 1
     },
@@ -20654,6 +20651,11 @@
     },
     "0db567d0be17d91e2dbc4553a62dc57ba834d4d1f4126e4aae967d8c64fb4cc3": {
       "543": 1
+    },
+    "0dbcc30e51a6acaceda9cd354c2275188622b02a3b954c4261aed8d7df13abbe": {
+      "1524": 3,
+      "400": 1,
+      "926": 2
     },
     "0df1d4cce7689b0ccc7f70143818703ce9b4cc18a3ab17d06bc999bffb34f9f3": {
       "421": 1

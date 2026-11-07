@@ -1102,7 +1102,7 @@ P.transport["topic:worgen"] = {
   fullHash = "783eea",
   text = "Worgen. Across Silverpine Forest, Ashenvale, and Duskwood, Worgen now hunt with bestial swiftness and a fury they cannot master. Once feared as nightmares from another realm, their beginnings remain uncertain. Long before Worgen appeared in Lordaeron and Kalimdor, people told folktales and cautionary tales of wolf-men. Their beginnings remain a mystery. Scholars who have studied them believe they came to Azeroth from another realm. Archmage Arugal and the night elves' Scythe of Elune have both been shown to summon them. During the Third War, the Scourge overran Lordaeron, and slain Kirin Tor wizards rose again as undead. Archmage Arugal sought a weapon to strengthen Dalaran's dwindling ranks. He used forbidden research by the Dalaran wizard Ur to pierce the veil and summon Worgen into Silverpine Forest. They savaged the undead invaders, but Arugal could not master their fury. The beasts turned on the wizards and spread their curse with fang and claw.\n\nMad with guilt and fascination, Arugal claimed the monsters as his children. He seized Baron Silverlaine's ancestral seat and renamed it Shadowfang Keep. There, he cursed nearby villagers into monstrous nocturnal servitude.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_worgen-836f3cee8bc5bbc670c0/1-0000.mp3", duration = 75.9902041, start = 0},
+    {file = "Audio/Transport/full_topic_worgen-cd85e9229a86382e28c2/1-0000.mp3", duration = 76.8783673, start = 0},
   },
 }
 P.transport["zone:alterac"] = {

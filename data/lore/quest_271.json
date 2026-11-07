@@ -1,0 +1,91 @@
+{
+ "key": "quest:271",
+ "type": "quest",
+ "name": "Vyrin's Revenge",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   271
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "At Farstrider Lodge, a hunter asks you to settle an old score with Ol' Sooty. The bear scarred Daryl the Youngling during a hunt a year ago.",
+ "sections": [
+  {
+   "title": "An Old Scar",
+   "body": "A hunter at Farstrider Lodge asks you to face Ol' Sooty, the bear that scarred Daryl the Youngling. The lodge's hunters had failed to bring it down, and Daryl tried his luck a year ago. His attempt left him with the mark over his eye. Ol' Sooty keeps to its lair in the hills above Thelsamar.",
+   "spoiler": 0
+  },
+  {
+   "title": "At the Lodge",
+   "body": "At Farstrider Lodge, you bring Daryl the Youngling proof of Ol' Sooty's end. He recognizes the bear's head and touches his scar. Then he begins to shake and begs you to take it away.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ol' Sooty?",
+   "aliases": [
+    "ol sooty bear",
+    "sooty",
+    "bear scarred daryl"
+   ],
+   "answer": "Ol' Sooty is the bear that scarred Daryl the Youngling during a hunt a year ago."
+  },
+  {
+   "q": "Who is Daryl the Youngling?",
+   "aliases": [
+    "daryl backstory",
+    "who's daryl",
+    "daryl scar"
+   ],
+   "answer": "Daryl the Youngling is a skilled hunter at Farstrider Lodge. Ol' Sooty left him with a scar over his eye."
+  },
+  {
+   "q": "Where does Ol' Sooty live?",
+   "aliases": [
+    "where is ol sooty",
+    "sooty location",
+    "bear lair"
+   ],
+   "answer": "Ol' Sooty can be found around its lair in the hills above Thelsamar."
+  },
+  {
+   "q": "Why does the hunter want Ol' Sooty killed?",
+   "aliases": [
+    "why kill sooty",
+    "vyrin revenge why",
+    "daryl revenge"
+   ],
+   "answer": "Ol' Sooty scarred Daryl during a hunt a year ago, and a hunter at Farstrider Lodge wants payback."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "As a hunter, you are asked to face the bear that eluded the hunters of Farstrider Lodge and scarred Daryl."
+  }
+ ],
+ "keywords": [
+  "bear",
+  "daryl the youngling",
+  "farstrider lodge",
+  "ol' sooty",
+  "scar",
+  "thelsamar",
+  "vyrin's revenge"
+ ],
+ "related": [
+  "subzone:farstrider-lodge",
+  "subzone:thelsamar",
+  "npc:daryl-the-youngling",
+  "subzone:bear-s-head",
+  "topic:hunter"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Vyrin's Revenge"
+ ]
+}

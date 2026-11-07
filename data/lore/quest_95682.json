@@ -1,0 +1,89 @@
+{
+ "key": "quest:95682",
+ "type": "quest",
+ "name": "Open the Maw",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95682
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A Deathstalker Agent asks you to clear Dragonmaw from the Excavation Sites and bring back anything of note. The clan may be seeking a path back to power.",
+ "sections": [
+  {
+   "title": "A Quiet Approach",
+   "body": "A Deathstalker Agent outside the Excavation Site wants the Dragonmaw forces cleared away. The remnants of the dragon-wrangling clan believe they have found something that could restore their former power. Their ragtag presence must be removed so the Deathstalkers can enter unseen. Bring back anything notable you recover, and keep the matter between the agent and royal command.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Recovered Scrawl",
+   "body": "The Deathstalker Agent recognizes the orcish writing among the recovered items. It shows the Dragonmaw hope to appease Rend, their false warchief. The agent calls the effort fruitless, but the knowledge is valuable to the Dark Lady. The agent leaves the recovered items with you and warns you to say nothing of the mission.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sent me to the Excavation Site?",
+   "aliases": [
+    "who wants dragonmaw cleared",
+    "deathstalker agent job",
+    "who sent me"
+   ],
+   "answer": "A Deathstalker Agent outside the Excavation Site asks you to clear out the Dragonmaw and bring back anything of note."
+  },
+  {
+   "q": "What are the Dragonmaw hoping to do?",
+   "aliases": [
+    "dragonmaw plan",
+    "why are dragonmaw here",
+    "dragonmaw back to power"
+   ],
+   "answer": "The Dragonmaw remnants believe they have found something that could restore their former power."
+  },
+  {
+   "q": "Why do the Deathstalkers want the site cleared?",
+   "aliases": [
+    "why clear excavation site",
+    "deathstalkers move in",
+    "what do they need"
+   ],
+   "answer": "They want to enter the Excavation Site undetected."
+  },
+  {
+   "q": "What should I bring back?",
+   "aliases": [
+    "what to recover",
+    "dragonmaw items",
+    "what does agent want"
+   ],
+   "answer": "Bring the Deathstalker Agent anything of note you recover from the Dragonmaw."
+  },
+  {
+   "q": "Who is the Dark Lady?",
+   "aliases": [
+    "dark lady meaning",
+    "who is dark lady",
+    "sylvanas title"
+   ],
+   "answer": "The agent uses that title for Sylvanas, who leads the Forsaken."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dark lady",
+  "deathstalker agent",
+  "dragonmaw",
+  "excavation site",
+  "forsaken",
+  "orcish scrawl",
+  "rend"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Open the Maw"
+ ]
+}

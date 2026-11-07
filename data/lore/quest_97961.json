@@ -1,0 +1,93 @@
+{
+ "key": "quest:97961",
+ "type": "quest",
+ "name": "Camping 101: Tailoring",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97961
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A tailoring trainer can show you how to make a Faction Banner for your camp. Bowen Brisboise teaches the craft once you prove your skill.",
+ "sections": [
+  {
+   "title": "A Banner for Camp",
+   "body": "A tailoring trainer points you to Bowen Brisboise on the road from Deathknell to Brill. Prove your skill to him, and he can teach you to make a Faction Banner for your camp. A banner can help keep you encouraged in the field.",
+   "spoiler": 0
+  },
+  {
+   "title": "Setting Up Camp",
+   "body": "Bowen Brisboise teaches you to make a Rallying Banner. To try it, you need to set your camp in the wilderness, since most folk dislike camps in town. You also need a campfire, which a cook can teach you to make.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who teaches tailoring camp crafts?",
+   "aliases": [
+    "who is bowen",
+    "bowen brisboise",
+    "tailoring teacher"
+   ],
+   "answer": "Bowen Brisboise can teach you to craft a Faction Banner once you prove your tailoring skill."
+  },
+  {
+   "q": "Where can I find Bowen Brisboise?",
+   "aliases": [
+    "where's bowen",
+    "bowen location",
+    "road to brill"
+   ],
+   "answer": "Bowen Brisboise is on the road from Deathknell to Brill."
+  },
+  {
+   "q": "What can tailoring make for a camp?",
+   "aliases": [
+    "tailoring camp item",
+    "banner craft",
+    "camp banner"
+   ],
+   "answer": "Tailoring can teach you to make a Faction Banner for your camp."
+  },
+  {
+   "q": "What is the banner called?",
+   "aliases": [
+    "rallying banner",
+    "banner name",
+    "what banner"
+   ],
+   "answer": "The banner you learn to craft is called a Rallying Banner."
+  },
+  {
+   "q": "Do I need a campfire?",
+   "aliases": [
+    "camp fire needed",
+    "fire for camp",
+    "start a camp"
+   ],
+   "answer": "Yes. You need a campfire before setting up camp, and a cook can teach you to make one."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bowen brisboise",
+  "brill",
+  "campfire",
+  "camping",
+  "deathknell",
+  "faction banner",
+  "rallying banner",
+  "tailoring"
+ ],
+ "related": [
+  "subzone:deathknell",
+  "subzone:brill"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Camping 101: Tailoring"
+ ]
+}

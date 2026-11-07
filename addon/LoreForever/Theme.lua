@@ -181,10 +181,6 @@ T.font = {
   title = morpheus("LoreForeverFontTitle", 15, "GameFontNormal"),         -- the window's name in its banner
   place = morpheus("LoreForeverFontPlace", 18, "GameFontNormalLarge"),    -- where you are
   heading = morpheus("LoreForeverFontHeading", 15, "GameFontNormal"),     -- section headers, tabs
-  tab14 = morpheus("LoreForeverFontTab14", 14, "GameFontNormal"),         -- tabs whose labels are long (deDE): the
-  tab13 = morpheus("LoreForeverFontTab13", 13, "GameFontNormal"),         -- largest of these the four fit the book in
-  tab12 = morpheus("LoreForeverFontTab12", 12, "GameFontNormalSmall"),
-  tab11 = morpheus("LoreForeverFontTab11", 11, "GameFontNormalSmall"),
   answerTitle = morpheus("LoreForeverFontAnswer", 15, "GameFontNormal"),  -- an answer's first line
   initial = morpheus("LoreForeverFontInitial", 34, "GameFontNormalHuge"),  -- a paragraph's illuminated first letter
   control = "GameFontNormal",        -- gold labels that aren't headings (the player's title)
@@ -212,7 +208,7 @@ end
 -- loads; a plain font object also replaces the family variants that CopyFontObject inherited from Morpheus.
 function T.SetLanguageFonts(locale)
   if locale ~= "ukUA" or not CreateFont then return end
-  for _, role in ipairs({ "title", "place", "heading", "tab14", "tab13", "tab12", "tab11", "answerTitle", "initial" }) do
+  for _, role in ipairs({ "title", "place", "heading", "answerTitle", "initial" }) do
     local name = T.font[role]
     local f = name:find("^LoreForeverFont") and _G[name]
     if f and f.GetFont then
@@ -964,96 +960,32 @@ function T.KindIcon(kind)
   return T.HasTexture(path) and path or UNKNOWN_ICON
 end
 
--- A bookmark tab on the book's edge (Mike's pick, 11/4, board 2 "Your pick"): the four are one size with even gaps
--- (UI.FitRibbons sets the size), each label centred in the heading face, running down the tab (one line turned
--- sideways; one letter to a line where the client can't turn text, and for CJK). The open one is the page's own paper
--- (RibbonSheet) with an oxblood label, and joins the page; the others are stone in a gold rim with muted labels. "New" is one small
--- gold dot near the tab's outer end, never a number, and it never moves the label.
---   r:SetLabel(text)  r:SetOn(bool)  r:SetCount(n)  r:SetLength(px)   (n > 0 shows the dot; the count stays in Found)
--- Anchor it by its top left. `horizontal` writes the label across instead of down (a narrow window).
-local RIBBON_PAD, RIBBON_W = 8, 26
+-- A bookmark tab on the book's edge: the four are one size with even gaps (Mike's pick, 11/4), each a drawn sign in
+-- the add-on's line art (Mike's pick, 11/6, LOR-1235: Here a map pin, Found an open book, Road a winding road,
+-- Storylines stacked tomes; scripts/paper_textures.py), and its name on hover, in the reading language. The open one is
+-- the page's own paper (RibbonSheet) with an oxblood sign, and joins the page; the others are stone in a gold rim with
+-- light grey signs. "New" is one small gold dot near the tab's outer end, never a number.
+--   r:SetIcon(name)  r:SetLabel(text)  r:SetOn(bool)  r:SetCount(n)   (n > 0 shows the dot; the count stays in Found)
+-- Anchor it by its top left. `icon` is the sign's texture under Media\Paper ("TabHere").
+T.RIBBON_W, T.RIBBON_H = 26, 40                -- as wide as the room beside the book (UI's BOOK_R) leaves
+local RIBBON_ICON = 20
 local RIBBON_JOIN = 3                           -- how far the open tab's paper runs onto the page, over the page's rim
 T.color.tabStone = { 0.200, 0.161, 0.078, 1 }   -- the others: stone (#332914)
 
-local function utf8Chars(s)
-  local out = {}
-  for ch in tostring(s or ""):gmatch("[%z\1-\127\194-\244][\128-\191]*") do out[#out + 1] = ch end
-  return out
-end
-
--- A label turns a quarter clockwise, so it reads top to bottom with the letters' tops to the right: the way the site's
--- tabs run (writing-mode: vertical-rl). (SetRotation counts counter-clockwise.)
-local RIBBON_TURN = -math.pi / 2
-
--- A label of CJK letters alone (UTF-8 lead bytes E3 to ED: kana, Han, Hangul) stays upright, one to a line, as the
--- site's vertical tabs keep them.
-local function isUpright(label)
-  local s = tostring(label or "")
-  if s == "" then return false end
-  for ch in s:gmatch("[%z\1-\127\194-\244][\128-\191]*") do
-    local lead = ch:byte(1)
-    if lead < 0xE3 or lead > 0xED then return false end
-  end
-  return true
-end
-
 local RibbonMixin = {}
 
--- Lays the label out and returns the length it needs (the tab's height is the set length, or that).
 function RibbonMixin:Fit()
-  local fs = self.text
-  -- The face: the heading's, or the largest smaller one the four fit the book in at one length (UI.FitRibbons). The
-  -- ink follows (a new face brings its own colour).
-  local face = self.tabFace or T.font.heading
-  if self.face ~= face then fs:SetFontObject(face); self.face = face end
-  fs:SetTextColor(rgba(T.color[self.on and "inkAccent" or "tabText"]))
-  fs:SetShadowColor(0, 0, 0, self.on and 0 or 0.8)
-  if self.horizontal then
-    fs:SetWidth(0)
-    fs:SetText(self.label)
-    self:SetSize(math.max(22, math.floor((T.TextWidth(fs) or 30) + 18)), 22)
-    fs:ClearAllPoints()
-    fs:SetPoint("CENTER")
-    return
-  end
-  local need
-  local pad = RIBBON_PAD
-  local turned = fs.SetRotation and not isUpright(self.label)
-  if turned then
-    -- One line of text turned a quarter, like a book's spine tab. The client lays text out unturned, so the tab is
-    -- sized by hand: its length from the string's width. The string's own box stays the text's length and turns about
-    -- its centre, which is the tab's centre.
-    if fs.SetWordWrap then fs:SetWordWrap(false) end
-    fs:SetWidth(0)
-    fs:SetText(self.label)
-    local len = math.ceil(T.TextWidth(fs) or (#self.label * 7))
-    fs:SetWidth(len + 2)
-    fs:SetRotation(RIBBON_TURN)
-    need = len + pad * 2
-  else
-    -- Letters one to a line: for a client with no SetRotation, and for CJK, whose letters stand upright.
-    if fs.SetRotation then fs:SetRotation(0) end
-    if fs.SetWordWrap then fs:SetWordWrap(true) end
-    fs:SetWidth(RIBBON_W)
-    fs:SetText(table.concat(utf8Chars(self.label), "\n"))
-    need = math.ceil(fs:GetStringHeight() or (#utf8Chars(self.label) * 13)) + pad * 2
-  end
-  self.need = need
-  self:SetSize(RIBBON_W, math.max(need, self.length or 0))
-  fs:ClearAllPoints()
-  fs:SetPoint("CENTER", self, "CENTER", 0, 0)
-  return need
+  self:SetSize(T.RIBBON_W, T.RIBBON_H)
+  self.icon:SetVertexColor(rgba(T.color[self.on and "inkAccent" or "tabText"]))
 end
 
--- The length every tab shares (UI.FitRibbons).
-function RibbonMixin:SetLength(px)
-  self.length = px
-  self:Fit()
+function RibbonMixin:SetIcon(name)
+  self.icon:SetTexture(T.PAPER_ART .. name)
 end
 
+-- The name: the hover's, and the open page's title (UI.ShowTab).
 function RibbonMixin:SetLabel(text)
   self.label = text or ""
-  self:Fit()
 end
 
 function RibbonMixin:SetOn(on)
@@ -1069,8 +1001,8 @@ function RibbonMixin:SetCount(n)
   self.dot:SetShown(self.countN > 0)
 end
 
--- The "new" dot: small, gold, at the tab's outer corner (its top right), inside the padding above the label, so it
--- never touches or moves it.
+-- The "new" dot: small, gold, at the tab's outer corner (its top right), in the room above the sign, so it never
+-- touches it.
 function RibbonMixin:NewDot()
   local d = self:CreateTexture(nil, "OVERLAY", nil, 2)
   d:SetSize(5, 5)
@@ -1116,9 +1048,8 @@ local function RibbonSheet(r)
   return out
 end
 
-function T.Ribbon(parent, label, horizontal)
+function T.Ribbon(parent, label, icon)
   local r = CreateFrame("Button", nil, parent)
-  r.horizontal = horizontal and true or false
   r.bg = T.Area(r, "tabStone")
   r.bg:SetAllPoints()
   r.sheet = RibbonSheet(r)
@@ -1131,13 +1062,20 @@ function T.Ribbon(parent, label, horizontal)
   local hl = r:CreateTexture(nil, "HIGHLIGHT")
   hl:SetAllPoints()
   hl:SetColorTexture(1, 0.95, 0.75, 0.12)
-  r.text = r:CreateFontString(nil, "OVERLAY", T.font.heading)
-  r.text:SetJustifyH("CENTER")
-  if r.text.SetWordWrap then r.text:SetWordWrap(true) end
-  r.text:SetShadowOffset(1, -1)
+  r.icon = r:CreateTexture(nil, "OVERLAY")
+  r.icon:SetSize(RIBBON_ICON, RIBBON_ICON)
+  r.icon:SetPoint("CENTER")
   for k, v in pairs(RibbonMixin) do r[k] = v end
+  if icon then r:SetIcon(icon) end
   r.dot = r:NewDot()
   r.label, r.countN, r.on = label or "", 0, false
+  r:SetScript("OnEnter", function(self)
+    -- Beside its own ribbon, level with it (a one-line tooltip is about 28 tall), not above it by the next one's.
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT", 2, -math.floor((T.RIBBON_H + 28) / 2))
+    GameTooltip:AddLine(self.label)
+    GameTooltip:Show()
+  end)
+  r:SetScript("OnLeave", function() GameTooltip:Hide() end)
   r:SetOn(false)
   return r
 end

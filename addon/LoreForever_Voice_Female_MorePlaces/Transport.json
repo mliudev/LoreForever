@@ -1693,9 +1693,9 @@
     "subzone:dalaran": {
       "1": [
         {
-          "duration": 75.52,
-          "file": "Audio/Transport/full_subzone_dalaran-cd471edf6fc56344a600/1-0000.mp3",
-          "sha256": "7376fdf292051c98bd5353fd6f9b84c84aef638415e5f78d70556c445747fed9",
+          "duration": 75.78122448979592,
+          "file": "Audio/Transport/full_subzone_dalaran-aa4095a48aec79c73dde/1-0000.mp3",
+          "sha256": "de7bf6a23304087c0e49bef5c695c6cf02550d56fa7d2dad68611ee7c66c836f",
           "start": 0
         }
       ],
@@ -1707,12 +1707,12 @@
         ]
       },
       "fullHash": "8b8874",
-      "generation": "28b33608a8b757bf1d39",
+      "generation": "646ac154ecdd1e774938",
       "hash": "8b8874",
       "source": {
-        "duration": 75.546122,
+        "duration": 75.807347,
         "file": null,
-        "sha256": "cd471edf6fc56344a6001459539f1a8269ab53222185290a8c92303d32c70f67"
+        "sha256": "aa4095a48aec79c73ddeb3a107ce3cc312a3b5a73261ad9ddf7ca6d3bb2dacfb"
       },
       "text": "Dalaran. On Lordamere Lake, Dalaran's surviving magi are rebuilding their shattered city. Once the shining capital of the Kirin Tor, it fell to the Scourge and Archimonde during the Third War. Its protective violet shield has been removed. Dalaran began as a sanctuary for arcane study, founded by sorcerers of the Arathorian Empire after the ancient Troll Wars. For centuries, it was humanity's foremost center of magic. The Council of Six led the Kirin Tor, keeping vast archives and powerful artifacts in the Violet Citadel.\n\nThat age ended during the Third War. The traitor prince Arthas led the Scourge through the city gates to seize the Book of Medivh. Soon after, the demon lord Archimonde crushed Dalaran's soaring spires into rubble. After the Legion's defeat, the Kirin Tor's surviving wizards returned to their devastated homeland. They would not yield their ancestral ground to the Scourge or scavengers, and raised a shimmering violet barrier over the city's heart. The shield has since been removed, while rebuilding continues. The magi are restoring their fallen sanctuary, and Archmage Ansirem Runeweaver can be found in the Violet Citadel."
     },
@@ -8401,9 +8401,9 @@
     "subzone:stormwind-city": {
       "1": [
         {
-          "duration": 85.08081632653061,
-          "file": "Audio/Transport/full_subzone_stormwind-city-ead6f779c76c24e3bac6/1-0000.mp3",
-          "sha256": "39180b77d4df2256ed4e56997f2eb690583d2def1fb79b56cc3f37d8df811cab",
+          "duration": 86.67428571428572,
+          "file": "Audio/Transport/full_subzone_stormwind-city-fdeac667fb04767a5fff/1-0000.mp3",
+          "sha256": "3ea84dbb7ec9709975a7e227f3e1f15d2a57ee456ac130fd721850a3305a7b2a",
           "start": 0
         }
       ],
@@ -8415,12 +8415,12 @@
         ]
       },
       "fullHash": "e8e13b",
-      "generation": "d3dab2828889f3025e1c",
+      "generation": "371baec167bbcea4ea02",
       "hash": "e8e13b",
       "source": {
-        "duration": 85.106939,
+        "duration": 86.700408,
         "file": null,
-        "sha256": "ead6f779c76c24e3bac6d4967d317878042dcbf620d2dd89c786af2e4296e5fe"
+        "sha256": "fdeac667fb04767a5fff2fd34ea05bdb55e676654fd19f239173617459028cc5"
       },
       "text": "Stormwind City. Stormwind City leads the Kingdom of Stormwind and the Alliance from its seat of power. Rebuilt after the First War, it is Azeroth's greatest remaining human stronghold since the northern kingdoms fell. Stormwind City rose over a thousand years ago, founded by Arathi descendants who migrated south. Its coastal ramparts sheltered a flourishing capital, where swift rivermills powered the city. In the First War, the Orcish Horde broke through its defenses and burned Stormwind to the ground.\n\nSir Anduin Lothar led the surviving refugees across the Great Sea to Lordaeron. After the Alliance won the Second War, the Stonemasons' Guild rebuilt the capital with white stone, canals and towering spires. The fortress now stands north of Elwynn Forest. Stormwind City is mankind's chief refuge and stronghold after the Scourge shattered Lordaeron and the Third War left Dalaran heavily ruined. The disciplined Stormwind City Guard patrols its broad avenues and defensive walls. The Cathedral of Light's spires guide faith across the southern kingdoms.\n\nYet political troubles linger beneath the orderly districts and ceremonial gates. King Varian Wrynn has mysteriously vanished, and his young son Anduin sits on the throne. Highlord Bolvar Fordragon governs as regent, with the whispered counsel of royal advisor Lady Katrana Prestor."
     },
@@ -11424,6 +11424,9 @@
     "245a63dfd3e1c16263f9d8572ab19bcefccb5807c74060eb50bbff46ffba3497": [
       510
     ],
+    "24c50680e1b0a130e2e9b4c53f3d21f578756d840d82ef22d0fe3e1aee72bc9e": [
+      500
+    ],
     "24ec3bd09a085aea87662f396fa09a94519a55a61c1f684e4e2355c8a78b04d3": [
       345,
       502,
@@ -11624,9 +11627,6 @@
       1902,
       2136
     ],
-    "2e740e721780d9b61728ec923d08199177896cd82a34e098bec0e4ecc63ba3d9": [
-      498
-    ],
     "2ee67fb523c1542d4677b9097bc694695075b1f87bfc22465844c73a4fa0c6e1": [
       307,
       610
@@ -11803,21 +11803,6 @@
       2076,
       2462
     ],
-    "39180b77d4df2256ed4e56997f2eb690583d2def1fb79b56cc3f37d8df811cab": [
-      208,
-      488,
-      743,
-      969,
-      1217,
-      1423,
-      1715,
-      1856,
-      2200,
-      2387,
-      2562,
-      2772,
-      2992
-    ],
     "39d8777f0e2a8a540ec4c251d3d40f15ed67de2d1ef9419c8669c60451a95987": [
       243,
       529,
@@ -11871,6 +11856,21 @@
       1042,
       1231,
       1529
+    ],
+    "3ea84dbb7ec9709975a7e227f3e1f15d2a57ee456ac130fd721850a3305a7b2a": [
+      202,
+      491,
+      747,
+      986,
+      1242,
+      1446,
+      1732,
+      1877,
+      2223,
+      2420,
+      2598,
+      2807,
+      3045
     ],
     "3fbedc609f2d7f221c52d517e7f92ac9b21f5028bcf11decf0f5c5f74dd6a9f5": [
       221,
@@ -12690,18 +12690,6 @@
       341,
       520,
       742
-    ],
-    "7376fdf292051c98bd5353fd6f9b84c84aef638415e5f78d70556c445747fed9": [
-      222,
-      592,
-      919,
-      1076,
-      1360,
-      1664,
-      1941,
-      2173,
-      2471,
-      2617
     ],
     "73b9ecd9e5b79a15d157105fa96c557c3247bb7b162765174980d8d16e5b04a0": [
       396
@@ -14177,6 +14165,18 @@
       778,
       962
     ],
+    "de7bf6a23304087c0e49bef5c695c6cf02550d56fa7d2dad68611ee7c66c836f": [
+      213,
+      571,
+      895,
+      1056,
+      1321,
+      1613,
+      1899,
+      2146,
+      2449,
+      2611
+    ],
     "dedc109d43f8f258cc268b9336401ad07f6cf583244a383a94257ad8ef7c4be3": [
       535
     ],
@@ -15072,10 +15072,6 @@
       "1788": 2,
       "585": 1
     },
-    "39180b77d4df2256ed4e56997f2eb690583d2def1fb79b56cc3f37d8df811cab": {
-      "1856": 2,
-      "488": 1
-    },
     "39d8777f0e2a8a540ec4c251d3d40f15ed67de2d1ef9419c8669c60451a95987": {
       "529": 1
     },
@@ -15093,6 +15089,10 @@
     },
     "3e3675c58a01830f959a08ec365602d580b32c1aedc652d03c77674862c19782": {
       "755": 1
+    },
+    "3ea84dbb7ec9709975a7e227f3e1f15d2a57ee456ac130fd721850a3305a7b2a": {
+      "1877": 2,
+      "491": 1
     },
     "3fbedc609f2d7f221c52d517e7f92ac9b21f5028bcf11decf0f5c5f74dd6a9f5": {
       "1523": 2,
@@ -15388,10 +15388,6 @@
     },
     "72fdc26fd7f7ea97fb6f5892e7663f56219ce59d53c425161a782c31b37a0ae4": {
       "341": 1
-    },
-    "7376fdf292051c98bd5353fd6f9b84c84aef638415e5f78d70556c445747fed9": {
-      "1941": 2,
-      "592": 1
     },
     "753d1ed434cdd4bdd9c4394235ce3a2646ea0e70123caf81d179852efa2d995a": {
       "373": 1
@@ -15950,6 +15946,10 @@
     },
     "de26c06c72efff95498167ad00d1b5e16c193981cabb2bfbb028a0e57f6f36af": {
       "439": 1
+    },
+    "de7bf6a23304087c0e49bef5c695c6cf02550d56fa7d2dad68611ee7c66c836f": {
+      "1899": 2,
+      "571": 1
     },
     "def401bf34093ba8fd38d230b2f8a4c0c18abd77b8be588124123d932f186dd1": {
       "229": 1

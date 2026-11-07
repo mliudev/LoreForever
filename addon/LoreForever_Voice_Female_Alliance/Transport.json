@@ -1147,9 +1147,9 @@
     "npc:jaina-proudmoore": {
       "1": [
         {
-          "duration": 90.35755102040817,
-          "file": "Audio/Transport/full_npc_jaina-proudmoore-20a1ceae083c3e5f95bf/1-0000.mp3",
-          "sha256": "dae44015df8157eda4621172cd1ff4c990382fae0c47a3a705af9dd8e8a57609",
+          "duration": 93.1526530612245,
+          "file": "Audio/Transport/full_npc_jaina-proudmoore-79aef1a1146735cd581a/1-0000.mp3",
+          "sha256": "87cb50063e99346d117022dd01f68633ed03cb94ef9a5db1fd51b914321beac8",
           "start": 0
         }
       ],
@@ -1161,12 +1161,12 @@
         ]
       },
       "fullHash": "1d0d4c",
-      "generation": "fe16d1e6178a2e8f55be",
+      "generation": "bd0bd1b49c624d547799",
       "hash": "775d87",
       "source": {
-        "duration": 90.383673,
+        "duration": 93.178776,
         "file": null,
-        "sha256": "20a1ceae083c3e5f95bf6049c65c6e2f402defad20be768a3200ce77910176bf"
+        "sha256": "79aef1a1146735cd581adc502fb6449a9b651976d9c2f4e4bbdd7f69cff68444"
       },
       "text": "Jaina Proudmoore. On Theramore Isle, Jaina Proudmoore works to preserve peace between the Alliance and the New Horde. Once a gifted student of Dalaran’s Kirin Tor, she led Lordaeron’s survivors across the Great Sea and now rules the island as its most powerful human sorceress. Jaina Proudmoore, daughter of Grand Admiral Daelin Proudmoore of Kul Tiras, showed an early gift for magic. In Dalaran, she studied under Archmage Antonidas. During the Third War, she investigated the Plague of Undeath with Prince Arthas Menethil and witnessed Lordaeron’s fall.\n\nThen the Prophet Medivh warned her of the coming danger, and she gathered human survivors to sail west for Kalimdor. There, Jaina’s forces joined Thrall’s Horde and the night elves. Together they stood at Mount Hyjal, defeated Archimonde, and broke the Burning Legion’s invasion. After the Legion’s defeat, Jaina founded Theramore, an island citadel off the coast of Dustwallow Marsh. It became the Alliance’s main stronghold in southern Kalimdor. Her commitment to peace faced its greatest test when her father came seeking vengeance against the orcs.\n\nJaina would not join his war. She stood aside as Thrall’s forces killed the Grand Admiral, preventing another devastating conflict in Kalimdor. Now Jaina rules Theramore and speaks for coexistence. She works closely with Warchief Thrall while holding the Alliance’s ground amid rising local tensions."
     },
@@ -11918,6 +11918,21 @@
       1599,
       1820
     ],
+    "87cb50063e99346d117022dd01f68633ed03cb94ef9a5db1fd51b914321beac8": [
+      270,
+      681,
+      977,
+      1153,
+      1437,
+      1721,
+      1879,
+      2130,
+      2419,
+      2575,
+      2818,
+      3175,
+      3330
+    ],
     "887125af6117c0e0bdf2efb00774eec730b43e500fcddbe6261fd8077faa0fbc": [
       230,
       385,
@@ -12854,21 +12869,6 @@
       2032,
       2293,
       2502
-    ],
-    "dae44015df8157eda4621172cd1ff4c990382fae0c47a3a705af9dd8e8a57609": [
-      249,
-      658,
-      863,
-      1118,
-      1417,
-      1685,
-      1847,
-      2093,
-      2370,
-      2519,
-      2761,
-      3107,
-      3249
     ],
     "dc9e09dfb2a1a29a7f1b5a752d8b354a5882eb75ec69c3e94c03356b01416f2d": [
       223,
@@ -14111,6 +14111,10 @@
       "1251": 2,
       "467": 1
     },
+    "87cb50063e99346d117022dd01f68633ed03cb94ef9a5db1fd51b914321beac8": {
+      "2130": 2,
+      "681": 1
+    },
     "887125af6117c0e0bdf2efb00774eec730b43e500fcddbe6261fd8077faa0fbc": {
       "1155": 2,
       "385": 1
@@ -14511,10 +14515,6 @@
     "daa00bbfc89f90834a8514f3ac7d8f40ee1f9b49807f3aeed6171062733cb825": {
       "1850": 2,
       "415": 1
-    },
-    "dae44015df8157eda4621172cd1ff4c990382fae0c47a3a705af9dd8e8a57609": {
-      "2093": 2,
-      "658": 1
     },
     "dc9e09dfb2a1a29a7f1b5a752d8b354a5882eb75ec69c3e94c03356b01416f2d": {
       "1241": 2,

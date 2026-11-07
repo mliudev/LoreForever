@@ -3565,9 +3565,9 @@
     "topic:worgen": {
       "1": [
         {
-          "duration": 75.99020408163265,
-          "file": "Audio/Transport/full_topic_worgen-836f3cee8bc5bbc670c0/1-0000.mp3",
-          "sha256": "83cd3dc169f13b9bc38ebb48c042770baadf7b91f9cd4dff9c3574901c316f01",
+          "duration": 76.87836734693877,
+          "file": "Audio/Transport/full_topic_worgen-cd85e9229a86382e28c2/1-0000.mp3",
+          "sha256": "33ee90dc5c6a786d23a4b237cb0f80aca9194e1d1f3a6c975f17bc6d969f985d",
           "start": 0
         }
       ],
@@ -3579,12 +3579,12 @@
         ]
       },
       "fullHash": "783eea",
-      "generation": "02ffadfafc710b1aa481",
+      "generation": "59496076da428712f57c",
       "hash": "783eea",
       "source": {
-        "duration": 76.016327,
+        "duration": 76.90449,
         "file": null,
-        "sha256": "836f3cee8bc5bbc670c0b2f81baad44ca9385e6723cb07b37c3bb9a6324d03f0"
+        "sha256": "cd85e9229a86382e28c28c1952269c0e8e7290de756ecf56db0c617efcc50c44"
       },
       "text": "Worgen. Across Silverpine Forest, Ashenvale, and Duskwood, Worgen now hunt with bestial swiftness and a fury they cannot master. Once feared as nightmares from another realm, their beginnings remain uncertain. Long before Worgen appeared in Lordaeron and Kalimdor, people told folktales and cautionary tales of wolf-men. Their beginnings remain a mystery. Scholars who have studied them believe they came to Azeroth from another realm. Archmage Arugal and the night elves' Scythe of Elune have both been shown to summon them. During the Third War, the Scourge overran Lordaeron, and slain Kirin Tor wizards rose again as undead. Archmage Arugal sought a weapon to strengthen Dalaran's dwindling ranks. He used forbidden research by the Dalaran wizard Ur to pierce the veil and summon Worgen into Silverpine Forest. They savaged the undead invaders, but Arugal could not master their fury. The beasts turned on the wizards and spread their curse with fang and claw.\n\nMad with guilt and fascination, Arugal claimed the monsters as his children. He seized Baron Silverlaine's ancestral seat and renamed it Shadowfang Keep. There, he cursed nearby villagers into monstrous nocturnal servitude."
     },
@@ -5691,6 +5691,22 @@
       1161,
       1346
     ],
+    "33ee90dc5c6a786d23a4b237cb0f80aca9194e1d1f3a6c975f17bc6d969f985d": [
+      151,
+      339,
+      543,
+      689,
+      838,
+      1083,
+      1287,
+      1576,
+      1743,
+      2016,
+      2195,
+      2363,
+      2566,
+      2768
+    ],
     "357e27e9b1452f5541e6cbc2ca6be4cb8d5de497b495ae4136abd0c050276337": [
       218,
       414,
@@ -6415,21 +6431,6 @@
       1865,
       2001,
       2365
-    ],
-    "83cd3dc169f13b9bc38ebb48c042770baadf7b91f9cd4dff9c3574901c316f01": [
-      323,
-      527,
-      672,
-      820,
-      1071,
-      1279,
-      1548,
-      1727,
-      1989,
-      2176,
-      2354,
-      2547,
-      2741
     ],
     "84f78bc2221ebc742d7dbc4590cc4bdf637a979f9bbe2a0aa096e205aa48cb22": [
       215,
@@ -8045,6 +8046,10 @@
     "2df72288df43e391f22d1a1062cdb14cf3eb8b88246b8f570a8ef7ca0a7c9599": {
       "583": 1
     },
+    "33ee90dc5c6a786d23a4b237cb0f80aca9194e1d1f3a6c975f17bc6d969f985d": {
+      "1287": 2,
+      "543": 1
+    },
     "357e27e9b1452f5541e6cbc2ca6be4cb8d5de497b495ae4136abd0c050276337": {
       "2085": 2,
       "3297": 3,
@@ -8280,10 +8285,6 @@
       "1218": 2,
       "2001": 3,
       "447": 1
-    },
-    "83cd3dc169f13b9bc38ebb48c042770baadf7b91f9cd4dff9c3574901c316f01": {
-      "1279": 2,
-      "527": 1
     },
     "84f78bc2221ebc742d7dbc4590cc4bdf637a979f9bbe2a0aa096e205aa48cb22": {
       "1450": 2,

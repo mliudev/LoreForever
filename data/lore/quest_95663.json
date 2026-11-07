@@ -1,0 +1,89 @@
+{
+ "key": "quest:95663",
+ "type": "quest",
+ "name": "Dragonmaw Rumors",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95663
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The Deathstalkers seek clearer word about Dragonmaw magic rumored in the Wetlands. You are sent to meet their agent in the hills above the clan's camp.",
+ "sections": [
+  {
+   "title": "Whispers in the Wetlands",
+   "body": "A Deathstalker in the Wetlands needs your help as rumors gather around the Dragonmaw clan. They are said to command magic that binds dragons, and whispers claim they prepare a display of that power. Broken symbols offered no firm proof, so you are sent to meet an agent in the hills above their camp.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the Dragonmaw rumored to be doing?",
+   "aliases": [
+    "dragonmaw rumors",
+    "what are dragonmaw planning",
+    "dragonmaw magic"
+   ],
+   "answer": "The rumor says the Dragonmaw are preparing a display of magic strong enough to make dragons serve."
+  },
+  {
+   "q": "Why do the Deathstalkers need help?",
+   "aliases": [
+    "deathstalker needs help",
+    "why help deathstalkers",
+    "what do they need"
+   ],
+   "answer": "The Deathstalkers have only broken symbols and uncertain whispers about the Dragonmaw, so an agent needs assistance in the hills above the clan's camp."
+  },
+  {
+   "q": "Where is the Deathstalker agent?",
+   "aliases": [
+    "agent location",
+    "where meet agent",
+    "deathstalker agent hills"
+   ],
+   "answer": "The agent is in the hills above the Dragonmaw camp in the Wetlands."
+  },
+  {
+   "q": "What did the broken symbols reveal?",
+   "aliases": [
+    "broken symbols",
+    "what symbols showed",
+    "symbols dragonmaw"
+   ],
+   "answer": "The broken symbols carried only uncertain whispers about a rumored Dragonmaw display of magic."
+  },
+  {
+   "q": "What happens when you meet the agent?",
+   "aliases": [
+    "meet the agent",
+    "next steps",
+    "what does agent say"
+   ],
+   "answer": "The Deathstalker agent will reveal the next steps when you meet her in the hills above the Dragonmaw camp."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "broken symbols",
+  "deathstalker agent",
+  "deathstalkers",
+  "dragonbinding",
+  "dragonmaw",
+  "dragonmaw camp",
+  "dragonmaw rumors",
+  "wetlands"
+ ],
+ "related": [
+  "quest:1886",
+  "quest:92472",
+  "zone:wetlands"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Dragonmaw Rumors"
+ ]
+}

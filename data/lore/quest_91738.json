@@ -1,0 +1,64 @@
+{
+ "key": "quest:91738",
+ "type": "quest",
+ "name": "An Apple Treat",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91738
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A sergeant welcomes a bottle of Thunder Applejack after months without any. He says it should cheer the troops.",
+ "sections": [
+  {
+   "title": "A Welcome Bottle",
+   "body": "A sergeant recognizes your Thunder Applejack and says the troops will be glad of it. He thanks you for bringing it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the sergeant want?",
+   "aliases": [
+    "what does he need",
+    "sergeant applejack",
+    "apple treat"
+   ],
+   "answer": "The sergeant welcomes a bottle of Thunder Applejack, which he says should bring the troops some cheer."
+  },
+  {
+   "q": "How long has it been since he saw Thunder Applejack?",
+   "aliases": [
+    "applejack how long",
+    "months without it",
+    "when last applejack"
+   ],
+   "answer": "The sergeant says he has not seen Thunder Applejack in months."
+  },
+  {
+   "q": "Who is the bottle for?",
+   "aliases": [
+    "who gets the applejack",
+    "applejack for troops",
+    "who wants the bottle"
+   ],
+   "answer": "The sergeant says the bottle should put a smile on the troops' faces."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "an apple treat",
+  "bottle",
+  "sergeant",
+  "thunder applejack",
+  "troops"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: An Apple Treat"
+ ]
+}
