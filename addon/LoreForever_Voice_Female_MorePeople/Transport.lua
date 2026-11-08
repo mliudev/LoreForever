@@ -214,7 +214,7 @@ P.transport["npc:balir-frosthammer"] = {
   fullHash = "a1ca97",
   text = "Balir Frosthammer. In Coldridge Valley, Balir Frosthammer rallies recruits as Rockjaw troggs press into dwarven lands. Balir Frosthammer calls new recruits to defend Coldridge Valley. Dwarven and gnomish novices have long found safety and training there. But trouble underground has driven violent Rockjaw troggs to the surface. Balir is among the first to raise the alarm, urging recruits to thin their numbers before they push farther into Dun Morogh. Balir Frosthammer shares his name with Tannok Frosthammer of Kharanos. The two may belong to the same family, whose members stand by Ironforge. They help keep the cold mountain passes safe for travelers, miners, and mountaineers as threats grow across the region.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_balir-frosthammer-db7127ac71b87850a2e0/1-0000.mp3", duration = 44.2253061, start = 0},
+    {file = "Audio/Transport/full_npc_balir-frosthammer-f32cbbaea5c72a682fd0/1-0000.mp3", duration = 44.7216327, start = 0},
   },
 }
 P.transport["npc:barithras-moonshade"] = {
@@ -270,7 +270,7 @@ P.transport["npc:beldin-steelgrill"] = {
   fullHash = "45bdc2",
   text = "Beldin Steelgrill. At Steelgrill's Depot in Dun Morogh, Beldin Steelgrill keeps dwarven war machines running. Across Khaz Modan, he is renowned as a master technician, repairing siege engines and armored wagons with a steady supply of specialized tools. Just down the road from Kharanos, Steelgrill's Depot tests and services steam tanks and siege engines. The work strains heavy wrenches, cutters, and precision instruments against metal and rumbling boilers. Beldin needs replacements constantly, keeping local ironworkers busy at his bench.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_beldin-steelgrill-1eaf15d54d76e4cc9fb9/1-0000.mp3", duration = 33.515102, start = 0},
+    {file = "Audio/Transport/full_npc_beldin-steelgrill-2dfa1ee15451682b7ead/1-0000.mp3", duration = 33.6195918, start = 0},
   },
 }
 P.transport["npc:bingles-blastenheimer"] = {
@@ -434,11 +434,11 @@ P.transport["npc:brother-neals"] = {
   },
 }
 P.transport["npc:brother-sarno"] = {
-  hash = "765e9a",
-  fullHash = "765e9a",
-  text = "Brother Sarno. At the Cathedral of Light in Stormwind City, Brother Sarno welcomes visitors and worshipers. He also sends Alliance travelers to Ironforge, where Tinkmaster Overspark needs help reclaiming Gnomeregan. At the Cathedral of Light in Stormwind, Brother Sarno greets pilgrims and travelers at the entrance. A brother of the Church of the Holy Light, he welcomes those seeking prayer, comfort, or guidance. His kind manner puts visitors at ease amid the cathedral’s daily life. Brother Sarno also helps the Alliance beyond the cathedral. When word reached him that Tinkmaster Overspark in Ironforge needed help with his rogue invention, Techbot, in Gnomeregan, Sarno directed capable travelers toward Dun Morogh. His aid supports gnomes displaced from their home.",
+  hash = "7c0a86",
+  fullHash = "7c0a86",
+  text = "Brother Sarno. At the Cathedral of Light in Stormwind City, Brother Sarno welcomes visitors and worshipers. He also sends Alliance travelers to Ironforge, where Tinkmaster Overspark needs help reclaiming Gnomeregan. Pilgrims and travelers pass Brother Sarno first, just inside the cathedral's main entrance. A brother of the Church of the Holy Light, he welcomes those seeking prayer, comfort, or guidance. His kind manner puts visitors at ease amid the cathedral’s daily life. Brother Sarno also helps the Alliance beyond the cathedral. When word reached him that Tinkmaster Overspark in Ironforge needed help with his rogue invention, Techbot, in Gnomeregan, Sarno directed capable travelers toward Dun Morogh. His aid supports gnomes displaced from their home.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_brother-sarno-1b93f1ac1df065f19f5c/1-0000.mp3", duration = 49.6587755, start = 0},
+    {file = "Audio/Transport/full_npc_brother-sarno-cfdba58756ce6f20c818/1-0000.mp3", duration = 50.1028571, start = 0},
   },
 }
 P.transport["npc:brother-wilhelm"] = {
@@ -958,7 +958,7 @@ P.transport["npc:durnan-furcutter"] = {
   fullHash = "ffb25d",
   text = "Durnan Furcutter. At Anvilmar in Coldridge Valley, Durnan Furcutter outfits young dwarves and gnomes for the mountain cold. He sells light clothing and leather goods from inside the settlement. Inside Anvilmar, young dwarves and exiled gnomes prove themselves. Some need more freedom of movement than heavy iron allows. Durnan Furcutter sells light, pliable layers to scouts, rogues, and spellcasters who want to stay agile in Dun Morogh's bitter winds. Near the hearth, he offers everyday tailoring and stitched leather. He claims his stock is the finest in the valley. Durnan likes a strong drink as much as an honest trade. To warm himself against the freezing draft, he orders steaming mugs of Scalding Mornbrew from Nori Pridedrift, who sells the brew piping hot across Coldridge Valley. Adventurers hurrying through the valley with errands often bring Durnan a hot mug before it cools. Then they carry the empty back to Nori.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_durnan-furcutter-ddd711a300b1ae66b6d3/1-0000.mp3", duration = 56.6073469, start = 0},
+    {file = "Audio/Transport/full_npc_durnan-furcutter-520a680f8dd0af3f4274/1-0000.mp3", duration = 57.9918367, start = 0},
   },
 }
 P.transport["npc:ebru"] = {
@@ -1414,7 +1414,7 @@ P.transport["npc:granis-swiftaxe"] = {
   fullHash = "58ce39",
   text = "Granis Swiftaxe. At the Thunderbrew Distillery in Kharanos, Granis Swiftaxe trains young Alliance fighters from Coldridge Pass. He prepares them for the road across Dun Morogh, then sends seasoned warriors to Ironforge. Granis Swiftaxe trains young warriors in the Thunderbrew Distillery as they cross Dun Morogh seeking instruction. Proud of the warrior’s path, he takes amusement in those from other callings who try to win his attention. Once a student proves their skill in combat, Granis sends them up the mountain path to Muren Stormpike, master trainer in Ironforge’s Military Ward.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_granis-swiftaxe-f894570eb526ad2e4364/1-0000.mp3", duration = 35.5004082, start = 0},
+    {file = "Audio/Transport/full_npc_granis-swiftaxe-b907a6a9b303fa855080/1-0000.mp3", duration = 35.6310204, start = 0},
   },
 }
 P.transport["npc:great-father-winter"] = {
@@ -1454,7 +1454,7 @@ P.transport["npc:grimbooze-thunderbrew"] = {
   fullHash = "6f7131",
   text = "Grimbooze Thunderbrew. In Westfall's Dagger Hills, Grimbooze Thunderbrew keeps his casks and brews potent spirits. The eccentric dwarf speaks in verse and belongs to the Thunderbrew clan. Grimbooze Thunderbrew keeps camp in the Dagger Hills, where he tends his private casks. He left the snowy peaks of Dun Morogh, home of the Thunderbrew brewing family in Kharanos, for Westfall's windswept hills. Jovial and devoted to potent spirits, he speaks only in rhymes. A traveler must complete a simple task before he answers questions, and he is ready to test a thirsty palate.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_grimbooze-thunderbrew-6fedf0a79bb944bbfe20/1-0000.mp3", duration = 35.0040816, start = 0},
+    {file = "Audio/Transport/full_npc_grimbooze-thunderbrew-ed081bb2eec76814b310/1-0000.mp3", duration = 36.1534694, start = 0},
   },
 }
 P.transport["npc:grish-longrunner"] = {
@@ -1614,7 +1614,7 @@ P.transport["npc:hegnar-rumbleshot"] = {
   fullHash = "596c4d",
   text = "Hegnar Rumbleshot. On the snowy road from Coldridge Pass to Kharanos, Hegnar Rumbleshot supplies hunters and mountaineers with firearms and ammunition. Between Coldridge Pass and Kharanos, Hegnar's small camp serves dwarven marksmen, travelers, and the local militia. Mountain folk use its popular range to practice against Dun Morogh's wild beasts. The steady stream of shooters keeps Hegnar reliant on fresh ammunition from Loslor Rudge, a dwarf engineer.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_hegnar-rumbleshot-37f945414b670014f4f7/1-0000.mp3", duration = 29.1787755, start = 0},
+    {file = "Audio/Transport/full_npc_hegnar-rumbleshot-9630499d9f2d1fddc211/1-0000.mp3", duration = 28.3689796, start = 0},
   },
 }
 P.transport["npc:henze-faulk"] = {
@@ -1718,7 +1718,7 @@ P.transport["npc:innkeeper-firebrew"] = {
   fullHash = "f9b458",
   text = "Innkeeper Firebrew. At the Stonefire Tavern in Ironforge’s Commons, Innkeeper Firebrew gives travelers food and rest. His hearty dwarven fare welcomes mountaineers and visiting dignitaries beneath the mountain. Innkeeper Firebrew welcomes travelers at the Stonefire Tavern in the Commons. The tavern stands in the Commons’ central ring, and many arriving through the Great Gates find it first. Behind a counter of ale, stout, and roasted meat, Firebrew serves those bound for Dun Morogh’s snowy passes or deeper into the mountain kingdom.\n\nMiners, riflemen, and emissaries gather there to leave the drafty tunnels behind and trade tales around the hearth. The Stonefire remains a lively crossroads in the heart of Ironforge.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_innkeeper-firebrew-05c94ef40bb768fb1f4e/1-0000.mp3", duration = 45.1134694, start = 0},
+    {file = "Audio/Transport/full_npc_innkeeper-firebrew-4c92eab13d50f1139d15/1-0000.mp3", duration = 45.1657143, start = 0},
   },
 }
 P.transport["npc:innkeeper-grosk"] = {
@@ -2190,7 +2190,7 @@ P.transport["npc:lieutenant-nevell"] = {
   fullHash = "2806d0",
   text = "Lieutenant Nevell. Outside Ironforge in Dun Morogh, Lieutenant Nevell keeps watch for the Scourge. This Argent Dawn officer coordinates local defenders and warns newcomers of undead threats near the dwarven kingdom. Lieutenant Nevell watches Ironforge's snowy approaches for the Scourge. Though the Argent Dawn is best known for holding the line in Lordaeron's shattered Plaguelands, its watch reaches farther south. From outside Ironforge, Nevell directs recruits and capable adventurers toward the front when Scourge activity stirs in Dun Morogh's mountain passes. So the dwarven city's borders remain under watch.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lieutenant-nevell-60edf41073c2b18e7800/1-0000.mp3", duration = 37.2506122, start = 0},
+    {file = "Audio/Transport/full_npc_lieutenant-nevell-b3aec02f68e387a146fc/1-0000.mp3", duration = 37.2767347, start = 0},
   },
 }
 P.transport["npc:lieutenant-orrin"] = {
@@ -2294,7 +2294,7 @@ P.transport["npc:loslor-rudge"] = {
   fullHash = "076678",
   text = "Loslor Rudge. At Steelgrill's Depot, Loslor Rudge keeps Dun Morogh's tinkerers supplied. His goods travel across the snowy ridges to craftsmen such as gunsmith Hegnar Rumbleshot. Loslor Rudge supplies engineering goods from Steelgrill's Depot, just down the road from Kharanos. His stock holds copper modulators, bronze tubing, blasting powder, and spanners. Harsh weather and scattered tinker operations keep these parts in demand, so Loslor works to supply local gearheads.\n\nDeliveries through the wilderness between outposts can be perilous. Near the Grizzled Den, wendigos drove off a courier taking a shortcut. The courier left behind an ammunition shipment meant for Loslor's valued client, gunsmith Hegnar Rumbleshot.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_loslor-rudge-b801de33a7a84a28a492/1-0000.mp3", duration = 46.3412245, start = 0},
+    {file = "Audio/Transport/full_npc_loslor-rudge-c32f986abc1b0fbd68de/1-0000.mp3", duration = 46.7330612, start = 0},
   },
 }
 P.transport["npc:lotwil-veriatus"] = {
@@ -2302,7 +2302,7 @@ P.transport["npc:lotwil-veriatus"] = {
   fullHash = "730618",
   text = "Lotwil Veriatus. East of Kargath, Lotwil Veriatus pursues dangerous experiments with the Badlands' elementals. The gnomish scholar works with his sarcastic apprentice Lucien Tosselwrench and mechanical attendant Servo, hoping to unite arcane theory, alchemy, and engineering. From Kharanos in Dun Morogh, Lotwil dreams of founding a grand University for his Enlightened Assembly of Arcanology, Alchemy, and Engineering Sciences. He believes arcane study, alchemy, and engineering belong together, not in separate pursuits. So he came to the harsh Badlands to study its native rock elementals and make shackles that bind elemental forces.\n\nLotwil has studied elemental machines and defeated dark iron constructs. Yet his mind stays so fixed on the work that he often misses the explosive danger of his experiments.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lotwil-veriatus-180f6d945a1dbc752256/1-0000.mp3", duration = 52.4016327, start = 0},
+    {file = "Audio/Transport/full_npc_lotwil-veriatus-4e8ec076f37e94af6b5a/1-0000.mp3", duration = 52.3755102, start = 0},
   },
 }
 P.transport["npc:lucius"] = {
@@ -2350,7 +2350,7 @@ P.transport["npc:magis-sparkmantle"] = {
   fullHash = "d037c2",
   text = "Magis Sparkmantle. In Kharanos, Magis Sparkmantle teaches gnome mages inside the Thunderbrew Distillery. He guides new spellcasters who come from Coldridge Valley into Dun Morogh. Dwarves come to the Thunderbrew Distillery for ale, and Magis Sparkmantle teaches among its casks and kegs. Across Dun Morogh, gnome mages work closely with their dwarven allies. Magis helps new spellcasters deepen their knowledge of the arcane and put it to practice. Magis teaches beginners their first incantations, then points promising students toward broader studies of magic. When they outgrow his early lessons or need special guidance, he sends them to other practitioners, including Bink, or to mentors in the Alliance’s main hubs.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_magis-sparkmantle-747b923828a1e5146a26/1-0000.mp3", duration = 44.8783673, start = 0},
+    {file = "Audio/Transport/full_npc_magis-sparkmantle-324993e5264cdd7988b7/1-0000.mp3", duration = 45.1395918, start = 0},
   },
 }
 P.transport["npc:magistrate-henry-maleb"] = {
@@ -2438,7 +2438,7 @@ P.transport["npc:marleth-barleybrew"] = {
   fullHash = "31c998",
   text = "Marleth Barleybrew. At Brewnall Village, Marleth Barleybrew works to prove her family’s ale can rival Thunder Ale. The Thunderbrew clan’s hold on local beer trade frustrates her, and she seeks to put Barleybrew brew before drinkers. In Dun Morogh, beer matters as much as steel, and the Barleybrew and Thunderbrew rivalry is legendary. Ragnar Thunderbrew and his kin control nearly all the beer trade from their Kharanos distillery. Marleth Barleybrew believes her family’s brew is just as strong, but she will not challenge the Thunderbrews openly. Instead, she recruits travelers to secretly replace Kharanos tavern casks with Barleybrew kegs.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_marleth-barleybrew-14ff5674fe7fa1354416/1-0000.mp3", duration = 38.9746939, start = 0},
+    {file = "Audio/Transport/full_npc_marleth-barleybrew-a67c69b0aff0b09738dd/1-0000.mp3", duration = 39.3404082, start = 0},
   },
 }
 P.transport["npc:marryk-nurribit"] = {
@@ -2530,11 +2530,11 @@ P.transport["npc:maurin-bonesplitter"] = {
   },
 }
 P.transport["npc:maxan-anvol"] = {
-  hash = "f6fd3d",
-  fullHash = "f6fd3d",
-  text = "Maxan Anvol. At the Thunderbrew Distillery in Kharanos, Maxan Anvol teaches dwarven priests the ways of the Holy Light. Before acolytes earn the Church’s vestments, he puts their faith to the test. From the Thunderbrew Distillery, Maxan Anvol tends to the spiritual needs of Kharanos. Travelers, mountaineers, and acolytes gather there, for the hamlet lies between Coldridge Valley and Ironforge. Its inn draws those passing through. Maxan offers prayer and counsel to all who enter, with stout close at hand. Before novice priests venture into the wider world, Maxan Anvol tests their faith and skill. He sends initiates to use simple healing prayers on Dun Morogh’s wounded defenders. Those who prove devoted and skilled receive their first priestly vestments, a mark of their place in the Church of the Holy Light.",
+  hash = "e5faeb",
+  fullHash = "e5faeb",
+  text = "Maxan Anvol. At the Thunderbrew Distillery in Kharanos, Maxan Anvol teaches dwarven priests the ways of the Holy Light. Before acolytes earn the Church’s vestments, he puts their faith to the test. Beyond his teaching, Maxan Anvol looks after the spiritual needs of Kharanos. Travelers, mountaineers, and acolytes gather there, for the hamlet lies between Coldridge Valley and Ironforge. Its inn draws those passing through. Maxan offers prayer and counsel to all who enter, with stout close at hand. Before novice priests venture into the wider world, Maxan Anvol tests their faith and skill. He sends initiates to use simple healing prayers on Dun Morogh’s wounded defenders. Those who prove devoted and skilled receive their first priestly vestments, a mark of their place in the Church of the Holy Light.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_maxan-anvol-841b0da16eb874ab3621/1-0000.mp3", duration = 52.0881633, start = 0},
+    {file = "Audio/Transport/full_npc_maxan-anvol-1f4e7e6a65ec79397939/1-0000.mp3", duration = 51.1477551, start = 0},
   },
 }
 P.transport["npc:maybell-maclure"] = {
@@ -2582,7 +2582,7 @@ P.transport["npc:milli-featherwhistle"] = {
   fullHash = "4c78f7",
   text = "Milli Featherwhistle. At Steelgrill's Depot, Milli Featherwhistle builds and maintains mechanostriders for Gnomeregan's displaced people. She sells these clockwork mounts to her kin and to trusted allies among the exiles. Just east of Kharanos, Milli works outdoors in Dun Morogh's biting chill. She tunes each mount's gears, pistons, and balancing gyros to carry riders across the snowy crags. Dwarves and night elves favor living mounts. For Gnomeregan's displaced people, Milli's clockwork steeds meet a different need. Milli follows the blueprints first drawn by High Tinker Gelbin Mekkatorque. She has improved each mechanostrider's performance by lightening its chassis and refining its exhaust vents. Yet she keeps to the High Tinker's original designs. Her work carries gnomish ambition forward, even in exile.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_milli-featherwhistle-9ac7571d97bdf466a61a/1-0000.mp3", duration = 51.1477551, start = 0},
+    {file = "Audio/Transport/full_npc_milli-featherwhistle-e131c3cf0d24a431aa88/1-0000.mp3", duration = 51.8008163, start = 0},
   },
 }
 P.transport["npc:milton-sheaf"] = {
@@ -2702,7 +2702,7 @@ P.transport["npc:mountaineer-thalos"] = {
   fullHash = "1579ee",
   text = "Mountaineer Thalos. At Coldridge Pass, Mountaineer Thalos guards the road toward Kharanos, where couriers bring urgent reports. Troggs have overrun the tunnel, and he decides who may cross safely. Troggs have burrowed up from below and made Coldridge Pass dangerous. At its snowy mouth, where Coldridge Valley gives way to Dun Morogh’s deeper crags, Thalos turns back travelers who are not ready. He tests whether couriers have the grit to face the infested tunnel. If they cannot get through, their reports may never reach the wider kingdom. Grelin Whitebeard reports Frostmane troll movements in the secluded valley. A courier carries his account to Grelin’s brother Senir in Kharanos, but first must speak with Mountaineer Thalos. Thalos sends capable travelers through the pass toward Kharanos, where regional commanders coordinate Dun Morogh’s defense. Vital intelligence must reach Ironforge’s military leaders, not vanish in the snow.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_mountaineer-thalos-bf690a150a4ccf728140/1-0000.mp3", duration = 57.3126531, start = 0},
+    {file = "Audio/Transport/full_npc_mountaineer-thalos-798d075d5b8264b27a42/1-0000.mp3", duration = 59.8987755, start = 0},
   },
 }
 P.transport["npc:mupsi-shacklefridd"] = {
@@ -2798,7 +2798,7 @@ P.transport["npc:nissa-firestone"] = {
   fullHash = "1e660d",
   text = "Nissa Firestone. Above Ironforge’s Great Forge, Nissa Firestone teaches field medicine to travelers and soldiers. Nissa Firestone tends patients upstairs in the Ironforge Physician shop. The Great Forge’s clang and heat reach her there, while she binds their wounds. Dwarven warriors can endure much, yet blades and claws still break their skin. Before travelers and soldiers set out into Dun Morogh’s snows or farther afield, Nissa teaches basic bandaging and field dressings. These skills can help keep them and their allies alive. Nissa Firestone teaches field medics how to use cloth and lint. When she has taught all she can, she directs them to specialized triage officers in distant outposts. Skilled healers go where Alliance casualties are heaviest.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_nissa-firestone-b487a7c9099b68eccabc/1-0000.mp3", duration = 49.5020408, start = 0},
+    {file = "Audio/Transport/full_npc_nissa-firestone-3716c21bb96c1e5314b5/1-0000.mp3", duration = 47.9085714, start = 0},
   },
 }
 P.transport["npc:nogg"] = {
@@ -2970,11 +2970,11 @@ P.transport["npc:pilot-longbeard"] = {
   },
 }
 P.transport["npc:pilot-stonegear"] = {
-  hash = "139cf3",
-  fullHash = "139cf3",
-  text = "Pilot Stonegear. At Steelgrill's Depot, Pilot Stonegear readies the Trollplow for battle. Called “Stone,” the dwarf mechanic and driver serves in the Ironforge Siege Brigade. He seeks rare materials to improve the machine's engine and armor, and travelers in Dun Morogh help him find them. At Steelgrill's Depot, Pilot Stonegear drives for Ironforge's Siege Brigade. His pride is Trollplow, a heavy siege tank built to break enemy lines. Stone knows a driver's life in battle depends on sound gears, strong plates, and steady steam pressure. So he keeps improving the tank's fighting power and making its cramped cockpit more livable. Off duty, Pilot Stonegear debates engineering plans with fellow pilots such as Pilot Bellowfiz. The depot's standard designs never satisfy him. He seeks unusual ores and volatile minerals to improve Trollplow's armor and munitions. Travelers cross Dun Morogh's snowy wilderness and dangerous caves to find the supplies he needs.",
+  hash = "bfc94a",
+  fullHash = "bfc94a",
+  text = "Pilot Stonegear. At Steelgrill's Depot, Pilot Stonegear readies the Trollplow for battle. Called “Stone,” the dwarf mechanic and driver serves in the Ironforge Siege Brigade. He seeks rare materials to improve the machine's engine and armor, and travelers in Dun Morogh help him find them. Pilot Stonegear works among siege tanks and fellow pilots just outside Kharanos. His pride is Trollplow, a heavy siege tank built to break enemy lines. Stone knows a driver's life in battle depends on sound gears, strong plates, and steady steam pressure. So he keeps improving the tank's fighting power and making its cramped cockpit more livable. Off duty, Pilot Stonegear debates engineering plans with fellow pilots such as Pilot Bellowfiz. The depot's standard designs never satisfy him. He seeks unusual ores and volatile minerals to improve Trollplow's armor and munitions. Travelers cross Dun Morogh's snowy wilderness and dangerous caves to find the supplies he needs.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_pilot-stonegear-77815bf0385f9f14432c/1-0000.mp3", duration = 62.1191837, start = 0},
+    {file = "Audio/Transport/full_npc_pilot-stonegear-a6c923203f5f079609c9/1-0000.mp3", duration = 62.3542857, start = 0},
   },
 }
 P.transport["npc:pixel"] = {
@@ -3086,7 +3086,7 @@ P.transport["npc:ragnar-thunderbrew"] = {
   fullHash = "4c63c4",
   text = "Ragnar Thunderbrew. At the Thunderbrew Distillery in Kharanos, Ragnar Thunderbrew keeps the family tavern supplied and its patrons fed. Across Dun Morogh, the dwarven brewer is known for the family's Beer Basted Boar Ribs. Ragnar Thunderbrew tends the kitchen and brewing work at the Thunderbrew Distillery in Kharanos. Mountaineers, travelers, and gnome refugees fleeing Gnomeregan gather there. His Beer Basted Boar Ribs, made with dwarven ale, are a Dun Morogh specialty.\n\nSupplies have grown hard to find since his usual meat provider enlisted in the King's Army. Ragnar now depends on wandering mountaineers and hunters to bring fresh crag boar flanks to the kitchen. Across Ironforge territory, the Thunderbrew name is known for dwarven drink and tavern life. Ragnar has kept the distillery running since his older brother, Grimbooze Thunderbrew, disappeared in a drunken haze a few harvests ago.\n\nHe guards the family's brewing heritage against thieves such as the Dark Iron dwarves, who stole the recipe for Thunderbrew Lager. With patrons restless, supplies scarce, and disputes breaking out in the tavern, Ragnar keeps the taps flowing and travelers fed in Kharanos.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_ragnar-thunderbrew-b06e438625a3b3a1b558/1-0000.mp3", duration = 74.3444898, start = 0},
+    {file = "Audio/Transport/full_npc_ragnar-thunderbrew-c127e139c500cfafb9b0/1-0000.mp3", duration = 74.8408163, start = 0},
   },
 }
 P.transport["npc:rahauro"] = {
@@ -3134,7 +3134,7 @@ P.transport["npc:razzle-sprysprocket"] = {
   fullHash = "c90b2d",
   text = "Razzle Sprysprocket. In Kharanos, Razzle Sprysprocket searches for the machinery lost when Gnomeregan fell. With Ozzie Togglevolt, he gathers parts scattered through Dun Morogh’s snowy hills. After Gnomeregan fell, Razzle found refuge in Dun Morogh and opened a workshop in Kharanos. Skilled with delicate mechanisms, he works beside fellow engineer Ozzie Togglevolt. Together, they seek gyro-mechanisms and cog assemblies lost or scavenged during the flight from their irradiated homeland. Wild beasts roam Dun Morogh’s frozen ridges, and Frostmane trolls raid the area. Their presence makes Razzle’s work dangerous. Still, he labors to keep gnomish contraptions working and recover the lost wonders of Gnomeregan.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_razzle-sprysprocket-c648c6437be85c7789d8/1-0000.mp3", duration = 45.6097959, start = 0},
+    {file = "Audio/Transport/full_npc_razzle-sprysprocket-15f31f9d72e487e44172/1-0000.mp3", duration = 46.7069388, start = 0},
   },
 }
 P.transport["npc:red-jack-flint"] = {
@@ -3326,7 +3326,7 @@ P.transport["npc:scooty"] = {
   fullHash = "943a7c",
   text = "Scooty. From Booty Bay’s busy pirate port, Scooty keeps a teleport link to Gnomeregan. The goblin engineer trusts his craft and his transponders, though the experimental pad lies in the fallen gnome city. For the Horde, his device opens a perilous route into Dun Morogh. Among Booty Bay’s wharves and workshops, Scooty pursues ambitious tinkering for the Steamwheedle Cartel. While many goblins favor gunpowder and explosives, he works to move matter across great distances. His transponders keep a working link to a teleportation pad inside Gnomeregan. Horde forces rely on his craft to reach the subterranean gnome stronghold without crossing dangerous Alliance territory. Experimental goblin teleporters rarely run without a hitch. After hearing of a new gnomish rig in Gnomeregan, Scooty and his partner Sovik built the Transpolyporter 6000. Scooty cheerfully admits it has exploded a dozen or so times. Crossing continents as scattered matter carries clear physical dangers, yet Scooty remains sure of his genius. To him, every mechanical failure is a small obstacle on the road to innovation.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_scooty-f5918b2fd0cf334ff0aa/1-0000.mp3", duration = 71.68, start = 0},
+    {file = "Audio/Transport/full_npc_scooty-28cc59dee9e747ed189c/1-0000.mp3", duration = 71.4971429, start = 0},
   },
 }
 P.transport["npc:scout-riell"] = {
@@ -3702,7 +3702,7 @@ P.transport["npc:talvash-del-kissel"] = {
   fullHash = "1dedac",
   text = "Talvash del Kissel. In Ironforge's Mystic Ward, the gnome jeweler Talvash del Kissel is down on his luck. He fled Gnomeregan when the troggs overran it, then fell into debt amid rumors of questionable dealings. Now he turns to adventurers to recover lost treasures and restore shattered relics. His eye for gems and ancient baubles makes him a valued contact for those exploring Uldaman. Talvash once earned respect as a jeweler in Gnomeregan, until the troggs overran the city and destroyed his livelihood along with his home. He escaped with the surviving refugees to Ironforge and set up camp in the Mystic Ward. Yet relocation brought little relief.\n\nRumors of questionable dealings and unpaid obligations gathered around him, leaving the craftsman in deep financial distress. Unable to rebuild his trade through conventional means, he now relies on freelance adventurers to recover lost assets and salvage his reputation. Talvash has kept his precision with gems and his skill at judging their worth. When explorers in the Badlands uncover an ancient, shattered necklace deep in Uldaman's Titan vault, few craftsmen in the Eastern Kingdoms can make sense of its intricate enchantments. Restoring its power takes rare components and painstaking work. Talvash is eager to do it, both to clear his debts and prove his skill endures.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_talvash-del-kissel-b59e171a827240c019f1/1-0000.mp3", duration = 81.9722449, start = 0},
+    {file = "Audio/Transport/full_npc_talvash-del-kissel-a89b1769af5e6afe370c/1-0000.mp3", duration = 83.8791837, start = 0},
   },
 }
 P.transport["npc:tammra-windfield"] = {
@@ -3782,7 +3782,7 @@ P.transport["npc:tharek-blackstone"] = {
   fullHash = "bc903c",
   text = "Tharek Blackstone. At the forge in Kharanos, Tharek Blackstone makes and repairs tools for local craftsmen. His trade keeps him busy, so he hires travelers to carry finished crates to Beldin Steelgrill at Steelgrill's Depot. Beldin's mechanostrider depot just outside town needs heavy wrenches, gears, and replacement tools. Tharek sends each crate there with a passing traveler, keeping deliveries moving while he stays at the forge. Craftsmen across Kharanos also rely on the tools he makes and repairs. Tharek has earned respect across Dun Morogh through his work at the anvil. He holds no military title, yet people in town turn to him for odd jobs, supply runs, and help coordinating local efforts.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_tharek-blackstone-5fc2a28384c55e677af2/1-0000.mp3", duration = 43.8595918, start = 0},
+    {file = "Audio/Transport/full_npc_tharek-blackstone-2c8135d252dc68c34fbe/1-0000.mp3", duration = 44.0685714, start = 0},
   },
 }
 P.transport["npc:tharnariun-treetender"] = {
@@ -3838,7 +3838,7 @@ P.transport["npc:thorgas-grimson"] = {
   fullHash = "e6c3a3",
   text = "Thorgas Grimson. Inside Anvilmar in Coldridge Valley, Thorgas Grimson teaches new hunters to face Dun Morogh's frozen wilds. The seasoned outdoorsman trusts experience in the cold to teach survival. Inside Anvilmar, Thorgas Grimson guides new mountaineers and scouts. He leaves dry lessons behind and sends young hunters into the freezing winds. With bow or gun in hand, they track Dun Morogh's rugged beasts firsthand.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_thorgas-grimson-18d64afff7ed162110e6/1-0000.mp3", duration = 28.4734694, start = 0},
+    {file = "Audio/Transport/full_npc_thorgas-grimson-90b627983352095aaca3/1-0000.mp3", duration = 28.1077551, start = 0},
   },
 }
 P.transport["npc:thorgrum-borrelson"] = {
@@ -3886,7 +3886,7 @@ P.transport["npc:tormus-deepforge"] = {
   fullHash = "3e8f76",
   text = "Tormus Deepforge. At Ironforge’s Great Forge, Tormus Deepforge keeps weapons flowing to the Alliance. He forges weapons for young warriors and mourns his mentor, Sturgy Ironband. Beside the Great Forge fires, Tormus Deepforge oversees the Bronzebeard clan’s metalwork. He still hammers steel himself, though he mourns Sturgy Ironband, his mentor. Dark Iron dwarves overran Sturgy’s smithing compound south of Helm’s Bed Lake in eastern Dun Morogh. A load of strange umbral ore had arrived there.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_tormus-deepforge-570a42f50eb68c28bce2/1-0000.mp3", duration = 32.8881633, start = 0},
+    {file = "Audio/Transport/full_npc_tormus-deepforge-ed1899a6e930c26d9bf4/1-0000.mp3", duration = 33.3844898, start = 0},
   },
 }
 P.transport["npc:torwa-pathfinder"] = {
@@ -4190,7 +4190,7 @@ P.transport["npc:witch-doctor-uzer-i"] = {
   fullHash = "02e0f9",
   text = "Witch Doctor Uzer'i. At Camp Mojache, Witch Doctor Uzer'i seeks to bind the spirits of powerful natural creatures into weapons for the Horde. He calls those lingering spirits muisek and studies magic the night elves have used for millennia. Witch Doctor Uzer'i studies Feralas's natural magic through the old rites of troll spiritualism. Night elves have drawn on forest beast spirits for millennia, and Uzer'i believes the Horde should claim that power. He calls a creature's lingering spirit muisek. His vessels shrink fallen beings and trap their spirits before they escape, so he can store and study their essence. Capturing muisek is only the beginning of Uzer'i's ambition. He gathers sinew, enchanted minerals, and petrified splintered logs from the creatures whose spirits he traps. Then he joins those materials with bound muisek. Through his rites, he binds ancient forest spirits into weapons for the Horde. Uzer'i also follows rumors of hidden places of power across Azeroth, including the ancient, submerged Sunken Temple.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_witch-doctor-uzer-i-107b4499481dcd6b3027/1-0000.mp3", duration = 64.9142857, start = 0},
+    {file = "Audio/Transport/full_npc_witch-doctor-uzer-i-abb91777ea34fdfec699/1-0000.mp3", duration = 64.2089796, start = 0},
   },
 }
 P.transport["npc:wizlo-bearingshiner"] = {
@@ -4510,7 +4510,7 @@ P.transport["topic:mage"] = {
   fullHash = "12295d",
   text = "Mage. For a mage, arcane power answers to study, while the body remains frail beneath cloth armor. Fire, frost, and raw arcane force make mages formidable allies and dangerous foes. They conjure, teleport, and control the field of battle, but their discipline demands deep focus. Misused arcane power has left a perilous legacy. A mage’s path asks for intellect, focus, and years of study. Magi neither commune with spirits nor rely on divine faith; they approach magic as a precise cosmic science. Drawing on arcane energies, they unleash raw destruction, summon searing flame, or chill air into solid ice and howling blizzards. Heavy armor hinders the delicate gestures and concentration their incantations require, so they wear light cloth. Wards, mana barriers, and evasive spells help keep them safe. Human magical tradition began nearly three millennia ago during the Troll Wars. High elven sorcerers taught one hundred humans of the Empire of Arathor to help turn the tide against the Amani. As more humans took up magic, citizens without such skill grew fearful, driving many magi to found the magocracy of Dalaran.\n\nGoverned by the Kirin Tor, Dalaran became the northern kingdoms’ central archive of magical study. There, combat magic took shape in traditions that served the Alliance of Lordaeron through the First and Second Wars. Arcane practitioners have never won easy trust. The ancient cataclysm wrought by the Highborne and Dalaran’s fall during the Third War left many wary of magic’s volatile nature. The Church of the Holy Light has long viewed wizardry with suspicion.\n\nConservative knights have regarded arcane spellcasters as damned souls or a necessary evil in battle. Yet civil and military leaders know a capable magus can bring battlefield supremacy, swift mass transport, and vital defenses against supernatural threats. The arcane belongs to more than the Alliance. Troll and Forsaken mages serve the Horde, and orcs who study the art begin under Mai'ah, a Darkspear mage in the Valley of Trials. Mai'ah teaches that patience and careful judgment matter more than raw power.\n\nAmong the Skyborne, the High Order descends from the Highborne of Eldre'Thalas. Their time in Skywall cost them much of their ancestors’ arcane knowledge. With the wind spirits gone from Zephras Isle, they seek to recover it. Skyborne mages fight for the Alliance.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_mage-34d530d04f329b5d16ae/1-0000.mp3", duration = 157.387755, start = 0},
+    {file = "Audio/Transport/full_topic_mage-c9f81133fdad7db48c42/1-0000.mp3", duration = 156.316735, start = 0},
   },
 }
 P.transport["topic:muradin-bronzebeard"] = {

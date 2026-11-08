@@ -16,8 +16,9 @@
 #   LoreForever_Voice_QuestGivers2.zip / QuestGivers3.zip  the same for quest levels 31-50 and 51-60, once recorded
 #   LoreForever_Voice_QuestGivers.zip                     quest givers' voices: quest dialogue in each quest giver's
 #                                                         race and gender (its own CurseForge project: under 480 MB)
-#   LoreForever_Voice_<Default|Female>_<locale>.zip       either narrator in deDE, esES, frFR, ptBR or itIT (LOR-177), one
-#                                                         pack each, once recorded
+#   LoreForever_Voice_<Default|Female>_<locale>.zip       either narrator in deDE, esES, frFR, ptBR, itIT or zhCN (LOR-177),
+#                                                         one pack each, once recorded; MorePeople_<locale> (and for zhCN,
+#                                                         MoreItems_zhCN and MoreQuests1-3_zhCN) the rest of its stories
 #   LoreForever_Voice_<Default|Female>_Quests_<locale>.zip  either narrator's quest dialogue in one of those languages
 #                                                         (LOR-226, the game's own quest text), once recorded
 # They all follow the core's version (scripts/release.sh stamps it into their .toc files, like the default pack's).
@@ -186,6 +187,20 @@ DOWNLOADS = {
     # Italian (10/18): the stories the Italian community's pack has, read by native narrators. Skipped until recorded.
     "LoreForever_Voice_Default_itIT": (["LoreForever_Voice_Default_itIT"], "Male narrator: Italiano {v}"),
     "LoreForever_Voice_Female_itIT": (["LoreForever_Voice_Female_itIT"], "Female narrator: Italiano {v}"),
+    # Chinese (LOR-1318): ~2,100 complete stories a narrator, split like English (lore.voicepack LOCALE_PARTS): zones
+    # and places, people, items, and quests by their English part. Skipped until recorded.
+    "LoreForever_Voice_Default_zhCN": (["LoreForever_Voice_Default_zhCN"], "Male narrator: 简体中文 {v}"),
+    "LoreForever_Voice_Female_zhCN": (["LoreForever_Voice_Female_zhCN"], "Female narrator: 简体中文 {v}"),
+    "LoreForever_Voice_Default_MorePeople_zhCN": (["LoreForever_Voice_Default_MorePeople_zhCN"], "Male narrator: more people, 简体中文 {v}"),
+    "LoreForever_Voice_Female_MorePeople_zhCN": (["LoreForever_Voice_Female_MorePeople_zhCN"], "Female narrator: more people, 简体中文 {v}"),
+    "LoreForever_Voice_Default_MoreItems_zhCN": (["LoreForever_Voice_Default_MoreItems_zhCN"], "Male narrator: item stories, 简体中文 {v}"),
+    "LoreForever_Voice_Female_MoreItems_zhCN": (["LoreForever_Voice_Female_MoreItems_zhCN"], "Female narrator: item stories, 简体中文 {v}"),
+    "LoreForever_Voice_Default_MoreQuests1_zhCN": (["LoreForever_Voice_Default_MoreQuests1_zhCN"], "Male narrator: quest stories 1-19, 简体中文 {v}"),
+    "LoreForever_Voice_Female_MoreQuests1_zhCN": (["LoreForever_Voice_Female_MoreQuests1_zhCN"], "Female narrator: quest stories 1-19, 简体中文 {v}"),
+    "LoreForever_Voice_Default_MoreQuests2_zhCN": (["LoreForever_Voice_Default_MoreQuests2_zhCN"], "Male narrator: quest stories 20-39, 简体中文 {v}"),
+    "LoreForever_Voice_Female_MoreQuests2_zhCN": (["LoreForever_Voice_Female_MoreQuests2_zhCN"], "Female narrator: quest stories 20-39, 简体中文 {v}"),
+    "LoreForever_Voice_Default_MoreQuests3_zhCN": (["LoreForever_Voice_Default_MoreQuests3_zhCN"], "Male narrator: quest stories 40+, 简体中文 {v}"),
+    "LoreForever_Voice_Female_MoreQuests3_zhCN": (["LoreForever_Voice_Female_MoreQuests3_zhCN"], "Female narrator: quest stories 40+, 简体中文 {v}"),
     # Brazilian Portuguese (LOR-567): both recast in native voices; the male narrator is back 10/19, the female one 10/21.
     "LoreForever_Voice_Default_ptBR": (["LoreForever_Voice_Default_ptBR"], "Male narrator: Português {v}"),
     "LoreForever_Voice_Female_ptBR": (["LoreForever_Voice_Female_ptBR"], "Female narrator: Português {v}"),
@@ -212,7 +227,7 @@ DOWNLOADS = {
 # LOR-561; Mike 2026-10-15): Willo reads the short answers aloud, so they're no longer built or published. Copies
 # players already have keep playing while their text matches.
 LANGUAGES = {"": "", "_deDE": ", Deutsch", "_esES": ", Español", "_frFR": ", Français", "_ptBR": ", Português",
-             "_itIT": ", Italiano"}
+             "_itIT": ", Italiano", "_zhCN": ", 简体中文"}
 # New manual bundles use only available story components. Quest dialogue stays a separate opt-in pack.
 FULL_BUNDLES = {}
 # English has no bundle here: the male narrator's core and lands stay in the main download, and the female narrator's is
@@ -237,7 +252,8 @@ CURSEFORGE_OWN = {"LoreForever_Voice_QuestGivers", "LoreForever_Voice_QuestGiver
                   "LoreForever_Voice_Default_Quests", "LoreForever_Voice_Female_Quests",
                   "LoreForever_Voice_Original-complete", "LoreForever_Voice_Original_Quests"} | {
     n for n in DOWNLOADS if re.fullmatch(
-    r"LoreForever_Voice_(Default|Female|Original)((_Quests|_MorePeople)?_[a-z]{2}[A-Z]{2}|_More(Places|People|Items|Quests[12]))", n)}
+    r"LoreForever_Voice_(Default|Female|Original)((_Quests|_MorePeople|_MoreItems|_MoreQuests[123])?_[a-z]{2}[A-Z]{2}"
+    r"|_More(Places|People|Items|Quests[12]))", n)}
 CURSEFORGE_MB = 480                                  # its upload API refuses bigger files
 GITHUB_ASSET_MAX = 2 * 1024**3 - 64 * 1024**2        # GitHub's release asset limit (2 GiB), less room for zip overhead
 

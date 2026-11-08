@@ -1,0 +1,109 @@
+{
+ "key": "quest:97958",
+ "type": "quest",
+ "name": "Camping 101: Leatherworking",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97958
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Shelene Rhobart can teach you to make a tent once you show your leatherworking skill. It offers shelter from heat and rain while you travel.",
+ "sections": [
+  {
+   "title": "A Leatherworker's Tent",
+   "body": "A leatherworking trainer points you to Shelene Rhobart, who is on the road from Brill to Undercity. She can teach you to craft a camping item once you show proficiency in your skill. A tent can keep you cool on hot days and dry in the rain, giving you rest on your travels.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Place to Camp",
+   "body": "Your tent is meant for the wilderness, since most folk do not care for tents set up in the center of town. A campfire completes a camp, and cooks can teach you how to make one. If you need the basics of cooking, seek someone who can train you.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who can teach me to make a tent?",
+   "aliases": [
+    "tent trainer",
+    "who teaches tent",
+    "shelene tent"
+   ],
+   "answer": "Shelene Rhobart can teach you to craft a camping item for leatherworking."
+  },
+  {
+   "q": "Where is Shelene Rhobart?",
+   "aliases": [
+    "shelene location",
+    "where's shelene",
+    "road to undercity"
+   ],
+   "answer": "Shelene Rhobart is on the road from Brill to Undercity."
+  },
+  {
+   "q": "What does the tent do?",
+   "aliases": [
+    "tent use",
+    "what's the tent for",
+    "camping tent"
+   ],
+   "answer": "The tent can keep you cool on hot days and dry in the rain, so you can get rest while traveling."
+  },
+  {
+   "q": "Where should I set up the tent?",
+   "aliases": [
+    "where to camp",
+    "tent in town",
+    "camping spot"
+   ],
+   "answer": "The tent is meant for the wilderness; most folk do not care for tents set up in the center of town."
+  },
+  {
+   "q": "Do I need a campfire?",
+   "aliases": [
+    "camp fire",
+    "need fire for camp",
+    "camping fire"
+   ],
+   "answer": "Yes. A campfire completes a camp, and cooks can teach you how to make one."
+  },
+  {
+   "q": "How do I learn to make a campfire?",
+   "aliases": [
+    "learn fire",
+    "cooking trainer",
+    "make a campfire"
+   ],
+   "answer": "Most cooks can teach you to make a fire. If you need the basics of cooking, seek someone who can train you."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "As a cook, you can teach travelers how to make the campfire that completes a camp."
+  }
+ ],
+ "keywords": [
+  "brill",
+  "camp tent",
+  "campfire",
+  "camping",
+  "cooking",
+  "leatherworking",
+  "shelene rhobart",
+  "tent",
+  "undercity"
+ ],
+ "related": [
+  "npc:shelene-rhobart",
+  "subzone:brill",
+  "zone:undercity"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Camping 101: Leatherworking"
+ ]
+}

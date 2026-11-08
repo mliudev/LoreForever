@@ -182,7 +182,7 @@ P.transport["quest:1192"] = {
   fullHash = "5fa4a2",
   text = "Indurium Ore. Pozzik needs Indurium Ore to build several parts for the racers. The ore lies at the Uldaman dig in the Badlands, across the sea in Khaz Modan. Gnomes are already gathering their own supply, and Pozzik wants to keep pace. Pozzik asks you to bring him four pieces of raw Indurium Ore. You can find it at the Uldaman dig in the Badlands, across the sea in Khaz Modan. Gnomes are already gathering their own supply, and Pozzik wants some too. This comes after Rizzle's Schematics.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1192-e737cd693d9991b10865/1-0000.mp3", duration = 32.4963265, start = 0},
+    {file = "Audio/Transport/full_quest_1192-acb1413affcf36fbcaf6/1-0000.mp3", duration = 31.8432653, start = 0},
   },
 }
 P.transport["quest:1194"] = {
@@ -190,7 +190,7 @@ P.transport["quest:1194"] = {
   fullHash = "a74e49",
   text = "Rizzle's Schematics. After Keeping Pace, you carry a raw indurium sample to Pozzik on the Shimmering Flats. Rizzle's plans lie beneath the ore, and his notes trace it to the dwarves' dig at Uldaman in the Badlands. They also describe how well indurium resists heat. Rizzle's plans explain how to refine indurium ore. Scrawled notes trace its source to the dwarves' dig at Uldaman in the Badlands. Other notes describe the ore's resistance to heat. A lump of raw indurium holds the plans down, and you take the sample to Pozzik.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1194-06ecb849a18f86bf7b3d/1-0000.mp3", duration = 34.1420408, start = 0},
+    {file = "Audio/Transport/full_quest_1194-336f2fa4ee697cff58be/1-0000.mp3", duration = 32.6269388, start = 0},
   },
 }
 P.transport["quest:1252"] = {
@@ -1150,7 +1150,7 @@ P.transport["quest:3124"] = {
   fullHash = "5a39b4",
   text = "Hippogryph Muisek. In the High Wilderness, Frayfeather hippogryphs carry spirits Uzer'i wants you to capture. Their muisek can escape unless you act quickly. Witch Doctor Uzer'i trusts you with the vessel and asks you to capture another creature's spirit. Hippogryphs have long been companions to the night elves, and their spirits are loyal and steadfast. You need ten Frayfeather hippogryphs of any kind. Kill each one, then quickly shrink and capture it with the vessel to preserve its muisek. Uzer'i places them in the High Wilderness, south of the camp.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3124-aafa6a9d975c5a202bd0/1-0000.mp3", duration = 33.3061224, start = 0},
+    {file = "Audio/Transport/full_quest_3124-0bea908b9046317a0438/1-0000.mp3", duration = 32.9142857, start = 0},
   },
 }
 P.transport["quest:3125"] = {

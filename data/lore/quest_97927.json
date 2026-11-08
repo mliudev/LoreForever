@@ -1,0 +1,88 @@
+{
+ "key": "quest:97927",
+ "type": "quest",
+ "name": "Camping 101: Alchemy",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97927
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Kray in Thunder Bluff can teach you to craft a Mana Well for your alchemist's camp. The well draws healers and spellcasters seeking refreshment.",
+ "sections": [
+  {
+   "title": "A Well for Camp",
+   "body": "An alchemist can learn to craft a Mana Well from Kray in Thunder Bluff. You have shown proficiency in your skill, and Kray can teach you this camping craft. Healers and spellcasters will come for a refreshing taste. To set up camp in the wilderness, you also need a campfire, which a cook can teach you to make.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who teaches me to craft a Mana Well?",
+   "aliases": [
+    "mana well trainer",
+    "who is Kray",
+    "Kray alchemy"
+   ],
+   "answer": "Kray in Thunder Bluff can teach you to craft a Mana Well once you have shown proficiency in alchemy."
+  },
+  {
+   "q": "What is a Mana Well for?",
+   "aliases": [
+    "mana well use",
+    "what does the well do",
+    "alchemy camp item"
+   ],
+   "answer": "A Mana Well is a camping craft for alchemists. Healers and spellcasters come to it for refreshment."
+  },
+  {
+   "q": "Where do I learn this camping craft?",
+   "aliases": [
+    "where is Kray",
+    "Thunder Bluff alchemy",
+    "mana well location"
+   ],
+   "answer": "You speak with Kray in Thunder Bluff to learn the Mana Well craft."
+  },
+  {
+   "q": "What else do I need to set up camp?",
+   "aliases": [
+    "campfire needed",
+    "how to start camp",
+    "fire for camp"
+   ],
+   "answer": "A camp needs a campfire before it can be set up. A cook can teach you to make one."
+  },
+  {
+   "q": "Can I test the Mana Well in town?",
+   "aliases": [
+    "camp in town",
+    "where to try Mana Well",
+    "Mana Well test"
+   ],
+   "answer": "The completion instructions say most folk do not care for camps in the center of town, so you need to head into the wilderness to test it."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alchemist",
+  "alchemy",
+  "campfire",
+  "camping",
+  "healers",
+  "kray",
+  "mana well",
+  "spellcasters",
+  "thunder bluff"
+ ],
+ "related": [
+  "zone:thunderbluff"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Camping 101: Alchemy"
+ ]
+}

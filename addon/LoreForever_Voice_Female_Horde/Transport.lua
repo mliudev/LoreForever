@@ -331,10 +331,10 @@ P.transport["npc:orgnil-soulscar"] = {
 }
 P.transport["npc:shadow-priest-allister"] = {
   hash = "2322b9",
-  fullHash = "885d68",
-  text = "Shadow Priest Allister. At the Sepulcher, Shadow Priest Allister directs the Forsaken's efforts across Silverpine Forest. He watches nearby threats and guards Lordaeron's borders for the Dark Lady. Shadow Priest Allister directs Forsaken scouts from the Sepulcher in Silverpine Forest. From there, he watches for renegade humans and beasts. He also tracks arcane activity around Dalaran. Allister's chief concern is Dalaran's surviving mages. He watches especially closely those at Ambermill, who probe across the borders. He will not let the Kirin Tor gain a foothold in Forsaken lands. His agents intercept messengers, decipher arcane runes, and seek the wizards' long-term aims. Allister's duties as a strategist share his attention with the study of shadow. He wrote 'Holy Bologna: What the Light Won't Tell You', a sharp attack on traditional holy doctrine. The book considers undeath's harsh realities and the Holy Light's failure to aid those cast aside by life.\n\nSomehow, copies have reached the ruins of Dire Maul in Kalimdor.",
+  fullHash = "87bed3",
+  text = "Shadow Priest Allister. At the Sepulcher, Shadow Priest Allister directs the Forsaken's efforts across Silverpine Forest. He watches nearby threats and guards Lordaeron's borders for the Dark Lady. Allister commands the Forsaken scouts who range out from the Sepulcher, the main settlement on the Silverpine road. From there, he watches for renegade humans and beasts. He also tracks arcane activity around Dalaran. Allister's chief concern is Dalaran's surviving mages. He watches especially closely those at Ambermill, who probe across the borders. He will not let the Kirin Tor gain a foothold in Forsaken lands. His agents intercept messengers, decipher arcane runes, and seek the wizards' long-term aims. Allister's duties as a strategist share his attention with the study of shadow. He wrote 'Holy Bologna: What the Light Won't Tell You', a sharp attack on traditional holy doctrine. The book considers undeath's harsh realities and the Holy Light's failure to aid those cast aside by life.\n\nSomehow, copies have reached the ruins of Dire Maul in Kalimdor.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_shadow-priest-allister-61b1be0b965fd42a7553/1-0000.mp3", duration = 67.8922449, start = 0},
+    {file = "Audio/Transport/full_npc_shadow-priest-allister-c93d40be26dda8dda049/1-0000.mp3", duration = 69.9297959, start = 0},
   },
 }
 P.transport["npc:shadow-priest-sarvis"] = {

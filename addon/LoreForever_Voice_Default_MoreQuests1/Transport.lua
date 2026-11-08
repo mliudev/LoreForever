@@ -174,7 +174,7 @@ P.transport["quest:117"] = {
   fullHash = "28267e",
   text = "Thunderbrew. In Westfall, Grimbooze Thunderbrew gathers fresh hops for his next batch. Without them, his ale may turn thick as stew, so he shares kegs with those who bring what he needs. Far from Dun Morogh, Grimbooze keeps his family's brewing tradition alive. He insists on proper hops for his current brew, or it may turn to thick stew instead of refreshing ale. Grimbooze praises hops, barley, yeast, and malt in cheerful rhymes. Fresh hops let him finish fermentation on the spot. In return, he shares whole kegs of Thunderbrew Lager, known for its forceful taste.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_117-8ee3490e3111c38308cd/1-0000.mp3", duration = 36.1534694, start = 0},
+    {file = "Audio/Transport/full_quest_117-5e04360830e2ccb8fc82/1-0000.mp3", duration = 35.84, start = 0},
   },
 }
 P.transport["quest:1174"] = {
@@ -750,7 +750,7 @@ P.transport["quest:1599"] = {
   fullHash = "25dff9",
   text = "Beginnings. In Dun Morogh, Alamar Grimm tests Alliance warlock novices before teaching them to summon an imp. First, they must take feather charms from Frostmane troll novices. Influential voices have noticed a recruit with promise, and their attention draws Alamar Grimm from his occult research. Though reluctant, the warlock comes to assess the novice. Before teaching a novice to enslave lesser demons, Grimm demands proof of endurance and magical affinity. Frostmane troll novices carry feather charms in a cave southwest of Anvilmar. Subtle primal magic runs through the charms, and taking them proves the novice can overcome a magical foe. The curious specimens also serve Grimm's research. The charms persuade Grimm that the novice has the will to survive. He teaches the summoning of an imp, a warlock's most basic minion. Its chaotic fire magic can overpower a master who lacks discipline.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1599-c8e8588f9cc379dc0eb9/1-0000.mp3", duration = 53.6555102, start = 0},
+    {file = "Audio/Transport/full_quest_1599-cf208d87df73ca1f1738/1-0000.mp3", duration = 56.2416327, start = 0},
   },
 }
 P.transport["quest:16"] = {
@@ -774,7 +774,7 @@ P.transport["quest:1618"] = {
   fullHash = "9cf5d0",
   text = "Gearing Redridge. In Lakeshire, a hard pressed garrison needs sturdy copper gear from Ironforge. Tormus Deepforge asks aspiring Alliance smiths to forge it and aid Verner Osgood as he helps defend the region from hostile orcs and gnolls. The Great Forge sends help beyond Dun Morogh, where the Alliance's front line is under strain. In the Redridge Mountains, Lakeshire faces repeated attacks from Blackrock orcs marching from Stonewatch Keep and gnolls roaming the northern ridges. Stormwind's royal reinforcements are slow to arrive, and local supplies are dangerously low. Verner Osgood, Lakeshire's resident blacksmith, works nearly alone at his outdoor forge. He mends shattered armor and replaces broken weapons. Seeing his human counterpart under strain, Tormus Deepforge asks developing smiths to bring four Runed Copper Belts and four Heavy Copper Mauls to Lakeshire. The gear strengthens the militia's reserves, and Verner teaches traveling craftsmen finer trade techniques.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1618-5ac427ce9b4bf4b4a0a7/1-0000.mp3", duration = 59.115102, start = 0},
+    {file = "Audio/Transport/full_quest_1618-1c276311d6baf5f8d147/1-0000.mp3", duration = 60.2383673, start = 0},
   },
 }
 P.transport["quest:1638"] = {
@@ -846,7 +846,7 @@ P.transport["quest:1679"] = {
   fullHash = "b742ca",
   text = "Muren Stormpike. In Ironforge, Muren Stormpike awaits warriors sent from Kharanos for formal training. Granis Swiftaxe sends recruits who have proved their mettle in Dun Morogh to the city's Military Ward. Granis Swiftaxe sends promising warriors from Kharanos to Ironforge after they face local threats in Dun Morogh. He knows rough skirmishes can teach only so much. In the Military Ward, senior fighters oversee formal training for those bound for battle. At the Hall of Arms, you meet Muren Stormpike, a veteran of a storied dwarven clan. He wants proof that his new charges can endure real combat, not tavern tales. Reporting to him opens the way to learn defensive arts, control an enemy's aggression, and earn iron arms for the front line.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1679-47a52d10083eb53a50ac/1-0000.mp3", duration = 44.7216327, start = 0},
+    {file = "Audio/Transport/full_quest_1679-0f76fb1e6bdda3698eae/1-0000.mp3", duration = 44.9567347, start = 0},
   },
 }
 P.transport["quest:168"] = {
@@ -950,7 +950,7 @@ P.transport["quest:179"] = {
   fullHash = "25cb1a",
   text = "Dwarven Outfitters. In Coldridge Valley, Sten Stoutarm offers new recruits a bargain. Hunt wolves for their tough meat, and he provides sturdy gloves against Dun Morogh's cold. Cold reaches every path through Coldridge Valley. Outside Anvilmar, Sten Stoutarm asks new recruits to hunt wolves in the snowy drifts and bring their tough meat to the outpost. In return, he gives them gloves to guard their hands from the cold. Wolves threaten the dwarven scouts and young gnomes training in the valley. Yet they also feed the garrison at Anvilmar. Hunting them makes the paths between local encampments somewhat safer. Stoutarm's bargain tests recruits against local wildlife and adds food for the bitter nights ahead.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_179-3d9b82020e474a506d5d/1-0000.mp3", duration = 41.2212245, start = 0},
+    {file = "Audio/Transport/full_quest_179-32fc8a76f8ae871a160c/1-0000.mp3", duration = 42.24, start = 0},
   },
 }
 P.transport["quest:18"] = {
@@ -1142,7 +1142,7 @@ P.transport["quest:1961"] = {
   fullHash = "6dbdbc",
   text = "Gathering Materials. In the Undercity, Gathering Materials sends new Horde mages to Silverpine Forest for Dalaran mana gems. They need linen as well to make their first true mage's robes. Undercity initiates gather a bolt of simple linen and potent Dalaran mana gems for their first true robes. Those robes mark their station and personal worth. Anastasia Hartwell directs the novices to gather the raw materials for an enchanted weave. The mana gems cannot be bought or conjured. Dalaran mages are stationed across Silverpine Forest, especially near Ambermill, and the gems must be taken from them. Anastasia Hartwell says Dalaran's arcane philosophies mirror those of the Forsaken. Yet sentiment has no place in the Undercity. To the Forsaken, wizards too weak to defend their relics forfeit their treasures and their lives. Josef Gregorian is a tailor in the Undercity's Magic Quarter, where the gathered cloth and gems are brought. He lacks the magical talent to judge the pristine quality of Dalaran's enchanted stones. But he has the rare artisan skill to weave their raw power into the robes.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1961-738f2331eef7e4c2b69d/1-0000.mp3", duration = 66.3510204, start = 0},
+    {file = "Audio/Transport/full_quest_1961-3684970487ae132d0b15/1-0000.mp3", duration = 66.6644898, start = 0},
   },
 }
 P.transport["quest:1962"] = {
@@ -1374,7 +1374,7 @@ P.transport["quest:233"] = {
   fullHash = "86e0ca",
   text = "Coldridge Valley Mail Delivery. At Anvilmar, Sten Stoutarm sends you west with mail for scouts beyond the frozen lake. Snow and nearby troggs can cut off the valley's defenders, leaving important news undelivered. Mail from across Dun Morogh reaches Anvilmar by mountain pass, where winter couriers leave it to gather. Sten Stoutarm tends supplies and security, so recruits carry the bundles down the western road. Without your help, important messages remain in the hall. Talin Keeneye watches the frozen lake west of Anvilmar for trogg movements and dangerous wildlife. Even at a cold outpost, news from Ironforge and the surrounding camps matters. Harsh mountain conditions make sorting mail difficult, so letters for different scouts can end up together in one bundle.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_233-69cdd790846841c7a508/1-0000.mp3", duration = 45.4791837, start = 0},
+    {file = "Audio/Transport/full_quest_233-b815ad0b01407082d897/1-0000.mp3", duration = 45.0873469, start = 0},
   },
 }
 P.transport["quest:234"] = {
@@ -1382,7 +1382,7 @@ P.transport["quest:234"] = {
   fullHash = "3c5907",
   text = "Coldridge Valley Mail Delivery. In Coldridge Valley, a dispatch travels from Talin Keeneye's post to Grelin Whitebeard's camp. You carry it down the southeastern road, keeping the mountaineers in touch with Ironforge. Anvilmar is Coldridge Valley's center of rule. From there, field scouts and sentries carry dispatches along the trails between the high passes and Ironforge. Grelin Whitebeard keeps a small camp southeast of Talin Keeneye's post. Veteran mountaineers at these remote watchpoints face freezing drifts and steady trogg harassment. Regular letters keep them abreast of affairs across Dun Morogh and the kingdom beyond.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_234-e49a25c9e68dceaf3c23/1-0000.mp3", duration = 36.1534694, start = 0},
+    {file = "Audio/Transport/full_quest_234-9d56e13e2475277bac70/1-0000.mp3", duration = 36.4408163, start = 0},
   },
 }
 P.transport["quest:237"] = {
@@ -1670,7 +1670,7 @@ P.transport["quest:282"] = {
   fullHash = "671fda",
   text = "Senir's Observations. Grelin Whitebeard sends you east to Kharanos with his report for his brother Senir. Troggs have overrun the tunnel from Coldridge Valley, where Mountaineer Thalos guards the way. Grelin Whitebeard's report tells of Frostmane troll activity around Coldridge Valley. The trolls stole his journal, and you recovered it. Grelin judged the findings too important for an inexperienced apprentice to carry. So he entrusts the report to you, to deliver directly to his brother Senir in Kharanos. Troggs have overrun the eastern tunnel from Coldridge Valley into the rest of Dun Morogh. Mountaineer Thalos guards the entrance to keep civilians from danger. He lets travelers through only when they carry urgent official business.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_282-352284d7e466e6213a3e/1-0000.mp3", duration = 42.3444898, start = 0},
+    {file = "Audio/Transport/full_quest_282-6c8f3b3ce1c442e5bfe0/1-0000.mp3", duration = 42.2661224, start = 0},
   },
 }
 P.transport["quest:287"] = {
@@ -1686,7 +1686,7 @@ P.transport["quest:291"] = {
   fullHash = "9b5a0d",
   text = "The Reports. From Kharanos, Senir Whitebeard sends word to Senator Barin Redstone in Ironforge about the Frostmane threat to Dun Morogh. He asks you to leave his scout unnamed. The report carries news from deep inside Frostmane Hold, where the trolls threaten Dun Morogh. Senir wants you to take it straight to Barin Redstone and keep the scout from the snowy crags unnamed.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_291-6ddc4d6582a7f6a76fd5/1-0000.mp3", duration = 23.1967347, start = 0},
+    {file = "Audio/Transport/full_quest_291-3683a7aa6b185f7551ae/1-0000.mp3", duration = 22.7004082, start = 0},
   },
 }
 P.transport["quest:2948"] = {
@@ -2354,11 +2354,11 @@ P.transport["quest:365"] = {
   },
 }
 P.transport["quest:366"] = {
-  hash = "a34878",
-  fullHash = "a34878",
-  text = "Return the Book. Bethor Iceshard sends an enchanted message to Gunther Arcanus on Brightwater Lake. The stolen spellbook may draw his old Kirin Tor companion toward the Forsaken. Bethor Iceshard sends a message to Gunther Arcanus through a stolen spellbook. Learning that the necromancer on Brightwater Lake is his old companion, Bethor enchants its pages. His magic leaves a mark on the tome. It shows Gunther that Bethor is active in Lordaeron and free of the Lich King's control. Before the Third War devastated Lordaeron, Bethor Iceshard, Gunther Arcanus, and Thule Ravenclaw studied together in the Kirin Tor of Dalaran and became friends. When the Lich King rose, Thule betrayed them and joined the Scourge willingly. Bethor and Gunther fell to the Plague. Bethor later broke free alongside Queen Sylvanas.\n\nBethor believed Gunther dead or enslaved. Now he learns his old friend has won his freedom too, and seeks to bring him into the Forsaken fold.",
+  hash = "e9e07c",
+  fullHash = "e9e07c",
+  text = "Return the Book. Bethor Iceshard sends an enchanted message to Gunther Arcanus on Brightwater Lake. The stolen spellbook may draw his old Kirin Tor companion toward the Forsaken. The spellbook you took from Gunther Arcanus goes back to him, but it is no longer plain. Learning that the necromancer on Brightwater Lake is his old companion, Bethor enchants its pages. His magic leaves a mark on the tome. It shows Gunther that Bethor is active in Lordaeron and free of the Lich King's control. Before the Third War devastated Lordaeron, Bethor Iceshard, Gunther Arcanus, and Thule Ravenclaw studied together in the Kirin Tor of Dalaran and became friends. When the Lich King rose, Thule betrayed them and joined the Scourge willingly. Bethor and Gunther fell to the Plague. Bethor later broke free alongside Queen Sylvanas.\n\nBethor believed Gunther dead or enslaved. Now he learns his old friend has won his freedom too, and seeks to bring him into the Forsaken fold.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_366-b5ea9feaa0a65536c3e2/1-0000.mp3", duration = 59.7681633, start = 0},
+    {file = "Audio/Transport/full_quest_366-1ff8d6ecf5a75b319be4/1-0000.mp3", duration = 60.2644898, start = 0},
   },
 }
 P.transport["quest:367"] = {
@@ -2954,11 +2954,11 @@ P.transport["quest:445"] = {
   },
 }
 P.transport["quest:446"] = {
-  hash = "0b1cf8",
-  fullHash = "0b1cf8",
-  text = "Thule Ravenclaw. At the Undercity, a courier brings Bethor Iceshard strange Rot Hide ichor. Bethor recognizes the work of Thule Ravenclaw, his traitorous former colleague, and prepares counter-incantations to help the Forsaken resist the gnolls. In the Undercity’s Magic Quarter, Bethor Iceshard recognizes an arcane mark in a courier’s sample of Rot Hide ichor. Thule Ravenclaw made the distillation. Before the Third War, Thule was a bright young mage and Bethor’s colleague. When the Lich King rose to power, Thule betrayed his peers and swore himself to the Scourge. As Lordaeron fell, he abandoned his humanity.",
+  hash = "267a4e",
+  fullHash = "267a4e",
+  text = "Thule Ravenclaw. At the Undercity, a courier brings Bethor Iceshard strange Rot Hide ichor. Bethor recognizes the work of Thule Ravenclaw, his traitorous former colleague, and prepares counter-incantations to help the Forsaken resist the gnolls. Bethor Iceshard studies the courier’s sample in the Undercity’s Magic Quarter and finds an arcane mark. Thule Ravenclaw made the distillation. Before the Third War, Thule was a bright young mage and Bethor’s colleague. When the Lich King rose to power, Thule betrayed his peers and swore himself to the Scourge. As Lordaeron fell, he abandoned his humanity.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_446-af6a9682c127d0d60cf0/1-0000.mp3", duration = 37.7730612, start = 0},
+    {file = "Audio/Transport/full_quest_446-10284e8c2e2199a1b82a/1-0000.mp3", duration = 36.4669388, start = 0},
   },
 }
 P.transport["quest:447"] = {
@@ -3094,7 +3094,7 @@ P.transport["quest:460"] = {
   fullHash = "5ac568",
   text = "Resting in Pieces. On Fenris Isle, Alaric's severed head calls for help from beyond the grave. He asks you to carry it across Fenris Keep to an unmarked grave near the stables, where his body lies. At Fenris Keep in Silverpine Forest, Alaric served Thule Ravenclaw as chief servant and personal bodyguard. Thule was a powerful mage aligned with the Scourge. When the Plague of Undeath swept through the region, he promised his sorcery would shield Alaric. Instead, the ward trapped him in endless agony and undeath, while his awareness remained in his severed parts. Thule made the rot hide gnolls by infecting local packs with necromantic decay. Then he turned on his own bodyguard. He cut off Alaric's head and threw it to the savage gnolls as a diversion. The rot hides dragged Alaric's body to a shallow grave they had hastily dug outside the keep's stables. They kept his speaking head as a grim plaything until an outsider intervened.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_460-3517b52991ba5cdeaad4/1-0000.mp3", duration = 56.9208163, start = 0},
+    {file = "Audio/Transport/full_quest_460-bc7f55756f4924229f3c/1-0000.mp3", duration = 57.9657143, start = 0},
   },
 }
 P.transport["quest:461"] = {
@@ -3102,7 +3102,7 @@ P.transport["quest:461"] = {
   fullHash = "34ab5e",
   text = "The Hidden Niche. In Fenris Keep, Alaric's memories guide you toward a hidden alcove. His remains point to a place of rest, and an old relic waits there. Alaric remembers Fenris Keep in its better days. Horde scouts lifted his bones from a shallow grave outside the stronghold, but he will not go quietly to the Sepulcher. He offers vital knowledge in return: a hidden niche in the keep's southwestern tower holds an item treasured by Thule Ravenclaw and his fellow mages.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_461-17b159b9967775b188a5/1-0000.mp3", duration = 27.1934694, start = 0},
+    {file = "Audio/Transport/full_quest_461-e24b0120c49da7820411/1-0000.mp3", duration = 27.6636735, start = 0},
   },
 }
 P.transport["quest:4681"] = {
@@ -3262,7 +3262,7 @@ P.transport["quest:479"] = {
   fullHash = "3b0961",
   text = "Ambermill Investigations. At Ambermill, Dalaran wizards weave magic that threatens the Forsaken’s hold on Silverpine Forest. From the Sepulcher, Shadow Priest Allister sends agents to disrupt their work and seize the magical foci. Ambermill lies in the eastern hills of Silverpine Forest. Its human residents are wizards and defenders pledged to the Kirin Tor of Dalaran. The mages weave powerful magic in a vast ritual. At the Sepulcher, Shadow Priest Allister and his companion Dalar see the danger. If the Kirin Tor channel their power unchecked, the Forsaken risk losing Silverpine entirely. As Dalar scries the forest and traces the magic, Allister sends agents against the practitioners in Ambermill. Dalaran conjurers, mages, and their protectors wear enchanted pendants that focus and coordinate their arts. Take the talismans from slain sorcerers, and the ritual falters. This buys the Sepulcher time to find the ringleader directing the arcane weave.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_479-4ad051e0cc4774cba12e/1-0000.mp3", duration = 56.7379592, start = 0},
+    {file = "Audio/Transport/full_quest_479-0ddc24d09701f0ace027/1-0000.mp3", duration = 59.8987755, start = 0},
   },
 }
 P.transport["quest:481"] = {
@@ -3270,7 +3270,7 @@ P.transport["quest:481"] = {
   fullHash = "adffce",
   text = "Dalar's Analysis. In Silverpine, Allister's report sends a Dalaran relic to Dalar for study. A rune-inscribed pendant taken from a supply crate reaches Dalar Dawnweaver at the Sepulcher. The relic shows that Dalaran's surviving mages are gathering great magical power for a hidden purpose. A supply crate from Dalaran is raided at a camp north of Pyrewood Village. Beneath old maps, Shadow Priest Allister finds a rune-inscribed pendant. Its enchantment is beyond his spiritual knowledge, so he sends it to Dalar Dawnweaver at the Sepulcher. Dalar's skill as an arcane scholar makes him better suited to read Dalaran's magical warding.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_481-009056f488dab8ac7ffa/1-0000.mp3", duration = 38.164898, start = 0},
+    {file = "Audio/Transport/full_quest_481-015f9670171b7ac7c21e/1-0000.mp3", duration = 37.7730612, start = 0},
   },
 }
 P.transport["quest:4811"] = {
@@ -3350,7 +3350,7 @@ P.transport["quest:491"] = {
   fullHash = "eb8bc2",
   text = "Wand to Bethor. At Fenris Keep, the Woven Wand is bound for Bethor Iceshard in the Undercity. Three apprentice mages made it as a sign of fellowship, but Thule Ravenclaw hid it after choosing the Scourge. Its return brings a piece of Bethor's mortal youth back to the Magic Quarter. Before Lordaeron fell, three young mages joined their training wands into one: the Woven Wand. It marked their friendship and their shared hopes in the magical arts.\n\nThen Thule Ravenclaw gave his loyalty to the Lich King and embraced the Scourge. Their fellowship was broken. He came to despise the friendship they had shared, yet could neither destroy the wand nor leave it with his former companions.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_491-a27befb4df8ff60b3949/1-0000.mp3", duration = 40.9338776, start = 0},
+    {file = "Audio/Transport/full_quest_491-ad92e38a39acfb558b9e/1-0000.mp3", duration = 41.4563265, start = 0},
   },
 }
 P.transport["quest:492"] = {

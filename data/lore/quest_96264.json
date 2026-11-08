@@ -1,0 +1,96 @@
+{
+ "key": "quest:96264",
+ "type": "quest",
+ "name": "Elemental Aid",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96264
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A shaman is asked to investigate the quilboar gathering in Razorfen Kraul. The earth warns of a ritual, and the elements need aid against those who abuse their power.",
+ "sections": [
+  {
+   "title": "The Earth\u2019s Warning",
+   "body": "A shaman in Razorfen Kraul faces a warning carried by the earth: the quilboar are gathering for a ritual of terrible power. Your task is to investigate their kraul and return with information on their plans. The elements lend you their aid, and now they need yours.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the earth warn about?",
+   "aliases": [
+    "earth warning",
+    "what's rumbling",
+    "quilboar ritual"
+   ],
+   "answer": "The earth warns that the quilboar are gathering for a ritual of terrible power."
+  },
+  {
+   "q": "Where are the quilboar gathering?",
+   "aliases": [
+    "where to investigate",
+    "quilboar location",
+    "kraul location"
+   ],
+   "answer": "The quilboar are gathering in Razorfen Kraul."
+  },
+  {
+   "q": "Why does the shaman need to help the elements?",
+   "aliases": [
+    "help the elements",
+    "elemental aid reason",
+    "why aid elements"
+   ],
+   "answer": "The elements help the shaman, and the shaman is asked to repay that aid by helping them against those who abuse their power."
+  },
+  {
+   "q": "What information is needed?",
+   "aliases": [
+    "what to find",
+    "quilboar plans",
+    "information needed"
+   ],
+   "answer": "You are asked to investigate Razorfen Kraul and bring back information on the quilboar's plans."
+  },
+  {
+   "q": "Who gives the request?",
+   "aliases": [
+    "who asks",
+    "quest giver",
+    "who needs help"
+   ],
+   "answer": "The request comes from a speaker who calls you a shaman and says the elements need help."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "As a shaman, you have mastered the elements, and this request calls on you to repay their aid."
+  }
+ ],
+ "keywords": [
+  "charlga razorflank",
+  "earth",
+  "elemental aid",
+  "elements",
+  "quilboar",
+  "razorfen kraul",
+  "ritual",
+  "shaman"
+ ],
+ "related": [
+  "zone:razorfenkraul",
+  "npc:charlga-razorflank",
+  "topic:quilboar",
+  "topic:razorfen",
+  "topic:shaman"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Elemental Aid"
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "key": "quest:94822",
+ "type": "quest",
+ "name": "Confounding Flash",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94822
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Your superiors send you to Ironforge to continue your training with High Priestess Mims. Your service to the Light has earned their notice.",
+ "sections": [
+  {
+   "title": "A Further Lesson",
+   "body": "Your superiors send you to High Priestess Mims in Ironforge's Hall of Mysteries. They judge that your service has prepared you for more training. Mims is to guide you, and the lesson awaits your arrival.",
+   "spoiler": 0
+  },
+  {
+   "title": "Before Mims",
+   "body": "High Priestess Mims receives you in Ironforge and notes your late arrival. She excuses the delay in light of your service to the Light, then asks you to heed her lesson.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sent me to Ironforge?",
+   "aliases": [
+    "who sent me",
+    "who are my superiors"
+   ],
+   "answer": "Your superiors asked you to travel to the Hall of Mysteries in Ironforge for further training."
+  },
+  {
+   "q": "Who is High Priestess Mims?",
+   "aliases": [
+    "who is mims",
+    "mims"
+   ],
+   "answer": "High Priestess Mims is the one your superiors direct you to find in Ironforge. She can guide your further training."
+  },
+  {
+   "q": "Why am I being sent for training?",
+   "aliases": [
+    "why training",
+    "why me"
+   ],
+   "answer": "Your superiors believe you have proven yourself through your service to the Light."
+  },
+  {
+   "q": "Where do I find High Priestess Mims?",
+   "aliases": [
+    "where is mims",
+    "hall of mysteries"
+   ],
+   "answer": "Find High Priestess Mims in the Hall of Mysteries in Ironforge."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "confounding flash",
+  "hall of mysteries",
+  "high priestess mims",
+  "ironforge",
+  "light",
+  "superiors",
+  "training"
+ ],
+ "related": [
+  "zone:ironforge",
+  "subzone:hall-of-mysteries",
+  "topic:light"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Confounding Flash"
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "key": "quest:98823",
+ "type": "quest",
+ "name": "Earthen Echo",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98823
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The Earthen Ring asks you to bring a strange Titan Relic to Muln Earthfury in northwest Mulgore. Its carvings may hold wisdom about buried ruins and forgotten lands.",
+ "sections": [
+  {
+   "title": "A Relic for the Elders",
+   "body": "An unnamed observer sees the Titan Relic as more than a carving and urges you to take it to Muln Earthfury. You can find him with the Earthen Ring council at Skywatcher Plateau in northwest Mulgore. The elders may study it, for its meaning could touch buried ruins and forgotten lands.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Shard's Memory",
+   "body": "At Skywatcher Plateau, Muln Earthfury finds that the shard carries a voice like the world's own. Light within it holds memories and flashes of history. The Earthen Ring will guard and study the titan machine, then share what it reveals when they can understand its messages.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who should I bring the Titan Relic to?",
+   "aliases": [
+    "who gets the relic",
+    "Muln Earthfury relic",
+    "where to take titan relic"
+   ],
+   "answer": "Bring the Titan Relic to Muln Earthfury, who is with the Earthen Ring council at Skywatcher Plateau in northwest Mulgore."
+  },
+  {
+   "q": "Why does the relic matter?",
+   "aliases": [
+    "what is this relic",
+    "titan relic meaning",
+    "weird carving"
+   ],
+   "answer": "It appears to be more than a carving, and the Earthen Ring may find wisdom in it about buried ruins and forgotten lands."
+  },
+  {
+   "q": "Where is Muln Earthfury?",
+   "aliases": [
+    "Muln location",
+    "skywatcher plateau",
+    "where is earthen ring"
+   ],
+   "answer": "Muln Earthfury and the other Earthen Ring elders are at Skywatcher Plateau in northwest Mulgore."
+  },
+  {
+   "q": "What will the Earthen Ring do with the relic?",
+   "aliases": [
+    "what happens to shard",
+    "earthen ring study",
+    "relic after delivery"
+   ],
+   "answer": "The Earthen Ring will safeguard and study the relic, and share its messages when they are able to understand them."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "earthen echo",
+  "earthen ring",
+  "mulgore",
+  "muln earthfury",
+  "shard",
+  "skywatcher plateau",
+  "titan machine",
+  "titan relic"
+ ],
+ "related": [
+  "quest:95349",
+  "zone:mulgore",
+  "topic:titan"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Earthen Echo"
+ ]
+}

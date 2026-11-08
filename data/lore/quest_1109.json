@@ -1,0 +1,81 @@
+{
+ "key": "quest:1109",
+ "type": "quest",
+ "name": "Going, Going, Guano!",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1109
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Master Apothecary Faranell seeks guano from the Kraul Bats of Razorfen Kraul. The Royal Apothecary Society needs it for its experiments.",
+ "sections": [
+  {
+   "title": "A Rare Substance",
+   "body": "Master Apothecary Faranell oversees the Royal Apothecary Society\u2019s alchemical work in the Undercity. He needs guano from Kraul Bats, a rare species found in Razorfen Kraul. You are asked to bring him a pile so the Society can begin its work.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who needs Kraul Guano?",
+   "aliases": [
+    "who wants guano",
+    "faranell guano",
+    "apothecary guy"
+   ],
+   "answer": "Master Apothecary Faranell of the Royal Apothecary Society needs it for the Society\u2019s work."
+  },
+  {
+   "q": "Where do Kraul Bats live?",
+   "aliases": [
+    "kraul bats location",
+    "where bats",
+    "bat guano"
+   ],
+   "answer": "Kraul Bats are found in Razorfen Kraul."
+  },
+  {
+   "q": "What is Kraul Guano for?",
+   "aliases": [
+    "why guano",
+    "what's guano for",
+    "apothecary experiments"
+   ],
+   "answer": "Faranell needs it so the Royal Apothecary Society can begin its alchemical work."
+  },
+  {
+   "q": "Where do I bring the guano?",
+   "aliases": [
+    "where bring guano",
+    "deliver guano",
+    "faranell location"
+   ],
+   "answer": "Bring the pile of Kraul Guano to Master Apothecary Faranell in the Undercity."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "going going guano",
+  "kraul bats",
+  "kraul guano",
+  "master apothecary faranell",
+  "razorfen kraul",
+  "royal apothecary society",
+  "undercity"
+ ],
+ "related": [
+  "zone:undercity",
+  "zone:razorfenkraul",
+  "npc:master-apothecary-faranell",
+  "topic:royal-apothecary-society",
+  "topic:razorfen"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Going, Going, Guano!"
+ ]
+}

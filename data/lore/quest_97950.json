@@ -1,0 +1,96 @@
+{
+ "key": "quest:97950",
+ "type": "quest",
+ "name": "Camping 101: Tailoring",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97950
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A tailor can learn to make a Rallying Banner for a camp. Trianna in Darnassus teaches the pattern once you have shown skill in tailoring.",
+ "sections": [
+  {
+   "title": "A Banner for Camp",
+   "body": "Someone who values tailoring points you to Trianna in Darnassus. She can teach you to craft a Faction Banner for your camp once you have shown proficiency in tailoring. A banner can lift inspiration and morale on a battlefield, and the craft is within reach for a skilled tailor.",
+   "spoiler": 0
+  },
+  {
+   "title": "Setting Up Camp",
+   "body": "With Trianna's teaching, you can craft a Rallying Banner. To try it out, find a place in the wilderness, since most folk dislike camps in the middle of town. Bring a campfire too; a cook can teach you how to make one.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who teaches tailoring a camp banner?",
+   "aliases": [
+    "tailor banner teacher",
+    "Trianna tailoring",
+    "camp banner trainer"
+   ],
+   "answer": "Trianna in Darnassus can teach you to craft a Faction Banner for your camp after you show proficiency in tailoring."
+  },
+  {
+   "q": "What can a tailor make for a camp?",
+   "aliases": [
+    "tailor camp item",
+    "tailoring camp craft",
+    "what banner tailoring"
+   ],
+   "answer": "A skilled tailor can learn to craft a Rallying Banner for a camp."
+  },
+  {
+   "q": "Why make a Rallying Banner?",
+   "aliases": [
+    "banner purpose",
+    "rallying banner why",
+    "banner morale"
+   ],
+   "answer": "An inspirational banner can help keep you energized, and inspiration and morale matter on a battlefield."
+  },
+  {
+   "q": "Where can I test my camp setup?",
+   "aliases": [
+    "where test banner",
+    "camping place",
+    "banner test location"
+   ],
+   "answer": "The completion advice is to try the banner in the wilderness, since most folk dislike camps in the center of town."
+  },
+  {
+   "q": "Do I need a campfire?",
+   "aliases": [
+    "campfire for camp",
+    "fire needed",
+    "how make campfire"
+   ],
+   "answer": "A camp needs a campfire, and most cooks can teach you to make one."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "As a tailor, you can learn to craft a Rallying Banner for your camp after showing proficiency in your skill."
+  }
+ ],
+ "keywords": [
+  "campfire",
+  "camping",
+  "darnassus",
+  "faction banner",
+  "rallying banner",
+  "tailoring",
+  "trianna"
+ ],
+ "related": [
+  "zone:darnassus"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Camping 101: Tailoring"
+ ]
+}

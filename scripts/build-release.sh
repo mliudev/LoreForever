@@ -99,6 +99,12 @@ RELEASE_PACKS = ["LoreForever_Lang_deDE", "LoreForever_Lang_esES", "LoreForever_
                  "LoreForever_Voice_Default_MorePeople_frFR", "LoreForever_Voice_Female_MorePeople_frFR",
                  "LoreForever_Voice_Default_frFR", "LoreForever_Voice_Female_frFR",
                  "LoreForever_Voice_Default_itIT", "LoreForever_Voice_Female_itIT",
+                 "LoreForever_Voice_Default_zhCN", "LoreForever_Voice_Female_zhCN",   # Chinese, in six parts (LOR-1318)
+                 "LoreForever_Voice_Default_MorePeople_zhCN", "LoreForever_Voice_Female_MorePeople_zhCN",
+                 "LoreForever_Voice_Default_MoreItems_zhCN", "LoreForever_Voice_Female_MoreItems_zhCN",
+                 "LoreForever_Voice_Default_MoreQuests1_zhCN", "LoreForever_Voice_Female_MoreQuests1_zhCN",
+                 "LoreForever_Voice_Default_MoreQuests2_zhCN", "LoreForever_Voice_Female_MoreQuests2_zhCN",
+                 "LoreForever_Voice_Default_MoreQuests3_zhCN", "LoreForever_Voice_Female_MoreQuests3_zhCN",
                  "LoreForever_Voice_Default_Quests_deDE", "LoreForever_Voice_Female_Quests_deDE",
                  "LoreForever_Voice_Default_Quests_esES", "LoreForever_Voice_Female_Quests_esES",
                  "LoreForever_Voice_Default_Quests_frFR", "LoreForever_Voice_Female_Quests_frFR",

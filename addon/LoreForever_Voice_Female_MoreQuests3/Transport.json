@@ -575,9 +575,9 @@
     "quest:1192": {
       "1": [
         {
-          "duration": 32.496326530612244,
-          "file": "Audio/Transport/full_quest_1192-e737cd693d9991b10865/1-0000.mp3",
-          "sha256": "07f626fb8711cdc60e6ce9e9f28ac06ef9accb6f6466883dd00d1d07729717ba",
+          "duration": 31.84326530612245,
+          "file": "Audio/Transport/full_quest_1192-acb1413affcf36fbcaf6/1-0000.mp3",
+          "sha256": "f5c83f9963697b27903fa6bfc82589df839b1b9fefcb8a32730f93faab09457b",
           "start": 0
         }
       ],
@@ -589,21 +589,21 @@
         ]
       },
       "fullHash": "5fa4a2",
-      "generation": "714a98991bf97e1161f7",
+      "generation": "e5b2c373af02eaea48ef",
       "hash": "5fa4a2",
       "source": {
-        "duration": 32.522449,
+        "duration": 31.869388,
         "file": null,
-        "sha256": "e737cd693d9991b1086528bd83d27200ebc54896cded867df03d4118b61dc90d"
+        "sha256": "acb1413affcf36fbcaf690646b6828b77ed33cfafaba7bd2c28cf110d4c38a5e"
       },
       "text": "Indurium Ore. Pozzik needs Indurium Ore to build several parts for the racers. The ore lies at the Uldaman dig in the Badlands, across the sea in Khaz Modan. Gnomes are already gathering their own supply, and Pozzik wants to keep pace. Pozzik asks you to bring him four pieces of raw Indurium Ore. You can find it at the Uldaman dig in the Badlands, across the sea in Khaz Modan. Gnomes are already gathering their own supply, and Pozzik wants some too. This comes after Rizzle's Schematics."
     },
     "quest:1194": {
       "1": [
         {
-          "duration": 34.142040816326535,
-          "file": "Audio/Transport/full_quest_1194-06ecb849a18f86bf7b3d/1-0000.mp3",
-          "sha256": "d1900080d4258e439c73bfec7d4fda3d831be22d572b569529726ca2f01c95af",
+          "duration": 32.626938775510204,
+          "file": "Audio/Transport/full_quest_1194-336f2fa4ee697cff58be/1-0000.mp3",
+          "sha256": "16d1510d4c0e3737c6252d6a439480327f1b7b309b9b1b87c0fe919b50cbf2f6",
           "start": 0
         }
       ],
@@ -615,12 +615,12 @@
         ]
       },
       "fullHash": "a74e49",
-      "generation": "311171bbe05f3dddfa23",
+      "generation": "f37e33ecb565b70043c3",
       "hash": "a74e49",
       "source": {
-        "duration": 34.168163,
+        "duration": 32.653061,
         "file": null,
-        "sha256": "06ecb849a18f86bf7b3d51dba38a6d692f498457bc903a298302839801a65655"
+        "sha256": "336f2fa4ee697cff58bebfb4c4f01d913a884debf8ad7e6e425c6ade4322c7b4"
       },
       "text": "Rizzle's Schematics. After Keeping Pace, you carry a raw indurium sample to Pozzik on the Shimmering Flats. Rizzle's plans lie beneath the ore, and his notes trace it to the dwarves' dig at Uldaman in the Badlands. They also describe how well indurium resists heat. Rizzle's plans explain how to refine indurium ore. Scrawled notes trace its source to the dwarves' dig at Uldaman in the Badlands. Other notes describe the ore's resistance to heat. A lump of raw indurium holds the plans down, and you take the sample to Pozzik."
     },
@@ -3721,9 +3721,9 @@
     "quest:3124": {
       "1": [
         {
-          "duration": 33.30612244897959,
-          "file": "Audio/Transport/full_quest_3124-aafa6a9d975c5a202bd0/1-0000.mp3",
-          "sha256": "6b084dfcd03f8bf9d8166ed283e7c7b5102c7f553a482489accbe3a9cac78204",
+          "duration": 32.91428571428572,
+          "file": "Audio/Transport/full_quest_3124-0bea908b9046317a0438/1-0000.mp3",
+          "sha256": "5ac6de46e236bc9821bf2849a78847b40adbd2bebe577163d6784c4bc167e3dc",
           "start": 0
         }
       ],
@@ -3735,12 +3735,12 @@
         ]
       },
       "fullHash": "5a39b4",
-      "generation": "0d4cbe9903f94372310e",
+      "generation": "fda5eb7697818250557d",
       "hash": "5a39b4",
       "source": {
-        "duration": 33.332245,
+        "duration": 32.940408,
         "file": null,
-        "sha256": "aafa6a9d975c5a202bd021303fa2035f05c22db8c258ac58b19a486ba947e5fa"
+        "sha256": "0bea908b9046317a04387b93d228db182c7d3f532480b89aa97fdba7788625ed"
       },
       "text": "Hippogryph Muisek. In the High Wilderness, Frayfeather hippogryphs carry spirits Uzer'i wants you to capture. Their muisek can escape unless you act quickly. Witch Doctor Uzer'i trusts you with the vessel and asks you to capture another creature's spirit. Hippogryphs have long been companions to the night elves, and their spirits are loyal and steadfast. You need ten Frayfeather hippogryphs of any kind. Kill each one, then quickly shrink and capture it with the vessel to preserve its muisek. Uzer'i places them in the High Wilderness, south of the camp."
     },
@@ -10012,6 +10012,10 @@
       1040,
       1271
     ],
+    "0194240061024f6d158f359ac9b496712a85c874ea03472b502b47a3a44a6662": [
+      241,
+      637
+    ],
     "0301d5a491270bfe381c697045722783bf013bfc78a10ac965c8689a5e9d30a0": [
       197,
       445,
@@ -10075,16 +10079,13 @@
     "06dbc302bec3e92c47ef5cc48b310143be48d50464f19a7bae26766aebcfe5ce": [
       571
     ],
+    "07b21e4648110608c61a3fd9b48bfd8cb2880735da6f8ce23c0b56a19eaaf544": [
+      365,
+      754
+    ],
     "07b6c5668205110a36bf2af4a2b4a74e1d113dbbede5ab37d830f9d52a579f41": [
       370,
       783
-    ],
-    "07f626fb8711cdc60e6ce9e9f28ac06ef9accb6f6466883dd00d1d07729717ba": [
-      169,
-      387,
-      582,
-      740,
-      961
     ],
     "07f8554f50f3fe3500faa827357677f691e597e2580054c8e4db8dfdc16ff765": [
       200,
@@ -10148,6 +10149,10 @@
     ],
     "0d4110d25c393d435b49162c64617930d7bc622b0913568de42590e94eef88a9": [
       565
+    ],
+    "0d9a3711e9b8f3ace37c37b53a4b145ff895d9bf30da3c5f983043126dc2dbff": [
+      429,
+      935
     ],
     "0e25303081c8bb93e8da780771b2a0af6d63e9b5a39f16d63ddd1f4db494e6fb": [
       238,
@@ -10263,6 +10268,9 @@
     "14827cfe3d18c7ce39bd2783e535f36656b2c61c371f8621a43b447fd3c1b82a": [
       373
     ],
+    "1484ec8a6fd2706272271ad4da25c7ad2f880e6070bb273edd19c480687eeb2b": [
+      615
+    ],
     "15757f98b4ec5c04ad901027482c052043512b91b782e32745ac79574ce5b2c7": [
       205,
       516
@@ -10309,6 +10317,13 @@
       332,
       596
     ],
+    "16d1510d4c0e3737c6252d6a439480327f1b7b309b9b1b87c0fe919b50cbf2f6": [
+      221,
+      476,
+      618,
+      759,
+      945
+    ],
     "16fd2e36da8b83618ec10d1f177d4197441bb25a617bfc38fec138680fe8a054": [
       222,
       473,
@@ -10337,6 +10352,13 @@
       845,
       1130
     ],
+    "17d0e5b7832a31c9d9a2a6eb45086393438416ef1f0388adbe976711925573df": [
+      282,
+      623
+    ],
+    "1809916ec8b8989828c05557452e56ee997fa92b5a675682afff0593198b74fc": [
+      584
+    ],
     "188df59f67accf395dcc09a7b91d240099c162772766021f08f76a8a0fbd808f": [
       286,
       524,
@@ -10355,11 +10377,19 @@
       199,
       400
     ],
+    "19cf709000eb8e450d7784bbe9cbe9bd9dba25b013ffc340968c83b172dc1628": [
+      427,
+      724
+    ],
     "19f09e9a264b18faeb8cf63ff0b6cc7ab7a7b7567d948c1069a9abc411830a3b": [
       205,
       390,
       574,
       815
+    ],
+    "1a58a94693030fc059e18f3ade65c5afa7836a3e939de0d801f29b7c371d9fc1": [
+      268,
+      894
     ],
     "1a93520187fa3260a1ffc6c8b2a91fd661307efd96d1de5ae825b841d526ca37": [
       254,
@@ -10541,6 +10571,9 @@
     "26eeac8afbbf403e7ed46fec94ee609c410bb00bfa23d8e7b9074ae0845e0b4c": [
       270
     ],
+    "274469907a03b9aec0abf43481160bc6f576d87c98f5299c02d7ae33314e2c8a": [
+      595
+    ],
     "2794defc707c7c2fbb3e22e15b6c92ed2908b4ede335d118c557c183de887347": [
       468
     ],
@@ -10568,6 +10601,9 @@
       683,
       971
     ],
+    "2ba048c158d64eaa710c2cb7980171fcd0b47e4f3c184d9c2189e097e5e6eab9": [
+      709
+    ],
     "2bcff1e630958b45bce523507a34f631a23090a7e4d409cfa2861c348e7758aa": [
       497
     ],
@@ -10590,6 +10626,14 @@
     "2c5511fa659cf57be957c918df4d38ac201046ac5c638f21c770d7934ad1ad40": [
       327,
       761
+    ],
+    "2cb3cb68ec79991aed0e40faea57f4b541127d42590fce8eaf42e10a30c7631f": [
+      340,
+      716
+    ],
+    "2da11a20b22930f24658de71cd73aaa2f8095001a683906269c785b38fe8cb2b": [
+      407,
+      715
     ],
     "2ed479498973638d02ac0c7c29f057960cb253a00876cc327af213a268c00c34": [
       234,
@@ -10640,6 +10684,10 @@
       331,
       685
     ],
+    "32c1d94600625db9efe072ac92e1dda57cb6f7238e83154a0b2c44c308a36aa7": [
+      358,
+      614
+    ],
     "32dd5c670ea1cfe28d4a96b05d0ee72f29232d194320a555c949cafa47603323": [
       157,
       479,
@@ -10651,6 +10699,10 @@
     "3303d9b3a073e993768a40efd7849c9e94e37a7379aabb57a03434cb1a7696ef": [
       339,
       826
+    ],
+    "34136379efa0c6c01462bd0563ea35379de15ea3754eb45f8a3bbf1c6c203ea6": [
+      364,
+      710
     ],
     "3462cc095be9e199968c55588a38f74c7b6993e2b3867cc314a55a2dddafd346": [
       221,
@@ -10707,6 +10759,13 @@
       627,
       917
     ],
+    "36aed2d5d9b2d89e67b6a640a7a02d122f974d248d943762c97f8a47bb2dbb5a": [
+      551
+    ],
+    "36beed2d95c93941ad3dfb950769d0680f8c4acc8e933696fcf4af5d41b27dc2": [
+      454,
+      832
+    ],
     "37714fa1948d3f3c9605e637ef3f3a544daedd3a36788f64632423a5d653d5b7": [
       621
     ],
@@ -10751,6 +10810,10 @@
       758,
       992
     ],
+    "3ac197b0f06d99c388a884bbcbaf41773f75868a9c8d13249093fe8d27b34424": [
+      246,
+      603
+    ],
     "3b3c9af6d98071f7f517e26d73ff8bfd6ce162a17ae4c020359e24b377ea310d": [
       362
     ],
@@ -10793,12 +10856,19 @@
       250,
       536
     ],
+    "3f17089afcfea036964bbc22182118eef0aa208e2a1364fad7e1f9610659ffa5": [
+      579
+    ],
     "3fa099cd5940b9763bae82dbff26d08afaf4d1ccd8b3877f4328b3de8efaab04": [
       188,
       348,
       515,
       710,
       929
+    ],
+    "3fff1352b79146b06cb7829b811be32ed9ea2dcf7be4009a8295dcbcdaff1e8d": [
+      432,
+      747
     ],
     "405bb9bfaf3cdc3e042b93beec7e47d51d729543abddce959477c1d6c561168f": [
       147,
@@ -10929,6 +10999,10 @@
       363,
       574
     ],
+    "45725064e9549fecbd734b9cce992fd6587fbed514ac698355d8f1679b09d395": [
+      357,
+      612
+    ],
     "45e88ac0a031b48cb82b5617ec1d4f8f0a968c0cbaf228e1a3ab0dc9653b115f": [
       248,
       448,
@@ -10939,6 +11013,9 @@
     "46dc1926bbabd42ec4416c82d5b0ec951ca97fa79915e751a04514cb9ee9bf1c": [
       463,
       803
+    ],
+    "471be08dee39a386fe1bfb9a49eef651d32bcf8a00c97f4cd3f9d4f528fcf5d8": [
+      607
     ],
     "4720c3929de30dff068cd3661c524c61644a3939463d435f3bdb4a13b2de4dd1": [
       543
@@ -10994,6 +11071,9 @@
       294,
       607
     ],
+    "4c157a1c4b40c6cee9c804ff740e442d8ac2d6b78b528b3b9fc6744ef319b8ac": [
+      671
+    ],
     "4c73bd6564781462570e8207209d2e5289e4dbbb9ee96aca7443f54762b15524": [
       356,
       1032
@@ -11020,6 +11100,10 @@
       773,
       941
     ],
+    "4f4c0203c9f350bd3536a25669eb7ba886a49a169abaa49bf5d04e5d6084d2a4": [
+      374,
+      903
+    ],
     "4fa88f234ef31d22bcf16a84e0657678d4d6d59d716f81dce5e0ef3bb3e8a808": [
       733
     ],
@@ -11042,6 +11126,10 @@
       599,
       797,
       966
+    ],
+    "50bb850a80c35ae3e32820a7cdf22a21ff92012f84e0f1cf083f5aaffbf33123": [
+      360,
+      671
     ],
     "5207fbf35c74be0078fa0b665095c8bdcd613d1d685ce93f4f9860d07facdda6": [
       354,
@@ -11080,6 +11168,9 @@
       407,
       614
     ],
+    "538161828711be91c430fc1d290661f705dc2d489fbc1e856eee52325e262b7c": [
+      422
+    ],
     "53d44ccd02b286c390ee6c95e3a4c24c64ad4ad5a59d1af3062a1912ba09b7cb": [
       479
     ],
@@ -11106,6 +11197,10 @@
       233,
       611
     ],
+    "5596cfd2790dbd2d3f5b2fc711f9c734ded5a4f0a929ba029d438a39b4d99b6d": [
+      436,
+      672
+    ],
     "55b2e9a9cedc72bebf344291599f5ffeaf54ebe149b41fec78f4da40b1eb0ba4": [
       320,
       686
@@ -11116,6 +11211,10 @@
       565,
       781,
       999
+    ],
+    "5735657fad05791287ec2388169dc8637fb6ab966cab16aa771d58c792d30f9c": [
+      377,
+      905
     ],
     "57659577f38a970811a161aa7f7ca21196199ec6bc765af2184fa832203900b4": [
       205,
@@ -11185,6 +11284,13 @@
       945,
       1133,
       1339
+    ],
+    "5ac6de46e236bc9821bf2849a78847b40adbd2bebe577163d6784c4bc167e3dc": [
+      202,
+      355,
+      568,
+      790,
+      960
     ],
     "5ad5e2391e4344dca197498b7d772617bed72e3b4ab11150b55792e56b81ef7a": [
       461,
@@ -11267,6 +11373,10 @@
       351,
       639
     ],
+    "5ee05f8814f1c6e2727eb47bff7dc79fad42145203e83e30f4b53d550062a6e7": [
+      258,
+      559
+    ],
     "5f5e3b50aa8cdc9525afc60bcdadd1e40e6210c3e76995927ebbdbdbd741b081": [
       302
     ],
@@ -11283,6 +11393,9 @@
     "609a7f7cbf7dc94806d0491585aac11b8c2a41a772831ce230efb9fcc165c7f4": [
       234,
       448
+    ],
+    "60a037588a537b5810712d2e1eb939eeccd5cc6546cd2eb06897a1ddab654298": [
+      746
     ],
     "60be909b6cb3f460e85bb02de774666fc21b9c3c438a146683f9f17ed1764288": [
       182,
@@ -11362,8 +11475,15 @@
     "64ec7996424f8f373fb6b4de35857dab4387d5e033d8117b95be5847fe6c55c3": [
       300
     ],
+    "65a5fd9f510c57d3e99f9b15de0ba546c48c4c1900d2941c33184055879584a0": [
+      526
+    ],
     "65bbed84a76e8c3a33e46a17e1f99faf2c0621507a13cee30b44033c5239be0c": [
       554
+    ],
+    "65c329c8615e35be669ff38599f5604d62a98769f88699708f7ca108badb9343": [
+      330,
+      884
     ],
     "66724d17de8735b9cd0d4e9d09d52fb1450a3b2356ba1bbad4e91bb1995090e8": [
       422,
@@ -11388,6 +11508,9 @@
     "6757027ac55efe102e77a791ddcd49c57a737bb45448d00b2b612db8b7e70eb5": [
       200,
       422
+    ],
+    "6781375a471ca65eed181d23a138047da93dcbbab8c13d643670bad1fbdcbf15": [
+      513
     ],
     "684a82c636b82133d812bb540f72542400ebf5be9a04361d157201596a0a53c5": [
       597,
@@ -11426,12 +11549,6 @@
     ],
     "6ac78ca69aa8405183c6f82664cbdac6d654479a21595c6c9773e22a087398c7": [
       516
-    ],
-    "6b084dfcd03f8bf9d8166ed283e7c7b5102c7f553a482489accbe3a9cac78204": [
-      340,
-      557,
-      907,
-      1111
     ],
     "6b110dd458f104f5bbc5117a9144b86a67ac0d9306cb833a8f7f50c29de2618f": [
       294,
@@ -11487,6 +11604,10 @@
     "700b50c6736275a25d0f733943e5cdd37a057add3da1f9b7fc2674971a3874a8": [
       593,
       819
+    ],
+    "702d3115ec1df6db8155b95588dc14c2410d944184705bd594cb7c5b3f4aca1c": [
+      448,
+      745
     ],
     "702ffafee89e530bebbb408f67e34af6888b9e065525d89f0361a63ca00a860f": [
       230,
@@ -11594,6 +11715,14 @@
     "73743c355b18257407bea33d90f14eacf84fe97658eddb5371e1cbd026e8fa38": [
       283
     ],
+    "73d15c03a6404e7ffe8c39f022b5270c2171bd47e96ec1a3e94fca4b554fe594": [
+      344,
+      703
+    ],
+    "73ec5dafc4a4ab03109671901cbfeecf90f1b247020b8d2c19c783a67364901e": [
+      347,
+      768
+    ],
     "7436fe7876275af28971d213fe4fad451debd8eebb6f2f44981914a9c9358dd1": [
       608
     ],
@@ -11603,6 +11732,10 @@
     "74fe299517671a3c1c4f35e65e67a0817a220c0a3be54153e191bf22bc13e8c6": [
       535,
       774
+    ],
+    "758bc80e9760c52fb8c70bb3da37ac131df9519554c5d0f40000058f610651a1": [
+      253,
+      667
     ],
     "75c1d9f622e5ea0a710605c5ef1179ff53c47102fa0bb852d26452b2e31d9766": [
       292,
@@ -11639,6 +11772,9 @@
     "771d80fae2774b29aeb5f88d5470ff1553cff8ee8627b87e54caf2585c62658c": [
       430
     ],
+    "77512887b14307b5f29dabab08c5d9a031e8b4ceb659fdcf03521efd3c862129": [
+      428
+    ],
     "77956f7d3cc19d953fba0fe14e91a48c7071189e2d8f0611e86e48c6a29dfe30": [
       381,
       787
@@ -11658,6 +11794,10 @@
       884,
       1214
     ],
+    "78312ca6f81b39ca40ff141f77b9aaa6b9ff54aad1dbb4644715e7b641014c85": [
+      392,
+      701
+    ],
     "78384a466cc171a66f52f51ecc21a7d719a393b29a80c644426add4ecd16aa8b": [
       374
     ],
@@ -11668,6 +11808,9 @@
       796,
       935,
       1316
+    ],
+    "78617da06cb061dbfd150e7d0604d75f45ed30cac63ee3dab4b702b5244bfe79": [
+      504
     ],
     "78c785898d596a4ed89331e7453431ac92eeb0747468d9380d98b1ba60dbd095": [
       382,
@@ -11739,6 +11882,9 @@
       1298,
       1612
     ],
+    "7cad8eca168ee6540bcd70ca01d49bc7eb3cfaee0cd280d6bfc415db71bd26d4": [
+      359
+    ],
     "7cb212454c9893d181b4c16985375198868ed01301ce909b264ab7b9fac508cd": [
       238,
       604,
@@ -11748,11 +11894,17 @@
       1340,
       1596
     ],
+    "7d0df732b0ce178b67855c1a692f6045e36693a0091a3c6598dd24f7937fadf5": [
+      447
+    ],
     "7d25a61ff884eb1ad608f67b19c401fb2c2e7a3ea7961c1db6d5d1e308503219": [
       288,
       430,
       593,
       836
+    ],
+    "7e22182bd993fa02c4b2208f7a2e2666bbd3fa8d385baef026ff0b381bdefcb7": [
+      484
     ],
     "7e9b26e2c4289dd3461696cbcd25cf3d09bc97f39fb8be157888284e50605eb9": [
       190
@@ -11763,6 +11915,16 @@
       767,
       1112,
       1345
+    ],
+    "7f9752a0ea36746c8d19be840ea7fced2bccae22dece669fd7a2f40efa95ff76": [
+      384,
+      622
+    ],
+    "801bbbd09b8d36226af9e06931f656391d110fd9dbd6d66ed7534a5a9cf20fa5": [
+      681
+    ],
+    "80fa9dff1e5a6e338a4965615a800829ac3664a810e4bf76d6afec33c5fb1203": [
+      543
     ],
     "8166f23a688e61de29f28805852d2f3237a56bbca9c52d91d8fcc3bd56cbc263": [
       424
@@ -11816,6 +11978,9 @@
       762,
       1020
     ],
+    "866c2d539a1f49608be499c9d0780d67df8c4f4f289aed1cc08a0b63eda6b25c": [
+      514
+    ],
     "8753b1689f040ff8f47c6665b473625e3710b55d0f1e3ed18c0e47dbe6847902": [
       164,
       515
@@ -11838,12 +12003,18 @@
       1057,
       1358
     ],
+    "8833253c8cef880730266ec5b95ffbaf14b5c44d0d3bff0a41234aaec96ababd": [
+      423
+    ],
     "888948582a1d3a65e3975df612924750282d282781c22b3157eaecd04eaf32e1": [
       366,
       892
     ],
     "88be1c26f56bf63765d8fbc1ad501f37183686b50151b63a30b2519204f6527b": [
       668
+    ],
+    "88cc2c7bf61228bf04082268f513e5800a92736532ad939aabd48caf4f4725c3": [
+      624
     ],
     "8909c4132e08c803969b130feaad39d4e9f32cb613d58c48f18ee2acaaf6fd5e": [
       314,
@@ -11887,6 +12058,10 @@
       684,
       987
     ],
+    "8bbd6ddbf4ca742941c879a9e8d283fac25f0e49b1881b8a3075ad6aff1d3edd": [
+      289,
+      575
+    ],
     "8be0f092dc14e9a657475a4aeb4cfb616e4a8fa02b98c79bd0913c8560ac860e": [
       176,
       444,
@@ -11903,10 +12078,16 @@
       657,
       805
     ],
+    "8c5458a241f4a0f6effe62bb92529745cbbd63cb8bde98a558f99b6498fa7a44": [
+      602
+    ],
     "8d086e88dedbfd20c2f18d8970bf4b636bfbceaed9c8b9a8b510636716674cb0": [
       359,
       716,
       900
+    ],
+    "8d1647f651d0d0b51aaf3887190fcee34a8bc2e00458f7baf3a63a3aac306270": [
+      338
     ],
     "8d79495ea727d2d1ca95fad42546b85373ae2e103b37c516ac73ea18aa849f1e": [
       455,
@@ -11968,6 +12149,9 @@
       1255,
       1439
     ],
+    "924a5facc65280b2b3b99c0e31beb9abe1c303d9ae6be4c36110ebdb61c35f89": [
+      421
+    ],
     "924b2fc3176c2410df0bd6f348234a472e71da3c1cccc33117d657c42f8db834": [
       220,
       546,
@@ -11992,6 +12176,9 @@
       467,
       679,
       955
+    ],
+    "97349bbd066575ce41e451374f59a1ef60884848d3a581cf126a1b7f26b4effb": [
+      270
     ],
     "97445b141f0462d2b273b0e5f35007fe30da1960f761eefc6de06c94033f0386": [
       289,
@@ -12042,8 +12229,17 @@
     "9a8b628e4c48db530480f76afaa1a765ac7c38b1abe5d1c3fb34671d4aa0d9d3": [
       452
     ],
+    "9aae0fcc54064ef7e5a4a2a19c6cbee4326fcfa36dfe35073ef35db2a6635bee": [
+      466
+    ],
+    "9b16ec7b0baba5841264387ed71179253897c6c28eecda986ce30af4bb7affb5": [
+      641
+    ],
     "9b553f0f3a8b30e30fca3d22753cc5ed5ac96139a3c8c8d83df0a138c531cc14": [
       552
+    ],
+    "9bb574effcb90cb3ae8965b49cb4859ea1407650a6a5f9b29209fee56cba6fdc": [
+      599
     ],
     "9c438544408ff4451b73175f9bbf303e88b841ccedc8ed427ffc29652244ab82": [
       357,
@@ -12207,6 +12403,10 @@
     "a7335655dc37e9a9d408a376230bfa290094750618fd09dc0a5e8d8e8c931d2c": [
       349
     ],
+    "a805699883a8fbaa76bdb273be3daf1aa659f799588b3f206bce62e636902fcb": [
+      385,
+      817
+    ],
     "a81d840848ad3959780b8191de7b3065c03dcde78d4066130c5ee674bd6cef7a": [
       741,
       1083
@@ -12215,6 +12415,10 @@
       295,
       473,
       732
+    ],
+    "a8904c4ab8af56cce3d33ecb4a751ff367501375a7c3ca2488fa632927bfd71d": [
+      375,
+      677
     ],
     "a8d899ba130243be2cbd601c2787603ca77ffc091b1f5acf05534cd8e4dd4879": [
       313,
@@ -12266,6 +12470,10 @@
       227,
       731
     ],
+    "abe65cf7cf60a7531f18baa4fb5359fe9cb047f840d6b1b2421939ec49f97e36": [
+      669,
+      956
+    ],
     "ac54d23b7acd10f18af70e8d2ba2df453981447751c827e84ab0c322ceedfe1b": [
       267,
       478,
@@ -12306,6 +12514,10 @@
       750,
       933,
       1105
+    ],
+    "adbfd00a7078fe53460afd48d5f9151766e4757fb6df905f447fb80dce92703a": [
+      338,
+      628
     ],
     "adddbf8816517238173ebd49aa880005b484040f5fab1c8243b1471b303e9edb": [
       212,
@@ -12387,6 +12599,10 @@
     "b327a19f68bbc466eb3b4e3e689dbbb4b48acea9ad3a21c419153b0cb7f98df0": [
       354
     ],
+    "b35510f95d57202bd8737e2cd8569b8bbc5714e68c50797e0b407bf16a26183f": [
+      343,
+      625
+    ],
     "b35529f75090994dac4f2282cd94a36ba288f5d3859706bd272c2b6745056f80": [
       474
     ],
@@ -12443,6 +12659,9 @@
       620,
       802
     ],
+    "b6ac266a135b0c9c1d28ea98edba6c51ce6700b44f2b9498bb23197b843b949a": [
+      435
+    ],
     "b722b06251db37ea135583ef9ec4a322114109e50256579bea8a2e19827666e9": [
       353,
       598
@@ -12476,6 +12695,10 @@
       771,
       918
     ],
+    "b86f0a39a9d5b00f049b1a5ba20801e0c61d810a62d79cc427f3a61f2cabb712": [
+      408,
+      672
+    ],
     "b878286fa60c78a5c0c5289c5eb4285f147e7b3cb6671612857c9246f7bb9e84": [
       272,
       425,
@@ -12504,6 +12727,10 @@
       934,
       1070,
       1270
+    ],
+    "b926c54543c90eb8f596024a12ae9c520dd204ac42268799465e5fd8e3b870ed": [
+      473,
+      772
     ],
     "b958f518894983d50ace4329a0b64415dc52590d75723ddd3204f4524ab54a8d": [
       468
@@ -12606,6 +12833,9 @@
       453,
       771
     ],
+    "c1c7723bf7e47494da35cefda91f05f2ea68e437a2d8aec105a0383ec898acf7": [
+      543
+    ],
     "c1f2c4989bbb7608511a3f41ca0e8ac5f56d2190698d2aff3e1c7580ac11b847": [
       229,
       555,
@@ -12704,6 +12934,9 @@
       1307,
       1461
     ],
+    "c81d80f673e0589c91b65eb135cffff497542850195aff635bf1bfad8721ddaa": [
+      611
+    ],
     "c83612edca477f3f01ecce72c0793d0d7734ff3449d3462ed97a6889d92ff807": [
       306
     ],
@@ -12787,6 +13020,10 @@
       337,
       776
     ],
+    "cca143dd8160b1fed7eb746fdba07aa4736e004dc5ce38139b5da61b634cdc68": [
+      270,
+      610
+    ],
     "ccb197444d5ca20617edac71dd3a75a47e1b125c86a0650f6f06d90c1ab4fc44": [
       480
     ],
@@ -12855,6 +13092,9 @@
     "cfdee74cf9fce1bd8a8fea11278bfbde2e89cea919f82e49df26d2c8a0b7983d": [
       514
     ],
+    "d0301ee5a9a8156788c847d4810eb47aaf96a7f3e70c0d98ca21e2c23ac5294f": [
+      499
+    ],
     "d0402740ea4c32306f1fc208b87bf86faf9009f160b7f304f69b61b53a1b822e": [
       291,
       855
@@ -12898,11 +13138,6 @@
       430,
       669
     ],
-    "d1900080d4258e439c73bfec7d4fda3d831be22d572b569529726ca2f01c95af": [
-      506,
-      655,
-      990
-    ],
     "d19837034826d2a103630911cebc5355238a6612a8cd872d70e21d27382b0378": [
       222,
       449,
@@ -12924,6 +13159,13 @@
     "d27221845944fefdf86cace830a9b15d96edd2a9ccad8f9665c2375643a12e4b": [
       213,
       412
+    ],
+    "d3121d371cb0bb29c83b15310c833c9353892af280d3e29e052a413def6bc0ec": [
+      644
+    ],
+    "d3240e4f9b8ad93c0b13300dbf63434bbd5947bda793034cd0012815e1a73287": [
+      245,
+      746
     ],
     "d352971e276acce46378389f35d25e7918db4fc214d37f4052bf93d989773e7f": [
       263,
@@ -12975,8 +13217,16 @@
       858,
       1008
     ],
+    "d8533643cf9950570ca75cb55aab60e6ebf3e2a7e82b5e8156ee4e8a6de04354": [
+      292,
+      817
+    ],
     "d8a6fe11a1e91f1b49e3929bceb53e022a0b3ed9350d59cafd9df6e2f54f3a97": [
       489
+    ],
+    "d966cc3abbe38d2658c237291fa44da7d24f7660449c71614198b85651738386": [
+      454,
+      799
     ],
     "d9b63e62487f572cd937c8e45688c603043e7168d0ede2e6d90e77d6b1cb8864": [
       208,
@@ -13057,6 +13307,13 @@
       686,
       1113
     ],
+    "e0071abe38dd043cf1b5757c0855c8649103885024e324a8fc28aaec591dcc0a": [
+      656
+    ],
+    "e159f0c72f328f291abca4520eed618f670f6b6c360f7a199fafc4f805744d0a": [
+      474,
+      819
+    ],
     "e1691376c474edca16610f896cdae55fda6b07ece4943e0f9dc3e2f39469fb07": [
       180,
       332,
@@ -13075,6 +13332,13 @@
       946,
       1142,
       1330
+    ],
+    "e25dc53b722559f834e665aa7874c2dadee1a046292b3a846ddef49693bc451a": [
+      406,
+      692
+    ],
+    "e26c87798a6b006d00e4a2d4c6b743832a77aec74c31f5a58d574869390ff377": [
+      363
     ],
     "e310c5bd82fb59ecbb7be5409382d508de497c0127a85a112601affa3d4cefcd": [
       224
@@ -13133,6 +13397,9 @@
       714,
       967,
       1256
+    ],
+    "e77be80f4ddaad4853a95f7e3d07be9e1bff391395d897e0d180b8b9dddda351": [
+      390
     ],
     "e7b69efeda83337b68abd4defda38535a5eaf0559d90fca7333ac50fe17beccc": [
       378,
@@ -13376,6 +13643,12 @@
       834,
       1067
     ],
+    "f5c83f9963697b27903fa6bfc82589df839b1b9fefcb8a32730f93faab09457b": [
+      167,
+      373,
+      574,
+      952
+    ],
     "f64b08ddca2b13c7f88f212463348d0f91b82a2dc082ba8ef7497c7974f89750": [
       418,
       764
@@ -13402,11 +13675,18 @@
       645,
       995
     ],
+    "f78afd42e2b8dd8d9cc9a0a4b88a78923b12ad8fd3a0f2a639722329fabc6e49": [
+      592
+    ],
     "f7b76b110c4d7ff1c4eced07dea40116ec7f84e96053519282c2ef7a23a47d5b": [
       218,
       521,
       773,
       922
+    ],
+    "f7bd307375ca568a8cb28524e345bfe5d368d62b8e0c77d15c161986d663e341": [
+      435,
+      756
     ],
     "f80f0415d16e9a4f7b9d9effa513df54774fd70971d77c528db0f328bc0a746e": [
       443,
@@ -13430,6 +13710,10 @@
       1225,
       1513,
       1671
+    ],
+    "f84df0b8264fb6f587d3f7c920d397eccbc5aed730b927a7d0fbdbb3b950d92b": [
+      357,
+      993
     ],
     "f896dae856a321a92935c23b9a12e5ca610b964212f702c7a11a44ea2782e067": [
       819,
@@ -13459,6 +13743,10 @@
     "fa5c90990b77001326da7e6e04e587ad02c18bc2e682f0210a1baa8348625405": [
       547
     ],
+    "fa8b56d83adec517a8441e8ccca44699af301248013d2c56b92ead5f157628d8": [
+      411,
+      691
+    ],
     "faa0b6d10645c1e013a5515bd054483d6f2f2d76d10f12f434354880b93e3b21": [
       329,
       512,
@@ -13484,12 +13772,19 @@
       1357,
       1524
     ],
+    "fcecbdcdc3d8a5f6c3ddad33ef7fd13e7f254e6f27d7b70c73883b6038347db9": [
+      506
+    ],
     "fd05e9f2248c3f1b9d136e3797c43321ac63aa648070bc59ba03308c295fec57": [
       217,
       452,
       633,
       934,
       1156
+    ],
+    "fd34078ab137b9f9c9a665c0fc3359cf4d3ccb802c0727511e2b4d42f511010f": [
+      339,
+      615
     ],
     "fe26b348469f69f68f628fe82d888966c26752e746541670afab0fa87f42bd89": [
       235,
@@ -13555,9 +13850,6 @@
     "06873c854e5e6cf3845d64c933e5188a2e860839d90a1e7fda609ca9ba1e2a24": {
       "1103": 2,
       "445": 1
-    },
-    "07f626fb8711cdc60e6ce9e9f28ac06ef9accb6f6466883dd00d1d07729717ba": {
-      "582": 1
     },
     "07f8554f50f3fe3500faa827357677f691e597e2580054c8e4db8dfdc16ff765": {
       "438": 1
@@ -13636,6 +13928,9 @@
     "161d22db494de6b592a842b584c5990ff11b4a572af03b57012fc9b40cd24e7a": {
       "1047": 2,
       "539": 1
+    },
+    "16d1510d4c0e3737c6252d6a439480327f1b7b309b9b1b87c0fe919b50cbf2f6": {
+      "618": 1
     },
     "16fd2e36da8b83618ec10d1f177d4197441bb25a617bfc38fec138680fe8a054": {
       "473": 1
@@ -13947,6 +14242,9 @@
       "1339": 2,
       "565": 1
     },
+    "5ac6de46e236bc9821bf2849a78847b40adbd2bebe577163d6784c4bc167e3dc": {
+      "355": 1
+    },
     "5ad5e2391e4344dca197498b7d772617bed72e3b4ab11150b55792e56b81ef7a": {
       "1061": 2,
       "461": 1
@@ -14025,9 +14323,6 @@
     "6a51ef285199c655c3e20a67ad303e09460ac5e4611661048d747e19d54fae34": {
       "268": 1,
       "752": 2
-    },
-    "6b084dfcd03f8bf9d8166ed283e7c7b5102c7f553a482489accbe3a9cac78204": {
-      "340": 1
     },
     "6b110dd458f104f5bbc5117a9144b86a67ac0d9306cb833a8f7f50c29de2618f": {
       "442": 1,
@@ -14564,9 +14859,6 @@
     "d14ee8f4f27cd449cd1cc9eec9bdeb1d0eef58eb5d6a6374fe3c22e41a7e18a7": {
       "430": 1
     },
-    "d1900080d4258e439c73bfec7d4fda3d831be22d572b569529726ca2f01c95af": {
-      "655": 1
-    },
     "d19837034826d2a103630911cebc5355238a6612a8cd872d70e21d27382b0378": {
       "449": 1
     },
@@ -14750,6 +15042,9 @@
     },
     "f538134a5e4474efa2cfd81afb806a5561c154707fc19efb2cd27c4cb6984fab": {
       "452": 1
+    },
+    "f5c83f9963697b27903fa6bfc82589df839b1b9fefcb8a32730f93faab09457b": {
+      "574": 1
     },
     "f6b3f7a8ac38cf77a08cd278cccf58468d553f4b7df03caa5ff80e23cce74a29": {
       "1350": 2,

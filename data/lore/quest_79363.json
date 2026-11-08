@@ -1,0 +1,106 @@
+{
+ "key": "quest:79363",
+ "type": "quest",
+ "name": "Silvia's Sword",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79363
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Sirra Von'Indi asks you to investigate Silvia Valor's sword and the Defias near Raven Hill. The blade belonged to a guard who protected civilians and their homes.",
+ "sections": [
+  {
+   "title": "A Guard's Blade",
+   "body": "Sirra Von'Indi in Darkshire asks you about Silvia Valor, the guard whose sword was left behind. Silvia spent her life defending civilians and their homes. Her spirit still visits farmsteads, and the Defias have taken up residence at Addle's Stead, south of Raven Hill. Sirra sees the Defias as a place to begin learning what Silvia wanted.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Blade's Study",
+   "body": "At Addle's Stead, the Defias are the first lead in Silvia Valor's unfinished business. When you return to Sirra Von'Indi in Darkshire, she recognizes Silvia as a fine warrior and defender, though one with a narrow view of who deserved protection. Sirra cannot tell what Silvia wants from the sword, so she studies the blade further.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Silvia Valor?",
+   "aliases": [
+    "Silvia Valor backstory",
+    "who is Silvia",
+    "Raven Hill guard Silvia"
+   ],
+   "answer": "Silvia Valor was a guard at Raven Hill who spent her life protecting civilians and their homes."
+  },
+  {
+   "q": "Why is Silvia's spirit visiting farmsteads?",
+   "aliases": [
+    "Silvia ghost why",
+    "why is she haunting farms",
+    "Silvia unfinished business"
+   ],
+   "answer": "Silvia's spirit still visits farmsteads, and Sirra suspects her unfinished business may involve the Defias at Addle's Stead."
+  },
+  {
+   "q": "Who asks about Silvia's sword?",
+   "aliases": [
+    "who gave Silvia's sword",
+    "Sirra Von'Indi sword",
+    "Darkshire sword giver"
+   ],
+   "answer": "Sirra Von'Indi in Darkshire asks you to investigate Silvia Valor's sword."
+  },
+  {
+   "q": "Where have the Defias taken up residence?",
+   "aliases": [
+    "Defias Addle's Stead",
+    "where are Defias",
+    "Raven Hill Defias"
+   ],
+   "answer": "The Defias have taken up residence at Addle's Stead, south of Raven Hill."
+  },
+  {
+   "q": "What does Sirra think of Silvia?",
+   "aliases": [
+    "Sirra opinion Silvia",
+    "Silvia warrior",
+    "what kind of guard was Silvia"
+   ],
+   "answer": "Sirra calls Silvia a fine warrior and defender, though she says Silvia had a narrow view of who deserved protection."
+  },
+  {
+   "q": "What does Sirra do with the sword?",
+   "aliases": [
+    "what happens to the blade",
+    "Sirra studies sword",
+    "Silvia sword next"
+   ],
+   "answer": "Sirra studies Silvia Valor's blade further."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "addle's stead",
+  "darkshire",
+  "defias",
+  "guard",
+  "raven hill",
+  "silvia valor",
+  "silvia's sword",
+  "sirra von'indi",
+  "unfinished business"
+ ],
+ "related": [
+  "quest:163",
+  "subzone:addle-s-stead",
+  "subzone:darkshire",
+  "npc:sirra-von-indi",
+  "topic:warrior"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Silvia's Sword"
+ ]
+}

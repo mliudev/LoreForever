@@ -125,10 +125,39 @@ function Journey.Realm()
   return type(realm) == "string" and realm ~= "" and (realm:gsub("[%s%-]", "")) or "?"
 end
 
+-- The character's own id from its GUID ("Player-4372-0A1B2C3D" -> "0A1B2C3D"), or nil before the game knows it.
+local function playerId()
+  local guid = try(UnitGUID, "player")
+  return type(guid) == "string" and guid:match("^Player%-%d+%-(%x+)$") or nil
+end
+
+-- Whether a record from before records carried a GUID could be this character's: nothing in it says otherwise.
+local function couldBeMine(c)
+  local info = ns.Context and ns.Context.Character and ns.Context.Character() or {}
+  return not ((c.class and info.class and c.class ~= info.class) or (c.race and info.race and c.race ~= info.race))
+end
+
+-- "Name-Realm" (name, realm). Forever's characters have last names that UnitName leaves out, so two characters can
+-- share a first name on one realm (LOR-1218: "my 2 characters being recorded as 1"). A record carries the GUID's id of
+-- the character it belongs to (open, below); another character with the same name and realm gets "Name-Realm#id", so
+-- each keeps its own journey, heard stories, chronicle and notebook. A record from before ids is claimed by the first
+-- character of its class and race to log in. Once known, the key is kept for the session, so a moment the game can't
+-- say the GUID never lands on the other character's record.
+local resolvedKey
 function Journey.CharKey()
   local name = try(UnitName, "player") or "?"
   local realm = Journey.Realm()
-  return name .. "-" .. realm, name, realm
+  local key = name .. "-" .. realm
+  local id = playerId()
+  if not id then
+    if resolvedKey and resolvedKey:sub(1, #key + 1) == key .. "#" then return resolvedKey, name, realm end
+    return key, name, realm
+  end
+  local j = type(LoreForeverDB) == "table" and type(LoreForeverDB.journey) == "table" and LoreForeverDB.journey
+  local c = j and type(j.chars) == "table" and j.chars[key]
+  if type(c) == "table" and (c.guid and c.guid ~= id or not c.guid and not couldBeMine(c)) then key = key .. "#" .. id end
+  resolvedKey = key
+  return key, name, realm
 end
 
 -- This character's record, or nil (before login, or when it was never recorded).
@@ -567,6 +596,7 @@ local function open()
   local c = j.chars[key] or { first = time(), events = {} }
   j.chars[key] = c
   c.name, c.realm = name, realm
+  c.guid = c.guid or playerId()   -- whose record this is (Journey.CharKey)
   c.events = type(c.events) == "table" and c.events or {}
   c.seen = type(c.seen) == "table" and c.seen or {}
   for _, k in ipairs({ "place", "npc", "mob", "book", "boss", "rare" }) do c.seen[k] = c.seen[k] or {} end
@@ -1614,27 +1644,85 @@ do
   -- The spots this character pinned with Willo (LOR-672), as Willo last wrote them (LoreForeverJourneyData, read at
   -- login or /reload): { {spot, title, sub, foot}, ... } for the journey map, the ones with a map spot. A pin's place
   -- is its zone's name and x, y out of 100 on that zone's map (the notebook's line: Fargodeep Mine, Elwynn Forest
-  -- (south, 41, 65)), so its map is found by the zone's name.
-  local pinsOf, pinsList
+  -- (south, 41, 65)), so its map is found by the zone's name. Since LOR-1292 Willo also hands them over during play
+  -- (PinsLive), and a pin cleared here (PinArrive's Clear pin) stays off the maps until Willo has taken it out too.
+  -- Each also carries key (the pin's own: Journey.PinKey), place (its subzone, when the line names one) and note.
+  local pinsOf, pinsList, pinsCleared
   function Journey.Pins()
     local data = Journey.Data()
     local pins = type(data) == "table" and type(data.pins) == "table" and data.pins or nil
-    if pins == pinsOf and pinsList then return pinsList end
-    pinsOf, pinsList = pins, {}
+    local cleared = Journey.PinsCleared()
+    if pins == pinsOf and pinsList and cleared.n == pinsCleared then return pinsList end
+    pinsOf, pinsList, pinsCleared = pins, {}, cleared.n
     local Map = ns.JourneyMap
     for _, p in ipairs(pins or {}) do
       local x, y = tonumber(type(p) == "table" and p.x), tonumber(type(p) == "table" and p.y)
       local m = x and y and Map and type(p.z) == "string" and Map.ZoneNamed(p.z)
       local spot = m and x >= 0 and x <= 100 and y >= 0 and y <= 100 and Map.Place(m, x / 100, y / 100) or nil
-      if spot and type(p.n) == "string" and p.n ~= "" then
+      local key = spot and Journey.PinKey(p)
+      if spot and type(p.n) == "string" and p.n ~= "" and not cleared.keys[key] then
         local place = (type(p.s) == "string" and p.s ~= "" and p.s ~= p.z) and (p.s .. ", " .. p.z) or p.z
         local pinned = string.format(L["Pinned with %s"], ns.COMPANION_NAME or "Willo")
         local when = type(p.d) == "string" and p.d ~= "" and (pinned .. ", " .. p.d) or pinned
-        pinsList[#pinsList + 1] = { spot = spot, title = p.n, sub = type(p.note) == "string" and p.note or nil,
-          foot = place .. " · " .. when }
+        local note = type(p.note) == "string" and p.note ~= "" and p.note or nil
+        pinsList[#pinsList + 1] = { spot = spot, title = p.n, sub = note, foot = place .. " · " .. when, key = key,
+          place = type(p.s) == "string" and p.s ~= "" and p.s or nil, note = note, line = p }
       end
     end
     return pinsList
+  end
+
+  -- A pin's own key: its name, zone, spot and day, as Willo wrote them ("Goldshire|Elwynn Forest|42|65|November 7").
+  function Journey.PinKey(p)
+    if type(p) ~= "table" then return "" end
+    return table.concat({ tostring(p.n or ""), tostring(p.z or ""), tostring(p.x or ""), tostring(p.y or ""),
+      tostring(p.d or "") }, "|")
+  end
+
+  -- The pins this character cleared in the game (Clear pin, PinArrive) that Willo may not have taken out yet:
+  -- LoreForeverDB.willoPinsCleared[char] = { [key] = {n, z, s, x, y, d, t} }, which Willo reads after each save and
+  -- takes out of their notebook. {keys = {[key] = true}, n = how many changes so far}.
+  local clearedChanges = 0
+  function Journey.PinsCleared()
+    local all = type(LoreForeverDB) == "table" and type(LoreForeverDB.willoPinsCleared) == "table"
+      and LoreForeverDB.willoPinsCleared or nil
+    local mine = all and type(all[(Journey.CharKey())]) == "table" and all[(Journey.CharKey())] or {}
+    local keys = {}
+    for k in pairs(mine) do keys[k] = true end
+    return { keys = keys, n = clearedChanges }
+  end
+
+  -- Clear pin: off the maps now, and kept for Willo, who takes it out of their notebook after their next save.
+  function Journey.ClearPin(pin)
+    local p = type(pin) == "table" and pin.line
+    if type(p) ~= "table" or type(LoreForeverDB) ~= "table" then return false end
+    LoreForeverDB.willoPinsCleared = type(LoreForeverDB.willoPinsCleared) == "table" and LoreForeverDB.willoPinsCleared or {}
+    local who = Journey.CharKey()
+    local mine = LoreForeverDB.willoPinsCleared[who] or {}
+    LoreForeverDB.willoPinsCleared[who] = mine
+    mine[Journey.PinKey(p)] = { n = p.n, z = p.z, s = p.s, x = p.x, y = p.y, d = p.d, t = time() }
+    clearedChanges = clearedChanges + 1
+    return true
+  end
+
+  -- Willo's newest pins (Data.lua at login, or a live hand-over) no longer have a pin cleared here before they were
+  -- written: she has taken it out, so it's no longer kept. `at`: when she wrote them.
+  function Journey.PrunePinsCleared(at)
+    local all = type(LoreForeverDB) == "table" and type(LoreForeverDB.willoPinsCleared) == "table"
+      and LoreForeverDB.willoPinsCleared or nil
+    local who = Journey.CharKey()
+    local mine = all and all[who]
+    if type(mine) ~= "table" or not tonumber(at) then return end
+    local data = Journey.Data()
+    local have = {}
+    for _, p in ipairs(type(data) == "table" and type(data.pins) == "table" and data.pins or {}) do
+      have[Journey.PinKey(p)] = true
+    end
+    for k, c in pairs(mine) do
+      if not have[k] and (tonumber(type(c) == "table" and c.t) or 0) < tonumber(at) then mine[k] = nil end
+    end
+    if next(mine) == nil then all[who] = nil end
+    clearedChanges = clearedChanges + 1
   end
 
   function Journey.FocusMap(m, animate)

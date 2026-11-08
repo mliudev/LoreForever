@@ -110,7 +110,7 @@ P.transport["npc:commander-springvale"] = {
   fullHash = "085e7a",
   text = "Commander Springvale. At Shadowfang Keep, Commander Springvale's spirit still guards the halls where he fell. Once a devoted paladin and commander, he was slain with his men by Arugal's worgen and now haunts the castle. Commander Springvale led the garrison at Shadowfang Keep in Silverpine Forest. Before the keep fell into ruin, he was an honorable paladin devoted to the Holy Light. After Lordaeron fell to the Scourge, he kept watch over the fortress through those troubled days. Archmage Arugal summoned worgen from beyond this world to strengthen Dalaran's failing ranks against the undead Scourge. The wild beasts soon escaped his control and descended on Shadowfang Keep. They slaughtered Baron Silverlaine and his entire guard. Springvale died in the halls he had sworn to protect, his service cut short. Death did not release Springvale. His ghost haunts the keep's council room alongside spectral soldiers. He still wields paladin powers against intruders, including Holy Light and Hammer of Justice.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_commander-springvale-5b50f6c2ab51764a7a7d/1-0000.mp3", duration = 61.2571429, start = 0},
+    {file = "Audio/Transport/full_npc_commander-springvale-971b7aaa6759f94f153f/1-0000.mp3", duration = 61.8057143, start = 0},
   },
 }
 P.transport["npc:cookie"] = {
@@ -430,7 +430,7 @@ P.transport["subzone:coldridge-valley"] = {
   fullHash = "c7b8a0",
   text = "Coldridge Valley. Coldridge Valley is where young dwarves and gnome refugees train to serve Ironforge. Snow lies deep over this sheltered vale, high in the southwest of Dun Morogh. Sheer cliffs close it in. Only one road leads out to the wider mountains, and that is Coldridge Pass. The recruits gather at Anvilmar, the valley's training hall. There they learn to fight, to move unseen and to wield sorcery. Veteran dwarves teach them, side by side with gnome scholars who have lost their home. Out on the snowy valley floor roam boars and hungry winter wolves. They test whether a novice can survive the frontier. But this valley is not at peace. Frostmane trolls camp here, at Frostmane Hovel and beyond. They say the land was theirs by ancestral right, and they skirmish with the mountaineers over it. And Rockjaw troggs have overrun Coldridge Pass. It is the tunnel to Kharanos, and while it is blocked, nothing moves freely to Ironforge.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_coldridge-valley-937859da5824002a20ab/1-0000.mp3", duration = 58.2530612, start = 0},
+    {file = "Audio/Transport/full_subzone_coldridge-valley-aba9b03f5e2036630639/1-0000.mp3", duration = 58.8277551, start = 0},
   },
 }
 P.transport["subzone:deathknell"] = {
@@ -814,7 +814,7 @@ P.transport["topic:naga"] = {
   fullHash = "8cc2b3",
   text = "Naga. Along shores across Kalimdor and the Eastern Kingdoms, Naga press toward the surface. Once the Highborne elite of the Kaldorei Empire, they were changed in the Great Sundering and now serve their ancient empress, Queen Azshara, beneath the sea. Ten thousand years ago, the Highborne ruled the Kaldorei Empire from Zin-Azshari. Queen Azshara and her inner court drew on the Well of Eternity, consumed by arcane power, to summon the Dark Titan Sargeras. Their act brought the invasion called the War of the Ancients. Then the Well collapsed and the Great Sundering began. The palace sank into the crushing abyss.\n\nFacing annihilation, Azshara bargained with the Old Gods below. They spared her and her followers, changing them into cold, scaly serpentine beings bound to the deep. Beneath the Maelstrom, the survivors built the underwater empire of Nazjatar. For ten thousand years, the naga kept their Highborne arrogance and their grudge against the surface world. They became distinct casts: hulking warriors and sea witches with many arms, who weave spells. Under Azshara's gaze, they mastered sea creatures, storm magic, and frost sorcery. Their strength grew as they waited for a chance to strike at those who lived on land. The naga broke their silence during the Third War. Thrall's Horde first met the sea witch Zar'jira in the Great Sea. Lady Vashj answered Illidan Stormrage's summons and led naga forces through Dalaran's ruins.\n\nNow naga camps press against coasts in Azshara, Darkshore, Ashenvale, Desolace, Feralas, Dustwallow Marsh, Hillsbrad, Arathi, and Stranglethorn. Ancient contempt and whispers of the Old Gods drive them to forge quiet alliances with the Twilight's Hammer and savage satyrs. They seek to claim what was once theirs.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_naga-7c32941667adc529e765/1-0000.mp3", duration = 110.942041, start = 0},
+    {file = "Audio/Transport/full_topic_naga-a96ea113c4b9d0ee7bbe/1-0000.mp3", duration = 113.031837, start = 0},
   },
 }
 P.transport["topic:new-horde"] = {
@@ -878,7 +878,7 @@ P.transport["topic:plague-of-undeath"] = {
   fullHash = "9f7515",
   text = "Plague of Undeath. Across the northern Eastern Kingdoms, the Plague of Undeath spreads at the Burning Legion's command. The Lich King fashioned it to scour the region, and tainted grain, airborne cauldrons, and poisoned waterways carry it to the living. The sickness kills mortals swiftly and raises them as thralls bound to the Scourge. After Kil'jaeden transformed the fallen shaman Ner'zhul into the Lich King, Ner'zhul devised the plague. From the Frozen Throne in Northrend, he perfected it as a weapon for the Burning Legion's invasion. He tested it on isolated human villages across Northrend, learning how to extinguish life and command the corpses that soon rose.\n\nHis summons crossed the Great Sea and reached Kel'Thuzad, a Kirin Tor mage who left Dalaran to serve him. Kel'Thuzad formed the secretive Cult of the Damned. Its mortal members infiltrated Lordaeron and prepared to poison the kingdom from within. The blight reaches beyond humanity, and the land bears its demonic and necromantic decay. Non-human wildlife usually suffers fever or rot instead of rising as undead thralls. Across the Plaguelands, massive plague cauldrons send alchemical and magical vapors into the air, corrupting the land around them. Carrion grubs and colossal mushrooms choked with spores thrive there.\n\nThe Argent Dawn sabotages the cauldrons, reversing their mixtures so they burn the Scourge instead of feeding it. In the Undercity, the Royal Apothecary Society keeps experimenting to refine a New Plague meant to kill both the living and the undead.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_plague-of-undeath-ac080446fcbc77fc4342/1-0000.mp3", duration = 94.2497959, start = 0},
+    {file = "Audio/Transport/full_topic_plague-of-undeath-2595e1801421e00245b8/1-0000.mp3", duration = 94.2236735, start = 0},
   },
 }
 P.transport["topic:quilboar"] = {
@@ -1062,7 +1062,7 @@ P.transport["topic:trogg"] = {
   fullHash = "3258ae",
   text = "Trogg. Deep beneath the earth, Troggs have clawed their way into the world above. Dwarven excavations disturbed their ancient vaults, and now they overrun quarries and hold Gnomeregan after driving its gnomes out. The first stone servants were a flawed design. Long before mortal races kept records, titan-forged keepers tried to shape servants from stone. They made brutish creatures with stone skin, little sense, and savage tempers. The keepers refined their design into the earthen, ancestors of the dwarves. Ironaya, a giantess, spared the flawed troggs and sealed them deep within Uldaman, hoping they would sleep without end. Dwarven excavations woke the troggs after countless millennia. The Explorers' League of Ironforge broke into ancient underground complexes in Khaz Modan, and furious swarms poured out to hunt their distant dwarven kin. The bright surface world drove them to dig tunnels beneath Dun Morogh, Loch Modan, and the Badlands. From below, they ambushed quarries, archaeological dig sites, and trade outposts.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_trogg-0bbf698ee70075241f92/1-0000.mp3", duration = 65.2277551, start = 0},
+    {file = "Audio/Transport/full_topic_trogg-1b826ccfefab89469760/1-0000.mp3", duration = 67.8661224, start = 0},
   },
 }
 P.transport["topic:troll"] = {
@@ -1110,7 +1110,7 @@ P.transport["zone:alterac"] = {
   fullHash = "20b624",
   text = "Alterac Mountains. Across the Alterac Mountains, ruined peaks shelter ogres, outlaws, and the remnants of arcane power. Once home to the human kingdom of Alterac and Dalaran’s scholarly magocracy, these highlands draw travelers from nearby foothill settlements and the rebuilding city. During the Second War, Alterac stood among humanity’s Seven Kingdoms. King Aiden Perenolde betrayed the Alliance of Lordaeron and joined the Old Horde, hoping to save his realm. His treachery was uncovered and crushed, and the kingdom broke into disputed borderlands. After Alterac dissolved, the Third War brought fresh horrors. Its grand stone capital now lies in ruins.\n\nThe Crushridge ogres occupy the Ruins of Alterac under Mug'thol’s leadership. Alterac’s surviving human nobles formed the Syndicate, a vicious band of criminals. They fight by force to reclaim their lost estates. On the mountains’ western edge, Dalaran’s surviving magi rebuild beside lordamere lake. The demon lord Archimonde devastated the great city-state during the Third War. Its magi raised a massive, opaque violet dome over the ruins, but the shield has since been removed. The kirin tor now rebuild their sanctum in the open. Archmage Ansirem Runeweaver can be found inside the Violet Citadel. Southshore and Tarren Mill are staging grounds for journeys into the peaks. Yeti, mountain lions, and Syndicate footpads roam here. Beneath the snow line, a greater conflict churns.\n\nDeep in the mountain passes, the dwarven Stormpike Guard and the reclusive Frostwolf clan of orcs contest Alterac Valley. They fight over ancient territorial and mining rights.",
   ["1"] = {
-    {file = "Audio/Transport/full_zone_alterac-d8162d53c40b8a705a67/1-0000.mp3", duration = 101.642449, start = 0},
+    {file = "Audio/Transport/full_zone_alterac-400a5481ba9c81bb46c1/1-0000.mp3", duration = 103.340408, start = 0},
   },
 }
 P.transport["zone:arathi"] = {
@@ -1222,7 +1222,7 @@ P.transport["zone:dunmorogh"] = {
   fullHash = "80aba6",
   text = "Dun Morogh. Dun Morogh is high snow country, the mountain home of the dwarves. The gnomes shelter here too, for they have lost their own home. But the snows are not safe. Troggs and Frostmane trolls prowl them, and so do the leper gnomes. The mountains rise between Searing Gorge in the south and the Wetlands in the north. Their snowmelt feeds the rivers of Khaz Modan, and copper and iron run in veins through the rock. Dwarven Mountaineers watch the narrow roads at the north and south gates. And beneath the tallest mountain lies Ironforge, the seat of King Magni Bronzebeard. Centuries ago, the dwarves drove the native Frostmane ice trolls up into the crags. So they made room for themselves, beside their gnome allies. The two peoples thrived in neighboring mountain halls, until the Third War. Then Gnomeregan fell.\n\nTroggs invaded the gnomes' city, and radioactive gas ruined it. Its own defenders were twisted into leper gnomes. High Tinker Gelbin Mekkatorque led the survivors into exile, and now they live as guests in Ironforge. But the leper gnomes and the troggs spill out into Chill Breeze Valley. The Frostmane have grown bolder, with armed camps from Shimmer Ridge to Coldridge Valley. Troggs have clawed up from old fissures into Gol'Bolar Quarry, and the mines are in danger. Wendigos and wild boars roam the drifts, and the Dark Iron dwarves send in their spies. Toxic fallout spreads from the ruins of Gnomeregan. The Mountaineers struggle to keep order, from Kharanos to the border gates.",
   ["1"] = {
-    {file = "Audio/Transport/full_zone_dunmorogh-ab1c7d29f508a164e2eb/1-0000.mp3", duration = 90.1746939, start = 0},
+    {file = "Audio/Transport/full_zone_dunmorogh-604600cd9650a43bc3a9/1-0000.mp3", duration = 92.8653061, start = 0},
   },
 }
 P.transport["zone:durotar"] = {
@@ -1326,7 +1326,7 @@ P.transport["zone:lochmodan"] = {
   fullHash = "2aebae",
   text = "Loch Modan. Loch Modan's great lake stands above the Wetlands, held back by the Stonewrought Dam. Around Thelsamar, troggs threaten the southern valleys, kobolds work the mines, and ogres hold the northeast highlands. Loch Modan's lake fills a green valley east of Dun Morogh. Pines and birches climb toward rugged peaks, and the Stonewrought Dam spans the northern rim. The dwarven town of Thelsamar draws mountaineers, hunters, and miners. Copper and tin run through the surrounding hills. Broken catapults and ballistae on the lake bed recall the Second War. The orcish Horde occupied Loch Modan then, until the dwarves drove them out. More recently, dwarven excavations opened underground chambers and released savage troggs. Their tribes, led by chieftains, overran the southern canyons of Stonesplinter Valley and the Valley of Kings. The Ironforge Mountaineers fight to defend the trade routes.",
   ["1"] = {
-    {file = "Audio/Transport/full_zone_lochmodan-956aab8dd1a566224aab/1-0000.mp3", duration = 54.804898, start = 0},
+    {file = "Audio/Transport/full_zone_lochmodan-a92485e1dfec98d63d8e/1-0000.mp3", duration = 55.3534694, start = 0},
   },
 }
 P.transport["zone:moonglade"] = {

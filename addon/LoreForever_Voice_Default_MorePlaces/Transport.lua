@@ -318,7 +318,7 @@ P.transport["subzone:camp-kosh"] = {
   fullHash = "356f29",
   text = "Camp Kosh. At Camp Kosh, Dustbelcher ogres prey on caravans crossing the northern Badlands. They scavenge abandoned gear from roads leading toward Kargath and the Searing Gorge. In the northern Badlands, Dustbelcher ogres make their northernmost camp at Camp Kosh. Their tribe also holds nearby camps called Boff, Cagg, and Wurg. From these camps, they strike vulnerable supply lines bound for Kargath or traveling west into the Searing Gorge. When dwarven prospectors led by Sigrun Ironhew fled the excavation at Uldaman, the ogres raided their abandoned wagons. They carried food rations and weapons back into Camp Kosh.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_camp-kosh-b150f0f09beaba357fff/1-0000.mp3", duration = 37.355102, start = 0},
+    {file = "Audio/Transport/full_subzone_camp-kosh-87e067f54f8877ad243a/1-0000.mp3", duration = 37.8253061, start = 0},
   },
 }
 P.transport["subzone:camp-mojache"] = {
@@ -1054,7 +1054,7 @@ P.transport["subzone:gnomeregan"] = {
   fullHash = "ce40b5",
   text = "Gnomeregan. Troggs and leper gnomes roam Gnomeregan’s poisoned halls among the broken defenses. The city was once the gnomes’ underground capital, until a desperate defense ended in catastrophe. Gnomeregan’s halls once rang with the work of gnomish engineers. Ironforge dwarves helped build the city centuries ago, carving it into the snowy crags of western Dun Morogh. Steam-driven gears, copper pipes, and vast assembly halls made it the heart of gnomish industry and invention. During the Second War, its designs, flying machines, and complex weapons supplied the Alliance. Even Orgrim Doomhammer’s Horde could not break the city during its siege. During the Third War, troggs surged up from deep underground and broke into Gnomeregan’s lowest chambers. High Tinker Gelbin Mekkatorque chose to face the invasion alone, unwilling to draw Alliance armies away from the slaughter in Lordaeron.\n\nOn the advice of chief engineer Mekgineer Thermaplugg, he ordered radioactive gas released through the lower chambers to wipe out the troggs. Instead, the gas empowered many troggs and killed nearly eighty percent of the gnomish people. Survivors exposed to it became twisted leper gnomes, and Thermaplugg took control of the poisoned ruins.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_gnomeregan-7f38f160b05fa9c0588a/1-0000.mp3", duration = 74.6579592, start = 0},
+    {file = "Audio/Transport/full_subzone_gnomeregan-5e165d0077882124f9b8/1-0000.mp3", duration = 75.6506122, start = 0},
   },
 }
 P.transport["subzone:go-shek-farm"] = {
@@ -1270,7 +1270,7 @@ P.transport["subzone:ironforge"] = {
   fullHash = "5f0d74",
   text = "Ironforge. Beneath Dun Morogh, Ironforge’s Great Forge still burns at the heart of dwarven rule and Alliance trade. Deep within Ironforge Mountain, the city anchors Khaz Modan and guards the Alliance. Ironforge fills the deep halls of Ironforge Mountain, with stone rings circling the Great Forge. Dwarves founded the city millennia ago, after awakening and migrating from Uldaman. It has endured ages of history, including the War of the Three Hammers, which left the Bronzebeard clan in sole control.\n\nNatural magma pours through the mountain and powers the city. Massive stone gates guard its halls. Dwarven craftsmen and warriors share them with many exiled gnomes, who arrived after Gnomeregan fell recently. Ironforge is one of the Alliance’s busiest centers of commerce and industry. From the High Seat, King Magni Bronzebeard rules Khaz Modan. Dwarven prospectors, miners, and engineers work beside gnome refugees in Tinker Town.\n\nBeneath the mountains, the Deeprun Tram runs to Stormwind City. It carries trade and troops at high speed, keeping the capitals linked in mutual defense.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ironforge-e4f680cdf80202b2bc82/1-0000.mp3", duration = 72.2808163, start = 0},
+    {file = "Audio/Transport/full_subzone_ironforge-f8286ce1e759b34ef4a4/1-0000.mp3", duration = 69.8253061, start = 0},
   },
 }
 P.transport["subzone:ironstone-camp"] = {
@@ -1358,7 +1358,7 @@ P.transport["subzone:kargath"] = {
   fullHash = "22a23e",
   text = "Kargath. In the western Badlands, Kargath guards the Horde's foothold. The Kargath Expeditionary Force built the outpost on Warchief Thrall's orders, linking Horde holdings and preparing operations near Uldaman and Blackrock Mountain. Kargath honors the Shattered Hand chieftain Kargath Bladefist. The outpost is the Horde's only settlement in Khaz Modan, surrounded by arid wastes, dangerous wildlife, and hostile dwarven factions. Its garrison gives travelers a refuge midway across the continent. From here, a flight master connects northern holdings such as the Undercity and Hammerfall with southern outposts such as Stonard and Grom'gol Base Camp. Warchief Thrall sent the Kargath Expeditionary Force to pursue two aims. Troops enter Uldaman's ancient titan halls to learn why Ironforge's Prospectors value the dig site so highly. Scouts also seek a route through the Searing Gorge into Blackrock Mountain. There they hope to strike Rend Blackhand's false 'Dark Horde' while facing the entrenched Dark Iron dwarves.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_kargath-e7d5b31b0074166bc275/1-0000.mp3", duration = 60.9959184, start = 0},
+    {file = "Audio/Transport/full_subzone_kargath-20427017a300e64ffd7d/1-0000.mp3", duration = 63.2685714, start = 0},
   },
 }
 P.transport["subzone:kodo-graveyard"] = {
@@ -1650,11 +1650,11 @@ P.transport["subzone:misty-reed-strand"] = {
   },
 }
 P.transport["subzone:misty-shore"] = {
-  hash = "c6f4a7",
-  fullHash = "c6f4a7",
-  text = "Misty Shore. Along Lordamere Lake's eastern bank, Misty Shore lies between Dandred's Fold and Dalaran. Fog softens the view across the water, where the Dawning Isles and Fenris Keep rise in the distance. Misty Shore follows Lordamere Lake's eastern bank between Dandred's Fold and Dalaran. Damp air drifts off the water, often hiding snapping turtles along the shore. Zealous fanatics sometimes wander down from nearby strongholds. Across Lordamere Lake, the Dawning Isles and Fenris Keep rise through the fog. Dalaran lies nearby, with Scarlet-controlled pockets close at hand. Travelers keep a low profile along the bank to avoid unwanted attention.",
+  hash = "f2c445",
+  fullHash = "f2c445",
+  text = "Misty Shore. Along Lordamere Lake's eastern bank, Misty Shore lies between Dandred's Fold and Dalaran. Fog softens the view across the water, where the Dawning Isles and Fenris Keep rise in the distance. Misty Shore is a lakeside stretch of the Alterac Mountains, running up to Dalaran's perimeter. Damp air drifts off the water, often hiding snapping turtles along the shore. Zealous fanatics sometimes wander down from nearby strongholds. Across Lordamere Lake, the Dawning Isles and Fenris Keep rise through the fog. Dalaran lies nearby, with Scarlet-controlled pockets close at hand. Travelers keep a low profile along the bank to avoid unwanted attention.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_misty-shore-842d0e88cae591ff3b92/1-0000.mp3", duration = 40.4114286, start = 0},
+    {file = "Audio/Transport/full_subzone_misty-shore-780eeca4267a45add5a3/1-0000.mp3", duration = 40.5942857, start = 0},
   },
 }
 P.transport["subzone:misty-valley"] = {
@@ -2590,7 +2590,7 @@ P.transport["subzone:stormwind-city"] = {
   fullHash = "e8e13b",
   text = "Stormwind City. Stormwind City leads the Kingdom of Stormwind and the Alliance from its seat of power. Rebuilt after the First War, it is Azeroth's greatest remaining human stronghold since the northern kingdoms fell. Stormwind City rose over a thousand years ago, founded by Arathi descendants who migrated south. Its coastal ramparts sheltered a flourishing capital, where swift rivermills powered the city. In the First War, the Orcish Horde broke through its defenses and burned Stormwind to the ground.\n\nSir Anduin Lothar led the surviving refugees across the Great Sea to Lordaeron. After the Alliance won the Second War, the Stonemasons' Guild rebuilt the capital with white stone, canals and towering spires. The fortress now stands north of Elwynn Forest. Stormwind City is mankind's chief refuge and stronghold after the Scourge shattered Lordaeron and the Third War left Dalaran heavily ruined. The disciplined Stormwind City Guard patrols its broad avenues and defensive walls. The Cathedral of Light's spires guide faith across the southern kingdoms.\n\nYet political troubles linger beneath the orderly districts and ceremonial gates. King Varian Wrynn has mysteriously vanished, and his young son Anduin sits on the throne. Highlord Bolvar Fordragon governs as regent, with the whispered counsel of royal advisor Lady Katrana Prestor.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stormwind-city-8c9bd3f60a8968368d26/1-0000.mp3", duration = 79.7257143, start = 0},
+    {file = "Audio/Transport/full_subzone_stormwind-city-675dd62fa2d7fad598c1/1-0000.mp3", duration = 81.8677551, start = 0},
   },
 }
 P.transport["subzone:stratholme"] = {
@@ -2798,7 +2798,7 @@ P.transport["subzone:theramore-isle"] = {
   fullHash = "af084a",
   text = "Theramore Isle. Theramore Isle shelters refugees from Lordaeron behind the eastern coast of Dustwallow Marsh. Lady Jaina Proudmoore founded the fortified port, now the Alliance's chief stronghold in southern Kalimdor. After the Scourge ravaged Dalaran and Lordaeron in the Third War, Lady Jaina Proudmoore led survivors across the Great Sea to Kalimdor. There, humans, dwarves, and high elves fought beside orcs and night elves to defeat the Burning Legion atop Mount Hyjal.\n\nAfter the victory, Jaina's coalition withdrew to the misty edge of Dustwallow Marsh. On an island just off the coast, they raised a harbor city with stone ramparts and Jaina's citadel, sheltering what remained of the northern kingdoms.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_theramore-isle-d1f1ea13c516ff479ccc/1-0000.mp3", duration = 43.3632653, start = 0},
+    {file = "Audio/Transport/full_subzone_theramore-isle-c14be201c5f8d1b17b8a/1-0000.mp3", duration = 42.5273469, start = 0},
   },
 }
 P.transport["subzone:thistleshrub-valley"] = {
@@ -2958,7 +2958,7 @@ P.transport["subzone:uldaman"] = {
   fullHash = "e6399e",
   text = "Uldaman. In Uldaman, rival excavators and troggs now clash within the sealed halls. Beneath the northern Badlands mountains, this ancient titan vault holds the buried origins of the dwarven race, with stone sentinels still on guard. Titan watchers built Uldaman beneath the earth as a refuge and a place of research. Their first attempts to shape living stone made the misshapen troggs. They sealed them in stasis chambers, then tried again and created the stone-skinned earthen.\n\nThe deepest halls hold vital records, including the fabled Discs of Norgannon. Stonekeeper Archaedas and the giantess Ironaya guarded the vault. Dwarven legend says the earthen gave rise to the dwarven race, whose cradle lay buried and forgotten beneath the hills.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_uldaman-15dc0fe7711bff0cf1c8/1-0000.mp3", duration = 48.3265306, start = 0},
+    {file = "Audio/Transport/full_subzone_uldaman-c2ceace9ef8c4d112fd4/1-0000.mp3", duration = 47.3077551, start = 0},
   },
 }
 P.transport["subzone:uldum"] = {

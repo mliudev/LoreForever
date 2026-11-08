@@ -182,7 +182,7 @@ P.transport["quest:1192"] = {
   fullHash = "5fa4a2",
   text = "Indurium Ore. Pozzik needs Indurium Ore to build several parts for the racers. The ore lies at the Uldaman dig in the Badlands, across the sea in Khaz Modan. Gnomes are already gathering their own supply, and Pozzik wants to keep pace. Pozzik asks you to bring him four pieces of raw Indurium Ore. You can find it at the Uldaman dig in the Badlands, across the sea in Khaz Modan. Gnomes are already gathering their own supply, and Pozzik wants some too. This comes after Rizzle's Schematics.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1192-26165eb2f80b15e881b4/1-0000.mp3", duration = 29.9885714, start = 0},
+    {file = "Audio/Transport/full_quest_1192-16bf126d003065d21dc0/1-0000.mp3", duration = 30.1191837, start = 0},
   },
 }
 P.transport["quest:1194"] = {
@@ -190,7 +190,7 @@ P.transport["quest:1194"] = {
   fullHash = "a74e49",
   text = "Rizzle's Schematics. After Keeping Pace, you carry a raw indurium sample to Pozzik on the Shimmering Flats. Rizzle's plans lie beneath the ore, and his notes trace it to the dwarves' dig at Uldaman in the Badlands. They also describe how well indurium resists heat. Rizzle's plans explain how to refine indurium ore. Scrawled notes trace its source to the dwarves' dig at Uldaman in the Badlands. Other notes describe the ore's resistance to heat. A lump of raw indurium holds the plans down, and you take the sample to Pozzik.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1194-6aac6b8a58bf4f17abe8/1-0000.mp3", duration = 32.8881633, start = 0},
+    {file = "Audio/Transport/full_quest_1194-a59e0df688e25f4d43bc/1-0000.mp3", duration = 31.7910204, start = 0},
   },
 }
 P.transport["quest:1252"] = {
@@ -1150,7 +1150,7 @@ P.transport["quest:3124"] = {
   fullHash = "5a39b4",
   text = "Hippogryph Muisek. In the High Wilderness, Frayfeather hippogryphs carry spirits Uzer'i wants you to capture. Their muisek can escape unless you act quickly. Witch Doctor Uzer'i trusts you with the vessel and asks you to capture another creature's spirit. Hippogryphs have long been companions to the night elves, and their spirits are loyal and steadfast. You need ten Frayfeather hippogryphs of any kind. Kill each one, then quickly shrink and capture it with the vessel to preserve its muisek. Uzer'i places them in the High Wilderness, south of the camp.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3124-62aa09f6c684c7262091/1-0000.mp3", duration = 30.5893878, start = 0},
+    {file = "Audio/Transport/full_quest_3124-b5bda70a948e220e2283/1-0000.mp3", duration = 31.0334694, start = 0},
   },
 }
 P.transport["quest:3125"] = {
@@ -2406,7 +2406,7 @@ P.transport["quest:724"] = {
   fullHash = "3d2960",
   text = "Prospect of Faith. In the Badlands, Prospector Ryedol sends you to Ironforge with Hammertoe's Amulet. Historian Karnik and Hammertoe sought Uldaman's lost artifacts together. Ryedol suspects the Shadowforge learned they knew more than they let on. Prospector Ryedol sends you to Historian Karnik in Ironforge. Tell Karnik what happened to Hammertoe and place the amulet in his hands. Karnik will decide what to do next.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_724-1f08d5930a7bf2142408/1-0000.mp3", duration = 25.2604082, start = 0},
+    {file = "Audio/Transport/full_quest_724-166315d457835f853247/1-0000.mp3", duration = 24.9469388, start = 0},
   },
 }
 P.transport["quest:725"] = {

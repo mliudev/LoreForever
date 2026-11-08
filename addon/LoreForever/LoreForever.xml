@@ -28,6 +28,8 @@
   <Script file="Capture.lua"/>
   <Script file="JourneyMap.lua"/>
   <Script file="WorldPins.lua"/>
+  <Script file="PinsLive.lua"/>
+  <Script file="PinArrive.lua"/>
   <Script file="JourneyRecord.lua"/>
   <Script file="Companion.lua"/>
   <Script file="Strip.lua"/>

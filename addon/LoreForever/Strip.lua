@@ -558,6 +558,37 @@ local function identityFromWillo()
   return type(data) == "table" and data.skyIdentity == true
 end
 
+-- Who the character in the world is, for one the game hasn't saved yet (LOR-1300: Mike's new undead paladin, and she
+-- asked his class twice; SavedVariables reach the disk only on /reload or logout): kind 3, low bits 4, then the race
+-- (UnitRace's id: 1-8 the original races, any other a Forever race, which Willo tells by the side), the class
+-- (UnitClass's id), UnitSex in bits 0-1 and the side in bits 2-3 (1 Alliance, 2 Horde), and the low 8 bits of the
+-- CRC-32 of Journey.CharKey, so Willo takes it only for the identity it rode beside. No name goes out. Sent the repaint
+-- after each identity page, only to a Willo that says she reads it (LoreForeverJourneyData.skySheet): an older one takes
+-- an unknown page as the answer gone.
+local RACE_IDS = { Human = 1, Orc = 2, Dwarf = 3, NightElf = 4, Scourge = 5, Tauren = 6, Gnome = 7, Troll = 8 }
+local CLASS_IDS = { WARRIOR = 1, PALADIN = 2, HUNTER = 3, ROGUE = 4, PRIEST = 5, SHAMAN = 7, MAGE = 8, WARLOCK = 9,
+  DRUID = 11 }
+function Strip.Sheet()
+  if not (ns.Journey and ns.Journey.CharKey) then return nil end
+  local key, name, realm = ns.Journey.CharKey()
+  if type(key) ~= "string" or not name or not realm or name == "?" or realm == "?" then return nil end
+  local _, raceFile, raceID = try(UnitRace, "player")
+  local _, classFile, classID = try(UnitClass, "player")
+  raceID = tonumber(raceID) or RACE_IDS[raceFile or ""] or 0
+  classID = tonumber(classID) or CLASS_IDS[classFile or ""] or 0
+  if raceID <= 0 and classID <= 0 then return nil end
+  local sex = tonumber((try(UnitSex, "player"))) or 0
+  local f = try(UnitFactionGroup, "player")
+  local side = (f == "Alliance" and 1) or (f == "Horde" and 2) or 0
+  return { 0xC4, raceID % 256, classID % 256, (sex % 4) + side * 4, Strip.CRC32(key) % 256 }
+end
+
+local sheetNext
+local function sheetFromWillo()
+  local data = _G.LoreForeverJourneyData
+  return type(data) == "table" and data.skySheet == true
+end
+
 -- Whether the Willo on this PC cheers big moments (LoreForeverJourneyData.chimeIns, "big" or "small", LOR-967): its
 -- value, or nil. Only a Willo that reads moment pages writes it (an older one takes an unknown page as the answer
 -- gone). Ignored once Data.lua is CHIME_FRESH old: it outlives an uninstalled Willo, whose sky would twinkle for no one.
@@ -599,12 +630,17 @@ local function ringFor(payload)
   local kind = ring and math.floor(ring[1] / 64)
   if moment and kind ~= 2 then return moment.page end
   if identityFromWillo() and (ring == nil or kind == 1) then
+    if sheetNext then
+      sheetNext = false
+      local sheet = Strip.Sheet()
+      if sheet then return sheet end
+    end
     identityTurn = (identityTurn + 1) % 8
     local identity = Strip.Identity()
     local key = identity and table.concat(identity, ":")
     if identityTurn == 0 or key ~= lastIdentity then
       lastIdentity = key
-      if identity then identityTurn = 0; return identity end
+      if identity then identityTurn = 0; sheetNext = sheetFromWillo(); return identity end
     end
   end
   if ring == nil then return idlePage(payload) end
@@ -671,20 +707,44 @@ local function momentFrame(t)
   return false
 end
 
--- Arriving in a town or a city (entering a rest area), landing from a flight in one, or a new zone (LOR-1288; Mike's
+-- Arriving in a town (riding into its subzone: ns.Towns, KnownSpots.lua) or a city (entering a rest area), landing from
+-- a flight in one, or a new zone (LOR-1288; Mike's
 -- pick 11/7, "A seems like the most robust"): the sky shows for FLASH seconds, faded in and out like a big moment, so
 -- Willo sees where they are now and a reminder for that place speaks as they arrive, not at their next question.
 -- Hidden the rest of the time (LOR-1126). Two guards, for the sky not to flicker over the map again: one glance per
 -- GLANCE_GAP (a rest area's edge can fire every few steps along a town's border), and none in a fight: an arrival in
 -- one shows when it ends. The sky's own frame hears nothing while it's hidden, so a small frame of its own listens,
 -- only while Live game info is on.
-local ARRIVALS = { "PLAYER_UPDATE_RESTING", "ZONE_CHANGED_NEW_AREA", "PLAYER_CONTROL_GAINED", "PLAYER_REGEN_ENABLED" }
+local ARRIVALS = { "ZONE_CHANGED", "ZONE_CHANGED_INDOORS", "PLAYER_UPDATE_RESTING", "ZONE_CHANGED_NEW_AREA",
+  "PLAYER_CONTROL_GAINED", "PLAYER_REGEN_ENABLED" }
 local GLANCE_GAP = 60
 local glance, arrivals, lastGlance, arrivedInFight = nil, nil, -math.huge, false
+local inTown   -- the town whose subzone they're in now, or nil
+
+local function townHere()
+  local sub = try(GetSubZoneText)
+  return ns.Context.Usable(sub) and type(sub) == "string" and ns.Towns and ns.Towns[sub] and sub or nil
+end
+
+local gapRetry = false
+local arrive
 
 function Strip.Glance()
   local t = now()
-  if glance or not Strip.On() or t - lastGlance < GLANCE_GAP then return end
+  if glance or not Strip.On() then return end
+  if t - lastGlance < GLANCE_GAP then
+    -- An arrival inside the gap (a new zone, then its first town a few steps on) glances once, when the gap ends, if
+    -- they're still there.
+    if not gapRetry and C_Timer and C_Timer.After then
+      gapRetry = true
+      local where = townHere() or try(GetZoneText)
+      C_Timer.After(GLANCE_GAP - (t - lastGlance) + 0.05, function()
+        gapRetry = false
+        if (townHere() or try(GetZoneText)) == where then arrive() end
+      end)
+    end
+    return
+  end
   lastGlance = t
   local g = { from = t, till = t + FLASH, own = not Strip.Showing() }
   glance = g
@@ -707,16 +767,50 @@ local function glanceFrame(t)
   end
 end
 
-local function onArrival(_, event)
-  if event == "PLAYER_REGEN_ENABLED" then
-    if arrivedInFight then arrivedInFight = false; Strip.Glance() end
-    return
-  end
-  if yes(try(UnitOnTaxi, "player")) then return end   -- flying over a town is no arrival; the landing is
-  -- Entering a rest area, not leaving one; control back after a flight (or a stun) only counts in a town.
-  if event ~= "ZONE_CHANGED_NEW_AREA" and not yes(try(IsResting)) then return end
+-- Not on a flight, and not in a fight (an arrival in one glances when it ends).
+function arrive()
+  if yes(try(UnitOnTaxi, "player")) then return end
   if yes(try(InCombatLockdown)) or yes(try(UnitAffectingCombat, "player")) then arrivedInFight = true; return end
   Strip.Glance()
+end
+
+local landingRetry = false
+local function onArrival(_, event)
+  if event == "PLAYER_REGEN_ENABLED" then
+    if arrivedInFight then arrivedInFight = false; arrive() end
+    return
+  end
+  if yes(try(UnitOnTaxi, "player")) then
+    -- Flying over towns is no arrival, and leaves inTown where they took off; the landing is. Control can come back
+    -- a moment before the game says the flight is over: look again once.
+    if event == "PLAYER_CONTROL_GAINED" and not landingRetry and C_Timer and C_Timer.After then
+      landingRetry = true
+      C_Timer.After(1, function() landingRetry = false; onArrival(nil, "PLAYER_CONTROL_GAINED") end)
+    end
+    return
+  end
+  if event == "ZONE_CHANGED" or event == "ZONE_CHANGED_INDOORS" or event == "PLAYER_CONTROL_GAINED" then
+    -- Riding into a town's subzone: most towns' rest area is only their inn (Goldshire, Tarren Mill), so the game's
+    -- own "resting" misses the arrival (Mike's QA, 11/7). Once per town, until they're somewhere else. Landing from a
+    -- flight is the same arrival: Auberdine's and Southshore's flight masters stand outside their inns.
+    local town = townHere()
+    if town then
+      if town == inTown then return end
+      inTown = town
+      return arrive()
+    end
+    if event == "PLAYER_CONTROL_GAINED" then
+      -- Control back after a flight (or a stun) outside a known town: only a capital's rest area counts.
+      if inTown or not yes(try(IsResting)) then return end
+      return arrive()
+    end
+    if inTown and yes(try(IsResting)) then return end   -- into its inn, still in town
+    inTown = nil
+    return
+  end
+  -- Entering a rest area outside a town they already arrived in (a capital), or a new zone.
+  if event == "PLAYER_UPDATE_RESTING" and (inTown or not yes(try(IsResting))) then return end
+  arrive()
 end
 
 local function listenForArrivals(on)
@@ -833,6 +927,8 @@ function Strip.Ask(down, talkKey)
   -- Willo is about to answer out loud: narration that started by itself makes way (Voice.OnWilloAsked, LOR-471).
   -- With Live game info off too: nothing leaves the game for this.
   if ns.Voice and ns.Voice.OnWilloAsked then pcall(ns.Voice.OnWilloAsked, down, keep) end
+  -- Talked to her: a pin she makes reaches the maps without a /reload (PinsLive, LOR-1292).
+  if not down and ns.PinsLive then pcall(ns.PinsLive.Talked) end
   if C_Timer and C_Timer.After then C_Timer.After((keep or (down and ASK_MAX or ASK_AFTER)) + 0.05, Strip.Update) end
   Strip.Update()
 end

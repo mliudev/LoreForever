@@ -341,9 +341,9 @@
     "npc:commander-springvale": {
       "1": [
         {
-          "duration": 66.53387755102041,
-          "file": "Audio/Transport/full_npc_commander-springvale-abf9bd241bcca39fd789/1-0000.mp3",
-          "sha256": "4f5b27786ae15b67de651c596db86c555a6267c7ed658fe61ac9152f59b8b204",
+          "duration": 63.503673469387756,
+          "file": "Audio/Transport/full_npc_commander-springvale-12eaed8a9c07d51d8c5d/1-0000.mp3",
+          "sha256": "b75013203138d0f2159f318bba8b182c7794c63e3cf70a866acc755aa99101aa",
           "start": 0
         }
       ],
@@ -355,12 +355,12 @@
         ]
       },
       "fullHash": "085e7a",
-      "generation": "b83638b49f8f68f09303",
+      "generation": "781453f3aebe3adfa42f",
       "hash": "e44ff4",
       "source": {
-        "duration": 66.533878,
+        "duration": 63.529796,
         "file": null,
-        "sha256": "abf9bd241bcca39fd789b6681d8d4bd342fa40b32ed7b1d569fe5fb632e24762"
+        "sha256": "12eaed8a9c07d51d8c5dbc3472a37999432591640c60569a2546b88fcda6e919"
       },
       "text": "Commander Springvale. At Shadowfang Keep, Commander Springvale's spirit still guards the halls where he fell. Once a devoted paladin and commander, he was slain with his men by Arugal's worgen and now haunts the castle. Commander Springvale led the garrison at Shadowfang Keep in Silverpine Forest. Before the keep fell into ruin, he was an honorable paladin devoted to the Holy Light. After Lordaeron fell to the Scourge, he kept watch over the fortress through those troubled days. Archmage Arugal summoned worgen from beyond this world to strengthen Dalaran's failing ranks against the undead Scourge. The wild beasts soon escaped his control and descended on Shadowfang Keep. They slaughtered Baron Silverlaine and his entire guard. Springvale died in the halls he had sworn to protect, his service cut short. Death did not release Springvale. His ghost haunts the keep's council room alongside spectral soldiers. He still wields paladin powers against intruders, including Holy Light and Hammer of Justice."
     },
@@ -1381,9 +1381,9 @@
     "subzone:coldridge-valley": {
       "1": [
         {
-          "duration": 60.8130612244898,
-          "file": "Audio/Transport/full_subzone_coldridge-valley-a1eff74262ac9a4c28b8/1-0000.mp3",
-          "sha256": "2aa55ad87bdfdf7281e93de62a91aef597f4b5f3795e3e946943084c93245c3c",
+          "duration": 60.395102040816326,
+          "file": "Audio/Transport/full_subzone_coldridge-valley-3464cc43fffd9ef253df/1-0000.mp3",
+          "sha256": "62deafbf44e42eef366360965fa5185f1f1c2b80499f6bae47e0b95449e31242",
           "start": 0
         }
       ],
@@ -1395,12 +1395,12 @@
         ]
       },
       "fullHash": "c7b8a0",
-      "generation": "90155491e3874f25db5b",
+      "generation": "bf1e32ebc5f2b9c1bcc0",
       "hash": "30046b",
       "source": {
-        "duration": 60.839184,
+        "duration": 60.421224,
         "file": null,
-        "sha256": "a1eff74262ac9a4c28b8bf6f12ceb524942f1af8543cc62415eaa34c101287aa"
+        "sha256": "3464cc43fffd9ef253dfeb771477dc75a11bf0e281e517f6972a017d5470218d"
       },
       "text": "Coldridge Valley. Coldridge Valley is where young dwarves and gnome refugees train to serve Ironforge. Snow lies deep over this sheltered vale, high in the southwest of Dun Morogh. Sheer cliffs close it in. Only one road leads out to the wider mountains, and that is Coldridge Pass. The recruits gather at Anvilmar, the valley's training hall. There they learn to fight, to move unseen and to wield sorcery. Veteran dwarves teach them, side by side with gnome scholars who have lost their home. Out on the snowy valley floor roam boars and hungry winter wolves. They test whether a novice can survive the frontier. But this valley is not at peace. Frostmane trolls camp here, at Frostmane Hovel and beyond. They say the land was theirs by ancestral right, and they skirmish with the mountaineers over it. And Rockjaw troggs have overrun Coldridge Pass. It is the tunnel to Kharanos, and while it is blocked, nothing moves freely to Ironforge."
     },
@@ -2525,9 +2525,9 @@
     "topic:lordaeron": {
       "1": [
         {
-          "duration": 103.0269387755102,
-          "file": "Audio/Transport/full_topic_lordaeron-a81d03a56a7f093bf8d7/1-0000.mp3",
-          "sha256": "fd89aff321e424b4a6c65ae5d183180694069eefc8a70004050530267354c9c5",
+          "duration": 101.69469387755102,
+          "file": "Audio/Transport/full_topic_lordaeron-1127b7c3c9c031a3c15a/1-0000.mp3",
+          "sha256": "dcb13377a1d7ad8469c07b6a4b30d37c8bfcf0f2e7c82a84f0ad1eed541a88a8",
           "start": 0
         }
       ],
@@ -2539,12 +2539,12 @@
         ]
       },
       "fullHash": "1b7329",
-      "generation": "f7a10cf86e59ff24a75c",
+      "generation": "a869bc777e65d1b07d80",
       "hash": "1b7329",
       "source": {
-        "duration": 103.053061,
+        "duration": 101.720816,
         "file": null,
-        "sha256": "a81d03a56a7f093bf8d778d6f652c67ad4f2e9d52631875b2ac2a27b26b1d253"
+        "sha256": "1127b7c3c9c031a3c15a96eeecd1e5ef6b4d660fd4f6a94d70fed6f2232214df"
       },
       "text": "Lordaeron. Across Lordaeron, the Scourge, Sylvanas Windrunner’s Forsaken, and desperate survivors contest the ruined kingdoms. Once the heart of human civilization and the Alliance, the northern subcontinent was laid waste in the Third War. Lordaeron takes its name from the human city-state that rose in the north after the ancient Empire of Arathor. In time, it became the most powerful of the human kingdoms. The region runs from the rugged Arathi Highlands in the south, across forests and waterways, toward Quel'Thalas.\n\nIt nurtured kingdoms such as Lordaeron, Dalaran, Gilneas, and Alterac. Tirisfal and Hillsbrad were known for fertile farmland, while mountains held strongholds. The land was also a sacred cradle of the Holy Light. During the Third War, the Lich King's invasion struck Lordaeron first. The Cult of the Damned used tainted grain to turn countless northern citizens into mindless undead. Prince Arthas Menethil fell to darkness, then returned from Northrend and killed his father, King Terenas Menethil II. He orchestrated the slaughter of the Capital City. The thriving heartland soon rotted into the blighted Plaguelands. Lordaeron is now a brutal battleground of fractured loyalties. Beneath the Capital City's ruins, Lady Sylvanas Windrunner and the Forsaken have made the Undercity, a sovereign realm of free-willed undead aligned with the Horde. In the east, the Lich King's mindless Scourge hold corrupted keeps and strongholds. Human zealots of the Scarlet Crusade, surviving Alliance settlements in Hillsbrad, and wild forest trolls clash over what remains."
     },
@@ -2837,9 +2837,9 @@
     "topic:plague-of-undeath": {
       "1": [
         {
-          "duration": 98.32489795918367,
-          "file": "Audio/Transport/full_topic_plague-of-undeath-70281efa76532362cd76/1-0000.mp3",
-          "sha256": "5509bbe53f96c3d077d22a3cfdc24c6805708019593cce2bd8b0b92c5d7ff4c3",
+          "duration": 100.02285714285715,
+          "file": "Audio/Transport/full_topic_plague-of-undeath-6506306bd793a45a5379/1-0000.mp3",
+          "sha256": "949fec13bfbe11031a2f40aa3ebd46cc48a9487278f6051f66cb5293182cdb6d",
           "start": 0
         }
       ],
@@ -2851,12 +2851,12 @@
         ]
       },
       "fullHash": "9f7515",
-      "generation": "b2659c78126ef439e40a",
+      "generation": "3fb81813fed13f699d3e",
       "hash": "9f7515",
       "source": {
-        "duration": 98.35102,
+        "duration": 100.022857,
         "file": null,
-        "sha256": "70281efa76532362cd768a8941b63dd548434213a50d69efccaaaf45242c00a8"
+        "sha256": "6506306bd793a45a53795364c3d2b40a57be0cf995b83384811136ebd2b4f446"
       },
       "text": "Plague of Undeath. Across the northern Eastern Kingdoms, the Plague of Undeath spreads at the Burning Legion's command. The Lich King fashioned it to scour the region, and tainted grain, airborne cauldrons, and poisoned waterways carry it to the living. The sickness kills mortals swiftly and raises them as thralls bound to the Scourge. After Kil'jaeden transformed the fallen shaman Ner'zhul into the Lich King, Ner'zhul devised the plague. From the Frozen Throne in Northrend, he perfected it as a weapon for the Burning Legion's invasion. He tested it on isolated human villages across Northrend, learning how to extinguish life and command the corpses that soon rose.\n\nHis summons crossed the Great Sea and reached Kel'Thuzad, a Kirin Tor mage who left Dalaran to serve him. Kel'Thuzad formed the secretive Cult of the Damned. Its mortal members infiltrated Lordaeron and prepared to poison the kingdom from within. The blight reaches beyond humanity, and the land bears its demonic and necromantic decay. Non-human wildlife usually suffers fever or rot instead of rising as undead thralls. Across the Plaguelands, massive plague cauldrons send alchemical and magical vapors into the air, corrupting the land around them. Carrion grubs and colossal mushrooms choked with spores thrive there.\n\nThe Argent Dawn sabotages the cauldrons, reversing their mixtures so they burn the Scourge instead of feeding it. In the Undercity, the Royal Apothecary Society keeps experimenting to refine a New Plague meant to kill both the living and the undead."
     },
@@ -3097,9 +3097,9 @@
     "topic:scourge": {
       "1": [
         {
-          "duration": 147.72244897959183,
-          "file": "Audio/Transport/full_topic_scourge-0bb87211a931af43edf1/1-0000.mp3",
-          "sha256": "c5748db4d75bc54f39eec34c165a748e94d7f721120a7980cd740d411f66e751",
+          "duration": 150.30857142857144,
+          "file": "Audio/Transport/full_topic_scourge-211509a4aa064635a11c/1-0000.mp3",
+          "sha256": "f3614e4fe60981c23f295ddc64a9cd6dfa5c9652cc7888a153964dd8618ac2b7",
           "start": 0
         }
       ],
@@ -3111,12 +3111,12 @@
         ]
       },
       "fullHash": "182df3",
-      "generation": "8f1e8ea94dfdc904be7f",
+      "generation": "de394f9e7a3d358ca37a",
       "hash": "182df3",
       "source": {
-        "duration": 147.748571,
+        "duration": 150.334694,
         "file": null,
-        "sha256": "0bb87211a931af43edf1c54245a548bbf40249d4d31321163c7627db8cc9ef5f"
+        "sha256": "211509a4aa064635a11caa91bde832c2c295bb86cc51f3010d2d69e82f4b79ed"
       },
       "text": "Scourge. Across Lordaeron and Quel'Thalas, the Scourge leaves kingdoms in ruin. The Burning Legion made it to weaken Azeroth before the Third War. Its undead, necromancers, and enslaved spirits broke free of demonic control. Now it wages war from Northrend and the corrupted Plaguelands. The Burning Legion made the Scourge to destroy Azeroth. The demon lords bound the spirit of fallen orc shaman Ner'zhul to the Frozen Throne in Northrend and made him the Lich King. His terrifying telepathic power was meant to prepare the world for conquest. He sent the Plague of Undeath south into Lordaeron, where mortal traitors in the Cult of the Damned poisoned the grain. Those who died rose again as twisted thralls bound to his will. Prince Arthas Menethil heeded the Lich King's whispers, and the Scourge brought ruin to the north. Seeking vengeance in Northrend, Arthas claimed Frostmourne and lost his soul. He became the Scourge's foremost death knight. Returning home, he slew his father, King Terenas, butchered Capital City, and sent the undead across Lordaeron.\n\nThey swept through Darrowshire and Andorhal, slaughtered the Silver Hand paladins, and destroyed Dalaran to summon Archimonde. Across Quel'Thalas, they cut a dead scar to raise Kel'Thuzad as a lich. Ner'zhul never meant to serve the Burning Legion forever. Through Arthas, he secretly brought about the Legion's defeat by urging Illidan Stormrage to kill the dreadlord Tichondrius in Felwood. Enraged, Kil'jaeden later ordered Illidan to destroy the Frozen Throne. Illidan's attack cracked the icy prison and weakened the Lich King's hold over his minions.\n\nLed by the resurrected banshee Sylvanas Windrunner, a faction of free-willed undead broke away and took the name Forsaken. They seized the ruins of Lordaeron. Even after the Frozen Throne was damaged and the Forsaken rebelled, the Scourge remains the deadliest force in the northern world. The lich Kel'Thuzad leads its forces in the field. Abominations, crypt fiends, and necromancers rule the corrupted Eastweald and Westweald, now called the Plaguelands.\n\nFrom grim strongholds and blighted fields, the Scourge wages war against the Forsaken of the Undercity, the fanatics of the Scarlet Crusade, and the Alliance's remaining enclaves."
     },
@@ -3955,9 +3955,9 @@
     "zone:dunmorogh": {
       "1": [
         {
-          "duration": 97.01877551020408,
-          "file": "Audio/Transport/full_zone_dunmorogh-79c759880104f656c8c0/1-0000.mp3",
-          "sha256": "9dab89773031c7679623aac2e2583e40efac967bf2802dd8bd7725f592f7ce2f",
+          "duration": 98.69061224489796,
+          "file": "Audio/Transport/full_zone_dunmorogh-bdba47029da7de4a01f1/1-0000.mp3",
+          "sha256": "825295750e30e7c1afc5c177cfde1ed78676975e84bf031096de6f5789a0f686",
           "start": 0
         }
       ],
@@ -3969,12 +3969,12 @@
         ]
       },
       "fullHash": "80aba6",
-      "generation": "2b04ba60cd13d5704ac5",
+      "generation": "e484f235e72342bf0f2f",
       "hash": "ee26fa",
       "source": {
-        "duration": 97.044898,
+        "duration": 98.716735,
         "file": null,
-        "sha256": "79c759880104f656c8c0278b1f7a74e727a9e262e2283eb0961ef48691d0ae11"
+        "sha256": "bdba47029da7de4a01f199a9c17386d2f08387bfdcc0d5a10881d33df6e1769a"
       },
       "text": "Dun Morogh. Dun Morogh is high snow country, the mountain home of the dwarves. The gnomes shelter here too, for they have lost their own home. But the snows are not safe. Troggs and Frostmane trolls prowl them, and so do the leper gnomes. The mountains rise between Searing Gorge in the south and the Wetlands in the north. Their snowmelt feeds the rivers of Khaz Modan, and copper and iron run in veins through the rock. Dwarven Mountaineers watch the narrow roads at the north and south gates. And beneath the tallest mountain lies Ironforge, the seat of King Magni Bronzebeard. Centuries ago, the dwarves drove the native Frostmane ice trolls up into the crags. So they made room for themselves, beside their gnome allies. The two peoples thrived in neighboring mountain halls, until the Third War. Then Gnomeregan fell.\n\nTroggs invaded the gnomes' city, and radioactive gas ruined it. Its own defenders were twisted into leper gnomes. High Tinker Gelbin Mekkatorque led the survivors into exile, and now they live as guests in Ironforge. But the leper gnomes and the troggs spill out into Chill Breeze Valley. The Frostmane have grown bolder, with armed camps from Shimmer Ridge to Coldridge Valley. Troggs have clawed up from old fissures into Gol'Bolar Quarry, and the mines are in danger. Wendigos and wild boars roam the drifts, and the Dark Iron dwarves send in their spies. Toxic fallout spreads from the ruins of Gnomeregan. The Mountaineers struggle to keep order, from Kharanos to the border gates."
     },
@@ -4163,9 +4163,9 @@
     "zone:gnomeregan": {
       "1": [
         {
-          "duration": 98.63836734693878,
-          "file": "Audio/Transport/full_zone_gnomeregan-4a679e7c7556bbffe384/1-0000.mp3",
-          "sha256": "b163dd7143c98c5141b5789bf7ffa81488e23fdd67f08e1e85a5dafcc485e872",
+          "duration": 95.58204081632654,
+          "file": "Audio/Transport/full_zone_gnomeregan-c24a9f47fa963efafea9/1-0000.mp3",
+          "sha256": "fef811f6e5ab1892463d4d895bcfca18fe7efc57cc94f32344b8efa8ea99ce28",
           "start": 0
         }
       ],
@@ -4177,12 +4177,12 @@
         ]
       },
       "fullHash": "045cae",
-      "generation": "05bcd8f19fb650902d4d",
+      "generation": "c24175e96ea2d09abb90",
       "hash": "7af386",
       "source": {
-        "duration": 98.66449,
+        "duration": 95.608163,
         "file": null,
-        "sha256": "4a679e7c7556bbffe3841d278893d1477b0cf8f9fb8bf14c52119d735744f759"
+        "sha256": "c24a9f47fa963efafea91032a936bb2f03e95ce8ea2eec6ce2a0af044e420b90"
       },
       "text": "Gnomeregan. In Dun Morogh, Gnomeregan lies ruined and quarantined after the gnomes' desperate defense against troggs. Once their underground capital and greatest technological wonder, it now holds irradiated halls, mutated troggs, deranged leper gnomes, and rogue mechanical sentries. Its surviving people live as refugees in nearby Ironforge. Beneath Dun Morogh, Gnomeregan gathered gnomish invention, competitive craft, and politics under one roof. With help from the nearby dwarves of Ironforge, its people built a vast mechanical complex, powered by grinding engines and whirring gears.\n\nIts intricate ventilation network took fifteen technicians working around the clock to keep fresh air moving. At Tinkers' Court, gnomes debated and competed as their capital grew into a marvel of industry. During the Second War, they sent the Alliance of Lordaeron siege engines, flying machines, and armaments. During the Third War, as the Scourge tore through Lordaeron, dwarven excavations at the ancient titan vault of Uldaman awakened primitive troggs beneath Dun Morogh. The creatures burrowed into Gnomeregan's lower foundations, and High Tinker Gelbin Mekkatorque led the defense.\n\nAs the city's defenses began to fail, Mekkatorque followed the counsel of his chief advisor, Mekgineer Thermaplugg. He ordered radioactive waste tanks vented into the lower levels to eradicate the invaders. The toxic gas spread beyond control. Nearly eighty percent of the gnomish population died within days."
     },
@@ -4267,9 +4267,9 @@
     "zone:ironforge": {
       "1": [
         {
-          "duration": 149.62938775510204,
-          "file": "Audio/Transport/full_zone_ironforge-7bbf83151a7bb5a23707/1-0000.mp3",
-          "sha256": "ccbee691edc48e413f4e53903b4c64a5fd95c06701d422edbb0775432ede1405",
+          "duration": 146.83428571428573,
+          "file": "Audio/Transport/full_zone_ironforge-45482a9878903a9912a3/1-0000.mp3",
+          "sha256": "819be46705d3bbbcf7bcd1da3e5aac340d4b31781e8bdbdfe286c2e08c124986",
           "start": 0
         }
       ],
@@ -4281,21 +4281,21 @@
         ]
       },
       "fullHash": "e70a4a",
-      "generation": "edd21222c3558bd66a27",
+      "generation": "48cb0c7eebc9ff2235e9",
       "hash": "48033d",
       "source": {
-        "duration": 149.65551,
+        "duration": 146.834286,
         "file": null,
-        "sha256": "7bbf83151a7bb5a23707fd7c579dd156c8b0595db81645c198f9b89a1e47869b"
+        "sha256": "45482a9878903a9912a3b95797fdce6dd8dd752da8181d26299a303fd9a3dfff"
       },
       "text": "Ironforge. Ironforge is carved into the heart of a mountain, in the snows of Dun Morogh. It is the ancient capital of the Bronzebeard dwarves, and one of the Alliance's strongest bulwarks. At its center burns the Great Forge. Here King Magni Bronzebeard rules, and now his halls also shelter the gnomes who lost Gnomeregan. Twenty-five centuries ago, the first dwarves awoke in Uldaman. Westward they journeyed, into the jagged peaks of Dun Morogh, and delved into the tallest mountain. There they raised a shrine to their maker, the titan Khaz'goroth, and beside it the Great Forge. And ever since, the city has grown outward in rings around that fiery hearth.\n\nNo city above the ground is like it. Ironforge lies wholly beneath stone, warmed by roaring hearths and by rivers of molten rock. Its fortified gates and deep halls have held through centuries of war. For generations, three dwarven clans shared the mountain. The Bronzebeards lived beside the Wildhammers and the Dark Irons. When High King Modimus Anvilmar died, a bitter civil war broke out for rule of Ironforge. The Bronzebeards won it, and drove their rivals out.\n\nThen Sorcerer-Thane Thaurissan led the Dark Irons back for vengeance. His siege reached the very heart of Ironforge, before the Bronzebeards threw it back. In the south, by mischance, Thaurissan then summoned Ragnaros the Firelord. The Firelord's coming shattered the Redridge Mountains, and doomed Thaurissan's own host. Ever since, the Bronzebeards have held Ironforge unchallenged. In the Second War, the Bleeding Hollow clan overran much of Khaz Modan. But Ironforge held firm behind its sealed gates, until the Alliance of Lordaeron broke the siege. For that debt of honor, King Magni Bronzebeard pledged Ironforge to the Alliance forever. He stood by it even when Gilneas and Quel'Thalas walked away. In the Third War, Magni mourned his brother Muradin, lost in Northrend. When Gnomeregan fell, the king opened his gates to thousands of gnome refugees. Under High Tinker Gelbin Mekkatorque, they carved out Tinker Town within the stone city. And the Deeprun Tram now runs beneath the earth, straight to Stormwind. So Ironforge has become a crossroads of dwarven steel and gnomish invention."
     },
     "zone:lochmodan": {
       "1": [
         {
-          "duration": 59.32408163265306,
-          "file": "Audio/Transport/full_zone_lochmodan-f5bd0eb3560243f64c70/1-0000.mp3",
-          "sha256": "adb5ec7ad3cb972450e27d5d9ea2b857ccafb6e50bf69e556029c02912f7fc5e",
+          "duration": 56.45061224489796,
+          "file": "Audio/Transport/full_zone_lochmodan-7c1dd4a711fdc69931f8/1-0000.mp3",
+          "sha256": "e3d7822e0bfe91f31e36992124e38e7fb0f426e092ec32735324813bf4ce01a0",
           "start": 0
         }
       ],
@@ -4307,12 +4307,12 @@
         ]
       },
       "fullHash": "2aebae",
-      "generation": "72b66085520a9576786d",
+      "generation": "86829cc540dced6887c9",
       "hash": "338a02",
       "source": {
-        "duration": 59.350204,
+        "duration": 56.476735,
         "file": null,
-        "sha256": "f5bd0eb3560243f64c709bf17f536b805f492a44a060601e09b4bcc75ca33feb"
+        "sha256": "7c1dd4a711fdc69931f812aa9fbce5664320897a95941647acd9bbeac706568b"
       },
       "text": "Loch Modan. Loch Modan's great lake stands above the Wetlands, held back by the Stonewrought Dam. Around Thelsamar, troggs threaten the southern valleys, kobolds work the mines, and ogres hold the northeast highlands. Loch Modan's lake fills a green valley east of Dun Morogh. Pines and birches climb toward rugged peaks, and the Stonewrought Dam spans the northern rim. The dwarven town of Thelsamar draws mountaineers, hunters, and miners. Copper and tin run through the surrounding hills. Broken catapults and ballistae on the lake bed recall the Second War. The orcish Horde occupied Loch Modan then, until the dwarves drove them out. More recently, dwarven excavations opened underground chambers and released savage troggs. Their tribes, led by chieftains, overran the southern canyons of Stonesplinter Valley and the Valley of Kings. The Ironforge Mountaineers fight to defend the trade routes."
     },
@@ -5628,17 +5628,6 @@
       1520,
       1787
     ],
-    "2aa55ad87bdfdf7281e93de62a91aef597f4b5f3795e3e946943084c93245c3c": [
-      487,
-      667,
-      829,
-      1001,
-      1215,
-      1374,
-      1509,
-      1746,
-      1971
-    ],
     "2ae1938435176d2185c9523f39bfc9e80e7ea38ad3ebaaf8b1d349f1bad9af19": [
       200,
       586,
@@ -5961,33 +5950,6 @@
       1051,
       1206
     ],
-    "4f5b27786ae15b67de651c596db86c555a6267c7ed658fe61ac9152f59b8b204": [
-      236,
-      547,
-      739,
-      949,
-      1187,
-      1494,
-      1683,
-      1839,
-      2044,
-      2311
-    ],
-    "5509bbe53f96c3d077d22a3cfdc24c6805708019593cce2bd8b0b92c5d7ff4c3": [
-      260,
-      556,
-      774,
-      950,
-      1256,
-      1571,
-      1852,
-      2196,
-      2438,
-      2680,
-      2993,
-      3178,
-      3438
-    ],
     "56940256f14a0147aaeb1b35ebf4092ed6f988041dd204a4cbe7023812c8e24e": [
       202,
       491,
@@ -6151,6 +6113,17 @@
       1678,
       2002,
       2183
+    ],
+    "62deafbf44e42eef366360965fa5185f1f1c2b80499f6bae47e0b95449e31242": [
+      214,
+      411,
+      684,
+      838,
+      1018,
+      1216,
+      1501,
+      1763,
+      1973
     ],
     "639566ba96ca8b2b1ac9506ecbe79a662a60cc362c091812e38b7fcf6e978b61": [
       243,
@@ -6413,6 +6386,34 @@
       627,
       875
     ],
+    "819be46705d3bbbcf7bcd1da3e5aac340d4b31781e8bdbdfe286c2e08c124986": [
+      210,
+      455,
+      820,
+      988,
+      1231,
+      1391,
+      1680,
+      2023,
+      2201,
+      2360,
+      2526,
+      2773,
+      2926,
+      3106,
+      3300,
+      3484,
+      3684,
+      3835,
+      4035,
+      4282,
+      4507,
+      4685,
+      4874,
+      5076,
+      5273,
+      5440
+    ],
     "81cda794f4dcd96f46494c7fa3289f8c5bdfe132b95e07f02c2dcff0fc2423f6": [
       233,
       537,
@@ -6420,6 +6421,24 @@
       1074,
       1347,
       1533
+    ],
+    "825295750e30e7c1afc5c177cfde1ed78676975e84bf031096de6f5789a0f686": [
+      197,
+      354,
+      621,
+      820,
+      1061,
+      1221,
+      1444,
+      1664,
+      1814,
+      1997,
+      2264,
+      2538,
+      2836,
+      3057,
+      3264,
+      3480
     ],
     "827805c03c47f60b362b791f67191f98611c3a6ca470dc48dac09414210cd422": [
       447,
@@ -6551,6 +6570,21 @@
       3574,
       3776
     ],
+    "949fec13bfbe11031a2f40aa3ebd46cc48a9487278f6051f66cb5293182cdb6d": [
+      244,
+      571,
+      800,
+      1061,
+      1283,
+      1610,
+      1872,
+      2225,
+      2466,
+      2705,
+      3028,
+      3231,
+      3513
+    ],
     "9713a0c25535d7f2052efcac7ea4054b277ad8467f2e75bb37cfab530142fca4": [
       205,
       546,
@@ -6601,24 +6635,6 @@
       2194,
       2461,
       2647
-    ],
-    "9dab89773031c7679623aac2e2583e40efac967bf2802dd8bd7725f592f7ce2f": [
-      136,
-      375,
-      632,
-      823,
-      1051,
-      1211,
-      1441,
-      1641,
-      1803,
-      1988,
-      2245,
-      2610,
-      2783,
-      2996,
-      3211,
-      3433
     ],
     "9e388b3597c0849997cca7aef5f34c76a04ee27c2fcac147e386421eac436b9e": [
       202,
@@ -6861,16 +6877,6 @@
       879,
       1042
     ],
-    "adb5ec7ad3cb972450e27d5d9ea2b857ccafb6e50bf69e556029c02912f7fc5e": [
-      237,
-      561,
-      727,
-      957,
-      1272,
-      1464,
-      1656,
-      1877
-    ],
     "aeefb5cb1875ecdf144b548738e10486befc41906571c5a496b4921da981e26a": [
       269,
       589,
@@ -6907,21 +6913,6 @@
       3846,
       4018,
       4294
-    ],
-    "b163dd7143c98c5141b5789bf7ffa81488e23fdd67f08e1e85a5dafcc485e872": [
-      292,
-      518,
-      715,
-      886,
-      1181,
-      1535,
-      1800,
-      2033,
-      2298,
-      2723,
-      2992,
-      3222,
-      3497
     ],
     "b42ad860b41c753657c4b582dcbfb711a2825ffa052d55ecec3c5e153be8765d": [
       242,
@@ -6967,6 +6958,17 @@
       1106,
       1388,
       1552
+    ],
+    "b75013203138d0f2159f318bba8b182c7794c63e3cf70a866acc755aa99101aa": [
+      223,
+      504,
+      696,
+      899,
+      1137,
+      1407,
+      1608,
+      1922,
+      2190
     ],
     "bacf0e9b76a792fc32fca3e55cfbc5573ab7b2ff58dcf7d825eac266bf896381": [
       218,
@@ -7093,29 +7095,6 @@
       2380,
       2520
     ],
-    "c5748db4d75bc54f39eec34c165a748e94d7f721120a7980cd740d411f66e751": [
-      202,
-      363,
-      580,
-      750,
-      1157,
-      1320,
-      1567,
-      1729,
-      1971,
-      2175,
-      2592,
-      2932,
-      3139,
-      3280,
-      3569,
-      3765,
-      3997,
-      4495,
-      4782,
-      5191,
-      5455
-    ],
     "c6220afd1a7550b60be5bb7f26da237a80db0829e1b5bdda1a662542e8561631": [
       169,
       433,
@@ -7198,34 +7177,6 @@
       4037,
       4201,
       4504
-    ],
-    "ccbee691edc48e413f4e53903b4c64a5fd95c06701d422edbb0775432ede1405": [
-      201,
-      432,
-      805,
-      993,
-      1247,
-      1494,
-      1707,
-      2072,
-      2255,
-      2421,
-      2574,
-      2817,
-      2964,
-      3162,
-      3369,
-      3557,
-      3752,
-      3918,
-      4122,
-      4352,
-      4564,
-      4739,
-      4953,
-      5159,
-      5363,
-      5543
     ],
     "ccd053cdf4532d6c19c033c9a7ee6c75cb72a2b52d58a916f64cbda461efbcdb": [
       227,
@@ -7445,6 +7396,24 @@
       1574,
       1758
     ],
+    "dcb13377a1d7ad8469c07b6a4b30d37c8bfcf0f2e7c82a84f0ad1eed541a88a8": [
+      304,
+      577,
+      830,
+      994,
+      1267,
+      1502,
+      1728,
+      1876,
+      2071,
+      2313,
+      2524,
+      2739,
+      2912,
+      3068,
+      3414,
+      3604
+    ],
     "dd75b747fe8df5002495622501d824a0402c54396779fb712c6b71b0eaf08b58": [
       221,
       357,
@@ -7519,6 +7488,15 @@
       3146,
       3361,
       3631
+    ],
+    "e3d7822e0bfe91f31e36992124e38e7fb0f426e092ec32735324813bf4ce01a0": [
+      503,
+      657,
+      866,
+      1169,
+      1342,
+      1537,
+      1772
     ],
     "e62fc9effba76b68d9374eaee4ea075996d23e9c702436c18bc185e4b736c564": [
       237,
@@ -7703,6 +7681,30 @@
       3359,
       3591
     ],
+    "f3614e4fe60981c23f295ddc64a9cd6dfa5c9652cc7888a153964dd8618ac2b7": [
+      193,
+      344,
+      562,
+      733,
+      873,
+      1180,
+      1364,
+      1630,
+      1820,
+      2062,
+      2254,
+      2662,
+      2986,
+      3212,
+      3374,
+      3687,
+      3878,
+      4137,
+      4580,
+      4876,
+      5011,
+      5326
+    ],
     "f469917efe61c6cbb953c508defbe1593d8c4ba20a464661e53bc4cfeaef0b74": [
       135,
       503,
@@ -7795,23 +7797,6 @@
       2450,
       2591
     ],
-    "fd89aff321e424b4a6c65ae5d183180694069eefc8a70004050530267354c9c5": [
-      329,
-      604,
-      880,
-      1029,
-      1299,
-      1545,
-      1773,
-      1920,
-      2084,
-      2325,
-      2604,
-      2877,
-      3040,
-      3427,
-      3633
-    ],
     "fda18a3497a2c36d147022c6a1e16a6f79865dbf674d47c096624dff34860916": [
       189,
       513,
@@ -7873,6 +7858,20 @@
       2577,
       2896,
       3357
+    ],
+    "fef811f6e5ab1892463d4d895bcfca18fe7efc57cc94f32344b8efa8ea99ce28": [
+      291,
+      714,
+      880,
+      1166,
+      1507,
+      1764,
+      1978,
+      2239,
+      2618,
+      2890,
+      3169,
+      3386
     ]
   },
   "heads": {
@@ -8023,10 +8022,6 @@
       "1371": 2,
       "666": 1
     },
-    "2aa55ad87bdfdf7281e93de62a91aef597f4b5f3795e3e946943084c93245c3c": {
-      "1509": 2,
-      "667": 1
-    },
     "2ae1938435176d2185c9523f39bfc9e80e7ea38ad3ebaaf8b1d349f1bad9af19": {
       "2009": 2,
       "586": 1
@@ -8125,15 +8120,6 @@
       "1051": 2,
       "399": 1
     },
-    "4f5b27786ae15b67de651c596db86c555a6267c7ed658fe61ac9152f59b8b204": {
-      "1187": 2,
-      "2044": 3,
-      "547": 1
-    },
-    "5509bbe53f96c3d077d22a3cfdc24c6805708019593cce2bd8b0b92c5d7ff4c3": {
-      "2196": 3,
-      "774": 1
-    },
     "56940256f14a0147aaeb1b35ebf4092ed6f988041dd204a4cbe7023812c8e24e": {
       "1396": 2,
       "491": 1
@@ -8188,6 +8174,10 @@
     "6219ff38b64c6241f3768fe5545ee66c1ecdfe3707a9e99bea5e5f9f3c60d4af": {
       "1678": 2,
       "657": 1
+    },
+    "62deafbf44e42eef366360965fa5185f1f1c2b80499f6bae47e0b95449e31242": {
+      "1501": 2,
+      "684": 1
     },
     "639566ba96ca8b2b1ac9506ecbe79a662a60cc362c091812e38b7fcf6e978b61": {
       "2076": 2,
@@ -8277,9 +8267,20 @@
     "7c37e0b6b28e54d5dabe7c8e55f90f5e37d31fd0167ababfdd8314eabf67fd48": {
       "426": 1
     },
+    "819be46705d3bbbcf7bcd1da3e5aac340d4b31781e8bdbdfe286c2e08c124986": {
+      "2201": 2,
+      "3835": 3,
+      "4685": 4,
+      "820": 1
+    },
     "81cda794f4dcd96f46494c7fa3289f8c5bdfe132b95e07f02c2dcff0fc2423f6": {
       "1074": 2,
       "233": 1
+    },
+    "825295750e30e7c1afc5c177cfde1ed78676975e84bf031096de6f5789a0f686": {
+      "1444": 2,
+      "2836": 3,
+      "621": 1
     },
     "827805c03c47f60b362b791f67191f98611c3a6ca470dc48dac09414210cd422": {
       "1218": 2,
@@ -8323,6 +8324,10 @@
       "3022": 3,
       "851": 1
     },
+    "949fec13bfbe11031a2f40aa3ebd46cc48a9487278f6051f66cb5293182cdb6d": {
+      "2225": 3,
+      "800": 1
+    },
     "9713a0c25535d7f2052efcac7ea4054b277ad8467f2e75bb37cfab530142fca4": {
       "1455": 2,
       "2572": 4,
@@ -8338,11 +8343,6 @@
     "9d3736bcd204b104d410f9927d01372535fa80269c3fa235f907c24db92977c9": {
       "1816": 2,
       "627": 1
-    },
-    "9dab89773031c7679623aac2e2583e40efac967bf2802dd8bd7725f592f7ce2f": {
-      "1441": 2,
-      "2783": 3,
-      "632": 1
     },
     "9e388b3597c0849997cca7aef5f34c76a04ee27c2fcac147e386421eac436b9e": {
       "1204": 2,
@@ -8419,10 +8419,6 @@
     "ad73f200cdd4323a6e18982ca27931e248e6112d963ed8a3b167db5fe17b3f7a": {
       "586": 1
     },
-    "adb5ec7ad3cb972450e27d5d9ea2b857ccafb6e50bf69e556029c02912f7fc5e": {
-      "1272": 2,
-      "561": 1
-    },
     "aeefb5cb1875ecdf144b548738e10486befc41906571c5a496b4921da981e26a": {
       "1804": 2,
       "2908": 3,
@@ -8432,10 +8428,6 @@
       "1788": 2,
       "3182": 3,
       "726": 1
-    },
-    "b163dd7143c98c5141b5789bf7ffa81488e23fdd67f08e1e85a5dafcc485e872": {
-      "2298": 2,
-      "886": 1
     },
     "b42ad860b41c753657c4b582dcbfb711a2825ffa052d55ecec3c5e153be8765d": {
       "1704": 2,
@@ -8450,6 +8442,11 @@
     "b678416173199f3400c080d7f044beee64a927b110c7c7e6cb7cc3e3341ed4b6": {
       "1106": 2,
       "398": 1
+    },
+    "b75013203138d0f2159f318bba8b182c7794c63e3cf70a866acc755aa99101aa": {
+      "1137": 2,
+      "1922": 3,
+      "504": 1
     },
     "bacf0e9b76a792fc32fca3e55cfbc5573ab7b2ff58dcf7d825eac266bf896381": {
       "1464": 2,
@@ -8496,12 +8493,6 @@
       "1677": 2,
       "564": 1
     },
-    "c5748db4d75bc54f39eec34c165a748e94d7f721120a7980cd740d411f66e751": {
-      "1729": 2,
-      "3139": 3,
-      "4495": 4,
-      "750": 1
-    },
     "c6220afd1a7550b60be5bb7f26da237a80db0829e1b5bdda1a662542e8561631": {
       "1814": 2,
       "3084": 3,
@@ -8527,12 +8518,6 @@
       "1990": 2,
       "3232": 3,
       "787": 1
-    },
-    "ccbee691edc48e413f4e53903b4c64a5fd95c06701d422edbb0775432ede1405": {
-      "2255": 2,
-      "3918": 3,
-      "4739": 4,
-      "805": 1
     },
     "ccd053cdf4532d6c19c033c9a7ee6c75cb72a2b52d58a916f64cbda461efbcdb": {
       "2122": 3,
@@ -8602,6 +8587,11 @@
     "daaf1a8c82818e5deb9f9f3501596f61ceb0523ddc503001b13f10ffd779daff": {
       "614": 1
     },
+    "dcb13377a1d7ad8469c07b6a4b30d37c8bfcf0f2e7c82a84f0ad1eed541a88a8": {
+      "1876": 2,
+      "2912": 3,
+      "577": 1
+    },
     "dd75b747fe8df5002495622501d824a0402c54396779fb712c6b71b0eaf08b58": {
       "1556": 2,
       "2696": 3,
@@ -8624,6 +8614,10 @@
       "1810": 2,
       "2865": 3,
       "521": 1
+    },
+    "e3d7822e0bfe91f31e36992124e38e7fb0f426e092ec32735324813bf4ce01a0": {
+      "1169": 2,
+      "503": 1
     },
     "e62fc9effba76b68d9374eaee4ea075996d23e9c702436c18bc185e4b736c564": {
       "2136": 2,
@@ -8684,6 +8678,12 @@
       "2783": 3,
       "621": 1
     },
+    "f3614e4fe60981c23f295ddc64a9cd6dfa5c9652cc7888a153964dd8618ac2b7": {
+      "1820": 2,
+      "3212": 3,
+      "4580": 4,
+      "733": 1
+    },
     "f469917efe61c6cbb953c508defbe1593d8c4ba20a464661e53bc4cfeaef0b74": {
       "1279": 2,
       "503": 1
@@ -8713,11 +8713,6 @@
       "1811": 2,
       "634": 1
     },
-    "fd89aff321e424b4a6c65ae5d183180694069eefc8a70004050530267354c9c5": {
-      "1920": 2,
-      "2877": 3,
-      "604": 1
-    },
     "fda18a3497a2c36d147022c6a1e16a6f79865dbf674d47c096624dff34860916": {
       "1766": 2,
       "513": 1
@@ -8735,6 +8730,10 @@
       "1717": 2,
       "2896": 3,
       "504": 1
+    },
+    "fef811f6e5ab1892463d4d895bcfca18fe7efc57cc94f32344b8efa8ea99ce28": {
+      "2239": 2,
+      "880": 1
     }
   },
   "pack": "LoreForever_Voice_Female",

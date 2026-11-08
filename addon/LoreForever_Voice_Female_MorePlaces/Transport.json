@@ -1017,9 +1017,9 @@
     "subzone:camp-kosh": {
       "1": [
         {
-          "duration": 40.38530612244898,
-          "file": "Audio/Transport/full_subzone_camp-kosh-db71da099f1834ff797e/1-0000.mp3",
-          "sha256": "7d0988f64541a4e1802fa0bb1e3bb11023a997420723fdf3c7d7f2b770574865",
+          "duration": 39.88897959183674,
+          "file": "Audio/Transport/full_subzone_camp-kosh-11a0879647b790469470/1-0000.mp3",
+          "sha256": "8467043bdbc1b9dd48e05021053ae5489732dc741658b8a9cc2745c4789240e4",
           "start": 0
         }
       ],
@@ -1031,12 +1031,12 @@
         ]
       },
       "fullHash": "356f29",
-      "generation": "4feea3756924fe1e7316",
+      "generation": "7971bab332640cad70b4",
       "hash": "356f29",
       "source": {
-        "duration": 40.411429,
+        "duration": 39.88898,
         "file": null,
-        "sha256": "db71da099f1834ff797ee97dbc703e02bbc994dd423c98e5a73316d2e3a57779"
+        "sha256": "11a0879647b7904694700416c393ba21ee11acef21b316dd670e24afbb34d72f"
       },
       "text": "Camp Kosh. At Camp Kosh, Dustbelcher ogres prey on caravans crossing the northern Badlands. They scavenge abandoned gear from roads leading toward Kargath and the Searing Gorge. In the northern Badlands, Dustbelcher ogres make their northernmost camp at Camp Kosh. Their tribe also holds nearby camps called Boff, Cagg, and Wurg. From these camps, they strike vulnerable supply lines bound for Kargath or traveling west into the Searing Gorge. When dwarven prospectors led by Sigrun Ironhew fled the excavation at Uldaman, the ogres raided their abandoned wagons. They carried food rations and weapons back into Camp Kosh."
     },
@@ -1693,9 +1693,9 @@
     "subzone:dalaran": {
       "1": [
         {
-          "duration": 75.78122448979592,
-          "file": "Audio/Transport/full_subzone_dalaran-aa4095a48aec79c73dde/1-0000.mp3",
-          "sha256": "de7bf6a23304087c0e49bef5c695c6cf02550d56fa7d2dad68611ee7c66c836f",
+          "duration": 74.42285714285714,
+          "file": "Audio/Transport/full_subzone_dalaran-dc28c085c00816f475b3/1-0000.mp3",
+          "sha256": "1d2f41d2c8dc816cbfbdc68d9a9b4bf244745e360e90b1b2a4dd6b54153afed5",
           "start": 0
         }
       ],
@@ -1707,12 +1707,12 @@
         ]
       },
       "fullHash": "8b8874",
-      "generation": "646ac154ecdd1e774938",
+      "generation": "b87ab276dae399309cee",
       "hash": "8b8874",
       "source": {
-        "duration": 75.807347,
+        "duration": 74.422857,
         "file": null,
-        "sha256": "aa4095a48aec79c73ddeb3a107ce3cc312a3b5a73261ad9ddf7ca6d3bb2dacfb"
+        "sha256": "dc28c085c00816f475b37a583fa811a6daf077b38e6c785071c893f148dfdbff"
       },
       "text": "Dalaran. On Lordamere Lake, Dalaran's surviving magi are rebuilding their shattered city. Once the shining capital of the Kirin Tor, it fell to the Scourge and Archimonde during the Third War. Its protective violet shield has been removed. Dalaran began as a sanctuary for arcane study, founded by sorcerers of the Arathorian Empire after the ancient Troll Wars. For centuries, it was humanity's foremost center of magic. The Council of Six led the Kirin Tor, keeping vast archives and powerful artifacts in the Violet Citadel.\n\nThat age ended during the Third War. The traitor prince Arthas led the Scourge through the city gates to seize the Book of Medivh. Soon after, the demon lord Archimonde crushed Dalaran's soaring spires into rubble. After the Legion's defeat, the Kirin Tor's surviving wizards returned to their devastated homeland. They would not yield their ancestral ground to the Scourge or scavengers, and raised a shimmering violet barrier over the city's heart. The shield has since been removed, while rebuilding continues. The magi are restoring their fallen sanctuary, and Archmage Ansirem Runeweaver can be found in the Violet Citadel."
     },
@@ -3409,9 +3409,9 @@
     "subzone:gnomeregan": {
       "1": [
         {
-          "duration": 77.08734693877551,
-          "file": "Audio/Transport/full_subzone_gnomeregan-4b4abba538652a0770d2/1-0000.mp3",
-          "sha256": "a104178e4d0a11c37d279e2813fd6b2a03d5bce66f2333e30f51fd4362c1010e",
+          "duration": 75.18040816326531,
+          "file": "Audio/Transport/full_subzone_gnomeregan-9bcaa19e93af67e6b38c/1-0000.mp3",
+          "sha256": "8f7dbdf30802663913736bcba8dfbaffb85fbcd43d9f4ca3b0ad08ec50fcca56",
           "start": 0
         }
       ],
@@ -3423,12 +3423,12 @@
         ]
       },
       "fullHash": "ce40b5",
-      "generation": "f1f2a2dd4c18edfbe1f4",
+      "generation": "e36b128f7717e6363279",
       "hash": "ce40b5",
       "source": {
-        "duration": 77.113469,
+        "duration": 75.206531,
         "file": null,
-        "sha256": "4b4abba538652a0770d2c58642bb8525cc4beec432f051a99ecd3f42d257659a"
+        "sha256": "9bcaa19e93af67e6b38c982e69f48d1aa17a6c1c070bde8260e1b2a16b0bc266"
       },
       "text": "Gnomeregan. Troggs and leper gnomes roam Gnomeregan’s poisoned halls among the broken defenses. The city was once the gnomes’ underground capital, until a desperate defense ended in catastrophe. Gnomeregan’s halls once rang with the work of gnomish engineers. Ironforge dwarves helped build the city centuries ago, carving it into the snowy crags of western Dun Morogh. Steam-driven gears, copper pipes, and vast assembly halls made it the heart of gnomish industry and invention. During the Second War, its designs, flying machines, and complex weapons supplied the Alliance. Even Orgrim Doomhammer’s Horde could not break the city during its siege. During the Third War, troggs surged up from deep underground and broke into Gnomeregan’s lowest chambers. High Tinker Gelbin Mekkatorque chose to face the invasion alone, unwilling to draw Alliance armies away from the slaughter in Lordaeron.\n\nOn the advice of chief engineer Mekgineer Thermaplugg, he ordered radioactive gas released through the lower chambers to wipe out the troggs. Instead, the gas empowered many troggs and killed nearly eighty percent of the gnomish people. Survivors exposed to it became twisted leper gnomes, and Thermaplugg took control of the poisoned ruins."
     },
@@ -4397,9 +4397,9 @@
     "subzone:kargath": {
       "1": [
         {
-          "duration": 65.51510204081633,
-          "file": "Audio/Transport/full_subzone_kargath-4aa98b102d58f3e6bb02/1-0000.mp3",
-          "sha256": "4565c014718707acaf847c5a35203d5fe3be414b3fe93c4cc3d01fd501c2d3a5",
+          "duration": 64.62693877551021,
+          "file": "Audio/Transport/full_subzone_kargath-8b3c2ba0e6d964950ab9/1-0000.mp3",
+          "sha256": "c1420a8d4a46c52d4d00e4e8d132b3d360a08504dd9c15f1ccba271a2c037bda",
           "start": 0
         }
       ],
@@ -4411,12 +4411,12 @@
         ]
       },
       "fullHash": "22a23e",
-      "generation": "f778b1bdce2dd06b64eb",
+      "generation": "e3b3cebb217e7a69674b",
       "hash": "22a23e",
       "source": {
-        "duration": 65.541224,
+        "duration": 64.653061,
         "file": null,
-        "sha256": "4aa98b102d58f3e6bb02e92d3f642ebd8cdddec0e8d164006dca534b95b4f17b"
+        "sha256": "8b3c2ba0e6d964950ab9d28ad8c06de6a2fcb0fa75c495d48f66171c6ecdf99b"
       },
       "text": "Kargath. In the western Badlands, Kargath guards the Horde's foothold. The Kargath Expeditionary Force built the outpost on Warchief Thrall's orders, linking Horde holdings and preparing operations near Uldaman and Blackrock Mountain. Kargath honors the Shattered Hand chieftain Kargath Bladefist. The outpost is the Horde's only settlement in Khaz Modan, surrounded by arid wastes, dangerous wildlife, and hostile dwarven factions. Its garrison gives travelers a refuge midway across the continent. From here, a flight master connects northern holdings such as the Undercity and Hammerfall with southern outposts such as Stonard and Grom'gol Base Camp. Warchief Thrall sent the Kargath Expeditionary Force to pursue two aims. Troops enter Uldaman's ancient titan halls to learn why Ironforge's Prospectors value the dig site so highly. Scouts also seek a route through the Searing Gorge into Blackrock Mountain. There they hope to strike Rend Blackhand's false 'Dark Horde' while facing the entrenched Dark Iron dwarves."
     },
@@ -5229,9 +5229,9 @@
     "subzone:menethil-bay": {
       "1": [
         {
-          "duration": 44.09469387755102,
-          "file": "Audio/Transport/full_subzone_menethil-bay-acb7670ccd5019f361e3/1-0000.mp3",
-          "sha256": "ad7558073c352c449169937c1733689efa4ce079cea037a2f0d50abe2e476caf",
+          "duration": 42.63183673469388,
+          "file": "Audio/Transport/full_subzone_menethil-bay-3ce124121f2736e018d3/1-0000.mp3",
+          "sha256": "c2266e7bbc9db3e55c1d3fd54d77f04605ccd5511e167beeb71b8f3fb1585df6",
           "start": 0
         }
       ],
@@ -5243,12 +5243,12 @@
         ]
       },
       "fullHash": "7723b2",
-      "generation": "b2faafcf4b06ed744865",
+      "generation": "94c8203453ae1abd24f9",
       "hash": "7723b2",
       "source": {
-        "duration": 44.120816,
+        "duration": 42.657959,
         "file": null,
-        "sha256": "acb7670ccd5019f361e36304140014992bbdc85e5374b4bc78559103a838c668"
+        "sha256": "3ce124121f2736e018d3bc917aa6a2b810879057e2e6006ad0c9f94b58eb3152"
       },
       "text": "Menethil Bay. Alliance ships cross Menethil Bay along the Wetlands' western coast. Its sheltered waters open into Baradin Bay, between Menethil Harbor to the north and Dun Morogh's steep cliffs to the south. Crocolisks prowl the shallows, and sunken vessels lie below. Menethil Bay opens from the Wetlands into the Great Sea, within Baradin Bay. Menethil Harbor lies to the north, Black Channel Marsh to the east, and Dun Morogh's coastal bluffs to the south. Crocolisks of many sizes prowl the shallows and marshy shores. Without a guide, travelers risk the waters. Alliance ships cross the bay, and near its mouth lies the ruined Flying Osprey, a warning of wreckage below."
     },
@@ -5359,9 +5359,9 @@
     "subzone:misty-shore": {
       "1": [
         {
-          "duration": 43.02367346938776,
-          "file": "Audio/Transport/full_subzone_misty-shore-dc17fee9c52287adbf55/1-0000.mp3",
-          "sha256": "a178f25e4e80af8ffd1c41d329eab627b2d0afefed68863d3107d155a7f84969",
+          "duration": 42.24,
+          "file": "Audio/Transport/full_subzone_misty-shore-84af87e54a9f6ee5bc2c/1-0000.mp3",
+          "sha256": "f3bf030b9a0f9babbe869f9157466cc35983b1d666f04b8ffb9a2017563f2aaa",
           "start": 0
         }
       ],
@@ -5372,15 +5372,15 @@
           "1"
         ]
       },
-      "fullHash": "c6f4a7",
-      "generation": "10ed641d6c43dae12880",
-      "hash": "c6f4a7",
+      "fullHash": "f2c445",
+      "generation": "6a85987037e8a01f02f1",
+      "hash": "f2c445",
       "source": {
-        "duration": 43.049796,
+        "duration": 42.266122,
         "file": null,
-        "sha256": "dc17fee9c52287adbf5547323718e83c88b811026d3e909a5f5e6a6fa9480885"
+        "sha256": "84af87e54a9f6ee5bc2cf8b53475f485e53b9c41be3c6305cc02a5e7313e1b49"
       },
-      "text": "Misty Shore. Along Lordamere Lake's eastern bank, Misty Shore lies between Dandred's Fold and Dalaran. Fog softens the view across the water, where the Dawning Isles and Fenris Keep rise in the distance. Misty Shore follows Lordamere Lake's eastern bank between Dandred's Fold and Dalaran. Damp air drifts off the water, often hiding snapping turtles along the shore. Zealous fanatics sometimes wander down from nearby strongholds. Across Lordamere Lake, the Dawning Isles and Fenris Keep rise through the fog. Dalaran lies nearby, with Scarlet-controlled pockets close at hand. Travelers keep a low profile along the bank to avoid unwanted attention."
+      "text": "Misty Shore. Along Lordamere Lake's eastern bank, Misty Shore lies between Dandred's Fold and Dalaran. Fog softens the view across the water, where the Dawning Isles and Fenris Keep rise in the distance. Misty Shore is a lakeside stretch of the Alterac Mountains, running up to Dalaran's perimeter. Damp air drifts off the water, often hiding snapping turtles along the shore. Zealous fanatics sometimes wander down from nearby strongholds. Across Lordamere Lake, the Dawning Isles and Fenris Keep rise through the fog. Dalaran lies nearby, with Scarlet-controlled pockets close at hand. Travelers keep a low profile along the bank to avoid unwanted attention."
     },
     "subzone:misty-valley": {
       "1": [
@@ -8531,9 +8531,9 @@
     "subzone:stromgarde-keep": {
       "1": [
         {
-          "duration": 84.27102040816327,
-          "file": "Audio/Transport/full_subzone_stromgarde-keep-ac6021f489ec408ee6b1/1-0000.mp3",
-          "sha256": "ffe650f7f9b5997b3196f0c53c397f68af01fb6e18b5f8f60fc3f6d931627b71",
+          "duration": 85.99510204081633,
+          "file": "Audio/Transport/full_subzone_stromgarde-keep-ccdf5c82a16181bdce7e/1-0000.mp3",
+          "sha256": "23eb497c0bedd6b3770e9f41a9ab84953fd0c1862f079f7f184d92be79c07e24",
           "start": 0
         }
       ],
@@ -8545,12 +8545,12 @@
         ]
       },
       "fullHash": "41de60",
-      "generation": "d1200152b7c2abefce53",
+      "generation": "c04e8ad6ec9eaa11b50e",
       "hash": "41de60",
       "source": {
-        "duration": 84.297143,
+        "duration": 86.021224,
         "file": null,
-        "sha256": "ac6021f489ec408ee6b1180bf8cda4f7db39776cc4a806d4b893273c27d4555c"
+        "sha256": "ccdf5c82a16181bdce7eb26c6469e51b9baf7f7ab0b2c94dcab0db0f1463b5ba"
       },
       "text": "Stromgarde Keep. In the Arathi Highlands, Stromgarde Keep is divided between its royal defenders, the Syndicate and Boulderfist ogres. The fallen kingdom's battered capital holds only part of its fortress. Strom began as the first capital of the unified human empire of Arathor. King Thoradin founded it nearly three millennia ago. From this fortress, humanity prepared its victory over the forest trolls. Here, high elven magi taught the first hundred human spellcasters and began the long history of human wizardry.\n\nDalaran, Lordaeron and Stormwind rose as younger sister kingdoms while Strom's influence waned. The stubborn Trollbane dynasty remained and renamed the city Stromgarde. Through the Second War, it stood as a proud warrior bastion and an anchor of the Alliance of Lordaeron against the Orcish Horde. The devastation of the Third War brought mounting disasters and treachery, and Stromgarde finally broke. Its majestic stone city is now split into three warring sectors. Aristocratic Syndicate traitors hold the grand inner keep, while Boulderfist ogres have overrun the former sanctum of the mage district.\n\nPrince Galen Trollbane and the battered Stromgarde military hold the remaining quarter. They wage a hard, bloody war on several fronts to keep their ancestral home from vanishing into memory."
     },
@@ -9597,9 +9597,9 @@
     "subzone:uldaman": {
       "1": [
         {
-          "duration": 49.89387755102041,
-          "file": "Audio/Transport/full_subzone_uldaman-77e4896a67e46c35795a/1-0000.mp3",
-          "sha256": "e955247d391d5c174c866fa4720f1c7f5f2a9b675cd260bc99c42fef713c48a7",
+          "duration": 48.61387755102041,
+          "file": "Audio/Transport/full_subzone_uldaman-dc3921b6bee53258eb3c/1-0000.mp3",
+          "sha256": "756cb075c28ebdd16bdcbe49ebcd266c16f31bbd0d54f9c68727d06dff2548a8",
           "start": 0
         }
       ],
@@ -9611,12 +9611,12 @@
         ]
       },
       "fullHash": "e6399e",
-      "generation": "4be00c3152493c98d5ab",
+      "generation": "6224f86ea14a0f6a47f2",
       "hash": "e6399e",
       "source": {
-        "duration": 49.92,
+        "duration": 48.64,
         "file": null,
-        "sha256": "77e4896a67e46c35795a6ed2fa9f14eb0b147708193038cd2ee07e64f46c9fbd"
+        "sha256": "dc3921b6bee53258eb3cba4e8c28fd5f587a5ceb5ea82c1daefef93d2adcf728"
       },
       "text": "Uldaman. In Uldaman, rival excavators and troggs now clash within the sealed halls. Beneath the northern Badlands mountains, this ancient titan vault holds the buried origins of the dwarven race, with stone sentinels still on guard. Titan watchers built Uldaman beneath the earth as a refuge and a place of research. Their first attempts to shape living stone made the misshapen troggs. They sealed them in stasis chambers, then tried again and created the stone-skinned earthen.\n\nThe deepest halls hold vital records, including the fabled Discs of Norgannon. Stonekeeper Archaedas and the giantess Ironaya guarded the vault. Dwarven legend says the earthen gave rise to the dwarven race, whose cradle lay buried and forgotten beneath the hills."
     },
@@ -11291,6 +11291,18 @@
       2492,
       2804
     ],
+    "1d2f41d2c8dc816cbfbdc68d9a9b4bf244745e360e90b1b2a4dd6b54153afed5": [
+      216,
+      584,
+      885,
+      1026,
+      1304,
+      1636,
+      1889,
+      2134,
+      2423,
+      2565
+    ],
     "1d9b8655eaa604b76426f048464a3c82245033dd0e152fff91e214c67f49e5c6": [
       361,
       711
@@ -11402,6 +11414,22 @@
       1823,
       2007,
       2303
+    ],
+    "23eb497c0bedd6b3770e9f41a9ab84953fd0c1862f079f7f184d92be79c07e24": [
+      206,
+      492,
+      692,
+      834,
+      1021,
+      1342,
+      1603,
+      1789,
+      2101,
+      2357,
+      2526,
+      2662,
+      2853,
+      3047
     ],
     "23f9db38ac62d18325ac7e87d43faca0b0747660709d757753818c34d1ce240f": [
       215,
@@ -11999,17 +12027,6 @@
       1413,
       1570,
       1889
-    ],
-    "4565c014718707acaf847c5a35203d5fe3be414b3fe93c4cc3d01fd501c2d3a5": [
-      169,
-      582,
-      751,
-      1107,
-      1261,
-      1614,
-      1807,
-      2081,
-      2247
     ],
     "45ef814879c885426cb9d362dc3a6564d5c21a2a312419da2aa45f29aaa4e400": [
       441
@@ -12700,6 +12717,15 @@
       681,
       1094
     ],
+    "756cb075c28ebdd16bdcbe49ebcd266c16f31bbd0d54f9c68727d06dff2548a8": [
+      218,
+      586,
+      797,
+      960,
+      1190,
+      1392,
+      1576
+    ],
     "76fa5abdff48004eab3ae1fcf95ebee01c115d3a4553a82889a1d07f27e6899e": [
       269,
       458,
@@ -12779,13 +12805,6 @@
       1828,
       2225,
       2493
-    ],
-    "7d0988f64541a4e1802fa0bb1e3bb11023a997420723fdf3c7d7f2b770574865": [
-      253,
-      471,
-      690,
-      851,
-      1098
     ],
     "7e5b430070f400417e3d12421ed2a97ad61a2019f9d6c37d9775360d6a7090d7": [
       196,
@@ -12885,6 +12904,12 @@
       838,
       1206,
       1443
+    ],
+    "8467043bdbc1b9dd48e05021053ae5489732dc741658b8a9cc2745c4789240e4": [
+      225,
+      426,
+      835,
+      1094
     ],
     "8478bcf57f48d8b3841ebef2d07ec909a98690ab2a81a5cc406915296bdaffcd": [
       226,
@@ -13046,6 +13071,19 @@
       717,
       1024,
       1314
+    ],
+    "8f7dbdf30802663913736bcba8dfbaffb85fbcd43d9f4ca3b0ad08ec50fcca56": [
+      221,
+      469,
+      681,
+      914,
+      1159,
+      1375,
+      1544,
+      1798,
+      2135,
+      2446,
+      2640
     ],
     "9016db8be0fcbd14d8da1c2fcc474197120271affe46750ef73419633161bf7d": [
       200,
@@ -13287,32 +13325,9 @@
       840,
       994
     ],
-    "a104178e4d0a11c37d279e2813fd6b2a03d5bce66f2333e30f51fd4362c1010e": [
-      222,
-      476,
-      629,
-      899,
-      1153,
-      1378,
-      1550,
-      1823,
-      1981,
-      2159,
-      2483,
-      2699
-    ],
     "a173f6cb251ec0a56c721ae24a6e1279aefcd6264169723f9af613667ee4a707": [
       467,
       748
-    ],
-    "a178f25e4e80af8ffd1c41d329eab627b2d0afefed68863d3107d155a7f84969": [
-      256,
-      502,
-      728,
-      916,
-      1086,
-      1285,
-      1466
     ],
     "a1fd175ccf43c932f085a698b9f1294c9d53222452df9ea4f6bbeeadc23ad246": [
       330,
@@ -13450,13 +13465,6 @@
     "ac9489d6a40371ec2b5f5d416ceeaf006297708a89f426a49fffc6b1dd5c5c63": [
       413,
       730
-    ],
-    "ad7558073c352c449169937c1733689efa4ce079cea037a2f0d50abe2e476caf": [
-      181,
-      633,
-      773,
-      931,
-      1324
     ],
     "ae44bc861847b16beae8158cfdb3de9cadc6afc2fdde518b67d022bad921f6e2": [
       150,
@@ -13767,9 +13775,28 @@
       1017,
       1241
     ],
+    "c1420a8d4a46c52d4d00e4e8d132b3d360a08504dd9c15f1ccba271a2c037bda": [
+      156,
+      561,
+      718,
+      855,
+      1061,
+      1212,
+      1581,
+      1771,
+      2049,
+      2218
+    ],
     "c1d4873cc0bcd72c671a620a4dca755a35287e414b59325a762f716af3a21690": [
       691,
       986
+    ],
+    "c2266e7bbc9db3e55c1d3fd54d77f04605ccd5511e167beeb71b8f3fb1585df6": [
+      174,
+      377,
+      635,
+      838,
+      1369
     ],
     "c233d5c86401fb2ab028ffeb3b9f8614e6c84899c7200facb888dc39b23d742f": [
       187,
@@ -14165,18 +14192,6 @@
       778,
       962
     ],
-    "de7bf6a23304087c0e49bef5c695c6cf02550d56fa7d2dad68611ee7c66c836f": [
-      213,
-      571,
-      895,
-      1056,
-      1321,
-      1613,
-      1899,
-      2146,
-      2449,
-      2611
-    ],
     "dedc109d43f8f258cc268b9336401ad07f6cf583244a383a94257ad8ef7c4be3": [
       535
     ],
@@ -14337,15 +14352,6 @@
     ],
     "e83c092a478306141335dc33aa0bcaced02ca058f7007f94dbacc80d34f97482": [
       608
-    ],
-    "e955247d391d5c174c866fa4720f1c7f5f2a9b675cd260bc99c42fef713c48a7": [
-      223,
-      607,
-      836,
-      1000,
-      1256,
-      1454,
-      1635
     ],
     "e99352676cae7a968e65353fabeee86e0629f799aaa03c57a970ac1cc2288985": [
       164,
@@ -14546,6 +14552,15 @@
       3660,
       3812
     ],
+    "f3bf030b9a0f9babbe869f9157466cc35983b1d666f04b8ffb9a2017563f2aaa": [
+      237,
+      476,
+      702,
+      899,
+      1054,
+      1275,
+      1435
+    ],
     "f410d257f2113bc5d7c3c69c5d965d44a122c1e078c8e95590c140a827fed57f": [
       312,
       542,
@@ -14694,21 +14709,6 @@
     ],
     "ff5041fdf1c4e03ce7afbe8e819f5b38ef724feb9387bb02a96dfe56fc8efbca": [
       565
-    ],
-    "ffe650f7f9b5997b3196f0c53c397f68af01fb6e18b5f8f60fc3f6d931627b71": [
-      301,
-      482,
-      697,
-      835,
-      1014,
-      1334,
-      1597,
-      1771,
-      2064,
-      2302,
-      2485,
-      2787,
-      2987
     ]
   },
   "heads": {
@@ -14902,6 +14902,10 @@
       "1651": 2,
       "710": 1
     },
+    "1d2f41d2c8dc816cbfbdc68d9a9b4bf244745e360e90b1b2a4dd6b54153afed5": {
+      "1889": 2,
+      "584": 1
+    },
     "1e50b5069a9b9b9d18da0405ed178b245081e60c823f5eece1910113122a716e": {
       "1666": 2,
       "495": 1
@@ -14937,6 +14941,10 @@
     "23a63c6c9a19edf0b2f84da3b76934e1bd6b86612eef40c592755d0675c21dea": {
       "1655": 2,
       "397": 1
+    },
+    "23eb497c0bedd6b3770e9f41a9ab84953fd0c1862f079f7f184d92be79c07e24": {
+      "2101": 2,
+      "492": 1
     },
     "23f9db38ac62d18325ac7e87d43faca0b0747660709d757753818c34d1ce240f": {
       "397": 1
@@ -15139,10 +15147,6 @@
     "454972d0c8e29c80aeccd91a1f28eec65d611737b42cabbcb3c0f37bf7854fc1": {
       "1413": 2,
       "495": 1
-    },
-    "4565c014718707acaf847c5a35203d5fe3be414b3fe93c4cc3d01fd501c2d3a5": {
-      "1614": 2,
-      "582": 1
     },
     "4756acd9c1672d55e0514552aba6423b97dc873e5cd58c8ca207c8d316f642c5": {
       "1443": 2,
@@ -15392,6 +15396,9 @@
     "753d1ed434cdd4bdd9c4394235ce3a2646ea0e70123caf81d179852efa2d995a": {
       "373": 1
     },
+    "756cb075c28ebdd16bdcbe49ebcd266c16f31bbd0d54f9c68727d06dff2548a8": {
+      "586": 1
+    },
     "76fa5abdff48004eab3ae1fcf95ebee01c115d3a4553a82889a1d07f27e6899e": {
       "458": 1
     },
@@ -15422,9 +15429,6 @@
     "7ba1fc9ca430c7c48a3fa337532b6f87d1e5af956a8d58f98c525b3f88cb0b0f": {
       "1535": 2,
       "350": 1
-    },
-    "7d0988f64541a4e1802fa0bb1e3bb11023a997420723fdf3c7d7f2b770574865": {
-      "471": 1
     },
     "7e5b430070f400417e3d12421ed2a97ad61a2019f9d6c37d9775360d6a7090d7": {
       "2035": 2,
@@ -15464,6 +15468,9 @@
     },
     "84391ded138b69dbcad0948828fcad8fd5dc0fc1b5538e93c0ffb4d259e1af1b": {
       "504": 1
+    },
+    "8467043bdbc1b9dd48e05021053ae5489732dc741658b8a9cc2745c4789240e4": {
+      "426": 1
     },
     "8478bcf57f48d8b3841ebef2d07ec909a98690ab2a81a5cc406915296bdaffcd": {
       "531": 1
@@ -15524,6 +15531,10 @@
     },
     "8ec3c499b83ff9fd76b2f983d0c41e4547643ad152ddf034bc7b94ff6ec2dfc7": {
       "520": 1
+    },
+    "8f7dbdf30802663913736bcba8dfbaffb85fbcd43d9f4ca3b0ad08ec50fcca56": {
+      "1544": 2,
+      "469": 1
     },
     "9016db8be0fcbd14d8da1c2fcc474197120271affe46750ef73419633161bf7d": {
       "1411": 2,
@@ -15616,14 +15627,6 @@
       "410": 1,
       "840": 2
     },
-    "a104178e4d0a11c37d279e2813fd6b2a03d5bce66f2333e30f51fd4362c1010e": {
-      "1550": 2,
-      "476": 1
-    },
-    "a178f25e4e80af8ffd1c41d329eab627b2d0afefed68863d3107d155a7f84969": {
-      "1086": 2,
-      "502": 1
-    },
     "a1fd175ccf43c932f085a698b9f1294c9d53222452df9ea4f6bbeeadc23ad246": {
       "330": 1
     },
@@ -15675,9 +15678,6 @@
     },
     "a9f780903cef0b25667dbcf5ea33bcb7d07dede85e8a48baf31eb4de3af532ae": {
       "390": 1
-    },
-    "ad7558073c352c449169937c1733689efa4ce079cea037a2f0d50abe2e476caf": {
-      "633": 1
     },
     "ae44bc861847b16beae8158cfdb3de9cadc6afc2fdde518b67d022bad921f6e2": {
       "432": 1
@@ -15798,6 +15798,13 @@
     },
     "c097c86838b67245b095aa5c231e2317dde5105b1e92edc8462f253d1af6cee8": {
       "475": 1
+    },
+    "c1420a8d4a46c52d4d00e4e8d132b3d360a08504dd9c15f1ccba271a2c037bda": {
+      "1581": 2,
+      "561": 1
+    },
+    "c2266e7bbc9db3e55c1d3fd54d77f04605ccd5511e167beeb71b8f3fb1585df6": {
+      "635": 1
     },
     "c233d5c86401fb2ab028ffeb3b9f8614e6c84899c7200facb888dc39b23d742f": {
       "1767": 2,
@@ -15947,10 +15954,6 @@
     "de26c06c72efff95498167ad00d1b5e16c193981cabb2bfbb028a0e57f6f36af": {
       "439": 1
     },
-    "de7bf6a23304087c0e49bef5c695c6cf02550d56fa7d2dad68611ee7c66c836f": {
-      "1899": 2,
-      "571": 1
-    },
     "def401bf34093ba8fd38d230b2f8a4c0c18abd77b8be588124123d932f186dd1": {
       "229": 1
     },
@@ -16010,9 +16013,6 @@
     "e78b8242e85309ae24597e86ca9cb8add7e280a81f85cf33d47555b336aec42b": {
       "1165": 2,
       "396": 1
-    },
-    "e955247d391d5c174c866fa4720f1c7f5f2a9b675cd260bc99c42fef713c48a7": {
-      "607": 1
     },
     "e99352676cae7a968e65353fabeee86e0629f799aaa03c57a970ac1cc2288985": {
       "1347": 2,
@@ -16089,6 +16089,10 @@
       "3388": 3,
       "852": 1
     },
+    "f3bf030b9a0f9babbe869f9157466cc35983b1d666f04b8ffb9a2017563f2aaa": {
+      "1054": 2,
+      "476": 1
+    },
     "f410d257f2113bc5d7c3c69c5d965d44a122c1e078c8e95590c140a827fed57f": {
       "312": 1
     },
@@ -16141,10 +16145,6 @@
     },
     "fe032473965dfa4c94f967e99fc96672969fbb518b61404a4d00bb082676eaf8": {
       "449": 1
-    },
-    "ffe650f7f9b5997b3196f0c53c397f68af01fb6e18b5f8f60fc3f6d931627b71": {
-      "2064": 2,
-      "482": 1
     }
   },
   "pack": "LoreForever_Voice_Female_MorePlaces",

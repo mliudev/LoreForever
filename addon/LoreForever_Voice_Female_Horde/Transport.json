@@ -1069,9 +1069,9 @@
     "npc:shadow-priest-allister": {
       "1": [
         {
-          "duration": 67.89224489795919,
-          "file": "Audio/Transport/full_npc_shadow-priest-allister-61b1be0b965fd42a7553/1-0000.mp3",
-          "sha256": "563ab5651e6f4528d5d049eb7281190efcf13255ee858164cb9ab1f8aa1f86e5",
+          "duration": 69.92979591836735,
+          "file": "Audio/Transport/full_npc_shadow-priest-allister-c93d40be26dda8dda049/1-0000.mp3",
+          "sha256": "88b52466047e0f6ec828c979af5bf1881b84ccec5fb8559fcff4ace44bfcbb27",
           "start": 0
         }
       ],
@@ -1082,15 +1082,15 @@
           "1"
         ]
       },
-      "fullHash": "885d68",
-      "generation": "1d8c2edb19567124ebd4",
+      "fullHash": "87bed3",
+      "generation": "c099ee78db4c229b53ff",
       "hash": "2322b9",
       "source": {
-        "duration": 67.892245,
+        "duration": 69.955918,
         "file": null,
-        "sha256": "61b1be0b965fd42a755362b7545404ba425f81acc8e20a805a231c05ac5669b6"
+        "sha256": "c93d40be26dda8dda049062ed31d3a643cd9f97640275acbd5d4c6f7313d7e83"
       },
-      "text": "Shadow Priest Allister. At the Sepulcher, Shadow Priest Allister directs the Forsaken's efforts across Silverpine Forest. He watches nearby threats and guards Lordaeron's borders for the Dark Lady. Shadow Priest Allister directs Forsaken scouts from the Sepulcher in Silverpine Forest. From there, he watches for renegade humans and beasts. He also tracks arcane activity around Dalaran. Allister's chief concern is Dalaran's surviving mages. He watches especially closely those at Ambermill, who probe across the borders. He will not let the Kirin Tor gain a foothold in Forsaken lands. His agents intercept messengers, decipher arcane runes, and seek the wizards' long-term aims. Allister's duties as a strategist share his attention with the study of shadow. He wrote 'Holy Bologna: What the Light Won't Tell You', a sharp attack on traditional holy doctrine. The book considers undeath's harsh realities and the Holy Light's failure to aid those cast aside by life.\n\nSomehow, copies have reached the ruins of Dire Maul in Kalimdor."
+      "text": "Shadow Priest Allister. At the Sepulcher, Shadow Priest Allister directs the Forsaken's efforts across Silverpine Forest. He watches nearby threats and guards Lordaeron's borders for the Dark Lady. Allister commands the Forsaken scouts who range out from the Sepulcher, the main settlement on the Silverpine road. From there, he watches for renegade humans and beasts. He also tracks arcane activity around Dalaran. Allister's chief concern is Dalaran's surviving mages. He watches especially closely those at Ambermill, who probe across the borders. He will not let the Kirin Tor gain a foothold in Forsaken lands. His agents intercept messengers, decipher arcane runes, and seek the wizards' long-term aims. Allister's duties as a strategist share his attention with the study of shadow. He wrote 'Holy Bologna: What the Light Won't Tell You', a sharp attack on traditional holy doctrine. The book considers undeath's harsh realities and the Holy Light's failure to aid those cast aside by life.\n\nSomehow, copies have reached the ruins of Dire Maul in Kalimdor."
     },
     "npc:shadow-priest-sarvis": {
       "1": [
@@ -5810,20 +5810,6 @@
       2016,
       2218
     ],
-    "563ab5651e6f4528d5d049eb7281190efcf13255ee858164cb9ab1f8aa1f86e5": [
-      251,
-      449,
-      654,
-      800,
-      947,
-      1110,
-      1301,
-      1462,
-      1731,
-      1917,
-      2157,
-      2423
-    ],
     "56b7776434fc6915304dc669c16c238225e971ad91f3bb1d4297cb84e62db04d": [
       749,
       1552
@@ -6170,6 +6156,20 @@
       649,
       824,
       1108
+    ],
+    "88b52466047e0f6ec828c979af5bf1881b84ccec5fb8559fcff4ace44bfcbb27": [
+      249,
+      446,
+      618,
+      883,
+      1030,
+      1173,
+      1361,
+      1518,
+      1780,
+      1966,
+      2110,
+      2489
     ],
     "8a1668a57f72451bf1e15c1d2e22fa271eaaf8b2914396d51de905bea762a4eb": [
       208,
@@ -7487,11 +7487,6 @@
       "1500": 2,
       "503": 1
     },
-    "563ab5651e6f4528d5d049eb7281190efcf13255ee858164cb9ab1f8aa1f86e5": {
-      "1731": 3,
-      "449": 1,
-      "947": 2
-    },
     "58272eaa45e56dfede6657c4595b730353cb0ec19a24dc18b09e654c6faed62b": {
       "488": 1
     },
@@ -7608,6 +7603,11 @@
     },
     "8846520e76976b2ec7c9e807fe104ccb5ae7475e7094572b1f0a973414f0ff5c": {
       "485": 1
+    },
+    "88b52466047e0f6ec828c979af5bf1881b84ccec5fb8559fcff4ace44bfcbb27": {
+      "1030": 2,
+      "1780": 3,
+      "446": 1
     },
     "8a1668a57f72451bf1e15c1d2e22fa271eaaf8b2914396d51de905bea762a4eb": {
       "605": 1

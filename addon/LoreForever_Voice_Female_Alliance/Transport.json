@@ -913,9 +913,9 @@
     "npc:grelin-whitebeard": {
       "1": [
         {
-          "duration": 64.44408163265307,
-          "file": "Audio/Transport/full_npc_grelin-whitebeard-5cb12a399621d4733713/1-0000.mp3",
-          "sha256": "c1bb8da963d70cdf114790bde643d1b1be448f502ff9ca32f8baaa473d9ba8da",
+          "duration": 66.06367346938775,
+          "file": "Audio/Transport/full_npc_grelin-whitebeard-93676f5526015fd699e7/1-0000.mp3",
+          "sha256": "831fafbc335e7cf23a34a7b5e7c78dcc5cccad80668f25fe74cccad96a2ce427",
           "start": 0
         }
       ],
@@ -927,12 +927,12 @@
         ]
       },
       "fullHash": "d2dc43",
-      "generation": "6b447d0c804077bc26ec",
+      "generation": "2e89eb563fca73ca04bc",
       "hash": "a10bb3",
       "source": {
-        "duration": 64.470204,
+        "duration": 66.089796,
         "file": null,
-        "sha256": "5cb12a399621d473371392a8fe4afdc77a4294d48139f6264adf218d45d2a4cf"
+        "sha256": "93676f5526015fd699e729837de5a818ad42d6e9e4a7524d79dab88c72efe252"
       },
       "text": "Grelin Whitebeard. In Coldridge Valley, Grelin Whitebeard keeps watch over the Frostmane threat by royal decree. Ironforge is busy fighting troggs, so his isolated camp depends on local recruits. Grelin Whitebeard and his brother Senir came to Coldridge Valley under orders from the Senate of Ironforge and King Magni Bronzebeard. Their charge was to assess and quell the threat from the native Frostmane trolls. Ironforge's soldiers are busy fighting trogg outbreaks across Dun Morogh, leaving the brothers short of supplies. So Grelin made camp in the snowy hills and relies on local recruits and passing initiates to do the work. From his camp, Grelin watches the Frostmane tribe press south from Coldridge Valley. The trolls grow bolder and raid beyond their mountain caverns. During one raid, Grik'nir the Cold, a heavily painted troll, slipped into the unattended camp and stole Grelin's field journal of observations.\n\nGrelin will not fail the King. He sends travelers into the Frostmane caves to recover his writings and carry his final report to Senir in Kharanos."
     },
@@ -1277,9 +1277,9 @@
     "npc:jordan-stilwell": {
       "1": [
         {
-          "duration": 58.72326530612245,
-          "file": "Audio/Transport/full_npc_jordan-stilwell-f3ad74e513afb678d46a/1-0000.mp3",
-          "sha256": "e56d3c543da3cd56cfa7aabb1f437e7623f001784a89d0919297f318ff9798a4",
+          "duration": 56.99918367346939,
+          "file": "Audio/Transport/full_npc_jordan-stilwell-aded0f7b6b0d23d6e4f3/1-0000.mp3",
+          "sha256": "d37e6bd14312a062388507a5e4a57d0f40653e1205d8a73da0430ade81d2f9f8",
           "start": 0
         }
       ],
@@ -1291,12 +1291,12 @@
         ]
       },
       "fullHash": "b0a7c4",
-      "generation": "1d2d6c795d1d0d1699a8",
+      "generation": "aff549335e1d326bbb07",
       "hash": "d0b3a0",
       "source": {
-        "duration": 58.749388,
+        "duration": 57.025306,
         "file": null,
-        "sha256": "f3ad74e513afb678d46a05071fc0e5bf34a0ad76447287903d3206da2060781d"
+        "sha256": "aded0f7b6b0d23d6e4f385190b126aca832d52f1616fd353aa5752da4e484ba5"
       },
       "text": "Jordan Stilwell. Outside Ironforge’s gates, Jordan Stilwell tends his forge in Dun Morogh. Once expected to join the Church of the Holy Light, he followed his father into smithing and learned from Bailor Stonehand. Now his craft arms paladins across the Alliance. Jordan Stilwell was expected to take holy vows and become a paladin in the Church of the Holy Light. Instead, he followed his father into smithing and took up his father’s enchanted hammer. Bailor Stonehand, a dwarven blacksmith, helped him refine his craft. Jordan remains deeply faithful to the Light and puts his skill to work for champions who fight in its name. Jordan once worked as a smith at Baron Silverlaine’s keep in Silverpine Forest. Then Archmage Arugal unleashed feral worgen upon the fortress and made it Shadowfang Keep. Jordan escaped the bloodshed, leaving his forge and former home behind. In time, he found refuge among the dwarves of Dun Morogh."
     },
@@ -1771,9 +1771,9 @@
     "npc:ozzie-togglevolt": {
       "1": [
         {
-          "duration": 44.77387755102041,
-          "file": "Audio/Transport/full_npc_ozzie-togglevolt-707c8eb98b14f875205f/1-0000.mp3",
-          "sha256": "56070f70861a73e16ea44cdaf98e05b94f6b3bfff21bda4c915c1efcfa7deb32",
+          "duration": 44.434285714285714,
+          "file": "Audio/Transport/full_npc_ozzie-togglevolt-45d8964097e896e04827/1-0000.mp3",
+          "sha256": "da2e0dba4d1fb72e33821ca5e123fa474fbec29277d87ba3ab8fa4a24dcce924",
           "start": 0
         }
       ],
@@ -1785,12 +1785,12 @@
         ]
       },
       "fullHash": "b2ac14",
-      "generation": "b067f0d50e6643c3b4b2",
+      "generation": "eaff95e3cb03f32b38c8",
       "hash": "f63baa",
       "source": {
-        "duration": 44.8,
+        "duration": 44.460408,
         "file": null,
-        "sha256": "707c8eb98b14f875205f4b8dc2d4490fcf7aa43f4deb8b589419890f22853d77"
+        "sha256": "45d8964097e896e04827f91b3750892fac6df1a299dc254a6e097438202930f4"
       },
       "text": "Ozzie Togglevolt. In Kharanos, Ozzie Togglevolt works with Razzle Sprysprocket to find a cure for the leper gnomes of Gnomeregan. Their research continues among the snowy hills of Dun Morogh. Ozzie Togglevolt was deep inside Gnomeregan when catastrophe struck. Toxic fallout filled the corridors to stem the trogg invasion. Ozzie stood beside Gnoarn when a sudden radioactive discharge changed Gnoarn forever. Ozzie escaped to the surface and reached Dun Morogh alive, but the disaster stayed with him. In Kharanos, Ozzie spends his days tinkering with Razzle Sprysprocket. Their work is personal. They seek a way to reverse the mutagenic fallout from their lost home and cure the suffering leper gnomes."
     },
@@ -1875,9 +1875,9 @@
     "npc:rejold-barleybrew": {
       "1": [
         {
-          "duration": 48.71836734693878,
-          "file": "Audio/Transport/full_npc_rejold-barleybrew-016bd09af24c35b60525/1-0000.mp3",
-          "sha256": "96de4b37f315d578e4900579720963b86c2a42eefab584a9d4389397dc57728f",
+          "duration": 48.587755102040816,
+          "file": "Audio/Transport/full_npc_rejold-barleybrew-a5658ced463fc1772274/1-0000.mp3",
+          "sha256": "03a822ec55b099a7ef11a94805b9f7cb10c5b20f49cef0eb558cc059e27acd07",
           "start": 0
         }
       ],
@@ -1889,12 +1889,12 @@
         ]
       },
       "fullHash": "72cd5a",
-      "generation": "e21322c167647625da27",
+      "generation": "3518daef3687f53471d0",
       "hash": "75d011",
       "source": {
-        "duration": 48.718367,
+        "duration": 48.587755,
         "file": null,
-        "sha256": "016bd09af24c35b60525c8a74bf0d84f5482d752f7c70dd4a8297f97847a2d86"
+        "sha256": "a5658ced463fc17722743b42a5040ff7f856e4de3be030fc5a8ef4251786b243"
       },
       "text": "Rejold Barleybrew. At Brewnall Village, Rejold Barleybrew keeps working toward the perfect mountain spirit. He gathers ingredients from western Dun Morogh and tests each recipe. Dwarves in Dun Morogh take brewing seriously. Rejold works in Brewnall Village, near the frozen lake of the Iceflow River. He keeps refining his blends with rare hops, mountain minerals, and pristine ice water. His aim is a stout hearty enough to warm even the stoutest dwarven warriors. Rejold seeks the right flavors for drinks such as Shimmer Stout. He sends travelers across Dun Morogh for ingredients and trades favors with the siege pilots of Steelgrill's Depot. He also arranges deliveries to thirsty patrons. So hearty ale keeps flowing along Dun Morogh's cold, trogg-plagued roads."
     },
@@ -1979,9 +1979,9 @@
     "npc:senir-whitebeard": {
       "1": [
         {
-          "duration": 48.87510204081633,
-          "file": "Audio/Transport/full_npc_senir-whitebeard-87ae4b75618084cd02f2/1-0000.mp3",
-          "sha256": "c5aeab1e9a00d8ecfe54cfdafe94bbaa6a448f6fd03da753d90f1d6c1421fe37",
+          "duration": 50.62530612244898,
+          "file": "Audio/Transport/full_npc_senir-whitebeard-d019ab3cd2bb66e215e0/1-0000.mp3",
+          "sha256": "f4f278958627fa7a8cb790700e1d244c872e81ae772f630206274f74d8c6dbe9",
           "start": 0
         }
       ],
@@ -1993,12 +1993,12 @@
         ]
       },
       "fullHash": "a18908",
-      "generation": "bfceab6059cf21c07a9b",
+      "generation": "f955e590b725f31cb5cb",
       "hash": "b6272c",
       "source": {
-        "duration": 48.901224,
+        "duration": 50.651429,
         "file": null,
-        "sha256": "87ae4b75618084cd02f2b238f0619b5b37e1790641aaca1cc13e209eacf9e614"
+        "sha256": "d019ab3cd2bb66e215e0e91ed008740d0a8d2e9c0164270e8fc90677086725b7"
       },
       "text": "Senir Whitebeard. Outside the Thunderbrew Distillery in Kharanos, Senir Whitebeard watches the threats growing across Dun Morogh. The Senate of Ironforge sent him to assess the Frostmane troll offensive and report their movements to the dwarven leadership. Senir Whitebeard brings the Senate of Ironforge's authority to Kharanos. The city's halls watch as unrest grows across Dun Morogh. Senir carries news from scouts on the snowy frontier to the lawmakers behind Ironforge's stone gates. The Frostmane trolls grow more aggressive, pressing close to dwarven settlements and roads from the frozen crags where they are displaced and desperate. Senir gathers reports on their positions, especially around their stronghold, for Ironforge's military commanders. His work is to gather intelligence, not charge into battle."
     },
@@ -2265,9 +2265,9 @@
     "npc:tiza-battleforge": {
       "1": [
         {
-          "duration": 44.434285714285714,
-          "file": "Audio/Transport/full_npc_tiza-battleforge-fd51b27b5cee33a7fc2a/1-0000.mp3",
-          "sha256": "8b180d133914950701269563a4cc279e56aa6ec8bdc3c6f526ef74b7d9f1b617",
+          "duration": 42.52734693877551,
+          "file": "Audio/Transport/full_npc_tiza-battleforge-46e833a9195f01b40f1f/1-0000.mp3",
+          "sha256": "be3371f1d3321b4000c4365d99613d825eb5a2ab699f4322064f95d5715356b0",
           "start": 0
         }
       ],
@@ -2279,12 +2279,12 @@
         ]
       },
       "fullHash": "0bb70b",
-      "generation": "2710a48c6023ef074443",
+      "generation": "eca0aadb594b9c96d28d",
       "hash": "0bb70b",
       "source": {
-        "duration": 44.460408,
+        "duration": 42.553469,
         "file": null,
-        "sha256": "fd51b27b5cee33a7fc2ad8bed247959a43d79eff55f38d6d72c67e18e4813c70"
+        "sha256": "46e833a9195f01b40f1f1c4b5656ff73046c8df70eab3f74f71ec5094193359a"
       },
       "text": "Tiza Battleforge. In Ironforge, Tiza Battleforge guides young paladins through the ways of the Holy Light. She teaches virtue, charity, and self-sacrifice, then tests initiates before they may wield its gift of resurrection. Tiza Battleforge guides paladins in Ironforge's Hall of Mysteries. Tutors across the Alliance send initiates to her for deeper study of the Light. Brandur Ironhammer sends them from Ironforge, Azar Stronghammer from Dun Morogh, and Lord Grayson Shadowbreaker from Stormwind.\n\nTiza teaches that the Holy Light asks more than skill in battle. Its servants must offer humble service, show compassion, and stand firm against the Scourge and other threats."
     },
@@ -2681,9 +2681,9 @@
     "subzone:anvilmar": {
       "1": [
         {
-          "duration": 48.79673469387755,
-          "file": "Audio/Transport/full_subzone_anvilmar-8b611e0b1b5b3421fb98/1-0000.mp3",
-          "sha256": "b8fc8b4dc31bab6d3fc4c95f80aace7368cef0c9668647bda67e8fbbca51f21a",
+          "duration": 47.882448979591835,
+          "file": "Audio/Transport/full_subzone_anvilmar-0646a17602f0ad697175/1-0000.mp3",
+          "sha256": "b1a2c7e20f166f9f191602194de4562849db3eb047226149caa232af15f54d78",
           "start": 0
         }
       ],
@@ -2695,12 +2695,12 @@
         ]
       },
       "fullHash": "8e3204",
-      "generation": "5814ba87a3f6b6c94c3b",
+      "generation": "25b54a3d9d8364c7c750",
       "hash": "f07758",
       "source": {
-        "duration": 48.822857,
+        "duration": 47.908571,
         "file": null,
-        "sha256": "8b611e0b1b5b3421fb9887d8f7b9a72432beccabf7e98dce36bc2035d3a6c858"
+        "sha256": "0646a17602f0ad697175a17b424eee7009550a29e508097b03b086c01422a2eb"
       },
       "text": "Anvilmar. In Coldridge Valley, Anvilmar gathers young Bronzebeard dwarves and displaced gnomes to train for the road ahead. Snowy Dun Morogh surrounds the fortified outpost and its great stone forge. A great forge burns inside Anvilmar's sturdy stone walls in the northern crags of Coldridge Valley. Class mentors and supply vendors serve the outpost, while veteran mountain mountaineers drill recruits before they set out across the kingdom. Snowdrifts shelter the walls, but Frostmane trolls and wild beasts prowl the frozen valley, keeping the defenders alert. Anvilmar may take its name from High King Modimus Anvilmar. He ruled the dwarven clans before the War of the Three Hammers. Today, the garrison keeps watch and tends the forge fires as trolls and beasts roam the valley."
     },
@@ -3123,9 +3123,9 @@
     "subzone:brewnall-village": {
       "1": [
         {
-          "duration": 34.037551020408166,
-          "file": "Audio/Transport/full_subzone_brewnall-village-1b8f229ece21a07a5a29/1-0000.mp3",
-          "sha256": "e36c6d2ff6981485816081e1abb4f02d8157b4163af0b303255476420750031f",
+          "duration": 33.332244897959185,
+          "file": "Audio/Transport/full_subzone_brewnall-village-48fb13305223c868efe1/1-0000.mp3",
+          "sha256": "4124570933bdef4de5a8e246dcbf51473ef0fee56ae493cc6e7cffd08987e844",
           "start": 0
         }
       ],
@@ -3137,12 +3137,12 @@
         ]
       },
       "fullHash": "c3ef67",
-      "generation": "6bec518565932c13a8f9",
+      "generation": "dc29c2452d3d8335a1b3",
       "hash": "c3ef67",
       "source": {
-        "duration": 34.037551,
+        "duration": 33.358367,
         "file": null,
-        "sha256": "1b8f229ece21a07a5a2935d910256831033a719364614dbc2ac0b210b514e9d9"
+        "sha256": "48fb13305223c868efe1c719acca28564a3b89cf2b648158d1e146b640121dba"
       },
       "text": "Brewnall Village. In Chill Breeze Valley, the Barleybrew family works on new brews and guards against wild beasts. Their camp lies near the entrance to Gnomeregan. The Barleybrew clan brews in Chill Breeze Valley, among the gnomish reaches of western Dun Morogh. They work to perfect old recipes and make the finest stout. Tents and brewing gear fill the camp, with no permanent stone buildings. As the Barleybrews test new ales, wolves and bears threaten the valley. Wandering mountaineers gather rare ingredients and help keep the area safe."
     },
@@ -3383,9 +3383,9 @@
     "subzone:chill-breeze-valley": {
       "1": [
         {
-          "duration": 39.81061224489796,
-          "file": "Audio/Transport/full_subzone_chill-breeze-valley-7358af5d7edb0595ced1/1-0000.mp3",
-          "sha256": "c0777680a511004030ce2b969abe784c9e3b201c156a8a131f2204a3f470bcdf",
+          "duration": 38.50448979591837,
+          "file": "Audio/Transport/full_subzone_chill-breeze-valley-4804d8a6bbdf92e54535/1-0000.mp3",
+          "sha256": "fa2156595a841d9322fb069a9a5913214383d434e43c5acf888f6f1185da234b",
           "start": 0
         }
       ],
@@ -3397,12 +3397,12 @@
         ]
       },
       "fullHash": "03cf29",
-      "generation": "2a3db9137b4bd7766ba8",
+      "generation": "d0d1e9ed97d3b31e8955",
       "hash": "03cf29",
       "source": {
-        "duration": 39.836735,
+        "duration": 38.530612,
         "file": null,
-        "sha256": "7358af5d7edb0595ced1f1d5ead34da46d52cde13910b15ecef3f6f4fa8b9a55"
+        "sha256": "4804d8a6bbdf92e545355b589a4520848c9e4dca7ccbdafb53c7207979dd3b52"
       },
       "text": "Chill Breeze Valley. In western Dun Morogh, travelers cross Chill Breeze Valley between Kharanos and Gnomeregan. Refugees and young travelers follow the main trail, while dangerous beasts haunt the secluded reaches. A T-shaped trench cuts through the mountains, its main trail running east to west. Young dwarves and gnomes travel between Kharanos and the outskirts of Gnomeregan. The north-south branch leads into dangerous ground. Blood stains the snow, and mangled carcasses lie nearby.\n\nSavage wendigos make dens in deep ice caves. They prey on anyone who wanders into their hunting grounds."
     },
@@ -3487,9 +3487,9 @@
     "subzone:coldridge-pass": {
       "1": [
         {
-          "duration": 24.215510204081635,
-          "file": "Audio/Transport/full_subzone_coldridge-pass-4851abe35be5493ef07f/1-0000.mp3",
-          "sha256": "4588140e8ca5f947f1482fadbfffa886bb4343c09f12e9048e197c7352d6c06c",
+          "duration": 24.633469387755103,
+          "file": "Audio/Transport/full_subzone_coldridge-pass-a6b578ee70ea7c882ce2/1-0000.mp3",
+          "sha256": "cfda7b530147ad455512bb6dfbb0f1c8e32400d596880cbddefd7104028c50ee",
           "start": 0
         }
       ],
@@ -3501,12 +3501,12 @@
         ]
       },
       "fullHash": "1e03b4",
-      "generation": "e642dbcfe0962af9d5ec",
+      "generation": "778971e6e90140edae46",
       "hash": "1e03b4",
       "source": {
-        "duration": 24.241633,
+        "duration": 24.633469,
         "file": null,
-        "sha256": "4851abe35be5493ef07f1b7b0e29d14b039fc573144da6dd8849507d68af33b2"
+        "sha256": "a6b578ee70ea7c882ce2672628638c9a9bde600393d0e0908c6b5670b14d4b24"
       },
       "text": "Coldridge Pass. Troggs now bar the road through Coldridge Pass, the way out of Coldridge Valley. Recruits leave Coldridge Valley through Coldridge Pass and travel toward Kharanos. The tunnel cuts through Dun Morogh’s southern mountain ridge, carrying them from sheltered training grounds into the wider kingdom. Troggs have overrun the passage, threatening anyone who crosses between the valley and the rest of Dun Morogh."
     },
@@ -4631,9 +4631,9 @@
     "subzone:frostmane-hold": {
       "1": [
         {
-          "duration": 46.62857142857143,
-          "file": "Audio/Transport/full_subzone_frostmane-hold-88c218b765daec6a9fbe/1-0000.mp3",
-          "sha256": "dc9e09dfb2a1a29a7f1b5a752d8b354a5882eb75ec69c3e94c03356b01416f2d",
+          "duration": 45.50530612244898,
+          "file": "Audio/Transport/full_subzone_frostmane-hold-e3e38a4b7de461ad43e0/1-0000.mp3",
+          "sha256": "c628c244fc1ab6d58eee302c11a63c677783916503e4cf2a5c0b0fe99f02f276",
           "start": 0
         }
       ],
@@ -4645,12 +4645,12 @@
         ]
       },
       "fullHash": "678f6c",
-      "generation": "c1f0fea3820dca4f1918",
+      "generation": "b3c94fa5144eb243f7bd",
       "hash": "50006c",
       "source": {
-        "duration": 46.628571,
+        "duration": 45.531429,
         "file": null,
-        "sha256": "88c218b765daec6a9fbe92f6c3638bf0dd66378e8e9362f4844c872e3ffc4fba"
+        "sha256": "e3e38a4b7de461ad43e0ac2636f3014f61b61d979da7971ec2f8d1a7c8e2df69"
       },
       "text": "Frostmane Hold. Frostmane trolls raid from the cliffs south of Gnomeregan in western Dun Morogh. The Ironforge Guard watches their camp and caverns as the raiders press into dwarven lands. In western Dun Morogh, Frostmane Hold cuts into cold cliffs. Rough structures stand outside its winding caves, where hideskinners and headhunters guard the tribe’s stronghold. From here, Frostmane raiders strike the valleys, threaten travelers on mountain passes, and test the defenses around Kharanos. Dwarven commanders in Kharanos fear the growing Frostmane force. Young mountaineers and adventurers scout the caverns and map their defenses. They thin the warbands before the tribe can gather for an organized assault on dwarven outposts."
     },
@@ -4735,9 +4735,9 @@
     "subzone:gates-of-ironforge": {
       "1": [
         {
-          "duration": 36.72816326530612,
-          "file": "Audio/Transport/full_subzone_gates-of-ironforge-8e30739137c33b784814/1-0000.mp3",
-          "sha256": "1791bbffc6fb2fa1eacc35c2ce4bb135ebada4b3a74cc9de21ac6ba6fdb7e4c2",
+          "duration": 35.604897959183674,
+          "file": "Audio/Transport/full_subzone_gates-of-ironforge-b84ab9718d6dac92d7aa/1-0000.mp3",
+          "sha256": "80fc3e9fd06e92b09b22c8b43e73f0a7a7e36f5c9012c13681afa2bd7013cbf2",
           "start": 0
         }
       ],
@@ -4749,12 +4749,12 @@
         ]
       },
       "fullHash": "024d0f",
-      "generation": "75b4814aecfd9816ba0a",
+      "generation": "b2f416466966d1e049a6",
       "hash": "024d0f",
       "source": {
-        "duration": 36.754286,
+        "duration": 35.63102,
         "file": null,
-        "sha256": "8e30739137c33b7848144c5fb3dcafc24777159794c3971705140a6d965ef1ca"
+        "sha256": "b84ab9718d6dac92d7aac9cd415f0b4afcab243470aa4bec47640aa25b99310c"
       },
       "text": "Gates of Ironforge. From Dun Morogh, travelers climb to the Gates of Ironforge, where a stone king guards the way into the dwarven capital. The gates open in the mountain face, with High King Modimus Anvilmar's statue just inside. From central Dun Morogh, you climb a winding, fortified ramp through the snowy lowlands to the Gates of Ironforge. Beyond the great portal stands a stone likeness of High King Modimus Anvilmar. He united the dwarven clans before the War of the Three Hammers. The passage opens into the Commons, where Ironforge's trade and banking are centered."
     },
@@ -4787,9 +4787,9 @@
     "subzone:gol-bolar-quarry": {
       "1": [
         {
-          "duration": 39.44489795918368,
-          "file": "Audio/Transport/full_subzone_gol-bolar-quarry-f5d36e32118ae939e257/1-0000.mp3",
-          "sha256": "4776062f8ccd97b6a0b26c7278090f55cc231949303636f75baddab4bb3f7c0c",
+          "duration": 38.269387755102045,
+          "file": "Audio/Transport/full_subzone_gol-bolar-quarry-3f06ee9e5dc92b80fad4/1-0000.mp3",
+          "sha256": "38260799b5969fed272f7248f6fdcbbe5c2115ceca9df3a2b198418c125b3144",
           "start": 0
         }
       ],
@@ -4801,21 +4801,21 @@
         ]
       },
       "fullHash": "5e7732",
-      "generation": "096b464193e967fb297b",
+      "generation": "377a0cca56ca7f5ca166",
       "hash": "5e7732",
       "source": {
-        "duration": 39.47102,
+        "duration": 38.29551,
         "file": null,
-        "sha256": "f5d36e32118ae939e257d4a6d812fdd25ac87414cb763a98cd70be5e6a0d5106"
+        "sha256": "3f06ee9e5dc92b80fad49bdf0de4b27f823dcca88896c5dbd77ebc58d679744c"
       },
       "text": "Gol'Bolar Quarry. At Gol'Bolar Quarry, troggs have driven the miners from the snowy hills of southeastern Dun Morogh. The Ironforge dwarves came for stone and ore, but now the dig lies quiet. Ironforge dwarves opened Gol'Bolar Quarry southeast of Kharanos to draw stone and mineral wealth from the mountains. Their digging broke into underground warrens and brought a horde of hostile troggs into the open. The creatures soon drove out the miners.\n\nThe upper camp is now an embattled staging ground. Overseers, tradesfolk, and Prospector Gehn gather dwarven and gnomish recruits there to drive the troggs back and reclaim the pit."
     },
     "subzone:gol-bolar-quarry-mine": {
       "1": [
         {
-          "duration": 51.87918367346939,
-          "file": "Audio/Transport/full_subzone_gol-bolar-quarry-mine-b95a653075644cbba797/1-0000.mp3",
-          "sha256": "f9e25a47a91f82b54f8879c524b52c1af7b44c873684400430d8315fc9b04cf8",
+          "duration": 50.80816326530613,
+          "file": "Audio/Transport/full_subzone_gol-bolar-quarry-mine-a1e3778f6011e748d5e8/1-0000.mp3",
+          "sha256": "15e2e07a52f0115b839079046ea82fe3f853896c4465b993b1a5b413da892578",
           "start": 0
         }
       ],
@@ -4827,12 +4827,12 @@
         ]
       },
       "fullHash": "a22b3d",
-      "generation": "d3d50a4ae5638d1b36e9",
+      "generation": "bc0fb6e4a161dbfe6df1",
       "hash": "705c48",
       "source": {
-        "duration": 51.905306,
+        "duration": 50.834286,
         "file": null,
-        "sha256": "b95a653075644cbba797d85e48aea014685fc17860c7fe7dd2cb14f63e502fe1"
+        "sha256": "a1e3778f6011e748d5e820ed4f83ae81f0adf88bf3ad402b39faade1092040d1"
       },
       "text": "Gol'Bolar Quarry Mine. Troggs hold Gol'Bolar Quarry Mine beneath the quarry in eastern Dun Morogh. Dwarves of Ironforge mined its tunnels for stone and rich ore until their picks broke into trogg caverns. Now Hammerspine leads the warband in the deepest shafts. The dwarves' pickaxes broke through a wall into caverns where troggs dwelled. Their mining ended there. Troggs poured from the darkness, overwhelmed the crews, and drove them from the mine. The abandoned shafts remain in trogg hands. Younger troggs roam the quarry's sunlit terraces, but the mine shelters the warband's fiercest fighters. Deep in its cramped tunnels lurks Hammerspine, their vicious chieftain. Local mountaineers still need to reclaim the valuable quarry. To do so, they must reach the mine's deepest shafts and cut off the troggs at their source."
     },
@@ -5047,9 +5047,9 @@
     "subzone:grizzled-den": {
       "1": [
         {
-          "duration": 42.292244897959186,
-          "file": "Audio/Transport/full_subzone_grizzled-den-7506968ba2a2d79bea25/1-0000.mp3",
-          "sha256": "1939da475a0fd676792c131b5dd51e542518f70d23b74e98a89bfa83d31b2097",
+          "duration": 43.36326530612245,
+          "file": "Audio/Transport/full_subzone_grizzled-den-792b03fe912ce0bb0098/1-0000.mp3",
+          "sha256": "71ea921553f0600a25557810ad2c9222ee4d5e3aaa034718ed6a0247b0a6c867",
           "start": 0
         }
       ],
@@ -5061,12 +5061,12 @@
         ]
       },
       "fullHash": "4e71ff",
-      "generation": "4dd3ef169d653dbb01ad",
+      "generation": "d5830a80e01e578471cf",
       "hash": "623b7b",
       "source": {
-        "duration": 42.292245,
+        "duration": 43.389388,
         "file": null,
-        "sha256": "7506968ba2a2d79bea255d346e0fd495bbaff15a355356f9fed50011a66efd70"
+        "sha256": "792b03fe912ce0bb00983f83650eafff19398c363373e813170a07baaf458708"
       },
       "text": "Grizzled Den. In Dun Morogh, wendigo packs make their lair in Grizzled Den, southwest of Kharanos. Southwest of Kharanos, Grizzled Den cuts into Dun Morogh’s crags. Wendigo packs make their home in its hollows. These aggressive, ape-like beasts breathe frost at intruders and band together to defend their lair. Hunters brave the cavern for thick wendigo manes, used by craftsmen to line cold chairs and carriage seats with insulating fur. Prospectors work copper veins in Grizzled Den’s frozen stone walls. Scouts search its darker corners for discarded footlockers. Deeper in the tunnels, the den’s largest and most vicious predators wait in the shadows."
     },
@@ -5281,9 +5281,9 @@
     "subzone:helm-s-bed-lake": {
       "1": [
         {
-          "duration": 29.387755102040817,
-          "file": "Audio/Transport/full_subzone_helm-s-bed-lake-7da552766b8545c4cfab/1-0000.mp3",
-          "sha256": "cdb77805ddb8fd8371f4ddb36aa73def8b273ac109fff1a53946505f41e7b3d0",
+          "duration": 28.604081632653063,
+          "file": "Audio/Transport/full_subzone_helm-s-bed-lake-b046fd5cd17c391344a7/1-0000.mp3",
+          "sha256": "2ed5e50d37f708bfe963af93ce2ad28b3ddd70c078265dd7e33b583aa170d2b7",
           "start": 0
         }
       ],
@@ -5295,12 +5295,12 @@
         ]
       },
       "fullHash": "a0a729",
-      "generation": "f5f725af41a825ad4ecd",
+      "generation": "a39b2e35071ff279083f",
       "hash": "a0a729",
       "source": {
-        "duration": 29.413878,
+        "duration": 28.630204,
         "file": null,
-        "sha256": "7da552766b8545c4cfab1187a164551d2789c4b58e505870a1d71050bb9932cf"
+        "sha256": "b046fd5cd17c391344a72676d11577b9d8f8e1a7231ecad6cfa256b087929597"
       },
       "text": "Helm's Bed Lake. In southeastern Dun Morogh, dwarves keep a hole open in Helm's Bed Lake for fresh water. But beasts, troggs, and hostile Dark Iron dwarves make the shore dangerous. The ice is firm enough to cross, but the banks are dangerous. Displaced troggs scavenge along the ridges, and wild beasts prowl the edges. South of the water, hostile Dark Iron dwarves have taken an abandoned lodge. They ambush travelers who pass nearby."
     },
@@ -5463,9 +5463,9 @@
     "subzone:iceflow-lake": {
       "1": [
         {
-          "duration": 33.01877551020408,
-          "file": "Audio/Transport/full_subzone_iceflow-lake-dfb57e2cbf43a07d059b/1-0000.mp3",
-          "sha256": "ae3e712b4324ea97ea267ad9def56cf41fc645873d1d892975ad10dfb6e625b0",
+          "duration": 33.462857142857146,
+          "file": "Audio/Transport/full_subzone_iceflow-lake-b8599a19eff3d89aeace/1-0000.mp3",
+          "sha256": "cbd112dab36d076d46989f5ad0804de5265d6e3e1cc3e041a8fd780b3ddd746f",
           "start": 0
         }
       ],
@@ -5477,12 +5477,12 @@
         ]
       },
       "fullHash": "e0cebc",
-      "generation": "f052eb85cbc98c4caf9e",
+      "generation": "4cc56a94d5e5f466bbdc",
       "hash": "e0cebc",
       "source": {
-        "duration": 33.044898,
+        "duration": 33.48898,
         "file": null,
-        "sha256": "dfb57e2cbf43a07d059b763481121690304f7677a964f650f47968032759e1a7"
+        "sha256": "b8599a19eff3d89aeace88b63b143739eddfbce3d3f3c811d900022e29f5f52a"
       },
       "text": "Iceflow Lake. In western Dun Morogh, dwarves keep fishing holes open at Iceflow Lake, just north of Brewnall Village. Snow-covered islands rise from its center, where winter wolves prowl under their alpha, Timber. Paxton Ganter and other local dwarves clear thick ice from the lake for drinking water and fish. Bitter cold sweeps the shore, yet it still sustains them.\n\nThe islands are dangerous ground. A fierce pack of wild wolves prowls the icy mounds, led by Timber, a savage gray worg."
     },
@@ -5515,9 +5515,9 @@
     "subzone:ironband-s-compound": {
       "1": [
         {
-          "duration": 43.2065306122449,
-          "file": "Audio/Transport/full_subzone_ironband-s-compound-4b45a90fbaa11061cc02/1-0000.mp3",
-          "sha256": "c84bb32a8ebb298464f490d11893fdb8c7bb38662ea90258692bf5516dda0689",
+          "duration": 44.77387755102041,
+          "file": "Audio/Transport/full_subzone_ironband-s-compound-1116c48aeaa3f39f938c/1-0000.mp3",
+          "sha256": "dc7cd7f9f311a30d0ca047da2dcdaeaeae68498f68e01a80aa24f1eac35cbee0",
           "start": 0
         }
       ],
@@ -5529,12 +5529,12 @@
         ]
       },
       "fullHash": "7c38de",
-      "generation": "12bac9a30154b43febc3",
+      "generation": "679e01c2114c39defb87",
       "hash": "122035",
       "source": {
-        "duration": 43.232653,
+        "duration": 44.8,
         "file": null,
-        "sha256": "4b45a90fbaa11061cc0238fa7221e5fc4172c7ba8b27eb5f51b90fb50d1cbc4b"
+        "sha256": "1116c48aeaa3f39f938c747b807813df9f429657eac7c79154386e1c869a016d"
       },
       "text": "Ironband's Compound. Dark Iron dwarves now hold Ironband's Compound south of Helm's Bed Lake in eastern Dun Morogh. Sturgy Ironband once used the camp, but its fall has brought danger to travelers and nearby settlements. Sturgy Ironband raised the camp as a staging post in Dun Morogh's snowy wilderness. Dark Iron infiltrators then pushed deep into Bronzebeard territory and seized it. Their forces now stand close to Ironforge, and the outpost threatens the city's edge. Within Dun Morogh, the Dark Iron camp is a grave provocation to Ironforge. The city keeps watch and sends seasoned warriors to recover fallen scouts. They also seek vital intelligence on the Dark Iron threat in the mountain kingdom."
     },
@@ -5619,9 +5619,9 @@
     "subzone:ironforge-airfield": {
       "1": [
         {
-          "duration": 44.38204081632653,
-          "file": "Audio/Transport/full_subzone_ironforge-airfield-ebc4ac83ee19c1d630a3/1-0000.mp3",
-          "sha256": "2a7dcf6404352892af5a5a80fd7bd1ec5459e361d39b338a4c01e959276a9c38",
+          "duration": 41.95265306122449,
+          "file": "Audio/Transport/full_subzone_ironforge-airfield-d20ba1586beed1d905a4/1-0000.mp3",
+          "sha256": "b3e0f4e4d5703006fb102c1f322650e515821afb8365145dad818aa7e199d66e",
           "start": 0
         }
       ],
@@ -5633,12 +5633,12 @@
         ]
       },
       "fullHash": "a3fbcb",
-      "generation": "acce81a0361a82d6fae0",
+      "generation": "bb456aad5c281186481c",
       "hash": "ba9b56",
       "source": {
-        "duration": 44.408163,
+        "duration": 41.978776,
         "file": null,
-        "sha256": "ebc4ac83ee19c1d630a3e5775e3f080557672eac58851a9fa838cb1c96b4d01b"
+        "sha256": "d20ba1586beed1d905a473aedd241c6c8a6605d1f942e958bc0b05fbda03bff3"
       },
       "text": "Ironforge Airfield. Gnome flying machines and dwarven mountaineers keep watch at Ironforge Airfield, high above Dun Morogh. Its plateau overlooks jagged crags and the steep descent toward the Wetlands. Above Dun Morogh's trails, gnome flying machines line open strips among the peaks. Dwarven stonework holds the ridgelines, where mountaineers watch the perimeter. Nearby, engineers tend the machines and inspect their engines in the cold. Frostmane trolls dwell in caves near the airfield and harass the dwarven sentries. Across the frozen waters beneath the peaks, dwarven defenders and Stormpike patrols clash with troll raiders. So the outpost remains on guard."
     },
@@ -5775,9 +5775,9 @@
     "subzone:kharanos": {
       "1": [
         {
-          "duration": 74.37061224489796,
-          "file": "Audio/Transport/full_subzone_kharanos-4ddaa468e226ae8a09b2/1-0000.mp3",
-          "sha256": "f34b5d341721f362eb4307155e6369e5f0e46de3cb486901dcd75c2a9c64b371",
+          "duration": 71.57551020408164,
+          "file": "Audio/Transport/full_subzone_kharanos-90682b077dd07717840d/1-0000.mp3",
+          "sha256": "8e877fece4dbe51f4b4b60ef15c1e99b7331f5ca2916caa35f9868b9cd1ab8a3",
           "start": 0
         }
       ],
@@ -5789,12 +5789,12 @@
         ]
       },
       "fullHash": "5eb7c8",
-      "generation": "36111fdf80448a549f22",
+      "generation": "dac282ec395fb15cb3a0",
       "hash": "ea401e",
       "source": {
-        "duration": 74.396735,
+        "duration": 71.601633,
         "file": null,
-        "sha256": "4ddaa468e226ae8a09b2b01409fe16851c9ccf42908067644402b634537ab973"
+        "sha256": "90682b077dd07717840d435fa03473172d48c5788ad3904f5af601dc901a38b7"
       },
       "text": "Kharanos. Travelers leaving Coldridge Valley make Kharanos their primary stop, just down the road from Ironforge. The town has a forge, gnomish workshops, and the famous Thunderbrew Distillery. Along Dun Morogh's central road, Kharanos is the first true town for recruits arriving from Anvilmar. The cold and wind bite hard, but dwarven grit and gnomish ingenuity keep the settlement thriving. Its heart is a roaring public forge and the Thunderbrew Distillery, whose ale is counted among the finest in Khaz Modan and renowned across the eastern mountains.\n\nCrafters work among weary travelers seeking warmth. Together, they make Kharanos an essential place for business in the lower peaks. Behind Kharanos's cozy hearths, a military outpost guards the mountain passes. Fierce indigenous wendigo prowl the frozen caverns directly to the west, while aggressive Frostmane trolls hold Shimmer Ridge to the northwest.\n\nIronforge's regular forces are stretched thin across the realm. So Kharanos relies heavily on visiting adventurers and local watchmen to drive back raiding parties, cull dangerous predators, and keep the trade routes open."
     },
@@ -6529,9 +6529,9 @@
     "subzone:misty-pine-refuge": {
       "1": [
         {
-          "duration": 22.77877551020408,
-          "file": "Audio/Transport/full_subzone_misty-pine-refuge-b136cd594ceaeeff9835/1-0000.mp3",
-          "sha256": "5354ed50f11986446efb2837d50c33c26de1b8afd47190f2d945b42c464ebe30",
+          "duration": 23.196734693877552,
+          "file": "Audio/Transport/full_subzone_misty-pine-refuge-7dc2c7b8ff8d9d3d5d5a/1-0000.mp3",
+          "sha256": "dd5e20451adb9d10ab193f86b3e1c4585ab6e7810f7dec8ba9199b8857cc4323",
           "start": 0
         }
       ],
@@ -6543,12 +6543,12 @@
         ]
       },
       "fullHash": "fdb87c",
-      "generation": "4633d540ea3ce51d9869",
+      "generation": "bcaf550c418b7f25f637",
       "hash": "fdb87c",
       "source": {
-        "duration": 22.804898,
+        "duration": 23.222857,
         "file": null,
-        "sha256": "b136cd594ceaeeff98354675fb7c04508650c9dbd2555443151c8211d2b97eb4"
+        "sha256": "7dc2c7b8ff8d9d3d5d5ac9623ee08f16693e2fb903c11111e23fa9d7bd401e69"
       },
       "text": "Misty Pine Refuge. In central Dun Morogh, the Argent Dawn keeps a small outpost at Misty Pine Refuge. Misty Pine Refuge is an unassuming Argent Dawn outpost among Dun Morogh's windswept hills. Ironforge mountaineers patrol the crags nearby. Father Gavin, the order's lone agent here, keeps a quiet hearth amid bitter cold and danger on the mountain roads."
     },
@@ -7829,9 +7829,9 @@
     "subzone:shimmer-ridge": {
       "1": [
         {
-          "duration": 46.18448979591837,
-          "file": "Audio/Transport/full_subzone_shimmer-ridge-3bc14198249baee6108b/1-0000.mp3",
-          "sha256": "96f8222236394cd1f238c7d07778e70f50a63a872b9c6a1140f0a267ccdb0737",
+          "duration": 45.008979591836734,
+          "file": "Audio/Transport/full_subzone_shimmer-ridge-7ccb0964e0c36f241fca/1-0000.mp3",
+          "sha256": "cd32d5765b980c309dfbe35a12c9aec5be51f0927ffbec17553bd71735e193e1",
           "start": 0
         }
       ],
@@ -7843,12 +7843,12 @@
         ]
       },
       "fullHash": "a6c34c",
-      "generation": "8f51a55322078cdc914d",
+      "generation": "fffa49c1586f918f4b19",
       "hash": "a2e61a",
       "source": {
-        "duration": 46.210612,
+        "duration": 45.035102,
         "file": null,
-        "sha256": "3bc14198249baee6108b06e8c2d464a77ffdc51b744a5ac4d3839e425b70b1b0"
+        "sha256": "7ccb0964e0c36f241fca95363d849fc8ea714736b15b1c1a122d5740fbfb8e63"
       },
       "text": "Shimmer Ridge. In northern Dun Morogh, Shimmer Ridge lies west of the Gates of Ironforge, where Frostmane trolls hold two camps across a chasm. Shimmerweed grows nowhere else. Frostmane trolls hold camps on both sides of a chasm, joined by a rickety wooden bridge. Troll scavengers and tamed mountain boars guard the rocky heights. The ridge lies near the main road and the dwarven capital, giving the trolls a place to raid travelers and mountain patrols. Frostmane trolls grow shimmerweed on the ridge. Dwarven brewmasters prize the plant for the potent, flavorful highland ales it makes. Since it is hard to gather elsewhere, mountaineers and young recruits brave troll ambushes and tusked beasts to harvest it from the trolls' plots."
     },
@@ -8271,9 +8271,9 @@
     "subzone:steelgrill-s-depot": {
       "1": [
         {
-          "duration": 36.38857142857143,
-          "file": "Audio/Transport/full_subzone_steelgrill-s-depot-a5b1cb0d5916b88a957e/1-0000.mp3",
-          "sha256": "ba3b24d1c6af7616ec30dc83f76cd806f509dd4aa3c7fb438e73ff0eb85ad262",
+          "duration": 36.884897959183675,
+          "file": "Audio/Transport/full_subzone_steelgrill-s-depot-724ad2a33289fe127d1c/1-0000.mp3",
+          "sha256": "04252fec86bfc224cc54d3d8a68834b16674f51c06a3db4cf87fe498ec01e571",
           "start": 0
         }
       ],
@@ -8285,12 +8285,12 @@
         ]
       },
       "fullHash": "b9a745",
-      "generation": "c5eb048812fd7cd80c8d",
+      "generation": "193cd58bd72e6a8b50d0",
       "hash": "b9a745",
       "source": {
-        "duration": 36.388571,
+        "duration": 36.91102,
         "file": null,
-        "sha256": "a5b1cb0d5916b88a957e8ce5c0efb3c3e7099a6fd733746ee5ad33085e3cb1c9"
+        "sha256": "724ad2a33289fe127d1caab83b4dac82c35cca41f1bd6824b17aee96887d5dd2"
       },
       "text": "Steelgrill's Depot. East of Kharanos, Steelgrill's Depot keeps Alliance vehicles and machinery working. Beldin Steelgrill and his crew repair them, supply tinkerers, and salvage what they can. Just off the snowy road, dwarven miners and eccentric gnome engineers gather among heavy machinery, mechanized walking frames, and raw ore from nearby quarries. Metal clanks, steam vents hiss, and experimental engines churn. Trogg disruptions and shortages of mechanical supplies trouble Dun Morogh. In the bitter cold, travelers come for spare parts or technical guidance."
     },
@@ -8375,9 +8375,9 @@
     "subzone:stonefire-tavern": {
       "1": [
         {
-          "duration": 39.183673469387756,
-          "file": "Audio/Transport/full_subzone_stonefire-tavern-1da378449031d94cfb36/1-0000.mp3",
-          "sha256": "1715864e5bfed77bc922378ed87dff02f4d2931a58c0752256013a74e6f2c2de",
+          "duration": 39.157551020408164,
+          "file": "Audio/Transport/full_subzone_stonefire-tavern-a68cd19e53db0a97bd58/1-0000.mp3",
+          "sha256": "c9d2ef962c334ff615a41d026e5d9aa94bfe62c197eecc629969c5c529371d91",
           "start": 0
         }
       ],
@@ -8389,12 +8389,12 @@
         ]
       },
       "fullHash": "5a0bb0",
-      "generation": "712f8cc902d16be722a9",
+      "generation": "e1e78514daa7f84591a3",
       "hash": "5a0bb0",
       "source": {
-        "duration": 39.209796,
+        "duration": 39.157551,
         "file": null,
-        "sha256": "1da378449031d94cfb36a70b541ab84d193e15de6c64f2ba53dfdaefe1693886"
+        "sha256": "a68cd19e53db0a97bd58b99921a9439f2f1dce11a510e2aa766ada81be76e3d2"
       },
       "text": "Stonefire Tavern. In Ironforge’s Commons, travelers find the Stonefire Tavern just north of the city gates. Its hearth, dwarven ale, and rooms offer rest to those arriving from across Khaz Modan. In Ironforge’s Commons, just north of the fortress gates, Innkeeper Firebrew runs Stonefire Tavern with his daughter Gwenna. Weary wayfarers can find meals, local brews, and lodging beneath the mountain.\n\nTravelers come from across the Alliance to rest from Dun Morogh’s mountain snows, trade tales, or gather supplies before exploring the city. The hearth draws them together at the heart of the Commons."
     },
@@ -8921,9 +8921,9 @@
     "subzone:thelsamar": {
       "1": [
         {
-          "duration": 57.80897959183674,
-          "file": "Audio/Transport/full_subzone_thelsamar-72e08d9946aac29ff096/1-0000.mp3",
-          "sha256": "b5e7806b8aa30da2f5c997652d1b872741cabbf34224ff79e929e59278cb6e9c",
+          "duration": 58.72326530612245,
+          "file": "Audio/Transport/full_subzone_thelsamar-78f6dfd6bb31cb0f4b61/1-0000.mp3",
+          "sha256": "6b535516e6f23f61651eb69583ce0fcc19d99ab4f9d223af423ab77c4b6326e8",
           "start": 0
         }
       ],
@@ -8935,12 +8935,12 @@
         ]
       },
       "fullHash": "28bc11",
-      "generation": "a4d3a170d8003b41f806",
+      "generation": "5e76628955107284a52e",
       "hash": "7bbe46",
       "source": {
-        "duration": 57.835102,
+        "duration": 58.723265,
         "file": null,
-        "sha256": "72e08d9946aac29ff096a0e426470dc380c62edd9861527bda667eb1b6da09c7"
+        "sha256": "78f6dfd6bb31cb0f4b619cb09b0c6b64213cefe7cfe00e188d897983794f1cbc"
       },
       "text": "Thelsamar. In Thelsamar, travelers find shelter on the road between Dun Morogh and the Wetlands. The town keeps watch over the western bluffs above Loch Modan's great lake as troggs and ogres press nearby. Thelsamar gathers dwarven life beneath stout roofs of stone and timber. At the Stoutlager Inn, travelers can rest, and nearby they find a gryphon roost, crafting stations, and supply merchants. The town lies along the road from the South Gate Pass into Dun Morogh to the Algaz Pass toward the Wetlands. Travelers crossing the region pass through its doors. Trouble presses in on Thelsamar from several sides. Troggs pour from Stonesplinter Valley to the south, while bears and other predators haunt Grizzlepaw Ridge. Ironforge's regular forces are stretched thin across the realm. So the local magistrate and Mountaineers rely on travelers and mercenaries to patrol the trade roads and drive back hostile forces."
     },
@@ -9285,9 +9285,9 @@
     "subzone:train-depot": {
       "1": [
         {
-          "duration": 38.608979591836736,
-          "file": "Audio/Transport/full_subzone_train-depot-8443c026a3f377e48d2a/1-0000.mp3",
-          "sha256": "7cbc0df145234be2bbf78336972af7ad2c1de58173d10c77cb8256166457cf21",
+          "duration": 38.55673469387755,
+          "file": "Audio/Transport/full_subzone_train-depot-cccbe3e1e9599054b75c/1-0000.mp3",
+          "sha256": "904ddf72d94cf8a81841e0498f1f85ee4aac0559361ecc3581e13a95b330ac9c",
           "start": 0
         }
       ],
@@ -9299,12 +9299,12 @@
         ]
       },
       "fullHash": "5e1b6e",
-      "generation": "fd454b70ccac04aea22c",
+      "generation": "5f74c4eac61b487abc47",
       "hash": "5e1b6e",
       "source": {
-        "duration": 38.60898,
+        "duration": 38.582857,
         "file": null,
-        "sha256": "8443c026a3f377e48d2a14e09a70c3c79683fbbdd4c0226d3ea2735e16d40cad"
+        "sha256": "cccbe3e1e9599054b75cb4c6998015c2a23f32a25b5bcd6e97ab34b0b84d135e"
       },
       "text": "Train Depot. Beneath Gnomeregan's entrance in Dun Morogh, the Train Depot lies overrun by leper gnomes and troggs. Once, its rails carried gnomes through the city. Now the depot is in ruin. Beneath the grand elevator from Dun Morogh, the Train Depot's platforms and tracks lie in ruin. Once, rail lines carried gnomes through Gnomeregan. Radiation swept through the city and changed the workers who remained into crazed leper gnomes. Troggs from below have overrun the rails. You must cross the depot to reach deeper parts of the city, including Clockwerk Run, the Loading Room, and the inner engineering facilities."
     },
@@ -9337,9 +9337,9 @@
     "subzone:tundrid-hills": {
       "1": [
         {
-          "duration": 29.753469387755104,
-          "file": "Audio/Transport/full_subzone_tundrid-hills-268a49856eebec7825a7/1-0000.mp3",
-          "sha256": "a8dbc3206ae0776cb0989634308b23f86d8415419085ccaa409723527bff274b",
+          "duration": 29.936326530612245,
+          "file": "Audio/Transport/full_subzone_tundrid-hills-0935a32e96c48b9a3281/1-0000.mp3",
+          "sha256": "2abaf9b48bacfc6d81d3e96b752cffe1dc6aac1f945a3d0cc1fa88d17261cdfb",
           "start": 0
         }
       ],
@@ -9351,12 +9351,12 @@
         ]
       },
       "fullHash": "79400d",
-      "generation": "4905a4087266a988134e",
+      "generation": "af8b103e2ee2a2e163eb",
       "hash": "79400d",
       "source": {
-        "duration": 29.779592,
+        "duration": 29.962449,
         "file": null,
-        "sha256": "268a49856eebec7825a74e84c0351ec38209f681aef4f68380b8e1efbf5ac32e"
+        "sha256": "0935a32e96c48b9a3281ba9be90c7504b140ad9633d5b8508a549d5cc28cc3d1"
       },
       "text": "Tundrid Hills. In south-central Dun Morogh, the Tundrid Hills offer a perilous crossing west of Gol'Bolar Quarry. Snowbound ridges and dangerous wildlife make every step off the rocky passes a risk. From Coldridge Valley, the Tundrid Hills give you a rough way into eastern Dun Morogh, away from the main roads through Kharanos. Jagged slopes hold the snow, and the crossing is dangerous. Ferocious predators prowl the hills, so keep a weapon ready if you leave the beaten path."
     },
@@ -10033,6 +10033,22 @@
       862,
       1078
     ],
+    "03a822ec55b099a7ef11a94805b9f7cb10c5b20f49cef0eb558cc059e27acd07": [
+      226,
+      426,
+      723,
+      928,
+      1114,
+      1267,
+      1556
+    ],
+    "04252fec86bfc224cc54d3d8a68834b16674f51c06a3db4cf87fe498ec01e571": [
+      213,
+      455,
+      878,
+      1058,
+      1226
+    ],
     "046f51b84ea89dfc748324ea0346774ad2ead803ab8a9708ebb94156b571f97c": [
       208,
       416,
@@ -10237,6 +10253,15 @@
       979,
       1268
     ],
+    "15e2e07a52f0115b839079046ea82fe3f853896c4465b993b1a5b413da892578": [
+      203,
+      597,
+      765,
+      1144,
+      1408,
+      1584,
+      1725
+    ],
     "16142b18e247e6b81687170a6e16fa1e64b5543d59f931fe8014d3c2d74327e5": [
       203,
       463,
@@ -10252,19 +10277,6 @@
       1074,
       1265,
       1458
-    ],
-    "1715864e5bfed77bc922378ed87dff02f4d2931a58c0752256013a74e6f2c2de": [
-      230,
-      483,
-      799,
-      1019
-    ],
-    "1791bbffc6fb2fa1eacc35c2ce4bb135ebada4b3a74cc9de21ac6ba6fdb7e4c2": [
-      313,
-      563,
-      863,
-      1055,
-      1200
     ],
     "179713954d63249d54005f9475146e523e6f575ecb82aa404bb236f9f0318ba3": [
       421,
@@ -10283,14 +10295,6 @@
       1186,
       1427,
       1601
-    ],
-    "1939da475a0fd676792c131b5dd51e542518f70d23b74e98a89bfa83d31b2097": [
-      240,
-      439,
-      781,
-      1089,
-      1266,
-      1408
     ],
     "19c7e0a25e49a2b14d1d2e24897fdd2557e38086a34f4e120caed490c5fbee5f": [
       202
@@ -10522,13 +10526,11 @@
       1696,
       1838
     ],
-    "2a7dcf6404352892af5a5a80fd7bd1ec5459e361d39b338a4c01e959276a9c38": [
-      274,
-      484,
-      711,
-      899,
-      1106,
-      1330
+    "2abaf9b48bacfc6d81d3e96b752cffe1dc6aac1f945a3d0cc1fa88d17261cdfb": [
+      256,
+      475,
+      782,
+      934
     ],
     "2b7100daa652e6e0f9af2d73b8f31b490ebe98de2366242627807b3d20934eea": [
       369,
@@ -10544,6 +10546,12 @@
       1072,
       1397,
       1665
+    ],
+    "2ed5e50d37f708bfe963af93ce2ad28b3ddd70c078265dd7e33b583aa170d2b7": [
+      227,
+      437,
+      591,
+      806
     ],
     "2ee888d94f6404bc0f90b8efa4260731a8fb9a8acdfc39c29bfb705a3db9db2b": [
       229,
@@ -10716,6 +10724,12 @@
       1568,
       1761
     ],
+    "38260799b5969fed272f7248f6fdcbbe5c2115ceca9df3a2b198418c125b3144": [
+      233,
+      454,
+      722,
+      920
+    ],
     "3a6c4000b8ddb41d2dc4439211f176c805df8c5410c38b6e26861fa1c1d2e6b8": [
       183,
       484,
@@ -10826,6 +10840,13 @@
       1243,
       1393
     ],
+    "4124570933bdef4de5a8e246dcbf51473ef0fee56ae493cc6e7cffd08987e844": [
+      362,
+      605,
+      764,
+      933,
+      1093
+    ],
     "424b41b6cf0649d7b58c95db905c005c0de1cd1d3a85d6ca704c289b5257c938": [
       312,
       497,
@@ -10886,11 +10907,6 @@
       1984,
       2160
     ],
-    "4588140e8ca5f947f1482fadbfffa886bb4343c09f12e9048e197c7352d6c06c": [
-      226,
-      419,
-      696
-    ],
     "45ff6bcb0807f9ff5e3c79f9abcab8f420f6eeb2ca29f2b9adf3afd18eab9f6a": [
       242,
       448,
@@ -10923,13 +10939,6 @@
       856,
       1128,
       1404
-    ],
-    "4776062f8ccd97b6a0b26c7278090f55cc231949303636f75baddab4bb3f7c0c": [
-      244,
-      462,
-      752,
-      955,
-      1179
     ],
     "47c52a2d40aa84b6ea7f1dd917c820c2b493f8f4ce0099dd82f30d04433095ff": [
       252,
@@ -11113,10 +11122,6 @@
       507,
       653
     ],
-    "5354ed50f11986446efb2837d50c33c26de1b8afd47190f2d945b42c464ebe30": [
-      249,
-      477
-    ],
     "535a1cf8840d8e3db541555cdf055d6a4da27cc48ded5dd423aa1686fbc98342": [
       243,
       531,
@@ -11187,15 +11192,6 @@
       632,
       788,
       935
-    ],
-    "56070f70861a73e16ea44cdaf98e05b94f6b3bfff21bda4c915c1efcfa7deb32": [
-      298,
-      459,
-      634,
-      788,
-      975,
-      1200,
-      1395
     ],
     "56200e42da47aa358b376bc1af06e2cfa5223e7faa2279a4c3d517fc1f188ae7": [
       266,
@@ -11535,6 +11531,17 @@
       1866,
       2217
     ],
+    "6b535516e6f23f61651eb69583ce0fcc19d99ab4f9d223af423ab77c4b6326e8": [
+      215,
+      491,
+      684,
+      1003,
+      1252,
+      1387,
+      1533,
+      1795,
+      1949
+    ],
     "6b7870afb1054e68b8f1c051948b8cabbf578ebdc5e7640f2c8f6b3323cba9b0": [
       259,
       492,
@@ -11627,6 +11634,14 @@
       1225,
       1479,
       1753
+    ],
+    "71ea921553f0600a25557810ad2c9222ee4d5e3aaa034718ed6a0247b0a6c867": [
+      262,
+      457,
+      801,
+      1120,
+      1297,
+      1442
     ],
     "71f14ff846eef7bee00e086b40381507b191e70a397cdb28ede0797a9df3a4ca": [
       387,
@@ -11737,12 +11752,6 @@
       2238,
       2396
     ],
-    "7cbc0df145234be2bbf78336972af7ad2c1de58173d10c77cb8256166457cf21": [
-      264,
-      480,
-      727,
-      1070
-    ],
     "7dc34af6163d0fb3a3e0abba9af9d9a15ac5a4b961bd492b0787966b83bc1480": [
       238,
       498,
@@ -11837,6 +11846,13 @@
       1036,
       1177
     ],
+    "80fc3e9fd06e92b09b22c8b43e73f0a7a7e36f5c9012c13681afa2bd7013cbf2": [
+      294,
+      537,
+      815,
+      1014,
+      1166
+    ],
     "813b0f543d476ec46a01b14a4117840d98733d762404bb6953e6668aea7661a6": [
       208,
       436,
@@ -11865,6 +11881,17 @@
       575,
       871,
       1160
+    ],
+    "831fafbc335e7cf23a34a7b5e7c78dcc5cccad80668f25fe74cccad96a2ce427": [
+      237,
+      485,
+      776,
+      947,
+      1200,
+      1449,
+      1657,
+      1804,
+      2149
     ],
     "84c7965eaf0fef3317fd7a7694b548fef0e116f41243591c87fa63460be681d0": [
       196,
@@ -11987,14 +12014,6 @@
       449,
       657
     ],
-    "8b180d133914950701269563a4cc279e56aa6ec8bdc3c6f526ef74b7d9f1b617": [
-      235,
-      544,
-      739,
-      919,
-      1129,
-      1416
-    ],
     "8b704bcb5553a93b0d913e8ee6fa6123c02831fe32bfd100c837ac53053ef525": [
       231,
       425,
@@ -12033,6 +12052,18 @@
       835,
       1067
     ],
+    "8e877fece4dbe51f4b4b60ef15c1e99b7331f5ca2916caa35f9868b9cd1ab8a3": [
+      156,
+      443,
+      696,
+      942,
+      1310,
+      1445,
+      1628,
+      1851,
+      2209,
+      2367
+    ],
     "8eb407d4ed50bbbe8f9764c8d3bda72c3b11ceb139f7cbeb8d235ce3ccc94d5c": [
       309,
       617,
@@ -12051,6 +12082,12 @@
       787,
       1167,
       1416
+    ],
+    "904ddf72d94cf8a81841e0498f1f85ee4aac0559361ecc3581e13a95b330ac9c": [
+      474,
+      717,
+      854,
+      1062
     ],
     "9069559672cbfa4fff3dc942df031c0639d7ecbe2c4a383ec7ec5518652646c1": [
       242,
@@ -12106,23 +12143,6 @@
       239,
       392,
       654
-    ],
-    "96de4b37f315d578e4900579720963b86c2a42eefab584a9d4389397dc57728f": [
-      229,
-      426,
-      738,
-      947,
-      1130,
-      1296,
-      1547
-    ],
-    "96f8222236394cd1f238c7d07778e70f50a63a872b9c6a1140f0a267ccdb0737": [
-      196,
-      432,
-      576,
-      822,
-      1099,
-      1407
     ],
     "9724cb0e884f68346b7c5b8af6c5945990f2bfc43aff2c5fe861cbdb90f4139a": [
       235,
@@ -12311,11 +12331,6 @@
       665,
       887
     ],
-    "a8dbc3206ae0776cb0989634308b23f86d8415419085ccaa409723527bff274b": [
-      272,
-      510,
-      798
-    ],
     "a93845651e9f277ddbaaf60a2b5b41117b9894d55671600c88c95f7acd14f155": [
       243,
       499,
@@ -12384,12 +12399,6 @@
       1199,
       1398
     ],
-    "ae3e712b4324ea97ea267ad9def56cf41fc645873d1d892975ad10dfb6e625b0": [
-      272,
-      508,
-      737,
-      902
-    ],
     "b02c5536726e7708698df4ff0c84ed19974d0ccceed0fecfe31b7d467b02a583": [
       215,
       423,
@@ -12406,6 +12415,15 @@
       575,
       798,
       1041
+    ],
+    "b1a2c7e20f166f9f191602194de4562849db3eb047226149caa232af15f54d78": [
+      287,
+      501,
+      740,
+      1043,
+      1335,
+      1486,
+      1622
     ],
     "b1d83971774782675b62cdcbee9171fd11c3071c4bed8c758e1d0d77504c820a": [
       199,
@@ -12437,6 +12455,14 @@
       2167,
       2400
     ],
+    "b3e0f4e4d5703006fb102c1f322650e515821afb8365145dad818aa7e199d66e": [
+      275,
+      470,
+      687,
+      867,
+      1049,
+      1255
+    ],
     "b50e8d2d02c579ef035cde6dab4cc7400c2aaef6def6ab34d93b3eabee538136": [
       282,
       449,
@@ -12445,14 +12471,6 @@
       1214,
       1451,
       1674
-    ],
-    "b5e7806b8aa30da2f5c997652d1b872741cabbf34224ff79e929e59278cb6e9c": [
-      220,
-      492,
-      671,
-      970,
-      1336,
-      1739
     ],
     "b77c0ac02afd433b7892cbac1551a1c1f4c82dc3919c356240ae90e53aab89dd": [
       209,
@@ -12469,15 +12487,6 @@
       465,
       603,
       840
-    ],
-    "b8fc8b4dc31bab6d3fc4c95f80aace7368cef0c9668647bda67e8fbbca51f21a": [
-      278,
-      498,
-      728,
-      1042,
-      1346,
-      1508,
-      1646
     ],
     "b952d3388a21df2efb6588283e1a8d800602abb665f810d8bbe3c2ed58c73444": [
       290
@@ -12498,12 +12507,6 @@
       1611,
       1870
     ],
-    "ba3b24d1c6af7616ec30dc83f76cd806f509dd4aa3c7fb438e73ff0eb85ad262": [
-      461,
-      872,
-      1049,
-      1222
-    ],
     "bc13b7135687a25e26a492bc05ae95b8218af0e8c7151b998b13e75a6a3562bf": [
       270,
       458,
@@ -12522,6 +12525,14 @@
       506,
       768,
       910
+    ],
+    "be3371f1d3321b4000c4365d99613d825eb5a2ab699f4322064f95d5715356b0": [
+      225,
+      536,
+      711,
+      892,
+      1203,
+      1359
     ],
     "beb32b5d80d87a54c34d7c88cf97091dd0ad51ef8b1fdcff587d8a3005894e38": [
       230,
@@ -12554,13 +12565,6 @@
       1721,
       1889
     ],
-    "c0777680a511004030ce2b969abe784c9e3b201c156a8a131f2204a3f470bcdf": [
-      259,
-      519,
-      743,
-      937,
-      1243
-    ],
     "c14c6fe4a677efd46230b625bf4f2d8ea0268f5572930fff0a185d55de320977": [
       289,
       455,
@@ -12573,15 +12577,6 @@
       1957,
       2226,
       2439
-    ],
-    "c1bb8da963d70cdf114790bde643d1b1be448f502ff9ca32f8baaa473d9ba8da": [
-      224,
-      454,
-      745,
-      912,
-      1388,
-      1750,
-      2112
     ],
     "c23ab6add7877d06f7a7068cac92ba04745ab0bd7be9659eb9b41411ab3a92d7": [
       233,
@@ -12634,21 +12629,21 @@
       1887,
       2059
     ],
-    "c5aeab1e9a00d8ecfe54cfdafe94bbaa6a448f6fd03da753d90f1d6c1421fe37": [
-      276,
-      554,
-      721,
-      863,
-      1104,
-      1435,
-      1710
-    ],
     "c5fa717d78d2fed1450a177a2a0f98b5d82bd1fbc8ae82b023135f484e183d77": [
       255,
       434,
       659,
       834,
       1026
+    ],
+    "c628c244fc1ab6d58eee302c11a63c677783916503e4cf2a5c0b0fe99f02f276": [
+      195,
+      408,
+      592,
+      842,
+      1157,
+      1338,
+      1525
     ],
     "c62d5bf6223c41edb78c3d06f9a5e061549318aa02e8ffc52d38c147e5a5ea0e": [
       302,
@@ -12664,14 +12659,6 @@
       2560,
       2749
     ],
-    "c84bb32a8ebb298464f490d11893fdb8c7bb38662ea90258692bf5516dda0689": [
-      237,
-      490,
-      904,
-      1107,
-      1297,
-      1478
-    ],
     "c88d045e97033248d1984412994f8997735040e08f1329a51a51f6942d2b7509": [
       213,
       555,
@@ -12683,6 +12670,12 @@
       1719,
       1971,
       2189
+    ],
+    "c9d2ef962c334ff615a41d026e5d9aa94bfe62c197eecc629969c5c529371d91": [
+      242,
+      503,
+      811,
+      1025
     ],
     "ca7ea6df6ff0c8bd5bfea0f9377c3ffe39465d3014210a820fdd500ef3a00bfa": [
       200,
@@ -12719,6 +12712,12 @@
       594,
       768
     ],
+    "cbd112dab36d076d46989f5ad0804de5265d6e3e1cc3e041a8fd780b3ddd746f": [
+      262,
+      521,
+      751,
+      933
+    ],
     "cc2922f315f3e150943efde3d162e4b695771bea7fd7eaf267a3907ccd848e75": [
       489,
       650,
@@ -12733,16 +12732,21 @@
       1410,
       1626
     ],
-    "cdb77805ddb8fd8371f4ddb36aa73def8b273ac109fff1a53946505f41e7b3d0": [
-      229,
-      441,
-      605,
-      816
+    "cd32d5765b980c309dfbe35a12c9aec5be51f0927ffbec17553bd71735e193e1": [
+      432,
+      647,
+      792,
+      1067,
+      1379
     ],
     "cf2572884614f5dab0625440ce68157099b2cbdd98604e3d2a06f35a57a242ac": [
       255,
       487,
       630
+    ],
+    "cfda7b530147ad455512bb6dfbb0f1c8e32400d596880cbddefd7104028c50ee": [
+      224,
+      423
     ],
     "d04e9eff0fe87d0034552d75ca58fc236c18aeb10ba0a59342045e3071364cb0": [
       260,
@@ -12793,6 +12797,17 @@
       226,
       396,
       637
+    ],
+    "d37e6bd14312a062388507a5e4a57d0f40653e1205d8a73da0430ade81d2f9f8": [
+      218,
+      476,
+      621,
+      851,
+      1055,
+      1231,
+      1472,
+      1655,
+      1880
     ],
     "d4188fc0f135cf6670b636b3756bfa082df8c1c6bf6b74240a05a256888546aa": [
       296,
@@ -12852,6 +12867,15 @@
       541,
       771
     ],
+    "da2e0dba4d1fb72e33821ca5e123fa474fbec29277d87ba3ab8fa4a24dcce924": [
+      303,
+      462,
+      646,
+      795,
+      998,
+      1227,
+      1392
+    ],
     "da66efe8fa4b05f4dff93c4239fe27cac75fb5286bd9a1410f1f9dba82f0431e": [
       301,
       539,
@@ -12870,13 +12894,14 @@
       2293,
       2502
     ],
-    "dc9e09dfb2a1a29a7f1b5a752d8b354a5882eb75ec69c3e94c03356b01416f2d": [
-      223,
-      472,
-      653,
-      924,
-      1241,
-      1404
+    "dc7cd7f9f311a30d0ca047da2dcdaeaeae68498f68e01a80aa24f1eac35cbee0": [
+      251,
+      503,
+      721,
+      921,
+      1131,
+      1351,
+      1538
     ],
     "dce0f98139a774cde19f47a46f3ee0e59ea0d19b83f8230e6290c3752aa07008": [
       259,
@@ -12893,6 +12918,10 @@
       1017,
       1311,
       1533
+    ],
+    "dd5e20451adb9d10ab193f86b3e1c4585ab6e7810f7dec8ba9199b8857cc4323": [
+      243,
+      484
     ],
     "dd98bfce2d41026b9b0a22c2883d3bc2a160275866b5a010f3d76bf393724454": [
       240,
@@ -12950,13 +12979,6 @@
       995,
       1214
     ],
-    "e36c6d2ff6981485816081e1abb4f02d8157b4163af0b303255476420750031f": [
-      381,
-      614,
-      768,
-      948,
-      1123
-    ],
     "e3b83a752b964140963a2bdea7fee09e95afe26997a1d0af61e5f818eec13580": [
       234,
       524,
@@ -12992,17 +13014,6 @@
       942,
       1211,
       1557
-    ],
-    "e56d3c543da3cd56cfa7aabb1f437e7623f001784a89d0919297f318ff9798a4": [
-      216,
-      492,
-      636,
-      858,
-      1064,
-      1255,
-      1508,
-      1707,
-      1923
     ],
     "e5adb9972d4124aa6bd80a189b5e066570deb6d7b14a7754177290e0d0073f92": [
       224,
@@ -13183,16 +13194,13 @@
       604,
       978
     ],
-    "f34b5d341721f362eb4307155e6369e5f0e46de3cb486901dcd75c2a9c64b371": [
-      261,
-      479,
-      748,
-      1016,
-      1409,
-      1544,
-      1736,
-      1955,
-      2311
+    "f4f278958627fa7a8cb790700e1d244c872e81ae772f630206274f74d8c6dbe9": [
+      291,
+      577,
+      763,
+      917,
+      1172,
+      1511
     ],
     "f62c4eb30601b6415f8fc63f124ebc834d3372a115c08ffd3cab408a332634a6": [
       184,
@@ -13239,14 +13247,12 @@
       2415,
       2561
     ],
-    "f9e25a47a91f82b54f8879c524b52c1af7b44c873684400430d8315fc9b04cf8": [
-      207,
-      464,
-      620,
-      800,
-      1200,
-      1452,
-      1623
+    "fa2156595a841d9322fb069a9a5913214383d434e43c5acf888f6f1185da234b": [
+      250,
+      509,
+      715,
+      899,
+      1187
     ],
     "fb1a3dd9e1ad4697a206ceea55cb9344ff3cb491bc601aeaf40b46806fef5e42": [
       185,
@@ -13354,6 +13360,13 @@
     "03645c84e075c268eb5b7d922bf615c1ad5ddfaaea18546d79c67302fdfb1c1f": {
       "482": 1
     },
+    "03a822ec55b099a7ef11a94805b9f7cb10c5b20f49cef0eb558cc059e27acd07": {
+      "1114": 2,
+      "426": 1
+    },
+    "04252fec86bfc224cc54d3d8a68834b16674f51c06a3db4cf87fe498ec01e571": {
+      "455": 1
+    },
     "046f51b84ea89dfc748324ea0346774ad2ead803ab8a9708ebb94156b571f97c": {
       "416": 1
     },
@@ -13440,17 +13453,15 @@
       "482": 1,
       "979": 2
     },
+    "15e2e07a52f0115b839079046ea82fe3f853896c4465b993b1a5b413da892578": {
+      "1144": 2,
+      "597": 1
+    },
     "16142b18e247e6b81687170a6e16fa1e64b5543d59f931fe8014d3c2d74327e5": {
       "463": 1
     },
     "16d57f843c6be3500bb23ab90353bdc60be95f9c7cad87cee0eeb4dab06c6f30": {
       "434": 1
-    },
-    "1715864e5bfed77bc922378ed87dff02f4d2931a58c0752256013a74e6f2c2de": {
-      "483": 1
-    },
-    "1791bbffc6fb2fa1eacc35c2ce4bb135ebada4b3a74cc9de21ac6ba6fdb7e4c2": {
-      "563": 1
     },
     "179713954d63249d54005f9475146e523e6f575ecb82aa404bb236f9f0318ba3": {
       "1192": 2,
@@ -13458,10 +13469,6 @@
     },
     "193838cca2731a1959852e3e0423f4020bffff215e758df4fbaca34c675e5851": {
       "405": 1
-    },
-    "1939da475a0fd676792c131b5dd51e542518f70d23b74e98a89bfa83d31b2097": {
-      "1089": 2,
-      "240": 1
     },
     "19de43f31e7347889bc99baabe6dd488fcb1cfbc7635b7b2c6ef220c1186728f": {
       "752": 1
@@ -13555,9 +13562,8 @@
       "1465": 2,
       "584": 1
     },
-    "2a7dcf6404352892af5a5a80fd7bd1ec5459e361d39b338a4c01e959276a9c38": {
-      "1106": 2,
-      "484": 1
+    "2abaf9b48bacfc6d81d3e96b752cffe1dc6aac1f945a3d0cc1fa88d17261cdfb": {
+      "475": 1
     },
     "2b7100daa652e6e0f9af2d73b8f31b490ebe98de2366242627807b3d20934eea": {
       "369": 1
@@ -13565,6 +13571,9 @@
     "2e9d4c38eb8aab7014bfb56b518af5c2942ef8bc02719531c8aa45d4ada33a2a": {
       "1397": 2,
       "488": 1
+    },
+    "2ed5e50d37f708bfe963af93ce2ad28b3ddd70c078265dd7e33b583aa170d2b7": {
+      "437": 1
     },
     "2ee888d94f6404bc0f90b8efa4260731a8fb9a8acdfc39c29bfb705a3db9db2b": {
       "369": 1
@@ -13636,6 +13645,9 @@
       "1218": 2,
       "448": 1
     },
+    "38260799b5969fed272f7248f6fdcbbe5c2115ceca9df3a2b198418c125b3144": {
+      "454": 1
+    },
     "3a6c4000b8ddb41d2dc4439211f176c805df8c5410c38b6e26861fa1c1d2e6b8": {
       "1752": 2,
       "484": 1
@@ -13680,6 +13692,9 @@
       "383": 1,
       "990": 2
     },
+    "4124570933bdef4de5a8e246dcbf51473ef0fee56ae493cc6e7cffd08987e844": {
+      "362": 1
+    },
     "424b41b6cf0649d7b58c95db905c005c0de1cd1d3a85d6ca704c289b5257c938": {
       "1307": 2,
       "497": 1
@@ -13701,9 +13716,6 @@
       "1546": 2,
       "409": 1
     },
-    "4588140e8ca5f947f1482fadbfffa886bb4343c09f12e9048e197c7352d6c06c": {
-      "226": 1
-    },
     "45ff6bcb0807f9ff5e3c79f9abcab8f420f6eeb2ca29f2b9adf3afd18eab9f6a": {
       "1853": 2,
       "448": 1
@@ -13716,9 +13728,6 @@
     },
     "46d2a4e9054674eb5785bc4d4cd42e65cae13b442e56e8a3f642a257280a335e": {
       "422": 1
-    },
-    "4776062f8ccd97b6a0b26c7278090f55cc231949303636f75baddab4bb3f7c0c": {
-      "462": 1
     },
     "47c52a2d40aa84b6ea7f1dd917c820c2b493f8f4ce0099dd82f30d04433095ff": {
       "1610": 2,
@@ -13789,9 +13798,6 @@
     "525f7acae3e1bad83b0e395d12e2e05b57e69b2c6723165592575ffd3bf65b0a": {
       "337": 1
     },
-    "5354ed50f11986446efb2837d50c33c26de1b8afd47190f2d945b42c464ebe30": {
-      "249": 1
-    },
     "535a1cf8840d8e3db541555cdf055d6a4da27cc48ded5dd423aa1686fbc98342": {
       "1240": 2,
       "531": 1
@@ -13817,10 +13823,6 @@
     },
     "5584aec28ff0634125ef9ee1be4928329e1bdbb7ca17dc7be50a1273a0796a53": {
       "450": 1
-    },
-    "56070f70861a73e16ea44cdaf98e05b94f6b3bfff21bda4c915c1efcfa7deb32": {
-      "1200": 2,
-      "459": 1
     },
     "56200e42da47aa358b376bc1af06e2cfa5223e7faa2279a4c3d517fc1f188ae7": {
       "1517": 2,
@@ -13951,6 +13953,10 @@
       "1662": 2,
       "448": 1
     },
+    "6b535516e6f23f61651eb69583ce0fcc19d99ab4f9d223af423ab77c4b6326e8": {
+      "1387": 2,
+      "491": 1
+    },
     "6b7870afb1054e68b8f1c051948b8cabbf578ebdc5e7640f2c8f6b3323cba9b0": {
       "1138": 2,
       "492": 1
@@ -13988,6 +13994,10 @@
     "7103a4b0fd98bb653c8f312e2997b9e4f475aa9d17970d152dd4a6bed095473a": {
       "1479": 2,
       "566": 1
+    },
+    "71ea921553f0600a25557810ad2c9222ee4d5e3aaa034718ed6a0247b0a6c867": {
+      "1120": 2,
+      "262": 1
     },
     "71f14ff846eef7bee00e086b40381507b191e70a397cdb28ede0797a9df3a4ca": {
       "1253": 2,
@@ -14034,9 +14044,6 @@
       "1568": 2,
       "505": 1
     },
-    "7cbc0df145234be2bbf78336972af7ad2c1de58173d10c77cb8256166457cf21": {
-      "480": 1
-    },
     "7dc34af6163d0fb3a3e0abba9af9d9a15ac5a4b961bd492b0787966b83bc1480": {
       "1480": 2,
       "498": 1
@@ -14075,6 +14082,9 @@
     "801e20e6974b115a2ee9e6a8ceeb6544d771359ab187279d76e09f78e4a17967": {
       "524": 1
     },
+    "80fc3e9fd06e92b09b22c8b43e73f0a7a7e36f5c9012c13681afa2bd7013cbf2": {
+      "537": 1
+    },
     "813b0f543d476ec46a01b14a4117840d98733d762404bb6953e6668aea7661a6": {
       "436": 1
     },
@@ -14088,6 +14098,10 @@
     "820e2515bdc9e01065b9b2fad488474bc7003fadeb0f4e9048d878628e02b88e": {
       "1160": 2,
       "290": 1
+    },
+    "831fafbc335e7cf23a34a7b5e7c78dcc5cccad80668f25fe74cccad96a2ce427": {
+      "1449": 2,
+      "485": 1
     },
     "84c7965eaf0fef3317fd7a7694b548fef0e116f41243591c87fa63460be681d0": {
       "395": 1,
@@ -14141,9 +14155,6 @@
     "8af9781980c3fb93c8f242e2e933d0715bf2eea9caf4a27d597f7be43dc4c8e2": {
       "449": 1
     },
-    "8b180d133914950701269563a4cc279e56aa6ec8bdc3c6f526ef74b7d9f1b617": {
-      "544": 1
-    },
     "8b704bcb5553a93b0d913e8ee6fa6123c02831fe32bfd100c837ac53053ef525": {
       "425": 1
     },
@@ -14161,12 +14172,19 @@
     "8e26dc5f78744f0ca5ac4d0c350356f931ba730b1be48e95b7290bec54b5679e": {
       "342": 1
     },
+    "8e877fece4dbe51f4b4b60ef15c1e99b7331f5ca2916caa35f9868b9cd1ab8a3": {
+      "1628": 2,
+      "443": 1
+    },
     "8eb407d4ed50bbbe8f9764c8d3bda72c3b11ceb139f7cbeb8d235ce3ccc94d5c": {
       "1685": 2,
       "617": 1
     },
     "8ede700aeb03cbee12fb6befeba0583f197f00a6ab5d8599a2a070dbb0f3588f": {
       "613": 1
+    },
+    "904ddf72d94cf8a81841e0498f1f85ee4aac0559361ecc3581e13a95b330ac9c": {
+      "474": 1
     },
     "9069559672cbfa4fff3dc942df031c0639d7ecbe2c4a383ec7ec5518652646c1": {
       "1056": 2,
@@ -14192,14 +14210,6 @@
     },
     "95d3e95a126a643341d98bc91039116c1df03d796352f9bf6fcbfec933ebdc70": {
       "392": 1
-    },
-    "96de4b37f315d578e4900579720963b86c2a42eefab584a9d4389397dc57728f": {
-      "1130": 2,
-      "426": 1
-    },
-    "96f8222236394cd1f238c7d07778e70f50a63a872b9c6a1140f0a267ccdb0737": {
-      "1099": 2,
-      "432": 1
     },
     "9724cb0e884f68346b7c5b8af6c5945990f2bfc43aff2c5fe861cbdb90f4139a": {
       "1477": 2,
@@ -14281,9 +14291,6 @@
     "a8616f476971be7745cc53a0135e8432528f7de2dd90fc4cb0b1a7ff26752bf2": {
       "262": 1
     },
-    "a8dbc3206ae0776cb0989634308b23f86d8415419085ccaa409723527bff274b": {
-      "510": 1
-    },
     "a93845651e9f277ddbaaf60a2b5b41117b9894d55671600c88c95f7acd14f155": {
       "1174": 2,
       "499": 1
@@ -14312,15 +14319,16 @@
     "ae0cf8d295c173d6b42e244d9dd4a7283268d13adce5eac1471eff222d7f2441": {
       "675": 1
     },
-    "ae3e712b4324ea97ea267ad9def56cf41fc645873d1d892975ad10dfb6e625b0": {
-      "508": 1
-    },
     "b02c5536726e7708698df4ff0c84ed19974d0ccceed0fecfe31b7d467b02a583": {
       "1334": 2,
       "423": 1
     },
     "b15035f6e70792a43eaf56c6bbe7948b78ceaf00bb665d931a3d22e98226738b": {
       "575": 1
+    },
+    "b1a2c7e20f166f9f191602194de4562849db3eb047226149caa232af15f54d78": {
+      "1335": 2,
+      "501": 1
     },
     "b1d83971774782675b62cdcbee9171fd11c3071c4bed8c758e1d0d77504c820a": {
       "379": 1
@@ -14333,13 +14341,13 @@
       "1757": 2,
       "537": 1
     },
+    "b3e0f4e4d5703006fb102c1f322650e515821afb8365145dad818aa7e199d66e": {
+      "1049": 2,
+      "470": 1
+    },
     "b50e8d2d02c579ef035cde6dab4cc7400c2aaef6def6ab34d93b3eabee538136": {
       "1214": 2,
       "449": 1
-    },
-    "b5e7806b8aa30da2f5c997652d1b872741cabbf34224ff79e929e59278cb6e9c": {
-      "1336": 2,
-      "492": 1
     },
     "b77c0ac02afd433b7892cbac1551a1c1f4c82dc3919c356240ae90e53aab89dd": {
       "1269": 2,
@@ -14348,19 +14356,12 @@
     "b8422524ebc9c74f3ca7ee3b0d889b415505559a5a33e5a5dfa0a09fbb92bdeb": {
       "300": 1
     },
-    "b8fc8b4dc31bab6d3fc4c95f80aace7368cef0c9668647bda67e8fbbca51f21a": {
-      "1346": 2,
-      "498": 1
-    },
     "b9d5cef3a348c42107ea999e14b43900460a9926a6589770331ad0f79a78ccb0": {
       "376": 1
     },
     "b9ec01a7ed22ec22b592c69c8007c671ccaddf3be001e656e79a1eeeb3021231": {
       "1317": 2,
       "519": 1
-    },
-    "ba3b24d1c6af7616ec30dc83f76cd806f509dd4aa3c7fb438e73ff0eb85ad262": {
-      "461": 1
     },
     "bc13b7135687a25e26a492bc05ae95b8218af0e8c7151b998b13e75a6a3562bf": {
       "458": 1
@@ -14370,6 +14371,9 @@
     },
     "bd71a70236c537093bfe419ac6eb65c4d766912d8f82cfba483d81f90de54bb7": {
       "506": 1
+    },
+    "be3371f1d3321b4000c4365d99613d825eb5a2ab699f4322064f95d5715356b0": {
+      "536": 1
     },
     "beb32b5d80d87a54c34d7c88cf97091dd0ad51ef8b1fdcff587d8a3005894e38": {
       "430": 1
@@ -14383,16 +14387,9 @@
     "c07679ff25a322cec80d71c39e3d19894c934edf3ac70297ab8d3c81365d22a1": {
       "506": 1
     },
-    "c0777680a511004030ce2b969abe784c9e3b201c156a8a131f2204a3f470bcdf": {
-      "519": 1
-    },
     "c14c6fe4a677efd46230b625bf4f2d8ea0268f5572930fff0a185d55de320977": {
       "1764": 2,
       "455": 1
-    },
-    "c1bb8da963d70cdf114790bde643d1b1be448f502ff9ca32f8baaa473d9ba8da": {
-      "1388": 2,
-      "454": 1
     },
     "c23ab6add7877d06f7a7068cac92ba04745ab0bd7be9659eb9b41411ab3a92d7": {
       "1246": 2,
@@ -14414,25 +14411,24 @@
       "1405": 2,
       "468": 1
     },
-    "c5aeab1e9a00d8ecfe54cfdafe94bbaa6a448f6fd03da753d90f1d6c1421fe37": {
-      "1104": 2,
-      "554": 1
-    },
     "c5fa717d78d2fed1450a177a2a0f98b5d82bd1fbc8ae82b023135f484e183d77": {
       "434": 1
+    },
+    "c628c244fc1ab6d58eee302c11a63c677783916503e4cf2a5c0b0fe99f02f276": {
+      "1157": 2,
+      "408": 1
     },
     "c62d5bf6223c41edb78c3d06f9a5e061549318aa02e8ffc52d38c147e5a5ea0e": {
       "1178": 2,
       "2073": 3,
       "530": 1
     },
-    "c84bb32a8ebb298464f490d11893fdb8c7bb38662ea90258692bf5516dda0689": {
-      "1107": 2,
-      "490": 1
-    },
     "c88d045e97033248d1984412994f8997735040e08f1329a51a51f6942d2b7509": {
       "1719": 2,
       "555": 1
+    },
+    "c9d2ef962c334ff615a41d026e5d9aa94bfe62c197eecc629969c5c529371d91": {
+      "503": 1
     },
     "ca7ea6df6ff0c8bd5bfea0f9377c3ffe39465d3014210a820fdd500ef3a00bfa": {
       "1373": 2,
@@ -14449,6 +14445,9 @@
     "cb9e7f0386d5f0073eb1369a07d829f1050c9eacb3253d78e75ea23e3587fc3f": {
       "328": 1
     },
+    "cbd112dab36d076d46989f5ad0804de5265d6e3e1cc3e041a8fd780b3ddd746f": {
+      "521": 1
+    },
     "cc2922f315f3e150943efde3d162e4b695771bea7fd7eaf267a3907ccd848e75": {
       "489": 1
     },
@@ -14456,11 +14455,15 @@
       "1267": 2,
       "523": 1
     },
-    "cdb77805ddb8fd8371f4ddb36aa73def8b273ac109fff1a53946505f41e7b3d0": {
-      "441": 1
+    "cd32d5765b980c309dfbe35a12c9aec5be51f0927ffbec17553bd71735e193e1": {
+      "1067": 2,
+      "432": 1
     },
     "cf2572884614f5dab0625440ce68157099b2cbdd98604e3d2a06f35a57a242ac": {
       "487": 1
+    },
+    "cfda7b530147ad455512bb6dfbb0f1c8e32400d596880cbddefd7104028c50ee": {
+      "224": 1
     },
     "d04e9eff0fe87d0034552d75ca58fc236c18aeb10ba0a59342045e3071364cb0": {
       "1801": 2,
@@ -14483,6 +14486,10 @@
     },
     "d2d2ca0608e5b981d34009aa063029aaa959175f1cdf3792b4308207581d4082": {
       "396": 1
+    },
+    "d37e6bd14312a062388507a5e4a57d0f40653e1205d8a73da0430ade81d2f9f8": {
+      "1472": 2,
+      "621": 1
     },
     "d4188fc0f135cf6670b636b3756bfa082df8c1c6bf6b74240a05a256888546aa": {
       "1486": 2,
@@ -14509,6 +14516,10 @@
     "d87e6fb964a14df66b163ba34f0da0a233143f720e9133b1ce8593f629225aa9": {
       "323": 1
     },
+    "da2e0dba4d1fb72e33821ca5e123fa474fbec29277d87ba3ab8fa4a24dcce924": {
+      "1227": 2,
+      "462": 1
+    },
     "da66efe8fa4b05f4dff93c4239fe27cac75fb5286bd9a1410f1f9dba82f0431e": {
       "539": 1
     },
@@ -14516,15 +14527,18 @@
       "1850": 2,
       "415": 1
     },
-    "dc9e09dfb2a1a29a7f1b5a752d8b354a5882eb75ec69c3e94c03356b01416f2d": {
-      "1241": 2,
-      "472": 1
+    "dc7cd7f9f311a30d0ca047da2dcdaeaeae68498f68e01a80aa24f1eac35cbee0": {
+      "1131": 2,
+      "503": 1
     },
     "dce0f98139a774cde19f47a46f3ee0e59ea0d19b83f8230e6290c3752aa07008": {
       "514": 1
     },
     "dd422bb610d68250ddac6db0b1c8cd28ccdc873b61bf095bec848e222ed80666": {
       "471": 1
+    },
+    "dd5e20451adb9d10ab193f86b3e1c4585ab6e7810f7dec8ba9199b8857cc4323": {
+      "243": 1
     },
     "dd98bfce2d41026b9b0a22c2883d3bc2a160275866b5a010f3d76bf393724454": {
       "1204": 2,
@@ -14552,9 +14566,6 @@
     "e34084e8c229a50c201ed7f0f1f398715176caaddbd75251d4091e6b47d3355c": {
       "516": 1
     },
-    "e36c6d2ff6981485816081e1abb4f02d8157b4163af0b303255476420750031f": {
-      "381": 1
-    },
     "e3b83a752b964140963a2bdea7fee09e95afe26997a1d0af61e5f818eec13580": {
       "1952": 2,
       "524": 1
@@ -14566,10 +14577,6 @@
     },
     "e50bd8f745cfdcf2a2fc01755f621dd2d790b00c30fcea2bdcc4ee75cf05c895": {
       "648": 1
-    },
-    "e56d3c543da3cd56cfa7aabb1f437e7623f001784a89d0919297f318ff9798a4": {
-      "1508": 2,
-      "636": 1
     },
     "e5adb9972d4124aa6bd80a189b5e066570deb6d7b14a7754177290e0d0073f92": {
       "1406": 2,
@@ -14646,9 +14653,9 @@
     "f30bed08059c2e1301bbd21cd4f6cf62aff803829f8edee2425c4b2364352b99": {
       "453": 1
     },
-    "f34b5d341721f362eb4307155e6369e5f0e46de3cb486901dcd75c2a9c64b371": {
-      "1736": 2,
-      "479": 1
+    "f4f278958627fa7a8cb790700e1d244c872e81ae772f630206274f74d8c6dbe9": {
+      "1172": 2,
+      "577": 1
     },
     "f62c4eb30601b6415f8fc63f124ebc834d3372a115c08ffd3cab408a332634a6": {
       "327": 1,
@@ -14669,9 +14676,8 @@
       "2109": 3,
       "465": 1
     },
-    "f9e25a47a91f82b54f8879c524b52c1af7b44c873684400430d8315fc9b04cf8": {
-      "1200": 2,
-      "620": 1
+    "fa2156595a841d9322fb069a9a5913214383d434e43c5acf888f6f1185da234b": {
+      "509": 1
     },
     "fb1a3dd9e1ad4697a206ceea55cb9344ff3cb491bc601aeaf40b46806fef5e42": {
       "1453": 2,

@@ -41,7 +41,7 @@ ns.COMPANION_NAME = "Willo"
 -- The "·" between the parts of a line. The client's Cyrillic Friz face has no "·" (it draws a box), so a Cyrillic
 -- reading language or a Russian client gets the bullet operator "∙", which every Friz and Morpheus face has.
 -- Lang.Dotted swaps it into a string; UI strings get it through L, the code's own separators call it.
-local CYRILLIC = { ruRU = true, ukUA = true }
+local CYRILLIC = { ruRU = true, ukUA = true, bgBG = true }
 Lang.dot = "·"
 function Lang.Dotted(s)
   if Lang.dot ~= "·" and type(s) == "string" and s:find("·", 1, true) then return (s:gsub("·", Lang.dot)) end

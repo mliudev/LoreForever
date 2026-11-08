@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Dendrite Starblaze asks you to seek two pendant halves in Moonglade and bring him the joined Pendant of the Sea Lion. Clues from the residents point toward the halves, and the Shrine of Remulos is where they can be joined.",
+ "summary": "Tajarri asks you to seek two pendant halves in Moonglade and bring the joined Pendant of the Sea Lion to Dendrite Starblaze. Clues from the residents point toward the halves, and the Shrine of Remulos is where they can be joined.",
  "sections": [
   {
-   "title": "Dendrite's Request",
-   "body": "Dendrite Starblaze in Nighthaven asks you to find two halves of a pendant in Moonglade. The residents may know where the Half Pendant of Aquatic Agility and the Half Pendant of Aquatic Endurance can be found. Bring the joined Pendant of the Sea Lion back to Dendrite.",
+   "title": "Tajarri's Request",
+   "body": "Tajarri at the Shrine of Remulos asks you to find two halves of a pendant in Moonglade. The residents may know where the Half Pendant of Aquatic Agility and the Half Pendant of Aquatic Endurance can be found. Bring the joined Pendant of the Sea Lion to Dendrite Starblaze in Nighthaven.",
    "spoiler": 0
   },
   {
@@ -31,7 +31,7 @@
     "dendrite request",
     "what does dendrite need"
    ],
-   "answer": "Dendrite Starblaze asks you to find the two pendant halves in Moonglade, join them near the Shrine of Remulos, and bring him the Pendant of the Sea Lion."
+   "answer": "Dendrite Starblaze waits in Nighthaven for the joined Pendant of the Sea Lion. Tajarri sends you to find the two pendant halves in Moonglade and join them near the Shrine of Remulos."
   },
   {
    "q": "Where can I find clues about the pendant halves?",

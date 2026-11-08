@@ -1,0 +1,83 @@
+{
+ "key": "quest:65593",
+ "type": "quest",
+ "name": "Hearts of the Lovers",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   65593
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Carendin Halgar seeks the hearts of Avelina Lilly and Isaac Pearson to draw an incubus. Their longing for one another makes them an especially potent lure.",
+ "sections": [
+  {
+   "title": "A Scrying's Choice",
+   "body": "Carendin Halgar seeks two hearts for his work at the Temple of the Damned. His scrying points to Avelina Lilly in Ambermill and Isaac Pearson in Ratchet. Avelina serves the fallen wizards with her tailoring, while Isaac hopes to make his mark in the seaside town. Though they toil far apart, each longs for the other. Carendin asks you to bring him their hearts as a lure for an incubus.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Hearts",
+   "body": "Carendin receives the hearts of Avelina Lilly and Isaac Pearson. He holds one in each hand and brings them together gently, then calls the lovers idiots.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who are Avelina Lilly and Isaac Pearson?",
+   "aliases": [
+    "avelina and isaac",
+    "who are the lovers"
+   ],
+   "answer": "Avelina Lilly provides tailoring services to the fallen wizards in Ambermill, and Isaac Pearson hopes to make his mark in Ratchet. Their hearts yearn for each other."
+  },
+  {
+   "q": "Why does Carendin want their hearts?",
+   "aliases": [
+    "incubus hearts",
+    "why hearts"
+   ],
+   "answer": "Carendin says an incubus is drawn to lovers' hearts, and that the deepest longing makes the strongest lure."
+  },
+  {
+   "q": "Where are the two lovers?",
+   "aliases": [
+    "where is avelina",
+    "where is isaac"
+   ],
+   "answer": "Avelina Lilly is in Ambermill in Silverpine Forest, while Isaac Pearson is in Ratchet in the Barrens."
+  },
+  {
+   "q": "Who is Carendin Halgar?",
+   "aliases": [
+    "carendin",
+    "temple of the damned"
+   ],
+   "answer": "Carendin Halgar is at the Temple of the Damned, where he asks you to bring him Avelina and Isaac's hearts."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ambermill",
+  "avelina lilly",
+  "carendin halgar",
+  "hearts of the lovers",
+  "incubus",
+  "isaac pearson",
+  "lovers",
+  "ratchet"
+ ],
+ "related": [
+  "zone:silverpine",
+  "zone:barrens",
+  "subzone:ambermill",
+  "subzone:ratchet",
+  "npc:carendin-halgar"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Hearts of the Lovers"
+ ]
+}

@@ -286,7 +286,7 @@ P.transport["npc:grelin-whitebeard"] = {
   fullHash = "d2dc43",
   text = "Grelin Whitebeard. In Coldridge Valley, Grelin Whitebeard keeps watch over the Frostmane threat by royal decree. Ironforge is busy fighting troggs, so his isolated camp depends on local recruits. Grelin Whitebeard and his brother Senir came to Coldridge Valley under orders from the Senate of Ironforge and King Magni Bronzebeard. Their charge was to assess and quell the threat from the native Frostmane trolls. Ironforge's soldiers are busy fighting trogg outbreaks across Dun Morogh, leaving the brothers short of supplies. So Grelin made camp in the snowy hills and relies on local recruits and passing initiates to do the work. From his camp, Grelin watches the Frostmane tribe press south from Coldridge Valley. The trolls grow bolder and raid beyond their mountain caverns. During one raid, Grik'nir the Cold, a heavily painted troll, slipped into the unattended camp and stole Grelin's field journal of observations.\n\nGrelin will not fail the King. He sends travelers into the Frostmane caves to recover his writings and carry his final report to Senir in Kharanos.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_grelin-whitebeard-7e2a56deae7c5d67d7c2/1-0000.mp3", duration = 62.9812245, start = 0},
+    {file = "Audio/Transport/full_npc_grelin-whitebeard-3999f36ff6d5e3861df6/1-0000.mp3", duration = 64.235102, start = 0},
   },
 }
 P.transport["npc:grif-wildheart"] = {
@@ -294,7 +294,7 @@ P.transport["npc:grif-wildheart"] = {
   fullHash = "504471",
   text = "Grif Wildheart. Outside the Thunderbrew Distillery in Kharanos, Grif Wildheart guides young hunters toward life with a beast companion. He teaches tracking, marksmanship, and how to tame beasts to hunters arriving from Coldridge Valley. Grif Wildheart has spent his life in Dun Morogh’s frozen wilds. While many Ironforge dwarves choose the forge or the mines, local mountaineers say he spends too much time among four-legged beasts. Still, none question his command of the wild. Years spent tracking snowbound ridges with seasoned hunting companions have taught him the ways of the predators among the crags. Young dwarf hunters finish their first trials in Coldridge Valley, then travel to Kharanos for Grif’s guidance. He sharpens their aim and teaches them to survive in the wild. His deepest craft, though, is joining hunter and beast. He sends his pupils into Dun Morogh’s freezing wastes with a taming rod to face Large Crag Boars, Snow Leopards, and Ice Claw Bears. Once a hunter has calmed three kinds of wild beasts, Grif’s training in Kharanos is complete. A hunter must also learn to feed, discipline, and train a new companion. So Grif sends his graduates up the mountainside to Ironforge. Beneath the capital’s vaulted roofs, they report to master beast trainers and learn to care for a companion meant to stay with them for life.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_grif-wildheart-c35aaa240735ddfe44df/1-0000.mp3", duration = 81.4236735, start = 0},
+    {file = "Audio/Transport/full_npc_grif-wildheart-e80230c10af5938a3fc6/1-0000.mp3", duration = 82.6514286, start = 0},
   },
 }
 P.transport["npc:gryan-stoutmantle"] = {
@@ -358,7 +358,7 @@ P.transport["npc:jaina-proudmoore"] = {
   fullHash = "1d0d4c",
   text = "Jaina Proudmoore. On Theramore Isle, Jaina Proudmoore works to preserve peace between the Alliance and the New Horde. Once a gifted student of Dalaran’s Kirin Tor, she led Lordaeron’s survivors across the Great Sea and now rules the island as its most powerful human sorceress. Jaina Proudmoore, daughter of Grand Admiral Daelin Proudmoore of Kul Tiras, showed an early gift for magic. In Dalaran, she studied under Archmage Antonidas. During the Third War, she investigated the Plague of Undeath with Prince Arthas Menethil and witnessed Lordaeron’s fall.\n\nThen the Prophet Medivh warned her of the coming danger, and she gathered human survivors to sail west for Kalimdor. There, Jaina’s forces joined Thrall’s Horde and the night elves. Together they stood at Mount Hyjal, defeated Archimonde, and broke the Burning Legion’s invasion. After the Legion’s defeat, Jaina founded Theramore, an island citadel off the coast of Dustwallow Marsh. It became the Alliance’s main stronghold in southern Kalimdor. Her commitment to peace faced its greatest test when her father came seeking vengeance against the orcs.\n\nJaina would not join his war. She stood aside as Thrall’s forces killed the Grand Admiral, preventing another devastating conflict in Kalimdor. Now Jaina rules Theramore and speaks for coexistence. She works closely with Warchief Thrall while holding the Alliance’s ground amid rising local tensions.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_jaina-proudmoore-7bff00181d3913807792/1-0000.mp3", duration = 88.4767347, start = 0},
+    {file = "Audio/Transport/full_npc_jaina-proudmoore-a04ae857731b305228a6/1-0000.mp3", duration = 87.3012245, start = 0},
   },
 }
 P.transport["npc:je-neu-sancrea"] = {
@@ -398,7 +398,7 @@ P.transport["npc:jordan-stilwell"] = {
   fullHash = "b0a7c4",
   text = "Jordan Stilwell. Outside Ironforge’s gates, Jordan Stilwell tends his forge in Dun Morogh. Once expected to join the Church of the Holy Light, he followed his father into smithing and learned from Bailor Stonehand. Now his craft arms paladins across the Alliance. Jordan Stilwell was expected to take holy vows and become a paladin in the Church of the Holy Light. Instead, he followed his father into smithing and took up his father’s enchanted hammer. Bailor Stonehand, a dwarven blacksmith, helped him refine his craft. Jordan remains deeply faithful to the Light and puts his skill to work for champions who fight in its name. Jordan once worked as a smith at Baron Silverlaine’s keep in Silverpine Forest. Then Archmage Arugal unleashed feral worgen upon the fortress and made it Shadowfang Keep. Jordan escaped the bloodshed, leaving his forge and former home behind. In time, he found refuge among the dwarves of Dun Morogh.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_jordan-stilwell-a7c2b5de8fff1e260c25/1-0000.mp3", duration = 55.562449, start = 0},
+    {file = "Audio/Transport/full_npc_jordan-stilwell-501d5705ce1f7bad6a1c/1-0000.mp3", duration = 55.1444898, start = 0},
   },
 }
 P.transport["npc:kaela-shadowspear"] = {
@@ -550,7 +550,7 @@ P.transport["npc:ozzie-togglevolt"] = {
   fullHash = "b2ac14",
   text = "Ozzie Togglevolt. In Kharanos, Ozzie Togglevolt works with Razzle Sprysprocket to find a cure for the leper gnomes of Gnomeregan. Their research continues among the snowy hills of Dun Morogh. Ozzie Togglevolt was deep inside Gnomeregan when catastrophe struck. Toxic fallout filled the corridors to stem the trogg invasion. Ozzie stood beside Gnoarn when a sudden radioactive discharge changed Gnoarn forever. Ozzie escaped to the surface and reached Dun Morogh alive, but the disaster stayed with him. In Kharanos, Ozzie spends his days tinkering with Razzle Sprysprocket. Their work is personal. They seek a way to reverse the mutagenic fallout from their lost home and cure the suffering leper gnomes.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_ozzie-togglevolt-0f30f4696da6711ed239/1-0000.mp3", duration = 43.4938776, start = 0},
+    {file = "Audio/Transport/full_npc_ozzie-togglevolt-c33796ccb0024c510dde/1-0000.mp3", duration = 43.8857143, start = 0},
   },
 }
 P.transport["npc:pelturas-whitemoon"] = {
@@ -582,7 +582,7 @@ P.transport["npc:rejold-barleybrew"] = {
   fullHash = "72cd5a",
   text = "Rejold Barleybrew. At Brewnall Village, Rejold Barleybrew keeps working toward the perfect mountain spirit. He gathers ingredients from western Dun Morogh and tests each recipe. Dwarves in Dun Morogh take brewing seriously. Rejold works in Brewnall Village, near the frozen lake of the Iceflow River. He keeps refining his blends with rare hops, mountain minerals, and pristine ice water. His aim is a stout hearty enough to warm even the stoutest dwarven warriors. Rejold seeks the right flavors for drinks such as Shimmer Stout. He sends travelers across Dun Morogh for ingredients and trades favors with the siege pilots of Steelgrill's Depot. He also arranges deliveries to thirsty patrons. So hearty ale keeps flowing along Dun Morogh's cold, trogg-plagued roads.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_rejold-barleybrew-e540a147f4c86b23cfdf/1-0000.mp3", duration = 47.3861224, start = 0},
+    {file = "Audio/Transport/full_npc_rejold-barleybrew-02bbe6534b2a42000184/1-0000.mp3", duration = 47.3338776, start = 0},
   },
 }
 P.transport["npc:rethiel-the-greenwarden"] = {
@@ -614,7 +614,7 @@ P.transport["npc:senir-whitebeard"] = {
   fullHash = "a18908",
   text = "Senir Whitebeard. Outside the Thunderbrew Distillery in Kharanos, Senir Whitebeard watches the threats growing across Dun Morogh. The Senate of Ironforge sent him to assess the Frostmane troll offensive and report their movements to the dwarven leadership. Senir Whitebeard brings the Senate of Ironforge's authority to Kharanos. The city's halls watch as unrest grows across Dun Morogh. Senir carries news from scouts on the snowy frontier to the lawmakers behind Ironforge's stone gates. The Frostmane trolls grow more aggressive, pressing close to dwarven settlements and roads from the frozen crags where they are displaced and desperate. Senir gathers reports on their positions, especially around their stronghold, for Ironforge's military commanders. His work is to gather intelligence, not charge into battle.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_senir-whitebeard-1ce610137ed344d0a3bc/1-0000.mp3", duration = 46.602449, start = 0},
+    {file = "Audio/Transport/full_npc_senir-whitebeard-88b86fa726b9099011a7/1-0000.mp3", duration = 48.2481633, start = 0},
   },
 }
 P.transport["npc:shael-dryn"] = {
@@ -702,7 +702,7 @@ P.transport["npc:tiza-battleforge"] = {
   fullHash = "0bb70b",
   text = "Tiza Battleforge. In Ironforge, Tiza Battleforge guides young paladins through the ways of the Holy Light. She teaches virtue, charity, and self-sacrifice, then tests initiates before they may wield its gift of resurrection. Tiza Battleforge guides paladins in Ironforge's Hall of Mysteries. Tutors across the Alliance send initiates to her for deeper study of the Light. Brandur Ironhammer sends them from Ironforge, Azar Stronghammer from Dun Morogh, and Lord Grayson Shadowbreaker from Stormwind.\n\nTiza teaches that the Holy Light asks more than skill in battle. Its servants must offer humble service, show compassion, and stand firm against the Scourge and other threats.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_tiza-battleforge-9b71535eb5407c39d4ce/1-0000.mp3", duration = 41.5085714, start = 0},
+    {file = "Audio/Transport/full_npc_tiza-battleforge-fe41ed72b42a2930f37c/1-0000.mp3", duration = 41.0383673, start = 0},
   },
 }
 P.transport["npc:tyrande-whisperwind"] = {
@@ -830,7 +830,7 @@ P.transport["subzone:anvilmar"] = {
   fullHash = "8e3204",
   text = "Anvilmar. In Coldridge Valley, Anvilmar gathers young Bronzebeard dwarves and displaced gnomes to train for the road ahead. Snowy Dun Morogh surrounds the fortified outpost and its great stone forge. A great forge burns inside Anvilmar's sturdy stone walls in the northern crags of Coldridge Valley. Class mentors and supply vendors serve the outpost, while veteran mountain mountaineers drill recruits before they set out across the kingdom. Snowdrifts shelter the walls, but Frostmane trolls and wild beasts prowl the frozen valley, keeping the defenders alert. Anvilmar may take its name from High King Modimus Anvilmar. He ruled the dwarven clans before the War of the Three Hammers. Today, the garrison keeps watch and tends the forge fires as trolls and beasts roam the valley.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_anvilmar-2cdaa52a7f2b7b1fe0fc/1-0000.mp3", duration = 47.1510204, start = 0},
+    {file = "Audio/Transport/full_subzone_anvilmar-96737394f001c4c61071/1-0000.mp3", duration = 46.837551, start = 0},
   },
 }
 P.transport["subzone:astranaar"] = {
@@ -966,7 +966,7 @@ P.transport["subzone:brewnall-village"] = {
   fullHash = "c3ef67",
   text = "Brewnall Village. In Chill Breeze Valley, the Barleybrew family works on new brews and guards against wild beasts. Their camp lies near the entrance to Gnomeregan. The Barleybrew clan brews in Chill Breeze Valley, among the gnomish reaches of western Dun Morogh. They work to perfect old recipes and make the finest stout. Tents and brewing gear fill the camp, with no permanent stone buildings. As the Barleybrews test new ales, wolves and bears threaten the valley. Wandering mountaineers gather rare ingredients and help keep the area safe.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_brewnall-village-fb78a9ce673c5522d3e5/1-0000.mp3", duration = 32.4702041, start = 0},
+    {file = "Audio/Transport/full_subzone_brewnall-village-a03be51650f17d332507/1-0000.mp3", duration = 32.3134694, start = 0},
   },
 }
 P.transport["subzone:brightwood-grove"] = {
@@ -1078,7 +1078,7 @@ P.transport["subzone:coldridge-pass"] = {
   fullHash = "1e03b4",
   text = "Coldridge Pass. Troggs now bar the road through Coldridge Pass, the way out of Coldridge Valley. Recruits leave Coldridge Valley through Coldridge Pass and travel toward Kharanos. The tunnel cuts through Dun Morogh’s southern mountain ridge, carrying them from sheltered training grounds into the wider kingdom. Troggs have overrun the passage, threatening anyone who crosses between the valley and the rest of Dun Morogh.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_coldridge-pass-840da99900e5828b10b6/1-0000.mp3", duration = 23.7453061, start = 0},
+    {file = "Audio/Transport/full_subzone_coldridge-pass-faf30a410f68c6514eca/1-0000.mp3", duration = 22.7004082, start = 0},
   },
 }
 P.transport["subzone:command-center"] = {
@@ -1430,7 +1430,7 @@ P.transport["subzone:frostmane-hold"] = {
   fullHash = "678f6c",
   text = "Frostmane Hold. Frostmane trolls raid from the cliffs south of Gnomeregan in western Dun Morogh. The Ironforge Guard watches their camp and caverns as the raiders press into dwarven lands. In western Dun Morogh, Frostmane Hold cuts into cold cliffs. Rough structures stand outside its winding caves, where hideskinners and headhunters guard the tribe’s stronghold. From here, Frostmane raiders strike the valleys, threaten travelers on mountain passes, and test the defenses around Kharanos. Dwarven commanders in Kharanos fear the growing Frostmane force. Young mountaineers and adventurers scout the caverns and map their defenses. They thin the warbands before the tribe can gather for an organized assault on dwarven outposts.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_frostmane-hold-060f16f8d59c9010cc04/1-0000.mp3", duration = 42.8408163, start = 0},
+    {file = "Audio/Transport/full_subzone_frostmane-hold-eeb997e9d5e319765fc8/1-0000.mp3", duration = 45.4269388, start = 0},
   },
 }
 P.transport["subzone:frostmane-hovel"] = {
@@ -1462,7 +1462,7 @@ P.transport["subzone:gates-of-ironforge"] = {
   fullHash = "024d0f",
   text = "Gates of Ironforge. From Dun Morogh, travelers climb to the Gates of Ironforge, where a stone king guards the way into the dwarven capital. The gates open in the mountain face, with High King Modimus Anvilmar's statue just inside. From central Dun Morogh, you climb a winding, fortified ramp through the snowy lowlands to the Gates of Ironforge. Beyond the great portal stands a stone likeness of High King Modimus Anvilmar. He united the dwarven clans before the War of the Three Hammers. The passage opens into the Commons, where Ironforge's trade and banking are centered.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_gates-of-ironforge-633e8e886c3def800aec/1-0000.mp3", duration = 34.0114286, start = 0},
+    {file = "Audio/Transport/full_subzone_gates-of-ironforge-b3b27357d4be732c2a1f/1-0000.mp3", duration = 33.28, start = 0},
   },
 }
 P.transport["subzone:goblin-foundry"] = {
@@ -1478,7 +1478,7 @@ P.transport["subzone:gol-bolar-quarry"] = {
   fullHash = "5e7732",
   text = "Gol'Bolar Quarry. At Gol'Bolar Quarry, troggs have driven the miners from the snowy hills of southeastern Dun Morogh. The Ironforge dwarves came for stone and ore, but now the dig lies quiet. Ironforge dwarves opened Gol'Bolar Quarry southeast of Kharanos to draw stone and mineral wealth from the mountains. Their digging broke into underground warrens and brought a horde of hostile troggs into the open. The creatures soon drove out the miners.\n\nThe upper camp is now an embattled staging ground. Overseers, tradesfolk, and Prospector Gehn gather dwarven and gnomish recruits there to drive the troggs back and reclaim the pit.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_gol-bolar-quarry-af4222232e2fec11b082/1-0000.mp3", duration = 38.0604082, start = 0},
+    {file = "Audio/Transport/full_subzone_gol-bolar-quarry-0bb759710a050731b348/1-0000.mp3", duration = 37.1722449, start = 0},
   },
 }
 P.transport["subzone:gol-bolar-quarry-mine"] = {
@@ -1486,7 +1486,7 @@ P.transport["subzone:gol-bolar-quarry-mine"] = {
   fullHash = "a22b3d",
   text = "Gol'Bolar Quarry Mine. Troggs hold Gol'Bolar Quarry Mine beneath the quarry in eastern Dun Morogh. Dwarves of Ironforge mined its tunnels for stone and rich ore until their picks broke into trogg caverns. Now Hammerspine leads the warband in the deepest shafts. The dwarves' pickaxes broke through a wall into caverns where troggs dwelled. Their mining ended there. Troggs poured from the darkness, overwhelmed the crews, and drove them from the mine. The abandoned shafts remain in trogg hands. Younger troggs roam the quarry's sunlit terraces, but the mine shelters the warband's fiercest fighters. Deep in its cramped tunnels lurks Hammerspine, their vicious chieftain. Local mountaineers still need to reclaim the valuable quarry. To do so, they must reach the mine's deepest shafts and cut off the troggs at their source.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_gol-bolar-quarry-mine-42ae8d5f5b537bc3bb89/1-0000.mp3", duration = 49.1885714, start = 0},
+    {file = "Audio/Transport/full_subzone_gol-bolar-quarry-mine-7d2c3881cbc05ce47a98/1-0000.mp3", duration = 49.162449, start = 0},
   },
 }
 P.transport["subzone:gold-coast-quarry"] = {
@@ -1558,7 +1558,7 @@ P.transport["subzone:grizzled-den"] = {
   fullHash = "4e71ff",
   text = "Grizzled Den. In Dun Morogh, wendigo packs make their lair in Grizzled Den, southwest of Kharanos. Southwest of Kharanos, Grizzled Den cuts into Dun Morogh’s crags. Wendigo packs make their home in its hollows. These aggressive, ape-like beasts breathe frost at intruders and band together to defend their lair. Hunters brave the cavern for thick wendigo manes, used by craftsmen to line cold chairs and carriage seats with insulating fur. Prospectors work copper veins in Grizzled Den’s frozen stone walls. Scouts search its darker corners for discarded footlockers. Deeper in the tunnels, the den’s largest and most vicious predators wait in the shadows.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_grizzled-den-464a41a5219354c1b234/1-0000.mp3", duration = 40.5159184, start = 0},
+    {file = "Audio/Transport/full_subzone_grizzled-den-c54de70c6a0768776f53/1-0000.mp3", duration = 41.5608163, start = 0},
   },
 }
 P.transport["subzone:grizzlepaw-ridge"] = {
@@ -1630,7 +1630,7 @@ P.transport["subzone:helm-s-bed-lake"] = {
   fullHash = "a0a729",
   text = "Helm's Bed Lake. In southeastern Dun Morogh, dwarves keep a hole open in Helm's Bed Lake for fresh water. But beasts, troggs, and hostile Dark Iron dwarves make the shore dangerous. The ice is firm enough to cross, but the banks are dangerous. Displaced troggs scavenge along the ridges, and wild beasts prowl the edges. South of the water, hostile Dark Iron dwarves have taken an abandoned lodge. They ambush travelers who pass nearby.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_helm-s-bed-lake-d60fe68cc7ee3985a5f9/1-0000.mp3", duration = 27.7942857, start = 0},
+    {file = "Audio/Transport/full_subzone_helm-s-bed-lake-5ef42ff93961b5a0609e/1-0000.mp3", duration = 27.115102, start = 0},
   },
 }
 P.transport["subzone:heroes-vigil"] = {
@@ -1686,7 +1686,7 @@ P.transport["subzone:iceflow-lake"] = {
   fullHash = "e0cebc",
   text = "Iceflow Lake. In western Dun Morogh, dwarves keep fishing holes open at Iceflow Lake, just north of Brewnall Village. Snow-covered islands rise from its center, where winter wolves prowl under their alpha, Timber. Paxton Ganter and other local dwarves clear thick ice from the lake for drinking water and fish. Bitter cold sweeps the shore, yet it still sustains them.\n\nThe islands are dangerous ground. A fierce pack of wild wolves prowls the icy mounds, led by Timber, a savage gray worg.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_iceflow-lake-9a553a6430d2a743e79e/1-0000.mp3", duration = 30.8506122, start = 0},
+    {file = "Audio/Transport/full_subzone_iceflow-lake-450fedae05c958335e66/1-0000.mp3", duration = 32.0522449, start = 0},
   },
 }
 P.transport["subzone:iris-lake"] = {
@@ -1702,7 +1702,7 @@ P.transport["subzone:ironband-s-compound"] = {
   fullHash = "7c38de",
   text = "Ironband's Compound. Dark Iron dwarves now hold Ironband's Compound south of Helm's Bed Lake in eastern Dun Morogh. Sturgy Ironband once used the camp, but its fall has brought danger to travelers and nearby settlements. Sturgy Ironband raised the camp as a staging post in Dun Morogh's snowy wilderness. Dark Iron infiltrators then pushed deep into Bronzebeard territory and seized it. Their forces now stand close to Ironforge, and the outpost threatens the city's edge. Within Dun Morogh, the Dark Iron camp is a grave provocation to Ironforge. The city keeps watch and sends seasoned warriors to recover fallen scouts. They also seek vital intelligence on the Dark Iron threat in the mountain kingdom.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ironband-s-compound-3ec4466d2278a9fa6a74/1-0000.mp3", duration = 41.8742857, start = 0},
+    {file = "Audio/Transport/full_subzone_ironband-s-compound-6259553cc848c2e0e885/1-0000.mp3", duration = 43.7028571, start = 0},
   },
 }
 P.transport["subzone:ironband-s-excavation-site"] = {
@@ -1734,7 +1734,7 @@ P.transport["subzone:ironforge-airfield"] = {
   fullHash = "a3fbcb",
   text = "Ironforge Airfield. Gnome flying machines and dwarven mountaineers keep watch at Ironforge Airfield, high above Dun Morogh. Its plateau overlooks jagged crags and the steep descent toward the Wetlands. Above Dun Morogh's trails, gnome flying machines line open strips among the peaks. Dwarven stonework holds the ridgelines, where mountaineers watch the perimeter. Nearby, engineers tend the machines and inspect their engines in the cold. Frostmane trolls dwell in caves near the airfield and harass the dwarven sentries. Across the frozen waters beneath the peaks, dwarven defenders and Stormpike patrols clash with troll raiders. So the outpost remains on guard.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ironforge-airfield-7f51279afeee059aa1bc/1-0000.mp3", duration = 41.5608163, start = 0},
+    {file = "Audio/Transport/full_subzone_ironforge-airfield-4a4739d8c71c71c38a68/1-0000.mp3", duration = 43.2326531, start = 0},
   },
 }
 P.transport["subzone:jangolode-mine"] = {
@@ -1782,7 +1782,7 @@ P.transport["subzone:kharanos"] = {
   fullHash = "5eb7c8",
   text = "Kharanos. Travelers leaving Coldridge Valley make Kharanos their primary stop, just down the road from Ironforge. The town has a forge, gnomish workshops, and the famous Thunderbrew Distillery. Along Dun Morogh's central road, Kharanos is the first true town for recruits arriving from Anvilmar. The cold and wind bite hard, but dwarven grit and gnomish ingenuity keep the settlement thriving. Its heart is a roaring public forge and the Thunderbrew Distillery, whose ale is counted among the finest in Khaz Modan and renowned across the eastern mountains.\n\nCrafters work among weary travelers seeking warmth. Together, they make Kharanos an essential place for business in the lower peaks. Behind Kharanos's cozy hearths, a military outpost guards the mountain passes. Fierce indigenous wendigo prowl the frozen caverns directly to the west, while aggressive Frostmane trolls hold Shimmer Ridge to the northwest.\n\nIronforge's regular forces are stretched thin across the realm. So Kharanos relies heavily on visiting adventurers and local watchmen to drive back raiding parties, cull dangerous predators, and keep the trade routes open.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_kharanos-43c3d310dc13334a0fdd/1-0000.mp3", duration = 69.5902041, start = 0},
+    {file = "Audio/Transport/full_subzone_kharanos-c7a0d611422514c9858b/1-0000.mp3", duration = 68.9110204, start = 0},
   },
 }
 P.transport["subzone:lake-al-ameth"] = {
@@ -2014,7 +2014,7 @@ P.transport["subzone:misty-pine-refuge"] = {
   fullHash = "fdb87c",
   text = "Misty Pine Refuge. In central Dun Morogh, the Argent Dawn keeps a small outpost at Misty Pine Refuge. Misty Pine Refuge is an unassuming Argent Dawn outpost among Dun Morogh's windswept hills. Ironforge mountaineers patrol the crags nearby. Father Gavin, the order's lone agent here, keeps a quiet hearth amid bitter cold and danger on the mountain roads.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_misty-pine-refuge-f09b255fcb44c602f5e9/1-0000.mp3", duration = 22.7265306, start = 0},
+    {file = "Audio/Transport/full_subzone_misty-pine-refuge-1597b6f58cff1b30617f/1-0000.mp3", duration = 21.9428571, start = 0},
   },
 }
 P.transport["subzone:mo-grosh-stronghold"] = {
@@ -2414,7 +2414,7 @@ P.transport["subzone:shimmer-ridge"] = {
   fullHash = "a6c34c",
   text = "Shimmer Ridge. In northern Dun Morogh, Shimmer Ridge lies west of the Gates of Ironforge, where Frostmane trolls hold two camps across a chasm. Shimmerweed grows nowhere else. Frostmane trolls hold camps on both sides of a chasm, joined by a rickety wooden bridge. Troll scavengers and tamed mountain boars guard the rocky heights. The ridge lies near the main road and the dwarven capital, giving the trolls a place to raid travelers and mountain patrols. Frostmane trolls grow shimmerweed on the ridge. Dwarven brewmasters prize the plant for the potent, flavorful highland ales it makes. Since it is hard to gather elsewhere, mountaineers and young recruits brave troll ambushes and tusked beasts to harvest it from the trolls' plots.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_shimmer-ridge-52b5fe35959f8ca39a32/1-0000.mp3", duration = 44.7738776, start = 0},
+    {file = "Audio/Transport/full_subzone_shimmer-ridge-a3bad644f09e0ebfb2c8/1-0000.mp3", duration = 44.9306122, start = 0},
   },
 }
 P.transport["subzone:shimmering-flats"] = {
@@ -2550,7 +2550,7 @@ P.transport["subzone:steelgrill-s-depot"] = {
   fullHash = "b9a745",
   text = "Steelgrill's Depot. East of Kharanos, Steelgrill's Depot keeps Alliance vehicles and machinery working. Beldin Steelgrill and his crew repair them, supply tinkerers, and salvage what they can. Just off the snowy road, dwarven miners and eccentric gnome engineers gather among heavy machinery, mechanized walking frames, and raw ore from nearby quarries. Metal clanks, steam vents hiss, and experimental engines churn. Trogg disruptions and shortages of mechanical supplies trouble Dun Morogh. In the bitter cold, travelers come for spare parts or technical guidance.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_steelgrill-s-depot-74528e7445e0e0eb5a9c/1-0000.mp3", duration = 34.6122449, start = 0},
+    {file = "Audio/Transport/full_subzone_steelgrill-s-depot-68fa264568322f5b5217/1-0000.mp3", duration = 35.6571429, start = 0},
   },
 }
 P.transport["subzone:stendel-s-pond"] = {
@@ -2750,7 +2750,7 @@ P.transport["subzone:thelsamar"] = {
   fullHash = "28bc11",
   text = "Thelsamar. In Thelsamar, travelers find shelter on the road between Dun Morogh and the Wetlands. The town keeps watch over the western bluffs above Loch Modan's great lake as troggs and ogres press nearby. Thelsamar gathers dwarven life beneath stout roofs of stone and timber. At the Stoutlager Inn, travelers can rest, and nearby they find a gryphon roost, crafting stations, and supply merchants. The town lies along the road from the South Gate Pass into Dun Morogh to the Algaz Pass toward the Wetlands. Travelers crossing the region pass through its doors. Trouble presses in on Thelsamar from several sides. Troggs pour from Stonesplinter Valley to the south, while bears and other predators haunt Grizzlepaw Ridge. Ironforge's regular forces are stretched thin across the realm. So the local magistrate and Mountaineers rely on travelers and mercenaries to patrol the trade roads and drive back hostile forces.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_thelsamar-c41aa65974fa76a69610/1-0000.mp3", duration = 53.8644898, start = 0},
+    {file = "Audio/Transport/full_subzone_thelsamar-f0852142d11a6695a9ac/1-0000.mp3", duration = 54.5436735, start = 0},
   },
 }
 P.transport["subzone:thistlefur-hold"] = {
@@ -2862,7 +2862,7 @@ P.transport["subzone:train-depot"] = {
   fullHash = "5e1b6e",
   text = "Train Depot. Beneath Gnomeregan's entrance in Dun Morogh, the Train Depot lies overrun by leper gnomes and troggs. Once, its rails carried gnomes through the city. Now the depot is in ruin. Beneath the grand elevator from Dun Morogh, the Train Depot's platforms and tracks lie in ruin. Once, rail lines carried gnomes through Gnomeregan. Radiation swept through the city and changed the workers who remained into crazed leper gnomes. Troggs from below have overrun the rails. You must cross the depot to reach deeper parts of the city, including Clockwerk Run, the Loading Room, and the inner engineering facilities.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_train-depot-f486353b79288c1c3371/1-0000.mp3", duration = 37.2767347, start = 0},
+    {file = "Audio/Transport/full_subzone_train-depot-a652e3d12bdd2a209ce6/1-0000.mp3", duration = 37.877551, start = 0},
   },
 }
 P.transport["subzone:tranquil-gardens-cemetery"] = {
@@ -2878,7 +2878,7 @@ P.transport["subzone:tundrid-hills"] = {
   fullHash = "79400d",
   text = "Tundrid Hills. In south-central Dun Morogh, the Tundrid Hills offer a perilous crossing west of Gol'Bolar Quarry. Snowbound ridges and dangerous wildlife make every step off the rocky passes a risk. From Coldridge Valley, the Tundrid Hills give you a rough way into eastern Dun Morogh, away from the main roads through Kharanos. Jagged slopes hold the snow, and the crossing is dangerous. Ferocious predators prowl the hills, so keep a weapon ready if you leave the beaten path.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_tundrid-hills-13077bd899ab196e3d40/1-0000.mp3", duration = 28.5779592, start = 0},
+    {file = "Audio/Transport/full_subzone_tundrid-hills-b0441d1e6ad0b8bfa354/1-0000.mp3", duration = 27.6636735, start = 0},
   },
 }
 P.transport["subzone:twilight-grove"] = {

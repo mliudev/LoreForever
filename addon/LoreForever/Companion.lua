@@ -87,6 +87,8 @@ local function createBox()
       C_Timer.After(0.15, function()   -- after the copy itself
         f:Hide()
       end)
+      -- A pin she makes from it reaches the maps without a /reload (LOR-1292).
+      if ns.PinsLive then pcall(ns.PinsLive.Talked) end
     end
   end)
   local note = f:CreateFontString(nil, "OVERLAY", "GameFontDisableSmall")

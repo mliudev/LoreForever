@@ -694,7 +694,7 @@ P.transport["quest:1108"] = {
   fullHash = "d22532",
   text = "Indurium. In the Badlands, Martek the Exiled seeks metal samples for Fizzle's car. Indurium is said to endure heat and stress, and Stonevault troggs sometimes carry flakes. Martek the Exiled stays in the Badlands for more than solitude. He thinks indurium might suit Fizzle's car because it is said to endure heat and stress. He wants samples for a test, with the forge ready. True indurium ore lies deep in Uldaman, but Stonevault troggs in the Badlands sometimes carry flakes. Martek asks for ten. The troggs roam the south-east slope of a rocky clump at Agmond's End, just south of the Valley of Fangs.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1108-27140b93a15ab29c009e/1-0000.mp3", duration = 38.5567347, start = 0},
+    {file = "Audio/Transport/full_quest_1108-cf8378598fb5663c2dc0/1-0000.mp3", duration = 39.3926531, start = 0},
   },
 }
 P.transport["quest:1110"] = {
@@ -814,7 +814,7 @@ P.transport["quest:1137"] = {
   fullHash = "787b5c",
   text = "News for Fizzle. In the Badlands, Martek the Exiled has news for Fizzle Brassbolts about indurium. You carry his message to the Mirage Raceway on the Shimmering Flats in Thousand Needles. Martek says indurium withstands heat remarkably well, so it may suit Fizzle's pistons. Flakes will not do; Fizzle needs real indurium ore, dug from deep within Uldaman at the Badlands' northern edge. Martek names Uldaman as indurium's true source. He sends his regards and asks you to repeat all he has told you to Fizzle Brassbolts.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1137-9c7504d1a74dafaa0e85/1-0000.mp3", duration = 31.8432653, start = 0},
+    {file = "Audio/Transport/full_quest_1137-aae83b56c17576ba6ecf/1-0000.mp3", duration = 31.3730612, start = 0},
   },
 }
 P.transport["quest:1140"] = {
@@ -2566,7 +2566,7 @@ P.transport["quest:1783"] = {
   fullHash = "e5b16c",
   text = "The Tome of Divinity. A paladin initiate carries the Symbol of Life to the frigid shores south of Helm's Bed Lake in Dun Morogh. There, the initiate must find Narm Faulk, a brave scout who fell holding off Dark Iron dwarves, and call him back with the Light. South of Helm's Bed Lake, dwarven scouts Muiredon and Narm Faulk watched Dark Iron dwarves entrench themselves. When they saw an enemy commander issuing orders, they struck at several foes and tried to secure a script. The Dark Irons overwhelmed them with unexpected ferocity. Muiredon fled for reinforcements while Narm held the line.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1783-37ecac3051e6544521ed/1-0000.mp3", duration = 35.2653061, start = 0},
+    {file = "Audio/Transport/full_quest_1783-0bf38b00303e1f818ba2/1-0000.mp3", duration = 35.1608163, start = 0},
   },
 }
 P.transport["quest:1784"] = {
@@ -2574,7 +2574,7 @@ P.transport["quest:1784"] = {
   fullHash = "887308",
   text = "The Tome of Divinity. In Dun Morogh, injured scouts need help exposing Dark Iron spies near Helm's Bed Lake. Their orders may persuade Ironforge's skeptical council to heed the danger. Young dwarven paladins answer the call to defend Dun Morogh when an expedition near Helm's Bed Lake goes wrong. Narm Faulk and Muiredon Battleforge set out to ambush Dark Iron scouts. Narm fell wounded, while Muiredon returned to Ironforge to recover. Rumors of Dark Iron infiltrators have reached Ironforge, yet some council members refuse to believe they have entered Dun Morogh. Near Helm's Bed, the paladin can track down the spies and recover a Dark Iron Script from their captain. The orders offer proof of enemy movements and plots near the capital's gates.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1784-d8454b99c95039d0fdaf/1-0000.mp3", duration = 45.5836735, start = 0},
+    {file = "Audio/Transport/full_quest_1784-bfe2d2564a90cde7ab5a/1-0000.mp3", duration = 45.557551, start = 0},
   },
 }
 P.transport["quest:1785"] = {
@@ -2910,7 +2910,7 @@ P.transport["quest:1939"] = {
   fullHash = "622624",
   text = "High Sorcerer Andromath. At Stormwind’s Wizard’s Sanctum, promising Alliance mages are summoned to the tower’s summit. Andromath works among the kingdom’s foremost archmages beyond ruined Dalaran. Jennea Cannon, the apprentice coordinator in Stormwind’s Mage Quarter, sends promising casters to the summit of the Wizard’s Sanctum. High Sorcerer Andromath, one of the southern kingdoms’ most senior active practitioners of the arcane, has asked to meet magi ready for greater responsibilities. Dalaran’s magocracy was ruined in the Third War, and its surviving wizards are busy rebuilding. Without easy access to the Violet Citadel’s libraries, the Alliance relies on senior archmages in Stormwind to study ancient threats and guide research into shadowy, forbidden arts.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1939-868618b4d11a832014eb/1-0000.mp3", duration = 46.0277551, start = 0},
+    {file = "Audio/Transport/full_quest_1939-0a44d5bee99b8478fe76/1-0000.mp3", duration = 45.6359184, start = 0},
   },
 }
 P.transport["quest:194"] = {
@@ -3006,7 +3006,7 @@ P.transport["quest:1999"] = {
   fullHash = "3911c0",
   text = "Tools of the Trade. In the Undercity, Horde rogues are sent to steal a report from Ambermill. Lord Varimathras orders them to obtain lockpicking tools and learn Dalaran’s condition from Kirin Tor intelligence. A prisoner’s interrogation leads the Deathstalkers to intelligence hidden in Ambermill. Silverpine Forest remains a precarious front line, and human mages guard the village’s communications fiercely. Lord Varimathras orders Mennet Carkad, a Deathstalker handler, to guide promising operatives past the Kirin Tor sentries and recover the Dalaran Status Report. Infiltration and lockpicking test skills beyond assassination. Before entering Kirin Tor territory, operatives collect specialized thieves’ tools from Estelle Gendry. Opening the secured chest in Ambermill shows an operative can move beyond street brutality and serve the Forsaken as an espionage asset.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1999-f3e7b7ead85fd4a21a45/1-0000.mp3", duration = 53.002449, start = 0},
+    {file = "Audio/Transport/full_quest_1999-e72dae44b5555754ca51/1-0000.mp3", duration = 51.7485714, start = 0},
   },
 }
 P.transport["quest:2"] = {
@@ -3542,7 +3542,7 @@ P.transport["quest:2904"] = {
   fullHash = "45c4fd",
   text = "A Fine Mess. In Gnomeregan, you find Kernobee battered among the troggs after a Dark Iron ambush. His rescue brings word of a drilling rig beneath Dun Morogh, bound for Booty Bay. You find Kernobee in Gnomeregan’s dormitory, beaten and groggy. Dark Iron dwarves ambushed the goblin and left him among the feral troggs. You guide him through the contaminated corridors toward safety.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2904-8bb6de16f4dac7ab32d2/1-0000.mp3", duration = 23.6146939, start = 0},
+    {file = "Audio/Transport/full_quest_2904-73cc467de5aa63660b63/1-0000.mp3", duration = 23.5885714, start = 0},
   },
 }
 P.transport["quest:292"] = {
@@ -3582,7 +3582,7 @@ P.transport["quest:2925"] = {
   fullHash = "5a4452",
   text = "Klockmort's Essentials. In Darnassus, Mathiel carries Klockmort Spannerspan's urgent plea across the sea. Bound to his post, he asks Alliance travelers to find his gnome friend in Ironforge. From the Warrior's Terrace in Darnassus, Mathiel sends word to Dun Morogh. Klockmort Spannerspan needs bold allies for a venture into Gnomeregan, but Mathiel cannot leave his post to travel there. So he asks capable Alliance travelers passing through Darnassus to make the journey in his place. Klockmort Spannerspan works in Tinkertown, Ironforge's district for gnomes driven from their underground city. He plans to recover vital machinery from Gnomeregan's contaminated corridors. Mathiel's referral brings you to Klockmort's workshop, where he needs help reclaiming what was left behind.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2925-847cc99ee15344fce7e3/1-0000.mp3", duration = 47.4644898, start = 0},
+    {file = "Audio/Transport/full_quest_2925-73cbf7b93b0b2e2264af/1-0000.mp3", duration = 47.9346939, start = 0},
   },
 }
 P.transport["quest:2926"] = {
@@ -4406,7 +4406,7 @@ P.transport["quest:480"] = {
   fullHash = "73a340",
   text = "The Weaver. In Silverpine Forest, Ataeric works to wake a dormant ley node for Dalaran. At the Sepulcher, Shadow Priest Allister sends you to stop the archmage and take his staff, lest Dalaran’s magic threaten Forsaken control of southern Lordaeron. After your earlier inquiries into Ambermill and Dalaran’s movements, the Forsaken learned that its wizards seek to wake a dormant ley energy node in Silverpine Forest. Dalaran could draw on that concentrated arcane power to strengthen its position and threaten the Undercity’s hold over southern Lordaeron.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_480-27a7bedcbec1fab77e9d/1-0000.mp3", duration = 33.7240816, start = 0},
+    {file = "Audio/Transport/full_quest_480-5eb38a633ea8feb8b698/1-0000.mp3", duration = 32.6008163, start = 0},
   },
 }
 P.transport["quest:4821"] = {
@@ -5354,11 +5354,11 @@ P.transport["quest:601"] = {
   },
 }
 P.transport["quest:602"] = {
-  hash = "a8a26e",
-  fullHash = "a8a26e",
-  text = "Magical Analysis. From Booty Bay, Baron Revilgaz sends you north to Dalaran with water elemental bracers. He hopes Archmage Ansirem Runeweaver can study the curse tied to the Stone of the Tides. Baron Revilgaz sends you north from Booty Bay with water elemental bracers. The town has no mage skilled enough to unravel the curse behind the Stone of the Tides, so he points you toward Dalaran. Its wizards are working to rebuild their broken kingdom. Revilgaz has dealt with Archmage Ansirem Runeweaver before and trusts his knowledge. He believes no mage can resist an intriguing puzzle.",
+  hash = "9bc467",
+  fullHash = "9bc467",
+  text = "Magical Analysis. From Booty Bay, Baron Revilgaz sends you north to Dalaran with water elemental bracers. He hopes Archmage Ansirem Runeweaver can study the curse tied to the Stone of the Tides. Baron Revilgaz has the bracers in Booty Bay, but their secret lies beyond his reach. The town has no mage skilled enough to unravel the curse behind the Stone of the Tides, so he points you toward Dalaran. Its wizards are working to rebuild their broken kingdom. Revilgaz has dealt with Archmage Ansirem Runeweaver before and trusts his knowledge. He believes no mage can resist an intriguing puzzle.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_602-6b3551d64102e1fdc147/1-0000.mp3", duration = 36.5714286, start = 0},
+    {file = "Audio/Transport/full_quest_602-cc737a437b6e924610e5/1-0000.mp3", duration = 35.7616327, start = 0},
   },
 }
 P.transport["quest:6027"] = {
@@ -6190,7 +6190,7 @@ P.transport["quest:720"] = {
   fullHash = "083332",
   text = "A Sign of Hope. Hammertoe Grez lives, and a chalk plea on a crumpled map calls Prospector Ryedol to help. The note says they are taking Hammertoe to Uldaman. Hammertoe leaves a brief plea for Ryedol in chalk on a crumpled map. The note says they are taking Hammertoe to Uldaman and asks for help. Tell Prospector Ryedol that Hammertoe Grez lives.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_720-bf8e745265e50227c308/1-0000.mp3", duration = 21.2114286, start = 0},
+    {file = "Audio/Transport/full_quest_720-4425b692f551ccbff27a/1-0000.mp3", duration = 21.2897959, start = 0},
   },
 }
 P.transport["quest:729"] = {
@@ -7162,11 +7162,11 @@ P.transport["quest:92422"] = {
   },
 }
 P.transport["quest:92432"] = {
-  hash = "eb6775",
-  fullHash = "eb6775",
-  text = "An Alarming Request. In Southshore, Emissary Jacques warns that Dalaran is in danger. Its ley lines are disrupted, and its constructs have turned erratic and destructive. Archmage Modera sent Jacques to seek outside aid. You are to find her image beside Lordamere Lake, near Dalaran. Emissary Jacques brings troubling news from Dalaran. The city's ley lines are disrupted, and its constructs have turned erratic and destructive. No one knows why.\n\nThe high council ordered the matter kept private to spare the order shame. But Jacques says the charade cannot last while the city is being overrun. Archmage Modera sent him to seek outside aid. You are to find her image beside Lordamere Lake, near Dalaran.",
+  hash = "b51abc",
+  fullHash = "b51abc",
+  text = "An Alarming Request. In Southshore, Emissary Jacques warns that Dalaran is in danger. Its ley lines are disrupted, and its constructs have turned erratic and destructive. Archmage Modera sent Jacques to seek outside aid. You are to find her image beside Lordamere Lake, near Dalaran. Emissary Jacques brings troubling news from Dalaran. The city's ley lines are disrupted, and its constructs have turned erratic and destructive. No one knows why.\n\nThe high council ordered the matter kept private to spare the order shame. But Jacques says the charade cannot last while the city is being overrun. Jacques was sent by Archmage Modera to seek outside aid. You are to find her image beside Lordamere Lake, near Dalaran.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_92432-d9e9f511144c4d5614b4/1-0000.mp3", duration = 44.4865306, start = 0},
+    {file = "Audio/Transport/full_quest_92432-e1649e1e556a03a129af/1-0000.mp3", duration = 44.2253061, start = 0},
   },
 }
 P.transport["quest:92434"] = {
@@ -8998,7 +8998,7 @@ P.transport["quest:96986"] = {
   fullHash = "447d2b",
   text = "The Grave Knight. In Tarren Mill, Melisara sends you after Atrexis, who raises the dead beneath Dalaran. She sees his work as an affront to the Forsaken. Melisara calls Atrexis a traitor to the Forsaken. Beneath Dalaran, he raises an undead army. She asks you to defeat him, though she cares little for the mage city's fate. No one is beyond the Dark Lady's reach.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_96986-e7ea9ca75cd145690488/1-0000.mp3", duration = 24.2416327, start = 0},
+    {file = "Audio/Transport/full_quest_96986-d0fe0406befb65f6e184/1-0000.mp3", duration = 23.7714286, start = 0},
   },
 }
 P.transport["quest:96988"] = {

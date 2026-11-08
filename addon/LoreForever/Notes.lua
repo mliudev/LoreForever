@@ -3,13 +3,16 @@
 
 local _, ns = ...
 ns.Notes = {
-  version = "1.3.0",
-  released = "2026-11-07",
+  version = "1.4.0",
+  released = "2026-11-08",
   items = {
-    { "Willo's pins on your maps", "a place you pin with Willo now shows on the journey map, the game's world map and your minimap after a /reload. Dungeon pins mark their entrance.", "Willo's pins on your maps:" },
-    { "Town reminders speak up as you arrive", "with Live game info on, Willo notices when you reach a town, a city or a new zone, so a reminder for it comes the moment you get there.", "Town reminders speak up as you arrive:" },
-    { "Bookmarks show pictures", "the four bookmarks down the book's edge are a map pin, an open book, a winding road and stacked tomes. Hover one to see its name.", "Bookmarks show pictures:" },
-    { "", "The narrators say Dun Morogh and Uldaman the same way every time, and more stories have fresh recordings.", "" },
-    { "", "Corrected lore in 6 entries.", "" },
+    { "Willo's pins reach your map as you play", "a pin you ask Willo for shows on the world map and minimap within moments, no /reload, and when you reach one, a small card offers Clear pin.", "Willo's pins reach your map as you play:" },
+    { "More storylines", "the orc and troll starting valley shows its storyline from the first quest, Razor Hill gains one, the camping intro is now a storyline, and more of Forever's own quest chains show.", "More storylines:" },
+    { "Quest givers finish their hello first", "a quest page waits a moment for the NPC's own spoken greeting before it reads aloud, instead of talking over it.", "Quest givers finish their hello first:" },
+    { "Willo knows your new character right away", "on a character you just made, she knows its race and class from your first question instead of asking.", "Willo knows your new character right away:" },
+    { "", "Two characters with the same first name on one realm now keep their own journeys instead of sharing one.", "" },
+    { "", "The new-page note shows when a page is in your playlist, and books have the same small Listen control as the quest window.", "" },
+    { "", "More stories have fresh recordings, and community translations were added.", "" },
+    { "", "Corrected lore in 10 entries.", "" },
   },
 }

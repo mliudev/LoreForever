@@ -1,0 +1,101 @@
+{
+ "key": "quest:98285",
+ "type": "quest",
+ "name": "Camping 101: Engineering",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98285
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The Strange Hermit in Shadowgale Forest teaches you to craft a camping item after you show skill as an engineer. The Reagent Bot is meant for use in a wilderness camp.",
+ "sections": [
+  {
+   "title": "A Wilderness Camp",
+   "body": "The Strange Hermit in Shadowgale Forest asks you to show proficiency in engineering before teaching you a camping craft. Engineers can put their trade to use while alone in the wilds, where helpful constructs can make a camp complete.",
+   "spoiler": 0
+  },
+  {
+   "title": "Setting Up Camp",
+   "body": "The Strange Hermit teaches you to craft a Reagent Bot. To start a camp, you also need a campfire, which most cooks can teach you to make. The Hermit warns that townsfolk do not care for camps set up in the middle of town.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who teaches me the camping craft?",
+   "aliases": [
+    "who is the hermit",
+    "camping teacher",
+    "where learn camping engineering"
+   ],
+   "answer": "The Strange Hermit in Shadowgale Forest teaches you the camping craft after you show proficiency in engineering."
+  },
+  {
+   "q": "What does engineering have to do with camping?",
+   "aliases": [
+    "engineering camp item",
+    "why engineer camping",
+    "camping 101 eng"
+   ],
+   "answer": "The Hermit says engineers can use their trade in the wilds and craft helpful constructs for a camp."
+  },
+  {
+   "q": "What can I craft?",
+   "aliases": [
+    "what is the camping item",
+    "reagent bot",
+    "camp item engineering"
+   ],
+   "answer": "The Hermit teaches you to craft a Reagent Bot."
+  },
+  {
+   "q": "Do I need anything else for a camp?",
+   "aliases": [
+    "need campfire",
+    "how start camp",
+    "camping fire"
+   ],
+   "answer": "You need a campfire to start your camp. Most cooks can teach you to make one."
+  },
+  {
+   "q": "Where should I set up camp?",
+   "aliases": [
+    "camp location",
+    "where test reagent bot",
+    "can i camp in town"
+   ],
+   "answer": "The Hermit says townsfolk do not care for camps set up in the center of town, so head into the wilderness to test your camp."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "As an engineer, you can learn to craft a Reagent Bot for a wilderness camp after showing the Strange Hermit your proficiency."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "As a cook, you can teach others to make the campfire needed to start a camp."
+  }
+ ],
+ "keywords": [
+  "campfire",
+  "camping 101",
+  "cooking",
+  "engineering",
+  "reagent bot",
+  "shadowgale forest",
+  "strange hermit",
+  "wilderness camp"
+ ],
+ "related": [
+  "quest:93159"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Camping 101: Engineering"
+ ]
+}

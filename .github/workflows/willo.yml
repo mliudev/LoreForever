@@ -69,13 +69,11 @@ jobs:
           gh api "repos/$env:GH_REPO/git/ref/tags/$env:TAG" 2>$null | Out-Null
           if ($LASTEXITCODE -eq 0 -and $draft -ne 'true') { "::error::the tag $env:TAG already exists"; exit 1 }
           $global:LASTEXITCODE = 0
-      # This commit's release/installer (the wizard's pictures) and the add-on's lore as the last release shipped it
-      # (publish-public.sh only syncs at a release), for the vectors Willo ships with (LOR-613).
+      # This commit's release/installer (the wizard's pictures).
       - uses: actions/checkout@v7
         with:
           sparse-checkout: |
             release/installer
-            addon/LoreForever/Data
             scripts
       - name: Check out Willo's source (private, read-only)
         uses: actions/checkout@v7
@@ -93,46 +91,12 @@ jobs:
         shell: pwsh
         run: |
           if (-not (Test-Path "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe")) { choco install innosetup -y --no-progress }
-      # The last run's lore vectors (its lore-vectors artifact, uploaded below), so this one works out only the entries the
-      # lore changed since: seconds instead of minutes. Willo's own runs first; then the Release workflow's (it made this
-      # artifact until Willo left it, 11/1), for the first Willo release after the switch. Each one's newest run may have
-      # none (every Willo run before this change, every add-on run after it), so it looks back through its last 20
-      # successful runs until a download works. Without any (artifacts expire after 90 days) it does all.
-      - name: Last run's lore vectors
-        continue-on-error: true
-        shell: pwsh
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          $PSNativeCommandUseErrorActionPreference = $false   # a run without the artifact fails its download: try the next
-          $seed = "$env:RUNNER_TEMP\lore-seed"
-          foreach ($workflow in 'willo.yml', 'release.yml') {
-            foreach ($run in @(gh run list -R $env:GITHUB_REPOSITORY --workflow $workflow --status success -L 20 --json databaseId -q '.[].databaseId')) {
-              gh run download $run -R $env:GITHUB_REPOSITORY -n lore-vectors -D $seed 2>$null
-              if (Test-Path "$seed\lore-vectors.npz") { "Seeded from $workflow run $run"; break }
-            }
-            if (Test-Path "$seed\lore-vectors.npz") { break }
-          }
-          $global:LASTEXITCODE = 0
-      # -LoreSeconds 900: build.ps1's default (120) was the slack the add-on's release gave this job; nothing waits on it
-      # now, and a runner with no seed does all 4,080 entries in about 10 minutes.
       - name: Build Willo
         shell: pwsh
         env:
           LORE_COMPANION_VERSION: ${{ inputs.version }}
         run: |
-          companion-src\companion\packaging\build.ps1 -Out "$env:RUNNER_TEMP\companion" -Work "$env:RUNNER_TEMP\companion-build" `
-            -Lore addon\LoreForever -LoreSeed "$env:RUNNER_TEMP\lore-seed\lore-vectors.npz" -LoreSeconds 900
-      # For the next run to start from (above). Every run leaves one, a rehearsal's too: the vectors don't depend on
-      # whether anything is published. overwrite: "Re-run failed jobs" uploads it again under the same name (the seed
-      # lookup needs the name fixed).
-      - uses: actions/upload-artifact@v7
-        with:
-          name: lore-vectors
-          path: ${{ runner.temp }}\companion\lore-vectors.npz
-          if-no-files-found: ignore
-          retention-days: 90
-          overwrite: true
+          companion-src\companion\packaging\build.ps1 -Out "$env:RUNNER_TEMP\companion" -Work "$env:RUNNER_TEMP\companion-build"
       # Logged in right before signing: the token is good for minutes, and the wait for the inputs or the build
       # before it ran past that on 1.2.0 (AADSTS700024, 11/6).
       - name: Azure login
@@ -258,14 +222,9 @@ jobs:
           ref: ${{ inputs.companion_ref }}
           token: ${{ secrets.COMPANION_SOURCE_TOKEN }}
           path: companion-src
-          # The add-on's lore too: the build carries it for a new player's first answers (build-mac.sh seed_lore).
           sparse-checkout: |
             companion
             data/pronunciation.json
-            addon/LoreForever/Data/Index.lua
-            addon/LoreForever/Data/Z_*.lua
-            addon/LoreForever/ModelRaces.lua
-            addon/LoreForever/LoreForever.toc
           sparse-checkout-cone-mode: false
       - uses: astral-sh/setup-uv@v10.3.0
         if: steps.go.outputs.go == 'true'
