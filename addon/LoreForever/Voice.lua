@@ -2809,9 +2809,45 @@ local function yieldArrival(arrival)
   end
 end
 
+-- The game's NPC greets you aloud as their window opens ("Greetings, traveler"). A page that starts by itself waits
+-- until that greeting is done, counted from when you started talking to them, so clicking through their gossip to the
+-- quest doesn't wait twice (LOR-1238: a Discord player heard the readout talk over the greeting). No wait when nothing
+-- greets: the game's dialog sound off, or the page isn't a creature's (an item's or an object's, a party member's).
+local GREETING_SECONDS = 2.5
+local function npcWindowShown()
+  for _, name in ipairs({ "QuestFrame", "GossipFrame" }) do
+    local f = _G[name]
+    if type(f) == "table" and f.IsShown and f:IsShown() then return true end
+  end
+  return false
+end
+
+-- An NPC's gossip or quest window showed: the first since none was open is when their greeting began.
+function Voice.OnNpcWindow()
+  if not Voice.greetedAt then Voice.greetedAt = now() end
+end
+
+-- Their window may have closed (checked a moment after GOSSIP_CLOSED or QUEST_FINISHED: going from gossip to a quest
+-- closes one window as the other opens).
+function Voice.OnNpcWindowClosed()
+  if not npcWindowShown() then Voice.greetedAt, Voice.greetToken = nil, nil end
+end
+
+local function greetingLeft()
+  if not Voice.greetedAt then return 0 end
+  local cvar = _G.GetCVar or function() end
+  if cvar("Sound_EnableAllSound") == "0" or cvar("Sound_EnableDialog") == "0"
+    or tonumber(cvar("Sound_DialogVolume") or "") == 0 then return 0 end
+  local ok, guid = pcall(function() return UnitGUID and UnitGUID("npc") end)
+  if not (ok and ns.Context.Usable(guid) and type(guid) == "string") then return 0 end
+  if guid:sub(1, 9) ~= "Creature-" and guid:sub(1, 8) ~= "Vehicle-" then return 0 end
+  return math.max(0, Voice.greetedAt + GREETING_SECONDS - now())
+end
+
 -- A quest giver's window shows a page (QUEST_DETAIL, QUEST_PROGRESS, QUEST_COMPLETE). Voice.questKind remembers which,
 -- for the play button and UI.QuestPageClip.
 function Voice.OnQuestFrame(kind, recorded)
+  Voice.greetToken = nil   -- a page that waited for the greeting gives way to this one
   Voice.questKind, Voice.questRecorded = kind, recorded
   local UI = ns.UI
   if not Voice.QuestDialogue() and Voice.otherVoice then return Voice.OnOtherVoice() end
@@ -2835,6 +2871,15 @@ function Voice.OnQuestFrame(kind, recorded)
   -- The place's story gives way to the quest giver, and waits to play again once you're done talking (once, and only
   -- while it's still in step: the rules above AUTO_SETTLE).
   if arrival then yieldArrival(arrival) end
+  local wait = not ours and greetingLeft() or 0
+  if wait > 0.05 then   -- the NPC is still greeting you: this page plays once they're done, if it's still up
+    local token = {}
+    Voice.greetToken = token
+    C_Timer.After(wait, function()
+      if Voice.greetToken == token and Voice.questKind == kind then Voice.OnQuestFrame(kind, recorded) end
+    end)
+    return
+  end
   Voice.openPages[id] = true
   target.byItself = true   -- (LOR-420)
   if ours and Voice.questLeftover then

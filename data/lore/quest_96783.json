@@ -1,0 +1,80 @@
+{
+ "key": "quest:96783",
+ "type": "quest",
+ "name": "A Way In",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96783
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A Syndicate trade draws you toward Stromgarde Keep in the Arathi Highlands. You need a disguise from Northfold Manor to enter without suspicion.",
+ "sections": [
+  {
+   "title": "A Hidden Trade",
+   "body": "A contact sends you to Stromgarde Keep in the Arathi Highlands, where the Syndicate holds important dealings behind its walls. Word has reached them of a trade between Syndicate members, and its details may be inside the keep. To enter without arousing suspicion, you need a Syndicate uniform from Northfold Manor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is happening at Stromgarde Keep?",
+   "aliases": [
+    "stromgarde trade",
+    "what's at stromgarde",
+    "syndicate keep"
+   ],
+   "answer": "The Syndicate uses Stromgarde Keep as one of its largest strongholds, and a trade between its members is taking place somewhere in the Arathi Highlands."
+  },
+  {
+   "q": "Why am I going to Northfold Manor?",
+   "aliases": [
+    "northfold manor",
+    "why northfold",
+    "get disguise"
+   ],
+   "answer": "You are looking for a Syndicate uniform at Northfold Manor to disguise yourself before entering Stromgarde Keep."
+  },
+  {
+   "q": "What do I need to enter the keep?",
+   "aliases": [
+    "uniform",
+    "syndicate disguise",
+    "way into stromgarde"
+   ],
+   "answer": "You need a Syndicate uniform from Northfold Manor to enter Stromgarde Keep without arousing suspicion."
+  },
+  {
+   "q": "What is the Syndicate trade about?",
+   "aliases": [
+    "syndicate deal",
+    "what trade",
+    "trade details"
+   ],
+   "answer": "The trade is between Syndicate members somewhere in the Arathi Highlands. Its details may be found inside Stromgarde Keep."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a way in",
+  "arathi highlands",
+  "northfold manor",
+  "stromgarde keep",
+  "syndicate",
+  "trade",
+  "uniform"
+ ],
+ "related": [
+  "subzone:northfold-manor",
+  "subzone:stromgarde-keep",
+  "zone:arathi",
+  "topic:syndicate"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Way In"
+ ]
+}

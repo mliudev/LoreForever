@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "The Arcanic Systems Manual is a magical work sought for the Library in Ironforge. Adding it helps the library expand its knowledge.",
+ "summary": "The Arcanic Systems Manual is a magical work sought for a library's collection. Adding it helps the library expand its knowledge.",
  "sections": [
   {
    "title": "A Place in the Library",
-   "body": "The Library in Ironforge welcomes magical works that can benefit its collection. You bring one to add, and your contribution helps its knowledge grow.",
+   "body": "The library welcomes magical works that can benefit its collection. You bring one to add, and your contribution helps its knowledge grow.",
    "spoiler": 0
   }
  ],
@@ -26,7 +26,7 @@
     "arcanic manual",
     "what manual"
    ],
-   "answer": "It is a magical work sought for the Library in Ironforge."
+   "answer": "It is a magical work sought for a library's collection."
   },
   {
    "q": "Who wants the manual?",
@@ -34,7 +34,7 @@
     "who asked for it",
     "manual for who"
    ],
-   "answer": "Someone at the Library in Ironforge asks you to bring magical works that may benefit its collection."
+   "answer": "A librarian asks you to bring magical works that may benefit the collection."
   },
   {
    "q": "Why bring the manual to the library?",
@@ -55,9 +55,7 @@
   "magical works",
   "manual"
  ],
- "related": [
-  "subzone:library-ironforge"
- ],
+ "related": [],
  "style": 2,
  "attribution": [
   "In-game quest text: Arcanic Systems Manual"

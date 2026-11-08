@@ -1,0 +1,87 @@
+{
+ "key": "quest:96057",
+ "type": "quest",
+ "name": "Camping 101: Tailoring",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96057
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A tailor can learn from Uthrar Threx in Ironforge how to make a Rallying Banner for a camp. The banner is meant to bolster morale, and a campfire is needed to start a camp.",
+ "sections": [
+  {
+   "title": "A Banner for Camp",
+   "body": "A teacher in Ironforge can show you how to make a banner for your camp once you have proved your tailoring skill. The banner is called a Rallying Banner. It can help keep you energized, and you will need a campfire before setting up camp.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who teaches tailoring for camping?",
+   "aliases": [
+    "who teaches this",
+    "tailoring teacher",
+    "Uthrar Threx"
+   ],
+   "answer": "Uthrar Threx in Ironforge can teach you to craft a camping item once you have shown proficiency in tailoring."
+  },
+  {
+   "q": "What can I make with tailoring?",
+   "aliases": [
+    "tailoring camp item",
+    "what banner",
+    "craft banner"
+   ],
+   "answer": "You can learn to craft a Rallying Banner for your camp."
+  },
+  {
+   "q": "What does the Rallying Banner do?",
+   "aliases": [
+    "banner purpose",
+    "why banner",
+    "rally banner"
+   ],
+   "answer": "An inspirational banner can help keep you energized, and morale is important to success on a battlefield."
+  },
+  {
+   "q": "What do I need before starting a camp?",
+   "aliases": [
+    "campfire needed",
+    "how start camp",
+    "camp requirements"
+   ],
+   "answer": "You need a campfire before setting up camp. A cook can teach you to make one."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "As a tailor, you can learn to make a Rallying Banner for your camp once you have shown proficiency in your skill."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "A cook can teach you to make the campfire needed before setting up camp."
+  }
+ ],
+ "keywords": [
+  "camp",
+  "campfire",
+  "camping 101",
+  "ironforge",
+  "morale",
+  "rallying banner",
+  "tailoring",
+  "uthrar threx"
+ ],
+ "related": [
+  "zone:ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Camping 101: Tailoring"
+ ]
+}

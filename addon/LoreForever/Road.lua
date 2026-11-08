@@ -63,7 +63,9 @@ function Road.Chapters()
 end
 
 -- The storylines you're on: named (its first quest started, Storyline.Name) and with a quest of it found, the one
--- you were on last first. { id, name, keys = { quest page keys found, in the storyline's order }, last }.
+-- you were on last first. { id, name, keys = { quest page keys found, in the storyline's order, then its side steps },
+-- last }. A side step counts: Forever's camping intro has a version per start zone and class, and a player takes only
+-- theirs (lore.storylines camping, LOR-1233).
 function Road.Storylines()
   local db = ns.DB
   local have = (ns.Collection.Store() or {}).found or {}
@@ -72,14 +74,17 @@ function Road.Storylines()
   local out = {}
   for id, sl in pairs(db and db.storylines or {}) do
     if type(sl) == "table" and sl.c and (not sl.f or not mine or sl.f == mine) then
-      local keys, last = {}, 0
-      for _, q in ipairs(sl.c) do
+      local keys, last, seen = {}, 0, {}
+      local function add(q)
         local k = db.index.quest[q]
-        if k and have[k] then
+        if k and have[k] and not seen[k] then
+          seen[k] = true
           keys[#keys + 1] = k
           last = math.max(last, foundTime(have[k]))
         end
       end
+      for _, q in ipairs(sl.c) do add(q) end
+      for _, q in ipairs(sl.s or {}) do add(q) end
       local name = #keys > 0 and ns.Storyline.Name(sl)
       if name then out[#out + 1] = { id = id, name = name, keys = keys, last = last } end
     end

@@ -1,0 +1,92 @@
+{
+ "key": "quest:96259",
+ "type": "quest",
+ "name": "Defending the Dead",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96259
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "At Gloomrise, spiders threaten Mulgore\u2019s people and an ancient tauren burial ground. You are asked to help contain the infestation.",
+ "sections": [
+  {
+   "title": "The Burial Ground",
+   "body": "A camp asks you to protect Gloomrise, an ancient tauren burial ground northwest of the camp. Vicious spiders infest the site, threatening Mulgore\u2019s people and damaging a place many tauren hold sacred.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Foothold",
+   "body": "Your efforts help the people of Mulgore establish a foothold against the spiders. Clearing the infestation completely may take time, so the burial ground remains at risk.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Gloomrise?",
+   "aliases": [
+    "gloomrise burial ground",
+    "where is gloomrise"
+   ],
+   "answer": "Gloomrise is an ancient tauren burial ground northwest of the camp."
+  },
+  {
+   "q": "Why is Gloomrise in danger?",
+   "aliases": [
+    "spiders at gloomrise",
+    "why defend the dead"
+   ],
+   "answer": "Vicious spiders infest Gloomrise, threatening Mulgore\u2019s people and damaging the sacred burial ground."
+  },
+  {
+   "q": "Why is the burial ground sacred?",
+   "aliases": [
+    "tauren sacred site",
+    "why tauren burial ground"
+   ],
+   "answer": "Many tauren consider Gloomrise sacred."
+  },
+  {
+   "q": "Who asks for help?",
+   "aliases": [
+    "who needs help",
+    "who gave this"
+   ],
+   "answer": "A camp asks you to help protect Gloomrise from its spider infestation."
+  },
+  {
+   "q": "Has the infestation been cleared?",
+   "aliases": [
+    "are spiders gone",
+    "gloomrise infestation"
+   ],
+   "answer": "No. Your efforts create a foothold, but clearing the infestation completely may take time."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "As a tauren, Gloomrise matters as an ancient burial ground that many of your people hold sacred."
+  }
+ ],
+ "keywords": [
+  "defending the dead",
+  "gloomrise",
+  "hatchlings",
+  "mulgore",
+  "soldiers",
+  "spiders",
+  "tauren burial ground"
+ ],
+ "related": [
+  "zone:mulgore",
+  "topic:tauren"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Defending the Dead"
+ ]
+}

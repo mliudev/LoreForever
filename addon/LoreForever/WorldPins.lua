@@ -1,7 +1,7 @@
 -- Willo's pins on the game's own world map and minimap (LOR-1247, Mike, 11/7: "pins on the world map"). Players asked
 -- her to "mark it on my map" and looked at the map they open in the game, where nothing showed: her pins were only on
 -- the add-on's journey map. The same pins (Journey.Pins: what Willo wrote for this character, read at login or
--- /reload) now show there too, as the journey map draws them, a teal bead in a white ring, named on mouse-over:
+-- /reload, and handed over during play since LOR-1292: PinsLive) now show there too, as the journey map draws them, a teal bead in a white ring, named on mouse-over:
 --
 --   world map  on the pin's zone and its continent, kept the same size on screen however far the map is zoomed;
 --   minimap    while the player is on the pin's continent, where it lies around them (on the rim, dimmed, when it's
@@ -192,6 +192,46 @@ local function onMinimap(spot, size)
   return x, y, false
 end
 
+-- How far the player is from a pin, in yards, or nil (not on its continent, no position).
+local function yardsTo(spot)
+  if type(spot) ~= "table" or not (spot.cont and spot.cx) then return nil end
+  local px, py = playerOn(spot.cont)
+  local w, h = yards(spot.cont)
+  if not (px and w) then return nil end
+  local east, north = (spot.cx - px) * w, (py - spot.cy) * h
+  return math.sqrt(east * east + north * north)
+end
+
+-- Reaching a pin (LOR-1292, Mike, 11/7: "I need a way to quickly remove the pin once I go to Goldshire"): once the player
+-- has been away from it, coming within ARRIVE yards, or into its subzone within NEAR, offers Clear pin (PinArrive).
+-- A pin made where they stand ("pin this spot") isn't offered until they've left it. Once a pin a session.
+local ARRIVE, NEAR, AWAY = 40, 150, 120
+local arrive = { away = {}, offered = {} }
+
+local function subzone()
+  local s = _G.GetSubZoneText and try(_G.GetSubZoneText)
+  return type(s) == "string" and s ~= "" and s:lower() or nil
+end
+
+function WorldPins.CheckArrival()
+  local sub
+  for _, pin in ipairs(pins()) do
+    local key = pin.key
+    local d = key and not arrive.offered[key] and yardsTo(pin.spot)
+    if d then
+      if d > AWAY then
+        arrive.away[key] = true
+      elseif arrive.away[key] then
+        sub = sub or subzone() or false
+        local inPlace = sub and pin.place and pin.place:lower() == sub
+        if (d <= ARRIVE or (inPlace and d <= NEAR)) and ns.PinArrive and ns.PinArrive.Reached(pin) then
+          arrive.offered[key] = true
+        end
+      end
+    end
+  end
+end
+
 function WorldPins.RefreshMinimap()
   if not Minimap then return 0 end
   local size = tonumber(Minimap:GetWidth()) or 140
@@ -223,6 +263,7 @@ local function watchMinimap()
     if mini.wait > 0 then return end
     mini.wait = EVERY
     WorldPins.RefreshMinimap()
+    WorldPins.CheckArrival()
   end)
 end
 
@@ -238,6 +279,21 @@ function WorldPins.Start()
   WorldPins.RefreshMinimap()
 end
 
+-- Her pins changed during play (PinsLive's hand-over, or Clear pin): both maps again, and watching them if this is the
+-- first pin of the session.
+function WorldPins.Update()
+  if #pins() > 0 then return WorldPins.Start() end
+  WorldPins.RefreshWorld()
+  WorldPins.RefreshMinimap()
+end
+
 local starter = CreateFrame("Frame")
 starter:RegisterEvent("PLAYER_ENTERING_WORLD")
-starter:SetScript("OnEvent", function() WorldPins.Start() end)
+starter:SetScript("OnEvent", function()
+  -- Pins cleared here that Willo has since taken out (her Data.lua written after the clear) aren't kept any longer.
+  local data = _G.LoreForeverJourneyData
+  if ns.Journey and ns.Journey.PrunePinsCleared and type(data) == "table" then
+    pcall(ns.Journey.PrunePinsCleared, tonumber(data.pinsAt) or tonumber(data.generated))
+  end
+  WorldPins.Start()
+end)

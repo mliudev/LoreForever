@@ -1,0 +1,84 @@
+{
+ "key": "quest:96241",
+ "type": "quest",
+ "name": "Talkin' bout Toxins, Mon",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96241
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Mazu'kon wants you to collect venom samples from the Gnawed Corpses at Gloomrise. The strange toxins have caught his curiosity.",
+ "sections": [
+  {
+   "title": "At Gloomrise",
+   "body": "Mazu'kon has heard of strange new creatures crawling around Gloomrise. Their venom may have unusual properties, so he asks you to collect samples from the Gnawed Corpses with his extractor. He is curious to learn what makes the toxin different.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Samples",
+   "body": "At Gloomrise, Mazu'kon thanks you for bringing the toxin samples. He says the venom's unusual properties were no joke, and notes that you seem unharmed.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the toxin samples?",
+   "aliases": [
+    "who wants toxins",
+    "Mazu'kon toxin"
+   ],
+   "answer": "Mazu'kon asks you to collect venom samples from the Gnawed Corpses at Gloomrise."
+  },
+  {
+   "q": "Why does Mazu'kon want the venom?",
+   "aliases": [
+    "why toxins",
+    "what's he curious about"
+   ],
+   "answer": "He has heard the creatures' venom may have unusual properties, and it has made him curious."
+  },
+  {
+   "q": "Where do I get the samples?",
+   "aliases": [
+    "toxin samples where",
+    "Gloomrise corpses"
+   ],
+   "answer": "The samples come from Gnawed Corpses at Gloomrise."
+  },
+  {
+   "q": "What does Mazu'kon give you?",
+   "aliases": [
+    "extractor",
+    "how collect toxin"
+   ],
+   "answer": "Mazu'kon gives you an extractor to gather the venom."
+  },
+  {
+   "q": "How many toxin samples does he need?",
+   "aliases": [
+    "sample count",
+    "how many toxins"
+   ],
+   "answer": "Mazu'kon asks for five Gloomrise Toxin Samples."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "extractor",
+  "gloomrise",
+  "gloomrise toxin samples",
+  "gnawed corpses",
+  "mazu'kon",
+  "toxin",
+  "venom"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Talkin' bout Toxins, Mon"
+ ]
+}

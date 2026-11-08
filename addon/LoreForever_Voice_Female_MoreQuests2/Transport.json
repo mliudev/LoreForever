@@ -2239,9 +2239,9 @@
     "quest:1108": {
       "1": [
         {
-          "duration": 41.37795918367347,
-          "file": "Audio/Transport/full_quest_1108-eac228dbd454564a1f5f/1-0000.mp3",
-          "sha256": "af13b3e724a7c4911ff16671b66ed7aaa889ccac6d7f51b3a2177381ceb2afaf",
+          "duration": 40.69877551020409,
+          "file": "Audio/Transport/full_quest_1108-592c63c9d00b202a0815/1-0000.mp3",
+          "sha256": "3220025d87e932871fe397d85194addd991c7bdca4dcccd015183b9f98f40c83",
           "start": 0
         }
       ],
@@ -2253,12 +2253,12 @@
         ]
       },
       "fullHash": "d22532",
-      "generation": "a305eeca4111372cd6ea",
+      "generation": "22c890df970bd03ef41a",
       "hash": "d22532",
       "source": {
-        "duration": 41.404082,
+        "duration": 40.698776,
         "file": null,
-        "sha256": "eac228dbd454564a1f5f75e92ef5b1a610794e7488211c7ebd8d89a617c142cb"
+        "sha256": "592c63c9d00b202a08158d29a286b22bd087728d3f059f37ff6d40257649a118"
       },
       "text": "Indurium. In the Badlands, Martek the Exiled seeks metal samples for Fizzle's car. Indurium is said to endure heat and stress, and Stonevault troggs sometimes carry flakes. Martek the Exiled stays in the Badlands for more than solitude. He thinks indurium might suit Fizzle's car because it is said to endure heat and stress. He wants samples for a test, with the forge ready. True indurium ore lies deep in Uldaman, but Stonevault troggs in the Badlands sometimes carry flakes. Martek asks for ten. The troggs roam the south-east slope of a rocky clump at Agmond's End, just south of the Valley of Fangs."
     },
@@ -2629,9 +2629,9 @@
     "quest:1137": {
       "1": [
         {
-          "duration": 31.973877551020408,
-          "file": "Audio/Transport/full_quest_1137-1bdb4f5a99cef6e94ad2/1-0000.mp3",
-          "sha256": "2729203cce10e82e97e7ce78d18ffc8b018b1597ebccab093bef1fcf9327e096",
+          "duration": 33.17551020408163,
+          "file": "Audio/Transport/full_quest_1137-a795b61075294f078124/1-0000.mp3",
+          "sha256": "6636b4fbca727a1f714732efe389205ea1a69798280ca312046c5406fda8bdb3",
           "start": 0
         }
       ],
@@ -2643,12 +2643,12 @@
         ]
       },
       "fullHash": "787b5c",
-      "generation": "3fc0d474060a0cc44f48",
+      "generation": "1f5950a278a9478b4823",
       "hash": "787b5c",
       "source": {
-        "duration": 31.973878,
+        "duration": 33.201633,
         "file": null,
-        "sha256": "1bdb4f5a99cef6e94ad2c64299e37695f7eedf2b085e7567db5e0429ff814957"
+        "sha256": "a795b61075294f078124a6a94e537ad03d8a9917660317ef341353ef942c3c06"
       },
       "text": "News for Fizzle. In the Badlands, Martek the Exiled has news for Fizzle Brassbolts about indurium. You carry his message to the Mirage Raceway on the Shimmering Flats in Thousand Needles. Martek says indurium withstands heat remarkably well, so it may suit Fizzle's pistons. Flakes will not do; Fizzle needs real indurium ore, dug from deep within Uldaman at the Badlands' northern edge. Martek names Uldaman as indurium's true source. He sends his regards and asks you to repeat all he has told you to Fizzle Brassbolts."
     },
@@ -8323,9 +8323,9 @@
     "quest:1783": {
       "1": [
         {
-          "duration": 36.57142857142857,
-          "file": "Audio/Transport/full_quest_1783-6c584bfc1a02e66c5c7a/1-0000.mp3",
-          "sha256": "ac22cf99c957beeedb69c688a98fd0d845b5ebbe860093b2efb353f85aa61da1",
+          "duration": 38.269387755102045,
+          "file": "Audio/Transport/full_quest_1783-4e4bb4fae4bf98013888/1-0000.mp3",
+          "sha256": "f1e21e89c4d1a018543773905997dad53dee82b4e07815b804bf0b64a1172917",
           "start": 0
         }
       ],
@@ -8337,21 +8337,21 @@
         ]
       },
       "fullHash": "e5b16c",
-      "generation": "49a39ad61b80c6f2daa1",
+      "generation": "c6076246f8b729ec5617",
       "hash": "e5b16c",
       "source": {
-        "duration": 36.597551,
+        "duration": 38.29551,
         "file": null,
-        "sha256": "6c584bfc1a02e66c5c7a69a1c7b3b65ea1af2feba99ca63ab953a19ce48c841b"
+        "sha256": "4e4bb4fae4bf980138882dd99d6438b34ba528d1c938dd1be39823a2e492c7b9"
       },
       "text": "The Tome of Divinity. A paladin initiate carries the Symbol of Life to the frigid shores south of Helm's Bed Lake in Dun Morogh. There, the initiate must find Narm Faulk, a brave scout who fell holding off Dark Iron dwarves, and call him back with the Light. South of Helm's Bed Lake, dwarven scouts Muiredon and Narm Faulk watched Dark Iron dwarves entrench themselves. When they saw an enemy commander issuing orders, they struck at several foes and tried to secure a script. The Dark Irons overwhelmed them with unexpected ferocity. Muiredon fled for reinforcements while Narm held the line."
     },
     "quest:1784": {
       "1": [
         {
-          "duration": 47.0465306122449,
-          "file": "Audio/Transport/full_quest_1784-f7b301c0ceb9975404b5/1-0000.mp3",
-          "sha256": "ee8c344b6505772ee754936d55a27d40da919c63e72069b4fa7edc7dd78422b4",
+          "duration": 46.863673469387756,
+          "file": "Audio/Transport/full_quest_1784-fe6fe2a48881f48f9101/1-0000.mp3",
+          "sha256": "7a96bcc195ca8b1409052c00f5aee89685d1dc0e8fc577f5342fdf0142f9a10f",
           "start": 0
         }
       ],
@@ -8363,12 +8363,12 @@
         ]
       },
       "fullHash": "887308",
-      "generation": "f2ad9baf45b0912121df",
+      "generation": "816320c26055e7ada775",
       "hash": "887308",
       "source": {
-        "duration": 47.072653,
+        "duration": 46.889796,
         "file": null,
-        "sha256": "f7b301c0ceb9975404b53548ac5ef377f1e9a92c8157c664e3bc345db41dd011"
+        "sha256": "fe6fe2a48881f48f910172596024711dce5ab6c54cd0bf469ada05d6c0447885"
       },
       "text": "The Tome of Divinity. In Dun Morogh, injured scouts need help exposing Dark Iron spies near Helm's Bed Lake. Their orders may persuade Ironforge's skeptical council to heed the danger. Young dwarven paladins answer the call to defend Dun Morogh when an expedition near Helm's Bed Lake goes wrong. Narm Faulk and Muiredon Battleforge set out to ambush Dark Iron scouts. Narm fell wounded, while Muiredon returned to Ironforge to recover. Rumors of Dark Iron infiltrators have reached Ironforge, yet some council members refuse to believe they have entered Dun Morogh. Near Helm's Bed, the paladin can track down the spies and recover a Dark Iron Script from their captain. The orders offer proof of enemy movements and plots near the capital's gates."
     },
@@ -9753,9 +9753,9 @@
     "quest:1999": {
       "1": [
         {
-          "duration": 53.86448979591837,
-          "file": "Audio/Transport/full_quest_1999-fc66c112ff877f02d5b9/1-0000.mp3",
-          "sha256": "ddd03e483682b236a01cc7e764bdc50f6d9a417a796a8031cefe211e115bb956",
+          "duration": 55.45795918367347,
+          "file": "Audio/Transport/full_quest_1999-122bfe4f0fa30b8aeef2/1-0000.mp3",
+          "sha256": "f59daea96087dedbccf4a49d4ae2329e97e59846f1d3fbc1104ce996d66ef3a1",
           "start": 0
         }
       ],
@@ -9767,12 +9767,12 @@
         ]
       },
       "fullHash": "3911c0",
-      "generation": "ab80d4639d3739b3b14c",
+      "generation": "2726d06836ff76dc25e2",
       "hash": "3911c0",
       "source": {
-        "duration": 53.890612,
+        "duration": 55.457959,
         "file": null,
-        "sha256": "fc66c112ff877f02d5b9b79dd3007ac44fb029e850571e3bccaf15df6fa158d5"
+        "sha256": "122bfe4f0fa30b8aeef2a65222a9d4d4b1f7ab18162c424124cf70665ae92b6d"
       },
       "text": "Tools of the Trade. In the Undercity, Horde rogues are sent to steal a report from Ambermill. Lord Varimathras orders them to obtain lockpicking tools and learn Dalaran’s condition from Kirin Tor intelligence. A prisoner’s interrogation leads the Deathstalkers to intelligence hidden in Ambermill. Silverpine Forest remains a precarious front line, and human mages guard the village’s communications fiercely. Lord Varimathras orders Mennet Carkad, a Deathstalker handler, to guide promising operatives past the Kirin Tor sentries and recover the Dalaran Status Report. Infiltration and lockpicking test skills beyond assassination. Before entering Kirin Tor territory, operatives collect specialized thieves’ tools from Estelle Gendry. Opening the secured chest in Ambermill shows an operative can move beyond street brutality and serve the Forsaken as an espionage asset."
     },
@@ -11495,9 +11495,9 @@
     "quest:2904": {
       "1": [
         {
-          "duration": 25.521632653061225,
-          "file": "Audio/Transport/full_quest_2904-6a5bfc0f3313bd0c1db0/1-0000.mp3",
-          "sha256": "b4187623c42c307e6661b5e268c22e1cd6de2e5ed85fae412daa452361e1dbf2",
+          "duration": 25.495510204081633,
+          "file": "Audio/Transport/full_quest_2904-606e695a506917fd12f5/1-0000.mp3",
+          "sha256": "fb2065c8cd8d7c25b9b95022839fa91bc27bba1f19e1a1c377a5767c28d7130d",
           "start": 0
         }
       ],
@@ -11509,12 +11509,12 @@
         ]
       },
       "fullHash": "45c4fd",
-      "generation": "61c692971dd16e5152d0",
+      "generation": "e5eeeb2ad3c8f14fece1",
       "hash": "45c4fd",
       "source": {
-        "duration": 25.547755,
+        "duration": 25.521633,
         "file": null,
-        "sha256": "6a5bfc0f3313bd0c1db0aa71098b4b46717cd6cb55ca46220ab605e70f09db9a"
+        "sha256": "606e695a506917fd12f515b6c8b4dce854f350cccbad92739c3c770945a18684"
       },
       "text": "A Fine Mess. In Gnomeregan, you find Kernobee battered among the troggs after a Dark Iron ambush. His rescue brings word of a drilling rig beneath Dun Morogh, bound for Booty Bay. You find Kernobee in Gnomeregan’s dormitory, beaten and groggy. Dark Iron dwarves ambushed the goblin and left him among the feral troggs. You guide him through the contaminated corridors toward safety."
     },
@@ -11625,9 +11625,9 @@
     "quest:2925": {
       "1": [
         {
-          "duration": 48.74448979591837,
-          "file": "Audio/Transport/full_quest_2925-1cc14e45b2b9df7297a8/1-0000.mp3",
-          "sha256": "8cd2ab9f1bac3ce765dd8c3170ec617168bc42b4802f67596670a6bc44c01e56",
+          "duration": 48.61387755102041,
+          "file": "Audio/Transport/full_quest_2925-7523ee2b1be211c6306d/1-0000.mp3",
+          "sha256": "607c4d6aa4abce44c35b49f6458b39942af20b092d569e5b5bc91873207370d4",
           "start": 0
         }
       ],
@@ -11639,12 +11639,12 @@
         ]
       },
       "fullHash": "5a4452",
-      "generation": "569f0cf442bdd731e42d",
+      "generation": "c9e43cf1d4ac33172cd8",
       "hash": "5a4452",
       "source": {
-        "duration": 48.770612,
+        "duration": 48.64,
         "file": null,
-        "sha256": "1cc14e45b2b9df7297a8216ab50d98269fd4980fc59f351ebf797b1a1544f35a"
+        "sha256": "7523ee2b1be211c6306d6c23552b7085c937097e146df0022883f2c42c81482c"
       },
       "text": "Klockmort's Essentials. In Darnassus, Mathiel carries Klockmort Spannerspan's urgent plea across the sea. Bound to his post, he asks Alliance travelers to find his gnome friend in Ironforge. From the Warrior's Terrace in Darnassus, Mathiel sends word to Dun Morogh. Klockmort Spannerspan needs bold allies for a venture into Gnomeregan, but Mathiel cannot leave his post to travel there. So he asks capable Alliance travelers passing through Darnassus to make the journey in his place. Klockmort Spannerspan works in Tinkertown, Ironforge's district for gnomes driven from their underground city. He plans to recover vital machinery from Gnomeregan's contaminated corridors. Mathiel's referral brings you to Klockmort's workshop, where he needs help reclaiming what was left behind."
     },
@@ -14303,9 +14303,9 @@
     "quest:480": {
       "1": [
         {
-          "duration": 35.81387755102041,
-          "file": "Audio/Transport/full_quest_480-061b84285c8a4a4b0694/1-0000.mp3",
-          "sha256": "3f1769bd629460218db8a7f415c132aaa800e33b3e7a6853e181d16bcfc5193f",
+          "duration": 35.97061224489796,
+          "file": "Audio/Transport/full_quest_480-cc04c39a6428e796ab5c/1-0000.mp3",
+          "sha256": "32fc001533a44d4541ad57e6c7f29b15c606757507c73f1d8da4943058c18d34",
           "start": 0
         }
       ],
@@ -14317,12 +14317,12 @@
         ]
       },
       "fullHash": "73a340",
-      "generation": "b35002a8dda38ec7a3b8",
+      "generation": "d45a212198e9f9a04405",
       "hash": "73a340",
       "source": {
-        "duration": 35.84,
+        "duration": 35.996735,
         "file": null,
-        "sha256": "061b84285c8a4a4b06945308ef64a865e4d4ecaec4a57ce692705243c8dcde08"
+        "sha256": "cc04c39a6428e796ab5cee8c1a48c4126042bcbc2615f42349f5153ffc80ec26"
       },
       "text": "The Weaver. In Silverpine Forest, Ataeric works to wake a dormant ley node for Dalaran. At the Sepulcher, Shadow Priest Allister sends you to stop the archmage and take his staff, lest Dalaran’s magic threaten Forsaken control of southern Lordaeron. After your earlier inquiries into Ambermill and Dalaran’s movements, the Forsaken learned that its wizards seek to wake a dormant ley energy node in Silverpine Forest. Dalaran could draw on that concentrated arcane power to strengthen its position and threaten the Undercity’s hold over southern Lordaeron."
     },
@@ -16279,9 +16279,9 @@
     "quest:557": {
       "1": [
         {
-          "duration": 34.42938775510204,
-          "file": "Audio/Transport/full_quest_557-960f361c1c3380bc0806/1-0000.mp3",
-          "sha256": "e0fdbf5902a0183db150b3a3ebeacae5a02e0b84c593ca3cf4b97edff187780d",
+          "duration": 32.888163265306126,
+          "file": "Audio/Transport/full_quest_557-cbcec9a3a3b39ceb5c46/1-0000.mp3",
+          "sha256": "34a1566aa8e55a4d8445158e0b62c454552cc244ff022c4f0fa957f7d2bb515e",
           "start": 0
         }
       ],
@@ -16293,12 +16293,12 @@
         ]
       },
       "fullHash": "65aebf",
-      "generation": "51c39579a5a177191670",
+      "generation": "6ad5c6b4add7e6398be9",
       "hash": "65aebf",
       "source": {
-        "duration": 34.45551,
+        "duration": 32.914286,
         "file": null,
-        "sha256": "960f361c1c3380bc08065168451bf6b472610d5f61292c448686f433575234d3"
+        "sha256": "cbcec9a3a3b39ceb5c46ec9a59531a6592bdee3559188aa85df61b5958ac3da3"
       },
       "text": "Bracers of Binding. In Tarren Mill, Keeper Bel'varil watches for what the Magus may need next. As the Magus studies the stone tokens you gathered, Bel'varil sends you to the ruins of Dalaran for four Bracers of Earth Binding. The Magus studies the stone tokens you gathered, and Keeper Bel'varil expects another need to follow. Bracers of binding are worn on an elemental's wrists, binding the creature to a mage's service. The elementals wear them among the ruins of Dalaran. Bel'varil asks you to bring four Bracers of Earth Binding back to Tarren Mill."
     },
@@ -17397,9 +17397,9 @@
     "quest:602": {
       "1": [
         {
-          "duration": 38.11265306122449,
-          "file": "Audio/Transport/full_quest_602-9559833ec3942604bb5c/1-0000.mp3",
-          "sha256": "d6a4dd46524a068a1e3ddc7b52c6fad7f54500c743ec2ff020bd56133f9e3f4d",
+          "duration": 37.53795918367347,
+          "file": "Audio/Transport/full_quest_602-efb6229f7b91bef32608/1-0000.mp3",
+          "sha256": "6c507779f93d14ee879395b2ca19a13ccd597163b76cd3c5f09e0a7e3cf9be93",
           "start": 0
         }
       ],
@@ -17410,15 +17410,15 @@
           "1"
         ]
       },
-      "fullHash": "a8a26e",
-      "generation": "df9ffc6050cbd5958a5f",
-      "hash": "a8a26e",
+      "fullHash": "9bc467",
+      "generation": "d91e1cffdaf428521aee",
+      "hash": "9bc467",
       "source": {
-        "duration": 38.138776,
+        "duration": 37.564082,
         "file": null,
-        "sha256": "9559833ec3942604bb5c1f0fea293dd8ccf66e0173eb7fc8b48dfe3189177e2a"
+        "sha256": "efb6229f7b91bef326082b47de7070542929ee23461c6e65d6fbe24aaa270082"
       },
-      "text": "Magical Analysis. From Booty Bay, Baron Revilgaz sends you north to Dalaran with water elemental bracers. He hopes Archmage Ansirem Runeweaver can study the curse tied to the Stone of the Tides. Baron Revilgaz sends you north from Booty Bay with water elemental bracers. The town has no mage skilled enough to unravel the curse behind the Stone of the Tides, so he points you toward Dalaran. Its wizards are working to rebuild their broken kingdom. Revilgaz has dealt with Archmage Ansirem Runeweaver before and trusts his knowledge. He believes no mage can resist an intriguing puzzle."
+      "text": "Magical Analysis. From Booty Bay, Baron Revilgaz sends you north to Dalaran with water elemental bracers. He hopes Archmage Ansirem Runeweaver can study the curse tied to the Stone of the Tides. Baron Revilgaz has the bracers in Booty Bay, but their secret lies beyond his reach. The town has no mage skilled enough to unravel the curse behind the Stone of the Tides, so he points you toward Dalaran. Its wizards are working to rebuild their broken kingdom. Revilgaz has dealt with Archmage Ansirem Runeweaver before and trusts his knowledge. He believes no mage can resist an intriguing puzzle."
     },
     "quest:6027": {
       "1": [
@@ -20855,9 +20855,9 @@
     "quest:79091": {
       "1": [
         {
-          "duration": 64.60081632653062,
-          "file": "Audio/Transport/full_quest_79091-19ac230dbb5fa9eea819/1-0000.mp3",
-          "sha256": "5cffacdbd0970d2de05edff557cec19e21737020caf0a5fc64f8e40a51df0a6e",
+          "duration": 65.64571428571429,
+          "file": "Audio/Transport/full_quest_79091-fa3b9625c35df11a6af6/1-0000.mp3",
+          "sha256": "06d15099b7af0302a14599fd8bc99ce0a6dc3a945231d57f50538e40accbf8e0",
           "start": 0
         }
       ],
@@ -20869,12 +20869,12 @@
         ]
       },
       "fullHash": "d6771d",
-      "generation": "64a67dc6157aadf34ccb",
+      "generation": "31bfc2ac704c97f6f6b6",
       "hash": "d6771d",
       "source": {
-        "duration": 64.626939,
+        "duration": 65.671837,
         "file": null,
-        "sha256": "19ac230dbb5fa9eea819dc7fc86210e298f5d02274aa29399cad3113bca6f0a5"
+        "sha256": "fa3b9625c35df11a6af6c100bfffa6f8fe85a93fef212e14f7508b33e9796c0e"
       },
       "text": "Archmage Antonidas: The Unabridged Autobiography. In Ironforge, you seek Archmage Antonidas: The Unabridged Autobiography. The rare volume holds the late Kirin Tor leader's own account and offers insight into Dalaran's history and high arcane scholarship. Archmage Antonidas led the Kirin Tor for decades and ruled Dalaran. One of Azeroth's most brilliant minds, he rose through the ranks of the Violet Citadel and mastered the arcane. His unabridged autobiography records his leadership during the Second and Third Wars. For scholars and practitioners of magic, it offers a firsthand view of Dalaran's inner workings and the arcane arts. Before reaching its new home, the rare manuscript rested in Ironforge's grand library. In the Hall of Explorers, dwarven archivists kept it beside ancient titan relics and dwarven histories. Their vast collections hold texts gathered from ruins and foreign kingdoms across Azeroth. Yet arcane scholars elsewhere seek such works for their own collections, sure the busy archivists will never notice one missing volume."
     },
@@ -23273,9 +23273,9 @@
     "quest:92432": {
       "1": [
         {
-          "duration": 48.352653061224494,
-          "file": "Audio/Transport/full_quest_92432-2119c4fa1da687800de4/1-0000.mp3",
-          "sha256": "96f6e99a1a5ed7b11513d7cbcdd4dc2975c0233a599dff9fccf3ffa607ddba1a",
+          "duration": 46.36734693877551,
+          "file": "Audio/Transport/full_quest_92432-4d28f0f6180e79ba96aa/1-0000.mp3",
+          "sha256": "78035efe2277feee7925d343cd62ebbfded766e21372e6bd3158ed1f7c249619",
           "start": 0
         }
       ],
@@ -23286,15 +23286,15 @@
           "1"
         ]
       },
-      "fullHash": "eb6775",
-      "generation": "cb6dbe1a04d8630a3c55",
-      "hash": "eb6775",
+      "fullHash": "b51abc",
+      "generation": "f17f9ab6ce8e9e3fe020",
+      "hash": "b51abc",
       "source": {
-        "duration": 48.378776,
+        "duration": 46.393469,
         "file": null,
-        "sha256": "2119c4fa1da687800de408bc4993f2d8a4e5444db42ab1b0d69b4fb1a408e722"
+        "sha256": "4d28f0f6180e79ba96aa861be7e1896fcd48f7fa80b2dc4feee10a0bad0fa0f1"
       },
-      "text": "An Alarming Request. In Southshore, Emissary Jacques warns that Dalaran is in danger. Its ley lines are disrupted, and its constructs have turned erratic and destructive. Archmage Modera sent Jacques to seek outside aid. You are to find her image beside Lordamere Lake, near Dalaran. Emissary Jacques brings troubling news from Dalaran. The city's ley lines are disrupted, and its constructs have turned erratic and destructive. No one knows why.\n\nThe high council ordered the matter kept private to spare the order shame. But Jacques says the charade cannot last while the city is being overrun. Archmage Modera sent him to seek outside aid. You are to find her image beside Lordamere Lake, near Dalaran."
+      "text": "An Alarming Request. In Southshore, Emissary Jacques warns that Dalaran is in danger. Its ley lines are disrupted, and its constructs have turned erratic and destructive. Archmage Modera sent Jacques to seek outside aid. You are to find her image beside Lordamere Lake, near Dalaran. Emissary Jacques brings troubling news from Dalaran. The city's ley lines are disrupted, and its constructs have turned erratic and destructive. No one knows why.\n\nThe high council ordered the matter kept private to spare the order shame. But Jacques says the charade cannot last while the city is being overrun. Jacques was sent by Archmage Modera to seek outside aid. You are to find her image beside Lordamere Lake, near Dalaran."
     },
     "quest:92434": {
       "1": [
@@ -23403,9 +23403,9 @@
     "quest:92459": {
       "1": [
         {
-          "duration": 24.45061224489796,
-          "file": "Audio/Transport/full_quest_92459-ab74d78116f2e15e114e/1-0000.mp3",
-          "sha256": "9d8d69df8d905572488f7ac2ea71f7b9eda4573e58d7acb9e531a68676ee761f",
+          "duration": 25.73061224489796,
+          "file": "Audio/Transport/full_quest_92459-9174682c1ff4e87b5e58/1-0000.mp3",
+          "sha256": "2c7653272bab02862ee8d7cf0b3e6d222dfc3c4518209bf875a3bfe4cd70f922",
           "start": 0
         }
       ],
@@ -23417,12 +23417,12 @@
         ]
       },
       "fullHash": "000e73",
-      "generation": "cb7cf2ae03ee16488245",
+      "generation": "b5853f6b29e15af9e56f",
       "hash": "000e73",
       "source": {
-        "duration": 24.476735,
+        "duration": 25.756735,
         "file": null,
-        "sha256": "ab74d78116f2e15e114e2d60fc1db60dced6e0f3124abd588b793e25e3915518"
+        "sha256": "9174682c1ff4e87b5e583fb3803e7a3897bd20ec1ee8ce2097b3e8ae5d3916d4"
       },
       "text": "Friend of the Kirin Tor. In Dalaran, Modera sends you to carry word that the city is calming and its wards may come down. The Image of Archmage Modera says the council may dislike the subterfuge, but the results are plain. Dalaran is calming, and its wards may now be lowered. She sends you with this good word to Archmage Celindra in the Violet Citadel. For the journey, she gives you an arcane mote."
     },
@@ -23533,9 +23533,9 @@
     "quest:92489": {
       "1": [
         {
-          "duration": 58.12244897959184,
-          "file": "Audio/Transport/full_quest_92489-e81e11641d5a317e83d1/1-0000.mp3",
-          "sha256": "add0fe93903385dcc2ec55d1cb7956944d58981b35c52ee3c9054021685722c4",
+          "duration": 57.83510204081633,
+          "file": "Audio/Transport/full_quest_92489-fbf6657fe0522ee8e085/1-0000.mp3",
+          "sha256": "6f06075cea0dec2921a7f17a90a19f2682bcacfcaf0cc3295457f2a10aa36e23",
           "start": 0
         }
       ],
@@ -23547,12 +23547,12 @@
         ]
       },
       "fullHash": "26c1b8",
-      "generation": "03a9a7fd76e6b1cbcd9e",
+      "generation": "ea515e508c5fcb0ca343",
       "hash": "26c1b8",
       "source": {
-        "duration": 58.148571,
+        "duration": 57.861224,
         "file": null,
-        "sha256": "e81e11641d5a317e83d111591289d360f94091fc075fdd0314cb86f27b05ea2c"
+        "sha256": "fbf6657fe0522ee8e085fdbd23e2c3df35b9a43c3b0c700b46c5e17614f60ead"
       },
       "text": "Power Overwhelming. High Sorcerer Andromath sends aid from Stormwind to Dalaran, where arcane power has turned dangerous. The Kirin Tor rebuild behind closed borders, and a Mana Elemental threatens their work. After Archimonde destroyed Dalaran in the Third War, the Kirin Tor drew inward. Scholars and sorcerers once came from across the world to its doors. Now the surviving magi keep outsiders away as they rebuild their ruined city behind closed borders. As the Kirin Tor restore Dalaran, arcane energy has grown dangerous. Volatile leaks surge out of control and take shape as beings of pure mana. High Sorcerer Andromath fears internal turmoil could undo the city’s recovery, or that Dalaran could abandon its old ties to the Alliance. So he sends champions from Stormwind to quell the Mana Elemental and remind the Kirin Tor that their allies still stand with them."
     },
@@ -25093,9 +25093,9 @@
     "quest:93680": {
       "1": [
         {
-          "duration": 40.568163265306126,
-          "file": "Audio/Transport/full_quest_93680-a43e23947f0689694a76/1-0000.mp3",
-          "sha256": "a002fc17fca734ef860952aaa574057cd361df864c00598884e33fb0617d0181",
+          "duration": 40.69877551020409,
+          "file": "Audio/Transport/full_quest_93680-11ebb4cb8a6ac1461885/1-0000.mp3",
+          "sha256": "a2bb92cc63325431cb953dbe09f14cac17dd852c8360fe7283643d0ede0d152d",
           "start": 0
         }
       ],
@@ -25107,12 +25107,12 @@
         ]
       },
       "fullHash": "bb9d2c",
-      "generation": "a4ceec1a6271494baf14",
+      "generation": "48a44d1ebd2745957ca8",
       "hash": "bb9d2c",
       "source": {
-        "duration": 40.594286,
+        "duration": 40.724898,
         "file": null,
-        "sha256": "a43e23947f0689694a769a4475dd65a9a1cce892a3b6af240a9723d73e14ebce"
+        "sha256": "11ebb4cb8a6ac14618858db5c807da75ba9dff207ed8046e8d99a6df5efede40"
       },
       "text": "Key to the City. Wordeen seeks a way into Dalaran, now rebuilt on the Dark Lady’s doorstep. In Tarren Mill, Magus Wordeen Voidglare wants to learn more about the Kirin Tor. Their city, Dalaran, fell to the demonic Burning Legion in a single stroke from the arch demon Archimonde. The surviving mages became dispossessed vagabonds. Now they have rebuilt Dalaran on the Dark Lady’s very doorstep.\n\nWordeen sends you to search their camps. He hopes you will find an ancient tome, a secret relic, or something else that can get the Horde into the city unnoticed. What you bring back is a grimy Dalaran sewer key."
     },
@@ -27017,9 +27017,9 @@
     "quest:94946": {
       "1": [
         {
-          "duration": 39.20979591836735,
-          "file": "Audio/Transport/full_quest_94946-aa822b82de18bfe0060d/1-0000.mp3",
-          "sha256": "010730d9a57a21f346a5b94ef167dd4df6b57d510aa93aebd7e3f3161f1d95f7",
+          "duration": 40.12408163265306,
+          "file": "Audio/Transport/full_quest_94946-e5441c4c9575e150d580/1-0000.mp3",
+          "sha256": "ad7e137a79e0d0b1a8b6205882da5f314dd8ae8bd7ce107eca6f3269b6c52f17",
           "start": 0
         }
       ],
@@ -27031,12 +27031,12 @@
         ]
       },
       "fullHash": "e6eaf8",
-      "generation": "8578c0b560c8c239f27d",
+      "generation": "d76d55d454f40b789ec7",
       "hash": "e6eaf8",
       "source": {
-        "duration": 39.235918,
+        "duration": 40.124082,
         "file": null,
-        "sha256": "aa822b82de18bfe0060da3ed778b745bf7e7edcabc6f78b5f128522b2058a944"
+        "sha256": "e5441c4c9575e150d580e7d4a880f5ff8c4934adae31431afcf06bfefecd64c8"
       },
       "text": "The Magical City of Dalaran. A mage in Valanaar sends you from Zephras Isle to Dalaran City, where several mages await your people's arrival. The city offers a place to begin exploring Azeroth, but the lands beyond can be dangerous without preparation and experience. Recent events with the cult keep the speaker in Valanaar for now. Several mages wait in Dalaran for your people, so you are sent to the dock outside the lodge. There, you board a skycutter bound for Dalaran City.\n\nWhen you arrive, speak with Danaaris Stargale. Your people are still making their home in the city, and the country beyond its safety can prove dangerous."
     },
@@ -29227,9 +29227,9 @@
     "quest:96986": {
       "1": [
         {
-          "duration": 25.391020408163268,
-          "file": "Audio/Transport/full_quest_96986-bf7bef86272f3e2e4363/1-0000.mp3",
-          "sha256": "20a2626f320768b04ea602a3decc10e47706c87ab28719d06f79c0ca9df3f6ec",
+          "duration": 25.70448979591837,
+          "file": "Audio/Transport/full_quest_96986-97ae4aca3229655d98dd/1-0000.mp3",
+          "sha256": "235f51bf488956a277c4ec6e0dd7c1422882ac13190ffc98155ee36d6f1bdbef",
           "start": 0
         }
       ],
@@ -29241,12 +29241,12 @@
         ]
       },
       "fullHash": "447d2b",
-      "generation": "4479c52374f6cbf23cd7",
+      "generation": "272c1ca16889bf31a2fe",
       "hash": "447d2b",
       "source": {
-        "duration": 25.417143,
+        "duration": 25.730612,
         "file": null,
-        "sha256": "bf7bef86272f3e2e43637d9b1f9dd601bca08a8dfed500a84d3166297324aefc"
+        "sha256": "97ae4aca3229655d98dd2435a37c4775aeb6686597ac13c739d2980deed10f4b"
       },
       "text": "The Grave Knight. In Tarren Mill, Melisara sends you after Atrexis, who raises the dead beneath Dalaran. She sees his work as an affront to the Forsaken. Melisara calls Atrexis a traitor to the Forsaken. Beneath Dalaran, he raises an undead army. She asks you to defeat him, though she cares little for the mage city's fate. No one is beyond the Dark Lady's reach."
     },
@@ -34191,13 +34191,6 @@
       1364,
       1508
     ],
-    "010730d9a57a21f346a5b94ef167dd4df6b57d510aa93aebd7e3f3161f1d95f7": [
-      291,
-      606,
-      777,
-      1018,
-      1164
-    ],
     "0119eb0a095fa78625f948b4a24f2daa0e1a85355ee1625f1a28d90b51b6e289": [
       265,
       553,
@@ -34433,6 +34426,17 @@
       446,
       708,
       916
+    ],
+    "06d15099b7af0302a14599fd8bc99ce0a6dc3a945231d57f50538e40accbf8e0": [
+      147,
+      578,
+      802,
+      1066,
+      1254,
+      1539,
+      1757,
+      2009,
+      2211
     ],
     "06d802798a8fcce092ef04151519aacde32f056f3ad4d7349320ac2adbdfc570": [
       209,
@@ -35645,12 +35649,6 @@
       2230,
       2382
     ],
-    "20a2626f320768b04ea602a3decc10e47706c87ab28719d06f79c0ca9df3f6ec": [
-      267,
-      407,
-      549,
-      688
-    ],
     "20d5af2bb31a7f8eadfe699ae776d359defea6ec7991fbe0a4d6b836a2593f79": [
       179,
       479,
@@ -35794,6 +35792,12 @@
       1823,
       2148
     ],
+    "235f51bf488956a277c4ec6e0dd7c1422882ac13190ffc98155ee36d6f1bdbef": [
+      251,
+      386,
+      548,
+      690
+    ],
     "238db2e8a2defdece00a9cb3854ab4cf6d2d18e2cf36e34fa9642ea2175087ff": [
       168,
       442,
@@ -35934,12 +35938,6 @@
       1487,
       1657,
       1917
-    ],
-    "2729203cce10e82e97e7ce78d18ffc8b018b1597ebccab093bef1fcf9327e096": [
-      210,
-      393,
-      618,
-      908
     ],
     "272925d4200d390d8a5ecdbe19f0582c5221ad6cd9465531a91ad85b799a5cd1": [
       211,
@@ -36262,6 +36260,11 @@
       403,
       646
     ],
+    "2c7653272bab02862ee8d7cf0b3e6d222dfc3c4518209bf875a3bfe4cd70f922": [
+      281,
+      473,
+      696
+    ],
     "2c7ff3154734967a361e635f50dd8e16403b6d1e91a3e10d9b0abe3841fc3166": [
       279,
       437,
@@ -36427,6 +36430,14 @@
       1047,
       1190
     ],
+    "3220025d87e932871fe397d85194addd991c7bdca4dcccd015183b9f98f40c83": [
+      208,
+      451,
+      611,
+      802,
+      943,
+      1219
+    ],
     "3274b6d35648402bc062be072d7437e7676c904ecc73c07663e93a63cb127683": [
       424
     ],
@@ -36436,6 +36447,11 @@
       809,
       965,
       1222
+    ],
+    "32fc001533a44d4541ad57e6c7f29b15c606757507c73f1d8da4943058c18d34": [
+      228,
+      643,
+      1040
     ],
     "3304de9a4c48cd352e00c37b376ef68a44d19a6527c421a72c854b1d3e697a53": [
       270,
@@ -36521,6 +36537,12 @@
     "3482850f91f84a0796d9bf337c2c3cfdbd7efd80973af6714365cd2cfa658da9": [
       202,
       343
+    ],
+    "34a1566aa8e55a4d8445158e0b62c454552cc244ff022c4f0fa957f7d2bb515e": [
+      205,
+      504,
+      732,
+      960
     ],
     "34a59caa9a59b6541b4134c16de1e2e7bf00e5a30d8d8c01a66986b2f2026483": [
       195,
@@ -36951,11 +36973,6 @@
       212,
       425,
       579
-    ],
-    "3f1769bd629460218db8a7f415c132aaa800e33b3e7a6853e181d16bcfc5193f": [
-      231,
-      639,
-      1043
     ],
     "3f70cbdc98ab5c8cc221a329110279f7a8b0c778293465c67d635eafc9e5baba": [
       210,
@@ -38238,17 +38255,6 @@
       329,
       672
     ],
-    "5cffacdbd0970d2de05edff557cec19e21737020caf0a5fc64f8e40a51df0a6e": [
-      224,
-      575,
-      786,
-      1033,
-      1227,
-      1508,
-      1728,
-      1978,
-      2182
-    ],
     "5d1649dfc8fefe8f9d4b4661ecfa5675637636069247bb784d64483a8ffd4ec2": [
       179,
       332,
@@ -38446,6 +38452,15 @@
       514,
       721,
       921
+    ],
+    "607c4d6aa4abce44c35b49f6458b39942af20b092d569e5b5bc91873207370d4": [
+      217,
+      456,
+      648,
+      938,
+      1179,
+      1441,
+      1630
     ],
     "6097fcd1d186e258f0a2153f3422aa0898903ca3ca721b56be1010b40a479097": [
       263,
@@ -38731,6 +38746,13 @@
       1342,
       1664
     ],
+    "6636b4fbca727a1f714732efe389205ea1a69798280ca312046c5406fda8bdb3": [
+      210,
+      409,
+      558,
+      702,
+      949
+    ],
     "663d3018324b2ae7116795c9df1358b7c0ce24fba82388c35719123938f65849": [
       299
     ],
@@ -38988,6 +39010,13 @@
       1507,
       1745
     ],
+    "6c507779f93d14ee879395b2ca19a13ccd597163b76cd3c5f09e0a7e3cf9be93": [
+      222,
+      451,
+      675,
+      952,
+      1087
+    ],
     "6c685fee5b29907436d41ac3e35020357b9ca33d75a654c70beb60c38fb380ba": [
       505,
       819
@@ -39087,6 +39116,16 @@
       824,
       1037,
       1210
+    ],
+    "6f06075cea0dec2921a7f17a90a19f2682bcacfcaf0cc3295457f2a10aa36e23": [
+      177,
+      520,
+      661,
+      921,
+      1198,
+      1410,
+      1595,
+      1936
     ],
     "6f1501b97665292c02de5976eaf60097de5935ccd7090015255c6e395ea42b35": [
       252,
@@ -39378,6 +39417,17 @@
       547,
       721
     ],
+    "78035efe2277feee7925d343cd62ebbfded766e21372e6bd3158ed1f7c249619": [
+      191,
+      383,
+      520,
+      694,
+      833,
+      1033,
+      1296,
+      1460,
+      1611
+    ],
     "78d1566980c9c42e22c2aa8cdbdf1cdf185e89d89643f9649a433966b049455c": [
       254,
       575,
@@ -39458,6 +39508,15 @@
       379,
       582,
       824
+    ],
+    "7a96bcc195ca8b1409052c00f5aee89685d1dc0e8fc577f5342fdf0142f9a10f": [
+      223,
+      429,
+      689,
+      870,
+      1054,
+      1376,
+      1623
     ],
     "7ab9d9d2fba15750d04ee94e39253f4b971b476a91b1d697436bea4af9334d1e": [
       223,
@@ -40422,15 +40481,6 @@
       1658,
       1892
     ],
-    "8cd2ab9f1bac3ce765dd8c3170ec617168bc42b4802f67596670a6bc44c01e56": [
-      230,
-      473,
-      675,
-      964,
-      1192,
-      1454,
-      1638
-    ],
     "8d1c1149cb2c0fe35578c8427eeb13f06ea26d9d7e253625372711c2e6c6b348": [
       457,
       687
@@ -40882,17 +40932,6 @@
       1058,
       1223
     ],
-    "96f6e99a1a5ed7b11513d7cbcdd4dc2975c0233a599dff9fccf3ffa607ddba1a": [
-      207,
-      397,
-      536,
-      728,
-      871,
-      1083,
-      1277,
-      1450,
-      1670
-    ],
     "97123bd359f34bff40a29e0f69524f0bb395780f67ed06d6b7abdc7776026cff": [
       196,
       442,
@@ -41231,11 +41270,6 @@
       1867,
       2060
     ],
-    "9d8d69df8d905572488f7ac2ea71f7b9eda4573e58d7acb9e531a68676ee761f": [
-      278,
-      510,
-      665
-    ],
     "9dc587556e3bdb55df4bf80e11c019742a99497f4acce3c1662a3e4624c6f2e7": [
       218,
       423,
@@ -41319,13 +41353,6 @@
       931,
       1167,
       1440
-    ],
-    "a002fc17fca734ef860952aaa574057cd361df864c00598884e33fb0617d0181": [
-      234,
-      448,
-      719,
-      1025,
-      1262
     ],
     "a0817dbfd864646deb8539760831a88b66811b743c5c1cb300c50b4fb63ed711": [
       279,
@@ -41442,6 +41469,14 @@
       475,
       742,
       920
+    ],
+    "a2bb92cc63325431cb953dbe09f14cac17dd852c8360fe7283643d0ede0d152d": [
+      223,
+      436,
+      714,
+      852,
+      1016,
+      1258
     ],
     "a2f314cd2cf898075b3229b222fbb4e66c50ca3d9ccd915ab8a4cd399a469701": [
       318,
@@ -41853,12 +41888,6 @@
       619,
       837
     ],
-    "ac22cf99c957beeedb69c688a98fd0d845b5ebbe860093b2efb353f85aa61da1": [
-      256,
-      573,
-      882,
-      1120
-    ],
     "ac4a8a2f001d796a3935e0a60e9b158d7a0f41f1b6ad0bbe25d3319c01c63e0f": [
       312,
       575,
@@ -41902,22 +41931,20 @@
       1448,
       1712
     ],
+    "ad7e137a79e0d0b1a8b6205882da5f314dd8ae8bd7ce107eca6f3269b6c52f17": [
+      299,
+      638,
+      790,
+      1009,
+      1163,
+      1309
+    ],
     "ad957e704853be29d29fbc2310f733ca3f9316ef1f4e2f9b5a98c2c65ec113e9": [
       225,
       430,
       592,
       912,
       1107
-    ],
-    "add0fe93903385dcc2ec55d1cb7956944d58981b35c52ee3c9054021685722c4": [
-      294,
-      520,
-      662,
-      913,
-      1179,
-      1385,
-      1570,
-      1923
     ],
     "adf100de092c5de56f2897437b09b2b4cf223f02d0d6f77090b317d7e6a6a1f9": [
       228,
@@ -41995,13 +42022,6 @@
       1151,
       1447,
       1691
-    ],
-    "af13b3e724a7c4911ff16671b66ed7aaa889ccac6d7f51b3a2177381ceb2afaf": [
-      442,
-      600,
-      826,
-      974,
-      1262
     ],
     "af24aaf28c85436a21d7dc949700b1ae0e55cde75be309c327e838d0ede6ffc5": [
       269,
@@ -42266,11 +42286,6 @@
       176,
       448,
       583
-    ],
-    "b4187623c42c307e6661b5e268c22e1cd6de2e5ed85fae412daa452361e1dbf2": [
-      234,
-      459,
-      639
     ],
     "b4b607f3bd757e13cf79812c9b2d770b68b5ea94e8d7e94ddfc3878a433d2d65": [
       249,
@@ -43696,12 +43711,6 @@
       418,
       881
     ],
-    "d6a4dd46524a068a1e3ddc7b52c6fad7f54500c743ec2ff020bd56133f9e3f4d": [
-      249,
-      498,
-      700,
-      993
-    ],
     "d72bf2e64833aedcf059a22c18ed64e574ea06f4192a0587b99c2428f76b63fd": [
       170,
       457,
@@ -43933,15 +43942,6 @@
       963,
       1144
     ],
-    "ddd03e483682b236a01cc7e764bdc50f6d9a417a796a8031cefe211e115bb956": [
-      191,
-      497,
-      695,
-      959,
-      1365,
-      1524,
-      1769
-    ],
     "ddd68cd5a42b658db9702d526640aeead69c19cabc59e0e3bfa97967e083ad9e": [
       205,
       430,
@@ -44027,12 +44027,6 @@
       858,
       1062,
       1279
-    ],
-    "e0fdbf5902a0183db150b3a3ebeacae5a02e0b84c593ca3cf4b97edff187780d": [
-      203,
-      542,
-      778,
-      1000
     ],
     "e1005e83adaa50fda91b57c106e936cdd2d2d9b30966fdab8d0d63eea2f877a9": [
       212,
@@ -44476,16 +44470,6 @@
       1200,
       1404
     ],
-    "ee8c344b6505772ee754936d55a27d40da919c63e72069b4fa7edc7dd78422b4": [
-      245,
-      425,
-      701,
-      890,
-      1077,
-      1231,
-      1388,
-      1626
-    ],
     "ee9900b2dd49ff88fcb5d0c27c56f1ece0b117f7382e2082a2a8143fcc6b878b": [
       238,
       413,
@@ -44713,6 +44697,12 @@
       1121,
       1438
     ],
+    "f1e21e89c4d1a018543773905997dad53dee82b4e07815b804bf0b64a1172917": [
+      279,
+      621,
+      918,
+      1167
+    ],
     "f25979d87688522ce6f85ba8000358cd5f26f05f3788cff0aaaad6963dd88b03": [
       506
     ],
@@ -44893,6 +44883,15 @@
       1837,
       2065,
       2219
+    ],
+    "f59daea96087dedbccf4a49d4ae2329e97e59846f1d3fbc1104ce996d66ef3a1": [
+      200,
+      501,
+      700,
+      967,
+      1365,
+      1532,
+      1792
     ],
     "f5bb902b72f8c8c0336cf5b61fcaab74f44716ddbb86364a9a77fa324fad9e5a": [
       240,
@@ -45141,6 +45140,11 @@
     "fafccc6b59a4d20c31510583ceeca2e0f473acda8b55c99a845700c55d779287": [
       454
     ],
+    "fb2065c8cd8d7c25b9b95022839fa91bc27bba1f19e1a1c377a5767c28d7130d": [
+      249,
+      474,
+      651
+    ],
     "fb27a80549bf6516c188aeaa0192d408ad288c2c27d5aea80ffb9c2026afb67b": [
       440
     ],
@@ -45338,9 +45342,6 @@
       "1136": 2,
       "421": 1
     },
-    "010730d9a57a21f346a5b94ef167dd4df6b57d510aa93aebd7e3f3161f1d95f7": {
-      "606": 1
-    },
     "0119eb0a095fa78625f948b4a24f2daa0e1a85355ee1625f1a28d90b51b6e289": {
       "553": 2
     },
@@ -45445,6 +45446,10 @@
     "06b1fdf408c4f2ca71f465839410e1fab38793ba5cdea0860f19eb0e4d0ace22": {
       "272": 1,
       "708": 2
+    },
+    "06d15099b7af0302a14599fd8bc99ce0a6dc3a945231d57f50538e40accbf8e0": {
+      "1539": 2,
+      "578": 1
     },
     "06d802798a8fcce092ef04151519aacde32f056f3ad4d7349320ac2adbdfc570": {
       "1434": 2,
@@ -45962,9 +45967,6 @@
       "1927": 3,
       "478": 1
     },
-    "20a2626f320768b04ea602a3decc10e47706c87ab28719d06f79c0ca9df3f6ec": {
-      "407": 1
-    },
     "20d5af2bb31a7f8eadfe699ae776d359defea6ec7991fbe0a4d6b836a2593f79": {
       "1227": 2,
       "479": 1
@@ -46028,6 +46030,9 @@
       "1398": 2,
       "481": 1
     },
+    "235f51bf488956a277c4ec6e0dd7c1422882ac13190ffc98155ee36d6f1bdbef": {
+      "386": 1
+    },
     "238db2e8a2defdece00a9cb3854ab4cf6d2d18e2cf36e34fa9642ea2175087ff": {
       "1309": 2,
       "442": 1
@@ -46084,9 +46089,6 @@
     "26eb3549f7205f80dfc82af71e22abb1df254152b45623d17f07abc4ee1bc92e": {
       "1295": 2,
       "628": 1
-    },
-    "2729203cce10e82e97e7ce78d18ffc8b018b1597ebccab093bef1fcf9327e096": {
-      "393": 1
     },
     "272925d4200d390d8a5ecdbe19f0582c5221ad6cd9465531a91ad85b799a5cd1": {
       "1003": 2,
@@ -46224,6 +46226,9 @@
     "2c757b3eee5ae9d12e9f84f3506a6dde70fa9528714f036ccea5bba0cad1f9cc": {
       "403": 1
     },
+    "2c7653272bab02862ee8d7cf0b3e6d222dfc3c4518209bf875a3bfe4cd70f922": {
+      "281": 1
+    },
     "2c7ff3154734967a361e635f50dd8e16403b6d1e91a3e10d9b0abe3841fc3166": {
       "437": 1
     },
@@ -46296,9 +46301,16 @@
       "340": 1,
       "828": 2
     },
+    "3220025d87e932871fe397d85194addd991c7bdca4dcccd015183b9f98f40c83": {
+      "451": 1,
+      "943": 2
+    },
     "32ce7d8d3570a67d7af699e095b6a4c5886af91403145a18945bcfa7f5781b36": {
       "485": 1,
       "965": 2
+    },
+    "32fc001533a44d4541ad57e6c7f29b15c606757507c73f1d8da4943058c18d34": {
+      "643": 1
     },
     "3304de9a4c48cd352e00c37b376ef68a44d19a6527c421a72c854b1d3e697a53": {
       "270": 1
@@ -46338,6 +46350,9 @@
     },
     "3482850f91f84a0796d9bf337c2c3cfdbd7efd80973af6714365cd2cfa658da9": {
       "343": 1
+    },
+    "34a1566aa8e55a4d8445158e0b62c454552cc244ff022c4f0fa957f7d2bb515e": {
+      "504": 1
     },
     "34a59caa9a59b6541b4134c16de1e2e7bf00e5a30d8d8c01a66986b2f2026483": {
       "195": 1
@@ -46526,9 +46541,6 @@
     },
     "3e8b3d37cfe7c8d57dd3369f9ed156ce9039d64f538bb1a326e4381948b87121": {
       "425": 1
-    },
-    "3f1769bd629460218db8a7f415c132aaa800e33b3e7a6853e181d16bcfc5193f": {
-      "639": 1
     },
     "3f70cbdc98ab5c8cc221a329110279f7a8b0c778293465c67d635eafc9e5baba": {
       "1204": 2,
@@ -47093,10 +47105,6 @@
     "5cfe5b2ece3a44bf0cc6c322edeb856e790df65c5284cf5ad92958c1247732d1": {
       "329": 1
     },
-    "5cffacdbd0970d2de05edff557cec19e21737020caf0a5fc64f8e40a51df0a6e": {
-      "1508": 2,
-      "575": 1
-    },
     "5d1649dfc8fefe8f9d4b4661ecfa5675637636069247bb784d64483a8ffd4ec2": {
       "1177": 2,
       "332": 1
@@ -47180,6 +47188,10 @@
     },
     "6072717a5635dc5a8fe4c9e49c51f4476075af01e3d574942afdcee7c58228f8": {
       "514": 1
+    },
+    "607c4d6aa4abce44c35b49f6458b39942af20b092d569e5b5bc91873207370d4": {
+      "1179": 2,
+      "456": 1
     },
     "6097fcd1d186e258f0a2153f3422aa0898903ca3ca721b56be1010b40a479097": {
       "1095": 2,
@@ -47311,6 +47323,9 @@
       "1159": 2,
       "399": 1
     },
+    "6636b4fbca727a1f714732efe389205ea1a69798280ca312046c5406fda8bdb3": {
+      "409": 1
+    },
     "663d3018324b2ae7116795c9df1358b7c0ce24fba82388c35719123938f65849": {
       "299": 1
     },
@@ -47424,6 +47439,9 @@
       "1249": 2,
       "563": 1
     },
+    "6c507779f93d14ee879395b2ca19a13ccd597163b76cd3c5f09e0a7e3cf9be93": {
+      "451": 1
+    },
     "6c81ff9ba19ed63d3c6821827839485f0ce467cddc3f9361914331e0ff1e33eb": {
       "352": 1
     },
@@ -47470,6 +47488,10 @@
     "6ed4898108e3b3d4ad6c2bfd0465d58b7a8c036b47fbad5f97812dd1cc4ea45e": {
       "427": 1,
       "824": 2
+    },
+    "6f06075cea0dec2921a7f17a90a19f2682bcacfcaf0cc3295457f2a10aa36e23": {
+      "1198": 2,
+      "520": 1
     },
     "6f1501b97665292c02de5976eaf60097de5935ccd7090015255c6e395ea42b35": {
       "475": 1
@@ -47596,6 +47618,9 @@
     "771b5f6ad2df73d1abf52eaafd30f6f1f28292028f1f048e27f90e23301a855a": {
       "349": 1
     },
+    "78035efe2277feee7925d343cd62ebbfded766e21372e6bd3158ed1f7c249619": {
+      "694": 1
+    },
     "78d1566980c9c42e22c2aa8cdbdf1cdf185e89d89643f9649a433966b049455c": {
       "575": 1
     },
@@ -47632,6 +47657,10 @@
     },
     "7a94b9b4e542f36ddde50d381ad18653a6e090a856330e18d319f40c2a1decb6": {
       "379": 1
+    },
+    "7a96bcc195ca8b1409052c00f5aee89685d1dc0e8fc577f5342fdf0142f9a10f": {
+      "1054": 2,
+      "429": 1
     },
     "7ab9d9d2fba15750d04ee94e39253f4b971b476a91b1d697436bea4af9334d1e": {
       "1431": 2,
@@ -48041,10 +48070,6 @@
       "1334": 2,
       "387": 1
     },
-    "8cd2ab9f1bac3ce765dd8c3170ec617168bc42b4802f67596670a6bc44c01e56": {
-      "1192": 2,
-      "473": 1
-    },
     "8d1c1149cb2c0fe35578c8427eeb13f06ea26d9d7e253625372711c2e6c6b348": {
       "457": 1
     },
@@ -48246,9 +48271,6 @@
     "96a85562cd467fd04ee4028bf91380894e5d96cdf4088af932270e4e5033e9ac": {
       "674": 1
     },
-    "96f6e99a1a5ed7b11513d7cbcdd4dc2975c0233a599dff9fccf3ffa607ddba1a": {
-      "728": 1
-    },
     "97123bd359f34bff40a29e0f69524f0bb395780f67ed06d6b7abdc7776026cff": {
       "1139": 2,
       "442": 1
@@ -48396,9 +48418,6 @@
       "1483": 2,
       "760": 1
     },
-    "9d8d69df8d905572488f7ac2ea71f7b9eda4573e58d7acb9e531a68676ee761f": {
-      "278": 1
-    },
     "9dc587556e3bdb55df4bf80e11c019742a99497f4acce3c1662a3e4624c6f2e7": {
       "1155": 2,
       "423": 1
@@ -48435,9 +48454,6 @@
     "9fb1646a6dce049b8bb825192230b6d5390e32397a6d07eb4e4021e75aae4023": {
       "409": 1,
       "931": 2
-    },
-    "a002fc17fca734ef860952aaa574057cd361df864c00598884e33fb0617d0181": {
-      "234": 1
     },
     "a0817dbfd864646deb8539760831a88b66811b743c5c1cb300c50b4fb63ed711": {
       "2090": 2,
@@ -48483,6 +48499,9 @@
     },
     "a2693eae81b41f73675bd6056e2133bf4551150666c04728e57f5435551fa2dd": {
       "475": 1
+    },
+    "a2bb92cc63325431cb953dbe09f14cac17dd852c8360fe7283643d0ede0d152d": {
+      "223": 1
     },
     "a2f314cd2cf898075b3229b222fbb4e66c50ca3d9ccd915ab8a4cd399a469701": {
       "318": 1
@@ -48667,9 +48686,6 @@
     "abfeb638ad3d1e618a7ab763ba936c6ad14e1ba3b2d4c50dd94b8a1881ad24d5": {
       "376": 1
     },
-    "ac22cf99c957beeedb69c688a98fd0d845b5ebbe860093b2efb353f85aa61da1": {
-      "573": 1
-    },
     "ac4a8a2f001d796a3935e0a60e9b158d7a0f41f1b6ad0bbe25d3319c01c63e0f": {
       "1350": 2,
       "2101": 3,
@@ -48686,13 +48702,12 @@
       "1299": 2,
       "439": 1
     },
+    "ad7e137a79e0d0b1a8b6205882da5f314dd8ae8bd7ce107eca6f3269b6c52f17": {
+      "638": 1
+    },
     "ad957e704853be29d29fbc2310f733ca3f9316ef1f4e2f9b5a98c2c65ec113e9": {
       "430": 1,
       "912": 2
-    },
-    "add0fe93903385dcc2ec55d1cb7956944d58981b35c52ee3c9054021685722c4": {
-      "1179": 2,
-      "520": 1
     },
     "adf100de092c5de56f2897437b09b2b4cf223f02d0d6f77090b317d7e6a6a1f9": {
       "1158": 2,
@@ -48727,10 +48742,6 @@
     "aeef5070494ee0cedb272bc267f491f9e106ed17b40935e1ac6e0b5d6f4a0b07": {
       "1151": 2,
       "507": 1
-    },
-    "af13b3e724a7c4911ff16671b66ed7aaa889ccac6d7f51b3a2177381ceb2afaf": {
-      "442": 1,
-      "974": 2
     },
     "af24aaf28c85436a21d7dc949700b1ae0e55cde75be309c327e838d0ede6ffc5": {
       "1328": 2,
@@ -48845,9 +48856,6 @@
     },
     "b39e8ec6ea24c72713e0f98ef4bbe9d6e7851ee0b9a954e26ac956f0dd2d56f9": {
       "448": 1
-    },
-    "b4187623c42c307e6661b5e268c22e1cd6de2e5ed85fae412daa452361e1dbf2": {
-      "459": 1
     },
     "b4b607f3bd757e13cf79812c9b2d770b68b5ea94e8d7e94ddfc3878a433d2d65": {
       "564": 1
@@ -49461,9 +49469,6 @@
     "d69d6a8b6de10d78cce7699d5db0801438a6ceaae82a0eda219bd817b4aaaf27": {
       "418": 1
     },
-    "d6a4dd46524a068a1e3ddc7b52c6fad7f54500c743ec2ff020bd56133f9e3f4d": {
-      "498": 1
-    },
     "d72bf2e64833aedcf059a22c18ed64e574ea06f4192a0587b99c2428f76b63fd": {
       "1132": 2,
       "457": 1
@@ -49560,10 +49565,6 @@
       "431": 1,
       "963": 2
     },
-    "ddd03e483682b236a01cc7e764bdc50f6d9a417a796a8031cefe211e115bb956": {
-      "1365": 2,
-      "497": 1
-    },
     "ddd68cd5a42b658db9702d526640aeead69c19cabc59e0e3bfa97967e083ad9e": {
       "430": 1
     },
@@ -49600,9 +49601,6 @@
     },
     "e0ef9603ecb18b99d5bbf6f1ee0ab3901a67281cff1a3e413524eb4f3d89ca2d": {
       "653": 1
-    },
-    "e0fdbf5902a0183db150b3a3ebeacae5a02e0b84c593ca3cf4b97edff187780d": {
-      "542": 1
     },
     "e1005e83adaa50fda91b57c106e936cdd2d2d9b30966fdab8d0d63eea2f877a9": {
       "1021": 2,
@@ -49803,10 +49801,6 @@
       "1007": 2,
       "390": 1
     },
-    "ee8c344b6505772ee754936d55a27d40da919c63e72069b4fa7edc7dd78422b4": {
-      "1077": 2,
-      "425": 1
-    },
     "ee9900b2dd49ff88fcb5d0c27c56f1ece0b117f7382e2082a2a8143fcc6b878b": {
       "622": 1
     },
@@ -49908,6 +49902,9 @@
       "1121": 2,
       "492": 1
     },
+    "f1e21e89c4d1a018543773905997dad53dee82b4e07815b804bf0b64a1172917": {
+      "621": 1
+    },
     "f2653d601cdb6918c835580074842ff48a1eadb2f960ee8e9671feb10d2394ef": {
       "1375": 2,
       "546": 1
@@ -49981,6 +49978,10 @@
       "1181": 2,
       "1837": 3,
       "472": 1
+    },
+    "f59daea96087dedbccf4a49d4ae2329e97e59846f1d3fbc1104ce996d66ef3a1": {
+      "1365": 2,
+      "501": 1
     },
     "f5bb902b72f8c8c0336cf5b61fcaab74f44716ddbb86364a9a77fa324fad9e5a": {
       "1108": 2,
@@ -50086,6 +50087,9 @@
     },
     "fad05299d7d55542b33a0d58c47c9c17a3c8c5c5856acc7fbcda53b0ec1709ca": {
       "241": 1
+    },
+    "fb2065c8cd8d7c25b9b95022839fa91bc27bba1f19e1a1c377a5767c28d7130d": {
+      "474": 1
     },
     "fb2badda5ba7383ef1a6c47ab186982006b6a7d3ce00d5a48127ad0af2ec24ac": {
       "1213": 2,

@@ -1,0 +1,86 @@
+{
+ "key": "quest:94789",
+ "type": "quest",
+ "name": "Call of Air",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94789
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A shaman is sent to Veyric Thundervein in the northern hills of Arathi Highlands. He will teach you more about mastering air.",
+ "sections": [
+  {
+   "title": "The Northern Hills",
+   "body": "A shaman sends you north into Arathi Highlands to find Veyric Thundervein. The element of air is difficult to master, and he can teach you more. Your growing skill has brought you this far; now your training turns to wind and the spirits of air.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Veyric Thundervein?",
+   "aliases": [
+    "Veyric",
+    "who is Veyric",
+    "air trainer"
+   ],
+   "answer": "Veyric Thundervein is in the northern hills of Arathi Highlands, where he can teach you more about air."
+  },
+  {
+   "q": "Where do I find Veyric?",
+   "aliases": [
+    "Veyric location",
+    "where's Veyric",
+    "Arathi air trainer"
+   ],
+   "answer": "Find Veyric Thundervein in the northern hills of Arathi Highlands."
+  },
+  {
+   "q": "What is Call of Air about?",
+   "aliases": [
+    "Call of Air quest",
+    "air training",
+    "wind spells"
+   ],
+   "answer": "A shaman sends you to Veyric Thundervein so he can teach you more about the element of air."
+  },
+  {
+   "q": "Why am I going to Arathi Highlands?",
+   "aliases": [
+    "why Arathi",
+    "go north quest",
+    "find Veyric"
+   ],
+   "answer": "Veyric Thundervein is in the northern hills of Arathi Highlands, and he will teach you more about air."
+  },
+  {
+   "q": "What does Veyric teach?",
+   "aliases": [
+    "Veyric training",
+    "spirits of air",
+    "focus wind spells"
+   ],
+   "answer": "Veyric teaches you to focus wind spells and call upon the spirits of air."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "air",
+  "arathi highlands",
+  "call of air",
+  "shaman",
+  "spirits of air",
+  "veyric thundervein",
+  "wind spells"
+ ],
+ "related": [
+  "zone:arathi"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Call of Air"
+ ]
+}

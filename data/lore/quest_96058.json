@@ -1,0 +1,101 @@
+{
+ "key": "quest:96058",
+ "type": "quest",
+ "name": "Camping 101: Engineering",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96058
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "An engineer in Kharanos can learn to craft a Reagent Bot for a camp. The bot helps keep you supplied with materials for spells.",
+ "sections": [
+  {
+   "title": "A Camp's Supplies",
+   "body": "An engineer can learn from Bronk Guzzlegear in Kharanos how to make a Reagent Bot. You need to show proficiency in your engineering skill before he teaches you. The bot helps supply materials that you and your allies need for spells.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ready for the Wilds",
+   "body": "You can now craft a Reagent Bot. To test it, leave the town and head into the wilderness, where you can set up camp. Bring a campfire too; cooks can teach you how to make one.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who teaches me to make a Reagent Bot?",
+   "aliases": [
+    "Bronk bot lesson",
+    "who is Bronk Guzzlegear",
+    "reagent bot trainer"
+   ],
+   "answer": "Bronk Guzzlegear in Kharanos can teach you to craft a Reagent Bot once you show proficiency in engineering."
+  },
+  {
+   "q": "What does a Reagent Bot do?",
+   "aliases": [
+    "what is reagent bot for",
+    "bot spell supplies",
+    "camp bot"
+   ],
+   "answer": "A Reagent Bot helps keep you and your allies supplied with materials needed for spells."
+  },
+  {
+   "q": "What do I need before I can learn this?",
+   "aliases": [
+    "engineering proficiency",
+    "how learn reagent bot",
+    "camping 101 engineering"
+   ],
+   "answer": "You need to show proficiency in your engineering skill before Bronk Guzzlegear teaches you to craft a Reagent Bot."
+  },
+  {
+   "q": "Where can I try out the Reagent Bot?",
+   "aliases": [
+    "where test bot",
+    "camp location",
+    "reagent bot wilderness"
+   ],
+   "answer": "You can test the Reagent Bot in the wilderness, since most folk do not want camps set up in the center of town."
+  },
+  {
+   "q": "Do I need a campfire?",
+   "aliases": [
+    "campfire needed",
+    "how make campfire",
+    "camp cooking"
+   ],
+   "answer": "Yes. A camp needs a campfire, and most cooks can teach you to make one."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "As an engineer, you can learn from Bronk Guzzlegear to craft a Reagent Bot for your camp."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "As a cook, you can teach others to make the campfire needed for a camp."
+  }
+ ],
+ "keywords": [
+  "bronk guzzlegear",
+  "camp",
+  "campfire",
+  "camping 101",
+  "engineering",
+  "kharanos",
+  "reagent bot",
+  "spell materials"
+ ],
+ "related": [
+  "subzone:kharanos"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Camping 101: Engineering"
+ ]
+}

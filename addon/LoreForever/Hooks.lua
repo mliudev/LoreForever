@@ -935,52 +935,47 @@ local function buttonQuest(b, id)
   return e and e.m and e.m.id
 end
 
--- The book reader (books, letters, plaques): a Listen button that plays the page's recording, or stops it (LOR-49).
--- Shown only for a page a voice recorded (Voice.BookPageClip; none has one yet, so books stay text); its label follows
--- what's playing.
+-- The book reader (books, letters, plaques): the quest window's control, the stone pill's play half (no playlist half:
+-- a book's page isn't queued), that plays the page's recording, or stops it (LOR-49). Mike, stream 11/7, on the plain
+-- "Listen" button it had: "Books shouldn't have a listen button like this" (LOR-1323). Shown only for a page a voice
+-- recorded (Voice.BookPageClip).
 function Hooks.BookFrame()
   local f = _G.ItemTextFrame
   if not f or Hooks.bookButton then return end
   local T = ns.Theme
-  local b = (T and T.Button) and T.Button(f, L["Listen"])
-    or CreateFrame("Button", "LoreForeverBookButton", f, "UIPanelButtonTemplate")
-  b:SetSize(96, 20)
-  b:SetPoint("TOPRIGHT", f, "TOPRIGHT", -28, -30)
-  b:SetFrameLevel((f:GetFrameLevel() or 1) + 5)
-  b:SetText(L["Listen"])
-  b:SetScript("OnClick", function()
+  local p = T.Pill(f, ROW_H, true)
+  p:SetPoint("TOPRIGHT", f, "TOPRIGHT", -28, -30)
+  p:SetFrameLevel((f:GetFrameLevel() or 1) + 5)
+  T.SetPill(p, false, false, false, true)
+  p.play:SetScript("OnClick", function()
     ns.Voice.ReadBookPage(true)
     Hooks.UpdateBookButton()
   end)
-  b:SetScript("OnEnter", function(self)
+  p.play.onEnter = function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
     local UI = ns.UI
     local reading = UI and UI.speaking and ns.Voice.IsBookText(UI.playingId)
     GameTooltip:AddLine(reading and L["Stop narration"] or L["Play narration"])
     GameTooltip:Show()
-  end)
-  b:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  end
+  p.play.onLeave = function() GameTooltip:Hide() end
   local wait = 0
-  b:SetScript("OnUpdate", function(_, elapsed)   -- the page can finish by itself: relabel twice a second
+  p:SetScript("OnUpdate", function(_, elapsed)   -- the page can finish by itself: follow it twice a second
     wait = wait + (elapsed or 0)
     if wait < 0.5 then return end
     wait = 0
     Hooks.UpdateBookButton()
   end)
-  Hooks.bookButton = b
+  Hooks.bookButton = p
 end
 
 function Hooks.UpdateBookButton()
-  local b = Hooks.bookButton
-  if not b then return end
+  local p = Hooks.bookButton
+  if not p then return end
   local UI = ns.UI
   local reading = UI and UI.speaking and ns.Voice.IsBookText(UI.playingId)
-  b:SetText(reading and L["Stop"] or L["Listen"])
-  -- As wide as its label needs (a translation can run past 96), growing leftward from the corner.
-  local fs = b.GetFontString and b:GetFontString()
-  local w = fs and ns.Theme.TextWidth(fs)
-  if type(w) == "number" and w > 0 then b:SetWidth(math.max(96, w + 24)) end
-  b:SetShown((reading or ns.Voice.BookPageClip() ~= nil) and true or false)
+  ns.Theme.SetPill(p, reading and true or false)
+  p:SetShown((reading or ns.Voice.BookPageClip() ~= nil) and true or false)
 end
 
 function Hooks.UpdateQuestDialogButton()

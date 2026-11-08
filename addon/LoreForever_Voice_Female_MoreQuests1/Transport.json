@@ -549,9 +549,9 @@
     "quest:117": {
       "1": [
         {
-          "duration": 38.7395918367347,
-          "file": "Audio/Transport/full_quest_117-1e7465aae4f248860909/1-0000.mp3",
-          "sha256": "a131dd96ae61d8fc9fa7d45f98a090ab3f0adbd8d7c6e545fbd75c16ecc9f865",
+          "duration": 37.27673469387755,
+          "file": "Audio/Transport/full_quest_117-522a938ec94b52130213/1-0000.mp3",
+          "sha256": "2c64242bed25cfecd1232956b79cdb876ecba9939449b87df380f74d990aee41",
           "start": 0
         }
       ],
@@ -563,12 +563,12 @@
         ]
       },
       "fullHash": "28267e",
-      "generation": "24ab641331ecd98cd264",
+      "generation": "5e26afb7992a628d681d",
       "hash": "28267e",
       "source": {
-        "duration": 38.765714,
+        "duration": 37.302857,
         "file": null,
-        "sha256": "1e7465aae4f24886090952848b2016590794ef2e7b3198aee50ac2b8f5c77f70"
+        "sha256": "522a938ec94b5213021309d1906766e7f88f81a9bb1a21f8397b6f8d7262647d"
       },
       "text": "Thunderbrew. In Westfall, Grimbooze Thunderbrew gathers fresh hops for his next batch. Without them, his ale may turn thick as stew, so he shares kegs with those who bring what he needs. Far from Dun Morogh, Grimbooze keeps his family's brewing tradition alive. He insists on proper hops for his current brew, or it may turn to thick stew instead of refreshing ale. Grimbooze praises hops, barley, yeast, and malt in cheerful rhymes. Fresh hops let him finish fermentation on the spot. In return, he shares whole kegs of Thunderbrew Lager, known for its forceful taste."
     },
@@ -2499,9 +2499,9 @@
     "quest:1618": {
       "1": [
         {
-          "duration": 59.95102040816327,
-          "file": "Audio/Transport/full_quest_1618-aace6c2141edc6ac8fab/1-0000.mp3",
-          "sha256": "861887d167fa7657f240fb22021a6d727983eebd2f0fa0de55943d32e6b2945e",
+          "duration": 61.7534693877551,
+          "file": "Audio/Transport/full_quest_1618-bd16abe601708ce065cb/1-0000.mp3",
+          "sha256": "9b58f65810c65c158fb1a5cb176716f92f7c5181451875a34e14fc2bd8640053",
           "start": 0
         }
       ],
@@ -2513,12 +2513,12 @@
         ]
       },
       "fullHash": "9cf5d0",
-      "generation": "6080f9d69a7c6cc162ec",
+      "generation": "6b891d32a3b88bbc4bd0",
       "hash": "9cf5d0",
       "source": {
-        "duration": 59.977143,
+        "duration": 61.779592,
         "file": null,
-        "sha256": "aace6c2141edc6ac8fabe414de58780e395fe67120ecafaab1b42abd7ee2ac50"
+        "sha256": "bd16abe601708ce065cb1c90418213107f9d6cb19145420fe4609c5cdc6aea23"
       },
       "text": "Gearing Redridge. In Lakeshire, a hard pressed garrison needs sturdy copper gear from Ironforge. Tormus Deepforge asks aspiring Alliance smiths to forge it and aid Verner Osgood as he helps defend the region from hostile orcs and gnolls. The Great Forge sends help beyond Dun Morogh, where the Alliance's front line is under strain. In the Redridge Mountains, Lakeshire faces repeated attacks from Blackrock orcs marching from Stonewatch Keep and gnolls roaming the northern ridges. Stormwind's royal reinforcements are slow to arrive, and local supplies are dangerously low. Verner Osgood, Lakeshire's resident blacksmith, works nearly alone at his outdoor forge. He mends shattered armor and replaces broken weapons. Seeing his human counterpart under strain, Tormus Deepforge asks developing smiths to bring four Runed Copper Belts and four Heavy Copper Mauls to Lakeshire. The gear strengthens the militia's reserves, and Verner teaches traveling craftsmen finer trade techniques."
     },
@@ -2733,9 +2733,9 @@
     "quest:1679": {
       "1": [
         {
-          "duration": 47.542857142857144,
-          "file": "Audio/Transport/full_quest_1679-06691e055e25331c9d5a/1-0000.mp3",
-          "sha256": "8e88f7c29946848a98655cac504334638887393d54e88695091a877ab82e9e8d",
+          "duration": 49.00571428571429,
+          "file": "Audio/Transport/full_quest_1679-d1651afa76a8e151a889/1-0000.mp3",
+          "sha256": "7a1389e02e4e8709ceb98d2a6c308b7876b4fcf1286516a624ab29446874c3fd",
           "start": 0
         }
       ],
@@ -2747,12 +2747,12 @@
         ]
       },
       "fullHash": "b742ca",
-      "generation": "081be3eec14869890671",
+      "generation": "2a81a5229cfa96bc476f",
       "hash": "b742ca",
       "source": {
-        "duration": 47.542857,
+        "duration": 49.031837,
         "file": null,
-        "sha256": "06691e055e25331c9d5ab267f95133cd12fba97e4bffafd65568e20662b5afea"
+        "sha256": "d1651afa76a8e151a88941b97a8eceea77e8b3297befa6075783056cd07b9089"
       },
       "text": "Muren Stormpike. In Ironforge, Muren Stormpike awaits warriors sent from Kharanos for formal training. Granis Swiftaxe sends recruits who have proved their mettle in Dun Morogh to the city's Military Ward. Granis Swiftaxe sends promising warriors from Kharanos to Ironforge after they face local threats in Dun Morogh. He knows rough skirmishes can teach only so much. In the Military Ward, senior fighters oversee formal training for those bound for battle. At the Hall of Arms, you meet Muren Stormpike, a veteran of a storied dwarven clan. He wants proof that his new charges can endure real combat, not tavern tales. Reporting to him opens the way to learn defensive arts, control an enemy's aggression, and earn iron arms for the front line."
     },
@@ -3071,9 +3071,9 @@
     "quest:179": {
       "1": [
         {
-          "duration": 44.904489795918366,
-          "file": "Audio/Transport/full_quest_179-5e1e19dd2746f9cc9c97/1-0000.mp3",
-          "sha256": "f743b33b30eb589c9633072a8f80562d3c0355457fc9bfc7b1bcb3e0ddeab417",
+          "duration": 42.68408163265306,
+          "file": "Audio/Transport/full_quest_179-fb436b9b0d194cce593f/1-0000.mp3",
+          "sha256": "cf93b6d9f3a94db4db003fc18a27d67e2a2ed17780058175d6f15f6c808adec0",
           "start": 0
         }
       ],
@@ -3085,12 +3085,12 @@
         ]
       },
       "fullHash": "25cb1a",
-      "generation": "1fc6724b58cdb0acee96",
+      "generation": "f4cab563c1cd075ad974",
       "hash": "25cb1a",
       "source": {
-        "duration": 44.930612,
+        "duration": 42.684082,
         "file": null,
-        "sha256": "5e1e19dd2746f9cc9c97da7d695e2a3bf531821d5b6e96ac8c864dda1e65ceb7"
+        "sha256": "fb436b9b0d194cce593f01733168ee3d696f8173ab5dc28c0de07d1be67b4d37"
       },
       "text": "Dwarven Outfitters. In Coldridge Valley, Sten Stoutarm offers new recruits a bargain. Hunt wolves for their tough meat, and he provides sturdy gloves against Dun Morogh's cold. Cold reaches every path through Coldridge Valley. Outside Anvilmar, Sten Stoutarm asks new recruits to hunt wolves in the snowy drifts and bring their tough meat to the outpost. In return, he gives them gloves to guard their hands from the cold. Wolves threaten the dwarven scouts and young gnomes training in the valley. Yet they also feed the garrison at Anvilmar. Hunting them makes the paths between local encampments somewhat safer. Stoutarm's bargain tests recruits against local wildlife and adds food for the bitter nights ahead."
     },
@@ -4449,9 +4449,9 @@
     "quest:233": {
       "1": [
         {
-          "duration": 46.62857142857143,
-          "file": "Audio/Transport/full_quest_233-f166e786a3c7ed23e1e6/1-0000.mp3",
-          "sha256": "e98e6739bbf185dcee51e78c98262d34bccc5b5321f425c9c02366d8f2759d22",
+          "duration": 48.3265306122449,
+          "file": "Audio/Transport/full_quest_233-d3849ecc9271e04f6dae/1-0000.mp3",
+          "sha256": "fa12202a905407673dc67ee9bf692142e69daf3c86ce404c0e487022ba980a48",
           "start": 0
         }
       ],
@@ -4463,21 +4463,21 @@
         ]
       },
       "fullHash": "86e0ca",
-      "generation": "99f2d86841b4f9fdcf95",
+      "generation": "e44418f901256e363e70",
       "hash": "86e0ca",
       "source": {
-        "duration": 46.654694,
+        "duration": 48.352653,
         "file": null,
-        "sha256": "f166e786a3c7ed23e1e64c1fb3d9af096f66caf7bba7df210ac19971c4896323"
+        "sha256": "d3849ecc9271e04f6dae3bd6e5cf597ac60a90a66f7228a8939e295d3142923e"
       },
       "text": "Coldridge Valley Mail Delivery. At Anvilmar, Sten Stoutarm sends you west with mail for scouts beyond the frozen lake. Snow and nearby troggs can cut off the valley's defenders, leaving important news undelivered. Mail from across Dun Morogh reaches Anvilmar by mountain pass, where winter couriers leave it to gather. Sten Stoutarm tends supplies and security, so recruits carry the bundles down the western road. Without your help, important messages remain in the hall. Talin Keeneye watches the frozen lake west of Anvilmar for trogg movements and dangerous wildlife. Even at a cold outpost, news from Ironforge and the surrounding camps matters. Harsh mountain conditions make sorting mail difficult, so letters for different scouts can end up together in one bundle."
     },
     "quest:234": {
       "1": [
         {
-          "duration": 38.19102040816327,
-          "file": "Audio/Transport/full_quest_234-e4c0ce72d0190110391d/1-0000.mp3",
-          "sha256": "3284bd3b7eb4face5fd2333c1f2ebac3bf7a8797c278f06cc62b8067c246ac60",
+          "duration": 37.06775510204082,
+          "file": "Audio/Transport/full_quest_234-1a4ad6176b061f089e63/1-0000.mp3",
+          "sha256": "90a5d67e655264c2c4989c862a650121f7977c2c7911c23cd2b98c1046871459",
           "start": 0
         }
       ],
@@ -4489,12 +4489,12 @@
         ]
       },
       "fullHash": "3c5907",
-      "generation": "538494591d174f2b83fd",
+      "generation": "fbd22a3edfef2b00b055",
       "hash": "3c5907",
       "source": {
-        "duration": 38.217143,
+        "duration": 37.093878,
         "file": null,
-        "sha256": "e4c0ce72d0190110391d5b120c94f19ae511fca386246b5a0741b33f99cc76dc"
+        "sha256": "1a4ad6176b061f089e6311531170221a22699542b789400ce84cc6c774687810"
       },
       "text": "Coldridge Valley Mail Delivery. In Coldridge Valley, a dispatch travels from Talin Keeneye's post to Grelin Whitebeard's camp. You carry it down the southeastern road, keeping the mountaineers in touch with Ironforge. Anvilmar is Coldridge Valley's center of rule. From there, field scouts and sentries carry dispatches along the trails between the high passes and Ironforge. Grelin Whitebeard keeps a small camp southeast of Talin Keeneye's post. Veteran mountaineers at these remote watchpoints face freezing drifts and steady trogg harassment. Regular letters keep them abreast of affairs across Dun Morogh and the kingdom beyond."
     },
@@ -5411,9 +5411,9 @@
     "quest:282": {
       "1": [
         {
-          "duration": 42.840816326530614,
-          "file": "Audio/Transport/full_quest_282-4ae2f60ef9d91e4d284a/1-0000.mp3",
-          "sha256": "00510940f870bb674f84a04e864c995ee79eb7a35e687bd8f0075fcd23165836",
+          "duration": 44.53877551020408,
+          "file": "Audio/Transport/full_quest_282-ffc9ec61130268530de6/1-0000.mp3",
+          "sha256": "14082a4c7683e201b4b9dc831d8d477cf29356a266bd40493c3a7e001cb839e9",
           "start": 0
         }
       ],
@@ -5425,12 +5425,12 @@
         ]
       },
       "fullHash": "671fda",
-      "generation": "5be41a8b252fbd09f693",
+      "generation": "eeacdb545bdf8645dbc9",
       "hash": "671fda",
       "source": {
-        "duration": 42.866939,
+        "duration": 44.564898,
         "file": null,
-        "sha256": "4ae2f60ef9d91e4d284a6d182e8c15ff016c451aaf844961599528e8b1fcd34b"
+        "sha256": "ffc9ec61130268530de6f868f308d33b214275298a0a974b20e2612d0a7e9aa8"
       },
       "text": "Senir's Observations. Grelin Whitebeard sends you east to Kharanos with his report for his brother Senir. Troggs have overrun the tunnel from Coldridge Valley, where Mountaineer Thalos guards the way. Grelin Whitebeard's report tells of Frostmane troll activity around Coldridge Valley. The trolls stole his journal, and you recovered it. Grelin judged the findings too important for an inexperienced apprentice to carry. So he entrusts the report to you, to deliver directly to his brother Senir in Kharanos. Troggs have overrun the eastern tunnel from Coldridge Valley into the rest of Dun Morogh. Mountaineer Thalos guards the entrance to keep civilians from danger. He lets travelers through only when they carry urgent official business."
     },
@@ -5463,9 +5463,9 @@
     "quest:291": {
       "1": [
         {
-          "duration": 24.058775510204082,
-          "file": "Audio/Transport/full_quest_291-6094f814986fe74060bd/1-0000.mp3",
-          "sha256": "291f969074970bab7e892eea661ba10af854e3b7db6524c22da244c7ba1813f7",
+          "duration": 23.92816326530612,
+          "file": "Audio/Transport/full_quest_291-2761aa42cca0d8893fd0/1-0000.mp3",
+          "sha256": "cc1d67b21324f9fb6110708ac5a428d497b94035382ad3f7b33a0bb31bac8ebe",
           "start": 0
         }
       ],
@@ -5477,12 +5477,12 @@
         ]
       },
       "fullHash": "9b5a0d",
-      "generation": "5c9b15c7c1b024988898",
+      "generation": "7fa09834c250e108407c",
       "hash": "9b5a0d",
       "source": {
-        "duration": 24.058776,
+        "duration": 23.954286,
         "file": null,
-        "sha256": "6094f814986fe74060bd8a073104a024a0eb5975f1ac9e311ba97f35998f6b8a"
+        "sha256": "2761aa42cca0d8893fd074b96efa8ec68cd38bed6bac57016a432d1a7264f7e2"
       },
       "text": "The Reports. From Kharanos, Senir Whitebeard sends word to Senator Barin Redstone in Ironforge about the Frostmane threat to Dun Morogh. He asks you to leave his scout unnamed. The report carries news from deep inside Frostmane Hold, where the trolls threaten Dun Morogh. Senir wants you to take it straight to Barin Redstone and keep the scout from the snowy crags unnamed."
     },
@@ -7647,9 +7647,9 @@
     "quest:366": {
       "1": [
         {
-          "duration": 60.60408163265306,
-          "file": "Audio/Transport/full_quest_366-25cad471961a6bfa56a5/1-0000.mp3",
-          "sha256": "1a87d547bbb32c0755c4cb8fd3571dae09662c34d931faca1b28f703873b0bd4",
+          "duration": 61.779591836734696,
+          "file": "Audio/Transport/full_quest_366-f5cf111fa804933c8ceb/1-0000.mp3",
+          "sha256": "d6606f4ca206ff544d94750879bbd74bbadae4ca1825977e9025d4937ad3bc32",
           "start": 0
         }
       ],
@@ -7660,15 +7660,15 @@
           "1"
         ]
       },
-      "fullHash": "a34878",
-      "generation": "d5a939734ec20a0d98cf",
-      "hash": "a34878",
+      "fullHash": "e9e07c",
+      "generation": "15ca7af0b9f5e2a8f91e",
+      "hash": "e9e07c",
       "source": {
-        "duration": 60.630204,
+        "duration": 61.805714,
         "file": null,
-        "sha256": "25cad471961a6bfa56a5ebcf64c67af41e741f14f34e63a250231e1a8e4997b3"
+        "sha256": "f5cf111fa804933c8cebe0df48e651c5994f6ea62b6c92875fa7b4b56338c34b"
       },
-      "text": "Return the Book. Bethor Iceshard sends an enchanted message to Gunther Arcanus on Brightwater Lake. The stolen spellbook may draw his old Kirin Tor companion toward the Forsaken. Bethor Iceshard sends a message to Gunther Arcanus through a stolen spellbook. Learning that the necromancer on Brightwater Lake is his old companion, Bethor enchants its pages. His magic leaves a mark on the tome. It shows Gunther that Bethor is active in Lordaeron and free of the Lich King's control. Before the Third War devastated Lordaeron, Bethor Iceshard, Gunther Arcanus, and Thule Ravenclaw studied together in the Kirin Tor of Dalaran and became friends. When the Lich King rose, Thule betrayed them and joined the Scourge willingly. Bethor and Gunther fell to the Plague. Bethor later broke free alongside Queen Sylvanas.\n\nBethor believed Gunther dead or enslaved. Now he learns his old friend has won his freedom too, and seeks to bring him into the Forsaken fold."
+      "text": "Return the Book. Bethor Iceshard sends an enchanted message to Gunther Arcanus on Brightwater Lake. The stolen spellbook may draw his old Kirin Tor companion toward the Forsaken. The spellbook you took from Gunther Arcanus goes back to him, but it is no longer plain. Learning that the necromancer on Brightwater Lake is his old companion, Bethor enchants its pages. His magic leaves a mark on the tome. It shows Gunther that Bethor is active in Lordaeron and free of the Lich King's control. Before the Third War devastated Lordaeron, Bethor Iceshard, Gunther Arcanus, and Thule Ravenclaw studied together in the Kirin Tor of Dalaran and became friends. When the Lich King rose, Thule betrayed them and joined the Scourge willingly. Bethor and Gunther fell to the Plague. Bethor later broke free alongside Queen Sylvanas.\n\nBethor believed Gunther dead or enslaved. Now he learns his old friend has won his freedom too, and seeks to bring him into the Forsaken fold."
     },
     "quest:367": {
       "1": [
@@ -9597,9 +9597,9 @@
     "quest:446": {
       "1": [
         {
-          "duration": 40.881632653061224,
-          "file": "Audio/Transport/full_quest_446-5b96a88dced875521884/1-0000.mp3",
-          "sha256": "d96769fb935d673f8539369073991eb1943ece97b239d7fb209a0af5ec9187aa",
+          "duration": 38.87020408163266,
+          "file": "Audio/Transport/full_quest_446-958b91b7333189ed14b0/1-0000.mp3",
+          "sha256": "954c5a263dd92d651fd29b2a2414e346eb7bbbdbce99299d5271b537ef5cf173",
           "start": 0
         }
       ],
@@ -9610,15 +9610,15 @@
           "1"
         ]
       },
-      "fullHash": "0b1cf8",
-      "generation": "0097d78cac8c70d37ac0",
-      "hash": "0b1cf8",
+      "fullHash": "267a4e",
+      "generation": "6d26988ea008f51757e5",
+      "hash": "267a4e",
       "source": {
-        "duration": 40.881633,
+        "duration": 38.896327,
         "file": null,
-        "sha256": "5b96a88dced875521884b234c69b172183da8d10f7e91e29ea937e446f383483"
+        "sha256": "958b91b7333189ed14b00930ead68b6d396040c9cc5a6711a55b770b1a1b48eb"
       },
-      "text": "Thule Ravenclaw. At the Undercity, a courier brings Bethor Iceshard strange Rot Hide ichor. Bethor recognizes the work of Thule Ravenclaw, his traitorous former colleague, and prepares counter-incantations to help the Forsaken resist the gnolls. In the Undercity’s Magic Quarter, Bethor Iceshard recognizes an arcane mark in a courier’s sample of Rot Hide ichor. Thule Ravenclaw made the distillation. Before the Third War, Thule was a bright young mage and Bethor’s colleague. When the Lich King rose to power, Thule betrayed his peers and swore himself to the Scourge. As Lordaeron fell, he abandoned his humanity."
+      "text": "Thule Ravenclaw. At the Undercity, a courier brings Bethor Iceshard strange Rot Hide ichor. Bethor recognizes the work of Thule Ravenclaw, his traitorous former colleague, and prepares counter-incantations to help the Forsaken resist the gnolls. Bethor Iceshard studies the courier’s sample in the Undercity’s Magic Quarter and finds an arcane mark. Thule Ravenclaw made the distillation. Before the Third War, Thule was a bright young mage and Bethor’s colleague. When the Lich King rose to power, Thule betrayed his peers and swore himself to the Scourge. As Lordaeron fell, he abandoned his humanity."
     },
     "quest:447": {
       "1": [
@@ -10533,9 +10533,9 @@
     "quest:477": {
       "1": [
         {
-          "duration": 60.630204081632655,
-          "file": "Audio/Transport/full_quest_477-1b86174b1e5dcf702442/1-0000.mp3",
-          "sha256": "29dbbe8f5c84e37d8b0e98a614ddf8966dd179691d7d6b46fd0fe9d83d27df82",
+          "duration": 58.04408163265306,
+          "file": "Audio/Transport/full_quest_477-83d0c29ad7113ff9bd16/1-0000.mp3",
+          "sha256": "cf6ee2026bf79f53e5319f4a780788da9b7c31694fa00e32d5e95cfc67b9b6a2",
           "start": 0
         }
       ],
@@ -10547,21 +10547,21 @@
         ]
       },
       "fullHash": "2346b1",
-      "generation": "ba3cd80102589251181f",
+      "generation": "98954bdaa0107d76036a",
       "hash": "2346b1",
       "source": {
-        "duration": 60.656327,
+        "duration": 58.070204,
         "file": null,
-        "sha256": "1b86174b1e5dcf70244253b95cc77f75e723e9b45e96362874af0809fcea1533"
+        "sha256": "83d0c29ad7113ff9bd16066ca0ffe275e02e49cd17806749ba87ff86b5c667d5"
       },
       "text": "Border Crossings. At the Sepulcher, Shadow Priest Allister sends you after Dalaran's supplies and the reason the Kirin Tor support Ambermill. Their crates pass through Silverpine Forest on the way to a Dalaran camp near Pyrewood Village. Wagons bring Dalaran's supplies and arcane goods from the Hillsbrad Foothills through Silverpine Forest. They serve the outposts and staging grounds along the way. Just north of Pyrewood Village, a camp holds Dalaran personnel who watch the road. Ambermill is the main human stronghold still standing in eastern Silverpine, and Dalaran continues to support it. Shadow Priest Allister and the Forsaken leaders at the Sepulcher want to know why Dalaran gives Ambermill so much support. They suspect the Kirin Tor would not risk lives and supplies deep in Forsaken territory for a provincial town alone. Some greater strategic or magical purpose may be behind it. Intercepting the crates could show the Forsaken what Dalaran is sending west."
     },
     "quest:478": {
       "1": [
         {
-          "duration": 29.1265306122449,
-          "file": "Audio/Transport/full_quest_478-8a9e182234c72d23f4c4/1-0000.mp3",
-          "sha256": "3f427fb53202446e10252b5c593bc3aec085e6bae7f21a1a299387cdb6bdecb1",
+          "duration": 28.316734693877553,
+          "file": "Audio/Transport/full_quest_478-6c99df203f0fe0a45e79/1-0000.mp3",
+          "sha256": "8aa6390b0c43d356527a35d8fdb9aab982caa3630119be3d7fbb3995d5bc2c54",
           "start": 0
         }
       ],
@@ -10573,12 +10573,12 @@
         ]
       },
       "fullHash": "ffea80",
-      "generation": "b05eb4e69b559166dbea",
+      "generation": "c905bf84292342b23a3d",
       "hash": "ffea80",
       "source": {
-        "duration": 29.126531,
+        "duration": 28.342857,
         "file": null,
-        "sha256": "8a9e182234c72d23f4c4defc2a9842eab392757d9d8a8b0e7908f43265c0d7da"
+        "sha256": "6c99df203f0fe0a45e7978f3015ddcf299056ae37b7e05ae883cfb921cfb209e"
       },
       "text": "Maps and Runes. In Silverpine, maps and runes reveal Dalaran's interest in Ambermill. Horde agents recover a hidden crate for Shadow Priest Allister at the Sepulcher. Horde agents find a Dalaran crate hidden along the border routes near Ambermill. Detailed regional charts and a rune-inscribed pendant lie inside. Human sentries stand nearby, so the scouts retrieve the artifact carefully. Dalaran's arcane reach lies close to their borders."
     },
@@ -10715,9 +10715,9 @@
     "quest:482": {
       "1": [
         {
-          "duration": 73.74367346938776,
-          "file": "Audio/Transport/full_quest_482-e5e758376ca75ea8fbac/1-0000.mp3",
-          "sha256": "6433ae92f6233f60168a23d7ba3b4a8cacbd1cfefcb98def05d09c2fc0597601",
+          "duration": 73.87428571428572,
+          "file": "Audio/Transport/full_quest_482-1c2d2ba22df6c5967a44/1-0000.mp3",
+          "sha256": "33672d6bf81f16fd5607346f8acc818e1836aba0aef68e3f3675ad5326dbcae1",
           "start": 0
         }
       ],
@@ -10729,12 +10729,12 @@
         ]
       },
       "fullHash": "766f4f",
-      "generation": "403d605fd41a2bdb6485",
+      "generation": "17c2c52eb065ab48b4e1",
       "hash": "766f4f",
       "source": {
-        "duration": 73.769796,
+        "duration": 73.900408,
         "file": null,
-        "sha256": "e5e758376ca75ea8fbac166ccb8d3a3e16463034e20651c0d23aac79709acdb2"
+        "sha256": "1c2d2ba22df6c5967a44afb876d0503ab3ece100c465662664ed57dfdedfa80d"
       },
       "text": "Dalaran's Intentions. In Silverpine Forest, Dalar Dawnweaver sends Shadow Priest Allister a warning. A pendant bound for the Kirin Tor in Ambermill reveals their plan to awaken a dormant ley energy node beneath the town. At the Sepulcher, the Forsaken prepare to answer. Dalar Dawnweaver studies a rune-inscribed pendant from a Dalaran supply crate. It recalls an old Kirin Tor survey of Ambermill. The quiet village was chosen for a reason: it sits atop a dormant ley energy node. Dalar realizes the wizards intend to tap its power.\n\nAwakening such a nexus takes immense magical reserves. The enchanted pendants the wizards wear are key to channeling and catalyzing that power. The Forsaken cannot abide a fortified Kirin Tor outpost fueled by ley energy. It would threaten the southern approaches to the Sepulcher and Tirisfal Glades. Whatever ritual the magi prepare, raw ley energy would give Dalaran an enormous strategic advantage in Lordaeron.\n\nSo Dalar urgently sends word to Shadow Priest Allister. He asks Allister to devise a way to stall the wizards before their ritual is complete."
     },
@@ -22158,14 +22158,6 @@
       1538,
       1774
     ],
-    "00510940f870bb674f84a04e864c995ee79eb7a35e687bd8f0075fcd23165836": [
-      197,
-      424,
-      615,
-      1117,
-      1326,
-      1486
-    ],
     "0065fbe57691e9cfa073fed9887894d3f687384b01ae32b508386e99ce98e4c5": [
       217,
       384,
@@ -22871,6 +22863,15 @@
       375,
       629
     ],
+    "14082a4c7683e201b4b9dc831d8d477cf29356a266bd40493c3a7e001cb839e9": [
+      197,
+      436,
+      624,
+      931,
+      1158,
+      1372,
+      1542
+    ],
     "14182ee2bc476bd59768c9564af8d942c66693a36916de8c1ce614e9375abe2d": [
       229,
       440,
@@ -23155,16 +23156,6 @@
       1325,
       1575,
       1733
-    ],
-    "1a87d547bbb32c0755c4cb8fd3571dae09662c34d931faca1b28f703873b0bd4": [
-      214,
-      416,
-      609,
-      843,
-      1153,
-      1558,
-      1728,
-      1957
     ],
     "1af31d525381a5cf8ffe86737737e37e77f83e0839a1d4296a95e3ae22cd5f48": [
       537,
@@ -23698,10 +23689,6 @@
       1348,
       1545
     ],
-    "291f969074970bab7e892eea661ba10af854e3b7db6524c22da244c7ba1813f7": [
-      450,
-      679
-    ],
     "29395608c8b3d9d7f7e1225afded6b2485fa559b832b3d579e0c3e148ae109a6": [
       517
     ],
@@ -23736,16 +23723,6 @@
       971,
       1216,
       1373
-    ],
-    "29dbbe8f5c84e37d8b0e98a614ddf8966dd179691d7d6b46fd0fe9d83d27df82": [
-      323,
-      572,
-      825,
-      1152,
-      1429,
-      1729,
-      1998,
-      2137
     ],
     "2a825cca5e3847feebbdd9bc5bffb9aff3d3aba45a0cd23b4519e1f68f6cc07b": [
       233,
@@ -23790,6 +23767,12 @@
     "2c43ada2c59a2826d3880d1b2c6c221efd19126541f7e2dce46d20d189ad2774": [
       661,
       1062
+    ],
+    "2c64242bed25cfecd1232956b79cdb876ecba9939449b87df380f74d990aee41": [
+      438,
+      635,
+      890,
+      1083
     ],
     "2c886aa28750a16b44890c4f59074283ae06752b4279c80979ed9a46e5bcac45": [
       287,
@@ -24028,13 +24011,6 @@
       1567,
       1752
     ],
-    "3284bd3b7eb4face5fd2333c1f2ebac3bf7a8797c278f06cc62b8067c246ac60": [
-      223,
-      435,
-      569,
-      844,
-      1022
-    ],
     "32f292c5bea17fe0fe84c3d6c8e9ec73725ba735247d36c302818555d417a0e9": [
       237,
       546,
@@ -24055,6 +24031,20 @@
       1448,
       1671,
       1893
+    ],
+    "33672d6bf81f16fd5607346f8acc818e1836aba0aef68e3f3675ad5326dbcae1": [
+      236,
+      517,
+      656,
+      861,
+      1202,
+      1356,
+      1515,
+      1734,
+      1966,
+      2157,
+      2466,
+      2626
     ],
     "33bab7013789007d333c7a0ada3626e8c461811aca2b1a93e7a7fa92ad5c3e45": [
       256,
@@ -24415,13 +24405,6 @@
       701,
       851,
       1055
-    ],
-    "3f427fb53202446e10252b5c593bc3aec085e6bae7f21a1a299387cdb6bdecb1": [
-      192,
-      383,
-      589,
-      773,
-      961
     ],
     "3f64ead153b0b5d5d7dcbc8c32148337e10aac20681eb3abe892879e0298f463": [
       193,
@@ -25690,21 +25673,6 @@
     "6382da3af812eb91f9d14ff9690a624467b6d651acd3422c15c01da709a3fa57": [
       530
     ],
-    "6433ae92f6233f60168a23d7ba3b4a8cacbd1cfefcb98def05d09c2fc0597601": [
-      225,
-      520,
-      666,
-      880,
-      1037,
-      1247,
-      1404,
-      1567,
-      1788,
-      1993,
-      2151,
-      2443,
-      2605
-    ],
     "6472252fcfdfe477d678e1fdb1fcfc5571fc27d126974a4eafb8c598f0817192": [
       438,
       822
@@ -26421,6 +26389,14 @@
       1240,
       1585
     ],
+    "7a1389e02e4e8709ceb98d2a6c308b7876b4fcf1286516a624ab29446874c3fd": [
+      248,
+      488,
+      776,
+      1136,
+      1360,
+      1578
+    ],
     "7a20ea2404caeabd6107eec2142746646ee41c4eae9e92f8009a9ffa993c25b7": [
       212,
       530,
@@ -26853,16 +26829,6 @@
       559,
       1158
     ],
-    "861887d167fa7657f240fb22021a6d727983eebd2f0fa0de55943d32e6b2945e": [
-      219,
-      565,
-      786,
-      1100,
-      1323,
-      1558,
-      1694,
-      2058
-    ],
     "865032f77839f0c5c3497a2d2040b4b8e4608ae6382a9f350d320988cf451920": [
       212,
       432,
@@ -26953,6 +26919,12 @@
       1506,
       1648,
       1883
+    ],
+    "8aa6390b0c43d356527a35d8fdb9aab982caa3630119be3d7fbb3995d5bc2c54": [
+      206,
+      407,
+      593,
+      763
     ],
     "8ac1a19473b648f5f4f5ee9a2cd92843a32322b34bc87a8b0e8e9150c2f86b89": [
       221,
@@ -27104,13 +27076,6 @@
       785,
       1010
     ],
-    "8e88f7c29946848a98655cac504334638887393d54e88695091a877ab82e9e8d": [
-      263,
-      519,
-      1157,
-      1358,
-      1549
-    ],
     "8e9623de8501b75f5f8c5eb8cf05c948b8d0b4a44ec65c6ebb804086d5c47205": [
       224,
       401,
@@ -27151,6 +27116,13 @@
       1056,
       1270,
       1470
+    ],
+    "90a5d67e655264c2c4989c862a650121f7977c2c7911c23cd2b98c1046871459": [
+      231,
+      437,
+      834,
+      1018,
+      1226
     ],
     "90d74e5be212dad2bbd2905d5f7f112ca16ad4c45749deb59508736e1757da0c": [
       222,
@@ -27290,6 +27262,12 @@
     "9539cf22f4ac5d17170f0424f7903dacdcc1291617755e771bc903a385f48ee7": [
       298,
       1096
+    ],
+    "954c5a263dd92d651fd29b2a2414e346eb7bbbdbce99299d5271b537ef5cf173": [
+      245,
+      632,
+      889,
+      1152
     ],
     "95978278bd05aa3c4bca8cf7e7f4cb6485fb55ff7665a996e5403e96c981e3f9": [
       268,
@@ -27563,6 +27541,16 @@
     "9b51debba831b77db56eb077ebd6a7694d61fabde753043c0abf705a6d691e6f": [
       1137
     ],
+    "9b58f65810c65c158fb1a5cb176716f92f7c5181451875a34e14fc2bd8640053": [
+      216,
+      553,
+      787,
+      1119,
+      1356,
+      1610,
+      1750,
+      2120
+    ],
     "9ba21fc9bd780fad7589f344b1c977317f9dde4696fb64c20364a4aed032f98d": [
       271,
       528,
@@ -27766,14 +27754,6 @@
       759,
       922,
       1170
-    ],
-    "a131dd96ae61d8fc9fa7d45f98a090ab3f0adbd8d7c6e545fbd75c16ecc9f865": [
-      211,
-      349,
-      485,
-      685,
-      948,
-      1155
     ],
     "a1cf03538c6ebe75f1e5905ba5d75837fdd9cb507196ac5e6f73eef29c0184d4": [
       180,
@@ -29087,6 +29067,10 @@
       1341,
       1520
     ],
+    "cc1d67b21324f9fb6110708ac5a428d497b94035382ad3f7b33a0bb31bac8ebe": [
+      458,
+      608
+    ],
     "cc2f10a6b7def87bc5dd7bf6c26697f3574837ffc623e77420434724868388ae": [
       230,
       393,
@@ -29227,6 +29211,24 @@
       1201,
       1445,
       1591
+    ],
+    "cf6ee2026bf79f53e5319f4a780788da9b7c31694fa00e32d5e95cfc67b9b6a2": [
+      301,
+      524,
+      777,
+      1103,
+      1364,
+      1651,
+      1920,
+      2061
+    ],
+    "cf93b6d9f3a94db4db003fc18a27d67e2a2ed17780058175d6f15f6c808adec0": [
+      181,
+      397,
+      821,
+      978,
+      1144,
+      1398
     ],
     "d00fcac853d809b3ea69e90ff54fac6602ab560752f25cea5a91281c8debed12": [
       243,
@@ -29448,6 +29450,17 @@
       464,
       1156
     ],
+    "d6606f4ca206ff544d94750879bbd74bbadae4ca1825977e9025d4937ad3bc32": [
+      216,
+      418,
+      623,
+      785,
+      970,
+      1172,
+      1567,
+      1740,
+      1981
+    ],
     "d6838ec0f0dc9bd13a0323c7e9a00cba21a3a562a8fe65d3e8e103eeffb705e4": [
       396,
       619,
@@ -29520,12 +29533,6 @@
       1400,
       1783,
       1982
-    ],
-    "d96769fb935d673f8539369073991eb1943ece97b239d7fb209a0af5ec9187aa": [
-      222,
-      616,
-      937,
-      1223
     ],
     "d975daeb6f70f9c6b930737b8dd135f6d9f68804caab25bd72d5001d0583c8b4": [
       265,
@@ -30008,14 +30015,6 @@
       573,
       924,
       1078
-    ],
-    "e98e6739bbf185dcee51e78c98262d34bccc5b5321f425c9c02366d8f2759d22": [
-      238,
-      487,
-      739,
-      960,
-      1102,
-      1525
     ],
     "e98edcef62710df18cc6f2b74523f1519bd9790f3a3c1f29f42d1f3dbe188d15": [
       401
@@ -30533,14 +30532,6 @@
       1254,
       1412
     ],
-    "f743b33b30eb589c9633072a8f80562d3c0355457fc9bfc7b1bcb3e0ddeab417": [
-      182,
-      425,
-      864,
-      1055,
-      1231,
-      1499
-    ],
     "f7480acf57aa61e512caabddf08f41fb507bfb644427a2722a9b971a1a0bcaeb": [
       323,
       567,
@@ -30615,6 +30606,13 @@
     ],
     "fa105a3281dc215efe3073a234511a5717e762292927f412056f8d85a7a34237": [
       1105
+    ],
+    "fa12202a905407673dc67ee9bf692142e69daf3c86ce404c0e487022ba980a48": [
+      245,
+      489,
+      749,
+      982,
+      1130
     ],
     "fa691d5ed7aa7cce8f11a1944ea4bf965908f6d89d7a3599435dd8802179b458": [
       210,
@@ -30863,10 +30861,6 @@
     "00491362fa51505d1ea1cfb8342ddc04fc8bf32cf6a32c96dae0d0d32f53c919": {
       "1285": 2,
       "393": 1
-    },
-    "00510940f870bb674f84a04e864c995ee79eb7a35e687bd8f0075fcd23165836": {
-      "1117": 2,
-      "424": 1
     },
     "0065fbe57691e9cfa073fed9887894d3f687384b01ae32b508386e99ce98e4c5": {
       "1342": 2,
@@ -31130,6 +31124,10 @@
       "1519": 2,
       "524": 1
     },
+    "14082a4c7683e201b4b9dc831d8d477cf29356a266bd40493c3a7e001cb839e9": {
+      "1158": 2,
+      "436": 1
+    },
     "14182ee2bc476bd59768c9564af8d942c66693a36916de8c1ce614e9375abe2d": {
       "1011": 2,
       "440": 1
@@ -31230,10 +31228,6 @@
     "1a311c7212eff58d17100532460e0eb75833c1c62d9265fbb53af6605761d12e": {
       "1325": 2,
       "734": 1
-    },
-    "1a87d547bbb32c0755c4cb8fd3571dae09662c34d931faca1b28f703873b0bd4": {
-      "1153": 2,
-      "416": 1
     },
     "1afaae76935093fc3fd8235ab68bdb8c3eccb1b74cd21d182c94fb5603855907": {
       "1503": 2,
@@ -31427,9 +31421,6 @@
       "1152": 2,
       "420": 1
     },
-    "291f969074970bab7e892eea661ba10af854e3b7db6524c22da244c7ba1813f7": {
-      "450": 1
-    },
     "29491d766d9d870599c418b4783c1b2954d09666ad252d1bf78f6eeab9aa5a9c": {
       "1136": 2,
       "490": 1
@@ -31442,10 +31433,6 @@
       "372": 1,
       "971": 2
     },
-    "29dbbe8f5c84e37d8b0e98a614ddf8966dd179691d7d6b46fd0fe9d83d27df82": {
-      "1429": 2,
-      "572": 1
-    },
     "2a825cca5e3847feebbdd9bc5bffb9aff3d3aba45a0cd23b4519e1f68f6cc07b": {
       "1254": 2,
       "551": 1
@@ -31457,6 +31444,10 @@
     "2c0160d36eac80ea4b498320374e8d60f740d7da1a54d6f3d6b45562e002c80d": {
       "1236": 2,
       "462": 1
+    },
+    "2c64242bed25cfecd1232956b79cdb876ecba9939449b87df380f74d990aee41": {
+      "438": 1,
+      "890": 2
     },
     "2c886aa28750a16b44890c4f59074283ae06752b4279c80979ed9a46e5bcac45": {
       "506": 1
@@ -31544,10 +31535,6 @@
       "1320": 2,
       "603": 1
     },
-    "3284bd3b7eb4face5fd2333c1f2ebac3bf7a8797c278f06cc62b8067c246ac60": {
-      "435": 1,
-      "844": 2
-    },
     "32f292c5bea17fe0fe84c3d6c8e9ec73725ba735247d36c302818555d417a0e9": {
       "1257": 2,
       "546": 1
@@ -31555,6 +31542,10 @@
     "33214a73c35ce886cc251c34219bda65df0d1a0671b9a4d77373eb4e0154cd86": {
       "1312": 2,
       "631": 1
+    },
+    "33672d6bf81f16fd5607346f8acc818e1836aba0aef68e3f3675ad5326dbcae1": {
+      "1734": 2,
+      "656": 1
     },
     "33bab7013789007d333c7a0ada3626e8c461811aca2b1a93e7a7fa92ad5c3e45": {
       "1279": 2,
@@ -31687,9 +31678,6 @@
     "3f2fca838035ee8c1fa153fb256e9520226885cb4e0d802300a149923fedfd57": {
       "1055": 2,
       "431": 1
-    },
-    "3f427fb53202446e10252b5c593bc3aec085e6bae7f21a1a299387cdb6bdecb1": {
-      "383": 1
     },
     "3f64ead153b0b5d5d7dcbc8c32148337e10aac20681eb3abe892879e0298f463": {
       "470": 1
@@ -32162,10 +32150,6 @@
       "1203": 2,
       "376": 1
     },
-    "6433ae92f6233f60168a23d7ba3b4a8cacbd1cfefcb98def05d09c2fc0597601": {
-      "1788": 2,
-      "666": 1
-    },
     "647585e936ae92fcae554b6f06eac36161d9d30faa4f91b0f80dafc629dfc538": {
       "1136": 2,
       "457": 1
@@ -32453,6 +32437,10 @@
       "1100": 2,
       "519": 1
     },
+    "7a1389e02e4e8709ceb98d2a6c308b7876b4fcf1286516a624ab29446874c3fd": {
+      "1136": 2,
+      "488": 1
+    },
     "7a20ea2404caeabd6107eec2142746646ee41c4eae9e92f8009a9ffa993c25b7": {
       "1637": 2,
       "530": 1
@@ -32617,10 +32605,6 @@
       "1637": 2,
       "665": 1
     },
-    "861887d167fa7657f240fb22021a6d727983eebd2f0fa0de55943d32e6b2945e": {
-      "1323": 2,
-      "565": 1
-    },
     "865032f77839f0c5c3497a2d2040b4b8e4608ae6382a9f350d320988cf451920": {
       "432": 1
     },
@@ -32659,6 +32643,9 @@
     "8a8af8eacaa565c909d69412113874b4e9a913a4956ce94f385b8ac01918af8d": {
       "1352": 2,
       "453": 1
+    },
+    "8aa6390b0c43d356527a35d8fdb9aab982caa3630119be3d7fbb3995d5bc2c54": {
+      "407": 1
     },
     "8ac1a19473b648f5f4f5ee9a2cd92843a32322b34bc87a8b0e8e9150c2f86b89": {
       "467": 1
@@ -32718,10 +32705,6 @@
     "8e82fb19dc5be3f670f4ca445355eeb1c7bc8e3fc21b14311376a74f9858a268": {
       "541": 1
     },
-    "8e88f7c29946848a98655cac504334638887393d54e88695091a877ab82e9e8d": {
-      "1157": 2,
-      "519": 1
-    },
     "8e9623de8501b75f5f8c5eb8cf05c948b8d0b4a44ec65c6ebb804086d5c47205": {
       "1104": 2,
       "401": 1
@@ -32733,6 +32716,10 @@
     "908c019bb8599ea31dc14e63c6f5b42be21ad671c1b7567054016ae710a09221": {
       "1056": 2,
       "474": 1
+    },
+    "90a5d67e655264c2c4989c862a650121f7977c2c7911c23cd2b98c1046871459": {
+      "437": 1,
+      "834": 2
     },
     "90d74e5be212dad2bbd2905d5f7f112ca16ad4c45749deb59508736e1757da0c": {
       "1224": 2,
@@ -32784,6 +32771,9 @@
     "950ab0166883acce0d6784ae0fa6eb996cc4ab919f2d0d54de619026fa4c7c6a": {
       "1932": 2,
       "789": 1
+    },
+    "954c5a263dd92d651fd29b2a2414e346eb7bbbdbce99299d5271b537ef5cf173": {
+      "632": 1
     },
     "95978278bd05aa3c4bca8cf7e7f4cb6485fb55ff7665a996e5403e96c981e3f9": {
       "1253": 2,
@@ -32883,6 +32873,10 @@
       "1316": 2,
       "539": 1
     },
+    "9b58f65810c65c158fb1a5cb176716f92f7c5181451875a34e14fc2bd8640053": {
+      "1356": 2,
+      "553": 1
+    },
     "9ba21fc9bd780fad7589f344b1c977317f9dde4696fb64c20364a4aed032f98d": {
       "1483": 2,
       "528": 1
@@ -32958,10 +32952,6 @@
     "a0eb2ea4627b0fe1537ed732d51fdac710923e140c808e8b24e0952d67b05ebb": {
       "446": 1,
       "922": 2
-    },
-    "a131dd96ae61d8fc9fa7d45f98a090ab3f0adbd8d7c6e545fbd75c16ecc9f865": {
-      "485": 1,
-      "948": 2
     },
     "a1cf03538c6ebe75f1e5905ba5d75837fdd9cb507196ac5e6f73eef29c0184d4": {
       "394": 1
@@ -33472,6 +33462,9 @@
       "314": 1,
       "896": 2
     },
+    "cc1d67b21324f9fb6110708ac5a428d497b94035382ad3f7b33a0bb31bac8ebe": {
+      "458": 1
+    },
     "cc2f10a6b7def87bc5dd7bf6c26697f3574837ffc623e77420434724868388ae": {
       "393": 1,
       "946": 2
@@ -33529,6 +33522,14 @@
     "cf513141e463c21b0e927a3fef231acaf014e99ad1bc4ec08876f9b426a79823": {
       "1201": 2,
       "466": 1
+    },
+    "cf6ee2026bf79f53e5319f4a780788da9b7c31694fa00e32d5e95cfc67b9b6a2": {
+      "1364": 2,
+      "524": 1
+    },
+    "cf93b6d9f3a94db4db003fc18a27d67e2a2ed17780058175d6f15f6c808adec0": {
+      "397": 1,
+      "978": 2
     },
     "d00fcac853d809b3ea69e90ff54fac6602ab560752f25cea5a91281c8debed12": {
       "1262": 2,
@@ -33609,6 +33610,10 @@
       "1356": 2,
       "594": 1
     },
+    "d6606f4ca206ff544d94750879bbd74bbadae4ca1825977e9025d4937ad3bc32": {
+      "1172": 2,
+      "418": 1
+    },
     "d6838ec0f0dc9bd13a0323c7e9a00cba21a3a562a8fe65d3e8e103eeffb705e4": {
       "396": 1,
       "968": 2
@@ -33638,9 +33643,6 @@
     "d95ab39fc97f59a5cd1f8871d586fc7d093e47e0d801828d6d430b782d3bed92": {
       "1400": 2,
       "479": 1
-    },
-    "d96769fb935d673f8539369073991eb1943ece97b239d7fb209a0af5ec9187aa": {
-      "616": 1
     },
     "d975daeb6f70f9c6b930737b8dd135f6d9f68804caab25bd72d5001d0583c8b4": {
       "512": 1
@@ -33818,10 +33820,6 @@
     "e952f0be1023a50df5f6131120f8270218fa997bb5530d09acc423ef7d70f6ab": {
       "408": 1,
       "924": 2
-    },
-    "e98e6739bbf185dcee51e78c98262d34bccc5b5321f425c9c02366d8f2759d22": {
-      "1102": 2,
-      "487": 1
     },
     "e9ab9e9d07ebf432450fc5be89a36406472f2a6b7ec361c41cc56fdda2cfe2dd": {
       "1089": 2,
@@ -34019,10 +34017,6 @@
       "1076": 2,
       "359": 1
     },
-    "f743b33b30eb589c9633072a8f80562d3c0355457fc9bfc7b1bcb3e0ddeab417": {
-      "1055": 2,
-      "425": 1
-    },
     "f7480acf57aa61e512caabddf08f41fb507bfb644427a2722a9b971a1a0bcaeb": {
       "1383": 2,
       "567": 1
@@ -34054,6 +34048,10 @@
     "f97e9c7916d84222a8eef5ae32e0699cd792648e2d5f9c161456a5e4878c3fb2": {
       "1314": 2,
       "485": 1
+    },
+    "fa12202a905407673dc67ee9bf692142e69daf3c86ce404c0e487022ba980a48": {
+      "1130": 2,
+      "489": 1
     },
     "fa691d5ed7aa7cce8f11a1944ea4bf965908f6d89d7a3599435dd8802179b458": {
       "1226": 2,

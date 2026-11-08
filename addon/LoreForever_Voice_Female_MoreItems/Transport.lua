@@ -70,7 +70,7 @@ P.transport["item:a-stack-of-letters"] = {
   fullHash = "bc24e5",
   text = "A Stack of Letters. In Coldridge Valley, a stack of letters has come through the mountain pass for scouts in the snowy wilderness. Letters for Coldridge Valley come from Anvilmar by way of travelers crossing the pass. The road to the remote camps in Dun Morogh's mountains is hard, so postal runners rely on travelers to carry each bundle onward. This one is bound for scouts deeper in Coldridge Valley.\n\nUntil the letters are sorted, Talin Keeneye at his lakeside camp is thought to be the only recipient. Among them is a missive for Grelin Whitebeard, a mountaineer.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_a-stack-of-letters-da32850826156348a348/1-0000.mp3", duration = 34.037551, start = 0},
+    {file = "Audio/Transport/full_item_a-stack-of-letters-f853fd318f0999e7fc00/1-0000.mp3", duration = 34.037551, start = 0},
   },
 }
 P.transport["item:a-torn-journal-page"] = {
@@ -310,7 +310,7 @@ P.transport["item:barrel-of-barleybrew-scalder"] = {
   fullHash = "208b03",
   text = "Barrel of Barleybrew Scalder. At Kharanos, Marleth Barleybrew sends a cask of Scalder toward the Thunderbrew Distillery. He means to prove his brewing can rival the Thunderbrews, his chief competitors. The Thunderbrews and Barleybrews contend fiercely over brewing in Dun Morogh. The Thunderbrews are renowned for their busy distillery in Kharanos. Marleth Barleybrew will not live in their shadow. So he brews fiery Scalder to show his recipes can rival theirs. He hopes those who taste it will see the Thunderbrews do not own the art of fine dwarven drink.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_barrel-of-barleybrew-scalder-ec0c5bfe4b0a05f02cf2/1-0000.mp3", duration = 32.9404082, start = 0},
+    {file = "Audio/Transport/full_item_barrel-of-barleybrew-scalder-ff9e8da29244e48413be/1-0000.mp3", duration = 32.4179592, start = 0},
   },
 }
 P.transport["item:barrel-of-shimmer-stout"] = {
@@ -402,11 +402,11 @@ P.transport["item:besseleth-s-fang"] = {
   },
 }
 P.transport["item:bethor-s-scroll"] = {
-  hash = "e85ea3",
-  fullHash = "e85ea3",
-  text = "Bethor's Scroll. At the Sepulcher, Bethor Iceshard writes counter-incantations for Apothecary Renferrel. The scroll may help him brew a protective draught against Thule Ravenclaw's dark sorcery on Fenris Isle.",
+  hash = "8f21bd",
+  fullHash = "8f21bd",
+  text = "Bethor's Scroll. Bethor Iceshard writes counter-incantations for Apothecary Renferrel at the Sepulcher. The scroll may help him brew a protective draught against Thule Ravenclaw's dark sorcery on Fenris Isle.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_bethor-s-scroll-cbf5d8de1c8c457968c5/1-0000.mp3", duration = 12.5126531, start = 0},
+    {file = "Audio/Transport/full_item_bethor-s-scroll-f0f20219b22e0b3d4157/1-0000.mp3", duration = 12.5126531, start = 0},
   },
 }
 P.transport["item:bingles-blastencapper"] = {
@@ -1542,7 +1542,7 @@ P.transport["item:encrypted-rune"] = {
   fullHash = "ce41e3",
   text = "Encrypted Rune. In Coldridge Valley, the Encrypted Rune calls promising new rogues to Anvilmar. Its message bids them decipher the words and seek out Solm Hargrin. A new rogue must read thieves' cant to understand the rune. In doing so, they meet the shadowy craft needed to survive Dun Morogh's harsh wilderness. Its ciphers bear a private summons from Solm Hargrin, the rogue mentor in Anvilmar, for those who show promise in stealth and cunning. Deciphering the rune leads new rogues to Solm Hargrin inside Anvilmar. He hopes to strengthen the valley's covert ranks as local tensions rise. Solm teaches bladecraft and stealth, but also vigilance and camaraderie. With peace strained, rogues need to stand together.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_encrypted-rune-266e6a929ec52031ad65/1-0000.mp3", duration = 46.2889796, start = 0},
+    {file = "Audio/Transport/full_item_encrypted-rune-d4358623d91b4ed9b0f1/1-0000.mp3", duration = 45.3485714, start = 0},
   },
 }
 P.transport["item:encrypted-scroll"] = {
@@ -1606,7 +1606,7 @@ P.transport["item:etched-rune"] = {
   fullHash = "da328d",
   text = "Etched Rune. In Coldridge Valley, the Etched Rune calls promising dwarven hunters to Anvilmar. Hunter trainer Thorgas Grimson sends it to begin their instruction in the wilderness. Dwarven runes mark the Etched Rune, sent to novices who show promise in Coldridge Valley’s snowdrifts. Mountaineer and hunter trainer Thorgas Grimson calls fledgling trackers to Anvilmar. There, they move beyond basic survival and learn the hunter’s craft: respect for Dun Morogh’s beasts, tracking mountain predators, care for ranged weapons, and endurance in the harsh elements.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_etched-rune-87a0f4330634ebf2dc36/1-0000.mp3", duration = 33.4628571, start = 0},
+    {file = "Audio/Transport/full_item_etched-rune-0d76a4e65bfec03dc2a8/1-0000.mp3", duration = 33.4628571, start = 0},
   },
 }
 P.transport["item:etched-sigil"] = {
@@ -1654,7 +1654,7 @@ P.transport["item:fang-of-vagash"] = {
   fullHash = "e255d3",
   text = "Fang of Vagash. In Dun Morogh, Vagash stalks the rams above Amberstill Ranch. His fang proves the deadly predator has been slain. Above Amberstill Ranch, Vagash hunts the rams under cover of darkness. The high crags shelter fierce predators, but none has troubled the local ranches as much as he has. Ironforge’s troops are stretched thin, so the herdsmen go without the city guard’s protection. His severed fang gives the breeders proof that Vagash is dead and their pasturelands are safe again.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_fang-of-vagash-b7d141284475b3f330f4/1-0000.mp3", duration = 30.8767347, start = 0},
+    {file = "Audio/Transport/full_item_fang-of-vagash-ebcd8b6ce489bc847a75/1-0000.mp3", duration = 29.7273469, start = 0},
   },
 }
 P.transport["item:fangore-s-paw"] = {
@@ -1710,7 +1710,7 @@ P.transport["item:felix-s-box"] = {
   fullHash = "da3d3e",
   text = "Felix's Box. In Frostmane camps southwest of Anvilmar, Felix's Box lies far from the gnome refugee who lost it. Radiation swept through Gnomeregan during the failed attempt to purge the trogg menace. Felix Whindlebolt fled with the gnomes into Coldridge Valley, leaving his possessions and crafting gear along the snowy road to escape the fumes. Frostmane trolls plundered the goods before he could return. They carried his box, chest, and bucket of bolts to their settlements southwest of Anvilmar. Felix is unused to violence and poorly suited to Dun Morogh's wilderness. He needs passing adventurers in Anvilmar to help recover his belongings. Their return would restore some normalcy and give the displaced artisan the means to earn a living. He lost everything when Gnomeregan fell.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_felix-s-box-7d4cfdcc0873b5ee50bd/1-0000.mp3", duration = 48.64, start = 0},
+    {file = "Audio/Transport/full_item_felix-s-box-57cc9bc49a31665a42b1/1-0000.mp3", duration = 46.837551, start = 0},
   },
 }
 P.transport["item:felix-s-bucket-of-bolts"] = {
@@ -1718,7 +1718,7 @@ P.transport["item:felix-s-bucket-of-bolts"] = {
   fullHash = "c5eafb",
   text = "Felix's Bucket of Bolts. In Dun Morogh, Frostmane trolls carry Felix's Bucket of Bolts to their camps. Felix Whindlebolt is missing the tools he brought from Gnomeregan. Felix Whindlebolt fled Gnomeregan with his tools after the disaster with the troggs. Radiation drove thousands of gnomes into Dun Morogh's freezing wilds with whatever they could carry. Felix headed for Anvilmar, but Frostmane trolls from the crags southwest of town ambushed him. They seized his belongings, including his bucket of bolts and parts, leaving the artisan without the materials he needs for his craft in exile.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_felix-s-bucket-of-bolts-4eace16050429e085ac2/1-0000.mp3", duration = 34.8734694, start = 0},
+    {file = "Audio/Transport/full_item_felix-s-bucket-of-bolts-412316fbbe0eeee99a32/1-0000.mp3", duration = 35.2130612, start = 0},
   },
 }
 P.transport["item:felix-s-chest"] = {
@@ -1726,7 +1726,7 @@ P.transport["item:felix-s-chest"] = {
   fullHash = "1ef798",
   text = "Felix's Chest. In a Frostmane camp southwest of Anvilmar, Felix's Chest holds what he lost fleeing Gnomeregan. When troggs and toxic radioactive fallout drove the gnomes from Gnomeregan, refugees crossed snowy Dun Morogh carrying what they could. Frostmane trolls scavenged the roads and overtook scattered survivors. They took Felix Whindlebolt's sturdy chest to their camps in the crags, where his toolkits and personal belongings remain among their supplies.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_felix-s-chest-df758c10027982d7ff2a/1-0000.mp3", duration = 28.9436735, start = 0},
+    {file = "Audio/Transport/full_item_felix-s-chest-8eec74605c372c7164e1/1-0000.mp3", duration = 28.5518367, start = 0},
   },
 }
 P.transport["item:felstalker-hoof"] = {
@@ -2334,7 +2334,7 @@ P.transport["item:grelin-s-report"] = {
   fullHash = "aed143",
   text = "Grelin's Report. In Coldridge Valley, Grelin's Report carries word of the Frostmane trolls to Kharanos. It joins the scouts at Anvilmar with Senir Whitebeard and Ironforge. Grelin Whitebeard has watched the Frostmane trolls in Coldridge Valley and judges them no great threat. Mountaineers already stationed there can handle them, with mercenaries paid from Senate funds. So Grelin entrusts his report to a capable traveler instead of his fumbling apprentice. The journey leads through trogg-infested Coldridge Pass.\n\nThe paper shows Mountaineer Thalos that you travel on urgent business. With it, you may pass his blockade and enter the snowy reaches of Dun Morogh. At the Thunderbrew Distillery in Kharanos, Senir Whitebeard receives Grelin's field report for Ironforge. His brother has invoked King Magni Bronzebeard's name throughout the document, and Senir takes note with amused resignation. Grelin claims the King's sanction for his actions. Senir expects that appeal to royal authority to ruffle feathers in the Ironforge Senate.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_grelin-s-report-08e73fe264b3742a4091/1-0000.mp3", duration = 61.8840816, start = 0},
+    {file = "Audio/Transport/full_item_grelin-s-report-bb57bf8ca68b48352a22/1-0000.mp3", duration = 63.6081633, start = 0},
   },
 }
 P.transport["item:grelin-whitebeard-s-journal"] = {
@@ -2406,7 +2406,7 @@ P.transport["item:gyromechanic-gear"] = {
   fullHash = "e7a472",
   text = "Gyromechanic Gear. In Kharanos, inventors seek Gyromechanic Gears for a bold experiment. They hope to reverse the mutations of leper gnomes. Radiation swept through Gnomeregan while gnomes fought to drive out the troggs. Many survivors became mad, irradiated leper gnomes. Ozzie Togglevolt and Razzle Sprysprocket will not abandon their twisted kin, so they have planned the Recombobulator. The machine is meant to undo radiation's effects.\n\nIts prototype needs precise mechanisms that can bear the volatile pressure inside, including Gyromechanic Gears and Restabilization Cogs. Gnomeregan's fall ended local manufacturing. Now the inventors must salvage these delicate parts from hostile leper gnomes roaming Dun Morogh.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_gyromechanic-gear-3dacf6069a0b82f65039/1-0000.mp3", duration = 47.0465306, start = 0},
+    {file = "Audio/Transport/full_item_gyromechanic-gear-79514c1d637a48d7bad2/1-0000.mp3", duration = 45.1395918, start = 0},
   },
 }
 P.transport["item:hallowed-letter"] = {
@@ -2422,7 +2422,7 @@ P.transport["item:hallowed-rune"] = {
   fullHash = "3c00bf",
   text = "Hallowed Rune. In Coldridge Valley, Branstock Khalder sends novice priests the Hallowed Rune to begin their training at Anvilmar. The Hallowed Rune bears teachings of the Holy Light. A young priest proves their resolve by aiding the valley’s mountaineers and defenders. Then Branstock sends them to Anvilmar, where he teaches them to mend wounds and wield holy power against the troggs threatening Dun Morogh.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_hallowed-rune-c674d7209dbb874e099e/1-0000.mp3", duration = 23.6146939, start = 0},
+    {file = "Audio/Transport/full_item_hallowed-rune-f2f22d1faa7c65305b2b/1-0000.mp3", duration = 24.3983673, start = 0},
   },
 }
 P.transport["item:hallowed-scroll"] = {
@@ -2638,7 +2638,7 @@ P.transport["item:hildelve-s-journal"] = {
   fullHash = "a2fbf2",
   text = "Hildelve's Journal. In Dun Morogh, Hildelve's Journal bears the last words of a dwarf lost to a fierce bear. Its pages tell of the attack and his plea for vengeance. Dwarven pilot Hildelve went alone into Dun Morogh after his steam tank broke down. He left his partner, Hammerfoot, with the tanks and searched the snow-swept crags for rumored chiron ore. In his journal, Hildelve writes that Mangeclaw, a monstrous ice claw bear, stalked him for days before attacking.\n\nHildelve fought bravely and drove the bear off, but Mangeclaw mauled him and left him gravely wounded in the cold. His final hours were agonizing. Before the bear returned, Hildelve made one plea: whoever found his body should hunt Mangeclaw and avenge his death.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_hildelve-s-journal-28bdaa878ff741ba8424/1-0000.mp3", duration = 47.1771429, start = 0},
+    {file = "Audio/Transport/full_item_hildelve-s-journal-b64ed6de874b4c732d13/1-0000.mp3", duration = 48.875102, start = 0},
   },
 }
 P.transport["item:hillsbrad-human-skull"] = {
@@ -3214,7 +3214,7 @@ P.transport["item:macgrann-s-dried-meats"] = {
   fullHash = "8a71bc",
   text = "MacGrann's Dried Meats. In Dun Morogh, Old Icebeard has carried off Tundra MacGrann’s winter meat. Tundra MacGrann hunted game and salted it for the winter. He packed weeks of provisions into a sturdy chest inside a thorium meat locker, to keep scavenging bears and prowling predators from his homestead. Yet he never expected an intruder strong enough to carry away the whole chest. Old Icebeard raided MacGrann’s camp while the dwarf tracked deer. The yeti dragged the heavy chest to his den in Chill Breeze Valley. Its solid thorium plating holds, but MacGrann’s injured leg keeps him from making a swift rescue into the cavern. Without help retrieving his cache before winter, the stranded hunter faces starvation in the mountain snows.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_macgrann-s-dried-meats-de1e49dbef3c396eb4ee/1-0000.mp3", duration = 43.9902041, start = 0},
+    {file = "Audio/Transport/full_item_macgrann-s-dried-meats-c8ad9772fdb417cd68b1/1-0000.mp3", duration = 44.1991837, start = 0},
   },
 }
 P.transport["item:mackreel-s-moonshine"] = {
@@ -3246,7 +3246,7 @@ P.transport["item:mangy-claw"] = {
   fullHash = "877d3d",
   text = "Mangy Claw. In Dun Morogh, Mangy Claw marks the end of a deadly hunt. The great ice claw bear Mangeclaw killed a stranded dwarven pilot, and the severed claw proves the beast was slain. Pilot Hildelve’s steam tank broke down in Dun Morogh’s frozen hills. He searched for ore on foot and faced the mountain wilderness alone. In his journal, he tells how he fought off Mangeclaw, an ice claw bear, but was savagely mauled. The bear returned and killed the weakened pilot. Hildelve’s final entry pleaded for vengeance. Taking Mangy Claw from the fallen bear fulfills his request.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_mangy-claw-4290fb521b40cf36f6b7/1-0000.mp3", duration = 36.8065306, start = 0},
+    {file = "Audio/Transport/full_item_mangy-claw-c80846cc223cc93e7f77/1-0000.mp3", duration = 36.6236735, start = 0},
   },
 }
 P.transport["item:marshal-haggard-s-badge"] = {
@@ -3574,7 +3574,7 @@ P.transport["item:nori-s-mug"] = {
   fullHash = "02a405",
   text = "Nori's Mug. In Dun Morogh, Nori Pridedrift sends a mug of mornbrew to Anvilmar. Travelers bring the drink to Durnan Furcutter, then return the empty mug to its owner. Nori Pridedrift lends his mug for a delivery through Dun Morogh's freezing passes. It carries hot mornbrew to Durnan Furcutter in Anvilmar, where the drink comforts him against the bitter cold. After Durnan drains it, the mug returns to Nori. He reminds travelers that mugs do not grow on trees and expects his sturdy drinking vessel back.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_nori-s-mug-dd7abf2711a4e8d496e6/1-0000.mp3", duration = 32.1306122, start = 0},
+    {file = "Audio/Transport/full_item_nori-s-mug-3a9324ca48a8759ac54e/1-0000.mp3", duration = 31.8693878, start = 0},
   },
 }
 P.transport["item:notched-rib"] = {
@@ -4070,7 +4070,7 @@ P.transport["item:robo-mechanical-guts"] = {
   fullHash = "dcc6bf",
   text = "Robo-Mechanical Guts. In Stormwind, Shoni gathers parts from Gnomeregan’s roaming machines. She needs them to repair tunneling vehicles built to help reclaim the city in Dun Morogh. After High Tinker Gelbin Mekkatorque and the surviving gnomes fled Gnomeregan, thousands of machines remained behind. Automated mechanisms, clockwork sentries, and industrial robots still roam the radioactive city’s corridors.\n\nIn Stormwind City, tinker Shoni is assembling gyrodrillmatic excavationators to break through Gnomeregan’s defenses and reclaim the lost city. She sends adventurers into the contaminated halls to salvage working parts from the robots, including springs, wires, and gyro-components.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_robo-mechanical-guts-ae8b74c0c04464573290/1-0000.mp3", duration = 44.1991837, start = 0},
+    {file = "Audio/Transport/full_item_robo-mechanical-guts-898aa8f074ddc2b63f90/1-0000.mp3", duration = 44.8783673, start = 0},
   },
 }
 P.transport["item:rocket-car-parts"] = {
@@ -4126,7 +4126,7 @@ P.transport["item:rumbleshot-s-ammo"] = {
   fullHash = "fae914",
   text = "Rumbleshot's Ammo. Near the Grizzled Den, Rumbleshot's Ammo lies abandoned in the snow. Its courier fled from hungry wendigos before the crate could reach gunsmith Hegnar Rumbleshot in Dun Morogh. Hegnar Rumbleshot keeps a roadside arms shop on the mountain path from Coldridge Pass toward Anvilmar. Ironforge riflemen, mountaineers, and dwarven mortar teams drill in the snowy heights, so his supplies run low as quickly as powder burns.\n\nLoslor sent the shot from Kharanos, but the shipment never reached the shelves. Its courier camped too close to the Grizzled Den. When the wendigos attacked, the courier fled in panic and left the heavy crate in their hunting grounds.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_rumbleshot-s-ammo-a60b1d8aa4c67e26fdd7/1-0000.mp3", duration = 41.5085714, start = 0},
+    {file = "Audio/Transport/full_item_rumbleshot-s-ammo-2077f70bddd99bc4a274/1-0000.mp3", duration = 40.2285714, start = 0},
   },
 }
 P.transport["item:rune-inscribed-parchment"] = {
@@ -4462,7 +4462,7 @@ P.transport["item:senir-s-report"] = {
   fullHash = "ad7b76",
   text = "Senir's Report. In Dun Morogh’s cold foothills, Senir Whitebeard sends his findings on the Frostmane trolls to Senator Barin Redstone in Ironforge. Senir’s report gathers what mountaineers saw while scouting the Frostmane trolls in Dun Morogh’s crags. He also includes his brother Grelin’s account of Coldridge Valley. Grelin acted there with King Magni Bronzebeard’s sanction.\n\nSenir sends the findings to Senator Barin Redstone in Ironforge’s High Seat. He advises couriers to leave out how much outside help he needed to compile them.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_senir-s-report-ce2363a1893632ee38d5/1-0000.mp3", duration = 33.9069388, start = 0},
+    {file = "Audio/Transport/full_item_senir-s-report-490a1ab96978878d8d1e/1-0000.mp3", duration = 32.6530612, start = 0},
   },
 }
 P.transport["item:serena-s-head"] = {
@@ -4538,11 +4538,11 @@ P.transport["item:shimmering-frond"] = {
   },
 }
 P.transport["item:shimmerweed"] = {
-  hash = "505b41",
-  fullHash = "505b41",
-  text = "Shimmerweed. On Shimmer Ridge, Frostmane trolls gather shimmerweed for their rituals. Rejold Barleybrew of Brewnall Village wants to test its sharp flavor in his stout. High above Dun Morogh's lowlands, Frostmane trolls tend shimmerweed on Shimmer Ridge's icy crags. They harvest the plant and keep it in woven baskets throughout their camps. There, it fuels their sacred rituals. Few mountaineers beyond troll society pay the herb much mind, though inventive outsiders have taken an interest. In Brewnall Village, brewmaster Rejold Barleybrew suspects shimmerweed may be the missing piece in his attempt to brew the ultimate dwarven stout. He has detected the herb's pungent, unmistakable flavor and wants to test it in his fermenting vats. So Rejold hires travelers to slip into Frostmane camps, evade the hostile trolls and bring back bushels.",
+  hash = "46e023",
+  fullHash = "46e023",
+  text = "Shimmerweed. On Shimmer Ridge, Frostmane trolls gather shimmerweed for their rituals. Rejold Barleybrew of Brewnall Village wants to test its sharp flavor in his stout. Shimmerweed grows on icy crags high above Dun Morogh's lowlands, tended by Frostmane trolls. They harvest the plant and keep it in woven baskets throughout their camps. There, it fuels their sacred rituals. Few mountaineers beyond troll society pay the herb much mind, though inventive outsiders have taken an interest. In Brewnall Village, brewmaster Rejold Barleybrew suspects shimmerweed may be the missing piece in his attempt to brew the ultimate dwarven stout. He has detected the herb's pungent, unmistakable flavor and wants to test it in his fermenting vats. So Rejold hires travelers to slip into Frostmane camps, evade the hostile trolls and bring back bushels.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_shimmerweed-34ddd2659b96c05879ef/1-0000.mp3", duration = 53.0546939, start = 0},
+    {file = "Audio/Transport/full_item_shimmerweed-6028b8c3c22b2eb0d10c/1-0000.mp3", duration = 52.8718367, start = 0},
   },
 }
 P.transport["item:shindrell-s-note"] = {
@@ -4638,7 +4638,7 @@ P.transport["item:simple-rune"] = {
   fullHash = "70a3d3",
   text = "Simple Rune. In Coldridge Valley, Thran Khorman sends promising young dwarven warriors to Anvilmar for training with the Simple Rune. Young fighters who have begun clearing threats from Coldridge Valley receive Thran’s formal summons. The rune’s martial marks hold no magic; they tell each recruit to report to Thran inside Anvilmar. There, he teaches basic combat and gives practical advice for surviving Dun Morogh’s hostile wilds.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_simple-rune-2e79af336276ec816650/1-0000.mp3", duration = 26.9322449, start = 0},
+    {file = "Audio/Transport/full_item_simple-rune-c0bf2467c7788d1dd995/1-0000.mp3", duration = 26.122449, start = 0},
   },
 }
 P.transport["item:simple-sigil"] = {
@@ -4814,7 +4814,7 @@ P.transport["item:steelgrill-s-tools"] = {
   fullHash = "11cd38",
   text = "Steelgrill's Tools. At Steelgrill's Depot, Beldin Steelgrill needs fresh tools to keep his workshop at work. He puts siege engines and equipment through hard use, so Kharanos keeps sending replacements. Beldin Steelgrill is one of Dun Morogh's finest siege engine technicians. Merchants know his rough touch, though. He works without pause on armored tanks and mechanical contraptions, and delicate tools soon break in his hands. Arclight spanners snap and fang-ratchets wear out, so he keeps ordering replacements from Kharanos for his repair benches. At his depot northeast of Kharanos, Beldin services combat vehicles for experienced drivers such as Pilot Stonegear. The tools keep Ironforge's war machines in working order. Fresh wrenches and ratchets keep repairs moving on the siege engines assembled there, supporting local defenses.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_steelgrill-s-tools-efa047a98289354b7e6f/1-0000.mp3", duration = 50.8342857, start = 0},
+    {file = "Audio/Transport/full_item_steelgrill-s-tools-8a4a295d41c19a9e8bdb/1-0000.mp3", duration = 49.6587755, start = 0},
   },
 }
 P.transport["item:steelsnap-s-rib"] = {
@@ -5166,7 +5166,7 @@ P.transport["item:thick-bear-fur"] = {
   fullHash = "4a5d41",
   text = "Thick Bear Fur. In Dun Morogh, Thick Bear Fur helps travelers and soldiers endure the mountain cold. Bears roam the snowfields, and their pelts make insulated clothing and bedding. Bears roam Dun Morogh's ridges through some of the harshest snowfields in the Eastern Kingdoms. Their thick coats shield them from blizzards, and locals and travelers put the pelts to use. Hunters gather them to line clothing, insulate drafty outposts, and pad cold sleeping rolls. Pilot Bellowfiz outfitted his siege tank, Jetsteam, at Steelgrill's Depot for a month in the field on a long mission for the Siege Brigade. Cold iron offered little comfort in the high snowbanks, so he hired local scouts to gather thick bear fur from the snowfields south of the Grizzled Den. The pelts would make warm bedding for his cabin quarters.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_thick-bear-fur-183184740a1d90db4ff8/1-0000.mp3", duration = 50.2857143, start = 0},
+    {file = "Audio/Transport/full_item_thick-bear-fur-4e5296c191617387c925/1-0000.mp3", duration = 49.7632653, start = 0},
   },
 }
 P.transport["item:thistlenettle-s-badge"] = {
@@ -5190,7 +5190,7 @@ P.transport["item:thule-s-head"] = {
   fullHash = "4a2843",
   text = "Thule's Head. At the Sepulcher, High Executor Hadrec seeks proof that Thule Ravenclaw is dead. His severed head confirms the Scourge commander on Fenris Isle has fallen and helps the Forsaken hold Silverpine Forest.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_thule-s-head-918f2e4184d6afa1c1d6/1-0000.mp3", duration = 12.6693878, start = 0},
+    {file = "Audio/Transport/full_item_thule-s-head-c409595b0bf3a05b957c/1-0000.mp3", duration = 13.2440816, start = 0},
   },
 }
 P.transport["item:thunder-lizard-blood"] = {
@@ -5334,7 +5334,7 @@ P.transport["item:tough-wolf-meat"] = {
   fullHash = "a80554",
   text = "Tough Wolf Meat. In Northshire and Coldridge, wolves prowl their valleys and provide meat for hungry locals. Tough Wolf Meat is coarse and stringy. People in Elwynn Forest eat it, and dwarven outfitters in Dun Morogh use it to stock their supplies. Wolves prowl near Northshire Valley and Dun Morogh. They threaten nearby settlements, yet their meat offers a hard-won source of food. Coarse, stringy and chewy, it is prized by resource-strapped frontiersmen.\n\nOutside Northshire Abbey, Eagan Peltskinner hates the vicious beasts but cooks their meat into steaks. He trades basic supplies and gear to those who cull the packs.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_tough-wolf-meat-ea2eacb767039f6de3cf/1-0000.mp3", duration = 40.7771429, start = 0},
+    {file = "Audio/Transport/full_item_tough-wolf-meat-fae47202cad376c86cbd/1-0000.mp3", duration = 41.7436735, start = 0},
   },
 }
 P.transport["item:tourmaline-phial"] = {
@@ -5758,7 +5758,7 @@ P.transport["item:wendigo-mane"] = {
   fullHash = "b6c45a",
   text = "Wendigo Mane. Across Dun Morogh, wendigos roam the frozen crags, and their manes keep the mountain cold at bay. Pilot Stonegear has a use for them. Wendigos roam the snowdrifts of Dun Morogh, their coarse fur guarding them from bitter drafts. Outside Kharanos, Pilot Stonegear sends adventurers to Grizzled Den for their heavy manes. He means to weave them into an insulating rug for the interior deck of Trollplow, his prized dwarven siege engine.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_wendigo-mane-f7f9308045e082e0795b/1-0000.mp3", duration = 28.3428571, start = 0},
+    {file = "Audio/Transport/full_item_wendigo-mane-c5779dfb55ee87e87de9/1-0000.mp3", duration = 29.9102041, start = 0},
   },
 }
 P.transport["item:whitestone-oak-lumber"] = {

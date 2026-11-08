@@ -1,0 +1,97 @@
+{
+ "key": "quest:97485",
+ "type": "quest",
+ "name": "Traditions of the Bluff",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97485
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A Tauren tradition asks you to scatter incense from Hunter\u2019s Rise. The offering may honor the Earthmother, a hunt, an occasion, or a search for guidance.",
+ "sections": [
+  {
+   "title": "Incense to the Winds",
+   "body": "A Tauren at Hunter\u2019s Rise asks you to honor a tradition of scattering incense to the winds. You gather herbs, cedar twigs, sinew thread, and ceremonial flint and tinder from the named suppliers. At the ceremonial site, you combine them and scatter the incense from the south-facing cliff.",
+   "spoiler": 0
+  },
+  {
+   "title": "Many Occasions",
+   "body": "Incense may be scattered to ask the Earthmother to watch over someone, bless a hunt, mark an occasion, or seek guidance from the ancestors. The act is reverent, though it need not follow a single ceremony. Different tribes observe different traditional steps.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the tradition at Hunter\u2019s Rise?",
+   "aliases": [
+    "incense tradition",
+    "scatter incense",
+    "bluff incense"
+   ],
+   "answer": "The tradition is to scatter incense to the winds from the south-facing cliff of Hunter\u2019s Rise."
+  },
+  {
+   "q": "What can the incense offering be for?",
+   "aliases": [
+    "why incense",
+    "incense for what",
+    "bless the hunt"
+   ],
+   "answer": "It may ask the Earthmother to watch over someone, bless a hunt, celebrate an occasion, or offer guidance from the ancestors."
+  },
+  {
+   "q": "What do I need to make the incense?",
+   "aliases": [
+    "incense ingredients",
+    "what components",
+    "herbs cedar thread flint"
+   ],
+   "answer": "The components are herbs, cedar twigs, sinew thread, and ceremonial flint and tinder."
+  },
+  {
+   "q": "Where is the ceremonial site?",
+   "aliases": [
+    "where to spread incense",
+    "ceremonial site location",
+    "south cliff"
+   ],
+   "answer": "The ceremonial site is on the south-facing cliff of Hunter\u2019s Rise."
+  },
+  {
+   "q": "Do all tribes perform the tradition the same way?",
+   "aliases": [
+    "different tribe customs",
+    "same ceremony",
+    "incense steps"
+   ],
+   "answer": "No. Different tribes may observe different traditional steps, and the act is not strictly ceremonial."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "As a Tauren, you honor a tradition that may invoke the Earthmother or seek guidance from your ancestors."
+  }
+ ],
+ "keywords": [
+  "ancestors",
+  "cedar twigs",
+  "ceremonial flint",
+  "earthmother",
+  "hunter\u2019s rise",
+  "incense",
+  "tauren tradition",
+  "traditions of the bluff"
+ ],
+ "related": [
+  "npc:nida"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Traditions of the Bluff"
+ ]
+}

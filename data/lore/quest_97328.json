@@ -1,0 +1,80 @@
+{
+ "key": "quest:97328",
+ "type": "quest",
+ "name": "Anything of Value",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97328
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A zeppelin crash in Stranglethorn Vale leaves signs that a shipment was plundered. Its torn label still points toward Booty Bay.",
+ "sections": [
+  {
+   "title": "A Torn Label",
+   "body": "In Stranglethorn Vale, the crash debris holds signs of a plundered supply shipment. Its labels are shredded, though one still bears the words Booty Bay. Two-toed footprints and divots in the earth lead toward the ruins of Zul'Kunda in the northwest.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happened to the shipment?",
+   "aliases": [
+    "stolen shipment",
+    "zeppelin cargo",
+    "what was plundered"
+   ],
+   "answer": "The supplies were plundered, and the shipping labels were torn apart."
+  },
+  {
+   "q": "Where did the footprints lead?",
+   "aliases": [
+    "two toed tracks",
+    "where is the trail",
+    "footprints"
+   ],
+   "answer": "The footprints and divots lead toward the ruins of Zul'Kunda in the northwest."
+  },
+  {
+   "q": "What does the surviving label say?",
+   "aliases": [
+    "booty bay label",
+    "torn shipping label",
+    "where was it going"
+   ],
+   "answer": "One torn label still shows the words Booty Bay."
+  },
+  {
+   "q": "Who needs the recovered shipments?",
+   "aliases": [
+    "who wants the cargo",
+    "where do I take it",
+    "shipment return"
+   ],
+   "answer": "The shipments are to be returned to someone in Booty Bay."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "anything of value",
+  "booty bay",
+  "crash",
+  "footprints",
+  "shipment",
+  "stolen supplies",
+  "zeppelin",
+  "zul'kunda"
+ ],
+ "related": [
+  "zone:stranglethorn",
+  "subzone:booty-bay",
+  "quest:98247"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Anything of Value"
+ ]
+}

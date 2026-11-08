@@ -38,7 +38,7 @@ P.transport["npc:arugal"] = {
   fullHash = "c9cee9",
   text = "Arugal. In Shadowfang Keep, Arugal commands the worgen he summoned against the Scourge. Madness and grief have made the former Dalaran wizard their self-proclaimed father, and his power threatens Silverpine Forest. Before Lordaeron fell, Arugal served in the Kirin Tor. Some peers, among them Dalar Dawnweaver, called him a charlatan who hid weak spellcraft behind enchanted trinkets. When the Scourge swept across the north during the Third War, Arugal sought a weapon to halt the undead. He drew on research by the late Dalaran mage Ur and pierced the veil between realms to summon the worgen.\n\nThe ravenous beasts tore through the Scourge, but no one could contain their ferocity. Before long, their hunger turned against innocent mortals. The worgen slaughtered the Scourge, then attacked the wizards who had summoned them. They besieged the ancestral seat of Baron Silverlaine and took the keep with claws and fangs. Silverlaine and his retainers died in the massacre. Guilt shattered Arugal's mind, yet he stayed with his creation. He claimed the beasts as his offspring and renamed the fortress Shadowfang Keep.\n\nThere, Arugal holds the ramparts, surrounded by ghostly victims and loyal hound-packs.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_arugal-199aacd34a68aed76156/1-0000.mp3", duration = 77.0873469, start = 0},
+    {file = "Audio/Transport/full_npc_arugal-ae3dcb2fda6b8bf66316/1-0000.mp3", duration = 72.9077551, start = 0},
   },
 }
 P.transport["npc:baine-bloodhoof"] = {
@@ -331,10 +331,10 @@ P.transport["npc:orgnil-soulscar"] = {
 }
 P.transport["npc:shadow-priest-allister"] = {
   hash = "2322b9",
-  fullHash = "885d68",
-  text = "Shadow Priest Allister. At the Sepulcher, Shadow Priest Allister directs the Forsaken's efforts across Silverpine Forest. He watches nearby threats and guards Lordaeron's borders for the Dark Lady. Shadow Priest Allister directs Forsaken scouts from the Sepulcher in Silverpine Forest. From there, he watches for renegade humans and beasts. He also tracks arcane activity around Dalaran. Allister's chief concern is Dalaran's surviving mages. He watches especially closely those at Ambermill, who probe across the borders. He will not let the Kirin Tor gain a foothold in Forsaken lands. His agents intercept messengers, decipher arcane runes, and seek the wizards' long-term aims. Allister's duties as a strategist share his attention with the study of shadow. He wrote 'Holy Bologna: What the Light Won't Tell You', a sharp attack on traditional holy doctrine. The book considers undeath's harsh realities and the Holy Light's failure to aid those cast aside by life.\n\nSomehow, copies have reached the ruins of Dire Maul in Kalimdor.",
+  fullHash = "87bed3",
+  text = "Shadow Priest Allister. At the Sepulcher, Shadow Priest Allister directs the Forsaken's efforts across Silverpine Forest. He watches nearby threats and guards Lordaeron's borders for the Dark Lady. Allister commands the Forsaken scouts who range out from the Sepulcher, the main settlement on the Silverpine road. From there, he watches for renegade humans and beasts. He also tracks arcane activity around Dalaran. Allister's chief concern is Dalaran's surviving mages. He watches especially closely those at Ambermill, who probe across the borders. He will not let the Kirin Tor gain a foothold in Forsaken lands. His agents intercept messengers, decipher arcane runes, and seek the wizards' long-term aims. Allister's duties as a strategist share his attention with the study of shadow. He wrote 'Holy Bologna: What the Light Won't Tell You', a sharp attack on traditional holy doctrine. The book considers undeath's harsh realities and the Holy Light's failure to aid those cast aside by life.\n\nSomehow, copies have reached the ruins of Dire Maul in Kalimdor.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_shadow-priest-allister-d856bf57993ef1904d24/1-0000.mp3", duration = 65.3583673, start = 0},
+    {file = "Audio/Transport/full_npc_shadow-priest-allister-6f33dd1e22f3035117f2/1-0000.mp3", duration = 66.5077551, start = 0},
   },
 }
 P.transport["npc:shadow-priest-sarvis"] = {

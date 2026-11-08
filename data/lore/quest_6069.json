@@ -1,0 +1,75 @@
+{
+ "key": "quest:6069",
+ "type": "quest",
+ "name": "The Hunter's Path",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   6069
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Thotar at Razor Hill can guide you toward earning a beast companion. You are sent to speak with him.",
+ "sections": [
+  {
+   "title": "A Beast Companion",
+   "body": "A trainer sees promise in your skill with beasts and sends you to Thotar at Razor Hill. He can guide you toward earning a pet of your own.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who should I speak with?",
+   "aliases": [
+    "who do I talk to",
+    "where do I go",
+    "Thotar quest"
+   ],
+   "answer": "Speak with Thotar at Razor Hill."
+  },
+  {
+   "q": "What can Thotar help me with?",
+   "aliases": [
+    "what does Thotar do",
+    "get a pet",
+    "hunter pet"
+   ],
+   "answer": "Thotar can guide you toward earning a pet of your own."
+  },
+  {
+   "q": "Why am I being sent to Thotar?",
+   "aliases": [
+    "why Thotar",
+    "what's the point",
+    "hunter path"
+   ],
+   "answer": "A trainer believes you are skilled enough to handle and train a beast as a companion."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "As a hunter, you are judged skilled enough to handle a beast and train it as your companion."
+  }
+ ],
+ "keywords": [
+  "beast",
+  "companion",
+  "hunter",
+  "hunter's path",
+  "pet",
+  "razor hill",
+  "thotar"
+ ],
+ "related": [
+  "npc:thotar",
+  "subzone:razor-hill",
+  "topic:hunter"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Hunter's Path"
+ ]
+}

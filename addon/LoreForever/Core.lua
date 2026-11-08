@@ -763,6 +763,7 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
   elseif event == "QUEST_DETAIL" or event == "QUEST_PROGRESS" or event == "QUEST_COMPLETE" then
     local kind = event == "QUEST_DETAIL" and "detail" or event == "QUEST_PROGRESS" and "progress" or "complete"
     ns.Log.QuestText(kind)
+    ns.Voice.OnNpcWindow()
     ns.Hooks.UpdateQuestDialogButton()
     local b = ns.Hooks.questDialogButton
     ns.Voice.OnQuestFrame(kind, b and b.key)
@@ -770,16 +771,23 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
   elseif event == "QUEST_FINISHED" then
     -- Also fires between a quest's pages; only a window that stays closed stops its page.
     C_Timer.After(0.2, function()
+      ns.Voice.OnNpcWindowClosed()
       if not (_G.QuestFrame and QuestFrame:IsShown()) then
         ns.Voice.OnQuestClosed()
         ns.Hooks.UpdateQuestPlayButton()
         ns.Voice.OnTalkOver()
       end
     end)
-  elseif event == "GOSSIP_SHOW" then
-    ns.Voice.OnOtherVoice()   -- another add-on reading what they say: what started by itself makes way
+  elseif event == "GOSSIP_SHOW" or event == "QUEST_GREETING" then
+    ns.Voice.OnNpcWindow()   -- the NPC greets you aloud: a quest page waits for it (LOR-1238)
+    if event == "GOSSIP_SHOW" then
+      ns.Voice.OnOtherVoice()   -- another add-on reading what they say: what started by itself makes way
+    end
   elseif event == "GOSSIP_CLOSED" then
-    C_Timer.After(0.2, ns.Voice.OnTalkOver)
+    C_Timer.After(0.2, function()
+      ns.Voice.OnNpcWindowClosed()
+      ns.Voice.OnTalkOver()
+    end)
   elseif event == "ITEM_TEXT_READY" then
     ns.Voice.ReadBookPage()   -- a book, letter or plaque page is showing
     ns.Hooks.UpdateBookButton()
@@ -796,7 +804,8 @@ end)
 
 for _, e in ipairs({ "ADDON_LOADED", "PLAYER_LOGIN", "PLAYER_ENTERING_WORLD", "ZONE_CHANGED", "ZONE_CHANGED_INDOORS",
   "ZONE_CHANGED_NEW_AREA", "QUEST_LOG_UPDATE", "BAG_UPDATE_DELAYED", "SKILL_LINES_CHANGED", "QUEST_DETAIL",
-  "QUEST_PROGRESS", "QUEST_COMPLETE", "QUEST_FINISHED", "GOSSIP_SHOW", "GOSSIP_CLOSED", "ITEM_TEXT_READY", "ITEM_TEXT_CLOSED",
+  "QUEST_PROGRESS", "QUEST_COMPLETE", "QUEST_FINISHED", "QUEST_GREETING", "GOSSIP_SHOW", "GOSSIP_CLOSED", "ITEM_TEXT_READY",
+  "ITEM_TEXT_CLOSED",
   "PLAYER_TARGET_CHANGED", "PLAYER_CONTROL_LOST", "PLAYER_CONTROL_GAINED",
   "PLAYER_REGEN_DISABLED", "PLAYER_REGEN_ENABLED", "PLAYER_LOGOUT",
   "CINEMATIC_START", "CINEMATIC_STOP", "PLAY_MOVIE", "STOP_MOVIE", "TALKINGHEAD_REQUESTED", "TALKINGHEAD_CLOSE",

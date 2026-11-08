@@ -318,7 +318,7 @@ P.transport["subzone:camp-kosh"] = {
   fullHash = "356f29",
   text = "Camp Kosh. At Camp Kosh, Dustbelcher ogres prey on caravans crossing the northern Badlands. They scavenge abandoned gear from roads leading toward Kargath and the Searing Gorge. In the northern Badlands, Dustbelcher ogres make their northernmost camp at Camp Kosh. Their tribe also holds nearby camps called Boff, Cagg, and Wurg. From these camps, they strike vulnerable supply lines bound for Kargath or traveling west into the Searing Gorge. When dwarven prospectors led by Sigrun Ironhew fled the excavation at Uldaman, the ogres raided their abandoned wagons. They carried food rations and weapons back into Camp Kosh.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_camp-kosh-db71da099f1834ff797e/1-0000.mp3", duration = 40.3853061, start = 0},
+    {file = "Audio/Transport/full_subzone_camp-kosh-11a0879647b790469470/1-0000.mp3", duration = 39.8889796, start = 0},
   },
 }
 P.transport["subzone:camp-mojache"] = {
@@ -526,7 +526,7 @@ P.transport["subzone:dalaran"] = {
   fullHash = "8b8874",
   text = "Dalaran. On Lordamere Lake, Dalaran's surviving magi are rebuilding their shattered city. Once the shining capital of the Kirin Tor, it fell to the Scourge and Archimonde during the Third War. Its protective violet shield has been removed. Dalaran began as a sanctuary for arcane study, founded by sorcerers of the Arathorian Empire after the ancient Troll Wars. For centuries, it was humanity's foremost center of magic. The Council of Six led the Kirin Tor, keeping vast archives and powerful artifacts in the Violet Citadel.\n\nThat age ended during the Third War. The traitor prince Arthas led the Scourge through the city gates to seize the Book of Medivh. Soon after, the demon lord Archimonde crushed Dalaran's soaring spires into rubble. After the Legion's defeat, the Kirin Tor's surviving wizards returned to their devastated homeland. They would not yield their ancestral ground to the Scourge or scavengers, and raised a shimmering violet barrier over the city's heart. The shield has since been removed, while rebuilding continues. The magi are restoring their fallen sanctuary, and Archmage Ansirem Runeweaver can be found in the Violet Citadel.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dalaran-aa4095a48aec79c73dde/1-0000.mp3", duration = 75.7812245, start = 0},
+    {file = "Audio/Transport/full_subzone_dalaran-dc28c085c00816f475b3/1-0000.mp3", duration = 74.4228571, start = 0},
   },
 }
 P.transport["subzone:dalson-s-tears"] = {
@@ -1054,7 +1054,7 @@ P.transport["subzone:gnomeregan"] = {
   fullHash = "ce40b5",
   text = "Gnomeregan. Troggs and leper gnomes roam Gnomeregan’s poisoned halls among the broken defenses. The city was once the gnomes’ underground capital, until a desperate defense ended in catastrophe. Gnomeregan’s halls once rang with the work of gnomish engineers. Ironforge dwarves helped build the city centuries ago, carving it into the snowy crags of western Dun Morogh. Steam-driven gears, copper pipes, and vast assembly halls made it the heart of gnomish industry and invention. During the Second War, its designs, flying machines, and complex weapons supplied the Alliance. Even Orgrim Doomhammer’s Horde could not break the city during its siege. During the Third War, troggs surged up from deep underground and broke into Gnomeregan’s lowest chambers. High Tinker Gelbin Mekkatorque chose to face the invasion alone, unwilling to draw Alliance armies away from the slaughter in Lordaeron.\n\nOn the advice of chief engineer Mekgineer Thermaplugg, he ordered radioactive gas released through the lower chambers to wipe out the troggs. Instead, the gas empowered many troggs and killed nearly eighty percent of the gnomish people. Survivors exposed to it became twisted leper gnomes, and Thermaplugg took control of the poisoned ruins.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_gnomeregan-4b4abba538652a0770d2/1-0000.mp3", duration = 77.0873469, start = 0},
+    {file = "Audio/Transport/full_subzone_gnomeregan-9bcaa19e93af67e6b38c/1-0000.mp3", duration = 75.1804082, start = 0},
   },
 }
 P.transport["subzone:go-shek-farm"] = {
@@ -1358,7 +1358,7 @@ P.transport["subzone:kargath"] = {
   fullHash = "22a23e",
   text = "Kargath. In the western Badlands, Kargath guards the Horde's foothold. The Kargath Expeditionary Force built the outpost on Warchief Thrall's orders, linking Horde holdings and preparing operations near Uldaman and Blackrock Mountain. Kargath honors the Shattered Hand chieftain Kargath Bladefist. The outpost is the Horde's only settlement in Khaz Modan, surrounded by arid wastes, dangerous wildlife, and hostile dwarven factions. Its garrison gives travelers a refuge midway across the continent. From here, a flight master connects northern holdings such as the Undercity and Hammerfall with southern outposts such as Stonard and Grom'gol Base Camp. Warchief Thrall sent the Kargath Expeditionary Force to pursue two aims. Troops enter Uldaman's ancient titan halls to learn why Ironforge's Prospectors value the dig site so highly. Scouts also seek a route through the Searing Gorge into Blackrock Mountain. There they hope to strike Rend Blackhand's false 'Dark Horde' while facing the entrenched Dark Iron dwarves.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_kargath-4aa98b102d58f3e6bb02/1-0000.mp3", duration = 65.515102, start = 0},
+    {file = "Audio/Transport/full_subzone_kargath-8b3c2ba0e6d964950ab9/1-0000.mp3", duration = 64.6269388, start = 0},
   },
 }
 P.transport["subzone:kodo-graveyard"] = {
@@ -1614,7 +1614,7 @@ P.transport["subzone:menethil-bay"] = {
   fullHash = "7723b2",
   text = "Menethil Bay. Alliance ships cross Menethil Bay along the Wetlands' western coast. Its sheltered waters open into Baradin Bay, between Menethil Harbor to the north and Dun Morogh's steep cliffs to the south. Crocolisks prowl the shallows, and sunken vessels lie below. Menethil Bay opens from the Wetlands into the Great Sea, within Baradin Bay. Menethil Harbor lies to the north, Black Channel Marsh to the east, and Dun Morogh's coastal bluffs to the south. Crocolisks of many sizes prowl the shallows and marshy shores. Without a guide, travelers risk the waters. Alliance ships cross the bay, and near its mouth lies the ruined Flying Osprey, a warning of wreckage below.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_menethil-bay-acb7670ccd5019f361e3/1-0000.mp3", duration = 44.0946939, start = 0},
+    {file = "Audio/Transport/full_subzone_menethil-bay-3ce124121f2736e018d3/1-0000.mp3", duration = 42.6318367, start = 0},
   },
 }
 P.transport["subzone:menethil-keep"] = {
@@ -1650,11 +1650,11 @@ P.transport["subzone:misty-reed-strand"] = {
   },
 }
 P.transport["subzone:misty-shore"] = {
-  hash = "c6f4a7",
-  fullHash = "c6f4a7",
-  text = "Misty Shore. Along Lordamere Lake's eastern bank, Misty Shore lies between Dandred's Fold and Dalaran. Fog softens the view across the water, where the Dawning Isles and Fenris Keep rise in the distance. Misty Shore follows Lordamere Lake's eastern bank between Dandred's Fold and Dalaran. Damp air drifts off the water, often hiding snapping turtles along the shore. Zealous fanatics sometimes wander down from nearby strongholds. Across Lordamere Lake, the Dawning Isles and Fenris Keep rise through the fog. Dalaran lies nearby, with Scarlet-controlled pockets close at hand. Travelers keep a low profile along the bank to avoid unwanted attention.",
+  hash = "f2c445",
+  fullHash = "f2c445",
+  text = "Misty Shore. Along Lordamere Lake's eastern bank, Misty Shore lies between Dandred's Fold and Dalaran. Fog softens the view across the water, where the Dawning Isles and Fenris Keep rise in the distance. Misty Shore is a lakeside stretch of the Alterac Mountains, running up to Dalaran's perimeter. Damp air drifts off the water, often hiding snapping turtles along the shore. Zealous fanatics sometimes wander down from nearby strongholds. Across Lordamere Lake, the Dawning Isles and Fenris Keep rise through the fog. Dalaran lies nearby, with Scarlet-controlled pockets close at hand. Travelers keep a low profile along the bank to avoid unwanted attention.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_misty-shore-dc17fee9c52287adbf55/1-0000.mp3", duration = 43.0236735, start = 0},
+    {file = "Audio/Transport/full_subzone_misty-shore-84af87e54a9f6ee5bc2c/1-0000.mp3", duration = 42.24, start = 0},
   },
 }
 P.transport["subzone:misty-valley"] = {
@@ -2630,7 +2630,7 @@ P.transport["subzone:stromgarde-keep"] = {
   fullHash = "41de60",
   text = "Stromgarde Keep. In the Arathi Highlands, Stromgarde Keep is divided between its royal defenders, the Syndicate and Boulderfist ogres. The fallen kingdom's battered capital holds only part of its fortress. Strom began as the first capital of the unified human empire of Arathor. King Thoradin founded it nearly three millennia ago. From this fortress, humanity prepared its victory over the forest trolls. Here, high elven magi taught the first hundred human spellcasters and began the long history of human wizardry.\n\nDalaran, Lordaeron and Stormwind rose as younger sister kingdoms while Strom's influence waned. The stubborn Trollbane dynasty remained and renamed the city Stromgarde. Through the Second War, it stood as a proud warrior bastion and an anchor of the Alliance of Lordaeron against the Orcish Horde. The devastation of the Third War brought mounting disasters and treachery, and Stromgarde finally broke. Its majestic stone city is now split into three warring sectors. Aristocratic Syndicate traitors hold the grand inner keep, while Boulderfist ogres have overrun the former sanctum of the mage district.\n\nPrince Galen Trollbane and the battered Stromgarde military hold the remaining quarter. They wage a hard, bloody war on several fronts to keep their ancestral home from vanishing into memory.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stromgarde-keep-ac6021f489ec408ee6b1/1-0000.mp3", duration = 84.2710204, start = 0},
+    {file = "Audio/Transport/full_subzone_stromgarde-keep-ccdf5c82a16181bdce7e/1-0000.mp3", duration = 85.995102, start = 0},
   },
 }
 P.transport["subzone:sundown-marsh"] = {
@@ -2958,7 +2958,7 @@ P.transport["subzone:uldaman"] = {
   fullHash = "e6399e",
   text = "Uldaman. In Uldaman, rival excavators and troggs now clash within the sealed halls. Beneath the northern Badlands mountains, this ancient titan vault holds the buried origins of the dwarven race, with stone sentinels still on guard. Titan watchers built Uldaman beneath the earth as a refuge and a place of research. Their first attempts to shape living stone made the misshapen troggs. They sealed them in stasis chambers, then tried again and created the stone-skinned earthen.\n\nThe deepest halls hold vital records, including the fabled Discs of Norgannon. Stonekeeper Archaedas and the giantess Ironaya guarded the vault. Dwarven legend says the earthen gave rise to the dwarven race, whose cradle lay buried and forgotten beneath the hills.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_uldaman-77e4896a67e46c35795a/1-0000.mp3", duration = 49.8938776, start = 0},
+    {file = "Audio/Transport/full_subzone_uldaman-dc3921b6bee53258eb3c/1-0000.mp3", duration = 48.6138776, start = 0},
   },
 }
 P.transport["subzone:uldum"] = {

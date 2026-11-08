@@ -1842,6 +1842,9 @@ function UI.UpdateListen()
       if b:IsShown() and b.pill then SetRowPill(b.pill) end
     end
   end
+  -- So does the new-page note's: added, its + turns to a tick (LOR-1322).
+  local slip = ns.Slip and ns.Slip.frame
+  if slip and slip:IsShown() then SetRowPill(slip.pill) end
   for _, b in ipairs(UI.bubbles or {}) do
     for _, r in ipairs(b.rows) do
       if r:IsShown() then SetRowPill(r.pill) end
