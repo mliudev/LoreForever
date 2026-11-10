@@ -96,10 +96,17 @@ function U.Newer()
   return w.latest, n
 end
 
+-- Willo keeps Lore Forever up to date by itself (its "Keep up to date" is on): no "a new version is out", and Options
+-- greys that box saying so. Being too old to keep working still says so.
+function U.WilloKeeps()
+  local data = _G.LoreForeverJourneyData
+  return type(data) == "table" and data.autoUpdate == true
+end
+
 -- Whether it's time for the chat line, and which: "newer" (a version is known) or "old" (this build is OLD_DAYS old).
 local function due()
   if U.TooOld() and time() - (tonumber(state().toldOld) or 0) >= DAY then return "required" end
-  if not (S().updateNotice and mine()) then return nil end
+  if not (S().updateNotice and mine()) or U.WilloKeeps() then return nil end
   local told = tonumber(state().told)
   if told and time() - told < QUIET_DAYS * DAY then return nil end
   local _, n = U.Newer()
@@ -158,7 +165,7 @@ end
 function U.TooltipLine()
   local min = U.TooOld()
   if min then return string.format(L["Too old to keep working: please update to %s or newer."], min) end
-  if not S().updateNotice then return nil end
+  if not S().updateNotice or U.WilloKeeps() then return nil end
   local newest = U.Newer()
   return newest and string.format(L["A new version is out: %s (you have %s)."], newest, ns.Log.Version()) or nil
 end

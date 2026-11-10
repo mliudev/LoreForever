@@ -1,0 +1,90 @@
+{
+ "key": "quest:97331",
+ "type": "quest",
+ "name": "Zimmix's Great Escape",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97331
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Zimmix Sputterspark asks you to escort him from the Ruins of Zul'Kunda. He fears the trolls may catch him again, and Wharfmaster Lozgil in Booty Bay is to hear of the rescue.",
+ "sections": [
+  {
+   "title": "A Goblin's Plea",
+   "body": "At the Ruins of Zul'Kunda, Zimmix Sputterspark asks you to keep watch as he leaves. He says the trolls caught him once, and worries they may do so again. You have already weakened their numbers enough to get the key he needed. Now Zimmix wants your help reaching safety, with Wharfmaster Lozgil in Booty Bay awaiting word of the rescue.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Zimmix?",
+   "aliases": [
+    "zimmix",
+    "who's zimmix",
+    "zimmix sputterspark"
+   ],
+   "answer": "Zimmix Sputterspark is a goblin who asks you to escort him from the Ruins of Zul'Kunda."
+  },
+  {
+   "q": "Why does Zimmix want an escort?",
+   "aliases": [
+    "why escort zimmix",
+    "zimmix scared",
+    "trolls got him"
+   ],
+   "answer": "Zimmix fears the trolls may catch him again after they caught him once before."
+  },
+  {
+   "q": "Where are you escorting Zimmix from?",
+   "aliases": [
+    "where is zimmix",
+    "zul'kunda",
+    "zimmix location"
+   ],
+   "answer": "You are escorting Zimmix away from the Ruins of Zul'Kunda."
+  },
+  {
+   "q": "Who should hear about the rescue?",
+   "aliases": [
+    "who to tell",
+    "lozgil",
+    "rescue report"
+   ],
+   "answer": "Wharfmaster Lozgil in Booty Bay is to hear of Zimmix's successful rescue."
+  },
+  {
+   "q": "What key did Zimmix need?",
+   "aliases": [
+    "zimmix key",
+    "why get the key",
+    "key for zimmix"
+   ],
+   "answer": "Zimmix says he needed a key, and that you weakened the trolls enough to get it."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "great escape",
+  "key",
+  "ruins of zul'kunda",
+  "trolls",
+  "wharfmaster lozgil",
+  "zimmix",
+  "zimmix sputterspark"
+ ],
+ "related": [
+  "subzone:booty-bay",
+  "topic:troll",
+  "topic:goblin",
+  "quest:4449"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Zimmix's Great Escape"
+ ]
+}

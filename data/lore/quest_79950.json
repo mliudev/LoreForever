@@ -1,0 +1,67 @@
+{
+ "key": "quest:79950",
+ "type": "quest",
+ "name": "Demons and You",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79950
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A library keeper asks you to add a magical work to the collection. Your efforts help expand the library\u2019s knowledge.",
+ "sections": [
+  {
+   "title": "A Library Collection",
+   "body": "A keeper at the Library in Ironforge asks you to contribute a magical work. The collection grows through your efforts, and the keeper welcomes further works that could benefit the library.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the library keeper want?",
+   "aliases": [
+    "what should I bring",
+    "library request",
+    "demons and you quest"
+   ],
+   "answer": "The keeper asks you to bring a magical work to add to the library\u2019s collection."
+  },
+  {
+   "q": "Where is the collection?",
+   "aliases": [
+    "where is this",
+    "library location",
+    "ironforge library"
+   ],
+   "answer": "The collection is in the Library in Ironforge."
+  },
+  {
+   "q": "Why bring magical works to the library?",
+   "aliases": [
+    "why donate books",
+    "what is it for",
+    "library purpose"
+   ],
+   "answer": "The keeper says your efforts expand the library\u2019s knowledge."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "collection",
+  "demons and you",
+  "ironforge",
+  "knowledge",
+  "library",
+  "magical works"
+ ],
+ "related": [
+  "subzone:library-ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Demons and You"
+ ]
+}

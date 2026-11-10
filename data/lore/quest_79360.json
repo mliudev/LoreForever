@@ -1,0 +1,84 @@
+{
+ "key": "quest:79360",
+ "type": "quest",
+ "name": "Elemental Aid",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79360
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A call to repay the elements for their aid sends you into Razorfen Kraul. The quilboar are twisting elemental power, and their plans threaten these lands.",
+ "sections": [
+  {
+   "title": "A Call to the Elements",
+   "body": "The elements have aided you, and now you are asked to return that favor. The quilboar twist their power for their own ends and appear to be reaching farther within these borders. You are sent into Razorfen Kraul to stop their schemes and protect the lands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why am I going into Razorfen Kraul?",
+   "aliases": [
+    "razorfen kraul why",
+    "why go kraul",
+    "elemental aid reason"
+   ],
+   "answer": "The quilboar are twisting the elements for their own ends and seem to be extending their reach. You are asked to stop their schemes and protect the lands."
+  },
+  {
+   "q": "Who is Charlga Razorflank?",
+   "aliases": [
+    "charlga who",
+    "charlga razorflank",
+    "razorflank"
+   ],
+   "answer": "Charlga Razorflank is the quilboar you are sent to defeat in Razorfen Kraul."
+  },
+  {
+   "q": "What information am I meant to collect?",
+   "aliases": [
+    "quilboar plans",
+    "what info",
+    "plans info"
+   ],
+   "answer": "You are asked to collect information on the quilboar's plans."
+  },
+  {
+   "q": "Why should I help the elements?",
+   "aliases": [
+    "elemental aid why",
+    "help elements",
+    "repay elements"
+   ],
+   "answer": "You have received aid from the elements, and are asked to return that favor by protecting the lands from the quilboar's schemes."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "As a shaman, you have mastered the elements and are asked to repay their aid by protecting them from the quilboar's schemes."
+  }
+ ],
+ "keywords": [
+  "charlga razorflank",
+  "elemental aid",
+  "elements",
+  "quilboar",
+  "quilboar plans",
+  "razorfen kraul"
+ ],
+ "related": [
+  "zone:razorfenkraul",
+  "npc:charlga-razorflank",
+  "topic:quilboar",
+  "topic:razorfen"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Elemental Aid"
+ ]
+}

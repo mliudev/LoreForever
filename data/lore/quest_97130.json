@@ -1,0 +1,87 @@
+{
+ "key": "quest:97130",
+ "type": "quest",
+ "name": "Ancient Gurubashi Secrets",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97130
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Lan'dalock asks you to recover an idol from an ancient Gurubashi ruin newly risen off Stranglethorn Vale. The site may hold valuable clues to Gurubashi blood magic.",
+ "sections": [
+  {
+   "title": "A Ruin Risen",
+   "body": "Lan'dalock and you have been discussing a strange change in the South Seas. An ancient Gurubashi ruin has appeared off Stranglethorn Vale's coast. Its sudden return draws the interest of those who study the past.",
+   "spoiler": 0
+  },
+  {
+   "title": "An Idol of the Gurubashi",
+   "body": "The Drowned City holds artifacts of great archaeological worth. Lan'dalock seeks an idol once used by certain Gurubashi witch doctors as a focus for blood magic. You are asked to bring one back for study.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the idol?",
+   "aliases": [
+    "who sent me",
+    "lan'dalock idol",
+    "who wants it"
+   ],
+   "answer": "Lan'dalock and a companion seek an Ancient Gurubashi Idol from the Drowned City."
+  },
+  {
+   "q": "Where did the Gurubashi ruin appear?",
+   "aliases": [
+    "where is drowned city",
+    "ruin location",
+    "gurubashi city"
+   ],
+   "answer": "The ancient Gurubashi ruin appeared off the coast of Stranglethorn Vale in the South Seas."
+  },
+  {
+   "q": "Why do they want an idol?",
+   "aliases": [
+    "why idol",
+    "idol purpose",
+    "what is it for"
+   ],
+   "answer": "Certain ancient Gurubashi witch doctors used idols as focuses for blood magic, and Lan'dalock wants one for study."
+  },
+  {
+   "q": "What is the Drowned City?",
+   "aliases": [
+    "drowned city",
+    "sunken gurubashi ruins",
+    "ancient ruins"
+   ],
+   "answer": "It is an ancient Gurubashi ruin that has appeared off Stranglethorn Vale's coast."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ancient gurubashi idol",
+  "ancient gurubashi secrets",
+  "blood magic",
+  "drowned city",
+  "gurubashi",
+  "lan'dalock",
+  "south seas",
+  "stranglethorn vale",
+  "witch doctors"
+ ],
+ "related": [
+  "quest:96774",
+  "quest:95775",
+  "zone:stranglethorn",
+  "subzone:south-seas"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Ancient Gurubashi Secrets"
+ ]
+}

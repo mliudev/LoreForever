@@ -1,0 +1,84 @@
+{
+ "key": "quest:93225",
+ "type": "quest",
+ "name": "Carved Centaur Totems",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93225
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Gurda Wildmane believes carved totems could help win the favor of the Gelkis or Magram. She needs authentic ones gathered from centaur clans across Desolace.",
+ "sections": [
+  {
+   "title": "A Centaur Currency",
+   "body": "Gurda Wildmane at Ghost Walker Post has watched centaur clans meet away from their settlements to trade. She has seen them use carved totems as currency. Now she thinks a large bundle might sway the Gelkis or Magram, but the totems she has carved may not pass as genuine. So she asks you to bring her authentic examples.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Gurda want?",
+   "aliases": [
+    "gurda request",
+    "what does wildmane need"
+   ],
+   "answer": "Gurda Wildmane asks you to bring her authentic carved centaur totems."
+  },
+  {
+   "q": "Why does she need carved totems?",
+   "aliases": [
+    "totems for what",
+    "why totems"
+   ],
+   "answer": "Gurda believes a large bundle could help win the favor of the Gelkis or Magram."
+  },
+  {
+   "q": "Where do centaur use the totems?",
+   "aliases": [
+    "centaur trade",
+    "where totems"
+   ],
+   "answer": "Gurda has seen centaur from different clans meet away from their settlements and trade with carved totems as currency."
+  },
+  {
+   "q": "Where can I find Gurda Wildmane?",
+   "aliases": [
+    "gurda location",
+    "wildmane at ghost walker"
+   ],
+   "answer": "Gurda Wildmane is at Ghost Walker Post."
+  },
+  {
+   "q": "Which centaur clans are involved?",
+   "aliases": [
+    "gelkis magram",
+    "which clans"
+   ],
+   "answer": "Gurda hopes a bundle of totems could win favor with either the Gelkis or the Magram."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "carved centaur totems",
+  "centaur currency",
+  "desolace",
+  "gelkis",
+  "ghost walker post",
+  "gurda wildmane",
+  "magram"
+ ],
+ "related": [
+  "zone:desolace",
+  "subzone:ghost-walker-post",
+  "topic:centaur",
+  "quest:93224"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Carved Centaur Totems"
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "key": "quest:94250",
+ "type": "quest",
+ "name": "Craftsman's Writ: Small Silk Pack",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94250
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ requests one Small Silk Pack and gives details for its delivery and payment. The writ is needed to complete the exchange.",
+ "sections": [
+  {
+   "title": "The Writ",
+   "body": "A customer\u2019s faded note asks you for one Small Silk Pack. It includes where to deliver the pack and how payment will be made. The writ can pass from hand to hand, but you need to hold it when the exchange is completed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "small silk pack writ",
+    "what item is requested",
+    "silk pack request"
+   ],
+   "answer": "The customer requests one Small Silk Pack."
+  },
+  {
+   "q": "Where do I deliver the pack?",
+   "aliases": [
+    "delivery location",
+    "where to take it",
+    "where is the dropoff"
+   ],
+   "answer": "The writ provides delivery information, and the location is marked on your map."
+  },
+  {
+   "q": "How is payment handled?",
+   "aliases": [
+    "how much do I get",
+    "payment details",
+    "what's the payment"
+   ],
+   "answer": "The writ includes information about payment."
+  },
+  {
+   "q": "Can I transfer the writ to someone else?",
+   "aliases": [
+    "is the writ transferable",
+    "give writ away",
+    "pass it on"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  },
+  {
+   "q": "Do I need the writ to complete the exchange?",
+   "aliases": [
+    "need writ to turn in",
+    "must I keep the note",
+    "writ required"
+   ],
+   "answer": "Yes. You need the writ in your possession to complete the transaction."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "delivery",
+  "payment",
+  "silk",
+  "small silk pack",
+  "transferable",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Small Silk Pack"
+ ]
+}

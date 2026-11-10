@@ -14459,9 +14459,9 @@
     "topic:house-of-nobles": {
       "1": [
         {
-          "duration": 39.49714285714286,
-          "file": "Audio/Transport/full_topic_house-of-nobles-3ddbaa20e5b05f895eca/1-0000.mp3",
-          "sha256": "05e7ceb3035bf594c88955c4ca79c3382da51803776f3e889897746e97356240",
+          "duration": 37.30285714285714,
+          "file": "Audio/Transport/full_topic_house-of-nobles-db28f1cafa3af0b2b21d/1-0000.mp3",
+          "sha256": "626652eade81e9063e2ff54c497d6db49f254d52c403d7f97e97bf4ef45b5f7e",
           "start": 0
         }
       ],
@@ -14473,12 +14473,12 @@
         ]
       },
       "fullHash": "da4f72",
-      "generation": "aa155ecafdeb19503a20",
+      "generation": "03b8f496050467069066",
       "hash": "da4f72",
       "source": {
-        "duration": 39.523265,
+        "duration": 37.32898,
         "file": null,
-        "sha256": "3ddbaa20e5b05f895ecac683eeaba9c84b8285cda20f0209837027350c4d7182"
+        "sha256": "db28f1cafa3af0b2b21d81121ca87175dec752ddb451f77e7a0c34b59094c1cf"
       },
       "text": "House of Nobles. In Stormwind Keep, the House of Nobles holds the kingdom’s lands, taxes, and trade. Their refusal to pay the laborers who rebuilt the city set off bloody riots that shook the realm. Stormwind’s greatest patrician families form the House of Nobles, the Crown’s chief council. They own most arable land in Elwynn, Westfall, and Duskwood, and so hold great sway over trade, regional magistrates, and royal decrees. Boy-king Anduin Wrynn and Highlord Bolvar Fordragon rule Stormwind in name. Yet the council can bind the throne in red tape, stall trials, block executions, and meddle in provincial affairs."
     },
@@ -15241,14 +15241,6 @@
     ],
     "05e37230b0a647e65aa6b155e7f82c354b61aad2afb6853598f8ab21a69d4183": [
       611
-    ],
-    "05e7ceb3035bf594c88955c4ca79c3382da51803776f3e889897746e97356240": [
-      223,
-      472,
-      630,
-      850,
-      1036,
-      1227
     ],
     "05f27e0b09cda5196a6114ed190607a162036cf6be954bf8fdd23a449ed377a1": [
       264,
@@ -17273,6 +17265,13 @@
       2516,
       2689,
       3029
+    ],
+    "626652eade81e9063e2ff54c497d6db49f254d52c403d7f97e97bf4ef45b5f7e": [
+      208,
+      441,
+      663,
+      887,
+      1172
     ],
     "62767c86d26a84d3ce1564c9620d924f4b0acdb3d62451d77a9b4da662624336": [
       378,
@@ -20575,9 +20574,6 @@
     "05e1964c85f73565439dccde67ed70809caf6c9cf767e0c259cf47cc443fbae9": {
       "455": 1
     },
-    "05e7ceb3035bf594c88955c4ca79c3382da51803776f3e889897746e97356240": {
-      "472": 1
-    },
     "05f27e0b09cda5196a6114ed190607a162036cf6be954bf8fdd23a449ed377a1": {
       "415": 1
     },
@@ -21346,6 +21342,9 @@
       "1377": 2,
       "2516": 3,
       "416": 1
+    },
+    "626652eade81e9063e2ff54c497d6db49f254d52c403d7f97e97bf4ef45b5f7e": {
+      "441": 1
     },
     "62767c86d26a84d3ce1564c9620d924f4b0acdb3d62451d77a9b4da662624336": {
       "378": 1

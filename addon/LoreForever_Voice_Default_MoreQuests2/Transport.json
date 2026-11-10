@@ -2005,9 +2005,9 @@
     "quest:1096": {
       "1": [
         {
-          "duration": 75.2326530612245,
-          "file": "Audio/Transport/full_quest_1096-3bb4b522376edbcb83ef/1-0000.mp3",
-          "sha256": "6919e162876e9211254f49b4fc645bad7a5c74923d33445b958fff1c58b088fa",
+          "duration": 76.64326530612246,
+          "file": "Audio/Transport/full_quest_1096-08ee76b45807d09d97d5/1-0000.mp3",
+          "sha256": "8664ddc583a6524dcc57870b52290b4351e4f24497300a8b5b5673604f19b95e",
           "start": 0
         }
       ],
@@ -2019,12 +2019,12 @@
         ]
       },
       "fullHash": "c8d1a3",
-      "generation": "80a4e04d1863723e0cd9",
+      "generation": "317e8617452904bb032c",
       "hash": "c8d1a3",
       "source": {
-        "duration": 75.258776,
+        "duration": 76.669388,
         "file": null,
-        "sha256": "3bb4b522376edbcb83efe4472ac7ce3142a204c6ad238cb492f329dcaac1f7b0"
+        "sha256": "08ee76b45807d09d97d533ae92320019ebd90fa7ca9ed506e5458e6f9e19387e"
       },
       "text": "Gerenzo Wrenchwhistle. Above Cragpool Lake, Gerenzo Wrenchwhistle awaits a bounty in the Stonetalon Mountains. The rogue gnome overseer has replaced much of his rotting flesh with gears, clockwork machinery, and artificial limbs. Ziz Fizziks wants his mechanical arm as proof of his death, hoping it will win him a promotion. Gerenzo’s body bears the marks of his transformations. Those who have seen him say his natural flesh rots beneath grafted gears, iron plating, and whirring clockwork limbs. Near the great water wheel above Cragpool Lake, he watches the operations. His failing flesh does not concern him. Ziz Fizziks works for Sputtervalve and hopes Gerenzo’s death will carry him out of Stonetalon. Ziz cannot climb the cliffs and defeat the augmented overseer alone, so he asks you to bring back Gerenzo’s mechanical arm. He hopes the arm will prove his worth and earn him a transfer to the Tinkers’ Union workshops in Gadgetzan or Undermine. Gerenzo’s mechanical arm reflects a sharp divide between gnome and goblin engineering. He cut away failing flesh to make room for complex prosthetics, a choice goblins find baffling. Ziz believes goblin ingenuity would keep the natural limb and add an explosive third arm beside it."
     },
@@ -18333,9 +18333,9 @@
     "quest:6481": {
       "1": [
         {
-          "duration": 39.47102040816327,
-          "file": "Audio/Transport/full_quest_6481-928faec2249c57f19930/1-0000.mp3",
-          "sha256": "1b5bf0c7dcb1b816a85f25e4543af952006cd553cf530adf7c4b99afba405299",
+          "duration": 39.83673469387755,
+          "file": "Audio/Transport/full_quest_6481-448083d060795f2ed95b/1-0000.mp3",
+          "sha256": "26deec52b045e5c90d3b63358fc77cb041c56e9da585299bb98972ce407e0114",
           "start": 0
         }
       ],
@@ -18347,12 +18347,12 @@
         ]
       },
       "fullHash": "fd2163",
-      "generation": "e8aa0b75f6e51b29b906",
+      "generation": "7ba1365214ab9d540a3b",
       "hash": "fd2163",
       "source": {
-        "duration": 39.497143,
+        "duration": 39.862857,
         "file": null,
-        "sha256": "928faec2249c57f1993029bee5274f481b2407c0f095d04f36cb25e971c89857"
+        "sha256": "448083d060795f2ed95b0e805eba7c01a13e5738a71d9c6984021afbd8c009e0"
       },
       "text": "Earthen Arise. In Boulderslide Ravine, Mor'rogal finds Goggeroc asleep inside a Resonite cask. The tauren shaman fears the ancient Earthen could threaten all Kalimdor, so he sends a champion to break the cask and slay Goggeroc before its strength returns. Scouts searching Boulderslide Ravine for vermin found a strange relic among the kobolds. A Resonite cask held unearthly force. Mor'rogal, a tauren shaman in the Stonetalon Mountains, knew it was both prison and sanctuary for Goggeroc, a dormant Earthen. These ancient beings of stone can outmatch mortal warriors, and Goggeroc's freedom could endanger the whole region."
     },
@@ -35329,14 +35329,6 @@
       1757,
       1902
     ],
-    "1b5bf0c7dcb1b816a85f25e4543af952006cd553cf530adf7c4b99afba405299": [
-      239,
-      397,
-      609,
-      827,
-      981,
-      1246
-    ],
     "1b621641ca95df78579fc0fa7d4b194fbe4ae9e74ccd51746a8c06933679b886": [
       228,
       363,
@@ -35900,6 +35892,12 @@
       1571,
       1743,
       1984
+    ],
+    "26deec52b045e5c90d3b63358fc77cb041c56e9da585299bb98972ce407e0114": [
+      226,
+      621,
+      843,
+      1275
     ],
     "27079fba7e670991e4f71f2a7d03e2d7a3bcd56924fc504e944ccd741a34afd9": [
       430
@@ -38593,17 +38591,6 @@
       1536,
       1679
     ],
-    "6919e162876e9211254f49b4fc645bad7a5c74923d33445b958fff1c58b088fa": [
-      402,
-      747,
-      1142,
-      1415,
-      1642,
-      1918,
-      2192,
-      2396,
-      2557
-    ],
     "692f822816cc66526486f478ca738e8bd76e7a3a79ea504967543eae7d1285fa": [
       199,
       487,
@@ -39811,6 +39798,18 @@
       277,
       476,
       734
+    ],
+    "8664ddc583a6524dcc57870b52290b4351e4f24497300a8b5b5673604f19b95e": [
+      234,
+      515,
+      744,
+      1152,
+      1448,
+      1664,
+      1972,
+      2249,
+      2460,
+      2696
     ],
     "87084b0897e4b9ba1340fd52efdcbc2133c54d0abc1ed4248d23735b3a33e688": [
       188,
@@ -45430,9 +45429,6 @@
       "1208": 2,
       "476": 1
     },
-    "1b5bf0c7dcb1b816a85f25e4543af952006cd553cf530adf7c4b99afba405299": {
-      "609": 1
-    },
     "1b621641ca95df78579fc0fa7d4b194fbe4ae9e74ccd51746a8c06933679b886": {
       "363": 1
     },
@@ -45684,6 +45680,9 @@
       "1052": 2,
       "1743": 3,
       "470": 1
+    },
+    "26deec52b045e5c90d3b63358fc77cb041c56e9da585299bb98972ce407e0114": {
+      "621": 1
     },
     "2757c6050888fc59bd745d6afa250daac5d1748a21e99ac90a3df6f4f49dc9d6": {
       "332": 1
@@ -46918,11 +46917,6 @@
       "1174": 2,
       "428": 1
     },
-    "6919e162876e9211254f49b4fc645bad7a5c74923d33445b958fff1c58b088fa": {
-      "1415": 2,
-      "2192": 3,
-      "747": 1
-    },
     "692f822816cc66526486f478ca738e8bd76e7a3a79ea504967543eae7d1285fa": {
       "1469": 2,
       "487": 1
@@ -47466,6 +47460,11 @@
     },
     "8630b892ddc0363dc3cc805a39b7cdeb95b9fdcdcb572afa2c74430df20f9751": {
       "277": 1
+    },
+    "8664ddc583a6524dcc57870b52290b4351e4f24497300a8b5b5673604f19b95e": {
+      "1448": 2,
+      "2249": 3,
+      "744": 1
     },
     "87084b0897e4b9ba1340fd52efdcbc2133c54d0abc1ed4248d23735b3a33e688": {
       "1376": 2,

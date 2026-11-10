@@ -4326,7 +4326,7 @@ P.transport["quest:6461"] = {
   fullHash = "ea406a",
   text = "Blood Feeders. In Malaka'jin, Blood Feeders begin with butchered game drawing Deepmoss spiders toward the trolls' camps. Xen'Zilla asks the Horde to drive the predators back from the settlement. The trolls founded Malaka'jin as a frontier outpost in southeastern Stonetalon Mountains, where they could hunt. The craggy slopes offer plenty of game, but its meat draws nocturnal predators into camp. Deepmoss spiders are aggressive arachnids native to the crags and canyons to the north. Under cover of darkness, they slip in to scavenge the trolls' stores or hunt the hunters themselves. Xen'Zilla asks you to track the predators north into the mountain passes. That will help keep Malaka'jin safe and protect its supplies. Deepmoss Creepers and Venomspitters gather thickest around the rocky ravines and webs of Sishir Canyon. Thin their numbers, and the brood will retreat from the settlement. Then the hunters can rest without fearing an ambush from the shadows.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6461-403ce7feb46fc16e5b27/1-0000.mp3", duration = 56.6073469, start = 0},
+    {file = "Audio/Transport/full_quest_6461-cf4721a0dea67883e77e/1-0000.mp3", duration = 56.2416327, start = 0},
   },
 }
 P.transport["quest:6462"] = {

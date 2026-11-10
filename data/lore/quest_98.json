@@ -1,0 +1,98 @@
+{
+ "key": "quest:98",
+ "type": "quest",
+ "name": "The Legend of Stalvan",
+ "era": "forever",
+ "zone": "duskwood",
+ "meta": {
+  "ids": [
+   98
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Madame Eva's foreboding points to a threat against Darkshire: Stalvan Mistmantle, a killer with a family ring. You are asked to confront him and bring the ring to her.",
+ "sections": [
+  {
+   "title": "A Threat to Darkshire",
+   "body": "Madame Eva's premonition has led you to Stalvan Mistmantle, whose crimes have brought fear to Darkshire. He is said to threaten the town from his cottage just north of it. You are asked to put an end to that danger and take his family ring to Madame Eva.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Stalvan Mistmantle?",
+   "aliases": [
+    "stalvan",
+    "who is stalvan",
+    "stalvan backstory"
+   ],
+   "answer": "Stalvan Mistmantle is described as a killer responsible for many crimes, and he threatens Darkshire."
+  },
+  {
+   "q": "Why does Madame Eva send me after Stalvan?",
+   "aliases": [
+    "why stalvan",
+    "eva stalvan",
+    "why kill stalvan"
+   ],
+   "answer": "Madame Eva's premonition led to the discovery of Stalvan's threat against Darkshire."
+  },
+  {
+   "q": "Where is Stalvan's cottage?",
+   "aliases": [
+    "stalvan cottage",
+    "where stalvan",
+    "cottage location"
+   ],
+   "answer": "Stalvan's cottage is just north of Darkshire."
+  },
+  {
+   "q": "What does Madame Eva ask me to bring back?",
+   "aliases": [
+    "family ring",
+    "stalvan ring",
+    "bring eva what"
+   ],
+   "answer": "She asks you to show her Stalvan's family ring."
+  },
+  {
+   "q": "What happened after Stalvan was killed?",
+   "aliases": [
+    "stalvan ending",
+    "is stalvan dead",
+    "what happened to stalvan"
+   ],
+   "answer": "Madame Eva says Stalvan is dead, and that Duskwood is free from his bloodthirst."
+  },
+  {
+   "q": "Why is Madame Eva glad?",
+   "aliases": [
+    "eva happy",
+    "why is eva glad",
+    "madame eva reaction"
+   ],
+   "answer": "She sensed hope spread through the tainted forest after Stalvan's death, though she grieves for his victims."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cottage",
+  "darkshire",
+  "duskwood",
+  "family ring",
+  "madame eva",
+  "stalvan",
+  "stalvan mistmantle"
+ ],
+ "related": [
+  "zone:duskwood",
+  "subzone:darkshire",
+  "npc:madame-eva",
+  "topic:light"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Legend of Stalvan"
+ ]
+}

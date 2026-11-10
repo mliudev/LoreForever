@@ -1,0 +1,95 @@
+{
+ "key": "quest:96873",
+ "type": "quest",
+ "name": "A Pain in the Neck",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96873
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Pa'zula asks you to strip the binding magic from pendants used by Zalazane to control trolls in the Echo Isles. The residue may free their spirits from the witchdoctor's hold.",
+ "sections": [
+  {
+   "title": "Pa'zula's Request",
+   "body": "Pa'zula in Sen'jin Village needs the residue from Hexed Pendants. Zalazane uses binding spells on the pendants to keep his prisoners under control. You are to remove that magic and bring Pa'zula what remains. The trolls' freedom is at stake.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Pendants",
+   "body": "Pa'zula says the binding spells hold the trolls' minds, and warns you against wearing a pendant yourself. When you return with the residue, Pa'zula says the spells are removed and the slain trolls' spirits can rest.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the residue?",
+   "aliases": [
+    "who wants residue",
+    "pa'zula request"
+   ],
+   "answer": "Pa'zula in Sen'jin Village asks you to bring the residue from Hexed Pendants."
+  },
+  {
+   "q": "What does Zalazane do with the pendants?",
+   "aliases": [
+    "zalazane pendants",
+    "hexed pendants"
+   ],
+   "answer": "Zalazane uses binding spells on the pendants to keep his prisoners' minds under control."
+  },
+  {
+   "q": "Where are the Hexed Pendants found?",
+   "aliases": [
+    "pendant location",
+    "where pendants"
+   ],
+   "answer": "The Hexed Pendants are carried by trolls in the Echo Isles."
+  },
+  {
+   "q": "What is Luminous Residue?",
+   "aliases": [
+    "residue from pendants",
+    "luminous stuff"
+   ],
+   "answer": "Luminous Residue is obtained by stripping the magic from Hexed Pendants."
+  },
+  {
+   "q": "Why does Pa'zula want the pendant magic removed?",
+   "aliases": [
+    "why disenchant pendants",
+    "free troll spirits"
+   ],
+   "answer": "Pa'zula says removing the binding spells lets the slain trolls' spirits rest."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Tailoring",
+   "text": "As an enchanter, you practice your craft by stripping binding magic from Hexed Pendants for Pa'zula."
+  }
+ ],
+ "keywords": [
+  "a pain in the neck",
+  "binding spells",
+  "echo isles",
+  "hexed pendants",
+  "luminous residue",
+  "pa'zula",
+  "sen'jin village",
+  "zalazane"
+ ],
+ "related": [
+  "quest:826",
+  "subzone:echo-isles",
+  "subzone:sen-jin-village",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Pain in the Neck"
+ ]
+}

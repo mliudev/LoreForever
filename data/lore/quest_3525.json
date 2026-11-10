@@ -1,0 +1,78 @@
+{
+ "key": "quest:3525",
+ "type": "quest",
+ "name": "Extinguishing the Idol",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3525
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Belnistrasz asks you to reach the Quilboar's idol in Razorfen Downs. He intends to perform a ritual to shut it down.",
+ "sections": [
+  {
+   "title": "The Idol",
+   "body": "In Razorfen Downs, Belnistrasz needs you beside him at the Quilboar's idol. You are to escort him there and protect him while he performs a ritual to shut it down. The idol's continued presence is what the ritual seeks to end.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Belnistrasz?",
+   "aliases": [
+    "Belnistrasz",
+    "who is Belnistrasz",
+    "Belnistrasz quest"
+   ],
+   "answer": "Belnistrasz is the one you escort to the Quilboar's idol in Razorfen Downs."
+  },
+  {
+   "q": "What does Belnistrasz want to do?",
+   "aliases": [
+    "what's Belnistrasz doing",
+    "idol ritual",
+    "shut down idol"
+   ],
+   "answer": "Belnistrasz plans to perform a ritual to shut down the Quilboar's idol."
+  },
+  {
+   "q": "Where is the idol?",
+   "aliases": [
+    "idol location",
+    "where's the idol",
+    "Quilboar idol"
+   ],
+   "answer": "The Quilboar's idol is in Razorfen Downs."
+  },
+  {
+   "q": "Why do I need to go with Belnistrasz?",
+   "aliases": [
+    "why escort him",
+    "protect Belnistrasz",
+    "what am I supposed to do"
+   ],
+   "answer": "You are asked to escort Belnistrasz to the idol and protect him during his ritual."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "belnistrasz",
+  "idol",
+  "quilboar",
+  "razorfen downs",
+  "ritual",
+  "shut down"
+ ],
+ "related": [
+  "subzone:razorfen-downs-classic",
+  "topic:quilboar",
+  "topic:razorfen"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Extinguishing the Idol"
+ ]
+}

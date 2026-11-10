@@ -1,0 +1,86 @@
+{
+ "key": "quest:86574",
+ "type": "quest",
+ "name": "Stonetalon Supply Run",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   86574
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "At Stonetalon Peak, Innkeeper Faralia awaits supplies after a courier was killed and the shipment went missing. The Pridewing wyverns may have carried the bundles away.",
+ "sections": [
+  {
+   "title": "A Lost Shipment",
+   "body": "A dead courier lies beside a scattered pack, and a note names Innkeeper Faralia at Stonetalon Peak as the intended recipient. You are asked to recover the missing Stonetalon Supplies from the Pridewing Wyverns. Faralia hopes the shipment arrives soon.",
+   "spoiler": 0
+  },
+  {
+   "title": "Faralia's Thanks",
+   "body": "Faralia learns the courier did not survive. She says she will put the recovered supplies to use, so the courier's loss will not be in vain.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was the shipment for?",
+   "aliases": [
+    "who gets the supplies",
+    "faralia shipment"
+   ],
+   "answer": "The note identifies Innkeeper Faralia at Stonetalon Peak as the recipient."
+  },
+  {
+   "q": "What happened to the courier?",
+   "aliases": [
+    "courier dead",
+    "what happened here"
+   ],
+   "answer": "The courier was killed, and the body bears marks from many strikes by Pridewing wyverns."
+  },
+  {
+   "q": "What went missing?",
+   "aliases": [
+    "missing supplies",
+    "what was in the pack"
+   ],
+   "answer": "A shipment of supplies meant for Innkeeper Faralia is missing from the courier's discarded pack."
+  },
+  {
+   "q": "Where might the supplies be?",
+   "aliases": [
+    "wyvern supplies",
+    "where are bundles"
+   ],
+   "answer": "The Pridewing Wyverns may have carried the supply bundles away to line their nests."
+  },
+  {
+   "q": "What does Faralia need?",
+   "aliases": [
+    "what does innkeeper want",
+    "stonetalon supply run"
+   ],
+   "answer": "Faralia is waiting for the missing shipment of supplies intended for her at Stonetalon Peak."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "courier",
+  "innkeeper faralia",
+  "missing shipment",
+  "pridewing wyverns",
+  "stonetalon supplies",
+  "stonetalon supply run"
+ ],
+ "related": [
+  "subzone:stonetalon-peak",
+  "quest:890"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Stonetalon Supply Run"
+ ]
+}

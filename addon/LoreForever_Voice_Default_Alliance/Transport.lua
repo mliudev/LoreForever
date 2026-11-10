@@ -947,10 +947,10 @@ P.transport["subzone:boulderslide-cavern"] = {
 }
 P.transport["subzone:boulderslide-ravine"] = {
   hash = "3c8a0f",
-  fullHash = "523523",
-  text = "Boulderslide Ravine. Along Webwinder Path, Boulderslide Ravine cuts through the central peaks of the Stonetalon Mountains. Horde and Alliance fighting rarely reaches this quiet pass. Rocky slopes lead toward Boulderslide Cavern, while wild mountain beasts roam the heights. Webwinder Path leads into Boulderslide Ravine, high in the Stonetalon Mountains. Loggers, night elves, and the Horde fight over timber and sacred glades elsewhere in the region, but soldiers rarely enter this narrow pass. Mountain rams and crag beasts roam its ledges and sheer walls. Cliff Stormers are among them. Prospectors watch the slopes for rich mineral veins on the way toward the deeper cavern network. Across from Boulderslide Cavern's entrance, a small cave looks over the ravine. Rough torches light weathered supply barrels and primitive tribal paintings. The designs resemble ancient tauren art. They suggest native tribes once traveled through these crags or took shelter here, long before modern conflict reached the mountains.",
+  fullHash = "f07006",
+  text = "Boulderslide Ravine. Along Webwinder Path, Boulderslide Ravine cuts through the central peaks of the Stonetalon Mountains. Horde and Alliance fighting rarely reaches this quiet pass. Rocky slopes lead toward Boulderslide Cavern, while wild mountain beasts roam the heights. Boulderslide Ravine is a narrow pass leading to a subterranean lair deep in the mountains. Loggers, night elves, and the Horde fight over timber and sacred glades elsewhere in the region, but soldiers rarely enter this narrow pass. Mountain rams and crag beasts roam its ledges and sheer walls. Cliff Stormers are among them. Prospectors watch the slopes for rich mineral veins on the way toward the deeper cavern network. Across from Boulderslide Cavern's entrance, a small cave looks over the ravine. Rough torches light weathered supply barrels and primitive tribal paintings. The designs resemble ancient tauren art. They suggest native tribes once traveled through these crags or took shelter here, long before modern conflict reached the mountains.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_boulderslide-ravine-c306fc919ef1b2c6a26d/1-0000.mp3", duration = 59.924898, start = 0},
+    {file = "Audio/Transport/full_subzone_boulderslide-ravine-6cc25fd2c5e5988a956b/1-0000.mp3", duration = 60.7085714, start = 0},
   },
 }
 P.transport["subzone:brackwell-pumpkin-patch"] = {
@@ -990,7 +990,7 @@ P.transport["subzone:camp-aparaje"] = {
   fullHash = "534ccc",
   text = "Camp Aparaje. Grimtotem warriors now hold Camp Aparaje in the eastern heights of the Stonetalon Mountains. They slaughtered the peaceful tauren who settled there and claimed the outpost. Peaceful tauren once made their home among the Stonetalon crags, seeking a quiet life in the highlands. Then raiders from nearby Grimtotem Post struck under Grundig Darkcloud's lead. The attackers butchered some villagers and drove others away. Survivors such as Makaba Flathoof mourn their lost home and fear for kin taken captive. Grimtotem warriors now occupy Camp Aparaje as a forward base for their aggressive tribe in the region. Many Grimtotem settlements bear blue markings, but the great totem here is painted deep crimson.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_camp-aparaje-a9cdd20dc7355b6b0025/1-0000.mp3", duration = 43.0497959, start = 0},
+    {file = "Audio/Transport/full_subzone_camp-aparaje-464d9cee8921b46a558a/1-0000.mp3", duration = 43.2065306, start = 0},
   },
 }
 P.transport["subzone:canals-stormwind-city"] = {
@@ -1038,7 +1038,7 @@ P.transport["subzone:charred-vale"] = {
   fullHash = "6e3e57",
   text = "Charred Vale. In southwestern Stonetalon, fire and smoke still consume the Charred Vale. The Venture Company's logging left the woodland in ruins, and fire elementals roam while Bloodfury harpies defend their territory. Once, trees filled the basin in southwestern Stonetalon, and treants guarded the woodland. Native chimaeras and harpies lived among them. Then the Venture Company's goblins arrived with explosive machinery and cut down the forest. Their work corrupted the treants and woke chaotic fire elementals.\n\nThe treants drove the goblins back, but the loggers left a broken land scarred by fire. Whatever foul devices they used as they fled also tainted the valley. Blackened ancients wander blindly through smoke and ash, while enraged elementals roam nearby. Bloodfury harpies roost in skeletal snags and defend what remains of their territory.\n\nDruids from Sun Rock Retreat will not abandon the valley. They send travelers to sow enchanted seeds and tend the corrupted ancients as they work to reclaim the scorched earth.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_charred-vale-613295c8849d75031cc9/1-0000.mp3", duration = 63.0857143, start = 0},
+    {file = "Audio/Transport/full_subzone_charred-vale-4ce72093c56fe9d8b2c3/1-0000.mp3", duration = 64.8097959, start = 0},
   },
 }
 P.transport["subzone:chill-breeze-valley"] = {
@@ -1534,7 +1534,7 @@ P.transport["subzone:greatwood-vale"] = {
   fullHash = "28ed50",
   text = "Greatwood Vale. In eastern Stonetalon, the Grimtotem hold Greatwood Vale and strike at nearby settlements. The dangerous Webwinder Path leads into the forested valley, now their base for bloody assaults. Greatwood Vale has become a violent frontier off the Webwinder Path. Grundig Darkcloud leads the Grimtotem who have moved into the vale in force. They bar safe passage and terrorize the surrounding foothills. From Greatwood Vale, Grimtotem raiders swept into nearby Camp Aparaje and slaughtered nearly every tauren there. Makaba Flathoof escaped. Now he directs vengeful Horde warriors into the heart of the vale to kill the renegade Grimtotem and end Grundig Darkcloud's rule.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_greatwood-vale-726375efb1ff7790f736/1-0000.mp3", duration = 40.9077551, start = 0},
+    {file = "Audio/Transport/full_subzone_greatwood-vale-84c2903c3b1763db7282/1-0000.mp3", duration = 42.9453061, start = 0},
   },
 }
 P.transport["subzone:greenpaw-village"] = {
@@ -1926,7 +1926,7 @@ P.transport["subzone:malaka-jin"] = {
   fullHash = "d079ba",
   text = "Malaka'jin. In Malaka'jin, Darkspear hunters shelter Horde travelers climbing from the Barrens into the lower Stonetalon hills, south of Grimtotem Post. Beside the main trail into the Stonetalon Mountains, troll hunters keep a small camp among the crags and scrublands. They trade supplies and fresh game with travelers passing through. They also watch for mountain predators and Grimtotem tauren farther up the trails. Near the Barrens boundary, Malaka'jin gives the Horde an early foothold in Stonetalon. Sun Rock Retreat lies farther north as a larger stronghold. Here, Horde trackers watch for tribal unrest and guard the winding roads against threats.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_malaka-jin-dbfca4b855e5bea4dd01/1-0000.mp3", duration = 39.4971429, start = 0},
+    {file = "Audio/Transport/full_subzone_malaka-jin-c97a3a75f54cbe6c6b5e/1-0000.mp3", duration = 40.7771429, start = 0},
   },
 }
 P.transport["subzone:manor-mistmantle"] = {
@@ -1979,10 +1979,10 @@ P.transport["subzone:mirage-raceway"] = {
 }
 P.transport["subzone:mirkfallon-lake"] = {
   hash = "6f02da",
-  fullHash = "af4760",
-  text = "Mirkfallon Lake. Mirkfallon Lake gathers wildlife beneath Windshear Crag in the Stonetalon Mountains. Thunder lizards and wyverns crowd its banks, while aggressive slimes make its waters dangerous. Mirkfallon Lake gathers runoff at the heart of the Stonetalon range. It lies between Webwinder Path to the south and Stonetalon Peak to the north. Thunder lizards come down from the highlands to drink, and wyverns leave their roosts overhead. Strange slimes bubble in the water, making the crossing hazardous for travelers. Paths meet across the lake basin. To the east, rocky tracks climb into Windshear Crag and the logging operations in its forested valleys. Northward, travelers climb toward night elven sanctums and tauren heights. Southward, the route skirts venomous spider hollows. Scouts and explorers crossing these contested mountains must reckon with dangers that shift around the lake.",
+  fullHash = "226163",
+  text = "Mirkfallon Lake. Mirkfallon Lake gathers wildlife beneath Windshear Crag in the Stonetalon Mountains. Thunder lizards and wyverns crowd its banks, while aggressive slimes make its waters dangerous. The slopes of the Stonetalon range send their runoff down to Mirkfallon Lake, at the range's heart. It lies between Webwinder Path to the south and Stonetalon Peak to the north. Thunder lizards come down from the highlands to drink, and wyverns leave their roosts overhead. Strange slimes bubble in the water, making the crossing hazardous for travelers. Paths meet across the lake basin. To the east, rocky tracks climb into Windshear Crag and the logging operations in its forested valleys. Northward, travelers climb toward night elven sanctums and tauren heights. Southward, the route skirts venomous spider hollows. Scouts and explorers crossing these contested mountains must reckon with dangers that shift around the lake.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_mirkfallon-lake-f6cbe05e5659e596b29f/1-0000.mp3", duration = 52.8718367, start = 0},
+    {file = "Audio/Transport/full_subzone_mirkfallon-lake-140dfc083589aa7369db/1-0000.mp3", duration = 55.1183673, start = 0},
   },
 }
 P.transport["subzone:mirror-lake"] = {
@@ -2478,7 +2478,7 @@ P.transport["subzone:sishir-canyon"] = {
   fullHash = "99a5a5",
   text = "Sishir Canyon. Webs and Deepmoss spiders choke Sishir Canyon, the eastern pass through the Stonetalon Mountains. Travelers face the brood on the dangerous way to the Ruins of Eldre'thar. Sishir Canyon cuts through the Stonetalon Mountains toward the ancient Ruins of Eldre'thar. Deepmoss spiders have overrun the gorge. Sheets of web cover its stone floor and walls, and egg sacs cluster among them. Travelers and sentinels heading for the night elven ruins must fight through swarms of aggressive webspinners. Deep in Sishir Canyon, Besseleth rules as matriarch of the Deepmoss brood. Her great size and venom threaten anyone trying to secure the pass. Local forces in Stonetalon keep watch and warn travelers that scattered spiders are not all that lurks in the webbed depths. Besseleth fiercely guards her brood.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_sishir-canyon-25e01b6cac54ffc4dd01/1-0000.mp3", duration = 47.8563265, start = 0},
+    {file = "Audio/Transport/full_subzone_sishir-canyon-9f8f5436c7b987324122/1-0000.mp3", duration = 47.8563265, start = 0},
   },
 }
 P.transport["subzone:slaughtered-lamb"] = {
@@ -2598,7 +2598,7 @@ P.transport["subzone:stonetalon-peak"] = {
   fullHash = "1e42fe",
   text = "Stonetalon Peak. At Stonetalon Peak, kaldorei Sentinels and druids guard an ancient sanctuary. Its sheltered valley is sacred to the night elves and remains the Alliance’s main foothold in the high mountains. High above the dry lower ranges, Stonetalon Peak opens into a green valley. Its ruins reach back millennia to temples that honored Queen Azshara before the Great Sundering. Night elven Sentinels and druids care for the sanctuary now. They keep a barrow den and an Alliance flight roost here. During the Third War, Jaina Proudmoore’s human expedition and Thrall’s Horde climbed Stonetalon Peak, each seeking the Oracle in the deep caverns. Medivh’s visions had led them there. When they met, these mortal enemies laid down their blades. Their uneasy pact helped them stand against the Burning Legion at Mount Hyjal. Sentinel patrols still guard the peak, and Horde incursions in the lowlands keep its defenders alert.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stonetalon-peak-42da5af6c5968cb7078c/1-0000.mp3", duration = 56.0065306, start = 0},
+    {file = "Audio/Transport/full_subzone_stonetalon-peak-89c5ed66dbf1b870e60e/1-0000.mp3", duration = 57.1036735, start = 0},
   },
 }
 P.transport["subzone:stonewatch"] = {
@@ -2698,11 +2698,11 @@ P.transport["subzone:sun-rock-retreat"] = {
   },
 }
 P.transport["subzone:talondeep-path"] = {
-  hash = "967450",
-  fullHash = "967450",
-  text = "Talondeep Path. Beneath the ridge, Talondeep Path links Ashenvale with the Stonetalon Mountains. Its quiet tunnel runs from the woods west of Mystral Lake to Windshear Crag. Talondeep Path runs beneath the ridge between Ashenvale and the Stonetalon Mountains. It joins the woods west of Mystral Lake to the northwestern reaches of Windshear Crag. Surface trails cross dangerous country, where predators and warring factions roam. The tunnel stays calm, with no hostile beasts or encampments.\n\nSide pockets twist away from the passage, and crevices and natural alcoves break up the rock. Above ground, faint traces of an old road remain along the peaks. Travelers once crossed there before taking the route through the stone.",
+  hash = "21eba1",
+  fullHash = "21eba1",
+  text = "Talondeep Path. Beneath the ridge, Talondeep Path links Ashenvale with the Stonetalon Mountains. Its quiet tunnel runs from the woods west of Mystral Lake to Windshear Crag. Travelers between Ashenvale and the Stonetalon Mountains can climb the ridge or go under it by Talondeep Path. It joins the woods west of Mystral Lake to the northwestern reaches of Windshear Crag. Surface trails cross dangerous country, where predators and warring factions roam. The tunnel stays calm, with no hostile beasts or encampments.\n\nSide pockets twist away from the passage, and crevices and natural alcoves break up the rock. Above ground, faint traces of an old road remain along the peaks. Travelers once crossed there before taking the route through the stone.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_talondeep-path-9f7338b0fdfee0f7d449/1-0000.mp3", duration = 43.2587755, start = 0},
+    {file = "Audio/Transport/full_subzone_talondeep-path-ea0d7ba6185591b3c22b/1-0000.mp3", duration = 44.2514286, start = 0},
   },
 }
 P.transport["subzone:talondeep-vale"] = {
@@ -2710,7 +2710,7 @@ P.transport["subzone:talondeep-vale"] = {
   fullHash = "a4c4cb",
   text = "Talondeep Vale. In south-central Ashenvale, the wooded vale carries travelers toward the Stonetalon Mountains. Talondeep Vale lies beneath Ashenvale’s trees. Silverwind Refuge stands to the east, with the Ruins of Stardust nearby. To the south, the land rises toward the Stonetalon Mountains. Travelers cross the valley between Ashenvale’s heart and the high crags beyond.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_talondeep-vale-93e0c002bc7bdba82cc3/1-0000.mp3", duration = 22.9616327, start = 0},
+    {file = "Audio/Transport/full_subzone_talondeep-vale-a72d400a4ab7d846c5ed/1-0000.mp3", duration = 22.4391837, start = 0},
   },
 }
 P.transport["subzone:tarren-mill"] = {
@@ -2982,7 +2982,7 @@ P.transport["subzone:webwinder-path"] = {
   fullHash = "a3194e",
   text = "Webwinder Path. Webwinder Path carries travelers through the lower Stonetalon Mountains, from Malaka'jin toward Mirkfallon Lake. Spiders and native beasts roam its crags and woods. Thick webs hang among the trees and cling to jagged cliffs along Webwinder Path. Mountain spiders prowl the road, while thunder lizards and territorial rams roam nearby. Watch your step as the route winds through the lower Stonetalon Mountains.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_webwinder-path-946051f2142394369f73/1-0000.mp3", duration = 24.6073469, start = 0},
+    {file = "Audio/Transport/full_subzone_webwinder-path-505630035aada33be0fb/1-0000.mp3", duration = 25.7306122, start = 0},
   },
 }
 P.transport["subzone:wellspring-lake"] = {

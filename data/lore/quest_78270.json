@@ -1,0 +1,74 @@
+{
+ "key": "quest:78270",
+ "type": "quest",
+ "name": "Goblin Lockpicks",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   78270
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A Venture Co. contact offers explosives for getting past Shadowfang\u2019s gate, but asks you to find a work order first. Another Venture Co. worker nearby should be carrying one.",
+ "sections": [
+  {
+   "title": "A Work Order",
+   "body": "A Venture Co. contact hears that you plan to enter Shadowfang alone. Explosives could get you past the gate, but the contact needs a work order to make the supplies look proper in the company books. One of the other Venture Co. workers nearby should have the document.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why do they need a work order?",
+   "aliases": [
+    "work order why",
+    "why paperwork",
+    "goblin lockpicks"
+   ],
+   "answer": "The Venture Co. contact needs a work order to make the explosives look legitimate in the company books."
+  },
+  {
+   "q": "What are the explosives for?",
+   "aliases": [
+    "explosives for what",
+    "shadowfang gate",
+    "get past gate"
+   ],
+   "answer": "The explosives are meant to get you past Shadowfang\u2019s gate."
+  },
+  {
+   "q": "Who might have the work order?",
+   "aliases": [
+    "who has work order",
+    "find paperwork",
+    "venture co work order"
+   ],
+   "answer": "Another Venture Co. worker nearby should be carrying a work order."
+  },
+  {
+   "q": "Am I going into Shadowfang alone?",
+   "aliases": [
+    "shadowfang alone",
+    "going in solo",
+    "enter shadowfang"
+   ],
+   "answer": "The Venture Co. contact understands that you plan to enter Shadowfang alone."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "explosives",
+  "gate",
+  "goblin lockpicks",
+  "shadowfang",
+  "venture co.",
+  "work order"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Goblin Lockpicks"
+ ]
+}

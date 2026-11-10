@@ -1,0 +1,80 @@
+{
+ "key": "quest:92812",
+ "type": "quest",
+ "name": "Economic Warfare",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92812
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A Gelkis centaur asks you to gather carved totems from other clans. Such totems carry stories and give the Gelkis more power to bargain with the Magram.",
+ "sections": [
+  {
+   "title": "Stories in Trade",
+   "body": "The Gelkis keep to an old centaur custom: clans trade carved totems that tell of a person or clan's great deeds. Though the clans remain in conflict, they still honor this way of trading. You can bring the Gelkis totems taken from fallen centaur of other clans, giving them more to offer in barter.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gelkis Stores",
+   "body": "The Gelkis add your contributions to their collection, and their power grows. They still have a long way to go before they can overcome the Magram Clan.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What do the centaur trade?",
+   "aliases": [
+    "centaur trade goods",
+    "what is traded"
+   ],
+   "answer": "The centaur clans trade carved totems that represent an individual or clan's great accomplishments."
+  },
+  {
+   "q": "Why are the totems important to the Gelkis?",
+   "aliases": [
+    "gelkis totems",
+    "totem value"
+   ],
+   "answer": "The Gelkis use the totems as bartering power, and adding more to their collection strengthens them."
+  },
+  {
+   "q": "Do the centaur still trade while fighting?",
+   "aliases": [
+    "centaur clans trade",
+    "trade during conflict"
+   ],
+   "answer": "Yes. The clans honor the tradition despite their endless conflict, though opportunities to trade have become few."
+  },
+  {
+   "q": "Which clan do the Gelkis hope to overcome?",
+   "aliases": [
+    "gelkis enemy",
+    "magram clan"
+   ],
+   "answer": "The Gelkis hope to overcome the Magram Clan."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "barter",
+  "centaur",
+  "desolace",
+  "economic warfare",
+  "gelkis",
+  "magram",
+  "totem",
+  "trade"
+ ],
+ "related": [
+  "zone:desolace",
+  "topic:centaur"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Economic Warfare"
+ ]
+}

@@ -7,6 +7,18 @@ wrap long bullets with an indented continuation line.
 
 ## Unreleased
 
+## 1.6.0 (2026-11-10)
+
+- **One way to move things:** Move things on screen... in Options (or /lore move) shows the subtitles, the new-page note, the pin card and Willo's sky in gold to drag together. Put them back resets them.
+- **More stories in Italian:** about 4,500 stories that showed only in English or not at all now read in Italian. Translations the Italian community wrote stay exactly as they wrote them.
+- **See where a free voice would play:** a dimmed play button with a small gold arrow links the free download that voices that quest or story. Right-click hides them all.
+- **Options say what's waiting:** with narration set to play only when you press Play, the boxes it holds back are greyed and keep their ticks.
+- **Fewer update nags:** while Willo keeps Lore Forever up to date, the add-on no longer says a new version is out.
+- Corrected lore in 13 entries.
+
+- **Willo doesn't guess your talents:** until the game has saved them (your next /reload or logout), she says so
+  instead of naming talents or ranks you may not have.
+
 ## 1.5.0 (2026-11-09)
 
 - **Every pop-up can be moved:** drag any Lore Forever pop-up and it opens in that spot from then on. Options has a button to place the new-page note and the pin card, and Reset windows puts everything back.

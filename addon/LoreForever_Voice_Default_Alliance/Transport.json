@@ -3071,9 +3071,9 @@
     "subzone:boulderslide-ravine": {
       "1": [
         {
-          "duration": 59.924897959183674,
-          "file": "Audio/Transport/full_subzone_boulderslide-ravine-c306fc919ef1b2c6a26d/1-0000.mp3",
-          "sha256": "a8d32b81dc3670f241fa529a0f1c79ccad921e4eff1fd79a840248155c390d4d",
+          "duration": 60.70857142857143,
+          "file": "Audio/Transport/full_subzone_boulderslide-ravine-6cc25fd2c5e5988a956b/1-0000.mp3",
+          "sha256": "b90e52586ae01915fd85b64ea535f3db398b9d889a42a633cc90f0a80e806715",
           "start": 0
         }
       ],
@@ -3084,15 +3084,15 @@
           "1"
         ]
       },
-      "fullHash": "523523",
-      "generation": "21c48927ea100af37482",
+      "fullHash": "f07006",
+      "generation": "3cc46cd4cca1910c3f3b",
       "hash": "3c8a0f",
       "source": {
-        "duration": 59.95102,
+        "duration": 60.734694,
         "file": null,
-        "sha256": "c306fc919ef1b2c6a26d002a8c56e9a7ef0c8d6f689fc6db27b22241c2b9b325"
+        "sha256": "6cc25fd2c5e5988a956b99f4d0d1a0c1bed58ceebff9ce37300eaddd76bdb851"
       },
-      "text": "Boulderslide Ravine. Along Webwinder Path, Boulderslide Ravine cuts through the central peaks of the Stonetalon Mountains. Horde and Alliance fighting rarely reaches this quiet pass. Rocky slopes lead toward Boulderslide Cavern, while wild mountain beasts roam the heights. Webwinder Path leads into Boulderslide Ravine, high in the Stonetalon Mountains. Loggers, night elves, and the Horde fight over timber and sacred glades elsewhere in the region, but soldiers rarely enter this narrow pass. Mountain rams and crag beasts roam its ledges and sheer walls. Cliff Stormers are among them. Prospectors watch the slopes for rich mineral veins on the way toward the deeper cavern network. Across from Boulderslide Cavern's entrance, a small cave looks over the ravine. Rough torches light weathered supply barrels and primitive tribal paintings. The designs resemble ancient tauren art. They suggest native tribes once traveled through these crags or took shelter here, long before modern conflict reached the mountains."
+      "text": "Boulderslide Ravine. Along Webwinder Path, Boulderslide Ravine cuts through the central peaks of the Stonetalon Mountains. Horde and Alliance fighting rarely reaches this quiet pass. Rocky slopes lead toward Boulderslide Cavern, while wild mountain beasts roam the heights. Boulderslide Ravine is a narrow pass leading to a subterranean lair deep in the mountains. Loggers, night elves, and the Horde fight over timber and sacred glades elsewhere in the region, but soldiers rarely enter this narrow pass. Mountain rams and crag beasts roam its ledges and sheer walls. Cliff Stormers are among them. Prospectors watch the slopes for rich mineral veins on the way toward the deeper cavern network. Across from Boulderslide Cavern's entrance, a small cave looks over the ravine. Rough torches light weathered supply barrels and primitive tribal paintings. The designs resemble ancient tauren art. They suggest native tribes once traveled through these crags or took shelter here, long before modern conflict reached the mountains."
     },
     "subzone:brackwell-pumpkin-patch": {
       "1": [
@@ -3201,9 +3201,9 @@
     "subzone:camp-aparaje": {
       "1": [
         {
-          "duration": 43.04979591836735,
-          "file": "Audio/Transport/full_subzone_camp-aparaje-a9cdd20dc7355b6b0025/1-0000.mp3",
-          "sha256": "60ae7dcec36eae6d10b0068ae04168c00aa169c8e32beb3fc631d43485f386a8",
+          "duration": 43.2065306122449,
+          "file": "Audio/Transport/full_subzone_camp-aparaje-464d9cee8921b46a558a/1-0000.mp3",
+          "sha256": "3705f26a68350a53f0b04b5cd4a35f1df764fe170d4b688bc9994c5469376148",
           "start": 0
         }
       ],
@@ -3215,12 +3215,12 @@
         ]
       },
       "fullHash": "534ccc",
-      "generation": "6b51d15371dc2b5ee364",
+      "generation": "fe7f7bc646f5a2b8f867",
       "hash": "a70dcc",
       "source": {
-        "duration": 43.075918,
+        "duration": 43.232653,
         "file": null,
-        "sha256": "a9cdd20dc7355b6b0025eade6f95d29406d97797d8de9f8a82fd041c22682cae"
+        "sha256": "464d9cee8921b46a558af0aa26062f762ca2ff13b682eddf554b8318353fe718"
       },
       "text": "Camp Aparaje. Grimtotem warriors now hold Camp Aparaje in the eastern heights of the Stonetalon Mountains. They slaughtered the peaceful tauren who settled there and claimed the outpost. Peaceful tauren once made their home among the Stonetalon crags, seeking a quiet life in the highlands. Then raiders from nearby Grimtotem Post struck under Grundig Darkcloud's lead. The attackers butchered some villagers and drove others away. Survivors such as Makaba Flathoof mourn their lost home and fear for kin taken captive. Grimtotem warriors now occupy Camp Aparaje as a forward base for their aggressive tribe in the region. Many Grimtotem settlements bear blue markings, but the great totem here is painted deep crimson."
     },
@@ -3357,9 +3357,9 @@
     "subzone:charred-vale": {
       "1": [
         {
-          "duration": 63.08571428571429,
-          "file": "Audio/Transport/full_subzone_charred-vale-613295c8849d75031cc9/1-0000.mp3",
-          "sha256": "e47b794a13bef069243bb4848c9a60335f38c5c62d7a361bad67f861c5d1d297",
+          "duration": 64.80979591836734,
+          "file": "Audio/Transport/full_subzone_charred-vale-4ce72093c56fe9d8b2c3/1-0000.mp3",
+          "sha256": "b09d5889fd3d3f27bf12b07bba7ac03abff04f0e2bddd23472ac1f80de59238f",
           "start": 0
         }
       ],
@@ -3371,12 +3371,12 @@
         ]
       },
       "fullHash": "6e3e57",
-      "generation": "7222217691844eff0316",
+      "generation": "cc4353ab3d7ea7d5fc04",
       "hash": "0b7e2b",
       "source": {
-        "duration": 63.111837,
+        "duration": 64.835918,
         "file": null,
-        "sha256": "613295c8849d75031cc9e3fe0d9c9a431bc92e7b27f58a45fafcfbc239f22223"
+        "sha256": "4ce72093c56fe9d8b2c35321b120676e83b9744b4a5f646cb63a1959dd405802"
       },
       "text": "Charred Vale. In southwestern Stonetalon, fire and smoke still consume the Charred Vale. The Venture Company's logging left the woodland in ruins, and fire elementals roam while Bloodfury harpies defend their territory. Once, trees filled the basin in southwestern Stonetalon, and treants guarded the woodland. Native chimaeras and harpies lived among them. Then the Venture Company's goblins arrived with explosive machinery and cut down the forest. Their work corrupted the treants and woke chaotic fire elementals.\n\nThe treants drove the goblins back, but the loggers left a broken land scarred by fire. Whatever foul devices they used as they fled also tainted the valley. Blackened ancients wander blindly through smoke and ash, while enraged elementals roam nearby. Bloodfury harpies roost in skeletal snags and defend what remains of their territory.\n\nDruids from Sun Rock Retreat will not abandon the valley. They send travelers to sow enchanted seeds and tend the corrupted ancients as they work to reclaim the scorched earth."
     },
@@ -4969,9 +4969,9 @@
     "subzone:greatwood-vale": {
       "1": [
         {
-          "duration": 40.90775510204082,
-          "file": "Audio/Transport/full_subzone_greatwood-vale-726375efb1ff7790f736/1-0000.mp3",
-          "sha256": "053ad87fa6b9e3e3ceeb4ac9ad35e721c0bb6bab110db2f48053f0a88981f28e",
+          "duration": 42.94530612244898,
+          "file": "Audio/Transport/full_subzone_greatwood-vale-84c2903c3b1763db7282/1-0000.mp3",
+          "sha256": "45a2fd80875533b3c3ec1a19f2aedcfec0dc70ff6467ff7774d5a0aaa5d6c124",
           "start": 0
         }
       ],
@@ -4983,12 +4983,12 @@
         ]
       },
       "fullHash": "28ed50",
-      "generation": "2522adc5b8117f65c232",
+      "generation": "bcfb2af4e2eed2df5807",
       "hash": "3d4c9e",
       "source": {
-        "duration": 40.933878,
+        "duration": 42.971429,
         "file": null,
-        "sha256": "726375efb1ff7790f7363ef783f8d25609ef8c49f0e4b203b759dbc57150867c"
+        "sha256": "84c2903c3b1763db7282cf0970a5352cad4f22bfa3f156eeb964396952f3f346"
       },
       "text": "Greatwood Vale. In eastern Stonetalon, the Grimtotem hold Greatwood Vale and strike at nearby settlements. The dangerous Webwinder Path leads into the forested valley, now their base for bloody assaults. Greatwood Vale has become a violent frontier off the Webwinder Path. Grundig Darkcloud leads the Grimtotem who have moved into the vale in force. They bar safe passage and terrorize the surrounding foothills. From Greatwood Vale, Grimtotem raiders swept into nearby Camp Aparaje and slaughtered nearly every tauren there. Makaba Flathoof escaped. Now he directs vengeful Horde warriors into the heart of the vale to kill the renegade Grimtotem and end Grundig Darkcloud's rule."
     },
@@ -6243,9 +6243,9 @@
     "subzone:malaka-jin": {
       "1": [
         {
-          "duration": 39.49714285714286,
-          "file": "Audio/Transport/full_subzone_malaka-jin-dbfca4b855e5bea4dd01/1-0000.mp3",
-          "sha256": "f38d17a9ed6ead293cc9af2c665763a64ff04d26298a95d1b8e1c9f0444c1a7f",
+          "duration": 40.777142857142856,
+          "file": "Audio/Transport/full_subzone_malaka-jin-c97a3a75f54cbe6c6b5e/1-0000.mp3",
+          "sha256": "b5105d00862d2eaadf2d480a82a2ea31744ea6b887eb07ba233bdf8355646635",
           "start": 0
         }
       ],
@@ -6257,12 +6257,12 @@
         ]
       },
       "fullHash": "d079ba",
-      "generation": "5ceb9074d09cf969c969",
+      "generation": "767c2d4a1782353a2189",
       "hash": "726d21",
       "source": {
-        "duration": 39.523265,
+        "duration": 40.803265,
         "file": null,
-        "sha256": "dbfca4b855e5bea4dd01775182731626bfbcde2eaba4422c298b10b9023133a6"
+        "sha256": "c97a3a75f54cbe6c6b5e6810669741bfedcbb04b68aea8abedd1eb922c5e3220"
       },
       "text": "Malaka'jin. In Malaka'jin, Darkspear hunters shelter Horde travelers climbing from the Barrens into the lower Stonetalon hills, south of Grimtotem Post. Beside the main trail into the Stonetalon Mountains, troll hunters keep a small camp among the crags and scrublands. They trade supplies and fresh game with travelers passing through. They also watch for mountain predators and Grimtotem tauren farther up the trails. Near the Barrens boundary, Malaka'jin gives the Horde an early foothold in Stonetalon. Sun Rock Retreat lies farther north as a larger stronghold. Here, Horde trackers watch for tribal unrest and guard the winding roads against threats."
     },
@@ -6425,9 +6425,9 @@
     "subzone:mirkfallon-lake": {
       "1": [
         {
-          "duration": 52.87183673469388,
-          "file": "Audio/Transport/full_subzone_mirkfallon-lake-f6cbe05e5659e596b29f/1-0000.mp3",
-          "sha256": "c347c25d3f752f43ca06a0f77925ef130e8a35f313c79821ecbfaf8007a4e4b8",
+          "duration": 55.118367346938776,
+          "file": "Audio/Transport/full_subzone_mirkfallon-lake-140dfc083589aa7369db/1-0000.mp3",
+          "sha256": "ca027d1960782b8b0129860cdeccaaf7a6408338e4f4e1a02dacff54bd644852",
           "start": 0
         }
       ],
@@ -6438,15 +6438,15 @@
           "1"
         ]
       },
-      "fullHash": "af4760",
-      "generation": "da6b62a0d6ee4c1439f6",
+      "fullHash": "226163",
+      "generation": "0ce7f092bfdb5c2f47c9",
       "hash": "6f02da",
       "source": {
-        "duration": 52.871837,
+        "duration": 55.14449,
         "file": null,
-        "sha256": "f6cbe05e5659e596b29f7af4d9bf5255feb400d25df0449d0279babdcbcc9283"
+        "sha256": "140dfc083589aa7369db25a1cbc4dfafc0af7531b3255dcd1742a7244df037e7"
       },
-      "text": "Mirkfallon Lake. Mirkfallon Lake gathers wildlife beneath Windshear Crag in the Stonetalon Mountains. Thunder lizards and wyverns crowd its banks, while aggressive slimes make its waters dangerous. Mirkfallon Lake gathers runoff at the heart of the Stonetalon range. It lies between Webwinder Path to the south and Stonetalon Peak to the north. Thunder lizards come down from the highlands to drink, and wyverns leave their roosts overhead. Strange slimes bubble in the water, making the crossing hazardous for travelers. Paths meet across the lake basin. To the east, rocky tracks climb into Windshear Crag and the logging operations in its forested valleys. Northward, travelers climb toward night elven sanctums and tauren heights. Southward, the route skirts venomous spider hollows. Scouts and explorers crossing these contested mountains must reckon with dangers that shift around the lake."
+      "text": "Mirkfallon Lake. Mirkfallon Lake gathers wildlife beneath Windshear Crag in the Stonetalon Mountains. Thunder lizards and wyverns crowd its banks, while aggressive slimes make its waters dangerous. The slopes of the Stonetalon range send their runoff down to Mirkfallon Lake, at the range's heart. It lies between Webwinder Path to the south and Stonetalon Peak to the north. Thunder lizards come down from the highlands to drink, and wyverns leave their roosts overhead. Strange slimes bubble in the water, making the crossing hazardous for travelers. Paths meet across the lake basin. To the east, rocky tracks climb into Windshear Crag and the logging operations in its forested valleys. Northward, travelers climb toward night elven sanctums and tauren heights. Southward, the route skirts venomous spider hollows. Scouts and explorers crossing these contested mountains must reckon with dangers that shift around the lake."
     },
     "subzone:mirror-lake": {
       "1": [
@@ -8038,8 +8038,8 @@
       "1": [
         {
           "duration": 47.85632653061224,
-          "file": "Audio/Transport/full_subzone_sishir-canyon-25e01b6cac54ffc4dd01/1-0000.mp3",
-          "sha256": "8783c9063cf1ff9d93e38babd87aa5e83580ca3d1b69a1eeec8d9e4720ada5d0",
+          "file": "Audio/Transport/full_subzone_sishir-canyon-9f8f5436c7b987324122/1-0000.mp3",
+          "sha256": "a469f05981420fb436a7d31e16e49f494896b5223d34c2aeb652a135cdd46aaf",
           "start": 0
         }
       ],
@@ -8051,12 +8051,12 @@
         ]
       },
       "fullHash": "99a5a5",
-      "generation": "1a703f3728e2c6b49a68",
+      "generation": "7ac89067647d330a17f8",
       "hash": "0ad612",
       "source": {
-        "duration": 47.856327,
+        "duration": 47.882449,
         "file": null,
-        "sha256": "25e01b6cac54ffc4dd01c6c37ea44b1da76a88ae9b57f33dc12bf1872d71f7c3"
+        "sha256": "9f8f5436c7b9873241226425be0b40cf45908742142527d4faca6819814fb251"
       },
       "text": "Sishir Canyon. Webs and Deepmoss spiders choke Sishir Canyon, the eastern pass through the Stonetalon Mountains. Travelers face the brood on the dangerous way to the Ruins of Eldre'thar. Sishir Canyon cuts through the Stonetalon Mountains toward the ancient Ruins of Eldre'thar. Deepmoss spiders have overrun the gorge. Sheets of web cover its stone floor and walls, and egg sacs cluster among them. Travelers and sentinels heading for the night elven ruins must fight through swarms of aggressive webspinners. Deep in Sishir Canyon, Besseleth rules as matriarch of the Deepmoss brood. Her great size and venom threaten anyone trying to secure the pass. Local forces in Stonetalon keep watch and warn travelers that scattered spiders are not all that lurks in the webbed depths. Besseleth fiercely guards her brood."
     },
@@ -8427,9 +8427,9 @@
     "subzone:stonetalon-peak": {
       "1": [
         {
-          "duration": 56.0065306122449,
-          "file": "Audio/Transport/full_subzone_stonetalon-peak-42da5af6c5968cb7078c/1-0000.mp3",
-          "sha256": "8f16a46b36d9ce05fb506bd9812c914c42c5cc0453b9a199507934993072762b",
+          "duration": 57.10367346938776,
+          "file": "Audio/Transport/full_subzone_stonetalon-peak-89c5ed66dbf1b870e60e/1-0000.mp3",
+          "sha256": "798794d66cd531ce72f9b4384715ea3098e91630c4915c5411081a0f99c4e96d",
           "start": 0
         }
       ],
@@ -8441,12 +8441,12 @@
         ]
       },
       "fullHash": "1e42fe",
-      "generation": "c3cc2d01fd5f0e275f18",
+      "generation": "745f60982333a48a9856",
       "hash": "465f86",
       "source": {
-        "duration": 56.032653,
+        "duration": 57.129796,
         "file": null,
-        "sha256": "42da5af6c5968cb7078cd2187132265540ee6e7645897d355d0f40e612b75e7e"
+        "sha256": "89c5ed66dbf1b870e60e81801951f29f95de126236c62d38e7d3d95ddc033373"
       },
       "text": "Stonetalon Peak. At Stonetalon Peak, kaldorei Sentinels and druids guard an ancient sanctuary. Its sheltered valley is sacred to the night elves and remains the Alliance’s main foothold in the high mountains. High above the dry lower ranges, Stonetalon Peak opens into a green valley. Its ruins reach back millennia to temples that honored Queen Azshara before the Great Sundering. Night elven Sentinels and druids care for the sanctuary now. They keep a barrow den and an Alliance flight roost here. During the Third War, Jaina Proudmoore’s human expedition and Thrall’s Horde climbed Stonetalon Peak, each seeking the Oracle in the deep caverns. Medivh’s visions had led them there. When they met, these mortal enemies laid down their blades. Their uneasy pact helped them stand against the Burning Legion at Mount Hyjal. Sentinel patrols still guard the peak, and Horde incursions in the lowlands keep its defenders alert."
     },
@@ -8765,9 +8765,9 @@
     "subzone:talondeep-path": {
       "1": [
         {
-          "duration": 43.25877551020408,
-          "file": "Audio/Transport/full_subzone_talondeep-path-9f7338b0fdfee0f7d449/1-0000.mp3",
-          "sha256": "b3110e149998dc98f333eeaf2cdea17fc79e2d5ba7168fe659e6c4a74faf794a",
+          "duration": 44.251428571428576,
+          "file": "Audio/Transport/full_subzone_talondeep-path-ea0d7ba6185591b3c22b/1-0000.mp3",
+          "sha256": "08e02e7aad5f5f3c84ffe441344e042c2efa51d428ce2cc500b8531c2fbb6664",
           "start": 0
         }
       ],
@@ -8778,22 +8778,22 @@
           "1"
         ]
       },
-      "fullHash": "967450",
-      "generation": "7d9aabae80826adde8c6",
-      "hash": "967450",
+      "fullHash": "21eba1",
+      "generation": "a3d527a8ce1ef39eacb7",
+      "hash": "21eba1",
       "source": {
-        "duration": 43.284898,
+        "duration": 44.251429,
         "file": null,
-        "sha256": "9f7338b0fdfee0f7d44992cddfec6bfc9fae30f42c699bfcb3c60f65cb9921ad"
+        "sha256": "ea0d7ba6185591b3c22b1861507b703b619478e7eace33c373f172862f3a652d"
       },
-      "text": "Talondeep Path. Beneath the ridge, Talondeep Path links Ashenvale with the Stonetalon Mountains. Its quiet tunnel runs from the woods west of Mystral Lake to Windshear Crag. Talondeep Path runs beneath the ridge between Ashenvale and the Stonetalon Mountains. It joins the woods west of Mystral Lake to the northwestern reaches of Windshear Crag. Surface trails cross dangerous country, where predators and warring factions roam. The tunnel stays calm, with no hostile beasts or encampments.\n\nSide pockets twist away from the passage, and crevices and natural alcoves break up the rock. Above ground, faint traces of an old road remain along the peaks. Travelers once crossed there before taking the route through the stone."
+      "text": "Talondeep Path. Beneath the ridge, Talondeep Path links Ashenvale with the Stonetalon Mountains. Its quiet tunnel runs from the woods west of Mystral Lake to Windshear Crag. Travelers between Ashenvale and the Stonetalon Mountains can climb the ridge or go under it by Talondeep Path. It joins the woods west of Mystral Lake to the northwestern reaches of Windshear Crag. Surface trails cross dangerous country, where predators and warring factions roam. The tunnel stays calm, with no hostile beasts or encampments.\n\nSide pockets twist away from the passage, and crevices and natural alcoves break up the rock. Above ground, faint traces of an old road remain along the peaks. Travelers once crossed there before taking the route through the stone."
     },
     "subzone:talondeep-vale": {
       "1": [
         {
-          "duration": 22.961632653061226,
-          "file": "Audio/Transport/full_subzone_talondeep-vale-93e0c002bc7bdba82cc3/1-0000.mp3",
-          "sha256": "616eb314171896e5ad236f295f156fb290cbc9aa988bef15c69a1b37bab1ce8c",
+          "duration": 22.43918367346939,
+          "file": "Audio/Transport/full_subzone_talondeep-vale-a72d400a4ab7d846c5ed/1-0000.mp3",
+          "sha256": "279abd697c48b8bcd903f2ad36a1ab7ddba07c19a6e45ddec7ee6f43b8e9b0b3",
           "start": 0
         }
       ],
@@ -8805,12 +8805,12 @@
         ]
       },
       "fullHash": "a4c4cb",
-      "generation": "0a7fbc415a5e944525ae",
+      "generation": "74f6ff009984cd47d026",
       "hash": "a4c4cb",
       "source": {
-        "duration": 22.987755,
+        "duration": 22.465306,
         "file": null,
-        "sha256": "93e0c002bc7bdba82cc31a54d4986f18c492f6ff81461e810300741355b33d5d"
+        "sha256": "a72d400a4ab7d846c5edd1bff192a724f5c255b5769cd62c8f8622bb727bd07e"
       },
       "text": "Talondeep Vale. In south-central Ashenvale, the wooded vale carries travelers toward the Stonetalon Mountains. Talondeep Vale lies beneath Ashenvale’s trees. Silverwind Refuge stands to the east, with the Ruins of Stardust nearby. To the south, the land rises toward the Stonetalon Mountains. Travelers cross the valley between Ashenvale’s heart and the high crags beyond."
     },
@@ -9675,9 +9675,9 @@
     "subzone:webwinder-path": {
       "1": [
         {
-          "duration": 24.60734693877551,
-          "file": "Audio/Transport/full_subzone_webwinder-path-946051f2142394369f73/1-0000.mp3",
-          "sha256": "fbeb5e4e8d2f5434b4b124fff649e2ab3cb2c7e67bf4a88c97dd3af2791173c0",
+          "duration": 25.73061224489796,
+          "file": "Audio/Transport/full_subzone_webwinder-path-505630035aada33be0fb/1-0000.mp3",
+          "sha256": "a1344efda83a87d5c7dd7bf9dd6e78674e089bf5ceef0a37fed30953f9fe9aa8",
           "start": 0
         }
       ],
@@ -9689,12 +9689,12 @@
         ]
       },
       "fullHash": "a3194e",
-      "generation": "eb6db32e89468662850b",
+      "generation": "0b22c4cdcd2c26df6bae",
       "hash": "a3194e",
       "source": {
-        "duration": 24.633469,
+        "duration": 25.756735,
         "file": null,
-        "sha256": "946051f2142394369f73cf4e6af3e95bbca5f40be62338a451d519b433fb5dcd"
+        "sha256": "505630035aada33be0fbceeb5d7ae39239b5b186c07cb988d6a1128178905ec2"
       },
       "text": "Webwinder Path. Webwinder Path carries travelers through the lower Stonetalon Mountains, from Malaka'jin toward Mirkfallon Lake. Spiders and native beasts roam its crags and woods. Thick webs hang among the trees and cling to jagged cliffs along Webwinder Path. Mountain spiders prowl the road, while thunder lizards and territorial rams roam nearby. Watch your step as the route winds through the lower Stonetalon Mountains."
     },
@@ -10049,13 +10049,6 @@
       743,
       961
     ],
-    "053ad87fa6b9e3e3ceeb4ac9ad35e721c0bb6bab110db2f48053f0a88981f28e": [
-      220,
-      458,
-      792,
-      942,
-      1208
-    ],
     "0845e57b4188b9fb69cbd64dab83c206f63eaf8b29a4e5bdc69362e409493d6a": [
       215,
       430,
@@ -10066,6 +10059,15 @@
       313,
       543,
       726
+    ],
+    "08e02e7aad5f5f3c84ffe441344e042c2efa51d428ce2cc500b8531c2fbb6664": [
+      206,
+      385,
+      635,
+      823,
+      1010,
+      1167,
+      1382
     ],
     "093654f62c17a257c2e94f36dcc54bb91a5de07790dc5f07e05adedb0c2d8ffa": [
       143,
@@ -10467,6 +10469,11 @@
       697,
       996
     ],
+    "279abd697c48b8bcd903f2ad36a1ab7ddba07c19a6e45ddec7ee6f43b8e9b0b3": [
+      228,
+      546,
+      687
+    ],
     "28b3d47ed32b6d735f8d39b55431219d1d4b6b77c6fa260fce9d1808c2d5369b": [
       237,
       493,
@@ -10656,6 +10663,14 @@
       2092,
       2330
     ],
+    "3705f26a68350a53f0b04b5cd4a35f1df764fe170d4b688bc9994c5469376148": [
+      223,
+      402,
+      650,
+      842,
+      1213,
+      1436
+    ],
     "38bd8ad470f43444b138e50b1c5285267181de742fbb7507202fc071ce9a63c9": [
       226,
       573,
@@ -10824,6 +10839,14 @@
       671,
       854,
       1132
+    ],
+    "45a2fd80875533b3c3ec1a19f2aedcfec0dc70ff6467ff7774d5a0aaa5d6c124": [
+      230,
+      460,
+      621,
+      797,
+      961,
+      1249
     ],
     "45a6511f1841a90ac278ed1d6f845791db3b10d18b0a59faa0501a125ea2a175": [
       144,
@@ -11078,25 +11101,12 @@
       1798,
       2000
     ],
-    "60ae7dcec36eae6d10b0068ae04168c00aa169c8e32beb3fc631d43485f386a8": [
-      214,
-      382,
-      633,
-      827,
-      1188,
-      1413
-    ],
     "60f88a474cca05af0a7614f4f5f887c9bbed909020174733fff0d606d825333b": [
       223,
       421,
       568,
       703,
       992
-    ],
-    "616eb314171896e5ad236f295f156fb290cbc9aa988bef15c69a1b37bab1ce8c": [
-      245,
-      552,
-      699
     ],
     "61cce0d4cac9ff3f1ec73f973083ccc5ab327bf82cc414054997fb17021d6e7a": [
       171,
@@ -11384,6 +11394,18 @@
       1388,
       1555
     ],
+    "798794d66cd531ce72f9b4384715ea3098e91630c4915c5411081a0f99c4e96d": [
+      208,
+      474,
+      681,
+      894,
+      1041,
+      1194,
+      1443,
+      1643,
+      1789,
+      1955
+    ],
     "7a9046e16aa6fcfbc33c52a58be898f138a4f92a617425c4fb2ee472e2594db5": [
       191
     ],
@@ -11550,15 +11572,6 @@
       889,
       1125
     ],
-    "8783c9063cf1ff9d93e38babd87aa5e83580ca3d1b69a1eeec8d9e4720ada5d0": [
-      242,
-      416,
-      619,
-      916,
-      1143,
-      1326,
-      1473
-    ],
     "87e473c71583d1e483f0e8c29038d9538b8b0fba328a85015332e0e6380c8bd9": [
       361,
       585,
@@ -11673,17 +11686,6 @@
       1164,
       1298,
       1492
-    ],
-    "8f16a46b36d9ce05fb506bd9812c914c42c5cc0453b9a199507934993072762b": [
-      219,
-      489,
-      696,
-      930,
-      1073,
-      1225,
-      1556,
-      1770,
-      1928
     ],
     "906a48b598341e9cd16a2441b395d3cdedacb0f1f3043cf8582e322c9c9267ff": [
       260,
@@ -11954,6 +11956,11 @@
       1693,
       1999
     ],
+    "a1344efda83a87d5c7dd7bf9dd6e78674e089bf5ceef0a37fed30953f9fe9aa8": [
+      268,
+      420,
+      821
+    ],
     "a1d25dded69c96f30fe76fff73a979b4c89f44c3186889b3c75fd635e5ca1bd5": [
       255,
       461,
@@ -12024,6 +12031,12 @@
       2111,
       2358
     ],
+    "a469f05981420fb436a7d31e16e49f494896b5223d34c2aeb652a135cdd46aaf": [
+      235,
+      405,
+      612,
+      1134
+    ],
     "a4919a5919e3baadde8538319cdfb6325e7bf436d391358b5600ae649fca4818": [
       188,
       509,
@@ -12071,16 +12084,6 @@
       1126,
       1270,
       1453
-    ],
-    "a8d32b81dc3670f241fa529a0f1c79ccad921e4eff1fd79a840248155c390d4d": [
-      226,
-      362,
-      579,
-      1078,
-      1307,
-      1524,
-      1719,
-      2004
     ],
     "a9bee7b8ae2d0f31f3f17970ba11615f1da36b55c08d0186619347cdddf14c6d": [
       292,
@@ -12199,6 +12202,17 @@
       490,
       712
     ],
+    "b09d5889fd3d3f27bf12b07bba7ac03abff04f0e2bddd23472ac1f80de59238f": [
+      208,
+      506,
+      731,
+      1035,
+      1213,
+      1427,
+      1601,
+      1853,
+      2079
+    ],
     "b15808a101582e971459df7678f5ef40d5db4bfa001527c1f43c8d10dd2b8a24": [
       219,
       511,
@@ -12238,14 +12252,6 @@
       1579,
       1760
     ],
-    "b3110e149998dc98f333eeaf2cdea17fc79e2d5ba7168fe659e6c4a74faf794a": [
-      199,
-      384,
-      571,
-      757,
-      953,
-      1124
-    ],
     "b3211db10a73c953859f548caacd33db1cb76ce55f845d7a4e6fd96393be7d89": [
       181,
       415,
@@ -12266,6 +12272,13 @@
       617,
       783,
       964
+    ],
+    "b5105d00862d2eaadf2d480a82a2ea31744ea6b887eb07ba233bdf8355646635": [
+      361,
+      782,
+      976,
+      1195,
+      1348
     ],
     "b6696ae366b9d0278b8ae847807efe2239fec705137e957cc73e078451458836": [
       225,
@@ -12327,6 +12340,16 @@
       1179,
       1328,
       1524
+    ],
+    "b90e52586ae01915fd85b64ea535f3db398b9d889a42a633cc90f0a80e806715": [
+      398,
+      631,
+      844,
+      1034,
+      1291,
+      1567,
+      1757,
+      1943
     ],
     "b928e70383c10cb9f9efdd3e0ae0859b825a0ebd002c0220f7760319f4bd046f": [
       203,
@@ -12501,14 +12524,6 @@
     "c2ab35baa71c56ffccbf99bca2e1f92db11a17663142536c3d602434545864dd": [
       219
     ],
-    "c347c25d3f752f43ca06a0f77925ef130e8a35f313c79821ecbfaf8007a4e4b8": [
-      446,
-      598,
-      985,
-      1169,
-      1501,
-      1674
-    ],
     "c403b692f0d195bcd4a95b983936d966f0ea244c1ddc5bb883a1168a4a580bac": [
       326,
       551,
@@ -12543,6 +12558,16 @@
       1788,
       1929,
       2235
+    ],
+    "ca027d1960782b8b0129860cdeccaaf7a6408338e4f4e1a02dacff54bd644852": [
+      205,
+      431,
+      651,
+      1034,
+      1227,
+      1369,
+      1573,
+      1750
     ],
     "cc569216c6b35642b8c0b2e78b62ddf1c441cdc7747932015ad5744833174ff7": [
       235,
@@ -12866,17 +12891,6 @@
       597,
       862
     ],
-    "e47b794a13bef069243bb4848c9a60335f38c5c62d7a361bad67f861c5d1d297": [
-      213,
-      498,
-      706,
-      1004,
-      1175,
-      1384,
-      1563,
-      1789,
-      2011
-    ],
     "e4c347d2d1adea22af7af9f7898d9be85eccd491a1a13c4502b0d560d22bdba4": [
       196,
       424,
@@ -13087,12 +13101,6 @@
       543,
       742
     ],
-    "f38d17a9ed6ead293cc9af2c665763a64ff04d26298a95d1b8e1c9f0444c1a7f": [
-      344,
-      754,
-      941,
-      1300
-    ],
     "f3e0b4b8e559c4c29b2384926cb3b0e603c64af2d38a2a427ac36f4f335ad917": [
       473,
       1257,
@@ -13189,11 +13197,6 @@
       720,
       868
     ],
-    "fbeb5e4e8d2f5434b4b124fff649e2ab3cb2c7e67bf4a88c97dd3af2791173c0": [
-      254,
-      395,
-      783
-    ],
     "fc95828592ca0a6500aa19488ceba1f84a1ab5f174c01e9d5df2dff147d5d18a": [
       340,
       587,
@@ -13243,15 +13246,14 @@
     "04441f253475810385a8fecbf4df88ea01299fde0fca605fd515730121192051": {
       "461": 1
     },
-    "053ad87fa6b9e3e3ceeb4ac9ad35e721c0bb6bab110db2f48053f0a88981f28e": {
-      "458": 1,
-      "942": 2
-    },
     "0845e57b4188b9fb69cbd64dab83c206f63eaf8b29a4e5bdc69362e409493d6a": {
       "430": 1
     },
     "08c904423777e3d157138c5c0672683b56a7ba2e21f0b10ba9a4f221288d2683": {
       "313": 1
+    },
+    "08e02e7aad5f5f3c84ffe441344e042c2efa51d428ce2cc500b8531c2fbb6664": {
+      "385": 1
     },
     "093654f62c17a257c2e94f36dcc54bb91a5de07790dc5f07e05adedb0c2d8ffa": {
       "1019": 2,
@@ -13432,6 +13434,9 @@
     "26e7a80a8c7f40a5c3bec750a2e8951ac9dcb42c1c48763bd836cad4186ec134": {
       "494": 1
     },
+    "279abd697c48b8bcd903f2ad36a1ab7ddba07c19a6e45ddec7ee6f43b8e9b0b3": {
+      "228": 1
+    },
     "28b3d47ed32b6d735f8d39b55431219d1d4b6b77c6fa260fce9d1808c2d5369b": {
       "1256": 2,
       "493": 1
@@ -13517,6 +13522,10 @@
       "1566": 2,
       "509": 1
     },
+    "3705f26a68350a53f0b04b5cd4a35f1df764fe170d4b688bc9994c5469376148": {
+      "1213": 2,
+      "402": 1
+    },
     "38bd8ad470f43444b138e50b1c5285267181de742fbb7507202fc071ce9a63c9": {
       "573": 1
     },
@@ -13590,6 +13599,10 @@
     },
     "4599115cc4b3078a1ff221fc2f9bc1ac412dfbdcc441b47d73777f487ea50ceb": {
       "471": 1
+    },
+    "45a2fd80875533b3c3ec1a19f2aedcfec0dc70ff6467ff7774d5a0aaa5d6c124": {
+      "460": 1,
+      "961": 2
     },
     "45a6511f1841a90ac278ed1d6f845791db3b10d18b0a59faa0501a125ea2a175": {
       "1194": 2,
@@ -13701,15 +13714,8 @@
       "1594": 2,
       "508": 1
     },
-    "60ae7dcec36eae6d10b0068ae04168c00aa169c8e32beb3fc631d43485f386a8": {
-      "1188": 2,
-      "382": 1
-    },
     "60f88a474cca05af0a7614f4f5f887c9bbed909020174733fff0d606d825333b": {
       "421": 1
-    },
-    "616eb314171896e5ad236f295f156fb290cbc9aa988bef15c69a1b37bab1ce8c": {
-      "245": 1
     },
     "61cce0d4cac9ff3f1ec73f973083ccc5ab327bf82cc414054997fb17021d6e7a": {
       "1026": 2,
@@ -13831,6 +13837,10 @@
       "1148": 2,
       "478": 1
     },
+    "798794d66cd531ce72f9b4384715ea3098e91630c4915c5411081a0f99c4e96d": {
+      "1194": 2,
+      "474": 1
+    },
     "7ab145c937d0ba371843587aa9bf07975c4b6bad4f1c764cd62a56d3cdaf261b": {
       "1278": 2,
       "442": 1
@@ -13903,10 +13913,6 @@
       "323": 1,
       "889": 2
     },
-    "8783c9063cf1ff9d93e38babd87aa5e83580ca3d1b69a1eeec8d9e4720ada5d0": {
-      "1143": 2,
-      "416": 1
-    },
     "87e473c71583d1e483f0e8c29038d9538b8b0fba328a85015332e0e6380c8bd9": {
       "361": 1
     },
@@ -13954,10 +13960,6 @@
     "8e202d6234ca7229e5597fe5f77c4c2f8b4c4d3b12266027919af41732534c56": {
       "1164": 2,
       "484": 1
-    },
-    "8f16a46b36d9ce05fb506bd9812c914c42c5cc0453b9a199507934993072762b": {
-      "1225": 2,
-      "489": 1
     },
     "906a48b598341e9cd16a2441b395d3cdedacb0f1f3043cf8582e322c9c9267ff": {
       "442": 1
@@ -14069,6 +14071,9 @@
       "1274": 2,
       "469": 1
     },
+    "a1344efda83a87d5c7dd7bf9dd6e78674e089bf5ceef0a37fed30953f9fe9aa8": {
+      "420": 1
+    },
     "a1d25dded69c96f30fe76fff73a979b4c89f44c3186889b3c75fd635e5ca1bd5": {
       "1102": 2,
       "461": 1
@@ -14095,6 +14100,10 @@
       "1400": 2,
       "593": 1
     },
+    "a469f05981420fb436a7d31e16e49f494896b5223d34c2aeb652a135cdd46aaf": {
+      "1134": 2,
+      "405": 1
+    },
     "a4919a5919e3baadde8538319cdfb6325e7bf436d391358b5600ae649fca4818": {
       "1315": 2,
       "509": 1
@@ -14113,10 +14122,6 @@
     },
     "a8760e7b7ba502225821c15347c99374483286302d96f6d749ade6066d4089dd": {
       "522": 1
-    },
-    "a8d32b81dc3670f241fa529a0f1c79ccad921e4eff1fd79a840248155c390d4d": {
-      "1524": 2,
-      "579": 1
     },
     "a9bee7b8ae2d0f31f3f17970ba11615f1da36b55c08d0186619347cdddf14c6d": {
       "480": 1
@@ -14166,6 +14171,10 @@
     "b03a9f1d09e32333815990ba88ff37b3a7a09c83a009a7216073a0c4c9e003f3": {
       "490": 1
     },
+    "b09d5889fd3d3f27bf12b07bba7ac03abff04f0e2bddd23472ac1f80de59238f": {
+      "1601": 2,
+      "506": 1
+    },
     "b15808a101582e971459df7678f5ef40d5db4bfa001527c1f43c8d10dd2b8a24": {
       "511": 1
     },
@@ -14182,9 +14191,6 @@
       "1321": 2,
       "625": 1
     },
-    "b3110e149998dc98f333eeaf2cdea17fc79e2d5ba7168fe659e6c4a74faf794a": {
-      "384": 1
-    },
     "b3211db10a73c953859f548caacd33db1cb76ce55f845d7a4e6fd96393be7d89": {
       "1118": 2,
       "564": 1
@@ -14194,6 +14200,10 @@
     },
     "b4c7389235423bf12698cccaf3f82655d0d136b87b878e669968adc56e185ae5": {
       "417": 1
+    },
+    "b5105d00862d2eaadf2d480a82a2ea31744ea6b887eb07ba233bdf8355646635": {
+      "361": 1,
+      "976": 2
     },
     "b6696ae366b9d0278b8ae847807efe2239fec705137e957cc73e078451458836": {
       "1432": 2,
@@ -14219,6 +14229,10 @@
     "b8e35ca09d89e570eacca579f15d7da457583e135d534b0333cfebad24b7068e": {
       "1010": 2,
       "395": 1
+    },
+    "b90e52586ae01915fd85b64ea535f3db398b9d889a42a633cc90f0a80e806715": {
+      "1567": 2,
+      "631": 1
     },
     "b928e70383c10cb9f9efdd3e0ae0859b825a0ebd002c0220f7760319f4bd046f": {
       "480": 1
@@ -14287,10 +14301,6 @@
     "c2ab35baa71c56ffccbf99bca2e1f92db11a17663142536c3d602434545864dd": {
       "219": 1
     },
-    "c347c25d3f752f43ca06a0f77925ef130e8a35f313c79821ecbfaf8007a4e4b8": {
-      "1169": 2,
-      "446": 1
-    },
     "c403b692f0d195bcd4a95b983936d966f0ea244c1ddc5bb883a1168a4a580bac": {
       "1117": 2,
       "326": 1
@@ -14305,6 +14315,10 @@
     "c72565a91a977b078101235aad612855701b7f1497ed66491f7866123cd94dbc": {
       "1615": 2,
       "541": 1
+    },
+    "ca027d1960782b8b0129860cdeccaaf7a6408338e4f4e1a02dacff54bd644852": {
+      "1227": 2,
+      "431": 1
     },
     "cc569216c6b35642b8c0b2e78b62ddf1c441cdc7747932015ad5744833174ff7": {
       "482": 1
@@ -14443,10 +14457,6 @@
     "e37838dad9e1d4d373c6a035ad1d72d20f66923a45a229a1e46f23eeb112ed93": {
       "374": 1
     },
-    "e47b794a13bef069243bb4848c9a60335f38c5c62d7a361bad67f861c5d1d297": {
-      "1563": 2,
-      "498": 1
-    },
     "e4c347d2d1adea22af7af9f7898d9be85eccd491a1a13c4502b0d560d22bdba4": {
       "1525": 2,
       "424": 1
@@ -14530,10 +14540,6 @@
     "f300b43cae6dcccede7b10cee5059c2e024ab98a7dae313eed9aca2a18b87d59": {
       "400": 1
     },
-    "f38d17a9ed6ead293cc9af2c665763a64ff04d26298a95d1b8e1c9f0444c1a7f": {
-      "344": 1,
-      "941": 2
-    },
     "f3e0b4b8e559c4c29b2384926cb3b0e603c64af2d38a2a427ac36f4f335ad917": {
       "1257": 2,
       "473": 1
@@ -14572,9 +14578,6 @@
     },
     "fba7d5ea42fc11de7b671d87fbde076ff3ef2a829355edd2c320344a62b87a54": {
       "449": 1
-    },
-    "fbeb5e4e8d2f5434b4b124fff649e2ab3cb2c7e67bf4a88c97dd3af2791173c0": {
-      "395": 1
     },
     "fc95828592ca0a6500aa19488ceba1f84a1ab5f174c01e9d5df2dff147d5d18a": {
       "340": 1

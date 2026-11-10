@@ -1,0 +1,88 @@
+{
+ "key": "quest:94819",
+ "type": "quest",
+ "name": "Contingency Plan",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94819
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Someone sends you to Ironforge to meet High Priestess Mims. Your next test is approaching, and she is waiting in the Mystic Ward.",
+ "sections": [
+  {
+   "title": "A Waiting Audience",
+   "body": "In Ironforge, High Priestess Mims is waiting to speak with you in the Mystic Ward. Your next test approaches, and the one who sent you cannot leave their place to witness your people's rites. The Light is wished upon your travels as you go to meet Mims.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who am I meant to meet?",
+   "aliases": [
+    "who is waiting",
+    "meet Mims",
+    "Mims"
+   ],
+   "answer": "High Priestess Mims is waiting to speak with you in Ironforge's Mystic Ward."
+  },
+  {
+   "q": "Where can I find Mims?",
+   "aliases": [
+    "where is Mims",
+    "Mims location",
+    "Mystic Ward"
+   ],
+   "answer": "Mims should be in the Mystic Ward in Ironforge."
+  },
+  {
+   "q": "Why am I going to Ironforge?",
+   "aliases": [
+    "why Ironforge",
+    "what's in Ironforge",
+    "audience"
+   ],
+   "answer": "High Priestess Mims would speak with you there, and your next test is approaching."
+  },
+  {
+   "q": "What does the sender say about my people's rites?",
+   "aliases": [
+    "my race's rites",
+    "special rites",
+    "why can't they come"
+   ],
+   "answer": "The sender wishes they could witness your people's rites, but says their place is where they are."
+  },
+  {
+   "q": "What is wished for my travels?",
+   "aliases": [
+    "Light blessing",
+    "Light go with me",
+    "travel blessing"
+   ],
+   "answer": "The sender wishes the Light to accompany you on your travels."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "contingency plan",
+  "high priestess mims",
+  "ironforge",
+  "light",
+  "mystic ward",
+  "next test",
+  "rites"
+ ],
+ "related": [
+  "zone:ironforge",
+  "subzone:mystic-ward",
+  "topic:light"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Contingency Plan"
+ ]
+}

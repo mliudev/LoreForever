@@ -21,9 +21,11 @@ end
 
 -- Whether the game's controller interface is on (LOR-481). Its navigation reacts at once, in the caller's code, to a
 -- game window opening or closing, a frame being made on one, a game popup or the interface hiding. Started from an
--- add-on, that runs tainted: the controller's binding state is then tainted for the session, and every window after
--- gets "Lore Forever tried to call SetPreferredGamepadInteractTarget()" (clicking Ignore or Disable can crash the
--- game). So with it on, nothing of ours does any of those; a /reload clears what's already tainted.
+-- add-on, that runs tainted, and so does reading a game window's frames that our code moved (the storyline line
+-- moved the quest's text down: Hooks.lua placeStory). The controller's binding state is then tainted for the session,
+-- and every window after gets "Lore Forever tried to call SetPreferredGamepadInteractTarget()" (clicking Ignore or
+-- Disable can crash the game). So with it on, nothing of ours does any of those, nor moves, hides or resizes a frame of
+-- the game's; a /reload clears what's already tainted.
 function Context.GamepadUI()
   local IU = _G.InputUtil
   if type(IU) ~= "table" then return false end

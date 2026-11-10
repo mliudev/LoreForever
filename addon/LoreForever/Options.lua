@@ -39,6 +39,7 @@ Options.DEFAULTS = {
   readBooks = true,
   skipHeard = true,        -- don't play automatically what this character has heard (LoreForeverDB.heard)
   packHints = true,        -- say (once a session per zone) when its places and people are in a lands pack you lack
+  voiceOffers = true,      -- the dimmed play button where a free download has that voice (VoiceOffer.lua)
   tips = true,             -- one tip at login about a feature (Core.lua loginTip), until they run out
   updateNotice = true,     -- say once when a newer Lore Forever is out, and on the minimap button (Updates.lua)
   journey = true,          -- "Remember my journey": record places, people, quests and foes for Journey
@@ -227,14 +228,14 @@ local function volumeRow(c, anchor)
   channel:HookScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
     GameTooltip:AddLine(L["Play voices on"])
-    T.Tip(L["Which of the game's sound channels the narrators and quest dialogue play on. Voice volume below is that channel's volume."],
+    T.Tip(L["Which of the game's sound channels the narrators and quest dialogue play on. Narration and game voices below is that channel's volume."],
       "tipText", true)
     GameTooltip:Show()
   end)
   channel:HookScript("OnLeave", function() GameTooltip:Hide() end)
   local label = c:CreateFontString(nil, "ARTWORK", "GameFontNormalSmall")
   label:SetPoint("TOPLEFT", channel, "BOTTOMLEFT", -2, -12)
-  label:SetText(L["Voice volume"])
+  label:SetText(L["Narration and game voices"])
   local slider = CreateFrame("Slider", "LoreForeverVoiceVolume", c, T.BACKDROP_TEMPLATE)
   slider:SetOrientation("HORIZONTAL")
   slider:SetSize(220, 17)
@@ -311,7 +312,7 @@ local function volumeRow(c, anchor)
   end)
   slider:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-    GameTooltip:AddLine(L["Voice volume"])
+    GameTooltip:AddLine(L["Narration and game voices"])
     T.Tip(about(), "tipText", true)
     GameTooltip:Show()
   end)
@@ -408,6 +409,23 @@ function Options.VoiceSection(c, anchor)
   local genderNew = ns.WhatsNew.Tag(c, genderText, "LEFT", "RIGHT", 8, 0)
   local status = note(c, "", willoNote, 12, "GameFontHighlightSmall")
   local moreLabel, url, fillUrl = urlRow(c, L["Get more voices:"], VOICES_URL, status, 14)
+  -- The quiet voice buttons (VoiceOffer.lua): right-clicking one turns them all off, and this brings them back.
+  local offers = CreateFrame("CheckButton", nil, c, "UICheckButtonTemplate")
+  offers:SetPoint("LEFT", url, "RIGHT", 10, 0)
+  local offersText = type(offers.Text) == "table" and offers.Text
+    or offers:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
+  offersText:ClearAllPoints()
+  offersText:SetPoint("LEFT", offers, "RIGHT", 4, 0)
+  offersText:SetText(L["Show download buttons"])
+  offers:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    GameTooltip:AddLine(L["Show download buttons"])
+    T.Tip(L["A dimmed play button where a free download has the voice for that quest or story."], "tipText", true)
+    GameTooltip:Show()
+  end)
+  offers:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  offers:SetScript("OnClick", function(self) ns.VoiceOffer.SetEnabled(self:GetChecked()) end)
+  offers:HookScript("OnShow", function(self) self:SetChecked(ns.VoiceOffer.Enabled()) end)
   local hint = note(c, L["Installed a voice? Type /reload; it's added at the bottom of the narrator list."],
     moreLabel, 10)
   local packsHead = heading(c, L["Installed packs"], hint, 18)
@@ -416,7 +434,7 @@ function Options.VoiceSection(c, anchor)
 
   local section, rows = {}, {}
   function section.ShowNew()
-    volume.new:SetShown(ns.WhatsNew.OptionIsNew("Voice volume"))
+    volume.new:SetShown(ns.WhatsNew.OptionIsNew("Narration and game voices"))
     volume.channelNew:SetShown(ns.WhatsNew.OptionIsNew("Play voices on"))
     raceNew:SetShown(ns.WhatsNew.OptionIsNew("Prefer voices that suit the race"))
     genderNew:SetShown(ns.WhatsNew.OptionIsNew("Match the quest giver's voice"))
@@ -821,21 +839,21 @@ local function subtitleSizeSection(c, anchor)
     end)
   end)
   btn.Update()
-  -- Move the subtitles... / Put them back, beside it (LOR-679): drag them off your character or your bars, with a plain
-  -- drag for 30 seconds (Subtitles.Move). Made here with the page at login, not when the window opens (LOR-481).
+  -- Move things on screen... / Put them back, beside it (LOR-679): drag them off your character or your bars, in move
+  -- mode until Done (Move.lua). Made here with the page at login, not when the window opens (LOR-481).
   local move = CreateFrame("Button", nil, c, "UIPanelButtonTemplate")
   move:SetSize(190, 24)
   move:SetPoint("LEFT", btn, "RIGHT", 10, 0)
-  move:SetText(L["Move the subtitles..."])
+  move:SetText(L["Move things on screen..."])
   fit(move, 190)
   move:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-    GameTooltip:AddLine(L["Move the subtitles..."])
-    T.Tip(L["Drag the subtitles anywhere on your screen for 30 seconds, for example off your character or your action bars. They stay where you drop them. Same as /lore subtitles."], "tipText", true)
+    GameTooltip:AddLine(L["Move things on screen..."])
+    T.Tip(L["Drag the subtitles, the new-page note and the pin card where you want them, for example off your character or your action bars, then click Done. They stay where you drop them. Same as /lore move."], "tipText", true)
     GameTooltip:Show()
   end)
   move:SetScript("OnLeave", function() GameTooltip:Hide() end)
-  move:SetScript("OnClick", function() ns.Subtitles.Move() end)
+  move:SetScript("OnClick", function() ns.Move.Toggle() end)
   local back = CreateFrame("Button", nil, c, "UIPanelButtonTemplate")
   back:SetSize(140, 24)
   back:SetPoint("LEFT", move, "RIGHT", 10, 0)
@@ -887,6 +905,7 @@ function Options.Create()
     end
     text:SetText(label)
     cb.label = text
+    cb.color = { text:GetTextColor() }      -- what un-greying puts back
     -- "New" after an update, for an option this version's notes mention (WhatsNew.lua), until Options is next opened.
     cb.newTag = ns.WhatsNew.Tag(c, text, "LEFT", "RIGHT", 8, 0)
     cb.english = english(label)
@@ -897,6 +916,7 @@ function Options.Create()
     desc:SetJustifyH("LEFT")
     desc:SetText(tip)
     cb.desc = desc
+    cb.tip = tip
     cb:SetScript("OnClick", function(self)
       LoreForeverDB.settings[key] = self:GetChecked() and true or false
       if key == "showSpoilers" and ns.UI and ns.UI.UpdateListen then ns.UI.UpdateListen() end
@@ -907,7 +927,7 @@ function Options.Create()
       end
       if (key == "floatPlayer" or key == "reportCross") and ns.UI.UpdateNowPlaying then ns.UI.UpdateNowPlaying() end
       if key == "subtitles" and ns.Subtitles then ns.Subtitles.Set(self:GetChecked()) end
-      if key == "onDemand" then ns.Voice.SetOnDemand(self:GetChecked()) end
+      if key == "onDemand" then ns.Voice.SetOnDemand(self:GetChecked()); p.Waiting() end
       if key == "getWillo" and ns.UI.UpdateWilloIcon then ns.UI.UpdateWilloIcon() end
       if key == "questDialogue" then ns.Voice.SetQuestDialogue(self:GetChecked()) end
       if key == "journey" and ns.Journey then ns.Journey.OnToggle() end
@@ -919,25 +939,42 @@ function Options.Create()
     p.checks[#p.checks + 1] = cb
     return desc, cb
   end
+  -- A box that can't do anything now is grey with why, and keeps its tick for later (the settings that fight, Mike 11/9):
+  -- what "only when I press Play" holds back, and the update notice while Willo keeps Lore Forever up to date.
+  local WAITS_FOR_PLAY = { narrateFlights = true, autoZone = true, questDialogue = true }
+  local function grey(cb, why)
+    cb:SetEnabled(not why)
+    if why then cb.label:SetTextColor(T.rgba(T.color.muted)) else cb.label:SetTextColor(unpack(cb.color)) end
+    cb.desc:SetText(why or cb.tip)
+  end
+  function p.Waiting()
+    for _, cb in ipairs(p.checks) do
+      if WAITS_FOR_PLAY[cb.key] then
+        grey(cb, LoreForeverDB.settings.onDemand == true and L["Waits until narration plays by itself."] or nil)
+      elseif cb.key == "updateNotice" then
+        grey(cb, ns.Updates.WilloKeeps() and L["%s keeps this up to date."]:format(ns.COMPANION_NAME) or nil)
+      end
+    end
+  end
   for i, row in ipairs(rows()) do
     local cb
     last, cb = check(row, last, i == 1)
-    -- Move the notes..., beside New page notes (LOR-1367): windows open when asked, but the two notes only come when
-    -- something happens, so this shows a sample of each to place.
+    -- Move things on screen..., beside New page notes (LOR-1367): windows open when asked, but the two notes only come
+    -- when something happens, so move mode (Move.lua) shows a sample of each to place.
     if row[1] == "pageSlip" then
       local move = CreateFrame("Button", nil, c, "UIPanelButtonTemplate")
-      move:SetSize(150, 22)
+      move:SetSize(190, 22)
       move:SetPoint("LEFT", cb.label, "RIGHT", 60, 0)
-      move:SetText(L["Move the notes..."])
-      fit(move, 150)
+      move:SetText(L["Move things on screen..."])
+      fit(move, 190)
       move:SetScript("OnEnter", function(self)
         GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-        GameTooltip:AddLine(L["Move the notes..."])
-        T.Tip(L["Show a sample of the new-page note and the pin card for 20 seconds. Drag each one where you want it, and they stay there."], "tipText", true)
+        GameTooltip:AddLine(L["Move things on screen..."])
+        T.Tip(L["Shows the new-page note, the pin card and the subtitles. Drag each one where you want it, then click Done. They stay where you drop them. Same as /lore move."], "tipText", true)
         GameTooltip:Show()
       end)
       move:SetScript("OnLeave", function() GameTooltip:Hide() end)
-      move:SetScript("OnClick", function() ns.Slip.Sample(); ns.PinArrive.Sample() end)
+      move:SetScript("OnClick", function() ns.Move.Toggle() end)
       cb.move = move
     end
   end
@@ -1087,7 +1124,7 @@ function Options.Create()
       p.updateWillo()   -- (unticked without Willo: greyed out again)
     end)
   end
-  -- Move the sky / Put it back (Sky.OptionsRow, LOR-530), under Willo's settings; shown and greyed with them.
+  -- Move things on screen... / Put it back (Sky.OptionsRow, LOR-530), under Willo's settings; shown and greyed with them.
   local skyRow, updateSkyRow = ns.Sky.OptionsRow(c, last)
   skyRow:SetScript("OnShow", function()
     local on = ns.Companion.Installed()
@@ -1118,7 +1155,7 @@ function Options.Create()
     -- shows on, so her Settings wouldn't help.
     liveWhere:SetText(live and (not on or not ns.Strip.OnFromWillo()) and L["Type /lore live to turn it off."]
       or not live and ns.Strip.OnFromWillo() and L["You turned it off in the game. Type /lore live to turn it back on."]
-      or L["You set this in %s: Settings › Basics."]:format(ns.COMPANION_NAME))
+      or L["You set this in %s: Settings › What she can see."]:format(ns.COMPANION_NAME))
     liveLine:SetShown(shown)
     liveWhere:SetShown(shown)
     for _, cb in ipairs(p.willoChecks) do
@@ -1146,6 +1183,7 @@ function Options.Create()
       cb:SetChecked(LoreForeverDB.settings[cb.key] and true or false)
       cb.newTag:SetShown(ns.WhatsNew.OptionIsNew(cb.english))
     end
+    self.Waiting()
     self.updateWillo()
     self.updateKeys()
     self.voice.ShowNew()

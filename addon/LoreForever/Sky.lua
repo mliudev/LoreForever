@@ -229,7 +229,7 @@ local SPOTS = {}
 for _, xy in ipairs(Sky.SLOTS) do SPOTS[#SPOTS + 1] = xy end
 for _, xy in ipairs(Sky.RING) do SPOTS[#SPOTS + 1] = xy end
 
--- Where the player put the sky (LOR-530: /lore sky, Options › Willo › Move the sky), its centre as a share of the
+-- Where the player put the sky (LOR-530: /lore sky, Options › Willo › Move things on screen...), its centre as a share of the
 -- screen's width and height from the bottom left; nil while it's on the minimap. Willo looks for it anywhere.
 local function movedTo()
   local at = S().skyAt
@@ -285,7 +285,7 @@ end
 
 local frame, cores, dims, sockets, halos, guides, mists, wisp, motes = nil, {}, {}, {}, {}, {}, {}, {}, {}
 local placed, shown, lit = nil, {}, {}
-local moving, mover, outline = false, nil, nil   -- being moved (Sky.Move), its bar and its outline
+local moving, outline = false, nil   -- being moved (Sky.Move), and its outline
 local dragging = false                            -- held by the mouse right now (OnDragStart until it's let go)
 local hiddenNow, fade = false, 1                  -- Sky.SetHidden, Sky.SetFade
 local function alpha() if frame then frame:SetAlpha(hiddenNow and 0 or fade) end end
@@ -455,18 +455,6 @@ local function layout(left, top, unit, px)
   Sky.Animate(0)
 end
 
--- The Done / Put it back bar (Sky.Move) under the sky, or over it where there's no room under it: never on it. The sky
--- takes the mouse while it's being moved, and a bar pushed onto it at the bottom of the screen took no clicks.
-local function placeMover()
-  if not mover then return end
-  local bottom, h = frame:GetBottom(), mover:GetHeight()
-  local side = (bottom and h and bottom - 6 - h < 0) and "over" or "under"
-  if mover.side == side and mover.on == placed then return end
-  mover.side, mover.on = side, placed
-  mover:ClearAllPoints()
-  if side == "over" then mover:SetPoint("BOTTOM", frame, "TOP", 0, 6) else mover:SetPoint("TOP", frame, "BOTTOM", 0, -6) end
-end
-
 -- The moving parts at time t (seconds): the mist drifts round, the wisp breathes and bobs with its motes circling,
 -- the lit stars' halos twinkle. Every halo stays smaller than the gap to the next star, and the cores are on top.
 function Sky.Animate(t)
@@ -507,7 +495,6 @@ function Sky.Paint(bytes, ring)
   if not left then return false end
   if not dragging then
     layout(left, top, unit, px)
-    if moving then placeMover() end
   end
   local bits = Sky.Bits(bytes)
   for _, bit in ipairs(Sky.RingBits(ring)) do bits[#bits + 1] = bit end
@@ -525,7 +512,6 @@ end
 
 function Sky.Hide()
   if frame then frame:Hide() end
-  if mover then mover:Hide() end
 end
 
 -- Out of the player's own screenshots, like the block (Strip.lua's SCREENSHOT_ events); faded in and out round a
@@ -544,46 +530,13 @@ end
 -- The screen or the interface changed size: lay out again at the next paint.
 function Sky.Relayout() placed = nil end
 
--- Moving the sky (LOR-530: /lore sky, Options › Willo › Move the sky). While it's being moved it shows, with an outline
--- to drag it by and a bar under it (Done, Put it back), even with the Lore Forever window closed (Strip.Showing);
--- without Live game info it shows no game info, just the stars (Strip.lua's paint).
+-- Moving the sky (LOR-530), in move mode (Move.lua: /lore sky, Options' Move things on screen...). While it's being
+-- moved it shows, with an outline to drag it by, even with the Lore Forever window closed (Strip.Showing); without
+-- Live game info it shows no game info, just the stars (Strip.lua's paint). Move.lua's bar has Done and Put them back.
 function Sky.Moving() return moving end
 
-local function chat(msg)
-  if DEFAULT_CHAT_FRAME then DEFAULT_CHAT_FRAME:AddMessage(ns.Theme.CHAT_PREFIX .. msg) end
-end
-
-local function makeMover()
-  local T = ns.Theme
-  mover = CreateFrame("Frame", "LoreForeverSkyMover", UIParent, T and T.BACKDROP_TEMPLATE or nil)
-  -- The game's dialog layer at its own level, like Options' dropdown list, whose buttons take clicks. Over the sky
-  -- (TOOLTIP, at the game's highest level) with a level past it, Done and Put it back took no clicks in Mike's game
-  -- (10/18 and 10/19); the bar is never on the sky (placeMover), so the sky staying on top costs nothing.
-  mover:SetFrameStrata("FULLSCREEN_DIALOG")
-  if mover.SetToplevel then mover:SetToplevel(true) end
-  mover:SetClampedToScreen(true)
-  mover:EnableMouse(true)
-  if T then   -- solid, like the key prompt: the game world doesn't show through behind its words
-    local bg = T.Area(mover, "dock")
-    bg:SetPoint("TOPLEFT", 2, -2)
-    bg:SetPoint("BOTTOMRIGHT", -2, 2)
-    T.Backdrop(mover, "dock")
-  end
-  mover:SetSize(300, 64)
-  local text = mover:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
-  text:SetPoint("TOP", 0, -10)
-  text:SetWidth(280)
-  text:SetText(string.format(L["Drag %s's sky where you want it."], ns.COMPANION_NAME))
-  local function button(label, point, x)
-    local b = T and T.Button(mover, label) or CreateFrame("Button", nil, mover, "UIPanelButtonTemplate")
-    b:SetText(label)
-    b:SetSize(110, 22)
-    b:SetPoint(point, mover, "BOTTOM", x, 10)
-    return b
-  end
-  button(L["Done"], "BOTTOMRIGHT", -4):SetScript("OnClick", function() Sky.Move(false) end)
-  button(L["Put it back"], "BOTTOMLEFT", 4):SetScript("OnClick", function() Sky.PutBack() end)
-end
+-- The sky's frame, made or not (Move.lua keeps its bar clear of it).
+function Sky.Frame() return frame end
 
 -- Start (true) or stop moving the sky.
 function Sky.Move(on)
@@ -592,18 +545,10 @@ function Sky.Move(on)
   frame:EnableMouse(moving)
   if moving then
     frame:RegisterForDrag("LeftButton")
-    if not mover then makeMover() end
-    mover.side = nil
-    placeMover()
     if not outline and ns.Theme and ns.Theme.Outline then outline = ns.Theme.Outline(frame, "gold", "OVERLAY") end
   end
-  if mover then mover:SetShown(moving) end
   if outline then outline:SetShown(moving) end
   if ns.Strip then ns.Strip.Update() end
-  if moving then
-    chat(string.format(Sky.KeptUp() and L["drag %s's sky where you want it, then click Done. Put it back returns it under your buffs."]
-      or L["drag %s's sky where you want it, then click Done. Put it back returns it to the minimap."], ns.COMPANION_NAME))
-  end
 end
 
 -- Back on the minimap, where it starts.
@@ -622,7 +567,7 @@ function Sky.UnderBuffs()
   return underBuffs
 end
 
--- The Move the sky / Put it back row in Options › Willo (Options.lua), under `anchor`: returns the row, and a function
+-- The Move things on screen... / Put it back row in Options › Willo (Options.lua), under `anchor`: returns the row, and a function
 -- that shows and enables its buttons (shown: the Willo section shows; on: Willo is installed).
 function Sky.OptionsRow(parent, anchor)
   local row = CreateFrame("Frame", nil, parent)
@@ -633,13 +578,13 @@ function Sky.OptionsRow(parent, anchor)
     b:SetSize(width, 24)
     return b
   end
-  local move = button(L["Move the sky..."], 150)
+  local move = button(L["Move things on screen..."], 190)
   move:SetPoint("TOPLEFT", row, "TOPLEFT", 0, 0)
-  move:SetScript("OnClick", function() Sky.Move(not Sky.Moving()) end)
+  move:SetScript("OnClick", function() ns.Move.Toggle() end)
   move:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-    GameTooltip:AddLine(L["Move the sky..."])
-    ns.Theme.Tip(string.format(L["Drag the sky anywhere on your screen, for example when another add-on covers your minimap. %s finds it wherever it is. Same as /lore sky."], ns.COMPANION_NAME), "tipText", true)
+    GameTooltip:AddLine(L["Move things on screen..."])
+    ns.Theme.Tip(string.format(L["Drag the sky anywhere on your screen, for example when another add-on covers your minimap. %s finds it wherever it is. Same as /lore move."], ns.COMPANION_NAME), "tipText", true)
     GameTooltip:Show()
   end)
   move:SetScript("OnLeave", function() GameTooltip:Hide() end)

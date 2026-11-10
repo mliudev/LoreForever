@@ -11,7 +11,7 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "The Library in Ironforge welcomes magical works for its collection. Your discoveries help expand its knowledge.",
+ "summary": "A library welcomes magical works for its collection. Your discoveries help expand its knowledge.",
  "sections": [
   {
    "title": "The Collection",
@@ -36,7 +36,7 @@
     "where's the library",
     "ironforge library"
    ],
-   "answer": "The library is in Ironforge."
+   "answer": "Librarians gather such works in Stormwind and in the Undercity."
   },
   {
    "q": "Why bring magical works?",
@@ -58,9 +58,7 @@
   "runes",
   "sorcerer-kings"
  ],
- "related": [
-  "subzone:library-ironforge"
- ],
+ "related": [],
  "style": 2,
  "attribution": [
   "In-game quest text: Runes of the Sorcerer-Kings"

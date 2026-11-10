@@ -1,0 +1,83 @@
+{
+ "key": "quest:95121",
+ "type": "quest",
+ "name": "A Taste of the Sea",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95121
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Fimbo Greasemitz wants fresh seafood for a new stew at his cafe on the water. You gather local ingredients to change up the menu.",
+ "sections": [
+  {
+   "title": "A New Dish",
+   "body": "Fimbo Greasemitz runs a cafe on the water, where roasted boar and fish fill the menu each day. He wants to try a seafood stew and asks you to bring him murloc eyes and Sand Crawler meat from nearby beaches.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Fimbo Greasemitz?",
+   "aliases": [
+    "who's fimbo",
+    "fimbo cafe",
+    "fimbo greasemitz"
+   ],
+   "answer": "Fimbo Greasemitz runs a cafe on the water and wants to add seafood stew to its menu."
+  },
+  {
+   "q": "What ingredients does Fimbo need?",
+   "aliases": [
+    "stew ingredients",
+    "what meat",
+    "murloc eyes"
+   ],
+   "answer": "Fimbo asks for murloc eyes and Sand Crawler meat for his seafood stew."
+  },
+  {
+   "q": "Why does Fimbo want seafood?",
+   "aliases": [
+    "why stew",
+    "new menu",
+    "cafe food"
+   ],
+   "answer": "He wants a new seafood stew recipe to shake up the cafe's daily menu of roasted boar and fish."
+  },
+  {
+   "q": "Where can you find the ingredients?",
+   "aliases": [
+    "where meat",
+    "where ingredients",
+    "beach stuff"
+   ],
+   "answer": "Fimbo says the murloc eyes and Sand Crawler meat can be found along the nearby beaches."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "As a cook, you can see Fimbo seeking fresh local ingredients for a seafood stew."
+  }
+ ],
+ "keywords": [
+  "beach",
+  "cafe",
+  "fimbo greasemitz",
+  "fish",
+  "murloc eyes",
+  "roasted boar",
+  "sand crawler meat",
+  "seafood stew"
+ ],
+ "related": [
+  "topic:murloc"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Taste of the Sea"
+ ]
+}

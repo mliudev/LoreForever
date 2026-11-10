@@ -2265,9 +2265,9 @@
     "topic:grimtotem-tribe": {
       "1": [
         {
-          "duration": 85.70775510204082,
-          "file": "Audio/Transport/full_topic_grimtotem-tribe-131bc87356d5d9cb9047/1-0000.mp3",
-          "sha256": "2c91ac92cf69a5550f8294e29a70ea0bfec4f04d93d64b91ff194afe3884cdf2",
+          "duration": 87.84979591836735,
+          "file": "Audio/Transport/full_topic_grimtotem-tribe-18bc711b578b8bf054ac/1-0000.mp3",
+          "sha256": "15d2d3d2103f2f8658b076dfc1731fc9eea632af87999478e0484cf302497526",
           "start": 0
         }
       ],
@@ -2279,12 +2279,12 @@
         ]
       },
       "fullHash": "4792be",
-      "generation": "22fc8f7b45a169754287",
+      "generation": "987ed5a7bb6478c6577d",
       "hash": "4792be",
       "source": {
-        "duration": 85.733878,
+        "duration": 87.875918,
         "file": null,
-        "sha256": "131bc87356d5d9cb90473c03cdff2922e8f9414da0a57f907c58960fb3137ec9"
+        "sha256": "18bc711b578b8bf054ac00e4a0b1d0f3528183a927d96dc824ebe130cebd0155"
       },
       "text": "Grimtotem tribe. Across Kalimdor, the Grimtotem tribe raids settlements and keeps apart from Thrall's Horde. Dark hides and fierce warpaint mark them, and they seek to drive foreign races from Kalimdor and reclaim ancestral lands by any means. Their matriarch, Elder Crone Magatha Grimtotem, resides atop Thunder Bluff while her kin raid across the continent. Grimtotem warriors train for ruthless combat rather than the patient harmony of the Great Hunt. They believe Kalimdor belongs only to the tauren. Their peaceful cousins honor the Earth Mother with reverence, but the Grimtotem disdain the other races settled on their ancient lands.\n\nCairne Bloodhoof welcomed them into Thunder Bluff, hoping to unite all tauren. Yet the Grimtotem remain the only major tribe never to formally join Thrall's Horde. They keep apart and pursue a violent cause. Beyond Thunder Bluff's watch, Grimtotem hostility turns to violence. In Stonetalon Mountains, they butcher local settlements and threaten Horde supply outposts. Across the mesas of Thousand Needles, they gather around Darkcloud Pinnacle, menace Freewind Post, and plot to seize the canyon.\n\nFeralas is no safer. They attack Horde travelers, Alliance caravans, and fellow tauren without hesitation. Horde garrisons at Sun Rock Retreat and Camp Mojache regularly post bounties and send warriors to cut down these violent outcasts."
     },
@@ -2317,9 +2317,9 @@
     "topic:harpy": {
       "1": [
         {
-          "duration": 84.8457142857143,
-          "file": "Audio/Transport/full_topic_harpy-38d3a1adb784a06303c8/1-0000.mp3",
-          "sha256": "c20f1b5f40be76dda680dfbc6ef98490acbdfd5eb9038d85cf6762f7917d9c43",
+          "duration": 86.33469387755102,
+          "file": "Audio/Transport/full_topic_harpy-5375b9cb31b71be81d96/1-0000.mp3",
+          "sha256": "36ab8c9cc3c9865557aa174c4669a828e8a68205d81bafc7f54d9e0b56658abd",
           "start": 0
         }
       ],
@@ -2331,12 +2331,12 @@
         ]
       },
       "fullHash": "a8c3b5",
-      "generation": "7fb7e467b4f9e263ffba",
+      "generation": "fc0c21033b246422d6c4",
       "hash": "a8c3b5",
       "source": {
-        "duration": 84.871837,
+        "duration": 86.360816,
         "file": null,
-        "sha256": "38d3a1adb784a06303c81ea99f0cf370de127040443d698ce2834d0cb41f5dc0"
+        "sha256": "5375b9cb31b71be81d9614c4a55e5df438ae1b928f882b5aac949a0476c80acc"
       },
       "text": "Harpy. Across Kalimdor and Alterac's high passes, Harpies foul their roosts and hunt travelers. Their shrieks and storm magic are feared, while night elf tales link them to Azshara's cursed betrayers. Their true origins remain uncertain. Harpies spread from the crags of the Stonetalon Mountains across Kalimdor. Their heads and upper bodies resemble night elf women, with broad feathered wings and wicked talons. Age makes their elven faces more striking, but their nature is savage. They terrorize Durotar's arid canyons, Teldrassil's sacred boughs, and the heights of Mulgore. Around their roosts, they despoil plant and animal life, leaving the picked-clean bones of their prey. Night elf tales say harpies began as handmaidens who betrayed Queen Azshara and were cursed before the Great Sundering. Their true origins remain uncertain. Today, ruthless matriarchies rule the harpies. Those who seek command betray, slaughter, and torment their rivals to hold it. Harpies tear flesh with razor-sharp claws and wield dangerous wind and lightning magic. From above, their shrieking gales batter their foes. Cunning hunters, they can speak and sometimes trade scavenged oddities with subterranean creatures such as kobolds for bright gems and shiny trinkets. Their elven forms can beguile unwary explorers, but their kiss is venomous and swiftly brings a violent, wasting fever."
     },
@@ -2447,9 +2447,9 @@
     "topic:kobold": {
       "1": [
         {
-          "duration": 82.02448979591837,
-          "file": "Audio/Transport/full_topic_kobold-1a9812c17454ff1acb35/1-0000.mp3",
-          "sha256": "e2ff07934fba0176e757cbab90175479ea69b98581ab4da46b192850db132589",
+          "duration": 81.03183673469388,
+          "file": "Audio/Transport/full_topic_kobold-a26b80dde790c14743d9/1-0000.mp3",
+          "sha256": "13792250c6077fc25391d4f59ebaa3aa4bdd5ba6fd824f89f6162f6f4fab2890",
           "start": 0
         }
       ],
@@ -2461,12 +2461,12 @@
         ]
       },
       "fullHash": "8cd394",
-      "generation": "4cb9bf02db06ba1ad5f3",
+      "generation": "2b6a6c55468590b33b39",
       "hash": "8cd394",
       "source": {
-        "duration": 82.050612,
+        "duration": 81.057959,
         "file": null,
-        "sha256": "1a9812c17454ff1acb35b4617e99aaa6efbac6eb4addb5cc2ba8e71c7d610a58"
+        "sha256": "a26b80dde790c14743d927fa4528481082a13d631784980fb9f20bcf359952a8"
       },
       "text": "Kobold. In Azeroth's mines and caverns, kobolds guard the candles fixed to their heads. Small and rat-like, they dig in the dark and defend their tunnels in numbers. Kobolds stand barely four feet tall. Filthy scavengers, they spend their lives delving underground. Their low-light vision fails in the deepest shafts, so each kobold fixes a crude candle to its head. Alone, one is cowardly when cornered. Yet kobolds breed in massive numbers and work with relentless energy. When agitated, their rat-like tails whip as they rush intruders in frantic swarms. They wield heavy iron mining picks and beat foes to death with them. Kobolds fear pitch-black tunnels with a deep, primal terror. To them, a candle is more than light. Its flame shields them from a darkness they believe will consume them. Across the Eastern Kingdoms, kobolds often overrun working mines. In Elwynn Forest, a clan displaced from the Redridge Mountains seized the Echo Ridge, Fargodeep, and Jasperlode mines. Riverpaw gnolls and the Defias Brotherhood helped drive them there. In Loch Modan, the Tunnel Rat clan seized the Silver Stream Mine from the dwarven Miners' League.\n\nKobolds also plague industrial digs in Kalimdor. They labor for the Venture Company in Stonetalon and uncover strange minerals in Thousand Needles."
     },
@@ -3227,9 +3227,9 @@
     "topic:steamwheedle-cartel": {
       "1": [
         {
-          "duration": 109.7926530612245,
-          "file": "Audio/Transport/full_topic_steamwheedle-cartel-88f0c64af8425e7a78f3/1-0000.mp3",
-          "sha256": "838af6790760dd6c0f37e36d0a8dcce456a651d51e05fa488b9397bf602bb1f3",
+          "duration": 109.1134693877551,
+          "file": "Audio/Transport/full_topic_steamwheedle-cartel-092ac61ec4d70dbec028/1-0000.mp3",
+          "sha256": "f754d5805fdf6b1887af0935431700103350ea65bc3df5d746cf8ef7f599546d",
           "start": 0
         }
       ],
@@ -3241,12 +3241,12 @@
         ]
       },
       "fullHash": "96ba81",
-      "generation": "53ab8cd86ca082ab852e",
+      "generation": "0f568e2218846a94d411",
       "hash": "96ba81",
       "source": {
-        "duration": 109.818776,
+        "duration": 109.139592,
         "file": null,
-        "sha256": "88f0c64af8425e7a78f3b71380813e62473f64337a6391a3bc5d5ae22f6fba38"
+        "sha256": "092ac61ec4d70dbec0285a2419d0e6d309ec3e38d4a35bc5c8805702bf7c5cc7"
       },
       "text": "Steamwheedle Cartel. In its ports, the Steamwheedle Cartel welcomes Alliance and Horde alike, so long as their coin is genuine. This powerful goblin enterprise has hubs in Booty Bay, Ratchet, and Gadgetzan. Its trade reaches shipping, alchemy, salvaging, and mercenary contracts. The Steamwheedle Cartel began beneath the earth in Undermine, the goblin capital. During the Second War, it backed the Old Horde with war machines, sappers, and naval engineering. When the war ended, its leaders judged that choosing sides cost more than it earned.\n\nSo the cartel turned to neutrality and spread across both continents, opening trade to Alliance and Horde alike. As tensions rise, its ports remain common ground. Anyone with gold can buy passage, store goods, or hire local specialists. The Steamwheedle Cartel builds its influence around ports and frontier towns. In Stranglethorn Vale, Baron Revilgaz rules Booty Bay, a harbor fortified in the cliffs beside the Blackwater Raiders. Across the Great Sea, Chief Engineer Gazlowe directs Ratchet on the Barrens coast.\n\nA deep-water ferry runs straight from Ratchet to Booty Bay. Gadgetzan lies deep in Tanaris, while Steamwheedle Port and outposts in Desolace, Azshara, and Stonetalon Mountains secure resources across the region. Cutthroats threaten Steamwheedle trade at sea and on land. The Bloodsail Buccaneers menace Booty Bay's sea lanes, while Southsea Freebooters raid the coast near Ratchet. On land, the cartel fights its corporate rival, the Venture Company, over timber rights, oil fields, and shredder technology in Stonetalon and the Barrens. To keep order and enforce trade contracts, cartel barons hire passing mercenaries to settle disputes with extreme force."
     },
@@ -4345,9 +4345,9 @@
     "zone:mulgore": {
       "1": [
         {
-          "duration": 99.55265306122449,
-          "file": "Audio/Transport/full_zone_mulgore-abc1887baf89c0611bea/1-0000.mp3",
-          "sha256": "dd34d4d5f7cefa2fd63f1307accc1adc8936a7c05caeb6879e4332b8ab106d54",
+          "duration": 104.6726530612245,
+          "file": "Audio/Transport/full_zone_mulgore-6e2ccced04038eab4cf2/1-0000.mp3",
+          "sha256": "78fba49c480f6cf7f7cc7b8d7b04e733b2a811be77a7d278ad9d7d06dd1b8c58",
           "start": 0
         }
       ],
@@ -4359,12 +4359,12 @@
         ]
       },
       "fullHash": "c99c0f",
-      "generation": "f15fe19a3944f14d1b51",
+      "generation": "50c183465420e5f6dece",
       "hash": "437a28",
       "source": {
-        "duration": 99.578776,
+        "duration": 104.698776,
         "file": null,
-        "sha256": "abc1887baf89c0611bea30de83d17f0635d84110a35f6485722009fc5f79a618"
+        "sha256": "6e2ccced04038eab4cf2d1deb46ecc10b6fab4f85f4a4565f32d76e522060ed9"
       },
       "text": "Mulgore. Below the Stonetalon Mountains lies Mulgore, the green and sheltered homeland of the tauren. Grasslands and rolling plains spread between its tall plateaus, and high mountain walls ring it round. It is the heart of the united tribes, and they watch over it from Thunder Bluff. For generations, the tauren lived as nomads, hunted across the plains by centaur warbands. Their fortune turned when High Chieftain Cairne Bloodhoof met Thrall and his orcs. They shared ideals of honor, shamanism and strength, so the tauren joined the young Horde. With the orcs' help, Cairne broke the centaur's grip and led his people into Mulgore. Here they built lasting homes for the first time in centuries, and crowned the northern mesas with their capital. To come of age in Mulgore, young tauren must answer the call of the Great Hunt and honor the Earthmother. Their training begins at Camp Narache, under Chief Hawkwind. From there they go down to Bloodhoof Village, and take up the Rites of the Earthmother. They learn to speak with the ancestral spirits and to forage the native herbs. And they learn to respect the herds of kodos and tallstriders that sustain their people. For all its calm, Mulgore is threatened on every side. Displaced quilboar have dug in at Brambleblade Ravine, and they have defiled the sacred burial grounds of Red Rocks. In the mountains, Windfury harpies prey on the wild game, and Palemane gnolls strike from hidden caves.\n\nAnd outsiders have come to profit from the land. The goblins of the Venture Company are fouling the sacred wells, and quarrying the eastern hills. Dwarven explorers from Bael Modan have opened the Bael'dun Digsite. There they dig for ancient titan relics, over the tauren's protests."
     },
@@ -4735,9 +4735,9 @@
     "zone:stormwind": {
       "1": [
         {
-          "duration": 99.73551020408163,
-          "file": "Audio/Transport/full_zone_stormwind-d20e3d33b775ed753271/1-0000.mp3",
-          "sha256": "90a13ed591fb8316fba306ce73c81a1d27c1c3f4937969cdfc52338f33946d22",
+          "duration": 101.04163265306123,
+          "file": "Audio/Transport/full_zone_stormwind-82a6b97f5eb8d249e0f3/1-0000.mp3",
+          "sha256": "2fe9da15db1cb98a5625c25311e836a46e510a32b3e6ad61fa0f03f3e73d584f",
           "start": 0
         }
       ],
@@ -4749,12 +4749,12 @@
         ]
       },
       "fullHash": "1fc246",
-      "generation": "b9e41eb055fb0a393907",
+      "generation": "c30a148de7a9ca0b1693",
       "hash": "2527da",
       "source": {
-        "duration": 99.761633,
+        "duration": 101.067755,
         "file": null,
-        "sha256": "d20e3d33b775ed75327164398988c4b1c07d52900c7335975694f0fd845586d2"
+        "sha256": "82a6b97f5eb8d249e0f386f458e669860293c1b39f2aac9197c0548e18a61db0"
       },
       "text": "Stormwind City. White-walled Stormwind is the greatest haven of men, and the heart of the Alliance. Yet its king is lost. The crown now rests on a boy of ten. Stormwind is old. More than a thousand years ago, the descendants of the Arathi founded it. For long generations it flourished, a realm that needed no one's help. Then the Horde came through the Dark Portal. The southern continent was laid waste, and in the First War the city was razed.\n\nIts survivors followed Sir Anduin Lothar north, across the Great Sea to Lordaeron. When the Horde fell in the Second War, King Terenas Menethil II and the Alliance paid for Stormwind to rise again. The Stonemasons Guild raised it anew in polished white stone, with canals running through its boroughs. But the white stone hides a troubled house. The House of Nobles quarreled with the Stonemasons Guild over wages, and the quarrel left the kingdom crippled by debt. The guild's workers rose in riot. They were driven from the very city they had built.\n\nThen King Varian Wrynn vanished on his way to a summit. Lest panic spread, the crown passed to his son Prince Anduin Wrynn. He is ten years old. Highlord Bolvar Fordragon rules now as Regent and commander of the army. And at his side stands the royal advisor, Lady Katrana Prestor. With Lordaeron overrun by the Scourge, men look to Stormwind above every other city. The faithful gather at the Cathedral of Light. And in the Valley of Heroes, tall statues honor the Sons of Lothar. They passed beyond the Dark Portal, and were seen no more."
     },
@@ -5322,6 +5322,20 @@
       3178,
       3340
     ],
+    "13792250c6077fc25391d4f59ebaa3aa4bdd5ba6fd824f89f6162f6f4fab2890": [
+      210,
+      403,
+      649,
+      876,
+      1136,
+      1535,
+      1694,
+      1936,
+      2090,
+      2379,
+      2517,
+      2750
+    ],
     "1580f827de582fd38ae4e518d666eaae798a9a02a5aed2731e418447b4f6d97a": [
       246,
       474,
@@ -5337,6 +5351,20 @@
       2724,
       2893,
       3135
+    ],
+    "15d2d3d2103f2f8658b076dfc1731fc9eea632af87999478e0484cf302497526": [
+      230,
+      553,
+      836,
+      1072,
+      1491,
+      1685,
+      1872,
+      2016,
+      2195,
+      2412,
+      2748,
+      3031
     ],
     "16de95c0239d5cdc34b8fb1df2df6890d32caa217135ab6ab65f7ce9de434774": [
       198,
@@ -5605,19 +5633,6 @@
       2125,
       2412
     ],
-    "2c91ac92cf69a5550f8294e29a70ea0bfec4f04d93d64b91ff194afe3884cdf2": [
-      219,
-      528,
-      813,
-      1022,
-      1454,
-      1640,
-      1965,
-      2143,
-      2352,
-      2672,
-      2966
-    ],
     "2d31fa3962b8f2bf7f0ae44121f16571cc7d8b97f58534ae32e2728007d34485": [
       222,
       592,
@@ -5669,6 +5684,23 @@
       3412,
       3810
     ],
+    "2fe9da15db1cb98a5625c25311e836a46e510a32b3e6ad61fa0f03f3e73d584f": [
+      203,
+      422,
+      654,
+      809,
+      1107,
+      1325,
+      1609,
+      1867,
+      2224,
+      2434,
+      2635,
+      2824,
+      3010,
+      3217,
+      3436
+    ],
     "31bf5a7b9ff5a2f1ea89af175e8a376bb3c850bac56fe51b3e92d028597e131e": [
       163,
       330,
@@ -5698,6 +5730,20 @@
       1698,
       2115,
       2326
+    ],
+    "36ab8c9cc3c9865557aa174c4669a828e8a68205d81bafc7f54d9e0b56658abd": [
+      225,
+      600,
+      767,
+      982,
+      1151,
+      1370,
+      1624,
+      1911,
+      2130,
+      2344,
+      2567,
+      3016
     ],
     "3ad8713641dd746a7b53a089f40eafcf322f188dcd5b853b218419faee81c9a5": [
       236,
@@ -6516,6 +6562,27 @@
       4507,
       4946
     ],
+    "78fba49c480f6cf7f7cc7b8d7b04e733b2a811be77a7d278ad9d7d06dd1b8c58": [
+      223,
+      458,
+      640,
+      858,
+      1045,
+      1253,
+      1424,
+      1668,
+      1916,
+      2070,
+      2256,
+      2440,
+      2648,
+      2792,
+      2927,
+      3064,
+      3335,
+      3665,
+      3840
+    ],
     "795302abe05be4eb8216c1c671b4338107261a386de4a76cdf34ab2a927a2605": [
       202,
       467,
@@ -6679,25 +6746,6 @@
       3273,
       3447
     ],
-    "838af6790760dd6c0f37e36d0a8dcce456a651d51e05fa488b9397bf602bb1f3": [
-      261,
-      460,
-      665,
-      856,
-      1094,
-      1302,
-      1562,
-      1702,
-      1912,
-      2091,
-      2382,
-      2589,
-      2741,
-      3162,
-      3305,
-      3566,
-      3914
-    ],
     "84ca7e4ff58b21ea77d5917d3753199a4acceb547ddda5a2d79509ac402bde6b": [
       217,
       421,
@@ -6772,23 +6820,6 @@
       1290,
       1528,
       1711
-    ],
-    "90a13ed591fb8316fba306ce73c81a1d27c1c3f4937969cdfc52338f33946d22": [
-      214,
-      405,
-      646,
-      815,
-      1002,
-      1320,
-      1611,
-      1852,
-      2215,
-      2440,
-      2597,
-      2775,
-      3010,
-      3207,
-      3422
     ],
     "9215fdb44e09fc494e9bcc8eaba5e6275232e0f971b861bea1c640a6b23cad06": [
       224,
@@ -7191,21 +7222,6 @@
       2667,
       2816
     ],
-    "c20f1b5f40be76dda680dfbc6ef98490acbdfd5eb9038d85cf6762f7917d9c43": [
-      205,
-      543,
-      716,
-      939,
-      1130,
-      1377,
-      1619,
-      1894,
-      2113,
-      2315,
-      2516,
-      2656,
-      2965
-    ],
     "c3a6e841491306d7770e3d482a7fcc9d8f05064b5ff3f395a61ab1a215c36cb1": [
       278,
       449,
@@ -7416,24 +7432,6 @@
       3337,
       3473
     ],
-    "dd34d4d5f7cefa2fd63f1307accc1adc8936a7c05caeb6879e4332b8ab106d54": [
-      217,
-      454,
-      646,
-      869,
-      1049,
-      1258,
-      1426,
-      1661,
-      1885,
-      2172,
-      2340,
-      2519,
-      2901,
-      3166,
-      3407,
-      3655
-    ],
     "e14d42a60aa1cf89869e6fac58c6ed9e67d015db9db685986baf4a3d359aaaa0": [
       205,
       344,
@@ -7472,20 +7470,6 @@
       2776,
       3078,
       3272
-    ],
-    "e2ff07934fba0176e757cbab90175479ea69b98581ab4da46b192850db132589": [
-      211,
-      393,
-      633,
-      878,
-      1132,
-      1524,
-      1672,
-      1924,
-      2091,
-      2302,
-      2549,
-      2773
     ],
     "e40eb2e5aa42ca22a8994bd6414cb2818e75d1b156586b0f402d34b9ef6e7047": [
       134,
@@ -7682,6 +7666,24 @@
       3649,
       3900
     ],
+    "f754d5805fdf6b1887af0935431700103350ea65bc3df5d746cf8ef7f599546d": [
+      270,
+      476,
+      690,
+      828,
+      1112,
+      1307,
+      1564,
+      1882,
+      2063,
+      2345,
+      2578,
+      2721,
+      3125,
+      3270,
+      3529,
+      3893
+    ],
     "f76ea80b96e05fc5e8cc5a36f55987dc6336708dcbd9e6248d422d7677ad9cc8": [
       168,
       490,
@@ -7851,9 +7853,18 @@
       "2643": 3,
       "714": 1
     },
+    "13792250c6077fc25391d4f59ebaa3aa4bdd5ba6fd824f89f6162f6f4fab2890": {
+      "1535": 2,
+      "1936": 3,
+      "403": 1
+    },
     "1580f827de582fd38ae4e518d666eaae798a9a02a5aed2731e418447b4f6d97a": {
       "2129": 2,
       "648": 1
+    },
+    "15d2d3d2103f2f8658b076dfc1731fc9eea632af87999478e0484cf302497526": {
+      "2016": 2,
+      "836": 1
     },
     "16de95c0239d5cdc34b8fb1df2df6890d32caa217135ab6ab65f7ce9de434774": {
       "390": 1
@@ -7946,10 +7957,6 @@
       "1653": 2,
       "610": 1
     },
-    "2c91ac92cf69a5550f8294e29a70ea0bfec4f04d93d64b91ff194afe3884cdf2": {
-      "1965": 2,
-      "813": 1
-    },
     "2d31fa3962b8f2bf7f0ae44121f16571cc7d8b97f58534ae32e2728007d34485": {
       "1559": 3,
       "592": 1
@@ -7967,6 +7974,11 @@
       "2615": 3,
       "697": 1
     },
+    "2fe9da15db1cb98a5625c25311e836a46e510a32b3e6ad61fa0f03f3e73d584f": {
+      "1867": 2,
+      "3217": 3,
+      "422": 1
+    },
     "31bf5a7b9ff5a2f1ea89af175e8a376bb3c850bac56fe51b3e92d028597e131e": {
       "1826": 2,
       "2912": 3,
@@ -7975,6 +7987,11 @@
     "334720e27333ef19226b6f767df4a590e59776973dd4ba3a378611cc3e80fd36": {
       "1698": 2,
       "521": 1
+    },
+    "36ab8c9cc3c9865557aa174c4669a828e8a68205d81bafc7f54d9e0b56658abd": {
+      "1624": 2,
+      "2344": 3,
+      "600": 1
     },
     "3ad8713641dd746a7b53a089f40eafcf322f188dcd5b853b218419faee81c9a5": {
       "1665": 2,
@@ -8253,6 +8270,11 @@
       "4225": 4,
       "727": 1
     },
+    "78fba49c480f6cf7f7cc7b8d7b04e733b2a811be77a7d278ad9d7d06dd1b8c58": {
+      "1668": 2,
+      "2648": 3,
+      "640": 1
+    },
     "795302abe05be4eb8216c1c671b4338107261a386de4a76cdf34ab2a927a2605": {
       "1509": 2,
       "691": 1
@@ -8304,11 +8326,6 @@
       "2750": 3,
       "627": 1
     },
-    "838af6790760dd6c0f37e36d0a8dcce456a651d51e05fa488b9397bf602bb1f3": {
-      "1912": 2,
-      "3162": 3,
-      "665": 1
-    },
     "84ca7e4ff58b21ea77d5917d3753199a4acceb547ddda5a2d79509ac402bde6b": {
       "1848": 2,
       "777": 1
@@ -8334,11 +8351,6 @@
     },
     "8d490473c6c1fcf583fc5313e6ebc7d6403d8de1a057912790868cf8c7c70039": {
       "598": 1
-    },
-    "90a13ed591fb8316fba306ce73c81a1d27c1c3f4937969cdfc52338f33946d22": {
-      "1852": 2,
-      "3207": 3,
-      "405": 1
     },
     "9215fdb44e09fc494e9bcc8eaba5e6275232e0f971b861bea1c640a6b23cad06": {
       "1447": 2,
@@ -8470,11 +8482,6 @@
       "1962": 2,
       "784": 1
     },
-    "c20f1b5f40be76dda680dfbc6ef98490acbdfd5eb9038d85cf6762f7917d9c43": {
-      "1619": 2,
-      "2315": 3,
-      "543": 1
-    },
     "c3a6e841491306d7770e3d482a7fcc9d8f05064b5ff3f395a61ab1a215c36cb1": {
       "1772": 2,
       "604": 1
@@ -8544,11 +8551,6 @@
       "2716": 3,
       "594": 1
     },
-    "dd34d4d5f7cefa2fd63f1307accc1adc8936a7c05caeb6879e4332b8ab106d54": {
-      "1661": 2,
-      "2519": 3,
-      "646": 1
-    },
     "e14d42a60aa1cf89869e6fac58c6ed9e67d015db9db685986baf4a3d359aaaa0": {
       "1538": 2,
       "2709": 3,
@@ -8558,11 +8560,6 @@
     "e2930b2c6a85694c1342adf4d3f7742976c85b2771f50c386b6e825546a4204a": {
       "2275": 2,
       "811": 1
-    },
-    "e2ff07934fba0176e757cbab90175479ea69b98581ab4da46b192850db132589": {
-      "1524": 2,
-      "1924": 3,
-      "393": 1
     },
     "e40eb2e5aa42ca22a8994bd6414cb2818e75d1b156586b0f402d34b9ef6e7047": {
       "1560": 2,
@@ -8624,6 +8621,11 @@
       "1144": 2,
       "2636": 3,
       "417": 1
+    },
+    "f754d5805fdf6b1887af0935431700103350ea65bc3df5d746cf8ef7f599546d": {
+      "1882": 2,
+      "3125": 3,
+      "690": 1
     },
     "f76ea80b96e05fc5e8cc5a36f55987dc6336708dcbd9e6248d422d7677ad9cc8": {
       "1441": 2,

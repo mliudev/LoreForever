@@ -1,0 +1,79 @@
+{
+ "key": "quest:97196",
+ "type": "quest",
+ "name": "The Coldbringer's Eye",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97196
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A servant of the Lich King watches through the Coldbringer\u2019s Eye from Razorfen Downs. You are asked to recover the orb so covert Scourge agents on Kalimdor can be hunted.",
+ "sections": [
+  {
+   "title": "An Orb in the Lair",
+   "body": "A scrying orb lets Amnennar the Coldbringer observe and direct minions elsewhere. He dwells deep in Razorfen Downs, a lair of the Death's Head quilboar. You are asked to retrieve the Coldbringer's Eye, which may help hunt the Scourge's covert agents on Kalimdor.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Amnennar the Coldbringer?",
+   "aliases": [
+    "amnennar",
+    "coldbringer who"
+   ],
+   "answer": "Amnennar the Coldbringer is a servant of the Lich King who dwells in Razorfen Downs."
+  },
+  {
+   "q": "What is the Coldbringer's Eye?",
+   "aliases": [
+    "coldbringers eye",
+    "the eye orb"
+   ],
+   "answer": "The Coldbringer's Eye is a scrying orb Amnennar uses to observe and direct his minions elsewhere."
+  },
+  {
+   "q": "Where is the Coldbringer's Eye?",
+   "aliases": [
+    "where eye",
+    "razorfen downs orb"
+   ],
+   "answer": "The Coldbringer's Eye is in Razorfen Downs, in Amnennar the Coldbringer's lair."
+  },
+  {
+   "q": "Why is the orb wanted?",
+   "aliases": [
+    "why get the eye",
+    "scourge agents"
+   ],
+   "answer": "The orb could help hunt covert agents of the Scourge on Kalimdor and end the threat they pose."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "amnennar",
+  "coldbringer",
+  "coldbringer's eye",
+  "death's head quilboar",
+  "lich king",
+  "razorfen downs",
+  "scourge",
+  "scrying orb"
+ ],
+ "related": [
+  "quest:96773",
+  "subzone:razorfen-downs-classic",
+  "topic:scourge",
+  "topic:lich-king",
+  "topic:quilboar",
+  "topic:razorfen"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Coldbringer's Eye"
+ ]
+}

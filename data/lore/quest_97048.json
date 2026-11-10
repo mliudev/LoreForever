@@ -1,0 +1,88 @@
+{
+ "key": "quest:97048",
+ "type": "quest",
+ "name": "Returning to Port",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97048
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A rescued cook asks you to speak with Captain Aransas in Booty Bay. His return matters to the captain, who has lost a member of her crew.",
+ "sections": [
+  {
+   "title": "Back to the Captain",
+   "body": "Captain Aransas is waiting in Booty Bay, where you bring the cook back to her ship. He promises to speak well of you when he returns, and says the captain will be glad to have him back. She welcomes you and hears what Mathers said about your escape from Kurzen's Compound.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Captain's Thanks",
+   "body": "Captain Aransas knows Mathers' tale of daring swordplay is a fib; she says the cook is fit to wield only a kitchen knife. Still, she thanks you for saving one of her crew. A good cook is precious aboard her ship.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Captain Aransas?",
+   "aliases": [
+    "captain aransas",
+    "aransas"
+   ],
+   "answer": "Captain Aransas commands the ship whose cook you return to her in Booty Bay."
+  },
+  {
+   "q": "Who is Mathers?",
+   "aliases": [
+    "mathers",
+    "cook mathers"
+   ],
+   "answer": "Mathers is Captain Aransas' cook and a member of her crew."
+  },
+  {
+   "q": "Where do I find Captain Aransas?",
+   "aliases": [
+    "aransas location",
+    "captain in booty bay"
+   ],
+   "answer": "Captain Aransas is in Booty Bay."
+  },
+  {
+   "q": "Why does the captain thank me?",
+   "aliases": [
+    "why thanks",
+    "saved the cook"
+   ],
+   "answer": "She thanks you for saving a member of her crew."
+  },
+  {
+   "q": "What did Mathers say about the escape?",
+   "aliases": [
+    "mathers story",
+    "what did he tell aransas"
+   ],
+   "answer": "Mathers told Captain Aransas that you and he broke out of Kurzen's Compound together."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "captain aransas",
+  "cook",
+  "crew",
+  "kurzen's compound",
+  "mathers",
+  "returning to port"
+ ],
+ "related": [
+  "subzone:booty-bay",
+  "subzone:kurzen-s-compound",
+  "quest:1118"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Returning to Port"
+ ]
+}

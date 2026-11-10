@@ -1,0 +1,84 @@
+{
+ "key": "quest:1360",
+ "type": "quest",
+ "name": "Reclaimed Treasures",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1360
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Krom Stoutarm asks you to recover a treasured possession from Uldaman. He waits for it in Ironforge.",
+ "sections": [
+  {
+   "title": "A Lost Possession",
+   "body": "Krom Stoutarm has a chest in Uldaman's North Common Hall. You are asked to bring his treasured possession from it to him in Ironforge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who wants this",
+    "Krom Stoutarm request"
+   ],
+   "answer": "Krom Stoutarm asks you to recover his treasured possession from a chest in Uldaman."
+  },
+  {
+   "q": "Where is Krom's chest?",
+   "aliases": [
+    "where chest",
+    "chest location"
+   ],
+   "answer": "Krom Stoutarm's chest is in the North Common Hall of Uldaman."
+  },
+  {
+   "q": "What does Krom want back?",
+   "aliases": [
+    "Krom treasure",
+    "what possession"
+   ],
+   "answer": "Krom wants his treasured possession from the chest in Uldaman."
+  },
+  {
+   "q": "Where do I bring it?",
+   "aliases": [
+    "where deliver",
+    "bring it to Krom"
+   ],
+   "answer": "Bring Krom Stoutarm's treasured possession to him in Ironforge."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "As a dwarf, you are helping Krom Stoutarm recover a treasured possession and return it to him in Ironforge."
+  },
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance member, you are asked to bring Krom Stoutarm's treasured possession from Uldaman to him in Ironforge."
+  }
+ ],
+ "keywords": [
+  "chest",
+  "ironforge",
+  "krom stoutarm",
+  "north common hall",
+  "reclaimed treasures",
+  "treasured possession",
+  "uldaman"
+ ],
+ "related": [
+  "npc:krom-stoutarm",
+  "subzone:uldaman",
+  "zone:ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Reclaimed Treasures"
+ ]
+}

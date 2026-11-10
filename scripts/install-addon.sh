@@ -10,6 +10,11 @@ ADDONS_SRC="$(cd "$(dirname "$0")/.." && pwd)/addon"
 [ ! -f "$ADDONS_SRC/../scripts/need_langs.py" ] || python3 "$ADDONS_SRC/../scripts/need_langs.py" --add "${0##*/}" || exit 1   # (a fixture copy of this script has no checkout)
 # The language packs are build output, not in git (LOR-441): built here, only those whose sources changed since this
 # checkout last built them (seconds when none did). LORE_INSTALL_BUILD=0 installs whatever is built as it is.
+# The core's data (Data/, Looks.lua, KnownSpots.lua) too (LOR-441), first: the packs merge into it.
+if [ "${LORE_INSTALL_BUILD:-1}" = 1 ] && [ -f "$ADDONS_SRC/../scripts/build_core.py" ]; then
+  python3 "$ADDONS_SRC/../scripts/build_core.py" --if-stale \
+    || { echo "${0##*/}: the core's data didn't build (above)" >&2; exit 1; }
+fi
 if [ "${LORE_INSTALL_BUILD:-1}" = 1 ] && [ -f "$ADDONS_SRC/../scripts/compile_languages.py" ] && [ -d "$ADDONS_SRC/../release/shipped-langs" ]; then
   python3 "$ADDONS_SRC/../scripts/compile_languages.py" --all --if-stale \
     || { echo "${0##*/}: the language packs didn't build (above)" >&2; exit 1; }

@@ -1,0 +1,74 @@
+{
+ "key": "quest:98156",
+ "type": "quest",
+ "name": "Packaged Pristine Pelts",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98156
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A traveler asks you to carry pristine pelts to her sisters in Stormwind. The delivery can reach them before she can return home.",
+ "sections": [
+  {
+   "title": "A Family Delivery",
+   "body": "A traveler in Stormwind's Park asks you to take a package of pristine pelts to Kimberly Grant. She cannot return home for some time, and expects you to reach Stormwind first. Her sisters Kelly and Kimberly can usually be found in the Park.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the pelts delivered?",
+   "aliases": [
+    "who gave me pelts",
+    "pelt delivery giver"
+   ],
+   "answer": "A traveler asks you to deliver the pristine pelts to her sisters, Kelly and Kimberly."
+  },
+  {
+   "q": "Who should receive the package?",
+   "aliases": [
+    "pelts for who",
+    "deliver to kimberly"
+   ],
+   "answer": "The package is to be delivered to Kimberly Grant in Stormwind."
+  },
+  {
+   "q": "Where can I find the sisters?",
+   "aliases": [
+    "kelly kimberly location",
+    "sisters in stormwind"
+   ],
+   "answer": "Kelly and Kimberly can usually be found in the Park in Stormwind."
+  },
+  {
+   "q": "Why am I carrying the pelts?",
+   "aliases": [
+    "why deliver pelts",
+    "pelt package reason"
+   ],
+   "answer": "The traveler cannot return to Stormwind for some time and asks you to bring the pelts to her sisters."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "kelly",
+  "kimberly grant",
+  "package",
+  "park",
+  "pristine pelts",
+  "sisters",
+  "stormwind"
+ ],
+ "related": [
+  "subzone:park",
+  "topic:stormwind-kingdom"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Packaged Pristine Pelts"
+ ]
+}

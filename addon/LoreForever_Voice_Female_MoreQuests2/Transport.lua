@@ -5646,7 +5646,7 @@ P.transport["quest:6481"] = {
   fullHash = "fd2163",
   text = "Earthen Arise. In Boulderslide Ravine, Mor'rogal finds Goggeroc asleep inside a Resonite cask. The tauren shaman fears the ancient Earthen could threaten all Kalimdor, so he sends a champion to break the cask and slay Goggeroc before its strength returns. Scouts searching Boulderslide Ravine for vermin found a strange relic among the kobolds. A Resonite cask held unearthly force. Mor'rogal, a tauren shaman in the Stonetalon Mountains, knew it was both prison and sanctuary for Goggeroc, a dormant Earthen. These ancient beings of stone can outmatch mortal warriors, and Goggeroc's freedom could endanger the whole region.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6481-7127c88e8baaa9810b6a/1-0000.mp3", duration = 41.4302041, start = 0},
+    {file = "Audio/Transport/full_quest_6481-a0ff5eb094720d381839/1-0000.mp3", duration = 40.0718367, start = 0},
   },
 }
 P.transport["quest:6503"] = {

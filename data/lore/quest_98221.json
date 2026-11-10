@@ -1,0 +1,98 @@
+{
+ "key": "quest:98221",
+ "type": "quest",
+ "name": "From the Ashes",
+ "era": "forever",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   98221
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Captain Stoutfist asks you to investigate renewed Dragonmaw activity near Menethil. The attack plans may show where the clan intends to strike.",
+ "sections": [
+  {
+   "title": "Plans in the Wetlands",
+   "body": "Captain Stoutfist at Menethil Keep needs to know where the Dragonmaw clan will strike. During the Second War, they built a fleet here to attack Hillsbrad, but red dragons routed them and drove the survivors into the mountains. Now activity has surged at Angerfang Encampment, northeast of Menethil. You are to find the clan's attack plans and destroy them.",
+   "spoiler": 0
+  },
+  {
+   "title": "A New Gambit",
+   "body": "The plans point to Dun Algaz and a renewed bid for war. Nek'rosh shares his father's ambition, though he lacks the enslaved red drakes that made the Dragonmaw so dangerous in the Second War. Captain Stoutfist sees the Ironforge threat in this gambit, and expects Nek'rosh to pay dearly for it.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks me to find the attack plans?",
+   "aliases": [
+    "who sent me",
+    "stoutfist plans",
+    "captain's request"
+   ],
+   "answer": "Captain Stoutfist at Menethil Keep asks you to find and destroy the Dragonmaw attack plans."
+  },
+  {
+   "q": "Where are the Dragonmaw active?",
+   "aliases": [
+    "dragonmaw camp",
+    "where are they",
+    "angerfang activity"
+   ],
+   "answer": "The Dragonmaw have become more active at Angerfang Encampment, northeast of Menethil."
+  },
+  {
+   "q": "Why does Stoutfist want the plans?",
+   "aliases": [
+    "why plans",
+    "what does he need",
+    "where strike"
+   ],
+   "answer": "Stoutfist wants to learn where the Dragonmaw will strike next."
+  },
+  {
+   "q": "What happened to the Dragonmaw in the Second War?",
+   "aliases": [
+    "dragonmaw history",
+    "red dragons war",
+    "what happened before"
+   ],
+   "answer": "The Dragonmaw built a fleet here to attack Hillsbrad, but red dragons routed them and left survivors deep in the mountains."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance traveler, you help Captain Stoutfist learn where the Dragonmaw intend to strike."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "As a dwarf, you help Captain Stoutfist learn where the Dragonmaw intend to strike, and his concern reaches Ironforge."
+  }
+ ],
+ "keywords": [
+  "angerfang encampment",
+  "attack plans",
+  "captain stoutfist",
+  "dragonmaw",
+  "dun algaz",
+  "from the ashes",
+  "ironforge",
+  "nek'rosh",
+  "red dragons"
+ ],
+ "related": [
+  "npc:captain-stoutfist",
+  "subzone:angerfang-encampment",
+  "subzone:dun-algaz",
+  "subzone:menethil-keep",
+  "topic:second-war",
+  "zone:wetlands"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: From the Ashes"
+ ]
+}

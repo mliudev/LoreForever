@@ -1,0 +1,84 @@
+{
+ "key": "quest:94233",
+ "type": "quest",
+ "name": "Craftsman's Writ: Practice Lock",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94233
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ asks you to provide one Practice Lock. Its delivery location and payment terms are marked on the note.",
+ "sections": [
+  {
+   "title": "A Written Request",
+   "body": "A customer requests one Practice Lock through a faded, transferable writ. You are asked to deliver the requested item to the location marked on your map, with the writ in your possession to complete the transaction.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ request?",
+   "aliases": [
+    "practice lock request",
+    "what item",
+    "lock writ"
+   ],
+   "answer": "The writ requests one Practice Lock."
+  },
+  {
+   "q": "Where do I deliver the Practice Lock?",
+   "aliases": [
+    "delivery location",
+    "where to take it",
+    "where deliver"
+   ],
+   "answer": "The delivery location is marked on your map."
+  },
+  {
+   "q": "Do I need to keep the writ?",
+   "aliases": [
+    "need writ",
+    "bring the note",
+    "writ required"
+   ],
+   "answer": "Yes. The writ must be in your possession to complete the transaction."
+  },
+  {
+   "q": "Is the writ transferable?",
+   "aliases": [
+    "can I transfer it",
+    "transferable note",
+    "pass writ"
+   ],
+   "answer": "Yes. The writ says it is transferable."
+  },
+  {
+   "q": "Does the note mention payment?",
+   "aliases": [
+    "payment terms",
+    "how much pay",
+    "payment"
+   ],
+   "answer": "The writ mentions payment, but gives no amount in the provided text."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "delivery",
+  "lock",
+  "payment",
+  "practice lock",
+  "transferable",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Practice Lock"
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "key": "quest:94824",
+ "type": "quest",
+ "name": "Confounding Flash",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94824
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A message sends you to Ironforge to speak with High Priestess Mims. She has asked for you in the Hall of Mysteries, and the reason is not yet clear.",
+ "sections": [
+  {
+   "title": "A Call to Ironforge",
+   "body": "The road ahead leads to Ironforge, where High Priestess Mims is waiting in the Hall of Mysteries. You are sent to speak with her in person, though the message gives no reason for the summons. It guesses that your deeds have gone well, but leaves the matter for Mims to explain.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants to speak with me?",
+   "aliases": [
+    "who sent for me",
+    "Mims summons",
+    "high priestess Mims"
+   ],
+   "answer": "High Priestess Mims wants you to come speak with her in Ironforge."
+  },
+  {
+   "q": "Where do I go?",
+   "aliases": [
+    "where is Mims",
+    "Hall of Mysteries location",
+    "go to Ironforge"
+   ],
+   "answer": "You are asked to speak with High Priestess Mims in the Hall of Mysteries in Ironforge."
+  },
+  {
+   "q": "Why does Mims want to see me?",
+   "aliases": [
+    "why Mims called me",
+    "what does she want",
+    "reason for summons"
+   ],
+   "answer": "The message does not explain why High Priestess Mims wants to speak with you."
+  },
+  {
+   "q": "What am I being asked to do?",
+   "aliases": [
+    "what's the task",
+    "speak to Mims",
+    "Mims request"
+   ],
+   "answer": "You are being asked to speak with High Priestess Mims in Ironforge."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "confounding flash",
+  "hall of mysteries",
+  "high priestess mims",
+  "ironforge",
+  "speak with mims",
+  "summons"
+ ],
+ "related": [
+  "zone:ironforge",
+  "subzone:hall-of-mysteries"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Confounding Flash"
+ ]
+}

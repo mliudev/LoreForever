@@ -1,0 +1,84 @@
+{
+ "key": "quest:95776",
+ "type": "quest",
+ "name": "The Only Good Brinescale...",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95776
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Naga in the waters near the coast raise concern about a larger threat. You are asked to find their leader in the Drowned City.",
+ "sections": [
+  {
+   "title": "A Threat Offshore",
+   "body": "The naga near the coast have been slain, yet their numbers point to a greater danger. Kin'weelay believes the Brinescale naga are entering the ruins of the Drowned City. Their presence there suggests they seek something that could put the coast at risk. You are asked to slay their leader, Var'Taka.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Return",
+   "body": "When you return, your employer takes your arrival to mean Var'Taka is dead. With the naga leader gone, there is one less concern for the coast.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are the Brinescale naga in the Drowned City?",
+   "aliases": [
+    "why naga there",
+    "brinescale purpose",
+    "what are naga searching for"
+   ],
+   "answer": "Kin'weelay believes the Brinescale naga are searching for something in the Drowned City, but what they seek is not known."
+  },
+  {
+   "q": "Who is Kin'weelay?",
+   "aliases": [
+    "kin weelay",
+    "who's kin'weelay",
+    "kin"
+   ],
+   "answer": "Kin'weelay is the one who believes the Brinescale naga are infiltrating the Drowned City."
+  },
+  {
+   "q": "Who is Var'Taka?",
+   "aliases": [
+    "var taka",
+    "naga leader",
+    "brinescale leader"
+   ],
+   "answer": "Var'Taka is the leader of the Brinescale naga in the Drowned City."
+  },
+  {
+   "q": "What am I asked to do?",
+   "aliases": [
+    "what do i do",
+    "what's the task",
+    "kill who"
+   ],
+   "answer": "You are asked to slay Var'Taka in the Drowned City."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brinescale",
+  "coast",
+  "drowned city",
+  "infiltration",
+  "kin'weelay",
+  "naga",
+  "var'taka"
+ ],
+ "related": [
+  "npc:kin-weelay",
+  "topic:naga",
+  "quest:95775"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Only Good Brinescale..."
+ ]
+}

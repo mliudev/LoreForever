@@ -1,0 +1,67 @@
+{
+ "key": "quest:97884",
+ "type": "quest",
+ "name": "Armory of Sunnyglade",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97884
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Someone asks you to recover a blacksmithing tome from Sunnyglade in the Riverglades. Its title ties it to the Tremayne family.",
+ "sections": [
+  {
+   "title": "A Family Tome",
+   "body": "In Sunnyglade, within the Riverglades, you are asked to recover a book on the Tremayne family's blacksmithing techniques. The request centers on the tome itself; its whereabouts in Sunnyglade remain the matter at hand.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What am I looking for?",
+   "aliases": [
+    "what tome",
+    "blacksmith book",
+    "tremayne tome"
+   ],
+   "answer": "You are looking for the tome of Tremayne Family Blacksmithing Techniques."
+  },
+  {
+   "q": "Where is the tome?",
+   "aliases": [
+    "where to find it",
+    "sunnyglade tome",
+    "armory location"
+   ],
+   "answer": "The tome is sought in Sunnyglade, in the Riverglades."
+  },
+  {
+   "q": "Who is the Tremayne family?",
+   "aliases": [
+    "tremayne family",
+    "who are tremaynes"
+   ],
+   "answer": "The title identifies the blacksmithing techniques with the Tremayne family."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "armory of sunnyglade",
+  "blacksmithing techniques",
+  "riverglades",
+  "sunnyglade",
+  "tome",
+  "tremayne family"
+ ],
+ "related": [
+  "subzone:sunnyglade",
+  "zone:riverglades"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Armory of Sunnyglade"
+ ]
+}

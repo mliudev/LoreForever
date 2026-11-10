@@ -1,0 +1,77 @@
+{
+ "key": "quest:92914",
+ "type": "quest",
+ "name": "Strange Pylons",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92914
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "In Shen'dralas, a depleted crystal pylon leaves its purpose unknown. You are asked to look for others nearby.",
+ "sections": [
+  {
+   "title": "Among the Ruins",
+   "body": "A strange crystal rests on an ancient pedestal among Shen'dralas's elven ruins. Mere moments ago, emaciated mana elementals guarded it. The gemstone is fractured and its magic is nearly spent, leaving its purpose a mystery. You search the area for other pylons like it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the strange pylon?",
+   "aliases": [
+    "strange pylon",
+    "crystal pylon",
+    "what is this crystal"
+   ],
+   "answer": "It is a fractured gemstone set on an ancient pedestal in Shen'dralas. Its depleted magic leaves its purpose unknown."
+  },
+  {
+   "q": "Why is the crystal humming?",
+   "aliases": [
+    "crystal hum",
+    "why is it humming",
+    "weak hum"
+   ],
+   "answer": "A weak hum of power comes from the fractured gemstone, though its magic is heavily depleted."
+  },
+  {
+   "q": "What was guarding the crystal?",
+   "aliases": [
+    "mana elementals",
+    "what guarded it",
+    "elementals by the pylon"
+   ],
+   "answer": "Emaciated mana elementals guarded the crystal mere moments ago."
+  },
+  {
+   "q": "Where are the other pylons?",
+   "aliases": [
+    "other pylons",
+    "find more pylons",
+    "pylon locations"
+   ],
+   "answer": "You are asked to search Shen'dralas for other pylons like the one you found."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crystal",
+  "elven ruins",
+  "gemstone",
+  "mana elementals",
+  "pylon",
+  "shen'dralas",
+  "strange pylons"
+ ],
+ "related": [
+  "zone:shendralas"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Strange Pylons"
+ ]
+}

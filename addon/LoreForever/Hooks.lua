@@ -662,7 +662,8 @@ local function loreButton(parent, name, drag)
     if drag then ns.Theme.Tip(L["Shift-drag to move it. Right-click for options."], "tipDim", true) end
     -- (a page with a play button has its recording, so there's nothing to download for it)
     local play = self.via == "questdialog" and Hooks.questDialogPlay or self.via == "questlog" and Hooks.questLogPlay
-    local hint = not (play and play:IsShown() and play.play:IsShown()) and packHint(self.quest)
+    -- (and the quiet voice button says it already: VoiceOffer.lua)
+    local hint = not (play and play:IsShown() and (play.play:IsShown() or play.offer)) and packHint(self.quest)
     if hint then
       GameTooltip:AddLine(" ")   -- (a note of its own, not one more thing to click)
       ns.Theme.Tip(hint, "tipDim", true)
@@ -744,14 +745,18 @@ end
 
 -- A pill follows its page and what plays. state: "listen" or "stop" for a recording; anything else has no play half.
 -- page: the page that recording plays, which its + queues; with none, the + queues the quest as Shift-click on Lore
--- does (its other pages, or its story).
-local function setQuestPill(p, lore, state, page)
+-- does (its other pages, or its story). kind: this page's kind and text: its words, for the quiet voice button when no
+-- voice in use recorded the page but a free download did (text nil: the quest window's).
+local function setQuestPill(p, lore, state, page, kind, text)
   local UI, quest = ns.UI, lore and lore.quest
   local recorded = state == "listen" or state == "stop"
   local can = quest ~= nil and (recorded or UI.CanAddQuest(quest))
+  local offer = not recorded and quest and kind and ns.VoiceOffer.ForQuest(quest, kind, gameQuestLevel(quest), text) or nil
   p.page = recorded and page or nil
+  ns.Theme.SetPillOffer(p, offer)
   ns.Theme.SetPill(p, state == "stop", can, can and UI.PlaylistIndex(UI.QuestItemId(quest)) ~= nil, recorded)
-  p:SetShown(recorded or can)
+  p:SetShown(recorded or can or offer ~= nil)
+  if offer then ns.VoiceOffer.Showing(offer) end
 end
 
 -- The storyline in the quest's own text (LOR-198, LOR-284): "Storyline · Tirisfal Glades: At War With The Scarlet
@@ -800,6 +805,18 @@ end
 
 -- Quest `id`'s storyline under `title` in `parent`, the frame the quest's text is in; none for a quest in no storyline.
 local function placeStory(parent, title, id)
+  -- With the controller interface on, no line (LOR-481): it needs the game's own text block moved down under it, and
+  -- a block moved by our code is tainted. The controller reads the quest window's layout as it focuses and closes it,
+  -- and from then on its bindings are refused in our name for the session ("Lore Forever tried to call
+  -- SetPreferredGamepadInteractTarget()", Disable / Ignore). A block still under a line from before is left there too:
+  -- the game's next layout of the text puts it back.
+  if ns.Context.GamepadUI() then
+    for _, o in pairs(story) do
+      o.moved = nil
+      if o.fs then o.fs:Hide() end
+    end
+    return
+  end
   for p, o in pairs(story) do   -- the game moved this title here: a line left under it elsewhere goes
     if p ~= parent and o.title == title and o.fs then
       restoreBlock(o)
@@ -1016,7 +1033,7 @@ function Hooks.UpdateQuestPlayButton()
   local b = Hooks.questDialogPlay
   if not b then return end
   if _G.QuestFrame and QuestFrame:IsShown() then
-    setQuestPill(b, Hooks.questDialogButton, ns.Voice.QuestPageState(), ns.Voice.questKind)
+    setQuestPill(b, Hooks.questDialogButton, ns.Voice.QuestPageState(), ns.Voice.questKind, ns.Voice.questKind)
   else
     b:Hide()
   end
@@ -1036,7 +1053,8 @@ function Hooks.UpdateQuestLogPlayButton()
   if not b then return end
   local parent = (_G.QuestMapFrame and QuestMapFrame.DetailsFrame) or _G.QuestLogFrame
   if parent and parent:IsShown() then
-    setQuestPill(b, lore, Hooks.QuestLogPageState(), "detail")
+    local words = lore and ns.UI.QuestLogWords(lore.quest)
+    setQuestPill(b, lore, Hooks.QuestLogPageState(), "detail", words and "detail" or nil, words)
   else
     b:Hide()
   end

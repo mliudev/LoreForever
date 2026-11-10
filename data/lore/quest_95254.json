@@ -1,0 +1,72 @@
+{
+ "key": "quest:95254",
+ "type": "quest",
+ "name": "WANTED: Trapclaw",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95254
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Fimbo Greasemitz wants Trapclaw's pincer after the huge crab steals bait and cuts fishing lines beneath the docks. Bring it to him, and he promises a meal made with his secret spice blend.",
+ "sections": [
+  {
+   "title": "Under the Docks",
+   "body": "Fimbo Greasemitz is after crab meat, and Trapclaw has been crawling beneath the docks. The large crab steals bait and cuts fishing lines. Fimbo asks you to bring him Trapclaw's pincer, which he plans to use for a meal.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for Trapclaw's pincer?",
+   "aliases": [
+    "who wants the pincer",
+    "Fimbo Greasemitz request"
+   ],
+   "answer": "Fimbo Greasemitz wants Trapclaw's pincer for the crab meat."
+  },
+  {
+   "q": "What is Trapclaw doing?",
+   "aliases": [
+    "why Trapclaw",
+    "crab under docks"
+   ],
+   "answer": "Trapclaw crawls beneath the docks, stealing bait and cutting fishing lines."
+  },
+  {
+   "q": "Why does Fimbo want the pincer?",
+   "aliases": [
+    "what's the pincer for",
+    "crab meat request"
+   ],
+   "answer": "Fimbo wants crab meat, and asks for Trapclaw's pincer."
+  },
+  {
+   "q": "What does Fimbo promise to make?",
+   "aliases": [
+    "what meal",
+    "Fimbo's dish"
+   ],
+   "answer": "Fimbo says he'll make a dish with butter and his secret spice blend."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bait",
+  "crab",
+  "crab meat",
+  "docks",
+  "fimbo greasemitz",
+  "fishing lines",
+  "pincer",
+  "trapclaw"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: WANTED: Trapclaw"
+ ]
+}

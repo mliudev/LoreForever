@@ -1,0 +1,77 @@
+{
+ "key": "quest:99197",
+ "type": "quest",
+ "name": "A Donation of Silk",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99197
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The Windshapers need silk cloth and ask you to contribute sixty pieces. Your gift would earn their honor and esteem.",
+ "sections": [
+  {
+   "title": "A Gift of Silk",
+   "body": "The Windshapers seek silk cloth, and you can help them reach their goal with others. They ask you to give sixty pieces. In return, they say the gift will raise your honor and esteem among them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What do the Windshapers need?",
+   "aliases": [
+    "windshapers silk",
+    "silk donation",
+    "what cloth do they want"
+   ],
+   "answer": "The Windshapers need silk cloth and ask you for sixty pieces."
+  },
+  {
+   "q": "How much silk should I give?",
+   "aliases": [
+    "how many silk",
+    "sixty silk",
+    "silk amount"
+   ],
+   "answer": "The Windshapers ask for sixty pieces of silk cloth."
+  },
+  {
+   "q": "Why do the Windshapers want silk?",
+   "aliases": [
+    "why silk",
+    "what is the silk for",
+    "windshapers need"
+   ],
+   "answer": "The Windshapers say silk cloth will help them reach their goal with support from others."
+  },
+  {
+   "q": "What do I gain by donating silk?",
+   "aliases": [
+    "silk donation honor",
+    "what for silk",
+    "esteem windshapers"
+   ],
+   "answer": "The Windshapers say a gift of silk will increase your honor and esteem among them."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "donation",
+  "esteem",
+  "honor",
+  "silk",
+  "silk cloth",
+  "sixty pieces",
+  "windshapers"
+ ],
+ "related": [
+  "quest:92595"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Donation of Silk"
+ ]
+}

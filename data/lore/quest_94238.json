@@ -1,0 +1,84 @@
+{
+ "key": "quest:94238",
+ "type": "quest",
+ "name": "Craftsman's Writ: Heavy Leather Ball",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94238
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable Craftsman's Writ requests one Heavy Leather Ball and names a customer. Sos'mol's longing for the ball makes this delivery matter to him.",
+ "sections": [
+  {
+   "title": "A Customer's Request",
+   "body": "The faded writ seeks a Heavy Leather Ball and gives details for its delivery and payment. You bring the writ with you to complete the exchange. Sos'mol has been humming an off-key tune about boredom as you arrive. He keeps humming, though more quietly, and seems a little embarrassed.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sos'mol's Delight",
+   "body": "Sos'mol asks whether you have brought him the ball. When he receives it, tears well in his eyes, and he calls it the happiest day of an ogre's life. The ball matters more to him than whatever else he had wanted, though he cannot remember what that was.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "heavy leather ball writ",
+    "what item does it want"
+   ],
+   "answer": "The writ requests one Heavy Leather Ball, along with details about delivery and payment."
+  },
+  {
+   "q": "Who is the customer?",
+   "aliases": [
+    "who wants the ball",
+    "sos'mol writ"
+   ],
+   "answer": "Sos'mol is the customer named by the delivery."
+  },
+  {
+   "q": "Why does Sos'mol want a ball?",
+   "aliases": [
+    "why ball",
+    "sos'mol wants ball"
+   ],
+   "answer": "Sos'mol says the ball was something he had been dreaming of."
+  },
+  {
+   "q": "What is Sos'mol doing when I arrive?",
+   "aliases": [
+    "what's sos'mol doing",
+    "sosmol singing"
+   ],
+   "answer": "Sos'mol has been humming an off-key song about boredom, and continues more quietly as you approach."
+  },
+  {
+   "q": "Can someone else use the writ?",
+   "aliases": [
+    "transferable writ",
+    "can i give writ away"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "delivery",
+  "heavy leather ball",
+  "ogre",
+  "payment",
+  "sos'mol",
+  "transferable"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Heavy Leather Ball"
+ ]
+}

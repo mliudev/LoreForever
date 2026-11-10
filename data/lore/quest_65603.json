@@ -1,0 +1,99 @@
+{
+ "key": "quest:65603",
+ "type": "quest",
+ "name": "The Binding",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   65603
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Gakin the Darkbinder asks you to use a wooden figurine in the crypts and face an incubus. Your success decides whether he can teach you to call upon the demon.",
+ "sections": [
+  {
+   "title": "A Trial in the Crypts",
+   "body": "Gakin the Darkbinder has prepared a summoning circle in the crypts below the Slaughtered Lamb. You place a wooden figurine at its center to open a way for an incubus, a sayaad demon. It may try to beguile you, but Gakin warns that anything it offers is false. Your soul is at stake if you fail.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Binding Lesson",
+   "body": "After you best the incubus, Gakin praises your unbroken will. He says many warlocks who attempt to bind a sayaad become its next meal. Then he teaches you the invocation to call upon the incubus you have bound.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Gakin want me to do?",
+   "aliases": [
+    "what am I supposed to do",
+    "figurine task",
+    "summon incubus"
+   ],
+   "answer": "Gakin asks you to use a wooden figurine at the summoning circle in the crypts, subdue the incubus, and return the figurine to him."
+  },
+  {
+   "q": "Where is the summoning circle?",
+   "aliases": [
+    "where do I summon it",
+    "crypt circle",
+    "below the Lamb"
+   ],
+   "answer": "Gakin says the summoning circle is in the crypts below the Slaughtered Lamb."
+  },
+  {
+   "q": "What is a sayaad?",
+   "aliases": [
+    "sayaad demon",
+    "what kind of demon",
+    "incubus type"
+   ],
+   "answer": "A sayaad is a demon, and Gakin warns that one should not be underestimated."
+  },
+  {
+   "q": "Why should I distrust the incubus?",
+   "aliases": [
+    "can I trust it",
+    "incubus deception",
+    "what will it offer"
+   ],
+   "answer": "Gakin warns that the incubus may use beguilement and deception, and that anything it offers is false."
+  },
+  {
+   "q": "What does Gakin teach after the trial?",
+   "aliases": [
+    "what happens after",
+    "binding lesson",
+    "incubus invocation"
+   ],
+   "answer": "After you best the incubus, Gakin teaches you the invocation to call upon the demon you have bound."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "As a warlock, you face Gakin's trial to bind a sayaad and learn an invocation to call upon the incubus."
+  }
+ ],
+ "keywords": [
+  "crypts",
+  "gakin the darkbinder",
+  "incubus",
+  "invocation",
+  "sayaad",
+  "summoning circle",
+  "the binding",
+  "wooden figurine"
+ ],
+ "related": [
+  "npc:gakin-the-darkbinder",
+  "subzone:slaughtered-lamb",
+  "topic:warlock"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Binding"
+ ]
+}

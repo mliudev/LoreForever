@@ -1,0 +1,79 @@
+{
+ "key": "quest:94252",
+ "type": "quest",
+ "name": "Craftsman's Writ: Red Woolen Boots",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94252
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ requests a pair of Red Woolen Boots and gives delivery and payment information. You need the writ to complete the exchange.",
+ "sections": [
+  {
+   "title": "The Written Request",
+   "body": "A faded note asks you to provide one pair of Red Woolen Boots. It includes where to deliver them and how payment is arranged. The writ can be transferred, but you need to possess it when you complete the exchange.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "red boots writ",
+    "what boots are requested"
+   ],
+   "answer": "The writ requests one pair of Red Woolen Boots."
+  },
+  {
+   "q": "Where do I deliver the boots?",
+   "aliases": [
+    "delivery place",
+    "where to take red boots"
+   ],
+   "answer": "The writ gives delivery information, and the marked location appears on your map."
+  },
+  {
+   "q": "How is payment arranged?",
+   "aliases": [
+    "payment for boots",
+    "how much do they pay"
+   ],
+   "answer": "The writ includes information about payment."
+  },
+  {
+   "q": "Can I transfer this writ?",
+   "aliases": [
+    "transferable writ",
+    "can someone else carry it"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  },
+  {
+   "q": "Do I need the writ to complete the exchange?",
+   "aliases": [
+    "need writ with me",
+    "complete transaction"
+   ],
+   "answer": "Yes. You must have the writ in your possession to complete the transaction."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "boots",
+  "craftsman's writ",
+  "delivery",
+  "payment",
+  "red woolen boots",
+  "transferable",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Red Woolen Boots"
+ ]
+}

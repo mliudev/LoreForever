@@ -456,10 +456,17 @@ function T.Movable(f, key, home)
 end
 
 -- Options' Reset windows and /lore reset: every pop-up back to its own start.
-function T.ResetMovable()
+-- keys: only these (Move's Put them back); every one when left out.
+function T.ResetMovable(keys)
   local s = LoreForeverDB and LoreForeverDB.settings
-  if s then s.popupPlaces = nil end
-  for _, f in ipairs(movable) do T.PlaceMovable(f) end
+  local only = {}
+  for _, k in ipairs(keys or {}) do only[k] = true end
+  if s and keys then
+    if type(s.popupPlaces) == "table" then for k in pairs(only) do s.popupPlaces[k] = nil end end
+  elseif s then
+    s.popupPlaces = nil
+  end
+  for _, f in ipairs(movable) do if not keys or only[f.placeKey] then T.PlaceMovable(f) end end
 end
 
 -- A resized window or a new UI scale: what's up goes to its place on the new screen, a tick later, once UIParent has its
@@ -1902,8 +1909,41 @@ function T.Pill(parent, h, stone)
   p.tick:SetTexture(T.PAPER_ART .. "Tick")
   p.tick.file = true
   p.signs = { arrow, square, p.upright, p.tick, unpack(p.list) }
+  -- A free download has this one's voice (VoiceOffer.lua, T.SetPillOffer): the play half, dimmed, a small gold arrow down.
+  local get = CreateFrame("Button", nil, p)
+  get:SetSize(p.half, h)
+  get:RegisterForClicks("LeftButtonUp", "RightButtonUp")
+  get:SetScript("OnEnter", function(self) p.hover = true; T.SetPill(p); ns.VoiceOffer.Tip(self, p.offer) end)
+  get:SetScript("OnLeave", function() p.hover = false; T.SetPill(p); GameTooltip:Hide() end)
+  get:SetScript("OnClick", function(_, button) ns.VoiceOffer.Click(button) end)
+  local dim = get:CreateTexture(nil, "ARTWORK")
+  dim:SetSize(arrow:GetWidth(), arrow:GetHeight())
+  dim:SetPoint("CENTER", -2, 1)
+  local down = get:CreateTexture(nil, "OVERLAY")
+  local small = math.max(10, math.floor(s * 0.85))
+  down:SetSize(small, small)
+  down:SetPoint("BOTTOMRIGHT", 0, 0)
+  down:SetTexture("Interface\\Buttons\\Arrow-Down-Up")   -- (the game's own gold arrow)
+  -- A small dark round behind the arrow, so it reads on parchment as well as on the dark bar.
+  local back = get:CreateTexture(nil, "ARTWORK", nil, 1)
+  back:SetSize(small, small)
+  back:SetPoint("CENTER", down, "CENTER", 0, 4)   -- (the arrow sits high in its art)
+  if disc then back:SetTexture(disc); back.file = true end
+  p.getBack = back
+  if arrow.file then
+    dim:SetTexture(T.ARROW)
+    if dim.SetDesaturated then dim:SetDesaturated(true) end
+    dim.file = true
+  end
+  p.get, p.getDim, p.getDown = get, dim, down
   T.SetPill(p, false, true, false)
   return p
+end
+
+-- Shows a pill's play half as the quiet download button (kind: "quest" or "story"), or as itself (nil). Call T.SetPill
+-- after, as a state change does; a pill that's playing is never offered.
+function T.SetPillOffer(p, kind)
+  p.offer = kind
 end
 
 -- Sets a pill's state (any argument left out keeps what it was): playing, canAdd (the + is there at all), queued
@@ -1916,7 +1956,8 @@ function T.SetPill(p, playing, canAdd, queued, canPlay)
   if queued ~= nil then p.queued = queued end
   if canPlay ~= nil then p.canPlay = canPlay end
   local h, r = p.h, p.h / 2
-  local hasPlay = p.playing or p.canPlay ~= false
+  local offer = p.offer and not p.playing
+  local hasPlay = p.playing or p.canPlay ~= false or (offer and true or false)
   local hasAdd = p.canAdd and true or false
   local two = hasPlay and hasAdd
   local w = two and 2 * p.half or p.half
@@ -1925,7 +1966,10 @@ function T.SetPill(p, playing, canAdd, queued, canPlay)
   p.play:ClearAllPoints()
   p.play:SetPoint("TOPLEFT")
   p.play:SetWidth(p.half)
-  p.play:SetShown(hasPlay)
+  p.play:SetShown(hasPlay and not offer)
+  p.get:ClearAllPoints()
+  p.get:SetPoint("TOPLEFT")
+  p.get:SetShown(offer and true or false)
   p.add:ClearAllPoints()
   p.add:SetPoint("TOPRIGHT")
   p.add:SetShown(hasAdd)
@@ -1971,6 +2015,10 @@ function T.SetPill(p, playing, canAdd, queued, canPlay)
   if two then pillTint(p.divider, edge) else p.divider:Hide() end
   for _, t in ipairs(p.signs) do pillTint(t, sign, t.file) end
   if p.playing then pillTint(p.square, C.ink) end
+  -- Dimmed but plainly a button: it brightens under the mouse, like the others.
+  pillTint(p.getDim, sign, p.getDim.file)
+  p.getDim:SetAlpha(p.hover and 0.85 or 0.55)
+  pillTint(p.getBack, C.ink, p.getBack.file)
   p.arrow:ClearAllPoints()
   p.arrow:SetPoint("CENTER", p.play, "CENTER", p.arrow.file and 1 or 0, 0)   -- (the arrow art sits a little left)
   p.square:ClearAllPoints()

@@ -903,7 +903,7 @@ SlashCmdList.LOREFOREVER = function(msg)
     if ns.Companion.Installed() or ns.Strip.On() then   -- (on without Willo: the way to turn it off, LOR-541)
       say(string.format(L["/lore live - live game info for %s on/off"], ns.COMPANION_NAME))
     end
-    say(L["/lore subtitles - drag the subtitles where you want them; /lore subtitles reset - put them back"])
+    say(L["/lore move - drag the subtitles, notes and sky where you want them; /lore subtitles reset - put the subtitles back"])
     say(L["/lore options - settings (tooltips, hints, flight narration)"])
     say(L["/lore lang - choose the language: English, Deutsch, Español, Français or Português (Automatic follows your WoW client)"])
     say(L["/lore reset - bring back the panel, the floating player, the minimap button and every pop-up (keeps your journey and settings)"])
@@ -987,14 +987,12 @@ SlashCmdList.LOREFOREVER = function(msg)
       say(L["While you hold %s's talk key to ask a question, rings of stars in a blue mist show over your minimap. %s reads this little sky to know where you are, who you're targeting and your tracked quest. Only %s, on this PC, reads it. It isn't a hack: it doesn't read the game's memory, never presses keys or clicks, and sends nothing online."]:format(ns.COMPANION_NAME, ns.COMPANION_NAME, ns.COMPANION_NAME)
         .. " " .. L["Type /lore live to turn it off."])
     end
-  elseif cmd == "sky" or cmd == "sky move" then
-    ns.Sky.Move(not ns.Sky.Moving())   -- again (or Done) when it's where they want it (LOR-530)
+  elseif cmd == "move" or cmd == "sky" or cmd == "sky move" or cmd == "subtitles" or cmd == "subtitles move" then
+    ns.Move.Toggle()   -- one move mode for the subtitles, the notes and the sky; again (or Done) to finish (LOR-1367)
   elseif cmd == "sky reset" or cmd == "sky back" then
     ns.Sky.PutBack()
     say(string.format(ns.Sky.KeptUp() and L["%s's sky is back under your buffs."] or L["%s's sky is back on your minimap."],
       ns.COMPANION_NAME))
-  elseif cmd == "subtitles" or cmd == "subtitles move" then
-    ns.Subtitles.Move()   -- drag them where you want them (LOR-679)
   elseif cmd == "subtitles reset" or cmd == "subtitles back" then
     ns.Subtitles.PutBack()
   elseif cmd == "nudge" then

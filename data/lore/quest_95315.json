@@ -1,0 +1,76 @@
+{
+ "key": "quest:95315",
+ "type": "quest",
+ "name": "The Riverglades Report",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95315
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Captain Nials sends you south with correspondence for Demar Brant at Farholde Keep. A scout reports an enemy force gathering beyond the Wetlands, near a settlement called Farholde.",
+ "sections": [
+  {
+   "title": "A Scout\u2019s Word",
+   "body": "Captain Nials has heard that a large enemy force is gathering far south of the Wetlands. A settlement called Farholde may lie there, though its name is only familiar to him. He gives you correspondence for Demar Brant, who leads the detachment at Farholde Keep on the Riverglades\u2019 southeastern coast.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What did the scout report?",
+   "aliases": [
+    "scout report",
+    "what's happening south"
+   ],
+   "answer": "The scout reported a large enemy force gathering far south, beyond the Wetlands."
+  },
+  {
+   "q": "Who is Captain Nials sending me to?",
+   "aliases": [
+    "who gets the letter",
+    "demar brant"
+   ],
+   "answer": "You are to deliver Captain Nials\u2019 correspondence to Demar Brant at Farholde Keep."
+  },
+  {
+   "q": "Where is Farholde Keep?",
+   "aliases": [
+    "where's farholde",
+    "keep location"
+   ],
+   "answer": "Farholde Keep lies along the southeastern coast of the Riverglades."
+  },
+  {
+   "q": "What is Farholde?",
+   "aliases": [
+    "farholde settlement",
+    "what's farholde"
+   ],
+   "answer": "Captain Nials has heard of a settlement called Farholde near the gathering force."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "captain nials",
+  "correspondence",
+  "demar brant",
+  "farholde",
+  "farholde keep",
+  "riverglades report",
+  "scout",
+  "wetlands"
+ ],
+ "related": [
+  "zone:riverglades",
+  "zone:wetlands",
+  "topic:alliance"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Riverglades Report"
+ ]
+}

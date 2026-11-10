@@ -622,7 +622,7 @@ P.transport["quest:1096"] = {
   fullHash = "c8d1a3",
   text = "Gerenzo Wrenchwhistle. Above Cragpool Lake, Gerenzo Wrenchwhistle awaits a bounty in the Stonetalon Mountains. The rogue gnome overseer has replaced much of his rotting flesh with gears, clockwork machinery, and artificial limbs. Ziz Fizziks wants his mechanical arm as proof of his death, hoping it will win him a promotion. Gerenzo’s body bears the marks of his transformations. Those who have seen him say his natural flesh rots beneath grafted gears, iron plating, and whirring clockwork limbs. Near the great water wheel above Cragpool Lake, he watches the operations. His failing flesh does not concern him. Ziz Fizziks works for Sputtervalve and hopes Gerenzo’s death will carry him out of Stonetalon. Ziz cannot climb the cliffs and defeat the augmented overseer alone, so he asks you to bring back Gerenzo’s mechanical arm. He hopes the arm will prove his worth and earn him a transfer to the Tinkers’ Union workshops in Gadgetzan or Undermine. Gerenzo’s mechanical arm reflects a sharp divide between gnome and goblin engineering. He cut away failing flesh to make room for complex prosthetics, a choice goblins find baffling. Ziz believes goblin ingenuity would keep the natural limb and add an explosive third arm beside it.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1096-3bb4b522376edbcb83ef/1-0000.mp3", duration = 75.2326531, start = 0},
+    {file = "Audio/Transport/full_quest_1096-08ee76b45807d09d97d5/1-0000.mp3", duration = 76.6432653, start = 0},
   },
 }
 P.transport["quest:1098"] = {
@@ -5646,7 +5646,7 @@ P.transport["quest:6481"] = {
   fullHash = "fd2163",
   text = "Earthen Arise. In Boulderslide Ravine, Mor'rogal finds Goggeroc asleep inside a Resonite cask. The tauren shaman fears the ancient Earthen could threaten all Kalimdor, so he sends a champion to break the cask and slay Goggeroc before its strength returns. Scouts searching Boulderslide Ravine for vermin found a strange relic among the kobolds. A Resonite cask held unearthly force. Mor'rogal, a tauren shaman in the Stonetalon Mountains, knew it was both prison and sanctuary for Goggeroc, a dormant Earthen. These ancient beings of stone can outmatch mortal warriors, and Goggeroc's freedom could endanger the whole region.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6481-928faec2249c57f19930/1-0000.mp3", duration = 39.4710204, start = 0},
+    {file = "Audio/Transport/full_quest_6481-448083d060795f2ed95b/1-0000.mp3", duration = 39.8367347, start = 0},
   },
 }
 P.transport["quest:6503"] = {
