@@ -1,0 +1,86 @@
+{
+ "key": "quest:95791",
+ "type": "quest",
+ "name": "The Saltseer Captain",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95791
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A rival hunter wants Captain Dreadrise and his Saltseer Coroners removed from the Drowned City. Their crew keeps gathering the magical artifacts he seeks.",
+ "sections": [
+  {
+   "title": "A Rival in the City",
+   "body": "A rival hunter seeks your help in the Drowned City, where the Saltseer pirates have become a thorn in his side. Captain Dreadrise and his Saltseer Coroners gather the magical artifacts he wants. He asks you to remove the captain and three of his crew from the picture.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Captain Dreadrise?",
+   "aliases": [
+    "dreadrise",
+    "saltseer captain",
+    "captain guy"
+   ],
+   "answer": "Captain Dreadrise leads the Saltseer pirates in the Drowned City."
+  },
+  {
+   "q": "Who are the Saltseer Coroners?",
+   "aliases": [
+    "saltseer crew",
+    "coroners",
+    "dreadrise's crew"
+   ],
+   "answer": "The Saltseer Coroners are crew members Captain Dreadrise works with in gathering magical artifacts."
+  },
+  {
+   "q": "Why does the giver want Dreadrise gone?",
+   "aliases": [
+    "why kill dreadrise",
+    "why remove captain",
+    "dreadrise rival"
+   ],
+   "answer": "Captain Dreadrise and his crew keep gathering magical artifacts the giver has been seeking, and he is tired of the competition."
+  },
+  {
+   "q": "Where are Captain Dreadrise and the Saltseers?",
+   "aliases": [
+    "where is dreadrise",
+    "saltseer location",
+    "drowned city pirates"
+   ],
+   "answer": "Captain Dreadrise and the Saltseer pirates are in the Drowned City."
+  },
+  {
+   "q": "What does the giver ask me to do?",
+   "aliases": [
+    "what do i do",
+    "dreadrise quest",
+    "saltseer task"
+   ],
+   "answer": "The giver asks you to slay Captain Dreadrise and three Saltseer Coroners in the Drowned City."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "captain dreadrise",
+  "drowned city",
+  "magical artifacts",
+  "pirates",
+  "saltseer",
+  "saltseer coroners"
+ ],
+ "related": [
+  "quest:95775",
+  "topic:pirate"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Saltseer Captain"
+ ]
+}

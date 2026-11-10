@@ -1,0 +1,99 @@
+{
+ "key": "quest:98230",
+ "type": "quest",
+ "name": "This Land Was Their Land",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98230
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Howin Kindfeather has returned to the Wetlands, where the Wildhammers once founded Grim Batol. Find him east of Menethil Harbor; he welcomes a helping hand.",
+ "sections": [
+  {
+   "title": "The Road East",
+   "body": "The Wildhammer dwarf Howin Kindfeather is waiting for help east of Menethil Harbor, along the road. You seek him out as one of the first Wildhammers to return in ages. He keeps apart from town, and help is hard to come by.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Wildhammer Home",
+   "body": "After the War of the Three Hammers, the Wildhammers settled in the Wetlands and founded Grim Batol. Gryphons once flew above the mountain fortress and dived into the wetlands for fish. That life did not last long; now Howin has returned, far from town.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Howin Kindfeather?",
+   "aliases": [
+    "howin",
+    "who is howin",
+    "kindfeather"
+   ],
+   "answer": "Howin Kindfeather is a Wildhammer dwarf and one of the first of his people to return in ages."
+  },
+  {
+   "q": "Where can I find Howin?",
+   "aliases": [
+    "where howin",
+    "find kindfeather",
+    "howin location"
+   ],
+   "answer": "Howin is east of Menethil Harbor, along the road, far outside town."
+  },
+  {
+   "q": "Why is Howin out here?",
+   "aliases": [
+    "why is howin here",
+    "howin back",
+    "wildhammer return"
+   ],
+   "answer": "Howin is one of the first Wildhammers to return in ages, and he keeps to himself outside town."
+  },
+  {
+   "q": "What was Grim Batol?",
+   "aliases": [
+    "grim batol history",
+    "wildhammer fortress",
+    "what is grim batol"
+   ],
+   "answer": "The Wildhammers founded Grim Batol in the Wetlands after the War of the Three Hammers."
+  },
+  {
+   "q": "What happened to the Wildhammers' home?",
+   "aliases": [
+    "wildhammer home",
+    "what happened grim batol",
+    "gryphons wetlands"
+   ],
+   "answer": "Grim Batol was once a wondrous place, where gryphons flew over the wetlands to catch fish, but that life did not last long."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Dwarf",
+   "text": "As a dwarf, you meet Howin Kindfeather, a Wildhammer returning to the Wetlands after the War of the Three Hammers."
+  }
+ ],
+ "keywords": [
+  "grim batol",
+  "gryphons",
+  "howin kindfeather",
+  "menethil harbor",
+  "this land was their land",
+  "war of the three hammers",
+  "wetlands",
+  "wildhammer"
+ ],
+ "related": [
+  "zone:wetlands",
+  "subzone:grim-batol",
+  "subzone:menethil-harbor"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: This Land Was Their Land"
+ ]
+}

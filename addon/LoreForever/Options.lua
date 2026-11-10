@@ -34,8 +34,8 @@ Options.DEFAULTS = {
   onDemand = false,        -- "Narration: only when I press Play" (LOR-138): nothing plays by itself (Voice.OnDemand)
   autoZone = true,         -- play a zone's or place's recorded narration on arriving there (Voice.OnArrive)
   questDialogue = false,   -- opt in to direct quest dialogue, including quest-window Play (Voice.QuestDialogue)
-  -- A book, letter or plaque page's recording as it opens (Voice.ReadBookPage). No book has one yet, so Options has no
-  -- switch for it; another add-on that reads books turns it off (Voice.CheckSpoken, Voice.CheckQuestVoices).
+  -- A book, letter or plaque page's recording as it opens (Voice.ReadBookPage). Options has no switch for it; another
+  -- add-on that reads books turns it off (Voice.CheckSpoken, Voice.CheckQuestVoices).
   readBooks = true,
   skipHeard = true,        -- don't play automatically what this character has heard (LoreForeverDB.heard)
   packHints = true,        -- say (once a session per zone) when its places and people are in a lands pack you lack
@@ -919,7 +919,28 @@ function Options.Create()
     p.checks[#p.checks + 1] = cb
     return desc, cb
   end
-  for i, row in ipairs(rows()) do last = check(row, last, i == 1) end
+  for i, row in ipairs(rows()) do
+    local cb
+    last, cb = check(row, last, i == 1)
+    -- Move the notes..., beside New page notes (LOR-1367): windows open when asked, but the two notes only come when
+    -- something happens, so this shows a sample of each to place.
+    if row[1] == "pageSlip" then
+      local move = CreateFrame("Button", nil, c, "UIPanelButtonTemplate")
+      move:SetSize(150, 22)
+      move:SetPoint("LEFT", cb.label, "RIGHT", 60, 0)
+      move:SetText(L["Move the notes..."])
+      fit(move, 150)
+      move:SetScript("OnEnter", function(self)
+        GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+        GameTooltip:AddLine(L["Move the notes..."])
+        T.Tip(L["Show a sample of the new-page note and the pin card for 20 seconds. Drag each one where you want it, and they stay there."], "tipText", true)
+        GameTooltip:Show()
+      end)
+      move:SetScript("OnLeave", function() GameTooltip:Hide() end)
+      move:SetScript("OnClick", function() ns.Slip.Sample(); ns.PinArrive.Sample() end)
+      cb.move = move
+    end
+  end
   -- Forget what this character has heard, so narrations and quest text play by themselves again.
   local resetBtn = CreateFrame("Button", nil, c, "UIPanelButtonTemplate")
   resetBtn:SetSize(200, 24)
@@ -965,7 +986,7 @@ function Options.Create()
   windowsBtn:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
     GameTooltip:AddLine(L["Reset windows"])
-    T.Tip(L["Put the panel, the floating player and the minimap button back where they started, and show them again. Your journey and settings stay. Same as /lore reset."], "tipText", true)
+    T.Tip(L["Put the panel, the floating player, the minimap button and every pop-up back where they started, and show them again. Your journey and settings stay. Same as /lore reset."], "tipText", true)
     GameTooltip:Show()
   end)
   windowsBtn:SetScript("OnLeave", function() GameTooltip:Hide() end)

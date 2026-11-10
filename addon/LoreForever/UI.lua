@@ -1279,7 +1279,11 @@ local function sectionsTellIt(key)
   local e = UI.engine.db.entries[key]
   local words = 0
   for _, sec in ipairs(e and e.sec or {}) do
-    if (sec.sp or 0) == 0 then for _ in sec.b:gmatch("%S+") do words = words + 1 end end
+    if (sec.sp or 0) == 0 then
+      for _ in sec.b:gmatch("%S+") do words = words + 1 end
+      -- Chinese has no spaces to count by: about two characters to a word.
+      for _ in sec.b:gmatch("[\228-\233][\128-\191][\128-\191]") do words = words + 0.5 end
+    end
   end
   return words > SHORT_STORY_WORDS
 end
@@ -1535,10 +1539,18 @@ function UI.RestorePlayback()
       if type(it) ~= "table" or type(it.id) ~= "string" or type(it.label) ~= "string"
           or (it.key ~= nil and type(it.key) ~= "string") then return UI.UpdateNowPlaying() end
       if it.pages ~= nil then
-        if type(it.quest) ~= "number" or type(it.pages) ~= "table" or #it.pages > 3 then return UI.UpdateNowPlaying() end
+        if type(it.pages) ~= "table" or #it.pages > 40 then return UI.UpdateNowPlaying() end
         if it.page ~= nil and (type(it.page) ~= "number" or it.page % 1 ~= 0 or it.page < 1 or it.page > #it.pages) then return UI.UpdateNowPlaying() end
-        for _, kind in ipairs(it.pages) do
-          if kind ~= "detail" and kind ~= "progress" and kind ~= "complete" then return UI.UpdateNowPlaying() end
+        if it.book ~= nil then   -- a book's: page numbers
+          if type(it.book) ~= "string" then return UI.UpdateNowPlaying() end
+          for _, page in ipairs(it.pages) do
+            if type(page) ~= "number" or page % 1 ~= 0 or page < 1 then return UI.UpdateNowPlaying() end
+          end
+        else                     -- a quest giver's: which of its three pages
+          if type(it.quest) ~= "number" or #it.pages > 3 then return UI.UpdateNowPlaying() end
+          for _, kind in ipairs(it.pages) do
+            if kind ~= "detail" and kind ~= "progress" and kind ~= "complete" then return UI.UpdateNowPlaying() end
+          end
         end
       end
     end
@@ -3076,17 +3088,30 @@ function UI.PlaylistIndex(id)
   end
 end
 
+-- The recording of page `p` of item `it` (a book's or a quest giver's), or nil when no voice you have read it. peek:
+-- not to be played yet (UI.QuestPageClip).
+local function itemPageClip(it, p, peek)
+  if it.book then
+    local clip = it.book .. "#" .. tostring(it.pages[p])
+    return ns.Voice.HasAudio(clip) and clip or nil
+  end
+  return UI.QuestPageClip(it.quest, it.pages[p], peek, it.asked)
+end
+
 -- What item `it` plays now, as a target, or nil when nothing of it can (the voice changed since it was queued, say): a
--- story's or answer's recording, or a quest's page it.page (else the next one that plays: it.page moves on to it).
+-- story's or answer's recording, or a book's or quest's page it.page (else the next one that plays: it.page moves on to it).
 local function itemTarget(it)
   if not it.pages then
     if not ns.Voice.HasAudio(it.id) or not UI.CanQueue(it.key, it.idx) then return nil end
     return it.idx and UI.FaqTarget(it.key, it.idx) or UI.EntryTarget(it.key)
   end
   for p = it.page or 1, #it.pages do
-    local clip = UI.QuestPageClip(it.quest, it.pages[p], nil, it.asked)
+    local clip = itemPageClip(it, p)
     if clip then
       it.page = p
+      if it.book then
+        return { id = it.id, key = clip, label = it.label, text = ns.Voice.BookPageText(it.label, it.pages[p]) }
+      end
       local e = it.key and UI.engine.db.entries[it.key]
       return { id = it.id, key = clip, label = ns.Voice.questTitles[clip] or it.label,   -- (its language's, Voice.QuestClip)
         text = UI.QuestPageText(it.quest, it.pages[p]), story = it.key }
@@ -3094,11 +3119,11 @@ local function itemTarget(it)
   end
 end
 
--- Whether item `it` can still play with the voices you have (UI.PlaylistVoiceChanged): a quest one of its pages.
+-- Whether item `it` can still play with the voices you have (UI.PlaylistVoiceChanged): a book or quest one of its pages.
 local function playable(it)
   if not it.pages then return ns.Voice.HasAudio(it.id) end
-  for _, kind in ipairs(it.pages) do
-    if UI.QuestPageClip(it.quest, kind, true, it.asked) then return true end
+  for p = 1, #it.pages do
+    if itemPageClip(it, p, true) then return true end
   end
   return false
 end
@@ -3117,8 +3142,8 @@ local function goTo(i, replacing)
     it.page = nil
     UI.progress[it.id] = nil
     if it.pages then
-      for _, kind in ipairs(it.pages) do
-        local clip = UI.QuestPageClip(it.quest, kind, nil, it.asked)
+      for p = 1, #it.pages do
+        local clip = itemPageClip(it, p)
         if clip then UI.progress[clip] = nil end
       end
     end
@@ -3319,6 +3344,20 @@ function UI.DoQueueQuest(qid, title, page)
   if action == "add" then UI.QueueQuest(qid, title, page)
   elseif action == "stop" then UI.StopAll()
   else UI.PlaylistRemove(UI.PlaylistIndex(id)) end
+end
+
+-- The + on a book's pill: the book (Voice.OpenBook) goes in as one item, its recorded pages in order, wherever you are
+-- in it; takes it out again, or stops it while it plays. A book plays on with its window closed, as a playlist does.
+function UI.DoQueueBook(book)
+  local action = UI.QueueAction(book.id)
+  if action == "stop" then return UI.StopAll() end
+  if action ~= "add" then return UI.PlaylistRemove(UI.PlaylistIndex(book.id)) end
+  if addItem({ id = book.id, label = book.title, book = book.stem, pages = book.pages }) then
+    ns.Log.Use("pl", "book")
+    if not (UI.frame and UI.frame:IsShown()) then
+      DEFAULT_CHAT_FRAME:AddMessage(T.CHAT_PREFIX .. L["Added to your playlist:"] .. " " .. WHITE .. esc(book.title) .. "|r")
+    end
+  end
 end
 
 -- Whether quest qid can go in the playlist, at a quick look (tooltips and the +; adding checks its words against the
@@ -4535,9 +4574,6 @@ end
 -- the minimap button shown again. What's saved about them goes (the panel's place and size, the player's place, the
 -- button's angle); the journey, history and every other setting, Panel size included, stay. Reinstalling the add-on
 -- keeps SavedVariables, so this is the way back from a window hidden or moved out of reach.
-local OTHER_WINDOWS = { "LoreForeverExport", "LoreForeverReport", "LoreForeverClipReport", "LoreForeverShare",
-  "LoreForeverJourneyRecordBox", "LoreForeverLiveAnswers", "LoreForeverKeyPrompt" }
-
 local function recentre(f, w, h)
   if not f or not f:IsMovable() then return end   -- one that can't move is where it opens, and the game refuses the next line
   if f.SetUserPlaced then f:SetUserPlaced(false) end   -- the game's own layout cache mustn't put it back
@@ -4554,7 +4590,7 @@ function UI.ResetWindows()
   UI.miniClosed = nil
   s.minimap, s.minimapAngle = true, nil
   recentre(UI.frame, W, H)
-  for _, name in ipairs(OTHER_WINDOWS) do recentre(_G[name]) end
+  T.ResetMovable()   -- every pop-up, each to its own start (LOR-1367)
   local p = UI.mini
   if p then
     if p.SetUserPlaced then p:SetUserPlaced(false) end
@@ -4567,7 +4603,7 @@ function UI.ResetWindows()
   UI.UpdateNowPlaying()
   local op = ns.Options and ns.Options.panel   -- open on our page: its ticks follow
   if op and op:IsVisible() and op:GetScript("OnShow") then op:GetScript("OnShow")(op) end
-  DEFAULT_CHAT_FRAME:AddMessage(T.CHAT_PREFIX .. L["windows reset: the panel, the floating player and the minimap button are back where they started. The player shows while the panel is closed and something plays or waits in your playlist."])
+  DEFAULT_CHAT_FRAME:AddMessage(T.CHAT_PREFIX .. L["windows reset: the panel, the floating player, the minimap button and every pop-up are back where they started. The player shows while the panel is closed and something plays or waits in your playlist."])
 end
 
 -- History ----------------------------------------------------------------------------------------------------------
@@ -5550,13 +5586,8 @@ local REPORT_H, REPORT_COPY_H = 300, 392
 local function createReport()
   local f = T.Window("LoreForeverReport", UIParent, "Lore Forever")
   f:SetSize(400, REPORT_H)
-  f:SetPoint("CENTER")
   f:SetFrameStrata("DIALOG")
-  f:SetMovable(true)
-  f:EnableMouse(true)
-  f:RegisterForDrag("LeftButton")
-  f:SetScript("OnDragStart", f.StartMoving)
-  f:SetScript("OnDragStop", f.StopMovingOrSizing)
+  T.Movable(f, "report")
   table.insert(UISpecialFrames, "LoreForeverReport")
   local title = f:CreateFontString(nil, "OVERLAY", T.font.heading)
   title:SetPoint("TOPLEFT", 16, -32)

@@ -1,0 +1,77 @@
+{
+ "key": "quest:98282",
+ "type": "quest",
+ "name": "Alchemical Hazards",
+ "era": "forever",
+ "zone": "wetlands",
+ "meta": {
+  "ids": [
+   98282
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Caitlin Grassman in Menethil Harbor needs an intact spider gland to make more antivenom. The venomous marsh makes the ingredient hard to gather safely.",
+ "sections": [
+  {
+   "title": "A Whole Gland",
+   "body": "Caitlin Grassman in Menethil Harbor is making antivenom, but needs a venom gland from a spider at Thelgen Rock. She asks you to bring it back whole, so the venom does not spill away before it reaches her.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who needs the gland?",
+   "aliases": [
+    "who wants the gland",
+    "caitlin grassman"
+   ],
+   "answer": "Caitlin Grassman in Menethil Harbor needs it to make more antivenom."
+  },
+  {
+   "q": "Where does the gland come from?",
+   "aliases": [
+    "where find gland",
+    "spider gland location"
+   ],
+   "answer": "Caitlin asks you to get a venom gland from a spider at Thelgen Rock, far to the southeast."
+  },
+  {
+   "q": "Why does the gland need to stay whole?",
+   "aliases": [
+    "why unruptured",
+    "whole gland"
+   ],
+   "answer": "Caitlin needs an unruptured gland so the venom does not spill before you bring it to her."
+  },
+  {
+   "q": "What is Caitlin making?",
+   "aliases": [
+    "antivenom ingredients",
+    "what is she brewing"
+   ],
+   "answer": "Caitlin needs the gland to make more antivenom."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alchemical hazards",
+  "antivenom",
+  "caitlin grassman",
+  "menethil harbor",
+  "spiders",
+  "thelgen rock",
+  "unruptured stalker gland",
+  "venom gland"
+ ],
+ "related": [
+  "quest:567",
+  "subzone:menethil-harbor",
+  "subzone:thelgen-rock",
+  "zone:wetlands"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Alchemical Hazards"
+ ]
+}

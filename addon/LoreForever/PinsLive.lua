@@ -6,8 +6,9 @@
 -- Each can be loaded once a session, so this loads the next unused one only when new pins are likely:
 --
 --   AFTER_TALK seconds after the talk key comes up (her answer, her notebook and her write are in by then; another
---   talk before that moves it on), and when the world map opens after a talk since the last look, or with no look for
---   QUIET seconds (pins made in her window or on the phone), never twice within GAP, never in combat.
+--   talk before that moves it on), and when the world map opens after a talk that no look has settled yet, or with no
+--   look for QUIET seconds (pins made in her window or on the phone), never twice within GAP, never in combat. With the
+--   map up and her pin maybe still coming, one more look per talk.
 --
 -- What it loads sets LoreForeverWilloLive = {generated, chars = {[key] = {pins}}, historyChars = {[install] = {...}}},
 -- Data.lua's pins only. Newer than what the game has, its pins replace those in LoreForeverJourneyData and the maps
@@ -19,10 +20,14 @@ local _, ns = ...
 local PinsLive = {}
 ns.PinsLive = PinsLive
 
-local AFTER_TALK, GAP, QUIET = 10, 15, 600
+-- EXPECT: how long after a talk her pin may still be on its way. Her answer and her write can come after a look, and
+-- then a map opened a moment later stayed empty until a /reload (QA, 11/8), so a look only settles a talk once it has
+-- brought pins or EXPECT has passed. KEEP: slots only the world map may take. A look follows every talk, pin or not,
+-- so a long session used them all and the next pin never came. Only a look the opening of the map started may take them.
+local AFTER_TALK, GAP, QUIET, EXPECT, KEEP = 10, 15, 600, 40, 3
 
 local used = {}             -- slots loaded this session
-local lastLook, talked, inCombatWait = nil, false, false
+local lastLook, talkedAt, relooked, inCombatWait = nil, nil, false, false
 local timer = 0             -- the newest scheduled look; older ones do nothing
 
 local function now() return (GetTime and GetTime()) or 0 end
@@ -30,6 +35,11 @@ local function api(name)
   local C = _G.C_AddOns
   return C and C[name] or _G[name]
 end
+local function mapOpen()
+  local map = _G.WorldMapFrame
+  return map and map.IsShown and map:IsShown() and true or false
+end
+local function expecting() return talkedAt ~= nil and now() - talkedAt < EXPECT end
 
 -- The slots Willo said she writes, by name.
 function PinsLive.Slots()
@@ -43,21 +53,24 @@ function PinsLive.Slots()
   return out
 end
 
--- The next slot the game can still load this session, or nil.
-local function nextSlot()
+-- The next slot the game can still load this session, leaving `keep` of them, or nil.
+local function nextSlot(keep)
   local info, loaded = api("GetAddOnInfo"), api("IsAddOnLoaded")
   if not info then return nil end
+  local open = {}
   for _, name in ipairs(PinsLive.Slots()) do
     if not used[name] then
       local ok, present, _, _, loadable, reason = pcall(info, name)
       local isLoaded = loaded and select(2, pcall(loaded, name))
       if ok and present and not isLoaded and reason ~= "DISABLED" and reason ~= "MISSING"
           and (loadable or reason == "DEMAND_LOADED") then
-        return name
+        open[#open + 1] = name
+      else
+        used[name] = true   -- gone, turned off or loaded already: never asked again
       end
-      used[name] = true   -- gone, turned off or loaded already: never asked again
     end
   end
+  if #open > keep then return open[1] end
 end
 
 local function replace(into, from)
@@ -97,47 +110,55 @@ function PinsLive.Take(live)
   return true
 end
 
--- Load the next slot now. True when it brought newer pins.
-function PinsLive.Look()
+-- Load the next slot now (byMap: the map opening asked, and may take the kept slots). True when it brought newer pins.
+function PinsLive.Look(byMap)
   if InCombatLockdown and InCombatLockdown() then inCombatWait = true; return false end
-  local name = nextSlot()
+  local name = nextSlot(byMap and 0 or KEEP)
   local load = api("LoadAddOn")
   if not (name and load) then return false end
   used[name] = true
-  lastLook, talked = now(), false
+  lastLook = now()
+  local settled = not expecting()
   _G.LoreForeverWilloLive = nil
   pcall(load, name)
   local live = _G.LoreForeverWilloLive
   _G.LoreForeverWilloLive = nil
-  return PinsLive.Take(live)
+  local took = PinsLive.Take(live)
+  if took or settled then talkedAt = nil end
+  return took
 end
 
 local schedule
-local function tryLook()
+local function tryLook(byMap)
   local since = lastLook and now() - lastLook
-  if since and since < GAP then return schedule(GAP - since) end
-  PinsLive.Look()
+  if since and since < GAP then return schedule(GAP - since, byMap) end
+  PinsLive.Look(byMap)
+  -- Looking at the map and her pin may still come: one more look for this talk rather than leave it empty.
+  if expecting() and mapOpen() and not relooked then
+    relooked = true
+    schedule(GAP)
+  end
 end
 
-schedule = function(delay)
+schedule = function(delay, byMap)
   timer = timer + 1
   local mine = timer
   if C_Timer and C_Timer.After then
-    C_Timer.After(delay, function() if mine == timer then tryLook() end end)
+    C_Timer.After(delay, function() if mine == timer then tryLook(byMap) end end)
   end
 end
 
 -- The talk key came up (Strip.Ask), or a question went out from the Ask box: a look once her answer is in.
 function PinsLive.Talked()
   if #PinsLive.Slots() == 0 then return end
-  talked = true
+  talkedAt, relooked = now(), false
   schedule(AFTER_TALK)
 end
 
--- The world map opened: a look when a talk came since the last one, or none has been for QUIET.
+-- The world map opened: a look when a talk hasn't been settled by one, or none has been for QUIET.
 function PinsLive.MapShown()
   if #PinsLive.Slots() == 0 then return end
-  if talked or not lastLook or now() - lastLook >= QUIET then tryLook() end
+  if talkedAt or not lastLook or now() - lastLook >= QUIET then tryLook(true) end
 end
 
 -- What the self-test and the sims read: {slots, used = how many loaded this session}.

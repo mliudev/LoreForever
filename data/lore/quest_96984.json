@@ -1,0 +1,89 @@
+{
+ "key": "quest:96984",
+ "type": "quest",
+ "name": "Heart of Disruption",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96984
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Magus Wordeen Voidglare lets you past his wards into Dalaran to seek an Arcane Mote. He fears the city\u2019s fall could bring catastrophe to the Undercity as well.",
+ "sections": [
+  {
+   "title": "A Key Through the Wards",
+   "body": "Magus Wordeen Voidglare in Tarren Mill sends you into Dalaran with a key he has imbued to pass his wards. He fears that if the city falls, the Undercity will be threatened too. Find the Arcane Mote and meet him at the Violet Citadel, where this began; preventing catastrophe comes first.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me to Dalaran?",
+   "aliases": [
+    "who gave me this",
+    "Wordeen Voidglare",
+    "who is the magus"
+   ],
+   "answer": "Magus Wordeen Voidglare in Tarren Mill sends you into Dalaran to find an Arcane Mote."
+  },
+  {
+   "q": "Why am I going to Dalaran?",
+   "aliases": [
+    "why Dalaran",
+    "what am I looking for",
+    "Dalaran task"
+   ],
+   "answer": "You are sent to find an Arcane Mote. Wordeen fears Dalaran\u2019s fall could bring the Undercity down with it."
+  },
+  {
+   "q": "How do I get past Wordeen's wards?",
+   "aliases": [
+    "the key",
+    "Dalaran key",
+    "get past wards"
+   ],
+   "answer": "Wordeen imbues your key so it can pass his wards and let you enter the city."
+  },
+  {
+   "q": "Where should I meet Wordeen?",
+   "aliases": [
+    "meet the magus",
+    "Violet Citadel",
+    "where is Wordeen"
+   ],
+   "answer": "Wordeen asks you to meet him at the Violet Citadel in Dalaran, where this began."
+  },
+  {
+   "q": "What is Wordeen's first priority?",
+   "aliases": [
+    "prevent catastrophe",
+    "what matters most",
+    "first priority"
+   ],
+   "answer": "Wordeen says preventing a catastrophe comes first."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arcane mote",
+  "dalaran",
+  "heart of disruption",
+  "magus wordeen voidglare",
+  "tarren mill",
+  "undercity",
+  "violet citadel",
+  "wards"
+ ],
+ "related": [
+  "zone:undercity",
+  "subzone:dalaran",
+  "subzone:tarren-mill"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Heart of Disruption"
+ ]
+}

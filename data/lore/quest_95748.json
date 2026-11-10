@@ -1,0 +1,99 @@
+{
+ "key": "quest:95748",
+ "type": "quest",
+ "name": "The Gurubashi Legends of Old",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95748
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A troll scholar seeks a rubbing of an ancient tablet north of Vile Reef. Its legend may clarify the scale of lost I'lalai.",
+ "sections": [
+  {
+   "title": "A Tablet by the Coast",
+   "body": "The scholar compares a tablet piece you brought with the ruins off Vile Reef. Those ruins seem too small to match the sprawling civilization described in its words. So the scholar asks you to make a rubbing of a tablet in an ancient troll ruin on the coastal hills to the north.",
+   "spoiler": 0
+  },
+  {
+   "title": "An Old Memory",
+   "body": "The scholar welcomes the rubbing and says the tablet is familiar from youth. Many moons have passed since it was last read, and the scholar's memory has faded.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the scholar want?",
+   "aliases": [
+    "tablet rubbing",
+    "what does he need",
+    "rubbing request"
+   ],
+   "answer": "The scholar wants a rubbing of a tablet containing legends of the lost troll city of I'lalai."
+  },
+  {
+   "q": "Where is the tablet?",
+   "aliases": [
+    "tablet location",
+    "where tablet",
+    "north of reef"
+   ],
+   "answer": "It is in an ancient troll ruin on the coastal hills north of Vile Reef."
+  },
+  {
+   "q": "Why does the scholar want a rubbing?",
+   "aliases": [
+    "why rubbing",
+    "I'lalai tablet",
+    "lost city legend"
+   ],
+   "answer": "A tablet piece you brought describes I'lalai as a sprawling civilization, while the ruins off Vile Reef seem too small to match."
+  },
+  {
+   "q": "What is I'lalai?",
+   "aliases": [
+    "I'lalai city",
+    "lost troll city",
+    "Ilalai"
+   ],
+   "answer": "I'lalai is described in the tablet piece as a lost troll city and a sprawling civilization."
+  },
+  {
+   "q": "What does the scholar say about the tablet?",
+   "aliases": [
+    "scholar memory",
+    "read tablet before",
+    "old troll legend"
+   ],
+   "answer": "The scholar has read the tablet before, when young, but says many moons have passed and memory has faded."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "As a troll, you are asked to help a scholar study legends of a lost troll city."
+  }
+ ],
+ "keywords": [
+  "ancient ruin",
+  "gurubashi",
+  "i'lalai",
+  "legend",
+  "rubbing",
+  "tablet",
+  "troll",
+  "vile reef"
+ ],
+ "related": [
+  "subzone:vile-reef",
+  "quest:629",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Gurubashi Legends of Old"
+ ]
+}

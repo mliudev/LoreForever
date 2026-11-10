@@ -1,0 +1,87 @@
+{
+ "key": "quest:28",
+ "type": "quest",
+ "name": "Trial of the Lake",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   28
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Tajarri awaits the result of a trial at the Shrine of Remulos in Moonglade. A Shrine Bauble from Lake Elune'ara is at its heart.",
+ "sections": [
+  {
+   "title": "At the Shrine",
+   "body": "At the Shrine of Remulos in northwestern Moonglade, Tajarri asks you to complete a trial. Find a Shrine Bauble in Lake Elune'ara and bring it to the shrine. Use it there, then speak with Tajarri to complete the trial.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Tajarri ask me to do?",
+   "aliases": [
+    "tajarri trial",
+    "what do i need",
+    "lake trial"
+   ],
+   "answer": "Tajarri asks you to find a Shrine Bauble in Lake Elune'ara, use it at the Shrine of Remulos, then speak with Tajarri."
+  },
+  {
+   "q": "Where is the Shrine of Remulos?",
+   "aliases": [
+    "remulos shrine location",
+    "where's the shrine",
+    "shrine location"
+   ],
+   "answer": "The Shrine of Remulos is in northwestern Moonglade."
+  },
+  {
+   "q": "Where do I find the Shrine Bauble?",
+   "aliases": [
+    "bauble location",
+    "find bauble",
+    "lake bauble"
+   ],
+   "answer": "The Shrine Bauble is in Lake Elune'ara."
+  },
+  {
+   "q": "What do I do with the Shrine Bauble?",
+   "aliases": [
+    "use bauble",
+    "bauble at shrine",
+    "shrine bauble"
+   ],
+   "answer": "Take the Shrine Bauble to the Shrine of Remulos and use it there."
+  },
+  {
+   "q": "Who do I speak with after using the bauble?",
+   "aliases": [
+    "talk to tajarri",
+    "after the shrine",
+    "finish trial"
+   ],
+   "answer": "Speak with Tajarri at the shrine after using the Shrine Bauble."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "lake elune'ara",
+  "moonglade",
+  "shrine bauble",
+  "shrine of remulos",
+  "tajarri",
+  "trial of the lake"
+ ],
+ "related": [
+  "quest:5921",
+  "subzone:lake-elune-ara",
+  "npc:remulos"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Trial of the Lake"
+ ]
+}

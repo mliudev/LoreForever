@@ -1,0 +1,82 @@
+{
+ "key": "quest:95534",
+ "type": "quest",
+ "name": "Strahnbrad Mystery",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95534
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A singed note asks you to investigate strange activity around the old bellows in Strahnbrad. Report what you learn in Hillsbrad.",
+ "sections": [
+  {
+   "title": "The Singed Note",
+   "body": "A note found in Strahnbrad warns that the old bellows seem to move when no one watches. Its writer dismisses the tale as a ghost story, yet insists you uncover the truth before their return. They believe great power lies in Strahnbrad, and fire magic has burned away the rest of the message.",
+   "spoiler": 0
+  },
+  {
+   "title": "Your Findings",
+   "body": "In Hillsbrad, the townsfolk hear your report about the old bellows in Strahnbrad. A fire elemental lived within them, though how it came to be there remains a mystery.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is strange about the old bellows?",
+   "aliases": [
+    "old bellows mystery",
+    "bellows moving",
+    "strahnbrad bellows"
+   ],
+   "answer": "A singed note claims the old bellows in Strahnbrad spring to life when no one is watching."
+  },
+  {
+   "q": "Who left the note?",
+   "aliases": [
+    "who wrote the note",
+    "singed note author",
+    "mystery note"
+   ],
+   "answer": "The note does not name its writer; it says they will return."
+  },
+  {
+   "q": "What does the note say about Strahnbrad?",
+   "aliases": [
+    "strahnbrad power",
+    "great power there",
+    "what's in strahnbrad"
+   ],
+   "answer": "The writer believes great power lies in Strahnbrad."
+  },
+  {
+   "q": "Where do I report what I find?",
+   "aliases": [
+    "where report findings",
+    "hillsbrad report",
+    "report in town"
+   ],
+   "answer": "You are asked to report your findings in town in Hillsbrad."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "fire elemental",
+  "fire magic",
+  "hillsbrad",
+  "old bellows",
+  "singed note",
+  "strahnbrad",
+  "strahnbrad mystery"
+ ],
+ "related": [
+  "subzone:strahnbrad"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Strahnbrad Mystery"
+ ]
+}

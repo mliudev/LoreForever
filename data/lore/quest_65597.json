@@ -1,0 +1,70 @@
+{
+ "key": "quest:65597",
+ "type": "quest",
+ "name": "The Binding",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   65597
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Carendin Halgar in the Undercity\u2019s Magic Quarter asks you to use the Lovers\u2019 Hearts to summon and subdue an incubus. He needs the hearts returned afterward.",
+ "sections": [
+  {
+   "title": "A Summoning in the Undercity",
+   "body": "Carendin Halgar asks for your aid in the Magic Quarter of the Undercity. The Lovers\u2019 Hearts are to be used to summon and subdue an incubus, then brought back to him. The hearts remain in Carendin\u2019s keeping when you return.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who wants this",
+    "who gave it",
+    "carendin halgar"
+   ],
+   "answer": "Carendin Halgar, in the Undercity\u2019s Magic Quarter, asks for your help."
+  },
+  {
+   "q": "What are the Lovers\u2019 Hearts for?",
+   "aliases": [
+    "lovers hearts use",
+    "what do hearts do",
+    "hearts for incubus"
+   ],
+   "answer": "You use the Lovers\u2019 Hearts to summon and subdue an incubus."
+  },
+  {
+   "q": "What happens after the summoning?",
+   "aliases": [
+    "where return hearts",
+    "return lovers hearts",
+    "what next"
+   ],
+   "answer": "You return the Lovers\u2019 Hearts to Carendin Halgar in the Magic Quarter."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "carendin halgar",
+  "incubus",
+  "lovers' hearts",
+  "magic quarter",
+  "summoning",
+  "the binding",
+  "undercity"
+ ],
+ "related": [
+  "npc:carendin-halgar",
+  "subzone:magic-quarter",
+  "zone:undercity"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Binding"
+ ]
+}

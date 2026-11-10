@@ -601,9 +601,9 @@
     "quest:1194": {
       "1": [
         {
-          "duration": 32.626938775510204,
-          "file": "Audio/Transport/full_quest_1194-336f2fa4ee697cff58be/1-0000.mp3",
-          "sha256": "16d1510d4c0e3737c6252d6a439480327f1b7b309b9b1b87c0fe919b50cbf2f6",
+          "duration": 33.645714285714284,
+          "file": "Audio/Transport/full_quest_1194-f126374025e6ba07e73c/1-0000.mp3",
+          "sha256": "25d1bd44b7a3b564bce15f3eae61e2b005ad6049d65130f81ec1cdfcd1507968",
           "start": 0
         }
       ],
@@ -615,12 +615,12 @@
         ]
       },
       "fullHash": "a74e49",
-      "generation": "f37e33ecb565b70043c3",
+      "generation": "4a578e01e2f374557414",
       "hash": "a74e49",
       "source": {
-        "duration": 32.653061,
+        "duration": 33.671837,
         "file": null,
-        "sha256": "336f2fa4ee697cff58bebfb4c4f01d913a884debf8ad7e6e425c6ade4322c7b4"
+        "sha256": "f126374025e6ba07e73ca910d58fdf87078f0fdaf2b98029e2650fbe070854b0"
       },
       "text": "Rizzle's Schematics. After Keeping Pace, you carry a raw indurium sample to Pozzik on the Shimmering Flats. Rizzle's plans lie beneath the ore, and his notes trace it to the dwarves' dig at Uldaman in the Badlands. They also describe how well indurium resists heat. Rizzle's plans explain how to refine indurium ore. Scrawled notes trace its source to the dwarves' dig at Uldaman in the Badlands. Other notes describe the ore's resistance to heat. A lump of raw indurium holds the plans down, and you take the sample to Pozzik."
     },
@@ -7101,9 +7101,9 @@
     "quest:654": {
       "1": [
         {
-          "duration": 47.6995918367347,
-          "file": "Audio/Transport/full_quest_654-ddf0e5d51a9279334127/1-0000.mp3",
-          "sha256": "52200b4b635d2fe97becd3ca73fbf3ffe7508ca688aefb5d23f7d673686c2eef",
+          "duration": 48.50938775510204,
+          "file": "Audio/Transport/full_quest_654-511cb1b4420da16be243/1-0000.mp3",
+          "sha256": "3f18e2c1d7af1b083ec1052e8b374252d21e566ea3801f479d735c8f4ed18fcf",
           "start": 0
         }
       ],
@@ -7115,12 +7115,12 @@
         ]
       },
       "fullHash": "7f8dc3",
-      "generation": "1d6356ee6fcd3a125a96",
+      "generation": "06486d52a277b0af1419",
       "hash": "7f8dc3",
       "source": {
-        "duration": 47.725714,
+        "duration": 48.53551,
         "file": null,
-        "sha256": "ddf0e5d51a92793341276e3b1fd43288b7ca05c0effabdce1d35f7292ac7f670"
+        "sha256": "511cb1b4420da16be2438104544657c541707f8523475406da558c2151a04050"
       },
       "text": "Tanaris Field Sampling. In Tanaris, a field test begins as soon as the kit's power source is switched on. Your two hours of sampling start then. Chief Engineer Bilgewhizzle expected the kit to glow and vibrate once its power source was running. Now you have two hours to gather acceptable samples from eight basilisks, eight hyenas and eight scorpions in the Tanaris desert.\n\nIf the time runs out, all the data is lost. You will need to buy another power source from Bilgewhizzle, then return the kit to him in Gadgetzan before its power gives out. Bilgewhizzle offers no sympathy when a kit goes dead. The Gadgetzan Water Company’s profit is all that matters to him.\n\nHe will keep selling power sources until the company can afford to import water from the icy springs of Dun Morogh."
     },
@@ -7803,9 +7803,9 @@
     "quest:724": {
       "1": [
         {
-          "duration": 25.88734693877551,
-          "file": "Audio/Transport/full_quest_724-36a207ddf4406b54f979/1-0000.mp3",
-          "sha256": "eecd5fb1668ff609a1dd2a2ee05861111be2d19e2f42da03dbf7ab3e19973186",
+          "duration": 26.04408163265306,
+          "file": "Audio/Transport/full_quest_724-d9650c4f4be8bb3165c8/1-0000.mp3",
+          "sha256": "17e92672c2bbc3972eba72ec96c124ce7ee6f4ed66143c2a2c7ecad2fbad5497",
           "start": 0
         }
       ],
@@ -7817,12 +7817,12 @@
         ]
       },
       "fullHash": "3d2960",
-      "generation": "b711507989be640e7594",
+      "generation": "5a2834f1574b4acde6aa",
       "hash": "3d2960",
       "source": {
-        "duration": 25.913469,
+        "duration": 26.070204,
         "file": null,
-        "sha256": "36a207ddf4406b54f979122bb3fbd5c3286bb294837d74de2001513d79d3f084"
+        "sha256": "d9650c4f4be8bb3165c801455c5013a5686331991eb112cae22d82df156141fd"
       },
       "text": "Prospect of Faith. In the Badlands, Prospector Ryedol sends you to Ironforge with Hammertoe's Amulet. Historian Karnik and Hammertoe sought Uldaman's lost artifacts together. Ryedol suspects the Shadowforge learned they knew more than they let on. Prospector Ryedol sends you to Historian Karnik in Ironforge. Tell Karnik what happened to Hammertoe and place the amulet in his hands. Karnik will decide what to do next."
     },
@@ -8115,9 +8115,9 @@
     "quest:762": {
       "1": [
         {
-          "duration": 37.799183673469386,
-          "file": "Audio/Transport/full_quest_762-f4ee078bcdb664844a32/1-0000.mp3",
-          "sha256": "01820dfb3544d0da60306a0693fac2006ba9b103ab6295ac7c0f1209af27c3bd",
+          "duration": 37.30285714285714,
+          "file": "Audio/Transport/full_quest_762-b2fa8366ac6b58786069/1-0000.mp3",
+          "sha256": "b528aae9c7249759ddd4ba2f7fe50c738755b7e395107a565cbefec426b7c256",
           "start": 0
         }
       ],
@@ -8129,12 +8129,12 @@
         ]
       },
       "fullHash": "9ab557",
-      "generation": "b8442e6aac1658b3b4c9",
+      "generation": "631ced03617b88198da3",
       "hash": "9ab557",
       "source": {
-        "duration": 37.825306,
+        "duration": 37.32898,
         "file": null,
-        "sha256": "f4ee078bcdb664844a32a09f1114766bfc7318788d54544aa0666968c5269516"
+        "sha256": "b2fa8366ac6b5878606932508391d2f99af159e53f75aec215a1119c2a60eda3"
       },
       "text": "An Ambassador of Evil. In the Badlands, Historian Karnik sends you after Ambassador Infernus. He wants you to carry proof of the kill to Advisor Belgrum in Ironforge. Ragnaros sent Ambassador Infernus to Angor Fortress to oversee the Shadowforge's hunt for lost artifacts in Uldaman. The search has already cost many dwarven lives, and more are dying. Karnik fears the Shadowforge could turn the artifacts against Ironforge. So he sends you back into the Badlands to destroy Infernus and carry Belgrum proof of your victory. Time is short. Ragnaros will not wait for the Shadowforge to prepare."
     },
@@ -10004,14 +10004,6 @@
       490,
       638
     ],
-    "01820dfb3544d0da60306a0693fac2006ba9b103ab6295ac7c0f1209af27c3bd": [
-      208,
-      402,
-      708,
-      876,
-      1040,
-      1271
-    ],
     "0194240061024f6d158f359ac9b496712a85c874ea03472b502b47a3a44a6662": [
       241,
       637
@@ -10108,6 +10100,10 @@
       225,
       607
     ],
+    "08d6e2a89639feeba686cd774d9aa2da640fdbd7f96c9c2f89e7639e378bbd75": [
+      414,
+      752
+    ],
     "091f7fbe7cf5d9bd667a98b5457ce098fa19dc5d33d7ae38ba3052c1a8af0271": [
       324,
       634
@@ -10159,6 +10155,9 @@
       457,
       668,
       901
+    ],
+    "0e810a4c755225ab7a8ea82996bf7d5d4a8306b3f3acc58f48b44c2180b2057c": [
+      588
     ],
     "0ec3aa55f1322b8a182a3293363ca1dee53d495f25572ca5a6ce9e57d322b0c5": [
       356,
@@ -10317,13 +10316,6 @@
       332,
       596
     ],
-    "16d1510d4c0e3737c6252d6a439480327f1b7b309b9b1b87c0fe919b50cbf2f6": [
-      221,
-      476,
-      618,
-      759,
-      945
-    ],
     "16fd2e36da8b83618ec10d1f177d4197441bb25a617bfc38fec138680fe8a054": [
       222,
       473,
@@ -10355,6 +10347,12 @@
     "17d0e5b7832a31c9d9a2a6eb45086393438416ef1f0388adbe976711925573df": [
       282,
       623
+    ],
+    "17e92672c2bbc3972eba72ec96c124ce7ee6f4ed66143c2a2c7ecad2fbad5497": [
+      205,
+      417,
+      588,
+      750
     ],
     "1809916ec8b8989828c05557452e56ee997fa92b5a675682afff0593198b74fc": [
       584
@@ -10437,6 +10435,10 @@
       773,
       1012,
       1209
+    ],
+    "1cd8eca521496016f53547fd3b271b00cf8ab5e8f87a39d0ab61238007a8db25": [
+      237,
+      646
     ],
     "1ce448116c59873314d950c79c31ed77a3cd80f5a21597e508ff7d93184cd70b": [
       311,
@@ -10544,6 +10546,16 @@
     ],
     "25cbc163147dc15d538e6b1367fd2a84d21aa52a8bebeb52671d82e9fbbf6ea9": [
       475
+    ],
+    "25d1bd44b7a3b564bce15f3eae61e2b005ad6049d65130f81ec1cdfcd1507968": [
+      232,
+      487,
+      641,
+      783,
+      977
+    ],
+    "25d46e30ef9a251ae83470465f2c00eeda4ea75399c9fe922c9a29e6fc401cfd": [
+      425
     ],
     "2683aa8906a75d1279b8f9fa869f09331b50b69bfa09ca1d6e366df5c07b6ed2": [
       326,
@@ -10721,9 +10733,17 @@
       860,
       1090
     ],
+    "34708f910ce770e10432df18a3a1672565db56e554b550d9d48989021f25df06": [
+      517,
+      797
+    ],
     "3488156e1f3d404cd1ce6cd0ce601fa9fc30550e986fee1800287a39f23061e0": [
       200,
       437
+    ],
+    "350fc533daf96925d797e4c52feb44dca4f8deaa5f0674f1e080c0ebe79264f1": [
+      302,
+      672
     ],
     "3537225882226480be40850e608982f39394d7f46ecb2712352aef66940e56b3": [
       351
@@ -10739,9 +10759,6 @@
       210,
       346,
       485
-    ],
-    "35fb495f3dc3ba4b01c4572510a21b1b360612bd6f2b5c46c1c4d280948e6b0c": [
-      532
     ],
     "361ebbc5076912563941cefe04513f75cc6b18f40e182ef95314fd3e3cddc90c": [
       275,
@@ -10776,6 +10793,9 @@
       313,
       765
     ],
+    "382303e4a33abcb3313eb75847a80e456d3788cf876c78ba33ae92cb111693ce": [
+      602
+    ],
     "3862d6d26a712c3465f79e8c5aa9f498f5fe75d20e17850de863e09efdbd3856": [
       404,
       783
@@ -10783,6 +10803,9 @@
     "38ba3197dba01cb0a959e290659c89dd7bda3996a01600ad0637359e59f0387f": [
       290,
       496
+    ],
+    "38cd8baf48e67708bac82e00e4cc112234566b1a6ff3b81403b944e10bf8f3a4": [
+      321
     ],
     "38f807b18147574081688c9dc4b7d6fbffdaf747caf17f84c3af30b8c31ff92e": [
       256,
@@ -10816,6 +10839,10 @@
     ],
     "3b3c9af6d98071f7f517e26d73ff8bfd6ce162a17ae4c020359e24b377ea310d": [
       362
+    ],
+    "3b642a297a4f812e32e0d0a30bf303db523824fa5a6c4630f804d35ef3034c8f": [
+      240,
+      736
     ],
     "3b6b0276e0b929e343bf9949481859dea891e60001b3644cf67750b8e725be88": [
       195,
@@ -10858,6 +10885,13 @@
     ],
     "3f17089afcfea036964bbc22182118eef0aa208e2a1364fad7e1f9610659ffa5": [
       579
+    ],
+    "3f18e2c1d7af1b083ec1052e8b374252d21e566ea3801f479d735c8f4ed18fcf": [
+      332,
+      548,
+      883,
+      1293,
+      1578
     ],
     "3fa099cd5940b9763bae82dbff26d08afaf4d1ccd8b3877f4328b3de8efaab04": [
       188,
@@ -10935,6 +10969,15 @@
       860,
       1133
     ],
+    "42b5fc4e73a9ecbb4b3457165db2ba46dbce94a9e58176862f37306d603eee16": [
+      584
+    ],
+    "437d0439e8fecf0e1c8c942ac87244b8fb322ca5a3396f47ef1012577a904cc2": [
+      559
+    ],
+    "43adb47534ea736146be5ca55cc4c21856aa5f320923b349e5f0495ded4cd52b": [
+      550
+    ],
     "43b6a63380f72ca73d6920418f900e6efe63f605a4c186a1fba4099839bb1413": [
       317,
       571
@@ -10958,9 +11001,6 @@
       595,
       811,
       1048
-    ],
-    "441adb2a6ff657122978e6cf0fae6c96c981b5d7d822033ecde51337dc6c40af": [
-      505
     ],
     "442c06e2d321a2b99240098015a316ffc409a268db990dc02b7d6031c2a26ba4": [
       194,
@@ -11074,6 +11114,9 @@
     "4c157a1c4b40c6cee9c804ff740e442d8ac2d6b78b528b3b9fc6744ef319b8ac": [
       671
     ],
+    "4c653c4a6ae4adafe1df1a5920ff3ec24c3dfbffd101983d26b3055668042656": [
+      407
+    ],
     "4c73bd6564781462570e8207209d2e5289e4dbbb9ee96aca7443f54762b15524": [
       356,
       1032
@@ -11110,6 +11153,9 @@
     "4fd12abb677966dda3309082a805d89f8f9a738f0248ec9b8b3d6d462891eb49": [
       627
     ],
+    "5002e8dd30a5647e2dcf34df3993c5924420dd2232ff02053a2eecaacc159b44": [
+      648
+    ],
     "5068d07b5c93910934dcf7e1b4269f79ff407bc81aa7c7c95d8a0128cbcd62d3": [
       173,
       446,
@@ -11134,14 +11180,6 @@
     "5207fbf35c74be0078fa0b665095c8bdcd613d1d685ce93f4f9860d07facdda6": [
       354,
       785
-    ],
-    "52200b4b635d2fe97becd3ca73fbf3ffe7508ca688aefb5d23f7d673686c2eef": [
-      297,
-      523,
-      830,
-      973,
-      1269,
-      1550
     ],
     "527059a02ae6a2d4ee2e8cd2904cc1b67d82c2ace7e1e1a1a3a3162c0dbfde46": [
       314,
@@ -11178,6 +11216,9 @@
       326,
       665,
       852
+    ],
+    "5484b4b3e70b388b21af8ce37ca1b303146b7f92dbb8a9a0d41de60779f76826": [
+      588
     ],
     "54a4b3b2bfa6c0f28ac4fbf73a2d0cdc712e6adbfdb5e8da9cd2871bcf70ea8b": [
       327,
@@ -11276,6 +11317,10 @@
       467,
       706,
       860
+    ],
+    "59c2339477d25df141ccc3dec0b915364641022312f55260583a06fb191b777e": [
+      406,
+      639
     ],
     "5abd969b7f602792b9179547d544a33e77328299dfbe10595bbb5ff8019de81a": [
       216,
@@ -11376,6 +11421,13 @@
     "5ee05f8814f1c6e2727eb47bff7dc79fad42145203e83e30f4b53d550062a6e7": [
       258,
       559
+    ],
+    "5f2d6067dfc5b27b3a3423e830db53ff92d54655c293cbc921820d4f51b1c1a6": [
+      442
+    ],
+    "5f4581c6b1c6bd4abdc22590ea8007c7fde3f0403099a6f887ab2b5c1b20a876": [
+      589,
+      863
     ],
     "5f5e3b50aa8cdc9525afc60bcdadd1e40e6210c3e76995927ebbdbdbd741b081": [
       302
@@ -11590,6 +11642,9 @@
       359,
       685
     ],
+    "6e33d46ec04ca75b7ae455034ad71ecc1af49fbb1ef4030baa7bafe0c34727ea": [
+      412
+    ],
     "6e781800bdc9d7330a5a202e4f217442cfd18ad8b18035200a22981a86f851ff": [
       595,
       1148
@@ -11726,6 +11781,10 @@
     "7436fe7876275af28971d213fe4fad451debd8eebb6f2f44981914a9c9358dd1": [
       608
     ],
+    "74ce01fca6fd67940583301a46a4d3311f50662356fd1a0ede5af6cbfd708ba9": [
+      411,
+      646
+    ],
     "74e8a3978cb26d690f62e1499dca8d0391f978ba3b918beb26a75de033a8f6bf": [
       460
     ],
@@ -11788,6 +11847,10 @@
       561,
       797
     ],
+    "77ec2cfd24948d4e7fae82459528c52a77e75b9fd58f4c33d7069ec720594970": [
+      683,
+      1007
+    ],
     "77efb857615b636453adeb6c0b2b57df2bfb4c21f547d0512c99698ec905e21a": [
       265,
       553,
@@ -11819,6 +11882,12 @@
     "78f7924242177ccee8806003c75eafc73dfda630c26b091d61926df726694e7e": [
       745
     ],
+    "793e989989b55a74cc1d778bc1d345a3b041e86fc3744867a0e57e7b3b6e6583": [
+      522
+    ],
+    "795cfd63c48d1ce05f020c37cd19a9a87b09387b6fe9c2b7ad1b5116291683ec": [
+      462
+    ],
     "7a21c91e63dcfd395ba4322ee9e7a82d83edb56d051b14997a7a9bf5804bad9b": [
       328,
       505,
@@ -11831,15 +11900,20 @@
       366,
       590
     ],
-    "7a46b74e01f3f091e66f81e658feb131538d2000fa429cb2fb517b7822238c28": [
-      620
-    ],
     "7a6695693b4e01dec65c0339f02c0346f7bb371f065aa61e54a6a8b260e05754": [
       361,
       727
     ],
     "7a7763fc1b1e463ef8a3111048b2c779da5ce3f9fd20d5d8da2e3334a9c2adb7": [
       440
+    ],
+    "7a7d2f7345386d8752dba259cb73b505e87770e91a58989cfe5a51e455027f26": [
+      358,
+      719
+    ],
+    "7a9080997ee5c21f578912b24d904b6b5f019bad19fb84ceae0450aebf2e31c5": [
+      332,
+      631
     ],
     "7abe13903e874cdd4882d241ea886aad4e93705f3461e700a2e0578af998bac1": [
       276,
@@ -11923,6 +11997,9 @@
     "801bbbd09b8d36226af9e06931f656391d110fd9dbd6d66ed7534a5a9cf20fa5": [
       681
     ],
+    "80cd156a7578d25141ce2005f3d87e2226275638aeb05d00ce078f841a41a74a": [
+      597
+    ],
     "80fa9dff1e5a6e338a4965615a800829ac3664a810e4bf76d6afec33c5fb1203": [
       543
     ],
@@ -11959,9 +12036,6 @@
       300,
       501,
       647
-    ],
-    "8344db9820bddba218792cc7461574240cf3411f418e384a30348c33ccf49c40": [
-      582
     ],
     "839905205eeb9029da2c1987fa8e06e67530999aad65db48b6e7d9a4a86e406d": [
       316,
@@ -12028,9 +12102,6 @@
       543,
       714
     ],
-    "8a073bd9e9bcb04d6a379286999d044ddc060cdac6df1dbef16d8b8ab1214612": [
-      466
-    ],
     "8a54d66d85e4f50150cc682f9f1b01ad64c2213e2a042e735ccad18b549bc211": [
       629
     ],
@@ -12058,6 +12129,13 @@
       684,
       987
     ],
+    "8b00c06bf5e44c2510f0d5d4b71cff4639f99cc9eaea3581e1eea0580b0fd714": [
+      249
+    ],
+    "8ba2cef907e04191cad6609f8cb48f307e133a2894388f5b99c310a05000ca75": [
+      384,
+      634
+    ],
     "8bbd6ddbf4ca742941c879a9e8d283fac25f0e49b1881b8a3075ad6aff1d3edd": [
       289,
       575
@@ -12067,10 +12145,6 @@
       444,
       625,
       761
-    ],
-    "8becfd3c821be44774ffab1d5cbfbe5946ff8ff7434f3723c2e6dd67a3796b6f": [
-      541,
-      819
     ],
     "8bf5c28ff5225355cdcd3eebb8f307feee474bfe6c7e0f50680f75905ef911ae": [
       247,
@@ -12160,6 +12234,9 @@
       1241,
       1443
     ],
+    "928394c3fc621a972ab5fd263d685d75fe0da37f4651c512d58f89bf0d31996a": [
+      599
+    ],
     "92ae4ffb1bdbcbdc4a367872066019a0760686cde03683c1576ccc26404cf3ad": [
       389,
       1090
@@ -12168,8 +12245,19 @@
       328,
       702
     ],
+    "93fe32c3b6df8f8e1fa5c1cdc8b6b1fcd04bb77d06bf8faa9d630cef9ef29f6a": [
+      582
+    ],
+    "940e985f52b02a6d567341912ef6c0b5e80eed1a25330e48b5816d15e87ac6d8": [
+      270,
+      619
+    ],
     "95aba621708fe4dfa4f9fc2b1d9e37bfbbc6862d5a932cb549faf08a037bf02b": [
       367
+    ],
+    "9602d449a66e011bbcc32c6f4dbfb4e9ab776679ce8a93dd8505a17ad4063b71": [
+      512,
+      777
     ],
     "96cb30a53196e4359e31230fd28f6c48a48190a1da5b16b5fb96f53bb4fb4aa1": [
       137,
@@ -12205,6 +12293,9 @@
       456,
       715,
       912
+    ],
+    "9903e34265e1d41edfd85e06d5c5a64c68dbfa4b7b6afce27abd893098989bc2": [
+      537
     ],
     "994a68b7f48b3105fa844a34ba30e2f168624faa6719d94c283fe334e9e219a3": [
       303,
@@ -12248,9 +12339,6 @@
     "9d246291e1b757b007d67a288bc49e6067983d9ae4f35beff888d07fcfdf28e3": [
       298,
       638
-    ],
-    "9da465f03431b91c95ee15a16ca64f035f05838bff20ae1deca0af19244cee30": [
-      650
     ],
     "9de4a0a9639a2a02a0d5cdf5ba8735058a7e26a23f3d0ff9ba3007aca27b2195": [
       450,
@@ -12304,6 +12392,9 @@
     "a0745d42ef4740ac1ab35f746e0978448be237ccab5b3dbb11a4f87405cb241f": [
       444
     ],
+    "a0b47c44a1592db71fbb9ae80d50c515975f1f27c92d366271268ed11593a07c": [
+      624
+    ],
     "a0cf948b835a183d95583a4cee10a8db72d5ea615a7e80cc49e9824f3d5f3df8": [
       213,
       374,
@@ -12334,10 +12425,6 @@
     "a18d71755419cb393e3301d94284d43345bea4ce0f5efd6617b968972a0a2028": [
       604,
       1138
-    ],
-    "a198723c5cb6529589e39dab4a0a1ff9050025833128bf6e561fa77c53a60c70": [
-      457,
-      981
     ],
     "a19bfb1cd71c30fc85fed994d46baff4f5c1f5fc74e56aaf6e158dabc0027838": [
       563,
@@ -12370,10 +12457,6 @@
       404,
       727
     ],
-    "a3d50449c527f9e65c871d947a8d7e76d350f8e639cf05f5125e919e810f5a46": [
-      342,
-      828
-    ],
     "a3fc940c83590a1110995c15c5fe8d4d87f7e1a743547296828f312f96d8f18d": [
       202,
       402,
@@ -12399,6 +12482,9 @@
       397,
       800,
       1109
+    ],
+    "a7281441f55c5639e0c0a43bd279cf935e13e3b0ef14813f98c312c1efb2ade0": [
+      560
     ],
     "a7335655dc37e9a9d408a376230bfa290094750618fd09dc0a5e8d8e8c931d2c": [
       349
@@ -12432,6 +12518,9 @@
       208,
       343,
       521
+    ],
+    "a98c0cb0aebe90a8d2b6b1bfa9cb04e3764803a731cf662d7630136915fb0785": [
+      537
     ],
     "aa3e589aa04da513091358b7cbb23acb21c78693af1c5a8bf1aac48e4ac43c88": [
       225,
@@ -12507,6 +12596,10 @@
       873,
       1032,
       1179
+    ],
+    "acfae0f741ad57c8048902ce5499ecc58c2df05899ec6af0b58928e00e0a275a": [
+      304,
+      900
     ],
     "ad3335c5ec7d781565a775b789ab59da120d62b9d38cc1a2047e61b1609cc42d": [
       230,
@@ -12613,6 +12706,17 @@
       687,
       843
     ],
+    "b42aec5cfaf1e21ee54ca134bee38a51dff565a804b0b5643f4f51ae42a47731": [
+      482
+    ],
+    "b528aae9c7249759ddd4ba2f7fe50c738755b7e395107a565cbefec426b7c256": [
+      184,
+      380,
+      661,
+      836,
+      999,
+      1245
+    ],
     "b54d5cd270a5224642a52b6c5e4e03a9c197d2e282664feeeadecdb4ad10673f": [
       201,
       356,
@@ -12705,6 +12809,10 @@
       634,
       851
     ],
+    "b894e7f25298ea7cc0539ad5524f9a12c0abc468668a18ba3cd2ff695372e9da": [
+      412,
+      664
+    ],
     "b8b66f2186b20b2046eccd93468f05aa67f5db86c0dc724bbe316b77e98027a8": [
       202,
       472,
@@ -12751,6 +12859,10 @@
       664,
       974,
       1128
+    ],
+    "b9d905212fcd6217bef09005492bc35f4f1e1275f61ee9809b303d56e634ded1": [
+      542,
+      897
     ],
     "bae70ff72870aa386a4c6daf4005334807bb5f3c1eddcbeab5e33811cb34d858": [
       276
@@ -13043,6 +13155,10 @@
       1054,
       1224
     ],
+    "ccee296f86b8b2fc2474051b93863e9aa3926c049ba40408789a9525b0602f12": [
+      376,
+      740
+    ],
     "cd58e67869e63f29f551ccd3cbea9afff1344718077a0d671247993bb457d910": [
       323
     ],
@@ -13188,6 +13304,9 @@
       668,
       894
     ],
+    "d5b897d4e09d61783e313dfdad20a9d941c8a75db7df99c2e5f231a5ff46f329": [
+      452
+    ],
     "d5ddae17952d4f91e0d46b5ef4856ae950954f85def2d452a1131b51d9ef2cc1": [
       442
     ],
@@ -13252,6 +13371,14 @@
       487,
       674,
       870
+    ],
+    "dc341be43ea6f5d543efda63572d14ca9d07f7086b861f04e71bc2944fffa21c": [
+      361,
+      763
+    ],
+    "dc6fcfa30e6b16e4b306d2afd52955a64c155ca9721418062c6eda0eb279cbd6": [
+      286,
+      836
     ],
     "dc82775bac250e0ff84f2f73ea1ccafbd9b630635a5db95c67d6e0d7ccf9fae2": [
       150,
@@ -13340,6 +13467,10 @@
     "e26c87798a6b006d00e4a2d4c6b743832a77aec74c31f5a58d574869390ff377": [
       363
     ],
+    "e2e5df9bba6920435b49770aef2c56b2a88204e3f467cd3d068d89ecd9bfdef4": [
+      296,
+      688
+    ],
     "e310c5bd82fb59ecbb7be5409382d508de497c0127a85a112601affa3d4cefcd": [
       224
     ],
@@ -13365,6 +13496,10 @@
       218,
       496,
       773
+    ],
+    "e4beeb6acc18c29a9074674119d677095d3c693aad49948c352a6ef675f91317": [
+      589,
+      913
     ],
     "e526804fe8ebf5ce2c37dc6312122ebe4fa4ebffc19fea6df788dce6c9739ba3": [
       568
@@ -13442,11 +13577,17 @@
       727,
       946
     ],
+    "ea8bad3cedbb49023dac5475fca5da192ca7d42e47361c63e5c81159ac1db5be": [
+      681
+    ],
     "eba65174e81873ac508568a3152e66df4107a258791065236f29fb7d20e18745": [
       444
     ],
     "eba76bec3c9930ad085e0c1f4d796e64443836c23a96f0cc3620cdac47b8cd2f": [
       446
+    ],
+    "ec833c2086a2d18bc1f001427edccb0e55b9006e755be11dbae4777c7e2f868d": [
+      581
     ],
     "ec8442227b0d21a508603ca0a38afd22a2848069d649323df05da73f3abd150a": [
       571
@@ -13482,6 +13623,9 @@
       535,
       842
     ],
+    "edbbe1b8a70617a6253a48c76378a300575e9dc57da43b2f9fa5cf02eaf895eb": [
+      380
+    ],
     "ee33d5045df10ec9381d22ea70bd137dd161d790a7147dfa2435322c08ac06da": [
       507,
       744,
@@ -13495,12 +13639,6 @@
     ],
     "eea2c36f196538d40c164b0b71fdbd91249c036f8566dec3b8ad4c9c0bdd02d4": [
       1008
-    ],
-    "eecd5fb1668ff609a1dd2a2ee05861111be2d19e2f42da03dbf7ab3e19973186": [
-      203,
-      399,
-      571,
-      743
     ],
     "ef30146bfe702d9d787b85c94b96454133ce2431541f18c293b86b73763bac3e": [
       470
@@ -13636,6 +13774,10 @@
       261,
       771
     ],
+    "f4f63e84773d9d0539a2176e93cf36f9c9f68c6972ae5cd10d0f3293ec38a335": [
+      392,
+      664
+    ],
     "f538134a5e4474efa2cfd81afb806a5561c154707fc19efb2cd27c4cb6984fab": [
       229,
       452,
@@ -13687,6 +13829,11 @@
     "f7bd307375ca568a8cb28524e345bfe5d368d62b8e0c77d15c161986d663e341": [
       435,
       756
+    ],
+    "f802f07d5fe72a8e847e5a192bf4c11d349333d408909bbc458571cef779f37e": [
+      387,
+      714,
+      962
     ],
     "f80f0415d16e9a4f7b9d9effa513df54774fd70971d77c528db0f328bc0a746e": [
       443,
@@ -13830,9 +13977,6 @@
     "01478d518cf1595de0699739db0233e2b34eef4da43937fba4f7b63dfcb2e01d": {
       "283": 1
     },
-    "01820dfb3544d0da60306a0693fac2006ba9b103ab6295ac7c0f1209af27c3bd": {
-      "402": 1
-    },
     "0301d5a491270bfe381c697045722783bf013bfc78a10ac965c8689a5e9d30a0": {
       "445": 1
     },
@@ -13929,9 +14073,6 @@
       "1047": 2,
       "539": 1
     },
-    "16d1510d4c0e3737c6252d6a439480327f1b7b309b9b1b87c0fe919b50cbf2f6": {
-      "618": 1
-    },
     "16fd2e36da8b83618ec10d1f177d4197441bb25a617bfc38fec138680fe8a054": {
       "473": 1
     },
@@ -13944,6 +14085,9 @@
     },
     "17af889e0838bdc1dab7c0ec60860f3a56c7aecc38effafb9a15b0d56137a861": {
       "639": 1
+    },
+    "17e92672c2bbc3972eba72ec96c124ce7ee6f4ed66143c2a2c7ecad2fbad5497": {
+      "588": 1
     },
     "188df59f67accf395dcc09a7b91d240099c162772766021f08f76a8a0fbd808f": {
       "286": 1,
@@ -14012,6 +14156,9 @@
     },
     "258d55a72565006a121bfb93ba97f9dfa35d4a543ce0122320adf45dc4dc3ecc": {
       "341": 1
+    },
+    "25d1bd44b7a3b564bce15f3eae61e2b005ad6049d65130f81ec1cdfcd1507968": {
+      "641": 1
     },
     "26b663588585ed7c81e728c70133e163782aa0f1fd064219378f413a783e426c": {
       "359": 1
@@ -14103,6 +14250,10 @@
     "3dddc311ea5974dd22e3f36437975dc0ef053bac4d58da16a4bb67b7082b1e89": {
       "420": 1
     },
+    "3f18e2c1d7af1b083ec1052e8b374252d21e566ea3801f479d735c8f4ed18fcf": {
+      "1293": 2,
+      "332": 1
+    },
     "3fa099cd5940b9763bae82dbff26d08afaf4d1ccd8b3877f4328b3de8efaab04": {
       "515": 1
     },
@@ -14191,10 +14342,6 @@
     "5080fc18c6c689863c775b2249af2200250a798caceea98ca4627383de9be9e8": {
       "230": 1,
       "797": 2
-    },
-    "52200b4b635d2fe97becd3ca73fbf3ffe7508ca688aefb5d23f7d673686c2eef": {
-      "1269": 2,
-      "297": 1
     },
     "5285510e14dce039977620ee20888fbd52ae1de8d97af56df30f991a4a77b98d": {
       "641": 1
@@ -14673,6 +14820,9 @@
     "b3838e44d7fc70720643b2eec80603d16d95d58e86c6e5b464eee6be9a53b7f5": {
       "394": 1
     },
+    "b528aae9c7249759ddd4ba2f7fe50c738755b7e395107a565cbefec426b7c256": {
+      "380": 1
+    },
     "b54d5cd270a5224642a52b6c5e4e03a9c197d2e282664feeeadecdb4ad10673f": {
       "1349": 2,
       "686": 1
@@ -14982,9 +15132,6 @@
     },
     "ee33d5045df10ec9381d22ea70bd137dd161d790a7147dfa2435322c08ac06da": {
       "507": 1
-    },
-    "eecd5fb1668ff609a1dd2a2ee05861111be2d19e2f42da03dbf7ab3e19973186": {
-      "571": 1
     },
     "ef5052ac44c64ceed08b4e8ff5c66cb25a5d3ec8ba67344908f38e123b89bb77": {
       "536": 1

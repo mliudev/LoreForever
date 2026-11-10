@@ -1,0 +1,84 @@
+{
+ "key": "quest:94249",
+ "type": "quest",
+ "name": "Craftsman's Writ: Azure Silk Hood",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94249
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A faded Craftsman\u2019s Writ requests an Azure Silk Hood and gives terms for its delivery and payment. You need the writ to complete the exchange.",
+ "sections": [
+  {
+   "title": "The Written Terms",
+   "body": "The note is penned in faded ink and names one item: an Azure Silk Hood. It also gives the place for delivery and the payment. The writ can pass from one bearer to another, but you need it with you to complete the transaction.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "azure hood writ",
+    "what item is wanted",
+    "craftsman writ"
+   ],
+   "answer": "The customer requests one Azure Silk Hood."
+  },
+  {
+   "q": "Where do I deliver the hood?",
+   "aliases": [
+    "delivery location",
+    "where to take it",
+    "marked place"
+   ],
+   "answer": "The delivery location is marked on your map."
+  },
+  {
+   "q": "What do I need for the transaction?",
+   "aliases": [
+    "what to bring",
+    "need the writ?",
+    "complete exchange"
+   ],
+   "answer": "You need the requested item and the writ in your possession."
+  },
+  {
+   "q": "Does the writ say how payment works?",
+   "aliases": [
+    "how much payment",
+    "payment terms",
+    "what do i get"
+   ],
+   "answer": "The note includes information about payment, but the text here does not specify the amount."
+  },
+  {
+   "q": "Can someone else carry the writ?",
+   "aliases": [
+    "transferable writ",
+    "can i pass it on",
+    "who can hold it"
+   ],
+   "answer": "Yes. The writ is marked as transferable."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "azure silk hood",
+  "craftsman's writ",
+  "delivery",
+  "payment",
+  "silk hood",
+  "transferable",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Azure Silk Hood"
+ ]
+}

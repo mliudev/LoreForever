@@ -158,7 +158,7 @@ P.transport["npc:eitrigg"] = {
   fullHash = "aea44b",
   text = "Eitrigg. In Orgrimmar, Eitrigg counsels Warchief Thrall and helps guide the Horde toward honor and shamanism. He fought in the First and Second Wars, then left the defeated Blackrock Horde and lived in exile. Born on Draenor among the Blackrock clan, Eitrigg fought for the Horde in the First and Second Wars. Defeat in the Second War made him see how far his people had fallen into bloodlust and demonic corruption. Sickened by what the Horde had become, he left its scattered remnants and sought solitude in the wilds of Lordaeron. During his exile, Eitrigg sheltered in an abandoned tower near Hearthglen. The human paladin Tirion Fordring found him, and their clash brought the tower’s ruins down around them. Eitrigg pulled the unconscious human to safety instead of finishing him. Moved by this act of martial honor, Tirion swore friendship and kept the hermit’s location secret.\n\nThe local Alliance authorities eventually captured Eitrigg and sentenced him to hang in Stratholme. Tirion cast aside his knighthood, lands, and freedom to attack the city and rescue him. Their bond showed both warriors that honor could cross the hatred between their peoples. In Stratholme, Thrall’s newly united Horde raided the city during Tirion’s attempt to free Eitrigg and carried the aging warrior away. Meeting Thrall convinced Eitrigg that the orcs were casting off demonic corruption and returning to their ancestral shamanic heritage. He crossed the Great Sea with Thrall to Kalimdor and took a revered place in Orgrimmar’s Valley of Wisdom.\n\nNow Eitrigg advises the young Warchief inside Grommash Hold. He helps evaluate new recruits and shares the wisdom he earned, so the New Horde does not repeat the tragedies of the past.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_eitrigg-6de6cbe6a0437db0e182/1-0000.mp3", duration = 104.907755, start = 0},
+    {file = "Audio/Transport/full_npc_eitrigg-437c3249d08f18602e49/1-0000.mp3", duration = 102.50449, start = 0},
   },
 }
 P.transport["npc:executor-arren"] = {
@@ -558,7 +558,7 @@ P.transport["subzone:bladefist-bay"] = {
   fullHash = "8c9639",
   text = "Bladefist Bay. Along Durotar’s eastern coast, Bladefist Bay opens onto the Great Sea just beyond Orgrimmar’s gates. Craggy bluffs rise above the shore, with Azshara’s southern coast across the water. Bladefist Bay meets the Great Sea on Durotar’s northeastern edge, east of Orgrimmar, the Horde capital. Rocky cliffs rise above its treacherous surf. Across the water to the north, Azshara’s ancient red cliffs and ruins mark the far shore. Here, Durotar meets the open sea. Kargath Bladefist gave the bay its name. Chieftain of the Shattered Hand clan, he severed his own hand and replaced it with a blade during the old Horde’s trials on Draenor. Nearby, Skull Rock shelters cultists and hidden rogue networks. The coast recalls the fierce and ruthless legacy of the clan’s chieftain.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_bladefist-bay-f18ec847cf94d4f90c95/1-0000.mp3", duration = 50.3902041, start = 0},
+    {file = "Audio/Transport/full_subzone_bladefist-bay-787ec76b8613973619df/1-0000.mp3", duration = 47.595102, start = 0},
   },
 }
 P.transport["subzone:bloodhoof-village"] = {

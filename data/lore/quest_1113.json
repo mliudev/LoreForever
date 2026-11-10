@@ -1,0 +1,78 @@
+{
+ "key": "quest:1113",
+ "type": "quest",
+ "name": "Hearts of Zeal",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1113
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Master Apothecary Faranell needs Hearts of Zeal for a dangerous experiment. He asks you to gather them from Scarlet Crusade disciples at the Scarlet Monastery.",
+ "sections": [
+  {
+   "title": "Faranell's Experiment",
+   "body": "Faranell seeks a rare kind of guano for his experiment in the Undercity. He plans to combine opposing chemical substances with a toxic agent. At the Scarlet Monastery in northeastern Tirisfal Glades, you are to bring him the zealous hearts of the Scarlet Crusade's disciples.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the Hearts of Zeal?",
+   "aliases": [
+    "who wants hearts",
+    "Faranell hearts"
+   ],
+   "answer": "Master Apothecary Faranell in the Undercity wants the Hearts of Zeal for an experiment."
+  },
+  {
+   "q": "Where are the Scarlet Crusade disciples?",
+   "aliases": [
+    "where find disciples",
+    "Scarlet Monastery hearts"
+   ],
+   "answer": "The disciples gather at the Scarlet Monastery in the northeastern peaks of Tirisfal Glades."
+  },
+  {
+   "q": "What does Faranell plan to do with the hearts?",
+   "aliases": [
+    "why hearts of zeal",
+    "what's Faranell making"
+   ],
+   "answer": "Faranell is conducting an experiment with opposing chemical substances and a toxic agent, and wants the zealous hearts."
+  },
+  {
+   "q": "How many Hearts of Zeal does Faranell need?",
+   "aliases": [
+    "how many hearts",
+    "heart count"
+   ],
+   "answer": "Faranell asks for twenty Hearts of Zeal."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "experiment",
+  "hearts of zeal",
+  "master apothecary faranell",
+  "scarlet crusade",
+  "scarlet monastery",
+  "tirisfal glades",
+  "undercity"
+ ],
+ "related": [
+  "npc:master-apothecary-faranell",
+  "zone:scarlet",
+  "zone:tirisfal",
+  "zone:undercity",
+  "topic:scarlet-crusade",
+  "quest:381"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Hearts of Zeal"
+ ]
+}

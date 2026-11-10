@@ -1,0 +1,66 @@
+{
+ "key": "quest:2342",
+ "type": "quest",
+ "name": "Reclaimed Treasures",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2342
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Patrick Garrett asks you to recover his family treasure from Uldaman. He is waiting for it in the Undercity.",
+ "sections": [
+  {
+   "title": "A Family Chest",
+   "body": "The family chest is in Uldaman's South Common Hall. Patrick Garrett waits in the Undercity for the treasure kept inside.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the treasure?",
+   "aliases": [
+    "patrick garrett",
+    "who wants it"
+   ],
+   "answer": "Patrick Garrett asks you to bring him his family treasure in the Undercity."
+  },
+  {
+   "q": "Where is the family chest?",
+   "aliases": [
+    "chest location",
+    "where's the treasure"
+   ],
+   "answer": "The family chest is in the South Common Hall of Uldaman."
+  },
+  {
+   "q": "Where do I bring the treasure?",
+   "aliases": [
+    "where to take it",
+    "undercity treasure"
+   ],
+   "answer": "Bring Patrick Garrett's family treasure to him in the Undercity."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "family chest",
+  "family treasure",
+  "patrick garrett",
+  "reclaimed treasures",
+  "south common hall",
+  "uldaman",
+  "undercity"
+ ],
+ "related": [
+  "subzone:uldaman",
+  "zone:undercity"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Reclaimed Treasures"
+ ]
+}

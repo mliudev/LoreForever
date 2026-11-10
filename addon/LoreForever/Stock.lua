@@ -114,9 +114,63 @@ local function gear()
   return out
 end
 
+-- Forever's talents live in the game's Trait API, which its own Talents window reads. The older calls below give nothing
+-- there: on 11/9 not one of the 891 characters at level 10 or more had saved a talent. The window sets three trees side
+-- by side, so a node's position says which tree it's in; the name is the game's where it gives one.
+local TREE_COLUMNS = { 4000, 8000 }
+local CLASS_TREE_NODES = 30   -- a class tree's size at least: a character's other trees (Legacy) are small
+
+local function treeName(column)
+  for _, v in ipairs({ all(GetTalentTabInfo, column) }) do
+    if type(v) == "string" and ns.Context.Usable(v) then return v end
+  end
+  return "Tree " .. column
+end
+
+local function spellName(id)
+  local name = _G.C_Spell and try(C_Spell.GetSpellName, id) or try(GetSpellInfo, id)
+  return type(name) == "string" and ns.Context.Usable(name) and name or nil
+end
+
+-- The talents taken, as talents() has them; nil when this client has no Trait talents to read yet.
+local function traitTalents()
+  local traits, class = _G.C_Traits, _G.C_ClassTalents
+  if not (traits and class) then return nil end
+  local config = try(class.GetActiveConfigID)
+  local info = config and try(traits.GetConfigInfo, config)
+  if type(info) ~= "table" or type(info.treeIDs) ~= "table" then return nil end
+  local trees = {}
+  for _, treeID in ipairs(info.treeIDs) do
+    local nodes = try(traits.GetTreeNodes, treeID)
+    if type(nodes) == "table" and #nodes >= CLASS_TREE_NODES then
+      for _, nodeID in ipairs(nodes) do
+        local node = try(traits.GetNodeInfo, config, nodeID)
+        local rank = type(node) == "table" and number(node.ranksPurchased) or 0
+        local entryID = rank > 0 and type(node.activeEntry) == "table" and node.activeEntry.entryID
+        local entry = entryID and try(traits.GetEntryInfo, config, entryID)
+        local def = type(entry) == "table" and entry.definitionID and try(traits.GetDefinitionInfo, entry.definitionID)
+        local override = type(def) == "table" and ns.Context.Usable(def.overrideName) and def.overrideName
+        local name = type(override) == "string" and override ~= "" and override or (type(def) == "table" and spellName(def.spellID))
+        if type(name) == "string" then
+          local x = number(node.posX) or 0
+          local column = x < TREE_COLUMNS[1] and 1 or x < TREE_COLUMNS[2] and 2 or 3
+          local tree = trees[column] or { name = treeName(column), points = 0, ranks = {} }
+          trees[column] = tree
+          tree.ranks[name], tree.points = rank, tree.points + rank
+        end
+      end
+    end
+  end
+  local out = {}
+  for column = 1, 3 do out[#out + 1] = trees[column] end
+  return out[1] and out or nil
+end
+
 -- Each tree by its name (the first word the game gives for it: older clients start with the name, newer with an id),
 -- its points counted from its talents' ranks.
 local function talents()
+  local fromTraits = traitTalents()
+  if fromTraits then return fromTraits end
   local out = {}
   for tab = 1, number(try(GetNumTalentTabs)) or 0 do
     local name
@@ -170,6 +224,13 @@ local function dayLine(days, d)
   end
 end
 
+-- Their talents again, once the game has them (entering the world) and when they change: Willo reads this save.
+function Stock.Talents(char)
+  if type(char) ~= "table" or type(char.stock) ~= "table" then return end
+  local read = talents()
+  if #read > 0 then char.stock.talents = read end
+end
+
 -- Take stock of the character (char: Journey's record for it). leaving: the game is about to save (logout or
 -- /reload), so this session's time goes on its day.
 function Stock.Take(char, leaving)
@@ -177,8 +238,11 @@ function Stock.Take(char, leaving)
   local level = number(try(UnitLevel, "player")) or number(char.level)
   local xp, xpMax, money = number(try(UnitXP, "player")), number(try(UnitXPMax, "player")), number(try(GetMoney))
   local now = time()
+  -- The game can have no talents to give yet at login and none left at logout: keep what was last read.
+  local had = type(char.stock) == "table" and char.stock.talents
+  local read = talents()
   char.stock = { t = now, level = level, xp = xp, xpMax = xpMax, money = money, riding = riding(), skills = skills(),
-    rep = reputations(), gear = gear(), talents = talents(), bags = bags() }
+    rep = reputations(), gear = gear(), talents = #read > 0 and read or type(had) == "table" and had or read, bags = bags() }
   local lv = levelNow(level, xp, xpMax)
   char.days = type(char.days) == "table" and char.days or {}
   local days = char.days

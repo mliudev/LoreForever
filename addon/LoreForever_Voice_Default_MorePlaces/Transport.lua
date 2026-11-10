@@ -318,7 +318,7 @@ P.transport["subzone:camp-kosh"] = {
   fullHash = "356f29",
   text = "Camp Kosh. At Camp Kosh, Dustbelcher ogres prey on caravans crossing the northern Badlands. They scavenge abandoned gear from roads leading toward Kargath and the Searing Gorge. In the northern Badlands, Dustbelcher ogres make their northernmost camp at Camp Kosh. Their tribe also holds nearby camps called Boff, Cagg, and Wurg. From these camps, they strike vulnerable supply lines bound for Kargath or traveling west into the Searing Gorge. When dwarven prospectors led by Sigrun Ironhew fled the excavation at Uldaman, the ogres raided their abandoned wagons. They carried food rations and weapons back into Camp Kosh.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_camp-kosh-87e067f54f8877ad243a/1-0000.mp3", duration = 37.8253061, start = 0},
+    {file = "Audio/Transport/full_subzone_camp-kosh-7285f3688174415d0a26/1-0000.mp3", duration = 37.5640816, start = 0},
   },
 }
 P.transport["subzone:camp-mojache"] = {
@@ -670,7 +670,7 @@ P.transport["subzone:dreadmaul-post"] = {
   fullHash = "6790bd",
   text = "Dreadmaul Post. Ogres hold Dreadmaul Post near the Dark Portal. The Dreadmaul clan raised this fortified settlement in the Blasted Lands after crossing from Draenor. Travelers face the ogres and the harsh wastes around their camp. The Dreadmaul clan crossed into Azeroth with the Horde decades ago. Near the Dark Portal, they raised rough stone mounds and earthworks in the Blasted Lands’ red wastes. Dreadmaul Post is one of their chief outposts. From here, the ogres hold the badlands and clash with wandering beasts and travelers who approach their territory.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dreadmaul-post-67f42949d2a04fec587e/1-0000.mp3", duration = 31.4514286, start = 0},
+    {file = "Audio/Transport/full_subzone_dreadmaul-post-c5775caaff4d4a875390/1-0000.mp3", duration = 31.4514286, start = 0},
   },
 }
 P.transport["subzone:dreadmaul-rock"] = {
@@ -874,11 +874,11 @@ P.transport["subzone:felstone-field"] = {
   },
 }
 P.transport["subzone:feral-scar-vale"] = {
-  hash = "629e7b",
-  fullHash = "629e7b",
-  text = "Feral Scar Vale. In western Feralas, Feral Scar yetis hold a rocky gorge deep in the High Wilderness. Their caves lie beyond the forest trails, where travelers face danger. Primal Feral Scar yetis guard the caves of Feral Scar Vale in the High Wilderness. Unlike the yetis of Alterac and Dun Morogh, these brutes have adapted to Feralas's humid wilds. They defend their cave network fiercely and keep bone trophies. Intruders are driven from their hunting grounds. Gnomish distress signals have sometimes led into the deeper caves of Feral Scar Vale. Lost devices have become trapped there among the yetis, including robotic survey chickens. They wait to be activated and recovered.",
+  hash = "a39b38",
+  fullHash = "a39b38",
+  text = "Feral Scar Vale. In western Feralas, Feral Scar yetis hold a rocky gorge deep in the High Wilderness. Their caves lie beyond the forest trails, where travelers face danger. For generations the primal Feral Scar yetis have held the caves of Feral Scar Vale. Unlike the yetis of Alterac and Dun Morogh, these brutes have adapted to Feralas's humid wilds. They defend their cave network fiercely and keep bone trophies. Intruders are driven from their hunting grounds. Gnomish distress signals have sometimes led into the deeper caves of Feral Scar Vale. Lost devices have become trapped there among the yetis, including robotic survey chickens. They wait to be activated and recovered.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_feral-scar-vale-9d155891082e5718786b/1-0000.mp3", duration = 41.7697959, start = 0},
+    {file = "Audio/Transport/full_subzone_feral-scar-vale-93788a8062c36d0b8030/1-0000.mp3", duration = 41.8742857, start = 0},
   },
 }
 P.transport["subzone:fire-plume-ridge"] = {
@@ -1182,7 +1182,7 @@ P.transport["subzone:harborage"] = {
   fullHash = "431864",
   text = "Harborage. At the northern edge of the Swamp of Sorrows, Harborage shelters exiled Draenor natives who have kept their minds. They seek peace by the water in a harsh wilderness. At the foot of the northern mountains, you find Harborage, a small camp apart from the feral tribes in the nearby waters. Leather shelters and hanging crystals mark this refuge for exiled survivors from Draenor who have kept their minds. Elders like Magtoor guide the community. Together, they watch the wilderness, its native predators, and the feral tribes of their fallen brothers beyond the camp.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_harborage-f26ef9387b0cfadc03f5/1-0000.mp3", duration = 33.515102, start = 0},
+    {file = "Audio/Transport/full_subzone_harborage-f6d047511a5fda291355/1-0000.mp3", duration = 32.6269388, start = 0},
   },
 }
 P.transport["subzone:hearthglen"] = {
@@ -1542,7 +1542,7 @@ P.transport["subzone:maker-s-terrace"] = {
   fullHash = "e8b285",
   text = "Maker's Terrace. At the Badlands' northern edge, Dark Iron dwarves hold the Maker's Terrace beside the pass from Loch Modan. Their open-air dig guards the way into Uldaman. From the pass out of Loch Modan, you cross trenches and scaffolds spread across the northern Badlands. The dig fronts Uldaman's entrance, an ancient vault built by the Makers. Travelers cross this exposed ground before reaching the halls below. Rival factions contest the approach as they seek a way into the ruins. Dark Iron dwarves patrol the ditches and perimeter, keeping outsiders from the dig. They seek the Makers' relics and power to dominate what lies beneath the earth. Their crews search the hillside for armaments, records, and other relics left by the ancient Makers. The sentries guard the route into Uldaman, and travelers who try to pass meet a hostile welcome.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_maker-s-terrace-d74898ee4d8c83db1e6e/1-0000.mp3", duration = 52.7934694, start = 0},
+    {file = "Audio/Transport/full_subzone_maker-s-terrace-8b723a0e860828322530/1-0000.mp3", duration = 51.8269388, start = 0},
   },
 }
 P.transport["subzone:mannoroc-coven"] = {
@@ -1614,7 +1614,7 @@ P.transport["subzone:menethil-bay"] = {
   fullHash = "7723b2",
   text = "Menethil Bay. Alliance ships cross Menethil Bay along the Wetlands' western coast. Its sheltered waters open into Baradin Bay, between Menethil Harbor to the north and Dun Morogh's steep cliffs to the south. Crocolisks prowl the shallows, and sunken vessels lie below. Menethil Bay opens from the Wetlands into the Great Sea, within Baradin Bay. Menethil Harbor lies to the north, Black Channel Marsh to the east, and Dun Morogh's coastal bluffs to the south. Crocolisks of many sizes prowl the shallows and marshy shores. Without a guide, travelers risk the waters. Alliance ships cross the bay, and near its mouth lies the ruined Flying Osprey, a warning of wreckage below.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_menethil-bay-2c4fa1e124844e68727f/1-0000.mp3", duration = 42.475102, start = 0},
+    {file = "Audio/Transport/full_subzone_menethil-bay-08d18f2532532143ad3d/1-0000.mp3", duration = 41.9265306, start = 0},
   },
 }
 P.transport["subzone:menethil-keep"] = {
@@ -1766,7 +1766,7 @@ P.transport["subzone:nethergarde-keep"] = {
   fullHash = "34a079",
   text = "Nethergarde Keep. Nethergarde Keep watches the Dark Portal from the bluffs above the road into the Blasted Lands. The Alliance raised it after the Second War to guard the dormant gateway and the red wastes beyond. Mages and soldiers, supplied by Stormwind, keep watch against demons and lingering corruption. After the Dark Portal fell at the end of the Second War, Archmage Khadgar and the Alliance of Lordaeron knew the rift could not go unguarded. So the Alliance raised bastions, barracks, and mage spires along the canyon pass into the Blasted Lands. Kirin Tor sorcerers took their posts in the keep. They watched the shattered gateway and wove wards to keep demonic blight from creeping north into the human kingdoms. When the Dark Portal reopened, the Alliance Expedition crossed into Draenor. Khadgar and his companions sealed the gateway behind them, leaving Nethergarde to guard its silent remnant. For two decades, scholars from Dalaran and the Wizard's Sanctum have studied the portal's lingering energies, mutated local fauna, and demonic incursions.\n\nAfter Dalaran was ravaged during the Third War, Stormwind City became the keep's sole source of vital supply caravans. Its soldiers and mages now stand alone against the horrors haunting the wasteland.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_nethergarde-keep-2eaab450852f61dc45fa/1-0000.mp3", duration = 76.8522449, start = 0},
+    {file = "Audio/Transport/full_subzone_nethergarde-keep-1a06fbfd5e0aa2c9b82e/1-0000.mp3", duration = 75.9902041, start = 0},
   },
 }
 P.transport["subzone:nighthaven"] = {

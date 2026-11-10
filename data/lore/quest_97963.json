@@ -1,0 +1,81 @@
+{
+ "key": "quest:97963",
+ "type": "quest",
+ "name": "Camping 101: Alchemy",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97963
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Nyassa Swiftdraught in Shen'dar Village can teach you to craft a Mana Well once you show skill in Alchemy. The well draws healers and spellcasters to a camp for refreshment.",
+ "sections": [
+  {
+   "title": "A Camp for Alchemists",
+   "body": "An Alchemist can learn to make a Mana Well from Nyassa Swiftdraught in Shen'dar Village, once you have shown proficiency in your skill. Healers and spellcasters are drawn to its refreshing drink. To try it at camp, you need a campfire first; a cook can teach you how to make one.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What can Nyassa teach me?",
+   "aliases": [
+    "nyassa alchemy",
+    "mana well trainer",
+    "camping alchemy"
+   ],
+   "answer": "Nyassa Swiftdraught in Shen'dar Village can teach you to craft a Mana Well once you have shown proficiency in Alchemy."
+  },
+  {
+   "q": "What does a Mana Well do?",
+   "aliases": [
+    "mana well use",
+    "what's mana well for",
+    "mana well"
+   ],
+   "answer": "A Mana Well draws healers and spellcasters to your camp for a refreshing drink."
+  },
+  {
+   "q": "Where do I learn to make a Mana Well?",
+   "aliases": [
+    "where nyassa",
+    "shen'dar village alchemy",
+    "mana well location"
+   ],
+   "answer": "Nyassa Swiftdraught teaches the recipe in Shen'dar Village."
+  },
+  {
+   "q": "What do I need before setting up camp?",
+   "aliases": [
+    "campfire needed",
+    "how start camp",
+    "camping alchemy requirements"
+   ],
+   "answer": "You need a campfire to start your camp. A cook can teach you to make one."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "A cook can teach you to make the campfire needed to start your camp."
+  }
+ ],
+ "keywords": [
+  "alchemy",
+  "campfire",
+  "camping",
+  "healers",
+  "mana well",
+  "nyassa swiftdraught",
+  "shen'dar village",
+  "spellcasters"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Camping 101: Alchemy"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "key": "quest:1048",
+ "type": "quest",
+ "name": "Into The Scarlet Monastery",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1048
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Varimathras in the Undercity asks you to strike at Scarlet leaders and champions. Their defeat matters enough that he expects you to report back.",
+ "sections": [
+  {
+   "title": "A Report for Varimathras",
+   "body": "Varimathras sends you against five Scarlet figures: High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion, and Houndmaster Loksey. Once they are slain, you are to report back to him in the Undercity.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives this assignment?",
+   "aliases": [
+    "who sent me",
+    "varimathras task"
+   ],
+   "answer": "Varimathras gives it and expects you to report back to him in the Undercity."
+  },
+  {
+   "q": "Who am I supposed to defeat?",
+   "aliases": [
+    "who to kill",
+    "scarlet targets"
+   ],
+   "answer": "The named targets are High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion, and Houndmaster Loksey."
+  },
+  {
+   "q": "Where do I report back?",
+   "aliases": [
+    "report to varimathras",
+    "where to return"
+   ],
+   "answer": "Report back to Varimathras in the Undercity."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "herod",
+  "houndmaster loksey",
+  "mograine",
+  "scarlet",
+  "scarlet champion",
+  "scarlet monastery",
+  "undercity",
+  "varimathras",
+  "whitemane"
+ ],
+ "related": [
+  "zone:undercity",
+  "npc:varimathras",
+  "npc:houndmaster-loksey",
+  "npc:herod",
+  "npc:scarlet-commander-mograine"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Into The Scarlet Monastery"
+ ]
+}

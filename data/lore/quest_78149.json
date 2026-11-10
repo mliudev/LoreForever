@@ -1,0 +1,67 @@
+{
+ "key": "quest:78149",
+ "type": "quest",
+ "name": "Fury of the Land",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   78149
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The Library in Ironforge seeks magical works for its collection. Your findings help expand its knowledge.",
+ "sections": [
+  {
+   "title": "A Place for Knowledge",
+   "body": "In Ironforge's Library, you are asked to bring magical works that may benefit its collection. The librarian welcomes what you have found, and invites you to bring more if you discover it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the library want?",
+   "aliases": [
+    "what do they need",
+    "library books",
+    "magical works"
+   ],
+   "answer": "The Library seeks magical works that may benefit its collection."
+  },
+  {
+   "q": "Where should I bring magical works?",
+   "aliases": [
+    "where to take books",
+    "library location",
+    "bring works"
+   ],
+   "answer": "Bring them to the librarian in the Library in Ironforge."
+  },
+  {
+   "q": "Why are they collecting magical works?",
+   "aliases": [
+    "why collect magic books",
+    "library collection",
+    "what for"
+   ],
+   "answer": "The librarian says each contribution expands their knowledge."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "collection",
+  "fury of the land",
+  "ironforge",
+  "knowledge",
+  "library",
+  "magical works"
+ ],
+ "related": [
+  "subzone:library-ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Fury of the Land"
+ ]
+}

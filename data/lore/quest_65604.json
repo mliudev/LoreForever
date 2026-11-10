@@ -1,0 +1,100 @@
+{
+ "key": "quest:65604",
+ "type": "quest",
+ "name": "The Binding",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   65604
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Gan'rul Bloodeye sends you to summon an incubus with the Withered Scarf and subdue it. The binding tests your mastery of a demon's charms and power.",
+ "sections": [
+  {
+   "title": "At the Circle",
+   "body": "Gan'rul Bloodeye reads love in the threads of the Withered Scarf and believes it will draw an incubus. In Neeru's tent in Orgrimmar, you are to use it at the summoning circle and prove your mastery over the demon. Gan'rul warns that an incubus will not yield quietly, and asks you to bring the scarf back after it is subdued.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Scarf Returned",
+   "body": "Gan'rul receives the scarf after the incubus is subdued. He says he will teach you to summon the demon and return the scarf to Magar. The cloth reminds him that warlocks may wield demonic darkness, but demons must never wield them.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives you The Binding?",
+   "aliases": [
+    "who is gan'rul",
+    "gan'rul binding",
+    "who gives the scarf"
+   ],
+   "answer": "Gan'rul Bloodeye gives you the Withered Scarf and asks you to summon and subdue an incubus."
+  },
+  {
+   "q": "What does the Withered Scarf do?",
+   "aliases": [
+    "scarf purpose",
+    "withered scarf",
+    "why scarf"
+   ],
+   "answer": "Gan'rul senses love woven into the scarf's threads and believes it will draw an incubus."
+  },
+  {
+   "q": "Where is the summoning circle?",
+   "aliases": [
+    "incubus circle",
+    "where summon",
+    "neeru tent"
+   ],
+   "answer": "The summoning circle is in Neeru's tent in Orgrimmar."
+  },
+  {
+   "q": "What is an incubus?",
+   "aliases": [
+    "incubus meaning",
+    "sayaad",
+    "what demon"
+   ],
+   "answer": "An incubus is a sayaad. Gan'rul warns that sayaad dominate minds and torture souls, and that an incubus can charm its prey."
+  },
+  {
+   "q": "What does Gan'rul ask you to do?",
+   "aliases": [
+    "binding task",
+    "what do i do",
+    "incubus binding"
+   ],
+   "answer": "Gan'rul asks you to summon an incubus with the Withered Scarf, subdue it, and return the scarf to him."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warlock",
+   "text": "As a warlock, you are being tested in the summoning and subduing of an incubus. Gan'rul warns that demons can turn their charms against you."
+  }
+ ],
+ "keywords": [
+  "gan'rul bloodeye",
+  "incubus",
+  "magar",
+  "neeru's tent",
+  "sayaad",
+  "summoning circle",
+  "the binding",
+  "withered scarf"
+ ],
+ "related": [
+  "zone:orgrimmar",
+  "npc:gan-rul-bloodeye",
+  "topic:warlock",
+  "quest:1713"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Binding"
+ ]
+}

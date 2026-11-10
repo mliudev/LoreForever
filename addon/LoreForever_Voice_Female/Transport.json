@@ -1693,9 +1693,9 @@
     "topic:blackrock-clan": {
       "1": [
         {
-          "duration": 92.94367346938776,
-          "file": "Audio/Transport/full_topic_blackrock-clan-75ed58e5d9151847c056/1-0000.mp3",
-          "sha256": "5eee1e131fea2059759f4294b246c35b154992600c12a8ab9911d46c726544eb",
+          "duration": 93.04816326530613,
+          "file": "Audio/Transport/full_topic_blackrock-clan-8fffa66b2bec0efc61f9/1-0000.mp3",
+          "sha256": "2c29fed9940c974d67b96c4004ecb3ecb8be6705cfcf01068b94382492d932c5",
           "start": 0
         }
       ],
@@ -1707,12 +1707,12 @@
         ]
       },
       "fullHash": "55fabc",
-      "generation": "8a348250cd3c00daecaf",
+      "generation": "350dc653dbb001e0c4aa",
       "hash": "55fabc",
       "source": {
-        "duration": 92.969796,
+        "duration": 93.074286,
         "file": null,
-        "sha256": "75ed58e5d9151847c05638a9371cbec259bee2ea297b604fffd44d0f99f5ac4b"
+        "sha256": "8fffa66b2bec0efc61f96b9aca47b9216139e13eaa0407e42b838de830f93168"
       },
       "text": "Blackrock clan. In Blackrock Mountain, veterans of the Blackrock clan now stand divided between Thrall's New Horde and the Dark Horde. Strict ranks, heavy armor, and skill at the forge once made the clan a force in the First and Second Wars. From Draenor came the Blackrock orcs, whose strength lay in strict ranks, heavy armor, and skill at the forge. Under Chieftain Blackhand, they formed the brutal core of the Old Horde's invasion of Azeroth and laid siege to Stormwind.\n\nOrgrim Doomhammer killed Blackhand to free the Horde from Gul'dan's direct control. Blackrock leaders then commanded both the clan and the Horde through the hard campaigns of the Second War. After the Horde's defeat at Blackrock Mountain, the clan broke apart. Many warriors went to Alliance internment camps, then Thrall freed them and welcomed them into his reformed New Horde.\n\nOthers would not yield. They gathered behind Blackhand's sons, Rend and Maim, and withdrew to the heights of Blackrock Spire. There they formed the hostile Dark Horde with remnants of the Dragonmaw and other rogue clans. From his throne in Blackrock Spire, Rend Blackhand claims the title of true Warchief. The Dark Horde keeps a tense truce with the Dark Iron dwarves in the molten depths below, even as it fights both the Alliance and Thrall's Horde.\n\nClan remnants tainted by demons have also been seen in Lordaeron. There they seek to revive dark sacrificial rites."
     },
@@ -1745,9 +1745,9 @@
     "topic:burning-blade-clan": {
       "1": [
         {
-          "duration": 76.19918367346939,
-          "file": "Audio/Transport/full_topic_burning-blade-clan-5958ed94ec4eb1c08cf6/1-0000.mp3",
-          "sha256": "778173bd49b761de4cbd91b0de4597afdcf2832412f9a7b9c3656a1fba0919d9",
+          "duration": 77.4530612244898,
+          "file": "Audio/Transport/full_topic_burning-blade-clan-8e5653fecab8eadc862b/1-0000.mp3",
+          "sha256": "74daa772707cb7a9216e1601924c2f41f1e9c0ec79510f397b20ed272cff2794",
           "start": 0
         }
       ],
@@ -1759,21 +1759,21 @@
         ]
       },
       "fullHash": "6dcf2f",
-      "generation": "950bf39b3dec825b8636",
+      "generation": "9bd61baa17479c85700f",
       "hash": "6dcf2f",
       "source": {
-        "duration": 76.225306,
+        "duration": 77.479184,
         "file": null,
-        "sha256": "5958ed94ec4eb1c08cf6f96b74615c73f2a6f89a299487b7ea0bfde7daa0277c"
+        "sha256": "8e5653fecab8eadc862b9165e702f20077b9d896ffe9456c5c3ad4984d8ca113"
       },
       "text": "Burning Blade clan. Across Durotar and the Barrens, the Burning Blade threatens the young Horde from within. Once renowned for its blademasters, the clan broke under demonic corruption. Now most of its scattered members serve the Shadow Council, while a few honorable blademasters stand with Warchief Thrall. The Burning Blade once fought beside clans such as the Warsong on Draenor. Its blademasters were famed for deadly skill. After drinking Mannoroth’s blood and crossing the Dark Portal into Azeroth during the First War, the clan’s minds broke into chaos.\n\nBy the Second War, it had lost all order and raged like a force of nature. These nomadic fighters charged without regard for survival, so ogres held them back until battle called. Near the Dark Portal, the Alliance battered and routed them. Across Kalimdor, Burning Blade covens trouble newly arrived orcs and Darkspear trolls from their first days in the Valley of Trials. Warlocks dwell in Thunder Ridge and keep a major hideout in Skull Rock, near Orgrimmar’s eastern gates. The cultists gather around dark relics such as the Demon Seed and harvest souls for demonic rites. In Durotar and the Barrens, they threaten the young Horde from within."
     },
     "topic:burning-legion": {
       "1": [
         {
-          "duration": 122.5926530612245,
-          "file": "Audio/Transport/full_topic_burning-legion-50a56f018ecd5d73f918/1-0000.mp3",
-          "sha256": "73d31fce100c555f7596b36ab9bf208bc69a4c97d979249f7a30bb5655b492d3",
+          "duration": 123.58530612244898,
+          "file": "Audio/Transport/full_topic_burning-legion-9cd20cd58f5d8ff74d18/1-0000.mp3",
+          "sha256": "c5e537fd4a4086868e24609a7df1caea5b024f73c59fe4b360c3efa5191d7a7f",
           "start": 0
         }
       ],
@@ -1785,12 +1785,12 @@
         ]
       },
       "fullHash": "77efc9",
-      "generation": "efcbd8e427f262c53065",
+      "generation": "2e49b8cd010be5fbc81f",
       "hash": "77efc9",
       "source": {
-        "duration": 122.618776,
+        "duration": 123.611429,
         "file": null,
-        "sha256": "50a56f018ecd5d73f9180b9e72b42edc9265a21d2b36f182f4558c05aa9d6c40"
+        "sha256": "9cd20cd58f5d8ff74d18c193f95d51816bbff7d3b5aadf77df1067119b1f5ba0"
       },
       "text": "Burning Legion. Across creation, the Burning Legion remains an infinite host bent on scouring all life. Led by the fallen titan Sargeras, its demons shattered ancient Kalimdor ten thousand years ago, corrupted the orcs, and brought the horrors of the Third War to Azeroth. Sargeras once served the titans, hunting demons across the cosmos and locking them away. Ages of battle convinced him that creation was flawed beyond repair and must burn. He freed the demons he had imprisoned and bent them to his will with fel magic. The corrupted eredar brought intellect to their chaos, and Archimonde and Kil'jaeden became his chief lieutenants. Together they formed an unstoppable engine of cosmic annihilation. Ten thousand years ago, the Highborne's reckless sorceries drew the Burning Legion's gaze to Azeroth. Through the Well of Eternity, Sargeras whispered to Queen Azshara and her councilor Xavius, promising them a chance to reshape the world as a paradise.\n\nThe portal unleashed Mannoroth and Archimonde, with swarms of doomguard, felhounds, and flaming infernals. Their war ruined Kalimdor's civilization before night elves, dragonflights, and demigods brought down the gateway. Its catastrophic implosion tore the supercontinent apart in the Great Sundering, scattering ruined lands across vast new seas. The Legion was cast back into the Twisting Nether, yet Azeroth remained in its sights. Kil'jaeden arranged proxy cataclysms from afar. The deceiver bound the orcs of Draenor through demonic blood pacts, and the Horde charged through the Dark Portal to weaken mortal defenses.\n\nWhen that failed, the Legion forged the Lich King and unleashed the undead Scourge across Lordaeron, paving the way for Archimonde's return in the Third War. Archimonde fell at Mount Hyjal, but Legion remnants still linger across Felwood, the Blasted Lands, and hidden cults throughout the world."
     },
@@ -2005,9 +2005,9 @@
     "topic:dragonmaw-clan": {
       "1": [
         {
-          "duration": 101.04163265306123,
-          "file": "Audio/Transport/full_topic_dragonmaw-clan-a4a303a2ba7fc6487988/1-0000.mp3",
-          "sha256": "cb7116a180fc8c6c0588f3fee3ee91b81f459d3374d5ea23a625cb27f4ad57dd",
+          "duration": 102.7395918367347,
+          "file": "Audio/Transport/full_topic_dragonmaw-clan-6aea6569b1447f31ce64/1-0000.mp3",
+          "sha256": "c7303625dde5d8833c5436d77767633cf46e7e24d84ae305afd65afce3bedae3",
           "start": 0
         }
       ],
@@ -2019,12 +2019,12 @@
         ]
       },
       "fullHash": "a6b977",
-      "generation": "4c9630ffe38c2fa17562",
+      "generation": "e382160ca7173814c2a1",
       "hash": "a6b977",
       "source": {
-        "duration": 101.067755,
+        "duration": 102.765714,
         "file": null,
-        "sha256": "a4a303a2ba7fc6487988518d72155bdb359a98e6df78ef88b5ecc607f82f45d5"
+        "sha256": "6aea6569b1447f31ce648baef8eb4b1447a100171a07555ef5899a5929d6df43"
       },
       "text": "Dragonmaw clan. Across Khaz Modan, Dragonmaw remnants still lurk in wetlands and mountains. During the Second War, they became infamous for subduing and riding red dragons. After Alexstrasza was freed, the scattered orcs remained hostile to both the Alliance and Thrall's New Horde. The Dragonmaw crossed the Dark Portal from Draenor with the Old Horde. On Azeroth, they turned their skill toward subduing its winged terrors. Black dragon Deathwing whispered to Zuluhed the Whacked, chieftain of the Dragonmaw, and led him to an ancient golden disk called the Dragon Soul. Zuluhed gave it to Nekros Skullcrusher, his greatest warlock. Nekros drew on its fel taint and named it the Demon Soul. With its agonizing power, he ensnared Alexstrasza the Life-Binder.\n\nThe Dragonmaw fortified Grim Batol, an abandoned dwarven bastion, and chained the Dragonqueen in darkness. During the Second War, they forced her red dragon brood to serve the Old Horde as aerial dreadnoughts. The Dragonmaw reign ended when the Demon Soul was destroyed, freeing Alexstrasza and her flight from psychic torment. Alexstrasza devoured Nekros Skullcrusher, and her vengeful flight laid waste to Grim Batol. The clan's strength broke.\n\nRouted and terrified, survivors scattered into the Wetlands' marshy bogs and the jagged peaks around Grim Batol. The Dragonmaw who remain on Azeroth are desperate, feral renegades. They fiercely guard their dwindling camps against dwarven patrols and vengeful dragons, and remain hostile to both the Alliance and Thrall's New Horde."
     },
@@ -2083,9 +2083,9 @@
     "topic:explorers-league": {
       "1": [
         {
-          "duration": 104.6726530612245,
-          "file": "Audio/Transport/full_topic_explorers-league-6130ec140dc379e0a4a8/1-0000.mp3",
-          "sha256": "cf0a14f80be2df89ac0a8504b3b4e9b744e9223fd494c903c3dc926f5e048912",
+          "duration": 103.62775510204082,
+          "file": "Audio/Transport/full_topic_explorers-league-ff90833fe809230a0999/1-0000.mp3",
+          "sha256": "39281663147b611cdbd62b024fecb87a257934674990990c0f9fb92e57239570",
           "start": 0
         }
       ],
@@ -2097,21 +2097,21 @@
         ]
       },
       "fullHash": "6f5369",
-      "generation": "3965c7e9a362eac68ac9",
+      "generation": "48200c70ffb15a75c2e8",
       "hash": "6f5369",
       "source": {
-        "duration": 104.698776,
+        "duration": 103.653878,
         "file": null,
-        "sha256": "6130ec140dc379e0a4a82e3a7c57b61ea3d051831b42e163fd5908606206cb67"
+        "sha256": "ff90833fe809230a0999391943af92337d71c0be1ec7ad56e7c3088bf6e036f6"
       },
       "text": "Explorers' League. Across Azeroth, the Explorers' League seeks the lost beginnings of the dwarves. King Magni Bronzebeard helped found it, and his brother Brann now leads its work from Ironforge's Hall of Explorers. The League searches far beyond dwarven lands, where its digs often stir conflict. Dwarves in Khaz Modan once devoted their strength to mining, stonework, and engineering. Ancient ruins then pointed to a forgotten bond between dwarves and the mythical titans who created them.\n\nKing Magni Bronzebeard wanted to learn his people's origins, so he turned much of dwarven industry toward archaeology. With his brother Brann, Magni founded the Explorers' Guild, now called the Explorers' League. Its members seek relics, lost cities, and signs of their ancient ancestry. The League directs its work from Ironforge's Hall of Explorers. High Explorer Muninn Magellas handles daily affairs while Brann Bronzebeard explores distant lands. Prospectors oversee broad digsites across Khaz Modan and beyond. At Ironband's Excavation in Loch Modan and Whelgar's Excavation in the Wetlands, they uncover vast fossil beds and ancient buildings. Displaced wildlife, troggs, and rival factions seeking buried relics often besiege the prospectors. Beyond dwarven lands, the League's expeditions have met fierce resistance. In Kalimdor, blasting at the Bael Modan dig in the southern Barrens drove out the native Stonespire tauren. The work stirred their anger and roused local earth spirits. In the Badlands, League prospectors openly clash with the Dark Iron clan over the vast titan vaults of Uldaman."
     },
     "topic:first-war": {
       "1": [
         {
-          "duration": 86.4130612244898,
-          "file": "Audio/Transport/full_topic_first-war-cc05127f9466d2e36d6e/1-0000.mp3",
-          "sha256": "c01e3ffb2de33a7a49ca2193306243706e47414b9874b98471069bfa5407562a",
+          "duration": 86.70040816326531,
+          "file": "Audio/Transport/full_topic_first-war-8c48f1fd323ab9c37424/1-0000.mp3",
+          "sha256": "544cc886a5879fce239cbc39c41233760d25a342f10c5ba985a63b3c1ee9ad84",
           "start": 0
         }
       ],
@@ -2123,12 +2123,12 @@
         ]
       },
       "fullHash": "fa5e02",
-      "generation": "eb7739330a0714e13edf",
+      "generation": "d8bd642e9638d4d41e76",
       "hash": "fa5e02",
       "source": {
-        "duration": 86.439184,
+        "duration": 86.726531,
         "file": null,
-        "sha256": "cc05127f9466d2e36d6e0c4271fdf79759786e213293ea24b0bf6a7a750f16c6"
+        "sha256": "8c48f1fd323ab9c374249091d8e01c1779a1330dcee0c0fb73f4cf444980a5e7"
       },
       "text": "First War. The First War drove Stormwind's survivors north after the kingdom fell. The five-year conflict began when the Orcish Horde crossed the Dark Portal and ended with King Llane Wrynn I dead and Stormwind in ruins. For years after the Gnoll War, the Knights of Stormwind and the Clerics of Northshire Abbey guarded a peaceful kingdom. Then Guardian Medivh, secretly possessed by the demon lord Sargeras, contacted the orc warlock Gul'dan on Draenor. Together, they forged the Dark Portal in the Black Morass.\n\nDriven by demon blood and the slow death of their homeworld, the Orcish Horde crossed into Azeroth in force. Some dismissed the first reports as vengeful spirits or strange offshoots of trolls. Sir Anduin Lothar's scouting patrols soon confirmed a disciplined, bloodthirsty army had arrived. Warchief Blackhand led the Horde openly, while Gul'dan's Shadow Council guided it from the shadows. The Horde overran the kingdom's southern reaches. An attempt to push into Stranglethorn Vale against the Gurubashi trolls failed, yet the campaign across human lands brought ruin.\n\nThe Horde conquered until only Elwynn Forest remained under human control. Blackhand then launched a direct assault on Stormwind City. Sir Anduin Lothar repelled it with a surprise flanking attack by sea, saving the capital from destruction for a time."
     },
@@ -2161,9 +2161,9 @@
     "topic:frostmane-tribe": {
       "1": [
         {
-          "duration": 67.21306122448979,
-          "file": "Audio/Transport/full_topic_frostmane-tribe-6ce24fd1ede84e34d7ff/1-0000.mp3",
-          "sha256": "5e9000367cc3a24693d6f3d251d33b68a747003b8e786c808a9df83cd66b7750",
+          "duration": 68.64979591836735,
+          "file": "Audio/Transport/full_topic_frostmane-tribe-f41a813483a05fbf859b/1-0000.mp3",
+          "sha256": "aff1271ba80062095da9bf70b51e8cb69b9487fd0d5889774ceff204bb54e1d4",
           "start": 0
         }
       ],
@@ -2175,12 +2175,12 @@
         ]
       },
       "fullHash": "b3a7e6",
-      "generation": "a3d3ca91f1bc129e646b",
+      "generation": "907e087cbf24593cdd09",
       "hash": "b3a7e6",
       "source": {
-        "duration": 67.213061,
+        "duration": 68.675918,
         "file": null,
-        "sha256": "6ce24fd1ede84e34d7fff8d21d1a5ad5ca978a30ba68c43009016faacbfb93d6"
+        "sha256": "f41a813483a05fbf859ba369bafd02c772cc6889a39e80391b22f497f402b34a"
       },
       "text": "Frostmane tribe. Across Dun Morogh, the Frostmane tribe fights to reclaim the mountain home dwarves took from them. Driven into caves and remote ridges centuries ago, the ice trolls now wage war against the dwarves. Long before the Bronzebeard clan united under Ironforge, the Frostmane trolls ruled Dun Morogh’s snowy reaches. As the dwarven kingdom spread, it crushed their realm. The survivors fled into caves and across frozen ridges and crags.\n\nDefeat left the Frostmane with a hatred passed down through generations. They see every mountaineer, traveler, and homestead as an invader to drive out or slaughter. For decades, the Ironforge Senate treated the Frostmane as little more than a nuisance in the hills. Then the trogg menace emerged beneath Dun Morogh, and dwarven defenses fell into disarray. The mountaineers were overwhelmed while dwarven forces fought Alliance wars abroad.\n\nThe Frostmane seized their chance. From strongholds such as Frostmane Hold and Shimmer Ridge, they renewed their violent raids to reclaim their ancient lands."
     },
@@ -2213,9 +2213,9 @@
     "topic:gnome": {
       "1": [
         {
-          "duration": 85.60326530612245,
-          "file": "Audio/Transport/full_topic_gnome-e0faba4b5dfd71d82b42/1-0000.mp3",
-          "sha256": "cdf37612ebf0958f43d896e8153f8131e8a62fa85ea83fdf8ca9c37a5f80ee75",
+          "duration": 86.17795918367348,
+          "file": "Audio/Transport/full_topic_gnome-2f9a52f9be75b7c9c77c/1-0000.mp3",
+          "sha256": "95d4c2fdaefe9a14c5d715c3f3c3edb23aaa6f6430fcf1c8797a9ab641a02564",
           "start": 0
         }
       ],
@@ -2227,12 +2227,12 @@
         ]
       },
       "fullHash": "35cb93",
-      "generation": "70f5e69e5ab12c9f2f89",
+      "generation": "8092909db117f90ac768",
       "hash": "35cb93",
       "source": {
-        "duration": 85.629388,
+        "duration": 86.204082,
         "file": null,
-        "sha256": "e0faba4b5dfd71d82b42ae599421bbc2e489776516335ef41f9256c68c7639b0"
+        "sha256": "2f9a52f9be75b7c9c77c9db823edc6ea0c9ed1990e6bc0d023a8202e975dd5f8"
       },
       "text": "Gnome. Gnomes in Ironforge fight to reclaim Gnomeregan, their poisoned home. Across Azeroth, they are renowned for engineering and arcane mastery, and remain staunch allies even in exile. Gnomes are small in stature and vast in intellect. Curiosity drives them to study machines and magic, and to invent what no one has built before. Clockwork devices, flying machines, and subterranean trains are among their works. Hardship has not dimmed their cheer; they still mean to rebuild and solve what seems impossible. The gnomes made their home in the frozen crags of Dun Morogh. There, they found kinship with the dwarves of Ironforge. Together, dwarven strength and gnomish ingenuity carved Gnomeregan, a remarkable city beneath western Dun Morogh. Visionary leaders called High Tinkers lead the gnomes. The surviving gnomes fled their poisoned home and found sanctuary with their dwarven cousins in Ironforge. High Tinker Mekkatorque and his people made their home in Ironforge's Tinker Town. There, they continue to support the Alliance and oversee the Deeprun Tram to Stormwind.\n\nFrom this adopted quarter, gnomish commandos and volunteers make repeated expeditions into Gnomeregan's irradiated depths. They seek to clear the troggs and mechanical abominations from their grand city and reclaim it someday."
     },
@@ -2291,9 +2291,9 @@
     "topic:grommash-hellscream": {
       "1": [
         {
-          "duration": 130.6122448979592,
-          "file": "Audio/Transport/full_topic_grommash-hellscream-a5befec0a85c4f837e2f/1-0000.mp3",
-          "sha256": "fdddaf15f8c287c456aab5d9fef0f98251cb4ca825398dbda79cf4235b313239",
+          "duration": 131.13469387755103,
+          "file": "Audio/Transport/full_topic_grommash-hellscream-ae7e703afbb5f7266540/1-0000.mp3",
+          "sha256": "9fe2387800203cc6a226e3f212390871a96d14913ed59cb9eece4d45692ac6fa",
           "start": 0
         }
       ],
@@ -2305,12 +2305,12 @@
         ]
       },
       "fullHash": "f30a79",
-      "generation": "b6585896cb5c155fdf3c",
+      "generation": "f1485102fd6b35c0b412",
       "hash": "f30a79",
       "source": {
-        "duration": 130.638367,
+        "duration": 131.160816,
         "file": null,
-        "sha256": "a5befec0a85c4f837e2fb21a682fcd04c5d3d397ddbf477dbc5a92292b6abdc2"
+        "sha256": "ae7e703afbb5f72665408be1d31dcf76726945ac30e3d61c94a200e6aff37874"
       },
       "text": "Grommash Hellscream. Grommash Hellscream's sacrifice has freed his people from the blood curse. The warsong chieftain once bound the orcs to the Burning Legion, but gave his life to slay mannoroth in ashenvale and free them. Before the Dark Portal opened, Grom Hellscream led the warsong clan with fierce resolve. His pitch-black tattooed jaw and the deadly sweep of Gorehowl, his two-handed axe, set him apart. On Draenor, Gul'dan and the Shadow Council offered the orcs demonic strength. Grom was the first chieftain to drink the blood of the pit lord mannoroth. The draught bound the orcs to demonic service and filled them with burning bloodlust.\n\nMany chieftains perished or lost themselves to the bloodlust, but Grom kept his fierce spirit through the old Horde's horrors. He carried a quiet ache for what his people had surrendered. Left behind on Draenor during the Second War, Grom later crossed the Dark Portal. The rift was shattered, and he was stranded. For nearly fifteen years, he and the surviving warsong warriors evaded the Alliance of Lordaeron. They endured lethargy and despair as the demon blood faded.\n\nThen a young fugitive named Thrall found Grom in the wilderness, and hope returned. Grom saw Thrall's strength and noble heart, and taught him the proud heritage of their people. With Orgrim Doomhammer, they rallied the scattered clans, broke open the human internment camps, and began the New Horde. During the Third War, Grom's aggression rose again in ashenvale's ancient forests. The night elves and the demigod Cenarius pressed his clan hard. To save them, Grom drank from a fountain corrupted with mannoroth's blood. Bound again to the demon lord, he turned against his own people.\n\nThrall and Jaina Proudmoore captured Grom and cleansed his spirit with ancient shamanic and arcane rites. Restored to his senses and burdened with guilt, he pursued mannoroth into Demon Fall Canyon. There Grom drove Gorehowl into the demon lord's chest, ending the demonic curse forever. Hellfire took Grom's life."
     },
@@ -2499,9 +2499,9 @@
     "topic:kul-tiras": {
       "1": [
         {
-          "duration": 53.57714285714286,
-          "file": "Audio/Transport/full_topic_kul-tiras-883d66e4b2b66a9add32/1-0000.mp3",
-          "sha256": "c9fe3efa53595e8df00d60e28555b9f7522821cbbfe82407d2b330e2416d9a9d",
+          "duration": 53.81224489795918,
+          "file": "Audio/Transport/full_topic_kul-tiras-188310e8e78cfb995140/1-0000.mp3",
+          "sha256": "8d9c3478c8973d2933a5dfe449fa92213a02f7dd330dbc510ceb895ec02dea03",
           "start": 0
         }
       ],
@@ -2513,12 +2513,12 @@
         ]
       },
       "fullHash": "61da96",
-      "generation": "f1929ab536a5666396f7",
+      "generation": "e607d5a86142038926be",
       "hash": "61da96",
       "source": {
-        "duration": 53.603265,
+        "duration": 53.838367,
         "file": null,
-        "sha256": "883d66e4b2b66a9add32f95db25a6ffa9429992a706007bb1920431c9f84ee59"
+        "sha256": "188310e8e78cfb99514084fe16b1143e3eaa6b4c56287d1b533b392c1d574106"
       },
       "text": "Kul Tiras. Across the Great Sea, Kul Tiras keeps to its island waters west of Dun Morogh and Baradin Bay. Its navy once anchored the Alliance of Lordaeron. Since that alliance fractured and losses came in Kalimdor, the kingdom has drawn back. Kul Tiras rose to power on the work of its merchant marine and the wealth of its fishing grounds. Its naval armada had no equal in human history. When the Orcish Horde swept through the Eastern Kingdoms, Kul Tiras answered King Terenas Menethil II and joined the Alliance of Lordaeron. Lord Admiral Daelin Proudmoore commanded humanity's naval forces. They fought across the open ocean to cut the Horde's sea lanes and guard the coasts.\n\nAfter the war, the northern kingdoms eventually split. Kul Tiras drew back its fleets, strengthened its coastal defenses, and kept to itself."
     },
@@ -2759,9 +2759,9 @@
     "topic:old-horde": {
       "1": [
         {
-          "duration": 119.04,
-          "file": "Audio/Transport/full_topic_old-horde-66e571006c15228bd3a6/1-0000.mp3",
-          "sha256": "357e27e9b1452f5541e6cbc2ca6be4cb8d5de497b495ae4136abd0c050276337",
+          "duration": 117.62938775510204,
+          "file": "Audio/Transport/full_topic_old-horde-b67e3558f1e812be640b/1-0000.mp3",
+          "sha256": "d8a853468a66daa775f2ac803ef41618816532611185f227ce3b18a6bd87f9da",
           "start": 0
         }
       ],
@@ -2773,12 +2773,12 @@
         ]
       },
       "fullHash": "003827",
-      "generation": "2b167383e2a46965c005",
+      "generation": "abc7b08f6f0f5f4d136e",
       "hash": "003827",
       "source": {
-        "duration": 119.066122,
+        "duration": 117.65551,
         "file": null,
-        "sha256": "66e571006c15228bd3a64324229801a1000bfc5802439d83bd940436134bd432"
+        "sha256": "b67e3558f1e812be640b46a2eec067c96d2303758bd3eae6e8fa931ef953c6cd"
       },
       "text": "Old Horde. Across Draenor and Azeroth, the Old Horde left conquest in its wake. Demonic power drove the orc clans to conquer Draenor and invade Azeroth. Blackhand and then Orgrim Doomhammer led them through the First and Second Wars, until the Alliance of Lordaeron defeated them. Thrall's New Horde now seeks to overcome that legacy, while remnants such as the Dark Horde cling to the bloody past. Kil'jaeden turned the orc clans toward war before they crossed into Azeroth. Through the warlock Gul'dan and the elder shaman Ner'zhul, the demon lord corrupted the proud, spiritual orcs. As the clans fought, the elemental spirits abandoned them. The orcs cast aside shamanism for warlock magic. Then they drank Mannoroth's blood and gave themselves to bloodlust. They slaughtered the draenei and drained life from their homeland. Draenor's withering lands could no longer provide what the Horde needed. Gul'dan and Medivh, a human guardian possessed by demonic power, opened the Dark Portal into Azeroth. The Horde poured through and began the First War against the Kingdom of Stormwind. Warchief Blackhand led them, while Gul'dan's Shadow Council secretly directed events.\n\nNear the war's end, Orgrim Doomhammer slew Blackhand and purged the Shadow Council. He took command, then razed Stormwind to the ground. Orgrim Doomhammer led the Horde north across the seas to fight the Second War. There, the Horde joined forces with forest trolls and goblin mercenaries. At the height of the siege of Lordaeron, Gul'dan and his loyalists abandoned the war to seek the Tomb of Sargeras. Betrayed and divided, the Horde was driven back to Blackrock Mountain and crushed by the Alliance of Lordaeron.\n\nThe Alliance destroyed the portal and herded surviving orcs into internment camps. As the demonic blood haze faded, lethargy settled over them."
     },
@@ -3409,9 +3409,9 @@
     "topic:titan": {
       "1": [
         {
-          "duration": 88.79020408163265,
-          "file": "Audio/Transport/full_topic_titan-6925e8e8cc77b30e6a7c/1-0000.mp3",
-          "sha256": "eaeebb8162b6ae58b77ab345b9e8582188af2d1635e824f9b6b5779b76c0885c",
+          "duration": 85.76,
+          "file": "Audio/Transport/full_topic_titan-b0906752597a93fdee86/1-0000.mp3",
+          "sha256": "778c0be8fd43d4073cc7566cb40ed634eb389a72c4d1c93d190c476836b7ced2",
           "start": 0
         }
       ],
@@ -3422,22 +3422,22 @@
           "1"
         ]
       },
-      "fullHash": "3d2319",
-      "generation": "ccc95402ce6b157dc17f",
-      "hash": "3d2319",
+      "fullHash": "09a214",
+      "generation": "312a3731b97fb127b5da",
+      "hash": "09a214",
       "source": {
-        "duration": 88.816327,
+        "duration": 85.786122,
         "file": null,
-        "sha256": "6925e8e8cc77b30e6a7cc9eed6c546bb6d1ede99b8849add250cede37f4bf7d5"
+        "sha256": "b0906752597a93fdee8667c6445a12cf760788dd70938be65117205cebd9af80"
       },
-      "text": "Titan. Across the Great Dark Beyond, the titans travel from world to world, seeking places to shape and order. Long ago, they came to Azeroth, defeated the Old Gods, raised great works, and prepared the world for life before departing among the stars. Across the Great Dark Beyond, the titans journey as cosmic giants of primordial matter and arcane magic. They carry the forces of order and creation, seeking sleeping worlds to cultivate. There they raise continents, calm the elements, and shape life. Stone, iron, and sea constructs guard their works and keep the balance they sought. When the Pantheon found Azeroth long ago, chaotic elemental lords and the horrific Old Gods held the world in their grip. The titans drove the elementals into pocket planes and sealed the Old Gods beneath the earth. They shaped great biomes and built vaults such as Uldaman. Then they entrusted five great dragons, the Dragon Aspects, with the land, magic, time, and life, and journeyed back among the stars. Sargeras once stood among the titans as their greatest warrior and defender. Yet the deep cosmic darkness and demonic malevolence he fought filled him with fear and despair. He rejected his kin's work and embraced nihilism. To extinguish all creation rather than let it fall to corruption, he founded the Burning Legion."
+      "text": "Titan. Across the Great Dark Beyond, the titans travel from world to world, seeking places to shape and order. Long ago, they came to Azeroth, defeated the Old Gods, raised great works, and prepared the world for life before departing among the stars. Vast are the titans, cosmic giants of primordial matter and arcane magic. They carry the forces of order and creation, seeking sleeping worlds to cultivate. There they raise continents, calm the elements, and shape life. Stone, iron, and sea constructs guard their works and keep the balance they sought. When the Pantheon found Azeroth long ago, chaotic elemental lords and the horrific Old Gods held the world in their grip. The titans drove the elementals into pocket planes and sealed the Old Gods beneath the earth. They shaped great biomes and built vaults such as Uldaman. Then they entrusted five great dragons, the Dragon Aspects, with the land, magic, time, and life, and journeyed back among the stars. Sargeras once stood among the titans as their greatest warrior and defender. Yet the deep cosmic darkness and demonic malevolence he fought filled him with fear and despair. He rejected his kin's work and embraced nihilism. To extinguish all creation rather than let it fall to corruption, he founded the Burning Legion."
     },
     "topic:trogg": {
       "1": [
         {
-          "duration": 68.1795918367347,
-          "file": "Audio/Transport/full_topic_trogg-0243c0d77e8a56ae22b5/1-0000.mp3",
-          "sha256": "7bb12052246775d7816754ae4d70f425e40bf8aa0eecff564b38bf7d7c2fbc86",
+          "duration": 68.41469387755102,
+          "file": "Audio/Transport/full_topic_trogg-466606a02c9262484390/1-0000.mp3",
+          "sha256": "a4251c8d4849f8e151d6b24227973e8e5260eb9850049eafbdb1cec16b75ae9d",
           "start": 0
         }
       ],
@@ -3449,12 +3449,12 @@
         ]
       },
       "fullHash": "3258ae",
-      "generation": "d791232d13bbe33f9df8",
+      "generation": "0f159d66fbb16612b808",
       "hash": "3258ae",
       "source": {
-        "duration": 68.205714,
+        "duration": 68.440816,
         "file": null,
-        "sha256": "0243c0d77e8a56ae22b54db942b7799f68148b4eee8db91522844ff23b79a51d"
+        "sha256": "466606a02c9262484390955f1e58425429fb2662128a01f66a80832d3389be44"
       },
       "text": "Trogg. Deep beneath the earth, Troggs have clawed their way into the world above. Dwarven excavations disturbed their ancient vaults, and now they overrun quarries and hold Gnomeregan after driving its gnomes out. The first stone servants were a flawed design. Long before mortal races kept records, titan-forged keepers tried to shape servants from stone. They made brutish creatures with stone skin, little sense, and savage tempers. The keepers refined their design into the earthen, ancestors of the dwarves. Ironaya, a giantess, spared the flawed troggs and sealed them deep within Uldaman, hoping they would sleep without end. Dwarven excavations woke the troggs after countless millennia. The Explorers' League of Ironforge broke into ancient underground complexes in Khaz Modan, and furious swarms poured out to hunt their distant dwarven kin. The bright surface world drove them to dig tunnels beneath Dun Morogh, Loch Modan, and the Badlands. From below, they ambushed quarries, archaeological dig sites, and trade outposts."
     },
@@ -3487,9 +3487,9 @@
     "topic:twilight-s-hammer": {
       "1": [
         {
-          "duration": 117.02857142857144,
-          "file": "Audio/Transport/full_topic_twilight-s-hammer-1b9418aab916ec506c0c/1-0000.mp3",
-          "sha256": "a3e113f062a21371c5330b8a26a1ec2faba1e1ddce9430558f03ea69ee96dcb9",
+          "duration": 119.61469387755102,
+          "file": "Audio/Transport/full_topic_twilight-s-hammer-bfe497929448f672edb7/1-0000.mp3",
+          "sha256": "c5a99763cf4285e36b20306abaec117e7dbe8a7412e5eade2368e61d6cd30f30",
           "start": 0
         }
       ],
@@ -3501,12 +3501,12 @@
         ]
       },
       "fullHash": "e08954",
-      "generation": "78f5d1bec2a77eeebd95",
+      "generation": "d40355edfc9c7563acad",
       "hash": "e08954",
       "source": {
-        "duration": 117.054694,
+        "duration": 119.640816,
         "file": null,
-        "sha256": "1b9418aab916ec506c0c8da58efc56e2218b45f1cfc067e9481fd89f19500c84"
+        "sha256": "bfe497929448f672edb7b4829f371d587935abe2825e241f3550780ab59dbd11"
       },
       "text": "Twilight's Hammer. Across Kalimdor and the Eastern Kingdoms, Twilight's Hammer works in secret to bring Azeroth to its end. Its creed calls for the Old Gods to awaken and all things to end. On Draenor, Twilight's Hammer began as an orc clan of the Old Horde. Two-headed ogre-mage Cho'gall led the clan and served as one of Gul'dan's chief lieutenants in the Shadow Council. Under Cho'gall, its members embraced a grim creed that looked toward the end of all things. They came to see the Horde as a force of destruction for that purpose. Twilight's Hammer crossed the Dark Portal during the First War, and its apocalyptic zeal deepened on Azeroth. Its cultists heard the true whispers of the Old Gods, ancient horrors chained beneath the earth. Blackhand tolerated their erratic rituals because Cho'gall kept their bloodlust in check. He sent them with Kilrogg Deadeye's Bleeding Hollow clan in early assaults on Stormwind Keep.\n\nDuring the Second War, the clan worked deep inside Grim Batol, overseeing critical refineries until Gul'dan's betrayal fractured the Horde. Orgrim Doomhammer ordered the traitorous clan slaughtered near the Tomb of Sargeras. A core of zealots survived. On Kalimdor's forgotten shores, Twilight's Hammer grew from a broken orc clan into a secret, multiracial conspiracy. It draws disillusioned members from both the Alliance and the Horde, recruiting any soul broken enough to welcome oblivion. In northern Kalimdor, Twilight Lord Kelris leads cultists entrenched in the submerged halls of Blackfathom Deeps. There they feed sacrifices to Aku'mai, a monstrous servant of an Old God.\n\nFarther north in Darkshore, their excavators disturb the colossal fossilized remains at the Master's Glaive. In Silithus's southern deserts, robed fanatics tend abyssal windstones and listen for ancient horrors stirring beneath the sands."
     },
@@ -3695,9 +3695,9 @@
     "zone:badlands": {
       "1": [
         {
-          "duration": 95.11183673469388,
-          "file": "Audio/Transport/full_zone_badlands-113eb94e3f32d5406edf/1-0000.mp3",
-          "sha256": "8d4b777a05ed3e48440414bc2eb1bdc0ec9f9c9895e38313a0958aaa15be2d54",
+          "duration": 94.22367346938776,
+          "file": "Audio/Transport/full_zone_badlands-fbc7232e0941cc61a6a6/1-0000.mp3",
+          "sha256": "8fd4c6494a4943b1ed59ed4aadb384a1ae3f01b8cf1457ecc5c7c74ceb2c732c",
           "start": 0
         }
       ],
@@ -3709,12 +3709,12 @@
         ]
       },
       "fullHash": "2ca59e",
-      "generation": "1f303a3c12ea05280b05",
+      "generation": "c59c24e4481ada70a406",
       "hash": "9c579d",
       "source": {
-        "duration": 95.137959,
+        "duration": 94.249796,
         "file": null,
-        "sha256": "113eb94e3f32d5406edfb3ef692efbc0759edb3f713b97713fc78dbeb0c06029"
+        "sha256": "fbc7232e0941cc61a6a6957995fc164f2595836ad42d6d77c9c9d29c8c273922"
       },
       "text": "Badlands. Dust storms sweep across the Badlands, where rival forces hold ground in dwarven Khaz Modan. Dark Iron dwarves, troggs, Dustbelcher ogres, and black dragonkin crowd this frontier between Loch Modan and Searing Gorge. Uldaman's titan ruins and the Horde stronghold of Kargath make it a crossroads. South of Loch Modan's green hills, you enter a hot basin of barren flats and rugged ravines. Coyotes, cougars, and vultures roam the land, and fierce sandstorms can hide the horizon. Dustbelcher ogres keep crude camps across the plateaus. At Angor Fortress, the Dark Iron clan fortifies its hold and clashes with anyone who trespasses. Among the northern bluffs lies Uldaman, an underground complex carved by the titan-forged earthen. Ironforge prospectors recently uncovered it, revealing monumental secrets about the ancient ancestry of the dwarven race. Their digging awoke hordes of vicious Stonevault troggs and animated earthen guardians. The creatures slaughtered the archaeological teams and turned the digsites outside into bloody skirmish grounds. The Horde holds one of its most precarious footholds in the southern Eastern Kingdoms here. Kargath, in the northwest, gives Warchief Thrall's forces a base to watch the rogue Dark Horde in nearby Blackrock Mountain. Far to the east, Lethlor Ravine cuts a treacherous chasm through the land. Beneath the mountains' shadow, black whelps and dangerous black dragonkin guard their brooding grounds."
     },
@@ -3773,9 +3773,9 @@
     "zone:blastedlands": {
       "1": [
         {
-          "duration": 130.8473469387755,
-          "file": "Audio/Transport/full_zone_blastedlands-8e5079f8c16f608271b4/1-0000.mp3",
-          "sha256": "7ba09082a931e677cf1856cc9ada94f9222011282ad9c8347436975d57954a3c",
+          "duration": 129.5934693877551,
+          "file": "Audio/Transport/full_zone_blastedlands-55129c1c5f5c824eba59/1-0000.mp3",
+          "sha256": "162fa7dc14b6b8bdebf783bb25f73a59abf1e92cd4cc587ad2354d976d3ccda8",
           "start": 0
         }
       ],
@@ -3787,12 +3787,12 @@
         ]
       },
       "fullHash": "d4b471",
-      "generation": "5c465e8f8a28c2ef9ada",
+      "generation": "80fb05622a2d1ed683ec",
       "hash": "7fb091",
       "source": {
-        "duration": 130.873469,
+        "duration": 129.619592,
         "file": null,
-        "sha256": "8e5079f8c16f608271b441d89557ab43e0a138ab4bb7693076a813b9e89d4822"
+        "sha256": "55129c1c5f5c824eba59268f69e18b6053de66f44e5603262aa4191709ee8269"
       },
       "text": "Blasted Lands. In the Blasted Lands, Nethergarde Keep watches a wasteland scarred by the Dark Portal. Red clay and barren rock cover the former Black Morass, while demons and Dreadmaul ogres still threaten the region. Once, the Blasted Lands belonged to the Black Morass, a stretch of dense fenland. During the First War, the warlock Gul'dan and the possessed Medivh tore open the Dark Portal and unleashed the orcish Horde. Fel energies poured through the breach. They drained the land of moisture and baked it into cracked red clay.\n\nThe Portal was destroyed at the end of the Second War. Its shockwaves scorched the ground again and turned the native stone crimson. Nethergarde Keep watches the only road into the valley from the northern bluffs. Archmage Khadgar and the Kirin Tor commissioned the stone fortress after the Second War. Its mages and soldiers are sworn to stop renewed demonic or orcish incursions.\n\nThe posting is strict. Garrison members who break its rules are banished to the Stockade in Stormwind. Dreadmaul ogres remained after Draenor's fall and keep the defenders under pressure. They raid the roads and attack the gates under fell guidance. The Tainted Scar cuts through the southwestern Blasted Lands, a cratered canyon filled with demons. After the Legion's defeat at Mount Hyjal, doomguard commander Lord Kazzak gathered wandering demons, doomguard, and felhounds under his banner. His dreadlord lieutenant, Razelikh the Defiler, directs the Shadowsworn cultists at the Altar of Storms and commands the local Dreadmaul ogres. Scholars and wanderers still brave the Blasted Lands in search of discoveries. Just inside the northern pass, Bloodmage Drazial and Bloodmage Lynnore experiment with organs from scorpids, basilisks, and boars. They use them to brew potent physical enhancers.\n\nFarther into the wastes, the draenei hermit Kum'isha seeks scattered draenethyst fragments, remnants of Draenor's shattered past. Travelers who recover them receive a reward from him."
     },
@@ -5418,6 +5418,25 @@
       893,
       1027
     ],
+    "162fa7dc14b6b8bdebf783bb25f73a59abf1e92cd4cc587ad2354d976d3ccda8": [
+      246,
+      546,
+      761,
+      1044,
+      1335,
+      1677,
+      1865,
+      2080,
+      2302,
+      2540,
+      2731,
+      2885,
+      3143,
+      3488,
+      3852,
+      4037,
+      4381
+    ],
     "1756d5f95c1bbf2a10d33d95f651e518c6fc6b2af9ec7a9da415ad257574fbdd": [
       179,
       509,
@@ -5640,6 +5659,20 @@
       2605,
       2897
     ],
+    "2c29fed9940c974d67b96c4004ecb3ecb8be6705cfcf01068b94382492d932c5": [
+      301,
+      554,
+      833,
+      1135,
+      1348,
+      1598,
+      1786,
+      2101,
+      2446,
+      2679,
+      2910,
+      3245
+    ],
     "2cd76fe4a65799f71d7f49b7389f76122c4e9873de0191905619d7b39d74c06a": [
       234,
       464,
@@ -5696,30 +5729,6 @@
       2566,
       2768
     ],
-    "357e27e9b1452f5541e6cbc2ca6be4cb8d5de497b495ae4136abd0c050276337": [
-      218,
-      414,
-      691,
-      964,
-      1153,
-      1308,
-      1460,
-      1611,
-      1749,
-      1903,
-      2085,
-      2248,
-      2514,
-      2686,
-      2907,
-      3135,
-      3297,
-      3483,
-      3658,
-      3936,
-      4191,
-      4389
-    ],
     "36c84312b698cf274ce414de279c70a388403f18fb9219c86ecd0b852b3183fb": [
       272,
       668,
@@ -5738,6 +5747,24 @@
       3366,
       3551,
       3714
+    ],
+    "39281663147b611cdbd62b024fecb87a257934674990990c0f9fb92e57239570": [
+      195,
+      481,
+      715,
+      951,
+      1228,
+      1504,
+      1720,
+      1932,
+      2094,
+      2347,
+      2505,
+      2832,
+      3095,
+      3280,
+      3548,
+      3695
     ],
     "3961a2f9226992747886ad1d28dd35dd1c83ac62e968fb6ffe400ede603059ff": [
       208,
@@ -5950,6 +5977,20 @@
       1051,
       1206
     ],
+    "544cc886a5879fce239cbc39c41233760d25a342f10c5ba985a63b3c1ee9ad84": [
+      179,
+      542,
+      820,
+      1140,
+      1293,
+      1566,
+      1786,
+      2022,
+      2279,
+      2718,
+      2899,
+      3048
+    ],
     "56940256f14a0147aaeb1b35ebf4092ed6f988041dd204a4cbe7023812c8e24e": [
       202,
       491,
@@ -6033,32 +6074,6 @@
       3349,
       3608,
       4038
-    ],
-    "5e9000367cc3a24693d6f3d251d33b68a747003b8e786c808a9df83cd66b7750": [
-      242,
-      510,
-      799,
-      951,
-      1128,
-      1309,
-      1531,
-      1762,
-      1994,
-      2192
-    ],
-    "5eee1e131fea2059759f4294b246c35b154992600c12a8ab9911d46c726544eb": [
-      314,
-      585,
-      901,
-      1217,
-      1413,
-      1661,
-      1841,
-      2137,
-      2355,
-      2706,
-      2932,
-      3254
     ],
     "5fd5164874acb5c26ab4811bf8d150b8145f576d3ff9de3bf2bf72cb1d8c302f": [
       267,
@@ -6223,24 +6238,6 @@
       3392,
       3750
     ],
-    "73d31fce100c555f7596b36ab9bf208bc69a4c97d979249f7a30bb5655b492d3": [
-      259,
-      694,
-      918,
-      1118,
-      1287,
-      1567,
-      1749,
-      2003,
-      2389,
-      2684,
-      2963,
-      3290,
-      3519,
-      3655,
-      3982,
-      4355
-    ],
     "7409ec34ff6ff72b18a5b18a2da1530fcc86b34c2734e6b801f852fbc71b0620": [
       265,
       539,
@@ -6260,6 +6257,19 @@
       3738,
       3939
     ],
+    "74daa772707cb7a9216e1601924c2f41f1e9c0ec79510f397b20ed272cff2794": [
+      226,
+      419,
+      553,
+      717,
+      910,
+      1360,
+      1559,
+      1815,
+      1985,
+      2313,
+      2587
+    ],
     "76d226da6378b106d5388aacf253a9fb0f70fab09467f81b574049058d1d5904": [
       152,
       351,
@@ -6276,18 +6286,19 @@
       2816,
       3077
     ],
-    "778173bd49b761de4cbd91b0de4597afdcf2832412f9a7b9c3656a1fba0919d9": [
-      212,
-      401,
-      679,
-      892,
-      1341,
-      1541,
-      1790,
-      1953,
-      2275,
-      2542,
-      2752
+    "778c0be8fd43d4073cc7566cb40ed634eb389a72c4d1c93d190c476836b7ced2": [
+      300,
+      670,
+      893,
+      1098,
+      1263,
+      1488,
+      1815,
+      2033,
+      2192,
+      2537,
+      2714,
+      2951
     ],
     "788c87259ebaaa216d6dc8e30ae09bf98469866a1c2329e19f10041cc1a64c72": [
       318,
@@ -6341,39 +6352,6 @@
       594,
       730,
       1055
-    ],
-    "7ba09082a931e677cf1856cc9ada94f9222011282ad9c8347436975d57954a3c": [
-      233,
-      531,
-      757,
-      1079,
-      1387,
-      1535,
-      1723,
-      1898,
-      2130,
-      2371,
-      2610,
-      2802,
-      2942,
-      3192,
-      3526,
-      3881,
-      4076,
-      4415,
-      4551
-    ],
-    "7bb12052246775d7816754ae4d70f425e40bf8aa0eecff564b38bf7d7c2fbc86": [
-      193,
-      523,
-      667,
-      917,
-      1119,
-      1292,
-      1625,
-      1795,
-      2164,
-      2396
     ],
     "7c01f0b3bffde09ea22d0ad314789445dab733eda86810ab015ba080f5ba14fc": [
       214,
@@ -6503,21 +6481,14 @@
       3349,
       3617
     ],
-    "8d4b777a05ed3e48440414bc2eb1bdc0ec9f9c9895e38313a0958aaa15be2d54": [
-      259,
-      599,
-      811,
-      1067,
-      1297,
-      1443,
-      1709,
-      1989,
-      2277,
-      2475,
-      2727,
-      2922,
-      3221,
-      3407
+    "8d9c3478c8973d2933a5dfe449fa92213a02f7dd330dbc510ceb895ec02dea03": [
+      261,
+      602,
+      835,
+      992,
+      1336,
+      1507,
+      1698
     ],
     "8da3d7860ea5d78ab3c77a9de6cebdcbeae61c125f70606796501ee7fd42b128": [
       230,
@@ -6534,6 +6505,20 @@
       2911,
       3075,
       3289
+    ],
+    "8fd4c6494a4943b1ed59ed4aadb384a1ae3f01b8cf1457ecc5c7c74ceb2c732c": [
+      265,
+      601,
+      804,
+      1442,
+      1679,
+      1943,
+      2239,
+      2442,
+      2710,
+      2902,
+      3197,
+      3379
     ],
     "91ac92c5f105956577cd2a115a3733d0ed8f19ddbb76f6e97177c6c61b97a7a3": [
       263,
@@ -6584,6 +6569,22 @@
       3028,
       3231,
       3513
+    ],
+    "95d4c2fdaefe9a14c5d715c3f3c3edb23aaa6f6430fcf1c8797a9ab641a02564": [
+      202,
+      526,
+      673,
+      901,
+      1114,
+      1365,
+      1522,
+      1661,
+      1967,
+      2117,
+      2361,
+      2562,
+      2788,
+      3074
     ],
     "9713a0c25535d7f2052efcac7ea4054b277ad8467f2e75bb37cfab530142fca4": [
       205,
@@ -6657,6 +6658,30 @@
       2109,
       2265
     ],
+    "9fe2387800203cc6a226e3f212390871a96d14913ed59cb9eece4d45692ac6fa": [
+      182,
+      488,
+      735,
+      1012,
+      1195,
+      1357,
+      1559,
+      1704,
+      1854,
+      1997,
+      2199,
+      2535,
+      2698,
+      2912,
+      3132,
+      3453,
+      3664,
+      3822,
+      4006,
+      4176,
+      4448,
+      4684
+    ],
     "a0e2376b13ed1f557545ba7ffee38b3c8fce843585a16dcba51377392e72eeb9": [
       255,
       508,
@@ -6718,24 +6743,17 @@
       2475,
       2629
     ],
-    "a3e113f062a21371c5330b8a26a1ec2faba1e1ddce9430558f03ea69ee96dcb9": [
-      256,
-      445,
-      640,
-      904,
-      1115,
-      1272,
-      1539,
-      1757,
-      1955,
-      2174,
-      2513,
-      2804,
-      3119,
-      3403,
-      3678,
-      3887,
-      4157
+    "a4251c8d4849f8e151d6b24227973e8e5260eb9850049eafbdb1cec16b75ae9d": [
+      195,
+      534,
+      765,
+      902,
+      1104,
+      1281,
+      1576,
+      1747,
+      2141,
+      2388
     ],
     "a48fa19052803c37891e3142262c5428b25e7f435c84ff4769e2260d6bfded4d": [
       214,
@@ -6892,6 +6910,19 @@
       3078,
       3277,
       3513
+    ],
+    "aff1271ba80062095da9bf70b51e8cb69b9487fd0d5889774ceff204bb54e1d4": [
+      251,
+      514,
+      668,
+      818,
+      967,
+      1159,
+      1334,
+      1578,
+      1817,
+      2042,
+      2240
     ],
     "b03851e8caf290b72d7326da8cc7b217ee48b0d30fc62aac5f05830bb5245b34": [
       255,
@@ -7063,20 +7094,6 @@
       3245,
       3534
     ],
-    "c01e3ffb2de33a7a49ca2193306243706e47414b9874b98471069bfa5407562a": [
-      205,
-      552,
-      827,
-      1135,
-      1293,
-      1569,
-      1764,
-      2008,
-      2246,
-      2695,
-      2873,
-      3021
-    ],
     "c54201500de6864f9842d9bb775043ff457a3b38983c9a73ed1036e9af8790b3": [
       247,
       452,
@@ -7094,6 +7111,44 @@
       2102,
       2380,
       2520
+    ],
+    "c5a99763cf4285e36b20306abaec117e7dbe8a7412e5eade2368e61d6cd30f30": [
+      255,
+      453,
+      638,
+      913,
+      1111,
+      1277,
+      1554,
+      1787,
+      2006,
+      2236,
+      2405,
+      2590,
+      2892,
+      3210,
+      3505,
+      3778,
+      3982,
+      4263
+    ],
+    "c5e537fd4a4086868e24609a7df1caea5b024f73c59fe4b360c3efa5191d7a7f": [
+      257,
+      682,
+      921,
+      1126,
+      1301,
+      1558,
+      1734,
+      1988,
+      2407,
+      2684,
+      2976,
+      3308,
+      3540,
+      3685,
+      4015,
+      4394
     ],
     "c6220afd1a7550b60be5bb7f26da237a80db0829e1b5bdda1a662542e8561631": [
       169,
@@ -7124,40 +7179,30 @@
       1617,
       1813
     ],
+    "c7303625dde5d8833c5436d77767633cf46e7e24d84ae305afd65afce3bedae3": [
+      221,
+      404,
+      672,
+      843,
+      1044,
+      1412,
+      1588,
+      1754,
+      1955,
+      2244,
+      2486,
+      2759,
+      2992,
+      3158,
+      3400,
+      3587
+    ],
     "c88093163de629bc44c015bb185cb96769c977967ff5b80b376e13a026b77b80": [
       229,
       453,
       616,
       802,
       1000
-    ],
-    "c9fe3efa53595e8df00d60e28555b9f7522821cbbfe82407d2b330e2416d9a9d": [
-      272,
-      619,
-      834,
-      978,
-      1332,
-      1502,
-      1687
-    ],
-    "cb7116a180fc8c6c0588f3fee3ee91b81f459d3374d5ea23a625cb27f4ad57dd": [
-      217,
-      419,
-      686,
-      852,
-      1064,
-      1268,
-      1429,
-      1597,
-      1761,
-      1943,
-      2241,
-      2493,
-      2761,
-      2976,
-      3130,
-      3350,
-      3523
     ],
     "cbca140840198b67a1c0b3bbb6ade17f6426b58a9f9abd6ebca7fb9c255c737e": [
       290,
@@ -7220,22 +7265,6 @@
       360,
       560
     ],
-    "cdf37612ebf0958f43d896e8153f8131e8a62fa85ea83fdf8ca9c37a5f80ee75": [
-      202,
-      534,
-      683,
-      918,
-      1130,
-      1372,
-      1523,
-      1669,
-      1979,
-      2128,
-      2368,
-      2542,
-      2755,
-      3050
-    ],
     "cedc10993fa23e5306bc61d913e592886114765fbdb2dbfda2de91bd2d1cf464": [
       247,
       565,
@@ -7250,24 +7279,6 @@
       2448,
       2738,
       2924
-    ],
-    "cf0a14f80be2df89ac0a8504b3b4e9b744e9223fd494c903c3dc926f5e048912": [
-      217,
-      517,
-      746,
-      970,
-      1212,
-      1489,
-      1735,
-      1952,
-      2109,
-      2344,
-      2518,
-      2836,
-      3091,
-      3293,
-      3557,
-      3712
     ],
     "cf70d8c42bac019b9ae09d237fcb96e5dda9a034e272f7c265c8ade43b105949": [
       253,
@@ -7367,6 +7378,29 @@
       546,
       768,
       927
+    ],
+    "d8a853468a66daa775f2ac803ef41618816532611185f227ce3b18a6bd87f9da": [
+      194,
+      383,
+      655,
+      931,
+      1114,
+      1383,
+      1532,
+      1677,
+      1822,
+      1992,
+      2152,
+      2319,
+      2599,
+      2831,
+      3071,
+      3233,
+      3431,
+      3612,
+      3884,
+      4138,
+      4329
     ],
     "d965a165af85d66fc415343054f1355cc9d3c418fdb55e79bed815f0cf8274ae": [
       280,
@@ -7592,21 +7626,6 @@
       1990,
       2250
     ],
-    "eaeebb8162b6ae58b77ab345b9e8582188af2d1635e824f9b6b5779b76c0885c": [
-      280,
-      652,
-      961,
-      1157,
-      1308,
-      1524,
-      1840,
-      2064,
-      2239,
-      2602,
-      2788,
-      2940,
-      3175
-    ],
     "eaf2427c37cedcd19cff2b9df27033be97d21905ccdfc7987694a5421a4bd7fe": [
       240,
       449,
@@ -7808,30 +7827,6 @@
       2227,
       2452
     ],
-    "fdddaf15f8c287c456aab5d9fef0f98251cb4ca825398dbda79cf4235b313239": [
-      183,
-      329,
-      505,
-      742,
-      998,
-      1191,
-      1350,
-      1551,
-      1842,
-      2001,
-      2207,
-      2540,
-      2704,
-      2911,
-      3115,
-      3421,
-      3638,
-      3801,
-      4003,
-      4187,
-      4447,
-      4683
-    ],
     "fe91d2936bd1d1ca688705c7a270099e5d5bfd0e5a73504f65d3003119890043": [
       273,
       473,
@@ -7955,6 +7950,12 @@
     "13889c8ad30b9208fdc816a4e81f72b53819d19dc1e2aef296c2abe057569ecd": {
       "431": 1
     },
+    "162fa7dc14b6b8bdebf783bb25f73a59abf1e92cd4cc587ad2354d976d3ccda8": {
+      "1677": 2,
+      "2885": 3,
+      "3852": 4,
+      "546": 1
+    },
     "1756d5f95c1bbf2a10d33d95f651e518c6fc6b2af9ec7a9da415ad257574fbdd": {
       "1461": 2,
       "718": 1
@@ -8026,6 +8027,11 @@
       "2009": 2,
       "586": 1
     },
+    "2c29fed9940c974d67b96c4004ecb3ecb8be6705cfcf01068b94382492d932c5": {
+      "1598": 2,
+      "2679": 3,
+      "554": 1
+    },
     "2cd76fe4a65799f71d7f49b7389f76122c4e9873de0191905619d7b39d74c06a": {
       "1038": 2,
       "464": 1
@@ -8045,15 +8051,15 @@
       "1287": 2,
       "543": 1
     },
-    "357e27e9b1452f5541e6cbc2ca6be4cb8d5de497b495ae4136abd0c050276337": {
-      "2085": 2,
-      "3297": 3,
-      "964": 1
-    },
     "36c84312b698cf274ce414de279c70a388403f18fb9219c86ecd0b852b3183fb": {
       "2166": 2,
       "3185": 3,
       "668": 1
+    },
+    "39281663147b611cdbd62b024fecb87a257934674990990c0f9fb92e57239570": {
+      "1932": 2,
+      "3095": 3,
+      "715": 1
     },
     "3961a2f9226992747886ad1d28dd35dd1c83ac62e968fb6ffe400ede603059ff": {
       "1488": 2,
@@ -8120,6 +8126,10 @@
       "1051": 2,
       "399": 1
     },
+    "544cc886a5879fce239cbc39c41233760d25a342f10c5ba985a63b3c1ee9ad84": {
+      "2022": 2,
+      "542": 1
+    },
     "56940256f14a0147aaeb1b35ebf4092ed6f988041dd204a4cbe7023812c8e24e": {
       "1396": 2,
       "491": 1
@@ -8146,15 +8156,6 @@
       "2027": 2,
       "3072": 3,
       "608": 1
-    },
-    "5e9000367cc3a24693d6f3d251d33b68a747003b8e786c808a9df83cd66b7750": {
-      "1531": 2,
-      "510": 1
-    },
-    "5eee1e131fea2059759f4294b246c35b154992600c12a8ab9911d46c726544eb": {
-      "1661": 2,
-      "2706": 3,
-      "585": 1
     },
     "5fd5164874acb5c26ab4811bf8d150b8145f576d3ff9de3bf2bf72cb1d8c302f": {
       "855": 1
@@ -8212,24 +8213,24 @@
       "2980": 3,
       "566": 1
     },
-    "73d31fce100c555f7596b36ab9bf208bc69a4c97d979249f7a30bb5655b492d3": {
-      "1749": 2,
-      "3290": 3,
-      "694": 1
-    },
     "7409ec34ff6ff72b18a5b18a2da1530fcc86b34c2734e6b801f852fbc71b0620": {
       "1797": 2,
       "3032": 3,
       "539": 1
+    },
+    "74daa772707cb7a9216e1601924c2f41f1e9c0ec79510f397b20ed272cff2794": {
+      "1985": 2,
+      "717": 1
     },
     "76d226da6378b106d5388aacf253a9fb0f70fab09467f81b574049058d1d5904": {
       "1446": 2,
       "2435": 3,
       "713": 1
     },
-    "778173bd49b761de4cbd91b0de4597afdcf2832412f9a7b9c3656a1fba0919d9": {
-      "1953": 2,
-      "679": 1
+    "778c0be8fd43d4073cc7566cb40ed634eb389a72c4d1c93d190c476836b7ced2": {
+      "1488": 2,
+      "2537": 3,
+      "670": 1
     },
     "788c87259ebaaa216d6dc8e30ae09bf98469866a1c2329e19f10041cc1a64c72": {
       "1753": 2,
@@ -8250,16 +8251,6 @@
     },
     "7b517418c483ba3198dccaf304e39f9531ae2f124d9ffe51edd03fb40ecb18bb": {
       "458": 1
-    },
-    "7ba09082a931e677cf1856cc9ada94f9222011282ad9c8347436975d57954a3c": {
-      "1723": 2,
-      "2942": 3,
-      "3881": 4,
-      "531": 1
-    },
-    "7bb12052246775d7816754ae4d70f425e40bf8aa0eecff564b38bf7d7c2fbc86": {
-      "1625": 2,
-      "523": 1
     },
     "7c01f0b3bffde09ea22d0ad314789445dab733eda86810ab015ba080f5ba14fc": {
       "425": 1
@@ -8304,15 +8295,19 @@
       "2311": 2,
       "770": 1
     },
-    "8d4b777a05ed3e48440414bc2eb1bdc0ec9f9c9895e38313a0958aaa15be2d54": {
-      "1709": 2,
-      "2727": 3,
-      "811": 1
+    "8d9c3478c8973d2933a5dfe449fa92213a02f7dd330dbc510ceb895ec02dea03": {
+      "602": 1,
+      "992": 2
     },
     "8da3d7860ea5d78ab3c77a9de6cebdcbeae61c125f70606796501ee7fd42b128": {
       "1667": 2,
       "2911": 3,
       "670": 1
+    },
+    "8fd4c6494a4943b1ed59ed4aadb384a1ae3f01b8cf1457ecc5c7c74ceb2c732c": {
+      "1679": 2,
+      "2710": 3,
+      "804": 1
     },
     "91ac92c5f105956577cd2a115a3733d0ed8f19ddbb76f6e97177c6c61b97a7a3": {
       "1789": 2,
@@ -8327,6 +8322,11 @@
     "949fec13bfbe11031a2f40aa3ebd46cc48a9487278f6051f66cb5293182cdb6d": {
       "2225": 3,
       "800": 1
+    },
+    "95d4c2fdaefe9a14c5d715c3f3c3edb23aaa6f6430fcf1c8797a9ab641a02564": {
+      "1365": 2,
+      "2117": 4,
+      "526": 1
     },
     "9713a0c25535d7f2052efcac7ea4054b277ad8467f2e75bb37cfab530142fca4": {
       "1455": 2,
@@ -8352,6 +8352,11 @@
       "1634": 3,
       "615": 1
     },
+    "9fe2387800203cc6a226e3f212390871a96d14913ed59cb9eece4d45692ac6fa": {
+      "1997": 2,
+      "3453": 3,
+      "488": 1
+    },
     "a0e2376b13ed1f557545ba7ffee38b3c8fce843585a16dcba51377392e72eeb9": {
       "2121": 2,
       "3531": 3,
@@ -8371,10 +8376,9 @@
       "2044": 2,
       "901": 1
     },
-    "a3e113f062a21371c5330b8a26a1ec2faba1e1ddce9430558f03ea69ee96dcb9": {
-      "1272": 2,
-      "2804": 3,
-      "445": 1
+    "a4251c8d4849f8e151d6b24227973e8e5260eb9850049eafbdb1cec16b75ae9d": {
+      "1576": 2,
+      "534": 1
     },
     "a48fa19052803c37891e3142262c5428b25e7f435c84ff4769e2260d6bfded4d": {
       "1503": 2,
@@ -8423,6 +8427,10 @@
       "1804": 2,
       "2908": 3,
       "904": 1
+    },
+    "aff1271ba80062095da9bf70b51e8cb69b9487fd0d5889774ceff204bb54e1d4": {
+      "1578": 2,
+      "514": 1
     },
     "b03851e8caf290b72d7326da8cc7b217ee48b0d30fc62aac5f05830bb5245b34": {
       "1788": 2,
@@ -8481,10 +8489,6 @@
       "2794": 3,
       "459": 1
     },
-    "c01e3ffb2de33a7a49ca2193306243706e47414b9874b98471069bfa5407562a": {
-      "2008": 2,
-      "552": 1
-    },
     "c54201500de6864f9842d9bb775043ff457a3b38983c9a73ed1036e9af8790b3": {
       "247": 1,
       "738": 2
@@ -8492,6 +8496,16 @@
     "c547deebb599bc9202d1edd47a3c4d4a85500616c796a63ec46d1dac81a595e3": {
       "1677": 2,
       "564": 1
+    },
+    "c5a99763cf4285e36b20306abaec117e7dbe8a7412e5eade2368e61d6cd30f30": {
+      "1277": 2,
+      "2892": 3,
+      "453": 1
+    },
+    "c5e537fd4a4086868e24609a7df1caea5b024f73c59fe4b360c3efa5191d7a7f": {
+      "1734": 2,
+      "3308": 3,
+      "682": 1
     },
     "c6220afd1a7550b60be5bb7f26da237a80db0829e1b5bdda1a662542e8561631": {
       "1814": 2,
@@ -8502,17 +8516,13 @@
       "1413": 2,
       "525": 1
     },
+    "c7303625dde5d8833c5436d77767633cf46e7e24d84ae305afd65afce3bedae3": {
+      "1044": 2,
+      "2486": 3,
+      "672": 1
+    },
     "c88093163de629bc44c015bb185cb96769c977967ff5b80b376e13a026b77b80": {
       "453": 1
-    },
-    "c9fe3efa53595e8df00d60e28555b9f7522821cbbfe82407d2b330e2416d9a9d": {
-      "619": 1,
-      "978": 2
-    },
-    "cb7116a180fc8c6c0588f3fee3ee91b81f459d3374d5ea23a625cb27f4ad57dd": {
-      "1064": 2,
-      "2493": 3,
-      "686": 1
     },
     "cbca140840198b67a1c0b3bbb6ade17f6426b58a9f9abd6ebca7fb9c255c737e": {
       "1990": 2,
@@ -8532,19 +8542,9 @@
     "cd9f53cfdc22b4eca67e149e5f44cedaa3dc46d9109a5c677d64dc7ec12906a2": {
       "360": 1
     },
-    "cdf37612ebf0958f43d896e8153f8131e8a62fa85ea83fdf8ca9c37a5f80ee75": {
-      "1372": 2,
-      "2128": 4,
-      "534": 1
-    },
     "cedc10993fa23e5306bc61d913e592886114765fbdb2dbfda2de91bd2d1cf464": {
       "2112": 2,
       "839": 1
-    },
-    "cf0a14f80be2df89ac0a8504b3b4e9b744e9223fd494c903c3dc926f5e048912": {
-      "1952": 2,
-      "3091": 3,
-      "746": 1
     },
     "cf70d8c42bac019b9ae09d237fcb96e5dda9a034e272f7c265c8ade43b105949": {
       "2283": 2,
@@ -8578,6 +8578,11 @@
     },
     "d82753bb0350b7d077cdab992f435e5df1a3b5f6ea557af6643a1f38b83f8ec5": {
       "546": 1
+    },
+    "d8a853468a66daa775f2ac803ef41618816532611185f227ce3b18a6bd87f9da": {
+      "1992": 2,
+      "3233": 3,
+      "931": 1
     },
     "d965a165af85d66fc415343054f1355cc9d3c418fdb55e79bed815f0cf8274ae": {
       "2030": 2,
@@ -8645,11 +8650,6 @@
       "1586": 2,
       "590": 1
     },
-    "eaeebb8162b6ae58b77ab345b9e8582188af2d1635e824f9b6b5779b76c0885c": {
-      "1524": 2,
-      "2602": 3,
-      "652": 1
-    },
     "eaf2427c37cedcd19cff2b9df27033be97d21905ccdfc7987694a5421a4bd7fe": {
       "1143": 2,
       "449": 1
@@ -8716,11 +8716,6 @@
     "fda18a3497a2c36d147022c6a1e16a6f79865dbf674d47c096624dff34860916": {
       "1766": 2,
       "513": 1
-    },
-    "fdddaf15f8c287c456aab5d9fef0f98251cb4ca825398dbda79cf4235b313239": {
-      "2001": 2,
-      "3421": 3,
-      "505": 1
     },
     "fe91d2936bd1d1ca688705c7a270099e5d5bfd0e5a73504f65d3003119890043": {
       "1705": 2,

@@ -1,0 +1,89 @@
+{
+ "key": "quest:94242",
+ "type": "quest",
+ "name": "Craftsman's Writ: Pilferer's Gloves",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94242
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ requests Pilferer's Gloves and gives the details for delivery and payment. You need the writ to complete the transaction.",
+ "sections": [
+  {
+   "title": "A Written Order",
+   "body": "A faded note requests one pair of Pilferer's Gloves. It includes where to deliver them and how payment is arranged, and the writ can pass from hand to hand.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Transaction",
+   "body": "You need the writ with you when you bring the requested gloves to the marked location. The note ties the delivery and payment details to this written order.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "pilferer's gloves writ",
+    "gloves order",
+    "what item"
+   ],
+   "answer": "The writ requests one pair of Pilferer's Gloves."
+  },
+  {
+   "q": "Where do I deliver the gloves?",
+   "aliases": [
+    "delivery place",
+    "where to take gloves",
+    "marked location"
+   ],
+   "answer": "The delivery location is marked on your map."
+  },
+  {
+   "q": "What do I need to complete the transaction?",
+   "aliases": [
+    "need the writ",
+    "writ requirement",
+    "complete transaction"
+   ],
+   "answer": "You need the writ in your possession to complete the transaction."
+  },
+  {
+   "q": "Does the writ say how payment works?",
+   "aliases": [
+    "payment details",
+    "how much payment",
+    "gloves payment"
+   ],
+   "answer": "The writ includes information about payment."
+  },
+  {
+   "q": "Can someone else carry the writ?",
+   "aliases": [
+    "transferable writ",
+    "pass the note",
+    "can i give it away"
+   ],
+   "answer": "Yes. The writ is transferable."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "delivery",
+  "gloves",
+  "payment",
+  "pilferer's gloves",
+  "transferable",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Pilferer's Gloves"
+ ]
+}

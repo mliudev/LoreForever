@@ -1,0 +1,80 @@
+{
+ "key": "quest:79624",
+ "type": "quest",
+ "name": "Anyone Can Cook",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79624
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "An illegible recipe appears to describe a meat dish, and you suspect ogre writing. Find an ogre who can read it.",
+ "sections": [
+  {
+   "title": "A Strange Recipe",
+   "body": "The recipe is written in a language you cannot read, and its subject seems to be a meat dish. Ogre is your best guess, given where it came from and what it describes. You hope to find an ogre who can translate it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the recipe for?",
+   "aliases": [
+    "recipe purpose",
+    "what dish",
+    "meat recipe"
+   ],
+   "answer": "It appears to be for some sort of meat dish."
+  },
+  {
+   "q": "What language is the recipe written in?",
+   "aliases": [
+    "recipe language",
+    "what writing",
+    "can't read recipe"
+   ],
+   "answer": "You do not understand the language. Ogre is your best guess."
+  },
+  {
+   "q": "Who can read the recipe?",
+   "aliases": [
+    "translate recipe",
+    "who can read it",
+    "ogre reader"
+   ],
+   "answer": "You are looking for an ogre who can read it."
+  },
+  {
+   "q": "Who is Skonk?",
+   "aliases": [
+    "Skonk",
+    "who skonk",
+    "ogre Skonk"
+   ],
+   "answer": "Skonk is an ogre who is listening for the recipe."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "As a cook, you have a reason to wonder what sort of meat dish the illegible recipe describes."
+  }
+ ],
+ "keywords": [
+  "anyone can cook",
+  "illegible recipe",
+  "meat dish",
+  "ogre",
+  "recipe",
+  "skonk",
+  "translation"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Anyone Can Cook"
+ ]
+}

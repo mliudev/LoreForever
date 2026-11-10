@@ -245,17 +245,18 @@ end
 
 -- What Lore Forever ships -----------------------------------------------------------------------------------------------
 
--- Whether the add-on's data has this text: a quest part's recorded words (ns.DB.questVoice, a fingerprint per part:
--- Voice.QuestFingerprints) match it. Nothing else ships as game text yet (gossip, books, what NPCs say).
+-- Whether the add-on's data has this text: a quest part's recorded words match it (ns.DB.questVoice: a page's
+-- fingerprints, more than one when its words have a choice in them, "lad" or "lass": Voice.QuestFingerprints). A book's
+-- page is checked as it shows (Capture.BookLine). Gossip and what NPCs say have no recordings to match.
 function Capture.Ships(kind, id, part, text)
   if kind ~= "quest" or not PART_FP[part] then return false end
   local q = ns.DB and ns.DB.questVoice and ns.DB.questVoice[tonumber(id)]
-  local fp = q and q[PART_FP[part]]
-  if type(fp) ~= "string" or fp == "" then return false end
+  local fps = q and q[PART_FP[part]]
+  if type(fps) ~= "string" or fps == "" then return false end
   if type(text) ~= "string" or not ns.Voice or not ns.Voice.QuestFingerprints then return true end
   local plain = text:gsub("%$[NCR]", " ")
   for _, f in ipairs(ns.Voice.QuestFingerprints(plain)) do
-    if f == fp then return true end
+    if (" " .. fps .. " "):find(" " .. f .. " ", 1, true) then return true end
   end
   return false
 end
@@ -681,7 +682,7 @@ function Capture.BookLine()
   local title = call(_G.ItemTextGetItem)
   if not usable(title) or call(_G.ItemTextGetCreator) then return nil end   -- a letter a player wrote
   local raw, page = call(_G.ItemTextGetText), tonumber(call(_G.ItemTextGetPage)) or 1
-  if not usable(raw) then return nil end
+  if not usable(raw) or ns.Voice.BookPageRecorded() then return nil end   -- (Mike, 11/9: not beside what we've recorded)
   title = ns.Log.ScrubName(title)   -- the key texts.books has it under (Journey.lua)
   return shareable({ kind = "book", id = title, part = page, text = Capture.Placeholders(raw),
     player = Capture.PlayerTag(), key = "book:" .. title .. "#" .. page, label = title })
@@ -882,13 +883,8 @@ local function shareWindow()
   local T = ns.Theme
   local f = T.Window("LoreForeverShare", UIParent, "Lore Forever")
   f:SetSize(440, 236)
-  f:SetPoint("CENTER")
   f:SetFrameStrata("DIALOG")
-  f:SetMovable(true)
-  f:EnableMouse(true)
-  f:RegisterForDrag("LeftButton")
-  f:SetScript("OnDragStart", f.StartMoving)
-  f:SetScript("OnDragStop", f.StopMovingOrSizing)
+  T.Movable(f, "share")
   table.insert(UISpecialFrames, "LoreForeverShare")
   local title = f:CreateFontString(nil, "OVERLAY", T.font.heading)
   title:SetPoint("TOPLEFT", 16, -32)

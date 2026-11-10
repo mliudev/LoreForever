@@ -182,7 +182,7 @@ P.transport["npc:azar-stronghammer"] = {
   fullHash = "c3ab17",
   text = "Azar Stronghammer. At the Thunderbrew Distillery in Kharanos, Azar Stronghammer guides new dwarven paladins in the Holy Light. He sends promising recruits to Ironforge for further instruction after their training. Azar Stronghammer guides newly inducted dwarven paladins on Dun Morogh's freezing slopes. Humans are often linked to the great cathedrals, yet the dwarves of Khaz Modan have embraced the Holy Light. Having mastered his own martial and spiritual vows, Azar helps novices find their way. When a recruit shows dedication and spiritual maturity, he sends them up the mountain path to Ironforge, where veteran champions such as Tiza Battleforge can teach them further.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_azar-stronghammer-78e2f19d339389ef1fa0/1-0000.mp3", duration = 39.2097959, start = 0},
+    {file = "Audio/Transport/full_npc_azar-stronghammer-143fd19ca2c97ceaea94/1-0000.mp3", duration = 39.7322449, start = 0},
   },
 }
 P.transport["npc:azuregos"] = {
@@ -270,7 +270,7 @@ P.transport["npc:beldin-steelgrill"] = {
   fullHash = "45bdc2",
   text = "Beldin Steelgrill. At Steelgrill's Depot in Dun Morogh, Beldin Steelgrill keeps dwarven war machines running. Across Khaz Modan, he is renowned as a master technician, repairing siege engines and armored wagons with a steady supply of specialized tools. Just down the road from Kharanos, Steelgrill's Depot tests and services steam tanks and siege engines. The work strains heavy wrenches, cutters, and precision instruments against metal and rumbling boilers. Beldin needs replacements constantly, keeping local ironworkers busy at his bench.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_beldin-steelgrill-640f55ca20c8d63b0c4f/1-0000.mp3", duration = 32.2873469, start = 0},
+    {file = "Audio/Transport/full_npc_beldin-steelgrill-5a9efed701d899ae63c3/1-0000.mp3", duration = 32.4963265, start = 0},
   },
 }
 P.transport["npc:bingles-blastenheimer"] = {
@@ -330,11 +330,11 @@ P.transport["npc:bluff-runner-windstrider"] = {
   },
 }
 P.transport["npc:braelyn-firehand"] = {
-  hash = "559865",
-  fullHash = "559865",
-  text = "Braelyn Firehand. At Sun Rock Retreat, Braelyn Firehand lives among the Horde and draws travelers into a campaign against the night elves of Stonetalon Peak. At Sun Rock Retreat, Braelyn Firehand lives openly among tauren lodges and orcish tents. The retreat’s shamans and chieftains tolerate her, apparently unaware of her true loyalties. She calls herself an observer of the region’s magic and hires passing Horde mercenaries for dangerous work among the crags.",
+  hash = "f766a3",
+  fullHash = "f766a3",
+  text = "Braelyn Firehand. At Sun Rock Retreat, Braelyn Firehand lives among the Horde and draws travelers into a campaign against the night elves of Stonetalon Peak. Braelyn Firehand is an elven mage, yet she lives openly among tauren lodges and orcish tents. The retreat’s shamans and chieftains tolerate her, apparently unaware of her true loyalties. She calls herself an observer of the region’s magic and hires passing Horde mercenaries for dangerous work among the crags.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_braelyn-firehand-fef4075e4beea089d7d8/1-0000.mp3", duration = 27.0106122, start = 0},
+    {file = "Audio/Transport/full_npc_braelyn-firehand-6d157c3937489b6352c3/1-0000.mp3", duration = 29.1004082, start = 0},
   },
 }
 P.transport["npc:braenna-flintcrag"] = {
@@ -686,7 +686,7 @@ P.transport["npc:darn-talongrip"] = {
   fullHash = "7fcde8",
   text = "Darn Talongrip. At Malaka'jin, Darn Talongrip watches the Stonetalon frontier. The orc scout tracks threats in the crags and carries word between forward outposts and Horde commanders. Darn Talongrip watches the rugged climbs from the southern Barrens into Stonetalon. At Malaka'jin, he directs recruits toward the Horde's new fronts in Ashenvale. Travelers climbing into the contested peaks can reach the Horde through his post. From Malaka'jin, Darn sends messages and reports from the front to commanders such as Kadrak, at the watch tower in the northern Barrens. Encampments scattered through the mountains face constant pressure. As sentry and courier, Darn keeps the Horde vanguard informed.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_darn-talongrip-afb0110f1b16c5a26d7b/1-0000.mp3", duration = 41.4040816, start = 0},
+    {file = "Audio/Transport/full_npc_darn-talongrip-b9e59e1aac4d75c744b1/1-0000.mp3", duration = 41.6653061, start = 0},
   },
 }
 P.transport["npc:daryl-the-youngling"] = {
@@ -1090,11 +1090,11 @@ P.transport["npc:eva-sarkhoff"] = {
   },
 }
 P.transport["npc:falfindel-waywarder"] = {
-  hash = "e2131f",
-  fullHash = "e2131f",
-  text = "Falfindel Waywarder. At Thalanaar, Falfindel Waywarder keeps watch over the border between Feralas and Thousand Needles. The night elf druid works to heal corrupted lands and guard Kalimdor’s southern wilderness. Travelers from Stonetalon or the Barrens often seek his aid to restore balance to the wild. At Thalanaar, Falfindel Waywarder watches where Feralas meets Thousand Needles. The outpost marks the passage from forest to mesas and salt plains. Travelers who have crossed far across the continent greet him there. From this post, he watches for local threats and dangers to lands across Kalimdor. Falfindel Waywarder watches from the south, but the ruin of the Charred Vale in Stonetalon Mountains weighs on him. Dark sorcery and fire scarred that wilderness. When adventurers bring aid for its recovery, he calls on the forest spirits. Falfindel summons swarms of wisps and sends them north to mend the scorched earth. Falfindel Waywarder also watches the region around Thalanaar, including the quilboar dens of Razorfen Kraul. He studies recovered journals and gathers word of quilboar leaders. His watch helps the Alliance understand the dangers threatening the passes between Feralas and the central deserts.",
+  hash = "fade10",
+  fullHash = "fade10",
+  text = "Falfindel Waywarder. At Thalanaar, Falfindel Waywarder keeps watch over the border between Feralas and Thousand Needles. The night elf druid works to heal corrupted lands and guard Kalimdor’s southern wilderness. Travelers from Stonetalon or the Barrens often seek his aid to restore balance to the wild. Falfindel Waywarder stands at Thalanaar, the night elf outpost on the edge of Feralas. The outpost marks the passage from forest to mesas and salt plains. Travelers who have crossed far across the continent greet him there. From this post, he watches for local threats and dangers to lands across Kalimdor. Falfindel Waywarder watches from the south, but the ruin of the Charred Vale in Stonetalon Mountains weighs on him. Dark sorcery and fire scarred that wilderness. When adventurers bring aid for its recovery, he calls on the forest spirits. Falfindel summons swarms of wisps and sends them north to mend the scorched earth. Falfindel Waywarder also watches the region around Thalanaar, including the quilboar dens of Razorfen Kraul. He studies recovered journals and gathers word of quilboar leaders. His watch helps the Alliance understand the dangers threatening the passes between Feralas and the central deserts.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_falfindel-waywarder-497ff71e8b0fb8dda7f5/1-0000.mp3", duration = 73.0383673, start = 0},
+    {file = "Audio/Transport/full_npc_falfindel-waywarder-13ca55a4ffa98d72cae4/1-0000.mp3", duration = 72.5942857, start = 0},
   },
 }
 P.transport["npc:falla-sagewind"] = {
@@ -1430,7 +1430,7 @@ P.transport["npc:greatfather-winter"] = {
   fullHash = "707bbb",
   text = "Greatfather Winter. As winter turns, Greatfather Winter is part of old legend and city festivities. Some say he lays snow across Azeroth so the land may rest and renew. In the cities, goblins of Smokywood Pastures shape how people know him. Ancient tales say Greatfather Winter wanders the world late in the year. He spreads his snowy cloak, and nature sleeps before it is born anew. Dwarves call him an aspect or herald of the titans. They point to Dun Morogh's frosted crags as proof of his favor. Tauren honor his place in winter's turning, while crediting the Sun and Moon with the cold and storms that let the Earth Mother rest.\n\nAcross the lands, people gather and feast against the cold. They hold to the promise that life will return. In Ironforge and Orgrimmar, goblins of Smokywood Pastures have reshaped the old spirit for city celebrations. The trading company made popular the image of Greatfather Winter as a cheerful elder in red, with a white beard, flying sleigh, holiday treats, and toys.\n\nSmokywood Pastures hires a dwarf in Ironforge and an orc in Orgrimmar to hear children's wishlists and accept milk and gingerbread cookies. Beneath lavishly decorated trees, the company also promotes its seasonal wares.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_greatfather-winter-e6a09f229dfe1c47e191/1-0000.mp3", duration = 76.8522449, start = 0},
+    {file = "Audio/Transport/full_npc_greatfather-winter-0892da55c736eb7d53d2/1-0000.mp3", duration = 77.0873469, start = 0},
   },
 }
 P.transport["npc:greatmother-hawkwind"] = {
@@ -1934,7 +1934,7 @@ P.transport["npc:keeper-albagorm"] = {
   fullHash = "e7f81e",
   text = "Keeper Albagorm. At Stonetalon Peak, Keeper Albagorm seeks aid as the Charred Vale burns and the wilds suffer. Keeper Albagorm guards the night elven refuge at Stonetalon Peak. As a son of Cenarius, he feels the pain of the natural world. South of the peak, the Charred Vale lies scorched by a greedy mechanized army of industrialists. Bloodfury harpies now hold the ruins and prevent new growth. From his sanctuary, Albagorm works to halt the corruption and restore balance to the wounded forest.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_keeper-albagorm-6ec353a84b02f6b57462/1-0000.mp3", duration = 30.484898, start = 0},
+    {file = "Audio/Transport/full_npc_keeper-albagorm-2df5716dc80a3a933b90/1-0000.mp3", duration = 30.6416327, start = 0},
   },
 }
 P.transport["npc:keeper-bel-dugur"] = {
@@ -2494,7 +2494,7 @@ P.transport["npc:mastok-wrilehiss"] = {
   fullHash = "9f53db",
   text = "Mastok Wrilehiss. At Splintertree Post, Mastok Wrilehiss works to hold the Horde’s ground in Ashenvale. He directs scouts and warriors to watch nearby borders and face corrupting elemental forces amid the night elves’ hostility. Splintertree Post lies beneath Ashenvale’s canopy, surrounded by hostile night elf territory. Mastok Wrilehiss helps defend the outpost and watches its supply routes and the forest beyond. The Sentinels see the settlement as an intrusion on their lands. They strike quickly when they sense weakness. From inside the stockade, Mastok Wrilehiss gives passing adventurers duties in the Horde’s defense. He watches the borders toward the Stonetalon Mountains and sends scouts to speak with shamans such as Je'neu Sancrea of the Earthen Ring at Zoram'gar Strand. He also follows the strange corruption afflicting local elementals.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_mastok-wrilehiss-6668c1259bbd3b070fff/1-0000.mp3", duration = 52.0881633, start = 0},
+    {file = "Audio/Transport/full_npc_mastok-wrilehiss-7131c5905801f89985b5/1-0000.mp3", duration = 52.5322449, start = 0},
   },
 }
 P.transport["npc:mathredis-firestar"] = {
@@ -2582,7 +2582,7 @@ P.transport["npc:milli-featherwhistle"] = {
   fullHash = "4c78f7",
   text = "Milli Featherwhistle. At Steelgrill's Depot, Milli Featherwhistle builds and maintains mechanostriders for Gnomeregan's displaced people. She sells these clockwork mounts to her kin and to trusted allies among the exiles. Just east of Kharanos, Milli works outdoors in Dun Morogh's biting chill. She tunes each mount's gears, pistons, and balancing gyros to carry riders across the snowy crags. Dwarves and night elves favor living mounts. For Gnomeregan's displaced people, Milli's clockwork steeds meet a different need. Milli follows the blueprints first drawn by High Tinker Gelbin Mekkatorque. She has improved each mechanostrider's performance by lightening its chassis and refining its exhaust vents. Yet she keeps to the High Tinker's original designs. Her work carries gnomish ambition forward, even in exile.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_milli-featherwhistle-51545c508d2463a0996d/1-0000.mp3", duration = 51.4089796, start = 0},
+    {file = "Audio/Transport/full_npc_milli-featherwhistle-146f9afead384eabb8bb/1-0000.mp3", duration = 49.7893878, start = 0},
   },
 }
 P.transport["npc:milton-sheaf"] = {
@@ -2650,11 +2650,11 @@ P.transport["npc:moon-priestess-amara"] = {
   },
 }
 P.transport["npc:mor-rogal"] = {
-  hash = "7a85f5",
-  fullHash = "7a85f5",
-  text = "Mor'rogal. At Sun Rock Retreat, Mor'rogal sends Horde travelers toward the dangers and promise of the Stonetalon Mountains. From Sun Rock Retreat, Mor'rogal watches the deep crevices and caverns of the Stonetalon Mountains. Their twisting passages may hold riches, but they can also bring deadly danger. So Mor'rogal sends brave Horde wanderers to troubled places such as Boulderslide Ravine. Facing those depths tests the spirit of anyone who seeks glory with heart and soul.",
+  hash = "0f8bbe",
+  fullHash = "0f8bbe",
+  text = "Mor'rogal. At Sun Rock Retreat, Mor'rogal sends Horde travelers toward the dangers and promise of the Stonetalon Mountains. Deep crevices and caverns cut into the Stonetalon Mountains, and Mor'rogal keeps his eye on them. Their twisting passages may hold riches, but they can also bring deadly danger. So Mor'rogal sends brave Horde wanderers to troubled places such as Boulderslide Ravine. Facing those depths tests the spirit of anyone who seeks glory with heart and soul.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_mor-rogal-7d4bb44a89212576f3b3/1-0000.mp3", duration = 29.6228571, start = 0},
+    {file = "Audio/Transport/full_npc_mor-rogal-2c4d889e547836e484d5/1-0000.mp3", duration = 28.4212245, start = 0},
   },
 }
 P.transport["npc:morgan-pestle"] = {
@@ -2678,7 +2678,7 @@ P.transport["npc:mountaineer-barleybrew"] = {
   fullHash = "162708",
   text = "Mountaineer Barleybrew. At South Gate Outpost, Mountaineer Barleybrew keeps watch over the pass from Dun Morogh to Loch Modan. Dwarven brews help sentries endure the cold. Mountaineer Wellart Barleybrew watches the snowy road to Loch Modan from South Gate Outpost. He serves in Ironforge's border watch. Like other mountaineers in Dun Morogh's bitter winds, he values fine dwarven drink. His name ties him to the renowned Barleybrew clan. He also helps send potent Shimmer Stout to watchmen who need warmth and stamina through long shifts in the mountain passes.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_mountaineer-barleybrew-ce153ce818f081aad9ee/1-0000.mp3", duration = 34.0636735, start = 0},
+    {file = "Audio/Transport/full_npc_mountaineer-barleybrew-c0b66be5ecc266340af3/1-0000.mp3", duration = 33.1232653, start = 0},
   },
 }
 P.transport["npc:mountaineer-kadrell"] = {
@@ -2702,7 +2702,7 @@ P.transport["npc:mountaineer-thalos"] = {
   fullHash = "1579ee",
   text = "Mountaineer Thalos. At Coldridge Pass, Mountaineer Thalos guards the road toward Kharanos, where couriers bring urgent reports. Troggs have overrun the tunnel, and he decides who may cross safely. Troggs have burrowed up from below and made Coldridge Pass dangerous. At its snowy mouth, where Coldridge Valley gives way to Dun Morogh’s deeper crags, Thalos turns back travelers who are not ready. He tests whether couriers have the grit to face the infested tunnel. If they cannot get through, their reports may never reach the wider kingdom. Grelin Whitebeard reports Frostmane troll movements in the secluded valley. A courier carries his account to Grelin’s brother Senir in Kharanos, but first must speak with Mountaineer Thalos. Thalos sends capable travelers through the pass toward Kharanos, where regional commanders coordinate Dun Morogh’s defense. Vital intelligence must reach Ironforge’s military leaders, not vanish in the snow.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_mountaineer-thalos-3beec457340f2d1b5857/1-0000.mp3", duration = 54.4391837, start = 0},
+    {file = "Audio/Transport/full_npc_mountaineer-thalos-1c46439a3d52aff734cd/1-0000.mp3", duration = 56.9991837, start = 0},
   },
 }
 P.transport["npc:mupsi-shacklefridd"] = {
@@ -2954,11 +2954,11 @@ P.transport["npc:pilot-bellowfiz"] = {
   },
 }
 P.transport["npc:pilot-hammerfoot"] = {
-  hash = "77a39f",
-  fullHash = "77a39f",
-  text = "Pilot Hammerfoot. At North Gate Outpost, Pilot Hammerfoot watches the pass and searches for a missing fellow pilot. The Siege Brigade’s engines guard the route, but the mountain hills are dangerous. At North Gate Outpost, Pilot Hammerfoot watches the passes between Dun Morogh and Loch Modan. He guards Ironforge’s siege engines for the Siege Brigade. The rough mountain ground makes those engines dangerous to drive. Now one pilot is missing, and savage beasts roam the nearby hills. Finding him matters.",
+  hash = "28cbfa",
+  fullHash = "28cbfa",
+  text = "Pilot Hammerfoot. At North Gate Outpost, Pilot Hammerfoot watches the pass and searches for a missing fellow pilot. The Siege Brigade’s engines guard the route, but the mountain hills are dangerous. Between Dun Morogh and Loch Modan, the passes are Pilot Hammerfoot's to watch. He guards Ironforge’s siege engines for the Siege Brigade. The rough mountain ground makes those engines dangerous to drive. Now one pilot is missing, and savage beasts roam the nearby hills. Finding him matters.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_pilot-hammerfoot-0bb47d5218c129b0483e/1-0000.mp3", duration = 31.2946939, start = 0},
+    {file = "Audio/Transport/full_npc_pilot-hammerfoot-63ec102bdeeeb8d85b49/1-0000.mp3", duration = 30.197551, start = 0},
   },
 }
 P.transport["npc:pilot-longbeard"] = {
@@ -3086,7 +3086,7 @@ P.transport["npc:ragnar-thunderbrew"] = {
   fullHash = "4c63c4",
   text = "Ragnar Thunderbrew. At the Thunderbrew Distillery in Kharanos, Ragnar Thunderbrew keeps the family tavern supplied and its patrons fed. Across Dun Morogh, the dwarven brewer is known for the family's Beer Basted Boar Ribs. Ragnar Thunderbrew tends the kitchen and brewing work at the Thunderbrew Distillery in Kharanos. Mountaineers, travelers, and gnome refugees fleeing Gnomeregan gather there. His Beer Basted Boar Ribs, made with dwarven ale, are a Dun Morogh specialty.\n\nSupplies have grown hard to find since his usual meat provider enlisted in the King's Army. Ragnar now depends on wandering mountaineers and hunters to bring fresh crag boar flanks to the kitchen. Across Ironforge territory, the Thunderbrew name is known for dwarven drink and tavern life. Ragnar has kept the distillery running since his older brother, Grimbooze Thunderbrew, disappeared in a drunken haze a few harvests ago.\n\nHe guards the family's brewing heritage against thieves such as the Dark Iron dwarves, who stole the recipe for Thunderbrew Lager. With patrons restless, supplies scarce, and disputes breaking out in the tavern, Ragnar keeps the taps flowing and travelers fed in Kharanos.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_ragnar-thunderbrew-48d5553a7c2c3039a2bd/1-0000.mp3", duration = 72.0979592, start = 0},
+    {file = "Audio/Transport/full_npc_ragnar-thunderbrew-8a0f85dc69ab276d92d8/1-0000.mp3", duration = 70.6873469, start = 0},
   },
 }
 P.transport["npc:rahauro"] = {
@@ -3702,7 +3702,7 @@ P.transport["npc:talvash-del-kissel"] = {
   fullHash = "1dedac",
   text = "Talvash del Kissel. In Ironforge's Mystic Ward, the gnome jeweler Talvash del Kissel is down on his luck. He fled Gnomeregan when the troggs overran it, then fell into debt amid rumors of questionable dealings. Now he turns to adventurers to recover lost treasures and restore shattered relics. His eye for gems and ancient baubles makes him a valued contact for those exploring Uldaman. Talvash once earned respect as a jeweler in Gnomeregan, until the troggs overran the city and destroyed his livelihood along with his home. He escaped with the surviving refugees to Ironforge and set up camp in the Mystic Ward. Yet relocation brought little relief.\n\nRumors of questionable dealings and unpaid obligations gathered around him, leaving the craftsman in deep financial distress. Unable to rebuild his trade through conventional means, he now relies on freelance adventurers to recover lost assets and salvage his reputation. Talvash has kept his precision with gems and his skill at judging their worth. When explorers in the Badlands uncover an ancient, shattered necklace deep in Uldaman's Titan vault, few craftsmen in the Eastern Kingdoms can make sense of its intricate enchantments. Restoring its power takes rare components and painstaking work. Talvash is eager to do it, both to clear his debts and prove his skill endures.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_talvash-del-kissel-97fc0c6053d445664bf5/1-0000.mp3", duration = 80.7967347, start = 0},
+    {file = "Audio/Transport/full_npc_talvash-del-kissel-b13f93d7d42c894ec5c2/1-0000.mp3", duration = 79.0204082, start = 0},
   },
 }
 P.transport["npc:tammra-windfield"] = {
@@ -3710,7 +3710,7 @@ P.transport["npc:tammra-windfield"] = {
   fullHash = "fe1f3e",
   text = "Tammra Windfield. At Sun Rock Retreat, Tammra Windfield guides Horde travelers in honoring the land's renewal. She watches over the Stonetalon wilderness and the safety of her kin. Sun Rock Retreat shelters the Horde among the crags of Stonetalon. Harpies, Venture Company loggers, and predators threaten the settlement. Tammra Windfield watches over the mountain wilderness and the travelers who enter. Her gentle manner is matched by the resolve to keep a home safe in such rugged country. Tammra honors the Earth Mother by tending to nature's steady rhythm of growth and decay. She asks travelers to help renew the land and bring forth new life. Conflict and exploitation have harmed Stonetalon, so she works to heal the mountain soil and let life flourish again. Tammra's care reaches beyond the wilds to the companions and kin who travel Stonetalon's dangerous trails. When travelers or family vanish among the crags, she is among the first to seek reliable aid. Sun Rock Retreat endures through loyalty, mutual protection, and harmony with nature.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_tammra-windfield-a5af6b5991fa99255d67/1-0000.mp3", duration = 61.204898, start = 0},
+    {file = "Audio/Transport/full_npc_tammra-windfield-47522ccbe7ed03f412f9/1-0000.mp3", duration = 63.3730612, start = 0},
   },
 }
 P.transport["npc:tannok-frosthammer"] = {
@@ -3846,7 +3846,7 @@ P.transport["npc:thorgrum-borrelson"] = {
   fullHash = "702587",
   text = "Thorgrum Borrelson. Above Thelsamar, Thorgrum Borrelson keeps travelers flying across Loch Modan. His roost links the valley with Ironforge and the nearby mountain passes. Thorgrum Borrelson keeps the gryphon roost on the bluff above Thelsamar. His trained gryphons carry the Alliance across Loch Modan, where troggs and gnoll packs threaten the roads. They pass through South Gate Pass to the Great Forge in Dun Morogh, then fly onward toward the Wetlands and beyond.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_thorgrum-borrelson-c71078495a7a367e0def/1-0000.mp3", duration = 27.5591837, start = 0},
+    {file = "Audio/Transport/full_npc_thorgrum-borrelson-a17b666af9afd51eb6c7/1-0000.mp3", duration = 28.5779592, start = 0},
   },
 }
 P.transport["npc:thorvald-deepforge"] = {
@@ -3854,7 +3854,7 @@ P.transport["npc:thorvald-deepforge"] = {
   fullHash = "5e1dc4",
   text = "Thorvald Deepforge. At the Valley of Kings, travelers bound for Loch Modan find Thorvald Deepforge ready with weapons. He helps defend the pass between Dun Morogh and Loch Modan. Thorvald Deepforge supplies weapons at the Valley of Kings. Troggs and roaming wildlife threaten the mountain passes between Khaz Modan's heartland and its outlying lands. Travelers from Dun Morogh and those bound deeper into Loch Modan can find blades and axes here, ready to defend dwarven lands.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_thorvald-deepforge-da389d1ba47e57c8ef9a/1-0000.mp3", duration = 30.7983673, start = 0},
+    {file = "Audio/Transport/full_npc_thorvald-deepforge-365d3b19aacfcf16b1d9/1-0000.mp3", duration = 28.917551, start = 0},
   },
 }
 P.transport["npc:thran-khorman"] = {
@@ -4026,11 +4026,11 @@ P.transport["npc:verna-furlbrow"] = {
   },
 }
 P.transport["npc:veron-amberstill"] = {
-  hash = "a00343",
-  fullHash = "a00343",
-  text = "Veron Amberstill. At Amberstill Ranch in eastern Dun Morogh, Veron Amberstill raises the rams Ironforge riders trust. At Amberstill Ranch in eastern Dun Morogh, Veron Amberstill breeds and trains mountain rams. Their sure feet and thick coats carry them over Khaz Modan’s steep slopes and through its blizzards. Veron raises them for dwarven scouts, mountaineers, and traveling adventurers. He offers standard and swift mounts to fellow dwarves. Riders from other peoples must prove loyalty to Ironforge’s throne before he parts with a ram.",
+  hash = "8b5ca9",
+  fullHash = "8b5ca9",
+  text = "Veron Amberstill. At Amberstill Ranch in eastern Dun Morogh, Veron Amberstill raises the rams Ironforge riders trust. Veron breeds and trains mountain rams for the high cold country. Their sure feet and thick coats carry them over Khaz Modan’s steep slopes and through its blizzards. Veron raises them for dwarven scouts, mountaineers, and traveling adventurers. He offers standard and swift mounts to fellow dwarves. Riders from other peoples must prove loyalty to Ironforge’s throne before he parts with a ram.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_veron-amberstill-116aa771bfa19e65bbc0/1-0000.mp3", duration = 32.235102, start = 0},
+    {file = "Audio/Transport/full_npc_veron-amberstill-f4d38d333e906a57f125/1-0000.mp3", duration = 30.6938776, start = 0},
   },
 }
 P.transport["npc:veronica-nials"] = {
@@ -4182,7 +4182,7 @@ P.transport["npc:witch-doctor-jin-zil"] = {
   fullHash = "caee02",
   text = "Witch Doctor Jin'Zil. In Malaka'jin, Witch Doctor Jin'Zil turns dark voodoo against the Horde's enemies. The Darkspear mystic keeps to a cave in the southern Stonetalon Mountains and has long been a comrade of Darsok Swiftdagger and the shadow hunter Rokhan. In a cave east of Malaka'jin, Jin'Zil practices the ancient arts of jungle trolls, far from his tribe's coastal home. Bubbling cauldrons and captive prisoners fill his cavern. He gathers exotic reagents from the Stonetalon crags and weaves blessings and curses to defend the Horde's mountain camp. Jin'Zil is an old friend of Darsok Swiftdagger and the shadow hunter Rokhan. Darsok leads the Horde's frontline skirmishes against night elves and harpies. Jin'Zil wages the war through spirit and alchemy, using forest magic and volatile voodoo to weaken threats before they reach the camp gates.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_witch-doctor-jin-zil-4ca4249f7329561ab56c/1-0000.mp3", duration = 51.6963265, start = 0},
+    {file = "Audio/Transport/full_npc_witch-doctor-jin-zil-77c648072b6bfbcf456a/1-0000.mp3", duration = 50.3640816, start = 0},
   },
 }
 P.transport["npc:witch-doctor-uzer-i"] = {
@@ -4422,7 +4422,7 @@ P.transport["topic:dwarf"] = {
   fullHash = "6813ae",
   text = "Dwarf. In Khaz Modan, dwarves keep to the mountain homes they carved from stone. Once earthen, they changed under the Curse of Flesh and now live across Khaz Modan and beyond. King Magni Bronzebeard rules from Ironforge, beneath the peaks of Dun Morogh, a steadfast heart of the Alliance. Dwarves began as earthen, beings forged by the titans who slept for ages in Uldaman's vaults. The Curse of Flesh changed them into creatures of blood and bone. They took the name dwarves and made their home in Khaz Modan, named for the titan Khaz'goroth. Beneath Dun Morogh's peaks, they carved the stronghold of Ironforge.\n\nTheir bodies endure hardship, and their keen eyes find stone and ore. They bring fierce resolve to the forge and to battle. Their halls ring with roaring hearths, and ale is a favored drink. After High King Modimus Anvilmar died, the dwarves fought over Ironforge. The Bronzebeard, Wildhammer, and Dark Iron clans each sought power, and their struggle became a civil war. The Bronzebeards took the mountain and drove the other clans out.\n\nSorcerer-Thane Thaurissan of the Dark Irons then waged war against both rivals. His forces were driven beneath the Redridge Mountains, where Thaurissan accidentally summoned Ragnaros the Firelord. Flames consumed the Dark Iron realm, leaving the volcanic wastes of Searing Gorge and the Burning Steppes. The survivors became slaves beneath Blackrock Mountain. The Wildhammers, their home devastated, migrated north to Aerie Peak in the Hinterlands. When the Horde swept across the continent in the Second War, King Magni Bronzebeard shut Ironforge's gates against its sieges. Dwarven forces fought beside the Alliance of Lordaeron in heavy plate armor and with muskets, while gryphon riders took to the sky. Their courage helped break the Horde.\n\nIronforge remains one of the Alliance's steadfast defenders. The dwarves have also welcomed their displaced gnome cousins into their halls. Across Khaz Modan, they uncover titan ruins in search of answers about their ancient origins.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_dwarf-e8dd66746a644e963f13/1-0000.mp3", duration = 127.89551, start = 0},
+    {file = "Audio/Transport/full_topic_dwarf-5547d2be98e291e6ffb3/1-0000.mp3", duration = 126.406531, start = 0},
   },
 }
 P.transport["topic:earth-mother"] = {
@@ -4470,7 +4470,7 @@ P.transport["topic:hunter"] = {
   fullHash = "7dbe05",
   text = "Hunter. Across Azeroth, hunters follow wild trails with loyal beasts at their sides. Bows, rifles, and crossbows let them strike from afar, while traps and primal aspects help control a fight. They track quarry through forests and over snowbound peaks, relying on their wits and bond with nature. Hunters make their lives among Azeroth’s wild places. They study how beasts move, hunt, and defend themselves, earning respect instead of breaking spirits. With patience, they can tame dangerous creatures, from prowling cats to mountain bears and sharp-eyed raptors. These animals become steadfast allies, ready to defend their companions to the death. Hunters fight from a distance with bows, heavy crossbows, and rifles. Their volleys can pierce heavy armor before an attacker draws near. Keen senses lead them along faint footsteps, scents, and other signs left by their quarry. When enemies close in, frost and flame traps, disorienting ambushes, and quick evasive movements keep foes at bay. The hunter’s path takes many forms across Azeroth. Night elf Sentinels use bows and shadowcraft beneath Ashenvale’s canopy, moving in quiet accord with the wilderness. Dwarven riflemen brave Dun Morogh’s freezing crags with hardy bears and master the craft of gunpowder. Across Kalimdor, Tauren and Orc trackers follow ancient nomadic customs. They pursue prey with sacred respect and call on bestial spirits to guide their shots.\n\nIn Elwynn Forest, young humans learn from seasoned trackers such as the dwarf Tordrin Sternblade in Northshire Valley and Josephine Carson in Goldshire. The Skyborne learn to track and tame the beasts of Zephras Isle.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_hunter-8a592279d7f29f8e43fe/1-0000.mp3", duration = 100.989388, start = 0},
+    {file = "Audio/Transport/full_topic_hunter-4699498d40ca47009cb5/1-0000.mp3", duration = 102.269388, start = 0},
   },
 }
 P.transport["topic:leper-gnome"] = {
@@ -4486,7 +4486,7 @@ P.transport["topic:lich-king"] = {
   fullHash = "dc68e8",
   text = "Lich King. In Icecrown, the Lich King commands the undead Scourge from the frozen throne. Kil'jaeden made him from the spirit of the orc shaman ner'zhul. His power drew Prince Arthas Menethil toward corruption, until the two joined atop Northrend's icy peaks. Ner'zhul fled dying Draenor, but Kil'jaeden seized him. The demon lord tore away his body and bound his tormented soul in diamond-hard ice from the Twisting Nether. That glacial prison struck Northrend's northern wastes and formed the frozen throne.\n\nKil'jaeden meant the Lich King to forge an unstoppable undead vanguard. It would break the mortal kingdoms without the infighting that had ruined the Orcish Horde. Yet Ner'zhul wielded immense telepathic power, and began at once to plot his freedom. Watching dreadlords guarded Ner'zhul closely, so he acted in secret. Through his mind, he ensnared Kel'Thuzad, an exiled Kirin Tor archmage. Kel'Thuzad founded the Cult of the Damned in Lordaeron, where cauldrons of tainted grain spread the Plague of Undeath through the northern kingdoms.\n\nPrince Arthas Menethil rushed to save his people, but desperation drove him to ruthless acts, including the infamous slaughter of Stratholme. Seeking vengeance against the dreadlord Mal'Ganis, Arthas pursued him to Northrend. There Frostmourne waited to steal his soul and make him the Scourge's foremost death knight. For a time, the Lich King summoned Archimonde and yielded command to the Burning Legion. He expected the demons' hubris. Arthas turned the demon hunter Illidan Stormrage toward the Skull of Gul'dan and Tichondrius's death. That helped bring about Archimonde's ruin at Mount Hyjal.\n\nAfterward, a desperate Kil'jaeden ordered Illidan to destroy the frozen throne. Cracks in the icy spire weakened Ner'zhul's power, and Sylvanas Windrunner and her Forsaken broke free. The Lich King summoned his champion back. Arthas returned to Northrend, defeated Illidan at icecrown's foot, climbed the spire, and shattered the ice. He joined with Ner'zhul as one terrible consciousness.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_lich-king-11eb72f37c0557e95af7/1-0000.mp3", duration = 128.600816, start = 0},
+    {file = "Audio/Transport/full_topic_lich-king-a17c350c72c127731c78/1-0000.mp3", duration = 130.115918, start = 0},
   },
 }
 P.transport["topic:light"] = {
@@ -4566,7 +4566,7 @@ P.transport["topic:shadow-council"] = {
   fullHash = "e00c7e",
   text = "Shadow Council. Across Draenor and Azeroth, the Shadow Council served Gul'dan's designs. At the Burning Legion's direction, the secret cabal of warlocks and necrolytes manipulated the clans and drove the Old Horde's invasion. Orgrim Doomhammer later purged its stronghold in Blackrock Mountain. Before the Horde crossed into Azeroth, Gul'dan gathered warlocks, necrolytes, and chieftains who sought their own advantage. The Shadow Council ruled the orcish clans from the shadows and raised Blackhand the Destroyer as a figurehead. Across Draenor, its members spread fel magic. They gave the clans the blood of the demon Mannoroth and bound the orcs to the Burning Legion. The Shadow Council struck a pact with Medivh, the Guardian possessed by Sargeras, to break the barrier between worlds. Through the Dark Portal, its members guided the Horde into the Kingdom of Stormwind. The warlocks watched over the war from their sanctum in Blackrock Spire.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_shadow-council-2d3c4f575fdfa6652657/1-0000.mp3", duration = 58.0702041, start = 0},
+    {file = "Audio/Transport/full_topic_shadow-council-ddd8fe56c9454a3481ec/1-0000.mp3", duration = 54.8832653, start = 0},
   },
 }
 P.transport["topic:shaman"] = {
@@ -4574,7 +4574,7 @@ P.transport["topic:shaman"] = {
   fullHash = "98f4a3",
   text = "Shaman. Among the Horde and the dwarves, Shaman seek aid from earth, air, fire and water. Totems help them wield lightning and ancestral healing as they guide their people. Dwarves follow the path too, as the Wildhammer have long done, and the Skyborne Windshapers seek to restore their people's bond with the winds. Shaman petition the primal forces of nature. Earth, air, fire and water are chaotic, locked in constant conflict. Shaman do not enslave them; they ask for aid and try to keep the elements' fury in balance with the mortal world. Wooden and stone totems planted in the soil help them channel these bargains. Through the totems, shaman protect allies, hinder foes and use cleansing water to mend the wounded. Shamanism once formed the ancient foundation of orcish clan life on Draenor. Kil'jaeden and the Shadow Council deceived the shamans into war against the draenei, and the elemental spirits withdrew their favor. Stripped of their gifts, many shamans fell to demonic corruption and became warlocks. The tradition came close to extinction.\n\nAfter the Second War, Thrall rediscovered the ancient rites under the guidance of Drek'Thar of the Frostwolf clan. As Warchief, Thrall revived shamanism and made it the moral compass of the New Horde. Across Kalimdor, the Horde's allied peoples keep different shamanic traditions. Tauren mystics hold communion with the earth and spirits, a sacred anchor of their culture. Darkspear trolls honor the loa and ancestral wild spirits, blending voodoo with nature rites. Across tribal lines, shaman serve as community elders and advisers. They also defend their people on the front lines. The shaman's path reaches beyond the Horde. Wildhammer dwarves of Aerie Peak have long called on storm and stone. Earthseer Farsen brings their far-seeing craft to Dun Morogh, while dwarves of Ironforge also take up the totem and fight for the Alliance.\n\nHigh above the world, the Windshapers lead the Skyborne in spiritual matters. The wind spirits of Zephras Isle have fallen silent, so the Windshapers train new shaman in hope of restoring that lost bond. Skyborne who join the Horde follow their path.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_shaman-1bb1850fc22fb1d596dc/1-0000.mp3", duration = 132.257959, start = 0},
+    {file = "Audio/Transport/full_topic_shaman-d1d5e06c6d8162243a13/1-0000.mp3", duration = 137.900408, start = 0},
   },
 }
 P.transport["topic:shan-do"] = {
@@ -4630,7 +4630,7 @@ P.transport["topic:warlock"] = {
   fullHash = "feb11f",
   text = "Warlock. Across Azeroth, Warlocks wield forbidden powers that bring fear and distrust. They command demons and cast curses, fire, and shadow magic. Some turn these arts against the Burning Legion and its servants. Where ordinary spellcasters see ruin, warlocks see a path to victory. They strike from afar with shadow and fire, and drain the vital essence and souls of their enemies to fuel their fiercest rites. Brimstone falls from the sky, and agonizing curses break the mind.\n\nWarlocks wear simple cloth and have little strength to withstand a blow. They call horrors to meet danger and sacrifice demonic thralls to preserve their own lives. A warlock's hold over the Twisting Nether begins with small bargains and grows into iron dominion. Novices command mischievous imps to hurl flame. With deeper knowledge of fel magic, they bind voidwalkers from shadowy depths to bear physical punishment, succubi who beguile enemy minds, and ravenous felhunters that devour magical energy.\n\nEach summon demands dangerous focus. The Nether's denizens are ever testing their masters for weakness. Orcish demonology began on Draenor, where Kil'jaeden, a demon lord, tempted Gul'dan with the promise of supreme power. Gul'dan founded the secretive Shadow Council and turned many shaman into masters of fel magic. Demonic magic withered Draenor's fertile plains into a barren red wasteland, and the Old Horde invaded through the Dark Portal.\n\nAmong humans, the Kirin Tor forbade demonology and hunted illicit summonings. Yet ambitious mages still fell to the lure of untamed sorcery. Warlocks now walk a narrow path between usefulness and execution. In Stormwind, they meet in hidden, gloomy tavern basements, away from the Cathedral of Light's watchful eyes. In Orgrimmar, they gather in the shadowed chasms of the Cleft of Shadow, watched by Thrall's shamanistic regime.\n\nTheir methods inspire revulsion, yet neither the Alliance nor the Horde can dismiss the edge warlock magic brings to a hostile battlefield.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_warlock-e036051fcf02eeb1ee90/1-0000.mp3", duration = 125.857959, start = 0},
+    {file = "Audio/Transport/full_topic_warlock-c820ce7585118a0e3c9c/1-0000.mp3", duration = 128.600816, start = 0},
   },
 }
 P.transport["topic:warrior"] = {

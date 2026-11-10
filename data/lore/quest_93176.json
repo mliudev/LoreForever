@@ -1,0 +1,71 @@
+{
+ "key": "quest:93176",
+ "type": "quest",
+ "name": "My Little Friends",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93176
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A keeper offers you a package to begin studying three small creatures. The Entomology Starter Kit holds the notes and materials for the work.",
+ "sections": [
+  {
+   "title": "A Keeper\u2019s Offer",
+   "body": "A keeper who has spent many hours studying a small menagerie offers to share the hobby with you. The package contains notes and materials to begin. With the Entomology Starter Kit, you can seek an Arbor Tarantula, a Hay Weevil Specimen, and a Flesh Picker.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the keeper want me to do?",
+   "aliases": [
+    "my little friends task",
+    "what do i collect"
+   ],
+   "answer": "Use the Entomology Starter Kit to find and catch an Arbor Tarantula, a Hay Weevil Specimen, and a Flesh Picker."
+  },
+  {
+   "q": "What is in the package?",
+   "aliases": [
+    "starter kit contents",
+    "what's in the package"
+   ],
+   "answer": "The package contains notes and materials to get you started with the keeper\u2019s hobby."
+  },
+  {
+   "q": "What is the keeper studying?",
+   "aliases": [
+    "little menagerie",
+    "what is he studying"
+   ],
+   "answer": "The keeper studies the anatomy, diets, and social rituals of the creatures in a small menagerie."
+  },
+  {
+   "q": "What happens if I lose the kit?",
+   "aliases": [
+    "lost starter kit",
+    "kit replacement"
+   ],
+   "answer": "The keeper says you will need to purchase another package for a small fee."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "arbor tarantula",
+  "entomology",
+  "flesh picker",
+  "hay weevil specimen",
+  "menagerie",
+  "my little friends",
+  "starter kit"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: My Little Friends"
+ ]
+}

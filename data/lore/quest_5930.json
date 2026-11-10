@@ -1,0 +1,75 @@
+{
+ "key": "quest:5930",
+ "type": "quest",
+ "name": "Great Bear Spirit",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5930
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "In Moonglade, Dendrite Starblaze sends you to the Great Bear Spirit to learn about the bear\u2019s nature. He believes your strength and intent are ready to be focused.",
+ "sections": [
+  {
+   "title": "A Lesson in Bear Nature",
+   "body": "Dendrite Starblaze waits in Nighthaven, Moonglade, with a lesson in mind. He asks you to seek the Great Bear Spirit in the northwest and learn what it can share about the bear\u2019s nature. When you have finished, return to Dendrite; he sees strength and intent in you, and says you can learn to focus both through the bear\u2019s nature.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me to the Great Bear Spirit?",
+   "aliases": [
+    "who asks me",
+    "Dendrite's request"
+   ],
+   "answer": "Dendrite Starblaze in Nighthaven asks you to seek the Great Bear Spirit."
+  },
+  {
+   "q": "Where is the Great Bear Spirit?",
+   "aliases": [
+    "bear spirit location",
+    "where's the spirit"
+   ],
+   "answer": "The Great Bear Spirit is in northwestern Moonglade."
+  },
+  {
+   "q": "What am I meant to learn?",
+   "aliases": [
+    "bear nature lesson",
+    "what does the spirit teach"
+   ],
+   "answer": "Dendrite asks you to learn what the Great Bear Spirit has to share about the nature of the bear."
+  },
+  {
+   "q": "Where do I return afterward?",
+   "aliases": [
+    "where to go back",
+    "return to Dendrite"
+   ],
+   "answer": "After speaking with the Great Bear Spirit, return to Dendrite Starblaze in Nighthaven, Moonglade."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bear",
+  "dendrite starblaze",
+  "great bear spirit",
+  "moonglade",
+  "nature of the bear",
+  "nighthaven"
+ ],
+ "related": [
+  "quest:5921",
+  "subzone:nighthaven",
+  "npc:dendrite-starblaze",
+  "quest:5929"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Great Bear Spirit"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "key": "quest:96260",
+ "type": "quest",
+ "name": "Stronger than Steel",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96260
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "At Gloomrise, a researcher seeks crystalline silk from the spreading giant spiders. The silk may yield a light cloth with strong defenses.",
+ "sections": [
+  {
+   "title": "Silk for Study",
+   "body": "A researcher asks you for more crystalline silk after a scout returned from Gloomrise covered in it. Giant spiders have spread across the burial ground, and their venom is rumored to wake the dead. The silk's resilience may make it useful for cloth with defensive strength.",
+   "spoiler": 0
+  },
+  {
+   "title": "A New Weave",
+   "body": "The samples prove sufficient for the researcher's needs. A cloak woven from silk already on hand is offered to you, with hopes it will aid your travels.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the researcher want?",
+   "aliases": [
+    "silk samples",
+    "crystalline silk",
+    "what silk"
+   ],
+   "answer": "The researcher wants more crystalline silk from the Gloomrise spiders for study."
+  },
+  {
+   "q": "Where is the silk found?",
+   "aliases": [
+    "where silk",
+    "gloomrise silk",
+    "spider silk place"
+   ],
+   "answer": "The crystalline silk comes from giant spiders at Gloomrise."
+  },
+  {
+   "q": "Why study the silk?",
+   "aliases": [
+    "silk use",
+    "what can silk do",
+    "why silk"
+   ],
+   "answer": "The silk may be made into lightweight, durable cloth with defensive properties."
+  },
+  {
+   "q": "What is rumored about the spiders' venom?",
+   "aliases": [
+    "spider venom",
+    "wake dead",
+    "venom rumor"
+   ],
+   "answer": "The spiders' venom is rumored to be strong enough to wake the dead."
+  },
+  {
+   "q": "What did the scout bring back?",
+   "aliases": [
+    "scout report",
+    "scout silk",
+    "what happened scout"
+   ],
+   "answer": "One scout returned from investigating Gloomrise covered in resilient, crystalline spider silk."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cloak",
+  "cloth",
+  "crystalline silk",
+  "gloomrise",
+  "spiders",
+  "stronger than steel",
+  "venom"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Stronger than Steel"
+ ]
+}

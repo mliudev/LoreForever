@@ -1,0 +1,86 @@
+{
+ "key": "quest:97265",
+ "type": "quest",
+ "name": "Hate the Hatefury",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97265
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Aka'rai in Shadowprey Village asks you to strike at the Hatefury satyr in Sargeron. His grievance comes from a bargain that left him seeking revenge.",
+ "sections": [
+  {
+   "title": "Aka'rai's Grievance",
+   "body": "Aka'rai speaks of a bargain with a satyr that promised him power and knowledge. He says the Hatefury cast him aside, leaving him with less than before. Now he asks you to attack their camp northeast of Shadowprey Village, in Sargeron. Their blood is the price he seeks for his revenge.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Blood Bargain",
+   "body": "After the fighting, Aka'rai says one Hatefury escaped your assault. He names that satyr as the one who joined him in a ritual marked by spilled blood. The satyr holds Aka'rai's soulstone, so Aka'rai fears leaving Shadowprey Village while it remains in his hands. For now, he says your work is done.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who is aka'rai",
+    "aka rai",
+    "hatefury giver"
+   ],
+   "answer": "Aka'rai in Shadowprey Village asks you to attack the Hatefury satyr at Sargeron."
+  },
+  {
+   "q": "Why does Aka'rai want the Hatefury attacked?",
+   "aliases": [
+    "why hatefury",
+    "aka'rai revenge",
+    "satyr grudge"
+   ],
+   "answer": "Aka'rai says the Hatefury cast him aside after a bargain that promised power and knowledge."
+  },
+  {
+   "q": "Where are the Hatefury?",
+   "aliases": [
+    "hatefury location",
+    "sargeron satyr",
+    "where camp"
+   ],
+   "answer": "The Hatefury camp is at Sargeron in Desolace, northeast of Shadowprey Village."
+  },
+  {
+   "q": "What did Aka'rai bargain for?",
+   "aliases": [
+    "aka'rai deal",
+    "satyr bargain",
+    "power deal"
+   ],
+   "answer": "Aka'rai says the bargain promised power, knowledge beyond ordinary tomes, and an eager minion."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "aka'rai",
+  "desolace",
+  "hate the hatefury",
+  "hatefury",
+  "sargeron",
+  "satyr",
+  "shadowprey village",
+  "soulstone"
+ ],
+ "related": [
+  "subzone:sargeron",
+  "subzone:shadowprey-village",
+  "zone:desolace",
+  "topic:satyr"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Hate the Hatefury"
+ ]
+}

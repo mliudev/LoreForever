@@ -190,7 +190,7 @@ P.transport["quest:1194"] = {
   fullHash = "a74e49",
   text = "Rizzle's Schematics. After Keeping Pace, you carry a raw indurium sample to Pozzik on the Shimmering Flats. Rizzle's plans lie beneath the ore, and his notes trace it to the dwarves' dig at Uldaman in the Badlands. They also describe how well indurium resists heat. Rizzle's plans explain how to refine indurium ore. Scrawled notes trace its source to the dwarves' dig at Uldaman in the Badlands. Other notes describe the ore's resistance to heat. A lump of raw indurium holds the plans down, and you take the sample to Pozzik.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1194-336f2fa4ee697cff58be/1-0000.mp3", duration = 32.6269388, start = 0},
+    {file = "Audio/Transport/full_quest_1194-f126374025e6ba07e73c/1-0000.mp3", duration = 33.6457143, start = 0},
   },
 }
 P.transport["quest:1252"] = {
@@ -2190,7 +2190,7 @@ P.transport["quest:654"] = {
   fullHash = "7f8dc3",
   text = "Tanaris Field Sampling. In Tanaris, a field test begins as soon as the kit's power source is switched on. Your two hours of sampling start then. Chief Engineer Bilgewhizzle expected the kit to glow and vibrate once its power source was running. Now you have two hours to gather acceptable samples from eight basilisks, eight hyenas and eight scorpions in the Tanaris desert.\n\nIf the time runs out, all the data is lost. You will need to buy another power source from Bilgewhizzle, then return the kit to him in Gadgetzan before its power gives out. Bilgewhizzle offers no sympathy when a kit goes dead. The Gadgetzan Water Company’s profit is all that matters to him.\n\nHe will keep selling power sources until the company can afford to import water from the icy springs of Dun Morogh.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_654-ddf0e5d51a9279334127/1-0000.mp3", duration = 47.6995918, start = 0},
+    {file = "Audio/Transport/full_quest_654-511cb1b4420da16be243/1-0000.mp3", duration = 48.5093878, start = 0},
   },
 }
 P.transport["quest:656"] = {
@@ -2406,7 +2406,7 @@ P.transport["quest:724"] = {
   fullHash = "3d2960",
   text = "Prospect of Faith. In the Badlands, Prospector Ryedol sends you to Ironforge with Hammertoe's Amulet. Historian Karnik and Hammertoe sought Uldaman's lost artifacts together. Ryedol suspects the Shadowforge learned they knew more than they let on. Prospector Ryedol sends you to Historian Karnik in Ironforge. Tell Karnik what happened to Hammertoe and place the amulet in his hands. Karnik will decide what to do next.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_724-36a207ddf4406b54f979/1-0000.mp3", duration = 25.8873469, start = 0},
+    {file = "Audio/Transport/full_quest_724-d9650c4f4be8bb3165c8/1-0000.mp3", duration = 26.0440816, start = 0},
   },
 }
 P.transport["quest:725"] = {
@@ -2502,7 +2502,7 @@ P.transport["quest:762"] = {
   fullHash = "9ab557",
   text = "An Ambassador of Evil. In the Badlands, Historian Karnik sends you after Ambassador Infernus. He wants you to carry proof of the kill to Advisor Belgrum in Ironforge. Ragnaros sent Ambassador Infernus to Angor Fortress to oversee the Shadowforge's hunt for lost artifacts in Uldaman. The search has already cost many dwarven lives, and more are dying. Karnik fears the Shadowforge could turn the artifacts against Ironforge. So he sends you back into the Badlands to destroy Infernus and carry Belgrum proof of your victory. Time is short. Ragnaros will not wait for the Shadowforge to prepare.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_762-f4ee078bcdb664844a32/1-0000.mp3", duration = 37.7991837, start = 0},
+    {file = "Audio/Transport/full_quest_762-b2fa8366ac6b58786069/1-0000.mp3", duration = 37.3028571, start = 0},
   },
 }
 P.transport["quest:77"] = {

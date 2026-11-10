@@ -1,0 +1,78 @@
+{
+ "key": "quest:94220",
+ "type": "quest",
+ "name": "Craftsman's Writ: Pearl-Handled Dagger",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94220
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ requests a Pearl-Handled Dagger and gives terms for its delivery and payment. You need the writ to complete the exchange.",
+ "sections": [
+  {
+   "title": "The Writ",
+   "body": "The note is written in faded ink, and it names a Pearl-Handled Dagger among the items wanted. Its lower lines give a delivery place and payment terms. The writ can pass from hand to hand, but you need to hold it when you complete the exchange.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "pearl dagger writ",
+    "what item is wanted"
+   ],
+   "answer": "The writ requests a Pearl-Handled Dagger."
+  },
+  {
+   "q": "Where do I deliver the item?",
+   "aliases": [
+    "delivery place",
+    "where to take it"
+   ],
+   "answer": "The delivery location is marked on your map."
+  },
+  {
+   "q": "What does the customer offer?",
+   "aliases": [
+    "payment terms",
+    "how much pay"
+   ],
+   "answer": "The writ includes information about payment."
+  },
+  {
+   "q": "Can I transfer this writ?",
+   "aliases": [
+    "pass writ along",
+    "is the note transferable"
+   ],
+   "answer": "Yes. The writ says it can be transferred."
+  },
+  {
+   "q": "Do I need to keep the writ?",
+   "aliases": [
+    "need writ to finish",
+    "must hold note"
+   ],
+   "answer": "Yes. You need the writ in your possession to complete the transaction."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "dagger",
+  "delivery",
+  "payment",
+  "pearl-handled dagger",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Pearl-Handled Dagger"
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "key": "quest:96773",
+ "type": "quest",
+ "name": "The Coldbringer's Eye",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96773
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The Kirin Tor seeks the Coldbringer\u2019s Eye, a scrying orb used by a servant of the Lich King in Razorfen Downs. You are asked to recover it so the artifact can be studied.",
+ "sections": [
+  {
+   "title": "A Kirin Tor Request",
+   "body": "A servant of the Lich King dwells in Razorfen Downs, where the quilboar lair shelters him. The Kirin Tor says he uses the Coldbringer\u2019s Eye to direct lesser minions elsewhere. You are asked to retrieve the orb for their study.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Coldbringer\u2019s Eye?",
+   "aliases": [
+    "coldbringer eye",
+    "what's the eye",
+    "scrying orb"
+   ],
+   "answer": "The Coldbringer\u2019s Eye is a scrying orb used by a servant of the Lich King in Razorfen Downs."
+  },
+  {
+   "q": "Who wants the Coldbringer\u2019s Eye?",
+   "aliases": [
+    "who wants the orb",
+    "kirin tor eye",
+    "who asked for it"
+   ],
+   "answer": "The Kirin Tor wants the Coldbringer\u2019s Eye so it can study the artifact and understand how it works."
+  },
+  {
+   "q": "Where is the Coldbringer\u2019s Eye?",
+   "aliases": [
+    "where's the eye",
+    "razorfen downs orb",
+    "eye location"
+   ],
+   "answer": "The Coldbringer\u2019s Eye is in Razorfen Downs."
+  },
+  {
+   "q": "Who uses the orb?",
+   "aliases": [
+    "who has the eye",
+    "lich king servant",
+    "coldbringer user"
+   ],
+   "answer": "A servant of the Lich King in Razorfen Downs uses the orb to direct lesser minions elsewhere."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "coldbringer",
+  "coldbringer's eye",
+  "kirin tor",
+  "lich king",
+  "quilboar",
+  "razorfen downs",
+  "scrying orb",
+  "servant"
+ ],
+ "related": [
+  "subzone:razorfen-downs-classic",
+  "topic:razorfen",
+  "topic:quilboar",
+  "topic:lich-king"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Coldbringer's Eye"
+ ]
+}

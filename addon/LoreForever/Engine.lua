@@ -642,6 +642,15 @@ function Engine:SubzoneKey(subzone, zone)
   return nil
 end
 
+-- The area page for a subzone inside it (Northshire Abbey -> Northshire Valley), only in that area's own zone (LOR-1364:
+-- Ironforge's Hall of Arms isn't the Hall of Arms in Northshire Abbey). With no zone to go on, by name alone.
+function Engine:AreaKey(subzone, zone)
+  local key = subzone and self.db.index.area and self.db.index.area[Engine.lower(subzone)]
+  local e = key and self.db.entries[key]
+  if not e or (zone and e.z and self:ZoneKey(zone) ~= e.z) then return nil end
+  return key
+end
+
 -- Zones a question names by their in-game names or short forms ("stormwind", "the barrens"): {name, zone key} each.
 function Engine:ZonesNamed(raw)
   if not self.zoneNames then
@@ -678,7 +687,7 @@ function Engine:ContextKeys(ctx)
   for _, q in ipairs(ctx.quests or {}) do add(questKey(q), 1.0) end
   if ctx.subzone then
     add(self:SubzoneKey(ctx.subzone, ctx.zone), 0.9)
-    add(db.index.area and db.index.area[Engine.lower(ctx.subzone)], 0.85)   -- Northshire Abbey -> Northshire Valley
+    add(self:AreaKey(ctx.subzone, ctx.zone), 0.85)   -- Northshire Abbey -> Northshire Valley
   end
   local zk = self:ZoneKey(ctx.zone)
   if zk then add("zone:" .. zk, 0.8) end

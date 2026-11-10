@@ -1,0 +1,96 @@
+{
+ "key": "quest:97902",
+ "type": "quest",
+ "name": "Camping 101: Engineering",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97902
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A teacher points you to Mukdrak in Razor Hill, who can teach you to craft a Reagent Bot after you prove your engineering skill. The bot helps keep a camp supplied with materials for spells.",
+ "sections": [
+  {
+   "title": "A Bot for Camp",
+   "body": "An engineer can learn to make a Reagent Bot from Mukdrak in Razor Hill once you show proficiency in your skill. The automaton helps keep you and your allies supplied with materials used to fuel spells. To try it at camp, head into the wilderness; townsfolk do not welcome camps in the center of town.",
+   "spoiler": 0
+  },
+  {
+   "title": "Ready the Fire",
+   "body": "A camp also needs a campfire before it can be set up. Most cooks can teach you how to make one, so you can seek out someone who trains cooks if you need the basics.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who teaches me to make a Reagent Bot?",
+   "aliases": [
+    "mukdrak bot",
+    "who teaches reagent bot",
+    "reagent bot trainer"
+   ],
+   "answer": "Mukdrak in Razor Hill can teach you to craft a Reagent Bot after you show proficiency in engineering."
+  },
+  {
+   "q": "What does the Reagent Bot do?",
+   "aliases": [
+    "what bot do",
+    "reagent bot use",
+    "bot for camp"
+   ],
+   "answer": "The Reagent Bot helps keep you and your allies supplied with materials used to fuel spells."
+  },
+  {
+   "q": "Where should I set up my camp?",
+   "aliases": [
+    "camp where",
+    "camping location",
+    "where test bot"
+   ],
+   "answer": "The completion text advises heading into the wilderness to try the bot, since most folk dislike camps set up in the center of town."
+  },
+  {
+   "q": "What else do I need before setting up camp?",
+   "aliases": [
+    "campfire needed",
+    "camp setup",
+    "fire for camp"
+   ],
+   "answer": "You need a campfire before starting your camp. Most cooks can teach you to make one."
+  },
+  {
+   "q": "Who can teach me the basics of making a campfire?",
+   "aliases": [
+    "campfire teacher",
+    "learn make fire",
+    "cooking fire"
+   ],
+   "answer": "Someone who trains cooks can teach you the basics of making a campfire."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "As an engineer, you can learn to craft a Reagent Bot for your camp after showing proficiency in your skill."
+  }
+ ],
+ "keywords": [
+  "camp",
+  "campfire",
+  "camping 101",
+  "engineering",
+  "mukdrak",
+  "razor hill",
+  "reagent bot"
+ ],
+ "related": [
+  "subzone:razor-hill"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Camping 101: Engineering"
+ ]
+}

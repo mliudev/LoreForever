@@ -52,13 +52,8 @@ end
 local function createClipReport()
   local f = T.Window("LoreForeverClipReport", UIParent, "Lore Forever")
   f:SetSize(WIDTH, 360)
-  f:SetPoint("CENTER")
   f:SetFrameStrata("DIALOG")
-  f:SetMovable(true)
-  f:EnableMouse(true)
-  f:RegisterForDrag("LeftButton")
-  f:SetScript("OnDragStart", f.StartMoving)
-  f:SetScript("OnDragStop", f.StopMovingOrSizing)
+  T.Movable(f, "clipReport")
   table.insert(UISpecialFrames, "LoreForeverClipReport")
   local close = function() f:Hide() end
 

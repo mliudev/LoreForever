@@ -54,7 +54,7 @@ P.transport["quest:1061"] = {
   fullHash = "76a5ea",
   text = "The Spirits of Stonetalon. Unrest stirs among the spirits of Stonetalon, and Zor Lonetree sends Horde champions west to learn why. From Orgrimmar, you pass the Crossroads and report to Seereth Stonebreak near Greatwood Vale. In Grommash Hold, Zor Lonetree listens to the natural world and feels deep distress from the Stonetalon Mountains. The elemental spirits of its rocky peaks rage as logging cuts into their forests. Horde shamans hear their unrest and fear that the devastation in the western highlands will upset Kalimdor's spiritual balance. The Venture Company is an unscrupulous goblin syndicate cutting timber in Greatwood Vale. Its crews use aggressive machinery, saws, and muscle to butcher the ancient woodland instead of harvesting it sustainably. So the Horde sent Seereth Stonebreak, a young shaman, to watch the forest from the frontier and rally defenders against the ravagers.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1061-86afa3e27f6a268f883b/1-0000.mp3", duration = 53.6293878, start = 0},
+    {file = "Audio/Transport/full_quest_1061-3141ea209153fffdc4d7/1-0000.mp3", duration = 53.6032653, start = 0},
   },
 }
 P.transport["quest:1062"] = {
@@ -62,7 +62,7 @@ P.transport["quest:1062"] = {
   fullHash = "3f74fe",
   text = "Goblin Invaders. At the Barrens and Stonetalon border, Goblin Invaders strike at the mountains' ancient woodlands. Seereth Stonebreak sends the Horde against Venture Company loggers in Windshear Crag. Venture Company loggers cut deep into the Stonetalon Mountains. They strip the hillsides and burn the underbrush, leaving scorched ground behind. For tauren and their allies, the harm reaches beyond the forests. The primal spirits bound to Stonetalon howl in torment.\n\nSeereth Stonebreak watches from the mountain border. She sees the goblins' assault has left the spirits blind with agony and fury. Profit is all the Venture Company's executives and hirelings heed. Reason will not sway them. So Seereth sends you past Greatwood Vale and into Windshear Crag to kill fifteen loggers.\n\nThe Horde meets the company's greed with force. The blow is meant to halt the deforestation and give tauren elders time to soothe the land's agitated spirits.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1062-35777dd4dbed38237b12/1-0000.mp3", duration = 59.6636735, start = 0},
+    {file = "Audio/Transport/full_quest_1062-5e1e6b7c8ec83d1b0e64/1-0000.mp3", duration = 58.2791837, start = 0},
   },
 }
 P.transport["quest:1063"] = {
@@ -70,7 +70,7 @@ P.transport["quest:1063"] = {
   fullHash = "e9eb10",
   text = "The Elder Crone. Seereth Stonebreak sends word from Stonetalon to Thunder Bluff. Goblin deforestation and mining have enraged the mountain's elements, and Seereth seeks spiritual guidance from Magatha Grimtotem on Elder Rise. In Stonetalon Mountains, goblin deforestation and mining have enraged the elemental spirits. Seereth Stonebreak sees that force alone cannot ease the land's anguish. So Seereth turns to elder shamans for wisdom. Few tribal leaders are known to Seereth by name, but Magatha Grimtotem is known for her wisdom and commanding presence. Magatha Grimtotem holds court atop Elder Rise in Thunder Bluff, where shamanic and spiritual affairs gather. Her tribe's ties with Cairne Bloodhoof's leadership are tense and often confrontational. Even so, Magatha is a formidable elder whose counsel carries great weight across the Horde. You bring her Stonetalon's troubles and seek her guidance.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1063-0f3f634ce9d1700c54cc/1-0000.mp3", duration = 53.4726531, start = 0},
+    {file = "Audio/Transport/full_quest_1063-b64c6b90957195e9b500/1-0000.mp3", duration = 53.995102, start = 0},
   },
 }
 P.transport["quest:1064"] = {
@@ -86,7 +86,7 @@ P.transport["quest:1065"] = {
   fullHash = "874f6a",
   text = "Journey to Tarren Mill. Apothecary Zamah seeks a way to drive the Venture Company from Stonetalon Mountains without open war. She sends you across the sea to Apothecary Lydon in Tarren Mill, where the Royal Apothecary Society works in Lordaeron. In Thunder Bluff, Apothecary Zamah links the Forsaken with the Earth Mother's children. The Venture Company cuts timber and mines the sacred lands of Stonetalon Mountains, and ordinary means have failed to stop them. So Zamah turns to her peers in the Royal Apothecary Society for a chemical deterrent. She hopes their alchemy can drive the company away without a drawn-out war. You cross the sea from Kalimdor by zeppelin toward Lordaeron and the Undercity. From Tirisfal Glades, the road runs south through Silverpine Forest and into the contested Hillsbrad Foothills. Tarren Mill lies near human farmsteads and ruins. Once a human hamlet, it is now a Forsaken stronghold where the Royal Apothecary Society carries out its research.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1065-830347b53cc9dff5d439/1-0000.mp3", duration = 56.3461224, start = 0},
+    {file = "Audio/Transport/full_quest_1065-1ef802543f055b5dd18b/1-0000.mp3", duration = 57.6783673, start = 0},
   },
 }
 P.transport["quest:109"] = {
@@ -1374,7 +1374,7 @@ P.transport["quest:233"] = {
   fullHash = "86e0ca",
   text = "Coldridge Valley Mail Delivery. At Anvilmar, Sten Stoutarm sends you west with mail for scouts beyond the frozen lake. Snow and nearby troggs can cut off the valley's defenders, leaving important news undelivered. Mail from across Dun Morogh reaches Anvilmar by mountain pass, where winter couriers leave it to gather. Sten Stoutarm tends supplies and security, so recruits carry the bundles down the western road. Without your help, important messages remain in the hall. Talin Keeneye watches the frozen lake west of Anvilmar for trogg movements and dangerous wildlife. Even at a cold outpost, news from Ironforge and the surrounding camps matters. Harsh mountain conditions make sorting mail difficult, so letters for different scouts can end up together in one bundle.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_233-b815ad0b01407082d897/1-0000.mp3", duration = 45.0873469, start = 0},
+    {file = "Audio/Transport/full_quest_233-27057199037a53e0006d/1-0000.mp3", duration = 45.6620408, start = 0},
   },
 }
 P.transport["quest:234"] = {
@@ -1390,7 +1390,7 @@ P.transport["quest:237"] = {
   fullHash = "e8f2f2",
   text = "In Defense of the King's Lands. In southern Loch Modan, Mountaineer Gravelgaw calls for help against the Stonesplinter troggs. With dwarven forces committed to the Alliance front, local outposts rely on volunteers to hold the line. The Mountaineers guarding the southern pass into Dun Morogh are stretched thin. King Magni Bronzebeard has sent much of Ironforge's strength to the wider Alliance front, leaving the Valley of Kings towers short of regular infantry. So Mountaineer Gravelgaw calls on volunteers to strike Stonesplinter Valley and keep the troggs at bay. Reinforcements may never come. The Stonesplinter troggs are neither mindless nor aimless. Their war bands fight with brute force and crude elemental magic. Gravelgaw wants their veteran Skullthumpers and their Seers, who lead with mystic power, driven from the fight. Without those leaders, the tribe's southern camps lose their order and cannot mass against the Ironforge road.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_237-7aeba8ef31ce10fb6a71/1-0000.mp3", duration = 55.275102, start = 0},
+    {file = "Audio/Transport/full_quest_237-9182f38c4833c691cb4a/1-0000.mp3", duration = 55.4579592, start = 0},
   },
 }
 P.transport["quest:2378"] = {
@@ -1718,7 +1718,7 @@ P.transport["quest:2997"] = {
   fullHash = "4ef0d9",
   text = "Tome of Divinity. Azar Stronghammer sends promising dwarven paladins from Dun Morogh to Ironforge for deeper instruction. There, Tiza Battleforge awaits in the Hall of Mysteries, where the trials begin in service to the Holy Light. Dwarven initiates guard Dun Morogh's snowbound villages and roads. When Azar sees that a defender is ready for deeper spiritual instruction, he sends that candidate from field duties to Ironforge. There, the city's holy elders can guide them. The summons takes you through the Mystic Ward to the Hall of Mysteries. Sacred relics and solemn study fill its halls. Tiza Battleforge tests your readiness for self-sacrifice, mercy, and the moral duties of your calling.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2997-74c5b640e8902641c2de/1-0000.mp3", duration = 42.475102, start = 0},
+    {file = "Audio/Transport/full_quest_2997-cfee23a7d78c91b8608b/1-0000.mp3", duration = 43.9118367, start = 0},
   },
 }
 P.transport["quest:2998"] = {
@@ -1782,7 +1782,7 @@ P.transport["quest:308"] = {
   fullHash = "f39d78",
   text = "Distracting Jarven. At Thunderbrew Distillery in Kharanos, Jarven Thunderbrew watches the cellar stores. His family forbids him to drink from the barrels while on duty, so he asks you to bring him Thunder Ale from upstairs. He hopes a mug will sharpen his wits. Jarven watches the deep stores, with Dun Morogh’s finest stout all around him. His family forbids him to drink from the stock while he is on guard. Yet temptation gets the better of him, and he asks you to fetch a pint of potent Thunder Ale from the taps upstairs. Jarven says a good drink will sharpen his senses and strengthen his watch. Whether a guard ought to drink on duty is another matter. Still, few hardy dwarves can fault a Thunderbrew for wanting a taste of the ale his own kin make.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_308-18347779891750f777a8/1-0000.mp3", duration = 44.2253061, start = 0},
+    {file = "Audio/Transport/full_quest_308-f32a4824c6678921b22f/1-0000.mp3", duration = 44.3036735, start = 0},
   },
 }
 P.transport["quest:3082"] = {
@@ -1910,7 +1910,7 @@ P.transport["quest:310"] = {
   fullHash = "4f8643",
   text = "Bitter Rivals. Marleth Barleybrew asks you to replace a cask of Thunder Ale at the Thunderbrew Distillery in Kharanos with her family's brew. The Barleybrews have long begrudged the Thunderbrews the fame of their distillery. Marleth respects its ale, but she cannot abide Dun Morogh knowing only Thunderbrew. She means to change local tastes with her family's fiery Barleybrew Scalder. Beneath the Thunderbrew Distillery in Kharanos, aging casks fill a basement storeroom. A guard watches near the Thunderbrews' prized reserve. Draw him away, then secretly switch the barrels.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_310-c0ef6655d3f880b0ddc1/1-0000.mp3", duration = 33.9069388, start = 0},
+    {file = "Audio/Transport/full_quest_310-4106af5e4eb553ed8b01/1-0000.mp3", duration = 34.2204082, start = 0},
   },
 }
 P.transport["quest:3103"] = {
@@ -1942,7 +1942,7 @@ P.transport["quest:3106"] = {
   fullHash = "1b6f0d",
   text = "Simple Rune. At Anvilmar, Sten Stoutarm brings new dwarven warriors a summons from Thran Khorman. The rune calls them from Coldridge Valley's snowy paths to begin training. Veteran scouts watch recruits clear pests around Coldridge Valley, seeking promising fighters. Sten brings an inscribed stone from Thran Khorman. Its simple rune calls them from the snowy paths into Anvilmar's warm forge-hall, where they can pledge themselves to the warrior's trade. Thran speaks plainly about Dun Morogh's troubles. Gnomes displaced by the explosions that destroyed Gnomeregan seek refuge, while some dwarves take up foreign arcane arts or follow the human faith in the Holy Light. Troggs claw at the mountain borders after being disturbed deep underground. Thran believes firm martial discipline is needed to withstand these threats.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3106-ddd91d0512e6481cf287/1-0000.mp3", duration = 48.0653061, start = 0},
+    {file = "Audio/Transport/full_quest_3106-4f2e06bb10d999f53c15/1-0000.mp3", duration = 50.7297959, start = 0},
   },
 }
 P.transport["quest:3107"] = {
@@ -2070,7 +2070,7 @@ P.transport["quest:313"] = {
   fullHash = "f5236c",
   text = "The Grizzled Den. At Steelgrill's Depot near Kharanos, Pilot Stonegear sends you west to hunt wendigos in the Grizzled Den. Their thick pelts will warm his siege engine, Trollplow. Stonegear tests newcomers before he trusts them with the work. A massive siege tank is hard to operate in freezing mountain air. It takes nerves of iron and a steady constitution. Face the native beasts in the frozen hills to prove you have both. Dun Morogh's bitter cold bites through Trollplow's cramped, iron-plated cabin. Stonegear wants thick wendigo manes for a warm, durable rug on the engine's deck. The hunt also helps keep the local beasts in check.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_313-3ae96cb50f89accff0e6/1-0000.mp3", duration = 39.915102, start = 0},
+    {file = "Audio/Transport/full_quest_313-f2294fb8612d1c612197/1-0000.mp3", duration = 39.4971429, start = 0},
   },
 }
 P.transport["quest:314"] = {
@@ -2078,7 +2078,7 @@ P.transport["quest:314"] = {
   fullHash = "1858ad",
   text = "Protecting the Herd. At Amberstill Ranch, Rudra Amberstill fears Vagash will take more prized mountain rams. He asks passing fighters to protect the herd and bring proof of the predator’s death. Vagash has taken two prized mountain rams from Amberstill Ranch. The ranch supplies the Bronzebeard dwarves with riding and working beasts, and the herd supports Dun Morogh’s rustic economy. Vagash hunts local livestock in the crags above the ranch. Ironforge’s forces are spread thin across the realm, supporting the Alliance on distant frontiers. With no military patrol on the ridgelines, Rudra Amberstill asks independent fighters to hunt Vagash. He wants one of the beast’s deadly fangs as proof.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_314-64b01723353e2539d9d1/1-0000.mp3", duration = 42.4489796, start = 0},
+    {file = "Audio/Transport/full_quest_314-c08538a786ea2b93430c/1-0000.mp3", duration = 41.6130612, start = 0},
   },
 }
 P.transport["quest:315"] = {
@@ -2086,7 +2086,7 @@ P.transport["quest:315"] = {
   fullHash = "794b95",
   text = "The Perfect Stout. In Brewnall Village, Rejold Barleybrew still pursues The Perfect Stout. He draws on family brewing tradition and exotic local ingredients, and now seeks shimmerweed, a pungent plant cultivated only by the hostile Frostmane trolls atop Shimmer Ridge. He sends daring travelers into their encampment to take the herb from tribal baskets. Brewing is a way of life in Brewnall Village, especially for the Barleybrew family. Rejold Barleybrew believes greatness runs in his blood, but the perfect stout calls for new ideas. He looks beyond hops, malt and mountain spring water to Dun Morogh's untamed plants, hoping they will give his ale an unmistakable bite. East of Brewnall Village, the Frostmane trolls cultivate shimmerweed on Shimmer Ridge. They gather it for tribal and mystic rituals, while dwarves know it for its sharp, distinct flavor. The herb is kept in baskets in the troll village, where Rejold's latest and boldest brewing experiment awaits it.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_315-46f9bd49a5d176e224ae/1-0000.mp3", duration = 57.8089796, start = 0},
+    {file = "Audio/Transport/full_quest_315-712961ca9c846f55c3e7/1-0000.mp3", duration = 58.2791837, start = 0},
   },
 }
 P.transport["quest:317"] = {
@@ -2094,7 +2094,7 @@ P.transport["quest:317"] = {
   fullHash = "631fca",
   text = "Stocking Jetsteam. At Steelgrill's Depot, Pilot Bellowfiz prepares Jetsteam for a long deployment with the Ironforge Siege Brigade. Its crew needs boar meat and bear pelts for the journey. Master engineer Beldin Steelgrill tunes the siege tank at Steelgrill's Depot, just outside Kharanos. Jetsteam is being readied for an operation on behalf of the Siege Brigade. The crew needs a month's provisions to endure Dun Morogh's sub-zero temperatures. Beldin Steelgrill works beneath Jetsteam's hood, so Bellowfiz cannot leave the vehicle to gather food and insulation. The snowy plains south of the Grizzled Den hold boars for meat and bears whose pelts can line the tank's bedding and keep it warm.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_317-b7e27bbbe3c5aa830edf/1-0000.mp3", duration = 40.7510204, start = 0},
+    {file = "Audio/Transport/full_quest_317-5201219c619debd03c70/1-0000.mp3", duration = 43.1281633, start = 0},
   },
 }
 P.transport["quest:318"] = {
@@ -2102,7 +2102,7 @@ P.transport["quest:318"] = {
   fullHash = "6aa425",
   text = "Evershine. At Steelgrill's Depot near Kharanos, Pilot Bellowfiz needs Evershine from Rejold Barleybrew in Brewnall Village. The strong brew warms him and can fuel his siege engine, Jetsteam. Rejold Barleybrew's brewing experiments go beyond ordinary dwarven ales. Evershine can knock all but the hardiest dwarves flat, yet its heat is prized in Dun Morogh's bitter cold. At Steelgrill's Depot outside Kharanos, Pilot Bellowfiz takes a warming sip of Evershine against the freezing winds. The volatile brew can also feed Jetsteam's furnace. When Bellowfiz is in a tight spot, it gives his siege engine an explosive burst of emergency power.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_318-68b09a3fca7cf08ab586/1-0000.mp3", duration = 41.2212245, start = 0},
+    {file = "Audio/Transport/full_quest_318-1ff9c3aacf3ca7fa52d1/1-0000.mp3", duration = 39.2881633, start = 0},
   },
 }
 P.transport["quest:319"] = {
@@ -2110,7 +2110,7 @@ P.transport["quest:319"] = {
   fullHash = "65abb9",
   text = "A Favor for Evershine. At Steelgrill's Depot, Pilot Bellowfiz needs Evershine for his siege engine, Jetsteam. Rejold Barleybrew will give up a cask only after you drive the predators away from Brewnall Village. Rejold offers his brew if you thin the wild beasts of western Dun Morogh. Ice Claw Bears, Elder Crag Boars, and Snow Leopards roam near Brewnall Village. Their presence endangers the locals and keeps Rejold from freely giving up the cask. Rejold says no self-respecting dwarf cowers before wild animals. Yet watching for predators around the village takes the craftsmen valuable hours. Once the beasts are driven off, villagers can focus on distilling and smithing without keeping watch on the tree line.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_319-3df97814072e09ffc3ba/1-0000.mp3", duration = 41.6391837, start = 0},
+    {file = "Audio/Transport/full_quest_319-eb05fbe6e1c2f5296139/1-0000.mp3", duration = 41.5085714, start = 0},
   },
 }
 P.transport["quest:3221"] = {
@@ -2182,7 +2182,7 @@ P.transport["quest:3361"] = {
   fullHash = "cdc310",
   text = "A Refugee's Quandary. Gnomeregan's displaced gnomes flee into Dun Morogh after troggs and radiation drive them from their home. Near Anvilmar, engineer Felix Whindlebolt has lost his tools and belongings to Frostmane scavengers. Troggs overran Gnomeregan, the high-tech city beneath the earth. High Tinker Gelbin Mekkatorque and his advisors released radioactive gas to kill the invaders. The gas brought disaster instead. Thousands of innocents died, survivors became mindless leper gnomes, and the rest fled across Dun Morogh. Gnome engineers and tinkerers carried away the tools and blueprints they could save. Frostmane trolls prowl the icy mountain passes between Gnomeregan and Coldridge Valley. As Felix Whindlebolt hurried toward shelter at Anvilmar, Frostmane raiders took his tool chest, lockbox, and bucket of bolts. They carried his belongings to camps southwest of town.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3361-5bf2558c0992d3d11850/1-0000.mp3", duration = 52.5322449, start = 0},
+    {file = "Audio/Transport/full_quest_3361-634672c712f1c69e3648/1-0000.mp3", duration = 54.7526531, start = 0},
   },
 }
 P.transport["quest:3364"] = {
@@ -2198,7 +2198,7 @@ P.transport["quest:3365"] = {
   fullHash = "d87669",
   text = "Bring Back the Mug. Durnan Furcutter sends you back across Coldridge Valley with Nori Pridedrift's empty mug. Its return closes the Mornbrew delivery. After warming himself with the Mornbrew, Durnan leaves the tankard in your care. Cold bites hard in Dun Morogh, where hospitality depends on mutual respect. Good dishware should make it back too. Nori Pridedrift values sturdy drinkware. Mugs do not grow on trees, especially among the subzero crags of the dwarven homeland. Bring his mug back in one piece, and you show the local community that you can be trusted.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3365-73a1b349789ec4fea244/1-0000.mp3", duration = 34.9257143, start = 0},
+    {file = "Audio/Transport/full_quest_3365-f0f519da6f16f2fb7a3e/1-0000.mp3", duration = 34.56, start = 0},
   },
 }
 P.transport["quest:3376"] = {
@@ -2630,7 +2630,7 @@ P.transport["quest:400"] = {
   fullHash = "98c8f1",
   text = "Tools for Steelgrill. At Kharanos, Tharek Blackstone sends you northeast with tools for Beldin Steelgrill at the depot. The road leads from town to the mechanics and war machines gathered there. Across Dun Morogh, Beldin Steelgrill is known as the sharpest siege engine mechanic in the mountains. His rough work breaks arclight spanners and other tools faster than Kharanos suppliers can replace them. Tharek Blackstone has a fresh batch of durable gear ready, so a traveler bound northeast carries the heavy crate to the depot. Steelgrill's Depot is crowded with idle war machines and military repairs. Beldin's backlog includes urgent work on Pilot Stonegear's siege engine. He broke his last fang-ratchet only hours before you arrive. The crate is needed to keep Ironforge's tracked armor fleet running.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_400-3885bf8b3e1efbd367b6/1-0000.mp3", duration = 45.6620408, start = 0},
+    {file = "Audio/Transport/full_quest_400-382091346f36405638fc/1-0000.mp3", duration = 48.6138776, start = 0},
   },
 }
 P.transport["quest:403"] = {
@@ -2710,7 +2710,7 @@ P.transport["quest:413"] = {
   fullHash = "dacb23",
   text = "Shimmer Stout. At Brewnall Village, Rejold Barleybrew is sending Shimmer Stout to his brother Wellart. The guard watches the pass toward Loch Modan, where a cold post makes a strong drink welcome. Rejold Barleybrew perfected Shimmer Stout with shimmering fronds gathered from Dun Morogh’s icy crags. His family tends the vats and kegs at Brewnall Village, while his brother Wellart chose life as a Mountaineer. Knowing how lonely frontier guard duty can be, Rejold sends a fresh barrel with passing travelers. It is a kindness between brothers and a chance to test the brew. Wellart Barleybrew guards the South Gate Pass into Loch Modan from the southern tower. High in the pass, Mountaineers face bitter winds and occasional beast attacks as they watch over travelers on the mountain road. Wellart is running low on drink and restless for excitement. Shimmer Stout packs quite a punch, he finds, and seems to brighten his vision in the dim mountain night.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_413-ccf3ed5edaf579d66455/1-0000.mp3", duration = 55.5363265, start = 0},
+    {file = "Audio/Transport/full_quest_413-07ed050d0390caf94f53/1-0000.mp3", duration = 55.1444898, start = 0},
   },
 }
 P.transport["quest:414"] = {
@@ -2718,7 +2718,7 @@ P.transport["quest:414"] = {
   fullHash = "33d3b8",
   text = "Stout to Kadrell. A cask of Rejold Barleybrew’s new Shimmer Stout is headed east to Mountaineer Kadrell in Loch Modan. You carry it from Dun Morogh’s frozen heights to the warmer valley. From Dun Morogh’s eastern border post, Mountaineer Barleybrew watches the mountain passes and the kin guarding neighboring lands. The Mountaineers’ patrols can be cold and grueling, and a stout heart calls for stout drink. Rejold’s new Shimmer Stout is too good to keep in Dun Morogh. Barleybrew wants an honest opinion from a fellow patrolman, so he sends a cask east with travelers bound for Loch Modan. For young dwarven and gnomish adventurers, the road to Loch Modan is a rite of passage after their early days in Dun Morogh’s snowbound crags. You pass southeast through the South Gate Outpost, then follow long tunnels cut through the mountain bedrock. Beyond them lies Loch Modan’s warmer, wooded basin. Mountaineer Kadrell patrols the road through Thelsamar. He pauses to tap the cask and finds that Barleybrew’s new recipe has an astonishing kick.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_414-de731779c0acf7be5a03/1-0000.mp3", duration = 60.4212245, start = 0},
+    {file = "Audio/Transport/full_quest_414-75b0ab9f14ec1f79a096/1-0000.mp3", duration = 59.0889796, start = 0},
   },
 }
 P.transport["quest:415"] = {
@@ -2742,7 +2742,7 @@ P.transport["quest:417"] = {
   fullHash = "477d80",
   text = "A Pilot's Revenge. Hildelve’s search ends in the crags of Dun Morogh, where Pilot Hammerfoot’s searchers find him frozen beside his journal. His last words call for vengeance. Hildelve’s journal tells of his savage fight with Mangeclaw, the huge Ice Claw bear. He drove the beast away at first, but his wounds were grave. Mangeclaw returned and killed him. Hildelve’s final plea calls for vengeance against Mangeclaw. Bring his journal and a claw torn from the beast to Pilot Hammerfoot. The grim news gives the Ironforge Siege Brigade closure and honors its lost comrade.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_417-f07d3d3a0fc77fcfbc1a/1-0000.mp3", duration = 36.2318367, start = 0},
+    {file = "Audio/Transport/full_quest_417-092176db8cb64ce3170b/1-0000.mp3", duration = 35.0563265, start = 0},
   },
 }
 P.transport["quest:418"] = {
@@ -2758,7 +2758,7 @@ P.transport["quest:419"] = {
   fullHash = "d3eb0f",
   text = "The Lost Pilot. At the wreck, Pilot Hammerfoot fears for Mori Hildelve in Dun Morogh's crags. Hildelve went on foot to seek rare ore for potent blastpowder, but days have passed and roars echo through the peaks. Pilot Mori Hildelve drove his siege engine up Dun Morogh's steep ridges in search of rare ore for high-grade blastpowder. The machine broke on the slope. He left Pilot Hammerfoot at the camp to guard the wreck, then climbed higher into the frozen wilderness on foot. Days passed, and Hildelve did not return to camp. At night, vicious growls echoed from the rocky crags. Hammerfoot's impatience gave way to dread. Hildelve was tough, but the frigid heights offered little shelter from prowling predators without his engine or heavy support.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_419-86fd1a6cb6e74dd07a6f/1-0000.mp3", duration = 44.8261224, start = 0},
+    {file = "Audio/Transport/full_quest_419-2f61cd14bae633010582/1-0000.mp3", duration = 44.0685714, start = 0},
   },
 }
 P.transport["quest:420"] = {
@@ -2766,7 +2766,7 @@ P.transport["quest:420"] = {
   fullHash = "aa6cb3",
   text = "Senir's Observations. Grelin Whitebeard's report reaches his brother Senir in Kharanos, carrying news from Coldridge Valley. Its arrival sends Senir back to watching hostile forces across the snowfields. Mountaineer Thalos guards the gate out of Coldridge Valley. He entrusts passing travelers with Grelin's dispatch. Beyond the gate, violent troggs ambush those crossing the tunnel and make the passage to Kharanos dangerous. Past the tunnel, the main road runs through central Dun Morogh to town. At the Thunderbrew Distillery, Senir Whitebeard warms himself over drinks when Grelin's report arrives. He chuckles at his brother's forceful words. Grelin invokes King Magni Bronzebeard to press for urgent action, Senir says, and that will agitate the stubborn Ironforge Senate.\n\nThe bitter cold has kept Senir from filing his own observations. Grelin's dispatch sends him back to watching hostile forces across the snowfields.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_420-902143ed1600b2afb2b1/1-0000.mp3", duration = 55.9281633, start = 0},
+    {file = "Audio/Transport/full_quest_420-3919a0ae1611da33da15/1-0000.mp3", duration = 53.4987755, start = 0},
   },
 }
 P.transport["quest:421"] = {
@@ -2862,7 +2862,7 @@ P.transport["quest:432"] = {
   fullHash = "1d5546",
   text = "Those Blasted Troggs!. In Gol'Bolar Quarry, troggs wreck the workings while Foreman Stonebrow calls for help. They have broken his equipment and powder barrels. His fading aim keeps him from fighting them himself, so he asks willing fighters to thin the Skullthumpers. Troggs have overrun the lower terraces of Gol'Bolar Quarry in eastern Dun Morogh. They broke through the bedrock and flooded the tunnels, ending the dwarven excavation's productive days. Now they smash scaffolding and blow apart powder barrels, leaving the quarry in ruin. From the ridge, Foreman Stonebrow watches his life's work crumble. Age has weakened his hands and spoiled his aim, so he relies on passing wanderers and Alliance recruits to fight in his place. He wants the burly Rockjaw Skullthumpers thinned. Only their complete destruction would satisfy his anger.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_432-01a979809d015679b3c5/1-0000.mp3", duration = 48.9795918, start = 0},
+    {file = "Audio/Transport/full_quest_432-382f55ab58bb3391528a/1-0000.mp3", duration = 47.9346939, start = 0},
   },
 }
 P.transport["quest:433"] = {
@@ -2870,7 +2870,7 @@ P.transport["quest:433"] = {
   fullHash = "79cc51",
   text = "The Public Servant. At Gol'Bolar Quarry, Senator Mehr Stonehallow calls for aid against troggs that have halted mining in Dun Morogh. He wants the Rockjaw Bonesnappers driven out so miners can return to work. Mehr Stonehallow serves in Ironforge's Senate and belongs to the Explorers' League. He has come to Gol'Bolar Quarry to direct the response himself. There, he hires travelers and mercenaries to drive the invaders from the mine. Deep digging at Gol'Bolar Quarry broke into sealed hollows underground. Rockjaw troggs poured into the pits, smashed mining equipment, and drove out the workers. Stonehallow wants the Rockjaw Bonesnappers cleared away so Mountaineers can secure the quarry and mining can resume.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_433-d167fb2029e2de07c741/1-0000.mp3", duration = 42.3706122, start = 0},
+    {file = "Audio/Transport/full_quest_433-c7cb87ef3074eff2a2b0/1-0000.mp3", duration = 43.9640816, start = 0},
   },
 }
 P.transport["quest:435"] = {
@@ -3430,7 +3430,7 @@ P.transport["quest:5541"] = {
   fullHash = "f9383e",
   text = "Ammo for Rumbleshot. Outside Anvilmar, Hegnar Rumbleshot needs ammunition for the riflemen at practice. A courier fled wendigo near the Grizzled Den and left a crate behind. Loslor Rudge at Steelgrill's Depot supplies tradesmen across Dun Morogh, though wildlife often disrupts his shipments. His courier had camped near the Grizzled Den cave system when local wendigo crossed his path. He fled for his life and left the heavy wooden crate in the snow. Hegnar Rumbleshot runs a gun shop beside the main road leading away from Anvilmar. Ironforge riflemen, mountaineers, and dwarven mortar squads gather in the clearing outside his forge to sight their weapons and practice with live fire. Without regular deliveries of powder and lead from suppliers like Loslor, the riflemen's marksmanship practice soon comes to a halt.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_5541-1e03a3663b8c148a3f2b/1-0000.mp3", duration = 48.3526531, start = 0},
+    {file = "Audio/Transport/full_quest_5541-1fb9af7e85587d0e50f1/1-0000.mp3", duration = 47.3338776, start = 0},
   },
 }
 P.transport["quest:5545"] = {
@@ -3478,7 +3478,7 @@ P.transport["quest:5625"] = {
   fullHash = "df9b09",
   text = "Garments of the Light. At Maxan Anvol’s urging, you go south of Kharanos to help a wounded mountaineer before you receive the Garments of the Light. Maxan Anvol, the priest trainer, asks for practical aid before ceremony. Acolytes usually face formal trials to prove they deserve church vestments. But Mountaineer Dolf is wounded, and he needs help now. South of Kharanos, you find Mountaineer Dolf wounded in the line of duty. Restorative prayers mend his injuries. Power Word: Fortitude strengthens him and helps keep an Ironforge defender alive. Once Dolf has received aid, Maxan Anvol presents you with formal garments. The robes give warmth against Dun Morogh’s chill and mark you as a servant of the Light. You are ready to aid wounded wanderers and local guards.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_5625-9bcd1c6414aee4a3baa0/1-0000.mp3", duration = 48.2220408, start = 0},
+    {file = "Audio/Transport/full_quest_5625-b937ecffa82e08a39235/1-0000.mp3", duration = 46.2889796, start = 0},
   },
 }
 P.transport["quest:5626"] = {
@@ -3486,7 +3486,7 @@ P.transport["quest:5626"] = {
   fullHash = "081556",
   text = "In Favor of the Light. Branstock Khalder sends a young priest from Coldridge Valley through the mountain pass to Kharanos for further study. There, Priest Trainer Maxan Anvol prepares the novice for greater duties and a chance to earn their first formal vestments. You leave Anvilmar after showing dedication and understanding of Holy magic. Branstock Khalder sends promising novices beyond the mountains, where priests meet Dun Morogh’s needs and help defend its people. The Coldridge Pass tunnel opens into central Dun Morogh, where Priest Trainer Maxan Anvol guides you beyond basic prayers. He teaches that service to the Holy Light calls for moral character, physical hardiness, and an unyielding will. Prove your resolve under his guidance, and you may receive your first formal garments of office.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_5626-a579259207d43507d469/1-0000.mp3", duration = 47.0987755, start = 0},
+    {file = "Audio/Transport/full_quest_5626-74d55cb56c051eae5020/1-0000.mp3", duration = 46.8636735, start = 0},
   },
 }
 P.transport["quest:5627"] = {
@@ -3518,7 +3518,7 @@ P.transport["quest:5630"] = {
   fullHash = "319396",
   text = "Returning Home. In Dun Morogh, a summons calls night elf priests back to Darnassus. Maxan Anvol sends them to Priestess Alathea at the Temple of the Moon. In Kharanos, Maxan Anvol sees a night elf endure Dun Morogh's bitter cold, far from Teldrassil's serene forests. The dwarven priest trainer brings urgent news. A priestess of Elune passed through seeking you with orders from Darnassus. They call you back at once. Your road leads across the sea to the Temple of the Moon in Darnassus, beneath Teldrassil's sacred boughs. Priestess Alathea welcomes you back to the Sisterhood of Elune, relieved that you returned safely from foreign lands. She prepares your next rites of devotion, beginning with the Stars of Elune.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_5630-13408e57cc7ca1266e3f/1-0000.mp3", duration = 44.564898, start = 0},
+    {file = "Audio/Transport/full_quest_5630-41986db38ebac89715f7/1-0000.mp3", duration = 45.1134694, start = 0},
   },
 }
 P.transport["quest:5631"] = {
@@ -3574,7 +3574,7 @@ P.transport["quest:5637"] = {
   fullHash = "546bdc",
   text = "Desperate Prayer. In Stormwind, High Priestess Laurena calls promising dwarven acolytes to the Cathedral of Light. There they deepen their service to the Light and take on wider duties among the Alliance. Dwarven priests trained in Dun Morogh may outgrow the lessons of local mentors like Maxan Anvol in Kharanos. When an acolyte shows promise, High Priestess Laurena sends a formal summons from the Cathedral of Light. Her attention means the young priest is ready for deeper study and greater duties in the faith. Ironforge keeps its holy traditions in the Mystic Ward, while Stormwind's Church of the Holy Light welcomes humans and dwarves alike. Traveling south by Deeprun Tram brings dwarven acolytes into the wider church community. The journey strengthens the spiritual bond between the allied kingdoms.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_5637-289e95942eadbcdc973a/1-0000.mp3", duration = 49.397551, start = 0},
+    {file = "Audio/Transport/full_quest_5637-4e1a6c935ed83098bb9d/1-0000.mp3", duration = 46.0277551, start = 0},
   },
 }
 P.transport["quest:5638"] = {
@@ -3862,7 +3862,7 @@ P.transport["quest:6064"] = {
   fullHash = "e3eb99",
   text = "Taming the Beast. In Dun Morogh, Taming the Beast sets a hunter on the first trial toward mastering companion beasts. In Kharanos, Grif Wildheart guides young trackers as they calm a Large Crag Boar with an enchanted taming rod. Dwarven mountaineers and trackers depend on guns, traps, and their wits in the wild. Yet a hunter's calling is to make a lifelong bond with a wild beast. Outside the Thunderbrew Distillery in Kharanos, Grif Wildheart oversees this rite. He tests novices against several species native to Dun Morogh before asking them to bind any beast for good. A Large Crag Boar is the first test for a young tracker. These thick-hided swine roam Dun Morogh's snowy foothills, where their bristling fur and tough flesh make them stubborn and fierce. Grif provides an enchanted Taming Rod. The hunter faces the boar's charge and tries to calm its fury until it submits to command.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6064-8fa900549c401692a8d9/1-0000.mp3", duration = 54.7265306, start = 0},
+    {file = "Audio/Transport/full_quest_6064-79f5daeb4bf450a32526/1-0000.mp3", duration = 54.804898, start = 0},
   },
 }
 P.transport["quest:6065"] = {
@@ -3886,7 +3886,7 @@ P.transport["quest:6074"] = {
   fullHash = "15f9c7",
   text = "The Hunter's Path. In Dun Morogh, the trainers send ready hunters to Kharanos to begin learning how to tame wild beasts. Grif Wildheart oversees the trials there. Novice hunters cross Dun Morogh’s snowy crags alone until they learn to bond with beasts. Olmin Burningbeard and Tristane Shadowstone watch their pupils closely. They wait until a hunter can face a savage creature calmly and spare its life. Then the trainers send the disciplined novice down the mountain roads toward Kharanos. In Kharanos, Grif Wildheart oversees the final trials of dwarven huntsmanship. Taming a beast takes more than bringing it down for meat or pelt. A hunter needs patience, physical endurance, and an instinctive bond with the wild predators of the mountains. Wildheart prepares each hunter to test their will against Dun Morogh’s fiercest wildlife.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6074-0da9afebfca62bea4fd9/1-0000.mp3", duration = 49.1102041, start = 0},
+    {file = "Audio/Transport/full_quest_6074-587d2bdddc43379f292a/1-0000.mp3", duration = 49.397551, start = 0},
   },
 }
 P.transport["quest:6081"] = {
@@ -3926,7 +3926,7 @@ P.transport["quest:6085"] = {
   fullHash = "769d58",
   text = "Taming the Beast. In Dun Morogh, Grif Wildheart tests your control of an Ice Claw Bear east of Kharanos. With an enchanted rod, you subdue the bear and learn to understand it. Then you earn the power to tame, call, and dismiss a lasting wild companion. Dun Morogh’s mountaineers and scouts depend on hardy beasts in its freezing crags. You have practiced on swift, cunning predators. Now Grif Wildheart sends you to capture an Ice Claw Bear in the snowdrifts east of Kharanos. Its strength and endurance test the control every dwarven huntsman must learn. The Taming Rod keeps the bear docile while you learn how wild instincts answer to will and calm intent. Your bond lasts only for the trial, which teaches discipline. Return the rod to Grif and the trials are complete. He then teaches you to pacify a compatible wild creature and call it throughout your life of adventure.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6085-48bc72036b1a9e3a4bac/1-0000.mp3", duration = 52.9240816, start = 0},
+    {file = "Audio/Transport/full_quest_6085-63e3f1e9faccd03a0bd4/1-0000.mp3", duration = 51.9836735, start = 0},
   },
 }
 P.transport["quest:6086"] = {
@@ -3934,7 +3934,7 @@ P.transport["quest:6086"] = {
   fullHash = "2cd115",
   text = "Training the Beast. In Dun Morogh, Grif Wildheart sends young dwarven hunters to Ironforge to learn care for a lasting animal companion. After taming the mountain’s wild predators, they learn to feed and train their beasts. Young hunters finish their trial near Kharanos under Grif Wildheart’s watch. They have tamed large crag boars, snow leopards, and sturdy ice claw bears with a taming rod. Then Grif sends them up the mountain pass to Ironforge. They seek the Hall of Arms in the military district. Belia Thundergranite teaches animal care in Ironforge’s Hall of Arms. Revered among the dwarven kingdom’s master animal trainers, she shows young hunters how to nourish their pets and teach them new battlefield skills. She also teaches them to call their spirits back if they fall defending their master. Her lessons turn a frightened wild beast into a loyal partner. Dwarven tradition asks for respect between hunter and beast, never subjugation. Belia reminds young hunters that an animal companion reflects the care it receives. Fed well, respected, and properly trained, a beast will fight loyally against troggs, frost trolls, and any threat to Khaz Modan.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6086-1ddc5d0fc33e45552683/1-0000.mp3", duration = 70.2171429, start = 0},
+    {file = "Audio/Transport/full_quest_6086-c345de1d11f0bb2ce033/1-0000.mp3", duration = 71.7322449, start = 0},
   },
 }
 P.transport["quest:6087"] = {
@@ -4262,7 +4262,7 @@ P.transport["quest:6391"] = {
   fullHash = "56c8bc",
   text = "Ride to Ironforge. Brock Stoneseeker sends you from Thelsamar to Ironforge with the names of his finest mining students. You carry his list to Golnir Bouldertoe at the Great Forge. Thorgrum Borrelson carries you from Thelsamar over Dun Morogh's snowy ridges to the mountain fortress. For many young mountaineers and travelers, this is their first flight on a gryphon. At the Great Forge, Golnir Bouldertoe carves the students' names into ceremonial honorary picks. These honors recognize their hard work in Loch Modan's quarries and mines.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6391-482feb11446f816baf5a/1-0000.mp3", duration = 31.6342857, start = 0},
+    {file = "Audio/Transport/full_quest_6391-ca5f3060e14ae15171db/1-0000.mp3", duration = 32.1567347, start = 0},
   },
 }
 P.transport["quest:6392"] = {
@@ -4294,7 +4294,7 @@ P.transport["quest:6401"] = {
   fullHash = "aadeb6",
   text = "Kaya's Alive. Makaba Flathoof has word that Kaya Flathoof survived the Grimtotem attack in Stonetalon. He sends you to Sun Rock Retreat, where her aunt Tammra Windfield waits anxiously. The Grimtotem strike along Stonetalon's contested trails. When their village came under attack, young Kaya Flathoof was feared dead or taken by the renegades. Her rescue brings relief while tribes still fight among the crags. Makaba Flathoof sends you from Kaya to Sun Rock Retreat with news of her safety. Her aunt, Tammra Windfield, waits there anxiously for word from the trails. Your message comforts the family and keeps the remote Horde outpost connected.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6401-b02db02988cf25dfa448/1-0000.mp3", duration = 39.0269388, start = 0},
+    {file = "Audio/Transport/full_quest_6401-09a8b74d7a7a4b6d02cf/1-0000.mp3", duration = 39.7061224, start = 0},
   },
 }
 P.transport["quest:6421"] = {
@@ -4302,7 +4302,7 @@ P.transport["quest:6421"] = {
   fullHash = "865f47",
   text = "Boulderslide Ravine. Kobolds dig for Resonite in the Stonetalon Mountains, while Mor'rogal at Sun Rock Retreat fears a growing unrest in the earth. At Sun Rock Retreat, Mor'rogal watches the Stonetalon peaks and feels the earth stir. An unnatural agitation rises from the southeast. In Boulderslide Ravine, kobolds have abandoned their usual foraging and now dig fiercely for Resonite, a rare mineral from beneath the surface. Mor'rogal sends Horde scouts past the kobolds and into the cave's deepest reaches. He asks them to bring back raw samples and learn why the kobolds mine with such frenzy.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6421-0ecb72b52c284a88468e/1-0000.mp3", duration = 36.5191837, start = 0},
+    {file = "Audio/Transport/full_quest_6421-96d93ad04351b0d21928/1-0000.mp3", duration = 35.3959184, start = 0},
   },
 }
 P.transport["quest:6441"] = {
@@ -4326,7 +4326,7 @@ P.transport["quest:6461"] = {
   fullHash = "ea406a",
   text = "Blood Feeders. In Malaka'jin, Blood Feeders begin with butchered game drawing Deepmoss spiders toward the trolls' camps. Xen'Zilla asks the Horde to drive the predators back from the settlement. The trolls founded Malaka'jin as a frontier outpost in southeastern Stonetalon Mountains, where they could hunt. The craggy slopes offer plenty of game, but its meat draws nocturnal predators into camp. Deepmoss spiders are aggressive arachnids native to the crags and canyons to the north. Under cover of darkness, they slip in to scavenge the trolls' stores or hunt the hunters themselves. Xen'Zilla asks you to track the predators north into the mountain passes. That will help keep Malaka'jin safe and protect its supplies. Deepmoss Creepers and Venomspitters gather thickest around the rocky ravines and webs of Sishir Canyon. Thin their numbers, and the brood will retreat from the settlement. Then the hunters can rest without fearing an ambush from the shadows.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6461-289004a127f5a338ceb9/1-0000.mp3", duration = 54.6481633, start = 0},
+    {file = "Audio/Transport/full_quest_6461-281fc65f2d56fad8ce38/1-0000.mp3", duration = 56.1893878, start = 0},
   },
 }
 P.transport["quest:6462"] = {
@@ -4358,7 +4358,7 @@ P.transport["quest:6523"] = {
   fullHash = "ee83a8",
   text = "Protect Kaya. In the Stonetalon Mountains, Kaya Flathoof is held captive among hostile Grimtotem tauren. Horde adventurers guide her along dangerous trails to Camp Aparaje, then tell her anxious father, Makaba Flathoof, that she survived. Kaya Flathoof was captured deep in Grimtotem territory in the Stonetalon Mountains. The tauren clans are divided by bitter rivalries, and few face sharper hostility than the Grimtotem. Kaya has escaped captivity, but friendly ground lies beyond trails watched by enemies and predators. An armed escort gives her the best hope of getting through. Kaya aims for Camp Aparaje in the eastern Stonetalon Mountains. From there, she knows the way home and can continue on her own. You guide her along paths where ambushes threaten, helping her avoid recapture on the way to safety.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6523-0945c93e1f49a35b6079/1-0000.mp3", duration = 49.3714286, start = 0},
+    {file = "Audio/Transport/full_quest_6523-91fc920fcf05b0f418ed/1-0000.mp3", duration = 48.7967347, start = 0},
   },
 }
 P.transport["quest:6541"] = {
@@ -4406,7 +4406,7 @@ P.transport["quest:6548"] = {
   fullHash = "3d5b06",
   text = "Avenge My Village. Makaba Flathoof calls on Horde travelers to answer the Grimtotem assault in southeastern Stonetalon. He barely escaped, cut off from his kin and surrounded by the dead. Now he seeks vengeance at the camp of the ruffians and hired sellswords. Near the Barrens border, Makaba Flathoof is the lone survivor of a massacre in Stonetalon's red stone passes. Grimtotem raiders struck without warning and slaughtered nearly everyone in his settlement. Makaba fought back and brought down several attackers. Then they drove him into hiding with little more than his life and his wrath. The Grimtotem have long troubled the tauren tribes united under High Chieftain Cairne Bloodhoof. Unlike Mulgore's peaceful nomads, their warbands use ruthless ruffians and opportunistic mercenaries to seize territory and strike isolated settlements. Makaba has no thought of diplomacy or tribal kinship now. Only blood repaid with blood can answer his grief.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6548-3c2ef5773e6158dae847/1-0000.mp3", duration = 56.1632653, start = 0},
+    {file = "Audio/Transport/full_quest_6548-e01a7ec67d85d67a3575/1-0000.mp3", duration = 57.7828571, start = 0},
   },
 }
 P.transport["quest:6608"] = {
@@ -5982,7 +5982,7 @@ P.transport["quest:9261"] = {
   fullHash = "8634c1",
   text = "Investigate the Scourge of Ironforge. The Scourge presses against Ironforge’s gates, and Lieutenant Nevell calls for defenders. Undead troops gather beneath a hovering necropolis while glowing runic circles mark their camps. Lieutenant Nevell and the Argent Dawn watch the undead at Ironforge’s mountain entrance. Necropolises hover above Dun Morogh’s frigid heights, far from Lordaeron and the plagued lands of the north. They mean to stop the Scourge before it reaches the Bronzebeard fortress.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_9261-680883ec1109ce2c9b9d/1-0000.mp3", duration = 27.5591837, start = 0},
+    {file = "Audio/Transport/full_quest_9261-5d93e5a038b7d3761bd8/1-0000.mp3", duration = 27.402449, start = 0},
   },
 }
 P.transport["quest:9262"] = {
@@ -6366,7 +6366,7 @@ P.transport["quest:96047"] = {
   fullHash = "0e2ed3",
   text = "Camping 101: First Aid. In Kharanos, Thamner Pol teaches you to prepare First Aid Kits for camps in Dun Morogh. With these supplies, travelers can stay alive in the field. You can build on your basic bandaging skills by learning to prepare supplies for a resting site. Thamner Pol shows you how raw medical supplies become complete kits, ready for use at camp when travelers need care far from shelter. Thamner Pol teaches you practical ways to outfit expedition sites with emergency supplies. A proper field kit lets a group bind wounds and regain strength together by the hearth before heading back into the cold.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_96047-c116e3b6c7e5258647e7/1-0000.mp3", duration = 35.317551, start = 0},
+    {file = "Audio/Transport/full_quest_96047-12283c919bcd33c2e789/1-0000.mp3", duration = 35.0563265, start = 0},
   },
 }
 P.transport["quest:96139"] = {
@@ -6398,7 +6398,7 @@ P.transport["quest:96390"] = {
   fullHash = "62d45d",
   text = "Nip 'Em in the Bud. Dark Iron spies move through Dun Morogh, and Earthseer Farsen calls for help. Near Ironband's Compound, their presence threatens the Bronzebeard homeland. Dark Iron spies have crossed Dun Morogh's high passes and snowy crags. They hide near settlements and excavations, where even a few watchers may signal a strike. Earthseer Farsen sees the danger and calls on Alliance defenders to find them before their plans advance.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_96390-2e66bb159a32ffcfc2b0/1-0000.mp3", duration = 26.357551, start = 0},
+    {file = "Audio/Transport/full_quest_96390-6757ee01b795b6fcca2b/1-0000.mp3", duration = 27.0889796, start = 0},
   },
 }
 P.transport["quest:96391"] = {
@@ -6414,7 +6414,7 @@ P.transport["quest:96392"] = {
   fullHash = "a66264",
   text = "Farsen's Watch. Near Gol'Bolar Quarry, Earthseer Farsen watches for Dark Iron movement close to Ironforge. The Wildhammer shaman lends you his farsight, revealing a threat that calls for swift action. From his post above Gol'Bolar Quarry, Farsen watches the lower reaches of Dun Morogh. He came south from the crags of Aerie Peak, bringing a Wildhammer's spiritual awareness with him. His clan's old arts let him sense tremors underground and watch for sudden movement along the hillsides. Farsen lends you his farsight, a shamanic gift that carries sight across great distances. Through it, you see danger beyond troggs and wild beasts. Dark Iron dwarves have drawn close to Ironforge's industrial center and are digging in. Their foothold must be confronted before it takes root.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_96392-1f9b9e57b789db0b1e43/1-0000.mp3", duration = 48.9795918, start = 0},
+    {file = "Audio/Transport/full_quest_96392-691adcb226ca69c2fa52/1-0000.mp3", duration = 49.3191837, start = 0},
   },
 }
 P.transport["quest:96393"] = {
@@ -6438,7 +6438,7 @@ P.transport["quest:96408"] = {
   fullHash = "dd2fa6",
   text = "A Visitor to Dun Morogh. Beldin Steelgrill sends you to learn who has lit a fire above Gol'Bolar Quarry. The camp overlooks the excavation, and the dwarves fear its visitor may mean them harm. High on the snowy ridges east of Kharanos, a stranger's campfire burns above the quarry. The unfamiliar fire has worried the folk of Kharanos. There, the Mountaineers watch the heights for danger.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_96408-61751efd6671263279c6/1-0000.mp3", duration = 22.7787755, start = 0},
+    {file = "Audio/Transport/full_quest_96408-8d6335e500bec6206476/1-0000.mp3", duration = 23.1444898, start = 0},
   },
 }
 P.transport["quest:965"] = {
@@ -6478,7 +6478,7 @@ P.transport["quest:96628"] = {
   fullHash = "0c55ad",
   text = "The Adventurer. At Dun Morogh’s southern gate, The Adventurer carries supplies toward Kharanos. Mountaineer Thalos asks travelers to bring provisions to Eric Brighthammer, a newcomer camped just outside the village. Mountaineer Thalos keeps watch at Dun Morogh’s southern gate, where the trail leaves Coldridge Valley. Guarding the high passes and tunnels keeps the Mountaineers busy. Thalos also watches for dangers and travelers on the road. When a lone adventurer arrives near Kharanos, he asks trusted passersby to carry supplies onward. The bundle is meant to help newcomers venturing into the frozen crags. The road from the southern pass winds down to Kharanos, a center of dwarven craft and travel in central Dun Morogh. Eric Brighthammer has recently made camp just outside the village. Carrying the Mountaineers’ provisions to him links the sentries on the ridge with those walking the wilderness.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_96628-873118684fe3e07c63ab/1-0000.mp3", duration = 52.1926531, start = 0},
+    {file = "Audio/Transport/full_quest_96628-fca2c243017274504bdd/1-0000.mp3", duration = 51.0432653, start = 0},
   },
 }
 P.transport["quest:96630"] = {

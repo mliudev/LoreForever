@@ -1,0 +1,84 @@
+{
+ "key": "quest:92109",
+ "type": "quest",
+ "name": "My First Alchemy Set",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92109
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A young alchemist in Moonbrook asks you for basic supplies. She wants to begin learning despite her father's warning about herbs.",
+ "sections": [
+  {
+   "title": "A Young Alchemist",
+   "body": "The child in Moonbrook's barn has been told not to handle her father's herbs. She hopes to learn alchemy while she is still young, and asks you to bring her empty vials, Silverleaf, and Peacebloom. She is waiting to see what she can make with them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for the alchemy supplies?",
+   "aliases": [
+    "who wants supplies",
+    "moonbrook alchemist girl"
+   ],
+   "answer": "A young, aspiring alchemist inside the barn in Moonbrook asks you for supplies."
+  },
+  {
+   "q": "Why does she want these things?",
+   "aliases": [
+    "why alchemy stuff",
+    "why does she need supplies"
+   ],
+   "answer": "She wants to start learning alchemy, but her father will not let her handle his herbs because he considers them dangerous."
+  },
+  {
+   "q": "What supplies is she asking for?",
+   "aliases": [
+    "what items",
+    "alchemy supplies"
+   ],
+   "answer": "She asks for five Empty Vials, five Silverleaf, and five Peacebloom."
+  },
+  {
+   "q": "Where can I find the young alchemist?",
+   "aliases": [
+    "where is the girl",
+    "moonbrook barn"
+   ],
+   "answer": "She is inside the barn in Moonbrook, Westfall."
+  },
+  {
+   "q": "What does she plan to do with the supplies?",
+   "aliases": [
+    "what will she make",
+    "does she make potions"
+   ],
+   "answer": "She says she will see what she can make with the supplies."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alchemy",
+  "empty vials",
+  "moonbrook",
+  "my first alchemy set",
+  "peacebloom",
+  "silverleaf",
+  "westfall",
+  "young alchemist"
+ ],
+ "related": [
+  "zone:westfall",
+  "subzone:moonbrook",
+  "quest:567"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: My First Alchemy Set"
+ ]
+}

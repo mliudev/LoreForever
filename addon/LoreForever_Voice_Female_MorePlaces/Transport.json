@@ -1771,9 +1771,9 @@
     "subzone:dark-portal": {
       "1": [
         {
-          "duration": 77.87102040816326,
-          "file": "Audio/Transport/full_subzone_dark-portal-cbb2536f7b1c811281b0/1-0000.mp3",
-          "sha256": "2774bae93dfe403a0b687dbde403b321150240c3ec42a0f58a9a407188b57174",
+          "duration": 77.55755102040817,
+          "file": "Audio/Transport/full_subzone_dark-portal-537301ee4908a5697c56/1-0000.mp3",
+          "sha256": "a532f4e199a136999abf49c650d7e4e2b3326e8bdd38f94cdbf62b7eb132a2be",
           "start": 0
         }
       ],
@@ -1785,12 +1785,12 @@
         ]
       },
       "fullHash": "b15da2",
-      "generation": "fe6328f169cc42b09bc1",
+      "generation": "d43ad15dc8d0b4961ee9",
       "hash": "b15da2",
       "source": {
-        "duration": 77.897143,
+        "duration": 77.583673,
         "file": null,
-        "sha256": "cbb2536f7b1c811281b0707ea1ac09f1df0d7835b1ab939cd2ad7e86d0b8f639"
+        "sha256": "537301ee4908a5697c564e8c334245453452f3e8156e3ded058a3159af5639f2"
       },
       "text": "Dark Portal. At the Blasted Lands' southern rim, the dormant Dark Portal holds a rift between worlds. Its opening brought the Old Horde into Azeroth and began the First War. Where the Black Morass once spread across the south, the Dark Portal tore open. Medivh, possessed by Sargeras, joined his Tirisfal magics with Gul'dan's fel sorcery on Draenor. Their ritual drained countless lives and ripped reality apart. The Old Horde anchored the rift with massive stonework, then marched through to shatter the Kingdom of Stormwind in the First War.\n\nFel power from the portal poisoned the land. Lush marshes became the red, petrified wastes you see today. After the Alliance of Lordaeron won the Second War, Archmage Khadgar shattered the portal's stone frame with powerful magic. He hoped to sever Draenor from Azeroth forever, but the tear beneath it proved impossible to destroy. The Alliance built Nethergarde Keep nearby to watch the scar.\n\nDemons and remnants of the Shadow Council still creep through the blasted caldera. The gateway has been reassembled, yet remains dormant. It is a silent wound between worlds that neither side dares abandon."
     },
@@ -2161,9 +2161,9 @@
     "subzone:dreadmaul-post": {
       "1": [
         {
-          "duration": 33.48897959183674,
-          "file": "Audio/Transport/full_subzone_dreadmaul-post-fdbb9c73f3f8943f7f02/1-0000.mp3",
-          "sha256": "7865b1b53eaf66ffea91e8babe2b907dcc733109428861a73546ec5be796902e",
+          "duration": 32.9665306122449,
+          "file": "Audio/Transport/full_subzone_dreadmaul-post-4efc0d4987a871c2c661/1-0000.mp3",
+          "sha256": "6a63312352aebf42136159f25893ebe1eebe9573c11649906a1d68d1f3ef91d2",
           "start": 0
         }
       ],
@@ -2175,12 +2175,12 @@
         ]
       },
       "fullHash": "6790bd",
-      "generation": "8e57319bdad38e7e680d",
+      "generation": "62b4c3f3b5e1720750c9",
       "hash": "6790bd",
       "source": {
-        "duration": 33.515102,
+        "duration": 32.992653,
         "file": null,
-        "sha256": "fdbb9c73f3f8943f7f020813ef5cb4af5292cdeed291ad0a835f273382e50fa7"
+        "sha256": "4efc0d4987a871c2c6612eecc93b6c4678fbebc4825f131f0e02a1eb8af9e92b"
       },
       "text": "Dreadmaul Post. Ogres hold Dreadmaul Post near the Dark Portal. The Dreadmaul clan raised this fortified settlement in the Blasted Lands after crossing from Draenor. Travelers face the ogres and the harsh wastes around their camp. The Dreadmaul clan crossed into Azeroth with the Horde decades ago. Near the Dark Portal, they raised rough stone mounds and earthworks in the Blasted Lands’ red wastes. Dreadmaul Post is one of their chief outposts. From here, the ogres hold the badlands and clash with wandering beasts and travelers who approach their territory."
     },
@@ -2837,9 +2837,9 @@
     "subzone:feral-scar-vale": {
       "1": [
         {
-          "duration": 43.49387755102041,
-          "file": "Audio/Transport/full_subzone_feral-scar-vale-dc7d0c84770844c5ab4d/1-0000.mp3",
-          "sha256": "5e7c18b6f501bb61ad18d60d9f139c69248471b1883a09bae3ff7c2e0b4b9f67",
+          "duration": 44.09469387755102,
+          "file": "Audio/Transport/full_subzone_feral-scar-vale-cb3e50f932f6cf6c981c/1-0000.mp3",
+          "sha256": "ec35c803b044d0cd20354f08d71e72d20e8e831f02dd5df1e06c462f0698dc97",
           "start": 0
         }
       ],
@@ -2850,15 +2850,15 @@
           "1"
         ]
       },
-      "fullHash": "629e7b",
-      "generation": "69772fdfd18a08671a16",
-      "hash": "629e7b",
+      "fullHash": "a39b38",
+      "generation": "4496199218c600407ca7",
+      "hash": "a39b38",
       "source": {
-        "duration": 43.52,
+        "duration": 44.120816,
         "file": null,
-        "sha256": "dc7d0c84770844c5ab4dc4d2237ef0eda3b112d48543ad1368fda2edcce7b43b"
+        "sha256": "cb3e50f932f6cf6c981cc06568b54712c4b5e0946a5c50abd8ae2735866629ff"
       },
-      "text": "Feral Scar Vale. In western Feralas, Feral Scar yetis hold a rocky gorge deep in the High Wilderness. Their caves lie beyond the forest trails, where travelers face danger. Primal Feral Scar yetis guard the caves of Feral Scar Vale in the High Wilderness. Unlike the yetis of Alterac and Dun Morogh, these brutes have adapted to Feralas's humid wilds. They defend their cave network fiercely and keep bone trophies. Intruders are driven from their hunting grounds. Gnomish distress signals have sometimes led into the deeper caves of Feral Scar Vale. Lost devices have become trapped there among the yetis, including robotic survey chickens. They wait to be activated and recovered."
+      "text": "Feral Scar Vale. In western Feralas, Feral Scar yetis hold a rocky gorge deep in the High Wilderness. Their caves lie beyond the forest trails, where travelers face danger. For generations the primal Feral Scar yetis have held the caves of Feral Scar Vale. Unlike the yetis of Alterac and Dun Morogh, these brutes have adapted to Feralas's humid wilds. They defend their cave network fiercely and keep bone trophies. Intruders are driven from their hunting grounds. Gnomish distress signals have sometimes led into the deeper caves of Feral Scar Vale. Lost devices have become trapped there among the yetis, including robotic survey chickens. They wait to be activated and recovered."
     },
     "subzone:fire-plume-ridge": {
       "1": [
@@ -3825,9 +3825,9 @@
     "subzone:harborage": {
       "1": [
         {
-          "duration": 35.160816326530615,
-          "file": "Audio/Transport/full_subzone_harborage-b04b5806c67521adbef4/1-0000.mp3",
-          "sha256": "cf484eea7e8297a49e8333d93f054d533b73e4b08ef568a2b4b5df97850e143d",
+          "duration": 33.69795918367347,
+          "file": "Audio/Transport/full_subzone_harborage-ffae6394d482ac6e4057/1-0000.mp3",
+          "sha256": "251d2ec868a1d65308d011844b05274830b609bcc05a72eb27a729fed3ef4e4e",
           "start": 0
         }
       ],
@@ -3839,12 +3839,12 @@
         ]
       },
       "fullHash": "431864",
-      "generation": "431fb8752181c28b2baa",
+      "generation": "3a3d85df62d4cf51f2d7",
       "hash": "431864",
       "source": {
-        "duration": 35.186939,
+        "duration": 33.724082,
         "file": null,
-        "sha256": "b04b5806c67521adbef45eaaa470c14d393a48f948cf314f101ac71b2518641f"
+        "sha256": "ffae6394d482ac6e4057763306f16100830c692e51c681fa7bffc92f18a978fd"
       },
       "text": "Harborage. At the northern edge of the Swamp of Sorrows, Harborage shelters exiled Draenor natives who have kept their minds. They seek peace by the water in a harsh wilderness. At the foot of the northern mountains, you find Harborage, a small camp apart from the feral tribes in the nearby waters. Leather shelters and hanging crystals mark this refuge for exiled survivors from Draenor who have kept their minds. Elders like Magtoor guide the community. Together, they watch the wilderness, its native predators, and the feral tribes of their fallen brothers beyond the camp."
     },
@@ -4111,9 +4111,9 @@
     "subzone:ironforge": {
       "1": [
         {
-          "duration": 76.25142857142858,
-          "file": "Audio/Transport/full_subzone_ironforge-39a01ac1d8810196c282/1-0000.mp3",
-          "sha256": "12cae2305ebe2a40b04603bea7c39609826025c754c98fd50e17f6440d179f60",
+          "duration": 75.28489795918368,
+          "file": "Audio/Transport/full_subzone_ironforge-4f25f1fc17d5ab01a2e7/1-0000.mp3",
+          "sha256": "81663ad5ee5460dae2c9b590ee110ab4fda39e66413b1223092992df5cf33948",
           "start": 0
         }
       ],
@@ -4125,12 +4125,12 @@
         ]
       },
       "fullHash": "5f0d74",
-      "generation": "cd20b8fb959c1b492b26",
+      "generation": "c93d35a5adf56ff197d6",
       "hash": "5f0d74",
       "source": {
-        "duration": 76.277551,
+        "duration": 75.31102,
         "file": null,
-        "sha256": "39a01ac1d8810196c2827cd453636af814ba82e729d434fd0199fd38728432ca"
+        "sha256": "4f25f1fc17d5ab01a2e7c03e055fd1f9c4d4f9377fc229cc9f4b4a6838110f38"
       },
       "text": "Ironforge. Beneath Dun Morogh, Ironforge’s Great Forge still burns at the heart of dwarven rule and Alliance trade. Deep within Ironforge Mountain, the city anchors Khaz Modan and guards the Alliance. Ironforge fills the deep halls of Ironforge Mountain, with stone rings circling the Great Forge. Dwarves founded the city millennia ago, after awakening and migrating from Uldaman. It has endured ages of history, including the War of the Three Hammers, which left the Bronzebeard clan in sole control.\n\nNatural magma pours through the mountain and powers the city. Massive stone gates guard its halls. Dwarven craftsmen and warriors share them with many exiled gnomes, who arrived after Gnomeregan fell recently. Ironforge is one of the Alliance’s busiest centers of commerce and industry. From the High Seat, King Magni Bronzebeard rules Khaz Modan. Dwarven prospectors, miners, and engineers work beside gnome refugees in Tinker Town.\n\nBeneath the mountains, the Deeprun Tram runs to Stormwind City. It carries trade and troops at high speed, keeping the capitals linked in mutual defense."
     },
@@ -4995,9 +4995,9 @@
     "subzone:maker-s-terrace": {
       "1": [
         {
-          "duration": 54.70040816326531,
-          "file": "Audio/Transport/full_subzone_maker-s-terrace-820883f36dc489cb25e5/1-0000.mp3",
-          "sha256": "ef1d2999013a9bdbeb74cd8b927741af5a401c0d9599cdb2aaac6d96d23ca46d",
+          "duration": 53.15918367346939,
+          "file": "Audio/Transport/full_subzone_maker-s-terrace-94c2ffd3ec2549f1eccb/1-0000.mp3",
+          "sha256": "95075048ccadb26feaf1f128c1236fe168861f2008464ea844c1f9072e75b9fe",
           "start": 0
         }
       ],
@@ -5009,12 +5009,12 @@
         ]
       },
       "fullHash": "e8b285",
-      "generation": "60f1b74bd4ec0fd61831",
+      "generation": "0619356e8d177d2d80b8",
       "hash": "e8b285",
       "source": {
-        "duration": 54.726531,
+        "duration": 53.185306,
         "file": null,
-        "sha256": "820883f36dc489cb25e519d4e2785967be49b4b9dcd968b83a22247d7b2620a4"
+        "sha256": "94c2ffd3ec2549f1eccbc72386592b46541d43bf0bc4ce3ee3f385b3b10f1abb"
       },
       "text": "Maker's Terrace. At the Badlands' northern edge, Dark Iron dwarves hold the Maker's Terrace beside the pass from Loch Modan. Their open-air dig guards the way into Uldaman. From the pass out of Loch Modan, you cross trenches and scaffolds spread across the northern Badlands. The dig fronts Uldaman's entrance, an ancient vault built by the Makers. Travelers cross this exposed ground before reaching the halls below. Rival factions contest the approach as they seek a way into the ruins. Dark Iron dwarves patrol the ditches and perimeter, keeping outsiders from the dig. They seek the Makers' relics and power to dominate what lies beneath the earth. Their crews search the hillside for armaments, records, and other relics left by the ancient Makers. The sentries guard the route into Uldaman, and travelers who try to pass meet a hostile welcome."
     },
@@ -11052,19 +11052,6 @@
       483,
       787
     ],
-    "12cae2305ebe2a40b04603bea7c39609826025c754c98fd50e17f6440d179f60": [
-      299,
-      550,
-      816,
-      1048,
-      1352,
-      1502,
-      1918,
-      2112,
-      2283,
-      2533,
-      2708
-    ],
     "130ac4d1b8033977578b3a3019a88afeb25e756198d10395751d78ae4799d784": [
       298,
       455,
@@ -11460,6 +11447,12 @@
       502,
       953
     ],
+    "251d2ec868a1d65308d011844b05274830b609bcc05a72eb27a729fed3ef4e4e": [
+      275,
+      410,
+      676,
+      928
+    ],
     "2527f87e50347a3e85997bb46a89a383ce8b950c346431e734c5a16d0ab822f1": [
       411
     ],
@@ -11493,20 +11486,6 @@
       2639,
       2894,
       3086
-    ],
-    "2774bae93dfe403a0b687dbde403b321150240c3ec42a0f58a9a407188b57174": [
-      248,
-      464,
-      672,
-      965,
-      1123,
-      1423,
-      1746,
-      2050,
-      2295,
-      2463,
-      2648,
-      2806
     ],
     "27b81ee926cee7a1aca3ecf8d50e2bf3b23afa530946844444c759e9237b026f": [
       256,
@@ -12441,13 +12420,6 @@
       1285,
       1452
     ],
-    "5e7c18b6f501bb61ad18d60d9f139c69248471b1883a09bae3ff7c2e0b4b9f67": [
-      238,
-      433,
-      637,
-      1163,
-      1363
-    ],
     "5ec7cc328ff1e1900b9fef4aaf423032b02444e0e3fa7c61c4f51791ff378cf3": [
       191,
       358,
@@ -12612,6 +12584,12 @@
       1307,
       1560
     ],
+    "6a63312352aebf42136159f25893ebe1eebe9573c11649906a1d68d1f3ef91d2": [
+      342,
+      494,
+      661,
+      903
+    ],
     "6b2ec8fbd51d888cfffbd5df7d52bec2f0ddf2e55494c72e39dfaff151ac5f4d": [
       276,
       451,
@@ -12748,11 +12726,6 @@
       1155,
       1439
     ],
-    "7865b1b53eaf66ffea91e8babe2b907dcc733109428861a73546ec5be796902e": [
-      353,
-      524,
-      697
-    ],
     "78e4d72bc4d97a641ea11d5673ea88bda7204ee3740cb0bcd53ca0cfa073b9a7": [
       255,
       518,
@@ -12861,6 +12834,19 @@
     ],
     "807f5f089cdd05513ab3111e77ac7328322101a751f564ad2482c2198a76a514": [
       580
+    ],
+    "81663ad5ee5460dae2c9b590ee110ab4fda39e66413b1223092992df5cf33948": [
+      274,
+      518,
+      784,
+      1010,
+      1322,
+      1471,
+      1878,
+      2067,
+      2251,
+      2490,
+      2663
     ],
     "818cfa5c86a8788a7f67074a02534076d2a004177aaecf4fcde8cbde642bb3e9": [
       364,
@@ -13203,6 +13189,17 @@
       3535,
       3881
     ],
+    "95075048ccadb26feaf1f128c1236fe168861f2008464ea844c1f9072e75b9fe": [
+      280,
+      421,
+      658,
+      846,
+      1009,
+      1184,
+      1406,
+      1574,
+      1802
+    ],
     "954fe728e0d8f62eb68ea2656a78798cc9d23e90863ed17fb1ea1f45a2ceb459": [
       198,
       596,
@@ -13400,6 +13397,20 @@
     ],
     "a52b2da9226821755fa6ede678f2a3c17e9acacae2c09abd35938681d4efe593": [
       793
+    ],
+    "a532f4e199a136999abf49c650d7e4e2b3326e8bdd38f94cdbf62b7eb132a2be": [
+      258,
+      457,
+      662,
+      931,
+      1101,
+      1427,
+      1736,
+      2033,
+      2272,
+      2439,
+      2630,
+      2790
     ],
     "a58d42451c7c7b37bfa901b78a09e347a47b7d01a782278490fca2f1ee2f6296": [
       172,
@@ -14010,11 +14021,6 @@
       1686,
       1876
     ],
-    "cf484eea7e8297a49e8333d93f054d533b73e4b08ef568a2b4b5df97850e143d": [
-      413,
-      692,
-      975
-    ],
     "cfdf901e74d9af0964f175729f2e5a25c98465f411889994e4a1da7aa6140be3": [
       256,
       524,
@@ -14449,6 +14455,13 @@
       1731,
       2197
     ],
+    "ec35c803b044d0cd20354f08d71e72d20e8e831f02dd5df1e06c462f0698dc97": [
+      240,
+      447,
+      770,
+      1173,
+      1376
+    ],
     "ed2b05fd1268fa989c271a967c1850113129a3a3bb8b24a5b8ec77ead8da2d0e": [
       749,
       1225
@@ -14487,17 +14500,6 @@
       1951,
       2306,
       2561
-    ],
-    "ef1d2999013a9bdbeb74cd8b927741af5a401c0d9599cdb2aaac6d96d23ca46d": [
-      275,
-      416,
-      687,
-      880,
-      1045,
-      1218,
-      1434,
-      1606,
-      1851
     ],
     "ef874fe7583a31746ac2f6254da9cde919c96b7dffca813b9660a0d076f57caa": [
       222,
@@ -14815,10 +14817,6 @@
     "119dfc70cba9fbe01eab8308c8b185d579e2905ea62887d20fdd0d25365a7e54": {
       "607": 1
     },
-    "12cae2305ebe2a40b04603bea7c39609826025c754c98fd50e17f6440d179f60": {
-      "1918": 2,
-      "550": 1
-    },
     "130ac4d1b8033977578b3a3019a88afeb25e756198d10395751d78ae4799d784": {
       "455": 1
     },
@@ -14956,6 +14954,9 @@
     "24ec3bd09a085aea87662f396fa09a94519a55a61c1f684e4e2355c8a78b04d3": {
       "345": 1
     },
+    "251d2ec868a1d65308d011844b05274830b609bcc05a72eb27a729fed3ef4e4e": {
+      "410": 1
+    },
     "25ec2af7aaf9affd2f94b3c9348f9f7b63985d3b869daad7ef67fbff18f54ff5": {
       "464": 1
     },
@@ -14965,10 +14966,6 @@
     "2760e8b9d18b8760da4134cf862a18557caac376104e6c43ec9c8b3b2700842f": {
       "2060": 2,
       "650": 1
-    },
-    "2774bae93dfe403a0b687dbde403b321150240c3ec42a0f58a9a407188b57174": {
-      "1746": 2,
-      "464": 1
     },
     "27b81ee926cee7a1aca3ecf8d50e2bf3b23afa530946844444c759e9237b026f": {
       "1338": 2,
@@ -15299,10 +15296,6 @@
     "5e4f669168a6fc2acd92f3cd912fa6e705d2090c603026a9aefd60c033f7dfe0": {
       "600": 1
     },
-    "5e7c18b6f501bb61ad18d60d9f139c69248471b1883a09bae3ff7c2e0b4b9f67": {
-      "1163": 2,
-      "433": 1
-    },
     "5ec7cc328ff1e1900b9fef4aaf423032b02444e0e3fa7c61c4f51791ff378cf3": {
       "358": 1
     },
@@ -15361,6 +15354,9 @@
     "6a2d75f5df35df52b687cb2414a426357eb2f853ee9e8ce70cd9dc0147b35726": {
       "453": 1
     },
+    "6a63312352aebf42136159f25893ebe1eebe9573c11649906a1d68d1f3ef91d2": {
+      "494": 1
+    },
     "6b2ec8fbd51d888cfffbd5df7d52bec2f0ddf2e55494c72e39dfaff151ac5f4d": {
       "451": 1
     },
@@ -15408,9 +15404,6 @@
     "7832b8258494bcee3dd2e0f60cd19d154fbd6a5eed83184985181e50f8882b34": {
       "621": 1
     },
-    "7865b1b53eaf66ffea91e8babe2b907dcc733109428861a73546ec5be796902e": {
-      "524": 1
-    },
     "78e4d72bc4d97a641ea11d5673ea88bda7204ee3740cb0bcd53ca0cfa073b9a7": {
       "1500": 2,
       "518": 1
@@ -15450,6 +15443,10 @@
     },
     "806761532534fb2ae73ca5b82dad7d28fe7e3173b92a839f373f13af10352cad": {
       "428": 1
+    },
+    "81663ad5ee5460dae2c9b590ee110ab4fda39e66413b1223092992df5cf33948": {
+      "1878": 2,
+      "518": 1
     },
     "818cfa5c86a8788a7f67074a02534076d2a004177aaecf4fcde8cbde642bb3e9": {
       "364": 1
@@ -15580,6 +15577,10 @@
       "2422": 2,
       "690": 1
     },
+    "95075048ccadb26feaf1f128c1236fe168861f2008464ea844c1f9072e75b9fe": {
+      "1184": 2,
+      "421": 1
+    },
     "954fe728e0d8f62eb68ea2656a78798cc9d23e90863ed17fb1ea1f45a2ceb459": {
       "596": 1
     },
@@ -15653,6 +15654,10 @@
     },
     "a520290f7190863382885ea035de89241beefbd14e751c0e25d8bb72d94c25d4": {
       "1497": 2,
+      "457": 1
+    },
+    "a532f4e199a136999abf49c650d7e4e2b3326e8bdd38f94cdbf62b7eb132a2be": {
+      "1736": 2,
       "457": 1
     },
     "a58d42451c7c7b37bfa901b78a09e347a47b7d01a782278490fca2f1ee2f6296": {
@@ -15885,9 +15890,6 @@
       "1514": 2,
       "600": 1
     },
-    "cf484eea7e8297a49e8333d93f054d533b73e4b08ef568a2b4b5df97850e143d": {
-      "413": 1
-    },
     "cfdf901e74d9af0964f175729f2e5a25c98465f411889994e4a1da7aa6140be3": {
       "1430": 2,
       "524": 1
@@ -16050,6 +16052,10 @@
       "1731": 2,
       "561": 1
     },
+    "ec35c803b044d0cd20354f08d71e72d20e8e831f02dd5df1e06c462f0698dc97": {
+      "1173": 2,
+      "447": 1
+    },
     "ede38f583f577305c94b69b17b87d30a3e8efa7bc41806b9df73aa186ef816e2": {
       "1427": 2,
       "315": 1
@@ -16061,10 +16067,6 @@
     "eec4a612f2c1c240b0378401c6a19878ccb5181d7448e4aa534556368c59ad7a": {
       "1744": 2,
       "502": 1
-    },
-    "ef1d2999013a9bdbeb74cd8b927741af5a401c0d9599cdb2aaac6d96d23ca46d": {
-      "1218": 2,
-      "416": 1
     },
     "ef874fe7583a31746ac2f6254da9cde919c96b7dffca813b9660a0d076f57caa": {
       "390": 1

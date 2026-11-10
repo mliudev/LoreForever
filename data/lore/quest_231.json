@@ -1,0 +1,91 @@
+{
+ "key": "quest:231",
+ "type": "quest",
+ "name": "A Daughter's Love",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   231
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Sarah Ladimore asks you to bring her ring to Morgan Ladimore\u2019s grave. The meeting there bears on Morgan\u2019s troubled soul.",
+ "sections": [
+  {
+   "title": "At the Grave",
+   "body": "A voice on the wind answers when you bring Sarah Ladimore\u2019s ring to Morgan Ladimore\u2019s grave. Morgan wonders whether Sarah still lives, and says the ring lifts a weight from his shoulders. He entrusts you with his sword, Archeus, and asks you to keep the ring as he speaks to Lys, his love.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happens when I take Sarah\u2019s ring to Morgan\u2019s grave?",
+   "aliases": [
+    "sarah ring grave",
+    "morgan ladimore ring",
+    "a daughter's love ending"
+   ],
+   "answer": "A voice on the wind responds. Morgan wonders if Sarah is still alive and says the ring lifts a weight from his shoulders."
+  },
+  {
+   "q": "Who is the voice at the grave?",
+   "aliases": [
+    "ghost voice",
+    "who speaks at the grave",
+    "morgan ghost"
+   ],
+   "answer": "Morgan Ladimore speaks as a ghostly voice on the wind."
+  },
+  {
+   "q": "What does Morgan give me?",
+   "aliases": [
+    "morgan sword",
+    "archeus sword",
+    "take archeus"
+   ],
+   "answer": "Morgan gives you his sword, Archeus."
+  },
+  {
+   "q": "What does Morgan ask me to keep?",
+   "aliases": [
+    "keep the ring",
+    "morgan's ring",
+    "ring at grave"
+   ],
+   "answer": "Morgan asks you to keep Sarah\u2019s ring."
+  },
+  {
+   "q": "Who is Lys?",
+   "aliases": [
+    "lys morgan",
+    "morgan's love",
+    "lys ladimore"
+   ],
+   "answer": "Morgan calls Lys his love."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Paladin",
+   "text": "Morgan says Archeus was forged to do good and asks you to carry on the Light through it."
+  }
+ ],
+ "keywords": [
+  "a daughter's love",
+  "archeus",
+  "grave",
+  "lys",
+  "morgan ladimore",
+  "ring",
+  "sarah ladimore"
+ ],
+ "related": [
+  "topic:light"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Daughter's Love"
+ ]
+}
