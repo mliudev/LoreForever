@@ -1,0 +1,84 @@
+{
+ "key": "quest:2929",
+ "type": "quest",
+ "name": "The Grand Betrayal",
+ "era": "forever",
+ "zone": "gnomeregan",
+ "meta": {
+  "ids": [
+   2929
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "High Tinker Mekkatorque asks you to strike at Mekgineer Thermaplugg, who betrayed him and the gnomish people. Thermaplugg's rule keeps the gnomes from reclaiming Gnomeregan.",
+ "sections": [
+  {
+   "title": "Mekkatorque's Appeal",
+   "body": "High Tinker Mekkatorque seeks your aid in Gnomeregan's struggle to return the city to gnomish control. He trusted Mekgineer Thermaplugg, but Thermaplugg betrayed him and the gnomish people. Now the gnomes are displaced, and Thermaplugg rules their home. Mekkatorque asks you to bring down the betrayer so their plans to reclaim the city can advance.",
+   "spoiler": 0
+  },
+  {
+   "title": "The City\u2019s Claim",
+   "body": "With Mekgineer Thermaplugg dead, Mekkatorque says the gnomes are a step closer to retaking Gnomeregan.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who betrayed the gnomes?",
+   "aliases": [
+    "thermaplugg betrayal",
+    "who betrayed gnomes"
+   ],
+   "answer": "Mekgineer Thermaplugg betrayed High Tinker Mekkatorque and the gnomish people."
+  },
+  {
+   "q": "Why are the gnomes displaced?",
+   "aliases": [
+    "gnomes displaced",
+    "why leave gnomeregan"
+   ],
+   "answer": "Mekkatorque says Thermaplugg's betrayal left the gnomes displaced from Gnomeregan, with Thermaplugg in charge."
+  },
+  {
+   "q": "Who asks for help against Thermaplugg?",
+   "aliases": [
+    "mekkatorque asks",
+    "who wants thermaplugg dead"
+   ],
+   "answer": "High Tinker Mekkatorque asks you to kill Mekgineer Thermaplugg."
+  },
+  {
+   "q": "What does Mekkatorque want for Gnomeregan?",
+   "aliases": [
+    "retake gnomeregan",
+    "gnome city plans"
+   ],
+   "answer": "Mekkatorque and the gnomes aim to return Gnomeregan to their control."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Gnome",
+   "text": "As a gnome, Mekkatorque's call concerns your people's lost home and their fight to reclaim Gnomeregan."
+  }
+ ],
+ "keywords": [
+  "betrayal",
+  "gnomeregan",
+  "gnomes",
+  "high tinker mekkatorque",
+  "mekgineer thermaplugg",
+  "retake gnomeregan",
+  "the grand betrayal"
+ ],
+ "related": [
+  "zone:gnomeregan",
+  "topic:skyborne"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Grand Betrayal"
+ ]
+}

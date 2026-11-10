@@ -438,6 +438,9 @@ def validate(pack, *, probe=False, limit=LIMIT, replacing=frozenset(), source_ro
         if len(tocs) != 1:
             raise TransportError('transport requires one TOC')
         loaded = [s.strip() for s in tocs[0].read_text(encoding='utf-8-sig').splitlines() if s.strip() and not s.startswith('#')]
+        if 'Transport.lua' in loaded and not lua.exists():
+            # Build output, not in git (LOR-441: scripts/build_core.py): a fresh checkout's is made from the receipt here.
+            lua.write_text(render(pack.name, manifest), encoding='utf-8', newline='\n')
         source_pack = pack
         if 'sourcePack' in manifest:
             name = manifest['sourcePack']

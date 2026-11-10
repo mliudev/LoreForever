@@ -1870,7 +1870,10 @@ function UI.UpdateListen()
       -- A story card's pill: play or stop; the + adds or takes out (a tick once it's in the playlist, playing or not:
       -- the pill keeps its shape while it plays).
       local recorded = ns.Voice.HasAudio(t.key) and ns.Voice.CanPlay(t.key)
-      b.pill:SetShown(recorded)
+      local offer = not recorded and ns.VoiceOffer.ForStory(t.key) or nil   -- a free download has its voice
+      T.SetPillOffer(b.pill, offer)
+      b.pill:SetShown(recorded or offer ~= nil)
+      if offer then ns.VoiceOffer.Showing(offer) end
       local qk, qi = UI.QueueRef(t)
       local can = recorded and qk and UI.CanQueue(qk, qi) and true or false
       local add = b.add
@@ -5447,6 +5450,16 @@ end
 -- The quest log's selected page as something to play. Check the words it actually shows, without selecting another
 -- quest or using an unchecked recording. A stale button or missing/rewritten page has nothing to play. Its Listen is
 -- pressed on purpose, so it plays with Speak quest dialogue off too (Hooks' questPlayButton marks it asked).
+-- The words on the quest log's page for quest qid (selected), when the log is sure of them; else nil.
+function UI.QuestLogWords(qid)
+  local QL = _G.C_QuestLog
+  if not (qid and QL and QL.GetSelectedQuest) then return nil end
+  local ok, selected = pcall(QL.GetSelectedQuest)
+  if not (ok and selected == qid) then return nil end
+  local desc, _, sure = logText(qid)
+  return sure and type(desc) == "string" and desc:find("%S") and desc or nil
+end
+
 function UI.QuestLogTarget(qid)
   local QL, V = _G.C_QuestLog, ns.Voice
   if not (qid and QL and QL.GetSelectedQuest) or V.Current() == "none" then return nil end

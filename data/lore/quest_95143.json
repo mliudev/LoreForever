@@ -1,0 +1,78 @@
+{
+ "key": "quest:95143",
+ "type": "quest",
+ "name": "Finding Tan'jani",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95143
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A traveler asks you to find their brother Tan'jani. Messages place him south of Loch Modan, with the latest pointing toward Rog'mar in Riverglades.",
+ "sections": [
+  {
+   "title": "A Brother Missing",
+   "body": "A traveler's brother, Tan'jani, has gone searching for something unknown. One message places him somewhere south of Loch Modan. A bloodstained letter mentions Riverglades and Rog'mar farther south, and the traveler asks you to find him there.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tan'jani?",
+   "aliases": [
+    "tan'jani",
+    "tan jani",
+    "missing brother"
+   ],
+   "answer": "Tan'jani is the brother of the traveler asking you to find him."
+  },
+  {
+   "q": "Where was Tan'jani last mentioned?",
+   "aliases": [
+    "where is tan'jani",
+    "tan'jani location",
+    "rog'mar"
+   ],
+   "answer": "A bloodstained letter mentions Riverglades and Rog'mar, farther south than Loch Modan."
+  },
+  {
+   "q": "What was Tan'jani searching for?",
+   "aliases": [
+    "what was he looking for",
+    "tan'jani searching",
+    "why did he leave"
+   ],
+   "answer": "Tan'jani was always searching for something, but his brother does not know what."
+  },
+  {
+   "q": "What do the messages say?",
+   "aliases": [
+    "tan'jani messages",
+    "bloodstained letter",
+    "what happened to the letter"
+   ],
+   "answer": "One traveler reported meeting Tan'jani somewhere south of Loch Modan. A bloodstained letter mentions Riverglades and Rog'mar, but most of it cannot be read."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bloodstained letter",
+  "loch modan",
+  "missing brother",
+  "riverglades",
+  "rog'mar",
+  "tan jani",
+  "tan'jani"
+ ],
+ "related": [
+  "zone:riverglades",
+  "zone:lochmodan"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Finding Tan'jani"
+ ]
+}

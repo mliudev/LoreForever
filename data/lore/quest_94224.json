@@ -1,0 +1,78 @@
+{
+ "key": "quest:94224",
+ "type": "quest",
+ "name": "Craftsman's Writ: Heavy Bronze Mace",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94224
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A faded writ requests one Heavy Bronze Mace and gives terms for its delivery and payment. You need the writ to complete the exchange.",
+ "sections": [
+  {
+   "title": "A Written Request",
+   "body": "The note is written in faded ink, and the customer asks for a Heavy Bronze Mace. You are to bring the requested item to the place marked on your map. Keep the writ with you, for it is required to complete the exchange.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ request?",
+   "aliases": [
+    "heavy bronze mace writ",
+    "what item is wanted"
+   ],
+   "answer": "The customer requests one Heavy Bronze Mace."
+  },
+  {
+   "q": "Where do I deliver the mace?",
+   "aliases": [
+    "mace delivery place",
+    "where to take it"
+   ],
+   "answer": "The delivery location is marked on your map."
+  },
+  {
+   "q": "Do I need to keep the writ?",
+   "aliases": [
+    "need the writ",
+    "writ required"
+   ],
+   "answer": "Yes. The writ must be in your possession to complete the transaction."
+  },
+  {
+   "q": "What does the note say about payment?",
+   "aliases": [
+    "mace payment",
+    "how much is payment"
+   ],
+   "answer": "The note includes information about payment, but the provided text does not give the amount."
+  },
+  {
+   "q": "Can someone else use the writ?",
+   "aliases": [
+    "transferable writ",
+    "pass writ to someone"
+   ],
+   "answer": "The writing at the bottom says the writ is transferable."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "delivery",
+  "heavy bronze mace",
+  "mace",
+  "payment",
+  "transferable writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Heavy Bronze Mace"
+ ]
+}

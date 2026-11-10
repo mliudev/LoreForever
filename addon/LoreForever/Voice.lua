@@ -3014,11 +3014,70 @@ function Voice.QuestPackHint(level)
   for _, band in ipairs(bands) do
     local pack = band.voices and band.voices[voice]
     if not pack then return nil end   -- (not a narrator that has quest packs)
-    if level >= band.from and level <= band.to and not ns.Packs.Get(pack.pack) then needed = { band, pack } end
+    -- (only a pack that's out: never a download that doesn't exist yet)
+    local out = type(ns.DB.livePacks) ~= "table" or ns.DB.livePacks[pack.pack]
+    if level >= band.from and level <= band.to and out and not ns.Packs.Get(pack.pack) then needed = { band, pack } end
   end
   if not needed then return nil end
   return string.format(L["Quest voices for levels %s are their own download: \"%s\", from wherever you got Lore Forever."],
     needed[1].from .. DASH .. needed[1].to, needed[2].title)
+end
+
+-- What a free download really has, for the quiet voice button (VoiceOffer.lua, LOR-1348). The English narrator in use,
+-- when the player reads in English: nil for a language or edition whose downloads the add-on's data doesn't list, and
+-- for narration off. ns.DB.livePacks (lore.voicepack.live_voice_packs) is the English packs out on the Downloads page.
+local function offerVoice()
+  local db = ns.DB or {}
+  if (ns.lang and ns.lang.edition) or not sameLanguage(readingLocale(), "enUS") or type(db.livePacks) ~= "table" then
+    return nil
+  end
+  local voice = Voice.Current()
+  if voice == "none" then return nil end
+  return Voice.KeyOf(voice == AUTO and DEFAULT_PACK or voice)
+end
+
+-- A pack that's out and isn't in the add-on list (one that's there but off or too new isn't a missing download).
+local function toDownload(folder) return ns.DB.livePacks[folder] and not ns.Packs.Get(folder) end
+
+-- Whether a download has this story (an entry's key) in the narrator's voice, and no voice in use has it.
+-- ns.DB.clipPack names the optional pack each story's recording is in.
+function Voice.StoryDownload(key)
+  local voice = offerVoice()
+  if not (voice and type(key) == "string") or key:find("#", 1, true) then return false end
+  local suffix = ns.DB.clipPack and ns.DB.clipPack[key]
+  if not suffix then return false end
+  if not Voice.ready then Voice.Refresh() end
+  if Voice.provided[key] then return false end
+  return toDownload(voice .. "_" .. suffix) and true or false
+end
+
+-- Whether a download has this quest page (kind) in the narrator's voice, for a quest of this level (the game's), its
+-- recording made from these words (text, the quest window's own when left out). A page Forever rewrote has none, so
+-- the button never promises a voice that wouldn't play.
+function Voice.QuestDownload(qid, kind, level, text)
+  local voice, part = offerVoice(), QUEST_PART[kind]
+  local db = ns.DB or {}
+  local rec = db.questVoice and db.questVoice[qid]
+  level = tonumber(level)
+  if not (voice and part and rec and level and type(db.questBands) == "table") or not gameInEnglish() then return false end
+  local fps = rec[part]
+  if type(fps) ~= "string" or fps == "" then return false end
+  local pack
+  for _, band in ipairs(db.questBands) do
+    if level >= band.from and level <= band.to then pack = band.voices and band.voices[voice] break end
+  end
+  if not (pack and toDownload(pack.pack)) then return false end
+  if text == nil then
+    local f = _G[QUEST_TEXT[kind]]
+    local ok, words = false, nil
+    if f then ok, words = pcall(f) end
+    text = ok and words or nil
+  end
+  if type(text) ~= "string" or not text:find("%S") then return false end
+  for _, fp in ipairs(Voice.QuestFingerprints(text)) do
+    if (" " .. fps .. " "):find(" " .. fp .. " ", 1, true) then return true end
+  end
+  return false
 end
 
 -- The quest window closed (accepted, turned in or closed): its page plays on to its end (LOR-667: three players asked;

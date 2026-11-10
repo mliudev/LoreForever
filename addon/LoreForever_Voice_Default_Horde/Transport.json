@@ -2551,9 +2551,9 @@
     "subzone:dry-hills": {
       "1": [
         {
-          "duration": 45.270204081632656,
-          "file": "Audio/Transport/full_subzone_dry-hills-e6af3afb994026f3f891/1-0000.mp3",
-          "sha256": "7c18b668445562190d662e09b21363deb49e27a21b692ef855407a964270747a",
+          "duration": 47.6995918367347,
+          "file": "Audio/Transport/full_subzone_dry-hills-8fed7ad72f0803a89589/1-0000.mp3",
+          "sha256": "af1ac706a921b450ef3cbf71530126dfb25ef1eb628cfddb35a33cea81f3faab",
           "start": 0
         }
       ],
@@ -2565,12 +2565,12 @@
         ]
       },
       "fullHash": "641241",
-      "generation": "41dfb042a852eaf445a4",
+      "generation": "00caa07b027a033dc3bd",
       "hash": "4c27aa",
       "source": {
-        "duration": 45.296327,
+        "duration": 47.725714,
         "file": null,
-        "sha256": "e6af3afb994026f3f891b61eeadfaeb274c2e755cba6c763dcf6278725178b89"
+        "sha256": "8fed7ad72f0803a8958924f4b561844b424fe7ce47348776e33788a1ef98f91a"
       },
       "text": "Dry Hills. Witchwing harpies rule the green Dry Hills above the Barrens. The Dry Hills rise along the Barrens’ northwestern edge, beneath the Stonetalon Mountains. Their slopes are greener than the dry plains below, but the bluffs offer travelers little safety. Serena Bloodfeather leads the Witchwing harpies from roosts along the crags. Their raiders swoop on supply caravans traveling the northern Gold Road. Abandoned orcish fortifications and derelict siege engines rot in the brush. Witchwing harpies strike from the hills to bleed trade routes and harass nearby settlements. So the Horde keeps a standing bounty on their feathers. Their nests and roosts are heavily defended in the rocky ravines. Hecklefang hyenas prowl there, while fierce Sunscale raptors hunt across the highlands."
     },
@@ -6246,15 +6246,6 @@
       2976,
       3232
     ],
-    "7c18b668445562190d662e09b21363deb49e27a21b692ef855407a964270747a": [
-      159,
-      559,
-      727,
-      882,
-      1068,
-      1273,
-      1524
-    ],
     "7db6908331521568dec9cb96110c40f0fac8bf019ae7bf941e31fc3071bed8f0": [
       308,
       552,
@@ -6675,6 +6666,15 @@
       1697,
       1965,
       2136
+    ],
+    "af1ac706a921b450ef3cbf71530126dfb25ef1eb628cfddb35a33cea81f3faab": [
+      166,
+      381,
+      606,
+      778,
+      1152,
+      1351,
+      1607
     ],
     "af3adddec82267f2c93e30f9e8d013a61550e869f03d7d276f771ec7df3e9ea9": [
       789,
@@ -7664,10 +7664,6 @@
       "2400": 3,
       "594": 1
     },
-    "7c18b668445562190d662e09b21363deb49e27a21b692ef855407a964270747a": {
-      "1068": 2,
-      "159": 1
-    },
     "7db6908331521568dec9cb96110c40f0fac8bf019ae7bf941e31fc3071bed8f0": {
       "308": 1,
       "982": 2
@@ -7808,6 +7804,10 @@
     "ab02a438becad5411da8571e511f431e13fe42a8f37d7d2a050ee7ed0cfc1355": {
       "1484": 2,
       "451": 1
+    },
+    "af1ac706a921b450ef3cbf71530126dfb25ef1eb628cfddb35a33cea81f3faab": {
+      "1152": 2,
+      "166": 1
     },
     "b848eb02003a9eb8f9068d02adedae9551ff3eee4bab708f1b0e15d2f4f69b92": {
       "1717": 2,

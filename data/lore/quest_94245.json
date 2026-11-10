@@ -1,0 +1,80 @@
+{
+ "key": "quest:94245",
+ "type": "quest",
+ "name": "Craftsman's Writ: Barbaric Gloves",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94245
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ requests Barbaric Gloves and gives a delivery location and payment details. You need the writ with you to complete the transaction.",
+ "sections": [
+  {
+   "title": "A Customer's Request",
+   "body": "A customer requests one pair of Barbaric Gloves through this faded writ. The note gives a delivery location and payment details, and it can pass from hand to hand. You need the writ in your possession when you deliver the requested item.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ request?",
+   "aliases": [
+    "barbaric gloves writ",
+    "what gloves",
+    "craftsman writ"
+   ],
+   "answer": "The customer requests one pair of Barbaric Gloves."
+  },
+  {
+   "q": "Where do I deliver the gloves?",
+   "aliases": [
+    "delivery location",
+    "where to take gloves"
+   ],
+   "answer": "The delivery location is marked on your map."
+  },
+  {
+   "q": "Do I need to carry the writ?",
+   "aliases": [
+    "need writ with me",
+    "writ required"
+   ],
+   "answer": "Yes. You need the writ in your possession to complete the transaction."
+  },
+  {
+   "q": "Can the writ be transferred?",
+   "aliases": [
+    "transfer writ",
+    "pass writ along"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  },
+  {
+   "q": "What does the writ say about payment?",
+   "aliases": [
+    "payment details",
+    "how much payment"
+   ],
+   "answer": "The writ includes information about payment."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "barbaric gloves",
+  "craftsman's writ",
+  "delivery",
+  "gloves",
+  "payment",
+  "transferable",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Barbaric Gloves"
+ ]
+}

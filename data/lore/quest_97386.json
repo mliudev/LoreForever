@@ -1,0 +1,73 @@
+{
+ "key": "quest:97386",
+ "type": "quest",
+ "name": "The Offense of Grom'gol",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97386
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Commander Aggro'gosh asks you to help Grom'gol Base Camp after a scout finds ogres in a cave to the east. The settlement has already faced their attacks, and the danger remains.",
+ "sections": [
+  {
+   "title": "A Scout's Report",
+   "body": "After you help defend Grom'gol Base Camp and push back nearby ogres, Commander Aggro'gosh sends a scout to search for more. The scout finds ogres dwelling in a cave far to the east. Aggro'gosh asks you to strike at the Mosh'Ogg Ogre Mount, so the settlement faces no further threat from them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for help against the ogres?",
+   "aliases": [
+    "who gives this",
+    "Aggro'gosh request"
+   ],
+   "answer": "Commander Aggro'gosh of Grom'gol Base Camp asks you to deal with the ogres."
+  },
+  {
+   "q": "Where did the scout find the ogres?",
+   "aliases": [
+    "ogre cave where",
+    "where are they"
+   ],
+   "answer": "The scout finds them in a cave far to the east, at the Mosh'Ogg Ogre Mount."
+  },
+  {
+   "q": "Why is Aggro'gosh concerned about the ogres?",
+   "aliases": [
+    "why fight ogres",
+    "ogres threat"
+   ],
+   "answer": "Grom'gol has already faced nearby ogres, and the scout finds more dwelling in a cave to the east."
+  },
+  {
+   "q": "What happened before this?",
+   "aliases": [
+    "previous step",
+    "defense of gromgol"
+   ],
+   "answer": "You helped defend Grom'gol and pushed against nearby ogres before the scout searched for more."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "aggro'gosh",
+  "base camp",
+  "grom'gol",
+  "mosh'ogg",
+  "ogres",
+  "scout"
+ ],
+ "related": [
+  "subzone:grom-gol-base-camp",
+  "quest:568"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Offense of Grom'gol"
+ ]
+}

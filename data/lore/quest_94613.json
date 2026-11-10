@@ -1,0 +1,77 @@
+{
+ "key": "quest:94613",
+ "type": "quest",
+ "name": "My Kingdom for a Horse",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94613
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A nearby farm has lost its horses, leaving Stormwind without cavalry for its campaign against the Horde. You are sent to Wheeler\u2019s Grange to speak with Benjy.",
+ "sections": [
+  {
+   "title": "The Missing Stock",
+   "body": "Stormwind\u2019s warhorses come from two nearby farms, but Wheeler\u2019s Grange has lost all of its stock. The cause is unknown, and without horses the city has no cavalry for its campaign against the Horde. You are sent to speak with Benjy at the grange and learn what he has to say.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Stormwind need the horses?",
+   "aliases": [
+    "why horses",
+    "need warhorses",
+    "stormwind cavalry"
+   ],
+   "answer": "Stormwind relies on warhorses for its cavalry, which it considers necessary for its campaign against the Horde."
+  },
+  {
+   "q": "What happened to the horses at Wheeler\u2019s Grange?",
+   "aliases": [
+    "missing horses",
+    "where horses go",
+    "wheeler horses"
+   ],
+   "answer": "All of the Wheeler family\u2019s stock is missing, and the cause is unknown."
+  },
+  {
+   "q": "Who is Benjy?",
+   "aliases": [
+    "benjy",
+    "wheeler grange guy",
+    "who do i talk to"
+   ],
+   "answer": "Benjy is at Wheeler\u2019s Grange, where you are sent to ask about the missing horses."
+  },
+  {
+   "q": "Where are Stormwind\u2019s warhorses kept?",
+   "aliases": [
+    "horse farms",
+    "where horses from",
+    "warhorse farms"
+   ],
+   "answer": "Stormwind\u2019s warhorses come from two nearby farms. The Wheeler family owns one of them, Wheeler\u2019s Grange."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "benjy",
+  "horde",
+  "missing horses",
+  "my kingdom for a horse",
+  "stormwind cavalry",
+  "warhorses",
+  "wheeler's grange"
+ ],
+ "related": [
+  "topic:horde"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: My Kingdom for a Horse"
+ ]
+}

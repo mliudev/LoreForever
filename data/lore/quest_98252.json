@@ -1,0 +1,92 @@
+{
+ "key": "quest:98252",
+ "type": "quest",
+ "name": "A Void Path",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98252
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Va'xug asks you to guide his Eye of Kilrogg from a ravine to the Ashenvale road. The vision must reach the road before its channel breaks.",
+ "sections": [
+  {
+   "title": "Through the Eye",
+   "body": "Va'xug stays behind to keep his bearings while you guide the floating eye. If you lose the way, he can guide you back through it. He can hold the channel for only four minutes, so the vision must reach the main Ashenvale road before it breaks.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Clear Path",
+   "body": "The eye returns with a view of the route. Va'xug says the vision will help him guide his unruly Voidwalker along the trail when he summons it again. The Eye of Kilrogg begins to fade as his thanks echoes from within.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to guide the eye?",
+   "aliases": [
+    "who is vaxug",
+    "va'xug eye",
+    "eye quest"
+   ],
+   "answer": "Va'xug asks you to guide his Eye of Kilrogg from the ravine to the Ashenvale road."
+  },
+  {
+   "q": "What is the Eye of Kilrogg for?",
+   "aliases": [
+    "what eye do",
+    "kilrogg eye",
+    "floating eye"
+   ],
+   "answer": "Va'xug says its vision will help him guide his unruly Voidwalker along the correct trail when he summons it again."
+  },
+  {
+   "q": "Why does Va'xug stay behind?",
+   "aliases": [
+    "why stay back",
+    "vaxug staying",
+    "keep bearings"
+   ],
+   "answer": "Va'xug stays behind so one of you can keep your bearings, and he can guide you back through the eye if you lose the way."
+  },
+  {
+   "q": "How long can Va'xug hold the channel?",
+   "aliases": [
+    "channel time",
+    "four minutes",
+    "how long eye"
+   ],
+   "answer": "Va'xug can hold the channel for four minutes."
+  },
+  {
+   "q": "Where should I guide the eye?",
+   "aliases": [
+    "where eye go",
+    "ash road",
+    "ravine way out"
+   ],
+   "answer": "Guide the Eye of Kilrogg out of the ravine and back to the main Ashenvale road."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a void path",
+  "ashenvale",
+  "channel",
+  "eye of kilrogg",
+  "ravine",
+  "road",
+  "va'xug",
+  "voidwalker"
+ ],
+ "related": [
+  "zone:ashenvale"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Void Path"
+ ]
+}

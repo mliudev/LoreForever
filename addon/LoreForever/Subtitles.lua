@@ -418,8 +418,8 @@ function Sub.Create()
   f.track, f.fill = track, fill
 
   -- Shift-drag moves it. The mouse is taken only while Shift is held over it, so it never stops a click from
-  -- turning the camera. After Options' Move the subtitles... (or /lore subtitles) a plain drag moves it too, for a
-  -- while (Sub.Moving), and a few seconds more after each drop.
+  -- turning the camera. In move mode (Move.lua: Options' Move things on screen..., /lore move) a plain drag moves it
+  -- too, until Done.
   f:RegisterForDrag("LeftButton")
   f:SetScript("OnDragStart", function(self)
     local plain = Sub.Moving()
@@ -429,9 +429,7 @@ function Sub.Create()
   end)
   f:SetScript("OnDragStop", function(self)
     self:StopMovingOrSizing()
-    self.dragging = nil
-    if self.plainDrag then Sub.moveUntil = math.max(Sub.moveUntil or 0, now() + 5) end
-    self.plainDrag = nil
+    self.dragging, self.plainDrag = nil, nil
     Sub.Drop()
   end)
   Sub.frame = f
@@ -754,7 +752,7 @@ function Sub.Tick(elapsed)
   local target, clip = wanted()
   local story = Sub.story
   if Sub.sample and not target then
-    -- (A sample stays while it's being moved, and while Move the subtitles... is on.)
+    -- (A sample stays while it's being moved, and in move mode until Done: Move.lua.)
     if now() < Sub.sample.untilT or f.dragging or Sub.Moving() then target, story = Sub.sample.target, Sub.sample
     else Sub.sample = nil end
   elseif target and (not story or story.target ~= target or story.clip ~= clip) then
@@ -833,14 +831,13 @@ function Sub.Sample(seconds, text)
   return story
 end
 
--- Options' Move the subtitles... and /lore subtitles: for 30 seconds a plain drag moves the band (a few seconds more
--- after each drop). It's the one playing if one shows; otherwise a sample says where to drag. Dropping keeps the place.
-local MOVE_FOR = 30
-function Sub.Moving() return (Sub.moveUntil or 0) > now() end
-function Sub.Move()
-  Sub.moveUntil = now() + MOVE_FOR
-  if not wanted() then
-    Sub.Sample(MOVE_FOR, L["Drag these words where you want them. Let go and they stay there."])
+-- Move mode (Move.lua) on or off: while it's on, a plain drag moves the band, until Done. It's the one playing if one
+-- shows; otherwise a sample says where to drag, and goes with Done. Dropping keeps the place.
+function Sub.Moving() return Sub.moving and true or false end
+function Sub.Move(moving)
+  Sub.moving = moving and true or false
+  if Sub.moving and not wanted() then
+    Sub.Sample(0, L["Drag these words where you want them. Let go and they stay there."])
   end
   Sub.Wake()
 end

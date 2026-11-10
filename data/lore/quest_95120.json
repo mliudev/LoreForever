@@ -1,0 +1,86 @@
+{
+ "key": "quest:95120",
+ "type": "quest",
+ "name": "WANTED: Old Rot-Chum",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95120
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Wharfmaster Whizzbuzz offers a reward for proof of Old Rot-Chum\u2019s demise. The aggressive murloc has been attacking small vessels in the southern waters.",
+ "sections": [
+  {
+   "title": "A Threat at Sea",
+   "body": "Sailors and swimmers in the waters to the south face attacks on rowboats and other small vessels. Local fishermen call the aggressive murloc behind them Old Rot-Chum. Wharfmaster Whizzbuzz offers a reward for proof that the creature is dead, and asks you to bring it to him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Old Rot-Chum?",
+   "aliases": [
+    "old rot-chum",
+    "rot chum",
+    "who's rot-chum"
+   ],
+   "answer": "Old Rot-Chum is the nickname local fishermen give an especially aggressive murloc."
+  },
+  {
+   "q": "Where has Old Rot-Chum been seen?",
+   "aliases": [
+    "where is old rot-chum",
+    "rot-chum location",
+    "where's the murloc"
+   ],
+   "answer": "Old Rot-Chum has been seen in the waters to the south, near islands infested with murlocs."
+  },
+  {
+   "q": "What has Old Rot-Chum been attacking?",
+   "aliases": [
+    "what is rot-chum attacking",
+    "boat attacks",
+    "murloc and rowboats"
+   ],
+   "answer": "Old Rot-Chum has been attacking rowboats and other small vessels."
+  },
+  {
+   "q": "Who offers the reward?",
+   "aliases": [
+    "who wants rot-chum proof",
+    "wharfmaster reward",
+    "who pays for old rot-chum"
+   ],
+   "answer": "Wharfmaster Whizzbuzz offers a reward in exchange for proof of Old Rot-Chum\u2019s demise."
+  },
+  {
+   "q": "What proof does Whizzbuzz ask for?",
+   "aliases": [
+    "what proof for rot-chum",
+    "bring proof",
+    "proof of demise"
+   ],
+   "answer": "Wharfmaster Whizzbuzz asks you to bring proof of Old Rot-Chum\u2019s demise."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "murloc",
+  "murloc islands",
+  "old rot-chum",
+  "rowboats",
+  "small vessels",
+  "southern waters",
+  "wharfmaster whizzbuzz"
+ ],
+ "related": [
+  "topic:murloc"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: WANTED: Old Rot-Chum"
+ ]
+}

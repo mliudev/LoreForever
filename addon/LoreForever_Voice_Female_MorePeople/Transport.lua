@@ -4454,7 +4454,7 @@ P.transport["topic:house-of-nobles"] = {
   fullHash = "da4f72",
   text = "House of Nobles. In Stormwind Keep, the House of Nobles holds the kingdom’s lands, taxes, and trade. Their refusal to pay the laborers who rebuilt the city set off bloody riots that shook the realm. Stormwind’s greatest patrician families form the House of Nobles, the Crown’s chief council. They own most arable land in Elwynn, Westfall, and Duskwood, and so hold great sway over trade, regional magistrates, and royal decrees. Boy-king Anduin Wrynn and Highlord Bolvar Fordragon rule Stormwind in name. Yet the council can bind the throne in red tape, stall trials, block executions, and meddle in provincial affairs.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_house-of-nobles-e9ba3dd8a50fdcb1c8ed/1-0000.mp3", duration = 40.3853061, start = 0},
+    {file = "Audio/Transport/full_topic_house-of-nobles-62fb6e61bdbbf01d59ea/1-0000.mp3", duration = 38.6612245, start = 0},
   },
 }
 P.transport["topic:human"] = {

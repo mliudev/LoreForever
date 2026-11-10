@@ -18333,9 +18333,9 @@
     "quest:6481": {
       "1": [
         {
-          "duration": 41.43020408163265,
-          "file": "Audio/Transport/full_quest_6481-7127c88e8baaa9810b6a/1-0000.mp3",
-          "sha256": "ee9900b2dd49ff88fcb5d0c27c56f1ece0b117f7382e2082a2a8143fcc6b878b",
+          "duration": 40.07183673469388,
+          "file": "Audio/Transport/full_quest_6481-a0ff5eb094720d381839/1-0000.mp3",
+          "sha256": "6d59e4dee21ffd18c63c9bc1eebe5afd53a1fdc79863a94b976ba980f0588fc7",
           "start": 0
         }
       ],
@@ -18347,12 +18347,12 @@
         ]
       },
       "fullHash": "fd2163",
-      "generation": "5137915f4f00812f9acf",
+      "generation": "16306aae875f51aeb5bc",
       "hash": "fd2163",
       "source": {
-        "duration": 41.456327,
+        "duration": 40.097959,
         "file": null,
-        "sha256": "7127c88e8baaa9810b6a4dda39a527cfe1f52c6f3669adedde3716573e135362"
+        "sha256": "a0ff5eb094720d3818395b17164ab4238470e2c49d505c5e65d8552fcf5f8d8c"
       },
       "text": "Earthen Arise. In Boulderslide Ravine, Mor'rogal finds Goggeroc asleep inside a Resonite cask. The tauren shaman fears the ancient Earthen could threaten all Kalimdor, so he sends a champion to break the cask and slay Goggeroc before its strength returns. Scouts searching Boulderslide Ravine for vermin found a strange relic among the kobolds. A Resonite cask held unearthly force. Mor'rogal, a tauren shaman in the Stonetalon Mountains, knew it was both prison and sanctuary for Goggeroc, a dormant Earthen. These ancient beings of stone can outmatch mortal warriors, and Goggeroc's freedom could endanger the whole region."
     },
@@ -39011,6 +39011,13 @@
     "6d4c5f0a7b9b863e8e2e87ab32c06382dbcf3ed5992a92f427bfcf36ac0ed485": [
       533
     ],
+    "6d59e4dee21ffd18c63c9bc1eebe5afd53a1fdc79863a94b976ba980f0588fc7": [
+      237,
+      400,
+      622,
+      845,
+      1278
+    ],
     "6d9b036a0fe8bce24e951f32295bd17f03cce58cad1c03588a31ca92ff572065": [
       193,
       350
@@ -44488,13 +44495,6 @@
       1200,
       1404
     ],
-    "ee9900b2dd49ff88fcb5d0c27c56f1ece0b117f7382e2082a2a8143fcc6b878b": [
-      238,
-      413,
-      622,
-      859,
-      1316
-    ],
     "ee9e4aeb0e378155e19ba65c64ab39a9b2c9196a6b241c893a7dc27abc848d00": [
       225,
       471,
@@ -47430,6 +47430,9 @@
     "6d3fe46dd92c1226c5ae9d7dd9777ee97cba8e2c4646b6882cf1643a3080f53f": {
       "323": 1
     },
+    "6d59e4dee21ffd18c63c9bc1eebe5afd53a1fdc79863a94b976ba980f0588fc7": {
+      "622": 1
+    },
     "6d9b036a0fe8bce24e951f32295bd17f03cce58cad1c03588a31ca92ff572065": {
       "350": 1
     },
@@ -49803,9 +49806,6 @@
     "ee647c0322c10139c26b1c79ed0ee06fb26d9e29790b79b57b1fc970f2363b5a": {
       "1007": 2,
       "390": 1
-    },
-    "ee9900b2dd49ff88fcb5d0c27c56f1ece0b117f7382e2082a2a8143fcc6b878b": {
-      "622": 1
     },
     "ee9e4aeb0e378155e19ba65c64ab39a9b2c9196a6b241c893a7dc27abc848d00": {
       "1445": 2,

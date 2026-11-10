@@ -1,0 +1,88 @@
+{
+ "key": "quest:97663",
+ "type": "quest",
+ "name": "Supplies and Studies",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97663
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "At Kargath, Mus'hale asks you to recover stolen supplies and make rubbings of carved stones in the Dustbowl. The etchings are the study material Mus'hale lost when nearby ogres attacked.",
+ "sections": [
+  {
+   "title": "Lost Materials",
+   "body": "Mus'hale is recovering at the Kargath inn after nearby ogres caught the scholar in the Dustbowl. Before the attack, Mus'hale had found unusual rocks bearing carvings and made rubbings to study. Now the pack and those records are gone, so you are asked to search east and make fresh rubbings of the etchings.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Mus'hale?",
+   "aliases": [
+    "mushale",
+    "who's mus'hale",
+    "mus'hale backstory"
+   ],
+   "answer": "Mus'hale is a scholar who found carved rocks in the Dustbowl and made rubbings to study."
+  },
+  {
+   "q": "What happened to Mus'hale's supplies?",
+   "aliases": [
+    "stolen supplies",
+    "where's mus'hale's pack",
+    "ogres took pack"
+   ],
+   "answer": "Nearby ogres attacked Mus'hale in the Dustbowl, and Mus'hale woke under the innkeeper's care without the pack."
+  },
+  {
+   "q": "What does Mus'hale want me to find?",
+   "aliases": [
+    "supplies and studies quest",
+    "what am i looking for",
+    "find rubbings"
+   ],
+   "answer": "Mus'hale asks you to search east for the stolen pack and make rubbings of the nearby stone etchings."
+  },
+  {
+   "q": "Where are the carved stones?",
+   "aliases": [
+    "dustbowl etchings",
+    "where are the rocks",
+    "stone carvings"
+   ],
+   "answer": "The unusual carved rocks are in the Dustbowl."
+  },
+  {
+   "q": "Where do I return to Mus'hale?",
+   "aliases": [
+    "return to mushale",
+    "where's mus'hale",
+    "kargath inn"
+   ],
+   "answer": "Mus'hale is at Kargath, recovering under the innkeeper's care."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dustbowl",
+  "kargath",
+  "mus'hale",
+  "ogres",
+  "rubbings",
+  "stolen supplies",
+  "stone etchings"
+ ],
+ "related": [
+  "subzone:dustbowl",
+  "subzone:kargath",
+  "quest:92551"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Supplies and Studies"
+ ]
+}

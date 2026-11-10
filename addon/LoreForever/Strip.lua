@@ -1023,7 +1023,7 @@ function Strip.TellHome()
   if s.skyHomeTold or not ns.Sky.UnderBuffs() then return end
   if yes(try(InCombatLockdown)) or yes(try(UnitAffectingCombat, "player")) or yes(try(IsInInstance)) then return end
   s.skyHomeTold = true
-  tell(ns.L["%s's sky is now under your buffs, so your map is clear. To put it somewhere else: Options, Move the sky."]
+  tell(ns.L["%s's sky is now under your buffs, so your map is clear. To put it somewhere else: Options, Move things on screen..."]
     :format(ns.COMPANION_NAME))
 end
 

@@ -790,7 +790,7 @@ P.transport["subzone:dry-hills"] = {
   fullHash = "641241",
   text = "Dry Hills. Witchwing harpies rule the green Dry Hills above the Barrens. The Dry Hills rise along the Barrens’ northwestern edge, beneath the Stonetalon Mountains. Their slopes are greener than the dry plains below, but the bluffs offer travelers little safety. Serena Bloodfeather leads the Witchwing harpies from roosts along the crags. Their raiders swoop on supply caravans traveling the northern Gold Road. Abandoned orcish fortifications and derelict siege engines rot in the brush. Witchwing harpies strike from the hills to bleed trade routes and harass nearby settlements. So the Horde keeps a standing bounty on their feathers. Their nests and roosts are heavily defended in the rocky ravines. Hecklefang hyenas prowl there, while fierce Sunscale raptors hunt across the highlands.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dry-hills-e6af3afb994026f3f891/1-0000.mp3", duration = 45.2702041, start = 0},
+    {file = "Audio/Transport/full_subzone_dry-hills-8fed7ad72f0803a89589/1-0000.mp3", duration = 47.6995918, start = 0},
   },
 }
 P.transport["subzone:drygulch-ravine"] = {

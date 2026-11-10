@@ -1,0 +1,92 @@
+{
+ "key": "quest:93786",
+ "type": "quest",
+ "name": "A Message in Blood",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93786
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Krom\u2019rosh sends you against the human farm at Meadowsbrook. He wants the farmhands slain to answer the defectors\u2019 claim to the land.",
+ "sections": [
+  {
+   "title": "The Farmhands",
+   "body": "Krom\u2019rosh points you toward Meadowsbrook Farm, southwest across the river. Human defectors claimed the farm some years ago, then reached toward Farholde, the keep on the eastern shore. Krom\u2019rosh says earlier skirmishes lacked the numbers to prevail. Now he wants you to disrupt the farm and leave no prisoners.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks me to go to Meadowsbrook?",
+   "aliases": [
+    "who sent me",
+    "Krom'rosh task",
+    "who is asking"
+   ],
+   "answer": "Krom\u2019rosh asks you to attack Meadowsbrook Farm and disrupt its farming."
+  },
+  {
+   "q": "Why does Krom\u2019rosh want the farm attacked?",
+   "aliases": [
+    "why attack farm",
+    "why Meadowsbrook",
+    "why fight humans"
+   ],
+   "answer": "Human defectors claimed the farm and expanded toward Farholde. Krom\u2019rosh wants to remind them his people are present."
+  },
+  {
+   "q": "Where is Meadowsbrook Farm?",
+   "aliases": [
+    "where is the farm",
+    "Meadowsbrook location",
+    "farm southwest"
+   ],
+   "answer": "Meadowsbrook Farm lies southwest across the river."
+  },
+  {
+   "q": "Who are the farmhands?",
+   "aliases": [
+    "farmhands who",
+    "Meadowsbrook people",
+    "humans at farm"
+   ],
+   "answer": "The Meadowsbrook Farmhands are the people Krom\u2019rosh sends you to slay."
+  },
+  {
+   "q": "What happened in the earlier skirmishes?",
+   "aliases": [
+    "earlier fights",
+    "why skirmishes failed",
+    "Kromrosh skirmishes"
+   ],
+   "answer": "Krom\u2019rosh says the earlier skirmishes would have favored his side if they had had more fighters."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you carry out Krom\u2019rosh\u2019s order against human defectors who have claimed the farm."
+  }
+ ],
+ "keywords": [
+  "a message in blood",
+  "farholde",
+  "farm",
+  "human defectors",
+  "krom'rosh",
+  "meadowsbrook farm",
+  "meadowsbrook farmhands",
+  "skirmishes"
+ ],
+ "related": [
+  "topic:human"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Message in Blood"
+ ]
+}

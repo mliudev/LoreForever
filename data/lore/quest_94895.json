@@ -1,0 +1,78 @@
+{
+ "key": "quest:94895",
+ "type": "quest",
+ "name": "Lost Shipping Crate",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94895
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Friz Frazzlespark's shipping crate has gone missing from Powderfuse Port in the Riverglades. Its label warns against opening it without supervision, and you are asked to return it to Friz.",
+ "sections": [
+  {
+   "title": "A Marked Crate",
+   "body": "A map and a warning mark the crate you carry through the Riverglades. Its label names Friz Frazzlespark and Powderfuse Port, and asks that the crate be returned there if lost. You are bringing it back to its owner.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who owns the shipping crate?",
+   "aliases": [
+    "crate owner",
+    "who owns this",
+    "friz crate"
+   ],
+   "answer": "The label names Friz Frazzlespark as the owner of the shipping crate."
+  },
+  {
+   "q": "Where should I take the crate?",
+   "aliases": [
+    "where to return crate",
+    "crate destination",
+    "powderfuse port"
+   ],
+   "answer": "The crate is to be returned to Friz Frazzlespark at Powderfuse Port in the Riverglades."
+  },
+  {
+   "q": "What does the label warn about?",
+   "aliases": [
+    "crate warning",
+    "can I open it",
+    "open crate"
+   ],
+   "answer": "The label warns against tampering and says not to open the crate without supervision."
+  },
+  {
+   "q": "What is marked on the crate's map?",
+   "aliases": [
+    "crate map",
+    "what's on map",
+    "red circle map"
+   ],
+   "answer": "The map shows a red circle along a southeastern shoreline, north of a poorly drawn temple surrounded by water and winged creatures."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crate label",
+  "crate map",
+  "friz frazzlespark",
+  "lost shipping crate",
+  "powderfuse port",
+  "riverglades",
+  "warning"
+ ],
+ "related": [
+  "quest:94930",
+  "zone:riverglades"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Lost Shipping Crate"
+ ]
+}

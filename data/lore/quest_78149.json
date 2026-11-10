@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "The Library in Ironforge seeks magical works for its collection. Your findings help expand its knowledge.",
+ "summary": "A library seeks magical works for its collection. Your findings help expand its knowledge.",
  "sections": [
   {
    "title": "A Place for Knowledge",
-   "body": "In Ironforge's Library, you are asked to bring magical works that may benefit its collection. The librarian welcomes what you have found, and invites you to bring more if you discover it.",
+   "body": "A librarian asks whether you have brought something to add. The librarian welcomes what you have found, and invites you to bring more if you discover it.",
    "spoiler": 0
   }
  ],
@@ -36,7 +36,7 @@
     "library location",
     "bring works"
    ],
-   "answer": "Bring them to the librarian in the Library in Ironforge."
+   "answer": "Bring them to the librarian. Librarians gather such works in Stormwind and in the Undercity."
   },
   {
    "q": "Why are they collecting magical works?",
@@ -57,9 +57,7 @@
   "library",
   "magical works"
  ],
- "related": [
-  "subzone:library-ironforge"
- ],
+ "related": [],
  "style": 2,
  "attribution": [
   "In-game quest text: Fury of the Land"

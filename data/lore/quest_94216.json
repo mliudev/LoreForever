@@ -1,0 +1,84 @@
+{
+ "key": "quest:94216",
+ "type": "quest",
+ "name": "Craftsman's Writ: Elixir of Lesser Agility",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94216
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ asks you to obtain an Elixir of Lesser Agility for a customer. It gives a delivery location and payment details.",
+ "sections": [
+  {
+   "title": "A Customer's Request",
+   "body": "A customer seeks an Elixir of Lesser Agility through this faded-ink writ. You are asked to acquire the requested item and bring it to the marked location; the writ must be with you to complete the transaction.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "what item",
+    "elixir request",
+    "what do they want"
+   ],
+   "answer": "The customer requests one Elixir of Lesser Agility."
+  },
+  {
+   "q": "Where do I deliver it?",
+   "aliases": [
+    "delivery place",
+    "where to take it",
+    "marked location"
+   ],
+   "answer": "The writ points to a delivery location marked on your map."
+  },
+  {
+   "q": "Does the writ say how payment works?",
+   "aliases": [
+    "payment details",
+    "how much pay",
+    "what's the payment"
+   ],
+   "answer": "The writ includes information about payment."
+  },
+  {
+   "q": "Can someone else carry the writ?",
+   "aliases": [
+    "is it transferable",
+    "pass it on",
+    "trade writ"
+   ],
+   "answer": "Yes. Text at the bottom says the writ is transferable."
+  },
+  {
+   "q": "Do I need the writ to complete the delivery?",
+   "aliases": [
+    "need writ",
+    "keep the paper",
+    "writ required"
+   ],
+   "answer": "Yes. You need to have the writ with you to complete the transaction."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "agility",
+  "craftsman's writ",
+  "delivery",
+  "elixir",
+  "elixir of lesser agility",
+  "payment",
+  "transferable"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Elixir of Lesser Agility"
+ ]
+}

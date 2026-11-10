@@ -1,0 +1,88 @@
+{
+ "key": "quest:95775",
+ "type": "quest",
+ "name": "The Drowned City",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95775
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A scholar asks you to inspect ruins guarded by naga and copy their tablet etchings. The city may be I\u2019lalai, rich in lost history.",
+ "sections": [
+  {
+   "title": "Across the Cavern",
+   "body": "The scholar is too old to enter the ruins, so you are asked to go in their stead. Beyond the cavern guarded by naga, the scholar suspects the ruins may be I\u2019lalai. The lost city could hold a wealth of historical knowledge. You are to make rubbings of any tablets you find and bring them back.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Drowned City?",
+   "aliases": [
+    "drowned city",
+    "what city is this",
+    "I'lalai ruins"
+   ],
+   "answer": "The ruins may be the lost city of I\u2019lalai, according to the scholar who sent you."
+  },
+  {
+   "q": "Who wants me to explore the ruins?",
+   "aliases": [
+    "who sent me",
+    "who wants rubbings",
+    "scholar request"
+   ],
+   "answer": "A scholar asks you to explore the ruins because they are too old to go themselves."
+  },
+  {
+   "q": "Why am I being sent there?",
+   "aliases": [
+    "why explore",
+    "why tablets",
+    "lost history"
+   ],
+   "answer": "The scholar hopes the ruins hold a great wealth of lost historical knowledge."
+  },
+  {
+   "q": "What am I supposed to bring back?",
+   "aliases": [
+    "what to bring back",
+    "tablet rubbings",
+    "rubbing task"
+   ],
+   "answer": "Make rubbings of any tablets you find using hide and charcoal, then return them to the scholar."
+  },
+  {
+   "q": "Where are the ruins?",
+   "aliases": [
+    "where is drowned city",
+    "naga cavern",
+    "ruins location"
+   ],
+   "answer": "The ruins lie on the other side of the cavern guarded by naga."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "charcoal",
+  "drowned city",
+  "hide",
+  "i'lalai",
+  "lost history",
+  "naga",
+  "rubbings",
+  "ruins",
+  "tablets"
+ ],
+ "related": [
+  "topic:naga"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Drowned City"
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "key": "quest:96781",
+ "type": "quest",
+ "name": "What's the Big Idea?",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96781
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Myrokos Silentform at Ravenholdt Manor asks you to learn what the Syndicate seeks in the Ruins of Alterac. Barton carries the scouting reports that may reveal their purpose.",
+ "sections": [
+  {
+   "title": "Barton\u2019s Report",
+   "body": "At Ravenholdt Manor, Myrokos Silentform needs Barton's scouting report. A Syndicate party led by Barton prowls the Ruins of Alterac, searching for something. You are asked to take the report from him without killing him, so the Syndicate will not know its plans have drawn notice.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Barton?",
+   "aliases": [
+    "barton",
+    "who's barton",
+    "syndicate scout"
+   ],
+   "answer": "Barton leads a Syndicate scouting party prowling around the Ruins of Alterac."
+  },
+  {
+   "q": "What is the Syndicate searching for?",
+   "aliases": [
+    "what are syndicate after",
+    "what are they looking for",
+    "syndicate search"
+   ],
+   "answer": "The Syndicate party is searching for something in the Ruins of Alterac, but Myrokos needs Barton's scouting report to learn what."
+  },
+  {
+   "q": "Why does Myrokos want the report?",
+   "aliases": [
+    "why get report",
+    "barton's report",
+    "big idea"
+   ],
+   "answer": "Myrokos Silentform wants the report to learn what the Syndicate is searching for."
+  },
+  {
+   "q": "Why not kill Barton?",
+   "aliases": [
+    "don't kill barton",
+    "pickpocket barton",
+    "why steal report"
+   ],
+   "answer": "If Barton dies, the Syndicate will realize they are being watched and may take steps to cover their tracks."
+  },
+  {
+   "q": "Where can Barton be found?",
+   "aliases": [
+    "where barton",
+    "find barton",
+    "strahnbrad scout"
+   ],
+   "answer": "Barton is most likely among the Syndicate at Strahnbrad."
+  },
+  {
+   "q": "Where does the report go?",
+   "aliases": [
+    "who gets report",
+    "bring report where",
+    "myrokos"
+   ],
+   "answer": "Barton's scouting report is meant for Myrokos Silentform at Ravenholdt Manor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Rogue",
+   "text": "As a rogue, you are asked to take Barton's report without killing him."
+  }
+ ],
+ "keywords": [
+  "barton",
+  "myrokos silentform",
+  "ravenholdt manor",
+  "ruins of alterac",
+  "scouting report",
+  "strahnbrad",
+  "syndicate"
+ ],
+ "related": [
+  "subzone:ravenholdt-manor",
+  "subzone:ruins-of-alterac",
+  "subzone:strahnbrad",
+  "topic:syndicate",
+  "topic:ravenholdt",
+  "topic:alterac-kingdom"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: What's the Big Idea?"
+ ]
+}

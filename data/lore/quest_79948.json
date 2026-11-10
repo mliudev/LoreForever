@@ -1,0 +1,67 @@
+{
+ "key": "quest:79948",
+ "type": "quest",
+ "name": "Defensive Magics 101",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79948
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The library in Ironforge seeks magical works for its collection. You can help broaden its knowledge by bringing in works that may benefit the shelves.",
+ "sections": [
+  {
+   "title": "A Growing Collection",
+   "body": "The library's collection can grow through your efforts. Bring its keeper magical works that may benefit the shelves, and the library's knowledge expands.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the library need?",
+   "aliases": [
+    "library needs",
+    "what to bring",
+    "magic books"
+   ],
+   "answer": "The library seeks magical works that might benefit its collection."
+  },
+  {
+   "q": "Where is this request from?",
+   "aliases": [
+    "who wants this",
+    "library request",
+    "ironforge library"
+   ],
+   "answer": "The request comes from the Library in Ironforge."
+  },
+  {
+   "q": "Why bring magical works?",
+   "aliases": [
+    "why collect magic",
+    "what does it help",
+    "library collection"
+   ],
+   "answer": "Magical works brought to the library expand its knowledge."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "collection",
+  "defensive magics",
+  "ironforge",
+  "knowledge",
+  "library",
+  "magical works"
+ ],
+ "related": [
+  "subzone:library-ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Defensive Magics 101"
+ ]
+}

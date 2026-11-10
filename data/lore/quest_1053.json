@@ -1,0 +1,68 @@
+{
+ "key": "quest:1053",
+ "type": "quest",
+ "name": "In the Name of the Light",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1053
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Raleigh the Devout in Southshore asks you to confront five named figures. He awaits your report when the work is done.",
+ "sections": [
+  {
+   "title": "Raleigh's Charge",
+   "body": "Raleigh the Devout in Southshore sends you against High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey. When you have faced them, Raleigh awaits your report.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks me to do this?",
+   "aliases": [
+    "who gave this",
+    "raleigh task"
+   ],
+   "answer": "Raleigh the Devout in Southshore asks you to confront five named figures and report back to him."
+  },
+  {
+   "q": "Who am I supposed to face?",
+   "aliases": [
+    "who to kill",
+    "targets"
+   ],
+   "answer": "The named figures are High Inquisitor Whitemane, Scarlet Commander Mograine, Herod, the Scarlet Champion and Houndmaster Loksey."
+  },
+  {
+   "q": "Where do I report back?",
+   "aliases": [
+    "where report",
+    "report to raleigh"
+   ],
+   "answer": "Report back to Raleigh the Devout in Southshore."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "herod",
+  "high inquisitor whitemane",
+  "houndmaster loksey",
+  "raleigh the devout",
+  "scarlet champion",
+  "scarlet commander mograine",
+  "southshore"
+ ],
+ "related": [
+  "subzone:southshore",
+  "npc:houndmaster-loksey",
+  "npc:herod",
+  "npc:scarlet-commander-mograine"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: In the Name of the Light"
+ ]
+}

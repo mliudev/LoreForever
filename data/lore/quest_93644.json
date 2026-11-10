@@ -1,0 +1,94 @@
+{
+ "key": "quest:93644",
+ "type": "quest",
+ "name": "Tattered Journal",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93644
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A damaged journal found near Shen'dralas points you toward its author, Evenshade. Its missing words may still matter to him.",
+ "sections": [
+  {
+   "title": "A Name Remains",
+   "body": "Near Shen'dralas, the worn pages of a journal leave you with little to read. Among the blurred letters, one surname stands clear: Evenshade. The author may be somewhere nearby, and the journal's remaining words offer the only lead.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Journal's Fate",
+   "body": "Mordent recognizes the journal as his, though centuries have passed since he lost it. The writing is gone, but he remembers what it contained and keeps that knowledge to himself. He permits you to try restoring the journal if its pages have survived.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where was the journal found?",
+   "aliases": [
+    "where journal",
+    "tattered journal location"
+   ],
+   "answer": "The journal was found near Shen'dralas."
+  },
+  {
+   "q": "Who wrote the journal?",
+   "aliases": [
+    "journal author",
+    "evenshade journal"
+   ],
+   "answer": "The name that remains in the journal points to Evenshade as its author."
+  },
+  {
+   "q": "Why look for Evenshade?",
+   "aliases": [
+    "find evenshade",
+    "journal surname"
+   ],
+   "answer": "The journal bears the surname Evenshade, and its author may be somewhere in Shen'dralas."
+  },
+  {
+   "q": "Can you read the journal?",
+   "aliases": [
+    "journal unreadable",
+    "what's in journal"
+   ],
+   "answer": "Most of the journal's knowledge is lost, and the remaining letters are difficult to distinguish."
+  },
+  {
+   "q": "What does Mordent say about the journal?",
+   "aliases": [
+    "mordent journal",
+    "who owns journal"
+   ],
+   "answer": "Mordent identifies it as his lost journal, but says its writing is gone."
+  },
+  {
+   "q": "Will Mordent share what was written?",
+   "aliases": [
+    "journal contents",
+    "mordent secret"
+   ],
+   "answer": "Mordent remembers what the journal contained, but does not wish to speak of it aloud."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "damaged journal",
+  "evenshade",
+  "lost journal",
+  "mordent",
+  "restore journal",
+  "shen'dralas",
+  "tattered journal"
+ ],
+ "related": [
+  "zone:shendralas"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Tattered Journal"
+ ]
+}

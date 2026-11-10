@@ -13,7 +13,6 @@ local PinArrive = {}
 ns.PinArrive = PinArrive
 
 local SHOW = 30
-local SAMPLE, DROP_ADDS = 20, 5   -- seconds a sample stays up to be placed, and more after each drop
 local GOLD = "|cffffd100"
 
 local card, waiting
@@ -53,6 +52,7 @@ local function build()
   -- Counts down while the mouse is away, like the new-page note.
   f:SetScript("OnUpdate", function(self, dt)
     if self.held or (self.IsMouseOver and self:IsMouseOver()) then return end
+    if self.sample then return end   -- (a sample stays until move mode's Done: PinArrive.HideSample)
     self.left = (self.left or SHOW) - (dt or 0)
     if self.left <= 0 then self:Hide() end
   end)
@@ -64,7 +64,6 @@ local function build()
   end)
   f:SetScript("OnLeave", function() GameTooltip:Hide() end)
   T.Movable(f, "pinCard", { "TOP", 0, -190 })   -- (under the new-page note, so the two never overlap where they start)
-  f.onDropped = function(self) if self.sample then self.left = (self.left or 0) + DROP_ADDS end end
   f:Hide()
   return f
 end
@@ -89,13 +88,22 @@ function PinArrive.Reached(pin)
   return true
 end
 
--- Options' Move the notes...: a card to place, with no pin behind it, so both its buttons just put it away.
+-- Move mode (Move.lua): a card to place, with no pin behind it, so both its buttons just put it away. It stays until
+-- Done.
 function PinArrive.Sample()
   card = card or build()
   card.pin, card.sample = nil, true
   fill(L["Drag this card too"], nil)
-  card.left = SAMPLE
+  card.left = SHOW
   card:Show()
+end
+
+function PinArrive.Frame() return card end
+function PinArrive.IsSample() return card and card.sample and true or false end
+
+-- Done in move mode: the sample goes; a real card stays.
+function PinArrive.HideSample()
+  if card and card.sample then card:Hide() end
 end
 
 -- Clear pin: off the maps now; Willo takes it out of the notebook after the next save.

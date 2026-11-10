@@ -4,8 +4,8 @@
 -- it to the playlist, right-click gives the page's options and a way to stop these notes. Never in
 -- combat: what you find then waits, and the latest shows once the fight is over. Pages found close together share one
 -- slip ("and 2 more"). It sits in the dialog layer, over the windows there and well below the game's level cap, so
--- clicks always land. A left-drag moves it and it keeps its place (Theme.Movable); Options' Move the notes... shows a
--- sample to place. Made the first time a page is found, not at login. Options › New page notes (pageSlip) turns it off.
+-- clicks always land. A left-drag moves it and it keeps its place (Theme.Movable); Options' Move things on screen...
+-- shows a sample to place, in move mode (Move.lua) until Done. Made the first time a page is found, not at login. Options › New page notes (pageSlip) turns it off.
 
 local _, ns = ...
 local Slip = {}
@@ -13,8 +13,6 @@ ns.Slip = Slip
 local L, T = ns.L, ns.Theme
 
 local SHOW = 6        -- seconds on screen (the mouse over it holds it)
-local SAMPLE = 20     -- seconds a sample stays up to be placed, and DROP_ADDS more after each drop
-local DROP_ADDS = 5
 local W, H = 380, 62
 local INK, ACCENT, NOTE = T.color.ink, T.color.inkAccent, T.color.inkNote   -- the book's inks (Theme.lua)
 
@@ -91,6 +89,7 @@ local function create()
     -- An item's rarity is noted just after it's found (Collection.OnItemTooltip): its name takes the colour a tick later.
     if self.reink then self.reink = nil; ns.Book.NameInk(self.name, self.key, INK) end
     if self.held or (self.IsMouseOver and self:IsMouseOver()) then return end
+    if self.sample then return end   -- (a sample stays until move mode's Done: Slip.HideSample)
     self.left = (self.left or SHOW) - (dt or 0)
     if self.left <= 0 then Slip.Hide() end
   end)
@@ -99,7 +98,6 @@ local function create()
   pcall(f.RegisterEvent, f, "PLAYER_REGEN_ENABLED")
   f:SetScript("OnHide", function(self) self.sample = nil end)
   T.Movable(f, "pageSlip", { "TOP", 0, -120 })
-  f.onDropped = function(self) if self.sample then self.left = (self.left or 0) + DROP_ADDS end end
   f:Hide()
   Slip.frame = f
   return f
@@ -151,10 +149,10 @@ function Slip.Hide()
   if f then f:Hide(); f.count = nil end
 end
 
--- Options' Move the notes...: a note to place, with no page behind it, so its clicks do nothing.
+-- Move mode (Move.lua): a note to place, with no page behind it, so its clicks do nothing. It stays until Done.
 function Slip.Sample()
   local f = Slip.frame or create()
-  f.key, f.count, f.left, f.reink, f.sample = nil, nil, SAMPLE, nil, true
+  f.key, f.count, f.left, f.reink, f.sample = nil, nil, SHOW, nil, true
   f.label:SetText(L["New page"])
   f.name:SetText(L["Drag this note where you want it"])
   f.name:SetTextColor(INK[1], INK[2], INK[3], 1)
@@ -167,6 +165,12 @@ function Slip.Sample()
 end
 
 function Slip.IsShown() return Slip.frame and Slip.frame:IsShown() or false end
+
+-- Done in move mode: the sample goes; a real note stays.
+function Slip.HideSample()
+  local f = Slip.frame
+  if f and f.sample then Slip.Hide() end
+end
 
 function Slip.TurnOff()
   S().pageSlip = false

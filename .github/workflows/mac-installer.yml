@@ -1,0 +1,55 @@
+# The Mac installer for players (LOR-1348): Install-Lore-Forever.dmg, built, signed with the Developer ID, notarized and
+# checked by release/installer/mac/release.sh, then published on this repo's release "mac-installer" (a tag of its own,
+# never marked Latest, so /download/zip keeps following the add-on's release). The .dmg doesn't change with the add-on:
+# it reads what to install from the site's /api/installer/catalog, so this runs only when the installer changes.
+# publish: false builds and checks everything and publishes nothing.
+name: Mac Installer
+run-name: Mac Installer ${{ inputs.version }}${{ !inputs.publish && ' (rehearsal)' || '' }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "The installer's version, e.g. 1.0.0"
+        required: true
+      publish:
+        description: "Publish the .dmg (off: build, sign and check only)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mac-installer
+  cancel-in-progress: false
+
+env:
+  GH_REPO: ${{ github.repository }}
+
+jobs:
+  build:
+    runs-on: macos-15
+    environment: release
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Build, sign, notarize, check Gatekeeper
+        env:
+          LF_INSTALLER_VERSION: ${{ inputs.version }}
+          MAC_CERT_P12: ${{ secrets.MAC_CERT_P12 }}
+          MAC_CERT_PASSWORD: ${{ secrets.MAC_CERT_PASSWORD }}
+          NOTARY_KEY_P8: ${{ secrets.NOTARY_KEY_P8 }}
+          NOTARY_KEY_ID: ${{ secrets.NOTARY_KEY_ID }}
+          NOTARY_ISSUER_ID: ${{ secrets.NOTARY_ISSUER_ID }}
+        run: bash release/installer/mac/release.sh --out dist
+
+      - name: Publish on the mac-installer release
+        if: inputs.publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view mac-installer >/dev/null 2>&1 || gh release create mac-installer --title "Mac installer" --latest=false \
+            --notes "Install-Lore-Forever.dmg, the installer behind Download for Mac. It reads what to install from the site, so it doesn't change with the add-on's releases."
+          gh release upload mac-installer dist/Install-Lore-Forever.dmg --clobber

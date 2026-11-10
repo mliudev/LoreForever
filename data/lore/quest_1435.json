@@ -1,0 +1,58 @@
+{
+ "key": "quest:1435",
+ "type": "quest",
+ "name": "The Burning of Spirits",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1435
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Maurin Bonesplitter in Desolace asks you to return the Burning Gem and fifteen Infused Burning Gems.",
+ "sections": [],
+ "faq": [
+  {
+   "q": "Who wants the gems?",
+   "aliases": [
+    "who asked for gems",
+    "Maurin gems"
+   ],
+   "answer": "Maurin Bonesplitter asks you to return the Burning Gem and fifteen Infused Burning Gems."
+  },
+  {
+   "q": "Where do I return the gems?",
+   "aliases": [
+    "where to bring gems",
+    "gems location"
+   ],
+   "answer": "Return the Burning Gem and fifteen Infused Burning Gems to Maurin Bonesplitter in Desolace."
+  },
+  {
+   "q": "Which gems does Maurin ask for?",
+   "aliases": [
+    "what gems",
+    "burning gem quest"
+   ],
+   "answer": "Maurin asks for the Burning Gem and fifteen Infused Burning Gems."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "burning gem",
+  "desolace",
+  "gems",
+  "infused burning gems",
+  "maurin bonesplitter"
+ ],
+ "related": [
+  "npc:maurin-bonesplitter",
+  "zone:desolace"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Burning of Spirits"
+ ]
+}

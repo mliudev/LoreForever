@@ -1,0 +1,84 @@
+{
+ "key": "quest:92872",
+ "type": "quest",
+ "name": "Dutiful Steps",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92872
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Caretaker Alaric asks you to carry tomb dust from the Stromgarde Keep crypt to the sea. The rite renews a cycle of remembrance for the fallen.",
+ "sections": [
+  {
+   "title": "Toward the Sea",
+   "body": "Your way back to the sunlit world begins with a small satchel. Caretaker Alaric asks you to take it to the cliffs behind Stromgarde Keep and cast its contents into the Great Sea. The dust comes from the tomb below the keep, where its guardians preserve ceremonial rites for honoring the fallen. Each season, some is spread across Azeroth\u2019s oceans as a symbolic renewal.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to carry the dust?",
+   "aliases": [
+    "who gave me this",
+    "Alaric's request"
+   ],
+   "answer": "Caretaker Alaric asks you to carry the tomb dust from the Stromgarde Keep crypt to the sea."
+  },
+  {
+   "q": "What is in the satchel?",
+   "aliases": [
+    "what's in the pouch",
+    "tomb dust"
+   ],
+   "answer": "The satchel holds dust from the tomb beneath Stromgarde Keep."
+  },
+  {
+   "q": "Why is the tomb dust spread across the sea?",
+   "aliases": [
+    "why throw dust in the ocean",
+    "what's the dust for"
+   ],
+   "answer": "Each season, some tomb dust is spread across Azeroth\u2019s oceans as a symbolic act of renewing cycles."
+  },
+  {
+   "q": "Where am I meant to cast the satchel?",
+   "aliases": [
+    "where to throw it",
+    "cliffs behind Stromgarde"
+   ],
+   "answer": "Caretaker Alaric asks you to cast the tomb dust into the Great Sea from the cliffs behind Stromgarde Keep."
+  },
+  {
+   "q": "What do the tomb\u2019s guardians preserve?",
+   "aliases": [
+    "what's in the tomb",
+    "ceremonial rites"
+   ],
+   "answer": "The tomb\u2019s guardians preserve knowledge of ceremonial rites used to honor the fallen."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "caretaker alaric",
+  "ceremonial rites",
+  "crypt",
+  "dutiful steps",
+  "fallen",
+  "great sea",
+  "pouch of tomb dust",
+  "stromgarde keep",
+  "tomb dust"
+ ],
+ "related": [
+  "subzone:crypt-stromgarde-keep",
+  "subzone:stromgarde-keep"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Dutiful Steps"
+ ]
+}

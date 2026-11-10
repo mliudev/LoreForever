@@ -679,7 +679,7 @@ check("Options", {
     local v = p.voice
     local row = v and v.rows and v.rows[1]
     widgets("Options: narration voices", { { "first voice", row }, { "its name", row and row.name, true },
-      { "Play voices on", v and v.channel, true }, { "Voice volume", v and v.volume } }, nil,
+      { "Play voices on", v and v.channel, true }, { "Narration and game voices", v and v.volume } }, nil,
       (v and v.items and #v.items > 0) and {} or { "no voices listed" })
     -- Play voices on (LOR-315): the saved channel is one of the game's, and the drop-down names it. Voice volume
     -- (LOR-295) is that channel's own volume: its slider shows what the game has. Only read here.

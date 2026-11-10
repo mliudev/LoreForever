@@ -671,15 +671,7 @@ function Page.Refresh()
   Page.sub:SetText(table.concat(parts, dot))
   Page.qid = questId(e)
   Page.dialogue = Page.qid ~= nil and ns.UI.HasQuestDialogue(Page.qid)   -- a voice recorded its quest giver
-  local target = ns.UI.EntryTarget(key)
-  local voiced = target and ns.Voice.HasAudio(target.key) and true or false
-  Page.listen:SetShown(voiced)
-  Page.UpdateListen()
-  Page.length:SetShown(voiced)
-  if voiced then Page.length:SetText(Page.NarrationLine(key) or "") end
-  -- A recording planned that this player can't play (not recorded yet, or its voices aren't installed).
-  local planned = not voiced and ns.Voice.Current() ~= "none" and (ns.DB.clipHash or {})[key]
-  Page.unvoiced:SetText(planned and L["Not in your voices yet: read it here."] or "")
+  Page.RefreshOffer()
   Page.askIn.text:SetText(T.code.inkLink .. string.format(L["Ask about %s in Here"], esc(e.n)) .. " \226\128\186|r")
   Page.UpdatePager()
   Page.Layout()
@@ -750,12 +742,32 @@ end
 
 -- The Listen pill follows what plays and what's queued (UI.UpdateListen): its play half a gilt stop while this
 -- page's story plays, the + a tick once it's in the playlist, and no + where it can't be queued.
+-- The story's Listen for the voices this player has now: the play button, the quiet download button when a free download
+-- has its voice (VoiceOffer.lua), or the line saying it's not in their voices yet.
+function Page.RefreshOffer()
+  local key = Page.key
+  if not (key and Page.listen) then return end
+  local target = ns.UI.EntryTarget(key)
+  local voiced = target and ns.Voice.HasAudio(target.key) and true or false
+  local offer = not voiced and ns.VoiceOffer.ForStory(key) or nil
+  T.SetPillOffer(Page.listen, offer)
+  Page.listen:SetShown(voiced or offer ~= nil)
+  Page.UpdateListen()
+  Page.length:SetShown(voiced)
+  if voiced then Page.length:SetText(Page.NarrationLine(key) or "") end
+  if offer then ns.VoiceOffer.Showing(offer) end
+  -- A recording planned that this player can't play (not recorded yet, or its voices aren't installed).
+  local planned = not voiced and not offer and ns.Voice.Current() ~= "none" and (ns.DB.clipHash or {})[key]
+  Page.unvoiced:SetText(planned and L["Not in your voices yet: read it here."] or "")
+end
+
 function Page.UpdateListen()
   local p, key = Page.listen, Page.key
   if not (p and key and p:IsShown()) then return end
+  if p.offer then return T.SetPill(p, false, false, false, false) end
   local can = ns.UI.CanQueue(key) and true or false
   local action = can and ns.UI.QueueAction(key)
-  T.SetPill(p, ns.UI.IsPlayingTarget(ns.UI.EntryTarget(key)) or action == "stop", can, action == "remove" or action == "stop")
+  T.SetPill(p, ns.UI.IsPlayingTarget(ns.UI.EntryTarget(key)) or action == "stop", can, action == "remove" or action == "stop", true)
 end
 
 -- The bookmark Back returns to once no page is behind it (UI.OpenChronicle, after the page opened).
