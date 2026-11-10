@@ -211,9 +211,9 @@
     "item:a-stack-of-letters": {
       "1": [
         {
-          "duration": 32.10448979591837,
-          "file": "Audio/Transport/full_item_a-stack-of-letters-992e66598b3bbae94c55/1-0000.mp3",
-          "sha256": "2d0496cf794876664e48bb649aef68424a74e697aa34bf45a15afe828ad5c0be",
+          "duration": 32.522448979591836,
+          "file": "Audio/Transport/full_item_a-stack-of-letters-d2a512719fcc30f181cc/1-0000.mp3",
+          "sha256": "1882c58df9de6eda56094655b788fbad91d96721e848ebdc73ea2595b1a5f784",
           "start": 0
         }
       ],
@@ -225,12 +225,12 @@
         ]
       },
       "fullHash": "bc24e5",
-      "generation": "7e4ed62608909b83f3cb",
+      "generation": "2f966b04fa260b4338b5",
       "hash": "bc24e5",
       "source": {
-        "duration": 32.130612,
+        "duration": 32.548571,
         "file": null,
-        "sha256": "992e66598b3bbae94c554417f0cb01dd7b6d6a6f74f807764a313e3f3d4a6454"
+        "sha256": "d2a512719fcc30f181ccb7a3d2a1cff0dacc22c414241918096082ed375643d8"
       },
       "text": "A Stack of Letters. In Coldridge Valley, a stack of letters has come through the mountain pass for scouts in the snowy wilderness. Letters for Coldridge Valley come from Anvilmar by way of travelers crossing the pass. The road to the remote camps in Dun Morogh's mountains is hard, so postal runners rely on travelers to carry each bundle onward. This one is bound for scouts deeper in Coldridge Valley.\n\nUntil the letters are sorted, Talin Keeneye at his lakeside camp is thought to be the only recipient. Among them is a missive for Grelin Whitebeard, a mountaineer."
     },
@@ -861,9 +861,9 @@
     "item:ataeric-s-staff": {
       "1": [
         {
-          "duration": 34.2465306122449,
-          "file": "Audio/Transport/full_item_ataeric-s-staff-e5616c103288c507dcb5/1-0000.mp3",
-          "sha256": "f202ba97ee04a59b35429143ca1d4ccc2e3ed3d125f23b55ad200b1adaa7b89a",
+          "duration": 33.5934693877551,
+          "file": "Audio/Transport/full_item_ataeric-s-staff-e9254f6cb4af149cfb5f/1-0000.mp3",
+          "sha256": "eb63bf1f7132f13014467aaf0de3b283a8590cab6ff710dafb013ac9e3c0cb48",
           "start": 0
         }
       ],
@@ -875,12 +875,12 @@
         ]
       },
       "fullHash": "8457ee",
-      "generation": "40f15145abd448553c09",
+      "generation": "08e40bdcca6a50b60ade",
       "hash": "8457ee",
       "source": {
-        "duration": 34.246531,
+        "duration": 33.619592,
         "file": null,
-        "sha256": "e5616c103288c507dcb53f7ee39b8ef116285f5eada3b6708fb32e9c2767e8da"
+        "sha256": "e9254f6cb4af149cfb5fceb4bb918a6c60d0bf59d5d4114f90b7b2320c7c2546"
       },
       "text": "Ataeric's Staff. At the Sepulcher, Ataeric's Staff marks a victory over Dalaran's reach in Silverpine Forest. Archmage Ataeric wielded it to command the local ley lines. Shadow Priest Allister feared Dalaran's growing reach in magic, so he ordered Ataeric killed and demanded the staff. Once Ataeric was slain and the staff recovered, the concentrated ley energies sank back into dormancy.\n\nThe staff's arrival at the Sepulcher marked a clear victory over Dalaran's ambitions. Power still lies latent in the earth, and the Forsaken remain watchful."
     },
@@ -2369,9 +2369,9 @@
     "item:cask-of-shimmer-stout": {
       "1": [
         {
-          "duration": 55.82367346938776,
-          "file": "Audio/Transport/full_item_cask-of-shimmer-stout-8fef7a0491b2251cad01/1-0000.mp3",
-          "sha256": "4fb7eacc2f6b8bbe55d337116240beae5eed0f9909ee0bbca22c42971c37e25e",
+          "duration": 59.32408163265306,
+          "file": "Audio/Transport/full_item_cask-of-shimmer-stout-20bece54ea23ccac0a9e/1-0000.mp3",
+          "sha256": "53ee19f85b44bbc168e968684aaed4d5d6ef7d8ea051a27c424700022eb9036f",
           "start": 0
         }
       ],
@@ -2383,12 +2383,12 @@
         ]
       },
       "fullHash": "1d0405",
-      "generation": "ecdaad5f370caaac328f",
+      "generation": "ab98f671e7d34fc2092e",
       "hash": "1d0405",
       "source": {
-        "duration": 55.849796,
+        "duration": 59.350204,
         "file": null,
-        "sha256": "8fef7a0491b2251cad0181696b04801598342b5613c048933d4eac40c65612ca"
+        "sha256": "20bece54ea23ccac0a9e36cfe69a3ffe75072587905089b9ac29de3cce9aa24c"
       },
       "text": "Cask of Shimmer Stout. In Dun Morogh's cold heights, Cask of Shimmer Stout is bound for the eastern mountains. Rejold Barleybrew brewed the potent new ale, and his brother sends a cask east as a gift for fellow dwarven mountaineers. Rejold Barleybrew brews Shimmer Stout in Brewnall Village. Local patrons and mountaineers who brave Dun Morogh's biting frosts take to it quickly. Impressed by the brew, his brother Mountaineer Barleybrew commissions a cask for the journey through the eastern pass into Loch Modan. Dwarves prize strong drink for company and warmth in the mountain chill. Sharing fresh ale with comrades on distant patrols is a military tradition. During his watch in Thelsamar, Mountaineer Kadrell opens the cask and samples the brew. Shimmer Stout lives up to its name: one draught is said to lighten the limbs and make a soldier feel as though he could fly. A dwarven scout on a long, lonely patrol along the high roads might welcome such an invigorating drink."
     },
@@ -2499,9 +2499,9 @@
     "item:charred-horn": {
       "1": [
         {
-          "duration": 42.5534693877551,
-          "file": "Audio/Transport/full_item_charred-horn-3f6ce9d5a7c1bf5875ec/1-0000.mp3",
-          "sha256": "fcf582482f7ff0ccee34c0c6d7e90b318fa8e3fddb8e1ac756ef1373583af237",
+          "duration": 41.43020408163265,
+          "file": "Audio/Transport/full_item_charred-horn-216c45711ad8287bd3f6/1-0000.mp3",
+          "sha256": "807a2b560d3c45d4532158329e375c27ea3a4014f9e77496c3f3e8d221e9cdcf",
           "start": 0
         }
       ],
@@ -2513,12 +2513,12 @@
         ]
       },
       "fullHash": "d788ca",
-      "generation": "392e9dced66d1f227223",
+      "generation": "ead9ad97604fb52c026a",
       "hash": "d788ca",
       "source": {
-        "duration": 42.579592,
+        "duration": 41.456327,
         "file": null,
-        "sha256": "3f6ce9d5a7c1bf5875ec370bb6fa2e1e0357665ac1fc1032270ecd9ffc8ee73b"
+        "sha256": "216c45711ad8287bd3f6f45842d9bb1eca6e5df05d62e55a603196320e5f62a9"
       },
       "text": "Charred Horn. In Stormwind, Furen Longbeard needs Charred Horns from young chimaeras in Stonetalon. Their resistance to flame, blunt force, and harsh elemental forces makes them useful in strong armor. Fledgling and young chimaeras in the Stonetalon Mountains provide Charred Horns. Their resistance to flame and blunt force makes them useful to Furen Longbeard, a dwarven armorsmith at his forge in Stormwind. He needs twelve horns to make fire-hardened mail.\n\nFuren combines them with venomous spider fangs from the Wetlands, phlogiston from Razorfen Kraul, and the galvanized horn of a chimaera matriarch. The Charred Horns reinforce the mail's rings and plates with heat-treated material."
     },
@@ -2629,9 +2629,9 @@
     "item:claw-key": {
       "1": [
         {
-          "duration": 43.755102040816325,
-          "file": "Audio/Transport/full_item_claw-key-ff82d47c41c79a31b4d4/1-0000.mp3",
-          "sha256": "77e5fe57d87456e9daa3179f0696a3f83d863c11b84acdae2e7eff8bdaf157f5",
+          "duration": 42.840816326530614,
+          "file": "Audio/Transport/full_item_claw-key-3ea524ac4925695dab48/1-0000.mp3",
+          "sha256": "7a83dfc0fa640284ee7df3f9b89a60ef5f1a87552df624d2a24bb53b85e9974c",
           "start": 0
         }
       ],
@@ -2643,12 +2643,12 @@
         ]
       },
       "fullHash": "1aff36",
-      "generation": "d65a61a516be32a08213",
+      "generation": "1a3a78f60bf3c03054c1",
       "hash": "1aff36",
       "source": {
-        "duration": 43.781224,
+        "duration": 42.866939,
         "file": null,
-        "sha256": "ff82d47c41c79a31b4d436c6994b5526579111caca59d1bd257a9a7e7cd82261"
+        "sha256": "3ea524ac4925695dab48b24975aca7dbe443e7a566a174e3e499f96e7ab7e63a"
       },
       "text": "Claw Key. Within the Talon Den on Stonetalon Peak, three druidic keys guard an enchanted hoard. Night elf druids built the Talon Den high on Stonetalon Peak as a sanctuary and storehouse for powerful relics. They hid its treasures behind several layers of protection. Three enchanted locks seal the hoard: the Barrow Key, the Sleepers' Key, and the Claw Key. Each key rests in a druidic cache shaped like a torch, hidden in the barrow den's winding tunnels. The druids kept the keys guarded and hard to reach. Near the barrow entrance, the Gatekeeper's Key opens the cache that holds the Claw Key. The Claw Key helps break the druids' seal and reach the riches hidden deep within the mountain."
     },
@@ -2837,9 +2837,9 @@
     "item:corroded-shrapnel": {
       "1": [
         {
-          "duration": 37.015510204081636,
-          "file": "Audio/Transport/full_item_corroded-shrapnel-c5f1ac86fd4f406a8a3f/1-0000.mp3",
-          "sha256": "334d597bf9d34bb8ea65e8ec9ff294ec32af55fc7a7d09e48f480848465aa8c5",
+          "duration": 36.310204081632655,
+          "file": "Audio/Transport/full_item_corroded-shrapnel-66f52588285914dfcc6b/1-0000.mp3",
+          "sha256": "251b0902542d67884df4d7d38f0cdaa4ad3797e32e6ec8fd92318c8878af7bcc",
           "start": 0
         }
       ],
@@ -2851,12 +2851,12 @@
         ]
       },
       "fullHash": "cf1f6c",
-      "generation": "07afc977b176ed155074",
+      "generation": "f23d2f999fa037278e8d",
       "hash": "cf1f6c",
       "source": {
-        "duration": 37.041633,
+        "duration": 36.336327,
         "file": null,
-        "sha256": "c5f1ac86fd4f406a8a3f60385845896f98d414d266ef8562686c16a73724f852"
+        "sha256": "66f52588285914dfcc6b7d5165a2751d146568f7f0a94b8c006fe50fa0ebac9c"
       },
       "text": "Corroded Shrapnel. In Stonetalon, jagged fragments remain buried in the forest’s corrupted treants. The Venture Company’s munitions left them there as the goblins fled. The Venture Company’s goblins fled Stonetalon’s groves under cover of reckless munitions. Their blasts drove shrapnel into the treants defending the valley, where it lodged deep in bark and core. The ancient guardians slowly succumbed to corruption. Their wood darkened, and they turned their fury on anyone entering the vale. Kaela Shadowspear seeks the rusted fragments for Gaxim Rustfizzle, a gnome who wants to study how the weapons brought on the treants’ corruption."
     },
@@ -2993,9 +2993,9 @@
     "item:covert-ops-pack": {
       "1": [
         {
-          "duration": 58.54040816326531,
-          "file": "Audio/Transport/full_item_covert-ops-pack-127462f5ce68bec417f2/1-0000.mp3",
-          "sha256": "96b610e0de325980214487213e10b55aa928966cd835b6923d7ff8d42f808b92",
+          "duration": 55.95428571428572,
+          "file": "Audio/Transport/full_item_covert-ops-pack-f0b66f18dd950bedfc6a/1-0000.mp3",
+          "sha256": "078f68f12a410d1383ae16d0cc6e8c221d9cfea7e53cc5d16e27950a288937a1",
           "start": 0
         }
       ],
@@ -3007,12 +3007,12 @@
         ]
       },
       "fullHash": "7f205b",
-      "generation": "14930a31cc20d20c0023",
+      "generation": "65e95d2bfd49b55ff93b",
       "hash": "7f205b",
       "source": {
-        "duration": 58.566531,
+        "duration": 55.980408,
         "file": null,
-        "sha256": "127462f5ce68bec417f22d35254d62ef836beb3f8ce7bca0ea43fef5c0f7b1fd"
+        "sha256": "f0b66f18dd950bedfc6a73fc453d5d67b387d9f98ec924f0aa7021f4d6d6c0f6"
       },
       "text": "Covert Ops Pack. In Stonetalon, Alliance agents use the Covert Ops Pack to disrupt Venture Company sites and take their plans. Its charges and schematics are aimed at the company’s work in Windshear Crag. The Covert Ops Pack brings charges and plans into Venture Company territory. Red and blue NG-5 explosives come with remote detonators, while Plan Alpha and Plan Beta guide the strikes. The charges target the lumber mill at Cragpool Lake and the eastern mine. When goblins rush to fight fires and inspect broken machinery, an infiltrator can pass through the confusion and take documents and schematics. Night elf Sentinels and Alliance engineers in Stonetalon both gain from the Covert Ops Pack. Its blasts and stolen plans hinder clear-cutting and excavation on the sacred mountainside. The Venture Company engineering plans also reveal how goblin heavy machinery works. They show where the machines can fail and give Alliance engineers ideas to adapt for their own designs."
     },
@@ -3825,9 +3825,9 @@
     "item:deepmoss-egg": {
       "1": [
         {
-          "duration": 50.02448979591837,
-          "file": "Audio/Transport/full_item_deepmoss-egg-a69846c2d1fdb802e4a7/1-0000.mp3",
-          "sha256": "170971503aae8601f2125ebec3a0bacdc340cff6b45f51134746390a1dc75364",
+          "duration": 52.7934693877551,
+          "file": "Audio/Transport/full_item_deepmoss-egg-41ff881c1966b5207e83/1-0000.mp3",
+          "sha256": "da8b4b2bdb21385587a775302b5175b612e4dcc4001c943288ada6e2ebf1de72",
           "start": 0
         }
       ],
@@ -3839,12 +3839,12 @@
         ]
       },
       "fullHash": "e3fbde",
-      "generation": "e3ec5897a5ba67d3c840",
+      "generation": "77521e3bdc82e4cf7780",
       "hash": "e3fbde",
       "source": {
-        "duration": 50.050612,
+        "duration": 52.819592,
         "file": null,
-        "sha256": "a69846c2d1fdb802e4a7572608fd3e9e09a9f65c5b7cd322ae6d2f8a0d038626"
+        "sha256": "41ff881c1966b5207e8397f8b7464cc12715f8fa646f2da0dad20e50a062e951"
       },
       "text": "Deepmoss Egg. In the Stonetalon Mountains, Deepmoss Eggs draw goblin merchants from Ratchet. Deepmoss spiders lay clustered clutches in the crags and canyons, and Booty Bay pirates prize them for omelettes. Deepmoss spiders nest across the Stonetalon Mountains, especially in Sishir Canyon and beneath the surviving trees of Windshear Crag. There, they leave clustered clutches of viable eggs in thick webbed sacks, sheltered by damp mountain moss. Most travelers have little use for them, but goblin traders see a chance to profit. Booty Bay has taken to spider egg omelettes, an eccentric fad among wealthy pirates and adventurous diners. Local supplies cannot satisfy their appetite, so Mebok Mizzyrix of Ratchet arranges shipments through Wharfmaster Dizzywig. Collectors brave Stonetalon's venomous broods for fresh clutches, and the eggs become valuable cargo."
     },
@@ -4891,9 +4891,9 @@
     "item:enchanted-gaea-seeds": {
       "1": [
         {
-          "duration": 50.520816326530614,
-          "file": "Audio/Transport/full_item_enchanted-gaea-seeds-5fa80ef1d5c216707df8/1-0000.mp3",
-          "sha256": "41758159c7768ff31d877b9e2378c8a709578e3407888cb4a377d9f9bbab217d",
+          "duration": 51.565714285714286,
+          "file": "Audio/Transport/full_item_enchanted-gaea-seeds-e83e03dfbc7191b62a26/1-0000.mp3",
+          "sha256": "06ce0f8d89cc9f627a539707335f95f483cca59f3a4981ba85915aa8aae69a59",
           "start": 0
         }
       ],
@@ -4905,21 +4905,21 @@
         ]
       },
       "fullHash": "b02ecc",
-      "generation": "8e636e7552d91e149bdd",
+      "generation": "c7a1560b9c6c2b24948d",
       "hash": "b02ecc",
       "source": {
-        "duration": 50.546939,
+        "duration": 51.591837,
         "file": null,
-        "sha256": "5fa80ef1d5c216707df8e8ae814cfdc35b8d1c3b4ca6626dbcfb0a1fa61d8813"
+        "sha256": "e83e03dfbc7191b62a264d3659051a86dbe67fe611a2c3e184bff028e6846d42"
       },
       "text": "Enchanted Gaea Seeds. At Sun Rock Retreat, Enchanted Gaea Seeds are bound for the Charred Vale. Druidic magic helps them take root in ash-choked soil and begin to heal Kalimdor's ravaged land. Horde druids are working to heal the deep scars across Stonetalon Mountains. At Sun Rock Retreat, Tammra Windfield enchants raw Gaea Seeds to endure corruption and elemental blight. Planted in fertile dirt mounds beneath the Charred Vale's soot, they can take root in harsh ground. Yet hostile fire elementals and invasive harpies still rule the vale. The seeds are part of the struggle for Stonetalon's future. Their enchanted husks resist lingering corruption and give native plants a foothold. That returning growth is meant to soothe agitated fire elementals, crowd out feral harpies, and counter the deforestation wrought by the Venture Company's relentless logging."
     },
     "item:enchanted-resonite-crystal": {
       "1": [
         {
-          "duration": 33.98530612244898,
-          "file": "Audio/Transport/full_item_enchanted-resonite-crystal-d6342577ca777799b1fd/1-0000.mp3",
-          "sha256": "a6317698d9cab5652132a141665310e99394687ee4ae421b4b7b78cf94ac2a10",
+          "duration": 33.25387755102041,
+          "file": "Audio/Transport/full_item_enchanted-resonite-crystal-72e05dffaa49443d1209/1-0000.mp3",
+          "sha256": "dff32628e83cb447e28e3ed7e9be3706f07de2156c0c5e60d448ce58eb55e6d9",
           "start": 0
         }
       ],
@@ -4931,12 +4931,12 @@
         ]
       },
       "fullHash": "33cd7b",
-      "generation": "bd822c434289112ff17f",
+      "generation": "65951194ced3aac0c8cf",
       "hash": "33cd7b",
       "source": {
-        "duration": 34.011429,
+        "duration": 33.28,
         "file": null,
-        "sha256": "d6342577ca777799b1fdb32d46ba550ea7b7922bf4264ff8ae37fca923956790"
+        "sha256": "72e05dffaa49443d12090f41648c512f20ba903fbc9766fab4605ae40d27105b"
       },
       "text": "Enchanted Resonite Crystal. In Stonetalon, Mor'rogal has changed resonite crystals with shamanic magic. He made the Enchanted Resonite Crystal to break the cask that holds Goggeroc. In the caverns of the Stonetalon Mountains, raw resonite crystals carry unusual harmonic and earthen properties. Shaman Mor'rogal sensed danger within a sealed underground cask, so he changed the crystals with his elemental powers. The Enchanted Resonite Crystal can break the reinforced Resonite cask and rouse Goggeroc, a giant Earthen, while he is still dazed from his long sleep."
     },
@@ -5541,9 +5541,9 @@
     "item:felix-s-box": {
       "1": [
         {
-          "duration": 46.419591836734696,
-          "file": "Audio/Transport/full_item_felix-s-box-c2537f8c520dea2cb858/1-0000.mp3",
-          "sha256": "604fb2024f4fb9d1a2e129bd284f6dfa6c9ae71801d61adaf376324d189e1e4e",
+          "duration": 46.08,
+          "file": "Audio/Transport/full_item_felix-s-box-21b607f30d3806715124/1-0000.mp3",
+          "sha256": "7f0eba63121cc6c6515b0e56c5e2362eb1d41a0ce6d33d5e36a7ec96a458fed7",
           "start": 0
         }
       ],
@@ -5555,12 +5555,12 @@
         ]
       },
       "fullHash": "da3d3e",
-      "generation": "dfebc6ac2db81b0f2912",
+      "generation": "4c1367685807d95c640c",
       "hash": "da3d3e",
       "source": {
-        "duration": 46.445714,
+        "duration": 46.106122,
         "file": null,
-        "sha256": "c2537f8c520dea2cb8588d7f506286a8493cfdb7f61c89b3bbecb6b7551a5d81"
+        "sha256": "21b607f30d38067151247bf634f99ac15b25cee48aa2065ae2e09905aea7df25"
       },
       "text": "Felix's Box. In Frostmane camps southwest of Anvilmar, Felix's Box lies far from the gnome refugee who lost it. Radiation swept through Gnomeregan during the failed attempt to purge the trogg menace. Felix Whindlebolt fled with the gnomes into Coldridge Valley, leaving his possessions and crafting gear along the snowy road to escape the fumes. Frostmane trolls plundered the goods before he could return. They carried his box, chest, and bucket of bolts to their settlements southwest of Anvilmar. Felix is unused to violence and poorly suited to Dun Morogh's wilderness. He needs passing adventurers in Anvilmar to help recover his belongings. Their return would restore some normalcy and give the displaced artisan the means to earn a living. He lost everything when Gnomeregan fell."
     },
@@ -5671,9 +5671,9 @@
     "item:fey-dragon-scale": {
       "1": [
         {
-          "duration": 24.86857142857143,
-          "file": "Audio/Transport/full_item_fey-dragon-scale-1e3d021d5d9655a39118/1-0000.mp3",
-          "sha256": "25c147b066abc1e08e10713c58328605d6394c484d60641fec3e08d00d28fbfd",
+          "duration": 24.267755102040816,
+          "file": "Audio/Transport/full_item_fey-dragon-scale-5d83678c4b52e3107ce3/1-0000.mp3",
+          "sha256": "fbf08b42a7a03eb687da134299f4652594fe9f07acf8c33766806711340369dd",
           "start": 0
         }
       ],
@@ -5685,12 +5685,12 @@
         ]
       },
       "fullHash": "9267a3",
-      "generation": "3a8c16acf27a1940ddb7",
+      "generation": "cdd7528b9dcddf064e43",
       "hash": "9267a3",
       "source": {
-        "duration": 24.894694,
+        "duration": 24.293878,
         "file": null,
-        "sha256": "1e3d021d5d9655a391186267479ecad971c9c5cff2795cefcedd43b0ae50a443"
+        "sha256": "5d83678c4b52e3107ce3d3b6b17ec361b519fbed5864e826770a9eb6b8f79772"
       },
       "text": "Fey Dragon Scale. Around Stonetalon Peak, faerie dragons give up scales that Jin'Zil covets. The Darkspear witch doctor uses one in a brew meant to mock night elven nature magic. Faerie dragons haunt the wild groves around Stonetalon Peak. Their scales shine with natural magic. Night elves honor them as harmless woodland spirits and allies. Outsiders prize the scales as rare magical ingredients."
     },
@@ -5723,9 +5723,9 @@
     "item:filled-blue-waterskin": {
       "1": [
         {
-          "duration": 53.00244897959184,
-          "file": "Audio/Transport/full_item_filled-blue-waterskin-47bd4945539fcd19a59b/1-0000.mp3",
-          "sha256": "d23b0ebf745afd542df71a5d9b687c5e53aaff476e5b6080a1c1838ea38924d7",
+          "duration": 51.30448979591837,
+          "file": "Audio/Transport/full_item_filled-blue-waterskin-544c6926195fcf3b74c6/1-0000.mp3",
+          "sha256": "cc4ceea4ae332d49525f19b31d720d3485752c28d9c89e5e38edd55f51e35f40",
           "start": 0
         }
       ],
@@ -5737,12 +5737,12 @@
         ]
       },
       "fullHash": "811ed2",
-      "generation": "343553582b723c1f3fd0",
+      "generation": "c1749015c041280a7748",
       "hash": "811ed2",
       "source": {
-        "duration": 53.028571,
+        "duration": 51.330612,
         "file": null,
-        "sha256": "47bd4945539fcd19a59bd46add12995488c9c27b349381f9c7cc380ed3d98f91"
+        "sha256": "544c6926195fcf3b74c612e982174397ae62b77d4651391a49fc0508d0897eb3"
       },
       "text": "Filled Blue Waterskin. At the Ruins of Stardust, shamans seek water for their trials. The Filled Blue Waterskin bears a pure sample from an ancient fountain. Call of Water initiates travel north from the Barrens into Ashenvale's dense forests. Beyond Lake Mystral, the Ruins of Stardust rest against the mountains between Ashenvale and Stonetalon. Fierce forest beasts guard the secluded elven sanctuary. At the center of its lake, an untouched fountain holds water free of corruption or drought. A blue waterskin filled there carries the sample shaman masters seek for ritual attunement. Brine lives as a hermit on a hill in the southern Barrens. She knows water well and needs this final sample. Brine combines it with water from contrasting wells and springs, then distills a pure essence to offer. The offering can call forth and soothe water's elemental spirits, completing an initiate's trial."
     },
@@ -6555,9 +6555,9 @@
     "item:gaea-seed": {
       "1": [
         {
-          "duration": 26.096326530612245,
-          "file": "Audio/Transport/full_item_gaea-seed-629f55506055c1c0feec/1-0000.mp3",
-          "sha256": "a900e72da9e143dfbb79c16c77d68125352905094718fb443ed8321dfeb05d46",
+          "duration": 26.592653061224492,
+          "file": "Audio/Transport/full_item_gaea-seed-745d3b76139127c08225/1-0000.mp3",
+          "sha256": "478e139e62bee43f070e0144ff5514169364a3f0c3d158b40efc15d96ab618a6",
           "start": 0
         }
       ],
@@ -6569,12 +6569,12 @@
         ]
       },
       "fullHash": "4e1e2e",
-      "generation": "660be6e1f3c4890f1f30",
+      "generation": "a4a2bc59e912fa9bb004",
       "hash": "4e1e2e",
       "source": {
-        "duration": 26.122449,
+        "duration": 26.592653,
         "file": null,
-        "sha256": "629f55506055c1c0feec6c6e9ba80ec25cd99e6800836792989016e24a2f623c"
+        "sha256": "745d3b76139127c082252b4cac1f59a77577f813b54d25261e25dc12bae1c938"
       },
       "text": "Gaea Seed. Along Mirkfallon Lake, Gaea Seed offers hope for Stonetalon's wounded land. Tauren shamans value its hardy kernels for healing places scarred by war and industry. Gaea Seeds wash ashore or grow along Mirkfallon Lake in the Stonetalon Mountains. Small and fibrous, they resemble coconuts and endure harsh conditions. Conflict and industry have scarred the land, so shamans turn to the seeds to help heal it."
     },
@@ -6841,9 +6841,9 @@
     "item:gerenzo-s-mechanical-arm": {
       "1": [
         {
-          "duration": 32.888163265306126,
-          "file": "Audio/Transport/full_item_gerenzo-s-mechanical-arm-5b4e668f547034bc3688/1-0000.mp3",
-          "sha256": "0d65b1ec079d0a111992b4cb8c911a13c1440b55188a1ac6b78871ff8bc3e9fb",
+          "duration": 30.197551020408163,
+          "file": "Audio/Transport/full_item_gerenzo-s-mechanical-arm-c121e665397e07c3f649/1-0000.mp3",
+          "sha256": "aa80b5dc29ed5199b0219ffe172bf2f1a3710bc1ffc9e9c4c7fe089d9c2d6d66",
           "start": 0
         }
       ],
@@ -6855,12 +6855,12 @@
         ]
       },
       "fullHash": "f2d6c0",
-      "generation": "2ac0fc47ad0643d69462",
+      "generation": "ec5c7d77eb5c1a2c3c63",
       "hash": "f2d6c0",
       "source": {
-        "duration": 32.914286,
+        "duration": 30.197551,
         "file": null,
-        "sha256": "5b4e668f547034bc36885e9d96157ae16a2fc92772c2520c143865f2cfc4c005"
+        "sha256": "c121e665397e07c3f6499218d5c70c7484e854fc5b0d02b3522be57c65231d5c"
       },
       "text": "Gerenzo's Mechanical Arm. In the Stonetalon Mountains, goblin operatives seek Gerenzo's Mechanical Arm to prove his death and clear out competition. The grafted limb belonged to rogue engineer Gerenzo Wrenchwhistle. Above Cragpool Lake, rogue engineer Gerenzo Wrenchwhistle grafted whirring gears and metal onto his failing body. The renegade gnome replaced his natural limbs with intricate machinery. Goblin tinker Ziz Fizziks wants Gerenzo eliminated to impress his superiors. The distinctive arm is the proof he needs of the engineer's death."
     },
@@ -7569,9 +7569,9 @@
     "item:grelin-s-report": {
       "1": [
         {
-          "duration": 61.544489795918366,
-          "file": "Audio/Transport/full_item_grelin-s-report-674d9a50b2a6ec13fce7/1-0000.mp3",
-          "sha256": "5613aedbf518da73b3fd4b3b01d268a8fbd3b2c536b3e154e6315c54ec9b0ab7",
+          "duration": 61.70122448979592,
+          "file": "Audio/Transport/full_item_grelin-s-report-ab5b1b838dbaada2e9de/1-0000.mp3",
+          "sha256": "ef1f2cf093fecc1f96b4ddcab378e081346015806a8e2e3dd00ec0541ed67985",
           "start": 0
         }
       ],
@@ -7583,12 +7583,12 @@
         ]
       },
       "fullHash": "aed143",
-      "generation": "aee9860aac25d56ee386",
+      "generation": "3bddef4f4da877cd16be",
       "hash": "aed143",
       "source": {
-        "duration": 61.570612,
+        "duration": 61.727347,
         "file": null,
-        "sha256": "674d9a50b2a6ec13fce71c5e24c96c071a708b87af49bee1656f139609ab749a"
+        "sha256": "ab5b1b838dbaada2e9de24338019c4d21ce80564aea7c7eba2ffed7eea011ee4"
       },
       "text": "Grelin's Report. In Coldridge Valley, Grelin's Report carries word of the Frostmane trolls to Kharanos. It joins the scouts at Anvilmar with Senir Whitebeard and Ironforge. Grelin Whitebeard has watched the Frostmane trolls in Coldridge Valley and judges them no great threat. Mountaineers already stationed there can handle them, with mercenaries paid from Senate funds. So Grelin entrusts his report to a capable traveler instead of his fumbling apprentice. The journey leads through trogg-infested Coldridge Pass.\n\nThe paper shows Mountaineer Thalos that you travel on urgent business. With it, you may pass his blockade and enter the snowy reaches of Dun Morogh. At the Thunderbrew Distillery in Kharanos, Senir Whitebeard receives Grelin's field report for Ironforge. His brother has invoked King Magni Bronzebeard's name throughout the document, and Senir takes note with amused resignation. Grelin claims the King's sanction for his actions. Senir expects that appeal to royal authority to ruffle feathers in the Ironforge Senate."
     },
@@ -8297,9 +8297,9 @@
     "item:head-of-vancleef": {
       "1": [
         {
-          "duration": 42.42285714285715,
-          "file": "Audio/Transport/full_item_head-of-vancleef-31e17877d03545cbd021/1-0000.mp3",
-          "sha256": "21d4cb5d567bac9855aea98806b1170a2717bb81fa0c2cec065109a42d083286",
+          "duration": 42.91918367346939,
+          "file": "Audio/Transport/full_item_head-of-vancleef-0666091f7a289c314460/1-0000.mp3",
+          "sha256": "850fbf0d18c59aa87edcc60143d2b61ece35edac8da4d249b36fa2860b066b46",
           "start": 0
         }
       ],
@@ -8311,12 +8311,12 @@
         ]
       },
       "fullHash": "e0884e",
-      "generation": "aa22638d864766ab2fa3",
+      "generation": "e41d2a3c8ca88c8537a1",
       "hash": "e0884e",
       "source": {
-        "duration": 42.44898,
+        "duration": 42.945306,
         "file": null,
-        "sha256": "31e17877d03545cbd02117e4a814e97ae47450607b6ea0cd7891bb6166817d18"
+        "sha256": "0666091f7a289c314460c2aacf4617e0a2478365691e061e478fe1aae151ed7a"
       },
       "text": "Head of VanCleef. At Sentinel Hill, VanCleef's severed head gives Westfall proof that the Defias leader has fallen. Carried from the Deadmines, it brings the People's Militia a hard-won victory. Westfall's settlers need proof that the danger has passed. For months, Edwin VanCleef directed the Defias Brotherhood's terror from the deepest sanctum of the Deadmines. Armed outlaws, goblin engineers, and a massive war juggernaut guarded him there.\n\nGryan Stoutmantle leads the People's Militia and demands physical proof before he declares the countryside safe. VanCleef's severed head comes out into daylight. It assures the exhausted defenders that the architect of their ruin can no longer threaten Westfall."
     },
@@ -9597,9 +9597,9 @@
     "item:ken-zigla-s-draught": {
       "1": [
         {
-          "duration": 31.346938775510207,
-          "file": "Audio/Transport/full_item_ken-zigla-s-draught-13a12777a80e2380da66/1-0000.mp3",
-          "sha256": "349569f1ff6a8e10b7c4975a7c38a0231deb0df4fb4b3547db6d07eaf6934eab",
+          "duration": 30.380408163265308,
+          "file": "Audio/Transport/full_item_ken-zigla-s-draught-f7232e099c10ed4ee22b/1-0000.mp3",
+          "sha256": "508212442de3f51afe238ef9dffc280a481d6ec87946afa3156dfccb3d4d9954",
           "start": 0
         }
       ],
@@ -9611,12 +9611,12 @@
         ]
       },
       "fullHash": "1cd273",
-      "generation": "d1d37ecc36134e591396",
+      "generation": "daa230d5cdda7c31955b",
       "hash": "1cd273",
       "source": {
-        "duration": 31.373061,
+        "duration": 30.406531,
         "file": null,
-        "sha256": "13a12777a80e2380da6619208f84a84bd72e4efbd8fe46990bf46091e83729e6"
+        "sha256": "f7232e099c10ed4ee22b723de8bf7fc83309a55eb8ebcda39f9ad68b2dd047b2"
       },
       "text": "Ken'zigla's Draught. In the Stonetalon Mountains, Ken'zigla prepares a bitter draught for the gravely wounded. Half a dose can restore enough strength to move, but more may make a patient bleed out. Ken'zigla prepares the draught in the Stonetalon Mountains for those near death. Its strength calls for care. More than half a dose at once can make a patient bleed out as their circulation surges. Half a dose gives a wounded person enough vigor to move and flee danger. The rest must wait until the body steadies after a full night's rest."
     },
@@ -10403,9 +10403,9 @@
     "item:lydon-s-toxin": {
       "1": [
         {
-          "duration": 40.59428571428572,
-          "file": "Audio/Transport/full_item_lydon-s-toxin-65f69d78588d67900f27/1-0000.mp3",
-          "sha256": "774ea8af2ddf4db4b06ad95d3728b9a8f273faea2c7f19c8e551f705e76074fd",
+          "duration": 40.12408163265306,
+          "file": "Audio/Transport/full_item_lydon-s-toxin-736aa3474d87b8e195d6/1-0000.mp3",
+          "sha256": "ab8551054d8b9aeb0633e379eff01bff2593e261faf354a532f4f0f29e403c7f",
           "start": 0
         }
       ],
@@ -10416,22 +10416,22 @@
           "1"
         ]
       },
-      "fullHash": "fc27cf",
-      "generation": "53f655a6ce78df09a7a0",
-      "hash": "fc27cf",
+      "fullHash": "41251d",
+      "generation": "272b9afa4f77f3000795",
+      "hash": "41251d",
       "source": {
-        "duration": 40.620408,
+        "duration": 40.150204,
         "file": null,
-        "sha256": "65f69d78588d67900f270b518feb52da03a7cc0d5baeed3bfdb8901192d3c433"
+        "sha256": "736aa3474d87b8e195d696c21317e7467d66b2a6c4d5803ba44910fba682c9dc"
       },
-      "text": "Lydon's Toxin. In Tarren Mill, Apothecary Lydon has made a toxin to disrupt Venture Company logging in the Stonetalon Mountains. Horde adventurers carry it to Apothecary Zamah in Thunder Bluff, who must find a way to spread it. Apothecary Lydon made the toxin in the Hillsbrad Foothills to hinder Venture Company loggers in the Stonetalon Mountains. He says it kills on contact and may pass from one target to another.\n\nBefore it can reach the goblins near Windshear Crag, the mixture must cross continents to Thunder Bluff. There, Apothecary Zamah, the Royal Apothecary Society's representative, needs the raw toxin to devise a wide-dispersal device called the Toxic Fogger."
+      "text": "Lydon's Toxin. In Tarren Mill, Apothecary Lydon has made a toxin to disrupt Venture Company logging in the Stonetalon Mountains. Horde adventurers carry it to Apothecary Zamah in Thunder Bluff, who must find a way to spread it. Lydon made his toxin in the Hillsbrad Foothills, a continent away from the loggers it targets. He says it kills on contact and may pass from one target to another.\n\nBefore it can reach the goblins near Windshear Crag, the mixture must cross continents to Thunder Bluff. There, Apothecary Zamah, the Royal Apothecary Society's representative, needs the raw toxin to devise a wide-dispersal device called the Toxic Fogger."
     },
     "item:macgrann-s-dried-meats": {
       "1": [
         {
-          "duration": 42.31836734693878,
-          "file": "Audio/Transport/full_item_macgrann-s-dried-meats-9cfcd70d710b0616f543/1-0000.mp3",
-          "sha256": "0258a76ef1a4d67b2263a163af2778108e65cb9c81d948f9d39e958e0e4d9a61",
+          "duration": 42.292244897959186,
+          "file": "Audio/Transport/full_item_macgrann-s-dried-meats-0eeb1aa9e9d1c424143c/1-0000.mp3",
+          "sha256": "dc4c6a9438e7c6a80f115a74745c95e28e5f2debe9f6a3065bb32c6dfcdffd83",
           "start": 0
         }
       ],
@@ -10443,12 +10443,12 @@
         ]
       },
       "fullHash": "8a71bc",
-      "generation": "dd23ffada5684645152b",
+      "generation": "138d1dbc02708d741fdc",
       "hash": "8a71bc",
       "source": {
-        "duration": 42.34449,
+        "duration": 42.318367,
         "file": null,
-        "sha256": "9cfcd70d710b0616f5437feb3f157e977ea7a95a520c645367114faa4b797acd"
+        "sha256": "0eeb1aa9e9d1c424143c913bbf2d1762c6ed175174b2fa7b122c6fac4f3c4bec"
       },
       "text": "MacGrann's Dried Meats. In Dun Morogh, Old Icebeard has carried off Tundra MacGrann’s winter meat. Tundra MacGrann hunted game and salted it for the winter. He packed weeks of provisions into a sturdy chest inside a thorium meat locker, to keep scavenging bears and prowling predators from his homestead. Yet he never expected an intruder strong enough to carry away the whole chest. Old Icebeard raided MacGrann’s camp while the dwarf tracked deer. The yeti dragged the heavy chest to his den in Chill Breeze Valley. Its solid thorium plating holds, but MacGrann’s injured leg keeps him from making a swift rescue into the cavern. Without help retrieving his cache before winter, the stranded hunter faces starvation in the mountain snows."
     },
@@ -11417,9 +11417,9 @@
     "item:ng-5": {
       "1": [
         {
-          "duration": 32.41795918367347,
-          "file": "Audio/Transport/full_item_ng-5-7bf97e4cb101f24f1c1c/1-0000.mp3",
-          "sha256": "deb704048b65c5fe8e3c6d4b5719f0810938276fe8a98b1dbc8bc73d1923133e",
+          "duration": 31.895510204081635,
+          "file": "Audio/Transport/full_item_ng-5-68585bd09ad77a20a065/1-0000.mp3",
+          "sha256": "0a3ed34779431b38d5386f304304b19c1c88c5c6fb018a1a0db859a5fb789ec0",
           "start": 0
         }
       ],
@@ -11431,12 +11431,12 @@
         ]
       },
       "fullHash": "2825ef",
-      "generation": "06bdc490614bdb883253",
+      "generation": "bd5f7ff86f007ef36cf4",
       "hash": "2825ef",
       "source": {
-        "duration": 32.417959,
+        "duration": 31.921633,
         "file": null,
-        "sha256": "7bf97e4cb101f24f1c1c5c291f1563c3e5fc89ce933d57e8cd3db6c3087504c1"
+        "sha256": "68585bd09ad77a20a065653c88b76f0cb3b839915585810f4c4178f98a50d3db"
       },
       "text": "NG-5. In the Stonetalon Mountains, Gaxim Rustfizzle prepares a distraction with NG-5. The volatile chemical, Nitromirglyceronium, is the ignition compound he needs for wagons loaded with dynamite. Gaxim Rustfizzle is a gnome operative in the Stonetalon Mountains, and NG-5 is the compound he needs for his engineering plans. Its full name is Nitromirglyceronium. The hazardous solution provides the reaction to detonate wagons loaded with dynamite, making a great explosion to distract his adversaries in the region."
     },
@@ -14225,9 +14225,9 @@
     "item:scroll-of-messaging": {
       "1": [
         {
-          "duration": 25.417142857142856,
-          "file": "Audio/Transport/full_item_scroll-of-messaging-75ba987c22a4ea17f2d6/1-0000.mp3",
-          "sha256": "61969845f3744eacae50a942036e0fb8a397a315cf8e77eb65ccdef531384310",
+          "duration": 25.364897959183676,
+          "file": "Audio/Transport/full_item_scroll-of-messaging-d91b510f50dc8b82ce2b/1-0000.mp3",
+          "sha256": "a5a00c08877dc209502ee311327256ce73be1ce35ef9f90f0164b88ee3d4abe3",
           "start": 0
         }
       ],
@@ -14239,12 +14239,12 @@
         ]
       },
       "fullHash": "858812",
-      "generation": "193e40a4085680bff3f9",
+      "generation": "7fb2bfc4bd770de74694",
       "hash": "858812",
       "source": {
-        "duration": 25.443265,
+        "duration": 25.39102,
         "file": null,
-        "sha256": "75ba987c22a4ea17f2d66a899f7364f787c9853ce622b505cf3e6e3b65ed09a6"
+        "sha256": "d91b510f50dc8b82ce2bae9245e1af2193fee0f467acfc15481b6be7d64eedf6"
       },
       "text": "Scroll of Messaging. In Stonetalon, Gaxim Rustfizzle prepares to send a message that will set off explosives from afar. At the Venture Company's logging operation, Gaxim Rustfizzle will turn a message into a blast. He plans to join the scroll's transmission incantation with volatile NG-5 charges. The explosion will draw the guards away. Then operatives can slip past and steal engineering schematics and confidential correspondence."
     },
@@ -14329,9 +14329,9 @@
     "item:sealed-envelope": {
       "1": [
         {
-          "duration": 45.4530612244898,
-          "file": "Audio/Transport/full_item_sealed-envelope-92433dc2661a91917634/1-0000.mp3",
-          "sha256": "e7e2a5cec516eb49c3449464171500e0d0c91390558eb09637c8676101078dbc",
+          "duration": 46.158367346938775,
+          "file": "Audio/Transport/full_item_sealed-envelope-f58686398013d1c82569/1-0000.mp3",
+          "sha256": "0df2851220a35c5a7195d2b00bb871daeb425eb97c4f2979419aba0d4fb03ffd",
           "start": 0
         }
       ],
@@ -14343,12 +14343,12 @@
         ]
       },
       "fullHash": "d728ae",
-      "generation": "32cf9b16af21ec7e5c90",
+      "generation": "0c5282e6bc9a1dd8c613",
       "hash": "d728ae",
       "source": {
-        "duration": 45.453061,
+        "duration": 46.158367,
         "file": null,
-        "sha256": "92433dc2661a91917634c7922c79a5161e1f36622be0351fa576956be4b2b6db"
+        "sha256": "f58686398013d1c825698dda0b13a678c1e83121e51ab486de4b3baba81ab3d0"
       },
       "text": "Sealed Envelope. In Stonetalon, Fizziks has sealed Venture Company secrets in the Sealed Envelope for Sputtervalve in Ratchet. Cast out of the Venture Company's logging operations in the Stonetalon Mountains, goblin engineer Fizziks smuggled away its secrets. Inside the envelope are company manuals, operating procedures, and technical plans. Among them are schematics for the Super Reaper 6000, a machine built for industrial clear-cutting. Fizziks sends the documents south to Sputtervalve, an engineer in Ratchet's neutral goblin port. The Steamwheedle Cartel's rivals have little love or trust for Fizziks. Yet the designs hold clear engineering value. They reveal the Venture Company's mechanical skill and give independent engineers a chance to use its advanced logging methods."
     },
@@ -15733,9 +15733,9 @@
     "item:stonetalon-sap": {
       "1": [
         {
-          "duration": 12.06857142857143,
-          "file": "Audio/Transport/full_item_stonetalon-sap-a7f961a74b12303d6a77/1-0000.mp3",
-          "sha256": "c6221f6486c411d5fba422855e0d7e976ffa7fc5cbde91391b41cc15474b86d0",
+          "duration": 11.467755102040817,
+          "file": "Audio/Transport/full_item_stonetalon-sap-2dbbdf7deabbf90c045c/1-0000.mp3",
+          "sha256": "125f35a13355998facfdb609133e293e151908ce873f4838d4d1f1d3f2e53177",
           "start": 0
         }
       ],
@@ -15747,12 +15747,12 @@
         ]
       },
       "fullHash": "a68427",
-      "generation": "e78746f35753b217bd8a",
+      "generation": "598c0cb12c60a3f3a3d4",
       "hash": "a68427",
       "source": {
-        "duration": 12.094694,
+        "duration": 11.493878,
         "file": null,
-        "sha256": "a7f961a74b12303d6a77e41574a254488026c2cf9770d19a86a39adfa5176b73"
+        "sha256": "2dbbdf7deabbf90c045c00a856283c6b27b79a875727ee02be72f836ec68f107"
       },
       "text": "Stonetalon Sap. Near Mirkfallon Lake and Stonetalon Peak, sap beasts carry Stonetalon Sap. Jin'Zil, the Darkspear witch doctor, seeks it for a brew meant for his caged night elf prisoners."
     },
@@ -16019,9 +16019,9 @@
     "item:super-reaper-6000-blueprints": {
       "1": [
         {
-          "duration": 41.717551020408166,
-          "file": "Audio/Transport/full_item_super-reaper-6000-blueprints-0ded550fbc010a679fef/1-0000.mp3",
-          "sha256": "cb160b10f0cc956d25b66fd669447457e2d35dbcb765a6f9ba035b539cc2984b",
+          "duration": 43.15428571428571,
+          "file": "Audio/Transport/full_item_super-reaper-6000-blueprints-41a15a16c804f63ced4e/1-0000.mp3",
+          "sha256": "bcda4ace450fd8616f00cf468621e180b9ef917776a64b22d5f3bc31c9520e6a",
           "start": 0
         }
       ],
@@ -16033,12 +16033,12 @@
         ]
       },
       "fullHash": "70eeab",
-      "generation": "9745f37f6bf412efe639",
+      "generation": "ba76ce57cb952bd3ae0e",
       "hash": "70eeab",
       "source": {
-        "duration": 41.743673,
+        "duration": 43.180408,
         "file": null,
-        "sha256": "0ded550fbc010a679fef8925b89c3b73328eb2d6a28092e80ae694bf0547fd77"
+        "sha256": "41a15a16c804f63ced4ebaf483bb04064153b774c34ad342c70f8048b4a1c6fc"
       },
       "text": "Super Reaper 6000 Blueprints. In Windshear Crag, goblin rivals covet the Venture Company’s Super Reaper 6000 Blueprints. They show how to build the mechanized woodcutter deployed in Stonetalon Mountains, under gnome engineer Gerenzo Wrenchwhistle’s supervision. Venture Company operators carry the Super Reaper 6000 Blueprints through Windshear Crag. The plans show how to build the great mechanized lumber harvesters behind the company’s clear-cutting. Goblin engineers resent that Gerenzo, a gnome, was put in charge of the design. After the company ousted goblin engineer Ziz Fizziks, Sputtervalve hired him to steal the plans. Yet Gerenzo’s dense, eccentric notes are nearly as hard to decipher as the blueprints are to seize by force."
     },
@@ -17371,9 +17371,9 @@
     "item:toxic-fogger": {
       "1": [
         {
-          "duration": 39.96734693877551,
-          "file": "Audio/Transport/full_item_toxic-fogger-776e9088c7715afc3b7f/1-0000.mp3",
-          "sha256": "98ce1daaf1b513c3ba66856045604338ae24bb734cb8ebaf23fc3f7f69ef470a",
+          "duration": 39.13142857142857,
+          "file": "Audio/Transport/full_item_toxic-fogger-c0d4cfc632d1c7d12013/1-0000.mp3",
+          "sha256": "c4fedf5722eef61555e8d26f9ec2ed3b5491ee462e9fed18da2a6923c125f6bd",
           "start": 0
         }
       ],
@@ -17385,12 +17385,12 @@
         ]
       },
       "fullHash": "57d30d",
-      "generation": "f7a0054ae5aa641f1049",
+      "generation": "cc8e3b00c83780340355",
       "hash": "57d30d",
       "source": {
-        "duration": 39.993469,
+        "duration": 39.157551,
         "file": null,
-        "sha256": "776e9088c7715afc3b7fe5a4a39ae44d96873090fdf93362a8ae4cfe27022a41"
+        "sha256": "c0d4cfc632d1c7d12013006fa256369672d51a38d3b3b3c0276c33a0c988df77"
       },
       "text": "Toxic Fogger. In Stonetalon, the Toxic Fogger is bound for Venture Company air routes. The Forsaken Royal Apothecary Society filled it with lethal poison to contaminate the company’s flights. Apothecary Zamah sends the Toxic Fogger against the Venture Company's mining work. Apothecary Lydon brewed its toxin in Tarren Mill, and Zamah sent it from Thunder Bluff. She suspects the goblins carry messages and light cargo between Stonetalon and their headquarters by courier flying machine.\n\nZamah plans to release the poison where those machines land and refuel. The Forsaken mean to strike the company's supply route instead of meeting its mercenary crews in drawn-out skirmishes."
     },
@@ -17553,9 +17553,9 @@
     "item:twilight-whisker": {
       "1": [
         {
-          "duration": 35.42204081632653,
-          "file": "Audio/Transport/full_item_twilight-whisker-b23e732fe77cc06c270e/1-0000.mp3",
-          "sha256": "0774c20b88fa99312c1af22a0f286b4fb3b89c8b0d504bbd99b4a71b7d9b0ded",
+          "duration": 36.38857142857143,
+          "file": "Audio/Transport/full_item_twilight-whisker-652dfc330e110a3d1fdc/1-0000.mp3",
+          "sha256": "db267a8ad81682f5ab8b000febffb15373c76f56988099ebfd981cc280b38695",
           "start": 0
         }
       ],
@@ -17567,12 +17567,12 @@
         ]
       },
       "fullHash": "1255d1",
-      "generation": "c6b5f019cdcffcd09593",
+      "generation": "65829444759c84c5f29b",
       "hash": "1255d1",
       "source": {
-        "duration": 35.448163,
+        "duration": 36.414694,
         "file": null,
-        "sha256": "b23e732fe77cc06c270e4281e91f523565a5cb92b36fd4dd1409f3e52bb78ae2"
+        "sha256": "652dfc330e110a3d1fdc86d5a527f13005668d6f0987af939ebf13da04c4409e"
       },
       "text": "Twilight Whisker. In Malaka'jin, Witch Doctor Jin'Zil gathers Twilight Whisker for his brew. Twilight runners carry the whiskers through the northern heights of the Stonetalon Mountains. Twilight runners prowl the high crags near Stonetalon Peak. Hunters prize their pelts, while Witch Doctor Jin'Zil of Malaka'jin seeks their stiff whiskers for a darker purpose. He seeks vengeance on the night elves captured after defending these woodlands. To mock and poison his captives, Jin'Zil gathers resinous sap, countless eyes, fey dragon scales, and Twilight Whisker for a lethal draught he calls forest magic."
     },
@@ -17683,9 +17683,9 @@
     "item:unidentified-ore": {
       "1": [
         {
-          "duration": 42.34448979591837,
-          "file": "Audio/Transport/full_item_unidentified-ore-6524b8f4246b270564ed/1-0000.mp3",
-          "sha256": "5e1ed5e342f31c3840d58baf0bb27ace399a64061aee459b0f9e21622072e27e",
+          "duration": 42.42285714285715,
+          "file": "Audio/Transport/full_item_unidentified-ore-f529cfd6b11c11ed7897/1-0000.mp3",
+          "sha256": "cc9c5b56cdada6a08125a9c1a7a76b43751c1da5543cb3fcf8ded46546309ac4",
           "start": 0
         }
       ],
@@ -17697,12 +17697,12 @@
         ]
       },
       "fullHash": "85190d",
-      "generation": "ff8bb883a6250dc8cac3",
+      "generation": "b6df3e99427abf8677ce",
       "hash": "85190d",
       "source": {
-        "duration": 42.370612,
+        "duration": 42.422857,
         "file": null,
-        "sha256": "6524b8f4246b270564edb5913c28ca4a9ccd1c66e97345fa1a96bd60c7ad8318"
+        "sha256": "f529cfd6b11c11ed7897eff55ebc5f8edbb90006a7434d5366e42f9d02629a8b"
       },
       "text": "Unidentified Ore. At Windshear Crag, Unidentified Ore has drawn the Venture Company's attention. Piznik recovered a sample and gave it to Ziz Fizziks for study in Undermine. The Venture Company has exposed unusual mineral strata in the Stonetalon Mountains through clear-cutting and strip mining at Windshear Crag. Its new boss, Gerenzo Wrenchwhistle, ordered large amounts of strange gold-green ore mined.\n\nDemoted goblin worker Piznik stayed loyal to his fired former boss, Ziz Fizziks. He secured a sample while planning his escape from the outfit, then gave it to a traveler bound for the crag's western ridge. Ziz plans to send most of the ore to Undermine for study and keep a small cut for himself."
     },
@@ -18125,9 +18125,9 @@
     "item:vial-of-innocent-blood": {
       "1": [
         {
-          "duration": 34.63836734693878,
-          "file": "Audio/Transport/full_item_vial-of-innocent-blood-aea3a60448040cff43a0/1-0000.mp3",
-          "sha256": "7748b149f6a2855d922f95ee585cd58df1f34f476a3881f36c3944fac6102d0f",
+          "duration": 33.071020408163264,
+          "file": "Audio/Transport/full_item_vial-of-innocent-blood-a8491698d50a7b069b59/1-0000.mp3",
+          "sha256": "1fc749ae9c1473cce9dfbd6f189b7fb42a4cc9f8131b113c020215af53b70385",
           "start": 0
         }
       ],
@@ -18139,12 +18139,12 @@
         ]
       },
       "fullHash": "f77ec3",
-      "generation": "a49dcae15d046cdf283c",
+      "generation": "3057a829785ba59e5b81",
       "hash": "f77ec3",
       "source": {
-        "duration": 34.66449,
+        "duration": 33.097143,
         "file": null,
-        "sha256": "aea3a60448040cff43a0ad80277a921954bb6547a1ca21b967225a40404270c5"
+        "sha256": "a8491698d50a7b069b59eb8c8b34e27856047f2640ee28faeefa8f73ec7e75b4"
       },
       "text": "Vial of Innocent Blood. In the ruins of Durnholde Keep, Syndicate shadow mages gather Vial of Innocent Blood. The Royal Apothecary Society in Tarren Mill seeks it as a catalyst for experimental toxins. Syndicate shadow mages gather innocent blood among the ruins of Durnholde Keep. The Syndicate's fallen human nobles practice dark arts within the crumbled walls. In Tarren Mill, Apothecary Lydon seeks untainted blood for an experimental pacifying agent. He plans to use it against the Venture Company in Stonetalon Mountains, and the Syndicate's stores offer a convenient source."
     },
@@ -19191,9 +19191,9 @@
     "item:zamah-s-note": {
       "1": [
         {
-          "duration": 54.36081632653062,
-          "file": "Audio/Transport/full_item_zamah-s-note-f136aff781703512ed9d/1-0000.mp3",
-          "sha256": "afbd96fa4fcc67edafe2aaff305d53cf0d04ea6b9926b063cd212ff85d99a906",
+          "duration": 52.244897959183675,
+          "file": "Audio/Transport/full_item_zamah-s-note-adac982b8d54969e7ea6/1-0000.mp3",
+          "sha256": "3dc37251676e9d9b0f2316edbe4c0103fea0a7167b9b36d73aed1a4a81c4769a",
           "start": 0
         }
       ],
@@ -19205,12 +19205,12 @@
         ]
       },
       "fullHash": "2ce4cd",
-      "generation": "b63023ceca1962c03f95",
+      "generation": "33b13bf43e3320545d62",
       "hash": "2ce4cd",
       "source": {
-        "duration": 54.386939,
+        "duration": 52.27102,
         "file": null,
-        "sha256": "f136aff781703512ed9da69e4a7bb6529004bef817826f2a24a8ae0c2a3384ae"
+        "sha256": "adac982b8d54969e7ea648ea3abe9e5d319fcf71f5e263cd03a6228d7b4a3782"
       },
       "text": "Zamah's Note. In Thunder Bluff, Zamah sends an urgent plea to Tarren Mill. She asks Apothecary Lydon for an alchemical way to drive the Venture Company from Stonetalon without bloodshed. The Venture Company has dug deep into the Stonetalon Mountains. Its goblins fell trees and tear up sacred land, so Zamah seeks a way to drive them out without slaughter. She turns to the Forsaken Royal Apothecary Society for help. Her note warns her colleague Apothecary Lydon of the danger in Stonetalon. Lydon is far away in Tarren Mill, in the Hillsbrad Foothills of Lordaeron. The sealed note must cross continents to reach Lydon. Travelers from Kalimdor take a zeppelin to the Undercity, then go south through Silverpine Forest into Hillsbrad. Word from across the ocean intrigues Lydon, and he prepares an alchemical answer to the goblin problem."
     },
@@ -19318,12 +19318,6 @@
       1227,
       1391
     ],
-    "0258a76ef1a4d67b2263a163af2778108e65cb9c81d948f9d39e958e0e4d9a61": [
-      210,
-      819,
-      978,
-      1125
-    ],
     "027f0c0c0076f83e5f7fcc022cd6fd114aef03a0468e25786e96290a94781198": [
       330,
       471,
@@ -19393,6 +19387,16 @@
       778,
       949
     ],
+    "06ce0f8d89cc9f627a539707335f95f483cca59f3a4981ba85915aa8aae69a59": [
+      194,
+      434,
+      619,
+      880,
+      1089,
+      1265,
+      1592,
+      1740
+    ],
     "06cf7c519bd5e1e41642b990954d00dac045ef59cc3a00062d0d0c5788feb5d1": [
       306,
       621,
@@ -19409,11 +19413,14 @@
       685,
       877
     ],
-    "0774c20b88fa99312c1af22a0f286b4fb3b89c8b0d504bbd99b4a71b7d9b0ded": [
-      186,
-      379,
-      525,
-      940
+    "078f68f12a410d1383ae16d0cc6e8c221d9cfea7e53cc5d16e27950a288937a1": [
+      249,
+      418,
+      588,
+      1312,
+      1541,
+      1748,
+      1931
     ],
     "07ab9070c978009ea3955859fa08bca73e295fdfb0918ebb22e01d379bbc735f": [
       243,
@@ -19460,6 +19467,10 @@
       984,
       1233,
       1401
+    ],
+    "0a3ed34779431b38d5386f304304b19c1c88c5c6fb018a1a0db859a5fb789ec0": [
+      494,
+      790
     ],
     "0adaaca4254b7d122c9c7aece27beaadd90f7656f6b464a49ccbda1bd79b3af5": [
       250,
@@ -19536,11 +19547,13 @@
       868,
       1169
     ],
-    "0d65b1ec079d0a111992b4cb8c911a13c1440b55188a1ac6b78871ff8bc3e9fb": [
-      291,
-      447,
-      721,
-      885
+    "0df2851220a35c5a7195d2b00bb871daeb425eb97c4f2979419aba0d4fb03ffd": [
+      266,
+      544,
+      719,
+      957,
+      1200,
+      1359
     ],
     "0e46f605279280b6fe96cc9440f8b48ce6749055c53b49293aea03478f58222d": [
       260,
@@ -19621,6 +19634,9 @@
       975,
       1123,
       1442
+    ],
+    "125f35a13355998facfdb609133e293e151908ce873f4838d4d1f1d3f2e53177": [
+      208
     ],
     "130041919b4694b6b8c9cd1fdba9e71e39d3e093cec431c0d6c0a823b0649d45": [
       342,
@@ -19728,14 +19744,6 @@
       1330,
       1500
     ],
-    "170971503aae8601f2125ebec3a0bacdc340cff6b45f51134746390a1dc75364": [
-      186,
-      453,
-      725,
-      969,
-      1142,
-      1395
-    ],
     "17111fdc24727b988462e4f5d9c89c8116c66123532d29508717cff8c674a329": [
       390,
       533,
@@ -19757,6 +19765,12 @@
     ],
     "18822974ed1c72faea52ba5de91ea9f555b73998f925029141d608566b0706b2": [
       152
+    ],
+    "1882c58df9de6eda56094655b788fbad91d96721e848ebdc73ea2595b1a5f784": [
+      236,
+      424,
+      850,
+      1085
     ],
     "18a681d97d02b65f41f4c723a8216e2ae06122dd5422c7aceb7d7190b50ffbd0": [
       253,
@@ -19975,6 +19989,13 @@
       549,
       848
     ],
+    "1fc749ae9c1473cce9dfbd6f189b7fb42a4cc9f8131b113c020215af53b70385": [
+      200,
+      425,
+      608,
+      784,
+      1007
+    ],
     "1fcddde72cde6d8d53ed7159aeb004538def89a4ee3a7375e84c3e824a842d8d": [
       239,
       398,
@@ -20061,13 +20082,6 @@
       1594,
       1734
     ],
-    "21d4cb5d567bac9855aea98806b1170a2717bb81fa0c2cec065109a42d083286": [
-      253,
-      464,
-      823,
-      1029,
-      1290
-    ],
     "22d797bc85719502d52d895736e247398497b09467fdb857a3da53aa7254cc37": [
       430
     ],
@@ -20107,6 +20121,11 @@
       417,
       685
     ],
+    "251b0902542d67884df4d7d38f0cdaa4ad3797e32e6ec8fd92318c8878af7bcc": [
+      349,
+      545,
+      914
+    ],
     "25280a994c32b17393c5de6cbbbf5e6ca07098cb1def14ecc6f0263ab7316b82": [
       291,
       481,
@@ -20130,11 +20149,6 @@
       898,
       1185,
       1447
-    ],
-    "25c147b066abc1e08e10713c58328605d6394c484d60641fec3e08d00d28fbfd": [
-      203,
-      403,
-      559
     ],
     "2635c1a2d5b3fd33b1c1760f65746c22cce65ee6636bbfc583dad1fd9f677578": [
       328,
@@ -20281,10 +20295,6 @@
       1207,
       1372
     ],
-    "2d0496cf794876664e48bb649aef68424a74e697aa34bf45a15afe828ad5c0be": [
-      237,
-      861
-    ],
     "2d792b428cdc455b20ff896a1cb846c84222e953d4bb056fd1c07e9e46e5bf91": [
       542,
       851
@@ -20389,13 +20399,6 @@
       543,
       1165
     ],
-    "334d597bf9d34bb8ea65e8ec9ff294ec32af55fc7a7d09e48f480848465aa8c5": [
-      191,
-      356,
-      559,
-      802,
-      1102
-    ],
     "33ea39f9d6a0e701f88220c307900b70ac7c795f5d14238f518fa8f9420bd504": [
       162,
       361,
@@ -20418,13 +20421,6 @@
       1286,
       1574,
       1821
-    ],
-    "349569f1ff6a8e10b7c4975a7c38a0231deb0df4fb4b3547db6d07eaf6934eab": [
-      218,
-      439,
-      686,
-      867,
-      1031
     ],
     "34e677fc218993c59fd94080adae555d9155842573109c90cbe9829fd7fbdf5e": [
       341,
@@ -20580,6 +20576,16 @@
       1034,
       1175
     ],
+    "3dc37251676e9d9b0f2316edbe4c0103fea0a7167b9b36d73aed1a4a81c4769a": [
+      162,
+      421,
+      571,
+      827,
+      980,
+      1148,
+      1351,
+      1748
+    ],
     "3dcf1180e4565fa320ba24e68a2bedd7afdf033ddc90168ebe8b8cec52698c85": [
       293,
       593,
@@ -20639,15 +20645,6 @@
     "416b89c03e30140080870021b5df15387c72402589672f54787688990f0e6de0": [
       520,
       914
-    ],
-    "41758159c7768ff31d877b9e2378c8a709578e3407888cb4a377d9f9bbab217d": [
-      172,
-      407,
-      581,
-      845,
-      1059,
-      1230,
-      1554
     ],
     "42a32001c35620dda9728f5a0a3ecaa1187473c7a0cc731ce2c2d533b78d29b9": [
       190,
@@ -20739,6 +20736,12 @@
       1444,
       1665,
       1801
+    ],
+    "478e139e62bee43f070e0144ff5514169364a3f0c3d158b40efc15d96ab618a6": [
+      213,
+      440,
+      638,
+      816
     ],
     "481fa85273d23b1890c75e703d88e4ae444d62c2064896c36953b064ff8c68d8": [
       237,
@@ -20920,17 +20923,6 @@
       766,
       927
     ],
-    "4fb7eacc2f6b8bbe55d337116240beae5eed0f9909ee0bbca22c42971c37e25e": [
-      191,
-      475,
-      617,
-      813,
-      1086,
-      1240,
-      1410,
-      1639,
-      1904
-    ],
     "4fbb42f1fd9426a22c18fe102a9d53c2ada4b0d372a45c3abb2eeca1cbeb8b64": [
       169,
       554,
@@ -20958,6 +20950,13 @@
     ],
     "506ea59d2bdf8be5570cf96cd3c2bb54b4174a745de4743de7b807bae44af6bf": [
       478
+    ],
+    "508212442de3f51afe238ef9dffc280a481d6ec87946afa3156dfccb3d4d9954": [
+      210,
+      428,
+      595,
+      852,
+      1008
     ],
     "5084f5c6d5d008662c49fc642bd63b64e972ab945cc8d30fef9051503b2fd2c1": [
       200,
@@ -21040,6 +21039,14 @@
       739,
       957
     ],
+    "53ee19f85b44bbc168e968684aaed4d5d6ef7d8ea051a27c424700022eb9036f": [
+      203,
+      503,
+      657,
+      1163,
+      1529,
+      1743
+    ],
     "542ce4f0e11fcf473c0d1d138781f89931594c7a0b8d4fd66e48922781fb4ef5": [
       185,
       343,
@@ -21087,18 +21094,6 @@
       402,
       641,
       861
-    ],
-    "5613aedbf518da73b3fd4b3b01d268a8fbd3b2c536b3e154e6315c54ec9b0ab7": [
-      220,
-      408,
-      633,
-      830,
-      1021,
-      1163,
-      1327,
-      1527,
-      1790,
-      2055
     ],
     "567015383560b4295b685364ec603d2bb2478b7c2ada14717a2e737b0b1c2d7b": [
       404,
@@ -21243,12 +21238,6 @@
       757,
       989
     ],
-    "5e1ed5e342f31c3840d58baf0bb27ace399a64061aee459b0f9e21622072e27e": [
-      205,
-      379,
-      932,
-      1409
-    ],
     "5e6900f99076ec1758764ed3c96e01aa3587e5a818975b7f18b3ee629643b7b2": [
       226,
       446,
@@ -21284,14 +21273,6 @@
       270,
       407,
       652
-    ],
-    "604fb2024f4fb9d1a2e129bd284f6dfa6c9ae71801d61adaf376324d189e1e4e": [
-      270,
-      461,
-      768,
-      1129,
-      1296,
-      1453
     ],
     "60963da271346d53a8c2ef064764e9d03ce56ed15842f2698b126a203dd66476": [
       372,
@@ -21333,11 +21314,6 @@
       1250,
       1405,
       1554
-    ],
-    "61969845f3744eacae50a942036e0fb8a397a315cf8e77eb65ccdef531384310": [
-      254,
-      463,
-      676
     ],
     "6199481b34b64006f4648c221dc55f9b7c1f432d03ff757cf3449a47b1a1e35c": [
       214,
@@ -21793,21 +21769,6 @@
     "7740874820ad07533f94575d42a402313d7ce2cdbb93d77ada3efab839eca7cb": [
       457
     ],
-    "7748b149f6a2855d922f95ee585cd58df1f34f476a3881f36c3944fac6102d0f": [
-      217,
-      472,
-      659,
-      842,
-      1053
-    ],
-    "774ea8af2ddf4db4b06ad95d3728b9a8f273faea2c7f19c8e551f705e76074fd": [
-      276,
-      507,
-      756,
-      926,
-      1170,
-      1351
-    ],
     "7775129d80266bf873ce08fbc4a26d9e9c47f3d39391f31f4195c16311624a09": [
       229,
       441,
@@ -21823,14 +21784,6 @@
       541,
       1051,
       1358
-    ],
-    "77e5fe57d87456e9daa3179f0696a3f83d863c11b84acdae2e7eff8bdaf157f5": [
-      250,
-      534,
-      755,
-      899,
-      1159,
-      1472
     ],
     "781e8975f409f899bc293ce12f954605791a3d0726c91618f3512173f111398b": [
       309,
@@ -21894,6 +21847,14 @@
       966,
       1122,
       1301
+    ],
+    "7a83dfc0fa640284ee7df3f9b89a60ef5f1a87552df624d2a24bb53b85e9974c": [
+      259,
+      511,
+      645,
+      872,
+      1123,
+      1433
     ],
     "7a9de8d8f3b1a4a43812738abb32a33f7a19e33ddf37c633b5c939c97b04ea71": [
       311,
@@ -22047,6 +22008,15 @@
       1468,
       1713
     ],
+    "7f0eba63121cc6c6515b0e56c5e2362eb1d41a0ce6d33d5e36a7ec96a458fed7": [
+      280,
+      481,
+      807,
+      944,
+      1147,
+      1318,
+      1478
+    ],
     "805170541aa0f809e28973deeca5994dff508f590e58b95f92d591695523cb1a": [
       244,
       395,
@@ -22056,6 +22026,13 @@
     ],
     "806e202a56e82100c0bb7f9a4f1a5e7c6d75c288560cd87cfc4eefb5606e7008": [
       437
+    ],
+    "807a2b560d3c45d4532158329e375c27ea3a4014f9e77496c3f3e8d221e9cdcf": [
+      214,
+      457,
+      640,
+      931,
+      1407
     ],
     "80a01d2d5d0f46323050ab12a5a72ea13d4802da22086323815392c17c4c2b28": [
       232,
@@ -22197,6 +22174,14 @@
     ],
     "85063362718692ba48b0e62e8058095e81b115777d21fa00ad6cf0dc990560b2": [
       589
+    ],
+    "850fbf0d18c59aa87edcc60143d2b61ece35edac8da4d249b36fa2860b066b46": [
+      242,
+      450,
+      592,
+      831,
+      1061,
+      1312
     ],
     "8572803c5594741b0e52521910d7ef856400421e869668c75676a0a2fd4702d3": [
       299,
@@ -22624,15 +22609,6 @@
       1290,
       1532
     ],
-    "96b610e0de325980214487213e10b55aa928966cd835b6923d7ff8d42f808b92": [
-      271,
-      457,
-      628,
-      1067,
-      1392,
-      1611,
-      2017
-    ],
     "97499d8dd4bde1a5661cb8a11a26011acfaf523b29d9cb521ea3e764e399d690": [
       349,
       1040,
@@ -22671,14 +22647,6 @@
       1523,
       1911,
       2080
-    ],
-    "98ce1daaf1b513c3ba66856045604338ae24bb734cb8ebaf23fc3f7f69ef470a": [
-      182,
-      436,
-      629,
-      850,
-      1130,
-      1293
     ],
     "9985b0f7131af4fbf2c713c93242e724497c0de886bf033f4ddc4ede2e2c668d": [
       220,
@@ -22953,6 +22921,11 @@
       848,
       1024
     ],
+    "a5a00c08877dc209502ee311327256ce73be1ce35ef9f90f0164b88ee3d4abe3": [
+      251,
+      472,
+      677
+    ],
     "a5cff76fa35c3da22877ab9cba76b048c7ec563fbba7938bcafd052383421df1": [
       188,
       358,
@@ -22969,12 +22942,6 @@
       353,
       555,
       786
-    ],
-    "a6317698d9cab5652132a141665310e99394687ee4ae421b4b7b78cf94ac2a10": [
-      202,
-      393,
-      655,
-      934
     ],
     "a631920413be225005bb636eabff10569eb198100b8a61f8dbf79d75677a56f9": [
       448
@@ -23023,12 +22990,6 @@
       1131,
       1265
     ],
-    "a900e72da9e143dfbb79c16c77d68125352905094718fb443ed8321dfeb05d46": [
-      185,
-      397,
-      602,
-      779
-    ],
     "a90ea62cd18b1ca449fe902326e1bb673866095579e6502df2e2e7461cc585ae": [
       306,
       504,
@@ -23060,6 +23021,12 @@
       851,
       1025
     ],
+    "aa80b5dc29ed5199b0219ffe172bf2f1a3710bc1ffc9e9c4c7fe089d9c2d6d66": [
+      264,
+      421,
+      682,
+      831
+    ],
     "aaa810c5a3423e901acfd793e36f2dfbccd3095fba99a854c6ba2d038fa4b12a": [
       214,
       376,
@@ -23084,6 +23051,13 @@
       414,
       624,
       847
+    ],
+    "ab8551054d8b9aeb0633e379eff01bff2593e261faf354a532f4f0f29e403c7f": [
+      278,
+      514,
+      746,
+      931,
+      1158
     ],
     "abba6c0f21f859d74ee98549ee7b52bfffeca9e3dc31e82d0070e036ade7ebe8": [
       430,
@@ -23146,17 +23120,6 @@
       306,
       513,
       722
-    ],
-    "afbd96fa4fcc67edafe2aaff305d53cf0d04ea6b9926b063cd212ff85d99a906": [
-      173,
-      460,
-      609,
-      896,
-      1053,
-      1237,
-      1438,
-      1582,
-      1847
     ],
     "afd41000cc17109a71bd90e01b4f93fadd02576fe79a524dcabf41a6d8165825": [
       218,
@@ -23451,6 +23414,14 @@
       1238,
       1499
     ],
+    "bcda4ace450fd8616f00cf468621e180b9ef917776a64b22d5f3bc31c9520e6a": [
+      234,
+      544,
+      753,
+      958,
+      1156,
+      1403
+    ],
     "bd2fbb289d679c0bdb0d7d3f12083e11ef75790f0c4c4b0fd943402e0a170ef5": [
       337,
       583,
@@ -23593,6 +23564,12 @@
       481,
       673
     ],
+    "c4fedf5722eef61555e8d26f9ec2ed3b5491ee462e9fed18da2a6923c125f6bd": [
+      187,
+      426,
+      1092,
+      1251
+    ],
     "c5be83d4cc94461c402e1168b1046500570923dcf35e26b84ee1300e72cd4fbf": [
       205,
       402,
@@ -23672,13 +23649,6 @@
       580,
       720
     ],
-    "cb160b10f0cc956d25b66fd669447457e2d35dbcb765a6f9ba035b539cc2984b": [
-      240,
-      527,
-      727,
-      923,
-      1116
-    ],
     "cb41e2a23508954449c10d3dd0cc392d67c2c0fb4ac92a67dbb334035a3ebb8a": [
       197,
       382,
@@ -23705,6 +23675,15 @@
       993,
       1230
     ],
+    "cc4ceea4ae332d49525f19b31d720d3485752c28d9c89e5e38edd55f51e35f40": [
+      164,
+      334,
+      527,
+      754,
+      1278,
+      1522,
+      1761
+    ],
     "cc5de14d247d661f16e16434e46a32a597bcf6e2afcc5fd052bf0759da4f6246": [
       187,
       431,
@@ -23719,6 +23698,14 @@
     ],
     "cc7b2b1459a895ea50d1678eae03cc7d79f576704cda7ed33996b1d802ee673a": [
       512
+    ],
+    "cc9c5b56cdada6a08125a9c1a7a76b43751c1da5543cb3fcf8ded46546309ac4": [
+      189,
+      366,
+      670,
+      900,
+      1080,
+      1400
     ],
     "ccfe5e060c0e79c7a0727e85740876c2efa94de355b7fd1a81e1f0fff155c0f3": [
       224,
@@ -23822,17 +23809,6 @@
       606,
       766,
       1057
-    ],
-    "d23b0ebf745afd542df71a5d9b687c5e53aaff476e5b6080a1c1838ea38924d7": [
-      169,
-      334,
-      529,
-      752,
-      888,
-      1081,
-      1296,
-      1432,
-      1807
     ],
     "d346ead7e1d2a8e45ba30edf9c427264f9c115e513a292369b4aafd8df07bac3": [
       222,
@@ -23989,12 +23965,27 @@
       1037,
       1291
     ],
+    "da8b4b2bdb21385587a775302b5175b612e4dcc4001c943288ada6e2ebf1de72": [
+      196,
+      475,
+      1019,
+      1223,
+      1482,
+      1784
+    ],
     "da9774e66ffe91f41bdbf740ee287fe21d206859e58749225660282af56e22c7": [
       358,
       561,
       782,
       924,
       1079
+    ],
+    "db267a8ad81682f5ab8b000febffb15373c76f56988099ebfd981cc280b38695": [
+      195,
+      391,
+      545,
+      831,
+      994
     ],
     "dbd304d3ea5f0e8d42e2f8707e2002b361563a4dc1983fa51c7584ffa24b9fb2": [
       184,
@@ -24014,6 +24005,13 @@
     "dc086451f293ba6ef1d16c041a54ff1a2f64d3b45958e635719c7e7790ea93bc": [
       671,
       925
+    ],
+    "dc4c6a9438e7c6a80f115a74745c95e28e5f2debe9f6a3065bb32c6dfcdffd83": [
+      195,
+      663,
+      838,
+      994,
+      1133
     ],
     "dc7388ddecc5bc85aef50fafb9c6ea1fcd23dd13b531cae76c1e31a0832a3a16": [
       230,
@@ -24088,10 +24086,6 @@
       989,
       1150
     ],
-    "deb704048b65c5fe8e3c6d4b5719f0810938276fe8a98b1dbc8bc73d1923133e": [
-      486,
-      802
-    ],
     "debbe1a74740bd77c1a77114536455dd5558ac0fac61bad3cd114e9818d01de9": [
       203,
       411,
@@ -24112,6 +24106,12 @@
       695,
       1019,
       1157
+    ],
+    "dff32628e83cb447e28e3ed7e9be3706f07de2156c0c5e60d448ce58eb55e6d9": [
+      194,
+      389,
+      654,
+      915
     ],
     "e01a9dba2e0cb22109233b9d53fe28e5c3102f7f643e77f9161848f6186a80b6": [
       427,
@@ -24283,13 +24283,6 @@
       647,
       829
     ],
-    "e7e2a5cec516eb49c3449464171500e0d0c91390558eb09637c8676101078dbc": [
-      247,
-      420,
-      972,
-      1205,
-      1364
-    ],
     "e81c82a375728c0f3ba283cd370a9dfba6b8cca2588a7de2746107b3752c1ce8": [
       629,
       897
@@ -24347,6 +24340,12 @@
       590,
       1026,
       1180
+    ],
+    "eb63bf1f7132f13014467aaf0de3b283a8590cab6ff710dafb013ac9e3c0cb48": [
+      220,
+      388,
+      914,
+      1106
     ],
     "eba165b4d1ac46905e37a871839cd7d38f263a7463d78f5e55ed846f29102c92": [
       162,
@@ -24417,6 +24416,18 @@
       749,
       1136
     ],
+    "ef1f2cf093fecc1f96b4ddcab378e081346015806a8e2e3dd00ec0541ed67985": [
+      200,
+      380,
+      608,
+      810,
+      995,
+      1136,
+      1305,
+      1504,
+      1757,
+      2034
+    ],
     "f0563e3296de6af1007d6989533835c38467c121832c06f288aa18a281603446": [
       324,
       529,
@@ -24456,13 +24467,6 @@
     ],
     "f1e8d91a364accd8bd7b0d89e36b9771dff2bc906b957536197d202677b27aa0": [
       511
-    ],
-    "f202ba97ee04a59b35429143ca1d4ccc2e3ed3d125f23b55ad200b1adaa7b89a": [
-      231,
-      395,
-      678,
-      932,
-      1125
     ],
     "f218aa030dbbe4ba73613f6c26f2664c12d69b6206f691e90a2b2f8d6f1e9719": [
       218,
@@ -24699,6 +24703,10 @@
       478,
       641
     ],
+    "fbf08b42a7a03eb687da134299f4652594fe9f07acf8c33766806711340369dd": [
+      199,
+      409
+    ],
     "fc2c0b4c18ab81160d1845d8472e9c3bc6c4b99a3301bfd0dc5549da24f5763c": [
       147,
       362,
@@ -24717,14 +24725,6 @@
       181,
       390,
       535
-    ],
-    "fcf582482f7ff0ccee34c0c6d7e90b318fa8e3fddb8e1ac756ef1373583af237": [
-      215,
-      470,
-      650,
-      817,
-      1065,
-      1423
     ],
     "fd045e8f7331f6c6f78ee56d755b9700bacdd2322e43ca4c3c83352560c8dd61": [
       224,
@@ -24813,10 +24813,6 @@
       "1030": 2,
       "492": 1
     },
-    "0258a76ef1a4d67b2263a163af2778108e65cb9c81d948f9d39e958e0e4d9a61": {
-      "210": 1,
-      "819": 2
-    },
     "027f0c0c0076f83e5f7fcc022cd6fd114aef03a0468e25786e96290a94781198": {
       "330": 1
     },
@@ -24850,6 +24846,10 @@
     "05cf53d0eff9b70978e228ec5fcb9bf2ed345045b3f2b49d75c32d444cf47326": {
       "392": 1
     },
+    "06ce0f8d89cc9f627a539707335f95f483cca59f3a4981ba85915aa8aae69a59": {
+      "1265": 2,
+      "434": 1
+    },
     "06cf7c519bd5e1e41642b990954d00dac045ef59cc3a00062d0d0c5788feb5d1": {
       "1366": 2,
       "621": 1
@@ -24857,8 +24857,9 @@
     "070a1daad9e716d8d501853b9ec39d9150ca511d99e3526afedef5a7b90007e6": {
       "257": 1
     },
-    "0774c20b88fa99312c1af22a0f286b4fb3b89c8b0d504bbd99b4a71b7d9b0ded": {
-      "379": 1
+    "078f68f12a410d1383ae16d0cc6e8c221d9cfea7e53cc5d16e27950a288937a1": {
+      "1312": 2,
+      "418": 1
     },
     "07ab9070c978009ea3955859fa08bca73e295fdfb0918ebb22e01d379bbc735f": {
       "397": 1
@@ -24878,6 +24879,9 @@
     "0a1bfaafc40a630839e889aab9af51fe7c0bed06925a80d25e4cc1e4116bbaef": {
       "1233": 2,
       "430": 1
+    },
+    "0a3ed34779431b38d5386f304304b19c1c88c5c6fb018a1a0db859a5fb789ec0": {
+      "494": 1
     },
     "0adaaca4254b7d122c9c7aece27beaadd90f7656f6b464a49ccbda1bd79b3af5": {
       "1354": 2,
@@ -24913,8 +24917,9 @@
     "0cba22ce3a70dffdcea4308953b3fab838900d0b017a362eda2ddcc401da5d76": {
       "364": 1
     },
-    "0d65b1ec079d0a111992b4cb8c911a13c1440b55188a1ac6b78871ff8bc3e9fb": {
-      "447": 1
+    "0df2851220a35c5a7195d2b00bb871daeb425eb97c4f2979419aba0d4fb03ffd": {
+      "266": 1,
+      "957": 2
     },
     "0e46f605279280b6fe96cc9440f8b48ce6749055c53b49293aea03478f58222d": {
       "260": 1,
@@ -24992,16 +24997,15 @@
       "1330": 2,
       "461": 1
     },
-    "170971503aae8601f2125ebec3a0bacdc340cff6b45f51134746390a1dc75364": {
-      "1142": 2,
-      "453": 1
-    },
     "17111fdc24727b988462e4f5d9c89c8116c66123532d29508717cff8c674a329": {
       "1193": 2,
       "390": 1
     },
     "17b141357755c130310abbafadfbde844fcb58b4b63a4e6c3dab09a7d2d763f8": {
       "355": 1
+    },
+    "1882c58df9de6eda56094655b788fbad91d96721e848ebdc73ea2595b1a5f784": {
+      "236": 1
     },
     "18a681d97d02b65f41f4c723a8216e2ae06122dd5422c7aceb7d7190b50ffbd0": {
       "1535": 2,
@@ -25090,6 +25094,9 @@
     "1fa076152117383e9f4dd1f1dfc1420b766167f6358277a22f6934798b8a3ea0": {
       "410": 1
     },
+    "1fc749ae9c1473cce9dfbd6f189b7fb42a4cc9f8131b113c020215af53b70385": {
+      "425": 1
+    },
     "1fcddde72cde6d8d53ed7159aeb004538def89a4ee3a7375e84c3e824a842d8d": {
       "1073": 2,
       "398": 1
@@ -25127,9 +25134,6 @@
       "1250": 2,
       "389": 1
     },
-    "21d4cb5d567bac9855aea98806b1170a2717bb81fa0c2cec065109a42d083286": {
-      "464": 1
-    },
     "2382186e67fc2a229ae3bead442476437012224d703b3da4a53a9449c1709477": {
       "469": 1
     },
@@ -25146,6 +25150,9 @@
     "24f3514c86ab6fdd22f55d2b4ccf9aa733e0cba9efe3ad030cb3aa0b1be8c8c2": {
       "190": 1
     },
+    "251b0902542d67884df4d7d38f0cdaa4ad3797e32e6ec8fd92318c8878af7bcc": {
+      "349": 1
+    },
     "25280a994c32b17393c5de6cbbbf5e6ca07098cb1def14ecc6f0263ab7316b82": {
       "291": 1
     },
@@ -25155,9 +25162,6 @@
     "254f6c3d70c696c4ca30b1acd2628da45e4e5742109906cb60be595fd4f47565": {
       "1185": 2,
       "445": 1
-    },
-    "25c147b066abc1e08e10713c58328605d6394c484d60641fec3e08d00d28fbfd": {
-      "403": 1
     },
     "2635c1a2d5b3fd33b1c1760f65746c22cce65ee6636bbfc583dad1fd9f677578": {
       "1486": 2,
@@ -25218,9 +25222,6 @@
     "2cfe585de6c5da3635fa71f3fac1bd1e401141613f4c009b51bdd3298883046a": {
       "423": 1
     },
-    "2d0496cf794876664e48bb649aef68424a74e697aa34bf45a15afe828ad5c0be": {
-      "237": 1
-    },
     "2d792b428cdc455b20ff896a1cb846c84222e953d4bb056fd1c07e9e46e5bf91": {
       "542": 1
     },
@@ -25269,9 +25270,6 @@
     "3284619ab5271afff61a5021026890850302d084b6531027ae19955fae80b73d": {
       "543": 1
     },
-    "334d597bf9d34bb8ea65e8ec9ff294ec32af55fc7a7d09e48f480848465aa8c5": {
-      "356": 1
-    },
     "33ea39f9d6a0e701f88220c307900b70ac7c795f5d14238f518fa8f9420bd504": {
       "361": 1
     },
@@ -25281,9 +25279,6 @@
     "34106b25915c7c228fae4d79c85d0983590c7c6ea1e5d6e0ed59278b0221137a": {
       "1286": 2,
       "466": 1
-    },
-    "349569f1ff6a8e10b7c4975a7c38a0231deb0df4fb4b3547db6d07eaf6934eab": {
-      "439": 1
     },
     "34e677fc218993c59fd94080adae555d9155842573109c90cbe9829fd7fbdf5e": {
       "341": 1
@@ -25343,6 +25338,10 @@
     "3da8b02a5ded9b8720134b5819dab52b75ca87a0f4c14ad2754e9209d251262f": {
       "385": 1
     },
+    "3dc37251676e9d9b0f2316edbe4c0103fea0a7167b9b36d73aed1a4a81c4769a": {
+      "1351": 2,
+      "421": 1
+    },
     "3dcf1180e4565fa320ba24e68a2bedd7afdf033ddc90168ebe8b8cec52698c85": {
       "593": 1
     },
@@ -25367,10 +25366,6 @@
     },
     "411f1e2da5d1706042e20fad447d8bf3c78f26c1ec3dfc3e10aa81f236ae8ccc": {
       "256": 1
-    },
-    "41758159c7768ff31d877b9e2378c8a709578e3407888cb4a377d9f9bbab217d": {
-      "1230": 2,
-      "407": 1
     },
     "42a32001c35620dda9728f5a0a3ecaa1187473c7a0cc731ce2c2d533b78d29b9": {
       "1184": 2,
@@ -25408,6 +25403,9 @@
     "47481424af5ebce0d493307b953808cea8b63afff7b0413d0c21b8a341b22019": {
       "1264": 2,
       "474": 1
+    },
+    "478e139e62bee43f070e0144ff5514169364a3f0c3d158b40efc15d96ab618a6": {
+      "440": 1
     },
     "481fa85273d23b1890c75e703d88e4ae444d62c2064896c36953b064ff8c68d8": {
       "436": 1,
@@ -25486,10 +25484,6 @@
     "4fb323a5729a8cd98619292b7844197d34db65298c05715c478a101d1d5ac796": {
       "312": 1
     },
-    "4fb7eacc2f6b8bbe55d337116240beae5eed0f9909ee0bbca22c42971c37e25e": {
-      "1410": 2,
-      "475": 1
-    },
     "4fbb42f1fd9426a22c18fe102a9d53c2ada4b0d372a45c3abb2eeca1cbeb8b64": {
       "554": 1
     },
@@ -25499,6 +25493,9 @@
     "5021a3df6af20d3cabb9e8efeb257c200eca82006b5fca691dd1065b31fd042c": {
       "1021": 2,
       "394": 1
+    },
+    "508212442de3f51afe238ef9dffc280a481d6ec87946afa3156dfccb3d4d9954": {
+      "428": 1
     },
     "5084f5c6d5d008662c49fc642bd63b64e972ab945cc8d30fef9051503b2fd2c1": {
       "479": 1
@@ -25537,6 +25534,10 @@
     "538352d83bc7bf9afcc14eded126967cd7087ef3052d1301b8989aaffbd142de": {
       "425": 1
     },
+    "53ee19f85b44bbc168e968684aaed4d5d6ef7d8ea051a27c424700022eb9036f": {
+      "1529": 2,
+      "503": 1
+    },
     "542ce4f0e11fcf473c0d1d138781f89931594c7a0b8d4fd66e48922781fb4ef5": {
       "343": 1
     },
@@ -25554,10 +25555,6 @@
     },
     "55e586765db4bd11f4a19cdca7f778b0a7460279e651709b59cc0b1ed883983b": {
       "402": 1
-    },
-    "5613aedbf518da73b3fd4b3b01d268a8fbd3b2c536b3e154e6315c54ec9b0ab7": {
-      "1527": 2,
-      "408": 1
     },
     "56d7989d588d393b6c41917b9f6b58a10752abf8949093357ec7a3daa1e80854": {
       "1227": 2,
@@ -25616,9 +25613,6 @@
     "5e1e375becfe80732ac1d34cd010c11ebb04cc2b44be2e6e45a1008cef5576a0": {
       "378": 1
     },
-    "5e1ed5e342f31c3840d58baf0bb27ace399a64061aee459b0f9e21622072e27e": {
-      "379": 1
-    },
     "5e6900f99076ec1758764ed3c96e01aa3587e5a818975b7f18b3ee629643b7b2": {
       "446": 1
     },
@@ -25632,10 +25626,6 @@
       "434": 1
     },
     "60354eb9c412c74879ddb605bcbfe5a4a1864e08a07e506bc38d67791de6efb5": {
-      "270": 1
-    },
-    "604fb2024f4fb9d1a2e129bd284f6dfa6c9ae71801d61adaf376324d189e1e4e": {
-      "1129": 2,
       "270": 1
     },
     "60963da271346d53a8c2ef064764e9d03ce56ed15842f2698b126a203dd66476": {
@@ -25654,9 +25644,6 @@
     },
     "61887d4108fc69ac1197522696d2a23f06fba9b522d14e35de3823c872b1a10e": {
       "413": 1
-    },
-    "61969845f3744eacae50a942036e0fb8a397a315cf8e77eb65ccdef531384310": {
-      "254": 1
     },
     "6199481b34b64006f4648c221dc55f9b7c1f432d03ff757cf3449a47b1a1e35c": {
       "409": 1
@@ -25850,22 +25837,12 @@
     "772ac74723d6c766d432029362fecf3ceb14c39da3bc8ecb36859f787caf9816": {
       "371": 1
     },
-    "7748b149f6a2855d922f95ee585cd58df1f34f476a3881f36c3944fac6102d0f": {
-      "472": 1
-    },
-    "774ea8af2ddf4db4b06ad95d3728b9a8f273faea2c7f19c8e551f705e76074fd": {
-      "507": 1
-    },
     "7775129d80266bf873ce08fbc4a26d9e9c47f3d39391f31f4195c16311624a09": {
       "1270": 2,
       "441": 1
     },
     "77b473a9aed222cbbc53f617084a6bb4ba46fac6c50f4a6f61211d3de50dd4b1": {
       "541": 1
-    },
-    "77e5fe57d87456e9daa3179f0696a3f83d863c11b84acdae2e7eff8bdaf157f5": {
-      "1159": 2,
-      "250": 1
     },
     "781e8975f409f899bc293ce12f954605791a3d0726c91618f3512173f111398b": {
       "458": 1
@@ -25893,6 +25870,10 @@
     "7a14d38d09630ecf3644e60a3b171cc525d9606ec71ea214185c712da6b19cba": {
       "1122": 2,
       "369": 1
+    },
+    "7a83dfc0fa640284ee7df3f9b89a60ef5f1a87552df624d2a24bb53b85e9974c": {
+      "1123": 2,
+      "259": 1
     },
     "7a9de8d8f3b1a4a43812738abb32a33f7a19e33ddf37c633b5c939c97b04ea71": {
       "1048": 2,
@@ -25956,8 +25937,15 @@
       "1235": 2,
       "432": 1
     },
+    "7f0eba63121cc6c6515b0e56c5e2362eb1d41a0ce6d33d5e36a7ec96a458fed7": {
+      "1147": 2,
+      "280": 1
+    },
     "805170541aa0f809e28973deeca5994dff508f590e58b95f92d591695523cb1a": {
       "395": 1
+    },
+    "807a2b560d3c45d4532158329e375c27ea3a4014f9e77496c3f3e8d221e9cdcf": {
+      "457": 1
     },
     "80a01d2d5d0f46323050ab12a5a72ea13d4802da22086323815392c17c4c2b28": {
       "232": 1
@@ -26016,6 +26004,9 @@
     },
     "844076ad641b8e53c67af3f5f6ea8abd006c4ab8ccbf937b62e5898cc4a0791a": {
       "440": 1
+    },
+    "850fbf0d18c59aa87edcc60143d2b61ece35edac8da4d249b36fa2860b066b46": {
+      "450": 1
     },
     "8572803c5594741b0e52521910d7ef856400421e869668c75676a0a2fd4702d3": {
       "1431": 2,
@@ -26194,10 +26185,6 @@
       "1102": 2,
       "385": 1
     },
-    "96b610e0de325980214487213e10b55aa928966cd835b6923d7ff8d42f808b92": {
-      "1392": 2,
-      "457": 1
-    },
     "97499d8dd4bde1a5661cb8a11a26011acfaf523b29d9cb521ea3e764e399d690": {
       "1358": 2,
       "349": 1
@@ -26212,9 +26199,6 @@
     "98b43db96c118a69df98ac2d367db5e9b33f4d124d831812eb847b278585533a": {
       "1348": 2,
       "414": 1
-    },
-    "98ce1daaf1b513c3ba66856045604338ae24bb734cb8ebaf23fc3f7f69ef470a": {
-      "436": 1
     },
     "9985b0f7131af4fbf2c713c93242e724497c0de886bf033f4ddc4ede2e2c668d": {
       "497": 1
@@ -26333,6 +26317,9 @@
     "a577de30e6efe8118d25f444fc931c9952441993cc506f067fa355933d214cde": {
       "311": 1
     },
+    "a5a00c08877dc209502ee311327256ce73be1ce35ef9f90f0164b88ee3d4abe3": {
+      "251": 1
+    },
     "a5cff76fa35c3da22877ab9cba76b048c7ec563fbba7938bcafd052383421df1": {
       "358": 1
     },
@@ -26341,9 +26328,6 @@
     },
     "a6309eb8bc343f4ffba4f2f177da9c9b6d5748b38c005234d868dc5de358fae3": {
       "353": 1
-    },
-    "a6317698d9cab5652132a141665310e99394687ee4ae421b4b7b78cf94ac2a10": {
-      "393": 1
     },
     "a65105cd6e26199fcb9b6c5bc2ca6e0326bea61ba799b134ee79b24fff784f0c": {
       "278": 1
@@ -26364,9 +26348,6 @@
       "389": 1,
       "868": 2
     },
-    "a900e72da9e143dfbb79c16c77d68125352905094718fb443ed8321dfeb05d46": {
-      "397": 1
-    },
     "a90ea62cd18b1ca449fe902326e1bb673866095579e6502df2e2e7461cc585ae": {
       "306": 1
     },
@@ -26380,6 +26361,9 @@
     "aa5dab999d9ce3c031a32e2a59bc6b09a789270dcdb98c16814444c2b96d5e35": {
       "519": 1
     },
+    "aa80b5dc29ed5199b0219ffe172bf2f1a3710bc1ffc9e9c4c7fe089d9c2d6d66": {
+      "421": 1
+    },
     "aaa810c5a3423e901acfd793e36f2dfbccd3095fba99a854c6ba2d038fa4b12a": {
       "1167": 2,
       "376": 1
@@ -26392,6 +26376,9 @@
     },
     "ab2df33642e6ef48bec91f2489a030de089f30d1d2d82c199038a8325c2149f0": {
       "414": 1
+    },
+    "ab8551054d8b9aeb0633e379eff01bff2593e261faf354a532f4f0f29e403c7f": {
+      "514": 1
     },
     "abba6c0f21f859d74ee98549ee7b52bfffeca9e3dc31e82d0070e036ade7ebe8": {
       "430": 1
@@ -26419,10 +26406,6 @@
     },
     "afa9b912e2c5802759370e649a5966186500fbd1378725db6f7e3aedd89e5b87": {
       "306": 1
-    },
-    "afbd96fa4fcc67edafe2aaff305d53cf0d04ea6b9926b063cd212ff85d99a906": {
-      "1438": 2,
-      "460": 1
     },
     "afd41000cc17109a71bd90e01b4f93fadd02576fe79a524dcabf41a6d8165825": {
       "425": 1
@@ -26541,6 +26524,9 @@
     "bccb462e479e956663464b137f05b205158913ae99eb3353b0fc6543a5f897fb": {
       "483": 1
     },
+    "bcda4ace450fd8616f00cf468621e180b9ef917776a64b22d5f3bc31c9520e6a": {
+      "544": 1
+    },
     "bd2fbb289d679c0bdb0d7d3f12083e11ef75790f0c4c4b0fd943402e0a170ef5": {
       "337": 1
     },
@@ -26603,6 +26589,9 @@
     "c4dec4e4c7c0f1c4b994b32d3496d346f125c5176cfced33a3629be2a274d011": {
       "305": 1
     },
+    "c4fedf5722eef61555e8d26f9ec2ed3b5491ee462e9fed18da2a6923c125f6bd": {
+      "426": 1
+    },
     "c5be83d4cc94461c402e1168b1046500570923dcf35e26b84ee1300e72cd4fbf": {
       "402": 1
     },
@@ -26643,9 +26632,6 @@
     "ca8cc55bd0778b05327696e6ac6ca3f1ac651cd696d4a45481456b0b4bf8bc1a": {
       "333": 1
     },
-    "cb160b10f0cc956d25b66fd669447457e2d35dbcb765a6f9ba035b539cc2984b": {
-      "527": 1
-    },
     "cb41e2a23508954449c10d3dd0cc392d67c2c0fb4ac92a67dbb334035a3ebb8a": {
       "1426": 2,
       "382": 1
@@ -26656,11 +26642,18 @@
     "cc340c1181f3242f89c55ae18897b2511fe0f5e8d5856795962ee152495d8856": {
       "338": 1
     },
+    "cc4ceea4ae332d49525f19b31d720d3485752c28d9c89e5e38edd55f51e35f40": {
+      "1278": 2,
+      "334": 1
+    },
     "cc5de14d247d661f16e16434e46a32a597bcf6e2afcc5fd052bf0759da4f6246": {
       "431": 1
     },
     "cc6bc08ffc0ec0a121294078ba0edbc48f08b3dfdcea3f1e7e7b5d84021f7296": {
       "295": 1
+    },
+    "cc9c5b56cdada6a08125a9c1a7a76b43751c1da5543cb3fcf8ded46546309ac4": {
+      "366": 1
     },
     "ccfe5e060c0e79c7a0727e85740876c2efa94de355b7fd1a81e1f0fff155c0f3": {
       "444": 1
@@ -26704,10 +26697,6 @@
     },
     "d220070fb5fd60556c1b95c258d5bb4e10f5078c28a5445b21aa4cdb065a20b6": {
       "428": 1
-    },
-    "d23b0ebf745afd542df71a5d9b687c5e53aaff476e5b6080a1c1838ea38924d7": {
-      "1296": 2,
-      "334": 1
     },
     "d346ead7e1d2a8e45ba30edf9c427264f9c115e513a292369b4aafd8df07bac3": {
       "496": 1
@@ -26777,8 +26766,15 @@
       "1037": 2,
       "375": 1
     },
+    "da8b4b2bdb21385587a775302b5175b612e4dcc4001c943288ada6e2ebf1de72": {
+      "1223": 2,
+      "475": 1
+    },
     "da9774e66ffe91f41bdbf740ee287fe21d206859e58749225660282af56e22c7": {
       "358": 1
+    },
+    "db267a8ad81682f5ab8b000febffb15373c76f56988099ebfd981cc280b38695": {
+      "391": 1
     },
     "dbd304d3ea5f0e8d42e2f8707e2002b361563a4dc1983fa51c7584ffa24b9fb2": {
       "494": 1
@@ -26786,6 +26782,10 @@
     "dbe33e6ef5bbaa6841b67a504cae84039eeef23aef16ab641b0f3be6dbaf58e7": {
       "1146": 2,
       "357": 1
+    },
+    "dc4c6a9438e7c6a80f115a74745c95e28e5f2debe9f6a3065bb32c6dfcdffd83": {
+      "195": 1,
+      "838": 2
     },
     "dc7388ddecc5bc85aef50fafb9c6ea1fcd23dd13b531cae76c1e31a0832a3a16": {
       "454": 1
@@ -26819,9 +26819,6 @@
       "233": 1,
       "989": 2
     },
-    "deb704048b65c5fe8e3c6d4b5719f0810938276fe8a98b1dbc8bc73d1923133e": {
-      "486": 1
-    },
     "debbe1a74740bd77c1a77114536455dd5558ac0fac61bad3cd114e9818d01de9": {
       "411": 1
     },
@@ -26830,6 +26827,9 @@
     },
     "dfd3b87c05d010defcb1695fb374f7aa4c012f8018d17813bc37666360b6f093": {
       "335": 1
+    },
+    "dff32628e83cb447e28e3ed7e9be3706f07de2156c0c5e60d448ce58eb55e6d9": {
+      "389": 1
     },
     "e01a9dba2e0cb22109233b9d53fe28e5c3102f7f643e77f9161848f6186a80b6": {
       "1246": 2,
@@ -26896,10 +26896,6 @@
     "e7b2220cecddfdf6c5481516e90df760cf10a5f599676774d7685a85df334bee": {
       "409": 2
     },
-    "e7e2a5cec516eb49c3449464171500e0d0c91390558eb09637c8676101078dbc": {
-      "247": 1,
-      "972": 2
-    },
     "e8a16c7c19299e11d26d03d899feb294568b688571a70c3b2544305a0858d654": {
       "446": 1
     },
@@ -26922,6 +26918,9 @@
     "ea7970af7560bf720c2b3c48f2898a039800df52ea137879b165b3932f88174f": {
       "1026": 2,
       "402": 1
+    },
+    "eb63bf1f7132f13014467aaf0de3b283a8590cab6ff710dafb013ac9e3c0cb48": {
+      "388": 1
     },
     "eba165b4d1ac46905e37a871839cd7d38f263a7463d78f5e55ed846f29102c92": {
       "450": 1
@@ -26955,6 +26954,10 @@
     "eefe3fa69c42d075ba8dc97f5aeaa8385ea65d0ee8434e8e3713b2511ac8497a": {
       "420": 1
     },
+    "ef1f2cf093fecc1f96b4ddcab378e081346015806a8e2e3dd00ec0541ed67985": {
+      "1504": 2,
+      "380": 1
+    },
     "f0563e3296de6af1007d6989533835c38467c121832c06f288aa18a281603446": {
       "324": 1
     },
@@ -26970,9 +26973,6 @@
     },
     "f1d9f75337dbba8fe4942f6b44cfc2121e70f4ba2997f224d00d3f416358a55a": {
       "391": 1
-    },
-    "f202ba97ee04a59b35429143ca1d4ccc2e3ed3d125f23b55ad200b1adaa7b89a": {
-      "395": 1
     },
     "f218aa030dbbe4ba73613f6c26f2664c12d69b6206f691e90a2b2f8d6f1e9719": {
       "1111": 2,
@@ -27080,6 +27080,9 @@
     "fbbba2ac47264d0a5a2f58ec8efce12f6e4b374918ba5b5e4ec0821d19ac327d": {
       "478": 1
     },
+    "fbf08b42a7a03eb687da134299f4652594fe9f07acf8c33766806711340369dd": {
+      "409": 1
+    },
     "fc2c0b4c18ab81160d1845d8472e9c3bc6c4b99a3301bfd0dc5549da24f5763c": {
       "362": 1
     },
@@ -27088,9 +27091,6 @@
     },
     "fcb8817daac3e17951e73d46233a8239166afa136c44c6d5865ec69866f8f07e": {
       "390": 1
-    },
-    "fcf582482f7ff0ccee34c0c6d7e90b318fa8e3fddb8e1ac756ef1373583af237": {
-      "470": 1
     },
     "fd045e8f7331f6c6f78ee56d755b9700bacdd2322e43ca4c3c83352560c8dd61": {
       "1495": 2,

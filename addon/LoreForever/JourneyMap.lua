@@ -136,6 +136,25 @@ function Map.Place(m, x, y)
   return p
 end
 
+-- Where a spot lies on the whole-world view (LOR-1292, Mike, 11/9: "I would expect a pin on the world map as well"):
+-- that map, x, y (0..1), or nil (no such view above its continent, or the game doesn't place it). Asked of the game by
+-- world position, not by rectangle: the world view shows only part of each continent's map. Kept on the spot.
+function Map.OnWorld(spot)
+  if type(spot) ~= "table" or not (spot.cont and spot.cx) then return nil end
+  if spot.world == nil then
+    spot.world = false
+    local world = ancestor(spot.cont, WORLD)
+    if world and world ~= spot.cont then
+      local vec = _G.CreateVector2D or function(a, b) return { x = a, y = b } end
+      local instance, at = try(api("GetWorldPosFromMapPos"), spot.cont, vec(spot.cx, spot.cy))
+      local _, pos = try(api("GetMapPosFromWorldPos"), instance, at, world)
+      local x, y = type(pos) == "table" and tonumber(pos.x), type(pos) == "table" and tonumber(pos.y)
+      if x and y and x > 0 and x < 1 and y > 0 and y < 1 then spot.world, spot.wx, spot.wy = world, x, y end
+    end
+  end
+  if spot.world then return spot.world, spot.wx, spot.wy end
+end
+
 -- The map trail's points, placed once each (they don't change).
 local placed = {}
 local function placeOf(m, x, y)
@@ -701,8 +720,8 @@ local function placeFocus(f)
 end
 
 -- Spots pinned with Willo (LOR-672, Map.SetPins): a blue bead in a white ring each, over the moments, on the map shown
--- (a pin on another zone waits until that zone, or the whole journey, is shown). The mouse names it; a click does
--- nothing (a pin has no lore of its own).
+-- (a pin on another zone waits until that zone, or the whole journey, is shown). The mouse names it; a right-click
+-- takes it off (PinArrive.PinMouseUp), and a left-click does nothing (a pin has no lore of its own).
 local PIN = 11
 local function pinMarker(f, i)
   local b = f.pinMarkers[i]
@@ -725,9 +744,11 @@ local function pinMarker(f, i)
     GameTooltip:AddLine(pin.title or "")
     if pin.sub and pin.sub ~= "" then T.Tip(pin.sub, "tipText", true) end
     if pin.foot and pin.foot ~= "" then T.Tip(pin.foot, "tipDim", true) end
+    T.Tip(L["Right-click to remove"], "tipDim", true)
     GameTooltip:Show()
   end)
   b:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  b:SetScript("OnMouseUp", function(self, button) if ns.PinArrive then ns.PinArrive.PinMouseUp(self, button) end end)
   f.pinMarkers[i] = b
   return b
 end

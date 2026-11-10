@@ -1,0 +1,84 @@
+{
+ "key": "quest:8193",
+ "type": "quest",
+ "name": "Master Angler",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   8193
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Every Sunday, an angling contest seeks the greatest anglers. Bring Tastyfish from Stranglethorn\u2019s coastal schools among the first fifty to be declared a Master Angler.",
+ "sections": [
+  {
+   "title": "Sunday\u2019s Contest",
+   "body": "The contest is open each Sunday, and you can earn the title of Master Angler by bringing Tastyfish to the organizer among the first fifty people. The fish come from schools along the coasts of Stranglethorn, and they spoil quickly.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Second Offer",
+   "body": "If you arrive too late for the first fifty places, the organizer\u2019s apprentice will still pay you for Tastyfish. The fish do not keep until the next Sunday.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "When is the angling contest?",
+   "aliases": [
+    "master angler day",
+    "what day is fishing contest"
+   ],
+   "answer": "The contest takes place every Sunday."
+  },
+  {
+   "q": "Where do I find Tastyfish?",
+   "aliases": [
+    "tastyfish location",
+    "where fish tastyfish"
+   ],
+   "answer": "Tastyfish schools are found along the coasts of Stranglethorn."
+  },
+  {
+   "q": "How do I become a Master Angler?",
+   "aliases": [
+    "master angler requirements",
+    "win fishing contest"
+   ],
+   "answer": "Bring Tastyfish to the contest organizer among the first fifty people."
+  },
+  {
+   "q": "What if I arrive too late?",
+   "aliases": [
+    "missed the contest",
+    "too slow fishing"
+   ],
+   "answer": "The organizer\u2019s apprentice will pay you for Tastyfish if you are too late to be among the first fifty."
+  },
+  {
+   "q": "Can I save Tastyfish for next week?",
+   "aliases": [
+    "do tastyfish spoil",
+    "keep fish until sunday"
+   ],
+   "answer": "No. Tastyfish spoil quickly, so they cannot be saved for the next Sunday."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "angling contest",
+  "fishing",
+  "fishing schools",
+  "master angler",
+  "stranglethorn",
+  "sunday",
+  "tastyfish"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Master Angler"
+ ]
+}

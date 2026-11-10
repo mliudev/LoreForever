@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Sirra Von'Indi asks you to investigate Silvia Valor's sword and the Defias near Raven Hill. The blade belonged to a guard who protected civilians and their homes.",
+ "summary": "Silvia Valor's sword, left by her spirit, points you to the Defias near Raven Hill. The blade belonged to a guard who protected civilians and their homes.",
  "sections": [
   {
    "title": "A Guard's Blade",
-   "body": "Sirra Von'Indi in Darkshire asks you about Silvia Valor, the guard whose sword was left behind. Silvia spent her life defending civilians and their homes. Her spirit still visits farmsteads, and the Defias have taken up residence at Addle's Stead, south of Raven Hill. Sirra sees the Defias as a place to begin learning what Silvia wanted.",
+   "body": "The spirit of Silvia Valor, Raven Hill's guard, has left her sword behind. Silvia spent her life defending civilians and their homes. Her spirit still visits farmsteads, and the Defias have taken up residence at Addle's Stead, south of Raven Hill. Driving them out may be her unfinished business, and Sirra Von'Indi in Darkshire waits to hear what comes of it.",
    "spoiler": 0
   },
   {
@@ -41,7 +41,7 @@
     "why is she haunting farms",
     "Silvia unfinished business"
    ],
-   "answer": "Silvia's spirit still visits farmsteads, and Sirra suspects her unfinished business may involve the Defias at Addle's Stead."
+   "answer": "Silvia's spirit still visits farmsteads, and her unfinished business may involve the Defias at Addle's Stead."
   },
   {
    "q": "Who asks about Silvia's sword?",
@@ -50,7 +50,7 @@
     "Sirra Von'Indi sword",
     "Darkshire sword giver"
    ],
-   "answer": "Sirra Von'Indi in Darkshire asks you to investigate Silvia Valor's sword."
+   "answer": "Sirra Von'Indi in Darkshire takes up the sword's story. You return to her for more about Silvia Valor once the Defias at Addle's Stead are dealt with."
   },
   {
    "q": "Where have the Defias taken up residence?",
@@ -96,8 +96,7 @@
   "quest:163",
   "subzone:addle-s-stead",
   "subzone:darkshire",
-  "npc:sirra-von-indi",
-  "topic:warrior"
+  "npc:sirra-von-indi"
  ],
  "style": 2,
  "attribution": [

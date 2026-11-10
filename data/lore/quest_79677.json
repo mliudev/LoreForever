@@ -1,0 +1,78 @@
+{
+ "key": "quest:79677",
+ "type": "quest",
+ "name": "A Quick Grocery Run",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79677
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Skonk asks you to gather ingredients for a dish in Arathi Highlands. He learned to cook after other ogres mocked his size and fighting ability.",
+ "sections": [
+  {
+   "title": "Skonk's Ingredients",
+   "body": "Skonk, an ogre in Arathi Highlands, needs ingredients for a dish he knows how to make. Other ogres laughed at his size and called him weak, so he turned to cooking. You gather the ingredients and bring them to him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Skonk?",
+   "aliases": [
+    "skonk",
+    "who's skonk"
+   ],
+   "answer": "Skonk is an ogre who learned to cook after other ogres mocked his size and fighting ability."
+  },
+  {
+   "q": "Why does Skonk cook?",
+   "aliases": [
+    "why cook",
+    "skonk cooking"
+   ],
+   "answer": "Other ogres laughed at Skonk for being smaller and called him weak, so he learned to cook instead of fight."
+  },
+  {
+   "q": "What does Skonk need?",
+   "aliases": [
+    "ingredients",
+    "what ingredients"
+   ],
+   "answer": "Skonk needs ingredients for a dish he can make."
+  },
+  {
+   "q": "Where do I bring the ingredients?",
+   "aliases": [
+    "where skonk",
+    "bring ingredients"
+   ],
+   "answer": "Bring the ingredients to Skonk in Arathi Highlands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Cooking",
+   "text": "As a cook, you can help Skonk gather ingredients for a dish he knows how to make."
+  }
+ ],
+ "keywords": [
+  "arathi highlands",
+  "cooking",
+  "dish",
+  "ingredients",
+  "ogre",
+  "skonk",
+  "teasing"
+ ],
+ "related": [
+  "zone:arathi"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Quick Grocery Run"
+ ]
+}

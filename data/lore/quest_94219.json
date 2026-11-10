@@ -1,0 +1,83 @@
+{
+ "key": "quest:94219",
+ "type": "quest",
+ "name": "Craftsman's Writ: Draught of Water Breathing",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94219
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ requests one Draught of Water Breathing and gives delivery and payment details. You need the writ to complete the exchange.",
+ "sections": [
+  {
+   "title": "A Written Request",
+   "body": "The faded note asks you for one Draught of Water Breathing. It also gives the delivery place and payment, and can pass from one holder to another.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ request?",
+   "aliases": [
+    "what do they want",
+    "draught request",
+    "writ item"
+   ],
+   "answer": "It requests one Draught of Water Breathing."
+  },
+  {
+   "q": "Where do I deliver it?",
+   "aliases": [
+    "delivery place",
+    "where to take it",
+    "writ location"
+   ],
+   "answer": "The writ gives a delivery location, marked on your map."
+  },
+  {
+   "q": "What payment is offered?",
+   "aliases": [
+    "how much pay",
+    "writ payment",
+    "what do I get"
+   ],
+   "answer": "The writ includes information about payment."
+  },
+  {
+   "q": "Can the writ be transferred?",
+   "aliases": [
+    "transferable writ",
+    "can someone else carry it",
+    "pass the writ"
+   ],
+   "answer": "Yes. The note says the writ can be transferred."
+  },
+  {
+   "q": "Do I need the writ to complete the exchange?",
+   "aliases": [
+    "need the note",
+    "writ required",
+    "can I deliver without it"
+   ],
+   "answer": "Yes. You must have the writ with you to complete the transaction."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "delivery",
+  "draught of water breathing",
+  "payment",
+  "water breathing",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Draught of Water Breathing"
+ ]
+}

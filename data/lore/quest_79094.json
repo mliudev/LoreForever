@@ -1,0 +1,77 @@
+{
+ "key": "quest:79094",
+ "type": "quest",
+ "name": "The Lessons of Ta'zo",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79094
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Ta'zo asks you to bring magical works to the library in Ironforge. Each addition helps expand its collection and knowledge.",
+ "sections": [
+  {
+   "title": "A Library's Collection",
+   "body": "Ta'zo asks you in the Library of Ironforge to bring something for its collection. Magical works that might benefit the library are welcome, and your efforts help expand its knowledge.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for magical works?",
+   "aliases": [
+    "who is ta'zo",
+    "ta'zo library",
+    "ta'zo"
+   ],
+   "answer": "Ta'zo asks you to bring magical works that might benefit the library in Ironforge."
+  },
+  {
+   "q": "What does Ta'zo want brought to the library?",
+   "aliases": [
+    "what to bring ta'zo",
+    "magical books",
+    "library collection"
+   ],
+   "answer": "Ta'zo asks for magical works that might benefit the library's collection."
+  },
+  {
+   "q": "Where does Ta'zo keep the collection?",
+   "aliases": [
+    "where is ta'zo",
+    "ironforge library",
+    "library location"
+   ],
+   "answer": "The collection is in the Library of Ironforge."
+  },
+  {
+   "q": "Why does Ta'zo ask for magical works?",
+   "aliases": [
+    "why magical works",
+    "expand knowledge",
+    "help library"
+   ],
+   "answer": "Ta'zo says the library's knowledge expands through your efforts."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "collection",
+  "ironforge",
+  "knowledge",
+  "lessons",
+  "library",
+  "magical works",
+  "ta'zo"
+ ],
+ "related": [
+  "subzone:library-ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Lessons of Ta'zo"
+ ]
+}

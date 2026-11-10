@@ -1,0 +1,87 @@
+{
+ "key": "quest:5924",
+ "type": "quest",
+ "name": "Heeding the Call",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   5924
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Mathrengyl Bearwalker awaits you in Darnassus, where he calls you to learn the ways of the bear. This is your first step toward serving nature and preserving balance.",
+ "sections": [
+  {
+   "title": "A Call in Darnassus",
+   "body": "In the Cenarion Enclave of Darnassus, Mathrengyl Bearwalker welcomes you and calls you to take a first step into a wider world. He teaches that Cenarius' children are called to serve nature, with animals and plants both friends and charges. You begin by learning the ways of the bear and the strength of body and heart.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to come here?",
+   "aliases": [
+    "who wants me",
+    "who is mathrengyl",
+    "mathrengyl"
+   ],
+   "answer": "Mathrengyl Bearwalker awaits you in the Cenarion Enclave in Darnassus."
+  },
+  {
+   "q": "Where do I find Mathrengyl Bearwalker?",
+   "aliases": [
+    "where is mathrengyl",
+    "mathrengyl location",
+    "cenarion enclave"
+   ],
+   "answer": "Mathrengyl Bearwalker is in the Cenarion Enclave in Darnassus."
+  },
+  {
+   "q": "What does Mathrengyl want me to learn?",
+   "aliases": [
+    "what do i learn",
+    "bear ways",
+    "heeding call"
+   ],
+   "answer": "He calls you to learn the ways of the bear and strength of body and heart."
+  },
+  {
+   "q": "What is the call of Cenarius' children?",
+   "aliases": [
+    "cenarius call",
+    "serve nature",
+    "why nature"
+   ],
+   "answer": "Cenarius' children are called to serve nature and preserve balance for the sake of plants and animals, as well as their own."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As a druid, Mathrengyl calls you to learn the ways of the bear and serve nature by preserving balance."
+  }
+ ],
+ "keywords": [
+  "balance",
+  "cenarion enclave",
+  "cenarius",
+  "darnassus",
+  "heeding the call",
+  "mathrengyl bearwalker",
+  "nature",
+  "ways of the bear"
+ ],
+ "related": [
+  "quest:6001",
+  "npc:mathrengyl-bearwalker",
+  "subzone:cenarion-enclave",
+  "zone:darnassus",
+  "topic:cenarius"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Heeding the Call"
+ ]
+}

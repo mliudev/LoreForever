@@ -7,6 +7,17 @@ wrap long bullets with an indented continuation line.
 
 ## Unreleased
 
+## 1.5.0 (2026-11-09)
+
+- **Every pop-up can be moved:** drag any Lore Forever pop-up and it opens in that spot from then on. Options has a button to place the new-page note and the pin card, and Reset windows puts everything back.
+- **Willo's pins reach every map:** they now show on the whole-world map too, right-click one on any map to remove it, and a new pin no longer stays hidden until a /reload.
+- **Your map stays clear:** if you keep Willo's sky up all the time, it now sits under your buffs instead of over your minimap, and she still sees your game. Drag it anywhere with Move the sky in Options.
+- **Willo knows the talents you've taken:** she can now see the points you've spent and work from your actual build.
+- A place that shares its name with a room in a starting area, like Ironforge's Hall of Arms, no longer pops up a new page for that far-off area.
+- Willo waits when one quest narration is about to follow another, so her big-moment lines no longer talk over the story.
+- More stories have fresh recordings, and Forever quest characters with no voice on file now get a narrator of their own gender in Match Character Gender.
+- Corrected lore in 4 entries.
+
 ## 1.4.0 (2026-11-08)
 
 - **Willo's pins reach your map as you play:** a pin you ask Willo for shows on the world map and minimap within moments, no /reload, and when you reach one, a small card offers Clear pin.

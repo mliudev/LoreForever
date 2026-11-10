@@ -1,0 +1,84 @@
+{
+ "key": "quest:94226",
+ "type": "quest",
+ "name": "Craftsman's Writ: Green Iron Gauntlets",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94226
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "MacKinley\u2019s writ asks you to bring him Green Iron Gauntlets. The transferable note includes delivery and payment details.",
+ "sections": [
+  {
+   "title": "A Written Order",
+   "body": "The faded writ names Green Iron Gauntlets and gives a delivery place and payment. You need the writ with you to complete the exchange. MacKinley waits for the goods, though his greeting hints that something is amiss.",
+   "spoiler": 0
+  },
+  {
+   "title": "At the Exchange",
+   "body": "MacKinley says he wanted green iron knuckles, not gauntlets. He accepts the gauntlets while he waits for a replacement, then pays you less than you expected.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does MacKinley ask for?",
+   "aliases": [
+    "mckinley wants what",
+    "green iron writ"
+   ],
+   "answer": "The writ requests one pair of Green Iron Gauntlets, though MacKinley says he meant to ask for green iron knuckles."
+  },
+  {
+   "q": "Where do I deliver the gauntlets?",
+   "aliases": [
+    "where to deliver",
+    "writ location"
+   ],
+   "answer": "The writ gives a delivery location, marked on your map."
+  },
+  {
+   "q": "Do I need the writ with me?",
+   "aliases": [
+    "need writ",
+    "forgot the writ"
+   ],
+   "answer": "Yes. The writ must be in your possession to complete the exchange."
+  },
+  {
+   "q": "What does the writ say about payment?",
+   "aliases": [
+    "how much pay",
+    "payment details"
+   ],
+   "answer": "The note includes information about payment, but gives no amount in its text."
+  },
+  {
+   "q": "Can someone else carry the writ?",
+   "aliases": [
+    "transferable writ",
+    "can i give writ"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "delivery",
+  "green iron gauntlets",
+  "green iron knuckles",
+  "mackinley",
+  "payment",
+  "transferable"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Green Iron Gauntlets"
+ ]
+}

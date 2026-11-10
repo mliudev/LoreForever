@@ -380,6 +380,101 @@ function T.Window(name, parent, title)
   return f
 end
 
+-- Pop-ups the player can drag (LOR-1367): a left-drag on any empty part moves one, and it opens there from then on, on
+-- every character of the account. Its place is settings.popupPlaces[key], its top middle as a share of the screen (x
+-- across, y up), so it stays on the same side of a smaller screen. It can't leave the screen; one that wouldn't fit is
+-- held on it by the game, and the saved place stays until the player drags it again. home is where it starts:
+-- { point, x, y } on the screen, CENTER when left out. Call this after the frame's own OnShow and OnHide are set: SetScript
+-- drops hooks. f.onDropped, if set, runs after a drop. Options' Reset windows and /lore reset forget them all
+-- (T.ResetMovable).
+local movable = {}
+
+local function popupPlaces(make)
+  local s = LoreForeverDB and LoreForeverDB.settings
+  if not s then return nil end
+  if make and type(s.popupPlaces) ~= "table" then s.popupPlaces = {} end
+  return s.popupPlaces
+end
+
+local function screenSize()
+  local w, h = tonumber(UIParent:GetWidth()), tonumber(UIParent:GetHeight())
+  if w and h and w > 0 and h > 0 then return w, h end
+end
+
+function T.PlaceMovable(f)
+  if f.held then return end   -- (in the player's hand: the drop places it)
+  local saved = (popupPlaces() or {})[f.placeKey]
+  local sw, sh = screenSize()
+  f:ClearAllPoints()
+  if type(saved) == "table" and tonumber(saved.x) and tonumber(saved.y) and sw then
+    f:SetPoint("TOP", UIParent, "BOTTOMLEFT", tonumber(saved.x) * sw, tonumber(saved.y) * sh)
+  else
+    local home = f.placeHome
+    f:SetPoint(home[1], UIParent, home[1], home[2] or 0, home[3] or 0)
+  end
+end
+
+local function letGo(f)
+  f:StopMovingOrSizing()
+  f.held = nil
+  if f.SetUserPlaced then f:SetUserPlaced(false) end   -- ours alone: the game's layout cache mustn't put it elsewhere
+end
+
+local function dropped(f)
+  letGo(f)
+  local l, r, t = f:GetLeft(), f:GetRight(), f:GetTop()
+  local sw, sh = screenSize()
+  local places = popupPlaces(true)
+  if l and r and t and sw and places then
+    places[f.placeKey] = { x = math.floor((l + r) / 2 / sw * 10000 + 0.5) / 10000,
+                           y = math.floor(t / sh * 10000 + 0.5) / 10000 }
+  end
+  T.PlaceMovable(f)
+  if f.onDropped then f.onDropped(f) end
+end
+
+-- The move cursor while the mouse is on a part that drags, where the client has one (the game says nothing if not).
+local function moveCursor() if SetCursor then pcall(SetCursor, "UI_MOVE_CURSOR") end end
+local function plainCursor() if ResetCursor then pcall(ResetCursor) end end
+
+function T.Movable(f, key, home)
+  f.placeKey, f.placeHome = key, home or { "CENTER" }
+  movable[#movable + 1] = f
+  f:SetMovable(true)
+  if f.SetUserPlaced then f:SetUserPlaced(false) end   -- (a place the game saved before this was ours)
+  f:EnableMouse(true)
+  f:SetClampedToScreen(true)
+  if f.banner and f.SetClampRectInsets then f:SetClampRectInsets(0, 0, 14, 0) end   -- the title banner stays on screen too
+  f:RegisterForDrag("LeftButton")
+  f:SetScript("OnDragStart", function(self) self.held = true; self:StartMoving() end)
+  f:SetScript("OnDragStop", dropped)
+  f:HookScript("OnShow", T.PlaceMovable)
+  f:HookScript("OnHide", function(self) if self.held then letGo(self) end end)   -- closed while held (Escape, a timer)
+  f:HookScript("OnEnter", moveCursor)
+  f:HookScript("OnLeave", plainCursor)
+  T.PlaceMovable(f)
+end
+
+-- Options' Reset windows and /lore reset: every pop-up back to its own start.
+function T.ResetMovable()
+  local s = LoreForeverDB and LoreForeverDB.settings
+  if s then s.popupPlaces = nil end
+  for _, f in ipairs(movable) do T.PlaceMovable(f) end
+end
+
+-- A resized window or a new UI scale: what's up goes to its place on the new screen, a tick later, once UIParent has its
+-- new size. (What's hidden goes there when it next shows.)
+do
+  local watcher = CreateFrame("Frame")
+  watcher:SetScript("OnEvent", function()
+    local function again()
+      for _, f in ipairs(movable) do if f:IsShown() then T.PlaceMovable(f) end end
+    end
+    if C_Timer and C_Timer.After then C_Timer.After(0, again) else again() end
+  end)
+  for _, e in ipairs({ "DISPLAY_SIZE_CHANGED", "UI_SCALE_CHANGED" }) do pcall(watcher.RegisterEvent, watcher, e) end
+end
+
 -- The themed button: a UIPanelButtonTemplate (same text, fonts, sounds, enable/disable and fit-to-text widths) with
 -- the red art swapped for a dark fill and a gold rim. kind "primary" is a brighter fill (the player's Play).
 local function rimTex(b, layer)

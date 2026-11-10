@@ -1,0 +1,83 @@
+{
+ "key": "quest:1266",
+ "type": "quest",
+ "name": "The Missing Diplomat",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1266
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Theramore's people are watching Brackenwall and other dangers near their borders. You are sent west through Dustwallow Marsh to find Private Hendel.",
+ "sections": [
+  {
+   "title": "West Along the Road",
+   "body": "A guard detail waits west of you in Dustwallow Marsh, where Private Hendel watches over Theramore's infiltrators. They have been observing Brackenwall and searching for other threats near the borders. Look for the tents along the road to find Hendel.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Private Hendel?",
+   "aliases": [
+    "private hendel",
+    "hendel who",
+    "who is hendel"
+   ],
+   "answer": "Private Hendel is on guard duty, protecting Theramore's infiltrators while they rest."
+  },
+  {
+   "q": "What are the infiltrators watching?",
+   "aliases": [
+    "what are they watching",
+    "brackenwall watch",
+    "infiltrators"
+   ],
+   "answer": "They have been keeping tabs on Brackenwall, the Horde base, and looking for other threats to Theramore's borders."
+  },
+  {
+   "q": "Where can I find Private Hendel?",
+   "aliases": [
+    "where hendel",
+    "find hendel",
+    "hendel location"
+   ],
+   "answer": "Private Hendel is west of you, by the tents along the road in Dustwallow Marsh."
+  },
+  {
+   "q": "Why are the infiltrators there?",
+   "aliases": [
+    "why infiltrators",
+    "theramore spies",
+    "what are they doing"
+   ],
+   "answer": "They are watching Brackenwall and looking for other dangers near Theramore's borders."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance traveler, you are sent to find a Theramore guard watching the Horde base at Brackenwall and other threats to the borders."
+  }
+ ],
+ "keywords": [
+  "brackenwall",
+  "dustwallow marsh",
+  "horde base",
+  "infiltrators",
+  "private hendel",
+  "the missing diplomat",
+  "theramore"
+ ],
+ "related": [
+  "zone:dustwallow",
+  "topic:horde"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Missing Diplomat"
+ ]
+}

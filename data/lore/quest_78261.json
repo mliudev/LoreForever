@@ -1,0 +1,89 @@
+{
+ "key": "quest:78261",
+ "type": "quest",
+ "name": "The Horn of Xelthos",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   78261
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A note from C asks you to retrieve the Horn of Xelthos from Shadowfang Keep alone. Veenix in the Stonetalon Mountains may help you through the courtyard gate.",
+ "sections": [
+  {
+   "title": "A Quiet Approach",
+   "body": "C leaves the note near Pyrewood Village and names Veenix as a contact in the Stonetalon Mountains. The Horn of Xelthos lies somewhere inside Shadowfang Keep, where entering usually calls for backup. C wants the work kept quiet, so you are to go alone and bring the horn back to the dead drop.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the Horn of Xelthos?",
+   "aliases": [
+    "who is C",
+    "who wants the horn",
+    "C horn job"
+   ],
+   "answer": "C leaves a note asking you to retrieve the Horn of Xelthos and return it to the dead drop near Pyrewood Village."
+  },
+  {
+   "q": "Where is the Horn of Xelthos?",
+   "aliases": [
+    "where horn",
+    "horn location",
+    "find Xelthos"
+   ],
+   "answer": "The Horn of Xelthos is somewhere inside Shadowfang Keep."
+  },
+  {
+   "q": "Why do I have to go alone?",
+   "aliases": [
+    "why solo",
+    "go alone why",
+    "no backup"
+   ],
+   "answer": "C says the work requires a low profile, so you are to enter Shadowfang Keep alone."
+  },
+  {
+   "q": "Who is Veenix?",
+   "aliases": [
+    "Veenix help",
+    "who Veenix",
+    "gate contact"
+   ],
+   "answer": "Veenix is C's contact in the Stonetalon Mountains, and may help you get past Shadowfang Keep's courtyard gate."
+  },
+  {
+   "q": "Where do I return the horn?",
+   "aliases": [
+    "where return horn",
+    "dead drop location",
+    "turn in horn"
+   ],
+   "answer": "Return the horn to C's dead drop near Pyrewood Village."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "c",
+  "dead drop",
+  "horn of xelthos",
+  "pyrewood village",
+  "shadowfang keep",
+  "stonetalon mountains",
+  "veenix",
+  "xelthos"
+ ],
+ "related": [
+  "zone:shadowfang",
+  "zone:stonetalon",
+  "subzone:pyrewood-village"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Horn of Xelthos"
+ ]
+}

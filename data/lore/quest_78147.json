@@ -1,0 +1,64 @@
+{
+ "key": "quest:78147",
+ "type": "quest",
+ "name": "Crimes Against Anatomy",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   78147
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A librarian asks you to add magical works to the collection in Ironforge. Your discoveries help expand the library\u2019s knowledge.",
+ "sections": [
+  {
+   "title": "For the Collection",
+   "body": "The library in Ironforge seeks magical works that could benefit its collection. You can bring discoveries to the librarian, whose knowledge grows through these contributions. More works may yet be of use to the library.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for magical works?",
+   "aliases": [
+    "who wants books",
+    "library request"
+   ],
+   "answer": "A librarian in Ironforge asks you to bring magical works that could benefit the collection."
+  },
+  {
+   "q": "Where do I bring the works?",
+   "aliases": [
+    "where is the library",
+    "bring books where"
+   ],
+   "answer": "Bring them to the librarian in the Library in Ironforge."
+  },
+  {
+   "q": "Why collect magical works?",
+   "aliases": [
+    "why books",
+    "what for magical works"
+   ],
+   "answer": "The works help expand the library\u2019s knowledge."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "collection",
+  "crimes against anatomy",
+  "ironforge",
+  "librarian",
+  "library",
+  "magical works"
+ ],
+ "related": [
+  "subzone:library-ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Crimes Against Anatomy"
+ ]
+}

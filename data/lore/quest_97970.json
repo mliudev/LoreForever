@@ -1,0 +1,93 @@
+{
+ "key": "quest:97970",
+ "type": "quest",
+ "name": "Camping 101: Mining",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97970
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A mining instructor in Shen'dar Village can teach you to craft a Lodestone for your camp. It gives those gathered around the fire extra strength in combat.",
+ "sections": [
+  {
+   "title": "A Miner's Craft",
+   "body": "Mining offers honest work, and you can learn a camp craft through Messana Crestwind in Shen'dar Village. Once you have shown proficiency in mining, she can teach you to make a Lodestone. Those who gather around your fire can draw extra strength from it, so the craft may bring sword-wielders to your camp.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Place to Camp",
+   "body": "With the craft learned, you can make your own Lodestone. Camps are unwelcome in the center of town, so take it into the wilderness to test it. A campfire is needed before you set up camp, and a cook can teach you how to make one.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who teaches me to make a Lodestone?",
+   "aliases": [
+    "lodestone trainer",
+    "who teaches mining camp craft"
+   ],
+   "answer": "Messana Crestwind in Shen'dar Village can teach you to craft a Lodestone after you show proficiency in mining."
+  },
+  {
+   "q": "What does a Lodestone do?",
+   "aliases": [
+    "lodestone use",
+    "what's lodestone for"
+   ],
+   "answer": "It gives those gathered around your campfire extra strength in combat."
+  },
+  {
+   "q": "Where can I test my Lodestone?",
+   "aliases": [
+    "where test lodestone",
+    "lodestone camp"
+   ],
+   "answer": "You can test it in the wilderness; camps are unwelcome in the center of town."
+  },
+  {
+   "q": "Do I need a campfire?",
+   "aliases": [
+    "campfire needed",
+    "how start camp"
+   ],
+   "answer": "Yes. You need a campfire before setting up camp, and a cook can teach you to make one."
+  },
+  {
+   "q": "What do I need before Messana teaches me?",
+   "aliases": [
+    "mining proficiency",
+    "how learn lodestone"
+   ],
+   "answer": "You need to show proficiency in mining before Messana Crestwind can teach you to craft a Lodestone."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Mining",
+   "text": "As a miner, you can show your proficiency to Messana Crestwind and learn to craft a Lodestone for your camp."
+  },
+  {
+   "target": "profession:Cooking",
+   "text": "As a cook, you can teach others to make the campfire needed to set up camp."
+  }
+ ],
+ "keywords": [
+  "camp",
+  "campfire",
+  "camping 101",
+  "lodestone",
+  "messana crestwind",
+  "mining",
+  "shen'dar village"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Camping 101: Mining"
+ ]
+}

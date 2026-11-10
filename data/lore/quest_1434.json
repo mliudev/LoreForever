@@ -1,0 +1,77 @@
+{
+ "key": "quest:1434",
+ "type": "quest",
+ "name": "Befouled by Satyr",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1434
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Takata Steelblade in Desolace asks you to confront several kinds of Hatefury satyr. Their presence is the problem he needs you to address.",
+ "sections": [
+  {
+   "title": "Takata's Request",
+   "body": "Takata Steelblade asks for your help in Desolace. Hatefury Rogues, Felsworn, Betrayers, and Hellcallers are the satyr he names. He needs you to slay seven of each, then return to him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for help with the Hatefury satyr?",
+   "aliases": [
+    "who is Takata",
+    "Takata Steelblade"
+   ],
+   "answer": "Takata Steelblade asks you to confront the Hatefury satyr in Desolace."
+  },
+  {
+   "q": "Which Hatefury satyr does Takata name?",
+   "aliases": [
+    "Hatefury types",
+    "satyrs list"
+   ],
+   "answer": "Takata names Hatefury Rogues, Felsworn, Betrayers, and Hellcallers."
+  },
+  {
+   "q": "How many of each kind does Takata ask you to slay?",
+   "aliases": [
+    "how many satyrs",
+    "number of each"
+   ],
+   "answer": "Takata asks you to slay seven of each kind he names."
+  },
+  {
+   "q": "Where do you return after dealing with the satyr?",
+   "aliases": [
+    "where to go back",
+    "return to Takata"
+   ],
+   "answer": "Takata asks you to return to him in Desolace."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "befouled by satyr",
+  "betrayer",
+  "desolace",
+  "felsworn",
+  "hatefury",
+  "hellcaller",
+  "rogue",
+  "satyr",
+  "takata steelblade"
+ ],
+ "related": [
+  "npc:takata-steelblade",
+  "zone:desolace",
+  "topic:rogue"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Befouled by Satyr"
+ ]
+}

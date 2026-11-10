@@ -1,0 +1,84 @@
+{
+ "key": "quest:97453",
+ "type": "quest",
+ "name": "Weed Whacked",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97453
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Gemmil asks you to deal with the Carnivorous Weeds south of Grom'gol. They frightened Gemmil while the young student was gathering plants, and the camp's safety is at stake.",
+ "sections": [
+  {
+   "title": "A Frightened Student",
+   "body": "Gemmil was gathering plants outside the gates of the jungle camp when huge weeds appeared and spat at the young student. Gemmil escaped unharmed, but now cannot play outside the camp. You are asked to make the area south of Grom'gol safe and then speak with Gemmil's mother.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gemmil?",
+   "aliases": [
+    "gemmil who",
+    "who's gemmil"
+   ],
+   "answer": "Gemmil is a young student of herbalism who hopes to become an alchemist."
+  },
+  {
+   "q": "What happened to Gemmil?",
+   "aliases": [
+    "gemmil attacked",
+    "weeds spitting"
+   ],
+   "answer": "While gathering plants outside the gates, Gemmil was frightened by huge weeds that spat at them. Gemmil escaped unharmed."
+  },
+  {
+   "q": "Where are the Carnivorous Weeds?",
+   "aliases": [
+    "weed location",
+    "where weeds"
+   ],
+   "answer": "The Carnivorous Weeds are south of Grom'gol."
+  },
+  {
+   "q": "Why can't Gemmil play outside camp?",
+   "aliases": [
+    "gemmil can't play",
+    "why no outside"
+   ],
+   "answer": "Gemmil's parents no longer let them play outside the camp after the weeds frightened them."
+  },
+  {
+   "q": "Who should you speak with after making the area safe?",
+   "aliases": [
+    "tell gemmil's mum",
+    "gemmil's mother"
+   ],
+   "answer": "After making the area south of Grom'gol safe, you are asked to inform Gemmil's mother."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Herbalism",
+   "text": "As a student of herbalism, you can understand Gemmil's wish to study plants and become an alchemist."
+  }
+ ],
+ "keywords": [
+  "alchemist",
+  "carnivorous weeds",
+  "gemmil",
+  "grom'gol",
+  "herbalism",
+  "jungle",
+  "weed whacked"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Weed Whacked"
+ ]
+}

@@ -2190,7 +2190,7 @@ P.transport["quest:654"] = {
   fullHash = "7f8dc3",
   text = "Tanaris Field Sampling. In Tanaris, a field test begins as soon as the kit's power source is switched on. Your two hours of sampling start then. Chief Engineer Bilgewhizzle expected the kit to glow and vibrate once its power source was running. Now you have two hours to gather acceptable samples from eight basilisks, eight hyenas and eight scorpions in the Tanaris desert.\n\nIf the time runs out, all the data is lost. You will need to buy another power source from Bilgewhizzle, then return the kit to him in Gadgetzan before its power gives out. Bilgewhizzle offers no sympathy when a kit goes dead. The Gadgetzan Water Company’s profit is all that matters to him.\n\nHe will keep selling power sources until the company can afford to import water from the icy springs of Dun Morogh.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_654-dc62242a2c79383d520a/1-0000.mp3", duration = 45.2179592, start = 0},
+    {file = "Audio/Transport/full_quest_654-84a24211b16ebd0e3693/1-0000.mp3", duration = 44.9828571, start = 0},
   },
 }
 P.transport["quest:656"] = {
@@ -2502,7 +2502,7 @@ P.transport["quest:762"] = {
   fullHash = "9ab557",
   text = "An Ambassador of Evil. In the Badlands, Historian Karnik sends you after Ambassador Infernus. He wants you to carry proof of the kill to Advisor Belgrum in Ironforge. Ragnaros sent Ambassador Infernus to Angor Fortress to oversee the Shadowforge's hunt for lost artifacts in Uldaman. The search has already cost many dwarven lives, and more are dying. Karnik fears the Shadowforge could turn the artifacts against Ironforge. So he sends you back into the Badlands to destroy Infernus and carry Belgrum proof of your victory. Time is short. Ragnaros will not wait for the Shadowforge to prepare.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_762-a1332de8c1a85336970b/1-0000.mp3", duration = 34.7689796, start = 0},
+    {file = "Audio/Transport/full_quest_762-3d80a16d0b63234171d3/1-0000.mp3", duration = 34.1681633, start = 0},
   },
 }
 P.transport["quest:77"] = {

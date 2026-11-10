@@ -1,0 +1,78 @@
+{
+ "key": "quest:94246",
+ "type": "quest",
+ "name": "Craftsman's Writ: Red Whelp Gloves",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94246
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ requests one pair of Red Whelp Gloves. It names a delivery place and payment for the exchange.",
+ "sections": [
+  {
+   "title": "A Written Request",
+   "body": "A faded note requests one pair of Red Whelp Gloves and gives a delivery location and payment. You need to hold the writ to complete the exchange.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "red whelp gloves writ",
+    "what item is requested"
+   ],
+   "answer": "The writ requests one pair of Red Whelp Gloves."
+  },
+  {
+   "q": "Where do I deliver the gloves?",
+   "aliases": [
+    "delivery location",
+    "where to take gloves"
+   ],
+   "answer": "The writ provides a delivery location marked on your map."
+  },
+  {
+   "q": "What do I need to complete the exchange?",
+   "aliases": [
+    "what do i need",
+    "writ requirement"
+   ],
+   "answer": "You need the writ in your possession to complete the exchange."
+  },
+  {
+   "q": "Can the writ be transferred?",
+   "aliases": [
+    "transferable writ",
+    "can someone else take it"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  },
+  {
+   "q": "Does the writ mention payment?",
+   "aliases": [
+    "how much payment",
+    "payment for gloves"
+   ],
+   "answer": "Yes. The writ includes information about payment."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "delivery",
+  "payment",
+  "red whelp gloves",
+  "transferable",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Red Whelp Gloves"
+ ]
+}

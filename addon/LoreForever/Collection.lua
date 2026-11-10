@@ -191,8 +191,7 @@ local function placeKeys(zone, subzone)
   out[#out + 1] = keyOfKind(zone, PLACE_KINDS)
   if usable(subzone) then
     out[#out + 1] = engine:SubzoneKey(subzone, zone)
-    local area = ns.DB.index.area and ns.DB.index.area[lower(subzone)]   -- Northshire Abbey -> Northshire Valley
-    if area and entries()[area] then out[#out + 1] = area end
+    out[#out + 1] = engine:AreaKey(subzone, zone)   -- Northshire Abbey -> Northshire Valley
   end
   return out
 end

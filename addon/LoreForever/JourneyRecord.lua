@@ -259,6 +259,11 @@ function JR.Text(char, limit)
   elseif since then
     head[#head + 1] = string.format(L["Recorded since %s."], since)
   end
+  -- What names the character for good, so a pasted record finds its own (site/lib/character-records.js). Not translated.
+  local id = type(char.identity) == "table" and char.identity
+  if id and id.guid and id.game then
+    head[#head + 1] = string.format("Lore Forever ID: %s %s %s %d", id.guid, tostring(id.region or "?"), id.game, tonumber(id.t) or 0)
+  end
   local s = char.seen or {}
   local function n(c, one, many) return string.format(c == 1 and one or many, c) end
   head[#head + 1] = join(" · ",
@@ -350,14 +355,8 @@ end
 local function createBox()
   local f = ns.Theme.Window("LoreForeverJourneyRecordBox", UIParent)
   f:SetSize(540, 420)
-  f:SetPoint("CENTER")
   f:SetFrameStrata("DIALOG")
-  f:SetClampedToScreen(true)
-  f:SetMovable(true)
-  f:EnableMouse(true)
-  f:RegisterForDrag("LeftButton")
-  f:SetScript("OnDragStart", f.StartMoving)
-  f:SetScript("OnDragStop", f.StopMovingOrSizing)
+  ns.Theme.Movable(f, "journeyRecord")
   table.insert(UISpecialFrames, "LoreForeverJourneyRecordBox")
   if type(f.TitleText) == "table" and f.TitleText.SetText then f.TitleText:SetText(L["Your journey record"]) end
   local hint = f:CreateFontString(nil, "OVERLAY", "GameFontHighlight")

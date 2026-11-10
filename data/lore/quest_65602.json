@@ -1,0 +1,87 @@
+{
+ "key": "quest:65602",
+ "type": "quest",
+ "name": "What Is Love?",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   65602
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Gakin the Darkbinder seeks a wooden figurine whose age and history make it fit for an incubus ritual. Its devotion may draw the creature close.",
+ "sections": [
+  {
+   "title": "An Old Keepsake",
+   "body": "Gakin the Darkbinder has located a figurine with his scrying. He says it once belonged to a young couple thousands of years ago, and its owners are gone. You are asked to bring the keepsake from a house beyond Maestra's Post in Ashenvale to Gakin in Stormwind's Mage Quarter.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Figurine's Power",
+   "body": "When you return the wooden figurine, Gakin senses its emotional force remains strong despite the passage of time. He says the incubus will be drawn to it, making it the reagent he needs for the ritual.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Gakin want me to find?",
+   "aliases": [
+    "what figurine",
+    "wooden figurine",
+    "gakin's item"
+   ],
+   "answer": "Gakin asks you to retrieve a wooden figurine that he believes will draw an incubus to his ritual."
+  },
+  {
+   "q": "Where is the figurine?",
+   "aliases": [
+    "figurine location",
+    "where is it",
+    "house in ashenvale"
+   ],
+   "answer": "Gakin says it is in a house beyond Maestra's Post in Ashenvale."
+  },
+  {
+   "q": "Who owned the figurine?",
+   "aliases": [
+    "old owners",
+    "couple figurine",
+    "who had it"
+   ],
+   "answer": "The figurine belonged to a young couple thousands of years ago."
+  },
+  {
+   "q": "Why does Gakin want the figurine?",
+   "aliases": [
+    "why figurine",
+    "incubus reagent",
+    "what is it for"
+   ],
+   "answer": "Gakin senses emotional energy in the figurine and says it will attract an incubus for his ritual."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ashenvale",
+  "gakin the darkbinder",
+  "incubus",
+  "maestra's post",
+  "ritual",
+  "stormwind",
+  "what is love",
+  "wooden figurine"
+ ],
+ "related": [
+  "npc:gakin-the-darkbinder",
+  "zone:ashenvale",
+  "subzone:maestra-s-post",
+  "subzone:mage-quarter",
+  "topic:mage"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: What Is Love?"
+ ]
+}

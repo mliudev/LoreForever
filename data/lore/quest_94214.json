@@ -1,0 +1,84 @@
+{
+ "key": "quest:94214",
+ "type": "quest",
+ "name": "Craftsman's Writ: Shadow Protection Potion",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94214
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ requests one Shadow Protection Potion and gives details for delivery and payment. The transaction depends on bringing the writ with you.",
+ "sections": [
+  {
+   "title": "A Written Request",
+   "body": "A faded note asks you to provide one Shadow Protection Potion. It also gives the delivery place and payment details, and says the writ can pass from hand to hand. You need the writ with you to complete the exchange.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ request?",
+   "aliases": [
+    "what do they want",
+    "potion request",
+    "writ item"
+   ],
+   "answer": "The writ requests one Shadow Protection Potion."
+  },
+  {
+   "q": "Where do I deliver it?",
+   "aliases": [
+    "delivery spot",
+    "where to take potion",
+    "marked location"
+   ],
+   "answer": "The delivery location is marked on your map."
+  },
+  {
+   "q": "Does the writ say how I will be paid?",
+   "aliases": [
+    "payment details",
+    "how much do they pay",
+    "writ payment"
+   ],
+   "answer": "The writ includes information about payment."
+  },
+  {
+   "q": "Can I give the writ to someone else?",
+   "aliases": [
+    "is it transferable",
+    "pass the writ",
+    "transfer writ"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  },
+  {
+   "q": "Do I need to keep the writ with me?",
+   "aliases": [
+    "need writ to deliver",
+    "must I carry it",
+    "writ required"
+   ],
+   "answer": "Yes. You must have the writ with you to complete the transaction."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "delivery",
+  "payment",
+  "potion",
+  "shadow protection potion",
+  "transferable",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Shadow Protection Potion"
+ ]
+}

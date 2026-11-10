@@ -1,0 +1,89 @@
+{
+ "key": "quest:96138",
+ "type": "quest",
+ "name": "Merrick's Bow",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96138
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Sirra Von'Indi asks you to look into the ogres troubling Merrick Valor's spirit near Raven Hill. Merrick's bow may help shed light on the place's history.",
+ "sections": [
+  {
+   "title": "A spirit's concern",
+   "body": "Near Raven Hill, Merrick Valor's spirit still wanders the roads. You have a bow he left behind, and his unfinished business may concern the ogres south of town. Sirra Von'Indi in Darkshire can tell you more about the bow and Merrick's past.",
+   "spoiler": 0
+  },
+  {
+   "title": "Merrick's past",
+   "body": "Sirra Von'Indi says Merrick always wanted to prove himself, and that something happened to him and his family. She thanks you for bringing the bow and hopes it will cast more light on Raven Hill's history.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was Merrick Valor?",
+   "aliases": [
+    "merrick",
+    "merrick valor"
+   ],
+   "answer": "Merrick Valor was a famed Watcher who took pride in keeping roads safe from encroaching enemies."
+  },
+  {
+   "q": "Why is Merrick's spirit wandering?",
+   "aliases": [
+    "merrick ghost",
+    "why spirit wandering"
+   ],
+   "answer": "Merrick's spirit still wanders the roads. His unfinished business may be tied to the ogres south of Raven Hill."
+  },
+  {
+   "q": "What does Merrick's bow have to do with Raven Hill?",
+   "aliases": [
+    "merrick bow",
+    "bow raven hill"
+   ],
+   "answer": "Sirra Von'Indi hopes Merrick's bow can shed more light on Raven Hill's history."
+  },
+  {
+   "q": "Who is Sirra Von'Indi?",
+   "aliases": [
+    "sirra",
+    "sirra von indi"
+   ],
+   "answer": "Sirra Von'Indi is in Darkshire and can tell you more about Merrick's bow."
+  },
+  {
+   "q": "What happened to Merrick and his family?",
+   "aliases": [
+    "merrick family",
+    "what happened merrick"
+   ],
+   "answer": "Sirra Von'Indi says something happened to Merrick and his family, but gives no further details."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "darkshire",
+  "merrick valor",
+  "merrick's bow",
+  "ogres",
+  "raven hill",
+  "sirra von'indi",
+  "splinter fist",
+  "watcher"
+ ],
+ "related": [
+  "quest:163",
+  "subzone:darkshire",
+  "npc:sirra-von-indi"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Merrick's Bow"
+ ]
+}

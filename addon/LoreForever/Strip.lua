@@ -201,8 +201,10 @@ local function placeLoreHash()
   if sub then
     local ok, key = pcall(eng.SubzoneKey, eng, sub, zone)
     hash = loreHash(ok and key or nil, PLACE_LORE)
-    local area = hash == 0 and ns.DB.index and ns.DB.index.area
-    if area then hash = loreHash(area[ns.Engine.lower(sub)], PLACE_LORE) end
+    if hash == 0 then
+      local okArea, area = pcall(eng.AreaKey, eng, sub, zone)
+      hash = loreHash(okArea and area or nil, PLACE_LORE)
+    end
   end
   if hash == 0 and zone then
     local ok, zk = pcall(eng.ZoneKey, eng, zone)
@@ -776,6 +778,7 @@ end
 
 local landingRetry = false
 local function onArrival(_, event)
+  Strip.TellHome()   -- out of a fight or an instance now, it can say so (LOR-688)
   if event == "PLAYER_REGEN_ENABLED" then
     if arrivedInFight then arrivedInFight = false; arrive() end
     return
@@ -1008,8 +1011,21 @@ function Strip.ToggleSky()
   if ns.Options.panel and ns.Options.panel.updateWillo then ns.Options.panel.updateWillo() end
   tell(s.liveStripAlways and L["%s's sky stays up now."]:format(name)
     or L["%s's sky is hidden until you talk to her."]:format(name))
+  Strip.TellHome()
 end
 _G.LoreForever_ToggleSky = Strip.ToggleSky
+
+-- Once per account, when the sky is first kept up under the buffs (LOR-688): where it went and how to put it elsewhere.
+-- At login for whoever already keeps it up, on the switch for everyone else; never in a fight or an instance, so
+-- onArrival looks again after.
+function Strip.TellHome()
+  local s = S()
+  if s.skyHomeTold or not ns.Sky.UnderBuffs() then return end
+  if yes(try(InCombatLockdown)) or yes(try(UnitAffectingCombat, "player")) or yes(try(IsInInstance)) then return end
+  s.skyHomeTold = true
+  tell(ns.L["%s's sky is now under your buffs, so your map is clear. To put it somewhere else: Options, Move the sky."]
+    :format(ns.COMPANION_NAME))
+end
 
 -- Once, at the update that hid the sky (LOR-1126): whoever kept it up goes hidden and is told how to get it back. After
 -- SyncWillo, so her yes counts as on. A choice made after this stands.

@@ -334,7 +334,7 @@ P.transport["quest:1057"] = {
   fullHash = "0a96da",
   text = "Reclaiming the Charred Vale. Keeper Albagorm sends Alliance fighters from Stonetalon Peak to drive Bloodfury harpies from the ruined Charred Vale. Their removal will clear the way for druids and caretakers to heal the scorched land. South of Stonetalon Peak, the Charred Vale lies in ash and smoldering ruins. A lush alpine haven once stood there. A mechanized logging and mining army stripped the trees and let fires rage unchecked. For the guardians of Stonetalon, the woodland's loss to industrial greed is a wound they cannot ignore. Bloodfury harpies claimed the ashes left by the mechanical fires. They swarm the smoking lowlands, nest there, and ambush anyone who approaches. Keeper Albagorm and his allies cannot cross the soil to sow seeds of renewal. The harpies bar every outsider's way. The Bloodfury roosts must be broken before restoration can begin. Keeper Albagorm sends seasoned Alliance fighters deep among the tribe to slay its hunters, ambushers, and roguefeathers. Their numbers must fall before the land can be reclaimed for nature and the forest spirits can breathe freely again.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1057-841ca278a7985ce7f394/1-0000.mp3", duration = 65.8285714, start = 0},
+    {file = "Audio/Transport/full_quest_1057-199d5fcbfa0fbba71738/1-0000.mp3", duration = 66.1681633, start = 0},
   },
 }
 P.transport["quest:1058"] = {
@@ -350,7 +350,7 @@ P.transport["quest:1059"] = {
   fullHash = "5f9ca4",
   text = "Reclaiming the Charred Vale. Far to the south, Keeper Albagorm looks for help to restore the Charred Vale. The Bloodfury harpies have been driven back for now, but force alone cannot heal the wounded land. Ash covers the Charred Vale in southern Stonetalon Mountains, where terrible destruction has scarred the land. Alliance forces under Keeper Albagorm drove the Bloodfury harpies from their nests in the ruins, but the harpies may return. Force can only hold them back. The ravaged earth must heal before they come back to claim the Vale. The grove tenders cannot restore the scorched land alone. So Keeper Albagorm sends you south, past the salt flats and canyons of Thousand Needles, to Thalanaar on the border of Feralas. Falfindel Waywarder waits there. The night elf druid is known for a rare gift: calling ancient forest spirits to bring life back to dead soil.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1059-1660e63bc74c954fd842/1-0000.mp3", duration = 50.1812245, start = 0},
+    {file = "Audio/Transport/full_quest_1059-9ff448b5054266098575/1-0000.mp3", duration = 53.1591837, start = 0},
   },
 }
 P.transport["quest:106"] = {
@@ -370,11 +370,11 @@ P.transport["quest:1060"] = {
   },
 }
 P.transport["quest:1066"] = {
-  hash = "eaebd8",
-  fullHash = "eaebd8",
-  text = "Blood of Innocents. In Tarren Mill, Apothecary Lydon prepares a remedy for the Venture Company in Stonetalon Mountains. The Royal Apothecary Society turns to blood taken by local bandits to pacify the company. The Horde struggles against the Venture Company in Stonetalon Mountains. The company ravages the wilderness and harms its people, so Apothecary Lydon proposes alchemy instead of sending armies to blunt their axes. He means to brew an agent that will paralyze and pacify the mercenaries, leaving them weak and docile. Apothecary Lydon needs a rare and troubling ingredient: innocent blood. He will not send Horde agents to kill innocents, so he turns to the Syndicate's crimes. Fallen nobles and cutthroats occupy Durnholde Keep, where rogue shadow mages harvest innocent blood for profane rituals. Lydon targets those mages for alchemical supplies.",
+  hash = "b0b3bd",
+  fullHash = "b0b3bd",
+  text = "Blood of Innocents. In Tarren Mill, Apothecary Lydon prepares a remedy for the Venture Company in Stonetalon Mountains. The Royal Apothecary Society turns to blood taken by local bandits to pacify the company. Horde leaders in Kalimdor have turned to the Royal Apothecary Society for help against the Venture Company. The company ravages the wilderness and harms its people, so Apothecary Lydon proposes alchemy instead of sending armies to blunt their axes. He means to brew an agent that will paralyze and pacify the mercenaries, leaving them weak and docile. Apothecary Lydon needs a rare and troubling ingredient: innocent blood. He will not send Horde agents to kill innocents, so he turns to the Syndicate's crimes. Fallen nobles and cutthroats occupy Durnholde Keep, where rogue shadow mages harvest innocent blood for profane rituals. Lydon targets those mages for alchemical supplies.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1066-ce8a93a00bae49421172/1-0000.mp3", duration = 52.5583673, start = 0},
+    {file = "Audio/Transport/full_quest_1066-a201878b94e2e8ca0b48/1-0000.mp3", duration = 55.2228571, start = 0},
   },
 }
 P.transport["quest:1067"] = {
@@ -390,7 +390,7 @@ P.transport["quest:1068"] = {
   fullHash = "1e2a1e",
   text = "Shredding Machines. In Windshear Crag, Venture Company shredders wound the spirits of Stonetalon. Seereth Stonebreak hears their cries as XT:4 and XT:9 cut through the forest. Orc shaman Seereth Stonebreak keeps watch along the dusty border between the Barrens and the Stonetalon Mountains. She listens to the unseen realm, but chaos drowns much of Stonetalon’s spiritual voice. One vision came through clear: man-shaped contraptions tearing through ancient woods at unnatural speed. Marked XT:4 and XT:9, the goblin-engineered shredders cut Windshear Crag’s timberlands and send waves of distress through the surrounding nature spirits. The Venture Company works in Windshear Crag, northwest of Greatwood Vale. To curb the damage, Horde champions go there and hunt down the logging constructs. Wrecking XT:4 and XT:9 strikes at the mountains’ commercial deforestation and quiets the wounded tree spirits’ immediate cries. Seereth warns that unless the Venture Company leaves Stonetalon entirely, far darker atrocities await the land.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1068-eff25aeeb95e035f20e2/1-0000.mp3", duration = 64.8620408, start = 0},
+    {file = "Audio/Transport/full_quest_1068-f061a8792e0cfc698916/1-0000.mp3", duration = 64.8620408, start = 0},
   },
 }
 P.transport["quest:1069"] = {
@@ -398,7 +398,7 @@ P.transport["quest:1069"] = {
   fullHash = "a0c172",
   text = "Deepmoss Spider Eggs. In Ratchet, Mebok Mizzyrix sees a chance to sell Deepmoss Spider Eggs to Booty Bay. Spider egg omelettes have become a craze there, so he sends travelers into the Stonetalon Mountains to gather fresh clutches for trade across the sea. Wealthy patrons and eccentric pirates in Booty Bay have taken to spider egg omelettes. Their taste has driven demand for rare ingredients across the Great Sea. Ratchet merchant Mebok Mizzyrix sees a chance to make a fortune by supplying the southern port. The Eastern Kingdoms have no spiders that provide these eggs, so Mebok looks to Kalimdor’s wilderness. Deepmoss spider eggs lie in the Stonetalon Mountains, where the Venture Company has cut timber. Find clutches beneath the trees still standing at Windshear Crag, or farther in, among the web-covered depths of Sishir Canyon. Gathering them means facing venomous bites and thick infestations. Even seasoned scavengers may find the swarms hard to stomach. Fresh eggs must cross the sea before they spoil or hatch. Mebok works with Ratchet’s Wharfmaster Dizzywig to book freight aboard goblin merchant ships bound for the docks of Stranglethorn Vale. Once the eggs are packed into crates, Mebok earns a tidy profit from the high seas trade in fine food.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1069-6e44b1039f5bb4b01d5e/1-0000.mp3", duration = 75.1542857, start = 0},
+    {file = "Audio/Transport/full_quest_1069-fa10dc46c38f0738386d/1-0000.mp3", duration = 73.8481633, start = 0},
   },
 }
 P.transport["quest:107"] = {
@@ -430,7 +430,7 @@ P.transport["quest:1072"] = {
   fullHash = "7ce3ad",
   text = "An Old Colleague. In the Stonetalon Mountains, Gaxim Rustfizzle seeks fuel for a powerful device. He sends you across the sea to Ironforge, where his old acquaintance Lomac Gearstrip can make the hazardous explosive Nitromirglyceronium. Gaxim Rustfizzle is planning his boldest engineering work yet in the Stonetalon Mountains. A mechanism of that scale needs fuel stronger than ordinary gunpowder or crude oil. He needs Nitromirglyceronium, also called NG-5. It is an explosive mix potent enough to ensure destruction if all goes according to plan. Lomac Gearstrip is the only person Gaxim knows who can refine NG-5. His old acquaintance lives far to the east in Tinker Town, the gnome quarter deep inside Ironforge. You make the long journey as Gaxim's courier. Lomac greets you with suspicion and paranoid questions.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1072-6ce1128049937235a904/1-0000.mp3", duration = 53.5771429, start = 0},
+    {file = "Audio/Transport/full_quest_1072-fe00e1ff28ef22c26a2e/1-0000.mp3", duration = 52.5061224, start = 0},
   },
 }
 P.transport["quest:1073"] = {
@@ -438,7 +438,7 @@ P.transport["quest:1073"] = {
   fullHash = "892a30",
   text = "Ineptitude + Chemicals = Fun. In the Stonetalon Mountains, Gaxim Rustfizzle seeks a powerful answer to the Venture Company. He asks you to travel across the sea to Ironforge, where Lomac Gearstrip will brew Nitromirglyceronium if you bring the needed alchemical reagents. Gaxim Rustfizzle needs powerful explosives for his finest device against the Venture Company. He is stationed high in the craggy passes of the Stonetalon Mountains, far from his former colleague Lomac Gearstrip in Ironforge. Lomac created Nitromirglyceronium, a brew so unstable and destructive that he laughs at the thought of anyone using it, whoever gets blown apart. Lomac wants to see goblin machinery blown to pieces, and perhaps you too. But his Ironforge workshop has run out of Nitromirglyceronium. Before he brews another batch, he asks you for Minor Mana Potions and Elixirs of Minor Fortitude. These draughts provide the raw reagents for his mixture, and gathering them lets Lomac judge whether you have any respect for alchemy.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1073-a15bf5fe3f5059cc848d/1-0000.mp3", duration = 60.3689796, start = 0},
+    {file = "Audio/Transport/full_quest_1073-50745438b6ada2b788cd/1-0000.mp3", duration = 58.88, start = 0},
   },
 }
 P.transport["quest:1074"] = {
@@ -446,7 +446,7 @@ P.transport["quest:1074"] = {
   fullHash = "55feb9",
   text = "Ineptitude + Chemicals = Fun. In the Stonetalon Mountains, Lomac Gearstrip sends volatile NG-5 to Gaxim Rustfizzle. The chemical can ignite wagons packed with dynamite, drawing enemies away while Alliance forces pursue their goals in the disputed crags. Lomac Gearstrip gives you Nitromirglyceronium, or NG-5, an unstable compound made through gnomish engineering. He warns you to handle it with care. Mishandled, it could blow you to pieces on the road back to Gaxim Rustfizzle.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1074-4516cf585546039c4eb0/1-0000.mp3", duration = 29.0742857, start = 0},
+    {file = "Audio/Transport/full_quest_1074-0f2c971c6d8fb22ee056/1-0000.mp3", duration = 28.2906122, start = 0},
   },
 }
 P.transport["quest:1075"] = {
@@ -478,7 +478,7 @@ P.transport["quest:1078"] = {
   fullHash = "de58d8",
   text = "Retrieval for Mauren. In Stormwind, Collin Mauren asks travelers bound for Kalimdor to bring rare basilisk scales. He wants scales from the Charred Vale in Stonetalon, ground to dust for his spellcraft. In Stormwind's Mage Quarter, wizard Collin Mauren listens to tales from wandering adventurers. He has heard that travelers venture deep into Kalimdor, where Stonetalon draws those seeking wild wyverns, unruly elementals, or dealings and clashes with the Venture Company. Mauren seeks neither riches nor glory. He wants to learn what rare natural wonders survive in the region's harshest corners. Deep in Stonetalon, the Charred Vale is an ash-choked basin scarred by the Venture Company's devastation. Mauren's studies say a peculiar breed of basilisk once lived there. Ground to fine powder, their scales can catalyze specialized arcane spells he has devised. Mauren does not know whether the basilisks survived the Vale's harsh transformation. So he asks explorers to bring back fresh crystallised scales and learn whether the breed endures.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1078-c528ed1d671a7d0a05b3/1-0000.mp3", duration = 64.8881633, start = 0},
+    {file = "Audio/Transport/full_quest_1078-da627d4ae51e2f2f0037/1-0000.mp3", duration = 63.1640816, start = 0},
   },
 }
 P.transport["quest:1079"] = {
@@ -486,7 +486,7 @@ P.transport["quest:1079"] = {
   fullHash = "8ae73e",
   text = "Covert Ops - Alpha. Alliance agents move against the Venture Company in the Stonetalon Mountains. Under Gaxim Rustfizzle, they enter the lumber mill in Windshear Crag to recover its engineering schematics. From Windshear Crag, Gaxim Rustfizzle directs a covert effort against the Venture Company's aggressive logging. Goblin loggers cut timber south of Cragpool Lake. Destruction alone cannot stop them, so Plan Alpha sends agents past the loggers and overseers to take the mill's technical schematics. The Venture Company's schematics interest gnomes for more than the night elves' forests. They reveal how goblin loggers, mechanical cutters and mechanized transports work. Alliance engineers can study their structural flaws to break up future operations. They can also adapt goblin designs for their own projects in Ironforge.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1079-4c11e08ce3c356225b24/1-0000.mp3", duration = 48.3004082, start = 0},
+    {file = "Audio/Transport/full_quest_1079-0b5d06e6b508a47a5ca8/1-0000.mp3", duration = 49.2408163, start = 0},
   },
 }
 P.transport["quest:1080"] = {
@@ -494,7 +494,7 @@ P.transport["quest:1080"] = {
   fullHash = "e4881a",
   text = "Covert Ops - Beta. In Stonetalon, Gaxim Rustfizzle sends an agent into the Venture Company’s mine. Explosives draw the goblins away while the agent takes letters that reveal company plans and help defend Sentinel lands. After the first blows against the Venture Company’s logging at Windshear Crag, Gaxim Rustfizzle turns to its supply heart. As before, explosives will scatter goblin workers and mercenaries. Then an agent searches the mine for written orders and records. At the eastern edge of Windshear Crag, Windshear Mine is the Venture Company’s base beneath the mountain. Goblins dig for rock and cut timber there, keeping records of supply routes and orders from their leaders. An agent slips inside, sets Gaxim’s explosive packs, and takes the Venture Co. Letters. The blast disrupts the mine’s guard, and the letters reveal more of the company’s plans in Kalimdor. Gaxim takes pleasure in clever devices and explosions. His work also matters to the night elves. In Stonetalon, the Sentinels face the Horde and the companies cutting and digging through their lands. Letters from the mine give commanders such as Kaela Shadowspear information to anticipate threats to the sacred woods.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1080-6d236eb56beceee0ed3f/1-0000.mp3", duration = 72.8816327, start = 0},
+    {file = "Audio/Transport/full_quest_1080-e5955706aa987831be14/1-0000.mp3", duration = 69.8253061, start = 0},
   },
 }
 P.transport["quest:1081"] = {
@@ -502,7 +502,7 @@ P.transport["quest:1081"] = {
   fullHash = "7d0142",
   text = "Reception from Tyrande. At the Temple of the Moon, Tyrande Whisperwind receives you after your aid in Stonetalon. Sentinel Thenysil sends you from Astranaar to Darnassus for an audience with the High Priestess. The Venture Company presses the night elf outposts across the Stonetalon Mountains. Sentinel Thenysil directs their defense from Astranaar, but the distant bases are difficult to supply. Supplies and intelligence help the Sentinels hold an Alliance presence in Kalimdor's interior. Your aid strengthens their position. After your aid bolsters the Sentinels in Stonetalon, Sentinel Thenysil sends you back to Teldrassil. Tyrande Whisperwind, the High Priestess, receives you at the Temple of the Moon in Darnassus. She recognizes your deeds across Kalimdor and welcomes you as an ally fighting beside the kaldorei.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1081-e1ad2600e3cbec6c4443/1-0000.mp3", duration = 48.3004082, start = 0},
+    {file = "Audio/Transport/full_quest_1081-b00f9c3f400e7024362e/1-0000.mp3", duration = 49.7893878, start = 0},
   },
 }
 P.transport["quest:1082"] = {
@@ -526,7 +526,7 @@ P.transport["quest:1084"] = {
   fullHash = "c5f5e9",
   text = "Wounded Ancients. Goblin weapons may be poisoning the treants in the Stonetalon Mountains. Kaela Shadowspear asks you to gather shrapnel from the maddened guardians for Gaxim Rustfizzle to study. The treants once guarded Stonetalon's groves, fierce in defense and bound to the land's health. When the Venture Company came with buzzsaws, explosives, and strip-mining, the forest fought back. The treants drove the invaders from parts of the vale, but they did not return to their peaceful watch. Now they are hostile and maddened. Kaela Shadowspear, an Alliance scout in the mountains, believes no natural sickness afflicts the treants. Gaxim Rustfizzle, a gnome engineer, suspects goblin weapons and chemicals harmed them during the Venture Company's chaotic retreat. He hopes corroded shrapnel from the wounded treants will show whether Venture Company ordnance is poisoning Stonetalon's ancient protectors.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1084-7b9f560c4be0c4604887/1-0000.mp3", duration = 52.3493878, start = 0},
+    {file = "Audio/Transport/full_quest_1084-04f93cea4df10eebb7e8/1-0000.mp3", duration = 51.2522449, start = 0},
   },
 }
 P.transport["quest:1085"] = {
@@ -534,7 +534,7 @@ P.transport["quest:1085"] = {
   fullHash = "1115d8",
   text = "On Guard in Stonetalon. At a camp near Windshear Crag, Kaela Shadowspear sends Alliance travelers to Gaxim Rustfizzle for aid against the Venture Company. Together, the cautious night elf sentinel and eccentric gnome tinkerer guard the mountain pass from the company's rampant despoilment. The Venture Company cuts into the wilderness of Stonetalon Mountains and fells its ancient trees. Kaela Shadowspear, a night elf sentinel, knows martial skill alone cannot stop such industrial pillaging. So she turns to gnome ingenuity, though night elves and gnomes seldom agree about technology or the natural world. Their alliance shows how precarious the struggle has become. Gaxim Rustfizzle brings the eccentric pragmatism of the Alliance's smaller allies. Night elf society turned from arcane excess millennia ago, but Gaxim believes rejecting magic and technical innovation leaves the night elves vulnerable. He hopes to show his Kaldorei hosts that practical science can defend nature alongside bow and glaive.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1085-6b2a790467caf547a2fd/1-0000.mp3", duration = 60.4995918, start = 0},
+    {file = "Audio/Transport/full_quest_1085-f21169a15b56b16f6e4d/1-0000.mp3", duration = 60.1861224, start = 0},
   },
 }
 P.transport["quest:1086"] = {
@@ -542,7 +542,7 @@ P.transport["quest:1086"] = {
   fullHash = "0f284a",
   text = "The Flying Machine Airport. Apothecary Zamah sends you to silence The Flying Machine Airport above Stonetalon. Carry her Toxic Fogger into the Venture Company’s logging grounds and strike at the cartel’s link to the outside world. Apothecary Zamah prepares Apothecary Lydon’s toxin for the Venture Company. The tauren want to protect Stonetalon from deforestation and ravaging machinery, while the Forsaken take another path. Zamah aims at the cartel’s connection beyond the mountains, not its foot soldiers or loggers. Rumor speaks of a copter pad carrying light cargo and messages between Stonetalon and distant corporate offices. The Venture Company’s copter pad lies high in the Cragpool Lake area, south of the great waterwheel. A small platform there serves lightweight flying machines, not massive zeppelins. You are sent to set off the Toxic Fogger, filling the pad with toxic vapor before a pilot, courier, or mechanic can alert the company’s commanders.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1086-3187747c27f9a5dbaca6/1-0000.mp3", duration = 54.8832653, start = 0},
+    {file = "Audio/Transport/full_quest_1086-23a8901b84af3c4d9b52/1-0000.mp3", duration = 56.7379592, start = 0},
   },
 }
 P.transport["quest:1087"] = {
@@ -550,7 +550,7 @@ P.transport["quest:1087"] = {
   fullHash = "a4ee26",
   text = "Cenarius' Legacy. Near Sun Rock Retreat, Cenarius' Legacy turns Braelyn Firehand's grievance into a call to arms. The blood elf mage says the night elves and Cenarius's children suppress the land's magic. She wants them culled at Stonetalon Peak so raw arcane power can flow freely, while their defeat weakens the Alliance presence in the mountains. Braelyn Firehand lives in the hills near Sun Rock Retreat, frustrated by Stonetalon's natural wards. She says the druids of the Cenarion Circle and the offspring of the demigod Cenarius choke the land's arcane currents. To Braelyn, channeling power here is like drawing water with a perforated bucket. She wants to strip away those defenses and let raw magical energy surge freely again. Braelyn sends Horde champions north to Stonetalon Peak to break the wardens' hold. Ancient kaldorei groves and temple grounds there are patrolled by Cenarion Botanists and the proud Sons and Daughters of Cenarius. Striking them down would weaken the wards that muffle Braelyn's spellcraft. It would also deal a bloody blow to the night elf enclave that threatens the Horde's foothold in the mountains.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1087-2c229eaaeae800fc0605/1-0000.mp3", duration = 68.2840816, start = 0},
+    {file = "Audio/Transport/full_quest_1087-10d564c9983f30db614b/1-0000.mp3", duration = 68.1795918, start = 0},
   },
 }
 P.transport["quest:1088"] = {
@@ -558,7 +558,7 @@ P.transport["quest:1088"] = {
   fullHash = "a8cb50",
   text = "Ordanus. At Sunrock Retreat, Braelyn Firehand hunts Keeper Ordanus, an elder son of Cenarius who fled Stonetalon Peak. She believes his people desecrated ancient Highborne ruins, so she sends Horde champions across the border into Ashenvale to take his head. Braelyn Firehand came to Stonetalon Mountains on her master's orders. She was sent to reclaim the sacred ruins of Azshara's ancient temples. At the peak, she found night elves treating relics of her Highborne forebears as wilderness to be contained. Keeper Ordanus escaped her and crossed into Ashenvale. Using arcane vision, Braelyn found him high in a wooden refuge at Raynewood Retreat, then enlisted the Horde to finish the hunt. Keeper Ordanus is counted among the eldest of Cenarius's sons, with deep ties to Kalimdor's wild magics. Night elf guardians moved him from Stonetalon Peak to Raynewood Retreat to shield him from arcane forces encroaching on sacred groves. Loyal Cenarion Vindicators and summoned woodland treants defend him. To Braelyn, Ordanus carries the forest demigod's ancient authority and stands in the way of her vengeance.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1088-26777f2832091b40079e/1-0000.mp3", duration = 68.6497959, start = 0},
+    {file = "Audio/Transport/full_quest_1088-5ce7ab7529c3f6bfd024/1-0000.mp3", duration = 68.4146939, start = 0},
   },
 }
 P.transport["quest:1089"] = {
@@ -574,15 +574,15 @@ P.transport["quest:1090"] = {
   fullHash = "28282e",
   text = "Gerenzo's Orders. At the Venture Company dig site in Stonetalon, Piznik works against his new boss, Gerenzo. The ousted goblin digs a sample to expose the ore operation while an ally guards him from patrols at the camp. At Windshear Crag, the Venture Company rewards ruthlessness over loyalty. Piznik once served as second-in-command at the excavation. Then Gerenzo seized power, fired supervisor Ziz Fizziks, and sent Piznik back to the mines with a pick. Yet Piznik stayed. At Ziz's instruction, he became an informant, watching Gerenzo's every move and waiting for a chance to strike back at the supervisor who displaced him. Gerenzo's takeover began with an obsession: strange gold-green ore in the Stonetalon rock. He believes the mineral is worth an extraordinary sum, and ordered miners to tear it from the earth in huge quantities. Ziz Fizziks now has a mysterious employer who may pay well for news of the venture. So Piznik risks discovery to dig out a sample. An ally holds off aggressive diggers, vermin, and overseers who police the operation.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1090-f8dbcf3c7db6c862efaf/1-0000.mp3", duration = 64.4702041, start = 0},
+    {file = "Audio/Transport/full_quest_1090-bfdbd04a72f7bd4ea0e0/1-0000.mp3", duration = 65.4367347, start = 0},
   },
 }
 P.transport["quest:1091"] = {
-  hash = "d6a868",
-  fullHash = "d6a868",
-  text = "Kaela's Update. Gaxim Rustfizzle sends you back to Kaela Shadowspear with letters taken from the Venture Company. Their contents help the Sentinels track the goblin cartel's work in Stonetalon. Gaxim Rustfizzle sends you back to Kaela Shadowspear with captured letters. You helped the gnome mage uncover Venture Company movements, and he gathered correspondence about the cartel's operations. Kaela, a night elf Sentinel coordinator near Windshear Crag, is waiting for the letters. Gaxim also asks you to tell her how his magic helped the investigation. The Sentinels watch Stonetalon's crags with concern. Horde forces contest the lower trails, while the Venture Company cuts trees and mines the land. Its letters show Kaela how the cartel communicates, helping the Alliance plan defenses along the ridges.",
+  hash = "3cd553",
+  fullHash = "3cd553",
+  text = "Kaela's Update. Gaxim Rustfizzle sends you back to Kaela Shadowspear with letters taken from the Venture Company. Their contents help the Sentinels track the goblin cartel's work in Stonetalon. With his magic, Gaxim Rustfizzle hinders the Venture Company on the Sentinels' side. You helped the gnome mage uncover Venture Company movements, and he gathered correspondence about the cartel's operations. Kaela, a night elf Sentinel coordinator near Windshear Crag, is waiting for the letters. Gaxim also asks you to tell her how his magic helped the investigation. The Sentinels watch Stonetalon's crags with concern. Horde forces contest the lower trails, while the Venture Company cuts trees and mines the land. Its letters show Kaela how the cartel communicates, helping the Alliance plan defenses along the ridges.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1091-b4e2efd006e5d74c7cd2/1-0000.mp3", duration = 45.5314286, start = 0},
+    {file = "Audio/Transport/full_quest_1091-89cd26ae91fb37f20af5/1-0000.mp3", duration = 48.9534694, start = 0},
   },
 }
 P.transport["quest:1092"] = {
@@ -614,7 +614,7 @@ P.transport["quest:1095"] = {
   fullHash = "6acacf",
   text = "Further Instructions. In the Stonetalon Mountains, Sputtervalve carries an order from Undermine to Ziz Fizziks. Gerenzo Wrenchwhistle, hired by Mogul Razdunk, must be eliminated. The Trade Princes have heard that Mogul Razdunk hired Gerenzo Wrenchwhistle, and the news has stirred trouble in Undermine. Director Riddlevox tells Sputtervalve to intervene quietly. Believing the order comes from the highest trade authorities, Sputtervalve passes the work to Ziz Fizziks, the operative nearest the scene.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1095-44069f7f24ec08fc277f/1-0000.mp3", duration = 28.9959184, start = 0},
+    {file = "Audio/Transport/full_quest_1095-62aed6b6acac57fc3b48/1-0000.mp3", duration = 29.44, start = 0},
   },
 }
 P.transport["quest:1096"] = {
@@ -894,7 +894,7 @@ P.transport["quest:1152"] = {
   fullHash = "aaa274",
   text = "Test of Lore. In Thousand Needles, Dorn Plainstalker sends Horde champions north to face a trial of the world's history. Braug Dimspirit waits in Stonetalon Mountains to test what they know of Azeroth and its shared suffering. At the Weathered Nook, Dorn Plainstalker tests initiates in faith, endurance, and combat. Yet strength and faith alone do not make a true Horde champion. Dorn knows the bounds of what he can teach, so he sends those who have proved themselves to Stonetalon Mountains. There, an elder shaman will test their minds and knowledge of the world. The road runs north over the Barrens' dry scrub and into the crags of Stonetalon. High in the mountains, near the entrance to Talondeep Path, Braug Dimspirit keeps his hermitage. The cavern cuts through the rock toward Ashenvale. From there, Braug looks upon a frontier at war: goblin logging ventures despoil the forests, while hostile night elves fiercely defend their ancestral borders.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1152-7873a969fb9d8b1e81ac/1-0000.mp3", duration = 57.3126531, start = 0},
+    {file = "Audio/Transport/full_quest_1152-ac6db4554600a754078a/1-0000.mp3", duration = 58.4620408, start = 0},
   },
 }
 P.transport["quest:1153"] = {
@@ -910,7 +910,7 @@ P.transport["quest:1154"] = {
   fullHash = "796d1b",
   text = "Test of Lore. At Talondeep Path, Horde seekers face the Test of Lore. Braug Dimspirit asks them to find and study a tome of dragon history before he tests what they remember. After trials across Thousand Needles' salt flats and plateaus, Dorn Plainstalker's candidates travel north to Braug Dimspirit in the Stonetalon Mountains. He waits near the mouth of Talondeep Path. Braug counts those earlier trials as tests of body and faith. Yet the Horde also needs disciplined minds and knowledge of ancient history, not only skill against beasts. Braug sends seekers through Talondeep Path into southern Ashenvale. Beneath the trees south of Splintertree Post lies Dor'Danil Barrow Den, a dangerous ruin haunted by fallen night elf druids and the creatures that slaughtered them. Deep in its lower chambers, a stone podium holds 'Legacy of the Aspects'. The rare manuscript tells of the ancient creation and corruption of the great Dragon Aspects.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1154-1f225d5ff1aa8e259c2b/1-0000.mp3", duration = 57.8089796, start = 0},
+    {file = "Audio/Transport/full_quest_1154-05f7b109d1b23bd30289/1-0000.mp3", duration = 56.6857143, start = 0},
   },
 }
 P.transport["quest:1159"] = {
@@ -1726,7 +1726,7 @@ P.transport["quest:1437"] = {
   fullHash = "e5b20a",
   text = "Vahlarriel's Search. In Desolace, Vahlarriel Demonslayer searches for two missing nobles of House Malem. Their father fears the worst, and the siblings were last reported crossing the Stonetalon Mountains some weeks ago. Vahlarriel asks you to find their wagon. Vahlarriel Demonslayer seeks Tyranis and Dalinda Malem. Their father has charged Vahlarriel with doing everything possible to find them. The search has only begun, and Vahlarriel hopes it will not keep them in Desolace long. The siblings were last reported crossing the Stonetalon Mountains some weeks ago. You are asked to find their wagon in Desolace and return at once. Its charred remains lie there, with a chest among them.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1437-39fd50b37508d9b9f409/1-0000.mp3", duration = 41.2734694, start = 0},
+    {file = "Audio/Transport/full_quest_1437-cf32a0cf04c01736d3a0/1-0000.mp3", duration = 41.6914286, start = 0},
   },
 }
 P.transport["quest:1438"] = {
@@ -2790,7 +2790,7 @@ P.transport["quest:1844"] = {
   fullHash = "d1e7c9",
   text = "Chimaeric Horn. In the Charred Vale, a suffering chimaera matriarch tests a Horde warrior’s strength and mercy. Orm Stonehoof needs her horn for the Brutal Helm, and the hunt will prove the warrior’s resolve. Orm Stonehoof will forge the Brutal Helm for Horde warriors, but custom asks for proof before he begins. Metal and coin are not enough. A warrior must show martial skill and face the scars left by devastating conflict. The Charred Vale lies in the southwestern Stonetalon Mountains, buried in ash. Once lush and green, the valley was burned into a smoking wasteland. Beasts still roam its soot-covered craters, twisted by pain and fury. Mighty chimaeras nest among dead trees and searing steam vents. To the tauren smith, the chimaera matriarch’s horn is needed for the helm and proves a warrior’s strength. Yet the hunt also ends her torment. By felling the matriarch, the warrior brings mercy to a wild spirit driven mad by the destruction of her home.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1844-13908b1906623d51e242/1-0000.mp3", duration = 61.44, start = 0},
+    {file = "Audio/Transport/full_quest_1844-89f0746daaef7aae279b/1-0000.mp3", duration = 60.5257143, start = 0},
   },
 }
 P.transport["quest:1845"] = {
@@ -3602,11 +3602,11 @@ P.transport["quest:2927"] = {
   },
 }
 P.transport["quest:2928"] = {
-  hash = "b2249c",
-  fullHash = "b2249c",
-  text = "Gyrodrillmatic Excavationators. In Stormwind's Dwarven District, Shoni the Shilent readies tunneling machines for Dun Morogh. Short on parts, she sends you into Gnomeregan to salvage them from rogue automatons. In Stormwind's Dwarven District, Shoni the Shilent prepares gyrodrillmatic excavationators for Dun Morogh. Gnomish engineers there aid their displaced kin. The machines will carry people and supplies underground, but these massive rigs cannot work without the mechanical parts Shoni lacks. Gnomeregan once supplied gnomish high technology. Its ruined halls and nearby tunnels still hold machines worth salvaging, though malfunctioning defense bots, mechanical sentries, and clockwork laborers roam unchecked. Shoni sends you into the fallen city for two dozen bundles of robo-mechanical guts, to bring back to human lands. Two dozen bundles of mechanical guts provide enough scrap to repair one excavationator. Shoni still has nearly four hundred machines to prepare, so mass transport underground remains a slow undertaking. Each working machine is a small step toward regaining ground lost in Gnomeregan's fall.",
+  hash = "691656",
+  fullHash = "691656",
+  text = "Gyrodrillmatic Excavationators. In Stormwind's Dwarven District, Shoni the Shilent readies tunneling machines for Dun Morogh. Short on parts, she sends you into Gnomeregan to salvage them from rogue automatons. Hundreds of gyrodrillmatic excavationators wait to be made ready in the Dwarven District. Gnomish engineers there aid their displaced kin. The machines will carry people and supplies underground, but these massive rigs cannot work without the mechanical parts Shoni lacks. Gnomeregan once supplied gnomish high technology. Its ruined halls and nearby tunnels still hold machines worth salvaging, though malfunctioning defense bots, mechanical sentries, and clockwork laborers roam unchecked. Shoni sends you into the fallen city for two dozen bundles of robo-mechanical guts, to bring back to human lands. Two dozen bundles of mechanical guts provide enough scrap to repair one excavationator. Shoni still has nearly four hundred machines to prepare, so mass transport underground remains a slow undertaking. Each working machine is a small step toward regaining ground lost in Gnomeregan's fall.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2928-660c0c0c8a80a06f61e2/1-0000.mp3", duration = 66.6122449, start = 0},
+    {file = "Audio/Transport/full_quest_2928-9c36a7e9a86ee29efd17/1-0000.mp3", duration = 67.4481633, start = 0},
   },
 }
 P.transport["quest:293"] = {
@@ -3710,7 +3710,7 @@ P.transport["quest:2962"] = {
   fullHash = "5423ac",
   text = "The Only Cure is More Green Glow. In Kharanos, Ozzie Togglevolt seeks a cure for the leper gnomes. He needs a pure sample of fallout from deep inside Gnomeregan. Ozzie Togglevolt's first tests outside Gnomeregan gave him no answers. The troggs in Dun Morogh carried too little residue, and what they bore was impure. Now, from his lab in Kharanos, Ozzie seeks a fresh, concentrated sample from deep inside the city. He hopes it will help him find a remedy for the leper gnomes. You need to gather potent fallout from inside Gnomeregan. Irradiated horrors, lurkers, and slimes fill the lower depths around the Hall of Gears and Clean Zone. Their unstable ooze must be carried in a heavy leaden phial, and the work is dangerous. The fallout quickly loses its potency, so you need to get it to Ozzie's lab in Kharanos in time.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2962-1c755e5ca32c0a6cfb31/1-0000.mp3", duration = 50.2595918, start = 0},
+    {file = "Audio/Transport/full_quest_2962-d54c4e99d1d857047cba/1-0000.mp3", duration = 50.2073469, start = 0},
   },
 }
 P.transport["quest:297"] = {
@@ -3846,7 +3846,7 @@ P.transport["quest:320"] = {
   fullHash = "04a0d7",
   text = "Return to Bellowfiz. You bring Evershine to Pilot Bellowfiz at Steelgrill's Depot in Dun Morogh. After the local hunting, the thirsty driver awaits a fresh drink. After helping with local hunting, you receive a fresh cask of Evershine for Pilot Bellowfiz. Carry it through snowy Dun Morogh to Steelgrill's Depot. Such favors help people on the cold frontier look after one another. Steelgrill's Depot lies just outside Kharanos. Gnomes test machinery, tend vehicles, and practice their craft there. The pilots face freezing winds and welcome a strong local drink. When you arrive with the cask, Pilot Bellowfiz is eager to uncork a bottle and taste the brew made by locals.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_320-e3a85bccfffcd5c2e798/1-0000.mp3", duration = 41.8481633, start = 0},
+    {file = "Audio/Transport/full_quest_320-0d4a5a07c3ae3cc627dc/1-0000.mp3", duration = 40.8816327, start = 0},
   },
 }
 P.transport["quest:321"] = {
@@ -4038,7 +4038,7 @@ P.transport["quest:3514"] = {
   fullHash = "a1cc1d",
   text = "Horde Presence. At the Barrens border, Kadrak sends a Horde champion into Stonetalon Peak after a missive is intercepted. The champion is to kill the dryad Rynthariel and plant a Horde banner inside the Talon Den. Kadrak watches the Barrens’ northern boundary for Alliance and night elf incursions. A messenger carrying a runed scroll is cut down, and Kadrak decodes the missive. It leads him to Rynthariel the Keymaster, an influential dryad in Stonetalon Peak. Rather than merely guard the mountain passes, Kadrak strikes first, hoping to deter future scouts from probing Horde territory. Horde warriors enter the Talon Den, a cavern overlooking Stonetalon Peak. Killing Rynthariel strikes at the night elves’ local coordination. Kadrak’s banner is planted inside the cave. Its red standard marks the heart of dryad territory with a warning: incursions into the Barrens will meet decisive violence.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3514-c45c87fee5e7f3f6f3ba/1-0000.mp3", duration = 54.9616327, start = 0},
+    {file = "Audio/Transport/full_quest_3514-77603a4546f1312bf3e4/1-0000.mp3", duration = 55.1444898, start = 0},
   },
 }
 P.transport["quest:3567"] = {
@@ -4406,7 +4406,7 @@ P.transport["quest:480"] = {
   fullHash = "73a340",
   text = "The Weaver. In Silverpine Forest, Ataeric works to wake a dormant ley node for Dalaran. At the Sepulcher, Shadow Priest Allister sends you to stop the archmage and take his staff, lest Dalaran’s magic threaten Forsaken control of southern Lordaeron. After your earlier inquiries into Ambermill and Dalaran’s movements, the Forsaken learned that its wizards seek to wake a dormant ley energy node in Silverpine Forest. Dalaran could draw on that concentrated arcane power to strengthen its position and threaten the Undercity’s hold over southern Lordaeron.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_480-5eb38a633ea8feb8b698/1-0000.mp3", duration = 32.6008163, start = 0},
+    {file = "Audio/Transport/full_quest_480-604e0c6f7784e9469fc8/1-0000.mp3", duration = 32.3395918, start = 0},
   },
 }
 P.transport["quest:4821"] = {
@@ -5478,7 +5478,7 @@ P.transport["quest:6282"] = {
   fullHash = "fff3b6",
   text = "Harpies Threaten. In the Charred Vale, Bloodfury harpies threaten the roads west of Sun Rock Retreat. Maggran Earthbinder calls Horde warriors to thin their growing ranks and keep travel through Stonetalon open. Tauren at Sun Rock Retreat guard Stonetalon and its peaceful travelers. Maggran Earthbinder, the retreat’s elder leader, has watched the harpy ranks grow. The Bloodfury coven has spread through the scorched Charred Vale, harrying beasts and blocking routes. If the flocks grow further, Sun Rock Retreat could be cut off. West of Sun Rock Retreat, the Charred Vale is a wasteland of ash, scorched earth, and smoldering trees left by catastrophic fires. Bloodfury harpies nest high in the charred remains of ancient woods, and the vale is their stronghold. Maggran sends Horde warriors into the hostile caldera to cull dozens of harpies: Bloodfury ambushers, slayers, and roguefeathers. Thinning their ranks weakens the coven’s grip on the vale and clears the way to confront its matriarchal lineage.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6282-a3eab2454270fea35d95/1-0000.mp3", duration = 62.0930612, start = 0},
+    {file = "Audio/Transport/full_quest_6282-627428489932a625fad8/1-0000.mp3", duration = 62.0930612, start = 0},
   },
 }
 P.transport["quest:6283"] = {
@@ -5518,7 +5518,7 @@ P.transport["quest:6301"] = {
   fullHash = "57a46c",
   text = "Cycle of Rebirth. At Sun Rock Retreat, Tammra Windfield seeks Gaea seeds to heal Stonetalon. She asks the Horde to gather them from Mirkfallon Lake, so she can bless them and restore the mountain’s damaged soil. Logging and clashes between rival factions have scarred Stonetalon’s peaks. Forests have been scorched, cut down, or reduced to ash. For the tauren at Sun Rock Retreat, the swift ruin of the natural world is a grievous wound. Shamans such as Tammra Windfield turn to the Earthmother’s renewing cycle as they work to mend the land. Tammra seeks rare Gaea seeds along Mirkfallon Lake, north of Sun Rock Retreat. Sturdy seed pods grow on the banks by the water, holding a resilience found only in Stonetalon. Once gathered, Tammra gives each kernel an ancestral shamanistic blessing. The blessing awakens its power and hastens its growth.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6301-2b01ad45d70620f6267c/1-0000.mp3", duration = 51.8530612, start = 0},
+    {file = "Audio/Transport/full_quest_6301-6ebd454b29dca3e16ebb/1-0000.mp3", duration = 53.2636735, start = 0},
   },
 }
 P.transport["quest:631"] = {
@@ -5614,7 +5614,7 @@ P.transport["quest:6393"] = {
   fullHash = "0769e1",
   text = "Elemental War. In Stonetalon Mountains, Tsunaman sends you against fire elementals in Neptulon’s name. The water envoy at Sun Rock Retreat asks you to enter the Charred Vale and gather Incendrite cores from the blazing elementals you destroy. Their struggle reaches beyond mortal borders, bound to the ancient rivalry between elemental forces. At Sun Rock Retreat in Stonetalon Mountains, Tsunaman speaks for the Tribunal of the Tides. You carry out Neptulon the Tidehunter’s will against the fiery kin of his water elementals. Their enmity reaches far beyond mortal borders. It is an ancient struggle between the primal forces of Azeroth. Southern Stonetalon Mountains hold the Charred Vale, where ash and smoke mark the land. Fire elementals gather there and threaten the surrounding regions. Tsunaman sends you to destroy them and gather the Incendrites they leave behind. These blazing cores prove to the Tribunal that the elementals are gone.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6393-a47d180e0ee391adc423/1-0000.mp3", duration = 58.5404082, start = 0},
+    {file = "Audio/Transport/full_quest_6393-a58243177b0525f72a32/1-0000.mp3", duration = 56.8946939, start = 0},
   },
 }
 P.transport["quest:6394"] = {
@@ -5726,7 +5726,7 @@ P.transport["quest:6562"] = {
   fullHash = "a31871",
   text = "Trouble in the Deeps. From Stonetalon Mountains, Tsunaman sends Horde travelers to aid Je'neu Sancrea on Ashenvale's remote coast. The troll scholar waits at Zoram'gar Outpost, where danger gathers along the shore. Tsunaman hears troubling reports from the north and calls Horde travelers to aid Je'neu Sancrea. The troll scholar waits at Zoram'gar Outpost on Ashenvale's far western shore, along the Zoram Strand. Danger is growing there, and Je'neu needs help from beyond the outpost. The road to Ashenvale's western shore is dangerous for Horde travelers. You can pass through Windshear Crag, where goblins have stirred trouble, or travel north from the Barrens. Either way, you enter a forest watched by night elf sentinels.\n\nFar beneath Ashenvale's dense canopy, Zoram'gar Outpost holds on along the storm-washed Zoram Strand. The outpost faces the shadowed waters.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6562-52d72d880bedf8372ad2/1-0000.mp3", duration = 54.4653061, start = 0},
+    {file = "Audio/Transport/full_quest_6562-374019261fcae09a0ef5/1-0000.mp3", duration = 52.9240816, start = 0},
   },
 }
 P.transport["quest:6563"] = {
@@ -5830,7 +5830,7 @@ P.transport["quest:6627"] = {
   fullHash = "634599",
   text = "Test of Lore. At Braug Dimspirit’s perch in Stonetalon, you face a test of ancient history. Having retrieved the tome Legacy of the Aspects, you must show what its lessons taught you. A wrong answer sends you far across Kalimdor. Braug Dimspirit’s trial follows the tests Dorn Plainstalker began at the Weathered Nook. It calls for understanding, not martial survival or blind trust. Braug lives among the crags of the Stonetalon Mountains. He expects seekers to recover ancient texts and learn from their pages. The lesson concerns how the Dragon Aspects were created and divided, and the pact they made long before the Great Sundering. Braug asks what the tome says about the Earth Warder, Neltharion. His madness and betrayal reshaped Azeroth’s surface. You must understand this history before continuing along the path of wisdom.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6627-f3466d8ebe30945de065/1-0000.mp3", duration = 50.9126531, start = 0},
+    {file = "Audio/Transport/full_quest_6627-c5cae2dd38b7fbdda83c/1-0000.mp3", duration = 53.3420408, start = 0},
   },
 }
 P.transport["quest:6628"] = {
@@ -5982,7 +5982,7 @@ P.transport["quest:686"] = {
   fullHash = "d23de5",
   text = "A King's Tribute. King Magni Bronzebeard answers Sara Balloo with a lasting tribute to her fallen husband, Sully. He sends you across Ironforge with a royal commission for Grand Mason Marblesten. Sara Balloo's plea weighs on King Magni Bronzebeard. War's harsh needs can be hard for common folk to understand, yet every soldier beneath the Alliance banner weighs on his conscience. He cannot undo a death on the front lines. He can see that Sully Balloo's sacrifice is remembered. King Magni chooses a stone memorial for Sully, not empty words. He entrusts you with his royal commission and sends you across Ironforge to Grand Mason Marblesten. The master stonemason receives the king's personal charge and prepares to carve the fallen defender's memory into stone.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_686-c50f03e529bb232f4c15/1-0000.mp3", duration = 45.6881633, start = 0},
+    {file = "Audio/Transport/full_quest_686-028dc9c14f58031281e0/1-0000.mp3", duration = 46.08, start = 0},
   },
 }
 P.transport["quest:689"] = {
@@ -6162,11 +6162,11 @@ P.transport["quest:7162"] = {
   },
 }
 P.transport["quest:718"] = {
-  hash = "dccd67",
-  fullHash = "dccd67",
-  text = "Mirages. In the Badlands, Sigrun Ironhew's party has fled the Uldaman excavation and gone hungry. Sigrun Ironhew and her party fled the Uldaman excavation site in a rush. They left wagons and supply crates behind, and ogres from Camp Kosh have been picking through them. The ogres took the cart with all the party's weapons. Since then, the party has had no food. Sigrun admits the trouble is embarrassing and asks you to retrieve the supply crate.",
+  hash = "0e22a7",
+  fullHash = "0e22a7",
+  text = "Mirages. In the Badlands, Sigrun Ironhew's party has fled the Uldaman excavation and gone hungry. Sigrun's party fled the Uldaman dig in such haste that they took little with them. They left wagons and supply crates behind, and ogres from Camp Kosh have been picking through them. The ogres took the cart with all the party's weapons. Since then, the party has had no food. Sigrun admits the trouble is embarrassing and asks you to retrieve the supply crate.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_718-2a646e93d6d8cb854fd1/1-0000.mp3", duration = 27.3240816, start = 0},
+    {file = "Audio/Transport/full_quest_718-1ff0172bc6eff59569ad/1-0000.mp3", duration = 25.835102, start = 0},
   },
 }
 P.transport["quest:719"] = {
@@ -6454,7 +6454,7 @@ P.transport["quest:79096"] = {
   fullHash = "0057fc",
   text = "Ataeric: On Arcane Curiosities. Ataeric seeks rare magical writings to enlarge a library's collection. Scholars hope these works will deepen their study of the arcane and keep its lore safe. Across Azeroth, scholars rely on travelers to recover rare tomes and treatises from dangerous ground. Ataeric seeks magical writings to broaden an institution's study of the arcane. Each volume can help scholars piece together practices that might otherwise be scattered or lost. The curator adds each curiosity to the archive. The library remains eager for further magical writings found across the world, so its collection can grow with ongoing scholarship.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_79096-0d5ee153a4e864acbec8/1-0000.mp3", duration = 37.2767347, start = 0},
+    {file = "Audio/Transport/full_quest_79096-c7b6305cebc5b3053fb1/1-0000.mp3", duration = 37.9559184, start = 0},
   },
 }
 P.transport["quest:79097"] = {
@@ -7966,7 +7966,7 @@ P.transport["quest:94375"] = {
   fullHash = "a8581e",
   text = "Call of Earth. Young shaman in Dun Morogh seek the earth spirits’ favor through Call of Earth. They carry rough quartz to Teo Hammerstorm in Anvilmar, where he shapes it into the heart of an Earth Totem. In Dun Morogh, young shaman begin their spiritual path by seeking the earth spirit and listening to its teachings. The spirit gives them rough quartz, a humble stone meant to become the heart of an Earth Totem. The rite calls for humility, patience, strength, and resolve. An initiate learns from the earth and does not measure worth by size. Teo Hammerstorm waits in Anvilmar for the initiate to bring back the rough quartz. He judges whether the mountain spirits have acknowledged them, and sends away anyone who arrives without the stone. Bring him the quartz, and he shapes it into an Earth Totem. The totem binds the young shaman to the strength of the world's roots.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_94375-77d29edde45af6d73187/1-0000.mp3", duration = 51.6702041, start = 0},
+    {file = "Audio/Transport/full_quest_94375-d04b57f9ce0383d46770/1-0000.mp3", duration = 50.2334694, start = 0},
   },
 }
 P.transport["quest:94411"] = {
@@ -8046,7 +8046,7 @@ P.transport["quest:94449"] = {
   fullHash = "475c44",
   text = "Call of Fire. In Dun Morogh, an elder sends shaman initiates to Bruegs Kindleborn to test their readiness for the fire sapta. They have already learned patience and grounding through earth. After proving patience and grounding through earth, shamans face a more volatile force: the fire elemental spirit. Stone holds steady, but fire promises chaos, ruin, and fierce energy. So an elder sends the initiate across Dun Morogh’s snow-laden peaks to seek guidance before trying to harness its wild heat. Bruegs Kindleborn keeps watch in a secluded cave high in the mountains above South Gate Outpost. When an initiate arrives with an elder’s recommendation, Bruegs prepares them for the sapta of fire. He warns that flame’s hunger to burn and consume is easily stirred. To master it, a shaman must know when to hold back.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_94449-f07fe7a54e7f2b361a90/1-0000.mp3", duration = 50.9126531, start = 0},
+    {file = "Audio/Transport/full_quest_94449-c6f8ee3a30d2dba46741/1-0000.mp3", duration = 49.4236735, start = 0},
   },
 }
 P.transport["quest:94465"] = {
@@ -8078,7 +8078,7 @@ P.transport["quest:94468"] = {
   fullHash = "c70cbf",
   text = "Call of Fire. Above Loch Modan, an initiate kindles the flame that must reach Dun Morogh. Bruegs Kindleborn awaits its return and judges the traveler's command of the elements. An initiate lights the Torch of Eternal Flame on a mountain ridge above Loch Modan. The flame marks the beginning of a deeper bond with the elements. From there, the initiate carries it down the trails and into the snowy vales of Dun Morogh. In Dun Morogh, Bruegs Kindleborn awaits the traveler. He is an elemental mentor who judges whether the traveler's inner fire has taken hold. The blazing torch proves the initiate's will and reverence for fire. Bruegs then grants the Fire Totem, welcoming the flameborn into a lineage of elemental guidance for their kin.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_94468-9cde8ca9000deda622c0/1-0000.mp3", duration = 43.2326531, start = 0},
+    {file = "Audio/Transport/full_quest_94468-452fafcabe73618f7e84/1-0000.mp3", duration = 44.1730612, start = 0},
   },
 }
 P.transport["quest:94484"] = {
@@ -8442,11 +8442,11 @@ P.transport["quest:95204"] = {
   },
 }
 P.transport["quest:95212"] = {
-  hash = "35cc3e",
-  fullHash = "35cc3e",
-  text = "Never Saddle on Quality. At Amberstill Ranch, handlers prepare rams for the Alliance expedition in Alterac. They need pristine mountain leopard pelts to make warm saddles for the beasts, so mounts and riders can face the northern mountains' biting frost. At Amberstill Ranch in Dun Morogh, handlers are preparing sturdy mountain rams to reinforce the Alliance expedition in Alterac. But the work has stalled: they lack the material needed to make durable, cold-weather saddles for the rams. The expedition's mounts need thick insulation to endure the freeze of the Alterac mountains. Hunters are sent to the eastern crags to track the largest, fiercest mountain leopards in Dun Morogh and bring back pristine pelts. The Alliance forces need gear that can withstand the high passes.",
+  hash = "30dd3a",
+  fullHash = "30dd3a",
+  text = "Never Saddle on Quality. At Amberstill Ranch, handlers prepare rams for the Alliance expedition in Alterac. They need pristine mountain leopard pelts to make warm saddles for the beasts, so mounts and riders can face the northern mountains' biting frost. The handlers of Amberstill Ranch in Dun Morogh are readying sturdy mountain rams for Alterac. But the work has stalled: they lack the material needed to make durable, cold-weather saddles for the rams. The expedition's mounts need thick insulation to endure the freeze of the Alterac mountains. Hunters are sent to the eastern crags to track the largest, fiercest mountain leopards in Dun Morogh and bring back pristine pelts. The Alliance forces need gear that can withstand the high passes.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_95212-1224fbfaed71d08a142a/1-0000.mp3", duration = 45.4791837, start = 0},
+    {file = "Audio/Transport/full_quest_95212-7c1c7828c20885564bec/1-0000.mp3", duration = 42.5012245, start = 0},
   },
 }
 P.transport["quest:95213"] = {
@@ -8462,7 +8462,7 @@ P.transport["quest:95214"] = {
   fullHash = "2e3548",
   text = "Stolen Blasting Powder. At Gol'Bolar Quarry, Stolen Blasting Powder has gone east with the troggs. Quarrymaster Thesten needs help recovering the missing munitions before the brutes set them off by accident. At Gol'Bolar Quarry in Dun Morogh, dwarves use heavy blasting charges to break stone and open deep veins. But primitive troggs from the nearby crags stole a bulk shipment of high-grade powder. Quarrymaster Thesten needs capable hands before the pack causes an accidental detonation. The missing keg holds enough force to reduce King Magni Bronzebeard's grand throne room to an open-air courtyard. The troggs carried the powder east to their rough foothill camps. Left alone, they may soon discover fire or strike stone against spark.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_95214-469c7bc5ea3b6cb662de/1-0000.mp3", duration = 43.3632653, start = 0},
+    {file = "Audio/Transport/full_quest_95214-b95ea9fd9e0065e42615/1-0000.mp3", duration = 43.3371429, start = 0},
   },
 }
 P.transport["quest:95216"] = {
@@ -8782,15 +8782,15 @@ P.transport["quest:96243"] = {
   fullHash = "7ec030",
   text = "Call of Earth. In Coldridge Valley, the Call of Earth sends an initiate to seek Teo Hammerstorm at Anvilmar. There begins a shaman’s communion with the spirits of stone. An initiate’s first communion with the elements begins when the earth calls. Other elemental energies may already stir, but speaking with stone brings balance. The earth teaches the initiate to find strength that will not yield. Firm footing comes beneath their boots and within their spirit. In Dun Morogh’s snowy reaches, initiates find shelter and instruction at Anvilmar. The holdfast lies in Coldridge Valley, forged by hammer, fire, and will. Teo Hammerstorm waits within, teaching fledgling shamans to heed the rumbling earth and begin their elemental duties.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_96243-1695d6739117549abbee/1-0000.mp3", duration = 43.8857143, start = 0},
+    {file = "Audio/Transport/full_quest_96243-b5116f08f30cb81809ac/1-0000.mp3", duration = 42.3967347, start = 0},
   },
 }
 P.transport["quest:96339"] = {
-  hash = "d35ddc",
-  fullHash = "d35ddc",
-  text = "Legacy Reward: Replica Ironforge Air Rifle. A parcel addressed to you waited in a caretaker’s hands until you came to claim it. Inside was a Replica Ironforge Air Rifle, left by a courier whose name is unknown. A courier left a parcel addressed to you with a caretaker who wanted no part of it. The courier insisted you would come for it, then hurried away before the caretaker could refuse. You arrived just before the box was cast into the ocean with the evening’s refuse. Inside the parcel is a Replica Ironforge Air Rifle, a tribute to the firearm craft of the dwarven capital. Dwarven mountaineers and marksmen carry deadly weapons through Dun Morogh. Replicas like this recall the intricate barrelwork and pneumatic mechanisms perfected by Ironforge craftsmen.",
+  hash = "3306cc",
+  fullHash = "3306cc",
+  text = "Legacy Reward: Replica Ironforge Air Rifle. A parcel addressed to you waited in a caretaker’s hands until you came to claim it. Inside was a Replica Ironforge Air Rifle, left by a courier whose name is unknown. The caretaker kept nothing in storage and had no wish to hold the parcel. The courier insisted you would come for it, then hurried away before the caretaker could refuse. You arrived just before the box was cast into the ocean with the evening’s refuse. Inside the parcel is a Replica Ironforge Air Rifle, a tribute to the firearm craft of the dwarven capital. Dwarven mountaineers and marksmen carry deadly weapons through Dun Morogh. Replicas like this recall the intricate barrelwork and pneumatic mechanisms perfected by Ironforge craftsmen.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_96339-96ca34771f8eb6551f21/1-0000.mp3", duration = 42.6057143, start = 0},
+    {file = "Audio/Transport/full_quest_96339-b71ad3f059ee7b1c5bdf/1-0000.mp3", duration = 44.6955102, start = 0},
   },
 }
 P.transport["quest:96394"] = {
@@ -8854,7 +8854,7 @@ P.transport["quest:96629"] = {
   fullHash = "458b5e",
   text = "Camping 101: Cooking. In Dun Morogh, travelers learn to cook and make a fire for the wilds. Gremlock Pilsnor teaches novice adventurers in Kharanos. Cooking keeps food ready for the road and helps travelers light campfires at wilderness campsites. Your first camp in Dun Morogh begins with a fire. In Kharanos, Gremlock Pilsnor teaches novice adventurers to cook. The skill keeps food ready for the road. A sturdy campfire gives an outdoor camp its center. Once you can build a campfire, you can pitch a humble camp in the open wilderness. A simple fire holds only a few furnishings, but greater cooking skill lets you build larger blazes. Artisans trained in other crafts can make furnishings, turning a basic rest stop into a fully outfitted encampment.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_96629-715e968345ab86d5dd91/1-0000.mp3", duration = 45.0089796, start = 0},
+    {file = "Audio/Transport/full_quest_96629-c6198dd66d6308dd9c2d/1-0000.mp3", duration = 45.1134694, start = 0},
   },
 }
 P.transport["quest:96634"] = {
@@ -9302,7 +9302,7 @@ P.transport["quest:97538"] = {
   fullHash = "f7c470",
   text = "Pigments for Paints. Tah Winterhoof needs red pigment for his paints, and you can help him replenish it. The color comes from mirkweed pods gathered in Mirkfallon Lake in the Stonetalon Mountains. Tah Winterhoof has run out of red pigment and cannot continue his work. He lives in Thunder Bluff, and his traveling days are behind him. So he asks you to make the long journey north into the Stonetalon Mountains and gather more coloring. Mirkfallon Lake lies in a mountain pass in the Stonetalon Mountains. Mirkweed grows beneath its waters, and its seed pods turn red when harvested and dried. Gather thirty pods, and Tah will have the raw material he needs to return to his work.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_97538-4830e2f18303e6ef15f3/1-0000.mp3", duration = 39.444898, start = 0},
+    {file = "Audio/Transport/full_quest_97538-de2f2ec3d8d634a9c8f1/1-0000.mp3", duration = 39.68, start = 0},
   },
 }
 P.transport["quest:97539"] = {
@@ -9942,7 +9942,7 @@ P.transport["quest:98319"] = {
   fullHash = "d6a706",
   text = "Secure the Mountain. You face a growing danger in Dun Morogh: wendigos have overrun the Grizzled Den, and Whitebeard's report is missing. Cornelius entered the cavern while his partner waited outside. Wendigos are multiplying across the cold mountain slopes and crowding into the Grizzled Den to the north. Dwarven scouts already contend with Frostmane trolls. Now savage beasts make the crags perilous for patrols and couriers. Cornelius charged into the Grizzled Den to secure Whitebeard's vital report. His partner waits outside, seeking help to find the scout and thin the ferocious wendigos in the cave.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_98319-8dd72fe89b98f8ca5c88/1-0000.mp3", duration = 37.7208163, start = 0},
+    {file = "Audio/Transport/full_quest_98319-c5f1bc8b49782890ea70/1-0000.mp3", duration = 36.2579592, start = 0},
   },
 }
 P.transport["quest:98321"] = {
@@ -9966,7 +9966,7 @@ P.transport["quest:98323"] = {
   fullHash = "9c6519",
   text = "Secure the Mountain. Mountaineer Gretchen sends a grim report from Dun Morogh to Senir Whitebeard in Kharanos. Scouts have found a nearby cave overrun, and she will risk no more lives in its tunnels. Ironforge must still guard the mountain frontier from rising threats. Mountaineer Gretchen watches Dun Morogh's high passes from her post in the freezing peaks. A recent venture into a nearby cavern showed her how dangerous the wilderness remains. Hostile mongrels overrun its tunnels, and she judges the cave a death trap. Gretchen will risk no more lives there. She holds the line on the slopes and sends an emissary with her written assessment. From Kharanos, Senir Whitebeard tracks dangers to the dwarven heartland. Gretchen's report brings little surprise: the cavern is overrun. He adds her letter to his growing stack of field reports. Each account helps Ironforge record and manage the dangers along its frontier.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_98323-0624ea46b57f4b580be9/1-0000.mp3", duration = 56.4244898, start = 0},
+    {file = "Audio/Transport/full_quest_98323-d15ff3d05649f633bf28/1-0000.mp3", duration = 56.1632653, start = 0},
   },
 }
 P.transport["quest:98326"] = {
@@ -9974,7 +9974,7 @@ P.transport["quest:98326"] = {
   fullHash = "ee31a1",
   text = "Frosthowl. In Dun Morogh, Frosthowl's attack leaves a dwarven fisher without her catch. The wendigo fled into the Grizzled Den with the sack of fish. A dwarven fisher and her husband, Paxton, spent days fishing on Dun Morogh’s frozen lake. Through biting winds, they gathered a single sack of fish to bring home. Then Frosthowl ambushed their camp and carried off the catch into the snowy wilderness. Frosthowl’s booming roars rattle the ice and frighten the lake’s sparse fish. After stealing the fisher’s sack, the beast fled deep into the Grizzled Den, southeast of the lake. Now the fishers are stranded without their catch. They need someone to confront Frosthowl and recover the stolen fish.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_98326-79c9b27f26512b5684ef/1-0000.mp3", duration = 40.5681633, start = 0},
+    {file = "Audio/Transport/full_quest_98326-2ea7489f3118e4a7df52/1-0000.mp3", duration = 42.1093878, start = 0},
   },
 }
 P.transport["quest:98341"] = {
@@ -10150,7 +10150,7 @@ P.transport["quest:98574"] = {
   fullHash = "3fe57d",
   text = "Hallowed Memorandum. At Anvilmar, young gnome priests are summoned to study the Holy Light through the Hallowed Memorandum. It sends them to Branstock Khalder in Coldridge Valley, where curiosity and intellect meet a faith to ponder. While you aid allies in Coldridge Valley, promising gnome novices receive the Hallowed Memorandum. It directs them to Branstock Khalder inside Anvilmar, where their formal spiritual study begins in Dun Morogh. Branstock Khalder welcomes each novice who brings the memorandum. He teaches that the Holy Light is a deep riddle, not a rigid craft. It calls for curiosity, keen thought, and harmony between intellect and feeling. Through contemplation and practice, students learn to channel its mysteries into healing and holy retribution.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_98574-33f525fedb7ff446ab81/1-0000.mp3", duration = 43.5722449, start = 0},
+    {file = "Audio/Transport/full_quest_98574-098b3c2ffec4f05733ac/1-0000.mp3", duration = 45.557551, start = 0},
   },
 }
 P.transport["quest:98575"] = {
@@ -10166,7 +10166,7 @@ P.transport["quest:98581"] = {
   fullHash = "349d50",
   text = "Archaic Rune. In Coldridge Valley, young dwarf Shamans begin learning the elements through an ancient rune. It leads them to Teo Hammerstorm in Anvilmar for instruction in earth, air, fire, and water. Near Anvilmar, you find the Archaic Rune after aiding local allies in Coldridge Valley. Its markings follow the Wildhammer style, and elemental power courses through the stone. The inscription tests whether you can sense the primordial spirits. Read it, and the rune directs you to proper instruction at the nearby dwarven outpost. In Anvilmar’s great hall, Teo Hammerstorm receives the inscribed stone. For generations, the Wildhammer kept the spiritual arts of the elements largely within their clan among the windswept peaks. Now these traditions are taking root among the Bronzebeard dwarves of Ironforge and Dun Morogh. Teo bridges the two dwarven cultures, welcoming young initiates called to commune with the elements and teaching them earth, air, fire, and water.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_98581-4857ef90d4f95cf82c5e/1-0000.mp3", duration = 58.3314286, start = 0},
+    {file = "Audio/Transport/full_quest_98581-be5186b322b5fa4932f4/1-0000.mp3", duration = 58.9322449, start = 0},
   },
 }
 P.transport["quest:986"] = {
@@ -10198,7 +10198,7 @@ P.transport["quest:98824"] = {
   fullHash = "3272a3",
   text = "Prehistoric Prism. In the Wetlands, Prospector Whelgar has found a relic marked by the keepers. He sends you to Ironforge so the Explorers' League can study the titans' legacy. Prospector Whelgar finds a remarkable artifact while surveying the Wetlands. Keeper inscriptions cover its many facets, and he authenticates the titan-like markings. He asks you to carry it to Ironforge, where scholars can study it. Whelgar hopes the discovery enters the official catalogue, with credit given to you for recovering it and to him for authenticating it. High Explorer Magellas receives the relic for the Explorers' League in Ironforge's Hall of Explorers. The maker marks confirm its authenticity. Magellas says light through its polished facets recalls wonders from his first excavation in Uldaman. Your donation preserves the artifact for study and adds to the League's records of the titans' legacy.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_98824-6c17171aa8632d504372/1-0000.mp3", duration = 51.5657143, start = 0},
+    {file = "Audio/Transport/full_quest_98824-df193d43e059b9dcd714/1-0000.mp3", duration = 50.9387755, start = 0},
   },
 }
 P.transport["quest:98895"] = {
@@ -10454,7 +10454,7 @@ P.transport["quest:99162"] = {
   fullHash = "071f86",
   text = "Treacherous Cold. In Dun Morogh, snow and ice slides bury Ironforge mountaineers in the high passes. You search for their inscribed rifles so their families can learn who fell. In Dun Morogh, sudden avalanches and falling ice threaten travelers and soldiers. Even Ironforge's hardened mountaineers can be overwhelmed. When winter strikes without warning, novice recruits may pay with their lives. Mountain slides can bury patrols, and each search through the hazardous terrain races against time. Elemental activity across the region has grown more intense, making rescue parties perilous to send out. Scouts ask you to search the drifts for fallen mountaineers and recover their inscribed rifles before snow hides them forever. Ironforge mountaineers carve their names into their rifle stocks. Recovering those weapons from the drifts helps identify the fallen, so their families in Ironforge can learn of their service.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_99162-04e140e842172e000de9/1-0000.mp3", duration = 55.3012245, start = 0},
+    {file = "Audio/Transport/full_quest_99162-7c6890494f1054789e3b/1-0000.mp3", duration = 54.4130612, start = 0},
   },
 }
 P.transport["quest:99191"] = {

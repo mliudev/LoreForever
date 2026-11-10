@@ -1,0 +1,66 @@
+{
+ "key": "quest:94773",
+ "type": "quest",
+ "name": "Divine Grace",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94773
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A lesson called Divine Grace thanks you for serving the Light. Your example matters to travelers in dangerous lands.",
+ "sections": [
+  {
+   "title": "A Lesson of Thanks",
+   "body": "After your service, the Light is praised for the example you set among travelers in dangerous lands. You are offered a lesson in thanks for what you have done.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Divine Grace about?",
+   "aliases": [
+    "divine grace",
+    "what's divine grace",
+    "divine grace quest"
+   ],
+   "answer": "Divine Grace thanks you for serving the Light and setting an example for travelers in dangerous lands."
+  },
+  {
+   "q": "Who is this lesson for?",
+   "aliases": [
+    "who gets the lesson",
+    "lesson for me",
+    "divine grace reward"
+   ],
+   "answer": "The lesson is offered to you in thanks for your service to the Light."
+  },
+  {
+   "q": "What example did I set?",
+   "aliases": [
+    "my example",
+    "shining example",
+    "what did i do"
+   ],
+   "answer": "You became an example to travelers in dangerous lands and beyond."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dangerous lands",
+  "divine grace",
+  "lesson",
+  "light",
+  "travelers"
+ ],
+ "related": [
+  "topic:light"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Divine Grace"
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "key": "quest:6626",
+ "type": "quest",
+ "name": "A Host of Evil",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   6626
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Myriam Moonsinger asks you to confront Razorfen Downs\u2019 defenders and cultists. Their presence is the problem she sends you to address.",
+ "sections": [
+  {
+   "title": "Myriam\u2019s Request",
+   "body": "Near the entrance to Razorfen Downs, Myriam Moonsinger asks you to face the Razorfen Battleguard, Razorfen Thornweavers, and Death's Head Cultists within. She expects you to return to her after dealing with them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for help at Razorfen Downs?",
+   "aliases": [
+    "who is myriam",
+    "myriam moonsinger"
+   ],
+   "answer": "Myriam Moonsinger, near the entrance to Razorfen Downs, asks you to confront its defenders and cultists."
+  },
+  {
+   "q": "Which enemies does Myriam name?",
+   "aliases": [
+    "who do i fight",
+    "razorfen enemies"
+   ],
+   "answer": "Myriam names Razorfen Battleguard, Razorfen Thornweavers, and Death's Head Cultists."
+  },
+  {
+   "q": "Where do I return to Myriam?",
+   "aliases": [
+    "where is myriam",
+    "myriam location"
+   ],
+   "answer": "Return to Myriam Moonsinger near the entrance to Razorfen Downs."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a host of evil",
+  "death's head cultists",
+  "myriam moonsinger",
+  "razorfen battleguard",
+  "razorfen downs",
+  "razorfen thornweavers"
+ ],
+ "related": [
+  "subzone:razorfen-downs-classic",
+  "topic:razorfen"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Host of Evil"
+ ]
+}

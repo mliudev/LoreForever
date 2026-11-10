@@ -74,6 +74,7 @@ local function held()
   if Voice and Voice.GameTalking and Voice.GameTalking() then return "cutscene" end
   if Voice and Voice.WilloAnswering and Voice.WilloAnswering() then return "Willo answering" end
   if UI and UI.IsBusy and UI.IsBusy() then return "narration" end
+  if Voice and Voice.BetweenNarrations and Voice.BetweenNarrations() then return "narration" end
   if J and J.TakingPicture and J.TakingPicture() then return "picture" end
   if ns.Sky and ns.Sky.Moving and ns.Sky.Moving() then return "moving the sky" end
   if (Strip.Asking and Strip.Asking()) or (C and C.Sending and C.Sending()) then return "asking Willo" end

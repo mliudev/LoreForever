@@ -550,7 +550,7 @@ P.transport["subzone:dark-portal"] = {
   fullHash = "b15da2",
   text = "Dark Portal. At the Blasted Lands' southern rim, the dormant Dark Portal holds a rift between worlds. Its opening brought the Old Horde into Azeroth and began the First War. Where the Black Morass once spread across the south, the Dark Portal tore open. Medivh, possessed by Sargeras, joined his Tirisfal magics with Gul'dan's fel sorcery on Draenor. Their ritual drained countless lives and ripped reality apart. The Old Horde anchored the rift with massive stonework, then marched through to shatter the Kingdom of Stormwind in the First War.\n\nFel power from the portal poisoned the land. Lush marshes became the red, petrified wastes you see today. After the Alliance of Lordaeron won the Second War, Archmage Khadgar shattered the portal's stone frame with powerful magic. He hoped to sever Draenor from Azeroth forever, but the tear beneath it proved impossible to destroy. The Alliance built Nethergarde Keep nearby to watch the scar.\n\nDemons and remnants of the Shadow Council still creep through the blasted caldera. The gateway has been reassembled, yet remains dormant. It is a silent wound between worlds that neither side dares abandon.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dark-portal-cbb2536f7b1c811281b0/1-0000.mp3", duration = 77.8710204, start = 0},
+    {file = "Audio/Transport/full_subzone_dark-portal-537301ee4908a5697c56/1-0000.mp3", duration = 77.557551, start = 0},
   },
 }
 P.transport["subzone:darkmist-cavern"] = {
@@ -670,7 +670,7 @@ P.transport["subzone:dreadmaul-post"] = {
   fullHash = "6790bd",
   text = "Dreadmaul Post. Ogres hold Dreadmaul Post near the Dark Portal. The Dreadmaul clan raised this fortified settlement in the Blasted Lands after crossing from Draenor. Travelers face the ogres and the harsh wastes around their camp. The Dreadmaul clan crossed into Azeroth with the Horde decades ago. Near the Dark Portal, they raised rough stone mounds and earthworks in the Blasted Lands’ red wastes. Dreadmaul Post is one of their chief outposts. From here, the ogres hold the badlands and clash with wandering beasts and travelers who approach their territory.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_dreadmaul-post-fdbb9c73f3f8943f7f02/1-0000.mp3", duration = 33.4889796, start = 0},
+    {file = "Audio/Transport/full_subzone_dreadmaul-post-4efc0d4987a871c2c661/1-0000.mp3", duration = 32.9665306, start = 0},
   },
 }
 P.transport["subzone:dreadmaul-rock"] = {
@@ -874,11 +874,11 @@ P.transport["subzone:felstone-field"] = {
   },
 }
 P.transport["subzone:feral-scar-vale"] = {
-  hash = "629e7b",
-  fullHash = "629e7b",
-  text = "Feral Scar Vale. In western Feralas, Feral Scar yetis hold a rocky gorge deep in the High Wilderness. Their caves lie beyond the forest trails, where travelers face danger. Primal Feral Scar yetis guard the caves of Feral Scar Vale in the High Wilderness. Unlike the yetis of Alterac and Dun Morogh, these brutes have adapted to Feralas's humid wilds. They defend their cave network fiercely and keep bone trophies. Intruders are driven from their hunting grounds. Gnomish distress signals have sometimes led into the deeper caves of Feral Scar Vale. Lost devices have become trapped there among the yetis, including robotic survey chickens. They wait to be activated and recovered.",
+  hash = "a39b38",
+  fullHash = "a39b38",
+  text = "Feral Scar Vale. In western Feralas, Feral Scar yetis hold a rocky gorge deep in the High Wilderness. Their caves lie beyond the forest trails, where travelers face danger. For generations the primal Feral Scar yetis have held the caves of Feral Scar Vale. Unlike the yetis of Alterac and Dun Morogh, these brutes have adapted to Feralas's humid wilds. They defend their cave network fiercely and keep bone trophies. Intruders are driven from their hunting grounds. Gnomish distress signals have sometimes led into the deeper caves of Feral Scar Vale. Lost devices have become trapped there among the yetis, including robotic survey chickens. They wait to be activated and recovered.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_feral-scar-vale-dc7d0c84770844c5ab4d/1-0000.mp3", duration = 43.4938776, start = 0},
+    {file = "Audio/Transport/full_subzone_feral-scar-vale-cb3e50f932f6cf6c981c/1-0000.mp3", duration = 44.0946939, start = 0},
   },
 }
 P.transport["subzone:fire-plume-ridge"] = {
@@ -1182,7 +1182,7 @@ P.transport["subzone:harborage"] = {
   fullHash = "431864",
   text = "Harborage. At the northern edge of the Swamp of Sorrows, Harborage shelters exiled Draenor natives who have kept their minds. They seek peace by the water in a harsh wilderness. At the foot of the northern mountains, you find Harborage, a small camp apart from the feral tribes in the nearby waters. Leather shelters and hanging crystals mark this refuge for exiled survivors from Draenor who have kept their minds. Elders like Magtoor guide the community. Together, they watch the wilderness, its native predators, and the feral tribes of their fallen brothers beyond the camp.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_harborage-b04b5806c67521adbef4/1-0000.mp3", duration = 35.1608163, start = 0},
+    {file = "Audio/Transport/full_subzone_harborage-ffae6394d482ac6e4057/1-0000.mp3", duration = 33.6979592, start = 0},
   },
 }
 P.transport["subzone:hearthglen"] = {
@@ -1270,7 +1270,7 @@ P.transport["subzone:ironforge"] = {
   fullHash = "5f0d74",
   text = "Ironforge. Beneath Dun Morogh, Ironforge’s Great Forge still burns at the heart of dwarven rule and Alliance trade. Deep within Ironforge Mountain, the city anchors Khaz Modan and guards the Alliance. Ironforge fills the deep halls of Ironforge Mountain, with stone rings circling the Great Forge. Dwarves founded the city millennia ago, after awakening and migrating from Uldaman. It has endured ages of history, including the War of the Three Hammers, which left the Bronzebeard clan in sole control.\n\nNatural magma pours through the mountain and powers the city. Massive stone gates guard its halls. Dwarven craftsmen and warriors share them with many exiled gnomes, who arrived after Gnomeregan fell recently. Ironforge is one of the Alliance’s busiest centers of commerce and industry. From the High Seat, King Magni Bronzebeard rules Khaz Modan. Dwarven prospectors, miners, and engineers work beside gnome refugees in Tinker Town.\n\nBeneath the mountains, the Deeprun Tram runs to Stormwind City. It carries trade and troops at high speed, keeping the capitals linked in mutual defense.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ironforge-39a01ac1d8810196c282/1-0000.mp3", duration = 76.2514286, start = 0},
+    {file = "Audio/Transport/full_subzone_ironforge-4f25f1fc17d5ab01a2e7/1-0000.mp3", duration = 75.284898, start = 0},
   },
 }
 P.transport["subzone:ironstone-camp"] = {
@@ -1542,7 +1542,7 @@ P.transport["subzone:maker-s-terrace"] = {
   fullHash = "e8b285",
   text = "Maker's Terrace. At the Badlands' northern edge, Dark Iron dwarves hold the Maker's Terrace beside the pass from Loch Modan. Their open-air dig guards the way into Uldaman. From the pass out of Loch Modan, you cross trenches and scaffolds spread across the northern Badlands. The dig fronts Uldaman's entrance, an ancient vault built by the Makers. Travelers cross this exposed ground before reaching the halls below. Rival factions contest the approach as they seek a way into the ruins. Dark Iron dwarves patrol the ditches and perimeter, keeping outsiders from the dig. They seek the Makers' relics and power to dominate what lies beneath the earth. Their crews search the hillside for armaments, records, and other relics left by the ancient Makers. The sentries guard the route into Uldaman, and travelers who try to pass meet a hostile welcome.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_maker-s-terrace-820883f36dc489cb25e5/1-0000.mp3", duration = 54.7004082, start = 0},
+    {file = "Audio/Transport/full_subzone_maker-s-terrace-94c2ffd3ec2549f1eccb/1-0000.mp3", duration = 53.1591837, start = 0},
   },
 }
 P.transport["subzone:mannoroc-coven"] = {

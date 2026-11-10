@@ -1690,12 +1690,13 @@ function Voice.SectionOneAt(row)
   end
 end
 
--- The pieces a play from the start would pick (the first voice's recording, Voice.Play), when it's a complete story
--- in pieces; nil otherwise.
+-- The pieces a play from the start would pick (the first voice's recording, Voice.Play), when it's in pieces: a
+-- complete story, or a language recording, which has no complete-story row (its marks say if it starts a section);
+-- nil otherwise.
 function Voice.StoryPieces(key)
   local paths = Voice.HasAudio(key) and (Voice.active[key] or Voice.questPaths[key])
   local pack = paths and paths[1] and Voice.PackOf(paths[1])
-  local row = pack and Voice.Transport(key, pack, true)
+  local row = pack and (Voice.Transport(key, pack, true) or Voice.Transport(key, pack))
   return row and row.chain and row or nil
 end
 
@@ -2352,7 +2353,15 @@ end
 
 -- What played ended by itself (UI's watchPlayback): the waiting arrival story's turn, after the playlist's gap. The
 -- playlist going on to its next story keeps it waiting.
+-- Just after a narration ended: the next one may still be waiting out its turn gap, and nothing counts as playing then.
+-- (LOR-1361, stream 11/8: a big moment went out in that gap and Willo spoke over the second narration.)
+local endedAt
+function Voice.BetweenNarrations()
+  return endedAt ~= nil and now() - endedAt < TURN_GAP + 0.5
+end
+
 function Voice.OnNarrationEnded(ended)
+  endedAt = now()
   Voice.questLeftover = nil
   local p = Voice.passageWaiting
   Voice.passageWaiting = nil
@@ -3035,15 +3044,20 @@ function Voice.PlayWaitingQuestPage(w)
 end
 
 -- Books, letters and plaques (LOR-49): a page a voice has recorded (a clip under its page id) plays as the book opens
--- (unless the readBooks setting is off), turning the page plays the next, closing it stops. No book has a recording
--- yet, so for now books stay text: nothing plays and the book's button stays hidden (Voice.BookPageClip). Like quest
--- dialogue, a page plays once each time the book opens (pageFresh), one this character has heard doesn't play again
--- by itself while "Skip what you've heard" is on, and nothing cuts off something you started. The book's button plays
--- the page on demand (Voice.ReadBookPage(true)).
+-- (unless the readBooks setting is off), turning the page plays the next, closing it stops. Like quest dialogue, a page
+-- plays once each time the book opens (pageFresh), one this character has heard doesn't play again by itself while
+-- "Skip what you've heard" is on, and nothing cuts off something you started. The book's pill (Hooks.BookFrame) plays
+-- the page on demand (Voice.ReadBookPage(true)) and puts the book in the playlist (UI.QueueBook).
 local BOOK_PREFIX = "booktext:"
+local BOOK_MOST_PAGES = 40   -- the longest book recorded has 19
 
 local function isBookText(id) return type(id) == "string" and id:sub(1, #BOOK_PREFIX) == BOOK_PREFIX end
 Voice.IsBookText = isBookText
+
+-- A page's words without its markup (some books are HTML).
+local function bookWords(text)
+  return (text:gsub("<[^>]+>", " "):gsub("&nbsp;", " "):gsub("&amp;", "&"):gsub("%s+", " "):match("^%s*(.-)%s*$"))
+end
 
 local function bookPage()
   local function get(fn)
@@ -3054,8 +3068,7 @@ local function bookPage()
   end
   local title, text, page = get("ItemTextGetItem"), get("ItemTextGetText"), get("ItemTextGetPage")
   if type(text) ~= "string" then return nil end
-  -- Some books are HTML: read the words, not the markup.
-  text = text:gsub("<[^>]+>", " "):gsub("&nbsp;", " "):gsub("&amp;", "&"):gsub("%s+", " "):match("^%s*(.-)%s*$")
+  text = bookWords(text)
   if not text:find("%S") then return nil end
   title = type(title) == "string" and title ~= "" and title or L["Book"]
   local id = BOOK_PREFIX .. ns.Engine.lower(title) .. "#" .. tostring(tonumber(page) or 1)
@@ -3069,6 +3082,37 @@ function Voice.BookPageClip()
   return id and Voice.HasAudio(id) and id or nil
 end
 
+-- Whether a recording of the page on screen reads the words on it (ns.DB.bookWords, lore.books.fingerprints): whether or
+-- not its voice pack is installed here. Then the page's Contribute button has nothing to ask for (Capture.BookLine).
+function Voice.BookPageRecorded()
+  local id, _, text = bookPage()
+  local words = id and ns.DB and ns.DB.bookWords and ns.DB.bookWords[id]
+  return words ~= nil and djb2((text:lower():gsub("|c%x%x%x%x%x%x%x%x", ""):gsub("|r", ""))) == words
+end
+
+-- The book on screen as the playlist takes it, or nil when no voice recorded any of it: { id, title, page ids' stem,
+-- pages = its recorded page numbers, in order }.
+function Voice.OpenBook()
+  local id, title = bookPage()
+  local stem = id and id:match("^(.*)#%d+$")
+  if not stem then return nil end
+  local pages = {}
+  for n = 1, BOOK_MOST_PAGES do
+    if Voice.HasAudio(stem .. "#" .. n) then pages[#pages + 1] = n end
+  end
+  if #pages == 0 then return nil end
+  return { id = "book:" .. stem:sub(#BOOK_PREFIX + 1), title = title, stem = stem, pages = pages }
+end
+
+-- What page `page` of a book says, as far as you've seen it (the game only gives the page on screen): "" before that.
+function Voice.BookPageText(title, page)
+  local books = LoreForeverDB and LoreForeverDB.texts and LoreForeverDB.texts.books
+  local kept = type(books) == "table" and type(books[ns.Log.ScrubName(title)]) == "table"
+    and books[ns.Log.ScrubName(title)][page]
+  if type(kept) ~= "string" then return "" end
+  return bookWords(ns.Capture.Personal(kept))
+end
+
 -- A page is showing. byHand: the book's button (plays even if heard, stops it if it's this page).
 function Voice.ReadBookPage(byHand)
   local UI = ns.UI
@@ -3079,7 +3123,7 @@ function Voice.ReadBookPage(byHand)
   end
   local id, title, text = bookPage()
   if not id then return end
-  if byHand and UI.speaking and UI.playingId == id then return UI.StopAll() end
+  if byHand and UI.speaking and (UI.playingId == id or UI.playingKey == id) then return UI.StopAll() end   -- (or from the playlist)
   local ours = UI.speaking and isBookText(UI.playingId)
   if not byHand then
     if UI.IsBusy() and not ours then return end   -- never over something you started

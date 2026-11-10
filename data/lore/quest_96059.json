@@ -1,0 +1,69 @@
+{
+ "key": "quest:96059",
+ "type": "quest",
+ "name": "Camping 101: Enchanting",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96059
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "An enchanter in Ironforge can learn to make an Enchanted Lute for camp after proving skill. Its magic offers entertainment during rests on the trail.",
+ "sections": [
+  {
+   "title": "A Lute for Camp",
+   "body": "Your next lesson concerns a tune for the trail. In Ironforge, Thonys Pillarstone can teach you to craft an Enchanted Lute once you have shown proficiency in enchanting. The magic gives you a way to find entertainment during downtime before you take to the road again.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who can teach me to make an Enchanted Lute?",
+   "aliases": [
+    "thonys pillarstone",
+    "who teaches enchanting camp item"
+   ],
+   "answer": "Thonys Pillarstone in Ironforge can teach you to craft an Enchanted Lute after you show proficiency in enchanting."
+  },
+  {
+   "q": "What is the Enchanted Lute for?",
+   "aliases": [
+    "lute purpose",
+    "enchanted lute camp"
+   ],
+   "answer": "The Enchanted Lute is a camping item meant to provide entertainment during downtime."
+  },
+  {
+   "q": "Why do I need enchanting skill?",
+   "aliases": [
+    "enchanting proficiency",
+    "how to learn lute"
+   ],
+   "answer": "You can learn to craft the camping item once you have shown proficiency in enchanting."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "As an enchanter, you can learn from Thonys Pillarstone to make an Enchanted Lute for camp once you have shown proficiency in your skill."
+  }
+ ],
+ "keywords": [
+  "camp item",
+  "camping 101",
+  "enchanted lute",
+  "enchanting",
+  "ironforge",
+  "thonys pillarstone"
+ ],
+ "related": [
+  "zone:ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Camping 101: Enchanting"
+ ]
+}

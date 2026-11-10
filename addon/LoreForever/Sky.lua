@@ -236,9 +236,19 @@ local function movedTo()
   if type(at) == "table" and type(at.x) == "number" and type(at.y) == "number" then return at.x, at.y end
 end
 
+-- Kept up all session (Strip.Always), not just up for a moment.
+function Sky.KeptUp() return ns.Strip.On() and ns.Strip.Always() and true or false end
+
+-- A sky kept up with no spot of its own sits under the buffs, beside the map and clear of the quest list (LOR-688, Mike
+-- 11/9): the map stays readable all session. In minimap widths from the map's centre, so it follows the map and the
+-- interface scale. Up for a moment, it stays on the map, where Willo looks first. Only where it goes changes: same stars.
+local HOME_LEFT, HOME_DOWN = 1.24, 0.68
+local underBuffs = false
+
 -- Where the sky goes, in whole screen pixels: (left, top measured from the bottom, unit, UIParent units a pixel).
--- Centred on the minimap's round map and as big as fits in it, or where the player moved it (as big as on the
--- minimap); where there's no minimap on screen (another add-on hid it), the top-right corner.
+-- Centred on the minimap's round map and as big as fits in it, under the buffs when it's kept up (HOME_LEFT), or where
+-- the player moved it (as big as on the minimap); where there's no minimap on screen (another add-on hid it), the
+-- top-right corner.
 function Sky.Place()
   local _, h = try(GetPhysicalScreenSize)
   if type(h) ~= "number" or h <= 0 then h = 1080 end
@@ -252,16 +262,19 @@ function Sky.Place()
     cx, cy = try(m.GetCenter, m)
     mw = try(m.GetWidth, m)
   end
-  local unit
+  local unit, mapPx
   if m and try(m.IsVisible, m) and type(cx) == "number" and type(cy) == "number" and type(mw) == "number" and mw > 0 then
     local k = (try(m.GetEffectiveScale, m) or 1) / (try(UIParent.GetEffectiveScale, UIParent) or 1)
     cx, cy = cx * k / px, cy * k / px
-    unit = math.max(MIN_UNIT, math.min(MAX_UNIT, math.floor(mw * k / px * ROUND * FILL / U)))
+    mapPx = mw * k / px
+    unit = math.max(MIN_UNIT, math.min(MAX_UNIT, math.floor(mapPx * ROUND * FILL / U)))
   else
     unit = math.max(MIN_UNIT, math.min(MAX_UNIT, math.floor(h / 540)))
     cx, cy = wpx - U * unit / 2 - 16, h - U * unit / 2 - 16
   end
   local fx, fy = movedTo()
+  underBuffs = not fx and mapPx ~= nil and Sky.KeptUp()
+  if underBuffs then fx, fy = (cx - HOME_LEFT * mapPx) / wpx, (cy - HOME_DOWN * mapPx) / h end
   if fx then   -- kept whole on screen
     local half = U * unit / 2
     cx = math.max(half, math.min(wpx - half, fx * wpx))
@@ -588,8 +601,8 @@ function Sky.Move(on)
   if outline then outline:SetShown(moving) end
   if ns.Strip then ns.Strip.Update() end
   if moving then
-    chat(string.format(L["drag %s's sky where you want it, then click Done. Put it back returns it to the minimap."],
-      ns.COMPANION_NAME))
+    chat(string.format(Sky.KeptUp() and L["drag %s's sky where you want it, then click Done. Put it back returns it under your buffs."]
+      or L["drag %s's sky where you want it, then click Done. Put it back returns it to the minimap."], ns.COMPANION_NAME))
   end
 end
 
@@ -601,6 +614,13 @@ function Sky.PutBack()
 end
 
 function Sky.IsMoved() return movedTo() ~= nil end
+
+-- Whether it's under the buffs now (Sky.Place's kept-up spot), not on the map, somewhere the player put it, or in the
+-- corner of a screen with no minimap.
+function Sky.UnderBuffs()
+  Sky.Place()
+  return underBuffs
+end
 
 -- The Move the sky / Put it back row in Options › Willo (Options.lua), under `anchor`: returns the row, and a function
 -- that shows and enables its buttons (shown: the Willo section shows; on: Willo is installed).

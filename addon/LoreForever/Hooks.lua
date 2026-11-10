@@ -935,10 +935,11 @@ local function buttonQuest(b, id)
   return e and e.m and e.m.id
 end
 
--- The book reader (books, letters, plaques): the quest window's control, the stone pill's play half (no playlist half:
--- a book's page isn't queued), that plays the page's recording, or stops it (LOR-49). Mike, stream 11/7, on the plain
--- "Listen" button it had: "Books shouldn't have a listen button like this" (LOR-1323). Shown only for a page a voice
--- recorded (Voice.BookPageClip).
+-- The book reader (books, letters, plaques): the quest window's control, the stone pill. Its play half plays the page's
+-- recording, or stops it (LOR-49); its + puts the whole book in the playlist, in page order, and takes it out again
+-- (UI.DoQueueBook). Mike, 11/9, on a pill with only a play half: books should have the control "we have designed
+-- everywhere else" (LOR-1323). As on a quest: a page no voice recorded has no play half, and a book none of whose pages
+-- are recorded has no pill at all.
 function Hooks.BookFrame()
   local f = _G.ItemTextFrame
   if not f or Hooks.bookButton then return end
@@ -946,19 +947,26 @@ function Hooks.BookFrame()
   local p = T.Pill(f, ROW_H, true)
   p:SetPoint("TOPRIGHT", f, "TOPRIGHT", -28, -30)
   p:SetFrameLevel((f:GetFrameLevel() or 1) + 5)
-  T.SetPill(p, false, false, false, true)
   p.play:SetScript("OnClick", function()
     ns.Voice.ReadBookPage(true)
     Hooks.UpdateBookButton()
   end)
   p.play.onEnter = function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-    local UI = ns.UI
-    local reading = UI and UI.speaking and ns.Voice.IsBookText(UI.playingId)
-    GameTooltip:AddLine(reading and L["Stop narration"] or L["Play narration"])
+    GameTooltip:AddLine(Hooks.ReadingBook() and L["Stop narration"] or L["Play narration"])
     GameTooltip:Show()
   end
   p.play.onLeave = function() GameTooltip:Hide() end
+  p.add:SetScript("OnClick", function()
+    if p.book then ns.UI.DoQueueBook(p.book) end
+    Hooks.UpdateBookButton()
+  end)
+  p.add.onEnter = function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    if p.book then ns.UI.QueueTooltip(p.book.id) end
+    GameTooltip:Show()
+  end
+  p.add.onLeave = p.play.onLeave
   local wait = 0
   p:SetScript("OnUpdate", function(_, elapsed)   -- the page can finish by itself: follow it twice a second
     wait = wait + (elapsed or 0)
@@ -969,13 +977,21 @@ function Hooks.BookFrame()
   Hooks.bookButton = p
 end
 
+-- Whether this book's page plays now, from the pill, by itself or from the playlist.
+function Hooks.ReadingBook()
+  local UI, clip = ns.UI, ns.Voice.BookPageClip()
+  return (UI and UI.speaking and (ns.Voice.IsBookText(UI.playingId) or (clip ~= nil and UI.playingKey == clip))) and true or false
+end
+
 function Hooks.UpdateBookButton()
   local p = Hooks.bookButton
   if not p then return end
   local UI = ns.UI
-  local reading = UI and UI.speaking and ns.Voice.IsBookText(UI.playingId)
-  ns.Theme.SetPill(p, reading and true or false)
-  p:SetShown((reading or ns.Voice.BookPageClip() ~= nil) and true or false)
+  local reading, book = Hooks.ReadingBook(), ns.Voice.OpenBook()
+  p.book = book
+  ns.Theme.SetPill(p, reading, book ~= nil, book ~= nil and UI.PlaylistIndex(book.id) ~= nil,
+    reading or ns.Voice.BookPageClip() ~= nil)
+  p:SetShown(reading or book ~= nil)
 end
 
 function Hooks.UpdateQuestDialogButton()
@@ -1222,7 +1238,6 @@ function Hooks.KeyPrompt(which)
   local f = CreateFrame("Frame", "LoreForeverKeyPrompt", UIParent, T.BACKDROP_TEMPLATE)
   f.which = which
   f:SetSize(380, 118)
-  f:SetPoint("TOP", 0, -140)
   f:SetFrameStrata("DIALOG")
   local bg = T.Area(f, "dock")
   bg:SetPoint("TOPLEFT", 2, -2)
@@ -1300,6 +1315,7 @@ function Hooks.KeyPrompt(which)
     if self.capturing and ACTIONS[self.which].mouse and MOUSE_KEYS[button] then press(self, MOUSE_KEYS[button]) end
   end)
   f:SetScript("OnShow", idle)
+  T.Movable(f, "keyPrompt", { "TOP", 0, -140 })
   f:Hide()
   Hooks.keyFrame = f
   return f

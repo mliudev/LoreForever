@@ -1,0 +1,87 @@
+{
+ "key": "quest:95141",
+ "type": "quest",
+ "name": "Report to Rog'mar",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95141
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "An Orc directs you to Rog'mar, an outpost in the embattled Riverglades. Report to Krom'rosh, whose experience has helped the outpost endure repeated attacks.",
+ "sections": [
+  {
+   "title": "An Outpost Endures",
+   "body": "The Riverglades lie northeast of Stonard along the eastern coast. Many have tried to claim the land, though few have managed it. Rog'mar is a small outpost that has survived countless attacks. You are sent there to report to Krom'rosh, an old ally whose battle experience has helped the outpost endure.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is Rog'mar?",
+   "aliases": [
+    "rog'mar location",
+    "where is rogmar",
+    "rog'mar outpost"
+   ],
+   "answer": "Rog'mar lies in the Riverglades, northeast of Stonard along the eastern coast."
+  },
+  {
+   "q": "Who am I reporting to?",
+   "aliases": [
+    "report to who",
+    "who is krom'rosh",
+    "kromrosh"
+   ],
+   "answer": "You are to report to Krom'rosh at the Rog'mar outpost."
+  },
+  {
+   "q": "What is Rog'mar?",
+   "aliases": [
+    "rogmar what",
+    "riverglades outpost",
+    "small outpost"
+   ],
+   "answer": "Rog'mar is a small outpost in the Riverglades that has endured countless attacks."
+  },
+  {
+   "q": "Why is Krom'rosh at Rog'mar?",
+   "aliases": [
+    "why kromrosh there",
+    "krom'rosh role",
+    "who runs rogmar"
+   ],
+   "answer": "Krom'rosh's experience battling enemies has helped the outpost endure."
+  },
+  {
+   "q": "What kind of land are the Riverglades?",
+   "aliases": [
+    "riverglades",
+    "what is riverglades like",
+    "embattled land"
+   ],
+   "answer": "The Riverglades are an embattled land along the eastern coast, northeast of Stonard."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "attacks",
+  "eastern coast",
+  "krom'rosh",
+  "outpost",
+  "riverglades",
+  "rog'mar",
+  "stonard"
+ ],
+ "related": [
+  "zone:riverglades",
+  "subzone:stonard"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Report to Rog'mar"
+ ]
+}

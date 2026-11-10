@@ -1,0 +1,101 @@
+{
+ "key": "quest:98340",
+ "type": "quest",
+ "name": "The Great Cat Spirit",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98340
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Dendrite Starblaze calls you to Moonglade for the next step in your druidic training. He sets you on the path to learn nature\u2019s cat perspective.",
+ "sections": [
+  {
+   "title": "A Call to Moonglade",
+   "body": "Dendrite Starblaze seeks you in Nighthaven, the village in Moonglade. You have already learned the magic that brings you there, and your druidic training can continue when you meet him.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Cat\u2019s Perspective",
+   "body": "Dendrite welcomes you back and turns your training toward the cat, another perspective of nature. As with the bear, understanding this aspect rests with you.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sent for me?",
+   "aliases": [
+    "who wants me in moonglade",
+    "dendrite call",
+    "who sent for druid"
+   ],
+   "answer": "Dendrite Starblaze has sent for you in Nighthaven, Moonglade."
+  },
+  {
+   "q": "What does Dendrite want to teach me?",
+   "aliases": [
+    "cat training",
+    "learn cat",
+    "what is next"
+   ],
+   "answer": "Dendrite will set you on the path to understanding the cat as a perspective of nature."
+  },
+  {
+   "q": "Where do I meet Dendrite?",
+   "aliases": [
+    "where is dendrite",
+    "meet dendrite",
+    "nighthaven where"
+   ],
+   "answer": "Dendrite is in the village of Nighthaven in Moonglade."
+  },
+  {
+   "q": "How can I reach Moonglade?",
+   "aliases": [
+    "get to moonglade",
+    "moonglade travel",
+    "how go there"
+   ],
+   "answer": "You have already learned the magic that takes you to Moonglade."
+  },
+  {
+   "q": "What comes before this step?",
+   "aliases": [
+    "what did i learn before",
+    "bear training before",
+    "previous druid step"
+   ],
+   "answer": "You have already learned the magic to travel to Moonglade, and Dendrite compares this learning to the bear aspect."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As a druid, Dendrite\u2019s teaching opens the next part of your training: understanding nature through the cat."
+  }
+ ],
+ "keywords": [
+  "bear",
+  "cat",
+  "dendrite starblaze",
+  "druid training",
+  "great cat spirit",
+  "moonglade",
+  "nature",
+  "nighthaven"
+ ],
+ "related": [
+  "quest:5921",
+  "quest:92472",
+  "subzone:nighthaven",
+  "npc:dendrite-starblaze",
+  "topic:cenarius"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Great Cat Spirit"
+ ]
+}

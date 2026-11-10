@@ -1,0 +1,78 @@
+{
+ "key": "quest:86757",
+ "type": "quest",
+ "name": "Slowing the Orc Advance",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   86757
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Shandrina asks you to help drive orcs from eastern Ashenvale. Their scouts and grunts make it unsafe for her kind to travel through the woods.",
+ "sections": [
+  {
+   "title": "Orcs in the Woods",
+   "body": "In Ashenvale, Shandrina seeks your help as orcs spread through the eastern forest. Their scouts and grunts now lurk throughout the woods, making travel unsafe for her kind. You are asked to bring her the jagged swords and curved knives the orcs use, so she can salvage and repurpose them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Shandrina need?",
+   "aliases": [
+    "what does she want",
+    "shandrina needs",
+    "items for shandrina"
+   ],
+   "answer": "Shandrina asks you to bring her the jagged swords and curved knives used by the orcs."
+  },
+  {
+   "q": "Why is Ashenvale unsafe?",
+   "aliases": [
+    "why unsafe",
+    "orcs in ash forest",
+    "what's happening in ashenvale"
+   ],
+   "answer": "Orcs have taken over the eastern forest, and their scouts and grunts lurk through the woods."
+  },
+  {
+   "q": "What will Shandrina do with the weapons?",
+   "aliases": [
+    "weapon purpose",
+    "what for swords",
+    "reuse orc weapons"
+   ],
+   "answer": "Shandrina plans to salvage and repurpose the orc weapons."
+  },
+  {
+   "q": "Who are the orcs in the woods?",
+   "aliases": [
+    "orc scouts",
+    "orc grunts",
+    "who took over east"
+   ],
+   "answer": "The orcs have taken over the eastern forest, where their scouts and grunts now lurk."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ashenvale",
+  "curved knives",
+  "grunts",
+  "jagged swords",
+  "orcs",
+  "scouts",
+  "shandrina",
+  "weapons"
+ ],
+ "related": [
+  "zone:ashenvale"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Slowing the Orc Advance"
+ ]
+}

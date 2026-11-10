@@ -1,0 +1,79 @@
+{
+ "key": "quest:98394",
+ "type": "quest",
+ "name": "The Great Cat Spirit",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98394
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A wise spirit in southern Moonglade teaches druids about the cat\u2019s nature. Its wisdom guides those who seek the feline shape.",
+ "sections": [
+  {
+   "title": "A Lesson in Moonglade",
+   "body": "In southern Moonglade, the Great Cat Spirit waits on a hill above the bridge. Druids who seek the feline shape come to it for guidance. You are here to learn what it can teach about the nature of the cat.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where is the Great Cat Spirit?",
+   "aliases": [
+    "cat spirit location",
+    "where find cat spirit"
+   ],
+   "answer": "The Great Cat Spirit resides on a hill in southern Moonglade, overlooking the bridge."
+  },
+  {
+   "q": "What does the Great Cat Spirit teach?",
+   "aliases": [
+    "cat spirit teaches what",
+    "learn cat shape"
+   ],
+   "answer": "The Great Cat Spirit teaches druids about the nature of the cat and the feline shape."
+  },
+  {
+   "q": "Why do druids seek the Great Cat Spirit?",
+   "aliases": [
+    "why see cat spirit",
+    "druid cat spirit"
+   ],
+   "answer": "Druids seeking the feline shape come to the Great Cat Spirit for wisdom and guidance."
+  },
+  {
+   "q": "Who is the Great Cat Spirit?",
+   "aliases": [
+    "great cat spirit who",
+    "cat spirit"
+   ],
+   "answer": "The Great Cat Spirit is a wise, cunning being in southern Moonglade who tutors druids seeking the feline shape."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As a druid seeking the feline shape, you come to the Great Cat Spirit in Moonglade for wisdom about the cat."
+  }
+ ],
+ "keywords": [
+  "cat nature",
+  "cat spirit",
+  "druid",
+  "feline shape",
+  "great cat spirit",
+  "moonglade"
+ ],
+ "related": [
+  "quest:5921",
+  "topic:druid",
+  "quest:5929"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Great Cat Spirit"
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "key": "quest:96294",
+ "type": "quest",
+ "name": "A Darker Truth",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96294
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Muln Earthfury asks you to bring him a letter recovered at Gloomrise. It may shed light on the spiders there.",
+ "sections": [
+  {
+   "title": "A Letter at Gloomrise",
+   "body": "At Gloomrise, you have found that the Broodmother was a night elf druid in a twisted animal form. Questions remain about the spiders and their purpose. A note from her robe may hold answers, so you carry it to Muln Earthfury at Skywatcher Plateau.",
+   "spoiler": 0
+  },
+  {
+   "title": "Muln's Concern",
+   "body": "Muln Earthfury finds the letter disturbing. It speaks of a \u201cWild King\u201d and a \u201cPact,\u201d though he does not know who or what they are. He plans to consult the Cenarion Circle, while taking comfort that the one controlling the spiders is gone.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was the Broodmother?",
+   "aliases": [
+    "broodmother identity",
+    "valraxx who",
+    "spider elf?"
+   ],
+   "answer": "The Broodmother was a night elf druid who had taken a twisted animal form."
+  },
+  {
+   "q": "What do I bring to Muln Earthfury?",
+   "aliases": [
+    "what letter",
+    "muln letter",
+    "bring what?"
+   ],
+   "answer": "You bring Muln Earthfury the letter recovered from Broodmother Valraxx's robe."
+  },
+  {
+   "q": "Where do I take the letter?",
+   "aliases": [
+    "muln location",
+    "where's skywatcher",
+    "letter destination"
+   ],
+   "answer": "You take the letter to Muln Earthfury at Skywatcher Plateau."
+  },
+  {
+   "q": "What does Muln make of the letter?",
+   "aliases": [
+    "muln reaction",
+    "why disturbing",
+    "letter says what"
+   ],
+   "answer": "Muln finds it disturbing and wonders about its references to a \u201cWild King\u201d and a \u201cPact.\u201d"
+  },
+  {
+   "q": "Who will Muln consult?",
+   "aliases": [
+    "cenarion circle letter",
+    "who will he ask",
+    "druid council?"
+   ],
+   "answer": "Muln plans to speak with the druids of the Cenarion Circle."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a darker truth",
+  "broodmother valraxx",
+  "cenarion circle",
+  "gloomrise",
+  "muln earthfury",
+  "night elf druid",
+  "pact",
+  "skywatcher plateau",
+  "spiders",
+  "wild king"
+ ],
+ "related": [
+  "quest:96261",
+  "topic:cenarion-circle",
+  "topic:night-elf",
+  "topic:druid"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Darker Truth"
+ ]
+}

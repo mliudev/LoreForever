@@ -1,0 +1,82 @@
+{
+ "key": "quest:97964",
+ "type": "quest",
+ "name": "Camping 101: Blacksmithing",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97964
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "As a Blacksmith, you can learn to craft a Sharpening Wheel for use at your camp. Aedi Thriceforged in Shen'dar Village can teach you once you have shown proficiency.",
+ "sections": [
+  {
+   "title": "Aedi's Lesson",
+   "body": "A Sharpening Wheel lets warriors and rogues nearby hone their weapons at your camp. In Shen'dar Village, Aedi Thriceforged can teach you its craft once you have shown proficiency in Blacksmithing.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who teaches me to make a Sharpening Wheel?",
+   "aliases": [
+    "sharpening wheel teacher",
+    "who is aedi",
+    "aedi blacksmithing"
+   ],
+   "answer": "Aedi Thriceforged in Shen'dar Village can teach you to craft a Sharpening Wheel once you have shown proficiency in Blacksmithing."
+  },
+  {
+   "q": "What does a Sharpening Wheel do?",
+   "aliases": [
+    "sharpening wheel use",
+    "hone weapons",
+    "camp sharpening thing"
+   ],
+   "answer": "At your camp, a Sharpening Wheel lets nearby warriors and rogues hone their weapons."
+  },
+  {
+   "q": "Where do I find Aedi Thriceforged?",
+   "aliases": [
+    "aedi location",
+    "where is aedi",
+    "aedi shendar"
+   ],
+   "answer": "Aedi Thriceforged is in Shen'dar Village."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Blacksmithing",
+   "text": "As a Blacksmith, you can learn to craft a Sharpening Wheel for use at your camp."
+  },
+  {
+   "target": "class:Warrior",
+   "text": "As a warrior nearby, you can hone your weapon at a Sharpening Wheel set up at a camp."
+  },
+  {
+   "target": "class:Rogue",
+   "text": "As a rogue nearby, you can hone your weapon at a Sharpening Wheel set up at a camp."
+  }
+ ],
+ "keywords": [
+  "aedi thriceforged",
+  "blacksmithing",
+  "camping 101",
+  "rogue",
+  "sharpening wheel",
+  "shen'dar village",
+  "warrior"
+ ],
+ "related": [
+  "topic:warrior",
+  "topic:rogue"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Camping 101: Blacksmithing"
+ ]
+}

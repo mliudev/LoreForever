@@ -3,17 +3,19 @@
 -- the add-on's journey map. The same pins (Journey.Pins: what Willo wrote for this character, read at login or
 -- /reload, and handed over during play since LOR-1292: PinsLive) now show there too, as the journey map draws them, a teal bead in a white ring, named on mouse-over:
 --
---   world map  on the pin's zone and its continent, kept the same size on screen however far the map is zoomed;
+--   world map  on the pin's zone, its continent and the whole-world view, kept the same size on screen however far the
+--              map is zoomed;
 --   minimap    while the player is on the pin's continent, where it lies around them (on the rim, dimmed, when it's
 --              further than the minimap shows), turning with the minimap when it turns.
 --
 -- Our own frames on the map's canvas and on the minimap, placed by the client's map API (C_Map: the zone's place on its
 -- continent, the continent's size in yards, the player's spot on it), so no embedded library (the Architect, 11/7) and
--- no map pin template that a client may not have. Nothing here is clickable beyond the mouse-over, and nothing is
+-- no map pin template that a client may not have. A right-click takes a pin off (PinArrive.PinMouseUp), and nothing is
 -- above the game's frame-level cap.
 
 local _, ns = ...
 local T = ns.Theme
+local L = ns.L
 
 local WorldPins = {}
 ns.WorldPins = WorldPins
@@ -34,7 +36,8 @@ end
 
 local function bead(parent, dot, ring)
   local b = CreateFrame("Frame", nil, parent)
-  b:SetSize(ring + 4, ring + 4)
+  local hit = math.max(ring + 4, 16)   -- the smallest thing we ask a player to click
+  b:SetSize(hit, hit)
   b.ring = b:CreateTexture(nil, "ARTWORK", nil, 0)
   b.ring:SetTexture(DISC)
   b.ring:SetPoint("CENTER")
@@ -53,9 +56,11 @@ local function bead(parent, dot, ring)
     GameTooltip:AddLine(pin.title or "")
     if pin.sub and pin.sub ~= "" then T.Tip(pin.sub, "tipText", true) end
     if pin.foot and pin.foot ~= "" then T.Tip(pin.foot, "tipDim", true) end
+    T.Tip(L["Right-click to remove"], "tipDim", true)
     GameTooltip:Show()
   end)
   b:SetScript("OnLeave", function() if GameTooltip then GameTooltip:Hide() end end)
+  b:SetScript("OnMouseUp", function(self, button) if ns.PinArrive then ns.PinArrive.PinMouseUp(self, button) end end)
   b:Hide()
   return b
 end
@@ -77,11 +82,14 @@ local function canvas()
   return c, f
 end
 
--- Where a pin lies on map m, 0..1 each way, or nil when m is neither its zone nor its continent.
+-- Where a pin lies on map m, 0..1 each way, or nil when m isn't its zone, its continent or the whole-world view.
 local function onWorldMap(spot, m)
   if type(spot) ~= "table" or not m then return nil end
   if spot.zone == m and spot.zx then return spot.zx, spot.zy end
   if spot.cont == m and spot.cx then return spot.cx, spot.cy end
+  local world, x, y
+  if ns.JourneyMap and ns.JourneyMap.OnWorld then world, x, y = ns.JourneyMap.OnWorld(spot) end
+  if world == m then return x, y end
 end
 
 function WorldPins.RefreshWorld()

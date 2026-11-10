@@ -1,0 +1,110 @@
+{
+ "key": "quest:95773",
+ "type": "quest",
+ "name": "Enemies in the Water",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95773
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Naga gather near old troll ruins off the coast, while the Horde is already pressed by attacks on its caravans. You are asked to answer this threat and show that you are proving your worth.",
+ "sections": [
+  {
+   "title": "Reports from the Coast",
+   "body": "The Horde has received reports of naga gathering near old troll ruins beneath the sea. Bloodscalp and ogre attacks are already straining its defenses, so a threat from the water gives little room for delay. You are asked to confront the Brinescale skirmishers and bring back their tridents as proof.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Message at Grom\u2019gol",
+   "body": "At Grom\u2019gol, the tridents you bring back are meant to be planted outside the gates. Their display will warn that the Horde is not to be trifled with, and your work earns the commander\u2019s praise.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are the naga near the coast?",
+   "aliases": [
+    "naga coast",
+    "naga in water",
+    "why naga here"
+   ],
+   "answer": "Reports say the naga are gathering around old troll ruins beneath the sea."
+  },
+  {
+   "q": "Who are the enemies here?",
+   "aliases": [
+    "water enemies",
+    "who naga",
+    "brinescale"
+   ],
+   "answer": "The threat comes from Brinescale skirmishers, a group of naga reported near the coast."
+  },
+  {
+   "q": "Why does the Horde want the naga dealt with?",
+   "aliases": [
+    "why kill naga",
+    "horde naga problem",
+    "sea attack"
+   ],
+   "answer": "The Horde is already stretched thin defending its caravans from Bloodscalp and ogre attacks, and fears a surprise assault from the sea."
+  },
+  {
+   "q": "What proof is requested?",
+   "aliases": [
+    "trident proof",
+    "what bring back",
+    "brinescale tridents"
+   ],
+   "answer": "You are asked to bring back Brinescale tridents as proof of your success."
+  },
+  {
+   "q": "What will happen to the tridents?",
+   "aliases": [
+    "trident message",
+    "plant tridents",
+    "gromgol tridents"
+   ],
+   "answer": "They will be planted outside Grom\u2019gol\u2019s gates as a warning that the Horde is not to be trifled with."
+  },
+  {
+   "q": "How does this prove my worth?",
+   "aliases": [
+    "prove worth",
+    "horde approval",
+    "why am i here"
+   ],
+   "answer": "The commander praises your work and says you are quickly proving your worth to the Horde."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The Horde seeks to protect its caravans while keeping watch for a possible attack from the sea."
+  }
+ ],
+ "keywords": [
+  "bloodscalp",
+  "brinescale",
+  "enemies in the water",
+  "grom'gol",
+  "horde",
+  "naga",
+  "ogres",
+  "tridents",
+  "troll ruins"
+ ],
+ "related": [
+  "quest:323",
+  "topic:naga",
+  "topic:horde",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Enemies in the Water"
+ ]
+}

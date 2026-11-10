@@ -1,0 +1,79 @@
+{
+ "key": "quest:79361",
+ "type": "quest",
+ "name": "Storm, Earth, and Fire",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79361
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Prate Cloudseer asks you to help stop the quilboar from flooding Thousand Needles through twisted shamanism. A tome meant for your training may help disperse the coming storm.",
+ "sections": [
+  {
+   "title": "A Storm Approaches",
+   "body": "Prate Cloudseer had planned to continue your training, but the threat in Thousand Needles cannot wait. You have seen that the quilboar are not to be taken lightly. Prate gives you a tome meant for study and asks you to gather twisted fire, earth, air, and water totems. The tome may hold a way to disperse the storm they are bringing.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who is Prate",
+    "Prate Cloudseer",
+    "cloudseer"
+   ],
+   "answer": "Prate Cloudseer asks you to gather twisted totems in Thousand Needles."
+  },
+  {
+   "q": "What are the quilboar trying to do?",
+   "aliases": [
+    "quilboar plan",
+    "why the totems",
+    "quilboar storm"
+   ],
+   "answer": "Prate says the quilboar mean to flood Thousand Needles through twisted shamanism."
+  },
+  {
+   "q": "What does Prate give me?",
+   "aliases": [
+    "tome",
+    "what is the book",
+    "study tome"
+   ],
+   "answer": "Prate gives you a tome that was meant for study and may help disperse the coming storm."
+  },
+  {
+   "q": "Which totems does Prate need?",
+   "aliases": [
+    "totem types",
+    "fire earth air water",
+    "what totems"
+   ],
+   "answer": "Prate asks you to gather twisted fire, earth, air, and water totems."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "prate cloudseer",
+  "quilboar",
+  "storm earth and fire",
+  "thousand needles",
+  "tome",
+  "twisted shamanism",
+  "twisted totems"
+ ],
+ "related": [
+  "quest:91209",
+  "zone:thousandneedles",
+  "topic:quilboar"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Storm, Earth, and Fire"
+ ]
+}

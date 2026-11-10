@@ -1,0 +1,81 @@
+{
+ "key": "quest:95789",
+ "type": "quest",
+ "name": "Shady Saltseers",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95789
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A contact of Baron Revilgaz sends you to the Drowned City after the Saltseers, pirates who collect magical artifacts. Their stolen goods have drawn attention now that the sunken troll ruin has risen again.",
+ "sections": [
+  {
+   "title": "A Baron\u2019s Request",
+   "body": "A contact of Baron Revilgaz asks you to recover artifacts from the Saltseers in the Drowned City. The pirates collect magical objects, and the ruin\u2019s return has left goods there for the taking. Their stolen artifacts are what Revilgaz\u2019s contact seeks.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the Saltseers\u2019 artifacts?",
+   "aliases": [
+    "who sent me",
+    "baron revilgaz contact",
+    "who wants artifacts"
+   ],
+   "answer": "A contact of Baron Revilgaz asks you to recover the artifacts."
+  },
+  {
+   "q": "Who are the Saltseers?",
+   "aliases": [
+    "saltseer pirates",
+    "who are saltseers",
+    "saltseers"
+   ],
+   "answer": "The Saltseers are pirates who collect magical artifacts."
+  },
+  {
+   "q": "Where are the Saltseers?",
+   "aliases": [
+    "where is drowned city",
+    "saltseers location",
+    "drowned city"
+   ],
+   "answer": "They are in the Drowned City, a sunken troll ruin that has risen again."
+  },
+  {
+   "q": "What artifacts am I looking for?",
+   "aliases": [
+    "what to collect",
+    "voodoo artifacts",
+    "stolen goods"
+   ],
+   "answer": "You are asked to recover Voodoo Infused Artifacts stolen by the Saltseers."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "baron revilgaz",
+  "drowned city",
+  "magical artifacts",
+  "pirates",
+  "saltseers",
+  "shady saltseers",
+  "troll ruin",
+  "voodoo infused artifacts"
+ ],
+ "related": [
+  "npc:baron-revilgaz",
+  "topic:pirate",
+  "topic:troll",
+  "quest:95775"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Shady Saltseers"
+ ]
+}

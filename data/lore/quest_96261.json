@@ -1,0 +1,93 @@
+{
+ "key": "quest:96261",
+ "type": "quest",
+ "name": "The Broodmother",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96261
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "At Gloomrise, the Earthen Ring asks you to stop the spider infestation by confronting its broodmother. The threat puts the people of Mulgore at risk.",
+ "sections": [
+  {
+   "title": "The Gloomrise Nest",
+   "body": "The Earthen Ring believes a powerful matriarch is driving the spider infestation at Gloomrise. You are asked to seek out Broodmother Valraxx and destroy her. The spiders seem unlike ordinary spiders, so the Ring warns you to be ready for anything.",
+   "spoiler": 0
+  },
+  {
+   "title": "Troubling Signs",
+   "body": "Afterward, the Earthen Ring reports reanimated dead and a broodmother with a night elven form. These discoveries trouble them, though they set aside the question of what they mean. They thank you for helping the Ring and Mulgore's people.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is happening at Gloomrise?",
+   "aliases": [
+    "gloomrise spiders",
+    "spider infestation",
+    "what's at gloomrise"
+   ],
+   "answer": "A spider infestation is spreading at Gloomrise, and the Earthen Ring believes a powerful matriarch is leading it."
+  },
+  {
+   "q": "Who is Broodmother Valraxx?",
+   "aliases": [
+    "valraxx",
+    "broodmother",
+    "spider matriarch"
+   ],
+   "answer": "Broodmother Valraxx is the broodmother at Gloomrise whom the Earthen Ring asks you to destroy."
+  },
+  {
+   "q": "Why does the Earthen Ring want the broodmother gone?",
+   "aliases": [
+    "why kill broodmother",
+    "why valraxx",
+    "stop spiders"
+   ],
+   "answer": "The Ring believes the broodmother is driving the hostile spider population to spread."
+  },
+  {
+   "q": "Where is the broodmother?",
+   "aliases": [
+    "valraxx location",
+    "where broodmother",
+    "gloomrise location"
+   ],
+   "answer": "Broodmother Valraxx is at Gloomrise."
+  },
+  {
+   "q": "What does the Earthen Ring say about these spiders?",
+   "aliases": [
+    "strange spiders",
+    "ordinary spiders",
+    "spiders weird"
+   ],
+   "answer": "The Earthen Ring says these seem to be no ordinary spiders."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "broodmother",
+  "earthen ring",
+  "gloomrise",
+  "infestation",
+  "mulgore",
+  "night elven form",
+  "spiders",
+  "valraxx"
+ ],
+ "related": [
+  "quest:95349",
+  "zone:mulgore"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Broodmother"
+ ]
+}

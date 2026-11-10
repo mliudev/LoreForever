@@ -497,9 +497,9 @@
     "npc:eitrigg": {
       "1": [
         {
-          "duration": 108.12081632653062,
-          "file": "Audio/Transport/full_npc_eitrigg-1eafa579422d97b54746/1-0000.mp3",
-          "sha256": "b65572e03149a3c5de51015c906385c5d06e8160f81eeabd8b6b9eed8e144606",
+          "duration": 105.66530612244898,
+          "file": "Audio/Transport/full_npc_eitrigg-6d641a62f2d4abe8c9e4/1-0000.mp3",
+          "sha256": "50514afacb5eda066db0890137be164e522d67c1b09caf18b180b278b4450707",
           "start": 0
         }
       ],
@@ -511,12 +511,12 @@
         ]
       },
       "fullHash": "aea44b",
-      "generation": "9c005598d59395a29e53",
+      "generation": "48bbf8accc0d3f3ebd71",
       "hash": "bc7729",
       "source": {
-        "duration": 108.146939,
+        "duration": 105.691429,
         "file": null,
-        "sha256": "1eafa579422d97b54746dce0d9c9e5025b29c9c4907fed944d292545a882d320"
+        "sha256": "6d641a62f2d4abe8c9e40264d72c8a60271ea16c9be7159ad7149706ded72eba"
       },
       "text": "Eitrigg. In Orgrimmar, Eitrigg counsels Warchief Thrall and helps guide the Horde toward honor and shamanism. He fought in the First and Second Wars, then left the defeated Blackrock Horde and lived in exile. Born on Draenor among the Blackrock clan, Eitrigg fought for the Horde in the First and Second Wars. Defeat in the Second War made him see how far his people had fallen into bloodlust and demonic corruption. Sickened by what the Horde had become, he left its scattered remnants and sought solitude in the wilds of Lordaeron. During his exile, Eitrigg sheltered in an abandoned tower near Hearthglen. The human paladin Tirion Fordring found him, and their clash brought the tower’s ruins down around them. Eitrigg pulled the unconscious human to safety instead of finishing him. Moved by this act of martial honor, Tirion swore friendship and kept the hermit’s location secret.\n\nThe local Alliance authorities eventually captured Eitrigg and sentenced him to hang in Stratholme. Tirion cast aside his knighthood, lands, and freedom to attack the city and rescue him. Their bond showed both warriors that honor could cross the hatred between their peoples. In Stratholme, Thrall’s newly united Horde raided the city during Tirion’s attempt to free Eitrigg and carried the aging warrior away. Meeting Thrall convinced Eitrigg that the orcs were casting off demonic corruption and returning to their ancestral shamanic heritage. He crossed the Great Sea with Thrall to Kalimdor and took a revered place in Orgrimmar’s Valley of Wisdom.\n\nNow Eitrigg advises the young Warchief inside Grommash Hold. He helps evaluate new recruits and shares the wisdom he earned, so the New Horde does not repeat the tragedies of the past."
     },
@@ -1771,9 +1771,9 @@
     "subzone:bladefist-bay": {
       "1": [
         {
-          "duration": 51.64408163265306,
-          "file": "Audio/Transport/full_subzone_bladefist-bay-10a9ceeb505280c9ee2e/1-0000.mp3",
-          "sha256": "1b74262975a9acc956a87c4523271d5aa8c93b054c12eeb7214d77bfa267d57e",
+          "duration": 51.27836734693878,
+          "file": "Audio/Transport/full_subzone_bladefist-bay-b22da12690cac019d4b6/1-0000.mp3",
+          "sha256": "86b7ccfbe943d3529b6ad6a6e4f03d3168638b2d2aa7ed4bbdc7049a85812cd0",
           "start": 0
         }
       ],
@@ -1785,12 +1785,12 @@
         ]
       },
       "fullHash": "8c9639",
-      "generation": "0aeacc012bf14f41e3a3",
+      "generation": "44a3175f91f563f19f93",
       "hash": "b75c90",
       "source": {
-        "duration": 51.670204,
+        "duration": 51.30449,
         "file": null,
-        "sha256": "10a9ceeb505280c9ee2e01953a0148d8d4aa8061078e7e514ccf2a20348ad103"
+        "sha256": "b22da12690cac019d4b64bb4f2b781268f3304cb5df4e1845a77180ba7ab0b4e"
       },
       "text": "Bladefist Bay. Along Durotar’s eastern coast, Bladefist Bay opens onto the Great Sea just beyond Orgrimmar’s gates. Craggy bluffs rise above the shore, with Azshara’s southern coast across the water. Bladefist Bay meets the Great Sea on Durotar’s northeastern edge, east of Orgrimmar, the Horde capital. Rocky cliffs rise above its treacherous surf. Across the water to the north, Azshara’s ancient red cliffs and ruins mark the far shore. Here, Durotar meets the open sea. Kargath Bladefist gave the bay its name. Chieftain of the Shattered Hand clan, he severed his own hand and replaced it with a blade during the old Horde’s trials on Draenor. Nearby, Skull Rock shelters cultists and hidden rogue networks. The coast recalls the fierce and ruthless legacy of the clan’s chieftain."
     },
@@ -5266,14 +5266,6 @@
       1808,
       2008
     ],
-    "1b74262975a9acc956a87c4523271d5aa8c93b054c12eeb7214d77bfa267d57e": [
-      278,
-      487,
-      781,
-      1247,
-      1652,
-      1808
-    ],
     "1c27e8df8b8bd1d44942396f2b46b0bc908b95995ab808ded39b822f8da483f8": [
       284,
       647,
@@ -5782,6 +5774,24 @@
       1412,
       2008
     ],
+    "50514afacb5eda066db0890137be164e522d67c1b09caf18b180b278b4450707": [
+      259,
+      507,
+      754,
+      996,
+      1269,
+      1466,
+      1728,
+      1884,
+      2135,
+      2349,
+      2576,
+      2768,
+      3092,
+      3356,
+      3603,
+      3771
+    ],
     "50f289fedcabf39953fb2c2975287d107534c8c10a46d5e3234380a811fd413b": [
       293,
       534,
@@ -6142,6 +6152,14 @@
     ],
     "862f6113198b0988b8fc0746b8f4f3f3dcd0dc20f3dd014712254281afcb9786": [
       1035
+    ],
+    "86b7ccfbe943d3529b6ad6a6e4f03d3168638b2d2aa7ed4bbdc7049a85812cd0": [
+      272,
+      486,
+      715,
+      1233,
+      1639,
+      1798
     ],
     "883237d50e3ffd1c4095460b1d2f2d36d5e3d743ef238198d3e85b4b72c4fba6": [
       185,
@@ -6588,24 +6606,6 @@
       2209,
       2434,
       2572
-    ],
-    "b65572e03149a3c5de51015c906385c5d06e8160f81eeabd8b6b9eed8e144606": [
-      270,
-      516,
-      777,
-      1018,
-      1295,
-      1492,
-      1744,
-      1907,
-      2176,
-      2401,
-      2616,
-      2810,
-      3161,
-      3443,
-      3695,
-      3864
     ],
     "b69dfa0621042184acdf9e0c9598ba209ab08492f27c6c1898cc600076390929": [
       218,
@@ -7315,10 +7315,6 @@
       "1387": 2,
       "412": 1
     },
-    "1b74262975a9acc956a87c4523271d5aa8c93b054c12eeb7214d77bfa267d57e": {
-      "1247": 2,
-      "487": 1
-    },
     "1c27e8df8b8bd1d44942396f2b46b0bc908b95995ab808ded39b822f8da483f8": {
       "1868": 2,
       "647": 1
@@ -7476,6 +7472,11 @@
     "4ee780df10cc99d604778afbc59c72afdb72ee3c3e714bdd6305d295093f01a5": {
       "481": 1
     },
+    "50514afacb5eda066db0890137be164e522d67c1b09caf18b180b278b4450707": {
+      "1269": 2,
+      "2768": 3,
+      "507": 1
+    },
     "50f289fedcabf39953fb2c2975287d107534c8c10a46d5e3234380a811fd413b": {
       "1151": 2,
       "293": 1
@@ -7597,6 +7598,10 @@
     },
     "85d3e306c1574aa8795818988fff4725bef36d9b5d4325868c736912dbb3adb0": {
       "410": 1
+    },
+    "86b7ccfbe943d3529b6ad6a6e4f03d3168638b2d2aa7ed4bbdc7049a85812cd0": {
+      "1233": 2,
+      "486": 1
     },
     "883237d50e3ffd1c4095460b1d2f2d36d5e3d743ef238198d3e85b4b72c4fba6": {
       "392": 1
@@ -7745,11 +7750,6 @@
     "b6525ef2986271bc7c6fec9ea5d2e66fdb12f76007d1b154c0861a71f6661b9f": {
       "1780": 2,
       "469": 1
-    },
-    "b65572e03149a3c5de51015c906385c5d06e8160f81eeabd8b6b9eed8e144606": {
-      "1295": 2,
-      "2810": 3,
-      "516": 1
     },
     "b69dfa0621042184acdf9e0c9598ba209ab08492f27c6c1898cc600076390929": {
       "510": 1

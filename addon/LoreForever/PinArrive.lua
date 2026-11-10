@@ -13,6 +13,7 @@ local PinArrive = {}
 ns.PinArrive = PinArrive
 
 local SHOW = 30
+local SAMPLE, DROP_ADDS = 20, 5   -- seconds a sample stays up to be placed, and more after each drop
 local GOLD = "|cffffd100"
 
 local card, waiting
@@ -23,9 +24,8 @@ local function build()
   local T = ns.Theme
   local f = CreateFrame("Frame", "LoreForeverPinArrive", UIParent, T.BACKDROP_TEMPLATE)
   f:SetSize(360, 92)
-  f:SetPoint("TOP", 0, -170)
-  f:SetFrameStrata("HIGH")
-  f:EnableMouse(true)
+  f:SetFrameStrata("DIALOG")   -- with the new-page note: over the windows, and well below the game's level cap
+  f:SetFrameLevel(100)
   local bg = T.Area(f, "dock")
   bg:SetPoint("TOPLEFT", 2, -2)
   bg:SetPoint("BOTTOMRIGHT", -2, 2)
@@ -47,15 +47,34 @@ local function build()
   f.clear:SetPoint("BOTTOMLEFT", 16, 14)
   f.keep = button(L["Keep"], 80)
   f.keep:SetPoint("BOTTOMRIGHT", -16, 14)
-  f.clear:SetScript("OnClick", function() PinArrive.Clear(f.pin) end)
+  f.clear:SetScript("OnClick", function() if f.pin then PinArrive.Clear(f.pin) else f:Hide() end end)   -- (no pin: a sample)
   f.keep:SetScript("OnClick", function() f:Hide() end)
   table.insert(UISpecialFrames, "LoreForeverPinArrive")   -- Escape closes it
-  f:SetScript("OnUpdate", function(self)
-    if GetTime() >= (self.untilT or 0) then self:Hide() end
+  -- Counts down while the mouse is away, like the new-page note.
+  f:SetScript("OnUpdate", function(self, dt)
+    if self.held or (self.IsMouseOver and self:IsMouseOver()) then return end
+    self.left = (self.left or SHOW) - (dt or 0)
+    if self.left <= 0 then self:Hide() end
   end)
-  f:SetScript("OnHide", function(self) self.pin = nil end)
+  f:SetScript("OnHide", function(self) self.pin, self.sample = nil, nil end)
+  f:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_BOTTOM")
+    T.Tip(L["Drag: move it."], "tipDim")
+    GameTooltip:Show()
+  end)
+  f:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  T.Movable(f, "pinCard", { "TOP", 0, -190 })   -- (under the new-page note, so the two never overlap where they start)
+  f.onDropped = function(self) if self.sample then self.left = (self.left or 0) + DROP_ADDS end end
   f:Hide()
   return f
+end
+
+-- The card's words, and its height to fit them.
+local function fill(title, note)
+  card.title:SetText(GOLD .. string.format(L["You reached %s's pin: %s"], ns.COMPANION_NAME or "Willo", title) .. "|r")
+  card.note:SetText(note or "")
+  local h = 14 + (tonumber(card.title:GetStringHeight()) or 14) + (note and 4 + (tonumber(card.note:GetStringHeight()) or 12) or 0)
+  card:SetHeight(math.max(92, h + 14 + 22 + 14))
 end
 
 -- Show the card for pin (a Journey.Pins entry). True when it showed (or will, once the fight is over).
@@ -63,26 +82,39 @@ function PinArrive.Reached(pin)
   if type(pin) ~= "table" or not pin.key then return false end
   if InCombatLockdown and InCombatLockdown() then waiting = pin; return true end
   card = card or build()
-  card.pin = pin
-  card.title:SetText(GOLD .. string.format(L["You reached %s's pin: %s"], ns.COMPANION_NAME or "Willo", pin.title or "")
-    .. "|r")
-  card.note:SetText(pin.note or "")
-  local h = 14 + (tonumber(card.title:GetStringHeight()) or 14) + (pin.note and 4 + (tonumber(card.note:GetStringHeight()) or 12) or 0)
-  card:SetHeight(math.max(92, h + 14 + 22 + 14))
-  card.untilT = GetTime() + SHOW
+  card.pin, card.sample = pin, nil
+  fill(pin.title or "", pin.note)
+  card.left = SHOW
   card:Show()
   return true
 end
 
+-- Options' Move the notes...: a card to place, with no pin behind it, so both its buttons just put it away.
+function PinArrive.Sample()
+  card = card or build()
+  card.pin, card.sample = nil, true
+  fill(L["Drag this card too"], nil)
+  card.left = SAMPLE
+  card:Show()
+end
+
 -- Clear pin: off the maps now; Willo takes it out of the notebook after the next save.
 function PinArrive.Clear(pin)
-  if card then card:Hide() end
+  if card and card.pin and card.pin.key == pin.key then card:Hide() end
   if not (ns.Journey and ns.Journey.ClearPin and ns.Journey.ClearPin(pin)) then return false end
   if ns.WorldPins and ns.WorldPins.Update then pcall(ns.WorldPins.Update) end
   local J = ns.Journey
   if J.FocusMap and J.focus then pcall(J.FocusMap, J.focus) end
   say(string.format(L["Cleared the pin: %s."], pin.title or ""))
   return true
+end
+
+-- Right-clicking one of Willo's pins takes it off, on any map, every time (Mike, 11/8: "right clicking the pin to remove
+-- it"). A pin frame's OnMouseUp, self.pin its Journey.Pins entry. Only our own frames and saved data, so safe in a fight.
+function PinArrive.PinMouseUp(self, button)
+  if button ~= "RightButton" or not self.pin or not self:IsMouseOver() then return end
+  if GameTooltip:IsOwned(self) then GameTooltip:Hide() end
+  PinArrive.Clear(self.pin)
 end
 
 -- What the sims read: the card, if it's up ({title, note}).

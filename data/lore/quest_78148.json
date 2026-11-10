@@ -1,0 +1,68 @@
+{
+ "key": "quest:78148",
+ "type": "quest",
+ "name": "Runes of the Sorcerer-Kings",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   78148
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The Library in Ironforge welcomes magical works for its collection. Your discoveries help expand its knowledge.",
+ "sections": [
+  {
+   "title": "The Collection",
+   "body": "The library's keeper thanks you as its collection grows through your efforts. More magical works may add to its knowledge, and the keeper welcomes them for the library.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the library want?",
+   "aliases": [
+    "what do they want",
+    "library books",
+    "magical works"
+   ],
+   "answer": "The library welcomes magical works that may benefit its collection."
+  },
+  {
+   "q": "Where is the library?",
+   "aliases": [
+    "library location",
+    "where's the library",
+    "ironforge library"
+   ],
+   "answer": "The library is in Ironforge."
+  },
+  {
+   "q": "Why bring magical works?",
+   "aliases": [
+    "why books",
+    "what for",
+    "help the library"
+   ],
+   "answer": "Your efforts expand the library's knowledge."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "collection",
+  "ironforge",
+  "knowledge",
+  "library",
+  "magical works",
+  "runes",
+  "sorcerer-kings"
+ ],
+ "related": [
+  "subzone:library-ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Runes of the Sorcerer-Kings"
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "key": "quest:96987",
+ "type": "quest",
+ "name": "Opportunistic Education",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96987
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Rexxie Copperclutch asks you to fetch a tome from Dalaran\u2019s library while its mages are occupied. She hopes to sell the book and share the profit with you.",
+ "sections": [
+  {
+   "title": "A Book for Rexxie",
+   "body": "Rexxie Copperclutch, near the sewer entrance, sees a chance to profit from Dalaran\u2019s library. While its mages are occupied, she asks you to bring her the tome called Founding of Dalaran. She offers to split whatever it sells for.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Book\u2019s Worth",
+   "body": "Rexxie judges the book you bring back to be worth little. She considers disguising it with gold spray and claiming it belonged to an archmage.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the book?",
+   "aliases": [
+    "who wants the tome",
+    "rexxie copperclutch",
+    "who is rexxie"
+   ],
+   "answer": "Rexxie Copperclutch, near Dalaran\u2019s sewer entrance, asks you to bring her a tome from the city\u2019s library."
+  },
+  {
+   "q": "Which book does Rexxie want?",
+   "aliases": [
+    "what book",
+    "founding of dalaran",
+    "tome name"
+   ],
+   "answer": "Rexxie asks for Founding of Dalaran."
+  },
+  {
+   "q": "Why does Rexxie want the tome?",
+   "aliases": [
+    "why steal book",
+    "what's the book for"
+   ],
+   "answer": "Rexxie hopes to sell the tome and share the profit with you."
+  },
+  {
+   "q": "Where is the book supposed to come from?",
+   "aliases": [
+    "where get tome",
+    "dalaran library",
+    "book location"
+   ],
+   "answer": "Rexxie asks you to find Founding of Dalaran in the City of Dalaran."
+  },
+  {
+   "q": "What is happening with Dalaran\u2019s mages?",
+   "aliases": [
+    "mages busy",
+    "why opportunistic",
+    "dalaran mages"
+   ],
+   "answer": "Rexxie says the mages are occupied while she asks you to look for a book."
+  },
+  {
+   "q": "What does Rexxie think of the book you bring?",
+   "aliases": [
+    "is book valuable",
+    "what happens to tome",
+    "rexxie reaction"
+   ],
+   "answer": "Rexxie judges the book to be worth little and considers spraying it with gold to make it seem valuable."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Undead",
+   "text": "As an undead, Rexxie calls you like-minded and welcomes you into her scheme."
+  }
+ ],
+ "keywords": [
+  "dalaran",
+  "founding of dalaran",
+  "library",
+  "mages",
+  "opportunistic education",
+  "rexxie copperclutch",
+  "tome",
+  "undead"
+ ],
+ "related": [
+  "subzone:dalaran",
+  "topic:mage"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Opportunistic Education"
+ ]
+}

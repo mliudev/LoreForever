@@ -1,0 +1,82 @@
+{
+ "key": "quest:79364",
+ "type": "quest",
+ "name": "Eyes on the Sky",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79364
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A note warns that the Razormane are carrying out an unseen ritual in Thousand Needles. You are asked to seek an answer to the threat of storms and rising tides.",
+ "sections": [
+  {
+   "title": "A Gathering Threat",
+   "body": "The note you found points to the Razormane in Thousand Needles, where an unseen ritual is underway. Raging storms and rising tides raise the fear that the canyon may be flooded. The quilboar may be drawing on elemental power learned from Hirzek, a shaman. Return to your allies and speak with Prate Cloudseer.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the note say?",
+   "aliases": [
+    "note in Thousand Needles",
+    "what note",
+    "razormane note"
+   ],
+   "answer": "It says the Razormane have burrowed into Thousand Needles for an unseen ritual, amid raging storms and rising tides."
+  },
+  {
+   "q": "Who is Hirzek?",
+   "aliases": [
+    "Hirzek",
+    "Hirzek shaman",
+    "who's Hirzek"
+   ],
+   "answer": "Hirzek is a shaman who taught the quilboar sorcery that twists the elements."
+  },
+  {
+   "q": "What threat do the quilboar pose?",
+   "aliases": [
+    "quilboar threat",
+    "razormane ritual",
+    "what are quilboar doing"
+   ],
+   "answer": "The feared danger is that the quilboar could use elemental power to flood the canyon."
+  },
+  {
+   "q": "Who should I speak with?",
+   "aliases": [
+    "where to go",
+    "who to find",
+    "Prate Cloudseer"
+   ],
+   "answer": "You are asked to speak with Prate Cloudseer in Thousand Needles."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "elemental sorcery",
+  "eyes on the sky",
+  "hirzek",
+  "prate cloudseer",
+  "quilboar",
+  "razormane",
+  "rising tides",
+  "ritual",
+  "storms",
+  "thousand needles"
+ ],
+ "related": [
+  "zone:thousandneedles",
+  "topic:quilboar",
+  "topic:shaman"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Eyes on the Sky"
+ ]
+}

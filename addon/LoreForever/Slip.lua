@@ -3,8 +3,9 @@
 -- where it sits in your chronicle ("Westfall · People 9 of 20"). Click opens its page, Listen plays it, Shift-click adds
 -- it to the playlist, right-click gives the page's options and a way to stop these notes. Never in
 -- combat: what you find then waits, and the latest shows once the fight is over. Pages found close together share one
--- slip ("and 2 more"). It sits in the dialog layer at a low level, so clicks always land. Made the first time a page
--- is found, not at login. Options › New page notes (pageSlip) turns it off.
+-- slip ("and 2 more"). It sits in the dialog layer, over the windows there and well below the game's level cap, so
+-- clicks always land. A left-drag moves it and it keeps its place (Theme.Movable); Options' Move the notes... shows a
+-- sample to place. Made the first time a page is found, not at login. Options › New page notes (pageSlip) turns it off.
 
 local _, ns = ...
 local Slip = {}
@@ -12,6 +13,8 @@ ns.Slip = Slip
 local L, T = ns.L, ns.Theme
 
 local SHOW = 6        -- seconds on screen (the mouse over it holds it)
+local SAMPLE = 20     -- seconds a sample stays up to be placed, and DROP_ADDS more after each drop
+local DROP_ADDS = 5
 local W, H = 380, 62
 local INK, ACCENT, NOTE = T.color.ink, T.color.inkAccent, T.color.inkNote   -- the book's inks (Theme.lua)
 
@@ -36,10 +39,8 @@ Slip.waiting = {}   -- pages found in combat or while a slip is up, newest last
 local function create()
   local f = CreateFrame("Button", "LoreForeverPageSlip", UIParent)
   f:SetSize(W, H)
-  f:SetPoint("TOP", UIParent, "TOP", 0, -120)
   f:SetFrameStrata("DIALOG")
-  f:SetFrameLevel(5)
-  f:SetClampedToScreen(true)
+  f:SetFrameLevel(100)
   f:RegisterForClicks("LeftButtonUp", "RightButtonUp")
   T.Parchment(f, nil, { round = false, edge = 10 })   -- over the game world: no ground to cut round corners in
   -- The kind's card, with the ring of a new page. The slip takes its clicks.
@@ -80,7 +81,8 @@ local function create()
   f:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_BOTTOM")
     GameTooltip:AddLine(esc(self.name:GetText()))
-    T.Tip(L["Click: open its page. Shift-click: add to your playlist. Right-click: options."], "tipDim", true)
+    T.Tip(self.sample and L["Drag: move it."]
+      or L["Click: open its page. Shift-click: add to your playlist. Right-click: options. Drag: move it."], "tipDim", true)
     GameTooltip:Show()
   end)
   f:SetScript("OnLeave", function() GameTooltip:Hide() end)
@@ -88,13 +90,16 @@ local function create()
   f:SetScript("OnUpdate", function(self, dt)
     -- An item's rarity is noted just after it's found (Collection.OnItemTooltip): its name takes the colour a tick later.
     if self.reink then self.reink = nil; ns.Book.NameInk(self.name, self.key, INK) end
-    if self.IsMouseOver and self:IsMouseOver() then return end
+    if self.held or (self.IsMouseOver and self:IsMouseOver()) then return end
     self.left = (self.left or SHOW) - (dt or 0)
     if self.left <= 0 then Slip.Hide() end
   end)
   -- The fight is over: what was found during it shows now.
   f:SetScript("OnEvent", function() Slip.Flush() end)
   pcall(f.RegisterEvent, f, "PLAYER_REGEN_ENABLED")
+  f:SetScript("OnHide", function(self) self.sample = nil end)
+  T.Movable(f, "pageSlip", { "TOP", 0, -120 })
+  f.onDropped = function(self) if self.sample then self.left = (self.left or 0) + DROP_ADDS end end
   f:Hide()
   Slip.frame = f
   return f
@@ -111,7 +116,7 @@ function Slip.Flush()
   local f = Slip.frame or create()
   local total = n + ((f:IsShown() and f.count) or 0)   -- the pages this slip stands for
   local more = total - 1
-  f.key, f.count, f.left, f.reink = key, total, SHOW, e.t == "item"
+  f.key, f.count, f.left, f.reink, f.sample = key, total, SHOW, e.t == "item", nil
   f.label:SetText(more > 0 and string.format(L["New page, and %d more"], more) or L["New page"])
   f.name:SetText(esc(e.n))
   ns.Book.NameInk(f.name, key, INK)   -- an item in its rarity colour, with a thin shadow so the grey reads on paper
@@ -144,6 +149,21 @@ end
 function Slip.Hide()
   local f = Slip.frame
   if f then f:Hide(); f.count = nil end
+end
+
+-- Options' Move the notes...: a note to place, with no page behind it, so its clicks do nothing.
+function Slip.Sample()
+  local f = Slip.frame or create()
+  f.key, f.count, f.left, f.reink, f.sample = nil, nil, SAMPLE, nil, true
+  f.label:SetText(L["New page"])
+  f.name:SetText(L["Drag this note where you want it"])
+  f.name:SetTextColor(INK[1], INK[2], INK[3], 1)
+  f.sub:SetText(L["Sample"])
+  f.tile:SetKind("place")
+  f.tile:SetFigure(nil)
+  f.pill:Hide()
+  for _, fs in ipairs({ f.label, f.name, f.sub }) do fs:SetPoint("RIGHT", f, "RIGHT", -14, 0) end
+  f:Show()
 end
 
 function Slip.IsShown() return Slip.frame and Slip.frame:IsShown() or false end

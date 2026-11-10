@@ -62,7 +62,7 @@ P.transport["npc:baros-alexston"] = {
   fullHash = "b62f5c",
   text = "Baros Alexston. In Stormwind City Hall, Baros Alexston tends the capital he helped rebuild. He was once close to Edwin VanCleef in the Stonemasons Guild, but stayed loyal to the crown when the guild split. Baros grew up at the Alexston Farmstead in Westfall's rolling grasslands. Thieves overran and burned his family's home while he was young. Before they fled, his father hid their cherished heirlooms across the grounds.\n\nBaros later went to the capital and joined the Stonemasons Guild. For years, he worked beside Guildmaster Edwin VanCleef as they raised Stormwind anew from the ashes of the First War.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_baros-alexston-791dcd0a1654bba31aef/1-0000.mp3", duration = 36.7281633, start = 0},
+    {file = "Audio/Transport/full_npc_baros-alexston-49aeac65efd01573d92b/1-0000.mp3", duration = 35.7093878, start = 0},
   },
 }
 P.transport["npc:billy-maclure"] = {
@@ -406,7 +406,7 @@ P.transport["npc:kaela-shadowspear"] = {
   fullHash = "2a41cd",
   text = "Kaela Shadowspear. Southwest of Windshear Crag, Kaela Shadowspear watches the Stonetalon wilderness as tensions rise. She works with fellow sentinels while new disruptions trouble the land. Kaela Shadowspear watches the passes southwest of Windshear Crag. The Horde presses into the Stonetalon Mountains, while goblin operations exploit the land's natural bounty. Beside Gaxim Rustfizzle, a gnome, she tracks threats reaching farther into night elf ancestral territory. Violence against nature has stirred the elementals and harmed the forest's ancient guardians. Kaela sends travelers to face the raging spirits and seeks what has corrupted the wounded treants who once guarded the Vale. She strives to restore peace before the land is scarred beyond repair.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_kaela-shadowspear-3751f30c51a07c5161f0/1-0000.mp3", duration = 46.1061224, start = 0},
+    {file = "Audio/Transport/full_npc_kaela-shadowspear-6b1993389c9def0fde18/1-0000.mp3", duration = 45.9755102, start = 0},
   },
 }
 P.transport["npc:laurna-morninglight"] = {
@@ -446,7 +446,7 @@ P.transport["npc:maggran-earthbinder"] = {
   fullHash = "84f7ec",
   text = "Maggran Earthbinder. At Sun Rock Retreat in the Stonetalon Mountains, Maggran Earthbinder leads the camp's defense. Cairne Bloodhoof sent the battle-worn tauren there to guard the Horde outpost. High Chieftain Cairne Bloodhoof sent Maggran Earthbinder to the Stonetalon Mountains to lead Sun Rock Retreat. Countless skirmishes and bloody campaigns have hardened him, taking from him some of the gentleness natural to his people.\n\nThe outpost was also meant to give Maggran respite. Its warm winds and mountain sunshine might ease his battle-worn spirit. Peace remains scarce in Stonetalon. From Sun Rock Retreat, Maggran coordinates defenses against Bloodfury harpies nesting in the peaks and gathers fighters to face predators across the crags.\n\nMaggran once survived an ambush by the giant spider Besseleth, and knows how deadly the wilderness can be. He often enlists travelers to kill regional predators before they overrun the outpost.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_maggran-earthbinder-2813ee021a520c97152b/1-0000.mp3", duration = 56.3983673, start = 0},
+    {file = "Audio/Transport/full_npc_maggran-earthbinder-f59e70103408823701dd/1-0000.mp3", duration = 55.4057143, start = 0},
   },
 }
 P.transport["npc:magistrate-solomon"] = {
@@ -462,7 +462,7 @@ P.transport["npc:magni-bronzebeard"] = {
   fullHash = "af70df",
   text = "Magni Bronzebeard. In Ironforge, Magni Bronzebeard bears his people's grief and political strain. Lord of Ironforge, Thane of the Bronzebeard clan, and ruler of Khaz Modan, he is a veteran of the Second War who champions dwarven archaeology across Azeroth. Magni Bronzebeard grew up the eldest of three brothers, knowing the mountain would one day be his to rule. When the Horde invaded during the Second War, he held Ironforge behind its impenetrable gates. Once the siege broke, he pledged Khaz Modan to the Alliance of Lordaeron. In the peace that followed, Magni welcomed his gnomish allies after Gnomeregan fell. He gave High Tinker Gelbin Mekkatorque and the refugees sanctuary beneath the mountain.\n\nMagni then sought to unite the fractured northern and southern kingdoms. He asked Mekkatorque to build the Deeprun Tram, an unprecedented route beneath the earth that connects Ironforge directly to Stormwind. Magni carries deep sorrow beneath his regal bearing. During the Third War, word came from Northrend that his beloved younger brother, Muradin, had perished on Prince Arthas Menethil's expedition. Grief overwhelmed Magni, but he and his youngest brother, Brann, remained steadfast in their duty to the dwarven people. Magni still rules wisely, with that loss weighing upon him. Magni has turned dwarven society from commercial mining toward the unearthing of ancient history. Strange titan relics found deep beneath the earth inspired him to found the explorers' league with his surviving brother, Brann Bronzebeard. Dwarven dig sites now span the continents, from Dun Morogh to Kalimdor, as the League seeks the truth of the dwarves' fabled origins.\n\nPeace at home remains fragile. Magni's daughter, Princess Moira, has gone missing, believed kidnapped by the hated Dark Iron clan.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_magni-bronzebeard-c604645e3120f28b441f/1-0000.mp3", duration = 110.158367, start = 0},
+    {file = "Audio/Transport/full_npc_magni-bronzebeard-ad07615f9275e9dcdc9e/1-0000.mp3", duration = 109.505306, start = 0},
   },
 }
 P.transport["npc:makaba-flathoof"] = {
@@ -470,7 +470,7 @@ P.transport["npc:makaba-flathoof"] = {
   fullHash = "60580d",
   text = "Makaba Flathoof. At Camp Aparaje, Makaba Flathoof grieves for the home the Grimtotem took from him. Now he seeks Horde champions to strike back and keep his family safe. Makaba Flathoof grieves for Camp Aparaje, his home in the Stonetalon Mountains. Without warning, the Grimtotem clan struck and laid the settlement low. Many tauren seek peace and unity under Cairne Bloodhoof. Yet the Grimtotem spread discord and violence, leaving Makaba among the displaced and grieving survivors.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_makaba-flathoof-b19da159db5d8c8d814f/1-0000.mp3", duration = 29.7534694, start = 0},
+    {file = "Audio/Transport/full_npc_makaba-flathoof-7ab207b2dfcbde054b22/1-0000.mp3", duration = 30.6677551, start = 0},
   },
 }
 P.transport["npc:malfurion-stormrage"] = {
@@ -942,7 +942,7 @@ P.transport["subzone:boulderslide-cavern"] = {
   fullHash = "7b4c82",
   text = "Boulderslide Cavern. Boulderslide kobolds dig deep in Boulderslide Cavern, at the far end of Boulderslide Ravine. They search the stone for glowing mineral formations. Boulderslide kobolds have carved a stronghold into the Stonetalon crags. They dig frantically for resonite, a rare purple crystal embedded in the stone. Its glow carries traces of earthen magic, and the kobolds turn fiercely against anyone who approaches their excavation.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_boulderslide-cavern-ca77f8edc29385c82136/1-0000.mp3", duration = 23.7191837, start = 0},
+    {file = "Audio/Transport/full_subzone_boulderslide-cavern-87cc1b194bcdeb70d8f4/1-0000.mp3", duration = 26.2530612, start = 0},
   },
 }
 P.transport["subzone:boulderslide-ravine"] = {
@@ -1046,7 +1046,7 @@ P.transport["subzone:chill-breeze-valley"] = {
   fullHash = "03cf29",
   text = "Chill Breeze Valley. In western Dun Morogh, travelers cross Chill Breeze Valley between Kharanos and Gnomeregan. Refugees and young travelers follow the main trail, while dangerous beasts haunt the secluded reaches. A T-shaped trench cuts through the mountains, its main trail running east to west. Young dwarves and gnomes travel between Kharanos and the outskirts of Gnomeregan. The north-south branch leads into dangerous ground. Blood stains the snow, and mangled carcasses lie nearby.\n\nSavage wendigos make dens in deep ice caves. They prey on anyone who wanders into their hunting grounds.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_chill-breeze-valley-d58ef3497566618be450/1-0000.mp3", duration = 37.7208163, start = 0},
+    {file = "Audio/Transport/full_subzone_chill-breeze-valley-9d7e34f3671410727c54/1-0000.mp3", duration = 36.2318367, start = 0},
   },
 }
 P.transport["subzone:clean-zone"] = {
@@ -1710,7 +1710,7 @@ P.transport["subzone:ironband-s-excavation-site"] = {
   fullHash = "c551b9",
   text = "Ironband's Excavation Site. In southeastern Loch Modan, troggs have driven the miners from Ironband's Excavation Site. The dig lies south of the Loch and southwest of Farstrider Lodge. Prospector Ironband began the dig to seek the dwarves’ ancient Titan origins. Then the miners disturbed an unusually fierce and large breed of subterranean troggs. The creatures surged from the earth and drove the miners back. Now they camp among scattered tools, broken carts, and half-excavated relics. Troggs hold the site while surviving prospectors wait at its perimeter. Like archaeological efforts in the Badlands, Wetlands, and Uldaman, this dig is caught in danger. The prospectors hope to reclaim their stolen gear and guard exposed artifacts from the ravenous troggs. Strange ancient statues remain among those artifacts, left by long-forgotten builders.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ironband-s-excavation-site-f51ba4748c1cff0cc11a/1-0000.mp3", duration = 53.0285714, start = 0},
+    {file = "Audio/Transport/full_subzone_ironband-s-excavation-site-815397944d8cbc09753c/1-0000.mp3", duration = 51.2783673, start = 0},
   },
 }
 P.transport["subzone:ironbeard-s-tomb"] = {
@@ -2126,15 +2126,15 @@ P.transport["subzone:north-gate-outpost"] = {
   fullHash = "eb7f50",
   text = "North Gate Outpost. At North Gate Outpost, mountaineers guard the road where Dun Morogh meets Loch Modan. Their patrols shield travelers from beasts in the crags. Dwarven mountaineers watch North Gate Pass from the outpost. They guard travelers heading through the mountain tunnels into Loch Modan. The pass marks Dun Morogh’s northeastern edge, where harsh weather and steep ravines make patrols perilous. When patrols go missing or predators threaten the road, the garrison calls on travelers to scout the ridges.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_north-gate-outpost-7a9e109b7d426806f79b/1-0000.mp3", duration = 30.0146939, start = 0},
+    {file = "Audio/Transport/full_subzone_north-gate-outpost-b2c7a8e5aafbc9c30326/1-0000.mp3", duration = 28.4212245, start = 0},
   },
 }
 P.transport["subzone:north-gate-pass"] = {
-  hash = "896def",
-  fullHash = "896def",
-  text = "North Gate Pass. Travelers cross North Gate Pass through the Khaz Modan peaks between Dun Morogh and Loch Modan. A fortified dwarven outpost watches the northern corridor, where travelers bound for the Wetlands pass. North Gate Pass cuts through Khaz Modan between Dun Morogh and Loch Modan. From the west, you leave steep mountain tunnels for the broad loch valley. Roads lead down toward the Wetlands, carrying dwarven messengers, merchants, and wandering adventurers. North Gate Outpost gives the route its strategic value. Mountaineers there watch for troggs and mountain predators.",
+  hash = "3ce90c",
+  fullHash = "3ce90c",
+  text = "North Gate Pass. Travelers cross North Gate Pass through the Khaz Modan peaks between Dun Morogh and Loch Modan. A fortified dwarven outpost watches the northern corridor, where travelers bound for the Wetlands pass. North Gate Pass is the most direct road through Khaz Modan for those heading north. From the west, you leave steep mountain tunnels for the broad loch valley. Roads lead down toward the Wetlands, carrying dwarven messengers, merchants, and wandering adventurers. North Gate Outpost gives the route its strategic value. Mountaineers there watch for troggs and mountain predators.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_north-gate-pass-1558da865baa2423cb97/1-0000.mp3", duration = 35.7877551, start = 0},
+    {file = "Audio/Transport/full_subzone_north-gate-pass-35db95cefb27d79b6966/1-0000.mp3", duration = 34.7428571, start = 0},
   },
 }
 P.transport["subzone:northshire-valley"] = {
@@ -2490,11 +2490,11 @@ P.transport["subzone:slaughtered-lamb"] = {
   },
 }
 P.transport["subzone:south-gate-outpost"] = {
-  hash = "4cf13b",
-  fullHash = "4cf13b",
-  text = "South Gate Outpost. At South Gate Outpost, mountaineers guard the pass between Dun Morogh and Loch Modan. Their fortified post watches the southern road from Ironforge's frigid heights to the Loch's temperate valley. At South Gate Outpost, snowy slopes give way to Loch Modan's basin. Ironforge mountaineers patrol the rocky switchbacks and keep dangerous wildlife off the main highway. Their kin at North Gate Outpost face a harder fight, but the southern road is largely secure. Travelers, pilgrims, and trade wagons can reach Thelsamar in relative safety.",
+  hash = "bf9847",
+  fullHash = "bf9847",
+  text = "South Gate Outpost. At South Gate Outpost, mountaineers guard the pass between Dun Morogh and Loch Modan. Their fortified post watches the southern road from Ironforge's frigid heights to the Loch's temperate valley. South Gate Outpost marks the spot where the snowy slopes end and the basin begins. Ironforge mountaineers patrol the rocky switchbacks and keep dangerous wildlife off the main highway. Their kin at North Gate Outpost face a harder fight, but the southern road is largely secure. Travelers, pilgrims, and trade wagons can reach Thelsamar in relative safety.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_south-gate-outpost-f49f5311d43855a35e9a/1-0000.mp3", duration = 32.4440816, start = 0},
+    {file = "Audio/Transport/full_subzone_south-gate-outpost-b9820c1b11bf81ff3af3/1-0000.mp3", duration = 32.8620408, start = 0},
   },
 }
 P.transport["subzone:south-gate-pass"] = {
@@ -2502,7 +2502,7 @@ P.transport["subzone:south-gate-pass"] = {
   fullHash = "f9e40b",
   text = "South Gate Pass. Travelers cross South Gate Pass between Dun Morogh and Loch Modan. Its guarded road links Ironforge with Thelsamar. South Gate Pass cuts through the Khaz Modan range, joining Dun Morogh's high mountains to Loch Modan's valley in the east. Stone archways mark the way from cold slopes into warmer dwarven heartlands. The road leads toward Thelsamar, carrying mountaineers, couriers, and newly trained adventurers setting out from the capital. Dwarven mountaineers keep watch at South Gate Outpost, guarding the pass against wild beasts and prowling troggs. The road is safer than the untamed parts of the valley, though hostile wildlife and roving threats still test its approaches. Stay on the road as you travel.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_south-gate-pass-e151ad9311d73c2b0495/1-0000.mp3", duration = 43.52, start = 0},
+    {file = "Audio/Transport/full_subzone_south-gate-pass-16df51d6032d5780ba80/1-0000.mp3", duration = 42.8930612, start = 0},
   },
 }
 P.transport["subzone:southshore"] = {
@@ -2582,7 +2582,7 @@ P.transport["subzone:stonefire-tavern"] = {
   fullHash = "5a0bb0",
   text = "Stonefire Tavern. In Ironforge’s Commons, travelers find the Stonefire Tavern just north of the city gates. Its hearth, dwarven ale, and rooms offer rest to those arriving from across Khaz Modan. In Ironforge’s Commons, just north of the fortress gates, Innkeeper Firebrew runs Stonefire Tavern with his daughter Gwenna. Weary wayfarers can find meals, local brews, and lodging beneath the mountain.\n\nTravelers come from across the Alliance to rest from Dun Morogh’s mountain snows, trade tales, or gather supplies before exploring the city. The hearth draws them together at the heart of the Commons.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stonefire-tavern-c79cf862647363e7dafc/1-0000.mp3", duration = 37.12, start = 0},
+    {file = "Audio/Transport/full_subzone_stonefire-tavern-d39b81a7eddaa611473f/1-0000.mp3", duration = 36.7542857, start = 0},
   },
 }
 P.transport["subzone:stonesplinter-valley"] = {
@@ -2678,7 +2678,7 @@ P.transport["subzone:stoutlager-inn"] = {
   fullHash = "6b5bc5",
   text = "Stoutlager Inn. In Thelsamar, Stoutlager Inn welcomes travelers crossing western Loch Modan with a warm hearth and a place to gather. Stoutlager Inn draws miners, mountaineers, and travelers passing between Dun Morogh and the Wetlands. They trade rumors, find beds, and share dwarven ale beneath its roof. Beyond Thelsamar, troggs and kobolds make the wilderness dangerous, so the inn’s stone walls and fires offer welcome shelter.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stoutlager-inn-c0294a4209f7817d6d77/1-0000.mp3", duration = 26.0963265, start = 0},
+    {file = "Audio/Transport/full_subzone_stoutlager-inn-357c4cf71528da564b09/1-0000.mp3", duration = 27.2195918, start = 0},
   },
 }
 P.transport["subzone:strahnbrad"] = {
@@ -2798,7 +2798,7 @@ P.transport["subzone:thunderbrew-distillery"] = {
   fullHash = "9432e7",
   text = "Thunderbrew Distillery. In Kharanos, Thunderbrew Distillery offers travelers ale and shelter. Its brewhouse and tavern draw mountain travelers, while mentors and tradesfolk share their skills within. The Thunderbrew Distillery anchors Kharanos in southern Dun Morogh. Arkilus Thunderbrew founded its brewhouse, and his kin have kept it in the family. Its strong ales are known across Khaz Modan for warming those who face the mountain cold. Innkeeper Belm manages the inn, where weary mountaineers find a fire, hearty food, and beds beyond the blizzards outside. Kharanos is the first major settlement travelers reach after leaving Coldridge Valley. Beneath the distillery’s timber rafters, instructors teach martial arts, holy rites, arcane studies, and roguecraft. Teachers also offer cooking and first aid. The hall pours its well-known stouts and gives travelers a place to prepare for the road ahead.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_thunderbrew-distillery-c25f7000c3c91c72b4d5/1-0000.mp3", duration = 55.275102, start = 0},
+    {file = "Audio/Transport/full_subzone_thunderbrew-distillery-d304ad06f8cf2ca59879/1-0000.mp3", duration = 54.4130612, start = 0},
   },
 }
 P.transport["subzone:tinker-town"] = {
@@ -2878,7 +2878,7 @@ P.transport["subzone:tundrid-hills"] = {
   fullHash = "79400d",
   text = "Tundrid Hills. In south-central Dun Morogh, the Tundrid Hills offer a perilous crossing west of Gol'Bolar Quarry. Snowbound ridges and dangerous wildlife make every step off the rocky passes a risk. From Coldridge Valley, the Tundrid Hills give you a rough way into eastern Dun Morogh, away from the main roads through Kharanos. Jagged slopes hold the snow, and the crossing is dangerous. Ferocious predators prowl the hills, so keep a weapon ready if you leave the beaten path.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_tundrid-hills-b0441d1e6ad0b8bfa354/1-0000.mp3", duration = 27.6636735, start = 0},
+    {file = "Audio/Transport/full_subzone_tundrid-hills-0e3c3415c11e22506806/1-0000.mp3", duration = 28.0293878, start = 0},
   },
 }
 P.transport["subzone:twilight-grove"] = {
@@ -2910,7 +2910,7 @@ P.transport["subzone:valley-of-heroes"] = {
   fullHash = "94b955",
   text = "Valley of Heroes. In the Valley of Heroes, stone commanders watch the southern road into Stormwind. Guards hold this fortified crossing over the moat, where the city honors the leaders of the Alliance Expedition to Draenor. You cross the moat beneath statues honoring the Alliance Expedition’s commanders. Stormwind raised the monuments along this causeway as the city was rebuilt after the Second War. The champions marched through the Dark Portal into Draenor to seal the rift forever. They gave their lives so Azeroth might survive.\n\nAs you head north toward the Trade District, you pass Archmage Khadgar, Kurdran Wildhammer, Ranger-Captain Alleria Windrunner, Force Commander Danath Trollbane, and High General Turalyon. General Marcus Jonathan watches Stormwind's gates from horseback. He oversees the guards and the traffic passing in and out. The valley is the city's main defense against an overland invasion.\n\nMajor Mattingly, Field Marshal Stonebridge, and rows of seasoned guards keep watch beside him. Together, they guard the capital from threats beyond its walls.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_valley-of-heroes-ea0e8f1b99a5a7b20255/1-0000.mp3", duration = 67.1085714, start = 0},
+    {file = "Audio/Transport/full_subzone_valley-of-heroes-c7446dc9ab6f14094176/1-0000.mp3", duration = 64.6530612, start = 0},
   },
 }
 P.transport["subzone:valley-of-kings"] = {
@@ -2918,7 +2918,7 @@ P.transport["subzone:valley-of-kings"] = {
   fullHash = "986801",
   text = "Valley of Kings. At Valley of Kings, stone rulers guard the southern road into the Searing Gorge. In southwestern Loch Modan, the canyon lies south of the passage to Dun Morogh. Blackrock forces and troggs threaten travelers beneath the dwarven monuments. Two immense statues watch over the southern pass: King Madoran Bronzebeard and High Thane Khardros Wildhammer. After the kings died, their sons commissioned the carvings together. The statues honor the allied victory in the War of the Three Hammers, and they face the Dark Iron clan. Beyond them, the southern lands still bear the ruin left by Ragnaros's summoning. The valley links South Gate Pass with Stonesplinter Valley, and an iron gate opens into the Searing Gorge. Hostile Blackrock orcs, Dark Iron dwarves, and volcanic dangers make the passage perilous. So Ironforge mountaineers keep the gate locked and guarded, with Mountaineer Pebblebitty watching the threshold. Only the hardiest travelers may pass, after showing they have the strength to survive beyond it.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_valley-of-kings-074f7589744ae00ef805/1-0000.mp3", duration = 61.9102041, start = 0},
+    {file = "Audio/Transport/full_subzone_valley-of-kings-f6c74b611140db7cde9e/1-0000.mp3", duration = 60.2122449, start = 0},
   },
 }
 P.transport["subzone:vault-of-ironforge"] = {

@@ -321,13 +321,16 @@ def pause_split(pack, stage):
             continue
         folder = f'Audio/Transport/{stem(key)}-{whole[:10]}'
         pieces, start, audio = [], 0.0, hashlib.sha256()
+        heads = (manifest.get('heads') or {}).get(whole, {})
         for i, (lead, frames) in enumerate(bridge_split(data, cuts[whole], name), 1):
             file = f'{folder}/part{i:02d}.mp3'
             written[file] = lead + frames
             audio.update(frames)
             seconds = piece_seconds(written[file], file)
+            head = heads.get(str(cuts[whole][i - 2])) if i > 1 else None   # this piece starts section n
             pieces.append({'file': file, 'start': round(start, 6), 'duration': seconds,
-                           'sha256': hashlib.sha256(written[file]).hexdigest(), **({'bridge': len(lead)} if lead else {})})
+                           'sha256': hashlib.sha256(written[file]).hexdigest(), **({'bridge': len(lead)} if lead else {}),
+                           **({'head': head} if head else {})})
             start += seconds
         manifest['clips'][key] = {'hash': h, 'source': {'sha256': whole, 'duration': start}, 'chain': audio.hexdigest(),
                                   '1': pieces}

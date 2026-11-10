@@ -70,7 +70,7 @@ P.transport["item:a-stack-of-letters"] = {
   fullHash = "bc24e5",
   text = "A Stack of Letters. In Coldridge Valley, a stack of letters has come through the mountain pass for scouts in the snowy wilderness. Letters for Coldridge Valley come from Anvilmar by way of travelers crossing the pass. The road to the remote camps in Dun Morogh's mountains is hard, so postal runners rely on travelers to carry each bundle onward. This one is bound for scouts deeper in Coldridge Valley.\n\nUntil the letters are sorted, Talin Keeneye at his lakeside camp is thought to be the only recipient. Among them is a missive for Grelin Whitebeard, a mountaineer.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_a-stack-of-letters-f853fd318f0999e7fc00/1-0000.mp3", duration = 34.037551, start = 0},
+    {file = "Audio/Transport/full_item_a-stack-of-letters-f323a827dc503c649f95/1-0000.mp3", duration = 34.4032653, start = 0},
   },
 }
 P.transport["item:a-torn-journal-page"] = {
@@ -270,7 +270,7 @@ P.transport["item:ataeric-s-staff"] = {
   fullHash = "8457ee",
   text = "Ataeric's Staff. At the Sepulcher, Ataeric's Staff marks a victory over Dalaran's reach in Silverpine Forest. Archmage Ataeric wielded it to command the local ley lines. Shadow Priest Allister feared Dalaran's growing reach in magic, so he ordered Ataeric killed and demanded the staff. Once Ataeric was slain and the staff recovered, the concentrated ley energies sank back into dormancy.\n\nThe staff's arrival at the Sepulcher marked a clear victory over Dalaran's ambitions. Power still lies latent in the earth, and the Forsaken remain watchful.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_ataeric-s-staff-3d65ce5b5a3e43a94425/1-0000.mp3", duration = 36.0489796, start = 0},
+    {file = "Audio/Transport/full_item_ataeric-s-staff-5011265cd3307f2e5138/1-0000.mp3", duration = 35.1869388, start = 0},
   },
 }
 P.transport["item:athrikus-narassin-s-head"] = {
@@ -318,7 +318,7 @@ P.transport["item:barrel-of-shimmer-stout"] = {
   fullHash = "aa968a",
   text = "Barrel of Shimmer Stout. In Dun Morogh, a barrel of Shimmer Stout is bound for the mountain watch. Rejold Barleybrew sends his experimental ale to the high passes, where drinkers say it brightens their vision. Rejold Barleybrew made Shimmer Stout from ingredients gathered across Dun Morogh. The recipe is the newest work of the Barleybrew family. Its dwarven brewers vie to make ales hearty enough for the mountain cold. Rejold brewed this stout to warm the gut and sharpen the senses of those posted in the wind. The barrel is bound for Mountaineer Wellart Barleybrew at the southern tower on the pass into Loch Modan. Mountaineers there endure cold and long watches between skirmishes with troggs and wildlife. A cask of family ale brings a taste of home. Its kick can leave a tired sentry feeling able to see clearly in the dark.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_barrel-of-shimmer-stout-9b5652b4adc7f943e669/1-0000.mp3", duration = 47.6995918, start = 0},
+    {file = "Audio/Transport/full_item_barrel-of-shimmer-stout-0dba817d448a5b9ce649/1-0000.mp3", duration = 49.6587755, start = 0},
   },
 }
 P.transport["item:barrel-of-thunder-ale"] = {
@@ -734,7 +734,7 @@ P.transport["item:cask-of-shimmer-stout"] = {
   fullHash = "1d0405",
   text = "Cask of Shimmer Stout. In Dun Morogh's cold heights, Cask of Shimmer Stout is bound for the eastern mountains. Rejold Barleybrew brewed the potent new ale, and his brother sends a cask east as a gift for fellow dwarven mountaineers. Rejold Barleybrew brews Shimmer Stout in Brewnall Village. Local patrons and mountaineers who brave Dun Morogh's biting frosts take to it quickly. Impressed by the brew, his brother Mountaineer Barleybrew commissions a cask for the journey through the eastern pass into Loch Modan. Dwarves prize strong drink for company and warmth in the mountain chill. Sharing fresh ale with comrades on distant patrols is a military tradition. During his watch in Thelsamar, Mountaineer Kadrell opens the cask and samples the brew. Shimmer Stout lives up to its name: one draught is said to lighten the limbs and make a soldier feel as though he could fly. A dwarven scout on a long, lonely patrol along the high roads might welcome such an invigorating drink.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_cask-of-shimmer-stout-4c5764e257f4597a22e0/1-0000.mp3", duration = 61.1787755, start = 0},
+    {file = "Audio/Transport/full_item_cask-of-shimmer-stout-028305342377914ef9a7/1-0000.mp3", duration = 60.2383673, start = 0},
   },
 }
 P.transport["item:cats-eye-emerald"] = {
@@ -774,7 +774,7 @@ P.transport["item:charred-horn"] = {
   fullHash = "d788ca",
   text = "Charred Horn. In Stormwind, Furen Longbeard needs Charred Horns from young chimaeras in Stonetalon. Their resistance to flame, blunt force, and harsh elemental forces makes them useful in strong armor. Fledgling and young chimaeras in the Stonetalon Mountains provide Charred Horns. Their resistance to flame and blunt force makes them useful to Furen Longbeard, a dwarven armorsmith at his forge in Stormwind. He needs twelve horns to make fire-hardened mail.\n\nFuren combines them with venomous spider fangs from the Wetlands, phlogiston from Razorfen Kraul, and the galvanized horn of a chimaera matriarch. The Charred Horns reinforce the mail's rings and plates with heat-treated material.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_charred-horn-61b82ca0b8eb8704a6b7/1-0000.mp3", duration = 45.2440816, start = 0},
+    {file = "Audio/Transport/full_item_charred-horn-2c84df41b9e0b7852836/1-0000.mp3", duration = 43.7028571, start = 0},
   },
 }
 P.transport["item:chest-of-containment-coffers"] = {
@@ -814,7 +814,7 @@ P.transport["item:claw-key"] = {
   fullHash = "1aff36",
   text = "Claw Key. Within the Talon Den on Stonetalon Peak, three druidic keys guard an enchanted hoard. Night elf druids built the Talon Den high on Stonetalon Peak as a sanctuary and storehouse for powerful relics. They hid its treasures behind several layers of protection. Three enchanted locks seal the hoard: the Barrow Key, the Sleepers' Key, and the Claw Key. Each key rests in a druidic cache shaped like a torch, hidden in the barrow den's winding tunnels. The druids kept the keys guarded and hard to reach. Near the barrow entrance, the Gatekeeper's Key opens the cache that holds the Claw Key. The Claw Key helps break the druids' seal and reach the riches hidden deep within the mountain.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_claw-key-3e67573d04d49218860d/1-0000.mp3", duration = 46.2367347, start = 0},
+    {file = "Audio/Transport/full_item_claw-key-b3612e599cbf793df00e/1-0000.mp3", duration = 45.0089796, start = 0},
   },
 }
 P.transport["item:cliffspring-river-sample"] = {
@@ -878,7 +878,7 @@ P.transport["item:corroded-shrapnel"] = {
   fullHash = "cf1f6c",
   text = "Corroded Shrapnel. In Stonetalon, jagged fragments remain buried in the forest’s corrupted treants. The Venture Company’s munitions left them there as the goblins fled. The Venture Company’s goblins fled Stonetalon’s groves under cover of reckless munitions. Their blasts drove shrapnel into the treants defending the valley, where it lodged deep in bark and core. The ancient guardians slowly succumbed to corruption. Their wood darkened, and they turned their fury on anyone entering the vale. Kaela Shadowspear seeks the rusted fragments for Gaxim Rustfizzle, a gnome who wants to study how the weapons brought on the treants’ corruption.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_corroded-shrapnel-c3be016c72911c6b4562/1-0000.mp3", duration = 37.5640816, start = 0},
+    {file = "Audio/Transport/full_item_corroded-shrapnel-015d0a7ab0fd0d6efe22/1-0000.mp3", duration = 37.877551, start = 0},
   },
 }
 P.transport["item:corrupt-manifestation-s-bracers"] = {
@@ -926,7 +926,7 @@ P.transport["item:covert-ops-pack"] = {
   fullHash = "7f205b",
   text = "Covert Ops Pack. In Stonetalon, Alliance agents use the Covert Ops Pack to disrupt Venture Company sites and take their plans. Its charges and schematics are aimed at the company’s work in Windshear Crag. The Covert Ops Pack brings charges and plans into Venture Company territory. Red and blue NG-5 explosives come with remote detonators, while Plan Alpha and Plan Beta guide the strikes. The charges target the lumber mill at Cragpool Lake and the eastern mine. When goblins rush to fight fires and inspect broken machinery, an infiltrator can pass through the confusion and take documents and schematics. Night elf Sentinels and Alliance engineers in Stonetalon both gain from the Covert Ops Pack. Its blasts and stolen plans hinder clear-cutting and excavation on the sacred mountainside. The Venture Company engineering plans also reveal how goblin heavy machinery works. They show where the machines can fail and give Alliance engineers ideas to adapt for their own designs.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_covert-ops-pack-de4e558588b6be9c57b0/1-0000.mp3", duration = 61.1004082, start = 0},
+    {file = "Audio/Transport/full_item_covert-ops-pack-5efde376d8f3d6b44a40/1-0000.mp3", duration = 60.5518367, start = 0},
   },
 }
 P.transport["item:crate-of-crash-helmets"] = {
@@ -1182,7 +1182,7 @@ P.transport["item:deepmoss-egg"] = {
   fullHash = "e3fbde",
   text = "Deepmoss Egg. In the Stonetalon Mountains, Deepmoss Eggs draw goblin merchants from Ratchet. Deepmoss spiders lay clustered clutches in the crags and canyons, and Booty Bay pirates prize them for omelettes. Deepmoss spiders nest across the Stonetalon Mountains, especially in Sishir Canyon and beneath the surviving trees of Windshear Crag. There, they leave clustered clutches of viable eggs in thick webbed sacks, sheltered by damp mountain moss. Most travelers have little use for them, but goblin traders see a chance to profit. Booty Bay has taken to spider egg omelettes, an eccentric fad among wealthy pirates and adventurous diners. Local supplies cannot satisfy their appetite, so Mebok Mizzyrix of Ratchet arranges shipments through Wharfmaster Dizzywig. Collectors brave Stonetalon's venomous broods for fresh clutches, and the eggs become valuable cargo.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_deepmoss-egg-e37ea8da1a0b08e8d258/1-0000.mp3", duration = 54.282449, start = 0},
+    {file = "Audio/Transport/full_item_deepmoss-egg-203aa43b717b66f8cf9b/1-0000.mp3", duration = 54.1257143, start = 0},
   },
 }
 P.transport["item:defias-docket"] = {
@@ -1510,7 +1510,7 @@ P.transport["item:enchanted-gaea-seeds"] = {
   fullHash = "b02ecc",
   text = "Enchanted Gaea Seeds. At Sun Rock Retreat, Enchanted Gaea Seeds are bound for the Charred Vale. Druidic magic helps them take root in ash-choked soil and begin to heal Kalimdor's ravaged land. Horde druids are working to heal the deep scars across Stonetalon Mountains. At Sun Rock Retreat, Tammra Windfield enchants raw Gaea Seeds to endure corruption and elemental blight. Planted in fertile dirt mounds beneath the Charred Vale's soot, they can take root in harsh ground. Yet hostile fire elementals and invasive harpies still rule the vale. The seeds are part of the struggle for Stonetalon's future. Their enchanted husks resist lingering corruption and give native plants a foothold. That returning growth is meant to soothe agitated fire elementals, crowd out feral harpies, and counter the deforestation wrought by the Venture Company's relentless logging.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_enchanted-gaea-seeds-4b49e9ad04932b0a9895/1-0000.mp3", duration = 53.8122449, start = 0},
+    {file = "Audio/Transport/full_item_enchanted-gaea-seeds-acaf70568c3a94118c05/1-0000.mp3", duration = 55.8497959, start = 0},
   },
 }
 P.transport["item:enchanted-resonite-crystal"] = {
@@ -1518,7 +1518,7 @@ P.transport["item:enchanted-resonite-crystal"] = {
   fullHash = "33cd7b",
   text = "Enchanted Resonite Crystal. In Stonetalon, Mor'rogal has changed resonite crystals with shamanic magic. He made the Enchanted Resonite Crystal to break the cask that holds Goggeroc. In the caverns of the Stonetalon Mountains, raw resonite crystals carry unusual harmonic and earthen properties. Shaman Mor'rogal sensed danger within a sealed underground cask, so he changed the crystals with his elemental powers. The Enchanted Resonite Crystal can break the reinforced Resonite cask and rouse Goggeroc, a giant Earthen, while he is still dazed from his long sleep.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_enchanted-resonite-crystal-81af4bac953e94d2dea0/1-0000.mp3", duration = 34.6122449, start = 0},
+    {file = "Audio/Transport/full_item_enchanted-resonite-crystal-7fc3a5da4179d8e8536c/1-0000.mp3", duration = 32.5485714, start = 0},
   },
 }
 P.transport["item:encrypted-memorandum"] = {
@@ -1750,7 +1750,7 @@ P.transport["item:fey-dragon-scale"] = {
   fullHash = "9267a3",
   text = "Fey Dragon Scale. Around Stonetalon Peak, faerie dragons give up scales that Jin'Zil covets. The Darkspear witch doctor uses one in a brew meant to mock night elven nature magic. Faerie dragons haunt the wild groves around Stonetalon Peak. Their scales shine with natural magic. Night elves honor them as harmless woodland spirits and allies. Outsiders prize the scales as rare magical ingredients.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_fey-dragon-scale-78c88f57c9ebcd650c58/1-0000.mp3", duration = 27.2457143, start = 0},
+    {file = "Audio/Transport/full_item_fey-dragon-scale-e930c31592f7a5df45bc/1-0000.mp3", duration = 27.4285714, start = 0},
   },
 }
 P.transport["item:filled-amethyst-phial"] = {
@@ -1766,7 +1766,7 @@ P.transport["item:filled-blue-waterskin"] = {
   fullHash = "811ed2",
   text = "Filled Blue Waterskin. At the Ruins of Stardust, shamans seek water for their trials. The Filled Blue Waterskin bears a pure sample from an ancient fountain. Call of Water initiates travel north from the Barrens into Ashenvale's dense forests. Beyond Lake Mystral, the Ruins of Stardust rest against the mountains between Ashenvale and Stonetalon. Fierce forest beasts guard the secluded elven sanctuary. At the center of its lake, an untouched fountain holds water free of corruption or drought. A blue waterskin filled there carries the sample shaman masters seek for ritual attunement. Brine lives as a hermit on a hill in the southern Barrens. She knows water well and needs this final sample. Brine combines it with water from contrasting wells and springs, then distills a pure essence to offer. The offering can call forth and soothe water's elemental spirits, completing an initiate's trial.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_filled-blue-waterskin-ad0e181dd2a0dbe2ec9e/1-0000.mp3", duration = 54.9877551, start = 0},
+    {file = "Audio/Transport/full_item_filled-blue-waterskin-3ac28c72a2e178af9c4f/1-0000.mp3", duration = 55.3795918, start = 0},
   },
 }
 P.transport["item:filled-brown-waterskin"] = {
@@ -2022,7 +2022,7 @@ P.transport["item:gaea-seed"] = {
   fullHash = "4e1e2e",
   text = "Gaea Seed. Along Mirkfallon Lake, Gaea Seed offers hope for Stonetalon's wounded land. Tauren shamans value its hardy kernels for healing places scarred by war and industry. Gaea Seeds wash ashore or grow along Mirkfallon Lake in the Stonetalon Mountains. Small and fibrous, they resemble coconuts and endure harsh conditions. Conflict and industry have scarred the land, so shamans turn to the seeds to help heal it.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_gaea-seed-9c67eb2863ad4b9ac854/1-0000.mp3", duration = 28.2383673, start = 0},
+    {file = "Audio/Transport/full_item_gaea-seed-944a1aec37cb0588ff66/1-0000.mp3", duration = 26.7755102, start = 0},
   },
 }
 P.transport["item:gaffer-jack"] = {
@@ -2110,7 +2110,7 @@ P.transport["item:gerenzo-s-mechanical-arm"] = {
   fullHash = "f2d6c0",
   text = "Gerenzo's Mechanical Arm. In the Stonetalon Mountains, goblin operatives seek Gerenzo's Mechanical Arm to prove his death and clear out competition. The grafted limb belonged to rogue engineer Gerenzo Wrenchwhistle. Above Cragpool Lake, rogue engineer Gerenzo Wrenchwhistle grafted whirring gears and metal onto his failing body. The renegade gnome replaced his natural limbs with intricate machinery. Goblin tinker Ziz Fizziks wants Gerenzo eliminated to impress his superiors. The distinctive arm is the proof he needs of the engineer's death.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_gerenzo-s-mechanical-arm-f5780dff9ee2aa81439f/1-0000.mp3", duration = 32.4963265, start = 0},
+    {file = "Audio/Transport/full_item_gerenzo-s-mechanical-arm-02334f85103216e6ae82/1-0000.mp3", duration = 33.2277551, start = 0},
   },
 }
 P.transport["item:ghost-hair-comb"] = {
@@ -2558,7 +2558,7 @@ P.transport["item:head-of-vancleef"] = {
   fullHash = "e0884e",
   text = "Head of VanCleef. At Sentinel Hill, VanCleef's severed head gives Westfall proof that the Defias leader has fallen. Carried from the Deadmines, it brings the People's Militia a hard-won victory. Westfall's settlers need proof that the danger has passed. For months, Edwin VanCleef directed the Defias Brotherhood's terror from the deepest sanctum of the Deadmines. Armed outlaws, goblin engineers, and a massive war juggernaut guarded him there.\n\nGryan Stoutmantle leads the People's Militia and demands physical proof before he declares the countryside safe. VanCleef's severed head comes out into daylight. It assures the exhausted defenders that the architect of their ruin can no longer threaten Westfall.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_head-of-vancleef-3223f8b128e2a0020f8d/1-0000.mp3", duration = 45.7665306, start = 0},
+    {file = "Audio/Transport/full_item_head-of-vancleef-4e9ec788a86b51b99b88/1-0000.mp3", duration = 42.8930612, start = 0},
   },
 }
 P.transport["item:heart-of-isha-awak"] = {
@@ -2958,7 +2958,7 @@ P.transport["item:ken-zigla-s-draught"] = {
   fullHash = "1cd273",
   text = "Ken'zigla's Draught. In the Stonetalon Mountains, Ken'zigla prepares a bitter draught for the gravely wounded. Half a dose can restore enough strength to move, but more may make a patient bleed out. Ken'zigla prepares the draught in the Stonetalon Mountains for those near death. Its strength calls for care. More than half a dose at once can make a patient bleed out as their circulation surges. Half a dose gives a wounded person enough vigor to move and flee danger. The rest must wait until the body steadies after a full night's rest.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_ken-zigla-s-draught-296f7216decd3e9dd293/1-0000.mp3", duration = 30.5893878, start = 0},
+    {file = "Audio/Transport/full_item_ken-zigla-s-draught-8b04331b9941784ef908/1-0000.mp3", duration = 30.9028571, start = 0},
   },
 }
 P.transport["item:khazgorm-s-journal"] = {
@@ -3202,11 +3202,11 @@ P.transport["item:lurker-venom"] = {
   },
 }
 P.transport["item:lydon-s-toxin"] = {
-  hash = "fc27cf",
-  fullHash = "fc27cf",
-  text = "Lydon's Toxin. In Tarren Mill, Apothecary Lydon has made a toxin to disrupt Venture Company logging in the Stonetalon Mountains. Horde adventurers carry it to Apothecary Zamah in Thunder Bluff, who must find a way to spread it. Apothecary Lydon made the toxin in the Hillsbrad Foothills to hinder Venture Company loggers in the Stonetalon Mountains. He says it kills on contact and may pass from one target to another.\n\nBefore it can reach the goblins near Windshear Crag, the mixture must cross continents to Thunder Bluff. There, Apothecary Zamah, the Royal Apothecary Society's representative, needs the raw toxin to devise a wide-dispersal device called the Toxic Fogger.",
+  hash = "41251d",
+  fullHash = "41251d",
+  text = "Lydon's Toxin. In Tarren Mill, Apothecary Lydon has made a toxin to disrupt Venture Company logging in the Stonetalon Mountains. Horde adventurers carry it to Apothecary Zamah in Thunder Bluff, who must find a way to spread it. Lydon made his toxin in the Hillsbrad Foothills, a continent away from the loggers it targets. He says it kills on contact and may pass from one target to another.\n\nBefore it can reach the goblins near Windshear Crag, the mixture must cross continents to Thunder Bluff. There, Apothecary Zamah, the Royal Apothecary Society's representative, needs the raw toxin to devise a wide-dispersal device called the Toxic Fogger.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_lydon-s-toxin-154b45e3601c515918a5/1-0000.mp3", duration = 45.8971429, start = 0},
+    {file = "Audio/Transport/full_item_lydon-s-toxin-599796d757d6816d5e87/1-0000.mp3", duration = 41.9526531, start = 0},
   },
 }
 P.transport["item:macgrann-s-dried-meats"] = {
@@ -3518,7 +3518,7 @@ P.transport["item:ng-5"] = {
   fullHash = "2825ef",
   text = "NG-5. In the Stonetalon Mountains, Gaxim Rustfizzle prepares a distraction with NG-5. The volatile chemical, Nitromirglyceronium, is the ignition compound he needs for wagons loaded with dynamite. Gaxim Rustfizzle is a gnome operative in the Stonetalon Mountains, and NG-5 is the compound he needs for his engineering plans. Its full name is Nitromirglyceronium. The hazardous solution provides the reaction to detonate wagons loaded with dynamite, making a great explosion to distract his adversaries in the region.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_ng-5-8bd8f80518ffd0ad5d19/1-0000.mp3", duration = 33.1232653, start = 0},
+    {file = "Audio/Transport/full_item_ng-5-89ea63a488ccf96242fa/1-0000.mp3", duration = 33.4889796, start = 0},
   },
 }
 P.transport["item:nida-s-necklace"] = {
@@ -4382,7 +4382,7 @@ P.transport["item:scroll-of-messaging"] = {
   fullHash = "858812",
   text = "Scroll of Messaging. In Stonetalon, Gaxim Rustfizzle prepares to send a message that will set off explosives from afar. At the Venture Company's logging operation, Gaxim Rustfizzle will turn a message into a blast. He plans to join the scroll's transmission incantation with volatile NG-5 charges. The explosion will draw the guards away. Then operatives can slip past and steal engineering schematics and confidential correspondence.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_scroll-of-messaging-33d1ace1687d28c54920/1-0000.mp3", duration = 28.0555102, start = 0},
+    {file = "Audio/Transport/full_item_scroll-of-messaging-10e32502cfaa8987906f/1-0000.mp3", duration = 26.7493878, start = 0},
   },
 }
 P.transport["item:sea-creature-bones"] = {
@@ -4414,7 +4414,7 @@ P.transport["item:sealed-envelope"] = {
   fullHash = "d728ae",
   text = "Sealed Envelope. In Stonetalon, Fizziks has sealed Venture Company secrets in the Sealed Envelope for Sputtervalve in Ratchet. Cast out of the Venture Company's logging operations in the Stonetalon Mountains, goblin engineer Fizziks smuggled away its secrets. Inside the envelope are company manuals, operating procedures, and technical plans. Among them are schematics for the Super Reaper 6000, a machine built for industrial clear-cutting. Fizziks sends the documents south to Sputtervalve, an engineer in Ratchet's neutral goblin port. The Steamwheedle Cartel's rivals have little love or trust for Fizziks. Yet the designs hold clear engineering value. They reveal the Venture Company's mechanical skill and give independent engineers a chance to use its advanced logging methods.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_sealed-envelope-7a8b44c8eb16e3f67733/1-0000.mp3", duration = 47.2032653, start = 0},
+    {file = "Audio/Transport/full_item_sealed-envelope-ef58d638fc4ec84b30d0/1-0000.mp3", duration = 49.2146939, start = 0},
   },
 }
 P.transport["item:sealed-note-to-elling"] = {
@@ -4846,7 +4846,7 @@ P.transport["item:stonetalon-sap"] = {
   fullHash = "a68427",
   text = "Stonetalon Sap. Near Mirkfallon Lake and Stonetalon Peak, sap beasts carry Stonetalon Sap. Jin'Zil, the Darkspear witch doctor, seeks it for a brew meant for his caged night elf prisoners.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_stonetalon-sap-c5153aaa3d6792589640/1-0000.mp3", duration = 12.042449, start = 0},
+    {file = "Audio/Transport/full_item_stonetalon-sap-2d7b228904acf91bc314/1-0000.mp3", duration = 12.9044898, start = 0},
   },
 }
 P.transport["item:stormpike-banner"] = {
@@ -4934,7 +4934,7 @@ P.transport["item:super-reaper-6000-blueprints"] = {
   fullHash = "70eeab",
   text = "Super Reaper 6000 Blueprints. In Windshear Crag, goblin rivals covet the Venture Company’s Super Reaper 6000 Blueprints. They show how to build the mechanized woodcutter deployed in Stonetalon Mountains, under gnome engineer Gerenzo Wrenchwhistle’s supervision. Venture Company operators carry the Super Reaper 6000 Blueprints through Windshear Crag. The plans show how to build the great mechanized lumber harvesters behind the company’s clear-cutting. Goblin engineers resent that Gerenzo, a gnome, was put in charge of the design. After the company ousted goblin engineer Ziz Fizziks, Sputtervalve hired him to steal the plans. Yet Gerenzo’s dense, eccentric notes are nearly as hard to decipher as the blueprints are to seize by force.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_super-reaper-6000-blueprints-aaf6b695461a06912a67/1-0000.mp3", duration = 45.6881633, start = 0},
+    {file = "Audio/Transport/full_item_super-reaper-6000-blueprints-978efb07535ec8bef17f/1-0000.mp3", duration = 45.4269388, start = 0},
   },
 }
 P.transport["item:supplies-for-sven"] = {
@@ -5350,7 +5350,7 @@ P.transport["item:toxic-fogger"] = {
   fullHash = "57d30d",
   text = "Toxic Fogger. In Stonetalon, the Toxic Fogger is bound for Venture Company air routes. The Forsaken Royal Apothecary Society filled it with lethal poison to contaminate the company’s flights. Apothecary Zamah sends the Toxic Fogger against the Venture Company's mining work. Apothecary Lydon brewed its toxin in Tarren Mill, and Zamah sent it from Thunder Bluff. She suspects the goblins carry messages and light cargo between Stonetalon and their headquarters by courier flying machine.\n\nZamah plans to release the poison where those machines land and refuel. The Forsaken mean to strike the company's supply route instead of meeting its mercenary crews in drawn-out skirmishes.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_toxic-fogger-68e941c3fe06d197d91d/1-0000.mp3", duration = 41.6914286, start = 0},
+    {file = "Audio/Transport/full_item_toxic-fogger-95887cd8b84e7bba8bbe/1-0000.mp3", duration = 41.4040816, start = 0},
   },
 }
 P.transport["item:translated-letter"] = {
@@ -5406,7 +5406,7 @@ P.transport["item:twilight-whisker"] = {
   fullHash = "1255d1",
   text = "Twilight Whisker. In Malaka'jin, Witch Doctor Jin'Zil gathers Twilight Whisker for his brew. Twilight runners carry the whiskers through the northern heights of the Stonetalon Mountains. Twilight runners prowl the high crags near Stonetalon Peak. Hunters prize their pelts, while Witch Doctor Jin'Zil of Malaka'jin seeks their stiff whiskers for a darker purpose. He seeks vengeance on the night elves captured after defending these woodlands. To mock and poison his captives, Jin'Zil gathers resinous sap, countless eyes, fey dragon scales, and Twilight Whisker for a lethal draught he calls forest magic.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_twilight-whisker-8acfd22c020258a0ccdf/1-0000.mp3", duration = 38.1126531, start = 0},
+    {file = "Audio/Transport/full_item_twilight-whisker-1b568e5a92fbcb5636b8/1-0000.mp3", duration = 36.9371429, start = 0},
   },
 }
 P.transport["item:twitching-antenna"] = {
@@ -5446,7 +5446,7 @@ P.transport["item:unidentified-ore"] = {
   fullHash = "85190d",
   text = "Unidentified Ore. At Windshear Crag, Unidentified Ore has drawn the Venture Company's attention. Piznik recovered a sample and gave it to Ziz Fizziks for study in Undermine. The Venture Company has exposed unusual mineral strata in the Stonetalon Mountains through clear-cutting and strip mining at Windshear Crag. Its new boss, Gerenzo Wrenchwhistle, ordered large amounts of strange gold-green ore mined.\n\nDemoted goblin worker Piznik stayed loyal to his fired former boss, Ziz Fizziks. He secured a sample while planning his escape from the outfit, then gave it to a traveler bound for the crag's western ridge. Ziz plans to send most of the ore to Undermine for study and keep a small cut for himself.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_unidentified-ore-47b1890167b7f82abb18/1-0000.mp3", duration = 43.4416327, start = 0},
+    {file = "Audio/Transport/full_item_unidentified-ore-0642e7384adfb67a7487/1-0000.mp3", duration = 45.1134694, start = 0},
   },
 }
 P.transport["item:unrefined-ore-sample"] = {
@@ -5582,7 +5582,7 @@ P.transport["item:vial-of-innocent-blood"] = {
   fullHash = "f77ec3",
   text = "Vial of Innocent Blood. In the ruins of Durnholde Keep, Syndicate shadow mages gather Vial of Innocent Blood. The Royal Apothecary Society in Tarren Mill seeks it as a catalyst for experimental toxins. Syndicate shadow mages gather innocent blood among the ruins of Durnholde Keep. The Syndicate's fallen human nobles practice dark arts within the crumbled walls. In Tarren Mill, Apothecary Lydon seeks untainted blood for an experimental pacifying agent. He plans to use it against the Venture Company in Stonetalon Mountains, and the Syndicate's stores offer a convenient source.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_vial-of-innocent-blood-59aef1562de9ad4394e1/1-0000.mp3", duration = 36.597551, start = 0},
+    {file = "Audio/Transport/full_item_vial-of-innocent-blood-a43619bb497ce8462824/1-0000.mp3", duration = 36.9632653, start = 0},
   },
 }
 P.transport["item:vial-of-phlogiston"] = {
@@ -5910,7 +5910,7 @@ P.transport["item:zamah-s-note"] = {
   fullHash = "2ce4cd",
   text = "Zamah's Note. In Thunder Bluff, Zamah sends an urgent plea to Tarren Mill. She asks Apothecary Lydon for an alchemical way to drive the Venture Company from Stonetalon without bloodshed. The Venture Company has dug deep into the Stonetalon Mountains. Its goblins fell trees and tear up sacred land, so Zamah seeks a way to drive them out without slaughter. She turns to the Forsaken Royal Apothecary Society for help. Her note warns her colleague Apothecary Lydon of the danger in Stonetalon. Lydon is far away in Tarren Mill, in the Hillsbrad Foothills of Lordaeron. The sealed note must cross continents to reach Lydon. Travelers from Kalimdor take a zeppelin to the Undercity, then go south through Silverpine Forest into Hillsbrad. Word from across the ocean intrigues Lydon, and he prepares an alchemical answer to the goblin problem.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_zamah-s-note-a318d2ca69ce4286c325/1-0000.mp3", duration = 53.6555102, start = 0},
+    {file = "Audio/Transport/full_item_zamah-s-note-4e6880eed62bf94247e5/1-0000.mp3", duration = 55.4318367, start = 0},
   },
 }
 P.transport["item:zargh-s-meats"] = {

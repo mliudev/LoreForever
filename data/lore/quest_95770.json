@@ -1,0 +1,97 @@
+{
+ "key": "quest:95770",
+ "type": "quest",
+ "name": "Locating the Lost City",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95770
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Kin'weelay asks you to search the Vile Reef for a cavern tied to the lost city. Naga gathering there may have found something worth investigating.",
+ "sections": [
+  {
+   "title": "A Cavern in the Reef",
+   "body": "Kin'weelay recalls diving among the Vile Reef ruins before murlocs settled there. He remembers a cavern and asks you to explore the reef for its entrance. Naga now gather in the region, and he wants to know what drew them there.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Possible Discovery",
+   "body": "When you return, Kin'weelay listens to what you saw. The naga are coming and going from the cavern ruin, though their purpose remains unclear. He wonders if it connects to I'lalai and the Lost City, long held as myth among trolls. Now he wants to investigate.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to search the Vile Reef?",
+   "aliases": [
+    "who sent me",
+    "kin weelay request",
+    "who wants this"
+   ],
+   "answer": "Kin'weelay asks you to explore the Vile Reef and look for a cavern entrance."
+  },
+  {
+   "q": "Why am I looking for a cavern?",
+   "aliases": [
+    "why cavern",
+    "lost city clue",
+    "what am i looking for"
+   ],
+   "answer": "Kin'weelay remembers a cavern among the Vile Reef ruins and suspects it may help locate the Lost City."
+  },
+  {
+   "q": "Why are the naga gathering there?",
+   "aliases": [
+    "naga at reef",
+    "why naga",
+    "naga reason"
+   ],
+   "answer": "Kin'weelay has heard that naga are gathering in the region, but their reason is unknown."
+  },
+  {
+   "q": "What happened to the Vile Reef ruins?",
+   "aliases": [
+    "vile reef ruins",
+    "murlocs there",
+    "who settled reef"
+   ],
+   "answer": "Murlocs settled among the Vile Reef ruins after Kin'weelay's younger years, when he used to dive there."
+  },
+  {
+   "q": "Where is the cavern entrance?",
+   "aliases": [
+    "cavern location",
+    "find entrance",
+    "where cavern"
+   ],
+   "answer": "The cavern entrance is in the Vile Reef. Kin'weelay asks you to explore the reef for it."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cavern",
+  "i'lalai",
+  "kin'weelay",
+  "locating the lost city",
+  "lost city",
+  "murlocs",
+  "naga",
+  "vile reef"
+ ],
+ "related": [
+  "subzone:vile-reef",
+  "npc:kin-weelay",
+  "quest:629",
+  "topic:naga",
+  "topic:murloc",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Locating the Lost City"
+ ]
+}

@@ -588,6 +588,24 @@ local function noteGuild(c)
   elseif try(IsInGuild) == false then c.guild = nil end
 end
 
+-- What names this character for good, as the game reports it (One Character Record): the whole GUID, region and game
+-- version, for the site to make its lasting ID from. Saved raw, with the name calls beside them, because what Forever
+-- answers is only known from what players' games save. t is the server's clock, so a PC with a wrong one can't pose as newer.
+local function noteIdentity(c)
+  if type(c) ~= "table" then return end
+  local guid = try(UnitGUID, "player")
+  if type(guid) ~= "string" or not guid:match("^Player%-%d+%-%x+$") then return end
+  local id = type(c.identity) == "table" and c.identity or {}
+  id.guid = guid
+  id.region = tonumber((try(GetCurrentRegion))) or id.region
+  id.project = tonumber(_G.WOW_PROJECT_ID) or id.project
+  id.game = ns.Capture and ns.Capture.Game((try(GetBuildInfo))) or id.game
+  id.full = try(GetUnitName, "player", true)
+  id.pvp = try(UnitPVPName, "player")
+  id.t = tonumber((try(GetServerTime))) or id.t
+  c.identity = id
+end
+
 -- Create or update this character's record (the sheet and the server's completed list).
 local function open()
   local j = LoreForeverDB.journey
@@ -597,6 +615,7 @@ local function open()
   j.chars[key] = c
   c.name, c.realm = name, realm
   c.guid = c.guid or playerId()   -- whose record this is (Journey.CharKey)
+  noteIdentity(c)
   c.events = type(c.events) == "table" and c.events or {}
   c.seen = type(c.seen) == "table" and c.seen or {}
   for _, k in ipairs({ "place", "npc", "mob", "book", "boss", "rare" }) do c.seen[k] = c.seen[k] or {} end
@@ -865,7 +884,7 @@ end
 local function placeNamed(name, zone)
   local eng, db = ns.engine, ns.DB
   if type(name) ~= "string" or name == "" or not (eng and db) then return nil end
-  local key = try(eng.SubzoneKey, eng, name, zone) or (db.index.area and db.index.area[ns.Engine.lower(name)])
+  local key = try(eng.SubzoneKey, eng, name, zone) or try(eng.AreaKey, eng, name, zone)
   if key and db.entries[key] then return key end
   local zk = eng:ZoneKey(name)
   return zk and db.entries["zone:" .. zk] and ("zone:" .. zk) or nil
@@ -2107,6 +2126,7 @@ do
       C_Timer.After(0, function() if not (win:IsShown() or Journey.PictureShown()) then panelEscapes(true) end end)
     end)
     if type(_G.UISpecialFrames) == "table" then table.insert(UISpecialFrames, "LoreForeverJourneyMapWindow") end
+    T.Movable(win, "bigMap")   -- (by its title strip: the map takes the drags inside it)
     Journey.bigWin = win
     return win
   end
@@ -2119,8 +2139,7 @@ do
     local w = math.floor(math.max(400, math.min(sw - 80, (sh - 60 - 76) / ASPECT)))
     ns.JourneyMap.SetWidth(win.map, w)
     win:SetSize(w + 28, math.floor(w * ASPECT) + 76)
-    win:ClearAllPoints()
-    win:SetPoint("CENTER")
+    T.PlaceMovable(win)
     local filter = Journey.Filter()
     for _, b in ipairs(win.chips) do T.SetTabSelected(b, b.filter == filter) end
     win:Show()
@@ -2215,6 +2234,7 @@ do
         C_Timer.After(0, function() if not (win:IsShown() or Journey.BigMapShown()) then panelEscapes(true) end end)
       end)
       if type(_G.UISpecialFrames) == "table" then table.insert(UISpecialFrames, "LoreForeverPictureViewer") end
+      T.Movable(win, "picture")
       Journey.viewer = win
       return win
     end
@@ -2247,8 +2267,7 @@ do
         textH = textH + ((fh and fh > 0) and fh or 14)
       end
       win:SetSize(w + 32, h + 34 + 10 + 4 + (p.cap and 8 or 0) + textH + 16)
-      win:ClearAllPoints()
-      win:SetPoint("CENTER")
+      T.PlaceMovable(win)
       win.picture = p
       win:Show()
       return true
@@ -3601,7 +3620,9 @@ local handlers = {
     if isLogin or isReload then route, reloaded = {}, isReload and true or false else loaded = true end
     if try(UnitOnTaxi, "player") and not flying then takeOff() end
     later(1, function() onPlace(); loaded, pending = nil, nil end)
+    later(2, function() if ns.Stock and char then pcall(ns.Stock.Talents, char) end end)
   end,
+  TRAIT_CONFIG_UPDATED = function() if ns.Stock and char then pcall(ns.Stock.Talents, char) end end,
   PLAYER_CONTROL_LOST = function() later(1, takeOff) end,
   PLAYER_CONTROL_GAINED = function() later(0.5, land) end,
   TAXIMAP_OPENED = Journey.OnTaxiMap,
@@ -3690,6 +3711,7 @@ local handlers = {
     if unit == nil or unit == "player" then noteGuild(char) end
   end,
   PLAYER_LOGOUT = function()
+    noteIdentity(char)
     noteGuild(char)
     if ns.Stock then pcall(ns.Stock.Take, char, true) end   -- what Willo's goals count, as the game saves (Stock.lua)
     if ns.Screen then pcall(ns.Screen.Take, char) end   -- where the frames sit, what the bars hold (Screen.lua, LOR-802)

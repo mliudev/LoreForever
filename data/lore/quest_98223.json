@@ -1,0 +1,86 @@
+{
+ "key": "quest:98223",
+ "type": "quest",
+ "name": "Old Habits",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98223
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A burned Dragonmaw book reaches Captain Stoutfist in Menethil Harbor. Its damaged pages mention dragon-binding rituals and the Shadow Council.",
+ "sections": [
+  {
+   "title": "A Damaged Book",
+   "body": "You bring Captain Stoutfist in Menethil Harbor a badly burned book that may have survived the dragonfire that ravaged the Dragonmaw clan. Its few legible pages describe rituals involving the Demon Soul, which the clan used to control dragons. The book is incomplete, though Nek\u2019rosh seems to have tried to save it with pages of animal hide and fresh ink naming the Shadow Council.",
+   "spoiler": 0
+  },
+  {
+   "title": "Stoutfist\u2019s Answer",
+   "body": "Captain Stoutfist says the book should be destroyed, for he will not risk the orcs using it. He fears dragonriders at Menethil Harbor, and the mention of the Shadow Council troubles him. He plans to send word to his superiors.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is in the tattered spellbook?",
+   "aliases": [
+    "spellbook contents",
+    "what book",
+    "burned book"
+   ],
+   "answer": "Its surviving pages describe rituals involving the Demon Soul, which the Dragonmaw clan used to control dragons. Fresh ink also names the Shadow Council."
+  },
+  {
+   "q": "Who tried to save the book?",
+   "aliases": [
+    "who saved it",
+    "Nek'rosh book",
+    "Nekrosh"
+   ],
+   "answer": "Nek\u2019rosh seems to have tried to salvage the book by inserting pages made of animal hide."
+  },
+  {
+   "q": "Who wants the book brought to them?",
+   "aliases": [
+    "where take spellbook",
+    "Stoutfist book",
+    "captain wants what"
+   ],
+   "answer": "Captain Stoutfist in Menethil Harbor wants to hear about the book."
+  },
+  {
+   "q": "Why is the book hard to read?",
+   "aliases": [
+    "why burned book",
+    "book damaged",
+    "can't read spellbook"
+   ],
+   "answer": "The book is badly burned, and little of it remains legible."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "captain stoutfist",
+  "demon soul",
+  "dragonmaw clan",
+  "menethil harbor",
+  "nek'rosh",
+  "old habits",
+  "shadow council",
+  "tattered spellbook"
+ ],
+ "related": [
+  "subzone:menethil-harbor",
+  "npc:captain-stoutfist",
+  "topic:dragonmaw-clan",
+  "topic:shadow-council"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Old Habits"
+ ]
+}
