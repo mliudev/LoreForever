@@ -77,6 +77,102 @@ ONLY = {a for i, a in enumerate(sys.argv[2:]) if i and sys.argv[2:][i - 1] == "-
 AUDIO = {".mp3", ".ogg"}
 DEFLATED = {}   # path -> its deflated size (a language pack's files go in several zips)
 
+def write_zip(path, files):
+    """One download's zip: files is [(folder, src, paths)], each path's entry under folder/ by its place in src. The same
+    bytes whichever process writes it (fixed dates and modes, entries in the order given), so zips are written side by
+    side (ZIP_POOL below): one after another they took ~12 minutes of the rehearsal, most of it per-file Python."""
+    with zipfile.ZipFile(path, "w") as z:
+        for f, src, paths in files:
+            for p in paths:
+                if p.is_file():
+                    info = zipfile.ZipInfo(f"{f}/{p.relative_to(src).as_posix()}", date_time=(2026, 1, 1, 0, 0, 0))
+                    info.compress_type = zipfile.ZIP_STORED if p.suffix.lower() in AUDIO else zipfile.ZIP_DEFLATED
+                    info.external_attr = 0o644 << 16
+                    z.writestr(info, p.read_bytes(), compresslevel=9)
+    return path.stat().st_size
+
+# The zip writers: forked here, before the pause-split pool starts its threads, and only for a build that writes zips.
+# Disk-bound past a few, so at most LORE_PACK_ZIP_JOBS (default 8). LORE_PACK_ZIP_JOBS=1 writes them in this process.
+ZIP_POOL = None
+if not SIZES and int(os.environ.get("LORE_PACK_ZIP_JOBS", "8") or 8) > 1:
+    _zip_slot = build_jobs.reserve("build-voice-packs zips", 150, cap=int(os.environ.get("LORE_PACK_ZIP_JOBS", "8") or 8))
+    atexit.register(_zip_slot.release)
+    if _zip_slot.workers > 1:
+        ZIP_POOL = ProcessPoolExecutor(_zip_slot.workers, mp_context=multiprocessing.get_context("fork"))
+        ZIP_POOL.submit(int, 0).result()   # every worker forked now (fork pools start them all at the first submit)
+        atexit.register(lambda: ZIP_POOL.shutdown(wait=False, cancel_futures=True))
+
+# LORE_PACK_ZIP_CACHE=DIR (release.sh's rehearsal only; never the Release workflow, which builds every zip): a zip whose
+# inputs match one built before is linked from DIR instead of written again (the 2nd and later candidates of a version).
+# Its key: this build's scripts and Python, the zip's name and folders, each folder's recordings by release/audio.json's
+# fingerprint (their names and contents; the count and bytes checked here too), and every other file of the folders and
+# of the language pack it carries, by content. A pack without a fingerprint is always built.
+CACHE = Path(os.environ["LORE_PACK_ZIP_CACHE"]) if os.environ.get("LORE_PACK_ZIP_CACHE") and not SIZES else None
+AUDIO_JSON = {}
+if CACHE:
+    try:
+        import json
+        AUDIO_JSON = json.loads((root / "release" / "audio.json").read_text(encoding="utf-8"))["packs"]
+        CACHE.mkdir(parents=True, exist_ok=True)
+    except (OSError, ValueError, KeyError) as e:
+        print(f"note: no zip cache ({e})")
+        CACHE = None
+def _sha(b):
+    import hashlib
+    return hashlib.sha256(b).hexdigest()
+_BUILD = _sha(sys.version.encode() + b"".join((root / "scripts" / n).read_bytes() for n in
+              ("build-voice-packs.sh", "transport_assets.py", "load_order.py", "build-release.sh")
+              if (root / "scripts" / n).is_file()))
+def zip_key(name, folders, lang):
+    parts = [_BUILD, name]
+    for f in folders:
+        entry = AUDIO_JSON.get(f)
+        if not isinstance(entry, dict) or not entry.get("fingerprint"):
+            return None
+        n = size = 0
+        rest = []
+        for p in sorted((addons / f).rglob("*")):
+            if not p.is_file():
+                continue
+            if p.suffix.lower() in AUDIO and "Audio" in p.relative_to(addons / f).parts[:1]:
+                n += 1
+                size += p.stat().st_size
+            else:
+                rest.append(p.relative_to(addons / f).as_posix() + ":" + _sha(p.read_bytes()))
+        if n != entry.get("files") or size != entry.get("bytes"):
+            return None   # the recordings here aren't the ones the fingerprint names
+        parts += [f, entry["fingerprint"], *rest]
+    if lang:
+        lf, listed = lang
+        parts += [lf, *(p + ":" + _sha((addons / lf / p).read_bytes()) for p in listed)]
+    return _sha("\n".join(parts).encode())
+def from_cache(key, path):
+    hit = CACHE / f"{key}.zip"
+    if not hit.is_file():
+        return False
+    path.unlink(missing_ok=True)
+    try:
+        try:
+            os.link(hit, path)
+        except OSError:
+            shutil.copyfile(hit, path)
+        os.utime(hit)
+    except OSError:   # pruned by another build since: write it
+        path.unlink(missing_ok=True)
+        return False
+    return True
+CACHE_NOTED = []
+def to_cache(key, path):
+    tmp = CACHE / f".{key}.{os.getpid()}.tmp"
+    try:
+        os.link(path, tmp)   # the same disk only: a copy would double what the build writes
+        os.replace(tmp, CACHE / f"{key}.zip")
+    except OSError as e:
+        tmp.unlink(missing_ok=True)
+        if not CACHE_NOTED:
+            CACHE_NOTED.append(1)
+            print(f"note: zip cache not filled ({e.strerror}: {CACHE} is on another disk than dist/packs?)")
+
 def zip_bytes(folder, src, paths):
     """What these files add to a zip as written below: each entry's local and central headers (30 and 46 bytes plus
     its name, twice), its recording stored or its text deflated at level 9. The pieces of a pause split hold the same
@@ -381,10 +477,62 @@ def installer_packs_ready():
         part.write_text("".join(r[0] + "\n" for r in rows), encoding="utf-8")
         os.replace(part, READY)   # whole or not there: the workflow polls for it
         READY = None
+def check_packs(folders):
+    """Each pack's checks, once whichever zips it goes in (a zip linked from the cache passed them on these inputs)."""
+    for f in folders:
+        if f in CHECKED:
+            continue
+        CHECKED.add(f)
+        try:
+            validate_transport(addons / f)
+        except TransportError as e:
+            sys.exit(f"build-voice-packs: {e}")
+        # (A pack of complete stories only, MorePlaces/MorePeople, has its recordings under Audio/Transport/.)
+        if not (addons / f / "Clips.lua").is_file() or not any(p.is_file() for p in (addons / f / "Audio").rglob("*.*")):
+            sys.exit(f"build-voice-packs: {f} has no Clips.lua or no recordings")
+        # Audio lived in Git LFS until 10/18: a checkout of an older commit has pointer files instead of recordings.
+        pointers = [p for p in (addons / f / "Audio").rglob("*") if p.is_file() and p.stat().st_size <= 1024
+                    and p.read_bytes().startswith(b"version https://git-lfs")]
+        if pointers:
+            sys.exit(f"build-voice-packs: {len(pointers)} files in {f}/Audio are Git LFS pointers, not recordings "
+                     f"(e.g. {pointers[0].name}). Fetch them first: python3 scripts/audio_store.py hydrate")
+# Zips being written, in the table's order: each is taken (its line, its row, the cache) in that order once it's done,
+# so the log and manifest read as before. READY_MARK stands where the installer's downloads end.
+PENDING, HITS, BUILT, READY_MARK = [], [], 0, object()
+def drain(block):
+    global BUILT
+    while PENDING:
+        head = PENDING[0]
+        if head is READY_MARK:
+            PENDING.pop(0)
+            installer_packs_ready()
+            continue
+        name, path, display, v, job, key, hit = head
+        if job is not None and not block and not job.done():
+            return
+        PENDING.pop(0)
+        if job is not None:
+            job.result()   # a writer's error stops the build here, with its traceback
+        rows.append((path.name, display.format(v=v), v))
+        RANK[path.name] = TABLE[name]
+        if hit:
+            HITS.append(name)
+            print(f"built {path.relative_to(root)} ({path.stat().st_size / 1024**2:.1f} MB, from the zip cache)")
+        else:
+            BUILT += 1
+            if key:
+                to_cache(key, path)
+            print(f"built {path.relative_to(root)} ({path.stat().st_size / 1024**2:.1f} MB)")
+        if name in CURSEFORGE_OWN and path.stat().st_size > CURSEFORGE_MB * 1024**2:
+            print(f"warning: {path.name} is over CurseForge's {CURSEFORGE_MB} MB upload limit; rebuild the pack at a lower "
+                  "bitrate (lore.voicepack quests --bitrate, or locale --bitrate for a narrator in another language), or "
+                  "split an answers part (lore.answers PARTS)")
 edition_names_all = ("LoreForever_Edition_Densuad_esES_Text", "LoreForever_Edition_Densuad_esES_Audio")
+marked = False
 for name, (folders, display) in DOWNLOADS.items():
-    if name not in (FIRST or ()):
-        installer_packs_ready()
+    if name not in (FIRST or ()) and not marked:
+        PENDING.append(READY_MARK)
+        marked = True
     if ONLY and not set(folders) <= ONLY:
         continue
     if name in FULL_BUNDLES:
@@ -415,53 +563,44 @@ for name, (folders, display) in DOWNLOADS.items():
     for f in folders:
         if core and version(f) != core:
             sys.exit(f"build-voice-packs: {f}.toc has ## Version {version(f)}; released packs follow the core ({core})")
-    for f in folders:
-        if f in CHECKED:
-            continue
-        CHECKED.add(f)
-        try:
-            validate_transport(addons / f)
-        except TransportError as e:
-            sys.exit(f"build-voice-packs: {e}")
-        # (A pack of complete stories only, MorePlaces/MorePeople, has its recordings under Audio/Transport/.)
-        if not (addons / f / "Clips.lua").is_file() or not any(p.is_file() for p in (addons / f / "Audio").rglob("*.*")):
-            sys.exit(f"build-voice-packs: {f} has no Clips.lua or no recordings")
-        # Audio lived in Git LFS until 10/18: a checkout of an older commit has pointer files instead of recordings.
-        pointers = [p for p in (addons / f / "Audio").rglob("*") if p.is_file() and p.stat().st_size <= 1024
-                    and p.read_bytes().startswith(b"version https://git-lfs")]
-        if pointers:
-            sys.exit(f"build-voice-packs: {len(pointers)} files in {f}/Audio are Git LFS pointers, not recordings "
-                     f"(e.g. {pointers[0].name}). Fetch them first: python3 scripts/audio_store.py hydrate")
     path = out / (f"{name}-{v}.zip" if VERSIONED else f"{name}.zip")
     locale = re.search(r"_([a-z]{2}[A-Z]{2})(?:-complete)?$", name)
     lang = language_files(locale.group(1)) if locale and locale.group(1) != "enUS" else None
     if SIZES:
+        check_packs(folders)
         for f in folders:
             print(f"size\t{name}.zip\t{f}\t{zip_bytes(f, addons / f, sorted((addons / f).rglob('*')))}")
         if lang:
             f, listed = lang
             print(f"size\t{name}.zip\t{f}\t{zip_bytes(f, addons / f, [addons / f / p for p in listed])}")
         continue
+    key = zip_key(name, folders, lang) if CACHE else None
+    if key and from_cache(key, path):
+        PENDING.append((name, path, display, v, None, None, True))
+        drain(False)
+        continue
+    check_packs(folders)
     files = [(f, source(f), sorted(source(f).rglob("*"))) for f in folders]   # before the zip: a split can fail
     if lang:
         f, listed = lang
         files.append((f, addons / f, [addons / f / p for p in listed]))
-    with zipfile.ZipFile(path, "w") as z:
-        for f, src, paths in files:
-            for p in paths:
-                if p.is_file():
-                    info = zipfile.ZipInfo(f"{f}/{p.relative_to(src).as_posix()}", date_time=(2026, 1, 1, 0, 0, 0))
-                    info.compress_type = zipfile.ZIP_STORED if p.suffix.lower() in AUDIO else zipfile.ZIP_DEFLATED
-                    info.external_attr = 0o644 << 16
-                    z.writestr(info, p.read_bytes(), compresslevel=9)
-    rows.append((path.name, display.format(v=v), v))
-    RANK[path.name] = TABLE[name]
-    print(f"built {path.relative_to(root)} ({path.stat().st_size / 1024**2:.1f} MB)")
-    if name in CURSEFORGE_OWN and path.stat().st_size > CURSEFORGE_MB * 1024**2:
-        print(f"warning: {path.name} is over CurseForge's {CURSEFORGE_MB} MB upload limit; rebuild the pack at a lower "
-              "bitrate (lore.voicepack quests --bitrate, or locale --bitrate for a narrator in another language), or "
-              "split an answers part (lore.answers PARTS)")
+    job = ZIP_POOL.submit(write_zip, path, files) if ZIP_POOL else None
+    if job is None:
+        write_zip(path, files)
+    PENDING.append((name, path, display, v, job, key, False))
+    drain(False)
+drain(True)
+if CACHE and HITS:
+    print(f"zip cache: {len(HITS)} of {len(HITS) + BUILT} zips had the same inputs as before and were linked from it")
 installer_packs_ready()   # every zip was one of the installer's (or there were none)
+if CACHE:   # what no build used for two days goes
+    import time
+    for old in [*CACHE.glob("*.zip"), *CACHE.glob(".*.tmp")]:
+        try:
+            if old.stat().st_mtime < time.time() - 2 * 86400:
+                old.unlink(missing_ok=True)
+        except OSError:   # another build took it first
+            pass
 rows.sort(key=lambda r: RANK[r[0]])
 if ONLY and not any(set(fs) <= ONLY for fs, _ in DOWNLOADS.values()) and not set(edition_names_all) <= ONLY:
     sys.exit(f"build-voice-packs: no download is made only of {', '.join(sorted(ONLY))} (each --pack is an addon/ folder)")

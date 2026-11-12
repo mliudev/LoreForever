@@ -2662,7 +2662,8 @@ local function onPlace()
   end
   if first then char.seen.place[key] = time() end
   if first or entered then
-    add("zone", { z = z, s = s, from = route.zone, how = how, new = first or nil, inst = p.instance })
+    -- fz: no place in this zone seen before (Moments.lua's first time in a zone).
+    add("zone", { z = z, s = s, from = route.zone, how = how, new = first or nil, fz = firstZone or nil, inst = p.instance })
     -- A first zone or dungeon, after an actual arrival. Subzones and the place you log in at aren't milestones.
     if not fresh and firstZone then Journey.MilestonePicture() end
   end

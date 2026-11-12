@@ -330,11 +330,15 @@ end
 -- UnitCreatureType's id (its second value where the client gives one, else the English name's), 0 unknown.
 local CREATURE_TYPES = { Beast = 1, Dragonkin = 2, Demon = 3, Elemental = 4, Giant = 5, Undead = 6, Humanoid = 7,
   Critter = 8, Mechanical = 9, ["Not specified"] = 10, Totem = 11, ["Non-combat Pet"] = 12, ["Gas Cloud"] = 13 }
-local function creatureType(has, isPlayer)
-  if not has or isPlayer then return 0 end
-  local name, id = try(UnitCreatureType, "target")
+-- Also the talk mark's (TalkMark.lua), for the unit it's about: the same number Willo gets, so her rule reads it.
+function Strip.CreatureType(unit)
+  local name, id = try(UnitCreatureType, unit)
   if ns.Context.Usable(id) and type(id) == "number" then return int(id, 31) or 0 end
   return ns.Context.Usable(name) and CREATURE_TYPES[name] or 0
+end
+local function creatureType(has, isPlayer)
+  if not has or isPlayer then return 0 end
+  return Strip.CreatureType("target")
 end
 
 -- The target's line of work (bytes 43-44): ROLES' number, from the line under its name ("Gryphon Master", "Trade
@@ -593,27 +597,144 @@ end
 
 -- Whether the Willo on this PC cheers big moments (LoreForeverJourneyData.chimeIns, "big" or "small", LOR-967): its
 -- value, or nil. Only a Willo that reads moment pages writes it (an older one takes an unknown page as the answer
--- gone). Ignored once Data.lua is CHIME_FRESH old: it outlives an uninstalled Willo, whose sky would twinkle for no one.
-local CHIME_FRESH = 14 * 86400
-function Strip.ChimeFromWillo()
+-- gone). Ignored once Data.lua is WILLO_FRESH old: it outlives an uninstalled Willo, whose sky would twinkle for no one.
+local WILLO_FRESH = 14 * 86400
+-- Willo's add-on data when she has written it lately (she writes it at every start), else nil: what she says there
+-- about herself (her chime-ins, whether the one you target answers you: TalkMark.lua) stops counting once it's old.
+function Strip.FromWilloLately()
   local data = _G.LoreForeverJourneyData
-  if type(data) ~= "table" or (data.chimeIns ~= "big" and data.chimeIns ~= "small") then return nil end
-  local made = tonumber(data.generated)
-  if not made or time() - made > CHIME_FRESH then return nil end
+  if type(data) ~= "table" then return nil end
+  local made, t = tonumber(data.generated), try(time)
+  if not (made and t) or t - made > WILLO_FRESH then return nil end
+  return data
+end
+function Strip.ChimeFromWillo()
+  local data = Strip.FromWilloLately()
+  if not data or (data.chimeIns ~= "big" and data.chimeIns ~= "small") then return nil end
   return data.chimeIns
+end
+
+-- Whether the Willo on this PC reads a two-page moment (LoreForeverJourneyData.chimePages >= 2, Moments.lua's layout):
+-- an older one stays quiet on both pages, so the new moments go only to one that says it does.
+function Strip.PairsFromWillo()
+  local data = _G.LoreForeverJourneyData
+  return type(data) == "table" and (tonumber(data.chimePages) or 0) >= 2
 end
 
 -- A big moment for Willo (Moments.lua, LOR-967): its page (kind 3, low bits 5) rides the outer ring for FLASH seconds,
 -- over anything but a question going round. Willo finds the sky at 2 a second when it wasn't up (the Architect: 3 s,
--- one length), so it shows for it, faded in and out (a half-faded read fails its checks, never reads wrong).
-local FLASH, FADE = 3, 0.2
+-- one length), so it shows for it, faded in and out (a half-faded read fails its checks, never reads wrong). Two pages
+-- take turns every SWAP seconds (not a multiple of her half second, so her reads land on both) for PAIR_FLASH, each up
+-- four times: read whole about as often as one page (pair_rate in the PR).
+local FLASH, FADE, SWAP, PAIR_FLASH = 3, 0.2, 0.6, 4.8
 local moment
+
+local function momentPage(m)
+  local n = #m.pages
+  if n < 2 then return m.pages[1] end
+  return m.pages[math.floor((now() - m.from) / SWAP) % n + 1]
+end
 
 function Strip.Purse()
   local c = tonumber((try(GetMoney)))
   if not c or c < 0 then return nil end
   c = math.min(math.floor(c), 0xFFFFFFFF)
   return { 0xC2, math.floor(c / 0x1000000) % 256, math.floor(c / 0x10000) % 256, math.floor(c / 0x100) % 256, c % 256 }
+end
+
+-- The recipe last clicked in a profession window (LOR-1201, docs/qa/hearing-names.md: Mike asked for a First Aid
+-- reagent out loud and it was heard as "Spider Acre"; with the recipe's reagents among the hint words, "Spider Ichor"):
+-- kind 3, low bits 7 (6 is #3769's moment page B), then the CRC-32 of the recipe's name (GetTradeSkillInfo, or GetCraftInfo for Enchanting), so
+-- Willo can send it with a spoken question and the site put its reagents among the words the transcriber listens for.
+-- No name goes out. Kept until another recipe is clicked or the UI reloads (a log out, another character, /reload).
+-- When the sky comes up: the identity page first, held SKY_UP_HOLD by the clock (Willo reads every 0.125 s, so one of
+-- her reads lands on it whatever her phase: she forgets the identity while the sky is down, and a spoken question
+-- without it doesn't know the character), then the recipe page, up until the next heartbeat, so one of her reads
+-- lands on it by about 0.26 s, before her take's context goes (0.3 s of audio, then a call to the site). Then every
+-- RECIPE_EVERY-th repaint; over an answer too, but
+-- never over a question going round, and only for a Willo that says she reads it (LoreForeverJourneyData.skyCraft):
+-- an older one takes an unknown page as the answer gone, and its sky comes up as before.
+local RECIPE_EVERY = 8
+local recipeName, recipeOwed, recipeTurn = nil, 0, 0
+local SKY_UP_HOLD = 0.13  -- seconds: longer than Willo's 0.125 s between reads of the sky
+-- Sky-up with a recipe to send: 1 the identity page is next, 2 the recipe page is next, 3 the recipe is up; each held
+-- until skyUpUntil whatever repaints come (an event marks the sky stale at up to ten a second), one repaint forced at
+-- skyUpRepaintAt to put the recipe up after the identity.
+local skyUpStage, skyUpUntil, skyUpPage, skyUpRepaintAt = 0, nil, nil, nil
+local soon = false        -- a page that must not wait for the next heartbeat follows: repaint at MIN_GAP
+
+local function recipeFromWillo()
+  local data = _G.LoreForeverJourneyData
+  return type(data) == "table" and data.skyCraft == true
+end
+
+local function noteRecipe(name)
+  if type(name) ~= "string" or name == "" or name == recipeName then return end
+  recipeName, recipeOwed = name, math.max(recipeOwed, 1)
+  if showing then stale = true end
+end
+
+-- The selected recipe of whichever profession window is open, read after it opens, changes or a recipe is clicked.
+-- The craft window is also Hunter Beast Training, which has no skill line (the game's own CraftFrame hides its rank
+-- bar on that): a pet ability isn't a recipe, so it leaves the last recipe as it is.
+local function readRecipe(craft)
+  if craft then
+    if type(_G.GetCraftDisplaySkillLine) == "function" and not try(_G.GetCraftDisplaySkillLine) then return end
+    local i = tonumber((try(_G.GetCraftSelectionIndex)))
+    local name, _, kind = try(_G.GetCraftInfo, i)
+    if i and i > 0 and kind ~= "header" then noteRecipe(name) end
+    return
+  end
+  local i = tonumber((try(_G.GetTradeSkillSelectionIndex)))
+  local name, kind = try(_G.GetTradeSkillInfo, i)
+  if i and i > 0 and kind ~= "header" then noteRecipe(name) end
+end
+
+local recipes, hooked = nil, {}
+local function hookRecipes()
+  if not hooksecurefunc then return end
+  if not hooked.trade and type(_G.TradeSkillFrame_SetSelection) == "function" then
+    hooked.trade = true
+    hooksecurefunc("TradeSkillFrame_SetSelection", function() readRecipe(false) end)
+  end
+  if not hooked.craft and type(_G.CraftFrame_SetSelection) == "function" then
+    hooked.craft = true
+    hooksecurefunc("CraftFrame_SetSelection", function() readRecipe(true) end)
+  end
+end
+
+local RECIPE_EVENTS = { "TRADE_SKILL_SHOW", "TRADE_SKILL_UPDATE", "CRAFT_SHOW", "CRAFT_UPDATE", "ADDON_LOADED" }
+local function listenForRecipes(on)
+  if on and not recipes then
+    recipes = CreateFrame("Frame", nil, UIParent)
+    recipes:SetScript("OnEvent", function(_, event)
+      hookRecipes()
+      if event ~= "ADDON_LOADED" then readRecipe(event == "CRAFT_SHOW" or event == "CRAFT_UPDATE") end
+    end)
+  end
+  if not recipes then return end
+  if on then hookRecipes() end
+  for _, e in ipairs(RECIPE_EVENTS) do
+    pcall(on and recipes.RegisterEvent or recipes.UnregisterEvent, recipes, e)
+  end
+end
+
+function Strip.RecipePage()
+  if not recipeName or not recipeFromWillo() then return nil end
+  local out = { 0xC7 }
+  put(out, Strip.CRC32(recipeName), 4)
+  return out
+end
+
+local function recipePage()
+  recipeTurn = (recipeTurn + 1) % RECIPE_EVERY
+  if not (recipeOwed > 0 or recipeTurn == 0) then return nil end
+  local page = Strip.RecipePage()
+  if page then
+    if recipeOwed == 0 then soon = true end   -- the now-and-then page takes no turn from the purse, spot or identity
+    recipeOwed = 0
+  end
+  return page
 end
 
 local function idlePage(payload)
@@ -630,7 +751,37 @@ local function ringFor(payload)
   -- Idle: first repaint and at least every eight seconds, also where Journey.Here has no map spot. Over an answer,
   -- require its own capability: older spot readers treat any unknown page as the answer gone. Questions stay intact.
   local kind = ring and math.floor(ring[1] / 64)
-  if moment and kind ~= 2 then return moment.page end
+  -- A moment or a question going round takes the ring: the sky-up pages give way, and nothing is left to repaint for.
+  if skyUpStage > 0 and ((moment and kind ~= 2) or not (ring == nil or kind == 1)) then
+    skyUpStage, skyUpUntil, skyUpPage, skyUpRepaintAt = 0, nil, nil, nil
+  end
+  if moment and kind ~= 2 then return momentPage(moment) end
+  if skyUpStage > 0 then
+    local t = now()
+    if skyUpPage and t < skyUpUntil then return skyUpPage end   -- a repaint for an event before then keeps it up
+    if skyUpStage == 1 then
+      skyUpStage = 2
+      local identity = identityFromWillo() and Strip.Identity()
+      if identity then
+        skyUpPage, skyUpUntil, skyUpRepaintAt = identity, t + SKY_UP_HOLD, t + SKY_UP_HOLD
+        lastIdentity, identityTurn, sheetNext = table.concat(identity, ":"), 0, sheetFromWillo()
+        return identity
+      end
+    end
+    if skyUpStage == 2 then
+      skyUpStage, skyUpRepaintAt = 3, nil
+      local recipe = Strip.RecipePage()
+      if recipe then
+        recipeOwed, skyUpPage, skyUpUntil = 0, recipe, t + SKY_UP_HOLD   -- then up until the next heartbeat
+        return recipe
+      end
+    end
+    skyUpStage, skyUpUntil, skyUpPage = 0, nil, nil
+  end
+  if ring == nil or kind == 1 then
+    local recipe = recipePage()
+    if recipe then return recipe end
+  end
   if identityFromWillo() and (ring == nil or kind == 1) then
     if sheetNext then
       sheetNext = false
@@ -661,7 +812,7 @@ local function paint()
   else
     ns.Sky.Paint({})
   end
-  lastPaint, stale = now(), false
+  lastPaint, stale, soon = now(), soon, false
 end
 
 -- Something the sky shows changed outside its events (the target's model, once it has loaded): repaint soon.
@@ -684,16 +835,19 @@ local function endMoment(m, cut)
   Strip.Update()
 end
 
--- Send Willo a big moment's page (Moments.lua). held() says why it must stop now (a fight, a cutscene: nil while it
--- may go on), checked every frame; stopped, aborted() is called so it can go again later. False when it can't go now.
-function Strip.Moment(page, held, aborted)
+-- Send Willo a big moment's pages (Moments.Pages: one, or two in turn). held() says why it must stop now (a fight, a
+-- cutscene: nil while it may go on), checked every frame; stopped, aborted() is called so it can go again later. False
+-- when it can't go now.
+function Strip.Moment(pages, held, aborted)
   if moment or not Strip.On() then return false end
+  if type(pages) ~= "table" or type(pages[1]) ~= "table" then pages = { pages } end
   local t, own = now(), not Strip.Showing()
-  local m = { page = page, from = t, till = t + FLASH, own = own, held = held, aborted = aborted }
+  local long = #pages > 1 and PAIR_FLASH or FLASH
+  local m = { pages = pages, from = t, till = t + long, own = own, held = held, aborted = aborted, turn = 0 }
   moment = m
   if own then ns.Sky.SetFade(0) end
   Strip.Update()
-  if C_Timer and C_Timer.After then C_Timer.After(FLASH + 0.05, function() endMoment(m) end) end
+  if C_Timer and C_Timer.After then C_Timer.After(long + 0.05, function() endMoment(m) end) end
   return true
 end
 
@@ -705,6 +859,9 @@ local function momentFrame(t)
   local ok, why = pcall(m.held or function() end)
   if not ok or why then endMoment(m, true); return true end
   if t >= m.till then endMoment(m); return true end
+  -- Two pages: repaint at each turn (the sky otherwise repaints only on an event or once a second).
+  local turn = math.floor((t - m.from) / SWAP)
+  if #m.pages > 1 and turn ~= m.turn then m.turn, stale = turn, true end
   if m.own then ns.Sky.SetFade(math.min(1, (t - m.from) / FADE, (m.till - t) / FADE)) end
   return false
 end
@@ -853,7 +1010,10 @@ local function create()
     if momentFrame(t) or hiddenForShot then return end
     glanceFrame(t)
     if t - lastPaint < MIN_GAP then return end
-    if stale or t - lastPaint >= HEARTBEAT then
+    if skyUpUntil and t < skyUpUntil then return end              -- a sky-up page's hold: events wait (stale stays)
+    local due = skyUpRepaintAt and t >= skyUpRepaintAt
+    if due then skyUpRepaintAt = nil end                          -- once: never a loop of repaints
+    if stale or t - lastPaint >= HEARTBEAT or due then
       if t - lastPaint >= HEARTBEAT then ns.Sky.Relayout() end   -- a resized window or a moved minimap, no event
       paint()
     end
@@ -881,6 +1041,8 @@ end
 function Strip.Choose(on)
   S().liveStrip, S().liveStripChosen = on and true or false, true
   Strip.Update()
+  -- The talk mark follows at once: with it off, the key for the one you target no longer reaches them (TalkMark.lua).
+  if ns.TalkMark then ns.TalkMark.Update() end
 end
 
 -- Asking Willo out loud: the companion listens while its talk key is held (talk/ptt.py reads the key's state; nothing
@@ -973,6 +1135,13 @@ end
 function Strip.SyncWillo()
   local s = S()
   if s.liveStripSeen == nil then s.liveStripSeen = Strip.OnFromWillo() end
+  -- No Willo add-on at all (her uninstaller takes it out of the game, LOR-1429): not an answer from her. The sky goes
+  -- off unless the player turned it on here, and a choice made here and what she said last stay as they are, so a
+  -- reinstalled Willo with her old yes doesn't undo a Turn off the sky (Options) made before she went.
+  if type(_G.LoreForeverJourneyData) ~= "table" then
+    if not s.liveStripChosen then s.liveStrip = false end
+    return
+  end
   for _, k in ipairs({ { "liveStripSeen", "liveStripChosen", Strip.OnFromWillo(), "liveStrip" },
                        { "liveStripAlwaysSeen", "liveStripAlwaysOwn", Strip.AlwaysFromWillo(), "liveStripAlways" } }) do
     local seen, own, willo, setting = k[1], k[2], k[3], k[4]
@@ -1149,6 +1318,7 @@ binder:SetScript("OnEvent", function() Strip.OfferAskKey() end)
 function Strip.Update()
   Strip.OfferAskKey()
   listenForArrivals(Strip.On())
+  listenForRecipes(Strip.On())
   if not Strip.Showing() then
     showing = false
     if frame then
@@ -1158,7 +1328,10 @@ function Strip.Update()
     ns.Sky.Hide()
     return
   end
-  if not showing then identityTurn = 7 end  -- the first visible page must reach a short talk-key capture
+  if not showing then   -- the first visible pages must reach a short talk-key capture
+    identityTurn, recipeOwed = 7, 1
+    skyUpStage, skyUpUntil, skyUpPage, skyUpRepaintAt = Strip.RecipePage() and 1 or 0, nil, nil, nil
+  end
   showing = true
   if not frame then create() end
   for _, e in ipairs(EVENTS) do pcall(frame.RegisterEvent, frame, e) end

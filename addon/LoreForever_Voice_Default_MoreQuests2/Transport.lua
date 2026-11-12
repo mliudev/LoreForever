@@ -4566,7 +4566,7 @@ P.transport["quest:5042"] = {
   fullHash = "4df610",
   text = "Agamaggan's Strength. In Camp Taurajo, Mangletooth offers Horde travelers strength drawn from Blood Shards. The captive Razormane shaman honors the ancient boar demigod Agamaggan and hates the rival Bristleback tribe. Quilboar honor Agamaggan, an ancient boar demigod. They say his spilled blood formed the red Blood Shards scattered across the Barrens. The crystals are sacred to them, and their power strengthens the fighters who stand at the front. Mangletooth, an elder Razormane shaman held captive in Camp Taurajo, offers that strength to Horde champions. He says your foes will cower before you as they do before the mightiest Razormane champions. Mangletooth offers his strength out of spite. Orcs and tauren captured and caged the old quilboar, whose Razormane tribe is at war with the rival Bristleback. He cannot break his chains and slaughter them himself, so he trades Agamaggan's gifts for help against them. Those who destroy Bristleback tribes and take the sacred Blood Shards from their lands earn his blessing.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_5042-9067512b8ae5ab66dd65/1-0000.mp3", duration = 61.5967347, start = 0},
+    {file = "Audio/Transport/full_quest_5042-9dab279337b3e741351b/1-0000.mp3", duration = 62.7983673, start = 0},
   },
 }
 P.transport["quest:5043"] = {
@@ -6566,7 +6566,7 @@ P.transport["quest:837"] = {
   fullHash = "492c21",
   text = "Encroachment. At Razor Hill in central Durotar, Gar'Thok sends you west against Razormane camps. Their fortified dens still threaten the young orc homeland. When Thrall brought the orcs to Kalimdor and founded Durotar, the Razormane already ranged across much of the harsh, arid land. These aggressive, boar-like quilboar became a constant danger to the new settlement. The Horde drove most of them back through sustained military efforts. Yet fortified pockets remain in thorned redoubts west of Razor Hill. Gar'Thok, an officer at Razor Hill, leads the effort to remove the remaining Razormane. He sends seasoned defenders into the western bramble camps to kill their scouts, warriors, and dustrunners. Gar'Thok and the Horde leadership fear any quilboar foothold near Razor Hill could bring disaster. They see this strike as the first step toward securing Kalimdor. Once the quilboar defenders are gone, Horde forces can burn the bramble dens and keep the Razormane from reclaiming the western foothills. The fire destroys an enduring menace and secures Durotar's western perimeter. It also protects the vital supply roads between Razor Hill and the wider realm.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_837-c6165a42c5e25d2719a9/1-0000.mp3", duration = 71.4710204, start = 0},
+    {file = "Audio/Transport/full_quest_837-674742252b569919c326/1-0000.mp3", duration = 67.1869388, start = 0},
   },
 }
 P.transport["quest:8373"] = {
@@ -6734,7 +6734,7 @@ P.transport["quest:878"] = {
   fullHash = "85716d",
   text = "Tribes at War. From his cage in Camp Taurajo, Mangletooth bargains for help against the Bristleback. The Razormane captive offers intelligence about quilboar attacks in exchange for the deaths of rival spiritual leaders. The tauren hold Mangletooth, a Razormane quilboar, in Camp Taurajo. For years, the Razormane and Bristleback have contested the Barrens. Their sudden ambushes make it hard for the Horde to secure its settlements and supply lines. Mangletooth offers to explain who is tormenting Thork's outpost, but first he asks a Horde champion to kill the Bristleback's most revered casters. Mangletooth sends you north to strike at the Bristleback's spiritual heart: its Water Seekers, Thornweavers, and Geomancers. Both tribes revere the earth and draw power from ancient magic tied to their demigod progenitor, Agamaggan. Killing these casters weakens Bristleback rituals and leaves the tribe open to Razormane rivals. It also eases pressure on nearby trails.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_878-8d77880b6e13717c91ea/1-0000.mp3", duration = 56.9730612, start = 0},
+    {file = "Audio/Transport/full_quest_878-8c5aae12d4278a65d1ff/1-0000.mp3", duration = 58.0702041, start = 0},
   },
 }
 P.transport["quest:879"] = {
@@ -6742,7 +6742,7 @@ P.transport["quest:879"] = {
   fullHash = "185c36",
   text = "Betrayal from Within. At Camp Taurajo, Mangletooth offers Horde travelers a path to vengeance. His Razormane kin left him for dead, and he names three warlords from Razorfen Kraul who direct attacks across the Barrens. Mangletooth sits in a cage at Camp Taurajo, abandoned by his Razormane kin after their defeat. He has lost all loyalty to them and now faces execution. He offers Horde travelers knowledge of the leaders behind the ruthless raids across the plains, hoping to see those leaders fall before his own end. Razormane attacks trouble the Horde, while Thork at the Crossroads struggles to curb them. Mangletooth names three commanders from deep within Razorfen Kraul: Lok Orcbane, a formidable warrior, and his companions Nak, a tracker, and Kuz, a spellcaster. They direct raiders from encampments far to the south. Mangletooth demands their severed skulls as proof that his betrayers have fallen before his own end arrives.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_879-4fa4beec534cce203e30/1-0000.mp3", duration = 57.0514286, start = 0},
+    {file = "Audio/Transport/full_quest_879-17084610eed377d08542/1-0000.mp3", duration = 54.4130612, start = 0},
   },
 }
 P.transport["quest:883"] = {
@@ -6814,7 +6814,7 @@ P.transport["quest:893"] = {
   fullHash = "1a669d",
   text = "Weapons of Choice. At Camp Taurajo, Tatternack Steelforge studies reports of sturdy Razormane weapons. He sends travelers past the Field of Giants to recover them, so the Horde can judge the danger. In the southern Barrens, the Razormane are making unusually durable weapons. The Horde has taken notice, for most quilboar are thought to fight crudely with wood, bone, and stone. Tatternack Steelforge, an orc smith at Camp Taurajo, investigates under orders from Warchief Thrall. He doubts the quilboar know proper metalwork and seeks proof: have they learned new techniques, or found better supplies? Tatternack needs weapons from different parts of the Razormane arsenal to study their craft. South of the Field of Giants, scouts face Razormane war camps and seize weapons from their fighters. Razormane Stalkers carry backstabber daggers, Razormane Seers wield charred wands, and frenzied shock troops bear heavy war shields. Together, these arms reveal something of the martial and mystic arts behind the Razormane push against Horde territory.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_893-b1f69a498e447f1a40c0/1-0000.mp3", duration = 61.5183673, start = 0},
+    {file = "Audio/Transport/full_quest_893-e8be0202c7afdd064e63/1-0000.mp3", duration = 58.88, start = 0},
   },
 }
 P.transport["quest:897"] = {
@@ -6854,7 +6854,7 @@ P.transport["quest:906"] = {
   fullHash = "4cef7b",
   text = "Betrayal from Within. In the central Barrens, Betrayal from Within brings the hunt for Lok Orcbane to its end. His fall will weaken the Razormane raids, and you carry his severed head to Thork at the Crossroads. At Camp Taurajo, Mangletooth is a captured Razormane quilboar held in a cage. He names Lok Orcbane as the chieftain directing attacks on Horde caravans. After you slay Lok deep in the southern thorn mazes, Mangletooth gives you the chieftain's skull. He finds it amusing that the orcs will benefit from betrayal within the tribe without knowing a captive quilboar helped them.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_906-5b1516a09d7d75873e7f/1-0000.mp3", duration = 33.5934694, start = 0},
+    {file = "Audio/Transport/full_quest_906-54214840b41b99aeb397/1-0000.mp3", duration = 32.0261224, start = 0},
   },
 }
 P.transport["quest:91"] = {
@@ -6870,7 +6870,7 @@ P.transport["quest:91282"] = {
   fullHash = "b64b3f",
   text = "A Second Home. Newly risen Forsaken are being invited to join an order in Tirisfal Glades. They are directed to Bandarion Keep, a monastery on the bluffs northwest of the Solliden Farmstead near the Whispering Woods. The order offers community, shared faith, and mutual support as they make a place in their new unlife. Newly risen Forsaken in Tirisfal Glades are urged to find fellowship among their peers. Together, they can face unlife through mutual faith and community, and discover their full potential. Travelers are directed to Bandarion Keep, a monastery on the bluffs northwest of the Solliden Farmstead. Beside the Whispering Woods, it offers the new order a refuge to study, practice, and establish roots in Tirisfal.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_91282-afe6faee10c5fd33ac0d/1-0000.mp3", duration = 43.9379592, start = 0},
+    {file = "Audio/Transport/full_quest_91282-629285d60a284356aacd/1-0000.mp3", duration = 41.9265306, start = 0},
   },
 }
 P.transport["quest:91285"] = {
@@ -6886,7 +6886,7 @@ P.transport["quest:91294"] = {
   fullHash = "0b4e28",
   text = "Touring the Grounds. Breton asks you to walk Bandarion Keep after the murloc attacks come under control. Meeting Danitha Morr is your first step toward settling among the residents. Breton asks you to meet Bandarion Keep’s residents and look around the stronghold. Once you have finished, Danitha Morr can help you settle in. The keep is still small, but its people call it home. Danitha Morr introduces herself as the closest thing Bandarion Keep has to a commander. She welcomes those seeking fellowship with people still loyal to the Light. The keep needs help before it can be fully established.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_91294-adc8d3e07fef51057cd4/1-0000.mp3", duration = 35.0563265, start = 0},
+    {file = "Audio/Transport/full_quest_91294-c21570ffd1772f78b38b/1-0000.mp3", duration = 35.0563265, start = 0},
   },
 }
 P.transport["quest:913"] = {
@@ -8014,7 +8014,7 @@ P.transport["quest:94436"] = {
   fullHash = "f924f3",
   text = "A Lesson in Divinity. In A Lesson in Divinity, Danitha Morr asks you to show what a priest can do with the Symbol of Life. Deathguard Billmuth at Bandarion Keep has come seeking aid for a friend. Billmuth says the priests turned him away, and his friend may have no one else to turn to. He is not proud to ask you, but he needs aid for the Forsaken. The Symbol of Life is meant to show your ability to channel the Light. Handling it may cause discomfort. Its power can still be your ally and guide, even to the Forsaken, whose creation is tied to a force opposed to the Light.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_94436-186d603348ebc6395e93/1-0000.mp3", duration = 33.2016327, start = 0},
+    {file = "Audio/Transport/full_quest_94436-0e4c276d38a9e2b3cadf/1-0000.mp3", duration = 31.9216327, start = 0},
   },
 }
 P.transport["quest:94438"] = {
@@ -8030,7 +8030,7 @@ P.transport["quest:94440"] = {
   fullHash = "116238",
   text = "A Lesson in Divinity. Deathguard Billmuth needs you to recover Scarlet Crusade attack plans from Venomweb Vale. The Deathguard expects an assault and hopes the plans will help prepare an ambush. Scarlet Crusaders carry deployment orders in their satchels, and the Deathguard expects an attack. Bring a copy of the plans to Deathguard Billmuth at Bandarion Keep. Then the Deathguard can prepare an ambush.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_94440-1d3cd3fb80806a8e5b07/1-0000.mp3", duration = 22.0734694, start = 0},
+    {file = "Audio/Transport/full_quest_94440-96820a8a3a6ad0b47e82/1-0000.mp3", duration = 21.1591837, start = 0},
   },
 }
 P.transport["quest:94441"] = {
@@ -8038,7 +8038,7 @@ P.transport["quest:94441"] = {
   fullHash = "245369",
   text = "A Lesson in Divinity. A fellow Forsaken asks you to thank Danitha Morr for the paladins’ service at Bandarion Keep. Your work has earned the Deathguard’s gratitude and brings a gift of redemption. A fellow Forsaken asks you to carry their thanks to Danitha Morr at Bandarion Keep. The rest of the Deathguard will hear of the service you and the other paladins performed. They are proud to count you among the Forsaken and trust the Dark Lady watches over you.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_94441-14cfb3862d2a96376362/1-0000.mp3", duration = 24.555102, start = 0},
+    {file = "Audio/Transport/full_quest_94441-917765d098dbf0c7b288/1-0000.mp3", duration = 23.6408163, start = 0},
   },
 }
 P.transport["quest:94449"] = {
@@ -8598,7 +8598,7 @@ P.transport["quest:95774"] = {
   fullHash = "3b1f57",
   text = "Her Name Is Olgra. Mankrik mourns Olgra and prepares a monument to keep her name alive. He asks you to seek her missing bone adornments among the nearby Razormane raiders. A healer saved Mankrik, but Olgra died from her wounds on the battlefield. Grieving, Mankrik prepares a lasting tribute so her name and sacrifice will be remembered. Olgra wore cherished ornaments made of polished bone, but they are missing from her resting place. Mankrik asks you to recover them from the nearby Razormane raiders, so they can rest beside the monument he is raising for her.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_95774-8f0429de510e5e3345c0/1-0000.mp3", duration = 33.515102, start = 0},
+    {file = "Audio/Transport/full_quest_95774-80c6da068a483ee37a8d/1-0000.mp3", duration = 31.4514286, start = 0},
   },
 }
 P.transport["quest:95795"] = {
@@ -8990,7 +8990,7 @@ P.transport["quest:96899"] = {
   fullHash = "f5acef",
   text = "Bandarion Keep. At Bandarion Keep, Commander Leonid Barthalomew waits for travelers in western Tirisfal Glades. The Argent Dawn once held the secluded fortress against the Scourge, and Danitha and her paladins now guard its walls. After you aid the Argent Dawn against Cult of the Damned activity, you are sent northwest across Tirisfal Glades. Commander Leonid Barthalomew waits at the fortress to speak with you about the order's ongoing crusade against darkness. The Argent Dawn once used the stronghold as a staging post against Scourge incursions across Tirisfal Glades. Then the order turned its focus to the Eastern and Western Plaguelands. The fort was left behind and began to decay, until Paladin Danitha and her companions took stewardship of its walls.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_96899-8185f3804e04896fcf90/1-0000.mp3", duration = 46.602449, start = 0},
+    {file = "Audio/Transport/full_quest_96899-30f25dee0953e47680a5/1-0000.mp3", duration = 42.5012245, start = 0},
   },
 }
 P.transport["quest:96986"] = {
@@ -9030,7 +9030,7 @@ P.transport["quest:97003"] = {
   fullHash = "c0c619",
   text = "Chol'aruk the Ravener. In the Barrens, Gur'ak sends travelers after a colossal quilboar called Chol'aruk the Ravener. He believes the tales and asks them to return with its head. Razormane quilboar whisper of Chol'aruk, an enormous terror they call The Ravener. They say it lairs deep in a cavern at Thorn Hill, northeast of the local trails. By their account, it is roughly five times the size of an ordinary quilboar and driven by an unquenchable thirst for blood. Many dismiss the tales as campfire exaggeration. Gur'ak knows better from past battles with similar beasts. Gur'ak knows a beast of such size poses a real danger. He directs capable travelers to track Chol'aruk to its lair in Thorn Hill, end its threat, and bring back its head as proof. The Ravener is said to be ferocious and colossal. Gur'ak warns that only well-prepared groups should enter the cave to face it.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_97003-18859a14aee8f420df18/1-0000.mp3", duration = 54.2302041, start = 0},
+    {file = "Audio/Transport/full_quest_97003-b9bd38a8054855a3528f/1-0000.mp3", duration = 53.9167347, start = 0},
   },
 }
 P.transport["quest:97005"] = {
@@ -9038,7 +9038,7 @@ P.transport["quest:97005"] = {
   fullHash = "eb6ade",
   text = "Chol'aruk the Ravener. On Thorn Hill in the Barrens, Chol'aruk the Ravener haunts a cave. Bainham seeks its severed head to avenge comrades slain by beasts like it. Northwest of Bainham's camp, Thorn Hill rises above the Barrens Savannah. The Razormane tribes have long fought over its plateau. Now a monstrous abomination is said to lurk in one of its caves. The Razormane call it Chol'aruk or the Ravener. Some travelers doubt the tale that it can swallow an armored orc whole. Those who have seen the carnage know the danger is real. Bainham knows Chol'aruk is no campfire tale. He has fought similar horrors and carries scars from those encounters. His comrades fell to such beasts, and he still mourns them. He fears the abomination threatens everyone crossing the Savannah. Bainham asks seasoned champions to climb Thorn Hill, enter its underground lair, slay Chol'aruk, and bring back its massive head.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_97005-eb593d71f61e2d668a7f/1-0000.mp3", duration = 57.4693878, start = 0},
+    {file = "Audio/Transport/full_quest_97005-eea06e5f7ab07bcbccfb/1-0000.mp3", duration = 55.7714286, start = 0},
   },
 }
 P.transport["quest:971"] = {
@@ -10398,7 +10398,7 @@ P.transport["quest:99144"] = {
   fullHash = "90af6d",
   text = "Seeking Refuge. At Crusader's Outpost, Bareth Dawnstone waits far from the meeting in Brill he was sent to reach. His safe return matters to the young order at Bandarion Keep, where followers of the Holy Light face prejudice from local zealots. Bareth Dawnstone left Bandarion Keep to speak with Shari Stilwell in Brill. Zealous warriors seized him at Crusader's Outpost before he could reach her. They despise him for being undead, yet Bareth remains devoted to the Light. He seeks a way out of their hands and a chance to deliver his message. At Crusader's Outpost, zealots wield the Holy Light with rigid conviction and vengeance. They see Bareth's existence as an offense. He meditates on the Light as a source of protection and inner purity. His captors' cruelty grieves him, for it twists the sacred teachings he cherishes. In Brill, Shari Stilwell learns that Bareth has escaped and is safe. Their monastic order is still taking root on the bluffs northwest of Solliden Farmstead. Losing a promising practitioner like Bareth would have hurt the young fellowship. Its doors are open to travelers seeking sincere guidance in the Light.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_99144-5cf6a8cf76282f3ddd30/1-0000.mp3", duration = 68.6497959, start = 0},
+    {file = "Audio/Transport/full_quest_99144-f392b191e30938372a85/1-0000.mp3", duration = 68.1534694, start = 0},
   },
 }
 P.transport["quest:99152"] = {
@@ -10406,7 +10406,7 @@ P.transport["quest:99152"] = {
   fullHash = "445d76",
   text = "As Above, So Below. At Bandarion Keep, Hilda the Breaker sends you to investigate the hidden Scourge beneath Shadowvale. Bones still humming with reanimation magic may reveal how the undead gathered beneath the town unseen. Hilda the Breaker prepares defenders at Bandarion Keep for the dangers around them. To the southwest, Shadowvale faces regular unrest from the Tarnished, a hostile faction. Yet beneath the town, the Scourge gathers strength in hidden cellars. If left unchecked, it may erupt in a sudden assault on the keep.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_99152-67d90736e7fb26aa9d12/1-0000.mp3", duration = 31.1379592, start = 0},
+    {file = "Audio/Transport/full_quest_99152-93270fe7e6c3bdb765d8/1-0000.mp3", duration = 29.204898, start = 0},
   },
 }
 P.transport["quest:99153"] = {

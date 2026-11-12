@@ -1,0 +1,67 @@
+{
+ "key": "quest:3636",
+ "type": "quest",
+ "name": "Bring the Light",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   3636
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Archbishop Bendictus asks you to face Amnennar the Coldbringer in Razorfen Downs. His request makes the archbishop\u2019s concern plain.",
+ "sections": [
+  {
+   "title": "Bendictus\u2019s Request",
+   "body": "You are bound for Razorfen Downs at Archbishop Bendictus\u2019s request. He names Amnennar the Coldbringer as the one you are to slay. The archbishop\u2019s concern rests on that foe.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks me to go to Razorfen Downs?",
+   "aliases": [
+    "who sent me",
+    "Bendictus request",
+    "who wants Amnennar dead"
+   ],
+   "answer": "Archbishop Bendictus asks you to slay Amnennar the Coldbringer in Razorfen Downs."
+  },
+  {
+   "q": "Who is Amnennar the Coldbringer?",
+   "aliases": [
+    "Amnennar who",
+    "coldbringer",
+    "who is amnennar"
+   ],
+   "answer": "Amnennar the Coldbringer is the foe Archbishop Bendictus names for you to slay in Razorfen Downs."
+  },
+  {
+   "q": "Where is Amnennar?",
+   "aliases": [
+    "where amnennar",
+    "Razorfen Downs location",
+    "find coldbringer"
+   ],
+   "answer": "Archbishop Bendictus names Razorfen Downs as the place to find Amnennar the Coldbringer."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "amnennar the coldbringer",
+  "archbishop bendictus",
+  "bring the light",
+  "coldbringer",
+  "razorfen downs"
+ ],
+ "related": [
+  "subzone:razorfen-downs-classic",
+  "topic:razorfen"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Bring the Light"
+ ]
+}

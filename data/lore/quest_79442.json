@@ -1,0 +1,85 @@
+{
+ "key": "quest:79442",
+ "type": "quest",
+ "name": "The Tempest's Weapons",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79442
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "An old shaman in the Alterac Mountains may know how to use the Eye of the Tempest. You bring him the artifact so he can craft with its storm magic.",
+ "sections": [
+  {
+   "title": "An Old Shaman",
+   "body": "After the battle with the elementals, you bring the Eye of the Tempest to Bath'rah the Windwatcher in the Alterac Mountains. He has an eye for storm elemental magic and sees power in the artifact. Bath'rah says he has not worked with anything like it in a long time, and urges you to take good care of it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Bath'rah?",
+   "aliases": [
+    "Bath'rah Windwatcher",
+    "old shaman",
+    "who is bathrah"
+   ],
+   "answer": "Bath'rah the Windwatcher is an old shaman in the Alterac Mountains with an eye for storm elemental magic."
+  },
+  {
+   "q": "What is the Eye of the Tempest?",
+   "aliases": [
+    "tempest eye",
+    "eye artifact",
+    "what's the eye"
+   ],
+   "answer": "The Eye of the Tempest is a powerful artifact associated with storm elemental magic."
+  },
+  {
+   "q": "Why bring the Eye to Bath'rah?",
+   "aliases": [
+    "why bathrah",
+    "tempest weapons quest",
+    "bring eye where"
+   ],
+   "answer": "Bath'rah may be able to craft something with the Eye of the Tempest because he understands storm elemental magic."
+  },
+  {
+   "q": "What does Bath'rah say about the artifact?",
+   "aliases": [
+    "bathrah reaction",
+    "what does he say",
+    "eye completion"
+   ],
+   "answer": "Bath'rah calls the Eye of the Tempest powerful and says he has not crafted with anything like it in a long time."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Shaman",
+   "text": "As a shaman, you bring a powerful artifact of storm elemental magic to Bath'rah, an old shaman with an eye for that magic."
+  }
+ ],
+ "keywords": [
+  "alterac mountains",
+  "bath'rah",
+  "bath'rah the windwatcher",
+  "eye of the tempest",
+  "shaman",
+  "storm elemental magic",
+  "the tempest's weapons"
+ ],
+ "related": [
+  "quest:1791",
+  "npc:bath-rah-the-windwatcher",
+  "zone:alterac",
+  "topic:shaman"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Tempest's Weapons"
+ ]
+}

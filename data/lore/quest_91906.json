@@ -1,0 +1,75 @@
+{
+ "key": "quest:91906",
+ "type": "quest",
+ "name": "A Sealed Crate",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91906
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A trader asks you to bring in a sealed crate amid a rise in banditry along the trade routes. Other crates found along the way can be brought here for the same handling.",
+ "sections": [
+  {
+   "title": "Trade Goods",
+   "body": "Bandits and thieves have begun intercepting trade routes, and a trader asks you to bring a sealed crate to the pile. The trader thanks you for the delivery and says other crates can be brought here for them to handle. Trade goods remain at risk along the routes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What do I do with the sealed crate?",
+   "aliases": [
+    "sealed crate",
+    "crate delivery",
+    "where crate go"
+   ],
+   "answer": "Bring the crate to the trader, who will place it by the pile."
+  },
+  {
+   "q": "Why are crates being intercepted?",
+   "aliases": [
+    "bandits and crates",
+    "trade route thieves",
+    "why crate missing"
+   ],
+   "answer": "Bandits and thieves have been intercepting trade routes lately."
+  },
+  {
+   "q": "Can I bring other crates here?",
+   "aliases": [
+    "other crates",
+    "found a crate",
+    "more crate delivery"
+   ],
+   "answer": "Yes. The trader says to bring other crates here, and they will handle them."
+  },
+  {
+   "q": "What does the trader give me?",
+   "aliases": [
+    "crate payment",
+    "compensation",
+    "what payment"
+   ],
+   "answer": "The trader offers you payment for your work."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bandits",
+  "crate",
+  "delivery",
+  "payment",
+  "sealed crate",
+  "thieves",
+  "trade routes"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Sealed Crate"
+ ]
+}

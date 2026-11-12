@@ -1,0 +1,86 @@
+{
+ "key": "quest:98059",
+ "type": "quest",
+ "name": "Hillsbrad's Hoard",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98059
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A company asks you to deliver a sealed request to Hillsbrad's town hall. Its council has not answered the new magistrate, and the company wants a small platoon.",
+ "sections": [
+  {
+   "title": "A Sealed Request",
+   "body": "The company gives you a letter for the bookkeeping table inside Hillsbrad's town hall. The council has not replied to the new magistrate's letters, and a merchant's report has sharpened the company's concern. Several siege ballista stand in pristine condition behind the town's walls. For now, the company seeks a small platoon and asks you to carry its request inside.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Company's Reply",
+   "body": "The company accepts your help, though you are not one of its soldiers. The letter is meant to draw an answer from Hillsbrad's council. If silence continues, the company warns that its next message may be less civil, and it keeps you in reserve for future dealings with civilians.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who gives me the letter?",
+   "aliases": [
+    "who sent this letter",
+    "company request giver"
+   ],
+   "answer": "A company gives you the sealed request for Hillsbrad's town hall."
+  },
+  {
+   "q": "Why hasn't the council answered?",
+   "aliases": [
+    "why no reply",
+    "hillsbrad council silence"
+   ],
+   "answer": "The company says Hillsbrad's council has not answered the new magistrate's letters."
+  },
+  {
+   "q": "What does the company want from Hillsbrad?",
+   "aliases": [
+    "what are they asking for",
+    "small platoon request"
+   ],
+   "answer": "The company is asking Hillsbrad for a small platoon."
+  },
+  {
+   "q": "What did the merchant report?",
+   "aliases": [
+    "merchant report",
+    "what's in the compound"
+   ],
+   "answer": "A passing merchant reported multiple siege ballista in pristine condition inside a walled-off compound."
+  },
+  {
+   "q": "Where does the sealed request go?",
+   "aliases": [
+    "where to place letter",
+    "bookkeeping table"
+   ],
+   "answer": "Place the sealed request on the bookkeeping table inside Hillsbrad's town hall."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bookkeeping table",
+  "council",
+  "hillsbrad",
+  "hillsbrad's hoard",
+  "magistrate",
+  "platoon",
+  "sealed company request",
+  "siege ballista",
+  "town hall"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Hillsbrad's Hoard"
+ ]
+}

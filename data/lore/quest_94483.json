@@ -1,0 +1,79 @@
+{
+ "key": "quest:94483",
+ "type": "quest",
+ "name": "Show Them How It's Done",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94483
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A commander sends you south of the river to strike Farholde training camps. The assault is meant to hold humans near their keep and buy time for other concerns.",
+ "sections": [
+  {
+   "title": "By the River",
+   "body": "The commander points you toward Farholde camps south of the river, where scouts have reported human forces. You are asked to slay Farholde Priests and Farholde Scouts. Keeping the humans back from their keep will give the commander time to attend to other matters.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to attack the camps?",
+   "aliases": [
+    "who gave this",
+    "commander asking"
+   ],
+   "answer": "A commander who received scouts' reports about training camps south of the river sends you against the Farholde forces."
+  },
+  {
+   "q": "Where are the Farholde camps?",
+   "aliases": [
+    "where camps",
+    "farholde location"
+   ],
+   "answer": "The training camps are south of the river."
+  },
+  {
+   "q": "Who am I supposed to target?",
+   "aliases": [
+    "who to kill",
+    "targets"
+   ],
+   "answer": "The commander names Farholde Priests and Farholde Scouts as the targets."
+  },
+  {
+   "q": "Why attack the humans?",
+   "aliases": [
+    "why fight humans",
+    "what is the point"
+   ],
+   "answer": "Holding the humans back near their keep is meant to buy time for the commander's other concerns."
+  },
+  {
+   "q": "What happens after the attack?",
+   "aliases": [
+    "what next",
+    "after camps"
+   ],
+   "answer": "The commander says the effort was swift and intends to continue elsewhere."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "farholde",
+  "humans",
+  "keep",
+  "priests",
+  "river",
+  "scouts",
+  "training camps"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Show Them How It's Done"
+ ]
+}

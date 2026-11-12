@@ -2790,7 +2790,7 @@ P.transport["subzone:thelgen-rock"] = {
   fullHash = "5bcb90",
   text = "Thelgen Rock. In the Wetlands, Thelgen Rock’s caverns draw miners after volatile Incendicite Ore. Venomous spiders fill the passages. Thelgen Rock cuts into the mountain wall between the Wetlands and Loch Modan. Aggressive spiders crowd its web-choked passages, and their venom makes every step perilous. Still, miners and adventurers brave the tunnels for the valuable Incendicite Ore in the rock.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_thelgen-rock-c9215e09a75a206a8814/1-0000.mp3", duration = 24.3983673, start = 0},
+    {file = "Audio/Transport/full_subzone_thelgen-rock-f499b459d0e09b442b1f/1-0000.mp3", duration = 23.0661224, start = 0},
   },
 }
 P.transport["subzone:theramore-isle"] = {

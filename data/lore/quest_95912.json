@@ -1,0 +1,96 @@
+{
+ "key": "quest:95912",
+ "type": "quest",
+ "name": "WANTED: Blademaster Kaijo",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95912
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Ember Bladewhisper seeks Blademaster Kaijo at a trainee camp north of the Horde outpost. His banner is meant to weaken the orcs\u2019 morale and strengthen the resolve of Ember\u2019s trainees.",
+ "sections": [
+  {
+   "title": "A Faltering Fight",
+   "body": "Ember Bladewhisper fears that each fallen orc is replaced by a more capable soldier. She believes a blademaster is training them, and says Kaijo is likely at the trainee camp north of the Horde outpost. You are asked to bring his banner to Farholde Keep.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Banner's Purpose",
+   "body": "Ember says the orc threat seems endless, and her soldiers\u2019 resolve is fading. She hopes Kaijo\u2019s banner will show her trainees that the Horde is nothing to fear.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Blademaster Kaijo?",
+   "aliases": [
+    "who is kaijo",
+    "kaijo backstory"
+   ],
+   "answer": "Ember Bladewhisper identifies Kaijo as a blademaster who is likely training orcs at a trainee camp north of the Horde outpost."
+  },
+  {
+   "q": "Why does Ember want Kaijo found?",
+   "aliases": [
+    "why find kaijo",
+    "kaijo wanted reason"
+   ],
+   "answer": "Ember believes Kaijo is training a new generation of capable orc soldiers and fears their numbers will recover."
+  },
+  {
+   "q": "Where does Ember think Kaijo is?",
+   "aliases": [
+    "where kaijo",
+    "kaijo location"
+   ],
+   "answer": "Ember says Kaijo is likely at the trainee camp north of the Horde outpost."
+  },
+  {
+   "q": "What does Ember want brought to Farholde Keep?",
+   "aliases": [
+    "kaijo banner",
+    "bring what to farholde"
+   ],
+   "answer": "Ember asks you to bring the Blademaster\u2019s Banner to her at Farholde Keep."
+  },
+  {
+   "q": "Why does Ember want the banner?",
+   "aliases": [
+    "banner purpose",
+    "why take kaijo banner"
+   ],
+   "answer": "Ember hopes the banner will weaken orc morale and reassure her trainees that the Horde is nothing to fear."
+  },
+  {
+   "q": "What worries Ember about the fight?",
+   "aliases": [
+    "ember worried",
+    "orc threat"
+   ],
+   "answer": "Ember fears the orc threat is unending and that her soldiers\u2019 resolve is flagging."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "blademaster kaijo",
+  "blademaster's banner",
+  "ember bladewhisper",
+  "farholde keep",
+  "horde outpost",
+  "kaijo",
+  "orc trainees",
+  "trainee camp"
+ ],
+ "related": [
+  "topic:horde",
+  "topic:warrior"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: WANTED: Blademaster Kaijo"
+ ]
+}

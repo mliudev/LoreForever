@@ -1,0 +1,73 @@
+{
+ "key": "quest:96107",
+ "type": "quest",
+ "name": "Feathers for Fletching",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96107
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Neza Bloodsnout at Rog'mar makes her own arrows and asks for Plains Buzzard Feathers. Their coarse texture makes them useful for fletching.",
+ "sections": [
+  {
+   "title": "Neza's Arrows",
+   "body": "At Rog'mar, Neza Bloodsnout asks you to gather feathers from nearby buzzards. She makes her arrows by hand and trusts her own work. The coarse feathers are suited to fletching, the vanes that help an arrow fly true.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Neza want buzzard feathers?",
+   "aliases": [
+    "buzzard feather reason",
+    "why feathers",
+    "neza feathers"
+   ],
+   "answer": "Neza uses the coarse Plains Buzzard Feathers for fletching on the arrows she makes by hand."
+  },
+  {
+   "q": "Who is Neza Bloodsnout?",
+   "aliases": [
+    "who is neza",
+    "neza bloodsnout",
+    "neza at rogmar"
+   ],
+   "answer": "Neza Bloodsnout is an arrow maker at Rog'mar who prefers to make her arrows by hand."
+  },
+  {
+   "q": "Where can I find Neza?",
+   "aliases": [
+    "where neza",
+    "neza location",
+    "rogmar neza"
+   ],
+   "answer": "Neza Bloodsnout is at Rog'mar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "As a hunter, you know arrows are a regular need; Neza makes her own and trusts her handiwork."
+  }
+ ],
+ "keywords": [
+  "arrows",
+  "feathers",
+  "fletching",
+  "hunter",
+  "neza bloodsnout",
+  "plains buzzard",
+  "rog'mar"
+ ],
+ "related": [
+  "topic:hunter"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Feathers for Fletching"
+ ]
+}

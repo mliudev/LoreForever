@@ -787,12 +787,15 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     ns.Hooks.UpdateQuestPlayButton()
   elseif event == "QUEST_FINISHED" then
     -- Also fires between a quest's pages; only a window that stays closed stops its page.
+    ns.Voice.OnQuestFinishing()
     C_Timer.After(0.2, function()
       ns.Voice.OnNpcWindowClosed()
       if not (_G.QuestFrame and QuestFrame:IsShown()) then
         ns.Voice.OnQuestClosed()
         ns.Hooks.UpdateQuestPlayButton()
         ns.Voice.OnTalkOver()
+      else
+        ns.Voice.OnQuestStillOpen()
       end
     end)
   elseif event == "GOSSIP_SHOW" or event == "QUEST_GREETING" then

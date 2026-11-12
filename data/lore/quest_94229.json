@@ -1,0 +1,84 @@
+{
+ "key": "quest:94229",
+ "type": "quest",
+ "name": "Craftsman's Writ: Ornate Spyglass",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94229
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ requests an Ornate Spyglass and gives details for its delivery and payment. The waiting customer says an engineer has yet to deliver the order.",
+ "sections": [
+  {
+   "title": "A Waiting Customer",
+   "body": "A customer waits for an engineer to deliver an Ornate Spyglass. The faded writ names the requested item and includes where to deliver it and how payment is handled. You need the writ with you to complete the exchange.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "ornate spyglass writ",
+    "what item is wanted"
+   ],
+   "answer": "The writ requests one Ornate Spyglass."
+  },
+  {
+   "q": "Where do I deliver the spyglass?",
+   "aliases": [
+    "spyglass delivery place",
+    "where to take it"
+   ],
+   "answer": "The writ gives a delivery location, marked on your map."
+  },
+  {
+   "q": "Does the writ say how payment works?",
+   "aliases": [
+    "spyglass payment",
+    "how much do they pay"
+   ],
+   "answer": "The writ includes information about payment, but the text here gives no amount."
+  },
+  {
+   "q": "Why do I need to keep the writ?",
+   "aliases": [
+    "need the writ?",
+    "forgot writ"
+   ],
+   "answer": "You must have the writ with you to complete the transaction."
+  },
+  {
+   "q": "Who is waiting for the order?",
+   "aliases": [
+    "who wants the spyglass",
+    "waiting customer"
+   ],
+   "answer": "A customer is waiting for an engineer to deliver the Ornate Spyglass."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "As an engineer, you are tied to the order: the waiting customer says an engineer has yet to deliver the spyglass."
+  }
+ ],
+ "keywords": [
+  "craftsman's writ",
+  "delivery",
+  "engineer",
+  "ornate spyglass",
+  "payment",
+  "spyglass",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Ornate Spyglass"
+ ]
+}

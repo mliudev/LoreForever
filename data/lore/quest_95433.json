@@ -1,0 +1,89 @@
+{
+ "key": "quest:95433",
+ "type": "quest",
+ "name": "Death to the Executioner",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95433
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Clugfist asks you to face Morg, the ogre guarding the way out of Twilight. He wants Morg\u2019s mace returned to Bolder\u2019ok.",
+ "sections": [
+  {
+   "title": "A Way Out",
+   "body": "Clugfist, in Bolder\u2019ok, asks you to take on Morg in the Twilight Shroud. The executioner is an ogre nearly as large as Clugfist, and Clugfist says he relies on smaller allies for protection. Bring the mace back to him, and Twilight\u2019s Hammer will know the ogres challenge them no more.",
+   "spoiler": 0
+  },
+  {
+   "title": "Bolder\u2019ok\u2019s Answer",
+   "body": "Crag\u2019rog says you have joined him in the fight, and Clugfist asks what you bring. Morg is dead, and Clugfist praises your tricks. He says Twilight\u2019s Hammer has crumpled beneath Bolder\u2019ok\u2019s might, and the ogres are free.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Morg?",
+   "aliases": [
+    "morg who",
+    "executioner morg",
+    "twilight ogre"
+   ],
+   "answer": "Morg is an executioner in the Twilight Shroud, an ogre nearly as large as Clugfist."
+  },
+  {
+   "q": "Why does Clugfist want Morg dead?",
+   "aliases": [
+    "why kill morg",
+    "clugfist wants morg",
+    "morg problem"
+   ],
+   "answer": "Clugfist says Morg stands in the way as he leaves Twilight, and that Morg relies on smaller allies for protection."
+  },
+  {
+   "q": "What does Clugfist want you to bring back?",
+   "aliases": [
+    "morg mace",
+    "bring back what",
+    "executioner's mace"
+   ],
+   "answer": "Clugfist wants Morg\u2019s Executioner\u2019s Mace returned to him in Bolder\u2019ok."
+  },
+  {
+   "q": "Where is Morg?",
+   "aliases": [
+    "morg location",
+    "where executioner",
+    "twilight shroud"
+   ],
+   "answer": "Morg is in the Twilight Shroud."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Tauren",
+   "text": "As a tauren, Clugfist calls you a tiny tauren full of tricks after Morg is dead."
+  }
+ ],
+ "keywords": [
+  "bolder'ok",
+  "clugfist",
+  "crag'rog",
+  "executioner morg",
+  "executioner's mace",
+  "morg",
+  "twilight shroud",
+  "twilight's hammer"
+ ],
+ "related": [
+  "topic:twilight-s-hammer",
+  "topic:tauren"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Death to the Executioner"
+ ]
+}

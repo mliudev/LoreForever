@@ -39,6 +39,7 @@
   <Script file="VoiceOffer.lua"/>
   <Script file="Moments.lua"/>
   <Script file="Hooks.lua"/>
+  <Script file="TalkMark.lua"/>
   <Script file="Storyline.lua"/>
   <Script file="Notes.lua"/>
   <Script file="WhatsNew.lua"/>

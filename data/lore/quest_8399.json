@@ -1,0 +1,69 @@
+{
+ "key": "quest:8399",
+ "type": "quest",
+ "name": "Fight for Warsong Gulch",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   8399
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "An Alliance Brigadier General outside Warsong Gulch asks you to bring three Marks of Honor. The marks are needed to answer the call to fight there.",
+ "sections": [
+  {
+   "title": "The Brigadier's Request",
+   "body": "Warsong Gulch marks are what the Alliance Brigadier General seeks from you outside the battlegrounds. Bring three Marks of Honor to the general, and your fight for Warsong Gulch can be counted among the Alliance effort.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the Alliance Brigadier General want?",
+   "aliases": [
+    "brigadier general marks",
+    "what marks do i need"
+   ],
+   "answer": "The Alliance Brigadier General outside Warsong Gulch asks you to bring three Marks of Honor."
+  },
+  {
+   "q": "Where do I bring the Marks of Honor?",
+   "aliases": [
+    "where turn in marks",
+    "warsong marks location"
+   ],
+   "answer": "Bring the Marks of Honor to an Alliance Brigadier General outside the battlegrounds."
+  },
+  {
+   "q": "How many Marks of Honor are needed?",
+   "aliases": [
+    "how many marks",
+    "three marks"
+   ],
+   "answer": "You need three Warsong Gulch Marks of Honor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance fighter, you are asked to bring Marks of Honor to an Alliance Brigadier General outside Warsong Gulch."
+  }
+ ],
+ "keywords": [
+  "alliance",
+  "brigadier general",
+  "fight",
+  "marks of honor",
+  "warsong gulch"
+ ],
+ "related": [
+  "zone:warsonggulch",
+  "topic:alliance"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Fight for Warsong Gulch"
+ ]
+}

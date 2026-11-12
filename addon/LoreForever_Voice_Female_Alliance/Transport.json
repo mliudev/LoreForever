@@ -627,9 +627,9 @@
     "npc:duthorian-rall": {
       "1": [
         {
-          "duration": 78.3934693877551,
-          "file": "Audio/Transport/full_npc_duthorian-rall-9aeb583f244109a1fb64/1-0000.mp3",
-          "sha256": "10877a5cfb0f32c82f9c4562e7a7477320bf0c63af77222197ac278aea52c250",
+          "duration": 76.4865306122449,
+          "file": "Audio/Transport/full_npc_duthorian-rall-81f8d6bbec09c74a4453/1-0000.mp3",
+          "sha256": "63c2e13cc67f4ba68c69f0040babd12d35678c91bc5c85701448a6cec8ceb201",
           "start": 0
         }
       ],
@@ -641,12 +641,12 @@
         ]
       },
       "fullHash": "d083e8",
-      "generation": "16a4421ad08d17361514",
+      "generation": "baf3a060289f60d76f5b",
       "hash": "3eadf2",
       "source": {
-        "duration": 78.419592,
+        "duration": 76.486531,
         "file": null,
-        "sha256": "9aeb583f244109a1fb646d2e44dd5bb2c288968e36164218eae657df91d587d5"
+        "sha256": "81f8d6bbec09c74a4453366aca57d14a87092d4b57d8745b4a6254e2e6f1b4b4"
       },
       "text": "Duthorian Rall. In Stormwind's Cathedral of Light, Duthorian Rall guides new holy warriors through their trials. A respected human knight of the Silver Hand, he is one of the Alliance's most influential paladins. He oversees their training and spiritual tests, teaching charity, valor, and devotion as they prepare to defend Azeroth from the Scourge and threats within the kingdom. In the Cathedral of Light, Duthorian Rall upholds the traditions of the Knights of the Silver Hand. The kingdom is unsettled by strife within its borders, and King Varian Wrynn is missing. Duthorian bears the duty of teaching discipline to new initiates. Respected paladins in the field send promising recruits to him: Brother Wilhelm in Goldshire and Brandur Ironhammer in Ironforge. There, the recruits begin their sacred trials. Duthorian teaches that martial power without a moral foundation is hollow. In the Tome of Divinity trials, he tests an initiate's empathy through acts of mercy and selfless service across Stormwind. Only then does he entrust candidates with deeper mysteries.\n\nNear Heroes' Vigil, he tests them with the Symbol of Life. Then he sends them to aid wounded allies and learn to channel the Light's power, restoring fallen comrades from death."
     },
@@ -757,9 +757,9 @@
     "npc:foreman-oslow": {
       "1": [
         {
-          "duration": 62.98122448979592,
-          "file": "Audio/Transport/full_npc_foreman-oslow-fbfc15247137e35e7784/1-0000.mp3",
-          "sha256": "22aa5f116c7d4170331179f729e0989fe512e14942391e8c16efc426d76aade2",
+          "duration": 58.72326530612245,
+          "file": "Audio/Transport/full_npc_foreman-oslow-34c6f0534195fe5701f0/1-0000.mp3",
+          "sha256": "dc96faa60d0a937b254132fe1bee909f41c11bae42320eb755ac1da5cdf511bd",
           "start": 0
         }
       ],
@@ -771,12 +771,12 @@
         ]
       },
       "fullHash": "68904f",
-      "generation": "fe92f780eb4781bdbe41",
+      "generation": "b512a7dd79531e79015b",
       "hash": "82e2b8",
       "source": {
-        "duration": 63.007347,
+        "duration": 58.749388,
         "file": null,
-        "sha256": "fbfc15247137e35e77845b530844b26e5561bccadc581410ee24f19d177648db"
+        "sha256": "34c6f0534195fe5701f0c6c029e9ba81ea468e5f82dd8584b8f34fadf46bbc9f"
       },
       "text": "Foreman Oslow. At Lakeshire, Foreman Oslow works to rebuild the Everstill Bridge, shattered by Blackrock orcs. Lost tools and stolen supplies have halted the repairs, leaving the town's trade route broken. Foreman Oslow works beside the broken Everstill Bridge, trying to reconnect Lakeshire. The span crosses Lake Everstill, joining western roads toward Elwynn to the eastern shore. Blackrock orcs descended from Stonewatch's crags and struck the crossing to cripple Lakeshire's trade and military movement. Now the town is split and exposed. Foreman Oslow has lost the tools and materials needed for repairs. Replacement tools came overland from Goldshire, then went aboard a lake ferry. Blackrock orc catapults struck the vessel, sending Oslow's heavy iron toolbox to Lake Everstill's muddy bed.\n\nGnolls in Redridge also seized a caravan carrying new materials from Stormwind. They took the iron pikes and rivets needed to raise the bridge's arches."
     },
@@ -2395,9 +2395,9 @@
     "npc:william-pestle": {
       "1": [
         {
-          "duration": 56.79020408163265,
-          "file": "Audio/Transport/full_npc_william-pestle-09c1960c4d30cc3cd2cb/1-0000.mp3",
-          "sha256": "607ea5a1bafcd052d935143973b887d4bc1b5e7e91cbc615bc915fc013b8e1fd",
+          "duration": 56.816326530612244,
+          "file": "Audio/Transport/full_npc_william-pestle-1b6da72aee5500e6e013/1-0000.mp3",
+          "sha256": "a13eb677b342b4090f0e1dd05f32c4c360669f4172f1a858803369373bdbddf3",
           "start": 0
         }
       ],
@@ -2409,12 +2409,12 @@
         ]
       },
       "fullHash": "d7f394",
-      "generation": "759b1c21a940e2e21016",
+      "generation": "bd2ed25fc26d1fb5edba",
       "hash": "78ce20",
       "source": {
         "duration": 56.816327,
         "file": null,
-        "sha256": "09c1960c4d30cc3cd2cba108e31bedbc7797bea3f750222f03e007eef1bea7a0"
+        "sha256": "1b6da72aee5500e6e0139a5f70ee457d244ec5e43ae1d0deaaca837e0face8ea"
       },
       "text": "William Pestle. At the Lion's Pride Inn in Goldshire, William Pestle gathers supplies for Stormwind's apothecary. He and his brother Morgan run the shop in the Trade District. William hires travelers to find candles, kelp, and herbs. William works from the Lion's Pride Inn in Goldshire. His brother Morgan Pestle tends the counter at Pestle's Apothecary in Stormwind City's Trade District. In Elwynn Forest, William works with local gatherers to secure raw materials for the city's shops. He sends regular shipments to Stormwind, where citizens rely on restorative salves, draughts, and powders. Common garden herbs do not always meet William's needs. He hires newcomers to gather wax candles carried by Elwynn's kobolds and crystal kelp from the murlocs of Crystal Lake, just east of Goldshire. The ingredients may seem strange to those unfamiliar with alchemy. William believes they have potent virtues in a mixture."
     },
@@ -3097,9 +3097,9 @@
     "subzone:brackwell-pumpkin-patch": {
       "1": [
         {
-          "duration": 40.542040816326534,
-          "file": "Audio/Transport/full_subzone_brackwell-pumpkin-patch-6cad83d58541c3e62469/1-0000.mp3",
-          "sha256": "31a60fc06ed8e3796e9e0ecaa9ad1aa00b8fbe14571e5623acc9b823a14cfc15",
+          "duration": 39.288163265306125,
+          "file": "Audio/Transport/full_subzone_brackwell-pumpkin-patch-268ec4c75c0353df7242/1-0000.mp3",
+          "sha256": "273a85c5805839efa17858e4d30b279adfa874436081bbd692448a9f395913e1",
           "start": 0
         }
       ],
@@ -3111,12 +3111,12 @@
         ]
       },
       "fullHash": "91fd3a",
-      "generation": "6864dc5958673691f9c9",
+      "generation": "3b75f27b2ed8d315852c",
       "hash": "91fd3a",
       "source": {
-        "duration": 40.568163,
+        "duration": 39.288163,
         "file": null,
-        "sha256": "6cad83d58541c3e624692772baa30ac20ca0720019646d638bdc0929d9ac9113"
+        "sha256": "268ec4c75c0353df724214aa7d8fd5810bd9c0ca035f9bd1256dfd9e86485153"
       },
       "text": "Brackwell Pumpkin Patch. Defias brigands hold Brackwell Pumpkin Patch in southeastern Elwynn Forest. The farm belonged to the Brackwell family, but now conspirators meet in its cottage and fields, where stolen mine gold arrives. Southeast of the Stonefield homestead, Brackwell's fields lie untended. The family vanished as crime spread through the area, driven away or worse. The Defias Brotherhood now occupies the sturdy cottage and overgrown fields. Beyond the reach of Goldshire's patrols, brigands regroup here. Morgan the Collector and other prominent conspirators use the isolated farm to receive illicit gold from the forest's mines."
     },
@@ -3617,9 +3617,9 @@
     "subzone:crystal-lake": {
       "1": [
         {
-          "duration": 29.178775510204083,
-          "file": "Audio/Transport/full_subzone_crystal-lake-fb923029d179e72a4b16/1-0000.mp3",
-          "sha256": "d77614e2be2a4419b1b6b7ad6bd66645e54de3ef9e1e087c3c8271b916d0de71",
+          "duration": 27.71591836734694,
+          "file": "Audio/Transport/full_subzone_crystal-lake-fadca7ed0fc62f98964e/1-0000.mp3",
+          "sha256": "423344dbe0d895bd0e7d6b57a08e2e75df32922945d90c64f196fbd8223afcb3",
           "start": 0
         }
       ],
@@ -3631,12 +3631,12 @@
         ]
       },
       "fullHash": "e82dbe",
-      "generation": "ba258e7a6c4b111286e0",
+      "generation": "c999cf6f389c96fe60cf",
       "hash": "e82dbe",
       "source": {
-        "duration": 29.204898,
+        "duration": 27.715918,
         "file": null,
-        "sha256": "fb923029d179e72a4b16f4f0625386a166adee17256e0e3c1686ca1e2596e233"
+        "sha256": "fadca7ed0fc62f98964e957336a1752fdc7694635f55e84a1b5aaaa8d88833de"
       },
       "text": "Crystal Lake. At Crystal Lake, murlocs claim the shore east of Goldshire. Their attacks endanger villagers and travelers passing by. East of Goldshire, Crystal Lake lies within walking distance of the Lion's Pride Inn. Freshwater murlocs claim its shore and shallow shoals, attacking anyone who comes too close. William Pestle, an alchemist at the inn, hires travelers to drive them back and gather the crystal kelp they carry for his experiments."
     },
@@ -4371,9 +4371,9 @@
     "subzone:fargodeep-mine": {
       "1": [
         {
-          "duration": 56.163265306122454,
-          "file": "Audio/Transport/full_subzone_fargodeep-mine-779b0b9bb7bc93379d56/1-0000.mp3",
-          "sha256": "d4e74feba1f61543d5cdc39086c71e8fd544e66c032624b3d5af4d778acef8eb",
+          "duration": 57.70448979591837,
+          "file": "Audio/Transport/full_subzone_fargodeep-mine-59c88558258a7a9cfccd/1-0000.mp3",
+          "sha256": "6dc50df49907dcfbb5e3f0c3b704c4c5f74718b9d7febaa91869befb1fed08a2",
           "start": 0
         }
       ],
@@ -4385,12 +4385,12 @@
         ]
       },
       "fullHash": "cc9f11",
-      "generation": "1aaca05519e8008819f4",
+      "generation": "051754d9b76ccdcc735e",
       "hash": "c12ebb",
       "source": {
-        "duration": 56.163265,
+        "duration": 57.70449,
         "file": null,
-        "sha256": "779b0b9bb7bc93379d5660557c4c2e2fd788e94f483d6722ed80e1dc44cab564"
+        "sha256": "59c88558258a7a9cfccd472b2fcd544ee3c249cdb22cba81f53ca76e8ef61653"
       },
       "text": "Fargodeep Mine. Kobolds now swarm through Fargodeep Mine, south of Goldshire in central Elwynn Forest. Its gold once filled Stormwind's treasury, but now kobolds make their home in its tunnels. Gold once flowed from Fargodeep Mine into Stormwind's treasury. As the Kingdom's military presence in Elwynn dwindled, the outlying mine grew vulnerable. Kobolds filled its dark tunnels and made a warren beneath the hills. Now Marshal Dughan and Goldshire's authorities fear the lost ore and the danger to nearby farms, including the Stonefield and Maclure holdings. Fargodeep Mine runs through several levels, with lower shafts reaching deep beneath the forest floor. Kobold laborers and vermin hurry along wooden scaffolds, guarding the wax and gold dust they have scavenged. Goldtooth, a cunning kobold leader, lurks in a den above the main tunnels. He hoards trinkets stolen from travelers and nearby residents."
     },
@@ -4865,9 +4865,9 @@
     "subzone:goldshire": {
       "1": [
         {
-          "duration": 63.294693877551026,
-          "file": "Audio/Transport/full_subzone_goldshire-dca8ecdbfc36724756b6/1-0000.mp3",
-          "sha256": "8eb407d4ed50bbbe8f9764c8d3bda72c3b11ceb139f7cbeb8d235ce3ccc94d5c",
+          "duration": 63.79102040816327,
+          "file": "Audio/Transport/full_subzone_goldshire-7fa720c3a094666daa3d/1-0000.mp3",
+          "sha256": "30304c041f0f579370753d547540dc81265dc7b6e3ae772d621406bcde063687",
           "start": 0
         }
       ],
@@ -4879,12 +4879,12 @@
         ]
       },
       "fullHash": "8549d4",
-      "generation": "caf21009fa84f82e6d7f",
+      "generation": "a2c1a3657bb3a9b3ffc4",
       "hash": "d86afe",
       "source": {
-        "duration": 63.320816,
+        "duration": 63.817143,
         "file": null,
-        "sha256": "dca8ecdbfc36724756b685402ab6ce8613fb7b9b68d171e0aa21967f92b37e05"
+        "sha256": "7fa720c3a094666daa3dd0265f623535e89f3c7d4cbc3723af4ebcd62fa66d88"
       },
       "text": "Goldshire. Goldshire stands where Elwynn’s roads meet, between Stormwind City, Westfall, Redridge, and the southern frontier. Rebuilt after the First War, it offers travelers the Lion’s Pride Inn, while a hard-pressed Stormwind Guard defends the town. Goldshire holds the crossroads in rural Elwynn, where the king’s highways meet. Threats press closer as Stormwind’s forces thin and King Varian Wrynn remains mysteriously absent. Marshal Dughan must rely on passing adventurers instead of regular troops to guard the borders. Riverpaw gnolls push in from the west, while hostile murlocs claim the shores of Stone Cairn Lake and Crystal Lake. Their attacks have killed royal guards and brought danger close to town. Goldshire and Moonbrook were the last strongholds to fall in the First War. Warchief Blackhand cut King Llane Wrynn I off from his realm before sacking Stormwind Keep, and the Orcish Horde overwhelmed both towns. Goldshire was reduced to ash and lay barren until it was rebuilt after the Second War."
     },
@@ -5307,9 +5307,9 @@
     "subzone:heroes-vigil": {
       "1": [
         {
-          "duration": 58.54040816326531,
-          "file": "Audio/Transport/full_subzone_heroes-vigil-2df8c4e8ac2fe5853f1f/1-0000.mp3",
-          "sha256": "f2c508d2123e86f082ed43c15f5bfc2ed81e19f16f54c3b749050155e8023e9c",
+          "duration": 58.01795918367347,
+          "file": "Audio/Transport/full_subzone_heroes-vigil-b68d6041ee95e692041d/1-0000.mp3",
+          "sha256": "8493e66347ff39f894ba106ee83208485c6f5791c5c590656f1e286907f7f121",
           "start": 0
         }
       ],
@@ -5321,12 +5321,12 @@
         ]
       },
       "fullHash": "72724c",
-      "generation": "ec1b1f9fe3e68b837303",
+      "generation": "a502f723051e0b8853fb",
       "hash": "e43720",
       "source": {
-        "duration": 58.566531,
+        "duration": 58.017959,
         "file": null,
-        "sha256": "2df8c4e8ac2fe5853f1f7f26d2e0ef9d7e63abfc0aa37716f7b1f917fc9e11fb"
+        "sha256": "b68d6041ee95e692041d33545e08f410ce0fa9e3f2520e8de85e173d7382b9e3"
       },
       "text": "Heroes' Vigil. On Stone Cairn Lake's island, Heroes' Vigil lies neglected and overrun by renegade wizards. The Stone of Remembrance honors those who fell in the First War. Heroes' Vigil gathers around the Stone of Remembrance on an island in Stone Cairn Lake. Erected after the First War, its inscribed circle honors the soldiers and citizens slain when the Old Horde sacked Goldshire and the surrounding valleys. Once a sacred place of faith and sacrifice, the memorial has slipped from Stormwind's attention. Its grounds are overgrown, and no soldiers tend them. Without a kingdom garrison, outcasts have claimed the island. Rogue wizards control Stone Cairn Lake and the memorial grounds. They practice wild, undisciplined magic beyond the oversight of the Kirin Tor and the Academy of Arcane Sciences. Near the stones lies Henze Faulk's body among other tragic casualties. Travelers can only wonder whether the shrine will know peace again."
     },
@@ -5671,9 +5671,9 @@
     "subzone:jansen-stead": {
       "1": [
         {
-          "duration": 27.088979591836736,
-          "file": "Audio/Transport/full_subzone_jansen-stead-8998bb02d50d6dbc43fb/1-0000.mp3",
-          "sha256": "25bb1abdaceeae6b85857cae324a6a16a0d74610c6d4c4e4819f5be3efbded98",
+          "duration": 28.107755102040816,
+          "file": "Audio/Transport/full_subzone_jansen-stead-e999b9eb0a46c6031a3e/1-0000.mp3",
+          "sha256": "7067b1b12bbbe8ed401bdd2de6eca430e5ec5d94f1a69988ff7a4a9744c888e1",
           "start": 0
         }
       ],
@@ -5685,12 +5685,12 @@
         ]
       },
       "fullHash": "14baf8",
-      "generation": "c73dc16870daeccabcbd",
+      "generation": "0508d00774d53377351f",
       "hash": "14baf8",
       "source": {
-        "duration": 27.08898,
+        "duration": 28.107755,
         "file": null,
-        "sha256": "8998bb02d50d6dbc43fb76fe94567ac156cd2a88da39b63ae3a3bf0bd2361b80"
+        "sha256": "e999b9eb0a46c6031a3e232fe4a6d71802e1531ea513ab5989969d7594b6b842"
       },
       "text": "Jansen Stead. Defias bandits and mechanical Harvest Watchers roam the fields of Jansen Stead, just west of Elwynn. Jansen Stead stands beside the road from Elwynn into Westfall. Once its farm fed the kingdom, but unrest has driven the family from the land. Now mechanical Harvest Watchers patrol the fields alongside brigands. The Watchers are tied to the Defias Brotherhood. Couriers and travelers between Goldshire and Sentinel Hill pass close by."
     },
@@ -6035,9 +6035,9 @@
     "subzone:lion-s-pride-inn": {
       "1": [
         {
-          "duration": 36.85877551020408,
-          "file": "Audio/Transport/full_subzone_lion-s-pride-inn-193ddec048ec9b2c7631/1-0000.mp3",
-          "sha256": "046f51b84ea89dfc748324ea0346774ad2ead803ab8a9708ebb94156b571f97c",
+          "duration": 37.92979591836735,
+          "file": "Audio/Transport/full_subzone_lion-s-pride-inn-9e1c9032db2adb335080/1-0000.mp3",
+          "sha256": "6ab0b18a761523fc7fa2a959eb5486684b0a5817928caa0b9b01852bd89a826b",
           "start": 0
         }
       ],
@@ -6049,12 +6049,12 @@
         ]
       },
       "fullHash": "b7aa6c",
-      "generation": "644dc659667ec2866c5e",
+      "generation": "ac9066c74e4027b267ae",
       "hash": "b7aa6c",
       "source": {
-        "duration": 36.884898,
+        "duration": 37.929796,
         "file": null,
-        "sha256": "193ddec048ec9b2c7631a90ac941b2eecefc52d4741a0bcbb6fc9da742b68783"
+        "sha256": "9e1c9032db2adb335080699e554611b63384d8c52758dfa1a182de996ebad788"
       },
       "text": "Lion's Pride Inn. At the Lion's Pride Inn, travelers rest and find work just south of Stormwind. Innkeeper Farley welcomes them to Goldshire's gathering place in Elwynn Forest. Goldshire's crossroads bring travelers to the Lion's Pride Inn. Innkeeper Farley keeps the old motto: “Rest and relaxation for the tired and cold.” Hearths, strong drinks, and rooms welcome weary travelers from Northshire. The roads link Stormwind with Westfall, Redridge, and Duskwood, so town marshals, local crafters, and seasoned trainers gather here to share news and hire passing mercenaries."
     },
@@ -6945,9 +6945,9 @@
     "subzone:northshire-valley": {
       "1": [
         {
-          "duration": 72.48979591836735,
-          "file": "Audio/Transport/full_subzone_northshire-valley-eb43bb21dbf890caac80/1-0000.mp3",
-          "sha256": "a0c52a59aaa171befe9ee9e2d4b2d8c951eb07c7f06c4a9096add05b8702e5e7",
+          "duration": 73.03836734693878,
+          "file": "Audio/Transport/full_subzone_northshire-valley-f8ff71cad828434d2075/1-0000.mp3",
+          "sha256": "fce93dd3aa8bc035a99a4171e683796b8ddfe8aa018b163b779ecb9080f62f0e",
           "start": 0
         }
       ],
@@ -6959,12 +6959,12 @@
         ]
       },
       "fullHash": "1f0519",
-      "generation": "95190d997d4ba52445b4",
+      "generation": "a73c29eb457d958a63bc",
       "hash": "9c92fc",
       "source": {
-        "duration": 72.515918,
+        "duration": 73.038367,
         "file": null,
-        "sha256": "eb43bb21dbf890caac80d904125247061d635d1bfca88ece7a1624b940a63a5d"
+        "sha256": "f8ff71cad828434d207520b66ed57f51a823ef5c8d4d37270071c8f01d73e9bd"
       },
       "text": "Northshire Valley. Northshire Valley, in the hills of northern Elwynn, is where Stormwind's newest defenders begin. Mountain ridges guard it on every side but one. At its heart stands the ancient abbey, with fertile vineyards and a rich mine close by. But bandits and kobolds trouble the valley now, and wolves prowl its quiet pastures. The only way out is the road south. It runs through a fortified gatehouse, on toward Goldshire and the rest of the forest. A clear river crosses the pastures and flows into Crystal Lake. In the abbey, recruits train under seasoned veterans and the Knights of the Silver Hand. With its vineyards and its mine, the valley has all it needs, far from the wars beyond its ridges. But even here, Stormwind's defenses are stretched thin. In the valley, Marshal McBride and his detachment of the Guard struggle to keep order. So the commanders here take on every able-bodied soul who reaches the gates. They need every one of them.\n\nWolves have come north out of darkened Duskwood. Kobolds have overrun the tunnels of Echo Ridge Mine. And masked thugs of the Defias Brotherhood harass the vineyards. They threaten even the abbey grounds."
     },
@@ -7439,9 +7439,9 @@
     "subzone:ridgepoint-tower": {
       "1": [
         {
-          "duration": 47.36,
-          "file": "Audio/Transport/full_subzone_ridgepoint-tower-6cd4cc79a53bd35fb275/1-0000.mp3",
-          "sha256": "6c8333d21b595680f1e186722fff54b6853be3905fc32d60f97f910bb5f850c0",
+          "duration": 48.248163265306125,
+          "file": "Audio/Transport/full_subzone_ridgepoint-tower-c723b21540ad42cd7907/1-0000.mp3",
+          "sha256": "dda76da73df650afdcee1f6cc632e2f1b2b34ef8ce034a0753d292f24adc3610",
           "start": 0
         }
       ],
@@ -7453,12 +7453,12 @@
         ]
       },
       "fullHash": "e1f046",
-      "generation": "c2d2fadfb7c62178eb80",
+      "generation": "eff378f8e9d9f0895c2c",
       "hash": "1922ec",
       "source": {
-        "duration": 47.386122,
+        "duration": 48.248163,
         "file": null,
-        "sha256": "6cd4cc79a53bd35fb2756d931d849059d34dfdc3c049ab7334d1025167a59f1a"
+        "sha256": "c723b21540ad42cd7907adb8914dc0178ddd9225f6e17c0a316a79c3fb74ef83"
       },
       "text": "Ridgepoint Tower. Stormwind guards watch eastern Elwynn from Ridgepoint Tower, where forest roads lead into neighboring wilderness. The garrison scans the valleys for threats to the kingdom’s farms and settlements. Ridgepoint Tower looks out from high ground at the eastern edge of Stormwind’s authority, with wild country beyond. Its guards watch the routes toward farms and settlements nearer Northshire and Goldshire. They remain alert for danger crossing the border. Threats press in from several directions. East lie the Redridge Mountains, where aggressive gnoll packs and blackrock orc raiders test human defenses. Across the southern river, undead horrors prowl Duskwood’s timberline. Nearby wilderness camps shelter rogue Defias Brotherhood bandits seeking gaps in the guard’s defenses."
     },
@@ -8349,9 +8349,9 @@
     "subzone:stonefield-farm": {
       "1": [
         {
-          "duration": 27.846530612244898,
-          "file": "Audio/Transport/full_subzone_stonefield-farm-ec860221d2decf73891f/1-0000.mp3",
-          "sha256": "b8422524ebc9c74f3ca7ee3b0d889b415505559a5a33e5a5dfa0a09fbb92bdeb",
+          "duration": 29.387755102040817,
+          "file": "Audio/Transport/full_subzone_stonefield-farm-e1fbaf5c4188c09d3b13/1-0000.mp3",
+          "sha256": "be473f97bf00a83217237c7fe953b2bc3b961d66d7175820a9ac2fd672f8f1e4",
           "start": 0
         }
       ],
@@ -8363,12 +8363,12 @@
         ]
       },
       "fullHash": "416b04",
-      "generation": "a2b92d4d8d7ff2242f1c",
+      "generation": "0610feddaa8e0a6c207a",
       "hash": "416b04",
       "source": {
-        "duration": 27.872653,
+        "duration": 29.387755,
         "file": null,
-        "sha256": "ec860221d2decf73891fa2a1b07d948f79aa5005d127611edab3f865c285d16e"
+        "sha256": "e1fbaf5c4188c09d3b136dc4cf58e96f448f383ea5e6305dfeb2508d23f5a4c1"
       },
       "text": "Stonefield Farm. In southern Elwynn Forest, the Stonefield family works its fields while a long feud divides them from the Maclures. South of Goldshire, the Stonefields grow crops for the realm. For decades, they have quarreled with the nearby Maclure Vineyards. Each household accuses the other of theft and trespassing, and even small disputes keep tensions high. Gramma Stonefield, Ma Stonefield, and young Tommy Joe Stonefield make their home here."
     },
@@ -9025,9 +9025,9 @@
     "subzone:three-corners": {
       "1": [
         {
-          "duration": 35.500408163265305,
-          "file": "Audio/Transport/full_subzone_three-corners-aff3e728ab709234b8c2/1-0000.mp3",
-          "sha256": "cc2922f315f3e150943efde3d162e4b695771bea7fd7eaf267a3907ccd848e75",
+          "duration": 36.10122448979592,
+          "file": "Audio/Transport/full_subzone_three-corners-adebf738224856b237c1/1-0000.mp3",
+          "sha256": "a39b61c92b42d3007ad641e0f9ff25d5e5be968a2f793bb8f383bcd6e03983bf",
           "start": 0
         }
       ],
@@ -9039,12 +9039,12 @@
         ]
       },
       "fullHash": "3d62a3",
-      "generation": "d63ef9d9b1b4ec9d37dc",
+      "generation": "e2e7847f5679dc73c810",
       "hash": "3d62a3",
       "source": {
-        "duration": 35.526531,
+        "duration": 36.101224,
         "file": null,
-        "sha256": "aff3e728ab709234b8c26137cafc4a4db2bd8b8002e28dcd0624eaa576d0edeb"
+        "sha256": "adebf738224856b237c1129f9ef9edcd13865ab7b4cb0c5795952a148d9260a9"
       },
       "text": "Three Corners. At Three Corners, guards watch the western edge of the Redridge Mountains. Roads run from there to Goldshire, Lakeshire, and Darkshire, while gnolls threaten travelers and supply wagons. Three roads meet here, linking the southern settlements of Stormwind. Goldshire lies west in Elwynn Forest, Lakeshire northeast in Redridge, and Darkshire south in Duskwood. Stormwind built Tower Watch at the junction, where guards and scouts work to keep the roads clear. Gnolls from Redridge threaten travelers and supply wagons moving between the regions."
     },
@@ -9753,9 +9753,9 @@
     "subzone:westbrook-garrison": {
       "1": [
         {
-          "duration": 63.79102040816327,
-          "file": "Audio/Transport/full_subzone_westbrook-garrison-15574d4f8295d542eefa/1-0000.mp3",
-          "sha256": "8bd737f8092103290b3110a7f091dc13ef453e057f1403bfe138697b528de18a",
+          "duration": 62.798367346938775,
+          "file": "Audio/Transport/full_subzone_westbrook-garrison-78b048408e12689f84aa/1-0000.mp3",
+          "sha256": "ca14cde788096b8e6d94fd168aa85fba255965d7401eb01f061a67e786774d6d",
           "start": 0
         }
       ],
@@ -9767,12 +9767,12 @@
         ]
       },
       "fullHash": "b12354",
-      "generation": "6642c7a6be040d2715f2",
+      "generation": "392ccd665ddb4649885f",
       "hash": "75d6dc",
       "source": {
-        "duration": 63.817143,
+        "duration": 62.798367,
         "file": null,
-        "sha256": "15574d4f8295d542eefad3a9bedc9e82242849279d24104fc97f79c60d2e6deb"
+        "sha256": "78b048408e12689f84aab679b83f61c791ecce0de2594df4dd2de45bef13b27a"
       },
       "text": "Westbrook Garrison. At Westbrook Garrison, Deputy Rainer's few guards watch Elwynn's western road. Gnolls and bandits threaten the border, and the outpost lacks the men and supplies to hold it alone. Westbrook Garrison watches the road where Elwynn Forest thins toward Westfall. Deputy Rainer and a handful of guards patrol the western roads, too few to cover them. Much of the Stormwind Army serves abroad, and indecision in the capital leaves the outpost without needed support.\n\nThieves grow bolder, and Riverpaw gnolls have overrun the southern woods. Marshal Dughan in Goldshire has sent no formal reinforcements, so the guards depend on travelers to help secure the highway. Riverpaw gnolls gather south of Forest's Edge, raiding supply lines and homesteads. The packs follow Hogger, a fearsome chieftain whose forces outnumber the garrison and overwhelm its guards with brute strength.\n\nA high bounty is posted across the outpost. It seeks fighters willing to enter the hills and bring down Hogger before the gnolls press farther east."
     },
@@ -10049,14 +10049,6 @@
       1058,
       1226
     ],
-    "046f51b84ea89dfc748324ea0346774ad2ead803ab8a9708ebb94156b571f97c": [
-      208,
-      416,
-      573,
-      789,
-      989,
-      1141
-    ],
     "051de83d3db0c989f2074a809db739f4010ddff43e340a1f93c36d9057c76069": [
       201,
       468,
@@ -10168,19 +10160,6 @@
       1755,
       1935,
       2153
-    ],
-    "10877a5cfb0f32c82f9c4562e7a7477320bf0c63af77222197ac278aea52c250": [
-      241,
-      478,
-      853,
-      1099,
-      1319,
-      1471,
-      1936,
-      2123,
-      2414,
-      2571,
-      2716
     ],
     "10f3b2512d81d5787aaca00e2949751fb11900d136729c96225c7c5fa758f69d": [
       248,
@@ -10398,17 +10377,6 @@
       1487,
       1663
     ],
-    "22aa5f116c7d4170331179f729e0989fe512e14942391e8c16efc426d76aade2": [
-      267,
-      510,
-      733,
-      949,
-      1359,
-      1539,
-      1742,
-      2040,
-      2251
-    ],
     "230f17a59ab7e75733fcbf1e2057a4889010427114f07ccaefb7f22e0e9ad3eb": [
       225,
       482,
@@ -10440,12 +10408,6 @@
       1867,
       2144
     ],
-    "25bb1abdaceeae6b85857cae324a6a16a0d74610c6d4c4e4819f5be3efbded98": [
-      265,
-      409,
-      593,
-      752
-    ],
     "260562d37b6fb38945c614634a4e5efef20b00e2bd3ebda905d1ce374ac8039a": [
       186,
       470,
@@ -10468,6 +10430,14 @@
       1188,
       1359,
       1643
+    ],
+    "273a85c5805839efa17858e4d30b279adfa874436081bbd692448a9f395913e1": [
+      225,
+      503,
+      683,
+      853,
+      1036,
+      1206
     ],
     "274dae9bbafc33cbff75a3a0dc258bc5d0a02c842acda88b6b7dea285b9535ed": [
       234,
@@ -10592,6 +10562,16 @@
       2421,
       2706
     ],
+    "30304c041f0f579370753d547540dc81265dc7b6e3ae772d621406bcde063687": [
+      290,
+      606,
+      809,
+      1282,
+      1535,
+      1693,
+      1886,
+      2239
+    ],
     "30a4c52e5ed197f195ef338d9a618c32312497008b57f27d5c8dbe5fa6bcfe85": [
       262,
       502
@@ -10602,14 +10582,6 @@
       739,
       1031,
       1280
-    ],
-    "31a60fc06ed8e3796e9e0ecaa9ad1aa00b8fbe14571e5623acc9b823a14cfc15": [
-      193,
-      513,
-      705,
-      906,
-      1092,
-      1258
     ],
     "328a6692ddf8cc856ec7758e909a0121b23d1c1ecfbab68968ab7c9cc8221a38": [
       201,
@@ -10806,6 +10778,12 @@
       764,
       933,
       1093
+    ],
+    "423344dbe0d895bd0e7d6b57a08e2e75df32922945d90c64f196fbd8223afcb3": [
+      191,
+      347,
+      554,
+      790
     ],
     "424b41b6cf0649d7b58c95db905c005c0de1cd1d3a85d6ca704c289b5257c938": [
       312,
@@ -11241,15 +11219,6 @@
       1054,
       1284
     ],
-    "607ea5a1bafcd052d935143973b887d4bc1b5e7e91cbc615bc915fc013b8e1fd": [
-      255,
-      571,
-      713,
-      935,
-      1407,
-      1545,
-      1822
-    ],
     "6189f7e928cd798966f195bc2dd57a07cb45cf1a6733a8c11f43b6c00349b69c": [
       205,
       366,
@@ -11284,6 +11253,19 @@
       1183,
       1406,
       1690
+    ],
+    "63c2e13cc67f4ba68c69f0040babd12d35678c91bc5c85701448a6cec8ceb201": [
+      254,
+      487,
+      845,
+      1091,
+      1313,
+      1467,
+      1625,
+      1792,
+      2094,
+      2392,
+      2670
     ],
     "64e05672b6e238370c52e2ffbc505674db90640e5b5aed765032bf8d65e582e0": [
       220,
@@ -11416,6 +11398,9 @@
       1866,
       2217
     ],
+    "6ab0b18a761523fc7fa2a959eb5486684b0a5817928caa0b9b01852bd89a826b": [
+      1011
+    ],
     "6b535516e6f23f61651eb69583ce0fcc19d99ab4f9d223af423ab77c4b6326e8": [
       215,
       491,
@@ -11435,13 +11420,6 @@
       1138,
       1275,
       1475
-    ],
-    "6c8333d21b595680f1e186722fff54b6853be3905fc32d60f97f910bb5f850c0": [
-      275,
-      449,
-      1041,
-      1395,
-      1569
     ],
     "6c94f87646e80953844c6bfadadfa380c8c8186523b1617110fe4de7bdf1ff81": [
       247,
@@ -11485,6 +11463,15 @@
       1266,
       1419
     ],
+    "6dc50df49907dcfbb5e3f0c3b704c4c5f74718b9d7febaa91869befb1fed08a2": [
+      265,
+      647,
+      857,
+      1033,
+      1400,
+      1636,
+      1888
+    ],
     "6e58b3d59c01d12da6fa800bbfee4260903dfb4159f7a5c41e06c16b3563c39e": [
       275,
       426,
@@ -11504,6 +11491,12 @@
       836,
       1001,
       1286
+    ],
+    "7067b1b12bbbe8ed401bdd2de6eca430e5ec5d94f1a69988ff7a4a9744c888e1": [
+      290,
+      449,
+      637,
+      804
     ],
     "70752d5ca29ba73262fe92764b0cf460fad181a0ecf6b0e3f20dedf7f6eedd9b": [
       267,
@@ -11780,6 +11773,17 @@
       1804,
       2149
     ],
+    "8493e66347ff39f894ba106ee83208485c6f5791c5c590656f1e286907f7f121": [
+      281,
+      432,
+      625,
+      981,
+      1216,
+      1371,
+      1518,
+      1671,
+      1937
+    ],
     "84c7965eaf0fef3317fd7a7694b548fef0e116f41243591c87fa63460be681d0": [
       196,
       395,
@@ -11921,17 +11925,6 @@
       425,
       578
     ],
-    "8bd737f8092103290b3110a7f091dc13ef453e057f1403bfe138697b528de18a": [
-      215,
-      457,
-      856,
-      1132,
-      1313,
-      1472,
-      1620,
-      1835,
-      2113
-    ],
     "8d1d217c363f52aefb0f404351978e13cf40c7aa4e7a23a6202b2b060884932d": [
       288,
       485,
@@ -11965,17 +11958,6 @@
       1851,
       2209,
       2367
-    ],
-    "8eb407d4ed50bbbe8f9764c8d3bda72c3b11ceb139f7cbeb8d235ce3ccc94d5c": [
-      309,
-      617,
-      809,
-      1061,
-      1264,
-      1525,
-      1685,
-      1875,
-      2111
     ],
     "8ede700aeb03cbee12fb6befeba0583f197f00a6ab5d8599a2a070dbb0f3588f": [
       250,
@@ -12215,24 +12197,24 @@
       791,
       991
     ],
-    "a0c52a59aaa171befe9ee9e2d4b2d8c951eb07c7f06c4a9096add05b8702e5e7": [
-      242,
-      565,
-      782,
-      1073,
-      1230,
-      1430,
-      1670,
-      1817,
-      2015,
-      2283,
-      2525
-    ],
     "a11ebb61f2e63da3c79c49f9a015f9ccc941bdb81d8a9ba353be6832e5f5b1b4": [
       235,
       379,
       598,
       906
+    ],
+    "a13eb677b342b4090f0e1dd05f32c4c360669f4172f1a858803369373bdbddf3": [
+      1143,
+      1423,
+      1566,
+      1911
+    ],
+    "a39b61c92b42d3007ad641e0f9ff25d5e5be968a2f793bb8f383bcd6e03983bf": [
+      212,
+      388,
+      654,
+      840,
+      1178
     ],
     "a3f989753792ea46c63f71af47982d4273c9bb734cdef65775f1d6d2791efd3f": [
       200,
@@ -12436,12 +12418,6 @@
       1512,
       1740
     ],
-    "b8422524ebc9c74f3ca7ee3b0d889b415505559a5a33e5a5dfa0a09fbb92bdeb": [
-      300,
-      465,
-      603,
-      840
-    ],
     "b952d3388a21df2efb6588283e1a8d800602abb665f810d8bbe3c2ed58c73444": [
       290
     ],
@@ -12496,6 +12472,12 @@
       892,
       1203,
       1359
+    ],
+    "be473f97bf00a83217237c7fe953b2bc3b961d66d7175820a9ac2fd672f8f1e4": [
+      381,
+      658,
+      792,
+      965
     ],
     "bee6fd1bbc9216d274933e1d2b77cc344bed338682461381ccabcb95dbea06e3": [
       213,
@@ -12635,6 +12617,18 @@
       811,
       1025
     ],
+    "ca14cde788096b8e6d94fd168aa85fba255965d7401eb01f061a67e786774d6d": [
+      224,
+      457,
+      628,
+      805,
+      1073,
+      1265,
+      1427,
+      1569,
+      1776,
+      2051
+    ],
     "ca7ea6df6ff0c8bd5bfea0f9377c3ffe39465d3014210a820fdd500ef3a00bfa": [
       200,
       546,
@@ -12670,12 +12664,6 @@
       521,
       751,
       933
-    ],
-    "cc2922f315f3e150943efde3d162e4b695771bea7fd7eaf267a3907ccd848e75": [
-      489,
-      650,
-      858,
-      1051
     ],
     "cc45f874feffd7b52a08144b9f29dc77adccc949a67c5d50ecb0865d5a1c0da2": [
       388,
@@ -12801,16 +12789,6 @@
       1872,
       2185
     ],
-    "d4e74feba1f61543d5cdc39086c71e8fd544e66c032624b3d5af4d778acef8eb": [
-      237,
-      457,
-      615,
-      824,
-      978,
-      1310,
-      1556,
-      1813
-    ],
     "d66acad66904216536475f01f365b9a60ad3b8cf2aa3b54ae65bebfe947460a6": [
       238,
       440,
@@ -12824,12 +12802,6 @@
       704,
       953,
       1161
-    ],
-    "d77614e2be2a4419b1b6b7ad6bd66645e54de3ef9e1e087c3c8271b916d0de71": [
-      182,
-      328,
-      555,
-      793
     ],
     "d7eded9a86478cc9e1e1b84e3cb95b361d58534b394528a65d2e1f46ee7c8436": [
       251,
@@ -12883,6 +12855,16 @@
       1351,
       1538
     ],
+    "dc96faa60d0a937b254132fe1bee909f41c11bae42320eb755ac1da5cdf511bd": [
+      265,
+      491,
+      696,
+      916,
+      1214,
+      1471,
+      1662,
+      1926
+    ],
     "dce0f98139a774cde19f47a46f3ee0e59ea0d19b83f8230e6290c3752aa07008": [
       259,
       514,
@@ -12911,6 +12893,15 @@
       1204,
       1467,
       1640
+    ],
+    "dda76da73df650afdcee1f6cc632e2f1b2b34ef8ce034a0753d292f24adc3610": [
+      283,
+      474,
+      730,
+      941,
+      1152,
+      1432,
+      1618
     ],
     "de4bca96c8fc001d24502331591ac44566b45101b52a0ca651c97d21b8fa7623": [
       254,
@@ -13170,17 +13161,6 @@
       1478,
       1907
     ],
-    "f2c508d2123e86f082ed43c15f5bfc2ed81e19f16f54c3b749050155e8023e9c": [
-      255,
-      408,
-      601,
-      962,
-      1177,
-      1318,
-      1483,
-      1651,
-      1934
-    ],
     "f30bed08059c2e1301bbd21cd4f6cf62aff803829f8edee2425c4b2364352b99": [
       219,
       453,
@@ -13306,6 +13286,17 @@
       1336,
       1659
     ],
+    "fce93dd3aa8bc035a99a4171e683796b8ddfe8aa018b163b779ecb9080f62f0e": [
+      255,
+      591,
+      814,
+      1133,
+      1303,
+      1728,
+      1870,
+      2222,
+      2445
+    ],
     "fda3e0b2926abf3e6a1c6ae26569196bc9880181b6362d26d57b639d5064e6d5": [
       234,
       522,
@@ -13360,9 +13351,6 @@
     "04252fec86bfc224cc54d3d8a68834b16674f51c06a3db4cf87fe498ec01e571": {
       "455": 1
     },
-    "046f51b84ea89dfc748324ea0346774ad2ead803ab8a9708ebb94156b571f97c": {
-      "416": 1
-    },
     "051de83d3db0c989f2074a809db739f4010ddff43e340a1f93c36d9057c76069": {
       "468": 1
     },
@@ -13411,10 +13399,6 @@
     "10835d8dce3ae3dfc4a3c1d6016e703bb99997ae17ab95217c260da68d523006": {
       "1427": 2,
       "516": 1
-    },
-    "10877a5cfb0f32c82f9c4562e7a7477320bf0c63af77222197ac278aea52c250": {
-      "1936": 2,
-      "853": 1
     },
     "10f3b2512d81d5787aaca00e2949751fb11900d136729c96225c7c5fa758f69d": {
       "2070": 2,
@@ -13502,10 +13486,6 @@
       "1234": 2,
       "570": 1
     },
-    "22aa5f116c7d4170331179f729e0989fe512e14942391e8c16efc426d76aade2": {
-      "1359": 2,
-      "510": 1
-    },
     "230f17a59ab7e75733fcbf1e2057a4889010427114f07ccaefb7f22e0e9ad3eb": {
       "1224": 2,
       "482": 1
@@ -13517,9 +13497,6 @@
     "25a5b847a698f68fce87b1da18804be57481ba7789dc1e55ebab7a294c0f3120": {
       "1400": 2,
       "464": 1
-    },
-    "25bb1abdaceeae6b85857cae324a6a16a0d74610c6d4c4e4819f5be3efbded98": {
-      "265": 1
     },
     "260562d37b6fb38945c614634a4e5efef20b00e2bd3ebda905d1ce374ac8039a": {
       "1653": 2,
@@ -13578,14 +13555,15 @@
       "1907": 2,
       "435": 1
     },
+    "30304c041f0f579370753d547540dc81265dc7b6e3ae772d621406bcde063687": {
+      "1693": 2,
+      "606": 1
+    },
     "30a4c52e5ed197f195ef338d9a618c32312497008b57f27d5c8dbe5fa6bcfe85": {
       "262": 1
     },
     "30d936fcdc0a45ecf4cf516cfaa840e7e784e85bbc6595b71448727d787362a4": {
       "501": 1
-    },
-    "31a60fc06ed8e3796e9e0ecaa9ad1aa00b8fbe14571e5623acc9b823a14cfc15": {
-      "513": 1
     },
     "328a6692ddf8cc856ec7758e909a0121b23d1c1ecfbab68968ab7c9cc8221a38": {
       "666": 1
@@ -13831,10 +13809,6 @@
       "334": 1,
       "895": 2
     },
-    "607ea5a1bafcd052d935143973b887d4bc1b5e7e91cbc615bc915fc013b8e1fd": {
-      "1407": 2,
-      "571": 1
-    },
     "6189f7e928cd798966f195bc2dd57a07cb45cf1a6733a8c11f43b6c00349b69c": {
       "366": 1
     },
@@ -13907,10 +13881,6 @@
     "6b7870afb1054e68b8f1c051948b8cabbf578ebdc5e7640f2c8f6b3323cba9b0": {
       "1138": 2,
       "492": 1
-    },
-    "6c8333d21b595680f1e186722fff54b6853be3905fc32d60f97f910bb5f850c0": {
-      "1041": 2,
-      "449": 1
     },
     "6c94f87646e80953844c6bfadadfa380c8c8186523b1617110fe4de7bdf1ff81": {
       "1613": 2,
@@ -14118,10 +14088,6 @@
     "8b704bcb5553a93b0d913e8ee6fa6123c02831fe32bfd100c837ac53053ef525": {
       "425": 1
     },
-    "8bd737f8092103290b3110a7f091dc13ef453e057f1403bfe138697b528de18a": {
-      "1620": 2,
-      "457": 1
-    },
     "8d1d217c363f52aefb0f404351978e13cf40c7aa4e7a23a6202b2b060884932d": {
       "485": 1
     },
@@ -14135,10 +14101,6 @@
     "8e877fece4dbe51f4b4b60ef15c1e99b7331f5ca2916caa35f9868b9cd1ab8a3": {
       "1628": 2,
       "443": 1
-    },
-    "8eb407d4ed50bbbe8f9764c8d3bda72c3b11ceb139f7cbeb8d235ce3ccc94d5c": {
-      "1685": 2,
-      "617": 1
     },
     "8ede700aeb03cbee12fb6befeba0583f197f00a6ab5d8599a2a070dbb0f3588f": {
       "613": 1
@@ -14243,10 +14205,6 @@
     "9fde1f916e3d38262714fb7f240f2fa73d3dcf73e24fdf7ed5d9aa1282c043e1": {
       "365": 1
     },
-    "a0c52a59aaa171befe9ee9e2d4b2d8c951eb07c7f06c4a9096add05b8702e5e7": {
-      "1670": 2,
-      "782": 1
-    },
     "a11ebb61f2e63da3c79c49f9a015f9ccc941bdb81d8a9ba353be6832e5f5b1b4": {
       "379": 1
     },
@@ -14333,9 +14291,6 @@
     "b77c0ac02afd433b7892cbac1551a1c1f4c82dc3919c356240ae90e53aab89dd": {
       "1269": 2,
       "423": 1
-    },
-    "b8422524ebc9c74f3ca7ee3b0d889b415505559a5a33e5a5dfa0a09fbb92bdeb": {
-      "300": 1
     },
     "b9d5cef3a348c42107ea999e14b43900460a9926a6589770331ad0f79a78ccb0": {
       "376": 1
@@ -14429,9 +14384,6 @@
     "cbd112dab36d076d46989f5ad0804de5265d6e3e1cc3e041a8fd780b3ddd746f": {
       "521": 1
     },
-    "cc2922f315f3e150943efde3d162e4b695771bea7fd7eaf267a3907ccd848e75": {
-      "489": 1
-    },
     "cc45f874feffd7b52a08144b9f29dc77adccc949a67c5d50ecb0865d5a1c0da2": {
       "1011": 2,
       "388": 1
@@ -14488,18 +14440,11 @@
       "1336": 2,
       "480": 1
     },
-    "d4e74feba1f61543d5cdc39086c71e8fd544e66c032624b3d5af4d778acef8eb": {
-      "1310": 2,
-      "457": 1
-    },
     "d66acad66904216536475f01f365b9a60ad3b8cf2aa3b54ae65bebfe947460a6": {
       "584": 1
     },
     "d6c3fe829946d65a075f38ab50bb458fc5bd3157c61edc5606c84900c21ceaf4": {
       "491": 1
-    },
-    "d77614e2be2a4419b1b6b7ad6bd66645e54de3ef9e1e087c3c8271b916d0de71": {
-      "328": 1
     },
     "d7eded9a86478cc9e1e1b84e3cb95b361d58534b394528a65d2e1f46ee7c8436": {
       "1422": 2,
@@ -14638,10 +14583,6 @@
     "f1a803203c1cc6c1a624af17fa4b6252e004fd8192a6cba8e002563b2d2600e7": {
       "1478": 2,
       "569": 1
-    },
-    "f2c508d2123e86f082ed43c15f5bfc2ed81e19f16f54c3b749050155e8023e9c": {
-      "1318": 2,
-      "408": 1
     },
     "f30bed08059c2e1301bbd21cd4f6cf62aff803829f8edee2425c4b2364352b99": {
       "453": 1

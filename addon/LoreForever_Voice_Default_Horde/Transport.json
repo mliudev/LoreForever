@@ -835,9 +835,9 @@
     "npc:mangletooth": {
       "1": [
         {
-          "duration": 48.90122448979592,
-          "file": "Audio/Transport/full_npc_mangletooth-d8f398e8af13facd002f/1-0000.mp3",
-          "sha256": "f534e32da6d956c0bf309f64aa2aae60d3bdc123493419a45185fb401d03b934",
+          "duration": 46.49795918367347,
+          "file": "Audio/Transport/full_npc_mangletooth-a60e411c78bca55de256/1-0000.mp3",
+          "sha256": "b03d6be9c2ea1da7c38fdb9e9bd11587c531645c9fa5bbd2b8113e1b2df6429c",
           "start": 0
         }
       ],
@@ -849,12 +849,12 @@
         ]
       },
       "fullHash": "f19f94",
-      "generation": "fa5a073de7a4efaeb708",
+      "generation": "67d5b308f779b7042e8a",
       "hash": "89fc01",
       "source": {
-        "duration": 48.927347,
+        "duration": 46.497959,
         "file": null,
-        "sha256": "d8f398e8af13facd002f1de20971deed2ed172dd5981d00268fb4407dfe50a08"
+        "sha256": "a60e411c78bca55de256ab79d204cbe51aa6e67c12f151f9f6c1178080c5cb77"
       },
       "text": "Mangletooth. At Camp Taurajo, Mangletooth bargains from a Horde cage while execution awaits. He offers knowledge of his rivals and the ancient lore of Agamaggan in exchange for help. Tauren hunters and orc sentries hold Mangletooth in a cage at Camp Taurajo. The captured Razormane quilboar awaits execution, yet still tries to sway his captors and the Horde visitors who come to him. He urges them to strike his tribe’s enemies, hoping to prove his worth or win his freedom. Mangletooth knows the religious history of his people. During the ancient War of the Ancients, Agamaggan’s spilled blood gave rise to the Barrens’ massive thorns. Mangletooth gathers red crystalline Blood Shards from fallen Bristlebacks and channels their lingering divine power, granting ancient blessings to those who help him."
     },
@@ -1719,9 +1719,9 @@
     "subzone:bandarion-keep": {
       "1": [
         {
-          "duration": 52.114285714285714,
-          "file": "Audio/Transport/full_subzone_bandarion-keep-c9df574b67a10c0be195/1-0000.mp3",
-          "sha256": "248dcb53f170150a7ac186a531c4ba328716fb41afdcd685a4b8904d4ecd715b",
+          "duration": 51.14775510204082,
+          "file": "Audio/Transport/full_subzone_bandarion-keep-6317a5f78f4fa58252d0/1-0000.mp3",
+          "sha256": "332990ebc22bbb64fee52ff0f18b6c898e4cd712a772f91ee22a8cc971280bca",
           "start": 0
         }
       ],
@@ -1733,12 +1733,12 @@
         ]
       },
       "fullHash": "0a01e3",
-      "generation": "de557947fc9f7ddb3469",
+      "generation": "dffd99692f6fe89f9d4b",
       "hash": "99d14c",
       "source": {
-        "duration": 52.140408,
+        "duration": 51.147755,
         "file": null,
-        "sha256": "c9df574b67a10c0be19557a4a272ae74310d110e81a3419297c200b028642319"
+        "sha256": "6317a5f78f4fa58252d0c6ae2f4f29bf3fecddc4db9793caeb2709a323a5673f"
       },
       "text": "Bandarion Keep. At Bandarion Keep, defenders watch the coast and the woodland for danger. Near the Whispering Forest, the outpost bears Garek Bandarion’s name and is bound to Tyr's Watch. Bandarion Keep guards western Tirisfal Glades near the Whispering Forest. Named for Garek Bandarion, the stronghold is closely bound to Tyr's Watch. Quartermaster Jorin Croge works to keep the garrison supplied. Yet the keep lies far from the courtyards of the Undercity. Threats press Bandarion Keep from several directions. Vile Fin murlocs raid the nearby waters, while the Scarlet Crusade tests the defenders in skirmishes. Mindless Scourge thralls wander through the gloom. Some paladins have struggled to accept their unlife as Forsaken and have fallen to madness. They turn their weapons against their own kindred."
     },
@@ -1771,9 +1771,9 @@
     "subzone:blackthorn-ridge": {
       "1": [
         {
-          "duration": 37.25061224489796,
-          "file": "Audio/Transport/full_subzone_blackthorn-ridge-bda2bb355a92c2c54c2f/1-0000.mp3",
-          "sha256": "e1dc3c65f69e5cec049cb0bd80eb70a16ea21f05246a391ebccbe1be8e5b35c4",
+          "duration": 37.06775510204082,
+          "file": "Audio/Transport/full_subzone_blackthorn-ridge-afb5bd114d76f0a9f003/1-0000.mp3",
+          "sha256": "d6691b475a6d9c418b88e6560773c04babfac4a63521e0cebf45be40524458f2",
           "start": 0
         }
       ],
@@ -1785,12 +1785,12 @@
         ]
       },
       "fullHash": "868e30",
-      "generation": "7930baea6d7231fa772c",
+      "generation": "e9bc2a5aa8d5d4788b9b",
       "hash": "868e30",
       "source": {
-        "duration": 37.276735,
+        "duration": 37.067755,
         "file": null,
-        "sha256": "bda2bb355a92c2c54c2fa92e1a7ca9e70e5cd9fe07573d05562cca00ae5e484a"
+        "sha256": "afb5bd114d76f0a9f003cd3179adaf53c7391453521cbd3fc1c7a88ae723cc88"
       },
       "text": "Blackthorn Ridge. At Blackthorn Ridge, Razormane quilboar guard the southern Barrens north of Razorfen Kraul. Brine, an orc shaman, watches from a camp above a pool of unusually pure mountain water. Beside Razorfen Kraul, Blackthorn Ridge rises through thickets of sharp briars. The Razormane quilboar claim these slopes as ancestral ground. They use the thorn barriers to ambush outsiders and skirmish across the southern Barrens. Travelers still seek the ridge despite the danger, drawn by Brine, a hermit orc shaman. His camp overlooks a spring famed across Kalimdor for its clear, spiritually pure water."
     },
@@ -1901,9 +1901,9 @@
     "subzone:bramblescar": {
       "1": [
         {
-          "duration": 44.14693877551021,
-          "file": "Audio/Transport/full_subzone_bramblescar-2ba01fe164583df6a0b6/1-0000.mp3",
-          "sha256": "a7ae793e9784f5a767ef059507cba6a3c57f599420ecf83668d23ddf6c36a3cf",
+          "duration": 42.57959183673469,
+          "file": "Audio/Transport/full_subzone_bramblescar-8091e4718a91113440ce/1-0000.mp3",
+          "sha256": "f669678063586ff1d998e0325b54203950533c4db1b99e78ce0acb5d0bb50d87",
           "start": 0
         }
       ],
@@ -1915,12 +1915,12 @@
         ]
       },
       "fullHash": "4f2f09",
-      "generation": "cc3d0c11e88a1ad6c47b",
+      "generation": "3628350010b5dc4c0dd1",
       "hash": "319923",
       "source": {
-        "duration": 44.173061,
+        "duration": 42.579592,
         "file": null,
-        "sha256": "2ba01fe164583df6a0b6f0e3746e2f6ecd70cf90e5f5b88a77416b069fb2f1b5"
+        "sha256": "8091e4718a91113440ceab168ac908c4d6f197e7a4ffb77b82b93012458e1115"
       },
       "text": "Bramblescar. Across the southern Barrens, Razormane warriors at Bramblescar fight the Bristleback across the Gold Road. Thick brambles guard their settlement. In the southern Barrens, sharp briars form a redoubt for the Razormane quilboar. Their thick thorns keep casual wanderers away. The tribe guards its territory fiercely and treats outsiders as intruders on land blessed by their ancient boar gods. Across the Gold Road from Bramblescar lies Agama'gor, the Bristleback encampment. The two tribes wage an unrelenting war for dominion over the southern Barrens. Razormane warriors fight Horde travelers along the highway and turn back Bristleback raiding parties. So the tribes remain in constant, violent conflict."
     },
@@ -3019,9 +3019,9 @@
     "subzone:grol-dom-farm": {
       "1": [
         {
-          "duration": 49.266938775510205,
-          "file": "Audio/Transport/full_subzone_grol-dom-farm-0f57a125cce7ad5d7574/1-0000.mp3",
-          "sha256": "1ef1e3804d36fdd2b595c954bed08435e0abf5b10746d12c66d7e236eb28e3b6",
+          "duration": 48.9795918367347,
+          "file": "Audio/Transport/full_subzone_grol-dom-farm-40217e858fee5538258e/1-0000.mp3",
+          "sha256": "829ea7e8ed05166fa05961631aa935b2e9dd0631e85e42ae7feb48260ab3d07d",
           "start": 0
         }
       ],
@@ -3033,12 +3033,12 @@
         ]
       },
       "fullHash": "17d68f",
-      "generation": "29fb4ea48a040fb3e6f4",
+      "generation": "425b5bef448810e026d2",
       "hash": "113550",
       "source": {
-        "duration": 49.293061,
+        "duration": 48.979592,
         "file": null,
-        "sha256": "0f57a125cce7ad5d75743520483b04f6d2fe117113f3454e8ac90ba6115e3d3e"
+        "sha256": "40217e858fee5538258e652f5731c6cadd64849ca24fb589cb07ce3d81f068de"
       },
       "text": "Grol'dom Farm. Along the road from Durotar to the Crossroads, Grol'dom Farm raises swine in the northern Barrens. Kranal Fiss and his family work the homestead under constant harassment from aggressive quilboars. After Durotar was settled, the Horde began farming the dry Barrens at Grol'dom Farm. Kranal Fiss and his children tend the homestead and raise pigs. Razormane quilboar raiders prowl the nearby ridges, making life here lonely and rugged. Still, the farm feeds the emerging orcish nation. Kranal Fiss tends pigs at Grol'dom Farm and knows the elemental rites. He guides young shaman through their trials, so Horde initiates on the spiritual path hold the farm in quiet regard. Seekers traveling west from Orgrimmar are regularly sent here to learn how to commune with the primal spirits of fire."
     },
@@ -3513,9 +3513,9 @@
     "subzone:north-coast": {
       "1": [
         {
-          "duration": 49.47591836734694,
-          "file": "Audio/Transport/full_subzone_north-coast-e94de68e1cd17d39c296/1-0000.mp3",
-          "sha256": "2eade596f70e79179d9ce56089cd9c13ece643545c3d0c4628d8825417a462d1",
+          "duration": 46.88979591836735,
+          "file": "Audio/Transport/full_subzone_north-coast-7dba38c6113f0d4d5b2b/1-0000.mp3",
+          "sha256": "c8b94f1ee39359c3d4026ab92cd9b1b48bdf3c6cf76891a2a938483a51ad37e2",
           "start": 0
         }
       ],
@@ -3527,12 +3527,12 @@
         ]
       },
       "fullHash": "19188d",
-      "generation": "586c0698f288703f2b7a",
+      "generation": "6d354caf25a0e10055eb",
       "hash": "6d0ae2",
       "source": {
-        "duration": 49.502041,
+        "duration": 46.889796,
         "file": null,
-        "sha256": "e94de68e1cd17d39c29698febfc4f94d14f603e61df6d3b10fd8e1892c72859a"
+        "sha256": "7dba38c6113f0d4d5b2b456817b5e09c8c2d518b89c05d5c691000b3084b3239"
       },
       "text": "North Coast. Fog hangs over North Coast, where blight and murlocs rule the shore. Cold sands mark Tirisfal Glades' northern edge, strewn with rotting sea life. Before the Third War, North Coast's waters and stony beaches made a peaceful northern boundary for Lordaeron. Then the Plague of Undeath swept across the continent, and its blight seeped down the bluffs to poison the coast. The waters turned cold and murky. Now giant sea creatures wash ashore and rot beneath the lingering fog. With Lordaeron shattered, the Forsaken focus on Brill and the Capital City. Along the surf, the Vile Fin tribe keeps huts and uses nearby shallows as spawning grounds. Ravenous murlocs gather there, among them Deeb and growing tadpoles. They fiercely guard the tideline against surface-dwellers."
     },
@@ -3903,9 +3903,9 @@
     "subzone:razormane-grounds": {
       "1": [
         {
-          "duration": 34.63836734693878,
-          "file": "Audio/Transport/full_subzone_razormane-grounds-cc2f2178ca569d7b59ab/1-0000.mp3",
-          "sha256": "cd975f89c3c17c4afaebe43b661a3287df42061cd3fbec2d6da8305e847de5ed",
+          "duration": 33.462857142857146,
+          "file": "Audio/Transport/full_subzone_razormane-grounds-8bb11b01fd155ccfcf78/1-0000.mp3",
+          "sha256": "c2acdf0894b76cdbeaf8c17aae76459659d2d11b90079a476cd17cbe2e59e588",
           "start": 0
         }
       ],
@@ -3917,12 +3917,12 @@
         ]
       },
       "fullHash": "040147",
-      "generation": "0d543e826de187e48533",
+      "generation": "113d82301de35bcad105",
       "hash": "040147",
       "source": {
-        "duration": 34.638367,
+        "duration": 33.462857,
         "file": null,
-        "sha256": "cc2f2178ca569d7b59abebdc73a0ed7115c45bd7078ba51bad1f4811051ffa41"
+        "sha256": "8bb11b01fd155ccfcf782eafc52c2be87f774dff96533d6772bb14cd7b6a5ee1"
       },
       "text": "Razormane Grounds. Razormane quilboar press east from the Barrens into central Durotar. Their thorn-choked camp marks the front of a long struggle with Orgrimmar's orcs. At the Southfury River, Razormane Grounds threaten travelers beneath central Durotar's red cliffs. Here the quilboar have spread farther east from the Barrens than anywhere else. Captain Flat Tusk of the Battleguard and Geolord Mottle lead raids on nearby orc settlements and passing supply lines. Patrols leave Razor Hill and nearby outposts, yet the Razormane replenish their ranks among the briars faster than the Horde can clear them."
     },
@@ -4631,9 +4631,9 @@
     "subzone:thorn-hill": {
       "1": [
         {
-          "duration": 32.39183673469388,
-          "file": "Audio/Transport/full_subzone_thorn-hill-fc1185b444492df25d85/1-0000.mp3",
-          "sha256": "fa73217e9cbbdef4225deec511c480d987aea07937a03b2cefe222331d0a26ce",
+          "duration": 31.94775510204082,
+          "file": "Audio/Transport/full_subzone_thorn-hill-be16fb7b798a30203506/1-0000.mp3",
+          "sha256": "29d9a2e1dea5ce9d1fd10d242123f13a8a3847d2a0da5c9e66a4b38d18457c63",
           "start": 0
         }
       ],
@@ -4645,12 +4645,12 @@
         ]
       },
       "fullHash": "9b0774",
-      "generation": "bc3c8e6897a641af526f",
+      "generation": "aa032eb5d2e497837ce3",
       "hash": "9b0774",
       "source": {
-        "duration": 32.417959,
+        "duration": 31.947755,
         "file": null,
-        "sha256": "fc1185b444492df25d85024132f8c7a574d57e32a815a62d849a20c313b07826"
+        "sha256": "be16fb7b798a30203506936d08d0fb7dfeeccb1666c95b340b56fdf8973950e6"
       },
       "text": "Thorn Hill. At Thorn Hill, Razormane warbands strike Horde supply lines east of the Crossroads. Their fortified camp holds the high ridges between Durotar and the Barrens interior. Thorn Hill commands the roads between Durotar and the Crossroads. Razormane hunters gather here with trained wolves and geomancers who shape the earth. Elder Mystic Razorsnout guides the quilboar, and their attacks on Horde supply caravans grow bolder. So the camp, close to vital routes, is one of the Crossroads guards' most immediate threats in the central savanna."
     },
@@ -4995,9 +4995,9 @@
     "subzone:whispering-forest": {
       "1": [
         {
-          "duration": 39.993469387755106,
-          "file": "Audio/Transport/full_subzone_whispering-forest-d254a0cb67aa78c9b9b1/1-0000.mp3",
-          "sha256": "0e71528c74dd236c92531fda481426756822b4497074ce24a5fff1bf18806f0d",
+          "duration": 38.63510204081633,
+          "file": "Audio/Transport/full_subzone_whispering-forest-602c4136dd5ea131c4bf/1-0000.mp3",
+          "sha256": "d20a93a8fbdcb9d3e82cd777bc7320211438a00154d7d60af8fff284518b86cb",
           "start": 0
         }
       ],
@@ -5009,12 +5009,12 @@
         ]
       },
       "fullHash": "20ef26",
-      "generation": "eb9caee6ad650a06d6f2",
+      "generation": "ce4437f75d151faceb8a",
       "hash": "20ef26",
       "source": {
-        "duration": 39.993469,
+        "duration": 38.661224,
         "file": null,
-        "sha256": "d254a0cb67aa78c9b9b16d98dacc6326ce58718b26cf3d44010717ed97319ab2"
+        "sha256": "602c4136dd5ea131c4bf30ad2526253869b841204e131a7868b6ed84563dfe40"
       },
       "text": "Whispering Forest. Behind Deathknell, the Whispering Forest lies quiet beneath western Tirisfal’s cliffs. Its lake, giant mushroom ring, and uncanny wildlife break the stillness, while corruption stirs beneath the soil. Beyond Northface Rock and Bandarion Keep, the Whispering Forest feels far from plague-touched Tirisfal. Afflicted deer and roaming predators share its woods with a tranquil lake. Nearby, giant mushrooms form a ring beneath a hovering cloud of mist, glowing with uncanny energy. The ghostly Knight of Mourning wanders among them, bound by oath. Natural magic lingers here in land scarred by the Scourge."
     },
@@ -5295,13 +5295,6 @@
       564,
       1123
     ],
-    "0e71528c74dd236c92531fda481426756822b4497074ce24a5fff1bf18806f0d": [
-      234,
-      521,
-      795,
-      971,
-      1235
-    ],
     "0f54aa7adce30b5617eec1e4cb3683056aa5419df3e5bf856770c6c2f9aeabd9": [
       947,
       1370
@@ -5435,15 +5428,6 @@
       927,
       1201
     ],
-    "1ef1e3804d36fdd2b595c954bed08435e0abf5b10746d12c66d7e236eb28e3b6": [
-      262,
-      480,
-      693,
-      1043,
-      1194,
-      1376,
-      1634
-    ],
     "1f0a45914c06a3e2ccb82fa0167781e7c535c161d6fb66b461e3344865af490f": [
       627,
       1013,
@@ -5490,16 +5474,6 @@
     ],
     "246f0d65dd1a04826c2180bda0cc442fae38fd78643e16e8963ccd797c17986c": [
       256
-    ],
-    "248dcb53f170150a7ac186a531c4ba328716fb41afdcd685a4b8904d4ecd715b": [
-      187,
-      467,
-      648,
-      855,
-      1003,
-      1154,
-      1293,
-      1553
     ],
     "256c1f9f778be10a4e017e7c014c63673a7b122fdba3a46710dd3d6505c13dec": [
       628,
@@ -5565,6 +5539,10 @@
       646,
       1218
     ],
+    "29d9a2e1dea5ce9d1fd10d242123f13a8a3847d2a0da5c9e66a4b38d18457c63": [
+      538,
+      959
+    ],
     "2b524ff94de7e1a6c3d588ec369c7f55291d567e1fa75ed7e1596376208e6108": [
       228,
       482,
@@ -5586,15 +5564,6 @@
       2318,
       2570,
       2837
-    ],
-    "2eade596f70e79179d9ce56089cd9c13ece643545c3d0c4628d8825417a462d1": [
-      170,
-      395,
-      642,
-      884,
-      1174,
-      1360,
-      1587
     ],
     "2efcaea742a509e6be7a0673469abdb7a1aba6e9b942d9789fa4b1a71ad52501": [
       399,
@@ -5662,6 +5631,16 @@
       423,
       648,
       903
+    ],
+    "332990ebc22bbb64fee52ff0f18b6c898e4cd712a772f91ee22a8cc971280bca": [
+      193,
+      469,
+      655,
+      860,
+      1003,
+      1143,
+      1286,
+      1548
     ],
     "33b70d430b1f29bc32fd52f1eff18c236db5140d433641905a928c4d9a6c73d6": [
       556,
@@ -6323,6 +6302,16 @@
       1016,
       1363
     ],
+    "829ea7e8ed05166fa05961631aa935b2e9dd0631e85e42ae7feb48260ab3d07d": [
+      240,
+      461,
+      662,
+      811,
+      1023,
+      1169,
+      1350,
+      1637
+    ],
     "83228b867d19aabe91901cd5de4e29123bef7f4135d763e0c01507b106a30ca7": [
       152,
       384,
@@ -6608,13 +6597,6 @@
       1517,
       1810
     ],
-    "a7ae793e9784f5a767ef059507cba6a3c57f599420ecf83668d23ddf6c36a3cf": [
-      346,
-      536,
-      938,
-      1075,
-      1311
-    ],
     "a91c9b076903b761ee8d5d786f66283e26ae59e3e46e5ee52f30226a8eff7b96": [
       308,
       928,
@@ -6661,6 +6643,15 @@
       404,
       810,
       1229
+    ],
+    "b03d6be9c2ea1da7c38fdb9e9bd11587c531645c9fa5bbd2b8113e1b2df6429c": [
+      226,
+      428,
+      622,
+      884,
+      1072,
+      1207,
+      1442
     ],
     "b0ef5bd7ed547fdfb87132232855b0fd9e6272ab518cdf4366c2da3a8a15584f": [
       627,
@@ -6774,6 +6765,12 @@
       1466,
       1635
     ],
+    "c2acdf0894b76cdbeaf8c17aae76459659d2d11b90079a476cd17cbe2e59e588": [
+      159,
+      340,
+      576,
+      982
+    ],
     "c39b99e5bb34a8f347571ad6395797254ddaf36d189cca3fa7414f60075e91d0": [
       245,
       441,
@@ -6832,6 +6829,14 @@
       354,
       999,
       1475
+    ],
+    "c8b94f1ee39359c3d4026ab92cd9b1b48bdf3c6cf76891a2a938483a51ad37e2": [
+      159,
+      595,
+      844,
+      1100,
+      1288,
+      1519
     ],
     "c8c6b125e95af321efc6da27d869d5ddc47bf82aa0b6b48c2a0f84d01eae6e16": [
       202,
@@ -6906,13 +6911,6 @@
       971,
       1318
     ],
-    "cd975f89c3c17c4afaebe43b661a3287df42061cd3fbec2d6da8305e847de5ed": [
-      177,
-      366,
-      592,
-      753,
-      1024
-    ],
     "ce15d908f066d1cf12d683eee4603e0295bafe0452f3b47e4d562ed34a950c10": [
       271,
       579,
@@ -6936,6 +6934,11 @@
       2132,
       2353,
       2487
+    ],
+    "d20a93a8fbdcb9d3e82cd777bc7320211438a00154d7d60af8fff284518b86cb": [
+      501,
+      925,
+      1175
     ],
     "d2c9c345a1586cf59dae55527d5e70e5d0354846d926275b6216523fc7fb621e": [
       172,
@@ -6990,6 +6993,12 @@
       680,
       848,
       1134
+    ],
+    "d6691b475a6d9c418b88e6560773c04babfac4a63521e0cebf45be40524458f2": [
+      233,
+      655,
+      980,
+      1210
     ],
     "d699a978ddd316bdbe63f0af3589fdc15b7e1106bebf90f2ccd8a28cfc3f8bbc": [
       203,
@@ -7050,14 +7059,6 @@
       317,
       1133,
       1569
-    ],
-    "e1dc3c65f69e5cec049cb0bd80eb70a16ea21f05246a391ebccbe1be8e5b35c4": [
-      237,
-      476,
-      686,
-      825,
-      1001,
-      1211
     ],
     "e20f17456fb0397469d2136b2053e64ece77fbfef70ff61baf7fc6aded335e31": [
       399,
@@ -7167,19 +7168,17 @@
       583,
       944
     ],
-    "f534e32da6d956c0bf309f64aa2aae60d3bdc123493419a45185fb401d03b934": [
-      223,
-      439,
-      628,
-      905,
-      1122,
-      1260,
-      1510
-    ],
     "f5d58f27223d280c2ce395eee26a3bdb81ee3375105f4c96ed4def61a2561f07": [
       258,
       417,
       662
+    ],
+    "f669678063586ff1d998e0325b54203950533c4db1b99e78ce0acb5d0bb50d87": [
+      248,
+      521,
+      913,
+      1104,
+      1287
     ],
     "f66b586dd0a419c1859278c575e3639b4d5db4ed09a81823f09ba493e3e0c9c3": [
       213,
@@ -7236,11 +7235,6 @@
       1101,
       1239,
       1383
-    ],
-    "fa73217e9cbbdef4225deec511c480d987aea07937a03b2cefe222331d0a26ce": [
-      430,
-      577,
-      987
     ],
     "fb30a87c9451d049c5f9ad679a7b03613300a1621a3b1445606fe4752861b2de": [
       198,
@@ -7345,9 +7339,6 @@
     "0d8a8996ace6c385e0f4d2a341b25c36d103ba93085cc668fe37705fd36977f2": {
       "457": 1
     },
-    "0e71528c74dd236c92531fda481426756822b4497074ce24a5fff1bf18806f0d": {
-      "521": 1
-    },
     "10e75a0305a44972541a51cdce80e5c5e1dca5893dd452788192a502092fff79": {
       "466": 1
     },
@@ -7380,10 +7371,6 @@
       "1000": 2,
       "301": 1
     },
-    "1ef1e3804d36fdd2b595c954bed08435e0abf5b10746d12c66d7e236eb28e3b6": {
-      "1194": 2,
-      "480": 1
-    },
     "22b9942ce93d9e534e085872804b97674f5e4b8083e4642f855faf48b83c92d4": {
       "1164": 2,
       "442": 1
@@ -7399,10 +7386,6 @@
     },
     "246f0d65dd1a04826c2180bda0cc442fae38fd78643e16e8963ccd797c17986c": {
       "256": 1
-    },
-    "248dcb53f170150a7ac186a531c4ba328716fb41afdcd685a4b8904d4ecd715b": {
-      "1154": 2,
-      "467": 1
     },
     "258d13cebc852e8dc0ee85fbef48a56a773912d65a317426d3b36c1c85ce6138": {
       "558": 1
@@ -7424,10 +7407,6 @@
       "2093": 3,
       "501": 1,
       "997": 2
-    },
-    "2eade596f70e79179d9ce56089cd9c13ece643545c3d0c4628d8825417a462d1": {
-      "1174": 2,
-      "395": 1
     },
     "3079f4e2a8be66b2a45d91f26d007a5f220737db5a691113d7469074176adadd": {
       "364": 1
@@ -7726,10 +7705,6 @@
       "1317": 2,
       "312": 1
     },
-    "a7ae793e9784f5a767ef059507cba6a3c57f599420ecf83668d23ddf6c36a3cf": {
-      "346": 1,
-      "938": 2
-    },
     "a9a398888a103e33c75b3c44a2307cb19b8adbb82019a7490ed235ea2407a642": {
       "172": 1
     },
@@ -7810,9 +7785,6 @@
       "1570": 2,
       "354": 1
     },
-    "cd975f89c3c17c4afaebe43b661a3287df42061cd3fbec2d6da8305e847de5ed": {
-      "366": 1
-    },
     "ce15d908f066d1cf12d683eee4603e0295bafe0452f3b47e4d562ed34a950c10": {
       "1547": 2,
       "579": 1
@@ -7848,9 +7820,6 @@
       "1676": 3,
       "408": 1,
       "956": 2
-    },
-    "e1dc3c65f69e5cec049cb0bd80eb70a16ea21f05246a391ebccbe1be8e5b35c4": {
-      "476": 1
     },
     "e20f17456fb0397469d2136b2053e64ece77fbfef70ff61baf7fc6aded335e31": {
       "399": 1,
@@ -7894,10 +7863,6 @@
       "346": 1,
       "944": 2
     },
-    "f534e32da6d956c0bf309f64aa2aae60d3bdc123493419a45185fb401d03b934": {
-      "1122": 3,
-      "439": 1
-    },
     "f5d58f27223d280c2ce395eee26a3bdb81ee3375105f4c96ed4def61a2561f07": {
       "258": 1
     },
@@ -7918,9 +7883,6 @@
     },
     "fa281d883d619b7f37e3f00b1d8a48978c3cf945eba1a6a5a78a00f9d9981a81": {
       "452": 1
-    },
-    "fa73217e9cbbdef4225deec511c480d987aea07937a03b2cefe222331d0a26ce": {
-      "430": 1
     },
     "fb30a87c9451d049c5f9ad679a7b03613300a1621a3b1445606fe4752861b2de": {
       "1967": 2,
@@ -8026,6 +7988,42 @@
     {
       "file": "Audio/Transport/full_subzone_war-quarter-f40b63f07c76f56b0063/1-0000.mp3",
       "sha256": "3cfba770623a83851525c2ebd00372ca153a22103874e90c04b198587e9bc77b"
+    },
+    {
+      "file": "Audio/Transport/full_npc_mangletooth-d8f398e8af13facd002f/1-0000.mp3",
+      "sha256": "f534e32da6d956c0bf309f64aa2aae60d3bdc123493419a45185fb401d03b934"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_bandarion-keep-c9df574b67a10c0be195/1-0000.mp3",
+      "sha256": "248dcb53f170150a7ac186a531c4ba328716fb41afdcd685a4b8904d4ecd715b"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_blackthorn-ridge-bda2bb355a92c2c54c2f/1-0000.mp3",
+      "sha256": "e1dc3c65f69e5cec049cb0bd80eb70a16ea21f05246a391ebccbe1be8e5b35c4"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_bramblescar-2ba01fe164583df6a0b6/1-0000.mp3",
+      "sha256": "a7ae793e9784f5a767ef059507cba6a3c57f599420ecf83668d23ddf6c36a3cf"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_grol-dom-farm-0f57a125cce7ad5d7574/1-0000.mp3",
+      "sha256": "1ef1e3804d36fdd2b595c954bed08435e0abf5b10746d12c66d7e236eb28e3b6"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_north-coast-e94de68e1cd17d39c296/1-0000.mp3",
+      "sha256": "2eade596f70e79179d9ce56089cd9c13ece643545c3d0c4628d8825417a462d1"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_razormane-grounds-cc2f2178ca569d7b59ab/1-0000.mp3",
+      "sha256": "cd975f89c3c17c4afaebe43b661a3287df42061cd3fbec2d6da8305e847de5ed"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_thorn-hill-fc1185b444492df25d85/1-0000.mp3",
+      "sha256": "fa73217e9cbbdef4225deec511c480d987aea07937a03b2cefe222331d0a26ce"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_whispering-forest-d254a0cb67aa78c9b9b1/1-0000.mp3",
+      "sha256": "0e71528c74dd236c92531fda481426756822b4497074ce24a5fff1bf18806f0d"
     }
   ],
   "version": 1

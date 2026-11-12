@@ -1,0 +1,78 @@
+{
+ "key": "quest:98240",
+ "type": "quest",
+ "name": "Crimson Crate Delivery",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98240
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A customer named Howin Kindfeather has ordered the crimson whelps. You are asked to carry his crate from Menethil Harbor to a spot off the eastern road.",
+ "sections": [
+  {
+   "title": "A Customer Awaits",
+   "body": "The order is packed for Howin Kindfeather, whose gryphon carried a letter into Menethil Harbor. You are to take the Crimson Crate to him off the road east of town, a little beyond Whelgar's Excavation Site. Howin is waiting for the delivery.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who ordered the crimson crate?",
+   "aliases": [
+    "who's Howin",
+    "crate customer",
+    "howin order"
+   ],
+   "answer": "Howin Kindfeather placed the order for the crimson whelps."
+  },
+  {
+   "q": "Where is Howin Kindfeather?",
+   "aliases": [
+    "where's Howin",
+    "Howin location",
+    "find Howin"
+   ],
+   "answer": "Howin is off the road east of Menethil Harbor, a little beyond Whelgar's Excavation Site."
+  },
+  {
+   "q": "What is in the crate?",
+   "aliases": [
+    "crate contents",
+    "what's inside",
+    "crimson crate"
+   ],
+   "answer": "The crate is for the crimson whelps."
+  },
+  {
+   "q": "How did Howin place the order?",
+   "aliases": [
+    "gryphon letter",
+    "how order arrived",
+    "Howin's letter"
+   ],
+   "answer": "Howin sent his gryphon into Menethil Harbor with a letter for the order."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crimson crate",
+  "crimson whelps",
+  "delivery",
+  "gryphon",
+  "howin kindfeather",
+  "menethil harbor",
+  "whelgar's excavation site"
+ ],
+ "related": [
+  "subzone:menethil-harbor",
+  "subzone:whelgar-s-excavation-site"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Crimson Crate Delivery"
+ ]
+}

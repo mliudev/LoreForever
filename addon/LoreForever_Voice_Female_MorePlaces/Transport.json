@@ -9051,9 +9051,9 @@
     "subzone:thelgen-rock": {
       "1": [
         {
-          "duration": 24.973061224489797,
-          "file": "Audio/Transport/full_subzone_thelgen-rock-72d766c1092a67981d37/1-0000.mp3",
-          "sha256": "72fdc26fd7f7ea97fb6f5892e7663f56219ce59d53c425161a782c31b37a0ae4",
+          "duration": 24.99918367346939,
+          "file": "Audio/Transport/full_subzone_thelgen-rock-5b904dd85256b0823f5c/1-0000.mp3",
+          "sha256": "1d23d799187d5ca6a23d603d37398498850b7c455a8232dad06cbff69ea47f41",
           "start": 0
         }
       ],
@@ -9065,12 +9065,12 @@
         ]
       },
       "fullHash": "5bcb90",
-      "generation": "ba83f09bb31e92acdec1",
+      "generation": "befd4e218c7e9b85259e",
       "hash": "5bcb90",
       "source": {
         "duration": 24.999184,
         "file": null,
-        "sha256": "72d766c1092a67981d37ee3979f6271b79f687af0da9e5ad3b5356db7308e494"
+        "sha256": "5b904dd85256b0823f5c52f25f4098924f4e4aa7c4a7903f845d71dbfecd335b"
       },
       "text": "Thelgen Rock. In the Wetlands, Thelgen Rock’s caverns draw miners after volatile Incendicite Ore. Venomous spiders fill the passages. Thelgen Rock cuts into the mountain wall between the Wetlands and Loch Modan. Aggressive spiders crowd its web-choked passages, and their venom makes every step perilous. Still, miners and adventurers brave the tunnels for the valuable Incendicite Ore in the rock."
     },
@@ -11278,6 +11278,10 @@
       2492,
       2804
     ],
+    "1d23d799187d5ca6a23d603d37398498850b7c455a8232dad06cbff69ea47f41": [
+      241,
+      515
+    ],
     "1d2f41d2c8dc816cbfbdc68d9a9b4bf244745e360e90b1b2a4dd6b54153afed5": [
       216,
       584,
@@ -12680,11 +12684,6 @@
       2178,
       2360,
       2499
-    ],
-    "72fdc26fd7f7ea97fb6f5892e7663f56219ce59d53c425161a782c31b37a0ae4": [
-      341,
-      520,
-      742
     ],
     "73b9ecd9e5b79a15d157105fa96c557c3247bb7b162765174980d8d16e5b04a0": [
       396
@@ -15386,9 +15385,6 @@
       "1784": 2,
       "623": 1
     },
-    "72fdc26fd7f7ea97fb6f5892e7663f56219ce59d53c425161a782c31b37a0ae4": {
-      "341": 1
-    },
     "753d1ed434cdd4bdd9c4394235ce3a2646ea0e70123caf81d179852efa2d995a": {
       "373": 1
     },
@@ -16150,5 +16146,11 @@
     }
   },
   "pack": "LoreForever_Voice_Female_MorePlaces",
+  "retired": [
+    {
+      "file": "Audio/Transport/full_subzone_thelgen-rock-72d766c1092a67981d37/1-0000.mp3",
+      "sha256": "72fdc26fd7f7ea97fb6f5892e7663f56219ce59d53c425161a782c31b37a0ae4"
+    }
+  ],
   "version": 1
 }

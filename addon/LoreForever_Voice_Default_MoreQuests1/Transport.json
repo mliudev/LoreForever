@@ -1875,9 +1875,9 @@
     "quest:1503": {
       "1": [
         {
-          "duration": 50.70367346938776,
-          "file": "Audio/Transport/full_quest_1503-8fce260f4efc957a0fb8/1-0000.mp3",
-          "sha256": "741457356d1d650892c1cfbf63d9bc486dc308158ce1485e4ae2547f03a14436",
+          "duration": 49.44979591836735,
+          "file": "Audio/Transport/full_quest_1503-3641bace7cb5794aab25/1-0000.mp3",
+          "sha256": "b478e0b016422f4427d24c9ca3c392246a657ad75d23ef20b16b1112802e7efd",
           "start": 0
         }
       ],
@@ -1889,12 +1889,12 @@
         ]
       },
       "fullHash": "4d60e9",
-      "generation": "3a90b1a88af7e31fde47",
+      "generation": "05f684ef35c465153017",
       "hash": "4d60e9",
       "source": {
-        "duration": 50.729796,
+        "duration": 49.449796,
         "file": null,
-        "sha256": "8fce260f4efc957a0fb8b1f971e0414bf70df101dfb4ed235cee34ead5534c5b"
+        "sha256": "3641bace7cb5794aab25598a25d0d7deeb2c6b09edd140106ff50be433a8b3a8"
       },
       "text": "Forged Steel. In the eastern Barrens, Thun'grim Firegaze waits for the steel stolen from his camp. He will forge a weapon for the warrior who brings it back. Thun'grim Firegaze keeps a smithy in the eastern Barrens, far from Orgrimmar. Years at the forge have dimmed his sight. The nearby Razormane quilboar used that weakness to steal an iron chest from his camp. Some snorted and made noise on one side to draw his gaze while others slipped in from the other and carried off his forged steel bars. Thun'grim is angry at the theft, but doubts the Razormanes can use the steel. Quilboar craft with stone, tusks and thorny roots, not refined metal. The heavy chest remains near a broken wagon in their camp, untouched and useless to them. For Thun'grim, its steel is the stock he needs to forge weapons for young Horde warriors."
     },
@@ -2161,9 +2161,9 @@
     "quest:1525": {
       "1": [
         {
-          "duration": 44.329795918367346,
-          "file": "Audio/Transport/full_quest_1525-be0dcf671861888b7a79/1-0000.mp3",
-          "sha256": "ce46e31eeaecdcc121d6a8407c83b588aaf6d9860da842f19cf4ca72a5396de5",
+          "duration": 44.564897959183675,
+          "file": "Audio/Transport/full_quest_1525-7f5f4413afb1825937ed/1-0000.mp3",
+          "sha256": "d9fccfd06659e38c83444510f79af3601e8d67bb4f6be1280acca8d504d80ba4",
           "start": 0
         }
       ],
@@ -2175,12 +2175,12 @@
         ]
       },
       "fullHash": "f57efc",
-      "generation": "7423845f98ee8eb093ba",
+      "generation": "635518a8e37e0f0900ab",
       "hash": "f57efc",
       "source": {
-        "duration": 44.355918,
+        "duration": 44.59102,
         "file": null,
-        "sha256": "be0dcf671861888b7a794d7a0cc21daaaafaf848c08c424af6d28ea461314978"
+        "sha256": "7f5f4413afb1825937ed9f6fc2a976ca40e67d004bc6998e15d51ad5fe6b2816"
       },
       "text": "Call of Fire. Telf Joolam sends you through Durotar and the eastern Barrens to gather what he needs for a Fire Sapta. The draught prepares an initiate to see and speak with fire spirits. A Fire Sapta opens a shaman’s senses to the Eternal Flame. Like the draught for earth, it lets you see and speak with spirits hidden from mortal sight. Telf Joolam sends you across Durotar and into the eastern Barrens for ingredients bound to heat and flame. Razormane quilboar spellcasters in the eastern Barrens carry fire tar, made in their earthy rituals. Burning Blade cultists carry the other ingredient in Dustwind Cave, in the ravines northeast of Razor Hill. They use fire for destruction and demonic chaos, yet the reagents in their pouches have a natural tie to the element."
     },
@@ -10923,9 +10923,9 @@
     "quest:5041": {
       "1": [
         {
-          "duration": 44.695510204081636,
-          "file": "Audio/Transport/full_quest_5041-3a24cac46090ba81858a/1-0000.mp3",
-          "sha256": "89ef017d6bf85551212aad08dacb50393d937967ae37f53326f136edac5898fe",
+          "duration": 42.31836734693878,
+          "file": "Audio/Transport/full_quest_5041-fbec1a582342dec2377a/1-0000.mp3",
+          "sha256": "59ddcff95cc4afe25f7401231b102b4c0bbd19b398873d5eb613c4352b3993f5",
           "start": 0
         }
       ],
@@ -10937,12 +10937,12 @@
         ]
       },
       "fullHash": "f9f40f",
-      "generation": "50354fcfbf4427744d39",
+      "generation": "74fd7e7e9331fe053909",
       "hash": "f9f40f",
       "source": {
-        "duration": 44.721633,
+        "duration": 42.34449,
         "file": null,
-        "sha256": "3a24cac46090ba81858a641da2ac7c1a4973d1cb395bc497d083f64dea1270be"
+        "sha256": "fbec1a582342dec2377a7bcb746dff3bfc6db437494dc166ac6b4a03c5ac778f"
       },
       "text": "Supplies for the Crossroads. Thork needs supplies back at the Crossroads after Razormane quilboar raids. The stolen crates carry provisions the outpost needs as conflict spreads across the Barrens. Thork needs provisions returned to the Crossroads after a supply caravan is ambushed. The outpost links Horde travel, trade, and defense across the Barrens. Its cargo comes from Durotar and Mulgore. Without those goods, shortages of provisions, tools, and arms threaten daily life in the harsh wilderness. Razormane quilboar have taken the crates. These swine-beasts contest Horde control across central Kalimdor. They hauled the cargo to their thorn-bush camps and keep it there. Thork sends trusted warriors into Razormane territory to recover supplies for the Horde."
     },
@@ -16097,9 +16097,9 @@
     "quest:819": {
       "1": [
         {
-          "duration": 51.27836734693878,
-          "file": "Audio/Transport/full_quest_819-d6b6bb94ee137cf40718/1-0000.mp3",
-          "sha256": "fbfc2a0f8b814d1c7d1cfae1d8b83ea5853282c65dd9785144d3918a068e49b5",
+          "duration": 50.72979591836735,
+          "file": "Audio/Transport/full_quest_819-97e686fa826048bc8b2f/1-0000.mp3",
+          "sha256": "d4dbdb815c3ce688ed04e64c1c2edb4050e076431ddac151546e8e25d1f5752e",
           "start": 0
         }
       ],
@@ -16111,12 +16111,12 @@
         ]
       },
       "fullHash": "205705",
-      "generation": "d26346e7454303b3973e",
+      "generation": "76bd53192be3e6bf108b",
       "hash": "205705",
       "source": {
-        "duration": 51.30449,
+        "duration": 50.729796,
         "file": null,
-        "sha256": "d6b6bb94ee137cf407180da0e7a8c4acf53db79e26c321aa05a0e992b1861f69"
+        "sha256": "97e686fa826048bc8b2f10bc5bacefe3ebf1641937567bfc3cc4624280825ff5"
       },
       "text": "Chen's Empty Keg. In the Barrens, Chen Stormstout’s marked keg lies abandoned. Its discovery recalls the brewmaster’s old ties to Durotar. Across the dry Barrens, travelers sometimes find an abandoned wooden barrel. Razormane quilboar and Kolkar centaur leave ordinary casks behind, but this one is carefully made and bears a plaque: “Chen Stormstout - May your spirit be raised and always raise your spirits.” It is an odd relic beneath Kalimdor’s sun. To learn how it came here, you seek someone who knows brewing. In Ratchet, Brewmaster Drohn recognizes the keg’s craft and names Chen Stormstout as its owner. Chen is a wandering Pandaren who traveled with Rexxar during the battles that secured Durotar for Thrall’s Horde. Years have passed since Chen walked Kalimdor’s red earth. Yet seasoned brewers still remember his recipes and wandering spirit."
     },
@@ -17631,9 +17631,9 @@
     "quest:871": {
       "1": [
         {
-          "duration": 57.67836734693878,
-          "file": "Audio/Transport/full_quest_871-1ba755c52748d9c8b895/1-0000.mp3",
-          "sha256": "931daadf24642faf62ec1495d097fcd88625d75036b9b0abb659ebeb697c2f6a",
+          "duration": 56.163265306122454,
+          "file": "Audio/Transport/full_quest_871-52b4f75bf268980cc06f/1-0000.mp3",
+          "sha256": "27b842cd5636fb69a7eafd9541ca937907c156a750914d3280816f6ca06a09b9",
           "start": 0
         }
       ],
@@ -17645,12 +17645,12 @@
         ]
       },
       "fullHash": "880beb",
-      "generation": "8ca9900329454288629f",
+      "generation": "2d354fdccbd158a4ca77",
       "hash": "880beb",
       "source": {
-        "duration": 57.70449,
+        "duration": 56.163265,
         "file": null,
-        "sha256": "1ba755c52748d9c8b8953e9c14bacc51c1fc1640c8cda06fbc5421d33eed8d87"
+        "sha256": "52b4f75bf268980cc06f17dd37b57af8ec5da2b65312012a0370d3f169cc44b7"
       },
       "text": "Disrupt the Attacks. Thork needs the Crossroads defended as Razormane quilboar cut its supply roads. Their ambushes have stopped caravans from Durotar, leaving the outpost short on food and gear. You strike at the quilboar while scouts search for the one directing their warband. The Crossroads guards a key junction for Horde traffic through central Kalimdor. Freight wagons and caravans carry food, iron, and equipment west from Durotar, and the outpost depends on those supplies. Razormane ambushes along the northeast trails have stopped the deliveries. Stores are running low, and Thork cannot wait for peaceful talks. Thork sends you to the quilboar bramble dens northeast of the settlement, before they can assault the town walls. Striking their Water Seekers, Thornweavers, and Hunters weakens the Razormane scouting perimeter and deprives raiding parties of magical and logistical support. These skirmishes buy time while Horde trackers search the brush for the one organizing the raids."
     },
@@ -17709,9 +17709,9 @@
     "quest:872": {
       "1": [
         {
-          "duration": 54.17795918367347,
-          "file": "Audio/Transport/full_quest_872-f886d566875f5f0dd232/1-0000.mp3",
-          "sha256": "584c68e56416bb5c84e42a246c5cebf17f037a22dfdfa98eac6c64c645ceddac",
+          "duration": 55.693061224489796,
+          "file": "Audio/Transport/full_quest_872-24f8a6794843b39e22f0/1-0000.mp3",
+          "sha256": "4fb0ee93f18b54e79367f71926e7eccfad965a32c1a516efb652c53505276ef2",
           "start": 0
         }
       ],
@@ -17723,12 +17723,12 @@
         ]
       },
       "fullHash": "0c7210",
-      "generation": "0978f8613f1840bd1f62",
+      "generation": "4873cce81d1472567b92",
       "hash": "0c7210",
       "source": {
-        "duration": 54.204082,
+        "duration": 55.693061,
         "file": null,
-        "sha256": "f886d566875f5f0dd232dc422c05fadd03ba3c4f275920e2b2fbc1f483e1e61f"
+        "sha256": "24f8a6794843b39e22f046657a6d046e39e21126a43a5aa01fd80a6f2d12a368"
       },
       "text": "The Disruption Ends. Along the Horde road, Thork orders a strike to end the Razormane raids. Kreenig Snarlsnout leads the attacks from the northern Barrens, and his death is meant to break the warband's hold on the route between Durotar and the Crossroads. The road between Durotar and the Crossroads carries provisions and reinforcements through the northern Barrens. Razormane quilboar ambushes threaten that passage. Scout reports name Kreenig Snarlsnout as their leader. His raiding party organizes the attacks, so Thork orders a strike against him to break the warband's unity and secure the road. Kreenig's war party holds craggy hills northeast of the Crossroads. Hardy Razormane Defenders and geomancers who manipulate the arid earth shield his position. Thork orders a breach through their guard and a strike against Kreenig in his redoubt. His tusk will prove the leader's death and warn the plains that the Horde will not accept attacks on its lifelines."
     },
@@ -23299,6 +23299,15 @@
       1444,
       1616
     ],
+    "27b842cd5636fb69a7eafd9541ca937907c156a750914d3280816f6ca06a09b9": [
+      190,
+      418,
+      1034,
+      1205,
+      1367,
+      1608,
+      1954
+    ],
     "27eac1a022f73084dda484ec5ab223abc1de207b1b814e8320ccde7546a013f4": [
       240,
       470,
@@ -24602,6 +24611,16 @@
       1509,
       1757
     ],
+    "4fb0ee93f18b54e79367f71926e7eccfad965a32c1a516efb652c53505276ef2": [
+      202,
+      337,
+      544,
+      755,
+      1015,
+      1336,
+      1491,
+      1895
+    ],
     "4fff48e84f1cba73536427dde90ff4fddb31bd217fab9dc268082ae5a0d688bc": [
       588,
       1006
@@ -24877,16 +24896,6 @@
       424,
       880
     ],
-    "584c68e56416bb5c84e42a246c5cebf17f037a22dfdfa98eac6c64c645ceddac": [
-      191,
-      553,
-      767,
-      903,
-      1325,
-      1483,
-      1681,
-      1848
-    ],
     "58aad92f839e9a6c50823ea8412d6556da0fbd5c8fdc6a7406ea7b00a39428d4": [
       448,
       612,
@@ -24960,6 +24969,14 @@
       993,
       1199,
       1453
+    ],
+    "59ddcff95cc4afe25f7401231b102b4c0bbd19b398873d5eb613c4352b3993f5": [
+      174,
+      379,
+      560,
+      1046,
+      1307,
+      1441
     ],
     "59eb6a871f80cf61874052d1f9c40569ad8c4664ff36dc196da10467af003fcf": [
       175,
@@ -25907,14 +25924,6 @@
       1142,
       1366
     ],
-    "741457356d1d650892c1cfbf63d9bc486dc308158ce1485e4ae2547f03a14436": [
-      338,
-      482,
-      631,
-      1154,
-      1347,
-      1733
-    ],
     "7425b1b4c2b6029dfc2315dc6c9a0b353602534e24c30104fa80ebe9f11b778b": [
       624,
       907
@@ -26709,15 +26718,6 @@
       2200,
       2373
     ],
-    "89ef017d6bf85551212aad08dacb50393d937967ae37f53326f136edac5898fe": [
-      174,
-      395,
-      592,
-      748,
-      1087,
-      1358,
-      1497
-    ],
     "89ff8a73b119d86516d7eef9e688351f92b24bb9e78392e5c1583f35e7ba1e8e": [
       427,
       887,
@@ -26952,17 +26952,6 @@
       462,
       814,
       1140
-    ],
-    "931daadf24642faf62ec1495d097fcd88625d75036b9b0abb659ebeb697c2f6a": [
-      190,
-      417,
-      593,
-      775,
-      1069,
-      1229,
-      1400,
-      1641,
-      1999
     ],
     "93810715b7c7f8a693fde5fb3225d76b63ad4d91e693adf129e6f18f8b3c0094": [
       243,
@@ -28153,6 +28142,14 @@
       1123,
       1319
     ],
+    "b478e0b016422f4427d24c9ca3c392246a657ad75d23ef20b16b1112802e7efd": [
+      211,
+      521,
+      818,
+      1102,
+      1298,
+      1709
+    ],
     "b49c7425b507f363f5fa94ec321d499021f40393e6ab00977d1315b4035ec90d": [
       173,
       357,
@@ -28984,13 +28981,6 @@
       801,
       942
     ],
-    "ce46e31eeaecdcc121d6a8407c83b588aaf6d9860da842f19cf4ca72a5396de5": [
-      229,
-      384,
-      532,
-      725,
-      968
-    ],
     "ce47fa47f7b10f85a098d363f97276e900d0daa5d346f2cd36e1acc3d7c70100": [
       210,
       554,
@@ -29149,6 +29139,16 @@
       1705,
       2004
     ],
+    "d4dbdb815c3ce688ed04e64c1c2edb4050e076431ddac151546e8e25d1f5752e": [
+      169,
+      320,
+      754,
+      917,
+      1133,
+      1396,
+      1635,
+      1779
+    ],
     "d54da1b5c1dbcb3ac9b3d183c1df115dbb9279ee35e711d0750ca5880792b47a": [
       292,
       601,
@@ -29298,6 +29298,13 @@
       747,
       1473,
       1717
+    ],
+    "d9fccfd06659e38c83444510f79af3601e8d67bb4f6be1280acca8d504d80ba4": [
+      231,
+      389,
+      945,
+      1196,
+      1454
     ],
     "d9fe323daebae5cedd9ff86bbf35e0600920fcf678926558367b48ced67a4274": [
       240,
@@ -30410,16 +30417,6 @@
     "fbc3553ad539d41e1141c84a953ecba4c2a282d278960ad82266c3dbedf0bd25": [
       473,
       839
-    ],
-    "fbfc2a0f8b814d1c7d1cfae1d8b83ea5853282c65dd9785144d3918a068e49b5": [
-      158,
-      333,
-      513,
-      785,
-      953,
-      1191,
-      1441,
-      1675
     ],
     "fc6055938bfb5535bd41beb2114e4626c941fe59c934a43c1af88af548335ed8": [
       245,
@@ -31571,10 +31568,6 @@
       "1187": 2,
       "462": 1
     },
-    "584c68e56416bb5c84e42a246c5cebf17f037a22dfdfa98eac6c64c645ceddac": {
-      "1325": 2,
-      "553": 1
-    },
     "58aad92f839e9a6c50823ea8412d6556da0fbd5c8fdc6a7406ea7b00a39428d4": {
       "1113": 2,
       "448": 1
@@ -31982,10 +31975,6 @@
       "366": 1,
       "955": 2
     },
-    "741457356d1d650892c1cfbf63d9bc486dc308158ce1485e4ae2547f03a14436": {
-      "1154": 2,
-      "338": 1
-    },
     "744774992b4f730023e6e5c721f8df0b29992b578166b4f01bf6ae8772663720": {
       "1289": 2,
       "418": 1
@@ -32283,10 +32272,6 @@
       "1652": 2,
       "421": 1
     },
-    "89ef017d6bf85551212aad08dacb50393d937967ae37f53326f136edac5898fe": {
-      "1087": 2,
-      "395": 1
-    },
     "89ff8a73b119d86516d7eef9e688351f92b24bb9e78392e5c1583f35e7ba1e8e": {
       "1171": 2,
       "427": 1
@@ -32381,10 +32366,6 @@
     "92ade2ec5bb65257a698941e2208eeb8de9ab976d64bf49c5d9bd0947a88c18e": {
       "322": 1,
       "814": 2
-    },
-    "931daadf24642faf62ec1495d097fcd88625d75036b9b0abb659ebeb697c2f6a": {
-      "1400": 2,
-      "593": 1
     },
     "93810715b7c7f8a693fde5fb3225d76b63ad4d91e693adf129e6f18f8b3c0094": {
       "428": 1
@@ -33126,10 +33107,6 @@
     "ce30ebc99bc853380a6310be2879301e9248ae19815535cb0fe1fb62108cc40c": {
       "537": 1
     },
-    "ce46e31eeaecdcc121d6a8407c83b588aaf6d9860da842f19cf4ca72a5396de5": {
-      "384": 1,
-      "968": 2
-    },
     "ce47fa47f7b10f85a098d363f97276e900d0daa5d346f2cd36e1acc3d7c70100": {
       "1294": 2,
       "554": 1
@@ -33667,10 +33644,6 @@
     "fb796da879e7c8407ae4e84efeee777854c83ae7933b69be9480c93429ad33fb": {
       "415": 1
     },
-    "fbfc2a0f8b814d1c7d1cfae1d8b83ea5853282c65dd9785144d3918a068e49b5": {
-      "1191": 2,
-      "333": 1
-    },
     "fc6055938bfb5535bd41beb2114e4626c941fe59c934a43c1af88af548335ed8": {
       "1091": 2,
       "516": 1
@@ -33838,6 +33811,30 @@
     {
       "file": "Audio/Transport/full_quest_99134-f73b8f4892e2f91bc080/1-0000.mp3",
       "sha256": "eaf849a271cc6a42299dc7bb8e73d0dbb5a3f02194637bde2f49ad323936fe38"
+    },
+    {
+      "file": "Audio/Transport/full_quest_1503-8fce260f4efc957a0fb8/1-0000.mp3",
+      "sha256": "741457356d1d650892c1cfbf63d9bc486dc308158ce1485e4ae2547f03a14436"
+    },
+    {
+      "file": "Audio/Transport/full_quest_1525-be0dcf671861888b7a79/1-0000.mp3",
+      "sha256": "ce46e31eeaecdcc121d6a8407c83b588aaf6d9860da842f19cf4ca72a5396de5"
+    },
+    {
+      "file": "Audio/Transport/full_quest_5041-3a24cac46090ba81858a/1-0000.mp3",
+      "sha256": "89ef017d6bf85551212aad08dacb50393d937967ae37f53326f136edac5898fe"
+    },
+    {
+      "file": "Audio/Transport/full_quest_819-d6b6bb94ee137cf40718/1-0000.mp3",
+      "sha256": "fbfc2a0f8b814d1c7d1cfae1d8b83ea5853282c65dd9785144d3918a068e49b5"
+    },
+    {
+      "file": "Audio/Transport/full_quest_871-1ba755c52748d9c8b895/1-0000.mp3",
+      "sha256": "931daadf24642faf62ec1495d097fcd88625d75036b9b0abb659ebeb697c2f6a"
+    },
+    {
+      "file": "Audio/Transport/full_quest_872-f886d566875f5f0dd232/1-0000.mp3",
+      "sha256": "584c68e56416bb5c84e42a246c5cebf17f037a22dfdfa98eac6c64c645ceddac"
     }
   ],
   "version": 1

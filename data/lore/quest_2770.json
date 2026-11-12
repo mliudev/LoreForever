@@ -1,0 +1,66 @@
+{
+ "key": "quest:2770",
+ "type": "quest",
+ "name": "Gahz'rilla",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2770
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Wizzle Brassbolts asks you to bring Gahz'rilla's Electrified Scale to him in the Shimmering Flats. The scale is what he seeks from Gahz'rilla.",
+ "sections": [
+  {
+   "title": "Wizzle's Request",
+   "body": "In the Shimmering Flats, Wizzle Brassbolts is waiting for Gahz'rilla's Electrified Scale. You are asked to bring the scale to him, and his request rests on what you can bring back from Gahz'rilla.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Wizzle want from Gahz'rilla?",
+   "aliases": [
+    "gahz'rilla scale",
+    "wizzle scale",
+    "what to bring wizzle"
+   ],
+   "answer": "Wizzle Brassbolts wants Gahz'rilla's Electrified Scale brought to him in the Shimmering Flats."
+  },
+  {
+   "q": "Who is asking for the scale?",
+   "aliases": [
+    "who wants it",
+    "wizzle brassbolts",
+    "who asked"
+   ],
+   "answer": "Wizzle Brassbolts asks you to bring him Gahz'rilla's Electrified Scale."
+  },
+  {
+   "q": "Where do I bring the scale?",
+   "aliases": [
+    "where to take it",
+    "where is wizzle",
+    "scale location"
+   ],
+   "answer": "Bring Gahz'rilla's Electrified Scale to Wizzle Brassbolts in the Shimmering Flats."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "electrified scale",
+  "gahz'rilla",
+  "shimmering flats",
+  "wizzle brassbolts"
+ ],
+ "related": [
+  "npc:wizzle-brassbolts",
+  "subzone:shimmering-flats"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Gahz'rilla"
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "key": "quest:94974",
+ "type": "quest",
+ "name": "Key Ingredients",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94974
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Kreza Darkthorn needs leather and iron for a key moulding. You gather the materials while she keeps the embers hot.",
+ "sections": [
+  {
+   "title": "Materials for the Moulding",
+   "body": "Kreza Darkthorn has a worn moulding that may be used to fashion a key. You bring her four Thick Leather and twelve Iron Bar while she keeps the embers hot. The moulding should hold, and Kreza is ready to see what can be done.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Kreza need?",
+   "aliases": [
+    "what materials",
+    "key ingredients",
+    "kreza needs what"
+   ],
+   "answer": "Kreza asks you to bring four Thick Leather and twelve Iron Bar."
+  },
+  {
+   "q": "What are the materials for?",
+   "aliases": [
+    "why leather and iron",
+    "key for what",
+    "moulding materials"
+   ],
+   "answer": "The materials are for fashioning a key from a crude, worn moulding."
+  },
+  {
+   "q": "Who is keeping the embers hot?",
+   "aliases": [
+    "who tends embers",
+    "kreza embers",
+    "embers hot"
+   ],
+   "answer": "Kreza Darkthorn says she will keep the embers hot while you gather the materials."
+  },
+  {
+   "q": "What does Kreza say about the moulding?",
+   "aliases": [
+    "moulding condition",
+    "is moulding usable",
+    "key mould"
+   ],
+   "answer": "Kreza says the moulding is crude and worn, but may still be used to fashion a key."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "embers",
+  "iron bar",
+  "key",
+  "key ingredients",
+  "kreza darkthorn",
+  "moulding",
+  "thick leather"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Key Ingredients"
+ ]
+}

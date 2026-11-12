@@ -14823,9 +14823,9 @@
     "quest:5042": {
       "1": [
         {
-          "duration": 61.59673469387755,
-          "file": "Audio/Transport/full_quest_5042-9067512b8ae5ab66dd65/1-0000.mp3",
-          "sha256": "dbc7d7721358130f3920b604293a6bed49eaf0a4000e668cfab817083bc19159",
+          "duration": 62.798367346938775,
+          "file": "Audio/Transport/full_quest_5042-9dab279337b3e741351b/1-0000.mp3",
+          "sha256": "4d5de56aa50907f8bd9c772a9f780290a56b2e6823675b70bc93dd3c75e5767a",
           "start": 0
         }
       ],
@@ -14837,12 +14837,12 @@
         ]
       },
       "fullHash": "4df610",
-      "generation": "0a8a6f9268c7f042b7df",
+      "generation": "c70a7c34db7a05a32a02",
       "hash": "4df610",
       "source": {
-        "duration": 61.622857,
+        "duration": 62.798367,
         "file": null,
-        "sha256": "9067512b8ae5ab66dd65a27b50c314b2ac4a9eed4e4b59878a6859f3241f15f1"
+        "sha256": "9dab279337b3e741351bcd063aa96b594584b357420fce8b9928849d7cf29192"
       },
       "text": "Agamaggan's Strength. In Camp Taurajo, Mangletooth offers Horde travelers strength drawn from Blood Shards. The captive Razormane shaman honors the ancient boar demigod Agamaggan and hates the rival Bristleback tribe. Quilboar honor Agamaggan, an ancient boar demigod. They say his spilled blood formed the red Blood Shards scattered across the Barrens. The crystals are sacred to them, and their power strengthens the fighters who stand at the front. Mangletooth, an elder Razormane shaman held captive in Camp Taurajo, offers that strength to Horde champions. He says your foes will cower before you as they do before the mightiest Razormane champions. Mangletooth offers his strength out of spite. Orcs and tauren captured and caged the old quilboar, whose Razormane tribe is at war with the rival Bristleback. He cannot break his chains and slaughter them himself, so he trades Agamaggan's gifts for help against them. Those who destroy Bristleback tribes and take the sacred Blood Shards from their lands earn his blessing."
     },
@@ -21323,9 +21323,9 @@
     "quest:837": {
       "1": [
         {
-          "duration": 71.47102040816327,
-          "file": "Audio/Transport/full_quest_837-c6165a42c5e25d2719a9/1-0000.mp3",
-          "sha256": "e75b7aa0f5de8b39c8c74308a65c225c4a3077ffff8b216bf9164c65bc3f4600",
+          "duration": 67.1869387755102,
+          "file": "Audio/Transport/full_quest_837-674742252b569919c326/1-0000.mp3",
+          "sha256": "d93127af97b307e73ee84cef9721f1c59844f01608ef091cccc05522e3582602",
           "start": 0
         }
       ],
@@ -21337,12 +21337,12 @@
         ]
       },
       "fullHash": "492c21",
-      "generation": "293b5c6db48a47c64722",
+      "generation": "67805de6ddb1a23ae7ef",
       "hash": "492c21",
       "source": {
-        "duration": 71.497143,
+        "duration": 67.186939,
         "file": null,
-        "sha256": "c6165a42c5e25d2719a926bdd256c161f038008b9d29138135f9d8086e80819b"
+        "sha256": "674742252b569919c3265c44e6152a57b9e490d4f8f84d933c6b6ef7a32d6e88"
       },
       "text": "Encroachment. At Razor Hill in central Durotar, Gar'Thok sends you west against Razormane camps. Their fortified dens still threaten the young orc homeland. When Thrall brought the orcs to Kalimdor and founded Durotar, the Razormane already ranged across much of the harsh, arid land. These aggressive, boar-like quilboar became a constant danger to the new settlement. The Horde drove most of them back through sustained military efforts. Yet fortified pockets remain in thorned redoubts west of Razor Hill. Gar'Thok, an officer at Razor Hill, leads the effort to remove the remaining Razormane. He sends seasoned defenders into the western bramble camps to kill their scouts, warriors, and dustrunners. Gar'Thok and the Horde leadership fear any quilboar foothold near Razor Hill could bring disaster. They see this strike as the first step toward securing Kalimdor. Once the quilboar defenders are gone, Horde forces can burn the bramble dens and keep the Razormane from reclaiming the western foothills. The fire destroys an enduring menace and secures Durotar's western perimeter. It also protects the vital supply roads between Razor Hill and the wider realm."
     },
@@ -21869,9 +21869,9 @@
     "quest:878": {
       "1": [
         {
-          "duration": 56.9730612244898,
-          "file": "Audio/Transport/full_quest_878-8d77880b6e13717c91ea/1-0000.mp3",
-          "sha256": "c1b70f4f07a92ac159a88499dfa5475ae348d800d160975d79abbf3a75306404",
+          "duration": 58.07020408163265,
+          "file": "Audio/Transport/full_quest_878-8c5aae12d4278a65d1ff/1-0000.mp3",
+          "sha256": "168cc7339813b2c876a63e6cc7a649c4f0ae5a4a82aab427cefc82073685458d",
           "start": 0
         }
       ],
@@ -21883,21 +21883,21 @@
         ]
       },
       "fullHash": "85716d",
-      "generation": "3a85a1ddf13b73f2cee7",
+      "generation": "e53b3614c5043f2fc8b7",
       "hash": "85716d",
       "source": {
-        "duration": 56.999184,
+        "duration": 58.070204,
         "file": null,
-        "sha256": "8d77880b6e13717c91eaa13d720ce66982324a6b2092305e28ed1c4ddfc3ac3b"
+        "sha256": "8c5aae12d4278a65d1ffbf4adb9cc021afd98488decd78e33c44d769e786c1c4"
       },
       "text": "Tribes at War. From his cage in Camp Taurajo, Mangletooth bargains for help against the Bristleback. The Razormane captive offers intelligence about quilboar attacks in exchange for the deaths of rival spiritual leaders. The tauren hold Mangletooth, a Razormane quilboar, in Camp Taurajo. For years, the Razormane and Bristleback have contested the Barrens. Their sudden ambushes make it hard for the Horde to secure its settlements and supply lines. Mangletooth offers to explain who is tormenting Thork's outpost, but first he asks a Horde champion to kill the Bristleback's most revered casters. Mangletooth sends you north to strike at the Bristleback's spiritual heart: its Water Seekers, Thornweavers, and Geomancers. Both tribes revere the earth and draw power from ancient magic tied to their demigod progenitor, Agamaggan. Killing these casters weakens Bristleback rituals and leaves the tribe open to Razormane rivals. It also eases pressure on nearby trails."
     },
     "quest:879": {
       "1": [
         {
-          "duration": 57.05142857142857,
-          "file": "Audio/Transport/full_quest_879-4fa4beec534cce203e30/1-0000.mp3",
-          "sha256": "12f39c70996927fa73745e515e9881ec19939b5a27efecfa3fa6b9657a8a937b",
+          "duration": 54.413061224489795,
+          "file": "Audio/Transport/full_quest_879-17084610eed377d08542/1-0000.mp3",
+          "sha256": "25529fdb28a0bf1233ee07d3bd455a2d15bf20f12ce0c8a5b535c4fd0b2795e5",
           "start": 0
         }
       ],
@@ -21909,12 +21909,12 @@
         ]
       },
       "fullHash": "185c36",
-      "generation": "e58a2c99badae3204a15",
+      "generation": "d31503adcd668a1bfc1d",
       "hash": "185c36",
       "source": {
-        "duration": 57.077551,
+        "duration": 54.413061,
         "file": null,
-        "sha256": "4fa4beec534cce203e301ddca1c21c67cd0b76ba24a7f018d4acf88add0f7c6c"
+        "sha256": "17084610eed377d08542dd9966130a77cd5020a9a7f37d81f620cf55798c1752"
       },
       "text": "Betrayal from Within. At Camp Taurajo, Mangletooth offers Horde travelers a path to vengeance. His Razormane kin left him for dead, and he names three warlords from Razorfen Kraul who direct attacks across the Barrens. Mangletooth sits in a cage at Camp Taurajo, abandoned by his Razormane kin after their defeat. He has lost all loyalty to them and now faces execution. He offers Horde travelers knowledge of the leaders behind the ruthless raids across the plains, hoping to see those leaders fall before his own end. Razormane attacks trouble the Horde, while Thork at the Crossroads struggles to curb them. Mangletooth names three commanders from deep within Razorfen Kraul: Lok Orcbane, a formidable warrior, and his companions Nak, a tracker, and Kuz, a spellcaster. They direct raiders from encampments far to the south. Mangletooth demands their severed skulls as proof that his betrayers have fallen before his own end arrives."
     },
@@ -22129,9 +22129,9 @@
     "quest:893": {
       "1": [
         {
-          "duration": 61.51836734693878,
-          "file": "Audio/Transport/full_quest_893-b1f69a498e447f1a40c0/1-0000.mp3",
-          "sha256": "5ccd1bdfb646c4f21b22433c7efc89b144801e4ce4e49a3dabffa26587acac01",
+          "duration": 58.88,
+          "file": "Audio/Transport/full_quest_893-e8be0202c7afdd064e63/1-0000.mp3",
+          "sha256": "46613e80ba4ef119589992e8921ef50591e731147650ebb7c7a859ebe0301cae",
           "start": 0
         }
       ],
@@ -22143,12 +22143,12 @@
         ]
       },
       "fullHash": "1a669d",
-      "generation": "c46f08e206d62de00d8b",
+      "generation": "c0ffd9cab6e84dcae7f8",
       "hash": "1a669d",
       "source": {
-        "duration": 61.54449,
+        "duration": 58.88,
         "file": null,
-        "sha256": "b1f69a498e447f1a40c09b2b4199fa70fba3fd4c54817d0a620fe30c0ab04afb"
+        "sha256": "e8be0202c7afdd064e63b1f52c2ab8ba8c25161c2949917c33b73c0a3d61e291"
       },
       "text": "Weapons of Choice. At Camp Taurajo, Tatternack Steelforge studies reports of sturdy Razormane weapons. He sends travelers past the Field of Giants to recover them, so the Horde can judge the danger. In the southern Barrens, the Razormane are making unusually durable weapons. The Horde has taken notice, for most quilboar are thought to fight crudely with wood, bone, and stone. Tatternack Steelforge, an orc smith at Camp Taurajo, investigates under orders from Warchief Thrall. He doubts the quilboar know proper metalwork and seeks proof: have they learned new techniques, or found better supplies? Tatternack needs weapons from different parts of the Razormane arsenal to study their craft. South of the Field of Giants, scouts face Razormane war camps and seize weapons from their fighters. Razormane Stalkers carry backstabber daggers, Razormane Seers wield charred wands, and frenzied shock troops bear heavy war shields. Together, these arms reveal something of the martial and mystic arts behind the Razormane push against Horde territory."
     },
@@ -22259,9 +22259,9 @@
     "quest:906": {
       "1": [
         {
-          "duration": 33.5934693877551,
-          "file": "Audio/Transport/full_quest_906-5b1516a09d7d75873e7f/1-0000.mp3",
-          "sha256": "6d7dc39d47dba32f34176737622a06cbd012a4dca9bea38afe3c08dce25a60d1",
+          "duration": 32.02612244897959,
+          "file": "Audio/Transport/full_quest_906-54214840b41b99aeb397/1-0000.mp3",
+          "sha256": "2ef99d64d29d0370fbd4b1afcc9a4779d529098599b9469f0597287f7dfb26c8",
           "start": 0
         }
       ],
@@ -22273,12 +22273,12 @@
         ]
       },
       "fullHash": "4cef7b",
-      "generation": "949b1ac7d35426e82013",
+      "generation": "1eca538837254c7319de",
       "hash": "4cef7b",
       "source": {
-        "duration": 33.619592,
+        "duration": 32.026122,
         "file": null,
-        "sha256": "5b1516a09d7d75873e7f29afe69c247fbff7120ab244ffff5c7e70ef057fcafc"
+        "sha256": "54214840b41b99aeb3975773992215c181d940362263af05e65e267492e07bb2"
       },
       "text": "Betrayal from Within. In the central Barrens, Betrayal from Within brings the hunt for Lok Orcbane to its end. His fall will weaken the Razormane raids, and you carry his severed head to Thork at the Crossroads. At Camp Taurajo, Mangletooth is a captured Razormane quilboar held in a cage. He names Lok Orcbane as the chieftain directing attacks on Horde caravans. After you slay Lok deep in the southern thorn mazes, Mangletooth gives you the chieftain's skull. He finds it amusing that the orcs will benefit from betrayal within the tribe without knowing a captive quilboar helped them."
     },
@@ -22311,9 +22311,9 @@
     "quest:91282": {
       "1": [
         {
-          "duration": 43.93795918367347,
-          "file": "Audio/Transport/full_quest_91282-afe6faee10c5fd33ac0d/1-0000.mp3",
-          "sha256": "5000ece0e6c145c8c14fb2ce632a6c9c2ab1185e95e2fe36013bb01e517c39e1",
+          "duration": 41.926530612244896,
+          "file": "Audio/Transport/full_quest_91282-629285d60a284356aacd/1-0000.mp3",
+          "sha256": "ff5644ac9ca40579d9149a9039ae97bc177eba6143460068ad3e938909cf0d0e",
           "start": 0
         }
       ],
@@ -22325,12 +22325,12 @@
         ]
       },
       "fullHash": "b64b3f",
-      "generation": "af9b2e9baea3555d17a5",
+      "generation": "9a117c60655e7701b566",
       "hash": "b64b3f",
       "source": {
-        "duration": 43.964082,
+        "duration": 41.926531,
         "file": null,
-        "sha256": "afe6faee10c5fd33ac0d138568de06dd089a9a7b02fc3bacf18058eaec7b1543"
+        "sha256": "629285d60a284356aacd7fdf2861fb696e7ed2b8a33f51dd3d41c1bda331e032"
       },
       "text": "A Second Home. Newly risen Forsaken are being invited to join an order in Tirisfal Glades. They are directed to Bandarion Keep, a monastery on the bluffs northwest of the Solliden Farmstead near the Whispering Woods. The order offers community, shared faith, and mutual support as they make a place in their new unlife. Newly risen Forsaken in Tirisfal Glades are urged to find fellowship among their peers. Together, they can face unlife through mutual faith and community, and discover their full potential. Travelers are directed to Bandarion Keep, a monastery on the bluffs northwest of the Solliden Farmstead. Beside the Whispering Woods, it offers the new order a refuge to study, practice, and establish roots in Tirisfal."
     },
@@ -22364,8 +22364,8 @@
       "1": [
         {
           "duration": 35.056326530612246,
-          "file": "Audio/Transport/full_quest_91294-adc8d3e07fef51057cd4/1-0000.mp3",
-          "sha256": "1172fbf7fc91151b833654b562891b5c37f7db7434009b4091d1c776ea84ea96",
+          "file": "Audio/Transport/full_quest_91294-c21570ffd1772f78b38b/1-0000.mp3",
+          "sha256": "7d953d5b47837eeedac7ed40d6210db2ccb48dd18d6e1e2487055529939cb314",
           "start": 0
         }
       ],
@@ -22377,12 +22377,12 @@
         ]
       },
       "fullHash": "0b4e28",
-      "generation": "140a9fe7556e6cc73180",
+      "generation": "fc1f7f91614cbbe98d1a",
       "hash": "0b4e28",
       "source": {
-        "duration": 35.082449,
+        "duration": 35.056327,
         "file": null,
-        "sha256": "adc8d3e07fef51057cd468d93c00be1f3ed80040450521e961a8b1cff782bd5a"
+        "sha256": "c21570ffd1772f78b38b38397f6c47434818562e5f1760a8740b66be46082de0"
       },
       "text": "Touring the Grounds. Breton asks you to walk Bandarion Keep after the murloc attacks come under control. Meeting Danitha Morr is your first step toward settling among the residents. Breton asks you to meet Bandarion Keep’s residents and look around the stronghold. Once you have finished, Danitha Morr can help you settle in. The keep is still small, but its people call it home. Danitha Morr introduces herself as the closest thing Bandarion Keep has to a commander. She welcomes those seeking fellowship with people still loyal to the Light. The keep needs help before it can be fully established."
     },
@@ -26029,9 +26029,9 @@
     "quest:94436": {
       "1": [
         {
-          "duration": 33.201632653061225,
-          "file": "Audio/Transport/full_quest_94436-186d603348ebc6395e93/1-0000.mp3",
-          "sha256": "4f4f075c795f3080437dbb29b61af5d359093900817ab3ce6ab4dc065665d5d0",
+          "duration": 31.921632653061227,
+          "file": "Audio/Transport/full_quest_94436-0e4c276d38a9e2b3cadf/1-0000.mp3",
+          "sha256": "88914724e8f2c468a7fca89f9119420b008be3b71cad69ccb39603bc2338f585",
           "start": 0
         }
       ],
@@ -26043,12 +26043,12 @@
         ]
       },
       "fullHash": "f924f3",
-      "generation": "6a9604e003a4f8363f5b",
+      "generation": "8c6b61a7b683ba6bbaf8",
       "hash": "f924f3",
       "source": {
-        "duration": 33.201633,
+        "duration": 31.947755,
         "file": null,
-        "sha256": "186d603348ebc6395e93673265b92cf793c84e530d9be731b5c63e3cd0cc63d2"
+        "sha256": "0e4c276d38a9e2b3cadf45e394c24b308ed61f9e908437222bc55b01234e83e8"
       },
       "text": "A Lesson in Divinity. In A Lesson in Divinity, Danitha Morr asks you to show what a priest can do with the Symbol of Life. Deathguard Billmuth at Bandarion Keep has come seeking aid for a friend. Billmuth says the priests turned him away, and his friend may have no one else to turn to. He is not proud to ask you, but he needs aid for the Forsaken. The Symbol of Life is meant to show your ability to channel the Light. Handling it may cause discomfort. Its power can still be your ally and guide, even to the Forsaken, whose creation is tied to a force opposed to the Light."
     },
@@ -26081,9 +26081,9 @@
     "quest:94440": {
       "1": [
         {
-          "duration": 22.073469387755104,
-          "file": "Audio/Transport/full_quest_94440-1d3cd3fb80806a8e5b07/1-0000.mp3",
-          "sha256": "74b2c236fd2912596b77f0339bb33d57467542caaf4ff34b5d1e401922e3c0af",
+          "duration": 21.15918367346939,
+          "file": "Audio/Transport/full_quest_94440-96820a8a3a6ad0b47e82/1-0000.mp3",
+          "sha256": "790e1fc8c305e40fcbd1a271c02d54e26d26e0190344eb2cd2ab778001630a5f",
           "start": 0
         }
       ],
@@ -26095,21 +26095,21 @@
         ]
       },
       "fullHash": "116238",
-      "generation": "c79702a3a0725f05226b",
+      "generation": "7269b880bfe24bb6411e",
       "hash": "116238",
       "source": {
-        "duration": 22.073469,
+        "duration": 21.159184,
         "file": null,
-        "sha256": "1d3cd3fb80806a8e5b07634d35abe2e5a8432c9ee6ff1381569182f290c53acf"
+        "sha256": "96820a8a3a6ad0b47e82d28ab49d5786125a99c0f1350fe6f407f0d940045503"
       },
       "text": "A Lesson in Divinity. Deathguard Billmuth needs you to recover Scarlet Crusade attack plans from Venomweb Vale. The Deathguard expects an assault and hopes the plans will help prepare an ambush. Scarlet Crusaders carry deployment orders in their satchels, and the Deathguard expects an attack. Bring a copy of the plans to Deathguard Billmuth at Bandarion Keep. Then the Deathguard can prepare an ambush."
     },
     "quest:94441": {
       "1": [
         {
-          "duration": 24.555102040816326,
-          "file": "Audio/Transport/full_quest_94441-14cfb3862d2a96376362/1-0000.mp3",
-          "sha256": "5a64d397683ef59d34ca3c181e20eabc37c52636e7b133a4ed909a59d13d96f4",
+          "duration": 23.64081632653061,
+          "file": "Audio/Transport/full_quest_94441-917765d098dbf0c7b288/1-0000.mp3",
+          "sha256": "e7e6889733a438aae25eece1a7bd765d4392907ff4c00f97a66a13965b71acf3",
           "start": 0
         }
       ],
@@ -26121,12 +26121,12 @@
         ]
       },
       "fullHash": "245369",
-      "generation": "6d8aa74af20cc0e10377",
+      "generation": "d2f2eff694cbcf00757c",
       "hash": "245369",
       "source": {
-        "duration": 24.581224,
+        "duration": 23.640816,
         "file": null,
-        "sha256": "14cfb3862d2a963763626a27df6b3a1275223e7c54d78e513ccade93e61dda1f"
+        "sha256": "917765d098dbf0c7b288dd8f6a48582d0af002282660c28c1f61f690c405205b"
       },
       "text": "A Lesson in Divinity. A fellow Forsaken asks you to thank Danitha Morr for the paladins’ service at Bandarion Keep. Your work has earned the Deathguard’s gratitude and brings a gift of redemption. A fellow Forsaken asks you to carry their thanks to Danitha Morr at Bandarion Keep. The rest of the Deathguard will hear of the service you and the other paladins performed. They are proud to count you among the Forsaken and trust the Dark Lady watches over you."
     },
@@ -27927,9 +27927,9 @@
     "quest:95774": {
       "1": [
         {
-          "duration": 33.51510204081633,
-          "file": "Audio/Transport/full_quest_95774-8f0429de510e5e3345c0/1-0000.mp3",
-          "sha256": "a36bf7d0f6b0dd02602952bc9c9638585c1747687ddd53f04d4faabdea61a00f",
+          "duration": 31.451428571428572,
+          "file": "Audio/Transport/full_quest_95774-80c6da068a483ee37a8d/1-0000.mp3",
+          "sha256": "2c535779fbdf2cc2b67b6193d8bf5ba6077dd084c87fdd01fdae8a1f9ae2caef",
           "start": 0
         }
       ],
@@ -27941,12 +27941,12 @@
         ]
       },
       "fullHash": "3b1f57",
-      "generation": "16f5e0dc00661d2e4ff8",
+      "generation": "2dc99095a4846852d7e0",
       "hash": "3b1f57",
       "source": {
-        "duration": 33.541224,
+        "duration": 31.451429,
         "file": null,
-        "sha256": "8f0429de510e5e3345c0223d0f2c9f6b6406bbbd78eb51e761c197edf743b11e"
+        "sha256": "80c6da068a483ee37a8d3fd79726344f1f94063be46354bec21e44a79e4b1c6e"
       },
       "text": "Her Name Is Olgra. Mankrik mourns Olgra and prepares a monument to keep her name alive. He asks you to seek her missing bone adornments among the nearby Razormane raiders. A healer saved Mankrik, but Olgra died from her wounds on the battlefield. Grieving, Mankrik prepares a lasting tribute so her name and sacrifice will be remembered. Olgra wore cherished ornaments made of polished bone, but they are missing from her resting place. Mankrik asks you to recover them from the nearby Razormane raiders, so they can rest beside the monument he is raising for her."
     },
@@ -29201,9 +29201,9 @@
     "quest:96899": {
       "1": [
         {
-          "duration": 46.60244897959184,
-          "file": "Audio/Transport/full_quest_96899-8185f3804e04896fcf90/1-0000.mp3",
-          "sha256": "5b3ac3fb5d165c4672c43458cf9033ce2ee1740c27f452024c6f7bebc4cd54b8",
+          "duration": 42.50122448979592,
+          "file": "Audio/Transport/full_quest_96899-30f25dee0953e47680a5/1-0000.mp3",
+          "sha256": "88a18ebb855ea1ce8264f0fdc42fe6ed140e10b203fc0ef9f0a072181ce0c4f6",
           "start": 0
         }
       ],
@@ -29215,12 +29215,12 @@
         ]
       },
       "fullHash": "f5acef",
-      "generation": "e77e5c11e36bd0094ff0",
+      "generation": "4c63ed3b25712f8c32e7",
       "hash": "f5acef",
       "source": {
-        "duration": 46.628571,
+        "duration": 42.501224,
         "file": null,
-        "sha256": "8185f3804e04896fcf90b7673d4e88602431d85558a604da569825fc107b2b0d"
+        "sha256": "30f25dee0953e47680a5134a8de82b672b7189c0c179c4b81c58cdee09c42d58"
       },
       "text": "Bandarion Keep. At Bandarion Keep, Commander Leonid Barthalomew waits for travelers in western Tirisfal Glades. The Argent Dawn once held the secluded fortress against the Scourge, and Danitha and her paladins now guard its walls. After you aid the Argent Dawn against Cult of the Damned activity, you are sent northwest across Tirisfal Glades. Commander Leonid Barthalomew waits at the fortress to speak with you about the order's ongoing crusade against darkness. The Argent Dawn once used the stronghold as a staging post against Scourge incursions across Tirisfal Glades. Then the order turned its focus to the Eastern and Western Plaguelands. The fort was left behind and began to decay, until Paladin Danitha and her companions took stewardship of its walls."
     },
@@ -29331,9 +29331,9 @@
     "quest:97003": {
       "1": [
         {
-          "duration": 54.23020408163266,
-          "file": "Audio/Transport/full_quest_97003-18859a14aee8f420df18/1-0000.mp3",
-          "sha256": "e4f889f3e4d571bd69ddcbaa6e51ed28487a46f795b6e621123e4b98267d436b",
+          "duration": 53.91673469387755,
+          "file": "Audio/Transport/full_quest_97003-b9bd38a8054855a3528f/1-0000.mp3",
+          "sha256": "319f7473fa952757f3daacc6305b336cd131df6c7258c8daf9becf403d11609d",
           "start": 0
         }
       ],
@@ -29345,21 +29345,21 @@
         ]
       },
       "fullHash": "c0c619",
-      "generation": "95fad715256e7a05dfcc",
+      "generation": "19fb9d67a40e80c95b2d",
       "hash": "c0c619",
       "source": {
-        "duration": 54.256327,
+        "duration": 53.942857,
         "file": null,
-        "sha256": "18859a14aee8f420df187e6d1c02d05eca1ea45260d0e9ff710939d1fe679ab3"
+        "sha256": "b9bd38a8054855a3528fa19f4272485e6575bfa4206f2d7b39eba83e0b71ad81"
       },
       "text": "Chol'aruk the Ravener. In the Barrens, Gur'ak sends travelers after a colossal quilboar called Chol'aruk the Ravener. He believes the tales and asks them to return with its head. Razormane quilboar whisper of Chol'aruk, an enormous terror they call The Ravener. They say it lairs deep in a cavern at Thorn Hill, northeast of the local trails. By their account, it is roughly five times the size of an ordinary quilboar and driven by an unquenchable thirst for blood. Many dismiss the tales as campfire exaggeration. Gur'ak knows better from past battles with similar beasts. Gur'ak knows a beast of such size poses a real danger. He directs capable travelers to track Chol'aruk to its lair in Thorn Hill, end its threat, and bring back its head as proof. The Ravener is said to be ferocious and colossal. Gur'ak warns that only well-prepared groups should enter the cave to face it."
     },
     "quest:97005": {
       "1": [
         {
-          "duration": 57.46938775510204,
-          "file": "Audio/Transport/full_quest_97005-eb593d71f61e2d668a7f/1-0000.mp3",
-          "sha256": "1808308a12aa5831f8cd514ca3176f1fc83e17e862ccf17b4dd4ee3919de5013",
+          "duration": 55.77142857142857,
+          "file": "Audio/Transport/full_quest_97005-eea06e5f7ab07bcbccfb/1-0000.mp3",
+          "sha256": "21b5991496431a4dd8a5fd0dfe80541f41ed489bcfee330c78e179bea146461d",
           "start": 0
         }
       ],
@@ -29371,12 +29371,12 @@
         ]
       },
       "fullHash": "eb6ade",
-      "generation": "8b5cacf541bff18a4c7d",
+      "generation": "1fa39cee64981aa1d77f",
       "hash": "eb6ade",
       "source": {
-        "duration": 57.49551,
+        "duration": 55.771429,
         "file": null,
-        "sha256": "eb593d71f61e2d668a7fdc6fe4cb44e216ef4cc2033d1acc4c7f6c477b3a492d"
+        "sha256": "eea06e5f7ab07bcbccfbc5aad6e6de88602a90072cc94d45b2969c7491cdcb77"
       },
       "text": "Chol'aruk the Ravener. On Thorn Hill in the Barrens, Chol'aruk the Ravener haunts a cave. Bainham seeks its severed head to avenge comrades slain by beasts like it. Northwest of Bainham's camp, Thorn Hill rises above the Barrens Savannah. The Razormane tribes have long fought over its plateau. Now a monstrous abomination is said to lurk in one of its caves. The Razormane call it Chol'aruk or the Ravener. Some travelers doubt the tale that it can swallow an armored orc whole. Those who have seen the carnage know the danger is real. Bainham knows Chol'aruk is no campfire tale. He has fought similar horrors and carries scars from those encounters. His comrades fell to such beasts, and he still mourns them. He fears the abomination threatens everyone crossing the Savannah. Bainham asks seasoned champions to climb Thorn Hill, enter its underground lair, slay Chol'aruk, and bring back its massive head."
     },
@@ -33777,9 +33777,9 @@
     "quest:99144": {
       "1": [
         {
-          "duration": 68.64979591836735,
-          "file": "Audio/Transport/full_quest_99144-5cf6a8cf76282f3ddd30/1-0000.mp3",
-          "sha256": "6e19be1e22a4528d50c809e77776a960b6d952d079629de1fca213b8fc3b576c",
+          "duration": 68.15346938775511,
+          "file": "Audio/Transport/full_quest_99144-f392b191e30938372a85/1-0000.mp3",
+          "sha256": "42fbfbe9b788a880fb3d4405d327a690e1d3c7a320524139358e18baff542c1c",
           "start": 0
         }
       ],
@@ -33791,21 +33791,21 @@
         ]
       },
       "fullHash": "90af6d",
-      "generation": "48c151f306e760438751",
+      "generation": "af17771e12f34048e877",
       "hash": "90af6d",
       "source": {
-        "duration": 68.675918,
+        "duration": 68.179592,
         "file": null,
-        "sha256": "5cf6a8cf76282f3ddd30912a93286ecfc139324d6a06a528be0498237b1b39ae"
+        "sha256": "f392b191e30938372a85c96a683f4552bc6dc4f69f18aad77839a015f244f059"
       },
       "text": "Seeking Refuge. At Crusader's Outpost, Bareth Dawnstone waits far from the meeting in Brill he was sent to reach. His safe return matters to the young order at Bandarion Keep, where followers of the Holy Light face prejudice from local zealots. Bareth Dawnstone left Bandarion Keep to speak with Shari Stilwell in Brill. Zealous warriors seized him at Crusader's Outpost before he could reach her. They despise him for being undead, yet Bareth remains devoted to the Light. He seeks a way out of their hands and a chance to deliver his message. At Crusader's Outpost, zealots wield the Holy Light with rigid conviction and vengeance. They see Bareth's existence as an offense. He meditates on the Light as a source of protection and inner purity. His captors' cruelty grieves him, for it twists the sacred teachings he cherishes. In Brill, Shari Stilwell learns that Bareth has escaped and is safe. Their monastic order is still taking root on the bluffs northwest of Solliden Farmstead. Losing a promising practitioner like Bareth would have hurt the young fellowship. Its doors are open to travelers seeking sincere guidance in the Light."
     },
     "quest:99152": {
       "1": [
         {
-          "duration": 31.13795918367347,
-          "file": "Audio/Transport/full_quest_99152-67d90736e7fb26aa9d12/1-0000.mp3",
-          "sha256": "3f676e9474ad4863666de705471760e2498ef81b5e56d73493fa50a95fb2dd8b",
+          "duration": 29.204897959183675,
+          "file": "Audio/Transport/full_quest_99152-93270fe7e6c3bdb765d8/1-0000.mp3",
+          "sha256": "4ca095b61de28f1802d471541d6790589af607577a9c642ca616d7f316b9c973",
           "start": 0
         }
       ],
@@ -33817,12 +33817,12 @@
         ]
       },
       "fullHash": "445d76",
-      "generation": "4ae4158ecbfe09303150",
+      "generation": "a8462751fb5a6c748f86",
       "hash": "445d76",
       "source": {
-        "duration": 31.137959,
+        "duration": 29.23102,
         "file": null,
-        "sha256": "67d90736e7fb26aa9d1271762b2db8513b239810ae58b0590f4c0f2733cd128b"
+        "sha256": "93270fe7e6c3bdb765d8fda0549e6a298bfcb2e504065fab5ac5197836b5e638"
       },
       "text": "As Above, So Below. At Bandarion Keep, Hilda the Breaker sends you to investigate the hidden Scourge beneath Shadowvale. Bones still humming with reanimation magic may reveal how the undead gathered beneath the town unseen. Hilda the Breaker prepares defenders at Bandarion Keep for the dangers around them. To the southwest, Shadowvale faces regular unrest from the Tarnished, a hostile faction. Yet beneath the town, the Scourge gathers strength in hidden cellars. If left unchecked, it may erupt in a sudden assault on the keep."
     },
@@ -34899,14 +34899,6 @@
       1439,
       1750
     ],
-    "1172fbf7fc91151b833654b562891b5c37f7db7434009b4091d1c776ea84ea96": [
-      198,
-      373,
-      542,
-      681,
-      847,
-      1059
-    ],
     "11c4685900cf9402c203060f8548fa7c0a6a6954abd597704ea72b4a93fd0aa4": [
       290,
       438,
@@ -35002,15 +34994,6 @@
       1427,
       1757,
       2170
-    ],
-    "12f39c70996927fa73745e515e9881ec19939b5a27efecfa3fa6b9657a8a937b": [
-      203,
-      496,
-      737,
-      894,
-      1212,
-      1417,
-      1827
     ],
     "1354fbfebbd85c89e671860e5f879a2ee7d65fb9beafc52dc0c9acc11738c6c0": [
       203,
@@ -35160,6 +35143,18 @@
       407,
       663
     ],
+    "168cc7339813b2c876a63e6cc7a649c4f0ae5a4a82aab427cefc82073685458d": [
+      209,
+      491,
+      656,
+      798,
+      992,
+      1152,
+      1340,
+      1501,
+      1642,
+      1905
+    ],
     "16ba8340b7bb85870ff4b0543f32a8432d04013c562eb0abaf4321895dfae789": [
       472,
       652,
@@ -35216,17 +35211,6 @@
       689,
       1054,
       1306
-    ],
-    "1808308a12aa5831f8cd514ca3176f1fc83e17e862ccf17b4dd4ee3919de5013": [
-      179,
-      403,
-      592,
-      880,
-      1159,
-      1299,
-      1584,
-      1744,
-      1881
     ],
     "187abbde2404851a5f4daa7257d6d5107ea4f6949bb3b713b09ac94ab8f442e5": [
       145,
@@ -35668,6 +35652,18 @@
     "218f25be30ce6407cd56d100717d111d2e6d660158c25bbbbe23ff91b7b20a02": [
       801
     ],
+    "21b5991496431a4dd8a5fd0dfe80541f41ed489bcfee330c78e179bea146461d": [
+      200,
+      391,
+      571,
+      705,
+      860,
+      1136,
+      1399,
+      1548,
+      1701,
+      1851
+    ],
     "2221b6c9db68d3daf5015473f04c8489c3886eb5c5f1184894a638eee29c101b": [
       442,
       690,
@@ -35794,6 +35790,11 @@
       1627,
       1858,
       2034
+    ],
+    "25529fdb28a0bf1233ee07d3bd455a2d15bf20f12ce0c8a5b535c4fd0b2795e5": [
+      278,
+      1146,
+      1748
     ],
     "256b9bb59a44bd34f3e3635255800d9084ddbe54e5614b32250c9da60c073745": [
       234,
@@ -36019,6 +36020,13 @@
       621,
       943
     ],
+    "2c535779fbdf2cc2b67b6193d8bf5ba6077dd084c87fdd01fdae8a1f9ae2caef": [
+      161,
+      341,
+      517,
+      730,
+      931
+    ],
     "2cbd95d0f56b7bca37dbce595a1ff23e73bc9cf70ea6a380bc7feb99d08df15a": [
       376,
       550,
@@ -36153,6 +36161,10 @@
       1200,
       1440
     ],
+    "2ef99d64d29d0370fbd4b1afcc9a4779d529098599b9469f0597287f7dfb26c8": [
+      440,
+      986
+    ],
     "2f598140a2315c0eb3921a6d5ea29735c92f9dcfffec8cccf8732443b7bafed8": [
       260,
       508,
@@ -36271,6 +36283,16 @@
       1507,
       1857,
       2022
+    ],
+    "319f7473fa952757f3daacc6305b336cd131df6c7258c8daf9becf403d11609d": [
+      243,
+      377,
+      570,
+      773,
+      1047,
+      1314,
+      1478,
+      1787
     ],
     "31a9049aaaf7322d044e06d9f31c9f58b6fa281e8986f225692c581b6f852a97": [
       606
@@ -36820,13 +36842,6 @@
       1379,
       1563
     ],
-    "3f676e9474ad4863666de705471760e2498ef81b5e56d73493fa50a95fb2dd8b": [
-      236,
-      488,
-      666,
-      888,
-      1037
-    ],
     "3f78e78fb19304a91a25c9c8ad1e3712894d1785a1f9892977b3d3a7b8625660": [
       209,
       421,
@@ -37030,6 +37045,18 @@
       355,
       599
     ],
+    "42fbfbe9b788a880fb3d4405d327a690e1d3c7a320524139358e18baff542c1c": [
+      225,
+      525,
+      1048,
+      1211,
+      1441,
+      1716,
+      1920,
+      2101,
+      2284,
+      2454
+    ],
     "43147b0ea35e66e087e2673884c5a242a50635c7da33b9ef7e6af65efdb8d5f2": [
       310,
       470,
@@ -37163,6 +37190,16 @@
       1119,
       1365,
       1619
+    ],
+    "46613e80ba4ef119589992e8921ef50591e731147650ebb7c7a859ebe0301cae": [
+      387,
+      548,
+      755,
+      988,
+      1136,
+      1277,
+      1466,
+      1689
     ],
     "469ae0fcd7e4747b4fd7c159b9b2885d081142f846c4837147b3c1a145111152": [
       487,
@@ -37428,6 +37465,17 @@
       941,
       1120
     ],
+    "4d5de56aa50907f8bd9c772a9f780290a56b2e6823675b70bc93dd3c75e5767a": [
+      259,
+      537,
+      696,
+      1067,
+      1352,
+      1577,
+      1823,
+      1968,
+      2199
+    ],
     "4d72ef499f0f7855e1e44f23bf4252f01b0ee94d629020f7edd7319b94f130ad": [
       214,
       357,
@@ -37534,11 +37582,6 @@
     "4f1c03e5115597035e9054668bfc297c4d59dc3976bb4e0f2995fe5520516565": [
       547
     ],
-    "4f4f075c795f3080437dbb29b61af5d359093900817ab3ce6ab4dc065665d5d0": [
-      233,
-      407,
-      768
-    ],
     "4fb0753e8975885db5df7e2b20eb9046c2812a5336d284b010d6d2a8b5acf9ef": [
       167,
       329,
@@ -37559,14 +37602,6 @@
       1253,
       1426,
       1575
-    ],
-    "5000ece0e6c145c8c14fb2ce632a6c9c2ab1185e95e2fe36013bb01e517c39e1": [
-      195,
-      476,
-      717,
-      925,
-      1166,
-      1402
     ],
     "500d618f0e598b6e77838b56a392d3926d278923106832bc0cc43be092d0a2b4": [
       149,
@@ -37958,10 +37993,6 @@
       1237,
       1686
     ],
-    "5a64d397683ef59d34ca3c181e20eabc37c52636e7b133a4ed909a59d13d96f4": [
-      219,
-      382
-    ],
     "5a7658b7943eea74ed28e112eb513a7869ea9b1e430a853f32bf4f80834eea61": [
       208,
       384,
@@ -38037,14 +38068,6 @@
       574,
       924
     ],
-    "5b3ac3fb5d165c4672c43458cf9033ce2ee1740c27f452024c6f7bebc4cd54b8": [
-      280,
-      573,
-      853,
-      1124,
-      1377,
-      1519
-    ],
     "5b44cef7f6f36bcb96ff672c0e2f82bb5fe3136d04be68b8d75e2e20b4e65201": [
       158,
       384,
@@ -38076,16 +38099,6 @@
       468,
       702,
       878
-    ],
-    "5ccd1bdfb646c4f21b22433c7efc89b144801e4ce4e49a3dabffa26587acac01": [
-      457,
-      625,
-      844,
-      1091,
-      1361,
-      1552,
-      1789,
-      2115
     ],
     "5d1f9251e12e8d61de867a5d48ac4baf5e64cd3f28ceb6058b159d4bc56dd829": [
       194,
@@ -38720,12 +38733,6 @@
       554,
       815
     ],
-    "6d7dc39d47dba32f34176737622a06cbd012a4dca9bea38afe3c08dce25a60d1": [
-      221,
-      458,
-      827,
-      1056
-    ],
     "6d85be17fcb285c0e878950a24d77823e7cddc59babe53aa0ce463f690ab5dbf": [
       216,
       415,
@@ -38748,20 +38755,6 @@
       164,
       347,
       628
-    ],
-    "6e19be1e22a4528d50c809e77776a960b6d952d079629de1fca213b8fc3b576c": [
-      235,
-      552,
-      742,
-      911,
-      1090,
-      1252,
-      1471,
-      1737,
-      1959,
-      2129,
-      2318,
-      2470
     ],
     "6e8cb81c4987c3e48304628c001e2d220f38b1d508572a150edf7323138a73ce": [
       236,
@@ -38996,11 +38989,6 @@
       852,
       1021,
       1221
-    ],
-    "74b2c236fd2912596b77f0339bb33d57467542caaf4ff34b5d1e401922e3c0af": [
-      208,
-      387,
-      591
     ],
     "74e8b61188931030a4eada44bb85d6a81a8939dd29176d5ba76f22460e48a604": [
       204,
@@ -39328,6 +39316,12 @@
       849,
       1002,
       1161
+    ],
+    "7d953d5b47837eeedac7ed40d6210db2ccb48dd18d6e1e2487055529939cb314": [
+      223,
+      395,
+      715,
+      1048
     ],
     "7daa7dd600666723a37460fe083d38482848f89fd2f659d4986f5cd22af154c8": [
       260,
@@ -39861,6 +39855,17 @@
       181,
       353,
       509
+    ],
+    "88914724e8f2c468a7fca89f9119420b008be3b71cad69ccb39603bc2338f585": [
+      221,
+      398,
+      590,
+      745,
+      951
+    ],
+    "88a18ebb855ea1ce8264f0fdc42fe6ed140e10b203fc0ef9f0a072181ce0c4f6": [
+      766,
+      987
     ],
     "890d616099489b4a2e95a8cbf298e25605d8638ab50403e4738ccb2fc7eaf86a": [
       197,
@@ -41023,12 +41028,6 @@
       211,
       414,
       567
-    ],
-    "a36bf7d0f6b0dd02602952bc9c9638585c1747687ddd53f04d4faabdea61a00f": [
-      375,
-      567,
-      787,
-      1001
     ],
     "a371071ced7054bb90854ab92b07b3de761d33f1c9c469f87fc5cca5d8b2b06e": [
       192,
@@ -42378,16 +42377,6 @@
       1252,
       1463
     ],
-    "c1b70f4f07a92ac159a88499dfa5475ae348d800d160975d79abbf3a75306404": [
-      189,
-      466,
-      653,
-      802,
-      989,
-      1306,
-      1596,
-      1853
-    ],
     "c1e2b826a1785f958190087fb5036ccaea4de65e6191c2603fbae75a53a74e70": [
       196,
       378,
@@ -43223,6 +43212,19 @@
       1277,
       1460
     ],
+    "d93127af97b307e73ee84cef9721f1c59844f01608ef091cccc05522e3582602": [
+      218,
+      368,
+      643,
+      821,
+      967,
+      1125,
+      1363,
+      1597,
+      1959,
+      2211,
+      2396
+    ],
     "d95936163ca78313d800d94fa6207cecf41d0d19b3a3fb3a98bd229834a6eae5": [
       188,
       457,
@@ -43367,17 +43369,6 @@
       984,
       1182,
       1389
-    ],
-    "dbc7d7721358130f3920b604293a6bed49eaf0a4000e668cfab817083bc19159": [
-      215,
-      485,
-      637,
-      820,
-      1027,
-      1294,
-      1521,
-      1897,
-      2138
     ],
     "dbffe87706cdfb2d95a9d1b23ff8bbe847f9a5a24837ac7d6baaee07bb0a68a1": [
       184,
@@ -43733,15 +43724,6 @@
       1512,
       1859
     ],
-    "e4f889f3e4d571bd69ddcbaa6e51ed28487a46f795b6e621123e4b98267d436b": [
-      227,
-      366,
-      579,
-      1075,
-      1351,
-      1500,
-      1904
-    ],
     "e52573f3a49eba4808530a96f7a04467cdf1539a0b4062232ef33e1c427e44a9": [
       248,
       391
@@ -43804,20 +43786,6 @@
       944,
       1095
     ],
-    "e75b7aa0f5de8b39c8c74308a65c225c4a3077ffff8b216bf9164c65bc3f4600": [
-      243,
-      412,
-      722,
-      909,
-      1068,
-      1246,
-      1459,
-      1680,
-      1915,
-      2084,
-      2386,
-      2567
-    ],
     "e76ccf2882879f75ebade2f4f0a491873e80cfb92bcad596d8ffb43c84915ba5": [
       234,
       453,
@@ -43855,6 +43823,10 @@
       727,
       968,
       1181
+    ],
+    "e7e6889733a438aae25eece1a7bd765d4392907ff4c00f97a66a13965b71acf3": [
+      226,
+      584
     ],
     "e7f4548a91bad1bf90db190314ba5eb22b5f035073e37227e0978dd9be19ef3c": [
       234,
@@ -44788,6 +44760,14 @@
       1147,
       1359
     ],
+    "ff5644ac9ca40579d9149a9039ae97bc177eba6143460068ad3e938909cf0d0e": [
+      285,
+      462,
+      680,
+      873,
+      1083,
+      1337
+    ],
     "ff60e59f8077157756f9600c5796b2d4dd1c864716dcfb7e1226d6f02fdb7bff": [
       337
     ],
@@ -45194,10 +45174,6 @@
       "1439": 2,
       "776": 1
     },
-    "1172fbf7fc91151b833654b562891b5c37f7db7434009b4091d1c776ea84ea96": {
-      "373": 1,
-      "847": 2
-    },
     "11c4685900cf9402c203060f8548fa7c0a6a6954abd597704ea72b4a93fd0aa4": {
       "438": 1,
       "961": 2
@@ -45242,10 +45218,6 @@
     "12cc7ee98e7a8d106f554e8e632950711bfc7a509f5ad59d34aa5dbabb719574": {
       "1427": 2,
       "650": 1
-    },
-    "12f39c70996927fa73745e515e9881ec19939b5a27efecfa3fa6b9657a8a937b": {
-      "1212": 2,
-      "496": 1
     },
     "1354fbfebbd85c89e671860e5f879a2ee7d65fb9beafc52dc0c9acc11738c6c0": {
       "392": 1,
@@ -45326,10 +45298,6 @@
     "17606ef1dd116e2dcba08d1eaccc263c99de5baca0bfbb247167e7524e30d2a9": {
       "1054": 2,
       "452": 1
-    },
-    "1808308a12aa5831f8cd514ca3176f1fc83e17e862ccf17b4dd4ee3919de5013": {
-      "1299": 2,
-      "403": 1
     },
     "187abbde2404851a5f4daa7257d6d5107ea4f6949bb3b713b09ac94ab8f442e5": {
       "1458": 2,
@@ -46042,9 +46010,6 @@
       "302": 1,
       "978": 2
     },
-    "3f676e9474ad4863666de705471760e2498ef81b5e56d73493fa50a95fb2dd8b": {
-      "488": 1
-    },
     "3f78e78fb19304a91a25c9c8ad1e3712894d1785a1f9892977b3d3a7b8625660": {
       "421": 1,
       "995": 2
@@ -46345,9 +46310,6 @@
       "1110": 2,
       "420": 1
     },
-    "4f4f075c795f3080437dbb29b61af5d359093900817ab3ce6ab4dc065665d5d0": {
-      "407": 1
-    },
     "4fb0753e8975885db5df7e2b20eb9046c2812a5336d284b010d6d2a8b5acf9ef": {
       "329": 1,
       "734": 2
@@ -46358,10 +46320,6 @@
     "4ff18fbfaf1c09cb0920e31f8b484657f37b858ba628867ff9621e8e9ca69545": {
       "1253": 2,
       "681": 1
-    },
-    "5000ece0e6c145c8c14fb2ce632a6c9c2ab1185e95e2fe36013bb01e517c39e1": {
-      "1166": 2,
-      "717": 1
     },
     "500d618f0e598b6e77838b56a392d3926d278923106832bc0cc43be092d0a2b4": {
       "1090": 2,
@@ -46538,9 +46496,6 @@
       "1237": 2,
       "463": 1
     },
-    "5a64d397683ef59d34ca3c181e20eabc37c52636e7b133a4ed909a59d13d96f4": {
-      "382": 1
-    },
     "5a7658b7943eea74ed28e112eb513a7869ea9b1e430a853f32bf4f80834eea61": {
       "1037": 2,
       "384": 1
@@ -46578,10 +46533,6 @@
     "5b396d702232fdfd407ea3250270731109cd44c0c8a53058967203896acd6780": {
       "378": 1
     },
-    "5b3ac3fb5d165c4672c43458cf9033ce2ee1740c27f452024c6f7bebc4cd54b8": {
-      "1124": 2,
-      "573": 1
-    },
     "5b44cef7f6f36bcb96ff672c0e2f82bb5fe3136d04be68b8d75e2e20b4e65201": {
       "1051": 2,
       "384": 1
@@ -46596,10 +46547,6 @@
     "5c83cf24c3289f8b56f5c924f661bd335a3703e2a64173a64a55f3e00c38a50b": {
       "321": 1,
       "702": 2
-    },
-    "5ccd1bdfb646c4f21b22433c7efc89b144801e4ce4e49a3dabffa26587acac01": {
-      "1361": 2,
-      "457": 1
     },
     "5d1f9251e12e8d61de867a5d48ac4baf5e64cd3f28ceb6058b159d4bc56dd829": {
       "1036": 2,
@@ -46887,9 +46834,6 @@
     "6d50a04c9c03f7a582f806873b1472abf0f0b50cebc774009b841da09be5036b": {
       "370": 1
     },
-    "6d7dc39d47dba32f34176737622a06cbd012a4dca9bea38afe3c08dce25a60d1": {
-      "458": 1
-    },
     "6d85be17fcb285c0e878950a24d77823e7cddc59babe53aa0ce463f690ab5dbf": {
       "1097": 2,
       "415": 1
@@ -46900,11 +46844,6 @@
     },
     "6e0c8bcc41df80f4678c657daf38796c8b1411362a743f87e22350d93331f652": {
       "347": 1
-    },
-    "6e19be1e22a4528d50c809e77776a960b6d952d079629de1fca213b8fc3b576c": {
-      "1252": 2,
-      "1959": 3,
-      "552": 1
     },
     "6e8cb81c4987c3e48304628c001e2d220f38b1d508572a150edf7323138a73ce": {
       "1053": 2,
@@ -47002,9 +46941,6 @@
     "7485b67926044a7e9d1f3fdf73b130954848412cd23cc7d3894057042750cfcd": {
       "364": 1,
       "852": 2
-    },
-    "74b2c236fd2912596b77f0339bb33d57467542caaf4ff34b5d1e401922e3c0af": {
-      "387": 1
     },
     "74e8b61188931030a4eada44bb85d6a81a8939dd29176d5ba76f22460e48a604": {
       "1265": 2,
@@ -47897,10 +47833,6 @@
     "a35e1adff85ec7d6f3f42de73cc01007a1eccada5dfe5cbcdf19fa283aed7cdd": {
       "414": 1
     },
-    "a36bf7d0f6b0dd02602952bc9c9638585c1747687ddd53f04d4faabdea61a00f": {
-      "375": 1,
-      "787": 2
-    },
     "a371071ced7054bb90854ab92b07b3de761d33f1c9c469f87fc5cca5d8b2b06e": {
       "1059": 2,
       "451": 1
@@ -48503,10 +48435,6 @@
       "1107": 2,
       "402": 1
     },
-    "c1b70f4f07a92ac159a88499dfa5475ae348d800d160975d79abbf3a75306404": {
-      "1306": 2,
-      "466": 1
-    },
     "c1e2b826a1785f958190087fb5036ccaea4de65e6191c2603fbae75a53a74e70": {
       "378": 1,
       "865": 2
@@ -48927,10 +48855,6 @@
       "1182": 2,
       "385": 1
     },
-    "dbc7d7721358130f3920b604293a6bed49eaf0a4000e668cfab817083bc19159": {
-      "1521": 2,
-      "485": 1
-    },
     "dbffe87706cdfb2d95a9d1b23ff8bbe847f9a5a24837ac7d6baaee07bb0a68a1": {
       "1036": 2,
       "401": 1
@@ -49073,10 +48997,6 @@
       "1328": 2,
       "525": 1
     },
-    "e4f889f3e4d571bd69ddcbaa6e51ed28487a46f795b6e621123e4b98267d436b": {
-      "1351": 2,
-      "366": 1
-    },
     "e52573f3a49eba4808530a96f7a04467cdf1539a0b4062232ef33e1c427e44a9": {
       "248": 1
     },
@@ -49105,11 +49025,6 @@
     "e669d4fa7e079e78e05256b07fd0228d5f7057a1a587ff284a7d68b349a2bca5": {
       "333": 1,
       "944": 2
-    },
-    "e75b7aa0f5de8b39c8c74308a65c225c4a3077ffff8b216bf9164c65bc3f4600": {
-      "1246": 2,
-      "2084": 3,
-      "412": 1
     },
     "e76ccf2882879f75ebade2f4f0a491873e80cfb92bcad596d8ffb43c84915ba5": {
       "1236": 2,
@@ -49693,6 +49608,74 @@
     {
       "file": "Audio/Transport/full_quest_1801-13ef6b4c23b64575d73b/1-0000.mp3",
       "sha256": "6c2af223091320b0bfd1a6655199a6e8ddb514cecc91eb20f0f073777bfae722"
+    },
+    {
+      "file": "Audio/Transport/full_quest_5042-9067512b8ae5ab66dd65/1-0000.mp3",
+      "sha256": "dbc7d7721358130f3920b604293a6bed49eaf0a4000e668cfab817083bc19159"
+    },
+    {
+      "file": "Audio/Transport/full_quest_837-c6165a42c5e25d2719a9/1-0000.mp3",
+      "sha256": "e75b7aa0f5de8b39c8c74308a65c225c4a3077ffff8b216bf9164c65bc3f4600"
+    },
+    {
+      "file": "Audio/Transport/full_quest_878-8d77880b6e13717c91ea/1-0000.mp3",
+      "sha256": "c1b70f4f07a92ac159a88499dfa5475ae348d800d160975d79abbf3a75306404"
+    },
+    {
+      "file": "Audio/Transport/full_quest_879-4fa4beec534cce203e30/1-0000.mp3",
+      "sha256": "12f39c70996927fa73745e515e9881ec19939b5a27efecfa3fa6b9657a8a937b"
+    },
+    {
+      "file": "Audio/Transport/full_quest_893-b1f69a498e447f1a40c0/1-0000.mp3",
+      "sha256": "5ccd1bdfb646c4f21b22433c7efc89b144801e4ce4e49a3dabffa26587acac01"
+    },
+    {
+      "file": "Audio/Transport/full_quest_906-5b1516a09d7d75873e7f/1-0000.mp3",
+      "sha256": "6d7dc39d47dba32f34176737622a06cbd012a4dca9bea38afe3c08dce25a60d1"
+    },
+    {
+      "file": "Audio/Transport/full_quest_91282-afe6faee10c5fd33ac0d/1-0000.mp3",
+      "sha256": "5000ece0e6c145c8c14fb2ce632a6c9c2ab1185e95e2fe36013bb01e517c39e1"
+    },
+    {
+      "file": "Audio/Transport/full_quest_91294-adc8d3e07fef51057cd4/1-0000.mp3",
+      "sha256": "1172fbf7fc91151b833654b562891b5c37f7db7434009b4091d1c776ea84ea96"
+    },
+    {
+      "file": "Audio/Transport/full_quest_94436-186d603348ebc6395e93/1-0000.mp3",
+      "sha256": "4f4f075c795f3080437dbb29b61af5d359093900817ab3ce6ab4dc065665d5d0"
+    },
+    {
+      "file": "Audio/Transport/full_quest_94440-1d3cd3fb80806a8e5b07/1-0000.mp3",
+      "sha256": "74b2c236fd2912596b77f0339bb33d57467542caaf4ff34b5d1e401922e3c0af"
+    },
+    {
+      "file": "Audio/Transport/full_quest_94441-14cfb3862d2a96376362/1-0000.mp3",
+      "sha256": "5a64d397683ef59d34ca3c181e20eabc37c52636e7b133a4ed909a59d13d96f4"
+    },
+    {
+      "file": "Audio/Transport/full_quest_95774-8f0429de510e5e3345c0/1-0000.mp3",
+      "sha256": "a36bf7d0f6b0dd02602952bc9c9638585c1747687ddd53f04d4faabdea61a00f"
+    },
+    {
+      "file": "Audio/Transport/full_quest_96899-8185f3804e04896fcf90/1-0000.mp3",
+      "sha256": "5b3ac3fb5d165c4672c43458cf9033ce2ee1740c27f452024c6f7bebc4cd54b8"
+    },
+    {
+      "file": "Audio/Transport/full_quest_97003-18859a14aee8f420df18/1-0000.mp3",
+      "sha256": "e4f889f3e4d571bd69ddcbaa6e51ed28487a46f795b6e621123e4b98267d436b"
+    },
+    {
+      "file": "Audio/Transport/full_quest_97005-eb593d71f61e2d668a7f/1-0000.mp3",
+      "sha256": "1808308a12aa5831f8cd514ca3176f1fc83e17e862ccf17b4dd4ee3919de5013"
+    },
+    {
+      "file": "Audio/Transport/full_quest_99144-5cf6a8cf76282f3ddd30/1-0000.mp3",
+      "sha256": "6e19be1e22a4528d50c809e77776a960b6d952d079629de1fca213b8fc3b576c"
+    },
+    {
+      "file": "Audio/Transport/full_quest_99152-67d90736e7fb26aa9d12/1-0000.mp3",
+      "sha256": "3f676e9474ad4863666de705471760e2498ef81b5e56d73493fa50a95fb2dd8b"
     }
   ],
   "version": 1

@@ -3254,8 +3254,8 @@
       "1": [
         {
           "duration": 28.029387755102043,
-          "file": "Audio/Transport/full_item_crossroads-supply-crate-0bc7e783c34b72319757/1-0000.mp3",
-          "sha256": "6e77a5af9052217c0dc38104ca3e0dee0fe9f31573652fa3b2539ef4b5286965",
+          "file": "Audio/Transport/full_item_crossroads-supply-crate-ecc95522f2b125fa9025/1-0000.mp3",
+          "sha256": "a8548c7d00a832fb255c6cb645e28fde0ff056b217750e2c249db3f55ba965f3",
           "start": 0
         }
       ],
@@ -3267,12 +3267,12 @@
         ]
       },
       "fullHash": "725489",
-      "generation": "f66846e7c909844e27ba",
+      "generation": "37474483db7baed52d46",
       "hash": "725489",
       "source": {
-        "duration": 28.05551,
+        "duration": 28.029388,
         "file": null,
-        "sha256": "0bc7e783c34b72319757793def6e92d8422d58020e2ff83e70d1d9fbd5138757"
+        "sha256": "ecc95522f2b125fa9025eeaa84a152e50734b6014c4933c2496e8b164cebdafd"
       },
       "text": "Crossroads Supply Crate. At the Crossroads, a raided caravan has left the settlement short of food, tools, and necessities. Stolen provisions now lie scattered among Razormane camps in the Barrens. Razormane quilboar raided a caravan bound for the Crossroads and carried its supplies into nearby camps. The crates lie among underbrush and dirt dens. Thork, the settlement's commander, seeks their return before the outpost runs dangerously low on food, tools, and necessities."
     },
@@ -6165,9 +6165,9 @@
     "item:fire-tar": {
       "1": [
         {
-          "duration": 52.40163265306123,
-          "file": "Audio/Transport/full_item_fire-tar-5388b271534414532c6f/1-0000.mp3",
-          "sha256": "14f1f56242b68cebd628e26e155e2fd35f10d8c250921ff8d9470f2183b51468",
+          "duration": 49.371428571428574,
+          "file": "Audio/Transport/full_item_fire-tar-e9d364417923ab32ad4a/1-0000.mp3",
+          "sha256": "f4873232f36e56c19c4833c06547a29ef933e07873d84df1d570296a9a10dfd1",
           "start": 0
         }
       ],
@@ -6179,12 +6179,12 @@
         ]
       },
       "fullHash": "0f7072",
-      "generation": "11e882782066fd3d0b4b",
+      "generation": "9557e02400de5d2a9be3",
       "hash": "0f7072",
       "source": {
-        "duration": 52.427755,
+        "duration": 49.371429,
         "file": null,
-        "sha256": "5388b271534414532c6f2960fcf0b8e812cd766e272a38429f4a7a03739be9e6"
+        "sha256": "e9d364417923ab32ad4a44f4ca2e4e7925c3f00917d1b02e385c4e0eb12fcb48"
       },
       "text": "Fire Tar. Across the eastern Barrens, Razormane spellcasters carry Fire Tar. Horde shamans bring it to Telf Joolam, who brews it into a Fire Sapta that lets them commune with fire spirits. Razormane geomancers, mystics, and thornweavers carry Fire Tar. The quilboar use it in their harsh magic and rituals, where its power is tuned to flame. Shamanic instructors prize the substance as a worldly reagent. It helps mortal senses reach the raw fury of the elements. Young orc and troll shamans travel high among Durotar's crags to Telf Joolam, where they forge their fire totems. Telf asks them to bring a reagent pouch taken from Burning Blade cultists and Fire Tar gathered from the Razormane. He brews the two ingredients into a fire sapta. A shaman who drinks it can perceive the fire spirits waiting atop the nearby peaks."
     },
@@ -6321,9 +6321,9 @@
     "item:forged-steel-bars": {
       "1": [
         {
-          "duration": 34.481632653061226,
-          "file": "Audio/Transport/full_item_forged-steel-bars-1eb01f82e9e0b01687b8/1-0000.mp3",
-          "sha256": "0890b18aba3ff57e9e6ed47ddeda0417e04fb1f20b94ee41a4fc91057efdb289",
+          "duration": 32.73142857142857,
+          "file": "Audio/Transport/full_item_forged-steel-bars-c81ae437023a27bf1b43/1-0000.mp3",
+          "sha256": "040cb874581982fd1e3ec91acfe7e57166df643404c316ef7daeeba120227129",
           "start": 0
         }
       ],
@@ -6335,12 +6335,12 @@
         ]
       },
       "fullHash": "6b24d5",
-      "generation": "c2ef1c8c71c4645179ed",
+      "generation": "68b290c238d54e9465ce",
       "hash": "6b24d5",
       "source": {
-        "duration": 34.481633,
+        "duration": 32.731429,
         "file": null,
-        "sha256": "1eb01f82e9e0b01687b881a088121730d9648a46e9bc378427e731e185c5c291"
+        "sha256": "c81ae437023a27bf1b435fdbbca8d2b04b8ad24d4f47bec6446f61606bceb933"
       },
       "text": "Forged Steel Bars. In the northern Barrens, Thun'grim Firegaze's forged steel bars are gone. Recovering them proves a warrior's resolve to reclaim stolen property. Thun'grim Firegaze is a visually impaired orc smith with a camp in the northern Barrens. During a night raid, Razormane quilboar took his iron chest. They distracted him with grunts and snorts while others slipped away with it.\n\nThe quilboar could not work fine steel, so they left the unopened chest near a ruined wagon in their encampment to the northwest. The bars remain intact for warriors willing to recover them."
     },
@@ -9779,9 +9779,9 @@
     "item:kreenig-snarlsnout-s-tusk": {
       "1": [
         {
-          "duration": 36.04897959183673,
-          "file": "Audio/Transport/full_item_kreenig-snarlsnout-s-tusk-a04ad7a385513e32d205/1-0000.mp3",
-          "sha256": "d34e607bca29a05a03c58dfeb19aea24acf7c7f7f1311f538175835278a50b56",
+          "duration": 36.25795918367347,
+          "file": "Audio/Transport/full_item_kreenig-snarlsnout-s-tusk-c69c51df4e610ff19470/1-0000.mp3",
+          "sha256": "3fef30a521f00f990c04700c7ea7c69750fc793ef9e404c37113a1a3c911a8bb",
           "start": 0
         }
       ],
@@ -9793,12 +9793,12 @@
         ]
       },
       "fullHash": "00f577",
-      "generation": "aec8a6ecb505bf413ae6",
+      "generation": "083cb289dcefc9e02964",
       "hash": "00f577",
       "source": {
-        "duration": 36.04898,
+        "duration": 36.257959,
         "file": null,
-        "sha256": "a04ad7a385513e32d205ef2a4b17c6aabe269ce9e14e34f4322c02ad4d7cd2f8"
+        "sha256": "c69c51df4e610ff19470fcb71f99d54efe2fbd519ad0ca5434abab0454e5d679"
       },
       "text": "Kreenig Snarlsnout's Tusk. At the Crossroads, Thork awaits proof that Kreenig Snarlsnout has fallen. The tusk marks the end of the Razormane leader's attacks on Horde caravans in the northern Barrens. Horde caravans traveling west from Durotar face constant attacks in the Barrens. Under Kreenig Snarlsnout, a fierce Razormane leader, those raids grew bolder. So Thork, commander of the Crossroads watch, ordered Kreenig killed to disrupt the quilboars' coordination.\n\nKreenig's tusk proves the leader is dead and insults the Razormane. Their resolve weakens, and their fighters are left without central direction."
     },
@@ -9831,9 +9831,9 @@
     "item:kuz-s-skull": {
       "1": [
         {
-          "duration": 36.1534693877551,
-          "file": "Audio/Transport/full_item_kuz-s-skull-bd93ceb7d2266c0a095a/1-0000.mp3",
-          "sha256": "524d6cca67835d12a1c70f705611300d3b6e2a59f8f30a1d36b69f764a6d1539",
+          "duration": 35.866122448979596,
+          "file": "Audio/Transport/full_item_kuz-s-skull-b9d45d5fdd59d9d671b0/1-0000.mp3",
+          "sha256": "390ff676aa402cd9ec9d18732bdf79cb09ca6cc9e8657cdbff503657bc49ac0e",
           "start": 0
         }
       ],
@@ -9845,12 +9845,12 @@
         ]
       },
       "fullHash": "aee366",
-      "generation": "d50aaa85aae4d2d6b849",
+      "generation": "17f013b1d85c2818f0f9",
       "hash": "aee366",
       "source": {
-        "duration": 36.179592,
+        "duration": 35.866122,
         "file": null,
-        "sha256": "bd93ceb7d2266c0a095aafbe9d791c0bc7e5b6d7bf290ef679f9f8e867ed76b1"
+        "sha256": "b9d45d5fdd59d9d671b0b89059f204270272b8a9c177f467c7c1a8b750409e43"
       },
       "text": "Kuz's Skull. In the southern Barrens, Kuz's Skull marks the fall of a feared Razormane raider. From Razorfen Kraul, Kuz helped lead attacks on Horde outposts until a captive former kin sought vengeance. Kuz, Nak, and their chieftain Lok Orcbane led Razormane attacks across the southern Barrens. Sent from Razorfen Kraul, the three raiders struck travelers and settlements such as the Crossroads. They betrayed Mangletooth, a fellow quilboar, and left him to rot in a cage at Camp Taurajo. From there, Mangletooth revealed Kuz's location to Horde champions willing to kill the raider and take her head."
     },
@@ -10273,9 +10273,9 @@
     "item:lok-s-skull": {
       "1": [
         {
-          "duration": 38.66122448979592,
-          "file": "Audio/Transport/full_item_lok-s-skull-3da31280d3f8696df4f3/1-0000.mp3",
-          "sha256": "20d7589141d4514f818075d95ebb812b0f36fca08a135b2582bb4947a80d4ddd",
+          "duration": 38.42612244897959,
+          "file": "Audio/Transport/full_item_lok-s-skull-6b3397c5bc5bfeb8b3df/1-0000.mp3",
+          "sha256": "4b970c67200159c44a092728830b48eb9d4588d00d0d460a73f7f99903520619",
           "start": 0
         }
       ],
@@ -10287,12 +10287,12 @@
         ]
       },
       "fullHash": "7510b1",
-      "generation": "fa37a782bece4ddfc0db",
+      "generation": "9515fb44d239d26a0697",
       "hash": "7510b1",
       "source": {
-        "duration": 38.687347,
+        "duration": 38.426122,
         "file": null,
-        "sha256": "3da31280d3f8696df4f332b0a8fb20838e33f78285371f88179ace85da13df72"
+        "sha256": "6b3397c5bc5bfeb8b3dfc246e7221db846a5e50afd8006568aba287e7966906f"
       },
       "text": "Lok's Skull. In the southern Barrens, Lok's Skull marks the fall of a feared Razormane leader. Lok Orcbane led fierce quilboar raids against Horde supply routes, and the skull is his severed head. Lok Orcbane led aggressive Razormane assaults on Horde supply lines in the southern Barrens. He emerged from Razorfen Kraul with his lieutenants Nak and Kuz. After betraying Mangletooth and leaving him captive at Camp Taurajo, Lok became known to orcish defenders for ruthless raids they struggled to contain. Mangletooth directs Horde champions to Lok's camp. Claiming Lok's skull avenges the captive and strikes at the leaders driving the Razormane offensive."
     },
@@ -11287,9 +11287,9 @@
     "item:nak-s-skull": {
       "1": [
         {
-          "duration": 44.27755102040817,
-          "file": "Audio/Transport/full_item_nak-s-skull-91ee369d6d80bf751924/1-0000.mp3",
-          "sha256": "debbe1a74740bd77c1a77114536455dd5558ac0fac61bad3cd114e9818d01de9",
+          "duration": 42.50122448979592,
+          "file": "Audio/Transport/full_item_nak-s-skull-e4c6e1b5e71ae2aecd7a/1-0000.mp3",
+          "sha256": "24027dd809d2aeeddee3db37e7a84e83c39a03ba5d1372d498a868ffcaf31a3a",
           "start": 0
         }
       ],
@@ -11301,12 +11301,12 @@
         ]
       },
       "fullHash": "680617",
-      "generation": "115294c5948bc6dc21a4",
+      "generation": "854587b082a00b506b9f",
       "hash": "680617",
       "source": {
-        "duration": 44.277551,
+        "duration": 42.501224,
         "file": null,
-        "sha256": "91ee369d6d80bf751924bfdb98787733d5c344c96b0621463e4c8319bd92d139"
+        "sha256": "e4c6e1b5e71ae2aecd7a617e00b2ca3f4fab83edf60f4a9538feb93cd5859022"
       },
       "text": "Nak's Skull. Nak's Skull carries weight in the southern Barrens, where Razormane raids trouble the Horde. At Camp Taurajo, Mangletooth seeks vengeance on the kin who left him to die. Nak, Kuz, and Lok Orcbane lead raids from Razorfen Kraul across the Barrens. Their warbands strike Horde settlements and roads, while Crossroads defenders know nothing of plans beyond ordinary tribal skirmishing.\n\nAt Camp Taurajo, the captive Razormane Mangletooth was left to die in a cage by his own people. He now seeks revenge on those former brethren. He demands Nak's, Kuz's, and Lok Orcbane's severed skulls as proof they are dead, delivered by Horde adventurers. With that proof, he means to break the southern raiding parties."
     },
@@ -12821,9 +12821,9 @@
     "item:reagent-pouch-shaman": {
       "1": [
         {
-          "duration": 50.80816326530613,
-          "file": "Audio/Transport/full_item_reagent-pouch-shaman-29230b7103b30d8d1fcf/1-0000.mp3",
-          "sha256": "0b79f304f3504354a25d413ff7340129159146f3d0f99eb5a8d1531e40a7db49",
+          "duration": 48.561632653061224,
+          "file": "Audio/Transport/full_item_reagent-pouch-shaman-29a60c674da26dc789fd/1-0000.mp3",
+          "sha256": "6538388b6c59c9a7db725660514aa15e0db4daf6909ded211c3556b72c3ebe14",
           "start": 0
         }
       ],
@@ -12835,12 +12835,12 @@
         ]
       },
       "fullHash": "a98d6e",
-      "generation": "027c68f68c7ac26c17a5",
+      "generation": "5c628ce1e52e95253c8c",
       "hash": "a98d6e",
       "source": {
-        "duration": 50.834286,
+        "duration": 48.587755,
         "file": null,
-        "sha256": "29230b7103b30d8d1fcfd9f12c83480c8ee327cc3081ffe34d71327a2810ae09"
+        "sha256": "29a60c674da26dc789fd1f2deebe51a0f54177995a29746d3b9a0b3d06a0e983"
       },
       "text": "Reagent Pouch (shaman). In Durotar, Burning Blade cultists carry reagents for a shaman's first fire sapta. Telf Joolam mixes them with fire tar from Razormane quilboar to make a draught that lets a young shaman see the realm of fire. Burning Blade cultists carry reagents for a young shaman's first fire sapta. The hermit Telf Joolam mixes the powders and oils from their pouches with fire tar from Razormane quilboar. Together, these ingredients make a draught that grants sight into the realm of fire and attunes the shaman to the spirits of flame. Burning Blade cultists turn flame toward destruction and fel sorcery. Yet the elements in their pouches still belong to heat and combustion. Shaman teach that elemental forces exist in tension: fire creates as well as destroys. A shaman can use the cultists' tools to awaken true communion with the spirits."
     },
@@ -19337,6 +19337,12 @@
       411,
       641
     ],
+    "040cb874581982fd1e3ec91acfe7e57166df643404c316ef7daeeba120227129": [
+      353,
+      560,
+      710,
+      844
+    ],
     "04342ebf49b8fef0359c0152822dc2bd30daec16b3e4b4ff691ce4637cd545ee": [
       262,
       476,
@@ -19436,12 +19442,6 @@
     "0853d375127b5949da6f9824d89db0bcf0dfc437b205c4c96adce802b8031cc0": [
       451
     ],
-    "0890b18aba3ff57e9e6ed47ddeda0417e04fb1f20b94ee41a4fc91057efdb289": [
-      372,
-      572,
-      727,
-      906
-    ],
     "08a21dd35935f87aae4ff82541bb87d10abf1ee10771b83ba9e9c2117d239023": [
       454,
       616,
@@ -19507,15 +19507,6 @@
       282,
       513,
       874
-    ],
-    "0b79f304f3504354a25d413ff7340129159146f3d0f99eb5a8d1531e40a7db49": [
-      223,
-      527,
-      717,
-      942,
-      1230,
-      1408,
-      1554
     ],
     "0b817b0ecb0f3e76c46d7020fa1fc9917e4738e041842b3251da99aa4b9599f5": [
       211,
@@ -19705,16 +19696,6 @@
       670,
       888,
       1105
-    ],
-    "14f1f56242b68cebd628e26e155e2fd35f10d8c250921ff8d9470f2183b51468": [
-      193,
-      460,
-      632,
-      853,
-      999,
-      1153,
-      1356,
-      1691
     ],
     "154a3aa9805428edff39c095de389ae3842be0092d40eaf910bd6f5f48281e37": [
       265,
@@ -20026,12 +20007,6 @@
       935,
       1156
     ],
-    "20d7589141d4514f818075d95ebb812b0f36fca08a135b2582bb4947a80d4ddd": [
-      196,
-      446,
-      812,
-      1148
-    ],
     "20f42b90c681fec17b67b32e52d5f80582315d31b7693200e29a642724c8791d": [
       324,
       676,
@@ -20105,6 +20080,13 @@
       1165,
       1437,
       1631
+    ],
+    "24027dd809d2aeeddee3db37e7a84e83c39a03ba5d1372d498a868ffcaf31a3a": [
+      205,
+      406,
+      603,
+      889,
+      1110
     ],
     "2423fd61efc182211c27e8e1fbf15b1467763218bc8bd70025cf71f37b60c45f": [
       167,
@@ -20494,6 +20476,12 @@
       1065,
       1330
     ],
+    "390ff676aa402cd9ec9d18732bdf79cb09ca6cc9e8657cdbff503657bc49ac0e": [
+      209,
+      476,
+      922,
+      1137
+    ],
     "39290d3aa147007c18c89eaddc49a418437ee560232f0013f3ca1ac08ef6b970": [
       144,
       444,
@@ -20603,6 +20591,14 @@
       509,
       764,
       931
+    ],
+    "3fef30a521f00f990c04700c7ea7c69750fc793ef9e404c37113a1a3c911a8bb": [
+      196,
+      412,
+      600,
+      802,
+      1061,
+      1228
     ],
     "401e44d2015c87fb18fdf379c7a140e2ea8212f121fa4629dd19735038ae0e59": [
       159,
@@ -20801,6 +20797,13 @@
     "4b92858ca60c6b2e4a6189b78e9647ec8b804cb1639f603101ee7d8a23802cf0": [
       522
     ],
+    "4b970c67200159c44a092728830b48eb9d4588d00d0d460a73f7f99903520619": [
+      201,
+      444,
+      653,
+      805,
+      1128
+    ],
     "4c08286cb5ebe77763bf0d07b5492345f16452e75230bf98bbceab10252c89a6": [
       190,
       434,
@@ -20991,12 +20994,6 @@
       259,
       462,
       785
-    ],
-    "524d6cca67835d12a1c70f705611300d3b6e2a59f8f30a1d36b69f764a6d1539": [
-      192,
-      477,
-      713,
-      1146
     ],
     "5271e0e1d19f01f5499653eb3d9cd813de27145f7ea62394aeaaaccc9b8b3342": [
       374,
@@ -21382,6 +21379,10 @@
     "652b60730cc6ba2a1f0ce67118c672067a073d7ab797068639e78eca204aa2f1": [
       715
     ],
+    "6538388b6c59c9a7db725660514aa15e0db4daf6909ded211c3556b72c3ebe14": [
+      865,
+      1478
+    ],
     "65d076f5e94278992bc05997d775fde8f5398e208ad7a34701cc2898cbbcda34": [
       205,
       501,
@@ -21549,11 +21550,6 @@
       1526,
       1706,
       1857
-    ],
-    "6e77a5af9052217c0dc38104ca3e0dee0fe9f31573652fa3b2539ef4b5286965": [
-      240,
-      418,
-      656
     ],
     "6e8a8330ce1da64fb2e02955becb0011dde9148f8e9049db3bcd4dacda95c176": [
       205,
@@ -22983,6 +22979,11 @@
       1039,
       1225
     ],
+    "a8548c7d00a832fb255c6cb645e28fde0ff056b217750e2c249db3f55ba965f3": [
+      248,
+      434,
+      683
+    ],
     "a874660a864a64e45fb250c831bab1684dd64a36471492613bc2f6e7ac90e72e": [
       389,
       578,
@@ -23796,13 +23797,6 @@
       1036,
       1268
     ],
-    "d34e607bca29a05a03c58dfeb19aea24acf7c7f7f1311f538175835278a50b56": [
-      408,
-      602,
-      804,
-      1044,
-      1218
-    ],
     "d3cac809fd648cd04931dddbea2cc1459a38ba20ff7142e2f0cc3680e0b36d81": [
       388,
       690,
@@ -24058,13 +24052,6 @@
       751,
       989,
       1150
-    ],
-    "debbe1a74740bd77c1a77114536455dd5558ac0fac61bad3cd114e9818d01de9": [
-      203,
-      411,
-      629,
-      939,
-      1168
     ],
     "dee42e91c59bf2ad0d1a054d6920fc83ef0f5452c0a571f4b91fb474d2da4271": [
       237,
@@ -24498,6 +24485,13 @@
       1653,
       1996
     ],
+    "f4873232f36e56c19c4833c06547a29ef933e07873d84df1d570296a9a10dfd1": [
+      428,
+      780,
+      1046,
+      1331,
+      1594
+    ],
     "f4b8022e7fe8564a30fe7c7201b5c77abf68bc130a426ad25c82221471d3e621": [
       234,
       395,
@@ -24843,9 +24837,6 @@
     "07ab9070c978009ea3955859fa08bca73e295fdfb0918ebb22e01d379bbc735f": {
       "397": 1
     },
-    "0890b18aba3ff57e9e6ed47ddeda0417e04fb1f20b94ee41a4fc91057efdb289": {
-      "372": 1
-    },
     "08a21dd35935f87aae4ff82541bb87d10abf1ee10771b83ba9e9c2117d239023": {
       "454": 1
     },
@@ -24879,10 +24870,6 @@
     "0b39f8719cd287fd72e388ad043fa2193749bf9350230fba0109f9adb681aba7": {
       "282": 1,
       "874": 2
-    },
-    "0b79f304f3504354a25d413ff7340129159146f3d0f99eb5a8d1531e40a7db49": {
-      "1230": 2,
-      "527": 1
     },
     "0b817b0ecb0f3e76c46d7020fa1fc9917e4738e041842b3251da99aa4b9599f5": {
       "402": 1
@@ -24954,10 +24941,6 @@
     },
     "14a1efae21101d1f66c5fdfd7ad1ede83156805d8fd4f79375e4fa3be6baadde": {
       "403": 1
-    },
-    "14f1f56242b68cebd628e26e155e2fd35f10d8c250921ff8d9470f2183b51468": {
-      "1153": 2,
-      "460": 1
     },
     "1577831de0a1ff125a4d900d3e9fdf4418f71919a6e7e014ea7224bf77b9a11b": {
       "370": 1
@@ -25074,9 +25057,6 @@
     },
     "20d3c93ccc834f08a854c805129acc43d71633b6daff771c0a57a07fefeee108": {
       "340": 1
-    },
-    "20d7589141d4514f818075d95ebb812b0f36fca08a135b2582bb4947a80d4ddd": {
-      "446": 1
     },
     "20f42b90c681fec17b67b32e52d5f80582315d31b7693200e29a642724c8791d": {
       "1332": 2,
@@ -25474,9 +25454,6 @@
     "52178b8ae3ed6fc570ccf0cdfadeb21068433210b4be192ae6bbc6d8f1d917ed": {
       "259": 1
     },
-    "524d6cca67835d12a1c70f705611300d3b6e2a59f8f30a1d36b69f764a6d1539": {
-      "477": 1
-    },
     "5271e0e1d19f01f5499653eb3d9cd813de27145f7ea62394aeaaaccc9b8b3342": {
       "1288": 2,
       "374": 1
@@ -25706,9 +25683,6 @@
     "6df74a189d9b207e1ef9436e457ea188ee0f64ff45bc4ac77cd3fae40b46a4d1": {
       "1239": 2,
       "458": 1
-    },
-    "6e77a5af9052217c0dc38104ca3e0dee0fe9f31573652fa3b2539ef4b5286965": {
-      "418": 1
     },
     "6e8a8330ce1da64fb2e02955becb0011dde9148f8e9049db3bcd4dacda95c176": {
       "455": 1
@@ -26621,9 +26595,6 @@
     "d346ead7e1d2a8e45ba30edf9c427264f9c115e513a292369b4aafd8df07bac3": {
       "496": 1
     },
-    "d34e607bca29a05a03c58dfeb19aea24acf7c7f7f1311f538175835278a50b56": {
-      "408": 1
-    },
     "d3cac809fd648cd04931dddbea2cc1459a38ba20ff7142e2f0cc3680e0b36d81": {
       "388": 1
     },
@@ -26734,9 +26705,6 @@
     "deb1b97690eecb9559d080f6dbda4d46ddb03f47bdd43bc850d1043bfe710441": {
       "233": 1,
       "989": 2
-    },
-    "debbe1a74740bd77c1a77114536455dd5558ac0fac61bad3cd114e9818d01de9": {
-      "411": 1
     },
     "dee42e91c59bf2ad0d1a054d6920fc83ef0f5452c0a571f4b91fb474d2da4271": {
       "447": 1
@@ -27108,6 +27076,38 @@
     {
       "file": "Audio/Transport/full_item_wolf-heart-samples-7a6cbbc10e47c296231e/1-0000.mp3",
       "sha256": "bfb7eb4373dae92789919731e5045bea8cbe41b220c7c946360bed49fb2a1d32"
+    },
+    {
+      "file": "Audio/Transport/full_item_crossroads-supply-crate-0bc7e783c34b72319757/1-0000.mp3",
+      "sha256": "6e77a5af9052217c0dc38104ca3e0dee0fe9f31573652fa3b2539ef4b5286965"
+    },
+    {
+      "file": "Audio/Transport/full_item_fire-tar-5388b271534414532c6f/1-0000.mp3",
+      "sha256": "14f1f56242b68cebd628e26e155e2fd35f10d8c250921ff8d9470f2183b51468"
+    },
+    {
+      "file": "Audio/Transport/full_item_forged-steel-bars-1eb01f82e9e0b01687b8/1-0000.mp3",
+      "sha256": "0890b18aba3ff57e9e6ed47ddeda0417e04fb1f20b94ee41a4fc91057efdb289"
+    },
+    {
+      "file": "Audio/Transport/full_item_kreenig-snarlsnout-s-tusk-a04ad7a385513e32d205/1-0000.mp3",
+      "sha256": "d34e607bca29a05a03c58dfeb19aea24acf7c7f7f1311f538175835278a50b56"
+    },
+    {
+      "file": "Audio/Transport/full_item_kuz-s-skull-bd93ceb7d2266c0a095a/1-0000.mp3",
+      "sha256": "524d6cca67835d12a1c70f705611300d3b6e2a59f8f30a1d36b69f764a6d1539"
+    },
+    {
+      "file": "Audio/Transport/full_item_lok-s-skull-3da31280d3f8696df4f3/1-0000.mp3",
+      "sha256": "20d7589141d4514f818075d95ebb812b0f36fca08a135b2582bb4947a80d4ddd"
+    },
+    {
+      "file": "Audio/Transport/full_item_nak-s-skull-91ee369d6d80bf751924/1-0000.mp3",
+      "sha256": "debbe1a74740bd77c1a77114536455dd5558ac0fac61bad3cd114e9818d01de9"
+    },
+    {
+      "file": "Audio/Transport/full_item_reagent-pouch-shaman-29230b7103b30d8d1fcf/1-0000.mp3",
+      "sha256": "0b79f304f3504354a25d413ff7340129159146f3d0f99eb5a8d1531e40a7db49"
     }
   ],
   "version": 1

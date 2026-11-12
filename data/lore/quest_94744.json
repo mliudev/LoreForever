@@ -1,0 +1,79 @@
+{
+ "key": "quest:94744",
+ "type": "quest",
+ "name": "The Wayward Warrior",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94744
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Krom'rosh asks you to join his brother Dag'rosh at the Twilight's Hammer stronghold west of Rog'mar. The cult's foothold in Sunnyglade has weakened, and the fight is moving to its stronghold.",
+ "sections": [
+  {
+   "title": "A Brother Ahead",
+   "body": "Krom'rosh sends you after Dag'rosh, who has gone ahead with a scouting party. The hills west of Rog'mar are where you are to find him. Krom'rosh says the Twilight's Hammer has lost ground in Sunnyglade, and their ogre warriors have turned against them. Now he wants you beside his brother as the battle moves to the cult's stronghold.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to find Dag'rosh?",
+   "aliases": [
+    "who sent me",
+    "Krom'rosh",
+    "who wants Dag'rosh"
+   ],
+   "answer": "Krom'rosh asks you to join his brother Dag'rosh at the Twilight's Hammer stronghold."
+  },
+  {
+   "q": "Where can I find Dag'rosh?",
+   "aliases": [
+    "where is Dag'rosh",
+    "Dag'rosh location",
+    "find Da'grosh"
+   ],
+   "answer": "Krom'rosh says to look for Dag'rosh in the hills west of Rog'mar."
+  },
+  {
+   "q": "Who is Dag'rosh?",
+   "aliases": [
+    "Dag'rosh backstory",
+    "Krom'rosh brother",
+    "who's Dag'rosh"
+   ],
+   "answer": "Dag'rosh is Krom'rosh's brother. He has gone ahead with a scouting party."
+  },
+  {
+   "q": "What happened to the Twilight's Hammer in Sunnyglade?",
+   "aliases": [
+    "Sunnyglade cult",
+    "Twilight's Hammer foothold",
+    "what happened to the ogres"
+   ],
+   "answer": "The Twilight's Hammer foothold in Sunnyglade has weakened, and its ogre warriors have turned against it."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dag'rosh",
+  "krom'rosh",
+  "ogre warriors",
+  "rog'mar",
+  "sunnyglade",
+  "the wayward warrior",
+  "twilight's hammer"
+ ],
+ "related": [
+  "subzone:sunnyglade",
+  "topic:twilight-s-hammer",
+  "topic:warrior"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Wayward Warrior"
+ ]
+}

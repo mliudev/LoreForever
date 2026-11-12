@@ -1,0 +1,78 @@
+{
+ "key": "quest:94615",
+ "type": "quest",
+ "name": "Foal Play",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94615
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "At Wheeler's Grange, the horses have vanished from the stables. You search for clues to help find out what happened.",
+ "sections": [
+  {
+   "title": "A Search at the Grange",
+   "body": "The stables at Wheeler's Grange may hold clues to the missing horses. Their keeper says they were gone when he rose to feed them. Outside Farholde, animals, murlocs, orcs, and other dangers could be to blame. You search near the stables to narrow down what happened.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where did the horses go?",
+   "aliases": [
+    "missing horses",
+    "horses gone",
+    "where horses"
+   ],
+   "answer": "The horses disappeared from Wheeler's Grange, and you search near the stables for evidence of where they went."
+  },
+  {
+   "q": "What could have taken the horses?",
+   "aliases": [
+    "who took horses",
+    "horse culprit",
+    "what got them"
+   ],
+   "answer": "The keeper considers animals, murlocs, orcs, or other dangers outside Farholde as possible culprits."
+  },
+  {
+   "q": "Why are the horses important?",
+   "aliases": [
+    "why horses matter",
+    "horses living",
+    "horse business"
+   ],
+   "answer": "The horses are how their keeper makes a living."
+  },
+  {
+   "q": "Where should I look for clues?",
+   "aliases": [
+    "stable clues",
+    "where to search",
+    "foal play"
+   ],
+   "answer": "Search near the stables at Wheeler's Grange for evidence about the missing horses."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "coyotes",
+  "farholde",
+  "foal play",
+  "horses",
+  "missing horses",
+  "murlocs",
+  "stables",
+  "wheeler's grange"
+ ],
+ "related": [
+  "topic:murloc"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Foal Play"
+ ]
+}

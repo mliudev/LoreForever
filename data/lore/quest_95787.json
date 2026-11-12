@@ -1,0 +1,93 @@
+{
+ "key": "quest:95787",
+ "type": "quest",
+ "name": "Take Two With Water",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95787
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Loremaster Dibbs asks you to gather legends from the Drowned City, where he believes the lost troll city of I\u2019lalai has risen. The tablets may point to a loa unknown to his research.",
+ "sections": [
+  {
+   "title": "Dibbs\u2019s Discovery",
+   "body": "Loremaster Dibbs has read a scouting report and troll legends that suggest I\u2019lalai, a lost troll city, has risen off Stranglethorn\u2019s coast. He asks you to bring back legends from the Drowned City. The discovery could change what is known of the ancient ruins.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Tablets",
+   "body": "Dibbs welcomes you back from the troll ruins and is eager to hear what you found. Four tablets offer new legends, though his ancient Zandali is rusty. He thinks their words may name an unfamiliar loa associated with the tides.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for these legends?",
+   "aliases": [
+    "who is dibbs",
+    "loremaster dibbs",
+    "dibbs request"
+   ],
+   "answer": "Loremaster Dibbs asks you to collect legends from the Drowned City."
+  },
+  {
+   "q": "What is the Drowned City?",
+   "aliases": [
+    "drowned city",
+    "what city",
+    "underwater troll city"
+   ],
+   "answer": "Dibbs believes it may be the lost troll city of I\u2019lalai, risen off Stranglethorn\u2019s coast."
+  },
+  {
+   "q": "What does Dibbs want me to bring back?",
+   "aliases": [
+    "what do i collect",
+    "tablet rubbings",
+    "drowned city request"
+   ],
+   "answer": "He asks you to make charcoal rubbings of tablets found in the Drowned City and bring back the legends."
+  },
+  {
+   "q": "Why does Dibbs want the legends?",
+   "aliases": [
+    "why legends",
+    "dibbs research",
+    "what is he studying"
+   ],
+   "answer": "He believes the scouting report and troll legends may point to the lost city of I\u2019lalai."
+  },
+  {
+   "q": "Where might I\u2019lalai be?",
+   "aliases": [
+    "where is ilalai",
+    "i'lalai location",
+    "lost troll city"
+   ],
+   "answer": "Dibbs believes I\u2019lalai has risen just off the coast of Stranglethorn."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "drowned city",
+  "i'lalai",
+  "loa",
+  "loremaster dibbs",
+  "tablet rubbings",
+  "tides",
+  "troll legends",
+  "zandali"
+ ],
+ "related": [
+  "quest:95775",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Take Two With Water"
+ ]
+}

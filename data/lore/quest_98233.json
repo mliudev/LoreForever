@@ -1,0 +1,74 @@
+{
+ "key": "quest:98233",
+ "type": "quest",
+ "name": "Sword in the Slime",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98233
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Guard Jameson asks you to recover his training sword from an ooze west of the bay. He needs it back before his sergeant learns it is missing.",
+ "sections": [
+  {
+   "title": "A Lost Sword",
+   "body": "Jameson\u2019s sword went fast when he tried to fight an ooze without one of his own. Now the guard needs you to search for the training blade in an ooze west of the bay and bring it back. His sergeant must not discover the loss.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who lost the sword?",
+   "aliases": [
+    "who lost it",
+    "jameson sword",
+    "whose sword"
+   ],
+   "answer": "Guard Jameson lost his training sword when it became stuck in an ooze."
+  },
+  {
+   "q": "Where is Jameson's sword?",
+   "aliases": [
+    "where sword",
+    "sword location",
+    "find jameson sword"
+   ],
+   "answer": "Jameson believes his sword is stuck in an ooze west of the bay."
+  },
+  {
+   "q": "Why does Jameson want the sword back?",
+   "aliases": [
+    "why get it back",
+    "why sword needed",
+    "sergeant find out"
+   ],
+   "answer": "Jameson wants the sword returned before his sergeant realizes it is missing."
+  },
+  {
+   "q": "What kind of sword is missing?",
+   "aliases": [
+    "what sword",
+    "training blade",
+    "jameson weapon"
+   ],
+   "answer": "It is Jameson's training sword."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "guard jameson",
+  "jameson",
+  "ooze",
+  "sergeant",
+  "sword in the slime",
+  "training sword"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Sword in the Slime"
+ ]
+}

@@ -60,9 +60,11 @@ function Hooks.RefreshBags()
   Hooks.bagInfo = info
 end
 
+-- A quest's name for a tooltip line: its story's, else the quest log's, else the game's. The item index can name a
+-- quest whose story isn't loaded (or has no name), so never read the entry unguarded (LOR-1437).
 local function questTitle(id)
   local e = questEntry(id)
-  if e then return e.n, e end
+  if e and type(e.n) == "string" and e.n ~= "" then return e.n, e end
   local q = Hooks.activeQuests[id]
   if q and q.title then return q.title end
   local QL = _G.C_QuestLog
@@ -118,18 +120,18 @@ function Hooks.ItemLines(name, itemID)
   local rec = ns.DB.index.item and ns.DB.index.item[ns.Engine.lower(name)]
   if rec and #out == 0 then
     for _, id in ipairs(rec.p or {}) do
-      if Hooks.activeQuests[id] then
-        local e = questEntry(id)
-        out[#out + 1] = { text = string.format(L["Carry this for your quest: %s"], e.n), r = 0.5, g = 0.9, b = 0.5 }
+      local title = Hooks.activeQuests[id] and questTitle(id)
+      if title then
+        out[#out + 1] = { text = string.format(L["Carry this for your quest: %s"], title), r = 0.5, g = 0.9, b = 0.5 }
         break
       end
     end
   end
   if rec and #out == 0 then
     for _, id in ipairs(rec.r or {}) do
-      if Hooks.activeQuests[id] then
-        local e = questEntry(id)
-        out[#out + 1] = { text = string.format(L["Needed for your quest: %s"], e.n), r = 0.5, g = 0.9, b = 0.5 }
+      local title = Hooks.activeQuests[id] and questTitle(id)
+      if title then
+        out[#out + 1] = { text = string.format(L["Needed for your quest: %s"], title), r = 0.5, g = 0.9, b = 0.5 }
         break
       end
     end
@@ -137,9 +139,9 @@ function Hooks.ItemLines(name, itemID)
     -- title only) and rewards from quests you've already turned in are mentioned.
     if #out == 0 and rec.w then
       for _, id in ipairs(rec.w) do
-        local e = questEntry(id)
-        if e and questDone(id) then
-          out[#out + 1] = { text = loreTag() .. string.format(L["earned from %s."], e.n), r = 0.8, g = 0.8, b = 0.8 }
+        local title = questDone(id) and questTitle(id)
+        if title then
+          out[#out + 1] = { text = loreTag() .. string.format(L["earned from %s."], title), r = 0.8, g = 0.8, b = 0.8 }
           break
         end
       end
@@ -148,7 +150,10 @@ function Hooks.ItemLines(name, itemID)
   -- Its own story's first line, as on a person's tooltip (Hooks.UnitLine), after why you'd keep it.
   local key = Hooks.ItemKey(name)
   local e = key and ns.DB.entries[key]
-  if e and #out < 2 then out[#out + 1] = { text = loreTag() .. (e.h or e.s), r = 0.85, g = 0.85, b = 0.85 } end
+  local story = e and (e.h or e.s)
+  if type(story) == "string" and #out < 2 then
+    out[#out + 1] = { text = loreTag() .. story, r = 0.85, g = 0.85, b = 0.85 }
+  end
   while #out > 2 do table.remove(out) end
   return out
 end
@@ -160,7 +165,8 @@ function Hooks.UnitLine(name)
   local e = key and ns.DB.entries[key]
   if not e then return nil end
   local text = e.h or e.s
-  if how == "mob" then text = e.n .. ": " .. text end
+  if type(text) ~= "string" then return nil end
+  if how == "mob" and type(e.n) == "string" then text = e.n .. ": " .. text end
   return loreTag() .. text, key
 end
 
@@ -198,16 +204,27 @@ end
 Hooks.ChronicleLine = chronicleLine
 
 local function onUnitTooltip(tooltip)
-  if tooltip ~= GameTooltip or not S().unitTooltips then return end
+  if tooltip ~= GameTooltip then return end
   local ok, _, unit = pcall(tooltip.GetUnit, tooltip)
   if not ok or not unit then return end
-  local name = ns.Context.NPCName(unit)
-  local line, key = Hooks.UnitLine(name)
-  if not line then return end
-  tooltip:AddLine(line, 0.85, 0.85, 0.85, true)
-  bindHint(tooltip, key)
-  chronicleLine(tooltip, key)
-  tooltip:Show()
+  local added
+  if S().unitTooltips then
+    local name = ns.Context.NPCName(unit)
+    local line, key = Hooks.UnitLine(name)
+    if line then
+      tooltip:AddLine(line, 0.85, 0.85, 0.85, true)
+      bindHint(tooltip, key)
+      chronicleLine(tooltip, key)
+      added = true
+    end
+  end
+  -- Whether they'd answer you out loud, and the key (TalkMark.lua, LOR-910): its own tick, lore or not.
+  local talk = ns.TalkMark and ns.TalkMark.TooltipLine(unit)
+  if talk then
+    tooltip:AddLine(talk, 0.561, 0.890, 0.847, true)
+    added = true
+  end
+  if added then tooltip:Show() end
 end
 
 local function onItemTooltip(tooltip)
@@ -754,7 +771,7 @@ local function setQuestPill(p, lore, state, page, kind, text)
   local offer = not recorded and quest and kind and ns.VoiceOffer.ForQuest(quest, kind, gameQuestLevel(quest), text) or nil
   p.page = recorded and page or nil
   ns.Theme.SetPillOffer(p, offer)
-  ns.Theme.SetPill(p, state == "stop", can, can and UI.PlaylistIndex(UI.QuestItemId(quest)) ~= nil, recorded)
+  ns.Theme.SetPill(p, state == "stop", can, can and UI.QueuedIndex(UI.QuestItemId(quest)) ~= nil, recorded)
   p:SetShown(recorded or can or offer ~= nil)
   if offer then ns.VoiceOffer.Showing(offer) end
 end
@@ -1006,7 +1023,7 @@ function Hooks.UpdateBookButton()
   local UI = ns.UI
   local reading, book = Hooks.ReadingBook(), ns.Voice.OpenBook()
   p.book = book
-  ns.Theme.SetPill(p, reading, book ~= nil, book ~= nil and UI.PlaylistIndex(book.id) ~= nil,
+  ns.Theme.SetPill(p, reading, book ~= nil, book ~= nil and UI.QueuedIndex(book.id) ~= nil,
     reading or ns.Voice.BookPageClip() ~= nil)
   p:SetShown(reading or book ~= nil)
 end

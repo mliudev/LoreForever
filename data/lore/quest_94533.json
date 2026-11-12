@@ -1,0 +1,86 @@
+{
+ "key": "quest:94533",
+ "type": "quest",
+ "name": "Snargl's Snout",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94533
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Neza Bloodsnout seeks Snargl's snout as a trophy. The elder gnoll's unpleasant sounds trouble allies and scouts in the Bristle Hills.",
+ "sections": [
+  {
+   "title": "A Trophy for Neza",
+   "body": "Neza Bloodsnout wants a memento for a collection, and Snargl is the gnoll she names. You are sent to the Bristle Hills to retrieve his snout. Neza expects you to be swift; the allies and scouts entering that area face trouble from Snargl's sounds.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Snargl?",
+   "aliases": [
+    "snargl",
+    "snargl gnoll",
+    "elder gnoll"
+   ],
+   "answer": "Snargl is an elder gnoll in the Bristle Hills southwest of Neza Bloodsnout."
+  },
+  {
+   "q": "Why does Neza want Snargl's snout?",
+   "aliases": [
+    "why snout",
+    "snargl trophy",
+    "neza collection"
+   ],
+   "answer": "Neza wants Snargl's snout as a memento for a trophy collection."
+  },
+  {
+   "q": "Where is Snargl?",
+   "aliases": [
+    "snargl location",
+    "where snargl",
+    "bristle hills gnoll"
+   ],
+   "answer": "Snargl is in the Bristle Hills, southwest of Neza Bloodsnout."
+  },
+  {
+   "q": "What trouble does Snargl cause?",
+   "aliases": [
+    "snargl sounds",
+    "why scouts troubled",
+    "gnoll noise"
+   ],
+   "answer": "Snargl makes unpleasant sounds that trouble allies and scouts who enter the Bristle Hills."
+  },
+  {
+   "q": "What does Neza say when you return?",
+   "aliases": [
+    "snargl completion",
+    "neza reaction",
+    "snout done"
+   ],
+   "answer": "Neza says the trophy is heavier than expected and welcomes it as an addition to the collection."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bristle hills",
+  "gnoll",
+  "neza bloodsnout",
+  "snargl",
+  "snargl's snout",
+  "snout",
+  "trophy"
+ ],
+ "related": [
+  "topic:gnoll"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Snargl's Snout"
+ ]
+}

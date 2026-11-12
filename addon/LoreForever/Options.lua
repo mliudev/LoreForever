@@ -62,7 +62,10 @@ Options.DEFAULTS = {
   -- "Suggest Willo": until the companion app is installed, her icon by Journey (LOR-601) and one line about her when
   -- the add-on has no answer, once a play session (Companion.SuggestWillo, LOR-459).
   getWillo = true,
-  language = "auto",      -- "auto" (the game client's language), "enUS" or a language pack's locale
+  -- "Show who can answer you" (TalkMark.lua, LOR-910): the mark by your target, and the tooltip line, on a character
+  -- who'd answer you out loud with Willo's key for them. talkMarkWords counts the targets that showed its words.
+  talkMark = true,
+  language = "auto",     -- "auto" (the game client's language), "enUS" or a language pack's locale
   -- Narration voices: voiceOrder (pack add-on names, "auto" = the default pack) and voiceOff (unticked ones) are
   -- set up by Voice.lua, which also moves the old one-voice setting (voicePack) into them.
   voiceGroup = "story",    -- keep one voice per "story" (a story and its questions), per "zone", or pick per "line"
@@ -683,9 +686,9 @@ local function rows()
     { "typing", L["Typing animation"], L["Answers type in quickly. Click an answer to show it all at once."] },
     { "chatLinks", L["Clickable names in answers"], L["Names of places, people and events in an answer open their own story. Shift-click one to add it to your playlist."] },
     { "showSpoilers", L["Tell me everything"], L["Story passages and answers that give away what's ahead wait until your quests reach them. Tick this to see and hear the whole story now."] },
-    { "onDemand", L["Narration: only when I press Play"], L["Nothing plays by itself: not as you arrive, on flights, at quest givers or in books. Play buttons, the Narrate key and your playlist still work."] },
+    { "onDemand", L["Narration: only when I press Play"], L["Nothing plays by itself: not as you arrive or find something new, on flights, at quest givers or in books. Play buttons, the Narrate key and your playlist still work."] },
     { "narrateFlights", L["Narrate flights"], L["Read the story of each zone aloud while on a flight path."] },
-    { "autoZone", L["Play narrations as you arrive"], L["When you reach a zone or place with a recorded narration, play it. Storyline recaps and the story passages your quests open play by themselves under this too. Never during combat or a flight, and never over something already playing."] },
+    { "autoZone", L["Play narrations as you arrive"], L["When you reach a place or find a new page with a recorded narration (a person, a topic, an item), its story joins your playlist and plays in its turn. Storyline recaps and the story passages your quests open play by themselves under this too. Never during combat or a flight, and never over something already playing."] },
     -- (a community pack frozen before this wording, Italian and Romanian, still has the line as it was: its own words over English)
     { "questDialogue", L["Speak quest dialogue"], rawget(L, "Hear each quest read aloud as you open it. If another add-on reads your quests, Lore Forever turns this off by itself, so you never hear one twice. With it off, the play button next to Lore still plays a quest when you ask.")
       or rawget(L, "Hear each quest page as you open it. When it's off, press the play button next to Lore on the quest window. Leave it off if another add-on reads your quests.")
@@ -713,6 +716,7 @@ end
 -- alone, and journey pictures reach the journey through Willo's picture book.
 local function willoRows()
   local out = {
+    { "talkMark", L["Show who can answer you"], L["When you target someone who can answer you, a small mark beside your target, and a line in their tooltip, says which key to hold to ask them out loud. Never on enemies, animals or other players."] },
     { "pictureHideUI", L["Hide the interface when taking a journey picture"], L["Print Screen takes a normal WoW screenshot. For a journey picture, use /lore picture or give Take a journey picture a key under Keys, above. This option hides your interface for a moment, except in combat. Turn on Picture book in %s to keep your journey pictures."]:format(ns.COMPANION_NAME) },
   }
   if ns.Journey and ns.Journey.PictureBookOn() then
@@ -932,6 +936,7 @@ function Options.Create()
       if key == "subtitles" and ns.Subtitles then ns.Subtitles.Set(self:GetChecked()) end
       if key == "onDemand" then ns.Voice.SetOnDemand(self:GetChecked()); p.Waiting() end
       if key == "getWillo" and ns.UI.UpdateWilloIcon then ns.UI.UpdateWilloIcon() end
+      if key == "talkMark" and ns.TalkMark then ns.TalkMark.Update() end
       if key == "questDialogue" then   -- the player's own choice from now on (a later release can tell it from a default)
         LoreForeverDB.settings.questDialogueTouched = true
         ns.Voice.SetQuestDialogue(self:GetChecked())
@@ -1138,6 +1143,27 @@ function Options.Create()
     local on = ns.Companion.Installed()
     updateSkyRow(on or ns.Companion.OFFER_WILLO and true or false, on)
   end)
+  -- Her sky on or off with a click, beside moving it (LOR-1429: a player who uninstalled Willo found only "move the
+  -- sky" here). Uninstalling her leaves her LoreForever_Willo add-on in the game (Willo.iss), so the add-on can't tell
+  -- she's gone and her Settings may be out of reach: the way off is here for everyone, as /lore live. Turning it back
+  -- on here is offered only after it was turned off here with her yes standing, under the explanation she gave.
+  local liveBtn = ns.Theme.Button(c, L["Turn off the sky"])
+  liveBtn:SetSize(150, 24)   -- (placed in updateWillo)
+  fit(liveBtn, 150)
+  liveBtn:SetScript("OnClick", function()
+    ns.Strip.Choose(not ns.Strip.On())
+    p.updateWillo()
+  end)
+  liveBtn:SetScript("OnEnter", function(self)
+    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+    GameTooltip:AddLine(self:GetText())
+    T.Tip(ns.Strip.On()
+      and L["Live game info off: %s's sky no longer shows in the game. Same as /lore live."]:format(ns.COMPANION_NAME)
+      or L["Live game info on again, as you said yes to it in %s."]:format(ns.COMPANION_NAME), "tipText", true)
+    GameTooltip:Show()
+  end)
+  liveBtn:SetScript("OnLeave", function() GameTooltip:Hide() end)
+  p.liveButton = liveBtn
   local willoLast = skyRow
   -- What follows lines up with the Willo heading again, not with the indented description above it (or, with no
   -- section, with the buttons above).
@@ -1148,9 +1174,6 @@ function Options.Create()
     local shown = on or ns.Companion.OFFER_WILLO and true or false
     willoHead:SetShown(shown)
     willoNote:SetShown(shown)
-    willoEnd:ClearAllPoints()
-    if shown then willoEnd:SetPoint("TOPLEFT", willoLast, "BOTTOMLEFT", -28, 0)
-    else willoEnd:SetPoint("TOPLEFT", windowsBtn, "BOTTOMLEFT", 0, 0) end
     willoNote:SetText(on and string.format(L["These work with %s, Lore Forever's companion app on this PC."], ns.COMPANION_NAME)
       or string.format(L["Needs %s, Lore Forever's free companion app (%s). Installed it? Type /reload."],
         ns.COMPANION_NAME, ns.Companion.WILLO_URL))
@@ -1159,13 +1182,27 @@ function Options.Create()
       or ns.Strip.Always() and L["Live game info: on, sky kept up"]
       or L["Live game info: on, sky hidden until you talk to %s"]:format(ns.COMPANION_NAME))
     -- On with no yes from Willo (no Willo, or /lore live or an old tick, and her switch off): the sky still paints and
-    -- her switch wouldn't stop it, so the way off is here (LOR-541). Turned off here with her yes standing: her switch
-    -- shows on, so her Settings wouldn't help.
-    liveWhere:SetText(live and (not on or not ns.Strip.OnFromWillo()) and L["Type /lore live to turn it off."]
-      or not live and ns.Strip.OnFromWillo() and L["You turned it off in the game. Type /lore live to turn it back on."]
+    -- her switch wouldn't stop it, so the way off is the button here (LOR-541, LOR-1429). Turned off here with her yes
+    -- standing: her switch shows on, so her Settings wouldn't help; the button turns it back on.
+    local here = live and (not on or not ns.Strip.OnFromWillo()) or not live and ns.Strip.OnFromWillo()
+    liveWhere:SetText(live and here and ""
+      or not live and here and L["You turned it off in the game."]
       or L["You set this in %s: Settings › What she can see."]:format(ns.COMPANION_NAME))
     liveLine:SetShown(shown)
     liveWhere:SetShown(shown)
+    liveBtn:SetText(live and L["Turn off the sky"] or L["Turn on the sky"])
+    fit(liveBtn, 150)
+    liveBtn:SetShown(shown and (live or here) and true or false)
+    -- Beside Put it back while it fits; a longer translation goes on the line below, so it never runs off the page.
+    local right, backRight = c:GetRight(), skyRow.back:GetRight()
+    local below = right and backRight and backRight + 28 + liveBtn:GetWidth() > right - 24 or false
+    liveBtn:ClearAllPoints()
+    if below then liveBtn:SetPoint("TOPLEFT", skyRow, "BOTTOMLEFT", 0, -8)
+    else liveBtn:SetPoint("LEFT", skyRow.back, "RIGHT", 28, 0) end   -- apart: Put it back isn't "put the sky back"
+    willoLast = below and liveBtn:IsShown() and liveBtn or skyRow
+    willoEnd:ClearAllPoints()
+    if shown then willoEnd:SetPoint("TOPLEFT", willoLast, "BOTTOMLEFT", -28, 0)
+    else willoEnd:SetPoint("TOPLEFT", windowsBtn, "BOTTOMLEFT", 0, 0) end
     for _, cb in ipairs(p.willoChecks) do
       cb:SetShown(shown)
       cb.desc:SetShown(shown)

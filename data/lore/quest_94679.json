@@ -1,0 +1,82 @@
+{
+ "key": "quest:94679",
+ "type": "quest",
+ "name": "Snargl's Snout",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94679
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Cedric Dalton at Southern Watch wants Snargl's snout from the Bristle Hills. He believes killing a strong gnoll will weaken Redridge's ranks and frighten them.",
+ "sections": [
+  {
+   "title": "A Gnoll in the Hills",
+   "body": "At Southern Watch, Cedric Dalton asks you to deal with Snargl, a notorious gnoll in a den among the Bristle Hills. He believes gnolls prize strength above all else, so Snargl's death could weaken Redridge's ranks and spread fear among them. Cedric wants you to bring back Snargl's snout.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Trophy Returned",
+   "body": "Cedric receives Snargl's snout as a trophy and says it will soon be put to use. The gnoll's death is meant to strike fear into Redridge's ranks.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Snargl?",
+   "aliases": [
+    "snargl who",
+    "snargl gnoll",
+    "bristle hills gnoll"
+   ],
+   "answer": "Snargl is a notorious gnoll in a den among the Bristle Hills."
+  },
+  {
+   "q": "Who wants Snargl's snout?",
+   "aliases": [
+    "snargl snout for who",
+    "cedric dalton request",
+    "southern watch snout"
+   ],
+   "answer": "Cedric Dalton at Southern Watch asks you to bring him Snargl's snout."
+  },
+  {
+   "q": "Why does Cedric want Snargl dead?",
+   "aliases": [
+    "why kill snargl",
+    "gnoll strength",
+    "scare redridge"
+   ],
+   "answer": "Cedric believes gnolls value strength above all else, and that killing their strongest will weaken them and frighten them."
+  },
+  {
+   "q": "Where is Snargl?",
+   "aliases": [
+    "snargl location",
+    "where snargl",
+    "bristle hills den"
+   ],
+   "answer": "Snargl is in a den among the Bristle Hills."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bristle hills",
+  "cedric dalton",
+  "gnoll",
+  "redridge",
+  "snargl",
+  "snargl's snout",
+  "southern watch"
+ ],
+ "related": [
+  "topic:gnoll"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Snargl's Snout"
+ ]
+}

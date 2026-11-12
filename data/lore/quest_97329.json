@@ -1,0 +1,103 @@
+{
+ "key": "quest:97329",
+ "type": "quest",
+ "name": "Where's the Key?",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97329
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Zimmix Sputterspark is trapped in a cage after his zeppelin was shot down near Booty Bay. He asks you to bring him a key held by trolls at Zul'Kunda.",
+ "sections": [
+  {
+   "title": "A Crash Near Booty Bay",
+   "body": "Zimmix Sputterspark calls you over from his cage near Booty Bay. He had arranged for the bay to use its zeppelin tower for faster deliveries, but the first route ended with his craft shot down to the east. He survived the crash, then woke to find himself dragged away and locked up among trolls. Now he asks you to bring him the Primitive Key held by trolls at the Ruins of Zul'Kunda in Stranglethorn Vale.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Key",
+   "body": "At the cage, Zimmix lunges toward the key when you bring it back. He repeatedly tries to snatch it from you and insists that you hand it over.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is trapped in the cage?",
+   "aliases": [
+    "who is Zimmix",
+    "caged gnome",
+    "zimix"
+   ],
+   "answer": "Zimmix Sputterspark is trapped in a cage near Booty Bay after his zeppelin was shot down."
+  },
+  {
+   "q": "What happened to Zimmix's zeppelin?",
+   "aliases": [
+    "why did he crash",
+    "zeppelin crash",
+    "what happened to Zimmix"
+   ],
+   "answer": "Zimmix says his zeppelin was shot down to the east on its first delivery route."
+  },
+  {
+   "q": "Why is Zimmix in a cage?",
+   "aliases": [
+    "why caged",
+    "troll cage",
+    "how did he get caught"
+   ],
+   "answer": "After surviving the crash, Zimmix woke while he was being dragged by his ears and found himself locked in a cage among trolls."
+  },
+  {
+   "q": "What key does Zimmix want?",
+   "aliases": [
+    "which key",
+    "primitive key",
+    "key for Zimmix"
+   ],
+   "answer": "Zimmix asks you to bring him the Primitive Key held by trolls at the Ruins of Zul'Kunda in Stranglethorn Vale."
+  },
+  {
+   "q": "Where is the Primitive Key?",
+   "aliases": [
+    "where key",
+    "zul kunda key",
+    "key location"
+   ],
+   "answer": "The Primitive Key is held by trolls at the Ruins of Zul'Kunda in Stranglethorn Vale."
+  },
+  {
+   "q": "What does Zimmix do when you bring the key?",
+   "aliases": [
+    "key handover",
+    "Zimmix grabs key",
+    "what happens with key"
+   ],
+   "answer": "Zimmix lunges toward the key and repeatedly tries to swipe it from you."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "cage",
+  "primitive key",
+  "trolls",
+  "where's the key",
+  "zeppelin",
+  "zimmix sputterspark",
+  "zul'kunda"
+ ],
+ "related": [
+  "subzone:booty-bay",
+  "zone:stranglethorn",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Where's the Key?"
+ ]
+}

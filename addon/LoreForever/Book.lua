@@ -806,7 +806,7 @@ local function setTile(b, it, done)
     b.edge:SetColor("inkRim")
     if c then b.rarityEdge:SetColor({ c[1] * 0.85, c[2] * 0.85, c[3] * 0.85, 1 }) end
     b.rarityEdge:SetShown(c ~= nil)
-    local queued = ns.UI.PlaylistIndex(it.key) ~= nil
+    local queued = ns.UI.QueuedIndex(it.key) ~= nil
     b.queued:SetShown(queued)
     b.queuedRim:SetShown(queued)
   else

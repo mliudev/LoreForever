@@ -1,0 +1,71 @@
+{
+ "key": "quest:94734",
+ "type": "quest",
+ "name": "A Boar's Delight",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94734
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Gobam asks you to gather sweet berries and river plants for his pet, Snufflesnout. The ingredients will make a special treat.",
+ "sections": [
+  {
+   "title": "A Pet's Treat",
+   "body": "Gobam wants to make something special for Snufflesnout, who loves good food. You are asked to bring back sweet berries and river plants for the treat.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gobam?",
+   "aliases": [
+    "gobam who",
+    "who asks for berries"
+   ],
+   "answer": "Gobam is asking you to bring ingredients for a special treat for his pet, Snufflesnout."
+  },
+  {
+   "q": "Who is Snufflesnout?",
+   "aliases": [
+    "snufflesnout pet",
+    "gobam's pet"
+   ],
+   "answer": "Snufflesnout is Gobam's pet and loves good food."
+  },
+  {
+   "q": "What ingredients does Gobam want?",
+   "aliases": [
+    "berry and plant",
+    "what food"
+   ],
+   "answer": "Gobam asks for sweet berries and riverweed to make a treat for Snufflesnout."
+  },
+  {
+   "q": "Why does Gobam want berries?",
+   "aliases": [
+    "why berries",
+    "berries for what"
+   ],
+   "answer": "Gobam wants sweet berries and riverweed to make a special treat for Snufflesnout."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "berry",
+  "gobam",
+  "pet",
+  "riverweed",
+  "snufflesnout",
+  "sweetberry",
+  "treat"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Boar's Delight"
+ ]
+}

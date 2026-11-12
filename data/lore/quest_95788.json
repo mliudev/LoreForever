@@ -1,0 +1,92 @@
+{
+ "key": "quest:95788",
+ "type": "quest",
+ "name": "Magics of the Drowned City",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95788
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A scholar asks you to bring troll fetishes from I'lalai for study. Their strange design may be tied to the magic that raised the drowned city.",
+ "sections": [
+  {
+   "title": "Fetishes for Study",
+   "body": "The scholar examining Brother Nimetz's Skullsplitter fetishes asks you to gather more in I'lalai. Rumors say the lost troll city has risen from beneath the water, and its raising may involve dark magic. The scholar wants to compare its fetishes with those already examined.",
+   "spoiler": 0
+  },
+  {
+   "title": "Many Magics",
+   "body": "After you return, the scholar finds the I'lalai fetishes distinct, with intricate yet simple construction and a great sea serpent design. Your account describes undead, pirates, blood rituals, and naga forces converging among the ruins. The city now draws many kinds of magic together, and the scholar sees cause for further study.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for the fetishes?",
+   "aliases": [
+    "who wants fetishes",
+    "scholar fetishes"
+   ],
+   "answer": "The scholar who examined Brother Nimetz's Skullsplitter fetishes asks you to bring troll fetishes from I'lalai."
+  },
+  {
+   "q": "Why are the fetishes being gathered?",
+   "aliases": [
+    "why collect fetishes",
+    "fetish study"
+   ],
+   "answer": "The scholar wants to study whether I'lalai's fetishes are connected to the dark magic said to have raised the city."
+  },
+  {
+   "q": "What is I'lalai?",
+   "aliases": [
+    "drowned city",
+    "troll city"
+   ],
+   "answer": "I'lalai is a lost troll city rumored to have risen from beneath the water."
+  },
+  {
+   "q": "What stands out about the I'lalai fetishes?",
+   "aliases": [
+    "fetish design",
+    "sea serpent fetish"
+   ],
+   "answer": "They have a great sea serpent design, and their construction is more intricate in some ways and simpler in others than the fetishes examined before."
+  },
+  {
+   "q": "What forces are converging on I'lalai?",
+   "aliases": [
+    "who is in ilalai",
+    "undead pirates naga"
+   ],
+   "answer": "Your account describes roaming undead, invading pirates, blood rituals, and naga forces among the ruins."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brother nimetz",
+  "dark magic",
+  "drowned city",
+  "fetishes",
+  "i'lalai",
+  "naga",
+  "pirates",
+  "sea serpent",
+  "troll",
+  "undead"
+ ],
+ "related": [
+  "quest:95775",
+  "quest:98313",
+  "topic:naga",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Magics of the Drowned City"
+ ]
+}

@@ -8,6 +8,15 @@
 -- (12: the low bits of the CRC-32 of Journey.CharKey, as Strip.Identity's), and which (16: the level, the quest's or
 -- the item's id, a hash for a faction or a craft, the day for a rough patch). Willo keeps what she has said, so a page
 -- read twice is said once.
+-- Two pages (kind 15; the Architect's layout ruling 11/11, LOR-1412), only to a Willo that reads them
+-- (Strip.PairsFromWillo) and only where one page can't carry it: the Design Lead's three new moments (Mike, 11/11: "Yes,
+-- A for both": a dungeon finished, the end of a quest line, the first time in a zone) and a number past 16 bits. Page
+-- A: 0xC5, then 15 (4 bits), the subkind (4: SUB), whose (12) and a check (12: the CRC-32 of page B's last 4 bytes, mod
+-- 4096). Page B: 0xC6 (kind 3, low bits 6), then the whole number, 32 bits big-endian. The sky shows them in turn
+-- (Strip.Moment); Willo says it only when both came and the check fits, and drops half a pair. Worked example (Lua and
+-- Python both reproduce it): the end of a quest line (SUB 11) for quest 79192, whose 0x6C1: B = C6 00 01 35 58, the
+-- check CRC-32(00 01 35 58) % 4096 = 0xE5B, A = C5 FB 6C 1E 5B. To a Willo without pairs a new kind isn't sent, and
+-- everything else goes as one page, exactly as before.
 -- A level and a rough patch come from the game's own events; the rest from the journey as it records them (with
 -- "Remember my journey" off, only those two). Never mid-fight: a moment waits while the player fights, is dead,
 -- watches a cutscene, hears a Lore Forever narration, asks Willo or hears her answer, takes a journey picture, moves
@@ -21,11 +30,26 @@ local _, ns = ...
 local Moments = {}
 ns.Moments = Moments
 
--- The kinds, biggest first: when two come together, the bigger one goes.
--- Kinds 10 to 14 are Moments.CUT (below). Kind 15 stays free: the door to a wider page layout (the full number).
+-- The kinds one page carries. Kinds 10 to 14 are Moments.CUT (below); kind 15 is two pages (Moments.Pair).
 Moments.KIND = { level = 1, quest = 2, epic = 3, mount = 4, rep = 5, craft = 6, rough = 7, turnin = 8, blue = 9 }
 local KIND = Moments.KIND
-local SMALL = { turnin = true, blue = true }     -- with Chime in "Small ones too" only
+-- Page A's subkinds: the kinds whose number can pass 16 bits, and the three new ones. 15 stays free.
+Moments.SUB = { quest = 2, epic = 3, mount = 4, turnin = 8, blue = 9, dungeon = 10, line_end = 11, zone = 12 }
+local NEW = { dungeon = true, line_end = true, zone = true }
+-- Biggest first: when two come together, the bigger one goes (Willo's moments.py ORDER).
+Moments.RANK = { level = 1, dungeon = 2, line_end = 3, quest = 4, epic = 5, mount = 6, rep = 7, craft = 8, rough = 9,
+                 turnin = 10, blue = 11, zone = 12 }
+local RANK = Moments.RANK
+local SMALL = { turnin = true, blue = true, zone = true }     -- with Chime in "Small ones too" only
+local SETTLE = 180                               -- a first zone: said once they've been there this long, or took a quest
+-- Each dungeon's last boss, by the name its kill is recorded under (the design: "a dungeon finished"). The lore lists a
+-- dungeon's bosses in no set order (Cookie comes after VanCleef), so the last one is named.
+local FINAL = {}
+for _, n in ipairs({ "Edwin VanCleef", "Mutanus the Devourer", "Archmage Arugal", "Aku'mai", "Bazil Thredd",
+  "Mekgineer Thermaplugg", "Charlga Razorflank", "Taragaman the Hungerer", "Durgen Dirgehammer", "Rath'mael",
+  "Amnennar the Coldbringer", "Archaedas", "Chief Ukorz Sandscalp", "Princess Theradras", "Shade of Eranikus",
+  "Emperor Dagran Thaurissan", "Overlord Wyrmthalak", "General Drakkisath", "Darkmaster Gandling", "Baron Rivendare",
+  "High Inquisitor Whitemane", "Herod", "Arcanist Doan", "Bloodmage Thalnos" }) do FINAL[n:lower()] = true end
 local GAP, HOUR_MAX = 180, 6                     -- seconds between two; how many an hour
 local HOLD, LONG_HOLD = 120, 600                 -- seconds one may wait (a level, a rough patch: LONG_HOLD)
 local GATHER, LOOK = 2, 0.5                      -- a turn-in that levels you sends the level; how often a wait looks
@@ -78,9 +102,28 @@ function Moments.Page(kind, tag, id)
   return { 0xC5, math.floor(v / 16777216) % 256, math.floor(v / 65536) % 256, math.floor(v / 256) % 256, v % 256 }
 end
 
+-- Two pages (the layout above): { page A, page B }.
+function Moments.Pair(kind, tag, id)
+  local n = math.floor(id) % 4294967296
+  local b = { 0xC6, math.floor(n / 16777216) % 256, math.floor(n / 65536) % 256, math.floor(n / 256) % 256, n % 256 }
+  local check = ns.Strip.CRC32(string.char(b[2], b[3], b[4], b[5])) % 4096
+  local v = 15 * 268435456 + Moments.SUB[kind] * 16777216 + tag * 4096 + check
+  return { { 0xC5, math.floor(v / 16777216) % 256, math.floor(v / 65536) % 256, math.floor(v / 256) % 256, v % 256 }, b }
+end
+
+local function pairsOk() return ns.Strip.PairsFromWillo() end
+
+-- What a moment goes as (a list of pages): two for a new kind (wants: only to a Willo that reads them), else the one
+-- page as before. (Not for a quest or item past 16 bits: the site takes a whole number only for the new kinds, and
+-- names those through CUT and the journal's full id, the Architect's #3769 hold.)
+function Moments.Pages(kind, tag, id)
+  if NEW[kind] then return Moments.Pair(kind, tag, id) end
+  return { Moments.Page(kind, tag, id) }
+end
+
 local function wants(kind)
   local chime = ns.Strip.ChimeFromWillo()
-  return chime ~= nil and ns.Strip.On() and (not SMALL[kind] or chime == "small")
+  return chime ~= nil and ns.Strip.On() and (not SMALL[kind] or chime == "small") and (not NEW[kind] or pairsOk())
 end
 
 local loading
@@ -106,11 +149,11 @@ local frame
 
 -- Something happened: it waits to go (the biggest of those waiting).
 function Moments.Queue(kind, id)
-  if not (KIND[kind] and type(id) == "number" and wants(kind)) then return end
+  if not (RANK[kind] and type(id) == "number" and wants(kind)) then return end
   local tag = whose()
   if not tag then return end
   local t = now()
-  if pending and KIND[pending.kind] <= KIND[kind] then return end
+  if pending and RANK[pending.kind] <= RANK[kind] then return end
   pending = { kind = kind, id = math.floor(id) % 4294967296, tag = tag, at = t, after = pending and pending.after or t + GATHER }
   if frame then frame:Show() end
 end
@@ -138,13 +181,13 @@ local function look()
   local function again()
     local list = k[field]
     for i = #list, 1, -1 do if list[i] == wall then table.remove(list, i); break end end
-    if not pending or KIND[pending.kind] > KIND[p.kind] then
+    if not pending or RANK[pending.kind] > RANK[p.kind] then
       p.after = now() + GATHER
       pending = p
       frame:Show()
     end
   end
-  if not ns.Strip.Moment(Moments.Page(p.kind, p.tag, p.id), held, again) then
+  if not ns.Strip.Moment(Moments.Pages(p.kind, p.tag, p.id), held, again) then
     table.remove(recent)
     pending = p
   end
@@ -164,11 +207,48 @@ local function onDead()
   Moments.Queue("rough", day)   -- (it waits while you're dead: said once you're back on your feet)
 end
 
+-- The first time in a zone (Journey.lua's fz: no place in it seen before), said once they've settled there: SETTLE
+-- seconds later still in it, on the ground and alive, or a quest taken in it. Never at login, in a dungeon or a city
+-- (a rest area: every capital is one), on a flight, or for a character whose record began after its first steps
+-- (Journey.Whole: its "first" visits aren't firsts). Its number is the zone name's hash: Willo reads the name live.
+local arrived    -- { z }: a first zone, waiting
+local function settled()
+  local a = arrived
+  arrived = nil
+  if not a or ns.Context.Place().zone ~= a.z or try(IsResting) or try(UnitOnTaxi, "player")
+    or try(UnitIsDeadOrGhost, "player") then return end
+  Moments.Queue("zone", ns.Strip.CRC32(a.z) % 16777216)
+end
+local function firstZone(e)
+  if not (e.fz and e.how and not e.inst and type(e.z) == "string") or try(IsResting) then return end
+  if not (wants("zone") and ns.Journey.Whole()) then return end
+  local a = { z = e.z }
+  arrived = a
+  if C_Timer and C_Timer.After then C_Timer.After(SETTLE, function() if arrived == a then settled() end end) end
+end
+
+-- A quest that ends its line (Storyline: a path of two or more quests, and this its last).
+local function endsLine(id)
+  local S = ns.Storyline
+  if not (S and S.For) then return false end
+  local ok, sl, _, at = pcall(S.For, tonumber(id))
+  return ok and type(sl) == "table" and type(sl.c) == "table" and #sl.c >= 2 and at == #sl.c
+end
+
 -- What the journey records (Journey.lua's add; not what you made).
 local function onAdded(k, e)
   local Strip = ns.Strip
   if k == "qt" then
-    Moments.Queue(ns.Journey.CarriedLong(e.id) and "quest" or "turnin", e.id)
+    if wants("line_end") and endsLine(e.id) then Moments.Queue("line_end", e.id)
+    else Moments.Queue(ns.Journey.CarriedLong(e.id) and "quest" or "turnin", e.id) end
+  elseif k == "qa" then
+    if arrived and e.z == arrived.z then settled() end
+  elseif k == "zone" then
+    firstZone(e)
+  elseif k == "boss" and type(e.n) == "string" and FINAL[e.n:lower()] then
+    -- A dungeon finished, once a day each (Willo keeps what she said by its number): the day, then the instance's id.
+    local inst = tonumber((select(9, pcall(GetInstanceInfo)))) or Strip.CRC32(tostring(e.z))
+    Moments.Queue("dungeon", (math.floor(time() / 86400) % 65536) * 65536 + inst % 65536)
   elseif k == "loot" then
     local ql = tonumber(e.ql) or 0
     if ql >= EPIC then Moments.Queue("epic", e.id) elseif ql == RARE then Moments.Queue("blue", e.id) end

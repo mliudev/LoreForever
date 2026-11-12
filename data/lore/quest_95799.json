@@ -1,0 +1,85 @@
+{
+ "key": "quest:95799",
+ "type": "quest",
+ "name": "Findings for the Explorer's League",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95799
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Loremaster Dibbs asks you to carry his I'lalai tablet translations to Historian Karnik in Ironforge. Karnik sees the discovery as a reason to send a team toward the lost city.",
+ "sections": [
+  {
+   "title": "A Letter to Ironforge",
+   "body": "Historian Karnik in Ironforge is waiting to hear from Loremaster Dibbs, your colleague. Dibbs has made a discovery he calls significant to history, and asks you to carry his letter and a copy of his translations of the I'lalai tablets to Karnik.",
+   "spoiler": 0
+  },
+  {
+   "title": "Karnik's Response",
+   "body": "Karnik welcomes Dibbs' translations and says he will gather a team to seek the lost city of I'lalai. His own studies concern other subjects, but he respects Dibbs' interest in trolls.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to carry the letter?",
+   "aliases": [
+    "who gave me this",
+    "dibbs letter",
+    "who is loremaster dibbs"
+   ],
+   "answer": "Loremaster Dibbs asks you to take his letter and a copy of his I'lalai tablet translations to Historian Karnik in Ironforge."
+  },
+  {
+   "q": "Who is Historian Karnik?",
+   "aliases": [
+    "who is karnik",
+    "karnik ironforge",
+    "historian guy"
+   ],
+   "answer": "Historian Karnik is the Explorer's League colleague in Ironforge who receives Loremaster Dibbs' letter and translations."
+  },
+  {
+   "q": "What are the I'lalai Translations?",
+   "aliases": [
+    "ilalai translations",
+    "tablet translations",
+    "dibbs tablets"
+   ],
+   "answer": "They are Loremaster Dibbs' translations of tablets connected to I'lalai."
+  },
+  {
+   "q": "Why does Dibbs want me to take the letter?",
+   "aliases": [
+    "why deliver letter",
+    "why ironforge",
+    "what does dibbs need"
+   ],
+   "answer": "Dibbs says the discovery is of great historical importance and wants his colleague in Ironforge informed promptly."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "explorer's league",
+  "findings for the explorer's league",
+  "historian karnik",
+  "i'lalai",
+  "ironforge",
+  "loremaster dibbs",
+  "tablets",
+  "translations",
+  "trolls"
+ ],
+ "related": [
+  "zone:ironforge",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Findings for the Explorer's League"
+ ]
+}
