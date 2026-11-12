@@ -1,0 +1,78 @@
+{
+ "key": "quest:94556",
+ "type": "quest",
+ "name": "Jom-jom's Escape",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94556
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Jom-jom wants to return home and asks you to escort him to Clugfist at Bolder'ok.",
+ "sections": [
+  {
+   "title": "The Way Home",
+   "body": "At Bolder'ok, Jom-jom needs you to guide him to Clugfist. He came looking for a friend, and now he wants to go home.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Jom-jom?",
+   "aliases": [
+    "who's jom-jom",
+    "jom-jom"
+   ],
+   "answer": "Jom-jom came looking for a friend and now wants to go home."
+  },
+  {
+   "q": "Where does Jom-jom want to go?",
+   "aliases": [
+    "where is jom-jom going",
+    "jom-jom home"
+   ],
+   "answer": "Jom-jom wants to return home, and you are asked to escort him to Clugfist at Bolder'ok."
+  },
+  {
+   "q": "Who is Clugfist?",
+   "aliases": [
+    "clugfist",
+    "who's clugfist"
+   ],
+   "answer": "Clugfist is the one Jom-jom is to be escorted to at Bolder'ok."
+  },
+  {
+   "q": "Why did Jom-jom come here?",
+   "aliases": [
+    "why jom-jom here",
+    "jom-jom came"
+   ],
+   "answer": "Jom-jom came looking for a friend."
+  },
+  {
+   "q": "Does Jom-jom consider you a friend?",
+   "aliases": [
+    "jom-jom friend",
+    "little one"
+   ],
+   "answer": "After you save him, Jom-jom calls you a friend."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bolder'ok",
+  "clugfist",
+  "escort",
+  "friend",
+  "home",
+  "jom-jom"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Jom-jom's Escape"
+ ]
+}

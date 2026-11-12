@@ -1,0 +1,85 @@
+{
+ "key": "quest:95162",
+ "type": "quest",
+ "name": "Paletusk Harvesting",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95162
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Na'zok asks you to gather paletusk meat near Bolder'ok. The ranch feeds nearby ogres and supplies Rog'mar as the war advances.",
+ "sections": [
+  {
+   "title": "Meat for the Ranch",
+   "body": "Na'zok needs more meat at the ranch near Bolder'ok, where ogres let Na'zok stay while the meat keeps coming. As the war advances, the need for food grows, and the ogres are beginning to eye Na'zok as their next meal. You are asked to gather chunks of boar meat for the hungry ogres and Rog'mar.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for meat?",
+   "aliases": [
+    "who needs meat",
+    "na'zok request",
+    "who is na'zok"
+   ],
+   "answer": "Na'zok asks you to gather boar meat near Bolder'ok for the ogres and Rog'mar."
+  },
+  {
+   "q": "Why does Na'zok need the meat?",
+   "aliases": [
+    "why meat",
+    "why gather boar",
+    "hungry ogres"
+   ],
+   "answer": "The ranch is one of Na'zok's few food sources, and the ogres let Na'zok stay as long as meat keeps coming."
+  },
+  {
+   "q": "Who is Rog'mar?",
+   "aliases": [
+    "rog'mar meat",
+    "meat for rog'mar"
+   ],
+   "answer": "Rog'mar is named as someone who needs a share of the meat."
+  },
+  {
+   "q": "Where is Na'zok?",
+   "aliases": [
+    "na'zok location",
+    "where is the ranch"
+   ],
+   "answer": "Na'zok is near Bolder'ok."
+  },
+  {
+   "q": "What meat is needed?",
+   "aliases": [
+    "boar meat",
+    "paletusk meat",
+    "meat chunks"
+   ],
+   "answer": "Na'zok asks for chunks of boar meat from paletusk."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "boar meat",
+  "bolder'ok",
+  "na'zok",
+  "ogres",
+  "paletusk",
+  "paletusk harvesting",
+  "ranch",
+  "rog'mar"
+ ],
+ "related": [
+  "topic:twilight-s-hammer"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Paletusk Harvesting"
+ ]
+}

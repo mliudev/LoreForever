@@ -7,6 +7,20 @@ wrap long bullets with an indented continuation line.
 
 ## Unreleased
 
+## 1.7.0 (2026-11-11)
+
+- **Quest givers speak by default:** in the starting zones they voice their lines out of the box, and their voices now come in the main download.
+- **One voice at a time:** quest givers take turns in the order you click them, and arrival stories, book pages and recaps wait their turn instead of talking over each other.
+- **Pins that stay out of the way:** Willo's pins take a map slot only while your map is open.
+- Up to date with Forever's latest patch.
+- Corrected lore in 14 entries.
+
+- Right-click a note, reminder or pin in Willo's Notes to get a small Remove menu where you clicked; the note no longer opens.
+
+- **Pins show up where you look:** Willo's pins now show on a zone's own map, reach your map without a /reload when you
+  open it soon after asking, and a pin by map numbers ("pin 84.5, 65.2") lands on the map.
+- **Clearing a pin can be undone:** right-click one on a map and it now says so, with Put it back.
+
 ## 1.6.0 (2026-11-10)
 
 - **One way to move things:** Move things on screen... in Options (or /lore move) shows the subtitles, the new-page note, the pin card and Willo's sky in gold to drag together. Put them back resets them.

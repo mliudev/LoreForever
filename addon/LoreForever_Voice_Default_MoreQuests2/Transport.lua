@@ -310,7 +310,7 @@ P.transport["quest:1050"] = {
   fullHash = "a604c0",
   text = "Mythology of the Titans. In Ironforge, Librarian Mae Paledust seeks Mythology of the Titans, a book said to have rested in Tirisfal's old Monastery. Its study may show what the past can teach about the unknown ahead. Before trouble came to Lordaeron, the old Monastery in Tirisfal Glades kept a library of knowledge. Mae asks you to bring her a book called Mythology of the Titans. It is said to be there, and she hopes its study will uncover secrets of the past.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1050-65e79f652a598f599d7b/1-0000.mp3", duration = 28.5779592, start = 0},
+    {file = "Audio/Transport/full_quest_1050-5ba07350049023cff578/1-0000.mp3", duration = 25.7828571, start = 0},
   },
 }
 P.transport["quest:1054"] = {
@@ -918,7 +918,7 @@ P.transport["quest:1159"] = {
   fullHash = "ecca46",
   text = "Test of Lore. Across the Great Sea, Horde seekers now carry the Test of Lore to the ruins of Lordaeron. You have answered Braug Dimspirit's first riddle in the Stonetalon Mountains. Now he sends you to a former human scholar among the Forsaken in Undercity. After you prove your mettle and learn the Dragon Aspects' history in the Legacy of the Aspects, Braug Dimspirit admits his knowledge has limits. The trial now reaches beyond Kalimdor and shows the Horde's far-reaching ties. So Braug sends you toward the undead capital beneath the ruins of Lordaeron. Parqual Fintallas lives in the damp corridors of the Apothecarium. Once a respected human chronicler of the northern kingdoms, he kept seeking knowledge through the Scourge and his transformation into one of the Forsaken. You arrive as an outsider, claiming to have completed the spiritual and physical trials of Thousand Needles. Parqual doubts you are more than an opportunistic mercenary, and expects you to prove your worth to him.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1159-4b61243d4759fa99425a/1-0000.mp3", duration = 58.0440816, start = 0},
+    {file = "Audio/Transport/full_quest_1159-94882779f3eab320f192/1-0000.mp3", duration = 55.3534694, start = 0},
   },
 }
 P.transport["quest:1164"] = {
@@ -1718,7 +1718,7 @@ P.transport["quest:1432"] = {
   fullHash = "ffd340",
   text = "Alliance Relations. In Orgrimmar, Alliance advances across Kalimdor put the Horde under pressure. Thrall's people send orders to Desolace to purge demons before the Alliance can accuse them of renewed ties to the Burning Legion. Alliance scouts and expeditions cross Kalimdor, leaving the Horde in a delicate position. Demonic remnants in central Kalimdor could confirm old suspicions that the orcs and their allies still serve the Burning Legion. With Warchief Thrall's sanction, Keldran oversees the effort from Orgrimmar. They must clear those remnants before hostile Alliance factions use them to justify war. The orders lead south through the Charred Vale in the Stonetalon Mountains and onward into Desolace. Ghost Walker Post stands just north of the vast Kodo Graveyard. Horde agents such as Takata Steelblade watch over these wastes. Rampant centaur tribes and spreading demonic corruption both threaten the region.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1432-dba16e398bf576c3f7e3/1-0000.mp3", duration = 54.5697959, start = 0},
+    {file = "Audio/Transport/full_quest_1432-4d050d6454f8826ba2e6/1-0000.mp3", duration = 54.1518367, start = 0},
   },
 }
 P.transport["quest:1437"] = {
@@ -1846,7 +1846,7 @@ P.transport["quest:1476"] = {
   fullHash = "abe740",
   text = "Hearts of the Pure. In the Undercity, Godrick Farsan sets a trial for Carendin Halgar’s succubus binding. You seek two righteous human men whose pure hearts will tempt a demon. Carendin Halgar, master summoner in the Temple of the Damned, gives Godrick Farsan the groundwork for binding a succubus. Succubi prey on desire and ruin. Yet untainted virtue draws them from the Twisting Nether, where they are ripe for corruption. So Godrick searches human lands for souls whose goodness remains pristine and unbroken. Godrick Farsan names two men whose virtue marks them for sacrifice. Dalin Forgewright cares for desperate Lordaeron refugees barred from sanctuary outside the sealed Greymane Wall in southern Silverpine. Comar Villard tirelessly searches the perilous marshlands of the Wetlands for any trace of his lost wife. Their devotion, empathy and loyalty make them prime sacrifices to a Forsaken warlock.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1476-1ef1cfd2a3b69a39ee97/1-0000.mp3", duration = 56.0587755, start = 0},
+    {file = "Audio/Transport/full_quest_1476-7d0f4b1c9a1ffdbc1a91/1-0000.mp3", duration = 51.5134694, start = 0},
   },
 }
 P.transport["quest:148"] = {
@@ -2670,7 +2670,7 @@ P.transport["quest:1801"] = {
   fullHash = "89ae21",
   text = "Tome of the Cabal. In the Barrens, Strahad Farsan sends Horde warlocks east to seek a lost grimoire. Its rites teach how to summon and bind a felhunter, and the search leads first to cartographer Jorah Annison in the Undercity. Strahad Farsan warns that summoning a felhunter takes more than ordinary fel magic. These predators feed on magical energies and resist common summoning circles. An initiate needs special circles and an ancient grimoire called the Tome of the Cabal. The first warlocks to bind a felhunter without outside aid wrote it. Its rites and seals show how to enslave the dangerous demon. No copies of the Tome of the Cabal remain among warlocks in Kalimdor. So Strahad sends his student across the sea to Jorah Annison in the Undercity. Annison is a royal cartographer who maps Lordaeron, yet he knows much about ancient and obscure texts. He admits that mapmaking wears on him. His true hunger is for rare histories, occult narratives, and treatises on dark magic.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1801-13ef6b4c23b64575d73b/1-0000.mp3", duration = 59.4546939, start = 0},
+    {file = "Audio/Transport/full_quest_1801-0c67498abff0a6dc1e84/1-0000.mp3", duration = 60.1338776, start = 0},
   },
 }
 P.transport["quest:1802"] = {
@@ -2686,7 +2686,7 @@ P.transport["quest:1803"] = {
   fullHash = "b59da3",
   text = "Tome of the Cabal. In the Undercity, Horde warlocks seek the Tome of the Cabal's scattered halves for Jorah Annison. Once kept in Lordaeron, the grimoire was torn apart, and its remnants lie along the hostile waters of the Eastern Kingdoms and deep in Kalimdor's centaur lands. The Tome of the Cabal once rested in Lordaeron's library. Someone defaced the sinister grimoire, tore away nearly half its pages, and split it in two. The surviving bound text was sent to the dwarven halls of Ironforge. But its transport wrecked along the rocky coast west of Southshore, and the pages now rot in the shallows beneath scavenging murlocs.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1803-d6e796844083cf11cd0a/1-0000.mp3", duration = 37.6163265, start = 0},
+    {file = "Audio/Transport/full_quest_1803-b83659554c30a5645488/1-0000.mp3", duration = 38.0865306, start = 0},
   },
 }
 P.transport["quest:1804"] = {
@@ -3294,7 +3294,7 @@ P.transport["quest:2479"] = {
   fullHash = "b2ad82",
   text = "Hinott's Assistance. In Orgrimmar, poisoned rogues seek help before Zanzil's mixture claims their lives. The toxin came from an infiltration in the Barrens. Serge Hinott in Tarren Mill can offer a cure and teach rogues to brew poisons. Your infiltration of the Venture Company's tower north of the Sludge Fen has left you poisoned by Zanzil's altered mixture. It dulls your reflexes and threatens your life. Shenthul, the rogue trainer in Orgrimmar, knows local remedies cannot help. So he sends you across the sea to the Eastern Kingdoms for care. Your search for a cure leads south through Lordaeron to Tarren Mill, a village in Hillsbrad Foothills. Serge Hinott lives there as an apothecary and is fascinated by virulent brews. Ordinary healers recoil from Zanzil's venom, but Hinott meets the deadly compound with professional glee. He can dissect the foul concoction and teach worthy rogues to brew their own venoms.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2479-6acd3a7841754ffd00f9/1-0000.mp3", duration = 54.8571429, start = 0},
+    {file = "Audio/Transport/full_quest_2479-23e1f7cd96f329e47de6/1-0000.mp3", duration = 52.4016327, start = 0},
   },
 }
 P.transport["quest:248"] = {
@@ -3854,7 +3854,7 @@ P.transport["quest:321"] = {
   fullHash = "57613b",
   text = "Lightforge Iron. In Menethil Harbor, Glorin Steelbrow seeks cargo lost with an elven destroyer. The Flying Osprey carried rare Lightforge iron when it sank with the Third Fleet of Kul Tiras during the Second War. The Flying Osprey sailed from Lordaeron beside the Third Fleet of Kul Tiras. The elven destroyer carried a precious cargo of Lightforge iron and traveled with the fleet for safety. Then the Dragonmaw clan's enslaved red dragons swept down from the sky. They set the ships ablaze, sending sailors and sanctified metal beneath the waves.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_321-3ae7aff37b463b37ad34/1-0000.mp3", duration = 32.3395918, start = 0},
+    {file = "Audio/Transport/full_quest_321-2d7f900172e0fdbdbf52/1-0000.mp3", duration = 32.8881633, start = 0},
   },
 }
 P.transport["quest:322"] = {
@@ -4382,7 +4382,7 @@ P.transport["quest:474"] = {
   fullHash = "542a05",
   text = "Defeat Nek'rosh. In the Wetlands, the Alliance closes in on Nek'rosh and his Dragonmaw warband. Their catapults are burning, but Menethil Harbor remains under threat until the chieftain falls. The Dragonmaw have long plagued the marshlands of Khaz Modan. They hold fortified camps and threaten Menethil Harbor's sea lanes. After the clan's catapults are found and burned, the marsh's defenders strike at the warband's leader. Chieftain Nek'rosh commands the local orcs and remains the last obstacle to breaking the siege. Without him, the remaining raiders lose their leader's direction. Bring Nek'rosh's severed head to Captain Stoutfist in Menethil Harbor, and Ironforge's garrison will claim a major victory. The Dragonmaw have lost their heavy siege weapons and their chieftain, a blow they are unlikely to recover from quickly.\n\nMenethil Harbor is the Alliance's main lifeline between Lordaeron and Khaz Modan. With Nek'rosh fallen, its docks and trade vessels are safer from sudden attack.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_474-1e99c885ccf32b835cc0/1-0000.mp3", duration = 59.924898, start = 0},
+    {file = "Audio/Transport/full_quest_474-6b26b748c30a4f557290/1-0000.mp3", duration = 57.7567347, start = 0},
   },
 }
 P.transport["quest:4767"] = {
@@ -4782,7 +4782,7 @@ P.transport["quest:528"] = {
   fullHash = "b166aa",
   text = "Battle of Hillsbrad. In Hillsbrad, Forsaken forces press south after strikes on the northern farms. Horde operatives now hunt the peasants who fled to the orchards. Hillsbrad's human farms have come under attack, driving laborers south into the fields. After strikes on the northern farms, many flee to the orchards and pastures of Hillsbrad Fields. They hope to escape the advancing undead. High Executor Darthalia sees their flight as a chance to break the township's remaining labor force and morale. From Tarren Mill, High Executor Darthalia orders Horde forces to hunt the displaced laborers in the fields. The peasants have no protection. Their deaths choke Hillsbrad's food supply and weaken civilian resolve. For Darthalia and the Forsaken, each human killed tightens their hold over the surviving township and helps keep Lordaeron in Forsaken hands.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_528-9b953597080ffeb0e06d/1-0000.mp3", duration = 51.5657143, start = 0},
+    {file = "Audio/Transport/full_quest_528-e644e17a2c455adc4482/1-0000.mp3", duration = 50.4946939, start = 0},
   },
 }
 P.transport["quest:529"] = {
@@ -4894,7 +4894,7 @@ P.transport["quest:541"] = {
   fullHash = "b95c87",
   text = "Battle of Hillsbrad. In Hillsbrad, the Forsaken's campaign now turns on Dun Garok. High Executor Darthalia sends Horde champions to break the dwarven garrison aiding local humans and kill its commander, Captain Ironhill. High Executor Darthalia has already pressed the human farmers and town militia across the foothills. Now she directs Tarren Mill's fury at Ironforge's troops. Dwarven soldiers have taken up arms for Southshore, strengthening the human presence in Lordaeron. Darthalia sees that bond as an obstacle. She means to show the Alliance that aid for the human survivors will bring devastation. Dun Garok clings to Thoradin's Wall in southeastern Hillsbrad. Disciplined mountaineers hold the fortified stronghold, joined by skilled riflemen and battle-hardened priests. Horde forces must break through those defenders and kill Captain Ironhill. His death breaks Ironforge's forward command in the region, leaving the remaining human enclaves isolated.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_541-3eebab1d65598ccaa95a/1-0000.mp3", duration = 60.1077551, start = 0},
+    {file = "Audio/Transport/full_quest_541-e16237e47738163ee2ad/1-0000.mp3", duration = 53.0546939, start = 0},
   },
 }
 P.transport["quest:5421"] = {
@@ -4958,7 +4958,7 @@ P.transport["quest:550"] = {
   fullHash = "54034b",
   text = "Battle of Hillsbrad. At Hillsbrad, the Forsaken have broken the township's defenses. High Executor Darthalia sends you to carry her commendation to Varimathras in the Undercity. Fierce fighting in Hillsbrad Foothills has decided the struggle for southern Lordaeron. From Tarren Mill, Horde champions struck the township's farmers, militia, blacksmiths, and civic leaders. Alliance forces are crippled, and the territory is secured for the Forsaken. Now High Executor Darthalia prepares an official commendation so the champion's deeds reach the highest ranks of command. Darthalia's sealed commendation takes you to Varimathras in the Undercity's Royal Quarter. The dreadlord oversees military operations across Lordaeron beside Lady Sylvanas Windrunner. The Scourge from the northern Plaguelands remains the Dark Lady's greatest threat. Yet surviving human enclaves still endanger the Forsaken's southern borders.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_550-05ea1124f24e228e9fc9/1-0000.mp3", duration = 52.4538776, start = 0},
+    {file = "Audio/Transport/full_quest_550-b68c916568c0efdfeb92/1-0000.mp3", duration = 50.4946939, start = 0},
   },
 }
 P.transport["quest:5501"] = {
@@ -5062,7 +5062,7 @@ P.transport["quest:562"] = {
   fullHash = "cd7efc",
   text = "Stormwind Ho!. Alliance High Command fears the naga threat, and Stormwind Ho! gives Farren Orinelle a way south. He hopes to claim their defeat and win a return to Stormwind City. Lieutenant Farren Orinelle finds his post in Southshore miserable. The town lies on Lordaeron’s edge, hemmed in by Forsaken forces, syndicate brigands, and sea fiends. Farren once served as a city guardsman in Stormwind, where his days meant drunks and petty brawls. Now he longs to return south.\n\nHis former mentor tells him Alliance High Command grows anxious about naga encroaching on the coasts. Farren sees a chance to leave the north behind. Farren admits he lacks the courage and skill to face Daggerspine sirens and shorehunters in open combat. So he sends you to scour the beaches southeast of Southshore and thin the naga ranks.\n\nHe needs your deeds for an impressive dispatch to Major Samuelson in Stormwind. With that credit, Farren hopes to secure a reassignment.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_562-65a1519b3e9dfd0991ab/1-0000.mp3", duration = 60.5779592, start = 0},
+    {file = "Audio/Transport/full_quest_562-7b1fe62afce42e6e90d8/1-0000.mp3", duration = 55.6146939, start = 0},
   },
 }
 P.transport["quest:563"] = {
@@ -5094,7 +5094,7 @@ P.transport["quest:5644"] = {
   fullHash = "9236f1",
   text = "Devouring Plague. Across the sea from Lordaeron, Devouring Plague awaits Forsaken priests ready to learn its dark art. Miles Welsh in Thunder Bluff sends the adept to Aelthalyste in the Ruins of Lordaeron for this signature Shadow magic. In Thunder Bluff, Miles Welsh trains Forsaken priests among the tauren. He watches their divine and shadowy studies, and knows when an acolyte is ready for higher mysteries. Rather than teach those secrets himself in Kalimdor, Miles sends the worthy back to the Ruins of Lordaeron. Aelthalyste waits beneath the city ruins in the Undercity's War Quarter. She is one of the foremost mentors of the Forsaken priesthood, guiding acolytes who weave shadow. Devouring Plague drains its victim and carries a corruptive force. Aelthalyste teaches it only to those able to wield that force without succumbing.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_5644-2a3e2af1c908356df256/1-0000.mp3", duration = 50.6514286, start = 0},
+    {file = "Audio/Transport/full_quest_5644-fd5cc0bc0b2262891f07/1-0000.mp3", duration = 49.9461224, start = 0},
   },
 }
 P.transport["quest:5645"] = {
@@ -5110,7 +5110,7 @@ P.transport["quest:5646"] = {
   fullHash = "48f4eb",
   text = "Devouring Plague. In Orgrimmar, Ur'kyo sends Forsaken priests home to learn Devouring Plague. They came to Kalimdor to learn from the Darkspear, but Aelthalyste waits in Undercity to teach them their people's shadow arts. Ur'kyo guides those drawn to spiritual power in Orgrimmar. Darkspear trolls and Forsaken share a curious bond in matters of faith, while orcs and tauren show little desire for priestly worship. Ur'kyo knows Forsaken initiates must master the shadow arts tied to their own condition. Out of respect between their peoples, he sends wandering Forsaken back to Lordaeron to finish their training. Beneath Lordaeron's ruins, Priestess Aelthalyste tends her flock in Undercity's War Quarter. Forsaken priests follow a solitary, grueling path shaped by their turn to shadow. They endure the painful touch of the Holy Light and learn to wield the devastating affliction of Shadow magic.\n\nWhen an initiate gains enough skill, Aelthalyste gathers them close. There, she teaches the affliction her kind calls Devouring Plague.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_5646-9995c7c2851e1f66b63e/1-0000.mp3", duration = 63.7910204, start = 0},
+    {file = "Audio/Transport/full_quest_5646-93546edd70263a0f9e36/1-0000.mp3", duration = 60.3167347, start = 0},
   },
 }
 P.transport["quest:565"] = {
@@ -6094,7 +6094,7 @@ P.transport["quest:700"] = {
   fullHash = "3661b0",
   text = "A King's Tribute. Magni Bronzebeard gives Sully Balloo a memorial in Ironforge. Granite from Lordaeron keeps the fallen dwarf in his people's memory. King Magni Bronzebeard commissioned a monument for Sully Balloo, a dwarf who died serving his people. Grand Mason Marblesten carved it from fine granite brought from Lordaeron's war-torn lands. The monument stands in Ironforge, honoring soldiers whose sacrifices help preserve the dwarven kingdom. When told the monument is complete, Magni considers stone and mortality. Carved rock can never equal a brave dwarf's life, he knows, yet he hopes the memorial endures. Then generations walking Azeroth may remember the heroes who bled to secure their tomorrow.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_700-83acb6b5a08971f06df3/1-0000.mp3", duration = 44.4342857, start = 0},
+    {file = "Audio/Transport/full_quest_700-cb787965600779ce7e7b/1-0000.mp3", duration = 41.2212245, start = 0},
   },
 }
 P.transport["quest:701"] = {
@@ -7070,7 +7070,7 @@ P.transport["quest:91859"] = {
   fullHash = "7595ff",
   text = "A Curious Pair. In the Sepulcher, Trevan Rol watches a rare pair travel through Silverpine Forest. The tauren and high elf carry the Earthen Ring's banner, and their presence draws the Forsaken's suspicion. Trevan Rol sees two travelers claiming to represent the Earthen Ring on the road by the Sepulcher. The outpost is a grim waystation where strangers receive close scrutiny, especially when they come on diplomatic business. A tauren beneath the shamanic order's banner draws little surprise. His cloaked companion is another matter. The scout recognizes an unmistakable high elf, a sight the Forsaken find exceedingly strange. A high elf openly traveling beside a member of the Horde's shamanic circles raises questions among the Forsaken sentries. The Earthen Ring attends to the balance of the elements, and high elves are rarely seen in Lordaeron, much less beside tauren envoys. To learn where the pair went and what brought them to the forest, you are directed to Deathguard Baldren at the edge of town.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_91859-d1e3f486089823257b55/1-0000.mp3", duration = 59.4546939, start = 0},
+    {file = "Audio/Transport/full_quest_91859-a22f2d3c9e5e415d9e4d/1-0000.mp3", duration = 59.3240816, start = 0},
   },
 }
 P.transport["quest:91899"] = {
@@ -7134,7 +7134,7 @@ P.transport["quest:92401"] = {
   fullHash = "c84a64",
   text = "A Frightened Request. Edward Heartweaver’s wife waits in fear after he vanishes in the Ruins of Lordaeron. Since their son was lost when the capital fell, Edward has gone each week to search the graveyard for his remains. Now his usual journey has lasted several days. When the Scourge destroyed Lordaeron during the Third War, the Heartweavers lost their young son. His body was never found in the ruin. So Edward Heartweaver went each week to the capital’s graveyard, still hoping to find some trace of his child.\n\nGrief and guilt kept Edward from letting go. The graveyard lay within the ruined capital, where the search was perilous. The surface ruins of Lordaeron are overrun by hostile creatures and lurking horrors. They are no place for ordinary citizens. Edward’s frightened wife warned him and begged him to stop going, but he kept to his weekly search.\n\nThen Edward failed to return for several days. His wife turned to capable adventurers and asked them to brave the ruins and learn what had become of him.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_92401-bdb7cec6c0d0d5c4e43a/1-0000.mp3", duration = 62.1191837, start = 0},
+    {file = "Audio/Transport/full_quest_92401-e7311d3bfb368c971483/1-0000.mp3", duration = 58.4097959, start = 0},
   },
 }
 P.transport["quest:92415"] = {
@@ -7142,7 +7142,7 @@ P.transport["quest:92415"] = {
   fullHash = "c73861",
   text = "Remember That I Love You. In the Ruins of Lordaeron, a stained letter calls for a missing child. Torn from parchment among the graves, it speaks of a child from the Heartweaver family. You carry it south to the orphanage in Stormwind City, hoping to learn what became of them. The ruined graveyard bears the marks of the Third War. Among grounds haunted by the undead, someone found a torn, blood-stained letter. It speaks of a missing child from the Heartweaver family. Prince Arthas and the Scourge swept through the kingdom and shattered their lives. Lordaeron fell, and the Undercity now fills the catacombs below. Refugees who escaped south scattered across the Alliance kingdoms. In Stormwind City, Orphan Matron Nightingale cares for children left without parents by the wars. You bring her the blood-stained letter, hoping she can identify a surviving Heartweaver child and give the family some closure.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_92415-aef3c5b35894efae8d43/1-0000.mp3", duration = 55.3012245, start = 0},
+    {file = "Audio/Transport/full_quest_92415-c63e341a3f6737d052c3/1-0000.mp3", duration = 51.5395918, start = 0},
   },
 }
 P.transport["quest:92421"] = {
@@ -7150,7 +7150,7 @@ P.transport["quest:92421"] = {
   fullHash = "30daa9",
   text = "Light's Justice. In the Undercity, Morbin Lightbane sends warriors above to gather what the Forsaken need. Intact limbs from the Scourge in the Ruins of Lordaeron help repair wounded Forsaken and sustain their ranks. Above the Undercity, Scourge remnants still prowl the ruined streets of Lordaeron's former capital. Though the Dark Lady has defeated the dreadlords and founded the Forsaken kingdom, clearing the surface remains costly work. The undead threaten the gateway below and drain the forces sent to reclaim the fallen kingdom. Forsaken bodies do not mend on their own. Rotting tissue and shattered sinew cannot knit again, so Morbin Lightbane sends warriors to gather intact limbs from destroyed Scourge in the ruins above. Those parts can repair wounded Forsaken and help them endure and fight again. Morbin Lightbane honors his late commander, Captain Garek Bandarion, by carrying on this work. Bandarion pledged to heal their people and free Lordaeron from Scourge occupation. To Morbin, destroying their mindless enemies and restoring their kin is justice in the service of the Banshee Queen.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_92421-d21eefcd18459a0f4cf3/1-0000.mp3", duration = 66.3771429, start = 0},
+    {file = "Audio/Transport/full_quest_92421-ba0de77a92d3a346bd44/1-0000.mp3", duration = 61.8318367, start = 0},
   },
 }
 P.transport["quest:92422"] = {
@@ -7158,7 +7158,7 @@ P.transport["quest:92422"] = {
   fullHash = "7ebafb",
   text = "The Wrath of Rath'mael. In the Ruins of Lordaeron, a fog hides Scourge movements above the Undercity. Rath'mael, a Scourge necromancer, has shrouded the ruined streets and graveyard. Deathguard Kristof in Brill calls for you to strike him down. Scout reports from Lordamere Overlook tell of a sinister presence in the Ruins of Lordaeron. An unholy fog now covers the ruined streets and nearby graveyard, hiding lingering Scourge forces. Rath'mael cast the shroud. His spells conceal the undead above the heart of Forsaken territory. Deathguard Kristof in Brill sends you to rally your allies and strike Rath'mael down. The Forsaken cannot let this menace take root unchecked. The Scourge may replace him, but his fall will disrupt their coordination, disperse the fog, and give Tirisfal Glades room to breathe.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_92422-3a2b0781cf862e6eb472/1-0000.mp3", duration = 49.4759184, start = 0},
+    {file = "Audio/Transport/full_quest_92422-9c58330a076ba48198c1/1-0000.mp3", duration = 46.08, start = 0},
   },
 }
 P.transport["quest:92432"] = {
@@ -8422,7 +8422,7 @@ P.transport["quest:95189"] = {
   fullHash = "0d723e",
   text = "Crest of Lordaeron. In the ruins of Capital City, a weathered Crest of Lordaeron survives from the fallen northern kingdom. Relics like it are scarce, and Lady Dena Kennedy in Stormwind City is eager to claim one. The Scourge left Lordaeron's palaces and archives in ruins beneath the shadow of the Undercity. Its proud insignias were destroyed or left to decay, so few relics bearing the royal crest remain. A weathered crest from the northern ruins keeps a piece of human history. After the Third War, thousands of refugees fled south from Lordaeron toward the Kingdom of Stormwind. They carried memories of home. In Stormwind City, Lady Dena Kennedy seeks remnants of their homeland. For those who left the north behind, a crest like this is a cherished link to Lordaeron.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_95189-e6abb6b85a4ae1787f6c/1-0000.mp3", duration = 47.124898, start = 0},
+    {file = "Audio/Transport/full_quest_95189-f5cb9e585753d7d6097e/1-0000.mp3", duration = 46.08, start = 0},
   },
 }
 P.transport["quest:95195"] = {
@@ -8430,7 +8430,7 @@ P.transport["quest:95195"] = {
   fullHash = "5f530f",
   text = "Bloodied Insignia. In Lordaeron's blighted ruins, Bloodied Insignias bear the old Alliance crests of fallen defenders. Many soldiers' families fled south to Stormwind during the Third War. Prince Arthas returned with the Scourge and laid waste to Lordaeron. Its great army was overwhelmed, and countless soldiers died defending the capital and the lands around it. Rusted armor and bloodstained brass are all that remain of many who fought.\n\nThe old Alliance insignias belonged to those who stood against the undead. Trampled into soil and rubble, the medals recall Lordaeron's last defense. Many survivors fled south across the sea and settled in Stormwind City. Alliance and kinship bind the two human realms, and families in the south still seek news of loved ones lost in the north.\n\nGeneral Marcus Jonathan commands Stormwind's city guard and takes custody of the bloodied insignias. He preserves the defenders' memory and helps their surviving families learn their fate.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_95195-6eb30976186b3ed5bafd/1-0000.mp3", duration = 59.0628571, start = 0},
+    {file = "Audio/Transport/full_quest_95195-7c766bb1560a0d998f90/1-0000.mp3", duration = 54.0995918, start = 0},
   },
 }
 P.transport["quest:95204"] = {
@@ -8438,7 +8438,7 @@ P.transport["quest:95204"] = {
   fullHash = "0e1c13",
   text = "Crest of Lordaeron. The Forsaken preserve what little remains of Lordaeron in Undercity. A weathered crest bears the fallen kingdom’s emblem, a rare link to its past. The Third War shattered Lordaeron. Ash, ruins, and Scourge desolation swallowed much of the kingdom, leaving few emblems behind. To the Forsaken beneath the ruins of the Capital City, those that survive are precious links to the civilization they once belonged to. The weathered crest is brought from the wider world to Oran Snakewrithe in Undercity. Oran tests the metal with a bite, then confirms it is genuine and mostly intact. For Oran and the Forsaken archivists, each recovered piece helps restore a history the Scourge sought to erase.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_95204-ec99ffa2984a92ae187d/1-0000.mp3", duration = 44.0163265, start = 0},
+    {file = "Audio/Transport/full_quest_95204-8614b73cca26661391d9/1-0000.mp3", duration = 42.3444898, start = 0},
   },
 }
 P.transport["quest:95212"] = {
@@ -8486,7 +8486,7 @@ P.transport["quest:95250"] = {
   fullHash = "0e3705",
   text = "Abominable Creatures. At Lordaeron's fallen capital, Captain Truman waits anxiously for reinforcements and news of his missing commander. He believes the revered Grand Marshal still fights in the nearby ruins, and asks a capable traveler to find him. The search reveals the defenders' grim fate and deep hostility among the loyalists. Captain Truman keeps watch outside Lordaeron, anxious for long-overdue reinforcements. He calls his superior a renowned Grand Marshal, tall and statuesque, and believes him a formidable fighter. Ordered to hold the line while his commander charged into battle, Truman remains bound by duty.\n\nHe distrusts outsiders and scorns those he calls lesser breeds, refusing to rely on local irregulars. When a capable traveler arrives, he asks you to enter the ruins, check on his master's well-being, and learn how the battle fares. The search takes you into the Ruins of Lordaeron, the shattered capital that fell to the Scourge during the Third War. Captain Truman expects his glorious leader to stand triumphant over the fallen, but the blighted city tells a grimmer story.\n\nHorrors, undead remnants, and abominations roam its broken stone plazas. The ruined streets show what became of the defenders who entered the city. No immaculate knight holds the line; the commander has met a tragic, twisted end among the monstrosities in the courtyards.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_95250-18e44dbbfa3d6f4f34d3/1-0000.mp3", duration = 83.5134694, start = 0},
+    {file = "Audio/Transport/full_quest_95250-2778844033fd7075e336/1-0000.mp3", duration = 78.3673469, start = 0},
   },
 }
 P.transport["quest:95328"] = {
@@ -8694,7 +8694,7 @@ P.transport["quest:96"] = {
   fullHash = "0e12e8",
   text = "Call of Water. You bring the Shard of Water to Islen Waterseer on the Barrens coast. This return shows your harmony with restorative energies and earns you a Water Totem. You carry a gift from the Minor Manifestation of Water back across the sea. To earn it, you crossed continents to the tainted shores of Silverpine Forest and faced the corruption there. Water gives life, adapts, and heals, yet its pliant nature leaves it open to blight and dark magic.\n\nBefore the Minor Manifestation, you witnessed pure elemental will and received the Shard of Water. Now you return to the sun-scorched Barrens, where the shard reminds you that water joins distant corners of the world. When you give Islen Waterseer the shard, she weighs more than proof of your journey. She tests whether you have learned the balance between preservation and renewal. Lordaeron's spreading rot can hide small victories, yet cleansing even one wellspring matters to the spirits. Islen accepts your offering and gives you a Water Totem. Through it, you can channel cleansing, healing, and mana-restoring streams into the mortal realm, binding you to the tide.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_96-abbcbccffdcc1be3e7ce/1-0000.mp3", duration = 69.7469388, start = 0},
+    {file = "Audio/Transport/full_quest_96-59c949bbbdbd1234aef3/1-0000.mp3", duration = 64.2612245, start = 0},
   },
 }
 P.transport["quest:96031"] = {
@@ -8974,7 +8974,7 @@ P.transport["quest:96897"] = {
   fullHash = "1bfdc0",
   text = "The Cult of the Damned. In Tirisfal Glades, living servants of the Scourge threaten the people once more. By culling Dark Neophytes and Dark Enforcers, you help keep the Lich King's agents from repeating the betrayals that shattered Lordaeron. The Scourge has living servants who swear fealty to the Lich King. They serve where the mindless dead cannot. In Tirisfal Glades, people already face roaming undead and the relentless zealots of the Scarlet Crusade. Now, newly discovered cells of Dark Neophytes and Dark Enforcers show the Scourge seeking a foothold again. The marching dead were not the only cause of Lordaeron's fall. Neighbors betrayed neighbors as the Cult of the Damned infiltrated villages and poisoned granaries. From the shadows, they helped bring the kingdom down. Fresh Cult activity in Tirisfal threatens to repeat that history in the scarred lands of the north.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_96897-e2e22781c814942fbb17/1-0000.mp3", duration = 52.5844898, start = 0},
+    {file = "Audio/Transport/full_quest_96897-acd4a69a89d9ca8cbece/1-0000.mp3", duration = 48.404898, start = 0},
   },
 }
 P.transport["quest:96898"] = {
@@ -9054,7 +9054,7 @@ P.transport["quest:972"] = {
   fullHash = "dca536",
   text = "Water Sapta. At Islen Waterseer's shore, a young Horde shaman receives Water Sapta for a journey across the Great Sea. The trial leads from the Barrens to Silverpine Forest, where a spring has been corrupted. Among Horde shaman, a sapta is a draught that opens the senses to the world's spirits. A stream may look calm and a pond still to ordinary eyes. Drink a sapta, and the veil of the physical world parts. Then the elementals dwelling in the water come into view. After the shaman proves devotion to the spirits, Islen Waterseer gives them the draught. She lives alone on the barren shore south of Ratchet. Then she sends the initiate across the Great Sea, from Kalimdor's dry valleys to Silverpine Forest. There, an elemental corruption poisons Lordaeron's streams, and the shaman must face it.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_972-e6ed413825b1c6f05ddc/1-0000.mp3", duration = 49.397551, start = 0},
+    {file = "Audio/Transport/full_quest_972-133496bdf580ada561ac/1-0000.mp3", duration = 49.0579592, start = 0},
   },
 }
 P.transport["quest:97220"] = {
@@ -9254,7 +9254,7 @@ P.transport["quest:97289"] = {
   fullHash = "2189af",
   text = "Unending Torment. In the Undercity, the Forsaken prepare to question a fallen Alliance commander. They mean to give Grand Marshal Othmar Garithos a new body, and learn what he carried to his grave. Deep in the Undercity, Forsaken practitioners stitch abominations from discarded pieces of the dead. Among the preserved skulls lies one with a bitter history: the severed head of Grand Marshal Othmar Garithos. He led the surviving Alliance forces across Lordaeron, until the Dark Lady killed him.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_97289-a035d0092e919bca5d5a/1-0000.mp3", duration = 29.7795918, start = 0},
+    {file = "Audio/Transport/full_quest_97289-9befc927f5b7529c6392/1-0000.mp3", duration = 28.1861224, start = 0},
   },
 }
 P.transport["quest:97290"] = {
@@ -9806,7 +9806,7 @@ P.transport["quest:98190"] = {
   fullHash = "0a31ad",
   text = "A Friend of the Family. In Menethil Harbor, leaders fear their relics will fall into enemy hands. They send the Menethil Statuette to Highlord Bolvar Fordragon in Stormwind Keep for safekeeping. Menethil Harbor links the northern Eastern Kingdoms with the south. It bears the name of the late King Terenas Menethil II of Lordaeron. Yet treacherous marshes and enemies surround the port. With danger growing, its leaders fear the outpost cannot guard relics from the fallen northern kingdom. Dragonmaw orcs still infest the Wetlands. Their clan has a dark past and favors ruthless advantage. Harbor defenders fear the orcs will seize the Menethil Statuette for conquest. They might defile it or turn it to their own ends. The courier takes the relic straight to Stormwind Keep, past the usual military and bureaucratic channels. There, Highlord Bolvar Fordragon receives it as regent to the young King Anduin Wrynn. The capital's leaders are trusted to guard a piece of Lordaeron's heritage.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_98190-ab6a9ba06f2c11723d24/1-0000.mp3", duration = 58.5665306, start = 0},
+    {file = "Audio/Transport/full_quest_98190-f967a6b452c0b2b04ee8/1-0000.mp3", duration = 58.4097959, start = 0},
   },
 }
 P.transport["quest:98191"] = {

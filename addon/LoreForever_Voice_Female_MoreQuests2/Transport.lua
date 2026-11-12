@@ -1718,7 +1718,7 @@ P.transport["quest:1432"] = {
   fullHash = "ffd340",
   text = "Alliance Relations. In Orgrimmar, Alliance advances across Kalimdor put the Horde under pressure. Thrall's people send orders to Desolace to purge demons before the Alliance can accuse them of renewed ties to the Burning Legion. Alliance scouts and expeditions cross Kalimdor, leaving the Horde in a delicate position. Demonic remnants in central Kalimdor could confirm old suspicions that the orcs and their allies still serve the Burning Legion. With Warchief Thrall's sanction, Keldran oversees the effort from Orgrimmar. They must clear those remnants before hostile Alliance factions use them to justify war. The orders lead south through the Charred Vale in the Stonetalon Mountains and onward into Desolace. Ghost Walker Post stands just north of the vast Kodo Graveyard. Horde agents such as Takata Steelblade watch over these wastes. Rampant centaur tribes and spreading demonic corruption both threaten the region.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1432-0bdf6f35c7cb34777410/1-0000.mp3", duration = 58.357551, start = 0},
+    {file = "Audio/Transport/full_quest_1432-0bebc48cbcd07f1e1772/1-0000.mp3", duration = 56.1632653, start = 0},
   },
 }
 P.transport["quest:1437"] = {
@@ -2790,7 +2790,7 @@ P.transport["quest:1844"] = {
   fullHash = "d1e7c9",
   text = "Chimaeric Horn. In the Charred Vale, a suffering chimaera matriarch tests a Horde warrior’s strength and mercy. Orm Stonehoof needs her horn for the Brutal Helm, and the hunt will prove the warrior’s resolve. Orm Stonehoof will forge the Brutal Helm for Horde warriors, but custom asks for proof before he begins. Metal and coin are not enough. A warrior must show martial skill and face the scars left by devastating conflict. The Charred Vale lies in the southwestern Stonetalon Mountains, buried in ash. Once lush and green, the valley was burned into a smoking wasteland. Beasts still roam its soot-covered craters, twisted by pain and fury. Mighty chimaeras nest among dead trees and searing steam vents. To the tauren smith, the chimaera matriarch’s horn is needed for the helm and proves a warrior’s strength. Yet the hunt also ends her torment. By felling the matriarch, the warrior brings mercy to a wild spirit driven mad by the destruction of her home.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1844-8e2c74eeb3aa03ce06c2/1-0000.mp3", duration = 63.4514286, start = 0},
+    {file = "Audio/Transport/full_quest_1844-6cb30b87d7fb96e2eb48/1-0000.mp3", duration = 64.6530612, start = 0},
   },
 }
 P.transport["quest:1845"] = {

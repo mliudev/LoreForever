@@ -3,31 +3,46 @@
 -- one thing the game reads from disk mid-session is an add-on's own files, the first time that add-on is loaded. So
 -- Willo keeps a few small load-on-demand add-ons beside hers (LoreForever_Willo_Live1..N, LoreForeverJourneyData.liveSlots
 -- of them, companion/lore_companion/addon_writer.py), each holding her newest pins, rewritten whenever they change.
--- Each can be loaded once a session, so this loads the next unused one only when new pins are likely:
+-- Each can be loaded once a session, so this loads the next unused one only when the world map is up to show what it
+-- brings:
 --
---   AFTER_TALK seconds after the talk key comes up (her answer, her notebook and her write are in by then; another
---   talk before that moves it on), and when the world map opens after a talk that no look has settled yet, or with no
---   look for QUIET seconds (pins made in her window or on the phone), never twice within GAP, never in combat. With the
---   map up and her pin maybe still coming, one more look per talk.
+--   when the world map opens after a talk that no look has settled yet, or with no look for QUIET seconds (pins made
+--   in her window or on the phone); for a talk, never before SOON seconds after the talk key came up (her answer, her
+--   notebook and her write are usually in by then), so a talk with the map up, or the map opened right after one, waits
+--   until then if the map is still up (another talk before that moves it on), and a look then that found nothing she
+--   wrote after the talk looks once more at LAND, when her write surely is in, if the map is still up; never twice
+--   within GAP, never in combat.
+--
+-- Never after a talk with the map down, and one look per talk: most talks make no pin, and a look after each one (two
+-- with the map up) used every slot, so Mike's pin 6 h into a session waited for a /reload (11/10). Talks before a map
+-- opening share its look. Her pin reaches the minimap with the next opening of the map. QUIET is an hour: a look on
+-- every opening after 10 quiet minutes still used the slots up within 2 h of an ordinary evening (the Architect,
+-- 11/10). For a pin made in her window with no talk in game waiting, her reply says how to see it now: a /reload
+-- (companion core.py, _pin_waits_for_reload).
 --
 -- What it loads sets LoreForeverWilloLive = {generated, chars = {[key] = {pins}}, historyChars = {[install] = {...}}},
 -- Data.lua's pins only. Newer than what the game has, its pins replace those in LoreForeverJourneyData and the maps
 -- redraw (WorldPins.Update, the journey map). Older or the same: nothing changes. With every slot used, or a Willo
--- that writes none, pins wait for the next /reload, as before.
+-- that writes none, pins wait for the next /reload, as before; the first time a talk's look finds none left, one chat
+-- line says so.
 
 local _, ns = ...
+local L = ns.L
 
 local PinsLive = {}
 ns.PinsLive = PinsLive
 
--- EXPECT: how long after a talk her pin may still be on its way. Her answer and her write can come after a look, and
--- then a map opened a moment later stayed empty until a /reload (QA, 11/8), so a look only settles a talk once it has
--- brought pins or EXPECT has passed. KEEP: slots only the world map may take. A look follows every talk, pin or not,
--- so a long session used them all and the next pin never came. Only a look the opening of the map started may take them.
-local AFTER_TALK, GAP, QUIET, EXPECT, KEEP = 10, 15, 600, 40, 3
+-- SOON: the first look after a talk (her pin is usually written 4 to 12 s after the key: 4 s for both of Mike's on
+-- 11/11). LAND: by when it surely is; a look before then that found nothing new looks once more at LAND while the map
+-- is still up. Mike, 11/11: the map opened 17 s after his talk and closed 4 s later; waiting for LAND (25 s then) it never
+-- looked, his pin had been on disk 13 s, and he /reloaded. EXPECT: how long it may still be on its way; a look only
+-- settles a talk once it has brought pins or EXPECT has passed, so a later opening of the map looks again.
+local SOON, LAND, GAP, QUIET, EXPECT = 6, 25, 15, 3600, 40
 
 local used = {}             -- slots loaded this session
-local lastLook, talkedAt, relooked, inCombatWait = nil, nil, false, false
+local lastLook, talkedAt, inCombatWait, toldSpent = nil, nil, false, false
+local retried = false       -- this talk's second look (at LAND) is spent
+local talkedWall = 0        -- the talk's time on this PC's clock, the one her files are stamped with (generated)
 local timer = 0             -- the newest scheduled look; older ones do nothing
 
 local function now() return (GetTime and GetTime()) or 0 end
@@ -53,8 +68,8 @@ function PinsLive.Slots()
   return out
 end
 
--- The next slot the game can still load this session, leaving `keep` of them, or nil.
-local function nextSlot(keep)
+-- The next slot the game can still load this session, or nil.
+local function nextSlot()
   local info, loaded = api("GetAddOnInfo"), api("IsAddOnLoaded")
   if not info then return nil end
   local open = {}
@@ -70,7 +85,7 @@ local function nextSlot(keep)
       end
     end
   end
-  if #open > keep then return open[1] end
+  return open[1]
 end
 
 local function replace(into, from)
@@ -110,12 +125,19 @@ function PinsLive.Take(live)
   return true
 end
 
--- Load the next slot now (byMap: the map opening asked, and may take the kept slots). True when it brought newer pins.
-function PinsLive.Look(byMap)
+-- Load the next slot now. True when it brought newer pins.
+function PinsLive.Look()
   if InCombatLockdown and InCombatLockdown() then inCombatWait = true; return false end
-  local name = nextSlot(byMap and 0 or KEEP)
+  local name = nextSlot()
   local load = api("LoadAddOn")
-  if not (name and load) then return false end
+  if not (name and load) then
+    -- Every slot used, with a talk's pin maybe waiting: say once where it will show.
+    if load and talkedAt and not toldSpent and _G.DEFAULT_CHAT_FRAME then
+      toldSpent = true
+      DEFAULT_CHAT_FRAME:AddMessage(ns.Theme.CHAT_PREFIX .. L["To see Willo's newest pins on your map, type /reload."])
+    end
+    return false
+  end
   used[name] = true
   lastLook = now()
   local settled = not expecting()
@@ -123,42 +145,51 @@ function PinsLive.Look(byMap)
   pcall(load, name)
   local live = _G.LoreForeverWilloLive
   _G.LoreForeverWilloLive = nil
+  local at = type(live) == "table" and tonumber(live.generated) or 0
   local took = PinsLive.Take(live)
-  if took or settled then talkedAt = nil end
-  return took
+  -- Only what she wrote after the talk answers it. An older write (her files written again since the game read them,
+  -- a pin from her window) still goes on the maps, but the talk stays open, as when nothing came, so the look at LAND
+  -- or the next map opening still brings the talk's pin (the Architect's review of #3732: closed on any newer write,
+  -- the pin asked never came without a /reload).
+  local fresh = took and (not talkedAt or at >= talkedWall)
+  if fresh or settled then talkedAt = nil end
+  return fresh
 end
 
 local schedule
-local function tryLook(byMap)
-  local since = lastLook and now() - lastLook
-  if since and since < GAP then return schedule(GAP - since, byMap) end
-  PinsLive.Look(byMap)
-  -- Looking at the map and her pin may still come: one more look for this talk rather than leave it empty.
-  if expecting() and mapOpen() and not relooked then
-    relooked = true
-    schedule(GAP)
+local function tryLook()
+  local wait = math.max(lastLook and GAP - (now() - lastLook) or 0, talkedAt and SOON - (now() - talkedAt) or 0)
+  if wait > 0 then return schedule(wait) end
+  local took = PinsLive.Look()
+  -- Nothing yet, and her pin may still be on its way: once more at LAND, if the map is still up then.
+  if not took and talkedAt and not retried and now() - talkedAt < LAND and mapOpen() then
+    retried = true
+    schedule(LAND - (now() - talkedAt))
   end
 end
 
-schedule = function(delay, byMap)
+-- A later look, only if the map is still up then: closed, the next opening looks for itself.
+schedule = function(delay)
   timer = timer + 1
   local mine = timer
   if C_Timer and C_Timer.After then
-    C_Timer.After(delay, function() if mine == timer then tryLook(byMap) end end)
+    C_Timer.After(delay, function() if mine == timer and mapOpen() then tryLook() end end)
   end
 end
 
--- The talk key came up (Strip.Ask), or a question went out from the Ask box: a look once her answer is in.
+-- The talk key came up (Strip.Ask), or a question went out from the Ask box: the next map opening looks, or, with the
+-- map up now, a look once her pin is in.
 function PinsLive.Talked()
   if #PinsLive.Slots() == 0 then return end
-  talkedAt, relooked = now(), false
-  schedule(AFTER_TALK)
+  talkedAt, retried = now(), false
+  talkedWall = (time and time()) or 0
+  if mapOpen() then schedule(SOON) end
 end
 
 -- The world map opened: a look when a talk hasn't been settled by one, or none has been for QUIET.
 function PinsLive.MapShown()
   if #PinsLive.Slots() == 0 then return end
-  if talkedAt or not lastLook or now() - lastLook >= QUIET then tryLook(true) end
+  if talkedAt or not lastLook or now() - lastLook >= QUIET then tryLook() end
 end
 
 -- What the self-test and the sims read: {slots, used = how many loaded this session}.
@@ -173,7 +204,7 @@ events:RegisterEvent("PLAYER_ENTERING_WORLD")
 events:RegisterEvent("PLAYER_REGEN_ENABLED")
 events:SetScript("OnEvent", function(self, event)
   if event == "PLAYER_REGEN_ENABLED" then
-    if inCombatWait then inCombatWait = false; tryLook() end
+    if inCombatWait then inCombatWait = false; if mapOpen() then tryLook() end end
     return
   end
   local map = _G.WorldMapFrame

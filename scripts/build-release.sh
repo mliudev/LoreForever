@@ -57,7 +57,8 @@ addons = root / "addon"
 dist = root / "dist"
 CORE = "LoreForever"
 # Packs bundled with the core download, in zip order (voice or language).
-PACKS = ["LoreForever_Voice_Default", "LoreForever_Voice_Default_Alliance", "LoreForever_Voice_Default_Horde"]
+PACKS = ["LoreForever_Voice_Default", "LoreForever_Voice_Default_Alliance", "LoreForever_Voice_Default_Horde",
+         "LoreForever_Voice_QuestGivers_Start"]   # the starting zones' quest givers (LOR-1408)
 # Not in the zip, but released with every version as their own zips (scripts/build-voice-packs.sh), so
 # scripts/release.sh stamps the core's version into them too. One not in addon/ yet is skipped by both: the quest
 # givers' voices until their recordings land, and the narrators in the language packs' languages (LOR-177,
@@ -93,12 +94,25 @@ RELEASE_PACKS = ["LoreForever_Lang_deDE", "LoreForever_Lang_esES", "LoreForever_
                  "LoreForever_Voice_Default_deDE", "LoreForever_Voice_Female_deDE",
                  "LoreForever_Voice_Default_esES", "LoreForever_Voice_Female_esES",
                  "LoreForever_Voice_Default_MorePeople_deDE", "LoreForever_Voice_Female_MorePeople_deDE",
+                 "LoreForever_Voice_Default_MoreItems_deDE", "LoreForever_Voice_Female_MoreItems_deDE",   # German v3, in six parts (LOR-1082)
+                 "LoreForever_Voice_Default_MoreQuests1_deDE", "LoreForever_Voice_Female_MoreQuests1_deDE",
+                 "LoreForever_Voice_Default_MoreQuests2_deDE", "LoreForever_Voice_Female_MoreQuests2_deDE",
+                 "LoreForever_Voice_Default_MoreQuests3_deDE", "LoreForever_Voice_Female_MoreQuests3_deDE",
                  "LoreForever_Voice_Default_MorePeople_esES", "LoreForever_Voice_Female_MorePeople_esES",
                  "LoreForever_Voice_Default_MorePeople_ptBR", "LoreForever_Voice_Female_MorePeople_ptBR",
                  "LoreForever_Voice_Default_ptBR", "LoreForever_Voice_Female_ptBR",   # recast narrators, back (LOR-567)
                  "LoreForever_Voice_Default_MorePeople_frFR", "LoreForever_Voice_Female_MorePeople_frFR",
                  "LoreForever_Voice_Default_frFR", "LoreForever_Voice_Female_frFR",
-                 "LoreForever_Voice_Default_itIT", "LoreForever_Voice_Female_itIT",
+                 "LoreForever_Voice_Default_MoreItems_frFR", "LoreForever_Voice_Female_MoreItems_frFR",   # French v3, in six parts (LOR-1082)
+                 "LoreForever_Voice_Default_MoreQuests1_frFR", "LoreForever_Voice_Female_MoreQuests1_frFR",
+                 "LoreForever_Voice_Default_MoreQuests2_frFR", "LoreForever_Voice_Female_MoreQuests2_frFR",
+                 "LoreForever_Voice_Default_MoreQuests3_frFR", "LoreForever_Voice_Female_MoreQuests3_frFR",
+                 "LoreForever_Voice_Default_itIT", "LoreForever_Voice_Female_itIT",   # Italian, in six parts (LOR-1375)
+                 "LoreForever_Voice_Default_MorePeople_itIT", "LoreForever_Voice_Female_MorePeople_itIT",
+                 "LoreForever_Voice_Default_MoreItems_itIT", "LoreForever_Voice_Female_MoreItems_itIT",
+                 "LoreForever_Voice_Default_MoreQuests1_itIT", "LoreForever_Voice_Female_MoreQuests1_itIT",
+                 "LoreForever_Voice_Default_MoreQuests2_itIT", "LoreForever_Voice_Female_MoreQuests2_itIT",
+                 "LoreForever_Voice_Default_MoreQuests3_itIT", "LoreForever_Voice_Female_MoreQuests3_itIT",
                  "LoreForever_Voice_Default_zhCN", "LoreForever_Voice_Female_zhCN",   # Chinese, in six parts (LOR-1318)
                  "LoreForever_Voice_Default_MorePeople_zhCN", "LoreForever_Voice_Female_MorePeople_zhCN",
                  "LoreForever_Voice_Default_MoreItems_zhCN", "LoreForever_Voice_Female_MoreItems_zhCN",

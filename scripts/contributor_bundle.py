@@ -246,7 +246,7 @@ def validate_pair(addon_root, edition_id=EDITION_ID, allow_unhydrated_store=Fals
     for rel, proof in expected_inventory.items():
         p = addon_root / rel
         if store is not None and rel.startswith(audio_dir):
-            if store[rel[len(audio_dir):]] != [proof["sha256"], proof["bytes"]]:
+            if store[rel[len(audio_dir):]][:2] != [proof["sha256"], proof["bytes"]]:   # (+ its length, LOR-1007)
                 raise ValueError("asset store manifest differs from the pair: " + rel)
             continue
         if p.suffix == ".mp3":

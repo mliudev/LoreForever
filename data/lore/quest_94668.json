@@ -1,0 +1,67 @@
+{
+ "key": "quest:94668",
+ "type": "quest",
+ "name": "Bloodmaster's Ring",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94668
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "At the Bloodmaster's Ring, you report to Jezap after proving yourself against Twilight ogres. The Bloodmaster is ready to judge whether you belong.",
+ "sections": [
+  {
+   "title": "At the Ring",
+   "body": "The challenge at the Bloodmaster's Ring has brought you to Jezap. After you defeat the Twilight ogres, you report to him with the Bloodmaster and a goblin companion looking on. They are deciding whether you belong among those who approach the precipice of power.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who do I report to at the Bloodmaster's Ring?",
+   "aliases": [
+    "who is Jezap",
+    "report to Jezap",
+    "bloodmaster ring goblin"
+   ],
+   "answer": "You report to Jezap at the Bloodmaster's Ring."
+  },
+  {
+   "q": "What did I do before coming here?",
+   "aliases": [
+    "what happened before",
+    "twilight ogres",
+    "ring previous step"
+   ],
+   "answer": "You smashed Twilight ogres that were judged weak."
+  },
+  {
+   "q": "What is the Bloodmaster looking for?",
+   "aliases": [
+    "prove myself",
+    "what does Bloodmaster want",
+    "do I belong"
+   ],
+   "answer": "The Bloodmaster is judging whether you belong at the precipice of power."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bloodmaster",
+  "bloodmaster's ring",
+  "goblin",
+  "jezap",
+  "precipice of power",
+  "twilight ogres"
+ ],
+ "related": [
+  "topic:goblin"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Bloodmaster's Ring"
+ ]
+}

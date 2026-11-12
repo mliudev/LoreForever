@@ -33,7 +33,9 @@ Options.DEFAULTS = {
   narrateFlights = false,  -- play each zone's recorded story on taxi flights (Voice.OnTaxiCheck)
   onDemand = false,        -- "Narration: only when I press Play" (LOR-138): nothing plays by itself (Voice.OnDemand)
   autoZone = true,         -- play a zone's or place's recorded narration on arriving there (Voice.OnArrive)
-  questDialogue = false,   -- opt in to direct quest dialogue, including quest-window Play (Voice.QuestDialogue)
+  -- Quest voices as a quest window opens (Voice.QuestDialogue), on since LOR-1408 (Mike, 11/10: "I want to default to
+  -- quest giver voices"); older installs are switched on once (Voice.SwitchQuestVoicesOnce).
+  questDialogue = true,
   -- A book, letter or plaque page's recording as it opens (Voice.ReadBookPage). Options has no switch for it; another
   -- add-on that reads books turns it off (Voice.CheckSpoken, Voice.CheckQuestVoices).
   readBooks = true,
@@ -685,9 +687,10 @@ local function rows()
     { "narrateFlights", L["Narrate flights"], L["Read the story of each zone aloud while on a flight path."] },
     { "autoZone", L["Play narrations as you arrive"], L["When you reach a zone or place with a recorded narration, play it. Storyline recaps and the story passages your quests open play by themselves under this too. Never during combat or a flight, and never over something already playing."] },
     -- (a community pack frozen before this wording, Italian and Romanian, still has the line as it was: its own words over English)
-    { "questDialogue", L["Speak quest dialogue"], rawget(L, "Hear each quest page as you open it. When it's off, press the play button next to Lore on the quest window. Leave it off if another add-on reads your quests.")
+    { "questDialogue", L["Speak quest dialogue"], rawget(L, "Hear each quest read aloud as you open it. If another add-on reads your quests, Lore Forever turns this off by itself, so you never hear one twice. With it off, the play button next to Lore still plays a quest when you ask.")
+      or rawget(L, "Hear each quest page as you open it. When it's off, press the play button next to Lore on the quest window. Leave it off if another add-on reads your quests.")
       or rawget(L, "Hear each quest page as you open it. When it's off, press the play button next to Lore on the quest window. Leave it off if another add-on reads your quests. The same switch as in Willo.")
-      or L["Hear each quest page as you open it. When it's off, press the play button next to Lore on the quest window. Leave it off if another add-on reads your quests."] },
+      or L["Hear each quest read aloud as you open it. If another add-on reads your quests, Lore Forever turns this off by itself, so you never hear one twice. With it off, the play button next to Lore still plays a quest when you ask."] },
     { "skipHeard", L["Skip what you've heard"], L["Don't play a narration by itself again once this character has heard it. You can still play it any time; Found ticks the ones you've heard."] },
     { "packHints", L["Narration pack hints"], L["When you enter a zone whose places and people are narrated in a voice pack you don't have, say so once."] },
     { "journey", L["Remember my journey"], L["Keep track of the places you discover, the people you meet, the foes you defeat and the quests you finish, for your journey page. It stays on your PC."] },
@@ -929,7 +932,10 @@ function Options.Create()
       if key == "subtitles" and ns.Subtitles then ns.Subtitles.Set(self:GetChecked()) end
       if key == "onDemand" then ns.Voice.SetOnDemand(self:GetChecked()); p.Waiting() end
       if key == "getWillo" and ns.UI.UpdateWilloIcon then ns.UI.UpdateWilloIcon() end
-      if key == "questDialogue" then ns.Voice.SetQuestDialogue(self:GetChecked()) end
+      if key == "questDialogue" then   -- the player's own choice from now on (a later release can tell it from a default)
+        LoreForeverDB.settings.questDialogueTouched = true
+        ns.Voice.SetQuestDialogue(self:GetChecked())
+      end
       if key == "journey" and ns.Journey then ns.Journey.OnToggle() end
       if key == "storylines" and ns.UI and ns.UI.Refresh then ns.UI.Refresh() end
       if key == "storylines" and ns.Hooks and ns.Hooks.RefreshQuestStory then ns.Hooks.RefreshQuestStory() end
@@ -1081,6 +1087,8 @@ function Options.Create()
   keyRow(L["Play narration"], "LOREFOREVER_NARRATE", "narrate")
   keyRow(L["Play/pause narration playlist"], "LOREFOREVER_PLAYLIST", "playlist")
   keyRow(L["Next narration"], "LOREFOREVER_PLAYLIST_NEXT", "playlistNext")
+  keyRow(L["Stop narration"], "LOREFOREVER_STOP", "stop")
+  keyRow(L["Clear waiting narration (keeps what you added)"], "LOREFOREVER_CLEARWAITING", "clearWaiting")
   keyRow(L["Take a journey picture"], "LOREFOREVER_PICTURE", "picture")
   keyRow(L["Show %s's sky"]:format(ns.COMPANION_NAME), "LOREFOREVER_SKY", "sky", true)
   keyRow(L["Talk to %s"]:format(ns.COMPANION_NAME), "LOREFOREVER_ASKWILLO", nil, true)

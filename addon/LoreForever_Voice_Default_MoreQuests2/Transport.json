@@ -991,9 +991,9 @@
     "quest:1050": {
       "1": [
         {
-          "duration": 28.57795918367347,
-          "file": "Audio/Transport/full_quest_1050-65e79f652a598f599d7b/1-0000.mp3",
-          "sha256": "d9e1d2c6691fb065fa33ab62d0e6704c13628e643fe922a39231a19c1a9b916b",
+          "duration": 25.782857142857143,
+          "file": "Audio/Transport/full_quest_1050-5ba07350049023cff578/1-0000.mp3",
+          "sha256": "a1745a015099cf63737ed4b02e42474fdbdc8193316ceeb708c341796aece326",
           "start": 0
         }
       ],
@@ -1005,12 +1005,12 @@
         ]
       },
       "fullHash": "a604c0",
-      "generation": "b6313edd0ecf88fb161f",
+      "generation": "9b03dd54a229aabe9f36",
       "hash": "a604c0",
       "source": {
-        "duration": 28.604082,
+        "duration": 25.80898,
         "file": null,
-        "sha256": "65e79f652a598f599d7bda857a40be59e9d47e1535042f367c1a203e55203aec"
+        "sha256": "5ba07350049023cff57862ba50a801506d3b53a3a46586cada96a3d6e9e2c3ad"
       },
       "text": "Mythology of the Titans. In Ironforge, Librarian Mae Paledust seeks Mythology of the Titans, a book said to have rested in Tirisfal's old Monastery. Its study may show what the past can teach about the unknown ahead. Before trouble came to Lordaeron, the old Monastery in Tirisfal Glades kept a library of knowledge. Mae asks you to bring her a book called Mythology of the Titans. It is said to be there, and she hopes its study will uncover secrets of the past."
     },
@@ -2967,9 +2967,9 @@
     "quest:1159": {
       "1": [
         {
-          "duration": 58.04408163265306,
-          "file": "Audio/Transport/full_quest_1159-4b61243d4759fa99425a/1-0000.mp3",
-          "sha256": "159ff3023e9cbde71e38264e32d04d188e34da11f78349624e00a39d3a425ebc",
+          "duration": 55.353469387755105,
+          "file": "Audio/Transport/full_quest_1159-94882779f3eab320f192/1-0000.mp3",
+          "sha256": "33db38d180923c21884ffd2ba2b47d09547cfb696b92b875e837d6bc7229dbce",
           "start": 0
         }
       ],
@@ -2981,12 +2981,12 @@
         ]
       },
       "fullHash": "ecca46",
-      "generation": "77e2c140b1c36f8e391e",
+      "generation": "adcaed9bff8ffdf3f184",
       "hash": "ecca46",
       "source": {
-        "duration": 58.070204,
+        "duration": 55.353469,
         "file": null,
-        "sha256": "4b61243d4759fa99425ad78a4f9cb5f11c0223b50c912f1262f5d56976a9a3a0"
+        "sha256": "94882779f3eab320f192452c9ee64715ad3e9d6c9dfcb18adfbf9c28f2a5834c"
       },
       "text": "Test of Lore. Across the Great Sea, Horde seekers now carry the Test of Lore to the ruins of Lordaeron. You have answered Braug Dimspirit's first riddle in the Stonetalon Mountains. Now he sends you to a former human scholar among the Forsaken in Undercity. After you prove your mettle and learn the Dragon Aspects' history in the Legacy of the Aspects, Braug Dimspirit admits his knowledge has limits. The trial now reaches beyond Kalimdor and shows the Horde's far-reaching ties. So Braug sends you toward the undead capital beneath the ruins of Lordaeron. Parqual Fintallas lives in the damp corridors of the Apothecarium. Once a respected human chronicler of the northern kingdoms, he kept seeking knowledge through the Scourge and his transformation into one of the Forsaken. You arrive as an outsider, claiming to have completed the spiritual and physical trials of Thousand Needles. Parqual doubts you are more than an opportunistic mercenary, and expects you to prove your worth to him."
     },
@@ -5567,9 +5567,9 @@
     "quest:1432": {
       "1": [
         {
-          "duration": 54.56979591836735,
-          "file": "Audio/Transport/full_quest_1432-dba16e398bf576c3f7e3/1-0000.mp3",
-          "sha256": "3003dad473ebc70bd9dd5ab8480d45b17331119f8f253d4e7abf17f9522ce2f3",
+          "duration": 54.15183673469388,
+          "file": "Audio/Transport/full_quest_1432-4d050d6454f8826ba2e6/1-0000.mp3",
+          "sha256": "588fd366b11601ac848e92f122163076ee21f793961021ab15d89f92693647c3",
           "start": 0
         }
       ],
@@ -5581,12 +5581,12 @@
         ]
       },
       "fullHash": "ffd340",
-      "generation": "ad4a268d14cd11fbeb39",
+      "generation": "c4137f140c2cdf9797f8",
       "hash": "ffd340",
       "source": {
-        "duration": 54.595918,
+        "duration": 54.151837,
         "file": null,
-        "sha256": "dba16e398bf576c3f7e3e20fb8df86926270cbc1c67b76825dfe7af8976c4aba"
+        "sha256": "4d050d6454f8826ba2e66b8971fec5e1902236a2e2d02784081e49e9f676f75a"
       },
       "text": "Alliance Relations. In Orgrimmar, Alliance advances across Kalimdor put the Horde under pressure. Thrall's people send orders to Desolace to purge demons before the Alliance can accuse them of renewed ties to the Burning Legion. Alliance scouts and expeditions cross Kalimdor, leaving the Horde in a delicate position. Demonic remnants in central Kalimdor could confirm old suspicions that the orcs and their allies still serve the Burning Legion. With Warchief Thrall's sanction, Keldran oversees the effort from Orgrimmar. They must clear those remnants before hostile Alliance factions use them to justify war. The orders lead south through the Charred Vale in the Stonetalon Mountains and onward into Desolace. Ghost Walker Post stands just north of the vast Kodo Graveyard. Horde agents such as Takata Steelblade watch over these wastes. Rampant centaur tribes and spreading demonic corruption both threaten the region."
     },
@@ -5983,9 +5983,9 @@
     "quest:1476": {
       "1": [
         {
-          "duration": 56.058775510204086,
-          "file": "Audio/Transport/full_quest_1476-1ef1cfd2a3b69a39ee97/1-0000.mp3",
-          "sha256": "39e8cdd582a6a2f0b6c107e8cf9b8b721bc861f2e3a492668e1ee8c1f3f17d66",
+          "duration": 51.5134693877551,
+          "file": "Audio/Transport/full_quest_1476-7d0f4b1c9a1ffdbc1a91/1-0000.mp3",
+          "sha256": "335c09cb6f75c1beefc312ebec479327d1f465316c2eed1458b2199c604c8e3d",
           "start": 0
         }
       ],
@@ -5997,12 +5997,12 @@
         ]
       },
       "fullHash": "abe740",
-      "generation": "1318af49789832aef970",
+      "generation": "caa68f9b0261a8ea8a82",
       "hash": "abe740",
       "source": {
-        "duration": 56.058776,
+        "duration": 51.539592,
         "file": null,
-        "sha256": "1ef1cfd2a3b69a39ee974924843acd128aec63bc966d4805ca128ac0aa925586"
+        "sha256": "7d0f4b1c9a1ffdbc1a9120fa8bfa94161b4604ada56313295f8959b9c2e9c2f4"
       },
       "text": "Hearts of the Pure. In the Undercity, Godrick Farsan sets a trial for Carendin Halgar’s succubus binding. You seek two righteous human men whose pure hearts will tempt a demon. Carendin Halgar, master summoner in the Temple of the Damned, gives Godrick Farsan the groundwork for binding a succubus. Succubi prey on desire and ruin. Yet untainted virtue draws them from the Twisting Nether, where they are ripe for corruption. So Godrick searches human lands for souls whose goodness remains pristine and unbroken. Godrick Farsan names two men whose virtue marks them for sacrifice. Dalin Forgewright cares for desperate Lordaeron refugees barred from sanctuary outside the sealed Greymane Wall in southern Silverpine. Comar Villard tirelessly searches the perilous marshlands of the Wetlands for any trace of his lost wife. Their devotion, empathy and loyalty make them prime sacrifices to a Forsaken warlock."
     },
@@ -8661,9 +8661,9 @@
     "quest:1801": {
       "1": [
         {
-          "duration": 59.45469387755102,
-          "file": "Audio/Transport/full_quest_1801-13ef6b4c23b64575d73b/1-0000.mp3",
-          "sha256": "6c2af223091320b0bfd1a6655199a6e8ddb514cecc91eb20f0f073777bfae722",
+          "duration": 60.13387755102041,
+          "file": "Audio/Transport/full_quest_1801-0c67498abff0a6dc1e84/1-0000.mp3",
+          "sha256": "555866ee1d4b845f852d35834ba0e642f1ea5b78a3adcf626d7ce2ce2230f12d",
           "start": 0
         }
       ],
@@ -8675,12 +8675,12 @@
         ]
       },
       "fullHash": "89ae21",
-      "generation": "06ac00a15a38c54ad619",
+      "generation": "7f1a2bf836e98606f2eb",
       "hash": "89ae21",
       "source": {
-        "duration": 59.480816,
+        "duration": 60.16,
         "file": null,
-        "sha256": "13ef6b4c23b64575d73b4ea9c08f3ae414b6fb964e8cb383e1e5e6a2a9f853f4"
+        "sha256": "0c67498abff0a6dc1e840ee55e41a65bafbfb83e639a91391bf4dbe8fe8e406d"
       },
       "text": "Tome of the Cabal. In the Barrens, Strahad Farsan sends Horde warlocks east to seek a lost grimoire. Its rites teach how to summon and bind a felhunter, and the search leads first to cartographer Jorah Annison in the Undercity. Strahad Farsan warns that summoning a felhunter takes more than ordinary fel magic. These predators feed on magical energies and resist common summoning circles. An initiate needs special circles and an ancient grimoire called the Tome of the Cabal. The first warlocks to bind a felhunter without outside aid wrote it. Its rites and seals show how to enslave the dangerous demon. No copies of the Tome of the Cabal remain among warlocks in Kalimdor. So Strahad sends his student across the sea to Jorah Annison in the Undercity. Annison is a royal cartographer who maps Lordaeron, yet he knows much about ancient and obscure texts. He admits that mapmaking wears on him. His true hunger is for rare histories, occult narratives, and treatises on dark magic."
     },
@@ -8713,9 +8713,9 @@
     "quest:1803": {
       "1": [
         {
-          "duration": 37.61632653061225,
-          "file": "Audio/Transport/full_quest_1803-d6e796844083cf11cd0a/1-0000.mp3",
-          "sha256": "6e305d8906777a997638af6bfee5f530c96f99e4b8f4b411e0d6af05cd52bda7",
+          "duration": 38.0865306122449,
+          "file": "Audio/Transport/full_quest_1803-b83659554c30a5645488/1-0000.mp3",
+          "sha256": "7d7e6ad782ad2440716f2259bb15ba326b9e1b08e022bf72832edffb47b6eb51",
           "start": 0
         }
       ],
@@ -8727,12 +8727,12 @@
         ]
       },
       "fullHash": "b59da3",
-      "generation": "bf79387ae65b6f56e607",
+      "generation": "27feb9bbe5dac06745ba",
       "hash": "b59da3",
       "source": {
-        "duration": 37.642449,
+        "duration": 38.086531,
         "file": null,
-        "sha256": "d6e796844083cf11cd0a450cdfccff8b2f8e5e789e36dbcb52a0e1c57d064660"
+        "sha256": "b83659554c30a56454884de38de4cabaf622a6127af352f4798c27ed22729780"
       },
       "text": "Tome of the Cabal. In the Undercity, Horde warlocks seek the Tome of the Cabal's scattered halves for Jorah Annison. Once kept in Lordaeron, the grimoire was torn apart, and its remnants lie along the hostile waters of the Eastern Kingdoms and deep in Kalimdor's centaur lands. The Tome of the Cabal once rested in Lordaeron's library. Someone defaced the sinister grimoire, tore away nearly half its pages, and split it in two. The surviving bound text was sent to the dwarven halls of Ironforge. But its transport wrecked along the rocky coast west of Southshore, and the pages now rot in the shallows beneath scavenging murlocs."
     },
@@ -10689,9 +10689,9 @@
     "quest:2479": {
       "1": [
         {
-          "duration": 54.85714285714286,
-          "file": "Audio/Transport/full_quest_2479-6acd3a7841754ffd00f9/1-0000.mp3",
-          "sha256": "4bf1d91bf42c422e12aa5e91dfdbaad3f020c20730ac11210bdebbc1b0a22012",
+          "duration": 52.40163265306123,
+          "file": "Audio/Transport/full_quest_2479-23e1f7cd96f329e47de6/1-0000.mp3",
+          "sha256": "f727aab17d0e1311c1b247cc2bdb8f95ad25fe9ab999827c3276f824f8ff1147",
           "start": 0
         }
       ],
@@ -10703,12 +10703,12 @@
         ]
       },
       "fullHash": "b2ad82",
-      "generation": "b94c0b8f7241a8e00a32",
+      "generation": "75aecdbc818be5e5b533",
       "hash": "b2ad82",
       "source": {
-        "duration": 54.857143,
+        "duration": 52.427755,
         "file": null,
-        "sha256": "6acd3a7841754ffd00f997763922ff47954e32043805e4f19206d0fd8382fc20"
+        "sha256": "23e1f7cd96f329e47de6930e8ef077b0a452f57257c166387392efec6e906282"
       },
       "text": "Hinott's Assistance. In Orgrimmar, poisoned rogues seek help before Zanzil's mixture claims their lives. The toxin came from an infiltration in the Barrens. Serge Hinott in Tarren Mill can offer a cure and teach rogues to brew poisons. Your infiltration of the Venture Company's tower north of the Sludge Fen has left you poisoned by Zanzil's altered mixture. It dulls your reflexes and threatens your life. Shenthul, the rogue trainer in Orgrimmar, knows local remedies cannot help. So he sends you across the sea to the Eastern Kingdoms for care. Your search for a cure leads south through Lordaeron to Tarren Mill, a village in Hillsbrad Foothills. Serge Hinott lives there as an apothecary and is fascinated by virulent brews. Ordinary healers recoil from Zanzil's venom, but Hinott meets the deadly compound with professional glee. He can dissect the foul concoction and teach worthy rogues to brew their own venoms."
     },
@@ -12509,9 +12509,9 @@
     "quest:321": {
       "1": [
         {
-          "duration": 32.3395918367347,
-          "file": "Audio/Transport/full_quest_321-3ae7aff37b463b37ad34/1-0000.mp3",
-          "sha256": "59e8f484ffe56910c11c6f07f330b09e5ceab17bc05c3bae5eb1154aac98640f",
+          "duration": 32.888163265306126,
+          "file": "Audio/Transport/full_quest_321-2d7f900172e0fdbdbf52/1-0000.mp3",
+          "sha256": "4007b97286d7a803fafc57760d4e739e08999000809b94d1a557a908dd5549a5",
           "start": 0
         }
       ],
@@ -12523,12 +12523,12 @@
         ]
       },
       "fullHash": "57613b",
-      "generation": "1b59b001ce8f02cff5c8",
+      "generation": "aa821e6b9c4220f2dcd1",
       "hash": "57613b",
       "source": {
-        "duration": 32.365714,
+        "duration": 32.888163,
         "file": null,
-        "sha256": "3ae7aff37b463b37ad3417dfe5033bec65ffc9f4d8d08a805e7269e6d91da49d"
+        "sha256": "2d7f900172e0fdbdbf52de21dcb600af068ec06e7897777ffb05deac1a8ad90e"
       },
       "text": "Lightforge Iron. In Menethil Harbor, Glorin Steelbrow seeks cargo lost with an elven destroyer. The Flying Osprey carried rare Lightforge iron when it sank with the Third Fleet of Kul Tiras during the Second War. The Flying Osprey sailed from Lordaeron beside the Third Fleet of Kul Tiras. The elven destroyer carried a precious cargo of Lightforge iron and traveled with the fleet for safety. Then the Dragonmaw clan's enslaved red dragons swept down from the sky. They set the ships ablaze, sending sailors and sanctified metal beneath the waves."
     },
@@ -14225,9 +14225,9 @@
     "quest:474": {
       "1": [
         {
-          "duration": 59.924897959183674,
-          "file": "Audio/Transport/full_quest_474-1e99c885ccf32b835cc0/1-0000.mp3",
-          "sha256": "5c174d8f97f47a72bcdd2ddde944246c66fc3ebc258b34412885ae500410b355",
+          "duration": 57.756734693877554,
+          "file": "Audio/Transport/full_quest_474-6b26b748c30a4f557290/1-0000.mp3",
+          "sha256": "4200d97662f4c3356c4f99b797cf36dc1dad54d297e5a4e2a4f4d95c72207c75",
           "start": 0
         }
       ],
@@ -14239,12 +14239,12 @@
         ]
       },
       "fullHash": "542a05",
-      "generation": "17dd1f1aecefc29538c0",
+      "generation": "57c2f3ab14291aa2cc13",
       "hash": "542a05",
       "source": {
-        "duration": 59.95102,
+        "duration": 57.756735,
         "file": null,
-        "sha256": "1e99c885ccf32b835cc0c249ff0e77bd6b1c898ef338541630df6ae5124f20ee"
+        "sha256": "6b26b748c30a4f55729003cd45ea2980bc49c9cb19592c393fbbe2b83f814303"
       },
       "text": "Defeat Nek'rosh. In the Wetlands, the Alliance closes in on Nek'rosh and his Dragonmaw warband. Their catapults are burning, but Menethil Harbor remains under threat until the chieftain falls. The Dragonmaw have long plagued the marshlands of Khaz Modan. They hold fortified camps and threaten Menethil Harbor's sea lanes. After the clan's catapults are found and burned, the marsh's defenders strike at the warband's leader. Chieftain Nek'rosh commands the local orcs and remains the last obstacle to breaking the siege. Without him, the remaining raiders lose their leader's direction. Bring Nek'rosh's severed head to Captain Stoutfist in Menethil Harbor, and Ironforge's garrison will claim a major victory. The Dragonmaw have lost their heavy siege weapons and their chieftain, a blow they are unlikely to recover from quickly.\n\nMenethil Harbor is the Alliance's main lifeline between Lordaeron and Khaz Modan. With Nek'rosh fallen, its docks and trade vessels are safer from sudden attack."
     },
@@ -15525,9 +15525,9 @@
     "quest:528": {
       "1": [
         {
-          "duration": 51.565714285714286,
-          "file": "Audio/Transport/full_quest_528-9b953597080ffeb0e06d/1-0000.mp3",
-          "sha256": "eee5a97a5411a4aac55f646ebc5b74b36ca6d3c882df9afee0b3244bfeb3a926",
+          "duration": 50.49469387755102,
+          "file": "Audio/Transport/full_quest_528-e644e17a2c455adc4482/1-0000.mp3",
+          "sha256": "90df9b5677644bea625265c42d2b929cd22a7a773e245b7af09e6b1a2f08e471",
           "start": 0
         }
       ],
@@ -15539,12 +15539,12 @@
         ]
       },
       "fullHash": "b166aa",
-      "generation": "86267ff0cd87a57ee146",
+      "generation": "ea71cc423e095a3928f2",
       "hash": "b166aa",
       "source": {
-        "duration": 51.591837,
+        "duration": 50.494694,
         "file": null,
-        "sha256": "9b953597080ffeb0e06db68f386ea8a80304a38948054befb2ad9cc871580ab7"
+        "sha256": "e644e17a2c455adc44820b1323ba9ee25c5dc34f417c5f45731d5ba554074d31"
       },
       "text": "Battle of Hillsbrad. In Hillsbrad, Forsaken forces press south after strikes on the northern farms. Horde operatives now hunt the peasants who fled to the orchards. Hillsbrad's human farms have come under attack, driving laborers south into the fields. After strikes on the northern farms, many flee to the orchards and pastures of Hillsbrad Fields. They hope to escape the advancing undead. High Executor Darthalia sees their flight as a chance to break the township's remaining labor force and morale. From Tarren Mill, High Executor Darthalia orders Horde forces to hunt the displaced laborers in the fields. The peasants have no protection. Their deaths choke Hillsbrad's food supply and weaken civilian resolve. For Darthalia and the Forsaken, each human killed tightens their hold over the surviving township and helps keep Lordaeron in Forsaken hands."
     },
@@ -15889,9 +15889,9 @@
     "quest:541": {
       "1": [
         {
-          "duration": 60.10775510204082,
-          "file": "Audio/Transport/full_quest_541-3eebab1d65598ccaa95a/1-0000.mp3",
-          "sha256": "6475e2e4b4489163239e209b052ee0209b863de386a6e538e77121e51071dbf9",
+          "duration": 53.054693877551024,
+          "file": "Audio/Transport/full_quest_541-e16237e47738163ee2ad/1-0000.mp3",
+          "sha256": "f85763b67c272170549751279283d2328d41a37ca31d3507a58a2031fb512fa4",
           "start": 0
         }
       ],
@@ -15903,12 +15903,12 @@
         ]
       },
       "fullHash": "b95c87",
-      "generation": "6d85a3291c2f2abe69b2",
+      "generation": "e572fc257d15cf354f9d",
       "hash": "b95c87",
       "source": {
-        "duration": 60.133878,
+        "duration": 53.054694,
         "file": null,
-        "sha256": "3eebab1d65598ccaa95a651e41481208928af7f832fc0683078123b82748a2c3"
+        "sha256": "e16237e47738163ee2ad98aa7926670b28ddbba70c2e8bf375f3974264120a47"
       },
       "text": "Battle of Hillsbrad. In Hillsbrad, the Forsaken's campaign now turns on Dun Garok. High Executor Darthalia sends Horde champions to break the dwarven garrison aiding local humans and kill its commander, Captain Ironhill. High Executor Darthalia has already pressed the human farmers and town militia across the foothills. Now she directs Tarren Mill's fury at Ironforge's troops. Dwarven soldiers have taken up arms for Southshore, strengthening the human presence in Lordaeron. Darthalia sees that bond as an obstacle. She means to show the Alliance that aid for the human survivors will bring devastation. Dun Garok clings to Thoradin's Wall in southeastern Hillsbrad. Disciplined mountaineers hold the fortified stronghold, joined by skilled riflemen and battle-hardened priests. Horde forces must break through those defenders and kill Captain Ironhill. His death breaks Ironforge's forward command in the region, leaving the remaining human enclaves isolated."
     },
@@ -16097,9 +16097,9 @@
     "quest:550": {
       "1": [
         {
-          "duration": 52.45387755102041,
-          "file": "Audio/Transport/full_quest_550-05ea1124f24e228e9fc9/1-0000.mp3",
-          "sha256": "9f8cfb0df0cafb5d02398da467d81f902cf8e9e7bb110965afa7d655ecf84776",
+          "duration": 50.49469387755102,
+          "file": "Audio/Transport/full_quest_550-b68c916568c0efdfeb92/1-0000.mp3",
+          "sha256": "43f0d2f6cf21f0b2a916dcd8186f3c777dd47f0f97841cde86c34fecc02f0c64",
           "start": 0
         }
       ],
@@ -16111,12 +16111,12 @@
         ]
       },
       "fullHash": "54034b",
-      "generation": "7c4e4273ef87bf98ddda",
+      "generation": "060a159a9ad466380ede",
       "hash": "54034b",
       "source": {
-        "duration": 52.48,
+        "duration": 50.494694,
         "file": null,
-        "sha256": "05ea1124f24e228e9fc91c9c8e05d8413dd37d8f807933d76bba52f0c9da73b0"
+        "sha256": "b68c916568c0efdfeb922497096dd5ea465b4989e3b767152258a6c94d952b6f"
       },
       "text": "Battle of Hillsbrad. At Hillsbrad, the Forsaken have broken the township's defenses. High Executor Darthalia sends you to carry her commendation to Varimathras in the Undercity. Fierce fighting in Hillsbrad Foothills has decided the struggle for southern Lordaeron. From Tarren Mill, Horde champions struck the township's farmers, militia, blacksmiths, and civic leaders. Alliance forces are crippled, and the territory is secured for the Forsaken. Now High Executor Darthalia prepares an official commendation so the champion's deeds reach the highest ranks of command. Darthalia's sealed commendation takes you to Varimathras in the Undercity's Royal Quarter. The dreadlord oversees military operations across Lordaeron beside Lady Sylvanas Windrunner. The Scourge from the northern Plaguelands remains the Dark Lady's greatest threat. Yet surviving human enclaves still endanger the Forsaken's southern borders."
     },
@@ -16435,9 +16435,9 @@
     "quest:562": {
       "1": [
         {
-          "duration": 60.57795918367347,
-          "file": "Audio/Transport/full_quest_562-65a1519b3e9dfd0991ab/1-0000.mp3",
-          "sha256": "11364352f0686816ba018055e343c9779cc793b2743d710384087036ef35bc5d",
+          "duration": 55.61469387755102,
+          "file": "Audio/Transport/full_quest_562-7b1fe62afce42e6e90d8/1-0000.mp3",
+          "sha256": "8cfd6e2e227cec71b1460e5404f7cd7cc123a3617370ad91240304859100f6b3",
           "start": 0
         }
       ],
@@ -16449,12 +16449,12 @@
         ]
       },
       "fullHash": "cd7efc",
-      "generation": "d610e291dc8684d95d83",
+      "generation": "e68ec21d288efbc40a1b",
       "hash": "cd7efc",
       "source": {
-        "duration": 60.577959,
+        "duration": 55.614694,
         "file": null,
-        "sha256": "65a1519b3e9dfd0991ab16abea1370127739d681fbf2dfc3593ff02326d563c3"
+        "sha256": "7b1fe62afce42e6e90d8832990ce73cb3390e2fd05a0bbec51614392312fdd7a"
       },
       "text": "Stormwind Ho!. Alliance High Command fears the naga threat, and Stormwind Ho! gives Farren Orinelle a way south. He hopes to claim their defeat and win a return to Stormwind City. Lieutenant Farren Orinelle finds his post in Southshore miserable. The town lies on Lordaeron’s edge, hemmed in by Forsaken forces, syndicate brigands, and sea fiends. Farren once served as a city guardsman in Stormwind, where his days meant drunks and petty brawls. Now he longs to return south.\n\nHis former mentor tells him Alliance High Command grows anxious about naga encroaching on the coasts. Farren sees a chance to leave the north behind. Farren admits he lacks the courage and skill to face Daggerspine sirens and shorehunters in open combat. So he sends you to scour the beaches southeast of Southshore and thin the naga ranks.\n\nHe needs your deeds for an impressive dispatch to Major Samuelson in Stormwind. With that credit, Farren hopes to secure a reassignment."
     },
@@ -16539,9 +16539,9 @@
     "quest:5644": {
       "1": [
         {
-          "duration": 50.651428571428575,
-          "file": "Audio/Transport/full_quest_5644-2a3e2af1c908356df256/1-0000.mp3",
-          "sha256": "40fc2516e42aa93d93c042794dc1e69182167051f127deef37ea12bfe5532a59",
+          "duration": 49.946122448979594,
+          "file": "Audio/Transport/full_quest_5644-fd5cc0bc0b2262891f07/1-0000.mp3",
+          "sha256": "f632ea19be57f617cc4990f23d32c37e760036863254b2cf6cf8bf087ee75fef",
           "start": 0
         }
       ],
@@ -16553,12 +16553,12 @@
         ]
       },
       "fullHash": "9236f1",
-      "generation": "ad719aa078a940394c89",
+      "generation": "f96884f502f9af6f8268",
       "hash": "9236f1",
       "source": {
-        "duration": 50.677551,
+        "duration": 49.946122,
         "file": null,
-        "sha256": "2a3e2af1c908356df2560d643e2e5b58fe109e80ee7274e9abcd136a5b279e28"
+        "sha256": "fd5cc0bc0b2262891f070f4fbd087d6b5bb4cfc8321f43c3bfbb6974ab651ca8"
       },
       "text": "Devouring Plague. Across the sea from Lordaeron, Devouring Plague awaits Forsaken priests ready to learn its dark art. Miles Welsh in Thunder Bluff sends the adept to Aelthalyste in the Ruins of Lordaeron for this signature Shadow magic. In Thunder Bluff, Miles Welsh trains Forsaken priests among the tauren. He watches their divine and shadowy studies, and knows when an acolyte is ready for higher mysteries. Rather than teach those secrets himself in Kalimdor, Miles sends the worthy back to the Ruins of Lordaeron. Aelthalyste waits beneath the city ruins in the Undercity's War Quarter. She is one of the foremost mentors of the Forsaken priesthood, guiding acolytes who weave shadow. Devouring Plague drains its victim and carries a corruptive force. Aelthalyste teaches it only to those able to wield that force without succumbing."
     },
@@ -16591,9 +16591,9 @@
     "quest:5646": {
       "1": [
         {
-          "duration": 63.79102040816327,
-          "file": "Audio/Transport/full_quest_5646-9995c7c2851e1f66b63e/1-0000.mp3",
-          "sha256": "9340d75a6039e0b0816d443fceaea55309d38a41db29c180ed254fa84f3e189b",
+          "duration": 60.31673469387756,
+          "file": "Audio/Transport/full_quest_5646-93546edd70263a0f9e36/1-0000.mp3",
+          "sha256": "65e057132bb8590b814b5b8f72b901bd842a0e2929238b2bddce190d4443cbd6",
           "start": 0
         }
       ],
@@ -16605,12 +16605,12 @@
         ]
       },
       "fullHash": "48f4eb",
-      "generation": "39c31a0cc49a2371a337",
+      "generation": "5c8a59a4cfb0033621e0",
       "hash": "48f4eb",
       "source": {
-        "duration": 63.817143,
+        "duration": 60.316735,
         "file": null,
-        "sha256": "9995c7c2851e1f66b63e6b93647a059fba76752e9733a697895f744f4bcd4d80"
+        "sha256": "93546edd70263a0f9e361fbfcfaf6cf991d4e5540cb37d66ae0ad9500a411f58"
       },
       "text": "Devouring Plague. In Orgrimmar, Ur'kyo sends Forsaken priests home to learn Devouring Plague. They came to Kalimdor to learn from the Darkspear, but Aelthalyste waits in Undercity to teach them their people's shadow arts. Ur'kyo guides those drawn to spiritual power in Orgrimmar. Darkspear trolls and Forsaken share a curious bond in matters of faith, while orcs and tauren show little desire for priestly worship. Ur'kyo knows Forsaken initiates must master the shadow arts tied to their own condition. Out of respect between their peoples, he sends wandering Forsaken back to Lordaeron to finish their training. Beneath Lordaeron's ruins, Priestess Aelthalyste tends her flock in Undercity's War Quarter. Forsaken priests follow a solitary, grueling path shaped by their turn to shadow. They endure the painful touch of the Holy Light and learn to wield the devastating affliction of Shadow magic.\n\nWhen an initiate gains enough skill, Aelthalyste gathers them close. There, she teaches the affliction her kind calls Devouring Plague."
     },
@@ -19789,9 +19789,9 @@
     "quest:700": {
       "1": [
         {
-          "duration": 44.434285714285714,
-          "file": "Audio/Transport/full_quest_700-83acb6b5a08971f06df3/1-0000.mp3",
-          "sha256": "3bc8dfbb2efd0ba0263d554d05ea4f17c3e42ee95065bf857a39f648d091b30c",
+          "duration": 41.22122448979592,
+          "file": "Audio/Transport/full_quest_700-cb787965600779ce7e7b/1-0000.mp3",
+          "sha256": "e411ff6898a52a70f7185c3a8e60aa4497016bcb600d7bb63f6577bf91d6e124",
           "start": 0
         }
       ],
@@ -19803,12 +19803,12 @@
         ]
       },
       "fullHash": "3661b0",
-      "generation": "ff88b3d80f55b4157d32",
+      "generation": "783dd810985d9e3eb333",
       "hash": "3661b0",
       "source": {
-        "duration": 44.460408,
+        "duration": 41.221224,
         "file": null,
-        "sha256": "83acb6b5a08971f06df3d4da2385e5dbc920f02fe04d49944f47721e5a6f647d"
+        "sha256": "cb787965600779ce7e7bacb857987ecc3c3e09d67bab32cd859acaeaf528102f"
       },
       "text": "A King's Tribute. Magni Bronzebeard gives Sully Balloo a memorial in Ironforge. Granite from Lordaeron keeps the fallen dwarf in his people's memory. King Magni Bronzebeard commissioned a monument for Sully Balloo, a dwarf who died serving his people. Grand Mason Marblesten carved it from fine granite brought from Lordaeron's war-torn lands. The monument stands in Ironforge, honoring soldiers whose sacrifices help preserve the dwarven kingdom. When told the monument is complete, Magni considers stone and mortality. Carved rock can never equal a brave dwarf's life, he knows, yet he hopes the memorial endures. Then generations walking Azeroth may remember the heroes who bled to secure their tomorrow."
     },
@@ -22961,9 +22961,9 @@
     "quest:91859": {
       "1": [
         {
-          "duration": 59.45469387755102,
-          "file": "Audio/Transport/full_quest_91859-d1e3f486089823257b55/1-0000.mp3",
-          "sha256": "f82b7d1b80ff047ec9ab62d5fdc4f8693686dc048a550b85611687e0f68e34ac",
+          "duration": 59.32408163265306,
+          "file": "Audio/Transport/full_quest_91859-a22f2d3c9e5e415d9e4d/1-0000.mp3",
+          "sha256": "15756dd6acdd118e8e45166a6df8d564e16ed7b483df27f2dd1a8ee4dacbc4df",
           "start": 0
         }
       ],
@@ -22975,12 +22975,12 @@
         ]
       },
       "fullHash": "7595ff",
-      "generation": "7799b25555f49892fbd7",
+      "generation": "f7ca84af1b8dcf31dc32",
       "hash": "7595ff",
       "source": {
-        "duration": 59.480816,
+        "duration": 59.324082,
         "file": null,
-        "sha256": "d1e3f486089823257b5533ea4424e82abb3d5825f10e3dba2c2d9d277f045fc3"
+        "sha256": "a22f2d3c9e5e415d9e4d3bdf3b5db0c57abc2562ac1e4b3d3b3f72cbfc8e6546"
       },
       "text": "A Curious Pair. In the Sepulcher, Trevan Rol watches a rare pair travel through Silverpine Forest. The tauren and high elf carry the Earthen Ring's banner, and their presence draws the Forsaken's suspicion. Trevan Rol sees two travelers claiming to represent the Earthen Ring on the road by the Sepulcher. The outpost is a grim waystation where strangers receive close scrutiny, especially when they come on diplomatic business. A tauren beneath the shamanic order's banner draws little surprise. His cloaked companion is another matter. The scout recognizes an unmistakable high elf, a sight the Forsaken find exceedingly strange. A high elf openly traveling beside a member of the Horde's shamanic circles raises questions among the Forsaken sentries. The Earthen Ring attends to the balance of the elements, and high elves are rarely seen in Lordaeron, much less beside tauren envoys. To learn where the pair went and what brought them to the forest, you are directed to Deathguard Baldren at the edge of town."
     },
@@ -23169,9 +23169,9 @@
     "quest:92401": {
       "1": [
         {
-          "duration": 62.11918367346939,
-          "file": "Audio/Transport/full_quest_92401-bdb7cec6c0d0d5c4e43a/1-0000.mp3",
-          "sha256": "8230e678153d18894a6adf1b9519aa8e0b524f442042fc4fc3d2182fadea2349",
+          "duration": 58.40979591836735,
+          "file": "Audio/Transport/full_quest_92401-e7311d3bfb368c971483/1-0000.mp3",
+          "sha256": "ce360e344dbc12dc93e2d0500cf9ea6c4eb8b1cfa75345459784a4e5b586ce88",
           "start": 0
         }
       ],
@@ -23183,21 +23183,21 @@
         ]
       },
       "fullHash": "c84a64",
-      "generation": "ee0f75c896c4ca8303bb",
+      "generation": "0a5f8c9633692a3be759",
       "hash": "c84a64",
       "source": {
-        "duration": 62.145306,
+        "duration": 58.409796,
         "file": null,
-        "sha256": "bdb7cec6c0d0d5c4e43a946190b5bb4ccf057273ee3d34bdb2fd1acbac370df2"
+        "sha256": "e7311d3bfb368c9714833a48834ba1abf05291cf4987b953768c34365d7df6ed"
       },
       "text": "A Frightened Request. Edward Heartweaver’s wife waits in fear after he vanishes in the Ruins of Lordaeron. Since their son was lost when the capital fell, Edward has gone each week to search the graveyard for his remains. Now his usual journey has lasted several days. When the Scourge destroyed Lordaeron during the Third War, the Heartweavers lost their young son. His body was never found in the ruin. So Edward Heartweaver went each week to the capital’s graveyard, still hoping to find some trace of his child.\n\nGrief and guilt kept Edward from letting go. The graveyard lay within the ruined capital, where the search was perilous. The surface ruins of Lordaeron are overrun by hostile creatures and lurking horrors. They are no place for ordinary citizens. Edward’s frightened wife warned him and begged him to stop going, but he kept to his weekly search.\n\nThen Edward failed to return for several days. His wife turned to capable adventurers and asked them to brave the ruins and learn what had become of him."
     },
     "quest:92415": {
       "1": [
         {
-          "duration": 55.30122448979592,
-          "file": "Audio/Transport/full_quest_92415-aef3c5b35894efae8d43/1-0000.mp3",
-          "sha256": "020bbabf3bf88d3ef9e49ebabd99838691bdd7f4e23123176f1a553f8696ce60",
+          "duration": 51.539591836734694,
+          "file": "Audio/Transport/full_quest_92415-c63e341a3f6737d052c3/1-0000.mp3",
+          "sha256": "4de127328fc1b6440010d4c55072fd7391161644965a8d0db7289cde6a355019",
           "start": 0
         }
       ],
@@ -23209,21 +23209,21 @@
         ]
       },
       "fullHash": "c73861",
-      "generation": "eb1ba3c290d7a6d26c05",
+      "generation": "be595cafe64de2a154a6",
       "hash": "c73861",
       "source": {
-        "duration": 55.327347,
+        "duration": 51.539592,
         "file": null,
-        "sha256": "aef3c5b35894efae8d431e89cf9a901e1f224f4e09b5b116b46cd8e1b806ac47"
+        "sha256": "c63e341a3f6737d052c37bdbcabe1607fdc773945d70e8370fd810b9c9567ace"
       },
       "text": "Remember That I Love You. In the Ruins of Lordaeron, a stained letter calls for a missing child. Torn from parchment among the graves, it speaks of a child from the Heartweaver family. You carry it south to the orphanage in Stormwind City, hoping to learn what became of them. The ruined graveyard bears the marks of the Third War. Among grounds haunted by the undead, someone found a torn, blood-stained letter. It speaks of a missing child from the Heartweaver family. Prince Arthas and the Scourge swept through the kingdom and shattered their lives. Lordaeron fell, and the Undercity now fills the catacombs below. Refugees who escaped south scattered across the Alliance kingdoms. In Stormwind City, Orphan Matron Nightingale cares for children left without parents by the wars. You bring her the blood-stained letter, hoping she can identify a surviving Heartweaver child and give the family some closure."
     },
     "quest:92421": {
       "1": [
         {
-          "duration": 66.37714285714286,
-          "file": "Audio/Transport/full_quest_92421-d21eefcd18459a0f4cf3/1-0000.mp3",
-          "sha256": "cc1dbf8b31c697bb1047fd55aa6b7d019d5539d383ce8e115e50fc7bdff9f021",
+          "duration": 61.83183673469388,
+          "file": "Audio/Transport/full_quest_92421-ba0de77a92d3a346bd44/1-0000.mp3",
+          "sha256": "a146ce0d6eefdee6ef4e86cfb7808c2e3ff278d17fab16856fa2cffd7a8652c0",
           "start": 0
         }
       ],
@@ -23235,21 +23235,21 @@
         ]
       },
       "fullHash": "30daa9",
-      "generation": "7ebb92375fe27380f506",
+      "generation": "e530fe1d928d398d6452",
       "hash": "30daa9",
       "source": {
-        "duration": 66.377143,
+        "duration": 61.831837,
         "file": null,
-        "sha256": "d21eefcd18459a0f4cf388e1a9f5f808e023defbf0bb8ef92082aa64749b120e"
+        "sha256": "ba0de77a92d3a346bd44957931489ed350a7dcbd9476165ae597362e0eabfadd"
       },
       "text": "Light's Justice. In the Undercity, Morbin Lightbane sends warriors above to gather what the Forsaken need. Intact limbs from the Scourge in the Ruins of Lordaeron help repair wounded Forsaken and sustain their ranks. Above the Undercity, Scourge remnants still prowl the ruined streets of Lordaeron's former capital. Though the Dark Lady has defeated the dreadlords and founded the Forsaken kingdom, clearing the surface remains costly work. The undead threaten the gateway below and drain the forces sent to reclaim the fallen kingdom. Forsaken bodies do not mend on their own. Rotting tissue and shattered sinew cannot knit again, so Morbin Lightbane sends warriors to gather intact limbs from destroyed Scourge in the ruins above. Those parts can repair wounded Forsaken and help them endure and fight again. Morbin Lightbane honors his late commander, Captain Garek Bandarion, by carrying on this work. Bandarion pledged to heal their people and free Lordaeron from Scourge occupation. To Morbin, destroying their mindless enemies and restoring their kin is justice in the service of the Banshee Queen."
     },
     "quest:92422": {
       "1": [
         {
-          "duration": 49.47591836734694,
-          "file": "Audio/Transport/full_quest_92422-3a2b0781cf862e6eb472/1-0000.mp3",
-          "sha256": "5fce66fead17d1129f6720f95a5c89ed8b8a59ac198088ffc4f5af961eeea058",
+          "duration": 46.08,
+          "file": "Audio/Transport/full_quest_92422-9c58330a076ba48198c1/1-0000.mp3",
+          "sha256": "5575b5cf63814fbacc3bcf4634ac6600a4ad579cc21eace62090835929a24ede",
           "start": 0
         }
       ],
@@ -23261,12 +23261,12 @@
         ]
       },
       "fullHash": "7ebafb",
-      "generation": "214f0522e332127f65f9",
+      "generation": "333c01057100eb21a938",
       "hash": "7ebafb",
       "source": {
-        "duration": 49.502041,
+        "duration": 46.106122,
         "file": null,
-        "sha256": "3a2b0781cf862e6eb47225181a59c8753ff4f85ffb3537d1a2f30690ba5344d1"
+        "sha256": "9c58330a076ba48198c1202c92507958ea5b7a281720d198974bf0c8efbe2f31"
       },
       "text": "The Wrath of Rath'mael. In the Ruins of Lordaeron, a fog hides Scourge movements above the Undercity. Rath'mael, a Scourge necromancer, has shrouded the ruined streets and graveyard. Deathguard Kristof in Brill calls for you to strike him down. Scout reports from Lordamere Overlook tell of a sinister presence in the Ruins of Lordaeron. An unholy fog now covers the ruined streets and nearby graveyard, hiding lingering Scourge forces. Rath'mael cast the shroud. His spells conceal the undead above the heart of Forsaken territory. Deathguard Kristof in Brill sends you to rally your allies and strike Rath'mael down. The Forsaken cannot let this menace take root unchecked. The Scourge may replace him, but his fall will disrupt their coordination, disperse the fog, and give Tirisfal Glades room to breathe."
     },
@@ -27355,9 +27355,9 @@
     "quest:95189": {
       "1": [
         {
-          "duration": 47.12489795918368,
-          "file": "Audio/Transport/full_quest_95189-e6abb6b85a4ae1787f6c/1-0000.mp3",
-          "sha256": "f583f36b6f470710f5b41df37ed4ef7ccb2cd3b587c7a68a584b6b24eb02a7dc",
+          "duration": 46.08,
+          "file": "Audio/Transport/full_quest_95189-f5cb9e585753d7d6097e/1-0000.mp3",
+          "sha256": "9a0518e1c3fcc3b00e046521fdeb7a0c59930f06611840cc8314e2b638436a07",
           "start": 0
         }
       ],
@@ -27369,21 +27369,21 @@
         ]
       },
       "fullHash": "0d723e",
-      "generation": "3eaf6516d76bd8c4073e",
+      "generation": "714c96cea9c76e430d2c",
       "hash": "0d723e",
       "source": {
-        "duration": 47.15102,
+        "duration": 46.106122,
         "file": null,
-        "sha256": "e6abb6b85a4ae1787f6ca028e701277738617f8d643dd0ca7b3b0b8dbe13057f"
+        "sha256": "f5cb9e585753d7d6097ecf1ae44e99e52f38f5558ab4a53da66ab4fc9eecba30"
       },
       "text": "Crest of Lordaeron. In the ruins of Capital City, a weathered Crest of Lordaeron survives from the fallen northern kingdom. Relics like it are scarce, and Lady Dena Kennedy in Stormwind City is eager to claim one. The Scourge left Lordaeron's palaces and archives in ruins beneath the shadow of the Undercity. Its proud insignias were destroyed or left to decay, so few relics bearing the royal crest remain. A weathered crest from the northern ruins keeps a piece of human history. After the Third War, thousands of refugees fled south from Lordaeron toward the Kingdom of Stormwind. They carried memories of home. In Stormwind City, Lady Dena Kennedy seeks remnants of their homeland. For those who left the north behind, a crest like this is a cherished link to Lordaeron."
     },
     "quest:95195": {
       "1": [
         {
-          "duration": 59.06285714285715,
-          "file": "Audio/Transport/full_quest_95195-6eb30976186b3ed5bafd/1-0000.mp3",
-          "sha256": "bb9b97ee57376eccba2864838953a6eca4bcbcba3cb629f06836876a3309d71b",
+          "duration": 54.099591836734696,
+          "file": "Audio/Transport/full_quest_95195-7c766bb1560a0d998f90/1-0000.mp3",
+          "sha256": "78d5310fb66c74f108191d7671df16cddca16a09aeec96a375a786fc56370107",
           "start": 0
         }
       ],
@@ -27395,21 +27395,21 @@
         ]
       },
       "fullHash": "5f530f",
-      "generation": "3ff31af64e153ae376b3",
+      "generation": "adffb55fdd7319f33950",
       "hash": "5f530f",
       "source": {
-        "duration": 59.062857,
+        "duration": 54.099592,
         "file": null,
-        "sha256": "6eb30976186b3ed5bafd81947d497f3827548c33d0af4280e11f03e70ca2f387"
+        "sha256": "7c766bb1560a0d998f901cb0d6f945ee84d3a4461c44e8e3d4235ba4dcd1dc11"
       },
       "text": "Bloodied Insignia. In Lordaeron's blighted ruins, Bloodied Insignias bear the old Alliance crests of fallen defenders. Many soldiers' families fled south to Stormwind during the Third War. Prince Arthas returned with the Scourge and laid waste to Lordaeron. Its great army was overwhelmed, and countless soldiers died defending the capital and the lands around it. Rusted armor and bloodstained brass are all that remain of many who fought.\n\nThe old Alliance insignias belonged to those who stood against the undead. Trampled into soil and rubble, the medals recall Lordaeron's last defense. Many survivors fled south across the sea and settled in Stormwind City. Alliance and kinship bind the two human realms, and families in the south still seek news of loved ones lost in the north.\n\nGeneral Marcus Jonathan commands Stormwind's city guard and takes custody of the bloodied insignias. He preserves the defenders' memory and helps their surviving families learn their fate."
     },
     "quest:95204": {
       "1": [
         {
-          "duration": 44.01632653061225,
-          "file": "Audio/Transport/full_quest_95204-ec99ffa2984a92ae187d/1-0000.mp3",
-          "sha256": "dc53debcd17cfac164ca71cc7f1862a8bb5828f0eb97cffe91c9be0031a49701",
+          "duration": 42.34448979591837,
+          "file": "Audio/Transport/full_quest_95204-8614b73cca26661391d9/1-0000.mp3",
+          "sha256": "0e9ec37dcb05faed90305a84fa623104358ce5c76c38dbfb9975211b43a9839c",
           "start": 0
         }
       ],
@@ -27421,12 +27421,12 @@
         ]
       },
       "fullHash": "0e1c13",
-      "generation": "3109514a358b68e23b18",
+      "generation": "c1326599f58d8f4e2332",
       "hash": "0e1c13",
       "source": {
-        "duration": 44.042449,
+        "duration": 42.34449,
         "file": null,
-        "sha256": "ec99ffa2984a92ae187d6b2b864748a40fae60f6edf3168630b60e5e45708b96"
+        "sha256": "8614b73cca26661391d96ea8315fdf87893a01f5996f8dc9d6b5f210443fd590"
       },
       "text": "Crest of Lordaeron. The Forsaken preserve what little remains of Lordaeron in Undercity. A weathered crest bears the fallen kingdom’s emblem, a rare link to its past. The Third War shattered Lordaeron. Ash, ruins, and Scourge desolation swallowed much of the kingdom, leaving few emblems behind. To the Forsaken beneath the ruins of the Capital City, those that survive are precious links to the civilization they once belonged to. The weathered crest is brought from the wider world to Oran Snakewrithe in Undercity. Oran tests the metal with a bite, then confirms it is genuine and mostly intact. For Oran and the Forsaken archivists, each recovered piece helps restore a history the Scourge sought to erase."
     },
@@ -27563,9 +27563,9 @@
     "quest:95250": {
       "1": [
         {
-          "duration": 83.51346938775511,
-          "file": "Audio/Transport/full_quest_95250-18e44dbbfa3d6f4f34d3/1-0000.mp3",
-          "sha256": "960bcf04166d3420acf0e0616cdbf4222767576e5dc780d370358eeaf5b97bf2",
+          "duration": 78.36734693877551,
+          "file": "Audio/Transport/full_quest_95250-2778844033fd7075e336/1-0000.mp3",
+          "sha256": "e10349d055deb6becdcb8a98479ba06db2ae485bc79080fd5ca225bac71e2183",
           "start": 0
         }
       ],
@@ -27577,12 +27577,12 @@
         ]
       },
       "fullHash": "0e3705",
-      "generation": "ee16a0240eca3a5644a5",
+      "generation": "14c82779d95d55cad02f",
       "hash": "0e3705",
       "source": {
-        "duration": 83.539592,
+        "duration": 78.367347,
         "file": null,
-        "sha256": "18e44dbbfa3d6f4f34d3c63f0b0fc07421d5ce6cb2b2f0584e521f2b6706dd63"
+        "sha256": "2778844033fd7075e3361a5bb326038a8ce9044ab1439cef7492d665c1260881"
       },
       "text": "Abominable Creatures. At Lordaeron's fallen capital, Captain Truman waits anxiously for reinforcements and news of his missing commander. He believes the revered Grand Marshal still fights in the nearby ruins, and asks a capable traveler to find him. The search reveals the defenders' grim fate and deep hostility among the loyalists. Captain Truman keeps watch outside Lordaeron, anxious for long-overdue reinforcements. He calls his superior a renowned Grand Marshal, tall and statuesque, and believes him a formidable fighter. Ordered to hold the line while his commander charged into battle, Truman remains bound by duty.\n\nHe distrusts outsiders and scorns those he calls lesser breeds, refusing to rely on local irregulars. When a capable traveler arrives, he asks you to enter the ruins, check on his master's well-being, and learn how the battle fares. The search takes you into the Ruins of Lordaeron, the shattered capital that fell to the Scourge during the Third War. Captain Truman expects his glorious leader to stand triumphant over the fallen, but the blighted city tells a grimmer story.\n\nHorrors, undead remnants, and abominations roam its broken stone plazas. The ruined streets show what became of the defenders who entered the city. No immaculate knight holds the line; the commander has met a tragic, twisted end among the monstrosities in the courtyards."
     },
@@ -28239,9 +28239,9 @@
     "quest:96": {
       "1": [
         {
-          "duration": 69.7469387755102,
-          "file": "Audio/Transport/full_quest_96-abbcbccffdcc1be3e7ce/1-0000.mp3",
-          "sha256": "83b3cdf5f357b63db659699977920ab406e3177ffc8c38c569ebfb098e7d3ebd",
+          "duration": 64.26122448979592,
+          "file": "Audio/Transport/full_quest_96-59c949bbbdbd1234aef3/1-0000.mp3",
+          "sha256": "d1bddb2a74fdfc45e6a99e7a9921d417e664e481d6524c47bf8969b00339be2f",
           "start": 0
         }
       ],
@@ -28253,12 +28253,12 @@
         ]
       },
       "fullHash": "0e12e8",
-      "generation": "3afa7e9853876880bc50",
+      "generation": "ed0af060894af3b005b6",
       "hash": "0e12e8",
       "source": {
-        "duration": 69.773061,
+        "duration": 64.261224,
         "file": null,
-        "sha256": "abbcbccffdcc1be3e7ceec4396f1d30bcf68a32d949dab3560420c5e1a651d26"
+        "sha256": "59c949bbbdbd1234aef3001a783bb5da289034ff80a642514f36b1f068f99945"
       },
       "text": "Call of Water. You bring the Shard of Water to Islen Waterseer on the Barrens coast. This return shows your harmony with restorative energies and earns you a Water Totem. You carry a gift from the Minor Manifestation of Water back across the sea. To earn it, you crossed continents to the tainted shores of Silverpine Forest and faced the corruption there. Water gives life, adapts, and heals, yet its pliant nature leaves it open to blight and dark magic.\n\nBefore the Minor Manifestation, you witnessed pure elemental will and received the Shard of Water. Now you return to the sun-scorched Barrens, where the shard reminds you that water joins distant corners of the world. When you give Islen Waterseer the shard, she weighs more than proof of your journey. She tests whether you have learned the balance between preservation and renewal. Lordaeron's spreading rot can hide small victories, yet cleansing even one wellspring matters to the spirits. Islen accepts your offering and gives you a Water Totem. Through it, you can channel cleansing, healing, and mana-restoring streams into the mortal realm, binding you to the tide."
     },
@@ -29149,9 +29149,9 @@
     "quest:96897": {
       "1": [
         {
-          "duration": 52.58448979591837,
-          "file": "Audio/Transport/full_quest_96897-e2e22781c814942fbb17/1-0000.mp3",
-          "sha256": "1d1ce86d51b12ac7882c7413c73d49cc6d1ad82419b032eb8f8f7926c655ffd5",
+          "duration": 48.40489795918368,
+          "file": "Audio/Transport/full_quest_96897-acd4a69a89d9ca8cbece/1-0000.mp3",
+          "sha256": "6fe45fa0f8240aeb276125075dec3b4b941094c7665dc52223cda5089152e594",
           "start": 0
         }
       ],
@@ -29163,12 +29163,12 @@
         ]
       },
       "fullHash": "1bfdc0",
-      "generation": "739c8be4631455a53bd0",
+      "generation": "7b6a9b5321be16a76487",
       "hash": "1bfdc0",
       "source": {
-        "duration": 52.610612,
+        "duration": 48.43102,
         "file": null,
-        "sha256": "e2e22781c814942fbb17aaab41dfd5d261f17f3635717591f741320fbfb45112"
+        "sha256": "acd4a69a89d9ca8cbece391408be05923416333e791d7ac9de24b6a48a00efc9"
       },
       "text": "The Cult of the Damned. In Tirisfal Glades, living servants of the Scourge threaten the people once more. By culling Dark Neophytes and Dark Enforcers, you help keep the Lich King's agents from repeating the betrayals that shattered Lordaeron. The Scourge has living servants who swear fealty to the Lich King. They serve where the mindless dead cannot. In Tirisfal Glades, people already face roaming undead and the relentless zealots of the Scarlet Crusade. Now, newly discovered cells of Dark Neophytes and Dark Enforcers show the Scourge seeking a foothold again. The marching dead were not the only cause of Lordaeron's fall. Neighbors betrayed neighbors as the Cult of the Damned infiltrated villages and poisoned granaries. From the shadows, they helped bring the kingdom down. Fresh Cult activity in Tirisfal threatens to repeat that history in the scarred lands of the north."
     },
@@ -29409,9 +29409,9 @@
     "quest:972": {
       "1": [
         {
-          "duration": 49.397551020408166,
-          "file": "Audio/Transport/full_quest_972-e6ed413825b1c6f05ddc/1-0000.mp3",
-          "sha256": "1f1495b36ad2752697136e57062e2969e4282cc117f558f6002f4e477c2cac12",
+          "duration": 49.05795918367347,
+          "file": "Audio/Transport/full_quest_972-133496bdf580ada561ac/1-0000.mp3",
+          "sha256": "14e98f29488434a92e8d298c41b38ac4bb5def494a07baa792fb21f28a4a84ae",
           "start": 0
         }
       ],
@@ -29423,12 +29423,12 @@
         ]
       },
       "fullHash": "dca536",
-      "generation": "a1f19f4b3648de5b1ca7",
+      "generation": "ee1bc2d7e3483911d691",
       "hash": "dca536",
       "source": {
-        "duration": 49.423673,
+        "duration": 49.057959,
         "file": null,
-        "sha256": "e6ed413825b1c6f05ddc6c36d8e05efcded655ab570ee66494fa05e812798f76"
+        "sha256": "133496bdf580ada561ac41912df892b114c398442b5c07904bbf6e9664ce089a"
       },
       "text": "Water Sapta. At Islen Waterseer's shore, a young Horde shaman receives Water Sapta for a journey across the Great Sea. The trial leads from the Barrens to Silverpine Forest, where a spring has been corrupted. Among Horde shaman, a sapta is a draught that opens the senses to the world's spirits. A stream may look calm and a pond still to ordinary eyes. Drink a sapta, and the veil of the physical world parts. Then the elementals dwelling in the water come into view. After the shaman proves devotion to the spirits, Islen Waterseer gives them the draught. She lives alone on the barren shore south of Ratchet. Then she sends the initiate across the Great Sea, from Kalimdor's dry valleys to Silverpine Forest. There, an elemental corruption poisons Lordaeron's streams, and the shaman must face it."
     },
@@ -30059,9 +30059,9 @@
     "quest:97289": {
       "1": [
         {
-          "duration": 29.779591836734696,
-          "file": "Audio/Transport/full_quest_97289-a035d0092e919bca5d5a/1-0000.mp3",
-          "sha256": "510d1e1878c71178d7e18cd60e84ddd32b01af0f6962449f902822b3ad63f96c",
+          "duration": 28.186122448979592,
+          "file": "Audio/Transport/full_quest_97289-9befc927f5b7529c6392/1-0000.mp3",
+          "sha256": "0979fe03dbabe700fcb21a824d98708d859c442028e8e7f0fb72eb9e0ac751b9",
           "start": 0
         }
       ],
@@ -30073,12 +30073,12 @@
         ]
       },
       "fullHash": "2189af",
-      "generation": "337b823ac1c8a4e970c6",
+      "generation": "973e93ffda896e4d6ecc",
       "hash": "2189af",
       "source": {
-        "duration": 29.805714,
+        "duration": 28.186122,
         "file": null,
-        "sha256": "a035d0092e919bca5d5a8786b1ca6cbe140debdfc15fb3135195deec3e67b2da"
+        "sha256": "9befc927f5b7529c6392277edd608edd45d7c4be88f27712b8e75f0c054a44ff"
       },
       "text": "Unending Torment. In the Undercity, the Forsaken prepare to question a fallen Alliance commander. They mean to give Grand Marshal Othmar Garithos a new body, and learn what he carried to his grave. Deep in the Undercity, Forsaken practitioners stitch abominations from discarded pieces of the dead. Among the preserved skulls lies one with a bitter history: the severed head of Grand Marshal Othmar Garithos. He led the surviving Alliance forces across Lordaeron, until the Dark Lady killed him."
     },
@@ -31853,9 +31853,9 @@
     "quest:98190": {
       "1": [
         {
-          "duration": 58.5665306122449,
-          "file": "Audio/Transport/full_quest_98190-ab6a9ba06f2c11723d24/1-0000.mp3",
-          "sha256": "6232d37a5dc7f58977ec40693d2ba406d9565c654adb55088ae9d580e6c71861",
+          "duration": 58.40979591836735,
+          "file": "Audio/Transport/full_quest_98190-f967a6b452c0b2b04ee8/1-0000.mp3",
+          "sha256": "276ddcbdccfe32d038818d1e8cfd07ecd20a5afabe2db6e9c714e9566e94fbfe",
           "start": 0
         }
       ],
@@ -31867,12 +31867,12 @@
         ]
       },
       "fullHash": "0a31ad",
-      "generation": "e8676d3b2a5a9a624bbd",
+      "generation": "48f123f6c672de7dc648",
       "hash": "0a31ad",
       "source": {
-        "duration": 58.592653,
+        "duration": 58.409796,
         "file": null,
-        "sha256": "ab6a9ba06f2c11723d24190970881e1a8ec859e4c68c1250564fadf424ddc78a"
+        "sha256": "f967a6b452c0b2b04ee8bca74385729b2b8c748f82384cd16c769c329b719158"
       },
       "text": "A Friend of the Family. In Menethil Harbor, leaders fear their relics will fall into enemy hands. They send the Menethil Statuette to Highlord Bolvar Fordragon in Stormwind Keep for safekeeping. Menethil Harbor links the northern Eastern Kingdoms with the south. It bears the name of the late King Terenas Menethil II of Lordaeron. Yet treacherous marshes and enemies surround the port. With danger growing, its leaders fear the outpost cannot guard relics from the fallen northern kingdom. Dragonmaw orcs still infest the Wetlands. Their clan has a dark past and favors ruthless advantage. Harbor defenders fear the orcs will seize the Menethil Statuette for conquest. They might defile it or turn it to their own ends. The courier takes the relic straight to Stormwind Keep, past the usual military and bureaucratic channels. There, Highlord Bolvar Fordragon receives it as regent to the young King Anduin Wrynn. The capital's leaders are trusted to guard a piece of Lordaeron's heritage."
     },
@@ -34272,17 +34272,6 @@
       1067,
       1301
     ],
-    "020bbabf3bf88d3ef9e49ebabd99838691bdd7f4e23123176f1a553f8696ce60": [
-      173,
-      366,
-      586,
-      722,
-      929,
-      1252,
-      1427,
-      1589,
-      1830
-    ],
     "02cad40f114284a70bf86ec758b2abace32946308279a8e8c7e4d3fa7fef5480": [
       194,
       500,
@@ -34579,6 +34568,11 @@
       1608,
       1760
     ],
+    "0979fe03dbabe700fcb21a824d98708d859c442028e8e7f0fb72eb9e0ac751b9": [
+      196,
+      658,
+      902
+    ],
     "09bee226ec92c027da3f57996e0aff39a738dfa4a89fb47b9039c20bb18c90be": [
       199,
       435,
@@ -34784,6 +34778,14 @@
       640,
       869
     ],
+    "0e9ec37dcb05faed90305a84fa623104358ce5c76c38dbfb9975211b43a9839c": [
+      168,
+      360,
+      690,
+      973,
+      1163,
+      1373
+    ],
     "0e9f6f10640d56511a6b439d1bf5723cf555307da126fb0b2f865c50d1c71f27": [
       170,
       454,
@@ -34868,6 +34870,10 @@
       341,
       630
     ],
+    "104de45880209e70fd425c443ce5d749cbeb0e007ecdebf12200917651d99b48": [
+      242,
+      628
+    ],
     "10d41e3d8892bb2e9ee1b09e3301a8a665bf8a051445ccd5ec7fd1151060724d": [
       173,
       577,
@@ -34884,16 +34890,6 @@
       1544,
       1899,
       2050
-    ],
-    "11364352f0686816ba018055e343c9779cc793b2743d710384087036ef35bc5d": [
-      179,
-      440,
-      602,
-      863,
-      1085,
-      1539,
-      1778,
-      1991
     ],
     "113f181767abd296f77b39d4795ff2bbdc4c9e757a1c3574b10b9d02cf513d94": [
       190,
@@ -35043,6 +35039,15 @@
     "14e0681454bd853c0baf70945bb3d2e4cf5347742c0284e7a03396a6a285343b": [
       511
     ],
+    "14e98f29488434a92e8d298c41b38ac4bb5def494a07baa792fb21f28a4a84ae": [
+      259,
+      456,
+      676,
+      811,
+      961,
+      1311,
+      1681
+    ],
     "14f84549e347cdefbe9163f55732c8ee7190d2316e9da0753447bbc5137e148c": [
       526
     ],
@@ -35076,6 +35081,13 @@
       424,
       654
     ],
+    "15756dd6acdd118e8e45166a6df8d564e16ed7b483df27f2dd1a8ee4dacbc4df": [
+      480,
+      1092,
+      1310,
+      1713,
+      2013
+    ],
     "157c8d202194f8940a535912250b36e3537d15b8007e1a390b2d613f66db59d1": [
       207,
       454,
@@ -35083,17 +35095,6 @@
       1027,
       1192,
       1379
-    ],
-    "159ff3023e9cbde71e38264e32d04d188e34da11f78349624e00a39d3a425ebc": [
-      220,
-      389,
-      584,
-      775,
-      1087,
-      1280,
-      1436,
-      1752,
-      1995
     ],
     "15a1d450d795141def72095115b9493b18ab43aa4b5c292284e33b6694d284da": [
       218,
@@ -35413,15 +35414,6 @@
       788,
       969
     ],
-    "1d1ce86d51b12ac7882c7413c73d49cc6d1ad82419b032eb8f8f7926c655ffd5": [
-      199,
-      509,
-      662,
-      1016,
-      1300,
-      1442,
-      1678
-    ],
     "1d1f2dcfde16c4a1a340b2f66e25b81f5e3c8bdd084c162cfca79057c236583d": [
       476
     ],
@@ -35528,14 +35520,6 @@
       534,
       728,
       968
-    ],
-    "1f1495b36ad2752697136e57062e2969e4282cc117f558f6002f4e477c2cac12": [
-      269,
-      480,
-      859,
-      1127,
-      1340,
-      1677
     ],
     "1f33219de7bb0bd5dcb170ae576a43ebf4a0f62935b1208dae6de4c9fccf401d": [
       209,
@@ -35906,6 +35890,16 @@
       332,
       676
     ],
+    "276ddcbdccfe32d038818d1e8cfd07ecd20a5afabe2db6e9c714e9566e94fbfe": [
+      191,
+      405,
+      545,
+      712,
+      1049,
+      1335,
+      1519,
+      1760
+    ],
     "2771b70d0a24d00ca83a22dd3c9af424e41f9cf2b0fdb21059488275a9bf91f0": [
       166,
       377,
@@ -36212,17 +36206,6 @@
       1418,
       1678
     ],
-    "3003dad473ebc70bd9dd5ab8480d45b17331119f8f253d4e7abf17f9522ce2f3": [
-      197,
-      485,
-      708,
-      984,
-      1151,
-      1363,
-      1580,
-      1753,
-      1908
-    ],
     "30297b0cd849a668fa81774b20068bd23120192d9e30fa962a9a8a11cbfdce7c": [
       434,
       846,
@@ -36381,6 +36364,16 @@
       1357,
       1606
     ],
+    "335c09cb6f75c1beefc312ebec479327d1f465316c2eed1458b2199c604c8e3d": [
+      223,
+      393,
+      664,
+      926,
+      1132,
+      1299,
+      1574,
+      1802
+    ],
     "33a9d255d74550d4ac7c0d81f264e0aa1c45c7cf457e4f55aae826d058d45cb4": [
       197,
       371,
@@ -36396,6 +36389,15 @@
       855,
       991,
       1232
+    ],
+    "33db38d180923c21884ffd2ba2b47d09547cfb696b92b875e837d6bc7229dbce": [
+      206,
+      364,
+      536,
+      714,
+      1017,
+      1647,
+      1897
     ],
     "33e2923d9e96d665b0c59eecec217671b15d1bde71532a65050c20a05c93511e": [
       206,
@@ -36631,16 +36633,6 @@
       520,
       672
     ],
-    "39e8cdd582a6a2f0b6c107e8cf9b8b721bc861f2e3a492668e1ee8c1f3f17d66": [
-      234,
-      421,
-      692,
-      997,
-      1214,
-      1383,
-      1691,
-      1929
-    ],
     "39f4626466f85a1e620963deaf6d50c34b548b7424df9a71298e546a1e41296b": [
       254,
       429,
@@ -36692,15 +36684,6 @@
       1422,
       1676,
       1896
-    ],
-    "3bc8dfbb2efd0ba0263d554d05ea4f17c3e42ee95065bf857a39f648d091b30c": [
-      161,
-      330,
-      572,
-      793,
-      1042,
-      1239,
-      1484
     ],
     "3c036639a7fa74e88804fef4e9be1ae90927f91533d92068677dd9a9f038f778": [
       304,
@@ -36895,6 +36878,12 @@
       773,
       977
     ],
+    "4007b97286d7a803fafc57760d4e739e08999000809b94d1a557a908dd5549a5": [
+      224,
+      496,
+      900,
+      1082
+    ],
     "4017b12362f265d5df89f4b81a56fa96bd474de522e596762df213edb1b63bd6": [
       199,
       521,
@@ -36937,16 +36926,6 @@
       1542,
       1738,
       1962
-    ],
-    "40fc2516e42aa93d93c042794dc1e69182167051f127deef37ea12bfe5532a59": [
-      241,
-      520,
-      709,
-      930,
-      1187,
-      1361,
-      1503,
-      1761
     ],
     "41239a0ec064e2fd0b4254cf34bc5b79b9f323036da828f26e434a160b818f6f": [
       181,
@@ -37017,6 +36996,16 @@
       1179,
       1585
     ],
+    "4200d97662f4c3356c4f99b797cf36dc1dad54d297e5a4e2a4f4d95c72207c75": [
+      208,
+      409,
+      800,
+      1145,
+      1294,
+      1583,
+      1841,
+      2022
+    ],
     "421380b845c3b01e874561c59690c921c9018e3d07a292c4554b7475a646ac85": [
       211,
       438,
@@ -37064,6 +37053,12 @@
       1279,
       1576,
       2011
+    ],
+    "43f0d2f6cf21f0b2a916dcd8186f3c777dd47f0f97841cde86c34fecc02f0c64": [
+      154,
+      355,
+      941,
+      1429
     ],
     "44000e006ef377f7126f090461252c361e124d46fe45bfc75dda04609f3fa73e": [
       180,
@@ -37418,17 +37413,6 @@
       863,
       1035
     ],
-    "4bf1d91bf42c422e12aa5e91dfdbaad3f020c20730ac11210bdebbc1b0a22012": [
-      214,
-      526,
-      779,
-      945,
-      1099,
-      1259,
-      1500,
-      1687,
-      1917
-    ],
     "4c19454ea5d27941a5b5d702e9b0c64403565e5819f474fdd573c7f45260fe8c": [
       178,
       340,
@@ -37485,6 +37469,15 @@
       2603,
       2909,
       3157
+    ],
+    "4de127328fc1b6440010d4c55072fd7391161644965a8d0db7289cde6a355019": [
+      358,
+      563,
+      874,
+      1172,
+      1336,
+      1496,
+      1713
     ],
     "4dfb3a776482d2f55d663aa65b5a84edb89ae09996711707bf6f5ad1ec870765": [
       207,
@@ -37620,12 +37613,6 @@
       583,
       846,
       1177
-    ],
-    "510d1e1878c71178d7e18cd60e84ddd32b01af0f6962449f902822b3ad63f96c": [
-      196,
-      441,
-      684,
-      939
     ],
     "51d38e72ee8c72587fe945edd3da78bef007817792238406f1b5d8b5653b23cf": [
       178,
@@ -37795,6 +37782,26 @@
       687,
       826
     ],
+    "555866ee1d4b845f852d35834ba0e642f1ea5b78a3adcf626d7ce2ce2230f12d": [
+      222,
+      503,
+      692,
+      867,
+      1055,
+      1223,
+      1390,
+      1559,
+      1747,
+      1980
+    ],
+    "5575b5cf63814fbacc3bcf4634ac6600a4ad579cc21eace62090835929a24ede": [
+      182,
+      352,
+      851,
+      1015,
+      1178,
+      1375
+    ],
     "557ca7816c2f22ed194c5bf03fc15c901ccf4369ca212799fd9a98566e3a6360": [
       203,
       348,
@@ -37866,6 +37873,17 @@
       577,
       757
     ],
+    "588fd366b11601ac848e92f122163076ee21f793961021ab15d89f92693647c3": [
+      188,
+      477,
+      706,
+      986,
+      1155,
+      1365,
+      1575,
+      1734,
+      1890
+    ],
     "589165424194cb9afc054aba1a2db94ee177f65bdbb76365500160806d8c557c": [
       316,
       482,
@@ -37926,13 +37944,6 @@
       999,
       1235,
       1483
-    ],
-    "59e8f484ffe56910c11c6f07f330b09e5ceab17bc05c3bae5eb1154aac98640f": [
-      205,
-      464,
-      654,
-      878,
-      1041
     ],
     "5a3735de223febd60b83a2ee20cc2cd8188188e17c2f153616110c71652980e0": [
       299,
@@ -38049,18 +38060,6 @@
       416,
       691,
       837
-    ],
-    "5c174d8f97f47a72bcdd2ddde944246c66fc3ebc258b34412885ae500410b355": [
-      222,
-      456,
-      606,
-      753,
-      979,
-      1193,
-      1348,
-      1629,
-      1894,
-      2091
     ],
     "5c3667f8cb431f29c6143d66c96d627fded81d0d4e2921e7aa368500aa25013d": [
       222,
@@ -38216,15 +38215,6 @@
       1414,
       1584
     ],
-    "5fce66fead17d1129f6720f95a5c89ed8b8a59ac198088ffc4f5af961eeea058": [
-      191,
-      392,
-      553,
-      764,
-      1006,
-      1250,
-      1449
-    ],
     "601250535320a0a23bbe3be2542faff26b43b4dd0e75d2021347932e3c11ea71": [
       226,
       527,
@@ -38322,17 +38312,6 @@
       1375,
       1511
     ],
-    "6232d37a5dc7f58977ec40693d2ba406d9565c654adb55088ae9d580e6c71861": [
-      171,
-      397,
-      540,
-      700,
-      1048,
-      1315,
-      1486,
-      1620,
-      1851
-    ],
     "625e8d5296ec4fb569411681697b76a2839a32502622210e3879c012f82a46e2": [
       191,
       339,
@@ -38407,17 +38386,6 @@
       751,
       1033
     ],
-    "6475e2e4b4489163239e209b052ee0209b863de386a6e538e77121e51071dbf9": [
-      174,
-      523,
-      757,
-      901,
-      1136,
-      1452,
-      1609,
-      1878,
-      2061
-    ],
     "64aa7e685b7111330cce70759767369428d44d080c6417d8306b53ec84f16bdb": [
       164,
       459,
@@ -38461,6 +38429,17 @@
       214,
       430,
       732
+    ],
+    "65e057132bb8590b814b5b8f72b901bd842a0e2929238b2bddce190d4443cbd6": [
+      198,
+      592,
+      896,
+      1111,
+      1350,
+      1569,
+      1751,
+      1975,
+      2144
     ],
     "660e37fa498485527b6f20883ecfce76f07ae65a5af94936fdf873d341e697a6": [
       191,
@@ -38687,18 +38666,6 @@
       1395,
       1621
     ],
-    "6c2af223091320b0bfd1a6655199a6e8ddb514cecc91eb20f0f073777bfae722": [
-      208,
-      494,
-      692,
-      869,
-      1058,
-      1214,
-      1374,
-      1540,
-      1718,
-      1969
-    ],
     "6cae13c0befd10e26d8dd9b47e02cae99d15abaec9abe7fc2ca0c9c8ee1e882e": [
       205,
       481,
@@ -38796,13 +38763,6 @@
       2318,
       2470
     ],
-    "6e305d8906777a997638af6bfee5f530c96f99e4b8f4b411e0d6af05cd52bda7": [
-      239,
-      624,
-      769,
-      999,
-      1156
-    ],
     "6e8cb81c4987c3e48304628c001e2d220f38b1d508572a150edf7323138a73ce": [
       236,
       463,
@@ -38830,6 +38790,14 @@
       433,
       629,
       847
+    ],
+    "6fe45fa0f8240aeb276125075dec3b4b941094c7665dc52223cda5089152e594": [
+      209,
+      503,
+      648,
+      1211,
+      1350,
+      1559
     ],
     "6feea0a4ede28de00d91a8f7659bc4a85061f4387d8cb10652b9c1ab18f3377b": [
       218,
@@ -39141,6 +39109,16 @@
       1798,
       1952
     ],
+    "78d5310fb66c74f108191d7671df16cddca16a09aeec96a375a786fc56370107": [
+      236,
+      400,
+      543,
+      1062,
+      1252,
+      1427,
+      1693,
+      1908
+    ],
     "79a492d0d20313e85f7c760cbb2074984c39ea741c5a9f3ff24e6006bd1fe86d": [
       241,
       635,
@@ -39343,6 +39321,13 @@
     "7d7a67c3411ba2246fa4e5d277c64cf8d3b0fc11441285826605c38fc3430ae3": [
       533,
       851
+    ],
+    "7d7e6ad782ad2440716f2259bb15ba326b9e1b08e022bf72832edffb47b6eb51": [
+      224,
+      609,
+      849,
+      1002,
+      1161
     ],
     "7daa7dd600666723a37460fe083d38482848f89fd2f659d4986f5cd22af154c8": [
       260,
@@ -39590,18 +39575,6 @@
       919,
       1076
     ],
-    "8230e678153d18894a6adf1b9519aa8e0b524f442042fc4fc3d2182fadea2349": [
-      191,
-      455,
-      593,
-      810,
-      1045,
-      1295,
-      1488,
-      1686,
-      1927,
-      2152
-    ],
     "824d434f2ce6e475acc6744411d57aaf8c74a4bd35d5234c0ec7996b8e044006": [
       205,
       428,
@@ -39649,19 +39622,6 @@
     ],
     "83871321dd77fa2fb9050c7440d006705a3f791e9b07dd132d61855f6f9326db": [
       489
-    ],
-    "83b3cdf5f357b63db659699977920ab406e3177ffc8c38c569ebfb098e7d3ebd": [
-      186,
-      405,
-      578,
-      826,
-      1095,
-      1335,
-      1606,
-      1800,
-      1973,
-      2242,
-      2382
     ],
     "83ba944c703c5224a42ce6c76c7cb9ea4697cdb6523390dc492be8dcaed31209": [
       174,
@@ -40076,6 +40036,16 @@
       281,
       536
     ],
+    "8cfd6e2e227cec71b1460e5404f7cd7cc123a3617370ad91240304859100f6b3": [
+      233,
+      373,
+      518,
+      766,
+      1065,
+      1307,
+      1653,
+      1850
+    ],
     "8d112a5aceeef721e6335fc72d5b6e31904e303a82f9d1597fc1958428c75755": [
       211,
       433,
@@ -40282,6 +40252,13 @@
       986,
       1239
     ],
+    "90df9b5677644bea625265c42d2b929cd22a7a773e245b7af09e6b1a2f08e471": [
+      348,
+      555,
+      1100,
+      1360,
+      1617
+    ],
     "9155dd9f706e6aee793811f4591ea5133224f1e8752053e1fb5fe3fef90d5662": [
       207,
       534,
@@ -40389,19 +40366,6 @@
       501,
       889,
       1161
-    ],
-    "9340d75a6039e0b0816d443fceaea55309d38a41db29c180ed254fa84f3e189b": [
-      196,
-      495,
-      643,
-      815,
-      949,
-      1138,
-      1401,
-      1623,
-      1826,
-      2072,
-      2268
     ],
     "934974d8775819884fbd55db811d5d48bf754b429933d2e10af1ff9e8b8e9082": [
       194,
@@ -40530,20 +40494,6 @@
       787,
       1026,
       1201
-    ],
-    "960bcf04166d3420acf0e0616cdbf4222767576e5dc780d370358eeaf5b97bf2": [
-      252,
-      499,
-      700,
-      910,
-      1159,
-      1401,
-      1670,
-      1975,
-      2236,
-      2529,
-      2725,
-      2900
     ],
     "968a5123715c9af77a18b043c7d8a4cbf86ca13b4595b7b8d91019ca13e4f163": [
       171,
@@ -40703,6 +40653,15 @@
       1643,
       1860,
       2116
+    ],
+    "9a0518e1c3fcc3b00e046521fdeb7a0c59930f06611840cc8314e2b638436a07": [
+      238,
+      472,
+      691,
+      924,
+      1074,
+      1314,
+      1587
     ],
     "9a284c9d48dd720e808aab93d3d36874dbe6033afe68358d6c2f05b4c0d3ca18": [
       237,
@@ -40876,17 +40835,6 @@
     "9f7b1b60ab8ffb8c3802e57207b3b44a82850e84ad0d8f71580bed230608e395": [
       693
     ],
-    "9f8cfb0df0cafb5d02398da467d81f902cf8e9e7bb110965afa7d655ecf84776": [
-      164,
-      390,
-      577,
-      818,
-      984,
-      1257,
-      1462,
-      1666,
-      1831
-    ],
     "9f9790d61581b070545fb2f97f3ddf8497d8c759bb2fe42c9e479a34be6c9979": [
       249,
       443,
@@ -40982,6 +40930,16 @@
       1481,
       1723
     ],
+    "a146ce0d6eefdee6ef4e86cfb7808c2e3ff278d17fab16856fa2cffd7a8652c0": [
+      193,
+      420,
+      879,
+      1096,
+      1538,
+      1708,
+      1928,
+      2129
+    ],
     "a14e0226f06e27570f9d9511de6ee5605355d19b88b76ecddb3cf3c40cdae1a1": [
       208,
       343,
@@ -40990,6 +40948,11 @@
       960,
       1154,
       1351
+    ],
+    "a1745a015099cf63737ed4b02e42474fdbdc8193316ceeb708c341796aece326": [
+      320,
+      469,
+      822
     ],
     "a1da41d08689271a74cb6b977acf50ec3d86c54fb8c33962fd494df5af27bf31": [
       194,
@@ -42179,18 +42142,6 @@
       1528,
       1669
     ],
-    "bb9b97ee57376eccba2864838953a6eca4bcbcba3cb629f06836876a3309d71b": [
-      263,
-      439,
-      593,
-      828,
-      1008,
-      1169,
-      1376,
-      1559,
-      1840,
-      2069
-    ],
     "bb9cce99089350d9fe283780fc7f793030ec2d0c088bb063f7d26a3f2da757a0": [
       241,
       445,
@@ -42741,18 +42692,6 @@
       1343,
       1534
     ],
-    "cc1dbf8b31c697bb1047fd55aa6b7d019d5539d383ce8e115e50fc7bdff9f021": [
-      223,
-      475,
-      712,
-      888,
-      1209,
-      1444,
-      1677,
-      1862,
-      2092,
-      2277
-    ],
     "cc7a9c13e056da0c7a323f374ecd7adcff012241a32e146ca71460f46f0b53f8": [
       250,
       610,
@@ -42841,6 +42780,19 @@
       957,
       1159,
       1355
+    ],
+    "ce360e344dbc12dc93e2d0500cf9ea6c4eb8b1cfa75345459784a4e5b586ce88": [
+      217,
+      479,
+      815,
+      1145,
+      1427,
+      1611,
+      1922
+    ],
+    "ce377b863dc6b15a31f008f727d6e2de22141a8ab641bbdd41d63cc0d03357a2": [
+      473,
+      786
     ],
     "cebca948723d29b44a7d64dd87b51cde34a429ee0655ca38ea7928b0cbafa4d7": [
       466,
@@ -42942,6 +42894,18 @@
       696,
       885,
       1090
+    ],
+    "d1bddb2a74fdfc45e6a99e7a9921d417e664e481d6524c47bf8969b00339be2f": [
+      151,
+      357,
+      509,
+      733,
+      966,
+      1215,
+      1470,
+      1650,
+      1818,
+      2061
     ],
     "d26b2fa41fb34934ab248abf7678826bf702a8e9fc4040da560785d18a5c365f": [
       179,
@@ -43290,12 +43254,6 @@
       1246,
       1480
     ],
-    "d9e1d2c6691fb065fa33ab62d0e6704c13628e643fe922a39231a19c1a9b916b": [
-      339,
-      513,
-      762,
-      914
-    ],
     "d9e5967a24ac51629494bd8d85ca413b0fb78b9856a0d0d826b1f5b46bd5c989": [
       180,
       456,
@@ -43443,14 +43401,6 @@
       2012,
       2203
     ],
-    "dc53debcd17cfac164ca71cc7f1862a8bb5828f0eb97cffe91c9be0031a49701": [
-      168,
-      389,
-      732,
-      1053,
-      1239,
-      1434
-    ],
     "dcf7e87a553a15fbcba62c65d9d2678867367a7cc27e4238a291c1ca1f92fb9f": [
       516
     ],
@@ -43561,6 +43511,19 @@
       721,
       930,
       1171
+    ],
+    "e10349d055deb6becdcb8a98479ba06db2ae485bc79080fd5ca225bac71e2183": [
+      269,
+      522,
+      711,
+      907,
+      1152,
+      1368,
+      1603,
+      1892,
+      2146,
+      2405,
+      2591
     ],
     "e12c2937ffb853aca152c1d564e6e52ef25ca66f4fe7bc514c20817be2618d96": [
       215,
@@ -43709,6 +43672,15 @@
       1107,
       1265,
       1662
+    ],
+    "e411ff6898a52a70f7185c3a8e60aa4497016bcb600d7bb63f6577bf91d6e124": [
+      163,
+      320,
+      548,
+      746,
+      975,
+      1139,
+      1290
     ],
     "e43a7f8b6ac327e28a17fb10dd5233ac825badda800a85cb931e015266faca9e": [
       437
@@ -43956,10 +43928,6 @@
       610,
       822
     ],
-    "e93a0198fc45b8c732de0f2759c01b355729a7d3c53803834efdfc004b590ce1": [
-      481,
-      780
-    ],
     "e93ad51d7e65fe91ead310eea12369ba926de2496d763fc026d68798479a7846": [
       317,
       562
@@ -44170,15 +44138,6 @@
       246,
       467,
       758
-    ],
-    "eee5a97a5411a4aac55f646ebc5b74b36ca6d3c882df9afee0b3244bfeb3a926": [
-      198,
-      356,
-      564,
-      782,
-      1142,
-      1395,
-      1658
     ],
     "ef161c13405473a0fdbfafdae711a7a49e9d1b0a4c18c00e76f17530dfe3773d": [
       389,
@@ -44485,15 +44444,6 @@
       215,
       405
     ],
-    "f583f36b6f470710f5b41df37ed4ef7ccb2cd3b587c7a68a584b6b24eb02a7dc": [
-      246,
-      491,
-      702,
-      946,
-      1113,
-      1355,
-      1609
-    ],
     "f5aea759dc343d2d71f89edf7572e79a9641a73173bc57db845d37692ebaa971": [
       145,
       373,
@@ -44515,8 +44465,13 @@
       1656,
       1865
     ],
-    "f6c4a37596226517dd70e2f2f4f6e5b9f550f1d3cd3ef461e1a675e82aaf57db": [
-      493
+    "f632ea19be57f617cc4990f23d32c37e760036863254b2cf6cf8bf087ee75fef": [
+      260,
+      524,
+      703,
+      1031,
+      1323,
+      1563
     ],
     "f6d33c67035885fef7a1030c3d911189b040ef60d878b11921b46ecf1a458442": [
       212,
@@ -44529,6 +44484,16 @@
     "f6e54a7dcd8e308567050aeb87301fde7e2000adc66afc4864370d5bda05b584": [
       422,
       813
+    ],
+    "f727aab17d0e1311c1b247cc2bdb8f95ad25fe9ab999827c3276f824f8ff1147": [
+      209,
+      511,
+      744,
+      1032,
+      1180,
+      1411,
+      1606,
+      1842
     ],
     "f741271759d85239079a4f9cfac487fc0f14e9a70eb7d1ca09dddb86319db8f1": [
       168,
@@ -44558,22 +44523,16 @@
       1530,
       1755
     ],
-    "f82b7d1b80ff047ec9ab62d5fdc4f8693686dc048a550b85611687e0f68e34ac": [
-      206,
-      462,
-      672,
-      947,
-      1105,
-      1443,
-      1730,
-      2030
-    ],
     "f832df379f76da095c593aa5a050bbf52c8ce31540013e53c07810d6b577cbe6": [
       188,
       416,
       774,
       924,
       1191
+    ],
+    "f85763b67c272170549751279283d2328d41a37ca31d3507a58a2031fb512fa4": [
+      152,
+      1006
     ],
     "f86246362c75455aae37434d5de33e585560da492e133e340a800dc25926bec7": [
       330,
@@ -44943,10 +44902,6 @@
       "265": 1,
       "904": 2
     },
-    "020bbabf3bf88d3ef9e49ebabd99838691bdd7f4e23123176f1a553f8696ce60": {
-      "1252": 2,
-      "586": 1
-    },
     "02cad40f114284a70bf86ec758b2abace32946308279a8e8c7e4d3fa7fef5480": {
       "1062": 2,
       "500": 1
@@ -45235,10 +45190,6 @@
       "1544": 2,
       "590": 1
     },
-    "11364352f0686816ba018055e343c9779cc793b2743d710384087036ef35bc5d": {
-      "1539": 2,
-      "440": 1
-    },
     "113f181767abd296f77b39d4795ff2bbdc4c9e757a1c3574b10b9d02cf513d94": {
       "1439": 2,
       "776": 1
@@ -45320,10 +45271,6 @@
     "157c8d202194f8940a535912250b36e3537d15b8007e1a390b2d613f66db59d1": {
       "1027": 2,
       "454": 1
-    },
-    "159ff3023e9cbde71e38264e32d04d188e34da11f78349624e00a39d3a425ebc": {
-      "1280": 2,
-      "584": 1
     },
     "15a1d450d795141def72095115b9493b18ab43aa4b5c292284e33b6694d284da": {
       "1361": 2,
@@ -45468,10 +45415,6 @@
     "1d07640e423ffa3dcc700630da30679c2a3c8db4299cb7f9d1422407d1bd3558": {
       "390": 1
     },
-    "1d1ce86d51b12ac7882c7413c73d49cc6d1ad82419b032eb8f8f7926c655ffd5": {
-      "1300": 2,
-      "509": 1
-    },
     "1d5e847acf2bcc562949dc276a30bcaed669f98cc84d6f90fe775eb5880dcdd2": {
       "1183": 2,
       "453": 1
@@ -45516,10 +45459,6 @@
     },
     "1efa10406c12d409832ce54a942b544c81e0aaa2fcdd58572f27cec03af649ac": {
       "534": 1
-    },
-    "1f1495b36ad2752697136e57062e2969e4282cc117f558f6002f4e477c2cac12": {
-      "1127": 2,
-      "480": 1
     },
     "1f33219de7bb0bd5dcb170ae576a43ebf4a0f62935b1208dae6de4c9fccf401d": {
       "1262": 2,
@@ -45827,10 +45766,6 @@
       "1242": 2,
       "396": 1
     },
-    "3003dad473ebc70bd9dd5ab8480d45b17331119f8f253d4e7abf17f9522ce2f3": {
-      "1363": 2,
-      "485": 1
-    },
     "30297b0cd849a668fa81774b20068bd23120192d9e30fa962a9a8a11cbfdce7c": {
       "1108": 2,
       "434": 1
@@ -46018,10 +45953,6 @@
     "39836b5fc60f1dddd81398b4f984f5a02f8dc3a99b5cd9fbeab55c12f00c8747": {
       "335": 1
     },
-    "39e8cdd582a6a2f0b6c107e8cf9b8b721bc861f2e3a492668e1ee8c1f3f17d66": {
-      "1214": 2,
-      "421": 1
-    },
     "39f4626466f85a1e620963deaf6d50c34b548b7424df9a71298e546a1e41296b": {
       "254": 1,
       "686": 2
@@ -46046,10 +45977,6 @@
     "3b5b90794dedb824470f86010e217e3ca4c0755e17a0f059a69aa93cc646b284": {
       "1422": 2,
       "570": 1
-    },
-    "3bc8dfbb2efd0ba0263d554d05ea4f17c3e42ee95065bf857a39f648d091b30c": {
-      "1042": 2,
-      "330": 1
     },
     "3c036639a7fa74e88804fef4e9be1ae90927f91533d92068677dd9a9f038f778": {
       "1319": 2,
@@ -46163,10 +46090,6 @@
       "1151": 2,
       "1738": 3,
       "434": 1
-    },
-    "40fc2516e42aa93d93c042794dc1e69182167051f127deef37ea12bfe5532a59": {
-      "1187": 2,
-      "520": 1
     },
     "41239a0ec064e2fd0b4254cf34bc5b79b9f323036da828f26e434a160b818f6f": {
       "416": 1
@@ -46374,10 +46297,6 @@
       "363": 1,
       "863": 2
     },
-    "4bf1d91bf42c422e12aa5e91dfdbaad3f020c20730ac11210bdebbc1b0a22012": {
-      "1259": 2,
-      "526": 1
-    },
     "4c19454ea5d27941a5b5d702e9b0c64403565e5819f474fdd573c7f45260fe8c": {
       "1298": 3,
       "340": 1,
@@ -46466,9 +46385,6 @@
     "5105376f1d97e4dbdcec382fe969ea1fffa640dc62ea7c6f2f471d1ced98f31c": {
       "381": 1,
       "846": 2
-    },
-    "510d1e1878c71178d7e18cd60e84ddd32b01af0f6962449f902822b3ad63f96c": {
-      "441": 1
     },
     "51d38e72ee8c72587fe945edd3da78bef007817792238406f1b5d8b5653b23cf": {
       "1205": 2,
@@ -46581,6 +46497,10 @@
     "584eed107998a59d1a80a227d6c2090d51ad5a35a3a9b4becae50a4ee2eec813": {
       "319": 1
     },
+    "588fd366b11601ac848e92f122163076ee21f793961021ab15d89f92693647c3": {
+      "1365": 2,
+      "477": 1
+    },
     "589165424194cb9afc054aba1a2db94ee177f65bdbb76365500160806d8c557c": {
       "316": 1,
       "708": 2
@@ -46610,9 +46530,6 @@
     "59adb2423147093a8478c811b36bca765c9344beaaf1fc9992a24be1cd8d0549": {
       "365": 1,
       "999": 2
-    },
-    "59e8f484ffe56910c11c6f07f330b09e5ceab17bc05c3bae5eb1154aac98640f": {
-      "464": 1
     },
     "5a3735de223febd60b83a2ee20cc2cd8188188e17c2f153616110c71652980e0": {
       "299": 1
@@ -46671,10 +46588,6 @@
     },
     "5c15e35036d60290d1616f71ea4013a61c8e89039edad1da4e167bbe2f8b5a02": {
       "416": 1
-    },
-    "5c174d8f97f47a72bcdd2ddde944246c66fc3ebc258b34412885ae500410b355": {
-      "1348": 2,
-      "456": 1
     },
     "5c3667f8cb431f29c6143d66c96d627fded81d0d4e2921e7aa368500aa25013d": {
       "1332": 2,
@@ -46749,10 +46662,6 @@
       "1207": 2,
       "466": 1
     },
-    "5fce66fead17d1129f6720f95a5c89ed8b8a59ac198088ffc4f5af961eeea058": {
-      "1250": 2,
-      "553": 1
-    },
     "601250535320a0a23bbe3be2542faff26b43b4dd0e75d2021347932e3c11ea71": {
       "1281": 2,
       "527": 1
@@ -46800,11 +46709,6 @@
       "1197": 2,
       "394": 1
     },
-    "6232d37a5dc7f58977ec40693d2ba406d9565c654adb55088ae9d580e6c71861": {
-      "1048": 2,
-      "1620": 3,
-      "397": 1
-    },
     "625e8d5296ec4fb569411681697b76a2839a32502622210e3879c012f82a46e2": {
       "1521": 2,
       "577": 1
@@ -46834,10 +46738,6 @@
     },
     "646617ab6be14609e9d1d317b3f4cde73dd9d15d9b70f94922ec774d866b090c": {
       "379": 1
-    },
-    "6475e2e4b4489163239e209b052ee0209b863de386a6e538e77121e51071dbf9": {
-      "1452": 2,
-      "523": 1
     },
     "64aa7e685b7111330cce70759767369428d44d080c6417d8306b53ec84f16bdb": {
       "1106": 2,
@@ -46962,10 +46862,6 @@
       "1230": 2,
       "582": 1
     },
-    "6c2af223091320b0bfd1a6655199a6e8ddb514cecc91eb20f0f073777bfae722": {
-      "1374": 2,
-      "494": 1
-    },
     "6cae13c0befd10e26d8dd9b47e02cae99d15abaec9abe7fc2ca0c9c8ee1e882e": {
       "481": 1
     },
@@ -47009,9 +46905,6 @@
       "1252": 2,
       "1959": 3,
       "552": 1
-    },
-    "6e305d8906777a997638af6bfee5f530c96f99e4b8f4b411e0d6af05cd52bda7": {
-      "624": 1
     },
     "6e8cb81c4987c3e48304628c001e2d220f38b1d508572a150edf7323138a73ce": {
       "1053": 2,
@@ -47367,10 +47260,6 @@
     "820632dc2931d7a282dc0b07006a972be518b997290bbaf9e2d7dfda691d3864": {
       "542": 1
     },
-    "8230e678153d18894a6adf1b9519aa8e0b524f442042fc4fc3d2182fadea2349": {
-      "1488": 2,
-      "593": 1
-    },
     "824d434f2ce6e475acc6744411d57aaf8c74a4bd35d5234c0ec7996b8e044006": {
       "428": 1,
       "899": 2
@@ -47394,10 +47283,6 @@
     },
     "83690bd07df384f5227f2749e6e0fbb3e88169119b26e7fdf62a1cf5fbb3e8f0": {
       "432": 1
-    },
-    "83b3cdf5f357b63db659699977920ab406e3177ffc8c38c569ebfb098e7d3ebd": {
-      "1606": 2,
-      "405": 1
     },
     "83ba944c703c5224a42ce6c76c7cb9ea4697cdb6523390dc492be8dcaed31209": {
       "1396": 2,
@@ -47734,10 +47619,6 @@
       "295": 1,
       "889": 2
     },
-    "9340d75a6039e0b0816d443fceaea55309d38a41db29c180ed254fa84f3e189b": {
-      "1401": 2,
-      "495": 1
-    },
     "934974d8775819884fbd55db811d5d48bf754b429933d2e10af1ff9e8b8e9082": {
       "386": 1
     },
@@ -47792,10 +47673,6 @@
     "960645adad4c4f89d11963bd3d74b870b1c68d1bf358f377fc2daace823ff64b": {
       "1026": 2,
       "423": 1
-    },
-    "960bcf04166d3420acf0e0616cdbf4222767576e5dc780d370358eeaf5b97bf2": {
-      "1975": 2,
-      "700": 1
     },
     "968a5123715c9af77a18b043c7d8a4cbf86ca13b4595b7b8d91019ca13e4f163": {
       "320": 1
@@ -47942,10 +47819,6 @@
       "1661": 3,
       "392": 1,
       "921": 2
-    },
-    "9f8cfb0df0cafb5d02398da467d81f902cf8e9e7bb110965afa7d655ecf84776": {
-      "1257": 2,
-      "390": 1
     },
     "9f9790d61581b070545fb2f97f3ddf8497d8c759bb2fe42c9e479a34be6c9979": {
       "443": 1
@@ -48522,10 +48395,6 @@
       "1057": 2,
       "466": 1
     },
-    "bb9b97ee57376eccba2864838953a6eca4bcbcba3cb629f06836876a3309d71b": {
-      "1376": 2,
-      "439": 1
-    },
     "bb9cce99089350d9fe283780fc7f793030ec2d0c088bb063f7d26a3f2da757a0": {
       "1194": 2,
       "445": 1
@@ -48772,11 +48641,6 @@
       "1343": 2,
       "524": 1
     },
-    "cc1dbf8b31c697bb1047fd55aa6b7d019d5539d383ce8e115e50fc7bdff9f021": {
-      "1209": 2,
-      "1862": 3,
-      "475": 1
-    },
     "cc7a9c13e056da0c7a323f374ecd7adcff012241a32e146ca71460f46f0b53f8": {
       "1602": 2,
       "610": 1
@@ -49016,9 +48880,6 @@
       "1078": 2,
       "454": 1
     },
-    "d9e1d2c6691fb065fa33ab62d0e6704c13628e643fe922a39231a19c1a9b916b": {
-      "513": 1
-    },
     "d9e5967a24ac51629494bd8d85ca413b0fb78b9856a0d0d826b1f5b46bd5c989": {
       "180": 1,
       "776": 2
@@ -49077,10 +48938,6 @@
     "dc0a0e92a367319c28fcbf708d07338c410f16653873faec74537a35af5ce3cb": {
       "1415": 2,
       "600": 1
-    },
-    "dc53debcd17cfac164ca71cc7f1862a8bb5828f0eb97cffe91c9be0031a49701": {
-      "1053": 2,
-      "389": 1
     },
     "dd247ab8624d4b52e73c972ecc27c65d56d09fa340eb70789e09665920a2d0d1": {
       "876": 1
@@ -49407,10 +49264,6 @@
     "eecc2d30a237f8a3fde4fd7ea3c76526d1df5e37b62bdcfeb4c263147bc7a8dd": {
       "467": 1
     },
-    "eee5a97a5411a4aac55f646ebc5b74b36ca6d3c882df9afee0b3244bfeb3a926": {
-      "1142": 2,
-      "356": 1
-    },
     "ef161c13405473a0fdbfafdae711a7a49e9d1b0a4c18c00e76f17530dfe3773d": {
       "389": 1
     },
@@ -49550,10 +49403,6 @@
     "f56654d3eba5188559f2bd261145d5c5c2f24601a2e66bc468b009cad6496f6c": {
       "215": 1
     },
-    "f583f36b6f470710f5b41df37ed4ef7ccb2cd3b587c7a68a584b6b24eb02a7dc": {
-      "1113": 2,
-      "491": 1
-    },
     "f5aea759dc343d2d71f89edf7572e79a9641a73173bc57db845d37692ebaa971": {
       "1096": 2,
       "373": 1
@@ -49579,10 +49428,6 @@
     "f80d1056e20a419990c62976259290401c0f6409bd3a1f5300b9dd2fd7474235": {
       "1213": 2,
       "496": 1
-    },
-    "f82b7d1b80ff047ec9ab62d5fdc4f8693686dc048a550b85611687e0f68e34ac": {
-      "1443": 2,
-      "462": 1
     },
     "f832df379f76da095c593aa5a050bbf52c8ce31540013e53c07810d6b577cbe6": {
       "416": 1,
@@ -49732,5 +49577,123 @@
     }
   },
   "pack": "LoreForever_Voice_Default_MoreQuests2",
+  "retired": [
+    {
+      "file": "Audio/Transport/full_quest_1050-65e79f652a598f599d7b/1-0000.mp3",
+      "sha256": "d9e1d2c6691fb065fa33ab62d0e6704c13628e643fe922a39231a19c1a9b916b"
+    },
+    {
+      "file": "Audio/Transport/full_quest_1159-4b61243d4759fa99425a/1-0000.mp3",
+      "sha256": "159ff3023e9cbde71e38264e32d04d188e34da11f78349624e00a39d3a425ebc"
+    },
+    {
+      "file": "Audio/Transport/full_quest_1476-1ef1cfd2a3b69a39ee97/1-0000.mp3",
+      "sha256": "39e8cdd582a6a2f0b6c107e8cf9b8b721bc861f2e3a492668e1ee8c1f3f17d66"
+    },
+    {
+      "file": "Audio/Transport/full_quest_1803-d6e796844083cf11cd0a/1-0000.mp3",
+      "sha256": "6e305d8906777a997638af6bfee5f530c96f99e4b8f4b411e0d6af05cd52bda7"
+    },
+    {
+      "file": "Audio/Transport/full_quest_2479-6acd3a7841754ffd00f9/1-0000.mp3",
+      "sha256": "4bf1d91bf42c422e12aa5e91dfdbaad3f020c20730ac11210bdebbc1b0a22012"
+    },
+    {
+      "file": "Audio/Transport/full_quest_321-3ae7aff37b463b37ad34/1-0000.mp3",
+      "sha256": "59e8f484ffe56910c11c6f07f330b09e5ceab17bc05c3bae5eb1154aac98640f"
+    },
+    {
+      "file": "Audio/Transport/full_quest_474-1e99c885ccf32b835cc0/1-0000.mp3",
+      "sha256": "5c174d8f97f47a72bcdd2ddde944246c66fc3ebc258b34412885ae500410b355"
+    },
+    {
+      "file": "Audio/Transport/full_quest_528-9b953597080ffeb0e06d/1-0000.mp3",
+      "sha256": "eee5a97a5411a4aac55f646ebc5b74b36ca6d3c882df9afee0b3244bfeb3a926"
+    },
+    {
+      "file": "Audio/Transport/full_quest_541-3eebab1d65598ccaa95a/1-0000.mp3",
+      "sha256": "6475e2e4b4489163239e209b052ee0209b863de386a6e538e77121e51071dbf9"
+    },
+    {
+      "file": "Audio/Transport/full_quest_550-05ea1124f24e228e9fc9/1-0000.mp3",
+      "sha256": "9f8cfb0df0cafb5d02398da467d81f902cf8e9e7bb110965afa7d655ecf84776"
+    },
+    {
+      "file": "Audio/Transport/full_quest_562-65a1519b3e9dfd0991ab/1-0000.mp3",
+      "sha256": "11364352f0686816ba018055e343c9779cc793b2743d710384087036ef35bc5d"
+    },
+    {
+      "file": "Audio/Transport/full_quest_5644-2a3e2af1c908356df256/1-0000.mp3",
+      "sha256": "40fc2516e42aa93d93c042794dc1e69182167051f127deef37ea12bfe5532a59"
+    },
+    {
+      "file": "Audio/Transport/full_quest_5646-9995c7c2851e1f66b63e/1-0000.mp3",
+      "sha256": "9340d75a6039e0b0816d443fceaea55309d38a41db29c180ed254fa84f3e189b"
+    },
+    {
+      "file": "Audio/Transport/full_quest_700-83acb6b5a08971f06df3/1-0000.mp3",
+      "sha256": "3bc8dfbb2efd0ba0263d554d05ea4f17c3e42ee95065bf857a39f648d091b30c"
+    },
+    {
+      "file": "Audio/Transport/full_quest_91859-d1e3f486089823257b55/1-0000.mp3",
+      "sha256": "f82b7d1b80ff047ec9ab62d5fdc4f8693686dc048a550b85611687e0f68e34ac"
+    },
+    {
+      "file": "Audio/Transport/full_quest_92401-bdb7cec6c0d0d5c4e43a/1-0000.mp3",
+      "sha256": "8230e678153d18894a6adf1b9519aa8e0b524f442042fc4fc3d2182fadea2349"
+    },
+    {
+      "file": "Audio/Transport/full_quest_92415-aef3c5b35894efae8d43/1-0000.mp3",
+      "sha256": "020bbabf3bf88d3ef9e49ebabd99838691bdd7f4e23123176f1a553f8696ce60"
+    },
+    {
+      "file": "Audio/Transport/full_quest_92421-d21eefcd18459a0f4cf3/1-0000.mp3",
+      "sha256": "cc1dbf8b31c697bb1047fd55aa6b7d019d5539d383ce8e115e50fc7bdff9f021"
+    },
+    {
+      "file": "Audio/Transport/full_quest_92422-3a2b0781cf862e6eb472/1-0000.mp3",
+      "sha256": "5fce66fead17d1129f6720f95a5c89ed8b8a59ac198088ffc4f5af961eeea058"
+    },
+    {
+      "file": "Audio/Transport/full_quest_95189-e6abb6b85a4ae1787f6c/1-0000.mp3",
+      "sha256": "f583f36b6f470710f5b41df37ed4ef7ccb2cd3b587c7a68a584b6b24eb02a7dc"
+    },
+    {
+      "file": "Audio/Transport/full_quest_95195-6eb30976186b3ed5bafd/1-0000.mp3",
+      "sha256": "bb9b97ee57376eccba2864838953a6eca4bcbcba3cb629f06836876a3309d71b"
+    },
+    {
+      "file": "Audio/Transport/full_quest_95204-ec99ffa2984a92ae187d/1-0000.mp3",
+      "sha256": "dc53debcd17cfac164ca71cc7f1862a8bb5828f0eb97cffe91c9be0031a49701"
+    },
+    {
+      "file": "Audio/Transport/full_quest_95250-18e44dbbfa3d6f4f34d3/1-0000.mp3",
+      "sha256": "960bcf04166d3420acf0e0616cdbf4222767576e5dc780d370358eeaf5b97bf2"
+    },
+    {
+      "file": "Audio/Transport/full_quest_96-abbcbccffdcc1be3e7ce/1-0000.mp3",
+      "sha256": "83b3cdf5f357b63db659699977920ab406e3177ffc8c38c569ebfb098e7d3ebd"
+    },
+    {
+      "file": "Audio/Transport/full_quest_96897-e2e22781c814942fbb17/1-0000.mp3",
+      "sha256": "1d1ce86d51b12ac7882c7413c73d49cc6d1ad82419b032eb8f8f7926c655ffd5"
+    },
+    {
+      "file": "Audio/Transport/full_quest_972-e6ed413825b1c6f05ddc/1-0000.mp3",
+      "sha256": "1f1495b36ad2752697136e57062e2969e4282cc117f558f6002f4e477c2cac12"
+    },
+    {
+      "file": "Audio/Transport/full_quest_97289-a035d0092e919bca5d5a/1-0000.mp3",
+      "sha256": "510d1e1878c71178d7e18cd60e84ddd32b01af0f6962449f902822b3ad63f96c"
+    },
+    {
+      "file": "Audio/Transport/full_quest_98190-ab6a9ba06f2c11723d24/1-0000.mp3",
+      "sha256": "6232d37a5dc7f58977ec40693d2ba406d9565c654adb55088ae9d580e6c71861"
+    },
+    {
+      "file": "Audio/Transport/full_quest_1801-13ef6b4c23b64575d73b/1-0000.mp3",
+      "sha256": "6c2af223091320b0bfd1a6655199a6e8ddb514cecc91eb20f0f073777bfae722"
+    }
+  ],
   "version": 1
 }

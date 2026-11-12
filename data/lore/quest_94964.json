@@ -1,0 +1,67 @@
+{
+ "key": "quest:94964",
+ "type": "quest",
+ "name": "Bloodmaster's Ring",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94964
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A ring announcer calls for you to face Mog\u2019thar in the Bloodmaster\u2019s Ring. The crowd is waiting for its next contender.",
+ "sections": [
+  {
+   "title": "The Next Contender",
+   "body": "The announcer has kept the crowd excited and now presents Mog\u2019thar as the next contender. You are called into the Bloodmaster\u2019s Ring, with the crowd waiting to see what happens.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who do I face in the Bloodmaster\u2019s Ring?",
+   "aliases": [
+    "mog\u2019thar fight",
+    "who is next contender",
+    "bloodmaster ring opponent"
+   ],
+   "answer": "You are called to face Mog\u2019thar in the Bloodmaster\u2019s Ring."
+  },
+  {
+   "q": "What does the announcer say about Mog\u2019thar?",
+   "aliases": [
+    "mog\u2019thar who",
+    "next contender",
+    "is mog\u2019thar a joke"
+   ],
+   "answer": "The announcer says Mog\u2019thar is no joke."
+  },
+  {
+   "q": "Why am I being sent into the ring?",
+   "aliases": [
+    "why fight mog\u2019thar",
+    "ring fight reason",
+    "what does announcer want"
+   ],
+   "answer": "The announcer wants to keep the crowd\u2019s excitement going by presenting another contender."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "announcer",
+  "bloodmaster\u2019s ring",
+  "contender",
+  "crowd",
+  "mog\u2019thar",
+  "ring"
+ ],
+ "related": [
+  "quest:94668"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Bloodmaster's Ring"
+ ]
+}

@@ -2603,9 +2603,9 @@
     "npc:deathstalker-rane-yorick": {
       "1": [
         {
-          "duration": 30.197551020408163,
-          "file": "Audio/Transport/full_npc_deathstalker-rane-yorick-d9e508b8081b456b6462/1-0000.mp3",
-          "sha256": "294fd0f21bb9306af949ffb36af4f112321127cfc35f51cde2bf21961d022d2d",
+          "duration": 31.55591836734694,
+          "file": "Audio/Transport/full_npc_deathstalker-rane-yorick-9c4d8c71a72e28eeb21c/1-0000.mp3",
+          "sha256": "4f78422bb0efe6e6972f1d57990f1ad773472f0f7b380ddf0f4c367ab4fc1469",
           "start": 0
         }
       ],
@@ -2617,12 +2617,12 @@
         ]
       },
       "fullHash": "fc13dd",
-      "generation": "8ba683f10a042f848621",
+      "generation": "fa3e8bdcb5cb71a9cddb",
       "hash": "fc13dd",
       "source": {
-        "duration": 30.197551,
+        "duration": 31.555918,
         "file": null,
-        "sha256": "d9e508b8081b456b6462e8acadaf7dc52bffd5adb76f24c12a1e7b154f5f4170"
+        "sha256": "9c4d8c71a72e28eeb21cd94862af970042f45f89f3666850ff81181eaf117565"
       },
       "text": "Rane Yorick. At a farmhouse in Silverpine, Rane Yorick and her brother Quinn cannot reach the Sepulcher. Sent to scout the northern farms, they must get their report to High Executor Hadrec. Lady Sylvanas Windrunner relies on the Deathstalkers to watch across Lordaeron. They serve as her eyes and ears, and strike when Forsaken rule is threatened. Rane Yorick and her brother Quinn were sent to scout northern Silverpine Forest. Feral dangers closed around them, and their covert work became a fight to survive."
     },
@@ -16005,13 +16005,6 @@
       869,
       1186
     ],
-    "294fd0f21bb9306af949ffb36af4f112321127cfc35f51cde2bf21961d022d2d": [
-      228,
-      443,
-      631,
-      797,
-      974
-    ],
     "29b0d23ac1a01163e099a00dadf75d8cda6dcee278054bb81d84b2097ac23a57": [
       669,
       933
@@ -16894,6 +16887,13 @@
       1140,
       1334,
       1546
+    ],
+    "4f78422bb0efe6e6972f1d57990f1ad773472f0f7b380ddf0f4c367ab4fc1469": [
+      243,
+      466,
+      646,
+      823,
+      1016
     ],
     "4f998a31c79ebaece214a68570e1834cf3e93dd88c5ad049823161844f000ce8": [
       246,
@@ -21087,9 +21087,6 @@
     "28c702ec8c10e9c9e892d48dbee87ac41f63b0928968f5bd46b1cc37e9c555f8": {
       "444": 1
     },
-    "294fd0f21bb9306af949ffb36af4f112321127cfc35f51cde2bf21961d022d2d": {
-      "443": 1
-    },
     "29d7d923ea1fea17465fcacaa404c087612d4bc8e910a67f0225e2543422d065": {
       "490": 1
     },
@@ -22786,5 +22783,11 @@
     }
   },
   "pack": "LoreForever_Voice_Female_MorePeople",
+  "retired": [
+    {
+      "file": "Audio/Transport/full_npc_deathstalker-rane-yorick-d9e508b8081b456b6462/1-0000.mp3",
+      "sha256": "294fd0f21bb9306af949ffb36af4f112321127cfc35f51cde2bf21961d022d2d"
+    }
+  ],
   "version": 1
 }

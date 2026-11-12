@@ -965,9 +965,9 @@
     "npc:gryan-stoutmantle": {
       "1": [
         {
-          "duration": 70.4,
-          "file": "Audio/Transport/full_npc_gryan-stoutmantle-bd8b53ab2dc48e4101f4/1-0000.mp3",
-          "sha256": "16e6f621a98e0e51c25d11ace4c11b5011d2b6191ff991ea3ece15c60116038a",
+          "duration": 68.15346938775511,
+          "file": "Audio/Transport/full_npc_gryan-stoutmantle-d0efd7f99964a591d522/1-0000.mp3",
+          "sha256": "f156e605272567e6ff985a20d4d56fbe5a060421b779ad13ad6da000cd7c2720",
           "start": 0
         }
       ],
@@ -979,12 +979,12 @@
         ]
       },
       "fullHash": "f527c3",
-      "generation": "394cb1cbb14cf6d21087",
+      "generation": "b4e599f17ca71e891fbf",
       "hash": "ed4bcb",
       "source": {
-        "duration": 70.426122,
+        "duration": 68.153469,
         "file": null,
-        "sha256": "bd8b53ab2dc48e4101f41f9236a641517c7b5a1266dcd81baf79ca3dd46fd820"
+        "sha256": "d0efd7f99964a591d522123f485e5d12ee50cb044f5ee1451151a69e665da230"
       },
       "text": "Gryan Stoutmantle. At Sentinel Hill in Westfall, Gryan Stoutmantle leads the People's Militia. A paladin of the Silver Hand, he came home from Lordaeron to defend his birthplace after Stormwind's crown left it to banditry. Gryan Stoutmantle first served far from Westfall. As a young man, he traveled north to Lordaeron and took vows as a Knight of the Silver Hand. He endured the horrors of the Third War there. Then word reached him that his native province was falling into lawlessness, overrun by organized brigands and abandoned by the crown. Gryan left the northern fronts to defend honest farmers, resolved that Westfall would not fall as the north had. When Gryan returned, Westfall had almost no defenders. Royal neglect and political paralysis in the House of Nobles kept Stormwind from sending garrison troops. So Gryan formed the People's Militia at Sentinel Hill, gathering local farmers, sentries, and traveling mercenaries into a volunteer defense corps.\n\nThe militia holds a precarious line against the Defias Brotherhood, riverpaw gnolls, and hostile mechanoids. Even when nearby Lakeshire pleads for aid, Gryan cannot spare reinforcements."
     },
@@ -2239,9 +2239,9 @@
     "npc:tirion-fordring": {
       "1": [
         {
-          "duration": 68.62367346938775,
-          "file": "Audio/Transport/full_npc_tirion-fordring-f96e106807ee6be92c4c/1-0000.mp3",
-          "sha256": "a3b5f3b92c600772fa5f62b39326c5a53d277027c8e9fde7433387b8f795a93b",
+          "duration": 64.05224489795918,
+          "file": "Audio/Transport/full_npc_tirion-fordring-fe490f3e074293dd445b/1-0000.mp3",
+          "sha256": "996e12b319685f0f75c7aa87c7385d91b6fb9db8b42860ceda881ea55bbcbf33",
           "start": 0
         }
       ],
@@ -2253,12 +2253,12 @@
         ]
       },
       "fullHash": "e9f13d",
-      "generation": "90a39458e408c2a56c1c",
+      "generation": "774258a938da3e11426e",
       "hash": "ef1889",
       "source": {
-        "duration": 68.649796,
+        "duration": 64.078367,
         "file": null,
-        "sha256": "f96e106807ee6be92c4c582220cbaf0dfe0879f28457fec21330f5ec58b8e23f"
+        "sha256": "fe490f3e074293dd445b669bf57d8a272fa7f4ccfd8a3f01e0c86b22de5823f3"
       },
       "text": "Tirion Fordring. Beside the Thondroril River, Tirion Fordring watches Lordaeron's tragedy unfold from exile. Once a paladin and lord of Mardenholde Keep, he lost his title and lands for honoring an oath to an enemy orc. Now he worries for his son. Before Lordaeron fell, Tirion Fordring was among its finest knights. He served as a paladin of the Knights of the Silver Hand, founded by Archbishop Alonsus Faol during the Second War. With plate, hammer, and faith in the Holy Light, he fought the Old Horde. His fellow knights revered him as a steadfast example of the Light's power. After the Second War, Tirion governed Hearthglen from Mardenholde Keep with his wife Karandra and their young son Taelan. Then he met Eitrigg, an aged orc warrior living as a hermit, and saw honor in him. Tirion promised to protect Eitrigg.\n\nWhen Alliance authorities found the orc, Tirion fought his own countrymen to keep that oath. The Alliance of Lordaeron stripped Tirion of his nobility, and the Silver Hand cast him out. He was banished, while Uther spared Karandra and Taelan from the sentence."
     },
@@ -7543,9 +7543,9 @@
     "subzone:royal-library": {
       "1": [
         {
-          "duration": 38.76571428571429,
-          "file": "Audio/Transport/full_subzone_royal-library-6aa545c42b2ea9dc516e/1-0000.mp3",
-          "sha256": "043773256ae8d77956a65b271c6ad78ae6681c09c40cfdc556a27fd588c8fedd",
+          "duration": 39.20979591836735,
+          "file": "Audio/Transport/full_subzone_royal-library-8791db9018b40448eb65/1-0000.mp3",
+          "sha256": "438b557268e5d433cb592b6322cf778a7f4d86ba4cdc445cd5343ba714c644a2",
           "start": 0
         }
       ],
@@ -7557,12 +7557,12 @@
         ]
       },
       "fullHash": "1bbcaf",
-      "generation": "6f2257d9237b09ab2fd8",
+      "generation": "eeb71404bb74dbeec3f7",
       "hash": "1bbcaf",
       "source": {
-        "duration": 38.791837,
+        "duration": 39.209796,
         "file": null,
-        "sha256": "6aa545c42b2ea9dc516e1470093dcc1f2cc5ca0dea794f4b38067e51ac0d603c"
+        "sha256": "8791db9018b40448eb6534040ced196c128282287f28ce25d74e03d4e42cfc85"
       },
       "text": "Royal Library. Within Stormwind Keep, scholars turn to the Royal Library for the kingdom’s records and histories. Head Librarian Milton Sheaf watches over its scrolls and treatises, from ancient wars to accounts of realms beyond the sea. Within Stormwind Keep’s guarded halls, the Royal Library offers a quiet place amid courtly intrigue. Milton Sheaf oversees its shelves of southern human history. They hold surviving texts written before the First War, recent military chronicles, and recovered tomes. Alliance scholars, priests, and travelers may browse its treatises on the founding of the Alliance of Lordaeron and the recent arrival of Thrall’s Horde in Kalimdor."
     },
@@ -8141,9 +8141,9 @@
     "subzone:southshore": {
       "1": [
         {
-          "duration": 71.9673469387755,
-          "file": "Audio/Transport/full_subzone_southshore-392a34a971e5bb662e0f/1-0000.mp3",
-          "sha256": "5beefbbbe8ac38d4c9e852f7d1e9fbf6561373139f8e8fc83641231db8107252",
+          "duration": 68.62367346938775,
+          "file": "Audio/Transport/full_subzone_southshore-044c58baffcee32c2792/1-0000.mp3",
+          "sha256": "6bd1f5cea8a5d8bf5972ea591514eb01fbadec6e950fe831147e1797b5c262b7",
           "start": 0
         }
       ],
@@ -8155,12 +8155,12 @@
         ]
       },
       "fullHash": "e3bd9c",
-      "generation": "2f00f4700f60e8b4445e",
+      "generation": "425591f5a60172561238",
       "hash": "a59a4b",
       "source": {
-        "duration": 71.993469,
+        "duration": 68.649796,
         "file": null,
-        "sha256": "392a34a971e5bb662e0f37bda057da7ba6ccfd8e7cd783794e18eff4acb72647"
+        "sha256": "044c58baffcee32c27928a8b7ce98b044289e7deab91c68c7a5dc848a6014888"
       },
       "text": "Southshore. In Hillsbrad, Southshore shelters the Alliance amid the ruins of Lordaeron. Once a quiet fishing village, the coastal port now faces the Forsaken at Tarren Mill, Syndicate bandits, and monsters along the shore. Refugee boats from the fallen kingdom of Stormwind first brought Southshore to prominence during the First War. The town was contested and overrun during the Second War, then rebuilt. It endured the horrors of the Third War as well.\n\nNow much of Lordaeron lies in ruins or under Forsaken rule, but Southshore remains loyal to the Grand Alliance. It shelters displaced human survivors, veteran paladins of the Silver Hand, and scholars of the Kirin Tor. Southshore's docks see the ship between Menethil Harbor and Auberdine, and the town is known for its turtle bisque. Yet life here is perilous. Magistrate Henry Maleb and Marshal Redpath lead the town as it faces pressure from every side.\n\nTo the north, the Forsaken of Tarren Mill fight a bitter border conflict for control of Hillsbrad. Inland, Syndicate outlaws raid supply lines and assassinate local leaders. Ogres, murlocs, and naga also harass the town's borders."
     },
@@ -8713,9 +8713,9 @@
     "subzone:strahnbrad": {
       "1": [
         {
-          "duration": 64.15673469387755,
-          "file": "Audio/Transport/full_subzone_strahnbrad-8e7fa8183dd190c6031d/1-0000.mp3",
-          "sha256": "5409bdc202ebc38192de3693aae5d72e3df4f83ae7b84dedfbf1181aee087e4c",
+          "duration": 61.51836734693878,
+          "file": "Audio/Transport/full_subzone_strahnbrad-fa2ef09a5957fa620186/1-0000.mp3",
+          "sha256": "44f2047c20f975d3112ddc2cf07cc9e8ebd385d034b283674c8e74d5885bad17",
           "start": 0
         }
       ],
@@ -8727,12 +8727,12 @@
         ]
       },
       "fullHash": "37b0d7",
-      "generation": "4a9e80c8443ba4a15cf9",
+      "generation": "e8939d14f2a4e1932ee4",
       "hash": "12a91c",
       "source": {
-        "duration": 64.156735,
+        "duration": 61.518367,
         "file": null,
-        "sha256": "8e7fa8183dd190c6031d3e748392f15ae1ff6a4dfbaffb9f8bd349ba226f6118"
+        "sha256": "fa2ef09a5957fa620186ec09e4ed38981fe83017dcf1d068b47aafb971718445"
       },
       "text": "Strahnbrad. Syndicate brigands hold Strahnbrad, a ruined town in the northeastern heights of the Alterac Mountains. Near the Western Plaguelands border, it has fallen into decay since Prince Arthas Menethil defended it from Blackrock orc raiders. Strahnbrad belonged to the Kingdom of Alterac until Lordaeron absorbed it after the Second War. On the eve of the Third War, Blackrock clan orcs raided the town to take human sacrifices for the Burning Legion. Prince Arthas Menethil rode to its defense with the Knights of the Silver Hand. He drove off the raiders and slew their slave master, but Strahnbrad was left bloodied. Soon after, the Scourge brought down Lordaeron, and the town was abandoned to the elements. The Syndicate uses Strahnbrad as an operations hub. Displaced Alteraci nobles and outlaws patrol the abandoned town hall and blacksmith, now their hideouts and staging grounds as they plan to reclaim their fallen realm. The Syndicate keeps supplies and captive labor in the ruins, including the orc Gol'dir. Horde scouts from Tarren Mill seek to free him."
     },
@@ -10036,13 +10036,6 @@
       627,
       803
     ],
-    "043773256ae8d77956a65b271c6ad78ae6681c09c40cfdc556a27fd588c8fedd": [
-      223,
-      537,
-      770,
-      909,
-      1150
-    ],
     "04441f253475810385a8fecbf4df88ea01299fde0fca605fd515730121192051": [
       218,
       461,
@@ -10261,18 +10254,6 @@
       2858,
       3114,
       3416
-    ],
-    "16e6f621a98e0e51c25d11ace4c11b5011d2b6191ff991ea3ece15c60116038a": [
-      202,
-      501,
-      638,
-      847,
-      1250,
-      1508,
-      1662,
-      1885,
-      2238,
-      2497
     ],
     "1729dfafb54bc96d0f6f6f75f83d03f3224b423821ac401a741c1a41cd635670": [
       198,
@@ -10808,6 +10789,10 @@
       1307,
       1600
     ],
+    "438b557268e5d433cb592b6322cf778a7f4d86ba4cdc445cd5343ba714c644a2": [
+      761,
+      1157
+    ],
     "43f5525c7455e0f5e981fdf1e5b18174c4aa9169a539411a5e30b5ac65a6b0cd": [
       177,
       452,
@@ -10824,6 +10809,16 @@
       656,
       829,
       1177
+    ],
+    "44f2047c20f975d3112ddc2cf07cc9e8ebd385d034b283674c8e74d5885bad17": [
+      235,
+      518,
+      931,
+      1113,
+      1320,
+      1529,
+      1851,
+      2018
     ],
     "454811696717735d3626435305882a5dae43fd7edb3bbba91221791b5593f789": [
       202,
@@ -10958,17 +10953,6 @@
       762,
       913
     ],
-    "5409bdc202ebc38192de3693aae5d72e3df4f83ae7b84dedfbf1181aee087e4c": [
-      243,
-      567,
-      783,
-      1059,
-      1232,
-      1436,
-      1650,
-      1982,
-      2154
-    ],
     "578640eab0d3f347e9f7f080d7cf475e6821bcdcc329e3ca198676f59d1e5239": [
       225,
       478,
@@ -11025,18 +11009,6 @@
     ],
     "5a9f0a47b55599eaceed1980fced33c6201adeb2b5548734376f58ce6bfe9eea": [
       252
-    ],
-    "5beefbbbe8ac38d4c9e852f7d1e9fbf6561373139f8e8fc83641231db8107252": [
-      184,
-      507,
-      762,
-      933,
-      1359,
-      1632,
-      1879,
-      2190,
-      2402,
-      2593
     ],
     "5c0a39fde520ce846288fe4e49f5161b7d7c6c4fe9354caf511acb252dfe2f9f": [
       232,
@@ -11246,6 +11218,16 @@
       643,
       914,
       1150
+    ],
+    "6bd1f5cea8a5d8bf5972ea591514eb01fbadec6e950fe831147e1797b5c262b7": [
+      182,
+      504,
+      733,
+      897,
+      1535,
+      1858,
+      2075,
+      2279
     ],
     "6c062e10361c3bfcd69590473200b1dc4d75886f744d50efb95704fdf85fc927": [
       172,
@@ -11824,6 +11806,13 @@
       2283,
       2445
     ],
+    "996e12b319685f0f75c7aa87c7385d91b6fb9db8b42860ceda881ea55bbcbf33": [
+      241,
+      508,
+      1181,
+      1783,
+      2288
+    ],
     "99b8b5b0a0a70ede0990ff2f2a1a46e7defba63affda97d614a5dca976fc13a7": [
       281,
       588,
@@ -12018,18 +12007,6 @@
       724,
       945,
       1160
-    ],
-    "a3b5f3b92c600772fa5f62b39326c5a53d277027c8e9fde7433387b8f795a93b": [
-      231,
-      593,
-      898,
-      1037,
-      1222,
-      1400,
-      1694,
-      1915,
-      2111,
-      2358
     ],
     "a469f05981420fb436a7d31e16e49f494896b5223d34c2aeb652a135cdd46aaf": [
       235,
@@ -13087,6 +13064,17 @@
       3326,
       3507
     ],
+    "f156e605272567e6ff985a20d4d56fbe5a060421b779ad13ad6da000cd7c2720": [
+      181,
+      479,
+      616,
+      823,
+      1212,
+      1465,
+      1608,
+      1834,
+      2187
+    ],
     "f21a746ee20af2dcb2da736af158ec3acd29d2972388ce2e5a10fa15144b0431": [
       207,
       487,
@@ -13240,9 +13228,6 @@
     "03b1793d843f7f3e9afc3219acb0107dee425db10014fe2592b0f85da5f8e37f": {
       "410": 1
     },
-    "043773256ae8d77956a65b271c6ad78ae6681c09c40cfdc556a27fd588c8fedd": {
-      "537": 1
-    },
     "04441f253475810385a8fecbf4df88ea01299fde0fca605fd515730121192051": {
       "461": 1
     },
@@ -13341,10 +13326,6 @@
     "15dbd5da3f6b455da9226d163c2d55ad0dede32b98dcbae64f5e4fe5321f80b3": {
       "2269": 2,
       "709": 1
-    },
-    "16e6f621a98e0e51c25d11ace4c11b5011d2b6191ff991ea3ece15c60116038a": {
-      "1508": 2,
-      "501": 1
     },
     "1729dfafb54bc96d0f6f6f75f83d03f3224b423821ac401a741c1a41cd635670": {
       "705": 1
@@ -13653,10 +13634,6 @@
     "5375838cd178db05f2af3882d5455d902774b2007943697b07c3c00c07ef8904": {
       "495": 1
     },
-    "5409bdc202ebc38192de3693aae5d72e3df4f83ae7b84dedfbf1181aee087e4c": {
-      "1650": 2,
-      "567": 1
-    },
     "578640eab0d3f347e9f7f080d7cf475e6821bcdcc329e3ca198676f59d1e5239": {
       "1160": 2,
       "478": 1
@@ -13681,10 +13658,6 @@
     },
     "5a30b8cd8940e4c4e8deae6a8dea0cd08241d3096233b8b4533418478b318fe2": {
       "477": 1
-    },
-    "5beefbbbe8ac38d4c9e852f7d1e9fbf6561373139f8e8fc83641231db8107252": {
-      "1632": 2,
-      "507": 1
     },
     "5c0a39fde520ce846288fe4e49f5161b7d7c6c4fe9354caf511acb252dfe2f9f": {
       "423": 1
@@ -14095,10 +14068,6 @@
     },
     "a373b64fc5f7c9cdc2c9fdbfc0e718b19e64cda89af0ed692cd3f4b82f3ba75b": {
       "498": 1
-    },
-    "a3b5f3b92c600772fa5f62b39326c5a53d277027c8e9fde7433387b8f795a93b": {
-      "1400": 2,
-      "593": 1
     },
     "a469f05981420fb436a7d31e16e49f494896b5223d34c2aeb652a135cdd46aaf": {
       "1134": 2,
@@ -14595,5 +14564,27 @@
     }
   },
   "pack": "LoreForever_Voice_Default_Alliance",
+  "retired": [
+    {
+      "file": "Audio/Transport/full_npc_gryan-stoutmantle-bd8b53ab2dc48e4101f4/1-0000.mp3",
+      "sha256": "16e6f621a98e0e51c25d11ace4c11b5011d2b6191ff991ea3ece15c60116038a"
+    },
+    {
+      "file": "Audio/Transport/full_npc_tirion-fordring-f96e106807ee6be92c4c/1-0000.mp3",
+      "sha256": "a3b5f3b92c600772fa5f62b39326c5a53d277027c8e9fde7433387b8f795a93b"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_royal-library-6aa545c42b2ea9dc516e/1-0000.mp3",
+      "sha256": "043773256ae8d77956a65b271c6ad78ae6681c09c40cfdc556a27fd588c8fedd"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_southshore-392a34a971e5bb662e0f/1-0000.mp3",
+      "sha256": "5beefbbbe8ac38d4c9e852f7d1e9fbf6561373139f8e8fc83641231db8107252"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_strahnbrad-8e7fa8183dd190c6031d/1-0000.mp3",
+      "sha256": "5409bdc202ebc38192de3693aae5d72e3df4f83ae7b84dedfbf1181aee087e4c"
+    }
+  ],
   "version": 1
 }

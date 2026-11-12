@@ -39,6 +39,13 @@ struct Zip: Decodable, Hashable {
     let bytes: Int64
     let folders: [String]
     var file: String { URL(string: url)?.lastPathComponent ?? name }
+    // Its name in the stage folder, release tag and file ("v1.6.0--LoreForever.zip"): the file name alone is the same in
+    // every release, and a part from another release must never be resumed into this one.
+    var stageFile: String {
+        let tag = URL(string: url)?.deletingLastPathComponent().lastPathComponent ?? ""
+        let safe = tag.replacingOccurrences(of: "[^A-Za-z0-9._-]", with: "_", options: .regularExpression)
+        return safe.isEmpty || safe == "_" ? file : safe + "--" + file
+    }
     // Assets of the release the catalog names carry its version in their .toc files.
     func isCurrentRelease(_ tag: String) -> Bool { url.contains("/download/\(tag)/") }
 }
@@ -69,9 +76,10 @@ func formatBytes(_ bytes: Int64) -> String {
 // The .dmg stays the one notarized file: its name isn't part of the signature.
 func parsePick(fileName: String) -> Pick? {
     guard let open = fileName.firstIndex(of: "("), let close = fileName[open...].firstIndex(of: ")") else { return nil }
-    let parts = fileName[fileName.index(after: open)..<close].split(separator: ",").map { $0.trimmingCharacters(in: .whitespaces).lowercased() }
-    guard parts.count == 3, BUNDLES.contains(parts[2]) else { return nil }
-    return Pick(narrator: parts[0], lang: parts[1], bundle: parts[2])
+    // The language keeps its case: the site's codes include tags like zh-TW.
+    let parts = fileName[fileName.index(after: open)..<close].split(separator: ",").map { $0.trimmingCharacters(in: .whitespaces) }
+    guard parts.count == 3, BUNDLES.contains(parts[2].lowercased()) else { return nil }
+    return Pick(narrator: parts[0].lowercased(), lang: parts[1], bundle: parts[2].lowercased())
 }
 
 // The name of the disk image this app runs from, via hdiutil: that asks the system's disk-image helper rather than

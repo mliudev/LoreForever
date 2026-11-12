@@ -915,7 +915,7 @@ function Lang.ValidateEdition()
   emptyEdition(ns.DB)
   if ns.Voice then
     ns.Voice.Stop()
-    ns.Voice.ready, ns.Voice.autoToken, ns.Voice.autoWaiting = false, nil, nil
+    ns.Voice.ready, ns.Voice.autoToken = false, nil
     ns.Voice.lastClip = nil
   end
   if ns.UI then

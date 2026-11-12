@@ -1,0 +1,82 @@
+{
+ "key": "quest:94733",
+ "type": "quest",
+ "name": "Our Ogre Friend",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94733
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A goblin asks you to find Gobam in Bolder'ok and bring food for Snufflesnout, Chub'chob's pet boar. Gobam is willing to help because Chub'chob is his friend.",
+ "sections": [
+  {
+   "title": "A Friend\u2019s Request",
+   "body": "After you win a few battles, the goblin asks you to find Gobam in Bolder'ok. He needs food for Snufflesnout, Chub'chob's pet boar, but says his work keeps him busy. Gobam is east of Clugfist's clubhouse, and the goblin hopes you can find him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Gobam?",
+   "aliases": [
+    "gobam who",
+    "who's gobam"
+   ],
+   "answer": "Gobam is the shy fellow the goblin sends you to find in Bolder'ok."
+  },
+  {
+   "q": "Where can I find Gobam?",
+   "aliases": [
+    "gobam location",
+    "where gobam"
+   ],
+   "answer": "Gobam is east of Clugfist's clubhouse in Bolder'ok."
+  },
+  {
+   "q": "Who is Snufflesnout?",
+   "aliases": [
+    "snufflesnout",
+    "boar food"
+   ],
+   "answer": "Snufflesnout is Chub'chob's pet boar, and the goblin asks you to bring food for it."
+  },
+  {
+   "q": "Why does the goblin need help?",
+   "aliases": [
+    "why help goblin",
+    "goblin busy"
+   ],
+   "answer": "The goblin says his work keeps him busy, so he asks you to find food for Snufflesnout."
+  },
+  {
+   "q": "Why will Gobam help?",
+   "aliases": [
+    "gobam help",
+    "why gobam helps"
+   ],
+   "answer": "Gobam says he dislikes the goblin, but he will help Chub'chob because they are good friends."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bolder'ok",
+  "chub'chob",
+  "clubhouse",
+  "gobam",
+  "goblin",
+  "our ogre friend",
+  "pet boar",
+  "snufflesnout"
+ ],
+ "related": [
+  "topic:goblin"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Our Ogre Friend"
+ ]
+}

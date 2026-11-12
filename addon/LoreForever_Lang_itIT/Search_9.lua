@@ -2,6 +2,7 @@
 -- Sources: data/i18n/itIT. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_itIT")
 local Po = P.search.post
+Po["gannfine"] = "Gk7C"
 Po["gannflying"] = "Gk1B"
 Po["ganngann"] = "BLiBGj9BGj+CGj/BGkCBIZ0C"
 Po["gannha"] = "Gj+CGkCCGkdCGkiEGk6C"
@@ -12001,4 +12002,3 @@ Po["hermittanner"] = "HjfEHjgDHjhFHjiBHjjBHjkBHjlB"
 Po["hermittranslation"] = "D8vB"
 Po["hero"] = "BHDDD/uBE2ODE2PDE2QFE2RBE2SBE2ZB"
 Po["herod"] = "BCXBBCcIBCfBBT7EBT8KBT9KBT+IBT/IBUAIBUBIBUCKBUDKBUEKBUFKBUGKBUHBBUIDCgeBCggBCgiBCgxBCgzBCg1BDvmEDvnIDvoGDvpGDvqDDvrCDvsCDywBEdvCEdwBEdxDEdyDEdzBEd0BEeCCEeEBI+iCI+jBI+kBI+mBI+nBI+oBI+pBI+qBJgbCJgdDJgfCJgkBKTrBKUEBKUIB"
-Po["herodalleati"] = "BUFC"

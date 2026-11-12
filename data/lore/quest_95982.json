@@ -1,0 +1,84 @@
+{
+ "key": "quest:95982",
+ "type": "quest",
+ "name": "Not My Circus",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95982
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Jasper Geartoggle asks you to help keep abandoned animals fed in Powderfuse Port. He needs Briny Seafood Stew before the hungry beasts cause trouble.",
+ "sections": [
+  {
+   "title": "Hungry Beasts",
+   "body": "In Powderfuse Port, Jasper Geartoggle asks you for help with the animals left in his care. Their owners blame him when a horse, wolf, or other beast dies or runs away. He needs Briny Seafood Stew to keep them in check, before hunger drives them into a stampede.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who needs help",
+    "who is jasper",
+    "jasper geartoggle"
+   ],
+   "answer": "Jasper Geartoggle asks you to help feed the animals left in his care."
+  },
+  {
+   "q": "What does Jasper need?",
+   "aliases": [
+    "what food does he want",
+    "what stew",
+    "briny stew"
+   ],
+   "answer": "Jasper needs Briny Seafood Stew for the animals in his care."
+  },
+  {
+   "q": "Why does Jasper need stew?",
+   "aliases": [
+    "why stew",
+    "hungry animals",
+    "animals in trouble"
+   ],
+   "answer": "Jasper says the animals are hungry and he needs food to keep them in check."
+  },
+  {
+   "q": "Where should I bring the stew?",
+   "aliases": [
+    "where is jasper",
+    "bring stew where",
+    "powderfuse port"
+   ],
+   "answer": "Bring the Briny Seafood Stew to Jasper Geartoggle in Powderfuse Port."
+  },
+  {
+   "q": "Why are animals being left with Jasper?",
+   "aliases": [
+    "abandoned animals",
+    "who left the animals",
+    "why animals here"
+   ],
+   "answer": "People keep leaving their horses, wolves, and other animals with Jasper."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "briny seafood stew",
+  "horses",
+  "hungry animals",
+  "jasper geartoggle",
+  "not my circus",
+  "powderfuse port",
+  "wolves"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Not My Circus"
+ ]
+}

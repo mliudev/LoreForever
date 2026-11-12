@@ -1,0 +1,76 @@
+{
+ "key": "quest:96105",
+ "type": "quest",
+ "name": "King of the Wild Plains",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96105
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Neza Bloodsnout at Rog'mar sends you after the leader of a lion pride. A Tallstrider Call will summon the beast on a hill south of the lions.",
+ "sections": [
+  {
+   "title": "The Call",
+   "body": "Neza Bloodsnout at Rog'mar has a Tallstrider Call ready for you. Take it to the hill south of the lions, then use it when you are prepared to face the pride's leader. Neza asks you to bring back the beast's hide, and the hunt will test your strength on these plains.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the lion's hide?",
+   "aliases": [
+    "who sent me",
+    "Neza Bloodsnout",
+    "hide for Neza"
+   ],
+   "answer": "Neza Bloodsnout at Rog'mar asks you to bring back the leader of the lion pride's hide."
+  },
+  {
+   "q": "What does the Tallstrider Call do?",
+   "aliases": [
+    "what's the whistle for",
+    "call whistle",
+    "summon lion"
+   ],
+   "answer": "The Tallstrider Call summons the leader of the lion pride when used."
+  },
+  {
+   "q": "Where should I use the Tallstrider Call?",
+   "aliases": [
+    "where's the hill",
+    "lion hill",
+    "where to call it"
+   ],
+   "answer": "Use the Tallstrider Call on the hill south of where the lions dwell."
+  },
+  {
+   "q": "What am I hunting?",
+   "aliases": [
+    "which beast",
+    "king of wild plains",
+    "lion leader"
+   ],
+   "answer": "You are hunting the leader of the lion pride."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "hide",
+  "hill",
+  "king of the wild plains",
+  "leader",
+  "lion pride",
+  "neza bloodsnout",
+  "rog'mar",
+  "tallstrider call"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: King of the Wild Plains"
+ ]
+}

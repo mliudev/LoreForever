@@ -1,0 +1,76 @@
+{
+ "key": "quest:95163",
+ "type": "quest",
+ "name": "Drive Them Back",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95163
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Na'zok asks you to bring escaped Young Paletusks back to his farm near Bolder'ok. The piglets have crossed the river, and their pens need them back.",
+ "sections": [
+  {
+   "title": "The Escaped Piglets",
+   "body": "Na'zok's farm near Bolder'ok has more pigs loose in the valley than in its pens. Gorgegut has not been an ideal farmhand, though he keeps humans away. Some of the Young Paletusks have crossed the river, and they are too small to be harvested in the field. Na'zok gives you a stick to send them back to their pens.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are the piglets out of their pens?",
+   "aliases": [
+    "escaped piglets",
+    "pigs loose",
+    "why pigs outside"
+   ],
+   "answer": "Some Young Paletusks have escaped across the river from Na'zok's farm."
+  },
+  {
+   "q": "Who is Gorgegut?",
+   "aliases": [
+    "Gorgegut farmhand",
+    "who Gorgegut",
+    "pig farm guy"
+   ],
+   "answer": "Gorgegut is Na'zok's farmhand, though Na'zok says he has been less than ideal."
+  },
+  {
+   "q": "Why bring the Young Paletusks back?",
+   "aliases": [
+    "return piglets",
+    "why bring pigs back",
+    "young paletusk"
+   ],
+   "answer": "The Young Paletusks are too small to be harvested in the field, so Na'zok wants them returned to the farm."
+  },
+  {
+   "q": "Where is Na'zok's farm?",
+   "aliases": [
+    "Na'zok farm location",
+    "farm near Bolder'ok",
+    "where pig farm"
+   ],
+   "answer": "Na'zok's farm is near Bolder'ok."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bolder'ok",
+  "escaped piglets",
+  "farm",
+  "gorgegut",
+  "na'zok",
+  "paletusk",
+  "pigs",
+  "young paletusks"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Drive Them Back"
+ ]
+}

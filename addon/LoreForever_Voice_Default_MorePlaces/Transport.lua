@@ -38,7 +38,7 @@ P.transport["subzone:andorhal"] = {
   fullHash = "41f3f8",
   text = "Andorhal. In Andorhal, the Scourge still holds the ruined town. Once northern Lordaeron's thriving agricultural heart, it became the place where Kel'Thuzad tainted the grain with the Plague of Undeath. During the Third War, that harvest carried horror across the region. Before the Third War, Andorhal gathered grain from across Lordaeron and sent it east to Hearthglen and Stratholme. As the Eastweald's prosperous granary, it fed a vast network. Kel'Thuzad and the Cult of the Damned chose the town to begin their plot. They tainted crates of grain with the Plague of Undeath, turning the kingdom's breadbasket into a source of sickness. Countless citizens were infected before the Crown understood the danger. Prince Arthas Menethil and Jaina Proudmoore first faced Kel'Thuzad in Andorhal and slew him. His death did not end the danger. After returning from Northrend as a champion of the Scourge, Arthas marched back to claim Kel'Thuzad's remains.\n\nUther the Lightbringer and the remaining Silver Hand paladins made a desperate stand to defend King Terenas's ashes. The paladins fell, and Arthas slew Uther, his former pupil. Now the once grand settlement is a blight-choked Scourge stronghold.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_andorhal-be878d6112e6b9c84235/1-0000.mp3", duration = 74.004898, start = 0},
+    {file = "Audio/Transport/full_subzone_andorhal-8e6ce1290d128c02a66f/1-0000.mp3", duration = 69.9297959, start = 0},
   },
 }
 P.transport["subzone:ariden-s-camp"] = {
@@ -286,7 +286,7 @@ P.transport["subzone:browman-mill"] = {
   fullHash = "f22a1f",
   text = "Browman Mill. Undead now crowd Browman Mill, north of Light's Hope Chapel. Once it served Lordaeron's timber trade; now Stephen Browman remains trapped in death within his ruined workshop. Before the Third War, Browman Mill worked timber from the Eastweald for nearby towns and homesteads. Then the Scourge plague swept across Lordaeron, and the mill fell with the province. Now rotting timbers and shattered wheels lie idle while abominations, banshees, and skeletal warriors patrol the grounds. So close to Light's Hope Chapel, the ruins show how near the undead horde has come to the Argent Dawn. Stephen Browman owned Browman Mill before the Scourge overran his estate. The Scourge killed him and raised him as a ghoul, bound to the Lich King's will. He remains in the dark mill, guarding the broken remains of his life's work.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_browman-mill-59278ab4f853b23711d2/1-0000.mp3", duration = 48.9012245, start = 0},
+    {file = "Audio/Transport/full_subzone_browman-mill-a428afea2eb0a5dc4f3c/1-0000.mp3", duration = 46.4979592, start = 0},
   },
 }
 P.transport["subzone:bulwark"] = {
@@ -302,7 +302,7 @@ P.transport["subzone:caer-darrow"] = {
   fullHash = "0419f1",
   text = "Caer Darrow. Phantoms haunt Caer Darrow above Darrowmere Lake in the Western Plaguelands. House Barov once ruled from its keep, now sold to Kel'Thuzad and remade as Scholomance. Caer Darrow guarded Lordaeron and held an ancient elven runestone long before the Scourge. During the Second War, the Horde sacked the fortress and broke the stone apart for Gul'dan's Altars of Storms. Lord Uther the Lightbringer sailed to aid the survivors, but Alterac privateers ambushed his fleet. Their treachery exposed Alterac's betrayal to the Alliance.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_caer-darrow-0072455b6e68566f18fd/1-0000.mp3", duration = 32.522449, start = 0},
+    {file = "Audio/Transport/full_subzone_caer-darrow-e22e8624e46b5099d14a/1-0000.mp3", duration = 30.5632653, start = 0},
   },
 }
 P.transport["subzone:camp-e-thok"] = {
@@ -366,7 +366,7 @@ P.transport["subzone:caverns-of-time"] = {
   fullHash = "c5f8f6",
   text = "Caverns of Time. In the Caverns of Time, Nozdormu and the bronze dragonflight guard Azeroth's fragile timeways. Deep in Tanaris's eastern cliffs, they watch for mortal intrusion and changes to time's flow. Deep beneath Tanaris's eastern cliffs, the Caverns of Time gather the currents of history. At the dawn of the world, the titans charged Nozdormu the Timeless One and his bronze dragonflight with guarding these winding corridors.\n\nTime moves strangely within them, and hidden rifts show glimpses of the past and future. Relics from distant eras lie scattered across the sands. Anachronos watches near the entrance while lesser bronze drakes patrol the descent and guard the one true timeline. The Caverns of Time also hold a vault where past and future meet. Over millennia, the bronze flight has gathered fragments of Azeroth's history: ancient dwarven structures, a watchtower from Lordaeron, chieftain quarters from the orcish clans, and armor from the first kings of Stromgarde. Some travelers have slipped past the sentinels to see these wonders. The inner gateways stay shut until the flight decides mortal intervention is needed.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_caverns-of-time-eab4e41d3461dbe30ade/1-0000.mp3", duration = 67.7355102, start = 0},
+    {file = "Audio/Transport/full_subzone_caverns-of-time-d060fe29fc9824633b4e/1-0000.mp3", duration = 66.6383673, start = 0},
   },
 }
 P.transport["subzone:cenarion-hold"] = {
@@ -390,7 +390,7 @@ P.transport["subzone:chillwind-camp"] = {
   fullHash = "e3ff9b",
   text = "Chillwind Camp. At the southern pass, Chillwind Camp holds the Alliance line against the Scourge. Alliance soldiers and the Argent Dawn strike nearby strongholds and plague cauldrons from this outpost, before the blighted ruins of Lordaeron. Chillwind Camp guards the pass from Chillwind Point into the Western Plaguelands. It is the Alliance's first line of defense and its main base for pressing into the region. High mountain ridges keep the worst corruption at a distance, though the north's dead chill hangs over the tents and palisades.\n\nCommander Ashlam Valorfist leads a small garrison of soldiers, scouts, and Argent Dawn specialists. They contain horrors along the King's Road and gather intelligence to reclaim Lordaeron's fallen fields. Without armies to assault Andorhal or Scholomance, Chillwind Camp depends on independent champions and mercenaries. Its forces strike the Cult of the Damned, disable plague cauldrons poisoning the soil, and keep supply routes open to eastern outposts such as Light's Hope Chapel. Scourge-held ruins lie just north, while the Forsaken fortify the western border. The defenders fight to keep the pass from being overwhelmed.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_chillwind-camp-d0004599a0f756dd225c/1-0000.mp3", duration = 69.5118367, start = 0},
+    {file = "Audio/Transport/full_subzone_chillwind-camp-02364f0dc1423e28bebf/1-0000.mp3", duration = 68.7020408, start = 0},
   },
 }
 P.transport["subzone:chillwind-point"] = {
@@ -398,7 +398,7 @@ P.transport["subzone:chillwind-point"] = {
   fullHash = "bfcd64",
   text = "Chillwind Point. At Chillwind Point, cold drafts sweep a rocky rise above the mountain pass. Ancient troll ruins stand where Hillsbrad Foothills, the Alterac Mountains, and the Western Plaguelands meet, and Bath'rah the Windwatcher lives among the stones. Chillwind Point looks down over a ravine at Hillsbrad's edge. The pass leads into the Western Plaguelands, with the Alterac Mountains rising nearby. Long before Lordaeron claimed these routes, ancient trolls raised stone structures on the heights. Their weather-beaten remains still face the elements. Cold winds now blow south through the ravine, carrying the north's chill into the foothills below. Bath'rah the Windwatcher lives among the old stones at Chillwind Point. The jungle troll hermit communes with the violent gales coursing through the gap. Though the heights are bleak and exposed, and Scourge-ravaged lands lie nearby, his camp is not entirely deserted. Travelers and shamans heading north often seek him out to learn the secrets of the mountain currents.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_chillwind-point-0bdaf52c530e1cd98b83/1-0000.mp3", duration = 57.7828571, start = 0},
+    {file = "Audio/Transport/full_subzone_chillwind-point-b534def9cb5776487ed5/1-0000.mp3", duration = 58.2269388, start = 0},
   },
 }
 P.transport["subzone:circle-of-aquementas"] = {
@@ -446,7 +446,7 @@ P.transport["subzone:corin-s-crossing"] = {
   fullHash = "acbf76",
   text = "Corin's Crossing. The Scourge has overrun Corin's Crossing, where ruined streets mark an old meeting place in south-central Eastern Plaguelands. Once travelers passed through on their way between Stratholme, Tyr's Hand, Darrowshire, and Andorhal. Now horrors haunt the town hall and forge, and unseen watchers drift among the ruins. Before the Third War, Corin's Crossing joined the roads of eastern Lordaeron. Merchants, couriers, and pilgrims stopped at this waystation between Stratholme and the southern strongholds. The settlement stood between Lake Mereldar and the place now blighted as the Infectis Scar. When the plague swept through the province, the undead vanguard reached the town. Corin's Crossing soon fell beneath its assault. The Scourge holds Corin's Crossing now, and wandering undead crowd its muddy streets. Rotting hulks and ghouls linger in the hollowed blacksmith shop and town hall. Scouts face another danger among the ruins. Unseen Servants drift beyond ordinary sight, pierce mundane stealth, and ambush anyone trying to slip past the main horde undetected.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_corin-s-crossing-6ef30b9bb76f37fe2cb6/1-0000.mp3", duration = 64.3395918, start = 0},
+    {file = "Audio/Transport/full_subzone_corin-s-crossing-c0d88062bfbaaefcff36/1-0000.mp3", duration = 62.6416327, start = 0},
   },
 }
 P.transport["subzone:corrahn-s-dagger"] = {
@@ -462,7 +462,7 @@ P.transport["subzone:crown-guard-tower"] = {
   fullHash = "52760c",
   text = "Crown Guard Tower. In the southern Eastern Plaguelands, blight surrounds Crown Guard Tower's ruins. The Scourge destroyed it during the invasion of Lordaeron in the Third War. Crown Guard Tower once watched over eastern Lordaeron as part of the Kingdom's defenses. When the Scourge overran the kingdom, they destroyed the tower and left it in ruins. Several fallen towers lie scattered across what are now the Eastern Plaguelands. Charred stones remain here in a land still held by the undead.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_crown-guard-tower-edd760736795cc67fdae/1-0000.mp3", duration = 28.7608163, start = 0},
+    {file = "Audio/Transport/full_subzone_crown-guard-tower-33af8d93f93304cba185/1-0000.mp3", duration = 27.0628571, start = 0},
   },
 }
 P.transport["subzone:crusader-s-armory"] = {
@@ -598,7 +598,7 @@ P.transport["subzone:darrowshire"] = {
   fullHash = "7bc6fa",
   text = "Darrowshire. Darrowshire lies in ruins in the southern hills of the Eastern Plaguelands. Once a peaceful hamlet of Lordaeron, it made a desperate stand against the Scourge during the Third War. Shattered timbers, restless spirits, and bitter memories remain. Darrowshire's villagers fought the Scourge during the Third War. Before plague consumed northern Lordaeron, the humble settlement stood beneath the southern cliffs. Marduk Blackpool, a death knight, and Horgus the Ravager, a ghoul lord, led the besieging force.\n\nThe villagers and local defenders held the line for a time, though the odds were impossible. Then their defense broke, and the Scourge slaughtered the town down to the last soul. Many fallen defenders were raised as ghouls to swell the Scourge's ranks. Darrowshire remains an empty memorial to those who died there. Darrowshire's ruins still bear the weight of the slaughter. The living abandoned the village long ago, but spectral remnants of its townspeople remain trapped there. Travelers report strange sights, including ghostly reenactments of the battle unfolding in silence. Sorrow still clings to the ground, a reminder of what the Scourge took from the kingdom.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_darrowshire-c3ed6b8b301959d31242/1-0000.mp3", duration = 71.5232653, start = 0},
+    {file = "Audio/Transport/full_subzone_darrowshire-6bc3cefac45f2decef37/1-0000.mp3", duration = 68.7020408, start = 0},
   },
 }
 P.transport["subzone:deadman-s-crossing"] = {
@@ -790,7 +790,7 @@ P.transport["subzone:eastwall-tower"] = {
   fullHash = "d21697",
   text = "Eastwall Tower. On the eastern road, Eastwall Tower watches over a wilderness still infested with Scourge. Built as a scout tower for Lordaeron, it fell when the Scourge swept across the kingdom during the Third War. Eastwall Tower's broken ramparts look down on roads through Scourge-infested countryside. Built to guard Lordaeron's border, it watched travelers bound for the far reaches of the realm. When the Scourge invaded during the Third War, the outpost fell with the settlements around it. Shattered stone arches and burnt timber remain.\n\nThe Lich King's armies still infest the region. From its high ground, the ruined tower overlooks the eastern roads.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_eastwall-tower-f2e275645f36b3985010/1-0000.mp3", duration = 40.2546939, start = 0},
+    {file = "Audio/Transport/full_subzone_eastwall-tower-dcff946156828bf9a33f/1-0000.mp3", duration = 40.4897959, start = 0},
   },
 }
 P.transport["subzone:eldreth-row"] = {
@@ -870,7 +870,7 @@ P.transport["subzone:felstone-field"] = {
   fullHash = "cc630c",
   text = "Felstone Field. Scourge corruption has claimed Felstone Field in the northwestern Western Plaguelands. Once farmland for Lordaeron, it now lies in ruins beneath a plague cauldron that sends toxic fumes into the air. Felstone Field once fed Lordaeron from a peaceful family farm. When plague swept through the north, the Cult of the Damned and the Scourge quickly seized the homestead. Dead weeds and rot cover the fields now. At the farm’s heart, an enormous plague cauldron churns foul vapors into the sky. Cauldron Lord Bilemaw guards it with skeletal flayers, sorcerers, and ravenous ghouls.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_felstone-field-0bb073132561af0e599c/1-0000.mp3", duration = 37.0677551, start = 0},
+    {file = "Audio/Transport/full_subzone_felstone-field-0fb1fcafd10a92f201fd/1-0000.mp3", duration = 35.604898, start = 0},
   },
 }
 P.transport["subzone:feral-scar-vale"] = {
@@ -934,7 +934,7 @@ P.transport["subzone:forlorn-cloister"] = {
   fullHash = "b36ba7",
   text = "Forlorn Cloister. Among the tombs of Forlorn Cloister, the fallen dead rise, and Scarlet Crusaders burn their bodies to stop them. You enter a graveyard where Scarlet Crusaders hurry between tombs with torches. They burn their fallen brothers, but the plague has already tainted the earth beneath them.\n\nOnce, priests and paladins of Lordaeron laid their honoured dead here in peace. Now spectres drift between the crypts, and corpses claw their way from the graves. The Crusaders keep watch, yet dark magic deep in the grounds still calls the dead to rise. Bloodmage Thalnos commands the dead within the cloister. A skeletal sorcerer, he is another of the Monastery's tragedies, lost to undeath and hungry for vengeance. With dark magic, he binds the souls of the deceased and slaughters anyone who enters his blighted graveyard.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_forlorn-cloister-f5eee7a170b0ceb2aef1/1-0000.mp3", duration = 51.8530612, start = 0},
+    {file = "Audio/Transport/full_subzone_forlorn-cloister-fcbd955679d850c5dbd4/1-0000.mp3", duration = 48.0914286, start = 0},
   },
 }
 P.transport["subzone:forlorn-ridge"] = {
@@ -990,7 +990,7 @@ P.transport["subzone:fungal-vale"] = {
   fullHash = "b591a3",
   text = "Fungal Vale. In Fungal Vale, Scourge horrors roam beneath a murky haze, and Cult of the Damned acolytes serve among the fungi. The vale lies in south-central Eastern Plaguelands, north of Crown Guard Tower and Marris Stead. North of Marris Stead, Fungal Vale lies among Lordaeron’s most corrupted places. Sickly purple earth swells with alien fungi beneath a haze of necrotic spores. The Plague of Undeath has warped the soil, raising unholy growths that feed carrion beasts and shambling undead. Members of the Cult of the Damned tend the blighted blooms and perform foul rites amid the decay.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_fungal-vale-6f7d17ce6cf2b90269d7/1-0000.mp3", duration = 37.0677551, start = 0},
+    {file = "Audio/Transport/full_subzone_fungal-vale-a69630f7a29b44a7a774/1-0000.mp3", duration = 36.3363265, start = 0},
   },
 }
 P.transport["subzone:gadgetzan"] = {
@@ -1006,7 +1006,7 @@ P.transport["subzone:gahrron-s-withering"] = {
   fullHash = "ab38c4",
   text = "Gahrron's Withering. At Gahrron's Withering, the Scourge foul an old Lordaeron farm beside the road to the Eastern Plaguelands. A massive cauldron sends plague vapors into the air. Before the Third War, this farm fed Lordaeron with grain. Then the Cult of the Damned and the Scourge swept across the land, and the fields fell silent. Now the farmstead is broken and derelict. Haunting visions, wailing wraiths, and restless spirits roam its ruined outbuildings under Scourge overseers sworn to the Lich King.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_gahrron-s-withering-9d2f5e3ab3722adc043f/1-0000.mp3", duration = 29.6228571, start = 0},
+    {file = "Audio/Transport/full_subzone_gahrron-s-withering-b0523d0a76e4e6b630de/1-0000.mp3", duration = 28.8391837, start = 0},
   },
 }
 P.transport["subzone:gallery-of-treasures"] = {
@@ -1014,7 +1014,7 @@ P.transport["subzone:gallery-of-treasures"] = {
   fullHash = "8b0c06",
   text = "Gallery of Treasures. In the Scarlet Monastery, the Gallery of Treasures joins the Huntsman's Cloister to the Athenaeum. The Scarlet Crusade guards a corridor of Lordaeron's paintings, relics, and illuminated texts as it wages war against the undead. Deep in the Library wing, the Gallery of Treasures runs from the Huntsman's Cloister kennels to the Athenaeum archives. Paintings and historical artifacts line the corridor. Small chambers hold books salvaged from across fallen Lordaeron.\n\nThe Scarlet Crusade calls these relics humanity's untainted legacy and has sworn to protect that heritage. Its zealots guard the passage against outsiders who enter their sanctuary.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_gallery-of-treasures-a82d47e97eb46ba0c976/1-0000.mp3", duration = 39.6016327, start = 0},
+    {file = "Audio/Transport/full_subzone_gallery-of-treasures-7456a8c399b8229fa13b/1-0000.mp3", duration = 37.3028571, start = 0},
   },
 }
 P.transport["subzone:gaping-chasm"] = {
@@ -1158,7 +1158,7 @@ P.transport["subzone:hall-of-champions"] = {
   fullHash = "96e3c5",
   text = "Hall of Champions. Within the Scarlet Monastery's armory wing, the Hall of Champions tests the Crusade's elite. Herod, the Scarlet Champion, leads its fiercest fighters from this inner sanctum. Beyond the Footman's Armory, you come to the Hall of Champions at the heart of the monastery's armory wing. Herod, the Scarlet Champion, commands the Crusade's fiercest fighters here.\n\nScarlet trainees sharpen their resolve and skill for the Crusade's aim: to purge Lordaeron of all undead and outsiders.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_hall-of-champions-60132f4ec7553c28135a/1-0000.mp3", duration = 30.9812245, start = 0},
+    {file = "Audio/Transport/full_subzone_hall-of-champions-37f6f8ced5cc72ecdf9a/1-0000.mp3", duration = 29.1526531, start = 0},
   },
 }
 P.transport["subzone:hall-of-masks"] = {
@@ -1174,7 +1174,7 @@ P.transport["subzone:hammerfall"] = {
   fullHash = "ba654c",
   text = "Hammerfall. Horde forces hold Hammerfall in the Arathi Highlands, where old losses and a hard-won freedom shape the outpost. Orcs and Forsaken defend it against Boulderfist ogres, Witherbark trolls, and the League of Arathor. Beneath Hammerfall lie the ruins of an Alliance internment camp. After the Second War, the human Alliance built vast camps across Lordaeron for defeated orcs, and this was among the largest. Years later, Thrall and Orgrim Doomhammer struck at the camp to free its lethargic captives.\n\nAs they retreated, an Alliance knight charged and drove a lance through Doomhammer's backplate. The Warchief was mortally wounded. After the Third War, the new Horde reclaimed the ruins and named its outpost Hammerfall in his memory. Hammerfall gives the Horde a foothold in Arathi. Its garrison faces aggressive Boulderfist ogres from Boulder'gor and Boulderfist Hall, as well as the native Witherbark trolls. Forsaken Defilers use the outpost to claim resources in the contested Arathi Basin. There they oppose the Alliance's League of Arathor.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_hammerfall-ce04defb3c6959a19ac3/1-0000.mp3", duration = 65.044898, start = 0},
+    {file = "Audio/Transport/full_subzone_hammerfall-7fb5a3f9eb92de2ee64f/1-0000.mp3", duration = 62.5632653, start = 0},
   },
 }
 P.transport["subzone:harborage"] = {
@@ -1190,7 +1190,7 @@ P.transport["subzone:hearthglen"] = {
   fullHash = "039a0c",
   text = "Hearthglen. In the northern hills of the Western Plaguelands, Hearthglen holds firm. Its walls survived Lordaeron's fall, and the Scarlet Crusade now uses the settlement and its farmlands as a northern stronghold and training ground. Hearthglen still looks like a living town of Lordaeron, while nearby Andorhal lies in skeletal ruin. Its lumber mill, scout towers, stables, and working mine are still here. Lord Tirion Fordring once governed from Mardenholde Keep. During the Second War, Hearthglen prospered and stood staunchly defended.\n\nWhen the Plague of Undeath swept Lordaeron during the Third War, Prince Arthas Menethil intercepted tainted grain here. He purged the infected townsfolk and joined Uther the Lightbringer to repel a massive Scourge siege. Hearthglen's formidable walls survived intact. After the kingdom's collapse, the Silver Hand fell into disarray. Tirion's son, Taelan Fordring, renounced the order and joined the Scarlet Crusade. Grief and zealotry soon consumed the fortress. Scarlet crusaders now patrol Hearthglen's approaches and man its ramparts. They execute any outsider, living or undead, who trespasses on their land.\n\nHighlord Taelan Fordring rules from Mardenholde Keep. From there, he serves the Crusade's uncompromising war against the Plaguelands.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_hearthglen-6cb806d2230f19e69150/1-0000.mp3", duration = 80.2220408, start = 0},
+    {file = "Audio/Transport/full_subzone_hearthglen-283b732fdc4bf11fb155/1-0000.mp3", duration = 78.315102, start = 0},
   },
 }
 P.transport["subzone:hetaera-s-clutch"] = {
@@ -1414,7 +1414,7 @@ P.transport["subzone:lake-mereldar"] = {
   fullHash = "431809",
   text = "Lake Mereldar. Lake Mereldar's waters south of Corin's Crossing have turned foul and corrupted. Once part of Lordaeron's rural heartland, the lake now breeds twisted elementals beneath the Scourge's lingering taint. South of Corin's Crossing, Lake Mereldar rests among the old farms of northern Lordaeron. Ruins of a homestead, an abandoned shack, and a worn ferry mark its shores. Farmers and travelers once crossed its gentle waters by ferry.\n\nThen the Scourge brought its plague of undeath, and the lake and its surroundings fell into ruin. The soil withered, and the water turned foul and poisonous. The blight in Lake Mereldar has tainted the water and the spirits bound to it. Blighted Surges are corrupted water elementals, driven mad by necromantic residue. They lurk in the shallows and surface without warning.\n\nPlague Ravagers prowl the muddy, weed-choked banks. They hunt living creatures that stray near the dead shoreline.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_lake-mereldar-a015a9de517521089537/1-0000.mp3", duration = 56.6595918, start = 0},
+    {file = "Audio/Transport/full_subzone_lake-mereldar-bcd7bcc2fb24fd6fb21c/1-0000.mp3", duration = 59.2195918, start = 0},
   },
 }
 P.transport["subzone:lake-nazferiti"] = {
@@ -1558,7 +1558,7 @@ P.transport["subzone:mardenholde-keep"] = {
   fullHash = "64b6e2",
   text = "Mardenholde Keep. In western Lordaeron, the Scarlet Crusade holds Hearthglen from Mardenholde Keep. Highlord Taelan Fordring rules from the fortress once held by his father, Tirion. Mardenholde Keep once governed the principality of Hearthglen and the vales around it. Lord Tirion Fordring ruled from its council chambers with trusted advisors, keeping peace across the region. For generations, Lordaeron's people praised the fortress because it never fell during the Second War.\n\nThen Tirion defended the orc Eitrigg and was exiled. Governance passed to his ambitious apprentice, Barthilas, and later to Tirion's son, Taelan. Taelan inherited his father's domain on the eve of Lordaeron's destruction.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_mardenholde-keep-0742783ef30eab96328e/1-0000.mp3", duration = 41.9787755, start = 0},
+    {file = "Audio/Transport/full_subzone_mardenholde-keep-144904f338068ca71359/1-0000.mp3", duration = 40.8816327, start = 0},
   },
 }
 P.transport["subzone:marris-stead"] = {
@@ -1566,7 +1566,7 @@ P.transport["subzone:marris-stead"] = {
   fullHash = "072911",
   text = "Marris Stead. In the southwestern Eastern Plaguelands, Nathanos Blightcaller holds Marris Stead. Once a peaceful Lordaeron homestead, the ridge now shelters his lonely, heavily defended redoubt.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_marris-stead-68ff57de363ea5baca22/1-0000.mp3", duration = 11.6244898, start = 0},
+    {file = "Audio/Transport/full_subzone_marris-stead-243e155d0224ed24c161/1-0000.mp3", duration = 10.3444898, start = 0},
   },
 }
 P.transport["subzone:marshal-s-refuge"] = {
@@ -1806,7 +1806,7 @@ P.transport["subzone:northpass-tower"] = {
   fullHash = "277edd",
   text = "Northpass Tower. Northpass Tower watches over the northern road to Quel'Thalas as a ruin. Shattered during the Third War, the old Lordaeron scout tower still looks toward the elven lands. Northpass Tower once guarded Lordaeron's road north into Quel'Thalas. During the Scourge invasion, the tower was reduced to a broken shell. From its high ground, it still overlooks the frontier between Stratholme's blighted outskirts and the distant elven lands. No garrison mans Northpass Tower today. Its broken walls stand beside the road, now haunted by the Scourge. The ruin marks the watch Lordaeron once kept over the route to Quel'Thalas.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_northpass-tower-4b0482f6d4be33832574/1-0000.mp3", duration = 39.1053061, start = 0},
+    {file = "Audio/Transport/full_subzone_northpass-tower-9061523ae0828e1f3809/1-0000.mp3", duration = 36.8065306, start = 0},
   },
 }
 P.transport["subzone:northridge-lumber-camp"] = {
@@ -1814,7 +1814,7 @@ P.transport["subzone:northridge-lumber-camp"] = {
   fullHash = "1364ad",
   text = "Northridge Lumber Camp. Scarlet Crusade guards hold Northridge Lumber Camp, an active, fortified mill in the hills near Hearthglen. Its timber feeds nearby strongholds, and the Alliance and Horde seek ways to cripple the Crusade’s supply. Scarlet Crusade workers fell and process timber at Northridge Lumber Camp, despite the plague in the surrounding forests. The mill lies down the road from Hearthglen, in the northern hills of the Western Plaguelands. Its wood builds fortifications, repairs watchtowers, and sustains the Crusade’s war effort in Lordaeron. Guards and laborers garrison the camp in force, defending it from the Scourge and trespassers. Hearthglen depends on Northridge Lumber Camp for timber to maintain its defenses. That need makes the mill a target for outside forces. Alliance commanders and Horde scouts know a direct assault on fortified Crusade positions would cost dearly. So their agents seek quieter ways to sabotage the operation, such as releasing wood-boring termites into the lumber stores and spoiling the Crusade’s supplies from within.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_northridge-lumber-camp-0e68fe0567ec4535e051/1-0000.mp3", duration = 61.8840816, start = 0},
+    {file = "Audio/Transport/full_subzone_northridge-lumber-camp-abacfe8b3989ffce6c87/1-0000.mp3", duration = 59.924898, start = 0},
   },
 }
 P.transport["subzone:noxious-glade"] = {
@@ -1886,7 +1886,7 @@ P.transport["subzone:pestilent-scar"] = {
   fullHash = "517da7",
   text = "Pestilent Scar. In the Eastern Plaguelands, ravenous oozes churn across the floor of Pestilent Scar. The hollow seems older than the Scourge blight that fills it. Pestilent Scar cuts through the eastern reaches of the Eastern Plaguelands, a gloomy rift in corrupted land. Nearby, sudden eruptions of the Plague of Undeath tore open Infectis Scar. Pestilent Scar seems to have formed naturally, perhaps as a deep river canyon or a lake that dried when the Scourge swept across Lordaeron. Barren at first, the trench gradually filled with noxious runoff and foul slime. Without pure water and under constant unholy decay, the hollow now breeds mutated, acidic slimes and carrion vermin. Crossing its crumbling rim is dangerous. Acrid fumes choke the air above the drop, and unstable soil can send the unwary into the churning muck.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_pestilent-scar-b9e5d7894127df7aa378/1-0000.mp3", duration = 49.7110204, start = 0},
+    {file = "Audio/Transport/full_subzone_pestilent-scar-eeb4d20f43f9259320f6/1-0000.mp3", duration = 52.48, start = 0},
   },
 }
 P.transport["subzone:plaguemist-ravine"] = {
@@ -1894,7 +1894,7 @@ P.transport["subzone:plaguemist-ravine"] = {
   fullHash = "00b5ce",
   text = "Plaguemist Ravine. In western Plaguelands, sickly fog drifts south through Plaguemist Ravine. The narrow passage links the Hinterlands to Darrowmere Lake and offers a quiet, desolate route across the range. Northwest of Quel'Danil Lodge, Plaguemist Ravine cuts between the Hinterlands and the Western Plaguelands. Lush, untamed highland forest lies to the south. Northward, the pass opens onto Caer Darrow and the blighted shores of Darrowmere Lake. The two realms could hardly be more different. Foul vapors creep south from the Plaguelands, meeting the crisp mountain air of the neighboring wilderness. Though the ravine cuts into Scourge-ravaged territory, it remains remarkably deserted. No wild beasts or wandering undead linger in the gorge. Its winding path makes a convenient, if ominous, back road for daring couriers and adventurers. They can use it to bypass the heavily fortified highways and border checkpoints leading into Lordaeron.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_plaguemist-ravine-d0925a3db14d41c38c22/1-0000.mp3", duration = 56.7902041, start = 0},
+    {file = "Audio/Transport/full_subzone_plaguemist-ravine-220ec377b823b82a1fc6/1-0000.mp3", duration = 56.2677551, start = 0},
   },
 }
 P.transport["subzone:plaguewood"] = {
@@ -1910,7 +1910,7 @@ P.transport["subzone:plaguewood-tower"] = {
   fullHash = "c7152c",
   text = "Plaguewood Tower. Plaguewood Tower watches over the northern trails near Terrordale, its stones broken. Lordaeron kept a watchpost here until the Scourge invasion brought it to ruin. Plaguewood Tower's fractured stones overlook the northern trails between the Plaguewood and blighted Terrordale. The Kingdom of Lordaeron kept this post to guard the region.\n\nWhen the Scourge swept across the land, the tower was battered into ruins among corrupted fungal canopies. Its broken walls still face the trails, the last remnant of Lordaeron's watch here.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_plaguewood-tower-7644d612943fcbf8640a/1-0000.mp3", duration = 31.7387755, start = 0},
+    {file = "Audio/Transport/full_subzone_plaguewood-tower-66601c56081724cef5a1/1-0000.mp3", duration = 29.8579592, start = 0},
   },
 }
 P.transport["subzone:pool-of-tears"] = {
@@ -1942,7 +1942,7 @@ P.transport["subzone:quel-lithien-lodge"] = {
   fullHash = "1fb708",
   text = "Quel'Lithien Lodge. Farstrider rangers keep watch at Quel'Lithien Lodge, amid the blighted woods of the Eastern Plaguelands. The high elven hunting lodge stands among the northern hills near the entrance to Quel'Thalas. The Scourge surround it, and Forsaken agents hunt its rangers as they guard old elven archives. Before the Third War, Farstriders kept camp at Quel'Lithien on the road to Quel'Thalas. The lodge held records of the ranger order. Then the Scourge swept through Lordaeron and into the elven kingdom, and the lodge's fortunes worsened. Now its rangers watch over the corrupted forest. They are one of only two major concentrations of high elves left in Lordaeron.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_quel-lithien-lodge-2fa9ed5d0b575acf2737/1-0000.mp3", duration = 39.157551, start = 0},
+    {file = "Audio/Transport/full_subzone_quel-lithien-lodge-4e970d37be43fd6a9a09/1-0000.mp3", duration = 39.0530612, start = 0},
   },
 }
 P.transport["subzone:rage-scar-hold"] = {
@@ -2030,7 +2030,7 @@ P.transport["subzone:ruins-of-alterac"] = {
   fullHash = "3df961",
   text = "Ruins of Alterac. Snow lies over the Ruins of Alterac, where Crushridge ogres now hold the old mountain capital. After King Aiden Perenolde betrayed the Alliance in the Second War, Alterac was cast out and placed under martial law. Alterac once ruled as an independent human realm, carved from the old Arathor empire and set high on mountain trade routes. During the Second War, King Aiden Perenolde feared the invading Old Horde would destroy his kingdom, so he secretly made a pact with the orcs. After the fighting at Caer Darrow, the betrayal came to light. The Alliance of Lordaeron struck swiftly.\n\nKing Terenas Menethil II placed the city under martial law and deposed Perenolde. The people fled or turned to outlawry, and the grand fortifications, church, and palace fell into disrepair. Surviving Alteraci nobles and rogue soldiers formed the Syndicate. They waged guerrilla campaigns from towns like Strahnbrad, but lost their ancestral capital. Today, Crushridge ogres under Mug'thol dwell among broken ramparts, palace halls, and wrecked ballistae. Neither the Syndicate nor Southshore's human defenders have reclaimed the fallen city.\n\nIts crumbling towers and abandoned vaults remain dangerous ground for treasure hunters and scavengers.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ruins-of-alterac-82ec89adde54fc72ecb3/1-0000.mp3", duration = 76.7738776, start = 0},
+    {file = "Audio/Transport/full_subzone_ruins-of-alterac-fa894c1f926773e56dcb/1-0000.mp3", duration = 71.8106122, start = 0},
   },
 }
 P.transport["subzone:ruins-of-andorhal"] = {
@@ -2038,7 +2038,7 @@ P.transport["subzone:ruins-of-andorhal"] = {
   fullHash = "364159",
   text = "Ruins of Andorhal. In the Western Plaguelands, Andorhal’s ruined streets belong to the Scourge. Once northern Lordaeron’s grain hub, the town now teems with undead abominations, ghouls, and wraiths under Araj the Summoner. Andorhal packed the Cult of the Damned’s tainted grain and sent it across the human kingdom. That grain began Lordaeron’s plague of undeath. Now the ruined city is a Scourge stronghold in the Western Plaguelands. Araj the Summoner holds its center, surrounded by ghouls, skeletal horrors, and towering flesh golems. Scarlet Crusade scouting parties sometimes probe the outskirts, but the Scourge rules the shattered streets.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ruins-of-andorhal-c69c302aacecc477b47f/1-0000.mp3", duration = 38.5306122, start = 0},
+    {file = "Audio/Transport/full_subzone_ruins-of-andorhal-63b22e8fb663e6bc4821/1-0000.mp3", duration = 38.2432653, start = 0},
   },
 }
 P.transport["subzone:ruins-of-constellas"] = {
@@ -2222,7 +2222,7 @@ P.transport["subzone:scarlet-basilica"] = {
   fullHash = "a749d2",
   text = "Scarlet Basilica. At Tyr's Hand, Scarlet Basilica commands the Scarlet Crusade's eastern forces. Crusader Lord Valdelmar oversees the cathedral, a stronghold against the Scourge in the Eastern Plaguelands. At Tyr's Hand, Scarlet Basilica rises above the Eastern Plaguelands as the Scarlet Crusade's cathedral and command center. The Scarlet Monastery in Tirisfal Glades remains the order's spiritual heart, while the basilica anchors its surviving stronghold in Lordaeron. Elite crusaders guard its walls. Inside, Crusader Lord Valdelmar directs the local defense and drives away outsiders who approach.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_scarlet-basilica-d5e66f0f093cc08a7dbe/1-0000.mp3", duration = 37.0677551, start = 0},
+    {file = "Audio/Transport/full_subzone_scarlet-basilica-ff23ace55aebdc806a74/1-0000.mp3", duration = 35.4481633, start = 0},
   },
 }
 P.transport["subzone:scarlet-monastery"] = {
@@ -2246,7 +2246,7 @@ P.transport["subzone:scarlet-monastery-cathedral"] = {
   fullHash = "7ce225",
   text = "Scarlet Monastery Cathedral. Within Scarlet Monastery Cathedral, the Crusade keeps its inner sanctum and command seat. After the Third War, hatred took hold of the Cathedral. The Scourge destroyed Lordaeron, and its surviving zealots turned the complex from a peaceful place of prayer and learning into a stronghold. Beyond the Chapel Gardens stands the grand Crusader's Chapel. There, priests and warriors gather in devotion to their cause. They see every outsider, whatever their race or faction, as a bearer of the undead plague, to be purged by blade and holy fire.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_scarlet-monastery-cathedral-8cde9b7ceb2cad5a66c9/1-0000.mp3", duration = 32.8620408, start = 0},
+    {file = "Audio/Transport/full_subzone_scarlet-monastery-cathedral-dd93e1863e8a92fd58d9/1-0000.mp3", duration = 31.3730612, start = 0},
   },
 }
 P.transport["subzone:scarlet-monastery-graveyard"] = {
@@ -2254,7 +2254,7 @@ P.transport["subzone:scarlet-monastery-graveyard"] = {
   fullHash = "43caa5",
   text = "Scarlet Monastery Graveyard. Undead haunt Scarlet Monastery Graveyard in northeastern Tirisfal Glades. Lordaeron's clergy and nobility once rested here in peace, but neglect and Bloodmage Thalnos's corrupted magic now trouble the burial wing. Before the Third War, Lordaeron's priests rested in peace in this cloistered cemetery. When the Scarlet Crusade fortified the monastery against the undead, its fanatical watch left the crypts uncleansed. Now the Graveyard lies neglected and haunted. Lingering spirits, restless corpses, and shambling horrors wander the Chamber of Atonement and the mist-covered Forlorn Cloister. Beneath the Crusade's uncaring gaze, the dead suffer endless torment instead of hallowed rest. At the rear of the grounds, Honor's Tomb holds Bloodmage Thalnos, who mocks the Crusade's dogma. No record tells who he was in life. The plague of undeath claimed him, and he rose as a skeletal horror wielding shadow bolts and fire. The crusaders above preach the total extermination of the undead plague. Yet a rotting, fallen sorcerer remains in their consecrated soil.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_scarlet-monastery-graveyard-2d8c2bd207f8b1e42fb9/1-0000.mp3", duration = 65.9853061, start = 0},
+    {file = "Audio/Transport/full_subzone_scarlet-monastery-graveyard-80112843ddbfb7c9cad6/1-0000.mp3", duration = 63.9216327, start = 0},
   },
 }
 P.transport["subzone:scarlet-monastery-library"] = {
@@ -2262,7 +2262,7 @@ P.transport["subzone:scarlet-monastery-library"] = {
   fullHash = "ed2669",
   text = "Scarlet Monastery Library. In Tirisfal Glades, scholars and mages seek Lordaeron's old religious and arcane records in the Scarlet Monastery Library. Crusade zealots and battle hounds patrol its halls. Before the Third War, Lordaeron's priesthood came to the monastery to study. Its eastern cloisters held religious writings, histories, and arcane treatises. Then the Scarlet Crusade fortified the monastery against the Scourge. They kept the archives and armed the quiet halls.\n\nNow beastmasters send tracking hounds through the courtyards, while battle-mages patrol the shelves. They guard the Compendium of the Fallen and ancient Titan research from outsiders. Houndmaster Loksey guards the Huntsman's Cloister with trained hounds. They sniff out anyone seeking passage to the inner chambers. Beyond the Gallery of Treasures, Arcanist Doan watches over the Athenaeum.\n\nA formidable mage, Doan wields devastating fire and protective sorcery. Doan studies alone and fiercely defends the Crusade's hoarded knowledge from anyone who enters the heart of the complex.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_scarlet-monastery-library-63a82404b32cf1d500d6/1-0000.mp3", duration = 66.2726531, start = 0},
+    {file = "Audio/Transport/full_subzone_scarlet-monastery-library-a72a5e89f540d1febe65/1-0000.mp3", duration = 61.44, start = 0},
   },
 }
 P.transport["subzone:scholomance"] = {
@@ -2278,7 +2278,7 @@ P.transport["subzone:scholomance-classic"] = {
   fullHash = "72aa04",
   text = "Scholomance (Classic). In the Western Plaguelands, Scholomance trains mortal spellcasters in the Scourge's arts. The academy lies beneath Caer Darrow, hidden in the crypts of the island fortress. Before the Third War laid Lordaeron waste, the rogue archmage Kel'Thuzad sought recruits for his Cult of the Damned. The wealthy Barov family ruled Caer Darrow and became willing benefactors. They traded their lands and crypts for promised immortality. The cult instead slaughtered them and raised them as monstrous undead.\n\nBeneath the ruined fortress, the cult remade the ancient Arathorian catacombs into a school for the dark arts. Mortal acolytes study plaguecraft, soul binding, and flesh shaping beyond watchful eyes. There, they hone the foul magic that shattered Lordaeron. Kel'Thuzad now directs Scourge operations from above, but Scholomance remains active. The eternal lich Ras Frostwhisper watches over the complex in the Scourge's name. The mortal necromancer Darkmaster Gandling leads the school and tutors ambitious sorcerers through horrific experiments.\n\nStudents who show weakness are cast into the catacombs. In the lower vaults, the voracious wight Ravenian lurks, ready to feed on them.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_scholomance-classic-dc8d047e0c295ac19e89/1-0000.mp3", duration = 74.1093878, start = 0},
+    {file = "Audio/Transport/full_subzone_scholomance-classic-af9bfe297f8b5e878e42/1-0000.mp3", duration = 72.8032653, start = 0},
   },
 }
 P.transport["subzone:sea-of-cinders"] = {
@@ -2478,7 +2478,7 @@ P.transport["subzone:southpoint-tower"] = {
   fullHash = "88c82f",
   text = "Southpoint Tower. Forsaken scouts watch the Alliance from Southpoint Tower, near Hillsbrad's western edge. The ruined Lordaeron post overlooks the road into Silverpine Forest. Southpoint Tower overlooks the highway between Silverpine Forest and Hillsbrad Foothills. The Kingdom of Lordaeron built it to guard the way between the eastern farmlands and the western woods. After the Third War and the Scourge's destruction of the kingdom, the stonework fell into ruin. Now the tower is roofless and crumbling, a remnant of human rule in fractured lands. Forsaken agents watch Alliance patrols from the ruined tower. Deathstalker Lesh is stationed there, watching nearby human settlements in Hillsbrad Fields and travelers on the main road. Though its walls have fallen, the tower's vantage remains valuable. So near hostile territory, this lonely post often becomes a flashpoint for skirmishes.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_southpoint-tower-ca6a3364e914d12e0f2b/1-0000.mp3", duration = 55.6408163, start = 0},
+    {file = "Audio/Transport/full_subzone_southpoint-tower-30a3376798af7e489a5e/1-0000.mp3", duration = 51.2, start = 0},
   },
 }
 P.transport["subzone:southridge-beach"] = {
@@ -2494,7 +2494,7 @@ P.transport["subzone:southshore-town-hall"] = {
   fullHash = "a5048e",
   text = "Southshore Town Hall. At Southshore Town Hall, Magistrate Henry Maleb directs the town’s affairs and defenses. It is one of Lordaeron’s last centers of civil authority as the Alliance struggles to hold ground in the plagued north. Southshore Town Hall keeps human rule alive amid Lordaeron’s ruin. Magistrate Henry Maleb governs from his office and works with officials such as Kundric Zanden to secure supplies and keep order. Undead press from nearby lands, Syndicate rogues threaten the region, and fierce skirmishes mark Hillsbrad’s border. From the hall, town leaders guide Southshore’s fight to survive.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_southshore-town-hall-bf68a795ffd83a993f12/1-0000.mp3", duration = 36.1795918, start = 0},
+    {file = "Audio/Transport/full_subzone_southshore-town-hall-c3bfdd3c08c5c0e90b26/1-0000.mp3", duration = 35.4481633, start = 0},
   },
 }
 P.transport["subzone:southwind-village"] = {
@@ -2598,7 +2598,7 @@ P.transport["subzone:stratholme"] = {
   fullHash = "d2ed82",
   text = "Stratholme. Scourge forces hold Stratholme, and its ruins still burn. Once the jewel of the Eastweald and Lordaeron’s second greatest city, it became the place where Prince Arthas Menethil ordered the culling of citizens who had eaten grain tainted by the Plague of Undeath. Stratholme rose with the Arathi expansion into the Eastweald centuries ago. It became Lordaeron’s second-largest settlement, famed for holy shrines and sacred water that resisted dark sorcery. Before the Second War, Archbishop Alonsus Faol gathered at the city’s chapel and founded the Order of the Knights of the Silver Hand.\n\nAmong its first legends was Uther the Lightbringer. During the Second War, Stratholme served the Alliance of Lordaeron as a vital port, supply hub, and northern oil refinery. The Old Horde assaulted it, but victory brought the city’s rebuilding. The Cult of the Damned carried infected grain from Andorhal into Stratholme’s markets. Unaware of the taint, thousands ate the flour. Prince Arthas arrived with Uther and Jaina Proudmoore, but the infection had spread too far to cure.\n\nHe judged slaughter the only way to deny Mal'Ganis an entire army and ordered every citizen killed. The atrocity drove Uther and Jaina away and began the prince’s descent into madness. His forces set the city ablaze. Then the Scourge took its smoking ruins for their regional capital.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stratholme-34bc491151f5b741276b/1-0000.mp3", duration = 84.715102, start = 0},
+    {file = "Audio/Transport/full_subzone_stratholme-9182d243c595816b3aec/1-0000.mp3", duration = 80.2220408, start = 0},
   },
 }
 P.transport["subzone:stratholme-classic"] = {
@@ -2606,7 +2606,7 @@ P.transport["subzone:stratholme-classic"] = {
   fullHash = "fbcb6e",
   text = "Stratholme (Classic). Scourge and Scarlet Crusade forces fight through Stratholme's burning ruins. Once northern Lordaeron's jewel and the birthplace of the Silver Hand, the city now lies divided between them. Stratholme once held great power in northern Lordaeron and gave birth to the Knights of the Silver Hand. During the Third War, Prince Arthas purged the city after infected grain carried plague through its gates. He slaughtered his own subjects. The city smoldered in ruins, then the Scourge claimed it.\n\nKel'Thuzad holds overarching authority, while Baron Rivendare commands the undead forces in the field. From Stratholme, they direct Scourge power across the Plaguelands. Two vicious factions wage an unending war through Stratholme. In the west, the fanatical Scarlet Crusade holds Crusaders' Square and the Scarlet Bastion under Grand Crusader Saidan Dathrohan. In the east, Scourge slaughterhouses and necropolises stand behind towering ziggurats. The death knight Baron Rivendare guards them.\n\nBurning tenements and restless spirits surround anyone who enters. Across the city, both sides trade blows.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stratholme-classic-8dda45ce355eab30d86a/1-0000.mp3", duration = 69.2244898, start = 0},
+    {file = "Audio/Transport/full_subzone_stratholme-classic-d8f2a73bacf11bad0974/1-0000.mp3", duration = 67.0302041, start = 0},
   },
 }
 P.transport["subzone:stratholme-main-gate"] = {
@@ -2614,7 +2614,7 @@ P.transport["subzone:stratholme-main-gate"] = {
   fullHash = "b86c18",
   text = "Stratholme Main Gate. Ruined avenues beyond Stratholme Main Gate lead toward King’s Square and the Scarlet Bastion. The gate stands in the northwestern Eastern Plaguelands, at the entrance to Lordaeron’s northern metropolis. Stratholme was once northern Lordaeron’s pride and the birthplace of the Order of the Silver Hand. Its great arched gates now mark the edge of a nightmare begun during the Third War. Here, Prince Arthas turned against his mentor, Uther the Lightbringer. He purged his own citizens before the Plague of Undeath could claim them. The city has burned ever since and is now the region’s chief Scourge stronghold. Beyond the main gate, the road passes through the ruins of King’s Square and Market Row toward the fortified Scarlet Bastion. Scarlet Crusade zealots entered here to reclaim the city and purge the dead, then made an encampment in the ruins. Overwhelming undead surround them. The crusaders fight an attrition war against the dark forces directing Stratholme’s defense, and they cannot win.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stratholme-main-gate-888e39c8368d288353c2/1-0000.mp3", duration = 60.3428571, start = 0},
+    {file = "Audio/Transport/full_subzone_stratholme-main-gate-597e4a1d3702e8563236/1-0000.mp3", duration = 59.115102, start = 0},
   },
 }
 P.transport["subzone:stratholme-service-entrance"] = {
@@ -2822,7 +2822,7 @@ P.transport["subzone:thoradin-s-wall"] = {
   fullHash = "5cba78",
   text = "Thoradin's Wall. At Thoradin's Wall, broken stone divides the Arathi Highlands from the Hillsbrad Foothills. King Thoradin ordered it built long ago to shield early humanity from Amani troll incursions. Thoradin's Wall once guarded Strom's western frontier. Nearly three thousand years ago, King Thoradin raised it across the valley corridor to shield humanity's young settlements from Amani forest troll raids. Strom stood at the heart of Arathor, the first unified human empire. The wall protected its heartland, giving humanity room to survive and challenge troll supremacy in the north. Thoradin's Wall now lies in severe disrepair. Great breaches split its ramparts, worn down by weather, warfare, and abandonment. Arathor splintered into rival kingdoms, and neighboring Lordaeron later fell to the Scourge. No central realm remains to maintain the masonry. Travelers and roaming bandits pass freely through the broken archways between Hillsbrad and the untamed Arathi Highlands.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_thoradin-s-wall-a65313ccad83903b3f96/1-0000.mp3", duration = 58.8016327, start = 0},
+    {file = "Audio/Transport/full_subzone_thoradin-s-wall-c24b3a576ecdb90e6a98/1-0000.mp3", duration = 58.5665306, start = 0},
   },
 }
 P.transport["subzone:thorium-point"] = {
@@ -2942,7 +2942,7 @@ P.transport["subzone:tyr-s-hand"] = {
   fullHash = "08d745",
   text = "Tyr's Hand. In the southeastern hills of the Eastern Plaguelands, Scarlet Crusaders hold Tyr's Hand as their chief stronghold and supply hub. The city was once sacred to the Church of the Holy Light, and its walls remain heavily fortified. Tyr's Hand rises from the old Eastweald, once a green land in Lordaeron, as one of humanity's most ancient sacred sites. Shrines and holy buildings stand across its grounds, giving it the name “city of churches.” The land around it has rotted under blight, yet Tyr's Hand remains remarkably preserved behind thick walls and formidable stonework. The Scarlet Basilica towers above the city. Lord Valdelmar kept Tyr's Hand standing through military vigilance and faith as the Scourge swept through Lordaeron during the Third War. After the Knights of the Silver Hand split into rival factions, Tyr's Hand joined the Crimson dawn of the Scarlet Crusade. High General Brigitte Abbendis and Valdelmar lead the city from its impenetrable base.\n\nElite crusaders train in the abbey. Heavily guarded couriers keep contact with Scarlet forces holding Stratholme, while the city ruthlessly rebuffs outsiders at its gates.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_tyr-s-hand-bea5e8992ea889d5e410/1-0000.mp3", duration = 69.9297959, start = 0},
+    {file = "Audio/Transport/full_subzone_tyr-s-hand-a4b6c1b2eb8b5d5053c5/1-0000.mp3", duration = 68.7020408, start = 0},
   },
 }
 P.transport["subzone:tyr-s-hand-abbey"] = {
@@ -2982,7 +2982,7 @@ P.transport["subzone:undercroft"] = {
   fullHash = "044dea",
   text = "Undercroft. In the southwestern hills of the Eastern Plaguelands, undead trolls have taken an old Lordaeron tomb. Zaeldarr the Outcast commands them, and a false grave in the catacombs bears Tirion Fordring’s name. You find the Undercroft carved into the bluffs southwest of Corin's Crossing. Lordaeron built it for its honored dead, but the kingdom's fall left the tomb open to undead trolls. Zaeldarr the Outcast leads them from its underground halls. They stalk the Plaguelands and raid the grave pits at Light's Hope Chapel, taking newly buried corpses for their grim practices.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_undercroft-adabf897d8a922c5fabb/1-0000.mp3", duration = 35.1869388, start = 0},
+    {file = "Audio/Transport/full_subzone_undercroft-02df73b4623c588b10e3/1-0000.mp3", duration = 33.8546939, start = 0},
   },
 }
 P.transport["subzone:uplands"] = {
@@ -3214,7 +3214,7 @@ P.transport["subzone:writhing-haunt"] = {
   fullHash = "eb1803",
   text = "Writhing Haunt. East of the Ruins of Andorhal, plague vapors drift from the Writhing Haunt across the Western Plaguelands. The Scourge seized this farmstead, once fertile land that fed Lordaeron, and turned it into a source of disease. During the Third War, the Writhing Haunt fell swiftly, like many human homesteads around Andorhal. Its fields now yield rot instead of crops. The Scourge planted an enormous plague cauldron in the tilled earth, where it continually vents diseased vapors. Rotting ghouls, freezing ghouls, and fetid zombies wander the overgrown furrows. Cauldron Lord Razarch commands them and guards the machinery. The cauldron's choking miasma has not driven everyone away. Mulgris Deepriver, a tauren druid, lingers inside one of the dilapidated farmhouses. He came to heal nature's wounds, but the plague has stricken him too. Unable to cure the suffering beasts, he asks capable travelers to grant the diseased wolves and other wildlife a swift, merciful release.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_writhing-haunt-e58be80b6a0a5d6219f4/1-0000.mp3", duration = 63.3208163, start = 0},
+    {file = "Audio/Transport/full_subzone_writhing-haunt-c4f143d5c440e83ba00d/1-0000.mp3", duration = 61.44, start = 0},
   },
 }
 P.transport["subzone:wyrmbog"] = {
@@ -3262,7 +3262,7 @@ P.transport["subzone:zul-mashar"] = {
   fullHash = "a688a6",
   text = "Zul'Mashar. In northeastern Eastern Plaguelands, the Mossflayers cling to Zul'Mashar and its ruins. Their ancient capital was broken by wars with human kingdoms, then ravaged by the Plague of Undeath. Before the Scourge crossed northern Lordaeron, Zul'Mashar was the seat of power for the Mossflayer forest trolls. Years of border skirmishes with Lordaeron's humans broke their lands into fragments. Then the Plague of Undeath swept through the region, striking trolls and humans alike.\n\nMazra'Alor's great stepped ziggurat still rises above the ruins, though little else remains of the capital's former glory. Warlord Thresh'jin and Zul'Brin Warpbranch command the surviving trolls, who cling to their ancient home. Many do not see the Scourge beginning to turn their own kin into rotting monstrosities.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_zul-mashar-8bb9490ed579f2285005/1-0000.mp3", duration = 49.2408163, start = 0},
+    {file = "Audio/Transport/full_subzone_zul-mashar-ed11c82ba4a520515d58/1-0000.mp3", duration = 45.4530612, start = 0},
   },
 }
 P.transport["zone:alteracvalley"] = {

@@ -1,0 +1,62 @@
+{
+ "key": "quest:94212",
+ "type": "quest",
+ "name": "Craftsman's Writ: Elixir of Wisdom",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94212
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable Craftsman's Writ requests an Elixir of Wisdom and gives details for delivery and payment. The writ is needed to complete the exchange.",
+ "sections": [
+  {
+   "title": "A Written Request",
+   "body": "A faded note called Craftsman's Writ: Elixir of Wisdom asks you to bring one Elixir of Wisdom. It includes a delivery location and payment details, and the writ can pass from hand to hand. You need to hold the writ when you complete the exchange.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "elixir writ",
+    "what item is requested"
+   ],
+   "answer": "It requests one Elixir of Wisdom."
+  },
+  {
+   "q": "Can I pass the writ to someone else?",
+   "aliases": [
+    "is the writ transferable",
+    "can someone else carry it"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  },
+  {
+   "q": "What do I need to complete the exchange?",
+   "aliases": [
+    "what do I need for delivery",
+    "how to complete the writ"
+   ],
+   "answer": "You need the requested item and the writ in your possession. The note gives the delivery location and payment details."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "delivery",
+  "elixir of wisdom",
+  "payment",
+  "transferable",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Elixir of Wisdom"
+ ]
+}

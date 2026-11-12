@@ -14,7 +14,7 @@ P.transport["npc:apothecary-johaan"] = {
   fullHash = "b9e863",
   text = "Apothecary Johaan. In Brill, Apothecary Johaan works on a plague for the Forsaken. The Royal Apothecary Society and Lady Sylvanas have set him to lethal experiments on local plants and animals. In Brill, Apothecary Johaan works openly for the newly formed Royal Apothecary Society. Like his colleagues across Lordaeron, he follows direct orders to create biological and alchemical weapons. The Forsaken hope these weapons will secure their fragile future against the living and the Scourge alike.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_apothecary-johaan-4908c3185db41ddf65e3/1-0000.mp3", duration = 30.1453061, start = 0},
+    {file = "Audio/Transport/full_npc_apothecary-johaan-b355bb9ae150847cb4dc/1-0000.mp3", duration = 29.5444898, start = 0},
   },
 }
 P.transport["npc:apothecary-renferrel"] = {
@@ -22,7 +22,7 @@ P.transport["npc:apothecary-renferrel"] = {
   fullHash = "863d36",
   text = "Apothecary Renferrel. At the Sepulcher, Apothecary Renferrel studies Silverpine’s corrupted wildlife and undead threats. He advances Forsaken alchemy, and travelers bring him volatile reagents and help investigate Scourge remnants. At the Sepulcher, Renferrel leads field research for the Royal Apothecary Society in Silverpine Forest. The society’s grand laboratories and high leadership are in Undercity, while he works in the field. He gathers native biological specimens, refines potent concoctions, and studies the grim ecology along Lordaeron’s western border.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_apothecary-renferrel-3c65dd924701c0dafcd8/1-0000.mp3", duration = 33.2277551, start = 0},
+    {file = "Audio/Transport/full_npc_apothecary-renferrel-aac1c5f5030001f3f94f/1-0000.mp3", duration = 32.8881633, start = 0},
   },
 }
 P.transport["npc:aramis-hammerhand"] = {
@@ -54,7 +54,7 @@ P.transport["npc:bethor-iceshard"] = {
   fullHash = "5c0281",
   text = "Bethor Iceshard. In the Undercity, Bethor Iceshard directs the Magic Quarter's arcane and shadow practitioners. He holds authority in Sylvanas's realm, though old friendships still mark his past. From the Temple of the Damned in the Undercity, Bethor Iceshard directs arcane and shadow practitioners. His keen mind and icy resolve earn respect and fear. His political and magical authority reaches magistrates across Lordaeron. He sends Forsaken agents after valuable grimoires and arcane disturbances, and against rival powers that threaten the Undercity's rule.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_bethor-iceshard-e82914e1aab916630ba4/1-0000.mp3", duration = 32.9404082, start = 0},
+    {file = "Audio/Transport/full_npc_bethor-iceshard-6c3740d86cec6cb95759/1-0000.mp3", duration = 31.6865306, start = 0},
   },
 }
 P.transport["npc:brewmaster-drohn"] = {
@@ -438,7 +438,7 @@ P.transport["npc:varimathras"] = {
   fullHash = "fd95ea",
   text = "Varimathras. In the Royal Quarter, Varimathras advises Lady Sylvanas Windrunner and commands her forces. After defeat in Lordaeron's civil war, he pledged himself to the Banshee Queen and now serves at her right hand. Before the Third War, Kil'jaeden sent Varimathras and his fellow dreadlords to guard the Lich King. They were to ensure Ner'zhul's spirit served the Legion's plans. With his brothers Detheroc and Balnazzar, Varimathras oversaw the Scourge in Lordaeron while Archimonde invaded Kalimdor.\n\nThe Legion fell at Mount Hyjal, but the three dreadlords stayed entrenched in the Capital City's ruins. They learned of their master's defeat only when Prince Arthas returned and drove them into hiding. As the Lich King's hold over his undead weakened, Varimathras tried to make the newly freed banshee Sylvanas Windrunner serve the dreadlords' new regime. Sylvanas refused and rallied liberated undead to destroy his outpost. Facing execution, Varimathras begged for his life and offered tactical secrets, including knowledge of his brothers' fortifications. Sylvanas spared him and bound him to her service as a weapon against his kin.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_varimathras-936c077d037dd4dc83ab/1-0000.mp3", duration = 70.3477551, start = 0},
+    {file = "Audio/Transport/full_npc_varimathras-f8b2888425b7a327a4ca/1-0000.mp3", duration = 69.12, start = 0},
   },
 }
 P.transport["npc:vol-jin"] = {
@@ -494,7 +494,7 @@ P.transport["subzone:apothecarium"] = {
   fullHash = "7c44c2",
   text = "Apothecarium. In the Undercity’s southwest quarter, the Apothecarium drives the Royal Apothecary Society’s work. Under Master Apothecary Faranell, Forsaken alchemists pursue plagues, toxins, and engineered horrors for Lady Sylvanas’s campaign against the living and the Scourge. Vats, dissection tables, and chemical fumes fill the Apothecarium’s southwestern terrace. Master Apothecary Faranell leads the Royal Apothecary Society’s work there, studying mortality and rot. Alchemists and surgeons experiment with tissue grafts and vivisection, then assemble mighty abominations. Lady Sylvanas Windrunner has charged them with making a plague to eradicate both the Scourge and the lingering human presence across Lordaeron. Alchemists and herbalists come to this quarter from across the Horde in the Eastern Kingdoms. Initiates and masters gather beside toxic canals to distill concoctions and study botanical blights. They also seek counsel from master practitioners.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_apothecarium-bc23c10046fc607bfeb0/1-0000.mp3", duration = 57.7567347, start = 0},
+    {file = "Audio/Transport/full_subzone_apothecarium-01a05f328eda22043d81/1-0000.mp3", duration = 56.5812245, start = 0},
   },
 }
 P.transport["subzone:bael-dun-digsite"] = {
@@ -526,7 +526,7 @@ P.transport["subzone:balnir-farmstead"] = {
   fullHash = "3e7fe2",
   text = "Balnir Farmstead. In eastern Tirisfal, Balnir Farmstead lies ruined just behind the Bulwark. Once worked by the Balnir family, the estate now draws Scourge slipping past the defenses. Snapdragons still bloom in the garden where the Balnir family worked their homestead for generations. During the Third War, the Scourge swept through Lordaeron and overran the farm. Its people were lost, and the buildings now rot among eastern Tirisfal’s hills. Mindless Scourge slip past the Bulwark and gather among the farmstead’s ruins. Forsaken deathguards watch the grounds warily. Meanwhile, Undercity magi gather surviving snapdragons from the garden to learn how deeply plague corruption has reached into the soil.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_balnir-farmstead-605ebac07065f44bec91/1-0000.mp3", duration = 41.9004082, start = 0},
+    {file = "Audio/Transport/full_subzone_balnir-farmstead-248ce1b027dd95492020/1-0000.mp3", duration = 42.3183673, start = 0},
   },
 }
 P.transport["subzone:bandarion-keep"] = {
@@ -598,7 +598,7 @@ P.transport["subzone:brightwater-lake"] = {
   fullHash = "4648d2",
   text = "Brightwater Lake. Across Tirisfal's lowlands, Brightwater Lake lies cold and dark northeast of Brill. Once a retreat for Lordaeron, it now surrounds an island where a lone necromancer conducts forbidden research. Brightwater Lake spreads across northern Tirisfal between Brill and the Scarlet Watch Post. Under the Kingdom of Lordaeron, its shores offered a quiet country haven. That peace is gone. The Plaguelands lie to the east, and grey skies hang over the lake's murky, chilled waters. Withered trees line the shore, where murlocs and hostile undead roam.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_brightwater-lake-c11855c6cd28b3df0510/1-0000.mp3", duration = 33.6457143, start = 0},
+    {file = "Audio/Transport/full_subzone_brightwater-lake-2203e83cb8b130473a75/1-0000.mp3", duration = 33.5412245, start = 0},
   },
 }
 P.transport["subzone:brill"] = {
@@ -606,7 +606,7 @@ P.transport["subzone:brill"] = {
   fullHash = "194431",
   text = "Brill. In Brill, Forsaken gather north of the Ruins of Lordaeron. Newly awakened undead travel here from Deathknell, joining a rebuilt human town that now anchors Forsaken rule and arms in Tirisfal Glades. Before the Third War, Brill grew under nobles such as the Barov and Agamand families. Then Kel'Thuzad chose the region for the Cult of the Damned's first experiments with the Plague of Undeath. The blight swept through the people so swiftly that the local militia fled. A vast graveyard remained for the dead.\n\nNow Magistrate Sevren leads the Forsaken who have rebuilt Brill. Weathered Lordaeron buildings line its streets. The town coordinates defenses against Scarlet Crusade attacks, Scourge remnants, and native beasts changed by necromantic decay. Brill links Tirisfal Glades to the wider Horde. Goblins operate the zeppelin tower, carrying travelers south toward Durotar and deep into Stranglethorn Vale. Gallows' End Tavern offers shelter. Its cellar also holds captured Scarlet zealots for interrogation and apothecarial testing.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_brill-252e3416b13dc8924d57/1-0000.mp3", duration = 65.6979592, start = 0},
+    {file = "Audio/Transport/full_subzone_brill-dae337cedef99a17b42f/1-0000.mp3", duration = 63.5820408, start = 0},
   },
 }
 P.transport["subzone:brill-town-hall"] = {
@@ -614,7 +614,7 @@ P.transport["subzone:brill-town-hall"] = {
   fullHash = "957bc7",
   text = "Brill Town Hall. In Brill Town Hall, the Forsaken govern Brill and plan Tirisfal's defense. Its doors stand in Lordaeron's shattered heart. Forsaken rule continues from Brill Town Hall while much of Lordaeron lies in ruins. Magistrate Sevren directs town affairs from his podium and gives orders to Forsaken travelers. Few known town halls remain active under Forsaken control. Beyond the Defiler's Den in the Arathi Highlands, Brill's hall is among them. It keeps Lordaeron's old civic order alive beneath undead rule.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_brill-town-hall-0117ee0e03a40b2d491c/1-0000.mp3", duration = 32.3918367, start = 0},
+    {file = "Audio/Transport/full_subzone_brill-town-hall-6c2de4d377994a854e05/1-0000.mp3", duration = 30.7461224, start = 0},
   },
 }
 P.transport["subzone:burning-blade-coven"] = {
@@ -638,7 +638,7 @@ P.transport["subzone:canals-undercity"] = {
   fullHash = "6dbc62",
   text = "Canals (Undercity). In the Undercity, green slime fills the Canals between its quarters. The murky channels carry waste and mark the Forsaken's underground stronghold. Beneath Lordaeron's ruins, green sludge fills the Canals. The stone channels circle the Undercity and divide its quarters. They carry industrial refuse, chemical runoff, and alchemical waste instead of flowing water. Faint light shines through the liquid, and foul vapors rise from it. Water Walking cannot carry anyone across. Still, desperate anglers sometimes pull strange, tainted curiosities from the muck.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_canals-undercity-04ff44f39f45a37584a8/1-0000.mp3", duration = 35.4742857, start = 0},
+    {file = "Audio/Transport/full_subzone_canals-undercity-2d23f597b8dc0666914f/1-0000.mp3", duration = 32.4179592, start = 0},
   },
 }
 P.transport["subzone:cavern-of-mists"] = {
@@ -702,7 +702,7 @@ P.transport["subzone:crusader-s-outpost"] = {
   fullHash = "ba505f",
   text = "Crusader's Outpost. Scarlet Crusaders hold a fortified scout tower in western Tirisfal Glades, beside Solliden Farmstead. It is their westernmost position in all of Lordaeron, far from their main strongholds and deep in hostile Forsaken territory. A stone tower rises in the western Tirisfal hills, just north of Deathknell. The Scarlet garrison marks the farthest reach of the Crusade’s power in Lordaeron. Its soldiers stand with the surviving human laborers at Solliden Farmstead against the encroaching undead. Lookouts watch the nearby pumpkin fields and forest paths for Scourge fiends and patrols from the Undercity. The western frontier leaves the crusaders in peril. Their main strongholds lie at the Scarlet Monastery and far to the east at Tyr’s Hand, so swift reinforcements are unlikely if an attack breaches the palisade. Forsaken forces are massing across Tirisfal. If they lay siege, the garrison must hold the tower alone or face annihilation before help can arrive.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_crusader-s-outpost-09b9109d717505230ae3/1-0000.mp3", duration = 59.3502041, start = 0},
+    {file = "Audio/Transport/full_subzone_crusader-s-outpost-1fa9fb4ac7ac93ae41e1/1-0000.mp3", duration = 57.9395918, start = 0},
   },
 }
 P.transport["subzone:darkspear-strand"] = {
@@ -750,7 +750,7 @@ P.transport["subzone:deep-elem-mine"] = {
   fullHash = "09e55d",
   text = "Deep Elem Mine. In central Silverpine Forest, worgen hold Deep Elem Mine and its tunnels. Once worked for ore, the mine fell when Archmage Arugal's magic swept through the region and changed its miners. Deep Elem Mine once supplied ore to the living people of Lordaeron. Then Archmage Arugal unleashed his lupine curse across Silverpine Forest, and it spread through the tunnels. The laborers succumbed and became vicious worgen. They left their pickaxes behind and claimed the cavern as a lair.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_deep-elem-mine-948c84080a82520e7991/1-0000.mp3", duration = 29.2571429, start = 0},
+    {file = "Audio/Transport/full_subzone_deep-elem-mine-0c06358372a73a250059/1-0000.mp3", duration = 28.8391837, start = 0},
   },
 }
 P.transport["subzone:drag"] = {
@@ -846,7 +846,7 @@ P.transport["subzone:fenris-isle"] = {
   fullHash = "8e647d",
   text = "Fenris Isle. On Fenris Isle, Rot Hide gnolls and a rogue Scourge necromancer hold a fortress in Lordamere Lake, off Silverpine Forest. Fenris Keep once guarded Lordaeron’s military outpost on Fenris Isle. When the Scourge swept across northern Lordaeron, the garrison was slaughtered or fled into exile. The dead claimed the island, and Rot Hide gnolls later made it their stronghold. Their crude empire now spreads across the lake’s shores. The Forsaken of Silverpine Forest watch closely, fearing the island’s entrenched inhabitants threaten their northern lands.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_fenris-isle-073a81059c630df4caf7/1-0000.mp3", duration = 34.4555102, start = 0},
+    {file = "Audio/Transport/full_subzone_fenris-isle-da0154fc190cbef6f960/1-0000.mp3", duration = 34.56, start = 0},
   },
 }
 P.transport["subzone:fenris-keep"] = {
@@ -950,7 +950,7 @@ P.transport["subzone:gunther-s-retreat"] = {
   fullHash = "f3f682",
   text = "Gunther's Retreat. On an island in Brightwater Lake, Gunther's Retreat shelters a renegade necromancer. Gunther Arcanus broke free of the Scourge by sheer will, yet trusts no outsider and keeps undead minions near his camp. Mist hangs over Brightwater Lake, where undead sentinels guard Gunther Arcanus's lonely camp. Raised in undeath, Gunther mastered the arcane arts and tore his soul from the Lich King's grip without help.\n\nHe mistrusts everyone and believes the undead wandering Lordaeron remain puppets of the Scourge. So Gunther withdrew to the island to practice his craft in peace. His zombie sentinels attack anyone who crosses the water.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_gunther-s-retreat-2e7189c2ab209625090e/1-0000.mp3", duration = 39.1314286, start = 0},
+    {file = "Audio/Transport/full_subzone_gunther-s-retreat-ef5157ee160786030e69/1-0000.mp3", duration = 37.5379592, start = 0},
   },
 }
 P.transport["subzone:hall-of-legends"] = {
@@ -1046,7 +1046,7 @@ P.transport["subzone:malden-s-orchard"] = {
   fullHash = "396c8d",
   text = "Malden's Orchard. Black worgs prowl Malden's Orchard in northern Silverpine Forest. Malden, the human farmer who gave it his name, fled during the Scourge invasion of Lordaeron. Its dark evergreen trees grow wild, and a Forsaken scout was cut off from his unit in the crumbling cottage. Malden's Orchard once sent fresh fruit to Lordaeron's towns. Malden, a human farmer, tended the land before the Third War. When the Scourge swept through the kingdom, he abandoned the farm and fled the plague.\n\nSince then, Silverpine's dark mists have closed over the orchard. Its evergreen trees go unpruned, and fruit rots on blighted boughs. Wild predators have claimed the plot.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_malden-s-orchard-7283b8051c9f943e72a2/1-0000.mp3", duration = 41.9787755, start = 0},
+    {file = "Audio/Transport/full_subzone_malden-s-orchard-64d0b8faee1fdc7c3f16/1-0000.mp3", duration = 37.7730612, start = 0},
   },
 }
 P.transport["subzone:merchant-coast"] = {
@@ -1062,7 +1062,7 @@ P.transport["subzone:night-web-s-hollow"] = {
   fullHash = "b19e52",
   text = "Night Web's Hollow. In Tirisfal Glades, spiders swarm Night Web's Hollow, the abandoned gold mine northwest of Deathknell. Newly raised Forsaken enter its tunnels to cull the vermin and prove they are ready for combat. Northwest of Deathknell, Night Web's Hollow cuts into the hills. Humans once worked its gold mine before the plague swept through Lordaeron. After the kingdom fell, the shafts stood empty.\n\nNow webs cover the rock walls, and aggressive night web spiders fill the vale and tunnels. The Forsaken send their newly raised to kill young and adult spiders, hoping to regain access to the mine's gold.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_night-web-s-hollow-7e2eb4293aa04d676b59/1-0000.mp3", duration = 37.6685714, start = 0},
+    {file = "Audio/Transport/full_subzone_night-web-s-hollow-10379c453be89f4e6f10/1-0000.mp3", duration = 35.604898, start = 0},
   },
 }
 P.transport["subzone:nightmare-vale"] = {
@@ -1238,7 +1238,7 @@ P.transport["subzone:rogues-quarter"] = {
   fullHash = "96df37",
   text = "Rogues' Quarter. In the Undercity's southeastern wing, scouts, assassins, and underworld operatives gather in Rogues' Quarter. Its craftsmen support their covert work. Survivors skilled in stealth gather deep in the Undercity's southeastern wing. Many served the Kingdom of Lordaeron in life as thieves, cutpurses, or silent blades. In death, they use stealth, poisons, and misdirection to defend the fledgling nation from the Scourge and the Scarlet Crusade.\n\nHere, operatives sharpen daggers, brew toxins, and hone their clandestine skills. Specialized trades in Rogues' Quarter help travelers survive undercover. Artisans teach leatherworking and skinning, turning raw hides into light, silent armor. Tinkers work at engineering benches, while field medics and apothecaries teach first aid. Poison vendors nearby supply lethal reagents for covert work.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_rogues-quarter-b8e0665749a6389e38d0/1-0000.mp3", duration = 52.5844898, start = 0},
+    {file = "Audio/Transport/full_subzone_rogues-quarter-28c2786d43ca4b0b1c09/1-0000.mp3", duration = 52.9763265, start = 0},
   },
 }
 P.transport["subzone:rolling-plains"] = {
@@ -1286,7 +1286,7 @@ P.transport["subzone:sepulcher"] = {
   fullHash = "df597e",
   text = "Sepulcher. The Forsaken hold Sepulcher above Silverpine Forest’s western coast. Once a Lordaeron graveyard and crypt, it now gives the Horde a fortified refuge amid threats across the region. Sepulcher crowns the hills above Lordaeron’s western coast. Beside the western road, its old cemetery and stone crypt now belong to the Forsaken. Since the Third War, they have turned the grounds and ancient vault into a vital outpost.\n\nDanger presses from every side. Feral worgen stalk the south, Scourge remnants wander east, and Kirin Tor wizards watch from Ambermill. For travelers crossing Silverpine, Sepulcher offers shelter, supplies, and a place of command.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_sepulcher-e991fea0e0cc7d347284/1-0000.mp3", duration = 41.0383673, start = 0},
+    {file = "Audio/Transport/full_subzone_sepulcher-dee67d4a2253fd23a0e1/1-0000.mp3", duration = 37.4595918, start = 0},
   },
 }
 P.transport["subzone:sewers"] = {
@@ -1294,7 +1294,7 @@ P.transport["subzone:sewers"] = {
   fullHash = "997e34",
   text = "Sewers. In the hills west of Lordaeron's ruined palace, the Sewers open a second way into the Undercity. Bat handlers and travelers pass through the old stone channels to reach its inner rings. The Sewers once carried water away from Lordaeron's royal capital. Now Sylvanas Windrunner's Forsaken have folded those old channels into the Undercity's defenses. The passage opens west of the surface ruins near a Scarlet Watchtower in Tirisfal Glades, then slopes into the city.\n\nForsaken bat handlers carry riders through the cavernous passage to the Undercity's underground rings, clear of the slow cage lifts. Yet the route also skirts the fortified courtyards. Hostile infiltrators seek to exploit that weakness.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_sewers-cbb35b2b44b283b98c9f/1-0000.mp3", duration = 42.2661224, start = 0},
+    {file = "Audio/Transport/full_subzone_sewers-c973fd2877ca1774281a/1-0000.mp3", duration = 43.1281633, start = 0},
   },
 }
 P.transport["subzone:shadow-grave"] = {
@@ -1478,7 +1478,7 @@ P.transport["subzone:trade-quarter"] = {
   fullHash = "b0b4d5",
   text = "Trade Quarter. Trade Quarter draws the Undercity’s commerce and civic life beneath the Ruins of Lordaeron. Its bank, auction house, and other services serve the Forsaken capital, while corridors link it to the surrounding districts. You step from the lifts beneath the Ruins of Lordaeron into the Trade Quarter’s broad, circular halls. Canals of noxious runoff circle the central platform, crossed by bridges. The city’s coffers and bank rest there, while vendors, guild registrars, and auctioneers work along the terraces. At the inn, wooden caskets replace soft beds. Stone archways lead into the other districts, drawing the Undercity’s business through its center.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_trade-quarter-bdd84257e3a3df039dc0/1-0000.mp3", duration = 39.444898, start = 0},
+    {file = "Audio/Transport/full_subzone_trade-quarter-2c53c9e53df1339267f4/1-0000.mp3", duration = 38.0865306, start = 0},
   },
 }
 P.transport["subzone:valgan-s-field"] = {
@@ -1534,7 +1534,7 @@ P.transport["subzone:war-quarter"] = {
   fullHash = "6cc0c6",
   text = "War Quarter. In the War Quarter, Lordaeron's Forsaken hone weapons and shadow magic for their fledgling kingdom. Training halls, weapon masters, and heavy industry fill the Undercity's northwest. Rank-and-file guards and elite champions drill beneath the War Quarter's gloomy stone arches. There, ruthless iron warfare meets the chilling rites of shadow. The Altar of Darkness stands at its heart. Warrior and priest guilds make the War Quarter the heart of Undercity's wartime production. Blacksmiths and smelters ring the stone with their labor as weapon masters prepare blades and armor. Iron forged deep underground arms the forces defending Lordaeron's ruins from the Scourge and Scarlet Crusade.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_war-quarter-f40b63f07c76f56b0063/1-0000.mp3", duration = 44.4081633, start = 0},
+    {file = "Audio/Transport/full_subzone_war-quarter-ba8bfffc78c6a8310d01/1-0000.mp3", duration = 39.444898, start = 0},
   },
 }
 P.transport["subzone:whispering-forest"] = {

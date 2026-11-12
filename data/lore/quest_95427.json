@@ -1,0 +1,83 @@
+{
+ "key": "quest:95427",
+ "type": "quest",
+ "name": "Twilight No More!",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95427
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Clubtoe asks you to confront Chogg'Zac in the Sunnyglade cave. He blames them for his friends' deaths and their promise to make ogres strong.",
+ "sections": [
+  {
+   "title": "Clubtoe's Plea",
+   "body": "Clubtoe says his friends are dead and blames Chogg'Zac. They promised to make ogres strong, but he says they lied. So he asks you to help him turn against them in the Sunnyglade cave. He wants their heads, and he will smash no more rocks for them.",
+   "spoiler": 0
+  },
+  {
+   "title": "A New Name",
+   "body": "After Chogg'Zac die, Clubtoe cries out in triumph. He says he is done smashing rocks for tinies and done losing friends. He names himself Twilight no more.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Clubtoe?",
+   "aliases": [
+    "clubtoe",
+    "who's clubtoe",
+    "clubtoe backstory"
+   ],
+   "answer": "Clubtoe is an ogre who says Chogg'Zac promised to make ogres strong. He blames them for his friends' deaths."
+  },
+  {
+   "q": "Why does Clubtoe want Chogg'Zac dead?",
+   "aliases": [
+    "why kill chogg'zac",
+    "chogg zac reason",
+    "chogg'zac quest"
+   ],
+   "answer": "Clubtoe says Chogg'Zac lied about making ogres strong and blames them for his friends' deaths."
+  },
+  {
+   "q": "Where are Chogg'Zac?",
+   "aliases": [
+    "chogg'zac location",
+    "where chogg zac",
+    "sunnyglade cave"
+   ],
+   "answer": "Chogg'Zac are in the Sunnyglade cave."
+  },
+  {
+   "q": "What does Clubtoe want from you?",
+   "aliases": [
+    "clubtoe wants what",
+    "what to get for clubtoe",
+    "clubtoe heads"
+   ],
+   "answer": "Clubtoe asks you to kill Chogg'Zac and collect their heads."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cave",
+  "chogg'zac",
+  "clubtoe",
+  "friends",
+  "ogres",
+  "sunnyglade",
+  "twilight"
+ ],
+ "related": [
+  "subzone:sunnyglade",
+  "topic:skyborne"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Twilight No More!"
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "key": "quest:95602",
+ "type": "quest",
+ "name": "Sickening Lights",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95602
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Clubtoe asks you to smash the shining ritual circles beneath Sunnyglade. The light makes him sick, and he fears Chogg'Zac's anger if he acts alone.",
+ "sections": [
+  {
+   "title": "A Sickening Glow",
+   "body": "Clubtoe works in the caves beneath Sunnyglade, smashing rock for Chogg'Zac. He finds shining lights in the stone, and the others draw pictures with them. The glow makes Clubtoe feel sick, though he fears Chogg'Zac will punish him for breaking the pictures. You are asked to destroy the Twilight Ritual Circles, and Clubtoe hopes the light will trouble him no more.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to break the circles?",
+   "aliases": [
+    "who is Clubtoe",
+    "clubtoe quest",
+    "who wants lights smashed"
+   ],
+   "answer": "Clubtoe asks you to destroy the Twilight Ritual Circles beneath Sunnyglade."
+  },
+  {
+   "q": "Why does Clubtoe want the lights smashed?",
+   "aliases": [
+    "why smash lights",
+    "lights make Clubtoe sick",
+    "clubtoe hate light"
+   ],
+   "answer": "The light makes Clubtoe feel sick, and he wants to smash the shining pictures."
+  },
+  {
+   "q": "Who is Chogg'Zac?",
+   "aliases": [
+    "chogg zac",
+    "Clubtoe's boss",
+    "big boss"
+   ],
+   "answer": "Chogg'Zac is Clubtoe's boss, and Clubtoe fears he will be angry if the circles are broken."
+  },
+  {
+   "q": "What are the shiny pictures?",
+   "aliases": [
+    "shiny pictures",
+    "twilight circles",
+    "what are the lights"
+   ],
+   "answer": "They are Twilight Ritual Circles found throughout the caves beneath Sunnyglade. Clubtoe calls them shining pictures."
+  },
+  {
+   "q": "What does Clubtoe do in the caves?",
+   "aliases": [
+    "Clubtoe work",
+    "smashing rocks",
+    "what is Clubtoe doing"
+   ],
+   "answer": "Clubtoe smashes rock for Chogg'Zac and has found shining light in the stone."
+  },
+  {
+   "q": "Does Clubtoe feel better after the circles are smashed?",
+   "aliases": [
+    "Clubtoe completion",
+    "did smashing help",
+    "lights make him better"
+   ],
+   "answer": "After you smash the circles, Clubtoe says he already feels better."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "caves",
+  "chogg'zac",
+  "clubtoe",
+  "light",
+  "shiny pictures",
+  "sickening lights",
+  "sunnyglade",
+  "twilight ritual circles"
+ ],
+ "related": [
+  "subzone:sunnyglade",
+  "topic:light"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Sickening Lights"
+ ]
+}

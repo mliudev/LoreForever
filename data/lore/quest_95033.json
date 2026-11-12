@@ -1,0 +1,76 @@
+{
+ "key": "quest:95033",
+ "type": "quest",
+ "name": "On the Other Side",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95033
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Tan'jani sends you to Camp Mojache in Feralas to seek help from Witch Doctor Uzer'i. Though known for his magic, Uzer'i is also a hunter.",
+ "sections": [
+  {
+   "title": "Tan'jani's Friend",
+   "body": "Across Feralas, Camp Mojache is where you can find Witch Doctor Uzer'i, an old friend of Tan'jani. Tan'jani says Uzer'i works with magic, but is also a hunter. You are sent to speak with him, leaving the wide open plains behind.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sent me to Uzer'i?",
+   "aliases": [
+    "tan'jani sent me",
+    "who is ol tanjani"
+   ],
+   "answer": "Tan'jani sends you to Witch Doctor Uzer'i, an old friend."
+  },
+  {
+   "q": "Where can I find Uzer'i?",
+   "aliases": [
+    "uzer'i location",
+    "where is the witch doctor"
+   ],
+   "answer": "Witch Doctor Uzer'i is at Camp Mojache in Feralas."
+  },
+  {
+   "q": "Why am I being sent to Uzer'i?",
+   "aliases": [
+    "why talk to uzeri",
+    "what does tanjani want"
+   ],
+   "answer": "Tan'jani says Uzer'i is looking for help and asks you to speak with him."
+  },
+  {
+   "q": "What does Uzer'i do?",
+   "aliases": [
+    "uzeri job",
+    "witch doctor hunter"
+   ],
+   "answer": "Witch Doctor Uzer'i works with magic and is also a hunter."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "camp mojache",
+  "feralas",
+  "hunter",
+  "magic",
+  "on the other side",
+  "tan'jani",
+  "witch doctor uzer'i"
+ ],
+ "related": [
+  "npc:witch-doctor-uzer-i",
+  "subzone:camp-mojache",
+  "zone:feralas",
+  "topic:hunter"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: On the Other Side"
+ ]
+}

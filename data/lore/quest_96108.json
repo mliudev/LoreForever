@@ -1,0 +1,83 @@
+{
+ "key": "quest:96108",
+ "type": "quest",
+ "name": "Poison Tips",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96108
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Neza Bloodsnout wants Glade Viper venom from the pools south of Rog'mar. She plans to coat arrows with it, though the poison ruins the meat.",
+ "sections": [
+  {
+   "title": "A Deadly Coating",
+   "body": "Poison can make an arrow more potent, though it spoils the meat. Neza Bloodsnout at Rog'mar believes you can gather venom from the vipers by the pools to the south. Their venom is dangerous to handle, so care matters as you collect it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the viper venom?",
+   "aliases": [
+    "who asked for venom",
+    "Neza Bloodsnout venom",
+    "who is Neza"
+   ],
+   "answer": "Neza Bloodsnout at Rog'mar wants Glade Viper venom."
+  },
+  {
+   "q": "What is the venom for?",
+   "aliases": [
+    "why venom",
+    "poison arrows",
+    "what's it used for"
+   ],
+   "answer": "Neza plans to use the venom as a poison coating for arrows."
+  },
+  {
+   "q": "Where does the venom come from?",
+   "aliases": [
+    "where are the vipers",
+    "viper venom location",
+    "pools vipers"
+   ],
+   "answer": "The Glade Vipers by the pools to the south produce the venom."
+  },
+  {
+   "q": "Why coat arrows with poison?",
+   "aliases": [
+    "why poison arrows",
+    "poison tips why",
+    "make arrows stronger"
+   ],
+   "answer": "Poison coatings make arrows more potent against prey, but ruin the meat."
+  },
+  {
+   "q": "Is Glade Viper venom dangerous to gather?",
+   "aliases": [
+    "can venom hurt me",
+    "viper poison danger",
+    "venom warning"
+   ],
+   "answer": "Yes. Neza warns that you could succumb to the vipers' venom while gathering it."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "glade viper",
+  "neza bloodsnout",
+  "poison arrows",
+  "poison tips",
+  "rog'mar",
+  "viper venom"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Poison Tips"
+ ]
+}

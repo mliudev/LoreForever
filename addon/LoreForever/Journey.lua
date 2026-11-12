@@ -262,20 +262,18 @@ local function add(kind, fields, made)
 end
 Journey.Add = add
 
--- Whether the quest just turned in (id) was carried a long time (Willo's big moments, Moments.lua): taken before a
--- logout, or LONG_QUEST seconds or more ago. A hub cleared in an evening isn't (the Architect, 10/31: an hour by the
--- clock was most quests). False when the journey has no taking of it.
+-- Whether the quest just turned in (id) was carried a long time (Willo's big moments, Moments.lua): taken LONG_QUEST
+-- (a day) or more ago (the Design Lead, 11/11: Mike's "a quest carried a long time", made true). It was "taken before a
+-- logout, or 3 hours ago", which made most quests from an earlier evening big, and /reload writes a logout: on Mike's
+-- stream 11/10 a quest carried 22 minutes over a reload was cheered as long-carried with "Big moments only" on
+-- (LOR-1412). False when the journey has no taking of it.
 function Journey.CarriedLong(id)
-  local LONG_QUEST = 3 * 3600   -- (not a main-chunk local: it has room for only 200)
+  local LONG_QUEST = 86400   -- (not a main-chunk local: it has room for only 200)
   if not (char and id) then return false end
-  local logout = false
   for i = #char.events, 1, -1 do
     local e = char.events[i]
-    if type(e) == "table" then
-      if e.k == "logout" then logout = true
-      elseif e.k == "qa" and e.id == id then
-        return logout or (tonumber(e.t) and time() - e.t >= LONG_QUEST) or false
-      end
+    if type(e) == "table" and e.k == "qa" and e.id == id then
+      return (tonumber(e.t) and time() - e.t >= LONG_QUEST) or false
     end
   end
   return false
@@ -1720,6 +1718,21 @@ do
     local mine = LoreForeverDB.willoPinsCleared[who] or {}
     LoreForeverDB.willoPinsCleared[who] = mine
     mine[Journey.PinKey(p)] = { n = p.n, z = p.z, s = p.s, x = p.x, y = p.y, d = p.d, t = time() }
+    clearedChanges = clearedChanges + 1
+    return true
+  end
+
+  -- Put it back (PinArrive's card, right after a clear): no longer kept for Willo to take out, so it's on the maps again
+  -- and stays in their notebook. Before the next save she hasn't seen the clear, so nothing else undoes.
+  function Journey.UnclearPin(pin)
+    local p = type(pin) == "table" and pin.line
+    local all = type(LoreForeverDB) == "table" and type(LoreForeverDB.willoPinsCleared) == "table"
+      and LoreForeverDB.willoPinsCleared or nil
+    local who = Journey.CharKey()
+    local mine = all and all[who]
+    if type(p) ~= "table" or type(mine) ~= "table" or mine[Journey.PinKey(p)] == nil then return false end
+    mine[Journey.PinKey(p)] = nil
+    if next(mine) == nil then all[who] = nil end
     clearedChanges = clearedChanges + 1
     return true
   end

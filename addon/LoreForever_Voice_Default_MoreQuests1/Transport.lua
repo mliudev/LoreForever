@@ -974,7 +974,7 @@ P.transport["quest:1819"] = {
   fullHash = "911f86",
   text = "Ulag the Cleaver. Beneath a mausoleum north of Brill, Ulag the Cleaver awaits a trial for young Forsaken. Deathguard Dillinger sends you to free the captive and meet him in combat. After the Scourge swept across Lordaeron, the Forsaken captured an unusual undead warrior who named himself Ulag the Cleaver. His mind stayed clear, but the Lich King still held his spirit in psychic thrall. Beneath a mausoleum north of Brill, the Forsaken bound him with a magical seal. They hoped to learn how the Scourge chained a mind and to break its hold over Ulag. The Forsaken could not free Ulag from the Lich King's command. Now Deathguard Dillinger sets the captive as a combat trial for rising Forsaken warriors. Disturb the skull stone outside the crypt, and the wards break, freeing Ulag from his prison. A warrior must face him with an axe. Death will release him at last.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1819-14bea21d6448767fb37c/1-0000.mp3", duration = 53.8644898, start = 0},
+    {file = "Audio/Transport/full_quest_1819-60f0c6ceaaeef43ea139/1-0000.mp3", duration = 51.9314286, start = 0},
   },
 }
 P.transport["quest:182"] = {
@@ -990,7 +990,7 @@ P.transport["quest:1820"] = {
   fullHash = "08323e",
   text = "Speak with Coleman. In Brill, Deathguard Dillinger sends proven fighters to Coleman Farthing for help. Their meeting in the tavern opens the way to a private matter tied to the old Agamand lands. You have helped contain grave threats near Brill, including Ulag the Cleaver. So Deathguard Dillinger trusts your strength. He watches the roads into town and chooses who can take on work beyond the usual patrols. Seeing you are ready, he points you toward people who need specialized help. Not every fight in Tirisfal Glades begins with orders from the Undercity. The surviving undead of Lordaeron still bear grudges over the lands, families, and fortunes they left behind. Coleman Farthing waits in the Gallow's End Tavern for a fighter willing to strike at threats near former settlements such as the Agamand Mills.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1820-6fb549321b5ba5e29249/1-0000.mp3", duration = 46.4457143, start = 0},
+    {file = "Audio/Transport/full_quest_1820-83174908f2b57111be20/1-0000.mp3", duration = 43.0497959, start = 0},
   },
 }
 P.transport["quest:1821"] = {
@@ -1062,7 +1062,7 @@ P.transport["quest:1881"] = {
   fullHash = "886f62",
   text = "Speak with Anastasia. In the Undercity, Cain Firesong sends a promising Forsaken mage to Anastasia Hartwell. Her summons calls you to the Magic Quarter for practical work among the Forsaken magi, with field investigations in Tirisfal Glades ahead. Cain Firesong trains young Forsaken mages in Brill. When he sees promise in a student, he sends them to the Undercity. There, the Forsaken magi study the arcane arts and plan defenses across Lordaeron. Cain decides which students are ready to serve more experienced practitioners. Those with real talent go to Anastasia Hartwell, who needs capable hands in the field. Anastasia Hartwell is one of the Undercity’s prominent mage instructors. She sends promising students into practical work for the Forsaken’s interests and territory, rather than letting them study incantations in safety. Answering her call begins your service among the Forsaken mages and their practical magical work in the years after the Scourge.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1881-c3db87dbec30cadc8bfa/1-0000.mp3", duration = 58.1485714, start = 0},
+    {file = "Audio/Transport/full_quest_1881-fd15c42c3943eae04b51/1-0000.mp3", duration = 53.5771429, start = 0},
   },
 }
 P.transport["quest:1882"] = {
@@ -1070,7 +1070,7 @@ P.transport["quest:1882"] = {
   fullHash = "f4fbe4",
   text = "The Balnir Farmstead. In eastern Tirisfal, snapdragons at the Balnir Farmstead may reveal how far the Scourge's corruption has spread. Anastasia Hartwell sends young Forsaken mages to gather the flowers for study in the Undercity. Forsaken mages watch the borderlands for magical corruption. Anastasia Hartwell sends novice spellcasters to the Balnir Farmstead in eastern Tirisfal Glades to gather snapdragons from its gardens. The flowers absorb magical energies from the soil and air. Arcane scholars in the Undercity examine them to learn whether corruption from the Lich King's domain has reached Tirisfal. The Balnir Farmstead lies near the edge of the glades, close to the blighted wilderness of the Western Plaguelands. The Forsaken know the Lich King's plague rots the land, and Scourge corruption threatens their borders and security. Though the Forsaken wield dark arts of their own, Anastasia plans to pass the snapdragons to the apothecaries for study. Together, mages and alchemists can examine the danger and help defend Lordaeron's reclaimed heartland.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1882-ac1b5473725770ee2332/1-0000.mp3", duration = 62.6155102, start = 0},
+    {file = "Audio/Transport/full_quest_1882-88059282eafe02ddc45b/1-0000.mp3", duration = 61.7534694, start = 0},
   },
 }
 P.transport["quest:1885"] = {
@@ -1150,7 +1150,7 @@ P.transport["quest:1962"] = {
   fullHash = "28dee1",
   text = "Spellfire Robes. In the Undercity, Spellfire Robes mark a young Horde mage's passage toward mastery. Josef Gregorian finishes them after the apprentice brings rare components from across the realm. In Lordaeron, you need more than ordinary cloth to channel and shield your growing magic. Josef Gregorian is a tailor in the Undercity's Magic Quarter. He makes magical garments from specialized materials gathered by promising Horde spellcasters. The final stitching marks your passage beyond basic incantations toward arcane and fire magic. Josef Gregorian needs alchemical and arcane components to make robes that focus powerful magic. You gather the supplies through dangerous trials and bring them to his sanctum in the Undercity. There, Gregorian weaves them together. The robes mark your growing status and offer protection as an aspiring mage.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1962-ee5eac3c677f54835fd2/1-0000.mp3", duration = 50.7820408, start = 0},
+    {file = "Audio/Transport/full_quest_1962-08d39ee057c318b2dc52/1-0000.mp3", duration = 46.2367347, start = 0},
   },
 }
 P.transport["quest:1963"] = {
@@ -1166,7 +1166,7 @@ P.transport["quest:1978"] = {
   fullHash = "58963e",
   text = "The Deathstalkers. In Undercity, the Deathstalkers welcome a new operative into their ranks. You carry Andron's Ledger to Varimathras as proof of the Syndicate's covert work. Mennet Carkad welcomes you into the Deathstalkers after you uncover Andron Gant's records. The order serves Lady Sylvanas across Lordaeron as her eyes, ears, and daggers. Its agents use intelligence, ruthless efficiency, and stealth to remove threats before they rise. Recognition by the order marks your first step in service to the Forsaken. You deliver the sensitive ledger to Varimathras in Undercity's Royal Quarter. The nathrezim commander oversees Forsaken tactical intelligence under Sylvanas Windrunner. Pleased by the Deathstalkers' initiative, Varimathras welcomes your ability and says his intelligence division can use someone who delivers results.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1978-d3fa3b3bf7d6059894db/1-0000.mp3", duration = 49.2408163, start = 0},
+    {file = "Audio/Transport/full_quest_1978-f9d71525787585fe74c5/1-0000.mp3", duration = 46.0016327, start = 0},
   },
 }
 P.transport["quest:199"] = {
@@ -1398,7 +1398,7 @@ P.transport["quest:2378"] = {
   fullHash = "46211c",
   text = "Find the Shattered Hand. A Forsaken rogue from Tirisfal Glades is bound for Orgrimmar, where the Shattered Hand awaits. The Deathstalkers send the promising initiate across the sea to Durotar to learn the clan’s specialized arts. Mennet Carkad has seen a rogue prove their worth in Tirisfal Glades. The Forsaken train their own covert order, the Deathstalkers. Their alliance with the Horde opens a path to darker arts. So Mennet directs promising rogues to the Shattered Hand in Orgrimmar, joining Lordaeron’s undead operatives with Kalimdor’s orcish assassins. The journey ends beneath Orgrimmar in the Cleft of Shadow. Warlocks, rogues, and demon-binders work out of sight there. Shenthul, a Shattered Hand trainer, awaits the newly arrived undead agent. The gruff troll greets the envoy with harsh skepticism. Reputation alone will not satisfy him; he wants to see whether the envoy has real cunning or has wasted the voyage across the Great Sea.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_2378-3c9782b967b9fb8aa24c/1-0000.mp3", duration = 57.835102, start = 0},
+    {file = "Audio/Transport/full_quest_2378-fc66e8f1556658d290e4/1-0000.mp3", duration = 56.6334694, start = 0},
   },
 }
 P.transport["quest:2379"] = {
@@ -1590,7 +1590,7 @@ P.transport["quest:264"] = {
   fullHash = "ff7073",
   text = "Until Death Do Us Part. In Silverpine Forest, Clarice Foster sends her keepsake to Yuriv’s grave. From the Pools of Vision beneath Thunder Bluff, the Forsaken asks you to lay it on the tomb of the husband who abandoned her and their children. Clarice Foster remembers her mortal marriage with bitterness. As Lordaeron crumbled, Yuriv left her and their children to join a crusade against the rising undead. He declared service to the Holy Light paramount. His devotion saved neither his family nor himself. Clarice was raised into undeath, while Yuriv lies beneath a defaced stone. She wants the last tangible reminder of his broken promises cast away. Yuriv’s tomb lies in the graveyard around the Sepulcher, marked by gashes, rubbish, and weeds. Set Clarice’s pendant on the relief of his sculpted hands. No grand magic or spiritual closure follows. The gem grows dull, and a cold, silent gust passes over the tombs. The old resentments of Lordaeron’s fallen people remain.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_264-148fe15b7297be6c27e1/1-0000.mp3", duration = 60.7608163, start = 0},
+    {file = "Audio/Transport/full_quest_264-047825f1c9e3c2e044a0/1-0000.mp3", duration = 58.88, start = 0},
   },
 }
 P.transport["quest:267"] = {
@@ -1894,7 +1894,7 @@ P.transport["quest:3098"] = {
   fullHash = "d7b5f6",
   text = "Glyphic Scroll. In Deathknell, Isabella calls newly awakened Forsaken mages to the ruined church. Her sealed scroll bids them to hone their volatile arcane powers. Isabella calls newly awakened Forsaken mages to the ruined church in Deathknell. Nearby, you show an affinity for arcane magic while fighting the mindless Scourge. Then a scroll bearing her arcane sigil bids you to report to her. Isabella trains local mages and knows untrained magic can endanger the Forsaken as much as their enemies. In Deathknell’s ruined chapel, Isabella teaches new Forsaken mages that undeath has not ended the dangers of arcane magic. Their bodies have lost life’s frailties, yet magic remains volatile and corrupting. Mastering the arcane takes more than study. It can help the Forsaken survive, seek vengeance, reclaim their destiny, and destroy those who threaten their fragile return to Lordaeron.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_3098-d624d56f61421d0e7ddd/1-0000.mp3", duration = 54.7526531, start = 0},
+    {file = "Audio/Transport/full_quest_3098-5243965a57d921e01d50/1-0000.mp3", duration = 52.244898, start = 0},
   },
 }
 P.transport["quest:31"] = {
@@ -2310,7 +2310,7 @@ P.transport["quest:360"] = {
   fullHash = "a63bbe",
   text = "Return to the Magistrate. At Brill, Magistrate Sevren receives word that the Lich King's servants still press against the Forsaken frontier. Deathguard Linnea sends the warning from the east. East of Tirisfal Glades, the road runs to the blighted ruins of the Western Plaguelands, where the Scourge holds sway. The Forsaken built the Bulwark to bar the undead from their homeland. Deathguard Linnea watches from a waystation behind the line and gathers reports from the eastern gate. Then she sends messengers west along the King's Road to Brill, before enemy infiltrators can find gaps in the defenses. In Brill, Magistrate Sevren hears that Scourge scouts are finding paths around or through the frontline. Each creeping ghoul and mindless skeleton recalls the Forsaken's enslavement, ended when Lordaeron fell. Sevren vows that no matter how ceaseless the Lich King's assault, the free undead will not surrender their new autonomy.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_360-43f812858fb55f700032/1-0000.mp3", duration = 56.8163265, start = 0},
+    {file = "Audio/Transport/full_quest_360-0d5ab48285c2b47ef8db/1-0000.mp3", duration = 52.5844898, start = 0},
   },
 }
 P.transport["quest:361"] = {
@@ -2318,7 +2318,7 @@ P.transport["quest:361"] = {
   fullHash = "bc69e3",
   text = "A Letter Undelivered. Among Agamand Mills' skeletal ruins, A Letter Undelivered lies bloodstained and faded. It recalls two lovers parted as the Scourge swept across Lordaeron, and the life Forsaken left behind. Thurman Agamand, eldest son of patriarch Gregor Agamand, wrote a message that never reached Yvette Farthing. When the Plague of Undeath consumed Tirisfal Glades, Thurman refused to leave his ancestral home or his kin. As the Scourge struck, he took up his quill for Yvette. He had loved her before the kingdom turned to ash.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_361-b523df717266072a69a2/1-0000.mp3", duration = 34.0114286, start = 0},
+    {file = "Audio/Transport/full_quest_361-c48e5f7dfa16b94cacb3/1-0000.mp3", duration = 31.4514286, start = 0},
   },
 }
 P.transport["quest:362"] = {
@@ -2326,7 +2326,7 @@ P.transport["quest:362"] = {
   fullHash = "ce9c2f",
   text = "The Haunted Mills. Coleman Farthing sends you north from Brill to Agamand Mills, seeking vengeance on the family who once owned his land. First, he wants Devlin's remains gathered. Their feud began when the Agamands failed to protect Tirisfal's common folk from the Plague. Before the Third War, the wealthy Agamand family ruled the mills and fed northern Tirisfal. When the Scourge swept across Lordaeron, the common folk turned to the nobles for safety, but found no shelter. Coleman Farthing survived as undead, yet hatred for the family he served still consumes him. He wants their bones gathered so he can desecrate them beneath his heel. Devlin Agamand was the younger brother of Thurman Agamand. People remembered Devlin as weak, spiteful, and sharp-tongued, unlike his gentle elder brother. When the Plague of Undeath reached the mill estate, Devlin quickly fell to its corruption. Now his mindless corpse chatters without cease along the northern road into the family mills.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_362-556e7eff311913847f06/1-0000.mp3", duration = 59.1412245, start = 0},
+    {file = "Audio/Transport/full_quest_362-f367ab61101bde2350ea/1-0000.mp3", duration = 54.0734694, start = 0},
   },
 }
 P.transport["quest:363"] = {
@@ -2342,7 +2342,7 @@ P.transport["quest:364"] = {
   fullHash = "e4cb5f",
   text = "The Mindless Ones. At Deathknell's northern edge, newly risen Forsaken face The Mindless Ones. Shadow Priest Sarvis sends them against Mindless Zombies and Wretched Zombies, Scourge thralls bound to the Lich King's command. Many who rise from Lordaeron's soil never recover their minds. The Forsaken broke free of Ner'zhul's rule as his power waned, but countless dead remain chained to his will. In northern Deathknell, Mindless Zombies and Wretched Zombies roam, driven to violence. For you, newly risen among the undead, laying them to rest is your first hard trial. You prove your freedom by ending the thrall of those who never escaped. Shadow Priest Sarvis grieves that these legions of dead cannot strengthen the Forsaken's desperate struggle. There is no cure for them. Their minds are broken, and they remain instruments of slaughter. Left to roam, they bring chaos to Deathknell's doorstep and give the Lich King easy fodder. Destroying them is necessary for the settlement and brings a grim end to some of Lordaeron's fallen.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_364-14011c6ceb3f76179071/1-0000.mp3", duration = 64.9404082, start = 0},
+    {file = "Audio/Transport/full_quest_364-0039eba66d7c8e29834a/1-0000.mp3", duration = 60.6302041, start = 0},
   },
 }
 P.transport["quest:365"] = {
@@ -2422,7 +2422,7 @@ P.transport["quest:372"] = {
   fullHash = "4fee62",
   text = "At War With The Scarlet Crusade. In Tirisfal, Executor Zygand sends Forsaken agents from Brill against the Scarlet Crusade. Captain Melrache and his sworn guards hold a ruined watchtower beyond Faol's Rest. The Forsaken are securing Lordaeron's ruins, but the Scarlet Crusade keeps testing Tirisfal's borders. From a tower in the north, past Faol's Rest, crusaders lead raids against Forsaken patrols and lands. Executor Zygand means to strike the officers directing those raids before another attack comes. Captain Melrache commands the northern camp with two sworn bodyguards always at his side. From the tower, the Scarlet Crusade watches the coastal roads and nearby woods. Kill Melrache, and the raiders near Brill lose their order. His fall removes a direct threat to Lady Sylvanas's young kingdom and drives the zealots toward stronger fortifications farther east.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_372-0a79061b3360951e1fb1/1-0000.mp3", duration = 52.0097959, start = 0},
+    {file = "Audio/Transport/full_quest_372-670179be1f57ad319b4c/1-0000.mp3", duration = 50.2595918, start = 0},
   },
 }
 P.transport["quest:374"] = {
@@ -2430,7 +2430,7 @@ P.transport["quest:374"] = {
   fullHash = "990ed3",
   text = "Proof of Demise. In Brill, Proof of Demise sends soldiers against the Scarlet Crusade across Tirisfal Glades. Varimathras, Sylvanas Windrunner's dreadlord lieutenant, orders the campaign to thin their ranks and test loyalty to the Forsaken cause. Recruits must take signet rings from fallen crusaders as proof. Across northern Tirisfal Glades, the Forsaken wage a coordinated war against the living. Varimathras surrendered and pledged his blade to Sylvanas Windrunner. He oversees many of the Forsaken's aggressive military maneuvers.\n\nHis orders pass to commanders such as Executor Zygand, then to frontline officers like Deathguard Burgess. Burgess makes the order plain: humans are vermin to be purged from Lordaeron, and nearby crusaders are the immediate target. In Brill, words alone do not satisfy the commanders. Soldiers must take Scarlet Insignia Rings from the fingers of slain zealots to prove obedience to the Dark Lady and her lieutenant. The rings bear the Scarlet Crusade's mark, identifying their bearers as sworn enemies of the Forsaken.\n\nBring back these trophies, and the dead crusaders are proved. The rings also show a soldier's allegiance to the Forsaken leadership.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_374-c3fd39589550421c41fd/1-0000.mp3", duration = 74.3706122, start = 0},
+    {file = "Audio/Transport/full_quest_374-3e75a52c55fc00c276bf/1-0000.mp3", duration = 69.7469388, start = 0},
   },
 }
 P.transport["quest:3741"] = {
@@ -2670,7 +2670,7 @@ P.transport["quest:408"] = {
   fullHash = "1ccc4e",
   text = "The Family Crypt. Scourge forces press the Forsaken at Agamand Mills. From Brill, Magistrate Sevren sends agents to strike the undead in the family crypt. The Forsaken hold Tirisfal Glades, though the Scourge still commands much of its countryside. The Agamand Mills once ground flour for Lordaeron. Now the mills shelter the Scourge. In Brill, Magistrate Sevren watches the enemy gather with grave concern. Every stretch of land lost to the undead weakens the Forsaken's independence. Captain Dargol, a skeletal commander, has made the Agamand Family Crypt his headquarters. He uses necromancy to raise generations of the Agamand dead as Rotting and Wailing Ancestors, swelling his ranks. Magistrate Sevren sends Forsaken agents to purge the crypt and lay its disturbed dead to rest. He also wants Dargol's head, to disrupt Scourge forces in northern Tirisfal.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_408-e8359eb5db69c6fda705/1-0000.mp3", duration = 55.6146939, start = 0},
+    {file = "Audio/Transport/full_quest_408-46953adb0fafff56e46c/1-0000.mp3", duration = 52.6628571, start = 0},
   },
 }
 P.transport["quest:409"] = {
@@ -2830,7 +2830,7 @@ P.transport["quest:428"] = {
   fullHash = "7fb414",
   text = "Lost Deathstalkers. In northern Silverpine, two Forsaken scouts have been missing for weeks. High Executor Hadrec sent Rane and Quinn Yorick to watch the abandoned farms, and now you seek word of them. At the Sepulcher, High Executor Hadrec has heard nothing from Rane and Quinn Yorick for weeks. He sent the pair into northern Silverpine Forest to watch the abandoned farms and track enemy movements. Deathstalkers are the Forsaken’s hidden scouts and killers. They serve Lady Sylvanas, and Hadrec fears the Scourge or another threat has cut them down. Northern Silverpine lies between Lordaeron’s ruined estates and the shadowed borders of Tirisfal Glades. Undead roam there, beasts prowl, and feral worgen make travel perilous even for seasoned rogues. Search the decaying farmsteads where Rane and Quinn Yorick began their survey. Any intelligence they gathered may be vital, if danger has not overtaken them first.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_428-8b1a953af6b725ee5d2e/1-0000.mp3", duration = 54.5436735, start = 0},
+    {file = "Audio/Transport/full_quest_428-0aa1cd295148cb4779dc/1-0000.mp3", duration = 53.0546939, start = 0},
   },
 }
 P.transport["quest:429"] = {
@@ -2838,7 +2838,7 @@ P.transport["quest:429"] = {
   fullHash = "016d97",
   text = "Wild Hearts. In Silverpine, Rane Yorick seeks help while her brother Quinn lies badly wounded. She needs discolored worg hearts for Apothecary Renferrel at the Sepulcher, whose alchemy may help Quinn recover. Rane Yorick stays beside her brother Quinn, badly wounded after the Deathstalkers' disastrous mission left them pinned down at a farm in northern Silverpine. The feral ghoul Ivar the Foul mauled him, and he is failing to recover. Ordinary rest cannot mend an undead body torn by such savagery. So Rane turns to the Royal Apothecary Society and its grim arts for a way to put her brother back together. Silverpine's worgs carry the corruption spreading through northern Lordaeron. Their hearts are discolored and hold potent essences. The Royal Apothecaries can distill these blighted organs into concoctions that restore withered Forsaken flesh.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_429-6f4a2f8ef075b57665e7/1-0000.mp3", duration = 51.8530612, start = 0},
+    {file = "Audio/Transport/full_quest_429-998b9cec807f95085bd1/1-0000.mp3", duration = 51.9314286, start = 0},
   },
 }
 P.transport["quest:430"] = {
@@ -3022,7 +3022,7 @@ P.transport["quest:4512"] = {
   fullHash = "2224a4",
   text = "A Little Slime Goes a Long Way. In Ironforge, Laris Geardawdle seeks ooze samples from Felwood for his studies. He hopes to learn why the Royal Apothecary Society gathers them and what interests the Undercity's alchemists. Laris Geardawdle studies oozes with the Explorers' League. Most of its scholars seek titan relics or dwarven genealogies, but these living puddles resist ordinary classification. They appear in wetlands, cursed woods, and damp ruins. Laris has seen Forsaken apothecaries collecting slime across Lordaeron, and wants to know what draws them to it. Laris believes oozes may be primordial secretions tied to Azeroth's creation. He thinks they are neither vermin nor magical byproducts. To test his theory, you travel across the ocean to Felwood's blighted canopy. There, you gather Cursed and Tainted Oozes in specially made jars. For Laris and many displaced gnomes, these studies carry personal weight. Since Gnomeregan fell to troggs and radiation, thousands have taken refuge in Ironforge's Great Forge. A discovery for the Explorers' League could answer dwarven skeptics. It could show that welcoming gnomes into the mountain city has become an enduring asset to Alliance science.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_4512-f6e102fd9c7a2a494929/1-0000.mp3", duration = 74.1616327, start = 0},
+    {file = "Audio/Transport/full_quest_4512-7d6952e2f8336c8c7b01/1-0000.mp3", duration = 71.5232653, start = 0},
   },
 }
 P.transport["quest:4513"] = {
@@ -3678,7 +3678,7 @@ P.transport["quest:5725"] = {
   fullHash = "7a76b3",
   text = "The Power to Destroy.... From the Undercity, Varimathras sends Horde adventurers beneath Orgrimmar. Lady Sylvanas Windrunner seeks two dark tomes from the Searing Blade cult, hoping their power will aid her war against the Scourge and the Lich King. Thrall's orcs hunt the Searing Blade cult beneath their capital. The Forsaken covet the cult's occult stores. On Sylvanas Windrunner's orders, Varimathras sends operatives into Ragefire Chasm to seize two demonic grimoires: Spells of Shadow and Incantations from the Nether. The Dark Lady believes disciplined Forsaken will can use these gifts better than the lesser cultists. Once the tomes are secured, Varimathras explains their purpose. Their dark magic is meant to strengthen Sylvanas's campaign against the Scourge. The Forsaken hope to claim every scrap of forbidden power, break the Lich King's hold across Lordaeron, and free the remaining undead from his mental enslavement.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_5725-be4969cbb5fbfdd1ed09/1-0000.mp3", duration = 55.9281633, start = 0},
+    {file = "Audio/Transport/full_quest_5725-38fa23e96293ebd8e313/1-0000.mp3", duration = 53.2897959, start = 0},
   },
 }
 P.transport["quest:5726"] = {
@@ -4142,7 +4142,7 @@ P.transport["quest:6324"] = {
   fullHash = "db8ba4",
   text = "Return to Podrig. At the Undercity, you carry weapons bound for the Sepulcher after bringing a dispatch to the capital. Forsaken bats take you across Lordaeron to Deathguard Podrig. Deathguard Podrig's garrison at the Sepulcher needs weapons from the Undercity. Its sentries in Silverpine Forest face worgen, Dalaran remnants, and Scourge stragglers. Fresh arms help the Forsaken hold the region and keep the outpost ready. Bat Master Michael Garrett tends the central roost in the Undercity's Trade Quarter. Forsaken bats know the way back to the capital, but you speak with local handlers such as Karos Razok before flying to a distant outpost. Carrying Gordon's Crate across Lordaeron joins the Undercity's supplies to its scattered strongholds.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6324-5002fed5c00a0c21e326/1-0000.mp3", duration = 45.2963265, start = 0},
+    {file = "Audio/Transport/full_quest_6324-0b91dabeb73fd12d6e0b/1-0000.mp3", duration = 43.3632653, start = 0},
   },
 }
 P.transport["quest:6341"] = {
@@ -4278,7 +4278,7 @@ P.transport["quest:6395"] = {
   fullHash = "1ec06f",
   text = "Marla's Last Wish. In Deathknell, Marla's Last Wish brings a husband and wife together in death. Novice Elreth asks you to find Samuel Fipps, still bound to the Scourge, so he may be buried beside Marla. The Forsaken honor the ties of life and set themselves apart from the Scourge. Before the Third War, Marla and Samuel Fipps were husband and wife in Lordaeron. The war devastated their home, and when the plague swept through their lands, Samuel succumbed. He rose as a mindless thrall of the Scourge. Marla escaped undeath, but Samuel killed her in his frenzy. She bore him no hatred. Novice Elreth remembers Marla's final wish: to rest beside Samuel in the Deathknell graveyard. Novice Elreth sends you northeast of Deathknell, where Samuel Fipps still wanders among a ruined campsite. Ending his torment removes a Scourge minion from the valley. Then his remains can be carried back to Marla's resting place. Elreth believes that honoring the dead and their final wishes sets the newly freed Forsaken apart from the Scourge.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6395-52646facc18325e5092d/1-0000.mp3", duration = 64.9404082, start = 0},
+    {file = "Audio/Transport/full_quest_6395-38eaf9f3ace40c28127d/1-0000.mp3", duration = 61.1787755, start = 0},
   },
 }
 P.transport["quest:64"] = {
@@ -4502,7 +4502,7 @@ P.transport["quest:730"] = {
   fullHash = "f787fd",
   text = "Trouble in Darkshore?. In Darnassus, Chief Archaeologist Greywhisker needs help finding his missing crew. His appeal sends you across the sea to Auberdine, where the dwarven expedition met trouble along Darkshore’s wild coast. Darnassus is the grand night elven capital, and home to dwarven researchers from Ironforge who study Kalimdor’s ancient mysteries. Chief Archaeologist Greywhisker sent an excavation party across the water to Darkshore to uncover ancient artifacts. Weeks have passed without word or a progress report. Greywhisker fears dangers have overtaken his field crew. Greywhisker laments that many in the Alliance dismiss dwarven archaeology as an eccentric hobby. Discoveries in Khaz Modan have convinced his colleagues that a terrifying ancient force threatens Azeroth from Lordaeron to Kalimdor. So the work in Darkshore’s ruins is more than scholarship. The expedition seeks to understand historic cataclysms and the deep-seated dangers buried beneath ancient soil.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_730-afd92104cb93be5c1071/1-0000.mp3", duration = 59.4285714, start = 0},
+    {file = "Audio/Transport/full_quest_730-aec9abca981342c18a55/1-0000.mp3", duration = 56.6334694, start = 0},
   },
 }
 P.transport["quest:743"] = {
@@ -5086,7 +5086,7 @@ P.transport["quest:8354"] = {
   fullHash = "4456c0",
   text = "Chicken Clucking for a Mint. At Hallow's End, Innkeeper Norman of the Undercity offers a sweet to travelers helping an ailing child. Earn the Undercity Mint by setting dignity aside and flapping like a chicken. Laughter is scarce in the Undercity, built beneath Lordaeron's ruins by the liberated Forsaken. Yet when Hallow's End comes, even the grim folk of the Trade Quarter join the revelry. Innkeeper Norman keeps Undercity Mints for travelers gathering treats for Spoops, a sick orphan who needs holiday cheer. Innkeeper Norman will not hand a treat to seasoned adventurers without a show. He believes grown warriors and spellcasters should earn their sweets. So the petitioner must mimic a barnyard chicken right before his counter.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_8354-9099c688d5bca46b729c/1-0000.mp3", duration = 43.4155102, start = 0},
+    {file = "Audio/Transport/full_quest_8354-df1d0c01060019a1170e/1-0000.mp3", duration = 41.6130612, start = 0},
   },
 }
 P.transport["quest:8355"] = {
@@ -5686,7 +5686,7 @@ P.transport["quest:90902"] = {
   fullHash = "2d5e3d",
   text = "Rediscovering the Light. In Deathknell, newly risen Forsaken paladins learn that the Light still answers them, though it burns. The Holy Light still answers newly risen Forsaken paladins, but it burns their withered bodies. Many once served as champions of the Silver Hand or knights of Lordaeron. Aramis Hammerhand teaches them that powers they once used without thought now bring fierce pain. The Light clashes with the foul magic that sustains undeath, so calling on it takes resolve and endurance. Deathguards in Deathknell suffer grievous wounds fighting mindless zombies, and Forsaken paladins are called to heal them. Aramis teaches that enduring the burning pain is like exercising an atrophied muscle. The paladins bear that agony as a badge of honor and proof that the Light has not forsaken them.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_90902-0472d075d2e40a698646/1-0000.mp3", duration = 47.9869388, start = 0},
+    {file = "Audio/Transport/full_quest_90902-44664e06e0aecdfb8239/1-0000.mp3", duration = 45.2179592, start = 0},
   },
 }
 P.transport["quest:91208"] = {
@@ -5998,7 +5998,7 @@ P.transport["quest:9263"] = {
   fullHash = "6669ec",
   text = "Investigate the Scourge of Orgrimmar. Outside Orgrimmar, the Scourge presses its attack beneath a floating necropolis. Lieutenant Dagel calls on defenders to repel the undead, recover necrotic stones, and examine runic circles charged with necromantic energy. The assault brings the Lich King's reach to Durotar. The Scourge now threatens lands far from Lordaeron and the northern ice. Its floating necropolises cast shadows across Azeroth, even over Durotar. Undead forces have gathered at Orgrimmar's threshold and raised camps that threaten the Horde capital. Lieutenant Dagel and the Argent Dawn coordinate the defense, calling on local champions to drive the invaders back before they can secure a siege.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_9263-24dce663a0b1d684ffd6/1-0000.mp3", duration = 42.0832653, start = 0},
+    {file = "Audio/Transport/full_quest_9263-b91220a924e9df36795b/1-0000.mp3", duration = 40.0195918, start = 0},
   },
 }
 P.transport["quest:927"] = {
@@ -6310,7 +6310,7 @@ P.transport["quest:95314"] = {
   fullHash = "be76bf",
   text = "That Shadowvale Green Elixir. In Brill, That Shadowvale Green Elixir draws buyers despite the old ban. Shadowvale's secluded villagers once brewed Whispering Elixir from local herbs, and the Scourge left the village in ruins. Before the Scourge came, Shadowvale's villagers brewed Whispering Elixir from rare herbs found only in Tirisfal Glades. The draught grew known across northern Lordaeron. The Capital City outlawed it, yet mystics, poisoners, and apothecaries still sought its unusual properties, defying royal decrees. Shadowvale lies deep in the Whispering Forest of western Tirisfal. Its people were insular and distrustful, and rarely welcomed outsiders. The Scourge invasion left the settlement in ruins, though forgotten stores of aged green elixir remain among the wreckage.\n\nCarolai Anise works from Brill. The underworld still wants the brew, so she pays adventurers willing to brave the forest's unsettling silence.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_95314-76ba5060fa46e5fa988e/1-0000.mp3", duration = 57.9918367, start = 0},
+    {file = "Audio/Transport/full_quest_95314-28d10ea2e11624349c62/1-0000.mp3", duration = 56.0065306, start = 0},
   },
 }
 P.transport["quest:954"] = {
@@ -6734,7 +6734,7 @@ P.transport["quest:99134"] = {
   fullHash = "fc244b",
   text = "Discipline. In Tirisfal Glades, Executor Zygand calls on outsiders to keep the Deathguard alert. He trusts his garrison little and orders punishment for sentries who slacken. The Deathguard guard the Forsaken across Lordaeron. Freedom from the Lich King's control has brought apathy, fatigue, and neglect. Yet the Scarlet Crusade and Scourge prowl Tirisfal's borders, so the garrison must stay ready. Executor Zygand has little patience for sentries who let their discipline slip. The officers use force and close oversight to keep their troops alert. Executor Zygand chooses outsiders to punish negligent Deathguards instead of using soldiers from his own garrison. With the Executor's Motivator, you remind the sentries that service to the Dark Lady demands constant vigilance. Even in undeath, they face the consequences of neglecting their duties.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_99134-f73b8f4892e2f91bc080/1-0000.mp3", duration = 51.435102, start = 0},
+    {file = "Audio/Transport/full_quest_99134-f4011a55c63b9cedbf22/1-0000.mp3", duration = 49.8416327, start = 0},
   },
 }
 P.transport["quest:99141"] = {

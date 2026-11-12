@@ -17,14 +17,14 @@ function SnapshotFemale {
   })
 }
 $qaBefore=SnapshotFemale
-$qaArgs=@('/QA','/VERYSILENT','/SUPPRESSMSGBOXES','/COMPONENTS=addon','/VOICES=female',('/DIR="'+$WowDirectory+'"'),('/VOICEURL='+$TruncatedBase))
+$qaArgs=@('/QA','/VERYSILENT','/SUPPRESSMSGBOXES','/COMPONENTS=addon','/VOICES=female','/REDOWNLOAD',('/DIR="'+$WowDirectory+'"'),('/VOICEURL='+$TruncatedBase))
 $qaInstall=Start-Process -FilePath $qaProof.setup -WindowStyle Hidden -PassThru -Wait -ArgumentList $qaArgs
 if($qaInstall.ExitCode -eq 0){throw 'Incomplete download falsely reported complete'}
 $qaAfter=SnapshotFemale
 if(Compare-Object $qaBefore $qaAfter){throw 'Incomplete download changed working voice bytes'}
 $qaReceipt=Get-Content -LiteralPath (Join-Path $WowDirectory 'lore-download-status.tsv') -Raw
 if($qaReceipt -notmatch 'LoreForever_Voice_Female-complete.zip\t[^\t]+\tfailed'){throw 'Incomplete download has no failed receipt'}
-$qaArgs=@('/QA','/VERYSILENT','/SUPPRESSMSGBOXES','/COMPONENTS=addon','/VOICES=female',('/DIR="'+$WowDirectory+'"'),('/VOICEURL='+$VoiceBase))
+$qaArgs=@('/QA','/VERYSILENT','/SUPPRESSMSGBOXES','/COMPONENTS=addon','/VOICES=female','/REDOWNLOAD',('/DIR="'+$WowDirectory+'"'),('/VOICEURL='+$VoiceBase))
 $qaRetry=Start-Process -FilePath $qaProof.setup -WindowStyle Hidden -PassThru -Wait -ArgumentList $qaArgs
 if($qaRetry.ExitCode -ne 0){throw 'Safe retry failed'}
 & python.exe (Join-Path $PSScriptRoot 'verify-install.py') $qaProof.candidate_zip $WowDirectory (Join-Path $qaProof.download_directory 'transport-downloads.json') female

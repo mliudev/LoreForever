@@ -1,0 +1,75 @@
+{
+ "key": "quest:95992",
+ "type": "quest",
+ "name": "WANTED: Ghostmaw",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95992
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Tan'jani offers a competition to catch Ghostmaw, a white crocolisk stalking the rivers. Bring its fang back to Rog'mar to claim the pot.",
+ "sections": [
+  {
+   "title": "Riverside Contest",
+   "body": "Tan'jani in Rog'mar has a competition for you. A white crocolisk called Ghostmaw stalks the rivers, and even the headhunters have not caught it. Bring Ghostmaw's Fang to Tan'jani; the winner claims the pot.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ghostmaw?",
+   "aliases": [
+    "ghostmaw",
+    "white crocolisk",
+    "ghostmaw croc"
+   ],
+   "answer": "Ghostmaw is a white crocolisk that stalks the rivers."
+  },
+  {
+   "q": "Who wants Ghostmaw's fang?",
+   "aliases": [
+    "tan'jani fang",
+    "who wants the fang",
+    "fang for who"
+   ],
+   "answer": "Tan'jani in Rog'mar asks you to bring Ghostmaw's Fang."
+  },
+  {
+   "q": "What does Tan'jani want me to bring?",
+   "aliases": [
+    "ghostmaw fang",
+    "what do i bring",
+    "fang"
+   ],
+   "answer": "Tan'jani wants Ghostmaw's Fang."
+  },
+  {
+   "q": "What is the competition about?",
+   "aliases": [
+    "tan'jani competition",
+    "the pot",
+    "why catch ghostmaw"
+   ],
+   "answer": "Tan'jani says the winner of the competition to catch Ghostmaw claims the pot."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crocolisk",
+  "fang",
+  "ghostmaw",
+  "headhunter",
+  "rivers",
+  "rog'mar",
+  "tan'jani"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: WANTED: Ghostmaw"
+ ]
+}

@@ -806,7 +806,7 @@ P.transport["npc:deathstalker-rane-yorick"] = {
   fullHash = "fc13dd",
   text = "Rane Yorick. At a farmhouse in Silverpine, Rane Yorick and her brother Quinn cannot reach the Sepulcher. Sent to scout the northern farms, they must get their report to High Executor Hadrec. Lady Sylvanas Windrunner relies on the Deathstalkers to watch across Lordaeron. They serve as her eyes and ears, and strike when Forsaken rule is threatened. Rane Yorick and her brother Quinn were sent to scout northern Silverpine Forest. Feral dangers closed around them, and their covert work became a fight to survive.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_deathstalker-rane-yorick-d9e508b8081b456b6462/1-0000.mp3", duration = 30.197551, start = 0},
+    {file = "Audio/Transport/full_npc_deathstalker-rane-yorick-9c4d8c71a72e28eeb21c/1-0000.mp3", duration = 31.5559184, start = 0},
   },
 }
 P.transport["npc:deathstalker-vincent"] = {

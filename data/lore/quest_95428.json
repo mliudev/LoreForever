@@ -1,0 +1,100 @@
+{
+ "key": "quest:95428",
+ "type": "quest",
+ "name": "Clugfist's Decree",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95428
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Clugfist permits you to remain in Bolder'ok for now after the Skyborne defeat the Twilight's Hammer. He asks you to tell the others that the clan will fight again soon.",
+ "sections": [
+  {
+   "title": "Word for Rog'mar",
+   "body": "Krom'rosh in Rog'mar is waiting to hear from you. Clugfist lets you stay in Bolder'ok for now and asks you to carry word to the other Skyborne. The clan expects bloodshed again soon.",
+   "spoiler": 0
+  },
+  {
+   "title": "Trust and Alliances",
+   "body": "Krom'rosh sees the Bolder'ok clan as a possible ally for the Horde. Their recent fight for freedom from the Twilight's Hammer echoes the Horde's own bloody history. Your report may help the Horde continue to earn their trust.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Clugfist want me to do?",
+   "aliases": [
+    "clugfist decree",
+    "what am i supposed to report",
+    "clugfist's orders"
+   ],
+   "answer": "Clugfist asks you to tell the other Skyborne that the Bolder'ok clan expects to fight again soon."
+  },
+  {
+   "q": "Where do I report?",
+   "aliases": [
+    "report to kromrosh",
+    "where is krom'rosh",
+    "rogmar report"
+   ],
+   "answer": "Clugfist directs you to report to Krom'rosh in Rog'mar."
+  },
+  {
+   "q": "Can I stay in Bolder'ok?",
+   "aliases": [
+    "stay in bolderok",
+    "clugfist lets me stay",
+    "bolder'ok permission"
+   ],
+   "answer": "Clugfist permits you to remain in Bolder'ok for now."
+  },
+  {
+   "q": "Who are the Bolder'ok?",
+   "aliases": [
+    "bolderok clan",
+    "who is clugfist",
+    "clugfist people"
+   ],
+   "answer": "The Bolder'ok are a clan that recently fought for freedom from the Twilight's Hammer."
+  },
+  {
+   "q": "Why does the Horde care about the Bolder'ok?",
+   "aliases": [
+    "horde and bolderok",
+    "bolderok allies",
+    "why does kromrosh care"
+   ],
+   "answer": "Krom'rosh believes the Bolder'ok could become powerful allies if the Horde continues to earn their trust."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, the Bolder'ok may become powerful allies if your people continue to earn their trust."
+  }
+ ],
+ "keywords": [
+  "bolder'ok",
+  "bolderok",
+  "clugfist",
+  "decree",
+  "horde",
+  "krom'rosh",
+  "rog'mar",
+  "skyborne",
+  "twilight's hammer"
+ ],
+ "related": [
+  "topic:skyborne",
+  "topic:twilight-s-hammer",
+  "topic:horde"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Clugfist's Decree"
+ ]
+}

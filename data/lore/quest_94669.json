@@ -1,0 +1,76 @@
+{
+ "key": "quest:94669",
+ "type": "quest",
+ "name": "Pay to Play",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94669
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A collector demands a safety deposit before you can enter the Bloodmaster's Ring. Pay, and you qualify to prove your strength there.",
+ "sections": [
+  {
+   "title": "The Price of Entry",
+   "body": "To enter the Bloodmaster's Ring, you are asked to pay a safety deposit. The collector says the payment is required for your safety. Without it, they threaten to tell Clugfist that you refused to prove your strength to the welcoming company. Your choice decides whether you qualify for the ring.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why do I have to pay?",
+   "aliases": [
+    "why pay",
+    "safety deposit",
+    "pay to play quest"
+   ],
+   "answer": "The collector says a safety deposit is required for your safety and to qualify for the Bloodmaster's Ring."
+  },
+  {
+   "q": "Who is Clugfist?",
+   "aliases": [
+    "who's clugfist",
+    "clugfist",
+    "old clugfist"
+   ],
+   "answer": "Clugfist is the person the collector threatens to tell if you refuse to pay."
+  },
+  {
+   "q": "What happens if I refuse?",
+   "aliases": [
+    "don't pay",
+    "refuse deposit",
+    "no deposit"
+   ],
+   "answer": "The collector says they will tell Clugfist that you were unwilling to prove your strength."
+  },
+  {
+   "q": "What does paying qualify me for?",
+   "aliases": [
+    "qualify for what",
+    "ring entry",
+    "bloodmaster ring"
+   ],
+   "answer": "Paying the safety deposit qualifies you for the Bloodmaster's Ring."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bloodmaster's ring",
+  "clugfist",
+  "pay to play",
+  "prove your strength",
+  "ring",
+  "safety deposit"
+ ],
+ "related": [
+  "quest:94668"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Pay to Play"
+ ]
+}

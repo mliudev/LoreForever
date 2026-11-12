@@ -1,0 +1,70 @@
+{
+ "key": "quest:94962",
+ "type": "quest",
+ "name": "Bloodmaster's Ring",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94962
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A fight with Bonegnaw is the next bout toward becoming champion in the Bloodmaster's Ring. The ogres are waiting to see whether you can give them a battle worth watching.",
+ "sections": [
+  {
+   "title": "The Next Bout",
+   "body": "Your wins have not made you a champion yet, and the Bloodmaster has another battle in mind. He names Bonegnaw as your opponent and promises a surprise. The ogres are watching, and the next bout is meant to entertain them.",
+   "spoiler": 0
+  },
+  {
+   "title": "After the Fight",
+   "body": "The Bloodmaster is displeased with how the bout reflects on him. The ogres, however, seem entertained, and he warns you against taking pride in the outcome.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is my opponent?",
+   "aliases": [
+    "bonegnaw fight",
+    "who do i fight"
+   ],
+   "answer": "Bonegnaw is your opponent in the Bloodmaster's Ring."
+  },
+  {
+   "q": "Am I a champion yet?",
+   "aliases": [
+    "bloodmaster champ",
+    "become champion"
+   ],
+   "answer": "The Bloodmaster says your wins have not made you a champion yet."
+  },
+  {
+   "q": "Who is watching the fight?",
+   "aliases": [
+    "ogres watching",
+    "who is entertained"
+   ],
+   "answer": "Ogres are watching the bout in the Bloodmaster's Ring."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bloodmaster",
+  "bloodmaster's ring",
+  "bonegnaw",
+  "bout",
+  "champion",
+  "fight",
+  "ogres"
+ ],
+ "related": [
+  "quest:94733"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Bloodmaster's Ring"
+ ]
+}

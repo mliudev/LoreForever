@@ -1,0 +1,87 @@
+{
+ "key": "quest:98093",
+ "type": "quest",
+ "name": "Field to Clear",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98093
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Sulhasa is stranded in a tree near Camp Taurajo, with Stormhide lizards and Hecklefang Stalkers blocking her way home. She asks you to clear the area so she can climb down safely.",
+ "sections": [
+  {
+   "title": "A blocked way home",
+   "body": "Sulhasa is caught above the fields after walking from Camp Taurajo along the golden road. Hyenas began to circle her, and Stormhide lizards barred her way back. Now Hecklefang Stalkers and Stormhide lizards crowd the area, leaving her unable to make the journey home. She needs a safe path down from the tree.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why is Sulhasa up in a tree?",
+   "aliases": [
+    "Sulhasa tree",
+    "why is she stuck",
+    "woman in tree"
+   ],
+   "answer": "Sulhasa climbed a tree when hyenas circled her and Stormhide lizards blocked her way back to Camp Taurajo."
+  },
+  {
+   "q": "Who is Sulhasa?",
+   "aliases": [
+    "Sulhasa who",
+    "who's in the tree",
+    "stranded woman"
+   ],
+   "answer": "Sulhasa is a traveler from Camp Taurajo who is stranded in a tree near the golden road."
+  },
+  {
+   "q": "What is blocking Sulhasa's way home?",
+   "aliases": [
+    "what blocks her",
+    "Stormhide and Hecklefang",
+    "why can't she leave"
+   ],
+   "answer": "Stormhide lizards and Hecklefang Stalkers are crowding the area around Sulhasa."
+  },
+  {
+   "q": "Where was Sulhasa walking?",
+   "aliases": [
+    "Sulhasa's route",
+    "golden road walk",
+    "where was she going"
+   ],
+   "answer": "Sulhasa walked from Camp Taurajo down the golden road before she became stranded."
+  },
+  {
+   "q": "What does Sulhasa need?",
+   "aliases": [
+    "help Sulhasa",
+    "what does she want",
+    "clear the area"
+   ],
+   "answer": "Sulhasa needs the Stormhide lizards and Hecklefang Stalkers cleared so she can climb down safely."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "camp taurajo",
+  "golden road",
+  "hecklefang stalkers",
+  "southern barrens",
+  "stormhide lizards",
+  "stranded",
+  "sulhasa",
+  "tree"
+ ],
+ "related": [
+  "subzone:camp-taurajo"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Field to Clear"
+ ]
+}

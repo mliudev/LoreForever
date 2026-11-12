@@ -1,0 +1,95 @@
+{
+ "key": "quest:94739",
+ "type": "quest",
+ "name": "Bloodmaster's Ring",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94739
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The Bloodmaster sends you into the pit for a bout with Kronk. The crowd is already eager for the next round.",
+ "sections": [
+  {
+   "title": "The Next Bout",
+   "body": "The announcer is readying the crowd while Kronk waits as the next contestant. You are sent into the pit to face him, and the noise rises around the coming bout.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Kronk?",
+   "aliases": [
+    "kronk",
+    "who's kronk",
+    "kronk bloodmaster"
+   ],
+   "answer": "Kronk is the next contestant in the Bloodmaster's Ring. The announcer says they go way back and describes him as a strong brawler."
+  },
+  {
+   "q": "What does the Bloodmaster want me to do?",
+   "aliases": [
+    "what do i do",
+    "ring task",
+    "bloodmaster ring"
+   ],
+   "answer": "The Bloodmaster sends you into the pit to face Kronk."
+  },
+  {
+   "q": "Why am I fighting Kronk?",
+   "aliases": [
+    "why kronk",
+    "fight kronk",
+    "kronk fight"
+   ],
+   "answer": "The announcer introduces Kronk as the next contestant, and the bout is set in the Bloodmaster's Ring."
+  },
+  {
+   "q": "Where does the bout take place?",
+   "aliases": [
+    "where is the fight",
+    "the pit",
+    "ring location"
+   ],
+   "answer": "The bout takes place in the pit of the Bloodmaster's Ring."
+  },
+  {
+   "q": "What happens after I enter the pit?",
+   "aliases": [
+    "after entering",
+    "next in the ring",
+    "what happens next"
+   ],
+   "answer": "The announcer prepares to introduce Kronk while you ready yourself in the pit."
+  },
+  {
+   "q": "What does the announcer say about Kronk?",
+   "aliases": [
+    "kronk backstory",
+    "what's kronk like",
+    "announcer kronk"
+   ],
+   "answer": "The announcer says Kronk is not very bright, but is good at pummeling anything in his path."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "announcer",
+  "bloodmaster",
+  "bloodmaster's ring",
+  "bout",
+  "contestant",
+  "kronk",
+  "pit"
+ ],
+ "related": [
+  "quest:94668"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Bloodmaster's Ring"
+ ]
+}

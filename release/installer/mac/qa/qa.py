@@ -3,7 +3,9 @@
 with small ZIPs. Everything lands in a scratch folder. Run: qa.py "<path to Install Lore Forever.app>".
   fresh install, an update with nothing new, an update with one new part, a pack whose download 404s (the rest still
   installs), a connection that drops mid-file (it resumes from where it stopped), not enough room (stops before any
-  download) and a damaged ZIP (never reaches AddOns, the part counts as failed)."""
+  download) and a damaged ZIP (never reaches AddOns, the part counts as failed). LOR-1398 adds: a part left from another
+  release and one bigger than the file (a 416; it starts over), a zh-TW pick, a newer add-on left alone, a damaged ZIP
+  alone (says damaged) and a connection that's online but never connects (ends on the failure screen)."""
 import http.server
 import json
 import os
@@ -13,10 +15,12 @@ import subprocess
 import sys
 import tempfile
 import threading
+import time
 import zipfile
 
 VERSION = "9.9.9"
 CORE = ["LoreForever", "LoreForever_Voice_Default"]
+TW = "LoreForever_Locale_zhTW"
 RECEIPTS = pathlib.Path.home() / "Library/Application Support/LoreForever/Install/receipts.json"
 
 
@@ -49,6 +53,13 @@ class Handler(http.server.BaseHTTPRequestHandler):
         data = file.read_bytes()
         rng = self.headers.get("Range")
         start = int(rng.split("=")[1].split("-")[0]) if rng else 0
+        if rng and start >= len(data):
+            s.ranges.append(name + ":416")
+            self.send_response(416)
+            self.send_header("Content-Range", f"bytes */{len(data)}")
+            self.send_header("Content-Length", "0")
+            self.end_headers()
+            return
         if rng:
             s.ranges.append(name)
             self.send_response(206)
@@ -94,12 +105,15 @@ class Bench:
         make_zip(self.root / "core.zip", CORE)
         make_zip(self.root / "more.zip", ["LoreForever_Voice_Default_MorePlaces"])
         make_zip(self.root / "quests.zip", ["LoreForever_Voice_Default_Quests"])
+        make_zip(self.root / "tw.zip", CORE + [TW])
         rows = {"core": self.zip_row("core", CORE), "more": self.zip_row("more", ["LoreForever_Voice_Default_MorePlaces"]),
-                "quests": self.zip_row("quests", ["LoreForever_Voice_Default_Quests"])}
+                "quests": self.zip_row("quests", ["LoreForever_Voice_Default_Quests"]), "tw": self.zip_row("tw", CORE + [TW])}
         self.server.catalog = {"schema": 1, "tag": f"v{VERSION}", "version": VERSION, "langs": [
             {"code": "en", "name": "English", "narrators": [{"id": "male", "name": "Male narrator", "cards": {
                 "addon": card([rows["core"]]), "storyteller": card([rows["core"], rows["more"]]),
-                "everything": card([rows["core"], rows["more"], rows["quests"]])}}]}]}
+                "everything": card([rows["core"], rows["more"], rows["quests"]])}}]},
+            {"code": "zh-TW", "name": "繁體中文", "narrators": [{"id": "male", "name": "Male narrator", "cards": {
+                "addon": card([rows["tw"]]), "storyteller": card([rows["tw"]]), "everything": card([rows["tw"]])}}]}]}
 
     def wow(self, fresh=True):
         game = self.tmp / "World of Warcraft"
@@ -108,15 +122,18 @@ class Bench:
         (game / "_forever_/Interface/AddOns").mkdir(parents=True, exist_ok=True)
         return game
 
-    def run(self, game, pick="male, en, everything", free=None, keep=False):
+    def run(self, game, pick="male, en, everything", free=None, keep=False, extra=None):
         if not keep:
             RECEIPTS.unlink(missing_ok=True)
         env = {**os.environ, "LF_AUTORUN": "1", "LF_ROOT": str(game), "LF_DMG_NAME": f"Install Lore Forever ({pick}).dmg",
                "LF_CATALOG_URL": f"http://127.0.0.1:{self.port}/catalog.json"}
         if free is not None:
             env["LF_FREE_BYTES"] = str(free)
+        env.update(extra or {})
         self.server.hits.clear(); self.server.ranges.clear()
-        return subprocess.run([str(self.binary)], env=env, timeout=180).returncode
+        done = subprocess.run([str(self.binary)], env=env, timeout=180, capture_output=True, text=True)
+        self.out = done.stdout
+        return done.returncode
 
     def installed(self, game):
         addons = game / "_forever_/Interface/AddOns"
@@ -172,6 +189,75 @@ def main():
                 row["bytes"] = (b.root / "more.zip").stat().st_size
     code = b.run(game)
     b.check("a damaged ZIP never reaches AddOns and counts as failed", code == 3 and "LoreForever_Voice_Default_MorePlaces" not in b.installed(game), f"exit {code}, {b.installed(game)}")
+
+    # The damaged ZIP alone: nothing installed, and the screen says damaged, not "couldn't download".
+    make_zip(b.root / "core.zip", CORE, damaged=True)
+    for card_ in data["langs"][0]["narrators"][0]["cards"].values():
+        for row in card_["zips"]:
+            if row["name"] == "core":
+                row["bytes"] = (b.root / "core.zip").stat().st_size
+    game = b.wow()
+    code = b.run(game, pick="male, en, addon")
+    b.check("a damaged ZIP with nothing else says so", code == 1 and "damaged" in b.out and not b.installed(game), f"exit {code}, {b.out.strip()}")
+
+    # A part from an older release, and one bigger than this release's file (replaced in place): the old one is cleared,
+    # the big one gets a 416 and starts over, and the install finishes.
+    b.make_packs()
+    game = b.wow()
+    zips = game / ".lf-download-stage/zips"
+    zips.mkdir(parents=True)
+    (zips / "core.zip.part").write_bytes(os.urandom(4_000_000))
+    (zips / "v9.9.8--core.zip.part").write_bytes(os.urandom(100_000))
+    (zips / f"v{VERSION}--core.zip.part").write_bytes(os.urandom((b.root / "core.zip").stat().st_size + 10))
+    code = b.run(game, pick="male, en, addon")
+    b.check("a stuck part gets a 416, starts over and installs", code == 0 and "core.zip:416" in b.server.ranges and b.installed(game) == sorted(CORE)
+            and not (game / ".lf-download-stage").exists(), f"exit {code}, ranges {b.server.ranges}, {b.installed(game)}")
+
+    # A zh-TW pick installs zh-TW, not English.
+    game = b.wow()
+    code = b.run(game, pick="male, zh-TW, addon")
+    b.check("a zh-TW pick installs Chinese (Traditional)", code == 0 and TW in b.installed(game), f"exit {code}, {b.installed(game)}")
+
+    # An add-on newer than the site's facts (they lag a release) is left alone.
+    game = b.wow()
+    for folder in CORE:
+        (game / f"_forever_/Interface/AddOns/{folder}").mkdir(parents=True)
+        (game / f"_forever_/Interface/AddOns/{folder}/{folder}.toc").write_text(f"## Title: {folder}\n## Version: 9.9.10\n")
+    code = b.run(game, pick="male, en, addon")
+    zips_hit = [h for h in b.server.hits if h.endswith(".zip")]
+    toc = (game / "_forever_/Interface/AddOns/LoreForever/LoreForever.toc").read_text()
+    b.check("a newer add-on isn't replaced by an older one", code == 0 and not zips_hit and "9.9.10" in toc, f"exit {code}, {zips_hit}")
+
+    # The site names a folder the published ZIP doesn't have yet (LOR-1398 on Silver: the starting zones' quest givers
+    # were listed a release early, and the real add-on never installed). It installs, and the next run fetches nothing.
+    b.make_packs()
+    for card_ in b.server.catalog["langs"][0]["narrators"][0]["cards"].values():
+        for row in card_["zips"]:
+            if row["name"] == "core":
+                row["folders"] = CORE + ["LoreForever_Voice_QuestGivers_Start"]
+    game = b.wow()
+    code = b.run(game, pick="male, en, addon")
+    first = (code, b.installed(game))
+    code = b.run(game, pick="male, en, addon", keep=True)
+    zips_hit = [h for h in b.server.hits if h.endswith(".zip")]
+    b.check("a folder the site names early doesn't stop the install, nor fetch it again", first == (0, sorted(CORE)) and code == 0 and not zips_hit,
+            f"first {first}, then exit {code}, {zips_hit}")
+
+    # The real window with Change open shows all of it.
+    b.make_packs()
+    game = b.wow()
+    code = b.run(game, extra={"LF_CHECK_CHANGE": "1"})
+    b.check("Change fits in the window", code == 0, f"exit {code}, {b.out.strip()}")
+
+    # Online, but every try fails to connect (TLS to a plain server): the failure screen, not waiting forever.
+    for card_ in b.server.catalog["langs"][0]["narrators"][0]["cards"].values():
+        for row in card_["zips"]:
+            row["url"] = row["url"].replace("http://", "https://")
+    game = b.wow()
+    started = time.monotonic()
+    code = b.run(game, pick="male, en, addon", extra={"LF_STUCK_SECONDS": "15"})
+    took = time.monotonic() - started
+    b.check("online but never connecting ends on the failure screen", code == 1 and "won't connect" in b.out and took < 90, f"exit {code}, {took:.0f}s, {b.out.strip()}")
 
     shutil.rmtree(b.tmp, ignore_errors=True)
     failed = [n for n, ok in b.results if not ok]

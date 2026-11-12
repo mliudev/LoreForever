@@ -15,7 +15,7 @@
  "sections": [
   {
    "title": "A Library Collection",
-   "body": "A keeper at the Library in Ironforge asks you to contribute a magical work. The collection grows through your efforts, and the keeper welcomes further works that could benefit the library.",
+   "body": "Any magical work you bring is welcome on the shelves. The collection grows through your efforts, and the keeper welcomes further works that could benefit the library.",
    "spoiler": 0
   }
  ],
@@ -34,9 +34,9 @@
    "aliases": [
     "where is this",
     "library location",
-    "ironforge library"
+    "which library"
    ],
-   "answer": "The collection is in the Library in Ironforge."
+   "answer": "The keeper is a librarian. That is Garion Wendell in Stormwind for the Alliance, or Owen Thadd in the Undercity for the Horde."
   },
   {
    "q": "Why bring magical works to the library?",
@@ -52,14 +52,11 @@
  "keywords": [
   "collection",
   "demons and you",
-  "ironforge",
   "knowledge",
   "library",
   "magical works"
  ],
- "related": [
-  "subzone:library-ironforge"
- ],
+ "related": [],
  "style": 2,
  "attribution": [
   "In-game quest text: Demons and You"

@@ -1,0 +1,78 @@
+{
+ "key": "quest:79235",
+ "type": "quest",
+ "name": "On the Lam",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79235
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A caravan rumor points to Horde marauders who fled Desolace after attacks on human and dwarf camps. You are sent toward Booty Bay to find one of them.",
+ "sections": [
+  {
+   "title": "A Trail to Booty Bay",
+   "body": "A caravan contact describes attacks on human and dwarf camps in Desolace, then points you toward Booty Bay. The victims and the violence have led caravans to suspect Horde marauders. An Alliance marshal pursued the bandits, and they left Desolace. Now you are asked to find one of them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who attacked the camps?",
+   "aliases": [
+    "who did it",
+    "camp attackers"
+   ],
+   "answer": "Caravan rumor blames a group of Horde marauders for attacks on human and dwarf camps in Desolace."
+  },
+  {
+   "q": "Where did the marauders go?",
+   "aliases": [
+    "where they flee",
+    "marauders location"
+   ],
+   "answer": "The bandits fled Desolace after an Alliance marshal pursued them. Booty Bay is suggested as a place to look for one."
+  },
+  {
+   "q": "Why look in Booty Bay?",
+   "aliases": [
+    "why booty bay",
+    "find marauder where"
+   ],
+   "answer": "The contact suggests Booty Bay because people of doubtful character pass through its port, and a marauder might be seeking a boat."
+  },
+  {
+   "q": "What am I looking for?",
+   "aliases": [
+    "on the lam objective",
+    "find one"
+   ],
+   "answer": "You are looking for one of the marauders from Desolace."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alliance marshal",
+  "booty bay",
+  "caravans",
+  "desolace",
+  "horde",
+  "marauders",
+  "on the lam"
+ ],
+ "related": [
+  "quest:434",
+  "zone:desolace",
+  "subzone:booty-bay",
+  "topic:horde",
+  "topic:alliance",
+  "topic:human"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: On the Lam"
+ ]
+}

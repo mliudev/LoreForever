@@ -11,7 +11,7 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "The library in Ironforge seeks magical works for its collection. You can help broaden its knowledge by bringing in works that may benefit the shelves.",
+ "summary": "The library seeks magical works for its collection. You can help broaden its knowledge by bringing in works that may benefit the shelves.",
  "sections": [
   {
    "title": "A Growing Collection",
@@ -34,9 +34,9 @@
    "aliases": [
     "who wants this",
     "library request",
-    "ironforge library"
+    "which library"
    ],
-   "answer": "The request comes from the Library in Ironforge."
+   "answer": "The request comes from a librarian. That is Garion Wendell in Stormwind for the Alliance, or Owen Thadd in the Undercity for the Horde."
   },
   {
    "q": "Why bring magical works?",
@@ -52,14 +52,11 @@
  "keywords": [
   "collection",
   "defensive magics",
-  "ironforge",
   "knowledge",
   "library",
   "magical works"
  ],
- "related": [
-  "subzone:library-ironforge"
- ],
+ "related": [],
  "style": 2,
  "attribution": [
   "In-game quest text: Defensive Magics 101"

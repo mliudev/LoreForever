@@ -33,6 +33,13 @@ jobs:
     environment: release
     timeout-minutes: 45
     steps:
+      # The version goes into the app's Info.plist: only X.Y.Z, so a typo stops here rather than in a signed build.
+      - name: Check the version
+        env:
+          VERSION: ${{ inputs.version }}
+        run: |
+          [[ "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]] || { echo "::error::version must be X.Y.Z, like 1.0.0 (got '$VERSION')"; exit 1; }
+
       - uses: actions/checkout@v7
 
       - name: Build, sign, notarize, check Gatekeeper

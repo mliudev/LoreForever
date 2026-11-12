@@ -10,10 +10,40 @@ enum EngineEvent {
     case placing
 }
 
+// What went wrong, when something did, so the failure screen can say it (LOR-1398): a damaged ZIP or a full disk isn't
+// "couldn't download".
 struct InstallResult {
     var failedNames: [String] = []
     var installedAny = false
     var writeProblem = false
+    var diskFull = false
+    var damaged = false
+    var unreachable = false
+    var stillNeeded: [Zip] = []
+}
+
+private enum Fetched { case ok, failed, diskFull, unreachable }
+
+// "1.6.0" is at least "1.5.2". A version that isn't dotted numbers only matches itself.
+func versionAtLeast(_ have: String, _ want: String) -> Bool {
+    func parts(_ s: String) -> [Int]? {
+        let p = s.trimmingCharacters(in: CharacterSet(charactersIn: "vV ")).split(separator: ".").map { Int($0) }
+        return p.isEmpty || p.contains(where: { $0 == nil }) ? nil : p.map { $0! }
+    }
+    guard let a = parts(have), let b = parts(want) else { return have == want }
+    for i in 0..<max(a.count, b.count) {
+        let x = i < a.count ? a[i] : 0, y = i < b.count ? b[i] : 0
+        if x != y { return x > y }
+    }
+    return true
+}
+
+private func isDiskFull(_ error: Error) -> Bool {
+    let ns = error as NSError
+    if ns.domain == NSCocoaErrorDomain && ns.code == NSFileWriteOutOfSpaceError { return true }
+    if ns.domain == NSPOSIXErrorDomain && (ns.code == Int(ENOSPC) || ns.code == Int(EDQUOT)) { return true }
+    if let under = ns.userInfo[NSUnderlyingErrorKey] as? Error { return isDiskFull(under) }
+    return false
 }
 
 private func toc(_ dir: URL, _ folder: String) -> URL { dir.appendingPathComponent(folder).appendingPathComponent(folder + ".toc") }
@@ -27,29 +57,47 @@ func tocVersion(in addOns: URL, folder: String) -> String? {
 }
 
 // Installed ZIPs, by game folder, so an update asks only for what's new: a language pack's ZIP keeps its own version.
+// Each keeps the folders that really came out of it: the site's list of a ZIP's folders can run a release ahead of the
+// ZIP itself (LOR-1408 named the starting zones' quest givers in the main ZIP the day before a release carried them).
 final class Receipts {
+    struct Entry: Codable { var bytes: Int64; var folders: [String] }
     private let file: URL
-    private var data: [String: [String: Int64]] = [:]
+    private var data: [String: [String: Entry]] = [:]
     init() {
         let base = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
             .appendingPathComponent("LoreForever/Install")
         try? FileManager.default.createDirectory(at: base, withIntermediateDirectories: true)
         file = base.appendingPathComponent("receipts.json")
-        if let raw = try? Data(contentsOf: file), let decoded = try? JSONDecoder().decode([String: [String: Int64]].self, from: raw) { data = decoded }
+        // A receipts file from a test build before this shape is simply started again.
+        if let raw = try? Data(contentsOf: file), let decoded = try? JSONDecoder().decode([String: [String: Entry]].self, from: raw) { data = decoded }
     }
-    func has(_ game: GameFolder, _ zip: Zip) -> Bool { data[game.root.path]?[zip.file] == zip.bytes }
-    func record(_ game: GameFolder, _ zip: Zip) {
-        data[game.root.path, default: [:]][zip.file] = zip.bytes
+    // The folders this exact ZIP put in, when it's the one installed here.
+    func folders(_ game: GameFolder, _ zip: Zip) -> [String]? {
+        guard let entry = data[game.root.path]?[zip.file], entry.bytes == zip.bytes else { return nil }
+        return entry.folders
+    }
+    func record(_ game: GameFolder, _ zip: Zip, folders: [String]) {
+        data[game.root.path, default: [:]][zip.file] = Entry(bytes: zip.bytes, folders: folders)
         if let raw = try? JSONEncoder().encode(data) { try? raw.write(to: file, options: .atomic) }
     }
 }
 
-// Whether this ZIP still has to come: its folders are missing, or they aren't this version.
+// Whether this ZIP is in, for "You have Storyteller": the folders it put in last time are all there, or, never
+// installed by us, its first folder (the main ZIP's is the add-on itself; a voice pack's ZIP holds just its own).
+func zipPresent(_ zip: Zip, game: GameFolder, receipts: Receipts) -> Bool {
+    let folders = receipts.folders(game, zip) ?? Array(zip.folders.prefix(1))
+    return !folders.isEmpty && folders.allSatisfy { tocVersion(in: game.addOns, folder: $0) != nil }
+}
+
+// Whether this ZIP still has to come: its folders are missing, or they're older than this version. A newer copy (the
+// site's facts can lag a release by a few minutes) is left alone, never replaced by an older one.
 func zipNeeded(_ zip: Zip, game: GameFolder, catalog: Catalog, receipts: Receipts) -> Bool {
+    if let installed = receipts.folders(game, zip) {
+        return !installed.allSatisfy { tocVersion(in: game.addOns, folder: $0) != nil }
+    }
     let versions = zip.folders.map { tocVersion(in: game.addOns, folder: $0) }
     if versions.contains(where: { $0 == nil }) { return true }
-    if receipts.has(game, zip) { return false }
-    return !(zip.isCurrentRelease(catalog.tag) && versions.allSatisfy { $0 == catalog.version })
+    return !(zip.isCurrentRelease(catalog.tag) && versions.allSatisfy { versionAtLeast($0 ?? "", catalog.version) })
 }
 
 // What Install has to fit: the parts, plus the largest ZIP, since a ZIP and its unpacked copy are both on disk for a moment.
@@ -72,6 +120,7 @@ final class Downloader: NSObject, URLSessionDataDelegate {
     private var resumed = false
     private var finish: CheckedContinuation<Void, Error>?
     private var httpError: Int?
+    private var writeError: Error?
     var onBytes: ((Int64) -> Void)?
     private var task: URLSessionDataTask?
 
@@ -87,6 +136,7 @@ final class Downloader: NSObject, URLSessionDataDelegate {
         written = existing
         resumed = existing > 0
         httpError = nil
+        writeError = nil
         handle = try FileHandle(forWritingTo: part)
         try await withCheckedThrowingContinuation { (c: CheckedContinuation<Void, Error>) in
             finish = c
@@ -122,6 +172,8 @@ final class Downloader: NSObject, URLSessionDataDelegate {
             written += Int64(data.count)
             onBytes?(written)
         } catch {
+            // Usually a full disk: say so, rather than the cancel this causes.
+            writeError = error
             dataTask.cancel()
         }
     }
@@ -131,7 +183,9 @@ final class Downloader: NSObject, URLSessionDataDelegate {
         handle = nil
         let c = finish
         finish = nil
-        if let code = httpError {
+        if let writeError {
+            c?.resume(throwing: writeError)
+        } else if let code = httpError {
             c?.resume(throwing: NSError(domain: "HTTP", code: code))
         } else if let error {
             c?.resume(throwing: error)
@@ -181,13 +235,19 @@ final class Engine {
             result.writeProblem = true
             return result
         }
+        // Stage files are named by release and file (LoreForever.zip is the name in every release), so a part left from
+        // another release is never resumed into this one; anything this install doesn't want is cleared first.
+        let wanted = Set(zips.flatMap { [$0.stageFile, $0.stageFile + ".part"] })
+        for name in (try? fm.contentsOfDirectory(atPath: zipsDir.path)) ?? [] where !wanted.contains(name) {
+            try? fm.removeItem(at: zipsDir.appendingPathComponent(name))
+        }
         let total = zips.reduce(0) { $0 + $1.bytes }
         var finishedBefore: Int64 = 0
         var downloaded: [(Zip, URL)] = []
         var speed = Speed()
-        for zip in zips {
+        for (index, zip) in zips.enumerated() {
             if cancelled { return result }
-            let part = zipsDir.appendingPathComponent(zip.file + ".part"), done = zipsDir.appendingPathComponent(zip.file)
+            let part = zipsDir.appendingPathComponent(zip.stageFile + ".part"), done = zipsDir.appendingPathComponent(zip.stageFile)
             if fm.fileExists(atPath: done.path) && fileSize(done) == zip.bytes {
                 downloaded.append((zip, done))
                 finishedBefore += zip.bytes
@@ -198,14 +258,22 @@ final class Engine {
                 let shown = before + soFar
                 events(.progress(done: shown, total: total, etaMinutes: speed.update(done: shown, total: total)))
             }
-            let ok = await download(zip, part: part, to: done, before: before, total: total, events: events)
+            let fetched = await download(zip, part: part, to: done, before: before, total: total, events: events)
             if cancelled { return result }
-            if ok {
+            switch fetched {
+            case .ok:
                 downloaded.append((zip, done))
                 finishedBefore += zip.bytes
-            } else {
+            case .failed:
                 result.failedNames.append(zip.name)
+                result.stillNeeded.append(zip)
+            case .diskFull, .unreachable:
+                // The rest would go the same way: stop downloading, and put in what's already here.
+                if fetched == .diskFull { result.diskFull = true } else { result.unreachable = true }
+                result.failedNames += zips[index...].map(\.name)
+                result.stillNeeded += zips[index...]
             }
+            if result.diskFull || result.unreachable { break }
         }
         // All here: now the game changes, a part at a time.
         events(.placing)
@@ -213,11 +281,20 @@ final class Engine {
             if cancelled { return result }
             let unpacked = stage.appendingPathComponent("unpacked").appendingPathComponent(zip.file)
             try? fm.removeItem(at: unpacked)
-            if let folders = unpack(file, to: unpacked, expected: zip.folders), promote(folders, from: unpacked, into: game.addOns, old: old) {
-                receipts.record(game, zip)
-                result.installedAny = true
+            if let folders = unpack(file, to: unpacked, expected: zip.folders) {
+                if promote(folders, from: unpacked, into: game.addOns, old: old) {
+                    receipts.record(game, zip, folders: folders)
+                    result.installedAny = true
+                } else {
+                    result.writeProblem = true
+                    result.failedNames.append(zip.name)
+                    result.stillNeeded.append(zip)
+                }
             } else {
+                // ditto fails the same way on a full disk as on a damaged ZIP: the free space tells them apart.
+                if freeBytes(at: stage) < zip.bytes { result.diskFull = true } else { result.damaged = true }
                 result.failedNames.append(zip.name)
+                result.stillNeeded.append(zip)
             }
             try? fm.removeItem(at: unpacked)
             try? fm.removeItem(at: file)
@@ -228,44 +305,76 @@ final class Engine {
 
     private func fileSize(_ url: URL) -> Int64 { (try? fm.attributesOfItem(atPath: url.path)[.size] as? Int64) ?? -1 }
 
-    private func download(_ zip: Zip, part: URL, to done: URL, before: Int64, total: Int64, events: @escaping (EngineEvent) -> Void) async -> Bool {
-        guard let url = URL(string: zip.url) else { return false }
+    // How long the Mac can say it's online while every try fails to connect (a proxy, a VPN, a wrong clock breaking TLS)
+    // before the player gets the failure screen and Try Again instead of waiting forever. Offline waits as long as it takes.
+    private var stuckLimit: TimeInterval {
+        #if QA
+        if let s = ProcessInfo.processInfo.environment["LF_STUCK_SECONDS"], let n = TimeInterval(s) { return n }
+        #endif
+        return 180
+    }
+
+    private func download(_ zip: Zip, part: URL, to done: URL, before: Int64, total: Int64, events: @escaping (EngineEvent) -> Void) async -> Fetched {
+        guard let url = URL(string: zip.url) else { return .failed }
         var failures = 0
+        var stuckSince: Date?
         while !cancelled {
+            let sizeBefore = max(fileSize(part), 0)
             do {
                 try await downloader.fetch(url, to: part)
-                if cancelled { return false }
+                if cancelled { return .failed }
                 // A short file means the connection ended early: carry on from there.
                 if zip.bytes > 0 && fileSize(part) != zip.bytes {
                     if fileSize(part) > zip.bytes { try? fm.removeItem(at: part) }
                     failures += 1
-                    if failures > 5 { try? fm.removeItem(at: part); return false }
+                    if failures > 5 { try? fm.removeItem(at: part); return .failed }
+                    stuckSince = nil
                     continue
                 }
                 try? fm.removeItem(at: done)
                 try fm.moveItem(at: part, to: done)
-                return true
+                return .ok
             } catch {
-                if cancelled { return false }
+                if cancelled { return .failed }
+                if isDiskFull(error) { return .diskFull }
+                let ns = error as NSError
+                if ns.domain == "HTTP" && ns.code == 416 {
+                    // The part is already as big as the file or bigger (the file was replaced): start it over.
+                    try? fm.removeItem(at: part)
+                    failures += 1
+                    if failures > 3 { return .failed }
+                    continue
+                }
                 if isConnectionError(error) || !connection.isOnline {
+                    if connection.isOnline {
+                        if fileSize(part) > sizeBefore { stuckSince = nil }
+                        let since = stuckSince ?? Date()
+                        stuckSince = since
+                        if Date().timeIntervalSince(since) >= stuckLimit { return .unreachable }
+                    } else {
+                        stuckSince = nil
+                    }
                     // No connection, or a Mac that just woke up: wait and carry on.
                     events(.waiting(done: before + max(fileSize(part), 0), total: total))
                     try? await Task.sleep(nanoseconds: 5_000_000_000)
                     while !connection.isOnline && !cancelled {
+                        stuckSince = nil
                         try? await Task.sleep(nanoseconds: 2_000_000_000)
                     }
                     continue
                 }
                 failures += 1
-                if failures > 3 { return false }
+                if failures > 3 { return .failed }
                 try? await Task.sleep(nanoseconds: 2_000_000_000)
             }
         }
-        return false
+        return .failed
     }
 
     // The add-on folders inside, once it's unzipped and checked: nothing but add-on folders, each with its .toc, and at
-    // least the ones the catalog named. A damaged or wrong ZIP never reaches AddOns. nil when it isn't right.
+    // least one the catalog named (not all: the site's list can name a folder the published ZIP gets only in the next
+    // release, LOR-1398). The size already matched the catalog's to the byte. A damaged or wrong ZIP never reaches
+    // AddOns. nil when it isn't right.
     private func unpack(_ zip: URL, to dest: URL, expected: [String]) -> [String]? {
         try? fm.createDirectory(at: dest, withIntermediateDirectories: true)
         let task = Process()
@@ -275,7 +384,7 @@ final class Engine {
         task.waitUntilExit()
         guard task.terminationStatus == 0 else { return nil }
         let top = ((try? fm.contentsOfDirectory(atPath: dest.path)) ?? []).filter { !$0.hasPrefix(".") && $0 != "__MACOSX" }
-        guard !top.isEmpty, Set(expected).isSubset(of: Set(top)),
+        guard !top.isEmpty, expected.isEmpty || !Set(expected).isDisjoint(with: top),
               top.allSatisfy({ $0.range(of: #"^LoreForever[A-Za-z0-9_-]*$"#, options: .regularExpression) != nil && fm.fileExists(atPath: toc(dest, $0).path) })
         else { return nil }
         return top

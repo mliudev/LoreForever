@@ -1,0 +1,92 @@
+{
+ "key": "quest:95418",
+ "type": "quest",
+ "name": "Spread the Word",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95418
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Tran'gul asks you to bring Chogg'Zac's head to Rog'mar after an ogre leaves the Twilight's Hammer. Word of the defection may lead to more of the cult's ogres breaking free.",
+ "sections": [
+  {
+   "title": "A Message for Tran'gul",
+   "body": "Tran'gul in Rog'mar needs Chogg'Zac's head brought back to his friends. Clubtoe says he is done with the Twilight's Hammer and plans to join Clugfist, the biggest ogre he knows, with many others. Clubtoe means to stay where he is until the coast is clear. Now Tran'gul must hear what Clubtoe has chosen.",
+   "spoiler": 0
+  },
+  {
+   "title": "News from the Cave",
+   "body": "Tran'gul hears that the cave held another surprise. You have convinced one of the Twilight's Hammer ogres to defect, and he spoke of others of his kind. Tran'gul says they must act on this news at once.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Clubtoe?",
+   "aliases": [
+    "clubtoe",
+    "clubtoe ogre",
+    "who is clubtoe"
+   ],
+   "answer": "Clubtoe is an ogre who says he is done with the Twilight's Hammer and plans to join the free ogres."
+  },
+  {
+   "q": "Who is Clugfist?",
+   "aliases": [
+    "clugfist",
+    "clugfist ogre",
+    "biggest ogre"
+   ],
+   "answer": "Clugfist is the biggest ogre Clubtoe knows, and Clubtoe says he left the Twilight's Hammer with many friends."
+  },
+  {
+   "q": "What does Clubtoe ask me to bring?",
+   "aliases": [
+    "chogg head",
+    "chogg'zac head",
+    "what to take"
+   ],
+   "answer": "Clubtoe asks you to take Chogg'Zac's head back to his friends."
+  },
+  {
+   "q": "Where do I take Chogg'Zac's head?",
+   "aliases": [
+    "where to take head",
+    "tran'gul",
+    "rog'mar"
+   ],
+   "answer": "You are to deliver Chogg'Zac's head to Tran'gul in Rog'mar."
+  },
+  {
+   "q": "Why is Tran'gul concerned?",
+   "aliases": [
+    "tran'gul reaction",
+    "twilight cave",
+    "why act now"
+   ],
+   "answer": "Tran'gul learns that one Twilight's Hammer ogre has defected and mentioned others of his kind."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "chogg'zac",
+  "clubtoe",
+  "clugfist",
+  "ogre defection",
+  "rog'mar",
+  "spread the word",
+  "tran'gul",
+  "twilight's hammer"
+ ],
+ "related": [
+  "topic:twilight-s-hammer"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Spread the Word"
+ ]
+}

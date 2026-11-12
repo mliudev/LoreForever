@@ -1,0 +1,74 @@
+{
+ "key": "quest:94841",
+ "type": "quest",
+ "name": "Lost Shipping Crate",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94841
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A shipping crate marked for Friz Frazzlespark has gone missing in the Riverglades. Its label asks that it be returned to Powderfuse Port.",
+ "sections": [
+  {
+   "title": "A Marked Crate",
+   "body": "Friz Frazzlespark's crate bears a handwritten label naming Powderfuse Port in the Riverglades. A map marks a southeastern shore north of a water-surrounded temple, with winged creatures nearby. The label warns against opening the crate without supervision, and names Friz as the person to receive it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who owns the shipping crate?",
+   "aliases": [
+    "crate owner",
+    "who owns it"
+   ],
+   "answer": "The label names Friz Frazzlespark as the crate's owner."
+  },
+  {
+   "q": "Where should I take the crate?",
+   "aliases": [
+    "where to deliver crate",
+    "crate delivery"
+   ],
+   "answer": "The label says to return the crate to Friz Frazzlespark at Powderfuse Port in the Riverglades."
+  },
+  {
+   "q": "What does the crate's label say?",
+   "aliases": [
+    "crate label",
+    "what's written on it"
+   ],
+   "answer": "It identifies Friz Frazzlespark and Powderfuse Port, warns against opening the crate without supervision, and gives a return location in the Riverglades."
+  },
+  {
+   "q": "Is the crate safe to open?",
+   "aliases": [
+    "open crate",
+    "crate warning"
+   ],
+   "answer": "The label says not to open it without supervision."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crate",
+  "friz frazzlespark",
+  "label",
+  "lost shipping crate",
+  "map",
+  "powderfuse port",
+  "riverglades"
+ ],
+ "related": [
+  "zone:riverglades",
+  "quest:94930"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Lost Shipping Crate"
+ ]
+}

@@ -107,9 +107,9 @@
     "subzone:andorhal": {
       "1": [
         {
-          "duration": 74.00489795918368,
-          "file": "Audio/Transport/full_subzone_andorhal-be878d6112e6b9c84235/1-0000.mp3",
-          "sha256": "4c06261986c2e5f5fcf62a54f3bdd949cb7a4198d23bfec41f741f3699b150ea",
+          "duration": 69.92979591836735,
+          "file": "Audio/Transport/full_subzone_andorhal-8e6ce1290d128c02a66f/1-0000.mp3",
+          "sha256": "77258136bd3cc544ffd5b391ac56f7cd00720dfa326fda04e6feff395c235573",
           "start": 0
         }
       ],
@@ -121,12 +121,12 @@
         ]
       },
       "fullHash": "41f3f8",
-      "generation": "922b0c90473e3da663e8",
+      "generation": "571c3821d7a040e3b563",
       "hash": "41f3f8",
       "source": {
-        "duration": 74.03102,
+        "duration": 69.955918,
         "file": null,
-        "sha256": "be878d6112e6b9c842357ae826ba8aa477324b70fb49048c5ffbcecb8f851917"
+        "sha256": "8e6ce1290d128c02a66fa2a9c015892f3a12faf92de470c9c96268bb0bc13b54"
       },
       "text": "Andorhal. In Andorhal, the Scourge still holds the ruined town. Once northern Lordaeron's thriving agricultural heart, it became the place where Kel'Thuzad tainted the grain with the Plague of Undeath. During the Third War, that harvest carried horror across the region. Before the Third War, Andorhal gathered grain from across Lordaeron and sent it east to Hearthglen and Stratholme. As the Eastweald's prosperous granary, it fed a vast network. Kel'Thuzad and the Cult of the Damned chose the town to begin their plot. They tainted crates of grain with the Plague of Undeath, turning the kingdom's breadbasket into a source of sickness. Countless citizens were infected before the Crown understood the danger. Prince Arthas Menethil and Jaina Proudmoore first faced Kel'Thuzad in Andorhal and slew him. His death did not end the danger. After returning from Northrend as a champion of the Scourge, Arthas marched back to claim Kel'Thuzad's remains.\n\nUther the Lightbringer and the remaining Silver Hand paladins made a desperate stand to defend King Terenas's ashes. The paladins fell, and Arthas slew Uther, his former pupil. Now the once grand settlement is a blight-choked Scourge stronghold."
     },
@@ -913,9 +913,9 @@
     "subzone:browman-mill": {
       "1": [
         {
-          "duration": 48.90122448979592,
-          "file": "Audio/Transport/full_subzone_browman-mill-59278ab4f853b23711d2/1-0000.mp3",
-          "sha256": "be51c0ba0c4d3287f53d4a04a5c41384957b4a97aac382fb8707e54d1c24062b",
+          "duration": 46.49795918367347,
+          "file": "Audio/Transport/full_subzone_browman-mill-a428afea2eb0a5dc4f3c/1-0000.mp3",
+          "sha256": "84f08dd5b3a8a2ae95582d43a6ca36c9cb57af3948ec99ccaf454c9f62827bcb",
           "start": 0
         }
       ],
@@ -927,12 +927,12 @@
         ]
       },
       "fullHash": "f22a1f",
-      "generation": "fa700d4421d42a4b4900",
+      "generation": "1672d9a8ee8031d85ac9",
       "hash": "f22a1f",
       "source": {
-        "duration": 48.927347,
+        "duration": 46.497959,
         "file": null,
-        "sha256": "59278ab4f853b23711d2d131b127728014ee665044af20c9846e2a52eb58214d"
+        "sha256": "a428afea2eb0a5dc4f3c3c86521003cbd93c49e262e266a3e05b90939d7f46b8"
       },
       "text": "Browman Mill. Undead now crowd Browman Mill, north of Light's Hope Chapel. Once it served Lordaeron's timber trade; now Stephen Browman remains trapped in death within his ruined workshop. Before the Third War, Browman Mill worked timber from the Eastweald for nearby towns and homesteads. Then the Scourge plague swept across Lordaeron, and the mill fell with the province. Now rotting timbers and shattered wheels lie idle while abominations, banshees, and skeletal warriors patrol the grounds. So close to Light's Hope Chapel, the ruins show how near the undead horde has come to the Argent Dawn. Stephen Browman owned Browman Mill before the Scourge overran his estate. The Scourge killed him and raised him as a ghoul, bound to the Lich King's will. He remains in the dark mill, guarding the broken remains of his life's work."
     },
@@ -965,9 +965,9 @@
     "subzone:caer-darrow": {
       "1": [
         {
-          "duration": 32.522448979591836,
-          "file": "Audio/Transport/full_subzone_caer-darrow-0072455b6e68566f18fd/1-0000.mp3",
-          "sha256": "9bd315037c0e8c7645e8635c573d025495d7004e48773f828d6475ad621d9715",
+          "duration": 30.56326530612245,
+          "file": "Audio/Transport/full_subzone_caer-darrow-e22e8624e46b5099d14a/1-0000.mp3",
+          "sha256": "3b84d7d5ff240f45101f9acc1f219ccf0373b93ee9e6efdb74babcb9f9f6cd5d",
           "start": 0
         }
       ],
@@ -979,12 +979,12 @@
         ]
       },
       "fullHash": "0419f1",
-      "generation": "a57873a846666f3786ae",
+      "generation": "887a201c932de3065a6a",
       "hash": "0419f1",
       "source": {
-        "duration": 32.548571,
+        "duration": 30.589388,
         "file": null,
-        "sha256": "0072455b6e68566f18fd6df6b1b82a48fbb0f07ff17a4503df630572f6852c95"
+        "sha256": "e22e8624e46b5099d14a722145a1c0098fcd7c86cc05f04c1440a86e51dc5d27"
       },
       "text": "Caer Darrow. Phantoms haunt Caer Darrow above Darrowmere Lake in the Western Plaguelands. House Barov once ruled from its keep, now sold to Kel'Thuzad and remade as Scholomance. Caer Darrow guarded Lordaeron and held an ancient elven runestone long before the Scourge. During the Second War, the Horde sacked the fortress and broke the stone apart for Gul'dan's Altars of Storms. Lord Uther the Lightbringer sailed to aid the survivors, but Alterac privateers ambushed his fleet. Their treachery exposed Alterac's betrayal to the Alliance."
     },
@@ -1173,9 +1173,9 @@
     "subzone:caverns-of-time": {
       "1": [
         {
-          "duration": 67.73551020408163,
-          "file": "Audio/Transport/full_subzone_caverns-of-time-eab4e41d3461dbe30ade/1-0000.mp3",
-          "sha256": "a186b9e467ff95dbb8a43727746dc4b9bc8505e0fb48efe16e36c197bf247ea1",
+          "duration": 66.63836734693878,
+          "file": "Audio/Transport/full_subzone_caverns-of-time-d060fe29fc9824633b4e/1-0000.mp3",
+          "sha256": "e9bd048f2370c3900c731bf3e39323fd167003a97a23846208688b3e87bb71df",
           "start": 0
         }
       ],
@@ -1187,12 +1187,12 @@
         ]
       },
       "fullHash": "c5f8f6",
-      "generation": "68e476ebc766eafb6744",
+      "generation": "759cb77cba1698414649",
       "hash": "c5f8f6",
       "source": {
-        "duration": 67.761633,
+        "duration": 66.638367,
         "file": null,
-        "sha256": "eab4e41d3461dbe30ade439ffa60138c2a29b46e7b714eda1222517bda8eb918"
+        "sha256": "d060fe29fc9824633b4ed6a7a27edaa1686e0344b2b60ca3e2779688ff59572d"
       },
       "text": "Caverns of Time. In the Caverns of Time, Nozdormu and the bronze dragonflight guard Azeroth's fragile timeways. Deep in Tanaris's eastern cliffs, they watch for mortal intrusion and changes to time's flow. Deep beneath Tanaris's eastern cliffs, the Caverns of Time gather the currents of history. At the dawn of the world, the titans charged Nozdormu the Timeless One and his bronze dragonflight with guarding these winding corridors.\n\nTime moves strangely within them, and hidden rifts show glimpses of the past and future. Relics from distant eras lie scattered across the sands. Anachronos watches near the entrance while lesser bronze drakes patrol the descent and guard the one true timeline. The Caverns of Time also hold a vault where past and future meet. Over millennia, the bronze flight has gathered fragments of Azeroth's history: ancient dwarven structures, a watchtower from Lordaeron, chieftain quarters from the orcish clans, and armor from the first kings of Stromgarde. Some travelers have slipped past the sentinels to see these wonders. The inner gateways stay shut until the flight decides mortal intervention is needed."
     },
@@ -1251,9 +1251,9 @@
     "subzone:chillwind-camp": {
       "1": [
         {
-          "duration": 69.51183673469389,
-          "file": "Audio/Transport/full_subzone_chillwind-camp-d0004599a0f756dd225c/1-0000.mp3",
-          "sha256": "839cb8550a524d74449c40b95977438f32242e1fc8b1a3ca34f35311473b2b59",
+          "duration": 68.70204081632653,
+          "file": "Audio/Transport/full_subzone_chillwind-camp-02364f0dc1423e28bebf/1-0000.mp3",
+          "sha256": "3366a4746b715876b60dbbee28fde8e5e30301e09ebd7a836720be57b5da431a",
           "start": 0
         }
       ],
@@ -1265,21 +1265,21 @@
         ]
       },
       "fullHash": "e3ff9b",
-      "generation": "60c2189f8b09591b7bba",
+      "generation": "386e0cb64a29dcaec3aa",
       "hash": "e3ff9b",
       "source": {
-        "duration": 69.537959,
+        "duration": 68.728163,
         "file": null,
-        "sha256": "d0004599a0f756dd225c98bcf9b81eb13dfacbadbea17f224595236ab5e78766"
+        "sha256": "02364f0dc1423e28bebfb940780a6aa36957a0ab9709c2aa1852538d8866a995"
       },
       "text": "Chillwind Camp. At the southern pass, Chillwind Camp holds the Alliance line against the Scourge. Alliance soldiers and the Argent Dawn strike nearby strongholds and plague cauldrons from this outpost, before the blighted ruins of Lordaeron. Chillwind Camp guards the pass from Chillwind Point into the Western Plaguelands. It is the Alliance's first line of defense and its main base for pressing into the region. High mountain ridges keep the worst corruption at a distance, though the north's dead chill hangs over the tents and palisades.\n\nCommander Ashlam Valorfist leads a small garrison of soldiers, scouts, and Argent Dawn specialists. They contain horrors along the King's Road and gather intelligence to reclaim Lordaeron's fallen fields. Without armies to assault Andorhal or Scholomance, Chillwind Camp depends on independent champions and mercenaries. Its forces strike the Cult of the Damned, disable plague cauldrons poisoning the soil, and keep supply routes open to eastern outposts such as Light's Hope Chapel. Scourge-held ruins lie just north, while the Forsaken fortify the western border. The defenders fight to keep the pass from being overwhelmed."
     },
     "subzone:chillwind-point": {
       "1": [
         {
-          "duration": 57.78285714285715,
-          "file": "Audio/Transport/full_subzone_chillwind-point-0bdaf52c530e1cd98b83/1-0000.mp3",
-          "sha256": "a98943e2beb12826ab0ba324f17dd6cfcca688f5e891d1dc6a3111d03ce319cf",
+          "duration": 58.226938775510206,
+          "file": "Audio/Transport/full_subzone_chillwind-point-b534def9cb5776487ed5/1-0000.mp3",
+          "sha256": "8a2894d12d0d290c76525a1d48fa04643f09e0dbdf46242d8e27b1d23be82d8a",
           "start": 0
         }
       ],
@@ -1291,12 +1291,12 @@
         ]
       },
       "fullHash": "bfcd64",
-      "generation": "9f097c0f35ae1fcd9ea0",
+      "generation": "a3e2fd07fdddace0545c",
       "hash": "bfcd64",
       "source": {
-        "duration": 57.80898,
+        "duration": 58.226939,
         "file": null,
-        "sha256": "0bdaf52c530e1cd98b839f1b673d85d75b17a6a0db38e93b5c4b1a9e2b9e384e"
+        "sha256": "b534def9cb5776487ed54b6b0bd8eeba15672b09898da94a04d35f997f2da5e1"
       },
       "text": "Chillwind Point. At Chillwind Point, cold drafts sweep a rocky rise above the mountain pass. Ancient troll ruins stand where Hillsbrad Foothills, the Alterac Mountains, and the Western Plaguelands meet, and Bath'rah the Windwatcher lives among the stones. Chillwind Point looks down over a ravine at Hillsbrad's edge. The pass leads into the Western Plaguelands, with the Alterac Mountains rising nearby. Long before Lordaeron claimed these routes, ancient trolls raised stone structures on the heights. Their weather-beaten remains still face the elements. Cold winds now blow south through the ravine, carrying the north's chill into the foothills below. Bath'rah the Windwatcher lives among the old stones at Chillwind Point. The jungle troll hermit communes with the violent gales coursing through the gap. Though the heights are bleak and exposed, and Scourge-ravaged lands lie nearby, his camp is not entirely deserted. Travelers and shamans heading north often seek him out to learn the secrets of the mountain currents."
     },
@@ -1433,9 +1433,9 @@
     "subzone:corin-s-crossing": {
       "1": [
         {
-          "duration": 64.3395918367347,
-          "file": "Audio/Transport/full_subzone_corin-s-crossing-6ef30b9bb76f37fe2cb6/1-0000.mp3",
-          "sha256": "61bbdc8ffcf17c5c8d35275d396f6bb492b0c5d0ca7d57a6f43aa9f2ffc9cb94",
+          "duration": 62.64163265306123,
+          "file": "Audio/Transport/full_subzone_corin-s-crossing-c0d88062bfbaaefcff36/1-0000.mp3",
+          "sha256": "c7f6e89a977d1a39da848cc7b308ff283d4a3c57f0ef47d085c0bf0aaad97842",
           "start": 0
         }
       ],
@@ -1447,12 +1447,12 @@
         ]
       },
       "fullHash": "acbf76",
-      "generation": "8a5526867d33ae1b7808",
+      "generation": "adb2a3df0e4c061a2118",
       "hash": "acbf76",
       "source": {
-        "duration": 64.365714,
+        "duration": 62.641633,
         "file": null,
-        "sha256": "6ef30b9bb76f37fe2cb624416e4c470855fd347449212befb4c4eb7593894530"
+        "sha256": "c0d88062bfbaaefcff36ebf59ff1974e791f66fb56f2a223dcf3a258f632f702"
       },
       "text": "Corin's Crossing. The Scourge has overrun Corin's Crossing, where ruined streets mark an old meeting place in south-central Eastern Plaguelands. Once travelers passed through on their way between Stratholme, Tyr's Hand, Darrowshire, and Andorhal. Now horrors haunt the town hall and forge, and unseen watchers drift among the ruins. Before the Third War, Corin's Crossing joined the roads of eastern Lordaeron. Merchants, couriers, and pilgrims stopped at this waystation between Stratholme and the southern strongholds. The settlement stood between Lake Mereldar and the place now blighted as the Infectis Scar. When the plague swept through the province, the undead vanguard reached the town. Corin's Crossing soon fell beneath its assault. The Scourge holds Corin's Crossing now, and wandering undead crowd its muddy streets. Rotting hulks and ghouls linger in the hollowed blacksmith shop and town hall. Scouts face another danger among the ruins. Unseen Servants drift beyond ordinary sight, pierce mundane stealth, and ambush anyone trying to slip past the main horde undetected."
     },
@@ -1485,9 +1485,9 @@
     "subzone:crown-guard-tower": {
       "1": [
         {
-          "duration": 28.760816326530612,
-          "file": "Audio/Transport/full_subzone_crown-guard-tower-edd760736795cc67fdae/1-0000.mp3",
-          "sha256": "bab5c58ac370a1ea35c3c71fcfbec122421d01df071097892de12f46699b3296",
+          "duration": 27.062857142857144,
+          "file": "Audio/Transport/full_subzone_crown-guard-tower-33af8d93f93304cba185/1-0000.mp3",
+          "sha256": "ff501c9191e9566433a88c1700df17e5307f56ccc7fb021a2f9392da044fc4d3",
           "start": 0
         }
       ],
@@ -1499,12 +1499,12 @@
         ]
       },
       "fullHash": "52760c",
-      "generation": "ccd5a6290a10db53b3e7",
+      "generation": "9236daeff707af5e3ca4",
       "hash": "52760c",
       "source": {
-        "duration": 28.786939,
+        "duration": 27.08898,
         "file": null,
-        "sha256": "edd760736795cc67fdae66e35a00951c03bdd1c236ca34547218093fd44503f9"
+        "sha256": "33af8d93f93304cba185823ce73c4073e21c3cf12c6f27d49aff176df03a0edd"
       },
       "text": "Crown Guard Tower. In the southern Eastern Plaguelands, blight surrounds Crown Guard Tower's ruins. The Scourge destroyed it during the invasion of Lordaeron in the Third War. Crown Guard Tower once watched over eastern Lordaeron as part of the Kingdom's defenses. When the Scourge overran the kingdom, they destroyed the tower and left it in ruins. Several fallen towers lie scattered across what are now the Eastern Plaguelands. Charred stones remain here in a land still held by the undead."
     },
@@ -1927,9 +1927,9 @@
     "subzone:darrowshire": {
       "1": [
         {
-          "duration": 71.52326530612245,
-          "file": "Audio/Transport/full_subzone_darrowshire-c3ed6b8b301959d31242/1-0000.mp3",
-          "sha256": "c6947e3075754fb17a967d92aa8d1f3ebd729eb6950b9935e4d657548193b481",
+          "duration": 68.70204081632653,
+          "file": "Audio/Transport/full_subzone_darrowshire-6bc3cefac45f2decef37/1-0000.mp3",
+          "sha256": "241ada3f74b040bb21c3fdc3e7e9b10642d2a1fcea890f8cbc8778a5bd79fd68",
           "start": 0
         }
       ],
@@ -1941,12 +1941,12 @@
         ]
       },
       "fullHash": "7bc6fa",
-      "generation": "7b9aa81165d11a5217a0",
+      "generation": "14f8981f755e7b798cae",
       "hash": "7bc6fa",
       "source": {
-        "duration": 71.549388,
+        "duration": 68.728163,
         "file": null,
-        "sha256": "c3ed6b8b301959d312420eaf5e13dba1d2e58b40f617dddb4c8229542ae7715c"
+        "sha256": "6bc3cefac45f2decef374117837da45a4d0502817eb5fccf34c5b6697025160a"
       },
       "text": "Darrowshire. Darrowshire lies in ruins in the southern hills of the Eastern Plaguelands. Once a peaceful hamlet of Lordaeron, it made a desperate stand against the Scourge during the Third War. Shattered timbers, restless spirits, and bitter memories remain. Darrowshire's villagers fought the Scourge during the Third War. Before plague consumed northern Lordaeron, the humble settlement stood beneath the southern cliffs. Marduk Blackpool, a death knight, and Horgus the Ravager, a ghoul lord, led the besieging force.\n\nThe villagers and local defenders held the line for a time, though the odds were impossible. Then their defense broke, and the Scourge slaughtered the town down to the last soul. Many fallen defenders were raised as ghouls to swell the Scourge's ranks. Darrowshire remains an empty memorial to those who died there. Darrowshire's ruins still bear the weight of the slaughter. The living abandoned the village long ago, but spectral remnants of its townspeople remain trapped there. Travelers report strange sights, including ghostly reenactments of the battle unfolding in silence. Sorrow still clings to the ground, a reminder of what the Scourge took from the kingdom."
     },
@@ -2551,9 +2551,9 @@
     "subzone:eastwall-tower": {
       "1": [
         {
-          "duration": 40.25469387755102,
-          "file": "Audio/Transport/full_subzone_eastwall-tower-f2e275645f36b3985010/1-0000.mp3",
-          "sha256": "2527ce9d11d7fe2e603633a27a75b3e4c5121f01b3c658057326113af52ac972",
+          "duration": 40.48979591836735,
+          "file": "Audio/Transport/full_subzone_eastwall-tower-dcff946156828bf9a33f/1-0000.mp3",
+          "sha256": "9231113251e78c0f1f44d629e5b87df80ca24a15694632dd8ec502ddcc6e0634",
           "start": 0
         }
       ],
@@ -2565,12 +2565,12 @@
         ]
       },
       "fullHash": "d21697",
-      "generation": "4733fa80a1efa3f4b99a",
+      "generation": "5bdefa4237c7b009d977",
       "hash": "d21697",
       "source": {
-        "duration": 40.280816,
+        "duration": 40.489796,
         "file": null,
-        "sha256": "f2e275645f36b3985010ddc426681d7baace680c730a0220ea9cc69ca79e3b8c"
+        "sha256": "dcff946156828bf9a33f27a771d69ed6daef10cf49f50c76cc85b65dde750992"
       },
       "text": "Eastwall Tower. On the eastern road, Eastwall Tower watches over a wilderness still infested with Scourge. Built as a scout tower for Lordaeron, it fell when the Scourge swept across the kingdom during the Third War. Eastwall Tower's broken ramparts look down on roads through Scourge-infested countryside. Built to guard Lordaeron's border, it watched travelers bound for the far reaches of the realm. When the Scourge invaded during the Third War, the outpost fell with the settlements around it. Shattered stone arches and burnt timber remain.\n\nThe Lich King's armies still infest the region. From its high ground, the ruined tower overlooks the eastern roads."
     },
@@ -2811,9 +2811,9 @@
     "subzone:felstone-field": {
       "1": [
         {
-          "duration": 37.06775510204082,
-          "file": "Audio/Transport/full_subzone_felstone-field-0bb073132561af0e599c/1-0000.mp3",
-          "sha256": "c0e0d01eee4277db3f6768d536e19b73f212db31cd1293c4608507e56ff81b54",
+          "duration": 35.604897959183674,
+          "file": "Audio/Transport/full_subzone_felstone-field-0fb1fcafd10a92f201fd/1-0000.mp3",
+          "sha256": "3df3c2304df1f75ded3572a528d42692f3156b7ac13d08326cccaf4f1d03a53e",
           "start": 0
         }
       ],
@@ -2825,12 +2825,12 @@
         ]
       },
       "fullHash": "cc630c",
-      "generation": "9e62a80dc0023f45f46e",
+      "generation": "da7d6fbf5e6157dfa07b",
       "hash": "cc630c",
       "source": {
-        "duration": 37.093878,
+        "duration": 35.63102,
         "file": null,
-        "sha256": "0bb073132561af0e599c0f94b93f13435acb6ec1a6fe11a8313cdaab2f281bf4"
+        "sha256": "0fb1fcafd10a92f201fdfbd5aeb8b73fa2e3684851d492a1fc432db6e01b84a3"
       },
       "text": "Felstone Field. Scourge corruption has claimed Felstone Field in the northwestern Western Plaguelands. Once farmland for Lordaeron, it now lies in ruins beneath a plague cauldron that sends toxic fumes into the air. Felstone Field once fed Lordaeron from a peaceful family farm. When plague swept through the north, the Cult of the Damned and the Scourge quickly seized the homestead. Dead weeds and rot cover the fields now. At the farm’s heart, an enormous plague cauldron churns foul vapors into the sky. Cauldron Lord Bilemaw guards it with skeletal flayers, sorcerers, and ravenous ghouls."
     },
@@ -3019,9 +3019,9 @@
     "subzone:forlorn-cloister": {
       "1": [
         {
-          "duration": 51.8530612244898,
-          "file": "Audio/Transport/full_subzone_forlorn-cloister-f5eee7a170b0ceb2aef1/1-0000.mp3",
-          "sha256": "1c454656860cf1342ae893b0248d74218114471a9a3b6ff4babbeef05d964ac4",
+          "duration": 48.09142857142857,
+          "file": "Audio/Transport/full_subzone_forlorn-cloister-fcbd955679d850c5dbd4/1-0000.mp3",
+          "sha256": "55f479b9d67864a8bce5f3ef9a067381bffd6a651218881ac5c17f54db5ce362",
           "start": 0
         }
       ],
@@ -3033,12 +3033,12 @@
         ]
       },
       "fullHash": "b36ba7",
-      "generation": "7a1170d6225fd92dda0b",
+      "generation": "bdce52aebdc6c8cc0355",
       "hash": "b36ba7",
       "source": {
-        "duration": 51.879184,
+        "duration": 48.091429,
         "file": null,
-        "sha256": "f5eee7a170b0ceb2aef1143b007cd1e99c967d377c557f95e6708a7a20521fa7"
+        "sha256": "fcbd955679d850c5dbd4a3a586e81a461fe6e432920de31bbfd8521414d643cb"
       },
       "text": "Forlorn Cloister. Among the tombs of Forlorn Cloister, the fallen dead rise, and Scarlet Crusaders burn their bodies to stop them. You enter a graveyard where Scarlet Crusaders hurry between tombs with torches. They burn their fallen brothers, but the plague has already tainted the earth beneath them.\n\nOnce, priests and paladins of Lordaeron laid their honoured dead here in peace. Now spectres drift between the crypts, and corpses claw their way from the graves. The Crusaders keep watch, yet dark magic deep in the grounds still calls the dead to rise. Bloodmage Thalnos commands the dead within the cloister. A skeletal sorcerer, he is another of the Monastery's tragedies, lost to undeath and hungry for vengeance. With dark magic, he binds the souls of the deceased and slaughters anyone who enters his blighted graveyard."
     },
@@ -3201,9 +3201,9 @@
     "subzone:fungal-vale": {
       "1": [
         {
-          "duration": 37.06775510204082,
-          "file": "Audio/Transport/full_subzone_fungal-vale-6f7d17ce6cf2b90269d7/1-0000.mp3",
-          "sha256": "173cef2ddc66fbf18015b1bbad3c8773927cf2c44b9a8cba44aaf8b8430cbe99",
+          "duration": 36.33632653061225,
+          "file": "Audio/Transport/full_subzone_fungal-vale-a69630f7a29b44a7a774/1-0000.mp3",
+          "sha256": "2aafde16066c46d7d0d53a9efedad0f70623a32eef09ac5eafe10b394d28f65e",
           "start": 0
         }
       ],
@@ -3215,12 +3215,12 @@
         ]
       },
       "fullHash": "b591a3",
-      "generation": "b21e2ea6f0098824df63",
+      "generation": "2066f9c3415a1f54e8ae",
       "hash": "b591a3",
       "source": {
-        "duration": 37.093878,
+        "duration": 36.336327,
         "file": null,
-        "sha256": "6f7d17ce6cf2b90269d786c4e9f5c19568fe2fc0bcdb67bc54cb50cac7aacffa"
+        "sha256": "a69630f7a29b44a7a7743e36e9da62bc3f52cb92d97f9278bab82a115d96df7c"
       },
       "text": "Fungal Vale. In Fungal Vale, Scourge horrors roam beneath a murky haze, and Cult of the Damned acolytes serve among the fungi. The vale lies in south-central Eastern Plaguelands, north of Crown Guard Tower and Marris Stead. North of Marris Stead, Fungal Vale lies among Lordaeron’s most corrupted places. Sickly purple earth swells with alien fungi beneath a haze of necrotic spores. The Plague of Undeath has warped the soil, raising unholy growths that feed carrion beasts and shambling undead. Members of the Cult of the Damned tend the blighted blooms and perform foul rites amid the decay."
     },
@@ -3253,9 +3253,9 @@
     "subzone:gahrron-s-withering": {
       "1": [
         {
-          "duration": 29.622857142857143,
-          "file": "Audio/Transport/full_subzone_gahrron-s-withering-9d2f5e3ab3722adc043f/1-0000.mp3",
-          "sha256": "1d792365b5ac04c49604d428cee4e694e39974daf6d7190977b22c32cbc659c3",
+          "duration": 28.83918367346939,
+          "file": "Audio/Transport/full_subzone_gahrron-s-withering-b0523d0a76e4e6b630de/1-0000.mp3",
+          "sha256": "dd3862e07ab71f4b944690e802b9508dc4a240011cfd4e4548329af5561f9b28",
           "start": 0
         }
       ],
@@ -3267,21 +3267,21 @@
         ]
       },
       "fullHash": "ab38c4",
-      "generation": "3f53e53eb0d9ee31e600",
+      "generation": "7416a9d766904026ae27",
       "hash": "ab38c4",
       "source": {
-        "duration": 29.64898,
+        "duration": 28.839184,
         "file": null,
-        "sha256": "9d2f5e3ab3722adc043f1cde3e9fa1fbc2345b64c0a969120f4450510b8ea3ff"
+        "sha256": "b0523d0a76e4e6b630de7302dc6870cb91a1d56b48db186cd3b5ddfa7381fc9d"
       },
       "text": "Gahrron's Withering. At Gahrron's Withering, the Scourge foul an old Lordaeron farm beside the road to the Eastern Plaguelands. A massive cauldron sends plague vapors into the air. Before the Third War, this farm fed Lordaeron with grain. Then the Cult of the Damned and the Scourge swept across the land, and the fields fell silent. Now the farmstead is broken and derelict. Haunting visions, wailing wraiths, and restless spirits roam its ruined outbuildings under Scourge overseers sworn to the Lich King."
     },
     "subzone:gallery-of-treasures": {
       "1": [
         {
-          "duration": 39.60163265306122,
-          "file": "Audio/Transport/full_subzone_gallery-of-treasures-a82d47e97eb46ba0c976/1-0000.mp3",
-          "sha256": "e3d401dafd67cbc99bbced482ce0565a3fb729669d2cb9b435fced799627ea69",
+          "duration": 37.30285714285714,
+          "file": "Audio/Transport/full_subzone_gallery-of-treasures-7456a8c399b8229fa13b/1-0000.mp3",
+          "sha256": "a68b9a9b8531123b0f84e7040f048e21dcd3019422d15bbe31cf09a8c9df30dc",
           "start": 0
         }
       ],
@@ -3293,12 +3293,12 @@
         ]
       },
       "fullHash": "8b0c06",
-      "generation": "f63023ab1effd5bf66ad",
+      "generation": "829b245de6ad555b823d",
       "hash": "8b0c06",
       "source": {
-        "duration": 39.601633,
+        "duration": 37.302857,
         "file": null,
-        "sha256": "a82d47e97eb46ba0c9762f789e114867c191647fd7027888c8a67f4f94bd34fd"
+        "sha256": "7456a8c399b8229fa13b0d66723d3a03c480c280704d32a99e850dd645af0b7e"
       },
       "text": "Gallery of Treasures. In the Scarlet Monastery, the Gallery of Treasures joins the Huntsman's Cloister to the Athenaeum. The Scarlet Crusade guards a corridor of Lordaeron's paintings, relics, and illuminated texts as it wages war against the undead. Deep in the Library wing, the Gallery of Treasures runs from the Huntsman's Cloister kennels to the Athenaeum archives. Paintings and historical artifacts line the corridor. Small chambers hold books salvaged from across fallen Lordaeron.\n\nThe Scarlet Crusade calls these relics humanity's untainted legacy and has sworn to protect that heritage. Its zealots guard the passage against outsiders who enter their sanctuary."
     },
@@ -3747,9 +3747,9 @@
     "subzone:hall-of-champions": {
       "1": [
         {
-          "duration": 30.98122448979592,
-          "file": "Audio/Transport/full_subzone_hall-of-champions-60132f4ec7553c28135a/1-0000.mp3",
-          "sha256": "f30ec7693a231b576f07ee6f9e1c0d47953c7535c7b48f1c805898b7c4c8fc8d",
+          "duration": 29.15265306122449,
+          "file": "Audio/Transport/full_subzone_hall-of-champions-37f6f8ced5cc72ecdf9a/1-0000.mp3",
+          "sha256": "4aa9692e0ac60b5ba7b4afffddd583a4fb5a486ba2145c50eb7d878722feb5df",
           "start": 0
         }
       ],
@@ -3761,12 +3761,12 @@
         ]
       },
       "fullHash": "96e3c5",
-      "generation": "5c5d27da9151c749b83a",
+      "generation": "de4c56a5536858e8fe57",
       "hash": "96e3c5",
       "source": {
-        "duration": 31.007347,
+        "duration": 29.152653,
         "file": null,
-        "sha256": "60132f4ec7553c28135aaaa1f66548b9985e379406808e19cad7c33878120aab"
+        "sha256": "37f6f8ced5cc72ecdf9a131065d05dde4b45b0b640aeb4ce10766aaa7ec012d6"
       },
       "text": "Hall of Champions. Within the Scarlet Monastery's armory wing, the Hall of Champions tests the Crusade's elite. Herod, the Scarlet Champion, leads its fiercest fighters from this inner sanctum. Beyond the Footman's Armory, you come to the Hall of Champions at the heart of the monastery's armory wing. Herod, the Scarlet Champion, commands the Crusade's fiercest fighters here.\n\nScarlet trainees sharpen their resolve and skill for the Crusade's aim: to purge Lordaeron of all undead and outsiders."
     },
@@ -3799,9 +3799,9 @@
     "subzone:hammerfall": {
       "1": [
         {
-          "duration": 65.04489795918367,
-          "file": "Audio/Transport/full_subzone_hammerfall-ce04defb3c6959a19ac3/1-0000.mp3",
-          "sha256": "00b6c3e44e2c47e34a731dfa25a55d725076b8851b540d3739950f261a68dd63",
+          "duration": 62.56326530612245,
+          "file": "Audio/Transport/full_subzone_hammerfall-7fb5a3f9eb92de2ee64f/1-0000.mp3",
+          "sha256": "c541989aaa54ced94377c9825ea49f3d8ee6a62e710a7427e0524ec7c3544009",
           "start": 0
         }
       ],
@@ -3813,12 +3813,12 @@
         ]
       },
       "fullHash": "ba654c",
-      "generation": "4c42f0e78d2abd824850",
+      "generation": "ef05cafc31ec0a6fe5e9",
       "hash": "ba654c",
       "source": {
-        "duration": 65.07102,
+        "duration": 62.563265,
         "file": null,
-        "sha256": "ce04defb3c6959a19ac326380d9c42666008207533f30abc3ceca3a6318f2885"
+        "sha256": "7fb5a3f9eb92de2ee64fc71459a1aba197c4bcfe226a47094fe8224b6615a304"
       },
       "text": "Hammerfall. Horde forces hold Hammerfall in the Arathi Highlands, where old losses and a hard-won freedom shape the outpost. Orcs and Forsaken defend it against Boulderfist ogres, Witherbark trolls, and the League of Arathor. Beneath Hammerfall lie the ruins of an Alliance internment camp. After the Second War, the human Alliance built vast camps across Lordaeron for defeated orcs, and this was among the largest. Years later, Thrall and Orgrim Doomhammer struck at the camp to free its lethargic captives.\n\nAs they retreated, an Alliance knight charged and drove a lance through Doomhammer's backplate. The Warchief was mortally wounded. After the Third War, the new Horde reclaimed the ruins and named its outpost Hammerfall in his memory. Hammerfall gives the Horde a foothold in Arathi. Its garrison faces aggressive Boulderfist ogres from Boulder'gor and Boulderfist Hall, as well as the native Witherbark trolls. Forsaken Defilers use the outpost to claim resources in the contested Arathi Basin. There they oppose the Alliance's League of Arathor."
     },
@@ -3851,9 +3851,9 @@
     "subzone:hearthglen": {
       "1": [
         {
-          "duration": 80.22204081632654,
-          "file": "Audio/Transport/full_subzone_hearthglen-6cb806d2230f19e69150/1-0000.mp3",
-          "sha256": "c01517ecc5959c5465f30bb415a5b16a503359c6dd2e7528717453949f4acd08",
+          "duration": 78.31510204081633,
+          "file": "Audio/Transport/full_subzone_hearthglen-283b732fdc4bf11fb155/1-0000.mp3",
+          "sha256": "9ae25b39b006873cf9764ba9d5ddb5700d4d0a7a31043d9b3f1927712a001f40",
           "start": 0
         }
       ],
@@ -3865,12 +3865,12 @@
         ]
       },
       "fullHash": "039a0c",
-      "generation": "64419ef2fc8c80f7b63d",
+      "generation": "27a0b41d15d288038831",
       "hash": "039a0c",
       "source": {
-        "duration": 80.248163,
+        "duration": 78.315102,
         "file": null,
-        "sha256": "6cb806d2230f19e69150d623c5d1c6af2ae4164c705c879153cc4f0a33a0c394"
+        "sha256": "283b732fdc4bf11fb15500da0d0b3c318bd6213bc16cc9f6d5924467f2024abb"
       },
       "text": "Hearthglen. In the northern hills of the Western Plaguelands, Hearthglen holds firm. Its walls survived Lordaeron's fall, and the Scarlet Crusade now uses the settlement and its farmlands as a northern stronghold and training ground. Hearthglen still looks like a living town of Lordaeron, while nearby Andorhal lies in skeletal ruin. Its lumber mill, scout towers, stables, and working mine are still here. Lord Tirion Fordring once governed from Mardenholde Keep. During the Second War, Hearthglen prospered and stood staunchly defended.\n\nWhen the Plague of Undeath swept Lordaeron during the Third War, Prince Arthas Menethil intercepted tainted grain here. He purged the infected townsfolk and joined Uther the Lightbringer to repel a massive Scourge siege. Hearthglen's formidable walls survived intact. After the kingdom's collapse, the Silver Hand fell into disarray. Tirion's son, Taelan Fordring, renounced the order and joined the Scarlet Crusade. Grief and zealotry soon consumed the fortress. Scarlet crusaders now patrol Hearthglen's approaches and man its ramparts. They execute any outsider, living or undead, who trespasses on their land.\n\nHighlord Taelan Fordring rules from Mardenholde Keep. From there, he serves the Crusade's uncompromising war against the Plaguelands."
     },
@@ -4579,9 +4579,9 @@
     "subzone:lake-mereldar": {
       "1": [
         {
-          "duration": 56.6595918367347,
-          "file": "Audio/Transport/full_subzone_lake-mereldar-a015a9de517521089537/1-0000.mp3",
-          "sha256": "54a4a7cc42fa786a194275e3ce0c9781535f2e3ab9926330ed286aba4113ebc1",
+          "duration": 59.21959183673469,
+          "file": "Audio/Transport/full_subzone_lake-mereldar-bcd7bcc2fb24fd6fb21c/1-0000.mp3",
+          "sha256": "05843a7967e724d1036e2832ef4f521b3ae1f49d67fd952ba78a8d8c8e76f5f3",
           "start": 0
         }
       ],
@@ -4593,12 +4593,12 @@
         ]
       },
       "fullHash": "431809",
-      "generation": "af429e5c76f685a406c4",
+      "generation": "6f260685a3ed5aa174dc",
       "hash": "431809",
       "source": {
-        "duration": 56.685714,
+        "duration": 59.219592,
         "file": null,
-        "sha256": "a015a9de51752108953705bb354f3105560daa6da6442131cf5fe14ca6b7658b"
+        "sha256": "bcd7bcc2fb24fd6fb21c57f71078cc5d3a46e367ee84a11241021ea87d67e242"
       },
       "text": "Lake Mereldar. Lake Mereldar's waters south of Corin's Crossing have turned foul and corrupted. Once part of Lordaeron's rural heartland, the lake now breeds twisted elementals beneath the Scourge's lingering taint. South of Corin's Crossing, Lake Mereldar rests among the old farms of northern Lordaeron. Ruins of a homestead, an abandoned shack, and a worn ferry mark its shores. Farmers and travelers once crossed its gentle waters by ferry.\n\nThen the Scourge brought its plague of undeath, and the lake and its surroundings fell into ruin. The soil withered, and the water turned foul and poisonous. The blight in Lake Mereldar has tainted the water and the spirits bound to it. Blighted Surges are corrupted water elementals, driven mad by necromantic residue. They lurk in the shallows and surface without warning.\n\nPlague Ravagers prowl the muddy, weed-choked banks. They hunt living creatures that stray near the dead shoreline."
     },
@@ -5047,9 +5047,9 @@
     "subzone:mardenholde-keep": {
       "1": [
         {
-          "duration": 41.97877551020408,
-          "file": "Audio/Transport/full_subzone_mardenholde-keep-0742783ef30eab96328e/1-0000.mp3",
-          "sha256": "60bf0e1158d5b99f83fd276f56bb98df41d8ab69bb0231d50dce3ccfedbcd691",
+          "duration": 40.881632653061224,
+          "file": "Audio/Transport/full_subzone_mardenholde-keep-144904f338068ca71359/1-0000.mp3",
+          "sha256": "3b22da1914ec94aa8d559e410d7566d84d5fdc0a78b9792519684637965306bd",
           "start": 0
         }
       ],
@@ -5061,21 +5061,21 @@
         ]
       },
       "fullHash": "64b6e2",
-      "generation": "b411859aaa500326fe20",
+      "generation": "cb0a72b6501f2d15d5c8",
       "hash": "64b6e2",
       "source": {
-        "duration": 42.004898,
+        "duration": 40.907755,
         "file": null,
-        "sha256": "0742783ef30eab96328ec0309e6709241cb91ca610c5f8bb4ec5a438c2f1ae93"
+        "sha256": "144904f338068ca713591adc93812308466dc0afca2cef23dc8c12c8c913511c"
       },
       "text": "Mardenholde Keep. In western Lordaeron, the Scarlet Crusade holds Hearthglen from Mardenholde Keep. Highlord Taelan Fordring rules from the fortress once held by his father, Tirion. Mardenholde Keep once governed the principality of Hearthglen and the vales around it. Lord Tirion Fordring ruled from its council chambers with trusted advisors, keeping peace across the region. For generations, Lordaeron's people praised the fortress because it never fell during the Second War.\n\nThen Tirion defended the orc Eitrigg and was exiled. Governance passed to his ambitious apprentice, Barthilas, and later to Tirion's son, Taelan. Taelan inherited his father's domain on the eve of Lordaeron's destruction."
     },
     "subzone:marris-stead": {
       "1": [
         {
-          "duration": 11.624489795918368,
-          "file": "Audio/Transport/full_subzone_marris-stead-68ff57de363ea5baca22/1-0000.mp3",
-          "sha256": "3494a7b3ddc82a84d7a97495ad0a7cf3dd733e60fdf4780e89bb082406e95bcb",
+          "duration": 10.344489795918367,
+          "file": "Audio/Transport/full_subzone_marris-stead-243e155d0224ed24c161/1-0000.mp3",
+          "sha256": "88b898a668bd1123322fc2e14fbe86480449b15dd17a4fef1964c041a550aa61",
           "start": 0
         }
       ],
@@ -5087,12 +5087,12 @@
         ]
       },
       "fullHash": "072911",
-      "generation": "983449ad8e2b07bac567",
+      "generation": "445eb55add1d4441d299",
       "hash": "072911",
       "source": {
-        "duration": 11.650612,
+        "duration": 10.370612,
         "file": null,
-        "sha256": "68ff57de363ea5baca224a043a63ee0b543cf5833911661adc731cebd27ce052"
+        "sha256": "243e155d0224ed24c1619023bdae44ec282bfb8a8c47b1c7cab38d9a1b804144"
       },
       "text": "Marris Stead. In the southwestern Eastern Plaguelands, Nathanos Blightcaller holds Marris Stead. Once a peaceful Lordaeron homestead, the ridge now shelters his lonely, heavily defended redoubt."
     },
@@ -5853,9 +5853,9 @@
     "subzone:northpass-tower": {
       "1": [
         {
-          "duration": 39.10530612244898,
-          "file": "Audio/Transport/full_subzone_northpass-tower-4b0482f6d4be33832574/1-0000.mp3",
-          "sha256": "c980e247576c2846f3eaf2272ddbcdbc61980e74b46752c74e421abd7794b265",
+          "duration": 36.8065306122449,
+          "file": "Audio/Transport/full_subzone_northpass-tower-9061523ae0828e1f3809/1-0000.mp3",
+          "sha256": "39a009d50818b317fddbed4af586dbfac24c20ca45bda6b75de0679bebea2d50",
           "start": 0
         }
       ],
@@ -5867,21 +5867,21 @@
         ]
       },
       "fullHash": "277edd",
-      "generation": "c5c6590a1b205f1b23f6",
+      "generation": "7d630f94c6fa2dd38779",
       "hash": "277edd",
       "source": {
-        "duration": 39.131429,
+        "duration": 36.806531,
         "file": null,
-        "sha256": "4b0482f6d4be33832574f1f1f587bf39542af5e2c54ff4ad21d13d48e8d54b8e"
+        "sha256": "9061523ae0828e1f3809b914564ae266bdbaf4d88a8a86685e88d7d4577e5613"
       },
       "text": "Northpass Tower. Northpass Tower watches over the northern road to Quel'Thalas as a ruin. Shattered during the Third War, the old Lordaeron scout tower still looks toward the elven lands. Northpass Tower once guarded Lordaeron's road north into Quel'Thalas. During the Scourge invasion, the tower was reduced to a broken shell. From its high ground, it still overlooks the frontier between Stratholme's blighted outskirts and the distant elven lands. No garrison mans Northpass Tower today. Its broken walls stand beside the road, now haunted by the Scourge. The ruin marks the watch Lordaeron once kept over the route to Quel'Thalas."
     },
     "subzone:northridge-lumber-camp": {
       "1": [
         {
-          "duration": 61.884081632653064,
-          "file": "Audio/Transport/full_subzone_northridge-lumber-camp-0e68fe0567ec4535e051/1-0000.mp3",
-          "sha256": "0eeab6d2e0573ad694da11f7571dca3c31813d07a7274a6d0205b5758dfe38b1",
+          "duration": 59.924897959183674,
+          "file": "Audio/Transport/full_subzone_northridge-lumber-camp-abacfe8b3989ffce6c87/1-0000.mp3",
+          "sha256": "a54bd2c3c3b61c79ab40a90547c88878dd9a75c5629ef82c1c35196118882e64",
           "start": 0
         }
       ],
@@ -5893,12 +5893,12 @@
         ]
       },
       "fullHash": "1364ad",
-      "generation": "0de5f490553c63999d61",
+      "generation": "bf6f2cce5d488fd9f61a",
       "hash": "1364ad",
       "source": {
-        "duration": 61.910204,
+        "duration": 59.924898,
         "file": null,
-        "sha256": "0e68fe0567ec4535e051b47cae250e92fa686f001fa296a262dd652a5c709bd1"
+        "sha256": "abacfe8b3989ffce6c877bf92d703ebe6fbbb51c6fc6b7cda40daa874d296bdd"
       },
       "text": "Northridge Lumber Camp. Scarlet Crusade guards hold Northridge Lumber Camp, an active, fortified mill in the hills near Hearthglen. Its timber feeds nearby strongholds, and the Alliance and Horde seek ways to cripple the Crusade’s supply. Scarlet Crusade workers fell and process timber at Northridge Lumber Camp, despite the plague in the surrounding forests. The mill lies down the road from Hearthglen, in the northern hills of the Western Plaguelands. Its wood builds fortifications, repairs watchtowers, and sustains the Crusade’s war effort in Lordaeron. Guards and laborers garrison the camp in force, defending it from the Scourge and trespassers. Hearthglen depends on Northridge Lumber Camp for timber to maintain its defenses. That need makes the mill a target for outside forces. Alliance commanders and Horde scouts know a direct assault on fortified Crusade positions would cost dearly. So their agents seek quieter ways to sabotage the operation, such as releasing wood-boring termites into the lumber stores and spoiling the Crusade’s supplies from within."
     },
@@ -6113,9 +6113,9 @@
     "subzone:pestilent-scar": {
       "1": [
         {
-          "duration": 49.711020408163265,
-          "file": "Audio/Transport/full_subzone_pestilent-scar-b9e5d7894127df7aa378/1-0000.mp3",
-          "sha256": "0ced454ab39d611eff6a90dff1404bd2e9d67048d256ae1fa9cbff3584880f09",
+          "duration": 52.480000000000004,
+          "file": "Audio/Transport/full_subzone_pestilent-scar-eeb4d20f43f9259320f6/1-0000.mp3",
+          "sha256": "70e312133741f474ffed507ee1017da00fa52bd8d51a22210496ea33792415ac",
           "start": 0
         }
       ],
@@ -6127,21 +6127,21 @@
         ]
       },
       "fullHash": "517da7",
-      "generation": "61e68abb7708d5acbfba",
+      "generation": "07e5a069281d2fd9da44",
       "hash": "517da7",
       "source": {
-        "duration": 49.737143,
+        "duration": 52.506122,
         "file": null,
-        "sha256": "b9e5d7894127df7aa3788143fe3cad26f97abd562f6405d6d4fa0818ce35ea25"
+        "sha256": "eeb4d20f43f9259320f6a58d370a5caf98a14963b8b5a5b6d532aa6183b2b682"
       },
       "text": "Pestilent Scar. In the Eastern Plaguelands, ravenous oozes churn across the floor of Pestilent Scar. The hollow seems older than the Scourge blight that fills it. Pestilent Scar cuts through the eastern reaches of the Eastern Plaguelands, a gloomy rift in corrupted land. Nearby, sudden eruptions of the Plague of Undeath tore open Infectis Scar. Pestilent Scar seems to have formed naturally, perhaps as a deep river canyon or a lake that dried when the Scourge swept across Lordaeron. Barren at first, the trench gradually filled with noxious runoff and foul slime. Without pure water and under constant unholy decay, the hollow now breeds mutated, acidic slimes and carrion vermin. Crossing its crumbling rim is dangerous. Acrid fumes choke the air above the drop, and unstable soil can send the unwary into the churning muck."
     },
     "subzone:plaguemist-ravine": {
       "1": [
         {
-          "duration": 56.79020408163265,
-          "file": "Audio/Transport/full_subzone_plaguemist-ravine-d0925a3db14d41c38c22/1-0000.mp3",
-          "sha256": "e4da8f3adeb5a4c915f83c2b2feb94296077b3b152343610ec54a5f1ba4d6346",
+          "duration": 56.267755102040816,
+          "file": "Audio/Transport/full_subzone_plaguemist-ravine-220ec377b823b82a1fc6/1-0000.mp3",
+          "sha256": "000400119c947270b7c32a54aa1f94dee507c7bff9eb3ecd655e75cc6c265b68",
           "start": 0
         }
       ],
@@ -6153,12 +6153,12 @@
         ]
       },
       "fullHash": "00b5ce",
-      "generation": "efbdbbfd86c4fabe1d73",
+      "generation": "1c7842b30b6736066dd6",
       "hash": "00b5ce",
       "source": {
-        "duration": 56.816327,
+        "duration": 56.267755,
         "file": null,
-        "sha256": "d0925a3db14d41c38c220916953e687162483481c6c1f07ad1e7b8bda1b0d8db"
+        "sha256": "220ec377b823b82a1fc68216d9eb3d38ff8cd50bc96ff2fa64b05e4c1845306c"
       },
       "text": "Plaguemist Ravine. In western Plaguelands, sickly fog drifts south through Plaguemist Ravine. The narrow passage links the Hinterlands to Darrowmere Lake and offers a quiet, desolate route across the range. Northwest of Quel'Danil Lodge, Plaguemist Ravine cuts between the Hinterlands and the Western Plaguelands. Lush, untamed highland forest lies to the south. Northward, the pass opens onto Caer Darrow and the blighted shores of Darrowmere Lake. The two realms could hardly be more different. Foul vapors creep south from the Plaguelands, meeting the crisp mountain air of the neighboring wilderness. Though the ravine cuts into Scourge-ravaged territory, it remains remarkably deserted. No wild beasts or wandering undead linger in the gorge. Its winding path makes a convenient, if ominous, back road for daring couriers and adventurers. They can use it to bypass the heavily fortified highways and border checkpoints leading into Lordaeron."
     },
@@ -6191,9 +6191,9 @@
     "subzone:plaguewood-tower": {
       "1": [
         {
-          "duration": 31.738775510204082,
-          "file": "Audio/Transport/full_subzone_plaguewood-tower-7644d612943fcbf8640a/1-0000.mp3",
-          "sha256": "bd987c4d2b369dcb64915642ca6df17dd560e6fef10316fae20429c23dea7775",
+          "duration": 29.857959183673472,
+          "file": "Audio/Transport/full_subzone_plaguewood-tower-66601c56081724cef5a1/1-0000.mp3",
+          "sha256": "9c26cdaf3f9f269815139e1f07a62de6410540442b57346d5e2950caa061f489",
           "start": 0
         }
       ],
@@ -6205,12 +6205,12 @@
         ]
       },
       "fullHash": "c7152c",
-      "generation": "45a609668ea761ad0b37",
+      "generation": "9f5c5cb55450411eff5f",
       "hash": "c7152c",
       "source": {
-        "duration": 31.764898,
+        "duration": 29.857959,
         "file": null,
-        "sha256": "7644d612943fcbf8640aa5102086e1fd0540e149a0f6ff0ddc36c96440e3ba02"
+        "sha256": "66601c56081724cef5a11dcd77680ba24cbc95f453433a8015e906902f1ffae2"
       },
       "text": "Plaguewood Tower. Plaguewood Tower watches over the northern trails near Terrordale, its stones broken. Lordaeron kept a watchpost here until the Scourge invasion brought it to ruin. Plaguewood Tower's fractured stones overlook the northern trails between the Plaguewood and blighted Terrordale. The Kingdom of Lordaeron kept this post to guard the region.\n\nWhen the Scourge swept across the land, the tower was battered into ruins among corrupted fungal canopies. Its broken walls still face the trails, the last remnant of Lordaeron's watch here."
     },
@@ -6295,9 +6295,9 @@
     "subzone:quel-lithien-lodge": {
       "1": [
         {
-          "duration": 39.157551020408164,
-          "file": "Audio/Transport/full_subzone_quel-lithien-lodge-2fa9ed5d0b575acf2737/1-0000.mp3",
-          "sha256": "a0f6b616f088abc3f7b94f2d33c0d8447b555e27998f2b9a067527cf6be600de",
+          "duration": 39.053061224489795,
+          "file": "Audio/Transport/full_subzone_quel-lithien-lodge-4e970d37be43fd6a9a09/1-0000.mp3",
+          "sha256": "ff4b8306fa448824644c6bf9807f70af541dfcef62f3a973299af95c9597e1d6",
           "start": 0
         }
       ],
@@ -6309,12 +6309,12 @@
         ]
       },
       "fullHash": "1fb708",
-      "generation": "07adeda19eab25970de9",
+      "generation": "4ed97dd254f2edfadb49",
       "hash": "1fb708",
       "source": {
-        "duration": 39.183673,
+        "duration": 39.053061,
         "file": null,
-        "sha256": "2fa9ed5d0b575acf27378e075b32de9fe06191f13a7f63dc71598ac7fbe3af59"
+        "sha256": "4e970d37be43fd6a9a09be1400fec7234e0173245830da2a9d14e1ed14dc7382"
       },
       "text": "Quel'Lithien Lodge. Farstrider rangers keep watch at Quel'Lithien Lodge, amid the blighted woods of the Eastern Plaguelands. The high elven hunting lodge stands among the northern hills near the entrance to Quel'Thalas. The Scourge surround it, and Forsaken agents hunt its rangers as they guard old elven archives. Before the Third War, Farstriders kept camp at Quel'Lithien on the road to Quel'Thalas. The lodge held records of the ranger order. Then the Scourge swept through Lordaeron and into the elven kingdom, and the lodge's fortunes worsened. Now its rangers watch over the corrupted forest. They are one of only two major concentrations of high elves left in Lordaeron."
     },
@@ -6581,9 +6581,9 @@
     "subzone:ruins-of-alterac": {
       "1": [
         {
-          "duration": 76.7738775510204,
-          "file": "Audio/Transport/full_subzone_ruins-of-alterac-82ec89adde54fc72ecb3/1-0000.mp3",
-          "sha256": "9b1f0a07bdd81a346790bb0c3a7e147ab6b908270578e44c8e8e67a5dae14545",
+          "duration": 71.81061224489797,
+          "file": "Audio/Transport/full_subzone_ruins-of-alterac-fa894c1f926773e56dcb/1-0000.mp3",
+          "sha256": "fe88de24136aea0770380f2a5aa3cf642c02de633919600b60d0fb2c21f7f862",
           "start": 0
         }
       ],
@@ -6595,21 +6595,21 @@
         ]
       },
       "fullHash": "3df961",
-      "generation": "9fec93a57d14f019d9b9",
+      "generation": "580d195c800d47f21359",
       "hash": "3df961",
       "source": {
-        "duration": 76.773878,
+        "duration": 71.836735,
         "file": null,
-        "sha256": "82ec89adde54fc72ecb3fcd06d00b96fdf2e027e283533f1f35e8d22e317d461"
+        "sha256": "fa894c1f926773e56dcb4483acaddd9cb320602087ae900bf4491e6b197226ac"
       },
       "text": "Ruins of Alterac. Snow lies over the Ruins of Alterac, where Crushridge ogres now hold the old mountain capital. After King Aiden Perenolde betrayed the Alliance in the Second War, Alterac was cast out and placed under martial law. Alterac once ruled as an independent human realm, carved from the old Arathor empire and set high on mountain trade routes. During the Second War, King Aiden Perenolde feared the invading Old Horde would destroy his kingdom, so he secretly made a pact with the orcs. After the fighting at Caer Darrow, the betrayal came to light. The Alliance of Lordaeron struck swiftly.\n\nKing Terenas Menethil II placed the city under martial law and deposed Perenolde. The people fled or turned to outlawry, and the grand fortifications, church, and palace fell into disrepair. Surviving Alteraci nobles and rogue soldiers formed the Syndicate. They waged guerrilla campaigns from towns like Strahnbrad, but lost their ancestral capital. Today, Crushridge ogres under Mug'thol dwell among broken ramparts, palace halls, and wrecked ballistae. Neither the Syndicate nor Southshore's human defenders have reclaimed the fallen city.\n\nIts crumbling towers and abandoned vaults remain dangerous ground for treasure hunters and scavengers."
     },
     "subzone:ruins-of-andorhal": {
       "1": [
         {
-          "duration": 38.53061224489796,
-          "file": "Audio/Transport/full_subzone_ruins-of-andorhal-c69c302aacecc477b47f/1-0000.mp3",
-          "sha256": "6f76be8224e2be38e79a6b957df223659f89148c64da8f675db5f788abd87b4b",
+          "duration": 38.24326530612245,
+          "file": "Audio/Transport/full_subzone_ruins-of-andorhal-63b22e8fb663e6bc4821/1-0000.mp3",
+          "sha256": "5adc42e1aefd3ba87cbfa8df48490f5e51877101af2bd31215c04fa69b07a2ad",
           "start": 0
         }
       ],
@@ -6621,12 +6621,12 @@
         ]
       },
       "fullHash": "364159",
-      "generation": "004c653f0343b80db8eb",
+      "generation": "29067fe4c1ea04e704d8",
       "hash": "364159",
       "source": {
-        "duration": 38.556735,
+        "duration": 38.269388,
         "file": null,
-        "sha256": "c69c302aacecc477b47ffd2c07099eba61595684204adac0300d7af14d6208e6"
+        "sha256": "63b22e8fb663e6bc4821451db577922a30fe6fd2058254704ba443f573d64da5"
       },
       "text": "Ruins of Andorhal. In the Western Plaguelands, Andorhal’s ruined streets belong to the Scourge. Once northern Lordaeron’s grain hub, the town now teems with undead abominations, ghouls, and wraiths under Araj the Summoner. Andorhal packed the Cult of the Damned’s tainted grain and sent it across the human kingdom. That grain began Lordaeron’s plague of undeath. Now the ruined city is a Scourge stronghold in the Western Plaguelands. Araj the Summoner holds its center, surrounded by ghouls, skeletal horrors, and towering flesh golems. Scarlet Crusade scouting parties sometimes probe the outskirts, but the Scourge rules the shattered streets."
     },
@@ -7205,9 +7205,9 @@
     "subzone:scarlet-basilica": {
       "1": [
         {
-          "duration": 37.06775510204082,
-          "file": "Audio/Transport/full_subzone_scarlet-basilica-d5e66f0f093cc08a7dbe/1-0000.mp3",
-          "sha256": "136d887a53105daebc9ff7a5e0c6cfbb727b8b56257b9959740295c86fe9145b",
+          "duration": 35.44816326530612,
+          "file": "Audio/Transport/full_subzone_scarlet-basilica-ff23ace55aebdc806a74/1-0000.mp3",
+          "sha256": "196bf0788ceadebfd44f48366802852ec625a9feba1a0c7ed8e956f0daf0e1c7",
           "start": 0
         }
       ],
@@ -7219,12 +7219,12 @@
         ]
       },
       "fullHash": "a749d2",
-      "generation": "98f3d578a037955b9619",
+      "generation": "a1ebcf92c42d00668054",
       "hash": "a749d2",
       "source": {
-        "duration": 37.067755,
+        "duration": 35.448163,
         "file": null,
-        "sha256": "d5e66f0f093cc08a7dbe4fac1a72c298dcc2e518665cc42157ac95d159254180"
+        "sha256": "ff23ace55aebdc806a741ae8a4b62a08e05fd1ef25e93302b60777c110819b43"
       },
       "text": "Scarlet Basilica. At Tyr's Hand, Scarlet Basilica commands the Scarlet Crusade's eastern forces. Crusader Lord Valdelmar oversees the cathedral, a stronghold against the Scourge in the Eastern Plaguelands. At Tyr's Hand, Scarlet Basilica rises above the Eastern Plaguelands as the Scarlet Crusade's cathedral and command center. The Scarlet Monastery in Tirisfal Glades remains the order's spiritual heart, while the basilica anchors its surviving stronghold in Lordaeron. Elite crusaders guard its walls. Inside, Crusader Lord Valdelmar directs the local defense and drives away outsiders who approach."
     },
@@ -7283,9 +7283,9 @@
     "subzone:scarlet-monastery-cathedral": {
       "1": [
         {
-          "duration": 32.862040816326534,
-          "file": "Audio/Transport/full_subzone_scarlet-monastery-cathedral-8cde9b7ceb2cad5a66c9/1-0000.mp3",
-          "sha256": "5b05d95df065e02b0a54d82d54a12ac7a14d3a6ea40c2b429f75eede876471ae",
+          "duration": 31.373061224489796,
+          "file": "Audio/Transport/full_subzone_scarlet-monastery-cathedral-dd93e1863e8a92fd58d9/1-0000.mp3",
+          "sha256": "8aff55e12a7f6175c84e5603dcc424724b486b335230b618f1b5ffdd1111129a",
           "start": 0
         }
       ],
@@ -7297,21 +7297,21 @@
         ]
       },
       "fullHash": "7ce225",
-      "generation": "b579e97b50bb810c1d2a",
+      "generation": "3c22e24e88742b53dda0",
       "hash": "7ce225",
       "source": {
-        "duration": 32.888163,
+        "duration": 31.373061,
         "file": null,
-        "sha256": "8cde9b7ceb2cad5a66c9f6d0312e1d1fd06b43d7393e63f4c6464d31714d9ca9"
+        "sha256": "dd93e1863e8a92fd58d930f414d05b8cc5082163f63911d865c12857deb9bc48"
       },
       "text": "Scarlet Monastery Cathedral. Within Scarlet Monastery Cathedral, the Crusade keeps its inner sanctum and command seat. After the Third War, hatred took hold of the Cathedral. The Scourge destroyed Lordaeron, and its surviving zealots turned the complex from a peaceful place of prayer and learning into a stronghold. Beyond the Chapel Gardens stands the grand Crusader's Chapel. There, priests and warriors gather in devotion to their cause. They see every outsider, whatever their race or faction, as a bearer of the undead plague, to be purged by blade and holy fire."
     },
     "subzone:scarlet-monastery-graveyard": {
       "1": [
         {
-          "duration": 65.98530612244897,
-          "file": "Audio/Transport/full_subzone_scarlet-monastery-graveyard-2d8c2bd207f8b1e42fb9/1-0000.mp3",
-          "sha256": "af1b6dead27849c1e16202894a0ac6d75a8ab214d27e582b8b6b7bd19a0408ea",
+          "duration": 63.92163265306122,
+          "file": "Audio/Transport/full_subzone_scarlet-monastery-graveyard-80112843ddbfb7c9cad6/1-0000.mp3",
+          "sha256": "8bdaaf3f50c4579e43c350425c55822b0da10a0abc991d9a6d28976c720215dd",
           "start": 0
         }
       ],
@@ -7323,21 +7323,21 @@
         ]
       },
       "fullHash": "43caa5",
-      "generation": "3d1cb01debe808f5ddfd",
+      "generation": "540e72e3afa79711a4c2",
       "hash": "43caa5",
       "source": {
-        "duration": 66.011429,
+        "duration": 63.921633,
         "file": null,
-        "sha256": "2d8c2bd207f8b1e42fb93a502a91e0d8168862c3e6b58f9f16ff3a1ed07f6466"
+        "sha256": "80112843ddbfb7c9cad664dfd8f84e9c7c75d841540c22f225cb69fd53f98682"
       },
       "text": "Scarlet Monastery Graveyard. Undead haunt Scarlet Monastery Graveyard in northeastern Tirisfal Glades. Lordaeron's clergy and nobility once rested here in peace, but neglect and Bloodmage Thalnos's corrupted magic now trouble the burial wing. Before the Third War, Lordaeron's priests rested in peace in this cloistered cemetery. When the Scarlet Crusade fortified the monastery against the undead, its fanatical watch left the crypts uncleansed. Now the Graveyard lies neglected and haunted. Lingering spirits, restless corpses, and shambling horrors wander the Chamber of Atonement and the mist-covered Forlorn Cloister. Beneath the Crusade's uncaring gaze, the dead suffer endless torment instead of hallowed rest. At the rear of the grounds, Honor's Tomb holds Bloodmage Thalnos, who mocks the Crusade's dogma. No record tells who he was in life. The plague of undeath claimed him, and he rose as a skeletal horror wielding shadow bolts and fire. The crusaders above preach the total extermination of the undead plague. Yet a rotting, fallen sorcerer remains in their consecrated soil."
     },
     "subzone:scarlet-monastery-library": {
       "1": [
         {
-          "duration": 66.27265306122449,
-          "file": "Audio/Transport/full_subzone_scarlet-monastery-library-63a82404b32cf1d500d6/1-0000.mp3",
-          "sha256": "b7eeccfc28aea4ab11c215913cba90dd7d7c066ae9ddee8d0cd565a9f0277cdc",
+          "duration": 61.440000000000005,
+          "file": "Audio/Transport/full_subzone_scarlet-monastery-library-a72a5e89f540d1febe65/1-0000.mp3",
+          "sha256": "22080fd27506d7a375623c8f2cb17561f060695f30ea6e6ff4511f7cadcd6227",
           "start": 0
         }
       ],
@@ -7349,12 +7349,12 @@
         ]
       },
       "fullHash": "ed2669",
-      "generation": "3bd3dc3b79f576cd68cc",
+      "generation": "08d5ff34de4b3465a45d",
       "hash": "ed2669",
       "source": {
-        "duration": 66.272653,
+        "duration": 61.44,
         "file": null,
-        "sha256": "63a82404b32cf1d500d6e2e0bd5a788aba24ebb8dfb39ee0faa0764ab8d3e392"
+        "sha256": "a72a5e89f540d1febe65f111c6a6490b9127d6ce5cb11bfc5d704eda95207c9f"
       },
       "text": "Scarlet Monastery Library. In Tirisfal Glades, scholars and mages seek Lordaeron's old religious and arcane records in the Scarlet Monastery Library. Crusade zealots and battle hounds patrol its halls. Before the Third War, Lordaeron's priesthood came to the monastery to study. Its eastern cloisters held religious writings, histories, and arcane treatises. Then the Scarlet Crusade fortified the monastery against the Scourge. They kept the archives and armed the quiet halls.\n\nNow beastmasters send tracking hounds through the courtyards, while battle-mages patrol the shelves. They guard the Compendium of the Fallen and ancient Titan research from outsiders. Houndmaster Loksey guards the Huntsman's Cloister with trained hounds. They sniff out anyone seeking passage to the inner chambers. Beyond the Gallery of Treasures, Arcanist Doan watches over the Athenaeum.\n\nA formidable mage, Doan wields devastating fire and protective sorcery. Doan studies alone and fiercely defends the Crusade's hoarded knowledge from anyone who enters the heart of the complex."
     },
@@ -7387,9 +7387,9 @@
     "subzone:scholomance-classic": {
       "1": [
         {
-          "duration": 74.10938775510205,
-          "file": "Audio/Transport/full_subzone_scholomance-classic-dc8d047e0c295ac19e89/1-0000.mp3",
-          "sha256": "b0898f89c131128bb1846ea75ec060637ee2e6950a0b085b9229ead8cb7bd672",
+          "duration": 72.80326530612246,
+          "file": "Audio/Transport/full_subzone_scholomance-classic-af9bfe297f8b5e878e42/1-0000.mp3",
+          "sha256": "bc48960546b68b866eb327a916890148510e24b3a3dc371ef4010636518ef1bc",
           "start": 0
         }
       ],
@@ -7401,12 +7401,12 @@
         ]
       },
       "fullHash": "72aa04",
-      "generation": "b8b30f14d98afc8d6b09",
+      "generation": "28a00d0969ec884d045b",
       "hash": "72aa04",
       "source": {
-        "duration": 74.13551,
+        "duration": 72.803265,
         "file": null,
-        "sha256": "dc8d047e0c295ac19e8924a311cb0f2dcd319fa31090f109278a234de36f8efd"
+        "sha256": "af9bfe297f8b5e878e420c674bb95e7324f7f8f0298e1d317eb90797aae063f2"
       },
       "text": "Scholomance (Classic). In the Western Plaguelands, Scholomance trains mortal spellcasters in the Scourge's arts. The academy lies beneath Caer Darrow, hidden in the crypts of the island fortress. Before the Third War laid Lordaeron waste, the rogue archmage Kel'Thuzad sought recruits for his Cult of the Damned. The wealthy Barov family ruled Caer Darrow and became willing benefactors. They traded their lands and crypts for promised immortality. The cult instead slaughtered them and raised them as monstrous undead.\n\nBeneath the ruined fortress, the cult remade the ancient Arathorian catacombs into a school for the dark arts. Mortal acolytes study plaguecraft, soul binding, and flesh shaping beyond watchful eyes. There, they hone the foul magic that shattered Lordaeron. Kel'Thuzad now directs Scourge operations from above, but Scholomance remains active. The eternal lich Ras Frostwhisper watches over the complex in the Scourge's name. The mortal necromancer Darkmaster Gandling leads the school and tutors ambitious sorcerers through horrific experiments.\n\nStudents who show weakness are cast into the catacombs. In the lower vaults, the voracious wight Ravenian lurks, ready to feed on them."
     },
@@ -8037,9 +8037,9 @@
     "subzone:southpoint-tower": {
       "1": [
         {
-          "duration": 55.64081632653061,
-          "file": "Audio/Transport/full_subzone_southpoint-tower-ca6a3364e914d12e0f2b/1-0000.mp3",
-          "sha256": "a38b19b8e633574e1884a03926f90c49493aeae5e18174575edb499214b79a56",
+          "duration": 51.2,
+          "file": "Audio/Transport/full_subzone_southpoint-tower-30a3376798af7e489a5e/1-0000.mp3",
+          "sha256": "1d80a25a8f0d27a0a32d24fc14180ba18f35559bbdcadc5bc8ca0193645c8a9a",
           "start": 0
         }
       ],
@@ -8051,12 +8051,12 @@
         ]
       },
       "fullHash": "88c82f",
-      "generation": "cdbabff724bfc63acf04",
+      "generation": "5d57b6a02c8fa688d6d7",
       "hash": "88c82f",
       "source": {
-        "duration": 55.666939,
+        "duration": 51.226122,
         "file": null,
-        "sha256": "ca6a3364e914d12e0f2bca30e27f8701a1f870fcda63404239937099209d0df6"
+        "sha256": "30a3376798af7e489a5e53191ac6089716667a44f956e9075adff029ea210418"
       },
       "text": "Southpoint Tower. Forsaken scouts watch the Alliance from Southpoint Tower, near Hillsbrad's western edge. The ruined Lordaeron post overlooks the road into Silverpine Forest. Southpoint Tower overlooks the highway between Silverpine Forest and Hillsbrad Foothills. The Kingdom of Lordaeron built it to guard the way between the eastern farmlands and the western woods. After the Third War and the Scourge's destruction of the kingdom, the stonework fell into ruin. Now the tower is roofless and crumbling, a remnant of human rule in fractured lands. Forsaken agents watch Alliance patrols from the ruined tower. Deathstalker Lesh is stationed there, watching nearby human settlements in Hillsbrad Fields and travelers on the main road. Though its walls have fallen, the tower's vantage remains valuable. So near hostile territory, this lonely post often becomes a flashpoint for skirmishes."
     },
@@ -8089,9 +8089,9 @@
     "subzone:southshore-town-hall": {
       "1": [
         {
-          "duration": 36.179591836734694,
-          "file": "Audio/Transport/full_subzone_southshore-town-hall-bf68a795ffd83a993f12/1-0000.mp3",
-          "sha256": "edc291f7561e487e5aec4bd3390d82047c9b80a58b451c2b3f5efdcce5c3ad03",
+          "duration": 35.44816326530612,
+          "file": "Audio/Transport/full_subzone_southshore-town-hall-c3bfdd3c08c5c0e90b26/1-0000.mp3",
+          "sha256": "7b6e7569ad7516818729e6aab4cb7792131656c50a422906c3901152ab8dca8e",
           "start": 0
         }
       ],
@@ -8103,12 +8103,12 @@
         ]
       },
       "fullHash": "a5048e",
-      "generation": "5fb5a2713385d28a165b",
+      "generation": "572af63e1b884f0125c6",
       "hash": "a5048e",
       "source": {
-        "duration": 36.205714,
+        "duration": 35.448163,
         "file": null,
-        "sha256": "bf68a795ffd83a993f126e0152d3012f1f9e3573aa6b4eda38733b1e92908d5e"
+        "sha256": "c3bfdd3c08c5c0e90b26bf988a57fcc6105ca9dee0e89e6f1959f7fccd495c82"
       },
       "text": "Southshore Town Hall. At Southshore Town Hall, Magistrate Henry Maleb directs the town’s affairs and defenses. It is one of Lordaeron’s last centers of civil authority as the Alliance struggles to hold ground in the plagued north. Southshore Town Hall keeps human rule alive amid Lordaeron’s ruin. Magistrate Henry Maleb governs from his office and works with officials such as Kundric Zanden to secure supplies and keep order. Undead press from nearby lands, Syndicate rogues threaten the region, and fierce skirmishes mark Hillsbrad’s border. From the hall, town leaders guide Southshore’s fight to survive."
     },
@@ -8427,9 +8427,9 @@
     "subzone:stratholme": {
       "1": [
         {
-          "duration": 84.71510204081633,
-          "file": "Audio/Transport/full_subzone_stratholme-34bc491151f5b741276b/1-0000.mp3",
-          "sha256": "c87b44451402d615f3b491488cd72ca11c32aa15545d2e238c5343a6bbe7c453",
+          "duration": 80.22204081632654,
+          "file": "Audio/Transport/full_subzone_stratholme-9182d243c595816b3aec/1-0000.mp3",
+          "sha256": "c6065f1376459260fa218f67cf2b98066490b6b52d7cfd004da0edcfa58bc2c8",
           "start": 0
         }
       ],
@@ -8441,21 +8441,21 @@
         ]
       },
       "fullHash": "d2ed82",
-      "generation": "7fa7522b40266ca975b4",
+      "generation": "a4d2dd3a9d18b838bfe6",
       "hash": "d2ed82",
       "source": {
-        "duration": 84.741224,
+        "duration": 80.248163,
         "file": null,
-        "sha256": "34bc491151f5b741276b7aed1cd96ed490ba1c668a790c48fab6f78f5595ece2"
+        "sha256": "9182d243c595816b3aec71e3e222d6548cb38b289323a7f859566a5394c841b8"
       },
       "text": "Stratholme. Scourge forces hold Stratholme, and its ruins still burn. Once the jewel of the Eastweald and Lordaeron’s second greatest city, it became the place where Prince Arthas Menethil ordered the culling of citizens who had eaten grain tainted by the Plague of Undeath. Stratholme rose with the Arathi expansion into the Eastweald centuries ago. It became Lordaeron’s second-largest settlement, famed for holy shrines and sacred water that resisted dark sorcery. Before the Second War, Archbishop Alonsus Faol gathered at the city’s chapel and founded the Order of the Knights of the Silver Hand.\n\nAmong its first legends was Uther the Lightbringer. During the Second War, Stratholme served the Alliance of Lordaeron as a vital port, supply hub, and northern oil refinery. The Old Horde assaulted it, but victory brought the city’s rebuilding. The Cult of the Damned carried infected grain from Andorhal into Stratholme’s markets. Unaware of the taint, thousands ate the flour. Prince Arthas arrived with Uther and Jaina Proudmoore, but the infection had spread too far to cure.\n\nHe judged slaughter the only way to deny Mal'Ganis an entire army and ordered every citizen killed. The atrocity drove Uther and Jaina away and began the prince’s descent into madness. His forces set the city ablaze. Then the Scourge took its smoking ruins for their regional capital."
     },
     "subzone:stratholme-classic": {
       "1": [
         {
-          "duration": 69.22448979591837,
-          "file": "Audio/Transport/full_subzone_stratholme-classic-8dda45ce355eab30d86a/1-0000.mp3",
-          "sha256": "349577d98d2ed5112668d87650518441c6ae9cd006b663805538374e7206f042",
+          "duration": 67.03020408163266,
+          "file": "Audio/Transport/full_subzone_stratholme-classic-d8f2a73bacf11bad0974/1-0000.mp3",
+          "sha256": "e9d23be5323cdba4615e1f4590f946907e1deafc5a1c208291b4783dfeb5f1b7",
           "start": 0
         }
       ],
@@ -8467,21 +8467,21 @@
         ]
       },
       "fullHash": "fbcb6e",
-      "generation": "d57af4d48c43b2f94fd6",
+      "generation": "672a54ac75759fd96750",
       "hash": "fbcb6e",
       "source": {
-        "duration": 69.250612,
+        "duration": 67.030204,
         "file": null,
-        "sha256": "8dda45ce355eab30d86a7321ec53c05afe3ec9e1f6d808f3ff8ef23c9ee5284e"
+        "sha256": "d8f2a73bacf11bad09747710c737d953dd60ac7e2dbfd2376e10c51d0d48c3af"
       },
       "text": "Stratholme (Classic). Scourge and Scarlet Crusade forces fight through Stratholme's burning ruins. Once northern Lordaeron's jewel and the birthplace of the Silver Hand, the city now lies divided between them. Stratholme once held great power in northern Lordaeron and gave birth to the Knights of the Silver Hand. During the Third War, Prince Arthas purged the city after infected grain carried plague through its gates. He slaughtered his own subjects. The city smoldered in ruins, then the Scourge claimed it.\n\nKel'Thuzad holds overarching authority, while Baron Rivendare commands the undead forces in the field. From Stratholme, they direct Scourge power across the Plaguelands. Two vicious factions wage an unending war through Stratholme. In the west, the fanatical Scarlet Crusade holds Crusaders' Square and the Scarlet Bastion under Grand Crusader Saidan Dathrohan. In the east, Scourge slaughterhouses and necropolises stand behind towering ziggurats. The death knight Baron Rivendare guards them.\n\nBurning tenements and restless spirits surround anyone who enters. Across the city, both sides trade blows."
     },
     "subzone:stratholme-main-gate": {
       "1": [
         {
-          "duration": 60.34285714285714,
-          "file": "Audio/Transport/full_subzone_stratholme-main-gate-888e39c8368d288353c2/1-0000.mp3",
-          "sha256": "d85e78f74efec5548b781cb1bd1e422c0d5a9752f70a37a99e8a98297f76bc11",
+          "duration": 59.11510204081633,
+          "file": "Audio/Transport/full_subzone_stratholme-main-gate-597e4a1d3702e8563236/1-0000.mp3",
+          "sha256": "41fbe8cdc3219d18ebfd9d8887b36da65feada4d3b645a736590b385d688d102",
           "start": 0
         }
       ],
@@ -8493,12 +8493,12 @@
         ]
       },
       "fullHash": "b86c18",
-      "generation": "8e947e441f8d615dac5b",
+      "generation": "d5c45fefbf1f1869c310",
       "hash": "b86c18",
       "source": {
-        "duration": 60.36898,
+        "duration": 59.115102,
         "file": null,
-        "sha256": "888e39c8368d288353c20c57fbf283d08af5e8f26a9c9e273e5d5167ed32916a"
+        "sha256": "597e4a1d3702e8563236e91f4f0cf4796e14b0bb4fabcb1d47b4405caf4642c9"
       },
       "text": "Stratholme Main Gate. Ruined avenues beyond Stratholme Main Gate lead toward King’s Square and the Scarlet Bastion. The gate stands in the northwestern Eastern Plaguelands, at the entrance to Lordaeron’s northern metropolis. Stratholme was once northern Lordaeron’s pride and the birthplace of the Order of the Silver Hand. Its great arched gates now mark the edge of a nightmare begun during the Third War. Here, Prince Arthas turned against his mentor, Uther the Lightbringer. He purged his own citizens before the Plague of Undeath could claim them. The city has burned ever since and is now the region’s chief Scourge stronghold. Beyond the main gate, the road passes through the ruins of King’s Square and Market Row toward the fortified Scarlet Bastion. Scarlet Crusade zealots entered here to reclaim the city and purge the dead, then made an encampment in the ruins. Overwhelming undead surround them. The crusaders fight an attrition war against the dark forces directing Stratholme’s defense, and they cannot win."
     },
@@ -9155,9 +9155,9 @@
     "subzone:thoradin-s-wall": {
       "1": [
         {
-          "duration": 58.801632653061226,
-          "file": "Audio/Transport/full_subzone_thoradin-s-wall-a65313ccad83903b3f96/1-0000.mp3",
-          "sha256": "558d060542261a3d73d6ffe4798cd03048604f7b6ba2ad37643b7b1352ecedb1",
+          "duration": 58.5665306122449,
+          "file": "Audio/Transport/full_subzone_thoradin-s-wall-c24b3a576ecdb90e6a98/1-0000.mp3",
+          "sha256": "43d0d851c4d91e07a4948b26a3088dd888f1c84bdfe3bf329fff01138ab58a16",
           "start": 0
         }
       ],
@@ -9169,12 +9169,12 @@
         ]
       },
       "fullHash": "5cba78",
-      "generation": "8f1da52b53f37d9e0093",
+      "generation": "60568284d74ec8b92875",
       "hash": "5cba78",
       "source": {
-        "duration": 58.827755,
+        "duration": 58.566531,
         "file": null,
-        "sha256": "a65313ccad83903b3f9608843aa2e021d5cd0861dc3e0a11fe61b857e6717205"
+        "sha256": "c24b3a576ecdb90e6a980b57dd4de24863a1c249ee433c5ed0f6665eef7c9e5f"
       },
       "text": "Thoradin's Wall. At Thoradin's Wall, broken stone divides the Arathi Highlands from the Hillsbrad Foothills. King Thoradin ordered it built long ago to shield early humanity from Amani troll incursions. Thoradin's Wall once guarded Strom's western frontier. Nearly three thousand years ago, King Thoradin raised it across the valley corridor to shield humanity's young settlements from Amani forest troll raids. Strom stood at the heart of Arathor, the first unified human empire. The wall protected its heartland, giving humanity room to survive and challenge troll supremacy in the north. Thoradin's Wall now lies in severe disrepair. Great breaches split its ramparts, worn down by weather, warfare, and abandonment. Arathor splintered into rival kingdoms, and neighboring Lordaeron later fell to the Scourge. No central realm remains to maintain the masonry. Travelers and roaming bandits pass freely through the broken archways between Hillsbrad and the untamed Arathi Highlands."
     },
@@ -9545,9 +9545,9 @@
     "subzone:tyr-s-hand": {
       "1": [
         {
-          "duration": 69.92979591836735,
-          "file": "Audio/Transport/full_subzone_tyr-s-hand-bea5e8992ea889d5e410/1-0000.mp3",
-          "sha256": "b34ce94b46fc3d9b767df32d6c9719de292f854f67dd21539d8bf944f26883c3",
+          "duration": 68.70204081632653,
+          "file": "Audio/Transport/full_subzone_tyr-s-hand-a4b6c1b2eb8b5d5053c5/1-0000.mp3",
+          "sha256": "fd1c0dbd8b2aa2d31b5b00998169a874d21e1afa419072335e93746cc08f2f0c",
           "start": 0
         }
       ],
@@ -9559,12 +9559,12 @@
         ]
       },
       "fullHash": "08d745",
-      "generation": "048174f06936106caf8d",
+      "generation": "386e70bc5f27aff0c12b",
       "hash": "08d745",
       "source": {
-        "duration": 69.955918,
+        "duration": 68.728163,
         "file": null,
-        "sha256": "bea5e8992ea889d5e4108d5ed24e0e4f3135df713f4f2133ec16ae5c36331e4a"
+        "sha256": "a4b6c1b2eb8b5d5053c5edb2e0f676d0668f32996a0d9c17f966593fa24df069"
       },
       "text": "Tyr's Hand. In the southeastern hills of the Eastern Plaguelands, Scarlet Crusaders hold Tyr's Hand as their chief stronghold and supply hub. The city was once sacred to the Church of the Holy Light, and its walls remain heavily fortified. Tyr's Hand rises from the old Eastweald, once a green land in Lordaeron, as one of humanity's most ancient sacred sites. Shrines and holy buildings stand across its grounds, giving it the name “city of churches.” The land around it has rotted under blight, yet Tyr's Hand remains remarkably preserved behind thick walls and formidable stonework. The Scarlet Basilica towers above the city. Lord Valdelmar kept Tyr's Hand standing through military vigilance and faith as the Scourge swept through Lordaeron during the Third War. After the Knights of the Silver Hand split into rival factions, Tyr's Hand joined the Crimson dawn of the Scarlet Crusade. High General Brigitte Abbendis and Valdelmar lead the city from its impenetrable base.\n\nElite crusaders train in the abbey. Heavily guarded couriers keep contact with Scarlet forces holding Stratholme, while the city ruthlessly rebuffs outsiders at its gates."
     },
@@ -9675,9 +9675,9 @@
     "subzone:undercroft": {
       "1": [
         {
-          "duration": 35.18693877551021,
-          "file": "Audio/Transport/full_subzone_undercroft-adabf897d8a922c5fabb/1-0000.mp3",
-          "sha256": "791da43c183c887549d8ca61e39503abf0d5782496ee0f523823d96ba72690b4",
+          "duration": 33.85469387755102,
+          "file": "Audio/Transport/full_subzone_undercroft-02df73b4623c588b10e3/1-0000.mp3",
+          "sha256": "6d2d067ccea2f63d165141f72bbd11de08a72b4fc0e4cadda162587e6cb0c6cb",
           "start": 0
         }
       ],
@@ -9689,12 +9689,12 @@
         ]
       },
       "fullHash": "044dea",
-      "generation": "429c4c6242e04752cd71",
+      "generation": "33f040f27375a9d07283",
       "hash": "044dea",
       "source": {
-        "duration": 35.213061,
+        "duration": 33.854694,
         "file": null,
-        "sha256": "adabf897d8a922c5fabb719d6cdd73f024c45f845e6160ee1d0f73e69e70a9cc"
+        "sha256": "02df73b4623c588b10e3c1343846d642c1bbccb7d4101dd5a2e359a1770471db"
       },
       "text": "Undercroft. In the southwestern hills of the Eastern Plaguelands, undead trolls have taken an old Lordaeron tomb. Zaeldarr the Outcast commands them, and a false grave in the catacombs bears Tirion Fordring’s name. You find the Undercroft carved into the bluffs southwest of Corin's Crossing. Lordaeron built it for its honored dead, but the kingdom's fall left the tomb open to undead trolls. Zaeldarr the Outcast leads them from its underground halls. They stalk the Plaguelands and raid the grave pits at Light's Hope Chapel, taking newly buried corpses for their grim practices."
     },
@@ -10429,9 +10429,9 @@
     "subzone:writhing-haunt": {
       "1": [
         {
-          "duration": 63.32081632653061,
-          "file": "Audio/Transport/full_subzone_writhing-haunt-e58be80b6a0a5d6219f4/1-0000.mp3",
-          "sha256": "9ddac990a79443781dd1a8aee353a8b4c1d689b687e07b8d864273c81d3b7e00",
+          "duration": 61.440000000000005,
+          "file": "Audio/Transport/full_subzone_writhing-haunt-c4f143d5c440e83ba00d/1-0000.mp3",
+          "sha256": "0d8ab8e06de878a548ed96d0d87f880d0955a0789fb35d813718e9e5f338cdd1",
           "start": 0
         }
       ],
@@ -10443,12 +10443,12 @@
         ]
       },
       "fullHash": "eb1803",
-      "generation": "b4316ae6194babf6b97e",
+      "generation": "bdbe59850c88bb432fac",
       "hash": "eb1803",
       "source": {
-        "duration": 63.346939,
+        "duration": 61.466122,
         "file": null,
-        "sha256": "e58be80b6a0a5d6219f489a4dc05be2c62882c94d450f92937a0495bb0cb8d00"
+        "sha256": "c4f143d5c440e83ba00d408956286f09a237d5ff83c2c2cd76097a18e906fe58"
       },
       "text": "Writhing Haunt. East of the Ruins of Andorhal, plague vapors drift from the Writhing Haunt across the Western Plaguelands. The Scourge seized this farmstead, once fertile land that fed Lordaeron, and turned it into a source of disease. During the Third War, the Writhing Haunt fell swiftly, like many human homesteads around Andorhal. Its fields now yield rot instead of crops. The Scourge planted an enormous plague cauldron in the tilled earth, where it continually vents diseased vapors. Rotting ghouls, freezing ghouls, and fetid zombies wander the overgrown furrows. Cauldron Lord Razarch commands them and guards the machinery. The cauldron's choking miasma has not driven everyone away. Mulgris Deepriver, a tauren druid, lingers inside one of the dilapidated farmhouses. He came to heal nature's wounds, but the plague has stricken him too. Unable to cure the suffering beasts, he asks capable travelers to grant the diseased wolves and other wildlife a swift, merciful release."
     },
@@ -10585,9 +10585,9 @@
     "subzone:zul-mashar": {
       "1": [
         {
-          "duration": 49.24081632653061,
-          "file": "Audio/Transport/full_subzone_zul-mashar-8bb9490ed579f2285005/1-0000.mp3",
-          "sha256": "cb7b19e766e624c88fe8a9ebf27c86e38871bd146076846ec0ca77981422086b",
+          "duration": 45.4530612244898,
+          "file": "Audio/Transport/full_subzone_zul-mashar-ed11c82ba4a520515d58/1-0000.mp3",
+          "sha256": "422d1fe17de6cba6fe36cac7e357abba4113d448be9439be9f1a3a536179ff61",
           "start": 0
         }
       ],
@@ -10599,12 +10599,12 @@
         ]
       },
       "fullHash": "a688a6",
-      "generation": "1d2451ca173a3c3312bc",
+      "generation": "c4fe0c16e75a9327c684",
       "hash": "a688a6",
       "source": {
-        "duration": 49.266939,
+        "duration": 45.453061,
         "file": null,
-        "sha256": "8bb9490ed579f2285005b7fc0259e1f88e512fe3df7258b7ecdc03d537f4fb17"
+        "sha256": "ed11c82ba4a520515d582331a1be3386fa52cfb78bd504553954117858d5e147"
       },
       "text": "Zul'Mashar. In northeastern Eastern Plaguelands, the Mossflayers cling to Zul'Mashar and its ruins. Their ancient capital was broken by wars with human kingdoms, then ravaged by the Plague of Undeath. Before the Scourge crossed northern Lordaeron, Zul'Mashar was the seat of power for the Mossflayer forest trolls. Years of border skirmishes with Lordaeron's humans broke their lands into fragments. Then the Plague of Undeath swept through the region, striking trolls and humans alike.\n\nMazra'Alor's great stepped ziggurat still rises above the ruins, though little else remains of the capital's former glory. Warlord Thresh'jin and Zul'Brin Warpbranch command the surviving trolls, who cling to their ancient home. Many do not see the Scourge beginning to turn their own kin into rotting monstrosities."
     },
@@ -10740,23 +10740,23 @@
     }
   },
   "cuts": {
+    "000400119c947270b7c32a54aa1f94dee507c7bff9eb3ecd655e75cc6c265b68": [
+      208,
+      475,
+      697,
+      838,
+      1058,
+      1389,
+      1598,
+      1738,
+      1967
+    ],
     "006f4d49f93674c73a58b8cfb3bbc466212f6ca80bbd6296fc6b2ea9707bf88e": [
       326,
       666,
       873,
       1020,
       1194
-    ],
-    "00b6c3e44e2c47e34a731dfa25a55d725076b8851b540d3739950f261a68dd63": [
-      274,
-      411,
-      546,
-      685,
-      967,
-      1191,
-      1424,
-      1764,
-      2168
     ],
     "0114cafb6c8c21fc06d89455607019f5b59cd30827416799d8974f4bff1b17c2": [
       217,
@@ -10889,6 +10889,17 @@
     "056ca6310db7c8c39b13c8a67a975921856ef5637dbb41caa540212c22d250c3": [
       513
     ],
+    "05843a7967e724d1036e2832ef4f521b3ae1f49d67fd952ba78a8d8c8e76f5f3": [
+      233,
+      515,
+      730,
+      949,
+      1095,
+      1317,
+      1486,
+      1669,
+      1883
+    ],
     "06513fbb2aad29e6667a06b1aee391b491197cb37a5eecd4c205857d054013f0": [
       189,
       414,
@@ -10972,15 +10983,6 @@
       430,
       846
     ],
-    "0ced454ab39d611eff6a90dff1404bd2e9d67048d256ae1fa9cbff3584880f09": [
-      193,
-      341,
-      598,
-      769,
-      1067,
-      1259,
-      1563
-    ],
     "0cf5ad4bdc2d0cf7e3499b62c3b71f299b1f751e0fbc1737caa995613f747cb3": [
       207,
       363,
@@ -10991,6 +10993,17 @@
       1435,
       1650
     ],
+    "0d8ab8e06de878a548ed96d0d87f880d0955a0789fb35d813718e9e5f338cdd1": [
+      258,
+      524,
+      861,
+      1106,
+      1333,
+      1484,
+      1628,
+      1862,
+      2030
+    ],
     "0eaad9ea236f925fe2404140f6a4ea1bb3a8af587116b2f830d66bc462bb8574": [
       344
     ],
@@ -10998,16 +11011,6 @@
       387,
       646,
       893
-    ],
-    "0eeab6d2e0573ad694da11f7571dca3c31813d07a7274a6d0205b5758dfe38b1": [
-      254,
-      522,
-      796,
-      994,
-      1247,
-      1467,
-      1647,
-      1999
     ],
     "0f3c2e0712694a1dadb3c76f2ddc5568a6cb726e8bd8e468d2d0e1fbd9c5d971": [
       468
@@ -11060,12 +11063,6 @@
     "12f437460fdfd5996ad68aac71badf8ac9929ce1a91ed134af5c4f9349710e2d": [
       774
     ],
-    "136d887a53105daebc9ff7a5e0c6cfbb727b8b56257b9959740295c86fe9145b": [
-      215,
-      480,
-      764,
-      1081
-    ],
     "13c35189c1f4d8127b547b52e3a3b778e0b30e23408b94d7daffe9f49724b8b3": [
       304,
       446,
@@ -11101,13 +11098,6 @@
       1282,
       1580
     ],
-    "173cef2ddc66fbf18015b1bbad3c8773927cf2c44b9a8cba44aaf8b8430cbe99": [
-      279,
-      526,
-      729,
-      932,
-      1203
-    ],
     "17c8ec0bc253c8bcd0aa66a044535ff6f8b9242ab352e980548b538dd235092c": [
       229,
       401,
@@ -11131,6 +11121,13 @@
       1903,
       2172
     ],
+    "196bf0788ceadebfd44f48366802852ec625a9feba1a0c7ed8e956f0daf0e1c7": [
+      199,
+      465,
+      727,
+      898,
+      1037
+    ],
     "19d679bba041aba92270855351052653ced2ced95a9cbbc30255d542c9ccaf14": [
       269,
       492,
@@ -11143,6 +11140,11 @@
       286,
       518,
       747
+    ],
+    "1a746223db71b9ad79a4efaa8eea6c24609009a36f2d733c96ae4a53019b296b": [
+      412,
+      770,
+      1016
     ],
     "1ada063cc05a5402da75594dc828b840a249b7127e8d4fd5893037d77da560b8": [
       239,
@@ -11193,20 +11195,15 @@
     "1c39dbd943a1ec23e735f17c04a01a5e4ab5ac7530340a85b20b1af236bd7f08": [
       839
     ],
-    "1c454656860cf1342ae893b0248d74218114471a9a3b6ff4babbeef05d964ac4": [
-      287,
-      474,
-      692,
-      889,
-      1103,
-      1349,
-      1741
-    ],
-    "1d792365b5ac04c49604d428cee4e694e39974daf6d7190977b22c32cbc659c3": [
-      254,
-      393,
-      544,
-      750
+    "1d80a25a8f0d27a0a32d24fc14180ba18f35559bbdcadc5bc8ca0193645c8a9a": [
+      216,
+      376,
+      572,
+      780,
+      982,
+      1188,
+      1341,
+      1614
     ],
     "1dbf151abe9139ea8244a1f5866610518f52d13bf2ee275406b82326d5ec9f1a": [
       301,
@@ -11300,6 +11297,14 @@
     "2178d67525e59e5e51c86fbd0ba2bce2b435c05ff110902d74d94ad505639e49": [
       605
     ],
+    "22080fd27506d7a375623c8f2cb17561f060695f30ea6e6ff4511f7cadcd6227": [
+      298,
+      780,
+      1053,
+      1297,
+      1494,
+      2125
+    ],
     "22d70898731a63af62678c0a2cd39cc54632a9de5f926c0df5b0a34bc308f261": [
       387,
       543,
@@ -11340,13 +11345,18 @@
       2512,
       2680
     ],
-    "2527ce9d11d7fe2e603633a27a75b3e4c5121f01b3c658057326113af52ac972": [
-      223,
-      493,
-      703,
-      919,
-      1115,
-      1257
+    "241ada3f74b040bb21c3fdc3e7e9b10642d2a1fcea890f8cbc8778a5bd79fd68": [
+      176,
+      403,
+      563,
+      909,
+      1175,
+      1376,
+      1569,
+      1863,
+      2071,
+      2217,
+      2441
     ],
     "258bd7b405626a1d7e54612173040c68d51ed2ee5137a0ffd2a0df3f0a5bc3f8": [
       203,
@@ -11429,6 +11439,13 @@
     ],
     "2a1679c9aadf481d01e8b41c71d2a102eb7e4797d86c0caaa04e077b57238035": [
       729
+    ],
+    "2aafde16066c46d7d0d53a9efedad0f70623a32eef09ac5eafe10b394d28f65e": [
+      280,
+      520,
+      719,
+      907,
+      1174
     ],
     "2ac8d2933dc949adfd638b76144329b92b2a1c66aa8e6ead428923ad89948a38": [
       583
@@ -11534,6 +11551,15 @@
       1931,
       2131
     ],
+    "3366a4746b715876b60dbbee28fde8e5e30301e09ebd7a836720be57b5da431a": [
+      198,
+      511,
+      691,
+      877,
+      1165,
+      1887,
+      2303
+    ],
     "3402179d6158bd3137ee60753aca694f76b686c5218f0daa643b82bc55e49286": [
       412,
       671
@@ -11547,21 +11573,6 @@
       1392,
       1569,
       1829
-    ],
-    "3494a7b3ddc82a84d7a97495ad0a7cf3dd733e60fdf4780e89bb082406e95bcb": [
-      198
-    ],
-    "349577d98d2ed5112668d87650518441c6ae9cd006b663805538374e7206f042": [
-      191,
-      474,
-      700,
-      951,
-      1182,
-      1420,
-      1583,
-      1735,
-      2032,
-      2241
     ],
     "35f1290dcca4c3f4fb1eb40c536959c194d1d212dba648c8b864e3f34fb112eb": [
       192,
@@ -11596,12 +11607,26 @@
       862,
       1011
     ],
-    "376fac40252d09fdec9ae6fa6381f6280030033351c4bbf148649fe39103f09f": [
-      852
+    "39a009d50818b317fddbed4af586dbfac24c20ca45bda6b75de0679bebea2d50": [
+      180,
+      406,
+      561,
+      977
     ],
     "3aed8a6e2da256e417c2f6fa29af760e82decf9b6023ebd8d39bf8f31d0f0e1b": [
       501,
       844
+    ],
+    "3b22da1914ec94aa8d559e410d7566d84d5fdc0a78b9792519684637965306bd": [
+      218,
+      422,
+      836,
+      1048
+    ],
+    "3b84d7d5ff240f45101f9acc1f219ccf0373b93ee9e6efdb74babcb9f9f6cd5d": [
+      166,
+      375,
+      587
     ],
     "3bfb764b7d62b820196148fe137011f805be7847fbaa9b22cc8749de7b3907a9": [
       183,
@@ -11658,6 +11683,12 @@
       2108,
       2267
     ],
+    "3df3c2304df1f75ded3572a528d42692f3156b7ac13d08326cccaf4f1d03a53e": [
+      213,
+      639,
+      854,
+      1148
+    ],
     "3e935e2560668425cfa3e0db546bd7edd8a5c15897e94f84de7c55eb57106ee5": [
       164,
       381,
@@ -11675,10 +11706,6 @@
     "3eb23385feccd3aa376e6032f787e454b9e79476fdf316213e3a093deb9f192f": [
       355,
       542
-    ],
-    "3f7bb4fd76753c6638d2f654c058d37c09898cdaafc36126abb41dc8e48a3cbe": [
-      756,
-      1012
     ],
     "3f91e1e05e6c0e316a053fb1b9f4af9f57ba6bef2951aebd1d93c59a313a45fa": [
       261,
@@ -11727,10 +11754,38 @@
       485,
       686
     ],
+    "41fbe8cdc3219d18ebfd9d8887b36da65feada4d3b645a736590b385d688d102": [
+      238,
+      460,
+      682,
+      873,
+      1035,
+      1193,
+      1370,
+      1660,
+      1931
+    ],
+    "422d1fe17de6cba6fe36cac7e357abba4113d448be9439be9f1a3a536179ff61": [
+      207,
+      431,
+      853,
+      1035,
+      1306,
+      1567
+    ],
     "42baadbcebf033fd49dc7e93833baece3630b29e674bd45f334cca7396d84685": [
       273,
       494,
       942
+    ],
+    "43d0d851c4d91e07a4948b26a3088dd888f1c84bdfe3bf329fff01138ab58a16": [
+      220,
+      442,
+      583,
+      1041,
+      1293,
+      1650,
+      1877
     ],
     "444fb9e0d1065a44131de49f37b4ad5190c1542cf9ddc013d199bd18e9be1c4c": [
       191,
@@ -11830,6 +11885,12 @@
     "494ca68a0239e0efd3e9459e396ae6502ddd644215a568c18a624d696e1a2a74": [
       549
     ],
+    "4aa9692e0ac60b5ba7b4afffddd583a4fb5a486ba2145c50eb7d878722feb5df": [
+      225,
+      430,
+      663,
+      854
+    ],
     "4b4ac9f2236f9bed31334b8e9b06a00003cee6a7abed5a868567b9012503dc20": [
       178,
       359,
@@ -11843,20 +11904,6 @@
       481,
       1062,
       1465
-    ],
-    "4c06261986c2e5f5fcf62a54f3bdd949cb7a4198d23bfec41f741f3699b150ea": [
-      152,
-      446,
-      626,
-      898,
-      1061,
-      1218,
-      1452,
-      1643,
-      1885,
-      2224,
-      2493,
-      2675
     ],
     "4c9c7e8942ac5aa64656b59b4e72a56f7ff0310e1ea0ebc8e4e39228dd020f41": [
       221,
@@ -11908,15 +11955,6 @@
       1390,
       1628
     ],
-    "54a4a7cc42fa786a194275e3ce0c9781535f2e3ab9926330ed286aba4113ebc1": [
-      466,
-      684,
-      1049,
-      1260,
-      1420,
-      1576,
-      1768
-    ],
     "54ce937f44cc1b3907646819457a865a6dd7c771f1093510ffb49afa0af8d921": [
       186,
       454,
@@ -11932,15 +11970,13 @@
       1336,
       1528
     ],
-    "558d060542261a3d73d6ffe4798cd03048604f7b6ba2ad37643b7b1352ecedb1": [
-      230,
-      474,
-      617,
-      934,
-      1108,
-      1355,
-      1687,
-      1880
+    "55f479b9d67864a8bce5f3ef9a067381bffd6a651218881ac5c17f54db5ce362": [
+      287,
+      479,
+      657,
+      844,
+      1031,
+      1255
     ],
     "56e01be50e4e884e63efb0098480fd274c7f6a67824caf87c8688b486bcb3718": [
       209,
@@ -11980,6 +12016,12 @@
       327,
       679
     ],
+    "5adc42e1aefd3ba87cbfa8df48490f5e51877101af2bd31215c04fa69b07a2ad": [
+      194,
+      496,
+      679,
+      954
+    ],
     "5ae5f78777294167dc678ee7443b9240259555609549f372645cffa6c0697d1a": [
       165,
       411,
@@ -11989,12 +12031,6 @@
       1336,
       1500,
       1728
-    ],
-    "5b05d95df065e02b0a54d82d54a12ac7a14d3a6ea40c2b429f75eede876471ae": [
-      230,
-      660,
-      797,
-      940
     ],
     "5bb4051a295f29ffc783718c2981d6b01d77f1def47ab732bd9af4c08757f344": [
       150,
@@ -12024,27 +12060,6 @@
       238,
       548,
       793
-    ],
-    "60bf0e1158d5b99f83fd276f56bb98df41d8ab69bb0231d50dce3ccfedbcd691": [
-      224,
-      431,
-      614,
-      779,
-      1063,
-      1207,
-      1425
-    ],
-    "61bbdc8ffcf17c5c8d35275d396f6bb492b0c5d0ca7d57a6f43aa9f2ffc9cb94": [
-      273,
-      499,
-      718,
-      898,
-      1136,
-      1355,
-      1668,
-      1870,
-      2034,
-      2248
     ],
     "63eb167cb1e74fb906e52ad7796f5d868f25110b3bfd39b4cb076115272c9ff7": [
       442,
@@ -12239,6 +12254,11 @@
     "6ceaf2fade866155903bfcb5655153e8100bc9ba7c977b13d1fa1eb9507b983e": [
       409
     ],
+    "6d2d067ccea2f63d165141f72bbd11de08a72b4fc0e4cadda162587e6cb0c6cb": [
+      250,
+      668,
+      1023
+    ],
     "6d533d18e703329b66c72e44c4a967fbf77aba4b29e3d7253ed6a1dcd0909e2c": [
       236,
       471,
@@ -12279,13 +12299,6 @@
       612,
       770
     ],
-    "6f76be8224e2be38e79a6b957df223659f89148c64da8f675db5f788abd87b4b": [
-      198,
-      499,
-      706,
-      975,
-      1229
-    ],
     "6fae98a2405e4ccbef92655a0b0d8b01e12c47cc38d43a792bf06e7a09e5643e": [
       329
     ],
@@ -12304,6 +12317,16 @@
       3167,
       3449,
       3608
+    ],
+    "70e312133741f474ffed507ee1017da00fa52bd8d51a22210496ea33792415ac": [
+      220,
+      359,
+      619,
+      823,
+      1123,
+      1336,
+      1479,
+      1671
     ],
     "70f87db6bfd933c2ebdbab913c7ef527d22d1232bcbe499d2931ecf7b256c12d": [
       723
@@ -12402,6 +12425,16 @@
       961,
       1097
     ],
+    "77258136bd3cc544ffd5b391ac56f7cd00720dfa326fda04e6feff395c235573": [
+      442,
+      986,
+      1169,
+      1423,
+      1584,
+      1820,
+      2021,
+      2380
+    ],
     "77565a1997015cc0c89f3c8b38e25ae5b01853ea5c73133e94093a9291c5c93a": [
       196,
       398,
@@ -12439,18 +12472,15 @@
       776,
       1159
     ],
-    "791da43c183c887549d8ca61e39503abf0d5782496ee0f523823d96ba72690b4": [
-      252,
-      518,
-      689,
-      929,
-      1070
-    ],
     "796050081ce377e5de282b21a5d318ad3d4b3644130ef1a06d9fb8cc87f6b61a": [
       160,
       371,
       563,
       899
+    ],
+    "7b6e7569ad7516818729e6aab4cb7792131656c50a422906c3901152ab8dca8e": [
+      636,
+      919
     ],
     "7c63c125dc73c01dc47878a8a498cfc62bd17622c7b08c349ab3fdce3d10a058": [
       216,
@@ -12560,17 +12590,6 @@
       1288,
       1565
     ],
-    "839cb8550a524d74449c40b95977438f32242e1fc8b1a3ca34f35311473b2b59": [
-      197,
-      545,
-      721,
-      903,
-      1198,
-      1452,
-      1707,
-      1967,
-      2339
-    ],
     "8404149980bd871d3398d3352efbbb659f995c7ffbab2c67eeb0128353047306": [
       204,
       470,
@@ -12592,6 +12611,14 @@
       881,
       1159,
       1336
+    ],
+    "84f08dd5b3a8a2ae95582d43a6ca36c9cb57af3948ec99ccaf454c9f62827bcb": [
+      157,
+      403,
+      794,
+      1070,
+      1301,
+      1476
     ],
     "85dd053dc5f308f682094da37503e394cb8de844e44dcbf73ed090e38018e14b": [
       192,
@@ -12651,6 +12678,30 @@
       1049,
       1214,
       1478
+    ],
+    "8a2894d12d0d290c76525a1d48fa04643f09e0dbdf46242d8e27b1d23be82d8a": [
+      209,
+      575,
+      899,
+      1121,
+      1447,
+      1610,
+      1780
+    ],
+    "8aff55e12a7f6175c84e5603dcc424724b486b335230b618f1b5ffdd1111129a": [
+      209,
+      626,
+      894
+    ],
+    "8bdaaf3f50c4579e43c350425c55822b0da10a0abc991d9a6d28976c720215dd": [
+      192,
+      517,
+      723,
+      867,
+      1085,
+      1401,
+      1919,
+      2139
     ],
     "8c84d0f14748d4040fc3f8159e364252948b653ed2376a253f8d9d5acc078611": [
       239,
@@ -12742,6 +12793,13 @@
     ],
     "91f679528050a17decd87d6394809fcf2e1860f7bc772ed63d8dca802f8d161d": [
       472
+    ],
+    "9231113251e78c0f1f44d629e5b87df80ca24a15694632dd8ec502ddcc6e0634": [
+      244,
+      494,
+      716,
+      953,
+      1165
     ],
     "935a1c15f13ac4e85a4665b55b3611854620d614bbab5c5646f441c33f9341b6": [
       221,
@@ -12877,27 +12935,20 @@
       1391,
       1581
     ],
-    "9b1f0a07bdd81a346790bb0c3a7e147ab6b908270578e44c8e8e67a5dae14545": [
-      231,
-      526,
-      826,
-      1144,
-      1286,
-      1626,
-      1894,
-      2055,
-      2267,
-      2514,
-      2720
+    "9ae25b39b006873cf9764ba9d5ddb5700d4d0a7a31043d9b3f1927712a001f40": [
+      176,
+      515,
+      935,
+      1257,
+      1395,
+      1538,
+      1776,
+      2042,
+      2526,
+      2721
     ],
     "9b9b49f612c0317f6caecbbb215c866d2b255ebeab63c4139f08709c5ef2f478": [
       556
-    ],
-    "9bd315037c0e8c7645e8635c573d025495d7004e48773f828d6475ad621d9715": [
-      179,
-      437,
-      643,
-      880
     ],
     "9bdb583ac1d868a349b695e64f207a4ba1f8e0632e43a309b3afe62b429498ea": [
       192,
@@ -12912,6 +12963,10 @@
       656,
       908,
       1123
+    ],
+    "9c26cdaf3f9f269815139e1f07a62de6410540442b57346d5e2950caa061f489": [
+      197,
+      953
     ],
     "9c4b8d63d6014ad3f91cc8edbe2c77f18b4a62ca8d6b94bd5a83fefbe360226a": [
       213,
@@ -12940,17 +12995,6 @@
     ],
     "9daf9871d0f0b139b1b0f3e2cf72f84256e131a92bcb599a84a6cf7458523d5e": [
       456
-    ],
-    "9ddac990a79443781dd1a8aee353a8b4c1d689b687e07b8d864273c81d3b7e00": [
-      244,
-      533,
-      784,
-      1165,
-      1377,
-      1553,
-      1692,
-      1926,
-      2094
     ],
     "9e0601a641ae00326693307ed68d9d8f53589785521c3538d3cd49a182edb009": [
       213,
@@ -13023,14 +13067,6 @@
     "a0b4df5a89fc1f91a638c07d61d4f41f5a3c5411b00a30c407595f961d3b44e3": [
       558
     ],
-    "a0f6b616f088abc3f7b94f2d33c0d8447b555e27998f2b9a067527cf6be600de": [
-      239,
-      433,
-      680,
-      883,
-      1127,
-      1326
-    ],
     "a12efc6e6953e0872353dc73432b32113214ab98ce1a21459f63b7c81ccda3c5": [
       502,
       852
@@ -13049,22 +13085,6 @@
     ],
     "a162d83f7fb00e6a4ff549d9050ac7b3ab885b9533253976edd3c7319c590a66": [
       528
-    ],
-    "a186b9e467ff95dbb8a43727746dc4b9bc8505e0fb48efe16e36c197bf247ea1": [
-      227,
-      467,
-      679,
-      992,
-      1206,
-      1349,
-      1630,
-      1786,
-      2266,
-      2413
-    ],
-    "a237d1409a170c3563742486817e19224554ff83f4290693b3ad858cbdc46854": [
-      531,
-      761
     ],
     "a26ea0967b41dad753d902dfe141bc39e9a00eda0e7c6b498f448c3f1473e4d6": [
       760
@@ -13096,17 +13116,6 @@
       1748,
       2086
     ],
-    "a38b19b8e633574e1884a03926f90c49493aeae5e18174575edb499214b79a56": [
-      143,
-      392,
-      611,
-      840,
-      1069,
-      1306,
-      1460,
-      1731,
-      1900
-    ],
     "a38f865faa8864124dc99c014d42607da95a2c622ccf60374621639661f34159": [
       190,
       428,
@@ -13131,6 +13140,16 @@
       167,
       380
     ],
+    "a54bd2c3c3b61c79ab40a90547c88878dd9a75c5629ef82c1c35196118882e64": [
+      266,
+      510,
+      775,
+      967,
+      1221,
+      1422,
+      1598,
+      1939
+    ],
     "a602a479c7d5544fae67f42c2cca7ee63a08011e06f73eea71752c70165617c2": [
       229,
       394,
@@ -13147,6 +13166,12 @@
       878,
       1135,
       1323
+    ],
+    "a68b9a9b8531123b0f84e7040f048e21dcd3019422d15bbe31cf09a8c9df30dc": [
+      214,
+      518,
+      756,
+      1015
     ],
     "a6b85a3aaf9f47657595ec1a3fb830531001e8038e6e0ec5106aeb80fbb2bb75": [
       336,
@@ -13192,16 +13217,6 @@
     ],
     "a933fdbb6bfa1f5f85968a22a8615b274dfd953d589497a7bc7314565abc3b73": [
       752
-    ],
-    "a98943e2beb12826ab0ba324f17dd6cfcca688f5e891d1dc6a3111d03ce319cf": [
-      207,
-      571,
-      711,
-      895,
-      1101,
-      1414,
-      1562,
-      2005
     ],
     "a9df82e1d3659296a678900ba68d15590d43abfaf6b135ba7f1378ca8327aec6": [
       336,
@@ -13273,31 +13288,8 @@
       513,
       674
     ],
-    "af1b6dead27849c1e16202894a0ac6d75a8ab214d27e582b8b6b7bd19a0408ea": [
-      196,
-      545,
-      755,
-      1011,
-      1409,
-      1647,
-      1867,
-      2190
-    ],
     "afd0c4b3493b7d4fa79c78f671665ae33f5ca95319c3ed28332bc500be391946": [
       456
-    ],
-    "b0898f89c131128bb1846ea75ec060637ee2e6950a0b085b9229ead8cb7bd672": [
-      212,
-      409,
-      680,
-      852,
-      1158,
-      1425,
-      1665,
-      1826,
-      2037,
-      2223,
-      2516
     ],
     "b0b6c8ed715b76df9e0a99907c2202b2688433995ad5e57f9ee65678da941d29": [
       190,
@@ -13366,16 +13358,6 @@
     ],
     "b31d6733dc06379bff39f0887609efc8fff076c462746e96e404852b37e753af": [
       508
-    ],
-    "b34ce94b46fc3d9b767df32d6c9719de292f854f67dd21539d8bf944f26883c3": [
-      302,
-      542,
-      854,
-      1058,
-      1488,
-      1780,
-      2054,
-      2271
     ],
     "b3959dd65a0de51e0714eb413563c2d3652ce4183ccebce00ccc3f0664c0bd1c": [
       459,
@@ -13460,19 +13442,6 @@
     "b7e8f9e04322fb244dd3f5191bfe234ae62d0a0533f096213358281d575429c0": [
       548
     ],
-    "b7eeccfc28aea4ab11c215913cba90dd7d7c066ae9ddee8d0cd565a9f0277cdc": [
-      307,
-      464,
-      645,
-      840,
-      991,
-      1134,
-      1358,
-      1558,
-      1721,
-      1923,
-      2267
-    ],
     "b889cdebe724b55e484e224e0b0b8c3d79d6ccdc9c291b644f3f6906e04b1a89": [
       239,
       455,
@@ -13547,13 +13516,6 @@
       1631,
       1785
     ],
-    "bab5c58ac370a1ea35c3c71fcfbec122421d01df071097892de12f46699b3296": [
-      197,
-      372,
-      567,
-      768,
-      946
-    ],
     "bafb7ce788f543e65c6d69e82ce1c92933acbed7a79a13dd3c476c2ef7ebf3b1": [
       234,
       388,
@@ -13565,6 +13527,18 @@
       216,
       406,
       745
+    ],
+    "bc48960546b68b866eb327a916890148510e24b3a3dc371ef4010636518ef1bc": [
+      217,
+      409,
+      680,
+      862,
+      1418,
+      1659,
+      1796,
+      1995,
+      2356,
+      2606
     ],
     "bc9b6897035a1a6df3f9fa799ee0bcbe7442910eaa86dd87163ec3bcacb1b40e": [
       245,
@@ -13582,13 +13556,6 @@
     "bd79504a29858853ef09b5c0936a60ce603b53895fd36f8f61164c28e3c7d3b8": [
       495
     ],
-    "bd987c4d2b369dcb64915642ca6df17dd560e6fef10316fae20429c23dea7775": [
-      155,
-      408,
-      643,
-      790,
-      1014
-    ],
     "bdba6feed5958bf2e53a9132536e2dfabe8accee5082c2f331c0e9dce39ed306": [
       262,
       501,
@@ -13604,6 +13571,10 @@
       2849,
       3031,
       3338
+    ],
+    "bdf2e22b08b15b5d766a72607b191a4a342af0b037e0287cd535e54cf643b932": [
+      541,
+      958
     ],
     "be21780cfd52029709c4e2eaf4cfc16a8763ccdbf2aafed6f3e22f24da0cf32c": [
       414,
@@ -13621,16 +13592,6 @@
       1452,
       1713,
       1852
-    ],
-    "be51c0ba0c4d3287f53d4a04a5c41384957b4a97aac382fb8707e54d1c24062b": [
-      169,
-      427,
-      654,
-      845,
-      1125,
-      1367,
-      1535,
-      1709
     ],
     "be5d98be7b67db26e985a3212d7b31bc79cb684bc1591051e921ef71e9767873": [
       235,
@@ -13657,28 +13618,6 @@
       237,
       384,
       542
-    ],
-    "c01517ecc5959c5465f30bb415a5b16a503359c6dd2e7528717453949f4acd08": [
-      174,
-      515,
-      732,
-      895,
-      1210,
-      1484,
-      1709,
-      1843,
-      2007,
-      2209,
-      2543,
-      2757,
-      2895
-    ],
-    "c0e0d01eee4277db3f6768d536e19b73f212db31cd1293c4608507e56ff81b54": [
-      194,
-      480,
-      649,
-      879,
-      1192
     ],
     "c103097db26bb0ef4b4edde20b36f6209d455e53b6e2d66b10c3f5f832bce463": [
       423
@@ -13744,6 +13683,28 @@
       1764,
       1927
     ],
+    "c541989aaa54ced94377c9825ea49f3d8ee6a62e710a7427e0524ec7c3544009": [
+      258,
+      485,
+      628,
+      927,
+      1152,
+      1373,
+      1703,
+      2073
+    ],
+    "c6065f1376459260fa218f67cf2b98066490b6b52d7cfd004da0edcfa58bc2c8": [
+      171,
+      581,
+      753,
+      1014,
+      1316,
+      1722,
+      1887,
+      2068,
+      2203,
+      2676
+    ],
     "c65e7424718bcedd61c899f7e8ea9088c98befdf1455237a05ccc6f86e0721c0": [
       213,
       435,
@@ -13759,20 +13720,6 @@
       2607,
       2782
     ],
-    "c6947e3075754fb17a967d92aa8d1f3ebd729eb6950b9935e4d657548193b481": [
-      169,
-      406,
-      582,
-      732,
-      959,
-      1227,
-      1437,
-      1641,
-      1811,
-      1965,
-      2324,
-      2553
-    ],
     "c73cd57cab6fd3628eb69e451f4ba1cf936b563b71bdeccdedde0b6af0165e2a": [
       700,
       952
@@ -13780,26 +13727,16 @@
     "c7ee079116db9b6c184202498f3c39b834bf2ab68c21574976c3d9b8d95f7663": [
       419
     ],
-    "c87b44451402d615f3b491488cd72ca11c32aa15545d2e238c5343a6bbe7c453": [
-      170,
-      627,
-      814,
-      1096,
-      1382,
-      1794,
-      1958,
-      2158,
-      2405,
-      2786,
-      2989
-    ],
-    "c980e247576c2846f3eaf2272ddbcdbc61980e74b46752c74e421abd7794b265": [
-      179,
-      431,
-      603,
-      754,
-      1027,
-      1241
+    "c7f6e89a977d1a39da848cc7b308ff283d4a3c57f0ef47d085c0bf0aaad97842": [
+      272,
+      493,
+      707,
+      867,
+      1084,
+      1299,
+      1469,
+      1804,
+      1970
     ],
     "ca4d3cf33ba84df15c54ec976782a545d99692024564cc163d806f6a8b271471": [
       181,
@@ -13811,15 +13748,6 @@
     "caeb7e672f557f4e0087a3064b31540bf98d5b46e3941a5ecc2b454ec1acd891": [
       598,
       869
-    ],
-    "cb7b19e766e624c88fe8a9ebf27c86e38871bd146076846ec0ca77981422086b": [
-      214,
-      471,
-      736,
-      930,
-      1150,
-      1452,
-      1699
     ],
     "cc7dac503285c8896bd4e5b4edb37d83a45e0ab5f34f29be087d442d9389f3f1": [
       210,
@@ -13924,6 +13852,9 @@
       1257,
       1401
     ],
+    "d48b2abb72dbd11a1a0d75be1effde86c6f9167ce26e45c49a4234704fd2030a": [
+      515
+    ],
     "d4ff9061c744caf9946d8c892dba3d1a5f60eaa00a107b8f5eeb6149f4e28260": [
       380
     ],
@@ -13968,17 +13899,6 @@
       853,
       1028,
       1413
-    ],
-    "d85e78f74efec5548b781cb1bd1e422c0d5a9752f70a37a99e8a98297f76bc11": [
-      219,
-      469,
-      691,
-      880,
-      1071,
-      1226,
-      1425,
-      1700,
-      1960
     ],
     "d8f187824d4a07a1a34710a05ebf7df2c184d318531032a50a076d5f53be967a": [
       246,
@@ -14096,6 +14016,11 @@
       685,
       1159
     ],
+    "dd3862e07ab71f4b944690e802b9508dc4a240011cfd4e4548329af5561f9b28": [
+      243,
+      520,
+      726
+    ],
     "ddf8e00bcf0a9c138bcc4095d7f1bf957a1dec42a1a0d96db45e63fd4dd998e0": [
       270,
       435,
@@ -14186,13 +14111,6 @@
       937,
       1247
     ],
-    "e3d401dafd67cbc99bbced482ce0565a3fb729669d2cb9b435fced799627ea69": [
-      225,
-      539,
-      802,
-      1102,
-      1349
-    ],
     "e3de95a57eabba6e1c3721f6eeb345ff29c6482a8198dbc762390be6a72a2add": [
       139,
       308,
@@ -14212,15 +14130,6 @@
       1517,
       1675,
       1893
-    ],
-    "e4da8f3adeb5a4c915f83c2b2feb94296077b3b152343610ec54a5f1ba4d6346": [
-      184,
-      444,
-      688,
-      1018,
-      1347,
-      1556,
-      1700
     ],
     "e6b5123a0174cd9d70c0c71dcc2f3f460b50cf68696cace62bfb0c3936931869": [
       497
@@ -14277,10 +14186,32 @@
       772,
       941
     ],
+    "e9bd048f2370c3900c731bf3e39323fd167003a97a23846208688b3e87bb71df": [
+      242,
+      476,
+      703,
+      980,
+      1189,
+      1334,
+      1602,
+      1759,
+      2242,
+      2385
+    ],
     "e9d141d35ae03261ff6bd7453240144d5dca59a0dcc505f847bb6afa523582e9": [
       297,
       650,
       997
+    ],
+    "e9d23be5323cdba4615e1f4590f946907e1deafc5a1c208291b4783dfeb5f1b7": [
+      183,
+      421,
+      631,
+      870,
+      1071,
+      1332,
+      1485,
+      2255
     ],
     "ea83039af12371a8bff6a4189a5845e6ccf51743fdf6373f2e3cdbe88cd5a9ed": [
       200,
@@ -14346,13 +14277,6 @@
       778,
       956,
       1172
-    ],
-    "edc291f7561e487e5aec4bd3390d82047c9b80a58b451c2b3f5efdcce5c3ad03": [
-      235,
-      511,
-      682,
-      959,
-      1231
     ],
     "ee098b5ae3e2522cba8119227f393a7db82e3164aff05f35e2042e8acecef5f3": [
       221,
@@ -14432,12 +14356,6 @@
       1047,
       1348,
       1702
-    ],
-    "f30ec7693a231b576f07ee6f9e1c0d47953c7535c7b48f1c805898b7c4c8fc8d": [
-      227,
-      449,
-      682,
-      885
     ],
     "f349d10b0f1e584cef2887a5ffddda54405463230139152a11ae55726b450abc": [
       183,
@@ -14532,8 +14450,9 @@
       1230,
       1481
     ],
-    "fb3d54826f27763b347ba89aabc735cf4903d9e3091465b84b0e50673ac407e5": [
-      869
+    "fba53bb9bd51f70adb5a170315d50fed72cbd5ab5a9e4b8c80f4351141e4c85d": [
+      550,
+      864
     ],
     "fc420bf91a928e75426f9ed973d0c9f29b6a5428b7135be82b0d99b42919c43b": [
       176,
@@ -14566,19 +14485,48 @@
       601,
       871
     ],
+    "fd1c0dbd8b2aa2d31b5b00998169a874d21e1afa419072335e93746cc08f2f0c": [
+      299,
+      519,
+      807,
+      1026,
+      1340,
+      1769,
+      2060,
+      2264
+    ],
     "fd38bfff2850ad756778dbb3c728cfcbe219ddeb25bab74f0389a2ae5854bc50": [
       752,
       1297
+    ],
+    "fe88de24136aea0770380f2a5aa3cf642c02de633919600b60d0fb2c21f7f862": [
+      237,
+      376,
+      765,
+      1075,
+      1230,
+      1797,
+      1953,
+      2166,
+      2393
+    ],
+    "ff4b8306fa448824644c6bf9807f70af541dfcef62f3a973299af95c9597e1d6": [
+      261,
+      463,
+      891,
+      1208
+    ],
+    "ff501c9191e9566433a88c1700df17e5307f56ccc7fb021a2f9392da044fc4d3": [
+      185,
+      350,
+      538,
+      731
     ]
   },
   "heads": {
     "006f4d49f93674c73a58b8cfb3bbc466212f6ca80bbd6296fc6b2ea9707bf88e": {
       "326": 1,
       "873": 2
-    },
-    "00b6c3e44e2c47e34a731dfa25a55d725076b8851b540d3739950f261a68dd63": {
-      "1764": 2,
-      "546": 1
     },
     "0114cafb6c8c21fc06d89455607019f5b59cd30827416799d8974f4bff1b17c2": {
       "1988": 2,
@@ -14658,20 +14606,12 @@
     "0c10bc5a36876b243d311dbb3f2df927e5bd6a9758fb0201373bd6fadc53f979": {
       "586": 1
     },
-    "0ced454ab39d611eff6a90dff1404bd2e9d67048d256ae1fa9cbff3584880f09": {
-      "1259": 2,
-      "341": 1
-    },
     "0cf5ad4bdc2d0cf7e3499b62c3b71f299b1f751e0fbc1737caa995613f747cb3": {
       "1243": 2,
       "363": 1
     },
     "0ee9c76a42bac05b7cd833f720ff4fa63dddfb70883aab5a5274d9cb00af2eff": {
       "387": 1
-    },
-    "0eeab6d2e0573ad694da11f7571dca3c31813d07a7274a6d0205b5758dfe38b1": {
-      "1467": 2,
-      "522": 1
     },
     "0fa5cb06d0f11e867062ae465144e5beb37c7f49e8fa6f020ae15e8ee6c51092": {
       "477": 1
@@ -14688,9 +14628,6 @@
     "1124f2c81971440eec6b669ed0a8ab01de65b2eef7cb0da596dc4d89132e0ba9": {
       "311": 1
     },
-    "136d887a53105daebc9ff7a5e0c6cfbb727b8b56257b9959740295c86fe9145b": {
-      "480": 1
-    },
     "13c35189c1f4d8127b547b52e3a3b778e0b30e23408b94d7daffe9f49724b8b3": {
       "304": 1
     },
@@ -14704,9 +14641,6 @@
     "16534a20322bb3ce46f298a6ea3b85465b2ef665a4d8406c92bb82950ce311e1": {
       "1144": 2,
       "460": 1
-    },
-    "173cef2ddc66fbf18015b1bbad3c8773927cf2c44b9a8cba44aaf8b8430cbe99": {
-      "526": 1
     },
     "17c8ec0bc253c8bcd0aa66a044535ff6f8b9242ab352e980548b538dd235092c": {
       "401": 1
@@ -14741,13 +14675,6 @@
     },
     "1c0243bb092630f5c5334f749749026696fa4fdf05ad530180ba79fbff847d10": {
       "256": 1
-    },
-    "1c454656860cf1342ae893b0248d74218114471a9a3b6ff4babbeef05d964ac4": {
-      "1349": 2,
-      "287": 1
-    },
-    "1d792365b5ac04c49604d428cee4e694e39974daf6d7190977b22c32cbc659c3": {
-      "393": 1
     },
     "1e15ce6d0d37eb1c815a00426de33a7b22ba74227d465fb0498ed4b5a8af290f": {
       "394": 1
@@ -14797,9 +14724,6 @@
     "2408cb21ea573e728db8d211ab2100ba37cc671f733f7ecadb96f15bccbf543a": {
       "1650": 2,
       "435": 1
-    },
-    "2527ce9d11d7fe2e603633a27a75b3e4c5121f01b3c658057326113af52ac972": {
-      "493": 1
     },
     "258bd7b405626a1d7e54612173040c68d51ed2ee5137a0ffd2a0df3f0a5bc3f8": {
       "422": 1
@@ -14876,10 +14800,6 @@
     "343a4fe576ad0d894f08a6a1d215b8fff28529f6900b316c453c3d3276c566d1": {
       "1392": 2,
       "524": 1
-    },
-    "349577d98d2ed5112668d87650518441c6ae9cd006b663805538374e7206f042": {
-      "1583": 2,
-      "474": 1
     },
     "35f1290dcca4c3f4fb1eb40c536959c194d1d212dba648c8b864e3f34fb112eb": {
       "1179": 2,
@@ -14992,10 +14912,6 @@
     "4bf369447ebe18087cdc47683e20669d543955cac7ec90a723e9062b79f2b532": {
       "481": 1
     },
-    "4c06261986c2e5f5fcf62a54f3bdd949cb7a4198d23bfec41f741f3699b150ea": {
-      "1643": 2,
-      "626": 1
-    },
     "4c9c7e8942ac5aa64656b59b4e72a56f7ff0310e1ea0ebc8e4e39228dd020f41": {
       "389": 1
     },
@@ -15013,20 +14929,12 @@
     "549e8a06465675ead65e8857556c48fa333fc5b96bf925ddae0e3f76e918ed6f": {
       "469": 1
     },
-    "54a4a7cc42fa786a194275e3ce0c9781535f2e3ab9926330ed286aba4113ebc1": {
-      "1420": 2,
-      "466": 1
-    },
     "54ce937f44cc1b3907646819457a865a6dd7c771f1093510ffb49afa0af8d921": {
       "454": 1
     },
     "54d894ab17045b74d8744dd72033e5b80fbb157c00aa24cd83877234842f42e3": {
       "1336": 2,
       "482": 1
-    },
-    "558d060542261a3d73d6ffe4798cd03048604f7b6ba2ad37643b7b1352ecedb1": {
-      "1355": 2,
-      "474": 1
     },
     "56e01be50e4e884e63efb0098480fd274c7f6a67824caf87c8688b486bcb3718": {
       "398": 1
@@ -15044,9 +14952,6 @@
       "1336": 2,
       "411": 1
     },
-    "5b05d95df065e02b0a54d82d54a12ac7a14d3a6ea40c2b429f75eede876471ae": {
-      "230": 1
-    },
     "5bb4051a295f29ffc783718c2981d6b01d77f1def47ab732bd9af4c08757f344": {
       "372": 1
     },
@@ -15057,13 +14962,6 @@
     "5f1e8c93a5ab152970a8aa6bddfdcfeb4a830d65ba29f9142f64ab2a0faa47a1": {
       "238": 1,
       "793": 2
-    },
-    "60bf0e1158d5b99f83fd276f56bb98df41d8ab69bb0231d50dce3ccfedbcd691": {
-      "431": 1
-    },
-    "61bbdc8ffcf17c5c8d35275d396f6bb492b0c5d0ca7d57a6f43aa9f2ffc9cb94": {
-      "1668": 2,
-      "718": 1
     },
     "63f81f6f4c01bfea5ea8026c8a02e045a15e33455d2f937bbbb9e3ac9e776143": {
       "319": 1
@@ -15153,9 +15051,6 @@
     "6f4f1e897c6e453274676350705882aac0f40751b76149be16c64bba2bd183c9": {
       "405": 1
     },
-    "6f76be8224e2be38e79a6b957df223659f89148c64da8f675db5f788abd87b4b": {
-      "499": 1
-    },
     "70baac6e5b134b8fd0e503db17b512b2917838ca79f17173698d3a03ef833263": {
       "1844": 2,
       "3167": 3,
@@ -15211,9 +15106,6 @@
     "78ca4aa240ac0f0ebbc670abd69a227e15c646348c19492eee16f926ae1758bb": {
       "486": 1
     },
-    "791da43c183c887549d8ca61e39503abf0d5782496ee0f523823d96ba72690b4": {
-      "518": 1
-    },
     "796050081ce377e5de282b21a5d318ad3d4b3644130ef1a06d9fb8cc87f6b61a": {
       "371": 1
     },
@@ -15259,10 +15151,6 @@
     "82c4f3c6c828d2d8d3699eb530f66190c5b316d9965f6b1e39688a321be50cf3": {
       "1058": 2,
       "201": 1
-    },
-    "839cb8550a524d74449c40b95977438f32242e1fc8b1a3ca34f35311473b2b59": {
-      "1707": 2,
-      "545": 1
     },
     "8404149980bd871d3398d3352efbbb659f995c7ffbab2c67eeb0128353047306": {
       "470": 1
@@ -15376,13 +15264,6 @@
       "1049": 2,
       "267": 1
     },
-    "9b1f0a07bdd81a346790bb0c3a7e147ab6b908270578e44c8e8e67a5dae14545": {
-      "1894": 2,
-      "526": 1
-    },
-    "9bd315037c0e8c7645e8635c573d025495d7004e48773f828d6475ad621d9715": {
-      "437": 1
-    },
     "9bdb583ac1d868a349b695e64f207a4ba1f8e0632e43a309b3afe62b429498ea": {
       "387": 1
     },
@@ -15399,10 +15280,6 @@
     "9d9fabd3f2ce8849bd09b41f6ba89db75ee4e7cf9279c3569053bdc76893572f": {
       "1023": 2,
       "460": 1
-    },
-    "9ddac990a79443781dd1a8aee353a8b4c1d689b687e07b8d864273c81d3b7e00": {
-      "1553": 2,
-      "533": 1
     },
     "9e0601a641ae00326693307ed68d9d8f53589785521c3538d3cd49a182edb009": {
       "1294": 2,
@@ -15430,18 +15307,11 @@
     "a013481ed0a27e756c49038c57f8d4897d3198da37887c96e3be19320a71a314": {
       "505": 1
     },
-    "a0f6b616f088abc3f7b94f2d33c0d8447b555e27998f2b9a067527cf6be600de": {
-      "680": 1
-    },
     "a1453b2f43714f1682599a84b4e81d43e8587c64d299ace1069ca5b99e764fba": {
       "379": 1
     },
     "a14ee3b3e604a34f86573c7aa212c54280715bc6d625ee6016f6217880e442b0": {
       "365": 1
-    },
-    "a186b9e467ff95dbb8a43727746dc4b9bc8505e0fb48efe16e36c197bf247ea1": {
-      "1630": 2,
-      "467": 1
     },
     "a325a5ee04442d46daf9cdb6964b444cdf3810ed6c2f9eb1400c641797e4a5d8": {
       "1005": 2,
@@ -15450,10 +15320,6 @@
     "a34092fad36049a92f9e6db1c38206ad45c9507b716a56806222f89514e45790": {
       "1279": 2,
       "353": 1
-    },
-    "a38b19b8e633574e1884a03926f90c49493aeae5e18174575edb499214b79a56": {
-      "1306": 2,
-      "392": 1
     },
     "a38f865faa8864124dc99c014d42607da95a2c622ccf60374621639661f34159": {
       "1411": 2,
@@ -15487,10 +15353,6 @@
       "1443": 2,
       "556": 1
     },
-    "a98943e2beb12826ab0ba324f17dd6cfcca688f5e891d1dc6a3111d03ce319cf": {
-      "1414": 2,
-      "571": 1
-    },
     "a9df82e1d3659296a678900ba68d15590d43abfaf6b135ba7f1378ca8327aec6": {
       "336": 1
     },
@@ -15518,14 +15380,6 @@
     "aec85c37e01ea05235f531071bcad8867b7dd0e87f8430ffd803e2584626c02f": {
       "513": 1
     },
-    "af1b6dead27849c1e16202894a0ac6d75a8ab214d27e582b8b6b7bd19a0408ea": {
-      "1647": 2,
-      "545": 1
-    },
-    "b0898f89c131128bb1846ea75ec060637ee2e6950a0b085b9229ead8cb7bd672": {
-      "1826": 2,
-      "409": 1
-    },
     "b0b6c8ed715b76df9e0a99907c2202b2688433995ad5e57f9ee65678da941d29": {
       "1200": 2,
       "397": 1
@@ -15547,10 +15401,6 @@
     "b228e75226cc219a123372eb94059f9730c806c48d8c3da8cb6c0aeb7c4a2f49": {
       "1206": 2,
       "336": 1
-    },
-    "b34ce94b46fc3d9b767df32d6c9719de292f854f67dd21539d8bf944f26883c3": {
-      "1488": 2,
-      "542": 1
     },
     "b3959dd65a0de51e0714eb413563c2d3652ce4183ccebce00ccc3f0664c0bd1c": {
       "1175": 2,
@@ -15581,10 +15431,6 @@
     "b779907a42be1785635d4f6f7c87603b83cd4f1cc8993730ca42a41a9668d0e3": {
       "482": 1
     },
-    "b7eeccfc28aea4ab11c215913cba90dd7d7c066ae9ddee8d0cd565a9f0277cdc": {
-      "1558": 2,
-      "464": 1
-    },
     "b889cdebe724b55e484e224e0b0b8c3d79d6ccdc9c291b644f3f6906e04b1a89": {
       "1551": 2,
       "455": 1
@@ -15612,9 +15458,6 @@
       "1187": 2,
       "377": 1
     },
-    "bab5c58ac370a1ea35c3c71fcfbec122421d01df071097892de12f46699b3296": {
-      "372": 1
-    },
     "bafb7ce788f543e65c6d69e82ce1c92933acbed7a79a13dd3c476c2ef7ebf3b1": {
       "388": 1
     },
@@ -15626,9 +15469,6 @@
     },
     "bd6b2bc32a45685cff4386b35e9245d8b46aff7a22c6a69af83d1391743bac04": {
       "571": 1
-    },
-    "bd987c4d2b369dcb64915642ca6df17dd560e6fef10316fae20429c23dea7775": {
-      "408": 1
     },
     "bdba6feed5958bf2e53a9132536e2dfabe8accee5082c2f331c0e9dce39ed306": {
       "1680": 2,
@@ -15642,10 +15482,6 @@
       "1452": 2,
       "418": 1
     },
-    "be51c0ba0c4d3287f53d4a04a5c41384957b4a97aac382fb8707e54d1c24062b": {
-      "1367": 2,
-      "427": 1
-    },
     "be5d98be7b67db26e985a3212d7b31bc79cb684bc1591051e921ef71e9767873": {
       "235": 1
     },
@@ -15657,13 +15493,6 @@
     },
     "bf6921a30aa1d7d63d35b495c7392f6a695526259a7cccba47be2bf08c1a51f8": {
       "237": 1
-    },
-    "c01517ecc5959c5465f30bb415a5b16a503359c6dd2e7528717453949f4acd08": {
-      "1843": 2,
-      "515": 1
-    },
-    "c0e0d01eee4277db3f6768d536e19b73f212db31cd1293c4608507e56ff81b54": {
-      "480": 1
     },
     "c1509424935a1a4765533834406788cc36c07f1a981a8693e2e7e8dc0e9c5ab0": {
       "1173": 2,
@@ -15697,23 +15526,8 @@
       "1947": 2,
       "616": 1
     },
-    "c6947e3075754fb17a967d92aa8d1f3ebd729eb6950b9935e4d657548193b481": {
-      "1965": 2,
-      "582": 1
-    },
-    "c87b44451402d615f3b491488cd72ca11c32aa15545d2e238c5343a6bbe7c453": {
-      "1958": 2,
-      "627": 1
-    },
-    "c980e247576c2846f3eaf2272ddbcdbc61980e74b46752c74e421abd7794b265": {
-      "1027": 2,
-      "431": 1
-    },
     "ca4d3cf33ba84df15c54ec976782a545d99692024564cc163d806f6a8b271471": {
       "473": 1
-    },
-    "cb7b19e766e624c88fe8a9ebf27c86e38871bd146076846ec0ca77981422086b": {
-      "471": 1
     },
     "cc7dac503285c8896bd4e5b4edb37d83a45e0ab5f34f29be087d442d9389f3f1": {
       "1638": 2,
@@ -15772,10 +15586,6 @@
     },
     "d79c3611ba50bd9ca8afb19dc10c087286826d47355a24a5fbca15166f2a1960": {
       "583": 1
-    },
-    "d85e78f74efec5548b781cb1bd1e422c0d5a9752f70a37a99e8a98297f76bc11": {
-      "1425": 2,
-      "469": 1
     },
     "d8f187824d4a07a1a34710a05ebf7df2c184d318531032a50a076d5f53be967a": {
       "1746": 2,
@@ -15856,19 +15666,12 @@
       "404": 1,
       "937": 2
     },
-    "e3d401dafd67cbc99bbced482ce0565a3fb729669d2cb9b435fced799627ea69": {
-      "539": 1
-    },
     "e3de95a57eabba6e1c3721f6eeb345ff29c6482a8198dbc762390be6a72a2add": {
       "465": 1
     },
     "e3fc841f1ea3e3207f62632f462b0b7faf9cbe0218303a6199fba1ff7d9afd06": {
       "1355": 2,
       "426": 1
-    },
-    "e4da8f3adeb5a4c915f83c2b2feb94296077b3b152343610ec54a5f1ba4d6346": {
-      "1347": 2,
-      "444": 1
     },
     "e6e5e28257d519dd6d3f1247a4b1c632e14375ea0754161c59d56e6b4e1d8441": {
       "1247": 2,
@@ -15920,9 +15723,6 @@
     "ed12a1a3c492eec7699b783bd40e95915ae160daef73551caacbe6e41e454ae0": {
       "426": 1
     },
-    "edc291f7561e487e5aec4bd3390d82047c9b80a58b451c2b3f5efdcce5c3ad03": {
-      "511": 1
-    },
     "ee098b5ae3e2522cba8119227f393a7db82e3164aff05f35e2042e8acecef5f3": {
       "1236": 2,
       "452": 1
@@ -15955,9 +15755,6 @@
     "f2ecaf4605616b63a3ecdf8ef1d2ab909397a521a35748df04993cce2bcdd9dc": {
       "1348": 2,
       "433": 1
-    },
-    "f30ec7693a231b576f07ee6f9e1c0d47953c7535c7b48f1c805898b7c4c8fc8d": {
-      "449": 1
     },
     "f349d10b0f1e584cef2887a5ffddda54405463230139152a11ae55726b450abc": {
       "363": 1
@@ -16008,5 +15805,183 @@
     }
   },
   "pack": "LoreForever_Voice_Default_MorePlaces",
+  "retired": [
+    {
+      "file": "Audio/Transport/full_subzone_andorhal-be878d6112e6b9c84235/1-0000.mp3",
+      "sha256": "4c06261986c2e5f5fcf62a54f3bdd949cb7a4198d23bfec41f741f3699b150ea"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_browman-mill-59278ab4f853b23711d2/1-0000.mp3",
+      "sha256": "be51c0ba0c4d3287f53d4a04a5c41384957b4a97aac382fb8707e54d1c24062b"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_caer-darrow-0072455b6e68566f18fd/1-0000.mp3",
+      "sha256": "9bd315037c0e8c7645e8635c573d025495d7004e48773f828d6475ad621d9715"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_caverns-of-time-eab4e41d3461dbe30ade/1-0000.mp3",
+      "sha256": "a186b9e467ff95dbb8a43727746dc4b9bc8505e0fb48efe16e36c197bf247ea1"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_chillwind-camp-d0004599a0f756dd225c/1-0000.mp3",
+      "sha256": "839cb8550a524d74449c40b95977438f32242e1fc8b1a3ca34f35311473b2b59"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_chillwind-point-0bdaf52c530e1cd98b83/1-0000.mp3",
+      "sha256": "a98943e2beb12826ab0ba324f17dd6cfcca688f5e891d1dc6a3111d03ce319cf"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_corin-s-crossing-6ef30b9bb76f37fe2cb6/1-0000.mp3",
+      "sha256": "61bbdc8ffcf17c5c8d35275d396f6bb492b0c5d0ca7d57a6f43aa9f2ffc9cb94"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_crown-guard-tower-edd760736795cc67fdae/1-0000.mp3",
+      "sha256": "bab5c58ac370a1ea35c3c71fcfbec122421d01df071097892de12f46699b3296"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_darrowshire-c3ed6b8b301959d31242/1-0000.mp3",
+      "sha256": "c6947e3075754fb17a967d92aa8d1f3ebd729eb6950b9935e4d657548193b481"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_eastwall-tower-f2e275645f36b3985010/1-0000.mp3",
+      "sha256": "2527ce9d11d7fe2e603633a27a75b3e4c5121f01b3c658057326113af52ac972"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_felstone-field-0bb073132561af0e599c/1-0000.mp3",
+      "sha256": "c0e0d01eee4277db3f6768d536e19b73f212db31cd1293c4608507e56ff81b54"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_forlorn-cloister-f5eee7a170b0ceb2aef1/1-0000.mp3",
+      "sha256": "1c454656860cf1342ae893b0248d74218114471a9a3b6ff4babbeef05d964ac4"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_fungal-vale-6f7d17ce6cf2b90269d7/1-0000.mp3",
+      "sha256": "173cef2ddc66fbf18015b1bbad3c8773927cf2c44b9a8cba44aaf8b8430cbe99"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_gahrron-s-withering-9d2f5e3ab3722adc043f/1-0000.mp3",
+      "sha256": "1d792365b5ac04c49604d428cee4e694e39974daf6d7190977b22c32cbc659c3"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_gallery-of-treasures-a82d47e97eb46ba0c976/1-0000.mp3",
+      "sha256": "e3d401dafd67cbc99bbced482ce0565a3fb729669d2cb9b435fced799627ea69"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_hall-of-champions-60132f4ec7553c28135a/1-0000.mp3",
+      "sha256": "f30ec7693a231b576f07ee6f9e1c0d47953c7535c7b48f1c805898b7c4c8fc8d"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_hammerfall-ce04defb3c6959a19ac3/1-0000.mp3",
+      "sha256": "00b6c3e44e2c47e34a731dfa25a55d725076b8851b540d3739950f261a68dd63"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_hearthglen-6cb806d2230f19e69150/1-0000.mp3",
+      "sha256": "c01517ecc5959c5465f30bb415a5b16a503359c6dd2e7528717453949f4acd08"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_lake-mereldar-a015a9de517521089537/1-0000.mp3",
+      "sha256": "54a4a7cc42fa786a194275e3ce0c9781535f2e3ab9926330ed286aba4113ebc1"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_mardenholde-keep-0742783ef30eab96328e/1-0000.mp3",
+      "sha256": "60bf0e1158d5b99f83fd276f56bb98df41d8ab69bb0231d50dce3ccfedbcd691"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_marris-stead-68ff57de363ea5baca22/1-0000.mp3",
+      "sha256": "3494a7b3ddc82a84d7a97495ad0a7cf3dd733e60fdf4780e89bb082406e95bcb"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_northpass-tower-4b0482f6d4be33832574/1-0000.mp3",
+      "sha256": "c980e247576c2846f3eaf2272ddbcdbc61980e74b46752c74e421abd7794b265"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_northridge-lumber-camp-0e68fe0567ec4535e051/1-0000.mp3",
+      "sha256": "0eeab6d2e0573ad694da11f7571dca3c31813d07a7274a6d0205b5758dfe38b1"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_pestilent-scar-b9e5d7894127df7aa378/1-0000.mp3",
+      "sha256": "0ced454ab39d611eff6a90dff1404bd2e9d67048d256ae1fa9cbff3584880f09"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_plaguemist-ravine-d0925a3db14d41c38c22/1-0000.mp3",
+      "sha256": "e4da8f3adeb5a4c915f83c2b2feb94296077b3b152343610ec54a5f1ba4d6346"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_plaguewood-tower-7644d612943fcbf8640a/1-0000.mp3",
+      "sha256": "bd987c4d2b369dcb64915642ca6df17dd560e6fef10316fae20429c23dea7775"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_quel-lithien-lodge-2fa9ed5d0b575acf2737/1-0000.mp3",
+      "sha256": "a0f6b616f088abc3f7b94f2d33c0d8447b555e27998f2b9a067527cf6be600de"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_ruins-of-alterac-82ec89adde54fc72ecb3/1-0000.mp3",
+      "sha256": "9b1f0a07bdd81a346790bb0c3a7e147ab6b908270578e44c8e8e67a5dae14545"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_ruins-of-andorhal-c69c302aacecc477b47f/1-0000.mp3",
+      "sha256": "6f76be8224e2be38e79a6b957df223659f89148c64da8f675db5f788abd87b4b"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_scarlet-basilica-d5e66f0f093cc08a7dbe/1-0000.mp3",
+      "sha256": "136d887a53105daebc9ff7a5e0c6cfbb727b8b56257b9959740295c86fe9145b"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_scarlet-monastery-cathedral-8cde9b7ceb2cad5a66c9/1-0000.mp3",
+      "sha256": "5b05d95df065e02b0a54d82d54a12ac7a14d3a6ea40c2b429f75eede876471ae"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_scarlet-monastery-graveyard-2d8c2bd207f8b1e42fb9/1-0000.mp3",
+      "sha256": "af1b6dead27849c1e16202894a0ac6d75a8ab214d27e582b8b6b7bd19a0408ea"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_scarlet-monastery-library-63a82404b32cf1d500d6/1-0000.mp3",
+      "sha256": "b7eeccfc28aea4ab11c215913cba90dd7d7c066ae9ddee8d0cd565a9f0277cdc"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_scholomance-classic-dc8d047e0c295ac19e89/1-0000.mp3",
+      "sha256": "b0898f89c131128bb1846ea75ec060637ee2e6950a0b085b9229ead8cb7bd672"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_southshore-town-hall-bf68a795ffd83a993f12/1-0000.mp3",
+      "sha256": "edc291f7561e487e5aec4bd3390d82047c9b80a58b451c2b3f5efdcce5c3ad03"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_stratholme-34bc491151f5b741276b/1-0000.mp3",
+      "sha256": "c87b44451402d615f3b491488cd72ca11c32aa15545d2e238c5343a6bbe7c453"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_stratholme-classic-8dda45ce355eab30d86a/1-0000.mp3",
+      "sha256": "349577d98d2ed5112668d87650518441c6ae9cd006b663805538374e7206f042"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_stratholme-main-gate-888e39c8368d288353c2/1-0000.mp3",
+      "sha256": "d85e78f74efec5548b781cb1bd1e422c0d5a9752f70a37a99e8a98297f76bc11"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_thoradin-s-wall-a65313ccad83903b3f96/1-0000.mp3",
+      "sha256": "558d060542261a3d73d6ffe4798cd03048604f7b6ba2ad37643b7b1352ecedb1"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_tyr-s-hand-bea5e8992ea889d5e410/1-0000.mp3",
+      "sha256": "b34ce94b46fc3d9b767df32d6c9719de292f854f67dd21539d8bf944f26883c3"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_undercroft-adabf897d8a922c5fabb/1-0000.mp3",
+      "sha256": "791da43c183c887549d8ca61e39503abf0d5782496ee0f523823d96ba72690b4"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_writhing-haunt-e58be80b6a0a5d6219f4/1-0000.mp3",
+      "sha256": "9ddac990a79443781dd1a8aee353a8b4c1d689b687e07b8d864273c81d3b7e00"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_zul-mashar-8bb9490ed579f2285005/1-0000.mp3",
+      "sha256": "cb7b19e766e624c88fe8a9ebf27c86e38871bd146076846ec0ca77981422086b"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_southpoint-tower-ca6a3364e914d12e0f2b/1-0000.mp3",
+      "sha256": "a38b19b8e633574e1884a03926f90c49493aeae5e18174575edb499214b79a56"
+    }
+  ],
   "version": 1
 }

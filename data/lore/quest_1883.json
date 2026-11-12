@@ -1,0 +1,79 @@
+{
+ "key": "quest:1883",
+ "type": "quest",
+ "name": "Speak with Un'thuwa",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1883
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Un'thuwa, Sen'jin Village's tribal mage, senses a disturbance in Durotar's magic currents and asks you to speak with him. He hopes your aid will help him understand it.",
+ "sections": [
+  {
+   "title": "A Call for Aid",
+   "body": "In Sen'jin Village, Un'thuwa asks you to speak with him. The tribal mage senses a disturbance in Durotar's magic currents and seeks help. What he can learn may depend on your aid.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Un'thuwa?",
+   "aliases": [
+    "un'thuwa who",
+    "sen'jin mage"
+   ],
+   "answer": "Un'thuwa is the tribal mage of Sen'jin Village."
+  },
+  {
+   "q": "What does Un'thuwa sense?",
+   "aliases": [
+    "magic disturbance",
+    "durotar magic"
+   ],
+   "answer": "Un'thuwa detects a disturbance in Durotar's magic currents."
+  },
+  {
+   "q": "Why does Un'thuwa want to speak with me?",
+   "aliases": [
+    "why talk un'thuwa",
+    "un'thuwa help"
+   ],
+   "answer": "Un'thuwa asks for your aid with the disturbance he senses in Durotar's magic currents."
+  },
+  {
+   "q": "What might come from helping Un'thuwa?",
+   "aliases": [
+    "what happens if help",
+    "un'thuwa secrets"
+   ],
+   "answer": "Un'thuwa says that further secrets may be revealed to you in time."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Mage",
+   "text": "As a mage, you are asked to speak with Un'thuwa, the tribal mage who senses a disturbance in Durotar's magic currents."
+  }
+ ],
+ "keywords": [
+  "disturbance",
+  "durotar",
+  "magic currents",
+  "sen'jin village",
+  "tribal mage",
+  "un'thuwa"
+ ],
+ "related": [
+  "subzone:sen-jin-village",
+  "zone:durotar",
+  "topic:mage"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Speak with Un'thuwa"
+ ]
+}

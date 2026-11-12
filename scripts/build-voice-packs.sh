@@ -17,8 +17,8 @@
 #   LoreForever_Voice_QuestGivers.zip                     quest givers' voices: quest dialogue in each quest giver's
 #                                                         race and gender (its own CurseForge project: under 480 MB)
 #   LoreForever_Voice_<Default|Female>_<locale>.zip       either narrator in deDE, esES, frFR, ptBR, itIT or zhCN (LOR-177),
-#                                                         one pack each, once recorded; MorePeople_<locale> (and for zhCN,
-#                                                         MoreItems_zhCN and MoreQuests1-3_zhCN) the rest of its stories
+#                                                         one pack each, once recorded; MorePeople_<locale> (and for zhCN, itIT, deDE and frFR,
+#                                                         MoreItems_<locale> and MoreQuests1-3_<locale>) the rest of its stories
 #   LoreForever_Voice_<Default|Female>_Quests_<locale>.zip  either narrator's quest dialogue in one of those languages
 #                                                         (LOR-226, the game's own quest text), once recorded
 # They all follow the core's version (scripts/release.sh stamps it into their .toc files, like the default pack's).
@@ -170,6 +170,15 @@ DOWNLOADS = {
                                                   "Male narrator: more people, Deutsch {v}"),
     "LoreForever_Voice_Female_MorePeople_deDE": (["LoreForever_Voice_Female_MorePeople_deDE"],
                                                  "Female narrator: more people, Deutsch {v}"),
+    # German v3 (LOR-1082): every story, split as Chinese's and Italian's are. Skipped until recorded.
+    "LoreForever_Voice_Default_MoreItems_deDE": (["LoreForever_Voice_Default_MoreItems_deDE"], "Male narrator: item stories, Deutsch {v}"),
+    "LoreForever_Voice_Female_MoreItems_deDE": (["LoreForever_Voice_Female_MoreItems_deDE"], "Female narrator: item stories, Deutsch {v}"),
+    "LoreForever_Voice_Default_MoreQuests1_deDE": (["LoreForever_Voice_Default_MoreQuests1_deDE"], "Male narrator: quest stories 1-19, Deutsch {v}"),
+    "LoreForever_Voice_Female_MoreQuests1_deDE": (["LoreForever_Voice_Female_MoreQuests1_deDE"], "Female narrator: quest stories 1-19, Deutsch {v}"),
+    "LoreForever_Voice_Default_MoreQuests2_deDE": (["LoreForever_Voice_Default_MoreQuests2_deDE"], "Male narrator: quest stories 20-39, Deutsch {v}"),
+    "LoreForever_Voice_Female_MoreQuests2_deDE": (["LoreForever_Voice_Female_MoreQuests2_deDE"], "Female narrator: quest stories 20-39, Deutsch {v}"),
+    "LoreForever_Voice_Default_MoreQuests3_deDE": (["LoreForever_Voice_Default_MoreQuests3_deDE"], "Male narrator: quest stories 40+, Deutsch {v}"),
+    "LoreForever_Voice_Female_MoreQuests3_deDE": (["LoreForever_Voice_Female_MoreQuests3_deDE"], "Female narrator: quest stories 40+, Deutsch {v}"),
     "LoreForever_Voice_Default_MorePeople_esES": (["LoreForever_Voice_Default_MorePeople_esES"],
                                                   "Male narrator: more people, Español {v}"),
     "LoreForever_Voice_Female_MorePeople_esES": (["LoreForever_Voice_Female_MorePeople_esES"],
@@ -184,9 +193,29 @@ DOWNLOADS = {
                                                  "Female narrator: more people, Français {v}"),
     "LoreForever_Voice_Default_frFR": (["LoreForever_Voice_Default_frFR"], "Male narrator: Français {v}"),
     "LoreForever_Voice_Female_frFR": (["LoreForever_Voice_Female_frFR"], "Female narrator: Français {v}"),
+    # French v3 (LOR-1082): every story, split as Chinese's and Italian's are. Skipped until recorded.
+    "LoreForever_Voice_Default_MoreItems_frFR": (["LoreForever_Voice_Default_MoreItems_frFR"], "Male narrator: item stories, Français {v}"),
+    "LoreForever_Voice_Female_MoreItems_frFR": (["LoreForever_Voice_Female_MoreItems_frFR"], "Female narrator: item stories, Français {v}"),
+    "LoreForever_Voice_Default_MoreQuests1_frFR": (["LoreForever_Voice_Default_MoreQuests1_frFR"], "Male narrator: quest stories 1-19, Français {v}"),
+    "LoreForever_Voice_Female_MoreQuests1_frFR": (["LoreForever_Voice_Female_MoreQuests1_frFR"], "Female narrator: quest stories 1-19, Français {v}"),
+    "LoreForever_Voice_Default_MoreQuests2_frFR": (["LoreForever_Voice_Default_MoreQuests2_frFR"], "Male narrator: quest stories 20-39, Français {v}"),
+    "LoreForever_Voice_Female_MoreQuests2_frFR": (["LoreForever_Voice_Female_MoreQuests2_frFR"], "Female narrator: quest stories 20-39, Français {v}"),
+    "LoreForever_Voice_Default_MoreQuests3_frFR": (["LoreForever_Voice_Default_MoreQuests3_frFR"], "Male narrator: quest stories 40+, Français {v}"),
+    "LoreForever_Voice_Female_MoreQuests3_frFR": (["LoreForever_Voice_Female_MoreQuests3_frFR"], "Female narrator: quest stories 40+, Français {v}"),
     # Italian (10/18): the stories the Italian community's pack has, read by native narrators. Skipped until recorded.
     "LoreForever_Voice_Default_itIT": (["LoreForever_Voice_Default_itIT"], "Male narrator: Italiano {v}"),
     "LoreForever_Voice_Female_itIT": (["LoreForever_Voice_Female_itIT"], "Female narrator: Italiano {v}"),
+    # Italian's other stories (LOR-1375), split as Chinese's are. Skipped until recorded.
+    "LoreForever_Voice_Default_MorePeople_itIT": (["LoreForever_Voice_Default_MorePeople_itIT"], "Male narrator: more people, Italiano {v}"),
+    "LoreForever_Voice_Female_MorePeople_itIT": (["LoreForever_Voice_Female_MorePeople_itIT"], "Female narrator: more people, Italiano {v}"),
+    "LoreForever_Voice_Default_MoreItems_itIT": (["LoreForever_Voice_Default_MoreItems_itIT"], "Male narrator: item stories, Italiano {v}"),
+    "LoreForever_Voice_Female_MoreItems_itIT": (["LoreForever_Voice_Female_MoreItems_itIT"], "Female narrator: item stories, Italiano {v}"),
+    "LoreForever_Voice_Default_MoreQuests1_itIT": (["LoreForever_Voice_Default_MoreQuests1_itIT"], "Male narrator: quest stories 1-19, Italiano {v}"),
+    "LoreForever_Voice_Female_MoreQuests1_itIT": (["LoreForever_Voice_Female_MoreQuests1_itIT"], "Female narrator: quest stories 1-19, Italiano {v}"),
+    "LoreForever_Voice_Default_MoreQuests2_itIT": (["LoreForever_Voice_Default_MoreQuests2_itIT"], "Male narrator: quest stories 20-39, Italiano {v}"),
+    "LoreForever_Voice_Female_MoreQuests2_itIT": (["LoreForever_Voice_Female_MoreQuests2_itIT"], "Female narrator: quest stories 20-39, Italiano {v}"),
+    "LoreForever_Voice_Default_MoreQuests3_itIT": (["LoreForever_Voice_Default_MoreQuests3_itIT"], "Male narrator: quest stories 40+, Italiano {v}"),
+    "LoreForever_Voice_Female_MoreQuests3_itIT": (["LoreForever_Voice_Female_MoreQuests3_itIT"], "Female narrator: quest stories 40+, Italiano {v}"),
     # Chinese (LOR-1318): ~2,100 complete stories a narrator, split like English (lore.voicepack LOCALE_PARTS): zones
     # and places, people, items, and quests by their English part. Skipped until recorded.
     "LoreForever_Voice_Default_zhCN": (["LoreForever_Voice_Default_zhCN"], "Male narrator: 简体中文 {v}"),

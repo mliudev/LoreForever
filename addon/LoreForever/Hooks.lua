@@ -1179,6 +1179,20 @@ local ACTIONS = {
       return string.format(L["press %s to skip to the next narration. Change it any time in Options."], key)
     end,
   },
+  stop = {
+    binding = "LOREFOREVER_STOP",
+    ask = function() return L["Pick a key to stop narration. Play carries on from there."] end,
+    done = function(key)
+      return string.format(L["press %s to stop narration. Change it any time in Options."], key)
+    end,
+  },
+  clearWaiting = {
+    binding = "LOREFOREVER_CLEARWAITING",
+    ask = function() return L["Pick a key to clear the narrations waiting their turn (what you added stays)."] end,
+    done = function(key)
+      return string.format(L["press %s to clear the narrations waiting their turn. Change it any time in Options."], key)
+    end,
+  },
   picture = {
     binding = "LOREFOREVER_PICTURE",
     ask = function() return L["Pick a key to take a journey picture."] end,

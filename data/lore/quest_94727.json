@@ -1,0 +1,70 @@
+{
+ "key": "quest:94727",
+ "type": "quest",
+ "name": "Digging for Answers",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94727
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The Twilight's Hammer is digging through the Riverglades for an unknown source of power. You are sent to Sunnyglade to question one of their miners.",
+ "sections": [
+  {
+   "title": "Miners in Sunnyglade",
+   "body": "The Twilight's Hammer has workers digging in Sunnyglade, and you are sent to question one of the miners. Their search points to a source of power, but its nature remains unknown. The zealots keep their secrets close, so the miners may know what they seek.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Twilight's Hammer digging for?",
+   "aliases": [
+    "what are they digging for",
+    "twilight hammer digging",
+    "source of power"
+   ],
+   "answer": "The Twilight's Hammer appears to be searching for a source of power in the Riverglades, but what it is remains unknown."
+  },
+  {
+   "q": "Why am I questioning a miner?",
+   "aliases": [
+    "why miner",
+    "talk to the miner",
+    "digging answers quest"
+   ],
+   "answer": "The Twilight's Hammer zealots keep their secrets, so you are sent to question one of their miners in Sunnyglade."
+  },
+  {
+   "q": "Where are the miners?",
+   "aliases": [
+    "where is sunnyglade",
+    "miner location",
+    "riverglades digging"
+   ],
+   "answer": "The miners are digging in Sunnyglade, within the Riverglades."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "digging for answers",
+  "miner",
+  "riverglades",
+  "source of power",
+  "sunnyglade",
+  "twilight's hammer"
+ ],
+ "related": [
+  "zone:riverglades",
+  "subzone:sunnyglade",
+  "topic:twilight-s-hammer",
+  "quest:96988"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Digging for Answers"
+ ]
+}

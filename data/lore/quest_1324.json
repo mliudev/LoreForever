@@ -1,0 +1,76 @@
+{
+ "key": "quest:1324",
+ "type": "quest",
+ "name": "The Missing Diplomat",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1324
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A representative in Dustwallow Marsh asks you to defeat Private Hendel. He is to be taken to Theramore for questioning as the search for the King continues.",
+ "sections": [
+  {
+   "title": "A Questioning in Theramore",
+   "body": "The search for the King remains unsettled, and Private Hendel is to be brought to Theramore for questioning. You are asked to defeat him in Dustwallow Marsh. Afterward, Lady Proudmoore is waiting to hear from you, and Hendel's questioning may help them search for the King.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Private Hendel?",
+   "aliases": [
+    "hendel",
+    "private hendel",
+    "who's hendel"
+   ],
+   "answer": "Private Hendel is the man you are asked to defeat in Dustwallow Marsh and take to Theramore for questioning."
+  },
+  {
+   "q": "Why is Hendel being taken to Theramore?",
+   "aliases": [
+    "why theramore",
+    "hendel questioning",
+    "why take him"
+   ],
+   "answer": "Hendel is to be questioned in Theramore as people search for the King."
+  },
+  {
+   "q": "Who is Lady Proudmoore?",
+   "aliases": [
+    "proudmoore",
+    "lady jaina",
+    "who is she"
+   ],
+   "answer": "Lady Proudmoore is the person who would like to thank you for your help."
+  },
+  {
+   "q": "What happened to the King?",
+   "aliases": [
+    "missing king",
+    "where is the king",
+    "king missing"
+   ],
+   "answer": "The search for the King is ongoing."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dustwallow marsh",
+  "lady proudmoore",
+  "missing diplomat",
+  "missing king",
+  "private hendel",
+  "theramore"
+ ],
+ "related": [
+  "zone:dustwallow"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Missing Diplomat"
+ ]
+}

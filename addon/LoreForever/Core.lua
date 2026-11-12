@@ -10,6 +10,8 @@ local function setBindingNames()
   BINDING_NAME_LOREFOREVER_NARRATE = L["Hear this next (what you hover or target, or where you are)"]
   BINDING_NAME_LOREFOREVER_PLAYLIST = L["Play/pause narration playlist"]
   BINDING_NAME_LOREFOREVER_PLAYLIST_NEXT = L["Next narration"]
+  BINDING_NAME_LOREFOREVER_STOP = L["Stop narration"]
+  BINDING_NAME_LOREFOREVER_CLEARWAITING = L["Clear waiting narration (keeps what you added)"]
   BINDING_NAME_LOREFOREVER_PICTURE = L["Take a journey picture"]
   BINDING_NAME_LOREFOREVER_ASKWILLO = L["Ask %s (hold: live game info shows meanwhile)"]:format(ns.COMPANION_NAME)
   BINDING_NAME_LOREFOREVER_ASKTARGET = L["Ask who you're targeting (hold: live game info shows meanwhile)"]
@@ -85,10 +87,24 @@ function LoreForever_PlaylistToggle()
   playlistPlayPause()
 end
 
+-- Next: what plays now ends for good (Earlier keeps it) and the list goes on, whatever started it (LOR-1388).
 function LoreForever_PlaylistNext()
-  if ns.UI.frame and not ns.UI.PlaylistNext() then
+  if ns.UI.frame and not ns.UI.SkipCurrent() then
     say(L["your playlist is empty. Shift-click any page in Found to add it."])
   end
+end
+
+-- Stop: what plays pauses where it is, and the list with it; Play carries on (LOR-1388).
+function LoreForever_Stop()
+  if ns.UI.frame then ns.UI.StopAll() end
+end
+
+-- Clear waiting: every waiting line that came by itself goes; what you added stays (LOR-1388).
+function LoreForever_ClearWaiting()
+  if not ns.UI.frame then return end
+  local n = ns.UI.ClearWaiting()
+  say(n > 0 and string.format(n == 1 and L["%d waiting narration cleared."] or L["%d waiting narrations cleared."], n)
+    or L["nothing was waiting."])
 end
 
 -- The journey picture key (and /lore picture): a screenshot without the interface, kept as a moment of your journey
@@ -909,6 +925,7 @@ SlashCmdList.LOREFOREVER = function(msg)
     say(L["/lore reset - bring back the panel, the floating player, the minimap button and every pop-up (keeps your journey and settings)"])
     say(L["/lore primer - dungeon primer for where you are"])
     say(L["/lore listen - play the last narrated answer (or where you are); /lore narrate - narrate flights on/off"])
+    say(L["/lore stop - stop narration (Play carries on); /lore next - skip to the next one; /lore clear - clear what's waiting (keeps what you added)"])
     say(L["/lore autoplay - narrations as you arrive on/off"])
     say(L["/lore ondemand - narration only when you press Play on/off"])
     say(L["/lore voice - list narration voices; /lore voice <number or name> - switch (auto: default, none: off)"])
@@ -969,7 +986,11 @@ SlashCmdList.LOREFOREVER = function(msg)
     UI.ListenTo(t)
     if not UI.speaking then say(L["there's no narration for this place yet."]) end
   elseif cmd == "stop" then
-    ns.UI.StopAll()
+    LoreForever_Stop()
+  elseif cmd == "next" or cmd == "skip" then
+    LoreForever_PlaylistNext()
+  elseif cmd == "clear" then
+    LoreForever_ClearWaiting()
   elseif cmd == "narrate" then
     toggleSetting("narrateFlights", L["flight narration"])
   elseif cmd == "autoplay" then
