@@ -12,6 +12,15 @@ enum Screen: Equatable {
     case partial(names: [String])       // one part failed; the rest is in
     case failed(title: String, detail: String)   // nothing could be installed
     case noSpace(need: Int64, free: Int64)
+
+    // Nothing installed, said as it happened (LOR-1398). A full disk gets "Not enough space" with the real numbers.
+    static let cannotWrite = Screen.failed(title: "Can't write to that folder",
+        detail: "macOS won't let Lore Forever save to your game folder. Try the ZIP at loreforeverwow.com/downloads.")
+    static let couldNotDownload = Screen.failed(title: "That didn't work", detail: "Lore Forever couldn't download. Your game hasn't changed.")
+    static let damaged = Screen.failed(title: "The download was damaged",
+        detail: "Lore Forever checked it and it wasn't right, so nothing was installed. Your game hasn't changed.")
+    static let unreachable = Screen.failed(title: "The download won't connect",
+        detail: "Your Mac is online, but it can't reach the download. A VPN, a proxy or a wrong date and time on your Mac can do this. Your game hasn't changed.")
 }
 
 final class AppModel: ObservableObject {
@@ -51,9 +60,13 @@ final class AppModel: ObservableObject {
         guard let game, let cards = narrator?.cards else { return nil }
         return BUNDLES.first { key in
             guard let zips = cards[key]?.zips, cards[key]?.ok == true else { return false }
-            return zips.allSatisfy { $0.folders.allSatisfy { tocVersion(in: game.addOns, folder: $0) != nil } }
+            return zips.allSatisfy { zipPresent($0, game: game, receipts: receipts) }
         }
     }
+
+    // Set once the game is chosen, so the window's title and the progress line keep saying Update (or Install) all the
+    // way through, rather than turning into Update once the add-on lands mid-install.
+    @Published var updating = false
 
     func start() {
         if let image = imageFromEnvironment() ?? Optional(downloadedImage(appPath: Bundle.main.bundlePath)) {
@@ -113,6 +126,7 @@ final class AppModel: ObservableObject {
 
     @MainActor func choose(_ g: GameFolder) {
         game = g
+        updating = isUpdate
         // Update keeps at least what's there: a smaller pick never removes voices, so show the larger of the two.
         if let have = installedBundle, !pickedOnSite || (BUNDLES.firstIndex(of: have) ?? 9) < (BUNDLES.firstIndex(of: pick.bundle) ?? 9) {
             pick.bundle = have
@@ -202,11 +216,14 @@ final class AppModel: ObservableObject {
             await MainActor.run {
                 DockProgress.shared.hide()
                 if engine.cancelled { NSApp.terminate(nil); return }
-                if result.writeProblem {
-                    self.screen = .failed(title: "Can't write to that folder",
-                                          detail: "macOS won't let Lore Forever save to your game folder. Try the ZIP at loreforeverwow.com/downloads.")
+                if result.writeProblem && !result.installedAny {
+                    self.screen = .cannotWrite
+                } else if result.diskFull && !result.installedAny {
+                    let need = spaceNeeded(result.stillNeeded)
+                    self.freeSpace = freeBytes(at: game.root)
+                    self.screen = .noSpace(need: need, free: self.freeSpace)
                 } else if !result.failedNames.isEmpty && !result.installedAny {
-                    self.screen = .failed(title: "That didn't work", detail: "Lore Forever couldn't download. Your game hasn't changed.")
+                    self.screen = result.damaged ? .damaged : result.unreachable ? .unreachable : .couldNotDownload
                 } else if !result.failedNames.isEmpty {
                     self.screen = .partial(names: result.failedNames)
                 } else {

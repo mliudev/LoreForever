@@ -1,0 +1,80 @@
+{
+ "key": "quest:94873",
+ "type": "quest",
+ "name": "Buying Friendship: Gelkis",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94873
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "An outsider offers the Gelkis Clan a tote of totems in Gelkis Village. Their quartermaster sees the gift as help against the Magram Clan.",
+ "sections": [
+  {
+   "title": "A Gift for the Gelkis",
+   "body": "Someone has prepared a tote of totems for you to bring to the Gelkis quartermaster in Gelkis Village. The Gelkis are losing ground to the Magram, and their isolation may make them open to outside help. The gift is meant to improve your standing with the clan.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why bring the Gelkis a tote of totems?",
+   "aliases": [
+    "totem tote",
+    "why totems",
+    "gelkis gift"
+   ],
+   "answer": "The gift is meant to improve your standing with the Gelkis Clan, which is losing ground to the Magram."
+  },
+  {
+   "q": "Who receives the tote?",
+   "aliases": [
+    "gelkis quartermaster",
+    "who gets tote",
+    "totem recipient"
+   ],
+   "answer": "The Gelkis quartermaster in Gelkis Village receives the tote."
+  },
+  {
+   "q": "What trouble do the Gelkis face?",
+   "aliases": [
+    "gelkis problem",
+    "magran gelkis",
+    "why losing"
+   ],
+   "answer": "The Gelkis are on the losing side against the Magram, whose clan has been unusually vicious."
+  },
+  {
+   "q": "Who is Molkar?",
+   "aliases": [
+    "molkar gelkis",
+    "quartermaster molkar",
+    "who is molkar"
+   ],
+   "answer": "Molkar is the Gelkis quartermaster who receives the tote."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "buying friendship",
+  "centaur",
+  "gelkis",
+  "gelkis clan",
+  "gelkis village",
+  "magram",
+  "molkar",
+  "totem tote"
+ ],
+ "related": [
+  "subzone:gelkis-village",
+  "zone:desolace",
+  "topic:centaur"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Buying Friendship: Gelkis"
+ ]
+}

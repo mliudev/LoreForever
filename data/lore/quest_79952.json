@@ -1,0 +1,67 @@
+{
+ "key": "quest:79952",
+ "type": "quest",
+ "name": "RwlRwlRwlRwl!",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79952
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A keeper at the Library in Ironforge welcomes magical works for its collection. Your contributions help its knowledge grow.",
+ "sections": [
+  {
+   "title": "A Growing Collection",
+   "body": "The keeper thanks you as magical works join the Library in Ironforge. Each addition broadens the knowledge held there. The keeper welcomes more works that may benefit the collection.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the library keeper want?",
+   "aliases": [
+    "library books",
+    "magical works",
+    "what to bring"
+   ],
+   "answer": "The keeper welcomes magical works that may benefit the Library's collection."
+  },
+  {
+   "q": "Where is this collection?",
+   "aliases": [
+    "library location",
+    "ironforge library",
+    "where is library"
+   ],
+   "answer": "The collection belongs to the Library in Ironforge."
+  },
+  {
+   "q": "Why bring magical works?",
+   "aliases": [
+    "why books",
+    "help library",
+    "what's the point"
+   ],
+   "answer": "Your contributions help the library's knowledge grow."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "collection",
+  "ironforge",
+  "knowledge",
+  "library",
+  "magical works",
+  "rwl"
+ ],
+ "related": [
+  "subzone:library-ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: RwlRwlRwlRwl!"
+ ]
+}

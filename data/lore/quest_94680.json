@@ -1,0 +1,79 @@
+{
+ "key": "quest:94680",
+ "type": "quest",
+ "name": "Twilight Missives",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94680
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Tran'gul seeks to learn why Twilight's Hammer cultists have grown more numerous around Sunnyglade. He asks you to bring back their missives so he can learn what they seek.",
+ "sections": [
+  {
+   "title": "A Growing Presence",
+   "body": "Tran'gul has seen more Twilight's Hammer cultists in the area than before. Their shadowmancers are trusted members of the order and may hold knowledge of its campaign. You are asked to bring back missives from them, so Tran'gul can learn what the cult seeks.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for the Twilight Missives?",
+   "aliases": [
+    "who wants the missives",
+    "tran'gul request",
+    "who is tran'gul"
+   ],
+   "answer": "Tran'gul in Rog'mar asks you to recover missives from Twilight Shadowmancers in Sunnyglade."
+  },
+  {
+   "q": "Where can I find the Twilight Shadowmancers?",
+   "aliases": [
+    "shadowmancer location",
+    "where are twilight cultists",
+    "sunnyglade missives"
+   ],
+   "answer": "The Twilight Shadowmancers are in Sunnyglade."
+  },
+  {
+   "q": "Why does Tran'gul want the missives?",
+   "aliases": [
+    "why get missives",
+    "what does tran'gul want to know",
+    "cultist papers"
+   ],
+   "answer": "Tran'gul wants to learn more about the cultists and what they seek."
+  },
+  {
+   "q": "Why is Tran'gul concerned about the cultists?",
+   "aliases": [
+    "why are twilight here",
+    "cultists growing",
+    "twilight numbers"
+   ],
+   "answer": "Tran'gul has seen Twilight's Hammer cultists in greater numbers than before, and they seem emboldened to expand their influence."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cultists",
+  "missives",
+  "rog'mar",
+  "sunnyglade",
+  "tran'gul",
+  "twilight missives",
+  "twilight shadowmancers",
+  "twilight's hammer"
+ ],
+ "related": [
+  "subzone:sunnyglade",
+  "topic:twilight-s-hammer"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Twilight Missives"
+ ]
+}

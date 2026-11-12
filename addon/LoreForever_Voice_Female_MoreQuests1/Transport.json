@@ -9026,8 +9026,8 @@
       "1": [
         {
           "duration": 45.92326530612245,
-          "file": "Audio/Transport/full_quest_422-f19861b1afaaf8663324/1-0000.mp3",
-          "sha256": "e7802d664472eb019aefc1fbc36766c826f5f3d57e8299b7bab7f7a413c682a9",
+          "file": "Audio/Transport/full_quest_422-4afc63baf230010542f3/1-0000.mp3",
+          "sha256": "b5b270853f43b49782b7e4693cb1b2df080d7ab6d02b0c6b56bb307c3cba6769",
           "start": 0
         }
       ],
@@ -9039,12 +9039,12 @@
         ]
       },
       "fullHash": "250782",
-      "generation": "745ed711698ed5e43d9f",
+      "generation": "4c69c460d9647ba3a267",
       "hash": "250782",
       "source": {
         "duration": 45.949388,
         "file": null,
-        "sha256": "f19861b1afaaf8663324487f03ec87f08d139f527590b11326b0aa04a56cd0b0"
+        "sha256": "4afc63baf230010542f3817cfc0ed79c3e6b47888d0281ee9fedcaa45db8b17e"
       },
       "text": "Arugal's Folly. At the Sepulcher, Dalar Dawnweaver sends Forsaken agents to a nearby farmstead for Arugal's earliest spellbooks. The Forsaken need to understand the magic behind the worgen curse if they are to turn it against Arugal and secure Silverpine Forest. The Remedy of Arugal is the first step in unraveling the threat from Shadowfang Keep. In the Sepulcher's crypts, ambitious Forsaken mage Dalar Dawnweaver holds Archmage Arugal in contempt. He sees him as an ordinary practitioner whose place in the Kirin Tor makes no sense, and whose grasp of magic seems amateurish. Yet the monstrous beasts roaming Silverpine cannot be ignored. To break Arugal's hold on the region, Dawnweaver means to take apart the spells that unleashed the worgen upon Lordaeron."
     },
@@ -28302,6 +28302,13 @@
       396,
       548
     ],
+    "b5b270853f43b49782b7e4693cb1b2df080d7ab6d02b0c6b56bb307c3cba6769": [
+      585,
+      768,
+      1015,
+      1331,
+      1494
+    ],
     "b60209a33f3470957fa9463ec3b424a3e75a9d47ee007220b53bb9eed9bdae40": [
       272,
       796,
@@ -29917,14 +29924,6 @@
       579,
       1152,
       1591
-    ],
-    "e7802d664472eb019aefc1fbc36766c826f5f3d57e8299b7bab7f7a413c682a9": [
-      285,
-      586,
-      790,
-      1057,
-      1354,
-      1570
     ],
     "e7a7a74c39170d8871e16991cc39fa1499facfbfe939dd26dbc269038233105a": [
       274,
@@ -33778,9 +33777,6 @@
       "1276": 2,
       "443": 1
     },
-    "e7802d664472eb019aefc1fbc36766c826f5f3d57e8299b7bab7f7a413c682a9": {
-      "790": 1
-    },
     "e7a7a74c39170d8871e16991cc39fa1499facfbfe939dd26dbc269038233105a": {
       "535": 1
     },
@@ -34145,5 +34141,11 @@
     }
   },
   "pack": "LoreForever_Voice_Female_MoreQuests1",
+  "retired": [
+    {
+      "file": "Audio/Transport/full_quest_422-f19861b1afaaf8663324/1-0000.mp3",
+      "sha256": "e7802d664472eb019aefc1fbc36766c826f5f3d57e8299b7bab7f7a413c682a9"
+    }
+  ],
   "version": 1
 }

@@ -14,7 +14,8 @@ import zipfile
 import urllib.request
 from pathlib import Path
 
-CORE_PACKS = ['LoreForever_Voice_Default', 'LoreForever_Voice_Default_Alliance', 'LoreForever_Voice_Default_Horde']
+CORE_PACKS = ['LoreForever_Voice_Default', 'LoreForever_Voice_Default_Alliance', 'LoreForever_Voice_Default_Horde',
+              'LoreForever_Voice_QuestGivers_Start']   # (the starting zones' quest givers, LOR-1408)
 # Quest dialogue: the first pack, then the rest of the game's quests (levels up to 50, 51-60: voicepack.QUEST_MORE_PACKS), each
 # its own zip under CurseForge's limit. (The answers packs are retired: LOR-561.) A zip not built yet is left out.
 QUEST_PACKS = ['LoreForever_Voice_Default_Quests', 'LoreForever_Voice_Default_Quests2', 'LoreForever_Voice_Default_Quests3']
@@ -180,9 +181,46 @@ def build(transport, packs, output, version, base, source_commit, candidate_zip)
             if source not in result['packs']:
                 result['unavailable'].append({'selection': selection, 'source': source, 'reason': 'transport not yet built; existing recording fallback'})
     (output / 'transport-downloads.json').write_text(json.dumps(result, indent=2) + '\n')
+    write_setup_code(result, output)
+    return result
+
+
+# A pack's name while Setup fetches it, as the downloads page names it (site/public/data/packs.json), without the narrator
+# (the player picked one). A zip not listed keeps Setup's older wording.
+LABELS = {'MorePlaces': 'More places', 'MorePeople': 'More people', 'MoreItems': 'Item stories',
+          'MoreQuests1': 'Quest stories, levels 1-19', 'MoreQuests2': 'Quest stories, levels 20-39',
+          'MoreQuests3': 'Quest stories, levels 40+ and in-world books',
+          'Quests': 'Quest dialogue, levels 1-25', 'Quests2': 'Quest dialogue, levels 26-50',
+          'Quests3': 'Quest dialogue, levels 51-60', 'QuestGivers': "Quest givers' voices, levels 1-30",
+          'QuestGivers2': "Quest givers' voices, levels 31-50", 'QuestGivers3': "Quest givers' voices, levels 51-60"}
+# What a player needs first comes first (PM, ask 14711: "the add-on, then the starting zones' packs, then the rest"):
+# Setup itself carries the add-on; then a narrator's own stories and lands, then the packs for levels 1-30.
+STARTING_ZONES = ('_Quests', '_QuestGivers', '_MoreQuests1')
+
+
+def label(archive):
+    stem = archive[:-len('.zip')]
+    if stem.endswith('-complete'):
+        return ('Original male' if '_Original' in stem else 'Female') + ' narrator: stories and lands'
+    return LABELS.get(re.sub(r'^LoreForever_Voice_(Default_|Female_|Original_)?', '', stem), stem)
+
+
+def priority(row):
+    stem = row['archive'][:-len('.zip')]
+    if stem.endswith('-complete'):
+        return (0, 0)
+    starting = [index for index, tail in enumerate(STARTING_ZONES) if stem.endswith(tail)]
+    return (1, starting[0]) if starting else (2, 0)
+
+
+def write_setup_code(result, output):
+    """installer-downloads.iss and its uninstall entries from a build() result (or a release's transport-downloads.json).
+    The plain downloads go into one queue, most needed first, that Setup fetches several at a time (RunDownloadQueue)."""
+    pascal = lambda text: text.replace("'", "''")
     lines = ['// Generated from exact release archives; do not hand edit.', 'procedure InstallVerifiedDownloads();', 'var', '  Ok: Boolean;', 'begin']
-    for row in result['downloads']:
-        lines += ["  if VoiceChosen('%s') then InstallDownload('%s', '%s', '%s', '', '');" % (row['selection'], row['archive'], row['sha256'], ';'.join(row['folders']))]
+    for row in sorted(result['downloads'], key=priority):
+        lines += ["  if VoiceChosen('%s') then QueueDownload('%s', '%s', '%s', '%s', %d);" % (row['selection'], row['archive'], row['sha256'], ';'.join(row['folders']), pascal(label(row['archive'])), row['bytes'])]
+    lines += ['  RunDownloadQueue();']
     for source, pack in result['packs'].items():
         # Sources outside the selected groups are available in JSON but never auto-installed.
         groups = [key for key, sources in result['selections'].items() if source in sources]
@@ -205,6 +243,11 @@ def build(transport, packs, output, version, base, source_commit, candidate_zip)
     for field in ('VoiceIds', 'VoiceNames', 'VoiceAssets', 'VoiceFolders', 'VoiceWanted'):
         lines.append('  SetArrayLength(%s, %s);' % (field, len(indices)))
     lines += ['end;', '']
+    # What a choice downloads, for the size on Setup's first screen (the same zips and bytes as the downloads page).
+    lines += ['function DownloadSizeOf(Id: String; var Packs: Integer): Int64;', 'begin', '  Result := 0;', '  Packs := 0;']
+    for row in result['downloads']:
+        lines.append("  if Id = '%s' then begin Result := Result + %d; Packs := Packs + 1; end;" % (row['selection'], row['bytes']))
+    lines += ['end;', '']
     (output / 'installer-downloads.iss').write_text('\n'.join(lines))
     uninstall = []
     for selection, sources in result['selections'].items():
@@ -214,7 +257,6 @@ def build(transport, packs, output, version, base, source_commit, candidate_zip)
             check = '' if selection == 'base' else "; Check: VoiceChosen('%s')" % selection
             uninstall.append('Type: filesandordirs; Name: "{app}\\{code:GameFlavor}\\Interface\\AddOns\\' + folder + '"' + check)
     (output / 'installer-downloads-uninstall.iss').write_text('\n'.join(uninstall) + '\n')
-    return result
 
 
 def fetch_transport(manifest, output):

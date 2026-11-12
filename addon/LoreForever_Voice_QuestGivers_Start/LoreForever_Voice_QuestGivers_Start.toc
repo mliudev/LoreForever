@@ -1,0 +1,11 @@
+## Interface: 16001
+## Title: Lore Forever: quest givers' voices, starting zones
+## Notes: Recorded narration for Lore Forever.
+## Author: Mike
+## Version: 1.7.0
+## Dependencies: LoreForever
+## LoadOnDemand: 1
+## X-LoreForever-Pack: voice
+## X-LoreForever-Locale: enUS
+## X-LoreForever-Format: 1
+Clips.lua

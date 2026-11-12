@@ -1,0 +1,71 @@
+{
+ "key": "quest:96103",
+ "type": "quest",
+ "name": "A Feast for Buzzards",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96103
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A battered skeleton on the plains bears marks that may tell a hunter what happened. You bring its skull to Neza Bloodsnout at Rog'mar for her judgment.",
+ "sections": [
+  {
+   "title": "A Skull on the Plains",
+   "body": "The bones lie battered beneath the sun, their pale surface marked with shapes like teeth and claws. The damage leaves the victim unknown. You carry the skull to Neza Bloodsnout at Rog'mar, where a hunter may read what the marks reveal.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happened to the skeleton?",
+   "aliases": [
+    "skeleton on the plains",
+    "what killed it"
+   ],
+   "answer": "Its limbs bear marks resembling teeth and claws, but the attacker remains unclear."
+  },
+  {
+   "q": "Why bring the skull to Neza?",
+   "aliases": [
+    "why skull to Neza",
+    "Neza Bloodsnout"
+   ],
+   "answer": "Neza is a hunter at Rog'mar who may recognize what the markings mean."
+  },
+  {
+   "q": "Who was the victim?",
+   "aliases": [
+    "whose skeleton",
+    "who is the dead person"
+   ],
+   "answer": "The skeleton is badly damaged, and its identity is unknown before Neza examines the skull."
+  },
+  {
+   "q": "Where is Neza Bloodsnout?",
+   "aliases": [
+    "Neza location",
+    "where is Rog'mar"
+   ],
+   "answer": "Neza Bloodsnout is at Rog'mar."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a feast for buzzards",
+  "claw marks",
+  "gnawed skull",
+  "neza bloodsnout",
+  "rog'mar",
+  "skeleton",
+  "teeth marks"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Feast for Buzzards"
+ ]
+}

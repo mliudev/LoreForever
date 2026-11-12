@@ -2782,7 +2782,7 @@ P.transport["quest:422"] = {
   fullHash = "250782",
   text = "Arugal's Folly. At the Sepulcher, Dalar Dawnweaver sends Forsaken agents to a nearby farmstead for Arugal's earliest spellbooks. The Forsaken need to understand the magic behind the worgen curse if they are to turn it against Arugal and secure Silverpine Forest. The Remedy of Arugal is the first step in unraveling the threat from Shadowfang Keep. In the Sepulcher's crypts, ambitious Forsaken mage Dalar Dawnweaver holds Archmage Arugal in contempt. He sees him as an ordinary practitioner whose place in the Kirin Tor makes no sense, and whose grasp of magic seems amateurish. Yet the monstrous beasts roaming Silverpine cannot be ignored. To break Arugal's hold on the region, Dawnweaver means to take apart the spells that unleashed the worgen upon Lordaeron.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_422-f19861b1afaaf8663324/1-0000.mp3", duration = 45.9232653, start = 0},
+    {file = "Audio/Transport/full_quest_422-4afc63baf230010542f3/1-0000.mp3", duration = 45.9232653, start = 0},
   },
 }
 P.transport["quest:423"] = {

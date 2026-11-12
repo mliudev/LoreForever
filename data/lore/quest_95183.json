@@ -1,0 +1,70 @@
+{
+ "key": "quest:95183",
+ "type": "quest",
+ "name": "Step One: Rock",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95183
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Hamur in Bolder'ok wants good rocks from the river nearby. Bring them so he can make a tiny weapon for a tiny creature.",
+ "sections": [
+  {
+   "title": "Hamur's Request",
+   "body": "Hamur in Bolder'ok says you are too small to wield a good ogre weapon. He offers to make you a tiny one if you bring him good rocks. He wants rocks from the river outside Bolder'ok, where only the best stones will do.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Hamur?",
+   "aliases": [
+    "hamur who",
+    "who wants rocks"
+   ],
+   "answer": "Hamur is in Bolder'ok and offers to make you a tiny weapon if you bring him good rocks."
+  },
+  {
+   "q": "Where do I find the rocks?",
+   "aliases": [
+    "rock location",
+    "where rocks"
+   ],
+   "answer": "Hamur asks for good rocks from the river outside Bolder'ok."
+  },
+  {
+   "q": "Why does Hamur want rocks?",
+   "aliases": [
+    "why rocks",
+    "rocks for what"
+   ],
+   "answer": "Hamur says he will use the good rocks to make a tiny weapon for a tiny creature."
+  },
+  {
+   "q": "What kind of rocks does Hamur want?",
+   "aliases": [
+    "good rocks",
+    "which rocks"
+   ],
+   "answer": "Hamur wants good rocks from the river outside Bolder'ok; he says not every rock is suitable."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bolder'ok",
+  "good rocks",
+  "hamur",
+  "ogre weapon",
+  "river",
+  "tiny weapon"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Step One: Rock"
+ ]
+}

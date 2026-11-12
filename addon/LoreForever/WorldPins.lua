@@ -92,6 +92,24 @@ local function onWorldMap(spot, m)
   if world == m then return x, y end
 end
 
+-- The frame level a bead takes on the world map: the map's own for a waypoint the player set, above the explored-area
+-- overlay, the quest areas and the town icons, under the player's arrow (Blizzard_WorldMap's pin levels, 2000 and up).
+-- Mike's QA 11/11: the canvas's level + 20 was under the overlay that covers an explored zone, so Goldshire's tooltip
+-- came up on Elwynn's map with no dot (a continent has no overlay, so it showed there). A map without the levels
+-- manager: above everything on its canvas.
+local function beadLevel(c, f)
+  local manager = f.GetPinFrameLevelsManager and try(f.GetPinFrameLevelsManager, f)
+  local level = manager and manager.GetValidFrameLevel and tonumber((try(manager.GetValidFrameLevel, manager,
+    "PIN_FRAME_LEVEL_WAYPOINT_LOCATION")))
+  if not level then
+    level = (tonumber(c:GetFrameLevel()) or 1) + 20
+    for _, child in ipairs({ c:GetChildren() }) do
+      if not child.pin then level = math.max(level, (tonumber(child:GetFrameLevel()) or 0) + 1) end
+    end
+  end
+  return math.min(level, 9000)   -- under the game's cap (10000), where nothing takes a click
+end
+
 function WorldPins.RefreshWorld()
   local c, f = canvas()
   if not c then return 0 end
@@ -100,6 +118,7 @@ function WorldPins.RefreshWorld()
   local scale = f.GetCanvasScale and tonumber(try(f.GetCanvasScale, f)) or 1
   if scale <= 0 then scale = 1 end
   world.mapID, world.scale, world.w, world.h = m, scale, w, h
+  local level = beadLevel(c, f)
   local n = 0
   if w > 0 and h > 0 then
     for _, pin in ipairs(pins()) do
@@ -112,7 +131,7 @@ function WorldPins.RefreshWorld()
         -- Kept the same size on screen: the canvas grows as the map zooms in, so the bead shrinks by as much,
         -- and its offset (in its own, scaled units) grows by the same.
         b:SetScale(1 / scale)
-        b:SetFrameLevel((tonumber(c:GetFrameLevel()) or 1) + 20)
+        b:SetFrameLevel(level)
         b:ClearAllPoints()
         b:SetPoint("CENTER", c, "TOPLEFT", x * w * scale, -y * h * scale)
         b:Show()

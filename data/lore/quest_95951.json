@@ -1,0 +1,73 @@
+{
+ "key": "quest:95951",
+ "type": "quest",
+ "name": "Fetch 'n' Fletch",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95951
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Tan\u2019jani offers to teach you how to make spears for the Horde\u2019s headhunters. You are sent to Turner's Logging Camp for wood to shape into spears.",
+ "sections": [
+  {
+   "title": "Wood for Spears",
+   "body": "Tan\u2019jani, a headhunter, asks you to gather wood at Turner's Logging Camp, the human camp to the west. With a knife, you can sharpen the lumber into spears for sticking humans before they see you coming. Tan\u2019jani wants you to bring the spears back.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tan\u2019jani?",
+   "aliases": [
+    "tan\u2019jani who",
+    "who's tanjani"
+   ],
+   "answer": "Tan\u2019jani is a headhunter who offers to teach you to make spears."
+  },
+  {
+   "q": "What does Tan\u2019jani want me to get?",
+   "aliases": [
+    "what wood",
+    "get spears"
+   ],
+   "answer": "Tan\u2019jani asks you to gather wood from peasant woodpiles in Turner's Logging Camp and shape it into makeshift spears."
+  },
+  {
+   "q": "Where is the wood?",
+   "aliases": [
+    "wood location",
+    "where wood"
+   ],
+   "answer": "The wood is at peasant woodpiles in Turner's Logging Camp, the human camp to the west."
+  },
+  {
+   "q": "Why does Tan\u2019jani want spears?",
+   "aliases": [
+    "why spears",
+    "headhunter spears"
+   ],
+   "answer": "Tan\u2019jani says headhunters use spears to strike humans before they see them coming."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "fetch 'n' fletch",
+  "headhunters",
+  "horde",
+  "makeshift spears",
+  "tan\u2019jani",
+  "turner's logging camp",
+  "wood bundles"
+ ],
+ "related": [
+  "quest:95955"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Fetch 'n' Fletch"
+ ]
+}

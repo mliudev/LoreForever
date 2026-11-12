@@ -1,0 +1,64 @@
+{
+ "key": "quest:80001",
+ "type": "quest",
+ "name": "Rekindle",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   80001
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "An extinguished fire pit holds dry wood ready to catch flame. You put your scout skills to work.",
+ "sections": [
+  {
+   "title": "By the Fire Pit",
+   "body": "The wood is dry enough to take a flame. You put your scout skills to work beside the extinguished fire pit.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is Rekindle about?",
+   "aliases": [
+    "rekindle quest",
+    "rekindle fire",
+    "fire pit"
+   ],
+   "answer": "An extinguished fire pit has dry wood ready to catch flame, and you put your scout skills to work."
+  },
+  {
+   "q": "What is wrong with the fire pit?",
+   "aliases": [
+    "fire pit problem",
+    "why no fire",
+    "extinguished fire"
+   ],
+   "answer": "The fire pit is extinguished, though its wood is dry enough to catch flame."
+  },
+  {
+   "q": "What does the completion say?",
+   "aliases": [
+    "rekindle ending",
+    "what happens at completion",
+    "scout skills"
+   ],
+   "answer": "The completion says you put your scout skills to work."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dry wood",
+  "extinguished fire",
+  "fire pit",
+  "rekindle",
+  "scout skills"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Rekindle"
+ ]
+}

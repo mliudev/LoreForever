@@ -70,7 +70,7 @@ P.transport["npc:apothecary-helbrim"] = {
   fullHash = "d316ef",
   text = "Apothecary Helbrim. At the Crossroads, Apothecary Helbrim gathers unfamiliar reagents for the Royal Apothecary Society. Sent to Kalimdor, he studies the Barrens for the Forsaken. Apothecary Helbrim works beneath the sun at the Crossroads, far from the Royal Apothecary Society's quarters in Undercity. Sent across the Great Sea to Kalimdor, he searches the Barrens for useful plants, fungi, and other natural specimens.\n\nHelbrim depends on travelers to bring him samples, including local fungal spores. He also works with Apothecary Zamah in Thunder Bluff. Through his work, the Forsaken's alchemists reach beyond Lordaeron's ruined borders.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_apothecary-helbrim-9c3df65db6b379d8ddd6/1-0000.mp3", duration = 40.0979592, start = 0},
+    {file = "Audio/Transport/full_npc_apothecary-helbrim-5e4e9ba18d45d822aedd/1-0000.mp3", duration = 38.164898, start = 0},
   },
 }
 P.transport["npc:apothecary-zinge"] = {
@@ -78,7 +78,7 @@ P.transport["npc:apothecary-zinge"] = {
   fullHash = "d0d2c5",
   text = "Apothecary Zinge. Beneath the ruins of Lordaeron, Apothecary Zinge studies specimens for the Forsaken. Her work also sends research shipments across Horde lands. In the Apothecarium beneath the Undercity, Apothecary Zinge serves the Forsaken. She works under Master Apothecary Faranell, searching for chemical and biological compounds that can advance their aims. Her research links her to field researchers and scouts far beyond Tirisfal Glades, even at distant outposts in Kalimdor. Apothecary Zinge relies on couriers and adventurers to carry test materials across the sea. She regularly writes to Apothecary Helbrim at the Crossroads in the Barrens. Her shipments include toxic wolf heart samples from Silverpine Forest, so he can study how Lordaeron's toxins affect Kalimdor's beasts.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_apothecary-zinge-7b0656a93a1f44dfeb2c/1-0000.mp3", duration = 47.2816327, start = 0},
+    {file = "Audio/Transport/full_npc_apothecary-zinge-8a01024179dcb6205575/1-0000.mp3", duration = 44.564898, start = 0},
   },
 }
 P.transport["npc:archaeologist-flagongut"] = {
@@ -134,7 +134,7 @@ P.transport["npc:argent-guard-manados"] = {
   fullHash = "40b165",
   text = "Argent Guard Manados. At Darnassus, Argent Guard Manados keeps watch over corruption across Kalimdor. He serves the Argent Dawn and calls for aid against the Twilight's Hammer beneath Ashenvale's waves. Argent Guard Manados keeps the Argent Dawn's watch in Darnassus. Most of the order guards Lordaeron against the Scourge, while he stands among the artisans and tradefolk of the Craftsmen's Terrace. From there, he watches for threats to northern Kalimdor's balance. Word reaches him that the Twilight's Hammer has gained a foothold beneath Ashenvale's waves. So he calls on capable heroes to strike at Blackfathom Deeps and recover the cult's artifacts of dark devotion.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_argent-guard-manados-f20312b6865452043011/1-0000.mp3", duration = 38.164898, start = 0},
+    {file = "Audio/Transport/full_npc_argent-guard-manados-954164269e669377e2e3/1-0000.mp3", duration = 37.0416327, start = 0},
   },
 }
 P.transport["npc:argos-nightwhisper"] = {
@@ -582,7 +582,7 @@ P.transport["npc:christoph-jeffcoat"] = {
   fullHash = "fc7d01",
   text = "Christoph Jeffcoat. At Tarren Mill, Christoph Jeffcoat supplies the Forsaken with goods for trade and travel. His wares serve crafters and travelers in Hillsbrad Foothills, where the Alliance and the Syndicate contest the land. At Tarren Mill, Christoph Jeffcoat supplies the Forsaken stronghold with what its people need. He sells reagents, tools, threads, and spices to soldiers and traveling artisans. Among his goods are spices for turtle bisque, rare schematics, and alchemical vials. Horde forces crossing southern Lordaeron rely on such supplies as they face Southshore and the region's dangers.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_christoph-jeffcoat-78f4b8a385f6eba6405a/1-0000.mp3", duration = 35.3436735, start = 0},
+    {file = "Audio/Transport/full_npc_christoph-jeffcoat-5a482ade991cd06f32ac/1-0000.mp3", duration = 35.3697959, start = 0},
   },
 }
 P.transport["npc:chronormu"] = {
@@ -598,7 +598,7 @@ P.transport["npc:clarice-foster"] = {
   fullHash = "2ac48c",
   text = "Clarice Foster. In the Pools of Vision, Clarice Foster dwells among tauren seers and mystics. Far from Lordaeron, the Forsaken woman spends her days in contemplation beneath the bluffs of Mulgore. Most Forsaken remain in Lordaeron, rebuilding their kingdom beneath the Undercity. Clarice Foster has crossed to Kalimdor and the heart of tauren lands. She lives in the cavernous Pools of Vision beneath Thunder Bluff's mesa. There she dwells among Forsaken apothecaries and tauren shamans who study the earth's spiritual and elemental mysteries.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_clarice-foster-11dbaf3cbdb8ded26165/1-0000.mp3", duration = 31.3208163, start = 0},
+    {file = "Audio/Transport/full_npc_clarice-foster-b08f756c1e57f1be32d3/1-0000.mp3", duration = 31.0595918, start = 0},
   },
 }
 P.transport["npc:colonel-kurzen"] = {
@@ -726,7 +726,7 @@ P.transport["npc:dawnwatcher-shaedlass"] = {
   fullHash = "c9c5d3",
   text = "Dawnwatcher Shaedlass. From Darnassus, Dawnwatcher Shaedlass keeps watch for the Argent Dawn across Kalimdor. On the Craftsmen's Terrace, he seeks word of order members sent to scout hostile lands. The Argent Dawn fights the Scourge in the Eastern Plaguelands, yet keeps watch beyond Lordaeron. From Darnassus, Dawnwatcher Shaedlass follows the order's interests across Kalimdor. At his post on the Craftsmen's Terrace, he tracks covert expeditions against dark cults and corrupting powers that threaten the wider world.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_dawnwatcher-shaedlass-561433a7538175f3c877/1-0000.mp3", duration = 30.3281633, start = 0},
+    {file = "Audio/Transport/full_npc_dawnwatcher-shaedlass-544799ad2c4068559d12/1-0000.mp3", duration = 29.0742857, start = 0},
   },
 }
 P.transport["npc:dazalar"] = {
@@ -806,7 +806,7 @@ P.transport["npc:deathstalker-rane-yorick"] = {
   fullHash = "fc13dd",
   text = "Rane Yorick. At a farmhouse in Silverpine, Rane Yorick and her brother Quinn cannot reach the Sepulcher. Sent to scout the northern farms, they must get their report to High Executor Hadrec. Lady Sylvanas Windrunner relies on the Deathstalkers to watch across Lordaeron. They serve as her eyes and ears, and strike when Forsaken rule is threatened. Rane Yorick and her brother Quinn were sent to scout northern Silverpine Forest. Feral dangers closed around them, and their covert work became a fight to survive.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_deathstalker-rane-yorick-a56f3595f7d06cf8ab49/1-0000.mp3", duration = 29.8840816, start = 0},
+    {file = "Audio/Transport/full_npc_deathstalker-rane-yorick-0183fcdc8435ee9e573d/1-0000.mp3", duration = 28.7608163, start = 0},
   },
 }
 P.transport["npc:deathstalker-vincent"] = {
@@ -1070,7 +1070,7 @@ P.transport["npc:eleanor-shackleton"] = {
   fullHash = "afe1a2",
   text = "Eleanor Shackleton. In the woods southwest of Brill, Eleanor Shackleton teaches travelers to live off Tirisfal's blighted land. This Forsaken outdoorswoman camps away from town and the Undercity. Pierce Shackleton and Samantha Shackleton share her surname, though their kinship is unknown. Eleanor Shackleton camps in the haunted woods southwest of Brill, away from the Undercity. Newly awakened Forsaken often go to those settlements, but Eleanor teaches travelers to live off Tirisfal's blighted land. She shows them how to make camps, gather firewood, and keep up their trade crafts while roaming far from civilization's fires and kitchens. Eleanor Shackleton shares her surname with Pierce Shackleton and Samantha Shackleton, who live in the Undercity's Magic Quarter. For an undead person, a family name may be the only tether to mortal life in the shattered remnants of Lordaeron. Whether the three are close kin or share only common ancestry, each serves the Forsaken in a different way across the blighted kingdom.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_eleanor-shackleton-ed19cd106dfc74f90259/1-0000.mp3", duration = 60.9436735, start = 0},
+    {file = "Audio/Transport/full_npc_eleanor-shackleton-dbd41d60fecccfd58075/1-0000.mp3", duration = 57.5216327, start = 0},
   },
 }
 P.transport["npc:elu"] = {
@@ -1390,7 +1390,7 @@ P.transport["npc:gordon-wendham"] = {
   fullHash = "dd9cc8",
   text = "Gordon Wendham. In the Undercity's Trade Quarter, Gordon Wendham sells weapons and guides couriers from the surface. Gordon Wendham sells weapons to those who take up arms for the Forsaken. His stall offers daggers, hand axes, broadswords, and maces. Fledgling fighters can find dependable iron here before venturing into Lordaeron's contested reaches. Travelers sent by flight masters and couriers are often directed to Gordon Wendham's stall. Some arrive from the bat handlers atop the ruins. In the Trade Quarter, his stall is easy to find for travelers seeking supplies or carrying dispatches through the underground city.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gordon-wendham-d39cb53db81537384e31/1-0000.mp3", duration = 37.1722449, start = 0},
+    {file = "Audio/Transport/full_npc_gordon-wendham-ad6428df36663cf2a83d/1-0000.mp3", duration = 34.7428571, start = 0},
   },
 }
 P.transport["npc:gramma-stonefield"] = {
@@ -1502,7 +1502,7 @@ P.transport["npc:grunth"] = {
   fullHash = "3bb09f",
   text = "Grunth. In Orgrimmar, Grunth eagerly seeks the company of Horde champions. He lives in the Drag orphanage and, during Children's Week, travels across Kalimdor and the Eastern Kingdoms to learn what makes a hero. Grunth is a young orc orphan in Orgrimmar's Drag, cared for by Orphan Matron Battlewail. Raised in Durotar's harsh red wastes, he watches armored adventurers with awe and asks them question after question. Are armored warriors truly terrifying? Why doesn't lightning on water kill every fish? Will he ever see someone fight a real dragon? During Children's Week, an Orcish Orphan Whistle calls Grunth to travel with adventurers across the world. He hopes to meet High Chieftain Cairne Bloodhoof in Mulgore and see Lordaeron's ruined throne room. He also wants to visit the rugged frontiers where his people fight for their future.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_grunth-00a6341e443a5aa7dbb7/1-0000.mp3", duration = 50.8081633, start = 0},
+    {file = "Audio/Transport/full_npc_grunth-252c9e0583155ca2e1eb/1-0000.mp3", duration = 50.1028571, start = 0},
   },
 }
 P.transport["npc:guard-berton"] = {
@@ -1830,7 +1830,7 @@ P.transport["npc:jorah-annison"] = {
   fullHash = "034f16",
   text = "Jorah Annison. In the Undercity's Magic Quarter, Jorah Annison guides warlocks seeking ancient knowledge. The Forsaken cartographer knows both the land and the old texts they seek. Jorah Annison makes maps in the Undercity's Magic Quarter, though the work does little to hold his interest. He would trade every map in the shop for one good book. Few know more about ancient texts, and warlocks share his taste for a scholar's work. Warlocks seeking the elusive Tome of the Cabal are often sent to Jorah Annison. His knowledge reaches beyond the ruins of Lordaeron, and he can point them toward places where ancient texts and remnants of dark sects may be found. He joins the study of old lore to the geography of distant lands.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_jorah-annison-f2fff7bd307df9dd6c96/1-0000.mp3", duration = 43.755102, start = 0},
+    {file = "Audio/Transport/full_npc_jorah-annison-b94cc6a3b71f60a09f9f/1-0000.mp3", duration = 42.7363265, start = 0},
   },
 }
 P.transport["npc:jorgen"] = {
@@ -1854,7 +1854,7 @@ P.transport["npc:kaal-soulreaper"] = {
   fullHash = "53ac91",
   text = "Kaal Soulreaper. In the Undercity, Kaal Soulreaper trains orc warlocks and keeps ties with dark practitioners across the Horde. Among the Forsaken, he guides students to mentors in distant lands. Kaal Soulreaper teaches in the Undercity's Magic Quarter, where Horde warlocks seek his knowledge of demons and curses. Thrall's Horde keeps close watch on fel magic in Orgrimmar, so Lordaeron's underground sanctums give practitioners like Kaal room to work.\n\nHe also connects those who seek greater power with mentors across the sea. One of them is Menara Voidrender in the Barrens.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_kaal-soulreaper-3f2d15567c5410eca5f9/1-0000.mp3", duration = 36.075102, start = 0},
+    {file = "Audio/Transport/full_npc_kaal-soulreaper-c35f7cf294917091aca4/1-0000.mp3", duration = 34.4032653, start = 0},
   },
 }
 P.transport["npc:kali-remik"] = {
@@ -2094,7 +2094,7 @@ P.transport["npc:krusk"] = {
   fullHash = "da0805",
   text = "Krusk. At Tarren Mill, Krusk seeks his captured scouts and the Syndicate's relics. Warchief Thrall sent him to investigate Durnholde Keep, but an ambush scattered his team. Krusk leads the effort from Tarren Mill after a failed strike at Durnholde Keep. Warchief Thrall sent him and a small team to scout Syndicate activity and recover relics tied to the fortress's grim past. The human outlaws were better entrenched and more coordinated than expected. An ambush inside the crumbling walls overwhelmed the orcish scouts.\n\nKrusk fought his way out. Drull and Tog'thar were captured and locked within the ruins. Gol'dir, the expedition's leader, was taken to another Syndicate hold. Now Krusk directs Horde forces to breach Durnholde, recover the lost items, and free his comrades. From Tarren Mill, Krusk tracks Syndicate movements in Hillsbrad. The fallen nobles of Alterac operate from Durnholde Keep, plotting against Horde outposts and their former Alliance brethren. Krusk watches leaders such as Lord Aliden Perenolde. He hopes to break their command before they threaten the Horde's tenuous foothold in Lordaeron.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_krusk-b663367a4a4b502213c5/1-0000.mp3", duration = 72.6987755, start = 0},
+    {file = "Audio/Transport/full_npc_krusk-1929cd5ed97ddc605fc4/1-0000.mp3", duration = 66.6383673, start = 0},
   },
 }
 P.transport["npc:kuray-bin"] = {
@@ -2270,7 +2270,7 @@ P.transport["npc:lord-maxwell-tyrosus"] = {
   fullHash = "bba8c0",
   text = "Lord Maxwell Tyrosus. At Light's Hope Chapel, Lord Maxwell Tyrosus directs the Argent Dawn's defense against the Scourge. A veteran paladin of the Silver Hand, he also sends forces against blighted strongholds such as Stratholme. In the Third War, Maxwell Tyrosus rode with Uther the Lightbringer. He guarded Andorhal's exits as the Scourge tore through the kingdom. After Lordaeron fell, Tyrosus joined the Argent Dawn. The order welcomes anyone willing to fight the Scourge, unlike the Scarlet Crusade and its human-only zealotry. Tyrosus leads the Argent Dawn and directs the defenses of Light's Hope Chapel. From his command post inside the chapel, he oversees military operations across the Plaguelands. Among them are tactical assaults led by Duke Nicholas Zverenhoff against Baron Rivendare in the ruins of Stratholme.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lord-maxwell-tyrosus-385e803eee0ed617916a/1-0000.mp3", duration = 51.1738776, start = 0},
+    {file = "Audio/Transport/full_npc_lord-maxwell-tyrosus-bd54eb4c96ad34f62112/1-0000.mp3", duration = 47.124898, start = 0},
   },
 }
 P.transport["npc:lord-shalzaru"] = {
@@ -2406,7 +2406,7 @@ P.transport["npc:marcus-redpath"] = {
   fullHash = "168635",
   text = "Marcus Redpath. In Southshore, Marshal Marcus Redpath rallies patrols and bounty hunters to hold Lordaeron’s last southern coastal bastion. Ogres, murlocs, and naga press against the town. Marshal Marcus Redpath commands Southshore’s defense on the southern coast of the Hillsbrad Foothills. The Alliance port endured the fall of Lordaeron’s capital and the Scourge invasion. Redpath now protects the survivors who remain in town. Southshore stands nearly alone as hostile forces press in from every side. Marshal Redpath coordinates the defense across the Hillsbrad Foothills and calls on seasoned adventurers to drive back the Crushridge ogres advancing from Alterac. He also sends them against dangerous naga and murloc camps along the coast.\n\nThe Forsaken hold the north, and nearby Tarren Mill is heavily fortified. Redpath’s vigilance keeps the Alliance presence in the region from collapsing.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_marcus-redpath-39e039d1af3ecc579073/1-0000.mp3", duration = 54.9877551, start = 0},
+    {file = "Audio/Transport/full_npc_marcus-redpath-6c06dcda9aca327af79b/1-0000.mp3", duration = 51.3044898, start = 0},
   },
 }
 P.transport["npc:mardant-strongoak"] = {
@@ -2574,7 +2574,7 @@ P.transport["npc:miles-welsh"] = {
   fullHash = "6840ae",
   text = "Miles Welsh. Beneath Thunder Bluff, Miles Welsh teaches priests in the Pools of Vision. The Forsaken trainer offers spiritual instruction and shadow discipline in the tauren capital. In the Pools of Vision, Miles Welsh teaches priests beneath Thunder Bluff. Far from Lordaeron's plague-scarred ruins, the Forsaken priest makes his home in the grotto beneath the city. He instructs travelers in divine and shadowy energies. His place in the heart of Mulgore reflects the tenuous ties between the Forsaken and the Horde. There, he shares sanctuary with tauren mystics and shamans while guiding acolytes in shadow and faith.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_miles-welsh-fbd068e6a4a08a0b41b6/1-0000.mp3", duration = 36.6236735, start = 0},
+    {file = "Audio/Transport/full_npc_miles-welsh-6afd5ef4edb3e72df166/1-0000.mp3", duration = 36.8065306, start = 0},
   },
 }
 P.transport["npc:milli-featherwhistle"] = {
@@ -2774,7 +2774,7 @@ P.transport["npc:nathanos-blightcaller"] = {
   fullHash = "733151",
   text = "Nathanos Blightcaller. At the ruined Marris Stead in the Eastern Plaguelands, Nathanos Blightcaller guards the frontier for Queen Sylvanas Windrunner. Once the only human Ranger Lord of Quel'Thalas, he now trains Forsaken hunters and greets those who approach with biting contempt. Nathanos Marris was raised on Lordaeron's rural outskirts and became a master marksman and a gifted tactician. The high elves of Quel'Thalas trained him, and he grew close to Sylvanas Windrunner. He alone among humans earned the rank of Ranger Lord. The Marris Stead remained his family home. After Prince Arthas and the Scourge swept through Lordaeron following the purge of Stratholme, plague consumed the kingdom. Nathanos made a desperate stand at the Marris Stead, where Ramstein the Gorger, a monstrous abomination, killed him. Raised as a mindless undead thrall, he roamed the blighted fields and slew in the Lich King's name.\n\nSylvanas broke the Scourge's hold and established the Forsaken in the Undercity. She came for Nathanos, just as he had somehow known she would, and freed his mind from the Lich King's will. His tactical brilliance and fiery loyalty returned, and he joined her side.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_nathanos-blightcaller-c02b4c7bba899f4d57c6/1-0000.mp3", duration = 71.7844898, start = 0},
+    {file = "Audio/Transport/full_npc_nathanos-blightcaller-c9f814684ea429127572/1-0000.mp3", duration = 68.2318367, start = 0},
   },
 }
 P.transport["npc:nida"] = {
@@ -2942,7 +2942,7 @@ P.transport["npc:parqual-fintallas"] = {
   fullHash = "b9e66b",
   text = "Parqual Fintallas. In the Undercity's Apothecarium, Parqual Fintallas keeps his love of Lordaeron's history. Though once human, he now lives among the Forsaken and greets travelers with courtesy, sharing his deep knowledge of ancient lore. Parqual studied Lordaeron's history as a respected human scholar, surrounded by the kingdom's records. The plague of undeath killed him and raised him among its many victims. Under Lady Sylvanas Windrunner, he eventually broke free. Many Forsaken embrace cold pragmatism and turn from their former lives. Parqual keeps his scholarly passion and pleasant manners, though the knowledge he seeks has changed since his human life. Parqual lives among the bubbling vats and alchemists of the Undercity's Apothecarium. Its grim surroundings do not lessen his knowledge of Azeroth's history. Travelers facing difficult trials of the mind, including the elusive Test of Lore, are sent to him. He directs them to the Scarlet Monastery's library to find a book, then puts a question of his own to them.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_parqual-fintallas-2aca0f71bc59df585997/1-0000.mp3", duration = 61.0481633, start = 0},
+    {file = "Audio/Transport/full_npc_parqual-fintallas-b0cb0a12e1867568f3b8/1-0000.mp3", duration = 60.16, start = 0},
   },
 }
 P.transport["npc:pilot-bellowfiz"] = {
@@ -3102,7 +3102,7 @@ P.transport["npc:raleigh-andrean"] = {
   fullHash = "a88057",
   text = "Raleigh Andrean. In the Undercity, Raleigh Andrean has made a home among the Forsaken. His dealings with those he once knew reveal how little regard he has for his human life. Before the Third War, Raleigh Andrean lived in Lordaeron as a human. He shared his life with his wife, Deliah, and counted Valdred Moray as a friend. Then the Scourge swept through the kingdom. Raleigh was killed and raised as a mindless thrall in service to the Lich King. When the Lich King's grip shattered, Sylvanas Windrunner led an uprising. Raleigh regained his free will and joined the Forsaken in the Undercity.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_raleigh-andrean-753f9166eef054b90f6c/1-0000.mp3", duration = 34.8995918, start = 0},
+    {file = "Audio/Transport/full_npc_raleigh-andrean-d86457b4a912d701421c/1-0000.mp3", duration = 35.2914286, start = 0},
   },
 }
 P.transport["npc:randis"] = {
@@ -3238,7 +3238,7 @@ P.transport["npc:royal-historian-archesonus"] = {
   fullHash = "c4ba19",
   text = "Royal Historian Archesonus. At the High Seat, Royal Historian Archesonus records calamities for the Ironforge crown. A dwarven scholar in King Magni Bronzebeard’s service, she writes of disasters in the northern human kingdoms and oversees study of ancient dwarven tragedies, including the Dark Iron kingdom’s scorched remains. Royal Historian Archesonus keeps Ironforge’s records near King Magni Bronzebeard’s throne in the High Seat. Her studies reach beyond the Khaz Modan mountains. She wrote 'The Fall of Lordaeron and the Scouring of the Eastweald' and 'On Plagues, Curses, and Blights.' In them, she traces the Scourge’s ruin of humanity’s northern realm. She records the truth of ruinous magic and political collapse with care. Royal Historian Archesonus oversees research into the War of the Three Hammers and Thaurissan’s destruction. She seeks relics and charred tablets from the Smoldering Ruins of Thaurissan in the Burning Steppes, and sends adventurers there to search. Her work examines the cataclysm that scorched the Burning Steppes and bound the Dark Iron clan to the Firelord.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_royal-historian-archesonus-fc627aec994fe8b669bb/1-0000.mp3", duration = 64.1567347, start = 0},
+    {file = "Audio/Transport/full_npc_royal-historian-archesonus-d489e88034f402834e59/1-0000.mp3", duration = 64.3134694, start = 0},
   },
 }
 P.transport["npc:ruga-ragetotem"] = {
@@ -3294,7 +3294,7 @@ P.transport["npc:sally-whitemane"] = {
   fullHash = "0f1c5d",
   text = "High Inquisitor Whitemane. At the Scarlet Monastery, High Inquisitor Whitemane directs the Crusade from its Cathedral. A priestess of the Holy Light, she drives the order’s zeal with a consuming hatred of the undead. Alongside Scarlet Commander Renault Mograine, she leads its military and ideological campaigns across Lordaeron. Whitemane rose swiftly through the Scarlet Crusade. Now she commands the grand Cathedral of the Scarlet Monastery as its High Inquisitor. Her mastery of Holy magic is feared, and her unshakable conviction makes her one of the Crusade’s foremost symbols. She brings the Light against all she deems unclean without mercy.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_sally-whitemane-9bb9a274f9e8f9a9a980/1-0000.mp3", duration = 38.0081633, start = 0},
+    {file = "Audio/Transport/full_npc_sally-whitemane-e68da9b24903b36e96ed/1-0000.mp3", duration = 35.0563265, start = 0},
   },
 }
 P.transport["npc:salma-saldean"] = {
@@ -4006,7 +4006,7 @@ P.transport["npc:velora-nitely"] = {
   fullHash = "b238f3",
   text = "Velora Nitely. In the Undercity's Trade Quarter, Velora Nitely forges armor for the Forsaken and the Horde. Once among Lordaeron's finest armorsmiths, she now makes dry jokes that rarely land. Near the anvils in the Undercity's Trade Quarter, Velora Nitely makes armor for the Horde. Before the Third War devastated the north, Lordaeron celebrated her as an exceptional armorsmith. Undeath took her life and warmth, but left her skill untouched.\n\nVelora works with Horde crafters across continents, including Thun'grim Firegaze in the Barrens. She reinforces heavy battle plate and forges the formidable Brutal Legguards from hardened materials such as Dragonmaw shinbones. At the forge, Velora Nitely keeps trying to make jokes, though they rarely land. Many of her somber Forsaken kin brood over their cursed fate, but she still makes room for levity. Death seems to have ruined her timing. Her quips sound flat, morbid, and thoroughly unfunny to the living and the dead alike, yet she keeps cracking them.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_velora-nitely-aea358c9ed2c264bb586/1-0000.mp3", duration = 62.2497959, start = 0},
+    {file = "Audio/Transport/full_npc_velora-nitely-ff8e3d33718301a515da/1-0000.mp3", duration = 61.44, start = 0},
   },
 }
 P.transport["npc:ventaari-brightwish"] = {
@@ -4254,7 +4254,7 @@ P.transport["npc:yvette-farthing"] = {
   fullHash = "1258a3",
   text = "Yvette Farthing. In Brill, Yvette Farthing shares the Gallows' End Tavern with her father, Coleman. She remembers a love that ended when the Scourge came to Lordaeron. Before the Third War, Yvette loved Thurman Agamand, heir to the prosperous Agamand Mills. When the Scourge plague drew near, she and her father, Coleman, begged Thurman to leave the estate. He refused, bound to his family's legacy. Yvette and Thurman both died and rose into undeath. Yvette found a place among the free-willed Forsaken in Brill, but she did not know what had become of Thurman.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_yvette-farthing-b18364e5d7f71f29692f/1-0000.mp3", duration = 33.5412245, start = 0},
+    {file = "Audio/Transport/full_npc_yvette-farthing-0d2daf1d9df8700e6dd0/1-0000.mp3", duration = 32.3395918, start = 0},
   },
 }
 P.transport["npc:zaldimar-wefhellt"] = {
@@ -4374,7 +4374,7 @@ P.transport["topic:alliance"] = {
   fullHash = "8185db",
   text = "Alliance. Across Azeroth, the Alliance now gathers its peoples around Stormwind. Its roots lie in Lordaeron's ruin, and its heart is Stormwind City, beside Ironforge's dwarves, the exiled gnomes, and Kalimdor's night elves. The modern Alliance descends from the Alliance of Lordaeron. During the Second War, Sir Anduin Lothar led Stormwind refugees north and united the Seven Kingdoms, dwarves, and high elves against the Old Horde.\n\nThe Scourge and the Third War ravaged the north. Lordaeron lay in ruins, and survivors were driven into scattered resistance. The restored Kingdom of Stormwind filled the void. Today it is the foremost seat of human leadership, carrying honor and faith into a fractured world. In the Eastern Kingdoms, the Alliance rests on the steadfast bond between humans and the dwarves of Ironforge, ruled by King Magni Bronzebeard. Gnomes also live among the dwarves, driven from Gnomeregan by a devastating trogg uprising.\n\nHigh Tinker Gelbin Mekkatorque guides the exiled gnomes. They bring their brilliant engineering to the Alliance war effort, believing the coalition must survive if they are ever to reclaim their irradiated home. Across the Great Sea, the reclusive night elves left millennia of isolation after the Battle of Mount Hyjal. They lost their immortality and now clash bitterly with the Horde over logging in Ashenvale. So the kaldorei allied with their newfound mortal companions.\n\nCultural friction remains. Some traditionalists condemn the presence of humans and dwarves in ancient forests. The Alliance offers vital military and diplomatic help to guard Kalimdor from demonic remnants and Horde expansion. The Alliance faces strains within its own ranks. King Varian Wrynn vanished under mysterious circumstances while traveling to a diplomatic summit. His young son Anduin took the throne under Highlord Bolvar Fordragon's regency.\n\nRelations with former human allies have also frayed. The maritime kingdom of Kul Tiras keeps its distance, while Sylvanas Windrunner's undead Forsaken hold the ruins of Lordaeron.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_alliance-94c7ffd445a60fd99c35/1-0000.mp3", duration = 129.07102, start = 0},
+    {file = "Audio/Transport/full_topic_alliance-215c3fb10bfc43cc5012/1-0000.mp3", duration = 125.962449, start = 0},
   },
 }
 P.transport["topic:brotherhood-of-northshire"] = {
@@ -4462,7 +4462,7 @@ P.transport["topic:human"] = {
   fullHash = "928bda",
   text = "Human. Across the Eastern Kingdoms, humans still defend their place among the mortal realms. Their old empire broke into seven kingdoms. Now Stormwind is their strongest realm and the Alliance’s chief human power. Long ago, human tribes wandered apart beneath the threat of the Amani forest trolls. Warlord Thoradin of the Arathi saw that division would bring their end. Through diplomacy and conquest, he united the clans and founded the Empire of Arathor, with its fortress capital at Strom.\n\nDuring the Troll Wars, the beleaguered high elves of Quel'Thalas allied with Arathor. They taught one hundred humans the arts of arcane magic. Together, humans and high elves broke the troll armies. Arathor secured human rule over the central continents, and the alliance laid the ground for future ties among mortal peoples. As Arathor grew secure and prosperous, its distant settlements became powerful city-states, able to stand alone. In time, the empire split into seven realms: Gilneas, Alterac, Dalaran, Lordaeron, Kul Tiras, Stormwind, and Stromgarde, whose first home was Strom.\n\nThese kingdoms traded with dwarves, gnomes, and elves, yet peace remained fragile. Border clashes and claims over land stirred rivalries, including old mountain feuds between Alterac and Stromgarde. Court intrigue added to the strain. The kingdoms stayed divided until disasters beyond their borders forced them to act together. The orcish Horde came through the Dark Portal, forcing humanity’s kingdoms to face a common enemy. Stormwind fell in the First War, and its refugees fled north to warn the other realms. King Terenas Menethil II helped forge the Alliance of Lordaeron, joining humans, dwarves, gnomes, and high elves against the Horde in the Second War.\n\nStormwind was rebuilt with great effort. Then the Scourge plague ravaged Lordaeron, and Dalaran fell during the Third War. The northern human realms lay in smoking ruin. Stormwind is the strongest human kingdom left and the heart of the grand Alliance. King Varian Wrynn vanished while traveling to a diplomatic summit. His ten-year-old son, Anduin Wrynn, was crowned king, with Highlord Bolvar Fordragon as regent.\n\nNorthward, Lordaeron’s survivors are scattered or dead. Gilneas remains behind its colossal Greymane Wall, leaving Stormwind to carry the burden of humanity’s defense.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_human-8968811f8ee83b410ef8/1-0000.mp3", duration = 145.972245, start = 0},
+    {file = "Audio/Transport/full_topic_human-4a199efcb51ae2bb95a0/1-0000.mp3", duration = 142.524082, start = 0},
   },
 }
 P.transport["topic:hunter"] = {
@@ -4518,7 +4518,7 @@ P.transport["topic:muradin-bronzebeard"] = {
   fullHash = "03d53a",
   text = "Muradin Bronzebeard. Across Khaz Modan and Lordaeron, Muradin Bronzebeard is honored for his skill in war and diplomacy. Brother to King Magni Bronzebeard and Brann Bronzebeard, he helped found the Explorers' League. In Northrend, he is believed to have died when Prince Arthas Menethil claimed Frostmourne. In the Second War, Muradin carried messages between Khaz Modan's mountain halls and the Alliance of Lordaeron. He helped defend Ironforge during the Horde's siege, then marched with Alliance forces through Blackrock Spire to the Dark Portal.\n\nAfter peace came, Muradin settled in Capital City as Ironforge's official ambassador. Jovial yet formidable, he became a familiar face in the palace and grew close to King Terenas Menethil. He also taught young Prince Arthas the arts of swordplay and combat. Muradin's curiosity ranged beyond politics and war. With his brothers, he helped found the dwarven Explorers' League, devoted to finding lost titan relics and recording the world's farthest corners. He loved Northrend and often traveled north to sketch ancient buildings and document its fierce inhabitants.\n\nThe continent's rugged mysteries drew Muradin on his final expedition. He sought lore and relics there, and followed whispers of a forgotten runeblade.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_muradin-bronzebeard-2acc6d3fe2d385f5d0de/1-0000.mp3", duration = 77.4269388, start = 0},
+    {file = "Audio/Transport/full_topic_muradin-bronzebeard-0b1f4b1a893a35833bfa/1-0000.mp3", duration = 72.5942857, start = 0},
   },
 }
 P.transport["topic:old-god"] = {
@@ -4534,7 +4534,7 @@ P.transport["topic:paladin"] = {
   fullHash = "ac4861",
   text = "Paladin. Paladins stand between the innocent and those who would harm them. They wear heavy plate, mend the wounded and strike down the wicked with arms and the Holy Light. Humans and dwarves bear the Silver Hand's legacy in the Alliance. In the Horde, Forsaken who served the Light in life still answer its call, though it burns them. Archbishop Alonsus Faol formed the paladins during the Second War. After the First War left the pious Clerics of Northshire devastated, he saw that healers alone could not stand against orcish warfare. He gathered virtuous knights of Lordaeron and taught surviving clerics to fight with weapons and divine magic. Under Uther the Lightbringer, the Knights of the Silver Hand defended bodies and renewed spirits across humanity's kingdoms. Priests speak for the Holy Light, preaching faith and tending to common folk's spirits. Paladins take up arms in its name. Their conviction lets them strengthen allies with auras, seal blessings upon them and mend fatal wounds. Against unholy horrors, the Light courses through their blows and burns undead and demonic foes with righteous fury. The fall of Lordaeron in the Third War scattered the original order, but its ideals endure. Humans in the south and dwarves of Ironforge have taken up its mantle. In sanctuaries such as the Cathedral of Light and the Hall of Mysteries, they train and pledge sword and shield to justice. They defend the Alliance against gathering shadows. Some knights of Lordaeron returned from the grave as Forsaken. Those who served the Light in life still keep their vows, and it still answers them, though each prayer sears their dead flesh. Aramis Hammerhand trains the risen paladins in the chapel at Deathknell, while Shari Stilwell continues their instruction in Brill.\n\nTyr's Watch, an order of Forsaken paladins, holds Bandarion Keep in western Tirisfal. Their path is lonely. They wield the power that burned their people, and Sylvanas Windrunner tolerates the order while watching it closely.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_paladin-46074fa8f039daf2f8ab/1-0000.mp3", duration = 119.066122, start = 0},
+    {file = "Audio/Transport/full_topic_paladin-211a082577a57f0a76db/1-0000.mp3", duration = 116.924082, start = 0},
   },
 }
 P.transport["topic:priest"] = {
@@ -4558,7 +4558,7 @@ P.transport["topic:scarlet-crusade"] = {
   fullHash = "611c9a",
   text = "Scarlet Crusade. Across Tirisfal Glades and the Plaguelands, crimson banners mark the Scarlet Crusade's war on the undead. The crusaders rose from the broken Knights of the Silver Hand to reclaim Lordaeron. Paranoia blinds them to anyone beyond their ranks, whom they brand plague carriers and shoot on sight. After Prince Arthas betrayed Lordaeron and murdered King Terenas Menethil II, the Order of the Silver Hand broke apart. Surviving paladins and priests rallied around leaders such as Alexandros Mograine, saidan dathrohan, and General Abbendis.\n\nThey gathered at Hearthglen and Tyr's Hand to reclaim their ruined homeland, then swore to burn away the undead scourge with holy fire. As the war dragged on, tragedy and suspicion took hold. Their desperate resistance hardened into an unyielding, xenophobic crusade. As the Crusade's teachings hardened into madness, moderate commanders recoiled. Lord Maxwell Tyrosus and his followers argued that reclaiming the north required allies across Azeroth, and sought aid from dwarves, gnomes, and night elves. The zealots refused, so Tyrosus and other disillusioned knights left to form the Argent Dawn, devoted to the Holy Light's pure and inclusive tenets.\n\nThe Scarlet Crusade made the Scarlet Monastery in Tirisfal Glades its center of power. There, they slaughter travelers and refugees, convinced that all who walk the Plaguelands carry the Scourge's contagion.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_scarlet-crusade-6326c1f6e3e65f4ff4b9/1-0000.mp3", duration = 87.3012245, start = 0},
+    {file = "Audio/Transport/full_topic_scarlet-crusade-4842090c27104d95d932/1-0000.mp3", duration = 83.1738776, start = 0},
   },
 }
 P.transport["topic:shadow-council"] = {
@@ -4598,7 +4598,7 @@ P.transport["topic:stormwind-kingdom"] = {
   fullHash = "7ad5be",
   text = "Stormwind (kingdom). In the years after Lordaeron fell, Stormwind is the Alliance's foremost power and humanity's greatest remaining bastion. Its southern lands include Elwynn Forest, Westfall, Duskwood, and the Redridge Mountains. Sacked in the First War and rebuilt after the Second, the kingdom now has a ten-year-old king, Anduin Wrynn, while Highlord Bolvar Fordragon guides its affairs amid troubles at home and beyond its borders. Stormwind began more than a thousand years ago, founded by descendants of the ancient Arathi empire. They traveled south beyond the crags of Khaz Modan into fertile, forested valleys. Far from the northern kingdoms, Stormwind grew proud of its self-reliance and its faith in the Light. The Orcish Horde came through the Dark Portal, and Stormwind's independence neared its end. In the First War, Stormwind City burned to ash and King Llane was slain. Sir Anduin Lothar led the survivors north across the Great Sea, where he rallied the northern realms into the Alliance of Lordaeron.\n\nAfter the Orcish threat was crushed in the Second War, refugees returned. They hired the Stonemasons Guild to rebuild their capital with white stone and blue banners. Then the Scourge wiped out Lordaeron during the Third War, leaving Stormwind humanity's greatest remaining bastion.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_stormwind-kingdom-44b74c6cfb1b4060684b/1-0000.mp3", duration = 79.6473469, start = 0},
+    {file = "Audio/Transport/full_topic_stormwind-kingdom-ec95d92233bcfd53410d/1-0000.mp3", duration = 75.5983673, start = 0},
   },
 }
 P.transport["topic:syndicate"] = {

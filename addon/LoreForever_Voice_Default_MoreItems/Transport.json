@@ -393,9 +393,9 @@
     "item:agamand-family-mace": {
       "1": [
         {
-          "duration": 37.799183673469386,
-          "file": "Audio/Transport/full_item_agamand-family-mace-eff44fb892b80a71b086/1-0000.mp3",
-          "sha256": "15ab3899587c5499a4ac2df8de9be1567e2848eeeb474317745eb0925699f0bb",
+          "duration": 37.92979591836735,
+          "file": "Audio/Transport/full_item_agamand-family-mace-b45a1a3f5d7a8606c11b/1-0000.mp3",
+          "sha256": "ea5ff904b6921cbd4e0f70d82ea4aa53ea2b8c856069eed2e0d2351b1819aa9c",
           "start": 0
         }
       ],
@@ -407,21 +407,21 @@
         ]
       },
       "fullHash": "346748",
-      "generation": "b262716b2c76f021f557",
+      "generation": "0ccc5ea2d03cd5b22843",
       "hash": "346748",
       "source": {
-        "duration": 37.825306,
+        "duration": 37.929796,
         "file": null,
-        "sha256": "eff44fb892b80a71b086640e7e1300a970a2b3b4d2f7cdc667d86b87eac041d1"
+        "sha256": "b45a1a3f5d7a8606c11bdaf826e63fe1f5423370579a2c437dce3962bf61c227"
       },
       "text": "Agamand Family Mace. At Agamand Mills, the Agamand Family Mace remains sealed in the family crypt. Once the heirloom of a proud family in northern Lordaeron, it is now sought by their former servant, Coleman Farthing. Before the Third War, the Agamands held vast farmlands and windmills in northern Tirisfal Glades. Like the region’s other aristocrats, they fell to the plague of undeath. The Scourge raised them as mindless thralls in service to the Lich King, and now they wander their ruined estate. Their ancient treasures remain locked in the family crypt. Among them lies the Agamand Family Mace, a remnant of a lineage brought low."
     },
     "item:agamand-family-sword": {
       "1": [
         {
-          "duration": 40.96,
-          "file": "Audio/Transport/full_item_agamand-family-sword-3f7c39b8d05ebdcb8d15/1-0000.mp3",
-          "sha256": "942012d88e42d4231470c2c83e5312deb672e5eacdeb3edc5edc01c28b166118",
+          "duration": 39.94122448979592,
+          "file": "Audio/Transport/full_item_agamand-family-sword-33e2b47e70c23b71f980/1-0000.mp3",
+          "sha256": "d668c77efad77b943438b159f030ded4d1213a618c1e8bf4963f685b36130c42",
           "start": 0
         }
       ],
@@ -433,12 +433,12 @@
         ]
       },
       "fullHash": "6175d3",
-      "generation": "6501949479a2212590c8",
+      "generation": "e6498eacb2e19bd0aafb",
       "hash": "6175d3",
       "source": {
-        "duration": 40.986122,
+        "duration": 39.941224,
         "file": null,
-        "sha256": "3f7c39b8d05ebdcb8d1576d56d1078025ebef2984fc7e57e938fd365e810c603"
+        "sha256": "33e2b47e70c23b71f980c887f779517f6624912bd2b113580d756e9f64b3f9d8"
       },
       "text": "Agamand Family Sword. In northern Tirisfal, the Agamand Family Sword remains in the family crypt. The tarnished blade once marked the wealth and standing of the mill-owning dynasty. Coleman Farthing now seeks it to erase their legacy. The Agamands once held wealth and influence through their mills in northern Tirisfal Glades. When the Scourge swept through Lordaeron, the family met a gruesome end. Their bodies rose as mindless thralls of the Lich King.\n\nTheir ancestral weapons, including the ceremonial sword, were sealed inside the Agamand Family Crypt at the northern edge of the mills. Taking the blades from their burial racks is meant to break the memory and noble standing of the fallen household."
     },
@@ -939,9 +939,9 @@
     "item:balnir-snapdragons": {
       "1": [
         {
-          "duration": 56.163265306122454,
-          "file": "Audio/Transport/full_item_balnir-snapdragons-45026797c40cef1a18a7/1-0000.mp3",
-          "sha256": "34106b25915c7c228fae4d79c85d0983590c7c6ea1e5d6e0ed59278b0221137a",
+          "duration": 55.666938775510204,
+          "file": "Audio/Transport/full_item_balnir-snapdragons-90d7e501b39fb4b63e37/1-0000.mp3",
+          "sha256": "ba64327c52f1301a1a65122edebfcf0960902a2aaae42414481feeccf06d8a83",
           "start": 0
         }
       ],
@@ -953,12 +953,12 @@
         ]
       },
       "fullHash": "36598c",
-      "generation": "4d07dccde8a4624f46d9",
+      "generation": "37c0cc6ae9fc51b1f7fe",
       "hash": "36598c",
       "source": {
-        "duration": 56.189388,
+        "duration": 55.666939,
         "file": null,
-        "sha256": "45026797c40cef1a18a7812d1b907d85129dbd29a8a8fce86de2cea9bb6c949d"
+        "sha256": "90d7e501b39fb4b63e37dee59dfb891455429e44ad8dad0494f137a1d2c2545b"
       },
       "text": "Balnir Snapdragons. At Balnir Farmstead, snapdragons still bloom as the Scourge's corruption presses toward Tirisfal Glades. The Forsaken study their sensitivity to magic to watch that corruption's spread. Balnir Snapdragons still bloom in the garden of Balnir Farmstead in eastern Tirisfal Glades. The homestead lies in ruin after Lordaeron fell and the Scourge rose. To the east, the Plaguelands border Tirisfal. The Lich King's blight presses against the region here, and the flowers give the Forsaken a place to watch its spread. Balnir Snapdragons are unusually sensitive to atmospheric magic, so they serve as living barometers for magical blights. Anastasia Hartwell and the Forsaken mages in the Undercity seek fresh flowers from the farmstead's window boxes. They send them to the Royal Apothecary Society for study, hoping to measure how far the Lich King's plague has seeped across the border into Tirisfal's soil."
     },
@@ -3565,9 +3565,9 @@
     "item:dalin-s-heart": {
       "1": [
         {
-          "duration": 29.335510204081633,
-          "file": "Audio/Transport/full_item_dalin-s-heart-0427e5409fd53ff45e51/1-0000.mp3",
-          "sha256": "8bbc36b83ca7674d7248a1ed53334ea4f72ccc1cc2c90f23299cede2622b91c0",
+          "duration": 28.682448979591836,
+          "file": "Audio/Transport/full_item_dalin-s-heart-9e1e03ce2839356e6347/1-0000.mp3",
+          "sha256": "afb21eb5101222b3f575f13653673b5b9a750a5468f052c79901387ced73d30d",
           "start": 0
         }
       ],
@@ -3579,12 +3579,12 @@
         ]
       },
       "fullHash": "507421",
-      "generation": "1e22addd7ac3e0942035",
+      "generation": "88c8d1c96043d60978f3",
       "hash": "507421",
       "source": {
-        "duration": 29.361633,
+        "duration": 28.682449,
         "file": null,
-        "sha256": "0427e5409fd53ff45e51b62df41911e85a601df75c990454786b3aba19a1e5b4"
+        "sha256": "9e1e03ce2839356e6347904ad8e6b460f276ea5c6797a2c0c483966cb77c5ded"
       },
       "text": "Dalin's Heart. Near the Greymane Wall in Silverpine Forest, Dalin Forgewright guards refugees with an honorable heart. Undercity warlocks seek the hearts of truly virtuous mortals. They use them to call a succubus and bind her to their service. Dalin Forgewright spends his days defending desperate Lordaeron refugees kept from safety by the sealed Greymane Wall. His selfless devotion makes him a rare offering of unblemished purity, and his heart is carved for rites in the Temple of the Damned."
     },
@@ -3695,9 +3695,9 @@
     "item:darthalia-s-sealed-commendation": {
       "1": [
         {
-          "duration": 32.73142857142857,
-          "file": "Audio/Transport/full_item_darthalia-s-sealed-commendation-3345ce08242283d8847f/1-0000.mp3",
-          "sha256": "a40c85c39e07864010e242bb2f4ef8990544179ea5c5af55be3ed516e62aa719",
+          "duration": 31.608163265306125,
+          "file": "Audio/Transport/full_item_darthalia-s-sealed-commendation-2a2b839cf5a2e881ba1d/1-0000.mp3",
+          "sha256": "10b710fddc86f65da5bf22fd5e008182af28d0ef839a78d57af636f9c7a7d3a3",
           "start": 0
         }
       ],
@@ -3709,12 +3709,12 @@
         ]
       },
       "fullHash": "38fa83",
-      "generation": "8527f6f29ad82f4e9e89",
+      "generation": "73b221c3db67217b5c54",
       "hash": "38fa83",
       "source": {
-        "duration": 32.757551,
+        "duration": 31.608163,
         "file": null,
-        "sha256": "3345ce08242283d8847fb2f27456fbf093aabeb73e2261029b6086dfc5f025a9"
+        "sha256": "2a2b839cf5a2e881ba1d4cf17239382cc242cc2b958b5803c990f5a6597d2683"
       },
       "text": "Darthalia's Sealed Commendation. At Tarren Mill, Darthalia sends word of victories against Hillsbrad's human defenders to Undercity's high command. After the fighting in Hillsbrad Foothills, High Executor Darthalia seals a dispatch of victories against the human defenders and the ruin of their positions. She sends it to Varimathras, the dreadlord who advises Lady Sylvanas Windrunner. In Undercity's Royal Quarter, the report gives Forsaken leaders proof that Alliance enclaves south of Lordaeron can be broken. Then northern garrisons can turn to face the Scourge."
     },
@@ -5021,9 +5021,9 @@
     "item:encrypted-scroll": {
       "1": [
         {
-          "duration": 63.00734693877551,
-          "file": "Audio/Transport/full_item_encrypted-scroll-61ab378d142d71b2e4f1/1-0000.mp3",
-          "sha256": "152dd924cc10375330245d1b5cceb381dac22360eaed899ffd0d095052de0550",
+          "duration": 60.00326530612245,
+          "file": "Audio/Transport/full_item_encrypted-scroll-80a30311f805667e1859/1-0000.mp3",
+          "sha256": "206d89611b2d9dd566ad87439e28766d3effd6cb417f1139ed9814d55baf9967",
           "start": 0
         }
       ],
@@ -5035,12 +5035,12 @@
         ]
       },
       "fullHash": "4c3c68",
-      "generation": "307d085611df019b85d6",
+      "generation": "e0b3dce3274e8d886caa",
       "hash": "4c3c68",
       "source": {
-        "duration": 63.033469,
+        "duration": 60.003265,
         "file": null,
-        "sha256": "61ab378d142d71b2e4f1e89534dcf5c8a9ecbbcbed6cca2634d97d732568e0b0"
+        "sha256": "80a30311f805667e1859a0fea2434ff392e8cdeda8dfa1496c8a9c6942126b40"
       },
       "text": "Encrypted Scroll. In Deathknell, a sealed scroll calls a newly risen rogue to meet David Trias. Its ciphered words point the bearer to the inn and the first steps toward the Forsaken’s covert ranks. A newly awakened Forsaken with a gift for stealth draws notice in Deathknell. After a scout proves capable against the mindless Scourge in the nearby graveyard, the Encrypted Scroll is handed over. Rogue trainer David Trias sealed it and bids the bearer to find him at the local inn. The summons offers a fledgling operative training to serve the Dark Lady, rather than spend a second life as a pickpocket. The scroll’s brief message calls the rogue to make contact in Deathknell before traveling deeper into Tirisfal Glades. Trias watches for promising talent on behalf of the Shadowstalkers, the Forsaken’s covert arm. In Lordaeron, the Forsaken rely on silent blades and cunning scouts against the Scarlet Crusade, surviving Alliance enclaves, and the Scourge left behind. Answering the ciphered summons begins the path into that covert network."
     },
@@ -7543,9 +7543,9 @@
     "item:gregor-s-remains": {
       "1": [
         {
-          "duration": 58.85387755102041,
-          "file": "Audio/Transport/full_item_gregor-s-remains-6acd00856bdf7d7f361a/1-0000.mp3",
-          "sha256": "2635c1a2d5b3fd33b1c1760f65746c22cce65ee6636bbfc583dad1fd9f677578",
+          "duration": 55.90204081632653,
+          "file": "Audio/Transport/full_item_gregor-s-remains-03a77dc733e237e7ec54/1-0000.mp3",
+          "sha256": "71766f869c6153d78405ca9bf6714d8b4a0ceafb00e5c9a4832b540be99b91ef",
           "start": 0
         }
       ],
@@ -7557,12 +7557,12 @@
         ]
       },
       "fullHash": "df0d4c",
-      "generation": "46aba3f2aec74b23057d",
+      "generation": "17f500f159aefc382bd6",
       "hash": "df0d4c",
       "source": {
-        "duration": 58.88,
+        "duration": 55.928163,
         "file": null,
-        "sha256": "6acd00856bdf7d7f361a8ff3aa7edbb6db77704ad84272ca9cc90b6f9acd3c23"
+        "sha256": "03a77dc733e237e7ec544e98627ccce518730ccee3050f6363dcd9dddb67d513"
       },
       "text": "Gregor's Remains. Gregor's Remains are sought to settle an old score. They belonged to Gregor Agamand, of Tirisfal Glades' wealthiest family. Before the Third War, the Agamands held great wealth and broad lands across northern Tirisfal Glades. When the Scourge invaded Lordaeron, the family patriarchs chose pride over flight. They fortified their mills and urged their loyal laborers to stand against the undead.\n\nThe defense failed. The estate fell, and those who stood their ground were butchered and raised into undeath. Gregor Agamand became a mindless servant of the Lich King, haunting the mills his family had ruled. Some who escaped the Lich King's control joined the Forsaken, but the memory of that defense still wounds them. Coleman Farthing, a former mill worker now stationed in Brill, blames the Agamands' pride for trapping his soul in eternal rot. He seeks Gregor's remains as personal retribution against the master who led his household into damnation."
     },
@@ -9415,9 +9415,9 @@
     "item:johaan-s-findings": {
       "1": [
         {
-          "duration": 43.62448979591837,
-          "file": "Audio/Transport/full_item_johaan-s-findings-256439937b2933a26d4d/1-0000.mp3",
-          "sha256": "bccb462e479e956663464b137f05b205158913ae99eb3353b0fc6543a5f897fb",
+          "duration": 42.42285714285715,
+          "file": "Audio/Transport/full_item_johaan-s-findings-f41c1429a1fa7746670e/1-0000.mp3",
+          "sha256": "2beb4d98b0faf2b61796c23b04bed787d7509d3a231151450e9741a4b9cade95",
           "start": 0
         }
       ],
@@ -9429,12 +9429,12 @@
         ]
       },
       "fullHash": "f15dba",
-      "generation": "1d6cfdd88a9b7378a6ff",
+      "generation": "a8af727c723f30d6182f",
       "hash": "f15dba",
       "source": {
-        "duration": 43.650612,
+        "duration": 42.422857,
         "file": null,
-        "sha256": "256439937b2933a26d4d1cca3d813284671e89b595f1db678cb966ede803fc8f"
+        "sha256": "f41c1429a1fa7746670e068ae647c6fcc5dfd012eb65493729f73b8673f3b6b0"
       },
       "text": "Johaan's Findings. In Brill, Apothecary Johaan sends his findings south to the Sepulcher. His research carries recent alchemical work from Tirisfal Glades to Apothecary Renferrel in Silverpine Forest. Apothecary Johaan sends his research from Brill to Apothecary Renferrel at the Sepulcher. The Royal Apothecary Society answers Lady Sylvanas Windrunner's demand for a New Plague that can destroy both the living and the Scourge. Its researchers are scattered across Lordaeron's contested ruins, so they share their findings between outposts.\n\nRenferrel directs the Society's efforts from Silverpine Forest, while Johaan records his local tests in Brill. His documents join the Society's wider work to refine its deadly brews."
     },
@@ -10663,9 +10663,9 @@
     "item:menethil-statuette": {
       "1": [
         {
-          "duration": 57.965714285714284,
-          "file": "Audio/Transport/full_item_menethil-statuette-fec2e304d3f660a9af89/1-0000.mp3",
-          "sha256": "6572fc191fe0b3632a2595f5d760f8a39eeb78035c6e18a6723fcd5aa9ee1bea",
+          "duration": 54.02122448979592,
+          "file": "Audio/Transport/full_item_menethil-statuette-0b7b3063e090795c1e0f/1-0000.mp3",
+          "sha256": "9a2f1372ae6f8ffe3f31ac0408c488e96bdc1422c1c29c750e06e1fd6f3bad75",
           "start": 0
         }
       ],
@@ -10677,12 +10677,12 @@
         ]
       },
       "fullHash": "f9cbb8",
-      "generation": "4a7fcc2f12fc9dd5904d",
+      "generation": "a45995ad97c45528b694",
       "hash": "f9cbb8",
       "source": {
-        "duration": 57.991837,
+        "duration": 54.021224,
         "file": null,
-        "sha256": "fec2e304d3f660a9af8934fdb14d9c3624d8d98bd03797d84632ed5522743334"
+        "sha256": "0b7b3063e090795c1e0fa723740ec3aed76b3a950f41dc21d186c522d77b47d5"
       },
       "text": "Menethil Statuette. Off the Wetlands coast, the Menethil Statuette lies lost from a shipwreck. The rare silver likeness honors Lordaeron's fallen king. King Terenas Menethil II is shown as a young paladin, long-haired, with his hammer raised toward the heavens. Humble in life, he disliked monuments to himself, and few likenesses were made in his honor. When the Scourge brought down Lordaeron, almost all those likenesses were destroyed. This surviving effigy is precious to the Alliance. The Blind Princess was carrying the statuette toward the Alliance harbor of Menethil when Bluegill murlocs attacked off the marshy coast. The assault scattered the merchant vessel's cargo, and the statuette came to rest in a half-buried barrel on shore.\n\nDragonmaw orcs and other local threats remained nearby, so defenders hurried the recovered icon south to Stormwind City. There, Highlord Bolvar Fordragon entrusted it to the Cathedral of Light."
     },
@@ -11521,9 +11521,9 @@
     "item:nissa-s-remains": {
       "1": [
         {
-          "duration": 68.15346938775511,
-          "file": "Audio/Transport/full_item_nissa-s-remains-48b8853fb4ed2ed5ac6e/1-0000.mp3",
-          "sha256": "dd3e0a7ce4a53e3714f1e51eeabd517f43f2b94f1c2053645a2d512e19c4179c",
+          "duration": 65.98530612244897,
+          "file": "Audio/Transport/full_item_nissa-s-remains-8d2319fbc77e88ce8603/1-0000.mp3",
+          "sha256": "9d2b5eebdd7eb635e40be622335e4e0c2c5f8b5d333e75667959e924e094caa0",
           "start": 0
         }
       ],
@@ -11535,12 +11535,12 @@
         ]
       },
       "fullHash": "a25ac5",
-      "generation": "e9d7bd5171e470915871",
+      "generation": "203197432f41ae7e617c",
       "hash": "a25ac5",
       "source": {
-        "duration": 68.179592,
+        "duration": 66.011429,
         "file": null,
-        "sha256": "48b8853fb4ed2ed5ac6eb08e4f1af104df169f0d03018708eb8833349904e235"
+        "sha256": "8d2319fbc77e88ce86034177f3d6987739f60ee1a21368dcfa61f5d53502dc32"
       },
       "text": "Nissa's Remains. In northern Tirisfal, Nissa's remains belong to a noblewoman of the once-wealthy Agamand family. The Scourge slew her and her kin during the Third War, then bound them as mindless servants. Now former laborers hunt the family for vengeance. Before the Third War, the Agamands were Tirisfal Glades' wealthiest and most influential family. Their prosperous mills stood across the northern hills. When the Plague of Undeath spread through Lordaeron, the patriarchs refused to flee. They fortified their estates and persuaded their retainers and laborers to stay and fight. Their pride cost them their lives. The Scourge slew the Agamands and raised them as mindless thralls bound to the Lich King's will. In Brill, survivors who later broke free under Queen Sylvanas Windrunner still remember the Agamands' fatal pride. Coleman Farthing once labored in their mills, and resents his former masters for luring the workers into undeath. He sends adventurers to put down the risen Agamands and retrieve their physical remains, including Nissa's. For Farthing and other Forsaken, destroying these relics brings a grim sense of closure and revenge."
     },
@@ -13003,9 +13003,9 @@
     "item:remaining-drops-of-purest-water": {
       "1": [
         {
-          "duration": 41.97877551020408,
-          "file": "Audio/Transport/full_item_remaining-drops-of-purest-water-da6db23b425de0e7f944/1-0000.mp3",
-          "sha256": "8759c1ddef5ea0599b69391f27d8e42b244e0c824b6b3c84ff2dbe4b4ed02eda",
+          "duration": 41.926530612244896,
+          "file": "Audio/Transport/full_item_remaining-drops-of-purest-water-ad4bc426c68f9cafb8d3/1-0000.mp3",
+          "sha256": "878d3670583e4d96beae6a4b6c8f6fc5969290755e9f6ccd45d7668fa7980822",
           "start": 0
         }
       ],
@@ -13017,12 +13017,12 @@
         ]
       },
       "fullHash": "9ef00b",
-      "generation": "99b8d95740f8b250ab5e",
+      "generation": "0de078eec5b06162c82b",
       "hash": "9ef00b",
       "source": {
-        "duration": 42.004898,
+        "duration": 41.926531,
         "file": null,
-        "sha256": "da6db23b425de0e7f94495cc84495738d7783fed9e37dc3fad13453f07f460d0"
+        "sha256": "ad4bc426c68f9cafb8d30140b686ab1f5b6f4c01d87b7c9db7d69fdf6135738c"
       },
       "text": "Remaining Drops of Purest Water. Across Kalimdor and Lordaeron, Remaining Drops of Purest Water wait for a perilous journey. Brine gathered the water for a draught meant to help shaman. In the Barrens, Brine prepares a draught from water gathered across Kalimdor and Lordaeron. Part of it gives shaman vision of distant elements. The drops left over have a harder purpose.\n\nShaman carry them to the coast of Silverpine Forest, near the Sepulcher, where the Brazier of Everfount stands. There, they burn the drops with the bracers of a fallen, tainted elemental. The pure water cuts through the undead plague’s corruption and calls an untainted water spirit to commune with the shaman. So their communion with the element is complete."
     },
@@ -13081,9 +13081,9 @@
     "item:renferrel-s-findings": {
       "1": [
         {
-          "duration": 57.02530612244898,
-          "file": "Audio/Transport/full_item_renferrel-s-findings-a4ceb07e182d126a20c2/1-0000.mp3",
-          "sha256": "bf1d9c734b003bf32b0c62c5e05bec8e1fb120f422919b1976ece1f4a852a3a8",
+          "duration": 56.502857142857145,
+          "file": "Audio/Transport/full_item_renferrel-s-findings-e2f397bda23d95177a31/1-0000.mp3",
+          "sha256": "9f0baedd40baa36bc95123532fa8a9eed9ac877a817abf1b288f6ee5bdfd4a70",
           "start": 0
         }
       ],
@@ -13095,12 +13095,12 @@
         ]
       },
       "fullHash": "0903bb",
-      "generation": "aba5a5720e02f22575e4",
+      "generation": "c1098b277205190728e6",
       "hash": "0903bb",
       "source": {
-        "duration": 57.051429,
+        "duration": 56.502857,
         "file": null,
-        "sha256": "a4ceb07e182d126a20c2f4f33a0683a85591417cb6f5397e8eff9e6f0b372c80"
+        "sha256": "e2f397bda23d95177a3105e56c147dc09e8c7bf2442ae49b963f5b93671f9521"
       },
       "text": "Renferrel's Findings. In Silverpine Forest, Renferrel's Findings carry his research south to Tarren Mill. Apothecary Renferrel gathered the notes at the Sepulcher for Apothecary Lydon, who is helping brew the Forsaken's New Plague. At the Sepulcher, Apothecary Renferrel records his work on the New Plague. The Royal Apothecary Society answers directly to Lady Sylvanas Windrunner, the Dark Lady. Researchers scattered across Lordaeron must join their work to find a breakthrough. So Renferrel sends his findings south to Tarren Mill, where fellow apothecaries can build on his results. Renferrel's papers link Silverpine Forest to Hillsbrad Foothills and the Forsaken's alchemical work. Apothecary Lydon awaits the notes in Tarren Mill, where he can compare them with his own research against the living and the Scourge. The roads through Hillsbrad are contested, so the Society depends on reliable couriers. Without them, its scattered research would soon stall."
     },
@@ -13757,9 +13757,9 @@
     "item:samuel-s-remains": {
       "1": [
         {
-          "duration": 38.63510204081633,
-          "file": "Audio/Transport/full_item_samuel-s-remains-c9520ab77c25dc28d8db/1-0000.mp3",
-          "sha256": "3c5663c1fe97accec2a223bf85c48d4d33d986c3ab275365d0f894a0c8a61211",
+          "duration": 36.414693877551024,
+          "file": "Audio/Transport/full_item_samuel-s-remains-c94e7b1410d2b27271f3/1-0000.mp3",
+          "sha256": "d2f23cb5906f57f0d0223402198255aaa49f3f9b7a2d657d8afef2e8592dff5d",
           "start": 0
         }
       ],
@@ -13771,12 +13771,12 @@
         ]
       },
       "fullHash": "13b586",
-      "generation": "bbef6df8a35291ac0b7e",
+      "generation": "6d0b9732843afdd30711",
       "hash": "13b586",
       "source": {
-        "duration": 38.661224,
+        "duration": 36.414694,
         "file": null,
-        "sha256": "c9520ab77c25dc28d8db939acd5b400b4c566da0de1bad03a0755dab58184840"
+        "sha256": "c94e7b1410d2b27271f3fe4e9315f369ebec1d6a71d56886510f4aa05fe2342d"
       },
       "text": "Samuel's Remains. Near Deathknell, Samuel’s bones are taken from a Scourge thrall and laid beside Marla. Samuel Fipps and his wife Marla lived in peace in Tirisfal Glades before undeath’s plague swept across Lordaeron. Samuel succumbed and became a mindless servant of the Scourge. Marla escaped undeath, but Samuel struck her down. As she died, she asked to be buried beside him once his cursed form was laid to rest.\n\nNovice Elreth in Deathknell sends newly awoken Forsaken northeast of the settlement. There they must find Samuel’s wandering form, recover his bones, and bury them in the front row of the local cemetery."
     },
@@ -16695,9 +16695,9 @@
     "item:the-lich-s-spellbook": {
       "1": [
         {
-          "duration": 40.35918367346939,
-          "file": "Audio/Transport/full_item_the-lich-s-spellbook-0c64b7b65b7d05a9bceb/1-0000.mp3",
-          "sha256": "1c51a747dded46731d5fb02379bdddf5873a56d33c2f34c66803497c43848e1a",
+          "duration": 36.96326530612245,
+          "file": "Audio/Transport/full_item_the-lich-s-spellbook-978fba2611551d7d0543/1-0000.mp3",
+          "sha256": "1a315b85810446a661f3f81566a955f83334bf900b12564ecb3bcac84b20520e",
           "start": 0
         }
       ],
@@ -16709,12 +16709,12 @@
         ]
       },
       "fullHash": "6fdbef",
-      "generation": "f0b90e312c29c6093919",
+      "generation": "0941da58f9fc524d90e2",
       "hash": "6fdbef",
       "source": {
-        "duration": 40.385306,
+        "duration": 36.989388,
         "file": null,
-        "sha256": "0c64b7b65b7d05a9bceb78d6a791f8a019075985816aedd1dbbd47935ef1ecfe"
+        "sha256": "978fba2611551d7d05437552c159d7a0971d610ff8ed276eaf33e3e5b5bd9a65"
       },
       "text": "The Lich's Spellbook. On Brightwater Lake's island, Bethor Iceshard seeks a spellbook guarded by a free-willed lich. He hopes its pages reveal the lich's skill and who he was in life. A free-willed lich keeps watch over an island in Brightwater Lake with skeletal minions. He distrusts the outside world and mistakes other undead for Scourge thralls. So he orders his guardians to kill anyone who approaches.\n\nBethor Iceshard seeks skilled necromancers for the Forsaken beneath Queen Sylvanas Windrunner. He sends an emissary into the island camp to take the lich's spellbook. Bethor hopes its pages reveal the master's power and identity before death took Lordaeron."
     },
@@ -17007,9 +17007,9 @@
     "item:thurman-s-remains": {
       "1": [
         {
-          "duration": 53.99510204081633,
-          "file": "Audio/Transport/full_item_thurman-s-remains-9cc1fadfd15b7439f65b/1-0000.mp3",
-          "sha256": "b98e4347b4f4a405395014a8959745932d28f517ed2e7f35fc3d392d2aae3f3d",
+          "duration": 53.289795918367346,
+          "file": "Audio/Transport/full_item_thurman-s-remains-f861ad2b5b7335b1a639/1-0000.mp3",
+          "sha256": "154a3aa9805428edff39c095de389ae3842be0092d40eaf910bd6f5f48281e37",
           "start": 0
         }
       ],
@@ -17021,12 +17021,12 @@
         ]
       },
       "fullHash": "dab6bc",
-      "generation": "2a23b825c72f22711e83",
+      "generation": "6c1c6e5e691850468b7b",
       "hash": "dab6bc",
       "source": {
-        "duration": 54.021224,
+        "duration": 53.289796,
         "file": null,
-        "sha256": "9cc1fadfd15b7439f65b6e136f125179a46dc707f88ad7cccdc35dd1322fee7e"
+        "sha256": "f861ad2b5b7335b1a639b0abcc04a4dd0573d914051f9fb647172d903900f8f8"
       },
       "text": "Thurman's Remains. At Agamand Mills, Thurman's remains lie among the ruins of the family's failed stand against the Scourge. The once-wealthy mill owner fell to the Plague and now wanders his ruined estate as an undead thrall. Before the Third War, the Agamands were Tirisfal Glades' wealthiest landowners. They owned extensive mills and employed dozens of local workers. When the Scourge swept across Lordaeron, Thurman Agamand and his kin fortified their estate instead of fleeing. Sure that their wealth and strong mills could withstand the attack, they persuaded their loyal workers to fight beside them.\n\nThe defense failed. The Agamands and their workers were slaughtered and made mindless servants of the Lich King. Coleman Farthing, a former worker who rose as Forsaken, now demands the destruction of his former masters. He seeks Thurman's remains as proof that the foolish patriarch paid for dooming his household."
     },
@@ -17111,9 +17111,9 @@
     "item:tirisfal-pumpkin": {
       "1": [
         {
-          "duration": 49.21469387755102,
-          "file": "Audio/Transport/full_item_tirisfal-pumpkin-1211c20d5c3b0c80047a/1-0000.mp3",
-          "sha256": "82a1b9055e6ffac8d8c3cb765477f48db1cff614d5f790f263ed9bc64b0d03e5",
+          "duration": 50.10285714285715,
+          "file": "Audio/Transport/full_item_tirisfal-pumpkin-92ab2b41f44320c5f914/1-0000.mp3",
+          "sha256": "9da0e4505641811324128ffc99081777b20423285ab9d371d3c5a545c78f616d",
           "start": 0
         }
       ],
@@ -17125,12 +17125,12 @@
         ]
       },
       "fullHash": "98059b",
-      "generation": "46e7da2148e65de7ce2f",
+      "generation": "76dad9e9c2b73eab4242",
       "hash": "98059b",
       "source": {
-        "duration": 49.240816,
+        "duration": 50.102857,
         "file": null,
-        "sha256": "1211c20d5c3b0c80047a60f8409df5b8f00f3ffb064f54f44ea80d67da39d827"
+        "sha256": "92ab2b41f44320c5f9146665c0e4ab7d23d7b57ae9396b24fb8b85b4bd09b3c3"
       },
       "text": "Tirisfal Pumpkin. At Solliden Farmstead, living humans still tend pumpkins in blighted Tirisfal. The Forsaken take the harvest for the Royal Apothecary Society’s mixtures. West of Brill, crops still grow despite the corruption spreading across Lordaeron. At Solliden Farmstead, living human farmers tend large orange pumpkins under the watch of the nearby Scarlet Crusade. The harvest feeds the farmers. For the Forsaken of Brill, the pumpkins are targets for sabotage and raw materials for Apothecary Johaan. Deathguard Simmer sends young Forsaken into the contested fields to steal pumpkins from the farmers. The vegetables do not feed the dead. They go into the Royal Apothecary Society’s cauldrons, where apothecaries test how natural plants react to plagues and experimental mixtures. Lordaeron’s remaining crops become tools against the living."
     },
@@ -18905,9 +18905,9 @@
     "item:wolf-heart-sample": {
       "1": [
         {
-          "duration": 51.226122448979595,
-          "file": "Audio/Transport/full_item_wolf-heart-sample-bfc828c22c2e1bcaad6a/1-0000.mp3",
-          "sha256": "16c6fb3c11d75059ee419846975983043e25ccae4ab2b56dab88302a824d6af8",
+          "duration": 48.66612244897959,
+          "file": "Audio/Transport/full_item_wolf-heart-sample-e602619549eeb695c0e8/1-0000.mp3",
+          "sha256": "0d7826a5b7772ea1701d34d9e7378ea65b8fc9cc06364c2c843201badcdc1d17",
           "start": 0
         }
       ],
@@ -18919,21 +18919,21 @@
         ]
       },
       "fullHash": "efb104",
-      "generation": "ce00934fa1a678ffbb7c",
+      "generation": "5896edb4a94dc8c3a561",
       "hash": "efb104",
       "source": {
-        "duration": 51.252245,
+        "duration": 48.666122,
         "file": null,
-        "sha256": "bfc828c22c2e1bcaad6a112bced492d981e308317ca9435791b44d5c0b794b39"
+        "sha256": "e602619549eeb695c0e86ccd8bd350a9b3b8508f454e1b4815fd4248eaa75826"
       },
       "text": "Wolf Heart Sample. In the Barrens, Wolf Heart Sample carries diseased wolf tissue from Lordaeron to the Crossroads. The Royal Apothecary Society studies what northern toxins do to Kalimdor’s native beasts. Plagued wolves in Lordaeron’s ruins gave Apothecary Renferrel the hearts packed into Wolf Heart Sample. They crossed the Great Sea for the Forsaken’s Royal Apothecary Society, which studies venom, blights and biological reagents. A courier carries them to the Crossroads, joining Undercity’s experiments in the scarred Eastern Kingdoms to Kalimdor’s frontier outposts. At the Crossroads, Apothecary Helbrim receives Wolf Heart Sample. He studies how toxins from Lordaeron’s Scourge-ravaged lands affect Kalimdor’s native wildlife. The hearts’ preserved toxicity may reveal properties that improve Forsaken poisons and elixirs far from home."
     },
     "item:wolf-heart-samples": {
       "1": [
         {
-          "duration": 53.760000000000005,
-          "file": "Audio/Transport/full_item_wolf-heart-samples-7a6cbbc10e47c296231e/1-0000.mp3",
-          "sha256": "bfb7eb4373dae92789919731e5045bea8cbe41b220c7c946360bed49fb2a1d32",
+          "duration": 53.86448979591837,
+          "file": "Audio/Transport/full_item_wolf-heart-samples-65e48573eacd37d42a6f/1-0000.mp3",
+          "sha256": "6fc09f797d990c37be1477cc03a709011597c30ac5dbbe2ee595472471421131",
           "start": 0
         }
       ],
@@ -18945,12 +18945,12 @@
         ]
       },
       "fullHash": "83cd75",
-      "generation": "6fb7f6c22f028ea33ea0",
+      "generation": "92cff5e84fb51cb40ff6",
       "hash": "83cd75",
       "source": {
-        "duration": 53.786122,
+        "duration": 53.86449,
         "file": null,
-        "sha256": "7a6cbbc10e47c296231e2079a524c97efbd4a61bd459797555edd94d73e83622"
+        "sha256": "65e48573eacd37d42a6f30d0acb6290a721af7a02dbe32c2e198fd1562f65dcd"
       },
       "text": "Wolf Heart Samples. In Silverpine Forest, wolf hearts carry a poison their living hosts endure. Apothecary Renferrel sends samples to the Royal Apothecary Society for study. While examining carcasses in Silverpine Forest, Apothecary Renferrel found a deadly compound in certain wolf hearts. The poison fills their tissue at a strength that should kill them, yet the wolves live. Renferrel set tissue samples aside for delivery to Undercity. The Forsaken study creatures that endure toxins as they seek mastery of biological warfare and prepare new reagents. Couriers carry the samples beneath the ruins of Lordaeron to Apothecary Zinge. She works at the Royal Apothecary Society's headquarters in the Apothecarium. Zinge and her colleagues prize new toxins. They dissect and test the tainted tissue to isolate its virulent compounds and learn how the beasts survive them. They hope to use that knowledge in their alchemical work."
     },
@@ -19387,6 +19387,10 @@
       778,
       949
     ],
+    "0687998c2d5ebf5abda2b8b37a81499ad559431a88e86653c7a1ff55ad264355": [
+      521,
+      1087
+    ],
     "06ce0f8d89cc9f627a539707335f95f483cca59f3a4981ba85915aa8aae69a59": [
       194,
       434,
@@ -19443,10 +19447,6 @@
       616,
       908,
       1111
-    ],
-    "08feab366523be865d580a920b9a08b70ae60b968cdee8a2ce6ac4bbb0e85bdc": [
-      580,
-      857
     ],
     "0944f84acf05dc5e0213b02cd143a4b0f340e7a9edcd3a7ef1cd492893c58e87": [
       197,
@@ -19547,6 +19547,13 @@
       868,
       1169
     ],
+    "0d7826a5b7772ea1701d34d9e7378ea65b8fc9cc06364c2c843201badcdc1d17": [
+      226,
+      442,
+      673,
+      952,
+      1251
+    ],
     "0df2851220a35c5a7195d2b00bb871daeb425eb97c4f2979419aba0d4fb03ffd": [
       266,
       544,
@@ -19594,6 +19601,11 @@
       908,
       1054,
       1196
+    ],
+    "10b710fddc86f65da5bf22fd5e008182af28d0ef839a78d57af636f9c7a7d3a3": [
+      262,
+      592,
+      787
     ],
     "10d739509708eb830e2b81e258b15270df093d6f6e46c20e2413bb251a130028": [
       377,
@@ -19704,16 +19716,15 @@
       1356,
       1691
     ],
-    "152dd924cc10375330245d1b5cceb381dac22360eaed899ffd0d095052de0550": [
-      208,
-      440,
-      635,
-      918,
-      1114,
-      1400,
-      1666,
-      1896,
-      2254
+    "154a3aa9805428edff39c095de389ae3842be0092d40eaf910bd6f5f48281e37": [
+      265,
+      502,
+      693,
+      842,
+      1083,
+      1350,
+      1609,
+      1859
     ],
     "15651bc72ee920916f7feba6e6d3656dbc204410f7f9c097b101cc0a4844d312": [
       594
@@ -19725,24 +19736,11 @@
       784,
       1051
     ],
-    "15ab3899587c5499a4ac2df8de9be1567e2848eeeb474317745eb0925699f0bb": [
-      197,
-      495,
-      733,
-      885,
-      1121,
-      1255
-    ],
     "16b8d9980cc990f4d3a060760295a1b3e1629e37a04617b0fb0ef3364207f192": [
       168,
       334,
       692,
       837
-    ],
-    "16c6fb3c11d75059ee419846975983043e25ccae4ab2b56dab88302a824d6af8": [
-      461,
-      1330,
-      1500
     ],
     "17111fdc24727b988462e4f5d9c89c8116c66123532d29508717cff8c674a329": [
       390,
@@ -19827,6 +19825,12 @@
       1410,
       1572,
       1851
+    ],
+    "1a315b85810446a661f3f81566a955f83334bf900b12564ecb3bcac84b20520e": [
+      386,
+      861,
+      1060,
+      1211
     ],
     "1a3918ec8064063fd09ff5f938c720ecfdda330265dd98e619887a8481688783": [
       206,
@@ -19919,15 +19923,6 @@
       1255,
       1483
     ],
-    "1c51a747dded46731d5fb02379bdddf5873a56d33c2f34c66803497c43848e1a": [
-      261,
-      443,
-      646,
-      824,
-      972,
-      1189,
-      1342
-    ],
     "1cf48c38831f86c7bf1d23608043d632d29ff5ac21486478831243db5460f424": [
       178,
       425,
@@ -20003,6 +19998,15 @@
       803,
       1073,
       1267
+    ],
+    "206d89611b2d9dd566ad87439e28766d3effd6cb417f1139ed9814d55baf9967": [
+      205,
+      423,
+      592,
+      861,
+      1046,
+      1312,
+      2139
     ],
     "209f8415870295c4575c71724cbd5139cb11d8f69a01e88d2257b5e3ee523036": [
       281,
@@ -20150,16 +20154,6 @@
       1185,
       1447
     ],
-    "2635c1a2d5b3fd33b1c1760f65746c22cce65ee6636bbfc583dad1fd9f677578": [
-      328,
-      583,
-      768,
-      963,
-      1238,
-      1486,
-      1725,
-      2022
-    ],
     "2666f35a086e8bbdefae0a2cd52bdada5f937b71367e582888ea5b824d212f91": [
       188,
       432,
@@ -20267,6 +20261,12 @@
       593,
       752,
       907
+    ],
+    "2beb4d98b0faf2b61796c23b04bed787d7509d3a231151450e9741a4b9cade95": [
+      432,
+      635,
+      1209,
+      1466
     ],
     "2bfc1a33fc7c3018c78e6f9a014ea556870f9ba5f22e17a1de0e4755075282c7": [
       537
@@ -20413,15 +20413,6 @@
       902,
       1088
     ],
-    "34106b25915c7c228fae4d79c85d0983590c7c6ea1e5d6e0ed59278b0221137a": [
-      275,
-      466,
-      714,
-      889,
-      1286,
-      1574,
-      1821
-    ],
     "34e677fc218993c59fd94080adae555d9155842573109c90cbe9829fd7fbdf5e": [
       341,
       551,
@@ -20557,13 +20548,6 @@
       669,
       831,
       1137
-    ],
-    "3c5663c1fe97accec2a223bf85c48d4d33d986c3ab275365d0f894a0c8a61211": [
-      242,
-      509,
-      772,
-      969,
-      1174
     ],
     "3cf514c08de5bf0f11446c2cc0755da490ec0ac2460ec06e317b641a22c349c2": [
       586
@@ -21398,16 +21382,6 @@
     "652b60730cc6ba2a1f0ce67118c672067a073d7ab797068639e78eca204aa2f1": [
       715
     ],
-    "6572fc191fe0b3632a2595f5d760f8a39eeb78035c6e18a6723fcd5aa9ee1bea": [
-      196,
-      363,
-      515,
-      843,
-      1174,
-      1353,
-      1753,
-      2035
-    ],
     "65d076f5e94278992bc05997d775fde8f5398e208ad7a34701cc2898cbbcda34": [
       205,
       501,
@@ -21593,6 +21567,15 @@
       479,
       840
     ],
+    "6fc09f797d990c37be1477cc03a709011597c30ac5dbbe2ee595472471421131": [
+      177,
+      370,
+      763,
+      972,
+      1279,
+      1460,
+      1732
+    ],
     "7007e386e23a73e0c70b705e5b0fdd4ff102cab762eb30548ddeadecc2d17fc1": [
       204,
       378,
@@ -21621,6 +21604,13 @@
       212,
       525,
       718
+    ],
+    "71766f869c6153d78405ca9bf6714d8b4a0ceafb00e5c9a4832b540be99b91ef": [
+      302,
+      906,
+      1182,
+      1621,
+      1908
     ],
     "719c6279a919706bf45e3bdd2ceeb2d4ca83b5d0793926d27e420e516b601e5c": [
       208,
@@ -22091,14 +22081,6 @@
       901,
       1087
     ],
-    "82a1b9055e6ffac8d8c3cb765477f48db1cff614d5f790f263ed9bc64b0d03e5": [
-      195,
-      368,
-      568,
-      917,
-      1153,
-      1367
-    ],
     "82a5add28a6c1d15473dba9d994f6797374e62037781e69e6029f2ea24d18065": [
       217,
       505,
@@ -22215,14 +22197,6 @@
       435,
       602
     ],
-    "8759c1ddef5ea0599b69391f27d8e42b244e0c824b6b3c84ff2dbe4b4ed02eda": [
-      239,
-      385,
-      603,
-      822,
-      1076,
-      1234
-    ],
     "8767b4e233c476d57f2684798d53c3c775d0f10673798690850d66c2108f78a9": [
       180,
       369,
@@ -22236,6 +22210,13 @@
       933,
       1139,
       1345
+    ],
+    "878d3670583e4d96beae6a4b6c8f6fc5969290755e9f6ccd45d7668fa7980822": [
+      236,
+      371,
+      577,
+      1043,
+      1218
     ],
     "87c827e455c4ae44361d81c279844020145f3ce3b849c00b7fa0d3f15f2f74f9": [
       436
@@ -22350,12 +22331,6 @@
       1478,
       1630,
       1767
-    ],
-    "8bbc36b83ca7674d7248a1ed53334ea4f72ccc1cc2c90f23299cede2622b91c0": [
-      275,
-      432,
-      578,
-      847
     ],
     "8c29b84780cd5b0c045fd4165a958eaef58b6655f4360a936413a56e8df93cc8": [
       212,
@@ -22547,15 +22522,6 @@
       1193,
       1420
     ],
-    "942012d88e42d4231470c2c83e5312deb672e5eacdeb3edc5edc01c28b166118": [
-      206,
-      377,
-      517,
-      717,
-      883,
-      1042,
-      1352
-    ],
     "94c531ad34b50af27e855e617dc15286e17364986a7cb6775e4e172ab75e4ee7": [
       441,
       684,
@@ -22662,6 +22628,16 @@
       877,
       1036
     ],
+    "9a2f1372ae6f8ffe3f31ac0408c488e96bdc1422c1c29c750e06e1fd6f3bad75": [
+      180,
+      324,
+      583,
+      799,
+      981,
+      1383,
+      1629,
+      1902
+    ],
     "9a433b58e4df90c590ca2aba34e315a804ae1e6e059fe9e633d644c62cabd154": [
       220,
       412,
@@ -22722,6 +22698,25 @@
       1200,
       1381
     ],
+    "9d2b5eebdd7eb635e40be622335e4e0c2c5f8b5d333e75667959e924e094caa0": [
+      246,
+      464,
+      794,
+      1104,
+      1299,
+      1599,
+      1859,
+      2088,
+      2310
+    ],
+    "9da0e4505641811324128ffc99081777b20423285ab9d371d3c5a545c78f616d": [
+      209,
+      385,
+      589,
+      853,
+      1163,
+      1404
+    ],
     "9dacd4165d3bb8270f4e8c90f2ec003fa0c21c290bbcfe3daed2b3d2a552e873": [
       209,
       412,
@@ -22738,6 +22733,16 @@
     "9f07398444cca1e4f13bb60e46c69cc46fca6adce99ef4f957db8045473b46d7": [
       317,
       733
+    ],
+    "9f0baedd40baa36bc95123532fa8a9eed9ac877a817abf1b288f6ee5bdfd4a70": [
+      241,
+      532,
+      714,
+      933,
+      1100,
+      1363,
+      1594,
+      1862
     ],
     "9f5e3262b71672c85d0462278f2f73ca4376bb23d6eb9a6e22e38c9cab4f1ccd": [
       220,
@@ -22866,11 +22871,6 @@
       1397,
       1721,
       1911
-    ],
-    "a40c85c39e07864010e242bb2f4ef8990544179ea5c5af55be3ed516e62aa719": [
-      298,
-      645,
-      839
     ],
     "a43518647818637d4219fce9169f76aa73cd5c3820d49d285598130bcc1169c3": [
       209,
@@ -23121,6 +23121,10 @@
       513,
       722
     ],
+    "afb21eb5101222b3f575f13653673b5b9a750a5468f052c79901387ced73d30d": [
+      259,
+      423
+    ],
     "afd41000cc17109a71bd90e01b4f93fadd02576fe79a524dcabf41a6d8165825": [
       218,
       425,
@@ -23337,23 +23341,21 @@
       1295,
       1591
     ],
-    "b98e4347b4f4a405395014a8959745932d28f517ed2e7f35fc3d392d2aae3f3d": [
-      254,
-      506,
-      706,
-      851,
-      1105,
-      1251,
-      1438,
-      1625,
-      1881
-    ],
     "b99d2dfa4c6167c2cdfb7eaf9b7fb87dfa1b14dcecd646a45155c837b09118af": [
       393
     ],
     "ba08d98bef3eeca995bbc178f3a65de3d3665e859d9385a87aded60866b684cb": [
       370,
       603
+    ],
+    "ba64327c52f1301a1a65122edebfcf0960902a2aaae42414481feeccf06d8a83": [
+      296,
+      485,
+      719,
+      894,
+      1257,
+      1538,
+      1790
     ],
     "bb4a8c5a022be0bdd7ebd9b908d265234f7efaabce2d8e3f7cbf77178de74771": [
       442,
@@ -23405,14 +23407,6 @@
       815,
       992,
       1181
-    ],
-    "bccb462e479e956663464b137f05b205158913ae99eb3353b0fc6543a5f897fb": [
-      185,
-      483,
-      694,
-      973,
-      1238,
-      1499
     ],
     "bcda4ace450fd8616f00cf468621e180b9ef917776a64b22d5f3bc31c9520e6a": [
       234,
@@ -23467,16 +23461,6 @@
       1039,
       1252
     ],
-    "bf1d9c734b003bf32b0c62c5e05bec8e1fb120f422919b1976ece1f4a852a3a8": [
-      227,
-      521,
-      702,
-      919,
-      1082,
-      1338,
-      1578,
-      1850
-    ],
     "bf78df1f50321b9668a9f90a2be032afb14d85241d17027e8e2a852a9dc271b8": [
       745,
       1221
@@ -23494,16 +23478,6 @@
       793,
       973,
       1110
-    ],
-    "bfb7eb4373dae92789919731e5045bea8cbe41b220c7c946360bed49fb2a1d32": [
-      198,
-      404,
-      667,
-      847,
-      984,
-      1249,
-      1437,
-      1606
     ],
     "c01608e8c9aad6bbc27f53e47fcf946d3900a5f47f4f8990cd058bd7bf3248c3": [
       300,
@@ -23810,6 +23784,11 @@
       766,
       1057
     ],
+    "d2f23cb5906f57f0d0223402198255aaa49f3f9b7a2d657d8afef2e8592dff5d": [
+      223,
+      639,
+      1132
+    ],
     "d346ead7e1d2a8e45ba30edf9c427264f9c115e513a292369b4aafd8df07bac3": [
       222,
       496,
@@ -23884,6 +23863,12 @@
     ],
     "d644061eb20159ef6141afcdd45818c1d81e8574cc2c9ba2fb7283abccb092a3": [
       467
+    ],
+    "d668c77efad77b943438b159f030ded4d1213a618c1e8bf4963f685b36130c42": [
+      200,
+      715,
+      882,
+      1311
     ],
     "d70214333c5f89d8e45f87e6c285a7b31fd3ace2d5fc61583cc9a2089b3b865f": [
       213,
@@ -24030,18 +24015,6 @@
       841,
       1034
     ],
-    "dd3e0a7ce4a53e3714f1e51eeabd517f43f2b94f1c2053645a2d512e19c4179c": [
-      236,
-      448,
-      584,
-      827,
-      1146,
-      1329,
-      1642,
-      1908,
-      2161,
-      2382
-    ],
     "dd409a0c71683579a14139a3b32d0431f443e820a5f6858acaa0eafbef03ee08": [
       455,
       690
@@ -24181,6 +24154,10 @@
       717,
       1014
     ],
+    "e30e7c2e719ec2cb953bb0da22c35b30ec17edc18354a1d15aa57581a256b08b": [
+      559,
+      823
+    ],
     "e31b1eb1657826074e3625686ea59a6b0fd01d3997ae8783c7987beb10db6a9a": [
       249
     ],
@@ -24242,10 +24219,6 @@
       436,
       631,
       775
-    ],
-    "e63317ee421a609b33c138f49fbe7316e9669ca05ba08965c080e88bc05e4d8d": [
-      667,
-      1151
     ],
     "e6e3ca4970a624298fd0551608cca68f8db0cbe7943b858897ca7d81777d9cfc": [
       257,
@@ -24333,6 +24306,12 @@
       1030,
       1219,
       1405
+    ],
+    "ea5ff904b6921cbd4e0f70d82ea4aa53ea2b8c856069eed2e0d2351b1819aa9c": [
+      193,
+      691,
+      859,
+      1129
     ],
     "ea7970af7560bf720c2b3c48f2898a039800df52ea137879b165b3932f88174f": [
       232,
@@ -24980,22 +24959,11 @@
       "1153": 2,
       "460": 1
     },
-    "152dd924cc10375330245d1b5cceb381dac22360eaed899ffd0d095052de0550": {
-      "1400": 2,
-      "440": 1
-    },
     "1577831de0a1ff125a4d900d3e9fdf4418f71919a6e7e014ea7224bf77b9a11b": {
       "370": 1
     },
-    "15ab3899587c5499a4ac2df8de9be1567e2848eeeb474317745eb0925699f0bb": {
-      "495": 1
-    },
     "16b8d9980cc990f4d3a060760295a1b3e1629e37a04617b0fb0ef3364207f192": {
       "334": 1
-    },
-    "16c6fb3c11d75059ee419846975983043e25ccae4ab2b56dab88302a824d6af8": {
-      "1330": 2,
-      "461": 1
     },
     "17111fdc24727b988462e4f5d9c89c8116c66123532d29508717cff8c674a329": {
       "1193": 2,
@@ -25068,9 +25036,6 @@
     "1c510527868840afb9d71425e2b769d25abfbb2ee3cbe95b5ba0d5110082866f": {
       "1255": 2,
       "528": 1
-    },
-    "1c51a747dded46731d5fb02379bdddf5873a56d33c2f34c66803497c43848e1a": {
-      "443": 1
     },
     "1cf48c38831f86c7bf1d23608043d632d29ff5ac21486478831243db5460f424": {
       "425": 1
@@ -25162,10 +25127,6 @@
     "254f6c3d70c696c4ca30b1acd2628da45e4e5742109906cb60be595fd4f47565": {
       "1185": 2,
       "445": 1
-    },
-    "2635c1a2d5b3fd33b1c1760f65746c22cce65ee6636bbfc583dad1fd9f677578": {
-      "1486": 2,
-      "328": 1
     },
     "2666f35a086e8bbdefae0a2cd52bdada5f937b71367e582888ea5b824d212f91": {
       "432": 1
@@ -25276,10 +25237,6 @@
     "33ef9c6170b9619b39ca090b569d485674cf837d584fe3d4dda9b17731f99962": {
       "472": 1
     },
-    "34106b25915c7c228fae4d79c85d0983590c7c6ea1e5d6e0ed59278b0221137a": {
-      "1286": 2,
-      "466": 1
-    },
     "34e677fc218993c59fd94080adae555d9155842573109c90cbe9829fd7fbdf5e": {
       "341": 1
     },
@@ -25331,9 +25288,6 @@
     },
     "3beecca4683a992084e035ccf05ab80f0523f2347a5b943d2b5ef02d99fdd204": {
       "488": 1
-    },
-    "3c5663c1fe97accec2a223bf85c48d4d33d986c3ab275365d0f894a0c8a61211": {
-      "242": 1
     },
     "3da8b02a5ded9b8720134b5819dab52b75ca87a0f4c14ad2754e9209d251262f": {
       "385": 1
@@ -25677,10 +25631,6 @@
     "64e37f3f64cf1eaaeb87de675e77c2c9cb2ad797ca907e9a9615fcb53dd0fa5f": {
       "434": 1
     },
-    "6572fc191fe0b3632a2595f5d760f8a39eeb78035c6e18a6723fcd5aa9ee1bea": {
-      "1174": 2,
-      "363": 1
-    },
     "65d076f5e94278992bc05997d775fde8f5398e208ad7a34701cc2898cbbcda34": {
       "501": 1
     },
@@ -25970,10 +25920,6 @@
     "827a851292f84f93cb0b8fbdfbf2d00f40e31fd3c74430293fd40dce0876b6c0": {
       "454": 1
     },
-    "82a1b9055e6ffac8d8c3cb765477f48db1cff614d5f790f263ed9bc64b0d03e5": {
-      "1153": 2,
-      "368": 1
-    },
     "82a5add28a6c1d15473dba9d994f6797374e62037781e69e6029f2ea24d18065": {
       "1619": 2,
       "505": 1
@@ -26020,9 +25966,6 @@
     },
     "87198794acc1d217a5c6c72ab54b1b51360ae828138cdb10831c5c737ed4a57f": {
       "264": 1
-    },
-    "8759c1ddef5ea0599b69391f27d8e42b244e0c824b6b3c84ff2dbe4b4ed02eda": {
-      "385": 1
     },
     "8767b4e233c476d57f2684798d53c3c775d0f10673798690850d66c2108f78a9": {
       "369": 1
@@ -26075,9 +26018,6 @@
     "8b34a3f6c9e754a6c8d44292980f3052bcdcb55d23ba356cf0136571c02468a7": {
       "1630": 2,
       "454": 1
-    },
-    "8bbc36b83ca7674d7248a1ed53334ea4f72ccc1cc2c90f23299cede2622b91c0": {
-      "275": 1
     },
     "8c29b84780cd5b0c045fd4165a958eaef58b6655f4360a936413a56e8df93cc8": {
       "381": 1
@@ -26157,9 +26097,6 @@
     },
     "94174b9a654d8ed3c62e278c9184d2ae1378230f50da11fc43a29721262e8d8f": {
       "431": 1
-    },
-    "942012d88e42d4231470c2c83e5312deb672e5eacdeb3edc5edc01c28b166118": {
-      "517": 1
     },
     "94c531ad34b50af27e855e617dc15286e17364986a7cb6775e4e172ab75e4ee7": {
       "1085": 2,
@@ -26290,9 +26227,6 @@
     "a3a17fb730c7ba8980f5a854362b3e21cc1a31fe0262195070d59838c00fb2d2": {
       "1230": 2,
       "448": 1
-    },
-    "a40c85c39e07864010e242bb2f4ef8990544179ea5c5af55be3ed516e62aa719": {
-      "298": 1
     },
     "a43518647818637d4219fce9169f76aa73cd5c3820d49d285598130bcc1169c3": {
       "209": 1
@@ -26501,9 +26435,6 @@
       "1295": 2,
       "440": 1
     },
-    "b98e4347b4f4a405395014a8959745932d28f517ed2e7f35fc3d392d2aae3f3d": {
-      "506": 1
-    },
     "bbd44e2308e1b53786cf10efeb7578231595fb5e2c0cf623d8d8cd5c4d0b4fd0": {
       "425": 1
     },
@@ -26520,9 +26451,6 @@
     },
     "bcb7aa7f60fa0ff0f095aad800b7ef1cbbf3b60e67e59927d7f58f27153d47da": {
       "450": 1
-    },
-    "bccb462e479e956663464b137f05b205158913ae99eb3353b0fc6543a5f897fb": {
-      "483": 1
     },
     "bcda4ace450fd8616f00cf468621e180b9ef917776a64b22d5f3bc31c9520e6a": {
       "544": 1
@@ -26549,19 +26477,11 @@
     "be8b019994090a33cfab45318aa51a7fdb0f46235767bebce8884540587f7c58": {
       "392": 1
     },
-    "bf1d9c734b003bf32b0c62c5e05bec8e1fb120f422919b1976ece1f4a852a3a8": {
-      "1338": 2,
-      "521": 1
-    },
     "bf9bb978b5558c3d8a8cf160a7be9ef6111ae2fa27a5d1a5b6f909029f11832f": {
       "371": 1
     },
     "bfb1c500577191a86ed66cefd86a5170bdfefa57c60285fc5cbac3f5dc260bf6": {
       "437": 1
-    },
-    "bfb7eb4373dae92789919731e5045bea8cbe41b220c7c946360bed49fb2a1d32": {
-      "1249": 2,
-      "404": 1
     },
     "c01608e8c9aad6bbc27f53e47fcf946d3900a5f47f4f8990cd058bd7bf3248c3": {
       "300": 1
@@ -26795,10 +26715,6 @@
     },
     "dce50e96c2d60fa628c60fabca6cfd9026a544faeea8ac894d63ce7f2dd7734d": {
       "287": 1
-    },
-    "dd3e0a7ce4a53e3714f1e51eeabd517f43f2b94f1c2053645a2d512e19c4179c": {
-      "1642": 2,
-      "584": 1
     },
     "dd8690822551cffc1c83758a664396a619a353a415859001fac8f3d761a598eb": {
       "433": 1
@@ -27120,5 +27036,79 @@
     }
   },
   "pack": "LoreForever_Voice_Default_MoreItems",
+  "retired": [
+    {
+      "file": "Audio/Transport/full_item_agamand-family-mace-eff44fb892b80a71b086/1-0000.mp3",
+      "sha256": "15ab3899587c5499a4ac2df8de9be1567e2848eeeb474317745eb0925699f0bb"
+    },
+    {
+      "file": "Audio/Transport/full_item_agamand-family-sword-3f7c39b8d05ebdcb8d15/1-0000.mp3",
+      "sha256": "942012d88e42d4231470c2c83e5312deb672e5eacdeb3edc5edc01c28b166118"
+    },
+    {
+      "file": "Audio/Transport/full_item_balnir-snapdragons-45026797c40cef1a18a7/1-0000.mp3",
+      "sha256": "34106b25915c7c228fae4d79c85d0983590c7c6ea1e5d6e0ed59278b0221137a"
+    },
+    {
+      "file": "Audio/Transport/full_item_dalin-s-heart-0427e5409fd53ff45e51/1-0000.mp3",
+      "sha256": "8bbc36b83ca7674d7248a1ed53334ea4f72ccc1cc2c90f23299cede2622b91c0"
+    },
+    {
+      "file": "Audio/Transport/full_item_darthalia-s-sealed-commendation-3345ce08242283d8847f/1-0000.mp3",
+      "sha256": "a40c85c39e07864010e242bb2f4ef8990544179ea5c5af55be3ed516e62aa719"
+    },
+    {
+      "file": "Audio/Transport/full_item_encrypted-scroll-61ab378d142d71b2e4f1/1-0000.mp3",
+      "sha256": "152dd924cc10375330245d1b5cceb381dac22360eaed899ffd0d095052de0550"
+    },
+    {
+      "file": "Audio/Transport/full_item_gregor-s-remains-6acd00856bdf7d7f361a/1-0000.mp3",
+      "sha256": "2635c1a2d5b3fd33b1c1760f65746c22cce65ee6636bbfc583dad1fd9f677578"
+    },
+    {
+      "file": "Audio/Transport/full_item_johaan-s-findings-256439937b2933a26d4d/1-0000.mp3",
+      "sha256": "bccb462e479e956663464b137f05b205158913ae99eb3353b0fc6543a5f897fb"
+    },
+    {
+      "file": "Audio/Transport/full_item_menethil-statuette-fec2e304d3f660a9af89/1-0000.mp3",
+      "sha256": "6572fc191fe0b3632a2595f5d760f8a39eeb78035c6e18a6723fcd5aa9ee1bea"
+    },
+    {
+      "file": "Audio/Transport/full_item_nissa-s-remains-48b8853fb4ed2ed5ac6e/1-0000.mp3",
+      "sha256": "dd3e0a7ce4a53e3714f1e51eeabd517f43f2b94f1c2053645a2d512e19c4179c"
+    },
+    {
+      "file": "Audio/Transport/full_item_remaining-drops-of-purest-water-da6db23b425de0e7f944/1-0000.mp3",
+      "sha256": "8759c1ddef5ea0599b69391f27d8e42b244e0c824b6b3c84ff2dbe4b4ed02eda"
+    },
+    {
+      "file": "Audio/Transport/full_item_renferrel-s-findings-a4ceb07e182d126a20c2/1-0000.mp3",
+      "sha256": "bf1d9c734b003bf32b0c62c5e05bec8e1fb120f422919b1976ece1f4a852a3a8"
+    },
+    {
+      "file": "Audio/Transport/full_item_samuel-s-remains-c9520ab77c25dc28d8db/1-0000.mp3",
+      "sha256": "3c5663c1fe97accec2a223bf85c48d4d33d986c3ab275365d0f894a0c8a61211"
+    },
+    {
+      "file": "Audio/Transport/full_item_the-lich-s-spellbook-0c64b7b65b7d05a9bceb/1-0000.mp3",
+      "sha256": "1c51a747dded46731d5fb02379bdddf5873a56d33c2f34c66803497c43848e1a"
+    },
+    {
+      "file": "Audio/Transport/full_item_thurman-s-remains-9cc1fadfd15b7439f65b/1-0000.mp3",
+      "sha256": "b98e4347b4f4a405395014a8959745932d28f517ed2e7f35fc3d392d2aae3f3d"
+    },
+    {
+      "file": "Audio/Transport/full_item_tirisfal-pumpkin-1211c20d5c3b0c80047a/1-0000.mp3",
+      "sha256": "82a1b9055e6ffac8d8c3cb765477f48db1cff614d5f790f263ed9bc64b0d03e5"
+    },
+    {
+      "file": "Audio/Transport/full_item_wolf-heart-sample-bfc828c22c2e1bcaad6a/1-0000.mp3",
+      "sha256": "16c6fb3c11d75059ee419846975983043e25ccae4ab2b56dab88302a824d6af8"
+    },
+    {
+      "file": "Audio/Transport/full_item_wolf-heart-samples-7a6cbbc10e47c296231e/1-0000.mp3",
+      "sha256": "bfb7eb4373dae92789919731e5045bea8cbe41b220c7c946360bed49fb2a1d32"
+    }
+  ],
   "version": 1
 }

@@ -1,0 +1,82 @@
+{
+ "key": "quest:95601",
+ "type": "quest",
+ "name": "The Purple Ones",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95601
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Clubtoe asks you to stop Twilight's Hammer rituals in Sunnyglade. The rites empower some ogres and kill others.",
+ "sections": [
+  {
+   "title": "Rites in Sunnyglade",
+   "body": "In Sunnyglade, Clubtoe sends you against Twilight Ritualists and Empowered Brutes. A dead ogre appears to be one of the friends Clubtoe sought. The rituals strengthen some members and kill more, so Clubtoe wants the ritualists and their creations stopped before they spread.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Clubtoe?",
+   "aliases": [
+    "clubtoe",
+    "who's clubtoe"
+   ],
+   "answer": "Clubtoe is the one asking you to stop the Twilight Ritualists in Sunnyglade."
+  },
+  {
+   "q": "What are the Purple Ones doing?",
+   "aliases": [
+    "purple ones",
+    "what are the purple ones doing"
+   ],
+   "answer": "The Twilight Ritualists perform rites on their members. Some are empowered, while more are killed."
+  },
+  {
+   "q": "Why does Clubtoe want the rituals stopped?",
+   "aliases": [
+    "why stop rituals",
+    "why kill ritualists"
+   ],
+   "answer": "Clubtoe fears the ritualists and their monstrosities will spread."
+  },
+  {
+   "q": "What happened to Clubtoe's friends?",
+   "aliases": [
+    "clubtoe friends",
+    "where friends"
+   ],
+   "answer": "A dead ogre appears to be one of the friends Clubtoe was searching for."
+  },
+  {
+   "q": "Where is Clubtoe?",
+   "aliases": [
+    "clubtoe location",
+    "sunnyglade clubtoe"
+   ],
+   "answer": "Clubtoe is in Sunnyglade."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "clubtoe",
+  "empowered brutes",
+  "ogre",
+  "sunnyglade",
+  "the purple ones",
+  "twilight ritualists",
+  "twilight's hammer"
+ ],
+ "related": [
+  "subzone:sunnyglade",
+  "topic:twilight-s-hammer"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Purple Ones"
+ ]
+}

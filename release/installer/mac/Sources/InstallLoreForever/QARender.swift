@@ -20,6 +20,18 @@ enum QARender {
         var pressed = false
         Timer.scheduledTimer(withTimeInterval: 0.2, repeats: true) { timer in
             switch model.screen {
+            case .ready where !pressed && ProcessInfo.processInfo.environment["LF_CHECK_CHANGE"] == "1":
+                // The real window with Change open: it must be as tall as what it shows (LOR-1398: it was cut off).
+                pressed = true
+                timer.invalidate()
+                model.showChange = true
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                    let window = NSApp.windows.first { $0.isVisible && $0.contentView is NSHostingView<ContentView> }
+                    let shown = window.map { $0.contentRect(forFrameRect: $0.frame).height } ?? 0
+                    let needs = window?.contentView?.fittingSize.height ?? 0
+                    print("change: window \(Int(shown)) needs \(Int(needs))")
+                    exit(needs > 0 && shown + 1 >= needs ? 0 : 5)
+                }
             case .ready where !pressed:
                 pressed = true
                 model.install()
@@ -32,7 +44,11 @@ enum QARender {
             case .noSpace:
                 timer.invalidate()
                 exit(4)
-            case .failed, .couldNotLoad, .findGame:
+            case let .failed(title, _):
+                timer.invalidate()
+                print("failed: \(title)")
+                exit(1)
+            case .couldNotLoad, .findGame:
                 timer.invalidate()
                 exit(1)
             default: break
@@ -92,7 +108,9 @@ enum QARender {
             snapshot(ContentView(model: model), width: 520, to: dir.appendingPathComponent(name + ".png"))
         }
         shot("02-install", .ready)
-        snapshot(ChangeSheet(model: model, draft: model.pick), width: 480, to: dir.appendingPathComponent("03-change-sheet.png"))
+        model.showChange = true
+        shot("03-change", .ready)
+        model.showChange = false
         shot("04-installing", .installing)
         shot("05-waiting", .installing, waiting: true)
         shot("06-done", .done)
@@ -110,7 +128,10 @@ enum QARender {
         shot("11-not-enough-space", .noSpace(need: 3_200_000_000, free: 1_100_000_000))
         shot("12-two-copies", .whichCopy([game, GameFolder(root: URL(fileURLWithPath: "/Volumes/Games SSD/World of Warcraft"), flavor: "_forever_")]))
         shot("13-cannot-reach", .couldNotLoad)
-        shot("14-cannot-write", .failed(title: "Can't write to that folder", detail: "macOS won't let Lore Forever save to your game folder. Try the ZIP at loreforeverwow.com/downloads."))
+        shot("14-cannot-write", .cannotWrite)
+        shot("16-could-not-download", .couldNotDownload)
+        shot("17-damaged", .damaged)
+        shot("18-wont-connect", .unreachable)
         snapshot(CancelSheet(model: model), width: 420, to: dir.appendingPathComponent("15-cancel-asks.png"))
     }
 }

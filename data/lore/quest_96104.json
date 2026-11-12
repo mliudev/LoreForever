@@ -1,0 +1,84 @@
+{
+ "key": "quest:96104",
+ "type": "quest",
+ "name": "Song of the Strider",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96104
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Neza Bloodsnout finds signs of a great lion near Rog'mar and offers to help draw it out. You bring her a tallstrider beak so she can shape a hunting whistle.",
+ "sections": [
+  {
+   "title": "A Hunter's Whistle",
+   "body": "At Rog'mar, Neza Bloodsnout reads the marks as those of a lion, likely the leader of a nearby pride. She offers you first claim on the hunt and will help draw the beast out. For that, she needs a tallstrider beak to shape a whistle that sounds like a wounded tallstrider.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Neza Bloodsnout?",
+   "aliases": [
+    "Neza",
+    "who's Neza",
+    "Neza Bloodsnout"
+   ],
+   "answer": "Neza Bloodsnout is a hunter at Rog'mar who can make whistles and animal calls."
+  },
+  {
+   "q": "What does Neza think made the markings?",
+   "aliases": [
+    "what made these marks",
+    "lion tracks",
+    "markings at Rog'mar"
+   ],
+   "answer": "Neza thinks the markings came from a lion, likely the leader of a nearby pride."
+  },
+  {
+   "q": "Why does Neza need a tallstrider beak?",
+   "aliases": [
+    "why beak",
+    "tallstrider beak for what",
+    "whistle beak"
+   ],
+   "answer": "Neza needs a tallstrider beak to shape a whistle that mimics a wounded tallstrider's call."
+  },
+  {
+   "q": "What is the whistle for?",
+   "aliases": [
+    "what's the whistle do",
+    "lure lion",
+    "lion whistle"
+   ],
+   "answer": "The whistle is meant to lure the lion out by sounding like a wounded tallstrider."
+  },
+  {
+   "q": "Where does Neza ask you to bring the beak?",
+   "aliases": [
+    "where bring beak",
+    "Neza location",
+    "beak turn in"
+   ],
+   "answer": "Bring the intact tallstrider beak to Neza Bloodsnout at Rog'mar."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "beak",
+  "lion",
+  "neza bloodsnout",
+  "rog'mar",
+  "song of the strider",
+  "tallstrider",
+  "whistle"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Song of the Strider"
+ ]
+}

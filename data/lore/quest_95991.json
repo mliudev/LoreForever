@@ -1,0 +1,76 @@
+{
+ "key": "quest:95991",
+ "type": "quest",
+ "name": "WANTED: Ghostmaw",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95991
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Wheatley fears a phantom crocolisk called Ghostmaw is taking his prized ponies along the rivers. He waits at Farholde Keep until someone brings him the beast\u2019s fang.",
+ "sections": [
+  {
+   "title": "Wheatley\u2019s Concern",
+   "body": "Wheatley has stopped moving his horses through the glades because of reports of Ghostmaw along the rivers. The crocolisk is said to be three times the size of an ordinary one and twice as mean. Bring Wheatley Ghostmaw\u2019s fang so he can know it is safe to travel again.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ghostmaw?",
+   "aliases": [
+    "ghostmaw",
+    "ghostmaw croc",
+    "phantom crocolisk"
+   ],
+   "answer": "Ghostmaw is a mysterious phantom crocolisk reported along the rivers, said to be far larger and meaner than an ordinary crocolisk."
+  },
+  {
+   "q": "Why has Wheatley stopped moving his horses?",
+   "aliases": [
+    "why wheatley stopped",
+    "horses not moving",
+    "wheatley scared"
+   ],
+   "answer": "Wheatley fears Ghostmaw may snap up his prized ponies, so he is staying put until the beast is dealt with."
+  },
+  {
+   "q": "What does Wheatley want brought to him?",
+   "aliases": [
+    "ghostmaw fang",
+    "bring wheatley what",
+    "fang"
+   ],
+   "answer": "Wheatley asks for Ghostmaw\u2019s fang as proof that the crocolisk is no longer a danger to travel."
+  },
+  {
+   "q": "Where should I bring Ghostmaw\u2019s fang?",
+   "aliases": [
+    "where is wheatley",
+    "farholde keep",
+    "fang location"
+   ],
+   "answer": "Bring Ghostmaw\u2019s fang to Wheatley at Farholde Keep."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crocolisk",
+  "fang",
+  "farholde keep",
+  "ghostmaw",
+  "glades",
+  "ponies",
+  "rivers",
+  "wheatley"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: WANTED: Ghostmaw"
+ ]
+}

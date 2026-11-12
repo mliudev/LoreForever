@@ -14,7 +14,7 @@ P.transport["quest:1052"] = {
   fullHash = "d13edc",
   text = "Down the Scarlet Path. Brother Anton sends you from Desolace to Southshore with a sealed letter for Raleigh the Devout. Your deeds against the undead are only the beginning; Lordaeron holds the plague's true danger. Brother Anton takes pride in the Scarlet Crusade's strongholds in Lordaeron. The Crusade claims cleansing bastions from Hearthglen to Tirisfal Glades. Your work against the undead in Desolace has proven you, Anton says. Yet the plague's true danger lies in Lordaeron. Brother Anton sends you to Southshore, a town in the Eastern Kingdoms, to find Raleigh the Devout, a crusader. Anton seals a letter with his mark. He says Raleigh will give you an escort to a place of honor within the Scarlet Monastery.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1052-c85b645a086013e6e204/1-0000.mp3", duration = 42.1093878, start = 0},
+    {file = "Audio/Transport/full_quest_1052-e18c48c2f6d89e23faed/1-0000.mp3", duration = 39.2881633, start = 0},
   },
 }
 P.transport["quest:110"] = {
@@ -510,7 +510,7 @@ P.transport["quest:208"] = {
   fullHash = "8e2745",
   text = "Big Game Hunter. In Stranglethorn Vale, Hemet Nesingwary’s hunt for King Bangalash reaches its last trial. The famed marksman came to the jungle for the great white tiger. You have slain Sin'Dall, Bhag'thera, and Tethis in the trials set by the expedition's huntsmen. Hemet Nesingwary now knows your skill with weapons. Few have shown him finer skill on Lordaeron's battlefields or deep in the jungle.\n\nOne hunt remains. Bring down King Bangalash, the great white tiger Hemet came to hunt, and prove your abilities unmatched. King Bangalash drew Hemet Nesingwary to Stranglethorn Vale. The great beast has driven the expedition leader back to camp in defeat time and again. Its head would prove your hunting skill second to none.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_208-c1ca426d049f233db6f8/1-0000.mp3", duration = 46.4195918, start = 0},
+    {file = "Audio/Transport/full_quest_208-3d66778ed0d7c4037977/1-0000.mp3", duration = 42.2661224, start = 0},
   },
 }
 P.transport["quest:209"] = {
@@ -2102,7 +2102,7 @@ P.transport["quest:626"] = {
   fullHash = "b361cd",
   text = "Cortello's Riddle. In the Hinterlands, the final verses of Cortello's Riddle draw treasure hunters to the coast. A musty scroll points north from the southern tropics, and the trail ends beneath the waterfalls. The weathered verse turns the search north, away from the southern tropics and toward Lordaeron. There, amid the great turmoil of the embattled lands, the long chase reaches its end along the coast. The final hoard lies along the Hinterlands shore. Search underwater at the foot of the great falls.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_626-5ab7f722ba85e213fef8/1-0000.mp3", duration = 30.6938776, start = 0},
+    {file = "Audio/Transport/full_quest_626-4905ee1c56158cb867bb/1-0000.mp3", duration = 28.1861224, start = 0},
   },
 }
 P.transport["quest:630"] = {
@@ -2206,7 +2206,7 @@ P.transport["quest:6568"] = {
   fullHash = "4299f4",
   text = "The Testament of Rexxar. Rexxar sends you to the Western Plaguelands with a message for Myranda the Hag. He needs her skill with illusions to pass the Black Flight's defenses. Rexxar needs an illusion to pass the Black Flight's defenses. So he sends you to Myranda the Hag, a master illusionist who lives in the Western Plaguelands. The Lordaeron alliance drove her out. She has helped Rexxar's kind before, when a cause seemed worthy. Now you carry his message to her. A member of the Horde is a rare sight in these parts of Lordaeron, Myranda says. Then she asks what you have brought her.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_6568-dbab5c4f2a8bfc6421ad/1-0000.mp3", duration = 36.0489796, start = 0},
+    {file = "Audio/Transport/full_quest_6568-a7c99478482f07f2439c/1-0000.mp3", duration = 33.6979592, start = 0},
   },
 }
 P.transport["quest:662"] = {
@@ -2358,7 +2358,7 @@ P.transport["quest:706"] = {
   fullHash = "3d1825",
   text = "Fiery Blaze Enchantments. A rare black drake whelp's still-beating heart is needed for Fiery Blaze Enchantments in the Badlands. Sigrun Ironhew waits for word from Ironforge, and the whelps of Lethlor Ravine may supply what she needs. Sigrun Ironhew learned to kindle fire on weapons while apprenticed to Feranor Steeltoe. Feranor was last heard of among the smiths of a hunting party in Lordaeron. Sigrun waits in the Badlands for word from Ironforge. She has little else to do. Sigrun shares little about the process. It calls for blood from the still-beating heart of a rare black drake whelp. Bring her a heart from a whelp in Lethlor Ravine, and she will show you the skill. The Scalding Whelps and Scorched Guardians there yield the hearts.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_706-15c970dbff2f7049ad4f/1-0000.mp3", duration = 42.8146939, start = 0},
+    {file = "Audio/Transport/full_quest_706-c647c741524d544bc6bf/1-0000.mp3", duration = 42.6579592, start = 0},
   },
 }
 P.transport["quest:708"] = {
@@ -2438,7 +2438,7 @@ P.transport["quest:728"] = {
   fullHash = "372f92",
   text = "To the Undercity for Yagyin's Digest. Theldurin the Lost sends you to the Undercity of Lordaeron with a sigil for Keeper Bel'dugur. He wants the keeper to mistake you for one of the people he fled, and asks you to find Yagyin's Digest. The tablet has answered much for Theldurin, yet questions remain. Yagyin wrote a digest ages ago, and the people Theldurin fled keep copies in many places. Their most learned study its pages. Theldurin believes its vast knowledge can protect them, so he wants you to bring it back. Keeper Bel'dugur waits in the Undercity of Lordaeron. Theldurin gives you the Sigil of the Hammer to show the keeper, who is to take you for one of the people he fled. Ask Bel'dugur for the digest.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_728-fdf36a8392b5a12adca3/1-0000.mp3", duration = 41.3257143, start = 0},
+    {file = "Audio/Transport/full_quest_728-7184dae5de34ee15504b/1-0000.mp3", duration = 41.7697959, start = 0},
   },
 }
 P.transport["quest:732"] = {

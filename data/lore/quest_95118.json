@@ -1,0 +1,74 @@
+{
+ "key": "quest:95118",
+ "type": "quest",
+ "name": "Saltwater Savages",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95118
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A port keeper asks you to thin the Murlocs along Eastwind Shore. The nuisance has become a constant complaint from sailors, fishermen, and his children.",
+ "sections": [
+  {
+   "title": "Complaints at the Port",
+   "body": "The port keeper has heard enough complaints from sailors, fishermen, and even his children. Murlocs trouble him, but he still has a port to run. He asks you to kill some along Eastwind Shore, hoping for a little peace from the noise around him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does the port keeper want the Murlocs killed?",
+   "aliases": [
+    "why kill murlocs",
+    "murlocs bothering port"
+   ],
+   "answer": "Sailors, fishermen, and the port keeper's children keep complaining about them. He calls them a nuisance and wants some peace while he runs the port."
+  },
+  {
+   "q": "Which Murlocs is he asking about?",
+   "aliases": [
+    "murloc types",
+    "oracles and warriors"
+   ],
+   "answer": "He asks you to kill Murloc Oracles and Murloc Warriors along Eastwind Shore."
+  },
+  {
+   "q": "Where are the Murlocs?",
+   "aliases": [
+    "eastwind shore murlocs",
+    "where murlocs"
+   ],
+   "answer": "The port keeper points you to Eastwind Shore."
+  },
+  {
+   "q": "Does killing these Murlocs solve the problem?",
+   "aliases": [
+    "murlocs come back",
+    "is it over"
+   ],
+   "answer": "The port keeper expects more Murlocs to return soon, though he hopes their deaths will give him some peace until then."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "eastwind shore",
+  "fishermen",
+  "murloc",
+  "murloc oracle",
+  "murloc warrior",
+  "port keeper",
+  "sailors",
+  "saltwater savages"
+ ],
+ "related": [
+  "topic:murloc"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Saltwater Savages"
+ ]
+}

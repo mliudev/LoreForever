@@ -302,7 +302,7 @@ P.transport["npc:gryan-stoutmantle"] = {
   fullHash = "f527c3",
   text = "Gryan Stoutmantle. At Sentinel Hill in Westfall, Gryan Stoutmantle leads the People's Militia. A paladin of the Silver Hand, he came home from Lordaeron to defend his birthplace after Stormwind's crown left it to banditry. Gryan Stoutmantle first served far from Westfall. As a young man, he traveled north to Lordaeron and took vows as a Knight of the Silver Hand. He endured the horrors of the Third War there. Then word reached him that his native province was falling into lawlessness, overrun by organized brigands and abandoned by the crown. Gryan left the northern fronts to defend honest farmers, resolved that Westfall would not fall as the north had. When Gryan returned, Westfall had almost no defenders. Royal neglect and political paralysis in the House of Nobles kept Stormwind from sending garrison troops. So Gryan formed the People's Militia at Sentinel Hill, gathering local farmers, sentries, and traveling mercenaries into a volunteer defense corps.\n\nThe militia holds a precarious line against the Defias Brotherhood, riverpaw gnolls, and hostile mechanoids. Even when nearby Lakeshire pleads for aid, Gryan cannot spare reinforcements.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gryan-stoutmantle-bd8b53ab2dc48e4101f4/1-0000.mp3", duration = 70.4, start = 0},
+    {file = "Audio/Transport/full_npc_gryan-stoutmantle-d0efd7f99964a591d522/1-0000.mp3", duration = 68.1534694, start = 0},
   },
 }
 P.transport["npc:guard-thomas"] = {
@@ -694,7 +694,7 @@ P.transport["npc:tirion-fordring"] = {
   fullHash = "e9f13d",
   text = "Tirion Fordring. Beside the Thondroril River, Tirion Fordring watches Lordaeron's tragedy unfold from exile. Once a paladin and lord of Mardenholde Keep, he lost his title and lands for honoring an oath to an enemy orc. Now he worries for his son. Before Lordaeron fell, Tirion Fordring was among its finest knights. He served as a paladin of the Knights of the Silver Hand, founded by Archbishop Alonsus Faol during the Second War. With plate, hammer, and faith in the Holy Light, he fought the Old Horde. His fellow knights revered him as a steadfast example of the Light's power. After the Second War, Tirion governed Hearthglen from Mardenholde Keep with his wife Karandra and their young son Taelan. Then he met Eitrigg, an aged orc warrior living as a hermit, and saw honor in him. Tirion promised to protect Eitrigg.\n\nWhen Alliance authorities found the orc, Tirion fought his own countrymen to keep that oath. The Alliance of Lordaeron stripped Tirion of his nobility, and the Silver Hand cast him out. He was banished, while Uther spared Karandra and Taelan from the sentence.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_tirion-fordring-f96e106807ee6be92c4c/1-0000.mp3", duration = 68.6236735, start = 0},
+    {file = "Audio/Transport/full_npc_tirion-fordring-fe490f3e074293dd445b/1-0000.mp3", duration = 64.0522449, start = 0},
   },
 }
 P.transport["npc:tiza-battleforge"] = {
@@ -2326,7 +2326,7 @@ P.transport["subzone:royal-library"] = {
   fullHash = "1bbcaf",
   text = "Royal Library. Within Stormwind Keep, scholars turn to the Royal Library for the kingdom’s records and histories. Head Librarian Milton Sheaf watches over its scrolls and treatises, from ancient wars to accounts of realms beyond the sea. Within Stormwind Keep’s guarded halls, the Royal Library offers a quiet place amid courtly intrigue. Milton Sheaf oversees its shelves of southern human history. They hold surviving texts written before the First War, recent military chronicles, and recovered tomes. Alliance scholars, priests, and travelers may browse its treatises on the founding of the Alliance of Lordaeron and the recent arrival of Thrall’s Horde in Kalimdor.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_royal-library-6aa545c42b2ea9dc516e/1-0000.mp3", duration = 38.7657143, start = 0},
+    {file = "Audio/Transport/full_subzone_royal-library-8791db9018b40448eb65/1-0000.mp3", duration = 39.2097959, start = 0},
   },
 }
 P.transport["subzone:ruins-of-mathystra"] = {
@@ -2510,7 +2510,7 @@ P.transport["subzone:southshore"] = {
   fullHash = "e3bd9c",
   text = "Southshore. In Hillsbrad, Southshore shelters the Alliance amid the ruins of Lordaeron. Once a quiet fishing village, the coastal port now faces the Forsaken at Tarren Mill, Syndicate bandits, and monsters along the shore. Refugee boats from the fallen kingdom of Stormwind first brought Southshore to prominence during the First War. The town was contested and overrun during the Second War, then rebuilt. It endured the horrors of the Third War as well.\n\nNow much of Lordaeron lies in ruins or under Forsaken rule, but Southshore remains loyal to the Grand Alliance. It shelters displaced human survivors, veteran paladins of the Silver Hand, and scholars of the Kirin Tor. Southshore's docks see the ship between Menethil Harbor and Auberdine, and the town is known for its turtle bisque. Yet life here is perilous. Magistrate Henry Maleb and Marshal Redpath lead the town as it faces pressure from every side.\n\nTo the north, the Forsaken of Tarren Mill fight a bitter border conflict for control of Hillsbrad. Inland, Syndicate outlaws raid supply lines and assassinate local leaders. Ogres, murlocs, and naga also harass the town's borders.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_southshore-392a34a971e5bb662e0f/1-0000.mp3", duration = 71.9673469, start = 0},
+    {file = "Audio/Transport/full_subzone_southshore-044c58baffcee32c2792/1-0000.mp3", duration = 68.6236735, start = 0},
   },
 }
 P.transport["subzone:splintertree-post"] = {
@@ -2686,7 +2686,7 @@ P.transport["subzone:strahnbrad"] = {
   fullHash = "37b0d7",
   text = "Strahnbrad. Syndicate brigands hold Strahnbrad, a ruined town in the northeastern heights of the Alterac Mountains. Near the Western Plaguelands border, it has fallen into decay since Prince Arthas Menethil defended it from Blackrock orc raiders. Strahnbrad belonged to the Kingdom of Alterac until Lordaeron absorbed it after the Second War. On the eve of the Third War, Blackrock clan orcs raided the town to take human sacrifices for the Burning Legion. Prince Arthas Menethil rode to its defense with the Knights of the Silver Hand. He drove off the raiders and slew their slave master, but Strahnbrad was left bloodied. Soon after, the Scourge brought down Lordaeron, and the town was abandoned to the elements. The Syndicate uses Strahnbrad as an operations hub. Displaced Alteraci nobles and outlaws patrol the abandoned town hall and blacksmith, now their hideouts and staging grounds as they plan to reclaim their fallen realm. The Syndicate keeps supplies and captive labor in the ruins, including the orc Gol'dir. Horde scouts from Tarren Mill seek to free him.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_strahnbrad-8e7fa8183dd190c6031d/1-0000.mp3", duration = 64.1567347, start = 0},
+    {file = "Audio/Transport/full_subzone_strahnbrad-fa2ef09a5957fa620186/1-0000.mp3", duration = 61.5183673, start = 0},
   },
 }
 P.transport["subzone:sun-rock-retreat"] = {

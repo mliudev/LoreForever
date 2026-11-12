@@ -5567,9 +5567,9 @@
     "quest:1432": {
       "1": [
         {
-          "duration": 58.35755102040817,
-          "file": "Audio/Transport/full_quest_1432-0bdf6f35c7cb34777410/1-0000.mp3",
-          "sha256": "87c36cdf5607ae2b7bec0e3149b1c35ccb91225a997e73a8299b31c146e3cc29",
+          "duration": 56.163265306122454,
+          "file": "Audio/Transport/full_quest_1432-0bebc48cbcd07f1e1772/1-0000.mp3",
+          "sha256": "f61e920a6d5e2189dd1c487ea668f028270cd46d0a0edca2ff4a1dbe6d400dea",
           "start": 0
         }
       ],
@@ -5581,12 +5581,12 @@
         ]
       },
       "fullHash": "ffd340",
-      "generation": "c03054d546e1315d6444",
+      "generation": "e42dbe32ac7bc6eec034",
       "hash": "ffd340",
       "source": {
-        "duration": 58.383673,
+        "duration": 56.189388,
         "file": null,
-        "sha256": "0bdf6f35c7cb3477741018c76f7c0bbb0029eb0f361a7ea048ef872aa96280c3"
+        "sha256": "0bebc48cbcd07f1e1772ab16f47e78aab0c19266733afb925613cd98cfd58e16"
       },
       "text": "Alliance Relations. In Orgrimmar, Alliance advances across Kalimdor put the Horde under pressure. Thrall's people send orders to Desolace to purge demons before the Alliance can accuse them of renewed ties to the Burning Legion. Alliance scouts and expeditions cross Kalimdor, leaving the Horde in a delicate position. Demonic remnants in central Kalimdor could confirm old suspicions that the orcs and their allies still serve the Burning Legion. With Warchief Thrall's sanction, Keldran oversees the effort from Orgrimmar. They must clear those remnants before hostile Alliance factions use them to justify war. The orders lead south through the Charred Vale in the Stonetalon Mountains and onward into Desolace. Ghost Walker Post stands just north of the vast Kodo Graveyard. Horde agents such as Takata Steelblade watch over these wastes. Rampant centaur tribes and spreading demonic corruption both threaten the region."
     },
@@ -9051,9 +9051,9 @@
     "quest:1844": {
       "1": [
         {
-          "duration": 63.45142857142857,
-          "file": "Audio/Transport/full_quest_1844-8e2c74eeb3aa03ce06c2/1-0000.mp3",
-          "sha256": "6af4ea798cca5f8546b0e3c5f7484bfcfc0e4e0caa82c35710c882d5c85ca5b0",
+          "duration": 64.6530612244898,
+          "file": "Audio/Transport/full_quest_1844-6cb30b87d7fb96e2eb48/1-0000.mp3",
+          "sha256": "603cf18e490d1378f090c175c497efe11b2db53a363dcac46371045647b3e072",
           "start": 0
         }
       ],
@@ -9065,12 +9065,12 @@
         ]
       },
       "fullHash": "d1e7c9",
-      "generation": "4880510d44c41da66df2",
+      "generation": "c99649c7c57b31d284bc",
       "hash": "d1e7c9",
       "source": {
-        "duration": 63.477551,
+        "duration": 64.653061,
         "file": null,
-        "sha256": "8e2c74eeb3aa03ce06c2eb35dc9d1621a2276ee29ff552eaa21feb91380a7065"
+        "sha256": "6cb30b87d7fb96e2eb48fe50b7f583620bdff2021f36eb5b8d328ccb0e64c2a7"
       },
       "text": "Chimaeric Horn. In the Charred Vale, a suffering chimaera matriarch tests a Horde warrior’s strength and mercy. Orm Stonehoof needs her horn for the Brutal Helm, and the hunt will prove the warrior’s resolve. Orm Stonehoof will forge the Brutal Helm for Horde warriors, but custom asks for proof before he begins. Metal and coin are not enough. A warrior must show martial skill and face the scars left by devastating conflict. The Charred Vale lies in the southwestern Stonetalon Mountains, buried in ash. Once lush and green, the valley was burned into a smoking wasteland. Beasts still roam its soot-covered craters, twisted by pain and fury. Mighty chimaeras nest among dead trees and searing steam vents. To the tauren smith, the chimaera matriarch’s horn is needed for the helm and proves a warrior’s strength. Yet the hunt also ends her torment. By felling the matriarch, the warrior brings mercy to a wild spirit driven mad by the destruction of her home."
     },
@@ -34880,10 +34880,6 @@
     "12f4052a56699f7d700faf95ee7014c9e3b1cea5e7db6d898e03eea48b5ac7f7": [
       503
     ],
-    "1308338b75d7f978ee7649bf20498eeb08cb9812da9f129fdf455665bd7438d4": [
-      491,
-      801
-    ],
     "13135f0f1d3965db456ece880826bc2332c60d662bb71ad1906a974bcf94473b": [
       245,
       397,
@@ -38393,6 +38389,16 @@
       733,
       879
     ],
+    "603cf18e490d1378f090c175c497efe11b2db53a363dcac46371045647b3e072": [
+      249,
+      496,
+      765,
+      1079,
+      1470,
+      1654,
+      1833,
+      2106
+    ],
     "6072717a5635dc5a8fe4c9e49c51f4476075af01e3d574942afdcee7c58228f8": [
       188,
       514,
@@ -38888,17 +38894,6 @@
       222,
       599,
       915
-    ],
-    "6af4ea798cca5f8546b0e3c5f7484bfcfc0e4e0caa82c35710c882d5c85ca5b0": [
-      237,
-      476,
-      749,
-      1071,
-      1271,
-      1446,
-      1625,
-      1791,
-      2058
     ],
     "6b546bd496df4defed7f15fcf0603a4099ce6c9993db5e02a7bd6253128b8a15": [
       250,
@@ -40076,6 +40071,9 @@
       356,
       607
     ],
+    "8685f0cc3478a3dabf377af26222534cf8d3821b6b904fb16e0105a87b38f542": [
+      471
+    ],
     "8691ae8ed3e3d8271e615816d6901c19de83383fdd1dbe04b2784c45c3fb1a89": [
       237,
       458,
@@ -40155,17 +40153,6 @@
       1083,
       1286,
       1482
-    ],
-    "87c36cdf5607ae2b7bec0e3149b1c35ccb91225a997e73a8299b31c146e3cc29": [
-      199,
-      505,
-      736,
-      1058,
-      1250,
-      1482,
-      1718,
-      1890,
-      2054
     ],
     "87ca4bd9ff604ea7fd7c614aeb2ce6acd5770e9d72c6f4e40d203d382edf661e": [
       246,
@@ -43975,6 +43962,10 @@
       1426,
       1591
     ],
+    "deddbd07aa9ae0610cba478f8501a0b3816c150f443af751e3741ec4f664a814": [
+      405,
+      702
+    ],
     "df6f017948b2c82d51b40ed50a09f121435066a2955b15ff201106d99a988893": [
       292,
       522,
@@ -44055,10 +44046,6 @@
       1021,
       1238,
       1450
-    ],
-    "e13a08145d596b55a4d065951ba4a98fe06caef7c223a4e6a41551f72d8a0cd2": [
-      393,
-      672
     ],
     "e1986a44833de689d7d718e4cd7600bc2277e687222600b344958586af461273": [
       159,
@@ -44923,6 +44910,17 @@
       373,
       644,
       895
+    ],
+    "f61e920a6d5e2189dd1c487ea668f028270cd46d0a0edca2ff4a1dbe6d400dea": [
+      207,
+      511,
+      743,
+      1022,
+      1201,
+      1413,
+      1657,
+      1821,
+      1969
     ],
     "f6983fd198ece251719941412996044813ce75778d386fd7a2b76adb6aaf0d35": [
       272,
@@ -47155,6 +47153,11 @@
     "6029b5e40659faddf63087f73944d4294a2f9e0f939a3d88287651f89f23c105": {
       "434": 1
     },
+    "603cf18e490d1378f090c175c497efe11b2db53a363dcac46371045647b3e072": {
+      "1079": 2,
+      "1833": 3,
+      "496": 1
+    },
     "6072717a5635dc5a8fe4c9e49c51f4476075af01e3d574942afdcee7c58228f8": {
       "514": 1
     },
@@ -47380,11 +47383,6 @@
     },
     "6ad6b4f2504f861cb0bdd122446e6763485f8163a97f591ecc6c84c8083bab7a": {
       "599": 1
-    },
-    "6af4ea798cca5f8546b0e3c5f7484bfcfc0e4e0caa82c35710c882d5c85ca5b0": {
-      "1071": 2,
-      "1791": 3,
-      "476": 1
     },
     "6b546bd496df4defed7f15fcf0603a4099ce6c9993db5e02a7bd6253128b8a15": {
       "1205": 2,
@@ -47929,10 +47927,6 @@
     "87863ed689ee7eda26364d603135845976ad84b23320c2a60becca98e3993d91": {
       "1083": 2,
       "523": 1
-    },
-    "87c36cdf5607ae2b7bec0e3149b1c35ccb91225a997e73a8299b31c146e3cc29": {
-      "1482": 2,
-      "505": 1
     },
     "87ca4bd9ff604ea7fd7c614aeb2ce6acd5770e9d72c6f4e40d203d382edf661e": {
       "1112": 2,
@@ -49991,6 +49985,10 @@
     },
     "f60f66899682bbebabdf9a89a07d6e4e359be8072ddaef81bd1ff0f4d4ab8962": {
       "373": 1
+    },
+    "f61e920a6d5e2189dd1c487ea668f028270cd46d0a0edca2ff4a1dbe6d400dea": {
+      "1413": 2,
+      "511": 1
     },
     "f6983fd198ece251719941412996044813ce75778d386fd7a2b76adb6aaf0d35": {
       "1787": 2,

@@ -11,6 +11,12 @@
   <Binding name="LOREFOREVER_PLAYLIST_NEXT" category="ADDONS">
     LoreForever_PlaylistNext()
   </Binding>
+  <Binding name="LOREFOREVER_STOP" category="ADDONS">
+    LoreForever_Stop()
+  </Binding>
+  <Binding name="LOREFOREVER_CLEARWAITING" category="ADDONS">
+    LoreForever_ClearWaiting()
+  </Binding>
   <Binding name="LOREFOREVER_PICTURE" category="ADDONS">
     LoreForever_Picture()
   </Binding>

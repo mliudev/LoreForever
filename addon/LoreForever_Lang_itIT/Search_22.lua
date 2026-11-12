@@ -2,7 +2,6 @@
 -- Sources: data/i18n/itIT. Lore text adapted from warcraft.wiki.gg (CC BY-SA 4.0); the core add-on's src fields name the articles.
 local P = LoreForeverPacks.Begin("LoreForever_Lang_itIT")
 local Po = P.search.post
-Po["unraro"] = "ADOBAEOBAH4BAPjBAU7BAZRBGiCBIFYB"
 Po["unre"] = "BMtCFx7BKRCGKWEE"
 Po["unreagent"] = "HplCHpmCHpnCH63C"
 Po["unreagente"] = "ACvBAeoBAgGBAi+BAlUB"
@@ -12002,3 +12001,4 @@ Po["worgenworgen"] = "DfWBDfZBD05DIIBCKMYBKMaBKMbBKMcBKMhBKMiBKMjB"
 Po["worgenzannaluna"] = "J4hC"
 Po["worgenè"] = "ACuCA1qC"
 Po["worgfenrus"] = "BIfB"
+Po["worgfrutteto"] = "JLKB"

@@ -1,0 +1,77 @@
+{
+ "key": "quest:94535",
+ "type": "quest",
+ "name": "Bristle Hills Bandits",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94535
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Kreza Darkthorn sends you to the Bristle Hills after gnolls attack allied miners. You are asked to recover the stolen ore from their camps.",
+ "sections": [
+  {
+   "title": "Ore from the Hills",
+   "body": "Allied miners report gnoll attacks in the hills south of Kreza Darkthorn. You are asked to find the camps in the Bristle Hills and recover the stolen ore. The miners' losses are at stake.",
+   "spoiler": 0
+  },
+  {
+   "title": "After the Recovery",
+   "body": "Kreza Darkthorn says the ore is recovered and that fire will erase any marks or scent left behind.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me after the stolen ore?",
+   "aliases": [
+    "who is Kreza",
+    "ore giver"
+   ],
+   "answer": "Kreza Darkthorn asks you to recover the ore stolen from allied miners."
+  },
+  {
+   "q": "Where are the bandits?",
+   "aliases": [
+    "gnoll camps",
+    "where bandits"
+   ],
+   "answer": "The gnolls are in camps in the Bristle Hills, south of Kreza Darkthorn."
+  },
+  {
+   "q": "Who stole the ore?",
+   "aliases": [
+    "ore thieves",
+    "who took it"
+   ],
+   "answer": "Gnolls in the Bristle Hills attacked allied miners and took their ore."
+  },
+  {
+   "q": "What happened to the miners?",
+   "aliases": [
+    "miners attacked",
+    "why stolen ore"
+   ],
+   "answer": "Allied miners working in the hills to the south reported several attacks by gnolls."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "allied miners",
+  "bandits",
+  "bristle hills",
+  "gnolls",
+  "kreza darkthorn",
+  "stolen ore"
+ ],
+ "related": [
+  "topic:gnoll"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Bristle Hills Bandits"
+ ]
+}

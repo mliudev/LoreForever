@@ -1,0 +1,83 @@
+{
+ "key": "quest:94480",
+ "type": "quest",
+ "name": "A Gift From Our Enemies",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94480
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Gorg asks you to bring stolen feed to Rog'mar so its allies can be fed. Nearby gnolls and the encroaching Twilight threaten the settlement.",
+ "sections": [
+  {
+   "title": "Food for Rog'mar",
+   "body": "Gorg is waiting in Rog'mar for the stolen feed you gathered. The humans are not the only threat nearby: gnolls snarl from the hills, and the Twilight encroaches. Keeping Rog'mar's allies fed may help preserve their strength.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Hearty Stew",
+   "body": "The feed smells pungent and earthy, with something unpleasant beneath it. Gorg recognizes that you took it from the farmstead and says it will make a hearty stew for the allies.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Gorg want the stolen feed?",
+   "aliases": [
+    "why feed",
+    "gorg feed",
+    "stolen feed for what"
+   ],
+   "answer": "Gorg will use the stolen feed to make a hearty stew for Rog'mar's allies."
+  },
+  {
+   "q": "What threats are near Rog'mar?",
+   "aliases": [
+    "gnolls nearby",
+    "twilight threat",
+    "what's near rogmar"
+   ],
+   "answer": "The humans are one threat, while gnolls snarl from nearby hills and the Twilight encroaches."
+  },
+  {
+   "q": "Who is Gorg?",
+   "aliases": [
+    "gorg who",
+    "who's gorg"
+   ],
+   "answer": "Gorg is the one who receives the stolen feed in Rog'mar and says it can make a hearty stew."
+  },
+  {
+   "q": "Where do I take the stolen feed?",
+   "aliases": [
+    "feed location",
+    "where bring feed",
+    "gorg location"
+   ],
+   "answer": "Take the stolen feed to Gorg in Rog'mar."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "allies",
+  "farmstead",
+  "gnolls",
+  "gorg",
+  "hearty stew",
+  "rog'mar",
+  "stolen feed",
+  "twilight"
+ ],
+ "related": [
+  "topic:gnoll",
+  "quest:94672"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Gift From Our Enemies"
+ ]
+}

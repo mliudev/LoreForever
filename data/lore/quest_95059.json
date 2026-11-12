@@ -1,0 +1,82 @@
+{
+ "key": "quest:95059",
+ "type": "quest",
+ "name": "Frazzlespark's Crate",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95059
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A goblin has a delivery for Knight Commander Demar Brant at Farholde Keep. You are asked to carry Frazzlespark's Crate to him, though the goblin\u2019s purpose is tied to the safety and success of its people.",
+ "sections": [
+  {
+   "title": "A Keepward Delivery",
+   "body": "Frazzlespark sends you southwest to Farholde Keep, where Knight Commander Demar Brant is waiting. The crate is meant for him, and the goblin makes a point of using his full name. You carry the delivery to the keep for reasons bound up with the safety and success of the goblins' people.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is waiting for the crate?",
+   "aliases": [
+    "who wants the crate",
+    "demar brant delivery"
+   ],
+   "answer": "Knight Commander Demar Brant is waiting for Frazzlespark's Crate at Farholde Keep."
+  },
+  {
+   "q": "Where do I take Frazzlespark's Crate?",
+   "aliases": [
+    "crate location",
+    "where's farholde keep"
+   ],
+   "answer": "Take Frazzlespark's Crate to Knight Commander Demar Brant at Farholde Keep, southwest of Frazzlespark."
+  },
+  {
+   "q": "Why does Demar want his full name used?",
+   "aliases": [
+    "demar full name",
+    "why knight commander"
+   ],
+   "answer": "Frazzlespark remarks that Demar always makes the goblin use his full name, but gives no reason."
+  },
+  {
+   "q": "Why does Frazzlespark call it a special delivery?",
+   "aliases": [
+    "crate delivery",
+    "what's special about crate"
+   ],
+   "answer": "Frazzlespark calls it a special delivery, and says Demar Brant is waiting for it at Farholde Keep."
+  },
+  {
+   "q": "Why does this delivery matter?",
+   "aliases": [
+    "why deliver crate",
+    "goblin safety"
+   ],
+   "answer": "Frazzlespark says certain dealings must be done to ensure the safety and success of the goblins' people."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crate",
+  "demar brant",
+  "farholde keep",
+  "frazzlespark",
+  "frazzlespark's crate",
+  "goblin delivery",
+  "knight commander"
+ ],
+ "related": [
+  "quest:95062",
+  "topic:goblin"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Frazzlespark's Crate"
+ ]
+}

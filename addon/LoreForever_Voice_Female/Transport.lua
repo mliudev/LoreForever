@@ -798,7 +798,7 @@ P.transport["topic:mor-ladim"] = {
   fullHash = "9de4e1",
   text = "Mor'Ladim. At Raven Hill Cemetery, Mor'Ladim stalks the grounds as a vengeful skeletal warrior. Once Morgan Ladimore, he lost his family to Duskwood's ruin, then grief and madness drove him to rise in undeath and kill those who cross his path. Before Raven Hill feared his name, Morgan Ladimore defended the helpless from Grand Hamlet, now called Darkshire. He married Lys at eighteen, and they raised three children in peace. Then war called him north. During the Third War, Morgan marched with Uther the Lightbringer to Lordaeron. There he witnessed the fall of the Knights of the Silver Hand, the spread of Kel'Thuzad's plague, and Uther's death. Guilt over the innocent blood Morgan had shed and his suffocating grief stirred his corrupted remains from the earth. He rose as a hulking skeletal revenant, finding no peace in the grave. Travelers and the Night Watch soon learned to fear the name Mor'Ladim. With his ancestral blade Archeus, he patrols the misty graves, cutting down beasts and unwary travelers who stray near his resting place.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_mor-ladim-227dc4895b7409b453d9/1-0000.mp3", duration = 68.4669388, start = 0},
+    {file = "Audio/Transport/full_topic_mor-ladim-0b087397a38e574766f4/1-0000.mp3", duration = 66.2987755, start = 0},
   },
 }
 P.transport["topic:murloc"] = {

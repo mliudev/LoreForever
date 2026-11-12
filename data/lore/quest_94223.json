@@ -1,0 +1,87 @@
+{
+ "key": "quest:94223",
+ "type": "quest",
+ "name": "Craftsman's Writ: Silver Skeleton Key",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94223
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ asks for a Silver Skeleton Key and directs you to deliver it to a marked place. The crypt holds a caretaker\u2019s note and a chest tied to the key.",
+ "sections": [
+  {
+   "title": "The Writ",
+   "body": "Faded ink names a Silver Skeleton Key and gives a delivery place and payment. The writ can pass from hand to hand, but you need to carry it to complete the exchange.",
+   "spoiler": 0
+  },
+  {
+   "title": "In the Crypt",
+   "body": "A note on a trunk tells you the keeper of Raven Hill Cemetery is dead. He says Darkshire\u2019s employers have largely forgotten him, and that he left his wealth in the box for whoever can open it. With undead gathering nearby and no one else in sight, you use the key. The trunk holds little, though its contents cover part of the cost.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "silver key writ",
+    "what key do they want"
+   ],
+   "answer": "The writ requests one Silver Skeleton Key and gives a delivery place and payment."
+  },
+  {
+   "q": "Can someone else carry the writ?",
+   "aliases": [
+    "transferable writ",
+    "can i pass it on"
+   ],
+   "answer": "Yes. The writ says it can be transferred, though you need to possess it to complete the exchange."
+  },
+  {
+   "q": "Where does the writ send me?",
+   "aliases": [
+    "delivery place",
+    "where to take key"
+   ],
+   "answer": "The writ directs you to the location marked on your map."
+  },
+  {
+   "q": "Who left the note in the crypt?",
+   "aliases": [
+    "caretaker note",
+    "who died"
+   ],
+   "answer": "The note was left by a caretaker of Raven Hill Cemetery who says he has died."
+  },
+  {
+   "q": "What was in the chest?",
+   "aliases": [
+    "empty trunk",
+    "caretaker's treasure"
+   ],
+   "answer": "The trunk is nearly empty, with enough inside to cover part of the cost."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "caretaker",
+  "craftsman's writ",
+  "crypt",
+  "raven hill cemetery",
+  "silver skeleton key",
+  "trunk",
+  "undead"
+ ],
+ "related": [
+  "subzone:raven-hill-cemetery",
+  "subzone:darkshire"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Silver Skeleton Key"
+ ]
+}

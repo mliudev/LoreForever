@@ -12,6 +12,11 @@ function Log.Init()
   LoreForeverDB = type(LoreForeverDB) == "table" and LoreForeverDB or {}
   local db = LoreForeverDB
   db.settings = db.settings or {}
+  -- A new install (no quest voices setting saved yet) hears quest voices from the start, and gets the new player's
+  -- line the first time one plays by itself (LOR-1408; older installs: Voice.SwitchQuestVoicesOnce).
+  if db.settings.questDialogue == nil and not db.settings.questDialogueOn then
+    db.settings.questDialogueOn, db.settings.questDialogueLine = 1, "new"
+  end
   for k, v in pairs(ns.Options and ns.Options.DEFAULTS or {}) do
     if db.settings[k] == nil then db.settings[k] = v end
   end
@@ -40,8 +45,7 @@ function Log.Init()
   -- recordings play). Forget its setting and the one-time switch that turned it off (readAloudOff). Narration set to
   -- "Game voice only" (every voice unticked, or the old voicePack = "none") loads as it was: no narration.
   db.settings.readAloud, db.settings.readAloudOff = nil, nil
-  -- Direct quest dialogue is a fresh opt-in, even when an older install saved autoQuest = true.
-  -- The new questDialogue choice persists; the old automatic-only setting cannot enable it.
+  -- The old automatic-only quest setting is gone (questDialogue replaced it).
   db.settings.autoQuest = nil
   db.settings.questPagesSeen = nil   -- Willo's copy of Speak quest dialogue is gone (LOR-1157)
   -- The book button beside the menu bar is gone (Mike, 2026-10-02: the key, the minimap button and /lore all open the

@@ -29,9 +29,9 @@
     "quest:1052": {
       "1": [
         {
-          "duration": 42.10938775510204,
-          "file": "Audio/Transport/full_quest_1052-c85b645a086013e6e204/1-0000.mp3",
-          "sha256": "f0e8c05d706cacea4ddb4b74f892e4143553011ec60e7956133a2141aaf64d28",
+          "duration": 39.288163265306125,
+          "file": "Audio/Transport/full_quest_1052-e18c48c2f6d89e23faed/1-0000.mp3",
+          "sha256": "6d5750f9d5db3031bcf21e594eb3367a58e8d125fa14e6773f3ce92ead95443b",
           "start": 0
         }
       ],
@@ -43,12 +43,12 @@
         ]
       },
       "fullHash": "d13edc",
-      "generation": "20a094a744f82e891af1",
+      "generation": "dca19b970d14b0c598da",
       "hash": "d13edc",
       "source": {
-        "duration": 42.13551,
+        "duration": 39.288163,
         "file": null,
-        "sha256": "c85b645a086013e6e204686de045b45772a03f5f17ec4bf0d82cd8e77be5de3e"
+        "sha256": "e18c48c2f6d89e23faedff39a46f508bb2df98444e72ad4a0e7c90cfebfbd6ad"
       },
       "text": "Down the Scarlet Path. Brother Anton sends you from Desolace to Southshore with a sealed letter for Raleigh the Devout. Your deeds against the undead are only the beginning; Lordaeron holds the plague's true danger. Brother Anton takes pride in the Scarlet Crusade's strongholds in Lordaeron. The Crusade claims cleansing bastions from Hearthglen to Tirisfal Glades. Your work against the undead in Desolace has proven you, Anton says. Yet the plague's true danger lies in Lordaeron. Brother Anton sends you to Southshore, a town in the Eastern Kingdoms, to find Raleigh the Devout, a crusader. Anton seals a letter with his mark. He says Raleigh will give you an escort to a place of honor within the Scarlet Monastery."
     },
@@ -1641,9 +1641,9 @@
     "quest:208": {
       "1": [
         {
-          "duration": 46.419591836734696,
-          "file": "Audio/Transport/full_quest_208-c1ca426d049f233db6f8/1-0000.mp3",
-          "sha256": "90cfd9b6153c4076e8679938b455de60d7e31132e2246c1c0fcf451bcf4f8913",
+          "duration": 42.266122448979594,
+          "file": "Audio/Transport/full_quest_208-3d66778ed0d7c4037977/1-0000.mp3",
+          "sha256": "ebb271754a8bd3dc19e20c7772bf10a40245953efc4800ed494be6432a79749b",
           "start": 0
         }
       ],
@@ -1655,12 +1655,12 @@
         ]
       },
       "fullHash": "8e2745",
-      "generation": "70eb5b999a5441a2c65a",
+      "generation": "b4b943ac464c2ac47102",
       "hash": "8e2745",
       "source": {
-        "duration": 46.445714,
+        "duration": 42.266122,
         "file": null,
-        "sha256": "c1ca426d049f233db6f8df9b53aa00c407a14644bc30fff28edb67b436dd5685"
+        "sha256": "3d66778ed0d7c4037977250c1d8ab760f6698aeac572247ada5f4d10f7a6e81a"
       },
       "text": "Big Game Hunter. In Stranglethorn Vale, Hemet Nesingwary’s hunt for King Bangalash reaches its last trial. The famed marksman came to the jungle for the great white tiger. You have slain Sin'Dall, Bhag'thera, and Tethis in the trials set by the expedition's huntsmen. Hemet Nesingwary now knows your skill with weapons. Few have shown him finer skill on Lordaeron's battlefields or deep in the jungle.\n\nOne hunt remains. Bring down King Bangalash, the great white tiger Hemet came to hunt, and prove your abilities unmatched. King Bangalash drew Hemet Nesingwary to Stranglethorn Vale. The great beast has driven the expedition leader back to camp in defeat time and again. Its head would prove your hunting skill second to none."
     },
@@ -6815,9 +6815,9 @@
     "quest:626": {
       "1": [
         {
-          "duration": 30.69387755102041,
-          "file": "Audio/Transport/full_quest_626-5ab7f722ba85e213fef8/1-0000.mp3",
-          "sha256": "f20608410073f31cab52739ce36e6880070f068884782ada60f9babd1d02966e",
+          "duration": 28.186122448979592,
+          "file": "Audio/Transport/full_quest_626-4905ee1c56158cb867bb/1-0000.mp3",
+          "sha256": "0681d7d6181a46556caa6b7e3fb095d6d43d7ec0260874a1af5aa45bd74a627c",
           "start": 0
         }
       ],
@@ -6829,12 +6829,12 @@
         ]
       },
       "fullHash": "b361cd",
-      "generation": "00791b16524ff059eafa",
+      "generation": "8890b3584c66387e09b0",
       "hash": "b361cd",
       "source": {
-        "duration": 30.72,
+        "duration": 28.186122,
         "file": null,
-        "sha256": "5ab7f722ba85e213fef88045aec6a025f36dbd5d08681825261abf9d176aef47"
+        "sha256": "4905ee1c56158cb867bb1d35b815930a93f49c4a15afd6fcf101a7458d78266d"
       },
       "text": "Cortello's Riddle. In the Hinterlands, the final verses of Cortello's Riddle draw treasure hunters to the coast. A musty scroll points north from the southern tropics, and the trail ends beneath the waterfalls. The weathered verse turns the search north, away from the southern tropics and toward Lordaeron. There, amid the great turmoil of the embattled lands, the long chase reaches its end along the coast. The final hoard lies along the Hinterlands shore. Search underwater at the foot of the great falls."
     },
@@ -7153,9 +7153,9 @@
     "quest:6568": {
       "1": [
         {
-          "duration": 36.04897959183673,
-          "file": "Audio/Transport/full_quest_6568-dbab5c4f2a8bfc6421ad/1-0000.mp3",
-          "sha256": "a603fab1e1c59cd45ee252b036ec8150363e9eb077ac139e1e3f78b30409d227",
+          "duration": 33.69795918367347,
+          "file": "Audio/Transport/full_quest_6568-a7c99478482f07f2439c/1-0000.mp3",
+          "sha256": "ec8f0f17f28191639906d5d7110bf8cb74d9bf9046dcf252faf2dc4fb072dc04",
           "start": 0
         }
       ],
@@ -7167,12 +7167,12 @@
         ]
       },
       "fullHash": "4299f4",
-      "generation": "c0c946b8fb2b9abec679",
+      "generation": "5e2c80bcd473a1d23815",
       "hash": "4299f4",
       "source": {
-        "duration": 36.075102,
+        "duration": 33.697959,
         "file": null,
-        "sha256": "dbab5c4f2a8bfc6421ad938455e7c5049d4da74f6123bec11e0ec3df298c6721"
+        "sha256": "a7c99478482f07f2439cb52430c16658fe70b82b8089d54402682cd8fd6b9ee2"
       },
       "text": "The Testament of Rexxar. Rexxar sends you to the Western Plaguelands with a message for Myranda the Hag. He needs her skill with illusions to pass the Black Flight's defenses. Rexxar needs an illusion to pass the Black Flight's defenses. So he sends you to Myranda the Hag, a master illusionist who lives in the Western Plaguelands. The Lordaeron alliance drove her out. She has helped Rexxar's kind before, when a cause seemed worthy. Now you carry his message to her. A member of the Horde is a rare sight in these parts of Lordaeron, Myranda says. Then she asks what you have brought her."
     },
@@ -7647,9 +7647,9 @@
     "quest:706": {
       "1": [
         {
-          "duration": 42.81469387755102,
-          "file": "Audio/Transport/full_quest_706-15c970dbff2f7049ad4f/1-0000.mp3",
-          "sha256": "b8e77de9d8aba3928dc24dfa2ccf28e088eadb351e9dde84e8368d433ced6828",
+          "duration": 42.65795918367347,
+          "file": "Audio/Transport/full_quest_706-c647c741524d544bc6bf/1-0000.mp3",
+          "sha256": "cfe346014b0420db7ebdc3c0e8ab87fc6719760de8176ae9ebe85e333367c16d",
           "start": 0
         }
       ],
@@ -7661,12 +7661,12 @@
         ]
       },
       "fullHash": "3d1825",
-      "generation": "eb6335489cd43cb06200",
+      "generation": "5c0791ee079c075de092",
       "hash": "3d1825",
       "source": {
-        "duration": 42.840816,
+        "duration": 42.657959,
         "file": null,
-        "sha256": "15c970dbff2f7049ad4f071fbae5125fe10a759615e1f74b45f32865e8bc7680"
+        "sha256": "c647c741524d544bc6bf29a6888f0753066216502a480007a530afd831f8366f"
       },
       "text": "Fiery Blaze Enchantments. A rare black drake whelp's still-beating heart is needed for Fiery Blaze Enchantments in the Badlands. Sigrun Ironhew waits for word from Ironforge, and the whelps of Lethlor Ravine may supply what she needs. Sigrun Ironhew learned to kindle fire on weapons while apprenticed to Feranor Steeltoe. Feranor was last heard of among the smiths of a hunting party in Lordaeron. Sigrun waits in the Badlands for word from Ironforge. She has little else to do. Sigrun shares little about the process. It calls for blood from the still-beating heart of a rare black drake whelp. Bring her a heart from a whelp in Lethlor Ravine, and she will show you the skill. The Scalding Whelps and Scorched Guardians there yield the hearts."
     },
@@ -7907,9 +7907,9 @@
     "quest:728": {
       "1": [
         {
-          "duration": 41.325714285714284,
-          "file": "Audio/Transport/full_quest_728-fdf36a8392b5a12adca3/1-0000.mp3",
-          "sha256": "89a0f4095073277821c762e3be8621d0ef85286d6a643770dedc7402733c5b40",
+          "duration": 41.76979591836735,
+          "file": "Audio/Transport/full_quest_728-7184dae5de34ee15504b/1-0000.mp3",
+          "sha256": "cef3ead9c34952139bc211cb4ca69c65a65cb9a81b1b497bc2d234f6e7b0de81",
           "start": 0
         }
       ],
@@ -7921,12 +7921,12 @@
         ]
       },
       "fullHash": "372f92",
-      "generation": "bbe7fbe294e837179cc6",
+      "generation": "f2133b2aa12f7c601915",
       "hash": "372f92",
       "source": {
-        "duration": 41.351837,
+        "duration": 41.769796,
         "file": null,
-        "sha256": "fdf36a8392b5a12adca38d76dc0fd413df64962823c2b0b67914e42f2e148b6b"
+        "sha256": "7184dae5de34ee15504b7c7d42f4fbb48cce77df48fd07b216543fe0523150d7"
       },
       "text": "To the Undercity for Yagyin's Digest. Theldurin the Lost sends you to the Undercity of Lordaeron with a sigil for Keeper Bel'dugur. He wants the keeper to mistake you for one of the people he fled, and asks you to find Yagyin's Digest. The tablet has answered much for Theldurin, yet questions remain. Yagyin wrote a digest ages ago, and the people Theldurin fled keep copies in many places. Their most learned study its pages. Theldurin believes its vast knowledge can protect them, so he wants you to bring it back. Keeper Bel'dugur waits in the Undercity of Lordaeron. Theldurin gives you the Sigil of the Hammer to show the keeper, who is to take you for one of the people he fled. Ask Bel'dugur for the digest."
     },
@@ -10010,9 +10010,6 @@
       853,
       1026
     ],
-    "03b04db1b6476dae8812e0bbd4165b4fbd0c9df3530c101536b8d882223dd441": [
-      457
-    ],
     "0422cd6523342be339faec0b7c39eb92580c962b2a2ea8b15094444f9385d35d": [
       301,
       812
@@ -10067,6 +10064,12 @@
       990,
       1193,
       1469
+    ],
+    "0681d7d6181a46556caa6b7e3fb095d6d43d7ec0260874a1af5aa45bd74a627c": [
+      228,
+      440,
+      645,
+      873
     ],
     "0684a520cdf6367abb97ef359bf40b3917b58c11fca3aa14bd68d8f9cbe4ab50": [
       237,
@@ -10273,9 +10276,6 @@
     "13aa32210ecce2357237137c8122b46df548fd3e76562fb04ef91a31dc7bbfb7": [
       357,
       684
-    ],
-    "13acb979bd00c2a8331270e4eb85dd168931deafa57841e9cc4c8408d0f68a11": [
-      634
     ],
     "13cfe50d18c9119d2efd93f3a81dd1fed5751edcd7ceaa2177c9aced07021df6": [
       190,
@@ -10492,9 +10492,6 @@
     "23d8b195d0db41d3b30aa0a3d86dc8b057449fd0403c187b1833b68e4dbf27c1": [
       283
     ],
-    "24472589389794336ef101e362d25e67d7638fdfbae331714349484cee8456ca": [
-      320
-    ],
     "2460673d5da8c238ae6e9246864d66298ff28165827980f076cac538f3d04851": [
       366,
       774
@@ -10582,6 +10579,9 @@
       933,
       1271,
       1503
+    ],
+    "29d0fcacc1438968efd453da06f842cbd9d746aaec148f9a4a26e43ac3cf3531": [
+      290
     ],
     "29eaa24094b72e3e7f4285cfa118223d683b9ee4c06f3ce6aad83f87ac04056d": [
       481,
@@ -10721,6 +10721,10 @@
     "35dbc048d57005ccf10a2fb4509f07a7e393b7160fede1e2421d0a48592a752b": [
       489
     ],
+    "3605aa46f834a4696491a9da0e3d35aa0ec32869e8be905126620734492ce1a1": [
+      497,
+      775
+    ],
     "363b7954bd67c9cca6d6cffd6355c32e359343cdc5936b0cfff449b505c05292": [
       557
     ],
@@ -10789,9 +10793,6 @@
       380,
       656
     ],
-    "3a232aa223f6b3d2a9cbfe01303c0a688732e1253ee8065d1e360274dcb9326c": [
-      619
-    ],
     "3a5a561a21c3b2c3c974eabef83fa554178d2126ee9669cf2c851cb9154d2a6e": [
       310,
       499,
@@ -10838,6 +10839,9 @@
       473,
       722
     ],
+    "3d09766abe5feed2465ed5e1dd4af55917f8dc070260d59c58d1154b05d3ddf9": [
+      598
+    ],
     "3d1be32a5cf078311322dc723792bd561eba4bbefbd2a3e021d7f8c9e7bf6317": [
       318,
       526,
@@ -10858,6 +10862,10 @@
     ],
     "3eb509b696cf0716c0d1768e834b3d22ec08b313c3b930fad51fbd8a1572cf5e": [
       471
+    ],
+    "3eda20b9ef806c6724f2a6126b5a10bd57d54bb520eab421fcb1368c50d75e0a": [
+      336,
+      900
     ],
     "3efa6d3133f964c96313517037983a9cd17be30895b4b82a2246dd7aebc057fd": [
       390,
@@ -10902,9 +10910,6 @@
     "4070033b3a1d77de4c50b94ba920d77f9b2b86805c3818cea3127ed10d6d2bef": [
       325,
       642
-    ],
-    "40767c2f7cea1fed79477ac3a525d2c4de17c1a2ac53697e7916465e15a2d1cc": [
-      610
     ],
     "4091b18b3ef97da7a0e4c8f9616f83f1a040ca007abe2592fe0841d17827eb9d": [
       261,
@@ -11013,10 +11018,6 @@
       374,
       619
     ],
-    "45c67d7426bcb5b14d7c364f97fd34796e3f3f5925a36194d5eb0dfc235d1596": [
-      282,
-      753
-    ],
     "45dc13640fe23009c7ca178006c27188183ad1a1a08a5ea1427f26bcde3c0844": [
       227,
       476,
@@ -11043,6 +11044,10 @@
     "47408b08560353d1b7f428f425e2238e82ea1eed88f0960db69604c2184b5f1a": [
       245,
       659
+    ],
+    "480ca7ffd83f452c37e725dadfe48b3cb5c31500dc991ea6c4ee8bac7939e0c8": [
+      325,
+      615
     ],
     "489ff21a9896b12b6974f40d0766038975fee8bedfa468eac523b88feba62b8e": [
       294,
@@ -11127,6 +11132,9 @@
     ],
     "4d7aa467c7416f3d6bba7a4f33504d7757eb2da7053067a0c26901447d3a4951": [
       532
+    ],
+    "4e1da299fbf0b98189d3891982fbeb3a8db52ef621806599f1cefd20754ea4fc": [
+      765
     ],
     "4ea8253cc3673f86b26041acf18c33dcff202ec1ea6d2b9305f923a2cfb16a74": [
       190,
@@ -11296,10 +11304,6 @@
       387,
       764,
       900
-    ],
-    "5943f9ca1169def5e3242db93431114c04d7bac9dc2104370d48a9e1aef8985c": [
-      483,
-      789
     ],
     "594b88047711cbdaf42b991c69008215ffe6744c217ff0c2b0a616e1f8d80ee9": [
       289,
@@ -11514,6 +11518,10 @@
       471,
       748
     ],
+    "6ba8a10cb99d3b0af117a6922d6b8b7503fab3f3b8ac2f40844c1a83a72f1056": [
+      323,
+      851
+    ],
     "6bf46dbda76fdf9582110fb77df4014bcee4c656849ece0ccb4c0c00ba443ac3": [
       333,
       827
@@ -11523,6 +11531,17 @@
     ],
     "6d006571904fe8abed7b29c482ab4ee9de1b2a9a50b7af8c552a3d6cadf20ae0": [
       509
+    ],
+    "6d226ebee538686aa443428849729cd23f5fa6180cae4bbb8e54b4255ce647e3": [
+      276
+    ],
+    "6d5750f9d5db3031bcf21e594eb3367a58e8d125fa14e6773f3ce92ead95443b": [
+      204,
+      405,
+      559,
+      722,
+      863,
+      1208
     ],
     "6d8cf85e5bc6335e876d0ca2bf39bb4f1052e1a2e243416691f5664a4e71ee85": [
       292,
@@ -11868,8 +11887,8 @@
       451,
       807
     ],
-    "84cdffa81382d8c5bf48633913f26ad4281c0fc5e41ac2824a606aef8210fa30": [
-      315
+    "8549ebaae541984faef7af01c40035a7e133615d443fefaaf1d6b5b8e00b1ee6": [
+      653
     ],
     "8718a5b332f7aa33c644bc5be12d2b52ced5c113ba5e81b251605958ca973a26": [
       240,
@@ -11901,13 +11920,6 @@
       572,
       805,
       1130
-    ],
-    "89a0f4095073277821c762e3be8621d0ef85286d6a643770dedc7402733c5b40": [
-      203,
-      444,
-      612,
-      844,
-      1136
     ],
     "89b57d0f93d4e8875ebea617bda335d7726d565bd9b1bded93e827321056dc42": [
       242,
@@ -12026,15 +12038,6 @@
     "90cc6bdfad4790a4fbea772636298ef798bb473324d11dbceba0eefd9538a9b4": [
       320,
       515
-    ],
-    "90cfd9b6153c4076e8679938b455de60d7e31132e2246c1c0fcf451bcf4f8913": [
-      228,
-      397,
-      631,
-      773,
-      963,
-      1299,
-      1456
     ],
     "90d16a3b199b7a52b4e35bcff72573671a4b1119c9616341a9cd83b00cfdcc7a": [
       301,
@@ -12319,10 +12322,6 @@
       733,
       1013
     ],
-    "a2f69ba628fe17ea4852a25de71d6e681dc9cc758a137f82a62273f0380a8b33": [
-      326,
-      669
-    ],
     "a34cbe7376f49b061a9c90d79e1a20eefcf79ee2cb45195fe49547dcccc7d07e": [
       205,
       362,
@@ -12376,13 +12375,6 @@
     "a5d21ca2cbf38705cb94a53d4550749708cc7a5dacda9ea3f0c2ff1656125beb": [
       642,
       908
-    ],
-    "a603fab1e1c59cd45ee252b036ec8150363e9eb077ac139e1e3f78b30409d227": [
-      181,
-      353,
-      499,
-      729,
-      1090
     ],
     "a6789b8950c5ee0c769eee5bdac9659b11386c28310cb7c13785689dbf70188b": [
       316
@@ -12660,14 +12652,6 @@
       537,
       706
     ],
-    "b8e77de9d8aba3928dc24dfa2ccf28e088eadb351e9dde84e8368d433ced6828": [
-      228,
-      479,
-      679,
-      846,
-      1054,
-      1314
-    ],
     "b939fd9992c0c2d6aa4d4b53a17deb63ead024d13d2d13e73c8c3d7602f7c5ef": [
       624
     ],
@@ -12681,6 +12665,10 @@
       1551,
       1804,
       2085
+    ],
+    "b9b2f713d17b217b507c331c9df08052be4a7d8cd7e5ee5c655798e5135d63b3": [
+      448,
+      717
     ],
     "ba04cb010e5e847dec6a6cda11eaba9bfade63f814c2f932fba718e9d7f1f06d": [
       515
@@ -12707,9 +12695,6 @@
     "bc856cc5e06061941bfd830b0676fbf89b7813554552a9b3984a41d8b4ee8ab7": [
       375,
       679
-    ],
-    "bcc2c6867687de249f9902f6b141566fb75ff5916e423f0a87584d07ade756db": [
-      571
     ],
     "bd4cef53cc3739aab64ff633aadece162990fd97a7b88cc51ab25ee05e6a50b7": [
       401,
@@ -12937,6 +12922,13 @@
     "cecc18a87e63f233afb06e9ce0659b23e62825b51dcebd43e62bef66f47b7797": [
       499
     ],
+    "cef3ead9c34952139bc211cb4ca69c65a65cb9a81b1b497bc2d234f6e7b0de81": [
+      237,
+      478,
+      638,
+      873,
+      1093
+    ],
     "cf05c100d1ec544816399f5d99fdc677ac217a15cd9cd141be071a38d8a8d664": [
       216,
       353,
@@ -12957,6 +12949,14 @@
     ],
     "cfd58a2e4adbfa8d5b84c130bb66ebdd99c0fb95cfb714e3486092f657d6fed6": [
       454
+    ],
+    "cfe346014b0420db7ebdc3c0e8ab87fc6719760de8176ae9ebe85e333367c16d": [
+      238,
+      494,
+      682,
+      967,
+      1132,
+      1310
     ],
     "d064dcb2b1ee09606d4154ef296c452957b3f55680a11eb7460312bd059c00f0": [
       549
@@ -13150,6 +13150,9 @@
       299,
       675
     ],
+    "de4e8e411e50b8a6c49390786554e9fc0d49356563d412b7f4f92d6077a27242": [
+      237
+    ],
     "de5ae2435c492724cdb06aad4ffec9710852f4550d911f2bbcbc470b432ac549": [
       540,
       808
@@ -13189,10 +13192,6 @@
     "e1655ad8cd18f63b9d4193e2e73ecfc08f4698d5325e0cadf368a353d2e1a890": [
       244,
       496
-    ],
-    "e1bb35a54615efee68a4c6fbabff53254acca1aad0552920ee86aa3c8979554b": [
-      276,
-      858
     ],
     "e25e49dc13fa48750a921a528d00fbc9f020284f464b2662c878670448279655": [
       274,
@@ -13317,6 +13316,13 @@
       284,
       628
     ],
+    "ebb271754a8bd3dc19e20c7772bf10a40245953efc4800ed494be6432a79749b": [
+      221,
+      366,
+      596,
+      934,
+      1323
+    ],
     "ebcc0ce4da2c50a15e123fb7b493cc58cd4146598cdaf98ac7a0d5f82c88cdf9": [
       361,
       863
@@ -13331,6 +13337,12 @@
     "ec5c6e3433b1071b23fe443cbfb77cac42054bc5941eee2d2a50c5574a4eccef": [
       445,
       719
+    ],
+    "ec8f0f17f28191639906d5d7110bf8cb74d9bf9046dcf252faf2dc4fb072dc04": [
+      180,
+      344,
+      683,
+      930
     ],
     "ec96cf1e5bc5b2fe3b7ef2865ebae243de142d9b067872b518ce6da2b12abb8f": [
       316
@@ -13417,14 +13429,6 @@
     "f0c68d006cbf1d53b72b66edf65a8b836d33d51c98700dd95113012c6e818646": [
       527
     ],
-    "f0e8c05d706cacea4ddb4b74f892e4143553011ec60e7956133a2141aaf64d28": [
-      210,
-      443,
-      615,
-      797,
-      1074,
-      1350
-    ],
     "f1232bc40bb123db7c734f5b088b6507b9a74a71d6eeab0ebabe6b40872bc934": [
       486
     ],
@@ -13436,11 +13440,6 @@
       161,
       373,
       1066
-    ],
-    "f20608410073f31cab52739ce36e6880070f068884782ada60f9babd1d02966e": [
-      476,
-      691,
-      933
     ],
     "f225937ed0b2a42e514ca57b616f659793317d312bcfd34049014bbaaac37601": [
       440,
@@ -13535,6 +13534,9 @@
     "f88de3d923b52c9bf64ae51e4bba890bee6f9e80f93975946a21ca00f246c0dd": [
       465,
       751
+    ],
+    "f9002da02234dd305198b8b7730d2018c22b483742b0261aa3e4fff62fd4021d": [
+      333
     ],
     "f984d0bd4a6b4a5eb6373ae864469c52335755d039114208b4ee4322407e11c6": [
       167,
@@ -14333,10 +14335,6 @@
       "1130": 2,
       "572": 1
     },
-    "89a0f4095073277821c762e3be8621d0ef85286d6a643770dedc7402733c5b40": {
-      "1136": 2,
-      "444": 1
-    },
     "89b57d0f93d4e8875ebea617bda335d7726d565bd9b1bded93e827321056dc42": {
       "1612": 2,
       "546": 1
@@ -14386,10 +14384,6 @@
     },
     "90cc6bdfad4790a4fbea772636298ef798bb473324d11dbceba0eefd9538a9b4": {
       "320": 1
-    },
-    "90cfd9b6153c4076e8679938b455de60d7e31132e2246c1c0fcf451bcf4f8913": {
-      "1299": 2,
-      "397": 1
     },
     "91ea4ec1e03dedc5d3547e5a58727e1153c81a4f66414b85a97db279490a35b1": {
       "390": 1,
@@ -14503,10 +14497,6 @@
     "a58cf3ec634d6a325a70a243c222958036613136d3d8332edbf499ddcccb3799": {
       "248": 1
     },
-    "a603fab1e1c59cd45ee252b036ec8150363e9eb077ac139e1e3f78b30409d227": {
-      "1090": 2,
-      "353": 1
-    },
     "a73db5194ed946a7539cc6dd85f637b5466da7fecb9ffcc8d4cb56a53fd40479": {
       "1018": 2,
       "461": 1
@@ -14597,10 +14587,6 @@
     },
     "b8b8dcd1c7efd61e614304912955b676f51564a78721c7c2dd1737b69df1e35f": {
       "369": 1
-    },
-    "b8e77de9d8aba3928dc24dfa2ccf28e088eadb351e9dde84e8368d433ced6828": {
-      "1054": 2,
-      "479": 1
     },
     "b98f3ae6c631aec8abf764644a4faa7b4d52ddfa548ae3065595a0905a98ca13": {
       "1551": 2,
@@ -14842,17 +14828,9 @@
     "f005be14c414ccf0c45231606b99ae02b236ba89c911738aed34ef46da019345": {
       "418": 1
     },
-    "f0e8c05d706cacea4ddb4b74f892e4143553011ec60e7956133a2141aaf64d28": {
-      "1074": 2,
-      "443": 1
-    },
     "f1de88d4a80f13ca4d88322ea5a1a8b37fa5d705807a5d5c84c3b9b77ad8db48": {
       "1066": 2,
       "373": 1
-    },
-    "f20608410073f31cab52739ce36e6880070f068884782ada60f9babd1d02966e": {
-      "476": 1,
-      "933": 2
     },
     "f33ad157162a3075b28239d81b7cf984f759903e37aee1e98f28322440e90f3a": {
       "233": 1
@@ -14930,5 +14908,31 @@
     }
   },
   "pack": "LoreForever_Voice_Default_MoreQuests3",
+  "retired": [
+    {
+      "file": "Audio/Transport/full_quest_1052-c85b645a086013e6e204/1-0000.mp3",
+      "sha256": "f0e8c05d706cacea4ddb4b74f892e4143553011ec60e7956133a2141aaf64d28"
+    },
+    {
+      "file": "Audio/Transport/full_quest_208-c1ca426d049f233db6f8/1-0000.mp3",
+      "sha256": "90cfd9b6153c4076e8679938b455de60d7e31132e2246c1c0fcf451bcf4f8913"
+    },
+    {
+      "file": "Audio/Transport/full_quest_626-5ab7f722ba85e213fef8/1-0000.mp3",
+      "sha256": "f20608410073f31cab52739ce36e6880070f068884782ada60f9babd1d02966e"
+    },
+    {
+      "file": "Audio/Transport/full_quest_6568-dbab5c4f2a8bfc6421ad/1-0000.mp3",
+      "sha256": "a603fab1e1c59cd45ee252b036ec8150363e9eb077ac139e1e3f78b30409d227"
+    },
+    {
+      "file": "Audio/Transport/full_quest_706-15c970dbff2f7049ad4f/1-0000.mp3",
+      "sha256": "b8e77de9d8aba3928dc24dfa2ccf28e088eadb351e9dde84e8368d433ced6828"
+    },
+    {
+      "file": "Audio/Transport/full_quest_728-fdf36a8392b5a12adca3/1-0000.mp3",
+      "sha256": "89a0f4095073277821c762e3be8621d0ef85286d6a643770dedc7402733c5b40"
+    }
+  ],
   "version": 1
 }

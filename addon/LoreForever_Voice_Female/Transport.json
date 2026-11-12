@@ -2577,9 +2577,9 @@
     "topic:mor-ladim": {
       "1": [
         {
-          "duration": 68.4669387755102,
-          "file": "Audio/Transport/full_topic_mor-ladim-227dc4895b7409b453d9/1-0000.mp3",
-          "sha256": "9faaf9f5da9cac0a25cd00166911f95b6436d6155329746ddb97d12f17b5b1f7",
+          "duration": 66.29877551020408,
+          "file": "Audio/Transport/full_topic_mor-ladim-0b087397a38e574766f4/1-0000.mp3",
+          "sha256": "516d4fe46adaa3a291ae65fa6cade4cdaef53b0ab8886947b4aa4539e2372b12",
           "start": 0
         }
       ],
@@ -2591,12 +2591,12 @@
         ]
       },
       "fullHash": "9de4e1",
-      "generation": "fe1a604d1ec751d2f53c",
+      "generation": "db56de2fe2b70177f348",
       "hash": "9de4e1",
       "source": {
-        "duration": 68.493061,
+        "duration": 66.298776,
         "file": null,
-        "sha256": "227dc4895b7409b453d9c98d422e45084c4a6332d7602c634cf4f1c86fc12aae"
+        "sha256": "0b087397a38e574766f4c31ebb1bde7c98581723c03cf327b1652e84bdfe734c"
       },
       "text": "Mor'Ladim. At Raven Hill Cemetery, Mor'Ladim stalks the grounds as a vengeful skeletal warrior. Once Morgan Ladimore, he lost his family to Duskwood's ruin, then grief and madness drove him to rise in undeath and kill those who cross his path. Before Raven Hill feared his name, Morgan Ladimore defended the helpless from Grand Hamlet, now called Darkshire. He married Lys at eighteen, and they raised three children in peace. Then war called him north. During the Third War, Morgan marched with Uther the Lightbringer to Lordaeron. There he witnessed the fall of the Knights of the Silver Hand, the spread of Kel'Thuzad's plague, and Uther's death. Guilt over the innocent blood Morgan had shed and his suffocating grief stirred his corrupted remains from the earth. He rose as a hulking skeletal revenant, finding no peace in the grave. Travelers and the Night Watch soon learned to fear the name Mor'Ladim. With his ancestral blade Archeus, he patrols the misty graves, cutting down beasts and unwary travelers who stray near his resting place."
     },
@@ -5959,6 +5959,17 @@
       1051,
       1206
     ],
+    "516d4fe46adaa3a291ae65fa6cade4cdaef53b0ab8886947b4aa4539e2372b12": [
+      253,
+      623,
+      896,
+      1133,
+      1317,
+      1530,
+      1855,
+      2032,
+      2196
+    ],
     "544cc886a5879fce239cbc39c41233760d25a342f10c5ba985a63b3c1ee9ad84": [
       179,
       542,
@@ -6679,18 +6690,6 @@
       1204,
       1416,
       1680
-    ],
-    "9faaf9f5da9cac0a25cd00166911f95b6436d6155329746ddb97d12f17b5b1f7": [
-      232,
-      395,
-      615,
-      946,
-      1125,
-      1373,
-      1634,
-      1925,
-      2109,
-      2265
     ],
     "9fe2387800203cc6a226e3f212390871a96d14913ed59cb9eece4d45692ac6fa": [
       182,
@@ -8356,10 +8355,6 @@
       "1204": 2,
       "437": 1
     },
-    "9faaf9f5da9cac0a25cd00166911f95b6436d6155329746ddb97d12f17b5b1f7": {
-      "1634": 3,
-      "615": 1
-    },
     "9fe2387800203cc6a226e3f212390871a96d14913ed59cb9eece4d45692ac6fa": {
       "1997": 2,
       "3453": 3,
@@ -8731,6 +8726,12 @@
   "pack": "LoreForever_Voice_Female",
   "rates": [
     "1"
+  ],
+  "retired": [
+    {
+      "file": "Audio/Transport/full_topic_mor-ladim-227dc4895b7409b453d9/1-0000.mp3",
+      "sha256": "9faaf9f5da9cac0a25cd00166911f95b6436d6155329746ddb97d12f17b5b1f7"
+    }
   ],
   "version": 1
 }

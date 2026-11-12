@@ -126,7 +126,7 @@ P.transport["item:agamand-family-mace"] = {
   fullHash = "346748",
   text = "Agamand Family Mace. At Agamand Mills, the Agamand Family Mace remains sealed in the family crypt. Once the heirloom of a proud family in northern Lordaeron, it is now sought by their former servant, Coleman Farthing. Before the Third War, the Agamands held vast farmlands and windmills in northern Tirisfal Glades. Like the region’s other aristocrats, they fell to the plague of undeath. The Scourge raised them as mindless thralls in service to the Lich King, and now they wander their ruined estate. Their ancient treasures remain locked in the family crypt. Among them lies the Agamand Family Mace, a remnant of a lineage brought low.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_agamand-family-mace-eff44fb892b80a71b086/1-0000.mp3", duration = 37.7991837, start = 0},
+    {file = "Audio/Transport/full_item_agamand-family-mace-b45a1a3f5d7a8606c11b/1-0000.mp3", duration = 37.9297959, start = 0},
   },
 }
 P.transport["item:agamand-family-sword"] = {
@@ -134,7 +134,7 @@ P.transport["item:agamand-family-sword"] = {
   fullHash = "6175d3",
   text = "Agamand Family Sword. In northern Tirisfal, the Agamand Family Sword remains in the family crypt. The tarnished blade once marked the wealth and standing of the mill-owning dynasty. Coleman Farthing now seeks it to erase their legacy. The Agamands once held wealth and influence through their mills in northern Tirisfal Glades. When the Scourge swept through Lordaeron, the family met a gruesome end. Their bodies rose as mindless thralls of the Lich King.\n\nTheir ancestral weapons, including the ceremonial sword, were sealed inside the Agamand Family Crypt at the northern edge of the mills. Taking the blades from their burial racks is meant to break the memory and noble standing of the fallen household.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_agamand-family-sword-3f7c39b8d05ebdcb8d15/1-0000.mp3", duration = 40.96, start = 0},
+    {file = "Audio/Transport/full_item_agamand-family-sword-33e2b47e70c23b71f980/1-0000.mp3", duration = 39.9412245, start = 0},
   },
 }
 P.transport["item:ahanu-s-leather-goods"] = {
@@ -294,7 +294,7 @@ P.transport["item:balnir-snapdragons"] = {
   fullHash = "36598c",
   text = "Balnir Snapdragons. At Balnir Farmstead, snapdragons still bloom as the Scourge's corruption presses toward Tirisfal Glades. The Forsaken study their sensitivity to magic to watch that corruption's spread. Balnir Snapdragons still bloom in the garden of Balnir Farmstead in eastern Tirisfal Glades. The homestead lies in ruin after Lordaeron fell and the Scourge rose. To the east, the Plaguelands border Tirisfal. The Lich King's blight presses against the region here, and the flowers give the Forsaken a place to watch its spread. Balnir Snapdragons are unusually sensitive to atmospheric magic, so they serve as living barometers for magical blights. Anastasia Hartwell and the Forsaken mages in the Undercity seek fresh flowers from the farmstead's window boxes. They send them to the Royal Apothecary Society for study, hoping to measure how far the Lich King's plague has seeped across the border into Tirisfal's soil.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_balnir-snapdragons-45026797c40cef1a18a7/1-0000.mp3", duration = 56.1632653, start = 0},
+    {file = "Audio/Transport/full_item_balnir-snapdragons-90d7e501b39fb4b63e37/1-0000.mp3", duration = 55.6669388, start = 0},
   },
 }
 P.transport["item:baron-longshore-s-head"] = {
@@ -1102,7 +1102,7 @@ P.transport["item:dalin-s-heart"] = {
   fullHash = "507421",
   text = "Dalin's Heart. Near the Greymane Wall in Silverpine Forest, Dalin Forgewright guards refugees with an honorable heart. Undercity warlocks seek the hearts of truly virtuous mortals. They use them to call a succubus and bind her to their service. Dalin Forgewright spends his days defending desperate Lordaeron refugees kept from safety by the sealed Greymane Wall. His selfless devotion makes him a rare offering of unblemished purity, and his heart is carved for rites in the Temple of the Damned.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_dalin-s-heart-0427e5409fd53ff45e51/1-0000.mp3", duration = 29.3355102, start = 0},
+    {file = "Audio/Transport/full_item_dalin-s-heart-9e1e03ce2839356e6347/1-0000.mp3", duration = 28.682449, start = 0},
   },
 }
 P.transport["item:darkhound-blood"] = {
@@ -1142,7 +1142,7 @@ P.transport["item:darthalia-s-sealed-commendation"] = {
   fullHash = "38fa83",
   text = "Darthalia's Sealed Commendation. At Tarren Mill, Darthalia sends word of victories against Hillsbrad's human defenders to Undercity's high command. After the fighting in Hillsbrad Foothills, High Executor Darthalia seals a dispatch of victories against the human defenders and the ruin of their positions. She sends it to Varimathras, the dreadlord who advises Lady Sylvanas Windrunner. In Undercity's Royal Quarter, the report gives Forsaken leaders proof that Alliance enclaves south of Lordaeron can be broken. Then northern garrisons can turn to face the Scourge.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_darthalia-s-sealed-commendation-3345ce08242283d8847f/1-0000.mp3", duration = 32.7314286, start = 0},
+    {file = "Audio/Transport/full_item_darthalia-s-sealed-commendation-2a2b839cf5a2e881ba1d/1-0000.mp3", duration = 31.6081633, start = 0},
   },
 }
 P.transport["item:deadmire-s-tooth"] = {
@@ -1550,7 +1550,7 @@ P.transport["item:encrypted-scroll"] = {
   fullHash = "4c3c68",
   text = "Encrypted Scroll. In Deathknell, a sealed scroll calls a newly risen rogue to meet David Trias. Its ciphered words point the bearer to the inn and the first steps toward the Forsaken’s covert ranks. A newly awakened Forsaken with a gift for stealth draws notice in Deathknell. After a scout proves capable against the mindless Scourge in the nearby graveyard, the Encrypted Scroll is handed over. Rogue trainer David Trias sealed it and bids the bearer to find him at the local inn. The summons offers a fledgling operative training to serve the Dark Lady, rather than spend a second life as a pickpocket. The scroll’s brief message calls the rogue to make contact in Deathknell before traveling deeper into Tirisfal Glades. Trias watches for promising talent on behalf of the Shadowstalkers, the Forsaken’s covert arm. In Lordaeron, the Forsaken rely on silent blades and cunning scouts against the Scarlet Crusade, surviving Alliance enclaves, and the Scourge left behind. Answering the ciphered summons begins the path into that covert network.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_encrypted-scroll-61ab378d142d71b2e4f1/1-0000.mp3", duration = 63.0073469, start = 0},
+    {file = "Audio/Transport/full_item_encrypted-scroll-80a30311f805667e1859/1-0000.mp3", duration = 60.0032653, start = 0},
   },
 }
 P.transport["item:encrypted-sigil"] = {
@@ -2326,7 +2326,7 @@ P.transport["item:gregor-s-remains"] = {
   fullHash = "df0d4c",
   text = "Gregor's Remains. Gregor's Remains are sought to settle an old score. They belonged to Gregor Agamand, of Tirisfal Glades' wealthiest family. Before the Third War, the Agamands held great wealth and broad lands across northern Tirisfal Glades. When the Scourge invaded Lordaeron, the family patriarchs chose pride over flight. They fortified their mills and urged their loyal laborers to stand against the undead.\n\nThe defense failed. The estate fell, and those who stood their ground were butchered and raised into undeath. Gregor Agamand became a mindless servant of the Lich King, haunting the mills his family had ruled. Some who escaped the Lich King's control joined the Forsaken, but the memory of that defense still wounds them. Coleman Farthing, a former mill worker now stationed in Brill, blames the Agamands' pride for trapping his soul in eternal rot. He seeks Gregor's remains as personal retribution against the master who led his household into damnation.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_gregor-s-remains-6acd00856bdf7d7f361a/1-0000.mp3", duration = 58.8538776, start = 0},
+    {file = "Audio/Transport/full_item_gregor-s-remains-03a77dc733e237e7ec54/1-0000.mp3", duration = 55.9020408, start = 0},
   },
 }
 P.transport["item:grelin-s-report"] = {
@@ -2902,7 +2902,7 @@ P.transport["item:johaan-s-findings"] = {
   fullHash = "f15dba",
   text = "Johaan's Findings. In Brill, Apothecary Johaan sends his findings south to the Sepulcher. His research carries recent alchemical work from Tirisfal Glades to Apothecary Renferrel in Silverpine Forest. Apothecary Johaan sends his research from Brill to Apothecary Renferrel at the Sepulcher. The Royal Apothecary Society answers Lady Sylvanas Windrunner's demand for a New Plague that can destroy both the living and the Scourge. Its researchers are scattered across Lordaeron's contested ruins, so they share their findings between outposts.\n\nRenferrel directs the Society's efforts from Silverpine Forest, while Johaan records his local tests in Brill. His documents join the Society's wider work to refine its deadly brews.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_johaan-s-findings-256439937b2933a26d4d/1-0000.mp3", duration = 43.6244898, start = 0},
+    {file = "Audio/Transport/full_item_johaan-s-findings-f41c1429a1fa7746670e/1-0000.mp3", duration = 42.4228571, start = 0},
   },
 }
 P.transport["item:johaan-s-special-drink"] = {
@@ -3286,7 +3286,7 @@ P.transport["item:menethil-statuette"] = {
   fullHash = "f9cbb8",
   text = "Menethil Statuette. Off the Wetlands coast, the Menethil Statuette lies lost from a shipwreck. The rare silver likeness honors Lordaeron's fallen king. King Terenas Menethil II is shown as a young paladin, long-haired, with his hammer raised toward the heavens. Humble in life, he disliked monuments to himself, and few likenesses were made in his honor. When the Scourge brought down Lordaeron, almost all those likenesses were destroyed. This surviving effigy is precious to the Alliance. The Blind Princess was carrying the statuette toward the Alliance harbor of Menethil when Bluegill murlocs attacked off the marshy coast. The assault scattered the merchant vessel's cargo, and the statuette came to rest in a half-buried barrel on shore.\n\nDragonmaw orcs and other local threats remained nearby, so defenders hurried the recovered icon south to Stormwind City. There, Highlord Bolvar Fordragon entrusted it to the Cathedral of Light.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_menethil-statuette-fec2e304d3f660a9af89/1-0000.mp3", duration = 57.9657143, start = 0},
+    {file = "Audio/Transport/full_item_menethil-statuette-0b7b3063e090795c1e0f/1-0000.mp3", duration = 54.0212245, start = 0},
   },
 }
 P.transport["item:merrin-s-letter"] = {
@@ -3550,7 +3550,7 @@ P.transport["item:nissa-s-remains"] = {
   fullHash = "a25ac5",
   text = "Nissa's Remains. In northern Tirisfal, Nissa's remains belong to a noblewoman of the once-wealthy Agamand family. The Scourge slew her and her kin during the Third War, then bound them as mindless servants. Now former laborers hunt the family for vengeance. Before the Third War, the Agamands were Tirisfal Glades' wealthiest and most influential family. Their prosperous mills stood across the northern hills. When the Plague of Undeath spread through Lordaeron, the patriarchs refused to flee. They fortified their estates and persuaded their retainers and laborers to stay and fight. Their pride cost them their lives. The Scourge slew the Agamands and raised them as mindless thralls bound to the Lich King's will. In Brill, survivors who later broke free under Queen Sylvanas Windrunner still remember the Agamands' fatal pride. Coleman Farthing once labored in their mills, and resents his former masters for luring the workers into undeath. He sends adventurers to put down the risen Agamands and retrieve their physical remains, including Nissa's. For Farthing and other Forsaken, destroying these relics brings a grim sense of closure and revenge.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_nissa-s-remains-48b8853fb4ed2ed5ac6e/1-0000.mp3", duration = 68.1534694, start = 0},
+    {file = "Audio/Transport/full_item_nissa-s-remains-8d2319fbc77e88ce8603/1-0000.mp3", duration = 65.9853061, start = 0},
   },
 }
 P.transport["item:nitroglycerin"] = {
@@ -4006,7 +4006,7 @@ P.transport["item:remaining-drops-of-purest-water"] = {
   fullHash = "9ef00b",
   text = "Remaining Drops of Purest Water. Across Kalimdor and Lordaeron, Remaining Drops of Purest Water wait for a perilous journey. Brine gathered the water for a draught meant to help shaman. In the Barrens, Brine prepares a draught from water gathered across Kalimdor and Lordaeron. Part of it gives shaman vision of distant elements. The drops left over have a harder purpose.\n\nShaman carry them to the coast of Silverpine Forest, near the Sepulcher, where the Brazier of Everfount stands. There, they burn the drops with the bracers of a fallen, tainted elemental. The pure water cuts through the undead plague’s corruption and calls an untainted water spirit to commune with the shaman. So their communion with the element is complete.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_remaining-drops-of-purest-water-da6db23b425de0e7f944/1-0000.mp3", duration = 41.9787755, start = 0},
+    {file = "Audio/Transport/full_item_remaining-drops-of-purest-water-ad4bc426c68f9cafb8d3/1-0000.mp3", duration = 41.9265306, start = 0},
   },
 }
 P.transport["item:remedy-of-arugal"] = {
@@ -4030,7 +4030,7 @@ P.transport["item:renferrel-s-findings"] = {
   fullHash = "0903bb",
   text = "Renferrel's Findings. In Silverpine Forest, Renferrel's Findings carry his research south to Tarren Mill. Apothecary Renferrel gathered the notes at the Sepulcher for Apothecary Lydon, who is helping brew the Forsaken's New Plague. At the Sepulcher, Apothecary Renferrel records his work on the New Plague. The Royal Apothecary Society answers directly to Lady Sylvanas Windrunner, the Dark Lady. Researchers scattered across Lordaeron must join their work to find a breakthrough. So Renferrel sends his findings south to Tarren Mill, where fellow apothecaries can build on his results. Renferrel's papers link Silverpine Forest to Hillsbrad Foothills and the Forsaken's alchemical work. Apothecary Lydon awaits the notes in Tarren Mill, where he can compare them with his own research against the living and the Scourge. The roads through Hillsbrad are contested, so the Society depends on reliable couriers. Without them, its scattered research would soon stall.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_renferrel-s-findings-a4ceb07e182d126a20c2/1-0000.mp3", duration = 57.0253061, start = 0},
+    {file = "Audio/Transport/full_item_renferrel-s-findings-e2f397bda23d95177a31/1-0000.mp3", duration = 56.5028571, start = 0},
   },
 }
 P.transport["item:report-on-the-defias-brotherhood"] = {
@@ -4238,7 +4238,7 @@ P.transport["item:samuel-s-remains"] = {
   fullHash = "13b586",
   text = "Samuel's Remains. Near Deathknell, Samuel’s bones are taken from a Scourge thrall and laid beside Marla. Samuel Fipps and his wife Marla lived in peace in Tirisfal Glades before undeath’s plague swept across Lordaeron. Samuel succumbed and became a mindless servant of the Scourge. Marla escaped undeath, but Samuel struck her down. As she died, she asked to be buried beside him once his cursed form was laid to rest.\n\nNovice Elreth in Deathknell sends newly awoken Forsaken northeast of the settlement. There they must find Samuel’s wandering form, recover his bones, and bury them in the front row of the local cemetery.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_samuel-s-remains-c9520ab77c25dc28d8db/1-0000.mp3", duration = 38.635102, start = 0},
+    {file = "Audio/Transport/full_item_samuel-s-remains-c94e7b1410d2b27271f3/1-0000.mp3", duration = 36.4146939, start = 0},
   },
 }
 P.transport["item:sapphire-of-aku-mai"] = {
@@ -5142,7 +5142,7 @@ P.transport["item:the-lich-s-spellbook"] = {
   fullHash = "6fdbef",
   text = "The Lich's Spellbook. On Brightwater Lake's island, Bethor Iceshard seeks a spellbook guarded by a free-willed lich. He hopes its pages reveal the lich's skill and who he was in life. A free-willed lich keeps watch over an island in Brightwater Lake with skeletal minions. He distrusts the outside world and mistakes other undead for Scourge thralls. So he orders his guardians to kill anyone who approaches.\n\nBethor Iceshard seeks skilled necromancers for the Forsaken beneath Queen Sylvanas Windrunner. He sends an emissary into the island camp to take the lich's spellbook. Bethor hopes its pages reveal the master's power and identity before death took Lordaeron.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_the-lich-s-spellbook-0c64b7b65b7d05a9bceb/1-0000.mp3", duration = 40.3591837, start = 0},
+    {file = "Audio/Transport/full_item_the-lich-s-spellbook-978fba2611551d7d0543/1-0000.mp3", duration = 36.9632653, start = 0},
   },
 }
 P.transport["item:the-state-of-lakeshire"] = {
@@ -5238,7 +5238,7 @@ P.transport["item:thurman-s-remains"] = {
   fullHash = "dab6bc",
   text = "Thurman's Remains. At Agamand Mills, Thurman's remains lie among the ruins of the family's failed stand against the Scourge. The once-wealthy mill owner fell to the Plague and now wanders his ruined estate as an undead thrall. Before the Third War, the Agamands were Tirisfal Glades' wealthiest landowners. They owned extensive mills and employed dozens of local workers. When the Scourge swept across Lordaeron, Thurman Agamand and his kin fortified their estate instead of fleeing. Sure that their wealth and strong mills could withstand the attack, they persuaded their loyal workers to fight beside them.\n\nThe defense failed. The Agamands and their workers were slaughtered and made mindless servants of the Lich King. Coleman Farthing, a former worker who rose as Forsaken, now demands the destruction of his former masters. He seeks Thurman's remains as proof that the foolish patriarch paid for dooming his household.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_thurman-s-remains-9cc1fadfd15b7439f65b/1-0000.mp3", duration = 53.995102, start = 0},
+    {file = "Audio/Transport/full_item_thurman-s-remains-f861ad2b5b7335b1a639/1-0000.mp3", duration = 53.2897959, start = 0},
   },
 }
 P.transport["item:thurman-s-sewing-kit"] = {
@@ -5270,7 +5270,7 @@ P.transport["item:tirisfal-pumpkin"] = {
   fullHash = "98059b",
   text = "Tirisfal Pumpkin. At Solliden Farmstead, living humans still tend pumpkins in blighted Tirisfal. The Forsaken take the harvest for the Royal Apothecary Society’s mixtures. West of Brill, crops still grow despite the corruption spreading across Lordaeron. At Solliden Farmstead, living human farmers tend large orange pumpkins under the watch of the nearby Scarlet Crusade. The harvest feeds the farmers. For the Forsaken of Brill, the pumpkins are targets for sabotage and raw materials for Apothecary Johaan. Deathguard Simmer sends young Forsaken into the contested fields to steal pumpkins from the farmers. The vegetables do not feed the dead. They go into the Royal Apothecary Society’s cauldrons, where apothecaries test how natural plants react to plagues and experimental mixtures. Lordaeron’s remaining crops become tools against the living.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_tirisfal-pumpkin-1211c20d5c3b0c80047a/1-0000.mp3", duration = 49.2146939, start = 0},
+    {file = "Audio/Transport/full_item_tirisfal-pumpkin-92ab2b41f44320c5f914/1-0000.mp3", duration = 50.1028571, start = 0},
   },
 }
 P.transport["item:token-of-thievery"] = {
@@ -5822,7 +5822,7 @@ P.transport["item:wolf-heart-sample"] = {
   fullHash = "efb104",
   text = "Wolf Heart Sample. In the Barrens, Wolf Heart Sample carries diseased wolf tissue from Lordaeron to the Crossroads. The Royal Apothecary Society studies what northern toxins do to Kalimdor’s native beasts. Plagued wolves in Lordaeron’s ruins gave Apothecary Renferrel the hearts packed into Wolf Heart Sample. They crossed the Great Sea for the Forsaken’s Royal Apothecary Society, which studies venom, blights and biological reagents. A courier carries them to the Crossroads, joining Undercity’s experiments in the scarred Eastern Kingdoms to Kalimdor’s frontier outposts. At the Crossroads, Apothecary Helbrim receives Wolf Heart Sample. He studies how toxins from Lordaeron’s Scourge-ravaged lands affect Kalimdor’s native wildlife. The hearts’ preserved toxicity may reveal properties that improve Forsaken poisons and elixirs far from home.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_wolf-heart-sample-bfc828c22c2e1bcaad6a/1-0000.mp3", duration = 51.2261224, start = 0},
+    {file = "Audio/Transport/full_item_wolf-heart-sample-e602619549eeb695c0e8/1-0000.mp3", duration = 48.6661224, start = 0},
   },
 }
 P.transport["item:wolf-heart-samples"] = {
@@ -5830,7 +5830,7 @@ P.transport["item:wolf-heart-samples"] = {
   fullHash = "83cd75",
   text = "Wolf Heart Samples. In Silverpine Forest, wolf hearts carry a poison their living hosts endure. Apothecary Renferrel sends samples to the Royal Apothecary Society for study. While examining carcasses in Silverpine Forest, Apothecary Renferrel found a deadly compound in certain wolf hearts. The poison fills their tissue at a strength that should kill them, yet the wolves live. Renferrel set tissue samples aside for delivery to Undercity. The Forsaken study creatures that endure toxins as they seek mastery of biological warfare and prepare new reagents. Couriers carry the samples beneath the ruins of Lordaeron to Apothecary Zinge. She works at the Royal Apothecary Society's headquarters in the Apothecarium. Zinge and her colleagues prize new toxins. They dissect and test the tainted tissue to isolate its virulent compounds and learn how the beasts survive them. They hope to use that knowledge in their alchemical work.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_wolf-heart-samples-7a6cbbc10e47c296231e/1-0000.mp3", duration = 53.76, start = 0},
+    {file = "Audio/Transport/full_item_wolf-heart-samples-65e48573eacd37d42a6f/1-0000.mp3", duration = 53.8644898, start = 0},
   },
 }
 P.transport["item:wood-pulp"] = {

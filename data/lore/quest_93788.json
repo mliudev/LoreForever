@@ -1,0 +1,77 @@
+{
+ "key": "quest:93788",
+ "type": "quest",
+ "name": "Borrowed Blades",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93788
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Kreza Darkthorn asks you to take the lumberjacks\u2019 axes from Turner's Logging Camp. Their blades will supply materials for weapons in Rog'mar.",
+ "sections": [
+  {
+   "title": "At the Logging Camp",
+   "body": "Kreza Darkthorn keeps Rog'mar's forge running while Gur'dok breaks down the blades. The human presence to the south and Twilight to the west make gathering resources difficult. You are asked to bring back the lumberjacks' axes from Turner's Logging Camp, so their materials can be fashioned into weapons.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the axes?",
+   "aliases": [
+    "who sent me",
+    "Kreza's axes",
+    "who needs blades"
+   ],
+   "answer": "Kreza Darkthorn in Rog'mar asks you to retrieve the axes from Turner's Logging Camp."
+  },
+  {
+   "q": "Why does Kreza want the lumberjacks' axes?",
+   "aliases": [
+    "why axes",
+    "what are axes for",
+    "weapon materials"
+   ],
+   "answer": "Gur'dok will break down the blades, and Kreza will use their materials to make weapons."
+  },
+  {
+   "q": "Where is Turner's Logging Camp?",
+   "aliases": [
+    "logging camp location",
+    "where are the lumberjacks",
+    "Turner's camp"
+   ],
+   "answer": "Turner's Logging Camp is south along the river, by the mill."
+  },
+  {
+   "q": "What makes gathering resources difficult?",
+   "aliases": [
+    "why resources are hard",
+    "human presence",
+    "Twilight nearby"
+   ],
+   "answer": "The human presence to the south and Twilight to the west make the fight for resources difficult."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "borrowed blades",
+  "forge",
+  "gur'dok",
+  "kreza darkthorn",
+  "lumberjacks",
+  "rog'mar",
+  "turner's logging camp",
+  "weapons",
+  "woodworker's axe"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Borrowed Blades"
+ ]
+}

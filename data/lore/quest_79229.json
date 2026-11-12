@@ -1,0 +1,91 @@
+{
+ "key": "quest:79229",
+ "type": "quest",
+ "name": "Highway Robbery",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79229
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "In Desolace, a pillaged campsite holds clues to a violent attack. You seek someone who can make sense of what happened.",
+ "sections": [
+  {
+   "title": "A Ransacked Camp",
+   "body": "Two humans and a dwarf lie among the remains at a campsite in Desolace. The marks on their bones point to a savage attack, while the stolen supplies show that an animal was not responsible. Their wounds do not match centaur weapons either. You are asked to find someone in Desolace who knows these lands and can explain the signs.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who was attacked at the campsite?",
+   "aliases": [
+    "who died at camp",
+    "campsite victims",
+    "humans and dwarf"
+   ],
+   "answer": "The remains indicate that two humans and a dwarf were attacked."
+  },
+  {
+   "q": "What happened at the campsite?",
+   "aliases": [
+    "what happened here",
+    "pillaged camp",
+    "camp attack"
+   ],
+   "answer": "The campsite was pillaged, and the remains show signs of a savage attack."
+  },
+  {
+   "q": "Was an animal responsible?",
+   "aliases": [
+    "animal attack",
+    "beast did it",
+    "who attacked them"
+   ],
+   "answer": "The looted supplies suggest the attack was not done by an animal."
+  },
+  {
+   "q": "Were the wounds made by centaurs?",
+   "aliases": [
+    "centaur attack",
+    "centaur weapons",
+    "did centaurs do it"
+   ],
+   "answer": "The wounds do not match centaur weaponry."
+  },
+  {
+   "q": "Who can explain the attack?",
+   "aliases": [
+    "who knows about camp",
+    "ask scavenger",
+    "who to find"
+   ],
+   "answer": "You are asked to find someone in Desolace experienced in scavenging these lands."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "attack",
+  "campsite",
+  "centaur",
+  "desolace",
+  "dwarf",
+  "highway robbery",
+  "human",
+  "pillaged camp",
+  "scavenger"
+ ],
+ "related": [
+  "zone:desolace",
+  "topic:centaur",
+  "topic:dwarf",
+  "topic:human"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Highway Robbery"
+ ]
+}

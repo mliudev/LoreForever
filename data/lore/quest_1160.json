@@ -1,0 +1,65 @@
+{
+ "key": "quest:1160",
+ "type": "quest",
+ "name": "Test of Lore",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1160
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Parqual Fintallas in Undercity asks you to find *The Beginnings of the Undead Threat*. The book is the subject of his request.",
+ "sections": [
+  {
+   "title": "Parqual's Request",
+   "body": "The name *The Beginnings of the Undead Threat* is what you seek for Parqual Fintallas in Undercity. You are to bring the book back to him.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Parqual want?",
+   "aliases": [
+    "parqual request",
+    "what book does he want"
+   ],
+   "answer": "Parqual Fintallas asks you to find *The Beginnings of the Undead Threat* and return it to him in Undercity."
+  },
+  {
+   "q": "Where do I return the book?",
+   "aliases": [
+    "where return book",
+    "parqual location"
+   ],
+   "answer": "Return *The Beginnings of the Undead Threat* to Parqual Fintallas in Undercity."
+  },
+  {
+   "q": "What is the book called?",
+   "aliases": [
+    "beginnings book",
+    "undead threat book"
+   ],
+   "answer": "The book is called *The Beginnings of the Undead Threat*."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "book",
+  "parqual fintallas",
+  "test of lore",
+  "the beginnings of the undead threat",
+  "undercity"
+ ],
+ "related": [
+  "quest:1599",
+  "zone:undercity",
+  "npc:parqual-fintallas"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Test of Lore"
+ ]
+}

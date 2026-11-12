@@ -4,6 +4,12 @@
 -- with its note, and two buttons. Clear pin takes it off the maps at once (Journey.ClearPin), and Willo takes it out of
 -- their notebook after their next save; Keep, Escape or SHOW seconds of nothing leave it be. The floating player's
 -- look (Hooks.KeyPrompt): solid, a gold rim, buttons sized to their labels. Never in combat: a fight first, then the card.
+--
+-- A pin cleared by a right-click on a map gets the same card, saying so, with Put it back and Done, for SHOW seconds:
+-- until their next save Willo hasn't seen it, so Put it back undoes it whole, on the maps and in their notebook (Mike's
+-- QA 11/11: a right-click on the minimap's rim took the Darkmoon Faire pin with one chat line he never saw, and at his
+-- next /reload Willo took it out of his notebook; he thought his next pin had wiped it). Not after this card's own Clear
+-- pin, which they just read and chose, and not while the game's interface is hidden (the Design Lead, 11/11).
 
 
 local _, ns = ...
@@ -46,8 +52,17 @@ local function build()
   f.clear:SetPoint("BOTTOMLEFT", 16, 14)
   f.keep = button(L["Keep"], 80)
   f.keep:SetPoint("BOTTOMRIGHT", -16, 14)
-  f.clear:SetScript("OnClick", function() if f.pin then PinArrive.Clear(f.pin) else f:Hide() end end)   -- (no pin: a sample)
+  f.clear:SetScript("OnClick", function() if f.pin then PinArrive.Clear(f.pin, true) else f:Hide() end end)   -- (no pin: a sample)
   f.keep:SetScript("OnClick", function() f:Hide() end)
+  -- Just cleared: Put it back and Done in their place.
+  f.back = button(L["Put it back"], 100)
+  f.back:SetPoint("BOTTOMLEFT", 16, 14)
+  f.done = button(L["Done"], 80)
+  f.done:SetPoint("BOTTOMRIGHT", -16, 14)
+  f.back:SetScript("OnClick", function() if f.cleared then PinArrive.PutBack(f.cleared) else f:Hide() end end)
+  f.done:SetScript("OnClick", function() f:Hide() end)
+  f.back:Hide()
+  f.done:Hide()
   table.insert(UISpecialFrames, "LoreForeverPinArrive")   -- Escape closes it
   -- Counts down while the mouse is away, like the new-page note.
   f:SetScript("OnUpdate", function(self, dt)
@@ -56,7 +71,7 @@ local function build()
     self.left = (self.left or SHOW) - (dt or 0)
     if self.left <= 0 then self:Hide() end
   end)
-  f:SetScript("OnHide", function(self) self.pin, self.sample = nil, nil end)
+  f:SetScript("OnHide", function(self) self.pin, self.sample, self.cleared = nil, nil, nil end)
   f:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_BOTTOM")
     T.Tip(L["Drag: move it."], "tipDim")
@@ -68,9 +83,17 @@ local function build()
   return f
 end
 
+-- Which pair of buttons the card shows: Clear pin and Keep, or (just cleared) Put it back and Done.
+local function buttons(cleared)
+  card.clear:SetShown(not cleared)
+  card.keep:SetShown(not cleared)
+  card.back:SetShown(cleared and true or false)
+  card.done:SetShown(cleared and true or false)
+end
+
 -- The card's words, and its height to fit them.
-local function fill(title, note)
-  card.title:SetText(GOLD .. string.format(L["You reached %s's pin: %s"], ns.COMPANION_NAME or "Willo", title) .. "|r")
+local function fill(title, note, said)
+  card.title:SetText(GOLD .. (said or string.format(L["You reached %s's pin: %s"], ns.COMPANION_NAME or "Willo", title)) .. "|r")
   card.note:SetText(note or "")
   local h = 14 + (tonumber(card.title:GetStringHeight()) or 14) + (note and 4 + (tonumber(card.note:GetStringHeight()) or 12) or 0)
   card:SetHeight(math.max(92, h + 14 + 22 + 14))
@@ -81,7 +104,8 @@ function PinArrive.Reached(pin)
   if type(pin) ~= "table" or not pin.key then return false end
   if InCombatLockdown and InCombatLockdown() then waiting = pin; return true end
   card = card or build()
-  card.pin, card.sample = pin, nil
+  card.pin, card.sample, card.cleared = pin, nil, nil
+  buttons(false)
   fill(pin.title or "", pin.note)
   card.left = SHOW
   card:Show()
@@ -92,7 +116,8 @@ end
 -- Done.
 function PinArrive.Sample()
   card = card or build()
-  card.pin, card.sample = nil, true
+  card.pin, card.sample, card.cleared = nil, true, nil
+  buttons(false)
   fill(L["Drag this card too"], nil)
   card.left = SHOW
   card:Show()
@@ -106,14 +131,33 @@ function PinArrive.HideSample()
   if card and card.sample then card:Hide() end
 end
 
--- Clear pin: off the maps now; Willo takes it out of the notebook after the next save.
-function PinArrive.Clear(pin)
+-- Clear pin: off the maps now; Willo takes it out of the notebook after the next save. fromCard: the arrival card's own
+-- Clear pin (no receipt card after it).
+function PinArrive.Clear(pin, fromCard)
   if card and card.pin and card.pin.key == pin.key then card:Hide() end
   if not (ns.Journey and ns.Journey.ClearPin and ns.Journey.ClearPin(pin)) then return false end
   if ns.WorldPins and ns.WorldPins.Update then pcall(ns.WorldPins.Update) end
   local J = ns.Journey
   if J.FocusMap and J.focus then pcall(J.FocusMap, J.focus) end
   say(string.format(L["Cleared the pin: %s."], pin.title or ""))
+  -- The card says it too, with Put it back (a fight or not: it answers their own click on a map).
+  if fromCard or (UIParent and UIParent.IsShown and not UIParent:IsShown()) then return true end
+  card = card or build()
+  card.pin, card.sample, card.cleared = nil, nil, pin
+  buttons(true)
+  fill(pin.title or "", nil, string.format(L["Cleared the pin: %s."], pin.title or ""))
+  card.left = SHOW
+  card:Show()
+  return true
+end
+
+-- Put it back: the pin just cleared is on the maps again, and Willo never takes it out.
+function PinArrive.PutBack(pin)
+  if card and card.cleared == pin then card:Hide() end
+  if not (ns.Journey and ns.Journey.UnclearPin and ns.Journey.UnclearPin(pin)) then return false end
+  if ns.WorldPins and ns.WorldPins.Update then pcall(ns.WorldPins.Update) end
+  local J = ns.Journey
+  if J.FocusMap and J.focus then pcall(J.FocusMap, J.focus) end
   return true
 end
 
@@ -128,7 +172,8 @@ end
 -- What the sims read: the card, if it's up ({title, note}).
 function PinArrive.Shown()
   if not (card and card:IsShown()) then return nil end
-  return { title = card.title:GetText(), note = card.note:GetText(), key = card.pin and card.pin.key }
+  return { title = card.title:GetText(), note = card.note:GetText(), key = (card.pin or card.cleared or {}).key,
+    cleared = card.cleared and true or nil }
 end
 
 local events = CreateFrame("Frame")

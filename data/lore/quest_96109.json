@@ -1,0 +1,88 @@
+{
+ "key": "quest:96109",
+ "type": "quest",
+ "name": "A Hunter's Quiver",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96109
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Neza Bloodsnout at Rog'mar needs lion hides for a hunter's quiver. You gather pelts from the lions on the southern hill.",
+ "sections": [
+  {
+   "title": "A hunter's gear",
+   "body": "A hunter's weapons need a quiver that holds many arrows without slowing its wearer. Neza Bloodsnout at Rog'mar asks you to gather prized lion hides for one. The lions hunt in packs, so Neza warns you to watch for being surrounded.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who needs the lion hides?",
+   "aliases": [
+    "who wants hides",
+    "Neza Bloodsnout hides"
+   ],
+   "answer": "Neza Bloodsnout at Rog'mar needs prized lion hides for a hunter's quiver."
+  },
+  {
+   "q": "What are the hides for?",
+   "aliases": [
+    "lion hide purpose",
+    "quiver hides"
+   ],
+   "answer": "The lion hides are material for a durable quiver that fits snugly and can hold many arrows without slowing its wearer."
+  },
+  {
+   "q": "Where are the lions?",
+   "aliases": [
+    "lion hill",
+    "where lions"
+   ],
+   "answer": "The lions gather on a hill to the south, visible from Rog'mar."
+  },
+  {
+   "q": "Why does Neza want lion pelts?",
+   "aliases": [
+    "why lion hides",
+    "lions for quiver"
+   ],
+   "answer": "Neza says lion pelts are well suited to life as a hunter on the plains."
+  },
+  {
+   "q": "What warning does Neza give?",
+   "aliases": [
+    "lion warning",
+    "packs"
+   ],
+   "answer": "Neza warns that the lions hunt in packs and may surround you."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Hunter",
+   "text": "As a hunter, you need a quiver that carries many arrows without slowing you down."
+  }
+ ],
+ "keywords": [
+  "arrows",
+  "hunter",
+  "hunter's quiver",
+  "lion hides",
+  "lions",
+  "neza bloodsnout",
+  "prized lion hides",
+  "rog'mar"
+ ],
+ "related": [
+  "topic:hunter",
+  "quest:95329"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Hunter's Quiver"
+ ]
+}

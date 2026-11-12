@@ -1,0 +1,82 @@
+{
+ "key": "quest:95144",
+ "type": "quest",
+ "name": "Overseas Delivery",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95144
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Fizzgrimble asks you to carry a sealed crate across the sea to Friz Frazzlespark in the Riverglades. Its contents are meant to remain a surprise until it reaches Powderfuse Port.",
+ "sections": [
+  {
+   "title": "A Careful Crossing",
+   "body": "Fizzgrimble sends you east toward Steamwheedle Port, where a ship usually offers passage across the sea. The crate is bound for Friz Frazzlespark at Powderfuse Port in the Riverglades. Handle it gently on the way; Fizzgrimble warns against opening or jolting it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is the package for?",
+   "aliases": [
+    "who gets the crate",
+    "friz frazzlespark package"
+   ],
+   "answer": "Friz Frazzlespark is waiting for the crate at Powderfuse Port in the Riverglades."
+  },
+  {
+   "q": "Where should I take the crate?",
+   "aliases": [
+    "crate destination",
+    "where is powderfuse port"
+   ],
+   "answer": "Take it to Friz Frazzlespark at Powderfuse Port in the Riverglades."
+  },
+  {
+   "q": "Where can I find passage across the sea?",
+   "aliases": [
+    "how do i cross",
+    "steamwheedle ship"
+   ],
+   "answer": "Fizzgrimble recommends heading east to Steamwheedle Port, where a ship usually provides safe passage."
+  },
+  {
+   "q": "What should I do with the crate on the way?",
+   "aliases": [
+    "how to carry crate",
+    "can i open the package"
+   ],
+   "answer": "Keep the crate closed and avoid tilting, shaking, or making sudden movements with it."
+  },
+  {
+   "q": "What is inside the crate?",
+   "aliases": [
+    "crate contents",
+    "what's the surprise"
+   ],
+   "answer": "Friz Frazzlespark asks you to turn around while they look inside, keeping the contents a surprise."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "fizzgrimble",
+  "friz frazzlespark",
+  "mysterious crate",
+  "overseas delivery",
+  "powderfuse port",
+  "riverglades",
+  "steamwheedle port"
+ ],
+ "related": [
+  "subzone:steamwheedle-port",
+  "zone:riverglades"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Overseas Delivery"
+ ]
+}

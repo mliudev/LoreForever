@@ -1,0 +1,102 @@
+{
+ "key": "quest:97332",
+ "type": "quest",
+ "name": "Twice Misplaced Trust",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97332
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A goblin asks you to carry an urgent package to Wharfmaster Whizzbuzz at Powderfuse Port. He trusts you after you rescued lost cargo and a captured goblin.",
+ "sections": [
+  {
+   "title": "A Courier Needed",
+   "body": "The goblin has another delivery to make, but he does not trust Zimmix with it. No other courier will be available before Zimmix, so he asks you to take the package to Wharfmaster Whizzbuzz at Powderfuse Port. You have already rescued lost cargo and a captured goblin, which has earned the sender's trust.",
+   "spoiler": 0
+  },
+  {
+   "title": "At Powderfuse Port",
+   "body": "Whizzbuzz opens the crate and is surprised to find that Lozgil has finally sent what was expected. Lozgil was pressed by a harsh letter and a paid courier who threatened him. Whizzbuzz wonders whether a ship's captain was captured or a zeppelin crashed, then notes that the port has no zeppelin tower.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks me to deliver the package?",
+   "aliases": [
+    "who wants delivery",
+    "goblin sender",
+    "who sent me"
+   ],
+   "answer": "A goblin asks you to carry the package to Wharfmaster Whizzbuzz at Powderfuse Port."
+  },
+  {
+   "q": "Why does the goblin trust me?",
+   "aliases": [
+    "why me",
+    "why trust me",
+    "trust reason"
+   ],
+   "answer": "You have rescued lost cargo and a captured goblin, so the sender considers you trustworthy."
+  },
+  {
+   "q": "Why not have Zimmix deliver it?",
+   "aliases": [
+    "why not zimmix",
+    "zimmix delivery",
+    "no zimmix"
+   ],
+   "answer": "The sender does not trust Zimmix with this delivery."
+  },
+  {
+   "q": "Where does the package go?",
+   "aliases": [
+    "package destination",
+    "where deliver",
+    "powderfuse port"
+   ],
+   "answer": "The package is meant for Wharfmaster Whizzbuzz at Powderfuse Port in the Riverglades."
+  },
+  {
+   "q": "Who is Lozgil?",
+   "aliases": [
+    "lozgil package",
+    "who lozgil",
+    "lozgil"
+   ],
+   "answer": "Lozgil is the one Whizzbuzz credits with finally sending the package."
+  },
+  {
+   "q": "Why is Whizzbuzz surprised?",
+   "aliases": [
+    "whizzbuzz reaction",
+    "crate surprise",
+    "what's in crate"
+   ],
+   "answer": "Whizzbuzz is surprised when he peeks inside the crate and sees that Lozgil has finally sent what was expected."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "goblin courier",
+  "lozgil",
+  "powderfuse port",
+  "riverglades",
+  "twice misplaced trust",
+  "twice reordered package",
+  "whizzbuzz",
+  "zimmix"
+ ],
+ "related": [
+  "zone:riverglades",
+  "topic:goblin"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Twice Misplaced Trust"
+ ]
+}

@@ -50,8 +50,8 @@
     "wet job location",
     "eagles nest location"
    ],
-   "answer": "The stash lies high on a mountainside, at an eagle's nest on the rock face described as carved from the waterfalls of time. A messenger bag is partly buried there.",
-   "q": "Where is the stash hidden?"
+   "answer": "The stash is the messenger bag in the mound of dirt in the Stonetalon Mountains, where Wet Job starts. Its parchment sends you to the eagle's nest: the Stonewrought Dam in Loch Modan, where a carved figurine waits.",
+   "q": "Where is the stash, and where is the eagle's nest?"
   },
   {
    "aliases": [
@@ -59,7 +59,7 @@
     "wet job items",
     "what do you find"
    ],
-   "answer": "The buried messenger bag holds provisions and parchment, protected by dwarven craft.",
+   "answer": "The buried messenger bag in the Stonetalon Mountains holds provisions and parchment, protected by dwarven craft.",
    "q": "What is found in the messenger bag?"
   },
   {
@@ -67,7 +67,7 @@
     "why is it called wet job",
     "wet job name meaning"
    ],
-   "answer": "The name refers to the mountain landmarks, with waterfalls of time and damp soil around the hidden bag.",
+   "answer": "The name fits where it leads: the eagle's nest is the Stonewrought Dam in Loch Modan, among its waterfalls.",
    "q": "Why is the task called Wet Job?"
   },
   {

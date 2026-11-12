@@ -1,0 +1,72 @@
+{
+ "key": "quest:96063",
+ "type": "quest",
+ "name": "Gaseous Gold",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96063
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Sleebo Fizzlespout wants marsh gas from the ponds southwest of here. He hopes to use it to fuel a new engine.",
+ "sections": [
+  {
+   "title": "A New Fuel",
+   "body": "Sleebo Fizzlespout sees gas rising from vents near the water in the marshy ponds to the southwest. He is developing an engine that runs on the gas and asks you to gather marsh gas vials for him. The work could help put this fuel to use in science and industry.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for marsh gas?",
+   "aliases": [
+    "who wants gas",
+    "Sleebo Fizzlespout"
+   ],
+   "answer": "Sleebo Fizzlespout asks you to gather marsh gas vials for him."
+  },
+  {
+   "q": "Why does Sleebo want the gas?",
+   "aliases": [
+    "what's the gas for",
+    "gas engine"
+   ],
+   "answer": "Sleebo is developing a new kind of engine that runs on marsh gas."
+  },
+  {
+   "q": "Where does the marsh gas come from?",
+   "aliases": [
+    "where is the gas",
+    "gas vents"
+   ],
+   "answer": "The gas rises from vents near the water in marshy ponds southwest of Sleebo."
+  },
+  {
+   "q": "What is marsh gas used for?",
+   "aliases": [
+    "marsh gas purpose",
+    "gas fuel"
+   ],
+   "answer": "Sleebo hopes to use marsh gas as fuel for his new engine."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "engine",
+  "gas vials",
+  "gaseous gold",
+  "industry",
+  "marsh gas",
+  "science",
+  "sleebo fizzlespout",
+  "vents"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Gaseous Gold"
+ ]
+}

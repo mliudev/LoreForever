@@ -1,7 +1,9 @@
 -- Willo's big moments (LOR-967; Mike, 10/31: "go A"): at a new level, a quest carried a long time, an epic and a few
 -- more, the add-on twinkles Willo's sky for a moment (Strip.Moment) with a page saying what happened, and Willo,
 -- reading it, says one of her saved lines (companion/lore_companion/moments.py). Only for a Willo that asks for them
--- (Strip.ChimeFromWillo: her Chime in setting, Big moments or Small ones too), with Live game info on, in English.
+-- (Strip.ChimeFromWillo: her Chime in setting, Big moments or Small ones too), with Live game info on, whatever language
+-- the add-on reads in: the page carries no words, and Willo cheers in English as she answers (Mike, 10/13: for a player
+-- who reads the add-on in another language, Willo answers as usual). A German voice pack had silenced them all.
 -- The page, the outer ring's 5 bytes: 0xC5 (kind 3, low bits 5), then 32 bits big-endian: what (4 bits, KIND), whose
 -- (12: the low bits of the CRC-32 of Journey.CharKey, as Strip.Identity's), and which (16: the level, the quest's or
 -- the item's id, a hash for a faction or a craft, the day for a rough patch). Willo keeps what she has said, so a page
@@ -11,13 +13,16 @@
 -- watches a cutscene, hears a Lore Forever narration, asks Willo or hears her answer, takes a journey picture, moves
 -- the sky, sits at a loading screen or has the interface hidden. One at a
 -- time, the biggest; one per GAP and HOUR_MAX an hour (Willo counts the same: about one an hour in real play); one
--- that waited too long is let go.
+-- that waited too long is let go. Small ones (a turn-in, a blue) keep their own count and never spend a big one's
+-- slot: a big one waits only on the last big one, while a small one waits GAP after any (LOR-1412: with Small ones
+-- too, turn-ins and blues took the hour and about half the level-ups were never said).
 
 local _, ns = ...
 local Moments = {}
 ns.Moments = Moments
 
 -- The kinds, biggest first: when two come together, the bigger one goes.
+-- Kinds 10 to 14 are Moments.CUT (below). Kind 15 stays free: the door to a wider page layout (the full number).
 Moments.KIND = { level = 1, quest = 2, epic = 3, mount = 4, rep = 5, craft = 6, rough = 7, turnin = 8, blue = 9 }
 local KIND = Moments.KIND
 local SMALL = { turnin = true, blue = true }     -- with Chime in "Small ones too" only
@@ -35,13 +40,23 @@ local function try(fn, ...)
   if ok and ns.Context.Usable(v) then return v end
 end
 
--- When the last ones went (time()), and the day of the last rough patch: kept across logins.
+-- When the last ones went (time(); at: big ones, small: small ones), and the day of the last rough patch: kept across
+-- logins.
 local function kept()
   local db = _G.LoreForeverDB
-  if type(db) ~= "table" then return { at = {} } end
+  if type(db) ~= "table" then return { at = {}, small = {} } end
   if type(db.moments) ~= "table" then db.moments = {} end
   if type(db.moments.at) ~= "table" then db.moments.at = {} end
+  if type(db.moments.small) ~= "table" then db.moments.small = {} end
   return db.moments
+end
+
+-- The times of the last hour in list (oldest first), kept in place.
+local function hour(k, field, wall)
+  local recent = {}
+  for _, at in ipairs(k[field]) do if type(at) == "number" and wall - at < 3600 then recent[#recent + 1] = at end end
+  k[field] = recent
+  return recent
 end
 
 -- Whose: the character's tag (nil when the game doesn't say who: no page).
@@ -53,14 +68,19 @@ local function whose()
   return ns.Strip.CRC32(key) % 4096
 end
 
+-- A number past 16 bits (Forever's own items and quests are numbered past 65,535) goes as its low 16 bits under the
+-- kind's CUT number, so Willo never takes it for the thing that really has those 16 bits (Mike's Grip of Fear, 271208,
+-- would have been said as Tablet of Flametongue Weapon II, 9064; LOR-1412). A Willo that doesn't know CUT ignores it.
+Moments.CUT = { quest = 10, epic = 11, mount = 12, turnin = 13, blue = 14 }
 function Moments.Page(kind, tag, id)
-  local v = KIND[kind] * 268435456 + tag * 65536 + id % 65536
+  local k = (id >= 65536 and Moments.CUT[kind]) or KIND[kind]
+  local v = k * 268435456 + tag * 65536 + id % 65536
   return { 0xC5, math.floor(v / 16777216) % 256, math.floor(v / 65536) % 256, math.floor(v / 256) % 256, v % 256 }
 end
 
 local function wants(kind)
-  local chime, C = ns.Strip.ChimeFromWillo(), ns.Companion
-  return chime ~= nil and ns.Strip.On() and (not C or C.English()) and (not SMALL[kind] or chime == "small")
+  local chime = ns.Strip.ChimeFromWillo()
+  return chime ~= nil and ns.Strip.On() and (not SMALL[kind] or chime == "small")
 end
 
 local loading
@@ -91,7 +111,7 @@ function Moments.Queue(kind, id)
   if not tag then return end
   local t = now()
   if pending and KIND[pending.kind] <= KIND[kind] then return end
-  pending = { kind = kind, id = math.floor(id) % 65536, tag = tag, at = t, after = pending and pending.after or t + GATHER }
+  pending = { kind = kind, id = math.floor(id) % 4294967296, tag = tag, at = t, after = pending and pending.after or t + GATHER }
   if frame then frame:Show() end
 end
 
@@ -103,17 +123,21 @@ local function look()
   local hold = (p.kind == "level" or p.kind == "rough") and LONG_HOLD or HOLD
   if t - p.at > hold or not wants(p.kind) then pending = nil; return end
   local k, wall = kept(), time()
-  local recent = {}
-  for _, at in ipairs(k.at) do if type(at) == "number" and wall - at < 3600 then recent[#recent + 1] = at end end
-  k.at = recent
+  local field = SMALL[p.kind] and "small" or "at"
+  local big, small = hour(k, "at", wall), hour(k, "small", wall)
+  local recent = field == "small" and small or big
   if #recent >= HOUR_MAX then pending = nil; return end
-  -- Inside GAP it waits, as for a fight, until its hold runs out (the Architect, 10/31).
-  if (recent[#recent] and wall - recent[#recent] < GAP) or held() then return end
+  -- Inside GAP it waits, as for a fight, until its hold runs out (the Architect, 10/31). A big one waits only on the
+  -- last big one; a small one on the last of either.
+  local last = big[#big]
+  if field == "small" and (small[#small] or 0) > (last or 0) then last = small[#small] end
+  if (last and wall - last < GAP) or held() then return end
   pending = nil
   recent[#recent + 1] = wall
   -- Stopped part way (a fight came): not counted, and it goes again when it can.
   local function again()
-    for i = #k.at, 1, -1 do if k.at[i] == wall then table.remove(k.at, i); break end end
+    local list = k[field]
+    for i = #list, 1, -1 do if list[i] == wall then table.remove(list, i); break end end
     if not pending or KIND[pending.kind] > KIND[p.kind] then
       p.after = now() + GATHER
       pending = p

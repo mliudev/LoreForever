@@ -1,0 +1,83 @@
+{
+ "key": "quest:95417",
+ "type": "quest",
+ "name": "The Purple Ones",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95417
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Clubtoe asks you to look for ogres missing from the caves beneath Sunnyglade. Some who return are changed, and he wants to understand why.",
+ "sections": [
+  {
+   "title": "Clubtoe's Concern",
+   "body": "Clubtoe has watched friends go into the caves beneath Sunnyglade and fail to return. Some come back purple and no longer act like his friends. He asks you to search the caves for the missing ogres, though he fears you may return changed as well.",
+   "spoiler": 0
+  },
+  {
+   "title": "In the Caves",
+   "body": "Beneath Sunnyglade, you find an ogre dead among dark runes. The powers of the Twilight Hammer's ritual have overwhelmed him.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Clubtoe?",
+   "aliases": [
+    "clubtoe",
+    "who's clubtoe"
+   ],
+   "answer": "Clubtoe is an ogre whose friends have gone missing in the caves beneath Sunnyglade."
+  },
+  {
+   "q": "Why does Clubtoe ask me to search the caves?",
+   "aliases": [
+    "missing ogres",
+    "find clubtoe's friends",
+    "cave ogres"
+   ],
+   "answer": "Some of Clubtoe's friends do not return from the caves, and some who come back are purple and act differently."
+  },
+  {
+   "q": "Where are the missing ogres?",
+   "aliases": [
+    "where ogres go",
+    "sunnyglade cave",
+    "ogres missing"
+   ],
+   "answer": "Clubtoe asks you to look for the missing ogres in the caves beneath Sunnyglade."
+  },
+  {
+   "q": "What is strange about the ogres who return?",
+   "aliases": [
+    "purple ogres",
+    "why purple",
+    "ogres act weird"
+   ],
+   "answer": "Some return purple and no longer act like Clubtoe's friends."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "caves",
+  "clubtoe",
+  "dark runes",
+  "missing ogres",
+  "ogres",
+  "purple",
+  "sunnyglade",
+  "the purple ones",
+  "twilight hammer"
+ ],
+ "related": [
+  "subzone:sunnyglade"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Purple Ones"
+ ]
+}

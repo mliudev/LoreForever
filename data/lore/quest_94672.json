@@ -1,0 +1,82 @@
+{
+ "key": "quest:94672",
+ "type": "quest",
+ "name": "Encroaching Twilight",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94672
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Tran'gul warns that Twilight's Hammer has struck a human settlement west of Rog'mar. You are sent to Sunnyglade to thin the cult's numbers before it gains a foothold nearby.",
+ "sections": [
+  {
+   "title": "A Threat Nearby",
+   "body": "The human settlement to the west has already been ravaged, and Rog'mar may be next. Tran'gul sends you to Sunnyglade, where Twilight's Hammer has begun its campaign against those it calls heretics. Its raiders and neophytes threaten to establish a foothold close to Rog'mar.",
+   "spoiler": 0
+  },
+  {
+   "title": "After the Fight",
+   "body": "With the cult's numbers diminished, Tran'gul can seek the source of its unprecedented expansion.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tran'gul worried about?",
+   "aliases": [
+    "who's the threat",
+    "twilight hammer threat"
+   ],
+   "answer": "Tran'gul fears Twilight's Hammer, a cult attacking those it deems heretics."
+  },
+  {
+   "q": "What happened to the human settlement?",
+   "aliases": [
+    "settlement west",
+    "what happened west"
+   ],
+   "answer": "Twilight's Hammer has ravaged a human settlement west of Rog'mar."
+  },
+  {
+   "q": "Why am I going to Sunnyglade?",
+   "aliases": [
+    "why sunnyglade",
+    "what's in sunnyglade"
+   ],
+   "answer": "Tran'gul sends you to Sunnyglade to thin the numbers of Twilight's Hammer."
+  },
+  {
+   "q": "Who might the cult target next?",
+   "aliases": [
+    "who's next",
+    "rogmar next"
+   ],
+   "answer": "Tran'gul fears Rog'mar may be next after the human settlement to the west."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "encroaching twilight",
+  "human settlement",
+  "rog'mar",
+  "sunnyglade",
+  "tran'gul",
+  "twilight neophytes",
+  "twilight raiders",
+  "twilight's hammer"
+ ],
+ "related": [
+  "subzone:sunnyglade",
+  "zone:riverglades",
+  "topic:twilight-s-hammer",
+  "topic:human"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Encroaching Twilight"
+ ]
+}

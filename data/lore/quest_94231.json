@@ -1,0 +1,79 @@
+{
+ "key": "quest:94231",
+ "type": "quest",
+ "name": "Craftsman's Writ: Moonsight Rifle",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94231
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ requests a Moonsight Rifle and names a delivery place and payment. The buyer wants the exchange kept quiet.",
+ "sections": [
+  {
+   "title": "A Quiet Exchange",
+   "body": "A faded note asks you to bring one Moonsight Rifle to the marked place, with payment arranged there. The writ can pass from hand to hand, but you need to carry it to complete the exchange. The buyer warns that your approach is drawing attention and may ruin their cover.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Rifle",
+   "body": "Once the Moonsight Rifle is presented, the buyer praises its power against satyrs. They tell you to step aside before the crossfire begins.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "moonsight rifle writ",
+    "what rifle do they want"
+   ],
+   "answer": "The writ asks for one Moonsight Rifle, to be delivered at the place marked on your map."
+  },
+  {
+   "q": "Can I give the writ to someone else?",
+   "aliases": [
+    "is the writ transferable",
+    "pass the writ"
+   ],
+   "answer": "Yes. The note says the writ can be transferred, but it must be in your possession to complete the exchange."
+  },
+  {
+   "q": "Why does the buyer want subtlety?",
+   "aliases": [
+    "why so secretive",
+    "blowing the cover"
+   ],
+   "answer": "The buyer says your approach is drawing attention and threatens to expose their cover."
+  },
+  {
+   "q": "Who is the rifle meant to be used against?",
+   "aliases": [
+    "rifle for satyrs",
+    "moonsight rifle target"
+   ],
+   "answer": "The buyer says the rifle could knock a satyr's head clean off."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cover",
+  "craftsman's writ",
+  "crossfire",
+  "delivery",
+  "moonsight rifle",
+  "payment",
+  "rifle",
+  "satyr"
+ ],
+ "related": [
+  "topic:satyr"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Moonsight Rifle"
+ ]
+}

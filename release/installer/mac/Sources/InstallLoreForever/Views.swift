@@ -96,10 +96,12 @@ struct ContentView: View {
     @ObservedObject var model: AppModel
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 13) { screen }
+        // Change opens in the window itself, which grows to fit it: as a sheet it was cut off by the short window.
+        VStack(alignment: .leading, spacing: 13) {
+            if model.showChange { ChangeSheet(model: model, draft: model.pick) } else { screen }
+        }
             .padding(.top, 18).padding(.horizontal, 20).padding(.bottom, 16)
             .frame(width: 520, alignment: .topLeading)
-            .sheet(isPresented: $model.showChange) { ChangeSheet(model: model, draft: model.pick) }
             .sheet(isPresented: $model.askCancel) { CancelSheet(model: model) }
     }
 
@@ -137,7 +139,7 @@ struct ContentView: View {
             Footer { Button("Done") { model.quitAndTidy() }.buttonStyle(GoButton()).keyboardShortcut(.defaultAction) }
         case let .partial(names):
             TopRow(title: names.count == 1 ? "Installed, except one part" : "Installed, except \(names.count) parts",
-                   detail: "\(names.joined(separator: ", ")) didn't download. Everything else is in place.")
+                   detail: "\(names.joined(separator: ", ")) didn't install. Everything else is in place.")
             Footer {
                 Button("Done") { model.quitAndTidy() }.buttonStyle(PlainButton())
                 Button("Try Again") { model.tryAgainAfterPartial() }.buttonStyle(GoButton()).keyboardShortcut(.defaultAction)
@@ -190,7 +192,7 @@ struct ContentView: View {
             TopRow(title: "Waiting for your connection",
                    detail: "\(ofText(model.doneBytes, model.totalBytes)). It'll pick up where it left off.")
         } else {
-            let verb = model.isUpdate ? "Updating" : "Installing"
+            let verb = model.updating ? "Updating" : "Installing"
             TopRow(title: "\(verb) \(model.bundleTitle)", detail: installingDetail)
         }
         Bar(value: model.progress)
@@ -212,11 +214,11 @@ struct ContentView: View {
     }
 }
 
-// The same three sizes as the site, as a sheet, so nobody has to go back to pick.
+// The same three sizes as the site, in the window, so nobody has to go back to pick.
 struct ChangeSheet: View {
     @ObservedObject var model: AppModel
     @State var draft: Pick
-    @Environment(\.dismiss) var dismiss
+    func dismiss() { model.showChange = false }
 
     var lang: Lang? { model.catalog?.langs.first { $0.code == draft.lang } ?? model.catalog?.langs.first }
     var narrator: Narrator? { lang?.narrators.first { $0.id == draft.narrator } ?? lang?.narrators.first }
@@ -226,12 +228,11 @@ struct ChangeSheet: View {
             ForEach(BUNDLES, id: \.self) { key in radio(key) }
             InfoRow(title: "Language and narrator", detail: "\(lang?.name ?? ""), \(narrator?.name ?? "")", button: languageMenu)
             Footer {
-                Button("Cancel") { dismiss() }.buttonStyle(PlainButton())
+                Button("Cancel") { dismiss() }.buttonStyle(PlainButton()).keyboardShortcut(.cancelAction)
                 Button("Done") { model.applyChange(draft); dismiss() }
                     .buttonStyle(GoButton()).keyboardShortcut(.defaultAction).disabled(narrator?.cards[draft.bundle]?.ok != true)
             }
         }
-        .padding(20).frame(width: 480)
     }
 
     @ViewBuilder func radio(_ key: String) -> some View {
@@ -239,7 +240,8 @@ struct ChangeSheet: View {
         let ok = card?.ok == true
         let on = draft.bundle == key
         let line = lang?.code == "en" ? ENGLISH_LINE[key] : (card?.lines?.first ?? card?.why)
-        HStack(alignment: .top, spacing: 9) {
+        // A button over the whole row, so a click anywhere on it (and VoiceOver) picks it.
+        Button { if ok { draft.bundle = key } } label: { HStack(alignment: .top, spacing: 9) {
             Circle().strokeBorder(on ? GOLD : SOFT, lineWidth: on ? 4 : 1.5).frame(width: 14, height: 14).padding(.top, 2)
             VStack(alignment: .leading, spacing: 1) {
                 Text(ok ? "\(BUNDLE_TITLE[key] ?? key), \(formatBytes(card?.bytes ?? 0))" : (BUNDLE_TITLE[key] ?? key))
@@ -252,8 +254,10 @@ struct ChangeSheet: View {
         .background(RoundedRectangle(cornerRadius: 7).fill(ROW))
         .overlay(RoundedRectangle(cornerRadius: 7).stroke(on ? GOLD : Color.clear, lineWidth: 1.5))
         .opacity(ok ? 1 : 0.5)
-        .contentShape(Rectangle())
-        .onTapGesture { if ok { draft.bundle = key } }
+        .contentShape(Rectangle()) }
+        .buttonStyle(.plain)
+        .disabled(!ok)
+        .accessibilityAddTraits(on ? .isSelected : [])
     }
 
     var languageMenu: some View {
