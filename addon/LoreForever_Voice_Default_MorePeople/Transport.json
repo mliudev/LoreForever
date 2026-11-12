@@ -1433,9 +1433,9 @@
     "npc:brother-wilhelm": {
       "1": [
         {
-          "duration": 47.229387755102046,
-          "file": "Audio/Transport/full_npc_brother-wilhelm-4b240af5c71cd2085d24/1-0000.mp3",
-          "sha256": "a3965eb4c7cd3c241709c79235c62ba8fedb0fb36ae1944a73e2ad07be707299",
+          "duration": 44.72163265306123,
+          "file": "Audio/Transport/full_npc_brother-wilhelm-fea6ef40d2f3a121facf/1-0000.mp3",
+          "sha256": "6bd9643b025f963fe0a91e4c3983f2a2c62fa07f866081354b162c853ef585ae",
           "start": 0
         }
       ],
@@ -1447,12 +1447,12 @@
         ]
       },
       "fullHash": "17651c",
-      "generation": "11e5f4149f7a57038d1d",
+      "generation": "a712939b37cbf5bcc232",
       "hash": "17651c",
       "source": {
-        "duration": 47.25551,
+        "duration": 44.747755,
         "file": null,
-        "sha256": "4b240af5c71cd2085d2491f665412e9d0da7c7cdaa8eea1d15502baaae9a1612"
+        "sha256": "fea6ef40d2f3a121facf0e28c0b0fa2c2aa2723da5aeb3ab8e43fa9abab20766"
       },
       "text": "Brother Wilhelm. Behind Goldshire's smithy, Brother Wilhelm guides young paladins into the wider forest. They come from Northshire Abbey to take their first steps in Elwynn. Brother Wilhelm trains new paladins behind Goldshire's smithy. Northshire Valley shelters those who begin their path in the Light, but many seek his guidance once they enter the wider forest. He teaches them their sacred duties as they leave the abbey. Then they take up the work of protecting the realm. Brother Wilhelm guides aspiring paladins toward the Tome of Divinity. Its rite teaches initiates the weight of sacrifice and the power of divine redemption. Through the trials, they test their devotion and learn to wield the Light. They can resurrect fallen comrades and uphold justice across the Kingdom of Stormwind."
     },
@@ -4267,9 +4267,9 @@
     "npc:gerard-tiller": {
       "1": [
         {
-          "duration": 28.656326530612247,
-          "file": "Audio/Transport/full_npc_gerard-tiller-a7659cf89f3639edd3f8/1-0000.mp3",
-          "sha256": "1e1a9a49cc054d8adef26c999298628c8951bb50a9cd6f718cd3e53cb4cbaaea",
+          "duration": 30.432653061224492,
+          "file": "Audio/Transport/full_npc_gerard-tiller-c53999b44f08e6c3bc2f/1-0000.mp3",
+          "sha256": "f5946f2472d070a3eba436eb53b0f50a2f11541c4e686572da4c2d6f21d333e8",
           "start": 0
         }
       ],
@@ -4281,12 +4281,12 @@
         ]
       },
       "fullHash": "e2f0f9",
-      "generation": "71f822175abf3e1808e0",
+      "generation": "a72b6c48ce90dc35d744",
       "hash": "e2f0f9",
       "source": {
-        "duration": 28.682449,
+        "duration": 30.432653,
         "file": null,
-        "sha256": "a7659cf89f3639edd3f8816f947e747e8eda1bc38a4bb4b9ae0806818d3e1553"
+        "sha256": "c53999b44f08e6c3bc2f5f636eae47b454a4ebfee3c3422833892af78e9a03d1"
       },
       "text": "Gerard Tiller. At the Maclure Vineyards, Gerard Tiller tends the grounds and longs for spring water. Bring him a skin of it, and he offers shiny red apples. Gerard Tiller works outside the barn at the Maclure Vineyards, south of Goldshire. The vineyard is known for its grapes, and keeping the harvest going takes hard labor. His chores leave him thirsty, so he welcomes travelers who bring a skin of fresh spring water. In return, he gives them shiny red apples gathered from local orchards."
     },
@@ -4527,9 +4527,9 @@
     "npc:gramma-stonefield": {
       "1": [
         {
-          "duration": 33.671836734693876,
-          "file": "Audio/Transport/full_npc_gramma-stonefield-aec355cc8b08a2f6c281/1-0000.mp3",
-          "sha256": "0a8aaa948e6f2a2f89605cddaca7aa86cc39f9c68bade42cc010bb717bc8fc7b",
+          "duration": 32.80979591836735,
+          "file": "Audio/Transport/full_npc_gramma-stonefield-c30ed133e86ff0c82174/1-0000.mp3",
+          "sha256": "407c2eddbc349f4ad9fd23c90eca3bc9580b50561be83b786d990414cc99b747",
           "start": 0
         }
       ],
@@ -4541,12 +4541,12 @@
         ]
       },
       "fullHash": "06e80e",
-      "generation": "f518bf3e63096522c34e",
+      "generation": "61fef001b7d42a4a1c01",
       "hash": "06e80e",
       "source": {
-        "duration": 33.671837,
+        "duration": 32.809796,
         "file": null,
-        "sha256": "aec355cc8b08a2f6c2810f08452d37f69cb30ad816f534bab26df711c5e54143"
+        "sha256": "c30ed133e86ff0c8217406088c5937f811a1bc9fb7a096a9ffa143b5e5a28df9"
       },
       "text": "Gramma Stonefield. At the Stonefield farm in Elwynn, Gramma Stonefield works quietly to ease a family feud. For decades, the Stonefields and Maclures have bickered across the road. Gramma Stonefield, the oldest living member of her clan, sees their rivalry as senseless and harmful. So when her grandson Tommy Joe Stonefield falls in love with Maybell Maclure, she chooses compassion over clan loyalty. She turns to her old friend William Pestle in Goldshire and quietly plans ways for the sweethearts to meet in secret despite the hostility between their farms."
     },
@@ -5541,9 +5541,9 @@
     "npc:innkeeper-farley": {
       "1": [
         {
-          "duration": 31.451428571428572,
-          "file": "Audio/Transport/full_npc_innkeeper-farley-3926f0e166738260fb5a/1-0000.mp3",
-          "sha256": "f1019a8b37c5c67d3531ad104f9465fd8701707422ecd98a938dc9bc6b77f959",
+          "duration": 31.71265306122449,
+          "file": "Audio/Transport/full_npc_innkeeper-farley-685841e26ae48074018f/1-0000.mp3",
+          "sha256": "16938529950c6d1aa6b56f2af64071edb299d4dce8dda86721647323a949dde2",
           "start": 0
         }
       ],
@@ -5555,12 +5555,12 @@
         ]
       },
       "fullHash": "ec8b15",
-      "generation": "d0571eab16374cc727e8",
+      "generation": "d718b5ecb0e3664e34ec",
       "hash": "ec8b15",
       "source": {
-        "duration": 31.477551,
+        "duration": 31.712653,
         "file": null,
-        "sha256": "3926f0e166738260fb5ae288d5bcac1e6239f676da9231bdca9f4c864457bb77"
+        "sha256": "685841e26ae48074018fa0462abc8cc0ef773f51f9e925436afa3dea3a0c18ff"
       },
       "text": "Innkeeper Farley. At the Lion's Pride Inn in Goldshire, Innkeeper Farley offers travelers meals, beds, and hearthstones. Well liked and watchful, he keeps misplaced mail and listens to the troubles of the road. Travelers bound for Stormwind, Westfall, and Duskwood find Innkeeper Farley at the Lion's Pride Inn counter in Goldshire. He offers meals, ale, cheese, and a bed, and sets hearthstones for those who need one. Farley welcomes all who pass through this busy waystation and keeps order at the inn."
     },
@@ -6451,9 +6451,9 @@
     "npc:keryn-sylvius": {
       "1": [
         {
-          "duration": 40.98612244897959,
-          "file": "Audio/Transport/full_npc_keryn-sylvius-2cb75d752fdb0c0e6b88/1-0000.mp3",
-          "sha256": "1adcb5b94bdac97260ecc54deb9367f593d08e367d4ff56ce99f812faac08c92",
+          "duration": 36.8065306122449,
+          "file": "Audio/Transport/full_npc_keryn-sylvius-1ab6cc26a18ff676d368/1-0000.mp3",
+          "sha256": "e887f4abb0e5912318decf62e7c5a9f8d10b08132b663fc39e9424e27806569e",
           "start": 0
         }
       ],
@@ -6465,12 +6465,12 @@
         ]
       },
       "fullHash": "036e92",
-      "generation": "3dd9963141a32b6d3e7d",
+      "generation": "7ef7e0d30641fa84ed7a",
       "hash": "036e92",
       "source": {
-        "duration": 41.012245,
+        "duration": 36.806531,
         "file": null,
-        "sha256": "2cb75d752fdb0c0e6b8873a734ca77e3af20573c98659aabcf14cd4ed0fdaf90"
+        "sha256": "1ab6cc26a18ff676d368e6ca1dece3d54f7dca2c98656963d3459c758efeabdc"
       },
       "text": "Keryn Sylvius. On the second floor of Goldshire’s Lion’s Pride Inn, Keryn Sylvius trains young rogues. In the reading room, she teaches stealth and bladecraft and quietly guides promising operatives toward Stormwind’s intelligence service. Keryn Sylvius keeps to the reading room above the Lion’s Pride Inn. Below, travelers and town guards fill the common room. Upstairs, she listens to the steady flow of gossip from the road. She mentors rogues learning their trade in Elwynn Forest.\n\nWhen promising operatives outgrow petty theft and roadside skulduggery, Sylvius quietly sends them to Stormwind City. There, they can seek out SI:7."
     },
@@ -7517,9 +7517,9 @@
     "npc:lyria-du-lac": {
       "1": [
         {
-          "duration": 24.685714285714287,
-          "file": "Audio/Transport/full_npc_lyria-du-lac-5f6bc334c4ab461a345d/1-0000.mp3",
-          "sha256": "933e9726d2431a806f6db28d6abe5085aa55d605bfb575a79b40649b9e2b6d33",
+          "duration": 22.75265306122449,
+          "file": "Audio/Transport/full_npc_lyria-du-lac-3f7bc1d568381cbe8946/1-0000.mp3",
+          "sha256": "35aefb951c12f387896446a6526cbf1cb2fd26cc09e4e4afbfb75a17281803ab",
           "start": 0
         }
       ],
@@ -7531,12 +7531,12 @@
         ]
       },
       "fullHash": "d8c7bf",
-      "generation": "22043da3627d121963f3",
+      "generation": "d94b7d265d127d363359",
       "hash": "d8c7bf",
       "source": {
-        "duration": 24.711837,
+        "duration": 22.752653,
         "file": null,
-        "sha256": "5f6bc334c4ab461a345d1be8cacedaecadcd21e9b5216efa78abc426c1d3e86b"
+        "sha256": "3f7bc1d568381cbe894650e0bb74b91dcc8c8f4552494d0f9c3ffb4f691f7f62"
       },
       "text": "Lyria Du Lac. In Goldshire, Lyria Du Lac trains young warriors behind the village smithy. She guides them as they master their stances and arms. Behind Goldshire's forge, Lyria Du Lac trains warriors fresh from Northshire Abbey. She judges when they are ready and teaches them specialized combat techniques. Those who take up shield and blade for Stormwind must face the dangers of Elwynn Forest."
     },
@@ -8635,9 +8635,9 @@
     "npc:morgan-pestle": {
       "1": [
         {
-          "duration": 30.85061224489796,
-          "file": "Audio/Transport/full_npc_morgan-pestle-e690f696e80333165891/1-0000.mp3",
-          "sha256": "9ca38a0bd43b4c8a850a39dab9fe69d0d640dda94952ec79c29df1ed44bc9c74",
+          "duration": 30.58938775510204,
+          "file": "Audio/Transport/full_npc_morgan-pestle-c1d62263a2721a17cd6e/1-0000.mp3",
+          "sha256": "d848b44da2830ffd573edf7c54f707be2e0dac33a5ee7267b0e6e0dd12ab2b23",
           "start": 0
         }
       ],
@@ -8649,12 +8649,12 @@
         ]
       },
       "fullHash": "6ca7c4",
-      "generation": "ffbfd954e0cdeb85ed09",
+      "generation": "439bb951ee66f763a7b1",
       "hash": "6ca7c4",
       "source": {
-        "duration": 30.876735,
+        "duration": 30.589388,
         "file": null,
-        "sha256": "e690f696e803331658912147d53938b5c60a172325579a3ed5420d852ee48590"
+        "sha256": "c1d62263a2721a17cd6e904c81bd33d9dc9f73883559b89466cab7f418cb22dc"
       },
       "text": "Morgan Pestle. At Pestle's Apothecary in Stormwind, Morgan Pestle handles the capital's supplies and alchemical research. He works with his brother William Pestle in Goldshire. Morgan Pestle sells alchemical goods, reagents, and remedies from Pestle's Apothecary in Stormwind's Trade District. His brother William keeps a workshop at the Lion's Pride Inn in Goldshire, while Morgan tends their family trade in the capital. Supplies come from the rural heartlands, including candles William sends north."
     },
@@ -9805,9 +9805,9 @@
     "npc:priestess-josetta": {
       "1": [
         {
-          "duration": 60.65632653061225,
-          "file": "Audio/Transport/full_npc_priestess-josetta-657ba7e48b89cc5162c2/1-0000.mp3",
-          "sha256": "92aeab7bd013b3831e63e20d9fa4a308d7c6b7bb4b55b03780968acbc7030bde",
+          "duration": 59.11510204081633,
+          "file": "Audio/Transport/full_npc_priestess-josetta-2290642e00cf10e700cd/1-0000.mp3",
+          "sha256": "5ea05dd8b97ca039d121299f4a3cbd079048c41f3cf2879e8326b875ad64accb",
           "start": 0
         }
       ],
@@ -9819,12 +9819,12 @@
         ]
       },
       "fullHash": "68ab7f",
-      "generation": "3e8a54bef2fbdbc6e85b",
+      "generation": "c47734a79dc2065f7ca1",
       "hash": "68ab7f",
       "source": {
-        "duration": 60.682449,
+        "duration": 59.115102,
         "file": null,
-        "sha256": "657ba7e48b89cc5162c2825b5e545b0287c45d8b8471e052ab62f06725500aa7"
+        "sha256": "2290642e00cf10e700cdb742f1503294136f9fbb89ef8673e5086e0caf90c0c0"
       },
       "text": "Priestess Josetta. In Goldshire, Priestess Josetta guides young priests beyond their first trials at Northshire. She teaches them faith, devotion, and service to others. From an upstairs room in the Lion's Pride Inn, Priestess Josetta tends to the people of Elwynn Forest. Travelers, guards, and local workers come within her reach there. She gives spiritual care among ordinary folk, serving the Holy Light wherever people need comfort. After their first studies at Northshire Abbey, young priests come to Priestess Josetta for guidance. She sends them into the countryside to aid wounded guards and comfort those who suffer. Their work teaches them that priesthood asks for more than prayers learned by heart. They must put the Light to work and help mend a broken world. Priestess Josetta regrets that she did not travel farther when she was young. She chose familiar ground over the wider roads of Azeroth. Though content with her sacred service in Goldshire, she urges young disciples to be bolder and carry their faith to distant frontiers."
     },
@@ -10273,9 +10273,9 @@
     "npc:remy-two-times": {
       "1": [
         {
-          "duration": 39.0269387755102,
-          "file": "Audio/Transport/full_npc_remy-two-times-883160633eccbbbd8e82/1-0000.mp3",
-          "sha256": "4c87d524d99dcc16d59b524cb837dfffa7c3fe9d7c8bf419339c024cd3ad1ba4",
+          "duration": 38.32163265306123,
+          "file": "Audio/Transport/full_npc_remy-two-times-8c93366764b0b6f35579/1-0000.mp3",
+          "sha256": "60867289d6aadb49e023e2558c087c957d3394c7a08799ae75eb2859731fbb3c",
           "start": 0
         }
       ],
@@ -10287,12 +10287,12 @@
         ]
       },
       "fullHash": "c19b04",
-      "generation": "9dfe2c52b25c478f166a",
+      "generation": "4ff16988178be48a7524",
       "hash": "c19b04",
       "source": {
-        "duration": 39.053061,
+        "duration": 38.347755,
         "file": null,
-        "sha256": "883160633eccbbbd8e8204f82a2bdaa865b4c1bbd2814731387a8e2e34bb8210"
+        "sha256": "8c93366764b0b6f3557941d8c8bf7a77a597d366d304cf87ab70af97acef26ed"
       },
       "text": "Remy \"Two Times\". In Goldshire, Remy \"Two Times\" trades goods and buys raw materials. He came from the Redridge Mountains, and earned his name by repeating the ends of his sentences twice. Travelers passing through Goldshire can strike a deal with Remy \"Two Times\". He seeks profit in troubled Elwynn Forest, and his trade puts coin in their hands. His unusual way of speaking may amuse them. Trade in Elwynn suffers as kobolds overrun the local gold mines and aggressive murlocs infest the riverbanks. Remy pays travelers for pouches of gold dust gathered from kobolds in the mines. Near Crystal Lake, he watches for suspicious murloc movements."
     },
@@ -11599,9 +11599,9 @@
     "npc:smith-argus": {
       "1": [
         {
-          "duration": 52.114285714285714,
-          "file": "Audio/Transport/full_npc_smith-argus-c353710ff64979f48da4/1-0000.mp3",
-          "sha256": "169a4c80b48db88434272a07fa04d5ee8449b34369178271e2829a2ed1019ea1",
+          "duration": 52.87183673469388,
+          "file": "Audio/Transport/full_npc_smith-argus-ca09454a2b94d03efcdb/1-0000.mp3",
+          "sha256": "c68e26f0963bf235b125caff70901fcde5c12f1af2961f3ce9c7d425a9bacf19",
           "start": 0
         }
       ],
@@ -11613,12 +11613,12 @@
         ]
       },
       "fullHash": "dff9cc",
-      "generation": "01419dd9af340dd0d2ed",
+      "generation": "e7c253a9570db5910b6e",
       "hash": "dff9cc",
       "source": {
-        "duration": 52.140408,
+        "duration": 52.897959,
         "file": null,
-        "sha256": "c353710ff64979f48da4ab737863feb3db30175a56f3d8d51c72c706c8916eed"
+        "sha256": "ca09454a2b94d03efcdb9357044eb3b872b87df1b45556f7a5a6f23c0b91554d"
       },
       "text": "Smith Argus. At Goldshire's forge, Smith Argus keeps travelers and local smiths supplied. He repairs gear, trains new smiths, and sends horseshoes to Redridge while coordinating with Stormwind craftsmen. Near the Lion's Pride Inn in Goldshire, Smith Argus works the forge. Gnolls, kobolds, and Defias bandits threaten the area, so he keeps the local militia and passing adventurers equipped. He mends armor and makes sturdy tools. As a blacksmithing trainer, he teaches new smiths to work copper and bronze. Goldshire's central position makes Smith Argus a link in Stormwind's regional supply. Craftsmen in nearby settlements come to him for specialized gear and raw materials. Farrier Verner Osgood in Redridge depends on Argus for horseshoes for pack animals and cavalry. Metalworkers in Stormwind's Dwarven District also arrange deliveries through him."
     },
@@ -13835,9 +13835,9 @@
     "npc:zaldimar-wefhellt": {
       "1": [
         {
-          "duration": 27.42857142857143,
-          "file": "Audio/Transport/full_npc_zaldimar-wefhellt-9d886ce8df8705c79d49/1-0000.mp3",
-          "sha256": "caac0cc4cd693b51c0c3da0d3fb80cd009403710df7e9fef2f418072e21b1c0a",
+          "duration": 26.122448979591837,
+          "file": "Audio/Transport/full_npc_zaldimar-wefhellt-c80cd541b04c1d7fca40/1-0000.mp3",
+          "sha256": "a7f8cf60f8d476285f2d179b6936e45fa43f9fb2e0067f361a5058ced4d4f874",
           "start": 0
         }
       ],
@@ -13849,12 +13849,12 @@
         ]
       },
       "fullHash": "661223",
-      "generation": "1a6f2370f0ab1317d012",
+      "generation": "900e162a2e5b50489c5b",
       "hash": "661223",
       "source": {
-        "duration": 27.454694,
+        "duration": 26.122449,
         "file": null,
-        "sha256": "9d886ce8df8705c79d497e43ee51126dbefe09002f94be59dd23cc582715cca4"
+        "sha256": "c80cd541b04c1d7fca4092b22793dacdf1454bd30f188f5676c9d37c9ca219a2"
       },
       "text": "Zaldimar Wefhellt. Upstairs at the Lion's Pride Inn, Zaldimar Wefhellt guides young mages through their first spells. When they outgrow his lessons, he sends them to Stormwind City for further training. Upstairs at the Lion's Pride Inn, Zaldimar Wefhellt teaches novice mages the first arts of arcane, fire, and frost. Once an apprentice outgrows those lessons, he sends them north to Stormwind's Mage Quarter. There, Jennea Cannon can teach them more."
     },
@@ -14511,9 +14511,9 @@
     "topic:hunter": {
       "1": [
         {
-          "duration": 102.26938775510204,
-          "file": "Audio/Transport/full_topic_hunter-4699498d40ca47009cb5/1-0000.mp3",
-          "sha256": "8c7dd0ef35444c0057c2bc75139f693806807de662832b0d28d83e9c1ef05123",
+          "duration": 99.57877551020408,
+          "file": "Audio/Transport/full_topic_hunter-ae45185cf210f3e9a64c/1-0000.mp3",
+          "sha256": "149d4643c46b55b935b0cefd9adaa5ce9db353a54e2d2621b65be3e860271862",
           "start": 0
         }
       ],
@@ -14525,12 +14525,12 @@
         ]
       },
       "fullHash": "7dbe05",
-      "generation": "8aaa58e1a5c02fbca8c5",
+      "generation": "86758626e6161642fcac",
       "hash": "7dbe05",
       "source": {
-        "duration": 102.29551,
+        "duration": 99.578776,
         "file": null,
-        "sha256": "4699498d40ca47009cb522e49f4fd172dd8cdd794b481be7be98ebfcf6faa5c9"
+        "sha256": "ae45185cf210f3e9a64caa6b78cf6dce9690e114cd06a159137d2223787c92e8"
       },
       "text": "Hunter. Across Azeroth, hunters follow wild trails with loyal beasts at their sides. Bows, rifles, and crossbows let them strike from afar, while traps and primal aspects help control a fight. They track quarry through forests and over snowbound peaks, relying on their wits and bond with nature. Hunters make their lives among Azeroth’s wild places. They study how beasts move, hunt, and defend themselves, earning respect instead of breaking spirits. With patience, they can tame dangerous creatures, from prowling cats to mountain bears and sharp-eyed raptors. These animals become steadfast allies, ready to defend their companions to the death. Hunters fight from a distance with bows, heavy crossbows, and rifles. Their volleys can pierce heavy armor before an attacker draws near. Keen senses lead them along faint footsteps, scents, and other signs left by their quarry. When enemies close in, frost and flame traps, disorienting ambushes, and quick evasive movements keep foes at bay. The hunter’s path takes many forms across Azeroth. Night elf Sentinels use bows and shadowcraft beneath Ashenvale’s canopy, moving in quiet accord with the wilderness. Dwarven riflemen brave Dun Morogh’s freezing crags with hardy bears and master the craft of gunpowder. Across Kalimdor, Tauren and Orc trackers follow ancient nomadic customs. They pursue prey with sacred respect and call on bestial spirits to guide their shots.\n\nIn Elwynn Forest, young humans learn from seasoned trackers such as the dwarf Tordrin Sternblade in Northshire Valley and Josephine Carson in Goldshire. The Skyborne learn to track and tame the beasts of Zephras Isle."
     },
@@ -14615,9 +14615,9 @@
     "topic:llane-wrynn-i": {
       "1": [
         {
-          "duration": 61.440000000000005,
-          "file": "Audio/Transport/full_topic_llane-wrynn-i-11ddfe2665c61031b691/1-0000.mp3",
-          "sha256": "55b1e41a9e678c7346ab86f016eefeb43efb4f40415a93d3831545b7a0056a3b",
+          "duration": 63.45142857142857,
+          "file": "Audio/Transport/full_topic_llane-wrynn-i-0ebe49aff198adafbfc9/1-0000.mp3",
+          "sha256": "faa0676988351b336f5627225f504665151ebfdbe11389b6a01542bcccb12a5c",
           "start": 0
         }
       ],
@@ -14629,12 +14629,12 @@
         ]
       },
       "fullHash": "05eaf6",
-      "generation": "57b65cf70ea5760440dd",
+      "generation": "afd6185bbf926761db3e",
       "hash": "05eaf6",
       "source": {
-        "duration": 61.466122,
+        "duration": 63.477551,
         "file": null,
-        "sha256": "11ddfe2665c61031b691dd61986994f6c53064433e762f70719e8c22c492fc8c"
+        "sha256": "0ebe49aff198adafbfc9efc50fb903d4d01d50c0f1f524b59c9ad1516488c448"
       },
       "text": "Llane Wrynn I. Stormwind's defense falters as the First War turns against King Llane Wrynn I and his kingdom. Beloved and proud, Llane cannot accept that his friend Medivh has betrayed humanity, and that refusal dooms the capital. Born to King Barathen Wrynn, Prince Llane grew up with Anduin Lothar and Medivh. As youths, the three friends ventured into Stranglethorn Vale's jungles and clashed with the Gurubashi trolls. In time, Llane took the throne as Stormwind's king. When green-skinned strangers came from the southern swamps, King Llane sent Lothar to investigate the Black Morass. Minor skirmishes became the First War as the Horde overran the forests of Duskwood, Westfall, and Redridge. Messengers seeking aid from Lordaeron and the northern human kingdoms were turned away. Stormwind's long isolation and aristocratic intrigue weakened their pleas.\n\nEven so, Llane and Lothar led a daring counterattack. They broke the Horde's first siege of Stormwind and dealt the invaders their first major defeat."
     },
@@ -15345,12 +15345,6 @@
       3939,
       4174
     ],
-    "0a8aaa948e6f2a2f89605cddaca7aa86cc39f9c68bade42cc010bb717bc8fc7b": [
-      241,
-      402,
-      652,
-      931
-    ],
     "0b546492668ca1314078674c6f7f966e7a5d00f0e478c828f8518b4ef3d398ec": [
       233,
       505,
@@ -15485,6 +15479,21 @@
       532,
       712
     ],
+    "149d4643c46b55b935b0cefd9adaa5ce9db353a54e2d2621b65be3e860271862": [
+      443,
+      675,
+      1022,
+      1247,
+      1452,
+      1615,
+      1757,
+      1979,
+      2274,
+      2647,
+      2902,
+      3075,
+      3294
+    ],
     "1550654618de4352b0a048af11e3c5207d6624836345c308a0585c9f69a7828e": [
       482,
       783
@@ -15493,16 +15502,11 @@
       485,
       731
     ],
-    "169a4c80b48db88434272a07fa04d5ee8449b34369178271e2829a2ed1019ea1": [
-      196,
-      465,
-      663,
-      810,
-      944,
-      1225,
-      1426,
-      1606,
-      1808
+    "16938529950c6d1aa6b56f2af64071edb299d4dce8dda86721647323a949dde2": [
+      302,
+      509,
+      812,
+      1024
     ],
     "16c602cffa8216d3d890800c8557e9cfe38df7547fb0b91a1dbfc15f520caa41": [
       323,
@@ -15630,14 +15634,6 @@
       1397,
       1583
     ],
-    "1adcb5b94bdac97260ecc54deb9367f593d08e367d4ff56ce99f812faac08c92": [
-      241,
-      564,
-      718,
-      1005,
-      1164,
-      1334
-    ],
     "1aedb7a716c08f2e995cdd864b5f0037303fd28055f20b214687c23d75c173b7": [
       387,
       598
@@ -15739,13 +15735,6 @@
       754,
       938,
       1105
-    ],
-    "1e1a9a49cc054d8adef26c999298628c8951bb50a9cd6f718cd3e53cb4cbaaea": [
-      205,
-      356,
-      555,
-      729,
-      937
     ],
     "1e25c52cfc0ee5ccae5060e9e96f0da490501bf453af0c7d9f7646ace6037f44": [
       690
@@ -16283,6 +16272,10 @@
       1148,
       1423
     ],
+    "35aefb951c12f387896446a6526cbf1cb2fd26cc09e4e4afbfb75a17281803ab": [
+      201,
+      547
+    ],
     "3655aa9b0e3033354bb8f7732dfc927a2b4a2e92b45430b8d0b3e61a2b70cc19": [
       274,
       491,
@@ -16496,6 +16489,12 @@
       1366,
       1760,
       1950
+    ],
+    "407c2eddbc349f4ad9fd23c90eca3bc9580b50561be83b786d990414cc99b747": [
+      241,
+      407,
+      640,
+      920
     ],
     "40acb0ecdfa1a548d3d7cb21fab9f4f7df53bffe23a0a1ecd14ca8a2749b3ceb": [
       507,
@@ -16717,13 +16716,6 @@
       427,
       611
     ],
-    "4c87d524d99dcc16d59b524cb837dfffa7c3fe9d7c8bf419339c024cd3ad1ba4": [
-      183,
-      410,
-      582,
-      894,
-      1150
-    ],
     "4cc4a366a159af67e0a2fb7087797e5ed0459f01752616e43186c929a3bc8c1f": [
       253,
       395,
@@ -16926,17 +16918,6 @@
       406,
       719
     ],
-    "55b1e41a9e678c7346ab86f016eefeb43efb4f40415a93d3831545b7a0056a3b": [
-      229,
-      544,
-      750,
-      994,
-      1142,
-      1395,
-      1644,
-      1826,
-      2011
-    ],
     "55da3bd9fa13669a0f171d4db52f49d80b5f42857333c699afd289d204738d95": [
       201,
       483,
@@ -17123,6 +17104,15 @@
       900,
       1105
     ],
+    "5ea05dd8b97ca039d121299f4a3cbd079048c41f3cf2879e8326b875ad64accb": [
+      231,
+      396,
+      758,
+      979,
+      1228,
+      1569,
+      1989
+    ],
     "5f429910cdf89277e40bdb2946b8bb7686856a01d642d43856332b707b04402e": [
       202,
       428,
@@ -17149,6 +17139,12 @@
     "5fd42c31809eac11df59efb7e6f21f26ee626904017e949e07bb518a80a0fa8c": [
       698,
       942
+    ],
+    "60867289d6aadb49e023e2558c087c957d3394c7a08799ae75eb2859731fbb3c": [
+      396,
+      568,
+      766,
+      1124
     ],
     "608830c04d3a4cc4655147adc5b27a0d729523d0f3bac875601089808ef2a3cc": [
       181,
@@ -17526,6 +17522,14 @@
       1037,
       1185,
       1413
+    ],
+    "6bd9643b025f963fe0a91e4c3983f2a2c62fa07f866081354b162c853ef585ae": [
+      230,
+      795,
+      1028,
+      1188,
+      1376,
+      1536
     ],
     "6bf3b6c8c8203fefb60eccb4d06e0855d0161ee8843a65c1375f574ac7b19c48": [
       759
@@ -18122,20 +18126,6 @@
       526,
       734
     ],
-    "8c7dd0ef35444c0057c2bc75139f693806807de662832b0d28d83e9c1ef05123": [
-      198,
-      690,
-      1062,
-      1512,
-      1680,
-      1827,
-      2044,
-      2346,
-      2741,
-      2997,
-      3193,
-      3416
-    ],
     "8d2405955f928925c9323f25f4d70b46583e37c4a45c298b591efee04cbb55d4": [
       219,
       508,
@@ -18225,17 +18215,6 @@
       454,
       762
     ],
-    "92aeab7bd013b3831e63e20d9fa4a308d7c6b7bb4b55b03780968acbc7030bde": [
-      244,
-      408,
-      638,
-      786,
-      1012,
-      1235,
-      1411,
-      1723,
-      1886
-    ],
     "92cc86a9e6fc69dfee5c51a3e96d091a980a001e859a630f769670deaf3e93df": [
       214,
       423,
@@ -18245,12 +18224,6 @@
       1383,
       1631,
       1771
-    ],
-    "933e9726d2431a806f6db28d6abe5085aa55d605bfb575a79b40649b9e2b6d33": [
-      200,
-      348,
-      579,
-      737
     ],
     "93a475fc942686732bf13da92d0e255170f50b5190e236d059450ced7000c782": [
       411
@@ -18459,12 +18432,6 @@
       1407,
       1721
     ],
-    "9ca38a0bd43b4c8a850a39dab9fe69d0d640dda94952ec79c29df1ed44bc9c74": [
-      282,
-      432,
-      706,
-      987
-    ],
     "9d531bf7f6121b2d9885fb354ef8ed4fe162a2c48b9884ce2d052a967701f4ec": [
       454,
       668,
@@ -18622,16 +18589,6 @@
       1410,
       1643
     ],
-    "a3965eb4c7cd3c241709c79235c62ba8fedb0fb36ae1944a73e2ad07be707299": [
-      224,
-      407,
-      564,
-      846,
-      1096,
-      1261,
-      1453,
-      1611
-    ],
     "a3f0eda52bae6cfb7d8e00e1d885a45a44c693a66146af6777f5c561cdbd7d5e": [
       197,
       353,
@@ -18709,6 +18666,11 @@
       624,
       804,
       964
+    ],
+    "a7f8cf60f8d476285f2d179b6936e45fa43f9fb2e0067f361a5058ced4d4f874": [
+      238,
+      410,
+      713
     ],
     "a81cd43bec80f9c163ca8624a57723e220ba55919c8d1d190900990ccad1d132": [
       397
@@ -19294,6 +19256,15 @@
       786,
       1055
     ],
+    "c68e26f0963bf235b125caff70901fcde5c12f1af2961f3ce9c7d425a9bacf19": [
+      207,
+      494,
+      969,
+      1248,
+      1456,
+      1645,
+      1868
+    ],
     "c6b95216e9eb45ee4c04cedaa92db030fb971e5c9e7ef46ff573aa2e5efb3d8a": [
       176,
       417,
@@ -19388,11 +19359,6 @@
       4019,
       4202,
       4460
-    ],
-    "caac0cc4cd693b51c0c3da0d3fb80cd009403710df7e9fef2f418072e21b1c0a": [
-      247,
-      435,
-      733
     ],
     "cb3459324f707ebe2f8d33cb5b43c9a2afab09ccaaa6a83fa2dcdbc90d6c4f7c": [
       232,
@@ -19710,6 +19676,12 @@
       558,
       765
     ],
+    "d848b44da2830ffd573edf7c54f707be2e0dac33a5ee7267b0e6e0dd12ab2b23": [
+      275,
+      413,
+      691,
+      858
+    ],
     "d8c65250cb1b0f2ed01c33d3af1373350ce0b11a33f98eae23d09da39c283b85": [
       316,
       609
@@ -20004,6 +19976,12 @@
       997,
       1216
     ],
+    "e887f4abb0e5912318decf62e7c5a9f8d10b08132b663fc39e9424e27806569e": [
+      220,
+      495,
+      632,
+      1012
+    ],
     "e8aa1e10b51ac69db9e47fe80d942a6ec60f1a0b96021bce322741bf77dd696a": [
       545,
       793
@@ -20205,11 +20183,6 @@
     "f0193b06c3f3b18e49a21f350710edeacb277911130217ec28b27d6732376407": [
       558
     ],
-    "f1019a8b37c5c67d3531ad104f9465fd8701707422ecd98a938dc9bc6b77f959": [
-      280,
-      503,
-      787
-    ],
     "f15019e678d42a2e8a690fefa8e2515b134f20db76860d7ed9e00ad7aea26f9c": [
       485
     ],
@@ -20304,6 +20277,13 @@
     ],
     "f5747c32c1c0a0cbf97071b7e96fbda57d040f7188a51513dc64888404368995": [
       500
+    ],
+    "f5946f2472d070a3eba436eb53b0f50a2f11541c4e686572da4c2d6f21d333e8": [
+      212,
+      361,
+      572,
+      782,
+      1010
     ],
     "f5c198b9312e14f6ace2bbc39dcf49077f603cdd935892978e50d359bf0df849": [
       204,
@@ -20415,6 +20395,17 @@
       576,
       806,
       1009
+    ],
+    "faa0676988351b336f5627225f504665151ebfdbe11389b6a01542bcccb12a5c": [
+      251,
+      564,
+      1039,
+      1202,
+      1469,
+      1722,
+      1885,
+      2062,
+      2207
     ],
     "fadbf681edac2b01768d4535b8da6d44c41a726de0ddf3c88d23e3961d8326d6": [
       581,
@@ -20560,9 +20551,6 @@
     "093c669a6e28721e9b53a47e45d90caae0ea1c9ef6becbe2f91f381630b4effa": {
       "551": 1
     },
-    "0a8aaa948e6f2a2f89605cddaca7aa86cc39f9c68bade42cc010bb717bc8fc7b": {
-      "241": 1
-    },
     "0b546492668ca1314078674c6f7f966e7a5d00f0e478c828f8518b4ef3d398ec": {
       "1317": 2,
       "505": 1
@@ -20614,10 +20602,6 @@
     "13c8b05778cb4316a17981f1958b6e82d0d3db0690eb27dd9891823a72a95895": {
       "318": 1
     },
-    "169a4c80b48db88434272a07fa04d5ee8449b34369178271e2829a2ed1019ea1": {
-      "1225": 2,
-      "465": 1
-    },
     "16c602cffa8216d3d890800c8557e9cfe38df7547fb0b91a1dbfc15f520caa41": {
       "1023": 2,
       "323": 1
@@ -20657,9 +20641,6 @@
     "1a972951957e2493139e94c9c229c72a91b66d0dd1fe3a6d33e0170fb5aa89f4": {
       "1186": 2,
       "451": 1
-    },
-    "1adcb5b94bdac97260ecc54deb9367f593d08e367d4ff56ce99f812faac08c92": {
-      "564": 1
     },
     "1aedb7a716c08f2e995cdd864b5f0037303fd28055f20b214687c23d75c173b7": {
       "387": 1
@@ -20701,9 +20682,6 @@
     },
     "1e157feb5c33569f79de589c8ae3198dcf54f94d85b2078b56dd7dc09cd91e6b": {
       "486": 1
-    },
-    "1e1a9a49cc054d8adef26c999298628c8951bb50a9cd6f718cd3e53cb4cbaaea": {
-      "356": 1
     },
     "1e40d844317bc6eda536717c0369fee68bf818ea87d2bb5b4cfe6e77bc913cf5": {
       "1363": 2,
@@ -21063,10 +21041,6 @@
     "4c7113dd4e50939ebf9f995d2a1d3b1b78c251918dfbcac633e8a77d7cd6946f": {
       "239": 1
     },
-    "4c87d524d99dcc16d59b524cb837dfffa7c3fe9d7c8bf419339c024cd3ad1ba4": {
-      "410": 1,
-      "894": 2
-    },
     "4cc4a366a159af67e0a2fb7087797e5ed0459f01752616e43186c929a3bc8c1f": {
       "395": 1
     },
@@ -21135,10 +21109,6 @@
     },
     "555dc5a338a82eae0bcb6f423c670cf44403394fce845fcc11913a52a1e481b2": {
       "406": 1
-    },
-    "55b1e41a9e678c7346ab86f016eefeb43efb4f40415a93d3831545b7a0056a3b": {
-      "1142": 2,
-      "544": 1
     },
     "55da3bd9fa13669a0f171d4db52f49d80b5f42857333c699afd289d204738d95": {
       "483": 1
@@ -21573,11 +21543,6 @@
     "8c12064ac172f615c098239ccc98d77136faabcff84284b77a11d1a388c18f75": {
       "364": 1
     },
-    "8c7dd0ef35444c0057c2bc75139f693806807de662832b0d28d83e9c1ef05123": {
-      "1512": 2,
-      "2346": 3,
-      "690": 1
-    },
     "8d2405955f928925c9323f25f4d70b46583e37c4a45c298b591efee04cbb55d4": {
       "1152": 2,
       "508": 1
@@ -21610,17 +21575,9 @@
     "90d2c65d737dca12d987a6dee6ece88f110d7df2461cd3310503c33dc511750d": {
       "652": 1
     },
-    "92aeab7bd013b3831e63e20d9fa4a308d7c6b7bb4b55b03780968acbc7030bde": {
-      "1012": 2,
-      "1723": 3,
-      "408": 1
-    },
     "92cc86a9e6fc69dfee5c51a3e96d091a980a001e859a630f769670deaf3e93df": {
       "1383": 2,
       "641": 1
-    },
-    "933e9726d2431a806f6db28d6abe5085aa55d605bfb575a79b40649b9e2b6d33": {
-      "348": 1
     },
     "93b7a60fba23c414edd956f8da6495297b0988ef4bc8a01dd9458585de6b58f1": {
       "1237": 2,
@@ -21688,9 +21645,6 @@
       "1223": 2,
       "405": 1
     },
-    "9ca38a0bd43b4c8a850a39dab9fe69d0d640dda94952ec79c29df1ed44bc9c74": {
-      "432": 1
-    },
     "9d531bf7f6121b2d9885fb354ef8ed4fe162a2c48b9884ce2d052a967701f4ec": {
       "454": 1,
       "993": 2
@@ -21754,10 +21708,6 @@
     "a35e6e0e985697cb5065a467dbcb28f4d1e4c3a85dd8f17dca6356ec9e41b774": {
       "1249": 2,
       "494": 1
-    },
-    "a3965eb4c7cd3c241709c79235c62ba8fedb0fb36ae1944a73e2ad07be707299": {
-      "1096": 2,
-      "407": 1
     },
     "a3f0eda52bae6cfb7d8e00e1d885a45a44c693a66146af6777f5c561cdbd7d5e": {
       "353": 1
@@ -22020,9 +21970,6 @@
       "1868": 2,
       "3333": 3,
       "637": 1
-    },
-    "caac0cc4cd693b51c0c3da0d3fb80cd009403710df7e9fef2f418072e21b1c0a": {
-      "435": 1
     },
     "cb3459324f707ebe2f8d33cb5b43c9a2afab09ccaaa6a83fa2dcdbc90d6c4f7c": {
       "232": 1
@@ -22303,9 +22250,6 @@
       "1432": 2,
       "577": 1
     },
-    "f1019a8b37c5c67d3531ad104f9465fd8701707422ecd98a938dc9bc6b77f959": {
-      "503": 1
-    },
     "f194c60bf3764951b69cba4cd8196f34ea8c14c6a9d314b9a7a70ab2276ec8f8": {
       "392": 1
     },
@@ -22381,6 +22325,10 @@
     "fa7a1c92a79187127280ca6f9515f4f82e24a4391193a6fafc91db4a9f0df965": {
       "430": 1
     },
+    "faa0676988351b336f5627225f504665151ebfdbe11389b6a01542bcccb12a5c": {
+      "1202": 2,
+      "564": 1
+    },
     "faf1903333ff945fb9e7ef5321d92448e89bd8d48f1e4d953740dbce08cd2092": {
       "493": 1
     },
@@ -22412,123 +22360,5 @@
     }
   },
   "pack": "LoreForever_Voice_Default_MorePeople",
-  "retired": [
-    {
-      "file": "Audio/Transport/full_npc_apothecary-helbrim-9c3df65db6b379d8ddd6/1-0000.mp3",
-      "sha256": "25eb2253bc416c6763056c42295a3866a93590892f70b3586692e2f4a3b7cb53"
-    },
-    {
-      "file": "Audio/Transport/full_npc_apothecary-zinge-7b0656a93a1f44dfeb2c/1-0000.mp3",
-      "sha256": "9b53cf92f3e1cff66b6e742798025ba9dd4ccf59d55abb8d12f5e7fa5b194dc2"
-    },
-    {
-      "file": "Audio/Transport/full_npc_argent-guard-manados-f20312b6865452043011/1-0000.mp3",
-      "sha256": "5ecbe04289197cdbcb2895a466fbac9c1f7ca77b9e2a9abfe72b8daefe211978"
-    },
-    {
-      "file": "Audio/Transport/full_npc_christoph-jeffcoat-78f4b8a385f6eba6405a/1-0000.mp3",
-      "sha256": "8683f8f5e84ab497b9e9434a4b0406d9c65b57cf58e51d03d84b1d35382de76c"
-    },
-    {
-      "file": "Audio/Transport/full_npc_clarice-foster-11dbaf3cbdb8ded26165/1-0000.mp3",
-      "sha256": "292afcaf54c8a98fb1d5e823be552c7ec22ccd85eaad8c772f6ee1b6f62dceca"
-    },
-    {
-      "file": "Audio/Transport/full_npc_dawnwatcher-shaedlass-561433a7538175f3c877/1-0000.mp3",
-      "sha256": "4e2bfc3b8e1f60faeffc20d7ea6aa8729647115fecea243cbd4397ebd51a361f"
-    },
-    {
-      "file": "Audio/Transport/full_npc_deathstalker-rane-yorick-a56f3595f7d06cf8ab49/1-0000.mp3",
-      "sha256": "57ec8d72e3e0701d9bd1abcaff91f89ec0cc31a8a945044584dfe8abbbb59732"
-    },
-    {
-      "file": "Audio/Transport/full_npc_eleanor-shackleton-ed19cd106dfc74f90259/1-0000.mp3",
-      "sha256": "48178c7e1ae13c5e4eef02ee5daf7dba8120a9f9e38e34be364bdd52bb2f640e"
-    },
-    {
-      "file": "Audio/Transport/full_npc_gordon-wendham-d39cb53db81537384e31/1-0000.mp3",
-      "sha256": "2a9ca58aa12b2fcbda232a71e03cd8518bbad4ba5ee9af8eac22026e3a865e0c"
-    },
-    {
-      "file": "Audio/Transport/full_npc_grunth-00a6341e443a5aa7dbb7/1-0000.mp3",
-      "sha256": "284b6b77e81d9915e4c376617c6d366b276e02739990d8481bc1989957b43339"
-    },
-    {
-      "file": "Audio/Transport/full_npc_jorah-annison-f2fff7bd307df9dd6c96/1-0000.mp3",
-      "sha256": "c37eb8ff11f889089f7337b1252c55956b8d702556c1be0e313353f419187f1c"
-    },
-    {
-      "file": "Audio/Transport/full_npc_kaal-soulreaper-3f2d15567c5410eca5f9/1-0000.mp3",
-      "sha256": "8a1e05d42ef478401bed3c5ef4b490b30283ea950396708d6c3067fd386b557e"
-    },
-    {
-      "file": "Audio/Transport/full_npc_krusk-b663367a4a4b502213c5/1-0000.mp3",
-      "sha256": "17eaf8d883d2727d22e0038ed0deac6093b9503ff24f532c17bc6176fc3c1c2a"
-    },
-    {
-      "file": "Audio/Transport/full_npc_lord-maxwell-tyrosus-385e803eee0ed617916a/1-0000.mp3",
-      "sha256": "e3cbb7b5be1dccd449a2515e038f0b27b6ce48e7a9b66f4c10d6d5da3cf278f5"
-    },
-    {
-      "file": "Audio/Transport/full_npc_marcus-redpath-39e039d1af3ecc579073/1-0000.mp3",
-      "sha256": "b2bd592d1becc5a2d592cd2ae198d9bbe5d1f6e6656f3a5dde59faa80d7b09cc"
-    },
-    {
-      "file": "Audio/Transport/full_npc_miles-welsh-fbd068e6a4a08a0b41b6/1-0000.mp3",
-      "sha256": "b29e0e06f3b06c542038e0f5ab239327541dae5a31308974caf24c178902018d"
-    },
-    {
-      "file": "Audio/Transport/full_npc_nathanos-blightcaller-c02b4c7bba899f4d57c6/1-0000.mp3",
-      "sha256": "2986cc7f70f23b79ce18a6da5b0ecfe116907ad7b4431c8a11aacd1682b9b111"
-    },
-    {
-      "file": "Audio/Transport/full_npc_parqual-fintallas-2aca0f71bc59df585997/1-0000.mp3",
-      "sha256": "02fa99d446810138a161acf62afca3935b05c871a95a29781e2b7958bb020ed0"
-    },
-    {
-      "file": "Audio/Transport/full_npc_raleigh-andrean-753f9166eef054b90f6c/1-0000.mp3",
-      "sha256": "d14d742b7f135658de697f3734dc9ae3d192bb684dfc0eeb38071e0138661e74"
-    },
-    {
-      "file": "Audio/Transport/full_npc_royal-historian-archesonus-fc627aec994fe8b669bb/1-0000.mp3",
-      "sha256": "f24549033c7b6263c71c2977bfd6ff829629167db7258d095d46c37846509ccf"
-    },
-    {
-      "file": "Audio/Transport/full_npc_sally-whitemane-9bb9a274f9e8f9a9a980/1-0000.mp3",
-      "sha256": "cc88c410ad44eb53f629095891d9c033e6c728e9cf2a2c22deb978e369444ce1"
-    },
-    {
-      "file": "Audio/Transport/full_npc_velora-nitely-aea358c9ed2c264bb586/1-0000.mp3",
-      "sha256": "b17b1fa6b178f94c1c67b32bf41254a58ebd503789e95c573d95f3b03e2e495d"
-    },
-    {
-      "file": "Audio/Transport/full_npc_yvette-farthing-b18364e5d7f71f29692f/1-0000.mp3",
-      "sha256": "15286401495edf691e89827a1124d051176046bee13112a6657fdc185126d636"
-    },
-    {
-      "file": "Audio/Transport/full_topic_alliance-94c7ffd445a60fd99c35/1-0000.mp3",
-      "sha256": "1285c6757877f3ec813a22a259962dfe8f36d3e0e59eef64a94eb5c5dd8b6f0b"
-    },
-    {
-      "file": "Audio/Transport/full_topic_muradin-bronzebeard-2acc6d3fe2d385f5d0de/1-0000.mp3",
-      "sha256": "f1445ff1461a55e0b9b521fce82b4a93c12acf97da9384072aa16e6698e748a1"
-    },
-    {
-      "file": "Audio/Transport/full_topic_paladin-46074fa8f039daf2f8ab/1-0000.mp3",
-      "sha256": "4175389a43aa62e9cb2700a6ba37b046599918b8c0b0398f0bd1a512af6929f7"
-    },
-    {
-      "file": "Audio/Transport/full_topic_scarlet-crusade-6326c1f6e3e65f4ff4b9/1-0000.mp3",
-      "sha256": "eb02fd79131bddf014f0eaa41e7a41c289fdccb30a2cc4bbf18021c41591132c"
-    },
-    {
-      "file": "Audio/Transport/full_topic_stormwind-kingdom-44b74c6cfb1b4060684b/1-0000.mp3",
-      "sha256": "bdde6e997014420afebdfeeb3c84fdbc4055102205e262d8f01f009a31aba035"
-    },
-    {
-      "file": "Audio/Transport/full_topic_human-8968811f8ee83b410ef8/1-0000.mp3",
-      "sha256": "c8c8013ad48597dc6a6c4b77cbc074c4e74da1419e554f96f8b83513e57a8fc3"
-    }
-  ],
   "version": 1
 }

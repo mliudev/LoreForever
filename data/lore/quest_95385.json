@@ -1,0 +1,87 @@
+{
+ "key": "quest:95385",
+ "type": "quest",
+ "name": "Torn Mystical Scroll",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95385
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A torn scroll bears faint magic and unfamiliar runes. You bring it to Dudd Fizzlescroll in Booty Bay, where he sees promise in its writing.",
+ "sections": [
+  {
+   "title": "A Curious Scrap",
+   "body": "A faint magic clings to the torn scroll, and its runes are strange to you. You sense no danger in it, though most would call the parchment useless. Dudd Fizzlescroll in Booty Bay may find a use for the scrap.",
+   "spoiler": 0
+  },
+  {
+   "title": "Dudd's Work",
+   "body": "Dudd Fizzlescroll is eager to copy the runes into his work. He speaks of becoming a legendary engineer, then warns you to keep clear so you will not be hurt.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the torn scroll?",
+   "aliases": [
+    "torn scroll",
+    "mystical scroll",
+    "what's this scroll"
+   ],
+   "answer": "It is a scrap of parchment bearing faint magic and unfamiliar runes. You sense that it is not dangerous."
+  },
+  {
+   "q": "Who wants the scroll?",
+   "aliases": [
+    "who wants it",
+    "scroll collector",
+    "dudd scroll"
+   ],
+   "answer": "Dudd Fizzlescroll in Booty Bay is interested in the partial scroll."
+  },
+  {
+   "q": "Why bring it to Dudd?",
+   "aliases": [
+    "why dudd",
+    "where does scroll go",
+    "scroll purpose"
+   ],
+   "answer": "Dudd may find a use for the unfamiliar runes on the parchment."
+  },
+  {
+   "q": "Is the scroll dangerous?",
+   "aliases": [
+    "scroll safe",
+    "dangerous scroll",
+    "is it magic"
+   ],
+   "answer": "The scroll gives off faint magic, but you intuit that it is not dangerous."
+  }
+ ],
+ "angles": [
+  {
+   "target": "profession:Engineering",
+   "text": "Dudd Fizzlescroll plans to copy the runes into his work and speaks of becoming a legendary engineer."
+  }
+ ],
+ "keywords": [
+  "booty bay",
+  "dudd fizzlescroll",
+  "engineering",
+  "faint magic",
+  "partial scroll",
+  "runes",
+  "torn mystical scroll"
+ ],
+ "related": [
+  "subzone:booty-bay"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Torn Mystical Scroll"
+ ]
+}

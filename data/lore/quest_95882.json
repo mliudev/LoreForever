@@ -1,0 +1,102 @@
+{
+ "key": "quest:95882",
+ "type": "quest",
+ "name": "WANTED: Scoutmaster Vargas",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95882
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Neza Bloodsnout wants Scoutmaster Vargas stopped after his scouting has hindered the Horde. His eye is demanded as proof that he is gone.",
+ "sections": [
+  {
+   "title": "Neza's Pursuit",
+   "body": "Neza Bloodsnout has already taken one of Scoutmaster Vargas's eyes, but the human escaped. His scouting makes it harder for the Horde to track Alliance movements. Now Neza asks you to bring back Vargas's other eye as proof that the scoutmaster is no more.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Report",
+   "body": "Neza hears that Vargas is dead and says the Riverglades are safer for the Horde. She regrets that he did not live blind after all he had seen.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Scoutmaster Vargas?",
+   "aliases": [
+    "vargas",
+    "who's vargas"
+   ],
+   "answer": "Scoutmaster Vargas is a human leading an Alliance scouting party on a small island northeast of Rog'mar."
+  },
+  {
+   "q": "Why does Neza want Vargas dead?",
+   "aliases": [
+    "why kill vargas",
+    "neza vargas"
+   ],
+   "answer": "Vargas's scouting has made it harder for the Horde to track enemy movements, and Neza says he knows she is hunting him."
+  },
+  {
+   "q": "Where was Vargas seen?",
+   "aliases": [
+    "vargas island",
+    "where is scoutmaster"
+   ],
+   "answer": "An Alliance scouting party led by Vargas was seen on a small island northeast of Rog'mar."
+  },
+  {
+   "q": "What does Neza ask me to bring back?",
+   "aliases": [
+    "vargas eye",
+    "what proof"
+   ],
+   "answer": "Neza asks you to bring her Scoutmaster Vargas's other eye as proof that he is gone."
+  },
+  {
+   "q": "Who is Neza Bloodsnout?",
+   "aliases": [
+    "neza",
+    "who wants vargas"
+   ],
+   "answer": "Neza Bloodsnout is in Rog'mar and wants proof that Scoutmaster Vargas is no more."
+  },
+  {
+   "q": "What does Neza say after Vargas dies?",
+   "aliases": [
+    "vargas ending",
+    "what happens after"
+   ],
+   "answer": "Neza accepts that Vargas is dead and says the Riverglades are safer for the Horde."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you help Neza remove an Alliance scoutmaster whose tracking has hindered Horde movements."
+  }
+ ],
+ "keywords": [
+  "alliance scout",
+  "neza bloodsnout",
+  "riverglades",
+  "rog'mar",
+  "scouting party",
+  "scoutmaster vargas",
+  "scoutmaster's eye"
+ ],
+ "related": [
+  "zone:riverglades",
+  "topic:horde",
+  "topic:alliance",
+  "topic:human"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: WANTED: Scoutmaster Vargas"
+ ]
+}

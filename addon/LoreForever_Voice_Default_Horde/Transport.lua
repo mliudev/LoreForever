@@ -262,7 +262,7 @@ P.transport["npc:mangletooth"] = {
   fullHash = "f19f94",
   text = "Mangletooth. At Camp Taurajo, Mangletooth bargains from a Horde cage while execution awaits. He offers knowledge of his rivals and the ancient lore of Agamaggan in exchange for help. Tauren hunters and orc sentries hold Mangletooth in a cage at Camp Taurajo. The captured Razormane quilboar awaits execution, yet still tries to sway his captors and the Horde visitors who come to him. He urges them to strike his tribe’s enemies, hoping to prove his worth or win his freedom. Mangletooth knows the religious history of his people. During the ancient War of the Ancients, Agamaggan’s spilled blood gave rise to the Barrens’ massive thorns. Mangletooth gathers red crystalline Blood Shards from fallen Bristlebacks and channels their lingering divine power, granting ancient blessings to those who help him.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_mangletooth-d8f398e8af13facd002f/1-0000.mp3", duration = 48.9012245, start = 0},
+    {file = "Audio/Transport/full_npc_mangletooth-a60e411c78bca55de256/1-0000.mp3", duration = 46.4979592, start = 0},
   },
 }
 P.transport["npc:master-apothecary-faranell"] = {
@@ -534,7 +534,7 @@ P.transport["subzone:bandarion-keep"] = {
   fullHash = "0a01e3",
   text = "Bandarion Keep. At Bandarion Keep, defenders watch the coast and the woodland for danger. Near the Whispering Forest, the outpost bears Garek Bandarion’s name and is bound to Tyr's Watch. Bandarion Keep guards western Tirisfal Glades near the Whispering Forest. Named for Garek Bandarion, the stronghold is closely bound to Tyr's Watch. Quartermaster Jorin Croge works to keep the garrison supplied. Yet the keep lies far from the courtyards of the Undercity. Threats press Bandarion Keep from several directions. Vile Fin murlocs raid the nearby waters, while the Scarlet Crusade tests the defenders in skirmishes. Mindless Scourge thralls wander through the gloom. Some paladins have struggled to accept their unlife as Forsaken and have fallen to madness. They turn their weapons against their own kindred.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_bandarion-keep-c9df574b67a10c0be195/1-0000.mp3", duration = 52.1142857, start = 0},
+    {file = "Audio/Transport/full_subzone_bandarion-keep-6317a5f78f4fa58252d0/1-0000.mp3", duration = 51.1477551, start = 0},
   },
 }
 P.transport["subzone:beren-s-peril"] = {
@@ -550,7 +550,7 @@ P.transport["subzone:blackthorn-ridge"] = {
   fullHash = "868e30",
   text = "Blackthorn Ridge. At Blackthorn Ridge, Razormane quilboar guard the southern Barrens north of Razorfen Kraul. Brine, an orc shaman, watches from a camp above a pool of unusually pure mountain water. Beside Razorfen Kraul, Blackthorn Ridge rises through thickets of sharp briars. The Razormane quilboar claim these slopes as ancestral ground. They use the thorn barriers to ambush outsiders and skirmish across the southern Barrens. Travelers still seek the ridge despite the danger, drawn by Brine, a hermit orc shaman. His camp overlooks a spring famed across Kalimdor for its clear, spiritually pure water.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_blackthorn-ridge-bda2bb355a92c2c54c2f/1-0000.mp3", duration = 37.2506122, start = 0},
+    {file = "Audio/Transport/full_subzone_blackthorn-ridge-afb5bd114d76f0a9f003/1-0000.mp3", duration = 37.0677551, start = 0},
   },
 }
 P.transport["subzone:bladefist-bay"] = {
@@ -590,7 +590,7 @@ P.transport["subzone:bramblescar"] = {
   fullHash = "4f2f09",
   text = "Bramblescar. Across the southern Barrens, Razormane warriors at Bramblescar fight the Bristleback across the Gold Road. Thick brambles guard their settlement. In the southern Barrens, sharp briars form a redoubt for the Razormane quilboar. Their thick thorns keep casual wanderers away. The tribe guards its territory fiercely and treats outsiders as intruders on land blessed by their ancient boar gods. Across the Gold Road from Bramblescar lies Agama'gor, the Bristleback encampment. The two tribes wage an unrelenting war for dominion over the southern Barrens. Razormane warriors fight Horde travelers along the highway and turn back Bristleback raiding parties. So the tribes remain in constant, violent conflict.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_bramblescar-2ba01fe164583df6a0b6/1-0000.mp3", duration = 44.1469388, start = 0},
+    {file = "Audio/Transport/full_subzone_bramblescar-8091e4718a91113440ce/1-0000.mp3", duration = 42.5795918, start = 0},
   },
 }
 P.transport["subzone:brightwater-lake"] = {
@@ -934,7 +934,7 @@ P.transport["subzone:grol-dom-farm"] = {
   fullHash = "17d68f",
   text = "Grol'dom Farm. Along the road from Durotar to the Crossroads, Grol'dom Farm raises swine in the northern Barrens. Kranal Fiss and his family work the homestead under constant harassment from aggressive quilboars. After Durotar was settled, the Horde began farming the dry Barrens at Grol'dom Farm. Kranal Fiss and his children tend the homestead and raise pigs. Razormane quilboar raiders prowl the nearby ridges, making life here lonely and rugged. Still, the farm feeds the emerging orcish nation. Kranal Fiss tends pigs at Grol'dom Farm and knows the elemental rites. He guides young shaman through their trials, so Horde initiates on the spiritual path hold the farm in quiet regard. Seekers traveling west from Orgrimmar are regularly sent here to learn how to commune with the primal spirits of fire.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_grol-dom-farm-0f57a125cce7ad5d7574/1-0000.mp3", duration = 49.2669388, start = 0},
+    {file = "Audio/Transport/full_subzone_grol-dom-farm-40217e858fee5538258e/1-0000.mp3", duration = 48.9795918, start = 0},
   },
 }
 P.transport["subzone:grommash-hold"] = {
@@ -1086,7 +1086,7 @@ P.transport["subzone:north-coast"] = {
   fullHash = "19188d",
   text = "North Coast. Fog hangs over North Coast, where blight and murlocs rule the shore. Cold sands mark Tirisfal Glades' northern edge, strewn with rotting sea life. Before the Third War, North Coast's waters and stony beaches made a peaceful northern boundary for Lordaeron. Then the Plague of Undeath swept across the continent, and its blight seeped down the bluffs to poison the coast. The waters turned cold and murky. Now giant sea creatures wash ashore and rot beneath the lingering fog. With Lordaeron shattered, the Forsaken focus on Brill and the Capital City. Along the surf, the Vile Fin tribe keeps huts and uses nearby shallows as spawning grounds. Ravenous murlocs gather there, among them Deeb and growing tadpoles. They fiercely guard the tideline against surface-dwellers.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_north-coast-e94de68e1cd17d39c296/1-0000.mp3", duration = 49.4759184, start = 0},
+    {file = "Audio/Transport/full_subzone_north-coast-7dba38c6113f0d4d5b2b/1-0000.mp3", duration = 46.8897959, start = 0},
   },
 }
 P.transport["subzone:north-tide-s-hollow"] = {
@@ -1206,7 +1206,7 @@ P.transport["subzone:razormane-grounds"] = {
   fullHash = "040147",
   text = "Razormane Grounds. Razormane quilboar press east from the Barrens into central Durotar. Their thorn-choked camp marks the front of a long struggle with Orgrimmar's orcs. At the Southfury River, Razormane Grounds threaten travelers beneath central Durotar's red cliffs. Here the quilboar have spread farther east from the Barrens than anywhere else. Captain Flat Tusk of the Battleguard and Geolord Mottle lead raids on nearby orc settlements and passing supply lines. Patrols leave Razor Hill and nearby outposts, yet the Razormane replenish their ranks among the briars faster than the Horde can clear them.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_razormane-grounds-cc2f2178ca569d7b59ab/1-0000.mp3", duration = 34.6383673, start = 0},
+    {file = "Audio/Transport/full_subzone_razormane-grounds-8bb11b01fd155ccfcf78/1-0000.mp3", duration = 33.4628571, start = 0},
   },
 }
 P.transport["subzone:razorwind-canyon"] = {
@@ -1430,7 +1430,7 @@ P.transport["subzone:thorn-hill"] = {
   fullHash = "9b0774",
   text = "Thorn Hill. At Thorn Hill, Razormane warbands strike Horde supply lines east of the Crossroads. Their fortified camp holds the high ridges between Durotar and the Barrens interior. Thorn Hill commands the roads between Durotar and the Crossroads. Razormane hunters gather here with trained wolves and geomancers who shape the earth. Elder Mystic Razorsnout guides the quilboar, and their attacks on Horde supply caravans grow bolder. So the camp, close to vital routes, is one of the Crossroads guards' most immediate threats in the central savanna.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_thorn-hill-fc1185b444492df25d85/1-0000.mp3", duration = 32.3918367, start = 0},
+    {file = "Audio/Transport/full_subzone_thorn-hill-be16fb7b798a30203506/1-0000.mp3", duration = 31.9477551, start = 0},
   },
 }
 P.transport["subzone:thunder-ridge"] = {
@@ -1542,7 +1542,7 @@ P.transport["subzone:whispering-forest"] = {
   fullHash = "20ef26",
   text = "Whispering Forest. Behind Deathknell, the Whispering Forest lies quiet beneath western Tirisfal’s cliffs. Its lake, giant mushroom ring, and uncanny wildlife break the stillness, while corruption stirs beneath the soil. Beyond Northface Rock and Bandarion Keep, the Whispering Forest feels far from plague-touched Tirisfal. Afflicted deer and roaming predators share its woods with a tranquil lake. Nearby, giant mushrooms form a ring beneath a hovering cloud of mist, glowing with uncanny energy. The ghostly Knight of Mourning wanders among them, bound by oath. Natural magic lingers here in land scarred by the Scourge.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_whispering-forest-d254a0cb67aa78c9b9b1/1-0000.mp3", duration = 39.9934694, start = 0},
+    {file = "Audio/Transport/full_subzone_whispering-forest-602c4136dd5ea131c4bf/1-0000.mp3", duration = 38.635102, start = 0},
   },
 }
 P.transport["subzone:whispering-shore"] = {

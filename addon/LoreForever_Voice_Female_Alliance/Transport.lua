@@ -198,7 +198,7 @@ P.transport["npc:duthorian-rall"] = {
   fullHash = "d083e8",
   text = "Duthorian Rall. In Stormwind's Cathedral of Light, Duthorian Rall guides new holy warriors through their trials. A respected human knight of the Silver Hand, he is one of the Alliance's most influential paladins. He oversees their training and spiritual tests, teaching charity, valor, and devotion as they prepare to defend Azeroth from the Scourge and threats within the kingdom. In the Cathedral of Light, Duthorian Rall upholds the traditions of the Knights of the Silver Hand. The kingdom is unsettled by strife within its borders, and King Varian Wrynn is missing. Duthorian bears the duty of teaching discipline to new initiates. Respected paladins in the field send promising recruits to him: Brother Wilhelm in Goldshire and Brandur Ironhammer in Ironforge. There, the recruits begin their sacred trials. Duthorian teaches that martial power without a moral foundation is hollow. In the Tome of Divinity trials, he tests an initiate's empathy through acts of mercy and selfless service across Stormwind. Only then does he entrust candidates with deeper mysteries.\n\nNear Heroes' Vigil, he tests them with the Symbol of Life. Then he sends them to aid wounded allies and learn to channel the Light's power, restoring fallen comrades from death.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_duthorian-rall-9aeb583f244109a1fb64/1-0000.mp3", duration = 78.3934694, start = 0},
+    {file = "Audio/Transport/full_npc_duthorian-rall-81f8d6bbec09c74a4453/1-0000.mp3", duration = 76.4865306, start = 0},
   },
 }
 P.transport["npc:elling-trias"] = {
@@ -238,7 +238,7 @@ P.transport["npc:foreman-oslow"] = {
   fullHash = "68904f",
   text = "Foreman Oslow. At Lakeshire, Foreman Oslow works to rebuild the Everstill Bridge, shattered by Blackrock orcs. Lost tools and stolen supplies have halted the repairs, leaving the town's trade route broken. Foreman Oslow works beside the broken Everstill Bridge, trying to reconnect Lakeshire. The span crosses Lake Everstill, joining western roads toward Elwynn to the eastern shore. Blackrock orcs descended from Stonewatch's crags and struck the crossing to cripple Lakeshire's trade and military movement. Now the town is split and exposed. Foreman Oslow has lost the tools and materials needed for repairs. Replacement tools came overland from Goldshire, then went aboard a lake ferry. Blackrock orc catapults struck the vessel, sending Oslow's heavy iron toolbox to Lake Everstill's muddy bed.\n\nGnolls in Redridge also seized a caravan carrying new materials from Stormwind. They took the iron pikes and rivets needed to raise the bridge's arches.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_foreman-oslow-fbfc15247137e35e7784/1-0000.mp3", duration = 62.9812245, start = 0},
+    {file = "Audio/Transport/full_npc_foreman-oslow-34c6f0534195fe5701f0/1-0000.mp3", duration = 58.7232653, start = 0},
   },
 }
 P.transport["npc:furen-longbeard"] = {
@@ -742,7 +742,7 @@ P.transport["npc:william-pestle"] = {
   fullHash = "d7f394",
   text = "William Pestle. At the Lion's Pride Inn in Goldshire, William Pestle gathers supplies for Stormwind's apothecary. He and his brother Morgan run the shop in the Trade District. William hires travelers to find candles, kelp, and herbs. William works from the Lion's Pride Inn in Goldshire. His brother Morgan Pestle tends the counter at Pestle's Apothecary in Stormwind City's Trade District. In Elwynn Forest, William works with local gatherers to secure raw materials for the city's shops. He sends regular shipments to Stormwind, where citizens rely on restorative salves, draughts, and powders. Common garden herbs do not always meet William's needs. He hires newcomers to gather wax candles carried by Elwynn's kobolds and crystal kelp from the murlocs of Crystal Lake, just east of Goldshire. The ingredients may seem strange to those unfamiliar with alchemy. William believes they have potent virtues in a mixture.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_william-pestle-09c1960c4d30cc3cd2cb/1-0000.mp3", duration = 56.7902041, start = 0},
+    {file = "Audio/Transport/full_npc_william-pestle-1b6da72aee5500e6e013/1-0000.mp3", duration = 56.8163265, start = 0},
   },
 }
 P.transport["npc:wizbang-cranktoggle"] = {
@@ -958,7 +958,7 @@ P.transport["subzone:brackwell-pumpkin-patch"] = {
   fullHash = "91fd3a",
   text = "Brackwell Pumpkin Patch. Defias brigands hold Brackwell Pumpkin Patch in southeastern Elwynn Forest. The farm belonged to the Brackwell family, but now conspirators meet in its cottage and fields, where stolen mine gold arrives. Southeast of the Stonefield homestead, Brackwell's fields lie untended. The family vanished as crime spread through the area, driven away or worse. The Defias Brotherhood now occupies the sturdy cottage and overgrown fields. Beyond the reach of Goldshire's patrols, brigands regroup here. Morgan the Collector and other prominent conspirators use the isolated farm to receive illicit gold from the forest's mines.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_brackwell-pumpkin-patch-6cad83d58541c3e62469/1-0000.mp3", duration = 40.5420408, start = 0},
+    {file = "Audio/Transport/full_subzone_brackwell-pumpkin-patch-268ec4c75c0353df7242/1-0000.mp3", duration = 39.2881633, start = 0},
   },
 }
 P.transport["subzone:brewnall-village"] = {
@@ -1118,7 +1118,7 @@ P.transport["subzone:crystal-lake"] = {
   fullHash = "e82dbe",
   text = "Crystal Lake. At Crystal Lake, murlocs claim the shore east of Goldshire. Their attacks endanger villagers and travelers passing by. East of Goldshire, Crystal Lake lies within walking distance of the Lion's Pride Inn. Freshwater murlocs claim its shore and shallow shoals, attacking anyone who comes too close. William Pestle, an alchemist at the inn, hires travelers to drive them back and gather the crystal kelp they carry for his experiments.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_crystal-lake-fb923029d179e72a4b16/1-0000.mp3", duration = 29.1787755, start = 0},
+    {file = "Audio/Transport/full_subzone_crystal-lake-fadca7ed0fc62f98964e/1-0000.mp3", duration = 27.7159184, start = 0},
   },
 }
 P.transport["subzone:cut-throat-alley"] = {
@@ -1350,7 +1350,7 @@ P.transport["subzone:fargodeep-mine"] = {
   fullHash = "cc9f11",
   text = "Fargodeep Mine. Kobolds now swarm through Fargodeep Mine, south of Goldshire in central Elwynn Forest. Its gold once filled Stormwind's treasury, but now kobolds make their home in its tunnels. Gold once flowed from Fargodeep Mine into Stormwind's treasury. As the Kingdom's military presence in Elwynn dwindled, the outlying mine grew vulnerable. Kobolds filled its dark tunnels and made a warren beneath the hills. Now Marshal Dughan and Goldshire's authorities fear the lost ore and the danger to nearby farms, including the Stonefield and Maclure holdings. Fargodeep Mine runs through several levels, with lower shafts reaching deep beneath the forest floor. Kobold laborers and vermin hurry along wooden scaffolds, guarding the wax and gold dust they have scavenged. Goldtooth, a cunning kobold leader, lurks in a den above the main tunnels. He hoards trinkets stolen from travelers and nearby residents.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_fargodeep-mine-779b0b9bb7bc93379d56/1-0000.mp3", duration = 56.1632653, start = 0},
+    {file = "Audio/Transport/full_subzone_fargodeep-mine-59c88558258a7a9cfccd/1-0000.mp3", duration = 57.7044898, start = 0},
   },
 }
 P.transport["subzone:farstrider-lodge"] = {
@@ -1502,7 +1502,7 @@ P.transport["subzone:goldshire"] = {
   fullHash = "8549d4",
   text = "Goldshire. Goldshire stands where Elwynn’s roads meet, between Stormwind City, Westfall, Redridge, and the southern frontier. Rebuilt after the First War, it offers travelers the Lion’s Pride Inn, while a hard-pressed Stormwind Guard defends the town. Goldshire holds the crossroads in rural Elwynn, where the king’s highways meet. Threats press closer as Stormwind’s forces thin and King Varian Wrynn remains mysteriously absent. Marshal Dughan must rely on passing adventurers instead of regular troops to guard the borders. Riverpaw gnolls push in from the west, while hostile murlocs claim the shores of Stone Cairn Lake and Crystal Lake. Their attacks have killed royal guards and brought danger close to town. Goldshire and Moonbrook were the last strongholds to fall in the First War. Warchief Blackhand cut King Llane Wrynn I off from his realm before sacking Stormwind Keep, and the Orcish Horde overwhelmed both towns. Goldshire was reduced to ash and lay barren until it was rebuilt after the Second War.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_goldshire-dca8ecdbfc36724756b6/1-0000.mp3", duration = 63.2946939, start = 0},
+    {file = "Audio/Transport/full_subzone_goldshire-7fa720c3a094666daa3d/1-0000.mp3", duration = 63.7910204, start = 0},
   },
 }
 P.transport["subzone:grand-vestibule"] = {
@@ -1638,7 +1638,7 @@ P.transport["subzone:heroes-vigil"] = {
   fullHash = "72724c",
   text = "Heroes' Vigil. On Stone Cairn Lake's island, Heroes' Vigil lies neglected and overrun by renegade wizards. The Stone of Remembrance honors those who fell in the First War. Heroes' Vigil gathers around the Stone of Remembrance on an island in Stone Cairn Lake. Erected after the First War, its inscribed circle honors the soldiers and citizens slain when the Old Horde sacked Goldshire and the surrounding valleys. Once a sacred place of faith and sacrifice, the memorial has slipped from Stormwind's attention. Its grounds are overgrown, and no soldiers tend them. Without a kingdom garrison, outcasts have claimed the island. Rogue wizards control Stone Cairn Lake and the memorial grounds. They practice wild, undisciplined magic beyond the oversight of the Kirin Tor and the Academy of Arcane Sciences. Near the stones lies Henze Faulk's body among other tragic casualties. Travelers can only wonder whether the shrine will know peace again.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_heroes-vigil-2df8c4e8ac2fe5853f1f/1-0000.mp3", duration = 58.5404082, start = 0},
+    {file = "Audio/Transport/full_subzone_heroes-vigil-b68d6041ee95e692041d/1-0000.mp3", duration = 58.0179592, start = 0},
   },
 }
 P.transport["subzone:high-seat"] = {
@@ -1750,7 +1750,7 @@ P.transport["subzone:jansen-stead"] = {
   fullHash = "14baf8",
   text = "Jansen Stead. Defias bandits and mechanical Harvest Watchers roam the fields of Jansen Stead, just west of Elwynn. Jansen Stead stands beside the road from Elwynn into Westfall. Once its farm fed the kingdom, but unrest has driven the family from the land. Now mechanical Harvest Watchers patrol the fields alongside brigands. The Watchers are tied to the Defias Brotherhood. Couriers and travelers between Goldshire and Sentinel Hill pass close by.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_jansen-stead-8998bb02d50d6dbc43fb/1-0000.mp3", duration = 27.0889796, start = 0},
+    {file = "Audio/Transport/full_subzone_jansen-stead-e999b9eb0a46c6031a3e/1-0000.mp3", duration = 28.1077551, start = 0},
   },
 }
 P.transport["subzone:jasperlode-mine"] = {
@@ -1862,7 +1862,7 @@ P.transport["subzone:lion-s-pride-inn"] = {
   fullHash = "b7aa6c",
   text = "Lion's Pride Inn. At the Lion's Pride Inn, travelers rest and find work just south of Stormwind. Innkeeper Farley welcomes them to Goldshire's gathering place in Elwynn Forest. Goldshire's crossroads bring travelers to the Lion's Pride Inn. Innkeeper Farley keeps the old motto: “Rest and relaxation for the tired and cold.” Hearths, strong drinks, and rooms welcome weary travelers from Northshire. The roads link Stormwind with Westfall, Redridge, and Duskwood, so town marshals, local crafters, and seasoned trainers gather here to share news and hire passing mercenaries.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_lion-s-pride-inn-193ddec048ec9b2c7631/1-0000.mp3", duration = 36.8587755, start = 0},
+    {file = "Audio/Transport/full_subzone_lion-s-pride-inn-9e1c9032db2adb335080/1-0000.mp3", duration = 37.9297959, start = 0},
   },
 }
 P.transport["subzone:long-wash"] = {
@@ -2142,7 +2142,7 @@ P.transport["subzone:northshire-valley"] = {
   fullHash = "1f0519",
   text = "Northshire Valley. Northshire Valley, in the hills of northern Elwynn, is where Stormwind's newest defenders begin. Mountain ridges guard it on every side but one. At its heart stands the ancient abbey, with fertile vineyards and a rich mine close by. But bandits and kobolds trouble the valley now, and wolves prowl its quiet pastures. The only way out is the road south. It runs through a fortified gatehouse, on toward Goldshire and the rest of the forest. A clear river crosses the pastures and flows into Crystal Lake. In the abbey, recruits train under seasoned veterans and the Knights of the Silver Hand. With its vineyards and its mine, the valley has all it needs, far from the wars beyond its ridges. But even here, Stormwind's defenses are stretched thin. In the valley, Marshal McBride and his detachment of the Guard struggle to keep order. So the commanders here take on every able-bodied soul who reaches the gates. They need every one of them.\n\nWolves have come north out of darkened Duskwood. Kobolds have overrun the tunnels of Echo Ridge Mine. And masked thugs of the Defias Brotherhood harass the vineyards. They threaten even the abbey grounds.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_northshire-valley-eb43bb21dbf890caac80/1-0000.mp3", duration = 72.4897959, start = 0},
+    {file = "Audio/Transport/full_subzone_northshire-valley-f8ff71cad828434d2075/1-0000.mp3", duration = 73.0383673, start = 0},
   },
 }
 P.transport["subzone:northshire-vineyards"] = {
@@ -2294,7 +2294,7 @@ P.transport["subzone:ridgepoint-tower"] = {
   fullHash = "e1f046",
   text = "Ridgepoint Tower. Stormwind guards watch eastern Elwynn from Ridgepoint Tower, where forest roads lead into neighboring wilderness. The garrison scans the valleys for threats to the kingdom’s farms and settlements. Ridgepoint Tower looks out from high ground at the eastern edge of Stormwind’s authority, with wild country beyond. Its guards watch the routes toward farms and settlements nearer Northshire and Goldshire. They remain alert for danger crossing the border. Threats press in from several directions. East lie the Redridge Mountains, where aggressive gnoll packs and blackrock orc raiders test human defenses. Across the southern river, undead horrors prowl Duskwood’s timberline. Nearby wilderness camps shelter rogue Defias Brotherhood bandits seeking gaps in the guard’s defenses.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_ridgepoint-tower-6cd4cc79a53bd35fb275/1-0000.mp3", duration = 47.36, start = 0},
+    {file = "Audio/Transport/full_subzone_ridgepoint-tower-c723b21540ad42cd7907/1-0000.mp3", duration = 48.2481633, start = 0},
   },
 }
 P.transport["subzone:roland-s-doom"] = {
@@ -2574,7 +2574,7 @@ P.transport["subzone:stonefield-farm"] = {
   fullHash = "416b04",
   text = "Stonefield Farm. In southern Elwynn Forest, the Stonefield family works its fields while a long feud divides them from the Maclures. South of Goldshire, the Stonefields grow crops for the realm. For decades, they have quarreled with the nearby Maclure Vineyards. Each household accuses the other of theft and trespassing, and even small disputes keep tensions high. Gramma Stonefield, Ma Stonefield, and young Tommy Joe Stonefield make their home here.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_stonefield-farm-ec860221d2decf73891f/1-0000.mp3", duration = 27.8465306, start = 0},
+    {file = "Audio/Transport/full_subzone_stonefield-farm-e1fbaf5c4188c09d3b13/1-0000.mp3", duration = 29.3877551, start = 0},
   },
 }
 P.transport["subzone:stonefire-tavern"] = {
@@ -2782,7 +2782,7 @@ P.transport["subzone:three-corners"] = {
   fullHash = "3d62a3",
   text = "Three Corners. At Three Corners, guards watch the western edge of the Redridge Mountains. Roads run from there to Goldshire, Lakeshire, and Darkshire, while gnolls threaten travelers and supply wagons. Three roads meet here, linking the southern settlements of Stormwind. Goldshire lies west in Elwynn Forest, Lakeshire northeast in Redridge, and Darkshire south in Duskwood. Stormwind built Tower Watch at the junction, where guards and scouts work to keep the roads clear. Gnolls from Redridge threaten travelers and supply wagons moving between the regions.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_three-corners-aff3e728ab709234b8c2/1-0000.mp3", duration = 35.5004082, start = 0},
+    {file = "Audio/Transport/full_subzone_three-corners-adebf738224856b237c1/1-0000.mp3", duration = 36.1012245, start = 0},
   },
 }
 P.transport["subzone:thunder-falls"] = {
@@ -3006,7 +3006,7 @@ P.transport["subzone:westbrook-garrison"] = {
   fullHash = "b12354",
   text = "Westbrook Garrison. At Westbrook Garrison, Deputy Rainer's few guards watch Elwynn's western road. Gnolls and bandits threaten the border, and the outpost lacks the men and supplies to hold it alone. Westbrook Garrison watches the road where Elwynn Forest thins toward Westfall. Deputy Rainer and a handful of guards patrol the western roads, too few to cover them. Much of the Stormwind Army serves abroad, and indecision in the capital leaves the outpost without needed support.\n\nThieves grow bolder, and Riverpaw gnolls have overrun the southern woods. Marshal Dughan in Goldshire has sent no formal reinforcements, so the guards depend on travelers to help secure the highway. Riverpaw gnolls gather south of Forest's Edge, raiding supply lines and homesteads. The packs follow Hogger, a fearsome chieftain whose forces outnumber the garrison and overwhelm its guards with brute strength.\n\nA high bounty is posted across the outpost. It seeks fighters willing to enter the hills and bring down Hogger before the gnolls press farther east.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_westbrook-garrison-15574d4f8295d542eefa/1-0000.mp3", duration = 63.7910204, start = 0},
+    {file = "Audio/Transport/full_subzone_westbrook-garrison-78b048408e12689f84aa/1-0000.mp3", duration = 62.7983673, start = 0},
   },
 }
 P.transport["subzone:westfall-lighthouse"] = {

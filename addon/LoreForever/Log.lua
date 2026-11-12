@@ -90,7 +90,8 @@ local USAGE_DAYS = 30
 local MAX_KINDS = 24             -- kinds in one count; a new one past that counts as "other"
 local SESSION_GAP = 300          -- seconds: a login this soon after the last logout (a /reload) isn't a new session
 local DAY = "^%d%d%d%d%-%d%d%-%d%d$"
-local KINDS = { zone = "zone", subzone = "place", npc = "person", quest = "quest", topic = "topic", booktext = "book" }
+local KINDS = { zone = "zone", subzone = "place", npc = "person", quest = "quest", topic = "topic", booktext = "book",
+  item = "item" }
 
 -- A recording's kind from its key: zone, place, person, quest (a quest's lore), dialogue (a quest giver's words),
 -- answer (a question's recorded answer), topic, book (a book's page: booktext:<title>#<page>) or other.

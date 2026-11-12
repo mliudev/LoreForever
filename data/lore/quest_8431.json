@@ -1,0 +1,69 @@
+{
+ "key": "quest:8431",
+ "type": "quest",
+ "name": "Battle of Warsong Gulch",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   8431
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The Horde seeks to secure its ownership of Warsong Gulch. Your help supports that claim.",
+ "sections": [
+  {
+   "title": "A Claim in the Gulch",
+   "body": "The Horde's claim to Warsong Gulch is at stake, and you lend your strength to secure it. Your efforts help ensure the Horde keeps ownership of the gulch.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is happening at Warsong Gulch?",
+   "aliases": [
+    "warsong gulch battle",
+    "what's going on in the gulch"
+   ],
+   "answer": "The Horde is seeking to ensure its ownership of Warsong Gulch."
+  },
+  {
+   "q": "Who am I helping?",
+   "aliases": [
+    "who asks for help",
+    "which side is this for"
+   ],
+   "answer": "You are helping the Horde secure its ownership of Warsong Gulch."
+  },
+  {
+   "q": "What does the Horde want?",
+   "aliases": [
+    "horde goal",
+    "why fight in warsong gulch"
+   ],
+   "answer": "The Horde seeks to maintain ownership of Warsong Gulch."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "You help the Horde ensure its ownership of Warsong Gulch."
+  }
+ ],
+ "keywords": [
+  "battle",
+  "gulch",
+  "horde",
+  "ownership",
+  "warsong gulch"
+ ],
+ "related": [
+  "zone:warsonggulch",
+  "topic:horde"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Battle of Warsong Gulch"
+ ]
+}

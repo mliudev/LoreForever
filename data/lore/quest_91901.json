@@ -1,0 +1,67 @@
+{
+ "key": "quest:91901",
+ "type": "quest",
+ "name": "A Sealed Crate",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   91901
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A trader asks you to bring in sealed crates as bandits and thieves strike the trade routes. Other abandoned crates may need the same care.",
+ "sections": [
+  {
+   "title": "At the Pile",
+   "body": "The trader thanks you for your hard work and asks you to set the delivery beside a pile. A payment is ready. Bandits and thieves have lately risen against the trade routes, so other crates left lying around may need to be brought here as well.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are crates being left around?",
+   "aliases": [
+    "why crates abandoned",
+    "bandits stealing crates",
+    "trade route trouble"
+   ],
+   "answer": "Bandits and thieves have been intercepting trade routes, leaving crates lying around."
+  },
+  {
+   "q": "What should I do with other crates?",
+   "aliases": [
+    "where bring crates",
+    "other crate help",
+    "bring crate where"
+   ],
+   "answer": "Bring other crates you find to the trader, who says they will handle the rest."
+  },
+  {
+   "q": "Who is asking for the crate?",
+   "aliases": [
+    "who wants crate",
+    "crate giver",
+    "who takes delivery"
+   ],
+   "answer": "A trader asks you to leave the delivery beside a pile and offers payment for your work."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bandits",
+  "crate",
+  "delivery",
+  "payment",
+  "sealed crate",
+  "thieves",
+  "trade routes",
+  "trader"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Sealed Crate"
+ ]
+}

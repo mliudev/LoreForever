@@ -1177,6 +1177,10 @@ function Voice.Init()
   if not next(ns.Packs.registry) then ns.Packs.Scan() end
   prefs()
   if ns.lang and ns.lang.edition then Voice.Refresh(); return end
+  if not Voice.foundHooked and ns.Collection then   -- (a new-page note's story joins the list: Voice.OnPageFound)
+    Voice.foundHooked = true
+    ns.Collection.OnFound(function(key) Voice.OnPageFound(key) end)
+  end
   Voice.ForgetQuestPages()
   adoptAndRefresh()
   if not Voice.deferred then
@@ -2273,6 +2277,10 @@ function Voice.LineCheck(it)
   if it.how == "book" then return nil end   -- (closing the book takes its pages out: Voice.OnBookClosed)
   if arrivalsOff() then return L["turned off"], true end
   if it.how ~= "arrival" and now() - (it.at or now()) > LINE_WAIT then return L["waited too long"] end
+  if it.how == "found" and not it.started
+      and (Voice.autoSession[it.key] or (S().skipHeard ~= false and Voice.Heard(it.key))) then
+    return L["already heard"], true   -- (heard another way while it waited)
+  end
   if it.how == "arrival" then
     if onTaxi() then return L["you took a flight"], true end   -- (the flight's own stories say where you are)
     if not it.started and (Voice.autoSession[it.key] or (S().skipHeard ~= false and Voice.Heard(it.key))) then
@@ -2306,6 +2314,8 @@ function Voice.OnLineStarted(it, first)
   local UI = ns.UI
   if it.how == "book" then
     Voice.MarkHeard(it.id)
+  elseif it.how == "found" then
+    Voice.autoSession[it.key] = true   -- (as an arrival: never again by itself this session)
   elseif it.how == "arrival" then
     Voice.autoSession[it.key] = true   -- it started by itself: never again this session (LOR-285)
     if not first or UI.frame:IsShown() then return end
@@ -2332,7 +2342,12 @@ local function autoPlay()
   local target = UI.EntryTarget(key)
   if not target then return end
   if w then UI.LeaveQueue(w, string.format(L["you moved on to %s"], target.label), true) end
-  UI.Admit({ id = key, key = key, label = target.label, how = "arrival" })
+  if not UI.Admit({ id = key, key = key, label = target.label, how = "arrival" }) or not key:match("^zone:") then return end
+  -- The place you reached it at, new and recorded too, follows the zone's story while you're still there (its note
+  -- shows with the zone's: the plan's E24, Stormwind Stockade at 00:21:11). It used to wait for your next zone change.
+  local _, _, sk = where()
+  local place = sk and fresh(sk) and Voice.HasAudio(sk) and not UI.PlaylistIndex(sk) and UI.EntryTarget(sk)
+  if place then UI.Admit({ id = sk, key = sk, label = place.label, how = "arrival" }) end
 end
 
 -- Called on every zone or subzone change, and at login.
@@ -2373,6 +2388,24 @@ function Voice.PlayNow(target)
   return admitLine(target, "recap")
 end
 
+-- A new-page note's story joins the list (Mike, 11/12: "when a note shows up I expect it to auto add to the queue if I
+-- have the setting", then "Yes, every note", LOR-1388), from the same find that makes the note (Collection.OnFound), so
+-- the two go together: a person met, an item that reached your bags or that you hovered, a topic, a book, a boss. It
+-- joins at the end as a line that came by itself: behind quest givers, never in a fight or a talk, gone after ten
+-- minutes (Voice.LineCheck), wherever you are by its turn; once per character, under "Play narrations as you arrive".
+-- Nothing at login: what you carry and know is filled in before finds count (Collection.Find). Places and quests have
+-- their own ways in (arrivals, quest givers), which bring their story already.
+function Voice.OnPageFound(key)
+  if type(key) ~= "string" or arrivalsOff() then return end
+  local kind = key:match("^(%a+):")
+  if kind == "zone" or kind == "subzone" or kind == "quest" then return end
+  if not Voice.HasAudio(key) or not Voice.CanPlay(key) or not fresh(key) then return end
+  local UI = ns.UI
+  if UI.QueuedIndex(key) then return end   -- (in the list already, or the same thing is: a letter being read)
+  local e = ns.DB and ns.DB.entries[key]
+  UI.Admit({ id = key, key = key, label = e and e.n or key, how = "found" })
+end
+
 -- You stopped talking to someone, or a fight ended: the line the queue waits at gets its turn (if it's still in step).
 -- It settles first, so walking from one quest giver to the next doesn't start it.
 function Voice.OnTalkOver()
@@ -2401,9 +2434,13 @@ function Voice.BetweenNarrations()
   if endedAt ~= nil and now() - endedAt < TURN_GAP + 0.5 then return true end
   local UI = ns.UI
   local pl = UI and UI.pl
-  if not pl or UI.speaking or pl.gate then return false end
-  if Voice.greetToken then return true end   -- a quest giver's page waits out their greeting
+  if not pl or UI.speaking then return false end
   local cur = pl.items[pl.pos]
+  -- A quest giver's page taken inside their greeting waits in the list until it ends: the list is gated, but that line is
+  -- about to start (the Architect, #3757: a big moment went out in that gap).
+  if cur and cur.notBefore and pl.state == "waiting" and now() < cur.notBefore then return true end
+  if pl.gate then return false end
+  if Voice.greetToken then return true end   -- a quest giver's page waits out their greeting
   return (pl.state == "playing" or pl.state == "waiting") and cur ~= nil and (cur.byItself or cur.flight) == true
 end
 
@@ -2847,9 +2884,9 @@ function Voice.OnNpcWindow()
 end
 
 -- Their window may have closed (checked a moment after GOSSIP_CLOSED or QUEST_FINISHED: going from gossip to a quest
--- closes one window as the other opens).
+-- closes one window as the other opens). A page waiting out the greeting is Voice.OnQuestClosed's to keep or drop.
 function Voice.OnNpcWindowClosed()
-  if not npcWindowShown() then Voice.greetedAt, Voice.greetToken = nil, nil end
+  if not npcWindowShown() then Voice.greetedAt = nil end
 end
 
 local function greetingLeft()
@@ -2898,13 +2935,54 @@ if hooksecurefunc then
   end
 end
 
+-- Quest qid's page (kind; target: questTarget's) joins the queue by itself: every quest giver you click takes a turn,
+-- in the order clicked (LOR-1388; Mike, 11/11: "A and A"). sameQuest: the same quest's page speaks now from this
+-- window, and this one takes its place. closed: its window closed before it began (Accept inside the greeting):
+-- taken, as Voice.OnQuestClosed marks one that was already waiting.
+local function admitPage(qid, kind, target, sameQuest, closed, kept)
+  local UI = ns.UI
+  if UI.playingId == target.id or UI.QueuedLine(target.id) then return end   -- playing or waiting already: never twice
+  if autoPlayingNow() then UI.StopSolo() end   -- (a page that came by itself outside the list makes way; one in the list pauses: UI.Admit)
+  local line = { id = target.id, key = target.story, quest = qid, label = target.label, target = target,
+    how = kind == "detail" and "newquest" or "handin" }
+  if closed then
+    -- It joins now, so the player sees it ("It still says Zephras Isle", Mike 11/11), and its turn waits out what is
+    -- left of the greeting (UI's turnCheck; UI.Kick starts it then).
+    line.windowClosed, line.taken, line.notBefore = true, kind == "detail" or nil, closed.at
+    line.accepted = kind == "detail" and kept and true or nil   -- (UI's turnCheck: a log that lags isn't "abandoned")
+    C_Timer.After(math.max(0, closed.at - now()) + 0.05, function() if ns.UI then ns.UI.Kick() end end)
+  end
+  if not (sameQuest and UI.ReplaceCurrent(line)) then UI.Admit(line) end
+  if UI.speaking and UI.playingId == target.id then
+    markAuto()
+    sayQuestVoicesLine()
+  end
+end
+
+-- A page that was waiting out the NPC's greeting when its window closed or turned to another quest's page (Mike, 11/11:
+-- he clicked Accept 1.2 s after the offer opened, and its quest giver never spoke). Taken, it joins the queue as if it
+-- had begun: Accept, Continue or the turn-in clicked on it (kept), or an offer already in your log (a chain that
+-- accepts by itself; the client can't say: the mild side, taken). Anything else never began, so nothing starts and
+-- nothing says so: an offer declined, a hand-in's page closed without Continue or turn-in (the Architect, 11/12).
+local function keepWaiting(waiting, kept)
+  if not kept and (waiting.kind ~= "detail" or Voice.QuestState(waiting.qid) == "gone") then return end
+  admitPage(waiting.qid, waiting.kind, waiting.target, false, waiting, kept)
+end
+
 -- A quest giver's window shows a page (QUEST_DETAIL, QUEST_PROGRESS, QUEST_COMPLETE). Voice.questKind remembers which,
 -- for the play button and UI.QuestPageClip.
-function Voice.OnQuestFrame(kind, recorded)
-  Voice.greetToken = nil   -- a page that waited for the greeting gives way to this one
+function Voice.OnQuestFrame(kind, recorded, again)
+  Voice.closing = nil   -- (a page shows: its window is up)
+  -- A page that waited for the greeting gives way to this one. Another quest's taken in this same window (a hand-in, then
+  -- the next quest of the chain; Accept, then the giver's next offer) still speaks: plan line 38.
+  local waiting = Voice.greetToken
+  Voice.greetToken = nil
+  local shown = GetQuestID and GetQuestID()
+  if waiting and ns.UI and waiting.qid ~= shown then keepWaiting(waiting, Voice.questKept) end
   Voice.questKind, Voice.questRecorded = kind, recorded
   local UI = ns.UI
-  Voice.questKept = nil
+  -- (again: the same page, its greeting over: an Accept clicked meanwhile still counts)
+  if not again then Voice.questKept = nil end
   -- Another add-on reads quests: ours never starts one by itself beside it, whatever the switch (LOR-1408). Its lines
   -- never join the queue either (the Architect, 11/11).
   if Voice.otherVoice then return Voice.OnOtherVoice() end
@@ -2933,25 +3011,21 @@ function Voice.OnQuestFrame(kind, recorded)
   local questSpeaking = UI.speaking and isQuestText(UI.playingId)
   local wait = not questSpeaking and greetingLeft() or 0
   if wait > 0.05 then
-    local token = {}
+    -- (the page as the window has it now: its window may close before the greeting ends, Voice.OnQuestClosed)
+    local token = { qid = qid, kind = kind, target = target, at = now() + wait }
     Voice.greetToken = token
     C_Timer.After(wait, function()
       if Voice.greetToken ~= token then return end
+      -- Its window is closing (QUEST_FINISHED came, the close check hasn't run): that check keeps or drops the page
+      -- (keepWaiting). Re-reading the window now would find nothing, or judge an Accept as declined (#3757).
+      if Voice.closing then token.due = true return end
       Voice.greetToken = nil
-      if Voice.questKind == kind then Voice.OnQuestFrame(kind, recorded) end
+      if Voice.questKind == kind then Voice.OnQuestFrame(kind, recorded, true) end
     end)
     return
   end
   Voice.openPages[id] = true
-  if autoPlayingNow() then UI.StopSolo() end   -- (a page that came by itself outside the list makes way; one in the list pauses: UI.Admit)
-  -- Every quest giver you click takes a turn, in the order clicked (LOR-1388; Mike, 11/11: "A and A").
-  local line = { id = target.id, key = target.story, quest = qid, label = target.label, target = target,
-    how = kind == "detail" and "newquest" or "handin" }
-  if not (sameQuest and UI.ReplaceCurrent(line)) then UI.Admit(line) end
-  if UI.speaking and UI.playingId == target.id then
-    markAuto()
-    sayQuestVoicesLine()
-  end
+  admitPage(qid, kind, target, sameQuest)
 end
 
 -- The game started a cinematic, a movie or a talking head: what started by itself stops (an arrival waits to play
@@ -3137,11 +3211,30 @@ end
 -- The quest window closed (accepted, turned in or closed): its page plays on to its end (LOR-667: three players asked;
 -- closing cut the quest giver off mid-sentence, so picking up quests in a row heard none of them through). Stop and the
 -- player's X still stop it. The next time the window opens its pages play again (Voice.openPages).
+-- QUEST_FINISHED: the window may be closing (Core checks a moment later: Voice.OnQuestClosed or Voice.OnQuestStillOpen).
+function Voice.OnQuestFinishing()
+  Voice.closing = true
+end
+
+-- It wasn't closing (QUEST_FINISHED between two pages): a page whose greeting ended meanwhile gets its turn now.
+function Voice.OnQuestStillOpen()
+  Voice.closing = nil
+  local waiting = Voice.greetToken
+  if not (waiting and waiting.due) then return end
+  Voice.greetToken = nil
+  if Voice.questKind == waiting.kind then Voice.OnQuestFrame(waiting.kind, Voice.questRecorded, true) end
+end
+
 function Voice.OnQuestClosed()
+  Voice.closing = nil
   closePages(QUEST_PREFIX)
   local kind, kept, qid = Voice.questKind, Voice.questKept, Voice.questOpen
   Voice.questKind, Voice.questRecorded, Voice.questKept, Voice.questOpen = nil, nil, nil, nil
   local UI = ns.UI
+  -- Its page was still waiting out the NPC's greeting: kept if taken (keepWaiting).
+  local waiting = Voice.greetToken
+  Voice.greetToken = nil
+  if UI and waiting and waiting.qid == qid and waiting.kind == kind then keepWaiting(waiting, kept) end
   -- Its lines, playing or waiting, are from a closed window now: a page of the quest opened later doesn't replace them.
   if UI and qid then
     for i = math.max(UI.pl.pos, 1), #UI.pl.items do
@@ -3156,8 +3249,11 @@ function Voice.OnQuestClosed()
   if not (UI and qid and kind == "detail") then return end
   local line = UI.QueuedLine(QUEST_PREFIX .. qid .. ":detail")
   if not line then return end
-  if kept or Voice.QuestState(qid) ~= "gone" then   -- (nil, the client can't say: taken)
+  local state = Voice.QuestState(qid)
+  if kept or state ~= "gone" then   -- (nil, the client can't say: taken)
     line.taken = true
+    if kept then line.accepted = true end
+    if state == "log" then line.inLog = true end
   else
     line.declined = true
     if UI.speaking and UI.playingId == line.id then UI.DropCurrent(L["you declined it"]) end
@@ -3286,6 +3382,7 @@ function Voice.ReadBookPage(byHand)
   -- By itself it joins the queue (LOR-1388: it used to be dropped when anything played): over this book's page it
   -- turns with the window; over anything else it waits its turn (a cutscene or Willo holds it like the rest).
   local line = { id = id, key = id, label = title, how = "book", target = target }
+  if UI.TakePlace(line) then return end   -- (a letter whose item story waits or plays: the reading takes its row)
   if ours and not UI.ReplaceCurrent(line) then UI.StopSolo() end
   if not UI.PlaylistIndex(id) then UI.Admit(line) end
 end

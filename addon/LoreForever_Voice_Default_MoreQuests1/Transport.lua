@@ -582,7 +582,7 @@ P.transport["quest:1503"] = {
   fullHash = "4d60e9",
   text = "Forged Steel. In the eastern Barrens, Thun'grim Firegaze waits for the steel stolen from his camp. He will forge a weapon for the warrior who brings it back. Thun'grim Firegaze keeps a smithy in the eastern Barrens, far from Orgrimmar. Years at the forge have dimmed his sight. The nearby Razormane quilboar used that weakness to steal an iron chest from his camp. Some snorted and made noise on one side to draw his gaze while others slipped in from the other and carried off his forged steel bars. Thun'grim is angry at the theft, but doubts the Razormanes can use the steel. Quilboar craft with stone, tusks and thorny roots, not refined metal. The heavy chest remains near a broken wagon in their camp, untouched and useless to them. For Thun'grim, its steel is the stock he needs to forge weapons for young Horde warriors.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1503-8fce260f4efc957a0fb8/1-0000.mp3", duration = 50.7036735, start = 0},
+    {file = "Audio/Transport/full_quest_1503-3641bace7cb5794aab25/1-0000.mp3", duration = 49.4497959, start = 0},
   },
 }
 P.transport["quest:1504"] = {
@@ -670,7 +670,7 @@ P.transport["quest:1525"] = {
   fullHash = "f57efc",
   text = "Call of Fire. Telf Joolam sends you through Durotar and the eastern Barrens to gather what he needs for a Fire Sapta. The draught prepares an initiate to see and speak with fire spirits. A Fire Sapta opens a shaman’s senses to the Eternal Flame. Like the draught for earth, it lets you see and speak with spirits hidden from mortal sight. Telf Joolam sends you across Durotar and into the eastern Barrens for ingredients bound to heat and flame. Razormane quilboar spellcasters in the eastern Barrens carry fire tar, made in their earthy rituals. Burning Blade cultists carry the other ingredient in Dustwind Cave, in the ravines northeast of Razor Hill. They use fire for destruction and demonic chaos, yet the reagents in their pouches have a natural tie to the element.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1525-be0dcf671861888b7a79/1-0000.mp3", duration = 44.3297959, start = 0},
+    {file = "Audio/Transport/full_quest_1525-7f5f4413afb1825937ed/1-0000.mp3", duration = 44.564898, start = 0},
   },
 }
 P.transport["quest:1526"] = {
@@ -3366,7 +3366,7 @@ P.transport["quest:5041"] = {
   fullHash = "f9f40f",
   text = "Supplies for the Crossroads. Thork needs supplies back at the Crossroads after Razormane quilboar raids. The stolen crates carry provisions the outpost needs as conflict spreads across the Barrens. Thork needs provisions returned to the Crossroads after a supply caravan is ambushed. The outpost links Horde travel, trade, and defense across the Barrens. Its cargo comes from Durotar and Mulgore. Without those goods, shortages of provisions, tools, and arms threaten daily life in the harsh wilderness. Razormane quilboar have taken the crates. These swine-beasts contest Horde control across central Kalimdor. They hauled the cargo to their thorn-bush camps and keep it there. Thork sends trusted warriors into Razormane territory to recover supplies for the Horde.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_5041-3a24cac46090ba81858a/1-0000.mp3", duration = 44.6955102, start = 0},
+    {file = "Audio/Transport/full_quest_5041-fbec1a582342dec2377a/1-0000.mp3", duration = 42.3183673, start = 0},
   },
 }
 P.transport["quest:5061"] = {
@@ -4958,7 +4958,7 @@ P.transport["quest:819"] = {
   fullHash = "205705",
   text = "Chen's Empty Keg. In the Barrens, Chen Stormstout’s marked keg lies abandoned. Its discovery recalls the brewmaster’s old ties to Durotar. Across the dry Barrens, travelers sometimes find an abandoned wooden barrel. Razormane quilboar and Kolkar centaur leave ordinary casks behind, but this one is carefully made and bears a plaque: “Chen Stormstout - May your spirit be raised and always raise your spirits.” It is an odd relic beneath Kalimdor’s sun. To learn how it came here, you seek someone who knows brewing. In Ratchet, Brewmaster Drohn recognizes the keg’s craft and names Chen Stormstout as its owner. Chen is a wandering Pandaren who traveled with Rexxar during the battles that secured Durotar for Thrall’s Horde. Years have passed since Chen walked Kalimdor’s red earth. Yet seasoned brewers still remember his recipes and wandering spirit.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_819-d6b6bb94ee137cf40718/1-0000.mp3", duration = 51.2783673, start = 0},
+    {file = "Audio/Transport/full_quest_819-97e686fa826048bc8b2f/1-0000.mp3", duration = 50.7297959, start = 0},
   },
 }
 P.transport["quest:821"] = {
@@ -5430,7 +5430,7 @@ P.transport["quest:871"] = {
   fullHash = "880beb",
   text = "Disrupt the Attacks. Thork needs the Crossroads defended as Razormane quilboar cut its supply roads. Their ambushes have stopped caravans from Durotar, leaving the outpost short on food and gear. You strike at the quilboar while scouts search for the one directing their warband. The Crossroads guards a key junction for Horde traffic through central Kalimdor. Freight wagons and caravans carry food, iron, and equipment west from Durotar, and the outpost depends on those supplies. Razormane ambushes along the northeast trails have stopped the deliveries. Stores are running low, and Thork cannot wait for peaceful talks. Thork sends you to the quilboar bramble dens northeast of the settlement, before they can assault the town walls. Striking their Water Seekers, Thornweavers, and Hunters weakens the Razormane scouting perimeter and deprives raiding parties of magical and logistical support. These skirmishes buy time while Horde trackers search the brush for the one organizing the raids.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_871-1ba755c52748d9c8b895/1-0000.mp3", duration = 57.6783673, start = 0},
+    {file = "Audio/Transport/full_quest_871-52b4f75bf268980cc06f/1-0000.mp3", duration = 56.1632653, start = 0},
   },
 }
 P.transport["quest:8717"] = {
@@ -5454,7 +5454,7 @@ P.transport["quest:872"] = {
   fullHash = "0c7210",
   text = "The Disruption Ends. Along the Horde road, Thork orders a strike to end the Razormane raids. Kreenig Snarlsnout leads the attacks from the northern Barrens, and his death is meant to break the warband's hold on the route between Durotar and the Crossroads. The road between Durotar and the Crossroads carries provisions and reinforcements through the northern Barrens. Razormane quilboar ambushes threaten that passage. Scout reports name Kreenig Snarlsnout as their leader. His raiding party organizes the attacks, so Thork orders a strike against him to break the warband's unity and secure the road. Kreenig's war party holds craggy hills northeast of the Crossroads. Hardy Razormane Defenders and geomancers who manipulate the arid earth shield his position. Thork orders a breach through their guard and a strike against Kreenig in his redoubt. His tusk will prove the leader's death and warn the plains that the Horde will not accept attacks on its lifelines.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_872-f886d566875f5f0dd232/1-0000.mp3", duration = 54.1779592, start = 0},
+    {file = "Audio/Transport/full_quest_872-24f8a6794843b39e22f0/1-0000.mp3", duration = 55.6930612, start = 0},
   },
 }
 P.transport["quest:8721"] = {

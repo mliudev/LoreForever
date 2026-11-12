@@ -1,0 +1,97 @@
+{
+ "key": "quest:95420",
+ "type": "quest",
+ "name": "Land of Giants",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95420
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "An orc asks you to carry Chogg\u2019s head to an ogre city in the northern hills. The offering may open a way to renew an old bond with the ogres.",
+ "sections": [
+  {
+   "title": "An Old Bond",
+   "body": "The orcs see a chance to renew their old alliance with ogres. Reports place the clan\u2019s home in a stronghold among the northern hills, and Chogg\u2019s head is meant to speak for you. Carry it to the ogre city and offer it as a token of friendship. The clan may hear your proposal, if they do not trample you first.",
+   "spoiler": 0
+  },
+  {
+   "title": "At Clugfist\u2019s Door",
+   "body": "At the ogre city, you present Chogg\u2019s head to Clugfist. He recognizes that you have defeated Chogg\u2019Zac and asks what you want with him. The offer of friendship has opened a chance to speak with the clan\u2019s leader.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why am I bringing Chogg\u2019s head to the ogres?",
+   "aliases": [
+    "chogg head",
+    "why take chogg head",
+    "ogre head offering"
+   ],
+   "answer": "The orcs hope Chogg\u2019s head will serve as a token of friendship and help renew their old alliance with the ogres."
+  },
+  {
+   "q": "Where is the ogre clan\u2019s home?",
+   "aliases": [
+    "ogre city location",
+    "where are the ogres",
+    "northern hills ogres"
+   ],
+   "answer": "Reports place the clan\u2019s stronghold in the hills far to the north."
+  },
+  {
+   "q": "Who is Clugfist?",
+   "aliases": [
+    "clugfist who",
+    "ogre leader",
+    "clug fist"
+   ],
+   "answer": "Clugfist is the massive ogre you meet at the ogre city. He asks what you want with him."
+  },
+  {
+   "q": "Who is Chogg\u2019Zac?",
+   "aliases": [
+    "chogg zac",
+    "chogg backstory",
+    "who is chogg"
+   ],
+   "answer": "Chogg\u2019Zac is the ogre Clugfist says you have defeated."
+  },
+  {
+   "q": "What do the orcs want from the ogres?",
+   "aliases": [
+    "orc ogre alliance",
+    "what do orcs want",
+    "ogre friendship"
+   ],
+   "answer": "The orcs hope to call upon their old alliance with ogres and present a proposal to the clan."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Orc",
+   "text": "As an orc, you carry an offer rooted in the honored history of orcs fighting beside ogres."
+  }
+ ],
+ "keywords": [
+  "chogg",
+  "chogg\u2019zac",
+  "clugfist",
+  "land of giants",
+  "northern hills",
+  "ogre city",
+  "ogres",
+  "orc alliance"
+ ],
+ "related": [
+  "topic:twilight-s-hammer"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Land of Giants"
+ ]
+}

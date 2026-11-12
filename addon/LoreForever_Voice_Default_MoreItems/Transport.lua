@@ -1006,7 +1006,7 @@ P.transport["item:crossroads-supply-crate"] = {
   fullHash = "725489",
   text = "Crossroads Supply Crate. At the Crossroads, a raided caravan has left the settlement short of food, tools, and necessities. Stolen provisions now lie scattered among Razormane camps in the Barrens. Razormane quilboar raided a caravan bound for the Crossroads and carried its supplies into nearby camps. The crates lie among underbrush and dirt dens. Thork, the settlement's commander, seeks their return before the outpost runs dangerously low on food, tools, and necessities.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_crossroads-supply-crate-0bc7e783c34b72319757/1-0000.mp3", duration = 28.0293878, start = 0},
+    {file = "Audio/Transport/full_item_crossroads-supply-crate-ecc95522f2b125fa9025/1-0000.mp3", duration = 28.0293878, start = 0},
   },
 }
 P.transport["item:crude-flint"] = {
@@ -1902,7 +1902,7 @@ P.transport["item:fire-tar"] = {
   fullHash = "0f7072",
   text = "Fire Tar. Across the eastern Barrens, Razormane spellcasters carry Fire Tar. Horde shamans bring it to Telf Joolam, who brews it into a Fire Sapta that lets them commune with fire spirits. Razormane geomancers, mystics, and thornweavers carry Fire Tar. The quilboar use it in their harsh magic and rituals, where its power is tuned to flame. Shamanic instructors prize the substance as a worldly reagent. It helps mortal senses reach the raw fury of the elements. Young orc and troll shamans travel high among Durotar's crags to Telf Joolam, where they forge their fire totems. Telf asks them to bring a reagent pouch taken from Burning Blade cultists and Fire Tar gathered from the Razormane. He brews the two ingredients into a fire sapta. A shaman who drinks it can perceive the fire spirits waiting atop the nearby peaks.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_fire-tar-5388b271534414532c6f/1-0000.mp3", duration = 52.4016327, start = 0},
+    {file = "Audio/Transport/full_item_fire-tar-e9d364417923ab32ad4a/1-0000.mp3", duration = 49.3714286, start = 0},
   },
 }
 P.transport["item:fizzle-s-claw"] = {
@@ -1950,7 +1950,7 @@ P.transport["item:forged-steel-bars"] = {
   fullHash = "6b24d5",
   text = "Forged Steel Bars. In the northern Barrens, Thun'grim Firegaze's forged steel bars are gone. Recovering them proves a warrior's resolve to reclaim stolen property. Thun'grim Firegaze is a visually impaired orc smith with a camp in the northern Barrens. During a night raid, Razormane quilboar took his iron chest. They distracted him with grunts and snorts while others slipped away with it.\n\nThe quilboar could not work fine steel, so they left the unopened chest near a ruined wagon in their encampment to the northwest. The bars remain intact for warriors willing to recover them.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_forged-steel-bars-1eb01f82e9e0b01687b8/1-0000.mp3", duration = 34.4816327, start = 0},
+    {file = "Audio/Transport/full_item_forged-steel-bars-c81ae437023a27bf1b43/1-0000.mp3", duration = 32.7314286, start = 0},
   },
 }
 P.transport["item:fragments-of-rok-alim"] = {
@@ -3014,7 +3014,7 @@ P.transport["item:kreenig-snarlsnout-s-tusk"] = {
   fullHash = "00f577",
   text = "Kreenig Snarlsnout's Tusk. At the Crossroads, Thork awaits proof that Kreenig Snarlsnout has fallen. The tusk marks the end of the Razormane leader's attacks on Horde caravans in the northern Barrens. Horde caravans traveling west from Durotar face constant attacks in the Barrens. Under Kreenig Snarlsnout, a fierce Razormane leader, those raids grew bolder. So Thork, commander of the Crossroads watch, ordered Kreenig killed to disrupt the quilboars' coordination.\n\nKreenig's tusk proves the leader is dead and insults the Razormane. Their resolve weakens, and their fighters are left without central direction.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_kreenig-snarlsnout-s-tusk-a04ad7a385513e32d205/1-0000.mp3", duration = 36.0489796, start = 0},
+    {file = "Audio/Transport/full_item_kreenig-snarlsnout-s-tusk-c69c51df4e610ff19470/1-0000.mp3", duration = 36.2579592, start = 0},
   },
 }
 P.transport["item:kron-s-amulet"] = {
@@ -3030,7 +3030,7 @@ P.transport["item:kuz-s-skull"] = {
   fullHash = "aee366",
   text = "Kuz's Skull. In the southern Barrens, Kuz's Skull marks the fall of a feared Razormane raider. From Razorfen Kraul, Kuz helped lead attacks on Horde outposts until a captive former kin sought vengeance. Kuz, Nak, and their chieftain Lok Orcbane led Razormane attacks across the southern Barrens. Sent from Razorfen Kraul, the three raiders struck travelers and settlements such as the Crossroads. They betrayed Mangletooth, a fellow quilboar, and left him to rot in a cage at Camp Taurajo. From there, Mangletooth revealed Kuz's location to Horde champions willing to kill the raider and take her head.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_kuz-s-skull-bd93ceb7d2266c0a095a/1-0000.mp3", duration = 36.1534694, start = 0},
+    {file = "Audio/Transport/full_item_kuz-s-skull-b9d45d5fdd59d9d671b0/1-0000.mp3", duration = 35.8661224, start = 0},
   },
 }
 P.transport["item:laced-pumpkin"] = {
@@ -3166,7 +3166,7 @@ P.transport["item:lok-s-skull"] = {
   fullHash = "7510b1",
   text = "Lok's Skull. In the southern Barrens, Lok's Skull marks the fall of a feared Razormane leader. Lok Orcbane led fierce quilboar raids against Horde supply routes, and the skull is his severed head. Lok Orcbane led aggressive Razormane assaults on Horde supply lines in the southern Barrens. He emerged from Razorfen Kraul with his lieutenants Nak and Kuz. After betraying Mangletooth and leaving him captive at Camp Taurajo, Lok became known to orcish defenders for ruthless raids they struggled to contain. Mangletooth directs Horde champions to Lok's camp. Claiming Lok's skull avenges the captive and strikes at the leaders driving the Razormane offensive.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_lok-s-skull-3da31280d3f8696df4f3/1-0000.mp3", duration = 38.6612245, start = 0},
+    {file = "Audio/Transport/full_item_lok-s-skull-6b3397c5bc5bfeb8b3df/1-0000.mp3", duration = 38.4261224, start = 0},
   },
 }
 P.transport["item:lonebrow-s-journal"] = {
@@ -3478,7 +3478,7 @@ P.transport["item:nak-s-skull"] = {
   fullHash = "680617",
   text = "Nak's Skull. Nak's Skull carries weight in the southern Barrens, where Razormane raids trouble the Horde. At Camp Taurajo, Mangletooth seeks vengeance on the kin who left him to die. Nak, Kuz, and Lok Orcbane lead raids from Razorfen Kraul across the Barrens. Their warbands strike Horde settlements and roads, while Crossroads defenders know nothing of plans beyond ordinary tribal skirmishing.\n\nAt Camp Taurajo, the captive Razormane Mangletooth was left to die in a cage by his own people. He now seeks revenge on those former brethren. He demands Nak's, Kuz's, and Lok Orcbane's severed skulls as proof they are dead, delivered by Horde adventurers. With that proof, he means to break the southern raiding parties.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_nak-s-skull-91ee369d6d80bf751924/1-0000.mp3", duration = 44.277551, start = 0},
+    {file = "Audio/Transport/full_item_nak-s-skull-e4c6e1b5e71ae2aecd7a/1-0000.mp3", duration = 42.5012245, start = 0},
   },
 }
 P.transport["item:nek-rosh-s-head"] = {
@@ -3950,7 +3950,7 @@ P.transport["item:reagent-pouch-shaman"] = {
   fullHash = "a98d6e",
   text = "Reagent Pouch (shaman). In Durotar, Burning Blade cultists carry reagents for a shaman's first fire sapta. Telf Joolam mixes them with fire tar from Razormane quilboar to make a draught that lets a young shaman see the realm of fire. Burning Blade cultists carry reagents for a young shaman's first fire sapta. The hermit Telf Joolam mixes the powders and oils from their pouches with fire tar from Razormane quilboar. Together, these ingredients make a draught that grants sight into the realm of fire and attunes the shaman to the spirits of flame. Burning Blade cultists turn flame toward destruction and fel sorcery. Yet the elements in their pouches still belong to heat and combustion. Shaman teach that elemental forces exist in tension: fire creates as well as destroys. A shaman can use the cultists' tools to awaken true communion with the spirits.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_reagent-pouch-shaman-29230b7103b30d8d1fcf/1-0000.mp3", duration = 50.8081633, start = 0},
+    {file = "Audio/Transport/full_item_reagent-pouch-shaman-29a60c674da26dc789fd/1-0000.mp3", duration = 48.5616327, start = 0},
   },
 }
 P.transport["item:reconstructed-tome"] = {

@@ -9051,9 +9051,9 @@
     "subzone:thelgen-rock": {
       "1": [
         {
-          "duration": 24.398367346938777,
-          "file": "Audio/Transport/full_subzone_thelgen-rock-c9215e09a75a206a8814/1-0000.mp3",
-          "sha256": "a6b85a3aaf9f47657595ec1a3fb830531001e8038e6e0ec5106aeb80fbb2bb75",
+          "duration": 23.06612244897959,
+          "file": "Audio/Transport/full_subzone_thelgen-rock-f499b459d0e09b442b1f/1-0000.mp3",
+          "sha256": "8f490c06d036d32c480aba8b5e7b0184cc4bafae7e334d928251075bff7b7612",
           "start": 0
         }
       ],
@@ -9065,12 +9065,12 @@
         ]
       },
       "fullHash": "5bcb90",
-      "generation": "25de244bc16191b05103",
+      "generation": "d507c7082eb93fd59f7b",
       "hash": "5bcb90",
       "source": {
-        "duration": 24.42449,
+        "duration": 23.066122,
         "file": null,
-        "sha256": "c9215e09a75a206a8814558b4dbea33b97c08d5a8b93141ce0e7ee55fbdf70d8"
+        "sha256": "f499b459d0e09b442b1f975c330ef6aaafd54ad9a93b25a3a931afbe44a0a51d"
       },
       "text": "Thelgen Rock. In the Wetlands, Thelgen Rock’s caverns draw miners after volatile Incendicite Ore. Venomous spiders fill the passages. Thelgen Rock cuts into the mountain wall between the Wetlands and Loch Modan. Aggressive spiders crowd its web-choked passages, and their venom makes every step perilous. Still, miners and adventurers brave the tunnels for the valuable Incendicite Ore in the rock."
     },
@@ -12753,6 +12753,10 @@
     "8e9a672106c58b7560d7038de5dcb5525d2d8970fa5ab98c0d8e5e568cdc9bac": [
       789
     ],
+    "8f490c06d036d32c480aba8b5e7b0184cc4bafae7e334d928251075bff7b7612": [
+      316,
+      695
+    ],
     "8ffa283139fb83704d9941d14a30904c92b2fc857c3ede1ffc8a56b7919eb846": [
       433,
       599,
@@ -13172,11 +13176,6 @@
       518,
       756,
       1015
-    ],
-    "a6b85a3aaf9f47657595ec1a3fb830531001e8038e6e0ec5106aeb80fbb2bb75": [
-      336,
-      509,
-      714
     ],
     "a70ddcb27e35e7f8f91c953e1c18bb2efe9c70274c35aba2c805ad756b3cb6b3": [
       181,
@@ -15338,9 +15337,6 @@
     "a68adeb068ddbfc7899734a4f0e4c52e518d6300079ab33ca72dd2c2d40c8151": {
       "580": 1
     },
-    "a6b85a3aaf9f47657595ec1a3fb830531001e8038e6e0ec5106aeb80fbb2bb75": {
-      "336": 1
-    },
     "a70ddcb27e35e7f8f91c953e1c18bb2efe9c70274c35aba2c805ad756b3cb6b3": {
       "1140": 2,
       "413": 1
@@ -15981,6 +15977,10 @@
     {
       "file": "Audio/Transport/full_subzone_southpoint-tower-ca6a3364e914d12e0f2b/1-0000.mp3",
       "sha256": "a38b19b8e633574e1884a03926f90c49493aeae5e18174575edb499214b79a56"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_thelgen-rock-c9215e09a75a206a8814/1-0000.mp3",
+      "sha256": "a6b85a3aaf9f47657595ec1a3fb830531001e8038e6e0ec5106aeb80fbb2bb75"
     }
   ],
   "version": 1

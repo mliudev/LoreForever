@@ -1,0 +1,76 @@
+{
+ "key": "quest:94975",
+ "type": "quest",
+ "name": "A Token of Vengeance",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94975
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "An ally asks you to find the Twilight\u2019s Hammer hiding in a cave network near Krol'dok Stronghold. Their attacks have hurt your allies and threaten the land.",
+ "sections": [
+  {
+   "title": "The Hidden Caves",
+   "body": "The scouts have reported Twilight\u2019s Hammer cultists moving beneath the rugged ground near Krol'dok Stronghold. Your ally says their attacks have caused great pain to your allies and that the cultists are claiming the land. You are asked to find their hiding place and bring back fifteen cultist ears as a message of vengeance.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who am I looking for?",
+   "aliases": [
+    "who are the cultists",
+    "twilight hammer here",
+    "cultist ears"
+   ],
+   "answer": "You are looking for Twilight\u2019s Hammer cultists hiding in a cave network near Krol'dok Stronghold."
+  },
+  {
+   "q": "Why are the cultists being hunted?",
+   "aliases": [
+    "why vengeance",
+    "why fight them",
+    "what did they do"
+   ],
+   "answer": "The giver says the cultists have inflicted pain on their allies and are claiming the land."
+  },
+  {
+   "q": "What do the scouts know?",
+   "aliases": [
+    "scouts report",
+    "where are cultists",
+    "cultist movements"
+   ],
+   "answer": "Scouts reported cultist movement beneath the rugged terrain, in a hidden cave network to the north."
+  },
+  {
+   "q": "What am I asked to bring back?",
+   "aliases": [
+    "what do i collect",
+    "ears quest",
+    "how many ears"
+   ],
+   "answer": "You are asked to collect fifteen Cultist Ears from the Twilight\u2019s Hammer at Krol'dok Stronghold."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a token of vengeance",
+  "cultist ears",
+  "cultists",
+  "hidden cave",
+  "krol'dok stronghold",
+  "twilight's hammer"
+ ],
+ "related": [
+  "topic:twilight-s-hammer"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Token of Vengeance"
+ ]
+}

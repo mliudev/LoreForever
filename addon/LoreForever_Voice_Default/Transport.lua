@@ -654,7 +654,7 @@ P.transport["topic:first-war"] = {
   fullHash = "fa5e02",
   text = "First War. The First War drove Stormwind's survivors north after the kingdom fell. The five-year conflict began when the Orcish Horde crossed the Dark Portal and ended with King Llane Wrynn I dead and Stormwind in ruins. For years after the Gnoll War, the Knights of Stormwind and the Clerics of Northshire Abbey guarded a peaceful kingdom. Then Guardian Medivh, secretly possessed by the demon lord Sargeras, contacted the orc warlock Gul'dan on Draenor. Together, they forged the Dark Portal in the Black Morass.\n\nDriven by demon blood and the slow death of their homeworld, the Orcish Horde crossed into Azeroth in force. Some dismissed the first reports as vengeful spirits or strange offshoots of trolls. Sir Anduin Lothar's scouting patrols soon confirmed a disciplined, bloodthirsty army had arrived. Warchief Blackhand led the Horde openly, while Gul'dan's Shadow Council guided it from the shadows. The Horde overran the kingdom's southern reaches. An attempt to push into Stranglethorn Vale against the Gurubashi trolls failed, yet the campaign across human lands brought ruin.\n\nThe Horde conquered until only Elwynn Forest remained under human control. Blackhand then launched a direct assault on Stormwind City. Sir Anduin Lothar repelled it with a surprise flanking attack by sea, saving the capital from destruction for a time.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_first-war-7f0164784f63dc3eebe6/1-0000.mp3", duration = 83.6963265, start = 0},
+    {file = "Audio/Transport/full_topic_first-war-fb3117e2aca1c7d8bc02/1-0000.mp3", duration = 84.1665306, start = 0},
   },
 }
 P.transport["topic:forsaken"] = {
@@ -886,7 +886,7 @@ P.transport["topic:quilboar"] = {
   fullHash = "2c8ae8",
   text = "Quilboar. Across central Kalimdor, Quilboar defend their lands with sharp quills and fierce resolve. They claim descent from Agamaggan and dwell in thorn mazes across Durotar, Mulgore, and the Barrens. Their struggles over water, soil, and sacred ground threaten travelers and Horde settlements. Quilboar honor Agamaggan, the colossal boar Ancient who died fighting the Burning Legion during the War of the Ancients ten thousand years ago. Their sacred traditions call them his mortal offspring.\n\nWhere Agamaggan bled and died across central Kalimdor, enormous thorny vines burst from scorched earth and formed sprawling root mazes. Quilboar hold these places sacred. Across the Barrens, his crystallized blood remains as crimson Blood Shards. Quilboar geomancers dig them up and honor them as powerful talismans. Quilboar build no towns of stone or timber. Instead, they grow colossal briars that choke nearby plants and leave the ground barren. Each tribe is usually guided by powerful geomancers. These practitioners follow a crude, earthbound shamanism, consulting stones and crystals to guide their clan. They call on Agamaggan's spirit to send spectral boars into battle.\n\nThe arid central plains have few oases, so quilboar prize water above all. When rare rains come, they hold lavish feasts. They defend their water holes fiercely. For generations, quilboar have clashed with nomadic tauren and roaming centaur packs. When Thrall led the Orcish Horde into Kalimdor, orcs quickly settled Durotar and opened trade routes through the Barrens. Displaced quilboar tribes rose in revolt.\n\nTheir war parties ambush supply wagons, are suspected of driving tallstriders into wagon trains, and raid outposts such as Crossroads and Camp Taurajo. Two tribes dominate the open plains: the Razormane and the Bristleback. Both fight the Horde and each other.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_quilboar-471f60add5c4cb197d21/1-0000.mp3", duration = 122.017959, start = 0},
+    {file = "Audio/Transport/full_topic_quilboar-d385a825acd477556bd4/1-0000.mp3", duration = 116.532245, start = 0},
   },
 }
 P.transport["topic:ravenholdt"] = {
@@ -910,7 +910,7 @@ P.transport["topic:refugee"] = {
   fullHash = "729392",
   text = "Refugee. Across Azeroth, Refugees flee as invasion and betrayal bring war to their homes. From Stormwind's fall in the First War to Lordaeron's ruin in the Third, civilians lose their homes and face plague and worse. The Orcish Horde swept through Stormwind in the First War, burning Goldshire, Moonbrook, and Grand Hamlet. After King Llane Wrynn was assassinated, Sir Anduin Lothar took command of the kingdom's remnants. He gathered surviving soldiers and desperate civilians, then led them to the harbor as the city burned.\n\nLothar guided a massive fleet across the Great Sea to Lordaeron's northern shores. Near Southshore, King Terenas Menethil II granted sanctuary to the exiles, among them the young Prince Varian Wrynn. A generation after Stormwind's exiles found welcome, the Scourge plague and undead legions brought ruin to Lordaeron in the Third War. Prince Arthas Menethil slaughtered his own subjects as he swept across the realm, scattering survivors in terror. Lady Jaina Proudmoore led an expedition of refugees across the sea to Kalimdor, where they eventually established a settlement at Theramore.\n\nCountless others remained in the Eastern Kingdoms. The Scourge, the Forsaken, and monstrous horrors risen from the ruins hunted them.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_refugee-36d446e85153619f351e/1-0000.mp3", duration = 74.7885714, start = 0},
+    {file = "Audio/Transport/full_topic_refugee-2906de5d164de3522fc4/1-0000.mp3", duration = 76.4865306, start = 0},
   },
 }
 P.transport["topic:riverpaw-pack"] = {
@@ -1014,7 +1014,7 @@ P.transport["topic:stormwind-army"] = {
   fullHash = "3eb961",
   text = "Stormwind Army. Across the southern kingdom, the Stormwind Army struggles to guard its lands and the Grand Alliance. Its knights and marshals are famed for resilience, yet the king is missing, nobles quarrel, and too few soldiers hold the provinces. For centuries, Stormwind's army has fought gnolls on the frontier and Gurubashi trolls in desperate battles. In the First War, King Llane Wrynn I and Sir Anduin Lothar led the Knights of Stormwind in famed ambushes against the Orcish Horde. Yet fire took the capital. Survivors fled to Lordaeron, helped form the Alliance of Lordaeron, and fought through the Second War. After the Dark Portal fell, the restored kingdom raised its military anew. Stormwind Keep holds the army's command, and regional garrisons answer to the Stormwind Marshals. Within the capital, the Stormwind City Guard keeps civil order. The elite Royal Guard protects the boy-king Anduin Wrynn and Highlord Bolvar Fordragon. Beyond the gates, outposts patrol Elwynn Forest, watch the trade roads, and man ramparts as far as the Redridge Mountains. On the water, the Stormwind Fleet supports the army.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_stormwind-army-ac82964fba922d399c8d/1-0000.mp3", duration = 70.4783673, start = 0},
+    {file = "Audio/Transport/full_topic_stormwind-army-81d065cf06afad078af8/1-0000.mp3", duration = 69.5640816, start = 0},
   },
 }
 P.transport["topic:stormwind-guard"] = {
@@ -1022,7 +1022,7 @@ P.transport["topic:stormwind-guard"] = {
   fullHash = "1c1d08",
   text = "Stormwind Guard. Across Elwynn and Redridge, the Stormwind Guard struggles to hold its ground. Political gridlock and distant campaigns leave scattered marshals short of aid as gnolls, orcs, and bandits press the kingdom's borders. The Stormwind Guard patrols the roads and watchtowers that bind the kingdom together. Appointed marshals defend the outlying settlements: Marshal McBride in Northshire Valley, Marshal Dughan in Goldshire, and Marshal Marris in Lakeshire. They gather recruits and keep order. Between posts such as Westbrook Garrison, they ride brown horses prized for their stamina. Since the Third War, the Guard has kept Elwynn Forest safe and quiet. In recent years, though, crisis has come. King Varian Wrynn has vanished, and the kingdom's standing army is tied down abroad, leaving regional garrisons with little aid. At Westbrook Garrison, Deputy Rainer struggles to hold the western border against Riverpaw gnolls and Defias thieves. Local commanders now depend on visiting adventurers for crucial security work and bounties. The crown kept a tenuous military presence in the Redridge Mountains, even as Duskwood and Westfall were abandoned. The Guard's position there is desperate. Shadowhide gnolls and Blackrock orcs from the Burning Steppes overwhelmed the soldiers and drove them from Stonewatch Keep. In Lakeshire, blacksmith Verner Osgood uses iron to keep guards equipped. Exhausted sentries watch the road for the 2nd Battalion, which never arrives.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_stormwind-guard-576747cf959de75e6684/1-0000.mp3", duration = 89.4432653, start = 0},
+    {file = "Audio/Transport/full_topic_stormwind-guard-d162e5e7b231fe5a8eb3/1-0000.mp3", duration = 88.2155102, start = 0},
   },
 }
 P.transport["topic:tauren"] = {
@@ -1150,7 +1150,7 @@ P.transport["zone:barrens"] = {
   fullHash = "c4a71c",
   text = "The Barrens. Across The Barrens, Horde outposts guard the roads as rival forces press in from every side. Once forest before the Great Sundering, this central Kalimdor plain is now dry country of red dust, scrub, and wandering wildlife. The Crossroads anchors Horde traffic, but quilboar, centaur, and creeping corruption threaten its hold. For generations, tauren nomads hunted kodo and zhevra across these plains. They also fought a recurring defensive war against the Kolkar centaur. During the Third War, Thrall led the orcs to Kalimdor. He helped Cairne Bloodhoof drive back the centaur, then crossed the savanna into Mulgore with him. The Barrens now links Durotar, Mulgore, and Ashenvale.\n\nThe Crossroads and Camp Taurajo guard trade along the Gold Road. Orcish homesteads endure the harsh climate as the Horde builds a lasting home. Horde control of the savanna remains contested. Razormane quilboar raid farms and supply lines from thorn-choked strongholds, their bristles like porcupine quills. To the south, the dens of Razorfen Kraul loom over the land. On the eastern coast, Theramore forces hold Northwatch Hold, while dwarven prospectors dig into the titan complex of Bael Modan. Ratchet's goblins keep uneasy neutrality in trade and welcome travelers who bring coin.",
   ["1"] = {
-    {file = "Audio/Transport/full_zone_barrens-d98b45681e9fb12f0661/1-0000.mp3", duration = 78.6546939, start = 0},
+    {file = "Audio/Transport/full_zone_barrens-3ee55ca8d616ec27ce51/1-0000.mp3", duration = 78.8897959, start = 0},
   },
 }
 P.transport["zone:blackfathom"] = {
@@ -1230,7 +1230,7 @@ P.transport["zone:durotar"] = {
   fullHash = "76951e",
   text = "Durotar. Durotar is red canyon country, where young orcs and Darkspear trolls prove themselves to the New Horde. Warchief Thrall founded this dry homeland after the Third War, and named it for his father, Durotan. The Southfury River and the Great Sea hem it in. Razor Hill and the warrior city of Orgrimmar rise from its rock. But quilboar tribes still hold out here, and so do stranded Alliance troops. Thrall chose this hard frontier on purpose. Here the orcs would earn an honest living by labor and grit, and not by conquest. The cracked red soil and the towering spires remind them of Draenor, before its ruin. Water is scarce and little of the land can be farmed, yet the Horde has embraced its stark grandeur. Durotar is proof that the orcs have forged their own destiny. The Horde holds Durotar, but keeping it is still a war. The Razormane quilboar, pushed out when the nation was founded, raid its farms from the western crags. In the south, what is left of Grand Admiral Daelin Proudmoore's fleet still holds Tiragarde Keep, and refuses to surrender. Worse still, the demon cult of the Burning Blade lurks in hidden ravines and deep sea caves. It tempts young orcs back to fel power. On the southern coast lies Sen'jin Village, where the exiled Darkspear trolls gather under Master Gadrin. Their home was on the nearby Echo Isles. But the witch doctor Zalazane went mad, and with dark voodoo he enslaved his own kin. The Darkspear cannot take the islands back alone. They are counting on new warriors from the Valley of Trials, to break Zalazane's hold.",
   ["1"] = {
-    {file = "Audio/Transport/full_zone_durotar-aa6f8ac4b64e106ec08c/1-0000.mp3", duration = 97.8808163, start = 0},
+    {file = "Audio/Transport/full_zone_durotar-7944de5356910270878c/1-0000.mp3", duration = 94.5371429, start = 0},
   },
 }
 P.transport["zone:duskwood"] = {
@@ -1262,7 +1262,7 @@ P.transport["zone:elwynn"] = {
   fullHash = "c188aa",
   text = "Elwynn Forest. Elwynn Forest is good green country, and Stormwind lives off its timber and gold, its fish and grain. It ought to be a peaceful place. But vermin, stray beasts and brigands roam the woods. So Northshire Abbey sends its recruits out to deal with them. The forest runs south from Stormwind's gates, all the way down to the Nazferiti River. It rains a good deal here, and the fields are the richer for it. Behind the fields grow thick hardwoods, and their timber goes to the capital. Carts roll up from Goldshire and the Eastvale Logging Camp, loaded with grain and livestock, lumber and raw copper. Elwynn breeds horses too, and knights and travelers all over the kingdom are glad to own a sturdy Evendale horse. But these are uneasy days. The Stormwind Army is busy far away, so the marshals and deputies must make do with recruits who have never been tested. Kobolds have overrun the Fargodeep and Jasperlode mines. Riverpaw gnolls prowl the southwestern borders, and murlocs have taken the shores of Stone Cairn Lake and Crystal Lake.\n\nEven the wolves are newcomers. They fled the corruption across the river in Duskwood, and came over into Elwynn.",
   ["1"] = {
-    {file = "Audio/Transport/full_zone_elwynn-d913889b1ff683a858ee/1-0000.mp3", duration = 69.7208163, start = 0},
+    {file = "Audio/Transport/full_zone_elwynn-eb92a2db4ca7b9d4c39b/1-0000.mp3", duration = 69.6685714, start = 0},
   },
 }
 P.transport["zone:felwood"] = {
@@ -1334,7 +1334,7 @@ P.transport["zone:moonglade"] = {
   fullHash = "59b97c",
   text = "Moonglade. In Moonglade, druids of the Cenarion Circle gather beneath an endless twilight. The valley in northern Kalimdor shelters night elf and tauren druids, while travelers on foot brave Timbermaw Hold to reach it. Moonglade lies among the mountains north of Felwood and Winterspring. Beneath Elune's moon, twilight lingers over Lake Elune'ara, at the heart of a valley sacred since kaldorei civilization began. The Burning Legion left the glade untouched in both its ancient invasions and the recent Third War, held back by Cenarius and his offspring. Keeper Remulos watches over Moonglade now, guarding nature's balance in a refuge where factional conflict has no place. Malfurion Stormrage founded the Cenarion Circle millennia ago, and Moonglade remains its headquarters. In lakeside Nighthaven, druids learn from ancient traditions. After the Third War, the Circle welcomed tauren into its ranks, following Archdruid Hamuul Runetotem's teachings. Here, Alliance and Horde loyalties are set aside. Armed sentries keep the peace, and members who turn to violence face swift justice.",
   ["1"] = {
-    {file = "Audio/Transport/full_zone_moonglade-bbe057564fef0da19388/1-0000.mp3", duration = 70.3216327, start = 0},
+    {file = "Audio/Transport/full_zone_moonglade-457b2062a7af354fc238/1-0000.mp3", duration = 66.56, start = 0},
   },
 }
 P.transport["zone:mulgore"] = {
@@ -1462,7 +1462,7 @@ P.transport["zone:stormwind"] = {
   fullHash = "1fc246",
   text = "Stormwind City. White-walled Stormwind is the greatest haven of men, and the heart of the Alliance. Yet its king is lost. The crown now rests on a boy of ten. Stormwind is old. More than a thousand years ago, the descendants of the Arathi founded it. For long generations it flourished, a realm that needed no one's help. Then the Horde came through the Dark Portal. The southern continent was laid waste, and in the First War the city was razed.\n\nIts survivors followed Sir Anduin Lothar north, across the Great Sea to Lordaeron. When the Horde fell in the Second War, King Terenas Menethil II and the Alliance paid for Stormwind to rise again. The Stonemasons Guild raised it anew in polished white stone, with canals running through its boroughs. But the white stone hides a troubled house. The House of Nobles quarreled with the Stonemasons Guild over wages, and the quarrel left the kingdom crippled by debt. The guild's workers rose in riot. They were driven from the very city they had built.\n\nThen King Varian Wrynn vanished on his way to a summit. Lest panic spread, the crown passed to his son Prince Anduin Wrynn. He is ten years old. Highlord Bolvar Fordragon rules now as Regent and commander of the army. And at his side stands the royal advisor, Lady Katrana Prestor. With Lordaeron overrun by the Scourge, men look to Stormwind above every other city. The faithful gather at the Cathedral of Light. And in the Valley of Heroes, tall statues honor the Sons of Lothar. They passed beyond the Dark Portal, and were seen no more.",
   ["1"] = {
-    {file = "Audio/Transport/full_zone_stormwind-82a6b97f5eb8d249e0f3/1-0000.mp3", duration = 101.041633, start = 0},
+    {file = "Audio/Transport/full_zone_stormwind-12bbb4ca4bb243102249/1-0000.mp3", duration = 98.7428571, start = 0},
   },
 }
 P.transport["zone:stranglethorn"] = {

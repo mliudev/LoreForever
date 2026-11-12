@@ -1,0 +1,98 @@
+{
+ "key": "quest:78676",
+ "type": "quest",
+ "name": "The Eye of Bhossca",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   78676
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "C sends you after the Eye of Bhossca, said to lie within the Scarlet Monastery. The artifact is wanted back at a dead drop near Pyrewood Village.",
+ "sections": [
+  {
+   "title": "C's Request",
+   "body": "A note in the chest bears a new request from C, near Pyrewood Village. The Eye of Bhossca is said to be somewhere in the Scarlet Monastery, and C wants it brought back. As at Shadowfang Keep, you are to enter alone. A disguise found on the monastery grounds may make passage easier.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the Eye?",
+   "aliases": [
+    "who wants it",
+    "who is C",
+    "C's eye request"
+   ],
+   "answer": "C asks you to retrieve the Eye of Bhossca and bring it to a dead drop near Pyrewood Village."
+  },
+  {
+   "q": "Where is the Eye of Bhossca?",
+   "aliases": [
+    "where's the eye",
+    "eye location",
+    "find bhossca"
+   ],
+   "answer": "C's sources place the Eye of Bhossca somewhere within the Scarlet Monastery."
+  },
+  {
+   "q": "Why does C want the Eye?",
+   "aliases": [
+    "why eye",
+    "what does C want it for",
+    "why retrieve it"
+   ],
+   "answer": "C calls the Eye of Bhossca an artifact and says it is the latest object of desire."
+  },
+  {
+   "q": "Where do I take the Eye?",
+   "aliases": [
+    "where to return it",
+    "dead drop location",
+    "where's the chest"
+   ],
+   "answer": "You are to return the Eye to C's dead drop near Pyrewood Village."
+  },
+  {
+   "q": "Do I have to go alone?",
+   "aliases": [
+    "alone?",
+    "can I bring help",
+    "solo eye"
+   ],
+   "answer": "C requires you to enter the Scarlet Monastery alone and complete the job alone."
+  },
+  {
+   "q": "Would a disguise help?",
+   "aliases": [
+    "disguise eye",
+    "need disguise",
+    "where disguise"
+   ],
+   "answer": "C says a disguise may make it easier to get around and suggests looking for one on the monastery grounds."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "artifact",
+  "bhossca",
+  "c",
+  "dead drop",
+  "disguise",
+  "eye of bhossca",
+  "pyrewood village",
+  "scarlet monastery"
+ ],
+ "related": [
+  "zone:scarlet",
+  "subzone:pyrewood-village",
+  "zone:shadowfang"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Eye of Bhossca"
+ ]
+}

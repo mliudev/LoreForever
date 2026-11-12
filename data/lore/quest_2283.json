@@ -1,0 +1,82 @@
+{
+ "key": "quest:2283",
+ "type": "quest",
+ "name": "Necklace Recovery",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2283
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Dran Droffers in Orgrimmar seeks a valuable necklace from the Uldaman dig site. It may be damaged, but he wants it brought back.",
+ "sections": [
+  {
+   "title": "A Search in Uldaman",
+   "body": "At the dig site in Uldaman, you search for the necklace Dran Droffers wants returned to Orgrimmar. Its value matters to him, though it may be damaged when you find it.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the necklace?",
+   "aliases": [
+    "who asked for it",
+    "necklace for who"
+   ],
+   "answer": "Dran Droffers in Orgrimmar wants the necklace brought back to him."
+  },
+  {
+   "q": "Where should I look for the necklace?",
+   "aliases": [
+    "necklace location",
+    "where necklace"
+   ],
+   "answer": "The necklace is sought within the Uldaman dig site."
+  },
+  {
+   "q": "Does the necklace need to be undamaged?",
+   "aliases": [
+    "damaged necklace ok",
+    "necklace condition"
+   ],
+   "answer": "The necklace may be damaged."
+  },
+  {
+   "q": "Why does Dran want it?",
+   "aliases": [
+    "why necklace wanted",
+    "what's necklace for"
+   ],
+   "answer": "The text identifies it as valuable, but gives no reason beyond that."
+  },
+  {
+   "q": "Where is Dran Droffers?",
+   "aliases": [
+    "dran location",
+    "where is dran"
+   ],
+   "answer": "Dran Droffers is in Orgrimmar."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "damaged necklace",
+  "dig site",
+  "dran droffers",
+  "necklace",
+  "necklace recovery",
+  "orgrimmar",
+  "uldaman"
+ ],
+ "related": [
+  "subzone:uldaman",
+  "zone:orgrimmar"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Necklace Recovery"
+ ]
+}

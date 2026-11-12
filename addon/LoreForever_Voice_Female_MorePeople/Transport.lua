@@ -446,7 +446,7 @@ P.transport["npc:brother-wilhelm"] = {
   fullHash = "17651c",
   text = "Brother Wilhelm. Behind Goldshire's smithy, Brother Wilhelm guides young paladins into the wider forest. They come from Northshire Abbey to take their first steps in Elwynn. Brother Wilhelm trains new paladins behind Goldshire's smithy. Northshire Valley shelters those who begin their path in the Light, but many seek his guidance once they enter the wider forest. He teaches them their sacred duties as they leave the abbey. Then they take up the work of protecting the realm. Brother Wilhelm guides aspiring paladins toward the Tome of Divinity. Its rite teaches initiates the weight of sacrifice and the power of divine redemption. Through the trials, they test their devotion and learn to wield the Light. They can resurrect fallen comrades and uphold justice across the Kingdom of Stormwind.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_brother-wilhelm-a95786c1a106ab556ca1/1-0000.mp3", duration = 48.5877551, start = 0},
+    {file = "Audio/Transport/full_npc_brother-wilhelm-9e26546fd9475893dfb7/1-0000.mp3", duration = 46.9681633, start = 0},
   },
 }
 P.transport["npc:cain-firesong"] = {
@@ -1318,7 +1318,7 @@ P.transport["npc:gerard-tiller"] = {
   fullHash = "e2f0f9",
   text = "Gerard Tiller. At the Maclure Vineyards, Gerard Tiller tends the grounds and longs for spring water. Bring him a skin of it, and he offers shiny red apples. Gerard Tiller works outside the barn at the Maclure Vineyards, south of Goldshire. The vineyard is known for its grapes, and keeping the harvest going takes hard labor. His chores leave him thirsty, so he welcomes travelers who bring a skin of fresh spring water. In return, he gives them shiny red apples gathered from local orchards.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gerard-tiller-cdf60fdd68fec5bffe75/1-0000.mp3", duration = 30.0930612, start = 0},
+    {file = "Audio/Transport/full_npc_gerard-tiller-cc6dab00808524e82cc1/1-0000.mp3", duration = 29.962449, start = 0},
   },
 }
 P.transport["npc:gerrig-bonegrip"] = {
@@ -1398,7 +1398,7 @@ P.transport["npc:gramma-stonefield"] = {
   fullHash = "06e80e",
   text = "Gramma Stonefield. At the Stonefield farm in Elwynn, Gramma Stonefield works quietly to ease a family feud. For decades, the Stonefields and Maclures have bickered across the road. Gramma Stonefield, the oldest living member of her clan, sees their rivalry as senseless and harmful. So when her grandson Tommy Joe Stonefield falls in love with Maybell Maclure, she chooses compassion over clan loyalty. She turns to her old friend William Pestle in Goldshire and quietly plans ways for the sweethearts to meet in secret despite the hostility between their farms.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_gramma-stonefield-269fd445358bc557f194/1-0000.mp3", duration = 34.5861224, start = 0},
+    {file = "Audio/Transport/full_npc_gramma-stonefield-4624e475ebda50651eec/1-0000.mp3", duration = 34.0897959, start = 0},
   },
 }
 P.transport["npc:grand-mason-marblesten"] = {
@@ -1710,7 +1710,7 @@ P.transport["npc:innkeeper-farley"] = {
   fullHash = "ec8b15",
   text = "Innkeeper Farley. At the Lion's Pride Inn in Goldshire, Innkeeper Farley offers travelers meals, beds, and hearthstones. Well liked and watchful, he keeps misplaced mail and listens to the troubles of the road. Travelers bound for Stormwind, Westfall, and Duskwood find Innkeeper Farley at the Lion's Pride Inn counter in Goldshire. He offers meals, ale, cheese, and a bed, and sets hearthstones for those who need one. Farley welcomes all who pass through this busy waystation and keeps order at the inn.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_innkeeper-farley-fc161024d5627c76cd59/1-0000.mp3", duration = 31.8955102, start = 0},
+    {file = "Audio/Transport/full_npc_innkeeper-farley-456828a688a60df8af13/1-0000.mp3", duration = 32.6008163, start = 0},
   },
 }
 P.transport["npc:innkeeper-firebrew"] = {
@@ -1990,7 +1990,7 @@ P.transport["npc:keryn-sylvius"] = {
   fullHash = "036e92",
   text = "Keryn Sylvius. On the second floor of Goldshire’s Lion’s Pride Inn, Keryn Sylvius trains young rogues. In the reading room, she teaches stealth and bladecraft and quietly guides promising operatives toward Stormwind’s intelligence service. Keryn Sylvius keeps to the reading room above the Lion’s Pride Inn. Below, travelers and town guards fill the common room. Upstairs, she listens to the steady flow of gossip from the road. She mentors rogues learning their trade in Elwynn Forest.\n\nWhen promising operatives outgrow petty theft and roadside skulduggery, Sylvius quietly sends them to Stormwind City. There, they can seek out SI:7.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_keryn-sylvius-dd061d9e60946519a3c6/1-0000.mp3", duration = 41.2995918, start = 0},
+    {file = "Audio/Transport/full_npc_keryn-sylvius-6660e312921f512113d0/1-0000.mp3", duration = 41.2995918, start = 0},
   },
 }
 P.transport["npc:khelden-bremen"] = {
@@ -2318,7 +2318,7 @@ P.transport["npc:lyria-du-lac"] = {
   fullHash = "d8c7bf",
   text = "Lyria Du Lac. In Goldshire, Lyria Du Lac trains young warriors behind the village smithy. She guides them as they master their stances and arms. Behind Goldshire's forge, Lyria Du Lac trains warriors fresh from Northshire Abbey. She judges when they are ready and teaches them specialized combat techniques. Those who take up shield and blade for Stormwind must face the dangers of Elwynn Forest.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_lyria-du-lac-423fd96f4730aff63937/1-0000.mp3", duration = 24.5289796, start = 0},
+    {file = "Audio/Transport/full_npc_lyria-du-lac-db2887b9b26944e29bdf/1-0000.mp3", duration = 23.4057143, start = 0},
   },
 }
 P.transport["npc:ma-stonefield"] = {
@@ -2662,7 +2662,7 @@ P.transport["npc:morgan-pestle"] = {
   fullHash = "6ca7c4",
   text = "Morgan Pestle. At Pestle's Apothecary in Stormwind, Morgan Pestle handles the capital's supplies and alchemical research. He works with his brother William Pestle in Goldshire. Morgan Pestle sells alchemical goods, reagents, and remedies from Pestle's Apothecary in Stormwind's Trade District. His brother William keeps a workshop at the Lion's Pride Inn in Goldshire, while Morgan tends their family trade in the capital. Supplies come from the rural heartlands, including candles William sends north.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_morgan-pestle-2260b401fd3db47e44cb/1-0000.mp3", duration = 31.242449, start = 0},
+    {file = "Audio/Transport/full_npc_morgan-pestle-380db8998d941f674cde/1-0000.mp3", duration = 30.4326531, start = 0},
   },
 }
 P.transport["npc:morgan-the-collector"] = {
@@ -3022,7 +3022,7 @@ P.transport["npc:priestess-josetta"] = {
   fullHash = "68ab7f",
   text = "Priestess Josetta. In Goldshire, Priestess Josetta guides young priests beyond their first trials at Northshire. She teaches them faith, devotion, and service to others. From an upstairs room in the Lion's Pride Inn, Priestess Josetta tends to the people of Elwynn Forest. Travelers, guards, and local workers come within her reach there. She gives spiritual care among ordinary folk, serving the Holy Light wherever people need comfort. After their first studies at Northshire Abbey, young priests come to Priestess Josetta for guidance. She sends them into the countryside to aid wounded guards and comfort those who suffer. Their work teaches them that priesthood asks for more than prayers learned by heart. They must put the Light to work and help mend a broken world. Priestess Josetta regrets that she did not travel farther when she was young. She chose familiar ground over the wider roads of Azeroth. Though content with her sacred service in Goldshire, she urges young disciples to be bolder and carry their faith to distant frontiers.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_priestess-josetta-2dd7a9f1ece1feea013a/1-0000.mp3", duration = 63.2946939, start = 0},
+    {file = "Audio/Transport/full_npc_priestess-josetta-4700f03850be05396549/1-0000.mp3", duration = 63.8432653, start = 0},
   },
 }
 P.transport["npc:prospector-ironband"] = {
@@ -3166,7 +3166,7 @@ P.transport["npc:remy-two-times"] = {
   fullHash = "c19b04",
   text = "Remy \"Two Times\". In Goldshire, Remy \"Two Times\" trades goods and buys raw materials. He came from the Redridge Mountains, and earned his name by repeating the ends of his sentences twice. Travelers passing through Goldshire can strike a deal with Remy \"Two Times\". He seeks profit in troubled Elwynn Forest, and his trade puts coin in their hands. His unusual way of speaking may amuse them. Trade in Elwynn suffers as kobolds overrun the local gold mines and aggressive murlocs infest the riverbanks. Remy pays travelers for pouches of gold dust gathered from kobolds in the mines. Near Crystal Lake, he watches for suspicious murloc movements.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_remy-two-times-3500890fd572181c4e20/1-0000.mp3", duration = 41.2212245, start = 0},
+    {file = "Audio/Transport/full_npc_remy-two-times-4d5771c64730340851c5/1-0000.mp3", duration = 39.5232653, start = 0},
   },
 }
 P.transport["npc:renato-gallina"] = {
@@ -3574,7 +3574,7 @@ P.transport["npc:smith-argus"] = {
   fullHash = "dff9cc",
   text = "Smith Argus. At Goldshire's forge, Smith Argus keeps travelers and local smiths supplied. He repairs gear, trains new smiths, and sends horseshoes to Redridge while coordinating with Stormwind craftsmen. Near the Lion's Pride Inn in Goldshire, Smith Argus works the forge. Gnolls, kobolds, and Defias bandits threaten the area, so he keeps the local militia and passing adventurers equipped. He mends armor and makes sturdy tools. As a blacksmithing trainer, he teaches new smiths to work copper and bronze. Goldshire's central position makes Smith Argus a link in Stormwind's regional supply. Craftsmen in nearby settlements come to him for specialized gear and raw materials. Farrier Verner Osgood in Redridge depends on Argus for horseshoes for pack animals and cavalry. Metalworkers in Stormwind's Dwarven District also arrange deliveries through him.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_smith-argus-8b7f9825a9a7ebdf4198/1-0000.mp3", duration = 55.8236735, start = 0},
+    {file = "Audio/Transport/full_npc_smith-argus-ac6d4bf4be20f446280c/1-0000.mp3", duration = 53.76, start = 0},
   },
 }
 P.transport["npc:solm-hargrin"] = {
@@ -3782,7 +3782,7 @@ P.transport["npc:tharek-blackstone"] = {
   fullHash = "bc903c",
   text = "Tharek Blackstone. At the forge in Kharanos, Tharek Blackstone makes and repairs tools for local craftsmen. His trade keeps him busy, so he hires travelers to carry finished crates to Beldin Steelgrill at Steelgrill's Depot. Beldin's mechanostrider depot just outside town needs heavy wrenches, gears, and replacement tools. Tharek sends each crate there with a passing traveler, keeping deliveries moving while he stays at the forge. Craftsmen across Kharanos also rely on the tools he makes and repairs. Tharek has earned respect across Dun Morogh through his work at the anvil. He holds no military title, yet people in town turn to him for odd jobs, supply runs, and help coordinating local efforts.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_tharek-blackstone-2c8135d252dc68c34fbe/1-0000.mp3", duration = 44.0685714, start = 0},
+    {file = "Audio/Transport/full_npc_tharek-blackstone-e07c7cc82e31aecddb20/1-0000.mp3", duration = 45.6097959, start = 0},
   },
 }
 P.transport["npc:tharnariun-treetender"] = {
@@ -4262,7 +4262,7 @@ P.transport["npc:zaldimar-wefhellt"] = {
   fullHash = "661223",
   text = "Zaldimar Wefhellt. Upstairs at the Lion's Pride Inn, Zaldimar Wefhellt guides young mages through their first spells. When they outgrow his lessons, he sends them to Stormwind City for further training. Upstairs at the Lion's Pride Inn, Zaldimar Wefhellt teaches novice mages the first arts of arcane, fire, and frost. Once an apprentice outgrows those lessons, he sends them north to Stormwind's Mage Quarter. There, Jennea Cannon can teach them more.",
   ["1"] = {
-    {file = "Audio/Transport/full_npc_zaldimar-wefhellt-945a24457dc0c7cefcb4/1-0000.mp3", duration = 28.8130612, start = 0},
+    {file = "Audio/Transport/full_npc_zaldimar-wefhellt-0cc2655bc0fc94127396/1-0000.mp3", duration = 28.1861224, start = 0},
   },
 }
 P.transport["npc:zamja"] = {
@@ -4470,7 +4470,7 @@ P.transport["topic:hunter"] = {
   fullHash = "7dbe05",
   text = "Hunter. Across Azeroth, hunters follow wild trails with loyal beasts at their sides. Bows, rifles, and crossbows let them strike from afar, while traps and primal aspects help control a fight. They track quarry through forests and over snowbound peaks, relying on their wits and bond with nature. Hunters make their lives among Azeroth’s wild places. They study how beasts move, hunt, and defend themselves, earning respect instead of breaking spirits. With patience, they can tame dangerous creatures, from prowling cats to mountain bears and sharp-eyed raptors. These animals become steadfast allies, ready to defend their companions to the death. Hunters fight from a distance with bows, heavy crossbows, and rifles. Their volleys can pierce heavy armor before an attacker draws near. Keen senses lead them along faint footsteps, scents, and other signs left by their quarry. When enemies close in, frost and flame traps, disorienting ambushes, and quick evasive movements keep foes at bay. The hunter’s path takes many forms across Azeroth. Night elf Sentinels use bows and shadowcraft beneath Ashenvale’s canopy, moving in quiet accord with the wilderness. Dwarven riflemen brave Dun Morogh’s freezing crags with hardy bears and master the craft of gunpowder. Across Kalimdor, Tauren and Orc trackers follow ancient nomadic customs. They pursue prey with sacred respect and call on bestial spirits to guide their shots.\n\nIn Elwynn Forest, young humans learn from seasoned trackers such as the dwarf Tordrin Sternblade in Northshire Valley and Josephine Carson in Goldshire. The Skyborne learn to track and tame the beasts of Zephras Isle.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_hunter-f5d9db5bb37855f3de91/1-0000.mp3", duration = 104.75102, start = 0},
+    {file = "Audio/Transport/full_topic_hunter-26f846c53e52fbe281c5/1-0000.mp3", duration = 107.572245, start = 0},
   },
 }
 P.transport["topic:leper-gnome"] = {
@@ -4502,7 +4502,7 @@ P.transport["topic:llane-wrynn-i"] = {
   fullHash = "05eaf6",
   text = "Llane Wrynn I. Stormwind's defense falters as the First War turns against King Llane Wrynn I and his kingdom. Beloved and proud, Llane cannot accept that his friend Medivh has betrayed humanity, and that refusal dooms the capital. Born to King Barathen Wrynn, Prince Llane grew up with Anduin Lothar and Medivh. As youths, the three friends ventured into Stranglethorn Vale's jungles and clashed with the Gurubashi trolls. In time, Llane took the throne as Stormwind's king. When green-skinned strangers came from the southern swamps, King Llane sent Lothar to investigate the Black Morass. Minor skirmishes became the First War as the Horde overran the forests of Duskwood, Westfall, and Redridge. Messengers seeking aid from Lordaeron and the northern human kingdoms were turned away. Stormwind's long isolation and aristocratic intrigue weakened their pleas.\n\nEven so, Llane and Lothar led a daring counterattack. They broke the Horde's first siege of Stormwind and dealt the invaders their first major defeat.",
   ["1"] = {
-    {file = "Audio/Transport/full_topic_llane-wrynn-i-fa76bfe828bc9d4af788/1-0000.mp3", duration = 65.9591837, start = 0},
+    {file = "Audio/Transport/full_topic_llane-wrynn-i-3ea606e83859b155d95c/1-0000.mp3", duration = 65.0710204, start = 0},
   },
 }
 P.transport["topic:mage"] = {

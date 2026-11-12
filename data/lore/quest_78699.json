@@ -1,0 +1,64 @@
+{
+ "key": "quest:78699",
+ "type": "quest",
+ "name": "The Eye of Bhossca",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   78699
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A note for you waits in a chest. Its writer signs only with the initial C.",
+ "sections": [
+  {
+   "title": "The Note",
+   "body": "A chest holds a note addressed to you. Its writer says they will keep an eye out for you, then signs with the letter C.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who left the note?",
+   "aliases": [
+    "who is C",
+    "who wrote it",
+    "C note"
+   ],
+   "answer": "The note is signed with the initial C; it gives no full name."
+  },
+  {
+   "q": "What does the note say?",
+   "aliases": [
+    "what's in the chest",
+    "eye of bhossca note",
+    "what did C write"
+   ],
+   "answer": "The writer tells you they will keep an eye out for you and signs with the initial C."
+  },
+  {
+   "q": "Where is the note?",
+   "aliases": [
+    "where's the note",
+    "chest note"
+   ],
+   "answer": "The note sits in a chest."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bhossca",
+  "c",
+  "chest",
+  "eye of bhossca",
+  "eye out",
+  "note"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Eye of Bhossca"
+ ]
+}

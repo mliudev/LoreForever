@@ -1,0 +1,84 @@
+{
+ "key": "quest:94481",
+ "type": "quest",
+ "name": "A Serving of Strength",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94481
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A trainer asks you to feed Rog\u2019mar trainees at the training grounds. The stew helps keep them fed while defending the supply lines grows difficult.",
+ "sections": [
+  {
+   "title": "Food for Trainees",
+   "body": "The trainees at the training grounds need food, and their trainer sends you with hearty stew. You are to feed the Rog\u2019mar trainees to the west. Their complaints can wait; defending the supply lines has grown difficult, and the warriors are thankful for the food you bring.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who needs the stew?",
+   "aliases": [
+    "who is hungry",
+    "who gets fed",
+    "trainee food"
+   ],
+   "answer": "Rog\u2019mar trainees at the training grounds need the stew."
+  },
+  {
+   "q": "Where do I take the stew?",
+   "aliases": [
+    "where to feed trainees",
+    "trainees location",
+    "stew where"
+   ],
+   "answer": "The Rog\u2019mar trainees are at the training grounds to the west."
+  },
+  {
+   "q": "Why are they being fed stew?",
+   "aliases": [
+    "why stew",
+    "what's the food for",
+    "why feed trainees"
+   ],
+   "answer": "The stew keeps the trainees fed while defending the supply lines has become difficult."
+  },
+  {
+   "q": "What does the trainer think of the trainees' complaints?",
+   "aliases": [
+    "trainee complaints",
+    "why are they complaining",
+    "trainer mad"
+   ],
+   "answer": "The trainer says the trainees can bring any further complaints directly to them."
+  },
+  {
+   "q": "Is the trainer thankful for the food?",
+   "aliases": [
+    "does trainer appreciate it",
+    "thanks for stew",
+    "warriors thankful"
+   ],
+   "answer": "Yes. The trainer and the warriors are thankful for the food, despite what the warriors say."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a serving of strength",
+  "rog\u2019mar trainees",
+  "stew",
+  "supply lines",
+  "trainees",
+  "training grounds",
+  "warriors"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Serving of Strength"
+ ]
+}

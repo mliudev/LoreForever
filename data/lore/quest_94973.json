@@ -1,0 +1,65 @@
+{
+ "key": "quest:94973",
+ "type": "quest",
+ "name": "Krol'dok Moulding",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94973
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A moulding found near Rog'mar appears to be part of a key. Someone in the settlement may know what it opens.",
+ "sections": [
+  {
+   "title": "A Curious Mould",
+   "body": "You have a moulding that seems made for a key. In Rog'mar, someone may know what the piece is for. If it came from the stronghold, it may be important.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the moulding for?",
+   "aliases": [
+    "mould piece",
+    "what is this mould",
+    "key mould"
+   ],
+   "answer": "The moulding appears to be for a key."
+  },
+  {
+   "q": "Who can identify the moulding?",
+   "aliases": [
+    "who knows about the mould",
+    "ask about mould",
+    "where to take mould"
+   ],
+   "answer": "Someone in Rog'mar may know about the mould."
+  },
+  {
+   "q": "Why might it matter?",
+   "aliases": [
+    "is the mould important",
+    "stronghold mould",
+    "why care about mould"
+   ],
+   "answer": "If the moulding is from the stronghold, it must be important."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "key",
+  "krol'dok moulding",
+  "mould",
+  "moulding",
+  "rog'mar",
+  "stronghold"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Krol'dok Moulding"
+ ]
+}

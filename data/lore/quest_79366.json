@@ -1,0 +1,89 @@
+{
+ "key": "quest:79366",
+ "type": "quest",
+ "name": "Heed My Call",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79366
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Rau Cliffrunner asks you to use the Twisted Totems against the Razormane ritual. The corrupted elementals threaten to leave the lands unclean.",
+ "sections": [
+  {
+   "title": "At the Steam Pools",
+   "body": "With the Twisted Totems in hand, you are ready to interrupt the Razormane ritual. Rau Cliffrunner asks you to begin at the steam pools to the west, where each element is plentiful. The quilboar will resist your efforts. Use the totems against the ritual and its corrupted elementals.",
+   "spoiler": 0
+  },
+  {
+   "title": "Rau's Thanks",
+   "body": "Rau Cliffrunner asks whether you have news of the storm. When you return, he knows the rumbling ground has fallen silent and thanks you for making the Earthen Ring proud.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Rau Cliffrunner want me to do?",
+   "aliases": [
+    "rau cliffrunner task",
+    "what does rau want"
+   ],
+   "answer": "Rau Cliffrunner asks you to use the Twisted Totems to interrupt the quilboar ritual."
+  },
+  {
+   "q": "Where should I begin?",
+   "aliases": [
+    "where start",
+    "steam pools"
+   ],
+   "answer": "Rau Cliffrunner points you toward the steam pools to the west, where each element is plentiful."
+  },
+  {
+   "q": "What are the Twisted Totems for?",
+   "aliases": [
+    "twisted totems",
+    "totems purpose"
+   ],
+   "answer": "The Twisted Totems are meant to summon the corrupted elementals the quilboar call upon."
+  },
+  {
+   "q": "Who is performing the ritual?",
+   "aliases": [
+    "who ritual",
+    "razormane ritual"
+   ],
+   "answer": "Rau Cliffrunner identifies the ritual as the Razormane's and says the quilboar are calling upon corrupted elementals."
+  },
+  {
+   "q": "Why might the quilboar resist?",
+   "aliases": [
+    "quilboar resist",
+    "why attack me"
+   ],
+   "answer": "Rau warns that the quilboar will not sit idle while you interrupt their plans."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "corrupted elementals",
+  "earthen ring",
+  "heed my call",
+  "quilboar",
+  "rau cliffrunner",
+  "razormane",
+  "ritual",
+  "steam pools",
+  "twisted totems"
+ ],
+ "related": [
+  "npc:rau-cliffrunner",
+  "topic:quilboar"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Heed My Call"
+ ]
+}

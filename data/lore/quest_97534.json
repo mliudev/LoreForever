@@ -1,0 +1,87 @@
+{
+ "key": "quest:97534",
+ "type": "quest",
+ "name": "Gritty Business",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97534
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Quinn in Gadgetzan offers a share of the coin for salvage from machines in the desert. She plans to sell the parts to junkers.",
+ "sections": [
+  {
+   "title": "A Share of the Salvage",
+   "body": "Quinn has silver waiting in Gadgetzan, where she means to sort and sell what you bring back. The desert machines shed parts that tech-heads may value as fuel-cell material. Quinn wants you to bring her seven pieces of Desert Debris, and promises a share of the coin from the sale.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the debris?",
+   "aliases": [
+    "who wants debris",
+    "Quinn salvage",
+    "gritty business giver"
+   ],
+   "answer": "Quinn in Gadgetzan is asking you to recover Desert Debris from machines in the desert."
+  },
+  {
+   "q": "What does Quinn want me to bring back?",
+   "aliases": [
+    "what parts",
+    "debris pieces",
+    "gritty business items"
+   ],
+   "answer": "Quinn wants seven pieces of Desert Debris."
+  },
+  {
+   "q": "Why does Quinn want the machine parts?",
+   "aliases": [
+    "why debris",
+    "what's it for",
+    "salvage reason"
+   ],
+   "answer": "Quinn plans to sell the salvage to junkers who may use the parts as fuel-cell material."
+  },
+  {
+   "q": "What does Quinn offer in return?",
+   "aliases": [
+    "what do i get",
+    "Quinn's deal",
+    "gritty business reward"
+   ],
+   "answer": "Quinn promises you a share of the coin from selling the salvage."
+  },
+  {
+   "q": "Where do I find Quinn?",
+   "aliases": [
+    "Quinn location",
+    "where's Quinn",
+    "Gadgetzan giver"
+   ],
+   "answer": "Quinn is in Gadgetzan."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "desert debris",
+  "fuel cell",
+  "gadgetzan",
+  "gritty business",
+  "junkers",
+  "machines",
+  "quinn",
+  "salvage"
+ ],
+ "related": [
+  "subzone:gadgetzan"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Gritty Business"
+ ]
+}

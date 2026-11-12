@@ -1,0 +1,88 @@
+{
+ "key": "quest:97530",
+ "type": "quest",
+ "name": "Dunemaul Dues",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97530
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Security Chief Bilgewhizzle of Steamwheedle Port wants a shiny bangle recovered near the Dunemaul ogre compound. It was lost when a merchant caravan threw cargo to distract the ogres.",
+ "sections": [
+  {
+   "title": "Lost Cargo",
+   "body": "A caravan lost cargo near the Dunemaul ogre compound after the ogres attacked. Security Chief Bilgewhizzle of Steamwheedle Port asks you to recover a particularly shiny bangle. The merchants are pressing him over their lost profits, and he offers to make it worth your trouble.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the bangle back?",
+   "aliases": [
+    "who sent me",
+    "Bilgewhizzle bangle",
+    "who wants it"
+   ],
+   "answer": "Security Chief Bilgewhizzle of Steamwheedle Port wants you to recover the shiny bangle."
+  },
+  {
+   "q": "Where was the bangle lost?",
+   "aliases": [
+    "where is the bracelet",
+    "bangle location",
+    "where lost"
+   ],
+   "answer": "The bangle was lost near the Dunemaul ogre compound."
+  },
+  {
+   "q": "How did the caravan lose its cargo?",
+   "aliases": [
+    "what happened to caravan",
+    "Dunemaul caravan",
+    "why lost cargo"
+   ],
+   "answer": "The caravan took a wrong turn through the desert and was attacked by Dunemaul ogres. Its people threw cargo overboard to distract them."
+  },
+  {
+   "q": "Why does Bilgewhizzle want it recovered?",
+   "aliases": [
+    "why find bangle",
+    "lost profits",
+    "merchant trouble"
+   ],
+   "answer": "The merchants are pressing Bilgewhizzle over the profits lost with their cargo."
+  },
+  {
+   "q": "What kind of bangle is Bilgewhizzle looking for?",
+   "aliases": [
+    "shiny bracelet",
+    "which bangle",
+    "bangle quest"
+   ],
+   "answer": "Bilgewhizzle asks for a particularly shiny bangle bracelet."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bangle",
+  "bilgewhizzle",
+  "bracelet",
+  "caravan",
+  "dunemaul dues",
+  "dunemaul ogres",
+  "lost cargo",
+  "steamwheedle port"
+ ],
+ "related": [
+  "zone:tanaris",
+  "subzone:steamwheedle-port"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Dunemaul Dues"
+ ]
+}

@@ -582,7 +582,7 @@ P.transport["quest:1503"] = {
   fullHash = "4d60e9",
   text = "Forged Steel. In the eastern Barrens, Thun'grim Firegaze waits for the steel stolen from his camp. He will forge a weapon for the warrior who brings it back. Thun'grim Firegaze keeps a smithy in the eastern Barrens, far from Orgrimmar. Years at the forge have dimmed his sight. The nearby Razormane quilboar used that weakness to steal an iron chest from his camp. Some snorted and made noise on one side to draw his gaze while others slipped in from the other and carried off his forged steel bars. Thun'grim is angry at the theft, but doubts the Razormanes can use the steel. Quilboar craft with stone, tusks and thorny roots, not refined metal. The heavy chest remains near a broken wagon in their camp, untouched and useless to them. For Thun'grim, its steel is the stock he needs to forge weapons for young Horde warriors.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_1503-ddf631e0a6089a1943b0/1-0000.mp3", duration = 51.722449, start = 0},
+    {file = "Audio/Transport/full_quest_1503-405e3643e6b184777c1c/1-0000.mp3", duration = 53.1330612, start = 0},
   },
 }
 P.transport["quest:1504"] = {
@@ -3366,7 +3366,7 @@ P.transport["quest:5041"] = {
   fullHash = "f9f40f",
   text = "Supplies for the Crossroads. Thork needs supplies back at the Crossroads after Razormane quilboar raids. The stolen crates carry provisions the outpost needs as conflict spreads across the Barrens. Thork needs provisions returned to the Crossroads after a supply caravan is ambushed. The outpost links Horde travel, trade, and defense across the Barrens. Its cargo comes from Durotar and Mulgore. Without those goods, shortages of provisions, tools, and arms threaten daily life in the harsh wilderness. Razormane quilboar have taken the crates. These swine-beasts contest Horde control across central Kalimdor. They hauled the cargo to their thorn-bush camps and keep it there. Thork sends trusted warriors into Razormane territory to recover supplies for the Horde.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_5041-333f99d95198601e7514/1-0000.mp3", duration = 47.2293878, start = 0},
+    {file = "Audio/Transport/full_quest_5041-65c1920b060363555ff6/1-0000.mp3", duration = 46.2628571, start = 0},
   },
 }
 P.transport["quest:5061"] = {
@@ -4958,7 +4958,7 @@ P.transport["quest:819"] = {
   fullHash = "205705",
   text = "Chen's Empty Keg. In the Barrens, Chen Stormstout’s marked keg lies abandoned. Its discovery recalls the brewmaster’s old ties to Durotar. Across the dry Barrens, travelers sometimes find an abandoned wooden barrel. Razormane quilboar and Kolkar centaur leave ordinary casks behind, but this one is carefully made and bears a plaque: “Chen Stormstout - May your spirit be raised and always raise your spirits.” It is an odd relic beneath Kalimdor’s sun. To learn how it came here, you seek someone who knows brewing. In Ratchet, Brewmaster Drohn recognizes the keg’s craft and names Chen Stormstout as its owner. Chen is a wandering Pandaren who traveled with Rexxar during the battles that secured Durotar for Thrall’s Horde. Years have passed since Chen walked Kalimdor’s red earth. Yet seasoned brewers still remember his recipes and wandering spirit.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_819-ef1324835b4de3b1bb0e/1-0000.mp3", duration = 56.4244898, start = 0},
+    {file = "Audio/Transport/full_quest_819-0a757851c97a1367fe26/1-0000.mp3", duration = 56.0065306, start = 0},
   },
 }
 P.transport["quest:821"] = {
@@ -5430,7 +5430,7 @@ P.transport["quest:871"] = {
   fullHash = "880beb",
   text = "Disrupt the Attacks. Thork needs the Crossroads defended as Razormane quilboar cut its supply roads. Their ambushes have stopped caravans from Durotar, leaving the outpost short on food and gear. You strike at the quilboar while scouts search for the one directing their warband. The Crossroads guards a key junction for Horde traffic through central Kalimdor. Freight wagons and caravans carry food, iron, and equipment west from Durotar, and the outpost depends on those supplies. Razormane ambushes along the northeast trails have stopped the deliveries. Stores are running low, and Thork cannot wait for peaceful talks. Thork sends you to the quilboar bramble dens northeast of the settlement, before they can assault the town walls. Striking their Water Seekers, Thornweavers, and Hunters weakens the Razormane scouting perimeter and deprives raiding parties of magical and logistical support. These skirmishes buy time while Horde trackers search the brush for the one organizing the raids.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_871-9c2fca32b9da3251624c/1-0000.mp3", duration = 59.1412245, start = 0},
+    {file = "Audio/Transport/full_quest_871-718bf6f0a6d1f5e98c69/1-0000.mp3", duration = 59.4285714, start = 0},
   },
 }
 P.transport["quest:8717"] = {
@@ -5454,7 +5454,7 @@ P.transport["quest:872"] = {
   fullHash = "0c7210",
   text = "The Disruption Ends. Along the Horde road, Thork orders a strike to end the Razormane raids. Kreenig Snarlsnout leads the attacks from the northern Barrens, and his death is meant to break the warband's hold on the route between Durotar and the Crossroads. The road between Durotar and the Crossroads carries provisions and reinforcements through the northern Barrens. Razormane quilboar ambushes threaten that passage. Scout reports name Kreenig Snarlsnout as their leader. His raiding party organizes the attacks, so Thork orders a strike against him to break the warband's unity and secure the road. Kreenig's war party holds craggy hills northeast of the Crossroads. Hardy Razormane Defenders and geomancers who manipulate the arid earth shield his position. Thork orders a breach through their guard and a strike against Kreenig in his redoubt. His tusk will prove the leader's death and warn the plains that the Horde will not accept attacks on its lifelines.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_872-6a07c611329e0180db8c/1-0000.mp3", duration = 55.0138776, start = 0},
+    {file = "Audio/Transport/full_quest_872-a9b52cbcaba56a0cf08b/1-0000.mp3", duration = 55.3795918, start = 0},
   },
 }
 P.transport["quest:8721"] = {

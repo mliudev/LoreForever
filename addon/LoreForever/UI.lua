@@ -86,11 +86,64 @@ local function TextButton(parent, width, height, fontObject, fill, ink)
   return b
 end
 
+-- What a playlist id is about, so every + for a thing follows any row for it, whatever put it there (Mike, 11/11:
+-- "all of the add to playlist places for that item are properly synchronized"): a quest (its quest giver's page that
+-- came by itself, "questtext:150:detail"; the quest its + added, "quest:150"; its story's key), a book (a page that
+-- came by itself, "booktext:<title>#2"; the book its + added, "book:<title>"), else the id itself.
+local function thingOf(id)
+  if type(id) ~= "string" then return id end
+  -- (a quest giver's page goes by the quest's own +: a quest that shares another's lore entry, 4601's quest:2951, too)
+  local qt = id:match("^questtext:(%d+):")
+  if qt then id = UI.QuestItemId(qt) end
+  local q = id:match("^quest:(%d+)$")
+  if q then return "quest:" .. q end
+  local stem = id:match("^booktext:(.-)#%d+$") or id:match("^book:(.+)$")
+  if stem then return "book:" .. stem end
+  local e = UI.engine and UI.engine.db.entries[id]
+  if e and e.t == "quest" and e.m and tonumber(e.m.id) then return "quest:" .. tonumber(e.m.id) end
+  -- A letter or book you carry is an item page and a book you read: one thing (the plan's N9).
+  if e and e.t == "item" and type(e.n) == "string" and ns.Voice.HasAudio("booktext:" .. e.n:lower() .. "#1") then
+    return "book:" .. e.n:lower()
+  end
+  return id
+end
+
+-- The list's row for what id is about (thingOf), playing or waiting (not one played already, behind the current one):
+-- the current row if it's for that, else id's own row, else any row for the same quest or book.
+function UI.QueuedIndex(id)
+  local pl, thing = UI.pl, thingOf(id)
+  local cur = pl.items[pl.pos]
+  if cur and thingOf(cur.id) == thing and not (cur.declined and not cur.started) then return pl.pos end
+  local same
+  for j = math.max(pl.pos, 1), #pl.items do
+    local it = pl.items[j]
+    -- (an offer you declined only waits to leave, quietly, at its turn: its + is plain at once, the plan's E3f)
+    if not (it.declined and not it.started) then
+      if it.id == id then return j end
+      if not same and thingOf(it.id) == thing then same = j end
+    end
+  end
+  return same
+end
+
 -- What the playlist button does for a story or answer right now (Mike, 2026-10-02: it always names an action, never
--- a state like "In playlist"): "add" it, "remove" it, or "stop" it when it's the one playing.
+-- a state like "In playlist"): "add" it, "remove" it, or "stop" it when it's the one playing. A quest or book follows
+-- its rows that came by themselves too (UI.QueuedIndex).
 function UI.QueueAction(id)
-  if not UI.PlaylistIndex(id) then return "add" end
-  return (UI.speaking and UI.playingId == id) and "stop" or "remove"
+  local i = UI.QueuedIndex(id)
+  if not i then return "add" end
+  local playing = UI.speaking and (UI.playingId == id or (i == UI.pl.pos and UI.playingId == UI.pl.items[i].id))
+  return playing and "stop" or "remove"
+end
+
+-- Every row for what id is about (thingOf) leaves the list, waiting or stopped at: one press takes a quest out, its
+-- quest giver's page and the row you added, or its offer and hand-in (the Architect, LOR-1388 change 3).
+function UI.RemoveQueued(id)
+  local pl, thing = UI.pl, thingOf(id)
+  for i = #pl.items, math.max(pl.pos, 1), -1 do
+    local it = pl.items[i]
+    if it and (it.id == id or thingOf(it.id) == thing) then UI.PlaylistRemove(i) end
+  end
 end
 
 function UI.DoQueueAction(key, idx, deferStart)
@@ -98,7 +151,7 @@ function UI.DoQueueAction(key, idx, deferStart)
   local action = UI.QueueAction(id)
   if action == "add" then UI.QueueLink(key, idx, deferStart)   -- (a note if it can't go in after all: a quest Forever rewrote)
   elseif action == "stop" then UI.StopAll()
-  else UI.PlaylistRemove(UI.PlaylistIndex(id)) end
+  else UI.RemoveQueued(id) end
 end
 
 -- The tooltip for that action.
@@ -1409,8 +1462,10 @@ local function watchPlayback(estimate)
       UI.OnClipEnded()
       ns.Voice.OnNarrationEnded(target)
     else
-      if ns.Voice.transport then UI.UpdateNowPlaying() end
-      C_Timer.After(ns.Voice.transport and 0.25 or 1, check)
+      -- (a line from the list with a known length moves the bar as smoothly as a story's pieces do: Mike's pick A)
+      local moving = not ns.Voice.transport and UI.pl.state == "playing" and UI.ListLineShare() ~= nil
+      if ns.Voice.transport then UI.UpdateNowPlaying() elseif moving then UI.MovePlayerBars() end
+      C_Timer.After((ns.Voice.transport or moving) and 0.25 or 1, check)
     end
   end
   C_Timer.After(ns.Voice.transport and 0.25 or 1, check)
@@ -2928,7 +2983,7 @@ end
 function UI.QueueBosses(bosses)
   local n = 0
   for _, bk in ipairs(bosses or {}) do
-    if UI.CanQueue(bk) and not UI.PlaylistIndex(bk) and UI.PlaylistAdd(bk) then n = n + 1 end
+    if UI.CanQueue(bk) and not UI.QueuedIndex(bk) and UI.PlaylistAdd(bk) then n = n + 1 end
   end
   return n
 end
@@ -3133,10 +3188,19 @@ local function turnCheck(it)
     return ns.Voice.LineCheck(it)
   end
   if clock() - (it.at or clock()) > QUEST_WAIT then return L["waited too long"] end
+  if not ns.Voice.QuestDialogue() then return L["turned off"], true end   -- (quest voices turned off while it waited)
+  -- Taken while its quest giver was still greeting you (Voice's keepWaiting): its turn waits out the greeting.
+  if it.notBefore and clock() < it.notBefore then return nil, nil, true end
   if it.how ~= "newquest" then return nil end
   local state = ns.Voice.QuestState(it.quest)
-  if state == "log" or state == nil then return nil end   -- (nil: the client can't say; it plays)
-  if state == "done" then return L["already done"] end
+  -- Done counts as taken: a quest whose item comes with it, one whose item you carry, or a talk-to is done the moment
+  -- you take it, and one handed in before its offer's turn was taken too. Its offer plays (Mike's stream 11/11, items 3
+  -- and 5: "already done" skipped them).
+  if state == "log" or state == "done" then it.inLog = true return nil end
+  if state == nil then return nil end   -- (the client can't say; it plays)
+  -- You clicked Accept and the log hasn't caught up, or the game refused it (a full log): the mild side, it plays.
+  -- "Abandoned" needs the log to have had it (the Architect, 11/12).
+  if it.taken and it.accepted and not it.inLog then return nil end
   if it.taken then return L["you abandoned it"], true end
   if it.declined then return L["you declined it"], true end
 end
@@ -3196,7 +3260,24 @@ end
 
 -- What item `it` plays now, as a target, or nil when nothing of it can (the voice changed since it was queued, say): a
 -- story's or answer's recording, or a book's or quest's page it.page (else the next one that plays: it.page moves on to it).
-local function itemTarget(it)
+-- Whether quest row `it` (one you added) heard recording clip already: its quest giver's page spoke by itself while this
+-- row waited (it.heard, set in playCurrent), so it doesn't play again here (the Architect, LOR-1388 change 2: Mike heard
+-- an offer twice). Only rows waiting then: one you add afterwards plays in full (#3817 review, fix 1).
+local function rowHeard(it, clip)
+  return clip ~= nil and it.heard ~= nil and it.heard[clip] == true
+end
+
+-- Whether every recorded page of quest row `it` from page `from` on was heard that way.
+local function restHeard(it, from)
+  if not (it.pages and it.quest and it.heard and not it.book and not it.asked) then return false end
+  for p = from or 1, #it.pages do
+    local clip = itemPageClip(it, p, true)
+    if clip and not rowHeard(it, clip) then return false end
+  end
+  return true
+end
+
+local function itemTarget(it, byHand)
   if it.target then   -- a quest giver's page that came by itself: as the window had it (Voice.OnQuestFrame)
     if not ns.Voice.HasAudio(it.target.key) then return nil end
     local t = {}
@@ -3209,6 +3290,7 @@ local function itemTarget(it)
   end
   for p = it.page or 1, #it.pages do
     local clip = itemPageClip(it, p)
+    if clip and not byHand and not it.asked and it.quest and rowHeard(it, clip) then clip = nil end   -- (heard: change 2)
     if clip then
       it.page = p
       if it.book then
@@ -3288,11 +3370,35 @@ local function playCurrent(byHand)
     goTo(pl.pos)
     it = pl.items[pl.pos]
   end
+  -- A quest you added whose quest giver already said all of it while it waited leaves as played (change 2); the next
+  -- row gets the same turn checks (#3817 review, fix 3: a story that came by itself started in a fight).
+  if it and not byHand and not it.started and restHeard(it, 1) then
+    table.remove(pl.items, pl.pos)
+    if it == pl.holdAt then pl.holdAt = pl.items[pl.pos] end
+    retire(it, "played")
+    if pl.items[pl.pos] == pl.holdAt and pl.holdAt then
+      pl.state, pl.holdAt = "paused", nil
+      return UI.UpdateListen()
+    end
+    goTo(pl.pos)
+    return playCurrent(byHand)
+  end
   if not it then return UI.PlaylistClear() end
   pl.token = nil
   if byHand then pl.holdAt = nil end   -- you pressed Play or Next: the whole queue goes on (UI.PlayNext)
   -- Recorded narrations only (the voice may have changed since it was queued: then it has nothing to play).
-  local target = itemTarget(it)
+  local target = itemTarget(it, byHand)
+  if not target and not byHand and it.started and restHeard(it, it.page or 1) then
+    -- What's left of a quest row you added was heard while it waited: it's done, and the list goes on (fix 2: it
+    -- stopped here).
+    if pl.pos >= #pl.items then return UI.PlaylistClear() end
+    if pl.items[pl.pos + 1] == pl.holdAt then
+      pl.pos, pl.state, pl.holdAt = pl.pos + 1, "paused", nil
+      return UI.UpdateListen()
+    end
+    goTo(pl.pos + 1)
+    return playCurrent(byHand)
+  end
   if not target then
     pl.state = "paused"
     return UI.UpdateListen()
@@ -3302,6 +3408,15 @@ local function playCurrent(byHand)
   if startTarget(target, true) then
     local first = not it.started
     it.started = true
+    if it.byItself and it.quest and target.key then   -- (a quest giver's page: heard by the rows of it waiting now)
+      for j = pl.pos + 1, #pl.items do
+        local row = pl.items[j]
+        if row.quest == it.quest and row.pages and not row.book then
+          row.heard = row.heard or {}
+          row.heard[target.key] = true
+        end
+      end
+    end
     if it.byItself and it.how and not byHand then ns.Voice.OnLineStarted(it, first) end
   else
     pl.state = "paused"
@@ -3427,7 +3542,12 @@ end
 -- deferStart keeps a stopped player paused when queuing from the composer. quiet omits the flash and note.
 local function addItem(it, quiet, deferStart)
   local pl = UI.pl
-  if not it or UI.PlaylistIndex(it.id) then return false end
+  if not it or UI.QueuedIndex(it.id) then return false end   -- (one row per quest or book: UI.QueuedIndex)
+  local played = UI.PlaylistIndex(it.id)
+  if played then   -- played already, behind the current row: it joins again at the end (one row per id)
+    table.remove(pl.items, played)
+    pl.pos = pl.pos - 1
+  end
   pl.items[#pl.items + 1] = it
   UI.miniClosed = nil   -- the floating player's X put it away until something joins the queue (UI.ClosePlayer)
   if not quiet then
@@ -3447,7 +3567,7 @@ end
 
 -- Add a story (idx nil) or narrated answer to the end (addItem). Returns true if it was added.
 function UI.PlaylistAdd(key, idx, quiet, deferStart)
-  if not key or UI.PlaylistIndex(idx and (faqID(key, idx)) or key) then return false end
+  if not key or UI.QueuedIndex(idx and (faqID(key, idx)) or key) then return false end
   local added = addItem(newItem(key, idx), quiet, deferStart)
   if added and not quiet then ns.Log.Use("pl", "add") end   -- usage counts (LOR-435); QueueHere counts its own
   return added
@@ -3461,7 +3581,15 @@ end
 -- Lead's answer e, 11/11). Returns true if it joined.
 function UI.Admit(it)
   local pl = UI.pl
-  if not it or UI.PlaylistIndex(it.id) then return false end
+  if not it then return false end
+  -- The same quest giver's page, played already and still behind the current one (Previous keeps it): it goes to
+  -- Earlier, and this one joins (a quest abandoned and taken again speaks again: docs/qa/narration-queue.md, 27b).
+  local old = UI.PlaylistIndex(it.id)
+  if old and old < pl.pos and questLine(it) and pl.items[old].byItself then
+    retire(table.remove(pl.items, old), "played")
+    pl.pos, old = pl.pos - 1, nil
+  end
+  if old then return false end
   it.byItself, it.at = true, it.at or clock()
   UI.miniClosed = nil   -- (joining the queue brings a closed player back, as addItem)
   local quest = questLine(it)
@@ -3501,6 +3629,9 @@ function UI.Admit(it)
       -- paused stays paused.)
       pl.holdAt = pl.holdAt or pl.items[pl.pos]
       slot = UI.PlaylistIndex(pl.holdAt.id) or slot
+    elseif pl.holdAt and not quest then
+      -- The same while a quest giver speaks over the list you stopped: a story found now speaks before it stops again.
+      slot = UI.PlaylistIndex(pl.holdAt.id) or slot
     end
     table.insert(pl.items, slot, it)
     -- The list waits at a line a fight or a talk keeps back (pl.gate): a quest line going ahead of it plays now.
@@ -3538,6 +3669,31 @@ function UI.ReplaceCurrent(it)
   goTo(pl.pos, true)
   playCurrent()
   return true
+end
+
+-- A book's page that came by itself takes the place of the story of the item it is (a letter you looted, then opened),
+-- waiting or playing: one row for one thing (the plan's N9). Returns true if it did.
+function UI.TakePlace(it)
+  local pl, thing = UI.pl, thingOf(it.id)
+  for j = math.max(pl.pos, 1), #pl.items do
+    local row = pl.items[j]
+    if row.how == "found" and thingOf(row.id) == thing then
+      it.byItself, it.at = true, clock()
+      if j == pl.pos and UI.speaking and pl.state == "playing" then
+        ns.Voice.Stop(true)
+        UI.speaking, UI.playingId, UI.playToken = false, nil, nil
+        retire(row, "skipped", L["you opened it"])   -- (no note: you did it)
+        pl.items[j] = it
+        goTo(pl.pos, true)
+        playCurrent()
+      else
+        pl.items[j] = it   -- (it hadn't begun: its page in the book still plays it)
+      end
+      UI.UpdateListen()
+      return true
+    end
+  end
+  return false
 end
 
 -- The line playing now leaves for good: skipped, and why (no note: the player did it), or just ended. The list goes on.
@@ -3686,7 +3842,7 @@ function UI.QueueQuest(qid, title, page)
   local key = UI.engine.db.index.quest[qid]
   if not UI.engine.db.entries[key or ""] then key = nil end
   local label = title or questName(qid, key)
-  if UI.PlaylistIndex(key or ("quest:" .. qid)) then
+  if UI.QueuedIndex(key or ("quest:" .. qid)) then
     note(string.format(L["%s is already in your playlist."], esc(label)))
     return false
   end
@@ -3723,7 +3879,7 @@ function UI.DoQueueQuest(qid, title, page)
   local action = UI.QueueAction(id)
   if action == "add" then UI.QueueQuest(qid, title, page)
   elseif action == "stop" then UI.StopAll()
-  else UI.PlaylistRemove(UI.PlaylistIndex(id)) end
+  else UI.RemoveQueued(id) end
 end
 
 -- The + on a book's pill: the book (Voice.OpenBook) goes in as one item, its recorded pages in order, wherever you are
@@ -3731,7 +3887,7 @@ end
 function UI.DoQueueBook(book)
   local action = UI.QueueAction(book.id)
   if action == "stop" then return UI.StopAll() end
-  if action ~= "add" then return UI.PlaylistRemove(UI.PlaylistIndex(book.id)) end
+  if action ~= "add" then return UI.RemoveQueued(book.id) end
   if addItem({ id = book.id, label = book.title, book = book.stem, pages = book.pages }) then
     ns.Log.Use("pl", "book")
     if not (UI.frame and UI.frame:IsShown()) then
@@ -3875,7 +4031,7 @@ end
 function UI.QueueGroup(keys, label, exact)
   local zones, n = UI.engine.db.zones, 0
   local function add(k)
-    if UI.CanQueue(k) and not UI.PlaylistIndex(k) and UI.PlaylistAdd(k, nil, true) then n = n + 1 end
+    if UI.CanQueue(k) and not UI.QueuedIndex(k) and UI.PlaylistAdd(k, nil, true) then n = n + 1 end
   end
   for _, k in ipairs(keys or {}) do
     add(k)
@@ -4216,6 +4372,7 @@ function UI.RowTag(it, done, stopped)
   elseif it.how == "book" then tag = L["Book page"]
   elseif it.how == "recap" then tag = L["Storyline recap"]
   elseif it.how == "passage" then tag = L["New in the story"]
+  elseif it.how == "found" then tag = L["New page"]
   elseif not it.byItself then tag = L["Added by you"] end
   if not (it.outcome or done) then
     local len = ns.Voice.ClipLength(it.target and it.target.key or it.id)
@@ -4928,6 +5085,43 @@ function UI.CreatePlayer(parent, floating)
   return p
 end
 
+-- How far through the list's line you are, 0 to 1 (Mike's pick A, 11/11: the bar follows what you hear, and "2 of 3"
+-- carries the place in the list): the time it has played over its recording's length, from the pack whose file played
+-- (Voice.lastClip: a plain recording's length, a whole story's duration; a second voice filling in for a missing file
+-- has its own). nil when that pack gives no length (the bar stays empty rather than guess) or nothing of the list's is
+-- under way. When the list stops or holds, the bar keeps where that line was until a line starts, which starts from
+-- empty (Play starts it again).
+function UI.ListLineShare()
+  local pl = UI.pl
+  local cur = pl.items[pl.pos]
+  if not cur then return nil end
+  if UI.speaking and pl.state == "playing" then
+    -- (matched on what plays, as Voice's autoPlayingNow does: a quest you queued with +, the Chronicle's Listen and a
+    -- book's + have no target and an id that isn't their clip's; a story's passages play under the story's id)
+    local clip = ns.Voice.lastClip
+    local len = clip and (tonumber(clip.length) or tonumber(clip.duration))
+    local ours = clip and clip.id == UI.playingKey
+      and (UI.playingId == cur.id or (cur.target ~= nil and UI.playingKey == cur.target.key))
+    local share
+    if len and len > 0 and ours and type(clip.started) == "number" then
+      share = math.min(1, math.max(0, ((GetTime and GetTime() or 0) - clip.started) / len))
+    end
+    UI.lineBar = { item = cur, share = share }
+    return share
+  end
+  local kept = UI.lineBar
+  return kept and kept.item == cur and kept.share or nil
+end
+
+-- The bar under the title: `share` of the way along (0 to 1), or empty (nil).
+function UI.SetPlayerBar(p, share)
+  p.fill:SetShown(share ~= nil)
+  if share == nil then return end
+  local w = (tonumber(p:GetWidth()) or SIDE_W - 8) - 18
+  if p.mid then w = (tonumber(p.mid:GetWidth()) or 0) > 2 and tonumber(p.mid:GetWidth()) - 2 or w - 270 end
+  p.fill:SetWidth(math.max(1, w * math.min(1, math.max(0, share))))
+end
+
 -- Fill a player in from the playlist and what plays.
 local function updatePlayer(p)
   local pl, playing = UI.pl, UI.speaking
@@ -4952,7 +5146,8 @@ local function updatePlayer(p)
     local ours = pl.state == "playing" or pl.state == "waiting"
     title = (ours and GOLD or WHITE) .. esc(full) .. "|r"
     state = string.format(L["%d of %d"], pl.pos, n)
-    if not ours then state = L["Paused"] .. "  " .. state end
+    -- (the count carries the place in the list now the bar follows the line: a touch brighter. Mike's pick A, 11/11)
+    if not ours then state = L["Paused"] .. "  " .. state else state = WHITE .. state .. "|r" end
     if pl.state == "playing" then
       button, tip = transport and L["Pause"] or L["Stop"], transport and L["Pause your playlist"] or L["Stop narration"]
     else
@@ -5002,7 +5197,7 @@ local function updatePlayer(p)
     end
     p.status:SetShown(shown)
     -- The line carries the state; beside the buttons only the count (Design Lead, #3600).
-    if shown then state = n > 0 and string.format(L["%d of %d"], pl.pos, n) or "" end
+    if shown then state = n > 0 and (WHITE .. string.format(L["%d of %d"], pl.pos, n) .. "|r") or "" end
   else
     state = UI.QueueLine() or state
   end
@@ -5027,11 +5222,16 @@ local function updatePlayer(p)
   if p.prev.SetEnabled then p.prev:SetEnabled(list) end
   if p.next.SetEnabled then p.next:SetEnabled(list) end
   p.report:SetShown(settings().reportCross ~= false and UI.ReportableClip() ~= nil)
-  local w = (tonumber(p:GetWidth()) or SIDE_W - 8) - 18
-  if p.mid then w = (tonumber(p.mid:GetWidth()) or 0) > 2 and tonumber(p.mid:GetWidth()) - 2 or w - 270 end
-  p.fill:SetShown(transport ~= nil or (list and not oneOff))
-  if transport then p.fill:SetWidth(math.max(1, w * transport.offset / transport.duration))
-  elseif list then p.fill:SetWidth(math.max(1, w * pl.pos / n)) end
+  if transport then UI.SetPlayerBar(p, transport.offset / transport.duration)
+  else UI.SetPlayerBar(p, list and not oneOff and UI.ListLineShare() or nil) end
+end
+
+-- While a line from the list plays, the bar moves through it (watchPlayback's tick), without the rest of the player.
+function UI.MovePlayerBars()
+  local share = UI.ListLineShare()
+  for _, p in ipairs({ UI.dock or false, UI.mini or false }) do
+    if p and p:IsShown() then UI.SetPlayerBar(p, share) end
+  end
 end
 
 local function flashPlayer()
@@ -6314,7 +6514,7 @@ function UI.QueueLink(key, idx, deferStart)
   local e = key and UI.engine.db.entries[key]
   if not e then return end
   local label = idx and e.faq and e.faq[idx] and e.faq[idx].q or e.n
-  if UI.PlaylistIndex(idx and (faqID(key, idx)) or key) then
+  if UI.QueuedIndex(idx and (faqID(key, idx)) or key) then
     return note(string.format(L["%s is already in your playlist."], esc(label)))
   end
   if not UI.PlaylistAdd(key, idx, nil, deferStart) then note(string.format(L["%s isn't narrated yet."], esc(label))) end
