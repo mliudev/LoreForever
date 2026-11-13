@@ -1,0 +1,103 @@
+{
+ "key": "quest:94894",
+ "type": "quest",
+ "name": "The Twilight Threat",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94894
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Farholde seeks Stormwind's help against a sudden rise in Twilight's Hammer activity. You carry evidence to Bolvar Fordragon, though the Alliance has other wars to reckon with.",
+ "sections": [
+  {
+   "title": "Farholde's Plea",
+   "body": "Farholde's people turn to you after Lady Amberhall hears of your dealings with the Twilight's Hammer. Their campaign began to drive the Horde from their homeland, but cultist activity has sharply increased. They fear Stormwind will not answer their pleas before Farholde faces enemies on two fronts. You carry evidence to Bolvar Fordragon in Stormwind Keep.",
+   "spoiler": 0
+  },
+  {
+   "title": "Stormwind's Answer",
+   "body": "In Stormwind Keep, Bolvar Fordragon hears the warning from Farholde. He says the Alliance is already at war on a much wider scale and cannot spend its strength on one hamlet's private feud. More homes have been razed by the Horde than those in the Riverglades. Bolvar sees little hope that Brant will set aside his pride and bring his cavalry to the Alliance's aid.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for Stormwind's help?",
+   "aliases": [
+    "who wants help",
+    "farholde plea",
+    "who sent me"
+   ],
+   "answer": "Farholde asks Stormwind for help as Twilight's Hammer activity rises."
+  },
+  {
+   "q": "Why is Farholde worried?",
+   "aliases": [
+    "what's wrong in farholde",
+    "cultist problem",
+    "why worried"
+   ],
+   "answer": "Farholde fears it will be overwhelmed by enemies on two fronts if Stormwind does not hear its pleas."
+  },
+  {
+   "q": "What evidence do I carry?",
+   "aliases": [
+    "what evidence",
+    "kilgar head",
+    "head delivery"
+   ],
+   "answer": "You carry Kilgar's Head to Bolvar Fordragon in Stormwind Keep."
+  },
+  {
+   "q": "Who is Bolvar hearing from?",
+   "aliases": [
+    "who sent the news",
+    "farholde report",
+    "bolvar question"
+   ],
+   "answer": "Bolvar Fordragon receives news from Farholde, whose campaign began to remove the Horde from its homeland."
+  },
+  {
+   "q": "Why can't Stormwind support Farholde?",
+   "aliases": [
+    "why no help",
+    "stormwind support",
+    "bolvar refuses"
+   ],
+   "answer": "Bolvar says the Alliance is fighting on a much larger scale and lacks the resources to support Farholde's personal feud."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance adventurer, you carry Farholde's evidence to Bolvar Fordragon while its people seek aid against the Twilight's Hammer and the Horde."
+  }
+ ],
+ "keywords": [
+  "bolvar fordragon",
+  "brant",
+  "farholde",
+  "horde",
+  "kilgar",
+  "riverglades",
+  "stormwind keep",
+  "twilight's hammer"
+ ],
+ "related": [
+  "npc:bolvar-fordragon",
+  "topic:twilight-s-hammer",
+  "zone:riverglades",
+  "zone:stormwind",
+  "subzone:stormwind-keep",
+  "topic:alliance",
+  "topic:horde"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Twilight Threat"
+ ]
+}

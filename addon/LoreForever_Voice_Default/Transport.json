@@ -1407,9 +1407,9 @@
     "subzone:deathknell": {
       "1": [
         {
-          "duration": 81.39755102040817,
-          "file": "Audio/Transport/full_subzone_deathknell-2538cbaf59eef05cc097/1-0000.mp3",
-          "sha256": "6888ce5310b5efe783bac4b2f6aac762a7ed530ed66129b118ffc0de181b288a",
+          "duration": 104.0195918367347,
+          "file": "Audio/Transport/full_subzone_deathknell-85cf2efb7c65cc31e790/1-0000.mp3",
+          "sha256": "5dd27c553f62bb7c50edb491729e9ca1ac4ea15f3b1b8703589ddb7951906c5c",
           "start": 0
         }
       ],
@@ -1421,21 +1421,21 @@
         ]
       },
       "fullHash": "ad41f1",
-      "generation": "a48e8432a63d6859e70d",
+      "generation": "2ebb42478b479629df1b",
       "hash": "c4c1f2",
       "source": {
-        "duration": 81.423673,
+        "duration": 104.019592,
         "file": null,
-        "sha256": "2538cbaf59eef05cc097dce9c9c502d4d9c503190938077a7fbef4c92d5c99c9"
+        "sha256": "85cf2efb7c65cc31e7902fffc956eeb5d2bda5284494166621071ae4045b8894"
       },
       "text": "Deathknell. Deathknell is where the newly freed dead first wake, in a hidden valley of southwestern Tirisfal. They have broken from the Lich King's grasp, and here they join the Forsaken. But mindless Scourge, zealots and wild beasts beset the village. For anyone who would claim a place in Sylvanas Windrunner's kingdom, it is a harsh first trial. The valley lies behind jagged hills, just north of the Silverpine border. Elite Deathguards keep the narrow gorge out of the valley sealed. Most towns in Tirisfal kept their human names from fallen Lordaeron. This one did not. The undead who claimed it named it Deathknell.\n\nThe town itself is split in two. Its northern half is still overrun by mindless zombies and feral ghouls, the village forge with it. The Forsaken cling to the southern grounds, around the old church. There the caretakers take in each new arrival, and bring them into the Banshee Queen's service. Survival here is never certain. To the northwest, monstrous spiders have taken Night Web's Hollow, a gold mine the young Forsaken nation needs. To the southeast, the Scarlet Crusade keeps a camp, and watches the valley without rest. Its couriers run to the Crusade's strongholds in the east, and its scouts probe Deathknell's defenses. And in the northern ruins, the caretakers must still fight off the mindless dead."
     },
     "subzone:northshire-abbey": {
       "1": [
         {
-          "duration": 85.34204081632653,
-          "file": "Audio/Transport/full_subzone_northshire-abbey-df330ddd873ec6160959/1-0000.mp3",
-          "sha256": "c0adf555b7407e66a95b5ff9e20a85b8f1ad3538ca4400e12db857321b256c17",
+          "duration": 108.74775510204083,
+          "file": "Audio/Transport/full_subzone_northshire-abbey-7c088573edc945ced2f6/1-0000.mp3",
+          "sha256": "1e7b05db1bfb2ed94907bf1aca8fcd048df52a196676fcba4f0c15a2c81f94a3",
           "start": 0
         }
       ],
@@ -1447,12 +1447,12 @@
         ]
       },
       "fullHash": "94095a",
-      "generation": "14a75abdd83f787c06d8",
+      "generation": "1613e62a924cb47d7b08",
       "hash": "8ed36b",
       "source": {
-        "duration": 85.368163,
+        "duration": 108.773878,
         "file": null,
-        "sha256": "df330ddd873ec6160959252d3f5b4ba33922431a1d21da3934a7dce885c19868"
+        "sha256": "7c088573edc945ced2f6f454b88a423b354a558b5d9dec8caad3fe7e359d87d2"
       },
       "text": "Northshire Abbey. Northshire Abbey trains the kingdom's newest defenders, in the foothills of Northshire Valley. It is the spiritual heart of the Brotherhood of Northshire. And for those who answer Stormwind's call, few schools in the land are finer. It has been built twice. Centuries ago, clerics came south from Lordaeron to spread the Holy Light. They founded the Holy Order of Northshire Clerics, and they built its abbey. It soon became part of the life of the kingdom, caring for its sick. For years it tended the young Guardian Medivh, while he lay in his long coma.\n\nThen the First War came. Brigands and the Horde struck at the abbey again and again, until it lay in ruins. In the Second War, the Alliance of Lordaeron freed the region. Afterward, Archbishop Alonsus Faol helped to raise the abbey anew. And he refounded its protectors as the Brotherhood of Northshire. Today the abbey takes in volunteers, militia recruits and novices, all of them hoping to defend Stormwind. In its halls, instructors teach the martial, arcane and holy arts. Scouts and rogues train out in the yards. And the Knights of the Silver Hand keep watch over it all.\n\nBut the peace here is fragile. Kobolds have overrun the nearby mines, and wolves prowl the orchards. Agents of the Defias Brotherhood stalk the valley roads. Not even the abbey's archives are safe from them. They steal its ancient scrolls and sacred librams."
     },
@@ -4085,9 +4085,9 @@
     "zone:elwynn": {
       "1": [
         {
-          "duration": 69.66857142857143,
-          "file": "Audio/Transport/full_zone_elwynn-eb92a2db4ca7b9d4c39b/1-0000.mp3",
-          "sha256": "4f4b488a878b500d14300b6a741b351ddaeb6b87a08c09206b1848d3f0d38a48",
+          "duration": 93.17877551020409,
+          "file": "Audio/Transport/full_zone_elwynn-988c841d564077404415/1-0000.mp3",
+          "sha256": "d9901d24ae5096ed314f4b63e84ff8a0e92f38d81e4955868677378122fefcac",
           "start": 0
         }
       ],
@@ -4099,12 +4099,12 @@
         ]
       },
       "fullHash": "c188aa",
-      "generation": "89319d922db74b0a44e9",
+      "generation": "d59177cb29004f745f23",
       "hash": "9881e6",
       "source": {
-        "duration": 69.668571,
+        "duration": 93.204898,
         "file": null,
-        "sha256": "eb92a2db4ca7b9d4c39ba87b4c7e8049fc0d8e2d6181c691f0c65edac1996844"
+        "sha256": "988c841d564077404415128724241ecb13912c27f8539e05e0770dc441f76e40"
       },
       "text": "Elwynn Forest. Elwynn Forest is good green country, and Stormwind lives off its timber and gold, its fish and grain. It ought to be a peaceful place. But vermin, stray beasts and brigands roam the woods. So Northshire Abbey sends its recruits out to deal with them. The forest runs south from Stormwind's gates, all the way down to the Nazferiti River. It rains a good deal here, and the fields are the richer for it. Behind the fields grow thick hardwoods, and their timber goes to the capital. Carts roll up from Goldshire and the Eastvale Logging Camp, loaded with grain and livestock, lumber and raw copper. Elwynn breeds horses too, and knights and travelers all over the kingdom are glad to own a sturdy Evendale horse. But these are uneasy days. The Stormwind Army is busy far away, so the marshals and deputies must make do with recruits who have never been tested. Kobolds have overrun the Fargodeep and Jasperlode mines. Riverpaw gnolls prowl the southwestern borders, and murlocs have taken the shores of Stone Cairn Lake and Crystal Lake.\n\nEven the wolves are newcomers. They fled the corruption across the river in Duskwood, and came over into Elwynn."
     },
@@ -5504,6 +5504,27 @@
       2963,
       3179
     ],
+    "1e7b05db1bfb2ed94907bf1aca8fcd048df52a196676fcba4f0c15a2c81f94a3": [
+      147,
+      365,
+      537,
+      849,
+      1064,
+      1202,
+      1393,
+      1707,
+      1950,
+      2194,
+      2381,
+      2550,
+      2749,
+      2908,
+      3071,
+      3357,
+      3584,
+      3861,
+      3998
+    ],
     "1f8ad3e60f15f978fcc9a847c319ce34ece4bc5d6b3c558b69a45bcf90a89194": [
       170,
       316,
@@ -5904,18 +5925,6 @@
       1225,
       1385
     ],
-    "4f4b488a878b500d14300b6a741b351ddaeb6b87a08c09206b1848d3f0d38a48": [
-      273,
-      493,
-      642,
-      839,
-      979,
-      1436,
-      1694,
-      2019,
-      2156,
-      2428
-    ],
     "4f4e94cacf80134814a7a0b2f4843ffeb366e759856bc588583f7f18847de8dc": [
       307,
       717,
@@ -6089,6 +6098,24 @@
       2769,
       2932
     ],
+    "5dd27c553f62bb7c50edb491729e9ca1ac4ea15f3b1b8703589ddb7951906c5c": [
+      217,
+      354,
+      564,
+      777,
+      1041,
+      1428,
+      1644,
+      1818,
+      2006,
+      2225,
+      2422,
+      2769,
+      3083,
+      3228,
+      3382,
+      3630
+    ],
     "5f7c322dad4cb6ab5ab8125c18c4b3e5f7ef74bc2f40c4d204d26fb0b1b9ef84": [
       185,
       483,
@@ -6242,20 +6269,6 @@
       2847,
       3123,
       3333
-    ],
-    "6888ce5310b5efe783bac4b2f6aac762a7ed530ed66129b118ffc0de181b288a": [
-      243,
-      407,
-      558,
-      787,
-      971,
-      1290,
-      1452,
-      1781,
-      1927,
-      2136,
-      2511,
-      2713
     ],
     "6907d3191d938d8e4e5dbdcb78c025f7fdf800f9fb1d46e8a09489c714abfa43": [
       231,
@@ -7176,21 +7189,6 @@
       2194,
       2944
     ],
-    "c0adf555b7407e66a95b5ff9e20a85b8f1ad3538ca4400e12db857321b256c17": [
-      225,
-      525,
-      771,
-      937,
-      1256,
-      1519,
-      1676,
-      1837,
-      1981,
-      2227,
-      2413,
-      2740,
-      2910
-    ],
     "c81bd6b4994bdcb63f4259fba314a7216faee05afcc151a3fb9024498f9841a0": [
       218,
       419,
@@ -7356,6 +7354,24 @@
       2230,
       2381,
       2581
+    ],
+    "d9901d24ae5096ed314f4b63e84ff8a0e92f38d81e4955868677378122fefcac": [
+      189,
+      396,
+      646,
+      816,
+      1069,
+      1248,
+      1450,
+      1616,
+      1785,
+      2097,
+      2335,
+      2503,
+      2714,
+      2965,
+      3123,
+      3326
     ],
     "d9ae93047d759502402e64b7c256182628dfdda5ba25ef0d9de419aece2a39d8": [
       187,
@@ -7848,6 +7864,10 @@
       "2810": 3,
       "617": 1
     },
+    "1e7b05db1bfb2ed94907bf1aca8fcd048df52a196676fcba4f0c15a2c81f94a3": {
+      "2550": 2,
+      "849": 1
+    },
     "1f8ad3e60f15f978fcc9a847c319ce34ece4bc5d6b3c558b69a45bcf90a89194": {
       "316": 1,
       "931": 2
@@ -8027,6 +8047,10 @@
       "1789": 2,
       "628": 1
     },
+    "5dd27c553f62bb7c50edb491729e9ca1ac4ea15f3b1b8703589ddb7951906c5c": {
+      "1041": 1,
+      "2769": 2
+    },
     "5f7c322dad4cb6ab5ab8125c18c4b3e5f7ef74bc2f40c4d204d26fb0b1b9ef84": {
       "1957": 2,
       "3393": 3,
@@ -8067,10 +8091,6 @@
     "6884ba31db0bffb14ae187ff15d5b97ec6187003bda63b9bfbf04a96e8af5472": {
       "2179": 2,
       "839": 1
-    },
-    "6888ce5310b5efe783bac4b2f6aac762a7ed530ed66129b118ffc0de181b288a": {
-      "2136": 2,
-      "787": 1
     },
     "6907d3191d938d8e4e5dbdcb78c025f7fdf800f9fb1d46e8a09489c714abfa43": {
       "1140": 2,
@@ -8383,6 +8403,10 @@
       "1924": 3,
       "545": 1
     },
+    "d9901d24ae5096ed314f4b63e84ff8a0e92f38d81e4955868677378122fefcac": {
+      "2097": 2,
+      "816": 1
+    },
     "d9ae93047d759502402e64b7c256182628dfdda5ba25ef0d9de419aece2a39d8": {
       "1402": 2,
       "2716": 3,
@@ -8483,6 +8507,20 @@
   "pack": "LoreForever_Voice_Default",
   "rates": [
     "1"
+  ],
+  "retired": [
+    {
+      "file": "Audio/Transport/full_subzone_deathknell-2538cbaf59eef05cc097/1-0000.mp3",
+      "sha256": "6888ce5310b5efe783bac4b2f6aac762a7ed530ed66129b118ffc0de181b288a"
+    },
+    {
+      "file": "Audio/Transport/full_subzone_northshire-abbey-df330ddd873ec6160959/1-0000.mp3",
+      "sha256": "c0adf555b7407e66a95b5ff9e20a85b8f1ad3538ca4400e12db857321b256c17"
+    },
+    {
+      "file": "Audio/Transport/full_zone_elwynn-eb92a2db4ca7b9d4c39b/1-0000.mp3",
+      "sha256": "4f4b488a878b500d14300b6a741b351ddaeb6b87a08c09206b1848d3f0d38a48"
+    }
   ],
   "version": 1
 }

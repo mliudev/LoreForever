@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Zimmix Sputterspark is trapped in a cage after his zeppelin was shot down near Booty Bay. He asks you to bring him a key held by trolls at Zul'Kunda.",
+ "summary": "Zimmix Sputterspark is trapped in a troll cage after his zeppelin from Booty Bay was shot down. He asks you to bring him a key held by trolls at Zul'Kunda.",
  "sections": [
   {
-   "title": "A Crash Near Booty Bay",
-   "body": "Zimmix Sputterspark calls you over from his cage near Booty Bay. He had arranged for the bay to use its zeppelin tower for faster deliveries, but the first route ended with his craft shot down to the east. He survived the crash, then woke to find himself dragged away and locked up among trolls. Now he asks you to bring him the Primitive Key held by trolls at the Ruins of Zul'Kunda in Stranglethorn Vale.",
+   "title": "A Downed Zeppelin",
+   "body": "Zimmix Sputterspark calls you over from his cage among the trolls. He had arranged for Booty Bay to use its zeppelin tower for faster deliveries, but the first route ended with his craft shot down to the east. He survived the crash, then woke to find himself dragged away and locked up among trolls. Now he asks you to bring him the Primitive Key held by trolls at the Ruins of Zul'Kunda in Stranglethorn Vale.",
    "spoiler": 0
   },
   {
@@ -32,7 +32,7 @@
     "caged gnome",
     "zimix"
    ],
-   "answer": "Zimmix Sputterspark is trapped in a cage near Booty Bay after his zeppelin was shot down."
+   "answer": "Zimmix Sputterspark is caged by trolls. His zeppelin from Booty Bay was shot down on its first route."
   },
   {
    "q": "What happened to Zimmix's zeppelin?",

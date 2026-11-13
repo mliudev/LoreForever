@@ -2142,7 +2142,7 @@ P.transport["subzone:northshire-valley"] = {
   fullHash = "1f0519",
   text = "Northshire Valley. Northshire Valley, in the hills of northern Elwynn, is where Stormwind's newest defenders begin. Mountain ridges guard it on every side but one. At its heart stands the ancient abbey, with fertile vineyards and a rich mine close by. But bandits and kobolds trouble the valley now, and wolves prowl its quiet pastures. The only way out is the road south. It runs through a fortified gatehouse, on toward Goldshire and the rest of the forest. A clear river crosses the pastures and flows into Crystal Lake. In the abbey, recruits train under seasoned veterans and the Knights of the Silver Hand. With its vineyards and its mine, the valley has all it needs, far from the wars beyond its ridges. But even here, Stormwind's defenses are stretched thin. In the valley, Marshal McBride and his detachment of the Guard struggle to keep order. So the commanders here take on every able-bodied soul who reaches the gates. They need every one of them.\n\nWolves have come north out of darkened Duskwood. Kobolds have overrun the tunnels of Echo Ridge Mine. And masked thugs of the Defias Brotherhood harass the vineyards. They threaten even the abbey grounds.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_northshire-valley-35f2aae5599751be4aaf/1-0000.mp3", duration = 71.5232653, start = 0},
+    {file = "Audio/Transport/full_subzone_northshire-valley-ce054403709b0c3a7572/1-0000.mp3", duration = 93.1787755, start = 0},
   },
 }
 P.transport["subzone:northshire-vineyards"] = {
@@ -2510,7 +2510,7 @@ P.transport["subzone:southshore"] = {
   fullHash = "e3bd9c",
   text = "Southshore. In Hillsbrad, Southshore shelters the Alliance amid the ruins of Lordaeron. Once a quiet fishing village, the coastal port now faces the Forsaken at Tarren Mill, Syndicate bandits, and monsters along the shore. Refugee boats from the fallen kingdom of Stormwind first brought Southshore to prominence during the First War. The town was contested and overrun during the Second War, then rebuilt. It endured the horrors of the Third War as well.\n\nNow much of Lordaeron lies in ruins or under Forsaken rule, but Southshore remains loyal to the Grand Alliance. It shelters displaced human survivors, veteran paladins of the Silver Hand, and scholars of the Kirin Tor. Southshore's docks see the ship between Menethil Harbor and Auberdine, and the town is known for its turtle bisque. Yet life here is perilous. Magistrate Henry Maleb and Marshal Redpath lead the town as it faces pressure from every side.\n\nTo the north, the Forsaken of Tarren Mill fight a bitter border conflict for control of Hillsbrad. Inland, Syndicate outlaws raid supply lines and assassinate local leaders. Ogres, murlocs, and naga also harass the town's borders.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_southshore-044c58baffcee32c2792/1-0000.mp3", duration = 68.6236735, start = 0},
+    {file = "Audio/Transport/full_subzone_southshore-c76fea99a42fe3ef42fa/1-0000.mp3", duration = 73.2995918, start = 0},
   },
 }
 P.transport["subzone:splintertree-post"] = {

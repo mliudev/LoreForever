@@ -1,0 +1,85 @@
+{
+ "key": "quest:94532",
+ "type": "quest",
+ "name": "Gnoll Infestation",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94532
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Neza Bloodsnout at Rog'mar asks you to drive back gnolls in the hills to the southwest. Their presence disrupts trade and travel, though Twilight's encroachment has reduced their numbers.",
+ "sections": [
+  {
+   "title": "Gnolls in the Hills",
+   "body": "With their numbers diminished by Twilight's encroachment, Redridge gnolls still trouble the hills southwest of Rog'mar. Neza Bloodsnout asks you to clear a path for allies by removing the threat. Trade and travelers remain disrupted while the gnolls hold their ground.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are the gnolls a problem?",
+   "aliases": [
+    "gnolls disrupting trade",
+    "why clear gnolls",
+    "gnoll threat"
+   ],
+   "answer": "The gnolls in the hills southwest of Rog'mar disrupt trade and trouble travelers."
+  },
+  {
+   "q": "Where are the gnolls?",
+   "aliases": [
+    "gnoll hills",
+    "where are redridge gnolls"
+   ],
+   "answer": "They infest the hills to the southwest."
+  },
+  {
+   "q": "Who asks me to deal with them?",
+   "aliases": [
+    "who gave gnoll infestation",
+    "Neza quest"
+   ],
+   "answer": "Neza Bloodsnout at Rog'mar asks you to remove the gnoll threat."
+  },
+  {
+   "q": "Are there fewer gnolls now?",
+   "aliases": [
+    "gnoll numbers",
+    "twilight gnoll"
+   ],
+   "answer": "Yes. Their presence has dwindled with Twilight's encroachment, but the threat remains."
+  },
+  {
+   "q": "What kinds of gnolls are there?",
+   "aliases": [
+    "gnoll types",
+    "mystics trappers brutes"
+   ],
+   "answer": "The gnolls named are Redridge Mystics, Redridge Trappers, and Redridge Brutes."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brutes",
+  "gnoll infestation",
+  "gnolls",
+  "mystics",
+  "neza bloodsnout",
+  "redridge",
+  "rog'mar",
+  "trappers",
+  "twilight"
+ ],
+ "related": [
+  "topic:gnoll",
+  "quest:837"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Gnoll Infestation"
+ ]
+}

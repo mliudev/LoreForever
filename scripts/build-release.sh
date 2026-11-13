@@ -76,6 +76,7 @@ RELEASE_PACKS = ["LoreForever_Lang_deDE", "LoreForever_Lang_esES", "LoreForever_
                  "LoreForever_Lang_roRO", "LoreForever_Lang_svSE",
                  "LoreForever_Voice_Default_ukUA",
                  "LoreForever_Edition_Densuad_esES_Text", "LoreForever_Edition_Densuad_esES_Audio",
+                 "LoreForever_Edition_MasterZBlaze_nlNL_Text", "LoreForever_Edition_MasterZBlaze_nlNL_Audio",
                  "LoreForever_Voice_Default_Quests", "LoreForever_Voice_Female",
                  "LoreForever_Voice_Female_Alliance", "LoreForever_Voice_Female_Horde",
                  "LoreForever_Voice_Female_Quests", "LoreForever_Voice_QuestGivers",

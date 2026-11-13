@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A keeper at the Library in Ironforge welcomes magical works for its collection. Your contributions help its knowledge grow.",
+ "summary": "A library keeper welcomes magical works for the library's collection. Your contributions help its knowledge grow.",
  "sections": [
   {
    "title": "A Growing Collection",
-   "body": "The keeper thanks you as magical works join the Library in Ironforge. Each addition broadens the knowledge held there. The keeper welcomes more works that may benefit the collection.",
+   "body": "Each addition broadens the knowledge held there, and the keeper thanks you for it. More works that may benefit the collection are welcome.",
    "spoiler": 0
   }
  ],
@@ -36,7 +36,7 @@
     "ironforge library",
     "where is library"
    ],
-   "answer": "The collection belongs to the Library in Ironforge."
+   "answer": "No city is named. Books like this one go to Garion Wendell in Stormwind or Owen Thadd in Undercity."
   },
   {
    "q": "Why bring magical works?",
@@ -51,15 +51,12 @@
  "angles": [],
  "keywords": [
   "collection",
-  "ironforge",
   "knowledge",
   "library",
   "magical works",
   "rwl"
  ],
- "related": [
-  "subzone:library-ironforge"
- ],
+ "related": [],
  "style": 2,
  "attribution": [
   "In-game quest text: RwlRwlRwlRwl!"

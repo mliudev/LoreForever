@@ -933,7 +933,7 @@ function arrive()
   Strip.Glance()
 end
 
-local landingRetry = false
+local landingRetry, flew = false, false
 local function onArrival(_, event)
   Strip.TellHome()   -- out of a fight or an instance now, it can say so (LOR-688)
   if event == "PLAYER_REGEN_ENABLED" then
@@ -941,6 +941,7 @@ local function onArrival(_, event)
     return
   end
   if yes(try(UnitOnTaxi, "player")) then
+    flew = true
     -- Flying over towns is no arrival, and leaves inTown where they took off; the landing is. Control can come back
     -- a moment before the game says the flight is over: look again once.
     if event == "PLAYER_CONTROL_GAINED" and not landingRetry and C_Timer and C_Timer.After then
@@ -948,6 +949,11 @@ local function onArrival(_, event)
       C_Timer.After(1, function() landingRetry = false; onArrival(nil, "PLAYER_CONTROL_GAINED") end)
     end
     return
+  end
+  if event == "PLAYER_CONTROL_GAINED" and flew then
+    -- Landed: the town they took off from is behind them. Kept, it swallowed a landing in a capital, whose subzone is a
+    -- district and not a town: Lakeshire to Stormwind said nothing until the next question (LOR-1473).
+    flew, inTown = false, nil
   end
   if event == "ZONE_CHANGED" or event == "ZONE_CHANGED_INDOORS" or event == "PLAYER_CONTROL_GAINED" then
     -- Riding into a town's subzone: most towns' rest area is only their inn (Goldshire, Tarren Mill), so the game's

@@ -1,0 +1,77 @@
+{
+ "key": "quest:99257",
+ "type": "quest",
+ "name": "A Heart of Crystal",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   99257
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Historian Biraxas asks you to recover a Depleted Crystal Heart from a failing pylon protector. The remaining pylon guards may not endure forever.",
+ "sections": [
+  {
+   "title": "A Failing Guard",
+   "body": "Historian Biraxas, within the temple of Shen'dralas, asks you to bring him a Depleted Crystal Heart. The unstable rifts you encountered are precursors to the pylon guards, and Biraxas says his people have been unable to conjure more for centuries. He fears what may happen when the remaining guards fail.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the Crystal Heart?",
+   "aliases": [
+    "who wants the heart",
+    "Biraxas heart",
+    "historian request"
+   ],
+   "answer": "Historian Biraxas asks you to recover a Depleted Crystal Heart and bring it to him within the temple of Shen'dralas."
+  },
+  {
+   "q": "What is a Depleted Crystal Heart from?",
+   "aliases": [
+    "heart from what",
+    "pylon heart",
+    "crystal heart source"
+   ],
+   "answer": "It comes from a Decrepit Pylon Protector that is nearly on the verge of collapse."
+  },
+  {
+   "q": "Why does Biraxas want the heart?",
+   "aliases": [
+    "why heart needed",
+    "what Biraxas wants",
+    "pylon protector reason"
+   ],
+   "answer": "Biraxas says unstable rifts are precursors to pylon guards, and he worries because no more guards have been conjured for centuries."
+  },
+  {
+   "q": "Where do I bring the heart?",
+   "aliases": [
+    "where to take heart",
+    "bring it where",
+    "Biraxas location"
+   ],
+   "answer": "Bring the Depleted Crystal Heart to Historian Biraxas within the temple of Shen'dralas."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a heart of crystal",
+  "decrepit pylon protector",
+  "depleted crystal heart",
+  "historian biraxas",
+  "pylon guard",
+  "shen'dralas",
+  "unstable rifts"
+ ],
+ "related": [
+  "zone:shendralas"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Heart of Crystal"
+ ]
+}

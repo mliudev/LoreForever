@@ -2494,7 +2494,7 @@ P.transport["subzone:southshore-town-hall"] = {
   fullHash = "a5048e",
   text = "Southshore Town Hall. At Southshore Town Hall, Magistrate Henry Maleb directs the town’s affairs and defenses. It is one of Lordaeron’s last centers of civil authority as the Alliance struggles to hold ground in the plagued north. Southshore Town Hall keeps human rule alive amid Lordaeron’s ruin. Magistrate Henry Maleb governs from his office and works with officials such as Kundric Zanden to secure supplies and keep order. Undead press from nearby lands, Syndicate rogues threaten the region, and fierce skirmishes mark Hillsbrad’s border. From the hall, town leaders guide Southshore’s fight to survive.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_southshore-town-hall-a1ff071c48a398c27e0d/1-0000.mp3", duration = 38.5567347, start = 0},
+    {file = "Audio/Transport/full_subzone_southshore-town-hall-91b5185ca56bcc8a12f1/1-0000.mp3", duration = 38.5044898, start = 0},
   },
 }
 P.transport["subzone:southwind-village"] = {

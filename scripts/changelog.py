@@ -15,6 +15,10 @@ order. The stamp writes them into the version's section and deletes the fragment
                                     (whats-new.html next to it) and the newest version in header.js (the What's new dot)
   changelog.py addon NOTES_LUA      write the newest version's notes for the add-on's What's new card (Notes.lua),
                                     without the changes about plans, prices or Willo accounts (NOT_FOR_ADDON)
+  changelog.py merge-back VERSION SHIPPED BEFORE TARGET   a release branch's merge-back (release.sh): TARGET (main's
+                                    CHANGELOG.md) gets SHIPPED's "## VERSION" section verbatim, above its newest version,
+                                    and loses from its Unreleased the lines BEFORE (the release's, just before the stamp)
+                                    had there, each as many times as it had it. Once TARGET has the section, nothing
   changelog.py lint VERSION         check VERSION's notes (as `notes` finds them) read like changelog.d/README.md asks;
                                     exit 1 with what to fix. The notes pass runs it; release.sh only warns
 
@@ -91,6 +95,36 @@ def stamp(version: str) -> None:
                          + (body + "\n\n" if body else "") + (text[after.start():] if after else ""))
     for p in fragments():
         p.unlink()
+
+
+def merge_back(version: str, shipped: str, before: str, target: str) -> str:
+    """main's CHANGELOG.md (target) after a release that shipped from its own branch: the version's section as shipped,
+    and main's Unreleased without the lines that went out in it (by count: the nightly "Corrected lore in N entries."
+    repeats on different days), never matched against the stamped text, which the notes pass may have reworded."""
+    if any(v == version for v, _ in sections(target)):
+        return target
+    marks = list(HEADING.finditer(shipped))
+    i = next((k for k, m in enumerate(marks) if m.group(1) == version), None)
+    if i is None:
+        sys.exit(f"changelog: the shipped CHANGELOG.md has no '## {version}' section")
+    section = shipped[marks[i].start():marks[i + 1].start() if i + 1 < len(marks) else len(shipped)].rstrip() + "\n\n"
+    gone: dict[str, int] = {}
+    for line in dict(sections(before)).get("Unreleased", "").splitlines():
+        if line.strip():
+            gone[line.rstrip()] = gone.get(line.rstrip(), 0) + 1
+    head = re.search(r"^## Unreleased\b.*$", target, flags=re.M)
+    if not head:
+        sys.exit("changelog: main's CHANGELOG.md has no '## Unreleased' section")
+    after = HEADING.search(target, head.end())
+    kept = []
+    for line in target[head.end():after.start() if after else len(target)].splitlines():
+        if line.strip() and gone.get(line.rstrip(), 0) > 0:
+            gone[line.rstrip()] -= 1
+            continue
+        kept.append(line)
+    body = "\n".join(kept).strip()
+    return (target[:head.end()] + "\n\n" + (body + "\n\n" if body else "") + section
+            + (target[after.start():] if after else ""))
 
 
 def _bullets(body: str) -> list[str]:
@@ -288,6 +322,11 @@ def addon(notes_lua: Path) -> None:
 
 
 def main(argv: list[str]) -> int:
+    if len(argv) == 5 and argv[0] == "merge-back":
+        _, version, shipped, before, target = argv
+        text = merge_back(version, Path(shipped).read_text(), Path(before).read_text(), Path(target).read_text())
+        Path(target).write_text(text)
+        return 0
     if len(argv) != 2 or argv[0] not in ("notes", "stamp", "site", "addon", "lint"):
         print(__doc__, file=sys.stderr)
         return 2

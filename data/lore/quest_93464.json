@@ -1,0 +1,88 @@
+{
+ "key": "quest:93464",
+ "type": "quest",
+ "name": "The Visiting Mage",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93464
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A draenei at the Harborage asks you to seek Azore, a human mage in Desolace. His knowledge of draenethyst may help those who do not fully understand its power.",
+ "sections": [
+  {
+   "title": "A Mage Remembered",
+   "body": "At the Harborage, a draenei recalls driving Azore away when he came from Desolace. The human mage feared draenethyst's power and warned that it should not reach the wrong hands. Now his knowledge seems worth seeking, though the draenei admits that those here do not fully understand the crystal. You are asked to find Azore in Desolace.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Azore?",
+   "aliases": [
+    "azore who",
+    "visiting mage",
+    "draenethyst mage"
+   ],
+   "answer": "Azore is a human mage from Desolace who once came to the Harborage. He feared draenethyst's power."
+  },
+  {
+   "q": "What is draenethyst?",
+   "aliases": [
+    "draenethyst",
+    "draenei crystal",
+    "what's draenethyst"
+   ],
+   "answer": "Draenethyst is sacred to the draenei at the Harborage and helps keep them sane, though they do not fully understand it."
+  },
+  {
+   "q": "Why am I looking for Azore?",
+   "aliases": [
+    "find azore",
+    "why seek mage",
+    "mage in desolace"
+   ],
+   "answer": "The draenei at the Harborage believe Azore's knowledge of draenethyst could be valuable."
+  },
+  {
+   "q": "Where did Azore go?",
+   "aliases": [
+    "azore location",
+    "where's the mage",
+    "find visiting mage"
+   ],
+   "answer": "Azore is in Desolace."
+  },
+  {
+   "q": "Why did the draenei drive Azore away?",
+   "aliases": [
+    "why send azore away",
+    "azore kicked out",
+    "harborage mage"
+   ],
+   "answer": "They drove Azore away to protect what was theirs."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "azore",
+  "desolace",
+  "draenei",
+  "draenethyst",
+  "harborage",
+  "human mage"
+ ],
+ "related": [
+  "subzone:harborage",
+  "zone:desolace",
+  "topic:human",
+  "topic:mage"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Visiting Mage"
+ ]
+}

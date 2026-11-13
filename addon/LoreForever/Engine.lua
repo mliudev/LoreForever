@@ -596,6 +596,29 @@ local function unitWords(name)
   return " " .. table.concat(words, " ") .. " "
 end
 
+-- Entry keys by the game's own ids (pipeline/lore/game_ids.py), the same in every client language: what to try before
+-- a name. index is "npcId" (creature ids), "itemId" or "mapId" (uiMapIDs); kinds, when given, the entry types that
+-- count. nil for an id nothing has.
+function Engine:KeyForId(index, id, kinds)
+  local ids = type(id) == "number" and self.db.index[index]
+  local key = ids and ids[id]
+  local e = key and self.db.entries[key]
+  return e and (not kinds or kinds[e.t]) and key or nil
+end
+
+-- A unit GUID's creature id: "Creature-0-4372-0-12-197-0000123456" -> 197 (a vehicle's too). nil for players, pets,
+-- objects and anything else. The caller checks a GUID can be read at all (a secret one can't: Context.Usable).
+function Engine.CreatureID(guid)
+  if type(guid) ~= "string" then return nil end
+  local kind, id = guid:match("^(%a+)%-[^-]*%-[^-]*%-[^-]*%-[^-]*%-(%d+)%-")
+  return (kind == "Creature" or kind == "Vehicle") and tonumber(id) or nil
+end
+
+-- The person a unit GUID is, by its creature id.
+function Engine:KeyForGUID(guid)
+  return self:KeyForId("npcId", Engine.CreatureID(guid), { npc = true })
+end
+
 -- Entry key for a name seen in the game (NPC, zone, or a mob named after a lore topic).
 function Engine:KeyForName(name)
   if not name or name == "" then return nil end
@@ -633,6 +656,7 @@ function Engine:SubzoneKey(subzone, zone)
   if not subzone then return nil end
   local idx, sub = self.db.index, Engine.lower(subzone)
   local key = idx.name[sub] or idx.name[(sub:gsub("^the ", ""))]   -- "The Crossroads" is "Crossroads"
+  if not key and idx.areaClash and idx.areaClash[sub] then return self:ClashKey(idx.name, sub, zone) end
   local g = key and self.namesakes and self.namesakes[key]
   local zk = g and self:ZoneKey(zone)
   if not zk or self.db.entries[key].z == zk then return key end
@@ -642,10 +666,27 @@ function Engine:SubzoneKey(subzone, zone)
   return nil
 end
 
+-- A local area name the client uses for areas with different English names (Lang.ClientAreaNames, index.areaClash):
+-- the one whose entry lies in the zone you stand in, from index t (name or area); none when no zone decides.
+function Engine:ClashKey(t, name, zone)
+  local zk = self:ZoneKey(zone)
+  if not zk then return nil end
+  for _, en in ipairs(self.db.index.areaClash[name]) do
+    local k = t[en] or t[(en:gsub("^the ", ""))]
+    local e = k and self.db.entries[k]
+    if e and (e.z == zk or k == "zone:" .. zk) then return k end
+  end
+  return nil
+end
+
 -- The area page for a subzone inside it (Northshire Abbey -> Northshire Valley), only in that area's own zone (LOR-1364:
 -- Ironforge's Hall of Arms isn't the Hall of Arms in Northshire Abbey). With no zone to go on, by name alone.
 function Engine:AreaKey(subzone, zone)
-  local key = subzone and self.db.index.area and self.db.index.area[Engine.lower(subzone)]
+  local idx = self.db.index
+  local key = subzone and idx.area and idx.area[Engine.lower(subzone)]
+  if not key and subzone and idx.area and idx.areaClash and idx.areaClash[Engine.lower(subzone)] then
+    return self:ClashKey(idx.area, Engine.lower(subzone), zone)
+  end
   local e = key and self.db.entries[key]
   if not e or (zone and e.z and self:ZoneKey(zone) ~= e.z) then return nil end
   return key

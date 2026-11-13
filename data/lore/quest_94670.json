@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "The Bloodmaster's Ring challenge sends you against Buzzbeak for a chance at fame. The ring's master expects the fight to be easy.",
+ "summary": "The Bloodmaster's Ring challenge sends you against Buzzbeak for a chance at fame. The ring's goblin expects the fight to be easy.",
  "sections": [
   {
    "title": "Into the Ring",
-   "body": "The Bloodmaster puts Buzzbeak before you in the ring. You are told this first fight should be easy, though the fiend is said to bring down its foe and take their belongings. Fame is promised to those who enter.",
+   "body": "The ring's goblin puts Buzzbeak before you in the ring. You are told this first fight should be easy, though the fiend is said to bring down its foe and take their belongings. Fame is promised to those who enter.",
    "spoiler": 0
   }
  ],
@@ -45,7 +45,7 @@
     "bloodmaster fame",
     "why fight buzzbeak"
    ],
-   "answer": "The Bloodmaster promises fame for entering the ring."
+   "answer": "The ring's goblin promises fame for entering the ring."
   },
   {
    "q": "Is this fight meant to be easy?",
@@ -54,7 +54,7 @@
     "bloodmaster easy",
     "buzzbeak hard"
    ],
-   "answer": "The Bloodmaster presents this as an easy first fight."
+   "answer": "The ring's goblin presents this as an easy first fight."
   }
  ],
  "angles": [],

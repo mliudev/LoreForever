@@ -1,0 +1,93 @@
+{
+ "key": "quest:95798",
+ "type": "quest",
+ "name": "The Web of Magic",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95798
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A friend asks you to bring the I'lalai Fetish to Abra Cadabra in Dalaran. She is interested in troll magic and wants to examine it.",
+ "sections": [
+  {
+   "title": "A Fetish for Abra",
+   "body": "The I'lalai Fetish is meant for Abra Cadabra in Dalaran, where she can examine it. You are asked to carry it there, though the Kirin Tor may be particular about visitors to their city.",
+   "spoiler": 0
+  },
+  {
+   "title": "Abra's Findings",
+   "body": "Abra Cadabra finds several different magics pulling on the fetish, some of them in conflict. She warns that it could be dangerous in careless hands and says she will send her findings to Loremaster Dibbs.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Abra Cadabra?",
+   "aliases": [
+    "who is Abra",
+    "abra cadabra",
+    "Abra"
+   ],
+   "answer": "Abra Cadabra is a friend of the person who asks you to bring her the I'lalai Fetish. She is interested in troll practices and magic."
+  },
+  {
+   "q": "What is the I'lalai Fetish?",
+   "aliases": [
+    "what's the fetish",
+    "I'lalai thing",
+    "fetish"
+   ],
+   "answer": "The I'lalai Fetish is an object Abra Cadabra examines for its different and conflicting magics."
+  },
+  {
+   "q": "Why does Abra want to examine it?",
+   "aliases": [
+    "why Abra wants it",
+    "Abra interested",
+    "troll magic"
+   ],
+   "answer": "Abra is particularly interested in troll practices and magic, and the fetish is a discovery she can examine."
+  },
+  {
+   "q": "Where does the fetish need to go?",
+   "aliases": [
+    "where to take fetish",
+    "Dalaran delivery",
+    "Abra location"
+   ],
+   "answer": "You are asked to bring the I'lalai Fetish to Abra Cadabra in Dalaran."
+  },
+  {
+   "q": "Why might it be hard to enter Dalaran?",
+   "aliases": [
+    "getting into Dalaran",
+    "Kirin Tor entry",
+    "Dalaran access"
+   ],
+   "answer": "The Kirin Tor can be particular about who they allow into Dalaran, and you may need to earn their good graces."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "abra cadabra",
+  "conflicting magics",
+  "dalaran",
+  "i'lalai fetish",
+  "kirin tor",
+  "loremaster dibbs",
+  "troll magic"
+ ],
+ "related": [
+  "subzone:dalaran",
+  "topic:troll",
+  "quest:567"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Web of Magic"
+ ]
+}

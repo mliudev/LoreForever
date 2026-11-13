@@ -1,0 +1,71 @@
+{
+ "key": "quest:94618",
+ "type": "quest",
+ "name": "Wheeler's Fleeing Steeds",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94618
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Benjy asks you to find a horse that fled Wheeler's Grange after coyotes attacked. Feed it so it trusts you and can be led back.",
+ "sections": [
+  {
+   "title": "Fled from the Grange",
+   "body": "Benjy at Wheeler's Grange needs your help finding one of the horses that fled the coyote attack. Some horses were taken by coyotes, while others ran off in fear. Give a horse some feed so it will trust you and let you lead it back.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happened to the horses?",
+   "aliases": [
+    "horses at Wheeler's Grange",
+    "coyote attack horses"
+   ],
+   "answer": "Coyotes got most of the horses, while some fled from Wheeler's Grange in fear."
+  },
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who gave me this",
+    "Benjy horses"
+   ],
+   "answer": "Benjy asks you to find a horse that fled Wheeler's Grange."
+  },
+  {
+   "q": "What should I do with the feed?",
+   "aliases": [
+    "how to use the sack",
+    "feed horse"
+   ],
+   "answer": "Give some of the feed to a horse so it trusts you and can be led back."
+  },
+  {
+   "q": "Why are the horses being sought?",
+   "aliases": [
+    "why find horses",
+    "where did they go"
+   ],
+   "answer": "Benjy says the escaped horses should be found before the coyotes return."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "benjy",
+  "coyotes",
+  "feed",
+  "fled horses",
+  "horses",
+  "wheeler's fleeing steeds",
+  "wheeler's grange"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Wheeler's Fleeing Steeds"
+ ]
+}

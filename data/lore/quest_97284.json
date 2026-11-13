@@ -1,0 +1,95 @@
+{
+ "key": "quest:97284",
+ "type": "quest",
+ "name": "Vahlarriel's Vengeance",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   97284
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Vahlarriel asks you to strike the Burning Blade orcs at Thunder Axe Fortress. He fears they are ready for a fight and wants them to pay for their threat to Malem.",
+ "sections": [
+  {
+   "title": "A Score to Settle",
+   "body": "Vahlarriel Demonslayer at Nijel's Point expects the Burning Blade orcs to be ready for you. He would rather you keep out of their way, but suspects they will seek a fight. So he asks you to kill as many as you can at Thunder Axe Fortress, then return to him.",
+   "spoiler": 0
+  },
+  {
+   "title": "After the Attack",
+   "body": "When you return, Vahlarriel believes your attack may make the Burning Blade think twice before ransacking another caravan. He hopes they will stay behind their gates long enough to die out on their own.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to attack the Burning Blade?",
+   "aliases": [
+    "who is vahlarriel",
+    "vahlarriel vengeance",
+    "who wants the orcs dead"
+   ],
+   "answer": "Vahlarriel Demonslayer at Nijel's Point asks you to attack the Burning Blade at Thunder Axe Fortress."
+  },
+  {
+   "q": "Why does Vahlarriel want the Burning Blade attacked?",
+   "aliases": [
+    "why kill burning blade",
+    "why is vahlarriel angry",
+    "burning blade reason"
+   ],
+   "answer": "Vahlarriel suspects the orcs are ready to fight over Malem and wants them to pay for their threat."
+  },
+  {
+   "q": "Where are the Burning Blade orcs?",
+   "aliases": [
+    "where is thunder axe",
+    "burning blade location",
+    "orc fortress"
+   ],
+   "answer": "The Burning Blade orcs are at Thunder Axe Fortress in Desolace."
+  },
+  {
+   "q": "What does Vahlarriel fear the orcs will do?",
+   "aliases": [
+    "malem danger",
+    "will orcs fight",
+    "burning blade threat"
+   ],
+   "answer": "Vahlarriel suspects the orcs expect someone to search for Malem and will be ready for a fight."
+  },
+  {
+   "q": "What does Vahlarriel hope the attack will accomplish?",
+   "aliases": [
+    "why attack thunder axe",
+    "stop caravan raids",
+    "what does vahlarriel want"
+   ],
+   "answer": "Vahlarriel hopes the Burning Blade will think twice before ransacking another passing caravan."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "burning blade",
+  "caravan",
+  "desolace",
+  "malem",
+  "nijel's point",
+  "thunder axe fortress",
+  "vahlarriel",
+  "vahlarriel demonslayer"
+ ],
+ "related": [
+  "subzone:thunder-axe-fortress",
+  "subzone:nijel-s-point",
+  "zone:desolace",
+  "quest:1440"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Vahlarriel's Vengeance"
+ ]
+}

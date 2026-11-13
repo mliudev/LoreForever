@@ -1,0 +1,63 @@
+{
+ "key": "quest:8374",
+ "type": "quest",
+ "name": "Claiming Arathi Basin",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   8374
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "An Alliance Brigadier General outside Arathi Basin asks you to bring three Arathi Basin Marks of Honor. The marks are what the general requests from you.",
+ "sections": [],
+ "faq": [
+  {
+   "q": "Who asks for the marks?",
+   "aliases": [
+    "who wants marks",
+    "brigadier general"
+   ],
+   "answer": "An Alliance Brigadier General outside the battlegrounds asks you to bring three Arathi Basin Marks of Honor."
+  },
+  {
+   "q": "How many Marks of Honor are needed?",
+   "aliases": [
+    "how many marks",
+    "three marks"
+   ],
+   "answer": "The general asks you to bring three Arathi Basin Marks of Honor."
+  },
+  {
+   "q": "Where do I bring the marks?",
+   "aliases": [
+    "where to take marks",
+    "turn in marks"
+   ],
+   "answer": "Bring the marks to an Alliance Brigadier General outside the battlegrounds."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance member, you are asked to bring three Arathi Basin Marks of Honor to an Alliance Brigadier General."
+  }
+ ],
+ "keywords": [
+  "alliance",
+  "alliance brigadier general",
+  "arathi basin",
+  "claiming arathi basin",
+  "marks of honor"
+ ],
+ "related": [
+  "zone:arathibasin",
+  "topic:alliance"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Claiming Arathi Basin"
+ ]
+}

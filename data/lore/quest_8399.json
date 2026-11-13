@@ -11,7 +11,7 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "An Alliance Brigadier General outside Warsong Gulch asks you to bring three Marks of Honor. The marks are needed to answer the call to fight there.",
+ "summary": "An Alliance Brigadier General outside the battlegrounds asks you to bring three Marks of Honor. The marks are needed to answer the call to fight there.",
  "sections": [
   {
    "title": "The Brigadier's Request",
@@ -26,7 +26,7 @@
     "brigadier general marks",
     "what marks do i need"
    ],
-   "answer": "The Alliance Brigadier General outside Warsong Gulch asks you to bring three Marks of Honor."
+   "answer": "The Alliance Brigadier General outside the battlegrounds asks you to bring three Marks of Honor."
   },
   {
    "q": "Where do I bring the Marks of Honor?",
@@ -48,7 +48,7 @@
  "angles": [
   {
    "target": "faction:Alliance",
-   "text": "As an Alliance fighter, you are asked to bring Marks of Honor to an Alliance Brigadier General outside Warsong Gulch."
+   "text": "As an Alliance fighter, you are asked to bring Marks of Honor to an Alliance Brigadier General outside the battlegrounds."
   }
  ],
  "keywords": [

@@ -28,7 +28,8 @@ local Collection = {}
 ns.Collection = Collection
 
 local V = 1           -- the saved data's version
-local FILL = 1        -- the fill-in's version: raise it to run it again for every character (it only ever adds)
+local FILL = 2        -- the fill-in's version: raise it to run it again for every character (it only ever adds)
+                      -- 2: places, people and items by the game's ids and own names, for non-English games (11/13)
 local SLICE = 150     -- fill-in items per frame
 local PLACE_KINDS = { zone = true, city = true, dungeon = true, subzone = true }
 
@@ -38,7 +39,7 @@ local function try(fn, ...)
   if ok then return a, b, c end
 end
 local function usable(v) return ns.Context.Usable(v) and type(v) == "string" and v ~= "" end
-local function later(delay, fn) C_Timer.After(delay, function() pcall(fn) end) end
+local function later(delay, fn) C_Timer.After(delay, function() ns.Guard(fn) end) end
 local function entries() return ns.DB and ns.DB.entries or {} end
 local function lower(s) return ns.Engine.lower(s) end
 
@@ -138,7 +139,7 @@ function Collection.Find(key, how, t, lv, place, quest)
   if live and r.filled == FILL then
     r.new[key] = 1
     local rec = Collection.Found(key)
-    for _, fn in ipairs(listeners) do pcall(fn, key, rec) end
+    for _, fn in ipairs(listeners) do ns.Guard(fn, key, rec) end
   end
   return true
 end
@@ -170,6 +171,15 @@ end
 function Collection.NewCount() return #Collection.NewKeys() end
 
 -- Entry keys ------------------------------------------------------------------------------------------------------
+-- By the game's own ids first (ns.DB.index.npcId, itemId, mapId: pipeline/lore/game_ids.py), which are the same in
+-- every client language, then by name: the English names, plus the client's own names where Lang.lua has them (a
+-- language pack's, and every area's from the client itself). A German client without the German pack used to find
+-- quests (by id) and nothing else (11/13).
+
+-- The entry the game's id leads to, only when it's one of kinds (Engine:KeyForId).
+local function keyOfId(index, id, kinds)
+  return ns.engine and ns.engine:KeyForId(index, tonumber(id), kinds) or nil
+end
 
 -- A person's or place's entry for a name, only when it's that kind (names are shared: "Moonbrook" is a place, never
 -- a person).
@@ -204,6 +214,10 @@ local function personKey(unit)
   if not usable(name) or try(UnitIsPlayer, unit) then return nil end
   if unit == "target" and try(UnitPlayerControlled, unit) then return nil end
   if not ns.engine then return nil end
+  -- By the GUID's creature id; a GUID the game keeps secret (in combat, in an instance) can't be read: the name then.
+  local guid = try(UnitGUID, unit)
+  local byId = ns.Context.Usable(guid) and ns.engine:KeyForGUID(guid)
+  if byId then return byId end
   local key, how = ns.engine:KeyForName(name)
   local e = key and entries()[key]
   -- A person by name; a mob named after a lore topic ("Defias Trapper") finds the topic.
@@ -211,7 +225,10 @@ local function personKey(unit)
   return nil
 end
 
-function Collection.ItemKey(name) return keyOfKind(name, ITEM) end
+-- An item's entry by its item id when there is one, else by its name.
+function Collection.ItemKey(name, id) return keyOfId("itemId", id, ITEM) or keyOfKind(name, ITEM) end
+
+local function linkId(link) return type(link) == "string" and tonumber(link:match("item:(%d+)")) or nil end
 
 -- Every item in the bags with a story of its own.
 local function bagItemKeys()
@@ -219,12 +236,16 @@ local function bagItemKeys()
   for bag = 0, (NUM_BAG_SLOTS or 4) do
     local slots = (CC and try(CC.GetContainerNumSlots, bag)) or try(GetContainerNumSlots, bag) or 0
     for slot = 1, slots do
-      local link
+      local link, id
       local info = CC and try(CC.GetContainerItemInfo, bag, slot)
-      if type(info) == "table" then link = info.itemName or info.hyperlink
-      else link = try(GetContainerItemLink, bag, slot) end
+      if type(info) == "table" then
+        link, id = info.itemName or info.hyperlink, tonumber(info.itemID) or linkId(info.hyperlink)
+      else
+        link = try(GetContainerItemLink, bag, slot)
+        id = linkId(link) or (CC and try(CC.GetContainerItemID, bag, slot)) or try(GetContainerItemID, bag, slot)
+      end
       local name = type(link) == "string" and (link:match("%[(.-)%]") or link) or nil
-      local key = Collection.ItemKey(name)
+      local key = Collection.ItemKey(name, id)
       if key then
         out[#out + 1] = key
         local q = type(info) == "table" and info.quality or nil
@@ -244,6 +265,9 @@ end
 local function onPlace()
   if try(UnitOnTaxi, "player") then return end   -- flying over isn't a visit
   local p = ns.Context.Place()
+  -- The zone, city or dungeon by the map the game puts you on; then by the names (subzones have only names: Lang.lua
+  -- gives every area the client's own name too).
+  Collection.Find(keyOfId("mapId", _G.C_Map and try(C_Map.GetBestMapForUnit, "player"), PLACE_KINDS), "enter")
   for _, key in ipairs(placeKeys(p.zone, p.subzone)) do Collection.Find(key, "enter") end
 end
 
@@ -262,7 +286,7 @@ end
 -- An item under the mouse (Hooks.lua's tooltip calls it, whatever "Notes on item tooltips" says), with its item ID
 -- when the tooltip gives one (for its rarity).
 function Collection.OnItemTooltip(name, id)
-  local key = Collection.ItemKey(name)
+  local key = Collection.ItemKey(name, id)
   Collection.Find(key, "hover")
   if key and id then Collection.NoteQuality(key, select(3, try(GetItemInfo, id))) end
 end
@@ -401,12 +425,14 @@ function Collection.Fill(done)
   if not r or r.filled == FILL then if done then done() end return end
   local ok, items = pcall(fillList)
   if not ok then items = {} end
+  -- A character an older fill-in already ran for only gains what it missed: a page it has found keeps its record.
+  local refill = r.filled ~= nil
   local i = 1
   local function step()
     local last = math.min(i + SLICE - 1, #items)
     for n = i, last do
       local it = items[n]
-      Collection.Find(it[1], it[2], it[3], it[4], it[5])
+      if not (refill and r.found[it[1]]) then Collection.Find(it[1], it[2], it[3], it[4], it[5]) end
     end
     i = last + 1
     if i <= #items then
@@ -443,7 +469,7 @@ function Collection.Init()
     frame:SetScript("OnEvent", function(_, event, ...)
       if not store then return end
       local h = handlers[event]
-      if h then pcall(h, ...) end
+      if h then ns.Guard(h, ...) end   -- a broken handler is kept for /lore errors (Errors.lua)
     end)
   end
   later(3, function() Collection.Fill() end)

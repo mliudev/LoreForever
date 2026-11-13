@@ -5723,9 +5723,9 @@
     "quest:523": {
       "1": [
         {
-          "duration": 42.52734693877551,
-          "file": "Audio/Transport/full_quest_523-8f84bdd5438c1d2679e1/1-0000.mp3",
-          "sha256": "b76f9265e206ffae53566f01cbc7c1c1dba57716167a7a0c9f191356c1dc5c6d",
+          "duration": 42.605714285714285,
+          "file": "Audio/Transport/full_quest_523-17d29cf31b2f61cdd355/1-0000.mp3",
+          "sha256": "a708bfc042d5156d452b7df2f5724a83cbe651e1891a35cfa2acfe2aa379f769",
           "start": 0
         }
       ],
@@ -5737,21 +5737,21 @@
         ]
       },
       "fullHash": "863398",
-      "generation": "254b340fa39658fac3e3",
+      "generation": "377721b4d534d64e3ce1",
       "hash": "863398",
       "source": {
-        "duration": 42.553469,
+        "duration": 42.631837,
         "file": null,
-        "sha256": "8f84bdd5438c1d2679e17c87f8903965daca57c9c4a4a81975995386b7e8da6e"
+        "sha256": "17d29cf31b2f61cdd355fc86294208ea51d672521ef5ccdfe8ff92c2c41261cb"
       },
       "text": "Baron's Demise. In Southshore, Magistrate Henry Maleb seeks justice for the contract you recovered. Baron Vardus, a cold-hearted nobleman of old Alterac, signed it, and Maleb asks you to bring him his head. After Assassin's Contract, Magistrate Henry Maleb tells you Baron Vardus signed the contract. Vardus is a nobleman of old Alterac, known for his cold heart and brutal ways. Maleb is not surprised to find him behind it. Southshore will not let the baron send thugs against the town without answering for it.\n\nMaleb thinks Vardus may be among the Syndicate's haunts, in Strahnbrad's ruins or the valley north of them. He asks you to bring him the baron's head."
     },
     "quest:537": {
       "1": [
         {
-          "duration": 42.78857142857143,
-          "file": "Audio/Transport/full_quest_537-893d1dbc03a68a12cd46/1-0000.mp3",
-          "sha256": "924b2fc3176c2410df0bd6f348234a472e71da3c1cccc33117d657c42f8db834",
+          "duration": 43.46775510204082,
+          "file": "Audio/Transport/full_quest_537-023f6110d7881baa4472/1-0000.mp3",
+          "sha256": "aefbde2c21fb49e2ba484a38f6f9860d50b9fde3bd412e4243614f5fd70ab962",
           "start": 0
         }
       ],
@@ -5763,12 +5763,12 @@
         ]
       },
       "fullHash": "8c2b83",
-      "generation": "819054a633d7bac1590c",
+      "generation": "72337d4ab3a0101d72c4",
       "hash": "8c2b83",
       "source": {
-        "duration": 42.814694,
+        "duration": 43.467755,
         "file": null,
-        "sha256": "893d1dbc03a68a12cd4611429556cb3f26f7bd4f78e1997e07cb5b60d23ca721"
+        "sha256": "023f6110d7881baa4472686740bad1e810bdc3624e5fe7e0bba36fd6a90262e3"
       },
       "text": "Dark Council. In Southshore, Magistrate Henry Maleb weighs a letter naming Nagaz and the Argus Wake. He fears they may threaten the land if allied with the Syndicate, and sends you to hunt Nagaz and the Argus Shadow Mages in the Uplands. After Further Mysteries, Maleb tells you the letter came from Nagaz, who belongs to the Argus Wake. He does not know what the Argus Wake is, but fears an alliance with the Syndicate would make them a threat. So he wants Nagaz and the Argus Shadow Mages named in the letter found and killed. Bring him Nagaz’s head.\n\nSearch the Uplands, north of Strahnbrad, where the Syndicate is strongest. Maleb hopes the Argus Wake’s envoys are there."
     },
@@ -12219,14 +12219,6 @@
     "924a5facc65280b2b3b99c0e31beb9abe1c303d9ae6be4c36110ebdb61c35f89": [
       421
     ],
-    "924b2fc3176c2410df0bd6f348234a472e71da3c1cccc33117d657c42f8db834": [
-      220,
-      546,
-      802,
-      1043,
-      1241,
-      1443
-    ],
     "928394c3fc621a972ab5fd263d685d75fe0da37f4651c512d58f89bf0d31996a": [
       599
     ],
@@ -12476,6 +12468,13 @@
       800,
       1109
     ],
+    "a708bfc042d5156d452b7df2f5724a83cbe651e1891a35cfa2acfe2aa379f769": [
+      228,
+      508,
+      749,
+      953,
+      1264
+    ],
     "a7281441f55c5639e0c0a43bd279cf935e13e3b0ef14813f98c312c1efb2ade0": [
       560
     ],
@@ -12617,6 +12616,13 @@
       636,
       822,
       1065
+    ],
+    "aefbde2c21fb49e2ba484a38f6f9860d50b9fde3bd412e4243614f5fd70ab962": [
+      225,
+      532,
+      787,
+      1041,
+      1248
     ],
     "af29dd04b9068ec66fa9af3715aa02f92b8ecacd04e7113c2c7322db8681b59f": [
       581
@@ -12774,13 +12780,6 @@
       1681,
       1834,
       1968
-    ],
-    "b76f9265e206ffae53566f01cbc7c1c1dba57716167a7a0c9f191356c1dc5c6d": [
-      227,
-      516,
-      752,
-      962,
-      1266
     ],
     "b7dbb8b25686feaed5fb4a9d3b97951aeeb56e3caa9355ad11748a3f7892f1cc": [
       432,
@@ -14668,9 +14667,6 @@
       "1255": 2,
       "535": 1
     },
-    "924b2fc3176c2410df0bd6f348234a472e71da3c1cccc33117d657c42f8db834": {
-      "546": 1
-    },
     "96cb30a53196e4359e31230fd28f6c48a48190a1da5b16b5fb96f53bb4fb4aa1": {
       "467": 1
     },
@@ -14741,6 +14737,9 @@
     "a674d17225f6953b37a8c34e5833e46ca0d93e5e35394a0f3c32292db3c4c14b": {
       "397": 1
     },
+    "a708bfc042d5156d452b7df2f5724a83cbe651e1891a35cfa2acfe2aa379f769": {
+      "508": 1
+    },
     "a7335655dc37e9a9d408a376230bfa290094750618fd09dc0a5e8d8e8c931d2c": {
       "349": 1
     },
@@ -14793,6 +14792,9 @@
       "1065": 2,
       "315": 1
     },
+    "aefbde2c21fb49e2ba484a38f6f9860d50b9fde3bd412e4243614f5fd70ab962": {
+      "532": 1
+    },
     "af3539ff94d7fb9a73fd354cd07975288d57d97631e0460ea4e56a90b44a4235": {
       "1192": 2,
       "415": 1
@@ -14836,9 +14838,6 @@
     "b7358a63ccfdc2f294aefadc70b3b5871dda81e3921e8d5a2525ea10a20aa8d9": {
       "1681": 2,
       "540": 1
-    },
-    "b76f9265e206ffae53566f01cbc7c1c1dba57716167a7a0c9f191356c1dc5c6d": {
-      "516": 1
     },
     "b83467e70effbaeb4956d1b392c0b1c727fdd49a1bcd344111bdf8daa3bb82c2": {
       "431": 1

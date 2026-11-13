@@ -107,6 +107,13 @@ function Giver.Sex(unit)
   return type(sex) == "number" and sex or nil
 end
 
+-- UnitCreatureType's name ("Humanoid") for the unit, or nil. A secret one (in combat, an instance) isn't kept: it would
+-- throw where a Contribute code joins it, and can't be written to the save (Capture.lua keeps it with the lines it saves).
+function Giver.CreatureType(unit)
+  local ctype = call(_G.UnitCreatureType, unit)
+  return ns.Context.Usable(ctype) and type(ctype) == "string" and ctype or nil
+end
+
 -- { kind = "npc" | "object", id, name, sex (UnitSex), ctype (UnitCreatureType), model (file id), race, gender } for
 -- the unit ("npc": the quest or gossip window's), or nil for a player, a pet or no one. race (Giver.RaceOf's race
 -- file name) and gender come from the model when it's a player race's (gender from UnitSex first); model, race and
@@ -120,7 +127,7 @@ function Giver.Identify(unit)
   local who = { kind = kind, id = id, name = ns.Context.Usable(name) and type(name) == "string" and name or nil }
   if kind == "npc" then
     who.sex = Giver.Sex(unit)
-    who.ctype = call(_G.UnitCreatureType, unit)
+    who.ctype = Giver.CreatureType(unit)
     who.gender = GENDER[who.sex]
     Giver.ModelOf(unit, function(fileID)
       who.model = fileID

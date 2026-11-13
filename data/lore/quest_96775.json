@@ -1,0 +1,77 @@
+{
+ "key": "quest:96775",
+ "type": "quest",
+ "name": "Zum'rah's Head",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96775
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Mazu'kon asks you to hunt Zum'rah in Zul'Farrak, where the witch doctor practices his voodoo. He wants Zum'rah's head brought back to Mulgore.",
+ "sections": [
+  {
+   "title": "A Hunt in Tanaris",
+   "body": "Mazu'kon in Mulgore sends you south to Zul'Farrak, a Sandfury city in Tanaris. Zum'rah is a witch doctor who practices voodoo there, and Mazu'kon wants him slain. You are to bring the witch doctor's head back to Mulgore.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Zum'rah?",
+   "aliases": [
+    "zumrah who",
+    "witch doctor zumrah"
+   ],
+   "answer": "Zum'rah is a witch doctor who practices voodoo in the Sandfury city of Zul'Farrak."
+  },
+  {
+   "q": "Where can I find Zum'rah?",
+   "aliases": [
+    "zumrah location",
+    "where is zumrah"
+   ],
+   "answer": "Zum'rah is in Zul'Farrak, a Sandfury city in Tanaris."
+  },
+  {
+   "q": "Who asks me to hunt Zum'rah?",
+   "aliases": [
+    "mazukon quest",
+    "who wants zumrah dead"
+   ],
+   "answer": "Mazu'kon in Mulgore asks you to slay Zum'rah and bring back his head."
+  },
+  {
+   "q": "What does Mazu'kon want me to bring back?",
+   "aliases": [
+    "zumrah head",
+    "bring his head"
+   ],
+   "answer": "Mazu'kon wants you to bring him Zum'rah's head in Mulgore."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "head",
+  "mazu'kon",
+  "mulgore",
+  "sandfury",
+  "tanaris",
+  "witch doctor",
+  "zul'farrak",
+  "zum'rah"
+ ],
+ "related": [
+  "subzone:zul-farrak",
+  "zone:tanaris",
+  "zone:mulgore",
+  "quest:94768"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Zum'rah's Head"
+ ]
+}

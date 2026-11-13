@@ -1,0 +1,77 @@
+{
+ "key": "quest:95384",
+ "type": "quest",
+ "name": "Partial Mystical Notes",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95384
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A strange magical scroll bears symbols you cannot read, yet holds no force you sense as volatile. You take it to Dudd Fizzlescroll in Booty Bay, where he sees promise in its magic.",
+ "sections": [
+  {
+   "title": "Unread Symbols",
+   "body": "You find a magical scroll covered in strange symbols, but the language is beyond you. Its magic feels harmless enough, so you bring the partial scroll to Dudd Fizzlescroll in Booty Bay. He recognizes it as potent magic and plans to translate it for his records.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is on the scroll?",
+   "aliases": [
+    "what symbols",
+    "scroll writing",
+    "mystical notes"
+   ],
+   "answer": "The magical scroll bears strange symbols in a language you do not speak."
+  },
+  {
+   "q": "Does the scroll seem dangerous?",
+   "aliases": [
+    "is it volatile",
+    "is scroll dangerous",
+    "safe magic"
+   ],
+   "answer": "You sense no particularly volatile forces within the scroll."
+  },
+  {
+   "q": "Who wants the scroll?",
+   "aliases": [
+    "who takes it",
+    "Dudd Fizzlescroll",
+    "scroll collector"
+   ],
+   "answer": "Dudd Fizzlescroll in Booty Bay recognizes the scroll's magic and intends to translate it for his records."
+  },
+  {
+   "q": "Where do I bring the partial scroll?",
+   "aliases": [
+    "where to take scroll",
+    "Booty Bay scroll",
+    "scroll destination"
+   ],
+   "answer": "You bring the partial scroll to Dudd Fizzlescroll in Booty Bay."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "booty bay",
+  "dudd fizzlescroll",
+  "magical scroll",
+  "mystical magic",
+  "partial mystical notes",
+  "partial scroll",
+  "strange symbols"
+ ],
+ "related": [
+  "subzone:booty-bay"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Partial Mystical Notes"
+ ]
+}

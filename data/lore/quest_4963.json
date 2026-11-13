@@ -1,0 +1,70 @@
+{
+ "key": "quest:4963",
+ "type": "quest",
+ "name": "Shard of an Infernal",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4963
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Menara Voidrender in the Barrens needs you to use the Infus Emerald on an Infernal in Desolace. Bring her the emerald and the imprisoned spirit.",
+ "sections": [
+  {
+   "title": "An Infernal Spirit",
+   "body": "The spirit is the next thing Menara Voidrender asks you to bring back to the Barrens. In Desolace, use the Infus Emerald on one of the Infernals; afterward, return to Menara with both the emerald and the imprisoned spirit.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Menara want me to do?",
+   "aliases": [
+    "Menara's request",
+    "what do I do",
+    "Infus Emerald task"
+   ],
+   "answer": "Menara Voidrender asks you to use the Infus Emerald on an Infernal in Desolace, then bring her the emerald and the imprisoned spirit in the Barrens."
+  },
+  {
+   "q": "Where do I use the Infus Emerald?",
+   "aliases": [
+    "where emerald",
+    "Infernal location",
+    "Desolace Infernal"
+   ],
+   "answer": "Use the Infus Emerald on one of the Infernals found in Desolace."
+  },
+  {
+   "q": "What do I bring back to Menara?",
+   "aliases": [
+    "what to return",
+    "bring to Menara",
+    "imprisoned spirit"
+   ],
+   "answer": "Bring Menara Voidrender the Infus Emerald and the Imprisoned Infernal Spirit."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "barrens",
+  "desolace",
+  "imprisoned infernal spirit",
+  "infernal",
+  "infus emerald",
+  "menara voidrender",
+  "shard of an infernal"
+ ],
+ "related": [
+  "zone:desolace",
+  "npc:menara-voidrender",
+  "zone:barrens"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Shard of an Infernal"
+ ]
+}

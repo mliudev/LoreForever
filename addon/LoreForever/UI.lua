@@ -150,7 +150,7 @@ function UI.DoQueueAction(key, idx, deferStart)
   local id = idx and (faqID(key, idx)) or key
   local action = UI.QueueAction(id)
   if action == "add" then UI.QueueLink(key, idx, deferStart)   -- (a note if it can't go in after all: a quest Forever rewrote)
-  elseif action == "stop" then UI.StopAll()
+  elseif action == "stop" then UI.StopAll(true)
   else UI.RemoveQueued(id) end
 end
 
@@ -1552,8 +1552,40 @@ local function playbackStore()
   return LoreForeverDB.playback, who
 end
 
-function UI.SavePlayback()
-  UI.RememberProgress()
+-- A queue row as SavedVariables keep it: its plain fields and its pages, what of it was heard, and a quest giver's page
+-- as the window had it (it.target); not what only means something in this session (when it joined, the greeting it
+-- waited out, how often it was paused). nil: a row that can't come back (a book page: its book is closed after a
+-- /reload, Voice.OnBookClosed; one that stood in for an item's story, UI.TakePlace, brings that story back instead).
+local SESSION_ONLY = { at = true, notBefore = true, holdRestarts = true, pauses = true, paused = true,
+  windowClosed = true, outcome = true, why = true }
+local ROWS_MAX = 256   -- the most queue rows saved, and read back
+local function savedRow(it)
+  if it.how == "book" and it.byItself then return it.replaced and not it.started and savedRow(it.replaced) or nil end
+  local row = {}
+  for k, v in pairs(it) do
+    local kind = type(v)
+    if not SESSION_ONLY[k] and (kind == "string" or kind == "number" or kind == "boolean") then row[k] = v end
+  end
+  if type(it.pages) == "table" then
+    row.pages = {}
+    for i, p in ipairs(it.pages) do row.pages[i] = p end
+  end
+  if type(it.heard) == "table" then
+    row.heard = {}
+    for clip, yes in pairs(it.heard) do if type(clip) == "string" and yes == true then row.heard[clip] = true end end
+  end
+  if type(it.target) == "table" then
+    local t = it.target
+    row.target = { id = t.id, key = t.key, label = t.label, text = t.text, story = t.story }
+  end
+  return row
+end
+
+-- quick: keep what's saved up to date as the queue changes (UI.UpdateListen), without asking the sound where it is.
+-- SavedVariables reach the disk at a /reload, a logout or a disconnect, from whatever is in them then; a crash writes
+-- nothing, so what comes back after one is the queue as the last of those left it (LOR-1475).
+function UI.SavePlayback(quick)
+  if not quick then UI.RememberProgress() end
   local store, who = playbackStore()
   if not store then return end
   local progress, any = {}, false
@@ -1562,25 +1594,79 @@ function UI.SavePlayback()
   end
   local edition = ns.lang and ns.lang.edition
   if edition and not edition.unavailable and (#UI.pl.items > 0 or UI.activeTarget) then any = true end
-  if UI.miniClosed and #UI.pl.items > 0 then any = true end   -- keep the queue behind a closed player
-  if not any then store[who] = nil return end
-  local target = UI.resumeTarget or (edition and UI.activeTarget)
-  -- What you queued is kept; lines that came by themselves are this session's (a quest giver's words out of step after
-  -- a /reload).
-  local items, pos = {}, 0
-  for i, it in ipairs(UI.pl.items) do
-    if not it.byItself then
-      items[#items + 1] = it
-      if i <= UI.pl.pos then pos = #items end
+  -- The whole queue, what came by itself too, in its order and at its place (LOR-1475, Mike 11/12: "We need some way to
+  -- keep track of the previous narrations even on a game crash"); what already played behind it only if you added it
+  -- (Previous goes back to it).
+  -- At most ROWS_MAX rows (what RestorePlayback reads): from the row it's at on, then as many played ones behind it as fit.
+  local pl, behind, ahead, here = UI.pl, {}, {}, false
+  for i, it in ipairs(pl.items) do
+    if i < pl.pos then
+      local row = not it.byItself and savedRow(it)
+      if row then behind[#behind + 1] = row end
+    elseif #ahead < ROWS_MAX then
+      local row = savedRow(it)
+      if row then
+        ahead[#ahead + 1] = row
+        here = here or i == pl.pos
+      end
     end
   end
-  if #items > 0 then pos = math.max(pos, 1) end
+  -- Nothing kept from the row it's at on (the list ends with a book page reading at the /reload): no queue comes back,
+  -- so a story already heard behind it doesn't play again (the Architect's #3933 review, fix 1).
+  local items, pos = {}, 0
+  if #ahead > 0 then
+    for i = math.max(1, #behind - (ROWS_MAX - #ahead) + 1), #behind do items[#items + 1] = behind[i] end
+    pos = #items + 1
+    for _, row in ipairs(ahead) do items[#items + 1] = row end
+    any = true
+  end
+  if not any then store[who] = nil return end
+  local target = UI.resumeTarget or (edition and UI.activeTarget)
+  local paused = #items > 0 and UI.ListPaused()
+  local state = pl.state == "held" and pl.heldFrom or pl.state
   store[who] = { version = 1, edition = ns.Lang.EditionKey(), progress = progress, target = target and {
     id = target.id, key = target.key, label = target.label, story = target.story, text = target.text,
-    fromPlaylist = target.fromPlaylist }, items = items, pos = pos, closed = UI.miniClosed or nil }
+    fromPlaylist = target.fromPlaylist }, items = items, pos = pos, closed = UI.miniClosed or nil,
+    -- (stopped by you, it comes back stopped and takes what comes by itself at its end; playing at the row it's at, it
+    -- carries on after login; anything else comes back stopped as it always has: UI.RestorePlayback)
+    paused = paused or nil,
+    playing = not paused and here and (state == "playing" or state == "waiting") or nil }
 end
 
+-- Whether a saved queue row (savedRow) can come back: its fields what the queue expects of them.
+local ROW_HOW = { arrival = true, found = true, recap = true, passage = true, handin = true, newquest = true }
+local function restorableRow(it)
+  if type(it) ~= "table" or type(it.id) ~= "string" or type(it.label) ~= "string"
+      or (it.key ~= nil and type(it.key) ~= "string") then return false end
+  if it.pages ~= nil then
+    if type(it.pages) ~= "table" or #it.pages > 40 then return false end
+    if it.page ~= nil and (type(it.page) ~= "number" or it.page % 1 ~= 0 or it.page < 1 or it.page > #it.pages) then return false end
+    if it.book ~= nil then   -- a book's: page numbers
+      if type(it.book) ~= "string" then return false end
+      for _, page in ipairs(it.pages) do
+        if type(page) ~= "number" or page % 1 ~= 0 or page < 1 then return false end
+      end
+    else                     -- a quest giver's: which of its three pages
+      if type(it.quest) ~= "number" or #it.pages > 3 then return false end
+      for _, kind in ipairs(it.pages) do
+        if kind ~= "detail" and kind ~= "progress" and kind ~= "complete" then return false end
+      end
+    end
+  end
+  if it.heard ~= nil and type(it.heard) ~= "table" then return false end
+  if it.how ~= nil and not ROW_HOW[it.how] then return false end
+  local t = it.target
+  if t ~= nil and (type(t) ~= "table" or type(t.id) ~= "string" or type(t.key) ~= "string" or type(t.label) ~= "string"
+      or (t.text ~= nil and (type(t.text) ~= "string" or #t.text >= 65536))
+      or (t.story ~= nil and type(t.story) ~= "string")) then return false end
+  if (it.how == "handin" or it.how == "newquest") and (type(it.quest) ~= "number" or t == nil) then return false end
+  return true
+end
+
+local LOGIN_RESUME = 4   -- seconds after login before a queue that was playing carries on (an arrival's settle, about)
+
 function UI.RestorePlayback()
+  UI.restored = true   -- (from here on the saved queue follows the queue: UI.UpdateListen)
   local store, who = playbackStore()
   local saved = store and store[who]
   if type(saved) ~= "table" or saved.version ~= 1 or type(saved.progress) ~= "table" then return end
@@ -1604,34 +1690,30 @@ function UI.RestorePlayback()
     end
     UI.resumeTarget = target
   end
-  if type(saved.items) == "table" and #saved.items <= 256 and type(saved.pos) == "number"
+  if type(saved.items) == "table" and type(saved.pos) == "number"
       and saved.pos >= 1 and saved.pos <= #saved.items and saved.pos % 1 == 0 then
-    for _, it in ipairs(saved.items) do
-      if type(it) ~= "table" or type(it.id) ~= "string" or type(it.label) ~= "string"
-          or (it.key ~= nil and type(it.key) ~= "string") then return UI.UpdateNowPlaying() end
-      if it.pages ~= nil then
-        if type(it.pages) ~= "table" or #it.pages > 40 then return UI.UpdateNowPlaying() end
-        if it.page ~= nil and (type(it.page) ~= "number" or it.page % 1 ~= 0 or it.page < 1 or it.page > #it.pages) then return UI.UpdateNowPlaying() end
-        if it.book ~= nil then   -- a book's: page numbers
-          if type(it.book) ~= "string" then return UI.UpdateNowPlaying() end
-          for _, page in ipairs(it.pages) do
-            if type(page) ~= "number" or page % 1 ~= 0 or page < 1 then return UI.UpdateNowPlaying() end
-          end
-        else                     -- a quest giver's: which of its three pages
-          if type(it.quest) ~= "number" or #it.pages > 3 then return UI.UpdateNowPlaying() end
-          for _, kind in ipairs(it.pages) do
-            if kind ~= "detail" and kind ~= "progress" and kind ~= "complete" then return UI.UpdateNowPlaying() end
-          end
-        end
+    -- A row that can't be read is left out, the rest come back (it used to drop the whole queue); a save longer than
+    -- ROWS_MAX comes back as its first ROWS_MAX rows (one used to come back empty).
+    local items, pos, n = {}, nil, math.min(#saved.items, ROWS_MAX)
+    for i = 1, n do
+      local it = saved.items[i]
+      if restorableRow(it) then
+        items[#items + 1] = it
+        if i >= saved.pos and not pos then pos = #items end
+        local qid, kind
+        if it.target then qid, kind = it.target.key:match("^quest:(%d+)#(%a+)$") end
+        if qid then ns.Voice.QuestClip(tonumber(qid), kind, nil, true) end   -- (a quest giver's page: its recording)
+        if it.byItself then it.at = GetTime and GetTime() or 0 end   -- (its waits count from now: turnCheck)
       end
     end
-    local items, pos = saved.items, saved.pos
+    pos = pos or #items
     if ns.lang and ns.lang.edition then
       items, pos = {}, nil
-      for i, it in ipairs(saved.items) do
-        local base, original = it.id:match("^(.-)#faq(%d+)$")
+      for i = 1, n do
+        local it, base, original = saved.items[i], nil, nil
+        if restorableRow(it) then base, original = it.id:match("^(.-)#faq(%d+)$") end
         local idx = base and faqIndex(base, original)
-        local target = base and idx and UI.FaqTarget(base, idx) or (not base and UI.EntryTarget(it.id))
+        local target = restorableRow(it) and (base and idx and UI.FaqTarget(base, idx) or (not base and UI.EntryTarget(it.id)))
         if target and ns.Voice.HasAudio(target.key) and ns.Voice.CanPlay(target.key) then
           items[#items + 1] = { id = target.key, key = base or target.key, idx = idx, label = target.label }
           if i >= saved.pos and not pos then pos = #items end
@@ -1641,6 +1723,15 @@ function UI.RestorePlayback()
     end
     UI.pl.items, UI.pl.pos, UI.pl.state = items, pos, "paused"
     UI.PlaylistVoiceChanged()
+    -- Playing when it was saved, it carries on by itself once you're in the world, as it was (LOR-1475); stopped by you,
+    -- it stays stopped, and what comes by itself joins it (UI.Admit). (A save from before this has neither: stopped, as
+    -- it always came back.)
+    if saved.paused == true and UI.pl.items[UI.pl.pos] then
+      UI.pl.youPaused = true
+    elseif saved.playing == true and UI.pl.items[UI.pl.pos] then
+      UI.pl.state, UI.pl.gate = "waiting", true
+      C_Timer.After(LOGIN_RESUME, function() UI.Kick() end)
+    end
   end
   UI.UpdateNowPlaying()
 end
@@ -1821,7 +1912,7 @@ end
 function UI.ListenTo(target)
   if not target then return end
   local pl = UI.pl
-  if UI.IsPlayingTarget(target) then return UI.StopAll() end
+  if UI.IsPlayingTarget(target) then return UI.StopAll(true) end
   local cur = pl.items[pl.pos]
   -- A quest page's playlist item has its lore entry's id, but pressing Listen on that lore starts another recording.
   if cur and cur.id == target.id and not cur.pages then
@@ -1833,12 +1924,27 @@ function UI.ListenTo(target)
     -- (nothing to play: the playlist's clip plays on, if it's still going)
     if not startTarget(target) and wasPlaying then pl.state = UI.speaking and "playing" or "paused" end
   end
+  -- A quest giver's page you play by hand: its copy that came by itself and waits leaves, quietly (no double).
+  if UI.speaking and UI.playingKey == target.key and type(target.key) == "string" and target.key:match("^quest:%d+#") then
+    for j = #pl.items, math.max(pl.pos, 1), -1 do
+      local it = pl.items[j]
+      if it and it.target and it.target.key == target.key and not it.started
+          and not (j == pl.pos and pl.state == "playing") then
+        UI.LeaveQueue(it, L["already heard"], true)
+      end
+    end
+  end
   UI.UpdateListen()
 end
 
 -- Stop any narration, whatever started it. A playlist pauses at the item it was on. A whole recording played by hand
 -- (no saved position) is remembered so Shift-click can play it again (UI.ResumeStopped).
-function UI.StopAll()
+-- byYou: the player's own Stop or pause. On a list with more to play than a lone line that came by itself, it's the
+-- player's pause (pl.youPaused): what comes by itself then joins its end and waits (UI.Admit, LOR-1475).
+function UI.StopAll(byYou)
+  local pl = UI.pl
+  local cur = pl.items[pl.pos]
+  if byYou and cur and pl.state ~= "paused" and (pl.items[pl.pos + 1] or not cur.byItself) then pl.youPaused = true end
   UI.pl.heldSolo, UI.pl.heldFrom = nil, nil   -- Stop during a hold wins: nothing carries on when it ends (UI.Release)
   UI.RememberProgress()
   local t = UI.activeTarget
@@ -1923,6 +2029,9 @@ end
 function UI.UpdateListen()
   if ns.Voice.previewing and not ns.Voice.CanPlay(ns.Voice.previewClip) then ns.Voice.StopPreview() end
   if UI.speaking and UI.playingKey and not ns.Voice.CanPlay(UI.playingKey) then return UI.StopAll() end
+  -- The saved queue follows every change, so whatever writes SavedVariables next (a /reload, a logout, a disconnect)
+  -- has it as it is (LOR-1475). Not before the saved one came back: that would wipe it.
+  if UI.restored then UI.SavePlayback(true) end
   UI.UpdateNowPlaying()
   if UI.completion and UI.completion:IsShown() then UI.LayoutCompletion() end
   if ns.Page and ns.Page.UpdateListen then ns.Page.UpdateListen() end
@@ -3217,6 +3326,17 @@ end
 -- only what came by itself (the Design Lead, 11/11: someone who presses Listen in a dungeon meant it).
 local function held() return next(UI.pl.holds) ~= nil end
 
+-- Whether you paused the list and it has rows still to play: stopped there, or stopped behind what speaks now (a quest
+-- giver you clicked, a story you asked to hear next: pl.holdAt), or a hold over it began while it was stopped. Only your
+-- own pause or Stop counts (pl.youPaused, UI.StopAll): a start that failed, or Stop on a lone line that came by itself,
+-- leaves the list as it always has been (the Architect's #3933 review, fix 2).
+function UI.ListPaused()
+  local pl = UI.pl
+  if not (pl.youPaused and pl.items[pl.pos]) then return false end
+  if pl.holdAt then return true end
+  return pl.state == "paused" or (pl.state == "held" and pl.heldFrom == "paused")
+end
+
 -- The entry key and FAQ index behind a play target ("zone:elwynn#faq2" -> "zone:elwynn", 2), or nil for targets
 -- that aren't a recorded story or answer (read-aloud answers have no key). A story's target names its entry (story):
 -- a quest's plays its quest giver's words, under another key.
@@ -3385,7 +3505,11 @@ local function playCurrent(byHand)
   end
   if not it then return UI.PlaylistClear() end
   pl.token = nil
-  if byHand then pl.holdAt = nil end   -- you pressed Play or Next: the whole queue goes on (UI.PlayNext)
+  if byHand then pl.holdAt, pl.youPaused = nil, nil end   -- you pressed Play or Next: the whole queue goes on (UI.PlayNext)
+  -- A line you played by hand is yours from then on, as one that joined while you'd paused (it.kept): a quest giver
+  -- who cuts in doesn't make it leave for where you are (LOR-1475, for LOR-1480: Mike 02:08, Play pressed in Darnassus
+  -- on a stopped list, a hand-in cut in, and the story left "you left").
+  if byHand and it.byItself then it.kept = true end
   -- Recorded narrations only (the voice may have changed since it was queued: then it has nothing to play).
   local target = itemTarget(it, byHand)
   if not target and not byHand and it.started and restHeard(it, it.page or 1) then
@@ -3593,6 +3717,17 @@ function UI.Admit(it)
   it.byItself, it.at = true, it.at or clock()
   UI.miniClosed = nil   -- (joining the queue brings a closed player back, as addItem)
   local quest = questLine(it)
+  -- One queue (LOR-1475; Mike's stream 11/12, 23:07: "When I paused the player and then I went to an area that had a
+  -- narration I didn't hear, it started its own queue... And then at the end, my previous queue is still waiting"). With
+  -- the list paused, nothing starts by itself but a quest giver you clicked or a book you opened: a story joins the end
+  -- and waits for your Play, wherever you are by then (it.kept: Voice.LineCheck).
+  if not quest and it.how ~= "book" and UI.ListPaused() then
+    it.kept = true
+    pl.items[#pl.items + 1] = it
+    UI.FlashPlayer()
+    UI.UpdateListen()
+    return true
+  end
   if #pl.items == 0 then
     pl.items[1], pl.pos = it, 1
     if held() then pl.state, pl.heldFrom = "held", "playing"
@@ -3654,12 +3789,12 @@ function UI.QueuedLine(id)
   if i and i >= UI.pl.pos then return UI.pl.items[i], i end
 end
 
--- The same quest's next page (progress, then complete), or a book's next page as you turn it, takes the place of its
--- page that plays now. Returns true if it did.
+-- A book's next page as you turn it takes the place of its page that plays now. Returns true if it did. (A quest's next
+-- page never does: Continue queues it behind the one speaking, LOR-1480.)
 function UI.ReplaceCurrent(it)
   local pl = UI.pl
   local cur = pl.items[pl.pos]
-  local same = cur and ((questLine(cur) and questLine(it) and cur.quest == it.quest) or (cur.how == "book" and it.how == "book"))
+  local same = cur and cur.how == "book" and it.how == "book"
   if not (pl.state == "playing" and UI.speaking and same) then
     return false
   end
@@ -3687,7 +3822,8 @@ function UI.TakePlace(it)
         goTo(pl.pos, true)
         playCurrent()
       else
-        pl.items[j] = it   -- (it hadn't begun: its page in the book still plays it)
+        it.replaced = row   -- (it hadn't begun: closing the book before the reading's turn brings it back)
+        pl.items[j] = it
       end
       UI.UpdateListen()
       return true
@@ -3878,7 +4014,7 @@ function UI.DoQueueQuest(qid, title, page)
   local id = UI.QuestItemId(qid)
   local action = UI.QueueAction(id)
   if action == "add" then UI.QueueQuest(qid, title, page)
-  elseif action == "stop" then UI.StopAll()
+  elseif action == "stop" then UI.StopAll(true)
   else UI.RemoveQueued(id) end
 end
 
@@ -3886,7 +4022,7 @@ end
 -- in it; takes it out again, or stops it while it plays. A book plays on with its window closed, as a playlist does.
 function UI.DoQueueBook(book)
   local action = UI.QueueAction(book.id)
-  if action == "stop" then return UI.StopAll() end
+  if action == "stop" then return UI.StopAll(true) end
   if action ~= "add" then return UI.RemoveQueued(book.id) end
   if addItem({ id = book.id, label = book.title, book = book.stem, pages = book.pages }) then
     ns.Log.Use("pl", "book")
@@ -3925,7 +4061,7 @@ function UI.PlayQuestDialogue(qid)
   local id = key or ("quest:" .. qid)
   local cur = pl.items[pl.pos]
   if UI.speaking and UI.playingId == id and cur and cur.id == id and cur.pages and cur.asked then
-    UI.StopAll()
+    UI.StopAll(true)
     return true
   end
   local it = questItem(qid, nil, key, true)
@@ -3944,18 +4080,10 @@ function UI.PlayQuestDialogue(qid)
 end
 
 -- Flight narration: a zone's recorded story joins the playlist instead of cutting into what's playing, so zones
--- crossed quickly play one after another. If the playlist was stopped partway, the zone story goes in at that
--- place and plays now (you turned flight narration on), and your list carries on after it.
+-- crossed quickly play one after another. If you paused the list, it joins the end and waits for your Play, as
+-- everything that comes by itself does then (one queue: LOR-1475, UI.Admit).
 function UI.PlaylistAddFlight(key)
-  local pl = UI.pl
   if not UI.CanQueue(key) or UI.PlaylistIndex(key) then return false end
-  -- A flight's item says so before it can start (it may start at once): it starts by itself (LOR-420, startTarget).
-  if #pl.items > 0 and pl.state == "paused" and not UI.IsBusy() then
-    table.insert(pl.items, pl.pos, { id = key, key = key, label = UI.engine.db.entries[key].n, flight = true })
-    UI.FlashPlayer()
-    playCurrent()
-    return true
-  end
   local it = newItem(key)
   if it then it.flight = true end
   return addItem(it)
@@ -4054,7 +4182,7 @@ end
 -- replacing anything played by hand. Returns false with nothing queued.
 function UI.PlaylistToggle()
   if #UI.pl.items == 0 then return false end
-  if UI.pl.state == "playing" then UI.StopAll() else ns.Log.Use("pl", "play"); playCurrent(true) end
+  if UI.pl.state == "playing" then UI.StopAll(true) else ns.Log.Use("pl", "play"); playCurrent(true) end
   return true
 end
 
@@ -4108,7 +4236,7 @@ function UI.PlaylistClear()
   end
   if UI.activeTarget and UI.activeTarget.fromPlaylist then UI.activeTarget = nil end
   pl.items, pl.pos, pl.state, pl.token, pl.holdAt, pl.heldFrom, pl.heldSolo = {}, 0, "paused", nil, nil, nil, nil
-  pl.gate = nil
+  pl.gate, pl.youPaused = nil, nil
   UI.UpdateListen()
 end
 
@@ -4604,7 +4732,7 @@ end
 --   nothing queued             play everything narrated where you are, else the area's story if it's narrated
 function UI.PlayerPlay()
   local pl = UI.pl
-  if UI.speaking and pl.state ~= "playing" then return UI.StopAll() end
+  if UI.speaking and pl.state ~= "playing" then return UI.StopAll(true) end
   if UI.ResumeStopped() then return end
   if UI.PlaylistToggle() then return end
   if UI.QueueHere() > 0 then return end

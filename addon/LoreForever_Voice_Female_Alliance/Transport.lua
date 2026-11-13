@@ -2510,7 +2510,7 @@ P.transport["subzone:southshore"] = {
   fullHash = "e3bd9c",
   text = "Southshore. In Hillsbrad, Southshore shelters the Alliance amid the ruins of Lordaeron. Once a quiet fishing village, the coastal port now faces the Forsaken at Tarren Mill, Syndicate bandits, and monsters along the shore. Refugee boats from the fallen kingdom of Stormwind first brought Southshore to prominence during the First War. The town was contested and overrun during the Second War, then rebuilt. It endured the horrors of the Third War as well.\n\nNow much of Lordaeron lies in ruins or under Forsaken rule, but Southshore remains loyal to the Grand Alliance. It shelters displaced human survivors, veteran paladins of the Silver Hand, and scholars of the Kirin Tor. Southshore's docks see the ship between Menethil Harbor and Auberdine, and the town is known for its turtle bisque. Yet life here is perilous. Magistrate Henry Maleb and Marshal Redpath lead the town as it faces pressure from every side.\n\nTo the north, the Forsaken of Tarren Mill fight a bitter border conflict for control of Hillsbrad. Inland, Syndicate outlaws raid supply lines and assassinate local leaders. Ogres, murlocs, and naga also harass the town's borders.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_southshore-686573ae6c9d935d7f90/1-0000.mp3", duration = 77.6097959, start = 0},
+    {file = "Audio/Transport/full_subzone_southshore-1689b294b947763b43ee/1-0000.mp3", duration = 75.9118367, start = 0},
   },
 }
 P.transport["subzone:splintertree-post"] = {

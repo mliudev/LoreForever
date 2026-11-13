@@ -1,0 +1,81 @@
+{
+ "key": "quest:2861",
+ "type": "quest",
+ "name": "Tabetha's Task",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2861
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Tabetha, a mage in Dustwallow Marsh, may know more about a rumor involving a sand troll in Zul'Farrak. You are asked to speak with her at her cottage.",
+ "sections": [
+  {
+   "title": "A Mage in the Marsh",
+   "body": "A rumor brings you to Tabetha, a mage who lives in Dustwallow Marsh. She may tell you more about her quarrel with a sand troll in Zul'Farrak. Her cottage lies west of Theramore and north of the Stonemaul Ruin, and you are urged to bring friends in case she sends you onward.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tabetha?",
+   "aliases": [
+    "tabetha",
+    "mage in dustwallow",
+    "who is tabetha"
+   ],
+   "answer": "Tabetha is a mage who lives in Dustwallow Marsh."
+  },
+  {
+   "q": "Why am I looking for Tabetha?",
+   "aliases": [
+    "tabetha task",
+    "tabetha quest",
+    "why find tabetha"
+   ],
+   "answer": "A rumor says Tabetha has a quarrel with a sand troll in Zul'Farrak, and she may tell you more."
+  },
+  {
+   "q": "Where is Tabetha's cottage?",
+   "aliases": [
+    "tabetha location",
+    "where tabetha",
+    "tabetha cottage"
+   ],
+   "answer": "Tabetha's cottage is west of Theramore and north of the Stonemaul Ruin."
+  },
+  {
+   "q": "Why should I bring friends?",
+   "aliases": [
+    "bring friends tabetha",
+    "tabetha alone",
+    "zul farrak friends"
+   ],
+   "answer": "You are advised to bring friends in case Tabetha sends you to Zul'Farrak."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "dustwallow marsh",
+  "mage",
+  "sand troll",
+  "stonemaul ruin",
+  "tabetha",
+  "theramore",
+  "zul'farrak"
+ ],
+ "related": [
+  "npc:tabetha",
+  "zone:dustwallow",
+  "subzone:zul-farrak",
+  "topic:mage",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Tabetha's Task"
+ ]
+}

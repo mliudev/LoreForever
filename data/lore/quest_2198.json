@@ -1,0 +1,65 @@
+{
+ "key": "quest:2198",
+ "type": "quest",
+ "name": "The Shattered Necklace",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2198
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A broken necklace may be worth something, and you are asked to find its maker. Learning who created it could reveal its value.",
+ "sections": [
+  {
+   "title": "A Maker to Find",
+   "body": "Someone wants to learn what the shattered necklace may be worth. You are asked to seek out its original creator, whose identity may help establish its value.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why am I looking for the necklace's creator?",
+   "aliases": [
+    "necklace maker",
+    "why find creator",
+    "shattered necklace value"
+   ],
+   "answer": "Finding the original creator may help reveal the shattered necklace's potential value."
+  },
+  {
+   "q": "What am I supposed to learn?",
+   "aliases": [
+    "what to find out",
+    "necklace worth",
+    "what's the goal"
+   ],
+   "answer": "You are asked to identify the necklace's original creator and learn about its potential value."
+  },
+  {
+   "q": "Is the necklace valuable?",
+   "aliases": [
+    "necklace worth anything",
+    "value of necklace",
+    "is it worth much"
+   ],
+   "answer": "Its potential value is unknown; you are asked to seek its original creator to learn more."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "creator",
+  "maker",
+  "necklace",
+  "original creator",
+  "shattered necklace",
+  "value"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Shattered Necklace"
+ ]
+}

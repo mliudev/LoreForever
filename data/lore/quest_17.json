@@ -1,0 +1,84 @@
+{
+ "key": "quest:17",
+ "type": "quest",
+ "name": "Uldaman Reagent Run",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   17
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Ghak Healtouch asks you to gather magenta fungus caps from Uldaman for his alchemical study. He plans to make you a greater mender's potion in return.",
+ "sections": [
+  {
+   "title": "A New Fungus",
+   "body": "Ghak Healtouch in Thelsamar has heard of magenta fungus caps growing in clusters deep in the Uldaman dig site. He wants to study their possible use in alchemy, and asks you to bring him a dozen caps. The clusters may release poisonous spores if disturbed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the magenta fungus caps?",
+   "aliases": [
+    "who asked for the caps",
+    "Ghak's fungus request"
+   ],
+   "answer": "Ghak Healtouch in Thelsamar asks you to bring him a dozen magenta fungus caps for alchemical study."
+  },
+  {
+   "q": "Where do magenta fungus caps grow?",
+   "aliases": [
+    "where are the fungus caps",
+    "magenta caps location"
+   ],
+   "answer": "The known clusters grow deep in the Uldaman dig site. Ghak has heard they may grow elsewhere, but Uldaman is the only place he knows."
+  },
+  {
+   "q": "Why does Ghak want the caps?",
+   "aliases": [
+    "what are the caps for",
+    "Ghak alchemy"
+   ],
+   "answer": "Ghak wants to study the magenta fungus caps for a possible use in alchemy."
+  },
+  {
+   "q": "What danger do the clusters pose?",
+   "aliases": [
+    "fungus spores",
+    "are the caps poisonous"
+   ],
+   "answer": "The clusters may spew poisonous spores if disturbed."
+  },
+  {
+   "q": "What does Ghak offer in return?",
+   "aliases": [
+    "what do I get from Ghak",
+    "Ghak potion"
+   ],
+   "answer": "Ghak says he will make you a batch of his greater mender's potion."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alchemy",
+  "ghak healtouch",
+  "greater mender's potion",
+  "magenta caps",
+  "magenta fungus caps",
+  "poison spores",
+  "thelsamar",
+  "uldaman",
+  "uldaman reagent run"
+ ],
+ "related": [
+  "subzone:uldaman",
+  "subzone:thelsamar"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Uldaman Reagent Run"
+ ]
+}
