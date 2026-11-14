@@ -1,0 +1,82 @@
+{
+ "key": "quest:94877",
+ "type": "quest",
+ "name": "Saving Sunnyglade",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94877
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Demar Brant asks you to drive Twilight's Hammer forces from Sunnyglade, a settlement in Farholde's northwest. The people there have lost their homes and receive little help from Stormwind.",
+ "sections": [
+  {
+   "title": "A Lost Settlement",
+   "body": "Demar Brant speaks for Farholde's weary people, including refugees who escaped tragedy without their families. Stormwind has left them to manage with dwindling means. The Twilight's Hammer took a settlement in the northwest, and Demar asks you to clear its forces from Sunnyglade.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who is Demar",
+    "Demar Brant",
+    "who gave this"
+   ],
+   "answer": "Demar Brant asks you to drive Twilight's Hammer forces from Sunnyglade."
+  },
+  {
+   "q": "What happened to Sunnyglade?",
+   "aliases": [
+    "what happened here",
+    "Sunnyglade lost",
+    "who took Sunnyglade"
+   ],
+   "answer": "The Twilight's Hammer took a settlement in Farholde's northwest."
+  },
+  {
+   "q": "Who are the people in Farholde?",
+   "aliases": [
+    "Farholde people",
+    "who lives there",
+    "refugees"
+   ],
+   "answer": "Many are refugees who escaped tragedy without their families."
+  },
+  {
+   "q": "Why does Demar want help?",
+   "aliases": [
+    "why help Demar",
+    "why fight",
+    "what's the problem"
+   ],
+   "answer": "Farholde has lost a settlement to the Twilight's Hammer, while its people have fewer means to fend for themselves."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "demar brant",
+  "farholde",
+  "refugees",
+  "saving sunnyglade",
+  "sunnyglade",
+  "twilight neophytes",
+  "twilight raiders",
+  "twilight shadowmancers",
+  "twilight's hammer"
+ ],
+ "related": [
+  "subzone:sunnyglade",
+  "topic:twilight-s-hammer",
+  "topic:refugee",
+  "topic:stormwind-kingdom"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Saving Sunnyglade"
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "key": "quest:81952",
+ "type": "quest",
+ "name": "Everyday Etiquette",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   81952
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A library keeper seeks magical works to add to the collection. Your contribution helps expand the library\u2019s knowledge.",
+ "sections": [
+  {
+   "title": "A Growing Collection",
+   "body": "The keeper of the Library in Ironforge asks you to bring magical works that might benefit the collection. Your efforts help the library\u2019s knowledge grow.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the library keeper want?",
+   "aliases": [
+    "library books",
+    "magical works",
+    "what to bring"
+   ],
+   "answer": "The keeper seeks magical works that might benefit the library."
+  },
+  {
+   "q": "Where is this taking place?",
+   "aliases": [
+    "library location",
+    "where is the library",
+    "Ironforge library"
+   ],
+   "answer": "The request concerns the Library in Ironforge."
+  },
+  {
+   "q": "Why are magical works being collected?",
+   "aliases": [
+    "why collect books",
+    "library collection purpose",
+    "what for"
+   ],
+   "answer": "The keeper says each contribution expands the library\u2019s knowledge."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "collection",
+  "everyday etiquette",
+  "ironforge",
+  "knowledge",
+  "library",
+  "magical works"
+ ],
+ "related": [
+  "subzone:library-ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Everyday Etiquette"
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "key": "quest:94887",
+ "type": "quest",
+ "name": "Saving Marshal Ryan",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94887
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The Alliance needs Marshal Ryan, one of its finest scouts, found. His last reports point to a Twilight's Hammer fortress to the west, and his logbook may hold further clues.",
+ "sections": [
+  {
+   "title": "The Missing Marshal",
+   "body": "His final reports place Marshal Ryan near a Twilight's Hammer fortress to the west. You are sent to find him within the Twilight's Shroud and bring back his logbook. The Alliance relies on his keen eye and dependable intelligence, and his reports may help reveal where he is.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Marshal Ryan?",
+   "aliases": [
+    "marshal ryan who",
+    "who's ryan"
+   ],
+   "answer": "Marshal Ryan is one of the Alliance's best, valued for his keen eyes and reliable intelligence."
+  },
+  {
+   "q": "Where is Marshal Ryan?",
+   "aliases": [
+    "where ryan",
+    "find marshal ryan"
+   ],
+   "answer": "Marshal Ryan is sought within the Twilight's Shroud, near a Twilight's Hammer fortress to the west."
+  },
+  {
+   "q": "Why is Ryan missing?",
+   "aliases": [
+    "why ryan gone",
+    "what happened to marshal ryan"
+   ],
+   "answer": "His final reports refer to a Twilight's Hammer fortress to the west, and the Alliance has not found him."
+  },
+  {
+   "q": "Why does the Alliance want his logbook?",
+   "aliases": [
+    "ryan logbook why",
+    "what's in the logbook"
+   ],
+   "answer": "Marshal Ryan's logbook may offer clues to his whereabouts."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance member, you are helping find Marshal Ryan, whose reports have been important to the war effort."
+  }
+ ],
+ "keywords": [
+  "alliance",
+  "logbook",
+  "marshal ryan",
+  "missing marshal",
+  "saving marshal ryan",
+  "twilight's hammer",
+  "twilight's shroud"
+ ],
+ "related": [
+  "topic:twilight-s-hammer"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Saving Marshal Ryan"
+ ]
+}

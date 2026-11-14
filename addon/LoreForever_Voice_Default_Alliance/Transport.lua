@@ -1026,11 +1026,11 @@ P.transport["subzone:cenarion-enclave"] = {
   },
 }
 P.transport["subzone:champions-hall"] = {
-  hash = "306303",
-  fullHash = "306303",
-  text = "Champions' Hall. In Stormwind's guarded Champions' Hall, Alliance officers gather to discuss campaigns across Azeroth. Its quartermasters supply proven veterans with specialized weapons, plate, and regalia. Only Alliance soldiers who have earned the rank of Knight or higher in battle pass the guarded entrance to Champions' Hall. Commanders gather around maps of Azeroth to discuss ongoing campaigns, among arms and the insignias of rank. Quartermasters supply battle-hardened soldiers with elite weapons and armor to aid them against the Horde in contested lands, along with mounts.",
+  hash = "e61f9d",
+  fullHash = "e61f9d",
+  text = "Champions' Hall. Behind a guarded door in Stormwind's Old Town, Champions' Hall is where the Alliance's officers meet and draw their gear. Only soldiers who have earned the rank of Knight or higher in battle are let past its guards. Inside, commanders plan campaigns over maps of Azeroth, and quartermasters hand out officers' weapons, plate, insignia and war mounts.\n\nOrgrimmar keeps its own answer to it: the Hall of Legends, where the Horde's decorated warriors draw the same supplies.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_champions-hall-e9bc7627bfca90722b4e/1-0000.mp3", duration = 33.8808163, start = 0},
+    {file = "Audio/Transport/full_subzone_champions-hall-1ac23f3932afce21eea0/1-0000.mp3", duration = 30.2236735, start = 0},
   },
 }
 P.transport["subzone:charred-vale"] = {

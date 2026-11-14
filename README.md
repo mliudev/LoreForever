@@ -3,7 +3,7 @@
 The story behind the zones, quests, people and items around you, in game, for **World of Warcraft: Forever**.
 Narrated intros for every starting zone, capital and early dungeon, and answers to whatever you ask.
 
-**[Download the installer (Windows)](https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever-Setup.exe)**
+**[Download the installer (Windows)](https://loreforeverwow.com/download/installer)**
 · [Zip](https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever.zip) · [Website](https://loreforeverwow.com) · [CurseForge](https://www.curseforge.com/wow/addons/lore-forever)
 
 Lore Forever comes with English male narration. Other language and voice downloads include their matching
@@ -19,7 +19,7 @@ male and female narration in German and Portuguese (Brasil). See all the packs o
 ## Install
 
 **Installer (Windows):** download
-[LoreForever-Setup.exe](https://github.com/mliudev/LoreForever/releases/latest/download/LoreForever-Setup.exe)
+[LoreForever-Setup.exe](https://loreforeverwow.com/download/installer)
 and run it. It finds your World of Warcraft folder and puts the add-on in `_forever_\Interface\AddOns`. No
 admin rights needed. To update, run the newest installer. The installer is code-signed (publisher: Mei Liu). If
 Windows still shows "Windows protected your PC", click **More info**, then **Run anyway**.

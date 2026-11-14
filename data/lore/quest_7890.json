@@ -1,0 +1,61 @@
+{
+ "key": "quest:7890",
+ "type": "quest",
+ "name": "Heavy Grinding Stone",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   7890
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A faire attendant asks you to bring Heavy Grinding Stones. Your delivery earns tickets for the faire.",
+ "sections": [
+  {
+   "title": "At the Faire",
+   "body": "The faire attendant thanks you and says the stones are already making their muscles grow. In return, you receive tickets and a warning not to eat too many sweets. The attendant wants you to stay strong and ready to fight.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the attendant want?",
+   "aliases": [
+    "heavy grinding stone what",
+    "stones for faire"
+   ],
+   "answer": "The attendant wants Heavy Grinding Stones."
+  },
+  {
+   "q": "What do I get for bringing the stones?",
+   "aliases": [
+    "stone tickets",
+    "faire tickets"
+   ],
+   "answer": "The attendant gives you tickets for the faire."
+  },
+  {
+   "q": "Why does the attendant mention sweets?",
+   "aliases": [
+    "too many sweets",
+    "faire sweets"
+   ],
+   "answer": "The attendant warns you not to eat too many sweets and says you need to stay in fighting shape."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "faire",
+  "grinding stones",
+  "heavy grinding stone",
+  "sweets",
+  "tickets"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Heavy Grinding Stone"
+ ]
+}

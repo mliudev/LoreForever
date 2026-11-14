@@ -1,0 +1,100 @@
+{
+ "key": "quest:96078",
+ "type": "quest",
+ "name": "A Tale Spun Around the Fire",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96078
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Kin'weelay asks you to bring tablet etchings to Master Gadrin in Sen'jin Village. The Darkspear preserve traditions through stories, and Gadrin wants to hear this tale.",
+ "sections": [
+  {
+   "title": "A Tale Shared",
+   "body": "Kin'weelay has prepared another copy of the tale if your own is lost. Darkspear stories pass legends to the young, teaching lessons and caution through words spoken aloud. Take the etchings to Master Gadrin, the Darkspear spiritual leader in Sen'jin Village, so he can hear the tale.",
+   "spoiler": 0
+  },
+  {
+   "title": "Gadrin's Thanks",
+   "body": "After you explain how the I'lalai tablet etchings came into your hands, Master Gadrin listens closely. He is glad Kin'weelay cares about preserving and uncovering Darkspear heritage lost over the centuries. Gadrin notes that the Darkspear separated from the Gurubashi not long ago in the grand span of history, then gives you something Kin'weelay asked him to pass along in thanks.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the etchings?",
+   "aliases": [
+    "who sent me",
+    "kinweelay tale",
+    "kin'weelay"
+   ],
+   "answer": "Kin'weelay asks you to take the tablet etchings to Master Gadrin in Sen'jin Village."
+  },
+  {
+   "q": "Why take them to Master Gadrin?",
+   "aliases": [
+    "why gadrin",
+    "where do etchings go",
+    "tablet etchings"
+   ],
+   "answer": "Master Gadrin is the Darkspear spiritual leader, and Kin'weelay says he will want to hear the tale."
+  },
+  {
+   "q": "How do the Darkspear preserve traditions?",
+   "aliases": [
+    "darkspear stories",
+    "oral tradition",
+    "troll tales"
+   ],
+   "answer": "The Darkspear pass legends to the next generation through oral storytelling, teaching lessons and cautionary tales."
+  },
+  {
+   "q": "What are the etchings from?",
+   "aliases": [
+    "ilalai tablet",
+    "i'lalai",
+    "tablet story"
+   ],
+   "answer": "They are etchings from the I'lalai tablet."
+  },
+  {
+   "q": "Where is Master Gadrin?",
+   "aliases": [
+    "gadrin location",
+    "senjin village",
+    "where is gadrin"
+   ],
+   "answer": "Master Gadrin is in Sen'jin Village in Durotar."
+  }
+ ],
+ "angles": [
+  {
+   "target": "race:Troll",
+   "text": "As a troll, you bring a tale of Darkspear tradition to Master Gadrin, who values preserving and discovering ancestral heritage."
+  }
+ ],
+ "keywords": [
+  "darkspear",
+  "gurubashi",
+  "i'lalai",
+  "kin'weelay",
+  "master gadrin",
+  "oral storytelling",
+  "sen'jin village",
+  "tablet etchings"
+ ],
+ "related": [
+  "npc:kin-weelay",
+  "npc:master-gadrin",
+  "subzone:sen-jin-village",
+  "zone:durotar"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Tale Spun Around the Fire"
+ ]
+}

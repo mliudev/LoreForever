@@ -1,0 +1,83 @@
+{
+ "key": "quest:95562",
+ "type": "quest",
+ "name": "Cut Off the Heads",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95562
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Apprentice Claire asks you to end the threat beneath Sunnyglade. The cave\u2019s master is Chogg'Zac, and Claire wants its heads brought back.",
+ "sections": [
+  {
+   "title": "Claire's Plea",
+   "body": "Before you enter the caves beneath Sunnyglade, Apprentice Claire tells you why she came. Lady Amberhall sent her to gather samples, but Claire chose to return because Sunnyglade was once her home. Monsters still taint the place, and she wants their master slain. Chogg'Zac waits below, and Claire asks you to bring back the heads.",
+   "spoiler": 0
+  },
+  {
+   "title": "After the Fight",
+   "body": "When you return, Claire asks whether Chogg'Zac and the ogres are dead. She accepts your deed as right and urges you to leave with her.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to go beneath Sunnyglade?",
+   "aliases": [
+    "who sent me",
+    "Claire task",
+    "apprentice Claire"
+   ],
+   "answer": "Apprentice Claire asks you to kill Chogg'Zac in the caves beneath Sunnyglade and retrieve the heads."
+  },
+  {
+   "q": "Why did Claire come to Sunnyglade?",
+   "aliases": [
+    "why Claire here",
+    "Claire home",
+    "Sunnyglade backstory"
+   ],
+   "answer": "Sunnyglade was Claire's home before the war took it from her, and she could not rest while monsters remained there."
+  },
+  {
+   "q": "Who is Chogg'Zac?",
+   "aliases": [
+    "Chogg Zac",
+    "cave master",
+    "ogre boss"
+   ],
+   "answer": "Chogg'Zac is the master in the caves beneath Sunnyglade."
+  },
+  {
+   "q": "What does Claire want me to bring back?",
+   "aliases": [
+    "bring what back",
+    "heads for Claire",
+    "what to retrieve"
+   ],
+   "answer": "Claire asks you to retrieve the heads after killing Chogg'Zac."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "apprentice claire",
+  "caves",
+  "chogg'zac",
+  "cut off the heads",
+  "lady amberhall",
+  "ogres",
+  "sunnyglade"
+ ],
+ "related": [
+  "subzone:sunnyglade",
+  "topic:horde"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Cut Off the Heads"
+ ]
+}

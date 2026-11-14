@@ -1,0 +1,84 @@
+{
+ "key": "quest:94982",
+ "type": "quest",
+ "name": "Eye of Mugg",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94982
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Commander Brant asks you to find the Twilight presence in Krol'dok Stronghold and bring back proof of its leader's death. The caves hold a threat to efforts to drive the Twilight from these lands.",
+ "sections": [
+  {
+   "title": "The Hidden Caves",
+   "body": "Commander Brant has heard that scouts found caves northwest along the mountains, concealed by their natural surroundings. Many who went inside to learn more have not returned, and Brant fears they are lost. Watchers have also seen Twilight figures entering and leaving the caves in darkness. You are asked to locate the stronghold and return with proof of its leader's demise.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me to Krol'dok Stronghold?",
+   "aliases": [
+    "who is commander brant",
+    "brant sent me",
+    "who gave this quest"
+   ],
+   "answer": "Commander Brant asks you to locate the Twilight stronghold and return with proof of its leader's death."
+  },
+  {
+   "q": "Where is Krol'dok Stronghold?",
+   "aliases": [
+    "where is krol'dok",
+    "kroldok location",
+    "where are the caves"
+   ],
+   "answer": "The caves are northwest along the mountains, hidden by natural surroundings."
+  },
+  {
+   "q": "Why is Commander Brant concerned about the caves?",
+   "aliases": [
+    "why find the caves",
+    "what's wrong there",
+    "missing scouts"
+   ],
+   "answer": "Many who went into the caves seeking information have not returned, and Brant fears they may be lost."
+  },
+  {
+   "q": "Who has been seen near the caves?",
+   "aliases": [
+    "twilight in caves",
+    "who is in krol'dok",
+    "twilight presence"
+   ],
+   "answer": "Watchers have reported a Twilight presence moving in and out of the caves, often in darkness."
+  },
+  {
+   "q": "What does Brant ask me to bring back?",
+   "aliases": [
+    "what proof do i need",
+    "leader proof",
+    "what to return with"
+   ],
+   "answer": "Brant asks you to return with proof that the stronghold's leader is dead."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "caves",
+  "commander brant",
+  "eye of mugg",
+  "krol'dok stronghold",
+  "missing scouts",
+  "mountains",
+  "twilight"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Eye of Mugg"
+ ]
+}

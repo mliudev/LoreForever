@@ -1,0 +1,92 @@
+{
+ "key": "quest:92754",
+ "type": "quest",
+ "name": "A New Need for Shadow Protection",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92754
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Mirda needs Greater Shadow Protection Potions for Magram clanmates venturing south toward the Valley of Bones. Bring them to her in Magram Village while keeping the clan\u2019s trust.",
+ "sections": [
+  {
+   "title": "Mirda's Request",
+   "body": "Mirda in Magram Village needs you to bring her Greater Shadow Protection Potions. Magram clanmates are traveling farther south, toward and beyond the Valley of Bones. Mirda says the potions are needed to help keep them alive, and asks you to bring three while maintaining your standing with the clan.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the potions?",
+   "aliases": [
+    "who wants potions",
+    "Mirda request"
+   ],
+   "answer": "Mirda in Magram Village asks you to bring her Greater Shadow Protection Potions."
+  },
+  {
+   "q": "Why does Mirda need the potions?",
+   "aliases": [
+    "why potions",
+    "shadow protection"
+   ],
+   "answer": "Magram clanmates are venturing south toward and beyond the Valley of Bones, and Mirda says the potions are needed for their continued survival."
+  },
+  {
+   "q": "Where do I bring the potions?",
+   "aliases": [
+    "where Mirda",
+    "potions location"
+   ],
+   "answer": "Bring the potions to Mirda in Magram Village in Desolace."
+  },
+  {
+   "q": "How many potions does Mirda need?",
+   "aliases": [
+    "number of potions",
+    "how many"
+   ],
+   "answer": "Mirda asks for three Greater Shadow Protection Potions."
+  },
+  {
+   "q": "What does Mirda say about the clanmates' ventures?",
+   "aliases": [
+    "clanmates ventures",
+    "what are they doing"
+   ],
+   "answer": "Mirda does not trust you enough to share details about the clanmates' ventures."
+  },
+  {
+   "q": "What must I maintain with the Magram?",
+   "aliases": [
+    "Magram standing",
+    "clan reputation"
+   ],
+   "answer": "You need to maintain your reputation with the Magram while bringing the potions to Mirda."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "clanmates",
+  "desolace",
+  "greater shadow protection potion",
+  "magram",
+  "magram village",
+  "mirda",
+  "shadow protection",
+  "valley of bones"
+ ],
+ "related": [
+  "subzone:magram-village",
+  "subzone:valley-of-bones",
+  "zone:desolace"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A New Need for Shadow Protection"
+ ]
+}

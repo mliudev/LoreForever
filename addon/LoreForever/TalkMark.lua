@@ -16,7 +16,7 @@
 --   that key (npcTalk true; false on Free and Hero after the first days, where the key gets "Speaking with NPCs needs
 --   the Champion plan or higher."; left out signed out). An older Willo writes neither this nor talkKinds: no mark.
 -- * Her key for the one you target (targetKey: what her microphone listens on) is set, and the game has it on Ask who
---   you're targeting, so holding it shows her sky. Another key the player bound to that action shows the sky but she
+--   you're targeting (her "Use anyway" override counts, LOR-1505), so holding it shows her sky. Another key the player bound to that action shows the sky but she
 --   wouldn't hear them, so it's never the one shown.
 -- * Live game info is on (Strip.On): with it off she can't see who you target, and the key goes to whoever answered
 --   last. The mark never asks for it (that stays an explained yes).
@@ -51,7 +51,7 @@ local function willo()
   if S().talkMark == false or not ns.Companion.Installed() or not ns.Strip.On() then return nil end
   local d = ns.Strip.FromWilloLately()
   if not d or d.npcTalk ~= true or type(d.talkKinds) ~= "table" then return nil end
-  if type(d.targetKey) ~= "string" or d.targetKey == "" or try(GetBindingAction, d.targetKey) ~= ASK_TARGET then
+  if type(d.targetKey) ~= "string" or d.targetKey == "" or try(GetBindingAction, d.targetKey, true) ~= ASK_TARGET then
     return nil
   end
   return d

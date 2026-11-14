@@ -15,7 +15,11 @@
 --   flights = { [name] = t },   the flight points the flight map showed as theirs, by its name ("Sentinel Hill,
 --                               Westfall"), and when it first did (Flights, below; LOR-797)
 --   events = { { k = kind, t = time, lv = level, ... }, ... },   at most MAX_EVENTS
+--   renamedFrom = { { key = "Oldname-Realm", t }, ... },   keys it was carried over from after a rename or realm move,
+--   carried = { { from, t, record, playback }, ... },   what of an older record joined into this one isn't merged in
+--                                            place (CharKey's carry-over)
 --   trail = { [sessionStart] = { { m = mapID, x = 0.123, y = 0.456, t = t }, ... } } } } }   the last TRAIL_SESSIONS
+-- LoreForeverDB.journey.moved = { ["Oldname-Realm"] = { id, to, t } }   whose an old key was, so it isn't handed on
 -- LoreForeverDB.texts = { gossip = { [npcName] = { [hash] = text } }, books = { [title] = { [page] = text } } } (and
 -- texts.say, texts.npcs: Capture.lua)
 --
@@ -107,6 +111,7 @@ local function later(delay, fn) C_Timer.After(delay, function() ns.Guard(fn) end
 local char           -- this character's record in LoreForeverDB.journey.chars
 local loginAt        -- time() of this load's login event (none while Remember my journey is off)
 local placeless      -- this load's login event while the game didn't know the zone yet (a real login, LOR-770)
+local firstLogin     -- no saved record of this character before this load: its first login with Lore Forever
 local needCompleted  -- the server's completed-quest list was empty at login: tries left to fetch it again
 local resetRoute     -- forget where the player was (Recording, below)
 local startTrail     -- start the map trail's timer (The map trail, below)
@@ -137,13 +142,179 @@ local function couldBeMine(c)
   return not ((c.class and info.class and c.class ~= info.class) or (c.race and info.race and c.race ~= info.race))
 end
 
+-- A renamed or realm-moved character keeps its game GUID, so the record saved under its old "Name-Realm" is still its own:
+-- found by the whole GUID (noteIdentity), or, on a record from before that, by the GUID's id on the same realm. A
+-- character deleted and remade under the same name has a new GUID and gets its own record (CharKey's "#id").
+local function sameCharacter(c, guid, id, realm)
+  if type(c) ~= "table" then return false end
+  local saved = type(c.identity) == "table" and c.identity.guid
+  if type(saved) == "string" then return saved == guid end
+  return c.guid == id and c.realm == realm
+end
+
+-- A copy of a saved table, so a join is worked out apart from the record and lands all at once.
+local function copyOf(v)
+  if type(v) ~= "table" then return v end
+  local out = {}
+  for k, x in pairs(v) do out[k] = copyOf(x) end
+  return out
+end
+
+-- Earliest wins for times seen ({ [name] = t }); the rest fills in what `into` lacks.
+local function foldSeen(into, from)
+  for k, v in pairs(from) do
+    local mine = into[k]
+    if mine == nil then into[k] = v
+    elseif type(mine) == "table" and type(v) == "table" then foldSeen(mine, v)
+    elseif type(mine) == "number" and type(v) == "number" and v < mine then into[k] = v end
+  end
+end
+local KEEP_NEWER = { streak = true, lastDay = true, played = true, playedAt = true }
+local function foldCounts(into, from)
+  for k, v in pairs(from) do
+    local mine = into[k]
+    if mine == nil then into[k] = v
+    elseif type(mine) == "table" and type(v) == "table" then foldCounts(mine, v)
+    elseif type(mine) == "number" and type(v) == "number" and not KEEP_NEWER[k] then
+      into[k] = (k == "best" or k == "v") and math.max(mine, v) or mine + v
+    end
+  end
+end
+-- Fill in what `into` lacks; on a clash the older store's entry wins (the first time it was found or heard).
+local function foldOlder(into, from)
+  for k, v in pairs(from) do
+    if type(into[k]) == "table" and type(v) == "table" then foldOlder(into[k], v) else into[k] = v end
+  end
+end
+
+-- A journey record the new name already has (a rename from before this carry-over: its first sessions under the new
+-- name made one): the older one's history joins it. Events in time order, places and kills from both, the tally's
+-- counts added; the older record's other fields go in `entry` (the carried entry), so nothing it had is lost. Worked
+-- out on copies, then set in one go: a join that fails part way changes nothing, so it can't repeat at the next login.
+local function foldRecord(into, old, entry)
+  local events = {}
+  for _, list in ipairs({ old.events, into.events }) do
+    for _, e in ipairs(type(list) == "table" and list or {}) do events[#events + 1] = { e, #events } end
+  end
+  table.sort(events, function(a, b)
+    local ta, tb = tonumber(type(a[1]) == "table" and a[1].t) or 0, tonumber(type(b[1]) == "table" and b[1].t) or 0
+    if ta ~= tb then return ta < tb end
+    return a[2] < b[2]
+  end)
+  for i, e in ipairs(events) do events[i] = e[1] end
+  local set = { events = events }
+  for _, k in ipairs({ "seen", "trail", "flights", "kills", "tally" }) do
+    if type(old[k]) == "table" then
+      set[k] = type(into[k]) == "table" and copyOf(into[k]) or {}
+      if k == "kills" or k == "tally" then foldCounts(set[k], old[k]) else foldSeen(set[k], old[k]) end
+    end
+  end
+  -- The day of the rename was counted under both names.
+  local newFirst, oldFirst = tonumber(into.first), tonumber(old.first)
+  local t = set.tally
+  if t and type(old.tally) == "table" and newFirst and old.tally.lastDay == date("%Y-%m-%d", newFirst)
+      and tonumber(t.days) and t.days > 1 then
+    t.days = t.days - 1
+  end
+  if oldFirst and (not newFirst or oldFirst < newFirst) then
+    set.first, set.startLevel, set.startCompleted, set.startUnsure = old.first, old.startLevel, old.startCompleted,
+      old.startUnsure
+  end
+  -- Kept whole but for what joined in full: places, the map trail (its newest sessions are all it keeps anyway), and
+  -- events while the joined list fits (past MAX_EVENTS the oldest leave it at the next trim, so those stay here).
+  local kept = {}
+  for k, v in pairs(old) do
+    if k ~= "seen" and k ~= "trail" and (k ~= "events" or #events > MAX_EVENTS) then kept[k] = v end
+  end
+  entry.record = kept
+  for k, v in pairs(set) do into[k] = v end
+end
+
+-- Every store kept per character under its CharKey, besides the journey record.
+local STORES = { { "collection", "chars" }, { "heard" }, { "willoPinsCleared" }, { "playback" } }
+local function storeOf(path)
+  local t = LoreForeverDB
+  for _, k in ipairs(path) do t = type(t) == "table" and t[k] or nil end
+  return type(t) == "table" and t or nil
+end
+
+-- Another of this account's records under a different key is this character's (it was renamed or moved).
+local function ownedElsewhere(chars, key, guid, id, realm)
+  for k, c in pairs(chars) do
+    if k ~= key and sameCharacter(c, guid, id, realm) then return true end
+  end
+  return false
+end
+
+-- Bring a renamed or realm-moved character's records to its new key: its journey, Found, heard stories, cleared pins
+-- and playback. Moved, never trimmed; where the new key already has one, the two join. The record notes the keys it
+-- came from (renamedFrom, for Willo), and journey.moved remembers whose each old key was, so it isn't handed to another
+-- character (CharKey). The stores go first, each one done once it's moved, then the journey record (an older queue the
+-- new name's replaces leaves the old key only once it's in carried): a carry-over cut off part way finishes at the
+-- next login and nothing joins twice.
+local function carryOver(key, name, realm, id)
+  local j = LoreForeverDB.journey
+  local guid = try(UnitGUID, "player")
+  if type(guid) ~= "string" then return end
+  local olds = {}
+  for k, c in pairs(j.chars) do
+    if k ~= key and sameCharacter(c, guid, id, realm) then olds[#olds + 1] = k end
+  end
+  table.sort(olds, function(a, b) return (tonumber(j.chars[a].first) or 0) < (tonumber(j.chars[b].first) or 0) end)
+  for _, from in ipairs(olds) do
+    local entry = { from = from, t = time() }
+    for _, path in ipairs(STORES) do
+      local all = storeOf(path)
+      local was = all and all[from]
+      local mine = all and all[key]
+      if type(was) == "table" then
+        if type(mine) ~= "table" then all[key], all[from] = was, nil
+        elseif path[1] == "playback" then entry.playback = was   -- the newer queue stays; the older goes in carried
+        else
+          -- A page read under the new name stays read: the old name's "new" mark doesn't come back.
+          if path[1] == "collection" and type(was.new) == "table" and type(mine.found) == "table" then
+            local new = {}
+            for k, v in pairs(was.new) do
+              if mine.found[k] == nil or (type(mine.new) == "table" and mine.new[k] ~= nil) then new[k] = v end
+            end
+            was = copyOf(was)
+            was.new = new
+          end
+          foldOlder(mine, was)
+          all[from] = nil
+        end
+      end
+    end
+    local old, into = j.chars[from], j.chars[key]
+    if type(into) == "table" then foldRecord(into, old, entry) else into = old end
+    j.moved = type(j.moved) == "table" and j.moved or {}
+    j.moved[from] = { id = id, to = key, t = entry.t }
+    j.chars[key], j.chars[from] = into, nil
+    into.name, into.realm, into.guid = name, realm, into.guid or id
+    into.renamedFrom = type(into.renamedFrom) == "table" and into.renamedFrom or {}
+    into.renamedFrom[#into.renamedFrom + 1] = { key = from, t = entry.t }
+    if entry.record or entry.playback then
+      into.carried = type(into.carried) == "table" and into.carried or {}
+      into.carried[#into.carried + 1] = entry
+    end
+    if entry.playback then LoreForeverDB.playback[from] = nil end   -- kept in carried now
+    local archive = LoreForeverDB.historyArchive
+    if type(archive) == "table" and type(archive.active) == "table" and archive.active[key] == nil then
+      archive.active[key] = archive.active[from]   -- the next record starts a stream that follows the old one
+    end
+  end
+end
+
 -- "Name-Realm" (name, realm). Forever's characters have last names that UnitName leaves out, so two characters can
 -- share a first name on one realm (LOR-1218: "my 2 characters being recorded as 1"). A record carries the GUID's id of
 -- the character it belongs to (open, below); another character with the same name and realm gets "Name-Realm#id", so
--- each keeps its own journey, heard stories, chronicle and notebook. A record from before ids is claimed by the first
--- character of its class and race to log in. Once known, the key is kept for the session, so a moment the game can't
--- say the GUID never lands on the other character's record.
-local resolvedKey
+-- each keeps its own journey, heard stories, chronicle and notebook: one already there keeps its "#id"; so does one
+-- whose plain key another character left by a rename (journey.moved: Willo files that character's journal and notebook
+-- under it). A record from before ids is claimed by the first character of its class and race to log in, unless this
+-- character's own record is elsewhere (a rename onto that name). Once known, the key is kept for the session, so a
+-- moment the game can't say the GUID never lands on the other character's record.
+local resolvedKey, carriedTo
+local madeBeforeGuid   -- the record open() made new this session before the game said the GUID: this character's
 function Journey.CharKey()
   local name = try(UnitName, "player") or "?"
   local realm = Journey.Realm()
@@ -154,14 +325,38 @@ function Journey.CharKey()
     return key, name, realm
   end
   local j = type(LoreForeverDB) == "table" and type(LoreForeverDB.journey) == "table" and LoreForeverDB.journey
-  local c = j and type(j.chars) == "table" and j.chars[key]
-  if type(c) == "table" and (c.guid and c.guid ~= id or not c.guid and not couldBeMine(c)) then key = key .. "#" .. id end
+  local chars = j and type(j.chars) == "table" and j.chars
+  local own = key .. "#" .. id
+  if chars and type(chars[own]) == "table" then
+    key = own
+  elseif chars then
+    local c = chars[key]
+    local moved = type(j.moved) == "table" and j.moved[key]
+    if type(c) == "table" and c ~= madeBeforeGuid then
+      if c.guid and c.guid ~= id
+          or not c.guid and (not couldBeMine(c) or ownedElsewhere(chars, key, try(UnitGUID, "player"), id, realm)) then
+        key = own
+      end
+    elseif type(moved) == "table" and moved.id ~= id then
+      key = own
+    end
+  end
   resolvedKey = key
+  -- Once a session, as soon as the GUID is known: a record under an old name or realm comes along (carryOver).
+  if chars and carriedTo ~= key then
+    carriedTo = key
+    local ok, err = pcall(carryOver, key, name, realm, id)
+    if not ok and geterrorhandler then geterrorhandler()(err) end
+  end
   return key, name, realm
 end
 
 -- This character's record, or nil (before login, or when it was never recorded).
 function Journey.Char() return char end
+
+-- Whether this character had no saved record before this load: Willo has no save to know it by yet (Strip.lua's
+-- first-login glance, LOR-1498). A /reload after it is no first login: the reload saved the record.
+function Journey.FirstLogin() return firstLogin == true end
 
 -- "Remember my journey" (Options): off records nothing new; what's there stays.
 function Journey.On() return settings().journey ~= false end
@@ -609,7 +804,9 @@ local function open()
   local j = LoreForeverDB.journey
   local key, name, realm = Journey.CharKey()
   local new = not j.chars[key]
+  firstLogin = new
   local c = j.chars[key] or { first = time(), events = {} }
+  if new and not playerId() then madeBeforeGuid = c end
   j.chars[key] = c
   c.name, c.realm = name, realm
   c.guid = c.guid or playerId()   -- whose record this is (Journey.CharKey)
@@ -677,6 +874,7 @@ function Journey.Init()
     if ns.Stock then pcall(ns.Stock.Take, char) end   -- what Willo's goals count (Stock.lua)
   else
     char = db.journey.chars[(Journey.CharKey())]
+    firstLogin = false   -- nothing is recorded with it off, so every load would look like a first: the sky stays dark
   end
   startTrail()
   if _G.TakeTaxiNode and hooksecurefunc then pcall(hooksecurefunc, "TakeTaxiNode", Journey.OnTakeTaxi) end
@@ -2877,6 +3075,10 @@ local function spellName(id)
 end
 
 local function onSpell(unit, _, spellID)
+  -- Every unit's cast comes here (nameplates, the target...): only yours and a party member's matter. Forever can hand
+  -- the spell id as a secret value, which errors when looked up in a table (LOR-1500): skip it.
+  local party = unit ~= "player" and type(unit) == "string" and unit:match("^party%d$")
+  if (unit ~= "player" and not party) or not ns.Context.Usable(spellID) then return end
   local how
   if unit == "player" then
     if spellID == HEARTH or spellID == ASTRAL_RECALL then how = "hearth"
@@ -2886,7 +3088,7 @@ local function onSpell(unit, _, spellID)
       if hearthName == nil then hearthName = spellName(HEARTH) or false end
       if hearthName and spellName(spellID) == hearthName then how = "hearth" end
     end
-  elseif PORTALS[spellID] and type(unit) == "string" and unit:match("^party%d$") then
+  elseif PORTALS[spellID] then
     how = "portal"   -- a party member's portal you may step into
   end
   if how then pending = { how = how, t = time() } end
@@ -3725,7 +3927,9 @@ local handlers = {
     if unit == nil or unit == "player" then noteGuild(char) end
   end,
   PLAYER_LOGOUT = function()
-    noteIdentity(char)
+    -- Only on this character's own record: with no GUID at login, open() may have picked another's plain-key record,
+    -- and a GUID stamped there would let the next login's carry-over take it (CharKey).
+    if char and LoreForeverDB.journey.chars[(Journey.CharKey())] == char then noteIdentity(char) end
     noteGuild(char)
     if ns.Stock then pcall(ns.Stock.Take, char, true) end   -- what Willo's goals count, as the game saves (Stock.lua)
     if ns.Screen then pcall(ns.Screen.Take, char) end   -- where the frames sit, what the bars hold (Screen.lua, LOR-802)

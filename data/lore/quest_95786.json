@@ -1,0 +1,97 @@
+{
+ "key": "quest:95786",
+ "type": "quest",
+ "name": "An Acquaintance in Southshore",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95786
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Brother Nimetz sends you to Southshore with a report for Loremaster Dibbs. Agitated trolls and the word \u201cI'lalai\u201d may be tied to Colonel Kurzen's corruption.",
+ "sections": [
+  {
+   "title": "A Word in the Report",
+   "body": "Brother Nimetz sends you from Stranglethorn to Southshore with a bundle of troll legends, fetishes, and a scout's report. The local trolls are agitated and speak of \u201cI'lalai.\u201d Nimetz hopes Loremaster Dibbs can tell whether this has a bearing on Colonel Kurzen's corrupted mind.",
+   "spoiler": 0
+  },
+  {
+   "title": "At Southshore",
+   "body": "Loremaster Dibbs receives you in Southshore and remarks on the long journey from Stranglethorn. He asks what brought you there, with Nimetz's report and materials in hand.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sent me to Southshore?",
+   "aliases": [
+    "who sent me",
+    "nimetz southshore",
+    "brother nimetz"
+   ],
+   "answer": "Brother Nimetz sent you from Stranglethorn to speak with Loremaster Dibbs."
+  },
+  {
+   "q": "Why am I going to Southshore?",
+   "aliases": [
+    "why southshore",
+    "dibbs report",
+    "what am i taking"
+   ],
+   "answer": "Nimetz wants Loremaster Dibbs to examine troll legends, fetishes, and a scout's report for a possible connection to Colonel Kurzen's corruption."
+  },
+  {
+   "q": "Who is Loremaster Dibbs?",
+   "aliases": [
+    "who's dibbs",
+    "dibbs southshore",
+    "loremaster"
+   ],
+   "answer": "Loremaster Dibbs is Nimetz's friend in the Hillsbrad Foothills, where he studies troll legends and evil magic."
+  },
+  {
+   "q": "What does the scout's report say?",
+   "aliases": [
+    "scout report",
+    "trolls agitated",
+    "what is ilalai"
+   ],
+   "answer": "The report says the local trolls are agitated and have mentioned \u201cI'lalai.\u201d"
+  },
+  {
+   "q": "Where do I find Loremaster Dibbs?",
+   "aliases": [
+    "dibbs location",
+    "find dibbs",
+    "southshore"
+   ],
+   "answer": "Loremaster Dibbs is in Southshore."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "brother nimetz",
+  "colonel kurzen",
+  "corruption",
+  "fetishes",
+  "i'lalai",
+  "loremaster dibbs",
+  "scout report",
+  "southshore",
+  "stranglethorn",
+  "troll legends"
+ ],
+ "related": [
+  "subzone:southshore",
+  "zone:hillsbrad",
+  "subzone:savage-coast",
+  "topic:troll"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: An Acquaintance in Southshore"
+ ]
+}

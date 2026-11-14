@@ -7,15 +7,20 @@
 --   found = { [entry key] = "t;how;lv;place;quest" },   one short string per page, the first time it was found:
 --     t      time() it was found (0: before the add-on knew, e.g. a quest done before install)
 --     how    enter (a place), meet (targeted or talked to), quest (taken), done (finished before), loot (in your
---            bags), hover (an item's tooltip), past (from the journey or heard stories, at the fill-in)
+--            bags), hover (an item's tooltip), past (from the journey, at the fill-in; before version 3, also from
+--            stories heard)
 --     lv     your level then ("" when unknown)
 --     place  the subzone (else the zone) you stood in ("" when unknown)
 --     quest  the quest you were on there, as its title (optional: left off, with its ";", when there was none, and
 --            on everything found before it was recorded, so a record without it reads the same as ever)
 --   new = { [entry key] = 1 },                     found as you play and not opened or heard since (the green "New"
 --                                                    in Found); what the fill-in finds is your past, not new
---   q = { [item key] = quality } } } }              an item page's rarity (0 poor .. 5 legendary), as the game showed
+--   q = { [item key] = quality },                  an item page's rarity (0 poor .. 5 legendary), as the game showed
 --                                                    it when you found it (slice 6: Found colours its name)
+--   unheard = { [entry key] = found string },        pages fill-in version 3 took back (found only from a story heard,
+--                                                    LOR-1501), kept as they were; nothing reads them
+--   undone = { [entry key] = found string } } } }    pages fill-in version 4 took back (another zone's copy of a quest
+--                                                    you did, and its people, LOR-1501), kept as they were; unread too
 --
 -- What counts as finding, by kind (the design's table): entering a zone, city, dungeon or place; targeting or talking
 -- to a person (a boss too: you target it to fight it); taking a quest; an item in your bags (looted, a reward, bought)
@@ -28,8 +33,13 @@ local Collection = {}
 ns.Collection = Collection
 
 local V = 1           -- the saved data's version
-local FILL = 2        -- the fill-in's version: raise it to run it again for every character (it only ever adds)
+local FILL = 4        -- the fill-in's version: raise it to run it again for every character (it adds, and takes back
+                      -- only what unheard and undone say)
                       -- 2: places, people and items by the game's ids and own names, for non-English games (11/13)
+                      -- 3: stories heard aren't finds (LOR-1501): 2 had made Elwynn Forest found for a Tirisfal
+                      --    character who had only heard of it
+                      -- 4: a quest's copies in other zones the server lists as done aren't finds, nor their people
+                      --    (LOR-1501): Tirisfal's "The Adventurer" had made Elwynn's and Marshal McBride found
 local SLICE = 150     -- fill-in items per frame
 local PLACE_KINDS = { zone = true, city = true, dungeon = true, subzone = true }
 
@@ -134,6 +144,8 @@ function Collection.Find(key, how, t, lv, place, quest)
     quest = questHere(how)
   end
   r.found[key] = pack(t, how, lv, place, quest)
+  -- A page the counts leave out until found (e.nf) joins its chapter now, before the new-page slip reads the counts.
+  if entries()[key].nf and ns.Book and ns.Book.Forget then ns.Book.Forget() end
   -- New (and the new-page moment) only once the fill-in has run: before it, a page found at login may be one from
   -- before this version that the fill-in hasn't reached yet.
   if live and r.filled == FILL then
@@ -170,6 +182,33 @@ end
 
 function Collection.NewCount() return #Collection.NewKeys() end
 
+-- How well finding works, by kind (Mike, 11/13, after LOR-1484: a whole game language found only quests for weeks and
+-- nobody noticed). Each place, person, item and quest the game shows you is counted once a session as "seen", and as
+-- "matched" when it has a page, into the day's anonymous usage counts (Log.Use: seen.<kind>, match.<kind>, and byid.<kind>
+-- for a match by the game's id rather than a name, so the id tables' reach shows per language), which Willo's
+-- check-in sends with the rest (site/lib/found-match.js reads the rates by game language). A table bump on events this
+-- file already handles; nothing per frame, no names saved: the things seen are kept in memory for the session only.
+local tallied, talliedN = {}, {}
+local TALLY_MAX = 2000   -- things per kind a session remembers; past that it stops counting new ones
+local function hasPage(key)
+  local e = key and entries()[key]
+  return (e and not e.hide) and true or false
+end
+-- what: the thing as the game gave it (its id, else its name); key: the page found for it, or nil; byId: found by id.
+local function tally(kind, what, key, byId)
+  if what == nil or (type(what) == "string" and not usable(what)) or not ns.Log then return end
+  local seen = tallied[kind]
+  if not seen then seen = {}; tallied[kind] = seen; talliedN[kind] = 0 end
+  if seen[what] or talliedN[kind] >= TALLY_MAX then return end
+  seen[what] = true
+  talliedN[kind] = talliedN[kind] + 1
+  ns.Log.Use("seen", kind)
+  if hasPage(key) then
+    ns.Log.Use("match", kind)
+    if byId then ns.Log.Use("byid", kind) end
+  end
+end
+
 -- Entry keys ------------------------------------------------------------------------------------------------------
 -- By the game's own ids first (ns.DB.index.npcId, itemId, mapId: pipeline/lore/game_ids.py), which are the same in
 -- every client language, then by name: the English names, plus the client's own names where Lang.lua has them (a
@@ -198,7 +237,8 @@ local function placeKeys(zone, subzone)
   if not (engine and usable(zone)) then return out end
   local zk = engine:ZoneKey(zone)
   if zk and entries()["zone:" .. zk] then out[#out + 1] = "zone:" .. zk end
-  out[#out + 1] = keyOfKind(zone, PLACE_KINDS)
+  -- (with or without a leading "The": the game's "The Temple of Atal'Hakkar" is the page Temple of Atal'Hakkar)
+  out[#out + 1] = keyOfKind(zone, PLACE_KINDS) or keyOfKind((zone:gsub("^[Tt]he ", "")), PLACE_KINDS)
   if usable(subzone) then
     out[#out + 1] = engine:SubzoneKey(subzone, zone)
     out[#out + 1] = engine:AreaKey(subzone, zone)   -- Northshire Abbey -> Northshire Valley
@@ -215,14 +255,16 @@ local function personKey(unit)
   if unit == "target" and try(UnitPlayerControlled, unit) then return nil end
   if not ns.engine then return nil end
   -- By the GUID's creature id; a GUID the game keeps secret (in combat, in an instance) can't be read: the name then.
+  -- The second value is who it is, for the tally: the creature id, else the name.
   local guid = try(UnitGUID, unit)
-  local byId = ns.Context.Usable(guid) and ns.engine:KeyForGUID(guid)
-  if byId then return byId end
+  local id = ns.Context.Usable(guid) and ns.Engine.CreatureID(guid) or nil
+  local byId = id and ns.engine:KeyForGUID(guid)
+  if byId then return byId, id, true end
   local key, how = ns.engine:KeyForName(name)
   local e = key and entries()[key]
   -- A person by name; a mob named after a lore topic ("Defias Trapper") finds the topic.
-  if e and ((how == "exact" and e.t == "npc") or (how == "mob" and e.t == "topic")) then return key end
-  return nil
+  if e and ((how == "exact" and e.t == "npc") or (how == "mob" and e.t == "topic")) then return key, id or name end
+  return nil, id or name
 end
 
 -- An item's entry by its item id when there is one, else by its name.
@@ -246,6 +288,7 @@ local function bagItemKeys()
       end
       local name = type(link) == "string" and (link:match("%[(.-)%]") or link) or nil
       local key = Collection.ItemKey(name, id)
+      pcall(tally, "item", id or name, key, key ~= nil and key == keyOfId("itemId", id, ITEM))
       if key then
         out[#out + 1] = key
         local q = type(info) == "table" and info.quality or nil
@@ -267,11 +310,23 @@ local function onPlace()
   local p = ns.Context.Place()
   -- The zone, city or dungeon by the map the game puts you on; then by the names (subzones have only names: Lang.lua
   -- gives every area the client's own name too).
-  Collection.Find(keyOfId("mapId", _G.C_Map and try(C_Map.GetBestMapForUnit, "player"), PLACE_KINDS), "enter")
-  for _, key in ipairs(placeKeys(p.zone, p.subzone)) do Collection.Find(key, "enter") end
+  local byMap = keyOfId("mapId", _G.C_Map and try(C_Map.GetBestMapForUnit, "player"), PLACE_KINDS)
+  Collection.Find(byMap, "enter")
+  local keys = placeKeys(p.zone, p.subzone)
+  for _, key in ipairs(keys) do Collection.Find(key, "enter") end
+  -- The tally last, so finding never waits on it (or stops for it).
+  local matched = hasPage(byMap) and byMap or nil
+  for _, key in ipairs(keys) do if not matched and hasPage(key) then matched = key end end
+  if usable(p.zone) then
+    pcall(tally, "place", p.zone .. "|" .. (usable(p.subzone) and p.subzone or ""), matched, matched == byMap)
+  end
 end
 
-local function onPerson(unit) Collection.Find(personKey(unit), "meet") end
+local function onPerson(unit)
+  local key, who, byId = personKey(unit)
+  Collection.Find(key, "meet")
+  pcall(tally, "person", who, key, byId)
+end
 
 local bagQueued
 local function onBags()
@@ -288,6 +343,7 @@ end
 function Collection.OnItemTooltip(name, id)
   local key = Collection.ItemKey(name, id)
   Collection.Find(key, "hover")
+  pcall(tally, "item", id or name, key, key ~= nil and key == keyOfId("itemId", id, ITEM))
   if key and id then Collection.NoteQuality(key, select(3, try(GetItemInfo, id))) end
 end
 
@@ -347,6 +403,7 @@ local handlers = {
   QUEST_ACCEPTED = function(a, b)
     local id = b or a   -- classic passes (logIndex, questID), newer clients (questID)
     Collection.Find(questKey(id), "quest")
+    pcall(tally, "quest", tonumber(id), questKey(id), true)
   end,
   BAG_UPDATE_DELAYED = onBags,
 }
@@ -354,14 +411,12 @@ local handlers = {
 -- The fill-in -------------------------------------------------------------------------------------------------------
 -- What the add-on already knew becomes found, once per character (FILL): the journey's moments (oldest first, so
 -- each page keeps its first time and place), the places, people, bosses and books it saw, every quest the server
--- says is done (with the people who give and take it), quests in the log, stories already heard, and the bags.
+-- says is done (with the people who give and take it), quests in the log, and the bags. Not stories heard: a story
+-- plays from the book, an answer or a friend's link as well as where you stand, and hearing of Elwynn Forest isn't
+-- going there (LOR-1501). Where you stood, the journey has it.
 
-local function fillList()
-  local items = {}   -- { key, how, t, lv, place }
-  local function add(key, how, t, lv, place)
-    if key then items[#items + 1] = { key, how, t or 0, lv, place } end
-  end
-  local j = ns.Context.Journey and ns.Context.Journey()
+-- The journey's moments and what it saw, each as add(key, "past", t, lv, place).
+local function journeyItems(j, add)
   if type(j) == "table" then
     for _, e in ipairs(type(j.events) == "table" and j.events or {}) do
       if type(e) == "table" then
@@ -388,8 +443,19 @@ local function fillList()
     end
     for name, t in pairs(type(seen.book) == "table" and seen.book or {}) do add(Collection.ItemKey(name), "past", t) end
   end
-  -- Quests done, from the journey's copy of the server's list, else the server itself.
-  local done = type(j) == "table" and type(j.completed) == "table" and j.completed or nil
+end
+
+local function fillList()
+  local items = {}   -- { key, how, t, lv, place }
+  local function add(key, how, t, lv, place)
+    if key then items[#items + 1] = { key, how, t or 0, lv, place } end
+  end
+  local j = ns.Context.Journey and ns.Context.Journey()
+  journeyItems(j, add)
+  -- Quests done, from the journey's saved copy of the server's list (whatever "Remember my journey" says: the server's
+  -- can still be empty a few seconds after login), else the server itself.
+  local jc = ns.Journey.Char and ns.Journey.Char()
+  local done = type(jc) == "table" and type(jc.completed) == "table" and #jc.completed > 0 and jc.completed or nil
   if not done then
     done = {}
     local list = _G.C_QuestLog and try(C_QuestLog.GetAllCompletedQuestIDs)
@@ -401,32 +467,121 @@ local function fillList()
       end
     end
   end
+  local log = {}
+  for _, q in ipairs(try(ns.Context.Quests) or {}) do log[#log + 1] = questKey(q.id) end
+  -- The server lists every copy of some quests as done once you've done one: "The Adventurer" is a quest in seven
+  -- starting zones, each its own id, and a character who did Tirisfal's has all seven, Elwynn Forest's too (LOR-1501).
+  -- So among done quests that share a name, when what you really did backs one of them (the saved journey took or
+  -- turned it in, it's in your log, or it was found as you played), only those backed count, with their people. Only
+  -- Forever's own quests (fv) can be copies: an older chain of one name ("The Defias Brotherhood", parts done before
+  -- the add-on and parts after) always counts whole. When nothing backs any (done before the add-on, or the journey
+  -- off), they all count. Names are the English ones (en: a language pack writes its own over n, and names only some
+  -- copies). left: the pages, and their people, the server listed but you didn't do.
+  local r, sure, named, left = Collection.Store(), {}, {}, {}
+  for _, e in ipairs(type(jc) == "table" and type(jc.events) == "table" and jc.events or {}) do
+    if type(e) == "table" and (e.k == "qa" or e.k == "qt") then
+      local key = questKey(tonumber(e.id))
+      if key then sure[key] = true end
+    end
+  end
+  for _, key in ipairs(log) do sure[key] = true end
+  for key in pairs(r and r.found or {}) do   -- (a fill-in's "done" or "past" isn't proof: the journey's events are above)
+    local rec = Collection.Found(key)
+    if rec and rec.how ~= "done" and rec.how ~= "past" then sure[key] = true end
+  end
+  local function englishName(key) local e = entries()[key]; return lower(e.en or e.n or "") end
+  for _, id in ipairs(done) do
+    local key = questKey(id)
+    local n = key and englishName(key)
+    if n then
+      local g = named[n]
+      if not g then g = { backed = false }; named[n] = g end
+      g[#g + 1] = key
+      g.backed = g.backed or sure[key] == true
+    end
+  end
   for _, id in ipairs(done) do
     local key = questKey(id)
     local m = key and entries()[key].m
-    add(key, "done")
+    local g = key and named[englishName(key)]
+    local copy = g and #g > 1 and g.backed and not sure[key] and entries()[key].fv
+    local function person(name)
+      local k = keyOfKind(name, PERSON)
+      if copy then left[#left + 1] = k else add(k, "done") end
+    end
+    if copy then left[#left + 1] = key else add(key, "done") end
     if type(m) == "table" then
-      add(keyOfKind(m.start, PERSON), "done")
-      add(keyOfKind(m["end"], PERSON), "done")
+      person(m.start)
+      person(m["end"])
     end
   end
-  for _, q in ipairs(try(ns.Context.Quests) or {}) do add(questKey(q.id), "quest") end
-  -- Stories heard (a clip id is its entry's key, with #faqN or #sectionN for a part of it).
-  local heard = type(LoreForeverDB.heard) == "table" and LoreForeverDB.heard[ns.Journey.CharKey()]
-  for id, t in pairs(type(heard) == "table" and heard or {}) do
-    if type(id) == "string" then add(id:match("^(.-)#") or id, "past", type(t) == "number" and t or 0) end
-  end
+  for _, key in ipairs(log) do add(key, "quest") end
   for _, k in ipairs(bagItemKeys()) do add(k, "loot") end
-  return items
+  return items, left
+end
+
+-- Takes back the pages an older fill-in found only from a story heard (LOR-1501): a record shaped as that fill-in wrote
+-- it ("t;past;;": no level, no place) whose time is when one of the page's stories was heard, unless this fill-in or
+-- the saved journey finds the page too (whatever "Remember my journey" says now: a visit it kept is a visit). Everything
+-- found as you play, and everything the journey backs, stays. A taken-back record is set aside in r.unheard, not erased.
+local function unheard(r, items)
+  local heard = type(LoreForeverDB.heard) == "table" and LoreForeverDB.heard[ns.Journey.CharKey()]
+  if type(heard) ~= "table" then return end
+  local at = {}   -- { [entry key] = { [time heard] = true } } (a clip id is its entry's key, with #faqN or #sectionN)
+  for id, t in pairs(heard) do
+    if type(id) == "string" and type(t) == "number" then
+      local key = id:match("^(.-)#") or id
+      at[key] = at[key] or {}
+      at[key][math.floor(t)] = true
+    end
+  end
+  local backed, taken = {}, false
+  for _, it in ipairs(items) do backed[it[1]] = true end
+  journeyItems(ns.Journey.Char and ns.Journey.Char(), function(key) if key then backed[key] = true end end)
+  for key in pairs(at) do
+    local rec = not backed[key] and Collection.Found(key)
+    if rec and rec.how == "past" and rec.lv == nil and rec.place == nil and at[key][rec.t] then
+      if type(r.unheard) ~= "table" then r.unheard = {} end
+      r.unheard[key] = r.unheard[key] or r.found[key]   -- the first one set aside, if it's ever set aside again
+      r.found[key] = nil
+      r.new[key] = nil
+      taken = true
+    end
+  end
+  -- Found's index leaves pages out of its totals by what's found (#3985): build it again.
+  if taken and ns.Book and ns.Book.Forget then ns.Book.Forget() end
+end
+
+-- Takes back the copies of a quest an older fill-in found from the server's done list though you did another copy
+-- (fillList's left: the quest pages and their people), when the record is exactly what that fill-in wrote ("0;done;;")
+-- and nothing else finds the page: not this fill-in, not the saved journey. Set aside in r.undone, not erased.
+local function undone(r, items, left)
+  local backed, taken = {}, false
+  for _, it in ipairs(items) do backed[it[1]] = true end
+  journeyItems(ns.Journey.Char and ns.Journey.Char(), function(key) if key then backed[key] = true end end)
+  for _, key in ipairs(left) do
+    local rec = not backed[key] and Collection.Found(key)
+    if rec and rec.how == "done" and rec.t == 0 and rec.lv == nil and rec.place == nil then
+      if type(r.undone) ~= "table" then r.undone = {} end
+      r.undone[key] = r.undone[key] or r.found[key]
+      r.found[key] = nil
+      r.new[key] = nil
+      taken = true
+    end
+  end
+  if taken and ns.Book and ns.Book.Forget then ns.Book.Forget() end
 end
 
 function Collection.Fill(done)
   local r = Collection.Store()
   if not r or r.filled == FILL then if done then done() end return end
-  local ok, items = pcall(fillList)
-  if not ok then items = {} end
-  -- A character an older fill-in already ran for only gains what it missed: a page it has found keeps its record.
+  local ok, items, left = pcall(fillList)
+  if not ok then items, left = {}, {} end
+  -- A character an older fill-in already ran for only gains what it missed: a page it has found keeps its record,
+  -- but what only a heard story found goes (before version 3), and so do the quest copies it didn't do (before 4).
   local refill = r.filled ~= nil
+  if refill and ok and (tonumber(r.filled) or 0) < 3 then pcall(unheard, r, items) end
+  if refill and ok and (tonumber(r.filled) or 0) < 4 then pcall(undone, r, items, left) end
   local i = 1
   local function step()
     local last = math.min(i + SLICE - 1, #items)

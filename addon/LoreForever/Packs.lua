@@ -37,6 +37,8 @@ local WRITERS = {
   ["lang-overlay"] = function() return { ui = {}, strings = {}, fp = {} } end,
 }
 
+local DATA_ONLY = { lang = true, ["lang-overlay"] = true, ["edition-text"] = true, ["edition-voice"] = true }
+
 -- The add-on API moved into C_AddOns; older clients have the same calls as globals.
 local A = _G.C_AddOns or {}
 local function results(ok, ...)
@@ -223,7 +225,10 @@ function Packs.Load(name)
   if Packs.data[name] and not (rec.format and rec.format > Packs.FORMAT) then return Packs.data[name] end
   if rec.format and rec.format > Packs.FORMAT then return nil, "NEWER_FORMAT" end
   if withdrawn(rec) then return nil, "WITHDRAWN" end
-  if InCombatLockdown and InCombatLockdown() then return nil, "COMBAT" end
+  -- Text packs and both edition halves are data only (no frames, nothing secure), so they load in combat too: a /reload
+  -- mid-fight keeps the player's language (or edition) instead of English for the whole session. Voice packs still
+  -- wait and retry when combat ends (Voice.OnCombatEnded).
+  if not DATA_ONLY[rec.kind] and InCombatLockdown and InCombatLockdown() then return nil, "COMBAT" end
   Packs.loading = name
   local loaded, reason = call("LoadAddOn", name)
   Packs.loading = nil
@@ -325,8 +330,36 @@ local REASONS = {
   NO_DATA = function() return L["Didn't load: reinstall it"] end,
   WITHDRAWN = function() return L["Paused"] end,   -- Packs.WITHDRAWN: its language shows text until a new recording
 }
-function Packs.ReasonText(reason)
+-- The game says only DEP_MISSING / DEP_DISABLED, and the core is running: the dependency at fault is another one (the
+-- Ukrainian narrator needs the Ukrainian text pack). The first of a pack's dependencies that is missing, disabled or
+-- can't load; nil when none is (or the client can't say), and the words name the core as before.
+local function blockingDep(name)
+  for _, dep in ipairs({ call("GetAddOnDependencies", name) }) do
+    if type(dep) == "string" and dep ~= "LoreForever" then
+      local present, _, _, loadable, why = call("GetAddOnInfo", dep)
+      if not present or why == "MISSING" or why == "DISABLED" or (not loadable and why ~= "DEMAND_LOADED") then
+        return dep
+      end
+    end
+  end
+end
+
+-- rec (optional): the pack, so a missing or disabled dependency is named.
+function Packs.ReasonText(reason, rec)
   if not reason then return nil end
+  if rec and (reason == "DEP_MISSING" or reason == "DEP_DISABLED") then
+    local dep = blockingDep(rec.name)
+    if dep then
+      local known, locale = Packs.byName[dep], dep:match("^" .. PREFIX.lang .. "(%a%a%a%a)$")
+      if locale then
+        local language = Packs.LanguageName(locale, known and known.languageName)
+        if reason == "DEP_DISABLED" then return string.format(L["The %s language pack is disabled"], language) end
+        -- Missing: where to get it, as for a voice whose language has no text pack (Voice.InstalledPacks).
+        return string.format(L["Needs the %s language pack: %s"], language, ns.Voice.TextPackLink(locale))
+      end
+      return string.format(L["Needs %s"], known and known.title or dep)
+    end
+  end
   local text = REASONS[reason]
   if text then return text() end
   return string.format(L["Can't load (%s)"], tostring(reason))

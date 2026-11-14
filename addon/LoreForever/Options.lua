@@ -72,10 +72,10 @@ Options.DEFAULTS = {
   voiceMatchRace = false,  -- prefer voices that suit the race of the lore (orc lore in an orc voice)
   voiceMatchGender = true, -- quest dialogue: the quest givers' race and gender voices (Voice.QuestClip)
   -- A narrator of the other gender fills in for a story the player's own hasn't recorded (Mike, 11/1: the other
-  -- narrator beats silence; turned on once for older installs: Log.Init's fillGenderOn). English ones in another
-  -- language fill in only when allowed (Voice.lua familyOf, englishFill).
+  -- narrator beats silence; turned on once for older installs: Log.Init's fillGenderOn). Never a narrator in another
+  -- language: a story's voice and its text are the same language and words (Mike, 11/14; an older save's
+  -- voiceFillLanguage is ignored).
   voiceFillGender = true,
-  voiceFillLanguage = false,
   -- The game's sound channel recordings play on (Play voices on, LOR-315): Dialog, SFX, Music, Ambience or Master.
   -- Voice volume is that channel's own volume in the game's settings, which Lore Forever never keeps a copy of.
   voiceChannel = "Dialog",
@@ -370,12 +370,8 @@ function Options.VoiceSection(c, anchor)
   local fillGender, _, fillGenderNote = tick(L["Let a man's and a woman's narrator fill in for each other"],
     L["Off: a story your top narrator hasn't recorded shows as text, rather than switching to a narrator of the other gender."],
     box, 4, "voiceFillGender", revoice)
-  local fillLang, _, fillLangNote = tick(L["Let English narration fill in"],
-    L["With Lore Forever in another language: a story with no recording in it plays in English instead of showing as text."],
-    fillGenderNote, 2, "voiceFillLanguage", revoice)
-  fillLang:SetPoint("TOPLEFT", fillGenderNote, "BOTTOMLEFT", -30, -2)
-  local modeLabel = note(c, L["When several voices have a narration:"], fillLangNote, 10, "GameFontNormalSmall")
-  modeLabel:SetPoint("TOPLEFT", fillLangNote, "BOTTOMLEFT", -26, -10)
+  local modeLabel = note(c, L["When several voices have a narration:"], fillGenderNote, 10, "GameFontNormalSmall")
+  modeLabel:SetPoint("TOPLEFT", fillGenderNote, "BOTTOMLEFT", -26, -10)
   local mode, modeList = dropDown("LoreForeverVoiceMode", c, 300)
   mode:SetPoint("TOPLEFT", modeLabel, "BOTTOMLEFT", 2, -4)
   local race = CreateFrame("CheckButton", nil, c, "UICheckButtonTemplate")
@@ -631,7 +627,6 @@ function Options.VoiceSection(c, anchor)
     mode:SetText(modeNames[cur] or modeNames.story)
     race:SetChecked(LoreForeverDB and LoreForeverDB.settings.voiceMatchRace and true or false)
     fillGender:SetChecked(LoreForeverDB and LoreForeverDB.settings.voiceFillGender and true or false)
-    fillLang:SetChecked(LoreForeverDB and LoreForeverDB.settings.voiceFillLanguage and true or false)
     gender:SetChecked(not (LoreForeverDB and LoreForeverDB.settings.voiceMatchGender == false))
     status:SetText(ns.Voice.Status(true))
     fillUrl()
@@ -659,7 +654,7 @@ function Options.VoiceSection(c, anchor)
   end)
   section.rows, section.box, section.mode, section.modeList = rows, box, mode, modeList
   section.status, section.url, section.race = status, url, race
-  section.fillGender, section.fillLanguage, section.gender = fillGender, fillLang, gender
+  section.fillGender, section.gender = fillGender, gender
   section.volume, section.volumeValue, section.volumeNote = volume.slider, volume.value, volume.note
   section.volumeLabel, section.volumeNew, section.SyncVolume = volume.label, volume.new, volume.Sync
   section.channel, section.channelList, section.channelLabel = volume.channel, volume.channelList, volume.pick
@@ -760,7 +755,7 @@ local function languageSection(c, p, anchor)
   local function update()
     local _, _, label = items()
     btn:SetText(label)
-    if ns.lang and ns.lang.edition and ns.lang.edition.unavailable then
+    if ns.lang and ns.lang.editionUnavailable then
       hint:SetText(L["Edition unavailable. Install or enable both matching components, then reload, or select another edition or stock language here."])
     end
     fillUrl()
@@ -868,6 +863,27 @@ local function subtitleSizeSection(c, anchor)
   fit(back, 140)
   back:SetScript("OnClick", function() ns.Subtitles.PutBack() end)
   btn.move, btn.back = move, back
+  -- What the next section hangs from: the pick, or the two buttons once they've gone under it.
+  local rowEnd = CreateFrame("Frame", nil, c)
+  rowEnd:SetSize(1, 1)
+  rowEnd:SetPoint("BOTTOMLEFT", btn, "BOTTOMLEFT", 0, 0)
+  btn.rowEnd = rowEnd
+  -- Once the page is laid out (OnShow): beside the pick when the row fits the page's width, else under it, so a
+  -- long (translated) label never runs off the page (LOR-763).
+  function btn.Place()
+    local left, right = btn:GetLeft(), c:GetRight()
+    if type(left) ~= "number" or type(right) ~= "number" then return end
+    local wide = btn:GetWidth() + move:GetWidth() + back:GetWidth() + 20 > right - left - 8
+    move:ClearAllPoints()
+    rowEnd:ClearAllPoints()
+    if wide then
+      move:SetPoint("TOPLEFT", btn, "BOTTOMLEFT", 0, -8)
+      rowEnd:SetPoint("BOTTOMLEFT", move, "BOTTOMLEFT", 0, 0)
+    else
+      move:SetPoint("LEFT", btn, "RIGHT", 10, 0)
+      rowEnd:SetPoint("BOTTOMLEFT", btn, "BOTTOMLEFT", 0, 0)
+    end
+  end
   return btn
 end
 
@@ -1065,7 +1081,7 @@ function Options.Create()
     name:SetPoint("TOPLEFT", lastKey, "BOTTOMLEFT", 0, lastKey == keysHead and -12 or -14)
     name:SetWidth(240)
     name:SetJustifyH("LEFT")
-    name:SetWordWrap(false)
+    name:SetWordWrap(true)   -- a long (translated) name takes a second line rather than being cut (LOR-763)
     name:SetText(label)
     local shown = c:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
     shown:SetPoint("LEFT", name, "LEFT", 250, 0)
@@ -1111,7 +1127,7 @@ function Options.Create()
       row.shown:SetShown(on)
       row.set:SetShown(on)
       if on then lowest = row.name end
-      local key = GetBindingKey and GetBindingKey(row.binding)
+      local key = GetBindingKey and GetBindingKey(row.binding, true)   -- Willo's "Use anyway" override too (LOR-1505)
       local text = key and GetBindingText and GetBindingText(key) or key
       row.shown:SetText(text and text:gsub("|", "||") or L["None"])
       row.shown:SetTextColor(T.rgba(key and T.color.tipText or T.color.muted))
@@ -1218,7 +1234,7 @@ function Options.Create()
   p.moveSubtitles, p.putSubtitlesBack = subtitleBtn.move, subtitleBtn.back
   p.updateSize = function() sizeBtn.Update(); subtitleBtn.Update() end
   local bottom
-  p.voice, bottom = Options.VoiceSection(c, subtitleBtn)
+  p.voice, bottom = Options.VoiceSection(c, subtitleBtn.rowEnd)
   -- The voice rows are made now, hidden, not as the settings window first shows the page: a frame made on an open game
   -- window taints the controller interface (LOR-481, Context.GamepadUI). One per voice installed, and "auto"; filling
   -- them waits for the page, since that loads packs.
@@ -1239,6 +1255,7 @@ function Options.Create()
     -- Scroll height: from the top of the content to its last line, once the game has laid the text out.
     local w = sf.GetWidth and sf:GetWidth()
     if type(w) == "number" and w > 0 then c:SetWidth(w) end
+    subtitleBtn.Place()
     local top, low = c.GetTop and c:GetTop(), bottom.GetBottom and bottom:GetBottom()
     if type(top) == "number" and type(low) == "number" and top > low then c:SetHeight(top - low + 24) end
   end)

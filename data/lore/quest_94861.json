@@ -1,0 +1,74 @@
+{
+ "key": "quest:94861",
+ "type": "quest",
+ "name": "Helping Hands",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94861
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Hurley needs you to help save Curly, who has not returned from his lunch break. He fears there is little time to reach him.",
+ "sections": [
+  {
+   "title": "Hurley\u2019s Concern",
+   "body": "Hurley is worried because Curly did not return for lunch. He asks you to go with him and save the missing worker, and fears there is little time. Curly is a good worker despite his foolishness, and Hurley hopes he will recover and learn some sense.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Curly?",
+   "aliases": [
+    "curly who",
+    "who's curly",
+    "curly backstory"
+   ],
+   "answer": "Curly is a worker who has not returned for lunch. Hurley calls him a good worker, though he thinks Curly can be foolish."
+  },
+  {
+   "q": "Who asks for help saving Curly?",
+   "aliases": [
+    "who wants help",
+    "help curly",
+    "hurley asks"
+   ],
+   "answer": "Hurley asks you to go with him and save Curly."
+  },
+  {
+   "q": "Why is Hurley worried?",
+   "aliases": [
+    "why worried",
+    "curly missing",
+    "where is curly"
+   ],
+   "answer": "Curly did not come back for lunch, and Hurley fears there is little time to save him."
+  },
+  {
+   "q": "What does Hurley hope for Curly?",
+   "aliases": [
+    "curly outcome",
+    "does curly heal",
+    "curly recover"
+   ],
+   "answer": "Hurley hopes Curly heals well and learns some sense."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "curly",
+  "helping hands",
+  "hurley",
+  "lunch break",
+  "missing worker",
+  "save curly"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Helping Hands"
+ ]
+}

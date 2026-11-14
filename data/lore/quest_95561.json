@@ -1,0 +1,75 @@
+{
+ "key": "quest:95561",
+ "type": "quest",
+ "name": "Apple of My Eye",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95561
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "At Farholde Keep, Tessa Dawnbright asks you to find apples for fussy baby Emma. She hopes to make the child a mash.",
+ "sections": [
+  {
+   "title": "A Fussy Child",
+   "body": "Tessa Dawnbright is caring for baby Emma in Farholde Keep, where the child's cries ring through the keep. Tessa says her hands are full while her husband is away gathering supplies. She asks you to find fresh apples so she can make Emma a mash.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for apples?",
+   "aliases": [
+    "Tessa apples",
+    "who needs apples",
+    "apple quest giver"
+   ],
+   "answer": "Tessa Dawnbright asks you to find apples for baby Emma at Farholde Keep."
+  },
+  {
+   "q": "Why does Tessa need apples?",
+   "aliases": [
+    "why apples",
+    "apples for baby",
+    "what are apples for"
+   ],
+   "answer": "Tessa hopes to make a mash for fussy baby Emma."
+  },
+  {
+   "q": "Where does Tessa need help?",
+   "aliases": [
+    "where is Tessa",
+    "Farholde apples",
+    "apple location"
+   ],
+   "answer": "Tessa asks for help at Farholde Keep."
+  },
+  {
+   "q": "Why can't Tessa get the supplies herself?",
+   "aliases": [
+    "Tessa husband",
+    "where is her husband",
+    "why can't she go"
+   ],
+   "answer": "Tessa says her hands are too full caring for Emma while her husband is out for supplies."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "apple mash",
+  "apple of my eye",
+  "baby",
+  "emma",
+  "farholde keep",
+  "fresh apples",
+  "tessa dawnbright"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Apple of My Eye"
+ ]
+}

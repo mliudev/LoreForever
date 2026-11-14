@@ -82,6 +82,9 @@ end
 --   map, mapclick                                          Bigger map opened, a moment opened from a map's marker
 --   err                                                    Lore Forever's own Lua errors (Errors.lua), the number only
 --   login, min                                             game sessions, and minutes in game (counted at logout)
+--   seen, match, byid = { place, person, item, quest }    Found's finding (Collection.lua tally, LOR-1484's catch): each
+--                                                          thing the game showed, once a session, those with a page,
+--                                                          and of those, the ones found by the game's id
 --   lv, voice, lang, client, on, off = { <kind> = 1 }      categories, not counts (Log.Mark): the level range (by tens),
 --                                                          the voice (default, female, edition, other, none), the
 --                                                          language shown and the game's, and which of KEY_SETTINGS
@@ -263,7 +266,7 @@ end
 -- Report codes (LOR-120) --------------------------------------------------------------------------------------------
 -- "Copy report" turns a logged answer into a short code players paste on loreforeverwow.com/feedback (its Entry code
 -- field, 120 characters) or in Discord. site/public/report-code.js decodes it; keep the two in step. Fields, split by ~:
---   LF1 ~ add-on version[.locale][@client version] ~ reason ~ via+shown ~ entry key[.f<faq>|.s<section>] ~ score ~ zone[/subzone]
+--   LF1 ~ add-on version[.locale][@client version][/game language] ~ reason ~ via+shown ~ entry key[.f<faq>|.s<section>] ~ score ~ zone[/subzone]
 --       ~ target ~ quest ids (comma-separated) ~ question (spaces as _)
 -- Never the character's name: it's taken out of the question too. Quests with lore come first; quests, then the
 -- target, then the end of the question are dropped to fit.
@@ -316,6 +319,14 @@ local function clientBuild()
   return "@" .. (v:gsub("[^%d.]", ""))
 end
 
+-- "/" and the game's own language ("/deDE"), after the client version: with the language the add-on reads in (".de",
+-- its pack's) it tells a German game without its pack from an English game, which both read ".en"-less before (11/13,
+-- LOR-1484: a report then needed "which language is your game?"). "" when the client doesn't say.
+local function gameLanguage()
+  local ok, l = pcall(_G.GetLocale or function() end)
+  return (ok and type(l) == "string" and l:match("^%l%l%u%u$")) and ("/" .. l) or ""
+end
+
 -- This add-on's version, from its .toc ("-" when the client doesn't say).
 function Log.Version() return addonVersion() end
 
@@ -324,7 +335,7 @@ function Log.ReportCode(entry)
   local ctx, top = entry.ctx or {}, (entry.results or {})[1] or {}
   local locale = ns.lang and ns.lang.locale
   local version = addonVersion() .. ((locale and locale ~= "enUS") and ("." .. locale:sub(1, 2):lower()) or "")
-    .. clientBuild()
+    .. clientBuild() .. gameLanguage()
   local answer = "-"
   if top.key then
     answer = top.key .. ((top.kind == "faq" and top.idx and (".f" .. top.idx))

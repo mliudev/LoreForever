@@ -1,0 +1,76 @@
+{
+ "key": "quest:95119",
+ "type": "quest",
+ "name": "Unfriendly Competition",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95119
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A Powderfuse Port proprietor asks you to curb the Eastsea crew's raids on cargo and ships. Their nearest members are along the Eastwind Shore.",
+ "sections": [
+  {
+   "title": "Along the Shore",
+   "body": "Ships sink and cargo goes missing, cutting into the proprietor's business at Powderfuse Port. The Eastsea crew's buccaneers and musketeers are the ones closest to the port, along the Eastwind Shore to the north. The proprietor wants you to deal with them first; the rest of the crew's operation remains a concern.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who gave this",
+    "port owner",
+    "powderfuse guy"
+   ],
+   "answer": "A proprietor at Powderfuse Port asks you to deal with the Eastsea crew."
+  },
+  {
+   "q": "Who are the Eastsea crew?",
+   "aliases": [
+    "eastsea pirates",
+    "eastsea guys",
+    "who are eastsea"
+   ],
+   "answer": "The Eastsea crew are described as destructive and bloodthirsty, and they steal cargo and sink ships."
+  },
+  {
+   "q": "Why does the proprietor want them stopped?",
+   "aliases": [
+    "why fight eastsea",
+    "cargo theft",
+    "why are ships sinking"
+   ],
+   "answer": "The crew steals cargo and sinks ships, costing the proprietor money."
+  },
+  {
+   "q": "Where are the Eastsea crew closest to the port?",
+   "aliases": [
+    "eastwind shore",
+    "where are the pirates",
+    "north beach"
+   ],
+   "answer": "The crew members closest to Powderfuse Port are along the Eastwind Shore to the north."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cargo theft",
+  "eastsea buccaneers",
+  "eastsea crew",
+  "eastsea musketeers",
+  "eastwind shore",
+  "powderfuse port",
+  "sinking ships",
+  "unfriendly competition"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Unfriendly Competition"
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "key": "quest:98887",
+ "type": "quest",
+ "name": "Conflict at Darkspear Islands",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98887
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A Horde Warbringer calls you to answer the Theramore Expeditionary Force on the Darkspear Islands. Their reinforcements keep strengthening their position, and the Horde demands proof of victory.",
+ "sections": [
+  {
+   "title": "The Call",
+   "body": "A Horde Warbringer outside the battlegrounds asks you to bring back three Darkspear Islands Marks of Honor. The Theramore Expeditionary Force keeps sending reinforcements to strengthen its position on the islands. The Horde calls this a key battleground, and the Warbringer seeks evidence of victory there.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is sending reinforcements?",
+   "aliases": [
+    "who keeps reinforcing",
+    "theramore forces",
+    "who is on the islands"
+   ],
+   "answer": "The Theramore Expeditionary Force continues to send reinforcements to bolster its position on the Darkspear Islands."
+  },
+  {
+   "q": "What does the Horde Warbringer want?",
+   "aliases": [
+    "what does he want",
+    "warbringer request",
+    "what am I bringing"
+   ],
+   "answer": "A Horde Warbringer outside the battlegrounds asks you to bring three Darkspear Islands Marks of Honor as evidence of victory."
+  },
+  {
+   "q": "Where do I take the Marks of Honor?",
+   "aliases": [
+    "where to bring marks",
+    "who gets the marks",
+    "warbringer location"
+   ],
+   "answer": "Bring the three Darkspear Islands Marks of Honor to a Horde Warbringer outside the battlegrounds."
+  },
+  {
+   "q": "Why does the Horde call this a key battleground?",
+   "aliases": [
+    "why is it important",
+    "why fight there",
+    "battleground importance"
+   ],
+   "answer": "The Theramore Expeditionary Force keeps sending reinforcements to bolster its position on the Darkspear Islands."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you are asked to show its might against the Theramore Expeditionary Force and bring back evidence of victory."
+  }
+ ],
+ "keywords": [
+  "battleground",
+  "darkspear islands",
+  "horde",
+  "horde warbringer",
+  "marks of honor",
+  "reinforcements",
+  "theramore expeditionary force"
+ ],
+ "related": [
+  "zone:darkspearislands",
+  "topic:horde"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Conflict at Darkspear Islands"
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "key": "quest:7900",
+ "type": "quest",
+ "name": "Torn Bear Pelts",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   7900
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "You bring torn bear pelts to someone who plans to have them sewn into plush toys. Tickets are offered as payment.",
+ "sections": [
+  {
+   "title": "A New Use",
+   "body": "The recipient plans to have the bear pelts sewn into plush toys, with stuffing and paint. They offer you tickets as payment.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What are the bear pelts for?",
+   "aliases": [
+    "torn bear pelts purpose",
+    "what do pelts make"
+   ],
+   "answer": "They are intended to be sewn into plush toys with stuffing and paint."
+  },
+  {
+   "q": "What do I get for the pelts?",
+   "aliases": [
+    "payment for pelts",
+    "pelts tickets"
+   ],
+   "answer": "The recipient offers you tickets as payment."
+  },
+  {
+   "q": "Who will sew the toys?",
+   "aliases": [
+    "who makes plush toys",
+    "who sews the bears"
+   ],
+   "answer": "The recipient says someone will sew the pelts into plush toys."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bear pelts",
+  "paint",
+  "plush toys",
+  "stuffing",
+  "tickets",
+  "torn bear pelts"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Torn Bear Pelts"
+ ]
+}

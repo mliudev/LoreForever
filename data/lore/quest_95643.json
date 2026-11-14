@@ -1,0 +1,97 @@
+{
+ "key": "quest:95643",
+ "type": "quest",
+ "name": "Indiscriminate Purge",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95643
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "An apprentice of Lady Amberhall asks you to face void-infused ogres beneath Sunnyglade. The Twilight\u2019s Hammer will feel the losses.",
+ "sections": [
+  {
+   "title": "Below Sunnyglade",
+   "body": "Lady Amberhall\u2019s apprentice was taken by ogres and their masters in the caves beneath Sunnyglade. She asks you to put down the Twilight Ritualists and Empowered Brutes there. The losses will strike the Twilight\u2019s Hammer.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for help beneath Sunnyglade?",
+   "aliases": [
+    "amberhall apprentice",
+    "who is asking",
+    "lady amberhall quest"
+   ],
+   "answer": "Lady Amberhall\u2019s apprentice asks you to kill the ogres in the caves beneath Sunnyglade."
+  },
+  {
+   "q": "What is in the caves?",
+   "aliases": [
+    "sunnyglade cave",
+    "what ogres",
+    "cave enemies"
+   ],
+   "answer": "The caves beneath Sunnyglade hold void-infused ogres and their masters."
+  },
+  {
+   "q": "Who are the ogres\u2019 masters?",
+   "aliases": [
+    "ogre masters",
+    "twilight ritualists",
+    "who controls ogres"
+   ],
+   "answer": "The apprentice identifies the ogres\u2019 masters as Twilight Ritualists."
+  },
+  {
+   "q": "Which ogres does the apprentice name?",
+   "aliases": [
+    "empowered brutes",
+    "what ogres to kill",
+    "ogre names"
+   ],
+   "answer": "She names Empowered Brutes among the beasts in the caves."
+  },
+  {
+   "q": "Why does the apprentice ask you to kill them?",
+   "aliases": [
+    "why kill ogres",
+    "why purge",
+    "why help amberhall"
+   ],
+   "answer": "She says that nothing good comes from fanatics with a purpose, empowered or otherwise."
+  },
+  {
+   "q": "What does the apprentice say about her own abilities?",
+   "aliases": [
+    "apprentice captured",
+    "amberhall apprentice capable",
+    "what happened to her"
+   ],
+   "answer": "She says she is usually capable of handling things on her own, but the ogres captured her."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "apprentice",
+  "empowered brutes",
+  "indiscriminate purge",
+  "lady amberhall",
+  "sunnyglade",
+  "twilight ritualists",
+  "twilight's hammer",
+  "void-infused ogres"
+ ],
+ "related": [
+  "subzone:sunnyglade",
+  "topic:twilight-s-hammer"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Indiscriminate Purge"
+ ]
+}

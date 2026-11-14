@@ -1,0 +1,89 @@
+{
+ "key": "quest:95425",
+ "type": "quest",
+ "name": "Unworthy Champion",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95425
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Clugfist wants you to recover Skullbasher from Klunk at Bolder'ok. He no longer considers Klunk worthy of the weapon.",
+ "sections": [
+  {
+   "title": "Clugfist's Demand",
+   "body": "Clugfist sends you after Klunk at Bolder'ok, where Klunk has gone with ogres to a cave east of the water. He wants his weapon back and calls Klunk weak. Skullbasher is the mark of a champion in Clugfist's eyes, and he means to choose another.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Klunk?",
+   "aliases": [
+    "klunk who",
+    "klunk backstory"
+   ],
+   "answer": "Klunk was once Clugfist's champion, but Clugfist now calls him weak."
+  },
+  {
+   "q": "Who is Clugfist?",
+   "aliases": [
+    "clugfist who",
+    "clugfist ogre"
+   ],
+   "answer": "Clugfist is the ogre who gave Klunk a mighty weapon and now wants it back."
+  },
+  {
+   "q": "Why does Clugfist want Skullbasher?",
+   "aliases": [
+    "why take skullbasher",
+    "clugfist weapon"
+   ],
+   "answer": "Clugfist says Skullbasher belongs to him and calls Klunk unworthy of it."
+  },
+  {
+   "q": "Where did Klunk go?",
+   "aliases": [
+    "klunk location",
+    "where klunk go"
+   ],
+   "answer": "Klunk left Bolder'ok with ogres and went to a cave east of the water."
+  },
+  {
+   "q": "What is Skullbasher?",
+   "aliases": [
+    "skullbasher weapon",
+    "klunk's weapon"
+   ],
+   "answer": "Skullbasher is the mighty weapon Clugfist gave Klunk."
+  },
+  {
+   "q": "What does Clugfist plan to do next?",
+   "aliases": [
+    "new champion",
+    "clugfist plans"
+   ],
+   "answer": "Clugfist says he will choose a new champion someday."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bolder'ok",
+  "cave",
+  "clugfist",
+  "klunk",
+  "ogre champion",
+  "skullbasher",
+  "twilight's hammer"
+ ],
+ "related": [
+  "topic:twilight-s-hammer"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Unworthy Champion"
+ ]
+}

@@ -46,7 +46,8 @@ local INTENT_PHRASES = {
     "what is my purpose", "what my role", "what is my role" } },
   { "place", "place", { "what is this place", "what this place", "what place is this", "where am i",
     "what is this town", "what this town", "what is this village", "what this village", "what is this camp",
-    "what this camp", "what is this area", "what this area" } },
+    "what this camp", "what is this area", "what this area", "what is here", "what here", "what is around here",
+    "what around here" } },
   { "leader", "subject", { "who leads them", "who is their leader", "who their leader", "who is in charge of them",
     "who their boss", "who is their boss", "who commands them" } },
   { "history", "place", { "what happened here", "what happened to this place", "what happened to this town",
@@ -645,17 +646,27 @@ function Engine:KeyForName(name)
   return nil
 end
 
--- Zone key ("deadmines") for an in-game zone name.
+-- Zone key ("deadmines") for an in-game zone name, with or without a leading "The": the game says "The Hall of
+-- Thanes" for Forever's Hall of Thanes (LOR-1482).
 function Engine:ZoneKey(zoneName)
-  return zoneName and self.db.index.zone and self.db.index.zone[Engine.lower(zoneName)] or nil
+  local t = zoneName and self.db.index.zone
+  if not t then return nil end
+  local n = Engine.lower(zoneName)
+  return t[n] or t[(n:gsub("^the ", ""))]
 end
+
+local PLACE_T = { zone = true, city = true, dungeon = true, subzone = true }
 
 -- Entry key for the subzone you're in. A name shared across zones resolves to your zone's entry: "Canals" in the
 -- Undercity is the Undercity's, not Stormwind's, and none when no namesake is in your zone.
 function Engine:SubzoneKey(subzone, zone)
   if not subzone then return nil end
   local idx, sub = self.db.index, Engine.lower(subzone)
-  local key = idx.name[sub] or idx.name[(sub:gsub("^the ", ""))]   -- "The Crossroads" is "Crossroads"
+  -- "The Crossroads" is "Crossroads"; a place wins over a quest of the same name, so "The Howling Vale" is Ashenvale's
+  -- vale, not the quest "The Howling Vale" (LOR-1482).
+  local a, b = idx.name[sub], idx.name[(sub:gsub("^the ", ""))]
+  local function place(k) local e = k and self.db.entries[k]; return e and PLACE_T[e.t] and k end
+  local key = place(a) or place(b) or a or b
   if not key and idx.areaClash and idx.areaClash[sub] then return self:ClashKey(idx.name, sub, zone) end
   local g = key and self.namesakes and self.namesakes[key]
   local zk = g and self:ZoneKey(zone)

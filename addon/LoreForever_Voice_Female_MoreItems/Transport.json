@@ -14693,9 +14693,9 @@
     "item:shaw-s-report": {
       "1": [
         {
-          "duration": 15.960816326530614,
-          "file": "Audio/Transport/full_item_shaw-s-report-3371df4c874caeb9b879/1-0000.mp3",
-          "sha256": "0f28155c6d6640440bd2ade94f0d6a7d8fc5ba8d87351301e8d96fe68010b6d8",
+          "duration": 12.878367346938775,
+          "file": "Audio/Transport/full_item_shaw-s-report-4b8a13ece6254c239949/1-0000.mp3",
+          "sha256": "4f7371c3dda877f11743c73bb51b56cdac8dd97143d463b4061ad99c47f540a6",
           "start": 0
         }
       ],
@@ -14706,15 +14706,15 @@
           "1"
         ]
       },
-      "fullHash": "3886d6",
-      "generation": "4c0cf8f990974dcf040f",
-      "hash": "3886d6",
+      "fullHash": "0aec08",
+      "generation": "70dfdc6cb49fd21a8c71",
+      "hash": "0aec08",
       "source": {
-        "duration": 15.986939,
+        "duration": 12.90449,
         "file": null,
-        "sha256": "3371df4c874caeb9b879b7062f2218d89c59afcd2349aaa5409b1476f164632f"
+        "sha256": "4b8a13ece6254c23994902f270383387214bc5141848d15bc586f944cd1aab5a"
       },
-      "text": "Shaw's Report. In Westfall, Shaw's Report carries SI:7 intelligence to Gryan Stoutmantle. Written by Master Mathias Shaw, it tells of the Stonemasons Guild, Edwin VanCleef, and their grievance with the crown after Stormwind was rebuilt."
+      "text": "Shaw's Report. Master Mathias Shaw seals this SI:7 dossier for Gryan Stoutmantle at Sentinel Hill. It is Stormwind's answer to the People's Militia, who asked who is behind the bandits raiding Westfall."
     },
     "item:shimmering-frond": {
       "1": [
@@ -19608,10 +19608,6 @@
       814,
       1205
     ],
-    "0f28155c6d6640440bd2ade94f0d6a7d8fc5ba8d87351301e8d96fe68010b6d8": [
-      244,
-      418
-    ],
     "0f72d738b66a0b2f8a4babd63ba46791d3683c72d0b03b65ebb93192530e018a": [
       365,
       520,
@@ -21152,6 +21148,9 @@
       587,
       839,
       981
+    ],
+    "4f7371c3dda877f11743c73bb51b56cdac8dd97143d463b4061ad99c47f540a6": [
+      255
     ],
     "4f7d2c3ed42e885c554cc7cbb4258371482c4044f95f3305e17d601f17037247": [
       235,
@@ -27355,39 +27354,5 @@
     }
   },
   "pack": "LoreForever_Voice_Female_MoreItems",
-  "retired": [
-    {
-      "file": "Audio/Transport/full_item_crossroads-supply-crate-3dbd923184718bd0afe0/1-0000.mp3",
-      "sha256": "d80ff0068c68e8178a312ee23da43266cbf3786a53f5c9a35cbe866360398c81"
-    },
-    {
-      "file": "Audio/Transport/full_item_fire-tar-32794509e5c61bb47ad7/1-0000.mp3",
-      "sha256": "2219873dba029085483eb0c71230764b007b455c87811fdb740d48a8b3654f74"
-    },
-    {
-      "file": "Audio/Transport/full_item_forged-steel-bars-d9d361ae05ec7f8965a5/1-0000.mp3",
-      "sha256": "ac0b386d8c170736e23ad8a75c59f3614eb7d5431505220db2cf7072c1fdfe51"
-    },
-    {
-      "file": "Audio/Transport/full_item_kreenig-snarlsnout-s-tusk-33616e95e9a72ad14a51/1-0000.mp3",
-      "sha256": "381fce3cfd33597ad52d02ace429f8f9d4056e47c6a864a978f902258bba275d"
-    },
-    {
-      "file": "Audio/Transport/full_item_kuz-s-skull-d16c3858152885869fa2/1-0000.mp3",
-      "sha256": "657179db63701a6294fd0c91cfa61b76b1299fc366fedf9bf99d2a7a29a35993"
-    },
-    {
-      "file": "Audio/Transport/full_item_lok-s-skull-388137ffe375a1ee7f81/1-0000.mp3",
-      "sha256": "5e1448d4dd2e1cb06c2abd09ee288dacc072ec321f2273f0dde38344c2e7e8e0"
-    },
-    {
-      "file": "Audio/Transport/full_item_nak-s-skull-f6b7a64b0444a8d792a8/1-0000.mp3",
-      "sha256": "849169cecb70a107adbd4684cd966627d7f48156c27f8bd759c100cdd47ec610"
-    },
-    {
-      "file": "Audio/Transport/full_item_reagent-pouch-shaman-2ccf4c65240955233ca1/1-0000.mp3",
-      "sha256": "81036442706630a9863be750936998f09768b37e73a050f938129c2e6c7a33ac"
-    }
-  ],
   "version": 1
 }

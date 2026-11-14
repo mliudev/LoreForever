@@ -1,0 +1,84 @@
+{
+ "key": "quest:94004",
+ "type": "quest",
+ "name": "Craftsman's Writ: Elixir of Ogre's Strength",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94004
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A transferable writ requests an Elixir of Ogre's Strength and gives a delivery place and payment terms. Sos'mol receives the elixir and remembers your help.",
+ "sections": [
+  {
+   "title": "A Customer's Writ",
+   "body": "The faded note asks you to bring one Elixir of Ogre's Strength. It is transferable, and it gives a delivery location and payment information. Keep the writ with you for the exchange.",
+   "spoiler": 0
+  },
+  {
+   "title": "Sos'mol's Thanks",
+   "body": "Sos'mol thanks you for bringing the elixir and says no ogre has helped him this way before. He promises to remember your kindness and repay you someday.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "what does this writ want",
+    "ogre strength elixir writ"
+   ],
+   "answer": "The writ requests one Elixir of Ogre's Strength."
+  },
+  {
+   "q": "Who is the customer?",
+   "aliases": [
+    "who wants the elixir",
+    "who is sosmol"
+   ],
+   "answer": "Sos'mol is the customer who receives the elixir."
+  },
+  {
+   "q": "Can someone else carry the writ?",
+   "aliases": [
+    "is the writ transferable",
+    "can i pass the writ"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  },
+  {
+   "q": "What do I need for the exchange?",
+   "aliases": [
+    "what do i bring",
+    "writ requirements"
+   ],
+   "answer": "Bring the requested elixir and keep the writ in your possession for the transaction."
+  },
+  {
+   "q": "What does Sos'mol say after receiving it?",
+   "aliases": [
+    "sosmol thanks",
+    "what does sosmol promise"
+   ],
+   "answer": "Sos'mol says he will remember your help and promises to repay you someday."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "delivery",
+  "elixir of ogre's strength",
+  "ogre strength",
+  "payment",
+  "sos'mol",
+  "transferable writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Elixir of Ogre's Strength"
+ ]
+}

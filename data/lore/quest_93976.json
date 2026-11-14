@@ -1,0 +1,78 @@
+{
+ "key": "quest:93976",
+ "type": "quest",
+ "name": "The Goblin Trader",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93976
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Kreza sends you to deliver a blade to an acquaintance at the docks east of Rog'mar. The recipient is known across the Kingdoms and beyond.",
+ "sections": [
+  {
+   "title": "A Blade for the Docks",
+   "body": "Kreza Darkthorn has fashioned a blade with Gur'dok and asks you to carry it east of Rog'mar. Her acquaintance waits at the docks, known far beyond the Kingdoms. Kreza says the two of them are even.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is sending me with the blade?",
+   "aliases": [
+    "who sent me",
+    "Kreza blade delivery"
+   ],
+   "answer": "Kreza Darkthorn sends you with a blade she fashioned with Gur'dok."
+  },
+  {
+   "q": "Who is the blade for?",
+   "aliases": [
+    "blade recipient",
+    "who gets the sword"
+   ],
+   "answer": "It is for Kreza Darkthorn's acquaintance at the docks east of Rog'mar."
+  },
+  {
+   "q": "Where do I deliver the blade?",
+   "aliases": [
+    "where are the docks",
+    "dock delivery"
+   ],
+   "answer": "You deliver it to Kreza Darkthorn's acquaintance at the docks east of Rog'mar."
+  },
+  {
+   "q": "What does Kreza say about the debt?",
+   "aliases": [
+    "what does Kreza mean by even",
+    "Kreza we're even"
+   ],
+   "answer": "Kreza tells you to say that she and her acquaintance are even."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "The recipient calls the delivery one made on behalf of the Horde."
+  }
+ ],
+ "keywords": [
+  "acquaintance",
+  "blade",
+  "docks",
+  "goblin trader",
+  "gur'dok",
+  "kreza darkthorn",
+  "rog'mar"
+ ],
+ "related": [
+  "topic:horde"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Goblin Trader"
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "key": "quest:94931",
+ "type": "quest",
+ "name": "Stolen Saws",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94931
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "At Southern Watch, Halligan Turner asks you to recover saw blades stolen by gnolls. The lumber mill needs them back.",
+ "sections": [
+  {
+   "title": "Missing Blades",
+   "body": "Gnolls sometimes slip into Southern Watch at night and steal saw blades. Halligan Turner at the lumber mill asks you to look for them in the gnoll camps in Bristle Hills, where the blades may be kept. The lumber mill needs the sharp metal returned.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the saw blades back?",
+   "aliases": [
+    "who asked for saw blades",
+    "Halligan Turner saws"
+   ],
+   "answer": "Halligan Turner at the lumber mill wants the stolen saw blades returned."
+  },
+  {
+   "q": "Where were the saw blades stolen from?",
+   "aliases": [
+    "where did gnolls steal saws",
+    "stolen saws where"
+   ],
+   "answer": "Gnolls sneak into Southern Watch at night and steal saw blades."
+  },
+  {
+   "q": "Where might the gnolls keep the blades?",
+   "aliases": [
+    "gnoll saw blade camps",
+    "where are the saws"
+   ],
+   "answer": "The gnoll camps in Bristle Hills are where the blades may be stashed."
+  },
+  {
+   "q": "Why are the saw blades useful to the gnolls?",
+   "aliases": [
+    "what do gnolls do with saws",
+    "gnolls making weapons"
+   ],
+   "answer": "The gnolls likely use the sharp metal to make weapons."
+  },
+  {
+   "q": "Why does the lumber mill need the blades?",
+   "aliases": [
+    "why recover saw blades",
+    "mill needs saws"
+   ],
+   "answer": "Halligan says returning the blades would save the lumber mill time and resources."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bristle hills",
+  "gnolls",
+  "halligan turner",
+  "lumber mill",
+  "saw blades",
+  "southern watch",
+  "stolen saws"
+ ],
+ "related": [
+  "topic:gnoll"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Stolen Saws"
+ ]
+}

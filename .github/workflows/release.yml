@@ -1,6 +1,8 @@
-# Builds the download zip (the add-on with every default narration and the language packs) and the add-on's Windows
-# installer, publishes them as a GitHub release with that version's notes from CHANGELOG.md, and uploads the zip to
-# CurseForge. Also builds the optional narration packs (the female narrator) and adds them to the GitHub release.
+# Builds the download zip (the add-on with every default narration and the language packs), publishes it as a GitHub
+# release with that version's notes from CHANGELOG.md, and uploads it to CurseForge. Also builds the optional narration
+# packs (the female narrator) and adds them to the GitHub release. The add-on's Windows installer builds beside it and
+# goes in the same publish when it's signed and checked by then (it usually is), else joins the release once it is
+# (attach-installer): the zip never waits on it (docs/releases.md, rule 1; docs/qa/installers-own-release.md).
 # Willo, the companion app, releases on her own (willo.yml), not here.
 # CurseForge refuses additional files for this project (errorCode 1011), and as normal files the CurseForge app would
 # install a pack in place of the add-on, so a voice goes to CurseForge only as its own project (release/curseforge.json,
@@ -354,14 +356,16 @@ jobs:
           python ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" installer-manifest `
             --inputs dist/inputs --setup dist/LoreForever-Setup.exe --signature dist/signature.json `
             --smoke dist/smoke.json --output dist/installer-proof.json
-      - name: Stage the verified installer directly from Windows
+      # Onto the draft while it's one, so it goes in the zip side's publish; once that has published without it, nothing
+      # here touches the release and attach-installer adds it. The proof below is uploaded after this, so the release
+      # job reads a proof as a finished upload.
+      - name: Stage the verified installer directly from Windows, while the release is a draft
         if: needs.prepare.outputs.published != 'true'
         shell: pwsh
         env:
           GH_TOKEN: ${{ github.token }}
-        run: python ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" stage --manifest dist/installer-proof.json --root dist
+        run: python ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" stage --if-draft --manifest dist/installer-proof.json --root dist
       - uses: actions/upload-artifact@v7
-        if: needs.prepare.outputs.published == 'true'
         with:
           name: installer-payload-${{ github.run_attempt }}
           path: dist/LoreForever-Setup.exe
@@ -377,8 +381,10 @@ jobs:
   # releases keep theirs: rebuilding one of those tags leaves her files and manifest rows as they were
   # (scripts/release_staging.py finalize).
 
+  # The zip side, with the Windows installer when its proof is there by then (finalize checks it against the zip's), else
+  # without it: a slow or failed signing never holds the zip back (1.2.0 waited on an expired Azure login, 11/6).
   release:
-    needs: [prepare, zip, installer]
+    needs: [prepare, zip]
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v7
@@ -418,6 +424,36 @@ jobs:
           if [ '${{ needs.prepare.outputs.published }}' = true ]; then legacy=(--legacy --root dist); fi
           python3 ci/scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" finalize \
             --proofs dist/proofs --output dist/metadata "${notes[@]}" "${signed[@]}" "${legacy[@]}"
+
+  # The add-on's Windows installer, when it wasn't ready for the zip side's publish (docs/qa/installers-own-release.md;
+  # Mike, 11/14: "these should all have their releases decoupled"): the signed, checked Setup.exe first, then
+  # release-manifest.json and SHA256SUMS.txt rewritten to list it. Nothing to do when it went in the publish. After the
+  # CurseForge jobs, which read those two files, so none of them reads one mid-rewrite. A failed installer is finished
+  # with scripts/release-installers.sh --windows X.Y.Z (it re-runs installer and this job only, then moves the site's
+  # installer slot). Not a required job: scripts/release_workflow.py waits for zip and release.
+  attach-installer:
+    needs: [prepare, release, installer, curseforge, curseforge-voices]
+    if: ${{ !cancelled() && needs.release.result == 'success' && needs.installer.result == 'success' }}
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          sparse-checkout: |
+            scripts
+            release
+      - uses: actions/download-artifact@v8
+        with:
+          pattern: '*-proof-*'
+          path: dist/proofs
+      - name: Attach the signed installer and list it
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SIGNING_REQUIRED: ${{ vars.SIGNING_PROFILE != '' }}
+        run: |
+          signed=(); legacy=()
+          if [ "$SIGNING_REQUIRED" = true ]; then signed=(--signed); fi
+          if [ '${{ needs.prepare.outputs.published }}' = true ]; then legacy=(--legacy); fi
+          python3 scripts/release_staging.py --commit "${{ needs.prepare.outputs.source_commit }}" installer-attach             --proofs dist/proofs --output dist/attach "${signed[@]}" "${legacy[@]}"
 
   # CurseForge is the main download channel. Needs the repo secret CF_API_TOKEN (CurseForge > Account > API tokens);
   # without it this job fails. The project ID and game version come from the .toc (## X-Curse-Project-ID, and

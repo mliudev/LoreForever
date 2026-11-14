@@ -1,0 +1,83 @@
+{
+ "key": "quest:94617",
+ "type": "quest",
+ "name": "Coyote Huntin'",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94617
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Benjy Wheeler asks you to deal with Sootfur, the dark-furred leader of a coyote pack west of the river. The coyotes have turned to eating horses after murlocs drove them from their usual fishing ground.",
+ "sections": [
+  {
+   "title": "A Threat to the Horses",
+   "body": "Benjy Wheeler says the coyotes once hunted fish along the shore, but murlocs drove them from that feeding ground. Now the pack has taken to eating horses. Its leader is a larger, dark-furred coyote called Sootfur. Benjy asks you to bring back Sootfur's pelt, hoping the rest of the pack will scatter.",
+   "spoiler": 0
+  },
+  {
+   "title": "Benjy's Stables",
+   "body": "When you return with Sootfur's pelt, Benjy says the coyote had been rooting around in his stables. He thanks you and says he expects the horses to be safe when the stables are running again.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Sootfur?",
+   "aliases": [
+    "sootfur",
+    "dark coyote",
+    "coyote leader"
+   ],
+   "answer": "Sootfur is the larger, dark-furred leader of the coyote pack west of the river."
+  },
+  {
+   "q": "Why are the coyotes eating horses?",
+   "aliases": [
+    "why horses",
+    "coyotes eating horses",
+    "coyote food"
+   ],
+   "answer": "Murlocs pushed the coyotes away from their usual fishing ground along the shore, so they began eating horses."
+  },
+  {
+   "q": "Who asks for Sootfur's pelt?",
+   "aliases": [
+    "benjy",
+    "who is benjy",
+    "sootfur pelt"
+   ],
+   "answer": "Benjy Wheeler asks you to bring him Sootfur's pelt."
+  },
+  {
+   "q": "Where is the coyote den?",
+   "aliases": [
+    "coyote den",
+    "where coyotes",
+    "den location"
+   ],
+   "answer": "The pack lives in a den west of Benjy's location, across the river."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "benjy wheeler",
+  "coyote",
+  "den",
+  "horses",
+  "murlocs",
+  "pelt",
+  "sootfur",
+  "stables"
+ ],
+ "related": [
+  "topic:murloc"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Coyote Huntin'"
+ ]
+}

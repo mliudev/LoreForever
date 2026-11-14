@@ -14693,9 +14693,9 @@
     "item:shaw-s-report": {
       "1": [
         {
-          "duration": 14.863673469387756,
-          "file": "Audio/Transport/full_item_shaw-s-report-085789ff514c92a19c30/1-0000.mp3",
-          "sha256": "e9acf504a3a5361d219f6ab2708ec3953864a8a4933289f962cee07e3b9b7c3e",
+          "duration": 13.008979591836734,
+          "file": "Audio/Transport/full_item_shaw-s-report-7e1e91ff7ad5e67cdfa4/1-0000.mp3",
+          "sha256": "55f2b45fc132cb136fa36312cfff693364dfb47c75511faccc6c37347ec3fbaf",
           "start": 0
         }
       ],
@@ -14706,15 +14706,15 @@
           "1"
         ]
       },
-      "fullHash": "3886d6",
-      "generation": "5209a6336680782d4b75",
-      "hash": "3886d6",
+      "fullHash": "0aec08",
+      "generation": "9f6f161e83dc8f0dcc6b",
+      "hash": "0aec08",
       "source": {
-        "duration": 14.863673,
+        "duration": 13.035102,
         "file": null,
-        "sha256": "085789ff514c92a19c3006c9575e1ee779d3efb27d05b5d454f5808fdd9976d6"
+        "sha256": "7e1e91ff7ad5e67cdfa4b0c1e39e9025c78165434bf90fbadc7ee73342bb705f"
       },
-      "text": "Shaw's Report. In Westfall, Shaw's Report carries SI:7 intelligence to Gryan Stoutmantle. Written by Master Mathias Shaw, it tells of the Stonemasons Guild, Edwin VanCleef, and their grievance with the crown after Stormwind was rebuilt."
+      "text": "Shaw's Report. Master Mathias Shaw seals this SI:7 dossier for Gryan Stoutmantle at Sentinel Hill. It is Stormwind's answer to the People's Militia, who asked who is behind the bandits raiding Westfall."
     },
     "item:shimmering-frond": {
       "1": [
@@ -21076,6 +21076,9 @@
       641,
       861
     ],
+    "55f2b45fc132cb136fa36312cfff693364dfb47c75511faccc6c37347ec3fbaf": [
+      246
+    ],
     "567015383560b4295b685364ec603d2bb2478b7c2ada14717a2e737b0b1c2d7b": [
       404,
       647
@@ -24273,9 +24276,6 @@
       421,
       611
     ],
-    "e9acf504a3a5361d219f6ab2708ec3953864a8a4933289f962cee07e3b9b7c3e": [
-      232
-    ],
     "e9c71ab07f752a8a760792f51c6f23c6041c10616bbde7182f50272f76d20e39": [
       269,
       423,
@@ -27004,111 +27004,5 @@
     }
   },
   "pack": "LoreForever_Voice_Default_MoreItems",
-  "retired": [
-    {
-      "file": "Audio/Transport/full_item_agamand-family-mace-eff44fb892b80a71b086/1-0000.mp3",
-      "sha256": "15ab3899587c5499a4ac2df8de9be1567e2848eeeb474317745eb0925699f0bb"
-    },
-    {
-      "file": "Audio/Transport/full_item_agamand-family-sword-3f7c39b8d05ebdcb8d15/1-0000.mp3",
-      "sha256": "942012d88e42d4231470c2c83e5312deb672e5eacdeb3edc5edc01c28b166118"
-    },
-    {
-      "file": "Audio/Transport/full_item_balnir-snapdragons-45026797c40cef1a18a7/1-0000.mp3",
-      "sha256": "34106b25915c7c228fae4d79c85d0983590c7c6ea1e5d6e0ed59278b0221137a"
-    },
-    {
-      "file": "Audio/Transport/full_item_dalin-s-heart-0427e5409fd53ff45e51/1-0000.mp3",
-      "sha256": "8bbc36b83ca7674d7248a1ed53334ea4f72ccc1cc2c90f23299cede2622b91c0"
-    },
-    {
-      "file": "Audio/Transport/full_item_darthalia-s-sealed-commendation-3345ce08242283d8847f/1-0000.mp3",
-      "sha256": "a40c85c39e07864010e242bb2f4ef8990544179ea5c5af55be3ed516e62aa719"
-    },
-    {
-      "file": "Audio/Transport/full_item_encrypted-scroll-61ab378d142d71b2e4f1/1-0000.mp3",
-      "sha256": "152dd924cc10375330245d1b5cceb381dac22360eaed899ffd0d095052de0550"
-    },
-    {
-      "file": "Audio/Transport/full_item_gregor-s-remains-6acd00856bdf7d7f361a/1-0000.mp3",
-      "sha256": "2635c1a2d5b3fd33b1c1760f65746c22cce65ee6636bbfc583dad1fd9f677578"
-    },
-    {
-      "file": "Audio/Transport/full_item_johaan-s-findings-256439937b2933a26d4d/1-0000.mp3",
-      "sha256": "bccb462e479e956663464b137f05b205158913ae99eb3353b0fc6543a5f897fb"
-    },
-    {
-      "file": "Audio/Transport/full_item_menethil-statuette-fec2e304d3f660a9af89/1-0000.mp3",
-      "sha256": "6572fc191fe0b3632a2595f5d760f8a39eeb78035c6e18a6723fcd5aa9ee1bea"
-    },
-    {
-      "file": "Audio/Transport/full_item_nissa-s-remains-48b8853fb4ed2ed5ac6e/1-0000.mp3",
-      "sha256": "dd3e0a7ce4a53e3714f1e51eeabd517f43f2b94f1c2053645a2d512e19c4179c"
-    },
-    {
-      "file": "Audio/Transport/full_item_remaining-drops-of-purest-water-da6db23b425de0e7f944/1-0000.mp3",
-      "sha256": "8759c1ddef5ea0599b69391f27d8e42b244e0c824b6b3c84ff2dbe4b4ed02eda"
-    },
-    {
-      "file": "Audio/Transport/full_item_renferrel-s-findings-a4ceb07e182d126a20c2/1-0000.mp3",
-      "sha256": "bf1d9c734b003bf32b0c62c5e05bec8e1fb120f422919b1976ece1f4a852a3a8"
-    },
-    {
-      "file": "Audio/Transport/full_item_samuel-s-remains-c9520ab77c25dc28d8db/1-0000.mp3",
-      "sha256": "3c5663c1fe97accec2a223bf85c48d4d33d986c3ab275365d0f894a0c8a61211"
-    },
-    {
-      "file": "Audio/Transport/full_item_the-lich-s-spellbook-0c64b7b65b7d05a9bceb/1-0000.mp3",
-      "sha256": "1c51a747dded46731d5fb02379bdddf5873a56d33c2f34c66803497c43848e1a"
-    },
-    {
-      "file": "Audio/Transport/full_item_thurman-s-remains-9cc1fadfd15b7439f65b/1-0000.mp3",
-      "sha256": "b98e4347b4f4a405395014a8959745932d28f517ed2e7f35fc3d392d2aae3f3d"
-    },
-    {
-      "file": "Audio/Transport/full_item_tirisfal-pumpkin-1211c20d5c3b0c80047a/1-0000.mp3",
-      "sha256": "82a1b9055e6ffac8d8c3cb765477f48db1cff614d5f790f263ed9bc64b0d03e5"
-    },
-    {
-      "file": "Audio/Transport/full_item_wolf-heart-sample-bfc828c22c2e1bcaad6a/1-0000.mp3",
-      "sha256": "16c6fb3c11d75059ee419846975983043e25ccae4ab2b56dab88302a824d6af8"
-    },
-    {
-      "file": "Audio/Transport/full_item_wolf-heart-samples-7a6cbbc10e47c296231e/1-0000.mp3",
-      "sha256": "bfb7eb4373dae92789919731e5045bea8cbe41b220c7c946360bed49fb2a1d32"
-    },
-    {
-      "file": "Audio/Transport/full_item_crossroads-supply-crate-0bc7e783c34b72319757/1-0000.mp3",
-      "sha256": "6e77a5af9052217c0dc38104ca3e0dee0fe9f31573652fa3b2539ef4b5286965"
-    },
-    {
-      "file": "Audio/Transport/full_item_fire-tar-5388b271534414532c6f/1-0000.mp3",
-      "sha256": "14f1f56242b68cebd628e26e155e2fd35f10d8c250921ff8d9470f2183b51468"
-    },
-    {
-      "file": "Audio/Transport/full_item_forged-steel-bars-1eb01f82e9e0b01687b8/1-0000.mp3",
-      "sha256": "0890b18aba3ff57e9e6ed47ddeda0417e04fb1f20b94ee41a4fc91057efdb289"
-    },
-    {
-      "file": "Audio/Transport/full_item_kreenig-snarlsnout-s-tusk-a04ad7a385513e32d205/1-0000.mp3",
-      "sha256": "d34e607bca29a05a03c58dfeb19aea24acf7c7f7f1311f538175835278a50b56"
-    },
-    {
-      "file": "Audio/Transport/full_item_kuz-s-skull-bd93ceb7d2266c0a095a/1-0000.mp3",
-      "sha256": "524d6cca67835d12a1c70f705611300d3b6e2a59f8f30a1d36b69f764a6d1539"
-    },
-    {
-      "file": "Audio/Transport/full_item_lok-s-skull-3da31280d3f8696df4f3/1-0000.mp3",
-      "sha256": "20d7589141d4514f818075d95ebb812b0f36fca08a135b2582bb4947a80d4ddd"
-    },
-    {
-      "file": "Audio/Transport/full_item_nak-s-skull-91ee369d6d80bf751924/1-0000.mp3",
-      "sha256": "debbe1a74740bd77c1a77114536455dd5558ac0fac61bad3cd114e9818d01de9"
-    },
-    {
-      "file": "Audio/Transport/full_item_reagent-pouch-shaman-29230b7103b30d8d1fcf/1-0000.mp3",
-      "sha256": "0b79f304f3504354a25d413ff7340129159146f3d0f99eb5a8d1531e40a7db49"
-    }
-  ],
   "version": 1
 }

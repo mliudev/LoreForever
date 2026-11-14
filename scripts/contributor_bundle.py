@@ -18,8 +18,8 @@ import tempfile
 import zipfile
 
 # Every contributor edition: one contributor's frozen text and voice, credited to them (Mike, 11/9: "an upload stays
-# one pack"). The TOC title words are the edition's own language. A new edition is a row here (and its two folders in
-# RELEASE_PACKS, scripts/build-release.sh); everything that builds, checks, stamps or lists an edition reads this.
+# one pack"). The TOC title words are the edition's own language. A new edition is a row here; everything that builds,
+# checks, releases (scripts/release-edition.sh) or lists an edition reads this.
 EDITIONS = {
     "densuad-esES": {"credit": "Densuad", "locale": "esES", "folder": "LoreForever_Edition_Densuad_esES",
                      "title": "Densuad español", "text_word": "texto", "voice_word": "voz",

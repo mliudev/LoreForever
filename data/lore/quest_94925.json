@@ -1,0 +1,78 @@
+{
+ "key": "quest:94925",
+ "type": "quest",
+ "name": "A Fur Trade",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94925
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Watcher Terral seeks lion hides for Farholde\u2019s trade with a dealer at Powderfuse Port. In return, the settlement receives specialty munitions.",
+ "sections": [
+  {
+   "title": "Farholde\u2019s Trade",
+   "body": "Farholde relies on trade for some goods, though it prizes its independence. Watcher Terral says the settlement has arranged an exchange with a dealer at Powderfuse Port. Farholde supplies goods that are dangerous to acquire, and the dealer provides specialty munitions. Now the dealer wants lion fur, and Terral asks you to bring eight Prized Lion Hides from the pride atop a large hill in the center of the plains.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Watcher Terral need?",
+   "aliases": [
+    "what does Terral want",
+    "Terral hides",
+    "lion fur"
+   ],
+   "answer": "Watcher Terral needs eight Prized Lion Hides for Farholde\u2019s trade with a dealer at Powderfuse Port."
+  },
+  {
+   "q": "Who is Farholde trading with?",
+   "aliases": [
+    "who is the dealer",
+    "Powderfuse Port trade",
+    "fur trade dealer"
+   ],
+   "answer": "Farholde has arranged an exchange with a dealer at Powderfuse Port."
+  },
+  {
+   "q": "What does Farholde get in the trade?",
+   "aliases": [
+    "what are the munitions for",
+    "specialty munitions",
+    "what does the dealer provide"
+   ],
+   "answer": "The dealer provides Farholde with specialty munitions."
+  },
+  {
+   "q": "Where are the lions?",
+   "aliases": [
+    "lion hill",
+    "where is the pride",
+    "lions in the plains"
+   ],
+   "answer": "A pride of lions lives atop a large hill in the center of the plains."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "a fur trade",
+  "dealer",
+  "farholde",
+  "lion fur",
+  "powderfuse port",
+  "prized lion hides",
+  "specialty munitions",
+  "watcher terral"
+ ],
+ "related": [
+  "quest:92682"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: A Fur Trade"
+ ]
+}

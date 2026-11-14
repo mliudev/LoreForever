@@ -1,0 +1,81 @@
+{
+ "key": "quest:4961",
+ "type": "quest",
+ "name": "Cleansing of the Orb of Orahil",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4961
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Tabetha asks you to cleanse the Orb of Orahil by confronting the demon bound within. Menara waits for the cleansed orb.",
+ "sections": [
+  {
+   "title": "Tabetha's Request",
+   "body": "The summoner's orb bears a taint, and Tabetha offers to draw out the demon within. You are to face it after she releases it. Menara is waiting for the orb once it has been cleansed.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is wrong with the Orb of Orahil?",
+   "aliases": [
+    "orb taint",
+    "what's in the orb"
+   ],
+   "answer": "A demon within the Orb of Orahil is causing its taint."
+  },
+  {
+   "q": "Who can cleanse the orb?",
+   "aliases": [
+    "who cleanses orahil",
+    "Tabetha orb"
+   ],
+   "answer": "Tabetha says she can exorcise the demon from the Orb of Orahil."
+  },
+  {
+   "q": "What does Tabetha ask me to do?",
+   "aliases": [
+    "kill orb demon",
+    "orahil task"
+   ],
+   "answer": "You are to kill the demon Tabetha releases, then speak with her."
+  },
+  {
+   "q": "Why does Tabetha say to be quick?",
+   "aliases": [
+    "demon returns",
+    "orb demon quick"
+   ],
+   "answer": "If the demon is not killed quickly, it will return to the orb and the attempt must begin again."
+  },
+  {
+   "q": "Who is waiting for the cleansed orb?",
+   "aliases": [
+    "return orb",
+    "Menara orb"
+   ],
+   "answer": "Menara is waiting for the cleansed Orb of Orahil."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cleansing of the orb of orahil",
+  "demon of the orb",
+  "exorcism",
+  "menara",
+  "orb of orahil",
+  "summoner's orb",
+  "tabetha"
+ ],
+ "related": [
+  "npc:tabetha"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Cleansing of the Orb of Orahil"
+ ]
+}

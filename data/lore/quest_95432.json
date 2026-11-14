@@ -1,0 +1,84 @@
+{
+ "key": "quest:95432",
+ "type": "quest",
+ "name": "Rise Up!",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95432
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Crag'rog asks you to help free ogres from the Twilight. He wants them back home for stew.",
+ "sections": [
+  {
+   "title": "Ogres and Twilight",
+   "body": "Crag'rog wants ogres freed from the Twilight, and he welcomes your help. Together, you recruit ogre miners to join the fight. Crag'rog says the ogres can then go home for stew.",
+   "spoiler": 0
+  },
+  {
+   "title": "Crag'rog's Count",
+   "body": "Crag'rog says many ogres are free, and the weak, cowardly ogres are dead. He counts only one cowardly ogre left.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Crag'rog?",
+   "aliases": [
+    "cragrog",
+    "who's crag'rog"
+   ],
+   "answer": "Crag'rog is an ogre who wants ogres freed from the Twilight."
+  },
+  {
+   "q": "Why does Crag'rog want to free ogres?",
+   "aliases": [
+    "why free ogres",
+    "ogres freedom"
+   ],
+   "answer": "Crag'rog wants to free ogres because he wants them free too."
+  },
+  {
+   "q": "Who does Crag'rog fight alongside?",
+   "aliases": [
+    "who helps crag'rog",
+    "tiny class"
+   ],
+   "answer": "Crag'rog fights the Twilight alongside you."
+  },
+  {
+   "q": "What does Crag'rog ask you to recruit?",
+   "aliases": [
+    "recruit ogres",
+    "ogre miners"
+   ],
+   "answer": "Crag'rog asks you to recruit ogre miners."
+  },
+  {
+   "q": "What does Crag'rog say about the ogres afterward?",
+   "aliases": [
+    "what happened to ogres",
+    "crag'rog completion"
+   ],
+   "answer": "Crag'rog says many ogres are free, and only one cowardly ogre remains."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crag'rog",
+  "free ogres",
+  "ogre miners",
+  "ogres",
+  "rise up",
+  "stew",
+  "twilight"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Rise Up!"
+ ]
+}

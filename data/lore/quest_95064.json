@@ -1,0 +1,70 @@
+{
+ "key": "quest:95064",
+ "type": "quest",
+ "name": "Preventative Measures",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95064
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Watcher Cornelius at Terral's Watch fears the orcs are pressing farther into the plains. He asks you to curb their growing presence.",
+ "sections": [
+  {
+   "title": "Orcs in the Plains",
+   "body": "At Terral's Watch, Watcher Cornelius sees the orcs claiming land by the river and spreading into the plains. He asks you to kill Rog'mar trainees, hoping to halt their advance.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for help?",
+   "aliases": [
+    "who needs help",
+    "cornelius request"
+   ],
+   "answer": "Watcher Cornelius at Terral's Watch asks you to stop the orcs' growing presence."
+  },
+  {
+   "q": "Why is Cornelius concerned about the orcs?",
+   "aliases": [
+    "why fight orcs",
+    "orcs in plains"
+   ],
+   "answer": "The orcs have claimed land by the river, and their presence is growing in the plains."
+  },
+  {
+   "q": "Which orcs does Cornelius want killed?",
+   "aliases": [
+    "rog'mar trainees",
+    "which orcs"
+   ],
+   "answer": "Cornelius asks you to kill Rog'mar trainees."
+  },
+  {
+   "q": "Where does Cornelius ask for help?",
+   "aliases": [
+    "terral's watch",
+    "where is cornelius"
+   ],
+   "answer": "Cornelius asks for help at Terral's Watch."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "orcs",
+  "plains",
+  "preventative measures",
+  "rog'mar trainees",
+  "terral's watch",
+  "watcher cornelius"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Preventative Measures"
+ ]
+}

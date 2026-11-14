@@ -1,0 +1,64 @@
+{
+ "key": "quest:79947",
+ "type": "quest",
+ "name": "Geomancy: The Stone-Cold Truth",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   79947
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A librarian seeks magical works for the Library in Ironforge. Your contribution can help expand its knowledge.",
+ "sections": [
+  {
+   "title": "A Growing Collection",
+   "body": "The librarian in Ironforge asks you to bring magical works that may benefit the Library. Its collection grows through your efforts, and the librarian welcomes further discoveries.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the librarian want?",
+   "aliases": [
+    "what do they want",
+    "library request"
+   ],
+   "answer": "The librarian asks you to bring magical works that could benefit the Library in Ironforge."
+  },
+  {
+   "q": "Where is this request from?",
+   "aliases": [
+    "where is the library",
+    "ironforge library"
+   ],
+   "answer": "The request comes from the Library in Ironforge."
+  },
+  {
+   "q": "Why bring magical works?",
+   "aliases": [
+    "why magical books",
+    "what are they for"
+   ],
+   "answer": "The librarian says the Library's knowledge expands through your efforts."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "collection",
+  "geomancy",
+  "ironforge",
+  "library",
+  "magical works",
+  "stone-cold truth"
+ ],
+ "related": [
+  "subzone:library-ironforge"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Geomancy: The Stone-Cold Truth"
+ ]
+}

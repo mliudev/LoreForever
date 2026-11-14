@@ -1,0 +1,79 @@
+{
+ "key": "quest:95219",
+ "type": "quest",
+ "name": "From Port to Port",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95219
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A port seller sends you with a carefully packed cask to Feathermoon Stronghold. The long journey calls for care.",
+ "sections": [
+  {
+   "title": "A Distant Customer",
+   "body": "A seller has a customer at Feathermoon Stronghold in Feralas, and you carry a cask of Powderfuse Port there. The seller says it is packed airtight, but warns that something could set it off. Handle the cask with care on the way to Mardrack Greenwell.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What am I delivering?",
+   "aliases": [
+    "what's in the cask",
+    "powderfuse port delivery",
+    "port cask"
+   ],
+   "answer": "You are carrying a cask of Powderfuse Port to Mardrack Greenwell at Feathermoon Stronghold."
+  },
+  {
+   "q": "Where am I taking the cask?",
+   "aliases": [
+    "where to deliver it",
+    "feathermoon delivery",
+    "feralas cask"
+   ],
+   "answer": "The cask is bound for Mardrack Greenwell at Feathermoon Stronghold in Feralas."
+  },
+  {
+   "q": "Why should I handle it carefully?",
+   "aliases": [
+    "is the cask dangerous",
+    "why careful",
+    "what might set it off"
+   ],
+   "answer": "The seller warns that something could set off the airtight-packed cask."
+  },
+  {
+   "q": "Who packed the cask?",
+   "aliases": [
+    "who packed the port",
+    "airtight packing",
+    "seller's guy"
+   ],
+   "answer": "One of the seller's men packed the cask airtight."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cask",
+  "delivery",
+  "feathermoon stronghold",
+  "feralas",
+  "from port to port",
+  "mardrack greenwell",
+  "powderfuse port"
+ ],
+ "related": [
+  "subzone:feathermoon-stronghold",
+  "zone:feralas",
+  "quest:3022"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: From Port to Port"
+ ]
+}

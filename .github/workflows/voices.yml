@@ -2,18 +2,24 @@
 # whose narration changed since their last upload. The Release workflow does this for every new version (its
 # curseforge-voices job). Run this one by hand for a new project's first file (CurseForge reviews a new project once it
 # has one) or to retry, without rebuilding anything: it takes the zips from the GitHub release. Narration only uploads
-# with the newest release.
+# with the newest release. scripts/release-narration.sh starts it with tag "voices" after narration ships on its own:
+# each project at its own newest file's version.
 name: CurseForge voices
 
 on:
   workflow_dispatch:
     inputs:
       tag:
-        description: "Release whose voices to upload, e.g. v0.7.0 (empty: the newest)"
+        description: "voices (narration released on its own: scripts/release-narration.sh starts it), or a release whose voices to upload, e.g. v0.7.0 (empty: the newest)"
         required: false
 
 permissions:
   contents: write   # the upload record on the "curseforge" release
+
+# Runs serialize their updates of the upload record (voices.json).
+concurrency:
+  group: curseforge-voices
+  cancel-in-progress: false
 
 jobs:
   curseforge-voices:

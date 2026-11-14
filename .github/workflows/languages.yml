@@ -1,12 +1,16 @@
-# Dispatched after the version's translation ZIPs reach the languages release.
+# Uploads the language packs to their CurseForge projects (release/curseforge.json). scripts/publish-language-packs.sh
+# starts it once their zips and manifest.json are on the "languages" release: the packs ship on their own, never with
+# an add-on release. Each zip is checked against the live add-on's data (the newest release's core, checked out below),
+# and only a changed one uploads.
 name: CurseForge languages
 
 on:
   workflow_dispatch:
     inputs:
       tag:
-        description: "Core release these translations were built for, e.g. v0.11.0"
-        required: true
+        description: "languages (the packs' own release, manifest.json), or an add-on tag such as v1.9.0 (the zips that release published)"
+        required: false
+        default: languages
 
 permissions:
   contents: write
@@ -23,16 +27,27 @@ jobs:
       CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
       GH_TOKEN: ${{ github.token }}
       GH_REPO: ${{ github.repository }}
-      TAG: ${{ inputs.tag }}
     steps:
+      - name: The add-on players run
+        id: live
+        # The newest add-on release (vX.Y.Z, not a Willo one), as curseforge_voices.newest_release picks it.
+        env:
+          TAG: ${{ inputs.tag }}
+        run: |
+          # An add-on tag: that release's own zips, checked against its own core (the add-on release's copy, until it
+          # stops publishing language packs).
+          if [[ "$TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then echo "tag=$TAG" >>"$GITHUB_OUTPUT"; exit 0; fi
+          tag="$(gh release list --limit 100 --json tagName,name,isDraft --jq '[.[] | select(.isDraft | not)
+            | select(.tagName | test("^v[0-9]+[.][0-9]+[.][0-9]+$")) | select(.name | startswith("Willo") | not)
+            | .tagName] | sort_by(ltrimstr("v") | split(".") | map(tonumber)) | last')"
+          [ -n "$tag" ] && [ "$tag" != null ] || { echo "::error::no add-on release to check the packs against"; exit 1; }
+          echo "tag=$tag" >>"$GITHUB_OUTPUT"
       - uses: actions/checkout@v7
         with:
-          ref: ${{ inputs.tag }}
+          ref: ${{ steps.live.outputs.tag }}
           sparse-checkout: |
-            scripts
-            release
             addon/LoreForever
-      # Project IDs can be added after a tag; the compatibility check still reads the tag's core above.
+      # The uploader and the project ids from main: projects can be added after a release.
       - uses: actions/checkout@v7
         with:
           path: config
@@ -40,7 +55,10 @@ jobs:
             release
             scripts
       - name: Upload the translations
+        env:
+          TAG: ${{ inputs.tag }}
         run: |
+          mkdir -p release scripts
           cp config/release/curseforge.json release/curseforge.json
           cp config/scripts/curseforge_voices.py scripts/curseforge_voices.py
           python3 scripts/curseforge_voices.py upload --from-release --languages

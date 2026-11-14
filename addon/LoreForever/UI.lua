@@ -1593,7 +1593,7 @@ function UI.SavePlayback(quick)
     if validProgress(p, key) then progress[key], any = p, true end
   end
   local edition = ns.lang and ns.lang.edition
-  if edition and not edition.unavailable and (#UI.pl.items > 0 or UI.activeTarget) then any = true end
+  if edition and (#UI.pl.items > 0 or UI.activeTarget) then any = true end
   -- The whole queue, what came by itself too, in its order and at its place (LOR-1475, Mike 11/12: "We need some way to
   -- keep track of the previous narrations even on a game crash"); what already played behind it only if you added it
   -- (Previous goes back to it).
@@ -1747,6 +1747,26 @@ local function recordedStoryMatches(key, text)
     if (sec.sp or 0) == 0 then parts[#parts + 1] = sec.b end
   end
   return ns.Voice.Plain(table.concat(parts, " ")) == ns.Voice.Plain(text)
+end
+
+-- The words a story's recording says while it plays, when they aren't today's page: a community voice keeps the words
+-- it recorded (Voice.ScopedClip), and 24 of the first German one's 67 takes read an older text (pack layering check,
+-- 11/13).
+-- Its card and its Found page show these then, so what you read is what you hear; nil otherwise.
+function UI.HeardWords(key)
+  local clip = ns.Voice.lastClip
+  if not (key and UI.speaking and UI.playingKey == key and clip and clip.id == key) then return nil end
+  local text, e = clip.text, UI.engine.db.entries[key]
+  if type(text) ~= "string" or text == "" or not e then return nil end
+  -- Words that are part of today's page (often only its summary, without the story's name) aren't different: the
+  -- page keeps its headings and links then.
+  local parts = { e.n .. ". " .. e.s }
+  for _, sec in ipairs(e.sec or {}) do
+    if (sec.sp or 0) == 0 then parts[#parts + 1] = sec.b end
+  end
+  local said = ns.Voice.Plain(text)
+  if said == "" or ns.Voice.Plain(table.concat(parts, " ")):find(said, 1, true) then return nil end
+  return text
 end
 
 -- Every recording that really starts adds its matching words to the conversation, even with the panel closed.
@@ -2621,8 +2641,10 @@ function UI.AddMessage(role, text, target, actionLabel, rows, log, subject, link
   if UI.journeyPage then UI.journeyPage:Hide() end
   finishTyping()
   local animate = role == "lore" and settings().typing ~= false
+  -- t: when it was said, so Willo (and a Forget it sends back, HistoryArchive.Forget) tells two asks in one chat apart
   table.insert(UI.msgs, { role = role, text = text, target = target, actionLabel = actionLabel, animate = animate,
-    rows = rows, log = log, subject = subject, linked = linked and #linked > 0 and linked or nil, entry = entry })
+    rows = rows, log = log, subject = subject, linked = linked and #linked > 0 and linked or nil, entry = entry,
+    t = time() })
   if ns.HistoryArchive and ns.HistoryArchive.On() and (role == "user" or role == "lore" or role == "note") then
     UI.historyId = UI.historyId or ns.HistoryArchive.ChatId()
     ns.HistoryArchive.Record("account", "chat_message", { chatId = UI.historyId, message = UI.msgs[#UI.msgs] })
@@ -3477,7 +3499,9 @@ local function playCurrent(byHand)
       pl.state, pl.gate = "waiting", true
       return UI.UpdateListen()
     end
-    if not why and it.holdRestarts and it.holdRestarts > MAX_HOLD_RESTARTS then why = L["interrupted"] end
+    if not why and ((it.holdRestarts and it.holdRestarts > MAX_HOLD_RESTARTS) or it.fightCut) then
+      why = L["interrupted"]
+    end
     if not why then break end
     if why == L["interrupted"] or why == L["waited too long"] then ns.Log.Use("pl", "late") end
     table.remove(pl.items, pl.pos)
@@ -3859,7 +3883,8 @@ end
 -- Hold what speaks (cutscenes, Willo, a fight in a group dungeon or raid; why: "cutscene", "willo", "fight"): it stops,
 -- keeps its place and its piece, and carries on when every hold is released (UI.Release). onlyByItself: what you
 -- started plays on (a fight). A line in one recording starts over after a hold, so it gives up after a few (playCurrent's
--- MAX_HOLD_RESTARTS), and one 90% heard counts as done. Pressing Stop during a hold wins: the list stays stopped.
+-- MAX_HOLD_RESTARTS), and one 90% heard counts as done. A dungeon pull ends a story outright (fightCut). Pressing Stop
+-- during a hold wins: the list stays stopped.
 local HOLD_MAX = { willo = 120, cutscene = 300, fight = 600 }   -- a hold the game never ends lets go by itself
 function UI.Hold(why, onlyByItself)
   local pl = UI.pl
@@ -3882,6 +3907,11 @@ function UI.Hold(why, onlyByItself)
       else
         cur.resume = true
         if not (t and UI.progress[t.key]) then cur.holdRestarts = (cur.holdRestarts or 0) + 1 end
+        -- A dungeon pull ends a story that came by itself: it doesn't start over at the next calm (playCurrent sends it
+        -- to Earlier, where Play plays it). Pulls come every few seconds, and on stream the Crag of the Everliving's story
+        -- started and stopped three times, then Shadowfang Keep's was told again from the top (Mike, 11/10). A quest
+        -- giver's line still waits for the calm, and so does a row you played yourself (kept: it's yours, rev 5).
+        if why == "fight" and not questLine(cur) and not cur.kept then cur.fightCut = true end
       end
       pl.heldFrom = "playing"
     else
@@ -3956,7 +3986,7 @@ function UI.PlayEarlier(k)
   local it = {}
   for key, v in pairs(old) do it[key] = v end
   it.outcome, it.why, it.byItself, it.at, it.how, it.started, it.pauses, it.holdRestarts = nil, nil, nil, nil, nil, nil, nil, nil
-  it.declined, it.taken, it.next, it.resume, it.paused = nil, nil, nil, nil, nil
+  it.declined, it.taken, it.next, it.resume, it.paused, it.fightCut = nil, nil, nil, nil, nil, nil
   local pl = UI.pl
   local at = UI.PlaylistIndex(it.id)
   if at then table.remove(pl.items, at); if at < pl.pos then pl.pos = pl.pos - 1 end end
@@ -5487,7 +5517,7 @@ function UI.Archive()
   for _, m in ipairs(UI.msgs) do
     if m.role == "user" or m.role == "lore" then
       local t = m.target
-      msgs[#msgs + 1] = { role = m.role, text = m.text,
+      msgs[#msgs + 1] = { role = m.role, text = m.text, t = m.t,
         target = t and { id = t.id, key = t.key, text = t.text, label = t.label } or nil, rows = m.rows,
         subject = m.subject, linked = m.linked, entry = m.entry }
     end
@@ -5627,9 +5657,11 @@ function UI.RestoreHistory(i)
   UI.historyId = c.id
   UI.msgs, UI.blocks = {}, {}
   UI.UpdateListen()
+  -- A message saved before messages had their own t (Willo reads `msg.t or chat.t`) keeps the chat's time it has now:
+  -- re-saving gives the chat a new t, and Willo's Forget key for that question names the old one (HistoryArchive.Forget).
   for _, m in ipairs(c.msgs) do
     UI.msgs[#UI.msgs + 1] = { role = m.role, text = m.text, target = m.target, rows = m.rows, subject = m.subject,
-      linked = type(m.linked) == "table" and m.linked or nil, entry = m.entry }
+      linked = type(m.linked) == "table" and m.linked or nil, entry = m.entry, t = m.t or c.t }
     UI.blocks[#UI.blocks + 1] = m.text
   end
   UI.historyFrame:Hide()
@@ -6198,12 +6230,15 @@ function UI.ShowEntry(key, via, asked)
   local link, linked = UI.Linker(key)
   local all, done = settings().showSpoilers, ns.Context.Done()
   local shown, held = {}, 0
-  for _, sec in ipairs(e.sec or {}) do
+  -- While its recording plays words other than today's (UI.HeardWords), the card is those words, whole: no sections.
+  local heard = UI.HeardWords(key)
+  for _, sec in ipairs(heard and {} or e.sec or {}) do
     if all or UI.engine:Opens(key, sec, done) then shown[#shown + 1] = sec else held = held + 1 end
   end
   -- (linked in reading order: a name links where it's first read)
   local parts = {}
-  if not (shown[1] and UI.ListenSkipsSummary(key)) then parts[1] = WHITE .. link(esc(e.s)) .. "|r" end
+  if heard then parts[1] = WHITE .. link(esc(heard)) .. "|r"
+  elseif not (shown[1] and UI.ListenSkipsSummary(key)) then parts[1] = WHITE .. link(esc(e.s)) .. "|r" end
   for _, sec in ipairs(shown) do
     parts[#parts + 1] = GOLD .. esc(sec.t) .. "|r\n" .. WHITE .. link(esc(sec.b)) .. "|r"
   end

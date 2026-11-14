@@ -1,0 +1,77 @@
+{
+ "key": "quest:95329",
+ "type": "quest",
+ "name": "Out in the Field",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95329
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A watcher at Terral's Watch observes the plains for movements by the Horde. You are asked to get his status report.",
+ "sections": [
+  {
+   "title": "A Remote Watch",
+   "body": "A tower watches over the northern plains from Terral's Watch. Watcher Cornelius is stationed there alone to track movement among the Horde's forces. His post is remote, and he is known to speak little. You are asked to speak with him and bring back a status report.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Cornelius?",
+   "aliases": [
+    "watcher cornelius",
+    "who's the watcher",
+    "cornelius report"
+   ],
+   "answer": "Cornelius is the watcher stationed alone at Terral's Watch, where he observes the plains for movement by the Horde."
+  },
+  {
+   "q": "What is Terral's Watch?",
+   "aliases": [
+    "terral watch",
+    "watch tower",
+    "tower in the north"
+   ],
+   "answer": "Terral's Watch is an observation post overlooking the northern plains, used to track movement by the Horde's forces."
+  },
+  {
+   "q": "What report am I meant to get?",
+   "aliases": [
+    "status report",
+    "what does cornelius need",
+    "cornelius task"
+   ],
+   "answer": "You are asked to speak with Watcher Cornelius at Terral's Watch and get a status report."
+  },
+  {
+   "q": "Why is Cornelius stationed alone?",
+   "aliases": [
+    "why is he alone",
+    "cornelius post",
+    "why assigned there"
+   ],
+   "answer": "Cornelius is stationed alone at the remote watch post. He is known to be taciturn, and that is given as the reason for his assignment there."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cornelius",
+  "horde",
+  "observation tower",
+  "out in the field",
+  "status report",
+  "terral's watch",
+  "watcher"
+ ],
+ "related": [
+  "topic:horde"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Out in the Field"
+ ]
+}

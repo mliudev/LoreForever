@@ -474,14 +474,19 @@ local function buttonTooltip(self, anchor)
   end
   local newer = ns.Updates.TooltipLine()
   if newer then T.Tip(newer, "gold") end
+  -- A row with no name still says something (LOR-1511: one made the tooltip error on every hover in the sim).
+  local function named(it)
+    local t = it and type(it.label)
+    return (t == "string" or t == "number") and it.label or L["narration"]
+  end
   if busy then
     local ours = pl.state == "playing" and cur
-    T.Tip(ours and string.format(L["Now playing: %s (%d of %d)"], cur.label, pl.pos, n)
+    T.Tip(ours and string.format(L["Now playing: %s (%d of %d)"], named(cur), pl.pos, n)
       or string.format(L["Now playing: %s"], UI.playingLabel or L["narration"]), "tipLive")
     local nxt = ours and pl.items[pl.pos + 1]
-    if nxt then T.Tip(string.format(L["Up next: %s"], nxt.label), "tipDim") end
+    if nxt then T.Tip(string.format(L["Up next: %s"], named(nxt)), "tipDim") end
   elseif cur then
-    T.Tip(string.format(L["Playlist stopped at: %s (%d of %d)"], cur.label, pl.pos, n), "gold")
+    T.Tip(string.format(L["Playlist stopped at: %s (%d of %d)"], named(cur), pl.pos, n), "gold")
   end
   local key = ns.Hooks.CurrentKey()
   T.Tip(key and string.format(L["Click to open (or press %s). Right-click for options."], key)
@@ -724,6 +729,8 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     ns.Errors.OnBlocked(event, arg1, ...)
   elseif event == "PLAYER_LOGIN" then
     ns.Errors.OnLogin()   -- first: a Lua error later in login still gets its chat line
+    -- What the player forgot in Willo leaves the add-on's saved history (Willo's add-on is loaded by now; LOR-1496)
+    ns.Guard(ns.HistoryArchive.Forget)
     if dataMissing() then
       ns.dataMissing = true
       return sayDataMissing()
@@ -763,6 +770,7 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
   elseif event == "PLAYER_ENTERING_WORLD" or event == "ZONE_CHANGED_NEW_AREA" then
     if event == "PLAYER_ENTERING_WORLD" then C_Timer.After(5, bindingsReady) end
     C_Timer.After(2, arrive)
+    pcall(ns.Voice.ArrivalSoon, 2)   -- (Willo hears an arrival story coming from now, not from arrive's settle: LOR-811)
     C_Timer.After(1, ns.Voice.OnTaxiCheck)
     refreshSoon()
   elseif event == "QUEST_LOG_UPDATE" then

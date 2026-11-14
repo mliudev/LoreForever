@@ -3331,9 +3331,9 @@
     "subzone:champions-hall": {
       "1": [
         {
-          "duration": 33.88081632653061,
-          "file": "Audio/Transport/full_subzone_champions-hall-e9bc7627bfca90722b4e/1-0000.mp3",
-          "sha256": "e0fd7b3216a563c77b2ac36dd1df17b5f66c74190245fda5f89f35a68beedbed",
+          "duration": 30.223673469387755,
+          "file": "Audio/Transport/full_subzone_champions-hall-1ac23f3932afce21eea0/1-0000.mp3",
+          "sha256": "ae8aa37c26de85f14bb72801f7fcc57cd7bc6707826f613ec4a975f0f6ef641b",
           "start": 0
         }
       ],
@@ -3344,15 +3344,15 @@
           "1"
         ]
       },
-      "fullHash": "306303",
-      "generation": "4fc8494b2f2d965f8c04",
-      "hash": "306303",
+      "fullHash": "e61f9d",
+      "generation": "8a015d990b62de5c108c",
+      "hash": "e61f9d",
       "source": {
-        "duration": 33.906939,
+        "duration": 30.249796,
         "file": null,
-        "sha256": "e9bc7627bfca90722b4e00246398a16d877192f32604375f9487632f5d05d396"
+        "sha256": "1ac23f3932afce21eea07ad4873cc91d53a060a79a9fe5b71127ed04fb8a838a"
       },
-      "text": "Champions' Hall. In Stormwind's guarded Champions' Hall, Alliance officers gather to discuss campaigns across Azeroth. Its quartermasters supply proven veterans with specialized weapons, plate, and regalia. Only Alliance soldiers who have earned the rank of Knight or higher in battle pass the guarded entrance to Champions' Hall. Commanders gather around maps of Azeroth to discuss ongoing campaigns, among arms and the insignias of rank. Quartermasters supply battle-hardened soldiers with elite weapons and armor to aid them against the Horde in contested lands, along with mounts."
+      "text": "Champions' Hall. Behind a guarded door in Stormwind's Old Town, Champions' Hall is where the Alliance's officers meet and draw their gear. Only soldiers who have earned the rank of Knight or higher in battle are let past its guards. Inside, commanders plan campaigns over maps of Azeroth, and quartermasters hand out officers' weapons, plate, insignia and war mounts.\n\nOrgrimmar keeps its own answer to it: the Hall of Legends, where the Horde's decorated warriors draw the same supplies."
     },
     "subzone:charred-vale": {
       "1": [
@@ -12140,6 +12140,12 @@
       1863,
       2061
     ],
+    "ae8aa37c26de85f14bb72801f7fcc57cd7bc6707826f613ec4a975f0f6ef641b": [
+      299,
+      497,
+      852,
+      1003
+    ],
     "aea97eec7e81c895736b08ee33a856acb5ba6a8e0280859eb0f8cb1b98e54b11": [
       229,
       543,
@@ -12847,12 +12853,6 @@
       1284,
       1442,
       1657
-    ],
-    "e0fd7b3216a563c77b2ac36dd1df17b5f66c74190245fda5f89f35a68beedbed": [
-      222,
-      452,
-      727,
-      976
     ],
     "e362dd44a8335cea191dab046a57eba8aeebfbd58ed42fea5bf37925794f2509": [
       223,
@@ -14086,6 +14086,9 @@
       "1386": 2,
       "507": 1
     },
+    "ae8aa37c26de85f14bb72801f7fcc57cd7bc6707826f613ec4a975f0f6ef641b": {
+      "299": 1
+    },
     "aea97eec7e81c895736b08ee33a856acb5ba6a8e0280859eb0f8cb1b98e54b11": {
       "1731": 2,
       "543": 1
@@ -14363,9 +14366,6 @@
     "e0dacf78ac0f20b5cb51beaef32daff53b762581ca4506da84fc49940af4b217": {
       "1442": 2,
       "543": 1
-    },
-    "e0fd7b3216a563c77b2ac36dd1df17b5f66c74190245fda5f89f35a68beedbed": {
-      "452": 1
     },
     "e362dd44a8335cea191dab046a57eba8aeebfbd58ed42fea5bf37925794f2509": {
       "1499": 2,

@@ -1,0 +1,75 @@
+{
+ "key": "quest:95961",
+ "type": "quest",
+ "name": "Stepped Out",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95961
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Tessa asks you to find Gray at Powderfuse Port. He has been away longer than expected, and she wants him home with her and Emma.",
+ "sections": [
+  {
+   "title": "Tessa's Request",
+   "body": "Tessa's baby, Emma, is crying as Tessa asks you to look for Gray. He left a while ago and has not come back. She says he often goes to Powderfuse Port, where his bright appearance should make him easy to recognize.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tessa looking for?",
+   "aliases": [
+    "who is gray",
+    "find tessa's husband",
+    "where is tessa's gray"
+   ],
+   "answer": "Tessa asks you to find Gray, Emma's father, at Powderfuse Port."
+  },
+  {
+   "q": "Why does Tessa want Gray home?",
+   "aliases": [
+    "why is tessa worried",
+    "why she needs gray",
+    "emma's father"
+   ],
+   "answer": "Tessa says Emma lights up when she sees her father, and she wants to know why he has not come back."
+  },
+  {
+   "q": "Where does Tessa think Gray went?",
+   "aliases": [
+    "gray location",
+    "where is gray",
+    "powderfuse port"
+   ],
+   "answer": "Tessa says Gray seems to go to Powderfuse Port often."
+  },
+  {
+   "q": "How can I recognize Gray?",
+   "aliases": [
+    "what does gray look like",
+    "gray appearance",
+    "who shines brightly"
+   ],
+   "answer": "Tessa says Gray shines as brightly as the sun."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "emma",
+  "family",
+  "gray dawnbright",
+  "missing husband",
+  "powderfuse port",
+  "stepped out",
+  "tessa"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Stepped Out"
+ ]
+}

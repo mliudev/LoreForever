@@ -30,6 +30,8 @@ ARTIFACT_WORKERS = 6   # artifact entries fetched side by side, each straight fr
 
 WILLO = 'Willo-Setup.exe'                  # Willo's own installer: optional, the release never waits on it
 WILLO_MAC = 'Willo-mac.dmg'                # Willo for Mac (LOR-636), signed and notarized: optional the same way
+INSTALLER = 'LoreForever-Setup.exe'        # the add-on's Windows installer: attached after the zip publishes (attach())
+INSTALLER_KEYS = ('signature', 'smoke')    # what the manifest says of it, beside its row
 GITHUB_ASSET_LIMIT = 2 * 1024 ** 3         # GitHub's per-file release asset limit
 
 
@@ -281,6 +283,11 @@ def stage(args):
         raise Failure('Producer proof belongs to another source/run')
     jobs = [(locate(args.root, r), r) for r in proof['assets']]
     release = get_release(args.repo, args.tag)
+    if release is not None and not release['draft'] and getattr(args, 'if_draft', False):
+        # The Windows installer, after the zip side published without it: attach-installer adds it.
+        print(json.dumps({'producer': proof['producer'], 'staged': False,
+                          'reason': args.tag + ' is already published; attach-installer adds this'}))
+        return
     if release is None or not release['draft']:
         raise Failure('Producer uploads require an unpublished draft')
     remote = assets(release)
@@ -304,7 +311,8 @@ def stage(args):
                 print('retrying ' + r['name'] + ' on its own: ' + last, flush=True)
                 failed.append((path, r))
     for path, r in sorted(failed, key=lambda job: job[1]['name']):
-        transferred += upload(args.repo, args.tag, path, r)
+        # The installer's upload may outlive the draft (the zip side published meanwhile): it finishes on the release.
+        transferred += upload(args.repo, args.tag, path, r, published=getattr(args, 'if_draft', False))
     remote = assets(get_release(args.repo, args.tag))
     for r in proof['assets']:
         if r['name'] not in remote:
@@ -529,7 +537,8 @@ def extract_artifact(repo, artifact_id, output):
 def legacy_receive(args):
     bound = binding(args)
     artifacts = api(args.repo, f'actions/runs/{args.run}/artifacts?per_page=100')['artifacts']
-    for producer in ('linux', 'installer') + (('willo',) if args.willo else ()) + (('mac',) if args.mac else ()):
+    # The installer's payload goes to attach() (attach-installer), not here: the zip side publishes without it.
+    for producer in ('linux',) + (('willo',) if args.willo else ()) + (('mac',) if args.mac else ()):
         proof = read(latest_proof(args.proofs, producer, bound))
         artifact_name = producer + '-payload-' + proof['binding']['runAttempt']
         choices = [a for a in artifacts if a['name'] == artifact_name and not a['expired']]
@@ -585,16 +594,27 @@ def installer_manifest(args):
 def willo_manifest(args):
     """Willo's own installer (the release workflow's willo job): no add-on inputs, just the signed Setup."""
     proof = {'version': 1, 'producer': 'willo', 'binding': binding(args), 'assets': [row(args.setup)],
-             'signature': read(args.signature)}
+             'signature': read(args.signature), **companion(args)}
     if proof['assets'][0]['name'] != WILLO:
         raise Failure('Expected ' + WILLO)
     write(args.output, proof)
 
 
+def companion(args):
+    """The private repo's commit Willo was built from (the build checkout's HEAD), on her own releases' proofs: both
+    platforms of one release come from the tag's commit, never main's tip (docs/qa/willo-publish-split.md, A1)."""
+    ref = getattr(args, 'companion_ref', None)
+    if ref is None:
+        return {}
+    if not re.fullmatch(r'[0-9a-f]{40}', ref):
+        raise Failure('Require the full commit Willo was built from')
+    return {'companionRef': ref}
+
+
 def mac_manifest(args):
     """Willo for Mac (the willo-mac jobs): the signed, notarized, stapled Willo-mac.dmg and what the Mac said of it."""
     proof = {'version': 1, 'producer': 'mac', 'binding': binding(args), 'assets': [row(args.dmg)],
-             'signature': read(args.signature)}
+             'signature': read(args.signature), **companion(args)}
     check_mac(proof, proof['binding'])
     write(args.output, proof)
 
@@ -631,32 +651,45 @@ def check_willo(willo, bound, signed):
     return willo['assets']
 
 
-def combined(linux, installer, bound, signed, willo=None, mac=None):
-    if linux.get('version') != 1 or installer.get('version') != 1 or linux['producer'] != 'linux' or installer['producer'] != 'installer':
-        raise Failure('Invalid producer proof')
-    if not same_binding(linux['binding'], bound) or not same_binding(installer['binding'], bound):
-        raise Failure('Proof source/run bindings differ')
-    if linux['candidateZipSha256'] != installer['candidateZipSha256'] or linux['installerInputs'] != installer['installerInputs']:
-        raise Failure('Installer did not use the exact Linux inputs')
-    sig = installer['signature']
-    check_signature(sig, signed, 'installer')
-    expected = {s: 'passed' if available else 'unavailable' for s, available in linux['smokeSelections'].items()}
-    if installer['smoke'] != expected or expected.get('base') != 'passed':
-        raise Failure('Installer smoke evidence is incomplete')
-    rows = (linux['assets'] + installer['assets'] + (check_willo(willo, bound, signed) if willo else [])
-            + (check_mac(mac, bound) if mac else []))
-    names = [name(r['name']) for r in rows]
-    if len(set(names)) != len(names) or not {'LoreForever.zip', 'LoreForever-Setup.exe', 'transport-downloads.json'} <= set(names):
-        raise Failure('Required assets are missing or duplicated')
-    if [r['name'] for r in installer['assets']] != ['LoreForever-Setup.exe']:
-        raise Failure('Installer producer asset set differs')
-    if next(r['sha256'] for r in rows if r['name'] == 'LoreForever.zip') != linux['candidateZipSha256']:
-        raise Failure('Candidate ZIP binding differs')
+def check_rows(rows):
     for r in rows:
         if type(r['bytes']) is not int or r['bytes'] <= 0 or not re.fullmatch('[0-9a-f]{64}', r['sha256']):
             raise Failure('Invalid asset digest/size')
-    result = {'version': 1, 'binding': bound, 'assets': rows, 'candidateZipSha256': linux['candidateZipSha256'],
-              'signature': sig, 'smoke': installer['smoke'], 'curseforge': linux['curseforge']}
+    return rows
+
+
+def check_installer(linux, installer, bound, signed):
+    """The signed Setup.exe joins the release only built from the exact zip and inputs the release published, signed when
+    signing is set up, and with every first-install check passed: the checks the release made before it waited on it."""
+    if installer.get('version') != 1 or installer.get('producer') != 'installer' or not same_binding(installer['binding'], bound):
+        raise Failure('Invalid installer proof')
+    if linux['candidateZipSha256'] != installer['candidateZipSha256'] or linux['installerInputs'] != installer['installerInputs']:
+        raise Failure('Installer did not use the exact Linux inputs')
+    check_signature(installer['signature'], signed, 'installer')
+    expected = {s: 'passed' if available else 'unavailable' for s, available in linux['smokeSelections'].items()}
+    if installer['smoke'] != expected or expected.get('base') != 'passed':
+        raise Failure('Installer smoke evidence is incomplete')
+    if [r['name'] for r in installer['assets']] != [INSTALLER]:
+        raise Failure('Installer producer asset set differs')
+    if not 0 < installer['assets'][0]['bytes'] < GITHUB_ASSET_LIMIT:
+        raise Failure(INSTALLER + ' is over GitHub\'s release asset limit')
+    return check_rows(installer['assets'])
+
+
+def combined(linux, bound, signed, willo=None, mac=None):
+    """What the release publishes as soon as the zip side is done: the zip, the narration packs and the download
+    controls. The Windows installer never holds it up (docs/qa/installers-own-release.md): attach() adds it after."""
+    if linux.get('version') != 1 or linux.get('producer') != 'linux' or not same_binding(linux['binding'], bound):
+        raise Failure('Invalid producer proof')
+    rows = (linux['assets'] + (check_willo(willo, bound, signed) if willo else [])
+            + (check_mac(mac, bound) if mac else []))
+    names = [name(r['name']) for r in rows]
+    if len(set(names)) != len(names) or not {'LoreForever.zip', 'transport-downloads.json'} <= set(names) or INSTALLER in names:
+        raise Failure('Required assets are missing or duplicated')
+    if next(r['sha256'] for r in rows if r['name'] == 'LoreForever.zip') != linux['candidateZipSha256']:
+        raise Failure('Candidate ZIP binding differs')
+    result = {'version': 1, 'binding': bound, 'assets': check_rows(rows), 'candidateZipSha256': linux['candidateZipSha256'],
+              'curseforge': linux['curseforge']}
     if willo:
         result['willoSignature'] = willo['signature']
     if mac:
@@ -664,6 +697,101 @@ def combined(linux, installer, bound, signed, willo=None, mac=None):
     return result
 
 
+def payload(args, producer, attempt):
+    """A producer's payload artifact of one attempt of this run, extracted under args.output/producer."""
+    artifact_name = producer + '-payload-' + attempt
+    choices = [a for a in api(args.repo, f'actions/runs/{args.run}/artifacts?per_page=100')['artifacts']
+               if a['name'] == artifact_name and not a['expired']]
+    if len(choices) != 1:
+        raise Failure('Missing or duplicate payload artifact: ' + artifact_name)
+    extract_artifact(args.repo, choices[0]['id'], args.output / producer)
+    return args.output / producer
+
+
+def attach(args):
+    """The add-on's signed Setup.exe onto its release when it wasn't ready for the zip side's publish (the
+    attach-installer job; docs/qa/installers-own-release.md): the file first, then release-manifest.json and
+    SHA256SUMS.txt rewritten to list it, so nothing names it before it's there. The workflow runs this after the run's
+    CurseForge jobs, the other readers of those two files. Safe to re-run, also after one that died halfway: the manifest
+    is rebuilt from this run's proofs when the published one is missing; the same file is reused; an unlisted Setup.exe
+    (an earlier attempt's) is replaced; a listed one this run published stays (a player may be downloading it) unless
+    this is a published-tag rebuild (--legacy), whose point is replacing it; a release another run published is
+    refused."""
+    bound = binding(args)
+    linux = read(latest_proof(args.proofs, 'linux', bound))
+    installer = read(latest_proof(args.proofs, 'installer', bound))
+    rows = check_installer(linux, installer, bound, args.signed)
+    release = get_release(args.repo, args.tag)
+    if release is None or release['draft']:
+        raise Failure(args.tag + ' is not published; the zip side publishes it first')
+    remote = assets(release)
+    existing, body = None, None
+    if 'release-manifest.json' in remote:
+        body = run('release', 'download', args.tag, '-R', args.repo, '-p', 'release-manifest.json', '-O', '-')
+        existing = json.loads(body)
+        if not same_binding(existing.get('binding', {}), bound):
+            raise Failure('Published release ' + args.tag + ' belongs to a different run')
+    if existing is None or existing.get('candidateZipSha256') != linux['candidateZipSha256'] or any(
+            r not in existing.get('assets', []) for r in linux['assets']):
+        if existing is not None:
+            raise Failure('Published release ' + args.tag + ' is not the zip this installer was built from')
+        # An earlier attach died between its uploads: the zip side's manifest again, from this run's own proof. Only
+        # when that names every file the release holds: a manifest rebuilt without a row would leave a published file
+        # unlisted (an older joint tag's Willo), so that one is a person's to restore. Nothing is ever deleted here.
+        known = {r['name'] for r in linux['assets']} | {INSTALLER, 'release-manifest.json', 'SHA256SUMS.txt'}
+        others = sorted(set(remote) - known)
+        if others:
+            raise Failure(args.tag + ' has no release-manifest.json, and holds files this run\'s proofs don\'t name ('
+                          + ', '.join(others) + '): restore its manifest by hand, then re-run this job')
+        existing = combined(linux, bound, args.signed)
+        print('rebuilt the manifest from this run\'s proofs (the published one is missing)', flush=True)
+    there = next((r for r in existing['assets'] if r['name'] == INSTALLER), None)
+    if body is not None and there and (there == rows[0] or not args.legacy):
+        # Setup.exe is listed already: in the zip side's publish, an earlier attempt's attach, or another attempt's
+        # signed build (which stays: a player may be downloading it). The manifest stays as published; its sums are
+        # made whole if an earlier attempt died while replacing them.
+        check_row(remote[INSTALLER], there)
+        repaired = publish_sums(args, existing['assets'] + [row_of(body, 'release-manifest.json')], remote)
+        print(json.dumps({'installer': 'already on the release' if there == rows[0] else 'kept',
+                          'bytes': there['bytes'], 'sumsRepaired': repaired}))
+        return
+    folder = payload(args, 'installer', installer['binding']['runAttempt'])
+    # upload() reuses a file of the same bytes and replaces any other: an unlisted one is an earlier attempt's, which
+    # nothing names and no download slot can point at. Only Setup.exe, the manifest and the sums are ever replaced.
+    upload(args.repo, args.tag, locate([folder], rows[0]), rows[0], published=True)
+    manifest_rows = [r for r in existing['assets'] if r['name'] != INSTALLER] + rows
+    proof = dict(existing, assets=manifest_rows, signature=installer['signature'], smoke=installer['smoke'])
+    args.output.mkdir(parents=True, exist_ok=True)
+    manifest = args.output / 'release-manifest.json'
+    write(manifest, proof)
+    upload(args.repo, args.tag, manifest, row(manifest), published=True)
+    publish_sums(args, manifest_rows + [row(manifest)], assets(get_release(args.repo, args.tag)))
+    print(json.dumps({'installer': 'attached', 'bytes': rows[0]['bytes']}))
+
+
+def row_of(text, asset_name):
+    data = text.encode()
+    return {'name': asset_name, 'bytes': len(data), 'sha256': hashlib.sha256(data).hexdigest()}
+
+
+def publish_sums(args, rows, remote):
+    """SHA256SUMS.txt for rows (every file but itself) onto the published release, unless it's there and current; then
+    the release's files are checked against rows and it, exactly. True when it uploaded."""
+    text = ''.join(r['sha256'] + '  ' + r['name'] + '\n' for r in sorted(rows, key=lambda r: r['name']))
+    want = row_of(text, 'SHA256SUMS.txt')
+    uploaded = not matches(remote.get('SHA256SUMS.txt'), want)
+    if uploaded:
+        args.output.mkdir(parents=True, exist_ok=True)
+        sums = args.output / 'SHA256SUMS.txt'
+        sums.write_text(text, newline='\n')
+        upload(args.repo, args.tag, sums, want, published=True)
+    every = rows + [want]
+    remote = assets(get_release(args.repo, args.tag))
+    if set(remote) != {r['name'] for r in every}:
+        raise Failure('Published asset set differs from the expected inventory: ' + ', '.join(sorted(set(remote) ^ {r['name'] for r in every})))
+    for r in every:
+        check_row(remote[r['name']], r)
+    return uploaded
 
 def latest_proof(folder, producer, bound):
     choices = []
@@ -679,42 +807,77 @@ def latest_proof(folder, producer, bound):
         raise Failure('Duplicate producer proof')
     return matches[0]
 
-def published_willo(args, release, file, signature):
-    """Willo's file on a published release and the signature evidence for it, from the release-manifest.json published
+def published_row(args, release, file, keys):
+    """A file on a published release and what its manifest says of it (keys), from the release-manifest.json published
     with it: what the rebuilt manifest and SHA256SUMS.txt must still carry, since installed Willos check their download
     against her row there. Checked against what GitHub holds, so a file that changed since fails instead of staying."""
     published = json.loads(run('release', 'download', args.tag, '-R', args.repo, '-p', 'release-manifest.json', '-O', '-'))
     kept = next((r for r in published.get('assets', []) if r.get('name') == file), None)
-    if kept is None or not published.get(signature):
-        raise Failure('Published release has ' + file + ', but its manifest has no row and signature for it to keep')
+    if kept is None or not all(published.get(k) for k in keys):
+        raise Failure('Published release has ' + file + ', but its manifest has no row and ' + '/'.join(keys) + ' for it to keep')
     check_row(assets(release)[file], kept)
-    return kept, published[signature]
+    return kept, {k: published[k] for k in keys}
+
+
+def zip_side(manifest):
+    """A manifest without the Windows installer's row and evidence: what the zip side published, whether or not the
+    installer joined it then or later."""
+    return {k: v for k, v in manifest.items() if k not in INSTALLER_KEYS} | {
+        'assets': [r for r in manifest.get('assets', []) if r.get('name') != INSTALLER]}
+
+
+def unexpected(remote, rows):
+    """The release's files differ from rows: one missing, or one more than an unlisted Setup.exe still on its way
+    (the installer's job uploading, or attach-installer about to list it)."""
+    names = {r['name'] for r in rows}
+    return bool(names - set(remote) or set(remote) - names - ({INSTALLER} if INSTALLER not in names else set()))
 
 
 def finalize(args):
     bound = binding(args)
     if args.proofs:
         args.linux = latest_proof(args.proofs, 'linux', bound)
-        args.installer = latest_proof(args.proofs, 'installer', bound)
         if args.willo:
             args.willo_proof = latest_proof(args.proofs, 'willo', bound)
         if args.mac:
             args.mac_proof = latest_proof(args.proofs, 'mac', bound)
-    if not args.linux or not args.installer:
-        raise Failure('Require both producer proofs')
+    if not args.linux:
+        raise Failure('Require the Linux producer proof')
     if args.willo and not args.willo_proof:
         raise Failure('Require the Willo proof')
     if args.mac and not args.mac_proof:
         raise Failure('Require the Willo for Mac proof')
     willo = read(args.willo_proof) if args.willo else None
     mac = read(args.mac_proof) if args.mac else None
-    proof = combined(read(args.linux), read(args.installer), bound, args.signed, willo, mac)
+    linux = read(args.linux)
+    proof = combined(linux, bound, args.signed, willo, mac)
     release = get_release(args.repo, args.tag)
     if release is None:
         raise Failure('Final promotion requires the prepared release')
-    kept = set()   # Willo's files that stay on a published release as they are
-    for optional, included, signature in ((WILLO, willo, 'willoSignature'), (WILLO_MAC, mac, 'macSignature')):
+    # The Windows installer goes in this publish when it's ready (it usually finishes minutes before the zip): its proof
+    # is uploaded after its staging, so a proof means the upload finished. Not ready, or not right, and the zip goes
+    # without it; attach-installer adds it once it is (docs/qa/installers-own-release.md).
+    installer = None
+    if args.proofs and release['draft'] and not args.legacy:
+        try:
+            installer = read(latest_proof(args.proofs, 'installer', bound))
+            rows = check_installer(linux, installer, bound, args.signed)
+            if not matches(assets(release).get(INSTALLER), rows[0]):
+                raise Failure(INSTALLER + ' is not on the draft as its proof says')
+            proof['assets'] = proof['assets'] + rows
+            proof.update(signature=installer['signature'], smoke=installer['smoke'])
+            print('the Windows installer goes in this publish', flush=True)
+        except Failure as error:
+            installer = None
+            print('the zip goes without the Windows installer (attach-installer adds it when it is ready): ' + str(error), flush=True)
+    kept = set()   # files that stay on a published release as they are
+    for optional, included, keys in ((WILLO, willo, ('willoSignature',)), (WILLO_MAC, mac, ('macSignature',)),
+                                     (INSTALLER, installer, INSTALLER_KEYS)):
         if included or optional not in assets(release):
+            continue
+        # The Windows installer's job may still be uploading its file to the draft: it's left alone and unlisted, and
+        # attach-installer lists it (or replaces it) once its proof is there.
+        if optional == INSTALLER and release['draft']:
             continue
         # Willo's jobs upload before they leave their proof; without a proof the upload isn't trusted. A draft just
         # loses it (the site keeps serving the last good one); a published release's is never removed here.
@@ -722,11 +885,17 @@ def finalize(args):
             run('release', 'delete-asset', args.tag, optional, '-R', args.repo, '--yes')
             release = get_release(args.repo, args.tag)
             continue
-        # A published release with her file and no proof in this run is an older joint tag, from before 11/1, when the
-        # Release workflow built Willo too (she releases on her own now). Rebuilding it leaves her as she was published.
-        kept_row, kept_signature = published_willo(args, release, optional, signature)
+        # A published release keeps what attach() added (a retry of this job) or what an older tag shipped with: Willo
+        # from before 11/1, when the Release workflow built her too. Rebuilding leaves it as it was published; a
+        # rebuild's own Setup.exe replaces it through attach(). An unlisted Setup.exe (an attach under way) stays so.
+        try:
+            kept_row, kept_keys = published_row(args, release, optional, keys)
+        except Failure:
+            if optional == INSTALLER:
+                continue
+            raise
         proof['assets'].append(kept_row)
-        proof[signature] = kept_signature
+        proof.update(kept_keys)
         kept.add(optional)
     if not release['draft'] and not args.legacy:
         # A publication response can be lost after promotion. A final-job retry only verifies it;
@@ -736,16 +905,16 @@ def finalize(args):
         body = run('release', 'download', args.tag, '-R', args.repo, '-p', 'release-manifest.json', '-O', '-')
         existing = json.loads(body)
         if not same_binding(existing.get('binding', {}), bound) or (
-                existing | {'binding': bound}) != proof:
+                zip_side(existing | {'binding': bound}) != zip_side(proof)):
             raise Failure('Published release belongs to a different run or producer outputs')
         check_row(manifest_asset, {'name': 'release-manifest.json', 'bytes': len(body.encode()),
                                   'sha256': hashlib.sha256(body.encode()).hexdigest()})
-        rows = proof['assets'] + [{'name': 'release-manifest.json', 'bytes': manifest_asset['size'],
-                                  'sha256': manifest_asset['digest'].removeprefix('sha256:')}]
+        rows = existing['assets'] + [{'name': 'release-manifest.json', 'bytes': manifest_asset['size'],
+                                     'sha256': manifest_asset['digest'].removeprefix('sha256:')}]
         sums = ''.join(r['sha256'] + '  ' + r['name'] + '\n' for r in sorted(rows, key=lambda r: r['name']))
         rows.append({'name': 'SHA256SUMS.txt', 'bytes': len(sums.encode()),
                      'sha256': hashlib.sha256(sums.encode()).hexdigest()})
-        if set(remote) != {r['name'] for r in rows}:
+        if unexpected(remote, rows):
             raise Failure('Published asset inventory differs')
         for r in rows:
             check_row(remote[r['name']], r)
@@ -774,7 +943,7 @@ def finalize(args):
         upload(args.repo, args.tag, path, row(path), published=args.legacy)
     all_rows.append(row(sums))
     remote = assets(get_release(args.repo, args.tag))
-    if set(remote) != {r['name'] for r in all_rows}:
+    if unexpected(remote, all_rows):
         raise Failure('Staged asset set differs from complete expected inventory')
     for r in all_rows:
         check_row(remote[r['name']], r)
@@ -793,20 +962,58 @@ def finalize(args):
 
 
 def willo_release(args):
-    """A Willo-only release (the public willo.yml, run by scripts/release-willo.sh): the signed Willo-Setup.exe on a
-    release of its own, vX.Y.Z on this repo's commit, never marked Latest (the site's /voices links follow Latest, and
-    the add-on's downloads stay on its own release). Beside it, release-manifest.json as finalize() writes it (Willo's
-    updater reads her row and willoSignature there) and SHA256SUMS.txt. It's a draft until every file checks out."""
+    """One platform of a Willo-only release (the public willo.yml, run by scripts/release-willo.sh): Windows' signed
+    Willo-Setup.exe (--platform win) or the Mac's notarized Willo-mac.dmg (--platform mac), on the release willo-vX.Y.Z
+    of this repo's commit, never marked Latest (the site's /voices links follow Latest, and the add-on's downloads stay
+    on its own release). Each platform publishes on its own (Mike, 11/13: "Let's keep these releases all separate from
+    each other"; docs/qa/willo-publish-split.md): whichever lands first creates the release with its file, the other
+    adds its file to it. Beside them, release-manifest.json (Willo's updaters read their row and willoSignature or
+    macSignature there) and SHA256SUMS.txt, both rewritten each time to list exactly the files on the release. The
+    workflow's per-version lock keeps the two from writing at once. A rerun is safe: a file already there is reused,
+    and a release another run made (or another Willo commit) is refused."""
     bound = binding(args)
-    willo = read(args.manifest)
-    proof = {'version': 1, 'binding': bound, 'assets': check_willo(willo, bound, args.signed),
-             'willoSignature': willo['signature'], 'willoOnly': True}
-    if args.mac_manifest:   # Willo for Mac, when its job got that far: optional, as on an add-on release
-        mac = read(args.mac_manifest)
-        proof['assets'] = proof['assets'] + check_mac(mac, bound)
-        proof['macSignature'] = mac['signature']
+    mine = read(args.manifest)
+    if args.platform == 'win':
+        rows, name, key = check_willo(mine, bound, args.signed), WILLO, 'willoSignature'
+    else:
+        rows, name, key = check_mac(mine, bound), WILLO_MAC, 'macSignature'
+    ref = companion(args).get('companionRef')
+    if not ref or mine.get('companionRef') != ref:
+        raise Failure(name + ' was built from ' + str(mine.get('companionRef')) + ', not the release\'s commit ' + str(ref))
     title = 'Willo ' + args.tag.removeprefix('willo-').removeprefix('v')
     release = get_release(args.repo, args.tag)
+    if release is not None and not release['draft']:
+        release = settle_published(args.repo, args.tag, release)
+    existing = None
+    if release is not None and 'release-manifest.json' in assets(release):
+        try:
+            existing = json.loads(run('release', 'download', args.tag, '-R', args.repo, '-p', 'release-manifest.json', '-O', '-'))
+        except (Failure, ValueError):
+            existing = None
+        if existing is None or not same_binding(existing.get('binding', {}), bound) or existing.get('companionRef') != ref:
+            if not release['draft']:
+                raise Failure('Published release ' + args.tag + ' belongs to a different run or Willo build')
+            existing = None   # an earlier run's draft: none of it is proven here, so it starts over
+    elif release is not None and not release['draft']:
+        # Published with no manifest: nothing says what its other file is, so nothing on it is touched (a re-run that
+        # took it for a fresh draft deleted the other platform's live file: the Architect's review of #4034).
+        raise Failure('Published release ' + args.tag + ' has no release-manifest.json: not touching it. Put this run\'s '
+                      'manifest back first (docs/qa/willo-publish-split.md, A10)')
+    there = next((r for r in (existing or {}).get('assets', []) if r['name'] == name), None)
+    if there and not release['draft']:
+        # Published already: the same build is a rerun, which only puts back a manifest or SHA256SUMS.txt that a died
+        # job left missing or stale; another build (a full re-run rebuilt it) never replaces a file players may be
+        # downloading, nor the sizes the site's feed froze.
+        if there != rows[0] or existing.get(key) != mine['signature']:
+            raise Failure(name + ' on published release ' + args.tag + ' is another build of this run; not replacing it')
+        proof = existing
+    else:
+        other = [r for r in (existing or {}).get('assets', []) if r['name'] != name]
+        proof = {'version': 1, 'binding': bound, 'assets': sorted(other + rows, key=lambda r: r['name']),
+                 'willoOnly': True, 'companionRef': ref, key: mine['signature']}
+        for k in {'willoSignature', 'macSignature'} - {key}:
+            if any(r['name'] == {'willoSignature': WILLO, 'macSignature': WILLO_MAC}[k] for r in other):
+                proof[k] = existing[k]
     if release is None:
         run('release', 'create', args.tag, '-R', args.repo, '--draft', '--target', args.commit, '--latest=false',
             '--title', title, '--notes', 'Release preparation in progress.')
@@ -817,34 +1024,69 @@ def willo_release(args):
                 break
         else:
             raise Failure('Created the draft release, but GitHub does not list it yet; rerun the workflow')
-    elif not release['draft']:
-        # A rerun after the publication went through: only check it's this run's.
-        existing = json.loads(run('release', 'download', args.tag, '-R', args.repo, '-p', 'release-manifest.json', '-O', '-'))
-        if not same_binding(existing.get('binding', {}), bound) or (existing | {'binding': bound}) != proof:
-            raise Failure('Published release ' + args.tag + ' belongs to a different run or Willo build')
-        print(json.dumps({'alreadyPublishedByThisRun': True}))
-        return
-    remote = assets(get_release(args.repo, args.tag))
-    if WILLO_MAC in remote and not args.mac_manifest:   # an earlier attempt's, unproven in this one: not shipped
-        run('release', 'delete-asset', args.tag, WILLO_MAC, '-R', args.repo, '--yes')
-    for r in proof['assets']:
-        upload(args.repo, args.tag, locate(args.root, r), r)
+    published = not release['draft']
+    if not published:   # an earlier attempt's file on the draft, unproven in this one: not shipped. Never on a public one
+        keep = {r['name'] for r in proof['assets']} | {'release-manifest.json', 'SHA256SUMS.txt'}
+        for stray in set(assets(release)) - keep:
+            run('release', 'delete-asset', args.tag, stray, '-R', args.repo, '--yes')
+    # This platform's file first, the manifest that lists it after: until then nothing names it, so no updater and no
+    # feed reads a file that isn't there yet.
+    put(args.repo, args.tag, locate(args.root, rows[0]), rows[0], published)
     args.output.mkdir(parents=True, exist_ok=True)
     manifest, sums = args.output / 'release-manifest.json', args.output / 'SHA256SUMS.txt'
     write(manifest, proof)
-    rows = proof['assets'] + [row(manifest)]
-    sums.write_text(''.join(r['sha256'] + '  ' + r['name'] + '\n' for r in sorted(rows, key=lambda r: r['name'])), newline='\n')
+    every = proof['assets'] + [row(manifest)]
+    sums.write_text(''.join(r['sha256'] + '  ' + r['name'] + '\n' for r in sorted(every, key=lambda r: r['name'])), newline='\n')
     for path in (manifest, sums):
-        upload(args.repo, args.tag, path, row(path))
-    rows.append(row(sums))
+        put(args.repo, args.tag, path, row(path), published)
+    every.append(row(sums))
     remote = assets(get_release(args.repo, args.tag))
-    if set(remote) != {r['name'] for r in rows}:
-        raise Failure('Staged asset set differs from complete expected inventory')
-    for r in rows:
+    if set(remote) != {r['name'] for r in every}:
+        raise Failure('Staged asset set differs from complete expected inventory: ' + ', '.join(sorted(remote)))
+    for r in every:
         check_row(remote[r['name']], r)
-    notes = ['--notes-file', str(args.notes)] if args.notes else ['--notes', title + ': fixes for Willo.']
-    run('release', 'edit', args.tag, '-R', args.repo, '--draft=false', '--latest=false', '--title', title, *notes)
-    print(json.dumps({'verifiedAssets': len(rows), 'willoOnly': True}))
+    if not published:
+        notes = ['--notes-file', str(args.notes)] if args.notes else ['--notes', title + ': fixes for Willo.']
+        run('release', 'edit', args.tag, '-R', args.repo, '--draft=false', '--latest=false', '--title', title, *notes)
+    print(json.dumps({'verifiedAssets': len(every), 'willoOnly': True, 'platform': args.platform,
+                      'alreadyPublishedByThisRun': there is not None and published,
+                      'files': [r['name'] for r in proof['assets']]}))
+
+
+NEXT = '.next'   # a published file's replacement goes up beside it under this name first (put())
+
+
+def settle_published(repo, tag, release):
+    """A replacement that died between taking the old file down and naming the new one (put()) left NAME.next, complete
+    and checked, and no NAME: it takes the name now. A NAME.next beside its NAME is a replacement that never finished:
+    the old file stands and the leftover goes."""
+    have = assets(release)
+    for name in [n for n in have if n.endswith(NEXT)]:
+        base = name[:-len(NEXT)]
+        if base in have:
+            run('release', 'delete-asset', tag, name, '-R', repo, '--yes')
+        else:
+            run('api', '-X', 'PATCH', f'repos/{repo}/releases/assets/{have[name]["id"]}', '-f', 'name=' + base)
+    return get_release(repo, tag)
+
+
+def put(repo, tag, path, expected, published):
+    """upload(), except that a file already on a published release is replaced without a moment where a failed upload
+    leaves it missing: the new one goes up as NAME.next, then the old one goes and the new one takes its name (a step
+    that died in between is settled by the next run: settle_published())."""
+    current = assets(get_release(repo, tag)).get(expected['name'])
+    if not published or current is None or matches(current, expected):
+        return upload(repo, tag, path, expected, published)
+    nxt = Path(tempfile.mkdtemp()) / (expected['name'] + NEXT)
+    shutil.copyfile(path, nxt)
+    upload(repo, tag, nxt, dict(expected, name=nxt.name), True)
+    run('release', 'delete-asset', tag, expected['name'], '-R', repo, '--yes')
+    asset = assets(get_release(repo, tag))[nxt.name]
+    run('api', '-X', 'PATCH', f'repos/{repo}/releases/assets/{asset["id"]}', '-f', 'name=' + expected['name'])
+    check_row(assets(get_release(repo, tag))[expected['name']], expected)
+    print('replaced ' + expected['name'] + ' ' + str(expected['bytes']) + ' bytes', flush=True)
+    shutil.rmtree(nxt.parent, ignore_errors=True)
+    return expected['bytes']
 
 
 def main():
@@ -869,7 +1111,9 @@ def main():
         p.add_argument('--manifest', type=Path, required=True)
         p.add_argument('--root', type=Path, action='append', required=True)
         if command == 'bundle': p.add_argument('--output', type=Path, required=True)
-        if command == 'stage': p.add_argument('--workers', type=int, default=STAGE_WORKERS)
+        if command == 'stage':
+            p.add_argument('--workers', type=int, default=STAGE_WORKERS)
+            p.add_argument('--if-draft', action='store_true', help='stage only while the release is a draft (the installer)')
     p = sub.add_parser('receive')
     p.add_argument('--output', type=Path, required=True)
     p.add_argument('--timeout', type=float, default=1800)
@@ -880,9 +1124,11 @@ def main():
     p = sub.add_parser('willo-manifest')
     for key in ('setup', 'signature', 'output'):
         p.add_argument('--' + key, type=Path, required=True)
+    p.add_argument('--companion-ref', help="the commit Willo was built from (her checkout's HEAD)")
     p = sub.add_parser('mac-manifest')
     for key in ('dmg', 'signature', 'output'):
         p.add_argument('--' + key, type=Path, required=True)
+    p.add_argument('--companion-ref', help="the commit Willo was built from (her checkout's HEAD)")
     p = sub.add_parser('legacy-receive')
     p.add_argument('--proofs', type=Path, required=True)
     p.add_argument('--output', type=Path, required=True)
@@ -898,9 +1144,15 @@ def main():
     p.add_argument('--notes', type=Path)
     p.add_argument('--signed', action='store_true')
     p.add_argument('--legacy', action='store_true')
+    p = sub.add_parser('installer-attach')
+    p.add_argument('--proofs', type=Path, required=True)
+    p.add_argument('--output', type=Path, required=True)
+    p.add_argument('--signed', action='store_true')
+    p.add_argument('--legacy', action='store_true', help='a published-tag rebuild: replace the published Setup.exe')
     p = sub.add_parser('willo-release')
-    p.add_argument('--manifest', type=Path, required=True, help='the willo-manifest proof')
-    p.add_argument('--mac-manifest', type=Path, help="the mac-manifest proof, when Willo for Mac's job left one")
+    p.add_argument('--platform', choices=('win', 'mac'), required=True, help='the platform this job publishes')
+    p.add_argument('--manifest', type=Path, required=True, help='its willo-manifest or mac-manifest proof')
+    p.add_argument('--companion-ref', required=True, help="the release's Willo commit (willo.yml's companion_ref)")
     p.add_argument('--root', type=Path, action='append', required=True)
     p.add_argument('--output', type=Path, required=True)
     p.add_argument('--notes', type=Path)
@@ -911,7 +1163,8 @@ def main():
             raise Failure('Require a repository')
         {'prepare': prepare, 'linux-manifest': linux_manifest, 'handover': handover, 'bundle': bundle, 'stage': stage,
          'receive': receive, 'legacy-receive': legacy_receive, 'installer-manifest': installer_manifest,
-         'willo-manifest': willo_manifest, 'mac-manifest': mac_manifest, 'finalize': finalize, 'willo-release': willo_release}[args.command](args)
+         'willo-manifest': willo_manifest, 'mac-manifest': mac_manifest, 'finalize': finalize, 'installer-attach': attach,
+         'willo-release': willo_release}[args.command](args)
     except (Failure, OSError, ValueError, KeyError, TypeError, zipfile.BadZipFile) as error:
         parser.exit(1, 'release-staging: ' + str(error) + '\n')
 
