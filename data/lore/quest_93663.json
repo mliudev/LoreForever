@@ -1,0 +1,87 @@
+{
+ "key": "quest:93663",
+ "type": "quest",
+ "name": "Lost in Transit",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   93663
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Dar asks you to find a missing goblin courier and his shipment bound for the Harborage. The loss threatens his trading reputation.",
+ "sections": [
+  {
+   "title": "A Missing Shipment",
+   "body": "Dar trades extra supplies with the draenei of the Harborage for part of their catch. Now his goblin courier has not returned with a shipment. Dar fears a crocolisk may have killed him, but recovering the goods matters to his business. You are asked to search near the waters along the road and get the shipment to the Harborage.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Dar?",
+   "aliases": [
+    "dar",
+    "who sent the shipment",
+    "goblin trader"
+   ],
+   "answer": "Dar trades extra supplies with the draenei of the Harborage for some of their catch."
+  },
+  {
+   "q": "Who is the missing courier?",
+   "aliases": [
+    "missing goblin",
+    "where's the courier",
+    "goblin courier"
+   ],
+   "answer": "Dar sent a goblin courier with his latest shipment, but the courier never returned."
+  },
+  {
+   "q": "Where was the shipment going?",
+   "aliases": [
+    "shipment destination",
+    "where to deliver it",
+    "harborage delivery"
+   ],
+   "answer": "The shipment was meant for the draenei at the Harborage."
+  },
+  {
+   "q": "Why does Dar need the shipment found?",
+   "aliases": [
+    "why find the shipment",
+    "dar's reputation",
+    "why does it matter"
+   ],
+   "answer": "Dar says his business reputation is at stake if the shipment is not found and delivered."
+  },
+  {
+   "q": "Where should I look for the courier?",
+   "aliases": [
+    "where to search",
+    "courier location",
+    "lost in transit where"
+   ],
+   "answer": "Dar asks you to check near the waters along the road."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crocolisk",
+  "dar",
+  "draenei",
+  "goblin courier",
+  "harborage",
+  "lost in transit",
+  "shipment",
+  "trading"
+ ],
+ "related": [
+  "subzone:harborage"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Lost in Transit"
+ ]
+}

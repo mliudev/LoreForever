@@ -1,0 +1,80 @@
+{
+ "key": "quest:92867",
+ "type": "quest",
+ "name": "Ground to Keep",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92867
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Groundskeeper Lomar asks you to drive intruders from Stromgarde Keep. The kingdom\u2019s remaining sculptures and sacred burial grounds need protection.",
+ "sections": [
+  {
+   "title": "A Kingdom's Remains",
+   "body": "In Stromgarde Keep, Groundskeeper Lomar asks you to drive back the Boulderfist, Syndicate, and Witherbark intruders. He says Stromgarde has more in reserve, and that it must stay hidden for its own protection. Support is growing for preserving the kingdom\u2019s remaining sculptures and sacred burial grounds.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for help?",
+   "aliases": [
+    "who wants help",
+    "groundskeeper lomar",
+    "who gave this"
+   ],
+   "answer": "Groundskeeper Lomar asks you to drive the Boulderfist, Syndicate, and Witherbark intruders from Stromgarde Keep."
+  },
+  {
+   "q": "Why should Stromgarde\u2019s remains be protected?",
+   "aliases": [
+    "why protect stromgarde",
+    "what needs protecting",
+    "keep the sculptures safe"
+   ],
+   "answer": "Support is growing for preserving Stromgarde\u2019s remaining sculptures and sacred burial grounds."
+  },
+  {
+   "q": "Which intruders are in Stromgarde Keep?",
+   "aliases": [
+    "who's in the keep",
+    "enemies in stromgarde",
+    "boulderfist syndicate witherbark"
+   ],
+   "answer": "The Boulderfist, Syndicate, and Witherbark have taken up residence in Stromgarde Keep."
+  },
+  {
+   "q": "What must remain hidden?",
+   "aliases": [
+    "what is hidden",
+    "stromgarde reserves",
+    "what must stay secret"
+   ],
+   "answer": "Lomar says Stromgarde has more in reserve, and it must remain hidden for its own protection."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "boulderfist",
+  "burial grounds",
+  "ground to keep",
+  "groundskeeper lomar",
+  "sculptures",
+  "stromgarde",
+  "stromgarde keep",
+  "syndicate",
+  "witherbark"
+ ],
+ "related": [
+  "subzone:stromgarde-keep",
+  "topic:syndicate"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Ground to Keep"
+ ]
+}

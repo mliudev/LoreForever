@@ -716,7 +716,7 @@ end
 -- alone, and journey pictures reach the journey through Willo's picture book.
 local function willoRows()
   local out = {
-    { "talkMark", L["Show who can answer you"], L["When you target someone who can answer you, a small mark beside your target, and a line in their tooltip, says which key to hold to ask them out loud. Never on enemies, animals or other players."] },
+    { "talkMark", L["Show who can answer you"], L["When you target someone who can answer you, a small mark beside your target, and a line in their tooltip, says which key to hold to ask them out loud. Never on enemies, animals or other players."] .. " " .. L["Right-click the mark to hide it."] },
     { "pictureHideUI", L["Hide the interface when taking a journey picture"], L["Print Screen takes a normal WoW screenshot. For a journey picture, use /lore picture or give Take a journey picture a key under Keys, above. This option hides your interface for a moment, except in combat. Turn on Picture book in %s to keep your journey pictures."]:format(ns.COMPANION_NAME) },
   }
   if ns.Journey and ns.Journey.PictureBookOn() then

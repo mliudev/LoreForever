@@ -4118,7 +4118,7 @@ P.transport["quest:388"] = {
   fullHash = "041484",
   text = "The Color of Blood. Nikova Raskol grieves for Mac, her young grandson, killed inside Stormwind City's prison. Anger consumes her, and she sends adventurers into The Stockade to take the Defias gang's red bandanas in retribution. Mac Raskol was fourteen when he took up arms as a guard in The Stockade. Stormwind's regular soldiers had gone to distant fronts, so volunteers and the city's youth took on local defense. Mac watched hardened criminals and mutinous members of the Defias Brotherhood. The prison was far more dangerous than his experience could prepare him for. The Defias inmates tore apart their wool prison blankets and fashioned red bandanas from the scraps. The color marked their loyalty to the Brotherhood, even behind prison walls. Mac rebuked them and tried to enforce discipline. The prisoners stabbed him in the back, and he died on the stone floor. After Mac's pointless death, Nikova Raskol turns from official channels to cold revenge. She sends you into The Stockade to quell the rioting prisoners and bring back ten of their cherished red bandanas. Dyed the color of her grandson's spilled blood, the tokens offer a broken family a grim sense of closure.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_388-caeb46e66aaa8dd60c16/1-0000.mp3", duration = 70.1126531, start = 0},
+    {file = "Audio/Transport/full_quest_388-4e959e55568d324f4a5c/1-0000.mp3", duration = 98.2204082, start = 0},
   },
 }
 P.transport["quest:389"] = {
@@ -4606,7 +4606,7 @@ P.transport["quest:505"] = {
   fullHash = "e53a38",
   text = "Syndicate Assassins. Southshore’s new magistrate suspects the Syndicate Assassins killed his predecessor. His clues point north of Tarren Mill, where he wants the gang slain. Magistrate Henry Maleb now holds office in Southshore. The previous magistrate was assassinated, and the killers were never found. Maleb is almost certain the Syndicate hired them.\n\nThieves make up the gang, led by villainous nobles from the fallen kingdom of Alterac. Maleb’s last clues point north of Tarren Mill, which the Horde occupies. He asks you to slay the Syndicate members at the camp there.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_505-ee5b69dbf8583377f7ae/1-0000.mp3", duration = 34.8473469, start = 0},
+    {file = "Audio/Transport/full_quest_505-ec7dbcd7a6b9b7d07385/1-0000.mp3", duration = 34.9257143, start = 0},
   },
 }
 P.transport["quest:5052"] = {
@@ -4662,7 +4662,7 @@ P.transport["quest:510"] = {
   fullHash = "8b2c2e",
   text = "Foreboding Plans. The Syndicate's papers call for supplies to reach Southshore soon, where Magistrate Henry Maleb awaits them. The Syndicate papers list food, weapons and clothing. They also call for masks, oil and poison. The supplies are needed soon for an important undertaking against Southshore. Magistrate Henry Maleb is to receive them there.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_510-ff6572e1939537a224ef/1-0000.mp3", duration = 21.1591837, start = 0},
+    {file = "Audio/Transport/full_quest_510-7e1374bedb30b96a6285/1-0000.mp3", duration = 22.0212245, start = 0},
   },
 }
 P.transport["quest:511"] = {
@@ -4678,7 +4678,7 @@ P.transport["quest:512"] = {
   fullHash = "074abc",
   text = "Noble Deaths. In Southshore, Magistrate Henry Maleb fears the Syndicate means ruin for the town. He sends you north to Strahnbrad's ruins in the Alterac Mountains, where he believes its leaders have their headquarters. After Foreboding Plans, Magistrate Henry Maleb wants the Syndicate's leaders struck down before their plans come to pass. Its cutthroats answer to former Alterac nobles, who may hide among ordinary agents. Their signet rings mark them out. Maleb asks you to bring him seven Alterac signet rings in Southshore.\n\nHe believes the Syndicate has made its headquarters among Strahnbrad's ruins, north in the Alterac Mountains.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_512-a36e6afc1d081ded8dce/1-0000.mp3", duration = 38.5044898, start = 0},
+    {file = "Audio/Transport/full_quest_512-17a06546663bfc156aaf/1-0000.mp3", duration = 38.0865306, start = 0},
   },
 }
 P.transport["quest:513"] = {
@@ -4750,7 +4750,7 @@ P.transport["quest:522"] = {
   fullHash = "ff1349",
   text = "Assassin's Contract. In Hillsbrad Foothills, a Shadowy Assassin bears a contract naming Magistrate Henry Maleb for death. You are to carry it to Maleb in Southshore, where red wax bears a distinctive signet ring's mark. A Shadowy Assassin carries a contract in Hillsbrad Foothills. It names Magistrate Henry Maleb for death, and a distinctive signet ring has marked the red wax. Bring the paper to Maleb in Southshore.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_522-d5f95eb2a702ddff9a91/1-0000.mp3", duration = 25.9395918, start = 0},
+    {file = "Audio/Transport/full_quest_522-b256549654a69e70510a/1-0000.mp3", duration = 24.6334694, start = 0},
   },
 }
 P.transport["quest:524"] = {
@@ -4766,7 +4766,7 @@ P.transport["quest:525"] = {
   fullHash = "3567b9",
   text = "Further Mysteries. In the Alterac foothills, a decrypted letter leaves Prospector Stormpike searching for meaning. He sends you to Southshore's magistrate with the message. Prospector Stormpike has decrypted the letter you found among thieves in the Alterac foothills. Yet its meaning escapes him, and he wonders why thieves had it at all. Southshore lies nearest to Alterac. If a threat is brewing, its magistrate should hear of it, so you carry the message to Magistrate Henry Maleb.",
   ["1"] = {
-    {file = "Audio/Transport/full_quest_525-666e4e9bccafa0d80ff9/1-0000.mp3", duration = 29.3093878, start = 0},
+    {file = "Audio/Transport/full_quest_525-69ef8bc9a098295bfdcc/1-0000.mp3", duration = 28.8391837, start = 0},
   },
 }
 P.transport["quest:527"] = {

@@ -1,0 +1,82 @@
+{
+ "key": "quest:1528",
+ "type": "quest",
+ "name": "Call of Water",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   1528
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A shaman sends you to Islen Waterseer beyond Ratchet, where she can teach you the ways of water. Your strength in fire has prepared you to seek her guidance.",
+ "sections": [
+  {
+   "title": "Toward the Coast",
+   "body": "The Barrens hold the next step in your elemental training. You have shown strength in fire, and now you are sent to Islen Waterseer, who lives along the coast. Follow the Southfury River south, past Ratchet, and look for a big shark near her home.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Islen Waterseer?",
+   "aliases": [
+    "Islen",
+    "Islen Waterseer location",
+    "who teaches water"
+   ],
+   "answer": "Islen Waterseer lives along the coast of the Barrens and can teach you the ways of water."
+  },
+  {
+   "q": "Where can I find Islen?",
+   "aliases": [
+    "where is Islen",
+    "Islen location",
+    "find Islen"
+   ],
+   "answer": "Islen lives beyond Ratchet along the Barrens coast. Head south along the Southfury River and look for a big shark."
+  },
+  {
+   "q": "Why am I looking for Islen?",
+   "aliases": [
+    "call of water why",
+    "water training",
+    "why find Islen"
+   ],
+   "answer": "You have shown strength in fire, and Islen can teach you the ways of water."
+  },
+  {
+   "q": "What should I look for near Islen?",
+   "aliases": [
+    "big shark",
+    "shark Islen",
+    "Islen landmark"
+   ],
+   "answer": "Look for a big shark near Islen."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "barrens",
+  "big shark",
+  "call of water",
+  "fire",
+  "islen waterseer",
+  "ratchet",
+  "shaman",
+  "southfury river",
+  "water"
+ ],
+ "related": [
+  "npc:islen-waterseer",
+  "zone:barrens",
+  "subzone:southfury-river",
+  "subzone:ratchet"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Call of Water"
+ ]
+}

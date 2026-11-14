@@ -8089,9 +8089,9 @@
     "subzone:southshore-town-hall": {
       "1": [
         {
-          "duration": 38.55673469387755,
-          "file": "Audio/Transport/full_subzone_southshore-town-hall-a1ff071c48a398c27e0d/1-0000.mp3",
-          "sha256": "8ec3c499b83ff9fd76b2f983d0c41e4547643ad152ddf034bc7b94ff6ec2dfc7",
+          "duration": 38.50448979591837,
+          "file": "Audio/Transport/full_subzone_southshore-town-hall-91b5185ca56bcc8a12f1/1-0000.mp3",
+          "sha256": "4225ad09ccca583517152d7602c589d3d0f8e5796a51a1de71bf20c3f7df0341",
           "start": 0
         }
       ],
@@ -8103,12 +8103,12 @@
         ]
       },
       "fullHash": "a5048e",
-      "generation": "19eb6191ae4a13eb1197",
+      "generation": "f344369900d190ed0217",
       "hash": "a5048e",
       "source": {
-        "duration": 38.556735,
+        "duration": 38.530612,
         "file": null,
-        "sha256": "a1ff071c48a398c27e0d76ab54587e18262d312fcb47c01efe3820e83735a67a"
+        "sha256": "91b5185ca56bcc8a12f1177e78b729c28496297cc2973365592d614edc0e5c13"
       },
       "text": "Southshore Town Hall. At Southshore Town Hall, Magistrate Henry Maleb directs the town’s affairs and defenses. It is one of Lordaeron’s last centers of civil authority as the Alliance struggles to hold ground in the plagued north. Southshore Town Hall keeps human rule alive amid Lordaeron’s ruin. Magistrate Henry Maleb governs from his office and works with officials such as Kundric Zanden to secure supplies and keep order. Undead press from nearby lands, Syndicate rogues threaten the region, and fierce skirmishes mark Hillsbrad’s border. From the hall, town leaders guide Southshore’s fight to survive."
     },
@@ -11947,6 +11947,13 @@
     "41c94f812035cdcea99a17828241ffb87f30ba8d88cc9ee4efa281e50cdd3e3c": [
       470
     ],
+    "4225ad09ccca583517152d7602c589d3d0f8e5796a51a1de71bf20c3f7df0341": [
+      255,
+      544,
+      731,
+      1032,
+      1314
+    ],
     "42593345471358a540fbdd97fb671f10a320e2c30195377f587cf77f195ad298": [
       655
     ],
@@ -13049,13 +13056,6 @@
       1516,
       1664,
       1954
-    ],
-    "8ec3c499b83ff9fd76b2f983d0c41e4547643ad152ddf034bc7b94ff6ec2dfc7": [
-      242,
-      520,
-      717,
-      1024,
-      1314
     ],
     "8f7dbdf30802663913736bcba8dfbaffb85fbcd43d9f4ca3b0ad08ec50fcca56": [
       221,
@@ -15117,6 +15117,9 @@
       "1903": 2,
       "595": 1
     },
+    "4225ad09ccca583517152d7602c589d3d0f8e5796a51a1de71bf20c3f7df0341": {
+      "544": 1
+    },
     "427d5c8d5ea59c79cad800c54b3a27783f0cc66683b32d246178d74b1e9c3685": {
       "531": 1
     },
@@ -15521,9 +15524,6 @@
     "8e73828db9c2b3293d0907c93a41ff79a4ab0e9f12c0101924b0dd8f8c775cde": {
       "1516": 2,
       "493": 1
-    },
-    "8ec3c499b83ff9fd76b2f983d0c41e4547643ad152ddf034bc7b94ff6ec2dfc7": {
-      "520": 1
     },
     "8f7dbdf30802663913736bcba8dfbaffb85fbcd43d9f4ca3b0ad08ec50fcca56": {
       "1544": 2,
@@ -16146,11 +16146,5 @@
     }
   },
   "pack": "LoreForever_Voice_Female_MorePlaces",
-  "retired": [
-    {
-      "file": "Audio/Transport/full_subzone_thelgen-rock-72d766c1092a67981d37/1-0000.mp3",
-      "sha256": "72fdc26fd7f7ea97fb6f5892e7663f56219ce59d53c425161a782c31b37a0ae4"
-    }
-  ],
   "version": 1
 }

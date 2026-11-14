@@ -5723,9 +5723,9 @@
     "quest:523": {
       "1": [
         {
-          "duration": 41.66530612244898,
-          "file": "Audio/Transport/full_quest_523-f190f128f0678007c961/1-0000.mp3",
-          "sha256": "5a78ae8c6d3cf01279c8f762b0050af9dea3cdc655f3089823a19e9a793adae2",
+          "duration": 41.37795918367347,
+          "file": "Audio/Transport/full_quest_523-b0124dd00bff093dd1e5/1-0000.mp3",
+          "sha256": "45748c837f5016ba09cd70cc34776f2be04e795d19e54d295c403dd589291db1",
           "start": 0
         }
       ],
@@ -5737,12 +5737,12 @@
         ]
       },
       "fullHash": "863398",
-      "generation": "5a073a92d58bcfebaa6d",
+      "generation": "80313a9cca0272f6bc10",
       "hash": "863398",
       "source": {
-        "duration": 41.691429,
+        "duration": 41.404082,
         "file": null,
-        "sha256": "f190f128f0678007c961acecb9c0aca0f3f3dbe4e9962e6f096512b203d0f36f"
+        "sha256": "b0124dd00bff093dd1e510aa2db4b56b71e09f315e72c5a51181d7a5a8d4dc72"
       },
       "text": "Baron's Demise. In Southshore, Magistrate Henry Maleb seeks justice for the contract you recovered. Baron Vardus, a cold-hearted nobleman of old Alterac, signed it, and Maleb asks you to bring him his head. After Assassin's Contract, Magistrate Henry Maleb tells you Baron Vardus signed the contract. Vardus is a nobleman of old Alterac, known for his cold heart and brutal ways. Maleb is not surprised to find him behind it. Southshore will not let the baron send thugs against the town without answering for it.\n\nMaleb thinks Vardus may be among the Syndicate's haunts, in Strahnbrad's ruins or the valley north of them. He asks you to bring him the baron's head."
     },
@@ -5750,8 +5750,8 @@
       "1": [
         {
           "duration": 39.88897959183674,
-          "file": "Audio/Transport/full_quest_537-ecacad963ee8df3e26c3/1-0000.mp3",
-          "sha256": "1f39546f7f219af1b2cdd45b4597ae5f6fbc7fd65bd03874f3e1efe91f6b79d3",
+          "file": "Audio/Transport/full_quest_537-598165d393666ea1c423/1-0000.mp3",
+          "sha256": "36df6f6a79f13d11237d7ab347a850f7673a274c3f12b811585516a230684eb7",
           "start": 0
         }
       ],
@@ -5763,12 +5763,12 @@
         ]
       },
       "fullHash": "8c2b83",
-      "generation": "6eb37c6def85faa0e207",
+      "generation": "c9caf8d27505a095ae57",
       "hash": "8c2b83",
       "source": {
-        "duration": 39.88898,
+        "duration": 39.915102,
         "file": null,
-        "sha256": "ecacad963ee8df3e26c3d824dda78047fee95909b47ab92bbc8f0a026c3e3fe2"
+        "sha256": "598165d393666ea1c4238873d759bd54ebff15c10d3e93f9912617f148e45032"
       },
       "text": "Dark Council. In Southshore, Magistrate Henry Maleb weighs a letter naming Nagaz and the Argus Wake. He fears they may threaten the land if allied with the Syndicate, and sends you to hunt Nagaz and the Argus Shadow Mages in the Uplands. After Further Mysteries, Maleb tells you the letter came from Nagaz, who belongs to the Argus Wake. He does not know what the Argus Wake is, but fears an alliance with the Syndicate would make them a threat. So he wants Nagaz and the Argus Shadow Mages named in the letter found and killed. Bring him Nagaz’s head.\n\nSearch the Uplands, north of Strahnbrad, where the Syndicate is strongest. Maleb hopes the Argus Wake’s envoys are there."
     },
@@ -10419,13 +10419,6 @@
     "1efb2b3bf273e017d1a57a610ad24e94c084b09e15caffe112da972566e91133": [
       637
     ],
-    "1f39546f7f219af1b2cdd45b4597ae5f6fbc7fd65bd03874f3e1efe91f6b79d3": [
-      214,
-      517,
-      736,
-      953,
-      1136
-    ],
     "1f9922be2b6b2a7956d0939b21bd2d8e014a289bd3e4199e4ae8107fc39ea672": [
       434,
       830,
@@ -10743,6 +10736,14 @@
       637,
       806
     ],
+    "36df6f6a79f13d11237d7ab347a850f7673a274c3f12b811585516a230684eb7": [
+      210,
+      517,
+      746,
+      951,
+      1146,
+      1327
+    ],
     "376390d273979ce867e78c53aa5359b7cf18cbd8d1370847a8f8bae1445916ca": [
       207,
       489,
@@ -11013,6 +11014,13 @@
       590,
       885,
       1043
+    ],
+    "45748c837f5016ba09cd70cc34776f2be04e795d19e54d295c403dd589291db1": [
+      226,
+      508,
+      727,
+      927,
+      1240
     ],
     "45b47df48425f6cd585bdf974a147dc4ffa600833493a4761aa8def3d3dbb8ca": [
       374,
@@ -11321,13 +11329,6 @@
       574,
       804,
       956
-    ],
-    "5a78ae8c6d3cf01279c8f762b0050af9dea3cdc655f3089823a19e9a793adae2": [
-      214,
-      494,
-      720,
-      934,
-      1252
     ],
     "5ae913e839969eafa0c8f1e45679afee25c3434308c701bebfe93b54294601e3": [
       238,
@@ -13816,9 +13817,6 @@
     "1ed4ed9d91aa5445bfde81e1035261571ce0b3f8981cdc68fdc6aba6a535499a": {
       "164": 1
     },
-    "1f39546f7f219af1b2cdd45b4597ae5f6fbc7fd65bd03874f3e1efe91f6b79d3": {
-      "517": 1
-    },
     "20c164778ae612926c09a74c7135a7d1eedb86eca865743c72d0f83fed3481ec": {
       "1004": 2,
       "436": 1
@@ -13928,6 +13926,9 @@
     "3696afcffb2063bc456c9c0e61e6dc9ec72e5b7498e4c0890fa068ce67950b23": {
       "421": 1
     },
+    "36df6f6a79f13d11237d7ab347a850f7673a274c3f12b811585516a230684eb7": {
+      "517": 1
+    },
     "376390d273979ce867e78c53aa5359b7cf18cbd8d1370847a8f8bae1445916ca": {
       "1278": 2,
       "489": 1
@@ -14024,6 +14025,9 @@
     },
     "456b848477057dbd932813e043bbf29d2b4153ca4efd7c8454497126d6b8f4fb": {
       "590": 1
+    },
+    "45748c837f5016ba09cd70cc34776f2be04e795d19e54d295c403dd589291db1": {
+      "508": 1
     },
     "45dc13640fe23009c7ca178006c27188183ad1a1a08a5ea1427f26bcde3c0844": {
       "476": 1,
@@ -14137,9 +14141,6 @@
     },
     "5a12d9690099ddd1bb9f3a1e11829b42d0d6c8d1c5dc85c922ae326455a20fd2": {
       "397": 1
-    },
-    "5a78ae8c6d3cf01279c8f762b0050af9dea3cdc655f3089823a19e9a793adae2": {
-      "494": 1
     },
     "5ae913e839969eafa0c8f1e45679afee25c3434308c701bebfe93b54294601e3": {
       "1225": 2,
@@ -14908,31 +14909,5 @@
     }
   },
   "pack": "LoreForever_Voice_Default_MoreQuests3",
-  "retired": [
-    {
-      "file": "Audio/Transport/full_quest_1052-c85b645a086013e6e204/1-0000.mp3",
-      "sha256": "f0e8c05d706cacea4ddb4b74f892e4143553011ec60e7956133a2141aaf64d28"
-    },
-    {
-      "file": "Audio/Transport/full_quest_208-c1ca426d049f233db6f8/1-0000.mp3",
-      "sha256": "90cfd9b6153c4076e8679938b455de60d7e31132e2246c1c0fcf451bcf4f8913"
-    },
-    {
-      "file": "Audio/Transport/full_quest_626-5ab7f722ba85e213fef8/1-0000.mp3",
-      "sha256": "f20608410073f31cab52739ce36e6880070f068884782ada60f9babd1d02966e"
-    },
-    {
-      "file": "Audio/Transport/full_quest_6568-dbab5c4f2a8bfc6421ad/1-0000.mp3",
-      "sha256": "a603fab1e1c59cd45ee252b036ec8150363e9eb077ac139e1e3f78b30409d227"
-    },
-    {
-      "file": "Audio/Transport/full_quest_706-15c970dbff2f7049ad4f/1-0000.mp3",
-      "sha256": "b8e77de9d8aba3928dc24dfa2ccf28e088eadb351e9dde84e8368d433ced6828"
-    },
-    {
-      "file": "Audio/Transport/full_quest_728-fdf36a8392b5a12adca3/1-0000.mp3",
-      "sha256": "89a0f4095073277821c762e3be8621d0ef85286d6a643770dedc7402733c5b40"
-    }
-  ],
   "version": 1
 }

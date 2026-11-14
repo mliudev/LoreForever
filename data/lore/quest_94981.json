@@ -1,0 +1,65 @@
+{
+ "key": "quest:94981",
+ "type": "quest",
+ "name": "Key Ingredients",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94981
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Alphonse Dumas needs materials to fashion a key from a crude moulding. You are asked to bring him Thick Leather and Iron Bars.",
+ "sections": [
+  {
+   "title": "Materials for the Key",
+   "body": "Alphonse Dumas keeps the embers hot while you gather what he needs. The moulding is crude, but the right materials may let him fashion a key.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Alphonse need?",
+   "aliases": [
+    "materials needed",
+    "what do I bring",
+    "key ingredients"
+   ],
+   "answer": "Alphonse Dumas asks you to bring four Thick Leather and twelve Iron Bars."
+  },
+  {
+   "q": "What is Alphonse making?",
+   "aliases": [
+    "what is he crafting",
+    "what is the key for",
+    "key moulding"
+   ],
+   "answer": "Alphonse hopes to fashion a key from a crude moulding using the right materials."
+  },
+  {
+   "q": "Where do I take the materials?",
+   "aliases": [
+    "who gets the ingredients",
+    "bring materials to whom"
+   ],
+   "answer": "Bring the Thick Leather and Iron Bars to Alphonse Dumas."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "alphonse dumas",
+  "embers",
+  "iron bars",
+  "key",
+  "key ingredients",
+  "moulding",
+  "thick leather"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Key Ingredients"
+ ]
+}

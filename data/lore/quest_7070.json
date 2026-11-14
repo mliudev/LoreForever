@@ -1,0 +1,73 @@
+{
+ "key": "quest:7070",
+ "type": "quest",
+ "name": "Shadowshard Fragments",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   7070
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Archmage Tervosh in Theramore asks you to gather Shadowshard Fragments from Maraudon. He needs ten brought back to him.",
+ "sections": [
+  {
+   "title": "Tervosh\u2019s Request",
+   "body": "Archmage Tervosh waits in Theramore on the coast of Dustwallow Marsh. He asks you to bring him ten Shadowshard Fragments from Maraudon, making the fragments the heart of his request.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who asks for the Shadowshard Fragments?",
+   "aliases": [
+    "who wants fragments",
+    "Tervosh fragments"
+   ],
+   "answer": "Archmage Tervosh in Theramore asks you to collect the Shadowshard Fragments."
+  },
+  {
+   "q": "Where do the fragments come from?",
+   "aliases": [
+    "where fragments from",
+    "Maraudon shards"
+   ],
+   "answer": "The Shadowshard Fragments come from Maraudon."
+  },
+  {
+   "q": "How many fragments does Tervosh want?",
+   "aliases": [
+    "how many shards",
+    "ten fragments"
+   ],
+   "answer": "Archmage Tervosh asks for ten Shadowshard Fragments."
+  },
+  {
+   "q": "Where do I bring them?",
+   "aliases": [
+    "where return fragments",
+    "Tervosh location"
+   ],
+   "answer": "Bring the fragments to Archmage Tervosh in Theramore, on the coast of Dustwallow Marsh."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "archmage tervosh",
+  "dustwallow marsh",
+  "maraudon",
+  "shadowshard fragments",
+  "tervosh",
+  "theramore"
+ ],
+ "related": [
+  "quest:7068",
+  "zone:dustwallow"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Shadowshard Fragments"
+ ]
+}

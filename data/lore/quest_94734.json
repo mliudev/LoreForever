@@ -11,7 +11,7 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Gobam asks you to gather sweet berries and river plants for his pet, Snufflesnout. The ingredients will make a special treat.",
+ "summary": "Gobam asks you to gather sweet berries and river plants for Snufflesnout, Chub'chob's pet. The ingredients will make a special treat.",
  "sections": [
   {
    "title": "A Pet's Treat",
@@ -26,7 +26,7 @@
     "gobam who",
     "who asks for berries"
    ],
-   "answer": "Gobam is asking you to bring ingredients for a special treat for his pet, Snufflesnout."
+   "answer": "Gobam is asking you to bring ingredients for a special treat for Snufflesnout, Chub'chob's pet."
   },
   {
    "q": "Who is Snufflesnout?",
@@ -34,7 +34,7 @@
     "snufflesnout pet",
     "gobam's pet"
    ],
-   "answer": "Snufflesnout is Gobam's pet and loves good food."
+   "answer": "Snufflesnout is Chub'chob's pet and loves good food."
   },
   {
    "q": "What ingredients does Gobam want?",

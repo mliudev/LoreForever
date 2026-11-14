@@ -183,7 +183,7 @@ function Page.Create(f)
     local key = Page.key
     if not key then return end
     if IsShiftKeyDown and IsShiftKeyDown() then return UI.DoQueueAction(key) end
-    if listen.playing then UI.StopAll() else UI.PlayEntry(key) end
+    if listen.playing then UI.StopAll(true) else UI.PlayEntry(key) end
   end)
   listen.play.onEnter = function(self)
     GameTooltip:SetOwner(self, "ANCHOR_BOTTOM")

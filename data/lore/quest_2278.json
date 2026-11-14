@@ -1,0 +1,64 @@
+{
+ "key": "quest:2278",
+ "type": "quest",
+ "name": "The Platinum Discs",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2278
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A stone watcher holds ancient lore, and you are asked to learn what it knows. Then you can activate the Discs of Norgannon.",
+ "sections": [
+  {
+   "title": "Lore and Discs",
+   "body": "You are asked to speak with the stone watcher and learn the ancient lore it keeps. Once you have learned what it offers, you can activate the Discs of Norgannon.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What am I asked to do?",
+   "aliases": [
+    "stone watcher task",
+    "activate discs",
+    "platinum discs"
+   ],
+   "answer": "You are asked to learn the ancient lore kept by the stone watcher, then activate the Discs of Norgannon."
+  },
+  {
+   "q": "What does the stone watcher know?",
+   "aliases": [
+    "stone watcher lore",
+    "what lore",
+    "what does it keep"
+   ],
+   "answer": "The stone watcher keeps ancient lore, which you are asked to learn."
+  },
+  {
+   "q": "What are the Discs of Norgannon?",
+   "aliases": [
+    "norgannon discs",
+    "the discs",
+    "platinum discs"
+   ],
+   "answer": "They are the Discs of Norgannon, which you are asked to activate after learning the stone watcher's lore."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "activate",
+  "ancient lore",
+  "discs of norgannon",
+  "platinum discs",
+  "stone watcher"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Platinum Discs"
+ ]
+}

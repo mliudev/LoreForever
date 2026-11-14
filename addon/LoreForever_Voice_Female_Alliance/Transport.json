@@ -8141,9 +8141,9 @@
     "subzone:southshore": {
       "1": [
         {
-          "duration": 77.60979591836735,
-          "file": "Audio/Transport/full_subzone_southshore-686573ae6c9d935d7f90/1-0000.mp3",
-          "sha256": "9b73a0964e966b247eca9c6cfa9a3dc7957e338e9f3c761c38cca11c5ef7503f",
+          "duration": 75.91183673469388,
+          "file": "Audio/Transport/full_subzone_southshore-1689b294b947763b43ee/1-0000.mp3",
+          "sha256": "0761f5e01ff735304617df5d675534fec5157acec411e09843890aaea3366581",
           "start": 0
         }
       ],
@@ -8155,12 +8155,12 @@
         ]
       },
       "fullHash": "e3bd9c",
-      "generation": "bb5eb1bf620614e8943f",
+      "generation": "3cd85df2e199341067bb",
       "hash": "a59a4b",
       "source": {
-        "duration": 77.635918,
+        "duration": 75.937959,
         "file": null,
-        "sha256": "686573ae6c9d935d7f90e74002e2804e66d1f9cf1d009d7eaeecfa6945491ca3"
+        "sha256": "1689b294b947763b43eea3e798510ee1b2dcbe13ece9d9b307f7cdb0e38a4171"
       },
       "text": "Southshore. In Hillsbrad, Southshore shelters the Alliance amid the ruins of Lordaeron. Once a quiet fishing village, the coastal port now faces the Forsaken at Tarren Mill, Syndicate bandits, and monsters along the shore. Refugee boats from the fallen kingdom of Stormwind first brought Southshore to prominence during the First War. The town was contested and overrun during the Second War, then rebuilt. It endured the horrors of the Third War as well.\n\nNow much of Lordaeron lies in ruins or under Forsaken rule, but Southshore remains loyal to the Grand Alliance. It shelters displaced human survivors, veteran paladins of the Silver Hand, and scholars of the Kirin Tor. Southshore's docks see the ship between Menethil Harbor and Auberdine, and the town is known for its turtle bisque. Yet life here is perilous. Magistrate Henry Maleb and Marshal Redpath lead the town as it faces pressure from every side.\n\nTo the north, the Forsaken of Tarren Mill fight a bitter border conflict for control of Hillsbrad. Inland, Syndicate outlaws raid supply lines and assassinate local leaders. Ogres, murlocs, and naga also harass the town's borders."
     },
@@ -10064,6 +10064,20 @@
       334,
       821,
       1048
+    ],
+    "0761f5e01ff735304617df5d675534fec5157acec411e09843890aaea3366581": [
+      194,
+      406,
+      546,
+      812,
+      959,
+      1142,
+      1435,
+      1720,
+      1990,
+      2330,
+      2559,
+      2747
     ],
     "08910f8acd3b6f393b3cf76b400a5f0d585413e649570bb8cf2802448b70b60f": [
       307,
@@ -12118,19 +12132,6 @@
       987,
       1143
     ],
-    "9b73a0964e966b247eca9c6cfa9a3dc7957e338e9f3c761c38cca11c5ef7503f": [
-      205,
-      547,
-      815,
-      965,
-      1157,
-      1447,
-      1739,
-      2030,
-      2356,
-      2584,
-      2798
-    ],
     "9c97d7fadf11234d3578bcf56fd486932b887d7b18c1afeed78e7356fc720cf2": [
       449,
       645,
@@ -13360,6 +13361,10 @@
     "073070a8868deb04a00057caad36b4c955fc2e2bd3f4fcf4bb233c0f6dce521f": {
       "334": 1
     },
+    "0761f5e01ff735304617df5d675534fec5157acec411e09843890aaea3366581": {
+      "1720": 2,
+      "546": 1
+    },
     "08910f8acd3b6f393b3cf76b400a5f0d585413e649570bb8cf2802448b70b60f": {
       "1365": 2,
       "474": 1
@@ -14170,10 +14175,6 @@
     },
     "9b2d8c9588d9cfac9ce586b3dd4b8cfa8f424c150bdbf2ea01a748015bcc0c85": {
       "481": 1
-    },
-    "9b73a0964e966b247eca9c6cfa9a3dc7957e338e9f3c761c38cca11c5ef7503f": {
-      "1739": 2,
-      "547": 1
     },
     "9c97d7fadf11234d3578bcf56fd486932b887d7b18c1afeed78e7356fc720cf2": {
       "449": 1

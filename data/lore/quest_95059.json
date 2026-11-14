@@ -11,11 +11,11 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "A goblin has a delivery for Knight Commander Demar Brant at Farholde Keep. You are asked to carry Frazzlespark's Crate to him, though the goblin\u2019s purpose is tied to the safety and success of its people.",
+ "summary": "A goblin has a delivery for Knight Commander Demar Brant at Farholde Keep. You are asked to carry Frazzlespark's Crate to him.",
  "sections": [
   {
    "title": "A Keepward Delivery",
-   "body": "Frazzlespark sends you southwest to Farholde Keep, where Knight Commander Demar Brant is waiting. The crate is meant for him, and the goblin makes a point of using his full name. You carry the delivery to the keep for reasons bound up with the safety and success of the goblins' people.",
+   "body": "Frazzlespark sends you southwest to Farholde Keep, where Knight Commander Demar Brant is waiting. The crate is meant for him, and the goblin makes a point of using his full name. At the keep, Demar calls the goblin a means to an end, part of the dealings he says keep his own people safe and successful.",
    "spoiler": 0
   }
  ],
@@ -58,7 +58,7 @@
     "why deliver crate",
     "goblin safety"
    ],
-   "answer": "Frazzlespark says certain dealings must be done to ensure the safety and success of the goblins' people."
+   "answer": "Demar Brant says certain dealings must be done to ensure the safety and success of his people, and calls the goblin nothing more than a means to an end."
   }
  ],
  "angles": [],

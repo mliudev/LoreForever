@@ -1,0 +1,71 @@
+{
+ "key": "quest:94892",
+ "type": "quest",
+ "name": "Dying Wish",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94892
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Marshal Ryan is dying and asks you to carry his crest to Knight Commander Demar Brant. His final words turn toward home and Abigail.",
+ "sections": [
+  {
+   "title": "Ryan\u2019s Last Words",
+   "body": "As Ryan\u2019s eyes grow dull, he speaks of home and Abigail. The Marshal gives you his crest and asks you to warn Knight Commander Demar Brant. You carry the sign of his rank to Farholde Keep, where the commander awaits.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is dying?",
+   "aliases": [
+    "dying wish who",
+    "marshal ryan"
+   ],
+   "answer": "Marshal Ryan is dying when he asks you to take his crest to Knight Commander Demar Brant."
+  },
+  {
+   "q": "What does Ryan want me to do?",
+   "aliases": [
+    "ryan request",
+    "what do with crest"
+   ],
+   "answer": "Ryan asks you to carry his crest to Knight Commander Demar Brant and warn him."
+  },
+  {
+   "q": "Who is Abigail?",
+   "aliases": [
+    "abigail ryan",
+    "who's abigail"
+   ],
+   "answer": "Ryan's final words mention Abigail and say he should have come home."
+  },
+  {
+   "q": "Where do I take the crest?",
+   "aliases": [
+    "crest where",
+    "demar brant location"
+   ],
+   "answer": "Take Marshal Ryan's crest to Knight Commander Demar Brant in Farholde Keep."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "abigail",
+  "crest",
+  "dying wish",
+  "farholde keep",
+  "knight commander demar brant",
+  "marshal ryan",
+  "ryan"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Dying Wish"
+ ]
+}

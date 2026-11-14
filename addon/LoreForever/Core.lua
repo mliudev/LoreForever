@@ -76,7 +76,7 @@ end
 local function playlistPlayPause()
   local UI = ns.UI
   if not UI.frame then return end
-  if UI.IsBusy() then return UI.StopAll() end
+  if UI.IsBusy() then return UI.StopAll(true) end
   if UI.ResumeStopped() then return end
   if not UI.PlaylistToggle() and UI.QueueHere() == 0 then
     say(L["nothing here is narrated, and your playlist is empty. Shift-click any page in Found to add it."])
@@ -96,7 +96,7 @@ end
 
 -- Stop: what plays pauses where it is, and the list with it; Play carries on (LOR-1388).
 function LoreForever_Stop()
-  if ns.UI.frame then ns.UI.StopAll() end
+  if ns.UI.frame then ns.UI.StopAll(true) end
 end
 
 -- Clear waiting: every waiting line that came by itself goes; what you added stays (LOR-1388).
@@ -131,7 +131,7 @@ function LoreForever_Narrate()
   end
   local target = (key and UI.EntryTarget(key)) or UI.ZoneTarget()
   if not target then return say(L["there's no narration for this place yet."]) end
-  if UI.speaking and (UI.playingId == target.id or UI.IsPlayingTarget(target)) then return UI.StopAll() end
+  if UI.speaking and (UI.playingId == target.id or UI.IsPlayingTarget(target)) then return UI.StopAll(true) end
   local name = ns.DB.entries[target.key].n
   if UI.IsBusy() or UI.pl.state == "waiting" then
     if not UI.PlayNext(target.key) then say(string.format(L["%s isn't narrated yet."], name)) end
@@ -185,9 +185,18 @@ end
 -- holding nothing but Lore Forever's keys (Mike's Valerius, 10/12), so the player's account keys stopped applying
 -- there. Such a set is put back on the account's keys, once per character; a character set with anything else in
 -- it (a key moved or cleared) is the player's own and stays as it is.
--- A character set with no Move Forward (the 10/13 kind: only our keys, every modified click NONE) goes back to the
--- account's keys at every login, a while after the bindings load so a set WoW is still loading isn't mistaken for one;
--- a character set with movement in it is the player's own and stays.
+-- A character set with nothing in it but our own keys (the 10/13 kind, Mike's Húrin: no movement, no camera, every
+-- modified click NONE) goes back to the account's keys at every login, a while after the bindings load so a set WoW
+-- is still loading isn't mistaken for one. Only that set: a character set with any key of the player's in it is
+-- theirs and stays, Move Forward or not (a mouse mover's, or one with W cleared, was reset at every login until the
+-- add-on debt review caught it, 11/13).
+local function onlyOurKeys()
+  for action in pairs(bindingSnapshot()) do
+    if not OUR_ACTIONS[action] and action ~= "NONE" then return false end
+  end
+  return true
+end
+
 local function repairCharacterSet()
   if type(GetCurrentBindingSet) ~= "function" or type(LoadBindings) ~= "function" or type(SaveBindings) ~= "function"
       or type(GetNumBindings) ~= "function" or type(GetBinding) ~= "function" then return end
@@ -195,7 +204,7 @@ local function repairCharacterSet()
     if C_Timer and C_Timer.After then C_Timer.After(10, function() pcall(repairCharacterSet) end) end
     return
   end
-  if GetCurrentBindingSet() == 2 and not ns.BindingsLoaded() then
+  if GetCurrentBindingSet() == 2 and onlyOurKeys() then
     LoadBindings(1)                                                -- ACCOUNT_BINDINGS
     SaveBindings(1)
     return
@@ -673,12 +682,36 @@ local function plainNames(db)
   end
 end
 
+-- The login lines in chat: how to open the panel, the language pack's notes, and the client's language once.
+local function welcome()
+  local key, n = ns.Hooks.CurrentKey(), ns.DB.count or 0
+  -- How to open the panel: the key (or /lore), plus the minimap button if it's showing.
+  local k = key and (GOLD .. key .. "|r")
+  if S().minimap then
+    say(k and string.format(L["%d lore entries ready. Press %s, or click the book on your minimap."], n, k)
+      or string.format(L["%d lore entries ready. Type /lore, or click the book on your minimap."], n))
+  else
+    say(k and string.format(L["%d lore entries ready. Press %s or type /lore."], n, k)
+      or string.format(L["%d lore entries ready. Type /lore to open them."], n))
+  end
+  for _, note in ipairs(ns.lang.notes) do say(note) end
+  -- Automatic picked up the client's language (LOR-35): say so once per language, with the way back to English.
+  local _, auto = ns.Lang.Wanted()
+  if not ns.lang.edition and auto and ns.lang.locale ~= "enUS" and S().langNoted ~= ns.lang.locale then
+    S().langNoted = ns.lang.locale
+    say(string.format(L["Lore Forever is in %s, your WoW client's language. To pick another language: /lore lang, or Language in /lore options."],
+      ns.lang.name or ns.lang.locale))
+  end
+end
+
 events:SetScript("OnEvent", function(_, event, arg1, ...)
   if ns.dataMissing then return end   -- the lore didn't load: nothing here can work (dataMissing)
   if event == "ADDON_LOADED" and arg1 == addonName then
-    ns.Log.Init()
+    ns.Guard(ns.Log.Init)   -- (on its own: an odd save that breaks it still lets the errors below be kept)
     ns.Errors.Init()   -- the Lua errors kept while the add-on loaded go into LoreForeverDB.errors (Errors.lua)
-    LoreForeverDB.addonVersion = ns.Log.Version()   -- which add-on wrote this saved data, for Willo to read
+    if type(LoreForeverDB) == "table" then
+      LoreForeverDB.addonVersion = ns.Log.Version()   -- which add-on wrote this saved data, for Willo to read
+    end
   elseif event == "ADDON_LOADED" and arg1 == "LoreForever_Showcase" then
     -- The developer showcase (LOR-1236: /lfs plays any feature from anywhere, for videos and QA) gets this add-on's
     -- table, and a way to send this frame a game event (its fake arrival). No release has that folder (build-release.sh
@@ -695,52 +728,36 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
       ns.dataMissing = true
       return sayDataMissing()
     end
-    plainNames(ns.DB)
+    -- Every login step runs on its own (ns.Guard, Errors.lua): one a patch broke is kept for /lore errors and the rest
+    -- still run, so a broken Options page still leaves the panel, the minimap book and the update check.
+    local Guard = ns.Guard
+    Guard(plainNames, ns.DB)
     local english = ns.DB.search   -- the index the add-on ships: search's while a language pack's own is built
-    ns.Lang.Init()   -- scans packs; the language pack, if any, goes in before the engine indexes the text
-    setBindingNames()
+    Guard(ns.Lang.Init)   -- scans packs; the language pack, if any, goes in before the engine indexes the text
+    Guard(setBindingNames)
     -- (an edition has entries of its own, which the English index doesn't fit)
-    ns.engine = ns.Engine.new(ns.DB, not (ns.lang and ns.lang.edition) and english or nil)
-    -- The journey's errors are reported, never fatal to the rest.
-    local ok, err = pcall(ns.Journey.Init)
-    if not ok and geterrorhandler then geterrorhandler()(err) end
-    ok, err = pcall(ns.Collection.Init)   -- the pages this character has found (Collection.lua)
-    if not ok and geterrorhandler then geterrorhandler()(err) end
-    ns.Slip.Init()   -- the note when you find a new page (Slip.lua)
-    ns.Voice.Init()
-    ns.WhatsNew.Init()   -- the first login of a new version: what's new in it (WhatsNew.lua)
-    ns.Strip.SyncWillo()   -- Willo's newer Live game info choice beats an older one made here (Strip.lua, LOR-676)
-    ns.Strip.HideOnce()    -- whoever kept the sky up goes hidden once, and is told (LOR-1126)
-    ns.UI.Create(ns.engine)
-    ns.Hooks.Init()
-    ns.Options.Create()
-    ns.Strip.Update()   -- live game info for the companion app, when it's on (Strip.lua, LOR-416)
+    local ok, engine = Guard(ns.Engine.new, ns.DB, not (ns.lang and ns.lang.edition) and english or nil)
+    ns.engine = ok and engine or nil
+    Guard(ns.Journey.Init)
+    Guard(ns.Collection.Init)   -- the pages this character has found (Collection.lua)
+    Guard(ns.Slip.Init)   -- the note when you find a new page (Slip.lua)
+    Guard(ns.Voice.Init)
+    Guard(ns.WhatsNew.Init)   -- the first login of a new version: what's new in it (WhatsNew.lua)
+    Guard(ns.Strip.SyncWillo)   -- Willo's newer Live game info choice beats an older one made here (Strip.lua, LOR-676)
+    Guard(ns.Strip.HideOnce)    -- whoever kept the sky up goes hidden once, and is told (LOR-1126)
+    Guard(ns.UI.Create, ns.engine)
+    Guard(ns.Hooks.Init)
+    Guard(ns.Options.Create)
+    Guard(ns.Strip.Update)   -- live game info for the companion app, when it's on (Strip.lua, LOR-416)
     if C_Timer and C_Timer.After then C_Timer.After(8, ns.Strip.TellHome) end   -- where a kept-up sky went (LOR-688)
-    ns.UI.RestorePlayback()
-    ns.MinimapButton()
-    local key, n = ns.Hooks.CurrentKey(), ns.DB.count or 0
-    -- How to open the panel: the key (or /lore), plus the minimap button if it's showing.
-    local k = key and (GOLD .. key .. "|r")
-    if S().minimap then
-      say(k and string.format(L["%d lore entries ready. Press %s, or click the book on your minimap."], n, k)
-        or string.format(L["%d lore entries ready. Type /lore, or click the book on your minimap."], n))
-    else
-      say(k and string.format(L["%d lore entries ready. Press %s or type /lore."], n, k)
-        or string.format(L["%d lore entries ready. Type /lore to open them."], n))
-    end
-    for _, note in ipairs(ns.lang.notes) do say(note) end
-    -- Automatic picked up the client's language (LOR-35): say so once per language, with the way back to English.
-    local _, auto = ns.Lang.Wanted()
-    if not ns.lang.edition and auto and ns.lang.locale ~= "enUS" and S().langNoted ~= ns.lang.locale then
-      S().langNoted = ns.lang.locale
-      say(string.format(L["Lore Forever is in %s, your WoW client's language. To pick another language: /lore lang, or Language in /lore options."],
-        ns.lang.name or ns.lang.locale))
-    end
-    checkSlashRivals()
+    Guard(ns.UI.RestorePlayback)
+    Guard(ns.MinimapButton)
+    Guard(welcome)
+    Guard(checkSlashRivals)
     C_Timer.After(6, ns.Hooks.MaybeOnboard)
     C_Timer.After(12, loginTip)   -- after the key prompt (6 s), once the login chat has settled
-    ns.Log.SessionStart()   -- usage counts: a game session (not a /reload), the level range, voice and settings
-    ns.Updates.Init()   -- a newer version out? Once in chat, after the login tip (Updates.lua)
+    Guard(ns.Log.SessionStart)   -- usage counts: a game session (not a /reload), the level range, voice and settings
+    Guard(ns.Updates.Init)   -- a newer version out? Once in chat, after the login tip (Updates.lua)
   elseif event == "UPDATE_BINDINGS" then
     bindingsReady()
   elseif event == "PLAYER_ENTERING_WORLD" or event == "ZONE_CHANGED_NEW_AREA" then
@@ -770,6 +787,7 @@ events:SetScript("OnEvent", function(_, event, arg1, ...)
     ns.Voice.OnCombatOver()
   elseif event == "PLAYER_LOGOUT" then
     ns.UI.SavePlayback()
+    ns.UI.restored = nil   -- (that save is the one written: the stop below mustn't overwrite it, UI.UpdateListen)
     ns.Voice.Shutdown()   -- /reload also fires PLAYER_LOGOUT; save the position before stopping its sound
     if ns.UI.msgs then ns.UI.Archive() end   -- keep the last chat of the session in History
     ns.Log.SessionEnd()   -- usage counts: minutes in game since this load

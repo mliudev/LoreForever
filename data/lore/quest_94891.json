@@ -1,0 +1,74 @@
+{
+ "key": "quest:94891",
+ "type": "quest",
+ "name": "News to Farholde",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94891
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Ashe Amberhall in Farholde Keep awaits your report after your work with Sergeant Riftan. Your return will show whether the venture succeeded.",
+ "sections": [
+  {
+   "title": "A Report for Ashe",
+   "body": "Sergeant Riftan sends you back to Ashe Amberhall in Farholde Keep with a report. He gives you Kilgar's head to take with you. Ashe says she had begun to doubt her judgment while you were away, but now praises your talents.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the report?",
+   "aliases": [
+    "who do I report to",
+    "Ashe report",
+    "Farholde report"
+   ],
+   "answer": "Ashe Amberhall in Farholde Keep is waiting for your report."
+  },
+  {
+   "q": "What does Riftan give me?",
+   "aliases": [
+    "what did Riftan toss back",
+    "Kilgar head",
+    "what am I carrying"
+   ],
+   "answer": "Sergeant Riftan gives you Kilgar's head to take to Ashe Amberhall."
+  },
+  {
+   "q": "What does Ashe say when I return?",
+   "aliases": [
+    "Amberhall reaction",
+    "Ashe dialogue",
+    "was Ashe worried"
+   ],
+   "answer": "Ashe says she had begun to worry she misjudged your talents, then says you were right for the job."
+  },
+  {
+   "q": "What does Ashe say about Riftan?",
+   "aliases": [
+    "Riftan still alive",
+    "what about Sergeant Riftan",
+    "Ashe and Riftan"
+   ],
+   "answer": "Ashe asks whether Riftan is still around and says she expected you two to get along."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ashe amberhall",
+  "farholde keep",
+  "kilgar",
+  "news to farholde",
+  "report",
+  "sergeant riftan"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: News to Farholde"
+ ]
+}

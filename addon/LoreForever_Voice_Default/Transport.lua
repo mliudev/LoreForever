@@ -438,7 +438,7 @@ P.transport["subzone:deathknell"] = {
   fullHash = "ad41f1",
   text = "Deathknell. Deathknell is where the newly freed dead first wake, in a hidden valley of southwestern Tirisfal. They have broken from the Lich King's grasp, and here they join the Forsaken. But mindless Scourge, zealots and wild beasts beset the village. For anyone who would claim a place in Sylvanas Windrunner's kingdom, it is a harsh first trial. The valley lies behind jagged hills, just north of the Silverpine border. Elite Deathguards keep the narrow gorge out of the valley sealed. Most towns in Tirisfal kept their human names from fallen Lordaeron. This one did not. The undead who claimed it named it Deathknell.\n\nThe town itself is split in two. Its northern half is still overrun by mindless zombies and feral ghouls, the village forge with it. The Forsaken cling to the southern grounds, around the old church. There the caretakers take in each new arrival, and bring them into the Banshee Queen's service. Survival here is never certain. To the northwest, monstrous spiders have taken Night Web's Hollow, a gold mine the young Forsaken nation needs. To the southeast, the Scarlet Crusade keeps a camp, and watches the valley without rest. Its couriers run to the Crusade's strongholds in the east, and its scouts probe Deathknell's defenses. And in the northern ruins, the caretakers must still fight off the mindless dead.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_deathknell-2538cbaf59eef05cc097/1-0000.mp3", duration = 81.397551, start = 0},
+    {file = "Audio/Transport/full_subzone_deathknell-85cf2efb7c65cc31e790/1-0000.mp3", duration = 104.019592, start = 0},
   },
 }
 P.transport["subzone:northshire-abbey"] = {
@@ -446,7 +446,7 @@ P.transport["subzone:northshire-abbey"] = {
   fullHash = "94095a",
   text = "Northshire Abbey. Northshire Abbey trains the kingdom's newest defenders, in the foothills of Northshire Valley. It is the spiritual heart of the Brotherhood of Northshire. And for those who answer Stormwind's call, few schools in the land are finer. It has been built twice. Centuries ago, clerics came south from Lordaeron to spread the Holy Light. They founded the Holy Order of Northshire Clerics, and they built its abbey. It soon became part of the life of the kingdom, caring for its sick. For years it tended the young Guardian Medivh, while he lay in his long coma.\n\nThen the First War came. Brigands and the Horde struck at the abbey again and again, until it lay in ruins. In the Second War, the Alliance of Lordaeron freed the region. Afterward, Archbishop Alonsus Faol helped to raise the abbey anew. And he refounded its protectors as the Brotherhood of Northshire. Today the abbey takes in volunteers, militia recruits and novices, all of them hoping to defend Stormwind. In its halls, instructors teach the martial, arcane and holy arts. Scouts and rogues train out in the yards. And the Knights of the Silver Hand keep watch over it all.\n\nBut the peace here is fragile. Kobolds have overrun the nearby mines, and wolves prowl the orchards. Agents of the Defias Brotherhood stalk the valley roads. Not even the abbey's archives are safe from them. They steal its ancient scrolls and sacred librams.",
   ["1"] = {
-    {file = "Audio/Transport/full_subzone_northshire-abbey-df330ddd873ec6160959/1-0000.mp3", duration = 85.3420408, start = 0},
+    {file = "Audio/Transport/full_subzone_northshire-abbey-7c088573edc945ced2f6/1-0000.mp3", duration = 108.747755, start = 0},
   },
 }
 P.transport["subzone:sen-jin-village"] = {
@@ -1262,7 +1262,7 @@ P.transport["zone:elwynn"] = {
   fullHash = "c188aa",
   text = "Elwynn Forest. Elwynn Forest is good green country, and Stormwind lives off its timber and gold, its fish and grain. It ought to be a peaceful place. But vermin, stray beasts and brigands roam the woods. So Northshire Abbey sends its recruits out to deal with them. The forest runs south from Stormwind's gates, all the way down to the Nazferiti River. It rains a good deal here, and the fields are the richer for it. Behind the fields grow thick hardwoods, and their timber goes to the capital. Carts roll up from Goldshire and the Eastvale Logging Camp, loaded with grain and livestock, lumber and raw copper. Elwynn breeds horses too, and knights and travelers all over the kingdom are glad to own a sturdy Evendale horse. But these are uneasy days. The Stormwind Army is busy far away, so the marshals and deputies must make do with recruits who have never been tested. Kobolds have overrun the Fargodeep and Jasperlode mines. Riverpaw gnolls prowl the southwestern borders, and murlocs have taken the shores of Stone Cairn Lake and Crystal Lake.\n\nEven the wolves are newcomers. They fled the corruption across the river in Duskwood, and came over into Elwynn.",
   ["1"] = {
-    {file = "Audio/Transport/full_zone_elwynn-eb92a2db4ca7b9d4c39b/1-0000.mp3", duration = 69.6685714, start = 0},
+    {file = "Audio/Transport/full_zone_elwynn-988c841d564077404415/1-0000.mp3", duration = 93.1787755, start = 0},
   },
 }
 P.transport["zone:felwood"] = {

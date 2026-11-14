@@ -481,7 +481,7 @@ function Capture.NoteGossip(name, h)
   local kind, id = ns.Giver.ParseGUID(call(_G.UnitGUID, "npc"))
   local npcs = LoreForeverDB.texts.npcs
   if npcs and kind == "npc" then
-    npcs[name] = { id = id, sex = ns.Giver.Sex("npc"), ctype = call(_G.UnitCreatureType, "npc") }
+    npcs[name] = { id = id, sex = ns.Giver.Sex("npc"), ctype = ns.Giver.CreatureType("npc") }
     if ns.HistoryArchive then ns.HistoryArchive.Text("npc", name, nil, npcs[name]) end
   end
   Capture.Note("gossip:" .. name .. "#" .. h, "gossip", name, true)
@@ -529,7 +529,7 @@ function Capture.OnSay(event, text, sender, ...)
   for _, unit in ipairs({ "target", "npc", "mouseover" }) do
     local _, uid = ns.Giver.ParseGUID(call(_G.UnitGUID, unit))
     if uid == id then
-      rec.sex, rec.ctype = ns.Giver.Sex(unit), call(_G.UnitCreatureType, unit)
+      rec.sex, rec.ctype = ns.Giver.Sex(unit), ns.Giver.CreatureType(unit)
       break
     end
   end
@@ -645,7 +645,7 @@ local function speakerOf(unit)
     -- A secret name (in combat, an instance) would throw later in SpeakerField's tostring and concat (LOR-1257).
     local name = call(_G.UnitName, unit)
     return { kind = "npc", id = id, name = usable(name) and name or nil, sex = ns.Giver.Sex(unit),
-      ctype = call(_G.UnitCreatureType, unit) }
+      ctype = ns.Giver.CreatureType(unit) }
   end
 end
 
@@ -791,7 +791,7 @@ function Capture.Hook()
     if type(orig) ~= "function" then return end
     H[name] = function(...)
       local r = { orig(...) }
-      pcall(fn, ...)
+      ns.Guard(fn, ...)
       return unpack(r)
     end
   end
@@ -980,14 +980,14 @@ local PARTS = { QUEST_DETAIL = "detail", QUEST_PROGRESS = "progress", QUEST_COMP
 frame:SetScript("OnEvent", function(_, event, ...)
   if not db() then return end   -- before login
   if SAY_KIND[event] then
-    pcall(Capture.OnSay, event, ...)
+    ns.Guard(Capture.OnSay, event, ...)
   elseif PARTS[event] then
-    pcall(Capture.UpdateQuest, PARTS[event])
+    ns.Guard(Capture.UpdateQuest, PARTS[event])
   elseif event == "GOSSIP_SHOW" then
-    pcall(Capture.UpdateGossip)
+    ns.Guard(Capture.UpdateGossip)
   elseif event == "ITEM_TEXT_READY" then
-    pcall(Capture.UpdateBook)
+    ns.Guard(Capture.UpdateBook)
   elseif SPOT_ROLE[event] then
-    pcall(Capture.OnSpot, event)
+    ns.Guard(Capture.OnSpot, event)
   end
 end)

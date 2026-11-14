@@ -7647,9 +7647,9 @@
     "npc:magistrate-henry-maleb": {
       "1": [
         {
-          "duration": 42.37061224489796,
-          "file": "Audio/Transport/full_npc_magistrate-henry-maleb-3bd31a0068ac1b8c24fb/1-0000.mp3",
-          "sha256": "c670387dc255921b39ae81fa38a109959b0cffe673e4d027d688d2cb2cef8a7e",
+          "duration": 42.605714285714285,
+          "file": "Audio/Transport/full_npc_magistrate-henry-maleb-9d3d7a6f0fa3709a74a7/1-0000.mp3",
+          "sha256": "9a9d0c39576181e8336da4fe37e0eaa8122d4db93ea7ce2fd89456f9d7cee47b",
           "start": 0
         }
       ],
@@ -7661,12 +7661,12 @@
         ]
       },
       "fullHash": "a6ff0a",
-      "generation": "d13882e69b609e60ce0e",
+      "generation": "c6ccb6afe52c397f8037",
       "hash": "a6ff0a",
       "source": {
-        "duration": 42.396735,
+        "duration": 42.631837,
         "file": null,
-        "sha256": "3bd31a0068ac1b8c24fb4968c2cc41e614ef0c94ddd92df2ec0dd647d322aca3"
+        "sha256": "9d3d7a6f0fa3709a74a763e4d640b5c2cd6fd4d37398db15bf0c2d75367542c8"
       },
       "text": "Magistrate Henry Maleb. In Southshore, Magistrate Henry Maleb keeps order as threats gather around the Alliance's chief coastal stronghold in Hillsbrad Foothills. The Forsaken and the Syndicate menace the port town. Magistrate Henry Maleb governs from Southshore's town hall, one of the last true Alliance settlements in Lordaeron. Forsaken forces threaten the town from the north and west, while highwaymen prowl the foothills. Maleb took office after the previous magistrate was mysteriously assassinated, and he blames the Syndicate. He means to avoid the same fate. His inquiries seek hidden assassins, Syndicate supply networks, and the nobles directing them from the ruins of Alterac."
     },
@@ -14953,9 +14953,9 @@
     "topic:syndicate": {
       "1": [
         {
-          "duration": 133.74693877551022,
-          "file": "Audio/Transport/full_topic_syndicate-14f146ddea2c75dc2409/1-0000.mp3",
-          "sha256": "7ffb9d1c6523adff15899de48a004ca5cb73044d68e6586b5b6d2b2b78e30dd9",
+          "duration": 132.85877551020408,
+          "file": "Audio/Transport/full_topic_syndicate-39cecfd778c6884e075c/1-0000.mp3",
+          "sha256": "d00f98b25a3292a918e311f9957228afad9b0c285d5686aed86a48a40eb408eb",
           "start": 0
         }
       ],
@@ -14967,12 +14967,12 @@
         ]
       },
       "fullHash": "840093",
-      "generation": "bd93501a75d5b0937510",
+      "generation": "e6fac55eae90304de3d1",
       "hash": "840093",
       "source": {
-        "duration": 133.773061,
+        "duration": 132.884898,
         "file": null,
-        "sha256": "14f146ddea2c75dc24097481386bbd5e205eac705b1a217cfdd62256f5094245"
+        "sha256": "39cecfd778c6884e075cdf53157c5bc1c836b0b82f8351f9a14a77dc0be59f9d"
       },
       "text": "Syndicate. Across northern Lordaeron, the Syndicate holds strongholds and fights to reclaim Alterac. Dispossessed nobles lead this human criminal organization against both the Alliance and the Horde, seeking to restore their lost aristocracy. After King Aiden Perenolde's treachery during the Second War, the kingdom of Alterac collapsed in dishonor. Its aristocracy lost its lands and titles, but the surviving nobles refused to accept exile. They gathered under the late king's son, Prince Aliden Perenolde, and forged the Syndicate.\n\nThey marked themselves with orange bandanas and filled their ranks with hired thugs, highwaymen, and hedge wizards. To outsiders, they are brigands who raid caravans, ambush travelers, and extort people. Yet their crimes exist only to fund an organized bid to reclaim their ancestral lands and subjugate the surrounding regions. Across northern Lordaeron, the Syndicate holds fortified ground. In the snowy Alterac Mountains, they fortified the ruined town of Strahnbrad and set camps in the Uplands and Dandred's Fold. Farther south, they hold the crumbling Durnholde Keep in the Hillsbrad Foothills. From there, they harass Southshore and raid supply routes.\n\nFarther east, beyond Thoradin's Wall, Lord Falconcrest commands an occupying Syndicate army in the historic ruins of Stromgarde Keep. There, they battle the battered Stromgarde Militia for control of the Arathi Highlands. The Syndicate's ambitions reach beyond ordinary outlawry, earning them the hatred of nearly every regional faction. They call the Alliance their mortal enemy, believing it stole their rightful heritage. Their attacks often target Southshore officials such as Magistrate Henry Maleb.\n\nToward the Horde, their scorn is open. Following Aedelas Blackmoore's philosophy, they see orcs as beasts fit for slave labor and seek to restore the internment camps. Sylvanas Windrunner's Forsaken execute captured Syndicate members on sight. Ravenholdt's clandestine thieves' guild wages a shadow war against Syndicate operatives it considers sloppy and arrogant."
     },
@@ -17987,27 +17987,6 @@
       1219,
       1428
     ],
-    "7ffb9d1c6523adff15899de48a004ca5cb73044d68e6586b5b6d2b2b78e30dd9": [
-      244,
-      606,
-      871,
-      1118,
-      1347,
-      1625,
-      1848,
-      2150,
-      2327,
-      2637,
-      2838,
-      2982,
-      3343,
-      3537,
-      3804,
-      3987,
-      4199,
-      4647,
-      4838
-    ],
     "80932520d7e469cdd86677c3a7ed2c976b5546545455a485cf38348a78ce0688": [
       218,
       419,
@@ -18516,6 +18495,13 @@
       748,
       1031,
       1280
+    ],
+    "9a9d0c39576181e8336da4fe37e0eaa8122d4db93ea7ce2fd89456f9d7cee47b": [
+      358,
+      502,
+      781,
+      1016,
+      1264
     ],
     "9af33f7cf1b707811ba8d3feb45c661d805970ecf4e731b9df2c1588afdec0e5": [
       662,
@@ -19368,13 +19354,6 @@
       1518,
       1895
     ],
-    "c670387dc255921b39ae81fa38a109959b0cffe673e4d027d688d2cb2cef8a7e": [
-      325,
-      459,
-      733,
-      959,
-      1202
-    ],
     "c67dbca7d9c02ee5f93bf7bcfae787aa45a303708bd079e1b0cb160538b0e396": [
       210,
       403,
@@ -19693,6 +19672,27 @@
     ],
     "cfb59cc79343e5f6ce374c38b2fb7e420d31134a6b0eb0219c5a3fe6fc857c05": [
       670
+    ],
+    "d00f98b25a3292a918e311f9957228afad9b0c285d5686aed86a48a40eb408eb": [
+      231,
+      588,
+      737,
+      1102,
+      1344,
+      1607,
+      1860,
+      2144,
+      2318,
+      2605,
+      2790,
+      2945,
+      3272,
+      3471,
+      3757,
+      3958,
+      4183,
+      4628,
+      4815
     ],
     "d01eb4d2715d9c62d9a897508347f732b34c5136262afb7e9e500aff2fdd90dc": [
       280,
@@ -21760,11 +21760,6 @@
     "7fda8d80c9992d9497e34f7509222427087da06bedd6722a7498791162f6a654": {
       "692": 1
     },
-    "7ffb9d1c6523adff15899de48a004ca5cb73044d68e6586b5b6d2b2b78e30dd9": {
-      "2150": 2,
-      "3537": 3,
-      "606": 1
-    },
     "80932520d7e469cdd86677c3a7ed2c976b5546545455a485cf38348a78ce0688": {
       "419": 1
     },
@@ -21927,6 +21922,9 @@
     },
     "9a5a363c5a06bce85fd6dd15843f1af142630cedbd06e13044b689804967fafa": {
       "436": 1
+    },
+    "9a9d0c39576181e8336da4fe37e0eaa8122d4db93ea7ce2fd89456f9d7cee47b": {
+      "502": 1
     },
     "9b3d0ab839b8320b1c38f3e5d612cc22cb0f44f677a3f835cec2bb14f62a11c0": {
       "532": 1
@@ -22244,9 +22242,6 @@
       "1261": 2,
       "531": 1
     },
-    "c670387dc255921b39ae81fa38a109959b0cffe673e4d027d688d2cb2cef8a7e": {
-      "459": 1
-    },
     "c67dbca7d9c02ee5f93bf7bcfae787aa45a303708bd079e1b0cb160538b0e396": {
       "403": 1
     },
@@ -22366,6 +22361,11 @@
     "cf5976d77adfa6e5a92591cbf76c707945ec94a862c78568825ad62b9efd3ad1": {
       "1033": 2,
       "460": 1
+    },
+    "d00f98b25a3292a918e311f9957228afad9b0c285d5686aed86a48a40eb408eb": {
+      "2144": 2,
+      "3471": 3,
+      "588": 1
     },
     "d01eb4d2715d9c62d9a897508347f732b34c5136262afb7e9e500aff2fdd90dc": {
       "1267": 2,

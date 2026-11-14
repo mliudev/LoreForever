@@ -1,0 +1,94 @@
+{
+ "key": "quest:94997",
+ "type": "quest",
+ "name": "Lingering Essence",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94997
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Riftan asks you to bring a satchel of cursed mementos to Ashe Amberhall at Farholde Keep. He hopes her studies can reveal what energies the objects hold.",
+ "sections": [
+  {
+   "title": "At the Keep",
+   "body": "At Farholde Keep, Ashe Amberhall takes the satchel from you and hears that Riftan sent it. She says his long fight against the cultists has made her worry that fatigue is clouding his judgment. Yet she admits his concerns may have grounds, and turns her attention to the objects.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to bring the satchel?",
+   "aliases": [
+    "who sent me",
+    "Riftan satchel",
+    "who is Riftan"
+   ],
+   "answer": "Riftan asks you to take the Satchel of Cursed Mementos to Ashe Amberhall."
+  },
+  {
+   "q": "Who is Ashe Amberhall?",
+   "aliases": [
+    "Ashe who",
+    "who is Ashe",
+    "Amberhall"
+   ],
+   "answer": "Ashe Amberhall is a respected scholar whose field of study may help her examine the energies in the objects."
+  },
+  {
+   "q": "Where do I take the mementos?",
+   "aliases": [
+    "where to take satchel",
+    "Farholde Keep",
+    "satchel destination"
+   ],
+   "answer": "Bring the Satchel of Cursed Mementos to Ashe Amberhall at Farholde Keep."
+  },
+  {
+   "q": "What is in the satchel?",
+   "aliases": [
+    "what's in the bag",
+    "cursed mementos",
+    "satchel contents"
+   ],
+   "answer": "The satchel contains cursed mementos, and Riftan wants Ashe to examine what energies they hold."
+  },
+  {
+   "q": "Why does Riftan want Ashe to examine them?",
+   "aliases": [
+    "why Ashe",
+    "what's the satchel for",
+    "lingering essence"
+   ],
+   "answer": "Riftan hopes Ashe's studies can reveal what energies are contained within the objects."
+  },
+  {
+   "q": "What does Ashe think of Riftan's concern?",
+   "aliases": [
+    "does Ashe trust Riftan",
+    "Riftan tired",
+    "Ashe's opinion"
+   ],
+   "answer": "Ashe worries that fatigue from Riftan's long fight against cultists may cloud his mind, though she says his concerns may be founded."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ashe amberhall",
+  "cultists",
+  "cursed mementos",
+  "energies",
+  "farholde keep",
+  "lingering essence",
+  "riftan",
+  "satchel of cursed mementos"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Lingering Essence"
+ ]
+}

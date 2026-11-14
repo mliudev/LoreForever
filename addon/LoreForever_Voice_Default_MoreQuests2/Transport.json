@@ -13367,9 +13367,9 @@
     "quest:388": {
       "1": [
         {
-          "duration": 70.11265306122449,
-          "file": "Audio/Transport/full_quest_388-caeb46e66aaa8dd60c16/1-0000.mp3",
-          "sha256": "46ee9fb7bc40172a94a9a207cc7548b16af4d6fab87bb9bf324ed79074782393",
+          "duration": 98.2204081632653,
+          "file": "Audio/Transport/full_quest_388-4e959e55568d324f4a5c/1-0000.mp3",
+          "sha256": "c02fe70b5f79317a31ba9b20454ad5ecfd1173922ac1dd8a2849866103e445e3",
           "start": 0
         }
       ],
@@ -13381,12 +13381,12 @@
         ]
       },
       "fullHash": "041484",
-      "generation": "6eea28072f846c2d9176",
+      "generation": "8709fc63dbb749715f94",
       "hash": "041484",
       "source": {
-        "duration": 70.138776,
+        "duration": 98.246531,
         "file": null,
-        "sha256": "caeb46e66aaa8dd60c1659c7f9d7f7db57b90a27276b7e2227704b522f75eb7f"
+        "sha256": "4e959e55568d324f4a5c4a899a5e8cee08545b4279f888e622970f766fd17fab"
       },
       "text": "The Color of Blood. Nikova Raskol grieves for Mac, her young grandson, killed inside Stormwind City's prison. Anger consumes her, and she sends adventurers into The Stockade to take the Defias gang's red bandanas in retribution. Mac Raskol was fourteen when he took up arms as a guard in The Stockade. Stormwind's regular soldiers had gone to distant fronts, so volunteers and the city's youth took on local defense. Mac watched hardened criminals and mutinous members of the Defias Brotherhood. The prison was far more dangerous than his experience could prepare him for. The Defias inmates tore apart their wool prison blankets and fashioned red bandanas from the scraps. The color marked their loyalty to the Brotherhood, even behind prison walls. Mac rebuked them and tried to enforce discipline. The prisoners stabbed him in the back, and he died on the stone floor. After Mac's pointless death, Nikova Raskol turns from official channels to cold revenge. She sends you into The Stockade to quell the rioting prisoners and bring back ten of their cherished red bandanas. Dyed the color of her grandson's spilled blood, the tokens offer a broken family a grim sense of closure."
     },
@@ -14953,9 +14953,9 @@
     "quest:505": {
       "1": [
         {
-          "duration": 34.84734693877551,
-          "file": "Audio/Transport/full_quest_505-ee5b69dbf8583377f7ae/1-0000.mp3",
-          "sha256": "04d0075ed293856cdeb5f7f29cd7f9a856ef9cd58e8b9c2a6c1dd9587a01cb94",
+          "duration": 34.925714285714285,
+          "file": "Audio/Transport/full_quest_505-ec7dbcd7a6b9b7d07385/1-0000.mp3",
+          "sha256": "99202c029fce025d7c847e543995411a3017c0c9c1ccbe26e57ccbf29aa6e7f2",
           "start": 0
         }
       ],
@@ -14967,12 +14967,12 @@
         ]
       },
       "fullHash": "e53a38",
-      "generation": "eb54b79a13c6469d4e38",
+      "generation": "4180ae5b510c1c816cb0",
       "hash": "e53a38",
       "source": {
-        "duration": 34.847347,
+        "duration": 34.951837,
         "file": null,
-        "sha256": "ee5b69dbf8583377f7ae6be9b3fb724e0ebc22c38e2b2daa2e8fa1bde9a944be"
+        "sha256": "ec7dbcd7a6b9b7d07385d6568f2d597339de24ed550a2ba5f956efe122fa169e"
       },
       "text": "Syndicate Assassins. Southshore’s new magistrate suspects the Syndicate Assassins killed his predecessor. His clues point north of Tarren Mill, where he wants the gang slain. Magistrate Henry Maleb now holds office in Southshore. The previous magistrate was assassinated, and the killers were never found. Maleb is almost certain the Syndicate hired them.\n\nThieves make up the gang, led by villainous nobles from the fallen kingdom of Alterac. Maleb’s last clues point north of Tarren Mill, which the Horde occupies. He asks you to slay the Syndicate members at the camp there."
     },
@@ -15135,9 +15135,9 @@
     "quest:510": {
       "1": [
         {
-          "duration": 21.15918367346939,
-          "file": "Audio/Transport/full_quest_510-ff6572e1939537a224ef/1-0000.mp3",
-          "sha256": "7daa7dd600666723a37460fe083d38482848f89fd2f659d4986f5cd22af154c8",
+          "duration": 22.02122448979592,
+          "file": "Audio/Transport/full_quest_510-7e1374bedb30b96a6285/1-0000.mp3",
+          "sha256": "7973b0effdabfea32b50954ce0d966962144c42b870cff08327c07fafb5b2c05",
           "start": 0
         }
       ],
@@ -15149,12 +15149,12 @@
         ]
       },
       "fullHash": "8b2c2e",
-      "generation": "62e6c20d6ab9a0962d6c",
+      "generation": "0e4746e428a41aa787e1",
       "hash": "8b2c2e",
       "source": {
-        "duration": 21.185306,
+        "duration": 22.047347,
         "file": null,
-        "sha256": "ff6572e1939537a224ef4c720ef6f355ae22fe014e18d9ace2376813e58de423"
+        "sha256": "7e1374bedb30b96a6285e2d4fcb71f48aea72b3b2af9b6c1ba30fcb60925d62f"
       },
       "text": "Foreboding Plans. The Syndicate's papers call for supplies to reach Southshore soon, where Magistrate Henry Maleb awaits them. The Syndicate papers list food, weapons and clothing. They also call for masks, oil and poison. The supplies are needed soon for an important undertaking against Southshore. Magistrate Henry Maleb is to receive them there."
     },
@@ -15187,9 +15187,9 @@
     "quest:512": {
       "1": [
         {
-          "duration": 38.50448979591837,
-          "file": "Audio/Transport/full_quest_512-a36e6afc1d081ded8dce/1-0000.mp3",
-          "sha256": "945cd4125e1072fb53660b8ee4befff4cac9086ad01db56b3280dfa96be23b3f",
+          "duration": 38.0865306122449,
+          "file": "Audio/Transport/full_quest_512-17a06546663bfc156aaf/1-0000.mp3",
+          "sha256": "d17501e4ca83f21d15828a3575acde055b0ef037ebd91842198d794e2c7de9ac",
           "start": 0
         }
       ],
@@ -15201,12 +15201,12 @@
         ]
       },
       "fullHash": "074abc",
-      "generation": "e4bddb0a1ee8ffe75b94",
+      "generation": "7148f0d08f550ab46c1f",
       "hash": "074abc",
       "source": {
-        "duration": 38.530612,
+        "duration": 38.086531,
         "file": null,
-        "sha256": "a36e6afc1d081ded8dce88775dd352ca8033ea17c9fea564c17aac07a360bb60"
+        "sha256": "17a06546663bfc156aaf8939287cd402b6d9ce0f0ded45da6e31bccd1911c782"
       },
       "text": "Noble Deaths. In Southshore, Magistrate Henry Maleb fears the Syndicate means ruin for the town. He sends you north to Strahnbrad's ruins in the Alterac Mountains, where he believes its leaders have their headquarters. After Foreboding Plans, Magistrate Henry Maleb wants the Syndicate's leaders struck down before their plans come to pass. Its cutthroats answer to former Alterac nobles, who may hide among ordinary agents. Their signet rings mark them out. Maleb asks you to bring him seven Alterac signet rings in Southshore.\n\nHe believes the Syndicate has made its headquarters among Strahnbrad's ruins, north in the Alterac Mountains."
     },
@@ -15421,9 +15421,9 @@
     "quest:522": {
       "1": [
         {
-          "duration": 25.939591836734696,
-          "file": "Audio/Transport/full_quest_522-d5f95eb2a702ddff9a91/1-0000.mp3",
-          "sha256": "8438e05e6c9093759e1a1fd9909b01b935d84c011bd5cd07525edf83bb908813",
+          "duration": 24.633469387755103,
+          "file": "Audio/Transport/full_quest_522-b256549654a69e70510a/1-0000.mp3",
+          "sha256": "d6b8f403254711b5ab73a489659d4af8a94b1a573c60a1aaf6dcbd3d36967553",
           "start": 0
         }
       ],
@@ -15435,12 +15435,12 @@
         ]
       },
       "fullHash": "ff1349",
-      "generation": "07141d7c0becc4e8ed44",
+      "generation": "850bdaba7bc6e9cad972",
       "hash": "ff1349",
       "source": {
-        "duration": 25.965714,
+        "duration": 24.633469,
         "file": null,
-        "sha256": "d5f95eb2a702ddff9a911ddeedff7e5c66e16c4e01736ad2fbe0fe08edecdddb"
+        "sha256": "b256549654a69e70510a6a52b8444f80a1111adb0a971c5cda4c1825ebe79ab6"
       },
       "text": "Assassin's Contract. In Hillsbrad Foothills, a Shadowy Assassin bears a contract naming Magistrate Henry Maleb for death. You are to carry it to Maleb in Southshore, where red wax bears a distinctive signet ring's mark. A Shadowy Assassin carries a contract in Hillsbrad Foothills. It names Magistrate Henry Maleb for death, and a distinctive signet ring has marked the red wax. Bring the paper to Maleb in Southshore."
     },
@@ -15473,9 +15473,9 @@
     "quest:525": {
       "1": [
         {
-          "duration": 29.30938775510204,
-          "file": "Audio/Transport/full_quest_525-666e4e9bccafa0d80ff9/1-0000.mp3",
-          "sha256": "9bddbbcc680c23ba42102660f5624a8da6f3e23d7ece5949fefddbcea6fd9b6e",
+          "duration": 28.83918367346939,
+          "file": "Audio/Transport/full_quest_525-69ef8bc9a098295bfdcc/1-0000.mp3",
+          "sha256": "c6b3353d7e3ff7477d0902aa1f676f1998eecde4fbb9db333184d09d54433bb5",
           "start": 0
         }
       ],
@@ -15487,12 +15487,12 @@
         ]
       },
       "fullHash": "3567b9",
-      "generation": "4d1e52dc25bcde817c6d",
+      "generation": "3d6eb352dd7810aecc36",
       "hash": "3567b9",
       "source": {
-        "duration": 29.33551,
+        "duration": 28.865306,
         "file": null,
-        "sha256": "666e4e9bccafa0d80ff9eaae460fb9de4b0fa1c821b7cbea0c90bc3d5baa143e"
+        "sha256": "69ef8bc9a098295bfdccfb2e0dd0c94b3eddc465bba9ba63b953cc180cc624ae"
       },
       "text": "Further Mysteries. In the Alterac foothills, a decrypted letter leaves Prospector Stormpike searching for meaning. He sends you to Southshore's magistrate with the message. Prospector Stormpike has decrypted the letter you found among thieves in the Alterac foothills. Yet its meaning escapes him, and he wonders why thieves had it at all. Southshore lies nearest to Alterac. If a threat is brewing, its magistrate should hear of it, so you carry the message to Magistrate Henry Maleb."
     },
@@ -34383,13 +34383,6 @@
       953,
       1144
     ],
-    "04d0075ed293856cdeb5f7f29cd7f9a856ef9cd58e8b9c2a6c1dd9587a01cb94": [
-      197,
-      373,
-      513,
-      682,
-      1020
-    ],
     "04e8f414d6461f19cd9c109376215e264946f9db3c1eed2e338fbd3b073dba05": [
       183,
       433,
@@ -37233,19 +37226,6 @@
       939,
       1100
     ],
-    "46ee9fb7bc40172a94a9a207cc7548b16af4d6fab87bb9bf324ed79074782393": [
-      236,
-      529,
-      706,
-      965,
-      1136,
-      1303,
-      1517,
-      1670,
-      1977,
-      2198,
-      2422
-    ],
     "46f6ba81857844396d39a487213f70dd8bfe461e006aed3cc7bb5568fa6da085": [
       199,
       437,
@@ -39107,6 +39087,10 @@
       1693,
       1908
     ],
+    "7973b0effdabfea32b50954ce0d966962144c42b870cff08327c07fafb5b2c05": [
+      282,
+      425
+    ],
     "79a492d0d20313e85f7c760cbb2074984c39ea741c5a9f3ff24e6006bd1fe86d": [
       241,
       635,
@@ -39322,10 +39306,6 @@
       395,
       715,
       1048
-    ],
-    "7daa7dd600666723a37460fe083d38482848f89fd2f659d4986f5cd22af154c8": [
-      260,
-      399
     ],
     "7dbba536b08f779264b19776483d7c8f48be9f680190e87935ab5984d21ded94": [
       302,
@@ -39655,11 +39635,6 @@
       246,
       438,
       625
-    ],
-    "8438e05e6c9093759e1a1fd9909b01b935d84c011bd5cd07525edf83bb908813": [
-      255,
-      491,
-      644
     ],
     "84b6dae3c56343845c77e1e0d171908dc4288ba25d7b6e9ab60be75037ac7749": [
       157,
@@ -40421,13 +40396,6 @@
       1422,
       1601
     ],
-    "945cd4125e1072fb53660b8ee4befff4cac9086ad01db56b3280dfa96be23b3f": [
-      213,
-      481,
-      748,
-      959,
-      1223
-    ],
     "948c140b637f284d6ea7d80b771ce85fb6cff8831362c94a4b2dd16fa65cd53a": [
       468
     ],
@@ -40636,6 +40604,14 @@
       397,
       564
     ],
+    "99202c029fce025d7c847e543995411a3017c0c9c1ccbe26e57ccbf29aa6e7f2": [
+      199,
+      392,
+      530,
+      701,
+      836,
+      1030
+    ],
     "996412abb5958d83583ae5904fdf7db836581d0036e9bd53b39b62d383a6bae4": [
       152,
       358,
@@ -40730,12 +40706,6 @@
       1424,
       1647,
       1877
-    ],
-    "9bddbbcc680c23ba42102660f5624a8da6f3e23d7ece5949fefddbcea6fd9b6e": [
-      242,
-      393,
-      596,
-      775
     ],
     "9c12543e0ab25a9337432da26b9929ff9b03f849d2047ab597ee48fa803005da": [
       177,
@@ -42338,6 +42308,25 @@
       579,
       814
     ],
+    "c02fe70b5f79317a31ba9b20454ad5ecfd1173922ac1dd8a2849866103e445e3": [
+      226,
+      417,
+      614,
+      806,
+      1030,
+      1190,
+      1367,
+      1599,
+      1819,
+      1996,
+      2141,
+      2377,
+      2542,
+      2757,
+      3064,
+      3418,
+      3553
+    ],
     "c04bd3527f42d925ce830ed8f1533c18a039dd707905a0249a7e40833699c89d": [
       304
     ],
@@ -42521,6 +42510,12 @@
       1130,
       1265,
       1457
+    ],
+    "c6b3353d7e3ff7477d0902aa1f676f1998eecde4fbb9db333184d09d54433bb5": [
+      226,
+      375,
+      579,
+      750
     ],
     "c6ee14e6e21f53c00019f4e39604d7c865221f0e2afe7f9e6f26538a34bf640b": [
       214,
@@ -42884,6 +42879,13 @@
       885,
       1090
     ],
+    "d17501e4ca83f21d15828a3575acde055b0ef037ebd91842198d794e2c7de9ac": [
+      210,
+      480,
+      759,
+      967,
+      1238
+    ],
     "d1bddb2a74fdfc45e6a99e7a9921d417e664e481d6524c47bf8969b00339be2f": [
       151,
       357,
@@ -43042,6 +43044,10 @@
       654,
       839,
       1128
+    ],
+    "d6b8f403254711b5ab73a489659d4af8a94b1a573c60a1aaf6dcbd3d36967553": [
+      467,
+      612
     ],
     "d6dd7365de2fb31b332c39f11845ef61446705128223211585b935ff88c96db5": [
       320,
@@ -44936,9 +44942,6 @@
       "318": 1,
       "953": 2
     },
-    "04d0075ed293856cdeb5f7f29cd7f9a856ef9cd58e8b9c2a6c1dd9587a01cb94": {
-      "373": 1
-    },
     "04e8f414d6461f19cd9c109376215e264946f9db3c1eed2e338fbd3b073dba05": {
       "433": 1
     },
@@ -46164,11 +46167,6 @@
       "390": 1,
       "738": 2
     },
-    "46ee9fb7bc40172a94a9a207cc7548b16af4d6fab87bb9bf324ed79074782393": {
-      "1303": 2,
-      "1977": 3,
-      "529": 1
-    },
     "46f6ba81857844396d39a487213f70dd8bfe461e006aed3cc7bb5568fa6da085": {
       "1229": 2,
       "437": 1
@@ -46993,6 +46991,9 @@
       "1386": 2,
       "549": 1
     },
+    "7973b0effdabfea32b50954ce0d966962144c42b870cff08327c07fafb5b2c05": {
+      "282": 1
+    },
     "79a492d0d20313e85f7c760cbb2074984c39ea741c5a9f3ff24e6006bd1fe86d": {
       "1521": 2,
       "635": 1
@@ -47080,9 +47081,6 @@
     "7d53ed9a866c16266f030454559f71ad26ec682d484766fe12b4c8a219b49170": {
       "1233": 2,
       "400": 1
-    },
-    "7daa7dd600666723a37460fe083d38482848f89fd2f659d4986f5cd22af154c8": {
-      "260": 1
     },
     "7dbba536b08f779264b19776483d7c8f48be9f680190e87935ab5984d21ded94": {
       "302": 1
@@ -47237,9 +47235,6 @@
     },
     "83ed7166cc4648b71f357c0b4268ab2f46ffd7af17290afaf5273851e7487da5": {
       "246": 1
-    },
-    "8438e05e6c9093759e1a1fd9909b01b935d84c011bd5cd07525edf83bb908813": {
-      "491": 1
     },
     "84b6dae3c56343845c77e1e0d171908dc4288ba25d7b6e9ab60be75037ac7749": {
       "378": 1
@@ -47577,9 +47572,6 @@
       "1204": 2,
       "484": 1
     },
-    "945cd4125e1072fb53660b8ee4befff4cac9086ad01db56b3280dfa96be23b3f": {
-      "481": 1
-    },
     "94a5da6b1c0df1fbdbd0d01dd43a89ac1b43d3a277e1f34cb48e8231b54edc02": {
       "1420": 2,
       "552": 1
@@ -47670,6 +47662,9 @@
     "991b9ee03b349710187de15145838f937936ba1a28fcffe70acf6976fdf9525b": {
       "397": 1
     },
+    "99202c029fce025d7c847e543995411a3017c0c9c1ccbe26e57ccbf29aa6e7f2": {
+      "392": 1
+    },
     "996412abb5958d83583ae5904fdf7db836581d0036e9bd53b39b62d383a6bae4": {
       "358": 1
     },
@@ -47707,9 +47702,6 @@
     "9bce503969f8f8d01b8aba5f6bdcde02b82517e7f2ee66623c95bf9a0d9f9350": {
       "1274": 2,
       "498": 1
-    },
-    "9bddbbcc680c23ba42102660f5624a8da6f3e23d7ece5949fefddbcea6fd9b6e": {
-      "393": 1
     },
     "9c12543e0ab25a9337432da26b9929ff9b03f849d2047ab597ee48fa803005da": {
       "328": 1
@@ -48417,6 +48409,11 @@
     "c01137a0d2b4baf5293781fb8a9074966783413bddcf46b4666c7f39313b1092": {
       "403": 1
     },
+    "c02fe70b5f79317a31ba9b20454ad5ecfd1173922ac1dd8a2849866103e445e3": {
+      "1819": 2,
+      "2757": 3,
+      "806": 1
+    },
     "c04bd3527f42d925ce830ed8f1533c18a039dd707905a0249a7e40833699c89d": {
       "304": 1
     },
@@ -48498,6 +48495,9 @@
     "c6af163cf1ca04374bcf7881003a3c419fefc4396a01381cb4e2d52d58abc14f": {
       "1265": 2,
       "407": 1
+    },
+    "c6b3353d7e3ff7477d0902aa1f676f1998eecde4fbb9db333184d09d54433bb5": {
+      "375": 1
     },
     "c6ee14e6e21f53c00019f4e39604d7c865221f0e2afe7f9e6f26538a34bf640b": {
       "502": 2
@@ -48650,6 +48650,9 @@
     "d15209df7b494062b6b60fc8be1311fae563ae4c4a86ca24300b38a8521bdbdd": {
       "557": 1
     },
+    "d17501e4ca83f21d15828a3575acde055b0ef037ebd91842198d794e2c7de9ac": {
+      "480": 1
+    },
     "d26b2fa41fb34934ab248abf7678826bf702a8e9fc4040da560785d18a5c365f": {
       "362": 1
     },
@@ -48715,6 +48718,9 @@
     "d6707e5327113a867a838964acb5db54ff0645ecec0a3846fd92fe3f6fd6a8b3": {
       "256": 1,
       "839": 2
+    },
+    "d6b8f403254711b5ab73a489659d4af8a94b1a573c60a1aaf6dcbd3d36967553": {
+      "467": 1
     },
     "d6dd7365de2fb31b332c39f11845ef61446705128223211585b935ff88c96db5": {
       "320": 1,
@@ -49492,191 +49498,5 @@
     }
   },
   "pack": "LoreForever_Voice_Default_MoreQuests2",
-  "retired": [
-    {
-      "file": "Audio/Transport/full_quest_1050-65e79f652a598f599d7b/1-0000.mp3",
-      "sha256": "d9e1d2c6691fb065fa33ab62d0e6704c13628e643fe922a39231a19c1a9b916b"
-    },
-    {
-      "file": "Audio/Transport/full_quest_1159-4b61243d4759fa99425a/1-0000.mp3",
-      "sha256": "159ff3023e9cbde71e38264e32d04d188e34da11f78349624e00a39d3a425ebc"
-    },
-    {
-      "file": "Audio/Transport/full_quest_1476-1ef1cfd2a3b69a39ee97/1-0000.mp3",
-      "sha256": "39e8cdd582a6a2f0b6c107e8cf9b8b721bc861f2e3a492668e1ee8c1f3f17d66"
-    },
-    {
-      "file": "Audio/Transport/full_quest_1803-d6e796844083cf11cd0a/1-0000.mp3",
-      "sha256": "6e305d8906777a997638af6bfee5f530c96f99e4b8f4b411e0d6af05cd52bda7"
-    },
-    {
-      "file": "Audio/Transport/full_quest_2479-6acd3a7841754ffd00f9/1-0000.mp3",
-      "sha256": "4bf1d91bf42c422e12aa5e91dfdbaad3f020c20730ac11210bdebbc1b0a22012"
-    },
-    {
-      "file": "Audio/Transport/full_quest_321-3ae7aff37b463b37ad34/1-0000.mp3",
-      "sha256": "59e8f484ffe56910c11c6f07f330b09e5ceab17bc05c3bae5eb1154aac98640f"
-    },
-    {
-      "file": "Audio/Transport/full_quest_474-1e99c885ccf32b835cc0/1-0000.mp3",
-      "sha256": "5c174d8f97f47a72bcdd2ddde944246c66fc3ebc258b34412885ae500410b355"
-    },
-    {
-      "file": "Audio/Transport/full_quest_528-9b953597080ffeb0e06d/1-0000.mp3",
-      "sha256": "eee5a97a5411a4aac55f646ebc5b74b36ca6d3c882df9afee0b3244bfeb3a926"
-    },
-    {
-      "file": "Audio/Transport/full_quest_541-3eebab1d65598ccaa95a/1-0000.mp3",
-      "sha256": "6475e2e4b4489163239e209b052ee0209b863de386a6e538e77121e51071dbf9"
-    },
-    {
-      "file": "Audio/Transport/full_quest_550-05ea1124f24e228e9fc9/1-0000.mp3",
-      "sha256": "9f8cfb0df0cafb5d02398da467d81f902cf8e9e7bb110965afa7d655ecf84776"
-    },
-    {
-      "file": "Audio/Transport/full_quest_562-65a1519b3e9dfd0991ab/1-0000.mp3",
-      "sha256": "11364352f0686816ba018055e343c9779cc793b2743d710384087036ef35bc5d"
-    },
-    {
-      "file": "Audio/Transport/full_quest_5644-2a3e2af1c908356df256/1-0000.mp3",
-      "sha256": "40fc2516e42aa93d93c042794dc1e69182167051f127deef37ea12bfe5532a59"
-    },
-    {
-      "file": "Audio/Transport/full_quest_5646-9995c7c2851e1f66b63e/1-0000.mp3",
-      "sha256": "9340d75a6039e0b0816d443fceaea55309d38a41db29c180ed254fa84f3e189b"
-    },
-    {
-      "file": "Audio/Transport/full_quest_700-83acb6b5a08971f06df3/1-0000.mp3",
-      "sha256": "3bc8dfbb2efd0ba0263d554d05ea4f17c3e42ee95065bf857a39f648d091b30c"
-    },
-    {
-      "file": "Audio/Transport/full_quest_91859-d1e3f486089823257b55/1-0000.mp3",
-      "sha256": "f82b7d1b80ff047ec9ab62d5fdc4f8693686dc048a550b85611687e0f68e34ac"
-    },
-    {
-      "file": "Audio/Transport/full_quest_92401-bdb7cec6c0d0d5c4e43a/1-0000.mp3",
-      "sha256": "8230e678153d18894a6adf1b9519aa8e0b524f442042fc4fc3d2182fadea2349"
-    },
-    {
-      "file": "Audio/Transport/full_quest_92415-aef3c5b35894efae8d43/1-0000.mp3",
-      "sha256": "020bbabf3bf88d3ef9e49ebabd99838691bdd7f4e23123176f1a553f8696ce60"
-    },
-    {
-      "file": "Audio/Transport/full_quest_92421-d21eefcd18459a0f4cf3/1-0000.mp3",
-      "sha256": "cc1dbf8b31c697bb1047fd55aa6b7d019d5539d383ce8e115e50fc7bdff9f021"
-    },
-    {
-      "file": "Audio/Transport/full_quest_92422-3a2b0781cf862e6eb472/1-0000.mp3",
-      "sha256": "5fce66fead17d1129f6720f95a5c89ed8b8a59ac198088ffc4f5af961eeea058"
-    },
-    {
-      "file": "Audio/Transport/full_quest_95189-e6abb6b85a4ae1787f6c/1-0000.mp3",
-      "sha256": "f583f36b6f470710f5b41df37ed4ef7ccb2cd3b587c7a68a584b6b24eb02a7dc"
-    },
-    {
-      "file": "Audio/Transport/full_quest_95195-6eb30976186b3ed5bafd/1-0000.mp3",
-      "sha256": "bb9b97ee57376eccba2864838953a6eca4bcbcba3cb629f06836876a3309d71b"
-    },
-    {
-      "file": "Audio/Transport/full_quest_95204-ec99ffa2984a92ae187d/1-0000.mp3",
-      "sha256": "dc53debcd17cfac164ca71cc7f1862a8bb5828f0eb97cffe91c9be0031a49701"
-    },
-    {
-      "file": "Audio/Transport/full_quest_95250-18e44dbbfa3d6f4f34d3/1-0000.mp3",
-      "sha256": "960bcf04166d3420acf0e0616cdbf4222767576e5dc780d370358eeaf5b97bf2"
-    },
-    {
-      "file": "Audio/Transport/full_quest_96-abbcbccffdcc1be3e7ce/1-0000.mp3",
-      "sha256": "83b3cdf5f357b63db659699977920ab406e3177ffc8c38c569ebfb098e7d3ebd"
-    },
-    {
-      "file": "Audio/Transport/full_quest_96897-e2e22781c814942fbb17/1-0000.mp3",
-      "sha256": "1d1ce86d51b12ac7882c7413c73d49cc6d1ad82419b032eb8f8f7926c655ffd5"
-    },
-    {
-      "file": "Audio/Transport/full_quest_972-e6ed413825b1c6f05ddc/1-0000.mp3",
-      "sha256": "1f1495b36ad2752697136e57062e2969e4282cc117f558f6002f4e477c2cac12"
-    },
-    {
-      "file": "Audio/Transport/full_quest_97289-a035d0092e919bca5d5a/1-0000.mp3",
-      "sha256": "510d1e1878c71178d7e18cd60e84ddd32b01af0f6962449f902822b3ad63f96c"
-    },
-    {
-      "file": "Audio/Transport/full_quest_98190-ab6a9ba06f2c11723d24/1-0000.mp3",
-      "sha256": "6232d37a5dc7f58977ec40693d2ba406d9565c654adb55088ae9d580e6c71861"
-    },
-    {
-      "file": "Audio/Transport/full_quest_1801-13ef6b4c23b64575d73b/1-0000.mp3",
-      "sha256": "6c2af223091320b0bfd1a6655199a6e8ddb514cecc91eb20f0f073777bfae722"
-    },
-    {
-      "file": "Audio/Transport/full_quest_5042-9067512b8ae5ab66dd65/1-0000.mp3",
-      "sha256": "dbc7d7721358130f3920b604293a6bed49eaf0a4000e668cfab817083bc19159"
-    },
-    {
-      "file": "Audio/Transport/full_quest_837-c6165a42c5e25d2719a9/1-0000.mp3",
-      "sha256": "e75b7aa0f5de8b39c8c74308a65c225c4a3077ffff8b216bf9164c65bc3f4600"
-    },
-    {
-      "file": "Audio/Transport/full_quest_878-8d77880b6e13717c91ea/1-0000.mp3",
-      "sha256": "c1b70f4f07a92ac159a88499dfa5475ae348d800d160975d79abbf3a75306404"
-    },
-    {
-      "file": "Audio/Transport/full_quest_879-4fa4beec534cce203e30/1-0000.mp3",
-      "sha256": "12f39c70996927fa73745e515e9881ec19939b5a27efecfa3fa6b9657a8a937b"
-    },
-    {
-      "file": "Audio/Transport/full_quest_893-b1f69a498e447f1a40c0/1-0000.mp3",
-      "sha256": "5ccd1bdfb646c4f21b22433c7efc89b144801e4ce4e49a3dabffa26587acac01"
-    },
-    {
-      "file": "Audio/Transport/full_quest_906-5b1516a09d7d75873e7f/1-0000.mp3",
-      "sha256": "6d7dc39d47dba32f34176737622a06cbd012a4dca9bea38afe3c08dce25a60d1"
-    },
-    {
-      "file": "Audio/Transport/full_quest_91282-afe6faee10c5fd33ac0d/1-0000.mp3",
-      "sha256": "5000ece0e6c145c8c14fb2ce632a6c9c2ab1185e95e2fe36013bb01e517c39e1"
-    },
-    {
-      "file": "Audio/Transport/full_quest_91294-adc8d3e07fef51057cd4/1-0000.mp3",
-      "sha256": "1172fbf7fc91151b833654b562891b5c37f7db7434009b4091d1c776ea84ea96"
-    },
-    {
-      "file": "Audio/Transport/full_quest_94436-186d603348ebc6395e93/1-0000.mp3",
-      "sha256": "4f4f075c795f3080437dbb29b61af5d359093900817ab3ce6ab4dc065665d5d0"
-    },
-    {
-      "file": "Audio/Transport/full_quest_94440-1d3cd3fb80806a8e5b07/1-0000.mp3",
-      "sha256": "74b2c236fd2912596b77f0339bb33d57467542caaf4ff34b5d1e401922e3c0af"
-    },
-    {
-      "file": "Audio/Transport/full_quest_94441-14cfb3862d2a96376362/1-0000.mp3",
-      "sha256": "5a64d397683ef59d34ca3c181e20eabc37c52636e7b133a4ed909a59d13d96f4"
-    },
-    {
-      "file": "Audio/Transport/full_quest_95774-8f0429de510e5e3345c0/1-0000.mp3",
-      "sha256": "a36bf7d0f6b0dd02602952bc9c9638585c1747687ddd53f04d4faabdea61a00f"
-    },
-    {
-      "file": "Audio/Transport/full_quest_96899-8185f3804e04896fcf90/1-0000.mp3",
-      "sha256": "5b3ac3fb5d165c4672c43458cf9033ce2ee1740c27f452024c6f7bebc4cd54b8"
-    },
-    {
-      "file": "Audio/Transport/full_quest_97003-18859a14aee8f420df18/1-0000.mp3",
-      "sha256": "e4f889f3e4d571bd69ddcbaa6e51ed28487a46f795b6e621123e4b98267d436b"
-    },
-    {
-      "file": "Audio/Transport/full_quest_97005-eb593d71f61e2d668a7f/1-0000.mp3",
-      "sha256": "1808308a12aa5831f8cd514ca3176f1fc83e17e862ccf17b4dd4ee3919de5013"
-    },
-    {
-      "file": "Audio/Transport/full_quest_99144-5cf6a8cf76282f3ddd30/1-0000.mp3",
-      "sha256": "6e19be1e22a4528d50c809e77776a960b6d952d079629de1fca213b8fc3b576c"
-    },
-    {
-      "file": "Audio/Transport/full_quest_99152-67d90736e7fb26aa9d12/1-0000.mp3",
-      "sha256": "3f676e9474ad4863666de705471760e2498ef81b5e56d73493fa50a95fb2dd8b"
-    }
-  ],
   "version": 1
 }

@@ -15,12 +15,12 @@
  "sections": [
   {
    "title": "The Next Bout",
-   "body": "Your wins have not made you a champion yet, and the Bloodmaster has another battle in mind. He names Bonegnaw as your opponent and promises a surprise. The ogres are watching, and the next bout is meant to entertain them.",
+   "body": "Your wins have not made you a champion yet, and the ring's goblin has another battle in mind. Bonegnaw is your opponent, and the goblin promises a surprise. The ogres are watching, and the next bout is meant to entertain them.",
    "spoiler": 0
   },
   {
    "title": "After the Fight",
-   "body": "The Bloodmaster is displeased with how the bout reflects on him. The ogres, however, seem entertained, and he warns you against taking pride in the outcome.",
+   "body": "The goblin is displeased with how the bout reflects on him. The ogres, however, seem entertained, and he warns you against taking pride in the outcome.",
    "spoiler": 1
   }
  ],
@@ -39,7 +39,7 @@
     "bloodmaster champ",
     "become champion"
    ],
-   "answer": "The Bloodmaster says your wins have not made you a champion yet."
+   "answer": "The ring's goblin says your wins have not made you a champion yet."
   },
   {
    "q": "Who is watching the fight?",

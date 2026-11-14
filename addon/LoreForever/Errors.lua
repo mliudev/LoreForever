@@ -113,6 +113,33 @@ local function capture(msg, stack)
 end
 Errors.Capture = capture
 
+-- ns.Guard(fn, ...): fn(...), and true with its results; on a Lua error, false and the message, and the error is kept
+-- here like any other of ours (/lore errors, Willo's error reports, the one chat line a session), so a broken event
+-- handler or login step leaves the rest of the add-on running and still shows up (the Architect's debt review, 11/13:
+-- the Found, Journey and Battle handlers dropped every error). It is the whole add-on's one guard: use it, not pcall,
+-- wherever our own code runs from an event, a timer or a login step. The `try` copies stay for client calls whose
+-- failure is expected and means "no answer". Costs what pcall does until something fails; after the first, the same
+-- message only counts up (its stack is read once a session).
+local guarded, stacks = {}, 0     -- messages a guard has caught this session; how many stacks it has read
+local function caught(msg)
+  local m = tostring(msg)
+  local stack
+  if not guarded[m] and stacks < 50 then
+    guarded[m], stacks = true, stacks + 1
+    -- Level 1 is this function; level 2 is where the error was raised.
+    stack = _G.debugstack and debugstack(2, STACK, 0) or nil
+  end
+  pcall(keep, m, stack, true)
+  return msg
+end
+-- The game's xpcall passes fn its arguments; plain Lua 5.1 (the sim) doesn't.
+local passesArgs = select(2, xpcall(function(a) return a end, caught, true)) == true
+function ns.Guard(fn, ...)
+  if passesArgs or select("#", ...) == 0 then return xpcall(fn, caught, ...) end
+  local n, args = select("#", ...), { ... }
+  return xpcall(function() return fn(unpack(args, 1, n)) end, caught)
+end
+
 local handler
 local function install()
   if not (_G.geterrorhandler and _G.seterrorhandler) then return false end

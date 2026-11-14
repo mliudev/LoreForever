@@ -1,0 +1,64 @@
+{
+ "key": "quest:94980",
+ "type": "quest",
+ "name": "Krol'dok Moulding",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94980
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The Krol'dok moulding looks as though it belongs to a key. Someone in Farholde Keep may know more about it.",
+ "sections": [
+  {
+   "title": "A Key's Mould",
+   "body": "You have a moulding that appears to be for a key. Someone in Farholde Keep may know what the mould is for, and you bring it to them to learn more.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the Krol'dok moulding?",
+   "aliases": [
+    "kroldok moulding",
+    "krol'dok mold",
+    "what is this mould"
+   ],
+   "answer": "The Krol'dok moulding appears to be for a key."
+  },
+  {
+   "q": "Who might know about the mould?",
+   "aliases": [
+    "who knows about the mould",
+    "mould expert",
+    "ask about mould"
+   ],
+   "answer": "Someone in Farholde Keep may know about the mould."
+  },
+  {
+   "q": "What happens when I bring the moulding?",
+   "aliases": [
+    "moulding outcome",
+    "what do they say",
+    "key mould"
+   ],
+   "answer": "The person you bring it to says they will see what can be done with it."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "farholde keep",
+  "key",
+  "krol'dok moulding",
+  "mould",
+  "moulding"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Krol'dok Moulding"
+ ]
+}

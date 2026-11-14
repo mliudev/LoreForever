@@ -1,0 +1,81 @@
+{
+ "key": "quest:4976",
+ "type": "quest",
+ "name": "Returning the Cleansed Orb",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   4976
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Menara Voidrender asks you to bring the cleansed orb back to her in Ratchet. Its return leaves one choice before the orb can be used.",
+ "sections": [
+  {
+   "title": "Back to Menara",
+   "body": "Menara Voidrender waits in Ratchet for the cleansed Infernal Orb. Tabetha has helped with arcane matters, and Menara hopes you found her and the orb. Bring the orb back to Menara, and the next choice is yours.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Orb's Purpose",
+   "body": "With the cleansed orb returned, Menara says she can imprison a demon within it. You still have to choose which demon; then the orb will be a powerful item to wield.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is waiting for the orb?",
+   "aliases": [
+    "who wants the orb",
+    "orb for Menara"
+   ],
+   "answer": "Menara Voidrender is waiting for the cleansed Infernal Orb in Ratchet."
+  },
+  {
+   "q": "Where do I take the cleansed orb?",
+   "aliases": [
+    "orb where",
+    "return orb"
+   ],
+   "answer": "Take the cleansed Infernal Orb to Menara Voidrender in Ratchet, in the Barrens."
+  },
+  {
+   "q": "Why did Tabetha help?",
+   "aliases": [
+    "Tabetha orb",
+    "what did Tabetha do"
+   ],
+   "answer": "Menara says Tabetha has been useful in matters of the arcane and could aid you if you found her."
+  },
+  {
+   "q": "What does Menara want done with the orb?",
+   "aliases": [
+    "what orb for",
+    "cleansed orb purpose"
+   ],
+   "answer": "Menara says the remaining choice is which demon she should imprison within the cleansed orb."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "barrens",
+  "cleansed infernal orb",
+  "demon",
+  "imprison",
+  "menara voidrender",
+  "ratchet",
+  "tabetha"
+ ],
+ "related": [
+  "npc:menara-voidrender",
+  "npc:tabetha",
+  "subzone:ratchet",
+  "zone:barrens"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Returning the Cleansed Orb"
+ ]
+}

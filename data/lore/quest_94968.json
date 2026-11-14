@@ -1,0 +1,79 @@
+{
+ "key": "quest:94968",
+ "type": "quest",
+ "name": "Eye of Mugg",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94968
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Krom'rosh sends you into Krol'dok Stronghold as the Twilight cult's foothold proves larger than expected. He asks for proof that their leader is dead.",
+ "sections": [
+  {
+   "title": "Krol'dok Stronghold",
+   "body": "Krom'rosh fears more allies will be sacrificed if the Twilight cult keeps ravaging these lands. Few who entered the cave survived, and the cult's foothold is larger than he believed. Now you are to enter Krol'dok Stronghold and return with proof of the leader's death.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking me to enter Krol'dok Stronghold?",
+   "aliases": [
+    "who sent me",
+    "Krom'rosh request"
+   ],
+   "answer": "Krom'rosh sends you into Krol'dok Stronghold to bring back proof that the Twilight cult's leader is dead."
+  },
+  {
+   "q": "What is wrong at the stronghold?",
+   "aliases": [
+    "what's happening there",
+    "Twilight cult problem"
+   ],
+   "answer": "The Twilight cult has a larger foothold than Krom'rosh expected and has been ravaging the lands and sacrificing allies."
+  },
+  {
+   "q": "Why does Krom'rosh want me to go in?",
+   "aliases": [
+    "why go inside",
+    "why enter stronghold"
+   ],
+   "answer": "Krom'rosh wants the cult stopped before it can continue ravaging the lands and sacrificing allies."
+  },
+  {
+   "q": "What proof does Krom'rosh ask for?",
+   "aliases": [
+    "proof needed",
+    "what do I bring back"
+   ],
+   "answer": "He asks for proof that the Twilight cult's leader is dead."
+  },
+  {
+   "q": "Did many who entered the cave survive?",
+   "aliases": [
+    "cave survivors",
+    "who made it out"
+   ],
+   "answer": "Few who managed to enter the cave survived."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cave",
+  "cult leader",
+  "eye of mugg",
+  "krol'dok stronghold",
+  "krom'rosh",
+  "sacrifices",
+  "twilight cult"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Eye of Mugg"
+ ]
+}

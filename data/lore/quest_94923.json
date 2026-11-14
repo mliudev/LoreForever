@@ -1,0 +1,81 @@
+{
+ "key": "quest:94923",
+ "type": "quest",
+ "name": "Hats Off",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94923
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Robbie asks you to find the birthday hat he lost by the river near the murlocs. He fears his family will learn he went there.",
+ "sections": [
+  {
+   "title": "A Lost Hat",
+   "body": "Robbie lost the hat his sister gave him for his birthday while playing by the river. He is not allowed near the murlocs, so he cannot ask his father or Ellie to help. He suspects one of the murlocs found the hat. You are asked to look for it somewhere along the river.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Robbie?",
+   "aliases": [
+    "robbie",
+    "who's robbie"
+   ],
+   "answer": "Robbie is a boy who lost the birthday hat his sister gave him while playing by the river."
+  },
+  {
+   "q": "What did Robbie lose?",
+   "aliases": [
+    "robbie's hat",
+    "lost hat"
+   ],
+   "answer": "Robbie lost a hat his sister gave him for his birthday."
+  },
+  {
+   "q": "Where did Robbie lose his hat?",
+   "aliases": [
+    "hat location",
+    "where's the hat"
+   ],
+   "answer": "Robbie lost his hat while playing in the river and asks you to look somewhere along the river near the murlocs."
+  },
+  {
+   "q": "Why can't Robbie ask his family for help?",
+   "aliases": [
+    "why not ask dad",
+    "why hide it"
+   ],
+   "answer": "Robbie is not allowed near the murlocs, and asking his father or Ellie for help would reveal where he had been."
+  },
+  {
+   "q": "Does Robbie know if a murloc took the hat?",
+   "aliases": [
+    "murloc hat",
+    "did murlocs take it"
+   ],
+   "answer": "Robbie guesses that one of the murlocs found and kept his hat."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "birthday hat",
+  "ellie",
+  "hat",
+  "lost hat",
+  "murlocs",
+  "river",
+  "robbie"
+ ],
+ "related": [
+  "topic:murloc"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Hats Off"
+ ]
+}

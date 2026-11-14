@@ -511,7 +511,7 @@ local function watcher(parent, fn)
     local early = RECHECKS[i] ~= nil
     while RECHECKS[i] and t >= RECHECKS[i] do i = i + 1 end
     due = RECHECKS[i] or (t + RECHECK_EVERY)
-    pcall(fn, early or "keep")
+    ns.Guard(fn, early or "keep")
   end)
   return function() t, i, due = 0, 1, RECHECKS[1] end
 end
@@ -1390,9 +1390,9 @@ function Hooks.Init()
   Hooks.RefreshBags()
   -- Everything of ours on the game's windows is made here, at login, never as one opens (Capture.MakeButtons).
   local capture = ns.Capture and ns.Capture.MakeButtons
+  -- Each on its own: one the game broke is kept for /lore errors (Errors.lua) and the others still go in.
   for _, fn in ipairs({ Hooks.Tooltips, Hooks.QuestFrames, Hooks.BookFrame, Hooks.ChatLinks, capture }) do
-    local ok, err = pcall(fn)
-    if not ok and ns.debug then say("hook failed: " .. tostring(err)) end
+    if fn then ns.Guard(fn) end
   end
 end
 
