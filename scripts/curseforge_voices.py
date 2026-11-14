@@ -2,10 +2,11 @@
 """What goes to CurseForge besides the add-on: the narration projects in release/curseforge.json, and the add-on's own
 file without them. The public repo's release workflow runs it (its curseforge and curseforge-voices jobs).
 
-Translation projects use `upload --from-release --languages`: their versioned ZIPs come from the separate
-languages release after publish-language-packs.sh finishes uploading them. The CurseForge languages workflow
-checks them against the requested core release and keeps its upload record in languages.json, separately from
-narration's voices.json. Default uploads select narration only.
+Translation projects use `upload --from-release --languages`: their ZIPs come from the "languages" release, where
+publish-language-packs.sh puts them with manifest.json, each pack's own version (they ship on their own, never with an
+add-on release). The CurseForge languages workflow checks each one against the live add-on's data (the checkout's
+core) and keeps its upload record in languages.json, separately from narration's voices.json. Default uploads select
+narration only.
 
 CurseForge's WoW site takes one file per project (additional files are refused, errorCode 1011), and its upload API
 refuses files over about 500 MB (Cloudflare answers 413; 0.7.0's 701 MB zip got one). So each narrator is two
@@ -46,6 +47,9 @@ again, when another one goes live. It has no 'from' and nothing in it plays: the
                                               uploads the ones that changed and records them. Needs CF_API_TOKEN, and
                                               GH_TOKEN and GH_REPO for gh. $VERSION defaults to the tag's.
   curseforge_voices.py upload --dir DIR       the same from the zips in DIR (a local build)
+  TAG=voices curseforge_voices.py upload --from-release   narration released on its own (scripts/release-narration.sh):
+                                              each project at its newest file's version, from the newest
+                                              narration-<version>.json on the "voices" release
   ... --dry-run [--state FILE]                only prints what would upload, with each upload's metadata
 
 Standard library only, plus curl, gh and (if there) zip: the public repo's workflows run it.
@@ -103,8 +107,15 @@ def language_project(project: dict) -> bool:
     return all(f.startswith("LoreForever_Lang_") for f in project["folders"])
 
 
+def project_locale(project: dict) -> str | None:
+    """A translation project's locale (LoreForever_Lang_deDE -> deDE)."""
+    m = re.fullmatch(r"LoreForever_Lang_([a-z]{2}[A-Z]{2})", project["folders"][0]) if project.get("folders") else None
+    return m.group(1) if m else None
+
+
 def validate_translation(zip_path: Path, project: dict, version: str) -> None:
-    """A translation must target this core build before it can reach CurseForge."""
+    """A translation must be the pack's released version, built for the checkout's core data (the live add-on's),
+    before it can reach CurseForge."""
     index = CORE_TOC.parent / "Data" / "Index.lua"
     match = re.search(r'ns\.DB\s*=\s*\{\s*version\s*=\s*"([^"]+)"', index.read_text(encoding="utf-8"))
     if not match:
@@ -114,7 +125,8 @@ def validate_translation(zip_path: Path, project: dict, version: str) -> None:
             text = z.read(f"{folder}/{folder}.toc").decode("utf-8")
             fields = dict(re.findall(r"^## ([\w-]+):[ \t]*(.*?)\r?$", text, re.M))
             if fields.get("Version") != version or fields.get("X-LoreForever-DataVersion") != match.group(1):
-                raise Failure(f"{folder}: translations don't match Lore Forever {version}'s data; rebuild the pack")
+                raise Failure(f"{folder}: isn't version {version} built for this add-on's data ({match.group(1)}); "
+                              "publish it again: scripts/publish-language-packs.sh")
 
 
 def quest_dialogue(folder: str) -> bool:
@@ -397,7 +409,10 @@ def core(zip_path: Path, outdir: Path, projects: list[dict]) -> tuple[Path, dict
 def changelog(version: str, parts: list[tuple[str, str, int]], before: dict | None) -> str:
     """The upload's notes: what's in it, with the change in each part's count since the last upload."""
     if all(f.startswith("LoreForever_Lang_") for f, _, _ in parts):
-        return "\n".join([f"Translations for Lore Forever {version}.", "",
+        built_for = ".".join(version.split(".")[:3])   # 1.9.0.2: the second update since 1.9.0, built for it
+        heading = (f"Translations update {version}, for Lore Forever {built_for}." if version != built_for
+                   else f"Translations for Lore Forever {version}.")
+        return "\n".join([heading, "",
                           *[f"- {title}" for _, title, _ in parts], "",
                           "Needs Lore Forever (the CurseForge app installs it too). In game, type /reload after "
                           "installing, then choose your language in Options."])
@@ -748,7 +763,11 @@ def cmd_upload(args) -> int:
     if not token and not args.dry_run:
         raise Failure("CF_API_TOKEN is empty, so nothing was uploaded. Set it (gh secret set CF_API_TOKEN) and rerun "
                       "this job.")
+    if args.languages:
+        return upload_languages(args, todo, projects, token)
     tag = os.environ.get("TAG", "")
+    if tag == NARRATION_TAG:
+        return upload_narration(args, todo, projects, token)
     if args.from_release or not args.dry_run:
         newest = newest_release()
         tag = tag or newest or ""
@@ -760,23 +779,131 @@ def cmd_upload(args) -> int:
     version = os.environ.get("VERSION") or tag.removeprefix("v")
     if not RELEASE_TAG.match(f"v{version}"):
         raise Failure(f"no version to upload as (TAG={tag!r}, VERSION={os.environ.get('VERSION')!r})")
-    state_file = "languages.json" if args.languages else STATE_FILE
-    state = json.loads(Path(args.state).read_text(encoding="utf-8")) if args.state else load_state(state_file)
+    state = json.loads(Path(args.state).read_text(encoding="utf-8")) if args.state else load_state(STATE_FILE)
     with tempfile.TemporaryDirectory() as tmp:
         source_dir = Path(args.dir) if args.dir else Path(tmp, "release")
         unchanged = []
         if args.from_release:
-            if not args.languages:
-                unchanged = unchanged_projects(todo, release_fingerprints(tag), state, version)
-                skipped = {s['project']['id'] for s in unchanged}
-                todo = [p for p in todo if p['id'] not in skipped]
+            unchanged = unchanged_projects(todo, release_fingerprints(tag), state, version)
+            skipped = {s['project']['id'] for s in unchanged}
+            todo = [p for p in todo if p['id'] not in skipped]
             source_dir.mkdir(parents=True, exist_ok=True)
             if todo:
-                fetch({s for p in todo for s in sources(p, version)}, "languages" if args.languages else tag, source_dir)
+                fetch({s for p in todo for s in sources(p, version)}, tag, source_dir)
         steps = unchanged + (plan(prepare(todo, source_dir, Path(tmp, "files"), version, projects), state)
                              if todo else [])
-        return send(steps, projects, state, version, token, args.dry_run, source=tag or str(source_dir),
-                    state_file=state_file)
+        return send(steps, projects, state, version, token, args.dry_run, source=tag or str(source_dir))
+
+
+LANGUAGES_TAG = "languages"
+NARRATION_TAG = "voices"
+
+
+def upload_narration(args, todo: list[dict], projects: list[dict], token: str) -> int:
+    """Narration projects from the narration's own release (scripts/release-narration.sh): the newest
+    narration-<version>.json on the "voices" release names each download's newest file (<name>-<version>.zip, version
+    <add-on>.<n>), and each project goes up at its newest source's version. One none of whose downloads is there yet is
+    absent (the add-on release's path still carries it); one whose files are what was last sent is unchanged. Bundles
+    stay with the add-on release's path."""
+    state = json.loads(Path(args.state).read_text(encoding="utf-8")) if args.state else load_state(STATE_FILE)
+    todo = [p for p in todo if not p.get("bundle")]
+    with tempfile.TemporaryDirectory() as tmp:
+        source_dir = Path(args.dir) if args.dir else Path(tmp, "release")
+        source_dir.mkdir(parents=True, exist_ok=True)
+        if args.from_release:
+            have = {a["name"] for a in json.loads(run(["gh", "release", "view", NARRATION_TAG, "--json", "assets"]).stdout)["assets"]}
+        else:
+            have = {f.name for f in source_dir.iterdir()}
+        dated = [n for n in have if re.fullmatch(r"narration-[\d.]+\.json", n)]
+        if not dated:
+            print(f"No narration-<version>.json on the {NARRATION_TAG} release yet: narration still goes up with the "
+                  "add-on's releases; nothing to upload here.")
+            return 0
+        zips = None   # the newest manifest that reads whole (one cut off halfway is passed over)
+        for newest in sorted(dated, key=lambda n: tuple(int(x) for x in re.findall(r"\d+", n)), reverse=True):
+            if args.from_release:
+                fetch({newest}, NARRATION_TAG, source_dir)
+            try:
+                zips = json.loads((source_dir / newest).read_text(encoding="utf-8")).get("zips")
+            except (OSError, ValueError, AttributeError):
+                zips = None
+            if isinstance(zips, dict):
+                break
+        if not isinstance(zips, dict):
+            raise Failure(f"no narration-<version>.json on the {NARRATION_TAG} release reads whole")
+        groups, absent, want = {}, [], {}
+        for p in todo:
+            mine = [zips[s] for s in sources(p) if s in zips]
+            if len(mine) < len(sources(p)):   # a file from some of its downloads would drop the others' narration
+                absent.append({"project": p, "absent": f"{', '.join(s for s in sources(p) if s not in zips)} not in "
+                               f"{newest} (it still ships with the add-on's releases)", "action": "absent"})
+                continue
+            version = max((e["version"] for e in mine), key=lambda v: tuple(int(x) for x in v.split(".")))
+            groups.setdefault(version, []).append(p)
+            for s in sources(p):
+                if s in zips:
+                    want[s] = zips[s]["file"]
+        if args.from_release:
+            fetch(set(want.values()), NARRATION_TAG, source_dir)
+        for base, file in want.items():   # prepare() reads each source by its plain name
+            if (source_dir / file).is_file() and file != base:
+                (source_dir / file).replace(source_dir / base)
+        failed = send(absent, projects, state, "", token, args.dry_run, source=NARRATION_TAG)
+        for version, group in sorted(groups.items(), key=lambda kv: tuple(int(x) for x in kv[0].split("."))):
+            steps = plan(prepare(group, source_dir, Path(tmp, "files", version), version, projects), state)
+            failed |= send(steps, projects, state, version, token, args.dry_run, source=NARRATION_TAG)
+        return failed
+
+
+def upload_languages(args, todo: list[dict], projects: list[dict], token: str) -> int:
+    """Translation projects, each at its pack's own version (manifest.json on the languages release, or in --dir):
+    a language with no released pack is absent; one whose file is what was last sent is unchanged."""
+    state = json.loads(Path(args.state).read_text(encoding="utf-8")) if args.state else load_state("languages.json")
+    with tempfile.TemporaryDirectory() as tmp:
+        source_dir = Path(args.dir) if args.dir else Path(tmp, "release")
+        source_dir.mkdir(parents=True, exist_ok=True)
+        # The newest manifest-<version>.json (publish-language-packs.sh never replaces one in place; manifest.json is
+        # the first runs' name).
+        def newest(names):
+            dated = [n for n in names if re.fullmatch(r"manifest-[\d.]+\.json", n)]
+            return (max(dated, key=lambda n: tuple(int(x) for x in re.findall(r"\d+", n))) if dated
+                    else "manifest.json" if "manifest.json" in names else None)
+        def whole(path):   # (a manifest cut off halfway doesn't read: the one before it counts)
+            try:
+                return json.loads(path.read_text(encoding="utf-8"))
+            except (OSError, ValueError):
+                return None
+        if args.from_release:
+            have = {a["name"] for a in json.loads(run(["gh", "release", "view", LANGUAGES_TAG, "--json", "assets"]).stdout)["assets"]}
+            while newest(have):
+                fetch({newest(have)}, LANGUAGES_TAG, source_dir)
+                if isinstance(whole(source_dir / newest(have)), dict):
+                    break
+                (source_dir / newest(have)).unlink(missing_ok=True)
+                have.discard(newest(have))
+        names = {p.name for p in source_dir.iterdir()}
+        while newest(names) and not isinstance(whole(source_dir / newest(names)), dict):
+            names.discard(newest(names))
+        manifest_path = source_dir / (newest(names) or "manifest.json")
+        manifest = (whole(manifest_path) or {}) if manifest_path.is_file() else {}
+        tag = os.environ.get("TAG", "")
+        if RELEASE_TAG.match(tag):   # the add-on release's own copy (publish-language-packs-at-release.sh), until PR 1b
+            manifest = {project_locale(p): {"version": tag.removeprefix("v")} for p in todo}
+        groups, absent = {}, []
+        for p in todo:
+            entry = manifest.get(project_locale(p) or "")
+            if entry and entry.get("version"):
+                groups.setdefault(entry["version"], []).append(p)
+            else:
+                absent.append({"project": p, "absent": "no released pack (publish-language-packs.sh)", "action": "absent"})
+        if args.from_release:
+            fetch({s for v, ps in groups.items() for p in ps for s in sources(p, v)}, LANGUAGES_TAG, source_dir)
+        failed = send(absent, projects, state, "", token, args.dry_run, source=LANGUAGES_TAG, state_file="languages.json")
+        for version, group in sorted(groups.items()):
+            steps = plan(prepare(group, source_dir, Path(tmp, "files", version), version, projects), state)
+            failed |= send(steps, projects, state, version, token, args.dry_run, source=LANGUAGES_TAG,
+                           state_file="languages.json")
+        return failed
 
 
 def send(steps: list[dict], projects: list[dict], state: dict, version: str, token: str, dry_run: bool,
@@ -822,7 +949,11 @@ def send(steps: list[dict], projects: list[dict], state: dict, version: str, tok
             state[str(p["id"])] = {"key": p["key"], "version": version, "file": file_id,
                                    "fingerprint": s["fingerprint"], "counts": {f: n for f, _, n in parts},
                                    "at": datetime.now(timezone.utc).isoformat(timespec="seconds")}
-            save_state(state, state_file)   # record each success before attempting the next project
+            # Record each success before attempting the next project, on the record as it is now: another upload job (the add-on
+            # release's and voices.yml on a release day) may have saved its own rows since this one read it.
+            fresh = load_state(state_file)
+            fresh[str(p["id"])] = state[str(p["id"])]
+            save_state(fresh, state_file)
             where = f"https://www.curseforge.com/wow/addons/{p['slug']}" if p.get("slug") else f"project {p['id']}"
             summary(f"{p['key']}: uploaded {meta['displayName']} to {where} as CurseForge file {file_id}; it goes "
                     f"live after moderation")

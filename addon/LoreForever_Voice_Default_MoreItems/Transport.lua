@@ -4522,11 +4522,11 @@ P.transport["item:shard-of-water"] = {
   },
 }
 P.transport["item:shaw-s-report"] = {
-  hash = "3886d6",
-  fullHash = "3886d6",
-  text = "Shaw's Report. In Westfall, Shaw's Report carries SI:7 intelligence to Gryan Stoutmantle. Written by Master Mathias Shaw, it tells of the Stonemasons Guild, Edwin VanCleef, and their grievance with the crown after Stormwind was rebuilt.",
+  hash = "0aec08",
+  fullHash = "0aec08",
+  text = "Shaw's Report. Master Mathias Shaw seals this SI:7 dossier for Gryan Stoutmantle at Sentinel Hill. It is Stormwind's answer to the People's Militia, who asked who is behind the bandits raiding Westfall.",
   ["1"] = {
-    {file = "Audio/Transport/full_item_shaw-s-report-085789ff514c92a19c30/1-0000.mp3", duration = 14.8636735, start = 0},
+    {file = "Audio/Transport/full_item_shaw-s-report-7e1e91ff7ad5e67cdfa4/1-0000.mp3", duration = 13.0089796, start = 0},
   },
 }
 P.transport["item:shimmering-frond"] = {

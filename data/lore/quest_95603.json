@@ -1,0 +1,78 @@
+{
+ "key": "quest:95603",
+ "type": "quest",
+ "name": "Bats in the Belfry",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95603
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Sister Rowland asks you to clear bats from Farholde Cathedral. She hopes the church will serve the Light again when the fighting ends.",
+ "sections": [
+  {
+   "title": "The Cathedral",
+   "body": "Sister Rowland asks for your help at Farholde Cathedral, where dusk bats roost in the upper stories. She and brother Lowley now serve Farholde in a more secular capacity, and the church has fallen into disuse. Rowland wants to keep it in working order, though she fears the fighting may last a long while.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why are there bats in the cathedral?",
+   "aliases": [
+    "cathedral bats",
+    "bats in belfry",
+    "why bats"
+   ],
+   "answer": "A colony of bats has made its roost in the upper stories of Farholde Cathedral."
+  },
+  {
+   "q": "Who asks me to clear the bats?",
+   "aliases": [
+    "who gave this",
+    "sister rowland",
+    "rowland bats"
+   ],
+   "answer": "Sister Rowland asks you to remove the roosting bats from Farholde Cathedral."
+  },
+  {
+   "q": "Why does Sister Rowland want the church kept in working order?",
+   "aliases": [
+    "why keep church",
+    "church upkeep",
+    "rowland church"
+   ],
+   "answer": "Sister Rowland hopes the Light can return to the church once the fighting ends."
+  },
+  {
+   "q": "What happened to the church?",
+   "aliases": [
+    "church abandoned",
+    "why disused",
+    "farholde church"
+   ],
+   "answer": "The church has fallen into disuse since Sister Rowland and brother Lowley began serving Farholde in a more secular capacity."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bats in the belfry",
+  "brother lowley",
+  "church",
+  "farholde cathedral",
+  "light",
+  "roosting dusk bats",
+  "sister rowland"
+ ],
+ "related": [
+  "topic:light",
+  "quest:3636"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Bats in the Belfry"
+ ]
+}

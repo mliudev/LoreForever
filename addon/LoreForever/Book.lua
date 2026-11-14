@@ -131,8 +131,12 @@ function Book.Index()
   local mine = try(UnitFactionGroup, "player")
   mine = type(mine) == "string" and mine:lower() or nil
   local chapters, zs = {}, zones()
+  -- A place page no name the game reports leads to (e.nf: a second page for one place, a place Forever's client
+  -- doesn't name) can't be found by travelling, so it stays out of the totals and the zone's places seal until found
+  -- some other way (LOR-1482: a zone whose seal can never be finished).
+  local have = (ns.Collection and ns.Collection.Store and (ns.Collection.Store() or {}).found) or {}
   for key, e in pairs(db or {}) do
-    if KIND[e.t] and reachable(e, mine) then
+    if KIND[e.t] and reachable(e, mine) and (not e.nf or have[key]) then
       local ck = (e.t ~= "topic" and e.z and zs[e.z]) and e.z or AZEROTH
       local c = chapters[ck]
       if not c then c = { keys = {} }; chapters[ck] = c end
@@ -142,6 +146,8 @@ function Book.Index()
   index = { db = db, chapters = chapters }
   return index
 end
+-- Build the index again on next use (Collection.Find, when a page the counts left out is found).
+function Book.Forget() index = nil end
 
 local function found() local r = ns.Collection.Store(); return r and r.found or {} end
 local function foundTime(s) return tonumber(type(s) == "string" and s:match("^(%d+)") or "") or 0 end

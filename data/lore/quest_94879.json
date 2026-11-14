@@ -1,0 +1,80 @@
+{
+ "key": "quest:94879",
+ "type": "quest",
+ "name": "Scraps of Knowledge",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94879
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Ashe Amberall asks you to search Sunnyglade for Twilight's Hammer documents. She hopes the pages will reveal what the cult intends.",
+ "sections": [
+  {
+   "title": "Pages in Sunnyglade",
+   "body": "From Farholde Keep, Ashe Amberall looks to Sunnyglade, the ruined city to the north. Demar has sent troops, yet the city remains beyond recovery. Ashe believes the Twilight's Hammer has struck before and coordinates its attacks from a central place. She asks you to look for misplaced documents in Sunnyglade, hoping enough pages will help her piece together the cult's intentions.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who wants the Twilight Pages?",
+   "aliases": [
+    "who wants the pages",
+    "Ashe pages",
+    "who asked me"
+   ],
+   "answer": "Ashe Amberall in Farholde Keep asks you to find the Twilight Pages."
+  },
+  {
+   "q": "Where should I look for the pages?",
+   "aliases": [
+    "where pages",
+    "Sunnyglade papers",
+    "find Twilight Pages"
+   ],
+   "answer": "Ashe asks you to search within Sunnyglade for Twilight Pages."
+  },
+  {
+   "q": "What does Ashe hope to learn?",
+   "aliases": [
+    "what Ashe wants to know",
+    "why pages",
+    "Twilight plans"
+   ],
+   "answer": "Ashe hopes the documents will help her piece together the Twilight's Hammer's intentions."
+  },
+  {
+   "q": "Why is Ashe asking about the Twilight's Hammer?",
+   "aliases": [
+    "why Twilight Hammer",
+    "cult attacks",
+    "what happened before"
+   ],
+   "answer": "Ashe believes the attack on Sunnyglade is not the Twilight's Hammer's first, and suspects the cult coordinates from a central place."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ashe amberall",
+  "demar",
+  "documents",
+  "farholde keep",
+  "scraps of knowledge",
+  "sunnyglade",
+  "twilight pages",
+  "twilight's hammer"
+ ],
+ "related": [
+  "subzone:sunnyglade",
+  "topic:twilight-s-hammer",
+  "quest:576"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Scraps of Knowledge"
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "key": "quest:95913",
+ "type": "quest",
+ "name": "Fit for a Princess",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95913
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Tessa Dawnbright needs warm coyote pelts for her daughter Emma\u2019s bassinet in Farholde Keep. She hopes softer bedding will help the baby sleep and bring quiet to Farholde.",
+ "sections": [
+  {
+   "title": "A Mother's Request",
+   "body": "Tessa rocks Emma in Farholde Keep, hoping to settle her crying daughter. Her husband made a bassinet, but Tessa worries its blankets are too old. She asks you to bring coyote pelts to line Emma\u2019s bed, hoping the warmer bedding will soothe her.",
+   "spoiler": 0
+  },
+  {
+   "title": "A Welcome Return",
+   "body": "Tessa greets you when you return with the pelts. She finds them warm and soft, and says they are for Emma. Tessa looks tired as she cares for her baby.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Tessa Dawnbright?",
+   "aliases": [
+    "who's tessa",
+    "tessa dawnbright"
+   ],
+   "answer": "Tessa Dawnbright is Emma\u2019s mother in Farholde Keep."
+  },
+  {
+   "q": "Who is Emma?",
+   "aliases": [
+    "tessa's baby",
+    "emma baby"
+   ],
+   "answer": "Emma is Tessa Dawnbright\u2019s daughter."
+  },
+  {
+   "q": "Why does Tessa need coyote pelts?",
+   "aliases": [
+    "why pelts",
+    "coyote pelts for tessa"
+   ],
+   "answer": "Tessa wants to line Emma\u2019s bassinet with warm, soft pelts because she worries the blankets are too old."
+  },
+  {
+   "q": "Where does Tessa live?",
+   "aliases": [
+    "where is tessa",
+    "farholde tessa"
+   ],
+   "answer": "Tessa is in Farholde Keep."
+  },
+  {
+   "q": "What is wrong with Emma?",
+   "aliases": [
+    "why is baby crying",
+    "emma crying"
+   ],
+   "answer": "Emma is crying, and Tessa is trying to help her sleep."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "baby",
+  "bassinet",
+  "blankets",
+  "coyote pelts",
+  "emma",
+  "farholde keep",
+  "tessa dawnbright"
+ ],
+ "related": [
+  "quest:1177"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Fit for a Princess"
+ ]
+}

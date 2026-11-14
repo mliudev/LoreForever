@@ -1,0 +1,105 @@
+{
+ "key": "quest:1823",
+ "type": "quest",
+ "name": "Speak with Ruga",
+ "era": "classic",
+ "zone": "thunderbluff",
+ "meta": {
+  "ids": [
+   1823
+  ],
+  "level": "20",
+  "faction": "Horde",
+  "start": "Torm Ragetotem, Sorek, Baltus Fowler",
+  "end": "Ruga Ragetotem",
+  "previous": "",
+  "next": "Trial at the Field of Giants",
+  "wiki": "Speak with Ruga",
+  "chain": [],
+  "next_q": [
+   "Trial at the Field of Giants"
+  ],
+  "class": "Warrior",
+  "category": "Warrior",
+  "chain_tpl": [
+   "Speak with Ruga/Quest chain"
+  ]
+ },
+ "summary": "Ruga Ragetotem awaits skilled warriors in Camp Taurajo, where a trial may test your growing renown. Speak with him to learn whether you are ready.",
+ "sections": [
+  {
+   "title": "A Call to Warriors",
+   "body": "Warriors of growing renown are called to Ruga Ragetotem in Camp Taurajo, within the Barrens. You have come at the invitation of Torm Ragetotem, Sorek, or Baltus Fowler. Ruga is waiting to hear whether you seek his trial.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Ruga Ragetotem?",
+   "aliases": [
+    "who is Ruga",
+    "Ruga",
+    "Ruga Tauren"
+   ],
+   "answer": "Ruga Ragetotem is waiting in Camp Taurajo to offer a trial to warriors."
+  },
+  {
+   "q": "Where do I find Ruga?",
+   "aliases": [
+    "Ruga location",
+    "where's Ruga",
+    "find Ruga"
+   ],
+   "answer": "Ruga Ragetotem is in Camp Taurajo in the Barrens."
+  },
+  {
+   "q": "Why am I speaking with Ruga?",
+   "aliases": [
+    "why Ruga",
+    "Ruga trial",
+    "speak with Ruga"
+   ],
+   "answer": "Torm Ragetotem, Sorek, or Baltus Fowler sent you to speak with Ruga about his trial for skilled warriors."
+  },
+  {
+   "q": "What does Ruga want from me?",
+   "aliases": [
+    "Ruga wants what",
+    "Ruga trial details",
+    "what is Ruga asking"
+   ],
+   "answer": "Ruga asks whether you have come for his trial."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Warrior",
+   "text": "As a warrior, you are among those Ruga calls to his trial."
+  },
+  {
+   "target": "faction:Horde",
+   "text": "Ruga's call is for warriors, and he waits in Camp Taurajo."
+  }
+ ],
+ "keywords": [
+  "baltus fowler",
+  "barrens",
+  "camp taurajo",
+  "ruga ragetotem",
+  "sorek",
+  "speak with ruga",
+  "torm ragetotem",
+  "warrior trial"
+ ],
+ "related": [
+  "npc:ruga-ragetotem",
+  "zone:barrens",
+  "subzone:camp-taurajo",
+  "topic:warrior",
+  "quest:1824"
+ ],
+ "style": 2,
+ "attribution": [
+  "Speak with Ruga"
+ ]
+}

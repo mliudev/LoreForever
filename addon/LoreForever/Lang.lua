@@ -165,11 +165,11 @@ end
 
 function Lang.NeedsReload()
   return ns.lang ~= nil and (Lang.Selected() ~= ns.lang.selection or Lang.Resolve() ~= ns.lang.locale
-    or (ns.lang.edition and ns.lang.edition.unavailable))
+    or ns.lang.editionUnavailable ~= nil)
 end
 
-function Lang.Reason(reason)
-  return ns.Packs.ReasonText(reason) or tostring(reason)
+function Lang.Reason(reason, rec)
+  return ns.Packs.ReasonText(reason, rec) or tostring(reason)
 end
 
 -- Choices for Options: automatic, English, then each installed pack.
@@ -183,7 +183,7 @@ function Lang.Choices()
     if rec.locale and not ENGLISH[rec.locale] then
       listed[rec.locale] = true
       out[#out + 1] = { id = rec.locale, label = rec.languageName or rec.locale,
-        reason = (not rec.loadable) and Lang.Reason(rec.reason) or nil }
+        reason = (not rec.loadable) and Lang.Reason(rec.reason, rec) or nil }
     end
   end
   -- A test pack for a language whose pack isn't installed still offers the language.
@@ -191,7 +191,7 @@ function Lang.Choices()
     if rec.locale and not ENGLISH[rec.locale] and not listed[rec.locale] then
       listed[rec.locale] = true
       out[#out + 1] = { id = rec.locale, label = rec.languageName or rec.locale,
-        reason = (not rec.loadable) and Lang.Reason(rec.reason) or nil }
+        reason = (not rec.loadable) and Lang.Reason(rec.reason, rec) or nil }
     end
   end
   local listedEditions = {}
@@ -205,7 +205,12 @@ function Lang.Choices()
   end
   local selected = settings().edition
   if selected and not listedEditions[selected] then
-    out[#out + 1] = { id = "edition:" .. selected, label = selected,
+    -- Only the audio half left: its own name, not the raw edition id.
+    local label = selected
+    for _, rec in ipairs(ns.Packs.List("edition-voice")) do
+      if rec.edition == selected then label = rec.languageName or rec.title or selected; break end
+    end
+    out[#out + 1] = { id = "edition:" .. selected, label = label,
       reason = L["Edition unavailable: reinstall it or choose another edition"] }
   end
   return out
@@ -246,6 +251,7 @@ end
 -- index.areaClash[name] = {English names}, and the zone you stand in decides (Engine:SubzoneKey, AreaKey).
 -- Returns how many names it added, how many clash, and how many it left alone because an index already had them for
 -- something else.
+local AREA_T = { zone = true, city = true, dungeon = true, subzone = true }
 function Lang.ClientAreaNames(db, getName)
   getName = getName or (_G.C_Map and C_Map.GetAreaInfo)
   local idx = db.index
@@ -276,6 +282,11 @@ function Lang.ClientAreaNames(db, getName)
       for _, field in ipairs({ "name", "zone", "area" }) do
         local t = idx[field]
         local v = t and (t[en] or t[bare])
+        -- An area's name leads to the place over a quest of the same name ("The Howling Vale", LOR-1482).
+        if field == "name" and t[en] and t[bare] and t[en] ~= t[bare] then
+          local a, b = db.entries and db.entries[t[en]], db.entries and db.entries[t[bare]]
+          if not (a and AREA_T[a.t]) and b and AREA_T[b.t] then v = t[bare] end
+        end
         if v ~= nil then
           if t[n] == nil then t[n] = v; added = added + 1
           elseif t[n] ~= v then taken = taken + 1 end
@@ -539,7 +550,7 @@ local function mergeWhole(db, w, merged, touched, keep)
         faq[j] = f
       end
       e.faq = faq
-      e.ownShape = true   -- its own sections and FAQs: no English recording fits them (Voice englishFill)
+      e.ownShape = true   -- its own sections and FAQs: no English recording fits them
     else
       hidden[key] = true
       withhold(e)
@@ -827,8 +838,6 @@ local function init(lang)
   -- Voice packs match recordings to the text by clipHash: the pack's hashes (for recordings in this language) replace
   -- the English ones, and Voice only picks packs in the reading language. Voice.Init runs after this. The answers
   -- packs' hashes (answerHash, LOR-227) too.
-  -- The English ones stay as db.englishClipHash, for "Let English narration fill in" (Voice.lua, voiceFillLanguage).
-  db.englishClipHash = db.englishClipHash or db.clipHash
   db.clipHash = (tw and tw.clipHash) or {}
   db.answerHash = (tw and tw.answerHash) or {}
   -- Complete stories have their own hash. Only a translation that merged, current or older but still shown (LOR-1054),
@@ -879,6 +888,19 @@ function Lang.FaqNumber(key, idx)
   local e = ns.DB and ns.DB.entries[key]
   local f = e and e.faq and e.faq[idx]
   return f and f.i or idx
+end
+
+-- Everything an edition replaces, so an edition that can't be used gives back our own data (and the language the
+-- settings ask for) rather than an empty add-on.
+local EDITION_FIELDS = { "entries", "zones", "storylines", "index", "clipHash", "answerHash", "clipNarrator",
+  "fullclips", "fullclipsLocale", "questClip", "questVoice", "search", "vectors", "count" }
+local function keepStock(db)
+  local saved = {}
+  for _, k in ipairs(EDITION_FIELDS) do saved[k] = db[k] end
+  return saved
+end
+local function restoreStock(db, saved)
+  for _, k in ipairs(EDITION_FIELDS) do db[k] = saved[k] end
 end
 
 local function emptyEdition(db)
@@ -956,62 +978,9 @@ function Lang.ApplyEdition(db, pair)
   end
 end
 
-function Lang.ValidateEdition()
-  local e = ns.lang and ns.lang.edition
-  if not e then return true end
-  if e.unavailable then return false end
-  local pair = ns.Packs.EditionPair(e.id)
-  if pair and pair.version == e.version and pair.textName == e.textName and pair.voiceName == e.voiceName then return true end
-  if ns.UI and ns.UI.frame and ns.UI.Archive then ns.UI.Archive() end
-  e.unavailable = true
-  emptyEdition(ns.DB)
-  if ns.Voice then
-    ns.Voice.Stop()
-    ns.Voice.ready, ns.Voice.autoToken = false, nil
-    ns.Voice.lastClip = nil
-  end
-  if ns.UI then
-    ns.UI.progress, ns.UI.resumeTarget, ns.UI.activeTarget = {}, nil, nil
-    ns.UI.speaking, ns.UI.playingId = false, nil
-    ns.UI.playToken = nil
-    ns.UI.msgs, ns.UI.blocks = {}, {}
-    if ns.UI.pl then ns.UI.pl.items, ns.UI.pl.pos, ns.UI.pl.state, ns.UI.pl.token = {}, 0, "paused", nil end
-  end
-  if ns.engine then
-    ns.engine = ns.Engine.new(ns.DB)
-    if ns.UI then ns.UI.engine = ns.engine end
-  end
-  if ns.UI and ns.UI.frame then
-    ns.UI.SetNext({})
-    ns.UI.HideCompletion()
-    ns.UI.Render()
-  end
-  return false
-end
-
-function Lang.Init()
-  local lang = { locale = "enUS", client = Lang.ClientLocale(), notes = {} }
-  ns.lang = lang
-  Lang.SetDot()   -- the client's own alphabet; init adds the reading language's
-  lang.selection = Lang.Selected()
-  if settings().edition then
-    ns.Packs.Scan()
-    lang.edition = { id = settings().edition, unavailable = true }
-    lang.locale, lang.name = Lang.Resolve(), settings().edition
-    ns.readingLocale = lang.locale
-    local ok, pair = pcall(ns.Packs.EditionPair, settings().edition)
-    if ok and pair then
-      lang.edition, lang.locale, lang.name, lang.pack = pair, pair.locale, pair.name, pair.textName
-      ns.readingLocale = pair.locale
-      local applied = pcall(Lang.ApplyEdition, ns.DB, pair)
-      if applied then return lang end
-      lang.edition.unavailable = true
-    end
-    emptyEdition(ns.DB)
-    lang.notes[#lang.notes + 1] = L["Edition unavailable. Reinstall or enable both matching components, or choose another edition in Options and reload."]
-    return lang
-  end
-  -- A broken pack must not take the add-on down with it: report it and carry on with what loaded.
+-- The normal language path: the language the settings ask for, English when it has no pack. A broken pack must not
+-- take the add-on down with it: report it and carry on with what loaded.
+local function stockLanguage(lang)
   local ok, err = pcall(init, lang)
   if not ok then
     lang.notes[#lang.notes + 1] = string.format(L["The language pack failed to load (%s); some text may be English."],
@@ -1028,5 +997,87 @@ function Lang.Init()
     end
   end
   if ns.Theme and ns.Theme.SetLanguageFonts then ns.Theme.SetLanguageFonts(lang.locale) end
+end
+
+-- The chosen edition can't be used (a half missing, disabled or of another version): say so, and run in the language
+-- the settings ask for, as if no edition were chosen, never an empty add-on. Options keeps the edition chosen and
+-- offers the reload that brings it back once both halves are there (Lang.NeedsReload).
+local function editionUnavailable(lang, id)
+  lang.edition, lang.stock, lang.editionUnavailable = nil, nil, id
+  lang.locale, lang.name, lang.pack = "enUS", nil, nil
+  ns.readingLocale = nil
+  lang.notes[#lang.notes + 1] = L["Edition unavailable. Reinstall or enable both matching components, or choose another edition in Options and reload."]
+  stockLanguage(lang)
+end
+
+-- Mid-session (every Voice.Resolve/HasAudio and UI.ShowEntry): the pair that was applied at login is still there and the
+-- same. If not, what's on screen and playing is the edition's, so it all stops and the add-on goes on in the normal
+-- language with our own data. Returns false then, so the caller does nothing this once.
+function Lang.ValidateEdition()
+  local lang = ns.lang
+  local e = lang and lang.edition
+  if not e then return true end
+  local pair = ns.Packs.EditionPair(e.id)
+  if pair and pair.version == e.version and pair.textName == e.textName and pair.voiceName == e.voiceName then return true end
+  local stock, from = lang.stock, #lang.notes
+  -- The chat so far is the edition's: saved under its key (UI.Archive reads Lang.EditionKey), before the edition goes,
+  -- or reopening it later would show its words under another voice.
+  if ns.UI and ns.UI.frame and ns.UI.Archive then ns.UI.Archive() end
+  lang.edition = nil   -- (everything below sees the add-on as no longer in the edition)
+  if stock then restoreStock(ns.DB, stock) else emptyEdition(ns.DB) end
+  local english = ns.DB.search
+  editionUnavailable(lang, e.id)
+  for i = from + 1, #lang.notes do
+    DEFAULT_CHAT_FRAME:AddMessage("|cffffd100Lore Forever:|r " .. lang.notes[i])
+  end
+  if ns.Voice then
+    ns.Voice.Stop()
+    ns.Voice.ready, ns.Voice.autoToken = false, nil
+    ns.Voice.lastClip = nil
+  end
+  if ns.UI then
+    ns.UI.progress, ns.UI.resumeTarget, ns.UI.activeTarget = {}, nil, nil
+    ns.UI.speaking, ns.UI.playingId = false, nil
+    ns.UI.playToken = nil
+    ns.UI.msgs, ns.UI.blocks = {}, {}
+    ns.UI.historyId = nil   -- the next chat is a new one, not the edition's saved one updated in place
+    if ns.UI.pl then ns.UI.pl.items, ns.UI.pl.pos, ns.UI.pl.state, ns.UI.pl.token = {}, 0, "paused", nil end
+  end
+  if ns.engine then
+    ns.engine = ns.Engine.new(ns.DB, english)
+    if ns.UI then ns.UI.engine = ns.engine end
+  end
+  if ns.Voice then pcall(ns.Voice.Refresh) end   -- the normal voice list, in the language now shown
+  if ns.UI and ns.UI.frame then
+    ns.UI.SetNext({})
+    ns.UI.HideCompletion()
+    ns.UI.Render()
+  end
+  return false
+end
+
+function Lang.Init()
+  local lang = { locale = "enUS", client = Lang.ClientLocale(), notes = {} }
+  ns.lang = lang
+  Lang.SetDot()   -- the client's own alphabet; init adds the reading language's
+  lang.selection = Lang.Selected()
+  local id = settings().edition
+  if id then
+    ns.Packs.Scan()
+    local ok, pair = pcall(ns.Packs.EditionPair, id)
+    if ok and pair then
+      local stock = keepStock(ns.DB)
+      lang.edition, lang.locale, lang.name, lang.pack = pair, pair.locale, pair.name, pair.textName
+      ns.readingLocale = pair.locale
+      if pcall(Lang.ApplyEdition, ns.DB, pair) then
+        lang.stock = stock   -- our own data, should the pair stop being usable this session (Lang.ValidateEdition)
+        return lang
+      end
+      restoreStock(ns.DB, stock)
+    end
+    editionUnavailable(lang, id)
+    return lang
+  end
+  stockLanguage(lang)
   return lang
 end

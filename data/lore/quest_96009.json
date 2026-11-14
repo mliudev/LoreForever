@@ -1,0 +1,89 @@
+{
+ "key": "quest:96009",
+ "type": "quest",
+ "name": "High Stakes",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96009
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Bertrand Ironbrow needs wood bundles brought from Turner's Logging Camp to Farholde Keep. The lumber will help the keep finish its gate as orcs grow more feisty.",
+ "sections": [
+  {
+   "title": "Wood for the Keep",
+   "body": "Bertrand Ironbrow needs lumber for Farholde Keep, where people are building amid a warzone filled with orcs and cultists. You are asked to bring bundles from Turner's Logging Camp because dangerous roads have slowed the shipments. The keep's gate is still being built, and the orcs are growing more feisty.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who needs the wood?",
+   "aliases": [
+    "who wants wood",
+    "bertrand lumber",
+    "wood bundles for who"
+   ],
+   "answer": "Bertrand Ironbrow needs the wood at Farholde Keep."
+  },
+  {
+   "q": "Where do the bundles come from?",
+   "aliases": [
+    "where is the lumber",
+    "turners camp wood",
+    "wood camp"
+   ],
+   "answer": "The bundles come from Turner's Logging Camp, northwest of Farholde Keep."
+  },
+  {
+   "q": "Why is lumber running late?",
+   "aliases": [
+    "why slow shipments",
+    "roads dangerous",
+    "lumber delay"
+   ],
+   "answer": "Dangerous roads have slowed the lumber shipments from the mill to the northwest."
+  },
+  {
+   "q": "What is the wood for?",
+   "aliases": [
+    "why need wood",
+    "gate lumber",
+    "keep building"
+   ],
+   "answer": "The wood is for Farholde Keep, where it may help finish the gate."
+  },
+  {
+   "q": "What makes the roads dangerous?",
+   "aliases": [
+    "crocs and murlocs",
+    "what is on road",
+    "road danger"
+   ],
+   "answer": "Crocodiles and murlocs are along the way from the keep to the mill."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bertrand ironbrow",
+  "farholde keep",
+  "gate",
+  "high stakes",
+  "lumber",
+  "murlocs",
+  "turner's logging camp",
+  "wood bundles"
+ ],
+ "related": [
+  "quest:567",
+  "topic:murloc",
+  "topic:human"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: High Stakes"
+ ]
+}

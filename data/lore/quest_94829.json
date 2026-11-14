@@ -1,0 +1,90 @@
+{
+ "key": "quest:94829",
+ "type": "quest",
+ "name": "What We Lost",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94829
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A farmer at Elbrim's Farm mourns the people killed by Twilight Raiders. You are asked to recover their mementos and place them on the graves west of the farm.",
+ "sections": [
+  {
+   "title": "A Farmer's Plea",
+   "body": "The farmer asks you to gather the belongings of those killed when the cultists came to Elbrim's Farm. The fields once fed troops and civilians, but the farmer says the promised protection never came. Their people lie in the farm's ruins, and their kin are buried in the graveyard to the west.",
+   "spoiler": 0
+  },
+  {
+   "title": "At the Graves",
+   "body": "The farmer wants you to bring the dead people's mementos to the graves west of Elbrim's Farm. It will not bring them back, but the farmer hopes their souls can rest with their kin.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What happened at Elbrim's Farm?",
+   "aliases": [
+    "elbrim farm what happened",
+    "farm destroyed",
+    "what happened here"
+   ],
+   "answer": "The farmer says cultists came to Elbrim's Farm and destroyed its crops and killed the people who worked there."
+  },
+  {
+   "q": "Who asks me to recover the mementos?",
+   "aliases": [
+    "who wants mementos",
+    "farmer request",
+    "who is asking"
+   ],
+   "answer": "A farmer at Elbrim's Farm asks you to recover the belongings of the people killed by the cultists."
+  },
+  {
+   "q": "Whose mementos am I collecting?",
+   "aliases": [
+    "farmers mementos",
+    "who do these belong to",
+    "mementos for who"
+   ],
+   "answer": "They belonged to the people who worked in the fields at Elbrim's Farm and were killed when the cultists came."
+  },
+  {
+   "q": "Where should the mementos go?",
+   "aliases": [
+    "where place mementos",
+    "which graves",
+    "graveyard location"
+   ],
+   "answer": "The farmer asks you to place the mementos on the graves in the graveyard west of Elbrim's Farm."
+  },
+  {
+   "q": "Why does the farmer want the mementos returned?",
+   "aliases": [
+    "why recover them",
+    "put souls to rest",
+    "why mementos"
+   ],
+   "answer": "The farmer believes placing the dead people's belongings on their kin's graves will help their souls rest."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cultists",
+  "elbrim's farm",
+  "farmers",
+  "farmers' mementos",
+  "graves",
+  "graveyard",
+  "twilight raiders",
+  "what we lost"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: What We Lost"
+ ]
+}

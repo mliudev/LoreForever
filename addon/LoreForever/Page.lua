@@ -456,6 +456,10 @@ end
 -- seal where a passage waits on a storyline you're on. It reads as Listen does (Mike, 11/3): a story heard from
 -- section 1 leaves its summary out (UI.ListenSkipsSummary), and the initial moves to section 1's first paragraph.
 local function story(content, width, y, key, e)
+  -- While its recording plays words other than today's (UI.HeardWords), the page reads those, whole (Page.UpdateListen
+  -- lays it out again when that starts or stops).
+  Page.heard = ns.UI.HeardWords(key)
+  if Page.heard then return capped(content, width, y, Page.heard) end
   local all, done = settings().showSpoilers, ns.Context.Done()
   local opens, any = {}, false
   for i, sec in ipairs(e.sec or {}) do
@@ -763,6 +767,7 @@ end
 
 function Page.UpdateListen()
   local p, key = Page.listen, Page.key
+  if key and Page.IsShown() and ns.UI.HeardWords(key) ~= Page.heard then Page.Layout() end   -- (story: heard words)
   if not (p and key and p:IsShown()) then return end
   if p.offer then return T.SetPill(p, false, false, false, false) end
   local can = ns.UI.CanQueue(key) and true or false

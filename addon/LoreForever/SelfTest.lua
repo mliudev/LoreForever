@@ -5,7 +5,7 @@
 -- handlers: it opens the panel, both tabs, the queue, History, the journey page and Options, closes each with its own
 -- Back or close button, follows a lore link and goes Back and Forward; plays one short narration through the add-on's
 -- own play path, queues a second while it plays and takes it out again, then stops; and checks the lore data, the
--- voice and language packs (their versions against the core's), the UI strings, the minimap button and the saved
+-- voice and language packs (that our own load), the UI strings, the minimap button and the saved
 -- settings. Each step runs in xpcall, so a Lua error fails that check with its stack and the rest still run. At the
 -- end everything goes back the way it was: the panel and its pages, the conversation, the playlist, the settings, what
 -- this character has heard, the logged questions, and what of this version's What's new is still to see.
@@ -23,7 +23,8 @@ ns.SelfTest = SelfTest
 
 local WAIT = 0.25         -- seconds between steps, so the client shows and lays out what the step before opened
 local JOURNEY_V = 2       -- LoreForeverDB.journey.v (Journey.lua)
--- Our own packs, by name: they ship with every release, stamped with the core's version (scripts/release.sh).
+-- Our own packs, by name. Each ships on its own path (docs/releases.md), so its version isn't the core's: a pack
+-- unchanged across an add-on release keeps the version of the add-on it was built for, and that's healthy.
 local OWN = { "LoreForever_Voice_Default", "LoreForever_Voice_Female", "LoreForever_Voice_Original", "LoreForever_Lang_" }
 
 local run                 -- the run in progress: { results, ctx, state, errors, started, geometry, packs }
@@ -377,7 +378,9 @@ check("contribute", {
   end
 end)
 
--- Voice and language packs: what's installed and loaded, and that our own packs match the core's version.
+-- Voice and language packs: what's installed and loaded, and that our own packs load (no version comparison: a pack
+-- is fine at any version whose format this add-on reads; how many of a voice's stories show as text is said, as
+-- Options > Installed packs and NoticeOutdated count it).
 check("packs", {
   function(c)
     local core = meta(addonName, "Version")
@@ -387,14 +390,15 @@ check("packs", {
       local loaded = ns.Packs.IsLoaded(rec.name)
       rows[#rows + 1] = { name = rec.name, kind = rec.kind, version = v, loaded = loaded,
         reason = rec.loadable == false and rec.reason or nil }
+      local stale = loaded and rec.kind == "voice" and ns.Voice.OutdatedIn and ns.Voice.OutdatedIn(rec.name) or 0
       local label = rec.name:gsub("^LoreForever_", "") .. " " .. (v or "?") .. (loaded and "" or " (not loaded)")
+        .. (stale > 0 and string.format(" (%d as text)", stale) or "")
       table.insert((rec.kind == "voice") and voices or (rec.kind == "transport") and support or langs, label)
       -- A withdrawn edition (Packs.WITHDRAWN) is an old copy on purpose: it stays paused, which is right.
       if isOwn(rec.name) and rec.reason ~= "WITHDRAWN" then
         -- The answer packs were retired in 0.19 (LOR-561): they stay at their last version, and play nothing since 10/21.
         local retired = rec.name:find("_Answers_", 1, true) ~= nil
-        if core and v and v ~= core and not retired then bad[#bad + 1] = string.format("%s is %s", rec.name, v) end
-        if rec.loadable == false and rec.reason ~= "DISABLED" then
+        if rec.loadable == false and rec.reason ~= "DISABLED" and not retired then
           bad[#bad + 1] = string.format("%s can't load (%s)", rec.name, tostring(rec.reason))
         end
       end
@@ -403,12 +407,8 @@ check("packs", {
     local found = string.format("voices: %s; languages: %s", #voices > 0 and table.concat(voices, ", ") or "none",
       #langs > 0 and table.concat(langs, ", ") or "none")
     if #support > 0 then found = found .. "; playback support: " .. table.concat(support, ", ") end
-    if not core then
-      fail("packs match the core's version", "can't read Lore Forever's own version; " .. found)
-    else
-      expect("packs match the core's version", #bad == 0, (#bad > 0 and (table.concat(bad, "; ") .. ". ") or "")
-        .. "core " .. core .. "; " .. found)
-    end
+    expect("our packs load", #bad == 0, (#bad > 0 and (table.concat(bad, "; ") .. ". ") or "")
+      .. "core " .. tostring(core or "?") .. "; " .. found)
     -- The voices that play, and how much of the catalog they cover.
     local V = ns.Voice
     if noVoice() then

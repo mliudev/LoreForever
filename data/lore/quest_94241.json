@@ -1,0 +1,84 @@
+{
+ "key": "quest:94241",
+ "type": "quest",
+ "name": "Craftsman's Writ: Dark Leather Tunic",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94241
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A faded, transferable writ requests a Dark Leather Tunic and gives details for delivery and payment. You need the writ to complete the exchange.",
+ "sections": [
+  {
+   "title": "The Writ",
+   "body": "A customer\u2019s faded note asks you for one Dark Leather Tunic. It includes where to deliver the garment and how payment is arranged. The writ can pass from hand to hand, but you need to possess it when completing the transaction.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "what item do they want",
+    "dark tunic request",
+    "writ item"
+   ],
+   "answer": "The customer requests one Dark Leather Tunic."
+  },
+  {
+   "q": "Where do I deliver the tunic?",
+   "aliases": [
+    "delivery spot",
+    "where to take it",
+    "writ location"
+   ],
+   "answer": "The writ gives a delivery location, marked on your map."
+  },
+  {
+   "q": "Do I need to keep the writ?",
+   "aliases": [
+    "need the note",
+    "must have writ",
+    "writ required"
+   ],
+   "answer": "Yes. You need the writ in your possession to complete the transaction."
+  },
+  {
+   "q": "Can I pass the writ to someone else?",
+   "aliases": [
+    "transferable note",
+    "can it be traded",
+    "give writ away"
+   ],
+   "answer": "Yes. The note says the writ is transferable."
+  },
+  {
+   "q": "Does the writ explain payment?",
+   "aliases": [
+    "how much pay",
+    "payment details",
+    "what is the payment"
+   ],
+   "answer": "The note includes information about payment."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "craftsman's writ",
+  "customer",
+  "dark leather tunic",
+  "delivery",
+  "payment",
+  "transferable writ",
+  "tunic"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Dark Leather Tunic"
+ ]
+}

@@ -402,9 +402,14 @@ def language_files(locale):
         meta, lua, xml = addon_files(src)
     except (LoadError, OSError) as e:
         sys.exit(f"build-voice-packs: {folder}: {e}")
-    for field, expected in (("Interface", "16001"), ("Version", core), ("Dependencies", "LoreForever"),
-                            ("X-LoreForever-Pack", "lang"), ("X-LoreForever-Locale", locale)):
-        if expected is None or meta.get(field) != expected:
+    # A language pack released on its own carries <core>.<n> (scripts/publish-language-packs.sh): the add-on version
+    # it's built for, then its own release number. Built for this core is what counts.
+    built_for = ".".join(str(meta.get("Version") or "").split(".")[:3])
+    for field, expected, got in (("Interface", "16001", meta.get("Interface")), ("Version", core, built_for),
+                                 ("Dependencies", "LoreForever", meta.get("Dependencies")),
+                                 ("X-LoreForever-Pack", "lang", meta.get("X-LoreForever-Pack")),
+                                 ("X-LoreForever-Locale", locale, meta.get("X-LoreForever-Locale"))):
+        if expected is None or got != expected:
             sys.exit(f"build-voice-packs: {folder}.toc has {field} {meta.get(field)!r}, expected {expected!r}")
     index = addons / "LoreForever" / "Data" / "Index.lua"
     m = re.search(r'ns\.DB\s*=\s*\{\s*version\s*=\s*"([^"]+)"', index.read_text(encoding="utf-8"))
@@ -491,6 +496,9 @@ def check_packs(folders):
         except TransportError as e:
             sys.exit(f"build-voice-packs: {e}")
         # (A pack of complete stories only, MorePlaces/MorePeople, has its recordings under Audio/Transport/.)
+        # (LORE_EMPTY_PACKS: packs emptied on purpose, release-narration.sh --empty: the way back, with no recordings.)
+        if f in os.environ.get("LORE_EMPTY_PACKS", "").split():
+            continue
         if not (addons / f / "Clips.lua").is_file() or not any(p.is_file() for p in (addons / f / "Audio").rglob("*.*")):
             sys.exit(f"build-voice-packs: {f} has no Clips.lua or no recordings")
         # Audio lived in Git LFS until 10/18: a checkout of an older commit has pointer files instead of recordings.
@@ -566,7 +574,8 @@ for name, (folders, display) in DOWNLOADS.items():
         continue
     v = version(folders[0])
     for f in folders:
-        if core and version(f) != core:
+        # A pack released on its own carries <core>.<n> (scripts/release-narration.sh): built for this core is what counts.
+        if core and ".".join(version(f).split(".")[:3]) != core:
             sys.exit(f"build-voice-packs: {f}.toc has ## Version {version(f)}; released packs follow the core ({core})")
     path = out / (f"{name}-{v}.zip" if VERSIONED else f"{name}.zip")
     locale = re.search(r"_([a-z]{2}[A-Z]{2})(?:-complete)?$", name)
@@ -632,15 +641,16 @@ rows.sort(key=lambda r: RANK[r[0]])
 if ONLY and not any(set(fs) <= ONLY for fs, _ in DOWNLOADS.values()) and not any(set(p) <= ONLY for p in EDITION_PAIRS.values()):
     sys.exit(f"build-voice-packs: no download is made only of {', '.join(sorted(ONLY))} (each --pack is an addon/ folder)")
 # A contributor edition must remain a single paired artifact. Its validator also
-# rejects a lone component, mismatched pairing identity and unhydrated audio.
+# rejects a lone component, mismatched pairing identity and unhydrated audio. Editions ship on their own
+# (scripts/release-edition.sh, which names both folders with --pack), never in a build of every pack.
 if SIZES:
     for edition, edition_names in EDITION_PAIRS.items():   # contributor_bundle.py zips both folders as they are
         for f in edition_names:
-            if (addons / f).is_dir() and (not ONLY or set(edition_names) <= ONLY):
+            if (addons / f).is_dir() and ONLY and set(edition_names) <= ONLY:
                 print(f"size\t{EDITIONS[edition]['folder']}.zip\t{f}\t{zip_bytes(f, addons / f, sorted((addons / f).rglob('*')))}")
     sys.exit(0)
 for edition, edition_names in EDITION_PAIRS.items():
-    if any((addons / name).exists() for name in edition_names) and (not ONLY or set(edition_names) <= ONLY):
+    if any((addons / name).exists() for name in edition_names) and ONLY and set(edition_names) <= ONLY:
         command = [sys.executable, str(root / "scripts" / "contributor_bundle.py"),
                    "--addons", str(addons), "--out", str(out), "--edition", edition]
         if VERSIONED:

@@ -1,0 +1,79 @@
+{
+ "key": "quest:94298",
+ "type": "quest",
+ "name": "Craftsman's Writ: Swift Boots",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94298
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A customer requests one pair of Swift Boots through a transferable writ. You need the writ to complete the delivery and payment.",
+ "sections": [
+  {
+   "title": "A Customer's Request",
+   "body": "A faded note asks you to provide one pair of Swift Boots. It also mentions a delivery location and payment. The writ can be transferred, but you need it in your possession to complete the transaction.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the writ ask for?",
+   "aliases": [
+    "swift boots writ",
+    "what boots are requested"
+   ],
+   "answer": "The customer requests one pair of Swift Boots."
+  },
+  {
+   "q": "Where do I deliver the boots?",
+   "aliases": [
+    "delivery location",
+    "where to take boots"
+   ],
+   "answer": "The delivery location is marked on your map."
+  },
+  {
+   "q": "Do I need to keep the writ?",
+   "aliases": [
+    "need the writ",
+    "writ required"
+   ],
+   "answer": "Yes. You must have the writ with you to complete the transaction."
+  },
+  {
+   "q": "Can I give the writ to someone else?",
+   "aliases": [
+    "transfer writ",
+    "is it transferable"
+   ],
+   "answer": "Yes. The writ says it can be transferred."
+  },
+  {
+   "q": "Does the customer mention payment?",
+   "aliases": [
+    "boots payment",
+    "how much is payment"
+   ],
+   "answer": "The note mentions payment, but gives no amount."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "boots",
+  "craftsman's writ",
+  "delivery",
+  "payment",
+  "swift boots",
+  "transferable",
+  "writ"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Craftsman's Writ: Swift Boots"
+ ]
+}

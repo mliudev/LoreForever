@@ -1,0 +1,93 @@
+{
+ "key": "quest:96222",
+ "type": "quest",
+ "name": "Khan Hratha",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96222
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Umarak wants a Maraudine Key Fragment from Khan Hratha as leverage for a negotiation. You are asked to challenge Hratha at the highest peak in the Valley of Spears.",
+ "sections": [
+  {
+   "title": "Umarak\u2019s Concern",
+   "body": "War grips Desolace, yet the Maraudine centaur remain unchallenged in the Valley of Spears. Umarak fears that the other clans\u2019 inaction may leave them bolder and stir more unrest. He wants the fragment Khan Hratha carries as a bargaining piece, and asks you to bring it back.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the Maraudine Key Fragment?",
+   "aliases": [
+    "who wants the key fragment",
+    "umarak fragment"
+   ],
+   "answer": "Umarak wants Khan Hratha\u2019s Maraudine Key Fragment as a negotiation tactic."
+  },
+  {
+   "q": "Where are the Maraudine centaur?",
+   "aliases": [
+    "where maraudine",
+    "centaur valley"
+   ],
+   "answer": "The Maraudine centaur stand unchallenged in the Valley of Spears, in Desolace."
+  },
+  {
+   "q": "Why does Umarak want the fragment?",
+   "aliases": [
+    "why key fragment",
+    "what's it for"
+   ],
+   "answer": "Umarak wants the Maraudine Key Fragment as leverage for a negotiation."
+  },
+  {
+   "q": "What does Umarak fear?",
+   "aliases": [
+    "why worry about maraudine",
+    "what unrest"
+   ],
+   "answer": "Umarak fears the Maraudine may grow callous and stir further unrest if the other clans keep ignoring their presence."
+  },
+  {
+   "q": "What is Khan Hratha carrying?",
+   "aliases": [
+    "hratha item",
+    "what does khan have"
+   ],
+   "answer": "Khan Hratha possesses a Maraudine Key Fragment."
+  },
+  {
+   "q": "What does Umarak ask you to bring back?",
+   "aliases": [
+    "what to bring umarak",
+    "fragment request"
+   ],
+   "answer": "Umarak asks you to bring him the Maraudine Key Fragment."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "centaur",
+  "desolace",
+  "key fragment",
+  "khan hratha",
+  "maraudine",
+  "umarak",
+  "valley of spears",
+  "war horn"
+ ],
+ "related": [
+  "quest:1380",
+  "subzone:valley-of-spears",
+  "zone:desolace",
+  "topic:centaur"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Khan Hratha"
+ ]
+}

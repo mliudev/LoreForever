@@ -187,7 +187,7 @@ end
 -- The voice the old one-voice picker shows: the first ticked one in the list ("auto", a pack name), or "none".
 function Voice.Current()
   if ns.lang and ns.lang.edition then
-    return (S().editionVoiceOff or ns.lang.edition.unavailable) and "none" or ns.lang.edition.voiceName or "none"
+    return S().editionVoiceOff and "none" or ns.lang.edition.voiceName or "none"
   end
   local s = prefs()
   for _, k in ipairs(s.voiceOrder) do
@@ -268,7 +268,7 @@ function Voice.Unusable(name)
   if rec.kind == "edition-voice" or rec.kind == "edition-text" then
     return L["Select this contributor edition in Options and reload"], "EDITION"
   end
-  if rec.loadable == false then return ns.Packs.ReasonText(rec.reason) or L["Can't load"], rec.reason end
+  if rec.loadable == false then return ns.Packs.ReasonText(rec.reason, rec) or L["Can't load"], rec.reason end
   if rec.locale and not sameLanguage(rec.locale, readingLocale()) then
     return string.format(L["Recorded in %s"], rec.languageName or LANGUAGES[rec.locale] or rec.locale), "LANGUAGE"
   end
@@ -354,6 +354,50 @@ function Voice.UnusedLanguages()
       table.concat(list, ", "), shownName)
   end
   return words, table.concat(codes, ",")
+end
+
+-- Where a language's text pack downloads (the site's /download/lang/<locale>). Players type it, so keep it short.
+function Voice.TextPackLink(locale) return "loreforeverwow.com/download/lang/" .. locale end
+
+-- Whether any text pack of a language is installed (enabled or not): narration in it needs one to play, since a voice
+-- plays only while Lore Forever reads its language and the reading language falls back to English without it.
+local function hasTextPack(locale)
+  for _, t in ipairs(ns.Packs.List("lang")) do
+    if t.locale and sameLanguage(t.locale, locale) then return true end
+  end
+  return false
+end
+
+-- Narration installed in a language whose text pack isn't installed at all, so it can never play (pack layering check,
+-- 11/13: the first community German voice from /voices, alone, left the English narrator reading with no word, and
+-- Options said to choose German, which the Language list didn't offer). Voice.UnusedLanguages speaks only when the text
+-- pack is there.
+-- Returns one line per such language (what's missing, where to get it, what then), and their codes as one string (to
+-- say it once for that set), or nil. Reads only the add-on list: nothing loads.
+function Voice.MissingTextPacks()
+  if ns.lang and ns.lang.edition then return nil end
+  local shown, codes, seen = readingLocale(), {}, {}
+  for _, rec in ipairs(ns.Packs.List("voice")) do
+    local loc = rec.locale
+    if loc and rec.loadable ~= false and not rec.name:find("_Transport_", 1, true) and not sameLanguage(loc, shown)
+        and not sameLanguage(loc, "enUS") and not seen[loc:sub(1, 2)] and not hasTextPack(loc) then
+      seen[loc:sub(1, 2)] = true
+      codes[#codes + 1] = loc
+    end
+  end
+  if not codes[1] then return nil end
+  table.sort(codes)
+  local wanted = ns.Lang and ns.Lang.Wanted and ns.Lang.Wanted() or shown
+  local lines = {}
+  for i, loc in ipairs(codes) do
+    local name = LANGUAGES[loc] or loc
+    lines[i] = sameLanguage(wanted, loc)
+      and string.format(L["Narration in %s is installed, but it can't play without the %s language pack. Get it at %s, unzip it into Interface\\AddOns and type /reload."],
+        name, name, Voice.TextPackLink(loc))
+      or string.format(L["Narration in %s is installed, but it can't play without the %s language pack. Get it at %s, unzip it into Interface\\AddOns, then choose %s in Options > Language (or type /lore lang %s) and reload."],
+        name, name, Voice.TextPackLink(loc), name, loc)
+  end
+  return lines, table.concat(codes, ",")
 end
 
 -- Installed lands packs that add clips to a voice (## X-LoreForever-Extends: <name>), in name order. A lands pack is
@@ -491,7 +535,10 @@ function Voice.InstalledPacks()
     local other = it.locale and not sameLanguage(it.locale, readingLocale())
     it.checked = not other and data ~= nil
     if rec.loadable == false then
-      it.status = ns.Packs.ReasonText(rec.reason) or L["Can't load"]
+      it.status = ns.Packs.ReasonText(rec.reason, rec) or L["Can't load"]
+    elseif other and rec.kind == "voice" and not transport and not sameLanguage(it.locale, "enUS")
+        and not hasTextPack(it.locale) then   -- (the Language list can't offer it: Voice.MissingTextPacks)
+      it.status = string.format(L["Needs the %s language pack: %s"], it.language, Voice.TextPackLink(it.locale))
     elseif other then
       it.status = L["Choose this language in Options > Language and reload"]
     elseif not loaded then
@@ -504,7 +551,7 @@ function Voice.InstalledPacks()
       if s.voiceOff[key] then
         it.status = L["Narrator unticked"]
       elseif ns.Packs.Get(Voice.InLanguage(base)) and ns.Packs.Get(Voice.InLanguage(base)).loadable == false then
-        it.status = L["Loaded; lore narrator unavailable"] .. ": " .. (ns.Packs.ReasonText(ns.Packs.Get(Voice.InLanguage(base)).reason) or L["Can't load"])
+        it.status = L["Loaded; lore narrator unavailable"] .. ": " .. (ns.Packs.ReasonText(ns.Packs.Get(Voice.InLanguage(base)).reason, ns.Packs.Get(Voice.InLanguage(base))) or L["Can't load"])
       elseif not ns.Packs.Get(Voice.InLanguage(base)) then
         it.status = L["Loaded; lore narrator not installed"]
       elseif ns.Packs.Get(Voice.InLanguage(base)).locale and not sameLanguage(ns.Packs.Get(Voice.InLanguage(base)).locale, readingLocale()) then
@@ -621,7 +668,8 @@ end
 -- family alone, whatever that setting (where a newly installed voice goes in the list). A voice whose gender we can't
 -- tell (a community pack without ## X-LoreForever-Gender) belongs to every family, so a community narrator plays his
 -- stories and the Chronicler fills the rest. Language is a wall by construction: only packs in the language shown are
--- in the chain, and English fills in only with voiceFillLanguage (englishFill).
+-- in the chain, and nothing in another language fills in (Mike, 11/14: a story's voice and its text are the same
+-- language and words).
 local function familyOf(lead, s, strict)
   local want = lead and Voice.Gender(lead)
   return function(name)
@@ -629,45 +677,6 @@ local function familyOf(lead, s, strict)
     local g = Voice.Gender(name)
     return g == nil or g == want
   end
-end
-
--- "Let English narration fill in" (voiceFillLanguage): with Lore Forever in another language, a story that has no
--- recording in that language plays the English one, when it was recorded from the English text we have
--- (ns.DB.englishClipHash, kept by Lang.lua). Only the voices ticked in the list, in its order, each with its English
--- lands packs, and only in the family (fits). Returns { clip id -> { voice, paths } } for the clips nothing in the
--- language shown has.
-local function englishFill(s, ranked, fits)
-  local english = ns.DB and ns.DB.englishClipHash
-  if not (s.voiceFillLanguage and english) or sameLanguage(readingLocale(), "enUS") then return {} end
-  local voices = {}
-  for _, key in ipairs(s.voiceOrder) do
-    local base = key == AUTO and DEFAULT_PACK or key
-    local rec = not s.voiceOff[key] and ns.Packs.Get(base)
-    if rec and sameLanguage(rec.locale, "enUS") and rec.loadable ~= false and fits(base) and ns.Packs.Load(base) then
-      local packs = { base }
-      for _, r in ipairs(ns.Packs.List("voice")) do
-        if r.extends == base and sameLanguage(r.locale, "enUS") and ns.Packs.Load(r.name) then packs[#packs + 1] = r.name end
-      end
-      voices[#voices + 1] = { base, packs }
-    end
-  end
-  local out = {}
-  for id, h in pairs(english) do
-    -- Not under text a whole language pack shows in its own shape, or withholds (Lang.lua): it reads something else.
-    local e = ns.DB.entries[id:match("^(.-)#") or id]
-    if not ranked[id] and not (e and (e.hide or e.ownShape)) then
-      for _, v in ipairs(voices) do
-        for _, pack in ipairs(v[2]) do
-          local data = ns.Packs.data[pack]
-          if data and data.clips[id] == h then
-            out[id] = out[id] or { v[1], {} }
-            if out[id][1] == v[1] then table.insert(out[id][2], Voice.ClipPath(pack, id, data.ext)) end
-          end
-        end
-      end
-    end
-  end
-  return out
 end
 
 -- What one voice has: { rows = id -> { voice, its paths }, provided = its clips, current or not, have, stale }. Walks
@@ -741,6 +750,7 @@ function Voice.Refresh(sameClips)
   local edition = ns.lang and ns.lang.edition
   if edition then
     local valid = ns.Lang.ValidateEdition()
+    if not (ns.lang and ns.lang.edition) then return end   -- it couldn't be used: that refreshed the normal voices
     local active, served, provided, total = {}, {}, {}, 0
     for id, h in pairs(valid and not S().editionVoiceOff and ns.DB.clipHash or {}) do
       if not partOfStory(id) then total = total + 1 end
@@ -829,12 +839,6 @@ function Voice.Refresh(sameClips)
         ranked[id] = yes
       end
     end
-  end
-  -- English fill-ins go last: only clips nothing in the language shown has.
-  for id, v in pairs(englishFill(s, ranked, fits)) do
-    stats[v[1]] = stats[v[1]] or { have = 0, stale = 0, plays = 0 }
-    stats[v[1]].have = stats[v[1]].have + 1
-    ranked[id] = { v }
   end
   local mode, first = s.voiceGroup or "story", {}
   for id, list in pairs(ranked) do first[id] = list[1][1] end
@@ -1109,6 +1113,17 @@ local function noticeUnused()
   say(words)
 end
 
+-- Say once that narration is installed without its language's text pack, where to get it (Voice.MissingTextPacks),
+-- and again only when the set of those languages changes. Options > Installed packs keeps saying it on the pack's row.
+local function noticeMissingText()
+  if Voice.Current() == "none" then return end
+  local lines, key = Voice.MissingTextPacks()
+  if not lines then S().missingTextNoted = nil; return end   -- (put back without its text pack later: said again)
+  if S().missingTextNoted == key then return end
+  S().missingTextNoted = key
+  for _, line in ipairs(lines) do say(line) end
+end
+
 -- Say once per add-on version when a voice pack in use is from an older version and OUTDATED_AT or more of its
 -- stories no longer match their words, so they show as text (the PM's pick, LOR-673). CurseForge updates only the main
 -- download, so packs from the site, or the CurseForge app's separate projects, fall behind without a word: the top
@@ -1154,6 +1169,11 @@ local function outdatedIn(name, data)
   end
   return n
 end
+-- How many of a loaded pack's recordings show as text now (outdatedIn), for /lf qa; nil for a pack that isn't loaded.
+function Voice.OutdatedIn(name)
+  local data = ns.Packs.data[name]
+  return data and outdatedIn(name, data) or nil
+end
 function Voice.NoticeOutdated()
   local core = versionOf("LoreForever")
   if not core or S().outdatedNoted == core then return end
@@ -1188,6 +1208,7 @@ function Voice.Init()
     noticeLanguage()
   end
   noticeUnused()
+  noticeMissingText()
   if C_Timer and C_Timer.After then C_Timer.After(10, function() pcall(Voice.NoticeOutdated) end) end
   Voice.CheckSpoken()
   Voice.CheckQuestVoices()
@@ -1311,8 +1332,7 @@ function Voice.List()
     local have = 0
     for _ in pairs(Voice.Clips()) do have = have + 1 end
     return { { key = "edition:" .. edition.id, name = edition.voiceName, title = edition.name or edition.id,
-      label = edition.name or edition.id, on = not S().editionVoiceOff, have = have, stale = 0, plays = have,
-      why = edition.unavailable and L["Edition unavailable: repair both components and reload"] or nil } }
+      label = edition.name or edition.id, on = not S().editionVoiceOff, have = have, stale = 0, plays = have } }
   end
   local s, out = prefs(), {}
   for _, key in ipairs(s.voiceOrder) do
@@ -2088,8 +2108,9 @@ end
 --   - Its turn comes when that ends by itself: what played finishes, the fight ends, the window closes, the cutscene
 --     ends. Stopping narration yourself never starts it, and what you stopped stays stopped.
 --   - A quest giver pauses it and it carries on after from the piece it stopped in (UI.Admit, up to three times); a
---     cutscene, a dungeon pull or Willo holds it the same way (UI.Hold). One in a single recording starts over; one 90%
---     heard is done (the PM's pick B, LOR-673: Mike's streams kept losing stories to quest givers).
+--     cutscene or Willo holds it the same way (UI.Hold). One in a single recording starts over; one 90% heard is
+--     done (the PM's pick B, LOR-673: Mike's streams kept losing stories to quest givers). A dungeon pull ends one
+--     that came by itself instead: it goes to Earlier, never told again from the top (Mike's stream, 11/10).
 --   What leaves (LOR-1388: it waits in the one queue, where the player sees it, and leaves for Earlier saying why)
 --   - When its turn comes, it leaves if you've left its place (its zone, for a zone's story: "you left Westfall"),
 --     took a flight, or it waited ten minutes (Voice.LineCheck); a newer place's replaces one that never began.
@@ -2146,8 +2167,54 @@ local function talking()
   return false
 end
 
+-- A dungeon and the place outside it with its name (Shadowfang Keep in Silverpine and the keep itself, Wailing Caverns
+-- in the Barrens and the caverns) tell one story by themselves: on stream the keep's backstory played at its door and
+-- again a few steps on inside, nearly word for word (Mike, 11/10). Whichever started first by itself is the one; Listen
+-- plays either any time. Built once from the data: a dungeon and every place with its name (Ragefire Chasm has two doors
+-- in Orgrimmar's data), by the English name the data keeps (e.en): a language pack translates e.n, and the pairs would
+-- change with the game's language.
+local twins
+local function twinsOf(id)
+  if not twins then
+    twins = {}
+    local entries = ns.DB and ns.DB.entries or {}
+    local function norm(e)
+      local n = e.en or e.n
+      return type(n) == "string" and (ns.Engine.lower(n):gsub("^the ", ""):gsub("['’]", "")) or nil
+    end
+    local groups = {}
+    for k, e in pairs(entries) do
+      if e.t == "dungeon" or e.t == "raid" then
+        local n = norm(e)
+        if n then groups[n] = { k } end
+      end
+    end
+    for k, e in pairs(entries) do
+      local g = e.t == "subzone" and norm(e) and groups[norm(e)]
+      if g then g[#g + 1] = k end
+    end
+    for _, g in pairs(groups) do
+      if #g > 1 then for _, k in ipairs(g) do twins[k] = g end end
+    end
+  end
+  return twins[id]
+end
+
+-- Whether `id` started by itself already (this session), or was heard with "Skip what you've heard" on.
+local function startedBefore(id)
+  return id ~= nil and (Voice.autoSession[id] or (S().skipHeard ~= false and Voice.Heard(id))) and true or false
+end
+
+-- Whether another of `id`'s dungeon-and-door group was told already (twinsOf).
+local function twinTold(id)
+  for _, k in ipairs(twinsOf(id) or {}) do
+    if k ~= id and startedBefore(k) then return true end
+  end
+  return false
+end
+
 local function fresh(id)
-  if Voice.autoSession[id] then return false end
+  if Voice.autoSession[id] or twinTold(id) then return false end
   return S().skipHeard == false or not Voice.Heard(id)
 end
 
@@ -2287,8 +2354,8 @@ function Voice.LineCheck(it)
   end
   if it.how == "arrival" then
     if onTaxi() and not kept then return L["you took a flight"], true end   -- (the flight's own stories say where you are)
-    if not it.started and (Voice.autoSession[it.key] or (S().skipHeard ~= false and Voice.Heard(it.key))) then
-      return L["already heard"], true
+    if not it.started and (startedBefore(it.key) or twinTold(it.key)) then
+      return L["already heard"], true   -- (or its dungeon's or a door's story, told already: twinsOf)
     end
     if kept then return nil end   -- (where you are by its turn doesn't matter)
     -- One that began and was paused (a quest giver, a hold) carries on while you're still in its zone: the few steps to
@@ -2366,10 +2433,29 @@ end
 function Voice.OnArrive()
   if S().autoZone == false or Voice.OnDemand() then Voice.foundOnFlight = {} return end
   local token = {}
-  Voice.autoToken = token
+  Voice.autoToken, Voice.arrivalDue = token, token
   C_Timer.After(settle(), function()
+    if Voice.arrivalDue == token then Voice.arrivalDue = nil end
     if Voice.autoToken == token then autoPlay() end
   end)
+end
+
+-- Whether an arrival story is about to start: you've just arrived somewhere it plays by itself, and it waits out its
+-- settle (AUTO_SETTLE). Willo hears it as busy, as for a narration playing (Strip's busy flag, BetweenNarrations), so her
+-- reminders and chime-ins don't start in those seconds and get cut off by it (LOR-811: in Mike's QA her line about Dun
+-- Morogh and its arrival story began together).
+-- A new zone's arrival begins `delay` seconds after the zone changes (Core's arrive, then OnArrive's settle): it counts
+-- as due from the change. OnArrive takes it over; if it never comes (no zone yet), it lapses a moment after.
+function Voice.ArrivalSoon(delay)
+  if S().autoZone == false or Voice.OnDemand() then return end
+  local token = {}
+  Voice.arrivalDue = token
+  C_Timer.After((delay or 0) + 1, function() if Voice.arrivalDue == token then Voice.arrivalDue = nil end end)
+end
+
+function Voice.ArrivalPending()
+  if not Voice.arrivalDue or arrivalsOff() or onTaxi() or fighting() then return false end
+  return arrivalKey() ~= nil
 end
 
 -- A line that starts by itself (a recap, a passage) joins the queue (LOR-1388: they used to fall to a chat link when
@@ -2460,10 +2546,29 @@ function Voice.OnTalkOver()
   end)
 end
 
+-- A dungeon fight's hold lets go after the calm the next pull usually breaks (INSTANCE_SETTLE). The group's fight can
+-- outlast yours (the tank's next pack, a pull you died in): then it looks again each calm until no one in the group has
+-- fought for one, as the queue does (LineCheck). It used to look once and keep the hold, so every story after that
+-- waited, "Paused · fight", until a fight of yours ended or ten minutes passed, outside the dungeon too (LOR-1512: a
+-- CurseForge comment, 11/14, said stories in dungeons showed as text but weren't read aloud). Your own next fight takes
+-- over (OnCombatStart).
+local function releaseFight(token, sawFight)
+  local UI = ns.UI
+  if Voice.fightRelease ~= token or not (UI and UI.pl.holds.fight) or inCombat() then return end
+  if fighting() or sawFight then   -- (calm now after a fight seen: once more, so the calm lasts a whole settle)
+    local fight = fighting()
+    C_Timer.After(settle(), function() releaseFight(token, fight) end)
+  else
+    Voice.fightRelease = nil
+    UI.Release("fight")
+  end
+end
+
 function Voice.OnCombatOver()
-  -- A dungeon fight's hold lets go after the calm the next pull usually breaks (INSTANCE_SETTLE).
   if ns.UI and ns.UI.pl.holds.fight then
-    C_Timer.After(settle(), function() if not fighting() then ns.UI.Release("fight") end end)
+    local token = {}
+    Voice.fightRelease = token
+    C_Timer.After(settle(), function() releaseFight(token, false) end)
   end
   Voice.OnTalkOver()
 end
@@ -2476,6 +2581,7 @@ end
 local endedAt
 function Voice.BetweenNarrations()
   if endedAt ~= nil and now() - endedAt < TURN_GAP + 0.5 then return true end
+  if Voice.ArrivalPending() then return true end   -- (an arrival story settling: it starts in a moment)
   local UI = ns.UI
   local pl = UI and UI.pl
   if not pl or UI.speaking then return false end
@@ -3084,8 +3190,9 @@ function Voice.OnGameTalk()
 end
 
 -- A fight started (PLAYER_REGEN_DISABLED). In a group dungeon or raid, what started by itself stops, as for the game's
--- own talking: an arrival story waits for the next calm and plays from the top then, once (LOR-659). Elsewhere a fight
--- doesn't stop a story, and what you started yourself always plays on.
+-- own talking (LOR-659). A story that came by itself and was playing goes to Earlier (UI.Hold's fightCut: it never
+-- starts over at the next calm); one not begun yet waits for the calm; a quest giver's line carries on after it.
+-- Elsewhere a fight doesn't stop a story, and what you started yourself always plays on.
 function Voice.OnCombatStart()
   local UI = ns.UI
   if not (UI and UI.frame) or not inGroupInstance() then return end

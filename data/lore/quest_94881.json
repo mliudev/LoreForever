@@ -1,0 +1,84 @@
+{
+ "key": "quest:94881",
+ "type": "quest",
+ "name": "Curious Trinkets",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94881
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Ashe Amberhall in Farholde Keep asks you to learn about the cult in Sunnyglade by bringing her its enchanted charms. She believes the tokens can reveal something of the cult\u2019s magic.",
+ "sections": [
+  {
+   "title": "A Request at Farholde",
+   "body": "Ashe Amberhall wants to study the cult in Sunnyglade, where magical skill earns some members favor and tokens. She believes the charms carry cultist magic. So you are asked to bring her charms taken from Twilight Shadowmancers and Twilight Neophytes.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the charms?",
+   "aliases": [
+    "who wants charms",
+    "Ashe Amberhall",
+    "Ashe request"
+   ],
+   "answer": "Ashe Amberhall, at Farholde Keep, wants to examine the cult\u2019s charms."
+  },
+  {
+   "q": "Why does Ashe want the charms?",
+   "aliases": [
+    "why charms",
+    "what are charms for",
+    "Ashe wants tokens"
+   ],
+   "answer": "Ashe wants to learn more about the cult in Sunnyglade and believes its charms hold cultist magic."
+  },
+  {
+   "q": "What are Twilight Charms?",
+   "aliases": [
+    "twilight charms",
+    "cult tokens",
+    "magic charms"
+   ],
+   "answer": "They are tokens given to cult members with an affinity for magic, then imbued with cultist magic."
+  },
+  {
+   "q": "Who carries the charms?",
+   "aliases": [
+    "where get charms",
+    "shadowmancers charms",
+    "neophyte tokens"
+   ],
+   "answer": "Twilight Shadowmancers and Twilight Neophytes in Sunnyglade carry the charms Ashe seeks."
+  }
+ ],
+ "angles": [
+  {
+   "target": "class:Druid",
+   "text": "As a druid, Ashe sees you as someone who might help her investigate the cult in Sunnyglade."
+  }
+ ],
+ "keywords": [
+  "ashe amberhall",
+  "cult",
+  "curious trinkets",
+  "farholde keep",
+  "sunnyglade",
+  "twilight charms",
+  "twilight neophyte",
+  "twilight shadowmancer"
+ ],
+ "related": [
+  "subzone:sunnyglade",
+  "topic:druid"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Curious Trinkets"
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "key": "quest:6622",
+ "type": "quest",
+ "name": "Triage",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   6622
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "You are asked to save wounded soldiers with Triage Bandages. Their injuries leave little room for delay.",
+ "sections": [
+  {
+   "title": "The Wounded",
+   "body": "Critically Injured Soldiers succumb first, while Badly Injured Soldiers follow. Injured Soldiers endure the longest, so the order of care matters as you try to save fifteen patients before six die from their wounds.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What am I being asked to do?",
+   "aliases": [
+    "triage quest",
+    "what is triage",
+    "save the soldiers"
+   ],
+   "answer": "You are asked to use Triage Bandages to save fifteen patients before six die from their injuries."
+  },
+  {
+   "q": "Which soldiers are in the worst shape?",
+   "aliases": [
+    "who dies fastest",
+    "critical soldiers",
+    "worst injured"
+   ],
+   "answer": "Critically Injured Soldiers die the fastest, followed by Badly Injured Soldiers."
+  },
+  {
+   "q": "Who can wait longest?",
+   "aliases": [
+    "injured soldier order",
+    "who is last",
+    "least injured"
+   ],
+   "answer": "Injured Soldiers take the longest to die and should be tended after the more critically wounded."
+  },
+  {
+   "q": "What are Triage Bandages for?",
+   "aliases": [
+    "bandages use",
+    "triage bandages",
+    "how to save patients"
+   ],
+   "answer": "Triage Bandages are used to tend to the soldiers' wounds."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "badly injured",
+  "critically injured",
+  "injured soldiers",
+  "patients",
+  "soldiers",
+  "triage",
+  "triage bandages",
+  "wounds"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Triage"
+ ]
+}

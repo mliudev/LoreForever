@@ -1160,6 +1160,8 @@ local MODIFIER = { LSHIFT = true, RSHIFT = true, LCTRL = true, RCTRL = true, LAL
 local WILLO_KEYS = { BUTTON3 = true, BUTTON4 = true, BUTTON5 = true, ["`"] = true, CAPSLOCK = true, SCROLLLOCK = true,
   PAUSE = true, INSERT = true, HOME = true, PAGEUP = true, PAGEDOWN = true }
 for n = 5, 24 do WILLO_KEYS["F" .. n] = true end
+-- /lore key willo stays on single keys: a combination is set in Willo's own key row (LOR-1505; Mike, 11/14), and an
+-- older Willo doesn't hear a combination the add-on saved (the Architect's #4113 review).
 -- The mouse buttons the prompt takes for Willo's key (the side buttons and the middle one), as the game names them.
 local MOUSE_KEYS = { MiddleButton = "BUTTON3", Button4 = "BUTTON4", Button5 = "BUTTON5" }
 

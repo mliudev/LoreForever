@@ -1,0 +1,102 @@
+{
+ "key": "quest:7029",
+ "type": "quest",
+ "name": "Vyletongue Corruption",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   7029
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Vark Battlescar asks you to tend the corrupted plants in Maraudon. The orange crystal pool and Vylestem Vines are tied to the work.",
+ "sections": [
+  {
+   "title": "Vark\u2019s Request",
+   "body": "In Shadowprey Village, Vark Battlescar asks you to heal plants afflicted by corruption. You need a Coated Cerulean Vial from the orange crystal pool in Maraudon. The vial is meant for the Vylestem Vines, where corrupted Noxxious Scions emerge.",
+   "spoiler": 0
+  },
+  {
+   "title": "The Plants",
+   "body": "The Noxxious Scions are tied to healing the plants. After eight plants are healed, you can return to Vark Battlescar in Shadowprey Village.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does Vark Battlescar ask me to do?",
+   "aliases": [
+    "Vark's plant task",
+    "Vark request",
+    "what do I do for Vark"
+   ],
+   "answer": "Vark Battlescar asks you to heal eight plants afflicted by corruption in Maraudon, then return to him in Shadowprey Village."
+  },
+  {
+   "q": "Where do I get the Cerulean Vial?",
+   "aliases": [
+    "cerulean vial location",
+    "where vial",
+    "orange pool"
+   ],
+   "answer": "The Coated Cerulean Vial is filled at the orange crystal pool in Maraudon."
+  },
+  {
+   "q": "What are the Vylestem Vines for?",
+   "aliases": [
+    "vylestem vines",
+    "vines purpose",
+    "vine vial"
+   ],
+   "answer": "Using the Filled Cerulean Vial on the Vylestem Vines brings out a corrupted Noxxious Scion."
+  },
+  {
+   "q": "How are the plants healed?",
+   "aliases": [
+    "heal plants",
+    "plant corruption",
+    "noxxious scion plants"
+   ],
+   "answer": "The plants are healed by killing the corrupted Noxxious Scions that emerge from the Vylestem Vines."
+  },
+  {
+   "q": "How many plants need healing?",
+   "aliases": [
+    "plant count",
+    "how many plants",
+    "eight plants"
+   ],
+   "answer": "Eight plants need healing before you return to Vark Battlescar."
+  },
+  {
+   "q": "Where is Vark Battlescar?",
+   "aliases": [
+    "Vark location",
+    "where is Vark",
+    "Shadowprey Vark"
+   ],
+   "answer": "Vark Battlescar is in Shadowprey Village."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cerulean vial",
+  "corrupted plants",
+  "maraudon",
+  "noxxious scion",
+  "orange crystal pool",
+  "shadowprey village",
+  "vark battlescar",
+  "vylestem vines",
+  "vyletongue corruption"
+ ],
+ "related": [
+  "subzone:shadowprey-village"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Vyletongue Corruption"
+ ]
+}

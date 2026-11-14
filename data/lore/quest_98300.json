@@ -1,0 +1,119 @@
+{
+ "key": "quest:98300",
+ "type": "quest",
+ "name": "Word to Ironforge",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   98300
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Howin asks you to carry his letter to King Magni Bronzebeard in Ironforge. The report concerns trouble in the Wetlands and may call for action on Ironforge\u2019s northern borders.",
+ "sections": [
+  {
+   "title": "A King\u2019s Notice",
+   "body": "King Magni Bronzebeard receives you in Ironforge, where Howin\u2019s missive brings word of events in the Wetlands. Magni says he knows the Wildhammer well, though they do not name him their sovereign. Their relations have improved, and he points to the Thandol Span as a sign of that change. What Howin reports may require preparation along Ironforge\u2019s northern borders.",
+   "spoiler": 0
+  },
+  {
+   "title": "Northern Borders",
+   "body": "Magni warns that Grim Batol has a deep and bloody history, and that its position matters strategically. He thanks you for helping the Wildhammer in the Wetlands and the Alliance in Menethil Harbor. The report now rests with the king as he considers what action the northern borders may demand.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is Howin sending the letter to?",
+   "aliases": [
+    "howin letter",
+    "who gets the missive",
+    "word to ironforge"
+   ],
+   "answer": "Howin asks you to deliver his missive to King Magni Bronzebeard in Ironforge."
+  },
+  {
+   "q": "What does Magni say about the Wildhammer?",
+   "aliases": [
+    "magni and wildhammer",
+    "wildhammer relations",
+    "does magni rule them"
+   ],
+   "answer": "Magni says he knows the Wildhammer well, though they do not call him their sovereign. He says their relations have improved."
+  },
+  {
+   "q": "What does Magni say about the Thandol Span?",
+   "aliases": [
+    "thandol span",
+    "span and magni",
+    "wildhammer bridge"
+   ],
+   "answer": "Magni points to the Thandol Span as a sign of improved relations with the Wildhammer."
+  },
+  {
+   "q": "Why does Magni care about Grim Batol?",
+   "aliases": [
+    "grim batol importance",
+    "grim batol history",
+    "why northern borders"
+   ],
+   "answer": "Magni says Grim Batol has a deep, bloody history and strategic significance."
+  },
+  {
+   "q": "Where can you travel from to reach Ironforge?",
+   "aliases": [
+    "how to ironforge",
+    "route to ironforge",
+    "dun algaz menethil"
+   ],
+   "answer": "Howin says you can travel through Dun Algaz or fly from Menethil Harbor to Ironforge."
+  },
+  {
+   "q": "What does Magni thank you for?",
+   "aliases": [
+    "magni thanks",
+    "help in wetlands",
+    "menethil harbor help"
+   ],
+   "answer": "Magni thanks you for helping the Wildhammer in the Wetlands and the Alliance in Menethil Harbor."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Alliance",
+   "text": "As an Alliance traveler, you carry news from the Wetlands to King Magni, who says the report may require action on the northern borders."
+  },
+  {
+   "target": "race:Dwarf",
+   "text": "As a dwarf, you bring Magni a report concerning Grim Batol, whose strategic importance he recognizes."
+  }
+ ],
+ "keywords": [
+  "dun algaz",
+  "grim batol",
+  "howin",
+  "howin's missive",
+  "ironforge",
+  "magni bronzebeard",
+  "menethil harbor",
+  "thandol span",
+  "wetlands",
+  "wildhammer"
+ ],
+ "related": [
+  "quest:631",
+  "zone:ironforge",
+  "zone:wetlands",
+  "subzone:thandol-span",
+  "subzone:grim-batol",
+  "subzone:menethil-harbor",
+  "subzone:dun-algaz",
+  "npc:magni-bronzebeard"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Word to Ironforge"
+ ]
+}

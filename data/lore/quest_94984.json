@@ -1,0 +1,76 @@
+{
+ "key": "quest:94984",
+ "type": "quest",
+ "name": "Tome of Twilight",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94984
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "The Twilight forces persist, and a clue points north of Sunnyglade. You are asked to find Nar'gurk and recover information from his stronghold.",
+ "sections": [
+  {
+   "title": "A Trail North",
+   "body": "The Twilight forces still come from somewhere unknown, so you are sent to Krol'dok Stronghold. A Twilight creature mentioned shadow magic and an ogre named Nar'gurk there. You are asked to kill him and recover any valuable information that may explain where the forces come from.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What am I looking for?",
+   "aliases": [
+    "nar gurk",
+    "tome info",
+    "twilight stronghold"
+   ],
+   "answer": "You are looking for Nar'gurk in Krol'dok Stronghold and any valuable information there."
+  },
+  {
+   "q": "Where is Krol'dok Stronghold?",
+   "aliases": [
+    "where's the stronghold",
+    "kroldok location"
+   ],
+   "answer": "Krol'dok Stronghold is north of Sunnyglade."
+  },
+  {
+   "q": "Why am I looking for Nar'gurk?",
+   "aliases": [
+    "why nar gurk",
+    "twilight clue"
+   ],
+   "answer": "A Twilight creature mentioned Nar'gurk and shadow magic while being asked where its former masters came from."
+  },
+  {
+   "q": "What information might be there?",
+   "aliases": [
+    "what info",
+    "tome of twilight info"
+   ],
+   "answer": "The information sought may help explain where the persistent Twilight forces are coming from."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "krol'dok stronghold",
+  "nar'gurk",
+  "shadow magic",
+  "sunnyglade",
+  "tome of twilight",
+  "twilight",
+  "twilight forces"
+ ],
+ "related": [
+  "quest:115",
+  "subzone:sunnyglade",
+  "npc:thrall"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Tome of Twilight"
+ ]
+}

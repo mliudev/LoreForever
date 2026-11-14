@@ -1,0 +1,72 @@
+{
+ "key": "quest:94843",
+ "type": "quest",
+ "name": "From Seed to Sprout",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94843
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Halligan Turner has made a planting kit from the fertilizer you supplied. He asks you to plant saplings around the lumber camp\u2019s work sites.",
+ "sections": [
+  {
+   "title": "A New Planting",
+   "body": "Halligan Turner has gathered seeds while the lumber crew works among the trees. With the fertilizer you brought, he has prepared a kit for planting them as saplings. You are asked to find places around the work sites to put them in the ground.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who made the planting kit?",
+   "aliases": [
+    "who made kit",
+    "Halligan kit"
+   ],
+   "answer": "Halligan Turner made the planting kit using the fertilizer you supplied."
+  },
+  {
+   "q": "What is in the kit?",
+   "aliases": [
+    "kit contents",
+    "what kit"
+   ],
+   "answer": "The kit is for planting seeds gathered from the trees and growing them into saplings."
+  },
+  {
+   "q": "Where should I plant the saplings?",
+   "aliases": [
+    "where plant",
+    "sapling spots"
+   ],
+   "answer": "Halligan asks you to plant them around the lumber camp\u2019s work sites."
+  },
+  {
+   "q": "Why are they planting saplings?",
+   "aliases": [
+    "why saplings",
+    "planting reason"
+   ],
+   "answer": "The lumber crew cuts trees and grows new ones in their place."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "fertilizer",
+  "from seed to sprout",
+  "halligan turner",
+  "lumber camp",
+  "planting kit",
+  "saplings",
+  "seeds",
+  "work sites"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: From Seed to Sprout"
+ ]
+}

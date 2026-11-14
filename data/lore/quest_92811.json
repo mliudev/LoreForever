@@ -1,0 +1,92 @@
+{
+ "key": "quest:92811",
+ "type": "quest",
+ "name": "Economic Warfare",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   92811
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "A Magram centaur asks you to bring gold and silver to Desolace. The clans value carved wood, while the Magram see use in your kind\u2019s currency.",
+ "sections": [
+  {
+   "title": "A Different Bargain",
+   "body": "The Magram Clan\u2019s speaker tells you that the centaur clans trade carved wood bearing tales of their glory and conquests. Only the most level-headed among them may bargain with other clans, and such trade offers a reprieve from battle. The Magram ask you to bring gold and silver, though those metals hold no value for them.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What does the Magram Clan want?",
+   "aliases": [
+    "magram wants what",
+    "gold silver trade"
+   ],
+   "answer": "The Magram Clan asks you to bring gold and silver."
+  },
+  {
+   "q": "What do the centaur clans trade?",
+   "aliases": [
+    "centaur barter",
+    "what centaur trade"
+   ],
+   "answer": "The centaur clans barter with intricately carved wood that tells of a centaur\u2019s glory and conquests."
+  },
+  {
+   "q": "Why do the centaur trade carved wood?",
+   "aliases": [
+    "wood trade why",
+    "centaur carved wood"
+   ],
+   "answer": "Carved wood is the centaur clans\u2019 barter, and the carvings share tales of a centaur\u2019s glory and conquests."
+  },
+  {
+   "q": "Who may trade with other centaur clans?",
+   "aliases": [
+    "who bargains between clans",
+    "centaur trade permitted"
+   ],
+   "answer": "Only the most level-headed centaur are permitted to engage with other clans."
+  },
+  {
+   "q": "What does trade mean to the centaur?",
+   "aliases": [
+    "trade and battle",
+    "centaur reprieve"
+   ],
+   "answer": "Trade is the only reprieve from battle for the centaur clans."
+  },
+  {
+   "q": "Are gold and silver valuable to the Magram?",
+   "aliases": [
+    "magram gold value",
+    "centaur value silver"
+   ],
+   "answer": "No. The Magram regard gold and silver as worthless, just as your kind regards their totems."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "barter",
+  "carved wood",
+  "centaur",
+  "desolace",
+  "economic warfare",
+  "gold",
+  "magram clan",
+  "silver",
+  "totems"
+ ],
+ "related": [
+  "zone:desolace",
+  "topic:centaur"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Economic Warfare"
+ ]
+}

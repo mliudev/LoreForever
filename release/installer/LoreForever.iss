@@ -865,7 +865,24 @@ var
   Toc: AnsiString;
 begin
   Result := False;
-  if HasSwitch('/REDOWNLOAD') or not FileExists(ReceiptFile()) then Exit;
+  if HasSwitch('/REDOWNLOAD') then Exit;
+  // A pack released on its own for this add-on (## Version: {#AppVersion}.<n>, docs/releases.md) is newer than the
+  // copy Setup carries: it stays.
+  F := TStringList.Create;
+  try
+    StringChangeEx(FolderNames, ';', #13#10, True);
+    F.Text := FolderNames;
+    Result := F.Count > 0;
+    for K := 0 to F.Count - 1 do
+      if Result then begin
+        Result := LoadStringFromFile(AddOnsDir() + '\' + F[K] + '\' + F[K] + '.toc', Toc);
+        Result := Result and (Pos('## Version: {#AppVersion}.', Toc) > 0);
+      end;
+  finally
+    F.Free;
+  end;
+  StringChangeEx(FolderNames, #13#10, ';', True);
+  if Result or not FileExists(ReceiptFile()) then Exit;
   L := TStringList.Create;
   F := TStringList.Create;
   try

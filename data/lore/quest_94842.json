@@ -1,0 +1,83 @@
+{
+ "key": "quest:94842",
+ "type": "quest",
+ "name": "Unsavory Plant Food",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94842
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Halligan Turner needs ingredients for the fertilizer used by his lumber crew. You can help gather crawfish shells, manure, and Mudfin murloc heads.",
+ "sections": [
+  {
+   "title": "Gathering Ingredients",
+   "body": "Halligan Turner says the lumber crew makes its own fertilizer from crawfish shells, manure, and murloc heads. The manure comes from a ranch to the south, while the shells and heads lie in the river. He needs four Jumbo Crawfish Shells, four pieces of Fresh Manure, and eight Mudfin Murloc Heads before planting can begin.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "What ingredients does Halligan need?",
+   "aliases": [
+    "fertilizer ingredients",
+    "what does Halligan need"
+   ],
+   "answer": "Halligan needs four Jumbo Crawfish Shells, four pieces of Fresh Manure, and eight Mudfin Murloc Heads."
+  },
+  {
+   "q": "What is the fertilizer made from?",
+   "aliases": [
+    "what's in the fertilizer",
+    "plant food ingredients"
+   ],
+   "answer": "The lumber crew's fertilizer uses crawfish shells, manure, and murloc heads in a one-to-one-to-two ratio."
+  },
+  {
+   "q": "Where does the manure come from?",
+   "aliases": [
+    "manure location",
+    "where get manure"
+   ],
+   "answer": "Halligan says the manure comes from a ranch to the south."
+  },
+  {
+   "q": "Where are the shells and murloc heads?",
+   "aliases": [
+    "crawfish shells location",
+    "mudfin heads where"
+   ],
+   "answer": "Halligan says you need to wade into the river for the shells and murloc heads."
+  },
+  {
+   "q": "Who is asking for these ingredients?",
+   "aliases": [
+    "who needs plant food",
+    "Halligan Turner"
+   ],
+   "answer": "Halligan Turner asks for the ingredients to make fertilizer for the lumber crew."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "crawfish shells",
+  "fertilizer",
+  "fresh manure",
+  "halligan turner",
+  "jumbo crawfish shells",
+  "lumber",
+  "mudfin murloc heads",
+  "plant food"
+ ],
+ "related": [
+  "topic:murloc",
+  "item:murloc-head"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Unsavory Plant Food"
+ ]
+}

@@ -247,7 +247,12 @@ local function busy()
   local UI = ns.UI
   if not UI then return false end
   local ok, playing = pcall(UI.IsBusy)
-  return ok and playing and true or false
+  if ok and playing then return true end
+  -- An arrival story about to start counts too: Willo's reminders wait on this flag (LOR-811).
+  local pending = ns.Voice and ns.Voice.ArrivalPending
+  if not pending then return false end
+  local okA, due = pcall(pending)
+  return okA and due and true or false
 end
 
 -- What a narration is doing (bytes 36-40): the flags byte with the time's high bits, the time's low byte and the
@@ -885,26 +890,31 @@ local function townHere()
   return ns.Context.Usable(sub) and type(sub) == "string" and ns.Towns and ns.Towns[sub] and sub or nil
 end
 
-local gapRetry = false
-local arrive
+-- Rooms inside a dungeon or a raid (LOR-1468; Mike, 11/14: "Yes, show it"): walking into a new room glances too, so
+-- Willo sees the room a boss stands in. Every named room by the same rule; the add-on knows nothing of bosses or
+-- reminders. Rooms keep their own clock and never touch lastGlance, so nothing changes outside dungeons: each room
+-- glances at most once per GLANCE_GAP (no flicker along its edge), any two glances are ROOM_SPACE apart (one entered
+-- inside that glances when it ends, if they're still there), and a room entered in a fight never glances, then or after
+-- (a glance after the fight could come after its boss is dead).
+local ROOM_SPACE = 5
+local roomGlanced, lastShow = {}, -math.huge   -- room name -> its last glance; any glance at all
+local roomNow, roomFought, roomRetry = nil, false, false
 
-function Strip.Glance()
-  local t = now()
-  if glance or not Strip.On() then return end
-  if t - lastGlance < GLANCE_GAP then
-    -- An arrival inside the gap (a new zone, then its first town a few steps on) glances once, when the gap ends, if
-    -- they're still there.
-    if not gapRetry and C_Timer and C_Timer.After then
-      gapRetry = true
-      local where = townHere() or try(GetZoneText)
-      C_Timer.After(GLANCE_GAP - (t - lastGlance) + 0.05, function()
-        gapRetry = false
-        if (townHere() or try(GetZoneText)) == where then arrive() end
-      end)
-    end
-    return
-  end
-  lastGlance = t
+local function inFight() return yes(try(InCombatLockdown)) or yes(try(UnitAffectingCombat, "player")) end
+
+-- The room they're in, inside a 5-player dungeon or a raid only (never a battleground or an arena).
+local function roomHere()
+  local inside, kind = try(IsInInstance)
+  if not yes(inside) or (kind ~= "party" and kind ~= "raid") then return nil end
+  local sub = try(GetSubZoneText)
+  return ns.Context.Usable(sub) and type(sub) == "string" and sub ~= "" and sub or nil
+end
+
+-- The sky up for FLASH seconds, faded in and out; a town's glance and a room's look the same. Kept up, nothing flashes.
+local function show(t)
+  lastShow = t
+  local room = roomHere()
+  if room then roomGlanced[room] = t end   -- entering the dungeon glances for the room they arrive in
   local g = { from = t, till = t + FLASH, own = not Strip.Showing() }
   glance = g
   if g.own and not moment then ns.Sky.SetFade(0) end
@@ -919,6 +929,53 @@ function Strip.Glance()
   end
 end
 
+local function roomGlance()
+  local room = roomHere()
+  if not room or room ~= roomNow or roomFought or not Strip.On() or inFight() then return end
+  local t = now()
+  if t - (roomGlanced[room] or -math.huge) < GLANCE_GAP then return end
+  if glance or t - lastShow < ROOM_SPACE then
+    if not roomRetry and C_Timer and C_Timer.After then
+      roomRetry = true
+      C_Timer.After(math.max(0, lastShow + ROOM_SPACE - t) + 0.05, function() roomRetry = false; roomGlance() end)
+    end
+    return
+  end
+  show(t)
+end
+
+local function roomArrival()
+  local room = roomHere()
+  if room == roomNow then return end
+  roomNow, roomFought = room, inFight()
+  roomGlance()
+end
+
+local gapRetry = false
+local arrive
+
+function Strip.Glance()
+  local t = now()
+  if glance or not Strip.On() then return end
+  local room = roomHere()
+  if room and t - (roomGlanced[room] or -math.huge) < GLANCE_GAP then return end   -- that room's glance told her
+  if t - lastGlance < GLANCE_GAP then
+    -- An arrival inside the gap (a new zone, then its first town a few steps on) glances once, when the gap ends, if
+    -- they're still there.
+    if not gapRetry and C_Timer and C_Timer.After then
+      gapRetry = true
+      local where = townHere() or try(GetZoneText)
+      C_Timer.After(GLANCE_GAP - (t - lastGlance) + 0.05, function()
+        gapRetry = false
+        if (townHere() or try(GetZoneText)) == where then arrive() end
+      end)
+    end
+    return
+  end
+  lastGlance = t
+  show(t)
+end
+
 local function glanceFrame(t)
   local g = glance
   if g and g.own and not moment and t < g.till then
@@ -929,7 +986,7 @@ end
 -- Not on a flight, and not in a fight (an arrival in one glances when it ends).
 function arrive()
   if yes(try(UnitOnTaxi, "player")) then return end
-  if yes(try(InCombatLockdown)) or yes(try(UnitAffectingCombat, "player")) then arrivedInFight = true; return end
+  if inFight() then arrivedInFight = true; return end
   Strip.Glance()
 end
 
@@ -970,12 +1027,14 @@ local function onArrival(_, event)
       if inTown or not yes(try(IsResting)) then return end
       return arrive()
     end
+    roomArrival()   -- a new room inside a dungeon or a raid
     if inTown and yes(try(IsResting)) then return end   -- into its inn, still in town
     inTown = nil
     return
   end
   -- Entering a rest area outside a town they already arrived in (a capital), or a new zone.
   if event == "PLAYER_UPDATE_RESTING" and (inTown or not yes(try(IsResting))) then return end
+  if event == "ZONE_CHANGED_NEW_AREA" then roomNow, roomFought = roomHere(), inFight() end   -- its glance is the room's
   arrive()
 end
 
@@ -989,6 +1048,25 @@ local function listenForArrivals(on)
     pcall(on and arrivals.RegisterEvent or arrivals.UnregisterEvent, arrivals, e)
   end
 end
+
+-- A character's first login with Lore Forever (no saved record of it yet, Journey.FirstLogin): Willo has no save to
+-- know it by, so a question typed in her window went out as the last character saved (LOR-1498). The sky glances once
+-- it's in the world, as on an arrival, after the race's opening cinematic if one plays (the sky can't show under it).
+-- Known characters and /reload stay dark (the Design Lead, 11/14: shown only when needed); a glance this load already
+-- told her.
+local firstLook = false
+local function firstLoginLook()
+  if firstLook or not (ns.Journey and ns.Journey.FirstLogin and ns.Journey.FirstLogin()) then return end
+  if yes(try(InCinematic)) then return end   -- CINEMATIC_STOP looks again
+  firstLook = true
+  if lastGlance > -math.huge then return end
+  arrive()
+end
+local firstLogin = CreateFrame("Frame")
+for _, e in ipairs({ "PLAYER_ENTERING_WORLD", "CINEMATIC_STOP" }) do pcall(firstLogin.RegisterEvent, firstLogin, e) end
+firstLogin:SetScript("OnEvent", function()
+  if C_Timer and C_Timer.After then C_Timer.After(2, function() ns.Guard(firstLoginLook) end) end
+end)
 
 local function onEvent(_, event, unit)
   if event == "PLAYER_MONEY" then purseDue = true end
@@ -1232,8 +1310,34 @@ end
 -- a login, once the bindings have settled (TAKEN_AFTER: the 12 s try, after Core.lua's 10 s repair), with the way out
 -- (LOR-528); not when the player has given Ask Willo a key of their own, which Willo follows. Saying so never changes
 -- a binding: only a key the player presses does (Hooks.KeyPrompt).
+-- Either key can be a combination, in the game's order ("CTRL-T", "ALT-CTRL-SHIFT-T", "CTRL-BUTTON4"): SetBinding
+-- takes it as it is (LOR-1505).
+-- "Use anyway" (LOR-1505; Mike, 11/14: the player must never lose their own binding): with talkKeyForce or
+-- targetKeyForce in Willo's Data.lua, a key the game already uses gets her action as an override binding, owned by
+-- `overrider`. It sits on top of the player's own binding, is never saved, and is gone when Lore Forever is off, the
+-- key changes or the yes is taken back; their F8 opens their bags again. A plain SetBinding there would move their key
+-- for good at the next SaveBindings (Key Bindings' Okay, /lore key, Core.lua's repair). A client without override
+-- bindings keeps today's behaviour: not bound, the key stays theirs, and the talk key's line says so.
 local ASK, ASK_TARGET, SETTLE, TAKEN_AFTER = "LOREFOREVER_ASKWILLO", "LOREFOREVER_ASKTARGET", 60, 11
 local loginAt, toldTaken
+local overrider = CreateFrame("Frame")
+local overridden = {}   -- action -> the key it sits on as an override, this session
+
+local function unoverride(action)
+  local key = overridden[action]
+  if not key then return end
+  pcall(SetOverrideBinding, overrider, false, key, nil)
+  overridden[action] = nil
+end
+
+local function override(key, action)
+  if type(SetOverrideBinding) ~= "function" then return nil end
+  if overridden[action] and overridden[action] ~= key then unoverride(action) end
+  if pcall(SetOverrideBinding, overrider, false, key, action) then
+    overridden[action] = key
+    return key
+  end
+end
 
 -- What a key does in the game, in the game's words ("Toggle Bag 4", a macro's or spell's name), or nil.
 local function actionName(action)
@@ -1266,16 +1370,25 @@ local function tellTaken(key, action)
   DEFAULT_CHAT_FRAME:AddMessage(ns.Theme.CHAT_PREFIX .. line)
 end
 
--- `key` bound to `action` where the game has nothing on it (S()[mine]: the key offered for it before). An older key
--- offered for it moves to this one, unless the player picked that one (S()[own]). Returns the key once it's `action`,
--- or nil and what the game does with the key instead.
-local function offer(key, action, mine, own)
-  local current = try(GetBindingAction, key)
+-- `key` bound to `action` where the game has nothing on it (S()[mine]: the key offered for it before), or, with `force`
+-- (Willo's "Use anyway"), as an override over what the player has on it. An older key offered for it moves to this
+-- one, unless the player picked that one (S()[own]). Returns the key once it's `action`, or nil and what the game does
+-- with the key instead.
+local function offer(key, action, mine, own, force)
+  local current = try(GetBindingAction, key, true)   -- override bindings too: a key taken anyway reads as ours
   if current == action then return key end
-  if current ~= "" and current ~= nil then return nil, current end
-  if S()[mine] == key and loginAt and now() - loginAt > SETTLE then return end   -- they cleared it: theirs
+  local taken = current ~= "" and current ~= nil
+  if taken and not (force and type(SetOverrideBinding) == "function") then return nil, current end
+  if not taken and S()[mine] == key and loginAt and now() - loginAt > SETTLE then return end   -- they cleared it
   local old = type(GetBindingKey) == "function" and try(GetBindingKey, action) or nil
-  if old and old ~= key and old == S()[mine] and old ~= (own and S()[own]) then pcall(SetBinding, old) end
+  if old and old ~= key and old == S()[mine] and old ~= (own and S()[own]) then
+    pcall(SetBinding, old)
+    S()[mine] = nil
+  end
+  if taken then
+    if override(key, action) then return key end
+    return nil, current
+  end
   local ok, bound = pcall(SetBinding, key, action)
   if ok and bound ~= false then
     S()[mine] = key     -- never saved: offered again at the next login (Core.lua)
@@ -1298,6 +1411,11 @@ function Strip.OfferAskKey()
   local function named(v) return type(v) == "string" and v ~= "" and v or nil end
   local key = type(data) == "table" and named(data.talkKey) or nil
   local target = type(data) == "table" and named(data.targetKey) or nil
+  local force = key and data.talkKeyForce == true
+  local targetForce = target and target ~= key and data.targetKeyForce == true
+  -- An override no longer wanted (the key changed, or the yes was taken back) goes, so that key is theirs again.
+  if overridden[ASK] and not (force and overridden[ASK] == key) then unoverride(ASK) end
+  if overridden[ASK_TARGET] and not (targetForce and overridden[ASK_TARGET] == target) then unoverride(ASK_TARGET) end
   local was = S().askTargetKey
   if was and was ~= target and try(GetBindingAction, was) == ASK_TARGET then
     pcall(SetBinding, was)
@@ -1306,10 +1424,10 @@ function Strip.OfferAskKey()
   local bound
   if key then
     local action
-    bound, action = offer(key, ASK, "askWilloKey", "askWilloOwn")
+    bound, action = offer(key, ASK, "askWilloKey", "askWilloOwn", force)
     if action then tellTaken(key, action) end
   end
-  if target and target ~= key then offer(target, ASK_TARGET, "askTargetKey") end
+  if target and target ~= key then offer(target, ASK_TARGET, "askTargetKey", nil, targetForce) end
   return bound
 end
 

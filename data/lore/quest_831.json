@@ -1,0 +1,98 @@
+{
+ "key": "quest:831",
+ "type": "quest",
+ "name": "The Admiral's Orders",
+ "era": "classic",
+ "zone": "durotar",
+ "meta": {
+  "ids": [
+   831
+  ],
+  "level": "7",
+  "start": "Gar'Thok",
+  "end": "Nazgrel",
+  "previous": "The Admiral's Orders",
+  "wiki": null,
+  "next": "",
+  "prev_q": [
+   "The Admiral's Orders"
+  ]
+ },
+ "summary": "Gar'Thok sends you to carry Admiral Proudmoore's Orders to Nazgrel in Orgrimmar. The orders raise fears of another human landing on Horde shores.",
+ "sections": [
+  {
+   "title": "A Warning for Nazgrel",
+   "body": "Gar'Thok in Durotar fears that Admiral Proudmoore's plans still threaten the Horde. He sends you with the admiral's orders to Nazgrel in Thrall's chamber in Orgrimmar.",
+   "spoiler": 0
+  },
+  {
+   "title": "In Thrall's Chamber",
+   "body": "Nazgrel receives the orders and says the Warchief must hear of the matter at once. He thanks you for serving the Horde honorably, then turns to counsel Thrall.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who sends me to Orgrimmar?",
+   "aliases": [
+    "who gave me this",
+    "Gar'Thok orders"
+   ],
+   "answer": "Gar'Thok sends you from Durotar to deliver Admiral Proudmoore's Orders to Nazgrel."
+  },
+  {
+   "q": "Who should receive the orders?",
+   "aliases": [
+    "deliver to who",
+    "Nazgrel orders"
+   ],
+   "answer": "Nazgrel is to receive Admiral Proudmoore's Orders in Thrall's chamber in Orgrimmar."
+  },
+  {
+   "q": "Why are the orders urgent?",
+   "aliases": [
+    "why urgent",
+    "human threat"
+   ],
+   "answer": "Gar'Thok fears that Admiral Proudmoore's plans may bring more of his men to Horde shores."
+  },
+  {
+   "q": "What does Nazgrel do with the warning?",
+   "aliases": [
+    "what does Nazgrel do",
+    "counsel Thrall"
+   ],
+   "answer": "Nazgrel says he must counsel Thrall about the matter."
+  }
+ ],
+ "angles": [
+  {
+   "target": "faction:Horde",
+   "text": "As a member of the Horde, you carry a warning that Gar'Thok believes concerns the safety of Horde shores."
+  }
+ ],
+ "keywords": [
+  "admiral proudmoore",
+  "gar'thok",
+  "horde",
+  "human landing",
+  "nazgrel",
+  "orders",
+  "orgrimmar",
+  "thrall"
+ ],
+ "related": [
+  "quest:830",
+  "item:admiral-proudmoore-s-orders",
+  "npc:gar-thok",
+  "zone:durotar",
+  "zone:orgrimmar",
+  "topic:horde",
+  "npc:thrall"
+ ],
+ "style": 2,
+ "attribution": [
+  "Classic quest text: The Admiral's Orders",
+  "In-game quest text: The Admiral's Orders"
+ ]
+}

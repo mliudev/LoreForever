@@ -579,6 +579,9 @@ function Sky.OptionsRow(parent, anchor)
     return b
   end
   local move = button(L["Move things on screen..."], 190)
+  local fs = move.GetFontString and move:GetFontString()
+  local tw = fs and fs.GetStringWidth and fs:GetStringWidth()
+  if type(tw) == "number" and tw + 32 > 190 then move:SetWidth(tw + 32) end   -- a longer translation (LOR-763)
   move:SetPoint("TOPLEFT", row, "TOPLEFT", 0, 0)
   move:SetScript("OnClick", function() ns.Move.Toggle() end)
   move:SetScript("OnEnter", function(self)

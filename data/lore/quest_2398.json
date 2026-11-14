@@ -1,0 +1,85 @@
+{
+ "key": "quest:2398",
+ "type": "quest",
+ "name": "The Lost Dwarves",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   2398
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Baelog waits in Uldaman, where he has a wager riding on seeing another living person. Find him before Olaf's beard reaches his knees.",
+ "sections": [
+  {
+   "title": "A Wager in Uldaman",
+   "body": "Baelog waits in Uldaman, hoping to settle a wager with Olaf. You are the living person he has been waiting to see. Olaf's beard still has inches to grow before it reaches his knees, and Baelog offers to share the winnings with you.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Where do I find Baelog?",
+   "aliases": [
+    "baelog location",
+    "find baelog",
+    "where's baelog"
+   ],
+   "answer": "Baelog is in Uldaman."
+  },
+  {
+   "q": "Who is Baelog waiting to see?",
+   "aliases": [
+    "who baelog waiting for",
+    "baelog waiting",
+    "living person"
+   ],
+   "answer": "Baelog has been waiting to see another living person."
+  },
+  {
+   "q": "What did Olaf wager?",
+   "aliases": [
+    "olaf bet",
+    "beard wager",
+    "what's the bet"
+   ],
+   "answer": "Olaf wagered that his beard would reach his knees before he saw another living person."
+  },
+  {
+   "q": "How much longer does Olaf's beard need to grow?",
+   "aliases": [
+    "olaf beard length",
+    "beard to knees",
+    "how long beard"
+   ],
+   "answer": "Olaf's beard has a few more inches to grow before it reaches his knees."
+  },
+  {
+   "q": "What does Baelog offer?",
+   "aliases": [
+    "baelog winnings",
+    "split winnings",
+    "what does baelog give"
+   ],
+   "answer": "Baelog offers to split the wager's winnings with you."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "baelog",
+  "beard wager",
+  "dwarves",
+  "lost dwarves",
+  "olaf",
+  "uldaman"
+ ],
+ "related": [
+  "subzone:uldaman"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Lost Dwarves"
+ ]
+}

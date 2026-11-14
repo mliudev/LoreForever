@@ -74,7 +74,7 @@
     "what do i get",
     "dirge teaches"
    ],
-   "answer": "Dirge offers to teach you the finer points of exotic cuisine and prepare a couple of clamblettes for you."
+   "answer": "Dirge offers to teach you the finer points of exotic cuisine and prepare a couple of clamlettes for you."
   }
  ],
  "angles": [
@@ -94,8 +94,7 @@
  ],
  "related": [
   "npc:dirge-quikcleave",
-  "zone:tanaris",
-  "topic:alterac-kingdom"
+  "zone:tanaris"
  ],
  "style": 2,
  "attribution": [

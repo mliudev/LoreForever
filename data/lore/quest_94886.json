@@ -1,0 +1,88 @@
+{
+ "key": "quest:94886",
+ "type": "quest",
+ "name": "The Western Front",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   94886
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Farholde's patrol has gone missing along the western borders. With Miss Amberhall's findings pointing toward a Twilight Hammer encampment, you are asked to find Sergeant Riftan near the Twilight's Shroud.",
+ "sections": [
+  {
+   "title": "A Missing Patrol",
+   "body": "A Farholde patrol vanished from the western borders, and Sergeant Riftan is among those unaccounted for. Miss Amberhall's findings raise concern that the patrol reached the Twilight Hammer's central encampment. You are asked to look for Riftan near the Twilight's Shroud to the west.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is missing?",
+   "aliases": [
+    "missing patrol",
+    "where's riftan",
+    "sergeant missing"
+   ],
+   "answer": "A Farholde patrol disappeared from the western borders. Sergeant Riftan is the one you are asked to find."
+  },
+  {
+   "q": "Where should I look for Sergeant Riftan?",
+   "aliases": [
+    "riftan location",
+    "find riftan",
+    "where is the sergeant"
+   ],
+   "answer": "Sergeant Riftan is near the Twilight's Shroud to the west."
+  },
+  {
+   "q": "Why is the patrol missing?",
+   "aliases": [
+    "what happened to patrol",
+    "why patrol vanished",
+    "twilight hammer patrol"
+   ],
+   "answer": "Miss Amberhall's findings lead Farholde to fear the patrol walked into the Twilight Hammer's central encampment."
+  },
+  {
+   "q": "Who is Miss Amberhall?",
+   "aliases": [
+    "amberhall",
+    "miss amberhall info",
+    "who's amberhall"
+   ],
+   "answer": "Miss Amberhall is the lady whose findings raise concern that the patrol reached the Twilight Hammer's central encampment."
+  },
+  {
+   "q": "What is happening in Sunnyglade?",
+   "aliases": [
+    "sunnyglade trouble",
+    "sunnyglade cleanup",
+    "what's in sunnyglade"
+   ],
+   "answer": "Farholde says it can handle the cleanup in Sunnyglade itself, while you are asked to check on Sergeant Riftan."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "farholde",
+  "miss amberhall",
+  "missing patrol",
+  "sergeant riftan",
+  "sunnyglade",
+  "twilight hammer",
+  "twilight's shroud",
+  "western borders",
+  "western front"
+ ],
+ "related": [
+  "subzone:sunnyglade"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: The Western Front"
+ ]
+}

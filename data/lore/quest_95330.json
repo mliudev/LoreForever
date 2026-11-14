@@ -1,0 +1,99 @@
+{
+ "key": "quest:95330",
+ "type": "quest",
+ "name": "Love Thy Neighbor",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95330
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Cassandra Wheeler asks you to bring her farm's surplus produce to Halligan Turner at Turner's Logging Camp. She hopes the workers can enjoy some variety in their meals.",
+ "sections": [
+  {
+   "title": "A Neighbor's Gift",
+   "body": "Cassandra Wheeler farms north of Farholde and brings her harvest there to sell. She sets aside what remains for people who could use a lift. The logging camp lies north of her farm, beside the river, and she thinks its workers could use fruit and vegetables. You carry her surplus to Halligan Turner, the camp foreman.",
+   "spoiler": 0
+  },
+  {
+   "title": "At the Camp",
+   "body": "Halligan Turner receives the goods with gratitude. The workers have little beyond meat and bread, so he plans to share the produce among them. He hopes to return Cassandra's kindness in time.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Who is asking for the delivery?",
+   "aliases": [
+    "who wants this",
+    "cassandra request",
+    "farm goods quest"
+   ],
+   "answer": "Cassandra Wheeler asks you to carry her farm's surplus produce to Halligan Turner."
+  },
+  {
+   "q": "Who is Halligan Turner?",
+   "aliases": [
+    "halligan who",
+    "logging camp foreman",
+    "turner guy"
+   ],
+   "answer": "Halligan Turner is the foreman at Turner's Logging Camp."
+  },
+  {
+   "q": "Where is the logging camp?",
+   "aliases": [
+    "where's turner's camp",
+    "camp location",
+    "logging camp"
+   ],
+   "answer": "Turner's Logging Camp is north of Cassandra's farm, beside the river."
+  },
+  {
+   "q": "What goods does Cassandra send?",
+   "aliases": [
+    "what am i delivering",
+    "farm produce",
+    "cassandra's goods"
+   ],
+   "answer": "She sends surplus fruit and vegetables from her farm."
+  },
+  {
+   "q": "Why does Cassandra set aside farm goods?",
+   "aliases": [
+    "why give food",
+    "cassandra's reason",
+    "helping neighbors"
+   ],
+   "answer": "After harvest, Cassandra saves what she does not sell to give to people who could use a lift."
+  },
+  {
+   "q": "What do the logging camp workers usually eat?",
+   "aliases": [
+    "what do loggers eat",
+    "camp workers' food",
+    "meat and bread"
+   ],
+   "answer": "Halligan says the workers eat little besides meat and bread."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "cassandra wheeler",
+  "farholde",
+  "farm goods",
+  "fruit",
+  "halligan turner",
+  "love thy neighbor",
+  "turner's logging camp",
+  "vegetables"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Love Thy Neighbor"
+ ]
+}

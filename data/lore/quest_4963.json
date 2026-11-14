@@ -11,7 +11,7 @@
   "wiki": null,
   "harvested": true
  },
- "summary": "Menara Voidrender in the Barrens needs you to use the Infus Emerald on an Infernal in Desolace. Bring her the emerald and the imprisoned spirit.",
+ "summary": "Acolyte Magaz gives you the Infus Emerald to use on an Infernal in Desolace. Menara Voidrender in the Barrens waits for both the gem and the captured spirit.",
  "sections": [
   {
    "title": "An Infernal Spirit",
@@ -27,7 +27,7 @@
     "what do I do",
     "Infus Emerald task"
    ],
-   "answer": "Menara Voidrender asks you to use the Infus Emerald on an Infernal in Desolace, then bring her the emerald and the imprisoned spirit in the Barrens."
+   "answer": "Menara wants an Infernal's spirit. Capture one in Desolace with the Infus Emerald from Acolyte Magaz, then bring her the emerald and the spirit in the Barrens."
   },
   {
    "q": "Where do I use the Infus Emerald?",

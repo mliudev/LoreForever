@@ -1,0 +1,90 @@
+{
+ "key": "quest:95156",
+ "type": "quest",
+ "name": "Stuff 'Em and Stick 'Em",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   95156
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Ember needs hay from Wheeler\u2019s farmstead to repair worn training dummies. The recruits need sound targets for their battle training.",
+ "sections": [
+  {
+   "title": "Worn Targets",
+   "body": "At the training grounds, Ember needs hay to mend the dummies used by the recruits. Their wear may leave the trainees unprepared for battle. A farmstead outside the keep belongs to Wheeler, who may have hay to spare. Ember offers to compensate him for any supplies he can provide.",
+   "spoiler": 0
+  },
+  {
+   "title": "Fresh Targets",
+   "body": "Ember expects to put several targets back in order as soon as the hay arrives. The recruits\u2019 training depends on dummies that can withstand their practice.",
+   "spoiler": 1
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Ember need hay?",
+   "aliases": [
+    "hay for ember",
+    "why hay",
+    "training dummy hay"
+   ],
+   "answer": "Ember needs hay to repair worn training dummies at the training grounds."
+  },
+  {
+   "q": "Who is Wheeler?",
+   "aliases": [
+    "wheeler farm",
+    "who has hay",
+    "farmstead man"
+   ],
+   "answer": "Wheeler is the man who runs the small farmstead outside the keep, where Ember hopes hay can be spared."
+  },
+  {
+   "q": "Why are the dummies being repaired?",
+   "aliases": [
+    "worn dummies",
+    "training targets broken",
+    "why fix targets"
+   ],
+   "answer": "The dummies are showing wear, and Ember worries the recruits may be unprepared for battle without repairs."
+  },
+  {
+   "q": "Will Wheeler be paid for the hay?",
+   "aliases": [
+    "does wheeler get paid",
+    "compensation for hay",
+    "pay for bundles"
+   ],
+   "answer": "Ember says Wheeler will be compensated if he can spare supplies."
+  },
+  {
+   "q": "What will Ember do with the hay?",
+   "aliases": [
+    "what is hay for",
+    "fix targets",
+    "hay purpose"
+   ],
+   "answer": "Ember plans to use the hay to repair several training targets right away."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "ember",
+  "farmstead",
+  "hay",
+  "recruits",
+  "stuff 'em and stick 'em",
+  "training dummies",
+  "training grounds",
+  "wheeler"
+ ],
+ "related": [],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Stuff 'Em and Stick 'Em"
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "key": "quest:96081",
+ "type": "quest",
+ "name": "Wound Dressings",
+ "era": "forever",
+ "zone": "general",
+ "meta": {
+  "ids": [
+   96081
+  ],
+  "wiki": null,
+  "harvested": true
+ },
+ "summary": "Brother Lowley at Farholde Keep needs cloth for bandages. Farholde has no steady way to make cloth, and its supply is running low.",
+ "sections": [
+  {
+   "title": "A Short Supply",
+   "body": "At Farholde Keep, Brother Lowley asks you to help as quality cloth grows scarce. The keep relies on imports from goblins or cloth taken from orcs. Without more, Lowley may have to make bandages from old shirts, while the fighting force needs them to save lives.",
+   "spoiler": 0
+  }
+ ],
+ "faq": [
+  {
+   "q": "Why does Brother Lowley need cloth?",
+   "aliases": [
+    "why cloth",
+    "Lowley bandages",
+    "need cloth"
+   ],
+   "answer": "Farholde needs cloth to make bandages, and its supply of quality cloth is running low."
+  },
+  {
+   "q": "Why can't Farholde make its own cloth?",
+   "aliases": [
+    "Farholde cloth supply",
+    "no cloth made",
+    "where cloth from"
+   ],
+   "answer": "Farholde has no reliable way to manufacture cloth, so it depends on imports from goblins or cloth taken from orcs."
+  },
+  {
+   "q": "What happens if the cloth runs out?",
+   "aliases": [
+    "no bandages",
+    "old shirts",
+    "cloth shortage"
+   ],
+   "answer": "Brother Lowley may have to make bandages from old shirts."
+  },
+  {
+   "q": "Who asks for the cloth?",
+   "aliases": [
+    "who needs cloth",
+    "Brother Lowley",
+    "cloth request"
+   ],
+   "answer": "Brother Lowley at Farholde Keep asks you to gather Mageweave Cloth."
+  }
+ ],
+ "angles": [],
+ "keywords": [
+  "bandages",
+  "brother lowley",
+  "cloth",
+  "farholde",
+  "farholde keep",
+  "goblins",
+  "mageweave cloth",
+  "orcs"
+ ],
+ "related": [
+  "topic:goblin"
+ ],
+ "style": 2,
+ "attribution": [
+  "In-game quest text: Wound Dressings"
+ ]
+}
